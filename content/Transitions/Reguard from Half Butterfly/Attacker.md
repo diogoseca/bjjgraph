@@ -174,6 +174,54 @@ description: "Learn to execute the Reguard from Half Butterfly as the bottom pla
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Reguard from Half Butterfly (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Recovering butterfly guard from half guard",
+      "description": "Reguard from Half Butterfly (Attacker) film study: Recovering butterfly guard from half guard, taught by For\u00e7a Martial Arts.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/k_nh_V-RnOY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/k_nh_V-RnOY",
+      "url": "https://www.youtube.com/watch?v=k_nh_V-RnOY",
+      "creator": { "@type": "Person", "name": "For\u00e7a Martial Arts" },
+      "duration": "PT198S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Half butterfly guard: retaining butterfly and sweeping",
+      "description": "Reguard from Half Butterfly (Attacker) film study: Half butterfly guard: retaining butterfly and sweeping, taught by Aaron Benzrihem.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/MBBwCFkk3aQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/MBBwCFkk3aQ",
+      "url": "https://www.youtube.com/watch?v=MBBwCFkk3aQ",
+      "creator": { "@type": "Person", "name": "Aaron Benzrihem" },
+      "duration": "PT495S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Transition from half guard to butterfly hook sweep",
+      "description": "Reguard from Half Butterfly (Attacker) film study: Transition from half guard to butterfly hook sweep, taught by MMA Leech.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/mo1EkNQGVr8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/mo1EkNQGVr8",
+      "url": "https://www.youtube.com/watch?v=mo1EkNQGVr8",
+      "creator": { "@type": "Person", "name": "MMA Leech" },
+      "duration": "PT418S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -183,6 +231,42 @@ Executing the reguard from half butterfly requires coordinating hip movement, fr
 **From Position**: [[Positions/Butterfly Guard/Half Butterfly]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Reguard from Half Butterfly (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=k_nh_V-RnOY)
+
+<p class="clip-credit"><strong>Recovering butterfly guard from half guard</strong> — taught by Força Martial Arts · 3:18 · <a href="https://www.youtube.com/watch?v=k_nh_V-RnOY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=MBBwCFkk3aQ)
+
+<p class="clip-credit"><strong>Half butterfly guard: retaining butterfly and sweeping</strong> — taught by Aaron Benzrihem · 8:15 · <a href="https://www.youtube.com/watch?v=MBBwCFkk3aQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=mo1EkNQGVr8)
+
+<p class="clip-credit"><strong>Transition from half guard to butterfly hook sweep</strong> — taught by MMA Leech · 6:58 · <a href="https://www.youtube.com/watch?v=mo1EkNQGVr8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

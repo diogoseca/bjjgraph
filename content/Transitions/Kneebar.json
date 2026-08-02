@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Kneebar Control/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Backside 50-50/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "50-50 Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "The Kneebar is a powerful leg lock attack that hyperextends the knee joint by trapping the opponent's leg between your hips and applying breaking pressure against the natural bend of the knee. From Backside 50-50 Top, the kneebar becomes particularly effective because your chest pressure and positional dominance limit your opponent's defensive options while their extended leg presents an obvious target.\n\nThis submission capitalizes on the inherent vulnerability of the knee joint when isolated and controlled. The attacking practitioner secures the opponent's leg across their hip line, creates a fulcrum point at or just above the knee cap, and applies controlled extension force by arching their hips forward while pulling the ankle toward their chest. The mechanical advantage is substantial when executed correctly, requiring minimal strength to generate significant breaking pressure.\n\nThe kneebar from Backside 50-50 integrates seamlessly into modern leg lock systems as a complementary attack to heel hooks and toe holds. When opponents defend heel hooks effectively by hiding their heel or rotating their knee outward, they often inadvertently straighten their leg, creating the exact configuration needed for kneebar entry. This makes the kneebar an essential tool for creating dilemmas within leg entanglement exchanges, forcing opponents to choose between exposing their heel or extending their leg.",
   "conditions": [
     "Established Backside 50-50 Top position with chest-to-back pressure",
@@ -238,46 +250,175 @@
     "flashcards": [
       {
         "question": "What is the optimal timing window for initiating a kneebar from Backside 50-50 Top?",
-        "answer": "The optimal timing is the moment the opponent's leg extends or straightens, which most commonly occurs when they defend a heel hook by rotating their knee outward, or when they attempt to stand up and extract from the entanglement. You must recognize the extension as it begins and commit to the entry before they can re-bend the knee. Hesitating even one second allows them to re-establish a defensive bent-knee posture."
+        "answer": "The optimal timing is the moment the opponent's leg extends or straightens, which most commonly occurs when they defend a heel hook by rotating their knee outward, or when they attempt to stand up and extract from the entanglement. You must recognize the extension as it begins and commit to the entry before they can re-bend the knee. Hesitating even one second allows them to re-establish a defensive bent-knee posture.",
+        "answer_line": "The instant their leg extends",
+        "distractors": {
+          "plausible": [
+            "Right after securing 50-50",
+            "Once you get chest pressure"
+          ],
+          "trap": [
+            "Wait for them to bend the knee"
+          ]
+        }
       },
       {
         "question": "What conditions must exist before you commit to the kneebar entry?",
-        "answer": "Four conditions are required: established Backside 50-50 Top with chest pressure, the target leg extending or straightened, hip control on the target side preventing rotation, and a clear path to rotate perpendicular to their leg. If any condition is missing, the kneebar will likely fail - particularly if the leg is still bent or you lack hip control. Use heel hook threats to create the extension if it does not exist naturally."
+        "answer": "Four conditions are required: established Backside 50-50 Top with chest pressure, the target leg extending or straightened, hip control on the target side preventing rotation, and a clear path to rotate perpendicular to their leg. If any condition is missing, the kneebar will likely fail - particularly if the leg is still bent or you lack hip control. Use heel hook threats to create the extension if it does not exist naturally.",
+        "answer_line": "Leg straight + hip control locked",
+        "distractors": {
+          "plausible": [
+            "Backside 50-50 grip established",
+            "Chest pressure + clear rotation path"
+          ],
+          "trap": [
+            "Crank on the bent leg to force it"
+          ]
+        }
       },
       {
         "question": "Where exactly should the fulcrum point be positioned for maximum kneebar effectiveness?",
-        "answer": "The fulcrum point should be at or slightly above the kneecap, using your hip bone or lower abdomen. Positioning too low on the thigh applies force to muscle rather than joint, eliminating the hyperextension effect. Positioning directly on the kneecap or slightly above ensures that your hip extension creates true joint hyperextension rather than just uncomfortable pressure. When unsure, err slightly higher."
+        "answer": "The fulcrum point should be at or slightly above the kneecap, using your hip bone or lower abdomen. Positioning too low on the thigh applies force to muscle rather than joint, eliminating the hyperextension effect. Positioning directly on the kneecap or slightly above ensures that your hip extension creates true joint hyperextension rather than just uncomfortable pressure. When unsure, err slightly higher.",
+        "answer_line": "At or just above the kneecap",
+        "distractors": {
+          "plausible": [
+            "Middle of the thigh muscle",
+            "Just below the knee joint"
+          ],
+          "trap": [
+            "Low on the calf near the ankle"
+          ]
+        }
       },
       {
         "question": "Your opponent is defending heel hooks by keeping their knee rotated outward. How does this create a kneebar opportunity?",
-        "answer": "When opponents rotate their knee outward to defend heel hooks, they typically straighten their leg to prevent you from accessing the heel. This leg extension is exactly the configuration needed for kneebar entry. The defense against one attack creates vulnerability to another - this is the fundamental dilemma that makes leg lock systems effective. Recognizing this pattern and transitioning immediately is the hallmark of systematic leg lock play."
+        "answer": "When opponents rotate their knee outward to defend heel hooks, they typically straighten their leg to prevent you from accessing the heel. This leg extension is exactly the configuration needed for kneebar entry. The defense against one attack creates vulnerability to another - this is the fundamental dilemma that makes leg lock systems effective. Recognizing this pattern and transitioning immediately is the hallmark of systematic leg lock play.",
+        "answer_line": "Rotation straightens the leg for you",
+        "distractors": {
+          "plausible": [
+            "It weakens their hip control",
+            "It frees your other leg to attack"
+          ],
+          "trap": [
+            "It exposes their heel to grip"
+          ]
+        }
       },
       {
         "question": "What is the critical mechanical difference between finishing with arms versus finishing with hips?",
-        "answer": "Hip extension generates significantly more force than arm pulling while consuming less energy. Your hip extensors (glutes, hamstrings) are among the strongest muscles in your body, while your arm flexors fatigue quickly under load. The arms should grip the ankle to prevent escape, but breaking pressure comes from driving your hips forward and arching your back. This hip-dominant finish is sustainable and powerful enough to overcome defensive resistance."
+        "answer": "Hip extension generates significantly more force than arm pulling while consuming less energy. Your hip extensors (glutes, hamstrings) are among the strongest muscles in your body, while your arm flexors fatigue quickly under load. The arms should grip the ankle to prevent escape, but breaking pressure comes from driving your hips forward and arching your back. This hip-dominant finish is sustainable and powerful enough to overcome defensive resistance.",
+        "answer_line": "Hips drive force, arms just anchor",
+        "distractors": {
+          "plausible": [
+            "Arms finish faster under fatigue",
+            "Hips control, arms create pressure"
+          ],
+          "trap": [
+            "Curl the ankle in with both arms"
+          ]
+        }
       },
       {
         "question": "What grip configuration should you use when controlling the leg for the kneebar finish?",
-        "answer": "Both hands grip the opponent's foot or lower shin area, pulling the ankle tight against your chest. A gable grip or figure-four around the lower calf provides the strongest hold. Your elbows should squeeze inward against the leg to prevent extraction. The grip serves two purposes: preventing the opponent from pulling free and providing the anchor point for your hip-driven extension. Grip too high on the leg and you lose finishing leverage; too low and the foot can slip free."
+        "answer": "Both hands grip the opponent's foot or lower shin area, pulling the ankle tight against your chest. A gable grip or figure-four around the lower calf provides the strongest hold. Your elbows should squeeze inward against the leg to prevent extraction. The grip serves two purposes: preventing the opponent from pulling free and providing the anchor point for your hip-driven extension. Grip too high on the leg and you lose finishing leverage; too low and the foot can slip free.",
+        "answer_line": "Gable grip on foot, ankle to chest",
+        "distractors": {
+          "plausible": [
+            "Grip high on the mid-thigh",
+            "One hand foot, one hand knee"
+          ],
+          "trap": [
+            "Grip only the toes loosely"
+          ]
+        }
       },
       {
         "question": "Your opponent starts rolling toward you as you apply the kneebar. What are your two best responses?",
-        "answer": "First option: follow their roll and maintain your finishing position, transitioning to belly-down kneebar where gravity assists your control. Second option: recognize that their roll exposes their back and abandon the leg attack to secure back control instead. The choice depends on how committed they are to the roll and whether you have strong control of the leg. If your leg triangle is tight, follow the roll and finish. If control is loose, take the back."
+        "answer": "First option: follow their roll and maintain your finishing position, transitioning to belly-down kneebar where gravity assists your control. Second option: recognize that their roll exposes their back and abandon the leg attack to secure back control instead. The choice depends on how committed they are to the roll and whether you have strong control of the leg. If your leg triangle is tight, follow the roll and finish. If control is loose, take the back.",
+        "answer_line": "Follow the roll or take the back",
+        "distractors": {
+          "plausible": [
+            "Crank harder as they roll",
+            "Switch to a toe hold mid-roll"
+          ],
+          "trap": [
+            "Belly-up to keep the finish"
+          ]
+        }
       },
       {
         "question": "Your opponent bends their knee sharply and begins rotating their hip. What does this tell you about your next attack?",
-        "answer": "A bent knee with hip rotation means the kneebar is no longer viable, but the bend exposes their heel for a heel hook and their foot for a toe hold. Immediately assess which target is more accessible: if the heel is exposed, transition to inside heel hook by securing the heel and applying rotational pressure. If the foot is more available, switch to toe hold. This forced transition is why the kneebar works best as part of a leg lock system rather than an isolated attack."
+        "answer": "A bent knee with hip rotation means the kneebar is no longer viable, but the bend exposes their heel for a heel hook and their foot for a toe hold. Immediately assess which target is more accessible: if the heel is exposed, transition to inside heel hook by securing the heel and applying rotational pressure. If the foot is more available, switch to toe hold. This forced transition is why the kneebar works best as part of a leg lock system rather than an isolated attack.",
+        "answer_line": "Switch to heel hook or toe hold",
+        "distractors": {
+          "plausible": [
+            "Extend the leg back to kneebar",
+            "Switch to a straight ankle lock"
+          ],
+          "trap": [
+            "Chase the kneebar, ignore the spin"
+          ]
+        }
       },
       {
         "question": "What direction of force should you apply during the kneebar finish, and why?",
-        "answer": "The primary force vector is forward hip drive combined with upward arching of the back, creating extension pressure against the natural bend of the knee. Your hips push forward toward the opponent while your chest and arms pull the ankle in the opposite direction toward your body. This creates a lever with the fulcrum at the kneecap. The force must be perpendicular to the opponent's thigh axis - angled force dissipates into rotation rather than hyperextension."
+        "answer": "The primary force vector is forward hip drive combined with upward arching of the back, creating extension pressure against the natural bend of the knee. Your hips push forward toward the opponent while your chest and arms pull the ankle in the opposite direction toward your body. This creates a lever with the fulcrum at the kneecap. The force must be perpendicular to the opponent's thigh axis - angled force dissipates into rotation rather than hyperextension.",
+        "answer_line": "Hips forward, perpendicular to thigh",
+        "distractors": {
+          "plausible": [
+            "Pull ankle straight up and back",
+            "Twist the ankle for leverage"
+          ],
+          "trap": [
+            "Drive hips sideways into the hip"
+          ]
+        }
       },
       {
         "question": "When should you abandon a kneebar attempt and what are your chain attack options?",
-        "answer": "Abandon when the opponent successfully bends their knee past 90 degrees and maintains hip rotation despite your control efforts, or when they establish strong grip fighting that prevents proper ankle control. Chain attack options include: inside heel hook when the bent knee exposes the heel, toe hold when the foot becomes accessible during their defense, returning to Backside 50-50 chest pressure to reset and wait for a better opportunity, or transitioning to back control if they over-rotate during their escape."
+        "answer": "Abandon when the opponent successfully bends their knee past 90 degrees and maintains hip rotation despite your control efforts, or when they establish strong grip fighting that prevents proper ankle control. Chain attack options include: inside heel hook when the bent knee exposes the heel, toe hold when the foot becomes accessible during their defense, returning to Backside 50-50 chest pressure to reset and wait for a better opportunity, or transitioning to back control if they over-rotate during their escape.",
+        "answer_line": "Bail when knee bends past 90°",
+        "distractors": {
+          "plausible": [
+            "Toe hold before ankle control",
+            "Take back if he flattens out"
+          ],
+          "trap": [
+            "Keep cranking the bent knee"
+          ]
+        }
       }
     ],
-    "safety_considerations": "The kneebar attacks the knee joint's structural integrity and can cause serious ligament damage (ACL, PCL, MCL, LCL) if applied without control. Always apply pressure gradually, never explosively. Training partners must tap early when they feel the hyperextension beginning - there is no fighting through a properly applied kneebar. Practitioners with existing knee injuries should communicate limitations before drilling. When finishing, maintain control even after your partner taps - releasing suddenly while they are resisting can cause injury. In training, prioritize your partner's safety over finishing the submission. Stop immediately if your partner says stop rather than tapping, as verbal submission is equally valid. Avoid training kneebars with brand new partners until you understand their pain tolerance and tapping habits."
+    "safety_considerations": "The kneebar attacks the knee joint's structural integrity and can cause serious ligament damage (ACL, PCL, MCL, LCL) if applied without control. Always apply pressure gradually, never explosively. Training partners must tap early when they feel the hyperextension beginning - there is no fighting through a properly applied kneebar. Practitioners with existing knee injuries should communicate limitations before drilling. When finishing, maintain control even after your partner taps - releasing suddenly while they are resisting can cause injury. In training, prioritize your partner's safety over finishing the submission. Stop immediately if your partner says stop rather than tapping, as verbal submission is equally valid. Avoid training kneebars with brand new partners until you understand their pain tolerance and tapping habits.",
+    "clips": [
+      {
+        "id": "vMqDIi10z4k",
+        "title": "Dog bar kneebar variation",
+        "by": "Craig Jones",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 61,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "nlqXyzajRUg",
+        "title": "Omoplata to kneebar",
+        "by": "Todd Hendrickson",
+        "vertical": false,
+        "channel": "Old School Jiu Jitsu",
+        "duration": 88,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "v4lhLkKgVvU",
+        "title": "Go behind kneebar",
+        "by": "Craig Jones",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 129,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Kneebar Defender",
@@ -367,23 +508,73 @@
     "flashcards": [
       {
         "question": "What is the single most important defensive action when you recognize a kneebar is being initiated?",
-        "answer": "Immediately bend your knee. Knee flexion is the most powerful universal defense because a bent knee cannot be hyperextended regardless of how strong the attacker's position is. This should be an automatic, reflexive response to any kneebar recognition cue. Once the knee is bent past 90 degrees, the attacker must either abandon the kneebar or work to re-straighten your leg, buying you time for further defensive actions."
+        "answer": "Immediately bend your knee. Knee flexion is the most powerful universal defense because a bent knee cannot be hyperextended regardless of how strong the attacker's position is. This should be an automatic, reflexive response to any kneebar recognition cue. Once the knee is bent past 90 degrees, the attacker must either abandon the kneebar or work to re-straighten your leg, buying you time for further defensive actions.",
+        "answer_line": "Bend your knee immediately",
+        "distractors": {
+          "plausible": [
+            "Grab the attacker's foot first",
+            "Slide your hips back to escape"
+          ],
+          "trap": [
+            "Yank the leg straight to pull out"
+          ]
+        }
       },
       {
         "question": "How do you distinguish between safe positional control pressure and dangerous finishing pressure during a kneebar?",
-        "answer": "Safe positional pressure feels like tightness and compression around your leg without genuine extension against the knee joint. Dangerous finishing pressure is characterized by a distinct stretching sensation at the knee as the attacker drives their hips forward while your ankle is anchored. If your knee remains bent, the pressure is positional. If you feel your knee being forcefully straightened with increasing extension, that is finishing pressure requiring immediate tap if you cannot re-bend."
+        "answer": "Safe positional pressure feels like tightness and compression around your leg without genuine extension against the knee joint. Dangerous finishing pressure is characterized by a distinct stretching sensation at the knee as the attacker drives their hips forward while your ankle is anchored. If your knee remains bent, the pressure is positional. If you feel your knee being forcefully straightened with increasing extension, that is finishing pressure requiring immediate tap if you cannot re-bend.",
+        "answer_line": "A true stretch at the knee = danger",
+        "distractors": {
+          "plausible": [
+            "Any tightness means tap immediately",
+            "Ankle discomfort signals the finish"
+          ],
+          "trap": [
+            "Only tap when you hear a pop"
+          ]
+        }
       },
       {
         "question": "Your opponent has established a deep leg triangle and fulcrum position. What is your last-resort defensive option?",
-        "answer": "Roll your body toward the attacker to align your leg with their extension force, eliminating the hyperextension angle. This is a last resort because it concedes position and may lead to a belly-down kneebar if the attacker follows. However, it immediately neutralizes finishing pressure and creates a scramble opportunity. Commit fully to the roll - half-hearted rolls leave you stuck in the worst possible finishing angle. After rolling, immediately work to face the attacker and recover guard."
+        "answer": "Roll your body toward the attacker to align your leg with their extension force, eliminating the hyperextension angle. This is a last resort because it concedes position and may lead to a belly-down kneebar if the attacker follows. However, it immediately neutralizes finishing pressure and creates a scramble opportunity. Commit fully to the roll - half-hearted rolls leave you stuck in the worst possible finishing angle. After rolling, immediately work to face the attacker and recover guard.",
+        "answer_line": "Roll toward the attacker fully",
+        "distractors": {
+          "plausible": [
+            "Grip strip their hands off the ankle",
+            "Sit up and pull them into guard"
+          ],
+          "trap": [
+            "Roll away from the attacker"
+          ]
+        }
       },
       {
         "question": "What recognition cues should trigger your defensive response before the kneebar is fully established?",
-        "answer": "The earliest cues are the release of chest-to-back pressure combined with lateral weight shift as the attacker begins rotating perpendicular to your leg. You will feel their forearm or hand pressing your hip, pinning it to prevent rotation. Their legs will begin moving around your upper thigh in a triangling motion. React at the first cue rather than waiting for confirmation - the cost of a false alarm is negligible compared to the cost of late recognition."
+        "answer": "The earliest cues are the release of chest-to-back pressure combined with lateral weight shift as the attacker begins rotating perpendicular to your leg. You will feel their forearm or hand pressing your hip, pinning it to prevent rotation. Their legs will begin moving around your upper thigh in a triangling motion. React at the first cue rather than waiting for confirmation - the cost of a false alarm is negligible compared to the cost of late recognition.",
+        "answer_line": "Chest pressure releases, hip pinned",
+        "distractors": {
+          "plausible": [
+            "They grip your foot tightly",
+            "They switch their base leg"
+          ],
+          "trap": [
+            "Wait until you feel real pain"
+          ]
+        }
       },
       {
         "question": "Why does defending the kneebar by rotating your hip outward create a heel hook vulnerability?",
-        "answer": "When you rotate your hip outward to defeat the kneebar extension angle, you tend to straighten your leg and expose your heel to the attacker's hands. The attacker can immediately switch from kneebar to inside heel hook, which attacks through rotational force rather than extension. This is the core dilemma of leg lock defense - kneebar defense exposes heel hook, and heel hook defense exposes kneebar. The solution is controlled hip rotation while actively hiding the heel by keeping your toes pulled toward your shin."
+        "answer": "When you rotate your hip outward to defeat the kneebar extension angle, you tend to straighten your leg and expose your heel to the attacker's hands. The attacker can immediately switch from kneebar to inside heel hook, which attacks through rotational force rather than extension. This is the core dilemma of leg lock defense - kneebar defense exposes heel hook, and heel hook defense exposes kneebar. The solution is controlled hip rotation while actively hiding the heel by keeping your toes pulled toward your shin.",
+        "answer_line": "Rotation straightens leg, bares heel",
+        "distractors": {
+          "plausible": [
+            "It loosens your own hip control",
+            "It slows your escape timing"
+          ],
+          "trap": [
+            "It exposes your toes to a toehold"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -406,6 +597,35 @@
         "phase": "Week 7+",
         "focus": "Live positional sparring from leg entanglements",
         "description": "Full resistance positional sparring starting from Backside 50-50. Attacker attempts kneebar and chain attacks while defender works defensive sequences. Track success rate and identify which recognition cues you miss most frequently. Integrate kneebar defense into broader leg lock defense system including heel hook and toe hold awareness."
+      }
+    ],
+    "clips": [
+      {
+        "id": "wBRG0fY94fs",
+        "title": "How to defend a kneebar",
+        "by": "Andrew Smith",
+        "vertical": false,
+        "channel": "Revolution BJJ",
+        "duration": 59,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "NuWBh3LN-SY",
+        "title": "Kneebar defense to taking the back",
+        "by": "Bicudo",
+        "vertical": false,
+        "channel": "Bicudo BJJ",
+        "duration": 22,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "kUuJ03CcIUQ",
+        "title": "Kneebar defense vs Garry Tonon",
+        "by": "AJ Agazarm",
+        "vertical": false,
+        "channel": "FloGrappling",
+        "duration": 23,
+        "verified": "2026-07-15"
       }
     ]
   }

@@ -176,6 +176,43 @@ description: "Execute the Armbar from High Mount in BJJ. Step-by-step mechanics 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Armbar from High Mount (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Arm bar from the Mount",
+      "description": "Armbar from High Mount (Attacker) film study: Arm bar from the Mount, taught by Cosens MMA.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/cajDQH-ZiH8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/cajDQH-ZiH8",
+      "url": "https://www.youtube.com/watch?v=cajDQH-ZiH8",
+      "creator": { "@type": "Person", "name": "Cosens MMA" },
+      "duration": "PT44S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Armbar breakdown",
+      "description": "Armbar from High Mount (Attacker) film study: Armbar breakdown, taught by Roger Gracie.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/vSmRbpNmf-E/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/vSmRbpNmf-E",
+      "url": "https://www.youtube.com/watch?v=vSmRbpNmf-E",
+      "creator": { "@type": "Person", "name": "Roger Gracie" },
+      "duration": "PT102S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -186,6 +223,34 @@ Attacking the Armbar from High Mount is a systematic process that begins well be
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Armbar from High Mount (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=cajDQH-ZiH8)
+
+<p class="clip-credit"><strong>Arm bar from the Mount</strong> — taught by Cosens MMA · 0:44 · <a href="https://www.youtube.com/watch?v=cajDQH-ZiH8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=vSmRbpNmf-E)
+
+<p class="clip-credit"><strong>Armbar breakdown</strong> — taught by Roger Gracie · 1:42 · <a href="https://www.youtube.com/watch?v=vSmRbpNmf-E" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

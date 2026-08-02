@@ -174,6 +174,54 @@ description: "How to execute Spider Guard Pass in BJJ. Attacking perspective wit
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Spider Guard Pass (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Passing the spider guard",
+      "description": "Spider Guard Pass (Attacker) film study: Passing the spider guard, taught by Performance MA Academy coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/18F7wxj6xqg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/18F7wxj6xqg",
+      "url": "https://www.youtube.com/watch?v=18F7wxj6xqg",
+      "creator": { "@type": "Person", "name": "Performance MA Academy coach" },
+      "duration": "PT72S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Stacking spider guard pass",
+      "description": "Spider Guard Pass (Attacker) film study: Stacking spider guard pass, taught by Chris Haueter.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/v9Fyn7YEddk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/v9Fyn7YEddk",
+      "url": "https://www.youtube.com/watch?v=v9Fyn7YEddk",
+      "creator": { "@type": "Person", "name": "Chris Haueter" },
+      "duration": "PT231S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Method to pass spider guard",
+      "description": "Spider Guard Pass (Attacker) film study: Method to pass spider guard, taught by Samuel Nagai.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/IiQhyeU2iZI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/IiQhyeU2iZI",
+      "url": "https://www.youtube.com/watch?v=IiQhyeU2iZI",
+      "creator": { "@type": "Person", "name": "Samuel Nagai" },
+      "duration": "PT297S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -183,6 +231,42 @@ The Spider Guard Pass requires the top player to systematically dismantle one of
 **From Position**: [[Positions/Spider Guard]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Spider Guard Pass (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=18F7wxj6xqg)
+
+<p class="clip-credit"><strong>Passing the spider guard</strong> — taught by Performance MA Academy coach · 1:12 · <a href="https://www.youtube.com/watch?v=18F7wxj6xqg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=v9Fyn7YEddk)
+
+<p class="clip-credit"><strong>Stacking spider guard pass</strong> — taught by Chris Haueter · 3:51 · <a href="https://www.youtube.com/watch?v=v9Fyn7YEddk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=IiQhyeU2iZI)
+
+<p class="clip-credit"><strong>Method to pass spider guard</strong> — taught by Samuel Nagai · 4:57 · <a href="https://www.youtube.com/watch?v=IiQhyeU2iZI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

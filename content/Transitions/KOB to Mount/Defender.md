@@ -148,6 +148,54 @@ description: "Defend the Knee on Belly to Mount transition. Recognition cues, fr
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "KOB to Mount (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "How to escape the knee on belly position",
+      "description": "KOB to Mount (Defender) film study: How to escape the knee on belly position, taught by Evolve MMA.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Wn01Ynw7O28/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Wn01Ynw7O28",
+      "url": "https://www.youtube.com/watch?v=Wn01Ynw7O28",
+      "creator": { "@type": "Person", "name": "Evolve MMA" },
+      "duration": "PT40S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "First principles escapes for mount and knee on belly",
+      "description": "KOB to Mount (Defender) film study: First principles escapes for mount and knee on belly, taught by 40 Plus BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/I9_3u9AcwAg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/I9_3u9AcwAg",
+      "url": "https://www.youtube.com/watch?v=I9_3u9AcwAg",
+      "creator": { "@type": "Person", "name": "40 Plus BJJ" },
+      "duration": "PT59S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Escaping as they transition to knee on belly and mount",
+      "description": "KOB to Mount (Defender) film study: Escaping as they transition to knee on belly and mount, taught by John Kelly.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/DagXZb2hses/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/DagXZb2hses",
+      "url": "https://www.youtube.com/watch?v=DagXZb2hses",
+      "creator": { "@type": "Person", "name": "John Kelly" },
+      "duration": "PT58S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +205,42 @@ Defending the KOB to Mount transition requires recognizing the top player's inte
 **Opponent's Starting Position**: [[Positions/Knee on Belly]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch KOB to Mount (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Wn01Ynw7O28)
+
+<p class="clip-credit"><strong>How to escape the knee on belly position</strong> — taught by Evolve MMA · 0:40 · <a href="https://www.youtube.com/watch?v=Wn01Ynw7O28" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=I9_3u9AcwAg)
+
+<p class="clip-credit"><strong>First principles escapes for mount and knee on belly</strong> — taught by 40 Plus BJJ · 0:59 · <a href="https://www.youtube.com/watch?v=I9_3u9AcwAg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=DagXZb2hses)
+
+<p class="clip-credit"><strong>Escaping as they transition to knee on belly and mount</strong> — taught by John Kelly · 0:58 · <a href="https://www.youtube.com/watch?v=DagXZb2hses" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

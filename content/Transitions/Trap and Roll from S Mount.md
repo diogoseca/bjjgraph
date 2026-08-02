@@ -34,6 +34,54 @@ description: "Master the Trap and Roll from S Mount in BJJ. Complete guide to br
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Trap and Roll from S Mount \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Trap and roll from mounted punches",
+      "description": "Trap and Roll from S Mount film study: Trap and roll from mounted punches, taught by Gabriel Toribio.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/HZ8TVKYg9x0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/HZ8TVKYg9x0",
+      "url": "https://www.youtube.com/watch?v=HZ8TVKYg9x0",
+      "creator": { "@type": "Person", "name": "Gabriel Toribio" },
+      "duration": "PT26S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Mount escape: trap, bump and roll",
+      "description": "Trap and Roll from S Mount film study: Mount escape: trap, bump and roll, taught by Daniel Gracie Academy.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/00YumUON6to/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/00YumUON6to",
+      "url": "https://www.youtube.com/watch?v=00YumUON6to",
+      "creator": { "@type": "Person", "name": "Daniel Gracie Academy" },
+      "duration": "PT106S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Trap and roll variation against the cross face",
+      "description": "Trap and Roll from S Mount film study: Trap and roll variation against the cross face, taught by Houston Karate Dojo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/LRAIOE7QNWM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/LRAIOE7QNWM",
+      "url": "https://www.youtube.com/watch?v=LRAIOE7QNWM",
+      "creator": { "@type": "Person", "name": "Houston Karate Dojo" },
+      "duration": "PT127S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ This technique carries inherent risk because the bridging motion can inadvertent
 **Success Rate**: 30%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Trap and Roll from S Mount in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=HZ8TVKYg9x0)
+
+<p class="clip-credit"><strong>Trap and roll from mounted punches</strong> — taught by Gabriel Toribio · 0:26 · <a href="https://www.youtube.com/watch?v=HZ8TVKYg9x0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=00YumUON6to)
+
+<p class="clip-credit"><strong>Mount escape: trap, bump and roll</strong> — taught by Daniel Gracie Academy · 1:46 · <a href="https://www.youtube.com/watch?v=00YumUON6to" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=LRAIOE7QNWM)
+
+<p class="clip-credit"><strong>Trap and roll variation against the cross face</strong> — taught by Houston Karate Dojo · 2:07 · <a href="https://www.youtube.com/watch?v=LRAIOE7QNWM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

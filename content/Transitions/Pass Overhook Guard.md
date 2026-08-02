@@ -34,6 +34,43 @@ description: "Master passing Overhook Guard in BJJ. Complete technical guide cov
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Pass Overhook Guard \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Overhook pass breakdown from the top",
+      "description": "Pass Overhook Guard film study: Overhook pass breakdown from the top, taught by Eric Laporte.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/NjpsGcUIo9Y/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/NjpsGcUIo9Y",
+      "url": "https://www.youtube.com/watch?v=NjpsGcUIo9Y",
+      "creator": { "@type": "Person", "name": "Eric Laporte" },
+      "duration": "PT167S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Beating the whizzer/overhook while passing",
+      "description": "Pass Overhook Guard film study: Beating the whizzer/overhook while passing, taught by Pendergrass Academy.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/IQ2mviobbI0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/IQ2mviobbI0",
+      "url": "https://www.youtube.com/watch?v=IQ2mviobbI0",
+      "creator": { "@type": "Person", "name": "Pendergrass Academy" },
+      "duration": "PT138S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +106,34 @@ This pass integrates with broader guard passing systems as a specialized solutio
 **Success Rate**: 50%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Pass Overhook Guard in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=NjpsGcUIo9Y)
+
+<p class="clip-credit"><strong>Overhook pass breakdown from the top</strong> — taught by Eric Laporte · 2:47 · <a href="https://www.youtube.com/watch?v=NjpsGcUIo9Y" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=IQ2mviobbI0)
+
+<p class="clip-credit"><strong>Beating the whizzer/overhook while passing</strong> — taught by Pendergrass Academy · 2:18 · <a href="https://www.youtube.com/watch?v=IQ2mviobbI0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

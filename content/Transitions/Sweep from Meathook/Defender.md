@@ -140,6 +140,54 @@ description: "Defend the Sweep from Meathook in BJJ. Learn base recovery, weight
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Sweep from Meathook (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Elbow position to beat rubber guard control",
+      "description": "Sweep from Meathook (Defender) film study: Elbow position to beat rubber guard control, taught by Brandon McCaghren.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/QzT5BsOqrMk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/QzT5BsOqrMk",
+      "url": "https://www.youtube.com/watch?v=QzT5BsOqrMk",
+      "creator": { "@type": "Person", "name": "Brandon McCaghren" },
+      "duration": "PT57S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Why the rubber guard fails \u2014 passer\u0027s counters",
+      "description": "Sweep from Meathook (Defender) film study: Why the rubber guard fails \u2014 passer\u0027s counters, taught by Brandon Mccaghren.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/iwcfKUPNZNs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/iwcfKUPNZNs",
+      "url": "https://www.youtube.com/watch?v=iwcfKUPNZNs",
+      "creator": { "@type": "Person", "name": "Brandon Mccaghren" },
+      "duration": "PT792S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Common rubber guard breakdowns and how to exploit them",
+      "description": "Sweep from Meathook (Defender) film study: Common rubber guard breakdowns and how to exploit them, taught by Brandon Mccaghren.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/5jKZpFnxYbE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/5jKZpFnxYbE",
+      "url": "https://www.youtube.com/watch?v=5jKZpFnxYbE",
+      "creator": { "@type": "Person", "name": "Brandon Mccaghren" },
+      "duration": "PT307S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -149,6 +197,42 @@ Defending the Sweep from Meathook requires the top player to recognize sweep ini
 **Opponent's Starting Position**: [[Positions/Rubber Guard/Meathook]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Sweep from Meathook (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=QzT5BsOqrMk)
+
+<p class="clip-credit"><strong>Elbow position to beat rubber guard control</strong> — taught by Brandon McCaghren · 0:57 · <a href="https://www.youtube.com/watch?v=QzT5BsOqrMk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=iwcfKUPNZNs)
+
+<p class="clip-credit"><strong>Why the rubber guard fails — passer&#39;s counters</strong> — taught by Brandon Mccaghren · 13:12 · <a href="https://www.youtube.com/watch?v=iwcfKUPNZNs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=5jKZpFnxYbE)
+
+<p class="clip-credit"><strong>Common rubber guard breakdowns and how to exploit them</strong> — taught by Brandon Mccaghren · 5:07 · <a href="https://www.youtube.com/watch?v=5jKZpFnxYbE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

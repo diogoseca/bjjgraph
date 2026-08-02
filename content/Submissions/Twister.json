@@ -18,7 +18,10 @@
   "target_area": "Cervical and thoracic spine, shoulder girdle",
   "starting_position": "Truck",
   "from_position": "Twister Control/Top",
-  "success_rate": 40,
+  "success_rate": {
+    "gi": 40,
+    "nogi": 40
+  },
   "variant_uniqueness": "Corkscrew spinal torque from opposing force vectors",
   "summary": "The Twister is a 10th Planet spinal-lock submission that corkscrews the opponent's spine by driving their upper body one direction while a trapped leg pins their lower body the other, finished from the Truck position.",
   "overview": "The Twister is an advanced spinal lock submission popularized by 10th Planet Jiu-Jitsu. This technique creates a corkscrew-like torque on the opponent's spine by controlling their lower body with a lockdown or body triangle while simultaneously controlling their upper body in the opposite direction. The Twister is primarily entered from the Truck position, where you have your opponent's back while they are belly-down, with their legs controlled in a specific entanglement. The submission applies pressure to the entire spinal column, creating a twisting motion that forces the tap.\n\nDue to the complex mechanics and significant injury potential, the Twister is considered an advanced technique requiring extensive training under qualified instruction. In competition, it is illegal in many rulesets including IBJJF gi divisions, though it is legal in most no-gi competitions at brown and black belt levels. The Twister represents the culmination of the 10th Planet systematic approach to back attacks and is the signature submission of the system. The position creates a true dilemma: defending the spinal rotation exposes the legs to calf slicers and banana splits, while defending the lower body allows the twisting finish to be completed.",
@@ -210,6 +213,44 @@
     {
       "name": "Crucifix",
       "relationship": "Related back control position with arm isolation options"
+    }
+  ],
+  "clips": [
+    {
+      "id": "odT3-cVWXdc",
+      "title": "Twister Side Attacks",
+      "by": "Eddie Bravo",
+      "vertical": false,
+      "channel": "Eddie Bravo",
+      "duration": 61,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "FjWN_aBp2eE",
+      "title": "Eddie Bravo's Twister",
+      "by": "Eddie Bravo",
+      "vertical": false,
+      "channel": "CholoMMA",
+      "duration": 49,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "R55lmkc6Mus",
+      "title": "Twister from Side Control",
+      "by": "Eddie Bravo",
+      "vertical": false,
+      "channel": "Eddie Bravo",
+      "duration": 87,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "RVr67Kb-6ec",
+      "title": "Twister from Turtle",
+      "by": "Thunderdome BJJ",
+      "vertical": false,
+      "channel": "Thunderdome BJJ",
+      "duration": 24,
+      "verified": "2026-07-14"
     }
   ]
 }

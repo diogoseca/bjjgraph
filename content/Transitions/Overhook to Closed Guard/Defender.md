@@ -148,6 +148,54 @@ description: "Complete guide to defending against Overhook to Closed Guard trans
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Overhook to Closed Guard (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Closed guard overhook/clamp defense and counter",
+      "description": "Overhook to Closed Guard (Defender) film study: Closed guard overhook/clamp defense and counter, taught by The Grappling Bloke.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/58LkTy6v3KQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/58LkTy6v3KQ",
+      "url": "https://www.youtube.com/watch?v=58LkTy6v3KQ",
+      "creator": { "@type": "Person", "name": "The Grappling Bloke" },
+      "duration": "PT109S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Key detail for opening the closed guard",
+      "description": "Overhook to Closed Guard (Defender) film study: Key detail for opening the closed guard, taught by Dan McCarthy.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/r2Zj80AQJuQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/r2Zj80AQJuQ",
+      "url": "https://www.youtube.com/watch?v=r2Zj80AQJuQ",
+      "creator": { "@type": "Person", "name": "Dan McCarthy" },
+      "duration": "PT220S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Countering the head push from the top",
+      "description": "Overhook to Closed Guard (Defender) film study: Countering the head push from the top, taught by Bernardo Faria.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/nkC5gqqg9uo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/nkC5gqqg9uo",
+      "url": "https://www.youtube.com/watch?v=nkC5gqqg9uo",
+      "creator": { "@type": "Person", "name": "Bernardo Faria" },
+      "duration": "PT121S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +205,42 @@ As the defender against the Overhook to Closed Guard transition, you are the top
 **Opponent's Starting Position**: [[Positions/Overhook Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Overhook to Closed Guard (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=58LkTy6v3KQ)
+
+<p class="clip-credit"><strong>Closed guard overhook/clamp defense and counter</strong> — taught by The Grappling Bloke · 1:49 · <a href="https://www.youtube.com/watch?v=58LkTy6v3KQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=r2Zj80AQJuQ)
+
+<p class="clip-credit"><strong>Key detail for opening the closed guard</strong> — taught by Dan McCarthy · 3:40 · <a href="https://www.youtube.com/watch?v=r2Zj80AQJuQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=nkC5gqqg9uo)
+
+<p class="clip-credit"><strong>Countering the head push from the top</strong> — taught by Bernardo Faria · 2:01 · <a href="https://www.youtube.com/watch?v=nkC5gqqg9uo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

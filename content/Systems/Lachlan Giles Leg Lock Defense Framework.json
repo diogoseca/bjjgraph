@@ -371,35 +371,115 @@
   "flashcards": [
     {
       "question": "What is the core philosophy of the Lachlan Giles Leg Lock Defense Framework?",
-      "answer": "It prioritizes prevention over reaction — recognizing and shutting down leg entanglement entries before full control is established, rather than relying on explosive escapes once the leg is already trapped."
+      "answer": "It prioritizes prevention over reaction — recognizing and shutting down leg entanglement entries before full control is established, rather than relying on explosive escapes once the leg is already trapped.",
+      "answer_line": "Prevent entries before control",
+      "distractors": {
+        "plausible": [
+          "React explosively once trapped",
+          "Focus only on submission escapes"
+        ],
+        "trap": [
+          "Wait for the finish, then defend"
+        ]
+      }
     },
     {
       "question": "Why is maintaining square hips so important when defending leg locks?",
-      "answer": "When your hips stay square or facing the opponent, they cannot achieve the rotational angle needed to finish heel hooks or ankle locks, making the submission mechanically very difficult regardless of how much control they have."
+      "answer": "When your hips stay square or facing the opponent, they cannot achieve the rotational angle needed to finish heel hooks or ankle locks, making the submission mechanically very difficult regardless of how much control they have.",
+      "answer_line": "Square hips deny rotation angle",
+      "distractors": {
+        "plausible": [
+          "Square hips protect the knee",
+          "Square hips speed up escapes"
+        ],
+        "trap": [
+          "Turn hips away from opponent"
+        ]
+      }
     },
     {
       "question": "How does the framework rank ashi garami positions by danger level?",
-      "answer": "From least to most dangerous: standard and outside ashi garami (escape time exists), then 50-50, then cross ashi, then inside sankaku and saddle, where finishes can occur within seconds and demand an immediate response."
+      "answer": "From least to most dangerous: standard and outside ashi garami (escape time exists), then 50-50, then cross ashi, then inside sankaku and saddle, where finishes can occur within seconds and demand an immediate response.",
+      "answer_line": "Saddle and sankaku most dangerous",
+      "distractors": {
+        "plausible": [
+          "50-50 guard is most dangerous",
+          "Outside ashi is highest risk"
+        ],
+        "trap": [
+          "All ashi positions equal risk"
+        ]
+      }
     },
     {
       "question": "What is the recommended response the instant your leg is caught?",
-      "answer": "Stay calm and clear the opponent's hooks systematically rather than panic-scrambling or yanking the leg out, which usually worsens the position; in most entanglements you have time to work a methodical escape."
+      "answer": "Stay calm and clear the opponent's hooks systematically rather than panic-scrambling or yanking the leg out, which usually worsens the position; in most entanglements you have time to work a methodical escape.",
+      "answer_line": "Stay calm, clear hooks in order",
+      "distractors": {
+        "plausible": [
+          "Strip grips, ignore hip line",
+          "Explode out immediately"
+        ],
+        "trap": [
+          "Yank the leg free fast"
+        ]
+      }
     },
     {
       "question": "How does the framework convert defense into offense?",
-      "answer": "By using the opponent's commitment to a leg attack as an opening to counter-enter their legs, take the back, or establish a dominant passing position — transforming reactive defense into a strategic advantage."
+      "answer": "By using the opponent's commitment to a leg attack as an opening to counter-enter their legs, take the back, or establish a dominant passing position — transforming reactive defense into a strategic advantage.",
+      "answer_line": "Counter-attack their commitment",
+      "distractors": {
+        "plausible": [
+          "Reset to neutral guard",
+          "Retreat to standing base"
+        ],
+        "trap": [
+          "Turtle up to hide the legs"
+        ]
+      }
     },
     {
       "question": "Why is inside position emphasized in leg lock defense?",
-      "answer": "Controlling inside space denies the opponent access to cross-ashi and saddle entries, which are the high-danger configurations from which the inside heel hook becomes available."
+      "answer": "Controlling inside space denies the opponent access to cross-ashi and saddle entries, which are the high-danger configurations from which the inside heel hook becomes available.",
+      "answer_line": "Inside position blocks saddle entry",
+      "distractors": {
+        "plausible": [
+          "Inside position speeds escapes",
+          "Inside position controls grips"
+        ],
+        "trap": [
+          "Give up inside space for outside"
+        ]
+      }
     },
     {
       "question": "What is a common mistake practitioners make when escaping leg entanglements?",
-      "answer": "Focusing only on stripping the opponent's grips while neglecting hip alignment, or applying the same escape to every position regardless of its danger level — escapes must be specific to the position you are in."
+      "answer": "Focusing only on stripping the opponent's grips while neglecting hip alignment, or applying the same escape to every position regardless of its danger level — escapes must be specific to the position you are in.",
+      "answer_line": "One-size-fits-all escape choice",
+      "distractors": {
+        "plausible": [
+          "Stripping grips before hips align",
+          "Escaping too slowly under pressure"
+        ],
+        "trap": [
+          "Ignore grips, only align hips"
+        ]
+      }
     },
     {
       "question": "Which submissions does this framework primarily defend against?",
-      "answer": "Inside and outside heel hooks, the straight ankle lock, and kneebars, with the inside heel hook from saddle and inside sankaku treated as the highest-priority threat to neutralize first."
+      "answer": "Inside and outside heel hooks, the straight ankle lock, and kneebars, with the inside heel hook from saddle and inside sankaku treated as the highest-priority threat to neutralize first.",
+      "answer_line": "Heel hooks, ankle lock, kneebar",
+      "distractors": {
+        "plausible": [
+          "Toe holds and calf slicers",
+          "Kneebars and toe holds only"
+        ],
+        "trap": [
+          "Ignore ankle locks, focus knees"
+        ]
+      }
     }
   ]
 }

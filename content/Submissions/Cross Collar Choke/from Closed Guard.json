@@ -18,7 +18,10 @@
   "target_area": "Carotid arteries",
   "starting_position": "Closed Guard",
   "from_position": "Closed Guard/Bottom",
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "overview": "As one of the first submissions taught in any gi curriculum, the cross collar choke retains a central place in the high-level closed guard game because the threat itself forces posture-compromising reactions long before it finishes. From the bottom position it capitalizes on the closed guard's inherent posture control, where the bottom player's locked legs prevent the top player from creating the distance needed to defend against deep collar entries.\n\nWhat distinguishes the closed guard cross collar choke from its mounted counterpart is the reliance on posture breaking as a prerequisite for grip establishment. From bottom, gravity works against the attacker, requiring precise hip angle adjustments and active leg pressure to maintain broken posture while threading the second hand into the collar. The technique rewards patience and grip discipline, as rushing the second grip before fully breaking posture is the most common reason this choke fails at intermediate levels.\n\nStrategically, the cross collar choke threat from closed guard functions as an offensive anchor that opens the entire guard attack system. When the opponent defends their collar, they necessarily compromise their posture and base, creating openings for sweeps and armbar attempts. This makes the cross collar choke valuable even when it does not finish directly, as the defensive reactions it forces create cascading offensive opportunities throughout the closed guard game.",
   "safety_considerations": {
     "injury_risks": [
@@ -116,17 +119,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 58,
+      "probability": {
+        "gi": 58,
+        "nogi": 58
+      },
       "result": "success"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 27,
+      "probability": {
+        "gi": 27,
+        "nogi": 27
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Top",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
@@ -281,52 +293,181 @@
       {
         "question": "What specific anatomical structures does the cross collar choke from closed guard target, and how does proper hand placement affect which structures are compressed?",
         "answer": "The cross collar choke targets the carotid arteries on both sides of the neck, restricting blood flow to the brain to induce unconsciousness. Proper hand placement positions the bony edge of each forearm directly over a carotid artery, creating bilateral compression through the scissoring action of crossed forearms. If hands are placed too centrally, the pressure shifts to the trachea, creating a painful but less effective air choke that is easier to endure and defend. The thumb-in and palm-up grip orientations align the forearm bones optimally against the arterial targets.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Both carotids via forearm bones",
+        "distractors": {
+          "plausible": [
+            "Jugular veins, blood return",
+            "One carotid, dominant side"
+          ],
+          "trap": [
+            "Windpipe crush, central grip"
+          ]
+        }
       },
       {
         "question": "Your opponent begins to posture up after you establish your first collar grip but before you thread the second hand. What adjustment prevents the escape?",
         "answer": "Immediately increase heel pressure into the opponent's lower back while pulling your knees toward your chest to counteract their upward posture movement. Simultaneously, use your free hand to re-engage a collar drag behind their head or grab the back of their collar to maintain broken posture. If they continue driving upward despite this, switch the free hand to an overhook or wrist control on their posting arm, which both prevents full posture recovery and sets up a transition to hip bump sweep if the choke opportunity closes completely.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Heels drive back, knees pull in",
+        "distractors": {
+          "plausible": [
+            "Sit up and chase a sweep instead",
+            "Push their chest away for space"
+          ],
+          "trap": [
+            "Release first grip to reset"
+          ]
+        }
       },
       {
         "question": "What are the key indicators that the cross collar choke is properly positioned on the carotid arteries rather than the trachea?",
         "answer": "A properly positioned blood choke produces a sensation of pressure on the sides of the neck without significant pain or choking on the windpipe. The recipient will feel lightheadedness and visual narrowing within 5-8 seconds rather than the gagging and coughing associated with tracheal pressure. For the attacker, the forearms should feel resistance against the muscular sides of the neck rather than compressing the softer front of the throat. If the opponent coughs or makes gagging sounds, reposition your grips more laterally to shift pressure from the trachea to the arteries.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Pressure, no pain, dizzy fast",
+        "distractors": {
+          "plausible": [
+            "Sharp pain in front of throat",
+            "Coughing means it's working"
+          ],
+          "trap": [
+            "Push grips deeper centrally"
+          ]
+        }
       },
       {
         "question": "Why is it critical to break posture completely before attempting the second collar grip, and what happens when this step is skipped?",
         "answer": "Breaking posture eliminates the opponent's ability to use their arm length and leverage advantage to strip grips or create distance. When posture is fully broken, the opponent's hands are trapped close to your body and their base is compromised, giving you a clear window to thread the second grip without interference. Skipping posture breaking means the opponent can extend their arms, push off your chest or hips, and easily strip the first collar grip with two free hands while sitting upright. This is the single most common reason the technique fails at intermediate levels.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Locks their hands, no grip strip",
+        "distractors": {
+          "plausible": [
+            "Saves grip strength for the finish",
+            "Squares your hips to the mat"
+          ],
+          "trap": [
+            "Sit up chasing the collar"
+          ]
+        }
       },
       {
         "question": "How should you immediately respond when your training partner taps to the cross collar choke?",
         "answer": "Release both collar grips immediately upon feeling or hearing the tap, without applying any additional pressure. Open your guard to give your partner space to separate and recover circulation. Do not hold the position while releasing grips slowly. Blood chokes restrict brain circulation, so even a few extra seconds of pressure after the tap can cause unnecessary dizziness or risk unconsciousness. Check that your partner is alert and responsive before resetting. If they appear disoriented, give them time to fully recover before continuing training.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Let go and open guard at once",
+        "distractors": {
+          "plausible": [
+            "Ease pressure over a few seconds",
+            "Drop grips but keep guard closed"
+          ],
+          "trap": [
+            "Hold choke until they go limp"
+          ]
+        }
       },
       {
         "question": "Your opponent tucks their chin tightly to block the choke. What grip adjustments improve finishing effectiveness against this defense?",
         "answer": "Angle your hips further to one side to change the vector of forearm pressure, creating a diagonal line that bypasses the chin tuck by compressing the artery from a lateral angle rather than straight on. You can also walk your first grip deeper by incrementally regripping while maintaining leg pressure, forcing the forearm beneath their chin through progressive depth rather than brute force. Another option is to use your free hand to frame against their jaw, creating a small window to slide the second grip beneath the chin before they can re-tuck.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Angle hips, attack laterally",
+        "distractors": {
+          "plausible": [
+            "Pull straight back with both arms",
+            "Wait for the chin to lift"
+          ],
+          "trap": [
+            "Open guard to sit up higher"
+          ]
+        }
       },
       {
         "question": "What is the biomechanical reason that chest expansion and shoulder blade retraction produce more effective choking pressure than arm squeezing alone?",
         "answer": "The chest and back muscles (pectorals, rhomboids, trapezius) are significantly larger and more fatigue-resistant than the forearm flexors used for gripping. Chest expansion drives the forearms forward into the neck while shoulder blade retraction pulls the elbows backward and inward, creating a pinching action that compresses from both sides simultaneously. Arm squeezing alone engages only the forearm flexors, which fatigue within 15-20 seconds of maximum effort. The structural approach also maintains consistent pressure regardless of grip fatigue, making the choke sustainable over longer application periods.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Chest and back outlast the arms",
+        "distractors": {
+          "plausible": [
+            "Longer reach seats deeper grips",
+            "Wrist curl adds finishing force"
+          ],
+          "trap": [
+            "Open guard to muscle the squeeze"
+          ]
+        }
       },
       {
         "question": "In a competition scenario where your opponent is defending the choke effectively, what chain attacks should you transition to and what defensive reactions trigger each transition?",
         "answer": "If the opponent uses both hands to strip your collar grips, their arms are occupied and unable to post, making them vulnerable to a hip bump sweep to mount. If they posture up aggressively while defending, the space created opens a triangle setup as their arm position separates during the posture recovery. If they turn their body to one side to reduce collar access, the exposed arm becomes available for a kimura or omoplata entry. The cross collar choke threat should be maintained as long as possible, because each defensive reaction opens a different high-percentage follow-up attack.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Grip strip opens the hip bump",
+        "distractors": {
+          "plausible": [
+            "Armbar answers every defense",
+            "Re-grip the same collar again"
+          ],
+          "trap": [
+            "Open guard to chase the choke"
+          ]
+        }
       },
       {
         "question": "What role do the legs play throughout each phase of the cross collar choke execution from closed guard?",
         "answer": "The legs serve as the primary posture control mechanism through every phase. During posture breaking, heels drive into the lower back while knees squeeze the ribs to pull the opponent forward and down. During grip establishment, legs maintain the broken posture so both hands can work on collar entries without the opponent recovering distance. During the finish, legs pull the opponent's torso into the choke, adding their body weight to the compression force. Releasing leg pressure at any phase allows posture recovery, which defeats the choke regardless of grip quality. Active legs are what makes this choke viable from bottom position against gravity.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Legs control posture each phase",
+        "distractors": {
+          "plausible": [
+            "Legs only matter at the finish",
+            "Knees squeeze, heels stay passive"
+          ],
+          "trap": [
+            "Release legs to free the hips"
+          ]
+        }
       },
       {
         "question": "At what point during the cross collar choke sequence does the submission become extremely difficult for the opponent to escape, and why?",
         "answer": "The point of no escape occurs once both grips are established deep in the collar and the elbows are retracted tight against the attacker's ribcage. At this stage, the opponent cannot strip either grip without the other hand maintaining choking pressure, creating a defensive dilemma. The crossed forearms lock each other into position, and any pulling on one arm tightens the other side's pressure against the neck. Before this point, the opponent can strip the first grip before the second is set. After both grips are locked with elbows in, the only viable defense is to prevent the finishing pressure by creating a frame, but the choke can usually be completed within 3-5 seconds from this position.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Both grips deep, elbows in tight",
+        "distractors": {
+          "plausible": [
+            "As soon as first grip is set",
+            "When hips are angled off center"
+          ],
+          "trap": [
+            "Release one grip to isolate arm"
+          ]
+        }
+      }
+    ],
+    "clips": [
+      {
+        "id": "dfP-Ov8FBUo",
+        "title": "Cross Collar Chokes breakdown",
+        "by": "Roger Gracie",
+        "vertical": false,
+        "channel": "Jiu Jitsu Moves",
+        "duration": 80,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "X93MdMlmrUg",
+        "title": "The one thing that makes the cross collar choke easy",
+        "by": "Henry Akins",
+        "vertical": false,
+        "channel": "Henry Akins' Hidden Jiu-Jitsu",
+        "duration": 77,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "TDBe1SHzHKo",
+        "title": "Finishing when you can't pull them in",
+        "by": "Henry Akins",
+        "vertical": false,
+        "channel": "Henry Akins' Hidden Jiu-Jitsu",
+        "duration": 51,
+        "verified": "2026-07-14"
       }
     ]
   },
@@ -419,27 +560,77 @@
       {
         "question": "How do you recognize that a cross collar choke from closed guard is being set up before the grips are fully established?",
         "answer": "The earliest recognition cue is a hand crossing your centerline and entering your collar with the thumb inside the fabric, typically accompanied by a sudden increase in leg squeeze pressure and a strong downward pull on your posture. You will feel the opponent's knuckles pressing against the side of your neck as the first grip seats deep. A hip angle shift where they move their hips to one side also indicates they are creating collar access for the second grip. Reacting to these cues immediately, before the second hand enters the collar, is essential for effective defense.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Hand crosses in, thumb in collar",
+        "distractors": {
+          "plausible": [
+            "Their head lifts and posts back",
+            "Both hands grab your sleeves"
+          ],
+          "trap": [
+            "Wait until second grip is in"
+          ]
+        }
       },
       {
         "question": "What is the safest way to tap when caught in a cross collar choke from closed guard, and when should you tap?",
         "answer": "Tap immediately when you feel bilateral pressure on the sides of your neck that restricts blood flow, indicated by a sensation of tightening or lightheadedness. Use a clear physical tap on your opponent's body, arm, or the mat with your hand, or verbally say 'tap' loudly. Blood chokes can cause unconsciousness in as few as 8-12 seconds under full pressure, so do not attempt to wait out the choke hoping it will loosen. If your hands are trapped, tap with your feet on the mat or on your opponent. Tapping early prevents unnecessary risk of unconsciousness and associated complications. There is no shame in tapping to a well-executed technique.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Tap early with hand, arm, or mat",
+        "distractors": {
+          "plausible": [
+            "Wait until numbness sets in",
+            "Shake your head as the signal"
+          ],
+          "trap": [
+            "Wait it out until you pass out"
+          ]
+        }
       },
       {
         "question": "What defensive options are available against the cross collar choke from closed guard, and which is most effective at each stage?",
         "answer": "Before the first grip is established, maintain strong upright posture with hands controlling the opponent's biceps or hips to prevent collar access entirely. Once the first grip enters, strip it immediately with both hands before the second is attempted, as this is the highest-percentage defensive window. If both grips are set, tuck your chin and turn your head to block carotid access while working to strip the more recently established grip. Standing up in base is effective at any early stage, as it opens the guard and removes you from choking range completely. The later you defend, the lower your success probability.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Strip first grip before second",
+        "distractors": {
+          "plausible": [
+            "Tuck chin from the very start",
+            "Stand up only after grips lock"
+          ],
+          "trap": [
+            "Push opponent's hips away"
+          ]
+        }
       },
       {
         "question": "Why is posture maintenance considered the single most important defensive principle against the cross collar choke from closed guard?",
         "answer": "Upright posture creates distance between the attacker's hands and your collar, making deep grip insertion physically difficult. When your spine is straight and head is over your hips, the opponent must first overcome your structural alignment before they can begin the choke sequence. Every cross collar choke setup from closed guard requires broken posture as a prerequisite, so maintaining posture eliminates the attack at its foundation. Additionally, upright posture gives you reach advantage for grip fighting and makes guard opening sequences viable, turning a defensive action into an offensive opportunity.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Posture denies grip insertion",
+        "distractors": {
+          "plausible": [
+            "Sitting tall tires out their legs",
+            "Straight spine protects your arms"
+          ],
+          "trap": [
+            "Round your back and lean in"
+          ]
+        }
       },
       {
         "question": "What is the critical timing window that determines whether defense against the cross collar choke will succeed or fail?",
         "answer": "The critical window is between the establishment of the first collar grip and the insertion of the second grip. This is typically a 1-3 second period during which the attacker must transition from posture control to threading the second hand. During this window, the attacker has only one grip in the collar and their free hand is occupied reaching for the second grip entry, making them temporarily vulnerable to two-on-one grip stripping or sweeps. Once both grips are locked with elbows tight, the defensive success rate drops dramatically because each grip reinforces the other and the choking structure is complete.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Between first grip and second",
+        "distractors": {
+          "plausible": [
+            "Once both grips are locked deep",
+            "Right after they break posture"
+          ],
+          "trap": [
+            "Wait for the finish to defend"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -462,6 +653,26 @@
         "phase": "Live Positional Sparring from Closed Guard Top",
         "focus": "Full-resistance defense against all closed guard attacks including the cross collar choke",
         "description": "Full-speed positional sparring starting in closed guard top against a partner who actively attacks with the cross collar choke and its chain attacks. Three-minute rounds with the goal of opening guard and passing without being submitted. Track which phase of defense fails most frequently and address specific weaknesses in subsequent drilling sessions."
+      }
+    ],
+    "clips": [
+      {
+        "id": "QIRF2B9riAA",
+        "title": "Cross choke defense from guard: two tips",
+        "by": "Wayne Sniffen",
+        "vertical": false,
+        "channel": "Wayne Sniffen",
+        "duration": 105,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "be-iHHhJGng",
+        "title": "Juji Jime escape: cross collar choke defense",
+        "by": "Peter Mettler",
+        "vertical": false,
+        "channel": "Peter Mettler Martial Arts",
+        "duration": 130,
+        "verified": "2026-07-14"
       }
     ]
   }

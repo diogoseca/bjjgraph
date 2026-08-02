@@ -148,6 +148,54 @@ description: "Learn to defend the Triangle from Armbar transition in BJJ. Recogn
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Triangle from Armbar (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "How to escape a triangle choke",
+      "description": "Triangle from Armbar (Defender) film study: How to escape a triangle choke, taught by Rener and Ryron Gracie.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/sR2rS2dwpNY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/sR2rS2dwpNY",
+      "url": "https://www.youtube.com/watch?v=sR2rS2dwpNY",
+      "creator": { "@type": "Person", "name": "Rener and Ryron Gracie" },
+      "duration": "PT117S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Armbar defense with stack escape",
+      "description": "Triangle from Armbar (Defender) film study: Armbar defense with stack escape, taught by Daniel Frank.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/zKieMBkGXxU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/zKieMBkGXxU",
+      "url": "https://www.youtube.com/watch?v=zKieMBkGXxU",
+      "creator": { "@type": "Person", "name": "Daniel Frank" },
+      "duration": "PT32S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Armbar and triangle escapes",
+      "description": "Triangle from Armbar (Defender) film study: Armbar and triangle escapes, taught by Athlas Training Team.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/zwjI3DYP6Z0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/zwjI3DYP6Z0",
+      "url": "https://www.youtube.com/watch?v=zwjI3DYP6Z0",
+      "creator": { "@type": "Person", "name": "Athlas Training Team" },
+      "duration": "PT212S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +205,42 @@ As the defender facing a Triangle from Armbar transition, you are caught in a di
 **Opponent's Starting Position**: [[Positions/Armbar Control]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Triangle from Armbar (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=sR2rS2dwpNY)
+
+<p class="clip-credit"><strong>How to escape a triangle choke</strong> — taught by Rener and Ryron Gracie · 1:57 · <a href="https://www.youtube.com/watch?v=sR2rS2dwpNY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=zKieMBkGXxU)
+
+<p class="clip-credit"><strong>Armbar defense with stack escape</strong> — taught by Daniel Frank · 0:32 · <a href="https://www.youtube.com/watch?v=zKieMBkGXxU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=zwjI3DYP6Z0)
+
+<p class="clip-credit"><strong>Armbar and triangle escapes</strong> — taught by Athlas Training Team · 3:32 · <a href="https://www.youtube.com/watch?v=zwjI3DYP6Z0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

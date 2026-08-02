@@ -21,7 +21,7 @@ description: "How to defend against Reverse Heel Hook Counter in BJJ. Recognitio
     {
       "@type": "HowToStep",
       "name": "Accelerate heel hook finish before counter-entanglement is established",
-      "text": "When you already have a deep heel grip and opponent is only beginning their counter rotation—your positional advantage is clear If successful: You finish the heel hook before opponent can establish inside ashi on your leg, ending the exchange in your favor",
+      "text": "When you already have a deep heel grip and opponent is only beginning their counter rotation—your positional advantage is clear If successful: You deepen into saddle control and finish the heel hook before opponent can establish inside ashi on your leg, ending the exchange in your favor",
       "position": 1
     },
     {
@@ -148,6 +148,54 @@ description: "How to defend against Reverse Heel Hook Counter in BJJ. Recognitio
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Reverse Heel Hook Counter (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Heel hook defense when ambushed",
+      "description": "Reverse Heel Hook Counter (Defender) film study: Heel hook defense when ambushed, taught by John Danaher.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/AsGMkATAqqw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/AsGMkATAqqw",
+      "url": "https://www.youtube.com/watch?v=AsGMkATAqqw",
+      "creator": { "@type": "Person", "name": "John Danaher" },
+      "duration": "PT53S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Defending heel hooks",
+      "description": "Reverse Heel Hook Counter (Defender) film study: Defending heel hooks, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/v3w0qXLKxug/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/v3w0qXLKxug",
+      "url": "https://www.youtube.com/watch?v=v3w0qXLKxug",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT92S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Best way to escape heel hooks",
+      "description": "Reverse Heel Hook Counter (Defender) film study: Best way to escape heel hooks, taught by Pantera Jiujitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/5X0GX9fQ8AE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/5X0GX9fQ8AE",
+      "url": "https://www.youtube.com/watch?v=5X0GX9fQ8AE",
+      "creator": { "@type": "Person", "name": "Pantera Jiujitsu" },
+      "duration": "PT119S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -161,6 +209,42 @@ Successful defense requires early recognition of the counter attempt, ideally be
 **Opponent's Starting Position**: [[Positions/Ashi Garami/Ushiro Ashi-Garami]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Reverse Heel Hook Counter (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=AsGMkATAqqw)
+
+<p class="clip-credit"><strong>Heel hook defense when ambushed</strong> — taught by John Danaher · 0:53 · <a href="https://www.youtube.com/watch?v=AsGMkATAqqw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=v3w0qXLKxug)
+
+<p class="clip-credit"><strong>Defending heel hooks</strong> — taught by Lachlan Giles · 1:32 · <a href="https://www.youtube.com/watch?v=v3w0qXLKxug" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=5X0GX9fQ8AE)
+
+<p class="clip-credit"><strong>Best way to escape heel hooks</strong> — taught by Pantera Jiujitsu · 1:59 · <a href="https://www.youtube.com/watch?v=5X0GX9fQ8AE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 
@@ -202,8 +286,8 @@ Successful defense requires early recognition of the counter attempt, ideally be
 ### 1. Accelerate heel hook finish before counter-entanglement is established
 
 - **When to use**: When you already have a deep heel grip and opponent is only beginning their counter rotation—your positional advantage is clear
-- **Targets**: [[Transitions/Heel Hook]]
-- **If successful**: You finish the heel hook before opponent can establish inside ashi on your leg, ending the exchange in your favor
+- **Targets**: [[Positions/Ashi Garami/Saddle]]
+- **If successful**: You deepen into saddle control and finish the heel hook before opponent can establish inside ashi on your leg, ending the exchange in your favor
 - **Risk**: If your grip is not as deep as you believe, racing to finish creates a chaotic exchange where both practitioners may be injured
 
 ### 2. Withdraw attacking leg and re-establish ushiro ashi-garami control from scratch
@@ -237,9 +321,9 @@ Successful defense requires early recognition of the counter attempt, ideally be
 
 <p class="section-subtitle">What is the best outcome when defending Reverse Heel Hook Counter?</p>
 
-### → [[Transitions/Heel Hook]]
+### → [[Positions/Ashi Garami/Saddle]]
 
-Accelerate your heel hook finish when you detect the counter attempt but already have deep grip control. Your positional advantage from the original ushiro top position means your grip was established first—commit to the finish before their counter-entanglement becomes dangerous.
+Accelerate your heel hook finish and deepen into saddle control when you detect the counter attempt but already have deep grip control. Your positional advantage from the original ushiro top position means your grip was established first—commit to the finish before their counter-entanglement becomes dangerous.
 
 ### → [[Positions/Ashi Garami/Ushiro Ashi-Garami]]
 

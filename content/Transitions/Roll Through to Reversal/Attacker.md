@@ -174,6 +174,43 @@ description: "How to execute Roll Through to Reversal in BJJ. Complete attacking
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Roll Through to Reversal (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Front Headlock Sit Out Reversal",
+      "description": "Roll Through to Reversal (Attacker) film study: Front Headlock Sit Out Reversal, taught by Keith Takada.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/t4xBYQ1VauU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/t4xBYQ1VauU",
+      "url": "https://www.youtube.com/watch?v=t4xBYQ1VauU",
+      "creator": { "@type": "Person", "name": "Keith Takada" },
+      "duration": "PT28S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Standing Headlock Defense Roll Through",
+      "description": "Roll Through to Reversal (Attacker) film study: Standing Headlock Defense Roll Through, taught by Altiora Jiu Jitsu coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/mthp6x4Y3KM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/mthp6x4Y3KM",
+      "url": "https://www.youtube.com/watch?v=mthp6x4Y3KM",
+      "creator": { "@type": "Person", "name": "Altiora Jiu Jitsu coach" },
+      "duration": "PT53S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -185,6 +222,34 @@ The execution demands a specific combination of timing, body mechanics, and grip
 **From Position**: [[Positions/Front Headlock]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Roll Through to Reversal (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=t4xBYQ1VauU)
+
+<p class="clip-credit"><strong>Front Headlock Sit Out Reversal</strong> — taught by Keith Takada · 0:28 · <a href="https://www.youtube.com/watch?v=t4xBYQ1VauU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=mthp6x4Y3KM)
+
+<p class="clip-credit"><strong>Standing Headlock Defense Roll Through</strong> — taught by Altiora Jiu Jitsu coach · 0:53 · <a href="https://www.youtube.com/watch?v=mthp6x4Y3KM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

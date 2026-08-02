@@ -21,19 +21,19 @@ description: "Master defensive strategies from top of straight ankle lock contro
     {
       "@type": "HowToStep",
       "name": "Execute Ashi Garami Escape",
-      "text": "From this position, attempt Ashi Garami Escape. This technique is attempted in 25% of exchanges from this position.",
+      "text": "From this position, attempt Ashi Garami Escape. This technique is attempted in 12% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Counter Entry to Opponent's Leg",
-      "text": "From this position, attempt Counter Entry to Opponent's Leg. This technique is attempted in 14% of exchanges from this position.",
+      "text": "From this position, attempt Counter Entry to Opponent's Leg. This technique is attempted in 12% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Hip Rotation Defense",
-      "text": "From this position, attempt Hip Rotation Defense. This technique is attempted in 14% of exchanges from this position.",
+      "text": "From this position, attempt Hip Rotation Defense. This technique is attempted in 12% of exchanges from this position.",
       "position": 3
     },
     {
@@ -45,13 +45,13 @@ description: "Master defensive strategies from top of straight ankle lock contro
     {
       "@type": "HowToStep",
       "name": "Execute Frame and Distance Creation",
-      "text": "From this position, attempt Frame and Distance Creation. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Frame and Distance Creation. This technique is attempted in 10% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Pass to Side Control",
-      "text": "From this position, attempt Pass to Side Control. This technique is attempted in 7% of exchanges from this position.",
+      "text": "From this position, attempt Pass to Side Control. This technique is attempted in 12% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -153,6 +153,54 @@ description: "Master defensive strategies from top of straight ankle lock contro
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Straight Ankle Lock Control (Top) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Finish the Ankle Lock vs the Roll Out",
+      "description": "Straight Ankle Lock Control (Top) film study: Finish the Ankle Lock vs the Roll Out, taught by James O\u0027Connor.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/akB_o9gaNuc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/akB_o9gaNuc",
+      "url": "https://www.youtube.com/watch?v=akB_o9gaNuc",
+      "creator": { "@type": "Person", "name": "James O\u0027Connor" },
+      "duration": "PT61S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "The Ankle Lock Roll Control Drill",
+      "description": "Straight Ankle Lock Control (Top) film study: The Ankle Lock Roll Control Drill, taught by Escapology BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/pspIS0i2G2U/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/pspIS0i2G2U",
+      "url": "https://www.youtube.com/watch?v=pspIS0i2G2U",
+      "creator": { "@type": "Person", "name": "Escapology BJJ" },
+      "duration": "PT95S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Always Finish the Ankle Lock",
+      "description": "Straight Ankle Lock Control (Top) film study: Always Finish the Ankle Lock, taught by Jon Thomas.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/z3ILKAQN_i8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/z3ILKAQN_i8",
+      "url": "https://www.youtube.com/watch?v=z3ILKAQN_i8",
+      "creator": { "@type": "Person", "name": "Jon Thomas" },
+      "duration": "PT143S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -170,6 +218,42 @@ Modern leg lock defense has evolved beyond simple reactive escape attempts towar
 The psychological dimension of defending straight ankle lock control cannot be understated. Many practitioners panic when their leg is controlled, making explosive uncontrolled movements that actually facilitate the attacker's transitions and tighten their control. Effective defense requires maintaining composure under submission threat, methodically executing escape sequences while remaining aware of the attacker's positioning and intention. This mental discipline develops through progressive exposure training where defenders gradually build tolerance for leg entanglement positions while practicing systematic escape protocols.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Straight Ankle Lock Control (Top) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=akB_o9gaNuc)
+
+<p class="clip-credit"><strong>Finish the Ankle Lock vs the Roll Out</strong> — taught by James O&#39;Connor · 1:01 · <a href="https://www.youtube.com/watch?v=akB_o9gaNuc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=pspIS0i2G2U)
+
+<p class="clip-credit"><strong>The Ankle Lock Roll Control Drill</strong> — taught by Escapology BJJ · 1:35 · <a href="https://www.youtube.com/watch?v=pspIS0i2G2U" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=z3ILKAQN_i8)
+
+<p class="clip-credit"><strong>Always Finish the Ankle Lock</strong> — taught by Jon Thomas · 2:23 · <a href="https://www.youtube.com/watch?v=z3ILKAQN_i8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

@@ -140,6 +140,43 @@ description: "Defend and counter the Double Sleeve to De La Riva transition. Rec
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Double Sleeve to De La Riva (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Knee slide pass against De La Riva",
+      "description": "Double Sleeve to De La Riva (Defender) film study: Knee slide pass against De La Riva, taught by Icon Jiu-Jitsu coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/8QnCpFYN0L8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/8QnCpFYN0L8",
+      "url": "https://www.youtube.com/watch?v=8QnCpFYN0L8",
+      "creator": { "@type": "Person", "name": "Icon Jiu-Jitsu coach" },
+      "duration": "PT31S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Over under stack pass vs De La Riva",
+      "description": "Double Sleeve to De La Riva (Defender) film study: Over under stack pass vs De La Riva, taught by Balance BJJ coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/krtNPm3OXtc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/krtNPm3OXtc",
+      "url": "https://www.youtube.com/watch?v=krtNPm3OXtc",
+      "creator": { "@type": "Person", "name": "Balance BJJ coach" },
+      "duration": "PT163S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -149,6 +186,34 @@ As the defender (top player), your objective is to prevent the bottom player fro
 **Opponent's Starting Position**: [[Positions/Double Sleeve Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Double Sleeve to De La Riva (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=8QnCpFYN0L8)
+
+<p class="clip-credit"><strong>Knee slide pass against De La Riva</strong> — taught by Icon Jiu-Jitsu coach · 0:31 · <a href="https://www.youtube.com/watch?v=8QnCpFYN0L8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=krtNPm3OXtc)
+
+<p class="clip-credit"><strong>Over under stack pass vs De La Riva</strong> — taught by Balance BJJ coach · 2:43 · <a href="https://www.youtube.com/watch?v=krtNPm3OXtc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

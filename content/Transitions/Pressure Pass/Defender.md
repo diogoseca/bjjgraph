@@ -148,6 +148,43 @@ description: "How to defend against Pressure Pass in BJJ. Recognition cues, defe
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Pressure Pass (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Guard retention: when to sit up and escape",
+      "description": "Pressure Pass (Defender) film study: Guard retention: when to sit up and escape, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/lVLAROiSjNU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/lVLAROiSjNU",
+      "url": "https://www.youtube.com/watch?v=lVLAROiSjNU",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT136S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Three tricks to stop your guard being passed",
+      "description": "Pressure Pass (Defender) film study: Three tricks to stop your guard being passed, taught by Jon Thomas.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/q4e8HHp7avk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/q4e8HHp7avk",
+      "url": "https://www.youtube.com/watch?v=q4e8HHp7avk",
+      "creator": { "@type": "Person", "name": "Jon Thomas" },
+      "duration": "PT147S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +194,34 @@ Defending against the Pressure Pass requires early recognition and proactive fra
 **Opponent's Starting Position**: [[Positions/Combat Base]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Pressure Pass (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=lVLAROiSjNU)
+
+<p class="clip-credit"><strong>Guard retention: when to sit up and escape</strong> — taught by Lachlan Giles · 2:16 · <a href="https://www.youtube.com/watch?v=lVLAROiSjNU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=q4e8HHp7avk)
+
+<p class="clip-credit"><strong>Three tricks to stop your guard being passed</strong> — taught by Jon Thomas · 2:27 · <a href="https://www.youtube.com/watch?v=q4e8HHp7avk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

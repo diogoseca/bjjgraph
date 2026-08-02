@@ -168,6 +168,54 @@ description: "How to execute the Arm Drag in BJJ. Attacking perspective with gri
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Arm Drag (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Marcelo Garcia arm drag takedown",
+      "description": "Arm Drag (Attacker) film study: Marcelo Garcia arm drag takedown, taught by Marcelo Garcia.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Kp3ABmsn1I0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Kp3ABmsn1I0",
+      "url": "https://www.youtube.com/watch?v=Kp3ABmsn1I0",
+      "creator": { "@type": "Person", "name": "Marcelo Garcia" },
+      "duration": "PT55S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Reverse arm drag from butterfly to back take",
+      "description": "Arm Drag (Attacker) film study: Reverse arm drag from butterfly to back take, taught by Jerry Musquiz.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/MFed9IE8afA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/MFed9IE8afA",
+      "url": "https://www.youtube.com/watch?v=MFed9IE8afA",
+      "creator": { "@type": "Person", "name": "Jerry Musquiz" },
+      "duration": "PT42S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Breakdown of Marcelo Garcia\u0027s arm drag",
+      "description": "Arm Drag (Attacker) film study: Breakdown of Marcelo Garcia\u0027s arm drag, taught by Riccardo Ammendolia.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/xnjQbv6y1yo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/xnjQbv6y1yo",
+      "url": "https://www.youtube.com/watch?v=xnjQbv6y1yo",
+      "creator": { "@type": "Person", "name": "Riccardo Ammendolia" },
+      "duration": "PT60S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -181,6 +229,42 @@ Advanced arm drag attacking integrates setups, feints, and chain reactions into 
 **From Position**: [[Positions/Standing Position]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Arm Drag (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Kp3ABmsn1I0)
+
+<p class="clip-credit"><strong>Marcelo Garcia arm drag takedown</strong> — taught by Marcelo Garcia · 0:55 · <a href="https://www.youtube.com/watch?v=Kp3ABmsn1I0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=MFed9IE8afA)
+
+<p class="clip-credit"><strong>Reverse arm drag from butterfly to back take</strong> — taught by Jerry Musquiz · 0:42 · <a href="https://www.youtube.com/watch?v=MFed9IE8afA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=xnjQbv6y1yo)
+
+<p class="clip-credit"><strong>Breakdown of Marcelo Garcia&#39;s arm drag</strong> — taught by Riccardo Ammendolia · 1:00 · <a href="https://www.youtube.com/watch?v=xnjQbv6y1yo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 
@@ -344,6 +428,8 @@ The arm drag is generally a safe technique with low injury risk when executed pr
 
 <div class="related-systems-grid">
 <a class="system-card" href="/Systems/Blue-to-Purple-Progression" data-cta="related-system-card" data-system-slug="systems/blue-to-purple-progression" data-system-name="Blue to Purple Progression" data-member-count="24"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Blue to Purple Progression</span><span class="system-card__unlocks-badge">Unlocks 24 techniques</span><span class="system-card__blurb">Fundamental connection teaching off-balancing and angle creation for back-takes and sweeps</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Training Methodology</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Competition-Preparation-System" data-cta="related-system-card" data-system-slug="systems/competition-preparation-system" data-system-name="Competition Preparation System" data-member-count="21"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Competition Preparation System</span><span class="system-card__unlocks-badge">Unlocks 21 techniques</span><span class="system-card__blurb">Standing phase technique for offensive and defensive transitions in competition</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Dynamic-Guard-System" data-cta="related-system-card" data-system-slug="systems/dynamic-guard-system" data-system-name="Dynamic Guard System" data-member-count="20"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Dynamic Guard System</span><span class="system-card__unlocks-badge">Unlocks 20 techniques</span><span class="system-card__blurb">Entry method for initiating dynamic guard engagement and back exposure</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 <a class="system-card" href="/Systems/Gi-Specific-Strategy" data-cta="related-system-card" data-system-slug="systems/gi-specific-strategy" data-system-name="Gi-Specific Strategy" data-member-count="20"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Gi-Specific Strategy</span><span class="system-card__unlocks-badge">Unlocks 20 techniques</span><span class="system-card__blurb">Gi-enhanced technique for off-balancing and back takes</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 </div>
 

@@ -168,6 +168,43 @@ description: "How to execute Darce from Turtle in BJJ. Attacking perspective wit
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Darce from Turtle (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Modified darce choke from turtle (no-gi)",
+      "description": "Darce from Turtle (Attacker) film study: Modified darce choke from turtle (no-gi), taught by Simple JiuJitsu coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/7F4Torh--7E/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/7F4Torh--7E",
+      "url": "https://www.youtube.com/watch?v=7F4Torh--7E",
+      "creator": { "@type": "Person", "name": "Simple JiuJitsu coach" },
+      "duration": "PT127S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Gator roll into the darce choke",
+      "description": "Darce from Turtle (Attacker) film study: Gator roll into the darce choke, taught by Applied Pressure MMA coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/_9WioKiPqDY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/_9WioKiPqDY",
+      "url": "https://www.youtube.com/watch?v=_9WioKiPqDY",
+      "creator": { "@type": "Person", "name": "Applied Pressure MMA coach" },
+      "duration": "PT83S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -177,6 +214,34 @@ The Darce choke from turtle position is one of the most high-percentage submissi
 **From Position**: [[Positions/Turtle]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Darce from Turtle (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=7F4Torh--7E)
+
+<p class="clip-credit"><strong>Modified darce choke from turtle (no-gi)</strong> — taught by Simple JiuJitsu coach · 2:07 · <a href="https://www.youtube.com/watch?v=7F4Torh--7E" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=_9WioKiPqDY)
+
+<p class="clip-credit"><strong>Gator roll into the darce choke</strong> — taught by Applied Pressure MMA coach · 1:23 · <a href="https://www.youtube.com/watch?v=_9WioKiPqDY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

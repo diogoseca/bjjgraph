@@ -140,6 +140,54 @@ description: "How to defend against Baratoplata Setup in BJJ. Recognition cues, 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Baratoplata Setup (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Baratoplata Defense",
+      "description": "Baratoplata Setup (Defender) film study: Baratoplata Defense, taught by Animal.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/rx4XoCFWeq8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/rx4XoCFWeq8",
+      "url": "https://www.youtube.com/watch?v=rx4XoCFWeq8",
+      "creator": { "@type": "Person", "name": "Animal" },
+      "duration": "PT75S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Omoplata and shoulder lock escapes",
+      "description": "Baratoplata Setup (Defender) film study: Omoplata and shoulder lock escapes, taught by Dean Lister.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/hMMn5jt-fsI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/hMMn5jt-fsI",
+      "url": "https://www.youtube.com/watch?v=hMMn5jt-fsI",
+      "creator": { "@type": "Person", "name": "Dean Lister" },
+      "duration": "PT547S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Take the back when caught in an omoplata",
+      "description": "Baratoplata Setup (Defender) film study: Take the back when caught in an omoplata, taught by Kit Dale.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/NynhkhEhRJM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/NynhkhEhRJM",
+      "url": "https://www.youtube.com/watch?v=NynhkhEhRJM",
+      "creator": { "@type": "Person", "name": "Kit Dale" },
+      "duration": "PT165S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -151,6 +199,42 @@ The defensive approach centers on two strategies depending on timing: prevention
 **Opponent's Starting Position**: [[Positions/Rubber Guard/Meathook]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Baratoplata Setup (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=rx4XoCFWeq8)
+
+<p class="clip-credit"><strong>Baratoplata Defense</strong> — taught by Animal · 1:15 · <a href="https://www.youtube.com/watch?v=rx4XoCFWeq8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=hMMn5jt-fsI)
+
+<p class="clip-credit"><strong>Omoplata and shoulder lock escapes</strong> — taught by Dean Lister · 9:07 · <a href="https://www.youtube.com/watch?v=hMMn5jt-fsI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=NynhkhEhRJM)
+
+<p class="clip-credit"><strong>Take the back when caught in an omoplata</strong> — taught by Kit Dale · 2:45 · <a href="https://www.youtube.com/watch?v=NynhkhEhRJM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

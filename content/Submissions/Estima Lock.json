@@ -19,7 +19,10 @@
   "target_area": "Foot and ankle joints (dorsiflexion of foot)",
   "starting_position": "Ashi Garami",
   "from_position": "50-50 Guard/Bottom",
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "variant_uniqueness": "Dorsiflexion pressure using knee fulcrum rather than rotational force",
   "overview": "The Estima Lock is a sophisticated foot lock submission targeting the ankle and foot through dorsiflexion pressure. Named after Victor Estima who popularized the technique, this submission applies pressure by using the back of the opponent's knee to create a fulcrum while controlling the foot. The Estima Lock is most commonly executed from leg entanglement positions, particularly the 50-50 guard, where both practitioners' legs are entangled and the positioning creates ideal mechanical advantage for the foot attack.\n\nWhat makes the Estima Lock particularly effective is its deceptive setup - it often appears as a defensive position or transition rather than an attacking submission. From 50-50 guard bottom, the practitioner uses their leg position behind the opponent's knee to create pressure while controlling the foot with their hands. The submission works by forcefully dorsiflexing (bending upward) the opponent's foot while the knee joint is bent, creating intense pressure on the ligaments and tendons of the ankle and foot. Unlike traditional toe holds that rotate the foot, the Estima Lock applies direct upward pressure, making it distinct in its application and defense requirements.\n\nThe technique requires precise control and understanding of leg entanglement mechanics. Success depends on proper positioning of the attacking leg behind the opponent's knee, correct hand placement on the foot, and coordinated pressure application. When executed correctly, the Estima Lock can finish opponents quickly, but it also serves as an excellent sweeping mechanism and position advancement tool. The submission is particularly valuable in modern leg lock systems where transitions between different leg attacks create layered offensive threats.",
   "safety_considerations": {
@@ -190,6 +193,44 @@
       "variation_name": "Rolling Estima Lock Entry",
       "description": "From standing or open guard, execute a rolling entry to establish the leg entanglement and immediately attack the Estima Lock as you come up on your side. Dynamic entry that catches opponents by surprise.",
       "when_to_use": "Against opponents who defend standard leg entanglement entries. The rolling motion creates momentum and makes it harder to defend the hand grip on the foot."
+    }
+  ],
+  "clips": [
+    {
+      "id": "_6BC8d5B5Hs",
+      "title": "Estima Lock",
+      "by": "bjjtaro",
+      "vertical": false,
+      "channel": "bjjtaro",
+      "duration": 31,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "Ao0IatSHEi0",
+      "title": "Estima Lock",
+      "by": "Leandro Dos Santos Flores",
+      "vertical": false,
+      "channel": "Sensei Leandro Dos Santos Flores",
+      "duration": 27,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "-RKlONkjanA",
+      "title": "Estima Lock Finish",
+      "by": "Yao Nkromah",
+      "vertical": false,
+      "channel": "Yao TheTruth",
+      "duration": 50,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "Cj9M9qeS0WE",
+      "title": "Estima Lock from Reverse De La Riva",
+      "by": "Revolution BJJ",
+      "vertical": false,
+      "channel": "Revolution BJJ",
+      "duration": 151,
+      "verified": "2026-07-14"
     }
   ]
 }

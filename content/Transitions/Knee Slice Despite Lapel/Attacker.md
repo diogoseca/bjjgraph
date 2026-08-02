@@ -168,6 +168,43 @@ description: "How to execute Knee Slice Despite Lapel in BJJ. Attacking perspect
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Knee Slice Despite Lapel (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Lapel half guard to combat knee slice",
+      "description": "Knee Slice Despite Lapel (Attacker) film study: Lapel half guard to combat knee slice, taught by Team Daruma Dojo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/fpHh5-DyeAk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/fpHh5-DyeAk",
+      "url": "https://www.youtube.com/watch?v=fpHh5-DyeAk",
+      "creator": { "@type": "Person", "name": "Team Daruma Dojo" },
+      "duration": "PT75S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "X pass to knee slice",
+      "description": "Knee Slice Despite Lapel (Attacker) film study: X pass to knee slice, taught by Aidan Sericolo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/zJkr3PfYDMI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/zJkr3PfYDMI",
+      "url": "https://www.youtube.com/watch?v=zJkr3PfYDMI",
+      "creator": { "@type": "Person", "name": "Aidan Sericolo" },
+      "duration": "PT93S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -181,6 +218,34 @@ Strategically, this pass is most effective when combined with systematic lapel c
 **From Position**: [[Positions/Lapel Guard]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Knee Slice Despite Lapel (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=fpHh5-DyeAk)
+
+<p class="clip-credit"><strong>Lapel half guard to combat knee slice</strong> — taught by Team Daruma Dojo · 1:15 · <a href="https://www.youtube.com/watch?v=fpHh5-DyeAk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=zJkr3PfYDMI)
+
+<p class="clip-credit"><strong>X pass to knee slice</strong> — taught by Aidan Sericolo · 1:33 · <a href="https://www.youtube.com/watch?v=zJkr3PfYDMI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

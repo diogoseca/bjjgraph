@@ -168,6 +168,54 @@ description: "How to execute X-Guard Sweep in BJJ. Attacking perspective with se
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "X-Guard Sweep (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "X guard sweep",
+      "description": "X-Guard Sweep (Attacker) film study: X guard sweep, taught by Marcelo Garcia.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/zbYb6sOYC8w/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/zbYb6sOYC8w",
+      "url": "https://www.youtube.com/watch?v=zbYb6sOYC8w",
+      "creator": { "@type": "Person", "name": "Marcelo Garcia" },
+      "duration": "PT53S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "X-guard sweep and pass",
+      "description": "X-Guard Sweep (Attacker) film study: X-guard sweep and pass, taught by Marcelo Garcia.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/7OnjPU1WjH4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/7OnjPU1WjH4",
+      "url": "https://www.youtube.com/watch?v=7OnjPU1WjH4",
+      "creator": { "@type": "Person", "name": "Marcelo Garcia" },
+      "duration": "PT35S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "No-gi X-guard sweep",
+      "description": "X-Guard Sweep (Attacker) film study: No-gi X-guard sweep, taught by Marcelo Garcia.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/m-ueyJXiShY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/m-ueyJXiShY",
+      "url": "https://www.youtube.com/watch?v=m-ueyJXiShY",
+      "creator": { "@type": "Person", "name": "Marcelo Garcia" },
+      "duration": "PT126S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -177,6 +225,42 @@ The X-Guard Sweep is a fundamental attacking technique from X-Guard that uses su
 **From Position**: [[Positions/X-Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch X-Guard Sweep (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=zbYb6sOYC8w)
+
+<p class="clip-credit"><strong>X guard sweep</strong> — taught by Marcelo Garcia · 0:53 · <a href="https://www.youtube.com/watch?v=zbYb6sOYC8w" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=7OnjPU1WjH4)
+
+<p class="clip-credit"><strong>X-guard sweep and pass</strong> — taught by Marcelo Garcia · 0:35 · <a href="https://www.youtube.com/watch?v=7OnjPU1WjH4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=m-ueyJXiShY)
+
+<p class="clip-credit"><strong>No-gi X-guard sweep</strong> — taught by Marcelo Garcia · 2:06 · <a href="https://www.youtube.com/watch?v=m-ueyJXiShY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

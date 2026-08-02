@@ -34,6 +34,43 @@ description: "Master grip breaking in BJJ with systematic hand fighting methods.
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Grip Break \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Twisty wristy grip break from the back",
+      "description": "Grip Break film study: Twisty wristy grip break from the back, taught by 10th Planet Colorado Springs.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/EV9gWyVYF2g/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/EV9gWyVYF2g",
+      "url": "https://www.youtube.com/watch?v=EV9gWyVYF2g",
+      "creator": { "@type": "Person", "name": "10th Planet Colorado Springs" },
+      "duration": "PT100S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Crucifix grip break",
+      "description": "Grip Break film study: Crucifix grip break, taught by Gabe Tuttle.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/OnmLBMNZ44A/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/OnmLBMNZ44A",
+      "url": "https://www.youtube.com/watch?v=OnmLBMNZ44A",
+      "creator": { "@type": "Person", "name": "Gabe Tuttle" },
+      "duration": "PT86S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -66,9 +103,37 @@ The effectiveness of grip breaking lies in understanding leverage principles and
 Mastery of grip breaking transcends the physical technique itself and becomes a chess match of grip fighting sequences. Advanced practitioners anticipate their opponent's re-gripping attempts and chain multiple grip breaks together, creating sustained periods of grip dominance that translate directly to positional and tactical advantages throughout the match.
 
 **From Position**: [[Positions/Open Guard]] (Bottom)
-**Success Rate**: 82%
+**Success Rate**: 56%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Grip Break in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=EV9gWyVYF2g)
+
+<p class="clip-credit"><strong>Twisty wristy grip break from the back</strong> — taught by 10th Planet Colorado Springs · 1:40 · <a href="https://www.youtube.com/watch?v=EV9gWyVYF2g" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=OnmLBMNZ44A)
+
+<p class="clip-credit"><strong>Crucifix grip break</strong> — taught by Gabe Tuttle · 1:26 · <a href="https://www.youtube.com/watch?v=OnmLBMNZ44A" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

@@ -34,6 +34,43 @@ description: "Master the Ezekiel Choke from inside closed guard top. Gi sleeve g
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Ezekiel Choke from Closed Guard \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Ezekiel Choke from Closed Guard with a Twist",
+      "description": "Ezekiel Choke from Closed Guard film study: Ezekiel Choke from Closed Guard with a Twist, taught by BJJ After Forty.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/U0bEVMh07b0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/U0bEVMh07b0",
+      "url": "https://www.youtube.com/watch?v=U0bEVMh07b0",
+      "creator": { "@type": "Person", "name": "BJJ After Forty" },
+      "duration": "PT149S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "The Ezekiel To End All Ezekiels (No Gi)",
+      "description": "Ezekiel Choke from Closed Guard film study: The Ezekiel To End All Ezekiels (No Gi), taught by Henry Akins.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/B7_MjC4WAoI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/B7_MjC4WAoI",
+      "url": "https://www.youtube.com/watch?v=B7_MjC4WAoI",
+      "creator": { "@type": "Person", "name": "Henry Akins" },
+      "duration": "PT87S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -54,7 +91,7 @@ description: "Master the Ezekiel Choke from inside closed guard top. Gi sleeve g
 <span class="meta-chip">Choke</span>
 <span class="meta-chip">Blood Choke</span>
 <span class="meta-chip">Targets Carotid arteries and trachea</span>
-<span class="meta-chip">40% success</span>
+<span class="meta-chip">58% success</span>
 </div>
 
 > [!danger] Safety
@@ -78,6 +115,34 @@ The trade-off is significant positional risk. Setting up the Ezekiel requires de
 **Starting Position**: [[Positions/Closed Guard]] · **From**: [[Positions/Closed Guard]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Ezekiel Choke from Closed Guard in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=U0bEVMh07b0)
+
+<p class="clip-credit"><strong>Ezekiel Choke from Closed Guard with a Twist</strong> — taught by BJJ After Forty · 2:29 · <a href="https://www.youtube.com/watch?v=U0bEVMh07b0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=B7_MjC4WAoI)
+
+<p class="clip-credit"><strong>The Ezekiel To End All Ezekiels (No Gi)</strong> — taught by Henry Akins · 1:27 · <a href="https://www.youtube.com/watch?v=B7_MjC4WAoI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="outcomes" class="content-section">
 
@@ -244,9 +309,9 @@ The trade-off is significant positional risk. Setting up the Ezekiel requires de
 ## Related
 - [[Submissions/Ezekiel Choke]]
 - [[Submissions/Cross Collar Choke]]
-- [[Transitions/Arm Triangle]]
-- [[Transitions/Guillotine Choke]]
-- [[Transitions/Darce Choke]]
+- [[Submissions/Arm Triangle]]
+- [[Submissions/Guillotine Choke]]
+- [[Submissions/Darce Choke]]
 - [[Positions/Closed Guard]] - Starting position where this submission is executed from top
 - [[Positions/Mount]] - Traditional and higher percentage position for Ezekiel Choke attacks
 - [[Positions/Half Guard]] - Alternative position where similar Ezekiel sleeve grip mechanics apply

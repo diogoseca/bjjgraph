@@ -148,6 +148,43 @@ description: "Prevent the aggressive Dead Orchard escape as the top player in BJ
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Escape from Dead Orchard (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Following the gator roll defense off the guillotine",
+      "description": "Escape from Dead Orchard (Defender) film study: Following the gator roll defense off the guillotine, taught by Drew Darce.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/VVjEXr-X3hg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/VVjEXr-X3hg",
+      "url": "https://www.youtube.com/watch?v=VVjEXr-X3hg",
+      "creator": { "@type": "Person", "name": "Drew Darce" },
+      "duration": "PT183S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Arm-in guillotine finish from front headlock",
+      "description": "Escape from Dead Orchard (Defender) film study: Arm-in guillotine finish from front headlock, taught by Neil Melanson.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/IL04RCsCrac/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/IL04RCsCrac",
+      "url": "https://www.youtube.com/watch?v=IL04RCsCrac",
+      "creator": { "@type": "Person", "name": "Neil Melanson" },
+      "duration": "PT61S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +194,34 @@ As the practitioner maintaining Dead Orchard Control against an opponent attempt
 **Opponent's Starting Position**: [[Positions/Dead Orchard Control]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Escape from Dead Orchard (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=VVjEXr-X3hg)
+
+<p class="clip-credit"><strong>Following the gator roll defense off the guillotine</strong> — taught by Drew Darce · 3:03 · <a href="https://www.youtube.com/watch?v=VVjEXr-X3hg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=IL04RCsCrac)
+
+<p class="clip-credit"><strong>Arm-in guillotine finish from front headlock</strong> — taught by Neil Melanson · 1:01 · <a href="https://www.youtube.com/watch?v=IL04RCsCrac" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

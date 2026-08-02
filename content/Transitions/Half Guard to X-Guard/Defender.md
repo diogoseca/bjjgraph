@@ -140,6 +140,54 @@ description: "Defend and counter the Half Guard to X-Guard transition. Recogniti
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Half Guard to X-Guard (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Foot lock and single leg X-guard escapes",
+      "description": "Half Guard to X-Guard (Defender) film study: Foot lock and single leg X-guard escapes, taught by James O\u0027Connor.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/JSOM86_1lRo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/JSOM86_1lRo",
+      "url": "https://www.youtube.com/watch?v=JSOM86_1lRo",
+      "creator": { "@type": "Person", "name": "James O\u0027Connor" },
+      "duration": "PT111S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "The Best Way To Get Out Of The X-Guard",
+      "description": "Half Guard to X-Guard (Defender) film study: The Best Way To Get Out Of The X-Guard, taught by Isaque Bahiense.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/XhLd-CMQBUQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/XhLd-CMQBUQ",
+      "url": "https://www.youtube.com/watch?v=XhLd-CMQBUQ",
+      "creator": { "@type": "Person", "name": "Isaque Bahiense" },
+      "duration": "PT222S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Dealing with the switch base from half guard",
+      "description": "Half Guard to X-Guard (Defender) film study: Dealing with the switch base from half guard, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/rja-2KKDGb0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/rja-2KKDGb0",
+      "url": "https://www.youtube.com/watch?v=rja-2KKDGb0",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT284S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -149,6 +197,42 @@ As the defender against the Half Guard to X-Guard transition, you are the top pl
 **Opponent's Starting Position**: [[Positions/Half Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Half Guard to X-Guard (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=JSOM86_1lRo)
+
+<p class="clip-credit"><strong>Foot lock and single leg X-guard escapes</strong> — taught by James O&#39;Connor · 1:51 · <a href="https://www.youtube.com/watch?v=JSOM86_1lRo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=XhLd-CMQBUQ)
+
+<p class="clip-credit"><strong>The Best Way To Get Out Of The X-Guard</strong> — taught by Isaque Bahiense · 3:42 · <a href="https://www.youtube.com/watch?v=XhLd-CMQBUQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=rja-2KKDGb0)
+
+<p class="clip-credit"><strong>Dealing with the switch base from half guard</strong> — taught by Lachlan Giles · 4:44 · <a href="https://www.youtube.com/watch?v=rja-2KKDGb0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

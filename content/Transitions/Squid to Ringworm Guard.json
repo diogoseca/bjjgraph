@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Ringworm Guard/Bottom",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Squid Guard/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Open Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "The Squid to Ringworm Guard transition is a specialized lapel guard reconfiguration within the Keenan Cornelius guard system, allowing the bottom player to shift between two complementary positions that share lapel manipulation principles but create fundamentally different offensive angles. This transition involves adjusting the lapel wrap from the Squid Guard's threading leg and lapel configuration to the Ringworm Guard's distinct wrap pattern around the opponent's leg, which produces new sweeping leverage and back-taking pathways that the opponent must address with a completely different defensive framework.\n\nThe strategic value of this transition lies in disrupting the top player's adapted defensive patterns. When an opponent has successfully stabilized against Squid Guard's specific threats—neutralizing the inversion attempts and threading leg pressure—transitioning to Ringworm Guard forces them to abandon their current passing strategy and adapt to a fundamentally different control structure. This creates a moment of tactical uncertainty that advanced guard players exploit for sweeps, back takes, or further transitions within the lapel guard ecosystem.\n\nTiming is the critical factor in this reconfiguration. The lapel must be momentarily loosened and rethreaded through a different path around the opponent's leg, creating a brief vulnerability window where the bottom player lacks full guard control. Maintaining at least one secondary control point—typically a sleeve grip or active leg frame—throughout the reconfiguration prevents the opponent from capitalizing on this transitional gap. Advanced practitioners integrate this transition into a broader lapel guard cycling system, moving fluidly between Squid, Ringworm, and Worm Guard to keep opponents perpetually adjusting their defensive responses.",
   "conditions": [
     "Established Squid Guard with active lapel wrap around opponent's near leg creating tension and restricting their mobility",
@@ -244,38 +256,138 @@
     "flashcards": [
       {
         "question": "What is the most critical element to secure before initiating the lapel reconfiguration from Squid to Ringworm Guard?",
-        "answer": "A strong secondary control point independent of the lapel must be confirmed before any reconfiguration begins. This is typically a sleeve grip on the opponent's far arm or an active foot frame on their hip. Without this secondary control, loosening the lapel for reconfiguration creates a window where you have no meaningful guard structure, allowing the opponent to pass freely. The secondary control maintains your positional integrity throughout the transition."
+        "answer": "A strong secondary control point independent of the lapel must be confirmed before any reconfiguration begins. This is typically a sleeve grip on the opponent's far arm or an active foot frame on their hip. Without this secondary control, loosening the lapel for reconfiguration creates a window where you have no meaningful guard structure, allowing the opponent to pass freely. The secondary control maintains your positional integrity throughout the transition.",
+        "answer_line": "Sleeve grip or hip frame first",
+        "distractors": {
+          "plausible": [
+            "Tighten lapel grip first",
+            "Grab far collar instead"
+          ],
+          "trap": [
+            "Release lapel to free hand"
+          ]
+        }
       },
       {
         "question": "Your opponent has adapted to your Squid Guard and is successfully neutralizing your sweeps—when is the optimal timing window to initiate the transition to Ringworm?",
-        "answer": "The optimal window is immediately after the opponent defends a sweep attempt and is resettling their base. During the recovery from defending a sweep, their attention is split between reestablishing posture and monitoring for follow-up attacks. This momentary distraction provides the two to three seconds needed to begin the lapel reconfiguration. Alternatively, when they shift their weight to one side to set up a pass, the opposite side creates space for the rethreading motion."
+        "answer": "The optimal window is immediately after the opponent defends a sweep attempt and is resettling their base. During the recovery from defending a sweep, their attention is split between reestablishing posture and monitoring for follow-up attacks. This momentary distraction provides the two to three seconds needed to begin the lapel reconfiguration. Alternatively, when they shift their weight to one side to set up a pass, the opposite side creates space for the rethreading motion.",
+        "answer_line": "Right after they defend a sweep",
+        "distractors": {
+          "plausible": [
+            "When they secure crossface",
+            "As they finish passing guard"
+          ],
+          "trap": [
+            "During your own sweep attempt"
+          ]
+        }
       },
       {
         "question": "How do you maintain guard integrity during the transitional moment when the lapel is being loosened and rethreaded?",
-        "answer": "Guard integrity is maintained through the combination of your secondary grip and active leg frames. Your non-threading leg must be pushing against the opponent's hip to prevent forward pressure, while your sleeve or collar grip prevents them from establishing dominant grips. The key principle is that your legs and one hand maintain a functional open guard structure while only your lapel hand performs the reconfiguration. The lapel is never fully released—you feed slack while maintaining grip on the tail."
+        "answer": "Guard integrity is maintained through the combination of your secondary grip and active leg frames. Your non-threading leg must be pushing against the opponent's hip to prevent forward pressure, while your sleeve or collar grip prevents them from establishing dominant grips. The key principle is that your legs and one hand maintain a functional open guard structure while only your lapel hand performs the reconfiguration. The lapel is never fully released—you feed slack while maintaining grip on the tail.",
+        "answer_line": "Keep frames while feeding slack",
+        "distractors": {
+          "plausible": [
+            "Release lapel, regrip fast",
+            "Post both hands on mat"
+          ],
+          "trap": [
+            "Drop leg frame to free hands"
+          ]
+        }
       },
       {
         "question": "What grip adjustment must your lapel hand make during the rerouting, and what is the critical detail most practitioners miss?",
-        "answer": "The lapel hand must transition from pulling the fabric along the Squid Guard's threading path to redirecting it around the back of the opponent's knee or thigh in the Ringworm configuration. The critical detail most practitioners miss is maintaining constant contact with the lapel fabric throughout the entire rethreading motion. Many players momentarily release the lapel to reposition their hand, creating a gap where the opponent can strip the grip. Instead, the hand should slide along the fabric, always maintaining friction and control."
+        "answer": "The lapel hand must transition from pulling the fabric along the Squid Guard's threading path to redirecting it around the back of the opponent's knee or thigh in the Ringworm configuration. The critical detail most practitioners miss is maintaining constant contact with the lapel fabric throughout the entire rethreading motion. Many players momentarily release the lapel to reposition their hand, creating a gap where the opponent can strip the grip. Instead, the hand should slide along the fabric, always maintaining friction and control.",
+        "answer_line": "Never release lapel, slide grip",
+        "distractors": {
+          "plausible": [
+            "Pull lapel straight down",
+            "Switch hands mid-motion"
+          ],
+          "trap": [
+            "Let go briefly to reposition"
+          ]
+        }
       },
       {
         "question": "Your opponent begins stripping the lapel as you start the reconfiguration—how do you respond to salvage the position?",
-        "answer": "Immediately assess whether you can complete the transition faster than they can strip the grip. If the strip is in its early stages and you are close to completing the Ringworm threading, accelerate the reconfiguration. If the strip is advanced and you will lose the lapel, abandon the Ringworm attempt and pull the lapel back into Squid Guard configuration while it is still partially wrapped. If the lapel is already mostly stripped, transition immediately to Spider Guard or De La Riva Guard using your remaining leg hooks rather than fighting for a lost grip."
+        "answer": "Immediately assess whether you can complete the transition faster than they can strip the grip. If the strip is in its early stages and you are close to completing the Ringworm threading, accelerate the reconfiguration. If the strip is advanced and you will lose the lapel, abandon the Ringworm attempt and pull the lapel back into Squid Guard configuration while it is still partially wrapped. If the lapel is already mostly stripped, transition immediately to Spider Guard or De La Riva Guard using your remaining leg hooks rather than fighting for a lost grip.",
+        "answer_line": "Race it, retreat, or rehook",
+        "distractors": {
+          "plausible": [
+            "Always finish the Ringworm",
+            "Always retreat to Squid"
+          ],
+          "trap": [
+            "Fight to regrip the lapel"
+          ]
+        }
       },
       {
         "question": "What hip angle adjustment is required when transitioning from Squid Guard to Ringworm Guard, and why does it matter?",
-        "answer": "Squid Guard typically has the hips angled approximately 45 degrees with the threading leg creating an inside hook, while Ringworm Guard requires the hips to shift to a slightly more perpendicular angle relative to the opponent to accommodate the different lapel wrap path. This angle change is essential because the Ringworm wrap creates its mechanical advantage from a different vector than the Squid wrap. Without adjusting the hip angle, the completed Ringworm wrap will lack the proper tension geometry for effective sweeping and the control will feel loose despite the lapel being technically wrapped."
+        "answer": "Squid Guard typically has the hips angled approximately 45 degrees with the threading leg creating an inside hook, while Ringworm Guard requires the hips to shift to a slightly more perpendicular angle relative to the opponent to accommodate the different lapel wrap path. This angle change is essential because the Ringworm wrap creates its mechanical advantage from a different vector than the Squid wrap. Without adjusting the hip angle, the completed Ringworm wrap will lack the proper tension geometry for effective sweeping and the control will feel loose despite the lapel being technically wrapped.",
+        "answer_line": "Shift hips more perpendicular",
+        "distractors": {
+          "plausible": [
+            "Keep the same 45° angle",
+            "Rotate hips fully square"
+          ],
+          "trap": [
+            "Flatten hips to the mat"
+          ]
+        }
       },
       {
         "question": "How does this transition fit into a broader lapel guard cycling strategy, and what determines which guard you should be in?",
-        "answer": "The Squid-Ringworm-Worm Guard cycling system works by continuously shifting the control structure to prevent the opponent from developing effective counter-strategies. Transition to Ringworm when the opponent has neutralized Squid Guard's inversion and threading threats. Move to Worm Guard from Ringworm when the opponent begins successfully stripping the Ringworm wrap. Return to Squid Guard when the opponent overcommits to Worm Guard defense. The determining factor is always the opponent's defensive adaptation—whichever guard they are currently countering most effectively is the one you should transition away from."
+        "answer": "The Squid-Ringworm-Worm Guard cycling system works by continuously shifting the control structure to prevent the opponent from developing effective counter-strategies. Transition to Ringworm when the opponent has neutralized Squid Guard's inversion and threading threats. Move to Worm Guard from Ringworm when the opponent begins successfully stripping the Ringworm wrap. Return to Squid Guard when the opponent overcommits to Worm Guard defense. The determining factor is always the opponent's defensive adaptation—whichever guard they are currently countering most effectively is the one you should transition away from.",
+        "answer_line": "Cycle away from what they counter",
+        "distractors": {
+          "plausible": [
+            "Always start in Worm Guard",
+            "Cycle on a fixed time interval"
+          ],
+          "trap": [
+            "Stay in whichever they master"
+          ]
+        }
       },
       {
         "question": "Once you have completed the Ringworm wrap, what is the highest-percentage immediate follow-up before the opponent adapts?",
-        "answer": "Attack a sweep or back take in the first two to three seconds while the opponent is still recalibrating to the new control structure. The Ringworm wrap's strongest sweeping vector pulls the opponent forward over their tethered leg, so a lapel-driven off-balance toward their wrapped side combined with leg elevation produces a high-percentage sweep. If they post a hand to defend the forward pull, the same lapel tension feeds a back take as they turn to base. Striking immediately exploits the same tactical uncertainty that motivated the transition, before the opponent can build a defensive framework for the unfamiliar configuration."
+        "answer": "Attack a sweep or back take in the first two to three seconds while the opponent is still recalibrating to the new control structure. The Ringworm wrap's strongest sweeping vector pulls the opponent forward over their tethered leg, so a lapel-driven off-balance toward their wrapped side combined with leg elevation produces a high-percentage sweep. If they post a hand to defend the forward pull, the same lapel tension feeds a back take as they turn to base. Striking immediately exploits the same tactical uncertainty that motivated the transition, before the opponent can build a defensive framework for the unfamiliar configuration.",
+        "answer_line": "Attack sweep/back take fast",
+        "distractors": {
+          "plausible": [
+            "Wait for them to react first",
+            "Reset grips before attacking"
+          ],
+          "trap": [
+            "Pull straight back for space"
+          ]
+        }
       }
     ],
-    "safety_considerations": "This transition involves lapel manipulation with minimal joint stress or direct submission danger. The primary safety concern is maintaining awareness of your threading leg position during the reconfiguration to avoid exposing it to leg lock entries from an alert opponent. Ensure the lapel is not wrapped around your own fingers during rethreading, as sudden opponent movement could cause finger sprains or dislocations. Practice at controlled speeds until the reconfiguration pattern becomes automatic. Communicate with training partners about the guard change to prevent confusion during drilling."
+    "safety_considerations": "This transition involves lapel manipulation with minimal joint stress or direct submission danger. The primary safety concern is maintaining awareness of your threading leg position during the reconfiguration to avoid exposing it to leg lock entries from an alert opponent. Ensure the lapel is not wrapped around your own fingers during rethreading, as sudden opponent movement could cause finger sprains or dislocations. Practice at controlled speeds until the reconfiguration pattern becomes automatic. Communicate with training partners about the guard change to prevent confusion during drilling.",
+    "clips": [
+      {
+        "id": "CdPHu-ly6t8",
+        "title": "Lapel guard examples: worm, reverse de la worm, ringworm",
+        "by": "Greg Hamilton",
+        "vertical": false,
+        "channel": "Renzo Gracie Jiu Jitsu DFW",
+        "duration": 287,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "541H63KeHD4",
+        "title": "Lapel guard introduction and entries",
+        "by": "Keenan Cornelius",
+        "vertical": false,
+        "channel": "Keenan Cornelius",
+        "duration": 293,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Squid to Ringworm Guard Defender",
@@ -361,23 +473,73 @@
     "flashcards": [
       {
         "question": "What are the earliest recognition cues that the bottom player is attempting to transition from Squid Guard to Ringworm Guard?",
-        "answer": "The earliest cues are the lapel hand beginning to slide along the fabric rather than maintaining steady pulling tension, and the threading leg hook momentarily loosening as the bottom player prepares to adjust their leg configuration. These two cues typically precede the hip angle adjustment by one to two seconds, giving an alert defender a brief window to initiate a preemptive defensive response before the reconfiguration progresses further."
+        "answer": "The earliest cues are the lapel hand beginning to slide along the fabric rather than maintaining steady pulling tension, and the threading leg hook momentarily loosening as the bottom player prepares to adjust their leg configuration. These two cues typically precede the hip angle adjustment by one to two seconds, giving an alert defender a brief window to initiate a preemptive defensive response before the reconfiguration progresses further.",
+        "answer_line": "Lapel hand sliding, hook loosens",
+        "distractors": {
+          "plausible": [
+            "Sudden burst of hip movement",
+            "Opponent grips your collar"
+          ],
+          "trap": [
+            "Wait for the hip shift to react"
+          ]
+        }
       },
       {
         "question": "What is the moment of maximum vulnerability for the bottom player, and how should you exploit it?",
-        "answer": "The moment of maximum vulnerability occurs when the lapel has been loosened from the Squid Guard configuration but has not yet been threaded into the Ringworm path—typically during steps three through five of the reconfiguration sequence. At this point, the lapel provides minimal restriction on your leg and the bottom player's guard structure is essentially an open guard with a loose lapel. Exploit this by aggressively stripping the lapel with both hands or driving forward with pressure to pass before the new guard is established."
+        "answer": "The moment of maximum vulnerability occurs when the lapel has been loosened from the Squid Guard configuration but has not yet been threaded into the Ringworm path—typically during steps three through five of the reconfiguration sequence. At this point, the lapel provides minimal restriction on your leg and the bottom player's guard structure is essentially an open guard with a loose lapel. Exploit this by aggressively stripping the lapel with both hands or driving forward with pressure to pass before the new guard is established.",
+        "answer_line": "Lapel loose, not yet rethreaded",
+        "distractors": {
+          "plausible": [
+            "Right as reconfig begins",
+            "After Ringworm fully locks"
+          ],
+          "trap": [
+            "Push through their leg frame"
+          ]
+        }
       },
       {
         "question": "Your opponent successfully completes the Ringworm Guard reconfiguration—what immediate adjustments should you make to your defensive posture?",
-        "answer": "Immediately widen your base to account for Ringworm Guard's different sweeping angles compared to Squid Guard. Adjust your weight distribution to be slightly further back, as Ringworm Guard's primary sweeps pull you forward. Identify the new lapel wrap path around your leg and begin planning your grip strip from the Ringworm configuration. Do not attempt to pass immediately—first understand the new control structure and identify its specific vulnerabilities before committing to a passing sequence."
+        "answer": "Immediately widen your base to account for Ringworm Guard's different sweeping angles compared to Squid Guard. Adjust your weight distribution to be slightly further back, as Ringworm Guard's primary sweeps pull you forward. Identify the new lapel wrap path around your leg and begin planning your grip strip from the Ringworm configuration. Do not attempt to pass immediately—first understand the new control structure and identify its specific vulnerabilities before committing to a passing sequence.",
+        "answer_line": "Widen base, weight back, assess",
+        "distractors": {
+          "plausible": [
+            "Immediately rush the pass",
+            "Keep same base as before"
+          ],
+          "trap": [
+            "Lean forward into the wrap"
+          ]
+        }
       },
       {
         "question": "How do you differentiate between a genuine reconfiguration attempt and a feint designed to create sweep opportunities?",
-        "answer": "A genuine reconfiguration involves the bottom player loosening the lapel and adjusting their hip angle simultaneously, with their free hand moving to assist the rethreading. A feint typically maintains full lapel tension while only adjusting the legs or making exaggerated grip movements designed to draw your attention. If the lapel tension remains constant despite visible grip adjustments, it is likely a feint. Respond to feints by maintaining your base rather than committing to a grip strip that could leave you off-balance."
+        "answer": "A genuine reconfiguration involves the bottom player loosening the lapel and adjusting their hip angle simultaneously, with their free hand moving to assist the rethreading. A feint typically maintains full lapel tension while only adjusting the legs or making exaggerated grip movements designed to draw your attention. If the lapel tension remains constant despite visible grip adjustments, it is likely a feint. Respond to feints by maintaining your base rather than committing to a grip strip that could leave you off-balance.",
+        "answer_line": "Check if lapel tension drops",
+        "distractors": {
+          "plausible": [
+            "React to any leg movement",
+            "Watch for hand movement only"
+          ],
+          "trap": [
+            "Commit to a strip on any cue"
+          ]
+        }
       },
       {
         "question": "What is the strategic trade-off between stripping the lapel entirely versus simply preventing the reconfiguration?",
-        "answer": "Stripping the lapel entirely eliminates the bottom player's entire lapel guard system, reducing them to basic open guard and dramatically simplifying your passing challenge. However, the strip attempt requires committing both hands and risks a sweep if it fails. Preventing the reconfiguration through pressure or hand control keeps them in Squid Guard, which you have already been defending—a lower-reward but lower-risk outcome. Choose the strip when you have a clear window and solid base; choose prevention when the bottom player maintains strong secondary controls that make stripping risky."
+        "answer": "Stripping the lapel entirely eliminates the bottom player's entire lapel guard system, reducing them to basic open guard and dramatically simplifying your passing challenge. However, the strip attempt requires committing both hands and risks a sweep if it fails. Preventing the reconfiguration through pressure or hand control keeps them in Squid Guard, which you have already been defending—a lower-reward but lower-risk outcome. Choose the strip when you have a clear window and solid base; choose prevention when the bottom player maintains strong secondary controls that make stripping risky.",
+        "answer_line": "Strip if safe, else prevent",
+        "distractors": {
+          "plausible": [
+            "Always strip for max reward",
+            "Always prevent, never strip"
+          ],
+          "trap": [
+            "Strip with one hand only"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -400,6 +562,35 @@
         "phase": "Phase 4: Positional Sparring Integration",
         "focus": "Full context defense with competitive resistance",
         "description": "Start in Squid Guard Top position and spar with full resistance. Partner uses the Squid to Ringworm transition as one of their offensive options alongside sweeps and back takes. Practice integrating your recognition and defensive responses into your overall guard passing strategy without tunnel-visioning on the transition threat."
+      }
+    ],
+    "clips": [
+      {
+        "id": "Apdhlgpalgc",
+        "title": "How to pass the worm guard",
+        "by": "Jon Thomas",
+        "vertical": false,
+        "channel": "JonThomasBJJ Plus",
+        "duration": 202,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "kMybfbRxsPg",
+        "title": "Single grip to slice through lapel guards",
+        "by": "Keenan Cornelius",
+        "vertical": false,
+        "channel": "Keenan Cornelius",
+        "duration": 512,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "4v0oVPOz80s",
+        "title": "Passing lapel guards with leg pummel",
+        "by": "Adam Wardzinski",
+        "vertical": false,
+        "channel": "Adam Wardziński",
+        "duration": 524,
+        "verified": "2026-07-15"
       }
     ]
   }

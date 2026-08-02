@@ -176,6 +176,43 @@ description: "Attack with the Kimura from S Mount in BJJ. Step-by-step execution
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Kimura from S Mount (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Kimura from S Mount",
+      "description": "Kimura from S Mount (Attacker) film study: Kimura from S Mount, taught by Marcus Ashcraft.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/pDByo2uZnzo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/pDByo2uZnzo",
+      "url": "https://www.youtube.com/watch?v=pDByo2uZnzo",
+      "creator": { "@type": "Person", "name": "Marcus Ashcraft" },
+      "duration": "PT63S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "S-Mount Armbar, Kimura, Far-side Armbar",
+      "description": "Kimura from S Mount (Attacker) film study: S-Mount Armbar, Kimura, Far-side Armbar, taught by GB Costa Mesa.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/nH4ly3vk7WI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/nH4ly3vk7WI",
+      "url": "https://www.youtube.com/watch?v=nH4ly3vk7WI",
+      "creator": { "@type": "Person", "name": "GB Costa Mesa" },
+      "duration": "PT24S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -186,6 +223,34 @@ Attacking with the Kimura from S Mount leverages the perpendicular body angle an
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Kimura from S Mount (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=pDByo2uZnzo)
+
+<p class="clip-credit"><strong>Kimura from S Mount</strong> — taught by Marcus Ashcraft · 1:03 · <a href="https://www.youtube.com/watch?v=pDByo2uZnzo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=nH4ly3vk7WI)
+
+<p class="clip-credit"><strong>S-Mount Armbar, Kimura, Far-side Armbar</strong> — taught by GB Costa Mesa · 0:24 · <a href="https://www.youtube.com/watch?v=nH4ly3vk7WI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

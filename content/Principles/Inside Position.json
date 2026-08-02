@@ -404,35 +404,135 @@
   "flashcards": [
     {
       "question": "What is inside position in BJJ?",
-      "answer": "Inside position is occupying the space between an opponent's limbs (arms or legs) and their torso — through underhooks, inside ties, knees, and hooks — so your controls work inside their defensive framework while theirs are forced to operate at weak, extended range."
+      "answer": "Inside position is occupying the space between an opponent's limbs (arms or legs) and their torso — through underhooks, inside ties, knees, and hooks — so your controls work inside their defensive framework while theirs are forced to operate at weak, extended range.",
+      "answer_line": "Underhooks/hooks inside limbs",
+      "distractors": {
+        "plausible": [
+          "Being on top of opponent",
+          "Any tight grip on opponent"
+        ],
+        "trap": [
+          "Controlling from outside range"
+        ]
+      }
     },
     {
       "question": "Why does the fighter with inside position hold a mechanical advantage?",
-      "answer": "Limbs are strongest and most mobile when working close to the body's center. Occupying the inside forces the opponent's arms and legs to work at extended, weak range while your own limbs operate at their strongest range, and this advantage compounds with every exchange."
+      "answer": "Limbs are strongest and most mobile when working close to the body's center. Occupying the inside forces the opponent's arms and legs to work at extended, weak range while your own limbs operate at their strongest range, and this advantage compounds with every exchange.",
+      "answer_line": "Limbs strongest near your center",
+      "distractors": {
+        "plausible": [
+          "Bigger frame overpowers opponent",
+          "More grips means more control"
+        ],
+        "trap": [
+          "Reach advantage from full extension"
+        ]
+      }
     },
     {
       "question": "What is pummeling and why is it central to inside position?",
-      "answer": "Pummeling is swimming your arm under the opponent's arm to replace their overhook with your underhook. It is the constant, reflexive battle to win or recover inside position and should happen continuously throughout an exchange, never as an isolated movement."
+      "answer": "Pummeling is swimming your arm under the opponent's arm to replace their overhook with your underhook. It is the constant, reflexive battle to win or recover inside position and should happen continuously throughout an exchange, never as an isolated movement.",
+      "answer_line": "Swim underhook, fight constantly",
+      "distractors": {
+        "plausible": [
+          "One-time move to start position",
+          "Overhook beats underhook always"
+        ],
+        "trap": [
+          "Stop pummeling once you attack"
+        ]
+      }
     },
     {
       "question": "How do you establish inside position when playing guard from the bottom?",
-      "answer": "From the bottom you insert knees and feet inside the opponent's arms and torso — the knee shield in half guard, butterfly hooks inside the thighs, or spider-guard feet on the biceps — occupying inside space to control distance and create attacks."
+      "answer": "From the bottom you insert knees and feet inside the opponent's arms and torso — the knee shield in half guard, butterfly hooks inside the thighs, or spider-guard feet on the biceps — occupying inside space to control distance and create attacks.",
+      "answer_line": "Insert knees/feet inside frame",
+      "distractors": {
+        "plausible": [
+          "Grab any leg or ankle grip",
+          "Push opponent's hips away"
+        ],
+        "trap": [
+          "Keep knees outside, feet on mat"
+        ]
+      }
     },
     {
       "question": "What should you do the instant you lose inside position?",
-      "answer": "Immediately pummel or re-insert to recover inside position instead of attacking from outside. Success rates from outside position drop sharply, so re-establishing inside control is always the first priority before attempting any offensive technique."
+      "answer": "Immediately pummel or re-insert to recover inside position instead of attacking from outside. Success rates from outside position drop sharply, so re-establishing inside control is always the first priority before attempting any offensive technique.",
+      "answer_line": "Repummel before attacking again",
+      "distractors": {
+        "plausible": [
+          "Attack harder from outside",
+          "Reset to neutral and restart"
+        ],
+        "trap": [
+          "Push through with outside attack"
+        ]
+      }
     },
     {
       "question": "How does elbow discipline relate to inside position?",
-      "answer": "Keeping the elbows tight to the ribs denies the opponent entry points for underhooks and inside ties. Flared elbows create gaps that let the opponent win inside position, forcing you to fight reactively from an inferior outside position."
+      "answer": "Keeping the elbows tight to the ribs denies the opponent entry points for underhooks and inside ties. Flared elbows create gaps that let the opponent win inside position, forcing you to fight reactively from an inferior outside position.",
+      "answer_line": "Keep elbows tight to ribs",
+      "distractors": {
+        "plausible": [
+          "Keep elbows flared for base",
+          "Elbows out for wider frame"
+        ],
+        "trap": [
+          "Extend arms to create distance"
+        ]
+      }
     },
     {
       "question": "What is the most common error practitioners make regarding inside position?",
-      "answer": "Attempting techniques from outside position instead of first establishing inside position. This causes takedowns to get sprawled and guard passes to get re-guarded, because the opponent's inside controls deflect and redirect the attack."
+      "answer": "Attempting techniques from outside position instead of first establishing inside position. This causes takedowns to get sprawled and guard passes to get re-guarded, because the opponent's inside controls deflect and redirect the attack.",
+      "answer_line": "Attacking before winning inside",
+      "distractors": {
+        "plausible": [
+          "Being too passive, not attacking",
+          "Over-gripping and gassing out"
+        ],
+        "trap": [
+          "Rushing outside attacks for speed"
+        ]
+      }
     },
     {
       "question": "Why is inside position described as a whole-body concept rather than just an arm battle?",
-      "answer": "Inside/outside battles happen simultaneously at the arms (underhooks), legs (hooks), and head (crossface). Winning only the underhook while losing the leg or head battle creates a mixed position that fails to deliver the expected advantage."
+      "answer": "Inside/outside battles happen simultaneously at the arms (underhooks), legs (hooks), and head (crossface). Winning only the underhook while losing the leg or head battle creates a mixed position that fails to deliver the expected advantage.",
+      "answer_line": "Fought at arms, legs, and head",
+      "distractors": {
+        "plausible": [
+          "Only matters for arm underhooks",
+          "Only matters in leg battles"
+        ],
+        "trap": [
+          "Ignore head position, hands enough"
+        ]
+      }
+    }
+  ],
+  "clips": [
+    {
+      "id": "my3fvg5RDJ0",
+      "title": "Danaher's inside position concept explained",
+      "by": "Chadi",
+      "vertical": false,
+      "channel": "Chadi",
+      "duration": 737,
+      "verified": "2026-07-15"
+    },
+    {
+      "id": "peYJDb7LZMM",
+      "title": "What is inside position and why it matters",
+      "by": "Jordan Preisinger",
+      "vertical": false,
+      "channel": "Jordan Teaches Jiujitsu",
+      "duration": 499,
+      "verified": "2026-07-15"
     }
   ]
 }

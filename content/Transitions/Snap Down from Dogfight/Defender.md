@@ -148,6 +148,43 @@ description: "Defend against the snap down from dogfight position. Recognition c
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Snap Down from Dogfight (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Front headlock sit-out reversal",
+      "description": "Snap Down from Dogfight (Defender) film study: Front headlock sit-out reversal, taught by Keith (Takada Dojo).",
+      "thumbnailUrl": "https://i.ytimg.com/vi/t4xBYQ1VauU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/t4xBYQ1VauU",
+      "url": "https://www.youtube.com/watch?v=t4xBYQ1VauU",
+      "creator": { "@type": "Person", "name": "Keith (Takada Dojo)" },
+      "duration": "PT28S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Snap down recovery to attacks",
+      "description": "Snap Down from Dogfight (Defender) film study: Snap down recovery to attacks, taught by Jon Mark Bentley.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/z0od7o9tEGU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/z0od7o9tEGU",
+      "url": "https://www.youtube.com/watch?v=z0od7o9tEGU",
+      "creator": { "@type": "Person", "name": "Jon Mark Bentley" },
+      "duration": "PT136S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +194,34 @@ As the defender against the snap down from dogfight, your primary challenge is m
 **Opponent's Starting Position**: [[Positions/Dogfight Position]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Snap Down from Dogfight (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=t4xBYQ1VauU)
+
+<p class="clip-credit"><strong>Front headlock sit-out reversal</strong> — taught by Keith (Takada Dojo) · 0:28 · <a href="https://www.youtube.com/watch?v=t4xBYQ1VauU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=z0od7o9tEGU)
+
+<p class="clip-credit"><strong>Snap down recovery to attacks</strong> — taught by Jon Mark Bentley · 2:16 · <a href="https://www.youtube.com/watch?v=z0od7o9tEGU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

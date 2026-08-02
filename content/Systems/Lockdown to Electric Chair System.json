@@ -367,35 +367,115 @@
   "flashcards": [
     {
       "question": "What is the foundational control position of the Lockdown to Electric Chair System?",
-      "answer": "The lockdown — a figure-four leg entanglement where you thread your bottom leg over the opponent's trapped leg and hook your top foot under your own ankle, letting you extend their leg and break their posture from half guard bottom."
+      "answer": "The lockdown — a figure-four leg entanglement where you thread your bottom leg over the opponent's trapped leg and hook your top foot under your own ankle, letting you extend their leg and break their posture from half guard bottom.",
+      "answer_line": "Lockdown figure-four entanglement",
+      "distractors": {
+        "plausible": [
+          "Deep half guard hook",
+          "Butterfly hook underhook"
+        ],
+        "trap": [
+          "Flatten and pass to mount"
+        ]
+      }
     },
     {
       "question": "Why must the lockdown be applied actively rather than held statically?",
-      "answer": "A static lockdown only maintains position, while constant hip extension breaks the opponent's posture, creates space for the underhook, and generates the off-balancing needed to enter sweeps and the Electric Chair. Passive holding lets skilled opponents flatten you and pass."
+      "answer": "A static lockdown only maintains position, while constant hip extension breaks the opponent's posture, creates space for the underhook, and generates the off-balancing needed to enter sweeps and the Electric Chair. Passive holding lets skilled opponents flatten you and pass.",
+      "answer_line": "Hip extension breaks posture",
+      "distractors": {
+        "plausible": [
+          "Static hold to conserve energy",
+          "Squeeze harder to finish faster"
+        ],
+        "trap": [
+          "Release lockdown to reset grips"
+        ]
+      }
     },
     {
       "question": "What does the Electric Chair position attack, and how is it created?",
-      "answer": "It attacks the inner thigh, groin, and hip joint by securing a deep underhook, elevating the opponent's trapped leg, and extending your hips to create crotch-splitting pressure. It works as both a submission in legal formats and a high-percentage sweep when defended."
+      "answer": "It attacks the inner thigh, groin, and hip joint by securing a deep underhook, elevating the opponent's trapped leg, and extending your hips to create crotch-splitting pressure. It works as both a submission in legal formats and a high-percentage sweep when defended.",
+      "answer_line": "Underhook, elevate leg, extend hips",
+      "distractors": {
+        "plausible": [
+          "Underhook and flatten opponent",
+          "Overhook and elevate near leg"
+        ],
+        "trap": [
+          "Release underhook, grab collar"
+        ]
+      }
     },
     {
       "question": "How does the Old School sweep relate to the Electric Chair within the system?",
-      "answer": "The Old School sweep is the primary follow-up when the opponent defends the Electric Chair by posting high — you keep the underhook and lockdown, control their far side, and roll them over your shoulder. The lockdown stops them from posting with the trapped leg, raising the sweep's success rate."
+      "answer": "The Old School sweep is the primary follow-up when the opponent defends the Electric Chair by posting high — you keep the underhook and lockdown, control their far side, and roll them over your shoulder. The lockdown stops them from posting with the trapped leg, raising the sweep's success rate.",
+      "answer_line": "Keep underhook, roll over shoulder",
+      "distractors": {
+        "plausible": [
+          "Switch to Homer Simpson sweep",
+          "Re-attack Electric Chair harder"
+        ],
+        "trap": [
+          "Let go of underhook, chase leg"
+        ]
+      }
     },
     {
       "question": "What is the opponent's main defense to the underhook, and how does the system counter it?",
-      "answer": "The whizzer (overhook) is the primary counter. The system defeats it by using lockdown extension to create space and swim the arm through, framing to re-pummel, switching to the opposite side, or using the whizzer against them by flowing to Dogfight or Homer Simpson."
+      "answer": "The whizzer (overhook) is the primary counter. The system defeats it by using lockdown extension to create space and swim the arm through, framing to re-pummel, switching to the opposite side, or using the whizzer against them by flowing to Dogfight or Homer Simpson.",
+      "answer_line": "Swim arm through via lockdown space",
+      "distractors": {
+        "plausible": [
+          "Fight the whizzer with strength",
+          "Switch sides immediately"
+        ],
+        "trap": [
+          "Abandon lockdown to re-grip"
+        ]
+      }
     },
     {
       "question": "When should you abandon the lockdown to take the back?",
-      "answer": "When the opponent's defensive reactions — such as turning into you or driving forward to escape Electric Chair pressure — expose their back. Recognizing this scramble window and releasing the lockdown to take the back is a key chaining branch of the system."
+      "answer": "When the opponent's defensive reactions — such as turning into you or driving forward to escape Electric Chair pressure — expose their back. Recognizing this scramble window and releasing the lockdown to take the back is a key chaining branch of the system.",
+      "answer_line": "Opponent turns in exposing back",
+      "distractors": {
+        "plausible": [
+          "As soon as underhook feels deep",
+          "When they post to defend chair"
+        ],
+        "trap": [
+          "Let go early to save energy"
+        ]
+      }
     },
     {
       "question": "What is a common mistake when entering the lockdown, and what is the fix?",
-      "answer": "Trying to lock down from a fully flattened position. The fix is to create space first with frames, hip escapes, or butterfly hooks to off-balance the opponent, then secure the lockdown as they react rather than forcing it under heavy pressure."
+      "answer": "Trying to lock down from a fully flattened position. The fix is to create space first with frames, hip escapes, or butterfly hooks to off-balance the opponent, then secure the lockdown as they react rather than forcing it under heavy pressure.",
+      "answer_line": "Create space first, then lock",
+      "distractors": {
+        "plausible": [
+          "Force lockdown under pressure",
+          "Secure lockdown before framing"
+        ],
+        "trap": [
+          "Flatten out to set the hook"
+        ]
+      }
     },
     {
       "question": "What role does the Homer Simpson sequence play in the system?",
-      "answer": "It is the defensive reset — a circular hip-escape recovery used when the opponent flattens you or threatens to pass, allowing you to re-establish lockdown control or transition to another half guard variation so you are never truly stuck."
+      "answer": "It is the defensive reset — a circular hip-escape recovery used when the opponent flattens you or threatens to pass, allowing you to re-establish lockdown control or transition to another half guard variation so you are never truly stuck.",
+      "answer_line": "Circular hip-escape defensive reset",
+      "distractors": {
+        "plausible": [
+          "Aggressive scramble to reverse",
+          "Reset lockdown by re-gripping"
+        ],
+        "trap": [
+          "Bridge and roll to escape bottom"
+        ]
+      }
     }
   ]
 }

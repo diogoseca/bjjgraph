@@ -174,6 +174,54 @@ description: "Complete attacking guide for passing Double Sleeve Guard. Step-by-
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Pass Double Sleeve Guard (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Double Arm Guard Pass",
+      "description": "Pass Double Sleeve Guard (Attacker) film study: Double Arm Guard Pass, taught by 10th Planet Costa Mesa.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/nolXMAMiIMU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/nolXMAMiIMU",
+      "url": "https://www.youtube.com/watch?v=nolXMAMiIMU",
+      "creator": { "@type": "Person", "name": "10th Planet Costa Mesa" },
+      "duration": "PT23S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "How to pass the double sleeve guard",
+      "description": "Pass Double Sleeve Guard (Attacker) film study: How to pass the double sleeve guard, taught by Jon Thomas.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/oThN2Qq64rk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/oThN2Qq64rk",
+      "url": "https://www.youtube.com/watch?v=oThN2Qq64rk",
+      "creator": { "@type": "Person", "name": "Jon Thomas" },
+      "duration": "PT549S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Double sleeve pressure pass",
+      "description": "Pass Double Sleeve Guard (Attacker) film study: Double sleeve pressure pass, taught by Andre Galvao.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/t275dqwRR1M/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/t275dqwRR1M",
+      "url": "https://www.youtube.com/watch?v=t275dqwRR1M",
+      "creator": { "@type": "Person", "name": "Andre Galvao" },
+      "duration": "PT654S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -183,6 +231,42 @@ As the attacker passing Double Sleeve Guard, your primary objective is to system
 **From Position**: [[Positions/Double Sleeve Guard]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Pass Double Sleeve Guard (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=nolXMAMiIMU)
+
+<p class="clip-credit"><strong>Double Arm Guard Pass</strong> — taught by 10th Planet Costa Mesa · 0:23 · <a href="https://www.youtube.com/watch?v=nolXMAMiIMU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=oThN2Qq64rk)
+
+<p class="clip-credit"><strong>How to pass the double sleeve guard</strong> — taught by Jon Thomas · 9:09 · <a href="https://www.youtube.com/watch?v=oThN2Qq64rk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=t275dqwRR1M)
+
+<p class="clip-credit"><strong>Double sleeve pressure pass</strong> — taught by Andre Galvao · 10:54 · <a href="https://www.youtube.com/watch?v=t275dqwRR1M" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

@@ -174,6 +174,43 @@ description: "Master the attacker's approach to transitioning from defended knee
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Kneebar to Ashi Garami (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Inside ashi garami leg attack",
+      "description": "Kneebar to Ashi Garami (Attacker) film study: Inside ashi garami leg attack, taught by Modesto Judo Club coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/FfkVEt5YHbY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/FfkVEt5YHbY",
+      "url": "https://www.youtube.com/watch?v=FfkVEt5YHbY",
+      "creator": { "@type": "Person", "name": "Modesto Judo Club coach" },
+      "duration": "PT59S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Half guard to kneebar",
+      "description": "Kneebar to Ashi Garami (Attacker) film study: Half guard to kneebar, taught by CholoMMA coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/uB23Ogno7DM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/uB23Ogno7DM",
+      "url": "https://www.youtube.com/watch?v=uB23Ogno7DM",
+      "creator": { "@type": "Person", "name": "CholoMMA coach" },
+      "duration": "PT24S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -183,6 +220,34 @@ As the attacker executing Kneebar to Ashi Garami, your objective is to convert a
 **From Position**: [[Positions/Kneebar Control]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Kneebar to Ashi Garami (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=FfkVEt5YHbY)
+
+<p class="clip-credit"><strong>Inside ashi garami leg attack</strong> — taught by Modesto Judo Club coach · 0:59 · <a href="https://www.youtube.com/watch?v=FfkVEt5YHbY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=uB23Ogno7DM)
+
+<p class="clip-credit"><strong>Half guard to kneebar</strong> — taught by CholoMMA coach · 0:24 · <a href="https://www.youtube.com/watch?v=uB23Ogno7DM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

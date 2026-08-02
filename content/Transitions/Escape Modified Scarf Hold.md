@@ -34,6 +34,43 @@ description: "Learn the frame-and-hip escape from Modified Scarf Hold in BJJ. Sy
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Escape Modified Scarf Hold \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Kesa Gatame Pressure Defense Using Proper Framing",
+      "description": "Escape Modified Scarf Hold film study: Kesa Gatame Pressure Defense Using Proper Framing, taught by Kohbukan Sisu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/fvp5_BVEtLg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/fvp5_BVEtLg",
+      "url": "https://www.youtube.com/watch?v=fvp5_BVEtLg",
+      "creator": { "@type": "Person", "name": "Kohbukan Sisu" },
+      "duration": "PT84S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Kesa Gatame Scarf Hold Escape",
+      "description": "Escape Modified Scarf Hold film study: Kesa Gatame Scarf Hold Escape, taught by Bruce Fowler.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/2okf5X17jeg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/2okf5X17jeg",
+      "url": "https://www.youtube.com/watch?v=2okf5X17jeg",
+      "creator": { "@type": "Person", "name": "Bruce Fowler" },
+      "duration": "PT230S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +106,34 @@ From a strategic perspective, this escape integrates into a layered defense syst
 **Success Rate**: 45%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Escape Modified Scarf Hold in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=fvp5_BVEtLg)
+
+<p class="clip-credit"><strong>Kesa Gatame Pressure Defense Using Proper Framing</strong> — taught by Kohbukan Sisu · 1:24 · <a href="https://www.youtube.com/watch?v=fvp5_BVEtLg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=2okf5X17jeg)
+
+<p class="clip-credit"><strong>Kesa Gatame Scarf Hold Escape</strong> — taught by Bruce Fowler · 3:50 · <a href="https://www.youtube.com/watch?v=2okf5X17jeg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

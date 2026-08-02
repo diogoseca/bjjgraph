@@ -34,6 +34,54 @@ description: "Master the sprawl defense in BJJ. Essential takedown defense techn
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Sprawl Defense \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Sprawl technique to defend the shot",
+      "description": "Sprawl Defense film study: Sprawl technique to defend the shot, taught by Coach Lang.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/8AaRLOSM61U/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/8AaRLOSM61U",
+      "url": "https://www.youtube.com/watch?v=8AaRLOSM61U",
+      "creator": { "@type": "Person", "name": "Coach Lang" },
+      "duration": "PT55S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Sprawl technique breakdown",
+      "description": "Sprawl Defense film study: Sprawl technique breakdown, taught by Jordan Burroughs.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/LiRrlPGboK8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/LiRrlPGboK8",
+      "url": "https://www.youtube.com/watch?v=LiRrlPGboK8",
+      "creator": { "@type": "Person", "name": "Jordan Burroughs" },
+      "duration": "PT122S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "How to sprawl against a double leg",
+      "description": "Sprawl Defense film study: How to sprawl against a double leg, taught by ateambjj.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Io79xaXZx_c/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Io79xaXZx_c",
+      "url": "https://www.youtube.com/watch?v=Io79xaXZx_c",
+      "creator": { "@type": "Person", "name": "ateambjj" },
+      "duration": "PT56S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -62,9 +110,45 @@ description: "Master the sprawl defense in BJJ. Essential takedown defense techn
 Rooted in folkstyle and freestyle wrestling, the sprawl has become the cornerstone of standing takedown defense in Brazilian Jiu-Jitsu, particularly in no-gi and competition contexts where leg attacks are frequent. It involves explosively driving the hips back and down while simultaneously shooting the legs back to prevent an opponent from completing a double leg or single leg takedown. This critical defensive technique transforms a potentially vulnerable position into an offensive opportunity, often transitioning to front headlock control or guillotine attacks. The sprawl's effectiveness lies in its ability to redirect an opponent's forward momentum while creating downward pressure that flattens them to the mat. When executed properly, the sprawl not only defends the takedown but establishes dominant top position, forcing the attacker to carry your weight while you control their head and arm. Mastering the sprawl is essential for maintaining standing position in BJJ, preventing takedowns in competition, and creating offensive opportunities from defensive situations.
 
 **From Position**: [[Positions/Standing Position]] (Top)
-**Success Rate**: 75%
+**Success Rate**: 65%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Sprawl Defense in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=8AaRLOSM61U)
+
+<p class="clip-credit"><strong>Sprawl technique to defend the shot</strong> — taught by Coach Lang · 0:55 · <a href="https://www.youtube.com/watch?v=8AaRLOSM61U" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=LiRrlPGboK8)
+
+<p class="clip-credit"><strong>Sprawl technique breakdown</strong> — taught by Jordan Burroughs · 2:02 · <a href="https://www.youtube.com/watch?v=LiRrlPGboK8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Io79xaXZx_c)
+
+<p class="clip-credit"><strong>How to sprawl against a double leg</strong> — taught by ateambjj · 0:56 · <a href="https://www.youtube.com/watch?v=Io79xaXZx_c" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

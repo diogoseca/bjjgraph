@@ -34,6 +34,43 @@ description: "Master the bridge-and-roll reversal from scarf hold in BJJ. Step-b
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Bridge from Scarf Hold Position \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Bridge and roll escape from scarf hold",
+      "description": "Bridge from Scarf Hold Position film study: Bridge and roll escape from scarf hold, taught by Satori BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/NBBNLMCFvWM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/NBBNLMCFvWM",
+      "url": "https://www.youtube.com/watch?v=NBBNLMCFvWM",
+      "creator": { "@type": "Person", "name": "Satori BJJ" },
+      "duration": "PT43S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Kesa gatame bridge escape demo",
+      "description": "Bridge from Scarf Hold Position film study: Kesa gatame bridge escape demo, taught by SBG Australia.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/2M_6VytUaus/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/2M_6VytUaus",
+      "url": "https://www.youtube.com/watch?v=2M_6VytUaus",
+      "creator": { "@type": "Person", "name": "SBG Australia" },
+      "duration": "PT43S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +106,34 @@ Within the scarf hold escape hierarchy, the bridge-and-roll reversal occupies th
 **Success Rate**: 30%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Bridge from Scarf Hold Position in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=NBBNLMCFvWM)
+
+<p class="clip-credit"><strong>Bridge and roll escape from scarf hold</strong> — taught by Satori BJJ · 0:43 · <a href="https://www.youtube.com/watch?v=NBBNLMCFvWM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=2M_6VytUaus)
+
+<p class="clip-credit"><strong>Kesa gatame bridge escape demo</strong> — taught by SBG Australia · 0:43 · <a href="https://www.youtube.com/watch?v=2M_6VytUaus" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 
@@ -249,7 +314,7 @@ The bridge from scarf hold sits within the scarf hold bottom escape hierarchy as
 
 - [[Submissions/Americana]] - Submission threat from scarf hold top that creates timing windows for the bridge reversal when opponent attacks
 
-- [[Transitions/Arm Triangle]] - Submission threat from scarf hold top motivating urgency to execute bridge reversal before attack develops
+- [[Submissions/Arm Triangle]] - Submission threat from scarf hold top motivating urgency to execute bridge reversal before attack develops
 
 
 </section>

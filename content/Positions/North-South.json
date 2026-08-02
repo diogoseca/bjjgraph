@@ -290,81 +290,216 @@
     "transitions": [
       {
         "transition": "North-South Choke from North-South",
-        "attempt_probability": 18
+        "attempt_probability": {
+          "gi": 11,
+          "nogi": 18
+        }
       },
       {
         "transition": "Side Control to Mount",
-        "attempt_probability": 12
+        "attempt_probability": {
+          "gi": 14,
+          "nogi": 12
+        }
       },
       {
         "transition": "North-South to Kimura",
-        "attempt_probability": 17
+        "attempt_probability": {
+          "gi": 19,
+          "nogi": 19
+        }
       },
       {
         "transition": "Armbar from North-South",
-        "attempt_probability": 11
+        "attempt_probability": {
+          "gi": 7,
+          "nogi": 6
+        }
       },
       {
         "transition": "Side Control to North-South",
-        "attempt_probability": 6
+        "attempt_probability": {
+          "gi": 12,
+          "nogi": 10
+        }
       },
       {
         "transition": "Americana from North-South",
-        "attempt_probability": 7
+        "attempt_probability": {
+          "gi": 5,
+          "nogi": 4
+        }
       },
       {
         "transition": "Knee on Belly",
-        "attempt_probability": 8
+        "attempt_probability": {
+          "gi": 11,
+          "nogi": 8
+        }
       },
       {
         "transition": "Arm Triangle Setup",
-        "attempt_probability": 8
+        "attempt_probability": {
+          "gi": 7,
+          "nogi": 8
+        }
       },
       {
         "transition": "Reverse Mount Transition",
-        "attempt_probability": 5
+        "attempt_probability": {
+          "gi": 4,
+          "nogi": 5
+        }
       },
       {
         "transition": "Back Take from Top",
-        "attempt_probability": 5
-      },
-      {
-        "transition": "North-South Choke",
-        "attempt_probability": 3
+        "attempt_probability": {
+          "gi": 10,
+          "nogi": 10
+        }
       }
     ],
     "flashcards": [
       {
         "question": "What is the optimal weight distribution for maintaining North-South control?",
-        "answer": "Your body weight should be distributed forward across your opponent's chest and shoulders, not sitting back toward their hips or stomach. The pressure point should be your sternum driving into their upper chest area, compressing their rib cage to restrict breathing. Keep your hips relatively low and base wide to prevent bridging escapes while maintaining the forward weight commitment. Think of draping your torso over theirs like a heavy blanket rather than sitting on them."
+        "answer": "Your body weight should be distributed forward across your opponent's chest and shoulders, not sitting back toward their hips or stomach. The pressure point should be your sternum driving into their upper chest area, compressing their rib cage to restrict breathing. Keep your hips relatively low and base wide to prevent bridging escapes while maintaining the forward weight commitment. Think of draping your torso over theirs like a heavy blanket rather than sitting on them.",
+        "answer_line": "Forward, chest pressure on sternum",
+        "distractors": {
+          "plausible": [
+            "Weight back toward their hips",
+            "High hips, narrow base"
+          ],
+          "trap": [
+            "Sit up, weight on their stomach"
+          ]
+        }
       },
       {
         "question": "Your opponent starts creating frames with their forearms against your chest - what adjustment do you make?",
-        "answer": "When frames are being established, you have two primary options: either collapse the frames by driving your chest pressure forward and angling your shoulders to slip past their forearms, or recognize this as a signal to transition to mount or side control. Fighting against established frames wastes energy - instead, use their frame creation as a trigger to advance position by stepping over to mount when they commit both arms to framing. Their framing arms cannot simultaneously block your leg step-over."
+        "answer": "When frames are being established, you have two primary options: either collapse the frames by driving your chest pressure forward and angling your shoulders to slip past their forearms, or recognize this as a signal to transition to mount or side control. Fighting against established frames wastes energy - instead, use their frame creation as a trigger to advance position by stepping over to mount when they commit both arms to framing. Their framing arms cannot simultaneously block your leg step-over.",
+        "answer_line": "Step over to mount as they frame",
+        "distractors": {
+          "plausible": [
+            "Fight the frames head-on",
+            "Pull both frames off first"
+          ],
+          "trap": [
+            "Back off to reset position"
+          ]
+        }
       },
       {
         "question": "What are the essential grip priorities from North-South top?",
-        "answer": "Priority one is controlling at least one of your opponent's arms through underhooks, overhooks, or direct wrist control to prevent defensive framing. Secondary grips depend on your objective: for the North-South choke, control their far arm while positioning for the choke; for kimura attacks, isolate and feed the near arm across their body. Never allow both arms to remain free and active simultaneously, as this creates compounding frame problems."
+        "answer": "Priority one is controlling at least one of your opponent's arms through underhooks, overhooks, or direct wrist control to prevent defensive framing. Secondary grips depend on your objective: for the North-South choke, control their far arm while positioning for the choke; for kimura attacks, isolate and feed the near arm across their body. Never allow both arms to remain free and active simultaneously, as this creates compounding frame problems.",
+        "answer_line": "Control at least one arm first",
+        "distractors": {
+          "plausible": [
+            "Grip both wrists equally",
+            "Underhook the far leg"
+          ],
+          "trap": [
+            "Let both arms stay free"
+          ]
+        }
       },
       {
         "question": "How do you shut down the primary bridge and roll escape attempt from North-South?",
-        "answer": "Widen your base immediately when you feel them begin to bridge by sprawling your legs outward and lowering your hips. Your head should stay heavy on the mat beside their hip to block their turning momentum. Keep weight forward over their chest - if you're sitting back, you're vulnerable. The key is anticipating the bridge by feeling their hip movement and pre-emptively adjusting your base before they generate momentum. Their bridge must overcome both your weight and your base width."
+        "answer": "Widen your base immediately when you feel them begin to bridge by sprawling your legs outward and lowering your hips. Your head should stay heavy on the mat beside their hip to block their turning momentum. Keep weight forward over their chest - if you're sitting back, you're vulnerable. The key is anticipating the bridge by feeling their hip movement and pre-emptively adjusting your base before they generate momentum. Their bridge must overcome both your weight and your base width.",
+        "answer_line": "Widen base, head heavy on mat",
+        "distractors": {
+          "plausible": [
+            "Sit back to absorb the bridge",
+            "Grab both arms tighter"
+          ],
+          "trap": [
+            "Stand up to reset base"
+          ]
+        }
       },
       {
         "question": "Your opponent explosively bridges and you feel yourself being lifted - what is your immediate response?",
-        "answer": "Immediately sprawl your hips back and widen your base, using your hands to post on the mat if needed. Ride the bridge rather than fighting it directly - their bridge will fail within 1-2 seconds due to fatigue. As they return to the mat, immediately reestablish your chest pressure and tighten your arm control. If the bridge was strong enough to create space, consider transitioning to mount during their descent when their energy is momentarily depleted."
+        "answer": "Immediately sprawl your hips back and widen your base, using your hands to post on the mat if needed. Ride the bridge rather than fighting it directly - their bridge will fail within 1-2 seconds due to fatigue. As they return to the mat, immediately reestablish your chest pressure and tighten your arm control. If the bridge was strong enough to create space, consider transitioning to mount during their descent when their energy is momentarily depleted.",
+        "answer_line": "Sprawl, ride the bridge out",
+        "distractors": {
+          "plausible": [
+            "Fight the bridge with strength",
+            "Post hands, stand fully up"
+          ],
+          "trap": [
+            "Release pressure, back away"
+          ]
+        }
       },
       {
         "question": "How do you manage energy while maintaining North-South for extended periods?",
-        "answer": "North-South should be a low-energy position when maintained correctly. Use skeletal structure rather than muscular effort - let your body weight create pressure rather than actively pushing. Keep your breathing rhythmic and controlled. Avoid constant movement; instead, settle your weight and only adjust when your opponent moves. The position is designed for recovery while controlling, so relax your non-essential muscles and let gravity do the work. Your body should feel heavy and relaxed, not tense."
+        "answer": "North-South should be a low-energy position when maintained correctly. Use skeletal structure rather than muscular effort - let your body weight create pressure rather than actively pushing. Keep your breathing rhythmic and controlled. Avoid constant movement; instead, settle your weight and only adjust when your opponent moves. The position is designed for recovery while controlling, so relax your non-essential muscles and let gravity do the work. Your body should feel heavy and relaxed, not tense.",
+        "answer_line": "Use structure, relax, stay heavy",
+        "distractors": {
+          "plausible": [
+            "Push hard with constant muscle",
+            "Move often to stay active"
+          ],
+          "trap": [
+            "Hold breath to add pressure"
+          ]
+        }
       },
       {
         "question": "Your opponent partially escapes and gets one knee between you - how do you recover full control?",
-        "answer": "Address the knee immediately by hip switching to clear it before they can establish a full half guard frame. Drive your chest pressure forward while using your hand to push their knee down and away. If the knee is established, transition to passing their half guard rather than trying to force back to North-South. You can also switch your angle and attack side control on the opposite side where they haven't established the knee shield."
+        "answer": "Address the knee immediately by hip switching to clear it before they can establish a full half guard frame. Drive your chest pressure forward while using your hand to push their knee down and away. If the knee is established, transition to passing their half guard rather than trying to force back to North-South. You can also switch your angle and attack side control on the opposite side where they haven't established the knee shield.",
+        "answer_line": "Hip switch to clear the knee",
+        "distractors": {
+          "plausible": [
+            "Force back to North-South",
+            "Grab the far leg instead"
+          ],
+          "trap": [
+            "Let them build full guard"
+          ]
+        }
       },
       {
         "question": "What determines whether you should hunt submissions from North-South versus transitioning to mount?",
-        "answer": "Transition to mount when: your opponent has established strong defensive frames, they're defending their neck well making the North-South choke unavailable, or you feel their escape is progressing despite your control. Hunt submissions when: their arms are exposed or isolated, their neck is available for the choke, they're flat on their back without active frames, or they're exhausted and not actively defending. The decision also depends on the rule set - mount scores additional points, so in competition you may prioritize advancement over submission attempts."
+        "answer": "Transition to mount when: your opponent has established strong defensive frames, they're defending their neck well making the North-South choke unavailable, or you feel their escape is progressing despite your control. Hunt submissions when: their arms are exposed or isolated, their neck is available for the choke, they're flat on their back without active frames, or they're exhausted and not actively defending. The decision also depends on the rule set - mount scores additional points, so in competition you may prioritize advancement over submission attempts.",
+        "answer_line": "Submit if arms/neck exposed",
+        "distractors": {
+          "plausible": [
+            "Always advance to mount first",
+            "Submit whenever they move"
+          ],
+          "trap": [
+            "Chase choke through strong frames"
+          ]
+        }
+      }
+    ],
+    "clips": [
+      {
+        "id": "z3RNUfHfiSM",
+        "title": "North-South choke",
+        "by": "Marcelo Garcia",
+        "vertical": false,
+        "channel": "Kon Ying",
+        "duration": 20,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "Fdq-j0AUVtc",
+        "title": "North-South pressure choke",
+        "by": "Nick Unander",
+        "vertical": false,
+        "channel": "Nick Unander",
+        "duration": 99,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "SPXanCnoBYA",
+        "title": "North-South choke as a pinning tool",
+        "by": "Craig Jones",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 135,
+        "verified": "2026-07-14"
       }
     ]
   },
@@ -580,70 +715,335 @@
     "transitions": [
       {
         "transition": "Elbow Escape to Guard",
-        "attempt_probability": 14
+        "attempt_probability": {
+          "gi": 11,
+          "nogi": 10
+        }
       },
       {
         "transition": "Bridge and Roll",
-        "attempt_probability": 12
+        "attempt_probability": {
+          "gi": 7,
+          "nogi": 6
+        }
       },
       {
         "transition": "Bridge and Turn to Turtle",
-        "attempt_probability": 17
+        "attempt_probability": {
+          "gi": 16,
+          "nogi": 18
+        }
       },
       {
         "transition": "Hip Escape to Guard",
-        "attempt_probability": 14
+        "attempt_probability": {
+          "gi": 13,
+          "nogi": 12
+        }
       },
       {
         "transition": "North-South Escape",
-        "attempt_probability": 13
+        "attempt_probability": {
+          "gi": 19,
+          "nogi": 19
+        }
       },
       {
         "transition": "Frame and Shrimp to Guard",
-        "attempt_probability": 12
+        "attempt_probability": {
+          "gi": 12,
+          "nogi": 11
+        }
       },
       {
         "transition": "Granby Roll to Guard",
-        "attempt_probability": 11
+        "attempt_probability": {
+          "gi": 7,
+          "nogi": 9
+        }
       },
       {
         "transition": "Technical Stand-up",
-        "attempt_probability": 7
+        "attempt_probability": {
+          "gi": 5,
+          "nogi": 6
+        }
+      },
+      {
+        "transition": "Explosive Bridge to Guard Recovery",
+        "attempt_probability": {
+          "gi": 10,
+          "nogi": 9
+        }
       }
     ],
     "flashcards": [
       {
         "question": "What is the first priority when you find yourself in North-South bottom?",
-        "answer": "The immediate priority is establishing controlled breathing and creating basic frames with your forearms against your opponent's chest. Panic breathing leads to rapid fatigue and poor decision-making. Place your forearms perpendicular to their chest to create structural frames, not pushing with muscle strength. This creates the minimum space needed for breathing while you assess your escape options."
+        "answer": "The immediate priority is establishing controlled breathing and creating basic frames with your forearms against your opponent's chest. Panic breathing leads to rapid fatigue and poor decision-making. Place your forearms perpendicular to their chest to create structural frames, not pushing with muscle strength. This creates the minimum space needed for breathing while you assess your escape options.",
+        "answer_line": "Breathe calm, build forearm frames",
+        "distractors": {
+          "plausible": [
+            "Explode immediately to escape",
+            "Push with all your strength"
+          ],
+          "trap": [
+            "Hold breath and go rigid"
+          ]
+        }
       },
       {
         "question": "Your opponent's weight is crushing your chest and you're struggling to breathe - what adjustment do you make?",
-        "answer": "Turn your body slightly to one side rather than remaining flat on your back - this angles your rib cage and creates space for lung expansion. Combine this with forearm frames against their chest to maintain the space. Time your inhales during their micro-adjustments or weight shifts, and exhale during their heavy pressure phases. Small incremental hip escapes also progressively reduce the chest-to-chest contact area."
+        "answer": "Turn your body slightly to one side rather than remaining flat on your back - this angles your rib cage and creates space for lung expansion. Combine this with forearm frames against their chest to maintain the space. Time your inhales during their micro-adjustments or weight shifts, and exhale during their heavy pressure phases. Small incremental hip escapes also progressively reduce the chest-to-chest contact area.",
+        "answer_line": "Turn slightly, frame to breathe",
+        "distractors": {
+          "plausible": [
+            "Stay flat, push with arms",
+            "Exhale fully and hold it"
+          ],
+          "trap": [
+            "Bridge hard immediately"
+          ]
+        }
       },
       {
         "question": "What are the essential frames needed to begin your escape sequence?",
-        "answer": "The primary frame is your forearm positioned perpendicular to your opponent's chest, creating a skeletal brace rather than a muscular push. Your elbow should be tight to your ribs for structural integrity. The secondary frame uses your other forearm against their far shoulder to prevent them from driving chest pressure. These frames work together to create and maintain the minimum space necessary for hip mobility and eventual guard recovery."
+        "answer": "The primary frame is your forearm positioned perpendicular to your opponent's chest, creating a skeletal brace rather than a muscular push. Your elbow should be tight to your ribs for structural integrity. The secondary frame uses your other forearm against their far shoulder to prevent them from driving chest pressure. These frames work together to create and maintain the minimum space necessary for hip mobility and eventual guard recovery.",
+        "answer_line": "Forearm frame, elbow tight to ribs",
+        "distractors": {
+          "plausible": [
+            "Push with straight extended arms",
+            "Frame with your palms flat"
+          ],
+          "trap": [
+            "Push their head away with hands"
+          ]
+        }
       },
       {
         "question": "How do you prevent your opponent from isolating your arm for a kimura attack?",
-        "answer": "Keep your elbows tight to your body at all times - never let your arm extend away from your torso or cross your centerline. When creating frames, your elbows should remain within the width of your shoulders. If they begin isolating an arm, immediately pull that elbow back tight to your ribs and fight for inside wrist control. Use your hip escape to angle away from the threatened arm, making the kimura grip more difficult to secure."
+        "answer": "Keep your elbows tight to your body at all times - never let your arm extend away from your torso or cross your centerline. When creating frames, your elbows should remain within the width of your shoulders. If they begin isolating an arm, immediately pull that elbow back tight to your ribs and fight for inside wrist control. Use your hip escape to angle away from the threatened arm, making the kimura grip more difficult to secure.",
+        "answer_line": "Keep elbows tight to your ribs",
+        "distractors": {
+          "plausible": [
+            "Extend arm to block their grip",
+            "Cross arm over your body"
+          ],
+          "trap": [
+            "Post arm out for base"
+          ]
+        }
       },
       {
         "question": "Your opponent begins transitioning toward mount - what is your immediate response?",
-        "answer": "This is actually your best escape opportunity. As they shift weight to step over, their chest pressure momentarily decreases. Immediately insert your knee between your bodies, creating a knee shield. Your knee should reach their hip or chest line, with your shin perpendicular to their body. If you're too slow for the knee shield, turn to turtle position rather than accepting mount - turtle is more escapable than mount."
+        "answer": "This is actually your best escape opportunity. As they shift weight to step over, their chest pressure momentarily decreases. Immediately insert your knee between your bodies, creating a knee shield. Your knee should reach their hip or chest line, with your shin perpendicular to their body. If you're too slow for the knee shield, turn to turtle position rather than accepting mount - turtle is more escapable than mount.",
+        "answer_line": "Insert knee shield, or turtle",
+        "distractors": {
+          "plausible": [
+            "Push their hips away hard",
+            "Wait flat, then bridge later"
+          ],
+          "trap": [
+            "Give back, accept full mount"
+          ]
+        }
       },
       {
         "question": "When is the optimal timing to attempt a bridge and roll escape from North-South?",
-        "answer": "The optimal timing is when your opponent reaches for a submission, particularly the kimura. As they isolate your arm and shift their weight to one side for the grip, their base becomes compromised. Bridge explosively toward the side they're reaching, trapping their posted arm if possible. This timing is critical - bridging against a settled opponent with proper base wastes energy and fails. Wait for their weight commitment to create the vulnerability."
+        "answer": "The optimal timing is when your opponent reaches for a submission, particularly the kimura. As they isolate your arm and shift their weight to one side for the grip, their base becomes compromised. Bridge explosively toward the side they're reaching, trapping their posted arm if possible. This timing is critical - bridging against a settled opponent with proper base wastes energy and fails. Wait for their weight commitment to create the vulnerability.",
+        "answer_line": "Bridge as they reach for kimura",
+        "distractors": {
+          "plausible": [
+            "Bridge the instant they settle",
+            "Bridge right after they pass"
+          ],
+          "trap": [
+            "Bridge against a set base"
+          ]
+        }
       },
       {
         "question": "How do you manage energy to avoid exhaustion while escaping North-South?",
-        "answer": "Focus on small, technical movements rather than explosive scrambles. Chain multiple small hip escapes together, moving inches at a time. Rest between escape attempts by establishing frames and controlling your breathing. Never fight directly against their weight - use timing and technique to escape during their movements or transitions. Recognize that one hip escape rarely succeeds; plan for 3-5 connected shrimps. Patience and systematic effort beats panic and exhaustion."
+        "answer": "Focus on small, technical movements rather than explosive scrambles. Chain multiple small hip escapes together, moving inches at a time. Rest between escape attempts by establishing frames and controlling your breathing. Never fight directly against their weight - use timing and technique to escape during their movements or transitions. Recognize that one hip escape rarely succeeds; plan for 3-5 connected shrimps. Patience and systematic effort beats panic and exhaustion.",
+        "answer_line": "Chain small shrimps, rest frames",
+        "distractors": {
+          "plausible": [
+            "One explosive escape attempt",
+            "Fight their weight directly"
+          ],
+          "trap": [
+            "Scramble hard nonstop"
+          ]
+        }
       },
       {
         "question": "Your escape attempt is partially successful and you've created some space - how do you prevent them from re-consolidating control?",
-        "answer": "Immediately insert your knee or both knees between your bodies before they can close the distance. Maintain your frames throughout - the space you created is worthless without frames to keep it. Continue your hip escape to increase the distance. If they drive forward to re-consolidate, use the momentum to complete your turn toward guard recovery. Never pause or rest in a partial escape position - maintain constant motion toward a stable guard."
+        "answer": "Immediately insert your knee or both knees between your bodies before they can close the distance. Maintain your frames throughout - the space you created is worthless without frames to keep it. Continue your hip escape to increase the distance. If they drive forward to re-consolidate, use the momentum to complete your turn toward guard recovery. Never pause or rest in a partial escape position - maintain constant motion toward a stable guard.",
+        "answer_line": "Insert knees, keep moving to guard",
+        "distractors": {
+          "plausible": [
+            "Pause to catch your breath",
+            "Reset frames, then wait"
+          ],
+          "trap": [
+            "Relax once space appears"
+          ]
+        }
+      }
+    ],
+    "clips": [
+      {
+        "id": "XaLBmGnHm78",
+        "title": "North-South inverted spin escape",
+        "by": "SBG Australia",
+        "vertical": false,
+        "channel": "SBG Australia",
+        "duration": 37,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "Ly89G4iCTSQ",
+        "title": "No-grips escape rolling back to guard",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 108,
+        "verified": "2026-07-14"
       }
     ]
-  }
+  },
+  "flashcards_position": [
+    {
+      "question": "What structural configuration defines the North-South position and distinguishes it from side control?",
+      "answer": "North-South is defined by perpendicular, head-to-head body alignment in which the top player's torso faces the opposite direction from the bottom player, chest draped over the opponent's head and upper chest. Unlike side control, where the bodies lie roughly parallel and the top player faces the opponent's side, North-South positions the two heads near each other with torsos pointing away from one another. This 180-degree opposition is what gives the position its name and its signature downward compression across the sternum and shoulders. The perpendicular geometry trades some transitional fluidity for a uniquely heavy, breathing-restricting pin.",
+      "answer_line": "Perpendicular, head-to-head bodies",
+      "distractors": {
+        "plausible": [
+          "Parallel bodies, facing the side",
+          "Same-direction torsos aligned"
+        ],
+        "trap": [
+          "Bodies stacked fully inverted"
+        ]
+      }
+    },
+    {
+      "question": "Where is the primary pressure and contact concentrated in a correctly held North-South?",
+      "answer": "The controlling pressure concentrates on the bottom player's upper chest, sternum, and shoulder girdle rather than the stomach, hips, or face. The top player's chest and rib cage press down onto the bottom player's rib cage, compressing lung expansion and restricting breathing. This upper-body focus is deliberate: weight placed too low toward the hips loses the breathing restriction and makes bridging easier. The contact point is therefore chest-to-chest across the top of the torso, which is the mechanical heart of the position for both maintaining and suffering the pin.",
+      "answer_line": "Chest pressure on upper chest",
+      "distractors": {
+        "plausible": [
+          "Weight centered on the hips",
+          "Pressure focused on the face"
+        ],
+        "trap": [
+          "Sit back on their stomach"
+        ]
+      }
+    },
+    {
+      "question": "Why does the perpendicular alignment of North-South limit certain transitions compared with parallel pins?",
+      "answer": "Because the bodies point in opposite directions, the top player cannot simply slide a knee across the belt line the way they would from a parallel pin like side control. Reaching mount or knee-on-belly requires first rotating roughly ninety degrees back toward the opponent's hips, which momentarily reduces chest pressure and creates a window. This is why North-South is often treated as a checkpoint rather than an endpoint. The same geometry that makes the pin heavy and hard to escape also makes advancing out of it more committal for the top player.",
+      "answer_line": "Must rotate 90° to advance",
+      "distractors": {
+        "plausible": [
+          "Slide knee straight to mount",
+          "Transitions are always instant"
+        ],
+        "trap": [
+          "Advancing needs no rotation"
+        ]
+      }
+    },
+    {
+      "question": "What role does control of the arms play in the North-South configuration for both players?",
+      "answer": "Arm control is the pivot on which the position turns: whoever governs the bottom player's arms governs the exchange. The top player seeks to trap or isolate at least one arm through underhooks, overhooks, or direct grips to deny the bottom player defensive frames. The bottom player, conversely, fights to keep elbows tight and forearms free to build frames against the chest. Free, active arms are the bottom player's route to space, while trapped arms invite kimura and arm-attack mechanics, so the arm battle defines whether the pin holds or breaks.",
+      "answer_line": "Whoever controls arms controls it",
+      "distractors": {
+        "plausible": [
+          "Leg control matters most here",
+          "Neck control decides everything"
+        ],
+        "trap": [
+          "Arms don't affect the position"
+        ]
+      }
+    },
+    {
+      "question": "How does base width and hip height determine the structural stability of North-South?",
+      "answer": "Stability depends on the top player keeping the hips relatively low and the base wide with weight committed forward over the opponent's chest. A low, sprawled base resists the bottom player's bridge because the bridging force must lift both the committed weight and overcome a broad, grounded stance. If the hips ride high or the weight sits back toward the opponent's legs, the pin becomes top-heavy and easy to roll. The position is therefore a balance of heavy forward chest pressure anchored by a sprawled, mobile lower body.",
+      "answer_line": "Low hips, wide base, forward weight",
+      "distractors": {
+        "plausible": [
+          "High hips for quick mobility",
+          "Narrow base, weight sat back"
+        ],
+        "trap": [
+          "Weight back over their legs"
+        ]
+      }
+    },
+    {
+      "question": "Why is the bridge-and-turn the central dynamic tension in North-South for both players?",
+      "answer": "The bridge is the bottom player's primary engine for displacing the top player's forward-committed weight, and defending it is the top player's primary maintenance task. When the bottom player bridges and turns into the opening they create, they attempt to make a gap and recover toward guard or turtle. The top player counters by sprawling the base wider, dropping the hips, and keeping the head heavy to kill the turning momentum. This constant push-pull between bridging displacement and base-widening defense is the shared rhythm that governs the position.",
+      "answer_line": "Bridge to displace, base to defend",
+      "distractors": {
+        "plausible": [
+          "Bridge only defends the position",
+          "Turning alone escapes the pin"
+        ],
+        "trap": [
+          "Ignore bridges, hold pressure"
+        ]
+      }
+    },
+    {
+      "question": "What makes knee insertion between the bodies such a pivotal moment in the North-South dynamic?",
+      "answer": "The gap between the two torsos is the contested space that decides the position's outcome, and a knee entering that gap fundamentally changes the geometry. Once the bottom player wedges a knee or shin between the bodies, the chest-to-chest compression is broken and a shield forms that leads toward half guard or full guard recovery. For the top player, preventing that knee from entering, or clearing it immediately by hip-switching, is what preserves the pin. This is why the position is often decided at the moment the space for a knee opens or closes.",
+      "answer_line": "Knee breaks pin, forms shield",
+      "distractors": {
+        "plausible": [
+          "Knee insertion only wastes energy",
+          "Hands are the key contested space"
+        ],
+        "trap": [
+          "Let the knee slide through free"
+        ]
+      }
+    },
+    {
+      "question": "How does North-South relate to the surrounding pinning positions like side control, mount, and turtle?",
+      "answer": "North-South sits within a web of dominant pins as a rotational hub: it is commonly entered from side control by circling to the head, and it can advance to mount or knee-on-belly by rotating back down toward the hips. When the bottom player turns inward to escape the pressure, they frequently expose their back and end up in turtle, opening back-take opportunities. This positions North-South as a connective checkpoint rather than a dead-end, sharing escape and control principles with side control while offering distinct perpendicular pressure that the parallel pins do not.",
+      "answer_line": "Rotational hub linking pins",
+      "distractors": {
+        "plausible": [
+          "A dead-end position, no exits",
+          "Only reachable from mount"
+        ],
+        "trap": [
+          "Always ends in back exposure"
+        ]
+      }
+    }
+  ],
+  "clips": [
+    {
+      "id": "z3RNUfHfiSM",
+      "title": "North-South choke",
+      "by": "Marcelo Garcia",
+      "vertical": false,
+      "channel": "Kon Ying",
+      "duration": 20,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "aAitcEHUcRE",
+      "title": "Taking the back from North-South",
+      "by": "Stephan Kesting",
+      "vertical": false,
+      "channel": "Stephan Kesting",
+      "duration": 53,
+      "verified": "2026-07-14"
+    }
+  ]
 }

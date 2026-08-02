@@ -148,6 +148,54 @@ description: "How to defend against X-Guard Elevation Sweep in BJJ. Recognition 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "X-Guard Elevation Sweep (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Four levels of sweep defense",
+      "description": "X-Guard Elevation Sweep (Defender) film study: Four levels of sweep defense, taught by Wim Deputter.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/kNfVYhZbgrg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/kNfVYhZbgrg",
+      "url": "https://www.youtube.com/watch?v=kNfVYhZbgrg",
+      "creator": { "@type": "Person", "name": "Wim Deputter" },
+      "duration": "PT87S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "How to pass and shut down X-Guard",
+      "description": "X-Guard Elevation Sweep (Defender) film study: How to pass and shut down X-Guard, taught by Kaynan Duarte.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/C1lYVhDXwvw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/C1lYVhDXwvw",
+      "url": "https://www.youtube.com/watch?v=C1lYVhDXwvw",
+      "creator": { "@type": "Person", "name": "Kaynan Duarte" },
+      "duration": "PT116S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "X-Guard counter while standing",
+      "description": "X-Guard Elevation Sweep (Defender) film study: X-Guard counter while standing, taught by Samy Aljamal.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/LNyXkfENU5c/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/LNyXkfENU5c",
+      "url": "https://www.youtube.com/watch?v=LNyXkfENU5c",
+      "creator": { "@type": "Person", "name": "Samy Aljamal" },
+      "duration": "PT79S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -161,6 +209,42 @@ The most effective defensive approach treats grasshopper guard as a time-limited
 **Opponent's Starting Position**: [[Positions/Grasshopper Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch X-Guard Elevation Sweep (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=kNfVYhZbgrg)
+
+<p class="clip-credit"><strong>Four levels of sweep defense</strong> — taught by Wim Deputter · 1:27 · <a href="https://www.youtube.com/watch?v=kNfVYhZbgrg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=C1lYVhDXwvw)
+
+<p class="clip-credit"><strong>How to pass and shut down X-Guard</strong> — taught by Kaynan Duarte · 1:56 · <a href="https://www.youtube.com/watch?v=C1lYVhDXwvw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=LNyXkfENU5c)
+
+<p class="clip-credit"><strong>X-Guard counter while standing</strong> — taught by Samy Aljamal · 1:19 · <a href="https://www.youtube.com/watch?v=LNyXkfENU5c" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

@@ -21,37 +21,37 @@ description: "Defensive strategies and escape techniques when opponent has estab
     {
       "@type": "HowToStep",
       "name": "Execute Grip Break",
-      "text": "From this position, attempt Grip Break. This technique is attempted in 39% of exchanges from this position.",
+      "text": "From this position, attempt Grip Break. This technique is attempted in 17% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Sitting Guard Pull",
-      "text": "From this position, attempt Sitting Guard Pull. This technique is attempted in 19% of exchanges from this position.",
+      "text": "From this position, attempt Sitting Guard Pull. This technique is attempted in 15% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Rolling to Guard",
-      "text": "From this position, attempt Rolling to Guard. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Rolling to Guard. This technique is attempted in 9% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Whizzer",
-      "text": "From this position, attempt Whizzer. This technique is attempted in 7% of exchanges from this position.",
+      "text": "From this position, attempt Whizzer. This technique is attempted in 9% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Sprawl Defense",
-      "text": "From this position, attempt Sprawl Defense. This technique is attempted in 7% of exchanges from this position.",
+      "name": "Execute Turn In and Face",
+      "text": "From this position, attempt Turn In and Face. This technique is attempted in 14% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Turn In and Face",
-      "text": "From this position, attempt Turn In and Face. This technique is attempted in 7% of exchanges from this position.",
+      "name": "Execute Standing up in Base",
+      "text": "From this position, attempt Standing up in Base. This technique is attempted in 8% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -153,6 +153,54 @@ description: "Defensive strategies and escape techniques when opponent has estab
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Body Lock (Bottom) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Body lock defense",
+      "description": "Body Lock (Bottom) film study: Body lock defense, taught by Peerless Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Di-fJ06DSq8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Di-fJ06DSq8",
+      "url": "https://www.youtube.com/watch?v=Di-fJ06DSq8",
+      "creator": { "@type": "Person", "name": "Peerless Jiu Jitsu" },
+      "duration": "PT79S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Body lock counter and submission",
+      "description": "Body Lock (Bottom) film study: Body lock counter and submission, taught by Craig Jones.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ZGgfRpUJvHU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ZGgfRpUJvHU",
+      "url": "https://www.youtube.com/watch?v=ZGgfRpUJvHU",
+      "creator": { "@type": "Person", "name": "Craig Jones" },
+      "duration": "PT114S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Don\u0027t get squashed: body lock defense",
+      "description": "Body Lock (Bottom) film study: Don\u0027t get squashed: body lock defense, taught by Craig Jones.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/COMTE898ja8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/COMTE898ja8",
+      "url": "https://www.youtube.com/watch?v=COMTE898ja8",
+      "creator": { "@type": "Person", "name": "Craig Jones" },
+      "duration": "PT156S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -164,6 +212,42 @@ From bottom, your primary objectives are breaking your opponent's locked grip, c
 The body lock bottom position appears frequently in no-gi competition when opponents establish dominant clinch control or when you're caught during scrambles and transitions. Developing competent defenses prevents opponents from consistently taking your back or scoring takedowns, which is essential for competitive success at all levels.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Body Lock (Bottom) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Di-fJ06DSq8)
+
+<p class="clip-credit"><strong>Body lock defense</strong> — taught by Peerless Jiu Jitsu · 1:19 · <a href="https://www.youtube.com/watch?v=Di-fJ06DSq8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ZGgfRpUJvHU)
+
+<p class="clip-credit"><strong>Body lock counter and submission</strong> — taught by Craig Jones · 1:54 · <a href="https://www.youtube.com/watch?v=ZGgfRpUJvHU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=COMTE898ja8)
+
+<p class="clip-credit"><strong>Don&#39;t get squashed: body lock defense</strong> — taught by Craig Jones · 2:36 · <a href="https://www.youtube.com/watch?v=COMTE898ja8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

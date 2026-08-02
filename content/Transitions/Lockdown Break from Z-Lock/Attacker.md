@@ -174,6 +174,43 @@ description: "Learn to systematically break the Z-Lock lockdown from half guard 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Lockdown Break from Z-Lock (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Getting unstuck on top half guard",
+      "description": "Lockdown Break from Z-Lock (Attacker) film study: Getting unstuck on top half guard, taught by Trapp Martial Arts.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/WMcD-_R-To0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/WMcD-_R-To0",
+      "url": "https://www.youtube.com/watch?v=WMcD-_R-To0",
+      "creator": { "@type": "Person", "name": "Trapp Martial Arts" },
+      "duration": "PT35S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Escaping the lockdown from top",
+      "description": "Lockdown Break from Z-Lock (Attacker) film study: Escaping the lockdown from top, taught by The Grappling Academy.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/a_DC4rAqrvQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/a_DC4rAqrvQ",
+      "url": "https://www.youtube.com/watch?v=a_DC4rAqrvQ",
+      "creator": { "@type": "Person", "name": "The Grappling Academy" },
+      "duration": "PT232S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -183,6 +220,34 @@ As the top player trapped in Z-Lock Half Guard, breaking the lockdown configurat
 **From Position**: [[Positions/Half Guard/Z-Lock Half Guard]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Lockdown Break from Z-Lock (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=WMcD-_R-To0)
+
+<p class="clip-credit"><strong>Getting unstuck on top half guard</strong> — taught by Trapp Martial Arts · 0:35 · <a href="https://www.youtube.com/watch?v=WMcD-_R-To0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=a_DC4rAqrvQ)
+
+<p class="clip-credit"><strong>Escaping the lockdown from top</strong> — taught by The Grappling Academy · 3:52 · <a href="https://www.youtube.com/watch?v=a_DC4rAqrvQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

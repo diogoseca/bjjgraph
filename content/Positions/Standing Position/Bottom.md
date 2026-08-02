@@ -21,37 +21,37 @@ description: "Master standing position in BJJ. Complete guide covering grips, ta
     {
       "@type": "HowToStep",
       "name": "Execute Pull Guard from Standing",
-      "text": "From this position, attempt Pull Guard from Standing. This technique is attempted in 24% of exchanges from this position.",
+      "text": "From this position, attempt Pull Guard from Standing. This technique is attempted in 16% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Standing Guard Pull",
-      "text": "From this position, attempt Standing Guard Pull. This technique is attempted in 22% of exchanges from this position.",
+      "text": "From this position, attempt Standing Guard Pull. This technique is attempted in 14% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Butterfly Guard Pull",
-      "text": "From this position, attempt Butterfly Guard Pull. This technique is attempted in 18% of exchanges from this position.",
+      "text": "From this position, attempt Butterfly Guard Pull. This technique is attempted in 14% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Arm Drag from Standing",
-      "text": "From this position, attempt Arm Drag from Standing. This technique is attempted in 13% of exchanges from this position.",
+      "name": "Execute Arm Drag",
+      "text": "From this position, attempt Arm Drag. This technique is attempted in 15% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Level Change Takedown",
-      "text": "From this position, attempt Level Change Takedown. This technique is attempted in 8% of exchanges from this position.",
+      "text": "From this position, attempt Level Change Takedown. This technique is attempted in 15% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Takedown from Bottom",
-      "text": "From this position, attempt Takedown from Bottom. This technique is attempted in 7% of exchanges from this position.",
+      "text": "From this position, attempt Takedown from Bottom. This technique is attempted in 14% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -153,6 +153,54 @@ description: "Master standing position in BJJ. Complete guide covering grips, ta
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Standing Position (Bottom) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Beat the Stiff Arm Grip",
+      "description": "Standing Position (Bottom) film study: Beat the Stiff Arm Grip, taught by Travis Stevens.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/VGy3imISlaA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/VGy3imISlaA",
+      "url": "https://www.youtube.com/watch?v=VGy3imISlaA",
+      "creator": { "@type": "Person", "name": "Travis Stevens" },
+      "duration": "PT95S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Break Any Collar Grip with Technique",
+      "description": "Standing Position (Bottom) film study: Break Any Collar Grip with Technique, taught by Travis Stevens.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/jTk5AaZd1Rc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/jTk5AaZd1Rc",
+      "url": "https://www.youtube.com/watch?v=jTk5AaZd1Rc",
+      "creator": { "@type": "Person", "name": "Travis Stevens" },
+      "duration": "PT113S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Deal With an Opponent Who Stiff Arms",
+      "description": "Standing Position (Bottom) film study: Deal With an Opponent Who Stiff Arms, taught by Travis Stevens.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/yjQHCaCmhyo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/yjQHCaCmhyo",
+      "url": "https://www.youtube.com/watch?v=yjQHCaCmhyo",
+      "creator": { "@type": "Person", "name": "Travis Stevens" },
+      "duration": "PT114S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -160,6 +208,42 @@ description: "Master standing position in BJJ. Complete guide covering grips, ta
 The Standing Position represents the fundamental neutral starting state in BJJ and grappling competitions. This position is characterized by both practitioners standing upright and engaging through various grips, postures, and movements while seeking advantageous entries to ground exchanges. In competition, this is typically the position where matches begin and can also result from stand-ups or resets. The Standing Position encompasses a wide range of specific scenarios depending on grip configurations, stance, and relative positioning, but generally involves both practitioners seeking to establish dominant grips, create off-balancing opportunities, and set up either takedowns or tactical guard pulls. This position serves as the gateway to all subsequent BJJ exchanges and requires a unique blend of skills that differ from ground-based grappling. Mastery of the standing position involves understanding distance management, timing, grip sequences, footwork patterns, and the ability to transition seamlessly between offensive takedown attempts and defensive sprawls or guard pulls. The strategic depth of this position is often underestimated, yet it determines how the majority of competitive matches begin and can significantly impact the overall flow and outcome of a match.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Standing Position (Bottom) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=VGy3imISlaA)
+
+<p class="clip-credit"><strong>Beat the Stiff Arm Grip</strong> — taught by Travis Stevens · 1:35 · <a href="https://www.youtube.com/watch?v=VGy3imISlaA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=jTk5AaZd1Rc)
+
+<p class="clip-credit"><strong>Break Any Collar Grip with Technique</strong> — taught by Travis Stevens · 1:53 · <a href="https://www.youtube.com/watch?v=jTk5AaZd1Rc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=yjQHCaCmhyo)
+
+<p class="clip-credit"><strong>Deal With an Opponent Who Stiff Arms</strong> — taught by Travis Stevens · 1:54 · <a href="https://www.youtube.com/watch?v=yjQHCaCmhyo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 
@@ -230,7 +314,7 @@ The Standing Position represents the fundamental neutral starting state in BJJ a
 **If opponent is shooting for legs or lowering level aggressively:**
 - Execute **[[Transitions/Sprawl/Attacker|Sprawl]]** → [[Positions/Front Headlock]] (Probability: 65%)
 - Execute **[[Transitions/Guard Pull/Attacker|Guard Pull]]** → [[Positions/Closed Guard]] (Probability: 55%)
-- Execute **[[Transitions/Guillotine Choke/Attacker|Guillotine Choke]]** → [[Positions/Guillotine Control]] (Probability: 40%)
+- Execute **[[Submissions/Guillotine Choke/Attacker|Guillotine Choke]]** → [[Positions/Guillotine Control]] (Probability: 40%)
 
 
 **If opponent secures dominant sleeve and collar grips with strong judo posture:**

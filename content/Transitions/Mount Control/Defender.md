@@ -148,6 +148,54 @@ description: "How to defend against Mount Control in BJJ. Recognition cues, defe
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Mount Control (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Knee and elbow escape from mount",
+      "description": "Mount Control (Defender) film study: Knee and elbow escape from mount, taught by Jamie.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/pUZcLTWHAzk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/pUZcLTWHAzk",
+      "url": "https://www.youtube.com/watch?v=pUZcLTWHAzk",
+      "creator": { "@type": "Person", "name": "Jamie" },
+      "duration": "PT71S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Bridge and roll escape from bottom mount",
+      "description": "Mount Control (Defender) film study: Bridge and roll escape from bottom mount, taught by Academy Jiu Jitsu coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/2uuP147GoBk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/2uuP147GoBk",
+      "url": "https://www.youtube.com/watch?v=2uuP147GoBk",
+      "creator": { "@type": "Person", "name": "Academy Jiu Jitsu coach" },
+      "duration": "PT62S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Quick mount escape demo",
+      "description": "Mount Control (Defender) film study: Quick mount escape demo, taught by bjjtaro.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/uTuPvxQUOo4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/uTuPvxQUOo4",
+      "url": "https://www.youtube.com/watch?v=uTuPvxQUOo4",
+      "creator": { "@type": "Person", "name": "bjjtaro" },
+      "duration": "PT23S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +205,42 @@ Defending against Mount Control requires understanding that the top player's pri
 **Opponent's Starting Position**: [[Positions/Mount]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Mount Control (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=pUZcLTWHAzk)
+
+<p class="clip-credit"><strong>Knee and elbow escape from mount</strong> — taught by Jamie · 1:11 · <a href="https://www.youtube.com/watch?v=pUZcLTWHAzk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=2uuP147GoBk)
+
+<p class="clip-credit"><strong>Bridge and roll escape from bottom mount</strong> — taught by Academy Jiu Jitsu coach · 1:02 · <a href="https://www.youtube.com/watch?v=2uuP147GoBk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=uTuPvxQUOo4)
+
+<p class="clip-credit"><strong>Quick mount escape demo</strong> — taught by bjjtaro · 0:23 · <a href="https://www.youtube.com/watch?v=uTuPvxQUOo4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

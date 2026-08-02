@@ -140,6 +140,43 @@ description: "Master defending the K-Guard Sweep in BJJ. Recognition cues, defen
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "K-Guard Sweep (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Countering the K guard entry",
+      "description": "K-Guard Sweep (Defender) film study: Countering the K guard entry, taught by Elevate MMA Academy.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/KxFcTd1BN0g/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/KxFcTd1BN0g",
+      "url": "https://www.youtube.com/watch?v=KxFcTd1BN0g",
+      "creator": { "@type": "Person", "name": "Elevate MMA Academy" },
+      "duration": "PT118S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "K guard defense breakdown",
+      "description": "K-Guard Sweep (Defender) film study: K guard defense breakdown, taught by Rodrigo Lopes.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/JxDViUC4xhk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/JxDViUC4xhk",
+      "url": "https://www.youtube.com/watch?v=JxDViUC4xhk",
+      "creator": { "@type": "Person", "name": "Rodrigo Lopes" },
+      "duration": "PT289S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -149,6 +186,34 @@ Defending the K-Guard Sweep requires understanding the mechanical sequence that 
 **Opponent's Starting Position**: [[Positions/K-Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch K-Guard Sweep (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=KxFcTd1BN0g)
+
+<p class="clip-credit"><strong>Countering the K guard entry</strong> — taught by Elevate MMA Academy · 1:58 · <a href="https://www.youtube.com/watch?v=KxFcTd1BN0g" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=JxDViUC4xhk)
+
+<p class="clip-credit"><strong>K guard defense breakdown</strong> — taught by Rodrigo Lopes · 4:49 · <a href="https://www.youtube.com/watch?v=JxDViUC4xhk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

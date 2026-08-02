@@ -16,7 +16,10 @@
   "submission_type": "Blood Choke",
   "target_area": "Carotid arteries and trachea",
   "starting_position": "Closed Guard",
-  "success_rate": 60,
+  "success_rate": {
+    "gi": 60,
+    "nogi": 60
+  },
   "variant_uniqueness": "Perpendicular angle bypasses standard triangle defenses",
   "summary": "The Inverted Triangle is a figure-four blood choke applied from a reversed, perpendicular body angle — often off a failed armbar, turtle, or scramble — that traps one of the opponent's own arms across their neck to compress the carotid arteries.",
   "overview": "As a chaining attack born from scrambles and failed-finish situations, the Inverted Triangle rewards practitioners who can read a defender's arm extraction and immediately punish it. The technique traps one of the opponent's arms across their neck while isolating it with the legs in a figure-four configuration, generating exceptional carotid pressure from a body orientation that is inverted relative to a standard triangle. The inverted, perpendicular nature of this technique generates unique leverage mechanics that make it particularly effective against opponents who have strong triangle defense patterns developed for conventional angles. The submission is most commonly entered from positions like turtle defense, failed armbar attempts, or scrambles where traditional triangle setups are unavailable. The mechanical advantage stems from the practitioner's ability to use their entire body weight and hip extension to create compression against the carotid arteries while simultaneously restricting the opponent's ability to posture or turn into the choke. Unlike the standard triangle where you face your opponent, the inverted variation positions you facing away or perpendicular, creating unusual angles that opponents often struggle to defend. This makes it an excellent addition to any guard player's submission arsenal, particularly for those who frequently find themselves in scramble situations or against opponents with excellent triangle awareness.",
@@ -113,7 +116,7 @@
       "relationship": "Parent submission - standard triangle mechanics that the inverted version modifies"
     },
     {
-      "name": "Flying Armbar",
+      "name": "Flying Armbar from Closed Guard",
       "relationship": "Dynamic submission sharing scramble-based entry mechanics"
     },
     {
@@ -181,6 +184,35 @@
     {
       "name": "Rubber Guard",
       "relationship": "Guard system providing multiple inverted triangle entry opportunities"
+    }
+  ],
+  "clips": [
+    {
+      "id": "xAW3spYg9vE",
+      "title": "Inverted Triangle",
+      "by": "Bristol Jiu Jitsu",
+      "vertical": false,
+      "channel": "Bristol Jiu Jitsu",
+      "duration": 51,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "i2l9Gx72DU0",
+      "title": "Inverted Triangle Finish",
+      "by": "BJJ Lotus Club",
+      "vertical": false,
+      "channel": "BJJ Lotus Club",
+      "duration": 25,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "RCzCmK7AeVU",
+      "title": "Inverted Triangle Choke Finish",
+      "by": "MMAYHEM",
+      "vertical": false,
+      "channel": "MMAYHEM",
+      "duration": 60,
+      "verified": "2026-07-14"
     }
   ]
 }

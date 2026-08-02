@@ -148,6 +148,43 @@ description: "Complete defensive guide against the Ten Finger Guillotine Variati
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Ten Finger Guillotine Variation (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Breaking the opponent\u0027s guillotine grip",
+      "description": "Ten Finger Guillotine Variation (Defender) film study: Breaking the opponent\u0027s guillotine grip, taught by Marcelo Garcia.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/m_ecDXYPWcs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/m_ecDXYPWcs",
+      "url": "https://www.youtube.com/watch?v=m_ecDXYPWcs",
+      "creator": { "@type": "Person", "name": "Marcelo Garcia" },
+      "duration": "PT157S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Marcelo Garcia submission escapes",
+      "description": "Ten Finger Guillotine Variation (Defender) film study: Marcelo Garcia submission escapes, taught by Marcelo Garcia.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/xMYkejkc2BQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/xMYkejkc2BQ",
+      "url": "https://www.youtube.com/watch?v=xMYkejkc2BQ",
+      "creator": { "@type": "Person", "name": "Marcelo Garcia" },
+      "duration": "PT244S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +194,34 @@ Defending the Ten Finger Guillotine Variation requires early recognition and pre
 **Opponent's Starting Position**: [[Positions/Guillotine Control]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Ten Finger Guillotine Variation (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=m_ecDXYPWcs)
+
+<p class="clip-credit"><strong>Breaking the opponent&#39;s guillotine grip</strong> — taught by Marcelo Garcia · 2:37 · <a href="https://www.youtube.com/watch?v=m_ecDXYPWcs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=xMYkejkc2BQ)
+
+<p class="clip-credit"><strong>Marcelo Garcia submission escapes</strong> — taught by Marcelo Garcia · 4:04 · <a href="https://www.youtube.com/watch?v=xMYkejkc2BQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

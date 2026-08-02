@@ -34,6 +34,54 @@ description: "Master the Lapel Clear to Toreando Pass. Strip lapel grips and exe
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Lapel Clear to Toreando Pass \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Toreando variation from the lapel guard",
+      "description": "Lapel Clear to Toreando Pass film study: Toreando variation from the lapel guard, taught by Joao Mendes.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/vkoAkm1Mu5E/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/vkoAkm1Mu5E",
+      "url": "https://www.youtube.com/watch?v=vkoAkm1Mu5E",
+      "creator": { "@type": "Person", "name": "Joao Mendes" },
+      "duration": "PT166S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Toreando from lasso, hiding the hand behind the thigh",
+      "description": "Lapel Clear to Toreando Pass film study: Toreando from lasso, hiding the hand behind the thigh, taught by Joao Mendes.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/l-hmPPwr9Xg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/l-hmPPwr9Xg",
+      "url": "https://www.youtube.com/watch?v=l-hmPPwr9Xg",
+      "creator": { "@type": "Person", "name": "Joao Mendes" },
+      "duration": "PT187S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Throw-by trick to pass sticky lapel guards",
+      "description": "Lapel Clear to Toreando Pass film study: Throw-by trick to pass sticky lapel guards, taught by Gold BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/hELDQRRa8iw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/hELDQRRa8iw",
+      "url": "https://www.youtube.com/watch?v=hELDQRRa8iw",
+      "creator": { "@type": "Person", "name": "Gold BJJ" },
+      "duration": "PT156S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -66,9 +114,45 @@ The strategic value of this pass lies in its direct problem-solving approach. La
 This technique rewards patience and technical precision over athleticism. The clearing sequence requires understanding how the lapel is wrapped and systematically unwinding it rather than ripping against the fabric. The subsequent toreando must be immediate and committed, as any hesitation allows the opponent to recover guard or re-establish lapel grips. The combination of methodical clearing and explosive passing creates an effective solution to one of modern gi grappling's most challenging guard systems.
 
 **From Position**: [[Positions/Lapel Guard]] (Top)
-**Success Rate**: 58%
+**Success Rate**: 41%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Lapel Clear to Toreando Pass in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=vkoAkm1Mu5E)
+
+<p class="clip-credit"><strong>Toreando variation from the lapel guard</strong> — taught by Joao Mendes · 2:46 · <a href="https://www.youtube.com/watch?v=vkoAkm1Mu5E" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=l-hmPPwr9Xg)
+
+<p class="clip-credit"><strong>Toreando from lasso, hiding the hand behind the thigh</strong> — taught by Joao Mendes · 3:07 · <a href="https://www.youtube.com/watch?v=l-hmPPwr9Xg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=hELDQRRa8iw)
+
+<p class="clip-credit"><strong>Throw-by trick to pass sticky lapel guards</strong> — taught by Gold BJJ · 2:36 · <a href="https://www.youtube.com/watch?v=hELDQRRa8iw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

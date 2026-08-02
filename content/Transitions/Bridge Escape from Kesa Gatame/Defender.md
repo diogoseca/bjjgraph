@@ -140,6 +140,43 @@ description: "Defend against the bridge escape from Kesa Gatame. Learn to recogn
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Bridge Escape from Kesa Gatame (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Kesa Gatame Escapes",
+      "description": "Bridge Escape from Kesa Gatame (Defender) film study: Kesa Gatame Escapes, taught by Kodokan instructors.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/5_TS0YHdxcQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/5_TS0YHdxcQ",
+      "url": "https://www.youtube.com/watch?v=5_TS0YHdxcQ",
+      "creator": { "@type": "Person", "name": "Kodokan instructors" },
+      "duration": "PT139S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Kuzure kesa gatame pin mechanics",
+      "description": "Bridge Escape from Kesa Gatame (Defender) film study: Kuzure kesa gatame pin mechanics, taught by Poraka Nova.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ZMSfqiFWgiI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ZMSfqiFWgiI",
+      "url": "https://www.youtube.com/watch?v=ZMSfqiFWgiI",
+      "creator": { "@type": "Person", "name": "Poraka Nova" },
+      "duration": "PT37S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -149,6 +186,34 @@ As the top player defending against the bridge escape from Kesa Gatame, your obj
 **Opponent's Starting Position**: [[Positions/Side Control/Kesa Gatame]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Bridge Escape from Kesa Gatame (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=5_TS0YHdxcQ)
+
+<p class="clip-credit"><strong>Kesa Gatame Escapes</strong> — taught by Kodokan instructors · 2:19 · <a href="https://www.youtube.com/watch?v=5_TS0YHdxcQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ZMSfqiFWgiI)
+
+<p class="clip-credit"><strong>Kuzure kesa gatame pin mechanics</strong> — taught by Poraka Nova · 0:37 · <a href="https://www.youtube.com/watch?v=ZMSfqiFWgiI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

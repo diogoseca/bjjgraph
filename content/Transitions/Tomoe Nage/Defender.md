@@ -149,6 +149,54 @@ description: "How to defend against Tomoe Nage in BJJ. Recognition cues, defensi
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Tomoe Nage (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Counter to tomoe nage",
+      "description": "Tomoe Nage (Defender) film study: Counter to tomoe nage, taught by Mick.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/5ZVicSC2lDw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/5ZVicSC2lDw",
+      "url": "https://www.youtube.com/watch?v=5ZVicSC2lDw",
+      "creator": { "@type": "Person", "name": "Mick" },
+      "duration": "PT13S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Defense for tomoe nage",
+      "description": "Tomoe Nage (Defender) film study: Defense for tomoe nage, taught by Shintaro Higashi.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/bGbwC5WG8p0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/bGbwC5WG8p0",
+      "url": "https://www.youtube.com/watch?v=bGbwC5WG8p0",
+      "creator": { "@type": "Person", "name": "Shintaro Higashi" },
+      "duration": "PT149S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Tomoe nage defense breakdown",
+      "description": "Tomoe Nage (Defender) film study: Tomoe nage defense breakdown, taught by Shintaro Higashi.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/WtuRfRPFV5s/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/WtuRfRPFV5s",
+      "url": "https://www.youtube.com/watch?v=WtuRfRPFV5s",
+      "creator": { "@type": "Person", "name": "Shintaro Higashi" },
+      "duration": "PT197S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <aside class="entity-relations">
@@ -161,6 +209,42 @@ Defending Tomoe Nage requires early recognition of the sacrifice throw setup and
 **Opponent's Starting Position**: [[Positions/Standing Position]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Tomoe Nage (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=5ZVicSC2lDw)
+
+<p class="clip-credit"><strong>Counter to tomoe nage</strong> — taught by Mick · 0:13 · <a href="https://www.youtube.com/watch?v=5ZVicSC2lDw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=bGbwC5WG8p0)
+
+<p class="clip-credit"><strong>Defense for tomoe nage</strong> — taught by Shintaro Higashi · 2:29 · <a href="https://www.youtube.com/watch?v=bGbwC5WG8p0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=WtuRfRPFV5s)
+
+<p class="clip-credit"><strong>Tomoe nage defense breakdown</strong> — taught by Shintaro Higashi · 3:17 · <a href="https://www.youtube.com/watch?v=WtuRfRPFV5s" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

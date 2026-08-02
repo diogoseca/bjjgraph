@@ -148,6 +148,54 @@ description: "Prevent guard recovery from guillotine control as the top player i
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Guard Recovery from Guillotine Control (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Passing the guard when they recover from guillotine",
+      "description": "Guard Recovery from Guillotine Control (Defender) film study: Passing the guard when they recover from guillotine, taught by BJJ4Breakfast.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/n8UTAggp3L4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/n8UTAggp3L4",
+      "url": "https://www.youtube.com/watch?v=n8UTAggp3L4",
+      "creator": { "@type": "Person", "name": "BJJ4Breakfast" },
+      "duration": "PT115S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Guillotine Escape and Defense from Full Guard",
+      "description": "Guard Recovery from Guillotine Control (Defender) film study: Guillotine Escape and Defense from Full Guard, taught by Nick Albin.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/v-CRBRea_KY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/v-CRBRea_KY",
+      "url": "https://www.youtube.com/watch?v=v-CRBRea_KY",
+      "creator": { "@type": "Person", "name": "Nick Albin" },
+      "duration": "PT319S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "How to Escape the Tightest Guillotines",
+      "description": "Guard Recovery from Guillotine Control (Defender) film study: How to Escape the Tightest Guillotines, taught by Brian Glick.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/of0cW2fN9vA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/of0cW2fN9vA",
+      "url": "https://www.youtube.com/watch?v=of0cW2fN9vA",
+      "creator": { "@type": "Person", "name": "Brian Glick" },
+      "duration": "PT354S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +205,42 @@ As the top player escaping or defending against guillotine control, the moment t
 **Opponent's Starting Position**: [[Positions/Guillotine Control]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Guard Recovery from Guillotine Control (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=n8UTAggp3L4)
+
+<p class="clip-credit"><strong>Passing the guard when they recover from guillotine</strong> — taught by BJJ4Breakfast · 1:55 · <a href="https://www.youtube.com/watch?v=n8UTAggp3L4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=v-CRBRea_KY)
+
+<p class="clip-credit"><strong>Guillotine Escape and Defense from Full Guard</strong> — taught by Nick Albin · 5:19 · <a href="https://www.youtube.com/watch?v=v-CRBRea_KY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=of0cW2fN9vA)
+
+<p class="clip-credit"><strong>How to Escape the Tightest Guillotines</strong> — taught by Brian Glick · 5:54 · <a href="https://www.youtube.com/watch?v=of0cW2fN9vA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

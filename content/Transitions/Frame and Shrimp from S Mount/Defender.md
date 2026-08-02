@@ -140,6 +140,43 @@ description: "Counter the Frame and Shrimp escape from S Mount top. Maintain dom
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Frame and Shrimp from S Mount (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Holding the S-mount",
+      "description": "Frame and Shrimp from S Mount (Defender) film study: Holding the S-mount, taught by Gordon Ryan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/cO0o5SLAk90/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/cO0o5SLAk90",
+      "url": "https://www.youtube.com/watch?v=cO0o5SLAk90",
+      "creator": { "@type": "Person", "name": "Gordon Ryan" },
+      "duration": "PT28S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "S-mount basics and control",
+      "description": "Frame and Shrimp from S Mount (Defender) film study: S-mount basics and control, taught by ZombieProofBJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/FSbR22OOSaE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/FSbR22OOSaE",
+      "url": "https://www.youtube.com/watch?v=FSbR22OOSaE",
+      "creator": { "@type": "Person", "name": "ZombieProofBJJ" },
+      "duration": "PT72S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -149,6 +186,34 @@ As the S Mount top practitioner, defending against the Frame and Shrimp escape m
 **Opponent's Starting Position**: [[Positions/Mount/S Mount]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Frame and Shrimp from S Mount (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=cO0o5SLAk90)
+
+<p class="clip-credit"><strong>Holding the S-mount</strong> — taught by Gordon Ryan · 0:28 · <a href="https://www.youtube.com/watch?v=cO0o5SLAk90" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=FSbR22OOSaE)
+
+<p class="clip-credit"><strong>S-mount basics and control</strong> — taught by ZombieProofBJJ · 1:12 · <a href="https://www.youtube.com/watch?v=FSbR22OOSaE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

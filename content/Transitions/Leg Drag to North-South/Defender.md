@@ -142,6 +142,43 @@ description: "How to defend against Leg Drag to North-South in BJJ. Recognition 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Leg Drag to North-South (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Taking the back to escape north-south",
+      "description": "Leg Drag to North-South (Defender) film study: Taking the back to escape north-south, taught by Stephan Kesting.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/aAitcEHUcRE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/aAitcEHUcRE",
+      "url": "https://www.youtube.com/watch?v=aAitcEHUcRE",
+      "creator": { "@type": "Person", "name": "Stephan Kesting" },
+      "duration": "PT53S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "How to escape north-south",
+      "description": "Leg Drag to North-South (Defender) film study: How to escape north-south, taught by Jon Thomas.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/rmT52A--V3Q/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/rmT52A--V3Q",
+      "url": "https://www.youtube.com/watch?v=rmT52A--V3Q",
+      "creator": { "@type": "Person", "name": "Jon Thomas" },
+      "duration": "PT203S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -155,6 +192,34 @@ From a systematic perspective, your defense against this transition integrates w
 **Opponent's Starting Position**: [[Positions/Leg Drag Control]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Leg Drag to North-South (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=aAitcEHUcRE)
+
+<p class="clip-credit"><strong>Taking the back to escape north-south</strong> — taught by Stephan Kesting · 0:53 · <a href="https://www.youtube.com/watch?v=aAitcEHUcRE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=rmT52A--V3Q)
+
+<p class="clip-credit"><strong>How to escape north-south</strong> — taught by Jon Thomas · 3:23 · <a href="https://www.youtube.com/watch?v=rmT52A--V3Q" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

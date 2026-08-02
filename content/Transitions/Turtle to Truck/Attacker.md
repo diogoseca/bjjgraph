@@ -174,6 +174,54 @@ description: "How to execute Turtle to Truck in BJJ. Attacking perspective with 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Turtle to Truck (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "The truck in transition from turtle",
+      "description": "Turtle to Truck (Attacker) film study: The truck in transition from turtle, taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/sCBGkcJCQYY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/sCBGkcJCQYY",
+      "url": "https://www.youtube.com/watch?v=sCBGkcJCQYY",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT61S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Truck back take against a stubborn turtle",
+      "description": "Turtle to Truck (Attacker) film study: Truck back take against a stubborn turtle, taught by Patrick Donabedian.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/XLvbK52hzqM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/XLvbK52hzqM",
+      "url": "https://www.youtube.com/watch?v=XLvbK52hzqM",
+      "creator": { "@type": "Person", "name": "Patrick Donabedian" },
+      "duration": "PT63S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Basic truck entry demo",
+      "description": "Turtle to Truck (Attacker) film study: Basic truck entry demo, taught by Firas Zahabi \u0026 Georges St-Pierre.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/aeD1fb1X6Oc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/aeD1fb1X6Oc",
+      "url": "https://www.youtube.com/watch?v=aeD1fb1X6Oc",
+      "creator": { "@type": "Person", "name": "Firas Zahabi \u0026 Georges St-Pierre" },
+      "duration": "PT93S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -183,6 +231,42 @@ The transition to Truck is a fundamental movement within the 10th Planet Jiu-Jit
 **From Position**: [[Positions/Turtle]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Turtle to Truck (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=sCBGkcJCQYY)
+
+<p class="clip-credit"><strong>The truck in transition from turtle</strong> — taught by Eddie Bravo · 1:01 · <a href="https://www.youtube.com/watch?v=sCBGkcJCQYY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=XLvbK52hzqM)
+
+<p class="clip-credit"><strong>Truck back take against a stubborn turtle</strong> — taught by Patrick Donabedian · 1:03 · <a href="https://www.youtube.com/watch?v=XLvbK52hzqM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=aeD1fb1X6Oc)
+
+<p class="clip-credit"><strong>Basic truck entry demo</strong> — taught by Firas Zahabi &amp; Georges St-Pierre · 1:33 · <a href="https://www.youtube.com/watch?v=aeD1fb1X6Oc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

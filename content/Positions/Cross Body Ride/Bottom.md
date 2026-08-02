@@ -27,7 +27,7 @@ description: "Master defensive strategies from Cross Body Ride Bottom in BJJ. Co
     {
       "@type": "HowToStep",
       "name": "Execute Turtle to Guard",
-      "text": "From this position, attempt Turtle to Guard. This technique is attempted in 38% of exchanges from this position.",
+      "text": "From this position, attempt Turtle to Guard. This technique is attempted in 15% of exchanges from this position.",
       "position": 2
     },
     {
@@ -39,19 +39,19 @@ description: "Master defensive strategies from Cross Body Ride Bottom in BJJ. Co
     {
       "@type": "HowToStep",
       "name": "Execute Sit Through to Guard",
-      "text": "From this position, attempt Sit Through to Guard. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Sit Through to Guard. This technique is attempted in 15% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Peterson Roll",
-      "text": "From this position, attempt Peterson Roll. This technique is attempted in 7% of exchanges from this position.",
+      "text": "From this position, attempt Peterson Roll. This technique is attempted in 9% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Hip Escape to Guard",
-      "text": "From this position, attempt Hip Escape to Guard. This technique is attempted in 7% of exchanges from this position.",
+      "text": "From this position, attempt Hip Escape to Guard. This technique is attempted in 12% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -153,6 +153,54 @@ description: "Master defensive strategies from Cross Body Ride Bottom in BJJ. Co
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Cross Body Ride (Bottom) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Turtle defence: sit out, head on back",
+      "description": "Cross Body Ride (Bottom) film study: Turtle defence: sit out, head on back, taught by Mjolnir Fight Club.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/d312j3n9fIw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/d312j3n9fIw",
+      "url": "https://www.youtube.com/watch?v=d312j3n9fIw",
+      "creator": { "@type": "Person", "name": "Mjolnir Fight Club" },
+      "duration": "PT30S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Inside roll escape from turtle",
+      "description": "Cross Body Ride (Bottom) film study: Inside roll escape from turtle, taught by Kenny Lester.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/923eYpD1E58/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/923eYpD1E58",
+      "url": "https://www.youtube.com/watch?v=923eYpD1E58",
+      "creator": { "@type": "Person", "name": "Kenny Lester" },
+      "duration": "PT158S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "So many ways to escape the turtle",
+      "description": "Cross Body Ride (Bottom) film study: So many ways to escape the turtle, taught by Jean Jacques Machado.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/zxSKKUroV6Q/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/zxSKKUroV6Q",
+      "url": "https://www.youtube.com/watch?v=zxSKKUroV6Q",
+      "creator": { "@type": "Person", "name": "Jean Jacques Machado" },
+      "duration": "PT214S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -164,6 +212,42 @@ From the bottom perspective, Cross Body Ride represents a critical juncture wher
 The fundamental challenge of Cross Body Ride Bottom is that passive defense guarantees position loss. The top player's perpendicular weight creates a collapsing force that steadily erodes the bottom player's structural integrity. Every second spent without active escape work allows the top player to advance grips, insert hooks, or transition to an even more dominant configuration. Successful defense requires continuous movement, intelligent framing, and the discipline to chain escape attempts rather than committing to single explosive efforts that waste energy when they fail.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Cross Body Ride (Bottom) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=d312j3n9fIw)
+
+<p class="clip-credit"><strong>Turtle defence: sit out, head on back</strong> — taught by Mjolnir Fight Club · 0:30 · <a href="https://www.youtube.com/watch?v=d312j3n9fIw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=923eYpD1E58)
+
+<p class="clip-credit"><strong>Inside roll escape from turtle</strong> — taught by Kenny Lester · 2:38 · <a href="https://www.youtube.com/watch?v=923eYpD1E58" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=zxSKKUroV6Q)
+
+<p class="clip-credit"><strong>So many ways to escape the turtle</strong> — taught by Jean Jacques Machado · 3:34 · <a href="https://www.youtube.com/watch?v=zxSKKUroV6Q" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

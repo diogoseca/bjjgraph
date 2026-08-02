@@ -148,6 +148,43 @@ description: "Learn to defend against the Bridge Escape from Reverse Scarf Hold.
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Bridge Escape from Reverse Scarf Hold (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Kesa gatame retention and attacks from the top",
+      "description": "Bridge Escape from Reverse Scarf Hold (Defender) film study: Kesa gatame retention and attacks from the top, taught by Johnny Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/fB7gGDIm1i8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/fB7gGDIm1i8",
+      "url": "https://www.youtube.com/watch?v=fB7gGDIm1i8",
+      "creator": { "@type": "Person", "name": "Johnny Jitsu" },
+      "duration": "PT88S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Mune gatame chest hold pin control",
+      "description": "Bridge Escape from Reverse Scarf Hold (Defender) film study: Mune gatame chest hold pin control, taught by Grappler Station.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/RLpcMvQ8GTI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/RLpcMvQ8GTI",
+      "url": "https://www.youtube.com/watch?v=RLpcMvQ8GTI",
+      "creator": { "@type": "Person", "name": "Grappler Station" },
+      "duration": "PT66S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +194,34 @@ Defending against the Bridge Escape from Reverse Scarf Hold requires the top pla
 **Opponent's Starting Position**: [[Positions/Side Control/Reverse Scarf Hold]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Bridge Escape from Reverse Scarf Hold (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=fB7gGDIm1i8)
+
+<p class="clip-credit"><strong>Kesa gatame retention and attacks from the top</strong> — taught by Johnny Jitsu · 1:28 · <a href="https://www.youtube.com/watch?v=fB7gGDIm1i8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=RLpcMvQ8GTI)
+
+<p class="clip-credit"><strong>Mune gatame chest hold pin control</strong> — taught by Grappler Station · 1:06 · <a href="https://www.youtube.com/watch?v=RLpcMvQ8GTI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

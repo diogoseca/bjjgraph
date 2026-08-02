@@ -34,6 +34,43 @@ description: "Master the Leg Drag Pass in BJJ. Dominant guard passing technique 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Leg Drag Pass \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Leg drag pass from closed guard",
+      "description": "Leg Drag Pass film study: Leg drag pass from closed guard, taught by ROJ Europe coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/3C4KXdIb3C0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/3C4KXdIb3C0",
+      "url": "https://www.youtube.com/watch?v=3C4KXdIb3C0",
+      "creator": { "@type": "Person", "name": "ROJ Europe coach" },
+      "duration": "PT72S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Leg drag pass to back take",
+      "description": "Leg Drag Pass film study: Leg drag pass to back take, taught by Ben, Combat Room BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/4xplJQ-FFvI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/4xplJQ-FFvI",
+      "url": "https://www.youtube.com/watch?v=4xplJQ-FFvI",
+      "creator": { "@type": "Person", "name": "Ben, Combat Room BJJ" },
+      "duration": "PT75S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -62,9 +99,37 @@ description: "Master the Leg Drag Pass in BJJ. Dominant guard passing technique 
 The Leg Drag Pass is one of the most fundamental and high-percentage guard passing techniques in modern Brazilian Jiu-Jitsu. This pass works by controlling the opponent's legs and dragging them across their body, creating an angle that eliminates their guard retention capabilities while establishing dominant control. The technique is particularly effective against seated guards, butterfly guard, and various open guard positions where the opponent's legs are extended or not locked together. What makes the leg drag so powerful is its ability to simultaneously shut down the opponent's offensive options while creating a clear path to side control or back control. The pass requires precise timing, proper weight distribution, and the ability to anticipate and counter common guard retention tactics. When executed correctly, the leg drag creates a positional hierarchy shift where the passer moves from a neutral or slightly disadvantaged position directly into a dominant control position. This makes it a cornerstone technique for competitive grapplers at all levels.
 
 **From Position**: [[Positions/Open Guard]] (Top)
-**Success Rate**: 68%
+**Success Rate**: 51%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Leg Drag Pass in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=3C4KXdIb3C0)
+
+<p class="clip-credit"><strong>Leg drag pass from closed guard</strong> — taught by ROJ Europe coach · 1:12 · <a href="https://www.youtube.com/watch?v=3C4KXdIb3C0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=4xplJQ-FFvI)
+
+<p class="clip-credit"><strong>Leg drag pass to back take</strong> — taught by Ben, Combat Room BJJ · 1:15 · <a href="https://www.youtube.com/watch?v=4xplJQ-FFvI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

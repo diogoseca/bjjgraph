@@ -170,6 +170,43 @@ description: "How to execute Kneebar from Top in BJJ. Attacking perspective with
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Kneebar from Top (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Kneebar from Top Turtle",
+      "description": "Kneebar from Top (Attacker) film study: Kneebar from Top Turtle, taught by Charlie Cosens.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/2mleTh3ZoBk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/2mleTh3ZoBk",
+      "url": "https://www.youtube.com/watch?v=2mleTh3ZoBk",
+      "creator": { "@type": "Person", "name": "Charlie Cosens" },
+      "duration": "PT88S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Kneebar from Side Control",
+      "description": "Kneebar from Top (Attacker) film study: Kneebar from Side Control, taught by Steven Corley.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/5GOWKe9WTs8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/5GOWKe9WTs8",
+      "url": "https://www.youtube.com/watch?v=5GOWKe9WTs8",
+      "creator": { "@type": "Person", "name": "Steven Corley" },
+      "duration": "PT95S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -180,6 +217,34 @@ The Kneebar from Top represents a high-percentage leg attack opportunity that ar
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Kneebar from Top (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=2mleTh3ZoBk)
+
+<p class="clip-credit"><strong>Kneebar from Top Turtle</strong> — taught by Charlie Cosens · 1:28 · <a href="https://www.youtube.com/watch?v=2mleTh3ZoBk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=5GOWKe9WTs8)
+
+<p class="clip-credit"><strong>Kneebar from Side Control</strong> — taught by Steven Corley · 1:35 · <a href="https://www.youtube.com/watch?v=5GOWKe9WTs8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

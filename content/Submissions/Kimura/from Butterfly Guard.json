@@ -19,7 +19,10 @@
   "target_area": "Shoulder joint, rotator cuff, and shoulder capsule",
   "starting_position": "Butterfly Guard",
   "from_position": "Butterfly Guard/Bottom",
-  "success_rate": 62,
+  "success_rate": {
+    "gi": 62,
+    "nogi": 62
+  },
   "overview": "Among butterfly guard's offensive arsenal, the Kimura stands out as the position's most reliable submission, converting a guard built primarily around sweeps into a genuine finishing threat. Unlike Kimura attacks from closed guard or half guard, the butterfly guard version benefits from the seated upright posture and active hook engagement, allowing the attacker to use elevation and angle changes to expose the opponent's arm and create finishing opportunities. The setup integrates naturally with butterfly guard offense, making it a seamless addition to an already threatening position.\n\nThe attack typically arises when the opponent posts a hand to defend against butterfly sweeps or reaches forward to establish grips, creating the opening for wrist control and the subsequent figure-four lock. The butterfly hooks serve a dual purpose during the attack: they prevent the opponent from posturing away to break the grip, and they provide the elevation needed to create rotational space for the finish. This integration of sweep threat and submission attack creates a powerful dilemma where the opponent must choose between defending the sweep and exposing the arm, or defending the Kimura and becoming vulnerable to elevation.\n\nAdvanced practitioners chain the Kimura attempt directly off failed or feinted butterfly sweeps, using the opponent's defensive hand posting as the entry point. The position also offers natural transitions to the Kimura Trap when the opponent resists the initial rotation, allowing the attacker to maintain the grip and advance to a more dominant finishing position. The butterfly guard Kimura rewards practitioners who develop sensitivity to weight distribution shifts and timing, as the technique depends heavily on catching the opponent in transitional moments rather than forcing the grip against a fully defended posture.",
   "safety_considerations": {
     "injury_risks": [
@@ -100,17 +103,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 62,
+      "probability": {
+        "gi": 62,
+        "nogi": 62
+      },
       "result": "success"
     },
     {
       "to": "Butterfly Guard/Bottom",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Top",
-      "probability": 13,
+      "probability": {
+        "gi": 13,
+        "nogi": 13
+      },
       "result": "counter"
     }
   ],
@@ -272,52 +284,172 @@
       {
         "question": "What anatomical structures does the Kimura from Butterfly Guard primarily attack?",
         "answer": "The Kimura primarily attacks the shoulder joint by forcing internal rotation beyond its natural range. The specific structures at risk are the rotator cuff muscles (supraspinatus, infraspinatus, teres minor, subscapularis), the shoulder capsule and its ligaments, and the glenoid labrum. Secondary stress is placed on the bicep tendon where it attaches at the shoulder.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Shoulder: rotator cuff & capsule",
+        "distractors": {
+          "plausible": [
+            "Elbow joint hyperextension",
+            "Wrist bones and tendons"
+          ],
+          "trap": [
+            "Crank harder if shoulder feels stuck"
+          ]
+        }
       },
       {
         "question": "Your opponent posts their hand to defend a butterfly sweep - how do you transition to the Kimura?",
         "answer": "Immediately capture the posted wrist with your same-side hand using a C-grip and pull it toward your hip to prevent retraction. Thread your opposite arm over their forearm and grip your own wrist to establish the figure-four. Maintain your hooks throughout the transition so the opponent cannot posture away. The posted hand is vulnerable because the opponent has committed their weight to it for base, making it difficult to retract quickly.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "C-grip wrist, figure-four, hooks in",
+        "distractors": {
+          "plausible": [
+            "Underhook arm before gripping wrist",
+            "Square your chest to their chest"
+          ],
+          "trap": [
+            "Fall flat to your back to finish"
+          ]
+        }
       },
       {
         "question": "What indicates you have reached the breaking point of the shoulder during a Kimura?",
         "answer": "The breaking point is approached when the opponent's wrist has been rotated behind their back past the plane of their spine, and you feel the shoulder joint reach its end range of internal rotation. Indicators include the opponent's body stiffening, involuntary sounds of discomfort, visible tension in the shoulder musculature, and the arm reaching a hard stop where further rotation meets bone-on-bone resistance. In training, you must stop well before this point and apply pressure progressively.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Wrist past spine, hard end-range",
+        "distractors": {
+          "plausible": [
+            "Arm fully straightened out",
+            "Opponent's hips lift off mat"
+          ],
+          "trap": [
+            "Push past the first resistance"
+          ]
+        }
       },
       {
         "question": "What control must you establish before attempting the Kimura finish from Butterfly Guard?",
         "answer": "Before finishing, you must have: secure wrist control on the target arm, a locked figure-four grip with your forearm pressing against the back of their forearm, at least one active hook preventing the opponent from creating distance, and your body angled so your chest faces the trapped shoulder. Without all four elements, the finish will be mechanically weak and the opponent will likely escape or counter.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Figure-four plus hook and angle",
+        "distractors": {
+          "plausible": [
+            "Wrist grip alone is enough",
+            "Square your chest to their chest"
+          ],
+          "trap": [
+            "Fall back flat and crank the arm"
+          ]
+        }
       },
       {
         "question": "Your opponent grabs their own shorts to defend the Kimura rotation - what adjustments do you make?",
         "answer": "Use your butterfly hooks to bump their hips upward, which disrupts their grip connection by changing the angle of their arm relative to their body. Simultaneously, wedge your fingers under their defensive grip and peel it off while maintaining the figure-four. If the grip is very strong, transition to an angle change by scooting your hips, which changes the direction of rotational pressure and makes the grip defense less effective.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Bump hips, peel grip, change angle",
+        "distractors": {
+          "plausible": [
+            "Pull harder on the figure-four",
+            "Switch to armbar immediately"
+          ],
+          "trap": [
+            "Release the figure-four to regrip"
+          ]
+        }
       },
       {
         "question": "How should you control the speed of Kimura application in training to prevent injury?",
         "answer": "Apply rotational pressure slowly and progressively over 3-5 seconds minimum, giving your partner clear time to recognize the danger and tap. Never jerk, spike, or suddenly accelerate the rotation. Maintain constant communication and watch for tap signals including verbal taps, hand taps, foot taps, and any distress sounds. Release immediately upon any tap signal and return the arm to neutral position before releasing the grip.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Apply pressure slow, 3-5 seconds",
+        "distractors": {
+          "plausible": [
+            "Match your partner's resistance",
+            "Set it fast, then ease off"
+          ],
+          "trap": [
+            "Torque hard the moment it locks"
+          ]
+        }
       },
       {
         "question": "What are the most common grip adjustments needed during the Kimura finish?",
         "answer": "The most common adjustments involve tightening the figure-four by squeezing your elbows together when slack develops, repositioning the grip higher on the wrist if it slides toward the forearm during resistance, and re-pinning the opponent's elbow to your ribcage when they create space. If the opponent rotates their palm, adjust by maintaining wrist pressure rather than chasing hand position.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Squeeze elbows, re-pin, hold wrist",
+        "distractors": {
+          "plausible": [
+            "Chase the hand if palm rotates",
+            "Loosen grip to reposition higher"
+          ],
+          "trap": [
+            "Let the arm straighten to regrip"
+          ]
+        }
       },
       {
         "question": "What is the proper release protocol after your partner taps to the Kimura?",
         "answer": "Immediately stop all rotational pressure the instant a tap is detected. Return the arm toward its neutral resting position by externally rotating back to the starting angle. Release the figure-four grip completely and allow your partner to move their arm freely. Give your partner time to self-assess shoulder mobility and comfort before continuing training. Never release the arm suddenly or allow it to spring back forcefully, as this can cause injury even after the submission pressure has stopped.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Stop, unwind slowly, release grip",
+        "distractors": {
+          "plausible": [
+            "Let go and roll straight back in",
+            "Ease off but keep the figure-four"
+          ],
+          "trap": [
+            "Hold the crank a beat longer"
+          ]
+        }
       },
       {
         "question": "How does the Kimura from Butterfly Guard differ from the Kimura from Closed Guard in terms of finishing mechanics?",
         "answer": "The Butterfly Guard Kimura uses hook elevation to compromise the opponent's base and create rotational space, whereas the Closed Guard version relies on hip escaping and leg control to angle off. The seated upright posture in butterfly guard provides more immediate access to the grip but less lower body control over the opponent's hips. The butterfly version requires maintaining hooks throughout, while closed guard allows you to open the guard and use legs for additional leverage during the finish.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Hooks elevate vs hips angle off",
+        "distractors": {
+          "plausible": [
+            "Closed guard version needs hooks",
+            "Butterfly needs no grip control"
+          ],
+          "trap": [
+            "Skip hooks and just crank the arm"
+          ]
+        }
       },
       {
         "question": "In competition, your opponent starts to posture up aggressively while you hold the Kimura grip - what prevents the escape?",
         "answer": "Drive your hooks upward into their inner thighs to elevate their hips and break their posture before they can fully extend. Simultaneously pull the trapped arm toward your hip to prevent them from creating the distance needed to straighten the arm. If they continue posturing, use their forward commitment to roll them over into a Kimura Trap position where you end up on top with the grip intact, converting their escape attempt into a more dominant finishing position and scoring the reversal.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Hooks elevate hips, pull arm in",
+        "distractors": {
+          "plausible": [
+            "Release grip to reset your base",
+            "Pull opponent's head down instead"
+          ],
+          "trap": [
+            "Let them posture to set up sweep"
+          ]
+        }
+      }
+    ],
+    "clips": [
+      {
+        "id": "a52wxVLVkAY",
+        "title": "Kimura from guard, Marcelo Garcia version",
+        "by": "Marcelo Garcia",
+        "vertical": false,
+        "channel": "Skyhook Martial Arts & Fitness",
+        "duration": 106,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "dgYwflmcxKk",
+        "title": "Kimura from half guard bottom",
+        "by": "Georges St-Pierre",
+        "vertical": false,
+        "channel": "Hayabusa",
+        "duration": 72,
+        "verified": "2026-07-14"
       }
     ]
   },
@@ -411,22 +543,62 @@
       {
         "question": "How do you recognize that a Kimura from Butterfly Guard is being set up?",
         "answer": "Key recognition cues include the attacker reaching for your wrist with a C-grip after you post a hand or extend an arm, the attacker angling their body to face your shoulder rather than squaring to your chest, and a sudden increase in hook pressure combined with upper body pulling. The most common trigger is posting your hand on the mat to base against a sweep attempt, which exposes the wrist to capture.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Wrist grab right after you post",
+        "distractors": {
+          "plausible": [
+            "Sudden guard pass attempt",
+            "Attacker squares to your chest"
+          ],
+          "trap": [
+            "Ignore wrist grabs as harmless"
+          ]
+        }
       },
       {
         "question": "What is the safest way to tap when caught in the Kimura from Butterfly Guard?",
         "answer": "Tap immediately when you feel rotational pressure approaching your shoulder's comfortable range of motion. Use your free hand to tap multiple times on the attacker's body, your own leg, or the mat. If your free hand is trapped, use verbal tapping by saying 'tap' clearly, or tap with either foot. Do not wait until you feel pain, as shoulder locks can cause structural damage before significant pain occurs. Any distress signal should be treated as a tap.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Tap early: hand, foot, or verbal",
+        "distractors": {
+          "plausible": [
+            "Ask partner to slow the lock",
+            "Only mat contact counts"
+          ],
+          "trap": [
+            "Muscle out and wait for pain"
+          ]
+        }
       },
       {
         "question": "What defensive options are available at different stages of the Kimura from Butterfly Guard?",
         "answer": "At the wrist grab stage, immediately retract the arm before the figure-four is established. Once the figure-four is locked, grab your own shorts, belt, or opposite hand to block rotation and buy time for grip breaks. If fully caught with rotation beginning, circle away from the Kimura side to reduce pressure while working the grip. Driving forward to pass is only viable when the attacker has lost their upright posture and hook engagement.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Retract early, block, circle away",
+        "distractors": {
+          "plausible": [
+            "Wait for the rotation to slow",
+            "Bridge and bench-press the arm"
+          ],
+          "trap": [
+            "Force a pass while hooks are in"
+          ]
+        }
       },
       {
         "question": "Why is prevention more effective than escape once the Kimura figure-four is locked from Butterfly Guard?",
         "answer": "Once the figure-four is locked with active butterfly hooks, the attacker controls both the arm rotation and your base simultaneously. The hooks prevent you from posturing away or creating distance, while the figure-four provides mechanical advantage that makes the grip extremely difficult to break with strength alone. Prevention at the wrist control stage requires only retracting one arm, while escape from a locked grip requires breaking a reinforced two-on-one grip while managing hook pressure and maintaining your own base.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Locked grip and hooks control both",
+        "distractors": {
+          "plausible": [
+            "Butterfly hooks are easy to clear",
+            "One arm retraction still works late"
+          ],
+          "trap": [
+            "Muscle the arm free by force"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -444,6 +616,35 @@
         "phase": "Phase 3: Escape Integration",
         "focus": "Complete defensive sequences under resistance",
         "description": "Positional sparring where the attacker works Kimura attacks from butterfly guard and the defender practices the full defensive sequence: recognition, prevention, grip defense, and escape. Full resistance with emphasis on safe tapping when caught and controlled release protocol."
+      }
+    ],
+    "clips": [
+      {
+        "id": "9P4zweTSZRE",
+        "title": "Butterfly hook back take against a kimura",
+        "by": "Procel BJJ",
+        "vertical": false,
+        "channel": "Procel Brazilian Jiu-Jitsu",
+        "duration": 72,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "GOLwVNTVcnY",
+        "title": "Kimura defense grip breaks",
+        "by": "Dirtball BJJ",
+        "vertical": false,
+        "channel": "Dirtball BJJ",
+        "duration": 81,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "gvRGrvtKd1U",
+        "title": "Kimura defense",
+        "by": "Jon Satava",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 142,
+        "verified": "2026-07-14"
       }
     ]
   }

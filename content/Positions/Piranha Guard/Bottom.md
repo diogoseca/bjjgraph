@@ -21,37 +21,37 @@ description: "Master Piranha Guard Bottom in BJJ. Aggressive lapel-based guard w
     {
       "@type": "HowToStep",
       "name": "Execute Pendulum Sweep",
-      "text": "From this position, attempt Pendulum Sweep. This technique is attempted in 21% of exchanges from this position.",
+      "text": "From this position, attempt Pendulum Sweep. This technique is attempted in 11% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Collar Drag",
-      "text": "From this position, attempt Collar Drag. This technique is attempted in 10% of exchanges from this position.",
+      "name": "Execute Collar Drag from Open Guard",
+      "text": "From this position, attempt Collar Drag from Open Guard. This technique is attempted in 0% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Triangle Setup",
-      "text": "From this position, attempt Triangle Setup. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Triangle Setup. This technique is attempted in 23% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Omoplata Sweep",
-      "text": "From this position, attempt Omoplata Sweep. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Omoplata Sweep. This technique is attempted in 13% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute De La Riva Sweep",
-      "text": "From this position, attempt De La Riva Sweep. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt De La Riva Sweep. This technique is attempted in 12% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Berimbolo Entry",
-      "text": "From this position, attempt Berimbolo Entry. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Berimbolo Entry. This technique is attempted in 5% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -153,6 +153,32 @@ description: "Master Piranha Guard Bottom in BJJ. Aggressive lapel-based guard w
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Piranha Guard (Bottom) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Lapel guard basics for beginners",
+      "description": "Piranha Guard (Bottom) film study: Lapel guard basics for beginners, taught by Daniel Maira.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/xwERZYBqP9Q/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/xwERZYBqP9Q",
+      "url": "https://www.youtube.com/watch?v=xwERZYBqP9Q",
+      "creator": { "@type": "Person", "name": "Daniel Maira" },
+      "duration": "PT250S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -164,6 +190,26 @@ The Piranha Guard excels at neutralizing pressure passing while simultaneously c
 From a tactical perspective, Piranha Guard represents the evolution of modern lapel guard systems, combining elements from Worm Guard, Squid Guard, and traditional De La Riva concepts. The position demands excellent grip fighting, spatial awareness, and understanding of leverage principles. While technically complex, mastery of Piranha Guard provides practitioners with a comprehensive attacking system that flows seamlessly between sweeps, back attacks, and guard retention scenarios.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Piranha Guard (Bottom) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=xwERZYBqP9Q)
+
+<p class="clip-credit"><strong>Lapel guard basics for beginners</strong> — taught by Daniel Maira · 4:10 · <a href="https://www.youtube.com/watch?v=xwERZYBqP9Q" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

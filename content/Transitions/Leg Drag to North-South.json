@@ -14,21 +14,33 @@
   "outcomes": [
     {
       "to": "North-South/Top",
-      "probability": 65,
+      "probability": {
+        "gi": 65,
+        "nogi": 65
+      },
       "result": "success"
     },
     {
       "to": "Leg Drag Control/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "summary": "Leg Drag to North-South is a guard-passing consolidation where the top player circles around to the opponent's head when frames block mount or side control, establishing crushing perpendicular pressure with immediate kimura and choke threats.",
   "overview": "The leg drag to north-south transition represents a critical consolidation pathway when your opponent successfully defends against mount and side control entries from leg drag control. Rather than fighting an uphill battle against strong frames, this transition capitalizes on opponent energy expenditure by circling to their head, establishing chest-to-chest pressure in the north-south position where their defensive options become severely limited.\n\nThis transition exploits a fundamental positional reality: when opponents focus their frames and defensive attention on preventing lateral passes to side control or mount transitions, they create a vulnerable corridor toward their head. The north-south angle removes their hip escape capability and neutralizes frame effectiveness because you're no longer driving into their defensive structure—you're circling around it. The result is a dominant control position with immediate access to kimuras, arm triangles, and various choking attacks.\n\nFrom a systematic perspective, the leg drag to north-south fills an essential gap in the leg drag passing system. Without this option, determined defenders can effectively stall the leg drag position by maintaining strong shoulder frames and preventing the standard consolidation pathways. Adding north-south as a tertiary option creates a complete dilemma system: defend the back take, defend the mount, or defend north-south—but defending all three simultaneously becomes mechanically impossible. This transition is particularly effective against opponents who have strong frames but less mobile hips, as it punishes static defensive structures.",
   "related_content": [
@@ -201,54 +213,194 @@
     "flashcards": [
       {
         "question": "What is the primary goal of the leg drag to north-south transition?",
-        "answer": "The primary goal is to consolidate a dominant control position when the opponent successfully defends against mount and side control entries from leg drag. Rather than fighting through strong defensive frames, you circle around them to north-south where their hip escape capability is neutralized and submission options become available."
+        "answer": "The primary goal is to consolidate a dominant control position when the opponent successfully defends against mount and side control entries from leg drag. Rather than fighting through strong defensive frames, you circle around them to north-south where their hip escape capability is neutralized and submission options become available.",
+        "answer_line": "Consolidate control, kill hip escape",
+        "distractors": {
+          "plausible": [
+            "Force a quick submission",
+            "Reset to leg drag control"
+          ],
+          "trap": [
+            "Fight through their frames"
+          ]
+        }
       },
       {
         "question": "What position do you start the leg drag to north-south transition from?",
-        "answer": "This technique starts from leg drag control top position, where you have the opponent's leg pulled across their body and are applying shoulder pressure to their upper body. The position is typically reached after a successful leg drag pass attempt."
+        "answer": "This technique starts from leg drag control top position, where you have the opponent's leg pulled across their body and are applying shoulder pressure to their upper body. The position is typically reached after a successful leg drag pass attempt.",
+        "answer_line": "Leg drag control top",
+        "distractors": {
+          "plausible": [
+            "Side control top",
+            "Knee on belly"
+          ],
+          "trap": [
+            "Leg drag control bottom"
+          ]
+        }
       },
       {
         "question": "What are the key grips and control points needed for the leg drag to north-south transition?",
-        "answer": "Before initiating the transition, you need upper body control through shoulder pressure or crossface, and control of the opponent's near-side arm to prevent them from framing or turning. You release the leg control grip only after upper body control is secured. Upon arriving in north-south, both arms should be controlled with your armpits or elbow grips."
+        "answer": "Before initiating the transition, you need upper body control through shoulder pressure or crossface, and control of the opponent's near-side arm to prevent them from framing or turning. You release the leg control grip only after upper body control is secured. Upon arriving in north-south, both arms should be controlled with your armpits or elbow grips.",
+        "answer_line": "Shoulder pressure, control near arm",
+        "distractors": {
+          "plausible": [
+            "Underhook and far-side collar",
+            "Both wrists before releasing leg"
+          ],
+          "trap": [
+            "Release leg grip first"
+          ]
+        }
       },
       {
         "question": "Your opponent starts framing at your hips during the transition—how do you respond?",
-        "answer": "Keep your hips extremely low and heavy during the transition so frames cannot gain purchase. Do not fight the frames directly or stop to strip them—continue the circular motion around their frames while maintaining chest pressure. The movement itself negates frame effectiveness."
+        "answer": "Keep your hips extremely low and heavy during the transition so frames cannot gain purchase. Do not fight the frames directly or stop to strip them—continue the circular motion around their frames while maintaining chest pressure. The movement itself negates frame effectiveness.",
+        "answer_line": "Stay low, keep circling through",
+        "distractors": {
+          "plausible": [
+            "Strip the frames by hand",
+            "Pause and reset base"
+          ],
+          "trap": [
+            "Lift hips to clear the frame"
+          ]
+        }
       },
       {
         "question": "When is the optimal time to attempt the leg drag to north-south transition?",
-        "answer": "The optimal timing is when the opponent has committed strong frames and defensive energy toward blocking your mount or side control transitions. Their defensive attention is directed laterally, creating a vulnerable corridor toward their head. Attempting this when they're not actively defending other options wastes the strategic advantage."
+        "answer": "The optimal timing is when the opponent has committed strong frames and defensive energy toward blocking your mount or side control transitions. Their defensive attention is directed laterally, creating a vulnerable corridor toward their head. Attempting this when they're not actively defending other options wastes the strategic advantage.",
+        "answer_line": "When frames are committed laterally",
+        "distractors": {
+          "plausible": [
+            "Right after securing leg drag",
+            "When opponent is turtling"
+          ],
+          "trap": [
+            "When opponent is calm, not defending"
+          ]
+        }
       },
       {
         "question": "What is the most critical hip position during this transition and why?",
-        "answer": "Your hips must stay extremely low throughout the entire transition—sliding across the mat rather than lifting. Lifting your hips creates space that allows the opponent to insert frames, recover guard with a knee, or turn to turtle. Low hips maintain constant pressure and prevent defensive reactions."
+        "answer": "Your hips must stay extremely low throughout the entire transition—sliding across the mat rather than lifting. Lifting your hips creates space that allows the opponent to insert frames, recover guard with a knee, or turn to turtle. Low hips maintain constant pressure and prevent defensive reactions.",
+        "answer_line": "Hips low, slide across the mat",
+        "distractors": {
+          "plausible": [
+            "Hips square to prevent turn",
+            "Hips high for mobility"
+          ],
+          "trap": [
+            "Lift hips to walk around faster"
+          ]
+        }
       },
       {
         "question": "Your opponent begins turning into you as you start circling toward north-south—what adjustment do you make?",
-        "answer": "If they turn into you early in the transition, abort the north-south attempt and capitalize on their turn. Their rotation often opens a pathway for side control on the opposite side or creates back exposure. Alternatively, return to leg drag control and threaten the back take, which their turn has made more available."
+        "answer": "If they turn into you early in the transition, abort the north-south attempt and capitalize on their turn. Their rotation often opens a pathway for side control on the opposite side or creates back exposure. Alternatively, return to leg drag control and threaten the back take, which their turn has made more available.",
+        "answer_line": "Abort, take the back or side",
+        "distractors": {
+          "plausible": [
+            "Force through to north-south anyway",
+            "Release and reset to leg drag"
+          ],
+          "trap": [
+            "Chase mount on the far side"
+          ]
+        }
       },
       {
         "question": "How does this transition create a dilemma system within the leg drag passing game?",
-        "answer": "The north-south option forces opponents to defend three directions simultaneously: back take (if they turn away), mount or side control (if they stay flat with lateral frames), and north-south (if they block the first two). Defending all three is mechanically impossible, so adding this transition breaks stalling strategies that focus only on blocking lateral advancement."
+        "answer": "The north-south option forces opponents to defend three directions simultaneously: back take (if they turn away), mount or side control (if they stay flat with lateral frames), and north-south (if they block the first two). Defending all three is mechanically impossible, so adding this transition breaks stalling strategies that focus only on blocking lateral advancement.",
+        "answer_line": "Forces defending 3 paths at once",
+        "distractors": {
+          "plausible": [
+            "Doubles submission attempt rate",
+            "Removes need for grip fighting"
+          ],
+          "trap": [
+            "Lets opponent pick one defense"
+          ]
+        }
       },
       {
         "question": "What direction of force should you apply during the circling motion toward north-south?",
-        "answer": "The force direction is tangential to the opponent's body—you are moving in an arc around their upper body, not driving straight through them. Your chest pressure drives downward into their shoulder and sternum throughout the arc, while your feet walk laterally in a semicircle. The combination of downward chest pressure and lateral foot movement creates a windshield-wiper effect that is extremely difficult to counter because the opponent cannot frame against circular motion the way they frame against linear pressure."
+        "answer": "The force direction is tangential to the opponent's body—you are moving in an arc around their upper body, not driving straight through them. Your chest pressure drives downward into their shoulder and sternum throughout the arc, while your feet walk laterally in a semicircle. The combination of downward chest pressure and lateral foot movement creates a windshield-wiper effect that is extremely difficult to counter because the opponent cannot frame against circular motion the way they frame against linear pressure.",
+        "answer_line": "Tangential arc, chest driving down",
+        "distractors": {
+          "plausible": [
+            "Straight line push through chest",
+            "Pull opponent's shoulders up"
+          ],
+          "trap": [
+            "Drive straight into their hips"
+          ]
+        }
       },
       {
         "question": "If the north-south transition is blocked and you remain in leg drag control, what chain attacks should you threaten next?",
-        "answer": "After a blocked north-south attempt, immediately threaten the back take by driving into their far shoulder to force them to turn away, or attempt the mount transition by stepping over their hip while they are still recovering from defending the north-south. The key is to chain the next attack immediately—the failed north-south attempt has forced them to expend defensive energy and shift their frames, creating openings for the other two legs of the trilemma. Pausing to reset allows them to reorganize their defense."
+        "answer": "After a blocked north-south attempt, immediately threaten the back take by driving into their far shoulder to force them to turn away, or attempt the mount transition by stepping over their hip while they are still recovering from defending the north-south. The key is to chain the next attack immediately—the failed north-south attempt has forced them to expend defensive energy and shift their frames, creating openings for the other two legs of the trilemma. Pausing to reset allows them to reorganize their defense.",
+        "answer_line": "Immediately chain back take or mount",
+        "distractors": {
+          "plausible": [
+            "Reset grips before next attack",
+            "Switch to knee-on-belly first"
+          ],
+          "trap": [
+            "Pause to regain your breath"
+          ]
+        }
       },
       {
         "question": "What is the most common failure point that causes this transition to stall at mid-rotation?",
-        "answer": "The most common failure point is losing chest-to-body contact during the middle of the arc, typically between clearing the shoulder and arriving at the sternum. This gap occurs when the passer lifts their chest even slightly to reposition. The opponent immediately inserts frames into this space, stalling the transition. The correction is to think of your chest as glued to their torso—your sternum never separates from their body surface at any point during the rotation."
+        "answer": "The most common failure point is losing chest-to-body contact during the middle of the arc, typically between clearing the shoulder and arriving at the sternum. This gap occurs when the passer lifts their chest even slightly to reposition. The opponent immediately inserts frames into this space, stalling the transition. The correction is to think of your chest as glued to their torso—your sternum never separates from their body surface at any point during the rotation.",
+        "answer_line": "Chest lifts off, frame gap opens",
+        "distractors": {
+          "plausible": [
+            "Losing the near-arm control",
+            "Feet stop walking mid-arc"
+          ],
+          "trap": [
+            "Keeping constant sternum contact"
+          ]
+        }
       },
       {
         "question": "Your opponent has strong collar grips from leg drag bottom that are slowing your circling motion—how do you address this?",
-        "answer": "Do not stop to strip the collar grips, as this creates a static exchange that favors the defender. Instead, use your circling motion itself to break the grips—as you rotate past their shoulder line, the angle change naturally weakens their grip mechanics because their wrists must twist awkwardly to maintain the hold. If grips persist, pin their gripping elbow to their body with your armpit as you circle, which both neutralizes the grip and establishes the arm control you need for north-south consolidation."
+        "answer": "Do not stop to strip the collar grips, as this creates a static exchange that favors the defender. Instead, use your circling motion itself to break the grips—as you rotate past their shoulder line, the angle change naturally weakens their grip mechanics because their wrists must twist awkwardly to maintain the hold. If grips persist, pin their gripping elbow to their body with your armpit as you circle, which both neutralizes the grip and establishes the arm control you need for north-south consolidation.",
+        "answer_line": "Circle through to break the grips",
+        "distractors": {
+          "plausible": [
+            "Halt and peel the collar first",
+            "Pin the gripping elbow first"
+          ],
+          "trap": [
+            "Turn your back to spin free"
+          ]
+        }
       }
     ],
-    "safety_considerations": "This transition is relatively low-risk from an injury standpoint as it involves controlled movement rather than dynamic techniques or joint manipulation. The primary safety consideration is maintaining smooth, continuous pressure during the transition rather than sudden jerking movements that could cause the opponent's neck or shoulder to twist unexpectedly. When drilling, ensure the bottom partner communicates if pressure becomes uncomfortable, particularly around the head and neck area as you circle. In competition, be aware that rapid transitions can catch opponents off-guard—give them a moment to recognize the new position before attacking submissions."
+    "safety_considerations": "This transition is relatively low-risk from an injury standpoint as it involves controlled movement rather than dynamic techniques or joint manipulation. The primary safety consideration is maintaining smooth, continuous pressure during the transition rather than sudden jerking movements that could cause the opponent's neck or shoulder to twist unexpectedly. When drilling, ensure the bottom partner communicates if pressure becomes uncomfortable, particularly around the head and neck area as you circle. In competition, be aware that rapid transitions can catch opponents off-guard—give them a moment to recognize the new position before attacking submissions.",
+    "clips": [
+      {
+        "id": "8VT4dxSqCvI",
+        "title": "Leg drag pass mechanics",
+        "by": "Procel BJJ coach",
+        "vertical": false,
+        "channel": "Procel Brazilian Jiu-Jitsu",
+        "duration": 94,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "aRpubM-K7Gc",
+        "title": "Toreando pass into north-south",
+        "by": "Jay Rodriguez",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 165,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Leg Drag to North-South Defender",
@@ -324,23 +476,73 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that the passer is transitioning toward north-south rather than continuing to mount or side control?",
-        "answer": "The earliest cue is feeling their feet begin to walk in an arc toward your head combined with a release or loosening of their grip on your dragged leg. Their chest pressure also shifts from driving laterally into your shoulder to sliding across your upper chest toward your sternum. This directional change in pressure is the most reliable tactile indicator."
+        "answer": "The earliest cue is feeling their feet begin to walk in an arc toward your head combined with a release or loosening of their grip on your dragged leg. Their chest pressure also shifts from driving laterally into your shoulder to sliding across your upper chest toward your sternum. This directional change in pressure is the most reliable tactile indicator.",
+        "answer_line": "Feet arc to head, grip loosens",
+        "distractors": {
+          "plausible": [
+            "Sudden increase in hip pressure",
+            "Crossface tightens hard"
+          ],
+          "trap": [
+            "Opponent stands up to pass"
+          ]
+        }
       },
       {
         "question": "Why is turning into the passer more effective than turning away when defending this transition?",
-        "answer": "Turning into the passer disrupts their circular path by forcing them to deal with your facing structure rather than circling around a passive body. It also prevents back exposure, which turning away creates. When you face them, you can establish frames against their chest and potentially recover guard, whereas turning away accelerates their path to either north-south or back control with no defensive structure between you."
+        "answer": "Turning into the passer disrupts their circular path by forcing them to deal with your facing structure rather than circling around a passive body. It also prevents back exposure, which turning away creates. When you face them, you can establish frames against their chest and potentially recover guard, whereas turning away accelerates their path to either north-south or back control with no defensive structure between you.",
+        "answer_line": "Blocks the arc, avoids back exposure",
+        "distractors": {
+          "plausible": [
+            "Creates space to stand up",
+            "Lets you attack a kimura"
+          ],
+          "trap": [
+            "Turning away hides your neck"
+          ]
+        }
       },
       {
         "question": "Your frames are established but the passer has already cleared your shoulder line—what is your best remaining option?",
-        "answer": "At this stage, your best option is to immediately hip escape hard toward their legs while pulling your knees to your chest. You are trying to insert a knee or both knees between your bodies before they settle full north-south pressure. If you can get even one knee inside, you can work to half guard. If they have already settled chest-to-chest, switch to north-south escape techniques—controlled breathing, small hip escapes, and frame creation to eventually insert a knee during their submission attempts."
+        "answer": "At this stage, your best option is to immediately hip escape hard toward their legs while pulling your knees to your chest. You are trying to insert a knee or both knees between your bodies before they settle full north-south pressure. If you can get even one knee inside, you can work to half guard. If they have already settled chest-to-chest, switch to north-south escape techniques—controlled breathing, small hip escapes, and frame creation to eventually insert a knee during their submission attempts.",
+        "answer_line": "Hip escape hard, insert a knee",
+        "distractors": {
+          "plausible": [
+            "Push frames to create distance",
+            "Bridge explosively to dump them"
+          ],
+          "trap": [
+            "Turn away to protect your back"
+          ]
+        }
       },
       {
         "question": "During positional sparring from leg drag bottom, what specific defensive drill prepares you for the north-south transition?",
-        "answer": "The most effective drill has the top partner alternate randomly between driving toward mount, circling to side control, and transitioning to north-south from leg drag. The bottom player must recognize which direction the pass is going and apply the correct defensive response within one second. This develops the pattern recognition and reflexive response needed to defend all three legs of the trilemma rather than committing prematurely to one defensive posture."
+        "answer": "The most effective drill has the top partner alternate randomly between driving toward mount, circling to side control, and transitioning to north-south from leg drag. The bottom player must recognize which direction the pass is going and apply the correct defensive response within one second. This develops the pattern recognition and reflexive response needed to defend all three legs of the trilemma rather than committing prematurely to one defensive posture.",
+        "answer_line": "React to random pass direction",
+        "distractors": {
+          "plausible": [
+            "Commit early to one defense",
+            "Drill north-south escape alone"
+          ],
+          "trap": [
+            "Turn belly-down to turtle"
+          ]
+        }
       },
       {
         "question": "How does your defensive response differ based on whether you are still in leg drag control versus the passer being mid-transition to north-south?",
-        "answer": "In leg drag control before the transition starts, your defense focuses on preventing all three consolidation pathways through lateral frames and hip positioning. Once the north-south transition is in progress, your defense must specifically target the circular motion—either turning into them to block the arc or exploiting the released leg grip to insert a knee. The key difference is that mid-transition defense requires directional awareness and immediate reaction to a specific threat, whereas pre-transition defense is about general positional integrity."
+        "answer": "In leg drag control before the transition starts, your defense focuses on preventing all three consolidation pathways through lateral frames and hip positioning. Once the north-south transition is in progress, your defense must specifically target the circular motion—either turning into them to block the arc or exploiting the released leg grip to insert a knee. The key difference is that mid-transition defense requires directional awareness and immediate reaction to a specific threat, whereas pre-transition defense is about general positional integrity.",
+        "answer_line": "General frames vs reacting to arc",
+        "distractors": {
+          "plausible": [
+            "Same response both times",
+            "Pre-transition needs the knee insert"
+          ],
+          "trap": [
+            "Wait until north-south settles"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -363,6 +565,26 @@
         "phase": "Week 7+",
         "focus": "Live positional sparring integration",
         "description": "Full resistance positional sparring from leg drag bottom. Top player uses all consolidation options including north-south. Bottom player works to prevent any consolidation, with specific attention to the north-south transition. Track success rate across rounds and identify which recognition cues are most reliable under pressure."
+      }
+    ],
+    "clips": [
+      {
+        "id": "aAitcEHUcRE",
+        "title": "Taking the back to escape north-south",
+        "by": "Stephan Kesting",
+        "vertical": false,
+        "channel": "Stephan Kesting",
+        "duration": 53,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "rmT52A--V3Q",
+        "title": "How to escape north-south",
+        "by": "Jon Thomas",
+        "vertical": false,
+        "channel": "JonThomasBJJ Plus",
+        "duration": 203,
+        "verified": "2026-07-15"
       }
     ]
   },

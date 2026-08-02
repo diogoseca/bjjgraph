@@ -35,6 +35,54 @@ description: "Master Knee on Belly in BJJ. Strategic control position balancing 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Knee on Belly \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Ryron Gracie\u0027s Favorite Knee-on-Belly Attack",
+      "description": "Knee on Belly film study: Ryron Gracie\u0027s Favorite Knee-on-Belly Attack, taught by Ryron Gracie.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/pa6Z7mP9VKU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/pa6Z7mP9VKU",
+      "url": "https://www.youtube.com/watch?v=pa6Z7mP9VKU",
+      "creator": { "@type": "Person", "name": "Ryron Gracie" },
+      "duration": "PT52S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "3 Knee-on-Belly Attacks for Beginners",
+      "description": "Knee on Belly film study: 3 Knee-on-Belly Attacks for Beginners, taught by Lucas Lepri.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/XNhDD7N4JNY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/XNhDD7N4JNY",
+      "url": "https://www.youtube.com/watch?v=XNhDD7N4JNY",
+      "creator": { "@type": "Person", "name": "Lucas Lepri" },
+      "duration": "PT68S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "First Principles: Mount \u0026 Knee-on-Belly Escapes",
+      "description": "Knee on Belly film study: First Principles: Mount \u0026 Knee-on-Belly Escapes, taught by 40 Plus BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/I9_3u9AcwAg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/I9_3u9AcwAg",
+      "url": "https://www.youtube.com/watch?v=I9_3u9AcwAg",
+      "creator": { "@type": "Person", "name": "40 Plus BJJ" },
+      "duration": "PT59S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -66,6 +114,42 @@ description: "Master Knee on Belly in BJJ. Strategic control position balancing 
 Within the BJJ positional hierarchy, Knee on Belly occupies a distinctive role because it prioritizes mobility as much as dominance, sitting between side control and mount as an aggressive launching point. This position uniquely combines high pressure with exceptional mobility, creating a transitional platform that scores points while setting up submissions and positional advancements. Unlike static control positions such as mount or side control, Knee on Belly requires continuous weight adjustments and active pressure management. The position creates a strategic dilemma for the bottom player: defend against submissions, prevent transitions to more dominant positions, or alleviate the crushing diaphragm pressure. From the top perspective, this position offers point-scoring opportunities, submission threats, and rapid transition potential to mount, back control, or north-south. From the bottom perspective, it represents a high-risk defensive scenario requiring immediate escape protocols combining frame creation, hip movement, and systematic re-guard strategies. The position exemplifies the principle of dynamic control over static dominance, rewarding practitioners who master the balance between pressure application and transitional readiness. The top player's knee acts as a fulcrum through which bodyweight is channeled into the bottom player's solar plexus, creating respiratory distress that forces panicked defensive reactions. These reactions — pushing with extended arms, turning away, bridging — each open specific attack pathways that a prepared top player can exploit. The bottom player must recognize that every second spent flat under this pressure compounds the disadvantage, making immediate and systematic escape attempts essential. Understanding both perspectives transforms Knee on Belly from a simple pressure position into a complex strategic node within the positional hierarchy.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Knee on Belly in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=pa6Z7mP9VKU)
+
+<p class="clip-credit"><strong>Ryron Gracie&#39;s Favorite Knee-on-Belly Attack</strong> — taught by Ryron Gracie · 0:52 · <a href="https://www.youtube.com/watch?v=pa6Z7mP9VKU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=XNhDD7N4JNY)
+
+<p class="clip-credit"><strong>3 Knee-on-Belly Attacks for Beginners</strong> — taught by Lucas Lepri · 1:08 · <a href="https://www.youtube.com/watch?v=XNhDD7N4JNY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=I9_3u9AcwAg)
+
+<p class="clip-credit"><strong>First Principles: Mount &amp; Knee-on-Belly Escapes</strong> — taught by 40 Plus BJJ · 0:59 · <a href="https://www.youtube.com/watch?v=I9_3u9AcwAg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 
@@ -135,25 +219,25 @@ Within the BJJ positional hierarchy, Knee on Belly occupies a distinctive role b
 ### Available Transitions
 
 
-- **[[Transitions/Elbow Escape to Guard/Attacker|Elbow Escape to Guard]]** (42% of attempts)
+- **[[Transitions/Elbow Escape to Guard/Attacker|Elbow Escape to Guard]]** (13% of attempts)
 
-- **[[Transitions/Hip Escape to Guard/Attacker|Hip Escape to Guard]]** (10% of attempts)
+- **[[Transitions/Hip Escape to Guard/Attacker|Hip Escape to Guard]]** (17% of attempts)
 
-- **[[Transitions/Deep Half Entry/Attacker|Deep Half Entry]]** (5% of attempts)
+- **[[Transitions/Deep Half Entry/Attacker|Deep Half Entry]]** (6% of attempts)
 
 - **[[Transitions/Knee Shield Retention/Attacker|Knee Shield Retention]]** (11% of attempts)
 
-- **[[Transitions/Technical Stand-up/Attacker|Technical Stand-up]]** (4% of attempts)
+- **[[Transitions/Technical Stand-up/Attacker|Technical Stand-up]]** (7% of attempts)
 
-- **[[Transitions/Frame and Shrimp to Guard/Attacker|Frame and Shrimp to Guard]]** (10% of attempts)
+- **[[Transitions/Frame and Shrimp to Guard/Attacker|Frame and Shrimp to Guard]]** (15% of attempts)
 
-- **[[Transitions/Hip Escape to Turtle/Attacker|Hip Escape to Turtle]]** (9% of attempts)
+- **[[Transitions/Hip Escape to Turtle/Attacker|Hip Escape to Turtle]]** (8% of attempts)
 
-- **[[Transitions/Frame and Shrimp from Knee on Belly/Attacker|Frame and Shrimp from Knee on Belly]]** (3% of attempts)
+- **[[Transitions/Frame and Shrimp from Knee on Belly/Attacker|Frame and Shrimp from Knee on Belly]]** (8% of attempts)
 
-- **[[Transitions/Push Knee and Reguard from Knee on Belly/Attacker|Push Knee and Reguard from Knee on Belly]]** (3% of attempts)
+- **[[Transitions/Push Knee and Reguard from Knee on Belly/Attacker|Push Knee and Reguard from Knee on Belly]]** (10% of attempts)
 
-- **[[Transitions/Turn to Turtle from Knee on Belly/Attacker|Turn to Turtle from Knee on Belly]]** (3% of attempts)
+- **[[Transitions/Turn to Turtle from Knee on Belly/Attacker|Turn to Turtle from Knee on Belly]]** (5% of attempts)
 
 
 ### Common Mistakes
@@ -218,23 +302,23 @@ Within the BJJ positional hierarchy, Knee on Belly occupies a distinctive role b
 ### Available Transitions
 
 
-- **[[Transitions/KOB to Mount/Attacker|KOB to Mount]]** (25% of attempts)
+- **[[Transitions/KOB to Mount/Attacker|KOB to Mount]]** (22% of attempts)
 
-- **[[Transitions/Far Side Armbar from KOB/Attacker|Far Side Armbar from KOB]]** (14% of attempts)
+- **[[Transitions/Far Side Armbar from KOB/Attacker|Far Side Armbar from KOB]]** (16% of attempts)
 
-- **[[Baseball Bat Choke from Knee on Belly/Attacker|Baseball Bat Choke from Knee on Belly]]** (12% of attempts)
+- **[[Baseball Bat Choke from Knee on Belly/Attacker|Baseball Bat Choke from Knee on Belly]]** (0% of attempts)
 
-- **[[Cross Collar Choke from Knee on Belly/Attacker|Cross Collar Choke from Knee on Belly]]** (11% of attempts)
+- **[[Cross Collar Choke from Knee on Belly/Attacker|Cross Collar Choke from Knee on Belly]]** (0% of attempts)
 
-- **[[Transitions/KOB to Side Control/Attacker|KOB to Side Control]]** (8% of attempts)
+- **[[Transitions/KOB to Side Control/Attacker|KOB to Side Control]]** (17% of attempts)
 
-- **[[Kimura from Knee on Belly/Attacker|Kimura from Knee on Belly]]** (7% of attempts)
+- **[[Kimura from Knee on Belly/Attacker|Kimura from Knee on Belly]]** (12% of attempts)
 
-- **[[Transitions/Back Take from Top/Attacker|Back Take from Top]]** (7% of attempts)
+- **[[Transitions/Back Take from Top/Attacker|Back Take from Top]]** (9% of attempts)
 
-- **[[Transitions/S-Mount Transition/Attacker|S-Mount Transition]]** (6% of attempts)
+- **[[Transitions/S-Mount Transition/Attacker|S-Mount Transition]]** (9% of attempts)
 
-- **[[Armbar from Knee on Belly/Attacker|Armbar from Knee on Belly]]** (5% of attempts)
+- **[[Armbar from Knee on Belly/Attacker|Armbar from Knee on Belly]]** (10% of attempts)
 
 - **[[Belly Down Armbar from Knee on Belly/Attacker|Belly Down Armbar from Knee on Belly]]** (5% of attempts)
 

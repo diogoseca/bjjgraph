@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Closed Guard/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Mount/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "High Mount/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "conditions": [
     "Opponent is in standard mount position with knees on either side of torso",
     "At least one of opponent's arms is available to trap against your chest",
@@ -274,46 +286,175 @@
     "flashcards": [
       {
         "question": "Why must you trap the arm and same-side foot together rather than just the arm?",
-        "answer": "The foot trap is essential because it prevents the opponent from posting with that leg to maintain base. Even with the arm trapped, if they can post with the same-side foot, they can resist the bridge and prevent the roll. The arm and foot on the same side work together as a complete base removal system—eliminating both prevents any posting possibility on that side, forcing them to roll over the trapped shoulder. Without the foot trap, the escape has almost zero success rate against any technical opponent."
+        "answer": "The foot trap is essential because it prevents the opponent from posting with that leg to maintain base. Even with the arm trapped, if they can post with the same-side foot, they can resist the bridge and prevent the roll. The arm and foot on the same side work together as a complete base removal system—eliminating both prevents any posting possibility on that side, forcing them to roll over the trapped shoulder. Without the foot trap, the escape has almost zero success rate against any technical opponent.",
+        "answer_line": "Foot trap blocks their post",
+        "distractors": {
+          "plausible": [
+            "Arm trap alone is enough",
+            "Trap the far-side foot instead"
+          ],
+          "trap": [
+            "Free the foot to grip lapel"
+          ]
+        }
       },
       {
         "question": "What is the optimal angle for bridging and why is bridging straight up ineffective?",
-        "answer": "The optimal bridging angle is approximately 45 degrees toward the trapped side, rolling over the opponent's trapped shoulder. Bridging straight up is ineffective because the opponent can easily base out with their free arm and leg, creating a strong triangular base that resists vertical force. The angled bridge attacks their structural weakness—the trapped side where they cannot post—forcing their weight distribution to collapse toward that compromised side. This angular approach uses leverage and mechanics rather than trying to overpower their base with pure strength."
+        "answer": "The optimal bridging angle is approximately 45 degrees toward the trapped side, rolling over the opponent's trapped shoulder. Bridging straight up is ineffective because the opponent can easily base out with their free arm and leg, creating a strong triangular base that resists vertical force. The angled bridge attacks their structural weakness—the trapped side where they cannot post—forcing their weight distribution to collapse toward that compromised side. This angular approach uses leverage and mechanics rather than trying to overpower their base with pure strength.",
+        "answer_line": "45° toward trapped shoulder",
+        "distractors": {
+          "plausible": [
+            "Roll toward the free arm side",
+            "Push with arms, not hips"
+          ],
+          "trap": [
+            "Bridge straight up, muscle it"
+          ]
+        }
       },
       {
         "question": "How do you generate maximum bridging power and which muscle groups should be engaged?",
-        "answer": "Maximum bridging power comes from full hip extension driven primarily by the glutes, hamstrings, and core muscles, not the lower back. The planted foot (opposite the trapped side) should be positioned close to the buttocks with the knee bent at approximately 90 degrees to create optimal leverage. The explosive drive comes from pressing through this planted foot while simultaneously extending the hips upward and toward the angled direction. The lower back should remain relatively stable while the power generates from the larger muscle groups of the posterior chain. Many beginners make the mistake of trying to lift with their back, which produces weak bridges and risks injury."
+        "answer": "Maximum bridging power comes from full hip extension driven primarily by the glutes, hamstrings, and core muscles, not the lower back. The planted foot (opposite the trapped side) should be positioned close to the buttocks with the knee bent at approximately 90 degrees to create optimal leverage. The explosive drive comes from pressing through this planted foot while simultaneously extending the hips upward and toward the angled direction. The lower back should remain relatively stable while the power generates from the larger muscle groups of the posterior chain. Many beginners make the mistake of trying to lift with their back, which produces weak bridges and risks injury.",
+        "answer_line": "Drive hips up using glutes/hams",
+        "distractors": {
+          "plausible": [
+            "Power the bridge from the spine",
+            "Post the trapped-side leg to lift"
+          ],
+          "trap": [
+            "Hyperextend low back to bridge up"
+          ]
+        }
       },
       {
         "question": "Your opponent posts with their free arm mid-bridge to prevent the roll—how do you adjust?",
-        "answer": "If the opponent successfully posts with their free arm during your bridge, you have two primary options: First, immediately abandon the bridge and roll and transition to an elbow escape (shrimp), using the space created by their committed post. Second, explosively switch to attacking the opposite side with a bridge and roll, as their committed post on one side creates a base weakness on the opposite side. Never continue forcing a failed bridge and roll against a successful post, as this wastes energy and keeps you in inferior position. Reading their counter and flowing to the appropriate response is critical for escape success."
+        "answer": "If the opponent posts with their free arm mid-bridge, either switch to an elbow escape or attack the opposite side with a new bridge and roll. The elbow escape (shrimp) uses the space created by their committed post; alternatively, their post on one side creates a base weakness on the opposite side that you can attack explosively with a bridge and roll. Never continue forcing a failed bridge and roll against a successful post, as this wastes energy and keeps you in an inferior position. Reading their counter and flowing to the appropriate response is critical for escape success.",
+        "distractors": {
+          "plausible": [
+            "Re-trap the posted arm first",
+            "Freeze and re-grip, wait"
+          ],
+          "trap": [
+            "Keep forcing the same bridge"
+          ]
+        },
+        "answer_line": "Switch to elbow escape or new side"
       },
       {
         "question": "Why must defensive frames be established before attempting the bridge and roll escape?",
-        "answer": "Defensive frames must be established first because attempting any escape while under immediate submission threat is tactically unsound and typically results in getting submitted. Frames create the necessary space to prevent attacks like the Americana, armbar, ezekiel choke, or collar chokes that opponents frequently threaten from mount. The frames also prevent the opponent from establishing high mount or grapevining the legs, both of which make the bridge and roll significantly less effective or impossible. The principle of survival before escape is fundamental—you must neutralize immediate threats before attempting to improve position. Only when frames are established and submission threats are managed can you safely commit to the escape sequence."
+        "answer": "Frames must come first because attempting any escape while under immediate submission threat is tactically unsound and typically gets you submitted. Frames create the necessary space to prevent attacks like the Americana, armbar, ezekiel choke, or collar chokes that opponents frequently threaten from mount. They also prevent the opponent from establishing high mount or grapevining the legs, both of which make the bridge and roll significantly less effective or impossible. This is the principle of survival before escape: you must neutralize immediate threats before attempting to improve position. Only when frames are established and submission threats are managed can you safely commit to the escape sequence.",
+        "distractors": {
+          "plausible": [
+            "Frames only needed vs subs",
+            "Grip fight before framing"
+          ],
+          "trap": [
+            "Skip frames, bridge under attack"
+          ]
+        },
+        "answer_line": "Frames first, survive threats"
       },
       {
         "question": "How does timing affect the success rate of the bridge and roll, and when is the optimal moment to execute?",
-        "answer": "Timing is critical because bridging against a well-based, stationary opponent is significantly more difficult than attacking during their movement. The optimal moments to execute are when the opponent shifts their weight forward (making their base narrow), reaches for a submission attack (committing one or both arms), or adjusts their position (creating momentary base instability). These moments create windows where their base is compromised and they cannot immediately counter your bridge. Attempting the escape when they are perfectly balanced and settled in mount has a much lower success rate, especially against experienced opponents. Advanced practitioners develop the sensitivity to feel these weight shifts and timing windows, allowing them to explode precisely when the opponent is most vulnerable to the reversal."
+        "answer": "Timing is critical because bridging against a well-based, stationary opponent is significantly more difficult than attacking during their movement. The optimal moments to execute are when the opponent shifts their weight forward (making their base narrow), reaches for a submission attack (committing one or both arms), or adjusts their position (creating momentary base instability). These moments create windows where their base is compromised and they cannot immediately counter your bridge. Attempting the escape when they are perfectly balanced and settled in mount has a much lower success rate, especially against experienced opponents. Advanced practitioners develop the sensitivity to feel these weight shifts and timing windows, allowing them to explode precisely when the opponent is most vulnerable to the reversal.",
+        "answer_line": "Explode when their base shifts",
+        "distractors": {
+          "plausible": [
+            "Bridge when they're settled",
+            "Wait for a full stalemate"
+          ],
+          "trap": [
+            "Buck nonstop until you gas out"
+          ]
+        }
       },
       {
         "question": "What is the relationship between the planted foot position and bridging effectiveness?",
-        "answer": "The planted foot position is biomechanically crucial for generating explosive bridging power. The foot should be positioned close to the buttocks (heel nearly touching) with the knee bent at approximately 90 degrees or slightly less. This position creates optimal leverage for driving through the foot and extending the hips powerfully. If the foot is too far from the body, the angle becomes mechanically disadvantaged and produces weak, ineffective bridges. The closer the foot, the better the leverage for hip extension, similar to how a sprinter positions their feet in starting blocks. This foot placement allows maximum force transfer from the powerful glute and hamstring muscles directly into the explosive bridging motion."
+        "answer": "The planted foot position is biomechanically crucial for generating explosive bridging power. The foot should be positioned close to the buttocks (heel nearly touching) with the knee bent at approximately 90 degrees or slightly less. This position creates optimal leverage for driving through the foot and extending the hips powerfully. If the foot is too far from the body, the angle becomes mechanically disadvantaged and produces weak, ineffective bridges. The closer the foot, the better the leverage for hip extension, similar to how a sprinter positions their feet in starting blocks. This foot placement allows maximum force transfer from the powerful glute and hamstring muscles directly into the explosive bridging motion.",
+        "answer_line": "Heel close, knee bent ~90°",
+        "distractors": {
+          "plausible": [
+            "Plant foot far from hips",
+            "Bridge up on your toes"
+          ],
+          "trap": [
+            "Straighten legs, shove them off"
+          ]
+        }
       },
       {
         "question": "Your opponent attempts an Americana while mounted—how do you use this to set up the bridge and roll?",
-        "answer": "When the opponent reaches for the Americana, they commit at least one arm to the attack and shift their weight toward the attacking side, both of which create the ideal setup for bridge and roll. First, address the immediate submission threat by pulling your elbow tight to your body and denying the grip. As they reach and lean, their base becomes narrow on the attacking side. Use your free hand to trap their committed arm against your chest—they've essentially trapped their own arm for you by reaching. Simultaneously hook their same-side foot. Their weight is already shifted toward that side from the Americana attempt, so your bridge requires less force to complete the reversal. The key insight is that submission attempts from mount always create escape windows."
+        "answer": "The Americana attempt commits their arm and shifts their weight toward the attacking side, creating the ideal bridge-and-roll setup on that side. First address the immediate submission threat by pulling your elbow tight to your body and denying the grip. As they reach and lean, their base becomes narrow on the attacking side. Use your free hand to trap their committed arm against your chest—by reaching, they have essentially trapped their own arm for you—and simultaneously hook their same-side foot. Because their weight is already shifted toward that side from the Americana attempt, your bridge requires less force to complete the reversal. The key insight is that submission attempts from mount always create escape windows.",
+        "distractors": {
+          "plausible": [
+            "Bridge to the non-attacking side",
+            "Push their arm away first"
+          ],
+          "trap": [
+            "Let them finish the Americana"
+          ]
+        },
+        "answer_line": "Trap the reaching arm, bridge"
       },
       {
         "question": "What grip adjustments are necessary when performing bridge and roll in no-gi versus gi?",
-        "answer": "In gi, you can grip the opponent's sleeve at the wrist for a secure arm trap that is very difficult to strip. The gi material provides friction that helps maintain the trap throughout the roll. In no-gi, wrist control is less reliable due to sweat and lack of friction, so you must overhook the arm deeply, pulling it tight across your chest with your arm wrapping over their tricep and your hand gripping your own chest or their lat. You can also use a two-on-one grip on their wrist with both hands before transitioning to the chest trap. The foot hook remains largely the same in both contexts, though in no-gi you may need a deeper hook behind the calf to prevent the leg from slipping free during the bridge."
+        "answer": "In gi, you can grip the opponent's sleeve at the wrist for a secure arm trap that is very difficult to strip. The gi material provides friction that helps maintain the trap throughout the roll. In no-gi, wrist control is less reliable due to sweat and lack of friction, so you must overhook the arm deeply, pulling it tight across your chest with your arm wrapping over their tricep and your hand gripping your own chest or their lat. You can also use a two-on-one grip on their wrist with both hands before transitioning to the chest trap. The foot hook remains largely the same in both contexts, though in no-gi you may need a deeper hook behind the calf to prevent the leg from slipping free during the bridge.",
+        "answer_line": "No-gi: overhook, deep chest trap",
+        "distractors": {
+          "plausible": [
+            "No-gi: grip the wrist tightly",
+            "Gi: overhook like no-gi"
+          ],
+          "trap": [
+            "No-gi: rely on sleeve friction"
+          ]
+        }
       },
       {
         "question": "How do you chain the bridge and roll with the elbow escape when your first attempt fails?",
-        "answer": "The bridge and roll and elbow escape form a complementary escape system because defending one creates vulnerability to the other. When your bridge and roll fails—typically because the opponent posts their free arm—immediately use the elevation and space created by the bridge to hip escape away from the posting side. As your hips drop back to the mat, angle them away from the opponent and begin inserting your bottom knee into the space between your hip and their knee. The bridge created momentary space and forced them to commit their weight to one side, which is exactly the condition the elbow escape exploits. Conversely, if the elbow escape fails because the opponent drives their hip back down to block your knee insertion, their forward weight commitment sets up the bridge and roll. Drilling this chain until the transition between the two escapes is automatic is the foundation of reliable mount defense."
+        "answer": "The bridge and roll and elbow escape form a complementary escape system because defending one creates vulnerability to the other. When your bridge and roll fails—typically because the opponent posts their free arm—immediately use the elevation and space created by the bridge to hip escape away from the posting side. As your hips drop back to the mat, angle them away from the opponent and begin inserting your bottom knee into the space between your hip and their knee. The bridge created momentary space and forced them to commit their weight to one side, which is exactly the condition the elbow escape exploits. Conversely, if the elbow escape fails because the opponent drives their hip back down to block your knee insertion, their forward weight commitment sets up the bridge and roll. Drilling this chain until the transition between the two escapes is automatic is the foundation of reliable mount defense.",
+        "answer_line": "Bridge fails, shrimp the space",
+        "distractors": {
+          "plausible": [
+            "Bridge again same side",
+            "Elbow escape first, then bridge"
+          ],
+          "trap": [
+            "Push opponent to reset position"
+          ]
+        }
       }
     ],
-    "safety_considerations": "The Bridge and Roll is one of the safer mount escapes when practiced correctly, but several precautions are necessary. Both training partners must be aware of safe landing mechanics—the person being rolled should know how to breakfall and not post with an outstretched arm, which can cause shoulder or wrist injury. When drilling with beginners, start with slow, controlled repetitions before adding explosive power. The person on bottom must be careful not to trap the arm too aggressively in a way that could hyperextend the elbow during the roll. During live training, be mindful of training space boundaries as the roll can cover significant mat distance. For those with neck issues, emphasize using hip drive rather than neck pressure when bridging. Beginners should master the basic mechanics before attempting explosive variations to avoid straining the lower back."
+    "safety_considerations": "The Bridge and Roll is one of the safer mount escapes when practiced correctly, but several precautions are necessary. Both training partners must be aware of safe landing mechanics—the person being rolled should know how to breakfall and not post with an outstretched arm, which can cause shoulder or wrist injury. When drilling with beginners, start with slow, controlled repetitions before adding explosive power. The person on bottom must be careful not to trap the arm too aggressively in a way that could hyperextend the elbow during the roll. During live training, be mindful of training space boundaries as the roll can cover significant mat distance. For those with neck issues, emphasize using hip drive rather than neck pressure when bridging. Beginners should master the basic mechanics before attempting explosive variations to avoid straining the lower back.",
+    "clips": [
+      {
+        "id": "2uuP147GoBk",
+        "title": "Mount bottom bridge and roll escape",
+        "by": "Academy Jiu Jitsu",
+        "vertical": false,
+        "channel": "Academy Jiu Jitsu",
+        "duration": 62,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "Q2YZ0oiVMYo",
+        "title": "How to do a bridge and roll mount escape",
+        "by": "Diaz Combat Sports",
+        "vertical": false,
+        "channel": "DCS - Diaz Combat Sports",
+        "duration": 87,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "MgF9kZdPnDE",
+        "title": "Upa mount escape beating shadow hooks",
+        "by": "SBG PDX",
+        "vertical": false,
+        "channel": "SBG PDX & Vancouver BJJ and MMA Videos",
+        "duration": 104,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Bridge and Roll Defender",
@@ -412,23 +553,73 @@
     "flashcards": [
       {
         "question": "What is the single most important physical response when you feel your opponent begin an explosive bridge from bottom mount?",
-        "answer": "The single most important response is posting your free arm on the mat at a 45-degree angle toward the direction of the bridge. This creates a tripod structure that absorbs the rolling force and prevents the reversal. The post must be placed close to your body with a slightly bent elbow for structural strength—an extended arm post can be overwhelmed. This response must be trained to the point of automatic reflex, as the explosive bridge happens too fast for conscious decision-making. If both arms are trapped, the bridge and roll will succeed, which is why maintaining at least one free arm is a prerequisite for effective defense."
+        "answer": "The single most important response is posting your free arm on the mat at a 45-degree angle toward the direction of the bridge. This creates a tripod structure that absorbs the rolling force and prevents the reversal. The post must be placed close to your body with a slightly bent elbow for structural strength—an extended arm post can be overwhelmed. This response must be trained to the point of automatic reflex, as the explosive bridge happens too fast for conscious decision-making. If both arms are trapped, the bridge and roll will succeed, which is why maintaining at least one free arm is a prerequisite for effective defense.",
+        "answer_line": "Post free arm at 45°",
+        "distractors": {
+          "plausible": [
+            "Post arm straight out",
+            "Push opponent's chest down"
+          ],
+          "trap": [
+            "Both arms stay trapped, relax"
+          ]
+        }
       },
       {
         "question": "How does transitioning to high mount specifically counter the bridge and roll escape attempt?",
-        "answer": "High mount counters the bridge and roll through multiple mechanisms. First, with knees near the opponent's armpits, their arms are pinned closer to their body, making the cross-body arm trap significantly harder to execute. Second, your weight is positioned higher on their torso, far from their hip power center, meaning their bridge generates less rotational force on your body. Third, from high mount, the opponent's feet must be much further from their buttocks to accommodate your higher knee position, reducing their bridging leverage. Fourth, high mount creates immediate submission threats (armbar, triangle) that force the bottom player to prioritize defense over escape setup. The positional advancement simultaneously defends the escape and improves your offensive options."
+        "answer": "High mount counters the bridge and roll through multiple mechanisms. First, with knees near the opponent's armpits, their arms are pinned closer to their body, making the cross-body arm trap significantly harder to execute. Second, your weight is positioned higher on their torso, far from their hip power center, meaning their bridge generates less rotational force on your body. Third, from high mount, the opponent's feet must be much further from their buttocks to accommodate your higher knee position, reducing their bridging leverage. Fourth, high mount creates immediate submission threats (armbar, triangle) that force the bottom player to prioritize defense over escape setup. The positional advancement simultaneously defends the escape and improves your offensive options.",
+        "answer_line": "High mount pins arms, less leverage",
+        "distractors": {
+          "plausible": [
+            "High mount just adds pressure",
+            "High mount frees their feet"
+          ],
+          "trap": [
+            "Stay low mount, add weight"
+          ]
+        }
       },
       {
         "question": "Your opponent successfully traps your right arm and hooks your right foot—what are your options before the bridge?",
-        "answer": "You have a narrow window between the trapping completion and the bridge execution. Primary option: immediately post your left hand on the mat at a 45-degree angle to your left hip, creating a tripod that will absorb the incoming bridge. Secondary option: if you have time, strip your right wrist free by circling it toward their thumb (the weakest point of any grip) before they can secure it against their chest—this eliminates the trap entirely. Third option: drive your hips forward aggressively to flatten their body and reduce their bridging angle, while simultaneously pulling your right foot free from their hook by straightening your leg. The worst response is freezing or attempting to push down with your trapped arm, as this plays directly into the escape mechanics."
+        "answer": "You have a narrow window between the trapping completion and the bridge execution. Primary option: immediately post your left hand on the mat at a 45-degree angle to your left hip, creating a tripod that will absorb the incoming bridge. Secondary option: if you have time, strip your right wrist free by circling it toward their thumb (the weakest point of any grip) before they can secure it against their chest—this eliminates the trap entirely. Third option: drive your hips forward aggressively to flatten their body and reduce their bridging angle, while simultaneously pulling your right foot free from their hook by straightening your leg. The worst response is freezing or attempting to push down with your trapped arm, as this plays directly into the escape mechanics.",
+        "answer_line": "Post free hand as a tripod",
+        "distractors": {
+          "plausible": [
+            "Drive hips to flatten them",
+            "Wait for their bridge, react"
+          ],
+          "trap": [
+            "Push up with the trapped arm"
+          ]
+        }
       },
       {
         "question": "Why does grapevine position work against the bridge and roll but create vulnerability to the elbow escape?",
-        "answer": "Grapevine hooks thread your legs inside the opponent's legs and hook their ankles outward, which prevents hip extension—the fundamental movement required for any bridging escape. Without full hip extension, the opponent cannot generate the elevation needed to roll you over. However, the grapevine inherently narrows your base by bringing your knees closer together and lower on their body. This narrow base creates the exact condition the elbow escape exploits: the opponent only needs to shrimp their hips laterally and insert a knee between your narrowed knees to begin guard recovery. This is why mount maintenance requires constantly reading the opponent's escape intention and adjusting between wide base (anti-bridge) and grapevine (anti-bridge) versus pressure with posting readiness (anti-elbow escape)."
+        "answer": "Grapevine hooks thread your legs inside the opponent's legs and hook their ankles outward, which prevents hip extension—the fundamental movement required for any bridging escape. Without full hip extension, the opponent cannot generate the elevation needed to roll you over. However, the grapevine inherently narrows your base by bringing your knees closer together and lower on their body. This narrow base creates the exact condition the elbow escape exploits: the opponent only needs to shrimp their hips laterally and insert a knee between your narrowed knees to begin guard recovery. This is why mount maintenance requires constantly reading the opponent's escape intention and adjusting between wide base (anti-bridge) and grapevine (anti-bridge) versus pressure with posting readiness (anti-elbow escape).",
+        "answer_line": "Grapevine blocks hips, narrows base",
+        "distractors": {
+          "plausible": [
+            "Grapevine has no weakness",
+            "Wide base stops elbow escape"
+          ],
+          "trap": [
+            "Grapevine invites easy sweep"
+          ]
+        }
       },
       {
         "question": "What weight distribution adjustments should you make when you feel your opponent loading for a bridge?",
-        "answer": "When you sense the bridge loading (feet planting, core tensing, hips shifting), immediately drive your hips forward and downward into their solar plexus, increasing the weight they must lift. Simultaneously shift your center of gravity slightly toward the direction you anticipate the bridge by leaning your chest forward and angling your shoulders. Keep your head positioned over or slightly past your hips on the anticipated bridge side. Avoid shifting weight backward as this effectively reduces the load on their bridge. The goal is to make yourself as structurally heavy as possible in the direction of their roll while maintaining your posting arm free on the opposite side. Think of it as loading the spring in the opposite direction—the more weight they must move at the start, the less likely they can generate sufficient momentum to complete the reversal."
+        "answer": "When you sense the bridge loading (feet planting, core tensing, hips shifting), immediately drive your hips forward and downward into their solar plexus, increasing the weight they must lift. Simultaneously shift your center of gravity slightly toward the direction you anticipate the bridge by leaning your chest forward and angling your shoulders. Keep your head positioned over or slightly past your hips on the anticipated bridge side. Avoid shifting weight backward as this effectively reduces the load on their bridge. The goal is to make yourself as structurally heavy as possible in the direction of their roll while maintaining your posting arm free on the opposite side. Think of it as loading the spring in the opposite direction—the more weight they must move at the start, the less likely they can generate sufficient momentum to complete the reversal.",
+        "answer_line": "Drive hips forward, load them",
+        "distractors": {
+          "plausible": [
+            "Shift weight backward to unload",
+            "Lean away from bridge side"
+          ],
+          "trap": [
+            "Relax and go limp to absorb"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -451,6 +642,26 @@
         "phase": "Month 3+: Positional Sparring with Full Escape System",
         "focus": "Defending combined bridge and roll plus elbow escape chains",
         "description": "Full positional sparring from mount against partner using complete escape system including bridge and roll, elbow escape, and combinations. Practice adjusting base dynamically between wide (anti-bridge) and compact (anti-shrimp) configurations based on opponent's actions. Develop ability to maintain mount for extended periods against skilled escape artists while threatening submissions."
+      }
+    ],
+    "clips": [
+      {
+        "id": "IgYot9fcBh0",
+        "title": "Why your upa mount escape fails",
+        "by": "Jean Jacques Machado",
+        "vertical": false,
+        "channel": "JeanJacquesMachado",
+        "duration": 310,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "Ly8voPPzYaU",
+        "title": "Why the bridge and roll escape fails",
+        "by": "Henry Akins",
+        "vertical": false,
+        "channel": "Henry Akins' Hidden Jiu-Jitsu",
+        "duration": 85,
+        "verified": "2026-07-16"
       }
     ]
   }

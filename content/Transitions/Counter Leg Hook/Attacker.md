@@ -174,6 +174,54 @@ description: "Learn to execute the Counter Leg Hook from bottom position. Strip 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Counter Leg Hook (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Inside hook to outside hook transition from half guard",
+      "description": "Counter Leg Hook (Attacker) film study: Inside hook to outside hook transition from half guard, taught by Paul McVeigh.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/k3nw5khRsdI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/k3nw5khRsdI",
+      "url": "https://www.youtube.com/watch?v=k3nw5khRsdI",
+      "creator": { "@type": "Person", "name": "Paul McVeigh" },
+      "duration": "PT113S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Hooks recovery and clearing the leg from 3/4 mount",
+      "description": "Counter Leg Hook (Attacker) film study: Hooks recovery and clearing the leg from 3/4 mount, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/e8LWit7OEv4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/e8LWit7OEv4",
+      "url": "https://www.youtube.com/watch?v=e8LWit7OEv4",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT241S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Escaping the back with focus on the leg work",
+      "description": "Counter Leg Hook (Attacker) film study: Escaping the back with focus on the leg work, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/k-lCzVAzJpg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/k-lCzVAzJpg",
+      "url": "https://www.youtube.com/watch?v=k-lCzVAzJpg",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT421S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -183,6 +231,42 @@ As the attacker executing the Counter Leg Hook, you are the bottom player active
 **From Position**: [[Positions/Leg Hook]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Counter Leg Hook (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=k3nw5khRsdI)
+
+<p class="clip-credit"><strong>Inside hook to outside hook transition from half guard</strong> — taught by Paul McVeigh · 1:53 · <a href="https://www.youtube.com/watch?v=k3nw5khRsdI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=e8LWit7OEv4)
+
+<p class="clip-credit"><strong>Hooks recovery and clearing the leg from 3/4 mount</strong> — taught by Lachlan Giles · 4:01 · <a href="https://www.youtube.com/watch?v=e8LWit7OEv4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=k-lCzVAzJpg)
+
+<p class="clip-credit"><strong>Escaping the back with focus on the leg work</strong> — taught by Lachlan Giles · 7:01 · <a href="https://www.youtube.com/watch?v=k-lCzVAzJpg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

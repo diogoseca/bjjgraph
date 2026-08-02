@@ -176,6 +176,43 @@ description: "How to execute Bicep Slicer in BJJ. Attacking perspective with set
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Bicep Slicer from Crucifix (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Crucifix to bicep slicer finish",
+      "description": "Bicep Slicer from Crucifix (Attacker) film study: Crucifix to bicep slicer finish, taught by Ashraf Shishani.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/u9bpAwBgPVo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/u9bpAwBgPVo",
+      "url": "https://www.youtube.com/watch?v=u9bpAwBgPVo",
+      "creator": { "@type": "Person", "name": "Ashraf Shishani" },
+      "duration": "PT70S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "The crucifix bicep crush",
+      "description": "Bicep Slicer from Crucifix (Attacker) film study: The crucifix bicep crush, taught by Matt Darcy.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/5AqIY_6jfQ0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/5AqIY_6jfQ0",
+      "url": "https://www.youtube.com/watch?v=5AqIY_6jfQ0",
+      "creator": { "@type": "Person", "name": "Matt Darcy" },
+      "duration": "PT25S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -186,6 +223,34 @@ The Bicep Slicer is a devastating compression lock that applies crushing pressur
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Bicep Slicer from Crucifix (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=u9bpAwBgPVo)
+
+<p class="clip-credit"><strong>Crucifix to bicep slicer finish</strong> — taught by Ashraf Shishani · 1:10 · <a href="https://www.youtube.com/watch?v=u9bpAwBgPVo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=5AqIY_6jfQ0)
+
+<p class="clip-credit"><strong>The crucifix bicep crush</strong> — taught by Matt Darcy · 0:25 · <a href="https://www.youtube.com/watch?v=5AqIY_6jfQ0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

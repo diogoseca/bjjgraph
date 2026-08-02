@@ -174,6 +174,43 @@ description: "Master the attacker perspective of the Whizzer from Deep Half Guar
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Whizzer from Deep Half (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Deep half guard reversal to the back",
+      "description": "Whizzer from Deep Half (Attacker) film study: Deep half guard reversal to the back, taught by Felipe Cavalcante.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/_jCFybzyNuE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/_jCFybzyNuE",
+      "url": "https://www.youtube.com/watch?v=_jCFybzyNuE",
+      "creator": { "@type": "Person", "name": "Felipe Cavalcante" },
+      "duration": "PT72S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Using the whizzer to pass half guard",
+      "description": "Whizzer from Deep Half (Attacker) film study: Using the whizzer to pass half guard, taught by Pendergrass Academy coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/xJdvO5OzlwE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/xJdvO5OzlwE",
+      "url": "https://www.youtube.com/watch?v=xJdvO5OzlwE",
+      "creator": { "@type": "Person", "name": "Pendergrass Academy coach" },
+      "duration": "PT111S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -183,6 +220,34 @@ As the attacker executing the whizzer from deep half guard, your primary objecti
 **From Position**: [[Positions/Half Guard/Deep Half Guard]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Whizzer from Deep Half (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=_jCFybzyNuE)
+
+<p class="clip-credit"><strong>Deep half guard reversal to the back</strong> — taught by Felipe Cavalcante · 1:12 · <a href="https://www.youtube.com/watch?v=_jCFybzyNuE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=xJdvO5OzlwE)
+
+<p class="clip-credit"><strong>Using the whizzer to pass half guard</strong> — taught by Pendergrass Academy coach · 1:51 · <a href="https://www.youtube.com/watch?v=xJdvO5OzlwE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

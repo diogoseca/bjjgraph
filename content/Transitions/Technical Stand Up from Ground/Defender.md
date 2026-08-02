@@ -140,6 +140,43 @@ description: "Defend against the Technical Stand Up from Ground in BJJ. Recognit
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Technical Stand Up from Ground (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "When they don\u0027t let go of your guard retention",
+      "description": "Technical Stand Up from Ground (Defender) film study: When they don\u0027t let go of your guard retention, taught by Jean Jacques Machado.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Xj_MVwk2jq0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Xj_MVwk2jq0",
+      "url": "https://www.youtube.com/watch?v=Xj_MVwk2jq0",
+      "creator": { "@type": "Person", "name": "Jean Jacques Machado" },
+      "duration": "PT46S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Countering the just stand up defense",
+      "description": "Technical Stand Up from Ground (Defender) film study: Countering the just stand up defense, taught by Jiu-Jitsu Times.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/1JROabJi6yE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/1JROabJi6yE",
+      "url": "https://www.youtube.com/watch?v=1JROabJi6yE",
+      "creator": { "@type": "Person", "name": "Jiu-Jitsu Times" },
+      "duration": "PT48S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -149,6 +186,34 @@ From the defender's perspective, preventing the Technical Stand Up from Ground r
 **Opponent's Starting Position**: [[Positions/Seated Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Technical Stand Up from Ground (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Xj_MVwk2jq0)
+
+<p class="clip-credit"><strong>When they don&#39;t let go of your guard retention</strong> — taught by Jean Jacques Machado · 0:46 · <a href="https://www.youtube.com/watch?v=Xj_MVwk2jq0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=1JROabJi6yE)
+
+<p class="clip-credit"><strong>Countering the just stand up defense</strong> — taught by Jiu-Jitsu Times · 0:48 · <a href="https://www.youtube.com/watch?v=1JROabJi6yE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

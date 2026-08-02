@@ -34,6 +34,54 @@ description: "Master Chill Dog position in BJJ. Defensive turtle variant with re
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Chill Dog \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Rubber guard overview and core positions",
+      "description": "Chill Dog film study: Rubber guard overview and core positions, taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/RJ7Iutti8cY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/RJ7Iutti8cY",
+      "url": "https://www.youtube.com/watch?v=RJ7Iutti8cY",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT521S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Rubber Guard 101: Zombie, New York, Chill Dog, Jiu Claw",
+      "description": "Chill Dog film study: Rubber Guard 101: Zombie, New York, Chill Dog, Jiu Claw, taught by Submissions101.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/wUDqbU2jwxg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/wUDqbU2jwxg",
+      "url": "https://www.youtube.com/watch?v=wUDqbU2jwxg",
+      "creator": { "@type": "Person", "name": "Submissions101" },
+      "duration": "PT278S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "10th Planet 101: Rubber Guard inside position",
+      "description": "Chill Dog film study: 10th Planet 101: Rubber Guard inside position, taught by Brandon McCaghren.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/1_BA6b13AsA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/1_BA6b13AsA",
+      "url": "https://www.youtube.com/watch?v=1_BA6b13AsA",
+      "creator": { "@type": "Person", "name": "Brandon McCaghren" },
+      "duration": "PT763S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -70,6 +118,42 @@ The strategic value of Chill Dog lies in its ability to neutralize many common t
 In the 10th Planet system, Chill Dog serves as a critical defensive position that connects to the broader guard recovery framework. Practitioners are taught to use this position as a temporary shield while setting up their preferred escape - whether that's returning to rubber guard, establishing lockdown in half guard, or standing up to reset the engagement. The position exemplifies the system's emphasis on defensive soundness combined with offensive creativity, allowing practitioners to survive dangerous situations and transition back to their attacking game.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Chill Dog in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=RJ7Iutti8cY)
+
+<p class="clip-credit"><strong>Rubber guard overview and core positions</strong> — taught by Eddie Bravo · 8:41 · <a href="https://www.youtube.com/watch?v=RJ7Iutti8cY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=wUDqbU2jwxg)
+
+<p class="clip-credit"><strong>Rubber Guard 101: Zombie, New York, Chill Dog, Jiu Claw</strong> — taught by Submissions101 · 4:38 · <a href="https://www.youtube.com/watch?v=wUDqbU2jwxg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=1_BA6b13AsA)
+
+<p class="clip-credit"><strong>10th Planet 101: Rubber Guard inside position</strong> — taught by Brandon McCaghren · 12:43 · <a href="https://www.youtube.com/watch?v=1_BA6b13AsA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 
@@ -141,21 +225,21 @@ In the 10th Planet system, Chill Dog serves as a critical defensive position tha
 
 - **[[Transitions/Granby Roll to Guard/Attacker|Granby Roll to Guard]]** (14% of attempts)
 
-- **[[Transitions/Granby to Closed Guard/Attacker|Granby to Closed Guard]]** (11% of attempts)
+- **[[Transitions/Granby to Closed Guard/Attacker|Granby to Closed Guard]]** (9% of attempts)
 
-- **[[Transitions/Technical Stand-up/Attacker|Technical Stand-up]]** (32% of attempts)
+- **[[Transitions/Technical Stand-up/Attacker|Technical Stand-up]]** (10% of attempts)
 
-- **[[Transitions/Rolling to Guard/Attacker|Rolling to Guard]]** (11% of attempts)
+- **[[Transitions/Rolling to Guard/Attacker|Rolling to Guard]]** (12% of attempts)
 
-- **[[Transitions/Turtle to Guard/Attacker|Turtle to Guard]]** (13% of attempts)
+- **[[Transitions/Turtle to Guard/Attacker|Turtle to Guard]]** (14% of attempts)
 
-- **[[Transitions/Hip Escape to Guard/Attacker|Hip Escape to Guard]]** (11% of attempts)
+- **[[Transitions/Hip Escape to Guard/Attacker|Hip Escape to Guard]]** (10% of attempts)
 
-- **[[Transitions/Escape Chill Dog/Attacker|Escape Chill Dog]]** (5% of attempts)
+- **[[Transitions/Escape Chill Dog/Attacker|Escape Chill Dog]]** (15% of attempts)
 
-- **[[Transitions/Roll from Chill Dog/Attacker|Roll from Chill Dog]]** (2% of attempts)
+- **[[Transitions/Roll from Chill Dog/Attacker|Roll from Chill Dog]]** (9% of attempts)
 
-- **[[Transitions/Sweep from Chill Dog/Attacker|Sweep from Chill Dog]]** (1% of attempts)
+- **[[Transitions/Sweep from Chill Dog/Attacker|Sweep from Chill Dog]]** (7% of attempts)
 
 
 ### Common Mistakes
@@ -220,25 +304,25 @@ In the 10th Planet system, Chill Dog serves as a critical defensive position tha
 ### Available Transitions
 
 
-- **[[Transitions/Turtle to Back Control/Attacker|Turtle to Back Control]]** (31% of attempts)
+- **[[Transitions/Turtle to Back Control/Attacker|Turtle to Back Control]]** (18% of attempts)
 
-- **[[Transitions/Crucifix from Turtle/Attacker|Crucifix from Turtle]]** (12% of attempts)
+- **[[Transitions/Crucifix from Turtle/Attacker|Crucifix from Turtle]]** (7% of attempts)
 
-- **[[Transitions/Darce Setup/Attacker|Darce Setup]]** (10% of attempts)
+- **[[Transitions/Darce Setup/Attacker|Darce Setup]]** (12% of attempts)
 
-- **[[Transitions/Anaconda Setup/Attacker|Anaconda Setup]]** (9% of attempts)
+- **[[Transitions/Anaconda Setup/Attacker|Anaconda Setup]]** (7% of attempts)
 
-- **[[Transitions/Front Headlock to Back/Attacker|Front Headlock to Back]]** (12% of attempts)
+- **[[Transitions/Front Headlock to Back/Attacker|Front Headlock to Back]]** (11% of attempts)
 
-- **[[Transitions/Truck Entry/Attacker|Truck Entry]]** (10% of attempts)
+- **[[Transitions/Truck Entry/Attacker|Truck Entry]]** (7% of attempts)
 
-- **[[Transitions/Guillotine Setup/Attacker|Guillotine Setup]]** (9% of attempts)
+- **[[Transitions/Guillotine Setup/Attacker|Guillotine Setup]]** (8% of attempts)
 
-- **[[Transitions/Posture from Chill Dog/Attacker|Posture from Chill Dog]]** (4% of attempts)
+- **[[Transitions/Posture from Chill Dog/Attacker|Posture from Chill Dog]]** (10% of attempts)
 
-- **[[Transitions/Stack from Chill Dog/Attacker|Stack from Chill Dog]]** (2% of attempts)
+- **[[Transitions/Stack from Chill Dog/Attacker|Stack from Chill Dog]]** (8% of attempts)
 
-- **[[Transitions/Guard Pass from Chill Dog/Attacker|Guard Pass from Chill Dog]]** (1% of attempts)
+- **[[Transitions/Guard Pass from Chill Dog/Attacker|Guard Pass from Chill Dog]]** (12% of attempts)
 
 
 ### Common Mistakes

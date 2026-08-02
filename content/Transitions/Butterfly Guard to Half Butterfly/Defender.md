@@ -140,6 +140,54 @@ description: "How to defend against the Transition to Half Butterfly in BJJ. Mai
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Butterfly Guard to Half Butterfly (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Head frame to prevent the hug pass",
+      "description": "Butterfly Guard to Half Butterfly (Defender) film study: Head frame to prevent the hug pass, taught by Revolution BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/06-ZO93fJak/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/06-ZO93fJak",
+      "url": "https://www.youtube.com/watch?v=06-ZO93fJak",
+      "creator": { "@type": "Person", "name": "Revolution BJJ" },
+      "duration": "PT90S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Knee slide pass recovery to butterfly guard",
+      "description": "Butterfly Guard to Half Butterfly (Defender) film study: Knee slide pass recovery to butterfly guard, taught by Italiano BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/86KseinKoSY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/86KseinKoSY",
+      "url": "https://www.youtube.com/watch?v=86KseinKoSY",
+      "creator": { "@type": "Person", "name": "Italiano BJJ" },
+      "duration": "PT37S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Little ball guard retention drill",
+      "description": "Butterfly Guard to Half Butterfly (Defender) film study: Little ball guard retention drill, taught by Ninja Pinto.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/uTNVB5uSQh0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/uTNVB5uSQh0",
+      "url": "https://www.youtube.com/watch?v=uTNVB5uSQh0",
+      "creator": { "@type": "Person", "name": "Ninja Pinto" },
+      "duration": "PT27S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -149,6 +197,42 @@ As the defender in this scenario, you are the bottom player in butterfly guard a
 **Opponent's Starting Position**: [[Positions/Butterfly Guard]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Butterfly Guard to Half Butterfly (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=06-ZO93fJak)
+
+<p class="clip-credit"><strong>Head frame to prevent the hug pass</strong> — taught by Revolution BJJ · 1:30 · <a href="https://www.youtube.com/watch?v=06-ZO93fJak" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=86KseinKoSY)
+
+<p class="clip-credit"><strong>Knee slide pass recovery to butterfly guard</strong> — taught by Italiano BJJ · 0:37 · <a href="https://www.youtube.com/watch?v=86KseinKoSY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=uTNVB5uSQh0)
+
+<p class="clip-credit"><strong>Little ball guard retention drill</strong> — taught by Ninja Pinto · 0:27 · <a href="https://www.youtube.com/watch?v=uTNVB5uSQh0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

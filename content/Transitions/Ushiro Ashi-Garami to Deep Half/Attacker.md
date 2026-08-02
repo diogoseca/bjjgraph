@@ -168,6 +168,54 @@ description: "How to execute Ushiro Ashi-Garami to Deep Half in BJJ. Attacking p
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Ushiro Ashi-Garami to Deep Half (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Deep half guard to ashi or single X",
+      "description": "Ushiro Ashi-Garami to Deep Half (Attacker) film study: Deep half guard to ashi or single X, taught by Brandon Quick.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/17zlty5ttjo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/17zlty5ttjo",
+      "url": "https://www.youtube.com/watch?v=17zlty5ttjo",
+      "creator": { "@type": "Person", "name": "Brandon Quick" },
+      "duration": "PT176S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Roll under from ashi to backside 50/50",
+      "description": "Ushiro Ashi-Garami to Deep Half (Attacker) film study: Roll under from ashi to backside 50/50, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/DBbSqQf6iCo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/DBbSqQf6iCo",
+      "url": "https://www.youtube.com/watch?v=DBbSqQf6iCo",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT110S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Getting to backside 50/50 entanglement",
+      "description": "Ushiro Ashi-Garami to Deep Half (Attacker) film study: Getting to backside 50/50 entanglement, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ucAwPgTLSpQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ucAwPgTLSpQ",
+      "url": "https://www.youtube.com/watch?v=ucAwPgTLSpQ",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT121S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -177,6 +225,42 @@ From ushiro ashi-garami bottom, the player executing this escape treats the reve
 **From Position**: [[Positions/Ashi Garami/Ushiro Ashi-Garami]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Ushiro Ashi-Garami to Deep Half (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=17zlty5ttjo)
+
+<p class="clip-credit"><strong>Deep half guard to ashi or single X</strong> — taught by Brandon Quick · 2:56 · <a href="https://www.youtube.com/watch?v=17zlty5ttjo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=DBbSqQf6iCo)
+
+<p class="clip-credit"><strong>Roll under from ashi to backside 50/50</strong> — taught by Lachlan Giles · 1:50 · <a href="https://www.youtube.com/watch?v=DBbSqQf6iCo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ucAwPgTLSpQ)
+
+<p class="clip-credit"><strong>Getting to backside 50/50 entanglement</strong> — taught by Lachlan Giles · 2:01 · <a href="https://www.youtube.com/watch?v=ucAwPgTLSpQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

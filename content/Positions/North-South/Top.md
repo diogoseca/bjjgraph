@@ -33,25 +33,25 @@ description: "Master North-South top position in BJJ. Complete guide to establis
     {
       "@type": "HowToStep",
       "name": "Execute North-South to Kimura",
-      "text": "From this position, attempt North-South to Kimura. This technique is attempted in 17% of exchanges from this position.",
+      "text": "From this position, attempt North-South to Kimura. This technique is attempted in 19% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Armbar from North-South",
-      "text": "From this position, attempt Armbar from North-South. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Armbar from North-South. This technique is attempted in 6% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Side Control to North-South",
-      "text": "From this position, attempt Side Control to North-South. This technique is attempted in 6% of exchanges from this position.",
+      "text": "From this position, attempt Side Control to North-South. This technique is attempted in 10% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Americana from North-South",
-      "text": "From this position, attempt Americana from North-South. This technique is attempted in 7% of exchanges from this position.",
+      "text": "From this position, attempt Americana from North-South. This technique is attempted in 4% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -155,11 +155,59 @@ description: "Master North-South top position in BJJ. Complete guide to establis
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "North-South (Top) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "North-South choke",
+      "description": "North-South (Top) film study: North-South choke, taught by Marcelo Garcia.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/z3RNUfHfiSM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/z3RNUfHfiSM",
+      "url": "https://www.youtube.com/watch?v=z3RNUfHfiSM",
+      "creator": { "@type": "Person", "name": "Marcelo Garcia" },
+      "duration": "PT20S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "North-South pressure choke",
+      "description": "North-South (Top) film study: North-South pressure choke, taught by Nick Unander.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Fdq-j0AUVtc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Fdq-j0AUVtc",
+      "url": "https://www.youtube.com/watch?v=Fdq-j0AUVtc",
+      "creator": { "@type": "Person", "name": "Nick Unander" },
+      "duration": "PT99S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "North-South choke as a pinning tool",
+      "description": "North-South (Top) film study: North-South choke as a pinning tool, taught by Craig Jones.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/SPXanCnoBYA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/SPXanCnoBYA",
+      "url": "https://www.youtube.com/watch?v=SPXanCnoBYA",
+      "creator": { "@type": "Person", "name": "Craig Jones" },
+      "duration": "PT135S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <aside class="entity-relations">
 <p class="also-known-as"><em>Also known as:</em> <strong>Kami Shiho Gatame</strong>, <strong>North South Position</strong>, <strong>69 Position</strong> <span class="role-hint">(top)</span></p>
-<p class="often-confused-with"><em>Often confused with</em> <strong>[[Transitions/North-South Choke|North-South Choke]]</strong> — the North-South Choke is a submission finished from this position, not the position itself</p>
+<p class="often-confused-with"><em>Often confused with</em> <strong>[[Submissions/North-South Choke|North-South Choke]]</strong> — the North-South Choke is a submission finished from this position, not the position itself</p>
 </aside>
 <section id="overview" class="content-section">
 
@@ -172,6 +220,42 @@ Establishing effective North-South control requires precise weight distribution 
 The position serves as a critical checkpoint during guard passing sequences and transitions between dominant positions. Skilled practitioners flow seamlessly from side control to North-South to mount, using the perpendicular alignment to consolidate control or set up submissions. Understanding when to maintain North-South versus when to transition is crucial - the position excels at control and specific submissions but may not be optimal for all finishing sequences. Mastery requires balancing pressure maintenance with transition timing and submission recognition.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch North-South (Top) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=z3RNUfHfiSM)
+
+<p class="clip-credit"><strong>North-South choke</strong> — taught by Marcelo Garcia · 0:20 · <a href="https://www.youtube.com/watch?v=z3RNUfHfiSM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Fdq-j0AUVtc)
+
+<p class="clip-credit"><strong>North-South pressure choke</strong> — taught by Nick Unander · 1:39 · <a href="https://www.youtube.com/watch?v=Fdq-j0AUVtc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=SPXanCnoBYA)
+
+<p class="clip-credit"><strong>North-South choke as a pinning tool</strong> — taught by Craig Jones · 2:15 · <a href="https://www.youtube.com/watch?v=SPXanCnoBYA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 
@@ -359,7 +443,7 @@ Maintain maximum chest pressure in North-South while partner attempts only frame
 - **[[Positions/Side Control]]** - Common entry position and alternative control option
 - **[[Positions/Mount]]** - Primary transition target for positional advancement
 - **[[Positions/Knee on Belly]]** - Alternative pressure position with different control dynamics
-- **[[Transitions/North-South Choke]]** - Primary submission from this position
+- **[[Submissions/North-South Choke]]** - Primary submission from this position
 - **[[Transitions/North-South to Kimura]]** - High-percentage submission transition
 - **[[Transitions/Side Control to Mount]]** - Primary advancement technique from North-South
 - **[[Positions/Back Control]]** - Available when opponent turns to turtle

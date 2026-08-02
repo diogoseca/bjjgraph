@@ -148,6 +148,54 @@ description: "How to defend against North-South to Kimura in BJJ. Recognition cu
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "North-South to Kimura (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Kimura escape from north-south",
+      "description": "North-South to Kimura (Defender) film study: Kimura escape from north-south, taught by Street Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ZT4QcOFksxs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ZT4QcOFksxs",
+      "url": "https://www.youtube.com/watch?v=ZT4QcOFksxs",
+      "creator": { "@type": "Person", "name": "Street Jitsu" },
+      "duration": "PT25S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Countering the north-south kimura setup",
+      "description": "North-South to Kimura (Defender) film study: Countering the north-south kimura setup, taught by Scott Clawson.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/BLPOQLQqngI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/BLPOQLQqngI",
+      "url": "https://www.youtube.com/watch?v=BLPOQLQqngI",
+      "creator": { "@type": "Person", "name": "Scott Clawson" },
+      "duration": "PT83S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "North-south kimura defense",
+      "description": "North-South to Kimura (Defender) film study: North-south kimura defense, taught by Hauck Jiu-Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/n-qXtiqiCho/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/n-qXtiqiCho",
+      "url": "https://www.youtube.com/watch?v=n-qXtiqiCho",
+      "creator": { "@type": "Person", "name": "Hauck Jiu-Jitsu" },
+      "duration": "PT181S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +205,42 @@ Defending the North-South to Kimura transition requires early recognition and di
 **Opponent's Starting Position**: [[Positions/North-South]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch North-South to Kimura (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ZT4QcOFksxs)
+
+<p class="clip-credit"><strong>Kimura escape from north-south</strong> — taught by Street Jitsu · 0:25 · <a href="https://www.youtube.com/watch?v=ZT4QcOFksxs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=BLPOQLQqngI)
+
+<p class="clip-credit"><strong>Countering the north-south kimura setup</strong> — taught by Scott Clawson · 1:23 · <a href="https://www.youtube.com/watch?v=BLPOQLQqngI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=n-qXtiqiCho)
+
+<p class="clip-credit"><strong>North-south kimura defense</strong> — taught by Hauck Jiu-Jitsu · 3:01 · <a href="https://www.youtube.com/watch?v=n-qXtiqiCho" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

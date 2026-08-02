@@ -34,6 +34,54 @@ description: "Master the toe hold finish from Toe Hold Control. Complete guide t
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Toe Hold from Toe Hold Control \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Crossover Toe Hold",
+      "description": "Toe Hold from Toe Hold Control film study: Crossover Toe Hold, taught by Craig Jones.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Kx8gZ3QdO8s/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Kx8gZ3QdO8s",
+      "url": "https://www.youtube.com/watch?v=Kx8gZ3QdO8s",
+      "creator": { "@type": "Person", "name": "Craig Jones" },
+      "duration": "PT51S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Toe Hold from 50/50",
+      "description": "Toe Hold from Toe Hold Control film study: Toe Hold from 50/50, taught by John Danaher.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/B_StkmaI3Nc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/B_StkmaI3Nc",
+      "url": "https://www.youtube.com/watch?v=B_StkmaI3Nc",
+      "creator": { "@type": "Person", "name": "John Danaher" },
+      "duration": "PT17S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Attack the Toe Hold from Top Half Guard",
+      "description": "Toe Hold from Toe Hold Control film study: Attack the Toe Hold from Top Half Guard, taught by Maven Martial Arts.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/esC22tIGI94/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/esC22tIGI94",
+      "url": "https://www.youtube.com/watch?v=esC22tIGI94",
+      "creator": { "@type": "Person", "name": "Maven Martial Arts" },
+      "duration": "PT45S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -78,6 +126,42 @@ Within the modern leg lock hierarchy, the toe hold from Toe Hold Control functio
 **Starting Position**: [[Positions/Toe Hold Control]] · **From**: [[Positions/Toe Hold Control]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Toe Hold from Toe Hold Control in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Kx8gZ3QdO8s)
+
+<p class="clip-credit"><strong>Crossover Toe Hold</strong> — taught by Craig Jones · 0:51 · <a href="https://www.youtube.com/watch?v=Kx8gZ3QdO8s" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=B_StkmaI3Nc)
+
+<p class="clip-credit"><strong>Toe Hold from 50/50</strong> — taught by John Danaher · 0:17 · <a href="https://www.youtube.com/watch?v=B_StkmaI3Nc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=esC22tIGI94)
+
+<p class="clip-credit"><strong>Attack the Toe Hold from Top Half Guard</strong> — taught by Maven Martial Arts · 0:45 · <a href="https://www.youtube.com/watch?v=esC22tIGI94" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="outcomes" class="content-section">
 
@@ -240,10 +324,10 @@ Within the modern leg lock hierarchy, the toe hold from Toe Hold Control functio
 <section id="related" class="content-section">
 
 ## Related
-- [[Transitions/Heel Hook]]
+- [[Submissions/Heel Hook]]
 - [[Submissions/Inside Heel Hook]]
 - [[Submissions/Achilles Lock]]
-- [[Transitions/Estima Lock]]
+- [[Submissions/Estima Lock]]
 - [[Transitions/Aoki Lock]]
 - [[Positions/Toe Hold Control]] - Primary control position for executing this submission finish
 - [[Positions/Ashi Garami/Outside Ashi-Garami]] - Common entry position leading to toe hold control and finishing opportunities

@@ -177,6 +177,54 @@ description: "Finish the Wrist Lock (mão de vaca) from closed guard: trap the p
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Wrist Lock (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Wrist lock inside closed guard",
+      "description": "Wrist Lock (Attacker) film study: Wrist lock inside closed guard, taught by Stealth BJJ Madrid.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/zJm3g60Expo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/zJm3g60Expo",
+      "url": "https://www.youtube.com/watch?v=zJm3g60Expo",
+      "creator": { "@type": "Person", "name": "Stealth BJJ Madrid" },
+      "duration": "PT47S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Wrist Lock from Closed Guard vs Biceps Control",
+      "description": "Wrist Lock (Attacker) film study: Wrist Lock from Closed Guard vs Biceps Control, taught by Scott Ryan Chiriboga.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/4rpZgxQXNFM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/4rpZgxQXNFM",
+      "url": "https://www.youtube.com/watch?v=4rpZgxQXNFM",
+      "creator": { "@type": "Person", "name": "Scott Ryan Chiriboga" },
+      "duration": "PT97S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Best Wrist Lock From Closed Guard",
+      "description": "Wrist Lock (Attacker) film study: Best Wrist Lock From Closed Guard, taught by Giancarlo Bodoni.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/nnhPrvpY9qM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/nnhPrvpY9qM",
+      "url": "https://www.youtube.com/watch?v=nnhPrvpY9qM",
+      "creator": { "@type": "Person", "name": "Giancarlo Bodoni" },
+      "duration": "PT204S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <aside class="entity-relations">
@@ -190,6 +238,42 @@ As the attacker, your job is to recognize a straight, planted, or gripping hand 
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Wrist Lock (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=zJm3g60Expo)
+
+<p class="clip-credit"><strong>Wrist lock inside closed guard</strong> — taught by Stealth BJJ Madrid · 0:47 · <a href="https://www.youtube.com/watch?v=zJm3g60Expo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=4rpZgxQXNFM)
+
+<p class="clip-credit"><strong>Wrist Lock from Closed Guard vs Biceps Control</strong> — taught by Scott Ryan Chiriboga · 1:37 · <a href="https://www.youtube.com/watch?v=4rpZgxQXNFM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=nnhPrvpY9qM)
+
+<p class="clip-credit"><strong>Best Wrist Lock From Closed Guard</strong> — taught by Giancarlo Bodoni · 3:24 · <a href="https://www.youtube.com/watch?v=nnhPrvpY9qM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

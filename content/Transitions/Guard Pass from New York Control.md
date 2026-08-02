@@ -34,6 +34,43 @@ description: "Master the guard pass from New York Control. Step-by-step system f
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Guard Pass from New York Control \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Passing the 10th Planet guard",
+      "description": "Guard Pass from New York Control film study: Passing the 10th Planet guard, taught by Danny Gutierrez.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/4E5IQ9ouZfA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/4E5IQ9ouZfA",
+      "url": "https://www.youtube.com/watch?v=4E5IQ9ouZfA",
+      "creator": { "@type": "Person", "name": "Danny Gutierrez" },
+      "duration": "PT51S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Passing basics from rubber guard",
+      "description": "Guard Pass from New York Control film study: Passing basics from rubber guard, taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/SYl7QbIRELM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/SYl7QbIRELM",
+      "url": "https://www.youtube.com/watch?v=SYl7QbIRELM",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT119S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +106,34 @@ Competition application reveals that practitioners unfamiliar with rubber guard 
 **Success Rate**: 48%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Guard Pass from New York Control in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=4E5IQ9ouZfA)
+
+<p class="clip-credit"><strong>Passing the 10th Planet guard</strong> — taught by Danny Gutierrez · 0:51 · <a href="https://www.youtube.com/watch?v=4E5IQ9ouZfA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=SYl7QbIRELM)
+
+<p class="clip-credit"><strong>Passing basics from rubber guard</strong> — taught by Eddie Bravo · 1:59 · <a href="https://www.youtube.com/watch?v=SYl7QbIRELM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

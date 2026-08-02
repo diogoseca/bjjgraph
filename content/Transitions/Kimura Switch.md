@@ -34,6 +34,54 @@ description: "Master the Kimura Switch from Aoki Lock in BJJ. Transition to Kimu
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Kimura Switch \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Kimura trap rolling sweep from bottom side control",
+      "description": "Kimura Switch film study: Kimura trap rolling sweep from bottom side control, taught by Mat Life Training Center.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/YvTmqi750wQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/YvTmqi750wQ",
+      "url": "https://www.youtube.com/watch?v=YvTmqi750wQ",
+      "creator": { "@type": "Person", "name": "Mat Life Training Center" },
+      "duration": "PT31S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Kimura trap against the turtle",
+      "description": "Kimura Switch film study: Kimura trap against the turtle, taught by Paul Stolyar.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/rj3LRhRCtCA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/rj3LRhRCtCA",
+      "url": "https://www.youtube.com/watch?v=rj3LRhRCtCA",
+      "creator": { "@type": "Person", "name": "Paul Stolyar" },
+      "duration": "PT52S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Standing kimura bodylock switch drill",
+      "description": "Kimura Switch film study: Standing kimura bodylock switch drill, taught by Brandon Quick.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/UpnwTYC3fgM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/UpnwTYC3fgM",
+      "url": "https://www.youtube.com/watch?v=UpnwTYC3fgM",
+      "creator": { "@type": "Person", "name": "Brandon Quick" },
+      "duration": "PT73S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -66,9 +114,45 @@ This transition exploits a fundamental defensive dilemma: defending the Aoki Loc
 Strategically, the Kimura Switch serves as a pressure relief valve that prevents stalemates in the Aoki Lock position. Rather than forcing a defended submission, you flow to an equally dangerous attack that catches opponents during their defensive adjustment. The technique requires precise timing, rapid grip acquisition, and understanding of how the two shoulder lock systems complement each other within the broader positional hierarchy.
 
 **From Position**: [[Positions/Aoki Lock Control]] (Top)
-**Success Rate**: 58%
+**Success Rate**: 38%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Kimura Switch in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=YvTmqi750wQ)
+
+<p class="clip-credit"><strong>Kimura trap rolling sweep from bottom side control</strong> — taught by Mat Life Training Center · 0:31 · <a href="https://www.youtube.com/watch?v=YvTmqi750wQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=rj3LRhRCtCA)
+
+<p class="clip-credit"><strong>Kimura trap against the turtle</strong> — taught by Paul Stolyar · 0:52 · <a href="https://www.youtube.com/watch?v=rj3LRhRCtCA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=UpnwTYC3fgM)
+
+<p class="clip-credit"><strong>Standing kimura bodylock switch drill</strong> — taught by Brandon Quick · 1:13 · <a href="https://www.youtube.com/watch?v=UpnwTYC3fgM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

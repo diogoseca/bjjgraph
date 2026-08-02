@@ -148,6 +148,43 @@ description: "How to defend against Butterfly Guard to X-Guard in BJJ. Recogniti
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Butterfly Guard to X-Guard (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "X-guard defence",
+      "description": "Butterfly Guard to X-Guard (Defender) film study: X-guard defence, taught by Bermuda Martial Arts.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/qStfwTHPxLw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/qStfwTHPxLw",
+      "url": "https://www.youtube.com/watch?v=qStfwTHPxLw",
+      "creator": { "@type": "Person", "name": "Bermuda Martial Arts" },
+      "duration": "PT136S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Shutting down the single leg X-guard",
+      "description": "Butterfly Guard to X-Guard (Defender) film study: Shutting down the single leg X-guard, taught by Stephan Kesting.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/OaHVPQVHrMs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/OaHVPQVHrMs",
+      "url": "https://www.youtube.com/watch?v=OaHVPQVHrMs",
+      "creator": { "@type": "Person", "name": "Stephan Kesting" },
+      "duration": "PT193S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -159,6 +196,34 @@ The defender's primary strategic objective is to deny the bottom player the forw
 **Opponent's Starting Position**: [[Positions/Butterfly Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Butterfly Guard to X-Guard (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=qStfwTHPxLw)
+
+<p class="clip-credit"><strong>X-guard defence</strong> — taught by Bermuda Martial Arts · 2:16 · <a href="https://www.youtube.com/watch?v=qStfwTHPxLw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=OaHVPQVHrMs)
+
+<p class="clip-credit"><strong>Shutting down the single leg X-guard</strong> — taught by Stephan Kesting · 3:13 · <a href="https://www.youtube.com/watch?v=OaHVPQVHrMs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

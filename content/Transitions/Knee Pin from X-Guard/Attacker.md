@@ -180,6 +180,43 @@ description: "Master the Knee Pin from X-Guard as the top player. Step-by-step g
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Knee Pin from X-Guard (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Five passes against single leg X-guard",
+      "description": "Knee Pin from X-Guard (Attacker) film study: Five passes against single leg X-guard, taught by OneontaJiuJitsu Academy.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/v2thEjJ0ES0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/v2thEjJ0ES0",
+      "url": "https://www.youtube.com/watch?v=v2thEjJ0ES0",
+      "creator": { "@type": "Person", "name": "OneontaJiuJitsu Academy" },
+      "duration": "PT121S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Leg pin step through to knee on belly pass",
+      "description": "Knee Pin from X-Guard (Attacker) film study: Leg pin step through to knee on belly pass, taught by The Fang Den.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ZPcTvWxNSWg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ZPcTvWxNSWg",
+      "url": "https://www.youtube.com/watch?v=ZPcTvWxNSWg",
+      "creator": { "@type": "Person", "name": "The Fang Den" },
+      "duration": "PT178S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -189,6 +226,34 @@ As the attacker executing the Knee Pin from X-Guard, you are the top player faci
 **From Position**: [[Positions/X-Guard]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Knee Pin from X-Guard (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=v2thEjJ0ES0)
+
+<p class="clip-credit"><strong>Five passes against single leg X-guard</strong> — taught by OneontaJiuJitsu Academy · 2:01 · <a href="https://www.youtube.com/watch?v=v2thEjJ0ES0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ZPcTvWxNSWg)
+
+<p class="clip-credit"><strong>Leg pin step through to knee on belly pass</strong> — taught by The Fang Den · 2:58 · <a href="https://www.youtube.com/watch?v=ZPcTvWxNSWg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

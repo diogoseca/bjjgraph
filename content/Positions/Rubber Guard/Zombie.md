@@ -34,6 +34,43 @@ description: "Master Zombie position in BJJ. Defensive turtle variation with uni
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Zombie \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Lockdown entries and the Zombie concept",
+      "description": "Zombie film study: Lockdown entries and the Zombie concept, taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/2ajPv8XKfvY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/2ajPv8XKfvY",
+      "url": "https://www.youtube.com/watch?v=2ajPv8XKfvY",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT115S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Lockdown strategies overview",
+      "description": "Zombie film study: Lockdown strategies overview, taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/oSQ7BHerIow/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/oSQ7BHerIow",
+      "url": "https://www.youtube.com/watch?v=oSQ7BHerIow",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT61S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -68,6 +105,34 @@ From the top perspective, Zombie Top requires patience, systematic pressure appl
 Understanding both perspectives of the Zombie position is essential for modern no-gi practitioners, particularly those training in the 10th Planet system or facing opponents who utilize deep half guard and lockdown-based defensive strategies.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Zombie in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=2ajPv8XKfvY)
+
+<p class="clip-credit"><strong>Lockdown entries and the Zombie concept</strong> — taught by Eddie Bravo · 1:55 · <a href="https://www.youtube.com/watch?v=2ajPv8XKfvY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=oSQ7BHerIow)
+
+<p class="clip-credit"><strong>Lockdown strategies overview</strong> — taught by Eddie Bravo · 1:01 · <a href="https://www.youtube.com/watch?v=oSQ7BHerIow" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 
@@ -137,27 +202,25 @@ Understanding both perspectives of the Zombie position is essential for modern n
 ### Available Transitions
 
 
-- **[[Transitions/Old School Sweep/Attacker|Old School Sweep]]** (35% of attempts)
+- **[[Transitions/Old School Sweep/Attacker|Old School Sweep]]** (10% of attempts)
 
-- **[[Transitions/Electric Chair Transition/Attacker|Electric Chair Transition]]** (11% of attempts)
+- **[[Transitions/Electric Chair Transition/Attacker|Electric Chair Transition]]** (10% of attempts)
 
-- **[[Transitions/Lockdown Recovery/Attacker|Lockdown Recovery]]** (10% of attempts)
+- **[[Transitions/Lockdown Recovery/Attacker|Lockdown Recovery]]** (12% of attempts)
 
 - **[[Transitions/Guard Recovery from Zombie/Attacker|Guard Recovery from Zombie]]** (13% of attempts)
 
-- **[[Transitions/Granby Roll to Guard/Attacker|Granby Roll to Guard]]** (9% of attempts)
-
-- **[[Transitions/Rolling Back Take/Attacker|Rolling Back Take]]** (7% of attempts)
+- **[[Transitions/Granby Roll to Guard/Attacker|Granby Roll to Guard]]** (10% of attempts)
 
 - **[[Transitions/Roll to Truck/Attacker|Roll to Truck]]** (6% of attempts)
 
-- **[[Transitions/Deep Half Entry/Attacker|Deep Half Entry]]** (5% of attempts)
+- **[[Transitions/Deep Half Entry/Attacker|Deep Half Entry]]** (7% of attempts)
 
-- **[[Transitions/Escape Zombie Control/Attacker|Escape Zombie Control]]** (2% of attempts)
+- **[[Transitions/Escape Zombie Control/Attacker|Escape Zombie Control]]** (12% of attempts)
 
-- **[[Transitions/Turn to Face from Zombie/Attacker|Turn to Face from Zombie]]** (1% of attempts)
+- **[[Transitions/Turn to Face from Zombie/Attacker|Turn to Face from Zombie]]** (12% of attempts)
 
-- **[[Transitions/Sweep from Zombie Guard/Attacker|Sweep from Zombie Guard]]** (1% of attempts)
+- **[[Transitions/Sweep from Zombie Guard/Attacker|Sweep from Zombie Guard]]** (8% of attempts)
 
 
 ### Common Mistakes
@@ -222,27 +285,27 @@ Understanding both perspectives of the Zombie position is essential for modern n
 ### Available Transitions
 
 
-- **[[Transitions/Crossface Pass/Attacker|Crossface Pass]]** (27% of attempts)
+- **[[Transitions/Crossface Pass/Attacker|Crossface Pass]]** (8% of attempts)
 
-- **[[Transitions/Leg Weave Pass/Attacker|Leg Weave Pass]]** (10% of attempts)
+- **[[Transitions/Leg Weave Pass/Attacker|Leg Weave Pass]]** (6% of attempts)
 
-- **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** (11% of attempts)
+- **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** (10% of attempts)
 
-- **[[Transitions/Smash Pass/Attacker|Smash Pass]]** (9% of attempts)
+- **[[Transitions/Smash Pass/Attacker|Smash Pass]]** (8% of attempts)
 
 - **[[Transitions/Turtle to Back Take/Attacker|Turtle to Back Take]]** (12% of attempts)
 
-- **[[Transitions/Crab Ride to Back/Attacker|Crab Ride to Back]]** (10% of attempts)
+- **[[Transitions/Crab Ride to Back/Attacker|Crab Ride to Back]]** (7% of attempts)
 
-- **[[Transitions/Anaconda from Turtle/Attacker|Anaconda from Turtle]]** (8% of attempts)
+- **[[Transitions/Anaconda from Turtle/Attacker|Anaconda from Turtle]]** (7% of attempts)
 
-- **[[Transitions/Darce from Turtle/Attacker|Darce from Turtle]]** (6% of attempts)
+- **[[Transitions/Darce from Turtle/Attacker|Darce from Turtle]]** (10% of attempts)
 
-- **[[Transitions/Back Take/Attacker|Back Take]]** (4% of attempts)
+- **[[Transitions/Back Take/Attacker|Back Take]]** (9% of attempts)
 
-- **[[Transitions/Posture Recovery from Zombie/Attacker|Posture Recovery from Zombie]]** (2% of attempts)
+- **[[Transitions/Posture Recovery from Zombie/Attacker|Posture Recovery from Zombie]]** (12% of attempts)
 
-- **[[Transitions/Strip Grip from Zombie/Attacker|Strip Grip from Zombie]]** (1% of attempts)
+- **[[Transitions/Strip Grip from Zombie/Attacker|Strip Grip from Zombie]]** (11% of attempts)
 
 
 ### Common Mistakes

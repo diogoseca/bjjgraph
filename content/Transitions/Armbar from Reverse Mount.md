@@ -34,6 +34,43 @@ description: "Master the armbar from reverse mount in BJJ. Complete guide coveri
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Armbar from Reverse Mount \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Reverse armbar from mount, no-gi",
+      "description": "Armbar from Reverse Mount film study: Reverse armbar from mount, no-gi, taught by MMA Leech.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/8UgR95y_q7I/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/8UgR95y_q7I",
+      "url": "https://www.youtube.com/watch?v=8UgR95y_q7I",
+      "creator": { "@type": "Person", "name": "MMA Leech" },
+      "duration": "PT168S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Reverse armbar quick demo",
+      "description": "Armbar from Reverse Mount film study: Reverse armbar quick demo, taught by Sensei Pacer.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/VhdQO_EjaUw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/VhdQO_EjaUw",
+      "url": "https://www.youtube.com/watch?v=VhdQO_EjaUw",
+      "creator": { "@type": "Person", "name": "Sensei Pacer" },
+      "duration": "PT17S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +106,34 @@ The armbar from reverse mount integrates naturally into the reverse mount offens
 **Success Rate**: 50%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Armbar from Reverse Mount in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=8UgR95y_q7I)
+
+<p class="clip-credit"><strong>Reverse armbar from mount, no-gi</strong> — taught by MMA Leech · 2:48 · <a href="https://www.youtube.com/watch?v=8UgR95y_q7I" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=VhdQO_EjaUw)
+
+<p class="clip-credit"><strong>Reverse armbar quick demo</strong> — taught by Sensei Pacer · 0:17 · <a href="https://www.youtube.com/watch?v=VhdQO_EjaUw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

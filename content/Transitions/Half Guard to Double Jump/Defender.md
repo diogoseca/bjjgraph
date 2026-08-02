@@ -140,6 +140,54 @@ description: "How to defend against the Transition to Double Jump from Half Guar
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Half Guard to Double Jump (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Stopping the half guard underhook",
+      "description": "Half Guard to Double Jump (Defender) film study: Stopping the half guard underhook, taught by Malachy Friedman.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/dOdO6xJ-TcU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/dOdO6xJ-TcU",
+      "url": "https://www.youtube.com/watch?v=dOdO6xJ-TcU",
+      "creator": { "@type": "Person", "name": "Malachy Friedman" },
+      "duration": "PT98S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Sitting turtle to running man defense",
+      "description": "Half Guard to Double Jump (Defender) film study: Sitting turtle to running man defense, taught by Priit Mihkelson.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/zgvlMKLWxAI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/zgvlMKLWxAI",
+      "url": "https://www.youtube.com/watch?v=zgvlMKLWxAI",
+      "creator": { "@type": "Person", "name": "Priit Mihkelson" },
+      "duration": "PT224S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Five defensive mistakes during the turtle back take",
+      "description": "Half Guard to Double Jump (Defender) film study: Five defensive mistakes during the turtle back take, taught by Priit Mihkelson.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/h2lCF7jLT_w/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/h2lCF7jLT_w",
+      "url": "https://www.youtube.com/watch?v=h2lCF7jLT_w",
+      "creator": { "@type": "Person", "name": "Priit Mihkelson" },
+      "duration": "PT456S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -151,6 +199,42 @@ When caught mid-transition, the defender must act immediately. Once both hooks a
 **Opponent's Starting Position**: [[Positions/Half Guard]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Half Guard to Double Jump (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=dOdO6xJ-TcU)
+
+<p class="clip-credit"><strong>Stopping the half guard underhook</strong> — taught by Malachy Friedman · 1:38 · <a href="https://www.youtube.com/watch?v=dOdO6xJ-TcU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=zgvlMKLWxAI)
+
+<p class="clip-credit"><strong>Sitting turtle to running man defense</strong> — taught by Priit Mihkelson · 3:44 · <a href="https://www.youtube.com/watch?v=zgvlMKLWxAI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=h2lCF7jLT_w)
+
+<p class="clip-credit"><strong>Five defensive mistakes during the turtle back take</strong> — taught by Priit Mihkelson · 7:36 · <a href="https://www.youtube.com/watch?v=h2lCF7jLT_w" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

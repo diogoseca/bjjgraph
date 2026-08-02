@@ -34,6 +34,54 @@ description: "Master the Backstep from Single Leg X-Guard pass in BJJ. Step-by-s
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Backstep from Single Leg X \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Backstep Pass from X Guard",
+      "description": "Backstep from Single Leg X film study: Backstep Pass from X Guard, taught by Wakizashi Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/WsQy2bzQqL8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/WsQy2bzQqL8",
+      "url": "https://www.youtube.com/watch?v=WsQy2bzQqL8",
+      "creator": { "@type": "Person", "name": "Wakizashi Jiu Jitsu" },
+      "duration": "PT76S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Single Leg X Pass and Back Take",
+      "description": "Backstep from Single Leg X film study: Single Leg X Pass and Back Take, taught by Kameron Ross.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/gwAf2mcPZ0g/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/gwAf2mcPZ0g",
+      "url": "https://www.youtube.com/watch?v=gwAf2mcPZ0g",
+      "creator": { "@type": "Person", "name": "Kameron Ross" },
+      "duration": "PT42S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Floating Backstep Pass vs Single Leg X",
+      "description": "Backstep from Single Leg X film study: Floating Backstep Pass vs Single Leg X, taught by BJJ4Breakfast.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/RGcGInZB7uM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/RGcGInZB7uM",
+      "url": "https://www.youtube.com/watch?v=RGcGInZB7uM",
+      "creator": { "@type": "Person", "name": "BJJ4Breakfast" },
+      "duration": "PT122S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ The backstep from SLX integrates into a broader passing system that includes hea
 **Success Rate**: 55%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Backstep from Single Leg X in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=WsQy2bzQqL8)
+
+<p class="clip-credit"><strong>Backstep Pass from X Guard</strong> — taught by Wakizashi Jiu Jitsu · 1:16 · <a href="https://www.youtube.com/watch?v=WsQy2bzQqL8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=gwAf2mcPZ0g)
+
+<p class="clip-credit"><strong>Single Leg X Pass and Back Take</strong> — taught by Kameron Ross · 0:42 · <a href="https://www.youtube.com/watch?v=gwAf2mcPZ0g" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=RGcGInZB7uM)
+
+<p class="clip-credit"><strong>Floating Backstep Pass vs Single Leg X</strong> — taught by BJJ4Breakfast · 2:02 · <a href="https://www.youtube.com/watch?v=RGcGInZB7uM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

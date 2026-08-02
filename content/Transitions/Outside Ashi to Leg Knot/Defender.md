@@ -127,6 +127,54 @@ description: "How to defend the weave from outside ashi-garami into the Leg Knot
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Outside Ashi to Leg Knot (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Double outside ashi heel hook escape (running man)",
+      "description": "Outside Ashi to Leg Knot (Defender) film study: Double outside ashi heel hook escape (running man), taught by Grappling Game Changer.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/2RLgyzWN71Y/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/2RLgyzWN71Y",
+      "url": "https://www.youtube.com/watch?v=2RLgyzWN71Y",
+      "creator": { "@type": "Person", "name": "Grappling Game Changer" },
+      "duration": "PT54S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Escaping outside ashi heel hook to rolling back take",
+      "description": "Outside Ashi to Leg Knot (Defender) film study: Escaping outside ashi heel hook to rolling back take, taught by Grapple Box.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/KmGhb2j68Ng/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/KmGhb2j68Ng",
+      "url": "https://www.youtube.com/watch?v=KmGhb2j68Ng",
+      "creator": { "@type": "Person", "name": "Grapple Box" },
+      "duration": "PT34S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Escaping ashi garami \u2014 leg lock defense",
+      "description": "Outside Ashi to Leg Knot (Defender) film study: Escaping ashi garami \u2014 leg lock defense, taught by Scott Elliott.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/AQbJMBiWYfU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/AQbJMBiWYfU",
+      "url": "https://www.youtube.com/watch?v=AQbJMBiWYfU",
+      "creator": { "@type": "Person", "name": "Scott Elliott" },
+      "duration": "PT141S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <aside class="entity-relations">
@@ -141,6 +189,42 @@ The two reliable answers are to clear the trapped leg early - kicking or limp-le
 **Opponent's Starting Position**: [[Positions/Ashi Garami/Outside Ashi-Garami]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Outside Ashi to Leg Knot (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=2RLgyzWN71Y)
+
+<p class="clip-credit"><strong>Double outside ashi heel hook escape (running man)</strong> — taught by Grappling Game Changer · 0:54 · <a href="https://www.youtube.com/watch?v=2RLgyzWN71Y" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=KmGhb2j68Ng)
+
+<p class="clip-credit"><strong>Escaping outside ashi heel hook to rolling back take</strong> — taught by Grapple Box · 0:34 · <a href="https://www.youtube.com/watch?v=KmGhb2j68Ng" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=AQbJMBiWYfU)
+
+<p class="clip-credit"><strong>Escaping ashi garami — leg lock defense</strong> — taught by Scott Elliott · 2:21 · <a href="https://www.youtube.com/watch?v=AQbJMBiWYfU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

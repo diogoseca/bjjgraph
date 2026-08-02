@@ -95,6 +95,14 @@ description: "Defend against the toe hold from Inside Ashi-Garami with recogniti
         "@type": "Answer",
         "text": "After stripping or preventing the toe hold grip, immediately address the underlying Inside Ashi-Garami leg entanglement. The attacker still controls your leg and can immediately re-attack with a straight ankle lock, heel hook, or kneebar. Use the window created by the failed toe hold to extract your leg by kicking through with the free leg, pushing the attacker's hips away, or rotating your hips to create space for leg extraction. Simply defending the submission grip without addressing the position means you will face another attack within seconds."
       }
+    },
+    {
+      "@type": "Question",
+      "name": "Why is the toe hold particularly dangerous in terms of the gap between discomfort and structural damage, and how does this affect your tapping threshold?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The toe hold's rotational mechanism attacks the MCL and ankle ligaments through torsion rather than linear hyperextension. Rotational ligament damage can occur with minimal pain warning because the spiraling force loads multiple structures simultaneously, and ligaments under rotational stress can fail catastrophically without the gradual pain progression seen in straight joint locks. This means defenders must tap at the first sign of significant rotational pressure rather than waiting for sharp pain, because by the time sharp pain arrives, structural damage may already be occurring. Training partners should establish a conservative tapping threshold well below their actual structural limits."
+      }
     }
   ]
 }
@@ -150,6 +158,43 @@ description: "Defend against the toe hold from Inside Ashi-Garami with recogniti
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Toe Hold from Inside Ashi-Garami (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "How to Escape the Toe Hold",
+      "description": "Toe Hold from Inside Ashi-Garami (Defender) film study: How to Escape the Toe Hold, taught by Gordon Ryan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/3a9k8-ZcYrk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/3a9k8-ZcYrk",
+      "url": "https://www.youtube.com/watch?v=3a9k8-ZcYrk",
+      "creator": { "@type": "Person", "name": "Gordon Ryan" },
+      "duration": "PT106S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "5 Leglock Counters to Ashi Garami",
+      "description": "Toe Hold from Inside Ashi-Garami (Defender) film study: 5 Leglock Counters to Ashi Garami, taught by BJJBlackBeltDad.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/QMgsMSTRSBI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/QMgsMSTRSBI",
+      "url": "https://www.youtube.com/watch?v=QMgsMSTRSBI",
+      "creator": { "@type": "Person", "name": "BJJBlackBeltDad" },
+      "duration": "PT93S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -160,6 +205,34 @@ Defending the toe hold from Inside Ashi-Garami begins with recognizing the grip 
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Toe Hold from Inside Ashi-Garami (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=3a9k8-ZcYrk)
+
+<p class="clip-credit"><strong>How to Escape the Toe Hold</strong> — taught by Gordon Ryan · 1:46 · <a href="https://www.youtube.com/watch?v=3a9k8-ZcYrk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=QMgsMSTRSBI)
+
+<p class="clip-credit"><strong>5 Leglock Counters to Ashi Garami</strong> — taught by BJJBlackBeltDad · 1:33 · <a href="https://www.youtube.com/watch?v=QMgsMSTRSBI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

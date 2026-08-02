@@ -180,6 +180,43 @@ description: "Execute the hip escape from Reverse Kesa-Gatame. Step-by-step guid
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Escape Reverse Kesa-Gatame (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Modified kesa escape",
+      "description": "Escape Reverse Kesa-Gatame (Attacker) film study: Modified kesa escape, taught by Inverted Gear coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/M5rDeLflY5w/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/M5rDeLflY5w",
+      "url": "https://www.youtube.com/watch?v=M5rDeLflY5w",
+      "creator": { "@type": "Person", "name": "Inverted Gear coach" },
+      "duration": "PT123S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Reverse kesa gatame escape",
+      "description": "Escape Reverse Kesa-Gatame (Attacker) film study: Reverse kesa gatame escape, taught by Priit Mihkelson.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/JM9nDge0arQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/JM9nDge0arQ",
+      "url": "https://www.youtube.com/watch?v=JM9nDge0arQ",
+      "creator": { "@type": "Person", "name": "Priit Mihkelson" },
+      "duration": "PT238S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -189,6 +226,34 @@ Executing the hip escape from Reverse Kesa-Gatame requires disciplined sequencin
 **From Position**: [[Positions/Side Control/Reverse Kesa-Gatame]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Escape Reverse Kesa-Gatame (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=M5rDeLflY5w)
+
+<p class="clip-credit"><strong>Modified kesa escape</strong> — taught by Inverted Gear coach · 2:03 · <a href="https://www.youtube.com/watch?v=M5rDeLflY5w" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=JM9nDge0arQ)
+
+<p class="clip-credit"><strong>Reverse kesa gatame escape</strong> — taught by Priit Mihkelson · 3:58 · <a href="https://www.youtube.com/watch?v=JM9nDge0arQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

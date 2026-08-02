@@ -164,6 +164,43 @@ description: "Master Head Position in BJJ. Learn biomechanical principles, contr
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Head Position \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Head control concepts and the chokes they lead to",
+      "description": "Head Position film study: Head control concepts and the chokes they lead to, taught by Firas Zahabi.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/LTVX-QojYJw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/LTVX-QojYJw",
+      "url": "https://www.youtube.com/watch?v=LTVX-QojYJw",
+      "creator": { "@type": "Person", "name": "Firas Zahabi" },
+      "duration": "PT637S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Head control principle explained",
+      "description": "Head Position film study: Head control principle explained, taught by Gracie Breakdown.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/HSplh5HeJvE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/HSplh5HeJvE",
+      "url": "https://www.youtube.com/watch?v=HSplh5HeJvE",
+      "creator": { "@type": "Person", "name": "Gracie Breakdown" },
+      "duration": "PT31S"
+    }
+  ]
+}
+</script>
+
+
 <section id="overview" class="content-section">
 
 ## What is Head Position?
@@ -173,6 +210,34 @@ description: "Master Head Position in BJJ. Learn biomechanical principles, contr
 Across every phase of grappling, from the standing clinch to back control, the head behaves like the steering wheel of the body, which is why elite competitors treat controlling it as a first-order priority rather than an afterthought. Unlike a discrete technique, head control is a conceptual framework that applies in every position: the biomechanical reality is that the head leads the spine, and the spine organizes force generation, defensive framing, and offensive options. Offensively, head control breaks posture, pins shoulders, and opens submission chains; defensively, protecting your own head preserves mobility, prevents chokes, and keeps escape routes alive. Because a single high-quality head connection can neutralize an opponent's strongest structural advantages, the ability to establish and, critically, maintain it through transitions often decides who controls the exchange and who is forced to react.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Head Position in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=LTVX-QojYJw)
+
+<p class="clip-credit"><strong>Head control concepts and the chokes they lead to</strong> — taught by Firas Zahabi · 10:37 · <a href="https://www.youtube.com/watch?v=LTVX-QojYJw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=HSplh5HeJvE)
+
+<p class="clip-credit"><strong>Head control principle explained</strong> — taught by Gracie Breakdown · 0:31 · <a href="https://www.youtube.com/watch?v=HSplh5HeJvE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="building-blocks" class="content-section">
 

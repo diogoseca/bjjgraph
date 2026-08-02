@@ -26,21 +26,33 @@
   "outcomes": [
     {
       "to": "Guillotine Control/Top",
-      "probability": 65,
+      "probability": {
+        "gi": 65,
+        "nogi": 65
+      },
       "result": "success"
     },
     {
       "to": "Front Headlock/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Front Headlock/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "summary": "Front Headlock to Guillotine is a no-gi submission entry where the attacker, controlling a bent-forward opponent from front headlock, slides the choking arm under the chin and locks a guillotine grip to convert head control into an immediate choke threat.",
   "overview": "The Front Headlock to Guillotine transition represents a critical pathway in modern submission grappling, transforming a dominant control position into a high-percentage finishing opportunity. This transition is fundamental to understanding the front headlock series, where the practitioner leverages head and arm control to create the angle and grip necessary for the guillotine choke. The technique is particularly effective when the opponent attempts to stand from turtle or drives forward from a defensive posture, creating the perfect moment to secure the guillotine grip and establish submission control.\n\nThis transition's effectiveness lies in its ability to capitalize on the opponent's natural escape attempts from the front headlock. As they attempt to pull their head free or drive forward to escape, these movements actually facilitate the grip adjustment needed for the guillotine. The timing of this transition is crucial - executing too early results in a weak guillotine without proper depth, while waiting too long allows the opponent to posture up and escape the control entirely.\n\nThe Front Headlock to Guillotine is a cornerstone technique in no-gi grappling and MMA, where collar controls are unavailable. It serves as both a submission threat and a gateway to other attacks within the front headlock system, including the darce choke, anaconda choke, and various back takes. Mastering this transition requires understanding proper head positioning, grip mechanics, and the ability to maintain control throughout the adjustment phase while preventing the opponent from establishing defensive frames or creating distance.",
   "related_content": [
@@ -243,46 +255,166 @@
     "flashcards": [
       {
         "question": "What is the most important factor in determining the effectiveness of a guillotine choke?",
-        "answer": "The depth of your choking arm under the opponent's chin is the most critical factor. Your wrist bone must be positioned past their throat on the far side of their neck, creating a choking surface under the chin rather than across the trachea. Without proper depth, the choke will be weak and easily defended by a simple chin tuck. Achieving this depth requires sliding your arm deep during the transition from front headlock, which is why timing the transition during opponent movement is so important."
+        "answer": "The depth of your choking arm under the opponent's chin is the most critical factor. Your wrist bone must be positioned past their throat on the far side of their neck, creating a choking surface under the chin rather than across the trachea. Without proper depth, the choke will be weak and easily defended by a simple chin tuck. Achieving this depth requires sliding your arm deep during the transition from front headlock, which is why timing the transition during opponent movement is so important.",
+        "answer_line": "Wrist bone deep past the chin",
+        "distractors": {
+          "plausible": [
+            "Squeezing with maximum grip force",
+            "How fast you shoot the entry"
+          ],
+          "trap": [
+            "Lean back, let them posture up"
+          ]
+        }
       },
       {
         "question": "Why is it important to time the guillotine transition when the opponent is moving rather than when they are static?",
-        "answer": "When the opponent is moving, particularly when trying to stand or drive forward, their neck naturally extends and their defensive awareness is divided between the movement and defending the choke. This creates a window where you can slide your arm deeper and establish the grip before they can react defensively. Additionally, their movement provides momentum that you can use to pull them into the guillotine position. A static opponent can focus entirely on defense, keeping their chin tucked and posture strong, making it much more difficult to secure proper grip depth."
+        "answer": "Attack when the opponent moves because motion extends their neck and splits their attention, opening the window to slide your grip deep. When they try to stand or drive forward, their neck naturally extends and their defensive awareness is divided between the movement and defending the choke, letting you slide your arm deeper and establish the grip before they can react. Their momentum also helps you pull them into the guillotine position. By contrast, a static opponent can focus entirely on defense, keeping their chin tucked and posture strong, making proper grip depth much more difficult to secure.",
+        "distractors": {
+          "plausible": [
+            "Wait until they settle down",
+            "Only when your grip feels locked"
+          ],
+          "trap": [
+            "Muscle it as they posture up"
+          ]
+        },
+        "answer_line": "Attack while they're moving"
       },
       {
         "question": "What are the three primary body positions from which a guillotine choke can be finished, and what are the advantages of each?",
-        "answer": "The three primary finishing positions are: 1) Closed Guard - provides excellent control of opponent's hips and posture, prevents them from standing or creating distance, and allows you to use hip extension to add pressure; 2) Standing with legs wrapped - maximizes pressure by using your full body weight hanging on their neck, but requires good conditioning and may be defended if opponent has very strong base; 3) Standing with feet on ground - maintains mobility and allows quick transitions to other positions, useful in self-defense or MMA contexts where going to guard is risky, but provides less overall control. The choice depends on the situation, your physical attributes, and the opponent's defensive tendencies."
+        "answer": "The three primary guillotine finishing positions are closed guard, standing with legs wrapped, and standing with feet on the ground. Closed guard provides excellent control of the opponent's hips and posture, prevents them from standing or creating distance, and lets you use hip extension to add pressure. Standing with legs wrapped maximizes pressure by hanging your full body weight on their neck, but requires good conditioning and can be defended by an opponent with a very strong base. Standing with feet on the ground maintains mobility and allows quick transitions to other positions — useful in self-defense or MMA contexts where going to guard is risky — but provides less overall control. The choice depends on the situation, your physical attributes, and the opponent's defensive tendencies.",
+        "distractors": {
+          "plausible": [
+            "Mount, back control, side control",
+            "Turtle, knee-on-belly, kneeling"
+          ],
+          "trap": [
+            "Crank sideways as a neck wrench"
+          ]
+        },
+        "answer_line": "Guard, legs wrapped, feet planted"
       },
       {
         "question": "How should you respond if the opponent successfully tucks their chin before you can secure deep hand positioning?",
-        "answer": "If the opponent establishes a strong chin tuck before you achieve proper depth, forcing the guillotine is ineffective and wastes energy. Instead, you should maintain front headlock control and transition to alternative attacks: the darce choke, anaconda choke, or back take are all high-percentage options from this position. You can also use short chopping motions with your forearm to try to create openings to deepen your grip, or wait for the opponent to make another movement that creates an opportunity. The key is to not abandon your positional control by committing to a weak guillotine that won't work."
+        "answer": "If the opponent establishes a strong chin tuck before you achieve proper depth, forcing the guillotine is ineffective and wastes energy. Instead, you should maintain front headlock control and transition to alternative attacks: the darce choke, anaconda choke, or back take are all high-percentage options from this position. You can also use short chopping motions with your forearm to try to create openings to deepen your grip, or wait for the opponent to make another movement that creates an opportunity. The key is to not abandon your positional control by committing to a weak guillotine that won't work.",
+        "answer_line": "Switch to darce or anaconda",
+        "distractors": {
+          "plausible": [
+            "Muscle the choke through the tuck",
+            "Wait for the chin to loosen"
+          ],
+          "trap": [
+            "Abandon the front headlock"
+          ]
+        }
       },
       {
         "question": "What is the mechanical difference between a guillotine that attacks the trachea versus one that attacks the carotid arteries, and why does this matter?",
-        "answer": "A guillotine that attacks the trachea (windpipe) is positioned across the throat with the forearm creating crushing pressure on the front of the neck. While painful and potentially effective, it can be defended by a strong chin tuck and risks injury to the trachea. A properly executed guillotine attacks the carotid arteries by positioning the wrist bone under the chin with the forearm creating a V-shape on the sides of the neck. This version causes loss of consciousness by cutting off blood flow to the brain rather than air, making it faster acting (4-6 seconds) and harder to defend. The high-elbow guillotine variation specifically targets the arteries by changing the angle of pressure. Understanding this difference allows you to adjust your technique based on the situation and opponent's defenses."
+        "answer": "A guillotine that attacks the trachea (windpipe) is positioned across the throat with the forearm creating crushing pressure on the front of the neck. While painful and potentially effective, it can be defended by a strong chin tuck and risks injury to the trachea. A properly executed guillotine attacks the carotid arteries by positioning the wrist bone under the chin with the forearm creating a V-shape on the sides of the neck. This version causes loss of consciousness by cutting off blood flow to the brain rather than air, making it faster acting (4-6 seconds) and harder to defend. The high-elbow guillotine variation specifically targets the arteries by changing the angle of pressure. Understanding this difference allows you to adjust your technique based on the situation and opponent's defenses.",
+        "answer_line": "Wrist under chin chokes carotids",
+        "distractors": {
+          "plausible": [
+            "Windpipe crush is higher percentage",
+            "Both chokes cut off blood flow"
+          ],
+          "trap": [
+            "Trust the throat crush to finish"
+          ]
+        }
       },
       {
         "question": "Describe the proper sequence of upper body movements when transitioning from front headlock to guillotine while pulling guard?",
-        "answer": "The sequence should be one fluid motion: 1) Maintain chest pressure on opponent's head while sliding your choking arm deeper around their neck until your wrist passes their throat; 2) Bring your free hand underneath their body and clasp it with your choking hand on the far side of their neck; 3) As your grip locks, simultaneously sit back and pull their upper body down into you while keeping your elbows tight to your sides; 4) Pull them into closed guard by wrapping your legs around their waist; 5) Once guard is closed, adjust your hips to come forward and under their chest while pulling their head down; 6) Finish by crunching your elbows together while lifting your wrist bone into their chin and extending your hips forward. The key is that each movement flows into the next without pauses, and chest-to-chest pressure is maintained throughout the entire sequence."
+        "answer": "Slide the choking arm deep, lock your grip under their body, sit back pulling them into closed guard, then crunch elbows and extend hips to finish. In detail, the sequence is one fluid motion: 1) Maintain chest pressure on the opponent's head while sliding your choking arm deeper around their neck until your wrist passes their throat; 2) Bring your free hand underneath their body and clasp it with your choking hand on the far side of their neck; 3) As the grip locks, simultaneously sit back and pull their upper body down into you while keeping your elbows tight to your sides; 4) Pull them into closed guard by wrapping your legs around their waist; 5) Once guard is closed, adjust your hips to come forward and under their chest while pulling their head down; 6) Finish by crunching your elbows together while lifting your wrist bone into their chin and extending your hips forward. Each movement flows into the next without pauses, and chest-to-chest pressure is maintained throughout the entire sequence.",
+        "distractors": {
+          "plausible": [
+            "Lock grip first, then slide deep",
+            "Sit back first, then find grip"
+          ],
+          "trap": [
+            "Release chest pressure to reset"
+          ]
+        },
+        "answer_line": "Slide deep, lock, sit back, crunch"
       },
       {
         "question": "Your opponent posts their hand on your hip during the grip change - how do you adjust?",
-        "answer": "When the opponent posts on your hip, they are attempting to create distance and prevent you from closing the gap needed for a tight guillotine. You have two immediate options: first, use your non-choking hand to strip their posting hand by peeling it off your hip and redirecting it inward toward their own body, then immediately lock your grip before they can re-post. Second, if their post is strong, angle your hips away from the posting side and sit to a butterfly hook on that side, using the hook to elevate and off-balance them while your choking arm maintains depth. The post actually commits one of their arms, leaving them with only one hand to defend the choke itself. Use this asymmetry to your advantage by committing to the grip lock on the undefended side."
+        "answer": "When the opponent posts on your hip, they are attempting to create distance and prevent you from closing the gap needed for a tight guillotine. You have two immediate options: first, use your non-choking hand to strip their posting hand by peeling it off your hip and redirecting it inward toward their own body, then immediately lock your grip before they can re-post. Second, if their post is strong, angle your hips away from the posting side and sit to a butterfly hook on that side, using the hook to elevate and off-balance them while your choking arm maintains depth. The post actually commits one of their arms, leaving them with only one hand to defend the choke itself. Use this asymmetry to your advantage by committing to the grip lock on the undefended side.",
+        "answer_line": "Strip post, lock grip immediately",
+        "distractors": {
+          "plausible": [
+            "Push forward against the post",
+            "Switch hands to re-grip fully"
+          ],
+          "trap": [
+            "Let go and back away to reset"
+          ]
+        }
       },
       {
         "question": "What grip configuration should you use when your arms are shorter relative to the opponent's neck circumference?",
-        "answer": "With shorter arms relative to neck size, the ten-finger guillotine (interlaced fingers) provides maximum compression with minimal reach requirement since your hands lock together at the earliest possible contact point. Alternatively, the palm-to-palm grip with your choking hand curled into a fist and your free hand capping the fist creates a compact but powerful configuration. Avoid the S-grip in this scenario because it requires additional arm length to achieve proper lock. You should also favor the high-elbow variation, which changes the angle of attack so that less arm circumference is needed to achieve arterial compression. Finally, consider pulling to closed guard immediately, as the leg pressure helps compensate for reduced arm leverage by driving the opponent's body into your choking structures."
+        "answer": "With shorter arms, use the ten-finger guillotine, since interlaced fingers lock at the earliest contact point for maximum compression. Alternatively, the palm-to-palm grip with your choking hand curled into a fist and your free hand capping the fist creates a compact but powerful configuration. Avoid the S-grip in this scenario because it requires additional arm length to achieve a proper lock. You should also favor the high-elbow variation, which changes the angle of attack so that less arm circumference is needed to achieve arterial compression. Finally, consider pulling to closed guard immediately, as the leg pressure helps compensate for reduced arm leverage by driving the opponent's body into your choking structures.",
+        "distractors": {
+          "plausible": [
+            "S-grip for maximum reach",
+            "One-handed grip for speed"
+          ],
+          "trap": [
+            "Release grip to circle around"
+          ]
+        },
+        "answer_line": "Ten-finger grip, not S-grip"
       },
       {
         "question": "The guillotine attempt fails and your opponent begins to posture - what chain attacks are available?",
-        "answer": "When the guillotine fails and the opponent postures, you retain front headlock control and can immediately chain to several attacks. If their far arm is exposed, switch to a darce choke by threading your choking arm under their armpit and connecting to your other arm behind their neck. If they turn away, the anaconda choke becomes available by wrapping their arm and neck together. If they posture strongly and you lose neck control, snap them back down and take the back by stepping over as they try to recover base. From closed guard with a failed guillotine, you can transition to an omoplata by swimming your leg over their shoulder on the choking side, or set up a triangle by opening your guard and angling for the leg across their neck. The critical principle is never releasing front headlock control to chase a dead guillotine - maintain the control and flow to the next available attack."
+        "answer": "When the guillotine fails and the opponent postures, you retain front headlock control and can immediately chain to several attacks. If their far arm is exposed, switch to a darce choke by threading your choking arm under their armpit and connecting to your other arm behind their neck. If they turn away, the anaconda choke becomes available by wrapping their arm and neck together. If they posture strongly and you lose neck control, snap them back down and take the back by stepping over as they try to recover base. From closed guard with a failed guillotine, you can transition to an omoplata by swimming your leg over their shoulder on the choking side, or set up a triangle by opening your guard and angling for the leg across their neck. The critical principle is never releasing front headlock control to chase a dead guillotine - maintain the control and flow to the next available attack.",
+        "answer_line": "Keep headlock, chain darce/anaconda",
+        "distractors": {
+          "plausible": [
+            "Bail and pull full guard",
+            "Crank the failed guillotine harder"
+          ],
+          "trap": [
+            "Give up the grip to shoot a double"
+          ]
+        }
       },
       {
         "question": "What direction of force should you apply when finishing the guillotine from closed guard versus from standing?",
-        "answer": "From closed guard, the primary force direction is a crunch upward and inward - you lift your wrist bone into the chin while simultaneously pulling your elbows toward each other and extending your hips forward into the opponent's chest. The force vectors create a scissors effect: your arms pull up and in while your hips push forward and up, compressing the neck between two opposing forces. From standing, the force direction shifts to primarily downward and rotational - your body weight hangs on their neck creating downward traction, while you torque your upper body to drive your choking-side shoulder into one side of the neck and your forearm blade into the other. The standing finish relies more on gravity and body weight than muscular effort. In both cases, the choking arm should drive toward your opposite hip pocket rather than straight up, as this diagonal angle maximizes arterial compression."
+        "answer": "From closed guard you crunch upward and inward with hips extending forward; from standing you apply downward, rotational body-weight traction. From guard, you lift your wrist bone into the chin while pulling your elbows toward each other and extending your hips forward into the opponent's chest — the force vectors create a scissors effect, with your arms pulling up and in while your hips push forward and up, compressing the neck between two opposing forces. From standing, your body weight hangs on their neck creating downward traction while you torque your upper body to drive your choking-side shoulder into one side of the neck and your forearm blade into the other; this finish relies more on gravity and body weight than muscular effort. In both cases, the choking arm should drive toward your opposite hip pocket rather than straight up, as this diagonal angle maximizes arterial compression.",
+        "distractors": {
+          "plausible": [
+            "Same force vector both positions",
+            "Straight upward pull in guard"
+          ],
+          "trap": [
+            "Push straight down in guard"
+          ]
+        },
+        "answer_line": "Guard: crunch in; stand: bodyweight"
       }
     ],
-    "safety_considerations": "When practicing the Front Headlock to Guillotine transition, both partners must maintain clear communication and respect tap signals immediately. The guillotine choke can cause loss of consciousness within 4-6 seconds when properly applied, so practitioners should tap early rather than risk injury. When drilling, apply pressure gradually and progressively, never jerking or slamming the choke on suddenly. Partners should be especially careful during the transition phase when the practitioner is adjusting their grip, as this is when the opponent's neck is most vulnerable to awkward pressure or cranking. Beginners should practice with very light pressure, focusing on positioning and mechanics rather than finishing the choke. When the choking partner feels a tap, they should release immediately and create space. The person being choked should tap on their partner's body, the mat, or verbally if their arms are controlled. Never attempt this technique with full force on training partners who are significantly smaller or less experienced, and always err on the side of caution when practicing. In competition scenarios, recognize that your opponent may not tap until unconsciousness is imminent, so be prepared to hold the position consistently but also to recognize when to release if a referee intervenes. Avoid practicing this technique when fatigued, as tired athletes are more likely to apply dangerous pressure or fail to recognize a tap in time."
+    "safety_considerations": "When practicing the Front Headlock to Guillotine transition, both partners must maintain clear communication and respect tap signals immediately. The guillotine choke can cause loss of consciousness within 4-6 seconds when properly applied, so practitioners should tap early rather than risk injury. When drilling, apply pressure gradually and progressively, never jerking or slamming the choke on suddenly. Partners should be especially careful during the transition phase when the practitioner is adjusting their grip, as this is when the opponent's neck is most vulnerable to awkward pressure or cranking. Beginners should practice with very light pressure, focusing on positioning and mechanics rather than finishing the choke. When the choking partner feels a tap, they should release immediately and create space. The person being choked should tap on their partner's body, the mat, or verbally if their arms are controlled. Never attempt this technique with full force on training partners who are significantly smaller or less experienced, and always err on the side of caution when practicing. In competition scenarios, recognize that your opponent may not tap until unconsciousness is imminent, so be prepared to hold the position consistently but also to recognize when to release if a referee intervenes. Avoid practicing this technique when fatigued, as tired athletes are more likely to apply dangerous pressure or fail to recognize a tap in time.",
+    "clips": [
+      {
+        "id": "V8mEHRoiX1U",
+        "title": "Snapdown to Guillotine",
+        "by": "Alec Hooben",
+        "vertical": false,
+        "channel": "Alec Hooben",
+        "duration": 68,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "GgXRLKAm9pY",
+        "title": "Guillotine from the Front Headlock",
+        "by": "Chris Jones",
+        "vertical": false,
+        "channel": "Chris Jones",
+        "duration": 97,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Front Headlock to Guillotine Defender",
@@ -369,23 +501,73 @@
     "flashcards": [
       {
         "question": "What is the critical defensive window during the Front Headlock to Guillotine transition, and how do you exploit it?",
-        "answer": "The critical window occurs when the opponent releases their standard front headlock grip (hand on far shoulder or tricep) to slide their choking arm deeper around your neck for the guillotine. During this grip change, their control momentarily weakens because they must release one point of control to achieve the new grip. Exploit this by immediately fighting the choking arm with two-on-one control at the wrist and elbow, circling toward the choking arm side, or explosively posturing while their grip is loosened. This window typically lasts less than one second, so you must have a pre-programmed response ready rather than reacting in the moment."
+        "answer": "The critical window occurs when the opponent releases their standard front headlock grip (hand on far shoulder or tricep) to slide their choking arm deeper around your neck for the guillotine. During this grip change, their control momentarily weakens because they must release one point of control to achieve the new grip. Exploit this by immediately fighting the choking arm with two-on-one control at the wrist and elbow, circling toward the choking arm side, or explosively posturing while their grip is loosened. This window typically lasts less than one second, so you must have a pre-programmed response ready rather than reacting in the moment.",
+        "answer_line": "When they release grip to change",
+        "distractors": {
+          "plausible": [
+            "When they first lock in headlock",
+            "After guillotine grip fully locks"
+          ],
+          "trap": [
+            "Wait until you can't breathe"
+          ]
+        }
       },
       {
         "question": "Why should you circle toward the choking arm side rather than away from it when defending the guillotine transition?",
-        "answer": "Circling toward the choking arm side compresses the space the opponent needs to finish the choke. When you move toward the arm, their forearm gets bunched up and cannot achieve the V-shape under your chin needed for arterial compression. Circling away does the opposite - it opens the angle, allows their arm to extend and deepen, and gives them the torque angle they need for the high-elbow guillotine variation. Moving toward the arm also positions you to duck under their armpit, which is the most direct path to extracting your head from the grip entirely. Additionally, circling toward the arm brings your body closer to theirs, making it harder for them to pull guard."
+        "answer": "Circling toward the choking arm side compresses the space the opponent needs to finish the choke. When you move toward the arm, their forearm gets bunched up and cannot achieve the V-shape under your chin needed for arterial compression. Circling away does the opposite - it opens the angle, allows their arm to extend and deepen, and gives them the torque angle they need for the high-elbow guillotine variation. Moving toward the arm also positions you to duck under their armpit, which is the most direct path to extracting your head from the grip entirely. Additionally, circling toward the arm brings your body closer to theirs, making it harder for them to pull guard.",
+        "answer_line": "Circle toward the choking arm",
+        "distractors": {
+          "plausible": [
+            "Circle away to create space",
+            "Stay still and tuck chin only"
+          ],
+          "trap": [
+            "Turn away and expose your back"
+          ]
+        }
       },
       {
         "question": "Your opponent has locked a shallow guillotine and is sitting back to closed guard - should you drive forward or pull back?",
-        "answer": "With a confirmed shallow grip (you can breathe, their wrist is across your throat rather than under your chin), driving forward is the correct response. Driving forward with your shoulder into their neck while they pull guard sets up the Von Flue choke counter and passes you to side control. However, this assessment must be accurate - if the grip is deep with the wrist under your chin, driving forward accelerates the finish and you will go unconscious. The test is whether you can comfortably breathe and whether you feel pressure on your trachea (shallow, drive forward) or on the sides of your neck at the carotid arteries (deep, do not drive forward - fight the grip instead)."
+        "answer": "With a confirmed shallow grip (you can breathe, their wrist is across your throat rather than under your chin), driving forward is the correct response. Driving forward with your shoulder into their neck while they pull guard sets up the Von Flue choke counter and passes you to side control. However, this assessment must be accurate - if the grip is deep with the wrist under your chin, driving forward accelerates the finish and you will go unconscious. The test is whether you can comfortably breathe and whether you feel pressure on your trachea (shallow, drive forward) or on the sides of your neck at the carotid arteries (deep, do not drive forward - fight the grip instead).",
+        "answer_line": "Shallow: drive forward for Von Flue",
+        "distractors": {
+          "plausible": [
+            "Always drive forward regardless",
+            "Pull back hard to create space"
+          ],
+          "trap": [
+            "Drive forward on a deep choke"
+          ]
+        }
       },
       {
         "question": "You feel your opponent's free hand leaving your far shoulder and moving underneath your body - what immediate action should you take?",
-        "answer": "This is the primary recognition cue that the guillotine grip lock is imminent. You have approximately one second before their hands clasp together and the choke becomes significantly harder to escape. Your immediate action should be to grab their choking arm wrist with your near-side hand and drive it away from your neck while simultaneously tucking your chin tightly to your chest. If you can prevent the hands from clasping, the guillotine cannot be completed and you remain in the more escapable front headlock position. If their hands do connect, immediately transition to your secondary defense: either sprawl to prevent guard closure, or drive forward for the Von Flue counter if the grip is shallow."
+        "answer": "This is the primary recognition cue that the guillotine grip lock is imminent. You have approximately one second before their hands clasp together and the choke becomes significantly harder to escape. Your immediate action should be to grab their choking arm wrist with your near-side hand and drive it away from your neck while simultaneously tucking your chin tightly to your chest. If you can prevent the hands from clasping, the guillotine cannot be completed and you remain in the more escapable front headlock position. If their hands do connect, immediately transition to your secondary defense: either sprawl to prevent guard closure, or drive forward for the Von Flue counter if the grip is shallow.",
+        "answer_line": "Grab wrist, drive away, tuck chin",
+        "distractors": {
+          "plausible": [
+            "Wait for hands to fully clasp",
+            "Push their head down and away"
+          ],
+          "trap": [
+            "Relax neck to conserve energy"
+          ]
+        }
       },
       {
         "question": "How does your defensive strategy change if the opponent secures the guillotine grip from standing versus when they pull guard?",
-        "answer": "Against a standing guillotine, your primary defense focuses on preventing them from jumping to closed guard or hanging their weight on your neck. Drive your hips forward into their body, post your head on their chest to reduce the choking angle, and work to peel their grip by fighting the hands. You can also shoot a double leg or duck under to take them down, which breaks the standing leverage. Against a guillotine with closed guard, the strategy shifts entirely to grip fighting and posture recovery within the guard. You must first address the choke by stripping the grip or reducing the depth, then work standard guard passing techniques. The Von Flue counter is only available during the guard pull - once guard is closed, you must either strip the grip or survive until you can open the guard and create distance."
+        "answer": "Against a standing guillotine, your primary defense focuses on preventing them from jumping to closed guard or hanging their weight on your neck. Drive your hips forward into their body, post your head on their chest to reduce the choking angle, and work to peel their grip by fighting the hands. You can also shoot a double leg or duck under to take them down, which breaks the standing leverage. Against a guillotine with closed guard, the strategy shifts entirely to grip fighting and posture recovery within the guard. You must first address the choke by stripping the grip or reducing the depth, then work standard guard passing techniques. The Von Flue counter is only available during the guard pull - once guard is closed, you must either strip the grip or survive until you can open the guard and create distance.",
+        "answer_line": "Standing: peel grip or takedown",
+        "distractors": {
+          "plausible": [
+            "Guard: same peel-grip approach",
+            "Standing: sprawl, no other option"
+          ],
+          "trap": [
+            "Try Von Flue after guard closes"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -408,6 +590,35 @@
         "phase": "Week 9+: Live Positional Sparring",
         "focus": "Applying defensive skills under full resistance from front headlock",
         "description": "Full-resistance positional sparring starting from front headlock bottom. Partner attempts guillotine, darce, anaconda, or back take based on your defensive reactions. You work to escape to neutral position or reverse. This phase tests whether your recognition cues and defensive responses have become automatic under pressure. Three-minute rounds with full resistance. Track your escape rate and identify which defensive option works best for your body type and the most common failure points."
+      }
+    ],
+    "clips": [
+      {
+        "id": "OQYU2BXdEEw",
+        "title": "Guillotine Choke Defense",
+        "by": "Todd Hendrickson",
+        "vertical": false,
+        "channel": "Todd Hendrickson Jiu Jitsu",
+        "duration": 51,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "8okq4cIHMO0",
+        "title": "Standing Guillotine Escape",
+        "by": "Dogtownman",
+        "vertical": false,
+        "channel": "dogtownman",
+        "duration": 44,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "k5BNGdsb5P4",
+        "title": "Standing Guillotine Defense with Sitting Throw",
+        "by": "Gracie Charlottesville",
+        "vertical": false,
+        "channel": "Gracie Charlottesville",
+        "duration": 23,
+        "verified": "2026-07-15"
       }
     ]
   },

@@ -150,6 +150,54 @@ description: "Learn to defend against the Estima Lock finish from Estima Lock co
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Estima Lock from Estima Lock Control (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Counter Footlock from Straight Ankle Lock",
+      "description": "Estima Lock from Estima Lock Control (Defender) film study: Counter Footlock from Straight Ankle Lock, taught by James Clingerman.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/zErch4qHfB0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/zErch4qHfB0",
+      "url": "https://www.youtube.com/watch?v=zErch4qHfB0",
+      "creator": { "@type": "Person", "name": "James Clingerman" },
+      "duration": "PT12S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Estima lock and estima lock escape",
+      "description": "Estima Lock from Estima Lock Control (Defender) film study: Estima lock and estima lock escape, taught by Budo Jake.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/e2cpItCWRdQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/e2cpItCWRdQ",
+      "url": "https://www.youtube.com/watch?v=e2cpItCWRdQ",
+      "creator": { "@type": "Person", "name": "Budo Jake" },
+      "duration": "PT295S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Escaping the straight foot lock",
+      "description": "Estima Lock from Estima Lock Control (Defender) film study: Escaping the straight foot lock, taught by Boa Jiu-Jitsu Club.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/-L_WChy0fP8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/-L_WChy0fP8",
+      "url": "https://www.youtube.com/watch?v=-L_WChy0fP8",
+      "creator": { "@type": "Person", "name": "Boa Jiu-Jitsu Club" },
+      "duration": "PT221S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -160,6 +208,42 @@ Defending the Estima Lock finish from an established control position is signifi
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Estima Lock from Estima Lock Control (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=zErch4qHfB0)
+
+<p class="clip-credit"><strong>Counter Footlock from Straight Ankle Lock</strong> — taught by James Clingerman · 0:12 · <a href="https://www.youtube.com/watch?v=zErch4qHfB0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=e2cpItCWRdQ)
+
+<p class="clip-credit"><strong>Estima lock and estima lock escape</strong> — taught by Budo Jake · 4:55 · <a href="https://www.youtube.com/watch?v=e2cpItCWRdQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=-L_WChy0fP8)
+
+<p class="clip-credit"><strong>Escaping the straight foot lock</strong> — taught by Boa Jiu-Jitsu Club · 3:41 · <a href="https://www.youtube.com/watch?v=-L_WChy0fP8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

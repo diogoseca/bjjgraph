@@ -20,38 +20,38 @@ description: "Foundational leg entanglement for ankle locks and heel hooks. Entr
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Execute Straight Ankle Lock Entry",
-      "text": "From this position, attempt Straight Ankle Lock Entry. This technique is attempted in 28% of exchanges from this position.",
+      "name": "Execute Heel Hook from Inside Ashi-Garami",
+      "text": "From this position, attempt Heel Hook from Inside Ashi-Garami. This technique is attempted in 25% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Heel Hook from Inside Ashi-Garami",
-      "text": "From this position, attempt Heel Hook from Inside Ashi-Garami. This technique is attempted in 18% of exchanges from this position.",
+      "name": "Execute Toe Hold from Inside Ashi-Garami",
+      "text": "From this position, attempt Toe Hold from Inside Ashi-Garami. This technique is attempted in 7% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Toe Hold from Inside Ashi-Garami",
-      "text": "From this position, attempt Toe Hold from Inside Ashi-Garami. This technique is attempted in 8% of exchanges from this position.",
+      "name": "Execute Inside Ashi-Garami to Honey Hole",
+      "text": "From this position, attempt Inside Ashi-Garami to Honey Hole. This technique is attempted in 16% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Kneebar Finish",
-      "text": "From this position, attempt Kneebar Finish. This technique is attempted in 4% of exchanges from this position.",
+      "name": "Execute Back Take from Ashi",
+      "text": "From this position, attempt Back Take from Ashi. This technique is attempted in 6% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Inside Ashi-Garami to Honey Hole",
-      "text": "From this position, attempt Inside Ashi-Garami to Honey Hole. This technique is attempted in 8% of exchanges from this position.",
+      "name": "Execute Inside Ashi-Garami to Cross Ashi",
+      "text": "From this position, attempt Inside Ashi-Garami to Cross Ashi. This technique is attempted in 7% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Back Take from Ashi",
-      "text": "From this position, attempt Back Take from Ashi. This technique is attempted in 1% of exchanges from this position.",
+      "name": "Execute Outside Ashi Entry",
+      "text": "From this position, attempt Outside Ashi Entry. This technique is attempted in 8% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -153,6 +153,54 @@ description: "Foundational leg entanglement for ankle locks and heel hooks. Entr
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Inside Ashi-Garami (Top) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "3 paths to backside 50/50 from Single Leg X",
+      "description": "Inside Ashi-Garami (Top) film study: 3 paths to backside 50/50 from Single Leg X, taught by Gustavo Gomes Firmino.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/yT3euuWRWXw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/yT3euuWRWXw",
+      "url": "https://www.youtube.com/watch?v=yT3euuWRWXw",
+      "creator": { "@type": "Person", "name": "Gustavo Gomes Firmino" },
+      "duration": "PT56S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Roll under to backside 50/50",
+      "description": "Inside Ashi-Garami (Top) film study: Roll under to backside 50/50, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/DBbSqQf6iCo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/DBbSqQf6iCo",
+      "url": "https://www.youtube.com/watch?v=DBbSqQf6iCo",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT110S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Reverse Achilles Lock from Ashi Garami",
+      "description": "Inside Ashi-Garami (Top) film study: Reverse Achilles Lock from Ashi Garami, taught by Corey K.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/D9_e_d6WpyU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/D9_e_d6WpyU",
+      "url": "https://www.youtube.com/watch?v=D9_e_d6WpyU",
+      "creator": { "@type": "Person", "name": "Corey K" },
+      "duration": "PT84S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -164,6 +212,42 @@ Inside Ashi-Garami represents the standard position in modern leg lock systems, 
 The position excels in no-gi grappling where leg attacks are permitted, offering a systematic approach to leg attacks that can be developed from beginner to advanced levels. White and blue belts typically work straight ankle locks from this position, while advanced practitioners layer in heel hooks and transition to more complex entanglements. The position's effectiveness stems from the mechanical control it provides over one leg while leaving hands free for grips and adjustments.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Inside Ashi-Garami (Top) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=yT3euuWRWXw)
+
+<p class="clip-credit"><strong>3 paths to backside 50/50 from Single Leg X</strong> — taught by Gustavo Gomes Firmino · 0:56 · <a href="https://www.youtube.com/watch?v=yT3euuWRWXw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=DBbSqQf6iCo)
+
+<p class="clip-credit"><strong>Roll under to backside 50/50</strong> — taught by Lachlan Giles · 1:50 · <a href="https://www.youtube.com/watch?v=DBbSqQf6iCo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=D9_e_d6WpyU)
+
+<p class="clip-credit"><strong>Reverse Achilles Lock from Ashi Garami</strong> — taught by Corey K · 1:24 · <a href="https://www.youtube.com/watch?v=D9_e_d6WpyU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 
@@ -224,7 +308,7 @@ The position excels in no-gi grappling where leg attacks are permitted, offering
 
 
 **If opponent turns knee inward to defend ankle lock and creates heel hook opportunity:**
-- Execute **[[Transitions/Heel Hook/Attacker|Heel Hook]]** → [[Positions/Ashi Garami/Saddle]] (Probability: 70%)
+- Execute **[[Submissions/Heel Hook/Attacker|Heel Hook]]** → [[Positions/Ashi Garami/Saddle]] (Probability: 70%)
 - Execute **[[Transitions/Inside Ashi-Garami to Honey Hole/Attacker|Inside Ashi-Garami to Honey Hole]]** → [[Positions/Ashi Garami/Honey Hole]] (Probability: 60%)
 
 

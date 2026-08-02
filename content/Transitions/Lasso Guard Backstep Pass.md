@@ -34,6 +34,54 @@ description: "Master the Lasso Guard Backstep Pass in BJJ. Learn rotational pass
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Lasso Guard Backstep Pass \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Lasso Guard back step pass",
+      "description": "Lasso Guard Backstep Pass film study: Lasso Guard back step pass, taught by Bruno Paulista.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/xJ2w7bL4vw0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/xJ2w7bL4vw0",
+      "url": "https://www.youtube.com/watch?v=xJ2w7bL4vw0",
+      "creator": { "@type": "Person", "name": "Bruno Paulista" },
+      "duration": "PT182S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Knee cut pass backstep",
+      "description": "Lasso Guard Backstep Pass film study: Knee cut pass backstep, taught by Thunderdome BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/bl_Bsn3IxXM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/bl_Bsn3IxXM",
+      "url": "https://www.youtube.com/watch?v=bl_Bsn3IxXM",
+      "creator": { "@type": "Person", "name": "Thunderdome BJJ" },
+      "duration": "PT50S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Long step pass from open guard",
+      "description": "Lasso Guard Backstep Pass film study: Long step pass from open guard, taught by Ultra Jiu Jitsu Academy.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/48BAeXxcAK4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/48BAeXxcAK4",
+      "url": "https://www.youtube.com/watch?v=48BAeXxcAK4",
+      "creator": { "@type": "Person", "name": "Ultra Jiu Jitsu Academy" },
+      "duration": "PT123S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ The backstep integrates effectively into a multi-directional lasso guard passing
 **Success Rate**: 55%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Lasso Guard Backstep Pass in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=xJ2w7bL4vw0)
+
+<p class="clip-credit"><strong>Lasso Guard back step pass</strong> — taught by Bruno Paulista · 3:02 · <a href="https://www.youtube.com/watch?v=xJ2w7bL4vw0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=bl_Bsn3IxXM)
+
+<p class="clip-credit"><strong>Knee cut pass backstep</strong> — taught by Thunderdome BJJ · 0:50 · <a href="https://www.youtube.com/watch?v=bl_Bsn3IxXM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=48BAeXxcAK4)
+
+<p class="clip-credit"><strong>Long step pass from open guard</strong> — taught by Ultra Jiu Jitsu Academy · 2:03 · <a href="https://www.youtube.com/watch?v=48BAeXxcAK4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

@@ -168,6 +168,54 @@ description: "How to execute Ankle Lock Finish in BJJ. Attacking perspective wit
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Ankle Lock Finish (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Straight ankle lock finish",
+      "description": "Ankle Lock Finish (Attacker) film study: Straight ankle lock finish, taught by bjjtaro.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/PsyAVXfRhyY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/PsyAVXfRhyY",
+      "url": "https://www.youtube.com/watch?v=PsyAVXfRhyY",
+      "creator": { "@type": "Person", "name": "bjjtaro" },
+      "duration": "PT16S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Straight ankle lock breakdown",
+      "description": "Ankle Lock Finish (Attacker) film study: Straight ankle lock breakdown, taught by Tex Johnson.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/3h9twIIueXU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/3h9twIIueXU",
+      "url": "https://www.youtube.com/watch?v=3h9twIIueXU",
+      "creator": { "@type": "Person", "name": "Tex Johnson" },
+      "duration": "PT49S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Achilles lock finish from guard",
+      "description": "Ankle Lock Finish (Attacker) film study: Achilles lock finish from guard, taught by Kinesiology College.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/9gbX4ppi95c/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/9gbX4ppi95c",
+      "url": "https://www.youtube.com/watch?v=9gbX4ppi95c",
+      "creator": { "@type": "Person", "name": "Kinesiology College" },
+      "duration": "PT57S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -181,6 +229,42 @@ Strategically, the Ankle Lock Finish serves as a high-percentage option when hee
 **From Position**: [[Positions/Ashi Garami/Ushiro Ashi-Garami]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Ankle Lock Finish (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=PsyAVXfRhyY)
+
+<p class="clip-credit"><strong>Straight ankle lock finish</strong> — taught by bjjtaro · 0:16 · <a href="https://www.youtube.com/watch?v=PsyAVXfRhyY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=3h9twIIueXU)
+
+<p class="clip-credit"><strong>Straight ankle lock breakdown</strong> — taught by Tex Johnson · 0:49 · <a href="https://www.youtube.com/watch?v=3h9twIIueXU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=9gbX4ppi95c)
+
+<p class="clip-credit"><strong>Achilles lock finish from guard</strong> — taught by Kinesiology College · 0:57 · <a href="https://www.youtube.com/watch?v=9gbX4ppi95c" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

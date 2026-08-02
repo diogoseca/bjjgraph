@@ -180,6 +180,43 @@ description: "Learn to execute the Overhook to Half Guard transition from bottom
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Overhook to Half Guard (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Overhook escape into half guard sweep",
+      "description": "Overhook to Half Guard (Attacker) film study: Overhook escape into half guard sweep, taught by JiuJitsu.com.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/21-ZmD25pMs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/21-ZmD25pMs",
+      "url": "https://www.youtube.com/watch?v=21-ZmD25pMs",
+      "creator": { "@type": "Person", "name": "JiuJitsu.com" },
+      "duration": "PT197S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Half guard bridge to underhook vs the whizzer",
+      "description": "Overhook to Half Guard (Attacker) film study: Half guard bridge to underhook vs the whizzer, taught by Revolution BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/D1Hhvv4pXQA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/D1Hhvv4pXQA",
+      "url": "https://www.youtube.com/watch?v=D1Hhvv4pXQA",
+      "creator": { "@type": "Person", "name": "Revolution BJJ" },
+      "duration": "PT78S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -189,6 +226,34 @@ As the bottom player executing the Overhook to Half Guard transition, your objec
 **From Position**: [[Positions/Overhook Control]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Overhook to Half Guard (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=21-ZmD25pMs)
+
+<p class="clip-credit"><strong>Overhook escape into half guard sweep</strong> — taught by JiuJitsu.com · 3:17 · <a href="https://www.youtube.com/watch?v=21-ZmD25pMs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=D1Hhvv4pXQA)
+
+<p class="clip-credit"><strong>Half guard bridge to underhook vs the whizzer</strong> — taught by Revolution BJJ · 1:18 · <a href="https://www.youtube.com/watch?v=D1Hhvv4pXQA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

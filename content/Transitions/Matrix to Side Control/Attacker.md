@@ -174,6 +174,43 @@ description: "Execute the Matrix to Side Control transition as the top player. T
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Matrix to Side Control (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Standing Pass to North-South Matrix",
+      "description": "Matrix to Side Control (Attacker) film study: Standing Pass to North-South Matrix, taught by Greg Hamilton.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/kXdw4YnLJnE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/kXdw4YnLJnE",
+      "url": "https://www.youtube.com/watch?v=kXdw4YnLJnE",
+      "creator": { "@type": "Person", "name": "Greg Hamilton" },
+      "duration": "PT323S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Craig Jones Matrix to Top Position Compilation",
+      "description": "Matrix to Side Control (Attacker) film study: Craig Jones Matrix to Top Position Compilation, taught by Craig Jones.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/uo8-ZJyba08/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/uo8-ZJyba08",
+      "url": "https://www.youtube.com/watch?v=uo8-ZJyba08",
+      "creator": { "@type": "Person", "name": "Craig Jones" },
+      "duration": "PT63S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -183,6 +220,34 @@ The Matrix to Side Control transition from the attacker's perspective involves c
 **From Position**: [[Positions/Matrix]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Matrix to Side Control (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=kXdw4YnLJnE)
+
+<p class="clip-credit"><strong>Standing Pass to North-South Matrix</strong> — taught by Greg Hamilton · 5:23 · <a href="https://www.youtube.com/watch?v=kXdw4YnLJnE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=uo8-ZJyba08)
+
+<p class="clip-credit"><strong>Craig Jones Matrix to Top Position Compilation</strong> — taught by Craig Jones · 1:03 · <a href="https://www.youtube.com/watch?v=uo8-ZJyba08" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

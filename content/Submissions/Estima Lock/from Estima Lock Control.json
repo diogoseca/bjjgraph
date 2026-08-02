@@ -18,7 +18,10 @@
   "target_area": "Foot and ankle joints (dorsiflexion of foot)",
   "starting_position": "Estima Lock Control",
   "from_position": "Estima Lock Control/Top",
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "The Estima Lock finish from the established Estima Lock control position represents the direct submission completion sequence where all positional prerequisites have already been secured. Unlike catching the Estima Lock during scrambles or guard passing transitions, executing the finish from consolidated control allows the attacker to methodically optimize each mechanical component of the submission. The figure-four grip is already configured around the heel and forefoot, hip pressure against the opponent's calf has established the fulcrum, and the foot is trapped in the characteristic inverted orientation that distinguishes this lock from traditional ankle attacks.\n\nThe finishing sequence from established control focuses on three sequential mechanical priorities: optimizing the fulcrum angle so the forearm sits precisely across the dorsal surface of the foot, deepening the grip configuration to prevent any slack that would allow the foot to flatten and escape the bend, and progressively increasing dorsiflexion pressure through coordinated hip drive and grip tightening rather than isolated arm strength. The dorsiflexion vector drives the forefoot upward over the fulcrum into the talocrural joint and surrounding ligament structures, creating direct compression that produces a distinctive and unmistakable submission pressure.\n\nThis position-specific finish demands particular attention to safety due to the rapid onset of dangerous pressure once all mechanical components align properly. The transition from controllable discomfort to ligament-threatening force on the ankle occurs within a narrow window of approximately two to three seconds, making controlled application and constant communication with training partners essential. Practitioners at purple belt and above should develop sensitivity to the mechanical completion point where further pressure serves no training purpose and risks injury to the trapped foot and ankle complex.",
   "safety_considerations": {
     "injury_risks": [
@@ -105,17 +108,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Estima Lock Control/Top",
-      "probability": 29,
+      "probability": {
+        "gi": 29,
+        "nogi": 29
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 16,
+      "probability": {
+        "gi": 16,
+        "nogi": 16
+      },
       "result": "counter"
     }
   ],
@@ -283,42 +295,151 @@
       {
         "question": "What anatomical structures does the Estima Lock primarily attack and through what mechanical action?",
         "answer": "The Estima Lock attacks the talocrural joint (ankle) and surrounding ligament structures including the deltoid ligament complex and talofibular ligaments through forced dorsiflexion—driving the forefoot upward over the forearm fulcrum rather than rotating it like a toe hold. The inverted foot orientation positions these structures under mechanical disadvantage, and the forearm fulcrum across the dorsal surface of the foot creates the lever system that produces submission pressure on the joint capsule and supporting ligaments.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Ankle bent upward over a lever",
+        "distractors": {
+          "plausible": [
+            "Twisting the ankle inward",
+            "Bending the knee backward"
+          ],
+          "trap": [
+            "Rip it with a sharp jerk"
+          ]
+        }
       },
       {
         "question": "What role does the hip fulcrum play in the finishing mechanics and what happens if it disengages?",
         "answer": "The hip pressure against the opponent's calf creates the primary fulcrum point that converts grip tension into upward dorsiflexion force on the ankle. Without this fulcrum, the submission becomes a pure pulling motion with dramatically reduced mechanical advantage. If the hip fulcrum disengages due to opponent's free leg push or your own positional drift, the lock immediately loses finishing power and the opponent can retract their leg or flatten the foot to neutralize the angle. Re-establishing hip contact is the first priority before continuing any finishing pressure.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Hip drives dorsiflexion force",
+        "distractors": {
+          "plausible": [
+            "Grip alone creates the force",
+            "Shoulder pressure locks ankle"
+          ],
+          "trap": [
+            "Release hip, pull with arms"
+          ]
+        }
       },
       {
         "question": "Your opponent begins counter-rotating their ankle to neutralize the lock angle—what adjustment should you make before the angle is fully compromised?",
         "answer": "Immediately deepen the forearm fulcrum by sliding it further toward the toes to increase your mechanical advantage against their counter-rotation. Simultaneously increase hip drive pressure into their calf to prevent their leg from creating the space needed for effective counter-rotation. If these adjustments fail and the angle is neutralized, transition to a toe hold by adjusting your grip to attack the now-exposed toe line rather than forcing a compromised Estima Lock angle.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Deepen fulcrum, drive hip harder",
+        "distractors": {
+          "plausible": [
+            "Pull the heel toward your chest",
+            "Re-clamp the grip and restart"
+          ],
+          "trap": [
+            "Release grip and reset angle"
+          ]
+        }
       },
       {
         "question": "What physical indicators tell you the submission has reached the point of no escape for the defender?",
         "answer": "The point of no escape is indicated by the forearm fulcrum being fully seated across the mid-foot with no slack in the figure-four grip, the opponent's heel locked immobile in the crook of your grip hand, hip pressure maintaining continuous contact with their calf eliminating retraction space, and the opponent's free leg either controlled or unable to create sufficient frame pressure to displace your hips. When all four of these conditions are simultaneously met and you feel resistance through the ankle ligaments during the dorsiflexion drive, the mechanical completion is imminent.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Grip seated, hip pinned, no slack",
+        "distractors": {
+          "plausible": [
+            "Lock simply feels very tight",
+            "They quit reaching for your hands"
+          ],
+          "trap": [
+            "Ease pressure when they wince"
+          ]
+        }
       },
       {
         "question": "Why must finishing pressure be applied progressively over 3-5 seconds rather than with a quick jerk?",
         "answer": "The ankle joint and surrounding ligaments have a very narrow window between the onset of significant discomfort and the point of structural damage. Quick jerking motions bypass the defender's ability to recognize pain and signal a tap, creating serious risk of ligament tears, ankle sprains, or even fracture. Progressive application over 3-5 seconds minimum gives the defender multiple opportunities to tap while the attacker feels the graduated resistance that indicates mechanical completion. In training, controlled application preserves training partners and builds more precise finishing sensitivity.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Gives time to feel pain and tap",
+        "distractors": {
+          "plausible": [
+            "Lets you re-adjust the figure-four",
+            "Reduces strain on your own wrist"
+          ],
+          "trap": [
+            "Jerk fast before he defends"
+          ]
+        }
       },
       {
         "question": "How should you immediately respond when you feel or hear a tap signal during the finishing sequence?",
         "answer": "Release the figure-four grip immediately and completely upon any tap signal—verbal, physical hand tap, foot tap, or any distress sound. Allow the opponent's foot to return to its neutral position naturally without jerking or spiking the release. Maintain visual contact with your partner to confirm they are okay. Never apply any additional pressure after detecting a tap regardless of whether you believe the submission was complete. In competition, maintain the hold only until the referee intervenes, but never increase pressure after a tap even if the referee is delayed.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Release grip immediately, fully",
+        "distractors": {
+          "plausible": [
+            "Ease pressure gradually first",
+            "Hold until ref confirms tap"
+          ],
+          "trap": [
+            "Add pressure to confirm tap"
+          ]
+        }
       },
       {
         "question": "Your forearm fulcrum is positioned near the ankle joint rather than mid-foot and you feel the opponent is tolerating your pressure easily—what mechanical adjustment is needed?",
         "answer": "Slide the forearm blade distally along the foot toward the metatarsal area without releasing the heel control point. The closer your fulcrum is to the toes, the longer the lever arm becomes, which multiplies the upward dorsiflexion force applied to the ankle joint for the same amount of grip effort. A fulcrum positioned near the ankle creates a very short lever arm that requires dramatically more force to produce equivalent dorsiflexion, which is why the opponent tolerates it. This adjustment often transforms a stalled lock into a finishing lock without increasing effort.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Lengthen lever toward the toes",
+        "distractors": {
+          "plausible": [
+            "Shift blade back to the ankle",
+            "Just squeeze the grip harder"
+          ],
+          "trap": [
+            "Straighten their knee with a jerk"
+          ]
+        }
       },
       {
         "question": "In competition when time is running low, how should you adjust your Estima Lock finishing strategy?",
         "answer": "Under time pressure, prioritize rapid consolidation of all four finishing prerequisites simultaneously rather than sequentially: seat the grip, drive the hip fulcrum, control the free leg, and initiate the dorsiflexion in one coordinated movement. Increase the rate of progressive pressure application while still avoiding dangerous jerking. If the primary Estima Lock angle is being defended, transition immediately to the highest-percentage alternative rather than spending time re-adjusting—a toe hold or belly-down variation often finishes faster than fighting through a well-established foot-flattening defense.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Consolidate all steps at once",
+        "distractors": {
+          "plausible": [
+            "Reset grip for a cleaner angle",
+            "Abandon lock, hunt a sweep"
+          ],
+          "trap": [
+            "Jerk hard to force the tap"
+          ]
+        }
+      }
+    ],
+    "clips": [
+      {
+        "id": "_6BC8d5B5Hs",
+        "title": "Estima Lock",
+        "by": "bjjtaro",
+        "vertical": false,
+        "channel": "bjjtaro",
+        "duration": 31,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "Ao0IatSHEi0",
+        "title": "Estima Lock",
+        "by": "Leandro Dos Santos Flores",
+        "vertical": false,
+        "channel": "Sensei Leandro Dos Santos Flores",
+        "duration": 27,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "-RKlONkjanA",
+        "title": "Estima Lock Finish",
+        "by": "Yao Nkromah",
+        "vertical": false,
+        "channel": "Yao TheTruth",
+        "duration": 50,
+        "verified": "2026-07-14"
       }
     ]
   },
@@ -410,27 +531,77 @@
       {
         "question": "What are the earliest recognition cues that an Estima Lock finish is being initiated from the control position?",
         "answer": "The earliest cues include the attacker tightening their figure-four grip with increased pressure on your heel as a fixed point, their forearm blade pressing more firmly across the top of your foot, increased hip drive against your calf establishing the finishing fulcrum, and attempts to control or pin your free leg. The grip tightening and hip pressure increase typically precede the actual dorsiflexion finishing motion by 2-3 seconds, providing a critical defensive window.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Grip tightens, hip drives in",
+        "distractors": {
+          "plausible": [
+            "Attacker leans away flat",
+            "They reach for your toes"
+          ],
+          "trap": [
+            "Wait until it hurts to react"
+          ]
+        }
       },
       {
         "question": "When should you tap to the Estima Lock rather than continuing to defend?",
         "answer": "Tap immediately when you experience sharp pain in the ankle joint or Achilles tendon area, when you can no longer effectively counter-rotate against the lock angle, when your free leg has been controlled and you have no remaining escape tools, or when you feel the distinctive sensation of ligaments being loaded beyond their comfortable range. In training, tap early and tap often—the Estima Lock can transition from uncomfortable to damaging within 2-3 seconds, and no training submission is worth an ankle injury.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Sharp pain or no counters left",
+        "distractors": {
+          "plausible": [
+            "Once your grips are broken",
+            "After your hips get flattened"
+          ],
+          "trap": [
+            "Tough it out and hope it slips"
+          ]
+        }
       },
       {
         "question": "Why is it a mistake to grab the attacker's hands directly as your first defensive action?",
         "answer": "Grabbing the attacker's hands without first addressing their body position wastes energy on grip fighting while the attacker maintains superior positional control through their hip fulcrum and base. They can simply re-grip while maintaining the same structural advantage because you have not changed the fundamental positional dynamic. The correct priority is creating frames on their hips or torso to displace the fulcrum first, then systematically addressing grips while maintaining the defensive structure you have created.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Ignores fulcrum, wastes energy",
+        "distractors": {
+          "plausible": [
+            "Hands are simply too strong",
+            "Their grip is already locked in"
+          ],
+          "trap": [
+            "Frees their hips to finish you"
+          ]
+        }
       },
       {
         "question": "How does maintaining a slight knee bend in the trapped leg protect the ankle during defense?",
         "answer": "A bent knee creates an angle in the force chain between the attacker's grip and your ankle joint, absorbing a portion of the dorsiflexion force through the larger knee joint rather than concentrating it entirely on the smaller ankle ligaments. A fully straightened leg transmits all force directly through the ankle without absorption, dramatically amplifying the submission pressure and accelerating the rate at which dangerous load levels are reached on the ligament structures.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Knee absorbs dorsiflexion force",
+        "distractors": {
+          "plausible": [
+            "Bent knee blocks the grip",
+            "Bent knee hides the foot"
+          ],
+          "trap": [
+            "Straight leg spreads force"
+          ]
+        }
       },
       {
         "question": "What is the correct sequence of defensive priorities when caught in an established Estima Lock?",
         "answer": "The correct sequence is: first, counter-rotate the ankle to reduce immediate strain and buy time; second, activate the free leg to push the attacker's hips and break the fulcrum connection; third, establish frames on the attacker's torso to generate extraction space; fourth, systematically address the grip while maintaining frames; fifth, extract the trapped leg through the space created. Attempting later steps before earlier ones are addressed results in wasted energy and continued vulnerability to the finish.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Rotate, push, frame, grip, extract",
+        "distractors": {
+          "plausible": [
+            "Grip fight, then frame, rotate",
+            "Frame first, then push leg"
+          ],
+          "trap": [
+            "Extract leg before framing"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -453,6 +624,35 @@
         "phase": "Phase 4: Transition Integration",
         "focus": "Defending within full leg lock exchanges",
         "description": "Integrate Estima Lock defense into broader leg entanglement sparring. Start from 50-50 or open guard and work through the full positional chain including Estima Lock attempts and defenses. Develop the ability to recognize and defend the lock within the flow of dynamic grappling rather than only from static starting positions."
+      }
+    ],
+    "clips": [
+      {
+        "id": "zErch4qHfB0",
+        "title": "Counter Footlock from Straight Ankle Lock",
+        "by": "James Clingerman",
+        "vertical": false,
+        "channel": "James Clingerman",
+        "duration": 12,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "e2cpItCWRdQ",
+        "title": "Estima lock and estima lock escape",
+        "by": "Budo Jake",
+        "vertical": false,
+        "channel": "BudoVideos.com",
+        "duration": 295,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "-L_WChy0fP8",
+        "title": "Escaping the straight foot lock",
+        "by": "Boa Jiu-Jitsu Club",
+        "vertical": false,
+        "channel": "Boa Jiu-Jitsu Club",
+        "duration": 221,
+        "verified": "2026-07-15"
       }
     ]
   }

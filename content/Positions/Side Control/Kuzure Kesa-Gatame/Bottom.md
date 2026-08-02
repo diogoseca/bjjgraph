@@ -21,37 +21,37 @@ description: "Defensive guide for escaping modified scarf hold. Learn arm recove
     {
       "@type": "HowToStep",
       "name": "Execute Elbow Escape to Guard",
-      "text": "From this position, attempt Elbow Escape to Guard. This technique is attempted in 22% of exchanges from this position.",
+      "text": "From this position, attempt Elbow Escape to Guard. This technique is attempted in 21% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Arm Recovery to Guard",
-      "text": "From this position, attempt Arm Recovery to Guard. This technique is attempted in 16% of exchanges from this position.",
+      "text": "From this position, attempt Arm Recovery to Guard. This technique is attempted in 20% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Bridge and Roll",
-      "text": "From this position, attempt Bridge and Roll. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Bridge and Roll. This technique is attempted in 12% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Granby Roll to Guard",
-      "text": "From this position, attempt Granby Roll to Guard. This technique is attempted in 17% of exchanges from this position.",
+      "text": "From this position, attempt Granby Roll to Guard. This technique is attempted in 12% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Technical Stand-up",
-      "text": "From this position, attempt Technical Stand-up. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Technical Stand-up. This technique is attempted in 9% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Re-Guard from Headquarters",
-      "text": "From this position, attempt Re-Guard from Headquarters. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt Re-Guard from Headquarters. This technique is attempted in 13% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -153,6 +153,54 @@ description: "Defensive guide for escaping modified scarf hold. Learn arm recove
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Kuzure Kesa-Gatame (Bottom) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Kuzure Kesa Gatame Escape",
+      "description": "Kuzure Kesa-Gatame (Bottom) film study: Kuzure Kesa Gatame Escape, taught by Dojo Tarraco.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/qdycaYFRfa4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/qdycaYFRfa4",
+      "url": "https://www.youtube.com/watch?v=qdycaYFRfa4",
+      "creator": { "@type": "Person", "name": "Dojo Tarraco" },
+      "duration": "PT25S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Kesa Gatame Escape",
+      "description": "Kuzure Kesa-Gatame (Bottom) film study: Kesa Gatame Escape, taught by SBG Australia.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/2M_6VytUaus/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/2M_6VytUaus",
+      "url": "https://www.youtube.com/watch?v=2M_6VytUaus",
+      "creator": { "@type": "Person", "name": "SBG Australia" },
+      "duration": "PT43S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Kesa Gatame Pressure Defense w/ Framing",
+      "description": "Kuzure Kesa-Gatame (Bottom) film study: Kesa Gatame Pressure Defense w/ Framing, taught by Kohbukan Sisu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/fvp5_BVEtLg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/fvp5_BVEtLg",
+      "url": "https://www.youtube.com/watch?v=fvp5_BVEtLg",
+      "creator": { "@type": "Person", "name": "Kohbukan Sisu" },
+      "duration": "PT84S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -166,6 +214,42 @@ Successful escape from bottom Kuzure Kesa-Gatame requires understanding the posi
 The position also demands exceptional conditioning and mental resilience. The constant pressure, restricted breathing, and submission threats create significant psychological stress that can lead to panic and poor decision-making. Developing the ability to remain calm under pressure, maintain awareness of escape timing windows, and execute techniques precisely despite fatigue and discomfort represents a critical aspect of high-level defensive grappling. Training positional sparring from this position, gradually building tolerance for pressure and refining escape mechanics under realistic resistance, forms the foundation of effective defensive development.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Kuzure Kesa-Gatame (Bottom) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=qdycaYFRfa4)
+
+<p class="clip-credit"><strong>Kuzure Kesa Gatame Escape</strong> — taught by Dojo Tarraco · 0:25 · <a href="https://www.youtube.com/watch?v=qdycaYFRfa4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=2M_6VytUaus)
+
+<p class="clip-credit"><strong>Kesa Gatame Escape</strong> — taught by SBG Australia · 0:43 · <a href="https://www.youtube.com/watch?v=2M_6VytUaus" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=fvp5_BVEtLg)
+
+<p class="clip-credit"><strong>Kesa Gatame Pressure Defense w/ Framing</strong> — taught by Kohbukan Sisu · 1:24 · <a href="https://www.youtube.com/watch?v=fvp5_BVEtLg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

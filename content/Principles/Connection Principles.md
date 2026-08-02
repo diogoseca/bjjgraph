@@ -164,6 +164,54 @@ description: "Master connection principles in BJJ. Learn grip management, frame 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Connection Principles \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Guard passing connection system explained",
+      "description": "Connection Principles film study: Guard passing connection system explained, taught by Kyle \u0027Bull\u0027 Sleeman.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/x05l4enyJzc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/x05l4enyJzc",
+      "url": "https://www.youtube.com/watch?v=x05l4enyJzc",
+      "creator": { "@type": "Person", "name": "Kyle \u0027Bull\u0027 Sleeman" },
+      "duration": "PT61S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Grip fighting: the key to controlling connection",
+      "description": "Connection Principles film study: Grip fighting: the key to controlling connection, taught by Jon Thomas.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/2oB9q88tXFc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/2oB9q88tXFc",
+      "url": "https://www.youtube.com/watch?v=2oB9q88tXFc",
+      "creator": { "@type": "Person", "name": "Jon Thomas" },
+      "duration": "PT692S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Understanding no-gi grips and connection points",
+      "description": "Connection Principles film study: Understanding no-gi grips and connection points, taught by Rob Vella.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/qmenbqzxJHM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/qmenbqzxJHM",
+      "url": "https://www.youtube.com/watch?v=qmenbqzxJHM",
+      "creator": { "@type": "Person", "name": "Rob Vella" },
+      "duration": "PT1136S"
+    }
+  ]
+}
+</script>
+
+
 <section id="overview" class="content-section">
 
 ## What are Connection Principles?
@@ -177,6 +225,42 @@ The concept operates on multiple levels simultaneously: offensive connections th
 Connection principles extend beyond simple grip fighting to encompass the entire tactical landscape of grappling exchanges. They include understanding connection hierarchy (which grips matter most in specific contexts), connection timing (when to establish or break contact), connection quality (strong versus light touch), and connection sequencing (how to chain grips and frames together). The concept also addresses the reciprocal nature of connections - recognizing that every connection you establish on your opponent simultaneously gives them a connection to you, creating a complex tactical calculus about which connections provide net advantage in any given position.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Connection Principles in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=x05l4enyJzc)
+
+<p class="clip-credit"><strong>Guard passing connection system explained</strong> — taught by Kyle &#39;Bull&#39; Sleeman · 1:01 · <a href="https://www.youtube.com/watch?v=x05l4enyJzc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=2oB9q88tXFc)
+
+<p class="clip-credit"><strong>Grip fighting: the key to controlling connection</strong> — taught by Jon Thomas · 11:32 · <a href="https://www.youtube.com/watch?v=2oB9q88tXFc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=qmenbqzxJHM)
+
+<p class="clip-credit"><strong>Understanding no-gi grips and connection points</strong> — taught by Rob Vella · 18:56 · <a href="https://www.youtube.com/watch?v=qmenbqzxJHM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="building-blocks" class="content-section">
 

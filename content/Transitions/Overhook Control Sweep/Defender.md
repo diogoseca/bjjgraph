@@ -148,6 +148,54 @@ description: "Master defending the Overhook Control Sweep in BJJ. Recognition cu
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Overhook Control Sweep (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Closed Guard Defense and Counter to the Overhook",
+      "description": "Overhook Control Sweep (Defender) film study: Closed Guard Defense and Counter to the Overhook, taught by The Grappling Bloke.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/58LkTy6v3KQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/58LkTy6v3KQ",
+      "url": "https://www.youtube.com/watch?v=58LkTy6v3KQ",
+      "creator": { "@type": "Person", "name": "The Grappling Bloke" },
+      "duration": "PT109S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Hip Flick Defense to the Hook Sweep",
+      "description": "Overhook Control Sweep (Defender) film study: Hip Flick Defense to the Hook Sweep, taught by Satori BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/O3YoK7uDtHI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/O3YoK7uDtHI",
+      "url": "https://www.youtube.com/watch?v=O3YoK7uDtHI",
+      "creator": { "@type": "Person", "name": "Satori BJJ" },
+      "duration": "PT80S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Counter to the Whizzer in Dogfight",
+      "description": "Overhook Control Sweep (Defender) film study: Counter to the Whizzer in Dogfight, taught by The Base Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/hgup3-KphBM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/hgup3-KphBM",
+      "url": "https://www.youtube.com/watch?v=hgup3-KphBM",
+      "creator": { "@type": "Person", "name": "The Base Jiu Jitsu" },
+      "duration": "PT119S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +205,42 @@ Defending the Overhook Control Sweep requires recognizing the setup cues early a
 **Opponent's Starting Position**: [[Positions/Overhook Control]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Overhook Control Sweep (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=58LkTy6v3KQ)
+
+<p class="clip-credit"><strong>Closed Guard Defense and Counter to the Overhook</strong> — taught by The Grappling Bloke · 1:49 · <a href="https://www.youtube.com/watch?v=58LkTy6v3KQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=O3YoK7uDtHI)
+
+<p class="clip-credit"><strong>Hip Flick Defense to the Hook Sweep</strong> — taught by Satori BJJ · 1:20 · <a href="https://www.youtube.com/watch?v=O3YoK7uDtHI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=hgup3-KphBM)
+
+<p class="clip-credit"><strong>Counter to the Whizzer in Dogfight</strong> — taught by The Base Jiu Jitsu · 1:59 · <a href="https://www.youtube.com/watch?v=hgup3-KphBM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

@@ -14,21 +14,33 @@
   "outcomes": [
     {
       "to": "Side Control/Top",
-      "probability": 60,
+      "probability": {
+        "gi": 60,
+        "nogi": 60
+      },
       "result": "success"
     },
     {
       "to": "Standing Position/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Standing Position/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 60,
+  "success_rate": {
+    "gi": 60,
+    "nogi": 60
+  },
   "summary": "Sasae Tsurikomi Ashi is a judo propping-drawing ankle throw adapted for BJJ in which the attacker blocks the opponent's advancing ankle with the foot sole while lifting and rotating their upper body, toppling them over that fixed point into top control.",
   "overview": "Originating from judo's ashi-waza (foot-technique) family, Sasae Tsurikomi Ashi has become a valuable standing weapon for BJJ competitors who favor technical entries over wrestling-heavy scrambles. The technique exploits forward momentum and circular movement, using precise timing to block the opponent's ankle while simultaneously lifting and pulling their upper body over the fixed point. Its effectiveness lies in its minimal force requirement - when executed with correct timing, the opponent's own movement and weight distribution do most of the work, because the throw relies on kuzushi (off-balancing) and precise placement of the blocking foot rather than raw power. It is particularly effective against opponents who step forward aggressively or maintain an upright, forward-leaning posture. In competition, where many practitioners lack a traditional judo or wrestling background, this timing-based foot sweep is often unexpected and provides a clean 2-point takedown that flows directly into dominant positions such as side control.",
   "related_content": [
@@ -235,46 +247,166 @@
     "flashcards": [
       {
         "question": "What is the most critical timing element for Sasae Tsurikomi Ashi to be effective?",
-        "answer": "The blocking foot must be placed at the exact moment when the opponent is committed to their forward step and their weight is shifting beyond their base of support. Placing it too early allows them to adjust, while placing it too late means they have already established their new base."
+        "answer": "The blocking foot must be placed at the exact moment when the opponent is committed to their forward step and their weight is shifting beyond their base of support. Placing it too early allows them to adjust, while placing it too late means they have already established their new base.",
+        "answer_line": "Block foot as weight leaves base",
+        "distractors": {
+          "plausible": [
+            "Block early to stop the step",
+            "Block once new base is set"
+          ],
+          "trap": [
+            "Yank grips, dive at the leg"
+          ]
+        }
       },
       {
         "question": "Why is the circular movement pattern important in the setup for this technique?",
-        "answer": "The circular movement creates rotational momentum that makes the opponent naturally want to step forward to maintain balance. This momentum, combined with the foot block, makes the throw require minimal force. It also disguises the attack by making the setup look like normal grip fighting and movement."
+        "answer": "The circular movement creates rotational momentum that makes the opponent naturally want to step forward to maintain balance. This momentum, combined with the foot block, makes the throw require minimal force. It also disguises the attack by making the setup look like normal grip fighting and movement.",
+        "answer_line": "Builds momentum, forces a step",
+        "distractors": {
+          "plausible": [
+            "Just fakes out their grips",
+            "Tires opponent before attack"
+          ],
+          "trap": [
+            "Circle away to create distance"
+          ]
+        }
       },
       {
         "question": "How should the blocking foot be positioned to create maximum effectiveness?",
-        "answer": "The toes should be pulled back toward the shin, creating a solid barrier with the sole of the foot against the opponent's ankle. The foot should be placed at approximately mid-ankle height, perpendicular to their leg's direction of movement, creating an immovable obstacle that their forward momentum drives them into."
+        "answer": "The toes should be pulled back toward the shin, creating a solid barrier with the sole of the foot against the opponent's ankle. The foot should be placed at approximately mid-ankle height, perpendicular to their leg's direction of movement, creating an immovable obstacle that their forward momentum drives them into.",
+        "answer_line": "Toes pulled back, sole at mid-ankle",
+        "distractors": {
+          "plausible": [
+            "Toes pointed, hook the ankle",
+            "Flat foot up at the shin"
+          ],
+          "trap": [
+            "Stomp down onto the instep"
+          ]
+        }
       },
       {
         "question": "What is the primary difference between Sasae Tsurikomi Ashi and Deashi Harai in terms of mechanics?",
-        "answer": "Sasae uses a blocking action where your foot creates a stationary barrier, while Deashi uses a sweeping action where your foot actively sweeps their ankle. Sasae emphasizes the upward pulling action more, while Deashi emphasizes the sweeping timing. Sasae typically works better against forward movement, Deashi against lateral movement."
+        "answer": "Sasae uses a blocking action where your foot creates a stationary barrier, while Deashi uses a sweeping action where your foot actively sweeps their ankle. Sasae emphasizes the upward pulling action more, while Deashi emphasizes the sweeping timing. Sasae typically works better against forward movement, Deashi against lateral movement.",
+        "answer_line": "Sasae blocks, Deashi sweeps",
+        "distractors": {
+          "plausible": [
+            "Sasae is faster, Deashi slower",
+            "Sasae for grips, Deashi for hips"
+          ],
+          "trap": [
+            "Use Sasae on lateral movement"
+          ]
+        }
       },
       {
         "question": "If your opponent consistently steps over your blocking foot, what technical adjustments should you make?",
-        "answer": "First, ensure you are creating proper kuzushi before placing the foot - if they can step over, they are not truly off-balance. Second, place the block lower, closer to the floor. Third, consider switching to combination attacks, using their step-over as an entry for Kouchi Gari or switching to an upper body throw like a hip throw when they lift their leg high."
+        "answer": "First, ensure you are creating proper kuzushi before placing the foot - if they can step over, they are not truly off-balance. Second, place the block lower, closer to the floor. Third, consider switching to combination attacks, using their step-over as an entry for Kouchi Gari or switching to an upper body throw like a hip throw when they lift their leg high.",
+        "answer_line": "Get real kuzushi, block lower",
+        "distractors": {
+          "plausible": [
+            "Block higher, near the knee",
+            "Chase harder with same block"
+          ],
+          "trap": [
+            "Let go of grips and retry"
+          ]
+        }
       },
       {
         "question": "What role do the hands play during the actual execution of the throw?",
-        "answer": "The hands perform a lifting and circular pulling action. The collar hand pulls upward and across, while the sleeve hand pulls in a wide arc. This combined action lifts the opponent's upper body and rotates them around the blocked ankle, completing the throw. The hands do most of the actual throwing work, while the foot simply blocks."
+        "answer": "The hands perform a lifting and circular pulling action. The collar hand pulls upward and across, while the sleeve hand pulls in a wide arc. This combined action lifts the opponent's upper body and rotates them around the blocked ankle, completing the throw. The hands do most of the actual throwing work, while the foot simply blocks.",
+        "answer_line": "Collar lifts, sleeve pulls arc",
+        "distractors": {
+          "plausible": [
+            "Hands just maintain grips",
+            "Sleeve lifts, collar pulls down"
+          ],
+          "trap": [
+            "Push opponent's chest down"
+          ]
+        }
       },
       {
         "question": "Why is it important to maintain grips through the landing phase of this technique?",
-        "answer": "Maintaining grips allows you to control how the opponent lands, preventing them from recovering guard or scrambling to safety. The grips enable you to immediately establish top position such as side control or knee on belly and begin passing or advancing position. Without grip control, the opponent can turtle, create distance, or pull guard during the landing."
+        "answer": "Maintaining grips allows you to control how the opponent lands, preventing them from recovering guard or scrambling to safety. The grips enable you to immediately establish top position such as side control or knee on belly and begin passing or advancing position. Without grip control, the opponent can turtle, create distance, or pull guard during the landing.",
+        "answer_line": "Grips control where they land",
+        "distractors": {
+          "plausible": [
+            "Grips help you fall safely",
+            "Grips add extra throw power"
+          ],
+          "trap": [
+            "Release grips to sprawl free"
+          ]
+        }
       },
       {
         "question": "Your opponent is pulling backward every time you initiate circular movement - how do you adapt your attack sequence?",
-        "answer": "When an opponent habitually retreats, their weight loads onto the rear leg, making it vulnerable to attacks that follow their momentum. Switch to Osoto Gari or Ouchi Gari to attack the weighted rear leg. Alternatively, use their backward pull to set up an Ankle Pick on the lead leg, which becomes light as they shift weight backward. The key is to attack in the direction they are already moving."
+        "answer": "When an opponent habitually retreats, their weight loads onto the rear leg, making it vulnerable to attacks that follow their momentum. Switch to Osoto Gari or Ouchi Gari to attack the weighted rear leg. Alternatively, use their backward pull to set up an Ankle Pick on the lead leg, which becomes light as they shift weight backward. The key is to attack in the direction they are already moving.",
+        "answer_line": "Attack rear leg: Osoto or Ouchi",
+        "distractors": {
+          "plausible": [
+            "Chase forward with more Sasae",
+            "Wait for them to advance again"
+          ],
+          "trap": [
+            "Push into them to regain ground"
+          ]
+        }
       },
       {
         "question": "What grip configuration gives you the strongest kuzushi for Sasae Tsurikomi Ashi and why?",
-        "answer": "A high collar grip near the collarbone combined with a sleeve grip at or above the elbow provides optimal kuzushi. The high collar grip allows maximum upward lifting force to elevate the opponent's center of gravity, while the elbow-level sleeve grip provides the widest possible circular arc for the pulling action. Lower collar grips reduce lifting power and wrist-level sleeve grips reduce rotational leverage."
+        "answer": "A high collar grip near the collarbone combined with a sleeve grip at or above the elbow provides optimal kuzushi. The high collar grip allows maximum upward lifting force to elevate the opponent's center of gravity, while the elbow-level sleeve grip provides the widest possible circular arc for the pulling action. Lower collar grips reduce lifting power and wrist-level sleeve grips reduce rotational leverage.",
+        "answer_line": "High collar, sleeve at elbow",
+        "distractors": {
+          "plausible": [
+            "Low collar, sleeve at wrist",
+            "High collar, sleeve at wrist"
+          ],
+          "trap": [
+            "Cross grip, both same-side hand"
+          ]
+        }
       },
       {
         "question": "How does Sasae Tsurikomi Ashi integrate with a guard pull strategy in BJJ competition?",
-        "answer": "Sasae creates a credible takedown threat that forces the opponent to defend standing, which opens guard pull opportunities when they retract backward. If the sweep attempt fails and the opponent pulls away, the space and broken posture created by the kuzushi attempt sets up ideal conditions for sitting into De La Riva or Reverse De La Riva guard. Conversely, threatening the guard pull keeps opponents cautious about retreating, making them more susceptible to the forward sweep."
+        "answer": "Sasae creates a credible takedown threat that forces the opponent to defend standing, which opens guard pull opportunities when they retract backward. If the sweep attempt fails and the opponent pulls away, the space and broken posture created by the kuzushi attempt sets up ideal conditions for sitting into De La Riva or Reverse De La Riva guard. Conversely, threatening the guard pull keeps opponents cautious about retreating, making them more susceptible to the forward sweep.",
+        "answer_line": "Failed sweep sets up DLR pull",
+        "distractors": {
+          "plausible": [
+            "Only pull guard, skip standing",
+            "Sasae replaces guard pulling"
+          ],
+          "trap": [
+            "Release grips before pulling"
+          ]
+        }
       }
     ],
-    "safety_considerations": "Controlled application is paramount when practicing Sasae Tsurikomi Ashi. The thrower must maintain grips throughout the technique to control the opponent's descent and prevent uncontrolled falls that could result in head, shoulder, or back injuries. During drilling, start with slow, cooperative repetitions to build proper mechanics before adding speed or resistance. Ensure adequate mat space is available in all directions, as the throw can create unexpected rotation. Partners should practice breakfall techniques (ukemi) before being thrown at full speed. When learning, the blocking foot should be placed gently at first to avoid ankle injuries to either person - the blocking leg can be vulnerable to knee torque if planted too rigidly. Never practice this technique near walls, equipment, or other practitioners. Both partners should communicate clearly about resistance levels and gradually progress from static drilling to dynamic application over several weeks."
+    "safety_considerations": "Controlled application is paramount when practicing Sasae Tsurikomi Ashi. The thrower must maintain grips throughout the technique to control the opponent's descent and prevent uncontrolled falls that could result in head, shoulder, or back injuries. During drilling, start with slow, cooperative repetitions to build proper mechanics before adding speed or resistance. Ensure adequate mat space is available in all directions, as the throw can create unexpected rotation. Partners should practice breakfall techniques (ukemi) before being thrown at full speed. When learning, the blocking foot should be placed gently at first to avoid ankle injuries to either person - the blocking leg can be vulnerable to knee torque if planted too rigidly. Never practice this technique near walls, equipment, or other practitioners. Both partners should communicate clearly about resistance levels and gradually progress from static drilling to dynamic application over several weeks.",
+    "clips": [
+      {
+        "id": "kj78xnbn4LA",
+        "title": "An unusual sasae variation",
+        "by": "Shintaro Higashi",
+        "vertical": false,
+        "channel": "Shintaro Higashi",
+        "duration": 60,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "O-MLLz9UHRM",
+        "title": "Sasae tsurikomi ashi short demo",
+        "by": "Judo Advantage coach",
+        "vertical": false,
+        "channel": "Judo Advantage",
+        "duration": 23,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Sasae Tsurikomi Ashi Defender",
@@ -361,23 +493,73 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that your opponent is setting up Sasae Tsurikomi Ashi?",
-        "answer": "The earliest cue is the establishment of a high collar grip combined with the initiation of circular stepping movement. Before any foot technique happens, you will feel an upward pull through the collar grip and a lateral pull through the sleeve grip creating rotational force. This circular movement pattern is the setup phase that precedes all foot sweep variants and gives you the longest window to defend."
+        "answer": "The earliest cue is the establishment of a high collar grip combined with the initiation of circular stepping movement. Before any foot technique happens, you will feel an upward pull through the collar grip and a lateral pull through the sleeve grip creating rotational force. This circular movement pattern is the setup phase that precedes all foot sweep variants and gives you the longest window to defend.",
+        "answer_line": "High collar grip plus circular step",
+        "distractors": {
+          "plausible": [
+            "Sudden change in foot stance",
+            "Opponent breaking eye contact"
+          ],
+          "trap": [
+            "Wait for the foot to move"
+          ]
+        }
       },
       {
         "question": "Why is breaking the collar grip more effective than simply avoiding the blocking foot?",
-        "answer": "The collar grip provides the upward lifting force that is essential to the throw's mechanics. Without it, the attacker cannot elevate your center of gravity above your base of support. The foot block alone does nothing if your weight is not being driven forward and upward into it. By stripping the collar grip early, you remove the mechanical prerequisite for the throw rather than reacting to its final element."
+        "answer": "The collar grip provides the upward lifting force that is essential to the throw's mechanics. Without it, the attacker cannot elevate your center of gravity above your base of support. The foot block alone does nothing if your weight is not being driven forward and upward into it. By stripping the collar grip early, you remove the mechanical prerequisite for the throw rather than reacting to its final element.",
+        "answer_line": "Strips the lift, kills mechanics",
+        "distractors": {
+          "plausible": [
+            "Avoiding foot is just as good",
+            "Both matter equally always"
+          ],
+          "trap": [
+            "Focus only on the foot block"
+          ]
+        }
       },
       {
         "question": "Your opponent attempts Sasae and you successfully retract your foot, but now they are shifting into a different attack - what follow-up attacks should you anticipate?",
-        "answer": "After a defended Sasae, the most common follow-ups are Ouchi Gari or Kouchi Gari targeting the rear leg that now bears most of your weight from the retraction, Osoto Gari if you stepped backward loading the same side leg, or an upper body throw like Harai Goshi if you raised your leg high. You should also anticipate a snap down to front headlock if your posture broke during the defense. Immediately reset your base and grip position rather than staying in the defensive posture."
+        "answer": "After a defended Sasae, the most common follow-ups are Ouchi Gari or Kouchi Gari targeting the rear leg that now bears most of your weight from the retraction, Osoto Gari if you stepped backward loading the same side leg, or an upper body throw like Harai Goshi if you raised your leg high. You should also anticipate a snap down to front headlock if your posture broke during the defense. Immediately reset your base and grip position rather than staying in the defensive posture.",
+        "answer_line": "Expect Ouchi, Osoto, or snap down",
+        "distractors": {
+          "plausible": [
+            "Expect them to retry Sasae only",
+            "Expect a single-leg shot next"
+          ],
+          "trap": [
+            "Relax posture, attack is over"
+          ]
+        }
       },
       {
         "question": "When is pulling guard the correct defensive response to Sasae Tsurikomi Ashi?",
-        "answer": "Pulling guard is appropriate when the kuzushi has already caught you partially off-balance and you cannot recover standing base in time. Rather than being thrown flat and conceding a clean takedown with your opponent landing in top position, you control the descent by gripping sleeves, sitting through, and establishing a guard like De La Riva before you hit the mat. This converts a potential three-point score into a contested guard engagement."
+        "answer": "Pulling guard is appropriate when the kuzushi has already caught you partially off-balance and you cannot recover standing base in time. Rather than being thrown flat and conceding a clean takedown with your opponent landing in top position, you control the descent by gripping sleeves, sitting through, and establishing a guard like De La Riva before you hit the mat. This converts a potential three-point score into a contested guard engagement.",
+        "answer_line": "When kuzushi already broke base",
+        "distractors": {
+          "plausible": [
+            "Anytime they grip the collar",
+            "Only after being thrown flat"
+          ],
+          "trap": [
+            "Stiff-arm and stay rigid standing"
+          ]
+        }
       },
       {
         "question": "How should you adjust your stance and weight distribution when you recognize your opponent favors foot sweep techniques?",
-        "answer": "Lower your center of gravity by increasing knee bend and shifting weight slightly toward your heels rather than the balls of your feet. Narrow your stance slightly to reduce the target for blocking techniques. Move with shorter, quicker steps rather than long strides that create extended moments of single-leg balance. Prioritize breaking their collar grip repeatedly to deny the lifting mechanism. Consider initiating your own attacks or guard pull to prevent them from establishing the circular movement pattern they need."
+        "answer": "Lower your center of gravity by increasing knee bend and shifting weight slightly toward your heels rather than the balls of your feet. Narrow your stance slightly to reduce the target for blocking techniques. Move with shorter, quicker steps rather than long strides that create extended moments of single-leg balance. Prioritize breaking their collar grip repeatedly to deny the lifting mechanism. Consider initiating your own attacks or guard pull to prevent them from establishing the circular movement pattern they need.",
+        "answer_line": "Lower stance, strip their grips",
+        "distractors": {
+          "plausible": [
+            "Wider stance for more stability",
+            "Longer strides to cover ground"
+          ],
+          "trap": [
+            "Rise onto toes for quick steps"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -400,6 +582,26 @@
         "phase": "Week 9+: Live standing defense",
         "focus": "Defense against combinations and live application",
         "description": "Positional sparring from standing where partner attempts Sasae and follow-up combination attacks. Practice defending the initial sweep and the follow-up technique. Develop ability to recognize when counter-attacking is available after a defended Sasae. Track which defensive responses work best against different training partners and body types."
+      }
+    ],
+    "clips": [
+      {
+        "id": "klXnE1xnfKI",
+        "title": "Foot sweep counter",
+        "by": "FL Jiu Jitsu Studies coach",
+        "vertical": false,
+        "channel": "FL Jiu Jitsu Studies",
+        "duration": 12,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "VGy3imISlaA",
+        "title": "Beating the stiff arm to shut down foot sweeps",
+        "by": "Travis Stevens",
+        "vertical": false,
+        "channel": "Travis Stevens",
+        "duration": 95,
+        "verified": "2026-07-15"
       }
     ]
   },

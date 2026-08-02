@@ -154,6 +154,54 @@ description: "How to defend against Turtle to Back Control in BJJ. Recognition c
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Turtle to Back Control (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Standing up out of turtle before the back take",
+      "description": "Turtle to Back Control (Defender) film study: Standing up out of turtle before the back take, taught by Priit Mihkelson.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/_sBB-O8fqP4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/_sBB-O8fqP4",
+      "url": "https://www.youtube.com/watch?v=_sBB-O8fqP4",
+      "creator": { "@type": "Person", "name": "Priit Mihkelson" },
+      "duration": "PT114S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Turtle cheat code: shutting down back takes",
+      "description": "Turtle to Back Control (Defender) film study: Turtle cheat code: shutting down back takes, taught by Stephan Kesting.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/pmz1ID3VgGU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/pmz1ID3VgGU",
+      "url": "https://www.youtube.com/watch?v=pmz1ID3VgGU",
+      "creator": { "@type": "Person", "name": "Stephan Kesting" },
+      "duration": "PT327S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "5 mistakes that give up the back from turtle",
+      "description": "Turtle to Back Control (Defender) film study: 5 mistakes that give up the back from turtle, taught by Priit Mihkelson.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/h2lCF7jLT_w/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/h2lCF7jLT_w",
+      "url": "https://www.youtube.com/watch?v=h2lCF7jLT_w",
+      "creator": { "@type": "Person", "name": "Priit Mihkelson" },
+      "duration": "PT456S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -165,6 +213,42 @@ The critical defensive window occurs before the attacker secures their first hoo
 **Opponent's Starting Position**: [[Positions/Turtle]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Turtle to Back Control (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=_sBB-O8fqP4)
+
+<p class="clip-credit"><strong>Standing up out of turtle before the back take</strong> — taught by Priit Mihkelson · 1:54 · <a href="https://www.youtube.com/watch?v=_sBB-O8fqP4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=pmz1ID3VgGU)
+
+<p class="clip-credit"><strong>Turtle cheat code: shutting down back takes</strong> — taught by Stephan Kesting · 5:27 · <a href="https://www.youtube.com/watch?v=pmz1ID3VgGU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=h2lCF7jLT_w)
+
+<p class="clip-credit"><strong>5 mistakes that give up the back from turtle</strong> — taught by Priit Mihkelson · 7:36 · <a href="https://www.youtube.com/watch?v=h2lCF7jLT_w" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

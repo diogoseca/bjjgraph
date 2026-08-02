@@ -148,6 +148,54 @@ description: "Complete defensive guide for stopping the knee slice pass from kne
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Knee Slice from Knee Shield (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Knee slice defense and counter",
+      "description": "Knee Slice from Knee Shield (Defender) film study: Knee slice defense and counter, taught by A Day In A Life.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Da5PAZooedU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Da5PAZooedU",
+      "url": "https://www.youtube.com/watch?v=Da5PAZooedU",
+      "creator": { "@type": "Person", "name": "A Day In A Life" },
+      "duration": "PT86S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Knee cut pass defense to one leg X sweep",
+      "description": "Knee Slice from Knee Shield (Defender) film study: Knee cut pass defense to one leg X sweep, taught by Edson Oliveira.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/lrhHIF4AwVc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/lrhHIF4AwVc",
+      "url": "https://www.youtube.com/watch?v=lrhHIF4AwVc",
+      "creator": { "@type": "Person", "name": "Edson Oliveira" },
+      "duration": "PT54S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Retaining the knee shield against the knee cut",
+      "description": "Knee Slice from Knee Shield (Defender) film study: Retaining the knee shield against the knee cut, taught by BJJ4Breakfast.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/QGNL-sCrxnE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/QGNL-sCrxnE",
+      "url": "https://www.youtube.com/watch?v=QGNL-sCrxnE",
+      "creator": { "@type": "Person", "name": "BJJ4Breakfast" },
+      "duration": "PT112S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +205,42 @@ Defending the knee slice from knee shield requires early recognition and proacti
 **Opponent's Starting Position**: [[Positions/Half Guard/Knee Shield Half Guard]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Knee Slice from Knee Shield (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Da5PAZooedU)
+
+<p class="clip-credit"><strong>Knee slice defense and counter</strong> — taught by A Day In A Life · 1:26 · <a href="https://www.youtube.com/watch?v=Da5PAZooedU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=lrhHIF4AwVc)
+
+<p class="clip-credit"><strong>Knee cut pass defense to one leg X sweep</strong> — taught by Edson Oliveira · 0:54 · <a href="https://www.youtube.com/watch?v=lrhHIF4AwVc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=QGNL-sCrxnE)
+
+<p class="clip-credit"><strong>Retaining the knee shield against the knee cut</strong> — taught by BJJ4Breakfast · 1:52 · <a href="https://www.youtube.com/watch?v=QGNL-sCrxnE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

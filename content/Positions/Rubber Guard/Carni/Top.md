@@ -20,39 +20,27 @@ description: "Master defending and escaping Carni position in BJJ. Essential def
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Execute Stack Defense",
-      "text": "From this position, attempt Stack Defense. This technique is attempted in 29% of exchanges from this position.",
+      "name": "Execute Leg Drag Pass",
+      "text": "From this position, attempt Leg Drag Pass. This technique is attempted in 29% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Technical Stand-up",
-      "text": "From this position, attempt Technical Stand-up. This technique is attempted in 18% of exchanges from this position.",
+      "name": "Execute Knee Slice Pass",
+      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 28% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Granby Roll to Guard",
-      "text": "From this position, attempt Granby Roll to Guard. This technique is attempted in 17% of exchanges from this position.",
+      "name": "Execute Posture Recovery from Carni",
+      "text": "From this position, attempt Posture Recovery from Carni. This technique is attempted in 23% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Leg Drag Pass",
-      "text": "From this position, attempt Leg Drag Pass. This technique is attempted in 15% of exchanges from this position.",
+      "name": "Execute Stack Pass from Carni",
+      "text": "From this position, attempt Stack Pass from Carni. This technique is attempted in 20% of exchanges from this position.",
       "position": 4
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Knee Slice Pass",
-      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 13% of exchanges from this position.",
-      "position": 5
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Posture Recovery from Carni",
-      "text": "From this position, attempt Posture Recovery from Carni. This technique is attempted in 5% of exchanges from this position.",
-      "position": 6
     }
   ],
   "totalTime": "PT2M"
@@ -153,6 +141,32 @@ description: "Master defending and escaping Carni position in BJJ. Essential def
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Carni (Top) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Butterfly Guard to Carni Shoulder Lock",
+      "description": "Carni (Top) film study: Butterfly Guard to Carni Shoulder Lock, taught by DanTheWolfman.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/_QBVfCG5tBg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/_QBVfCG5tBg",
+      "url": "https://www.youtube.com/watch?v=_QBVfCG5tBg",
+      "creator": { "@type": "Person", "name": "DanTheWolfman" },
+      "duration": "PT59S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -166,6 +180,26 @@ Successful defense from Carni top requires a systematic approach that prioritize
 The most successful escapes from Carni involve recognizing the position early, before the bottom player has fully established all their control points, and immediately beginning the extraction process. Advanced practitioners can also recognize counter-attack opportunities when the bottom player over-commits to a specific attack, allowing the top player to pass to side control or establish their own leg entanglement position. However, the general principle from top should be conservative defense focused on safe extraction rather than aggressive counter-attacks that risk compounding the danger.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Carni (Top) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=_QBVfCG5tBg)
+
+<p class="clip-credit"><strong>Butterfly Guard to Carni Shoulder Lock</strong> — taught by DanTheWolfman · 0:59 · <a href="https://www.youtube.com/watch?v=_QBVfCG5tBg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 
@@ -360,7 +394,7 @@ Start with bottom player in established Carni position. Top player attempts safe
 - **[[Positions/Twister Control/Truck]]** - Back exposure threat - position accessed when top player turns belly down
 - **[[Positions/Back Control]]** - Alternative threat - where bottom player goes when top player rolls to escape
 - **[[Positions/Combat Base]]** - Primary escape target - establishing safe base after extraction
-- **[[Transitions/Heel Hook]]** - Primary submission threat - must defend against while escaping position
+- **[[Submissions/Heel Hook]]** - Primary submission threat - must defend against while escaping position
 - **[[Positions/Kneebar Control]]** - Secondary submission threat - alternative finish when heel is defended
 - **[[Positions/Ashi Garami/Outside Ashi-Garami]]** - Related entanglement - similar defensive principles apply
 - **[[Positions/Ashi Garami/Inside Ashi-Garami]]** - Related entanglement - shares leg lock defense requirements

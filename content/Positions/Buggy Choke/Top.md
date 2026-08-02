@@ -21,37 +21,37 @@ description: "Attack from the Buggy Choke position. Complete offensive guide cov
     {
       "@type": "HowToStep",
       "name": "Execute Finish Buggy Choke",
-      "text": "From this position, attempt Finish Buggy Choke. This technique is attempted in 41% of exchanges from this position.",
+      "text": "From this position, attempt Finish Buggy Choke. This technique is attempted in 11% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Hook Leg and Take Back",
-      "text": "From this position, attempt Hook Leg and Take Back. This technique is attempted in 17% of exchanges from this position.",
+      "text": "From this position, attempt Hook Leg and Take Back. This technique is attempted in 12% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Roll to Truck",
-      "text": "From this position, attempt Roll to Truck. This technique is attempted in 7% of exchanges from this position.",
+      "text": "From this position, attempt Roll to Truck. This technique is attempted in 12% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Switch to Darce Configuration",
-      "text": "From this position, attempt Switch to Darce Configuration. This technique is attempted in 4% of exchanges from this position.",
+      "text": "From this position, attempt Switch to Darce Configuration. This technique is attempted in 8% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Switch to Anaconda Configuration",
-      "text": "From this position, attempt Switch to Anaconda Configuration. This technique is attempted in 2% of exchanges from this position.",
+      "text": "From this position, attempt Switch to Anaconda Configuration. This technique is attempted in 5% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Buggy Choke to Front Headlock",
-      "text": "From this position, attempt Buggy Choke to Front Headlock. This technique is attempted in 5% of exchanges from this position.",
+      "text": "From this position, attempt Buggy Choke to Front Headlock. This technique is attempted in 10% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -153,6 +153,54 @@ description: "Attack from the Buggy Choke position. Complete offensive guide cov
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Buggy Choke (Top) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "The buggy choke",
+      "description": "Buggy Choke (Top) film study: The buggy choke, taught by ZombieProofBJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/-b7Avb1x7g8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/-b7Avb1x7g8",
+      "url": "https://www.youtube.com/watch?v=-b7Avb1x7g8",
+      "creator": { "@type": "Person", "name": "ZombieProofBJJ" },
+      "duration": "PT61S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Fix your buggy choke",
+      "description": "Buggy Choke (Top) film study: Fix your buggy choke, taught by Yoga for BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/0VDUwuyT6N4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/0VDUwuyT6N4",
+      "url": "https://www.youtube.com/watch?v=0VDUwuyT6N4",
+      "creator": { "@type": "Person", "name": "Yoga for BJJ" },
+      "duration": "PT71S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Buggy choke from north-south",
+      "description": "Buggy Choke (Top) film study: Buggy choke from north-south, taught by JaezeeJiujitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Rlk8WXQrj4Q/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Rlk8WXQrj4Q",
+      "url": "https://www.youtube.com/watch?v=Rlk8WXQrj4Q",
+      "creator": { "@type": "Person", "name": "JaezeeJiujitsu" },
+      "duration": "PT48S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -164,6 +212,42 @@ The position's effectiveness stems from its ability to simultaneously threaten s
 From a technical perspective, the buggy choke teaches important principles about using arm and leg connection to multiply attack opportunities rather than committing fully to a single finish. Attackers learn to read defensive reactions in real time and flow between finishing the choke, taking the back, attacking the crucifix, or rolling to truck variations without releasing control or returning to neutral. The finish itself comes from the hip turn and extension that compress the trapped arm into the neck, not from arm strength. Mastering this position develops the tactical awareness and technical fluidity required for high-level competition across gi and no-gi formats.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Buggy Choke (Top) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=-b7Avb1x7g8)
+
+<p class="clip-credit"><strong>The buggy choke</strong> — taught by ZombieProofBJJ · 1:01 · <a href="https://www.youtube.com/watch?v=-b7Avb1x7g8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=0VDUwuyT6N4)
+
+<p class="clip-credit"><strong>Fix your buggy choke</strong> — taught by Yoga for BJJ · 1:11 · <a href="https://www.youtube.com/watch?v=0VDUwuyT6N4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Rlk8WXQrj4Q)
+
+<p class="clip-credit"><strong>Buggy choke from north-south</strong> — taught by JaezeeJiujitsu · 0:48 · <a href="https://www.youtube.com/watch?v=Rlk8WXQrj4Q" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

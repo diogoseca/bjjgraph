@@ -140,6 +140,54 @@ description: "How to prevent the triangle escape position transition in BJJ. Rec
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Half Guard to Triangle Escape Position (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Preventing the mounted triangle",
+      "description": "Half Guard to Triangle Escape Position (Defender) film study: Preventing the mounted triangle, taught by Justen Hamilton.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/l-HhOV9UjJU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/l-HhOV9UjJU",
+      "url": "https://www.youtube.com/watch?v=l-HhOV9UjJU",
+      "creator": { "@type": "Person", "name": "Justen Hamilton" },
+      "duration": "PT104S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Escaping triangles against bigger opponents",
+      "description": "Half Guard to Triangle Escape Position (Defender) film study: Escaping triangles against bigger opponents, taught by John Danaher.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Z-CsRn4K0vg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Z-CsRn4K0vg",
+      "url": "https://www.youtube.com/watch?v=Z-CsRn4K0vg",
+      "creator": { "@type": "Person", "name": "John Danaher" },
+      "duration": "PT48S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "How to escape a triangle choke",
+      "description": "Half Guard to Triangle Escape Position (Defender) film study: How to escape a triangle choke, taught by Rener and Ryron Gracie.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/sR2rS2dwpNY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/sR2rS2dwpNY",
+      "url": "https://www.youtube.com/watch?v=sR2rS2dwpNY",
+      "creator": { "@type": "Person", "name": "Rener and Ryron Gracie" },
+      "duration": "PT117S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -149,6 +197,42 @@ As the defender (the bottom guard player maintaining the triangle), your objecti
 **Opponent's Starting Position**: [[Positions/Half Guard]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Half Guard to Triangle Escape Position (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=l-HhOV9UjJU)
+
+<p class="clip-credit"><strong>Preventing the mounted triangle</strong> — taught by Justen Hamilton · 1:44 · <a href="https://www.youtube.com/watch?v=l-HhOV9UjJU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Z-CsRn4K0vg)
+
+<p class="clip-credit"><strong>Escaping triangles against bigger opponents</strong> — taught by John Danaher · 0:48 · <a href="https://www.youtube.com/watch?v=Z-CsRn4K0vg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=sR2rS2dwpNY)
+
+<p class="clip-credit"><strong>How to escape a triangle choke</strong> — taught by Rener and Ryron Gracie · 1:57 · <a href="https://www.youtube.com/watch?v=sR2rS2dwpNY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Standing Rear Clinch/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Clinch/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Front Headlock/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "The arm drag from the clinch is one of the highest-percentage back take entries in standing grappling, combining simplicity of execution with devastating positional advancement. The technique exploits a fundamental vulnerability in the clinch: when both practitioners are engaged in upper body grip fighting, the arms become available targets for redirection. By controlling one arm and pulling it across your body while stepping laterally, you create an angular bypass of your opponent's defensive structure, clearing their shoulder line to establish dominant rear control.\n\nStrategically, the arm drag functions as both a primary attack and a setup within the clinch system. When opponents respect the drag, they become more cautious with their grip fighting, opening windows for takedowns, snap downs, and other clinch transitions. This threat-creation makes the arm drag valuable even when not completed. The technique translates seamlessly between gi and no-gi contexts, with grip variations adapting to available controls. Elite practitioners integrate the arm drag into combination chains, using it alongside duck unders, snap downs, and level changes to create multi-threat standing exchanges that overwhelm defensive responses.\n\nThe arm drag rewards timing over athleticism. The optimal window opens when your opponent extends an arm for a grip, pushes forward, or commits weight to one side. Reading these moments and executing with precise hip rotation rather than arm strength separates functional arm drags from telegraphed attempts that experienced grapplers easily counter.",
   "conditions": [
     "Both practitioners engaged in standing clinch with upper body grip fighting",
@@ -79,11 +91,11 @@
       "relationship": "Counter position the opponent may achieve if the drag is defended with a snap down"
     },
     {
-      "name": "Arm Drag from Standing",
+      "name": "Arm Drag",
       "relationship": "Similar arm drag technique executed from open standing range without clinch engagement"
     },
     {
-      "name": "Duck Under",
+      "name": "Duck Under from Clinch",
       "relationship": "Complementary back take from clinch that chains with arm drag feints"
     },
     {
@@ -243,38 +255,147 @@
     "flashcards": [
       {
         "question": "What is the optimal timing window for initiating the arm drag from the clinch?",
-        "answer": "The optimal window opens when the opponent extends an arm to reach for a grip, pushes forward with pressure, or commits their weight to one side during grip fighting. This momentary extension creates the lever needed for redirection. Attempting the drag when the opponent's arms are retracted and elbows are tight eliminates the mechanical advantage and dramatically reduces success probability."
+        "answer": "The optimal window opens when the opponent extends an arm to reach for a grip, pushes forward with pressure, or commits their weight to one side during grip fighting. This momentary extension creates the lever needed for redirection. Attempting the drag when the opponent's arms are retracted and elbows are tight eliminates the mechanical advantage and dramatically reduces success probability.",
+        "answer_line": "When they extend or commit weight",
+        "distractors": {
+          "plausible": [
+            "As clinch is first established",
+            "After they retract to defend"
+          ],
+          "trap": [
+            "When their elbows are tight"
+          ]
+        }
       },
       {
         "question": "Your opponent posts their hand on your shoulder as you begin the arm drag - how do you adjust?",
-        "answer": "Drive through the post by accelerating your lateral step and keeping your level low. A posted hand on your shoulder lacks structural integrity to stop forward hip drive once you have cleared their centerline. Alternatively, use their posted arm as the new drag target since their extended arm is even more vulnerable to being redirected than the original target."
+        "answer": "Drive through the post by accelerating your lateral step and keeping your level low. A posted hand on your shoulder lacks structural integrity to stop forward hip drive once you have cleared their centerline. Alternatively, use their posted arm as the new drag target since their extended arm is even more vulnerable to being redirected than the original target.",
+        "answer_line": "Drive through low, keep stepping",
+        "distractors": {
+          "plausible": [
+            "Stop and reset grips",
+            "Switch to double leg instead"
+          ],
+          "trap": [
+            "Retreat to break their post"
+          ]
+        }
       },
       {
         "question": "What grip configuration provides the strongest mechanical advantage for the initial drag?",
-        "answer": "A cupping grip on the wrist with your same-side hand combined with a C-grip on their tricep with your opposite hand creates the strongest two-on-one configuration. The wrist grip controls direction while the tricep grip provides pulling force. This allows you to redirect their entire arm using hip rotation as the power source, creating a mechanical advantage their single limb cannot resist."
+        "answer": "A cupping grip on the wrist with your same-side hand combined with a C-grip on their tricep with your opposite hand creates the strongest two-on-one configuration. The wrist grip controls direction while the tricep grip provides pulling force. This allows you to redirect their entire arm using hip rotation as the power source, creating a mechanical advantage their single limb cannot resist.",
+        "answer_line": "Cup wrist, C-grip on tricep",
+        "distractors": {
+          "plausible": [
+            "Two hands on same wrist",
+            "Grip bicep, not tricep"
+          ],
+          "trap": [
+            "Overhook instead of cupping wrist"
+          ]
+        }
       },
       {
         "question": "What is the most common reason arm drags fail against experienced grapplers?",
-        "answer": "Telegraphing the grip setup is the most common failure point. Experienced grapplers recognize the two-on-one configuration forming and immediately retract their arm, pummel an underhook, or circle preemptively. The correction is to disguise grip acquisition within normal hand fighting sequences using feints and misdirection so the opponent cannot distinguish between routine grip fighting and an arm drag setup."
+        "answer": "Telegraphing the grip setup is the most common failure point. Experienced grapplers recognize the two-on-one configuration forming and immediately retract their arm, pummel an underhook, or circle preemptively. The correction is to disguise grip acquisition within normal hand fighting sequences using feints and misdirection so the opponent cannot distinguish between routine grip fighting and an arm drag setup.",
+        "answer_line": "Telegraphing the grip setup",
+        "distractors": {
+          "plausible": [
+            "Pulling with the arm not hips",
+            "Gripping too high on forearm"
+          ],
+          "trap": [
+            "Committing weight too early"
+          ]
+        }
       },
       {
         "question": "Your opponent successfully defends the drag by pummeling an underhook - what chain attack do you execute?",
-        "answer": "Use their pummel momentum against them by immediately switching to a duck under on the opposite side. As they drive the underhook in, they momentarily commit weight forward and expose the far side. Alternatively, convert to a snap down by pulling their head downward while their arms are busy pummeling, or switch to a single leg entry underneath their newly committed underhook."
+        "answer": "Use their pummel momentum against them by immediately switching to a duck under on the opposite side. As they drive the underhook in, they momentarily commit weight forward and expose the far side. Alternatively, convert to a snap down by pulling their head downward while their arms are busy pummeling, or switch to a single leg entry underneath their newly committed underhook.",
+        "answer_line": "Duck under on the opposite side",
+        "distractors": {
+          "plausible": [
+            "Fight to re-pummel the underhook",
+            "Shoot a double leg into pressure"
+          ],
+          "trap": [
+            "Turn away and give up the back"
+          ]
+        }
       },
       {
         "question": "In which direction should force be applied during the drag relative to your opponent's body?",
-        "answer": "Force should be applied diagonally across and past your own centerline, not straight backward or to the side. The drag pulls the opponent's arm past your midline toward your opposite hip while you simultaneously step in the direction their arm came from. This creates rotational force on their body that turns their shoulder away from you, opening the pathway to their back."
+        "answer": "Force should be applied diagonally across and past your own centerline, not straight backward or to the side. The drag pulls the opponent's arm past your midline toward your opposite hip while you simultaneously step in the direction their arm came from. This creates rotational force on their body that turns their shoulder away from you, opening the pathway to their back.",
+        "answer_line": "Diagonally across your centerline",
+        "distractors": {
+          "plausible": [
+            "Straight back away from them",
+            "Straight to the same side"
+          ],
+          "trap": [
+            "Push directly into their chest"
+          ]
+        }
       },
       {
         "question": "Your opponent has a strong collar tie controlling your head and you cannot look up - can you still execute the arm drag?",
-        "answer": "Yes, but you must address the collar tie first or incorporate it. Use a two-on-one break on the collar tie arm itself, converting their controlling grip into your drag target. Alternatively, swim your head free by dipping under the collar tie while simultaneously establishing your wrist grip on their other arm. The collar tie arm is actually an excellent drag target because it is already extended toward you."
+        "answer": "Yes, but you must address the collar tie first or incorporate it. Use a two-on-one break on the collar tie arm itself, converting their controlling grip into your drag target. Alternatively, swim your head free by dipping under the collar tie while simultaneously establishing your wrist grip on their other arm. The collar tie arm is actually an excellent drag target because it is already extended toward you.",
+        "answer_line": "Two-on-one break the collar tie",
+        "distractors": {
+          "plausible": [
+            "Power through, ignore the tie",
+            "Duck straight to a single leg"
+          ],
+          "trap": [
+            "Pull away to create space"
+          ]
+        }
       },
       {
         "question": "What are the grip requirements for executing the arm drag in no-gi versus gi clinch?",
-        "answer": "In no-gi, use a cupping wrist grip and C-grip on the tricep for the two-on-one. The key challenge is sweat reducing grip security, requiring faster execution and more decisive commitment. In gi, you can grip the sleeve at the wrist and elbow area, which provides more friction and control, allowing slightly slower but more controlled drags. The sleeve grip also enables maintaining the grip longer after clearing the shoulder line."
+        "answer": "In no-gi, use a cupping wrist grip and C-grip on the tricep for the two-on-one. The key challenge is sweat reducing grip security, requiring faster execution and more decisive commitment. In gi, you can grip the sleeve at the wrist and elbow area, which provides more friction and control, allowing slightly slower but more controlled drags. The sleeve grip also enables maintaining the grip longer after clearing the shoulder line.",
+        "answer_line": "Same grip; gi allows sleeve control",
+        "distractors": {
+          "plausible": [
+            "No-gi needs a collar tie instead",
+            "Gi requires overhook, not wrist"
+          ],
+          "trap": [
+            "Slow down execution in no-gi"
+          ]
+        }
       }
     ],
-    "safety_considerations": "Practice arm drags with controlled intensity, especially when transitioning behind the opponent at speed. Be mindful of footing during lateral movements to prevent ankle rolls or knee strain on uneven surfaces. Partners should communicate when they feel their shoulder being overextended during the drag. Avoid explosive arm pulls on partners with existing shoulder injuries. In standing work, ensure adequate mat space and awareness of surrounding training pairs to prevent collisions during angular movement patterns."
+    "safety_considerations": "Practice arm drags with controlled intensity, especially when transitioning behind the opponent at speed. Be mindful of footing during lateral movements to prevent ankle rolls or knee strain on uneven surfaces. Partners should communicate when they feel their shoulder being overextended during the drag. Avoid explosive arm pulls on partners with existing shoulder injuries. In standing work, ensure adequate mat space and awareness of surrounding training pairs to prevent collisions during angular movement patterns.",
+    "clips": [
+      {
+        "id": "Kp3ABmsn1I0",
+        "title": "Arm Drag Takedown",
+        "by": "Marcelo Garcia",
+        "vertical": false,
+        "channel": "Baltimore Martial Arts",
+        "duration": 55,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "wB0ifzwxrBQ",
+        "title": "Arm Drag to Body Lock",
+        "by": "Renegade BJJ",
+        "vertical": false,
+        "channel": "Renegade BJJ",
+        "duration": 56,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "MXUtIJBEIqU",
+        "title": "Wall Control to Arm Drag",
+        "by": "Troy Manning",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 45,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Arm Drag from Clinch Defender",
@@ -359,19 +480,59 @@
     "flashcards": [
       {
         "question": "What is the earliest cue that an arm drag attempt is being set up from the clinch?",
-        "answer": "The earliest cue is feeling both of your opponent's hands controlling one of your arms in a two-on-one configuration. This may begin subtly with a wrist grip followed by a reach for your tricep. Recognizing this grip pattern before the pull initiates gives you the maximum time window for defense. Secondary cues include the opponent's hips beginning to rotate away from you and their head level dropping slightly."
+        "answer": "The earliest cue is feeling both of your opponent's hands controlling one of your arms in a two-on-one configuration. This may begin subtly with a wrist grip followed by a reach for your tricep. Recognizing this grip pattern before the pull initiates gives you the maximum time window for defense. Secondary cues include the opponent's hips beginning to rotate away from you and their head level dropping slightly.",
+        "answer_line": "Both hands on one of your arms",
+        "distractors": {
+          "plausible": [
+            "Their hips squaring up to you",
+            "Increased pressure on your neck"
+          ],
+          "trap": [
+            "Them stepping back to create space"
+          ]
+        }
       },
       {
         "question": "Why is circling toward the drag direction more effective than pulling away from it?",
-        "answer": "Circling toward the drag denies the angle change that makes the technique work. The arm drag succeeds by creating a lateral bypass past your shoulder line. When you circle toward the drag direction, you face the opponent directly and prevent them from clearing your shoulder. Pulling away creates distance that makes it easier for them to complete the circular path to your back. Moving toward the threat collapses the space they need."
+        "answer": "Circling toward the drag denies the angle change that makes the technique work. The arm drag succeeds by creating a lateral bypass past your shoulder line. When you circle toward the drag direction, you face the opponent directly and prevent them from clearing your shoulder. Pulling away creates distance that makes it easier for them to complete the circular path to your back. Moving toward the threat collapses the space they need.",
+        "answer_line": "It denies the angle to your back",
+        "distractors": {
+          "plausible": [
+            "It tires out your opponent faster",
+            "It resets to neutral clinch"
+          ],
+          "trap": [
+            "It creates distance to defend"
+          ]
+        }
       },
       {
         "question": "Your opponent executes a partial arm drag and has cleared one shoulder - what is your best recovery option?",
-        "answer": "Immediately turn your body toward them by pivoting on your lead foot and driving your hip toward them aggressively. This re-squaring must happen before they establish chest-to-back connection. Use your free arm to frame on their shoulder or bicep as you turn. If they already have chest contact on your back, drop your hips and pull guard rather than fighting a standing scramble from a compromised position where they have dominant angles."
+        "answer": "Immediately turn your body toward them by pivoting on your lead foot and driving your hip toward them aggressively. This re-squaring must happen before they establish chest-to-back connection. Use your free arm to frame on their shoulder or bicep as you turn. If they already have chest contact on your back, drop your hips and pull guard rather than fighting a standing scramble from a compromised position where they have dominant angles.",
+        "answer_line": "Pivot in, re-square before contact",
+        "distractors": {
+          "plausible": [
+            "Sprawl back to create distance",
+            "Fight hands only, stay squared"
+          ],
+          "trap": [
+            "Turtle up defensively"
+          ]
+        }
       },
       {
         "question": "How do you prevent the arm drag without becoming too defensive in your clinch game?",
-        "answer": "Maintain offensive hand fighting that naturally denies the two-on-one setup. If you are constantly threatening grips, pummeling, and creating your own offensive sequences, the opponent has fewer windows to establish the drag configuration. The best defense is an active offense that keeps both of their hands occupied dealing with your threats rather than setting up their own. Integrate defensive awareness into your offensive clinch game rather than separating them into distinct phases."
+        "answer": "Maintain offensive hand fighting that naturally denies the two-on-one setup. If you are constantly threatening grips, pummeling, and creating your own offensive sequences, the opponent has fewer windows to establish the drag configuration. The best defense is an active offense that keeps both of their hands occupied dealing with your threats rather than setting up their own. Integrate defensive awareness into your offensive clinch game rather than separating them into distinct phases.",
+        "answer_line": "Stay offensive with your own hands",
+        "distractors": {
+          "plausible": [
+            "Keep both hands glued to defense",
+            "Retreat to neutral stance often"
+          ],
+          "trap": [
+            "Grip tightly and stay static"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -394,6 +555,35 @@
         "phase": "Phase 4: Live Defense Situational Sparring",
         "focus": "Pressure testing under competitive conditions",
         "description": "Begin all rounds from clinch with attacker specifically hunting arm drags while defender works to prevent and counter. Track success rates and identify defensive gaps. Develop real-time decision-making about which defensive response to deploy based on the attacker's specific setup and timing."
+      }
+    ],
+    "clips": [
+      {
+        "id": "bmCjXADzgo4",
+        "title": "How to Defend the Arm Drag",
+        "by": "Matt Arroyo",
+        "vertical": false,
+        "channel": "Matt Arroyo Jiu Jitsu ",
+        "duration": 103,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "T3ChZk__H9c",
+        "title": "Standing Arm Drag Counter",
+        "by": "Gracie Barra HQ",
+        "vertical": false,
+        "channel": "Gracie Barra HQ - California",
+        "duration": 141,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "qk3MUabz0AA",
+        "title": "Over Under Arm Drag to Side Clinch",
+        "by": "Fargo BJJ",
+        "vertical": false,
+        "channel": "Fargo BJJ Academy",
+        "duration": 78,
+        "verified": "2026-07-15"
       }
     ]
   }

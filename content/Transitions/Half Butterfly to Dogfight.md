@@ -34,6 +34,54 @@ description: "Master the Half Butterfly to Dogfight transition. Learn underhook 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Half Butterfly to Dogfight \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Half guard to the dogfight",
+      "description": "Half Butterfly to Dogfight film study: Half guard to the dogfight, taught by The Base Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/X4jR2wWOy2M/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/X4jR2wWOy2M",
+      "url": "https://www.youtube.com/watch?v=X4jR2wWOy2M",
+      "creator": { "@type": "Person", "name": "The Base Jiu Jitsu" },
+      "duration": "PT79S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Half guard transition to dogfight",
+      "description": "Half Butterfly to Dogfight film study: Half guard transition to dogfight, taught by Lucas Leite.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/gZPD4WQwgA8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/gZPD4WQwgA8",
+      "url": "https://www.youtube.com/watch?v=gZPD4WQwgA8",
+      "creator": { "@type": "Person", "name": "Lucas Leite" },
+      "duration": "PT11S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Knee shield to underhook to dogfight to knee tap",
+      "description": "Half Butterfly to Dogfight film study: Knee shield to underhook to dogfight to knee tap, taught by Kaboom BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/K7U2uBUfq-c/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/K7U2uBUfq-c",
+      "url": "https://www.youtube.com/watch?v=K7U2uBUfq-c",
+      "creator": { "@type": "Person", "name": "Kaboom BJJ" },
+      "duration": "PT129S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ From a systems perspective, this transition connects the half butterfly guard sy
 **Success Rate**: 55%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Half Butterfly to Dogfight in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=X4jR2wWOy2M)
+
+<p class="clip-credit"><strong>Half guard to the dogfight</strong> — taught by The Base Jiu Jitsu · 1:19 · <a href="https://www.youtube.com/watch?v=X4jR2wWOy2M" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=gZPD4WQwgA8)
+
+<p class="clip-credit"><strong>Half guard transition to dogfight</strong> — taught by Lucas Leite · 0:11 · <a href="https://www.youtube.com/watch?v=gZPD4WQwgA8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=K7U2uBUfq-c)
+
+<p class="clip-credit"><strong>Knee shield to underhook to dogfight to knee tap</strong> — taught by Kaboom BJJ · 2:09 · <a href="https://www.youtube.com/watch?v=K7U2uBUfq-c" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

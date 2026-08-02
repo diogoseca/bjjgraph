@@ -144,6 +144,54 @@ description: "Defend the Buggy Choke while passing half guard: keep your head up
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Buggy Choke (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "How To Defend the Buggy Choke",
+      "description": "Buggy Choke (Defender) film study: How To Defend the Buggy Choke, taught by Jansen Gomes.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Huv5wYwC3_o/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Huv5wYwC3_o",
+      "url": "https://www.youtube.com/watch?v=Huv5wYwC3_o",
+      "creator": { "@type": "Person", "name": "Jansen Gomes" },
+      "duration": "PT52S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "How To Defend the Dreaded Buggy Choke",
+      "description": "Buggy Choke (Defender) film study: How To Defend the Dreaded Buggy Choke, taught by MMA Leech.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/6VmI-HMAQso/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/6VmI-HMAQso",
+      "url": "https://www.youtube.com/watch?v=6VmI-HMAQso",
+      "creator": { "@type": "Person", "name": "MMA Leech" },
+      "duration": "PT239S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Buggy Choke Recovery",
+      "description": "Buggy Choke (Defender) film study: Buggy Choke Recovery, taught by Zach Maslany.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/jMIn4CQ3khE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/jMIn4CQ3khE",
+      "url": "https://www.youtube.com/watch?v=jMIn4CQ3khE",
+      "creator": { "@type": "Person", "name": "Zach Maslany" },
+      "duration": "PT153S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -154,6 +202,42 @@ As the defender you are the top player passing half guard, and the Buggy Choke p
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Buggy Choke (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Huv5wYwC3_o)
+
+<p class="clip-credit"><strong>How To Defend the Buggy Choke</strong> — taught by Jansen Gomes · 0:52 · <a href="https://www.youtube.com/watch?v=Huv5wYwC3_o" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=6VmI-HMAQso)
+
+<p class="clip-credit"><strong>How To Defend the Dreaded Buggy Choke</strong> — taught by MMA Leech · 3:59 · <a href="https://www.youtube.com/watch?v=6VmI-HMAQso" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=jMIn4CQ3khE)
+
+<p class="clip-credit"><strong>Buggy Choke Recovery</strong> — taught by Zach Maslany · 2:33 · <a href="https://www.youtube.com/watch?v=jMIn4CQ3khE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

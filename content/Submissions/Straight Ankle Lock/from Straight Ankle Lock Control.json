@@ -18,7 +18,10 @@
   "target_area": "Ankle joint, Achilles tendon, and foot ligaments",
   "starting_position": "Straight Ankle Lock Control",
   "from_position": "Straight Ankle Lock Control/Top",
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "overview": "The straight ankle lock from straight ankle lock control is the foundational leg lock finish in Brazilian Jiu-Jitsu, representing the most direct path from leg entanglement to submission. Unlike ankle lock attempts initiated during scrambles or transitions, this finish begins from an already-established control position where the attacker's legs are wrapped around the opponent's trapped leg, the forearm is seated against the Achilles tendon, and the hips are aligned perpendicular to the defender's body. This positional security transforms the submission from a scramble-dependent attack into a systematic mechanical process.\n\nThe finishing sequence coordinates three simultaneous movement patterns: hip extension driving the pelvis forward, back arch pulling the shoulders away from the opponent, and wrist rotation tightening the forearm blade into the Achilles tendon. The opponent's foot is trapped in the pocket between the attacker's armpit and forearm, creating a fulcrum that hyperextends the ankle joint during the bridge. Force generation comes from the entire posterior chain rather than arm strength, which is why smaller practitioners can reliably finish this lock against larger opponents when the mechanics are correct.\n\nStrategically, the straight ankle lock from established control serves dual purposes within a complete leg attack system. The immediate tap threat forces defensive reactions that open transitions to inside ashi garami, outside ashi garami, or kneebar positions. Experienced practitioners treat the finish attempt as a forcing function—either the opponent taps, or their defensive movement creates a pathway to more dominant entanglements. This makes the ankle lock threat valuable both as a direct submission and as a positional advancement tool that maintains offensive initiative throughout the engagement.",
   "safety_considerations": {
     "injury_risks": [
@@ -108,17 +111,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 58,
+      "probability": {
+        "gi": 58,
+        "nogi": 58
+      },
       "result": "success"
     },
     {
       "to": "Straight Ankle Lock Control/Bottom",
-      "probability": 27,
+      "probability": {
+        "gi": 27,
+        "nogi": 27
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Top",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
@@ -286,42 +298,331 @@
       {
         "question": "What anatomical structure does the straight ankle lock primarily attack and where should your forearm be positioned?",
         "answer": "The straight ankle lock primarily attacks the Achilles tendon and the ankle joint ligaments through hyperextension. The blade of the wrist bone (radius) must be positioned directly against the Achilles tendon in the narrow gap between the calf muscle belly and the heel bone. This precise placement creates a sharp fulcrum that concentrates force on the most vulnerable anatomical structure rather than dispersing pressure across the larger calf muscle.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Wrist bone into Achilles tendon",
+        "distractors": {
+          "plausible": [
+            "Forearm across calf muscle",
+            "Blade against heel bone"
+          ],
+          "trap": [
+            "Torque the foot sideways hard"
+          ]
+        }
       },
       {
         "question": "Your opponent activates boot defense by pointing their toes and rotating their foot inward - what adjustment prevents escape?",
         "answer": "Pull the heel deeper into your armpit pocket while squeezing your elbows tighter against your ribs to eliminate the rotational space the boot defense requires. Use your grip hand to strip the foot back into the correct position. If the boot defense is well-established and the foot has rotated significantly, transition to the belly-down finish variation where gravity assists in maintaining forearm pressure against the rotation and the prone position makes it harder for the defender to continue fighting the grip.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Pull heel deeper, squeeze elbows",
+        "distractors": {
+          "plausible": [
+            "Crank pressure through it",
+            "Slide the fulcrum to the calf"
+          ],
+          "trap": [
+            "Open the legs to re-grip"
+          ]
+        }
       },
       {
         "question": "What are the three simultaneous movement patterns that generate breaking pressure in the straight ankle lock finish?",
         "answer": "The three coordinated patterns are hip extension driving the pelvis forward and upward, back arch pulling the shoulders away from the opponent, and forearm rotation tightening the wrist blade into the Achilles tendon. These three forces work together to create opposing vectors that hyperextend the ankle joint. The hip extension and back arch generate the primary force through the posterior chain, while the forearm rotation ensures the pressure concentrates on the Achilles tendon rather than dispersing across the surrounding tissue.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Hip extension, arch, wrist rotation",
+        "distractors": {
+          "plausible": [
+            "Pull with both arms and sit up",
+            "Squeeze knees, then roll sideways"
+          ],
+          "trap": [
+            "Jerk the hips to snap it fast"
+          ]
+        }
       },
       {
         "question": "What control elements must be established before you initiate breaking mechanics, and why does this sequence matter?",
         "answer": "Before breaking mechanics: perpendicular hip alignment, legs wrapped securely around the trapped leg preventing hip rotation, forearm seated against the Achilles tendon, and foot clamped tight in the armpit pocket with zero rotational freedom. This sequence matters because attempting to finish without positional security allows the defender to escape through hip rotation, boot defense, or grip fighting. The 2-3 seconds invested in proper setup dramatically increases finishing percentage compared to rushing the bridge from an unstable base.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Align hips, lock legs, clamp foot",
+        "distractors": {
+          "plausible": [
+            "Grip the foot, then extend hips",
+            "Squeeze knees and lean back"
+          ],
+          "trap": [
+            "Bridge before control is set"
+          ]
+        }
       },
       {
         "question": "At what point should you abandon the direct ankle lock finish and transition to an alternative attack?",
         "answer": "Set an internal time limit of 10-15 seconds from when you establish control. If the finish is not imminent by that point—meaning the defender has successfully fought grips, activated boot defense, or created enough hip rotation to relieve meaningful pressure—immediately transition based on their defensive movement. Hip rotation away opens inside ashi garami, hip rotation toward opens outside ashi garami, and straightened leg opens kneebar. Continuing to fight for a finish beyond this window wastes energy and allows the defender to accumulate escape momentum.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "10-15 sec, then follow reaction",
+        "distractors": {
+          "plausible": [
+            "Bail at the first grip fight",
+            "Hold a full 30 seconds"
+          ],
+          "trap": [
+            "Grind on till they free the leg"
+          ]
+        }
       },
       {
         "question": "How should you apply and release the straight ankle lock safely during training?",
         "answer": "Apply pressure progressively over 3-5 seconds minimum, using smooth hip extension and back arch rather than explosive jerking or spiking. Monitor your partner's reactions continuously and stop immediately at any tap signal—verbal, physical hand tap, foot tap, or any distress signal. Upon receiving a tap, immediately stop hip extension, release the armpit grip to allow the foot to slide free, open the leg entanglement, and move away from the leg. Always check verbally with your partner afterward to confirm they are uninjured.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "3-5 sec progressive, stop on tap",
+        "distractors": {
+          "plausible": [
+            "1-2 seconds, then hold steady",
+            "Apply fast, ease off slowly"
+          ],
+          "trap": [
+            "Spike pressure to test their tap"
+          ]
+        }
       },
       {
         "question": "What injury risks are specific to the straight ankle lock and how does application speed affect them?",
         "answer": "The primary risks are Achilles tendon strain or rupture (high severity, 3-6 month recovery), ankle ligament sprains (medium severity, 2-6 weeks), and tibialis anterior tendon damage (medium severity, 3-6 weeks). Explosive or jerking application dramatically increases injury severity because the tendon and ligaments cannot absorb sudden force spikes the way they can manage progressive loading. Slow progressive application gives the defender adequate time to recognize pressure depth and tap before structural damage occurs, which is why training speed must always allow a 3-5 second pressure window.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Achilles rupture; apply slowly",
+        "distractors": {
+          "plausible": [
+            "Ligament sprain only; low risk",
+            "Calf strain; heals in days"
+          ],
+          "trap": [
+            "Jerk it fast for a clean tap"
+          ]
+        }
       },
       {
         "question": "Your opponent begins sitting up and reaching for your head while you have ankle lock control - what adjustment do you make?",
         "answer": "Use your free arm to post against their chest or frame against their shoulder to prevent them from establishing head or collar control that would limit your ability to arch back for the finish. If they are persistently sitting up, transition to the belly-down ankle lock variation by rolling prone, which removes the angle they need to reach your head and allows gravity-assisted finishing pressure. Never allow them to establish controlling grips on your upper body unchallenged, as this progressively eliminates your ability to generate the back arch essential for the finish.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Frame chest, or go belly-down",
+        "distractors": {
+          "plausible": [
+            "Grab their collar to control",
+            "Push their hips away instead"
+          ],
+          "trap": [
+            "Let them sit up, keep cranking"
+          ]
+        }
+      },
+      {
+        "question": "What is the absolute minimum time you should take to apply pressure when finishing an Achilles Lock in training?",
+        "answer": "The absolute minimum is 3-5 seconds of progressive pressure from initial tension to full extension. This gives your training partner adequate time to recognize the submission and tap safely before any damage occurs to the Achilles tendon or ankle ligaments. In training, you should prioritize safety over speed and apply pressure even more slowly when working with newer partners.",
+        "safety_critical": true,
+        "answer_line": "3-5 seconds of progressive pressure",
+        "distractors": {
+          "plausible": [
+            "1-2 seconds is enough",
+            "No set minimum, just feel it"
+          ],
+          "trap": [
+            "Snap it on instantly"
+          ]
+        }
+      },
+      {
+        "question": "Where exactly should the fulcrum point (wrist bone or forearm) be positioned for an effective Achilles Lock?",
+        "answer": "The fulcrum point should be positioned directly on the Achilles tendon, approximately 2-3 inches above the heel bone. It should not be on the calf muscle (too high) or on the heel bone itself (too low). You should be able to feel the hard, cord-like structure of the tendon under your wrist bone or forearm edge. The sharper and more precise this placement, the more effective the submission.",
+        "safety_critical": false,
+        "answer_line": "2-3in above heel, on tendon",
+        "distractors": {
+          "plausible": [
+            "Directly on the heel bone",
+            "High on the calf muscle"
+          ],
+          "trap": [
+            "Twist the foot to force a tap"
+          ]
+        }
+      },
+      {
+        "question": "What are the three primary components that create breaking pressure in an Achilles Lock?",
+        "answer": "The three primary components are: (1) Hip extension - driving your hips forward and upward toward the ceiling, (2) Backward lean - moving your shoulders and upper body away from the opponent while maintaining heel control, and (3) Fulcrum pressure - the sharp edge of your wrist bone or forearm pressing into the Achilles tendon. These three elements work together to create opposing forces that compress and hyperextend the ankle joint.",
+        "safety_critical": false,
+        "answer_line": "Hip extension, lean back, fulcrum",
+        "distractors": {
+          "plausible": [
+            "Squeeze knees and pull the heel",
+            "Press the shin and sit forward"
+          ],
+          "trap": [
+            "Yank the leg to snap it fast"
+          ]
+        }
+      },
+      {
+        "question": "If your opponent begins to extract their leg by pulling it through the gap between your legs, what is your primary defensive adjustment?",
+        "answer": "Your primary adjustment is to immediately squeeze your knees together tighter to close any gap. Your legs should function like a vice with no space for extraction. Additionally, ensure your outside leg hook behind their knee is secure, and follow their hip movement if they're pulling back. If extraction continues, you may need to transition to a different Ashi variation (inside or outside) or re-establish position before attempting the submission.",
+        "safety_critical": false,
+        "answer_line": "Squeeze knees, seal the gap",
+        "distractors": {
+          "plausible": [
+            "Pull harder on the foot grip",
+            "Extend hips to finish faster"
+          ],
+          "trap": [
+            "Open the legs and let it slide"
+          ]
+        }
+      },
+      {
+        "question": "Why must the opponent's toes be pointed toward you (not turned outward) for an effective Achilles Lock?",
+        "answer": "The toes must point toward you because this foot alignment exposes the Achilles tendon to direct pressure from your fulcrum point. If the foot turns outward (external rotation), the Achilles tendon rotates away from the pressure point and the compression moves to the side of the ankle instead. This not only makes the submission ineffective but also changes the injury mechanics. Proper foot alignment is essential for both technique effectiveness and controlled application of pressure to the intended target area.",
+        "safety_critical": false,
+        "answer_line": "Aligns Achilles with the fulcrum",
+        "distractors": {
+          "plausible": [
+            "Turned out grips the heel better",
+            "Pointing in guards your wrist"
+          ],
+          "trap": [
+            "Crank it with the foot turned out"
+          ]
+        }
+      },
+      {
+        "question": "What should you do immediately after your training partner taps to an Achilles Lock?",
+        "answer": "Immediately release hip extension and return your hips to the mat to remove all breaking pressure. Maintain leg control but eliminate pressure from the ankle. Then slowly open your guard and release the leg in a controlled manner - never drop it suddenly. Verbally check with your partner before resuming training to ensure they're okay. This controlled release protocol prevents additional injury and maintains a safe training environment.",
+        "safety_critical": true,
+        "answer_line": "Kill pressure, then release slow",
+        "distractors": {
+          "plausible": [
+            "Let go and walk away silently",
+            "Roll straight into the next round"
+          ],
+          "trap": [
+            "Hold pressure through the tap"
+          ]
+        }
+      },
+      {
+        "question": "Your opponent begins rotating their knee inward to relieve Achilles pressure - what submission chain opportunity does this create?",
+        "answer": "When the opponent rotates their knee inward, they expose their heel for heel hook attacks and create an angle favorable for toe hold entries. Rather than fighting their rotation, use it as a trigger to transition - thread your arm deeper for an inside heel hook setup or adjust your grip configuration to attack the toe hold. This defensive reaction often opens higher-percentage finishing opportunities than the original Achilles Lock attempt.",
+        "safety_critical": false,
+        "answer_line": "Chain to heel hook or toe hold",
+        "distractors": {
+          "plausible": [
+            "Re-grip and squeeze harder",
+            "Wait for the knee to settle"
+          ],
+          "trap": [
+            "Chase rotation, lose the hooks"
+          ]
+        }
+      },
+      {
+        "question": "What anatomical structure does the Achilles Lock specifically target and what type of force creates the tap?",
+        "answer": "The Achilles Lock targets the Achilles tendon - the thick connective tissue band connecting the calf muscles (gastrocnemius and soleus) to the heel bone (calcaneus). The tap comes from compression and hyperextension forces applied to the tendon against the fulcrum point. Unlike heel hooks which attack rotational integrity, the Achilles Lock applies straight-line pressure that creates intense pain in the tendon before structural damage occurs, giving practitioners warning to tap safely.",
+        "safety_critical": false,
+        "answer_line": "Achilles tendon, straight pressure",
+        "distractors": {
+          "plausible": [
+            "Ankle ligaments, rotational force",
+            "Calf muscle, squeezing force"
+          ],
+          "trap": [
+            "Torque the knee to finish"
+          ]
+        }
+      },
+      {
+        "question": "At what point during the Achilles Lock finishing sequence has the opponent passed the 'point of no escape'?",
+        "answer": "The point of no escape occurs when three conditions are met simultaneously: (1) Your hips are fully extended with your body creating the bow-and-arrow shape, (2) The heel is trapped deep in your armpit with the fulcrum positioned correctly on the Achilles tendon, and (3) Your knees are squeezed tightly together preventing leg extraction. Once all three conditions exist and you begin applying progressive pressure, the opponent's only option is to tap. Attempting escape at this stage risks serious injury.",
+        "safety_critical": true,
+        "answer_line": "All three locks set, then press",
+        "distractors": {
+          "plausible": [
+            "Heel trapped and pressure on",
+            "Hips extended with grip set"
+          ],
+          "trap": [
+            "Relax once the foot is in armpit"
+          ]
+        }
+      },
+      {
+        "question": "How should you adjust your grip and hip position when your opponent has particularly flexible ankles and seems to absorb standard finishing pressure?",
+        "answer": "For flexible opponents, transition to the figure-four grip configuration which provides a sharper fulcrum point and greater mechanical advantage. Simultaneously, move your hips even closer to their hip to maximize the leverage angle. You may also need to extend your hips more aggressively while pulling the heel deeper into your armpit. If standard mechanics remain ineffective, consider transitioning to belly-down variation where your body weight provides additional compression, or chain to a toe hold which attacks different structures.",
+        "safety_critical": false,
+        "answer_line": "Switch to figure-four grip",
+        "distractors": {
+          "plausible": [
+            "Pull hips further away",
+            "Apply pressure faster instead"
+          ],
+          "trap": [
+            "Add rotational torque"
+          ]
+        }
+      },
+      {
+        "question": "In competition, what strategic considerations should guide your decision to pursue an Achilles Lock versus transitioning to a different leg attack?",
+        "answer": "Pursue the Achilles Lock when: the opponent's heel is properly positioned with toes toward you, you have established tight leg control with no gaps, and they are not actively defending with knee rotation. Transition away when: the opponent rotates their knee inward (sets up heel hook), they successfully extract space between your knees, or they sit up aggressively to negate your angle. The Achilles Lock works best as a first-line attack that creates reactions you can exploit for higher-percentage follow-ups like heel hooks or toe holds.",
+        "safety_critical": false,
+        "answer_line": "Pursue if tight; chain if defended",
+        "distractors": {
+          "plausible": [
+            "Always finish before switching",
+            "Switch legs at first resistance"
+          ],
+          "trap": [
+            "Force it through knee rotation"
+          ]
+        }
+      },
+      {
+        "question": "What specific injury can result from combining twisting or rotational pressure with an Achilles Lock, and why is this prohibited in training?",
+        "answer": "Combining rotation with an Achilles Lock can cause spiral fractures of the tibia or fibula, as well as severe damage to the ankle mortise joint where the leg bones meet the foot. The Achilles Lock is designed to apply straight-line compression - adding rotation transforms it into a hybrid attack that simultaneously stresses multiple structures with unpredictable injury mechanics. This combination is prohibited because the injury mechanism becomes unclear, making it impossible for the defender to know when to tap before damage occurs.",
+        "safety_critical": true,
+        "answer_line": "Spiral fracture of tibia or fibula",
+        "distractors": {
+          "plausible": [
+            "Only a strained Achilles tendon",
+            "Minor ankle sprain, low risk"
+          ],
+          "trap": [
+            "Add a twist for a faster tap"
+          ]
+        }
+      }
+    ],
+    "clips": [
+      {
+        "id": "-VpByetjzqs",
+        "title": "Backside Foot Finish Mechanics",
+        "by": "Mikey Musumeci",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 84,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "PsyAVXfRhyY",
+        "title": "Straight Ankle Lock",
+        "by": "bjjtaro",
+        "vertical": false,
+        "channel": "bjjtaro",
+        "duration": 16,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "GVwnRuiKk-Y",
+        "title": "Fast Straight Ankle Lock (No-Gi)",
+        "by": "Everythingbjj",
+        "vertical": false,
+        "channel": "Everythingbjj",
+        "duration": 64,
+        "verified": "2026-07-14"
       }
     ]
   },
@@ -402,27 +703,152 @@
       {
         "question": "How do you recognize the straight ankle lock is being set up from ankle lock control?",
         "answer": "The key recognition cues are feeling the attacker's bony wrist edge sliding against your Achilles tendon, their legs tightening around your trapped leg to restrict hip rotation, your foot being pulled into their armpit pocket with increasing clamping pressure, and the attacker beginning to arch their back or extend their hips. Any combination of these cues indicates the finishing mechanics are being initiated and immediate defensive action is required within the first 1-2 seconds.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Wrist on Achilles, heel to armpit",
+        "distractors": {
+          "plausible": [
+            "Sudden grip release, then reset",
+            "Opponent shifts hips sideways"
+          ],
+          "trap": [
+            "Ignore it, they're not close yet"
+          ]
+        }
       },
       {
         "question": "What is the safest way to tap to the straight ankle lock and when should you tap?",
         "answer": "Tap clearly and decisively using verbal signal, physical hand tap on the opponent or mat with at least two firm taps, or foot tap with the free leg. Tap as soon as you feel sharp pain in the Achilles tendon area or recognize that the attacker has achieved full control with the breaking mechanics engaged and your defensive options are exhausted. Do not wait until the pain becomes severe—the ankle lock can cause Achilles tendon damage that requires months of recovery. Tapping early preserves your ability to train the next day.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Tap early - pain or full control",
+        "distractors": {
+          "plausible": [
+            "Tap only when it truly hurts",
+            "One quiet tap on their leg"
+          ],
+          "trap": [
+            "Wait it out, see if it eases"
+          ]
+        }
       },
       {
         "question": "What defensive options are available and how do you choose between them?",
         "answer": "The three primary options are boot defense with grip fighting for when the attacker is still establishing the forearm position, hip rotation with knee extraction for when you have created enough space through grip fighting, and standing escape for when the attacker's leg control is loose enough to post and rise. Choose based on timing: boot defense is the first line activated immediately, grip fighting creates the opening, and then either hip rotation or standing escape completes the positional escape based on which pathway the attacker's leg configuration leaves open.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Boot defense, then rotate or stand",
+        "distractors": {
+          "plausible": [
+            "Standing escape as first move",
+            "Hip rotation before grip fighting"
+          ],
+          "trap": [
+            "Straighten leg and pull out"
+          ]
+        }
       },
       {
         "question": "Why is it dangerous to straighten your trapped leg during escape attempts?",
         "answer": "Straightening the leg eliminates your ability to use hip rotation for escape while simultaneously maximizing the attacker's breaking leverage on both the ankle joint and the Achilles tendon. A straight leg also exposes the knee to immediate kneebar attacks. The bent knee position preserves structural integrity by limiting how much hyperextension force reaches the ankle and maintains the hip mobility essential for every technical escape from this position.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Maximizes leverage, exposes knee",
+        "distractors": {
+          "plausible": [
+            "It only slows your bridge",
+            "It just tires the trapped leg"
+          ],
+          "trap": [
+            "Straighten hard to rip free"
+          ]
+        }
       },
       {
         "question": "What is the optimal escape window and what happens if you exceed it?",
         "answer": "The optimal escape window is 5-12 seconds from when the attacker establishes ankle control. Within this window, grips are still being consolidated, leg control is incomplete, and defensive actions have the highest success probability. Beyond 12 seconds, the attacker has typically completed the figure-four grip, established full leg wrap control, and begun calibrating their breaking mechanics. Escape probability drops sharply after this point, and the attacker may begin transitioning to more dominant positions like inside ashi garami if the direct finish is unavailable.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "5-12 sec window, then it closes",
+        "distractors": {
+          "plausible": [
+            "20-30 seconds before it's too late",
+            "2-3 seconds, then it's over"
+          ],
+          "trap": [
+            "Wait for a clear opening first"
+          ]
+        }
+      },
+      {
+        "question": "What is the single most important early recognition cue that an Achilles Lock is being set up?",
+        "answer": "The most important early cue is feeling the attacker shift their grip to specifically cup and trap your heel deep into their armpit. This grip change precedes all other finishing mechanics - once the heel is secured, the attacker only needs to position the fulcrum and extend their hips. Recognizing this grip change gives you the maximum defensive window before the submission develops.",
+        "safety_critical": true,
+        "answer_line": "Grip shifts to trap the heel",
+        "distractors": {
+          "plausible": [
+            "Opponent squeezes their knees",
+            "Forearm presses your calf"
+          ],
+          "trap": [
+            "Wait for the arch to begin"
+          ]
+        }
+      },
+      {
+        "question": "Why is pulling your leg straight out against the attacker's knee squeeze a dangerous defensive mistake?",
+        "answer": "Pulling straight out drives the Achilles tendon harder into the attacker's fulcrum point (wrist bone or forearm edge), actually increasing the compression force on the tendon. Additionally, the straight pull feeds directly into the attacker's squeeze mechanics, potentially tightening their leg triangle around your trapped limb. Instead, you must first displace the fulcrum through knee rotation or break the heel grip before attempting any extraction movement.",
+        "safety_critical": true,
+        "answer_line": "Drives Achilles into the fulcrum",
+        "distractors": {
+          "plausible": [
+            "Cranks your knee into a kneebar",
+            "Flattens you for the leg pass"
+          ],
+          "trap": [
+            "Surrenders the heel to a heel hook"
+          ]
+        }
+      },
+      {
+        "question": "Your attacker has established deep heel control and begins leaning back - you have approximately 2 seconds before full hip extension. What is your highest-percentage immediate response?",
+        "answer": "Explosively sit up and drive your weight forward into the attacker to collapse their backward lean angle. Simultaneously rotate your knee inward to move the Achilles tendon away from the fulcrum. The forward drive directly opposes the two key finishing mechanics (backward lean and hip extension), buying time to address the heel grip. If you cannot complete the sit-up in time, grab your own foot as a temporary frame while continuing to work the knee rotation.",
+        "safety_critical": false,
+        "answer_line": "Sit up, drive forward, rotate knee",
+        "distractors": {
+          "plausible": [
+            "Kick free leg to break the grip",
+            "Flatten your back and stall"
+          ],
+          "trap": [
+            "Lean back and extend your hips"
+          ]
+        }
+      },
+      {
+        "question": "When defending an Achilles Lock, why does rotating your knee inward create both an escape opportunity and a new risk?",
+        "answer": "Rotating the knee inward successfully moves the Achilles tendon away from the attacker's fulcrum point, making the Achilles Lock ineffective. However, this same rotation exposes your heel to the attacker for heel hook attacks by changing the angle of your leg relative to their grip. A skilled attacker will recognize this rotation as a trigger to transition from Achilles Lock to inside heel hook. Defenders must be prepared to immediately address heel hook defense after using knee rotation to escape the Achilles Lock.",
+        "safety_critical": true,
+        "answer_line": "Escapes lock, exposes to heel hook",
+        "distractors": {
+          "plausible": [
+            "Breaks their grip, costs you time",
+            "Hides the foot, slows their finish"
+          ],
+          "trap": [
+            "Rotate outward and extend the leg"
+          ]
+        }
+      },
+      {
+        "question": "At what stage of the Achilles Lock should you accept that escape is no longer safe and tap instead?",
+        "answer": "You should tap when all three finishing conditions are established simultaneously: the attacker's hips are extended creating the bow-and-arrow shape, the fulcrum is positioned on your Achilles tendon with the heel trapped in their armpit, and their knees are squeezed tight preventing leg extraction. Once progressive pressure begins from this locked position, attempting escape risks Achilles tendon rupture because any movement you make will either increase compression or damage the tendon against the fulcrum. Tapping early preserves your training longevity.",
+        "safety_critical": true,
+        "answer_line": "All conditions locked, tap now",
+        "distractors": {
+          "plausible": [
+            "Once you feel the fulcrum",
+            "When hips start extending"
+          ],
+          "trap": [
+            "Fight until pressure spikes"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -440,6 +866,26 @@
         "phase": "Integrated Defense Phase",
         "focus": "Combining defensive tools into complete escape sequences under full resistance",
         "description": "Positional sparring starting from established straight ankle lock control with full resistance. Practice chaining boot defense into grip fighting into hip rotation escape as a continuous sequence. Track escape success rate and average time to escape to measure improvement and identify which defensive stage needs the most development."
+      }
+    ],
+    "clips": [
+      {
+        "id": "CUnX7TOpb-A",
+        "title": "Ankle Lock Escape: Put On the Boot",
+        "by": "Ritchie Yip",
+        "vertical": false,
+        "channel": "Ritchie Yip",
+        "duration": 16,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "vg-Luhls7yE",
+        "title": "Straight Ankle Lock: Defence & Escapes",
+        "by": "Jiu Jitsu Brotherhood",
+        "vertical": false,
+        "channel": "Jiu Jitsu Brotherhood",
+        "duration": 164,
+        "verified": "2026-07-14"
       }
     ]
   }

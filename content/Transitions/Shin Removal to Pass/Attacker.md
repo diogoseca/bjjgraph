@@ -168,6 +168,32 @@ description: "How to execute Shin Removal to Pass in BJJ. Attacking perspective 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Shin Removal to Pass (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Prison Guard breakdown",
+      "description": "Shin Removal to Pass (Attacker) film study: Prison Guard breakdown, taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/PFFTzx1Ih_Q/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/PFFTzx1Ih_Q",
+      "url": "https://www.youtube.com/watch?v=PFFTzx1Ih_Q",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT59S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -181,6 +207,26 @@ This technique is particularly valuable because gogoplata attacks have become in
 **From Position**: [[Positions/Gogoplata Control]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Shin Removal to Pass (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=PFFTzx1Ih_Q)
+
+<p class="clip-credit"><strong>Prison Guard breakdown</strong> — taught by Eddie Bravo · 0:59 · <a href="https://www.youtube.com/watch?v=PFFTzx1Ih_Q" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

@@ -174,6 +174,43 @@ description: "Learn to execute the Roll from Chill Dog escape. Step-by-step guid
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Roll from Chill Dog (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Turtle concepts: the front roll",
+      "description": "Roll from Chill Dog (Attacker) film study: Turtle concepts: the front roll, taught by Brazilian Top Team Happy Valley.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ILvdMiqeJaY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ILvdMiqeJaY",
+      "url": "https://www.youtube.com/watch?v=ILvdMiqeJaY",
+      "creator": { "@type": "Person", "name": "Brazilian Top Team Happy Valley" },
+      "duration": "PT73S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Turtle escape with a shoulder roll",
+      "description": "Roll from Chill Dog (Attacker) film study: Turtle escape with a shoulder roll, taught by BJJake.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/W0TCGKRcniA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/W0TCGKRcniA",
+      "url": "https://www.youtube.com/watch?v=W0TCGKRcniA",
+      "creator": { "@type": "Person", "name": "BJJake" },
+      "duration": "PT21S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -183,6 +220,34 @@ The attacker in this context is the bottom player executing the forward roll esc
 **From Position**: [[Positions/Rubber Guard/Chill Dog]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Roll from Chill Dog (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ILvdMiqeJaY)
+
+<p class="clip-credit"><strong>Turtle concepts: the front roll</strong> — taught by Brazilian Top Team Happy Valley · 1:13 · <a href="https://www.youtube.com/watch?v=ILvdMiqeJaY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=W0TCGKRcniA)
+
+<p class="clip-credit"><strong>Turtle escape with a shoulder roll</strong> — taught by BJJake · 0:21 · <a href="https://www.youtube.com/watch?v=W0TCGKRcniA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

@@ -27,7 +27,10 @@
     "Turtle",
     "Overhook Control"
   ],
-  "success_rate": 60,
+  "success_rate": {
+    "gi": 60,
+    "nogi": 60
+  },
   "variant_uniqueness": "Rotational momentum creates unstoppable leverage against static defenses",
   "summary": "Spinning Armbar is a family of dynamic armbar submissions in which the attacker spins their body around the opponent's trapped arm to hyperextend the elbow, creating finishing angles from positions such as closed guard, mount, turtle, and a defended triangle.",
   "overview": "The Spinning Armbar is a dynamic and versatile submission technique that targets the elbow joint through rotational movement. Unlike traditional static armbars, this technique involves spinning your entire body around the opponent's arm to create a finishing angle, making it particularly effective when standard armbar entries are defended or unavailable. The spinning motion generates momentum that can overcome defensive postures and creates multiple entry points from various positions including mount, guard, scrambles, and standing situations. This submission requires precise timing, spatial awareness, and fluid hip movement to execute successfully.\n\nThe technique's effectiveness lies in its ability to catch opponents off-guard through the unexpected rotational attack vector, bypassing traditional armbar defenses that focus on preventing hip movement or protecting the arm statically. The spin creates an angular velocity that makes defensive grip breaking extremely difficult once committed, as the rotational force compounds throughout the movement. Mastery of the spinning armbar opens up offensive opportunities from seemingly neutral positions and creates a constant submission threat that keeps opponents defensive and reactive throughout the match.\n\nFrom a biomechanical standpoint, the spinning armbar exploits the principle that rotational force applied around a fixed point (the opponent's shoulder) generates tremendous leverage at the distal end (the elbow). The attacker's entire body mass participates in the rotation, creating a force multiplier that static armbar entries cannot replicate. This makes it particularly effective against larger, stronger opponents who can resist conventional armbar mechanics through brute force alone.",
@@ -178,7 +181,7 @@
   ],
   "related_content": [
     {
-      "name": "Flying Armbar",
+      "name": "Flying Armbar from Closed Guard",
       "relationship": "Another explosive armbar variation requiring timing and commitment"
     },
     {
@@ -224,6 +227,35 @@
     {
       "name": "Armbar Control",
       "relationship": "Target control position after completing the spin"
+    }
+  ],
+  "clips": [
+    {
+      "id": "D2tutut1zio",
+      "title": "Armbar from Closed Guard",
+      "by": "Gracie Barra Boston",
+      "vertical": false,
+      "channel": "Gracie Barra Boston",
+      "duration": 103,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "F4Ns40AnI3Q",
+      "title": "Closed Guard Pull to Armbar",
+      "by": "Satori BJJ",
+      "vertical": false,
+      "channel": "Satori BJJ",
+      "duration": 41,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "FBDG7u5lOjk",
+      "title": "Armbar from Closed Guard: Hand Positioning",
+      "by": "Jean Jacques Machado",
+      "vertical": false,
+      "channel": "JeanJacquesMachado",
+      "duration": 138,
+      "verified": "2026-07-14"
     }
   ]
 }

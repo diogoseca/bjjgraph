@@ -174,6 +174,43 @@ description: "Learn to execute the Stack from Chill Dog as the attacking top pla
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Stack from Chill Dog (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Pillory counter to rubber guard pass",
+      "description": "Stack from Chill Dog (Attacker) film study: Pillory counter to rubber guard pass, taught by Gabriel Rainer.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Yct0FnRjGP8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Yct0FnRjGP8",
+      "url": "https://www.youtube.com/watch?v=Yct0FnRjGP8",
+      "creator": { "@type": "Person", "name": "Gabriel Rainer" },
+      "duration": "PT133S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Why London left the 10th Planet system",
+      "description": "Stack from Chill Dog (Attacker) film study: Why London left the 10th Planet system, taught by Submissions101 coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/kaVklKMW3aw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/kaVklKMW3aw",
+      "url": "https://www.youtube.com/watch?v=kaVklKMW3aw",
+      "creator": { "@type": "Person", "name": "Submissions101 coach" },
+      "duration": "PT94S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -185,6 +222,34 @@ The key insight is that you are not fighting against the opponent's muscular str
 **From Position**: [[Positions/Rubber Guard/Chill Dog]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Stack from Chill Dog (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Yct0FnRjGP8)
+
+<p class="clip-credit"><strong>Pillory counter to rubber guard pass</strong> — taught by Gabriel Rainer · 2:13 · <a href="https://www.youtube.com/watch?v=Yct0FnRjGP8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=kaVklKMW3aw)
+
+<p class="clip-credit"><strong>Why London left the 10th Planet system</strong> — taught by Submissions101 coach · 1:34 · <a href="https://www.youtube.com/watch?v=kaVklKMW3aw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

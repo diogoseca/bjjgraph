@@ -18,7 +18,10 @@
   "target_area": "Calf muscle and Achilles tendon",
   "starting_position": "Saddle",
   "from_position": "Saddle/Top",
-  "success_rate": 50,
+  "success_rate": {
+    "gi": 50,
+    "nogi": 50
+  },
   "overview": "The calf slicer from saddle exploits the perpendicular alignment inherent to the saddle position to create devastating compression on the opponent's calf muscle. Unlike calf slicers from back control or truck where the primary challenge is achieving the fold, the saddle provides pre-existing leg entanglement that naturally positions your shin behind the opponent's knee crease. This makes the transition from heel hook defense to calf slicer threat seamless—when opponents hide their heel by rotating their knee inward, they paradoxically expose the exact configuration needed for the calf slicer.\n\nThe finishing mechanics rely on your shin acting as a fulcrum point behind the knee while you control the opponent's foot and pull it toward your body, folding their lower leg over your tibia. The saddle's hip pressure prevents the primary defensive response of straightening the leg, creating a trapped configuration where the opponent must address both the compression and the entanglement simultaneously. This dual-threat nature makes the calf slicer from saddle particularly effective as a secondary attack within the leg lock dilemma system.\n\nAt competition level, this submission serves as a critical complement to heel hook entries from saddle. Advanced practitioners use the threat of the calf slicer to force opponents out of their heel-hiding defense, reopening the heel for the primary attack. Understanding this interplay between compression and rotation-based attacks elevates your saddle game from single-threat to multi-dimensional, significantly increasing overall finishing rates from leg entanglements.",
   "safety_considerations": {
     "injury_risks": [
@@ -104,17 +107,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 50,
+      "probability": {
+        "gi": 50,
+        "nogi": 50
+      },
       "result": "success"
     },
     {
       "to": "Saddle/Top",
-      "probability": 32,
+      "probability": {
+        "gi": 32,
+        "nogi": 32
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 18,
+      "probability": {
+        "gi": 18,
+        "nogi": 18
+      },
       "result": "counter"
     }
   ],
@@ -254,47 +266,166 @@
       {
         "question": "What anatomical structures does the calf slicer from saddle primarily attack?",
         "answer": "The calf slicer primarily compresses the gastrocnemius and soleus muscles of the calf against your shin bone, which acts as a fulcrum behind the knee crease. Secondary stress is placed on the Achilles tendon as the foot is folded, and the knee joint itself experiences hyperflexion pressure. The combination of muscular compression and joint stress creates the pain compliance that forces the tap.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Calf muscles crushed on the shin",
+        "distractors": {
+          "plausible": [
+            "Hamstring at the back of thigh",
+            "Ankle joint as the foot folds"
+          ],
+          "trap": [
+            "Nerve pinch, only goes numb"
+          ]
+        }
       },
       {
         "question": "Your opponent hides their heel after you establish the saddle—how does this create the calf slicer opportunity?",
         "answer": "When the opponent rotates their knee inward to hide the heel from heel hook attacks, they bend their knee and create the exact configuration needed for the calf slicer. Their bent leg positions the calf directly over your shin, and their heel-hiding rotation means they cannot straighten the leg without re-exposing the heel. This defensive dilemma is the primary tactical reason the calf slicer pairs so effectively with heel hooks from saddle.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Bent knee sets up the fold",
+        "distractors": {
+          "plausible": [
+            "Straight leg enables the fold",
+            "Hip rotation blocks the fold"
+          ],
+          "trap": [
+            "Extend the leg, feeding your heel"
+          ]
+        }
       },
       {
         "question": "What are the critical safety protocols when applying the calf slicer in training?",
         "answer": "Apply compression progressively over a minimum of 5-7 seconds, never jerking or spiking. Listen for verbal taps since leg entanglement may prevent hand tapping. Release immediately upon any tap signal by first releasing foot control, then slowly removing shin pressure. Check your partner's calf mobility and sensation before continuing. Never hold the position after a tap to practice finishing mechanics.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Compress slowly, release instantly",
+        "distractors": {
+          "plausible": [
+            "Rely on hand taps to stop",
+            "Release the shin before the foot"
+          ],
+          "trap": [
+            "Hold the lock after they tap"
+          ]
+        }
       },
       {
         "question": "How should you release the calf slicer after your partner taps to prevent injury?",
         "answer": "Upon hearing or feeling the tap, immediately stop applying additional compression force. Release your hand grips on the foot first, allowing the leg to unfold naturally. Then slowly withdraw your shin from behind their knee without jerking. Allow your partner to fully extend their leg at their own pace before disengaging your saddle entanglement. Always check if your partner needs time before resuming training.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Stop compression, unfold slowly",
+        "distractors": {
+          "plausible": [
+            "Free your saddle hooks first",
+            "Slide shin out before releasing feet"
+          ],
+          "trap": [
+            "Keep squeezing until they relax"
+          ]
+        }
       },
       {
         "question": "Your opponent starts straightening their trapped leg during the fold—what adjustment prevents escape?",
         "answer": "Drive your hips forward aggressively into their thigh to counter their extension force. Simultaneously pull their foot harder toward your chest. If they achieve partial extension, you have two options: increase hip drive to re-bend the leg, or abandon the calf slicer and immediately transition to a heel hook attack since their straightening motion re-exposes the heel. Never fight a losing battle against leg extension when the heel hook is available.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Drive hips, or switch to heel hook",
+        "distractors": {
+          "plausible": [
+            "Pull the foot, hips stay still",
+            "Squeeze knees, wait it out"
+          ],
+          "trap": [
+            "Sit back, releasing the saddle"
+          ]
+        }
       },
       {
         "question": "What distinguishes the correct shin placement from incorrect placement for this compression?",
         "answer": "Correct placement positions the flat of your tibial bone directly behind the knee crease, contacting the thick belly of the gastrocnemius muscle. Incorrect placement too high puts your shin on the hamstring where compression is less effective, while placement too low targets the Achilles tendon area which increases injury risk without proportional pain compliance. The ideal contact feels like your shin fits naturally into the pocket behind the knee joint.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Shin behind knee, on calf belly",
+        "distractors": {
+          "plausible": [
+            "Higher up, across the hamstring",
+            "Lower down, over the Achilles"
+          ],
+          "trap": [
+            "Spike the edge into the knee joint"
+          ]
+        }
       },
       {
         "question": "What grip configuration provides the strongest control for the finishing fold?",
         "answer": "The optimal finishing grip is a figure-four lock on the opponent's foot: thread your near arm under their ankle and clasp your far hand over your near wrist. This creates a self-reinforcing lock that does not depend on individual grip strength. The initial setup uses two open hands on the foot—near hand cupping the heel, far hand on the ball—before transitioning to the figure-four once the fold passes the tipping point where the opponent can no longer straighten the leg.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Figure-four lock on the foot",
+        "distractors": {
+          "plausible": [
+            "Two-hand grip, no lock",
+            "Gable grip on the ankle"
+          ],
+          "trap": [
+            "Release legs to squeeze the foot"
+          ]
+        }
       },
       {
         "question": "How do you maintain saddle control while transitioning your hands from heel hook grips to calf slicer grips?",
         "answer": "The transition must be sequential, not simultaneous. First, ensure your leg entanglement is tight with strong hip pressure. Release one hand from the heel hook grip while the other maintains contact. Move the free hand to the opponent's foot for calf slicer control. Only after the first hand is secured on the foot do you release the second hand and complete the grip transition. Your legs carry the positional burden throughout.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Sequential hand swap, legs hold",
+        "distractors": {
+          "plausible": [
+            "Release both hands together",
+            "Swap hands, ease leg pressure"
+          ],
+          "trap": [
+            "Let go of entanglement to grip"
+          ]
+        }
       },
       {
         "question": "What competition strategy considerations affect when to attempt the calf slicer versus heel hook from saddle?",
         "answer": "In submission-only formats, the calf slicer serves as a secondary threat that forces opponents out of heel-hiding defense, reopening the higher-percentage heel hook. In points-based competition, the calf slicer may be preferred when time is limited because it generates faster taps once the fold is locked. In rulesets where heel hooks are illegal but calf slicers are permitted at your belt level, it becomes the primary attack. Always verify ruleset legality before competition.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Slicer reopens the heel hook",
+        "distractors": {
+          "plausible": [
+            "Only useful when points are tied",
+            "Best opening move from saddle"
+          ],
+          "trap": [
+            "Attack it where it's banned"
+          ]
+        }
+      }
+    ],
+    "clips": [
+      {
+        "id": "7ni5VwepAbs",
+        "title": "Honey Hole / Calf Slicer from Lapel Guard",
+        "by": "Vicente Cavalcanti",
+        "vertical": false,
+        "channel": "VICENTE CAVALCANTI",
+        "duration": 72,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "FDCL7MV5G7s",
+        "title": "Calf slicer from the saddle",
+        "by": "Scott Ryan Chiriboga",
+        "vertical": false,
+        "channel": "Scott Ryan Chiriboga",
+        "duration": 78,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "Io-zglFj2q0",
+        "title": "Linking honey hole, kneebars and calf slicers",
+        "by": "Kevin Berbrich",
+        "vertical": false,
+        "channel": "Kevin Berbrich",
+        "duration": 299,
+        "verified": "2026-07-15"
       }
     ]
   },
@@ -387,22 +518,62 @@
       {
         "question": "How do you recognize that the opponent is transitioning from heel hook to calf slicer from saddle?",
         "answer": "The primary recognition cue is feeling the opponent release their heel hook grips and transition both hands toward your foot and ankle. You will feel increased shin pressure behind your knee crease as they begin positioning for the fold. Their hip pressure typically increases as they prepare to drive forward, and you may notice them adjusting their body angle slightly to optimize the compression line.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Feel grips leave heel for foot",
+        "distractors": {
+          "plausible": [
+            "Feel opponent's hips relax",
+            "Feel your ankle rotate free"
+          ],
+          "trap": [
+            "Turn in, feeding your heel"
+          ]
+        }
       },
       {
         "question": "What is the safest way to tap to the calf slicer from saddle to prevent injury?",
         "answer": "Tap verbally first since your hands may be occupied with grip fighting or trapped in the leg entanglement. Shout tap clearly and repeatedly. If you can free a hand, tap rapidly on the opponent or the mat. Tap as soon as you recognize the fold is locked and compression is increasing—do not wait to see if you can escape. Calf injuries from delayed tapping have long recovery times and the training reset is always preferable to injury.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Tap loudly, verbally, right away",
+        "distractors": {
+          "plausible": [
+            "Only signal with a free hand",
+            "Slap the mat, never shout"
+          ],
+          "trap": [
+            "Ride it out hoping to escape"
+          ]
+        }
       },
       {
         "question": "What defensive options are available when caught in the calf slicer from saddle?",
         "answer": "Your primary defense is straightening the trapped leg before the fold locks, removing the compression angle. You can also strip the opponent's grips from your foot using two-on-one grip fighting during the transition phase. Framing on their hips with your free leg creates space that may allow full leg extraction. If the fold is already locked past the point of no return, the correct defensive action is to tap immediately rather than risk injury.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Straighten leg before fold locks",
+        "distractors": {
+          "plausible": [
+            "Strip grips after the fold sets",
+            "Frame with the trapped foot"
+          ],
+          "trap": [
+            "Muscle through a locked slicer"
+          ]
+        }
       },
       {
         "question": "Why is straightening your leg both the primary defense and a potential trap?",
         "answer": "Straightening your leg removes the bent-knee configuration needed for the calf slicer, which is why it works as the primary defense. However, the reason your knee was bent in the first place was likely to hide your heel from heel hook attacks. Straightening the leg re-exposes the heel and the opponent can immediately abandon the calf slicer and attack the now-available heel hook. You must manage this dilemma by straightening while maintaining some knee rotation to protect the heel.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Fixes slicer, exposes the heel",
+        "distractors": {
+          "plausible": [
+            "Only risky if you turn away",
+            "Frees the knee, heel stays hid"
+          ],
+          "trap": [
+            "Fully extend and ignore heel risk"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -425,6 +596,35 @@
         "phase": "Phase 4: Full Escape Integration",
         "focus": "Complete escape sequences from saddle including calf slicer defense",
         "description": "Start in saddle during positional sparring with full resistance. Integrate calf slicer defense into your overall saddle escape protocol. Practice the full sequence: defend immediate submission, fight grips, frame hips, extract leg. Track which defensive responses lead to successful escapes versus resets."
+      }
+    ],
+    "clips": [
+      {
+        "id": "Ah7Eb5ewXAM",
+        "title": "Mir Lock vs Saddle Escape",
+        "by": "ZombieProof BJJ",
+        "vertical": false,
+        "channel": "ZombieProofBJJ",
+        "duration": 60,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "CFTLb8iywJg",
+        "title": "Defending and escaping the saddle",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "Absolute MMA St Kilda - Melbourne",
+        "duration": 383,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "JbRfIo1NTLk",
+        "title": "Clearing the knee line to defend leg locks",
+        "by": "Craig Jones",
+        "vertical": false,
+        "channel": "BJJ focus camps",
+        "duration": 274,
+        "verified": "2026-07-15"
       }
     ]
   }

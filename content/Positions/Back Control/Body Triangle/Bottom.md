@@ -27,7 +27,7 @@ description: "Defend and escape body triangle position in BJJ. Strategic guide c
     {
       "@type": "HowToStep",
       "name": "Execute Hip Escape to Turtle",
-      "text": "From this position, attempt Hip Escape to Turtle. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt Hip Escape to Turtle. This technique is attempted in 8% of exchanges from this position.",
       "position": 2
     },
     {
@@ -39,19 +39,19 @@ description: "Defend and escape body triangle position in BJJ. Strategic guide c
     {
       "@type": "HowToStep",
       "name": "Execute Body Triangle Escape to Half Guard",
-      "text": "From this position, attempt Body Triangle Escape to Half Guard. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Body Triangle Escape to Half Guard. This technique is attempted in 12% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Frame and Shrimp to Guard",
-      "text": "From this position, attempt Frame and Shrimp to Guard. This technique is attempted in 9% of exchanges from this position.",
+      "text": "From this position, attempt Frame and Shrimp to Guard. This technique is attempted in 12% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Elbow Escape to Remove Hooks",
-      "text": "From this position, attempt Elbow Escape to Remove Hooks. This technique is attempted in 8% of exchanges from this position.",
+      "text": "From this position, attempt Elbow Escape to Remove Hooks. This technique is attempted in 10% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -153,6 +153,43 @@ description: "Defend and escape body triangle position in BJJ. Strategic guide c
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Body Triangle (Bottom) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Escaping the Body Triangle",
+      "description": "Body Triangle (Bottom) film study: Escaping the Body Triangle, taught by Coach Brian.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/hgaULMND3ag/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/hgaULMND3ag",
+      "url": "https://www.youtube.com/watch?v=hgaULMND3ag",
+      "creator": { "@type": "Person", "name": "Coach Brian" },
+      "duration": "PT129S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Body Triangle Escape",
+      "description": "Body Triangle (Bottom) film study: Body Triangle Escape, taught by Art of War MMA.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/XXnVvrZXGOs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/XXnVvrZXGOs",
+      "url": "https://www.youtube.com/watch?v=XXnVvrZXGOs",
+      "creator": { "@type": "Person", "name": "Art of War MMA" },
+      "duration": "PT173S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -164,6 +201,34 @@ The primary challenge of this position is the breathing restriction created by t
 Successful defense from body triangle bottom requires calm breathing management, systematic clearing of the triangle lock, and protection of your neck throughout the escape process. You must work methodically despite the discomfort, using specific techniques to create space, attack the locked leg configuration, and eventually turn into your opponent or extract yourself from back control entirely. Elite defenders view this position as a temporary problem to be solved through technical precision rather than explosive scrambling. Understanding the mechanics of how the triangle creates pressure allows you to find weaknesses in the lock and systematically dismantle your opponent's control before advancing to neck attacks.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Body Triangle (Bottom) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=hgaULMND3ag)
+
+<p class="clip-credit"><strong>Escaping the Body Triangle</strong> — taught by Coach Brian · 2:09 · <a href="https://www.youtube.com/watch?v=hgaULMND3ag" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=XXnVvrZXGOs)
+
+<p class="clip-credit"><strong>Body Triangle Escape</strong> — taught by Art of War MMA · 2:53 · <a href="https://www.youtube.com/watch?v=XXnVvrZXGOs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

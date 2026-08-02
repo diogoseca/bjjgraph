@@ -144,6 +144,54 @@ description: "Defend the Twister spinal lock from Twister Side Control with reco
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Twister from Twister Side Control (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Escape and Counter the Twister",
+      "description": "Twister from Twister Side Control (Defender) film study: Escape and Counter the Twister, taught by Matrix Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Va1YNgx2E6M/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Va1YNgx2E6M",
+      "url": "https://www.youtube.com/watch?v=Va1YNgx2E6M",
+      "creator": { "@type": "Person", "name": "Matrix Jiu Jitsu" },
+      "duration": "PT165S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Twister Side Control Counter",
+      "description": "Twister from Twister Side Control (Defender) film study: Twister Side Control Counter, taught by 10th Planet Murrieta.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/jg0Rdc0rJzg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/jg0Rdc0rJzg",
+      "url": "https://www.youtube.com/watch?v=jg0Rdc0rJzg",
+      "creator": { "@type": "Person", "name": "10th Planet Murrieta" },
+      "duration": "PT16S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Escaping Twister Side Control",
+      "description": "Twister from Twister Side Control (Defender) film study: Escaping Twister Side Control, taught by Robot Dolphin Jiu-Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/AUyR1rmVzo4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/AUyR1rmVzo4",
+      "url": "https://www.youtube.com/watch?v=AUyR1rmVzo4",
+      "creator": { "@type": "Person", "name": "Robot Dolphin Jiu-Jitsu" },
+      "duration": "PT205S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -154,6 +202,42 @@ Defending the Twister from Twister Side Control demands immediate attention to s
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Twister from Twister Side Control (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Va1YNgx2E6M)
+
+<p class="clip-credit"><strong>Escape and Counter the Twister</strong> — taught by Matrix Jiu Jitsu · 2:45 · <a href="https://www.youtube.com/watch?v=Va1YNgx2E6M" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=jg0Rdc0rJzg)
+
+<p class="clip-credit"><strong>Twister Side Control Counter</strong> — taught by 10th Planet Murrieta · 0:16 · <a href="https://www.youtube.com/watch?v=jg0Rdc0rJzg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=AUyR1rmVzo4)
+
+<p class="clip-credit"><strong>Escaping Twister Side Control</strong> — taught by Robot Dolphin Jiu-Jitsu · 3:25 · <a href="https://www.youtube.com/watch?v=AUyR1rmVzo4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

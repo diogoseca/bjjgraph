@@ -294,73 +294,193 @@
     "transitions": [
       {
         "transition": "Knee Slice Pass",
-        "attempt_probability": 25
+        "attempt_probability": {
+          "gi": 17,
+          "nogi": 15
+        }
       },
       {
         "transition": "Smash Pass",
-        "attempt_probability": 14
+        "attempt_probability": {
+          "gi": 14,
+          "nogi": 12
+        }
       },
       {
         "transition": "Leg Drag Pass",
-        "attempt_probability": 12
+        "attempt_probability": {
+          "gi": 15,
+          "nogi": 14
+        }
       },
       {
         "transition": "Half Guard Pass",
-        "attempt_probability": 16
+        "attempt_probability": {
+          "gi": 11,
+          "nogi": 10
+        }
       },
       {
         "transition": "Underhook Pass",
-        "attempt_probability": 12
-      },
-      {
-        "transition": "Kimura from Half Guard",
-        "attempt_probability": 10
+        "attempt_probability": {
+          "gi": 11,
+          "nogi": 10
+        }
       },
       {
         "transition": "Guillotine Setup",
-        "attempt_probability": 6
+        "attempt_probability": {
+          "gi": 4,
+          "nogi": 7
+        }
       },
       {
         "transition": "Backstep from K-Guard",
-        "attempt_probability": 3
+        "attempt_probability": {
+          "gi": 16,
+          "nogi": 21
+        }
       },
       {
         "transition": "Pass K-Guard",
-        "attempt_probability": 2
+        "attempt_probability": {
+          "gi": 12,
+          "nogi": 11
+        }
       }
     ],
     "flashcards": [
       {
         "question": "What is the primary weight distribution strategy for maintaining passing pressure from K-Guard Top?",
-        "answer": "The primary strategy is directing weight through forward hip pressure angled toward the bottom player's upper body while maintaining a low chest position. Weight should compress the hook system rather than push against it, with the trapped leg staying heavy to prevent elevation while the free leg provides stable base. This creates downward and forward pressure that limits the bottom player's hip mobility without exposing you to sweep attempts."
+        "answer": "The primary strategy is directing weight through forward hip pressure angled toward the bottom player's upper body while maintaining a low chest position. Weight should compress the hook system rather than push against it, with the trapped leg staying heavy to prevent elevation while the free leg provides stable base. This creates downward and forward pressure that limits the bottom player's hip mobility without exposing you to sweep attempts.",
+        "answer_line": "Forward hip pressure, chest low",
+        "distractors": {
+          "plausible": [
+            "Push straight down on chest",
+            "Base weight on the trapped leg"
+          ],
+          "trap": [
+            "Stand up to create passing room"
+          ]
+        }
       },
       {
         "question": "Your opponent starts elevating your trapped leg with their butterfly hook - what adjustment do you make?",
-        "answer": "Immediately widen your free leg base and drop your hips lower while driving your weight laterally into the butterfly hook side rather than fighting the elevation directly. Simultaneously control their far hip to prevent them from completing the off-balancing motion. If elevation continues, backstep the trapped leg to remove it from the hook system entirely and re-engage from a safer angle."
+        "answer": "Immediately widen your free leg base and drop your hips lower while driving your weight laterally into the butterfly hook side rather than fighting the elevation directly. Simultaneously control their far hip to prevent them from completing the off-balancing motion. If elevation continues, backstep the trapped leg to remove it from the hook system entirely and re-engage from a safer angle.",
+        "answer_line": "Widen base, drive into hook side",
+        "distractors": {
+          "plausible": [
+            "Fight the lift by driving down",
+            "Free the trapped leg immediately"
+          ],
+          "trap": [
+            "Post on far arm and lean back"
+          ]
+        }
       },
       {
         "question": "What are the essential grip priorities when facing K-Guard from top position?",
-        "answer": "First priority is far hip control to anchor their position and prevent hip escapes that power sweeps. Second priority is collar or crossface grip to control their upper body and flatten their spine. Third priority is controlling the knee shield or inside arm to prevent re-framing. Grips should be established before initiating any pass to ensure the bottom player cannot reinforce their defensive structure."
+        "answer": "First priority is far hip control to anchor their position and prevent hip escapes that power sweeps. Second priority is collar or crossface grip to control their upper body and flatten their spine. Third priority is controlling the knee shield or inside arm to prevent re-framing. Grips should be established before initiating any pass to ensure the bottom player cannot reinforce their defensive structure.",
+        "answer_line": "Far hip, then collar or crossface",
+        "distractors": {
+          "plausible": [
+            "Collar grip before hip control",
+            "Grab both ankles first"
+          ],
+          "trap": [
+            "Underhook the far leg first"
+          ]
+        }
       },
       {
         "question": "How should you shut down the primary back-take threat from K-Guard bottom?",
-        "answer": "The back-take primarily occurs when you commit weight forward and the bottom player swims under for an underhook. Prevent this by maintaining chest angle down with your head positioned on their far shoulder, controlling their inside arm to block underhook attempts, and keeping pressure diagonal rather than straight down. If they begin the underhook motion, immediately whizzer and drive them flat before they can complete the back-take sequence."
+        "answer": "The back-take primarily occurs when you commit weight forward and the bottom player swims under for an underhook. Prevent this by maintaining chest angle down with your head positioned on their far shoulder, controlling their inside arm to block underhook attempts, and keeping pressure diagonal rather than straight down. If they begin the underhook motion, immediately whizzer and drive them flat before they can complete the back-take sequence.",
+        "answer_line": "Head far shoulder, block underhook",
+        "distractors": {
+          "plausible": [
+            "Crossface hard, ignore the arm",
+            "Post base and wait it out"
+          ],
+          "trap": [
+            "Commit weight forward, chase pass"
+          ]
+        }
       },
       {
         "question": "What is the most common base error that leads to getting swept from K-Guard Top?",
-        "answer": "The most common error is standing too upright while attempting to extract the trapped leg, which allows the bottom player to extend their hooks and frames to full length. This creates maximum leverage for their sweep attempts and removes your ability to pressure their hooks. The correction is to maintain forward hip pressure with chest angled down throughout the passing attempt, only creating height when you've already broken their hook tension."
+        "answer": "The most common error is standing too upright while attempting to extract the trapped leg, which allows the bottom player to extend their hooks and frames to full length. This creates maximum leverage for their sweep attempts and removes your ability to pressure their hooks. The correction is to maintain forward hip pressure with chest angled down throughout the passing attempt, only creating height when you've already broken their hook tension.",
+        "answer_line": "Stand upright while extracting leg",
+        "distractors": {
+          "plausible": [
+            "Not gripping the collar tightly",
+            "Extracting the leg too slowly"
+          ],
+          "trap": [
+            "Rise up once hooks feel loose"
+          ]
+        }
       },
       {
         "question": "Your opponent maintains active hook tension and you cannot flatten them - what systematic approach should you take?",
-        "answer": "Begin by winning the grip fight to establish dominant control points. Then use hip pressure combined with angle changes to redirect rather than fight their hook tension. Work to flatten their spine through shoulder pressure while controlling the far hip. Once their defensive structure is compromised, time your passing sequence to coincide with the moment their frames collapse. Patience is essential - forcing premature passes against active hooks leads to sweep counters."
+        "answer": "Begin by winning the grip fight to establish dominant control points. Then use hip pressure combined with angle changes to redirect rather than fight their hook tension. Work to flatten their spine through shoulder pressure while controlling the far hip. Once their defensive structure is compromised, time your passing sequence to coincide with the moment their frames collapse. Patience is essential - forcing premature passes against active hooks leads to sweep counters.",
+        "answer_line": "Win grips, then angle to flatten",
+        "distractors": {
+          "plausible": [
+            "Force the pass through tension",
+            "Speed up before they re-base"
+          ],
+          "trap": [
+            "Push straight through the hooks"
+          ]
+        }
       },
       {
         "question": "How do you manage energy expenditure when facing a strong K-Guard retention system?",
-        "answer": "Use positional pressure through body weight rather than muscular effort. Establish grips that allow you to rest weight on them while maintaining control. Avoid pushing directly against their hook system which creates stalemates. Instead, use angle changes and redirections that require minimal energy while systematically degrading their position. Accept that passing a skilled K-Guard player requires patience and methodical pressure rather than explosive attempts."
+        "answer": "Use positional pressure through body weight rather than muscular effort. Establish grips that allow you to rest weight on them while maintaining control. Avoid pushing directly against their hook system which creates stalemates. Instead, use angle changes and redirections that require minimal energy while systematically degrading their position. Accept that passing a skilled K-Guard player requires patience and methodical pressure rather than explosive attempts.",
+        "answer_line": "Use weight, not muscle, for pressure",
+        "distractors": {
+          "plausible": [
+            "Push hard against the hooks",
+            "Rest fully, wait for a mistake"
+          ],
+          "trap": [
+            "Explode repeatedly to break hooks"
+          ]
+        }
       },
       {
         "question": "Your opponent partially recovers full guard as you attempt to pass - how do you prevent complete guard recovery?",
-        "answer": "Immediately stop the passing attempt and re-establish pressure on the K-Guard structure before they can fully close their guard. Drive your trapped knee down between their legs to maintain the half guard configuration. Control their inside arm to prevent framing and re-apply hip pressure to compress their hooks. If they've already begun closing, backstep and disengage momentarily rather than getting caught in a compromised closed guard position, then re-engage with better angles."
+        "answer": "Immediately stop the passing attempt and re-establish pressure on the K-Guard structure before they can fully close their guard. Drive your trapped knee down between their legs to maintain the half guard configuration. Control their inside arm to prevent framing and re-apply hip pressure to compress their hooks. If they've already begun closing, backstep and disengage momentarily rather than getting caught in a compromised closed guard position, then re-engage with better angles.",
+        "answer_line": "Stop pass, drive knee back down",
+        "distractors": {
+          "plausible": [
+            "Push through to finish the pass",
+            "Grip fight harder for the arm"
+          ],
+          "trap": [
+            "Keep advancing into closed guard"
+          ]
+        }
+      }
+    ],
+    "clips": [
+      {
+        "id": "91eO9lV-sVE",
+        "title": "K Guard Defense and Pass",
+        "by": "Pure Grappling",
+        "vertical": false,
+        "channel": "Pure Grappling",
+        "duration": 281,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "JxDViUC4xhk",
+        "title": "K Guard Defense",
+        "by": "Rodrigo Lopes",
+        "vertical": false,
+        "channel": "Pathfinder Jiu-Jitsu Team",
+        "duration": 289,
+        "verified": "2026-07-14"
       }
     ]
   },
@@ -582,82 +702,367 @@
     "transitions": [
       {
         "transition": "X-Guard Sweep",
-        "attempt_probability": 10
+        "attempt_probability": {
+          "gi": 13,
+          "nogi": 11
+        }
       },
       {
         "transition": "Single Leg X Sweep",
-        "attempt_probability": 11
+        "attempt_probability": {
+          "gi": 15,
+          "nogi": 15
+        }
       },
       {
         "transition": "Deep Half Entry",
-        "attempt_probability": 29
+        "attempt_probability": {
+          "gi": 10,
+          "nogi": 8
+        }
       },
       {
         "transition": "Old School Sweep",
-        "attempt_probability": 8
+        "attempt_probability": {
+          "gi": 6,
+          "nogi": 6
+        }
       },
       {
         "transition": "Waiter Sweep",
-        "attempt_probability": 7
+        "attempt_probability": {
+          "gi": 5,
+          "nogi": 3
+        }
       },
       {
         "transition": "Half Guard to Back Take",
-        "attempt_probability": 12
+        "attempt_probability": {
+          "gi": 9,
+          "nogi": 9
+        }
       },
       {
         "transition": "Butterfly Sweep",
-        "attempt_probability": 10
+        "attempt_probability": {
+          "gi": 6,
+          "nogi": 6
+        }
       },
       {
         "transition": "50-50 Entry",
-        "attempt_probability": 6
+        "attempt_probability": {
+          "gi": 7,
+          "nogi": 14
+        }
       },
       {
         "transition": "Butterfly Hook Recovery",
-        "attempt_probability": 4
+        "attempt_probability": {
+          "gi": 7,
+          "nogi": 6
+        }
       },
       {
         "transition": "K-Guard Sweep",
-        "attempt_probability": 2
+        "attempt_probability": {
+          "gi": 12,
+          "nogi": 9
+        }
       },
       {
         "transition": "K-Guard to Single Leg X",
-        "attempt_probability": 1
+        "attempt_probability": {
+          "gi": 10,
+          "nogi": 13
+        }
       }
     ],
     "flashcards": [
       {
         "question": "What is the correct weight distribution for maintaining K-Guard Bottom against a pressure passer?",
-        "answer": "Weight should be distributed primarily on your shoulder and hip rather than flat on your back. Keep your head elevated off the mat to maintain spine angle that enables hip mobility. Your hooks should be actively loaded with tension - the inverted hook pulling the trapped leg across centerline while the butterfly hook creates constant upward pressure. This positioning allows you to redirect their pressure rather than absorbing it directly."
+        "answer": "Weight should be distributed primarily on your shoulder and hip rather than flat on your back. Keep your head elevated off the mat to maintain spine angle that enables hip mobility. Your hooks should be actively loaded with tension - the inverted hook pulling the trapped leg across centerline while the butterfly hook creates constant upward pressure. This positioning allows you to redirect their pressure rather than absorbing it directly.",
+        "answer_line": "Weight on shoulder/hip, head up",
+        "distractors": {
+          "plausible": [
+            "Flat on back, hooks relaxed",
+            "Weight on head, hips heavy"
+          ],
+          "trap": [
+            "Lie flat, absorb the pressure"
+          ]
+        }
       },
       {
         "question": "Your opponent starts driving heavy crossface pressure to flatten you - what adjustment do you make?",
-        "answer": "Immediately increase angle by moving your hips in a circular motion away from the pressure while maintaining your hook connections. Frame with your inside arm against their crossface to create distance, and coordinate this with increased butterfly hook pressure to elevate their weight off you. If they continue driving, use their forward commitment to enter Deep Half Guard by diving under their weight rather than fighting the pressure directly."
+        "answer": "Immediately increase angle by moving your hips in a circular motion away from the pressure while maintaining your hook connections. Frame with your inside arm against their crossface to create distance, and coordinate this with increased butterfly hook pressure to elevate their weight off you. If they continue driving, use their forward commitment to enter Deep Half Guard by diving under their weight rather than fighting the pressure directly.",
+        "answer_line": "Circle hips, frame the crossface",
+        "distractors": {
+          "plausible": [
+            "Push straight back against it",
+            "Hold still, wait them out"
+          ],
+          "trap": [
+            "Let them flatten, reverse later"
+          ]
+        }
       },
       {
         "question": "What are the essential hook mechanics that distinguish K-Guard from standard half guard?",
-        "answer": "The defining characteristic is the inverted inside hook that crosses over the opponent's trapped leg with your knee pointing toward their far hip, combined with an active outside butterfly hook at hip level. Unlike standard half guard where hooks primarily retain, K-Guard hooks create dynamic off-balancing through simultaneous lateral pulling (inverted hook) and vertical elevation (butterfly hook). Both hooks must maintain active tension creating a push-pull system rather than static retention."
+        "answer": "The defining characteristic is the inverted inside hook that crosses over the opponent's trapped leg with your knee pointing toward their far hip, combined with an active outside butterfly hook at hip level. Unlike standard half guard where hooks primarily retain, K-Guard hooks create dynamic off-balancing through simultaneous lateral pulling (inverted hook) and vertical elevation (butterfly hook). Both hooks must maintain active tension creating a push-pull system rather than static retention.",
+        "answer_line": "Inverted hook plus butterfly hook",
+        "distractors": {
+          "plausible": [
+            "Deep half hook, knee shield frame",
+            "Two butterfly hooks, no crossover"
+          ],
+          "trap": [
+            "Static double hook clamp"
+          ]
+        }
       },
       {
         "question": "How do you shut down the knee slice pass from K-Guard Bottom?",
-        "answer": "The knee slice becomes difficult when you maintain your inverted hook pulling their trapped leg across centerline - this prevents them from driving their knee through. Coordinate this with active butterfly hook pressure to elevate their weight when they attempt to slice. Use your inside frame to prevent them from flattening your shoulders, and continuously create angle changes with hip movement. If they begin slicing successfully, transition to Deep Half Guard before they complete the pass."
+        "answer": "The knee slice becomes difficult when you maintain your inverted hook pulling their trapped leg across centerline - this prevents them from driving their knee through. Coordinate this with active butterfly hook pressure to elevate their weight when they attempt to slice. Use your inside frame to prevent them from flattening your shoulders, and continuously create angle changes with hip movement. If they begin slicing successfully, transition to Deep Half Guard before they complete the pass.",
+        "answer_line": "Pull leg across, elevate hook",
+        "distractors": {
+          "plausible": [
+            "Frame on hip, ignore the hooks",
+            "Push the knee away with hand"
+          ],
+          "trap": [
+            "Let the knee slice, then scramble"
+          ]
+        }
       },
       {
         "question": "What are the grip priorities for maintaining effective K-Guard retention?",
-        "answer": "Primary grip should be an inside underhook or cross-face frame to prevent them from establishing chest-to-chest pressure. Secondary grip controls their far sleeve or collar to limit their posting options during sweep attempts. All grips should be active and coordinated with your hook actions - pushing with frames while pulling with hooks creates the amplified off-balancing effect that makes K-Guard effective. Avoid death-gripping statically as this creates predictable defensive positions."
+        "answer": "Primary grip should be an inside underhook or cross-face frame to prevent them from establishing chest-to-chest pressure. Secondary grip controls their far sleeve or collar to limit their posting options during sweep attempts. All grips should be active and coordinated with your hook actions - pushing with frames while pulling with hooks creates the amplified off-balancing effect that makes K-Guard effective. Avoid death-gripping statically as this creates predictable defensive positions.",
+        "answer_line": "Underhook or crossface frame first",
+        "distractors": {
+          "plausible": [
+            "Grip the collar before the frame",
+            "Control the far ankle only"
+          ],
+          "trap": [
+            "Death-grip one static frame"
+          ]
+        }
       },
       {
         "question": "Your opponent begins extracting their trapped leg and stepping back - what sequence do you follow?",
-        "answer": "As they step back, maintain your butterfly hook connection and follow their movement by extending your hips toward them. This creates the perfect entry for Single Leg X-Guard or standard X-Guard transitions. Use their backward momentum against them by immediately threatening the elevation sweep - their defensive extraction actually gives you the angle and distance needed for these high-percentage sweeps. Key is maintaining hook connection throughout their extraction attempt."
+        "answer": "As they step back, maintain your butterfly hook connection and follow their movement by extending your hips toward them. This creates the perfect entry for Single Leg X-Guard or standard X-Guard transitions. Use their backward momentum against them by immediately threatening the elevation sweep - their defensive extraction actually gives you the angle and distance needed for these high-percentage sweeps. Key is maintaining hook connection throughout their extraction attempt.",
+        "answer_line": "Follow with hips, enter X-Guard",
+        "distractors": {
+          "plausible": [
+            "Release hooks and reset guard",
+            "Chase the leg with your hands"
+          ],
+          "trap": [
+            "Let them fully step back and stand"
+          ]
+        }
       },
       {
         "question": "How do you manage energy when maintaining K-Guard against a persistent pressure passer?",
-        "answer": "Use your skeletal structure rather than muscular effort for retention - proper spine angle and hook positioning should allow you to redirect pressure without constant effort. Move your hips in small, efficient circular patterns rather than large explosive movements. Let their forward pressure load your hooks for sweep opportunities rather than fighting it. Maintain active but not maximal tension in hooks, saving explosive effort for sweep execution rather than retention."
+        "answer": "Use your skeletal structure rather than muscular effort for retention - proper spine angle and hook positioning should allow you to redirect pressure without constant effort. Move your hips in small, efficient circular patterns rather than large explosive movements. Let their forward pressure load your hooks for sweep opportunities rather than fighting it. Maintain active but not maximal tension in hooks, saving explosive effort for sweep execution rather than retention.",
+        "answer_line": "Use structure, small hip circles",
+        "distractors": {
+          "plausible": [
+            "Big explosive hip movements",
+            "Grip tightly and hold static"
+          ],
+          "trap": [
+            "Match their strength constantly"
+          ]
+        }
       },
       {
         "question": "Your opponent controls your inside arm and begins flattening your hooks systematically - how do you recover?",
-        "answer": "First priority is recovering inside arm position through swimming motions or framing against their shoulder. Simultaneously increase hip movement to create angles that prevent complete flattening. If they continue progressing, transition to Deep Half Guard by diving your upper body under their weight while maintaining bottom leg hook connection. Alternatively, release the inverted hook and recover to Butterfly Guard if they've created enough distance - maintaining a guard position is preferable to getting completely flattened."
+        "answer": "First priority is recovering inside arm position through swimming motions or framing against their shoulder. Simultaneously increase hip movement to create angles that prevent complete flattening. If they continue progressing, transition to Deep Half Guard by diving your upper body under their weight while maintaining bottom leg hook connection. Alternatively, release the inverted hook and recover to Butterfly Guard if they've created enough distance - maintaining a guard position is preferable to getting completely flattened.",
+        "answer_line": "Recover inside arm, increase angle",
+        "distractors": {
+          "plausible": [
+            "Push through with trapped leg",
+            "Hold position and wait it out"
+          ],
+          "trap": [
+            "Let go of all hooks and turtle"
+          ]
+        }
+      }
+    ],
+    "clips": [
+      {
+        "id": "L7OCTtMGt4M",
+        "title": "K Guard entry to knee bar",
+        "by": "Marshall Stamper",
+        "vertical": false,
+        "channel": "The Bear's Den BJJ & MMA  熊派巴西柔術及MMA學院",
+        "duration": 55,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "wkPHi2q1Cbo",
+        "title": "K guard to 411 saddle",
+        "by": "10th Planet St Louis",
+        "vertical": false,
+        "channel": "10th Planet St Louis",
+        "duration": 41,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "LAKiTjpAQ9g",
+        "title": "K-Guard entry to backside heel hook",
+        "by": "Leg Lock Systems",
+        "vertical": false,
+        "channel": "Leg Lock Systems",
+        "duration": 47,
+        "verified": "2026-07-14"
       }
     ]
-  }
+  },
+  "flashcards_position": [
+    {
+      "question": "What leg configuration defines K-Guard and gives the position its name?",
+      "answer": "K-Guard is defined by an inverted inside hook that crosses over the opponent's trapped leg with the bottom player's knee pointing toward the opponent's far hip, paired with an active outside butterfly hook seated at hip level under the opponent's free leg. Viewed from the side, the crossed inside leg and elevated outside leg form the diagonal-and-vertical shape of a 'K', which names the position. This dual-hook structure sits at the intersection of deep half guard and butterfly guard, trapping one of the opponent's legs while leaving the other as a base. The two hooks working in opposition are what separate K-Guard from a static half guard clamp.",
+      "answer_line": "Crossed hook, raised outside hook",
+      "distractors": {
+        "plausible": [
+          "Two crossed hooks, no butterfly",
+          "Butterfly hooks on both legs"
+        ],
+        "trap": [
+          "Single deep half hook only"
+        ]
+      }
+    },
+    {
+      "question": "Why is K-Guard considered a dynamic position rather than a static retention structure?",
+      "answer": "The two hooks pull in different directions simultaneously: the inverted inside hook drags the trapped leg laterally across the centerline while the butterfly hook drives vertically to elevate, creating a constant push-pull that never lets the top player settle. This opposition means the configuration is always loading toward an off-balance rather than merely holding ground. Because neither hook is purely defensive, small shifts in either one immediately change the balance vectors both players must manage. The position lives on continuous angle change and tension, so a passive K-Guard collapses into standard smash-passing control almost instantly.",
+      "answer_line": "Hooks pull opposite ways constantly",
+      "distractors": {
+        "plausible": [
+          "Hooks hold ground defensively",
+          "One hook active, one resting"
+        ],
+        "trap": [
+          "Lock both hooks still and wait"
+        ]
+      }
+    },
+    {
+      "question": "How does the trapped leg create the asymmetric balance that both players fight over?",
+      "answer": "One of the top player's legs is trapped between the crossed inside hook and the butterfly hook while the other leg remains free as a post, splitting the top player's base into a mobile side and an anchored side. This asymmetry prevents weight from distributing evenly, so the top player must constantly re-base against tension on the trapped leg while the bottom player loads that same leg across the centerline to undermine the anchored side. Because the imbalance is baked into the configuration itself, the trapped-leg tension is the shared axis the whole position turns on. Whoever controls that tension dictates whether the position tips toward a sweep or a pass.",
+      "answer_line": "Trapped leg splits base, one posts",
+      "distractors": {
+        "plausible": [
+          "Both legs equally weight-bearing",
+          "Free leg is the vulnerable side"
+        ],
+        "trap": [
+          "Trapped leg is irrelevant here"
+        ]
+      }
+    },
+    {
+      "question": "What role does head and spine positioning play in the shared dynamics of K-Guard?",
+      "answer": "Keeping the head elevated off the mat with the shoulders angled maintains a spine alignment that permits circular hip movement and continuous angle generation. A flattened spine with the head on the mat eliminates hip mobility, which is the engine for both retention and off-balancing. The top player therefore attacks this exact structure by driving shoulder pressure and crossface to flatten the spine, while the position's viability for the bottom depends on preventing that flatten-out. Head and spine posture is thus a contested control point rather than an incidental detail.",
+      "answer_line": "Head up keeps spine mobile",
+      "distractors": {
+        "plausible": [
+          "Head down protects the neck",
+          "Spine angle only matters for grips"
+        ],
+        "trap": [
+          "Flatten spine for more pressure"
+        ]
+      }
+    },
+    {
+      "question": "What are the primary contested control points that determine who wins the K-Guard exchange?",
+      "answer": "The central battlegrounds are the far hip, the inside-arm/underhook position, and the tension in both hooks. Controlling the far hip anchors the bottom player and shuts down the hip escapes that power sweeps, so both players fight over it. Inside-arm and underhook position governs whether chest-to-chest contact can be established, which is the gateway to flattening the hooks. Because these points connect the upper-body frames to the lower-body hooks, dominance at one control point cascades into control of the whole configuration.",
+      "answer_line": "Far hip, inside arm, hook tension",
+      "distractors": {
+        "plausible": [
+          "Ankle grip and far foot only",
+          "Collar tie and top wrist grip"
+        ],
+        "trap": [
+          "Neck control decides the exchange"
+        ]
+      }
+    },
+    {
+      "question": "How does the push-pull coordination between upper-body frames and lower-body hooks amplify off-balancing?",
+      "answer": "K-Guard links a pushing action from the upper-body frames with a simultaneous pulling action from the hooks, so force is applied to the opponent along two vectors at once. When the frame pushes the chest or shoulder one way while the inverted hook pulls the trapped leg the opposite way, the opponent's base is twisted rather than simply loaded, multiplying the off-balancing effect. Disconnecting these two systems leaves gaps that allow passing or re-basing, so the mechanics depend on synchronization. This coordinated push-pull is why a well-timed K-Guard can move a heavier opponent with relatively little muscular effort.",
+      "answer_line": "Frame pushes, hook pulls opposite",
+      "distractors": {
+        "plausible": [
+          "Both frame and hook push together",
+          "Hooks pull, frames stay passive"
+        ],
+        "trap": [
+          "Disconnect frames from hooks"
+        ]
+      }
+    },
+    {
+      "question": "How does K-Guard differ from the knee-shield half guards such as Z-Guard?",
+      "answer": "Knee-shield variations like Z-Guard place a shin or knee across the opponent's torso as a rigid frame that holds distance, functioning primarily as a static barrier. K-Guard instead threads an inverted hook underneath and across the trapped leg, trading that framing barrier for an active leg entanglement that pulls and elevates. The knee shield defends by blocking forward pressure, whereas the K-Guard hooks defend by redirecting that pressure into sweep and off-balance trajectories. This makes K-Guard more offensively loaded but also more dependent on constant tension than the comparatively stable knee-shield structures.",
+      "answer_line": "Active hook pull, not rigid frame",
+      "distractors": {
+        "plausible": [
+          "Both use static knee-shield frames",
+          "K-Guard blocks, Z-Guard redirects"
+        ],
+        "trap": [
+          "K-Guard is purely defensive like Z"
+        ]
+      }
+    },
+    {
+      "question": "Why does K-Guard tend to funnel the exchange toward leg-entanglement positions like X-Guard and Single Leg X?",
+      "answer": "Because the butterfly hook already sits under the opponent's free leg and the inverted hook controls the trapped leg, the position is one leg-line adjustment away from full entanglements. When the top player steps back or extracts the trapped leg, that motion feeds the bottom player's hips directly underneath, which is the exact entry geometry for X-Guard and Single Leg X. Conversely, if forward pressure collapses the space, the same hook connection routes into deep half guard. K-Guard therefore behaves as a transitional hub whose hook structure naturally continues into the neighboring leg-lock and elevation positions rather than standing alone.",
+      "answer_line": "Hook already unders the free leg",
+      "distractors": {
+        "plausible": [
+          "Only works into deep half guard",
+          "Requires releasing hooks first"
+        ],
+        "trap": [
+          "Stand up to reset the exchange"
+        ]
+      }
+    }
+  ],
+  "clips": [
+    {
+      "id": "KBkoWJtMeNA",
+      "title": "K guard entry to saddle",
+      "by": "bjj doug",
+      "vertical": false,
+      "channel": "bjj doug",
+      "duration": 28,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "ieR8CJ1EUM8",
+      "title": "K Guard 50/50 entry to inside heel hook",
+      "by": "BJJ GeekOut",
+      "vertical": false,
+      "channel": "BJJ GeekOut",
+      "duration": 14,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "ottOBmhsyP8",
+      "title": "K guard alternative entry",
+      "by": "Morto BJJ",
+      "vertical": false,
+      "channel": "Morto BJJ",
+      "duration": 92,
+      "verified": "2026-07-14"
+    }
+  ]
 }

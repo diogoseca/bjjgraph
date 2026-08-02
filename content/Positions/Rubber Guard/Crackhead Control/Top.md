@@ -21,37 +21,37 @@ description: "Navigate Crackhead Control from top position - defending deep over
     {
       "@type": "HowToStep",
       "name": "Execute Back Take",
-      "text": "From this position, attempt Back Take. This technique is attempted in 18% of exchanges from this position.",
+      "text": "From this position, attempt Back Take. This technique is attempted in 21% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Stack Pass",
-      "text": "From this position, attempt Stack Pass. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt Stack Pass. This technique is attempted in 18% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Double Underhook Pass",
-      "text": "From this position, attempt Double Underhook Pass. This technique is attempted in 16% of exchanges from this position.",
+      "text": "From this position, attempt Double Underhook Pass. This technique is attempted in 19% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Rolling Back Take",
-      "text": "From this position, attempt Rolling Back Take. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt Rolling Back Take. This technique is attempted in 11% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Posture Recovery to Closed Guard",
-      "text": "From this position, attempt Posture Recovery to Closed Guard. This technique is attempted in 20% of exchanges from this position.",
+      "text": "From this position, attempt Posture Recovery to Closed Guard. This technique is attempted in 14% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Arm Extraction and Pass",
-      "text": "From this position, attempt Arm Extraction and Pass. This technique is attempted in 16% of exchanges from this position.",
+      "text": "From this position, attempt Arm Extraction and Pass. This technique is attempted in 17% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -153,6 +153,43 @@ description: "Navigate Crackhead Control from top position - defending deep over
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Crackhead Control (Top) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Stoner control: top pressure on the rubber guard",
+      "description": "Crackhead Control (Top) film study: Stoner control: top pressure on the rubber guard, taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/wEedvmB_878/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/wEedvmB_878",
+      "url": "https://www.youtube.com/watch?v=wEedvmB_878",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT191S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Electric stone sweep to top stoner control",
+      "description": "Crackhead Control (Top) film study: Electric stone sweep to top stoner control, taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/dQ2mBMf9Gys/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/dQ2mBMf9Gys",
+      "url": "https://www.youtube.com/watch?v=dQ2mBMf9Gys",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT212S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -160,6 +197,34 @@ description: "Navigate Crackhead Control from top position - defending deep over
 From the top perspective, Crackhead Control presents a complex defensive puzzle requiring simultaneous management of multiple threats while capitalizing on the opponent's accepted back exposure. The position's primary danger comes from the submission chain connectivity - defending one attack often transitions directly into another without providing recovery time. Top players must develop pattern recognition for the bottom player's transition cues, understanding that certain defensive actions trigger specific submission attempts. The deep overhook creates significant postural restriction, limiting the top player's ability to generate forward pressure or establish passing grips. However, the position's inherent instability for the bottom player creates legitimate back-take opportunities that become increasingly accessible as the bottom player commits more aggressively to submission attempts. Success requires balancing defensive awareness of immediate submission threats with opportunistic offense toward back control when windows appear.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Crackhead Control (Top) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=wEedvmB_878)
+
+<p class="clip-credit"><strong>Stoner control: top pressure on the rubber guard</strong> — taught by Eddie Bravo · 3:11 · <a href="https://www.youtube.com/watch?v=wEedvmB_878" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=dQ2mBMf9Gys)
+
+<p class="clip-credit"><strong>Electric stone sweep to top stoner control</strong> — taught by Eddie Bravo · 3:32 · <a href="https://www.youtube.com/watch?v=dQ2mBMf9Gys" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

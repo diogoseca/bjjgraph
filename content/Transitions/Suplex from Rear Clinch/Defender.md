@@ -140,6 +140,54 @@ description: "Complete defensive guide against the Suplex from Rear Clinch. Cove
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Suplex from Rear Clinch (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Suplex defense from the rear body lock",
+      "description": "Suplex from Rear Clinch (Defender) film study: Suplex defense from the rear body lock, taught by SBG New Braunfels.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/LXn4w_Gq8a4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/LXn4w_Gq8a4",
+      "url": "https://www.youtube.com/watch?v=LXn4w_Gq8a4",
+      "creator": { "@type": "Person", "name": "SBG New Braunfels" },
+      "duration": "PT78S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Breaking the rear waist lock grip",
+      "description": "Suplex from Rear Clinch (Defender) film study: Breaking the rear waist lock grip, taught by Mohamad Hamad.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/8pFLiu8vHG4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/8pFLiu8vHG4",
+      "url": "https://www.youtube.com/watch?v=8pFLiu8vHG4",
+      "creator": { "@type": "Person", "name": "Mohamad Hamad" },
+      "duration": "PT11S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Five ways to defend the suplex",
+      "description": "Suplex from Rear Clinch (Defender) film study: Five ways to defend the suplex, taught by Self Defense Tutorials.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/gbTSgq2M4ns/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/gbTSgq2M4ns",
+      "url": "https://www.youtube.com/watch?v=gbTSgq2M4ns",
+      "creator": { "@type": "Person", "name": "Self Defense Tutorials" },
+      "duration": "PT279S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -149,6 +197,42 @@ As the defender against a Suplex from Rear Clinch, your immediate priority is pr
 **Opponent's Starting Position**: [[Positions/Standing Rear Clinch]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Suplex from Rear Clinch (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=LXn4w_Gq8a4)
+
+<p class="clip-credit"><strong>Suplex defense from the rear body lock</strong> — taught by SBG New Braunfels · 1:18 · <a href="https://www.youtube.com/watch?v=LXn4w_Gq8a4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=8pFLiu8vHG4)
+
+<p class="clip-credit"><strong>Breaking the rear waist lock grip</strong> — taught by Mohamad Hamad · 0:11 · <a href="https://www.youtube.com/watch?v=8pFLiu8vHG4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=gbTSgq2M4ns)
+
+<p class="clip-credit"><strong>Five ways to defend the suplex</strong> — taught by Self Defense Tutorials · 4:39 · <a href="https://www.youtube.com/watch?v=gbTSgq2M4ns" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

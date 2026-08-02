@@ -128,6 +128,54 @@ description: "How to defend against Kneebar from Half Guard in BJJ. Recognition,
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Kneebar from Half Guard (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "How to Defend a Kneebar",
+      "description": "Kneebar from Half Guard (Defender) film study: How to Defend a Kneebar, taught by Revolution BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/wBRG0fY94fs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/wBRG0fY94fs",
+      "url": "https://www.youtube.com/watch?v=wBRG0fY94fs",
+      "creator": { "@type": "Person", "name": "Revolution BJJ" },
+      "duration": "PT59S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Kneebar Defense + Take the Back",
+      "description": "Kneebar from Half Guard (Defender) film study: Kneebar Defense + Take the Back, taught by Bicudo BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/NuWBh3LN-SY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/NuWBh3LN-SY",
+      "url": "https://www.youtube.com/watch?v=NuWBh3LN-SY",
+      "creator": { "@type": "Person", "name": "Bicudo BJJ" },
+      "duration": "PT22S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Kneebar Defense in Competition",
+      "description": "Kneebar from Half Guard (Defender) film study: Kneebar Defense in Competition, taught by AJ Agazarm.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/kUuJ03CcIUQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/kUuJ03CcIUQ",
+      "url": "https://www.youtube.com/watch?v=kUuJ03CcIUQ",
+      "creator": { "@type": "Person", "name": "AJ Agazarm" },
+      "duration": "PT23S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -138,6 +186,42 @@ Defending the kneebar from half guard requires early recognition and decisive ac
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Kneebar from Half Guard (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=wBRG0fY94fs)
+
+<p class="clip-credit"><strong>How to Defend a Kneebar</strong> — taught by Revolution BJJ · 0:59 · <a href="https://www.youtube.com/watch?v=wBRG0fY94fs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=NuWBh3LN-SY)
+
+<p class="clip-credit"><strong>Kneebar Defense + Take the Back</strong> — taught by Bicudo BJJ · 0:22 · <a href="https://www.youtube.com/watch?v=NuWBh3LN-SY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=kUuJ03CcIUQ)
+
+<p class="clip-credit"><strong>Kneebar Defense in Competition</strong> — taught by AJ Agazarm · 0:23 · <a href="https://www.youtube.com/watch?v=kUuJ03CcIUQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

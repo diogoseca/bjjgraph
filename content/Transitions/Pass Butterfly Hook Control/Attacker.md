@@ -174,6 +174,54 @@ description: "Complete guide to executing the butterfly hook control pass in BJJ
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Pass Butterfly Hook Control (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Passing butterfly guard via cross butterfly hook",
+      "description": "Pass Butterfly Hook Control (Attacker) film study: Passing butterfly guard via cross butterfly hook, taught by Thunderdome BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/IKs6ZDfahHE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/IKs6ZDfahHE",
+      "url": "https://www.youtube.com/watch?v=IKs6ZDfahHE",
+      "creator": { "@type": "Person", "name": "Thunderdome BJJ" },
+      "duration": "PT44S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Half butterfly guard pass for no-gi",
+      "description": "Pass Butterfly Hook Control (Attacker) film study: Half butterfly guard pass for no-gi, taught by Factory Fresh Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Pk_6CrydIRQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Pk_6CrydIRQ",
+      "url": "https://www.youtube.com/watch?v=Pk_6CrydIRQ",
+      "creator": { "@type": "Person", "name": "Factory Fresh Jiu Jitsu" },
+      "duration": "PT110S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Passing by smash-baiting the butterfly hook",
+      "description": "Pass Butterfly Hook Control (Attacker) film study: Passing by smash-baiting the butterfly hook, taught by JT Torres.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/s5MYmM58Ipg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/s5MYmM58Ipg",
+      "url": "https://www.youtube.com/watch?v=s5MYmM58Ipg",
+      "creator": { "@type": "Person", "name": "JT Torres" },
+      "duration": "PT198S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -183,6 +231,42 @@ As the passer, your objective is to systematically dismantle the butterfly guard
 **From Position**: [[Positions/Butterfly Guard/Butterfly Hook Control]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Pass Butterfly Hook Control (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=IKs6ZDfahHE)
+
+<p class="clip-credit"><strong>Passing butterfly guard via cross butterfly hook</strong> — taught by Thunderdome BJJ · 0:44 · <a href="https://www.youtube.com/watch?v=IKs6ZDfahHE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Pk_6CrydIRQ)
+
+<p class="clip-credit"><strong>Half butterfly guard pass for no-gi</strong> — taught by Factory Fresh Jiu Jitsu · 1:50 · <a href="https://www.youtube.com/watch?v=Pk_6CrydIRQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=s5MYmM58Ipg)
+
+<p class="clip-credit"><strong>Passing by smash-baiting the butterfly hook</strong> — taught by JT Torres · 3:18 · <a href="https://www.youtube.com/watch?v=s5MYmM58Ipg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

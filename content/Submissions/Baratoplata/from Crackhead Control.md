@@ -34,6 +34,54 @@ description: "Master the Baratoplata from Crackhead Control. Complete guide to t
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Baratoplata from Crackhead Control \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Baratoplata basics from rubber guard",
+      "description": "Baratoplata from Crackhead Control film study: Baratoplata basics from rubber guard, taught by True Believer Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/1O-BoOWXhzY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/1O-BoOWXhzY",
+      "url": "https://www.youtube.com/watch?v=1O-BoOWXhzY",
+      "creator": { "@type": "Person", "name": "True Believer Jiu Jitsu" },
+      "duration": "PT232S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Baratoplata setup and finish",
+      "description": "Baratoplata from Crackhead Control film study: Baratoplata setup and finish, taught by Joao Miyao.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/7PzrTuuHzZ4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/7PzrTuuHzZ4",
+      "url": "https://www.youtube.com/watch?v=7PzrTuuHzZ4",
+      "creator": { "@type": "Person", "name": "Joao Miyao" },
+      "duration": "PT362S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Rubber guard control and shoulder lock attacks",
+      "description": "Baratoplata from Crackhead Control film study: Rubber guard control and shoulder lock attacks, taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/RJ7Iutti8cY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/RJ7Iutti8cY",
+      "url": "https://www.youtube.com/watch?v=RJ7Iutti8cY",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT521S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -75,9 +123,45 @@ The submission works by threading the attacking arm underneath the opponent's tr
 
 What makes this variation particularly dangerous at the competitive level is the deceptive nature of the attack within the Crackhead Control attack chain. Opponents defending against Crackhead Control typically focus on preventing the more common gogoplata or omoplata threats, leaving the baratoplata as a secondary attack that catches defenders off-guard. The leg-assisted mechanics generate significantly more torque than arm-only shoulder locks like the americana or kimura, making this a genuinely threatening submission even against larger or stronger opponents. The shoulder joint can reach structural failure before adequate pain signals register, demanding exceptional care during training.
 
-**Starting Position**: [[Positions/Crackhead Control]] · **From**: [[Positions/Crackhead Control]] (Bottom)
+**Starting Position**: [[Positions/Rubber Guard/Crackhead Control]] · **From**: [[Positions/Rubber Guard/Crackhead Control]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Baratoplata from Crackhead Control in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=1O-BoOWXhzY)
+
+<p class="clip-credit"><strong>Baratoplata basics from rubber guard</strong> — taught by True Believer Jiu Jitsu · 3:52 · <a href="https://www.youtube.com/watch?v=1O-BoOWXhzY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=7PzrTuuHzZ4)
+
+<p class="clip-credit"><strong>Baratoplata setup and finish</strong> — taught by Joao Miyao · 6:02 · <a href="https://www.youtube.com/watch?v=7PzrTuuHzZ4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=RJ7Iutti8cY)
+
+<p class="clip-credit"><strong>Rubber guard control and shoulder lock attacks</strong> — taught by Eddie Bravo · 8:41 · <a href="https://www.youtube.com/watch?v=RJ7Iutti8cY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="outcomes" class="content-section">
 
@@ -86,7 +170,7 @@ What makes this variation particularly dangerous at the competitive level is the
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 42% |
-| Failure | [[Positions/Crackhead Control]] | 38% |
+| Failure | [[Positions/Rubber Guard/Crackhead Control]] | 38% |
 | Counter | [[Positions/Closed Guard]] | 20% |
 
 
@@ -233,7 +317,7 @@ What makes this variation particularly dangerous at the competitive level is the
 
 ## From Which Positions?
 
-- [[Positions/Crackhead Control]]
+- [[Positions/Rubber Guard/Crackhead Control]]
 - [[Positions/Rubber Guard/Meathook]]
 
 
@@ -245,9 +329,9 @@ What makes this variation particularly dangerous at the competitive level is the
 - [[Submissions/Baratoplata]]
 - [[Transitions/Gogoplata]]
 - [[Submissions/Omoplata]]
-- [[Transitions/Arm Triangle]]
+- [[Submissions/Arm Triangle]]
 - [[Positions/Half Guard/Electric Chair]]
-- [[Positions/Crackhead Control]] - Primary starting position providing posture control and arm isolation for the submission
+- [[Positions/Rubber Guard/Crackhead Control]] - Primary starting position providing posture control and arm isolation for the submission
 - [[Positions/Rubber Guard/Mission Control]] - Preceding rubber guard position that transitions into crackhead control setup
 - [[Positions/Rubber Guard/Meathook]] - Alternative rubber guard position with similar arm isolation for baratoplata entry
 

@@ -140,6 +140,54 @@ description: "Defend against the Old School to Half Guard recovery in BJJ. Capit
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Old School to Half Guard (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Half guard recovery and lockdown defense",
+      "description": "Old School to Half Guard (Defender) film study: Half guard recovery and lockdown defense, taught by Robot Dolphin Jiu-Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/zNYVPT5XExU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/zNYVPT5XExU",
+      "url": "https://www.youtube.com/watch?v=zNYVPT5XExU",
+      "creator": { "@type": "Person", "name": "Robot Dolphin Jiu-Jitsu" },
+      "duration": "PT194S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Two ways to escape the half guard lockdown",
+      "description": "Old School to Half Guard (Defender) film study: Two ways to escape the half guard lockdown, taught by Ben Egli.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/CmhIaSAJz_8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/CmhIaSAJz_8",
+      "url": "https://www.youtube.com/watch?v=CmhIaSAJz_8",
+      "creator": { "@type": "Person", "name": "Ben Egli" },
+      "duration": "PT243S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Passing the lockdown half guard",
+      "description": "Old School to Half Guard (Defender) film study: Passing the lockdown half guard, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/gtsKv_sDRnw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/gtsKv_sDRnw",
+      "url": "https://www.youtube.com/watch?v=gtsKv_sDRnw",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT359S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -149,6 +197,42 @@ Defending against the Old School to Half Guard transition means capitalizing on 
 **Opponent's Starting Position**: [[Positions/Half Guard/Old School]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Old School to Half Guard (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=zNYVPT5XExU)
+
+<p class="clip-credit"><strong>Half guard recovery and lockdown defense</strong> — taught by Robot Dolphin Jiu-Jitsu · 3:14 · <a href="https://www.youtube.com/watch?v=zNYVPT5XExU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=CmhIaSAJz_8)
+
+<p class="clip-credit"><strong>Two ways to escape the half guard lockdown</strong> — taught by Ben Egli · 4:03 · <a href="https://www.youtube.com/watch?v=CmhIaSAJz_8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=gtsKv_sDRnw)
+
+<p class="clip-credit"><strong>Passing the lockdown half guard</strong> — taught by Lachlan Giles · 5:59 · <a href="https://www.youtube.com/watch?v=gtsKv_sDRnw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

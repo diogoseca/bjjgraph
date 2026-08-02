@@ -34,6 +34,54 @@ description: "Learn the belly down armbar finish from Mission Control in BJJ. Ma
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Belly Down Armbar from Mission Control \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Mission Control to Armbars",
+      "description": "Belly Down Armbar from Mission Control film study: Mission Control to Armbars, taught by 10th Planet Orange Park.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/5fJM5bIk8Fw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/5fJM5bIk8Fw",
+      "url": "https://www.youtube.com/watch?v=5fJM5bIk8Fw",
+      "creator": { "@type": "Person", "name": "10th Planet Orange Park" },
+      "duration": "PT108S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Gubber Guard to Belly Down Armbar",
+      "description": "Belly Down Armbar from Mission Control film study: Gubber Guard to Belly Down Armbar, taught by Revolution BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/bpzSfXme_eY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/bpzSfXme_eY",
+      "url": "https://www.youtube.com/watch?v=bpzSfXme_eY",
+      "creator": { "@type": "Person", "name": "Revolution BJJ" },
+      "duration": "PT77S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Belly Down Armbar Finish",
+      "description": "Belly Down Armbar from Mission Control film study: Belly Down Armbar Finish, taught by Brandoo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/yDxtO6qzOL0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/yDxtO6qzOL0",
+      "url": "https://www.youtube.com/watch?v=yDxtO6qzOL0",
+      "creator": { "@type": "Person", "name": "Brandoo" },
+      "duration": "PT58S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -78,6 +126,42 @@ From a strategic standpoint, this submission creates a powerful dilemma within t
 **Starting Position**: [[Positions/Rubber Guard/Mission Control]] · **From**: [[Positions/Rubber Guard/Mission Control]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Belly Down Armbar from Mission Control in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=5fJM5bIk8Fw)
+
+<p class="clip-credit"><strong>Mission Control to Armbars</strong> — taught by 10th Planet Orange Park · 1:48 · <a href="https://www.youtube.com/watch?v=5fJM5bIk8Fw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=bpzSfXme_eY)
+
+<p class="clip-credit"><strong>Gubber Guard to Belly Down Armbar</strong> — taught by Revolution BJJ · 1:17 · <a href="https://www.youtube.com/watch?v=bpzSfXme_eY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=yDxtO6qzOL0)
+
+<p class="clip-credit"><strong>Belly Down Armbar Finish</strong> — taught by Brandoo · 0:58 · <a href="https://www.youtube.com/watch?v=yDxtO6qzOL0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="outcomes" class="content-section">
 
@@ -215,7 +299,7 @@ From a strategic standpoint, this submission creates a powerful dilemma within t
 ## From Which Positions?
 
 - [[Positions/Rubber Guard/Mission Control]]
-- [[Positions/Crackhead Control]]
+- [[Positions/Rubber Guard/Crackhead Control]]
 
 
 </section>
@@ -230,7 +314,7 @@ From a strategic standpoint, this submission creates a powerful dilemma within t
 - [[Positions/Rubber Guard/Mission Control]] - Starting position providing the shoulder isolation and arm control needed for this submission entry
 - [[Positions/Armbar Control]] - Control position established during the transition from high guard to armbar configuration
 - [[Positions/Closed Guard]] - Fallback position if the armbar attempt is countered and opponent escapes the rubber guard
-- [[Positions/Crackhead Control]] - Alternative rubber guard position with similar arm isolation potential for belly down armbar entry
+- [[Positions/Rubber Guard/Crackhead Control]] - Alternative rubber guard position with similar arm isolation potential for belly down armbar entry
 
 </section>
 

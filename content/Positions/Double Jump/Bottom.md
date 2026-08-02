@@ -21,7 +21,7 @@ description: "Master Double Jump Bottom position in BJJ. Dynamic entry to deep h
     {
       "@type": "HowToStep",
       "name": "Execute Deep Half Entry",
-      "text": "From this position, attempt Deep Half Entry. This technique is attempted in 48% of exchanges from this position.",
+      "text": "From this position, attempt Deep Half Entry. This technique is attempted in 12% of exchanges from this position.",
       "position": 1
     },
     {
@@ -39,19 +39,19 @@ description: "Master Double Jump Bottom position in BJJ. Dynamic entry to deep h
     {
       "@type": "HowToStep",
       "name": "Execute 100% Sweep",
-      "text": "From this position, attempt 100% Sweep. This technique is attempted in 7% of exchanges from this position.",
+      "text": "From this position, attempt 100% Sweep. This technique is attempted in 10% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Half Guard to Back Take",
-      "text": "From this position, attempt Half Guard to Back Take. This technique is attempted in 7% of exchanges from this position.",
+      "text": "From this position, attempt Half Guard to Back Take. This technique is attempted in 10% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Electric Chair Transition",
-      "text": "From this position, attempt Electric Chair Transition. This technique is attempted in 4% of exchanges from this position.",
+      "text": "From this position, attempt Electric Chair Transition. This technique is attempted in 6% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -153,6 +153,54 @@ description: "Master Double Jump Bottom position in BJJ. Dynamic entry to deep h
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Double Jump (Bottom) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Deep Half Guard Sweep",
+      "description": "Double Jump (Bottom) film study: Deep Half Guard Sweep, taught by Kyle Dimmitt.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ZQzg3TnzMJI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ZQzg3TnzMJI",
+      "url": "https://www.youtube.com/watch?v=ZQzg3TnzMJI",
+      "creator": { "@type": "Person", "name": "Kyle Dimmitt" },
+      "duration": "PT42S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Deep Half Guard from Knee on Belly",
+      "description": "Double Jump (Bottom) film study: Deep Half Guard from Knee on Belly, taught by Team Daruma Dojo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Dalv3UtxCZ0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Dalv3UtxCZ0",
+      "url": "https://www.youtube.com/watch?v=Dalv3UtxCZ0",
+      "creator": { "@type": "Person", "name": "Team Daruma Dojo" },
+      "duration": "PT68S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Faria Sweep from Deep Half Guard",
+      "description": "Double Jump (Bottom) film study: Faria Sweep from Deep Half Guard, taught by Masahiro Iwasaki.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/q83q61ZVAy4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/q83q61ZVAy4",
+      "url": "https://www.youtube.com/watch?v=q83q61ZVAy4",
+      "creator": { "@type": "Person", "name": "Masahiro Iwasaki" },
+      "duration": "PT158S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -164,6 +212,42 @@ The Double Jump Bottom position represents a modern approach to guard recovery t
 Successful execution of Double Jump Bottom requires precise timing, explosive hip mobility, and the ability to read your opponent's weight distribution. When executed properly, it bypasses traditional passing defenses and immediately places you in an advantageous deep half position with multiple offensive options including the old school sweep, electric chair, and waiter sweep sequences.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Double Jump (Bottom) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ZQzg3TnzMJI)
+
+<p class="clip-credit"><strong>Deep Half Guard Sweep</strong> — taught by Kyle Dimmitt · 0:42 · <a href="https://www.youtube.com/watch?v=ZQzg3TnzMJI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Dalv3UtxCZ0)
+
+<p class="clip-credit"><strong>Deep Half Guard from Knee on Belly</strong> — taught by Team Daruma Dojo · 1:08 · <a href="https://www.youtube.com/watch?v=Dalv3UtxCZ0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=q83q61ZVAy4)
+
+<p class="clip-credit"><strong>Faria Sweep from Deep Half Guard</strong> — taught by Masahiro Iwasaki · 2:38 · <a href="https://www.youtube.com/watch?v=q83q61ZVAy4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

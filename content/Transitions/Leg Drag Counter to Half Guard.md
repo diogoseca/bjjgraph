@@ -34,6 +34,54 @@ description: "Master the leg drag counter to half guard escape. Step-by-step def
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Leg Drag Counter to Half Guard \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Guard retention against the leg drag",
+      "description": "Leg Drag Counter to Half Guard film study: Guard retention against the leg drag, taught by Brandon Quick.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/fFqoFDE2yyw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/fFqoFDE2yyw",
+      "url": "https://www.youtube.com/watch?v=fFqoFDE2yyw",
+      "creator": { "@type": "Person", "name": "Brandon Quick" },
+      "duration": "PT90S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Side Kipping to Retain Guard and Defeat the Leg Drag",
+      "description": "Leg Drag Counter to Half Guard film study: Side Kipping to Retain Guard and Defeat the Leg Drag, taught by Brian Glick.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/PeRFLNak-1U/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/PeRFLNak-1U",
+      "url": "https://www.youtube.com/watch?v=PeRFLNak-1U",
+      "creator": { "@type": "Person", "name": "Brian Glick" },
+      "duration": "PT233S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Guard Retention: When to Sit Up Escape",
+      "description": "Leg Drag Counter to Half Guard film study: Guard Retention: When to Sit Up Escape, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/lVLAROiSjNU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/lVLAROiSjNU",
+      "url": "https://www.youtube.com/watch?v=lVLAROiSjNU",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT136S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -66,9 +114,45 @@ The technique exploits the transitional nature of leg drag control. While the pa
 Strategically, this counter represents the middle path between complete guard recovery and accepting an inferior position. Rather than fighting for closed guard (often impossible from leg drag bottom) or conceding to turtle (giving up initiative), recovering half guard maintains your offensive potential while immediately neutralizing the back take threat. From half guard, you have sweeps, back takes, and leg lock entries available—making this counter a crucial bridge technique in any comprehensive guard retention system.
 
 **From Position**: [[Positions/Leg Drag Control]] (Bottom)
-**Success Rate**: 48%
+**Success Rate**: 34%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Leg Drag Counter to Half Guard in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=fFqoFDE2yyw)
+
+<p class="clip-credit"><strong>Guard retention against the leg drag</strong> — taught by Brandon Quick · 1:30 · <a href="https://www.youtube.com/watch?v=fFqoFDE2yyw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=PeRFLNak-1U)
+
+<p class="clip-credit"><strong>Side Kipping to Retain Guard and Defeat the Leg Drag</strong> — taught by Brian Glick · 3:53 · <a href="https://www.youtube.com/watch?v=PeRFLNak-1U" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=lVLAROiSjNU)
+
+<p class="clip-credit"><strong>Guard Retention: When to Sit Up Escape</strong> — taught by Lachlan Giles · 2:16 · <a href="https://www.youtube.com/watch?v=lVLAROiSjNU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

@@ -148,6 +148,54 @@ description: "Master defending against the Whizzer from Deep Half Guard. Learn t
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Whizzer from Deep Half (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Whizzer defense from dogfight to armbar",
+      "description": "Whizzer from Deep Half (Defender) film study: Whizzer defense from dogfight to armbar, taught by Pathfinder Jiu-Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/R8RY9Ky648o/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/R8RY9Ky648o",
+      "url": "https://www.youtube.com/watch?v=R8RY9Ky648o",
+      "creator": { "@type": "Person", "name": "Pathfinder Jiu-Jitsu" },
+      "duration": "PT124S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Stopping the half guard underhook",
+      "description": "Whizzer from Deep Half (Defender) film study: Stopping the half guard underhook, taught by Malachy Friedman.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/dOdO6xJ-TcU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/dOdO6xJ-TcU",
+      "url": "https://www.youtube.com/watch?v=dOdO6xJ-TcU",
+      "creator": { "@type": "Person", "name": "Malachy Friedman" },
+      "duration": "PT98S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Rollover sweep from dogfight position",
+      "description": "Whizzer from Deep Half (Defender) film study: Rollover sweep from dogfight position, taught by Cory Lawson.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/iwa9DlIGrsY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/iwa9DlIGrsY",
+      "url": "https://www.youtube.com/watch?v=iwa9DlIGrsY",
+      "creator": { "@type": "Person", "name": "Cory Lawson" },
+      "duration": "PT112S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +205,42 @@ As the defender against the whizzer from deep half guard, you are the bottom pla
 **Opponent's Starting Position**: [[Positions/Half Guard/Deep Half Guard]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Whizzer from Deep Half (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=R8RY9Ky648o)
+
+<p class="clip-credit"><strong>Whizzer defense from dogfight to armbar</strong> — taught by Pathfinder Jiu-Jitsu · 2:04 · <a href="https://www.youtube.com/watch?v=R8RY9Ky648o" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=dOdO6xJ-TcU)
+
+<p class="clip-credit"><strong>Stopping the half guard underhook</strong> — taught by Malachy Friedman · 1:38 · <a href="https://www.youtube.com/watch?v=dOdO6xJ-TcU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=iwa9DlIGrsY)
+
+<p class="clip-credit"><strong>Rollover sweep from dogfight position</strong> — taught by Cory Lawson · 1:52 · <a href="https://www.youtube.com/watch?v=iwa9DlIGrsY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

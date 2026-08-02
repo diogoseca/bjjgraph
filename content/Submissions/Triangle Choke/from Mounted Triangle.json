@@ -17,7 +17,10 @@
   "target_area": "Carotid arteries and brachial plexus",
   "starting_position": "Mounted Triangle",
   "from_position": "Mounted Triangle/Top",
-  "success_rate": 65,
+  "success_rate": {
+    "gi": 65,
+    "nogi": 65
+  },
   "overview": "The triangle choke from mounted triangle combines the positional dominance of mount with devastating blood choke mechanics, creating one of the highest-percentage submission finishes in Brazilian Jiu-Jitsu. Unlike standard triangles from guard where the attacker works against gravity, the mounted variation uses gravity as an ally, allowing the top player to settle weight into the choke while maintaining superior positioning throughout the finishing sequence.\n\nThe biomechanics center on compressing both carotid arteries using the legs and the defender's own trapped shoulder. From mounted triangle, the attacker has exceptional angle control and can use downward pressure to amplify the choke. The position rewards patient practitioners who establish proper structure before committing to the squeeze rather than rushing the finish.\n\nStrategically, this submission represents the culmination of a mount attack sequence. Reaching mounted triangle typically requires winning several positional battles through mount progression. The high success rate reflects both the mechanical advantage of top-position triangle mechanics and the accumulated fatigue the defender experiences from defending the entire sequence.",
   "safety_considerations": {
     "injury_risks": [
@@ -101,17 +104,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 65,
+      "probability": {
+        "gi": 65,
+        "nogi": 65
+      },
       "result": "success"
     },
     {
       "to": "Mounted Triangle/Top",
-      "probability": 23,
+      "probability": {
+        "gi": 23,
+        "nogi": 23
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 12,
+      "probability": {
+        "gi": 12,
+        "nogi": 12
+      },
       "result": "counter"
     }
   ],
@@ -284,52 +296,181 @@
       {
         "question": "What anatomical structures does the mounted triangle choke target and how does the trapped arm contribute to the choking mechanism?",
         "answer": "The mounted triangle targets both carotid arteries to create bilateral blood flow restriction to the brain. The choking leg compresses one carotid directly while the defender's own trapped shoulder is wedged against the opposite carotid by the triangle structure. The trapped arm is not incidental — it functions as a compression wedge that the attacker uses to close the gap on the far-side carotid. Without proper arm positioning across the centerline, the choke becomes a one-sided squeeze that the defender can survive.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Trapped shoulder wedges far carotid",
+        "distractors": {
+          "plausible": [
+            "Choking leg crushes the windpipe",
+            "Free arm supplies all the pressure"
+          ],
+          "trap": [
+            "Crank the neck to finish faster"
+          ]
+        }
       },
       {
         "question": "Your opponent tucks their chin aggressively and you cannot get the choke to bite — what adjustment or transition should you make?",
         "answer": "A strong chin tuck blocks direct carotid access but typically exposes the trapped arm. First, attempt to peel the chin by pulling the head laterally with your free hand toward the trapped arm side, which can slip the choking leg deeper under the jaw. If the chin tuck holds after one or two attempts, immediately transition to armbar by controlling the trapped arm at the wrist and pivoting your hips. The chin tuck defense often straightens or exposes the arm. Forcing the choke against a solid chin tuck wastes energy and gives the defender time to build escapes.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Pull head toward trapped-arm side",
+        "distractors": {
+          "plausible": [
+            "Drive chin down with your palm",
+            "Hold and wait for the chin to tire"
+          ],
+          "trap": [
+            "Sit up off them to muscle it in"
+          ]
+        }
       },
       {
         "question": "What are the indicators that the choke is properly applied and approaching the breaking point?",
         "answer": "Key indicators include: the defender's face changing color (reddening or darkening) from blood flow restriction, their defensive movements becoming weaker or less coordinated, involuntary body tension or trembling in their limbs, and their breathing becoming labored or audible. You should also feel a solid seal with no air gaps between your thigh, their neck, and the trapped shoulder. If the defender's resistance suddenly drops or they go limp, release immediately — unconsciousness from blood chokes occurs rapidly, typically within 4-10 seconds of full bilateral compression.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Face reddens, defense weakens",
+        "distractors": {
+          "plausible": [
+            "Their grips get stronger on you",
+            "They shout that it is too tight"
+          ],
+          "trap": [
+            "Keep squeezing after they go limp"
+          ]
+        }
       },
       {
         "question": "What control must be established before you commit to the finishing squeeze?",
         "answer": "Before squeezing, confirm four elements: (1) figure-four lock is secure with ankle behind knee, not crossed ankles; (2) perpendicular angle is set with legs crossing the neck at 90 degrees to the spine; (3) head control is active with your free hand pulling their head toward the trapped arm side; (4) the trapped arm is driven across your centerline so the shoulder wedges against the far carotid. Squeezing without these four elements produces an uncomfortable squeeze that drains your energy without finishing the choke, and gives the defender recovery time.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Lock figure-four, angle, head, arm",
+        "distractors": {
+          "plausible": [
+            "Squeeze first, adjust angle later",
+            "Head control only, skip arm cross"
+          ],
+          "trap": [
+            "Cross ankles instead of figure-four"
+          ]
+        }
       },
       {
         "question": "At what point during the mounted triangle sequence is the defender past the point of no escape?",
         "answer": "The point of no escape occurs when the attacker has achieved proper perpendicular angle, locked the figure-four behind the knee, broken the defender's posture flat, and begun settling weight into the squeeze with the shin grab engaged. At this stage, the defender's framing options are eliminated, their bridge leverage is neutralized by the attacker's weight distribution, and the trapped arm cannot be extracted without extending it into an armbar. Before this point, determined defense through bridging, framing, or arm extraction can still create escape opportunities.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Angle set, lock closed, posture flat",
+        "distractors": {
+          "plausible": [
+            "As soon as a leg crosses the neck",
+            "When they start to bridge hard"
+          ],
+          "trap": [
+            "Relax the lock once they stop moving"
+          ]
+        }
       },
       {
         "question": "How should you adjust your grip when the defender begins shrimping laterally to relieve pressure?",
         "answer": "Lateral shrimping attempts to change the choking angle and create space. Follow their hip movement by hip-walking in the same direction to maintain your perpendicular angle. Switch your free hand from head control to their far hip to prevent further shrimping, then re-establish head control once you have stabilized the angle. If they shrimp far enough that they begin turning onto their side, recognize this as a back take opportunity — release the triangle and establish seat belt control as their turn gives you access to their back.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Hip-walk with them, control far hip",
+        "distractors": {
+          "plausible": [
+            "Hold angle still, ignore movement",
+            "Switch hands to trapped arm"
+          ],
+          "trap": [
+            "Release triangle immediately"
+          ]
+        }
       },
       {
         "question": "What is the correct release protocol when your training partner taps to the mounted triangle choke?",
         "answer": "Upon any tap signal — verbal, hand tap, foot tap, or going limp — immediately unlock the figure-four by uncrossing your legs and removing your shin from their neck. Lower your legs to the mat and release any arm control. Create space by shifting your weight off their torso. Check your partner's consciousness, breathing, and responsiveness. If they appear disoriented or do not respond, place them in the recovery position on their side and alert the instructor immediately. Never assume a limp partner is just resting — blood chokes cause unconsciousness rapidly.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Unlock legs, release, check partner",
+        "distractors": {
+          "plausible": [
+            "Ease pressure gradually",
+            "Ask if okay, keep position"
+          ],
+          "trap": [
+            "Keep control until they nod"
+          ]
+        }
       },
       {
         "question": "How do you manage energy expenditure during a prolonged finishing attempt when the defender is surviving but not escaping?",
         "answer": "Use structural pressure rather than muscular effort. Let gravity and your body weight create compression through the triangle rather than relying on sustained adductor squeeze, which fatigues rapidly. Apply pressure in pulses — tighten for three to five seconds, assess, adjust angle or grips if needed, then re-apply. If the defender is surviving after 15-20 seconds of committed finishing, transition to armbar or back take rather than continuing to deplete your legs. A fresh transition attack is higher percentage than grinding through a stalled choke.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Pulse the squeeze, then switch",
+        "distractors": {
+          "plausible": [
+            "Max muscular effort throughout",
+            "Hold still until they gas out"
+          ],
+          "trap": [
+            "Sit up to squeeze, losing your base"
+          ]
+        }
       },
       {
         "question": "In competition, what strategic adjustments maximize your finishing probability from mounted triangle?",
         "answer": "In competition, establish the mounted triangle early when the defender's energy is lower from fighting through your mount progression. Use the points advantage (4 for mount) to pressure them into risky escape attempts that tighten the triangle. Apply the choke in short bursts with re-adjustments between rather than one long squeeze that drains your legs for subsequent rounds. If the choke is not finishing, transition rapidly to armbar — referees may restart from standing if the position stalls. Keep one hand posted during finishing to prevent any last-resort sweep attempts.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Burst the choke; armbar if stalled",
+        "distractors": {
+          "plausible": [
+            "Give up mount to secure the choke",
+            "Set it up late to save energy"
+          ],
+          "trap": [
+            "Grip with both hands, posture up"
+          ]
+        }
       },
       {
         "question": "What distinguishes a properly angled mounted triangle that will produce a tap from one that is just uncomfortable pressure?",
         "answer": "A finishing-quality mounted triangle has legs crossing perpendicular to the spine with the choking leg's calf pressing directly on the lateral neck, not sliding up onto the jaw or down onto the trapezius. The trapped shoulder must be wedged firmly against the opposite carotid — if the arm is floating or angled away, only one carotid is compressed and consciousness is maintained indefinitely. The head must be broken down so there is zero space between the thigh and the neck. An uncomfortable squeeze without proper angle creates jaw and face pressure that is painful but survivable, while a properly angled triangle restricts blood flow bilaterally and produces a tap within seconds.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Calf on the neck, shoulder wedged",
+        "distractors": {
+          "plausible": [
+            "Shin high on the jawline",
+            "Legs parallel with the spine"
+          ],
+          "trap": [
+            "Crank the head to force a tap"
+          ]
+        }
+      }
+    ],
+    "clips": [
+      {
+        "id": "8f6rsOtI_HU",
+        "title": "Mounted Triangle from the Mount",
+        "by": "Way of BJJ",
+        "vertical": false,
+        "channel": "Way of BJJ",
+        "duration": 96,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "8ys-uZnBgYM",
+        "title": "Mounted Triangle Armbar",
+        "by": "Thunderdome BJJ",
+        "vertical": false,
+        "channel": "Thunderdome BJJ",
+        "duration": 26,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "XWR8C2xp1SU",
+        "title": "Triangle to Reverse Triangle Finish",
+        "by": "Renzo Gracie Holland",
+        "vertical": false,
+        "channel": "RENZO GRACIE HOLLAND",
+        "duration": 51,
+        "verified": "2026-07-14"
       }
     ]
   },
@@ -422,27 +563,77 @@
       {
         "question": "How do you recognize that the mounted triangle choke is being set up before the lock is fully established?",
         "answer": "The earliest cue is the attacker threading one leg over your shoulder from mount position — you will feel their shin sliding across one side of your neck while they maintain top pressure. This is typically preceded by them climbing to high mount and isolating one of your arms. The moment you feel a leg crossing your shoulder line, begin defensive actions immediately. Secondary cues include the attacker angling their hips sideways and reaching for a figure-four lock behind their knee. Defending during setup is far easier than defending a fully locked triangle.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Shin crossing your neck from mount",
+        "distractors": {
+          "plausible": [
+            "Only when their ankles lock up",
+            "When they flatten out your hips"
+          ],
+          "trap": [
+            "Feed them your arm to make space"
+          ]
+        }
       },
       {
         "question": "What is the safest way to tap when caught in the mounted triangle choke?",
         "answer": "Tap clearly and repeatedly using whatever limb has the most freedom of movement. Your free arm should tap the attacker's body, leg, or the mat with firm, unmistakable multiple taps. If both hands are trapped, tap with your feet on the mat or verbally say 'tap' loudly and clearly. Do not wait until you feel lightheaded to tap — blood chokes can cause unconsciousness within seconds of full bilateral compression. Tap as soon as you recognize you cannot escape and the choke is tightening. There is no advantage to waiting in training; early tapping protects your brain and builds trust with training partners.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Tap early with any free limb",
+        "distractors": {
+          "plausible": [
+            "Wait until a hand gets loose",
+            "Squeeze their leg as a signal"
+          ],
+          "trap": [
+            "Hold breath and ride it out"
+          ]
+        }
       },
       {
         "question": "What are the primary defensive options available against the mounted triangle choke and when should each be employed?",
         "answer": "The three primary defenses are: (1) Frame and shrimp — use immediately when the triangle is being set up or loosely locked, creating lateral space to disrupt the angle. (2) Arm extraction — attempt when there is space between the thigh and your neck, keeping the elbow bent throughout to avoid armbar. (3) Bridge and roll — save for the moment the attacker commits weight forward to finish, exploiting their reduced base. Each defense has a timing window; framing works early, arm extraction works in mid-stage, and bridging works when the attacker overcommits to the finish.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Frame first, extract, bridge late",
+        "distractors": {
+          "plausible": [
+            "Bridge and roll immediately",
+            "Shrimp only once fully locked"
+          ],
+          "trap": [
+            "Extend trapped arm straight out"
+          ]
+        }
       },
       {
         "question": "How do you manage energy and breathing when trapped in a mounted triangle that you cannot immediately escape?",
         "answer": "Breathe deliberately through your nose in controlled rhythm — nasal breathing triggers parasympathetic response and prevents panic. Between escape attempts, maintain your defensive structure (chin tuck, bent trapped arm, frame) using skeletal alignment rather than muscular effort. Do not continuously push or squeeze; hold frames statically and save explosive effort for genuine escape windows. Accept that survival may require enduring discomfort for 15-30 seconds while waiting for the attacker to shift weight or adjust. One well-timed escape attempt is worth more than five desperate ones.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Nasal breathing, static frames",
+        "distractors": {
+          "plausible": [
+            "Rapid mouth breathing to cope",
+            "Thrash every few seconds"
+          ],
+          "trap": [
+            "Hold out until vision goes dark"
+          ]
+        }
       },
       {
         "question": "What should you do if you begin feeling lightheaded or notice vision changes while defending the mounted triangle?",
         "answer": "Tap immediately. Lightheadedness, tunnel vision, or visual darkening indicate significant cerebral blood flow restriction and unconsciousness may follow within seconds. These symptoms mean the choke is fully effective and your defensive structure is not preventing bilateral carotid compression. There is no defensive technique that works faster than the progression to unconsciousness at this stage. Tap clearly using any available signal — hand, foot, or verbal — and do not attempt one more escape. Training longevity and brain health are more important than any single roll.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Tap immediately, no more tries",
+        "distractors": {
+          "plausible": [
+            "Turn your head toward their hip",
+            "Slow your breathing to stay calm"
+          ],
+          "trap": [
+            "Bridge hard for one last escape"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -465,6 +656,35 @@
         "phase": "Phase 4: Timed Survival and Escape",
         "focus": "Defense under pressure",
         "description": "Start in fully locked mounted triangle with partner applying progressive finishing pressure. Goal is to survive 60 seconds and escape at least once. Gradually increase partner's resistance level across sessions from 70% to full competition intensity. Builds mental toughness and validates defensive technique against committed attackers."
+      }
+    ],
+    "clips": [
+      {
+        "id": "sR2rS2dwpNY",
+        "title": "How To Escape a Triangle Choke",
+        "by": "Rener & Ryron Gracie",
+        "vertical": false,
+        "channel": "Hayabusa",
+        "duration": 117,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "Ss49jnCob0w",
+        "title": "Avoiding and defending the triangle choke",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "Absolute MMA St Kilda - Melbourne",
+        "duration": 775,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "szAvJFvIzx4",
+        "title": "How to escape the triangle choke",
+        "by": "Stephan Kesting",
+        "vertical": false,
+        "channel": "Stephan Kesting",
+        "duration": 591,
+        "verified": "2026-07-15"
       }
     ]
   }

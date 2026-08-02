@@ -142,6 +142,54 @@ description: "Defend the High Elbow Guillotine from Hindulotine. Recognize eleva
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "High Elbow Guillotine from Hindulotine (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Master the Guillotine Escape",
+      "description": "High Elbow Guillotine from Hindulotine (Defender) film study: Master the Guillotine Escape, taught by Cobrinha.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/dyTKKiajgzQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/dyTKKiajgzQ",
+      "url": "https://www.youtube.com/watch?v=dyTKKiajgzQ",
+      "creator": { "@type": "Person", "name": "Cobrinha" },
+      "duration": "PT44S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Standing Guillotine Escape",
+      "description": "High Elbow Guillotine from Hindulotine (Defender) film study: Standing Guillotine Escape, taught by dogtownman.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/8okq4cIHMO0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/8okq4cIHMO0",
+      "url": "https://www.youtube.com/watch?v=8okq4cIHMO0",
+      "creator": { "@type": "Person", "name": "dogtownman" },
+      "duration": "PT44S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Guillotine Escape From the Guard",
+      "description": "High Elbow Guillotine from Hindulotine (Defender) film study: Guillotine Escape From the Guard, taught by Ground Zero MMA.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Qb8gtundzPg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Qb8gtundzPg",
+      "url": "https://www.youtube.com/watch?v=Qb8gtundzPg",
+      "creator": { "@type": "Person", "name": "Ground Zero MMA" },
+      "duration": "PT57S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -152,6 +200,42 @@ Defending the High Elbow Guillotine from Hindulotine requires early recognition 
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch High Elbow Guillotine from Hindulotine (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=dyTKKiajgzQ)
+
+<p class="clip-credit"><strong>Master the Guillotine Escape</strong> — taught by Cobrinha · 0:44 · <a href="https://www.youtube.com/watch?v=dyTKKiajgzQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=8okq4cIHMO0)
+
+<p class="clip-credit"><strong>Standing Guillotine Escape</strong> — taught by dogtownman · 0:44 · <a href="https://www.youtube.com/watch?v=8okq4cIHMO0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Qb8gtundzPg)
+
+<p class="clip-credit"><strong>Guillotine Escape From the Guard</strong> — taught by Ground Zero MMA · 0:57 · <a href="https://www.youtube.com/watch?v=Qb8gtundzPg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

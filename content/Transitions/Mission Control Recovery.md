@@ -34,6 +34,54 @@ description: "Master Mission Control Recovery in BJJ. Learn to return to rubber 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Mission Control Recovery \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Prison Guard breakdown from rubber guard",
+      "description": "Mission Control Recovery film study: Prison Guard breakdown from rubber guard, taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/gFYyMkaMz34/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/gFYyMkaMz34",
+      "url": "https://www.youtube.com/watch?v=gFYyMkaMz34",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT59S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Mission Control Position Breakdown",
+      "description": "Mission Control Recovery film study: Mission Control Position Breakdown, taught by Coach Lord.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/PxgOIpmDmxE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/PxgOIpmDmxE",
+      "url": "https://www.youtube.com/watch?v=PxgOIpmDmxE",
+      "creator": { "@type": "Person", "name": "Coach Lord" },
+      "duration": "PT131S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Mission Control to Meathook to Triangle Chain",
+      "description": "Mission Control Recovery film study: Mission Control to Meathook to Triangle Chain, taught by Abel.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/EhiPyX_s044/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/EhiPyX_s044",
+      "url": "https://www.youtube.com/watch?v=EhiPyX_s044",
+      "creator": { "@type": "Person", "name": "Abel" },
+      "duration": "PT132S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -68,9 +116,45 @@ Strategically, this recovery transforms the rubber guard system from a single-at
 The execution requires precise timing and understanding of weight distribution. The bottom player must recognize when the gogoplata is failing before fully committing, withdraw the shin from the throat while maintaining hip control, and immediately secure the overhook that defines Mission Control. This sequence must happen faster than the opponent can exploit the transition.
 
 **From Position**: [[Positions/Gogoplata Control]] (Bottom)
-**Success Rate**: 58%
+**Success Rate**: 51%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Mission Control Recovery in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=gFYyMkaMz34)
+
+<p class="clip-credit"><strong>Prison Guard breakdown from rubber guard</strong> — taught by Eddie Bravo · 0:59 · <a href="https://www.youtube.com/watch?v=gFYyMkaMz34" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=PxgOIpmDmxE)
+
+<p class="clip-credit"><strong>Mission Control Position Breakdown</strong> — taught by Coach Lord · 2:11 · <a href="https://www.youtube.com/watch?v=PxgOIpmDmxE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=EhiPyX_s044)
+
+<p class="clip-credit"><strong>Mission Control to Meathook to Triangle Chain</strong> — taught by Abel · 2:12 · <a href="https://www.youtube.com/watch?v=EhiPyX_s044" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

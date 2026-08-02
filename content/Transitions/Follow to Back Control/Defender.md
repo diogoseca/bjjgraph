@@ -156,6 +156,43 @@ description: "How to defend against Follow to Back Control in BJJ. Recognition c
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Follow to Back Control (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Leg lock escape: roll through",
+      "description": "Follow to Back Control (Defender) film study: Leg lock escape: roll through, taught by Gordon Ryan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/MqtG9kuVt-Q/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/MqtG9kuVt-Q",
+      "url": "https://www.youtube.com/watch?v=MqtG9kuVt-Q",
+      "creator": { "@type": "Person", "name": "Gordon Ryan" },
+      "duration": "PT103S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Escaping the leg lock from standing back control",
+      "description": "Follow to Back Control (Defender) film study: Escaping the leg lock from standing back control, taught by Carrero BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/kZd9bvSgaHc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/kZd9bvSgaHc",
+      "url": "https://www.youtube.com/watch?v=kZd9bvSgaHc",
+      "creator": { "@type": "Person", "name": "Carrero BJJ" },
+      "duration": "PT56S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -169,6 +206,34 @@ Successful defense demands awareness of where the attacker is in their follow se
 **Opponent's Starting Position**: [[Positions/Ashi Garami/Ushiro Ashi-Garami]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Follow to Back Control (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=MqtG9kuVt-Q)
+
+<p class="clip-credit"><strong>Leg lock escape: roll through</strong> — taught by Gordon Ryan · 1:43 · <a href="https://www.youtube.com/watch?v=MqtG9kuVt-Q" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=kZd9bvSgaHc)
+
+<p class="clip-credit"><strong>Escaping the leg lock from standing back control</strong> — taught by Carrero BJJ · 0:56 · <a href="https://www.youtube.com/watch?v=kZd9bvSgaHc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

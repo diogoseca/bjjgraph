@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Standing Position/Bottom",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Seated Guard/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Open Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "Few skills are more foundational in Brazilian Jiu-Jitsu than the technical stand up, the bridge that lets a grounded practitioner reclaim a standing posture without surrendering position. Built on the principle of posting a hand behind the hip for structural support combined with a kick-through leg motion, this technique creates the elevation needed to reach standing without exposing the practitioner to takedowns or submissions during the vulnerable transition phase.\n\nStrategically, the technical stand up serves dual purposes in competition and self-defense contexts. In competition, it allows guard players to reset unfavorable exchanges, deny opponents their preferred passing game, or create new engagement opportunities from standing. In self-defense, the ability to safely return to standing against a standing adversary is among the most critical skills, as remaining grounded presents significant tactical disadvantage. The movement prioritizes maintaining a defensive frame with the non-posting hand while keeping the center of gravity low throughout the transition.\n\nThe effectiveness of this technique hinges on proper sequencing: creating distance through framing, establishing a stable posting base, generating momentum through the hip lift and kick-through, and finishing with immediate distance creation upon reaching standing. Equally important is recognizing when NOT to attempt a technical stand up. If the opponent has controlling grips, heavy top pressure, or tight proximity, forcing the stand up may expose you to takedowns or guard passes. The technique works best when preceded by successful frame creation and distance management, making it a natural complement to any guard retention system.",
   "conditions": [
     "Sufficient distance from opponent to create posting space behind hip",
@@ -85,7 +97,7 @@
       "relationship": "Complementary standing technique available after successful stand up"
     },
     {
-      "name": "Arm Drag from Standing",
+      "name": "Arm Drag",
       "relationship": "Follow-up offensive option after reaching standing position"
     },
     {
@@ -238,42 +250,161 @@
     "flashcards": [
       {
         "question": "Why is the posting hand position relative to the hip so critical for the technical stand up?",
-        "answer": "The posting hand must be placed close to the hip because it serves as the primary structural support during the elevation phase. If the hand is too far behind, the arm becomes overextended and cannot bear weight efficiently, creating an unstable lever that an opponent can easily collapse. Close placement allows the arm to act as a strong post with the shoulder stacked over the wrist, providing maximum structural integrity and the ability to generate upward drive through the support foot."
+        "answer": "The posting hand must be placed close to the hip because it serves as the primary structural support during the elevation phase. If the hand is too far behind, the arm becomes overextended and cannot bear weight efficiently, creating an unstable lever that an opponent can easily collapse. Close placement allows the arm to act as a strong post with the shoulder stacked over the wrist, providing maximum structural integrity and the ability to generate upward drive through the support foot.",
+        "answer_line": "Post hand tight to hip",
+        "distractors": {
+          "plausible": [
+            "Post hand far behind body",
+            "Post hand under the shoulder"
+          ],
+          "trap": [
+            "Reach hand out for leverage"
+          ]
+        }
       },
       {
         "question": "What determines the optimal timing window to attempt a technical stand up during a guard exchange?",
-        "answer": "The optimal timing occurs when you have successfully created distance through framing and the opponent has momentarily lost their forward pressure or grip control. Key indicators include the opponent pulling back to re-establish grips, transitioning between passing strategies, or looking away to assess position. The worst timing is when the opponent is actively driving forward or has strong controlling grips, as attempting to stand during these moments invites immediate counters."
+        "answer": "The optimal timing occurs when you have successfully created distance through framing and the opponent has momentarily lost their forward pressure or grip control. Key indicators include the opponent pulling back to re-establish grips, transitioning between passing strategies, or looking away to assess position. The worst timing is when the opponent is actively driving forward or has strong controlling grips, as attempting to stand during these moments invites immediate counters.",
+        "answer_line": "Stand when opponent pulls back",
+        "distractors": {
+          "plausible": [
+            "Stand once frames are set",
+            "Stand mid-scramble for speed"
+          ],
+          "trap": [
+            "Stand while they drive forward"
+          ]
+        }
       },
       {
         "question": "Your opponent grabs your posting-side ankle as you begin the kick-through. How do you adjust?",
-        "answer": "First attempt to circle the trapped ankle free using a rotational motion while maintaining your posting hand on the mat. If the grip holds, use your free leg to kick or push against their gripping arm to break the hold. If neither works, switch to standing up on the opposite side by re-posting with the other hand and using the free leg as your new support foot. Avoid continuing to force the original stand up direction, as fighting a secured ankle grip compromises your balance and timing."
+        "answer": "First attempt to circle the trapped ankle free using a rotational motion while maintaining your posting hand on the mat. If the grip holds, use your free leg to kick or push against their gripping arm to break the hold. If neither works, switch to standing up on the opposite side by re-posting with the other hand and using the free leg as your new support foot. Avoid continuing to force the original stand up direction, as fighting a secured ankle grip compromises your balance and timing.",
+        "answer_line": "Circle ankle free first",
+        "distractors": {
+          "plausible": [
+            "Kick free leg at their grip",
+            "Switch stand up to other side"
+          ],
+          "trap": [
+            "Force through the original direction"
+          ]
+        }
       },
       {
         "question": "What is the most vulnerable phase of the technical stand up and why?",
-        "answer": "The most vulnerable phase is during the hip lift and kick-through when your weight is transitioning between the posting hand and support foot, and your legs are reorganizing underneath you. At this moment, your base is narrowest, your center of gravity is shifting, and you have the least ability to quickly recover guard or defend against a rushing opponent. This is precisely why the defensive frame hand is so critical during this phase, as it is the only barrier between you and an advancing opponent."
+        "answer": "The most vulnerable phase is during the hip lift and kick-through when your weight is transitioning between the posting hand and support foot, and your legs are reorganizing underneath you. At this moment, your base is narrowest, your center of gravity is shifting, and you have the least ability to quickly recover guard or defend against a rushing opponent. This is precisely why the defensive frame hand is so critical during this phase, as it is the only barrier between you and an advancing opponent.",
+        "answer_line": "Hip lift, kick-through moment",
+        "distractors": {
+          "plausible": [
+            "The initial distance creation",
+            "The final rise to standing"
+          ],
+          "trap": [
+            "During initial frame pushing"
+          ]
+        }
       },
       {
         "question": "How does grip fighting impact your ability to initiate a technical stand up?",
-        "answer": "Controlling grips by the opponent directly prevent the stand up by tethering you to the ground or pulling you off-balance during the transition. You must clear dominant grips, particularly on the collar and sleeves, before committing to the stand up. A strong collar grip allows the opponent to snap you back down mid-transition, while sleeve grips prevent you from establishing the posting hand or maintaining the defensive frame. Systematically breaking grips using two-on-one breaks before attempting the stand up dramatically increases success rate."
+        "answer": "Controlling grips by the opponent directly prevent the stand up by tethering you to the ground or pulling you off-balance during the transition. You must clear dominant grips, particularly on the collar and sleeves, before committing to the stand up. A strong collar grip allows the opponent to snap you back down mid-transition, while sleeve grips prevent you from establishing the posting hand or maintaining the defensive frame. Systematically breaking grips using two-on-one breaks before attempting the stand up dramatically increases success rate.",
+        "answer_line": "Break grips before standing",
+        "distractors": {
+          "plausible": [
+            "Stand up first, clear grips after",
+            "Clear the sleeve, leave collar"
+          ],
+          "trap": [
+            "Ignore grips, stand up fast"
+          ]
+        }
       },
       {
         "question": "Your opponent rushes forward as you begin your kick-through. What should you do?",
-        "answer": "Immediately abort the stand up and transition to guard recovery rather than fighting to complete the movement from a compromised position. Use your defensive frame hand to redirect their forward momentum while pulling your legs back between you and the opponent to re-establish guard. Attempting to complete the stand up while an opponent is driving into you results in a compromised standing position where you are likely to be taken down immediately. Recover guard, re-create distance, and attempt the stand up again when the opening presents itself."
+        "answer": "Immediately abort the stand up and transition to guard recovery rather than fighting to complete the movement from a compromised position. Use your defensive frame hand to redirect their forward momentum while pulling your legs back between you and the opponent to re-establish guard. Attempting to complete the stand up while an opponent is driving into you results in a compromised standing position where you are likely to be taken down immediately. Recover guard, re-create distance, and attempt the stand up again when the opening presents itself.",
+        "answer_line": "Abort, use frame, recover guard",
+        "distractors": {
+          "plausible": [
+            "Power through the stand up",
+            "Sprawl to stop their rush"
+          ],
+          "trap": [
+            "Keep rising into standing"
+          ]
+        }
       },
       {
         "question": "What role does the non-posting hand play throughout the technical stand up sequence?",
-        "answer": "The non-posting hand serves as a continuous defensive frame directed at the opponent throughout every phase of the movement. During the initial distance creation, it pushes against the opponent's body. During the posting and kick-through phases, it extends toward the opponent as a barrier against forward advancement. During the rise to standing, it transitions from a frame to a defensive guard position. Dropping this hand at any point creates a direct pathway for the opponent to close distance and either prevent the stand up or initiate a takedown during the transition."
+        "answer": "The non-posting hand serves as a continuous defensive frame directed at the opponent throughout every phase of the movement. During the initial distance creation, it pushes against the opponent's body. During the posting and kick-through phases, it extends toward the opponent as a barrier against forward advancement. During the rise to standing, it transitions from a frame to a defensive guard position. Dropping this hand at any point creates a direct pathway for the opponent to close distance and either prevent the stand up or initiate a takedown during the transition.",
+        "answer_line": "Frame hand stays up throughout",
+        "distractors": {
+          "plausible": [
+            "Frame hand only at the start",
+            "Frame hand posts on the mat"
+          ],
+          "trap": [
+            "Drop frame hand once posting"
+          ]
+        }
       },
       {
         "question": "What direction should the kick-through leg travel, and why does this matter for your base?",
-        "answer": "The kick-through leg must travel backward and underneath your body toward the rear, never crossing over the support leg or swinging laterally. A clean rearward kick-through lets the foot plant in a wide, staggered tripod base behind you, which is the most stable configuration during the transition. Crossing the legs tangles your base and destroys lateral stability, while a lateral swing turns your shoulders away from the opponent and exposes your back. Keeping the path straight back preserves both balance and your forward-facing defensive posture."
+        "answer": "The kick-through leg must travel backward and underneath your body toward the rear, never crossing over the support leg or swinging laterally. A clean rearward kick-through lets the foot plant in a wide, staggered tripod base behind you, which is the most stable configuration during the transition. Crossing the legs tangles your base and destroys lateral stability, while a lateral swing turns your shoulders away from the opponent and exposes your back. Keeping the path straight back preserves both balance and your forward-facing defensive posture.",
+        "answer_line": "Kick straight back, not across",
+        "distractors": {
+          "plausible": [
+            "Swing leg laterally for speed",
+            "Cross over the support leg"
+          ],
+          "trap": [
+            "Kick leg forward toward them"
+          ]
+        }
       },
       {
         "question": "How should you chain your standing options once you successfully reach your feet from the technical stand up?",
-        "answer": "Upon reaching standing, treat it as a decision point rather than an endpoint: if the opponent stays grounded, you can disengage to reset, attack with an ankle pick, or re-pummel for standing grips to set up an arm drag. If the opponent also stands, immediately establish distance and grip fight before they can clinch. The technical stand up only buys you the standing position; chaining it into a deliberate offensive or distance-management plan is what converts the reset into an advantage rather than a neutral restart."
+        "answer": "Upon reaching standing, treat it as a decision point rather than an endpoint: if the opponent stays grounded, you can disengage to reset, attack with an ankle pick, or re-pummel for standing grips to set up an arm drag. If the opponent also stands, immediately establish distance and grip fight before they can clinch. The technical stand up only buys you the standing position; chaining it into a deliberate offensive or distance-management plan is what converts the reset into an advantage rather than a neutral restart.",
+        "answer_line": "Treat standing as decision point",
+        "distractors": {
+          "plausible": [
+            "Always reset to neutral position",
+            "Immediately shoot for takedown"
+          ],
+          "trap": [
+            "Relax grips once you're up"
+          ]
+        }
       }
     ],
-    "safety_considerations": "The primary injury risk during the Technical Stand Up is wrist and hand strain from the posting hand, particularly when bearing full body weight during the transition on hard or uneven surfaces. Practitioners should develop gradual loading capacity in their wrists through progressive drilling before attempting the movement at full speed or under resistance. Additional considerations include the risk of being caught in a guillotine choke if the head drops forward during the transition, and potential ankle or knee strain if the opponent grabs and twists the lead leg during the kick-through phase. Always warm up wrists and shoulders before intensive drilling of this movement."
+    "safety_considerations": "The primary injury risk during the Technical Stand Up is wrist and hand strain from the posting hand, particularly when bearing full body weight during the transition on hard or uneven surfaces. Practitioners should develop gradual loading capacity in their wrists through progressive drilling before attempting the movement at full speed or under resistance. Additional considerations include the risk of being caught in a guillotine choke if the head drops forward during the transition, and potential ankle or knee strain if the opponent grabs and twists the lead leg during the kick-through phase. Always warm up wrists and shoulders before intensive drilling of this movement.",
+    "clips": [
+      {
+        "id": "4yc0Swz_El0",
+        "title": "How to do the technical standup",
+        "by": "Ritchie Yip",
+        "vertical": false,
+        "channel": "Ritchie Yip",
+        "duration": 40,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "MFm_-kqmE8U",
+        "title": "Technical stand up drill",
+        "by": "The Jiu-jitsu Ronin",
+        "vertical": false,
+        "channel": "The Jiu-jitsu Ronin",
+        "duration": 31,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "bRMQRElVLho",
+        "title": "Technical stand up movement breakdown",
+        "by": "Stasis Jiu Jitsu & Yoga",
+        "vertical": false,
+        "channel": "Stasis Jiu Jitsu & Yoga",
+        "duration": 108,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Technical Stand Up from Ground Defender",
@@ -358,19 +489,59 @@
     "flashcards": [
       {
         "question": "What is the earliest and most reliable cue that signals a technical stand up attempt is imminent?",
-        "answer": "The earliest reliable cue is the opponent creating distance through forceful framing against your shoulders or chest. This pushing action is the mandatory first step before any technical stand up because the opponent needs space to plant their posting hand. If you feel strong pushing pressure from their arms, they are likely preparing to post and initiate the stand up. Responding immediately to this distance creation attempt is the most effective way to prevent the technique before it begins."
+        "answer": "The earliest reliable cue is the opponent creating distance through forceful framing against your shoulders or chest. This pushing action is the mandatory first step before any technical stand up because the opponent needs space to plant their posting hand. If you feel strong pushing pressure from their arms, they are likely preparing to post and initiate the stand up. Responding immediately to this distance creation attempt is the most effective way to prevent the technique before it begins.",
+        "answer_line": "Opponent frames to create space",
+        "distractors": {
+          "plausible": [
+            "Opponent posts hand on mat",
+            "Opponent kicks leg through"
+          ],
+          "trap": [
+            "Opponent already standing up"
+          ]
+        }
       },
       {
         "question": "When is the optimal timing window to counter the technical stand up with a takedown?",
-        "answer": "The optimal counter-timing is during the kick-through phase when the opponent's weight is transitioning between their posting hand and support foot, and their legs are reorganizing underneath them. At this precise moment, their base is at its narrowest and most unstable, making them extremely vulnerable to forward pressure or a well-timed shot. Attacking too early means they can abort and recover guard, while attacking too late means they have already established standing base and can defend."
+        "answer": "The optimal counter-timing is during the kick-through phase when the opponent's weight is transitioning between their posting hand and support foot, and their legs are reorganizing underneath them. At this precise moment, their base is at its narrowest and most unstable, making them extremely vulnerable to forward pressure or a well-timed shot. Attacking too early means they can abort and recover guard, while attacking too late means they have already established standing base and can defend.",
+        "answer_line": "Counter during kick-through",
+        "distractors": {
+          "plausible": [
+            "Counter during initial framing",
+            "Counter after they stand fully"
+          ],
+          "trap": [
+            "Counter before they even move"
+          ]
+        }
       },
       {
         "question": "How should you adjust your pressure strategy if the opponent successfully creates distance with their frames?",
-        "answer": "If the opponent creates distance, do not simply drive straight forward into their extended frames, as this plays into their structure. Instead, angle your approach laterally to bypass the frames, or use grip fighting to strip their framing hands before re-closing distance. Control their wrists or sleeves to prevent re-framing, then apply pressure from an angle that their frames cannot effectively resist. Speed of re-engagement is critical - close the gap before they can establish the posting hand position."
+        "answer": "If the opponent creates distance, do not simply drive straight forward into their extended frames, as this plays into their structure. Instead, angle your approach laterally to bypass the frames, or use grip fighting to strip their framing hands before re-closing distance. Control their wrists or sleeves to prevent re-framing, then apply pressure from an angle that their frames cannot effectively resist. Speed of re-engagement is critical - close the gap before they can establish the posting hand position.",
+        "answer_line": "Angle in, strip their frames",
+        "distractors": {
+          "plausible": [
+            "Drive straight into their frames",
+            "Wait for them to re-engage"
+          ],
+          "trap": [
+            "Push forward against the frames"
+          ]
+        }
       },
       {
         "question": "What grip should you prioritize to make the technical stand up most difficult for your opponent?",
-        "answer": "Prioritize controlling the opponent's posting-side sleeve or wrist, as this directly prevents them from planting the hand that serves as the structural foundation for the entire stand up sequence. Without the posting hand, the opponent cannot safely elevate their hips or execute the kick-through. Secondary priority is a collar grip on the same side, which allows you to apply downward pressure and snap them back to the mat if they attempt to rise. Controlling both the sleeve and collar on the posting side effectively eliminates the technical stand up as an option."
+        "answer": "Prioritize controlling the opponent's posting-side sleeve or wrist, as this directly prevents them from planting the hand that serves as the structural foundation for the entire stand up sequence. Without the posting hand, the opponent cannot safely elevate their hips or execute the kick-through. Secondary priority is a collar grip on the same side, which allows you to apply downward pressure and snap them back to the mat if they attempt to rise. Controlling both the sleeve and collar on the posting side effectively eliminates the technical stand up as an option.",
+        "answer_line": "Posting-side sleeve/wrist",
+        "distractors": {
+          "plausible": [
+            "Snap same-side collar first",
+            "Control the free-side hand"
+          ],
+          "trap": [
+            "Grab both ankles, head down"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -393,6 +564,26 @@
         "phase": "Phase 4: Live Situational Sparring",
         "focus": "Application against unpredictable timing and variations",
         "description": "Start with partner in seated position and you standing or in combat base. Partner may attempt technical stand up, guard pull, or other escapes at any time. Defend the stand up attempt while maintaining top position. Practice for 2-minute rounds with full resistance and positional resets after each successful stand up or guard recovery."
+      }
+    ],
+    "clips": [
+      {
+        "id": "Xj_MVwk2jq0",
+        "title": "When they don't let go of your guard retention",
+        "by": "Jean Jacques Machado",
+        "vertical": false,
+        "channel": "JeanJacquesMachado",
+        "duration": 46,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "1JROabJi6yE",
+        "title": "Countering the just stand up defense",
+        "by": "Jiu-Jitsu Times",
+        "vertical": false,
+        "channel": "Jiu-Jitsu Times",
+        "duration": 48,
+        "verified": "2026-07-15"
       }
     ]
   }

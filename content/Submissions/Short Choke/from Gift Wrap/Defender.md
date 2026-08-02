@@ -142,6 +142,54 @@ description: "Defend the Short Choke from Gift Wrap position. Recognition cues, 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Short Choke from Gift Wrap (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Mount Escape - Hip Sweep",
+      "description": "Short Choke from Gift Wrap (Defender) film study: Mount Escape - Hip Sweep, taught by GFA MMA.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/1Yo-cQm6Qx0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/1Yo-cQm6Qx0",
+      "url": "https://www.youtube.com/watch?v=1Yo-cQm6Qx0",
+      "creator": { "@type": "Person", "name": "GFA MMA" },
+      "duration": "PT150S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Running man back escape",
+      "description": "Short Choke from Gift Wrap (Defender) film study: Running man back escape, taught by Jiu Jitsu Modern.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/3RbOD9fhi20/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/3RbOD9fhi20",
+      "url": "https://www.youtube.com/watch?v=3RbOD9fhi20",
+      "creator": { "@type": "Person", "name": "Jiu Jitsu Modern" },
+      "duration": "PT210S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Defending chokes from back mount",
+      "description": "Short Choke from Gift Wrap (Defender) film study: Defending chokes from back mount, taught by Gracie Ohio.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/-lS7djEgc6E/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/-lS7djEgc6E",
+      "url": "https://www.youtube.com/watch?v=-lS7djEgc6E",
+      "creator": { "@type": "Person", "name": "Gracie Ohio" },
+      "duration": "PT305S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -154,6 +202,42 @@ The defender must prioritize prevention over escape. Once the forearm is threade
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Short Choke from Gift Wrap (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=1Yo-cQm6Qx0)
+
+<p class="clip-credit"><strong>Mount Escape - Hip Sweep</strong> — taught by GFA MMA · 2:30 · <a href="https://www.youtube.com/watch?v=1Yo-cQm6Qx0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=3RbOD9fhi20)
+
+<p class="clip-credit"><strong>Running man back escape</strong> — taught by Jiu Jitsu Modern · 3:30 · <a href="https://www.youtube.com/watch?v=3RbOD9fhi20" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=-lS7djEgc6E)
+
+<p class="clip-credit"><strong>Defending chokes from back mount</strong> — taught by Gracie Ohio · 5:05 · <a href="https://www.youtube.com/watch?v=-lS7djEgc6E" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

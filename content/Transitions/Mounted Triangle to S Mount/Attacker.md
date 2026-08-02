@@ -174,6 +174,54 @@ description: "Execute the mounted triangle to S mount transition with systematic
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Mounted Triangle to S Mount (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Mounted triangle to armbar",
+      "description": "Mounted Triangle to S Mount (Attacker) film study: Mounted triangle to armbar, taught by Thunderdome BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/8ys-uZnBgYM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/8ys-uZnBgYM",
+      "url": "https://www.youtube.com/watch?v=8ys-uZnBgYM",
+      "creator": { "@type": "Person", "name": "Thunderdome BJJ" },
+      "duration": "PT26S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Triangle to armbar from mount",
+      "description": "Mounted Triangle to S Mount (Attacker) film study: Triangle to armbar from mount, taught by FreeChannelOpen.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/eSsyKhjg6xw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/eSsyKhjg6xw",
+      "url": "https://www.youtube.com/watch?v=eSsyKhjg6xw",
+      "creator": { "@type": "Person", "name": "FreeChannelOpen" },
+      "duration": "PT92S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Mounted triangle armbar variation",
+      "description": "Mounted Triangle to S Mount (Attacker) film study: Mounted triangle armbar variation, taught by Tommy.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ZLlkimwLb_Q/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ZLlkimwLb_Q",
+      "url": "https://www.youtube.com/watch?v=ZLlkimwLb_Q",
+      "creator": { "@type": "Person", "name": "Tommy" },
+      "duration": "PT103S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -183,6 +231,42 @@ As the attacker executing this transition, you are making a strategic decision t
 **From Position**: [[Positions/Mount/Mounted Triangle]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Mounted Triangle to S Mount (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=8ys-uZnBgYM)
+
+<p class="clip-credit"><strong>Mounted triangle to armbar</strong> — taught by Thunderdome BJJ · 0:26 · <a href="https://www.youtube.com/watch?v=8ys-uZnBgYM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=eSsyKhjg6xw)
+
+<p class="clip-credit"><strong>Triangle to armbar from mount</strong> — taught by FreeChannelOpen · 1:32 · <a href="https://www.youtube.com/watch?v=eSsyKhjg6xw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ZLlkimwLb_Q)
+
+<p class="clip-credit"><strong>Mounted triangle armbar variation</strong> — taught by Tommy · 1:43 · <a href="https://www.youtube.com/watch?v=ZLlkimwLb_Q" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

@@ -34,6 +34,43 @@ description: "Master Triangle Control in BJJ. Dominant submission platform with 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Triangle Control \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Triangle attack overview",
+      "description": "Triangle Control film study: Triangle attack overview, taught by Craig Jones.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/OC8IOTnsETk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/OC8IOTnsETk",
+      "url": "https://www.youtube.com/watch?v=OC8IOTnsETk",
+      "creator": { "@type": "Person", "name": "Craig Jones" },
+      "duration": "PT61S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Triangle choke for short legs (S-mount)",
+      "description": "Triangle Control film study: Triangle choke for short legs (S-mount), taught by Submission Radio.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/8-hYlvwOqgU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/8-hYlvwOqgU",
+      "url": "https://www.youtube.com/watch?v=8-hYlvwOqgU",
+      "creator": { "@type": "Person", "name": "Submission Radio" },
+      "duration": "PT105S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -68,6 +105,34 @@ The biomechanics of triangle control favor the attacking practitioner significan
 The triangle choke has evolved significantly since its popularization in competitive BJJ. Modern practitioners have refined the position's mechanics through systematic study of angle geometry, hip elevation principles, and submission chain sequencing. The position connects directly to the broader guard attack system, functioning as a centerpiece technique around which entire offensive guard games are constructed. The rear triangle variation extends these principles to back control scenarios, demonstrating the versatility of the triangular leg configuration across multiple positional contexts.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Triangle Control in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=OC8IOTnsETk)
+
+<p class="clip-credit"><strong>Triangle attack overview</strong> — taught by Craig Jones · 1:01 · <a href="https://www.youtube.com/watch?v=OC8IOTnsETk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=8-hYlvwOqgU)
+
+<p class="clip-credit"><strong>Triangle choke for short legs (S-mount)</strong> — taught by Submission Radio · 1:45 · <a href="https://www.youtube.com/watch?v=8-hYlvwOqgU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 
@@ -131,21 +196,19 @@ The triangle choke has evolved significantly since its popularization in competi
 ### Available Transitions
 
 
-- **[[Submissions/Triangle Choke/Attacker|Triangle Choke]]** (32% of attempts)
+- **[[Triangle Choke from Triangle Control/Attacker|Triangle Choke from Triangle Control]]** (38% of attempts)
 
-- **[[Transitions/Triangle to Armbar/Attacker|Triangle to Armbar]]** (21% of attempts)
+- **[[Transitions/Triangle to Armbar/Attacker|Triangle to Armbar]]** (18% of attempts)
 
-- **[[Transitions/Triangle to Omoplata/Attacker|Triangle to Omoplata]]** (12% of attempts)
+- **[[Transitions/Triangle to Omoplata/Attacker|Triangle to Omoplata]]** (10% of attempts)
 
-- **[[Transitions/Triangle to Back/Attacker|Triangle to Back]]** (8% of attempts)
+- **[[Transitions/Triangle to Back/Attacker|Triangle to Back]]** (11% of attempts)
 
-- **[[Positions/Mount/Mounted Triangle/Attacker|Mounted Triangle]]** (6% of attempts)
+- **[[Positions/Mount/Mounted Triangle/Attacker|Mounted Triangle]]** (10% of attempts)
 
 - **[[Transitions/Closed Guard to Omoplata/Attacker|Closed Guard to Omoplata]]** (5% of attempts)
 
-- **[[Inverted Triangle from Triangle Control/Attacker|Inverted Triangle from Triangle Control]]** (13% of attempts)
-
-- **[[Transitions/Inverted Triangle/Attacker|Inverted Triangle]]** (3% of attempts)
+- **[[Inverted Triangle from Triangle Control/Attacker|Inverted Triangle from Triangle Control]]** (8% of attempts)
 
 
 ### Common Mistakes
@@ -204,19 +267,17 @@ The triangle choke has evolved significantly since its popularization in competi
 ### Available Transitions
 
 
-- **[[Transitions/Triangle Escape/Attacker|Triangle Escape]]** (35% of attempts)
+- **[[Transitions/Triangle Escape/Attacker|Triangle Escape]]** (19% of attempts)
 
-- **[[Transitions/Posture Recovery/Attacker|Posture Recovery]]** (26% of attempts)
+- **[[Transitions/Posture Recovery/Attacker|Posture Recovery]]** (21% of attempts)
 
-- **[[Transitions/Stack Defense/Attacker|Stack Defense]]** (20% of attempts)
+- **[[Transitions/Guard Recovery from Triangle Control/Attacker|Guard Recovery from Triangle Control]]** (12% of attempts)
 
-- **[[Transitions/Guard Recovery from Triangle Control/Attacker|Guard Recovery from Triangle Control]]** (7% of attempts)
+- **[[Transitions/Triangle Clear to Side/Attacker|Triangle Clear to Side]]** (16% of attempts)
 
-- **[[Transitions/Triangle Clear to Side/Attacker|Triangle Clear to Side]]** (7% of attempts)
+- **[[Transitions/Posture Up from Triangle/Attacker|Posture Up from Triangle]]** (19% of attempts)
 
-- **[[Transitions/Posture Up from Triangle/Attacker|Posture Up from Triangle]]** (3% of attempts)
-
-- **[[Transitions/Stack Escape from Triangle/Attacker|Stack Escape from Triangle]]** (2% of attempts)
+- **[[Transitions/Stack Escape from Triangle/Attacker|Stack Escape from Triangle]]** (13% of attempts)
 
 
 ### Common Mistakes

@@ -346,7 +346,7 @@
       "relationship": "Power guillotine variation using elbow elevation mechanics"
     },
     {
-      "name": "Chin Strap Guillotine",
+      "name": "Chin Strap Guillotine from Front Headlock",
       "content_type": "Submission",
       "relationship": "Guillotine variation using chinstrap grip configuration"
     },
@@ -399,35 +399,115 @@
   "flashcards": [
     {
       "question": "What three primary finishing pathways define the Danaher Front Headlock System?",
-      "answer": "The system is built around three interconnected finishing families: the guillotine choke family, the anaconda/darce shoulder-lock family, and back-exposure sequences. Defensive reactions to one pathway feed entries into the others, creating a self-reinforcing cycle of pressure."
+      "answer": "The system is built around three interconnected finishing families: the guillotine choke family, the anaconda/darce shoulder-lock family, and back-exposure sequences. Defensive reactions to one pathway feed entries into the others, creating a self-reinforcing cycle of pressure.",
+      "answer_line": "Guillotine, anaconda/darce, back",
+      "distractors": {
+        "plausible": [
+          "Guillotine, kimura, sweep",
+          "Armbar, triangle, back"
+        ],
+        "trap": [
+          "Let go of head, chase legs"
+        ]
+      }
     },
     {
       "question": "How do you decide between an anaconda and a darce from the front headlock?",
-      "answer": "Both trap the opponent's near arm and feed the choking arm through to compress the neck and shoulder, but they differ by which arm is trapped: the anaconda traps the same-side arm and finishes by rolling, while the darce feeds across to trap the opposite-side arm and finishes with a shoulder-pressure squeeze."
+      "answer": "Both trap the opponent's near arm and feed the choking arm through to compress the neck and shoulder, but they differ by which arm is trapped: the anaconda traps the same-side arm and finishes by rolling, while the darce feeds across to trap the opposite-side arm and finishes with a shoulder-pressure squeeze.",
+      "answer_line": "Same-side arm → anaconda roll",
+      "distractors": {
+        "plausible": [
+          "Cross arm → anaconda roll",
+          "Same-side arm → darce squeeze"
+        ],
+        "trap": [
+          "Roll regardless of which arm"
+        ]
+      }
     },
     {
       "question": "Which control point is non-negotiable throughout every front headlock transition?",
-      "answer": "Head control. The system prioritizes securing the head before the arm and treats head control plus chest pressure as the constant that must never be released, even when chaining between submissions or spiraling to the back."
+      "answer": "Head control. The system prioritizes securing the head before the arm and treats head control plus chest pressure as the constant that must never be released, even when chaining between submissions or spiraling to the back.",
+      "answer_line": "Head control never released",
+      "distractors": {
+        "plausible": [
+          "Arm control comes before head",
+          "Hip pressure matters more than head"
+        ],
+        "trap": [
+          "Release head to secure arm trap"
+        ]
+      }
     },
     {
       "question": "When the opponent successfully defends every choke, where does the system redirect the attack?",
-      "answer": "To back exposure. The tight elbows and strong hand-fighting that stop the chokes also leave the back available, so the attacker uses spiral mechanics to ride to back control, the truck, or a crucifix, converting choke defense into a point-scoring advance."
+      "answer": "To back exposure. The tight elbows and strong hand-fighting that stop the chokes also leave the back available, so the attacker uses spiral mechanics to ride to back control, the truck, or a crucifix, converting choke defense into a point-scoring advance.",
+      "answer_line": "Spiral to back control",
+      "distractors": {
+        "plausible": [
+          "Switch to leg locks instead",
+          "Reset to neutral and restart"
+        ],
+        "trap": [
+          "Release headlock to look for arm"
+        ]
+      }
     },
     {
       "question": "What are the most common entries into the front headlock?",
-      "answer": "Snap downs and sprawls from standing, turtle attacks and scramble situations on the ground, and counters to failed guard pulls or shot takedown attempts. Every entry secures head control first, then isolates an arm to lock the trap in place."
+      "answer": "Snap downs and sprawls from standing, turtle attacks and scramble situations on the ground, and counters to failed guard pulls or shot takedown attempts. Every entry secures head control first, then isolates an arm to lock the trap in place.",
+      "answer_line": "Snap downs, turtle, failed shots",
+      "distractors": {
+        "plausible": [
+          "After completing a sweep",
+          "From knee-on-belly pressure"
+        ],
+        "trap": [
+          "Shoot deep with your head down"
+        ]
+      }
     },
     {
       "question": "Why is rushing straight to a submission considered a primary mistake in this system?",
-      "answer": "Forcing a finish before breaking the opponent's defensive structure lets them hand-fight, frame, or escape. The system requires consolidating control and dismantling posture with crossface and shoulder pressure first, so finishes land against a broken structure rather than a fresh defense."
+      "answer": "Forcing a finish before breaking the opponent's defensive structure lets them hand-fight, frame, or escape. The system requires consolidating control and dismantling posture with crossface and shoulder pressure first, so finishes land against a broken structure rather than a fresh defense.",
+      "answer_line": "Break posture before finishing",
+      "distractors": {
+        "plausible": [
+          "Speed matters more than control",
+          "Finish before they can frame"
+        ],
+        "trap": [
+          "Attack the choke immediately"
+        ]
+      }
     },
     {
       "question": "What does a 'fork attack' mean in the context of the front headlock system?",
-      "answer": "A fork attack is a structure where every defensive choice the opponent makes opens a different offensive pathway: defending the guillotine exposes the anaconda/darce, and defending the chokes exposes the back, so the opponent can never defend everything at once."
+      "answer": "A fork attack is a structure where every defensive choice the opponent makes opens a different offensive pathway: defending the guillotine exposes the anaconda/darce, and defending the chokes exposes the back, so the opponent can never defend everything at once.",
+      "answer_line": "Every defense opens new attack",
+      "distractors": {
+        "plausible": [
+          "Attack two limbs at once",
+          "Fake one choke to hide another"
+        ],
+        "trap": [
+          "Give up choke to bait a scramble"
+        ]
+      }
     },
     {
       "question": "How should drilling time be allocated to avoid over-specialization in this system?",
-      "answer": "Sessions should distribute reps across all three finishing pathways (guillotine, anaconda/darce, and back exposure) rather than drilling only the guillotine, and should progress from static positioning to cooperative flow drilling to constrained positional sparring."
+      "answer": "Sessions should distribute reps across all three finishing pathways (guillotine, anaconda/darce, and back exposure) rather than drilling only the guillotine, and should progress from static positioning to cooperative flow drilling to constrained positional sparring.",
+      "answer_line": "Rotate all three pathways evenly",
+      "distractors": {
+        "plausible": [
+          "Master guillotine before others",
+          "Drill live sparring only"
+        ],
+        "trap": [
+          "Skip static reps, spar immediately"
+        ]
+      }
     }
   ]
 }

@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Mount/Top",
-      "probability": 44,
+      "probability": {
+        "gi": 44,
+        "nogi": 44
+      },
       "result": "success"
     },
     {
       "to": "Chill Dog/Bottom",
-      "probability": 36,
+      "probability": {
+        "gi": 36,
+        "nogi": 36
+      },
       "result": "failure"
     },
     {
       "to": "Open Guard/Bottom",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 44,
+  "success_rate": {
+    "gi": 44,
+    "nogi": 44
+  },
   "overview": "The Sweep from Chill Dog transforms a traditionally defensive turtle variant into an offensive reversal, catching opponents off guard when they expect only survival-oriented responses from the bottom player. From the compact Chill Dog shell, the bottom practitioner exploits the top player's forward weight commitment to execute a sit-out reversal that ends in full mount, representing one of the highest-value positional transitions available from any turtle variant.\n\nThis technique operates on a fundamental principle of redirected force. Rather than generating power against the opponent's weight, the sweeper converts the top player's downward and forward pressure into rotational energy. The compact Chill Dog posture stores potential energy like a coiled spring. When the opponent drives their chest pressure forward or overcommits to breaking the defensive frame, their weight distribution becomes structurally vulnerable to lateral displacement. The bottom player capitalizes on this vulnerability by executing a coordinated sit-out and hip switch that channels the opponent's momentum into a reversal.\n\nThe strategic value of this sweep extends far beyond the immediate positional gain. Once opponents learn that an aggressive sweep threat exists from Chill Dog, they become significantly more conservative in their turtle attacks. This hesitancy creates wider escape windows for the bottom player's other options, including the Granby roll to open guard, hip escape to half guard, and technical stand-up to standing. The sweep functions as a force multiplier for the entire Chill Dog defensive system by punishing overaggression, making all other escapes more effective through threat multiplication. Within the 10th Planet system, this sweep exemplifies the philosophy that every position should carry both defensive and offensive capabilities, ensuring that no position is purely reactive.",
   "conditions": [
     "Opponent has committed significant forward weight through chest pressure onto the bottom player's upper back",
@@ -243,38 +255,138 @@
     "flashcards": [
       {
         "question": "What specific weight distribution must the opponent have for the sweep to be viable?",
-        "answer": "The opponent must have their chest pressure committed forward onto your upper back, meaning their center of gravity is positioned over your torso rather than behind their own hips. This forward commitment compromises their rearward base, making them vulnerable to the rotational displacement of the sit-out. If the opponent's weight is centered over their own knees or sitting back, the sweep lacks the mechanical advantage needed to generate the reversal and should not be attempted."
+        "answer": "The opponent must have their chest pressure committed forward onto your upper back, meaning their center of gravity is positioned over your torso rather than behind their own hips. This forward commitment compromises their rearward base, making them vulnerable to the rotational displacement of the sit-out. If the opponent's weight is centered over their own knees or sitting back, the sweep lacks the mechanical advantage needed to generate the reversal and should not be attempted.",
+        "answer_line": "Chest weight forced onto your back",
+        "distractors": {
+          "plausible": [
+            "Weight balanced over their hips",
+            "Weight low through their knees"
+          ],
+          "trap": [
+            "Any forward pressure at all"
+          ]
+        }
       },
       {
         "question": "Why is controlling the opponent's far-side arm the most critical grip for this sweep?",
-        "answer": "The far-side arm is the opponent's primary posting tool during the reversal. When the sit-out displaces their alignment, their natural reaction is to post their far hand wide on the mat to stop the rotation. If this post is successful, the sweep dies mid-execution and you end up in a compromised position with your back partially exposed. Controlling the far wrist removes this posting ability entirely, making the reversal mechanically inevitable once sufficient rotational momentum is generated through the sit-out and hip switch."
+        "answer": "The far-side arm is the opponent's primary posting tool during the reversal. When the sit-out displaces their alignment, their natural reaction is to post their far hand wide on the mat to stop the rotation. If this post is successful, the sweep dies mid-execution and you end up in a compromised position with your back partially exposed. Controlling the far wrist removes this posting ability entirely, making the reversal mechanically inevitable once sufficient rotational momentum is generated through the sit-out and hip switch.",
+        "answer_line": "Removes their post to stop rotation",
+        "distractors": {
+          "plausible": [
+            "Controls their near-side hip",
+            "Stops them re-gripping your collar"
+          ],
+          "trap": [
+            "Grip their far ankle instead"
+          ]
+        }
       },
       {
         "question": "Your opponent's weight suddenly increases on your upper back during a grip transition - is this the right moment to sweep?",
-        "answer": "Yes, this is an excellent sweep window. The increased forward pressure during a grip transition means the opponent's weight is committed forward while their hands are momentarily occupied with changing grips rather than available for posting or base maintenance. Their forward commitment provides the mechanical vulnerability the sweep exploits, and their grip transition means they cannot immediately post to stop the reversal. Execute the arm control and sit-out explosively within the one to two second window before the new grip is established."
+        "answer": "Yes, this is an excellent sweep window. The increased forward pressure during a grip transition means the opponent's weight is committed forward while their hands are momentarily occupied with changing grips rather than available for posting or base maintenance. Their forward commitment provides the mechanical vulnerability the sweep exploits, and their grip transition means they cannot immediately post to stop the reversal. Execute the arm control and sit-out explosively within the one to two second window before the new grip is established.",
+        "answer_line": "Yes, attack now — hands are busy",
+        "distractors": {
+          "plausible": [
+            "Yes, but wait for full grip",
+            "No, wait until pressure eases"
+          ],
+          "trap": [
+            "No, retreat to rebuild frame"
+          ]
+        }
       },
       {
         "question": "You initiate the sit-out but feel the opponent beginning to sprawl - what is your immediate chain response?",
-        "answer": "Immediately redirect into a Granby roll in the direction opposite to your sit-out. The opponent's sprawl drives their hips backward and their weight forward, which is exactly the weight distribution that makes a Granby roll most effective. Their backward hip drive creates the forward space you need for the Granby rotation. Do not try to force the sit-out against a sprawl - the chain from failed sweep to Granby is a higher-percentage combination than committing against the counter."
+        "answer": "Immediately redirect into a Granby roll in the direction opposite to your sit-out. The opponent's sprawl drives their hips backward and their weight forward, which is exactly the weight distribution that makes a Granby roll most effective. Their backward hip drive creates the forward space you need for the Granby rotation. Do not try to force the sit-out against a sprawl - the chain from failed sweep to Granby is a higher-percentage combination than committing against the counter.",
+        "answer_line": "Chain into a Granby roll",
+        "distractors": {
+          "plausible": [
+            "Force the sit-out through anyway",
+            "Retract leg, reset the frame"
+          ],
+          "trap": [
+            "Abandon and turtle up"
+          ]
+        }
       },
       {
         "question": "What is the critical difference between the sit-out reversal and the Peterson roll variation?",
-        "answer": "The sit-out reversal uses a kick-through motion that creates angular displacement before generating the reversal rotation, and it requires space for the leg to clear past the opponent's hip. The Peterson roll uses an underhook combined with a lateral rolling motion that generates reversal through rotational momentum directly. The sit-out is better when space exists for the leg kick-through and the opponent's hips are elevated. The Peterson roll is better when hips are tight together with no space for a sit-out, but an underhook is available on the near side."
+        "answer": "The sit-out reversal uses a kick-through motion that creates angular displacement before generating the reversal rotation, and it requires space for the leg to clear past the opponent's hip. The Peterson roll uses an underhook combined with a lateral rolling motion that generates reversal through rotational momentum directly. The sit-out is better when space exists for the leg kick-through and the opponent's hips are elevated. The Peterson roll is better when hips are tight together with no space for a sit-out, but an underhook is available on the near side.",
+        "answer_line": "Sit-out=space; Peterson=underhook",
+        "distractors": {
+          "plausible": [
+            "Sit-out needs underhook, not space",
+            "Peterson needs kick-through space"
+          ],
+          "trap": [
+            "Use sit-out even with tight hips"
+          ]
+        }
       },
       {
         "question": "How does the sweep threat improve your other Chill Dog escape options?",
-        "answer": "Once the opponent has been swept or recognizes the sweep threat, they become more conservative with their forward pressure to avoid exposing themselves to another reversal. This reduction in forward pressure creates wider windows for the Granby roll, hip escape to half guard, and technical stand-up, all of which benefit from reduced top pressure. The sweep functions as a force multiplier: even if you only successfully execute it occasionally, its threat changes the opponent's behavior in ways that make every other escape from Chill Dog more effective."
+        "answer": "Once the opponent has been swept or recognizes the sweep threat, they become more conservative with their forward pressure to avoid exposing themselves to another reversal. This reduction in forward pressure creates wider windows for the Granby roll, hip escape to half guard, and technical stand-up, all of which benefit from reduced top pressure. The sweep functions as a force multiplier: even if you only successfully execute it occasionally, its threat changes the opponent's behavior in ways that make every other escape from Chill Dog more effective.",
+        "answer_line": "Threat makes opponent ease pressure",
+        "distractors": {
+          "plausible": [
+            "Only helps if sweep lands every time",
+            "Sweep replaces other escapes"
+          ],
+          "trap": [
+            "Ignore other escapes, spam the sweep"
+          ]
+        }
       },
       {
         "question": "What happens if you execute the sit-out but cannot complete the full reversal to mount?",
-        "answer": "A partial sit-out that stalls before achieving mount leaves you in a dangerous intermediate position with your back partially exposed and no guard structure established. If the reversal stalls, you must immediately decide between two options: continue driving forward with everything you have to complete the reversal, or abandon the sweep entirely and hip escape to establish half guard from the sit-out angle. Never remain static in the intermediate position because the opponent will use your exposed back to establish back control with hooks."
+        "answer": "A partial sit-out that stalls before achieving mount leaves you in a dangerous intermediate position with your back partially exposed and no guard structure established. If the reversal stalls, you must immediately decide between two options: continue driving forward with everything you have to complete the reversal, or abandon the sweep entirely and hip escape to establish half guard from the sit-out angle. Never remain static in the intermediate position because the opponent will use your exposed back to establish back control with hooks.",
+        "answer_line": "Drive through or hip escape to half",
+        "distractors": {
+          "plausible": [
+            "Hold still and reassess options",
+            "Push only harder, no other choice"
+          ],
+          "trap": [
+            "Stay static, wait for opening"
+          ]
+        }
       },
       {
         "question": "At what point during the sweep execution is the movement irreversible and full commitment mandatory?",
-        "answer": "The point of no return is when the sit-out leg clears past the opponent's far hip and your compact Chill Dog frame breaks open. Before this point, you can abort by retracting the leg and re-establishing the defensive frame. After the leg clears, your back is partially exposed and the Chill Dog defensive structure is gone. From this point forward, you must commit fully to completing the reversal to mount because returning to Chill Dog is no longer mechanically possible. Attempting to retreat from this position gives the opponent a free path to your back."
+        "answer": "The point of no return is when the sit-out leg clears past the opponent's far hip and your compact Chill Dog frame breaks open. Before this point, you can abort by retracting the leg and re-establishing the defensive frame. After the leg clears, your back is partially exposed and the Chill Dog defensive structure is gone. From this point forward, you must commit fully to completing the reversal to mount because returning to Chill Dog is no longer mechanically possible. Attempting to retreat from this position gives the opponent a free path to your back.",
+        "answer_line": "Leg clears their far hip",
+        "distractors": {
+          "plausible": [
+            "Grip breaks their far-arm post",
+            "Hips fully rotate past vertical"
+          ],
+          "trap": [
+            "Try to retract leg and reset"
+          ]
+        }
       }
     ],
-    "safety_considerations": "The Sweep from Chill Dog involves explosive rotational forces through the hips and lower back. Always warm up thoroughly with hip circles and light sit-out drilling before attempting at full speed. Partners should communicate about resistance levels during drilling to prevent unexpected impacts during the reversal. The opponent landing from the reversal should be controlled - avoid slamming or spiking during practice. If you experience lower back pain during the sit-out motion, reduce intensity and focus on proper hip mechanics rather than forcing through with muscular effort. Stop immediately if you feel sharp pain in the spine, hips, or shoulders during any phase of execution."
+    "safety_considerations": "The Sweep from Chill Dog involves explosive rotational forces through the hips and lower back. Always warm up thoroughly with hip circles and light sit-out drilling before attempting at full speed. Partners should communicate about resistance levels during drilling to prevent unexpected impacts during the reversal. The opponent landing from the reversal should be controlled - avoid slamming or spiking during practice. If you experience lower back pain during the sit-out motion, reduce intensity and focus on proper hip mechanics rather than forcing through with muscular effort. Stop immediately if you feel sharp pain in the spine, hips, or shoulders during any phase of execution.",
+    "clips": [
+      {
+        "id": "Q2aYW-20B44",
+        "title": "Meathook to Chill Dog to Carnie and Kimura finishes",
+        "by": "Marshall Stamper",
+        "vertical": false,
+        "channel": "The Bear's Den BJJ & MMA  熊派巴西柔術及MMA學院",
+        "duration": 73,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "2zillrf6gGs",
+        "title": "Closed guard entry to Chill Dog to omoplata",
+        "by": "Marshall Stamper",
+        "vertical": false,
+        "channel": "The Bear's Den BJJ & MMA  熊派巴西柔術及MMA學院",
+        "duration": 195,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Sweep from Chill Dog Defender",
@@ -360,23 +472,73 @@
     "flashcards": [
       {
         "question": "What weight distribution should you maintain to prevent the sweep while still being able to attack from Chill Dog top?",
-        "answer": "Distribute your weight primarily through your hips onto the bottom player's lower back and hip area rather than forward through your chest onto their upper back. This hip-heavy distribution provides attacking pressure without creating the forward weight commitment the sweep exploits. Keep your center of gravity behind the bottom player's body while maintaining enough forward contact to control their movement and attack with grip fighting. This balanced distribution allows offensive attacks while denying the fundamental mechanical vulnerability the sweep requires."
+        "answer": "Distribute your weight primarily through your hips onto the bottom player's lower back and hip area rather than forward through your chest onto their upper back. This hip-heavy distribution provides attacking pressure without creating the forward weight commitment the sweep exploits. Keep your center of gravity behind the bottom player's body while maintaining enough forward contact to control their movement and attack with grip fighting. This balanced distribution allows offensive attacks while denying the fundamental mechanical vulnerability the sweep requires.",
+        "answer_line": "Hips heavy, not chest forward",
+        "distractors": {
+          "plausible": [
+            "Chest pressure, hips light",
+            "Even weight front to back"
+          ],
+          "trap": [
+            "Drive chest hard onto upper back"
+          ]
+        }
       },
       {
         "question": "You feel the bottom player grab your far wrist - should you immediately strip the grip or wait to see what they do with it?",
-        "answer": "Strip it immediately. The far-side arm control is the single most important setup element for the sweep, and allowing it to remain even briefly gives the bottom player the option to initiate at a moment of their choosing. Every second the grip stays established increases the danger because the bottom player only needs a brief window of forward weight commitment combined with the grip to execute the sweep. Stripping the grip preemptively eliminates the threat entirely and forces them to re-establish it before they can attempt again."
+        "answer": "Strip it immediately. The far-side arm control is the single most important setup element for the sweep, and allowing it to remain even briefly gives the bottom player the option to initiate at a moment of their choosing. Every second the grip stays established increases the danger because the bottom player only needs a brief window of forward weight commitment combined with the grip to execute the sweep. Stripping the grip preemptively eliminates the threat entirely and forces them to re-establish it before they can attempt again.",
+        "answer_line": "Strip the grip immediately",
+        "distractors": {
+          "plausible": [
+            "Wait to see their next move",
+            "Let it stay, just add a frame"
+          ],
+          "trap": [
+            "Ignore it and attack their neck"
+          ]
+        }
       },
       {
         "question": "The bottom player's sit-out has already kicked through and you feel your alignment breaking - what is your emergency response?",
-        "answer": "If the sit-out has progressed past the point where hip dropping can stop it, immediately post your free hand as wide as possible on the mat to create a base against the rotation. Simultaneously pull your hips back and away from the sweep direction to reduce the rotational force. If neither of these stops the reversal, concede the position change and immediately begin working your mount escape protocols rather than fighting the sweep at a mechanically hopeless stage. A controlled transition to bottom mount is better than fighting the reversal and landing awkwardly."
+        "answer": "If the sit-out has progressed past the point where hip dropping can stop it, immediately post your free hand as wide as possible on the mat to create a base against the rotation. Simultaneously pull your hips back and away from the sweep direction to reduce the rotational force. If neither of these stops the reversal, concede the position change and immediately begin working your mount escape protocols rather than fighting the sweep at a mechanically hopeless stage. A controlled transition to bottom mount is better than fighting the reversal and landing awkwardly.",
+        "answer_line": "Post hand wide, pull hips back",
+        "distractors": {
+          "plausible": [
+            "Fight the rotation with core",
+            "Grab their leg to stop kick-through"
+          ],
+          "trap": [
+            "Keep chest pressure driving forward"
+          ]
+        }
       },
       {
         "question": "How do you differentiate between the sweep setup and the bottom player simply defending with normal grip fighting from Chill Dog?",
-        "answer": "Normal defensive grip fighting from Chill Dog focuses on stripping your grips and protecting the neck and hips - the bottom player's hands stay close to their own body and work defensively. Sweep setup grip fighting specifically targets your far-side arm with a reaching motion across their body, and is usually accompanied by a loading weight shift onto the far hand and near knee. The cross-body reach is the diagnostic indicator because defensive grip fighting almost never requires the bottom player to reach across to control your far limb."
+        "answer": "Normal defensive grip fighting from Chill Dog focuses on stripping your grips and protecting the neck and hips - the bottom player's hands stay close to their own body and work defensively. Sweep setup grip fighting specifically targets your far-side arm with a reaching motion across their body, and is usually accompanied by a loading weight shift onto the far hand and near knee. The cross-body reach is the diagnostic indicator because defensive grip fighting almost never requires the bottom player to reach across to control your far limb.",
+        "answer_line": "Cross-body reach for your far arm",
+        "distractors": {
+          "plausible": [
+            "Any grip fighting signals a sweep",
+            "Stripping your grips means sweep"
+          ],
+          "trap": [
+            "Assume it's just normal defense"
+          ]
+        }
       },
       {
         "question": "After successfully defending the sweep, the bottom player's Chill Dog frame is broken - how do you capitalize?",
-        "answer": "A broken Chill Dog frame is the highest-value outcome of a defended sweep because the defensive shell that was protecting them is now compromised. Immediately attack the exposed elements: if their elbows have separated from their knees, insert a hook for back control. If they are flattened from the failed sweep attempt, drive chest pressure and work for the harness or seatbelt grip. If they have turned partially from the sit-out, follow the turn to take the back. The key is attacking immediately before they can re-establish the compact defensive posture."
+        "answer": "A broken Chill Dog frame is the highest-value outcome of a defended sweep because the defensive shell that was protecting them is now compromised. Immediately attack the exposed elements: if their elbows have separated from their knees, insert a hook for back control. If they are flattened from the failed sweep attempt, drive chest pressure and work for the harness or seatbelt grip. If they have turned partially from the sit-out, follow the turn to take the back. The key is attacking immediately before they can re-establish the compact defensive posture.",
+        "answer_line": "Attack the exposed frame instantly",
+        "distractors": {
+          "plausible": [
+            "Reset to neutral and re-posture",
+            "Wait for them to re-establish frame"
+          ],
+          "trap": [
+            "Back off and let them recover"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -399,6 +561,35 @@
         "phase": "Phase 4: Live Positional Integration",
         "focus": "Full resistance defense against sweeps and chain escape sequences",
         "description": "Positional sparring from Chill Dog top at competition intensity. Partner uses the sweep plus all other escapes. You must maintain position, defend all escape attempts, and capitalize on failed sweeps to advance. Score for back control, maintained position, and successful counters. Develops real-time recognition and response under authentic competitive pressure."
+      }
+    ],
+    "clips": [
+      {
+        "id": "taus4FKiXww",
+        "title": "Shoot, sprawl and sit out defense",
+        "by": "Erik Paulson",
+        "vertical": false,
+        "channel": "CSW Association",
+        "duration": 58,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "Ft6OyIZ6vPs",
+        "title": "Turtle escape and back-exposure defense system",
+        "by": "Jozef Chen",
+        "vertical": false,
+        "channel": "BJJ focus camps",
+        "duration": 149,
+        "verified": "2026-07-16"
+      },
+      {
+        "id": "d312j3n9fIw",
+        "title": "Turtle defense: sit-out with head on back",
+        "by": "Mjolnir Fight Club coach",
+        "vertical": false,
+        "channel": "Mjølnir Fight Club",
+        "duration": 30,
+        "verified": "2026-07-16"
       }
     ]
   }

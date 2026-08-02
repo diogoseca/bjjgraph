@@ -168,6 +168,43 @@ description: "How to execute the Reverse Mount Transition in BJJ. Attacking pers
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Reverse Mount Transition (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Reverse mount in scrambles",
+      "description": "Reverse Mount Transition (Attacker) film study: Reverse mount in scrambles, taught by jamielovesmartialarts.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/XQ4fwGrXV2Q/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/XQ4fwGrXV2Q",
+      "url": "https://www.youtube.com/watch?v=XQ4fwGrXV2Q",
+      "creator": { "@type": "Person", "name": "jamielovesmartialarts" },
+      "duration": "PT23S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Reverse mount toe lock",
+      "description": "Reverse Mount Transition (Attacker) film study: Reverse mount toe lock, taught by GrapplingMechanics.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/9_cPJAPTXs0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/9_cPJAPTXs0",
+      "url": "https://www.youtube.com/watch?v=9_cPJAPTXs0",
+      "creator": { "@type": "Person", "name": "GrapplingMechanics" },
+      "duration": "PT76S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -181,6 +218,34 @@ The transition requires precise weight management and timing. Moving from North-
 **From Position**: [[Positions/North-South]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Reverse Mount Transition (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=XQ4fwGrXV2Q)
+
+<p class="clip-credit"><strong>Reverse mount in scrambles</strong> — taught by jamielovesmartialarts · 0:23 · <a href="https://www.youtube.com/watch?v=XQ4fwGrXV2Q" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=9_cPJAPTXs0)
+
+<p class="clip-credit"><strong>Reverse mount toe lock</strong> — taught by GrapplingMechanics · 1:16 · <a href="https://www.youtube.com/watch?v=9_cPJAPTXs0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

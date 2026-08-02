@@ -174,6 +174,54 @@ description: "How to execute Back Take from Ashi in BJJ. Attacking perspective w
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Back Take from Ashi (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Cross ashi to back take when they slip the heel",
+      "description": "Back Take from Ashi (Attacker) film study: Cross ashi to back take when they slip the heel, taught by Factory Fresh Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/cNpVTxV0WGs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/cNpVTxV0WGs",
+      "url": "https://www.youtube.com/watch?v=cNpVTxV0WGs",
+      "creator": { "@type": "Person", "name": "Factory Fresh Jiu Jitsu" },
+      "duration": "PT20S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Cross ashi entry and wedge berimbolo counter to the back",
+      "description": "Back Take from Ashi (Attacker) film study: Cross ashi entry and wedge berimbolo counter to the back, taught by BJJ Doug.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/N2weatRR_V4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/N2weatRR_V4",
+      "url": "https://www.youtube.com/watch?v=N2weatRR_V4",
+      "creator": { "@type": "Person", "name": "BJJ Doug" },
+      "duration": "PT28S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Ashi counter into the back take",
+      "description": "Back Take from Ashi (Attacker) film study: Ashi counter into the back take, taught by Thunderdome BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/jIJIKwQ6YY4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/jIJIKwQ6YY4",
+      "url": "https://www.youtube.com/watch?v=jIJIKwQ6YY4",
+      "creator": { "@type": "Person", "name": "Thunderdome BJJ" },
+      "duration": "PT19S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -187,6 +235,42 @@ The back take from ashi has become increasingly important in modern competition 
 **From Position**: [[Positions/Ashi Garami/Inside Ashi-Garami]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Back Take from Ashi (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=cNpVTxV0WGs)
+
+<p class="clip-credit"><strong>Cross ashi to back take when they slip the heel</strong> — taught by Factory Fresh Jiu Jitsu · 0:20 · <a href="https://www.youtube.com/watch?v=cNpVTxV0WGs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=N2weatRR_V4)
+
+<p class="clip-credit"><strong>Cross ashi entry and wedge berimbolo counter to the back</strong> — taught by BJJ Doug · 0:28 · <a href="https://www.youtube.com/watch?v=N2weatRR_V4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=jIJIKwQ6YY4)
+
+<p class="clip-credit"><strong>Ashi counter into the back take</strong> — taught by Thunderdome BJJ · 0:19 · <a href="https://www.youtube.com/watch?v=jIJIKwQ6YY4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

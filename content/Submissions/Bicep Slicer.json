@@ -21,7 +21,10 @@
   "target_area": "Bicep muscle and elbow joint",
   "starting_position": "Crucifix",
   "from_position": "Crucifix/Top",
-  "success_rate": 52,
+  "success_rate": {
+    "gi": 52,
+    "nogi": 52
+  },
   "variant_uniqueness": "Dual compression-hyperextension attack on bicep and elbow",
   "summary": "The Bicep Slicer is a compression lock that drives your shin or forearm into the crook of the opponent's bent arm, crushing the bicep against the bone while levering the elbow toward hyperextension.",
   "overview": "Among the most overlooked finishes in grappling, the Bicep Slicer earns its keep as a high-percentage backup the moment an opponent surrenders an arm to defend a choke or a more obvious joint lock. This advanced submission works by trapping the opponent's arm between your shin and forearm, creating a lever that compresses the bicep against the humerus bone while simultaneously hyperextending the elbow. Most commonly applied from the crucifix, truck, or modified mount positions, the bicep slicer is a technical submission that requires precise positioning and control. The compression creates intense pain in the bicep muscle belly, while the hyperextension threatens the elbow joint, creating a two-fold attack that is difficult to defend. This submission is particularly effective in no-gi grappling where the opponent cannot use gi grips to defend, and it serves as an excellent backup when traditional chokes or arm locks are unavailable. The bicep slicer's effectiveness comes from its ability to attack an area that most grapplers do not regularly condition or defend, making it a high-percentage finish when the proper positioning is achieved. Understanding the mechanical advantage required and the precise angles needed separates successful application from ineffective attempts.",
@@ -210,6 +213,35 @@
       "variation_name": "North-South Bicep Slicer",
       "description": "A less common but effective variation from north-south position. Isolate one arm and use your leg to create the fulcrum behind their elbow while controlling the wrist with your hands. This requires significant flexibility and control but can catch opponents off-guard.",
       "when_to_use": "When transitioning through north-south and the opponent extends an arm defensively. The unusual angle can make this variation particularly difficult to defend."
+    }
+  ],
+  "clips": [
+    {
+      "id": "u9bpAwBgPVo",
+      "title": "Crucifix to bicep slicer finish",
+      "by": "Ashraf Shishani",
+      "vertical": false,
+      "channel": "Ashraf Shishani",
+      "duration": 70,
+      "verified": "2026-07-15"
+    },
+    {
+      "id": "1BwmKjHGaPg",
+      "title": "Sneaky bicep slicer from side control",
+      "by": "Prism Jiu Jitsu",
+      "vertical": false,
+      "channel": "Prism Jiu Jitsu",
+      "duration": 74,
+      "verified": "2026-07-15"
+    },
+    {
+      "id": "WhRSftl4jlU",
+      "title": "Bicep slicer from top side control",
+      "by": "VOW BJJ",
+      "vertical": false,
+      "channel": "VOW BJJ",
+      "duration": 218,
+      "verified": "2026-07-15"
     }
   ]
 }

@@ -34,6 +34,54 @@ description: "Master the belly down armbar from Williams Guard. Learn prone rota
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Belly Down Armbar from Williams Guard \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Williams Guard Armbar in Competition",
+      "description": "Belly Down Armbar from Williams Guard film study: Williams Guard Armbar in Competition, taught by Sam Wilkinson.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/xfrzFDc5PGw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/xfrzFDc5PGw",
+      "url": "https://www.youtube.com/watch?v=xfrzFDc5PGw",
+      "creator": { "@type": "Person", "name": "Sam Wilkinson" },
+      "duration": "PT10S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Far armbar from the Williams guard",
+      "description": "Belly Down Armbar from Williams Guard film study: Far armbar from the Williams guard, taught by Shawn Williams.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/dkuNBLWny9A/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/dkuNBLWny9A",
+      "url": "https://www.youtube.com/watch?v=dkuNBLWny9A",
+      "creator": { "@type": "Person", "name": "Shawn Williams" },
+      "duration": "PT161S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "The Williams guard armbar",
+      "description": "Belly Down Armbar from Williams Guard film study: The Williams guard armbar, taught by Shawn Williams.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/O9yHOpMRgtU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/O9yHOpMRgtU",
+      "url": "https://www.youtube.com/watch?v=O9yHOpMRgtU",
+      "creator": { "@type": "Person", "name": "Shawn Williams" },
+      "duration": "PT217S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -78,6 +126,42 @@ From a strategic perspective, this submission addresses the primary weakness of 
 **Starting Position**: [[Positions/Williams Guard]] · **From**: [[Positions/Williams Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Belly Down Armbar from Williams Guard in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=xfrzFDc5PGw)
+
+<p class="clip-credit"><strong>Williams Guard Armbar in Competition</strong> — taught by Sam Wilkinson · 0:10 · <a href="https://www.youtube.com/watch?v=xfrzFDc5PGw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=dkuNBLWny9A)
+
+<p class="clip-credit"><strong>Far armbar from the Williams guard</strong> — taught by Shawn Williams · 2:41 · <a href="https://www.youtube.com/watch?v=dkuNBLWny9A" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=O9yHOpMRgtU)
+
+<p class="clip-credit"><strong>The Williams guard armbar</strong> — taught by Shawn Williams · 3:37 · <a href="https://www.youtube.com/watch?v=O9yHOpMRgtU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="outcomes" class="content-section">
 

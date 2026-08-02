@@ -34,6 +34,54 @@ description: "Master Modified Mount in BJJ. Strategic position trading some cont
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Modified Mount \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Positional control from the mount",
+      "description": "Modified Mount film study: Positional control from the mount, taught by Northwoods Combat Arts.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/-mVdsoKMXhc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/-mVdsoKMXhc",
+      "url": "https://www.youtube.com/watch?v=-mVdsoKMXhc",
+      "creator": { "@type": "Person", "name": "Northwoods Combat Arts" },
+      "duration": "PT102S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Technical mount attacks",
+      "description": "Modified Mount film study: Technical mount attacks, taught by Soma Academy.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/pa4Aj431Yds/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/pa4Aj431Yds",
+      "url": "https://www.youtube.com/watch?v=pa4Aj431Yds",
+      "creator": { "@type": "Person", "name": "Soma Academy" },
+      "duration": "PT110S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Armbar from modified mount",
+      "description": "Modified Mount film study: Armbar from modified mount, taught by Black Lotus BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/uo5jPElZ6po/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/uo5jPElZ6po",
+      "url": "https://www.youtube.com/watch?v=uo5jPElZ6po",
+      "creator": { "@type": "Person", "name": "Black Lotus BJJ" },
+      "duration": "PT63S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -62,6 +110,42 @@ description: "Master Modified Mount in BJJ. Strategic position trading some cont
 Modified Mount represents a strategic adaptation of the traditional mount position where the top practitioner posts one leg out to the side while maintaining the other knee across the opponent's body. This asymmetric configuration sacrifices some of the pure control of standard mount in exchange for significantly enhanced base stability and specific submission setups, particularly for armbars and triangles. The position emerged from competitive necessity when facing opponents with excellent mount escape mechanics, as the posted leg provides a structural brace against explosive bridge-and-roll attempts while maintaining dominant positioning. Modified Mount serves as both a transitional position when moving between mount variations and a deliberate control choice when the opponent demonstrates strong escape ability from traditional mount. The posted leg functions as a stability anchor, allowing the top practitioner to maintain balance while reaching for grips or transitioning to submissions without fear of being reversed. From the bottom perspective, Modified Mount presents unique escape opportunities because the asymmetric weight distribution creates directional vulnerabilities, particularly toward the posted leg side. However, the position also limits certain escape paths because the posted leg blocks some hip escape angles while the across-body knee maintains significant control. Understanding Modified Mount from both perspectives requires recognizing the position as a calculated trade-off between control security and submission accessibility, with each practitioner attempting to exploit the inherent advantages while minimizing the structural weaknesses of this asymmetric configuration.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Modified Mount in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=-mVdsoKMXhc)
+
+<p class="clip-credit"><strong>Positional control from the mount</strong> — taught by Northwoods Combat Arts · 1:42 · <a href="https://www.youtube.com/watch?v=-mVdsoKMXhc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=pa4Aj431Yds)
+
+<p class="clip-credit"><strong>Technical mount attacks</strong> — taught by Soma Academy · 1:50 · <a href="https://www.youtube.com/watch?v=pa4Aj431Yds" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=uo5jPElZ6po)
+
+<p class="clip-credit"><strong>Armbar from modified mount</strong> — taught by Black Lotus BJJ · 1:03 · <a href="https://www.youtube.com/watch?v=uo5jPElZ6po" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 
@@ -133,9 +217,9 @@ Modified Mount represents a strategic adaptation of the traditional mount positi
 ### Available Transitions
 
 
-- **[[Transitions/Hip Escape to Guard/Attacker|Hip Escape to Guard]]** (22% of attempts)
+- **[[Transitions/Hip Escape to Guard/Attacker|Hip Escape to Guard]]** (15% of attempts)
 
-- **[[Transitions/Elbow Escape to Guard/Attacker|Elbow Escape to Guard]]** (15% of attempts)
+- **[[Transitions/Elbow Escape to Guard/Attacker|Elbow Escape to Guard]]** (18% of attempts)
 
 - **[[Transitions/Frame and Shrimp to Guard/Attacker|Frame and Shrimp to Guard]]** (13% of attempts)
 
@@ -145,11 +229,11 @@ Modified Mount represents a strategic adaptation of the traditional mount positi
 
 - **[[Transitions/Deep Half Entry/Attacker|Deep Half Entry]]** (9% of attempts)
 
-- **[[Transitions/Lockdown Recovery/Attacker|Lockdown Recovery]]** (9% of attempts)
+- **[[Transitions/Lockdown Recovery/Attacker|Lockdown Recovery]]** (8% of attempts)
 
-- **[[Transitions/Arm Extraction to Turtle/Attacker|Arm Extraction to Turtle]]** (9% of attempts)
+- **[[Transitions/Arm Extraction to Turtle/Attacker|Arm Extraction to Turtle]]** (7% of attempts)
 
-- **[[Transitions/Bridge Escape from Modified Mount/Attacker|Bridge Escape from Modified Mount]]** (5% of attempts)
+- **[[Transitions/Bridge Escape from Modified Mount/Attacker|Bridge Escape from Modified Mount]]** (12% of attempts)
 
 
 ### Common Mistakes
@@ -210,23 +294,23 @@ Modified Mount represents a strategic adaptation of the traditional mount positi
 ### Available Transitions
 
 
-- **[[Transitions/Mount to Armbar/Attacker|Mount to Armbar]]** (19% of attempts)
+- **[[Transitions/Mount to Armbar/Attacker|Mount to Armbar]]** (14% of attempts)
 
-- **[[Transitions/S-Mount Transition/Attacker|S-Mount Transition]]** (11% of attempts)
+- **[[Transitions/S-Mount Transition/Attacker|S-Mount Transition]]** (10% of attempts)
 
-- **[[Positions/Mount/Mounted Triangle/Attacker|Mounted Triangle]]** (9% of attempts)
+- **[[Positions/Mount/Mounted Triangle/Attacker|Mounted Triangle]]** (7% of attempts)
 
-- **[[Transitions/High Mount Transition/Attacker|High Mount Transition]]** (12% of attempts)
+- **[[Transitions/Consolidate Mount/Attacker|Consolidate Mount]]** (20% of attempts)
 
-- **[[Cross Collar Choke from Modified Mount/Attacker|Cross Collar Choke from Modified Mount]]** (9% of attempts)
+- **[[Cross Collar Choke from Modified Mount/Attacker|Cross Collar Choke from Modified Mount]]** (0% of attempts)
 
-- **[[Kimura from Modified Mount/Attacker|Kimura from Modified Mount]]** (7% of attempts)
+- **[[Kimura from Modified Mount/Attacker|Kimura from Modified Mount]]** (11% of attempts)
 
-- **[[Transitions/Gift Wrap Transition/Attacker|Gift Wrap Transition]]** (11% of attempts)
+- **[[Transitions/Gift Wrap Transition/Attacker|Gift Wrap Transition]]** (14% of attempts)
 
-- **[[Transitions/Back Take from Top/Attacker|Back Take from Top]]** (9% of attempts)
+- **[[Transitions/Back Take from Top/Attacker|Back Take from Top]]** (15% of attempts)
 
-- **[[Americana from Modified Mount/Attacker|Americana from Modified Mount]]** (13% of attempts)
+- **[[Americana from Modified Mount/Attacker|Americana from Modified Mount]]** (9% of attempts)
 
 
 ### Common Mistakes

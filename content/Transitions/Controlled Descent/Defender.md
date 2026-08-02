@@ -148,6 +148,43 @@ description: "How to counter your opponent's Controlled Descent in BJJ. Recognit
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Controlled Descent (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Standing cutback escape from back control",
+      "description": "Controlled Descent (Defender) film study: Standing cutback escape from back control, taught by John Danaher.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/s_bNe2rnQcg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/s_bNe2rnQcg",
+      "url": "https://www.youtube.com/watch?v=s_bNe2rnQcg",
+      "creator": { "@type": "Person", "name": "John Danaher" },
+      "duration": "PT201S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Back control escape explained simply",
+      "description": "Controlled Descent (Defender) film study: Back control escape explained simply, taught by Jean Jacques Machado.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/3Jd2llamfl8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/3Jd2llamfl8",
+      "url": "https://www.youtube.com/watch?v=3Jd2llamfl8",
+      "creator": { "@type": "Person", "name": "Jean Jacques Machado" },
+      "duration": "PT189S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -159,6 +196,34 @@ The primary challenge is that your opponent retains agency during their descent 
 **Opponent's Starting Position**: [[Positions/Back Control/Standing Back Control]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Controlled Descent (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=s_bNe2rnQcg)
+
+<p class="clip-credit"><strong>Standing cutback escape from back control</strong> — taught by John Danaher · 3:21 · <a href="https://www.youtube.com/watch?v=s_bNe2rnQcg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=3Jd2llamfl8)
+
+<p class="clip-credit"><strong>Back control escape explained simply</strong> — taught by Jean Jacques Machado · 3:09 · <a href="https://www.youtube.com/watch?v=3Jd2llamfl8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

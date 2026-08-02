@@ -148,6 +148,54 @@ description: "How to defend the Smash Pass in BJJ. Recognition cues, defensive f
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Smash Pass (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Head frame to prevent the hug smash pass",
+      "description": "Smash Pass (Defender) film study: Head frame to prevent the hug smash pass, taught by Revolution BJJ coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/06-ZO93fJak/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/06-ZO93fJak",
+      "url": "https://www.youtube.com/watch?v=06-ZO93fJak",
+      "creator": { "@type": "Person", "name": "Revolution BJJ coach" },
+      "duration": "PT90S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Stopping the half guard underhook smash",
+      "description": "Smash Pass (Defender) film study: Stopping the half guard underhook smash, taught by Malachy Friedman.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/dOdO6xJ-TcU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/dOdO6xJ-TcU",
+      "url": "https://www.youtube.com/watch?v=dOdO6xJ-TcU",
+      "creator": { "@type": "Person", "name": "Malachy Friedman" },
+      "duration": "PT98S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Half guard squeeze pass escape",
+      "description": "Smash Pass (Defender) film study: Half guard squeeze pass escape, taught by David Avellan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/CsNjyydowlM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/CsNjyydowlM",
+      "url": "https://www.youtube.com/watch?v=CsNjyydowlM",
+      "creator": { "@type": "Person", "name": "David Avellan" },
+      "duration": "PT282S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -161,6 +209,42 @@ Advanced defenders use the smash pass attempt as an opportunity rather than simp
 **Opponent's Starting Position**: [[Positions/Half Guard]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Smash Pass (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=06-ZO93fJak)
+
+<p class="clip-credit"><strong>Head frame to prevent the hug smash pass</strong> — taught by Revolution BJJ coach · 1:30 · <a href="https://www.youtube.com/watch?v=06-ZO93fJak" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=dOdO6xJ-TcU)
+
+<p class="clip-credit"><strong>Stopping the half guard underhook smash</strong> — taught by Malachy Friedman · 1:38 · <a href="https://www.youtube.com/watch?v=dOdO6xJ-TcU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=CsNjyydowlM)
+
+<p class="clip-credit"><strong>Half guard squeeze pass escape</strong> — taught by David Avellan · 4:42 · <a href="https://www.youtube.com/watch?v=CsNjyydowlM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

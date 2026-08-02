@@ -148,6 +148,10 @@ description: "How to defend against Explosive Bridge to Turtle in BJJ. Recogniti
 </script>
 
 
+
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -161,6 +165,8 @@ Advanced mounted crucifix controllers bait escape attempts by offering apparent 
 **Opponent's Starting Position**: [[Positions/Mount/Mounted Crucifix]] (Bottom)
 
 </section>
+
+
 
 <section id="recognition-cues" class="content-section">
 

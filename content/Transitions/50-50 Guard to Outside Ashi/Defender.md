@@ -148,6 +148,54 @@ description: "How to defend against 50-50 Guard to Outside Ashi in BJJ. Recognit
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "50-50 Guard to Outside Ashi (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Heel hook defense when ambushed",
+      "description": "50-50 Guard to Outside Ashi (Defender) film study: Heel hook defense when ambushed, taught by John Danaher.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/AsGMkATAqqw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/AsGMkATAqqw",
+      "url": "https://www.youtube.com/watch?v=AsGMkATAqqw",
+      "creator": { "@type": "Person", "name": "John Danaher" },
+      "duration": "PT53S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Defending heel hooks",
+      "description": "50-50 Guard to Outside Ashi (Defender) film study: Defending heel hooks, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/v3w0qXLKxug/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/v3w0qXLKxug",
+      "url": "https://www.youtube.com/watch?v=v3w0qXLKxug",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT92S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Outside heel hook defense to inside heel hook",
+      "description": "50-50 Guard to Outside Ashi (Defender) film study: Outside heel hook defense to inside heel hook, taught by Holy Grail BJJ coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/clVAHxgRadE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/clVAHxgRadE",
+      "url": "https://www.youtube.com/watch?v=clVAHxgRadE",
+      "creator": { "@type": "Person", "name": "Holy Grail BJJ coach" },
+      "duration": "PT105S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -161,6 +209,42 @@ The key defensive principle is that 50-50 is a position of mutual threat, and yo
 **Opponent's Starting Position**: [[Positions/Ashi Garami/50-50 Guard]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch 50-50 Guard to Outside Ashi (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=AsGMkATAqqw)
+
+<p class="clip-credit"><strong>Heel hook defense when ambushed</strong> — taught by John Danaher · 0:53 · <a href="https://www.youtube.com/watch?v=AsGMkATAqqw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=v3w0qXLKxug)
+
+<p class="clip-credit"><strong>Defending heel hooks</strong> — taught by Lachlan Giles · 1:32 · <a href="https://www.youtube.com/watch?v=v3w0qXLKxug" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=clVAHxgRadE)
+
+<p class="clip-credit"><strong>Outside heel hook defense to inside heel hook</strong> — taught by Holy Grail BJJ coach · 1:45 · <a href="https://www.youtube.com/watch?v=clVAHxgRadE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

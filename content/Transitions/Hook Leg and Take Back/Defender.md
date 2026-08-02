@@ -148,6 +148,54 @@ description: "How to defend against Hook Leg and Take Back in BJJ. Recognition c
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Hook Leg and Take Back (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Turtle defense: sit-out with head on back",
+      "description": "Hook Leg and Take Back (Defender) film study: Turtle defense: sit-out with head on back, taught by Mjolnir Fight Club.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/d312j3n9fIw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/d312j3n9fIw",
+      "url": "https://www.youtube.com/watch?v=d312j3n9fIw",
+      "creator": { "@type": "Person", "name": "Mjolnir Fight Club" },
+      "duration": "PT30S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Three ways to defend the back take",
+      "description": "Hook Leg and Take Back (Defender) film study: Three ways to defend the back take, taught by Roberto \"Cyborg\" Abreu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/OltjLaTW3wQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/OltjLaTW3wQ",
+      "url": "https://www.youtube.com/watch?v=OltjLaTW3wQ",
+      "creator": { "@type": "Person", "name": "Roberto \"Cyborg\" Abreu" },
+      "duration": "PT89S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Sweep from turtle to counter the back take",
+      "description": "Hook Leg and Take Back (Defender) film study: Sweep from turtle to counter the back take, taught by Brian Cusack.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/1yvAZJbc3iY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/1yvAZJbc3iY",
+      "url": "https://www.youtube.com/watch?v=1yvAZJbc3iY",
+      "creator": { "@type": "Person", "name": "Brian Cusack" },
+      "duration": "PT65S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -161,6 +209,42 @@ Strategically, the defender should approach this situation by choosing escape di
 **Opponent's Starting Position**: [[Positions/Buggy Choke]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Hook Leg and Take Back (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=d312j3n9fIw)
+
+<p class="clip-credit"><strong>Turtle defense: sit-out with head on back</strong> — taught by Mjolnir Fight Club · 0:30 · <a href="https://www.youtube.com/watch?v=d312j3n9fIw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=OltjLaTW3wQ)
+
+<p class="clip-credit"><strong>Three ways to defend the back take</strong> — taught by Roberto &#34;Cyborg&#34; Abreu · 1:29 · <a href="https://www.youtube.com/watch?v=OltjLaTW3wQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=1yvAZJbc3iY)
+
+<p class="clip-credit"><strong>Sweep from turtle to counter the back take</strong> — taught by Brian Cusack · 1:05 · <a href="https://www.youtube.com/watch?v=1yvAZJbc3iY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

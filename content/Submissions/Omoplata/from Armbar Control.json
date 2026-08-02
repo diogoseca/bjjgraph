@@ -20,7 +20,10 @@
   "target_area": "Shoulder joint (rotator cuff, capsule, AC joint)",
   "starting_position": "Armbar Control",
   "from_position": "Armbar Control/Top",
-  "success_rate": 52,
+  "success_rate": {
+    "gi": 52,
+    "nogi": 52
+  },
   "overview": "The omoplata from armbar control is one of the highest-percentage chain submissions in Brazilian Jiu-Jitsu, exploiting the most common armbar defense: bending the trapped arm. When an attacker has established armbar control and the defender successfully flexes their elbow to prevent hyperextension, the resulting bent-arm configuration creates an ideal entry angle for the omoplata transition. Rather than fighting against the defender's strongest defensive structure, this technique redirects the attack to the shoulder joint, transforming a successful defense into a new submission threat.\n\nThe transition hinges on timing and leg dexterity. The attacker must recognize the arm bend, maintain wrist control with one hand, and swing their far leg over the opponent's head to establish the omoplata position. The critical phase occurs during the sit-up, where the attacker must explosively rotate from a supine armbar position to a seated omoplata position while maintaining shoulder entanglement. Once seated with far hip control established, the finishing mechanics involve progressive forward pressure that internally rotates the shoulder beyond its safe range of motion.\n\nWhat makes this chain particularly dangerous in competition is the binary dilemma it creates. Keeping the arm straight invites the armbar finish; bending the arm opens the omoplata. Skilled practitioners who master both attacks from armbar control force opponents into a lose-lose decision matrix, dramatically increasing overall finishing rates from this position. The technique rewards practitioners who develop sensitivity to their opponent's defensive reactions and can fluidly shift between attack vectors.",
   "safety_considerations": {
     "injury_risks": [
@@ -110,17 +113,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 52,
+      "probability": {
+        "gi": 52,
+        "nogi": 52
+      },
       "result": "success"
     },
     {
       "to": "Armbar Control/Top",
-      "probability": 31,
+      "probability": {
+        "gi": 31,
+        "nogi": 31
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 17,
+      "probability": {
+        "gi": 17,
+        "nogi": 17
+      },
       "result": "counter"
     }
   ],
@@ -288,52 +300,181 @@
       {
         "question": "What specific defensive reaction triggers the transition from armbar to omoplata?",
         "answer": "The trigger is the opponent bending their trapped elbow past 90 degrees to prevent hyperextension. When you feel strong bicep resistance against your hip bridge and the arm begins curling inward toward the opponent's chest, this indicates they have committed to the bend defense. This bent-arm position creates the exact shoulder angle needed to swing your leg over and establish the omoplata entanglement, transforming their successful armbar defense into a new vulnerability.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Elbow bends past 90 degrees",
+        "distractors": {
+          "plausible": [
+            "Opponent postures straight up",
+            "Opponent turns onto their side"
+          ],
+          "trap": [
+            "Yank the arm straight to finish"
+          ]
+        }
       },
       {
         "question": "What anatomical structure does the omoplata from armbar control primarily attack?",
         "answer": "The omoplata attacks the shoulder joint complex, specifically targeting the rotator cuff muscles, the glenohumeral capsule, and the acromioclavicular joint. The finishing pressure creates forced internal rotation combined with extension of the shoulder, stressing these structures beyond their normal range of motion. The shoulder capsule and rotator cuff tendons bear the primary load, with the labrum at risk of tearing in extreme or rapid applications.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Shoulder joint and rotator cuff",
+        "distractors": {
+          "plausible": [
+            "Elbow hyperextension",
+            "Wrist and forearm bones"
+          ],
+          "trap": [
+            "Neck and cervical spine"
+          ]
+        }
       },
       {
         "question": "Why is maintaining wrist control during the leg swing the most critical technical detail?",
         "answer": "Wrist control during the leg swing prevents the opponent from retracting their arm through the gap created when you open your legs to transition. Without wrist control, the brief moment when your legs separate to swing over their head creates a window for complete arm extraction, resulting in total loss of the submission chain. Maintaining near-hand wrist grip bridges the gap between armbar control and omoplata control, ensuring continuity throughout the transition.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Prevents arm from escaping",
+        "distractors": {
+          "plausible": [
+            "Keeps opponent flat on back",
+            "Controls their far hip early"
+          ],
+          "trap": [
+            "Frees your hand to push off"
+          ]
+        }
       },
       {
         "question": "Your opponent begins forward rolling as you sit up for the omoplata — what is your immediate response?",
         "answer": "Immediately grip their far hip or belt with your inside hand to block the roll before it gains momentum. If they have already initiated rotation, follow them through the roll by maintaining your leg position around their shoulder and scooting your hips to match their movement. As they complete the roll, you can often end up in a mounted omoplata or transition to a sweep, converting their escape attempt into a positional advantage rather than losing the submission entirely.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Grip far hip to block roll",
+        "distractors": {
+          "plausible": [
+            "Release legs and reset guard",
+            "Switch to a straight armbar"
+          ],
+          "trap": [
+            "Let go and chase the roll"
+          ]
+        }
       },
       {
         "question": "What is the point of no return for the defender in this submission?",
         "answer": "The point of no return occurs when the attacker has fully sat up, established tight leg control around the shoulder with knees pinched, and secured a firm grip on the defender's far hip preventing the forward roll. At this stage, the forward roll escape is blocked, arm extraction is impossible due to the leg entanglement, and any remaining defensive movement only accelerates the shoulder rotation toward the finish. The defender should recognize this configuration and tap.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Seated, knees pinched, hip gripped",
+        "distractors": {
+          "plausible": [
+            "Leg swings over their head",
+            "Grip on wrist still secured"
+          ],
+          "trap": [
+            "Any forward lean begins"
+          ]
+        }
       },
       {
         "question": "How should you apply finishing pressure safely during training?",
         "answer": "Apply finishing pressure gradually over a minimum of four to six seconds by slowly leaning your torso forward while maintaining hip contact with the trapped shoulder. Never jerk or spike the shoulder rotation. Watch for your partner's tap signals continuously throughout the application, and release immediately upon any verbal or physical tap. In training, stop short of maximum extension, giving your partner time to assess their shoulder position and tap before the joint reaches its anatomical end range.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Lean slowly, 4-6 seconds",
+        "distractors": {
+          "plausible": [
+            "Apply pressure in sharp pulses",
+            "Hold static with no movement"
+          ],
+          "trap": [
+            "Jerk quickly to finish fast"
+          ]
+        }
       },
       {
         "question": "How does the armbar-omoplata chain create a strategic dilemma for the defender?",
         "answer": "The chain forces a binary decision where both options lead to a submission threat. If the defender keeps their arm straight to deny the omoplata angle, the armbar finish remains available with full extension leverage. If they bend the arm to defend the armbar, they create the shoulder angle needed for the omoplata transition. This dilemma compounds over time as the attacker switches between threats, progressively degrading the defender's ability to commit fully to either defense.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Straight arm=armbar, bent=omoplata",
+        "distractors": {
+          "plausible": [
+            "Bent arm is always the safer choice",
+            "Straight arm blocks both attacks"
+          ],
+          "trap": [
+            "Any arm position stays safe"
+          ]
+        }
       },
       {
         "question": "What grip adjustments are necessary as you transition from armbar position to omoplata position?",
         "answer": "During the armbar phase, both hands control the opponent's wrist with thumbs on the inside. As you initiate the omoplata transition, your far hand releases the wrist to post on the mat for the sit-up while your near hand maintains unilateral wrist control. Once seated, both hands shift to control the opponent's far hip and belt line. This grip migration from wrist-wrist to wrist-post to hip-hip follows the changing control priorities from arm isolation to shoulder rotation finishing mechanics.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Wrist to post to hip control",
+        "distractors": {
+          "plausible": [
+            "Keep both hands on the wrist",
+            "Switch straight to leg grips"
+          ],
+          "trap": [
+            "Release all grips to sit up"
+          ]
+        }
       },
       {
         "question": "What is the correct release protocol after your opponent taps to the omoplata?",
         "answer": "Immediately stop all forward pressure and body rotation upon feeling or hearing the tap. Release your leg pinch around the trapped shoulder by opening your knees outward. Unwind your hip position to neutral, completely removing rotational force from the shoulder joint. Allow your opponent to slowly extract their arm at their own pace without pulling or manipulating the limb. Check for any signs of shoulder injury before resuming training, and give your partner adequate time to assess their mobility.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Stop, open knees, unwind hips",
+        "distractors": {
+          "plausible": [
+            "Release grips but keep rotation",
+            "Pull the arm out for them"
+          ],
+          "trap": [
+            "Keep light pressure after tap"
+          ]
+        }
       },
       {
         "question": "How do you adjust if your leg gets caught on the opponent's head during the swing-over?",
         "answer": "If your leg stalls halfway over their head, use your free hand to push off the mat and create additional hip elevation, giving your leg clearance to complete the arc. Simultaneously, use your posted foot to drive your hips upward and angle them toward the opponent's far side. If the leg remains stuck, grip the back of your own knee with your free hand and manually assist the leg over. Avoid forcing the leg through by kicking, as this risks injuring your partner's face or neck.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Post hand, drive hips up",
+        "distractors": {
+          "plausible": [
+            "Pull opponent's head down",
+            "Switch to a different attack"
+          ],
+          "trap": [
+            "Kick the leg through forcefully"
+          ]
+        }
+      }
+    ],
+    "clips": [
+      {
+        "id": "HtMbIJCiz-4",
+        "title": "Omoplata to armbar transition",
+        "by": "Asbury Park Jiu Jitsu",
+        "vertical": false,
+        "channel": "Asbury Park Jiu Jitsu",
+        "duration": 70,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "hZMbgWNh7MI",
+        "title": "Omoplata to armbar",
+        "by": "Bicudo Maciel",
+        "vertical": false,
+        "channel": "Bicudo BJJ",
+        "duration": 25,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "Q7PbaORwRKo",
+        "title": "Omoplata stretch sweep to armbar",
+        "by": "M-Theory Martial Arts",
+        "vertical": false,
+        "channel": "M-Theory Martial Arts",
+        "duration": 30,
+        "verified": "2026-07-14"
       }
     ]
   },
@@ -415,27 +556,77 @@
       {
         "question": "How do you recognize that the attacker is transitioning from armbar to omoplata?",
         "answer": "The key recognition cues are the attacker's far leg lifting away from your body and beginning to swing over your head, a shift in their hip angle from perpendicular armbar alignment to rotating parallel, and the release of one hand from your wrist while the other maintains control. You will also feel decreased extension pressure on your elbow replaced by a rotational loading sensation on your shoulder as their leg crosses over. Recognizing these cues early gives you the maximum escape window.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Leg lifts and swings over head",
+        "distractors": {
+          "plausible": [
+            "Opponent's hips lift off the mat",
+            "Both hands release your wrist"
+          ],
+          "trap": [
+            "Wait until they fully sit up"
+          ]
+        }
       },
       {
         "question": "When should you tap to the omoplata from armbar control to prevent injury?",
         "answer": "Tap immediately when you feel your shoulder being forced into internal rotation beyond your comfortable range and you cannot execute any remaining escape option. If the attacker has seated position with hip control established and your shoulder is rotating despite your defensive efforts, the mechanical advantage has shifted irreversibly. Tap before you feel sharp pain or a popping sensation — the shoulder joint can suffer permanent damage quickly once the rotational threshold is exceeded. Never hesitate to tap early in training.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Shoulder rotating, escape gone",
+        "distractors": {
+          "plausible": [
+            "The instant your arm is trapped",
+            "Only once you're flat on your back"
+          ],
+          "trap": [
+            "Wait until you hear a pop"
+          ]
+        }
       },
       {
         "question": "What is the most effective defensive option during the transition phase?",
         "answer": "The most effective defense during the transition is the forward roll, executed before the attacker establishes far hip control. As soon as you recognize the leg swinging over your head, tuck your chin, commit your weight forward, and roll over your trapped shoulder. The roll must be initiated before the attacker sits up and grips your hip — once hip control is established, the roll becomes blocked and your best escape window closes. Timing is the decisive factor in this defense.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Forward roll before hip grip",
+        "distractors": {
+          "plausible": [
+            "Posture up and pull arm free",
+            "Turn belly-down immediately"
+          ],
+          "trap": [
+            "Push away and create space"
+          ]
+        }
       },
       {
         "question": "What common defensive mistake most often leads to injury in this position?",
         "answer": "The most dangerous mistake is attempting to explosively posture up or muscle out against a fully locked omoplata with hip control. When the attacker has tight leg control and your shoulder is already loaded under rotational pressure, a sudden forceful postural change can spike the rotational force on the shoulder joint, causing acute injury to the rotator cuff or labrum. Instead, focus on incremental positional improvements or accept the tap if escape options have genuinely closed.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Muscling out of a locked omoplata",
+        "distractors": {
+          "plausible": [
+            "Flattening out to relieve pressure",
+            "Freezing instead of moving early"
+          ],
+          "trap": [
+            "Turning your back to spin free"
+          ]
+        }
       },
       {
         "question": "How should you position your free arm when defending the omoplata transition?",
         "answer": "Your free arm should immediately post on the mat on the far side of your body, creating a structural frame that prevents you from being flattened face-down. This posted arm gives you the base needed to resist the attacker's forward pressure and maintains enough space to attempt a forward roll or turn into the attacker. Never reach backward toward the attacker with your free hand, as this removes your only structural support against the flattening pressure that makes the finish nearly inescapable.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Post arm out on far side",
+        "distractors": {
+          "plausible": [
+            "Grab your own knee for base",
+            "Hook opponent's near leg"
+          ],
+          "trap": [
+            "Reach back to grab attacker"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -453,6 +644,35 @@
         "phase": "Phase 3: Full Defense Under Progressive Resistance",
         "focus": "Integrating all defensive options against live attacks",
         "description": "Start from armbar control bottom against escalating resistance from 50% to 75%. Partner attacks with the full armbar-to-omoplata chain while you apply appropriate defenses — posture recovery, forward roll, turn-in escape — based on the phase of attack. Alternate between partners for 3-minute rounds, building decision-making under genuine submission pressure."
+      }
+    ],
+    "clips": [
+      {
+        "id": "ocIHY3jBYIQ",
+        "title": "Best way to escape the omoplata shoulder lock",
+        "by": "John Connors",
+        "vertical": false,
+        "channel": "John Connors, Old Man BJJ Black Belt",
+        "duration": 62,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "jKdERMTQqPY",
+        "title": "Escape the omoplata when it's locked in",
+        "by": "Matt Arroyo",
+        "vertical": false,
+        "channel": "Matt Arroyo Jiu Jitsu ",
+        "duration": 72,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "xqBK1Y2BdSg",
+        "title": "Submission escape from the omoplata",
+        "by": "Thiago Stefanutti",
+        "vertical": false,
+        "channel": "thiago stefanutti",
+        "duration": 17,
+        "verified": "2026-07-14"
       }
     ]
   }

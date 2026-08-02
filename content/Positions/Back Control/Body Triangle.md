@@ -34,6 +34,43 @@ description: "Master body triangle position in BJJ. Powerful leg control from ba
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Body Triangle \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "How to Properly Use a Body Triangle",
+      "description": "Body Triangle film study: How to Properly Use a Body Triangle, taught by Gordon Ryan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/8JwxpgWGsFU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/8JwxpgWGsFU",
+      "url": "https://www.youtube.com/watch?v=8JwxpgWGsFU",
+      "creator": { "@type": "Person", "name": "Gordon Ryan" },
+      "duration": "PT294S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Body Triangle with Shoulder Lock",
+      "description": "Body Triangle film study: Body Triangle with Shoulder Lock, taught by Demian Maia.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/t85-T9z_evY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/t85-T9z_evY",
+      "url": "https://www.youtube.com/watch?v=t85-T9z_evY",
+      "creator": { "@type": "Person", "name": "Demian Maia" },
+      "duration": "PT195S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -66,6 +103,34 @@ The position is achieved by crossing one leg over the other and tucking it behin
 From this position, you maintain upper body control with your arms while your legs create immobilizing pressure on the lower body. The breathing restriction creates a psychological urgency that often leads opponents to make defensive mistakes, opening up submission opportunities. Elite practitioners use the body triangle as both a controlling position and a finishing platform, with the constant pressure serving as a force multiplier for choke attacks. The position represents a fundamental shift from dynamic hook-based control to static mechanical dominance, offering superior retention rates and submission percentages across all skill levels.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Body Triangle in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=8JwxpgWGsFU)
+
+<p class="clip-credit"><strong>How to Properly Use a Body Triangle</strong> — taught by Gordon Ryan · 4:54 · <a href="https://www.youtube.com/watch?v=8JwxpgWGsFU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=t85-T9z_evY)
+
+<p class="clip-credit"><strong>Body Triangle with Shoulder Lock</strong> — taught by Demian Maia · 3:15 · <a href="https://www.youtube.com/watch?v=t85-T9z_evY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 
@@ -139,21 +204,21 @@ From this position, you maintain upper body control with your arms while your le
 
 - **[[Transitions/Triangle Clear to Side/Attacker|Triangle Clear to Side]]** (28% of attempts)
 
-- **[[Transitions/Hip Escape to Turtle/Attacker|Hip Escape to Turtle]]** (15% of attempts)
+- **[[Transitions/Hip Escape to Turtle/Attacker|Hip Escape to Turtle]]** (8% of attempts)
 
 - **[[Transitions/Body Triangle Escape to Side Control/Attacker|Body Triangle Escape to Side Control]]** (13% of attempts)
 
-- **[[Transitions/Body Triangle Escape to Half Guard/Attacker|Body Triangle Escape to Half Guard]]** (11% of attempts)
+- **[[Transitions/Body Triangle Escape to Half Guard/Attacker|Body Triangle Escape to Half Guard]]** (12% of attempts)
 
-- **[[Transitions/Frame and Shrimp to Guard/Attacker|Frame and Shrimp to Guard]]** (9% of attempts)
+- **[[Transitions/Frame and Shrimp to Guard/Attacker|Frame and Shrimp to Guard]]** (12% of attempts)
 
-- **[[Transitions/Elbow Escape to Remove Hooks/Attacker|Elbow Escape to Remove Hooks]]** (8% of attempts)
+- **[[Transitions/Elbow Escape to Remove Hooks/Attacker|Elbow Escape to Remove Hooks]]** (10% of attempts)
 
 - **[[Transitions/Back Door Escape/Attacker|Back Door Escape]]** (8% of attempts)
 
 - **[[Transitions/Standing up in Base/Attacker|Standing up in Base]]** (5% of attempts)
 
-- **[[Transitions/Rolling Back Take Reversal/Attacker|Rolling Back Take Reversal]]** (3% of attempts)
+- **[[Transitions/Rolling Back Take Reversal/Attacker|Rolling Back Take Reversal]]** (4% of attempts)
 
 
 ### Common Mistakes
@@ -214,25 +279,25 @@ From this position, you maintain upper body control with your arms while your le
 ### Available Transitions
 
 
-- **[[Rear Naked Choke from Body Triangle/Attacker|Rear Naked Choke from Body Triangle]]** (41% of attempts)
+- **[[Rear Naked Choke from Body Triangle/Attacker|Rear Naked Choke from Body Triangle]]** (38% of attempts)
 
-- **[[Transitions/Armbar from Back Transition/Attacker|Armbar from Back Transition]]** (7% of attempts)
+- **[[Transitions/Armbar from Back Transition/Attacker|Armbar from Back Transition]]** (4% of attempts)
 
-- **[[Bow and Arrow Choke from Body Triangle/Attacker|Bow and Arrow Choke from Body Triangle]]** (11% of attempts)
+- **[[Bow and Arrow Choke from Body Triangle/Attacker|Bow and Arrow Choke from Body Triangle]]** (0% of attempts)
 
-- **[[Short Choke from Body Triangle/Attacker|Short Choke from Body Triangle]]** (8% of attempts)
+- **[[Short Choke from Body Triangle/Attacker|Short Choke from Body Triangle]]** (12% of attempts)
 
-- **[[Transitions/Back Control to Crucifix/Attacker|Back Control to Crucifix]]** (6% of attempts)
+- **[[Transitions/Back Control to Crucifix/Attacker|Back Control to Crucifix]]** (2% of attempts)
 
-- **[[Transitions/Back Control Maintenance/Attacker|Back Control Maintenance]]** (13% of attempts)
+- **[[Transitions/Back Control Maintenance/Attacker|Back Control Maintenance]]** (21% of attempts)
 
-- **[[Transitions/Kimura from Back/Attacker|Kimura from Back]]** (4% of attempts)
+- **[[Transitions/Kimura from Back/Attacker|Kimura from Back]]** (5% of attempts)
 
-- **[[Transitions/Roll to Truck/Attacker|Roll to Truck]]** (3% of attempts)
+- **[[Transitions/Roll to Truck/Attacker|Roll to Truck]]** (5% of attempts)
 
-- **[[Cross Collar Choke from Body Triangle/Attacker|Cross Collar Choke from Body Triangle]]** (4% of attempts)
+- **[[Cross Collar Choke from Body Triangle/Attacker|Cross Collar Choke from Body Triangle]]** (0% of attempts)
 
-- **[[Transitions/Body Triangle Squeeze/Attacker|Body Triangle Squeeze]]** (3% of attempts)
+- **[[Transitions/Body Triangle Squeeze/Attacker|Body Triangle Squeeze]]** (13% of attempts)
 
 
 ### Common Mistakes

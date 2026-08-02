@@ -34,6 +34,43 @@ description: "Master guard recovery from Spider Guard to closed guard in BJJ. St
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Guard Recovery from Spider Guard \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Grip chain concept for guard retention and recovery",
+      "description": "Guard Recovery from Spider Guard film study: Grip chain concept for guard retention and recovery, taught by Xande Ribeiro.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/T_GhZe_MOWI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/T_GhZe_MOWI",
+      "url": "https://www.youtube.com/watch?v=T_GhZe_MOWI",
+      "creator": { "@type": "Person", "name": "Xande Ribeiro" },
+      "duration": "PT174S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Late guard recovery trick when the pass is nearly done",
+      "description": "Guard Recovery from Spider Guard film study: Late guard recovery trick when the pass is nearly done, taught by Keenan Cornelius.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/1cKr7xJ-0i8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/1cKr7xJ-0i8",
+      "url": "https://www.youtube.com/watch?v=1cKr7xJ-0i8",
+      "creator": { "@type": "Person", "name": "Keenan Cornelius" },
+      "duration": "PT516S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -65,6 +102,34 @@ Within the spider guard player's defensive hierarchy, this recovery is the highe
 **Success Rate**: 50%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Guard Recovery from Spider Guard in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=T_GhZe_MOWI)
+
+<p class="clip-credit"><strong>Grip chain concept for guard retention and recovery</strong> — taught by Xande Ribeiro · 2:54 · <a href="https://www.youtube.com/watch?v=T_GhZe_MOWI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=1cKr7xJ-0i8)
+
+<p class="clip-credit"><strong>Late guard recovery trick when the pass is nearly done</strong> — taught by Keenan Cornelius · 8:36 · <a href="https://www.youtube.com/watch?v=1cKr7xJ-0i8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

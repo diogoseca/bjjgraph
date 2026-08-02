@@ -148,6 +148,43 @@ description: "How to counter the Forward Roll escape from turtle in BJJ. Recogni
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Forward Roll (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Maintaining back control with hooks",
+      "description": "Forward Roll (Defender) film study: Maintaining back control with hooks, taught by Gracie Charlottesville.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Rlk4mGg7vW4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Rlk4mGg7vW4",
+      "url": "https://www.youtube.com/watch?v=Rlk4mGg7vW4",
+      "creator": { "@type": "Person", "name": "Gracie Charlottesville" },
+      "duration": "PT84S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Why you keep losing the back",
+      "description": "Forward Roll (Defender) film study: Why you keep losing the back, taught by Brandon Mccaghren.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/lpgcKpIgClw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/lpgcKpIgClw",
+      "url": "https://www.youtube.com/watch?v=lpgcKpIgClw",
+      "creator": { "@type": "Person", "name": "Brandon Mccaghren" },
+      "duration": "PT143S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +194,34 @@ As the defender (turtle top player), your goal when the bottom player attempts a
 **Opponent's Starting Position**: [[Positions/Turtle]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Forward Roll (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Rlk4mGg7vW4)
+
+<p class="clip-credit"><strong>Maintaining back control with hooks</strong> — taught by Gracie Charlottesville · 1:24 · <a href="https://www.youtube.com/watch?v=Rlk4mGg7vW4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=lpgcKpIgClw)
+
+<p class="clip-credit"><strong>Why you keep losing the back</strong> — taught by Brandon Mccaghren · 2:23 · <a href="https://www.youtube.com/watch?v=lpgcKpIgClw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

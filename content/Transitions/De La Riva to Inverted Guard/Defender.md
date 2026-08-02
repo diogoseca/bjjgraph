@@ -127,6 +127,43 @@ description: "How to defend the De La Riva to Inverted Guard entry in BJJ. Recog
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "De La Riva to Inverted Guard (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Countering a full inversion",
+      "description": "De La Riva to Inverted Guard (Defender) film study: Countering a full inversion, taught by Gordon Ryan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/aQ2vFXXBn-o/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/aQ2vFXXBn-o",
+      "url": "https://www.youtube.com/watch?v=aQ2vFXXBn-o",
+      "creator": { "@type": "Person", "name": "Gordon Ryan" },
+      "duration": "PT61S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Countering an inversion from top north/south",
+      "description": "De La Riva to Inverted Guard (Defender) film study: Countering an inversion from top north/south, taught by Frankie Roberts.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/3e82Y_MRj_o/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/3e82Y_MRj_o",
+      "url": "https://www.youtube.com/watch?v=3e82Y_MRj_o",
+      "creator": { "@type": "Person", "name": "Frankie Roberts" },
+      "duration": "PT42S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <aside class="entity-relations">
@@ -143,6 +180,34 @@ The defender must understand that this entry is the front door to the berimbolo 
 **Opponent's Starting Position**: [[Positions/De La Riva Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch De La Riva to Inverted Guard (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=aQ2vFXXBn-o)
+
+<p class="clip-credit"><strong>Countering a full inversion</strong> — taught by Gordon Ryan · 1:01 · <a href="https://www.youtube.com/watch?v=aQ2vFXXBn-o" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=3e82Y_MRj_o)
+
+<p class="clip-credit"><strong>Countering an inversion from top north/south</strong> — taught by Frankie Roberts · 0:42 · <a href="https://www.youtube.com/watch?v=3e82Y_MRj_o" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

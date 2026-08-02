@@ -34,6 +34,43 @@ description: "Master the Kimura Sweep in BJJ. Execute from Closed Guard to Mount
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Kimura Sweep \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Kimura from closed guard",
+      "description": "Kimura Sweep film study: Kimura from closed guard, taught by Gracie Charlottesville.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/KAxTmcxGc60/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/KAxTmcxGc60",
+      "url": "https://www.youtube.com/watch?v=KAxTmcxGc60",
+      "creator": { "@type": "Person", "name": "Gracie Charlottesville" },
+      "duration": "PT36S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Closed guard sweep when opponent hugs your head",
+      "description": "Kimura Sweep film study: Closed guard sweep when opponent hugs your head, taught by Jiu Jitsu Five-O.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/xDOjrYFJf5Y/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/xDOjrYFJf5Y",
+      "url": "https://www.youtube.com/watch?v=xDOjrYFJf5Y",
+      "creator": { "@type": "Person", "name": "Jiu Jitsu Five-O" },
+      "duration": "PT70S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -66,9 +103,37 @@ Strategically, the Kimura Sweep creates a dilemma for the opponent: defend the K
 At higher levels, the Kimura Sweep integrates into broader attacking systems where the initial grip threat forces reactions that open pathways to back takes, hip bumps, or direct submission finishes. Understanding when to commit to the sweep versus when to maintain grip pressure for other attacks distinguishes intermediate from advanced practitioners.
 
 **From Position**: [[Positions/Closed Guard]] (Bottom)
-**Success Rate**: 58%
+**Success Rate**: 39%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Kimura Sweep in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=KAxTmcxGc60)
+
+<p class="clip-credit"><strong>Kimura from closed guard</strong> — taught by Gracie Charlottesville · 0:36 · <a href="https://www.youtube.com/watch?v=KAxTmcxGc60" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=xDOjrYFJf5Y)
+
+<p class="clip-credit"><strong>Closed guard sweep when opponent hugs your head</strong> — taught by Jiu Jitsu Five-O · 1:10 · <a href="https://www.youtube.com/watch?v=xDOjrYFJf5Y" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 
@@ -247,7 +312,7 @@ The Kimura Sweep occupies a central position in the Closed Guard attacking syste
 
 - [[Transitions/Back Take from Bottom]] - Follow-up when opponent turns to resist sweep
 
-- [[Transitions/Guillotine Choke]] - Chain attack when opponent postures to escape grip
+- [[Submissions/Guillotine Choke]] - Chain attack when opponent postures to escape grip
 
 - [[Transitions/Scissor Sweep]] - Alternative sweep from similar guard position
 

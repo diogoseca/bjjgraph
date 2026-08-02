@@ -140,6 +140,54 @@ description: "Defend and counter the Collar Sleeve Sweep in BJJ. Recognition cue
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Collar Sleeve Sweep (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Defending the collar sleeve overhead sweep",
+      "description": "Collar Sleeve Sweep (Defender) film study: Defending the collar sleeve overhead sweep, taught by Luciana Marcos.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/wdvJF6S68TI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/wdvJF6S68TI",
+      "url": "https://www.youtube.com/watch?v=wdvJF6S68TI",
+      "creator": { "@type": "Person", "name": "Luciana Marcos" },
+      "duration": "PT68S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Two ways to pass the collar and sleeve",
+      "description": "Collar Sleeve Sweep (Defender) film study: Two ways to pass the collar and sleeve, taught by Carpio Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/N4M0VWhDkMA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/N4M0VWhDkMA",
+      "url": "https://www.youtube.com/watch?v=N4M0VWhDkMA",
+      "creator": { "@type": "Person", "name": "Carpio Jiu Jitsu" },
+      "duration": "PT103S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Passing collar sleeve open guard",
+      "description": "Collar Sleeve Sweep (Defender) film study: Passing collar sleeve open guard, taught by Ultra Jiu Jitsu Academy.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/WJ25wu9Ioks/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/WJ25wu9Ioks",
+      "url": "https://www.youtube.com/watch?v=WJ25wu9Ioks",
+      "creator": { "@type": "Person", "name": "Ultra Jiu Jitsu Academy" },
+      "duration": "PT105S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -149,6 +197,42 @@ As the defender facing the Collar Sleeve Sweep, your primary objective is to mai
 **Opponent's Starting Position**: [[Positions/Collar Sleeve Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Collar Sleeve Sweep (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=wdvJF6S68TI)
+
+<p class="clip-credit"><strong>Defending the collar sleeve overhead sweep</strong> — taught by Luciana Marcos · 1:08 · <a href="https://www.youtube.com/watch?v=wdvJF6S68TI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=N4M0VWhDkMA)
+
+<p class="clip-credit"><strong>Two ways to pass the collar and sleeve</strong> — taught by Carpio Jiu Jitsu · 1:43 · <a href="https://www.youtube.com/watch?v=N4M0VWhDkMA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=WJ25wu9Ioks)
+
+<p class="clip-credit"><strong>Passing collar sleeve open guard</strong> — taught by Ultra Jiu Jitsu Academy · 1:45 · <a href="https://www.youtube.com/watch?v=WJ25wu9Ioks" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

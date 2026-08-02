@@ -140,6 +140,54 @@ description: "Defend against the Ringworm to Spider Guard transition. Learn to r
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Ringworm to Spider Guard (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Throw Pass Against Spider Guard",
+      "description": "Ringworm to Spider Guard (Defender) film study: Throw Pass Against Spider Guard, taught by Ultra Jiu Jitsu Academy.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/jhNqsGmnJX4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/jhNqsGmnJX4",
+      "url": "https://www.youtube.com/watch?v=jhNqsGmnJX4",
+      "creator": { "@type": "Person", "name": "Ultra Jiu Jitsu Academy" },
+      "duration": "PT76S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Correct Feet on Biceps Position and Counters",
+      "description": "Ringworm to Spider Guard (Defender) film study: Correct Feet on Biceps Position and Counters, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Bp0v7c_MrbY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Bp0v7c_MrbY",
+      "url": "https://www.youtube.com/watch?v=Bp0v7c_MrbY",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT125S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Throw By Pass Against Spider Guard",
+      "description": "Ringworm to Spider Guard (Defender) film study: Throw By Pass Against Spider Guard, taught by BJJ4Breakfast.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/8IGX--2XTos/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/8IGX--2XTos",
+      "url": "https://www.youtube.com/watch?v=8IGX--2XTos",
+      "creator": { "@type": "Person", "name": "BJJ4Breakfast" },
+      "duration": "PT149S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -149,6 +197,42 @@ Defending against the Ringworm to Spider Guard transition requires the top playe
 **Opponent's Starting Position**: [[Positions/Ringworm Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Ringworm to Spider Guard (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=jhNqsGmnJX4)
+
+<p class="clip-credit"><strong>Throw Pass Against Spider Guard</strong> — taught by Ultra Jiu Jitsu Academy · 1:16 · <a href="https://www.youtube.com/watch?v=jhNqsGmnJX4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Bp0v7c_MrbY)
+
+<p class="clip-credit"><strong>Correct Feet on Biceps Position and Counters</strong> — taught by Lachlan Giles · 2:05 · <a href="https://www.youtube.com/watch?v=Bp0v7c_MrbY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=8IGX--2XTos)
+
+<p class="clip-credit"><strong>Throw By Pass Against Spider Guard</strong> — taught by BJJ4Breakfast · 2:29 · <a href="https://www.youtube.com/watch?v=8IGX--2XTos" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

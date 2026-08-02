@@ -140,6 +140,43 @@ description: "Counter the turn and extract escape from kneebar control. Learn to
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Turn and Extract from Kneebar (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Kneebar escape",
+      "description": "Turn and Extract from Kneebar (Defender) film study: Kneebar escape, taught by Tom DeBlass.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/SmyTA2P_RZk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/SmyTA2P_RZk",
+      "url": "https://www.youtube.com/watch?v=SmyTA2P_RZk",
+      "creator": { "@type": "Person", "name": "Tom DeBlass" },
+      "duration": "PT142S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Kneebar escape to the back",
+      "description": "Turn and Extract from Kneebar (Defender) film study: Kneebar escape to the back, taught by Johnny Tama.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/tFEIAqITXtg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/tFEIAqITXtg",
+      "url": "https://www.youtube.com/watch?v=tFEIAqITXtg",
+      "creator": { "@type": "Person", "name": "Johnny Tama" },
+      "duration": "PT42S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -149,6 +186,34 @@ When your opponent attempts to turn and extract from your kneebar control, your 
 **Opponent's Starting Position**: [[Positions/Kneebar Control]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Turn and Extract from Kneebar (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=SmyTA2P_RZk)
+
+<p class="clip-credit"><strong>Kneebar escape</strong> — taught by Tom DeBlass · 2:22 · <a href="https://www.youtube.com/watch?v=SmyTA2P_RZk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=tFEIAqITXtg)
+
+<p class="clip-credit"><strong>Kneebar escape to the back</strong> — taught by Johnny Tama · 0:42 · <a href="https://www.youtube.com/watch?v=tFEIAqITXtg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

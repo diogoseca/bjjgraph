@@ -168,6 +168,43 @@ description: "How to execute the Waiter Sweep from Butterfly Guard in BJJ. Step-
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Waiter Sweep (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Waiter sweep from butterfly guard",
+      "description": "Waiter Sweep (Attacker) film study: Waiter sweep from butterfly guard, taught by Monument Jiu-Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/yzCTMZRc-ZY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/yzCTMZRc-ZY",
+      "url": "https://www.youtube.com/watch?v=yzCTMZRc-ZY",
+      "creator": { "@type": "Person", "name": "Monument Jiu-Jitsu" },
+      "duration": "PT99S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Back pocket sweep from butterfly guard",
+      "description": "Waiter Sweep (Attacker) film study: Back pocket sweep from butterfly guard, taught by Animal.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/fCqC2CvOKt0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/fCqC2CvOKt0",
+      "url": "https://www.youtube.com/watch?v=fCqC2CvOKt0",
+      "creator": { "@type": "Person", "name": "Animal" },
+      "duration": "PT51S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -177,6 +214,34 @@ The Waiter Sweep is a fundamental butterfly guard technique that derives its nam
 **From Position**: [[Positions/Butterfly Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Waiter Sweep (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=yzCTMZRc-ZY)
+
+<p class="clip-credit"><strong>Waiter sweep from butterfly guard</strong> — taught by Monument Jiu-Jitsu · 1:39 · <a href="https://www.youtube.com/watch?v=yzCTMZRc-ZY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=fCqC2CvOKt0)
+
+<p class="clip-credit"><strong>Back pocket sweep from butterfly guard</strong> — taught by Animal · 0:51 · <a href="https://www.youtube.com/watch?v=fCqC2CvOKt0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

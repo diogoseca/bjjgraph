@@ -34,6 +34,54 @@ description: "Master Russian Cowboy position in BJJ. Complete guide covering bac
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Russian Cowboy \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Double deep hook submissions from Russian Cowboy",
+      "description": "Russian Cowboy film study: Double deep hook submissions from Russian Cowboy, taught by 10th Planet Rochester.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/kGoEjQMRp3I/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/kGoEjQMRp3I",
+      "url": "https://www.youtube.com/watch?v=kGoEjQMRp3I",
+      "creator": { "@type": "Person", "name": "10th Planet Rochester" },
+      "duration": "PT193S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Truck entries and submissions overview",
+      "description": "Russian Cowboy film study: Truck entries and submissions overview, taught by Energia Martial Arts.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/IY0CbahJG2A/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/IY0CbahJG2A",
+      "url": "https://www.youtube.com/watch?v=IY0CbahJG2A",
+      "creator": { "@type": "Person", "name": "Energia Martial Arts" },
+      "duration": "PT667S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Setting up twister side control",
+      "description": "Russian Cowboy film study: Setting up twister side control, taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/6gZXaEZozto/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/6gZXaEZozto",
+      "url": "https://www.youtube.com/watch?v=6gZXaEZozto",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT92S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -66,6 +114,42 @@ From a tactical perspective, the Russian Cowboy represents a transitional state 
 The Russian Cowboy is particularly effective because it combines elements of back attack systems with leg entanglement control, forcing the opponent to defend multiple threats simultaneously. Unlike pure back control where both hooks are in, or pure truck where both legs are controlled, the Russian Cowboy's asymmetric structure creates unique mechanical advantages that make it difficult for the opponent to distribute their defensive resources effectively. This position requires strong positional awareness and the ability to transition fluidly between related control positions. The single-hook configuration allows for rapid transitions to truck position while maintaining the dominant back control foundation, making it a cornerstone position in modern no-gi grappling systems.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Russian Cowboy in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=kGoEjQMRp3I)
+
+<p class="clip-credit"><strong>Double deep hook submissions from Russian Cowboy</strong> — taught by 10th Planet Rochester · 3:13 · <a href="https://www.youtube.com/watch?v=kGoEjQMRp3I" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=IY0CbahJG2A)
+
+<p class="clip-credit"><strong>Truck entries and submissions overview</strong> — taught by Energia Martial Arts · 11:07 · <a href="https://www.youtube.com/watch?v=IY0CbahJG2A" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=6gZXaEZozto)
+
+<p class="clip-credit"><strong>Setting up twister side control</strong> — taught by Eddie Bravo · 1:32 · <a href="https://www.youtube.com/watch?v=6gZXaEZozto" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 
@@ -137,23 +221,21 @@ The Russian Cowboy is particularly effective because it combines elements of bac
 ### Available Transitions
 
 
-- **[[Transitions/Granby Roll to Guard/Attacker|Granby Roll to Guard]]** (13% of attempts)
+- **[[Transitions/Granby Roll to Guard/Attacker|Granby Roll to Guard]]** (16% of attempts)
 
 - **[[Transitions/Technical Stand-up/Attacker|Technical Stand-up]]** (11% of attempts)
 
 - **[[Transitions/Hip Escape to Guard/Attacker|Hip Escape to Guard]]** (14% of attempts)
 
-- **[[Transitions/Rolling Back Take/Attacker|Rolling Back Take]]** (11% of attempts)
+- **[[Transitions/Arm Extraction to Turtle/Attacker|Arm Extraction to Turtle]]** (12% of attempts)
 
-- **[[Transitions/Arm Extraction to Turtle/Attacker|Arm Extraction to Turtle]]** (32% of attempts)
+- **[[Transitions/Arm Recovery to Guard/Attacker|Arm Recovery to Guard]]** (16% of attempts)
 
-- **[[Transitions/Arm Recovery to Guard/Attacker|Arm Recovery to Guard]]** (11% of attempts)
+- **[[Transitions/Hip Escape from Russian Cowboy/Attacker|Hip Escape from Russian Cowboy]]** (13% of attempts)
 
-- **[[Transitions/Hip Escape from Russian Cowboy/Attacker|Hip Escape from Russian Cowboy]]** (5% of attempts)
+- **[[Transitions/Roll Escape from Russian Cowboy/Attacker|Roll Escape from Russian Cowboy]]** (10% of attempts)
 
-- **[[Transitions/Roll Escape from Russian Cowboy/Attacker|Roll Escape from Russian Cowboy]]** (2% of attempts)
-
-- **[[Transitions/Escape from Russian Cowboy/Attacker|Escape from Russian Cowboy]]** (1% of attempts)
+- **[[Transitions/Escape from Russian Cowboy/Attacker|Escape from Russian Cowboy]]** (8% of attempts)
 
 
 ### Common Mistakes
@@ -210,23 +292,23 @@ The Russian Cowboy is particularly effective because it combines elements of bac
 ### Available Transitions
 
 
-- **[[Transitions/Truck Entry/Attacker|Truck Entry]]** (13% of attempts)
+- **[[Transitions/Truck Entry/Attacker|Truck Entry]]** (16% of attempts)
 
-- **[[Twister from Russian Cowboy/Attacker|Twister from Russian Cowboy]]** (10% of attempts)
+- **[[Twister from Russian Cowboy/Attacker|Twister from Russian Cowboy]]** (11% of attempts)
 
-- **[[Transitions/Back Control to Crucifix/Attacker|Back Control to Crucifix]]** (12% of attempts)
+- **[[Transitions/Back Control to Crucifix/Attacker|Back Control to Crucifix]]** (9% of attempts)
 
-- **[[Rear Naked Choke from Russian Cowboy/Attacker|Rear Naked Choke from Russian Cowboy]]** (13% of attempts)
+- **[[Rear Naked Choke from Russian Cowboy/Attacker|Rear Naked Choke from Russian Cowboy]]** (18% of attempts)
 
-- **[[Calf Slicer from Russian Cowboy/Attacker|Calf Slicer from Russian Cowboy]]** (10% of attempts)
+- **[[Calf Slicer from Russian Cowboy/Attacker|Calf Slicer from Russian Cowboy]]** (8% of attempts)
 
-- **[[Bow and Arrow Choke from Russian Cowboy/Attacker|Bow and Arrow Choke from Russian Cowboy]]** (10% of attempts)
+- **[[Bow and Arrow Choke from Russian Cowboy/Attacker|Bow and Arrow Choke from Russian Cowboy]]** (0% of attempts)
 
-- **[[Transitions/Turtle to Back Take/Attacker|Turtle to Back Take]]** (16% of attempts)
+- **[[Transitions/Turtle to Back Take/Attacker|Turtle to Back Take]]** (12% of attempts)
 
-- **[[Transitions/Armbar from Back Transition/Attacker|Armbar from Back Transition]]** (11% of attempts)
+- **[[Transitions/Armbar from Back Transition/Attacker|Armbar from Back Transition]]** (6% of attempts)
 
-- **[[Transitions/Russian Cowboy to Back Control/Attacker|Russian Cowboy to Back Control]]** (5% of attempts)
+- **[[Transitions/Russian Cowboy to Back Control/Attacker|Russian Cowboy to Back Control]]** (20% of attempts)
 
 
 ### Common Mistakes

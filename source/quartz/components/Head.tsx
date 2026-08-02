@@ -96,9 +96,6 @@ export default (() => {
         {canonicalUrl && <link rel="canonical" href={canonicalUrl} />}
         <link rel="icon" href={iconPath} />
         <meta name="description" content={description} />
-        {fileData.frontmatter?.noindex === true && (
-          <meta name="robots" content="noindex, nofollow" />
-        )}
         <meta name="generator" content="Quartz" />
         <script
           type="application/ld+json"

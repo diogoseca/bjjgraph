@@ -150,6 +150,54 @@ description: "Defend against the Kimura from Twister Side Control. Recognition c
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Kimura from Twister Side Control (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Spinning back door escape from side control",
+      "description": "Kimura from Twister Side Control (Defender) film study: Spinning back door escape from side control, taught by Science of JiuJitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/gawKiLxmZbc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/gawKiLxmZbc",
+      "url": "https://www.youtube.com/watch?v=gawKiLxmZbc",
+      "creator": { "@type": "Person", "name": "Science of JiuJitsu" },
+      "duration": "PT48S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Escaping reverse kesa or twister side control",
+      "description": "Kimura from Twister Side Control (Defender) film study: Escaping reverse kesa or twister side control, taught by Chosen Few BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/gL-eAA7EsSU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/gL-eAA7EsSU",
+      "url": "https://www.youtube.com/watch?v=gL-eAA7EsSU",
+      "creator": { "@type": "Person", "name": "Chosen Few BJJ" },
+      "duration": "PT199S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "North-south kimura defense",
+      "description": "Kimura from Twister Side Control (Defender) film study: North-south kimura defense, taught by Stephen Whittier.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/LdHCMIMM380/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/LdHCMIMM380",
+      "url": "https://www.youtube.com/watch?v=LdHCMIMM380",
+      "creator": { "@type": "Person", "name": "Stephen Whittier" },
+      "duration": "PT195S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -160,6 +208,42 @@ Defending the Kimura from Twister Side Control requires early recognition that t
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Kimura from Twister Side Control (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=gawKiLxmZbc)
+
+<p class="clip-credit"><strong>Spinning back door escape from side control</strong> — taught by Science of JiuJitsu · 0:48 · <a href="https://www.youtube.com/watch?v=gawKiLxmZbc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=gL-eAA7EsSU)
+
+<p class="clip-credit"><strong>Escaping reverse kesa or twister side control</strong> — taught by Chosen Few BJJ · 3:19 · <a href="https://www.youtube.com/watch?v=gL-eAA7EsSU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=LdHCMIMM380)
+
+<p class="clip-credit"><strong>North-south kimura defense</strong> — taught by Stephen Whittier · 3:15 · <a href="https://www.youtube.com/watch?v=LdHCMIMM380" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

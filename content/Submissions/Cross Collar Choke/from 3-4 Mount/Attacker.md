@@ -176,6 +176,54 @@ description: "Learn to execute the cross collar choke from 3-4 mount. Detailed g
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Cross Collar Choke from 3-4 Mount (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Cross Collar Chokes",
+      "description": "Cross Collar Choke from 3-4 Mount (Attacker) film study: Cross Collar Chokes, taught by Roger Gracie.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/dfP-Ov8FBUo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/dfP-Ov8FBUo",
+      "url": "https://www.youtube.com/watch?v=dfP-Ov8FBUo",
+      "creator": { "@type": "Person", "name": "Roger Gracie" },
+      "duration": "PT80S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Palm-Up Palm-Up Cross Choke",
+      "description": "Cross Collar Choke from 3-4 Mount (Attacker) film study: Palm-Up Palm-Up Cross Choke, taught by Avant-Garde BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/DrAxA8KUxbo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/DrAxA8KUxbo",
+      "url": "https://www.youtube.com/watch?v=DrAxA8KUxbo",
+      "creator": { "@type": "Person", "name": "Avant-Garde BJJ" },
+      "duration": "PT61S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Roger Gracie Cross Choke",
+      "description": "Cross Collar Choke from 3-4 Mount (Attacker) film study: Roger Gracie Cross Choke, taught by Roger Gracie.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/zSSw_fUcNxU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/zSSw_fUcNxU",
+      "url": "https://www.youtube.com/watch?v=zSSw_fUcNxU",
+      "creator": { "@type": "Person", "name": "Roger Gracie" },
+      "duration": "PT134S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -186,6 +234,42 @@ Attacking with the cross collar choke from 3-4 mount requires systematic grip in
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Cross Collar Choke from 3-4 Mount (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=dfP-Ov8FBUo)
+
+<p class="clip-credit"><strong>Cross Collar Chokes</strong> — taught by Roger Gracie · 1:20 · <a href="https://www.youtube.com/watch?v=dfP-Ov8FBUo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=DrAxA8KUxbo)
+
+<p class="clip-credit"><strong>Palm-Up Palm-Up Cross Choke</strong> — taught by Avant-Garde BJJ · 1:01 · <a href="https://www.youtube.com/watch?v=DrAxA8KUxbo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=zSSw_fUcNxU)
+
+<p class="clip-credit"><strong>Roger Gracie Cross Choke</strong> — taught by Roger Gracie · 2:14 · <a href="https://www.youtube.com/watch?v=zSSw_fUcNxU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

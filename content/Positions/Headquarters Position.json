@@ -106,31 +106,52 @@
     "transitions": [
       {
         "transition": "Knee Cut from Headquarters",
-        "attempt_probability": 28
+        "attempt_probability": {
+          "gi": 28,
+          "nogi": 22
+        }
       },
       {
         "transition": "Toreando from Headquarters",
-        "attempt_probability": 18
+        "attempt_probability": {
+          "gi": 16,
+          "nogi": 14
+        }
       },
       {
         "transition": "Leg Drag from Headquarters",
-        "attempt_probability": 17
+        "attempt_probability": {
+          "gi": 17,
+          "nogi": 18
+        }
       },
       {
         "transition": "Back Step Pass",
-        "attempt_probability": 12
+        "attempt_probability": {
+          "gi": 9,
+          "nogi": 9
+        }
       },
       {
         "transition": "Body Lock Pass",
-        "attempt_probability": 10
+        "attempt_probability": {
+          "gi": 11,
+          "nogi": 12
+        }
       },
       {
         "transition": "Headquarters Pass",
-        "attempt_probability": 10
+        "attempt_probability": {
+          "gi": 12,
+          "nogi": 12
+        }
       },
       {
         "transition": "Saddle Entry from Top",
-        "attempt_probability": 5
+        "attempt_probability": {
+          "gi": 7,
+          "nogi": 13
+        }
       }
     ],
     "decision_tree": [
@@ -304,35 +325,144 @@
     "flashcards": [
       {
         "question": "What are the essential grips and contact points for maintaining headquarters position?",
-        "answer": "The control hand grips the opponent's knee, thigh, or pants at the knee line to manage leg position, while the opposite hand controls the lapel, collar, or establishes an underhook to prevent frames. The trapped leg is pinned between your legs with knee driven toward the mat using shin or knee pressure. The posting leg is planted wide at 45-90 degrees from the controlled leg, creating a triangular base. These four contact points work together to restrict hip mobility and prevent guard recovery."
+        "answer": "The control hand grips the opponent's knee, thigh, or pants at the knee line to manage leg position, while the opposite hand controls the lapel, collar, or establishes an underhook to prevent frames. The trapped leg is pinned between your legs with knee driven toward the mat using shin or knee pressure. The posting leg is planted wide at 45-90 degrees from the controlled leg, creating a triangular base. These four contact points work together to restrict hip mobility and prevent guard recovery.",
+        "answer_line": "Knee control, lapel grip, wide post",
+        "distractors": {
+          "plausible": [
+            "Crossface and underhook only",
+            "Both hands on the collar"
+          ],
+          "trap": [
+            "Let go of leg for double grips"
+          ]
+        }
       },
       {
         "question": "How should you distribute your weight to maintain headquarters against an active opponent?",
-        "answer": "Weight should be distributed primarily through the hips and the posting leg rather than through the hands or arms. Maintain an upright posture with spine vertical and perpendicular to the mat, keeping shoulders directly over hips. Avoid leaning forward, as this shifts weight onto the hands and creates vulnerability to forward rolls and granby escapes. The downward pressure on the trapped leg comes from hip engagement rather than upper body weight, allowing the hands to remain free for grip adjustments and frame neutralization."
+        "answer": "Weight should be distributed primarily through the hips and the posting leg rather than through the hands or arms. Maintain an upright posture with spine vertical and perpendicular to the mat, keeping shoulders directly over hips. Avoid leaning forward, as this shifts weight onto the hands and creates vulnerability to forward rolls and granby escapes. The downward pressure on the trapped leg comes from hip engagement rather than upper body weight, allowing the hands to remain free for grip adjustments and frame neutralization.",
+        "answer_line": "Weight through hips, stay upright",
+        "distractors": {
+          "plausible": [
+            "Weight on hands, lean forward",
+            "Weight on the trapped knee"
+          ],
+          "trap": [
+            "Drive weight forward onto chest"
+          ]
+        }
       },
       {
         "question": "Your opponent starts hip escaping aggressively toward the side of their trapped leg - what adjustment do you make?",
-        "answer": "Follow the hip escape by adjusting your posting leg position to maintain the triangular base relative to their new hip angle. Increase downward pressure on the trapped knee to limit further hip movement, and use the control hand to push their near-side knee back toward the mat. This reaction naturally loads the knee cut pass, so if the hip escape continues, transition directly into the knee cut by driving the knee through the gap their movement created. The key is matching their lateral movement with your base adjustments rather than trying to hold a static position."
+        "answer": "Follow the hip escape by adjusting your posting leg position to maintain the triangular base relative to their new hip angle. Increase downward pressure on the trapped knee to limit further hip movement, and use the control hand to push their near-side knee back toward the mat. This reaction naturally loads the knee cut pass, so if the hip escape continues, transition directly into the knee cut by driving the knee through the gap their movement created. The key is matching their lateral movement with your base adjustments rather than trying to hold a static position.",
+        "answer_line": "Follow hips, load the knee cut",
+        "distractors": {
+          "plausible": [
+            "Hold static base and wait",
+            "Switch to toreando pass"
+          ],
+          "trap": [
+            "Release the trapped leg to chase"
+          ]
+        }
       },
       {
         "question": "What are the base fundamentals that prevent sweeps from headquarters, and what is the most common base error?",
-        "answer": "The triangulated base structure with the posting leg wide and perpendicular to the opponent's body creates stability against both lateral and forward-backward sweeps. The most common error is positioning the posting leg too close to the opponent's body, which narrows the base and makes the passer vulnerable to being pushed or pulled off balance. The posting foot should be angled outward with weight on the ball of the foot, allowing rapid directional adjustment. When the base is correct, the opponent cannot generate sufficient leverage to off-balance the passer regardless of sweep direction."
+        "answer": "The triangulated base structure with the posting leg wide and perpendicular to the opponent's body creates stability against both lateral and forward-backward sweeps. The most common error is positioning the posting leg too close to the opponent's body, which narrows the base and makes the passer vulnerable to being pushed or pulled off balance. The posting foot should be angled outward with weight on the ball of the foot, allowing rapid directional adjustment. When the base is correct, the opponent cannot generate sufficient leverage to off-balance the passer regardless of sweep direction.",
+        "answer_line": "Post leg wide, angled outward",
+        "distractors": {
+          "plausible": [
+            "Post leg close for stability",
+            "Post leg parallel to opponent"
+          ],
+          "trap": [
+            "Narrow base for quick passing"
+          ]
+        }
       },
       {
         "question": "Your opponent establishes a strong knee shield and begins framing on your shoulder - how do you shut this down?",
-        "answer": "Address the knee shield first by angling your hips to compress their knee toward the mat rather than fighting the frame directly. Use the control hand to grip below their knee shield and apply inward pressure while maintaining downward weight on the trapped leg. Strip the shoulder frame by swimming your elbow inside their wrist and pinning it to their body or by changing levels to slip underneath the frame. If the knee shield remains strong, transition to a smash pass by collapsing your weight laterally across their knee shield, using their own defensive structure against them by turning it into a passing lane."
+        "answer": "Address the knee shield first by angling your hips to compress their knee toward the mat rather than fighting the frame directly. Use the control hand to grip below their knee shield and apply inward pressure while maintaining downward weight on the trapped leg. Strip the shoulder frame by swimming your elbow inside their wrist and pinning it to their body or by changing levels to slip underneath the frame. If the knee shield remains strong, transition to a smash pass by collapsing your weight laterally across their knee shield, using their own defensive structure against them by turning it into a passing lane.",
+        "answer_line": "Compress knee shield, swim the frame",
+        "distractors": {
+          "plausible": [
+            "Pull the frame off directly",
+            "Push through the knee shield"
+          ],
+          "trap": [
+            "Fight the frame head-on with arms"
+          ]
+        }
       },
       {
         "question": "How should you apply pressure from headquarters without overcommitting in any single direction?",
-        "answer": "Maintain constant forward pressure through hip engagement and downward leg control while keeping your center of gravity centered over your base. Use micro-adjustments rather than large movements - small shifts in hip angle, subtle grip changes, and incremental weight transfers that probe defensive reactions without exposing you to counters. Threaten multiple passing directions simultaneously by staying in a neutral headquarters alignment between passes. The pressure should feel like a slow grind that methodically eliminates defensive options rather than explosive bursts that risk losing position."
+        "answer": "Maintain constant forward pressure through hip engagement and downward leg control while keeping your center of gravity centered over your base. Use micro-adjustments rather than large movements - small shifts in hip angle, subtle grip changes, and incremental weight transfers that probe defensive reactions without exposing you to counters. Threaten multiple passing directions simultaneously by staying in a neutral headquarters alignment between passes. The pressure should feel like a slow grind that methodically eliminates defensive options rather than explosive bursts that risk losing position.",
+        "answer_line": "Micro-adjustments, threaten options",
+        "distractors": {
+          "plausible": [
+            "Big explosive bursts to pass",
+            "Death-grip and drive forward"
+          ],
+          "trap": [
+            "Commit fully to one direction"
+          ]
+        }
       },
       {
         "question": "Your opponent partially recovers guard by getting their free foot on your hip while you still control one leg - how do you recover full headquarters?",
-        "answer": "Do not release the controlled leg. Use your free hand to grip the foot on your hip at the ankle or heel and push it to the mat or past your hip line. Simultaneously increase downward pressure on the trapped leg to prevent the opponent from combining the foot-on-hip frame with a hip escape. Once the foot is cleared, immediately re-establish your posting base and upper body control grips before the opponent can create another frame. If the foot is too strong to clear directly, step your posting leg back slightly to change the angle, which often breaks the foot placement by changing the distance relationship."
+        "answer": "Do not release the controlled leg. Use your free hand to grip the foot on your hip at the ankle or heel and push it to the mat or past your hip line. Simultaneously increase downward pressure on the trapped leg to prevent the opponent from combining the foot-on-hip frame with a hip escape. Once the foot is cleared, immediately re-establish your posting base and upper body control grips before the opponent can create another frame. If the foot is too strong to clear directly, step your posting leg back slightly to change the angle, which often breaks the foot placement by changing the distance relationship.",
+        "answer_line": "Pin the free foot, don't release leg",
+        "distractors": {
+          "plausible": [
+            "Release leg to reset position",
+            "Grab the foot at the toes"
+          ],
+          "trap": [
+            "Let go of the trapped leg entirely"
+          ]
+        }
       },
       {
         "question": "How do you manage energy expenditure from headquarters during a long match or multiple consecutive guard passing attempts?",
-        "answer": "Headquarters is designed as a low-energy control position because the structure does the work rather than muscular effort. Maintain position through skeletal alignment and gravity-based pressure rather than gripping strength or pushing force. Between passing attempts, return to a neutral headquarters stance and allow your grips to reset rather than maintaining death grips continuously. Use the opponent's reactions to dictate your passing choices rather than forcing techniques against resistance, which conserves energy while exhausting the bottom player who must continuously create defensive structures."
+        "answer": "Headquarters is designed as a low-energy control position because the structure does the work rather than muscular effort. Maintain position through skeletal alignment and gravity-based pressure rather than gripping strength or pushing force. Between passing attempts, return to a neutral headquarters stance and allow your grips to reset rather than maintaining death grips continuously. Use the opponent's reactions to dictate your passing choices rather than forcing techniques against resistance, which conserves energy while exhausting the bottom player who must continuously create defensive structures.",
+        "answer_line": "Structure over strength, reset grips",
+        "distractors": {
+          "plausible": [
+            "Grip hard and hold constantly",
+            "Push through with upper body"
+          ],
+          "trap": [
+            "Death-grip continuously to hold"
+          ]
+        }
+      }
+    ],
+    "clips": [
+      {
+        "id": "EFEgiEekLNY",
+        "title": "Knee Cut Pass With Underhook",
+        "by": "Jiu Jitsu Curriculum",
+        "vertical": false,
+        "channel": "Jiu Jitsu Curriculum",
+        "duration": 62,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "IUvwQc_Y6RA",
+        "title": "Headquarters to Knee-Cut When Long Step Fails",
+        "by": "Tony Casarez",
+        "vertical": false,
+        "channel": "Tony Casarez",
+        "duration": 109,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "k4pZYVOwmbI",
+        "title": "Knee Shield Pass From Headquarters",
+        "by": "Jiu Jitsu Curriculum",
+        "vertical": false,
+        "channel": "Jiu Jitsu Curriculum",
+        "duration": 117,
+        "verified": "2026-07-14"
       }
     ]
   },
@@ -382,19 +512,31 @@
     "transitions": [
       {
         "transition": "Re-Guard from Headquarters",
-        "attempt_probability": 30
+        "attempt_probability": {
+          "gi": 37,
+          "nogi": 39
+        }
       },
       {
         "transition": "Sweep from Headquarters",
-        "attempt_probability": 25
+        "attempt_probability": {
+          "gi": 18,
+          "nogi": 18
+        }
       },
       {
         "transition": "Inversion from Headquarters",
-        "attempt_probability": 25
+        "attempt_probability": {
+          "gi": 22,
+          "nogi": 19
+        }
       },
       {
         "transition": "Shin-to-Shin from Headquarters",
-        "attempt_probability": 20
+        "attempt_probability": {
+          "gi": 23,
+          "nogi": 24
+        }
       }
     ],
     "decision_tree": [
@@ -564,36 +706,279 @@
     "flashcards": [
       {
         "question": "As the bottom player, what is your single highest priority the moment you find yourself trapped in headquarters?",
-        "answer": "Your highest priority is preventing the passer from establishing crossface and upper body control, because once your head and shoulders are pinned your hip mobility collapses and every recovery and sweep becomes mechanically impossible. Immediately fight for a frame on the near shoulder and hip, fight to get onto your side rather than flat, and contest the underhook on the trapped-leg side. Buying that one to three second window before consolidation is what keeps re-guard, sweep, and inversion alive as options."
+        "answer": "Your highest priority is preventing the passer from establishing crossface and upper body control, because once your head and shoulders are pinned your hip mobility collapses and every recovery and sweep becomes mechanically impossible. Immediately fight for a frame on the near shoulder and hip, fight to get onto your side rather than flat, and contest the underhook on the trapped-leg side. Buying that one to three second window before consolidation is what keeps re-guard, sweep, and inversion alive as options.",
+        "answer_line": "Deny the crossface and underhook",
+        "distractors": {
+          "plausible": [
+            "Push on their hips first",
+            "Try to shrimp immediately"
+          ],
+          "trap": [
+            "Stay flat and wait for opening"
+          ]
+        }
       },
       {
         "question": "Why does staying flat on your back doom your defense from headquarters bottom, and what should you do instead?",
-        "answer": "Lying flat eliminates the hip rotation that powers shrimping, knee insertion, hooks, and sweeps, while also giving the passer maximum surface area to settle their weight and crossface. Instead, turn onto the side of your free leg so your hips can rotate through a full range, keep your elbows tight to your ribs for structural frames, and use the side position to create angle. Hip mobility is the engine of the entire bottom game, and it only exists when you are on your side rather than supine."
+        "answer": "Lying flat eliminates the hip rotation that powers shrimping, knee insertion, hooks, and sweeps, while also giving the passer maximum surface area to settle their weight and crossface. Instead, turn onto the side of your free leg so your hips can rotate through a full range, keep your elbows tight to your ribs for structural frames, and use the side position to create angle. Hip mobility is the engine of the entire bottom game, and it only exists when you are on your side rather than supine.",
+        "answer_line": "Turn to your side, hips rotate",
+        "distractors": {
+          "plausible": [
+            "Stay flat, push with legs",
+            "Turn toward the trapped leg"
+          ],
+          "trap": [
+            "Bridge straight up into them"
+          ]
+        }
       },
       {
         "question": "What grips and frames should you prioritize to create the space needed to escape headquarters?",
-        "answer": "Prioritize stiff-arm structural frames over grips first - a forearm frame on the passer's near hip and a second frame on the shoulder or biceps create distance without burning grip strength. Once space exists, add a near-side wrist or sleeve grip to stop the passer from posting and a far-side collar grip to block their forward drive. Avoid death-gripping early, which drains energy and telegraphs intent; frames build the space, grips refine the control after the space is created."
+        "answer": "Prioritize stiff-arm structural frames over grips first - a forearm frame on the passer's near hip and a second frame on the shoulder or biceps create distance without burning grip strength. Once space exists, add a near-side wrist or sleeve grip to stop the passer from posting and a far-side collar grip to block their forward drive. Avoid death-gripping early, which drains energy and telegraphs intent; frames build the space, grips refine the control after the space is created.",
+        "answer_line": "Frame first, then add grips",
+        "distractors": {
+          "plausible": [
+            "Grip collar and sleeve first",
+            "Push with both hands flat"
+          ],
+          "trap": [
+            "Death-grip early to control them"
+          ]
+        }
       },
       {
         "question": "Your opponent commits their weight forward to start a knee cut - how do you exploit that weight shift?",
-        "answer": "A forward weight commitment is exactly the directional vulnerability the sweep game targets. Insert your free-leg butterfly hook or shin-to-shin contact, secure your underhook or collar grip as the anchor, and time an explosive hip bridge that redirects their committed weight diagonally across their base toward the gap between their posting leg and trapped leg. Their own momentum, rather than your raw strength, carries them over, converting their pass attempt into your sweep to top position."
+        "answer": "A forward weight commitment is exactly the directional vulnerability the sweep game targets. Insert your free-leg butterfly hook or shin-to-shin contact, secure your underhook or collar grip as the anchor, and time an explosive hip bridge that redirects their committed weight diagonally across their base toward the gap between their posting leg and trapped leg. Their own momentum, rather than your raw strength, carries them over, converting their pass attempt into your sweep to top position.",
+        "answer_line": "Hook in, bridge into their weight",
+        "distractors": {
+          "plausible": [
+            "Push them back upright first",
+            "Pull guard and reset"
+          ],
+          "trap": [
+            "Post your free leg and stall"
+          ]
+        }
       },
       {
         "question": "When should you abandon trying to sweep or re-guard from headquarters and instead retreat to a structured fallback position?",
-        "answer": "Abandon active reversal attempts when the passer has secured a deep crossface and underhook, when you have burned two or three recovery attempts without creating space, or when your energy is depleting faster than theirs. At that decision point, accepting a structured fallback - deep half guard, knee shield half guard, or even a technical standup back to neutral - preserves fight sustainability rather than exhausting yourself in a lost position. A defensible structured position beats a flattened scramble against the mat."
+        "answer": "Abandon active reversal attempts when the passer has secured a deep crossface and underhook, when you have burned two or three recovery attempts without creating space, or when your energy is depleting faster than theirs. At that decision point, accepting a structured fallback - deep half guard, knee shield half guard, or even a technical standup back to neutral - preserves fight sustainability rather than exhausting yourself in a lost position. A defensible structured position beats a flattened scramble against the mat.",
+        "answer_line": "Fall back to half guard, don't grind",
+        "distractors": {
+          "plausible": [
+            "Keep fighting until fully passed",
+            "Bridge explosively no matter what"
+          ],
+          "trap": [
+            "Grind indefinitely, never bail"
+          ]
+        }
       },
       {
         "question": "How do you read which direction to escape when the passer controls one of your legs in headquarters?",
-        "answer": "Work toward the side of your free, uncontrolled leg, because that leg has the freedom to recover first and the angle naturally facilitates knee insertion, hooks, and shin contact. If the passer traps your right leg, shrimp and turn to your left, recovering the left knee and inserting the left-side hook first; the trapped leg becomes the far-side leg in your recovery sequence. If the passer switches which leg they control, immediately change your escape direction to match - never work toward the controlled side, which only compounds their control."
+        "answer": "Work toward the side of your free, uncontrolled leg, because that leg has the freedom to recover first and the angle naturally facilitates knee insertion, hooks, and shin contact. If the passer traps your right leg, shrimp and turn to your left, recovering the left knee and inserting the left-side hook first; the trapped leg becomes the far-side leg in your recovery sequence. If the passer switches which leg they control, immediately change your escape direction to match - never work toward the controlled side, which only compounds their control.",
+        "answer_line": "Escape toward your free leg",
+        "distractors": {
+          "plausible": [
+            "Escape toward the trapped leg",
+            "Escape straight backward"
+          ],
+          "trap": [
+            "Push into the controlled side"
+          ]
+        }
       },
       {
         "question": "How should you manage your energy from the bottom of headquarters so you do not gas out before recovering?",
-        "answer": "Spend energy on structure and timing rather than continuous muscular struggle. Hold frames with skeletal alignment - elbows stacked, arms acting as poles - so your bones do the work instead of your muscles, and release grips between attempts to let your forearms recover. Pick your moments: launch sweeps and recoveries only during the passer's weight transitions when their base is committed, rather than grinding against a settled base. Chaining a few well-timed efforts conserves far more energy than constant low-percentage thrashing."
+        "answer": "Spend energy on structure and timing rather than continuous muscular struggle. Hold frames with skeletal alignment - elbows stacked, arms acting as poles - so your bones do the work instead of your muscles, and release grips between attempts to let your forearms recover. Pick your moments: launch sweeps and recoveries only during the passer's weight transitions when their base is committed, rather than grinding against a settled base. Chaining a few well-timed efforts conserves far more energy than constant low-percentage thrashing.",
+        "answer_line": "Skeletal frames, time weight shifts",
+        "distractors": {
+          "plausible": [
+            "Muscle through with strength",
+            "Constant grip pressure always"
+          ],
+          "trap": [
+            "Thrash constantly to find gaps"
+          ]
+        }
       },
       {
         "question": "Your knee insertion gets blocked and the passer begins consolidating toward side control - what is your emergency recovery?",
-        "answer": "Switch immediately from knee recovery to a hip escape that turns you toward the passer rather than away, never exposing your back. If side control consolidation is imminent, hook the passer's near leg with your free-side leg to catch quarter guard or half guard while keeping both arm frames active against the crossface. From half guard you retain underhook, knee shield, and dogfight options with far more upside than a fully passed pin. The key is recognizing the lost recovery early and accepting the best structured fallback rather than fighting for a position that is already gone."
+        "answer": "Switch immediately from knee recovery to a hip escape that turns you toward the passer rather than away, never exposing your back. If side control consolidation is imminent, hook the passer's near leg with your free-side leg to catch quarter guard or half guard while keeping both arm frames active against the crossface. From half guard you retain underhook, knee shield, and dogfight options with far more upside than a fully passed pin. The key is recognizing the lost recovery early and accepting the best structured fallback rather than fighting for a position that is already gone.",
+        "answer_line": "Turn in, hook to half guard",
+        "distractors": {
+          "plausible": [
+            "Hip escape away from them",
+            "Keep fighting the knee insertion"
+          ],
+          "trap": [
+            "Turn away and expose your back"
+          ]
+        }
+      }
+    ],
+    "clips": [
+      {
+        "id": "lVLAROiSjNU",
+        "title": "Guard Retention: When To Sit Up Escape",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 136,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "Bp0v7c_MrbY",
+        "title": "Getting Feet On Biceps Position",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "Absolute MMA St Kilda - Melbourne",
+        "duration": 125,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "ynoR-AtSYUc",
+        "title": "Around The Legs Guard Retention",
+        "by": "Absolute MMA St Kilda",
+        "vertical": false,
+        "channel": "Absolute MMA St Kilda - Melbourne",
+        "duration": 210,
+        "verified": "2026-07-14"
       }
     ]
-  }
+  },
+  "flashcards_position": [
+    {
+      "question": "What is the defining structural configuration that makes a position Headquarters rather than a generic top-passing scenario?",
+      "answer": "Headquarters is defined by the passer trapping exactly one of the bottom player's legs between their own knees, pinning that knee toward the mat while the passer's opposite leg posts wide to form a triangular base. This single-leg entrapment is the load-bearing feature: it splits the bottom player's lower body so one leg is neutralized while the other remains free. The upright, spine-vertical posture of the top player distinguishes it from smashing or chest-to-chest pressure passes. The result is a stable hub configuration rather than a committed pass, which is why either player can hold or contest it for a meaningful window.",
+      "answer_line": "One leg trapped, base posts wide",
+      "distractors": {
+        "plausible": [
+          "Both legs trapped between knees",
+          "Chest-to-chest pressure pin"
+        ],
+        "trap": [
+          "A flattened chest-to-chest smash"
+        ]
+      }
+    },
+    {
+      "question": "Why is Headquarters described as a decision hub rather than a finished pass or a settled pin?",
+      "answer": "Because the passer's leg-trap and wide base do not by themselves complete a guard pass; they create a neutral platform from which multiple passing routes branch based on the bottom player's reaction. Knee cut, toreando, and leg drag all launch from the identical starting structure, so the configuration compresses many passing options into one reusable stance. The bottom player is likewise not pinned but caught in a time-sensitive predicament they can still contest. This shared undecided quality is the essence of the position: it is a fork in the exchange, not a resolution of it.",
+      "answer_line": "Neutral hub, many passes branch out",
+      "distractors": {
+        "plausible": [
+          "A fully completed guard pass",
+          "A settled, static side pin"
+        ],
+        "trap": [
+          "Same as a finished knee cut"
+        ]
+      }
+    },
+    {
+      "question": "What role does the trapped leg versus the free leg play in defining the shared dynamics of Headquarters?",
+      "answer": "The trapped leg is the anchor of the entire position: pinned between the passer's knees with the knee driven matward, it removes half of the bottom player's hip mobility and gives the top player a fixed reference point for control. The free, uncontrolled leg is the pivot of every contested outcome, since it is the bottom player's engine for recovery, hooks, and inversion and the direction the top player must anticipate. This asymmetry between a neutralized leg and a live leg is what organizes both players' options. Recognizing which leg is which is the first read both players make.",
+      "answer_line": "Trapped leg anchors, free leg drives",
+      "distractors": {
+        "plausible": [
+          "Both legs share equal control",
+          "Free leg is the fixed anchor"
+        ],
+        "trap": [
+          "Trapped leg powers the recovery"
+        ]
+      }
+    },
+    {
+      "question": "How does the triangulated base of the top player govern the balance dynamics for both players in Headquarters?",
+      "answer": "The posting leg planted wide and roughly perpendicular to the bottom player's body forms a triangle with the trapped-leg knee, distributing the top player's weight across a broad footprint that resists both lateral and forward-backward off-balancing. This base is why the position is low-energy to hold and hard to sweep when correct. For the bottom player, that same triangle defines where leverage does and does not exist: sweeps must attack the moments the base narrows or the weight commits to one line. The width and angle of that post is therefore the pivotal variable both players fight over.",
+      "answer_line": "Wide post triangle resists sweeps",
+      "distractors": {
+        "plausible": [
+          "Narrow stance for quick reactions",
+          "Weight centered on both knees"
+        ],
+        "trap": [
+          "Post leg close, narrow the base"
+        ]
+      }
+    },
+    {
+      "question": "Why is the top player's upright posture and weight-through-the-hips a defining feature rather than a stylistic preference in Headquarters?",
+      "answer": "Keeping the spine vertical with shoulders stacked over the hips places the passer's weight down through skeletal alignment and the base rather than forward onto the hands. This is what keeps the position low-energy and resistant to being rolled, because a forward-leaning passer exposes their weight to forward rolls, granby escapes, and off-balancing. The upright structure also frees the top player's hands for grip management instead of propping. For the bottom player, any forward lean is the tell that the passer's weight has committed and a reversal window has opened.",
+      "answer_line": "Upright spine, weight off hands",
+      "distractors": {
+        "plausible": [
+          "Lean forward for extra pressure",
+          "Weight distributed on the arms"
+        ],
+        "trap": [
+          "Post weight through your hands"
+        ]
+      }
+    },
+    {
+      "question": "What is the significance of the passer's weight probing only one direction at a time in Headquarters?",
+      "answer": "Because Headquarters threatens multiple passing lanes from one stance, the top player advances by loading a single direction at a time to test the reaction before committing. Each of those momentary weight commitments is simultaneously the mechanism of the pass and the position's chief exposure, since a loaded direction is a direction that can be exploited. The whole exchange therefore runs on timing: the top player wants to read a reaction before overcommitting, and the bottom player wants to catch the instant of commitment. This shared tempo of probe-and-react is what makes the position dynamic rather than static.",
+      "answer_line": "Probe one lane, read reaction first",
+      "distractors": {
+        "plausible": [
+          "Commit fully to end the exchange",
+          "Attack every lane simultaneously"
+        ],
+        "trap": [
+          "Overcommit weight to force the pass"
+        ]
+      }
+    },
+    {
+      "question": "How does Headquarters differ from adjacent positions like half guard and side control in terms of control and leverage?",
+      "answer": "Half guard has the bottom player actively trapping the top player's leg with two legs and a knee shield, so control is contested and mutual, whereas Headquarters inverts that by having the top player trap one of the bottom player's legs from a based, upright hub. Side control is a completed, chest-to-chest pin with the guard already passed, while Headquarters is the pre-pass decision point that feeds into it. Headquarters sits mechanically between the two: the guard is beaten enough to control a leg but the pass is not yet finished. This in-between status is precisely why it functions as a launching hub toward side control.",
+      "answer_line": "Pre-pass hub between half and side",
+      "distractors": {
+        "plausible": [
+          "Same control as a settled side pin",
+          "Bottom traps the passer's leg"
+        ],
+        "trap": [
+          "A completed guard pass already"
+        ]
+      }
+    },
+    {
+      "question": "Why does upper-body control, specifically the crossface and underhook, act as the tipping point that ends the contested phase of Headquarters?",
+      "answer": "As long as Headquarters is only a leg-trap plus base, the bottom player retains hip mobility and the position stays genuinely two-way. The moment the top player adds crossface and underhook, the bottom player's head and shoulders are pinned and their hips stop moving, which mechanically kills shrimping, inversion, and sweep leverage. That upper-body lock is therefore the hinge that converts the shared, undecided hub into a nearly-completed pass. Both players understand the position through this threshold: the top races to secure it and the bottom races to deny it before consolidation.",
+      "answer_line": "Crossface kills hips, ends the hub",
+      "distractors": {
+        "plausible": [
+          "Leg control alone ends mobility",
+          "Base width is the deciding factor"
+        ],
+        "trap": [
+          "Grip fighting decides the outcome"
+        ]
+      }
+    }
+  ],
+  "clips": [
+    {
+      "id": "zT3JjOR838w",
+      "title": "Passing a Seated Guard With Underhooks",
+      "by": "John Danaher",
+      "vertical": false,
+      "channel": "BJJ Fanatics",
+      "duration": 143,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "ACWzSbjbo2g",
+      "title": "Gordon Ryan Style Guard Pass",
+      "by": "Danny Brown",
+      "vertical": false,
+      "channel": "UNC_CynX",
+      "duration": 209,
+      "verified": "2026-07-14"
+    }
+  ]
 }

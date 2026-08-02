@@ -148,6 +148,43 @@ description: "How to defend against Frame and Shrimp to Guard in BJJ. Maintain l
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Frame and Shrimp to Guard (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Leg drag pass mechanics",
+      "description": "Frame and Shrimp to Guard (Defender) film study: Leg drag pass mechanics, taught by Procel BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/8VT4dxSqCvI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/8VT4dxSqCvI",
+      "url": "https://www.youtube.com/watch?v=8VT4dxSqCvI",
+      "creator": { "@type": "Person", "name": "Procel BJJ" },
+      "duration": "PT94S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Leg drag to back take pass",
+      "description": "Frame and Shrimp to Guard (Defender) film study: Leg drag to back take pass, taught by Combat Room BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/4xplJQ-FFvI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/4xplJQ-FFvI",
+      "url": "https://www.youtube.com/watch?v=4xplJQ-FFvI",
+      "creator": { "@type": "Person", "name": "Combat Room BJJ" },
+      "duration": "PT75S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -161,6 +198,34 @@ From a strategic standpoint, the best defense against Frame and Shrimp to Guard 
 **Opponent's Starting Position**: [[Positions/Leg Drag Control]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Frame and Shrimp to Guard (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=8VT4dxSqCvI)
+
+<p class="clip-credit"><strong>Leg drag pass mechanics</strong> — taught by Procel BJJ · 1:34 · <a href="https://www.youtube.com/watch?v=8VT4dxSqCvI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=4xplJQ-FFvI)
+
+<p class="clip-credit"><strong>Leg drag to back take pass</strong> — taught by Combat Room BJJ · 1:15 · <a href="https://www.youtube.com/watch?v=4xplJQ-FFvI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

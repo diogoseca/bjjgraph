@@ -34,6 +34,54 @@ description: "Learn Open Guard to Deep Half transition in BJJ. Step-by-step exec
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Open Guard to Deep Half \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Low grip and high grip for deep half guard",
+      "description": "Open Guard to Deep Half film study: Low grip and high grip for deep half guard, taught by Jeff Glover.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/_IGB9jEvXfo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/_IGB9jEvXfo",
+      "url": "https://www.youtube.com/watch?v=_IGB9jEvXfo",
+      "creator": { "@type": "Person", "name": "Jeff Glover" },
+      "duration": "PT42S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Deep half guard sweep",
+      "description": "Open Guard to Deep Half film study: Deep half guard sweep, taught by Kyle Dimmitt.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ZQzg3TnzMJI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ZQzg3TnzMJI",
+      "url": "https://www.youtube.com/watch?v=ZQzg3TnzMJI",
+      "creator": { "@type": "Person", "name": "Kyle Dimmitt" },
+      "duration": "PT42S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Deep half guard entry from knee on belly",
+      "description": "Open Guard to Deep Half film study: Deep half guard entry from knee on belly, taught by Team Daruma Dojo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Dalv3UtxCZ0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Dalv3UtxCZ0",
+      "url": "https://www.youtube.com/watch?v=Dalv3UtxCZ0",
+      "creator": { "@type": "Person", "name": "Team Daruma Dojo" },
+      "duration": "PT68S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ The open guard to deep half pathway is most effective against opponents who comm
 **Success Rate**: 55%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Open Guard to Deep Half in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=_IGB9jEvXfo)
+
+<p class="clip-credit"><strong>Low grip and high grip for deep half guard</strong> — taught by Jeff Glover · 0:42 · <a href="https://www.youtube.com/watch?v=_IGB9jEvXfo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ZQzg3TnzMJI)
+
+<p class="clip-credit"><strong>Deep half guard sweep</strong> — taught by Kyle Dimmitt · 0:42 · <a href="https://www.youtube.com/watch?v=ZQzg3TnzMJI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Dalv3UtxCZ0)
+
+<p class="clip-credit"><strong>Deep half guard entry from knee on belly</strong> — taught by Team Daruma Dojo · 1:08 · <a href="https://www.youtube.com/watch?v=Dalv3UtxCZ0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

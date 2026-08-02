@@ -148,6 +148,43 @@ description: "How to defend against Base Attack to Sweep in BJJ. Recognition cue
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Base Attack to Sweep (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Four Levels of Sweep Defense",
+      "description": "Base Attack to Sweep (Defender) film study: Four Levels of Sweep Defense, taught by Wim Deputter.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/kNfVYhZbgrg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/kNfVYhZbgrg",
+      "url": "https://www.youtube.com/watch?v=kNfVYhZbgrg",
+      "creator": { "@type": "Person", "name": "Wim Deputter" },
+      "duration": "PT87S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "How to defend a sweep and counter to armlock or back take",
+      "description": "Base Attack to Sweep (Defender) film study: How to defend a sweep and counter to armlock or back take, taught by Evolve University.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/en4bP4sSvD0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/en4bP4sSvD0",
+      "url": "https://www.youtube.com/watch?v=en4bP4sSvD0",
+      "creator": { "@type": "Person", "name": "Evolve University" },
+      "duration": "PT83S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -161,6 +198,34 @@ Advanced defenders develop the ability to transition fluidly when the base attac
 **Opponent's Starting Position**: [[Positions/Aoki Lock Control]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Base Attack to Sweep (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=kNfVYhZbgrg)
+
+<p class="clip-credit"><strong>Four Levels of Sweep Defense</strong> — taught by Wim Deputter · 1:27 · <a href="https://www.youtube.com/watch?v=kNfVYhZbgrg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=en4bP4sSvD0)
+
+<p class="clip-credit"><strong>How to defend a sweep and counter to armlock or back take</strong> — taught by Evolve University · 1:23 · <a href="https://www.youtube.com/watch?v=en4bP4sSvD0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

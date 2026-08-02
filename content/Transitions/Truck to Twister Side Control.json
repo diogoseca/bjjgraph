@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Twister Side Control/Top",
-      "probability": 70,
+      "probability": {
+        "gi": 70,
+        "nogi": 70
+      },
       "result": "success"
     },
     {
       "to": "Truck/Top",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 70,
+  "success_rate": {
+    "gi": 70,
+    "nogi": 70
+  },
   "overview": "The Transition to Twister Side Control converts the perpendicular back-attack orientation of the Truck into a lateral chest-to-chest control position that emphasizes spinal torque and shoulder pressure. Where the Truck threatens primarily through boot pressure and vertical leg entanglement, Twister Side Control redirects that control into a lateral plane, opening submission chains including the twister finish, darce choke, and kimura that are unavailable from standard truck positioning.\n\nThe mechanical key to this transition is the controlled rotation of your body from behind the opponent to their side while preserving the leg entanglement that restricts their hip mobility. The top player must walk their upper body around the opponent's head while simultaneously adjusting the leg hook from a vertical to a lateral configuration. This rotation changes the axis of control from perpendicular to parallel, creating the shoulder-to-mat pressure that defines Twister Side Control. The transition is particularly effective when the opponent has successfully defended truck submissions by protecting their neck and arms, as the lateral shift bypasses their defensive posture entirely.\n\nStrategically, this transition serves as the primary positional advancement from the Truck when direct submissions are unavailable. It preserves the leg control advantage while creating a new set of offensive threats. Advanced practitioners use the threat of this transition itself as a forcing function: opponents who over-defend the twister from Truck open themselves to the lateral shift, while those who defend the lateral shift expose themselves to truck finishes.",
   "conditions": [
     "Established Truck position with active boot pressure against opponent's hip",
@@ -243,38 +255,147 @@
     "flashcards": [
       {
         "question": "What is the optimal timing window to initiate the transition from Truck to Twister Side Control?",
-        "answer": "The optimal window is when the opponent commits to defending truck submissions by protecting their neck and arms. Their defensive posture—hands guarding the chin, arms tucked tight—opens the walk-around path by removing their ability to frame against your rotation. Additionally, initiating immediately after a failed truck submission attempt capitalizes on their relief response before they reset their defensive awareness."
+        "answer": "The optimal window is when the opponent commits to defending truck submissions by protecting their neck and arms. Their defensive posture—hands guarding the chin, arms tucked tight—opens the walk-around path by removing their ability to frame against your rotation. Additionally, initiating immediately after a failed truck submission attempt capitalizes on their relief response before they reset their defensive awareness.",
+        "answer_line": "When they guard neck, not frame",
+        "distractors": {
+          "plausible": [
+            "Right after truck is secured",
+            "When they start to hip escape"
+          ],
+          "trap": [
+            "While they frame hard vs you"
+          ]
+        }
       },
       {
         "question": "What conditions must exist in the Truck position before you can safely attempt this transition?",
-        "answer": "Boot pressure must be actively driving against the opponent's hip, the leg entanglement must be tight with their near leg fully controlled, and the opponent must be on their side with their back exposed. Your hands must be free from committed submission grips so they can support the rotation. If any of these elements are compromised, re-consolidate truck control before attempting the transition."
+        "answer": "Boot pressure must be actively driving against the opponent's hip, the leg entanglement must be tight with their near leg fully controlled, and the opponent must be on their side with their back exposed. Your hands must be free from committed submission grips so they can support the rotation. If any of these elements are compromised, re-consolidate truck control before attempting the transition.",
+        "answer_line": "Boot pressure and tight leg hook",
+        "distractors": {
+          "plausible": [
+            "Any firm grip on their upper body",
+            "Opponent flat on their back"
+          ],
+          "trap": [
+            "Chin strap locked in tight"
+          ]
+        }
       },
       {
         "question": "What is the single most critical mechanical detail that determines whether this transition succeeds or fails?",
-        "answer": "Maintaining the leg entanglement throughout the entire rotation is the critical mechanical detail. The leg hook is the only control element that bridges both positions—it anchors you in truck and becomes the foundation of twister side control. If the hook releases during the walk-around, you lose all control and the opponent escapes. The hook angle adjusts progressively during rotation but never releases contact."
+        "answer": "Maintaining the leg entanglement throughout the entire rotation is the critical mechanical detail. The leg hook is the only control element that bridges both positions—it anchors you in truck and becomes the foundation of twister side control. If the hook releases during the walk-around, you lose all control and the opponent escapes. The hook angle adjusts progressively during rotation but never releases contact.",
+        "answer_line": "Never release the leg hook",
+        "distractors": {
+          "plausible": [
+            "Keep the chin strap locked",
+            "Rotate as fast as possible"
+          ],
+          "trap": [
+            "Release hook to free your hands"
+          ]
+        }
       },
       {
         "question": "What are the most common ways this transition fails, and what does the failure look like?",
-        "answer": "The most common failure is the leg entanglement slipping during the rotation, resulting in the opponent hip escaping to half guard or open guard. Second is the opponent framing against the walk-around to block the rotation path, stalling you in an awkward position between truck and side control. Third is rotating too fast and overshooting, losing base and allowing a bridge reversal. Each failure mode returns you to truck at best or puts you in bottom half guard at worst."
+        "answer": "The most common failure is the leg entanglement slipping during the rotation, resulting in the opponent hip escaping to half guard or open guard. Second is the opponent framing against the walk-around to block the rotation path, stalling you in an awkward position between truck and side control. Third is rotating too fast and overshooting, losing base and allowing a bridge reversal. Each failure mode returns you to truck at best or puts you in bottom half guard at worst.",
+        "answer_line": "Hook slips, they escape guard",
+        "distractors": {
+          "plausible": [
+            "They frame and stall the spin",
+            "You overshoot and lose base"
+          ],
+          "trap": [
+            "Rushing gets twister finished"
+          ]
+        }
       },
       {
         "question": "What grip adjustments are necessary during the transition, and in what sequence?",
-        "answer": "First, release any truck-specific upper body grips (wrist control, chin strap) to free your hands for the rotation. Second, post your near hand beside the opponent's head as a pivot point. During rotation, your hands walk along the mat to support the arc. Upon arrival in lateral position, establish twister side control grips: near arm across chest or underhooking far arm, far arm controlling near wrist or head. The leg hook maintains throughout as the constant grip."
+        "answer": "First, release any truck-specific upper body grips (wrist control, chin strap) to free your hands for the rotation. Second, post your near hand beside the opponent's head as a pivot point. During rotation, your hands walk along the mat to support the arc. Upon arrival in lateral position, establish twister side control grips: near arm across chest or underhooking far arm, far arm controlling near wrist or head. The leg hook maintains throughout as the constant grip.",
+        "answer_line": "Free hands, post, then re-grip",
+        "distractors": {
+          "plausible": [
+            "Grip the chin strap the whole time",
+            "Underhook first, release last"
+          ],
+          "trap": [
+            "Keep wrist control through the spin"
+          ]
+        }
       },
       {
         "question": "Your opponent posts their far hand against your shoulder to block the walk-around—how do you adjust?",
-        "answer": "You have three options depending on the strength of their frame. First, strip the frame by controlling their wrist with your near hand and pushing it past your shoulder before continuing. Second, switch to the roll-through entry variant that goes over their frame rather than through it. Third, abandon the transition and attack the exposed arm from truck—their extended posting arm is vulnerable to kimura or armbar from the truck position, punishing the frame and reopening the transition path."
+        "answer": "You have three options depending on the strength of their frame. First, strip the frame by controlling their wrist with your near hand and pushing it past your shoulder before continuing. Second, switch to the roll-through entry variant that goes over their frame rather than through it. Third, abandon the transition and attack the exposed arm from truck—their extended posting arm is vulnerable to kimura or armbar from the truck position, punishing the frame and reopening the transition path.",
+        "answer_line": "Strip the wrist or attack the arm",
+        "distractors": {
+          "plausible": [
+            "Switch to the roll-through entry",
+            "Push past without controlling it"
+          ],
+          "trap": [
+            "Force the rotation, ignore the arm"
+          ]
+        }
       },
       {
         "question": "How does the direction of force change between Truck control and Twister Side Control?",
-        "answer": "In Truck, the primary force is perpendicular torque through the boot driving into the opponent's hip, rotating their spine along a vertical axis. In Twister Side Control, the primary force is lateral shoulder pressure driving the opponent's near shoulder into the mat, creating compression along a horizontal axis. During the transition, the force direction rotates approximately 90 degrees as your body moves from behind to beside the opponent. The leg entanglement provides continuous force throughout this rotation."
+        "answer": "In Truck, the primary force is perpendicular torque through the boot driving into the opponent's hip, rotating their spine along a vertical axis. In Twister Side Control, the primary force is lateral shoulder pressure driving the opponent's near shoulder into the mat, creating compression along a horizontal axis. During the transition, the force direction rotates approximately 90 degrees as your body moves from behind to beside the opponent. The leg entanglement provides continuous force throughout this rotation.",
+        "answer_line": "Vertical torque becomes lateral",
+        "distractors": {
+          "plausible": [
+            "Same direction, just closer now",
+            "Force flips a full 180 degrees"
+          ],
+          "trap": [
+            "Drop hook pressure once rotated"
+          ]
+        }
       },
       {
         "question": "If the opponent initiates a granby roll while you are mid-transition, what is your best response?",
-        "answer": "Do not fight the granby—follow it. Your leg entanglement should prevent a clean escape, so ride the roll by maintaining your hook and allowing your body to follow their rotation. This typically results in re-establishing truck position or converting directly to back control as they roll. The worst response is to plant your hands and resist, which creates a tug-of-war that the granby momentum usually wins. Flow with the movement and re-attack from the resulting position."
+        "answer": "Do not fight the granby—follow it. Your leg entanglement should prevent a clean escape, so ride the roll by maintaining your hook and allowing your body to follow their rotation. This typically results in re-establishing truck position or converting directly to back control as they roll. The worst response is to plant your hands and resist, which creates a tug-of-war that the granby momentum usually wins. Flow with the movement and re-attack from the resulting position.",
+        "answer_line": "Follow the roll, keep the hook",
+        "distractors": {
+          "plausible": [
+            "Release hook, reset to truck",
+            "Base out and stall the spin"
+          ],
+          "trap": [
+            "Plant hands and resist the roll"
+          ]
+        }
       }
     ],
-    "safety_considerations": "This transition involves spinal rotation mechanics and should be practiced with controlled speed until both partners understand the movement pattern. The leg entanglement can trap the knee in vulnerable angles during the rotation, so communicate clearly with your training partner about any discomfort in the trapped leg. Never force the rotation if the opponent's leg is caught at an awkward angle. When drilling, start with slow walkthroughs and only increase speed as both partners gain confidence. Tap immediately if you feel unexpected pressure on the spine or knee during training."
+    "safety_considerations": "This transition involves spinal rotation mechanics and should be practiced with controlled speed until both partners understand the movement pattern. The leg entanglement can trap the knee in vulnerable angles during the rotation, so communicate clearly with your training partner about any discomfort in the trapped leg. Never force the rotation if the opponent's leg is caught at an awkward angle. When drilling, start with slow walkthroughs and only increase speed as both partners gain confidence. Tap immediately if you feel unexpected pressure on the spine or knee during training.",
+    "clips": [
+      {
+        "id": "im8KbQUyxLY",
+        "title": "Truck options from twister side control",
+        "by": "Jeremiah Vance",
+        "vertical": false,
+        "channel": "Jeremiah Vance",
+        "duration": 42,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "R55lmkc6Mus",
+        "title": "Twister side control",
+        "by": "Eddie Bravo",
+        "vertical": false,
+        "channel": "Eddie Bravo",
+        "duration": 87,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "odT3-cVWXdc",
+        "title": "Twister side attacks",
+        "by": "Eddie Bravo",
+        "vertical": false,
+        "channel": "Eddie Bravo",
+        "duration": 61,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Truck to Twister Side Control Defender",
@@ -361,23 +482,73 @@
     "flashcards": [
       {
         "question": "What are the earliest physical cues that indicate the attacker is initiating the Transition to Twister Side Control?",
-        "answer": "The earliest cues are: the attacker's chest lifts slightly and begins sliding from your upper back toward your near shoulder, they release upper body grips such as wrist control or chin strap to free their hands for rotation support, and their boot pressure angle shifts as they begin adjusting the leg hook orientation. Recognizing these cues before the rotation progresses is critical because defensive options decrease dramatically once the attacker reaches the lateral position."
+        "answer": "The earliest cues are: the attacker's chest lifts slightly and begins sliding from your upper back toward your near shoulder, they release upper body grips such as wrist control or chin strap to free their hands for rotation support, and their boot pressure angle shifts as they begin adjusting the leg hook orientation. Recognizing these cues before the rotation progresses is critical because defensive options decrease dramatically once the attacker reaches the lateral position.",
+        "answer_line": "Chest slides toward your shoulder",
+        "distractors": {
+          "plausible": [
+            "They grip your legs tighter",
+            "They stop moving to reset"
+          ],
+          "trap": [
+            "Boot pressure suddenly vanishes"
+          ]
+        }
       },
       {
         "question": "Why is the transition period itself the best defensive window rather than after the attacker arrives in Twister Side Control?",
-        "answer": "During the transition, the attacker's control is in flux—they have released truck-specific grips but have not yet established twister side control grips. Their weight is moving and their balance is less stable than in either static position. Their attention is divided between completing the rotation, maintaining the leg hook, and establishing new control points. This divided attention and transitional instability creates openings for frames, granby rolls, and leg extraction that are unavailable once twister side control is fully consolidated."
+        "answer": "During the transition, the attacker's control is in flux—they have released truck-specific grips but have not yet established twister side control grips. Their weight is moving and their balance is less stable than in either static position. Their attention is divided between completing the rotation, maintaining the leg hook, and establishing new control points. This divided attention and transitional instability creates openings for frames, granby rolls, and leg extraction that are unavailable once twister side control is fully consolidated.",
+        "answer_line": "Control in flux, grips not yet set",
+        "distractors": {
+          "plausible": [
+            "Leg hook is at its weakest now",
+            "More room to bridge and shrimp out"
+          ],
+          "trap": [
+            "Wait for side control to settle"
+          ]
+        }
       },
       {
         "question": "Your trapped leg is still entangled and the attacker has nearly completed the rotation—what is your priority?",
-        "answer": "Your immediate priority shifts to preventing the attacker from establishing shoulder-to-mat pressure. Use your near arm to frame against their chest or shoulder as they arrive in the lateral position, keeping your shoulder off the mat. Without shoulder pressure, the attacker cannot consolidate twister side control even with the leg entanglement. This buys time to address the leg hook from a position where spinal submissions are not yet mechanically available."
+        "answer": "Your immediate priority shifts to preventing the attacker from establishing shoulder-to-mat pressure. Use your near arm to frame against their chest or shoulder as they arrive in the lateral position, keeping your shoulder off the mat. Without shoulder pressure, the attacker cannot consolidate twister side control even with the leg entanglement. This buys time to address the leg hook from a position where spinal submissions are not yet mechanically available.",
+        "answer_line": "Frame the chest, shoulder off mat",
+        "distractors": {
+          "plausible": [
+            "Grab their far leg immediately",
+            "Bridge explosively right away"
+          ],
+          "trap": [
+            "Let your shoulder settle flat"
+          ]
+        }
       },
       {
         "question": "When is a granby roll escape most likely to succeed during this transition?",
-        "answer": "The granby roll is most effective when the attacker's weight is committed forward during the mid-point of the walk-around rotation. At this moment, their momentum is moving in one direction and their base is narrowed. The granby uses their forward commitment against them by rolling underneath and away. The timing is critical—too early and they have not committed enough weight, too late and they have already established lateral pressure that blocks the roll. Feel for the weight shift and commit to the roll decisively."
+        "answer": "The granby roll is most effective when the attacker's weight is committed forward during the mid-point of the walk-around rotation. At this moment, their momentum is moving in one direction and their base is narrowed. The granby uses their forward commitment against them by rolling underneath and away. The timing is critical—too early and they have not committed enough weight, too late and they have already established lateral pressure that blocks the roll. Feel for the weight shift and commit to the roll decisively.",
+        "answer_line": "Mid-rotation, weight committed",
+        "distractors": {
+          "plausible": [
+            "Right when the hook first lands",
+            "After side control is locked in"
+          ],
+          "trap": [
+            "As soon as you feel any pressure"
+          ]
+        }
       },
       {
         "question": "How should you adjust your defense if your initial frame is stripped by the attacker?",
-        "answer": "If your frame is stripped, immediately transition to your secondary defense: execute the granby roll if the attacker's weight is forward, or hip escape explosively to extract your trapped leg while the attacker is using their hands to strip rather than control. Never remain passive after a frame is stripped—the attacker will establish shoulder pressure within one to two seconds. You must have a backup plan ready before you frame, so the frame strip triggers your next defensive action automatically."
+        "answer": "If your frame is stripped, immediately transition to your secondary defense: execute the granby roll if the attacker's weight is forward, or hip escape explosively to extract your trapped leg while the attacker is using their hands to strip rather than control. Never remain passive after a frame is stripped—the attacker will establish shoulder pressure within one to two seconds. You must have a backup plan ready before you frame, so the frame strip triggers your next defensive action automatically.",
+        "answer_line": "Granby or hip escape at once",
+        "distractors": {
+          "plausible": [
+            "Re-post the same frame again",
+            "Wait to see their next move"
+          ],
+          "trap": [
+            "Stay still and conserve energy"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -400,6 +571,35 @@
         "phase": "Phase 4: Live Defensive Rounds",
         "focus": "Full-speed defense from truck through transition attempts",
         "description": "Start in truck bottom with full resistance. Defender must handle both direct truck submissions and transition attempts to twister side control. Build the ability to identify which attack is coming and select the appropriate defensive response. Track escape success rate to measure improvement."
+      }
+    ],
+    "clips": [
+      {
+        "id": "jg0Rdc0rJzg",
+        "title": "Twister side control counter",
+        "by": "10th Planet Murrieta",
+        "vertical": false,
+        "channel": "10th Planet Jiu Jitsu Murrieta",
+        "duration": 16,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "Va1YNgx2E6M",
+        "title": "Escape and counter the Twister",
+        "by": "Matrix Jiu Jitsu",
+        "vertical": false,
+        "channel": "Matrix Jiu Jitsu",
+        "duration": 165,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "AUyR1rmVzo4",
+        "title": "Twister side control and escaping it",
+        "by": "Robot Dolphin Jiu-Jitsu",
+        "vertical": false,
+        "channel": "Robot Dolphin Jiu-Jitsu ",
+        "duration": 205,
+        "verified": "2026-07-15"
       }
     ]
   }

@@ -34,6 +34,54 @@ description: "Master the Switch to Triangle in BJJ. Learn to chain failed attack
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Switch to Triangle \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Closed Guard Omoplata to Triangle Choke",
+      "description": "Switch to Triangle film study: Closed Guard Omoplata to Triangle Choke, taught by Ritchie Yip.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/z49W3g4M6vM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/z49W3g4M6vM",
+      "url": "https://www.youtube.com/watch?v=z49W3g4M6vM",
+      "creator": { "@type": "Person", "name": "Ritchie Yip" },
+      "duration": "PT34S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Switching to the triangle off a failed armbar",
+      "description": "Switch to Triangle film study: Switching to the triangle off a failed armbar, taught by BJJ After Forty.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/6cCiEfzsmNI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/6cCiEfzsmNI",
+      "url": "https://www.youtube.com/watch?v=6cCiEfzsmNI",
+      "creator": { "@type": "Person", "name": "BJJ After Forty" },
+      "duration": "PT37S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Armbar, omoplata and triangle chain from closed guard",
+      "description": "Switch to Triangle film study: Armbar, omoplata and triangle chain from closed guard, taught by MMA Leech.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/_hxa6n1dxKM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/_hxa6n1dxKM",
+      "url": "https://www.youtube.com/watch?v=_hxa6n1dxKM",
+      "creator": { "@type": "Person", "name": "MMA Leech" },
+      "duration": "PT283S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -66,9 +114,45 @@ The switch to triangle exemplifies the principle of offensive combinations and s
 Mastering this transition is essential for developing a dangerous closed guard game and represents a critical milestone in understanding how submissions work together as a system rather than as isolated techniques. At the highest levels, the initial attack is often thrown specifically to bait a defensive reaction that opens the triangle, transforming what appears to be a failed technique into a deliberate setup for the real finishing submission.
 
 **From Position**: [[Positions/Closed Guard]] (Bottom)
-**Success Rate**: 55%
+**Success Rate**: 34%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Switch to Triangle in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=z49W3g4M6vM)
+
+<p class="clip-credit"><strong>Closed Guard Omoplata to Triangle Choke</strong> — taught by Ritchie Yip · 0:34 · <a href="https://www.youtube.com/watch?v=z49W3g4M6vM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=6cCiEfzsmNI)
+
+<p class="clip-credit"><strong>Switching to the triangle off a failed armbar</strong> — taught by BJJ After Forty · 0:37 · <a href="https://www.youtube.com/watch?v=6cCiEfzsmNI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=_hxa6n1dxKM)
+
+<p class="clip-credit"><strong>Armbar, omoplata and triangle chain from closed guard</strong> — taught by MMA Leech · 4:43 · <a href="https://www.youtube.com/watch?v=_hxa6n1dxKM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

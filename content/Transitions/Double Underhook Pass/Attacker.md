@@ -168,6 +168,43 @@ description: "How to execute Double Underhook Pass in BJJ. Attacking perspective
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Double Underhook Pass (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "No-gi double underhook guard pass",
+      "description": "Double Underhook Pass (Attacker) film study: No-gi double underhook guard pass, taught by Garden State BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/wBZrTpuXV50/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/wBZrTpuXV50",
+      "url": "https://www.youtube.com/watch?v=wBZrTpuXV50",
+      "creator": { "@type": "Person", "name": "Garden State BJJ" },
+      "duration": "PT63S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Double under pass to crucifix",
+      "description": "Double Underhook Pass (Attacker) film study: Double under pass to crucifix, taught by Marcelo Garcia.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/BuDGLXL8sGs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/BuDGLXL8sGs",
+      "url": "https://www.youtube.com/watch?v=BuDGLXL8sGs",
+      "creator": { "@type": "Person", "name": "Marcelo Garcia" },
+      "duration": "PT198S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -178,9 +215,37 @@ Strategically, this pass exploits the defensive limitations created when an oppo
 
 The technique represents an evolution in turtle passing methodology, moving away from traditional approaches that emphasized riding the back toward modern systems that prioritize flattening and immediate dominant position acquisition. When executed with proper timing and hip pressure coordination, the Double Underhook Pass creates a direct pathway to Side Control while eliminating the scramble opportunities that make turtle attacks risky.
 
-**From Position**: [[Positions/Crackhead Control]] (Top)
+**From Position**: [[Positions/Rubber Guard/Crackhead Control]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Double Underhook Pass (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=wBZrTpuXV50)
+
+<p class="clip-credit"><strong>No-gi double underhook guard pass</strong> — taught by Garden State BJJ · 1:03 · <a href="https://www.youtube.com/watch?v=wBZrTpuXV50" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=BuDGLXL8sGs)
+
+<p class="clip-credit"><strong>Double under pass to crucifix</strong> — taught by Marcelo Garcia · 3:18 · <a href="https://www.youtube.com/watch?v=BuDGLXL8sGs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 
@@ -237,7 +302,7 @@ The technique represents an evolution in turtle passing methodology, moving away
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[Positions/Side Control]] | 65% |
-| Failure | [[Positions/Crackhead Control]] | 25% |
+| Failure | [[Positions/Rubber Guard/Crackhead Control]] | 25% |
 | Counter | [[Positions/Half Guard]] | 10% |
 
 
@@ -249,7 +314,7 @@ The technique represents an evolution in turtle passing methodology, moving away
 
 <p class="section-subtitle">How might your opponent counter Double Underhook Pass?</p>
 
-- **Opponent sits back into you before second underhook establishes** (Effectiveness: High) - Your Response: If they sit back early, immediately transition to back take attempt using the single underhook you have. Their sit-back motion often exposes hooks for back control entry. → Leads to [[Positions/Crackhead Control]]
+- **Opponent sits back into you before second underhook establishes** (Effectiveness: High) - Your Response: If they sit back early, immediately transition to back take attempt using the single underhook you have. Their sit-back motion often exposes hooks for back control entry. → Leads to [[Positions/Rubber Guard/Crackhead Control]]
 - **Opponent granby rolls as you drive forward** (Effectiveness: Medium) - Your Response: Follow their roll while maintaining the double underhook grip. Their roll will often land you directly in Side Control if you keep chest pressure and follow their rotation. → Leads to [[Positions/Side Control]]
 - **Opponent posts far arm and creates angle to recover guard** (Effectiveness: Medium) - Your Response: Switch to a single underhook pass on the side where they posted, using their extended arm as leverage for a tighter pass angle. Their post creates the space needed for guard recovery only if you release pressure. → Leads to [[Positions/Half Guard]]
 - **Opponent collapses to hip and inserts knee shield** (Effectiveness: Low) - Your Response: Use the momentum from your already-committed pass to drive through the knee shield into a smash pass. Your forward pressure and underhook control make their knee shield less effective than from standard passing situations. → Leads to [[Positions/Half Guard]]

@@ -34,6 +34,54 @@ description: "Learn Aoki Lock to Back Control in BJJ. Transition from shoulder l
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Aoki Lock to Back Control \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Hip switch to back take",
+      "description": "Aoki Lock to Back Control film study: Hip switch to back take, taught by Gordon Ryan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/f3PJ06A_bWQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/f3PJ06A_bWQ",
+      "url": "https://www.youtube.com/watch?v=f3PJ06A_bWQ",
+      "creator": { "@type": "Person", "name": "Gordon Ryan" },
+      "duration": "PT19S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Ankle lock to back take combination",
+      "description": "Aoki Lock to Back Control film study: Ankle lock to back take combination, taught by Jon Thomas.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/GDT7T2k-zU4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/GDT7T2k-zU4",
+      "url": "https://www.youtube.com/watch?v=GDT7T2k-zU4",
+      "creator": { "@type": "Person", "name": "Jon Thomas" },
+      "duration": "PT650S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Shotgun ankle Aoki locks",
+      "description": "Aoki Lock to Back Control film study: Shotgun ankle Aoki locks, taught by Mateusz Szczecinski.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/EWwWb2Ibfsk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/EWwWb2Ibfsk",
+      "url": "https://www.youtube.com/watch?v=EWwWb2Ibfsk",
+      "creator": { "@type": "Person", "name": "Mateusz Szczecinski" },
+      "duration": "PT406S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -66,9 +114,45 @@ Strategically, this transition functions as the primary alternative when the Aok
 This technique is particularly effective in no-gi competition where the absence of collar grips makes the Aoki Lock harder to finish but the slippery surface facilitates smooth transitions to the back. It represents the core principle of positional advancement over submission hunting: when your opponent gives you their back to escape a joint lock, taking the superior position often yields better finishing opportunities than the original attack.
 
 **From Position**: [[Positions/Aoki Lock Control]] (Top)
-**Success Rate**: 55%
+**Success Rate**: 52%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Aoki Lock to Back Control in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=f3PJ06A_bWQ)
+
+<p class="clip-credit"><strong>Hip switch to back take</strong> — taught by Gordon Ryan · 0:19 · <a href="https://www.youtube.com/watch?v=f3PJ06A_bWQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=GDT7T2k-zU4)
+
+<p class="clip-credit"><strong>Ankle lock to back take combination</strong> — taught by Jon Thomas · 10:50 · <a href="https://www.youtube.com/watch?v=GDT7T2k-zU4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=EWwWb2Ibfsk)
+
+<p class="clip-credit"><strong>Shotgun ankle Aoki locks</strong> — taught by Mateusz Szczecinski · 6:46 · <a href="https://www.youtube.com/watch?v=EWwWb2Ibfsk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

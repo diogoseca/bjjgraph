@@ -15,26 +15,41 @@
   "outcomes": [
     {
       "to": "Open Guard/Top",
-      "probability": 50,
+      "probability": {
+        "gi": 50,
+        "nogi": 50
+      },
       "result": "success"
     },
     {
       "to": "Half Guard/Top",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "success"
     },
     {
       "to": "Estima Lock Control/Bottom",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Saddle/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "overview": "Leg Extraction from Estima Lock represents a fundamental defensive escape when caught in this dangerous inverted footlock position. The technique prioritizes systematic disengagement over explosive movements, focusing on reducing submission pressure while methodically creating space to free the trapped leg. Unlike escapes from traditional straight ankle locks, the Estima Lock's inverted grip configuration requires specific counter-rotation and angle adjustments to neutralize the attack vector before extraction becomes possible.\n\nThe escape mechanics center on three interconnected elements: counter-rotating the ankle to reduce torque on the joint, establishing frames on the opponent's hips to create extraction space, and using the free leg as an active lever rather than a passive limb. Successful extraction requires understanding that the opponent's grip strength is finite—by addressing the positional structure rather than fighting grips directly, you force them to choose between maintaining control and following your movement. This creates the window necessary for leg withdrawal.\n\nStrategically, Leg Extraction serves as the primary bailout when caught in Estima Lock scenarios during guard passing or leg entanglement exchanges. The technique integrates into broader defensive leg lock systems, connecting to guard recovery sequences and providing a foundation for understanding other leg entanglement escapes. Mastery of this escape significantly reduces the danger of engaging in modern leg lock exchanges where Estima Lock threats are common.",
   "conditions": [
     "Opponent has secured Estima Lock grip configuration with inverted foot positioning",
@@ -221,46 +236,166 @@
     "flashcards": [
       {
         "question": "What is the primary goal of Leg Extraction from Estima Lock?",
-        "answer": "The primary goal is to systematically free your trapped foot from the inverted footlock position while avoiding injury. This involves reducing submission pressure through counter-rotation, creating space through frames and hip movement, and extracting the leg to recover guard position. The technique prioritizes safe disengagement over speed."
+        "answer": "The primary goal is to systematically free your trapped foot from the inverted footlock position while avoiding injury. This involves reducing submission pressure through counter-rotation, creating space through frames and hip movement, and extracting the leg to recover guard position. The technique prioritizes safe disengagement over speed.",
+        "answer_line": "Counter-rotate, frame, extract",
+        "distractors": {
+          "plausible": [
+            "Escape fast before it tightens",
+            "Power through the pressure"
+          ],
+          "trap": [
+            "Yank leg free immediately"
+          ]
+        }
       },
       {
         "question": "Why must you counter-rotate your ankle immediately upon feeling Estima Lock pressure?",
-        "answer": "Counter-rotation reduces the torque applied to your ankle joint and Achilles tendon by working against the inverted angle the opponent creates. This buys critical time by decreasing immediate submission threat, allows you to think clearly without pain-induced panic, and creates a foundation for subsequent escape mechanics."
+        "answer": "Counter-rotation reduces the torque applied to your ankle joint and Achilles tendon by working against the inverted angle the opponent creates. This buys critical time by decreasing immediate submission threat, allows you to think clearly without pain-induced panic, and creates a foundation for subsequent escape mechanics.",
+        "answer_line": "Reduces ankle torque, buys time",
+        "distractors": {
+          "plausible": [
+            "Point toes to relieve pressure",
+            "Pull knee straight to escape"
+          ],
+          "trap": [
+            "Kick out violently to break grip"
+          ]
+        }
       },
       {
         "question": "Your opponent begins tightening their grip as you establish frames—should you continue the extraction or pause?",
-        "answer": "Pause the extraction attempt when the opponent tightens significantly. Forcing through increased pressure can cause injury and rarely succeeds. Instead, maintain your frames, re-establish strong counter-rotation, and wait for the next opportunity when they adjust position or their grip fatigues. Patience is critical in leg lock defense."
+        "answer": "Pause the extraction attempt when the opponent tightens significantly. Forcing through increased pressure can cause injury and rarely succeeds. Instead, maintain your frames, re-establish strong counter-rotation, and wait for the next opportunity when they adjust position or their grip fatigues. Patience is critical in leg lock defense.",
+        "answer_line": "Pause and hold your frames",
+        "distractors": {
+          "plausible": [
+            "Speed up to beat the grip",
+            "Give up and stop resisting"
+          ],
+          "trap": [
+            "Rip the foot out by force"
+          ]
+        }
       },
       {
         "question": "What specific role does your free leg serve during Leg Extraction?",
-        "answer": "The free leg serves as your primary lever for creating extraction space. Use it to push on opponent's hip to create distance, hook behind their knee to disrupt their following movement, establish butterfly hook for sweep threat, or post on the mat for technical standup. A passive free leg surrenders your most important defensive tool."
+        "answer": "The free leg serves as your primary lever for creating extraction space. Use it to push on opponent's hip to create distance, hook behind their knee to disrupt their following movement, establish butterfly hook for sweep threat, or post on the mat for technical standup. A passive free leg surrenders your most important defensive tool.",
+        "answer_line": "Push, hook, or post with free leg",
+        "distractors": {
+          "plausible": [
+            "Kick opponent to create space",
+            "Tuck it in tight for safety"
+          ],
+          "trap": [
+            "Ignore it, focus on trapped leg"
+          ]
+        }
       },
       {
         "question": "Why is maintaining slight knee bend critical during the extraction sequence?",
-        "answer": "A bent knee reduces linear force transmission through your leg, decreasing the mechanical advantage of the Estima Lock. Completely straightening creates a direct line of force that dramatically increases ankle pressure. The bend also preserves circular hip movement options and prevents the opponent from re-straightening your leg into the submission."
+        "answer": "A bent knee reduces linear force transmission through your leg, decreasing the mechanical advantage of the Estima Lock. Completely straightening creates a direct line of force that dramatically increases ankle pressure. The bend also preserves circular hip movement options and prevents the opponent from re-straightening your leg into the submission.",
+        "answer_line": "Bent knee reduces lock's force",
+        "distractors": {
+          "plausible": [
+            "Straighten leg for more power",
+            "Lock knee to resist rotation"
+          ],
+          "trap": [
+            "Fully extend leg to break free"
+          ]
+        }
       },
       {
         "question": "Your opponent transitions toward a toe hold as you begin extracting—how do you capitalize on this?",
-        "answer": "Accelerate your extraction through the transition moment because grip changes create vulnerability windows. As they shift from Estima Lock configuration to toe hold grip, their control momentarily loosens. This is your optimal extraction window—act decisively rather than pausing to assess the new attack."
+        "answer": "Accelerate your extraction through the transition moment because grip changes create vulnerability windows. As they shift from Estima Lock configuration to toe hold grip, their control momentarily loosens. This is your optimal extraction window—act decisively rather than pausing to assess the new attack.",
+        "answer_line": "Accelerate through the transition",
+        "distractors": {
+          "plausible": [
+            "Pause to assess new attack",
+            "Reset frames before continuing"
+          ],
+          "trap": [
+            "Slow down, grips are tightening"
+          ]
+        }
       },
       {
         "question": "What are the two common scenarios where Technical Standup Extraction is preferable to guard recovery?",
-        "answer": "Technical Standup is preferable when: (1) opponent's hip pressure is not severe enough to prevent posting strongly with your far hand, and (2) you have sufficient angle to rise without exposing your back. This variant allows complete disengagement and standing reset rather than accepting a guard position where leg attacks may continue."
+        "answer": "Technical Standup is preferable when: (1) opponent's hip pressure is not severe enough to prevent posting strongly with your far hand, and (2) you have sufficient angle to rise without exposing your back. This variant allows complete disengagement and standing reset rather than accepting a guard position where leg attacks may continue.",
+        "answer_line": "Strong post + safe angle to rise",
+        "distractors": {
+          "plausible": [
+            "Whenever guard feels crowded",
+            "When opponent seems tired"
+          ],
+          "trap": [
+            "Stand up regardless of angle"
+          ]
+        }
       },
       {
         "question": "How do you know when Leg Extraction is no longer viable and you should tap?",
-        "answer": "Tap when you recognize: sharp pain in ankle joint or Achilles area, sensation of ankle being twisted beyond normal range, complete loss of hip mobility preventing any escape mechanics, or the feeling that mechanical completion of the lock has occurred. Preserving joint health for continued training is always more important than escaping."
+        "answer": "Tap when you recognize: sharp pain in ankle joint or Achilles area, sensation of ankle being twisted beyond normal range, complete loss of hip mobility preventing any escape mechanics, or the feeling that mechanical completion of the lock has occurred. Preserving joint health for continued training is always more important than escaping.",
+        "answer_line": "Sharp pain or joint twisting",
+        "distractors": {
+          "plausible": [
+            "Only when foot goes numb",
+            "Wait until it truly hurts"
+          ],
+          "trap": [
+            "Keep fighting through the pain"
+          ]
+        }
       },
       {
         "question": "Why is fighting the opponent's grips directly a common tactical error?",
-        "answer": "Fighting grips directly wastes energy on the symptom rather than the cause. The opponent can simply re-grip while maintaining positional control because you have not changed the fundamental structure. Prioritizing hip frames forces them to choose between control and following movement, creating escape opportunities without exhausting grip-fighting battles."
+        "answer": "Fighting grips directly wastes energy on the symptom rather than the cause. The opponent can simply re-grip while maintaining positional control because you have not changed the fundamental structure. Prioritizing hip frames forces them to choose between control and following movement, creating escape opportunities without exhausting grip-fighting battles.",
+        "answer_line": "Wastes energy, ignores hip frames",
+        "distractors": {
+          "plausible": [
+            "Grip fighting is always required",
+            "Break grips one finger at a time"
+          ],
+          "trap": [
+            "Match strength grip vs grip"
+          ]
+        }
       },
       {
         "question": "What happens to your escape options if you allow your upper body to flatten completely?",
-        "answer": "Flattening eliminates the hip mobility required for extraction. Without the ability to hip escape or create angles, all escape mechanics become significantly more difficult or impossible. Maintaining active posting with your far hand and keeping shoulders turned toward the trapped leg preserves the movement foundation necessary for successful extraction."
+        "answer": "Flattening eliminates the hip mobility required for extraction. Without the ability to hip escape or create angles, all escape mechanics become significantly more difficult or impossible. Maintaining active posting with your far hand and keeping shoulders turned toward the trapped leg preserves the movement foundation necessary for successful extraction.",
+        "answer_line": "Lose hip mobility, escape fails",
+        "distractors": {
+          "plausible": [
+            "Only affects grip strength",
+            "Slows escape but still works"
+          ],
+          "trap": [
+            "Flatten out to relax and recover"
+          ]
+        }
       }
     ],
-    "safety_considerations": "Leg Extraction training requires careful attention to joint safety given the danger of Estima Lock submissions. Partners must communicate clearly throughout drilling, with the attacker controlling pressure and the defender tapping immediately when escape becomes impossible. Never force extraction attempts against fully locked submissions—the risk of ankle, Achilles tendon, or foot ligament injury far outweighs any training benefit. Begin all drilling at zero resistance, progressing only when mechanics are sound. Both partners should understand tap protocols and the defender should tap early when pressure reaches concerning levels. Avoid training this escape when fatigued, as reaction time decreases and injury risk increases. The position involves rotational stress on the ankle joint, so practitioners with previous ankle injuries should consult healthcare providers before intensive drilling."
+    "safety_considerations": "Leg Extraction training requires careful attention to joint safety given the danger of Estima Lock submissions. Partners must communicate clearly throughout drilling, with the attacker controlling pressure and the defender tapping immediately when escape becomes impossible. Never force extraction attempts against fully locked submissions—the risk of ankle, Achilles tendon, or foot ligament injury far outweighs any training benefit. Begin all drilling at zero resistance, progressing only when mechanics are sound. Both partners should understand tap protocols and the defender should tap early when pressure reaches concerning levels. Avoid training this escape when fatigued, as reaction time decreases and injury risk increases. The position involves rotational stress on the ankle joint, so practitioners with previous ankle injuries should consult healthcare providers before intensive drilling.",
+    "clips": [
+      {
+        "id": "R7lPdQWLOus",
+        "title": "Protecting and extracting your leg from 50/50",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "The Grapplers Guide by Jason Scully",
+        "duration": 161,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "DrjbaXt-nTo",
+        "title": "Rolling out of heel hooks to free the leg",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "Absolute MMA St Kilda - Melbourne",
+        "duration": 243,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Leg Extraction Defender",
@@ -346,23 +481,73 @@
     "flashcards": [
       {
         "question": "What are the sequential stages of Leg Extraction that you should learn to recognize as the Estima Lock holder?",
-        "answer": "The stages are: (1) counter-rotation of the ankle to reduce submission pressure, (2) frame establishment on your hips with both hands, (3) free leg activation for push-off leverage, (4) hip escape to create angular separation, (5) knee retraction toward their chest, and (6) foot extraction and guard recovery. Disrupting any early stage resets the entire sequence."
+        "answer": "The stages are: (1) counter-rotation of the ankle to reduce submission pressure, (2) frame establishment on your hips with both hands, (3) free leg activation for push-off leverage, (4) hip escape to create angular separation, (5) knee retraction toward their chest, and (6) foot extraction and guard recovery. Disrupting any early stage resets the entire sequence.",
+        "answer_line": "Rotate, frame, escape, retract, out",
+        "distractors": {
+          "plausible": [
+            "Frame first, then counter-rotate",
+            "Hip escape before frames"
+          ],
+          "trap": [
+            "Skip frames, extract directly"
+          ]
+        }
       },
       {
         "question": "Your opponent establishes frames on your hips and begins pushing—what is your optimal response?",
-        "answer": "Drive your hips forward aggressively to collapse the frames before they generate meaningful space. Simultaneously increase rotational pressure on their trapped ankle to re-establish submission threat. If their frames are structurally strong, address their free leg to remove their secondary lever while maintaining grip consolidation on the trapped foot."
+        "answer": "Drive your hips forward aggressively to collapse the frames before they generate meaningful space. Simultaneously increase rotational pressure on their trapped ankle to re-establish submission threat. If their frames are structurally strong, address their free leg to remove their secondary lever while maintaining grip consolidation on the trapped foot.",
+        "answer_line": "Drive hips forward, add rotation",
+        "distractors": {
+          "plausible": [
+            "Pull away to create distance",
+            "Grab their frames to remove them"
+          ],
+          "trap": [
+            "Release ankle grip to reposition"
+          ]
+        }
       },
       {
         "question": "Why is transitioning to toe hold or saddle preferable to holding a compromised Estima Lock?",
-        "answer": "A compromised Estima Lock where extraction is well advanced provides diminishing submission threat while consuming significant energy to maintain. Transitioning to toe hold or saddle converts the opponent's escape momentum into a new positional advantage, maintains offensive initiative, and exploits the grip transition moment when they expect to be escaping rather than defending a new attack."
+        "answer": "A compromised Estima Lock where extraction is well advanced provides diminishing submission threat while consuming significant energy to maintain. Transitioning to toe hold or saddle converts the opponent's escape momentum into a new positional advantage, maintains offensive initiative, and exploits the grip transition moment when they expect to be escaping rather than defending a new attack.",
+        "answer_line": "Convert escape into new attack",
+        "distractors": {
+          "plausible": [
+            "Hold on tighter to finish",
+            "Reset to original grip"
+          ],
+          "trap": [
+            "Let them escape, reset neutral"
+          ]
+        }
       },
       {
         "question": "How do you effectively follow an opponent's hip escape without losing your submission angle?",
-        "answer": "Shift your entire body in the same direction as their hip escape rather than simply reaching with your arms. Keep your chest positioned over their trapped leg and adjust your hip pressure angle to match their new body position. The goal is maintaining the same relative relationship between your forearm fulcrum and their ankle despite their movement."
+        "answer": "Shift your entire body in the same direction as their hip escape rather than simply reaching with your arms. Keep your chest positioned over their trapped leg and adjust your hip pressure angle to match their new body position. The goal is maintaining the same relative relationship between your forearm fulcrum and their ankle despite their movement.",
+        "answer_line": "Shift body, chest over leg",
+        "distractors": {
+          "plausible": [
+            "Reach with arms to follow",
+            "Reposition legs only, not hips"
+          ],
+          "trap": [
+            "Hold position, let them move"
+          ]
+        }
       },
       {
         "question": "Your opponent's free leg hooks behind your knee during their escape attempt—how do you address this?",
-        "answer": "The knee hook is one of the most effective extraction tools because it breaks your forward driving ability. Address it by posting your hooked leg wider to reduce the hook's leverage, driving your knee forward to strip the hook, or transitioning your body weight to your other leg while maintaining grip. Do not ignore this hook as it will progressively destabilize your entire control structure."
+        "answer": "The knee hook is one of the most effective extraction tools because it breaks your forward driving ability. Address it by posting your hooked leg wider to reduce the hook's leverage, driving your knee forward to strip the hook, or transitioning your body weight to your other leg while maintaining grip. Do not ignore this hook as it will progressively destabilize your entire control structure.",
+        "answer_line": "Post wider, strip the hook",
+        "distractors": {
+          "plausible": [
+            "Pull your knee back sharply",
+            "Switch grips to the far leg"
+          ],
+          "trap": [
+            "Ignore the hook, keep control"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -385,6 +570,17 @@
         "phase": "Week 7+",
         "focus": "Live positional sparring",
         "description": "Full competition-intensity positional rounds starting from established Estima Lock. Attacker attempts to finish or transition, defender attempts extraction. Develop reading speed for escape phases and automatic counter selection under pressure. Track success rates to identify weak phases in your retention game."
+      }
+    ],
+    "clips": [
+      {
+        "id": "wIccehL7gkw",
+        "title": "Answering the leg extraction from footlock guard",
+        "by": "Mikey Musumeci",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 87,
+        "verified": "2026-07-15"
       }
     ]
   },

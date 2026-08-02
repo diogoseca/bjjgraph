@@ -34,6 +34,43 @@ description: "Master posture recovery from Carni in BJJ. Systematic escape using
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Posture Recovery from Carni \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Leg lock escape by roll through",
+      "description": "Posture Recovery from Carni film study: Leg lock escape by roll through, taught by Gordon Ryan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/MqtG9kuVt-Q/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/MqtG9kuVt-Q",
+      "url": "https://www.youtube.com/watch?v=MqtG9kuVt-Q",
+      "creator": { "@type": "Person", "name": "Gordon Ryan" },
+      "duration": "PT103S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "50/50 defense: protecting your leg",
+      "description": "Posture Recovery from Carni film study: 50/50 defense: protecting your leg, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/R7lPdQWLOus/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/R7lPdQWLOus",
+      "url": "https://www.youtube.com/watch?v=R7lPdQWLOus",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT161S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +106,34 @@ This technique is most effective when combined with grip breaking and upper body
 **Success Rate**: 50%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Posture Recovery from Carni in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=MqtG9kuVt-Q)
+
+<p class="clip-credit"><strong>Leg lock escape by roll through</strong> — taught by Gordon Ryan · 1:43 · <a href="https://www.youtube.com/watch?v=MqtG9kuVt-Q" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=R7lPdQWLOus)
+
+<p class="clip-credit"><strong>50/50 defense: protecting your leg</strong> — taught by Lachlan Giles · 2:41 · <a href="https://www.youtube.com/watch?v=R7lPdQWLOus" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

@@ -148,6 +148,43 @@ description: "How to defend against the Upa Escape from mount in BJJ. Recognitio
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Upa Escape (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Countering the bridge and roll mount escape",
+      "description": "Upa Escape (Defender) film study: Countering the bridge and roll mount escape, taught by Academy Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/2uuP147GoBk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/2uuP147GoBk",
+      "url": "https://www.youtube.com/watch?v=2uuP147GoBk",
+      "creator": { "@type": "Person", "name": "Academy Jiu Jitsu" },
+      "duration": "PT62S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Two adjustments to stop losing mount",
+      "description": "Upa Escape (Defender) film study: Two adjustments to stop losing mount, taught by Chewjitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/dgkI1z6y2s8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/dgkI1z6y2s8",
+      "url": "https://www.youtube.com/watch?v=dgkI1z6y2s8",
+      "creator": { "@type": "Person", "name": "Chewjitsu" },
+      "duration": "PT403S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +194,34 @@ Defending the Upa Escape from the mounted position requires the top player to ma
 **Opponent's Starting Position**: [[Positions/Mount]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Upa Escape (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=2uuP147GoBk)
+
+<p class="clip-credit"><strong>Countering the bridge and roll mount escape</strong> — taught by Academy Jiu Jitsu · 1:02 · <a href="https://www.youtube.com/watch?v=2uuP147GoBk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=dgkI1z6y2s8)
+
+<p class="clip-credit"><strong>Two adjustments to stop losing mount</strong> — taught by Chewjitsu · 6:43 · <a href="https://www.youtube.com/watch?v=dgkI1z6y2s8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

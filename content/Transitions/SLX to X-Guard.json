@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "X-Guard/Bottom",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Single Leg X-Guard/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Open Guard/Top",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "Within the modern leg-entanglement system, this transition serves as the natural escalation point from single-leg control to a far more dominant double-leg platform, capturing the opponent's free leg to establish full X-Guard from an existing Single Leg X-Guard position. It represents one of the most important guard transitions in modern BJJ because it dramatically increases sweeping leverage and directional attack variety. In Single Leg X, the bottom player controls one leg effectively but remains vulnerable to backstep passes, leg extraction, and systematic hook clearing. By threading the outside leg behind the opponent's free knee and establishing the full X configuration, the bottom player creates bilateral control that is exponentially harder to escape and opens high-percentage sweeps in multiple directions.\n\nThe transition requires precise timing and hip positioning. The bottom player must create enough elevation and perpendicular angle on the trapped leg to generate the space needed to capture the second leg. Rushing the thread without proper setup results in the opponent stepping their free leg away, while waiting too long allows the top player to establish passing grips and begin systematic guard dismantling. The optimal window exists when the opponent's weight shifts toward the trapped side, momentarily loading the free leg in a predictable position that brings it within threading range.\n\nStrategically, this transition serves as the bridge between SLX's leg-lock-oriented game and X-Guard's sweep-dominant platform. While SLX offers superior access to ashi garami entries and direct heel hook threats, X-Guard provides higher-percentage sweeps with greater directional control and more reliable paths to top position. Understanding when to upgrade to X-Guard versus when to attack directly from SLX is a critical decision point that separates intermediate from advanced guard players. The transition also functions as a forcing mechanism: threatening the X-Guard upgrade compels the top player to react defensively, often opening the very SLX attacks they were trying to prevent.",
   "conditions": [
     "Bottom player has established Single Leg X-Guard with inside hook secured behind opponent's knee",
@@ -243,42 +255,161 @@
     "flashcards": [
       {
         "question": "What is the optimal timing to initiate the outside leg thread from SLX?",
-        "answer": "The optimal timing is when the opponent's weight shifts toward their trapped leg side, loading their free leg in a stationary position. This typically occurs when they attempt to base out against your elevation pressure or when they resist a sweep attempt by posting wide. Their free leg becomes predictable and momentarily anchored, creating the window for your thread. Initiating before this weight shift means the free leg is too mobile to capture."
+        "answer": "The optimal timing is when the opponent's weight shifts toward their trapped leg side, loading their free leg in a stationary position. This typically occurs when they attempt to base out against your elevation pressure or when they resist a sweep attempt by posting wide. Their free leg becomes predictable and momentarily anchored, creating the window for your thread. Initiating before this weight shift means the free leg is too mobile to capture.",
+        "answer_line": "When weight shifts to free leg",
+        "distractors": {
+          "plausible": [
+            "Right after hook connects",
+            "When opponent starts posturing"
+          ],
+          "trap": [
+            "While their leg is still mobile"
+          ]
+        }
       },
       {
         "question": "What conditions must already be in place before you commit to threading the outside leg into X-Guard?",
-        "answer": "You need a deep, active inside hook behind the trapped knee generating genuine elevation, the opponent's free leg within reach of your outside foot rather than stepped far back, at least one anchoring grip on the trapped-side ankle, and your hips scooted underneath their center of gravity at a perpendicular angle. If elevation and reach are not established first, removing your outside foot from the hip simply surrenders your distance frame with no replacement control, leaving you exposed to the pass."
+        "answer": "Commit only with a deep elevating inside hook, the free leg within reach, an anchoring ankle grip, and hips under their center of gravity. The inside hook must sit behind the trapped knee and generate genuine elevation, the opponent's free leg must be within reach of your outside foot rather than stepped far back, you need at least one grip on the trapped-side ankle, and your hips should be scooted underneath their center at a perpendicular angle. If elevation and reach are not established first, removing your outside foot from the hip simply surrenders your distance frame with no replacement control, leaving you exposed to the pass.",
+        "distractors": {
+          "plausible": [
+            "Just a deep inside hook alone",
+            "Ankle grip and hip angle only"
+          ],
+          "trap": [
+            "Remove hip foot immediately"
+          ]
+        },
+        "answer_line": "Deep hook, ankle grip, hips under"
       },
       {
         "question": "What grip should your near hand maintain during the threading sequence and why?",
-        "answer": "Your near hand should control the opponent's trapped-side ankle or lower pant leg throughout the threading sequence. This grip prevents them from extracting their trapped leg while you temporarily remove your outside foot from their hip, which is your primary distance management frame. Without this anchor grip, they can step backward and disengage completely during the transition window when your outside leg is between positions."
+        "answer": "Your near hand should control the opponent's trapped-side ankle or lower pant leg throughout the threading sequence. This grip prevents them from extracting their trapped leg while you temporarily remove your outside foot from their hip, which is your primary distance management frame. Without this anchor grip, they can step backward and disengage completely during the transition window when your outside leg is between positions.",
+        "answer_line": "Grip trapped-side ankle",
+        "distractors": {
+          "plausible": [
+            "Grip their far ankle",
+            "Grip belt or lapel"
+          ],
+          "trap": [
+            "Let go to free your hands"
+          ]
+        }
       },
       {
         "question": "In which direction do you drive your elevation, and why does that direction matter for completing the thread?",
-        "answer": "Drive your hips upward and slightly toward the opponent's trapped side, lifting their weight onto the free leg while opening clearance underneath their stance. The upward vector raises the trapped leg to create the gap your foot travels through, while angling toward the trapped side stations the free leg as a predictable, loaded target. Pushing straight away instead of up collapses your own elevation and lets them re-base before your outside foot arrives behind the knee."
+        "answer": "Drive your hips upward and slightly toward the opponent's trapped side, lifting their weight onto the free leg while opening clearance underneath their stance. The upward vector raises the trapped leg to create the gap your foot travels through, while angling toward the trapped side stations the free leg as a predictable, loaded target. Pushing straight away instead of up collapses your own elevation and lets them re-base before your outside foot arrives behind the knee.",
+        "answer_line": "Up and toward trapped side",
+        "distractors": {
+          "plausible": [
+            "Straight up, no angle",
+            "Toward the free leg side"
+          ],
+          "trap": [
+            "Push away to create space"
+          ]
+        }
       },
       {
         "question": "How does hip positioning differ between SLX and the completed X-Guard configuration?",
-        "answer": "In SLX, your hips are typically angled somewhat along the axis of the trapped leg with your body partially aligned to it. When transitioning to X-Guard, your hips must shift to be fully perpendicular to the opponent's stance, positioning directly underneath their center of gravity. This perpendicular alignment maximizes the leverage of both hooks working in opposition and creates the bilateral sweep angles that make X-Guard significantly more powerful than SLX."
+        "answer": "In SLX, your hips are typically angled somewhat along the axis of the trapped leg with your body partially aligned to it. When transitioning to X-Guard, your hips must shift to be fully perpendicular to the opponent's stance, positioning directly underneath their center of gravity. This perpendicular alignment maximizes the leverage of both hooks working in opposition and creates the bilateral sweep angles that make X-Guard significantly more powerful than SLX.",
+        "answer_line": "Perpendicular, under their COG",
+        "distractors": {
+          "plausible": [
+            "Angled along the trapped leg",
+            "Slightly open, weight back"
+          ],
+          "trap": [
+            "Turn belly-down to your knees"
+          ]
+        }
       },
       {
         "question": "Your opponent begins stepping their free leg backward as you start threading - how do you adapt?",
-        "answer": "If the opponent retreats their free leg before you complete the thread, immediately redirect to an SLX sweep or ashi garami entry rather than chasing the retreating leg. Their backward step often compromises their base on the trapped side, opening sweep opportunities that exploit their shifting weight distribution. Alternatively, follow their retreating hip by scooting forward, but only if you can maintain strong inside hook control during the pursuit without overextending."
+        "answer": "If the free leg retreats before you complete the thread, redirect immediately to an SLX sweep or ashi garami entry rather than chasing the leg. Their backward step often compromises their base on the trapped side, opening sweep opportunities that exploit their shifting weight distribution. Alternatively, follow their retreating hip by scooting forward, but only if you can maintain strong inside hook control during the pursuit without overextending.",
+        "distractors": {
+          "plausible": [
+            "Chase the leg across mat",
+            "Force the thread anyway"
+          ],
+          "trap": [
+            "Release hook to reset position"
+          ]
+        },
+        "answer_line": "Switch to SLX sweep or ashi"
       },
       {
         "question": "What is the critical mechanical detail that prevents your inside hook from slipping during the transition?",
-        "answer": "The inside hook must maintain active calf pressure against the opponent's hamstring throughout the thread, with your foot positioned past the back of their knee joint. The key detail is curling your toes and engaging your hamstring to create an active hooking action rather than relying on passive contact. If you relax this hook even momentarily during the threading motion, the opponent can extract their leg before you complete the X configuration, collapsing your entire guard."
+        "answer": "Keep active calf pressure on their hamstring with your foot hooked past the back of their knee, toes curled and hamstring engaged. This active hooking action — rather than passive contact — must be maintained throughout the entire threading motion. If you relax this hook even momentarily during the thread, the opponent can extract their leg before you complete the X configuration, collapsing your entire guard.",
+        "distractors": {
+          "plausible": [
+            "Passive contact behind knee",
+            "Hook loosely, adjust freely"
+          ],
+          "trap": [
+            "Relax hook mid-transition"
+          ]
+        },
+        "answer_line": "Active hook, toes curled hard"
       },
       {
         "question": "If the opponent blocks your X-Guard attempt by driving forward with pressure, what chain attack becomes available?",
-        "answer": "When the opponent drives forward against your threading attempt, their forward momentum creates an ideal entry to ashi garami or inside ashi positions. Their forward pressure means their leg is extending toward you rather than retracting away, making it easier to capture for leg entanglement. You can redirect your outside foot from the failed thread into an ashi hooking position, converting their defensive pressure into a leg lock opportunity they created themselves."
+        "answer": "When the opponent drives forward against your threading attempt, their forward momentum creates an ideal entry to ashi garami or inside ashi positions. Their forward pressure means their leg is extending toward you rather than retracting away, making it easier to capture for leg entanglement. You can redirect your outside foot from the failed thread into an ashi hooking position, converting their defensive pressure into a leg lock opportunity they created themselves.",
+        "answer_line": "Enter ashi garami off pressure",
+        "distractors": {
+          "plausible": [
+            "Retreat and reset to SLX",
+            "Switch to a scissor sweep"
+          ],
+          "trap": [
+            "Release the leg entirely"
+          ]
+        }
       },
       {
         "question": "What distinguishes a successful X-Guard configuration from one that is merely connected but ineffective?",
-        "answer": "A successful X-Guard configuration requires three simultaneous controls: a deep inside hook behind one knee creating elevation, an outside hook behind the other knee creating counter-pressure, and hand control on both ankles preventing extraction. Many practitioners connect both hooks but fail to position their hips directly underneath the opponent's center of gravity. Without this hip placement, the hooks create contact but not the structural leverage needed for high-percentage sweeps in multiple directions."
+        "answer": "Effective X-Guard pairs deep inside and outside hooks behind the knees with ankle control and hips directly under their center of gravity. All three controls must work simultaneously: the inside hook creating elevation, the outside hook creating counter-pressure, and hand control on both ankles preventing extraction. Many practitioners connect both hooks but fail to position their hips underneath the opponent's center — without this hip placement, the hooks create contact but not the structural leverage needed for high-percentage sweeps in multiple directions.",
+        "distractors": {
+          "plausible": [
+            "Both hooks connected only",
+            "Ankle grips without hooks"
+          ],
+          "trap": [
+            "Hooks in, hips out wide"
+          ]
+        },
+        "answer_line": "Hips under COG, both hooks set"
       }
     ],
-    "safety_considerations": "This transition involves controlled leg manipulation and carries low injury risk when performed with proper technique. Avoid explosive hooking motions that could hyperextend your own knee or ankle during the threading sequence. When drilling, ensure the standing partner maintains safe balance and has adequate space to step or fall safely if swept unexpectedly during the transition. Communicate with training partners about knee sensitivity before practicing repeated hook insertions behind the knee joint, as the back of the knee can be sensitive to pressure from the hooking calf."
+    "safety_considerations": "This transition involves controlled leg manipulation and carries low injury risk when performed with proper technique. Avoid explosive hooking motions that could hyperextend your own knee or ankle during the threading sequence. When drilling, ensure the standing partner maintains safe balance and has adequate space to step or fall safely if swept unexpectedly during the transition. Communicate with training partners about knee sensitivity before practicing repeated hook insertions behind the knee joint, as the back of the knee can be sensitive to pressure from the hooking calf.",
+    "clips": [
+      {
+        "id": "AhsXraebbdg",
+        "title": "Marcelo Garcia single leg X to X-guard sweep",
+        "by": "Marcelo Garcia",
+        "vertical": false,
+        "channel": "jen jitsu",
+        "duration": 47,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "zbYb6sOYC8w",
+        "title": "X-guard sweep demonstration",
+        "by": "Marcelo Garcia",
+        "vertical": false,
+        "channel": "CHOKE LABORATORY",
+        "duration": 53,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "EcxCadpBePk",
+        "title": "Single leg X to X-guard and reverse X options",
+        "by": "Steven Kaloustian",
+        "vertical": false,
+        "channel": "Steven Kaloustian",
+        "duration": 97,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "SLX to X-Guard Defender",
@@ -364,19 +495,59 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that your opponent is attempting the SLX to X-Guard transition?",
-        "answer": "The earliest cue is when the bottom player's outside foot lifts off your hip and begins traveling downward rather than maintaining the hip frame. This foot removal is the critical first step in the threading sequence and simultaneously removes their primary distance management tool. When you feel this pressure release from your hip, immediately step your free leg backward and consider driving forward before they can complete the thread."
+        "answer": "The earliest cue is when the bottom player's outside foot lifts off your hip and begins traveling downward rather than maintaining the hip frame. This foot removal is the critical first step in the threading sequence and simultaneously removes their primary distance management tool. When you feel this pressure release from your hip, immediately step your free leg backward and consider driving forward before they can complete the thread.",
+        "answer_line": "Their foot lifts off your hip",
+        "distractors": {
+          "plausible": [
+            "They grip your far ankle",
+            "They shift their hip angle"
+          ],
+          "trap": [
+            "Ignore it, keep pressure same"
+          ]
+        }
       },
       {
         "question": "Why is containing the position in SLX preferable to scrambling for a complete escape during the transition attempt?",
-        "answer": "Containing in SLX is strategically safer because SLX has fewer sweep angles and less overall sweeping power than full X-Guard. Your escape options from SLX remain consistent regardless of whether the bottom player is attempting a transition or not. Scrambling during the transition creates unpredictable movement where the bottom player can capitalize on your momentum shifts. Methodical containment followed by systematic SLX escape is the higher-percentage approach."
+        "answer": "Containing in SLX is strategically safer because SLX has fewer sweep angles and less overall sweeping power than full X-Guard. Your escape options from SLX remain consistent regardless of whether the bottom player is attempting a transition or not. Scrambling during the transition creates unpredictable movement where the bottom player can capitalize on your momentum shifts. Methodical containment followed by systematic SLX escape is the higher-percentage approach.",
+        "answer_line": "SLX has fewer sweep angles",
+        "distractors": {
+          "plausible": [
+            "Scrambling saves more energy",
+            "X-Guard escapes are simpler"
+          ],
+          "trap": [
+            "Scramble to escape immediately"
+          ]
+        }
       },
       {
         "question": "How should your weight distribution change when you detect the threading attempt beginning?",
-        "answer": "Shift more weight onto your free leg by stepping it backward and widening your base, while simultaneously driving your hips downward toward the trapped side to reduce the bottom player's elevation clearance. This weight shift makes your free leg harder to capture because it is both further away and more heavily loaded, while the downward hip pressure collapses the space the bottom player needs underneath your stance to complete the threading motion."
+        "answer": "Shift more weight onto your free leg by stepping it backward and widening your base, while simultaneously driving your hips downward toward the trapped side to reduce the bottom player's elevation clearance. This weight shift makes your free leg harder to capture because it is both further away and more heavily loaded, while the downward hip pressure collapses the space the bottom player needs underneath your stance to complete the threading motion.",
+        "answer_line": "Load free leg, drive hips down",
+        "distractors": {
+          "plausible": [
+            "Shift weight forward, posture up",
+            "Widen base, hips stay level"
+          ],
+          "trap": [
+            "Keep weight centered, hold still"
+          ]
+        }
       },
       {
         "question": "What passing opportunity opens when you successfully prevent the X-Guard transition?",
-        "answer": "When the bottom player's threading attempt fails and their outside foot is displaced from either your hip or their intended hook position behind your free knee, a momentary window opens for headquarters passing or knee slice entries. Their guard structure is temporarily compromised because their outside leg is between positions without providing defensive function. Attack immediately with forward pressure and passing grips before they recover their SLX configuration and re-establish the hip frame."
+        "answer": "When the bottom player's threading attempt fails and their outside foot is displaced from either your hip or their intended hook position behind your free knee, a momentary window opens for headquarters passing or knee slice entries. Their guard structure is temporarily compromised because their outside leg is between positions without providing defensive function. Attack immediately with forward pressure and passing grips before they recover their SLX configuration and re-establish the hip frame.",
+        "answer_line": "Knee slice or headquarters pass",
+        "distractors": {
+          "plausible": [
+            "Wait for them to reset guard",
+            "Pull guard to reset distance"
+          ],
+          "trap": [
+            "Bull through their remaining hook"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -399,6 +570,26 @@
         "phase": "Phase 4: Complete Defensive Integration",
         "focus": "Reading and responding to full SLX attack system",
         "description": "Full positional sparring starting from SLX with partner free to attempt any attack including X-Guard transitions, sweeps, and leg lock entries. Practice reading their intentions through recognition cues and selecting the appropriate defensive response. Competition-pace rounds with full resistance."
+      }
+    ],
+    "clips": [
+      {
+        "id": "VtBYEY7UvZ8",
+        "title": "Technical stand to escape X-guard",
+        "by": "Elevate Jiu Jitsu coach",
+        "vertical": false,
+        "channel": "Elevate Jiu Jitsu MAG",
+        "duration": 49,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "qStfwTHPxLw",
+        "title": "X-guard defence for the standing passer",
+        "by": "Bermuda Martial Arts coach",
+        "vertical": false,
+        "channel": "Bermuda Martial Arts",
+        "duration": 136,
+        "verified": "2026-07-15"
       }
     ]
   }

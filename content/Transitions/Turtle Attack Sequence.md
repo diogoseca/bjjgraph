@@ -34,6 +34,54 @@ description: "Master Turtle Transition attacks in BJJ. Complete guide to back ta
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Turtle Attack Sequence \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Turtle to crucifix attack",
+      "description": "Turtle Attack Sequence film study: Turtle to crucifix attack, taught by Prof Lopez.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/8amN_mjxDrI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/8amN_mjxDrI",
+      "url": "https://www.youtube.com/watch?v=8amN_mjxDrI",
+      "creator": { "@type": "Person", "name": "Prof Lopez" },
+      "duration": "PT70S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Turtle to crucifix entry",
+      "description": "Turtle Attack Sequence film study: Turtle to crucifix entry, taught by 519 Martial Arts.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/XjhCtXY5XvE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/XjhCtXY5XvE",
+      "url": "https://www.youtube.com/watch?v=XjhCtXY5XvE",
+      "creator": { "@type": "Person", "name": "519 Martial Arts" },
+      "duration": "PT82S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Crucifix from the turtle position",
+      "description": "Turtle Attack Sequence film study: Crucifix from the turtle position, taught by Serge.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/JTw40IV1QlU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/JTw40IV1QlU",
+      "url": "https://www.youtube.com/watch?v=JTw40IV1QlU",
+      "creator": { "@type": "Person", "name": "Serge" },
+      "duration": "PT25S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ Mastery of turtle attacks requires reading the defender's weight distribution an
 **Success Rate**: 58%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Turtle Attack Sequence in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=8amN_mjxDrI)
+
+<p class="clip-credit"><strong>Turtle to crucifix attack</strong> — taught by Prof Lopez · 1:10 · <a href="https://www.youtube.com/watch?v=8amN_mjxDrI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=XjhCtXY5XvE)
+
+<p class="clip-credit"><strong>Turtle to crucifix entry</strong> — taught by 519 Martial Arts · 1:22 · <a href="https://www.youtube.com/watch?v=XjhCtXY5XvE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=JTw40IV1QlU)
+
+<p class="clip-credit"><strong>Crucifix from the turtle position</strong> — taught by Serge · 0:25 · <a href="https://www.youtube.com/watch?v=JTw40IV1QlU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

@@ -174,6 +174,43 @@ description: "How to execute the transition to Russian Leg Lasso. Step-by-step t
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Lasso Guard to Russian Leg Lasso (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "4 Leg Lasso Techniques",
+      "description": "Lasso Guard to Russian Leg Lasso (Attacker) film study: 4 Leg Lasso Techniques, taught by The Grappling Academy.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/8u1c8ZEy0IU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/8u1c8ZEy0IU",
+      "url": "https://www.youtube.com/watch?v=8u1c8ZEy0IU",
+      "creator": { "@type": "Person", "name": "The Grappling Academy" },
+      "duration": "PT258S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "3 Essential Attacks from Lasso Guard",
+      "description": "Lasso Guard to Russian Leg Lasso (Attacker) film study: 3 Essential Attacks from Lasso Guard, taught by BIG OSS Jiu-Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/2DCBkTnHVMg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/2DCBkTnHVMg",
+      "url": "https://www.youtube.com/watch?v=2DCBkTnHVMg",
+      "creator": { "@type": "Person", "name": "BIG OSS Jiu-Jitsu" },
+      "duration": "PT498S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -183,6 +220,34 @@ Executing the transition to Russian Leg Lasso requires threading a second leg th
 **From Position**: [[Positions/Lasso Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Lasso Guard to Russian Leg Lasso (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=8u1c8ZEy0IU)
+
+<p class="clip-credit"><strong>4 Leg Lasso Techniques</strong> — taught by The Grappling Academy · 4:18 · <a href="https://www.youtube.com/watch?v=8u1c8ZEy0IU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=2DCBkTnHVMg)
+
+<p class="clip-credit"><strong>3 Essential Attacks from Lasso Guard</strong> — taught by BIG OSS Jiu-Jitsu · 8:18 · <a href="https://www.youtube.com/watch?v=2DCBkTnHVMg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

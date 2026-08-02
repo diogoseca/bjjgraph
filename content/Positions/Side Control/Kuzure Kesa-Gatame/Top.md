@@ -21,37 +21,37 @@ description: "Offensive guide for controlling and attacking from modified scarf 
     {
       "@type": "HowToStep",
       "name": "Execute Americana from Kuzure Kesa-Gatame",
-      "text": "From this position, attempt Americana from Kuzure Kesa-Gatame. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Americana from Kuzure Kesa-Gatame. This technique is attempted in 18% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Far Side Armbar",
-      "text": "From this position, attempt Far Side Armbar. This technique is attempted in 10% of exchanges from this position.",
+      "name": "Execute Kimura from Kuzure Kesa-Gatame",
+      "text": "From this position, attempt Kimura from Kuzure Kesa-Gatame. This technique is attempted in 16% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Kimura from Kuzure Kesa-Gatame",
-      "text": "From this position, attempt Kimura from Kuzure Kesa-Gatame. This technique is attempted in 10% of exchanges from this position.",
+      "name": "Execute Side Control to Mount",
+      "text": "From this position, attempt Side Control to Mount. This technique is attempted in 14% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Side Control to Mount",
-      "text": "From this position, attempt Side Control to Mount. This technique is attempted in 10% of exchanges from this position.",
+      "name": "Execute Side Control to North-South",
+      "text": "From this position, attempt Side Control to North-South. This technique is attempted in 12% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Side Control to North-South",
-      "text": "From this position, attempt Side Control to North-South. This technique is attempted in 11% of exchanges from this position.",
+      "name": "Execute Paper Cutter Choke from Kuzure Kesa-Gatame",
+      "text": "From this position, attempt Paper Cutter Choke from Kuzure Kesa-Gatame. This technique is attempted in 0% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Paper Cutter Choke from Kuzure Kesa-Gatame",
-      "text": "From this position, attempt Paper Cutter Choke from Kuzure Kesa-Gatame. This technique is attempted in 9% of exchanges from this position.",
+      "name": "Execute Arm Triangle from Kuzure Kesa-Gatame",
+      "text": "From this position, attempt Arm Triangle from Kuzure Kesa-Gatame. This technique is attempted in 13% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -153,6 +153,43 @@ description: "Offensive guide for controlling and attacking from modified scarf 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Kuzure Kesa-Gatame (Top) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Triangle Attacks from Kuzure Kesa Gatame",
+      "description": "Kuzure Kesa-Gatame (Top) film study: Triangle Attacks from Kuzure Kesa Gatame, taught by Chokes And More.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/tfykooWW-xk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/tfykooWW-xk",
+      "url": "https://www.youtube.com/watch?v=tfykooWW-xk",
+      "creator": { "@type": "Person", "name": "Chokes And More" },
+      "duration": "PT66S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Kuzure Kesa Gatame (Broken Scarf Hold)",
+      "description": "Kuzure Kesa-Gatame (Top) film study: Kuzure Kesa Gatame (Broken Scarf Hold), taught by Sampson Judo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/oXzrusNRq70/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/oXzrusNRq70",
+      "url": "https://www.youtube.com/watch?v=oXzrusNRq70",
+      "creator": { "@type": "Person", "name": "Sampson Judo" },
+      "duration": "PT19S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -166,6 +203,34 @@ What distinguishes Kuzure Kesa-Gatame from other side control variations is the 
 The position also serves a critical strategic role in competition and training scenarios. When opponents develop sophisticated defenses against standard side control, transitioning to Kuzure Kesa-Gatame resets the control dynamic and presents them with a different set of problems to solve. The position is particularly effective against larger opponents, as the mechanical advantage of the arm isolation and the efficiency of the hip pressure allow smaller practitioners to control and submit bigger adversaries. Mastering this position—both its control mechanics and submission sequences—represents a significant milestone in developing a complete top game.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Kuzure Kesa-Gatame (Top) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=tfykooWW-xk)
+
+<p class="clip-credit"><strong>Triangle Attacks from Kuzure Kesa Gatame</strong> — taught by Chokes And More · 1:06 · <a href="https://www.youtube.com/watch?v=tfykooWW-xk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=oXzrusNRq70)
+
+<p class="clip-credit"><strong>Kuzure Kesa Gatame (Broken Scarf Hold)</strong> — taught by Sampson Judo · 0:19 · <a href="https://www.youtube.com/watch?v=oXzrusNRq70" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

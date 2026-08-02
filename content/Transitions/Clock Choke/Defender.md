@@ -148,6 +148,54 @@ description: "How to defend the Clock Choke in BJJ. Recognition cues, grip defen
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Clock Choke (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Clock choke escape",
+      "description": "Clock Choke (Defender) film study: Clock choke escape, taught by Renato Migliaccio.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/5DnhNOvP66I/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/5DnhNOvP66I",
+      "url": "https://www.youtube.com/watch?v=5DnhNOvP66I",
+      "creator": { "@type": "Person", "name": "Renato Migliaccio" },
+      "duration": "PT11S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Clock choke counter",
+      "description": "Clock Choke (Defender) film study: Clock choke counter, taught by Jamie Ridgeway.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/RiBLBO9zinA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/RiBLBO9zinA",
+      "url": "https://www.youtube.com/watch?v=RiBLBO9zinA",
+      "creator": { "@type": "Person", "name": "Jamie Ridgeway" },
+      "duration": "PT79S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Escaping the clock choke from turtle",
+      "description": "Clock Choke (Defender) film study: Escaping the clock choke from turtle, taught by Andy Tong.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/bHIR07WZ8yI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/bHIR07WZ8yI",
+      "url": "https://www.youtube.com/watch?v=bHIR07WZ8yI",
+      "creator": { "@type": "Person", "name": "Andy Tong" },
+      "duration": "PT17S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -159,6 +207,42 @@ The most effective defensive window is during grip establishment. Tucking the ch
 **Opponent's Starting Position**: [[Positions/Turtle]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Clock Choke (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=5DnhNOvP66I)
+
+<p class="clip-credit"><strong>Clock choke escape</strong> — taught by Renato Migliaccio · 0:11 · <a href="https://www.youtube.com/watch?v=5DnhNOvP66I" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=RiBLBO9zinA)
+
+<p class="clip-credit"><strong>Clock choke counter</strong> — taught by Jamie Ridgeway · 1:19 · <a href="https://www.youtube.com/watch?v=RiBLBO9zinA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=bHIR07WZ8yI)
+
+<p class="clip-credit"><strong>Escaping the clock choke from turtle</strong> — taught by Andy Tong · 0:17 · <a href="https://www.youtube.com/watch?v=bHIR07WZ8yI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 
@@ -200,7 +284,7 @@ The most effective defensive window is during grip establishment. Tucking the ch
 ### 1. Two-on-one grip strip on the choking hand before it sinks deep into the collar
 
 - **When to use**: Immediately upon feeling the attacker's hand entering your collar, before the grip is fully established
-- **Targets**: [[Transitions/Clock Choke]]
+- **Targets**: [[Positions/Turtle]]
 - **If successful**: Attacker loses their primary choking grip and must re-establish, resetting to neutral turtle top position
 - **Risk**: Lifting your arm to grip fight briefly exposes your back to potential hook insertion or harness control
 

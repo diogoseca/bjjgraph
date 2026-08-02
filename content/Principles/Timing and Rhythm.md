@@ -164,6 +164,43 @@ description: "Master timing and rhythm in BJJ. Learn to read opponent reactions,
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Timing and Rhythm \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Understanding jiu-jitsu: timing and sequencing",
+      "description": "Timing and Rhythm film study: Understanding jiu-jitsu: timing and sequencing, taught by John Danaher.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/JMrGBjDctd4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/JMrGBjDctd4",
+      "url": "https://www.youtube.com/watch?v=JMrGBjDctd4",
+      "creator": { "@type": "Person", "name": "John Danaher" },
+      "duration": "PT1548S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Broken rhythm explained",
+      "description": "Timing and Rhythm film study: Broken rhythm explained, taught by Peter Mettler.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/B4g1FM2thlE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/B4g1FM2thlE",
+      "url": "https://www.youtube.com/watch?v=B4g1FM2thlE",
+      "creator": { "@type": "Person", "name": "Peter Mettler" },
+      "duration": "PT100S"
+    }
+  ]
+}
+</script>
+
+
 <section id="overview" class="content-section">
 
 ## What is Timing and Rhythm?
@@ -177,6 +214,34 @@ The principle operates on multiple temporal scales simultaneously: micro-timing 
 Mastery of timing and rhythm fundamentally transforms technical execution from mechanical repetition to dynamic problem-solving. Practitioners learn to create rhythmic patterns that lull opponents into predictable responses, then break those patterns at critical moments to create openings. This principle underlies sweep mechanics, submission entries, guard passing strategies, and defensive escapes, making it essential for development across all skill levels and competitive contexts.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Timing and Rhythm in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=JMrGBjDctd4)
+
+<p class="clip-credit"><strong>Understanding jiu-jitsu: timing and sequencing</strong> — taught by John Danaher · 25:48 · <a href="https://www.youtube.com/watch?v=JMrGBjDctd4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=B4g1FM2thlE)
+
+<p class="clip-credit"><strong>Broken rhythm explained</strong> — taught by Peter Mettler · 1:40 · <a href="https://www.youtube.com/watch?v=B4g1FM2thlE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="building-blocks" class="content-section">
 

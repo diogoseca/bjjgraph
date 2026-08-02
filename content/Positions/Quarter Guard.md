@@ -34,6 +34,54 @@ description: "Master Quarter Guard in BJJ. Strategic guide covering bottom defen
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Quarter Guard \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "What is the half guard?",
+      "description": "Quarter Guard film study: What is the half guard?, taught by Stephan Kesting.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/XMfbu5VR2kE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/XMfbu5VR2kE",
+      "url": "https://www.youtube.com/watch?v=XMfbu5VR2kE",
+      "creator": { "@type": "Person", "name": "Stephan Kesting" },
+      "duration": "PT109S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Quarter Guard Concepts",
+      "description": "Quarter Guard film study: Quarter Guard Concepts, taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/sMsgoChdaHE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/sMsgoChdaHE",
+      "url": "https://www.youtube.com/watch?v=sMsgoChdaHE",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT61S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Getting to Quarter Guard",
+      "description": "Quarter Guard film study: Getting to Quarter Guard, taught by Estevan Martinez.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/gEwRYxN_pIM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/gEwRYxN_pIM",
+      "url": "https://www.youtube.com/watch?v=gEwRYxN_pIM",
+      "creator": { "@type": "Person", "name": "Estevan Martinez" },
+      "duration": "PT122S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -66,6 +114,42 @@ The position's name derives from the reduced control compared to half guard—wh
 Quarter guard occurs most frequently during guard passing sequences when defenders attempt to retain half guard but cannot fully stop the pass, during scrambles where both players are transitioning between positions, or as part of systematic half guard approaches where the bottom player deliberately enters quarter guard to access specific techniques like the old school sweep or electric chair. Understanding quarter guard's transient nature is essential—it should be viewed as a decision point rather than a sustainable position, with success measured by how quickly and effectively practitioners transition to more advantageous states rather than how long they can maintain the position itself.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Quarter Guard in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=XMfbu5VR2kE)
+
+<p class="clip-credit"><strong>What is the half guard?</strong> — taught by Stephan Kesting · 1:49 · <a href="https://www.youtube.com/watch?v=XMfbu5VR2kE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=sMsgoChdaHE)
+
+<p class="clip-credit"><strong>Quarter Guard Concepts</strong> — taught by Eddie Bravo · 1:01 · <a href="https://www.youtube.com/watch?v=sMsgoChdaHE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=gEwRYxN_pIM)
+
+<p class="clip-credit"><strong>Getting to Quarter Guard</strong> — taught by Estevan Martinez · 2:02 · <a href="https://www.youtube.com/watch?v=gEwRYxN_pIM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 
@@ -135,27 +219,25 @@ Quarter guard occurs most frequently during guard passing sequences when defende
 ### Available Transitions
 
 
-- **[[Transitions/Old School Sweep/Attacker|Old School Sweep]]** (16% of attempts)
+- **[[Transitions/Old School Sweep/Attacker|Old School Sweep]]** (6% of attempts)
 
 - **[[Transitions/Half Guard to Back Take/Attacker|Half Guard to Back Take]]** (12% of attempts)
 
-- **[[Transitions/Underhook Sweep from Half/Attacker|Underhook Sweep from Half]]** (15% of attempts)
+- **[[Transitions/Underhook Sweep from Half/Attacker|Underhook Sweep from Half]]** (8% of attempts)
 
-- **[[Transitions/Deep Half Entry/Attacker|Deep Half Entry]]** (14% of attempts)
+- **[[Transitions/Deep Half Entry/Attacker|Deep Half Entry]]** (9% of attempts)
 
-- **[[Transitions/Rolling Back Take/Attacker|Rolling Back Take]]** (10% of attempts)
+- **[[Transitions/Electric Chair Transition/Attacker|Electric Chair Transition]]** (3% of attempts)
 
-- **[[Transitions/Electric Chair Transition/Attacker|Electric Chair Transition]]** (8% of attempts)
+- **[[Transitions/Knee Shield Retention/Attacker|Knee Shield Retention]]** (11% of attempts)
 
-- **[[Transitions/Knee Shield Retention/Attacker|Knee Shield Retention]]** (12% of attempts)
+- **[[Transitions/Lockdown Recovery/Attacker|Lockdown Recovery]]** (6% of attempts)
 
-- **[[Transitions/Lockdown Recovery/Attacker|Lockdown Recovery]]** (9% of attempts)
+- **[[Transitions/Knee Shield from Quarter Guard/Attacker|Knee Shield from Quarter Guard]]** (17% of attempts)
 
-- **[[Transitions/Knee Shield from Quarter Guard/Attacker|Knee Shield from Quarter Guard]]** (2% of attempts)
+- **[[Transitions/Recover Full Guard from Quarter Guard/Attacker|Recover Full Guard from Quarter Guard]]** (19% of attempts)
 
-- **[[Transitions/Recover Full Guard from Quarter Guard/Attacker|Recover Full Guard from Quarter Guard]]** (1% of attempts)
-
-- **[[Transitions/Sweep from Quarter Guard/Attacker|Sweep from Quarter Guard]]** (1% of attempts)
+- **[[Transitions/Sweep from Quarter Guard/Attacker|Sweep from Quarter Guard]]** (9% of attempts)
 
 
 ### Common Mistakes
@@ -216,7 +298,7 @@ Quarter guard occurs most frequently during guard passing sequences when defende
 ### Available Transitions
 
 
-- **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** (28% of attempts)
+- **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** (20% of attempts)
 
 - **[[Transitions/Smash Pass/Attacker|Smash Pass]]** (10% of attempts)
 
@@ -224,21 +306,19 @@ Quarter guard occurs most frequently during guard passing sequences when defende
 
 - **[[Transitions/Underhook Pass/Attacker|Underhook Pass]]** (9% of attempts)
 
-- **[[Transitions/Long Step Pass/Attacker|Long Step Pass]]** (8% of attempts)
+- **[[Transitions/Long Step Pass/Attacker|Long Step Pass]]** (5% of attempts)
 
-- **[[Transitions/Half Guard to Back Take/Attacker|Half Guard to Back Take]]** (6% of attempts)
+- **[[Transitions/Side Control to Mount/Attacker|Side Control to Mount]]** (2% of attempts)
 
-- **[[Transitions/Side Control to Mount/Attacker|Side Control to Mount]]** (7% of attempts)
-
-- **[[Transitions/Side Control to North-South/Attacker|Side Control to North-South]]** (8% of attempts)
+- **[[Transitions/Side Control to North-South/Attacker|Side Control to North-South]]** (1% of attempts)
 
 - **[[Kimura from Quarter Guard/Attacker|Kimura from Quarter Guard]]** (6% of attempts)
 
-- **[[Transitions/Darce Setup/Attacker|Darce Setup]]** (5% of attempts)
+- **[[Transitions/Darce Setup/Attacker|Darce Setup]]** (9% of attempts)
 
-- **[[Transitions/Complete Pass from Quarter/Attacker|Complete Pass from Quarter]]** (2% of attempts)
+- **[[Transitions/Complete Pass from Quarter/Attacker|Complete Pass from Quarter]]** (17% of attempts)
 
-- **[[Transitions/Knee Through from Quarter/Attacker|Knee Through from Quarter]]** (1% of attempts)
+- **[[Transitions/Knee Through from Quarter/Attacker|Knee Through from Quarter]]** (11% of attempts)
 
 
 ### Common Mistakes

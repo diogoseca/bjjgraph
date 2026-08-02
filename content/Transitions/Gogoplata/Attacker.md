@@ -168,6 +168,54 @@ description: "How to execute Gogoplata in BJJ. Attacking perspective with setup,
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Gogoplata (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "How to do the gogoplata from knee shield half guard",
+      "description": "Gogoplata (Attacker) film study: How to do the gogoplata from knee shield half guard, taught by Jamie.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/VbLlhI0aZC8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/VbLlhI0aZC8",
+      "url": "https://www.youtube.com/watch?v=VbLlhI0aZC8",
+      "creator": { "@type": "Person", "name": "Jamie" },
+      "duration": "PT68S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Gogoplata from guard",
+      "description": "Gogoplata (Attacker) film study: Gogoplata from guard, taught by Unknown coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/4Opp0j7UmlU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/4Opp0j7UmlU",
+      "url": "https://www.youtube.com/watch?v=4Opp0j7UmlU",
+      "creator": { "@type": "Person", "name": "Unknown coach" },
+      "duration": "PT21S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Gogoplata no-gi",
+      "description": "Gogoplata (Attacker) film study: Gogoplata no-gi, taught by Thiago Angelon.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/XWSofigu-zk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/XWSofigu-zk",
+      "url": "https://www.youtube.com/watch?v=XWSofigu-zk",
+      "creator": { "@type": "Person", "name": "Thiago Angelon" },
+      "duration": "PT16S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -183,6 +231,42 @@ Competition footage shows the Gogoplata succeeding primarily when opponents are 
 **From Position**: [[Positions/Rubber Guard/Mission Control]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Gogoplata (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=VbLlhI0aZC8)
+
+<p class="clip-credit"><strong>How to do the gogoplata from knee shield half guard</strong> — taught by Jamie · 1:08 · <a href="https://www.youtube.com/watch?v=VbLlhI0aZC8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=4Opp0j7UmlU)
+
+<p class="clip-credit"><strong>Gogoplata from guard</strong> — taught by Unknown coach · 0:21 · <a href="https://www.youtube.com/watch?v=4Opp0j7UmlU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=XWSofigu-zk)
+
+<p class="clip-credit"><strong>Gogoplata no-gi</strong> — taught by Thiago Angelon · 0:16 · <a href="https://www.youtube.com/watch?v=XWSofigu-zk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

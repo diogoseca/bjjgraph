@@ -148,6 +148,43 @@ description: "How to defend against Arm Extraction in BJJ. Recognition cues, def
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Arm Extraction (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Side control bottom: guard recovery vs the cross face",
+      "description": "Arm Extraction (Defender) film study: Side control bottom: guard recovery vs the cross face, taught by Academy Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/QH9-1I5XqO4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/QH9-1I5XqO4",
+      "url": "https://www.youtube.com/watch?v=QH9-1I5XqO4",
+      "creator": { "@type": "Person", "name": "Academy Jiu Jitsu" },
+      "duration": "PT105S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Frame Options With the Outside Arm",
+      "description": "Arm Extraction (Defender) film study: Frame Options With the Outside Arm, taught by John Danaher.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/SsllJSWsyJc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/SsllJSWsyJc",
+      "url": "https://www.youtube.com/watch?v=SsllJSWsyJc",
+      "creator": { "@type": "Person", "name": "John Danaher" },
+      "duration": "PT217S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -161,6 +198,34 @@ The most successful defenders combine heavy pressure with positional awareness, 
 **Opponent's Starting Position**: [[Positions/Side Control]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Arm Extraction (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=QH9-1I5XqO4)
+
+<p class="clip-credit"><strong>Side control bottom: guard recovery vs the cross face</strong> — taught by Academy Jiu Jitsu · 1:45 · <a href="https://www.youtube.com/watch?v=QH9-1I5XqO4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=SsllJSWsyJc)
+
+<p class="clip-credit"><strong>Frame Options With the Outside Arm</strong> — taught by John Danaher · 3:37 · <a href="https://www.youtube.com/watch?v=SsllJSWsyJc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

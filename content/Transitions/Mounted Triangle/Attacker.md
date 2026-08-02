@@ -168,6 +168,43 @@ description: "How to execute Mounted Triangle in BJJ. Attacking perspective with
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Mounted Triangle (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "The mounted triangle",
+      "description": "Mounted Triangle (Attacker) film study: The mounted triangle, taught by Thunderdome BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/bSpySnLNiQg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/bSpySnLNiQg",
+      "url": "https://www.youtube.com/watch?v=bSpySnLNiQg",
+      "creator": { "@type": "Person", "name": "Thunderdome BJJ" },
+      "duration": "PT56S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Mounted triangle from S-mount for short legs",
+      "description": "Mounted Triangle (Attacker) film study: Mounted triangle from S-mount for short legs, taught by Submission Radio.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/8-hYlvwOqgU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/8-hYlvwOqgU",
+      "url": "https://www.youtube.com/watch?v=8-hYlvwOqgU",
+      "creator": { "@type": "Person", "name": "Submission Radio" },
+      "duration": "PT105S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -177,6 +214,34 @@ The Mounted Triangle represents one of the most dominant submission setups in Br
 **From Position**: [[Positions/Mount/Modified Mount]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Mounted Triangle (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=bSpySnLNiQg)
+
+<p class="clip-credit"><strong>The mounted triangle</strong> — taught by Thunderdome BJJ · 0:56 · <a href="https://www.youtube.com/watch?v=bSpySnLNiQg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=8-hYlvwOqgU)
+
+<p class="clip-credit"><strong>Mounted triangle from S-mount for short legs</strong> — taught by Submission Radio · 1:45 · <a href="https://www.youtube.com/watch?v=8-hYlvwOqgU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

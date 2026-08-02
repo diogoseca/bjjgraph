@@ -180,6 +180,54 @@ description: "Master the standing guard break from closed guard top. Step-by-ste
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Stand Up in Closed Guard (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "3 ways to open closed guard by standing up",
+      "description": "Stand Up in Closed Guard (Attacker) film study: 3 ways to open closed guard by standing up, taught by RGA South Herts.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/3tvI0nmCXRk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/3tvI0nmCXRk",
+      "url": "https://www.youtube.com/watch?v=3tvI0nmCXRk",
+      "creator": { "@type": "Person", "name": "RGA South Herts" },
+      "duration": "PT63S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Basic standing guard break and pass",
+      "description": "Stand Up in Closed Guard (Attacker) film study: Basic standing guard break and pass, taught by Rickson Gracie.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/RrD643OqTao/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/RrD643OqTao",
+      "url": "https://www.youtube.com/watch?v=RrD643OqTao",
+      "creator": { "@type": "Person", "name": "Rickson Gracie" },
+      "duration": "PT66S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Vale tudo standing guard pass",
+      "description": "Stand Up in Closed Guard (Attacker) film study: Vale tudo standing guard pass, taught by Adam Song.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/E4UjJi0n0mM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/E4UjJi0n0mM",
+      "url": "https://www.youtube.com/watch?v=E4UjJi0n0mM",
+      "creator": { "@type": "Person", "name": "Adam Song" },
+      "duration": "PT51S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -189,6 +237,42 @@ As the attacker executing the stand up in closed guard, your objective is to tra
 **From Position**: [[Positions/Closed Guard]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Stand Up in Closed Guard (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=3tvI0nmCXRk)
+
+<p class="clip-credit"><strong>3 ways to open closed guard by standing up</strong> — taught by RGA South Herts · 1:03 · <a href="https://www.youtube.com/watch?v=3tvI0nmCXRk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=RrD643OqTao)
+
+<p class="clip-credit"><strong>Basic standing guard break and pass</strong> — taught by Rickson Gracie · 1:06 · <a href="https://www.youtube.com/watch?v=RrD643OqTao" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=E4UjJi0n0mM)
+
+<p class="clip-credit"><strong>Vale tudo standing guard pass</strong> — taught by Adam Song · 0:51 · <a href="https://www.youtube.com/watch?v=E4UjJi0n0mM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

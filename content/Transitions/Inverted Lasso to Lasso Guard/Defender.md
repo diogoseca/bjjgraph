@@ -132,6 +132,54 @@ description: "Learn to counter the inverted lasso to lasso guard recovery. Guide
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Inverted Lasso to Lasso Guard (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Passing lasso guard through to the back",
+      "description": "Inverted Lasso to Lasso Guard (Defender) film study: Passing lasso guard through to the back, taught by Gabriel Sousa.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/9sQAn2ESkMU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/9sQAn2ESkMU",
+      "url": "https://www.youtube.com/watch?v=9sQAn2ESkMU",
+      "creator": { "@type": "Person", "name": "Gabriel Sousa" },
+      "duration": "PT113S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Passing the Lasso Guard with the Longstep",
+      "description": "Inverted Lasso to Lasso Guard (Defender) film study: Passing the Lasso Guard with the Longstep, taught by Dom.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Bnx650_z48I/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Bnx650_z48I",
+      "url": "https://www.youtube.com/watch?v=Bnx650_z48I",
+      "creator": { "@type": "Person", "name": "Dom" },
+      "duration": "PT223S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Escaping and Passing the Lasso",
+      "description": "Inverted Lasso to Lasso Guard (Defender) film study: Escaping and Passing the Lasso, taught by Bryce Nie.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/kNpws9uAY8o/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/kNpws9uAY8o",
+      "url": "https://www.youtube.com/watch?v=kNpws9uAY8o",
+      "creator": { "@type": "Person", "name": "Bryce Nie" },
+      "duration": "PT383S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -141,6 +189,42 @@ As the defender (top player), you face a critical decision window when the botto
 **Opponent's Starting Position**: [[Positions/Lasso Guard/Inverted Lasso Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Inverted Lasso to Lasso Guard (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=9sQAn2ESkMU)
+
+<p class="clip-credit"><strong>Passing lasso guard through to the back</strong> — taught by Gabriel Sousa · 1:53 · <a href="https://www.youtube.com/watch?v=9sQAn2ESkMU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Bnx650_z48I)
+
+<p class="clip-credit"><strong>Passing the Lasso Guard with the Longstep</strong> — taught by Dom · 3:43 · <a href="https://www.youtube.com/watch?v=Bnx650_z48I" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=kNpws9uAY8o)
+
+<p class="clip-credit"><strong>Escaping and Passing the Lasso</strong> — taught by Bryce Nie · 6:23 · <a href="https://www.youtube.com/watch?v=kNpws9uAY8o" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

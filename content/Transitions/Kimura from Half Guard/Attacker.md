@@ -174,6 +174,54 @@ description: "Complete guide to attacking the Kimura from Half Guard Bottom. Mas
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Kimura from Half Guard (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "How to kimura from bottom half guard",
+      "description": "Kimura from Half Guard (Attacker) film study: How to kimura from bottom half guard, taught by Evolve MMA.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/5F3ZM01oPVo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/5F3ZM01oPVo",
+      "url": "https://www.youtube.com/watch?v=5F3ZM01oPVo",
+      "creator": { "@type": "Person", "name": "Evolve MMA" },
+      "duration": "PT41S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Kimura from half guard bottom",
+      "description": "Kimura from Half Guard (Attacker) film study: Kimura from half guard bottom, taught by Renato Migliaccio.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/VtfT_NNt69U/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/VtfT_NNt69U",
+      "url": "https://www.youtube.com/watch?v=VtfT_NNt69U",
+      "creator": { "@type": "Person", "name": "Renato Migliaccio" },
+      "duration": "PT73S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Gi kimura from bottom half guard",
+      "description": "Kimura from Half Guard (Attacker) film study: Gi kimura from bottom half guard, taught by Hellfish MMA.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/dLAF7Fq_zR8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/dLAF7Fq_zR8",
+      "url": "https://www.youtube.com/watch?v=dLAF7Fq_zR8",
+      "creator": { "@type": "Person", "name": "Hellfish MMA" },
+      "duration": "PT102S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -183,6 +231,42 @@ As the attacker from half guard bottom, your objective is to identify arm exposu
 **From Position**: [[Positions/Half Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Kimura from Half Guard (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=5F3ZM01oPVo)
+
+<p class="clip-credit"><strong>How to kimura from bottom half guard</strong> — taught by Evolve MMA · 0:41 · <a href="https://www.youtube.com/watch?v=5F3ZM01oPVo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=VtfT_NNt69U)
+
+<p class="clip-credit"><strong>Kimura from half guard bottom</strong> — taught by Renato Migliaccio · 1:13 · <a href="https://www.youtube.com/watch?v=VtfT_NNt69U" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=dLAF7Fq_zR8)
+
+<p class="clip-credit"><strong>Gi kimura from bottom half guard</strong> — taught by Hellfish MMA · 1:42 · <a href="https://www.youtube.com/watch?v=dLAF7Fq_zR8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

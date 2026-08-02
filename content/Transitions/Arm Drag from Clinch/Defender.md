@@ -140,6 +140,54 @@ description: "Defend against the arm drag from clinch with early recognition, pu
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Arm Drag from Clinch (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "How to Defend the Arm Drag",
+      "description": "Arm Drag from Clinch (Defender) film study: How to Defend the Arm Drag, taught by Matt Arroyo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/bmCjXADzgo4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/bmCjXADzgo4",
+      "url": "https://www.youtube.com/watch?v=bmCjXADzgo4",
+      "creator": { "@type": "Person", "name": "Matt Arroyo" },
+      "duration": "PT103S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Standing Arm Drag Counter",
+      "description": "Arm Drag from Clinch (Defender) film study: Standing Arm Drag Counter, taught by Gracie Barra HQ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/T3ChZk__H9c/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/T3ChZk__H9c",
+      "url": "https://www.youtube.com/watch?v=T3ChZk__H9c",
+      "creator": { "@type": "Person", "name": "Gracie Barra HQ" },
+      "duration": "PT141S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Over Under Arm Drag to Side Clinch",
+      "description": "Arm Drag from Clinch (Defender) film study: Over Under Arm Drag to Side Clinch, taught by Fargo BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/qk3MUabz0AA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/qk3MUabz0AA",
+      "url": "https://www.youtube.com/watch?v=qk3MUabz0AA",
+      "creator": { "@type": "Person", "name": "Fargo BJJ" },
+      "duration": "PT78S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -149,6 +197,42 @@ Defending the arm drag from clinch requires recognizing the setup before the dra
 **Opponent's Starting Position**: [[Positions/Clinch]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Arm Drag from Clinch (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=bmCjXADzgo4)
+
+<p class="clip-credit"><strong>How to Defend the Arm Drag</strong> — taught by Matt Arroyo · 1:43 · <a href="https://www.youtube.com/watch?v=bmCjXADzgo4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=T3ChZk__H9c)
+
+<p class="clip-credit"><strong>Standing Arm Drag Counter</strong> — taught by Gracie Barra HQ · 2:21 · <a href="https://www.youtube.com/watch?v=T3ChZk__H9c" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=qk3MUabz0AA)
+
+<p class="clip-credit"><strong>Over Under Arm Drag to Side Clinch</strong> — taught by Fargo BJJ · 1:18 · <a href="https://www.youtube.com/watch?v=qk3MUabz0AA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

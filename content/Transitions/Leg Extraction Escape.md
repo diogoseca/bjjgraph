@@ -34,6 +34,32 @@ description: "Master Leg Extraction Escape from Gogoplata Control in BJJ. Comple
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Leg Extraction Escape \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Freeing the Leg from the Lockdown",
+      "description": "Leg Extraction Escape film study: Freeing the Leg from the Lockdown, taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/tD8TqCilFCA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/tD8TqCilFCA",
+      "url": "https://www.youtube.com/watch?v=tD8TqCilFCA",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT61S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +95,26 @@ Strategically, this escape serves as the primary pathway out of gogoplata contro
 **Success Rate**: 58%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Leg Extraction Escape in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=tD8TqCilFCA)
+
+<p class="clip-credit"><strong>Freeing the Leg from the Lockdown</strong> — taught by Eddie Bravo · 1:01 · <a href="https://www.youtube.com/watch?v=tD8TqCilFCA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

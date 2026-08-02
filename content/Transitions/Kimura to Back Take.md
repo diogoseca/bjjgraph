@@ -34,6 +34,54 @@ description: "Master the Kimura to Back Take transition in BJJ. Learn to convert
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Kimura to Back Take \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Kimura trap back take from half guard",
+      "description": "Kimura to Back Take film study: Kimura trap back take from half guard, taught by BJJ4Breakfast.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/xpEueRuYcnM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/xpEueRuYcnM",
+      "url": "https://www.youtube.com/watch?v=xpEueRuYcnM",
+      "creator": { "@type": "Person", "name": "BJJ4Breakfast" },
+      "duration": "PT69S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Kimura trap to back take to RNC",
+      "description": "Kimura to Back Take film study: Kimura trap to back take to RNC, taught by Focused Fight Team.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/OoCf7ukKR54/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/OoCf7ukKR54",
+      "url": "https://www.youtube.com/watch?v=OoCf7ukKR54",
+      "creator": { "@type": "Person", "name": "Focused Fight Team" },
+      "duration": "PT89S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Kimura trap flow: control, invert, take the back",
+      "description": "Kimura to Back Take film study: Kimura trap flow: control, invert, take the back, taught by Mr. NogiJiujitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/MGotqppgD0w/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/MGotqppgD0w",
+      "url": "https://www.youtube.com/watch?v=MGotqppgD0w",
+      "creator": { "@type": "Person", "name": "Mr. NogiJiujitsu" },
+      "duration": "PT59S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -66,9 +114,45 @@ The grip control established in the Kimura position provides exceptional leverag
 Understanding this transition fundamentally changes how practitioners approach the Kimura, transforming it from merely a submission attempt into a positional control system that offers multiple attacking pathways. The transition creates a classic dilemma: defend the shoulder lock and expose the back, or protect the back and risk the submission finish. This forced choice is what makes the Kimura to Back Take one of the most reliable positional advancement tools in the modern grappling arsenal.
 
 **From Position**: [[Positions/Kimura Trap]] (Bottom)
-**Success Rate**: 58%
+**Success Rate**: 42%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Kimura to Back Take in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=xpEueRuYcnM)
+
+<p class="clip-credit"><strong>Kimura trap back take from half guard</strong> — taught by BJJ4Breakfast · 1:09 · <a href="https://www.youtube.com/watch?v=xpEueRuYcnM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=OoCf7ukKR54)
+
+<p class="clip-credit"><strong>Kimura trap to back take to RNC</strong> — taught by Focused Fight Team · 1:29 · <a href="https://www.youtube.com/watch?v=OoCf7ukKR54" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=MGotqppgD0w)
+
+<p class="clip-credit"><strong>Kimura trap flow: control, invert, take the back</strong> — taught by Mr. NogiJiujitsu · 0:59 · <a href="https://www.youtube.com/watch?v=MGotqppgD0w" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

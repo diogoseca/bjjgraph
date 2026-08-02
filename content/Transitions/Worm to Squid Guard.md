@@ -34,6 +34,54 @@ description: "Master the Worm to Squid Guard transition in BJJ. Complete guide t
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Worm to Squid Guard \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Worm guard breakdown",
+      "description": "Worm to Squid Guard film study: Worm guard breakdown, taught by Erich Munis.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/QzwnLW735U8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/QzwnLW735U8",
+      "url": "https://www.youtube.com/watch?v=QzwnLW735U8",
+      "creator": { "@type": "Person", "name": "Erich Munis" },
+      "duration": "PT53S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Worm guard attacks: sweep and berimbolo",
+      "description": "Worm to Squid Guard film study: Worm guard attacks: sweep and berimbolo, taught by jamielovesmartialarts.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/BHwU-bbyvkc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/BHwU-bbyvkc",
+      "url": "https://www.youtube.com/watch?v=BHwU-bbyvkc",
+      "creator": { "@type": "Person", "name": "jamielovesmartialarts" },
+      "duration": "PT89S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Reverse worm guard to the back",
+      "description": "Worm to Squid Guard film study: Reverse worm guard to the back, taught by Carpio Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Dcdm1k8FsXg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Dcdm1k8FsXg",
+      "url": "https://www.youtube.com/watch?v=Dcdm1k8FsXg",
+      "creator": { "@type": "Person", "name": "Carpio Jiu Jitsu" },
+      "duration": "PT111S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ This transition is strategically valuable when your worm guard attacks have stal
 **Success Rate**: 55%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Worm to Squid Guard in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=QzwnLW735U8)
+
+<p class="clip-credit"><strong>Worm guard breakdown</strong> — taught by Erich Munis · 0:53 · <a href="https://www.youtube.com/watch?v=QzwnLW735U8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=BHwU-bbyvkc)
+
+<p class="clip-credit"><strong>Worm guard attacks: sweep and berimbolo</strong> — taught by jamielovesmartialarts · 1:29 · <a href="https://www.youtube.com/watch?v=BHwU-bbyvkc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Dcdm1k8FsXg)
+
+<p class="clip-credit"><strong>Reverse worm guard to the back</strong> — taught by Carpio Jiu Jitsu · 1:51 · <a href="https://www.youtube.com/watch?v=Dcdm1k8FsXg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

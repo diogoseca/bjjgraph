@@ -164,6 +164,43 @@ description: "Master fundamental leverage mechanics in BJJ. Learn fulcrum positi
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Levers \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Leverage explained: defending armbars with levers",
+      "description": "Levers film study: Leverage explained: defending armbars with levers, taught by Stephan Kesting.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/RDlDO3DipSU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/RDlDO3DipSU",
+      "url": "https://www.youtube.com/watch?v=RDlDO3DipSU",
+      "creator": { "@type": "Person", "name": "Stephan Kesting" },
+      "duration": "PT1019S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "The surprising physics and levers behind jiu-jitsu",
+      "description": "Levers film study: The surprising physics and levers behind jiu-jitsu, taught by BBC Reel.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/PbpwQzUwmE8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/PbpwQzUwmE8",
+      "url": "https://www.youtube.com/watch?v=PbpwQzUwmE8",
+      "creator": { "@type": "Person", "name": "BBC Reel" },
+      "duration": "PT363S"
+    }
+  ]
+}
+</script>
+
+
 <section id="overview" class="content-section">
 
 ## What are Levers?
@@ -173,6 +210,34 @@ description: "Master fundamental leverage mechanics in BJJ. Learn fulcrum positi
 Among the conceptual foundations of Brazilian Jiu-Jitsu, leverage occupies a privileged place: it is the physics that explains why the art rewards technique over athleticism and why a well-positioned grappler can dismantle a far stronger one. Unlike specific techniques, leverage principles are comprehensive conceptual frameworks that apply across all positions, submissions, sweeps, and control scenarios in BJJ. This concept encompasses the physics of fulcrums, lever arms, force multiplication, and compound leverage systems, serving as both the theoretical foundation for technique effectiveness and the practical methodology for efficient movement. The ability to recognize and create leverage opportunities often determines whether techniques succeed against stronger opponents, making it one of the most essential conceptual elements in Brazilian Jiu-Jitsu. Leverage principles explain why smaller practitioners can control larger opponents and why proper technique overcomes strength.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Levers in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=RDlDO3DipSU)
+
+<p class="clip-credit"><strong>Leverage explained: defending armbars with levers</strong> — taught by Stephan Kesting · 16:59 · <a href="https://www.youtube.com/watch?v=RDlDO3DipSU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=PbpwQzUwmE8)
+
+<p class="clip-credit"><strong>The surprising physics and levers behind jiu-jitsu</strong> — taught by BBC Reel · 6:03 · <a href="https://www.youtube.com/watch?v=PbpwQzUwmE8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="building-blocks" class="content-section">
 

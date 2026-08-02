@@ -142,6 +142,54 @@ description: "How to defend against Kimura on Trapped Arm in BJJ. Recognition cu
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Kimura on Trapped Arm (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Defending the kimura",
+      "description": "Kimura on Trapped Arm (Defender) film study: Defending the kimura, taught by Eddie Kone.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/TuaopPUakM8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/TuaopPUakM8",
+      "url": "https://www.youtube.com/watch?v=TuaopPUakM8",
+      "creator": { "@type": "Person", "name": "Eddie Kone" },
+      "duration": "PT61S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Kimura defense from bottom side control",
+      "description": "Kimura on Trapped Arm (Defender) film study: Kimura defense from bottom side control, taught by Gracie Westchase.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/MM9rddEgJ58/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/MM9rddEgJ58",
+      "url": "https://www.youtube.com/watch?v=MM9rddEgJ58",
+      "creator": { "@type": "Person", "name": "Gracie Westchase" },
+      "duration": "PT156S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Countering the kimura back take",
+      "description": "Kimura on Trapped Arm (Defender) film study: Countering the kimura back take, taught by Placido Santos.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/qKj5Y-jDEeM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/qKj5Y-jDEeM",
+      "url": "https://www.youtube.com/watch?v=qKj5Y-jDEeM",
+      "creator": { "@type": "Person", "name": "Placido Santos" },
+      "duration": "PT32S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -153,6 +201,42 @@ The critical defensive window occurs during the transition from Gift Wrap to Kim
 **Opponent's Starting Position**: [[Positions/Gift Wrap]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Kimura on Trapped Arm (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=TuaopPUakM8)
+
+<p class="clip-credit"><strong>Defending the kimura</strong> — taught by Eddie Kone · 1:01 · <a href="https://www.youtube.com/watch?v=TuaopPUakM8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=MM9rddEgJ58)
+
+<p class="clip-credit"><strong>Kimura defense from bottom side control</strong> — taught by Gracie Westchase · 2:36 · <a href="https://www.youtube.com/watch?v=MM9rddEgJ58" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=qKj5Y-jDEeM)
+
+<p class="clip-credit"><strong>Countering the kimura back take</strong> — taught by Placido Santos · 0:32 · <a href="https://www.youtube.com/watch?v=qKj5Y-jDEeM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

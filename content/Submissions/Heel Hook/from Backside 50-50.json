@@ -18,7 +18,10 @@
   "target_area": "Knee (MCL, LCL, ACL, meniscus)",
   "starting_position": "Backside 50-50",
   "from_position": "Backside 50-50/Bottom",
-  "success_rate": 45,
+  "success_rate": {
+    "gi": 45,
+    "nogi": 45
+  },
   "overview": "The heel hook from Backside 50-50 bottom represents one of the most tactically significant opportunistic attacks in modern leg lock grappling. Despite occupying the disadvantaged position with your back exposed to your opponent's chest, the shared leg entanglement inherent in all 50-50 configurations means your access to the opponent's heel remains viable. This attack capitalizes on moments when the top player overcommits to passing, back control transitions, or their own leg attacks, temporarily reducing their defensive attention to their entangled leg.\n\nThe mechanics of this heel hook rely on the same fundamental rotational breaking principles as any heel hook finish, but the execution demands heightened awareness of positional vulnerability. Because you are attacking from the bottom, every second spent committing hands to the heel is a second your frames and back defense are compromised. This creates a high-stakes timing puzzle where attacking too early means insufficient heel exposure and attacking too late means the top player has already advanced past your leg entanglement.\n\nCompetition analysis reveals that this attack succeeds most often as a counter-attack rather than a proactive offense. When the top player shifts weight to pursue back control or commits to their own leg attack, their heel becomes momentarily accessible and their defensive posture toward their own legs weakens. The attempt probability is low but the finish rate is meaningful when conditions align, making it a critical deterrent that prevents top players from attacking with impunity. Recognizing these windows and executing with precision separates the opportunistic finisher from the practitioner who simply absorbs pressure from bottom.",
   "safety_considerations": {
     "injury_risks": [
@@ -66,17 +69,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 45,
+      "probability": {
+        "gi": 45,
+        "nogi": 45
+      },
       "result": "success"
     },
     {
       "to": "Backside 50-50/Bottom",
-      "probability": 35,
+      "probability": {
+        "gi": 35,
+        "nogi": 35
+      },
       "result": "failure"
     },
     {
       "to": "Back Control/Bottom",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "counter"
     }
   ],
@@ -305,52 +317,181 @@
       {
         "question": "What is the optimal timing window for initiating the heel hook from Backside 50-50 bottom?",
         "answer": "The optimal window opens when the top player shifts their offensive focus and redistributes their weight. This occurs when they initiate a back control attempt, commit hands to their own leg attack, or adjust their pressure angle. During these transitions, their chest pressure lightens and their defensive awareness of their own heel drops. You feel the pressure reduction through your frames and see or feel their hands leave your legs. This window is typically one to three seconds long before they settle into their new offensive posture.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "When their pressure/focus shifts",
+        "distractors": {
+          "plausible": [
+            "Immediately upon entanglement",
+            "Once they settle full pressure"
+          ],
+          "trap": [
+            "Force it despite heavy pressure"
+          ]
+        }
       },
       {
         "question": "Your opponent is driving heavy chest pressure and you cannot find an opening for the heel hook. What should you prioritize?",
         "answer": "Prioritize defensive frame maintenance and positional survival over forcing the heel hook. A settled top player with full chest pressure has both awareness and mechanical advantage to defend any heel hook attempt from bottom. Forcing the attack against a stable opponent only opens you to back control counter without meaningful submission threat. Maintain your frames, stay on your side to preserve hip mobility, and wait for the opponent to create the opening through their own movement. The heel hook from bottom is fundamentally a reactive counter-attack, not a proactive strategy.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Frame up, stay on your side",
+        "distractors": {
+          "plausible": [
+            "Bridge hard to sweep them",
+            "Attack their far ankle instead"
+          ],
+          "trap": [
+            "Force the heel hook anyway"
+          ]
+        }
       },
       {
         "question": "What grip configuration provides the best mechanical advantage for finishing the heel hook from this position?",
         "answer": "A figure-four grip with the heel trapped deep in the crook of your elbow provides the strongest finishing mechanics. Your wrist-to-wrist connection creates a unified structure that transfers rotational force from your body through your arms to the heel. The deep elbow pocket prevents heel slippage during the finish. Your chest should contact the top of your opponent's foot to seal the position. The grip must be tight enough to prevent extraction but the finishing force comes from your posterior chain and hip rotation, not from squeezing harder with your arms.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Figure-four, heel in elbow crook",
+        "distractors": {
+          "plausible": [
+            "Palm-to-palm grip on the shin",
+            "Wrist grip, heel at the wrist"
+          ],
+          "trap": [
+            "Post both hands, abandon frames"
+          ]
+        }
       },
       {
         "question": "You secure the heel but your opponent immediately starts walking their hips up your body toward back control. How do you respond?",
         "answer": "Release the heel immediately and address the back control threat. Back control is a significantly worse position than backside 50-50 bottom, and no heel hook attempt is worth conceding four points and a dominant submission position. Return your hands to frames against their hips and chest, tuck your chin, keep elbows tight, and work to re-establish your defensive posture. The heel hook opportunity is gone once they have committed to the back take. You will find another opportunity only if you maintain a viable bottom position.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Release heel, defend the back",
+        "distractors": {
+          "plausible": [
+            "Bridge into them for a sweep",
+            "Extend legs to break free"
+          ],
+          "trap": [
+            "Hold the heel, concede the back"
+          ]
+        }
       },
       {
         "question": "What is the most critical body mechanic for generating finishing force from the bottom position?",
         "answer": "The full-body arch and rotation is the most critical mechanic. Unlike attacking from a dominant top position where gravity assists, attacking from bottom requires you to generate all rotational force through your posterior chain. Arch your back while simultaneously rotating your torso away from the opponent's knee. Squeeze your knees together to anchor the trapped leg. The force chain runs from your hip rotation through your core, through your locked arms, to the heel. Attempting to finish with arm strength alone is insufficient against a resisting opponent and fatigues you rapidly.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Arch back, rotate torso away",
+        "distractors": {
+          "plausible": [
+            "Pull with arms, torso still",
+            "Sit up toward their hip"
+          ],
+          "trap": [
+            "Flatten to your back and crank"
+          ]
+        }
       },
       {
         "question": "Your opponent boots their heel aggressively when you reach for it. What alternative attack is available?",
         "answer": "Switch to a toe hold by redirecting your grip to the opponent's forefoot and toes. The booting defense that hides the heel from heel hook attack actually extends the forefoot and makes it more accessible for toe hold grip acquisition. The toe hold attacks the ankle joint through rotational force rather than the knee, requiring a completely different defensive response. This creates a dilemma where defending the heel hook opens the toe hold and vice versa. If neither foot attack is available, abandon and return to frames rather than chasing a defended position.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Switch to toe hold on forefoot",
+        "distractors": {
+          "plausible": [
+            "Attack a kneebar instead",
+            "Wait for the boot to tire"
+          ],
+          "trap": [
+            "Keep digging, give up the back"
+          ]
+        }
       },
       {
         "question": "How should you manage the risk-reward calculation when deciding whether to commit to this attack?",
         "answer": "Evaluate three factors before committing: heel accessibility, opponent's current focus, and your frame stability. Only commit when at least two of three conditions are favorable. If the heel is clearly exposed and the opponent is focused elsewhere, commit even if your frames are moderate. If your frames are strong and the heel is partially accessible, commit when opponent shifts attention. Never commit when the heel is hidden and the opponent is focused on you. Set a three to four second time limit on each attempt. The cost of a failed attempt that leads to back control far exceeds the benefit of an incremental improvement in heel grip.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Commit only if 2 of 3 favor you",
+        "distractors": {
+          "plausible": [
+            "Commit whenever heel is bare",
+            "Commit only with strong frames"
+          ],
+          "trap": [
+            "Commit regardless, chase it"
+          ]
+        }
       },
       {
         "question": "What distinguishes a successful heel hook attempt from bottom versus just getting caught in a worse position?",
         "answer": "A successful attempt is characterized by confirmed heel exposure before commitment, rapid grip acquisition under three seconds, clean body angle configuration for mechanical advantage, and a predetermined abort timeline. Getting caught in a worse position typically results from forcing the attack without confirmed heel access, committing both hands simultaneously without staggering, failing to monitor the back control threat during the attack, and holding onto a defended grip past the effective window. The difference is fundamentally about discipline and recognition rather than technique. The finishing mechanics are identical regardless of position.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Confirmed exposure + fast abort",
+        "distractors": {
+          "plausible": [
+            "Faster grip, same technique",
+            "Better angle beats good timing"
+          ],
+          "trap": [
+            "Commit both hands at once"
+          ]
+        }
       },
       {
         "question": "In which direction should you apply rotational force on the opponent's heel when executing the inside heel hook from this position?",
         "answer": "Rotate the heel toward the outside of the opponent's knee, creating internal rotation of the tibia relative to the femur. This targets the medial knee structures including the MCL and medial meniscus. The force direction follows from your body arch combined with hip rotation away from the trapped leg. Your arms maintain the grip connection while your posterior chain generates the rotational movement. Rotating in the incorrect direction attacks the lateral structures which are mechanically stronger from this angle and significantly reduces the likelihood of finishing. The combined pulling and twisting motion creates rotational shear on the knee joint that becomes extremely difficult to resist once proper alignment is established.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Rotate heel toward outside knee",
+        "distractors": {
+          "plausible": [
+            "Rotate heel toward inside knee",
+            "Pull straight, skip rotation"
+          ],
+          "trap": [
+            "Crank fast, no time to tap"
+          ]
+        }
       },
       {
         "question": "What offensive chain options exist if your initial heel hook attempt is defended but you maintain the backside 50-50 entanglement?",
         "answer": "If the opponent boots their heel to defend, immediately threaten a toe hold on the exposed forefoot, creating a submission dilemma where defending one attack opens the other. If they strip your grips but remain in the entanglement, use the positional disruption your attack created to work toward improving your hip angle and potentially transitioning to standard 50-50 where your offensive options improve. If the opponent loosened their chest pressure during their defensive response, capitalize on the reduced pressure to re-establish frames and work escape sequences toward guard recovery. The heel hook attempt creates value even when the finish is not available because it disrupts the top player's offensive rhythm and forces defensive awareness of their own legs.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Toe hold, then improve hip angle",
+        "distractors": {
+          "plausible": [
+            "Repeat the same heel attempt",
+            "Switch to a kneebar finish"
+          ],
+          "trap": [
+            "Release legs and let them pass"
+          ]
+        }
+      }
+    ],
+    "clips": [
+      {
+        "id": "sIYeSMSkqeE",
+        "title": "Backside 50/50 inside heel hook finish",
+        "by": "Craig Jones",
+        "vertical": false,
+        "channel": "Professor Buck",
+        "duration": 18,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "fB3FYb-Jx_0",
+        "title": "50/50 heel hook finishing details",
+        "by": "Thunderdome BJJ",
+        "vertical": false,
+        "channel": "Thunderdome BJJ",
+        "duration": 27,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "U1vlUbJN3sc",
+        "title": "True 50/50 heel hook",
+        "by": "John Danaher",
+        "vertical": false,
+        "channel": "Dohn Janaher ",
+        "duration": 34,
+        "verified": "2026-07-14"
       }
     ]
   },
@@ -444,27 +585,77 @@
       {
         "question": "What is the earliest recognition cue that the bottom player is about to attempt a heel hook from Backside 50-50?",
         "answer": "The earliest cue is the reduction or removal of frame pressure against your chest or hips. Before any heel hook attempt, the bottom player must redirect at least one hand from defensive framing to offensive gripping. You feel this as a sudden lightening of the resistance against your forward pressure. This reduction in frame strength precedes the actual heel contact by one to two seconds and is your primary early warning signal to proactively boot your heel and prepare defensive response.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Their frame pressure lightens",
+        "distractors": {
+          "plausible": [
+            "Their hips start to shift away",
+            "They grip your pant leg first"
+          ],
+          "trap": [
+            "Wait until heel contact happens"
+          ]
+        }
       },
       {
         "question": "Your opponent has a locked figure-four grip on your heel and is beginning to apply rotational force. What is your immediate response sequence?",
         "answer": "First, counter-rotate your entire body in the direction of the heel hook rotation to relieve pressure on the knee joint immediately. Second, while rotating, use your free hand to attack their grip by peeling at the wrist-to-wrist connection. Third, if grip stripping fails, continue the rotation and work to extract your heel from the elbow crook by pulling your toes toward your shin. Fourth, if extraction fails, tap rather than risk catastrophic knee injury. The tap threshold should be lower in training than in competition. Never try to tough out a locked heel hook with finishing mechanics applied.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Rotate with the hook, peel grip",
+        "distractors": {
+          "plausible": [
+            "Pull the knee straight backward",
+            "Hand-fight their head and collar"
+          ],
+          "trap": [
+            "Turn away and refuse to tap"
+          ]
+        }
       },
       {
         "question": "How does your offensive strategy from Backside 50-50 top change when you know your opponent has a dangerous heel hook game from bottom?",
         "answer": "You must balance offensive commitment against heel exposure risk. Avoid extended weight shifts that expose your heel during transitions. Keep your ankle dorsiflexed as a default habit. When initiating back control attempts, ensure your hands are positioned to quickly address heel defense if needed. You can also use the opponent's heel hook tendency against them by feinting offensive transitions to bait the heel hook attempt, then immediately capitalizing with back control when their hands leave frames. The key adjustment is maintaining constant heel awareness without becoming so defensive that you lose your top position advantages.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Dorsiflex, limit heel exposure",
+        "distractors": {
+          "plausible": [
+            "Point toes to hide the heel",
+            "Stall flat until time runs out"
+          ],
+          "trap": [
+            "Extend the leg, chase the back"
+          ]
+        }
       },
       {
         "question": "When is it appropriate to tap to a heel hook from Backside 50-50 rather than continue defending?",
         "answer": "Tap immediately if you feel the rotational mechanism lock in with proper body angle and grip configuration. Heel hooks provide minimal warning pain before causing structural knee damage to the MCL, LCL, and meniscus. In training, tap when the grip is locked and body angle is configured for finishing even before full force is applied. In competition, tap when you feel the breaking pressure engage and your counter-rotation is insufficient to relieve it. There is no benefit to defending a fully locked heel hook past the point where the mechanism has engaged. Protecting your knee for long-term training is more valuable than any single round or match outcome.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Tap the instant the hook locks in",
+        "distractors": {
+          "plausible": [
+            "Try to escape the leg first",
+            "Gut it out in training, tap in comp"
+          ],
+          "trap": [
+            "Wait for sharp pain before tapping"
+          ]
+        }
       },
       {
         "question": "What is the defensive benefit of maintaining constant forward pressure from Backside 50-50 top?",
         "answer": "Constant forward chest pressure limits the bottom player's ability to create the hip angle and body rotation needed to configure effective heel hook finishing mechanics. It keeps their spine compressed against the mat, restricting the posterior chain arch that generates finishing force. It also keeps your own body close to theirs, making heel access more difficult because the angle of approach is compressed. The pressure also mentally occupies the bottom player with defensive priorities, reducing their bandwidth for identifying and exploiting heel hook timing windows. Maintaining pressure is simultaneously offense for you and defense against their heel hook.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Pressure limits their hip angle",
+        "distractors": {
+          "plausible": [
+            "It stops all their grip fighting",
+            "It scores control points"
+          ],
+          "trap": [
+            "Post up, expose your own heel"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -487,6 +678,26 @@
         "phase": "Phase 4: Live Integration",
         "focus": "Full-speed positional sparring with dual offensive and defensive awareness",
         "description": "Live sparring from backside 50-50 top with full offensive freedom while maintaining heel hook awareness. Balance your own attacks with defensive readiness. Partners alternate roles every round. Success is measured by submission rate, positional advancement rate, and number of times caught by heel hook. Track improvement over multiple sessions to identify persistent defensive gaps."
+      }
+    ],
+    "clips": [
+      {
+        "id": "DBbSqQf6iCo",
+        "title": "Roll under escape to backside 50/50",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "BJJ focus camps",
+        "duration": 110,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "RTzSOGlxSWg",
+        "title": "How to escape and counter the backside 50/50",
+        "by": "Matrix Jiu Jitsu",
+        "vertical": false,
+        "channel": "Matrix Jiu Jitsu",
+        "duration": 240,
+        "verified": "2026-07-14"
       }
     ]
   }

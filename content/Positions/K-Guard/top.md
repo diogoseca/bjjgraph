@@ -21,37 +21,37 @@ description: "Master K-Guard Top in BJJ. Navigate inverted hook systems while ma
     {
       "@type": "HowToStep",
       "name": "Execute Knee Slice Pass",
-      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 25% of exchanges from this position.",
+      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 15% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Smash Pass",
-      "text": "From this position, attempt Smash Pass. This technique is attempted in 14% of exchanges from this position.",
+      "text": "From this position, attempt Smash Pass. This technique is attempted in 12% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Leg Drag Pass",
-      "text": "From this position, attempt Leg Drag Pass. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Leg Drag Pass. This technique is attempted in 14% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Half Guard Pass",
-      "text": "From this position, attempt Half Guard Pass. This technique is attempted in 16% of exchanges from this position.",
+      "text": "From this position, attempt Half Guard Pass. This technique is attempted in 10% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Underhook Pass",
-      "text": "From this position, attempt Underhook Pass. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Underhook Pass. This technique is attempted in 10% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Kimura from Half Guard",
-      "text": "From this position, attempt Kimura from Half Guard. This technique is attempted in 10% of exchanges from this position.",
+      "name": "Execute Guillotine Setup",
+      "text": "From this position, attempt Guillotine Setup. This technique is attempted in 7% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -116,6 +116,7 @@ description: "Master K-Guard Top in BJJ. Navigate inverted hook systems while ma
   "@type": "WebPage",
   "name": "K-Guard Top",
   "description": "Master K-Guard Top in BJJ. Navigate inverted hook systems while maintaining passing pressure. Systematic approach to overcoming dynamic retention mechanics. Success rates: Beginner 50%, Intermediate 65%, Advanced 80%.",
+  "alternateName": ["K Guard"],
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -153,8 +154,48 @@ description: "Master K-Guard Top in BJJ. Navigate inverted hook systems while ma
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "K-Guard (Top) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "K Guard Defense and Pass",
+      "description": "K-Guard (Top) film study: K Guard Defense and Pass, taught by Pure Grappling.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/91eO9lV-sVE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/91eO9lV-sVE",
+      "url": "https://www.youtube.com/watch?v=91eO9lV-sVE",
+      "creator": { "@type": "Person", "name": "Pure Grappling" },
+      "duration": "PT281S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "K Guard Defense",
+      "description": "K-Guard (Top) film study: K Guard Defense, taught by Rodrigo Lopes.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/JxDViUC4xhk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/JxDViUC4xhk",
+      "url": "https://www.youtube.com/watch?v=JxDViUC4xhk",
+      "creator": { "@type": "Person", "name": "Rodrigo Lopes" },
+      "duration": "PT289S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<aside class="entity-relations">
+<p class="also-known-as"><em>Also known as:</em> <strong>K Guard</strong> <span class="role-hint">(top)</span></p>
+</aside>
 <section id="overview" class="content-section">
 
 K-Guard Top is the top position in the K-Guard system, where the passer faces a bottom player who has configured their legs in an inverted butterfly hook structure creating the characteristic 'K' shape. From the top perspective, this position requires careful navigation of the bottom player's active hook system and upper body frames while maintaining forward pressure and working toward guard passing opportunities. The position demands systematic pressure application, grip dominance, and awareness of the bottom player's sweep and back-take threats.
@@ -165,9 +206,39 @@ Strategically, K-Guard Top represents a transitional position where the top play
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch K-Guard (Top) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=91eO9lV-sVE)
+
+<p class="clip-credit"><strong>K Guard Defense and Pass</strong> — taught by Pure Grappling · 4:41 · <a href="https://www.youtube.com/watch?v=91eO9lV-sVE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=JxDViUC4xhk)
+
+<p class="clip-credit"><strong>K Guard Defense</strong> — taught by Rodrigo Lopes · 4:49 · <a href="https://www.youtube.com/watch?v=JxDViUC4xhk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
+
 <section id="state-invariants" class="content-section">
 
 ## Position Definition
+
+<p class="section-subtitle">What is K-Guard (Top)?</p>
 
 - Top player's hips positioned forward toward bottom player's guard with one leg trapped between bottom player's inverted and butterfly hooks, maintaining forward pressure through hip placement and weight distribution
 - Bottom player's inverted inside hook crosses trapped leg creating lateral pulling force while butterfly hook creates elevation threat, forming characteristic 'K' configuration that disrupts top player's base
@@ -182,6 +253,8 @@ Strategically, K-Guard Top represents a transitional position where the top play
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before playing K-Guard (Top)?</p>
+
 - Bottom player has established K-Guard configuration from half guard bottom with inverted and butterfly hooks active
 - Top player has one leg trapped in bottom player's hook system
 - Bottom player has created active tension in both hooks with frames preventing chest-to-chest contact
@@ -194,6 +267,8 @@ Strategically, K-Guard Top represents a transitional position where the top play
 <section id="key-principles" class="content-section">
 
 ## Key Offensive Principles
+
+<p class="section-subtitle">What are the key principles for attacking from K-Guard?</p>
 
 - Maintain constant forward hip pressure to prevent bottom player from creating additional space or recovering full guard
 - Control the bottom player's far hip to anchor their position and prevent hip escape movements that enable sweeps
@@ -210,24 +285,26 @@ Strategically, K-Guard Top represents a transitional position where the top play
 
 ## Decision Making from This Position
 
+<p class="section-subtitle">What should you do from K-Guard (Top)?</p>
+
 **If bottom player maintains strong hook tension and active frames with good hip mobility:**
-- Execute **[[Transitions/Smash Pass]]** → [[Positions/Side Control]] (Probability: 55%)
-- Execute **[[Transitions/Knee Slice Pass]]** → [[Positions/Side Control]] (Probability: 60%)
+- Execute **[[Transitions/Smash Pass/Attacker|Smash Pass]]** → [[Positions/Side Control]] (Probability: 55%)
+- Execute **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** → [[Positions/Side Control]] (Probability: 60%)
 
 
 **If bottom player loses hook tension or flattens out to back:**
-- Execute **[[Transitions/Half Guard Pass]]** → [[Positions/Side Control]] (Probability: 70%)
-- Execute **[[Transitions/Side Control to Mount]]** → [[Positions/Mount]] (Probability: 50%)
+- Execute **[[Transitions/Half Guard Pass/Attacker|Half Guard Pass]]** → [[Positions/Side Control]] (Probability: 70%)
+- Execute **[[Transitions/Side Control to Mount/Attacker|Side Control to Mount]]** → [[Positions/Mount]] (Probability: 50%)
 
 
 **If bottom player attempts underhook or reaches for back take:**
-- Execute **[[Transitions/Kimura from Half Guard]]** → [[Positions/Kimura Trap]] (Probability: 45%)
-- Execute **[[Transitions/Underhook Pass]]** → [[Positions/Side Control]] (Probability: 60%)
+- Execute **[[Transitions/Kimura from Half Guard/Attacker|Kimura from Half Guard]]** → [[Positions/Kimura Trap]] (Probability: 45%)
+- Execute **[[Transitions/Underhook Pass/Attacker|Underhook Pass]]** → [[Positions/Side Control]] (Probability: 60%)
 
 
 **If bottom player turns away or attempts to recover guard:**
-- Execute **[[Transitions/Leg Drag Pass]]** → [[Positions/Side Control]] (Probability: 65%)
-- Execute **[[Back Take Generic]]** → [[Positions/Back Control]] (Probability: 40%)
+- Execute **[[Transitions/Leg Drag Pass/Attacker|Leg Drag Pass]]** → [[Positions/Side Control]] (Probability: 65%)
+- Execute **[[Back Take Generic/Attacker|Back Take Generic]]** → [[Positions/Back Control]] (Probability: 40%)
 
 
 
@@ -237,6 +314,8 @@ Strategically, K-Guard Top represents a transitional position where the top play
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Offensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when attacking from K-Guard?</p>
 
 ### 1. Standing too upright and allowing bottom player to extend hooks and frames fully
 
@@ -281,6 +360,8 @@ Strategically, K-Guard Top represents a transitional position where the top play
 
 ## Training Drills for Attacks
 
+<p class="section-subtitle">How do you train K-Guard attacks?</p>
+
 ### K-Guard Pressure Maintenance Drill
 
 Bottom player holds K-Guard structure with active hooks while top player practices maintaining constant forward pressure without standing up or backing away. Focus on hip pressure, weight distribution, and keeping bottom player compressed. Switch roles every 2 minutes.
@@ -295,7 +376,7 @@ Bottom player maintains both inverted and butterfly hooks while top player pract
 **Duration**: 5 x 30 seconds per method
 
 
-### Grip Fighting from K-Guard Top
+### Grips from K-Guard Top
 
 Both players engage in grip fighting from K-Guard Top position. Top player works to establish dominant grips (underhook, crossface, far hip control) while bottom player fights for defensive grips and maintains hook tension. 30-second rounds with intensity.
 
@@ -320,38 +401,6 @@ Start in K-Guard Top position. Top player's goal is to advance to side control o
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary weight distribution strategy for maintaining passing pressure from K-Guard Top?
-**A**: The primary strategy is directing weight through forward hip pressure angled toward the bottom player's upper body while maintaining a low chest position. Weight should compress the hook system rather than push against it, with the trapped leg staying heavy to prevent elevation while the free leg provides stable base. This creates downward and forward pressure that limits the bottom player's hip mobility without exposing you to sweep attempts.
-
-**Q2**: Your opponent starts elevating your trapped leg with their butterfly hook - what adjustment do you make?
-**A**: Immediately widen your free leg base and drop your hips lower while driving your weight laterally into the butterfly hook side rather than fighting the elevation directly. Simultaneously control their far hip to prevent them from completing the off-balancing motion. If elevation continues, backstep the trapped leg to remove it from the hook system entirely and re-engage from a safer angle.
-
-**Q3**: What are the essential grip priorities when facing K-Guard from top position?
-**A**: First priority is far hip control to anchor their position and prevent hip escapes that power sweeps. Second priority is collar or crossface grip to control their upper body and flatten their spine. Third priority is controlling the knee shield or inside arm to prevent re-framing. Grips should be established before initiating any pass to ensure the bottom player cannot reinforce their defensive structure.
-
-**Q4**: How should you shut down the primary back-take threat from K-Guard bottom?
-**A**: The back-take primarily occurs when you commit weight forward and the bottom player swims under for an underhook. Prevent this by maintaining chest angle down with your head positioned on their far shoulder, controlling their inside arm to block underhook attempts, and keeping pressure diagonal rather than straight down. If they begin the underhook motion, immediately whizzer and drive them flat before they can complete the back-take sequence.
-
-**Q5**: What is the most common base error that leads to getting swept from K-Guard Top?
-**A**: The most common error is standing too upright while attempting to extract the trapped leg, which allows the bottom player to extend their hooks and frames to full length. This creates maximum leverage for their sweep attempts and removes your ability to pressure their hooks. The correction is to maintain forward hip pressure with chest angled down throughout the passing attempt, only creating height when you've already broken their hook tension.
-
-**Q6**: Your opponent maintains active hook tension and you cannot flatten them - what systematic approach should you take?
-**A**: Begin by winning the grip fight to establish dominant control points. Then use hip pressure combined with angle changes to redirect rather than fight their hook tension. Work to flatten their spine through shoulder pressure while controlling the far hip. Once their defensive structure is compromised, time your passing sequence to coincide with the moment their frames collapse. Patience is essential - forcing premature passes against active hooks leads to sweep counters.
-
-**Q7**: How do you manage energy expenditure when facing a strong K-Guard retention system?
-**A**: Use positional pressure through body weight rather than muscular effort. Establish grips that allow you to rest weight on them while maintaining control. Avoid pushing directly against their hook system which creates stalemates. Instead, use angle changes and redirections that require minimal energy while systematically degrading their position. Accept that passing a skilled K-Guard player requires patience and methodical pressure rather than explosive attempts.
-
-**Q8**: Your opponent partially recovers full guard as you attempt to pass - how do you prevent complete guard recovery?
-**A**: Immediately stop the passing attempt and re-establish pressure on the K-Guard structure before they can fully close their guard. Drive your trapped knee down between their legs to maintain the half guard configuration. Control their inside arm to prevent framing and re-apply hip pressure to compress their hooks. If they've already begun closing, backstep and disengage momentarily rather than getting caught in a compromised closed guard position, then re-engage with better angles.
-
-
-
-</section>
 
 
 <section id="position-metrics" class="content-section">
@@ -385,6 +434,16 @@ Start in K-Guard Top position. Top player's goal is to advance to side control o
 - **[[Transitions/Knee Slice Pass]]** - High-percentage pass - effective against K-Guard retention
 - **[[Transitions/Leg Drag Pass]]** - Alternative pass - useful when hooks extend
 
+
+</section>
+
+<section id="related-systems" class="content-section related-systems">
+
+## Train this with a System
+
+<div class="related-systems-grid">
+<a class="system-card" href="/Systems/Craig-Jones-Leg-Lock-System" data-cta="related-system-card" data-system-slug="systems/craig-jones-leg-lock-system" data-system-name="Craig Jones Leg Lock System" data-member-count="25"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Craig Jones Leg Lock System</span><span class="system-card__unlocks-badge">Unlocks 25 techniques</span><span class="system-card__blurb">Specialized seated guard optimized for direct entries into leg entanglement positions</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+</div>
 
 </section>
 

@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Turtle/Bottom",
-      "probability": 50,
+      "probability": {
+        "gi": 50,
+        "nogi": 50
+      },
       "result": "success"
     },
     {
       "to": "Saddle/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Back Control/Bottom",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 50,
+  "success_rate": {
+    "gi": 50,
+    "nogi": 50
+  },
   "summary": "The Forward Roll from Saddle is an explosive inversion escape in which the bottom player rolls diagonally over the trapped-side shoulder to spiral their leg out of the figure-four, usually surfacing in turtle at the cost of temporary back exposure.",
   "overview": "Sitting at the explosive end of the saddle escape spectrum, the forward roll abandons the patient grip-fighting approach in favor of rotational momentum to rapidly extract the trapped leg from the opponent's figure-four configuration. The escape leverages the principle that rolling forward disrupts the perpendicular alignment that gives the saddle its mechanical advantage, creating a brief window where the leg can be pulled free.\n\nThis escape carries significant tactical risk. While the rolling motion can effectively break the leg configuration, it simultaneously exposes the back to the opponent. A successful forward roll typically lands the practitioner in turtle position—an improvement over saddle bottom but still requiring immediate action to prevent the opponent from transitioning to back control. The technique is best reserved for situations where incremental escapes have stalled or the opponent is actively advancing toward a heel hook finish, making the calculated risk of back exposure preferable to continued exposure to devastating knee ligament attacks.\n\nThe forward roll demands precise timing and full commitment. Hesitation during execution allows the saddle player to adjust their hip pressure and tighten the entanglement, making subsequent escape attempts harder. Practitioners must identify the optimal moment—typically when the opponent shifts weight to adjust grips or begin a submission finish—and commit entirely to the rolling motion. Half-measures result in a tighter saddle with diminished defensive options and wasted energy.",
   "conditions": [
@@ -249,38 +261,147 @@
     "flashcards": [
       {
         "question": "What is the optimal timing window for initiating the forward roll from saddle?",
-        "answer": "The optimal window occurs when the opponent shifts weight to adjust grips or transitions from positional control to submission finishing mechanics. During grip changes, their hip pressure momentarily lightens, creating the space needed for the roll. When they reach for the heel with both hands, their ability to prevent forward motion is temporarily compromised because their upper body is committed to the grip rather than maintaining pressure on your body."
+        "answer": "The optimal window occurs when the opponent shifts weight to adjust grips or transitions from positional control to submission finishing mechanics. During grip changes, their hip pressure momentarily lightens, creating the space needed for the roll. When they reach for the heel with both hands, their ability to prevent forward motion is temporarily compromised because their upper body is committed to the grip rather than maintaining pressure on your body.",
+        "answer_line": "When they reach with both hands",
+        "distractors": {
+          "plausible": [
+            "Whenever hip pressure is heavy",
+            "As soon as saddle is entered"
+          ],
+          "trap": [
+            "After they lock the figure-four"
+          ]
+        }
       },
       {
         "question": "What conditions must exist before you can safely attempt the forward roll escape?",
-        "answer": "The opponent must not have a secured figure-four finishing grip on your heel with rotation already applied. You need at least one hand free to post for the rolling motion, and your free leg must be able to push against the opponent's hip. There should be enough space at the shoulder to initiate forward rotation. Most critically, you must have protected your heel before initiating any movement—rolling with an exposed heel compounds the submission danger."
+        "answer": "The opponent must not have a secured figure-four finishing grip on your heel with rotation already applied. You need at least one hand free to post for the rolling motion, and your free leg must be able to push against the opponent's hip. There should be enough space at the shoulder to initiate forward rotation. Most critically, you must have protected your heel before initiating any movement—rolling with an exposed heel compounds the submission danger.",
+        "answer_line": "Heel protected, hand free to post",
+        "distractors": {
+          "plausible": [
+            "Any hand free, heel unprotected",
+            "Space at hip, ignore heel"
+          ],
+          "trap": [
+            "Roll immediately to beat the lock"
+          ]
+        }
       },
       {
         "question": "What is the critical hip movement that makes the forward roll effective for leg extraction?",
-        "answer": "The key hip movement is forward elevation and rotation over the trapped-side shoulder in a diagonal arc. Your hips must drive up and over to create rotational momentum that spirals the trapped leg against the direction of the opponent's figure-four configuration. Rolling flat does not extract the leg—the hips must elevate high enough to generate the centrifugal force that opens the entanglement. Think of driving hips over the shoulder, not rolling the body forward."
+        "answer": "The key hip movement is forward elevation and rotation over the trapped-side shoulder in a diagonal arc. Your hips must drive up and over to create rotational momentum that spirals the trapped leg against the direction of the opponent's figure-four configuration. Rolling flat does not extract the leg—the hips must elevate high enough to generate the centrifugal force that opens the entanglement. Think of driving hips over the shoulder, not rolling the body forward.",
+        "answer_line": "Hips elevate over the shoulder",
+        "distractors": {
+          "plausible": [
+            "Rotate away from the shoulder",
+            "Push hips straight forward"
+          ],
+          "trap": [
+            "Roll flat without hip elevation"
+          ]
+        }
       },
       {
         "question": "Your opponent follows your roll and establishes a seatbelt grip as you reach turtle—how do you respond?",
-        "answer": "Immediately establish tight turtle posture with elbows to knees and chin tucked. Begin hand fighting the choking arm of the seatbelt while using hip movement to prevent hook insertion. Your immediate priority is guard recovery through a sit-through, granby roll, or technical standup before they can fully establish back control. The transition from roll to turtle defense must be seamless—any pause gives the opponent time to consolidate hooks."
+        "answer": "Immediately establish tight turtle posture with elbows to knees and chin tucked. Begin hand fighting the choking arm of the seatbelt while using hip movement to prevent hook insertion. Your immediate priority is guard recovery through a sit-through, granby roll, or technical standup before they can fully establish back control. The transition from roll to turtle defense must be seamless—any pause gives the opponent time to consolidate hooks.",
+        "answer_line": "Tuck tight, fight the choke arm",
+        "distractors": {
+          "plausible": [
+            "Explode immediately to standup",
+            "Wait and let hooks settle"
+          ],
+          "trap": [
+            "Post hands, ignore the hooks"
+          ]
+        }
       },
       {
         "question": "What grip management is required before and during the forward roll execution?",
-        "answer": "Before the roll, use one hand to protect your heel by controlling your own shin or ankle, and place the other hand on the mat as the posting pivot. During the roll itself, release heel protection to use both arms for momentum and base during the rotation. As you complete the roll, point your toes hard to reduce the cross-section of your foot passing through the entanglement. Post-roll, immediately establish defensive turtle grips with forearms framing against any opponent contact points."
+        "answer": "Before the roll, use one hand to protect your heel by controlling your own shin or ankle, and place the other hand on the mat as the posting pivot. During the roll itself, release heel protection to use both arms for momentum and base during the rotation. As you complete the roll, point your toes hard to reduce the cross-section of your foot passing through the entanglement. Post-roll, immediately establish defensive turtle grips with forearms framing against any opponent contact points.",
+        "answer_line": "Protect heel, then release to post",
+        "distractors": {
+          "plausible": [
+            "Keep heel grip the whole roll",
+            "Post both hands, skip heel guard"
+          ],
+          "trap": [
+            "Flex toes, widen foot cross-section"
+          ]
+        }
       },
       {
         "question": "In which direction should force be applied during the forward roll for maximum effectiveness?",
-        "answer": "Force should be applied forward and diagonally over the trapped-side shoulder at approximately 45 degrees from your centerline. This diagonal trajectory creates the rotational path that spirals the leg against the figure-four direction, maximizing extraction force. Driving straight forward tends to tighten the entanglement rather than open it. The arc should feel like your hips are traveling up and over the shoulder, creating a corkscrew effect on the trapped leg."
+        "answer": "Force should be applied forward and diagonally over the trapped-side shoulder at approximately 45 degrees from your centerline. This diagonal trajectory creates the rotational path that spirals the leg against the figure-four direction, maximizing extraction force. Driving straight forward tends to tighten the entanglement rather than open it. The arc should feel like your hips are traveling up and over the shoulder, creating a corkscrew effect on the trapped leg.",
+        "answer_line": "Diagonal, 45° over the shoulder",
+        "distractors": {
+          "plausible": [
+            "Straight up and vertical",
+            "Directly sideways, away from hips"
+          ],
+          "trap": [
+            "Straight forward, no angle"
+          ]
+        }
       },
       {
         "question": "Your opponent increases hip pressure when you begin loading the roll—what should you do instead?",
-        "answer": "Abort the roll attempt immediately and return to incremental escape methods. Use the free leg frame on their hip to begin systematic hip clearing, or transition to a boot scoot escape or fight to inside ashi garami. Do not force the roll against heavy hip pressure—this wastes energy, can tighten the entanglement, and may expose the knee to additional stress. The forward roll works through timing exploitation, not through overcoming resistance with force."
+        "answer": "Abort the roll attempt immediately and return to incremental escape methods. Use the free leg frame on their hip to begin systematic hip clearing, or transition to a boot scoot escape or fight to inside ashi garami. Do not force the roll against heavy hip pressure—this wastes energy, can tighten the entanglement, and may expose the knee to additional stress. The forward roll works through timing exploitation, not through overcoming resistance with force.",
+        "answer_line": "Abort, hip-clear incrementally",
+        "distractors": {
+          "plausible": [
+            "Push through with more speed",
+            "Try the roll again immediately"
+          ],
+          "trap": [
+            "Force the roll through the pressure"
+          ]
+        }
       },
       {
         "question": "What chain attacks or follow-up options exist if the initial roll attempt is partially blocked?",
-        "answer": "If the roll is partially blocked but forward momentum has been generated, chain into a sit-out by redirecting the motion laterally rather than continuing forward. Another option is using the momentum to scramble to a single leg on the opponent's controlling leg. If enough space was created during the partial roll, transition to a hip escape that clears the entanglement without completing the full rotation. The key is redirecting momentum rather than stopping—a failed roll that chains into another escape is far better than resetting to static defense."
+        "answer": "If the roll is partially blocked but forward momentum has been generated, chain into a sit-out by redirecting the motion laterally rather than continuing forward. Another option is using the momentum to scramble to a single leg on the opponent's controlling leg. If enough space was created during the partial roll, transition to a hip escape that clears the entanglement without completing the full rotation. The key is redirecting momentum rather than stopping—a failed roll that chains into another escape is far better than resetting to static defense.",
+        "answer_line": "Redirect into sit-out or scramble",
+        "distractors": {
+          "plausible": [
+            "Pause and reassess before moving",
+            "Repeat the same roll again"
+          ],
+          "trap": [
+            "Stop and reset to static defense"
+          ]
+        }
       }
     ],
-    "safety_considerations": "The forward roll from saddle carries significant knee ligament injury risk if executed while the opponent has rotational control of the heel. Never attempt this escape when the heel hook is already being applied with rotation—tap immediately in that scenario. The rolling motion generates rotational forces through the knee that can compound heel hook mechanics if the opponent maintains their grip throughout the roll. Always protect the heel before initiating the roll, and abort the attempt if you feel increasing pressure on the knee joint during execution. Training should progress gradually from zero resistance to full resistance, with both partners understanding the injury mechanisms involved. Communication between training partners about heel exposure and grip security is essential during drilling."
+    "safety_considerations": "The forward roll from saddle carries significant knee ligament injury risk if executed while the opponent has rotational control of the heel. Never attempt this escape when the heel hook is already being applied with rotation—tap immediately in that scenario. The rolling motion generates rotational forces through the knee that can compound heel hook mechanics if the opponent maintains their grip throughout the roll. Always protect the heel before initiating the roll, and abort the attempt if you feel increasing pressure on the knee joint during execution. Training should progress gradually from zero resistance to full resistance, with both partners understanding the injury mechanisms involved. Communication between training partners about heel exposure and grip security is essential during drilling.",
+    "clips": [
+      {
+        "id": "DBbSqQf6iCo",
+        "title": "Rolling out of the saddle to backside 50/50",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "BJJ focus camps",
+        "duration": 110,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "DrjbaXt-nTo",
+        "title": "Rolling Out of Heel Hooks",
+        "by": "Craig Jones",
+        "vertical": false,
+        "channel": "Absolute MMA St Kilda - Melbourne",
+        "duration": 243,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "JbRfIo1NTLk",
+        "title": "Clearing the Kneeline: Leglock Defense",
+        "by": "Craig Jones",
+        "vertical": false,
+        "channel": "BJJ focus camps",
+        "duration": 274,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Forward Roll from Saddle Defender",
@@ -359,19 +480,59 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that your opponent is preparing a forward roll escape from saddle?",
-        "answer": "The earliest cue is a change in their grip fighting behavior—they stop actively fighting your leg configuration grips and begin posting their free hand on the mat. This indicates a transition from incremental escape methodology to explosive escape. You may also feel a forward weight shift through your entanglement as they begin loading the roll. The combination of reduced grip fighting and forward weight commitment should trigger an immediate response to increase hip pressure and control the posting hand."
+        "answer": "The earliest cue is a change in their grip fighting behavior—they stop actively fighting your leg configuration grips and begin posting their free hand on the mat. This indicates a transition from incremental escape methodology to explosive escape. You may also feel a forward weight shift through your entanglement as they begin loading the roll. The combination of reduced grip fighting and forward weight commitment should trigger an immediate response to increase hip pressure and control the posting hand.",
+        "answer_line": "Stops grip fighting, posts hand",
+        "distractors": {
+          "plausible": [
+            "Grips your leg tighter suddenly",
+            "Shifts weight backward, not forward"
+          ],
+          "trap": [
+            "Loosens all contact and relaxes"
+          ]
+        }
       },
       {
         "question": "When should you follow the roll to back control versus tighten the entanglement to maintain saddle?",
-        "answer": "Follow the roll when your grips on the heel are loose or you have lost the figure-four finishing position—maintaining saddle is already compromised, so converting to back control offers the best outcome. Tighten the entanglement when you have secure heel control and can maintain structural integrity through the rotation. Critical safety note: if maintaining the grip generates rotational force on the knee during the roll, release immediately to prevent injuring your training partner."
+        "answer": "Follow the roll when your grips on the heel are loose or you have lost the figure-four finishing position—maintaining saddle is already compromised, so converting to back control offers the best outcome. Tighten the entanglement when you have secure heel control and can maintain structural integrity through the rotation. Critical safety note: if maintaining the grip generates rotational force on the knee during the roll, release immediately to prevent injuring your training partner.",
+        "answer_line": "Roll when heel or figure-four slips",
+        "distractors": {
+          "plausible": [
+            "Stay in saddle if hips stay square",
+            "Re-pummel your outside leg first"
+          ],
+          "trap": [
+            "Abandon legs and scramble to top"
+          ]
+        }
       },
       {
         "question": "Your opponent successfully rolls to turtle—what is your immediate positional priority?",
-        "answer": "Immediately follow them and establish upper body control before they can begin guard recovery. Priority is seatbelt grip with the choking arm over their far shoulder and the underhook arm under their near armpit. Insert the bottom hook first while maintaining chest-to-back pressure. Do not attempt to re-enter the leg entanglement—the positional opportunity has shifted to back control and chasing the legs wastes the conversion window."
+        "answer": "Immediately follow them and establish upper body control before they can begin guard recovery. Priority is seatbelt grip with the choking arm over their far shoulder and the underhook arm under their near armpit. Insert the bottom hook first while maintaining chest-to-back pressure. Do not attempt to re-enter the leg entanglement—the positional opportunity has shifted to back control and chasing the legs wastes the conversion window.",
+        "answer_line": "Seatbelt grips, insert bottom hook",
+        "distractors": {
+          "plausible": [
+            "Insert both hooks immediately",
+            "Underhook only, skip the seatbelt"
+          ],
+          "trap": [
+            "Re-enter the leg entanglement"
+          ]
+        }
       },
       {
         "question": "How do you prevent your opponent from establishing the posting position needed for the forward roll?",
-        "answer": "Use your free arm to control their near-side wrist or forearm, preventing them from placing their hand on the mat as a pivot point. Alternatively, walk your hips closer to their upper body to limit the space available for forward rolling motion. You can also apply your top leg to press against their shoulder or upper back, creating a barrier that prevents the forward drive needed to initiate the roll while maintaining your entanglement structure."
+        "answer": "Use your free arm to control their near-side wrist or forearm, preventing them from placing their hand on the mat as a pivot point. Alternatively, walk your hips closer to their upper body to limit the space available for forward rolling motion. You can also apply your top leg to press against their shoulder or upper back, creating a barrier that prevents the forward drive needed to initiate the roll while maintaining your entanglement structure.",
+        "answer_line": "Control the posting-hand wrist",
+        "distractors": {
+          "plausible": [
+            "Grab their far-side ankle",
+            "Loosen grips to relax pressure"
+          ],
+          "trap": [
+            "Create space by pushing away"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -394,6 +555,35 @@
         "phase": "Phase 4: Saddle to Back Control Conversion",
         "focus": "Seamless transition from leg control to upper body control",
         "description": "Specifically practice following the forward roll and establishing back control. Start with controlled rolls and progress to explosive full-speed attempts. Develop the ability to maintain chest-to-back connection during the dynamic transition and immediately insert hooks upon the opponent reaching turtle."
+      }
+    ],
+    "clips": [
+      {
+        "id": "5hhSK86xBFc",
+        "title": "Controlling the saddle against the roll",
+        "by": "Mads H.",
+        "vertical": false,
+        "channel": "Mads H. BJJ",
+        "duration": 259,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "2SgSWoUjD4o",
+        "title": "Keeping and Regaining the Knee Line from Saddle",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "Absolute MMA St Kilda - Melbourne",
+        "duration": 872,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "eoZKRr-ZayU",
+        "title": "Controlling the Knee Line to Prevent Early Escape",
+        "by": "Revolution BJJ",
+        "vertical": false,
+        "channel": "Revolution BJJ",
+        "duration": 147,
+        "verified": "2026-07-15"
       }
     ]
   }

@@ -148,6 +148,54 @@ description: "How to defend the RDLR Pass in BJJ. Recognition cues, guard retent
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "RDLR Pass (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Off-balance drill to recover de la riva guard",
+      "description": "RDLR Pass (Defender) film study: Off-balance drill to recover de la riva guard, taught by BJJ4Breakfast.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/l5KLz636hyo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/l5KLz636hyo",
+      "url": "https://www.youtube.com/watch?v=l5KLz636hyo",
+      "creator": { "@type": "Person", "name": "BJJ4Breakfast" },
+      "duration": "PT99S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Tip to improve your de la riva",
+      "description": "RDLR Pass (Defender) film study: Tip to improve your de la riva, taught by Absolute MMA St Kilda.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/eO0iX_6Whaw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/eO0iX_6Whaw",
+      "url": "https://www.youtube.com/watch?v=eO0iX_6Whaw",
+      "creator": { "@type": "Person", "name": "Absolute MMA St Kilda" },
+      "duration": "PT71S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Tips to make your de la riva unpassable",
+      "description": "RDLR Pass (Defender) film study: Tips to make your de la riva unpassable, taught by Juanjo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/wLSe23vSbP0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/wLSe23vSbP0",
+      "url": "https://www.youtube.com/watch?v=wLSe23vSbP0",
+      "creator": { "@type": "Person", "name": "Juanjo" },
+      "duration": "PT102S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -159,6 +207,42 @@ The defensive framework operates on multiple layers: maintaining the ankle grip 
 **Opponent's Starting Position**: [[Positions/De La Riva Guard/Reverse De La Riva Guard]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch RDLR Pass (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=l5KLz636hyo)
+
+<p class="clip-credit"><strong>Off-balance drill to recover de la riva guard</strong> — taught by BJJ4Breakfast · 1:39 · <a href="https://www.youtube.com/watch?v=l5KLz636hyo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=eO0iX_6Whaw)
+
+<p class="clip-credit"><strong>Tip to improve your de la riva</strong> — taught by Absolute MMA St Kilda · 1:11 · <a href="https://www.youtube.com/watch?v=eO0iX_6Whaw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=wLSe23vSbP0)
+
+<p class="clip-credit"><strong>Tips to make your de la riva unpassable</strong> — taught by Juanjo · 1:42 · <a href="https://www.youtube.com/watch?v=wLSe23vSbP0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

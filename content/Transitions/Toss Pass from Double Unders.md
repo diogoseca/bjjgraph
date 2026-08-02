@@ -34,6 +34,43 @@ description: "Master the Toss Pass from Double Unders in BJJ. Explosive guard pa
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Toss Pass from Double Unders \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Double unders pass",
+      "description": "Toss Pass from Double Unders film study: Double unders pass, taught by Nicky Ryan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/N4PxPPv98k4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/N4PxPPv98k4",
+      "url": "https://www.youtube.com/watch?v=N4PxPPv98k4",
+      "creator": { "@type": "Person", "name": "Nicky Ryan" },
+      "duration": "PT91S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Double under pass breakdown",
+      "description": "Toss Pass from Double Unders film study: Double under pass breakdown, taught by Scranton MMA.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/MPUuovNI1ak/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/MPUuovNI1ak",
+      "url": "https://www.youtube.com/watch?v=MPUuovNI1ak",
+      "creator": { "@type": "Person", "name": "Scranton MMA" },
+      "duration": "PT131S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +106,34 @@ Strategic deployment of the toss pass is most effective when paired with standar
 **Success Rate**: 55%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Toss Pass from Double Unders in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=N4PxPPv98k4)
+
+<p class="clip-credit"><strong>Double unders pass</strong> — taught by Nicky Ryan · 1:31 · <a href="https://www.youtube.com/watch?v=N4PxPPv98k4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=MPUuovNI1ak)
+
+<p class="clip-credit"><strong>Double under pass breakdown</strong> — taught by Scranton MMA · 2:11 · <a href="https://www.youtube.com/watch?v=MPUuovNI1ak" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

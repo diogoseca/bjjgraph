@@ -25,7 +25,10 @@
   "target_area": "Carotid arteries and windpipe",
   "starting_position": "Front Headlock",
   "from_position": "Guillotine Control/Top",
-  "success_rate": 62,
+  "success_rate": {
+    "gi": 62,
+    "nogi": 62
+  },
   "variant_uniqueness": "Versatile choke with multiple grip and positional variations",
   "summary": "The Guillotine Choke is a front-headlock blood choke that wraps the attacker's forearm under the opponent's chin to compress the carotid arteries and windpipe, finishable from guard, standing, the clinch, or broken-posture scrambles.",
   "overview": "The Guillotine Choke is one of the most versatile and high-percentage submissions in Brazilian Jiu-Jitsu, capable of being executed from standing positions, guard, or transitional scrambles. This blood choke targets the carotid arteries while also applying pressure to the trachea, making it a powerful finishing technique when applied correctly. The guillotine's effectiveness stems from its ability to capitalize on common defensive movements, particularly when opponents shoot for takedowns or attempt to pass guard with poor posture. The technique works by using your arm as a fulcrum around the opponent's neck while using hip pressure and body positioning to create the choking force. Its versatility allows for execution from numerous positions including standing, closed guard, half guard, and even during scrambles, making it an essential weapon for practitioners at all levels. The guillotine family includes multiple variations such as the high elbow guillotine, arm-in guillotine, and ten-finger guillotine, each with specific applications based on the situation and opponent's defensive reactions.",
@@ -123,7 +126,7 @@
       "when_to_use": "When in no-gi situation and need maximum grip strength. Also useful when opponent is very slippery with sweat or your arms are too short for traditional grip"
     },
     {
-      "variation_name": "Chin Strap Guillotine",
+      "variation_name": "Chin Strap Guillotine from Front Headlock",
       "description": "Advanced variation where choking arm goes under opponent's chin rather than around neck, forcing head back while choking",
       "when_to_use": "When opponent successfully defends standard guillotine by tucking chin extremely tight. Creates different mechanical pressure"
     },
@@ -154,7 +157,7 @@
       "relationship": "Arm-trapped variation effective against chin-tuck defense and from bottom half guard"
     },
     {
-      "name": "Chin Strap Guillotine",
+      "name": "Chin Strap Guillotine from Front Headlock",
       "relationship": "Advanced variation targeting under-chin pressure when standard grip is defended"
     },
     {
@@ -222,6 +225,44 @@
     {
       "name": "Anaconda Choke",
       "relationship": "Complementary front headlock submission sharing positional entries"
+    }
+  ],
+  "clips": [
+    {
+      "id": "SAWvSovVk4A",
+      "title": "Guillotine from Butterfly Guard",
+      "by": "Jake Shields",
+      "vertical": false,
+      "channel": "BJJ Fanatics",
+      "duration": 64,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "Z75kDSCIeN4",
+      "title": "Guillotine Choke from Butterfly Guard",
+      "by": "Modesto Judo Club",
+      "vertical": false,
+      "channel": "Modesto Judo Club",
+      "duration": 76,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "2Ioe4B7HF38",
+      "title": "Guillotine choke from the clinch",
+      "by": "Michael James",
+      "vertical": false,
+      "channel": "Michael James",
+      "duration": 43,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "-x0MJel3Ru0",
+      "title": "Attacking the standing guillotine",
+      "by": "Fargo BJJ",
+      "vertical": false,
+      "channel": "Fargo BJJ Academy",
+      "duration": 55,
+      "verified": "2026-07-14"
     }
   ]
 }

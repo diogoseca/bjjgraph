@@ -114,39 +114,52 @@
     "transitions": [
       {
         "transition": "Posture Recovery",
-        "attempt_probability": 31
+        "attempt_probability": {
+          "gi": 25,
+          "nogi": 27
+        }
       },
       {
         "transition": "Guard Opening Sequence",
-        "attempt_probability": 26
-      },
-      {
-        "transition": "Standing up in Base",
-        "attempt_probability": 22
+        "attempt_probability": {
+          "gi": 24,
+          "nogi": 21
+        }
       },
       {
         "transition": "Stack Pass",
-        "attempt_probability": 10
+        "attempt_probability": {
+          "gi": 11,
+          "nogi": 11
+        }
       },
       {
         "transition": "Stand Up in Closed Guard",
-        "attempt_probability": 3
+        "attempt_probability": {
+          "gi": 18,
+          "nogi": 22
+        }
       },
       {
         "transition": "Ezekiel Choke from Closed Guard",
-        "attempt_probability": 2
+        "attempt_probability": {
+          "gi": 5,
+          "nogi": 1
+        }
       },
       {
         "transition": "Knee Slice from Closed Guard",
-        "attempt_probability": 2
-      },
-      {
-        "transition": "Can Opener",
-        "attempt_probability": 2
+        "attempt_probability": {
+          "gi": 13,
+          "nogi": 13
+        }
       },
       {
         "transition": "Can Opener from Closed Guard",
-        "attempt_probability": 2
+        "attempt_probability": {
+          "gi": 4,
+          "nogi": 5
+        }
       }
     ],
     "decision_tree": [
@@ -369,7 +382,27 @@
         "description": "Probability of finishing submission from top position"
       },
       "average_time": "1-3 minutes depending on skill level and guard opening strategy"
-    }
+    },
+    "clips": [
+      {
+        "id": "r2Zj80AQJuQ",
+        "title": "Great Detail to Open the Closed Guard",
+        "by": "Dan McCarthy",
+        "vertical": false,
+        "channel": "Bernardo Faria BJJ Fanatics",
+        "duration": 220,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "r3oI5TvaWg0",
+        "title": "Passing Closed Guard with the Sao Paulo Pass",
+        "by": "Leonardo Nogueira",
+        "vertical": false,
+        "channel": "Bernardo Faria BJJ Fanatics",
+        "duration": 340,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "bottom": {
     "name": "Closed Guard Bottom",
@@ -416,143 +449,234 @@
     "transitions": [
       {
         "transition": "Hip Bump Sweep",
-        "attempt_probability": 16
+        "attempt_probability": {
+          "gi": 7,
+          "nogi": 9
+        }
       },
       {
         "transition": "Wrist Lock",
-        "attempt_probability": 3
+        "attempt_probability": {
+          "gi": 2,
+          "nogi": 1
+        }
       },
       {
         "transition": "Scissor Sweep",
-        "attempt_probability": 7
+        "attempt_probability": {
+          "gi": 9,
+          "nogi": 6
+        }
       },
       {
         "transition": "Triangle Setup",
-        "attempt_probability": 6
+        "attempt_probability": {
+          "gi": 8,
+          "nogi": 10
+        }
       },
       {
         "transition": "Cross Collar Choke from Closed Guard",
-        "attempt_probability": 5
+        "attempt_probability": {
+          "gi": 7,
+          "nogi": 0
+        }
       },
       {
         "transition": "Pendulum Sweep",
-        "attempt_probability": 5
+        "attempt_probability": {
+          "gi": 6,
+          "nogi": 5
+        }
       },
       {
         "transition": "Guillotine Setup",
-        "attempt_probability": 5
+        "attempt_probability": {
+          "gi": 4,
+          "nogi": 10
+        }
       },
       {
         "transition": "Kimura Sweep",
-        "attempt_probability": 3
+        "attempt_probability": {
+          "gi": 3,
+          "nogi": 4
+        }
       },
       {
         "transition": "Rolling Armbar from Closed Guard",
-        "attempt_probability": 3
+        "attempt_probability": {
+          "gi": 1,
+          "nogi": 1
+        }
       },
       {
         "transition": "Flower Sweep",
-        "attempt_probability": 2
+        "attempt_probability": {
+          "gi": 4,
+          "nogi": 2
+        }
       },
       {
         "transition": "Kimura to Back Take",
-        "attempt_probability": 2
-      },
-      {
-        "transition": "Tarikoplata",
-        "attempt_probability": 2
+        "attempt_probability": {
+          "gi": 2,
+          "nogi": 3
+        }
       },
       {
         "transition": "Elevator Sweep",
-        "attempt_probability": 1
+        "attempt_probability": {
+          "gi": 2,
+          "nogi": 2
+        }
       },
       {
         "transition": "Overhook Sweep",
-        "attempt_probability": 1
+        "attempt_probability": {
+          "gi": 2,
+          "nogi": 3
+        }
       },
       {
         "transition": "Omoplata Sweep",
-        "attempt_probability": 1
-      },
-      {
-        "transition": "Spinning Armbar",
-        "attempt_probability": 1
+        "attempt_probability": {
+          "gi": 2,
+          "nogi": 1
+        }
       },
       {
         "transition": "Closed Guard to Triangle",
-        "attempt_probability": 1
+        "attempt_probability": {
+          "gi": 3,
+          "nogi": 4
+        }
       },
       {
         "transition": "Monoplata from Guard",
-        "attempt_probability": 1
+        "attempt_probability": {
+          "gi": 1,
+          "nogi": 1
+        }
       },
       {
         "transition": "Lumberjack Sweep",
-        "attempt_probability": 2
+        "attempt_probability": {
+          "gi": 2,
+          "nogi": 1
+        }
       },
       {
         "transition": "Closed Guard to Omoplata",
-        "attempt_probability": 2
+        "attempt_probability": {
+          "gi": 3,
+          "nogi": 2
+        }
       },
       {
         "transition": "Omoplata to Back",
-        "attempt_probability": 2
+        "attempt_probability": {
+          "gi": 1,
+          "nogi": 1
+        }
       },
       {
         "transition": "Muscle Sweep",
-        "attempt_probability": 2
+        "attempt_probability": {
+          "gi": 1,
+          "nogi": 1
+        }
       },
       {
         "transition": "Closed Guard to Overhook Guard",
-        "attempt_probability": 2
+        "attempt_probability": {
+          "gi": 3,
+          "nogi": 4
+        }
       },
       {
         "transition": "High Guard to Rubber Guard",
-        "attempt_probability": 2
+        "attempt_probability": {
+          "gi": 1,
+          "nogi": 3
+        }
       },
       {
         "transition": "Transition to Diamond Guard",
-        "attempt_probability": 2
-      },
-      {
-        "transition": "Flying Armbar",
-        "attempt_probability": 2
+        "attempt_probability": {
+          "gi": 1,
+          "nogi": 1
+        }
       },
       {
         "transition": "Armbar from Guard",
-        "attempt_probability": 4
+        "attempt_probability": {
+          "gi": 6,
+          "nogi": 5
+        }
       },
       {
         "transition": "Flying Armbar from Closed Guard",
-        "attempt_probability": 1
+        "attempt_probability": {
+          "gi": 1,
+          "nogi": 1
+        }
       },
       {
         "transition": "Kimura from Guard",
-        "attempt_probability": 3
+        "attempt_probability": {
+          "gi": 5,
+          "nogi": 6
+        }
       },
       {
         "transition": "Kneebar from Guard",
-        "attempt_probability": 1
+        "attempt_probability": {
+          "gi": 1,
+          "nogi": 2
+        }
       },
       {
         "transition": "Loop Choke from Closed Guard",
-        "attempt_probability": 1
+        "attempt_probability": {
+          "gi": 2,
+          "nogi": 0
+        }
       },
       {
         "transition": "Spinning Armbar from Closed Guard",
-        "attempt_probability": 1
+        "attempt_probability": {
+          "gi": 1,
+          "nogi": 1
+        }
       },
       {
         "transition": "Tarikoplata from Closed Guard",
-        "attempt_probability": 1
+        "attempt_probability": {
+          "gi": 1,
+          "nogi": 1
+        }
       },
       {
         "transition": "Triangle Choke from Closed Guard",
-        "attempt_probability": 2
+        "attempt_probability": {
+          "gi": 5,
+          "nogi": 6
+        }
       },
       {
         "transition": "Closed Guard to Hindulotine",
-        "attempt_probability": 5
+        "attempt_probability": {
+          "gi": 1,
+          "nogi": 1
+        }
+      },
+      {
+        "transition": "Switch to Triangle",
+        "attempt_probability": {
+          "gi": 2,
+          "nogi": 2
+        }
       }
     ],
     "decision_tree": [
@@ -751,6 +875,269 @@
         "description": "Probability of finishing submission directly from position"
       },
       "average_time": "1-3 minutes depending on skill differential and guard breaking proficiency"
+    },
+    "clips": [
+      {
+        "id": "dMcMblcXhF0",
+        "title": "Sweep from closed guard",
+        "by": "Roger Gracie",
+        "vertical": false,
+        "channel": "Gentle Art Media",
+        "duration": 73,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "dfP-Ov8FBUo",
+        "title": "Cross collar chokes from closed guard",
+        "by": "Roger Gracie",
+        "vertical": false,
+        "channel": "Jiu Jitsu Moves",
+        "duration": 80,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "vSmRbpNmf-E",
+        "title": "Armbars from closed guard",
+        "by": "Roger Gracie",
+        "vertical": false,
+        "channel": "Jiu Jitsu Moves",
+        "duration": 102,
+        "verified": "2026-07-14"
+      }
+    ]
+  },
+  "flashcards_family": [
+    {
+      "question": "Why does the closed guard invert the usual on-top/underneath advantage, giving the bottom player the offensive initiative?",
+      "answer": "The crossed ankles tether the opponent's hips, forcing them to solve a defensive opening problem before any offense is possible. The closed kinetic chain denies the top player the ability to disengage, stand freely, or generate the distance required to pass. Meanwhile the bottom player retains free use of both arms and full hip mobility to break posture, create angles, and threaten sweeps and submissions. This structural trap is what makes the position offensive from underneath across every variant, whether standard, high guard, or rubber guard.",
+      "distractors": {
+        "plausible": [
+          "Bottom's angle beats top's weight",
+          "Flexibility offsets top's strength"
+        ],
+        "trap": [
+          "Open the guard for more space"
+        ]
+      },
+      "answer_line": "Ankles lock hips, bottom stays free"
+    },
+    {
+      "question": "What single top-player attribute most determines whether the bottom player's attacks succeed in any closed guard variant?",
+      "answer": "Posture is the master variable: whether the top player keeps their spine stacked with head over hips and chest elevated, or gets pulled forward and folded down. Broken posture is the prerequisite for nearly every high-percentage attack, since triangles, armbars, collar chokes, and guillotines all require the opponent's head and shoulders dragged toward the mat. When posture is intact, the bottom player can only threaten low-percentage or off-balancing options, and the top player can begin systematic opening. This is why every closed guard variant is fundamentally a fight over the opponent's posture before it is a fight over grips or legs.",
+      "answer_line": "Broken posture opens submissions",
+      "distractors": {
+        "plausible": [
+          "Top's grip strength",
+          "Top's weight and base"
+        ],
+        "trap": [
+          "Force subs against tall posture"
+        ]
+      }
+    },
+    {
+      "question": "How does the bottom player use the interplay of angle and leg pressure to generate offense rather than lying flat and square?",
+      "answer": "The bottom player shifts their hips off the centerline to a 30-to-45-degree angle while the crossed legs actively pull and pinch. Staying flat and square lets the opponent settle heavy, centered weight and defend from a stable base, whereas the angle exposes the opponent's compromised side, misaligns their base for sweeps, and opens submission entries that a square position hides. The crossed legs simultaneously act as an active tool, pulling the opponent forward with the heels while the knees pinch to restrict their hips and breathing. Combining angular hip movement with dynamic leg pressure is the universal engine of closed guard offense, not the static lock itself.",
+      "distractors": {
+        "plausible": [
+          "Squeeze ankles as hard as possible",
+          "Grip sleeves and hold still"
+        ],
+        "trap": [
+          "Flatten out, let legs go slack"
+        ]
+      },
+      "answer_line": "Angle hips, pull-pinch with legs"
+    },
+    {
+      "question": "What is the systematic progression a top player must follow to escape and pass any closed guard, and why can steps not be skipped?",
+      "answer": "The sequence is posture first, then grip control, then opening the ankles, and only then passing. Each stage is a prerequisite for the next: without posture the opponent breaks you down before you can fight grips, and without controlled grips and space you cannot safely unlock the legs. Attempting to pass while the ankles are still crossed simply feeds an arm or lets the guard re-close, exposing you to counters for no positional gain. Rushing collapses the whole progression, which is why patient, ordered escape beats athletic force in every variant.",
+      "answer_line": "Posture, grips, open ankles, pass",
+      "distractors": {
+        "plausible": [
+          "Grips first, posture second",
+          "Unlock the legs as step one"
+        ],
+        "trap": [
+          "Force the pass while legs locked"
+        ]
+      }
+    },
+    {
+      "question": "Why is threatening multiple attacks simultaneously more effective from closed guard than committing hard to a single technique?",
+      "answer": "The closed guard's control lets the bottom player hold several threats live at once, so the goal is to create dilemmas where defending one attack necessarily opens another. A defensive reaction to a sweep exposes a submission, and posturing away from a choke feeds a sweep, forcing the opponent to constantly choose which threat to concede. A single committed attack, by contrast, is predictable and lets an experienced opponent load their defense and counter. Chaining reactions rather than forcing one finish is the shared offensive logic across standard, overhook, and rubber guard variants.",
+      "answer_line": "Chain threats, create dilemmas",
+      "distractors": {
+        "plausible": [
+          "Muscle your best submission through",
+          "Rush the first opening you see"
+        ],
+        "trap": [
+          "Commit everything to one attack"
+        ]
+      }
+    },
+    {
+      "question": "How does maintaining hip connection function as a defensive barrier for the bottom player independent of any attacking goal?",
+      "answer": "Keeping the hips glued to the opponent's hips eliminates the very space the passer needs to establish posture, isolate a leg, or angle off to the side. As long as that connection holds, the opponent's passing sequences cannot begin, so guard retention and offense share the same mechanical foundation. If the bottom player lets space open, the opponent can flatten them, stack, or start working the legs apart even before the guard is opened. This is why active hip connection, rather than merely crossing the ankles, is the universal retention principle underlying every closed guard variant.",
+      "answer_line": "Keep hips glued, deny pass space",
+      "distractors": {
+        "plausible": [
+          "Cross ankles as tight as possible",
+          "Control opponent's far sleeve"
+        ],
+        "trap": [
+          "Let hips separate, create space"
+        ]
+      }
+    },
+    {
+      "question": "Why does passivity favor the bottom player, making constant activity essential for the top player in closed guard?",
+      "answer": "When the position stalls, the bottom player retains all their offensive tools while the top player only expends energy defending, so time itself works against the passer. A static top player gives the bottom player uninterrupted opportunity to build grips, shift to angles, and load attacks with no reactions to exploit. Continuous movement toward opening, even slow progress, denies that setup time and forces reactions that create passing opportunities. This asymmetry, that doing nothing helps the guard player, holds across all variants and is why the top player must stay active rather than wait.",
+      "answer_line": "Stay active, time favors bottom",
+      "distractors": {
+        "plausible": [
+          "Waiting makes the bottom impatient",
+          "Rest keeps the top's base strong"
+        ],
+        "trap": [
+          "Stall until they open the guard"
+        ]
+      }
     }
-  }
+  ],
+  "flashcards_position": [
+    {
+      "question": "What geometric configuration defines the closed guard and distinguishes it from open guard?",
+      "answer": "Closed guard is defined by the legs wrapping the opponent's torso with the ankles crossed and locked behind their back. This forms a closed kinetic chain around the waist, and the ankle lock is the single feature that separates it from open guard, where the legs are unhooked and control is maintained through feet, shins, and grips instead. Because the loop is physically closed, the top player cannot simply pull their hips backward to disengage; they must first break the lock. The locked legs also fix the distance between both players' hips, denying the space required to initiate a pass.",
+      "distractors": {
+        "plausible": [
+          "Feet hooked inside opponent's thighs",
+          "Shins crossed over opponent's back"
+        ],
+        "trap": [
+          "Feet on hips, no ankle lock"
+        ]
+      },
+      "answer_line": "Ankles crossed, locked behind back"
+    },
+    {
+      "question": "Why does the closed guard invert the usual relationship between being on top and holding positional advantage?",
+      "answer": "The locked legs trap the top player inside a control loop, neutralizing the gravity and pressure that normally favor being on top. The bottom player uses the leg lock to break posture and threaten sweeps and submissions, while the top player is confined to defending and working toward opening the legs before any offense is possible. This makes the bottom role offensive and the top role defensive despite the vertical relationship. The dynamic reflects BJJ's core principle that leverage and control points, not position alone, determine advantage.",
+      "distractors": {
+        "plausible": [
+          "Bottom wins on pure strength",
+          "Sweeps score more than passes"
+        ],
+        "trap": [
+          "Relax posture, get triangled"
+        ]
+      },
+      "answer_line": "Locked legs trap top, bottom attacks"
+    },
+    {
+      "question": "How does the height at which the ankles are crossed on the opponent's back affect control quality?",
+      "answer": "The ankles should be crossed low at the small of the back, just above the hips, so the heels can dig into the lumbar spine. From this height the loop controls both the pelvis and, through posture-breaking, the upper torso. Crossing too high toward the shoulder blades opens space at the hips and lets the top player drive their pelvis down to break the guard. Crossing too low, wrapped around the hips themselves, surrenders posture control and lets the top player sit back and posture up freely. Correct height therefore governs both posture-breaking ability and resistance to the guard being opened, while keeping the squeeze sustainable.",
+      "distractors": {
+        "plausible": [
+          "Cross high near the shoulder blades",
+          "Squeeze knees, height is irrelevant"
+        ],
+        "trap": [
+          "Leave ankles uncrossed, get passed"
+        ]
+      },
+      "answer_line": "Cross low at the small of the back"
+    },
+    {
+      "question": "What role does the hip-to-hip connection play in maintaining the closed guard?",
+      "answer": "Keeping the hips glued together denies the top player the space needed to stand, posture, or angle out for a pass. The distance between the two players' hips is the decisive control variable, and the locked legs are the primary tool for eliminating it, with the heels pulling the top player's pelvis inward. Whenever a gap opens between the hips, the top player gains the room to begin breaking and passing, so both players fight constantly over this measurement. Closing hip distance favors the guard player, while opening it favors the passer.",
+      "distractors": {
+        "plausible": [
+          "Grip the far sleeve and collar",
+          "Keep knees pinched to the ribs"
+        ],
+        "trap": [
+          "Let hips drift apart for angle"
+        ]
+      },
+      "answer_line": "Glue hips together, kill pass space"
+    },
+    {
+      "question": "Why is control of the top player's posture the central contested element of the closed guard?",
+      "answer": "Posture refers to whether the top player's spine is upright with head over hips or broken forward with chest pulled down toward the bottom player. Upright posture gives the top player the structural base to defend sweeps and work toward opening, while broken posture exposes the head and arms and makes triangles, armbars, and chokes available. The bottom player attacks posture by pulling the collar or head down while driving the heels into the lower back, and the top player resists by keeping the spine straight and hips back. Because so many attacks and defenses hinge on this single variable, the fight for posture drives the whole position.",
+      "answer_line": "Posture battle decides who attacks",
+      "distractors": {
+        "plausible": [
+          "Stronger grips win the exchange",
+          "Leg strength keeps guard closed"
+        ],
+        "trap": [
+          "Rest your head on their chest"
+        ]
+      }
+    },
+    {
+      "question": "How does grip fighting determine the flow of exchanges in the closed guard for both players?",
+      "answer": "Grips are the connection points through which each player imposes their agenda: the bottom player uses collar, sleeve, and wrist grips to break posture and set up attacks, while the top player uses grips on the hips, biceps, or knees to manage distance and prepare openings. Whoever establishes dominant grips first dictates the exchange, so both players spend energy breaking the opponent's grips before their own can develop. A grip that controls the head or a sleeve is worth more than a passive hold because it directly enables posture-breaking or sweeping. Grip dominance therefore precedes and enables nearly every offensive or defensive action from this position.",
+      "answer_line": "Dominant grips dictate the exchange",
+      "distractors": {
+        "plausible": [
+          "Sleeve grips alone break posture",
+          "Strength beats grip timing"
+        ],
+        "trap": [
+          "Overreach a grip, get armbarred"
+        ]
+      }
+    },
+    {
+      "question": "What is the strategic significance of opening the closed guard, and why does it change the position's character?",
+      "answer": "Opening the guard means unlocking the crossed ankles, which converts the position from a fixed closed circuit into the mobile, unhooked dynamics of open guard. For the top player this is the mandatory first step toward passing, since no legitimate pass exists while the legs remain locked. For the bottom player it is often a loss of the strongest control loop, though skilled players will transition to open guard variations rather than surrender control entirely. The moment of opening is the pivotal transition where control can swing dramatically toward either player depending on who is prepared for the ensuing scramble.",
+      "answer_line": "Opening ankles shifts to open guard",
+      "distractors": {
+        "plausible": [
+          "Opening legs guarantees a sweep",
+          "Unlocking ankles wins the scramble"
+        ],
+        "trap": [
+          "Open flat and get your guard passed"
+        ]
+      }
+    },
+    {
+      "question": "Why does passivity from either player tend to favor the bottom player in the closed guard?",
+      "answer": "The bottom player benefits from a static position because the locked legs continue to restrict the top player's movement and breathing without requiring active effort, while the top player burns energy simply supporting weight and resisting posture breaks. Time therefore works against the top player, who must actively progress through posture, grips, and opening to escape the disadvantage. If neither player initiates, the top player slowly fatigues while remaining trapped and exposed to attacks. This is why the position rewards constant engagement from the top player and patient control from the bottom, rather than stalling by either side.",
+      "answer_line": "Passivity favors bottom, drains top",
+      "distractors": {
+        "plausible": [
+          "Passivity favors whoever is bigger",
+          "Stalling wastes time equally"
+        ],
+        "trap": [
+          "Top player should stall and wait"
+        ]
+      }
+    }
+  ],
+  "clips": [
+    {
+      "id": "AYWgYtOqU6c",
+      "title": "Closed guard fundamentals",
+      "by": "Dickie Martin",
+      "vertical": false,
+      "channel": "Carlson Gracie London",
+      "duration": 88,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "dMcMblcXhF0",
+      "title": "Sweep from closed guard",
+      "by": "Roger Gracie",
+      "vertical": false,
+      "channel": "Gentle Art Media",
+      "duration": 73,
+      "verified": "2026-07-14"
+    }
+  ]
 }

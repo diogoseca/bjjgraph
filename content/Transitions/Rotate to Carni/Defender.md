@@ -148,6 +148,54 @@ description: "How to defend against Rotate to Carni in BJJ. Recognition cues, de
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Rotate to Carni (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Omoplata escape to front headlock",
+      "description": "Rotate to Carni (Defender) film study: Omoplata escape to front headlock, taught by Asaf Mich.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/0-SG9igq40E/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/0-SG9igq40E",
+      "url": "https://www.youtube.com/watch?v=0-SG9igq40E",
+      "creator": { "@type": "Person", "name": "Asaf Mich" },
+      "duration": "PT14S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Simple but risky rubber guard escape",
+      "description": "Rotate to Carni (Defender) film study: Simple but risky rubber guard escape, taught by BJJ4Breakfast.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/AvivOVuYcCk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/AvivOVuYcCk",
+      "url": "https://www.youtube.com/watch?v=AvivOVuYcCk",
+      "creator": { "@type": "Person", "name": "BJJ4Breakfast" },
+      "duration": "PT131S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Troubleshooting the Lockdown from rubber guard",
+      "description": "Rotate to Carni (Defender) film study: Troubleshooting the Lockdown from rubber guard, taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/FkthdKIbacI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/FkthdKIbacI",
+      "url": "https://www.youtube.com/watch?v=FkthdKIbacI",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT61S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -159,6 +207,42 @@ The most effective defensive strategy is prevention rather than reaction. By mai
 **Opponent's Starting Position**: [[Positions/Rubber Guard/New York]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Rotate to Carni (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=0-SG9igq40E)
+
+<p class="clip-credit"><strong>Omoplata escape to front headlock</strong> — taught by Asaf Mich · 0:14 · <a href="https://www.youtube.com/watch?v=0-SG9igq40E" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=AvivOVuYcCk)
+
+<p class="clip-credit"><strong>Simple but risky rubber guard escape</strong> — taught by BJJ4Breakfast · 2:11 · <a href="https://www.youtube.com/watch?v=AvivOVuYcCk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=FkthdKIbacI)
+
+<p class="clip-credit"><strong>Troubleshooting the Lockdown from rubber guard</strong> — taught by Eddie Bravo · 1:01 · <a href="https://www.youtube.com/watch?v=FkthdKIbacI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

@@ -148,6 +148,43 @@ description: "How to defend the transition to Russian Leg Lasso. Recognition cue
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Lasso Guard to Russian Leg Lasso (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Escaping the lasso guard",
+      "description": "Lasso Guard to Russian Leg Lasso (Defender) film study: Escaping the lasso guard, taught by Rodrigo Carvalho.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/jI5gtpOQhys/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/jI5gtpOQhys",
+      "url": "https://www.youtube.com/watch?v=jI5gtpOQhys",
+      "creator": { "@type": "Person", "name": "Rodrigo Carvalho" },
+      "duration": "PT30S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Lasso and spider guard defense breakdown",
+      "description": "Lasso Guard to Russian Leg Lasso (Defender) film study: Lasso and spider guard defense breakdown, taught by Binder BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/GOzoDB10XkY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/GOzoDB10XkY",
+      "url": "https://www.youtube.com/watch?v=GOzoDB10XkY",
+      "creator": { "@type": "Person", "name": "Binder BJJ" },
+      "duration": "PT245S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +194,34 @@ Defending the transition to Russian Leg Lasso requires recognizing the bottom pl
 **Opponent's Starting Position**: [[Positions/Lasso Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Lasso Guard to Russian Leg Lasso (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=jI5gtpOQhys)
+
+<p class="clip-credit"><strong>Escaping the lasso guard</strong> — taught by Rodrigo Carvalho · 0:30 · <a href="https://www.youtube.com/watch?v=jI5gtpOQhys" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=GOzoDB10XkY)
+
+<p class="clip-credit"><strong>Lasso and spider guard defense breakdown</strong> — taught by Binder BJJ · 4:05 · <a href="https://www.youtube.com/watch?v=GOzoDB10XkY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

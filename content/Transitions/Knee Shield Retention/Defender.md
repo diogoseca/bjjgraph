@@ -154,6 +154,54 @@ description: "How to defeat Knee Shield Retention in BJJ. Recognition cues, pass
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Knee Shield Retention (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Knee shield half guard pass",
+      "description": "Knee Shield Retention (Defender) film study: Knee shield half guard pass, taught by Adam Metcalf.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Y815hmtzGZA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Y815hmtzGZA",
+      "url": "https://www.youtube.com/watch?v=Y815hmtzGZA",
+      "creator": { "@type": "Person", "name": "Adam Metcalf" },
+      "duration": "PT30S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Passing the knee shield with an inside knee cut",
+      "description": "Knee Shield Retention (Defender) film study: Passing the knee shield with an inside knee cut, taught by War Room Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/yj_6xcl2emA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/yj_6xcl2emA",
+      "url": "https://www.youtube.com/watch?v=yj_6xcl2emA",
+      "creator": { "@type": "Person", "name": "War Room Jiu Jitsu" },
+      "duration": "PT70S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Passing the knee shield from over-under",
+      "description": "Knee Shield Retention (Defender) film study: Passing the knee shield from over-under, taught by Paragon Jiu-Jitsu Austin.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/MvsgiCFdQPA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/MvsgiCFdQPA",
+      "url": "https://www.youtube.com/watch?v=MvsgiCFdQPA",
+      "creator": { "@type": "Person", "name": "Paragon Jiu-Jitsu Austin" },
+      "duration": "PT116S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -163,6 +211,42 @@ As the top player facing Knee Shield Retention, your goal is to systematically d
 **Opponent's Starting Position**: [[Positions/Half Guard/Knee Shield Half Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Knee Shield Retention (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Y815hmtzGZA)
+
+<p class="clip-credit"><strong>Knee shield half guard pass</strong> — taught by Adam Metcalf · 0:30 · <a href="https://www.youtube.com/watch?v=Y815hmtzGZA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=yj_6xcl2emA)
+
+<p class="clip-credit"><strong>Passing the knee shield with an inside knee cut</strong> — taught by War Room Jiu Jitsu · 1:10 · <a href="https://www.youtube.com/watch?v=yj_6xcl2emA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=MvsgiCFdQPA)
+
+<p class="clip-credit"><strong>Passing the knee shield from over-under</strong> — taught by Paragon Jiu-Jitsu Austin · 1:56 · <a href="https://www.youtube.com/watch?v=MvsgiCFdQPA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

@@ -144,6 +144,43 @@ description: "Defend the belly down armbar finish from Mission Control. Recognit
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Belly Down Armbar from Mission Control (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Armbar Escape from Closed Guard",
+      "description": "Belly Down Armbar from Mission Control (Defender) film study: Armbar Escape from Closed Guard, taught by Bowerhouse MMA.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/vfKVCQ-tA9M/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/vfKVCQ-tA9M",
+      "url": "https://www.youtube.com/watch?v=vfKVCQ-tA9M",
+      "creator": { "@type": "Person", "name": "Bowerhouse MMA" },
+      "duration": "PT84S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Why Your Armbar from Guard Always Fails",
+      "description": "Belly Down Armbar from Mission Control (Defender) film study: Why Your Armbar from Guard Always Fails, taught by Wim Deputter.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/58eCiNxdOiI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/58eCiNxdOiI",
+      "url": "https://www.youtube.com/watch?v=58eCiNxdOiI",
+      "creator": { "@type": "Person", "name": "Wim Deputter" },
+      "duration": "PT76S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -154,6 +191,34 @@ Defending the belly down armbar from Mission Control requires recognizing the tr
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Belly Down Armbar from Mission Control (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=vfKVCQ-tA9M)
+
+<p class="clip-credit"><strong>Armbar Escape from Closed Guard</strong> — taught by Bowerhouse MMA · 1:24 · <a href="https://www.youtube.com/watch?v=vfKVCQ-tA9M" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=58eCiNxdOiI)
+
+<p class="clip-credit"><strong>Why Your Armbar from Guard Always Fails</strong> — taught by Wim Deputter · 1:16 · <a href="https://www.youtube.com/watch?v=58eCiNxdOiI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

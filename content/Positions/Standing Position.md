@@ -34,6 +34,43 @@ description: "Master standing position in BJJ. Complete guide covering grips, ta
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Standing Position \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Breaking Down the Double Leg",
+      "description": "Standing Position film study: Breaking Down the Double Leg, taught by Jordan Burroughs.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/qMupz9qrbxc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/qMupz9qrbxc",
+      "url": "https://www.youtube.com/watch?v=qMupz9qrbxc",
+      "creator": { "@type": "Person", "name": "Jordan Burroughs" },
+      "duration": "PT47S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Double Leg Takedown Technique",
+      "description": "Standing Position film study: Double Leg Takedown Technique, taught by Predators MMA and BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/dhZgpDHCARw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/dhZgpDHCARw",
+      "url": "https://www.youtube.com/watch?v=dhZgpDHCARw",
+      "creator": { "@type": "Person", "name": "Predators MMA and BJJ" },
+      "duration": "PT15S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -62,6 +99,34 @@ description: "Master standing position in BJJ. Complete guide covering grips, ta
 The Standing Position represents the fundamental neutral starting state in BJJ and grappling competitions. This position is characterized by both practitioners standing upright and engaging through various grips, postures, and movements while seeking advantageous entries to ground exchanges. In competition, this is typically the position where matches begin and can also result from stand-ups or resets. The Standing Position encompasses a wide range of specific scenarios depending on grip configurations, stance, and relative positioning, but generally involves both practitioners seeking to establish dominant grips, create off-balancing opportunities, and set up either takedowns or tactical guard pulls. This position serves as the gateway to all subsequent BJJ exchanges and requires a unique blend of skills that differ from ground-based grappling. Mastery of the standing position involves understanding distance management, timing, grip sequences, footwork patterns, and the ability to transition seamlessly between offensive takedown attempts and defensive sprawls or guard pulls. The strategic depth of this position is often underestimated, yet it determines how the majority of competitive matches begin and can significantly impact the overall flow and outcome of a match.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Standing Position in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=qMupz9qrbxc)
+
+<p class="clip-credit"><strong>Breaking Down the Double Leg</strong> — taught by Jordan Burroughs · 0:47 · <a href="https://www.youtube.com/watch?v=qMupz9qrbxc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=dhZgpDHCARw)
+
+<p class="clip-credit"><strong>Double Leg Takedown Technique</strong> — taught by Predators MMA and BJJ · 0:15 · <a href="https://www.youtube.com/watch?v=dhZgpDHCARw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 
@@ -133,19 +198,19 @@ The Standing Position represents the fundamental neutral starting state in BJJ a
 ### Available Transitions
 
 
-- **[[Transitions/Pull Guard from Standing/Attacker|Pull Guard from Standing]]** (24% of attempts)
+- **[[Transitions/Pull Guard from Standing/Attacker|Pull Guard from Standing]]** (16% of attempts)
 
-- **[[Transitions/Standing Guard Pull/Attacker|Standing Guard Pull]]** (22% of attempts)
+- **[[Transitions/Standing Guard Pull/Attacker|Standing Guard Pull]]** (14% of attempts)
 
-- **[[Transitions/Butterfly Guard Pull/Attacker|Butterfly Guard Pull]]** (18% of attempts)
+- **[[Transitions/Butterfly Guard Pull/Attacker|Butterfly Guard Pull]]** (14% of attempts)
 
-- **[[Transitions/Arm Drag from Standing/Attacker|Arm Drag from Standing]]** (13% of attempts)
+- **[[Transitions/Arm Drag/Attacker|Arm Drag]]** (15% of attempts)
 
-- **[[Transitions/Level Change Takedown/Attacker|Level Change Takedown]]** (8% of attempts)
+- **[[Transitions/Level Change Takedown/Attacker|Level Change Takedown]]** (15% of attempts)
 
-- **[[Transitions/Takedown from Bottom/Attacker|Takedown from Bottom]]** (7% of attempts)
+- **[[Transitions/Takedown from Bottom/Attacker|Takedown from Bottom]]** (14% of attempts)
 
-- **[[Transitions/Snap Down from Standing/Attacker|Snap Down from Standing]]** (8% of attempts)
+- **[[Transitions/Snap Down from Standing/Attacker|Snap Down from Standing]]** (12% of attempts)
 
 
 ### Common Mistakes
@@ -210,33 +275,31 @@ The Standing Position represents the fundamental neutral starting state in BJJ a
 ### Available Transitions
 
 
-- **[[Transitions/Guard Pull/Attacker|Guard Pull]]** (33% of attempts)
+- **[[Transitions/Guard Pull/Attacker|Guard Pull]]** (7% of attempts)
 
-- **[[Transitions/Sprawl Defense from Standing/Attacker|Sprawl Defense from Standing]]** (10% of attempts)
+- **[[Transitions/Sprawl Defense/Attacker|Sprawl Defense]]** (5% of attempts)
 
-- **[[Transitions/Single Leg Entry/Attacker|Single Leg Entry]]** (7% of attempts)
+- **[[Transitions/Single Leg Entry/Attacker|Single Leg Entry]]** (10% of attempts)
 
-- **[[Transitions/Double Leg Setup/Attacker|Double Leg Setup]]** (6% of attempts)
+- **[[Transitions/Double Leg Setup/Attacker|Double Leg Setup]]** (8% of attempts)
 
-- **[[Transitions/Sprawl/Attacker|Sprawl]]** (6% of attempts)
+- **[[Transitions/Sprawl/Attacker|Sprawl]]** (5% of attempts)
 
 - **[[Transitions/Knee Tap/Attacker|Knee Tap]]** (3% of attempts)
 
-- **[[Transitions/Double Leg Entry/Attacker|Double Leg Entry]]** (3% of attempts)
+- **[[Transitions/Double Leg Entry/Attacker|Double Leg Entry]]** (6% of attempts)
 
-- **[[Transitions/Snap Down to Front Headlock/Attacker|Snap Down to Front Headlock]]** (3% of attempts)
+- **[[Transitions/Snap Down to Front Headlock/Attacker|Snap Down to Front Headlock]]** (7% of attempts)
 
-- **[[Transitions/Arm Drag/Attacker|Arm Drag]]** (3% of attempts)
+- **[[Transitions/Arm Drag/Attacker|Arm Drag]]** (5% of attempts)
 
-- **[[Transitions/Ankle Pick/Attacker|Ankle Pick]]** (1% of attempts)
+- **[[Transitions/Ankle Pick/Attacker|Ankle Pick]]** (4% of attempts)
 
-- **[[Transitions/Arm Drag to Back/Attacker|Arm Drag to Back]]** (1% of attempts)
-
-- **[[Transitions/Body Lock Takedown/Attacker|Body Lock Takedown]]** (1% of attempts)
+- **[[Transitions/Body Lock Takedown/Attacker|Body Lock Takedown]]** (5% of attempts)
 
 - **[[Transitions/Jumping Guard/Attacker|Jumping Guard]]** (1% of attempts)
 
-- **[[Transitions/Osoto Gari/Attacker|Osoto Gari]]** (1% of attempts)
+- **[[Transitions/Osoto Gari/Attacker|Osoto Gari]]** (2% of attempts)
 
 - **[[Transitions/Ouchi Gari/Attacker|Ouchi Gari]]** (1% of attempts)
 
@@ -248,15 +311,15 @@ The Standing Position represents the fundamental neutral starting state in BJJ a
 
 - **[[Transitions/Ippon Seoi Nage/Attacker|Ippon Seoi Nage]]** (1% of attempts)
 
-- **[[Transitions/Russian Tie to Back Take/Attacker|Russian Tie to Back Take]]** (1% of attempts)
+- **[[Transitions/Russian Tie to Back Take/Attacker|Russian Tie to Back Take]]** (3% of attempts)
 
 - **[[Transitions/Sumi Gaeshi/Attacker|Sumi Gaeshi]]** (1% of attempts)
 
 - **[[Transitions/Tani Otoshi/Attacker|Tani Otoshi]]** (1% of attempts)
 
-- **[[Transitions/50-50 Entry from Standing/Attacker|50-50 Entry from Standing]]** (1% of attempts)
+- **[[Transitions/50-50 Entry from Standing/Attacker|50-50 Entry from Standing]]** (2% of attempts)
 
-- **[[Transitions/Body Lock Pass/Attacker|Body Lock Pass]]** (1% of attempts)
+- **[[Transitions/Body Lock Pass/Attacker|Body Lock Pass]]** (2% of attempts)
 
 - **[[Transitions/Kosoto Gake/Attacker|Kosoto Gake]]** (1% of attempts)
 
@@ -268,17 +331,19 @@ The Standing Position represents the fundamental neutral starting state in BJJ a
 
 - **[[Transitions/Tai Otoshi/Attacker|Tai Otoshi]]** (1% of attempts)
 
-- **[[Submissions/Flying Kneebar/Attacker|Flying Kneebar]]** (1% of attempts)
-
-- **[[Submissions/Reverse Kimura/Attacker|Reverse Kimura]]** (1% of attempts)
-
-- **[[Transitions/Single Leg to Back Take/Attacker|Single Leg to Back Take]]** (1% of attempts)
+- **[[Transitions/Single Leg to Back Take/Attacker|Single Leg to Back Take]]** (3% of attempts)
 
 - **[[Flying Kneebar from Standing Position/Attacker|Flying Kneebar from Standing Position]]** (1% of attempts)
 
-- **[[Kimura from Standing/Attacker|Kimura from Standing]]** (1% of attempts)
+- **[[Kimura from Standing/Attacker|Kimura from Standing]]** (2% of attempts)
 
 - **[[Reverse Kimura from Standing Position/Attacker|Reverse Kimura from Standing Position]]** (1% of attempts)
+
+- **[[Transitions/Collar Drag/Attacker|Collar Drag]]** (0% of attempts)
+
+- **[[Transitions/Shin to Shin Pull/Attacker|Shin to Shin Pull]]** (3% of attempts)
+
+- **[[Transitions/Standing to Single Leg X/Attacker|Standing to Single Leg X]]** (3% of attempts)
 
 
 ### Common Mistakes

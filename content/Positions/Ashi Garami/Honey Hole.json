@@ -112,35 +112,115 @@
     "flashcards": [
       {
         "question": "What hip adjustment should you make when your opponent begins rotating their body toward you?",
-        "answer": "Follow their rotation by driving your hips forward and down, maintaining perpendicular alignment while increasing pressure through your outside leg across their hip. Your hips must move with them to prevent them from creating the angle needed to extract their leg. Simultaneously tighten your inside leg triangle to prevent any slack that rotation could exploit."
+        "answer": "Follow their rotation by driving your hips forward and down, maintaining perpendicular alignment while increasing pressure through your outside leg across their hip. Your hips must move with them to prevent them from creating the angle needed to extract their leg. Simultaneously tighten your inside leg triangle to prevent any slack that rotation could exploit.",
+        "answer_line": "Drive hips forward and down",
+        "distractors": {
+          "plausible": [
+            "Pull back to reset the angle",
+            "Loosen triangle, re-grip"
+          ],
+          "trap": [
+            "Release outside leg for heel"
+          ]
+        }
       },
       {
         "question": "What are the three essential control points for maintaining Honey Hole position?",
-        "answer": "The three essential control points are: (1) Inside leg triangle around opponent's thigh controlling hip rotation, (2) Outside leg crossing their hip with shin pressure pinning them down, and (3) Upper body control through grips on their far leg, belt/shorts, or arm to prevent them from sitting up and creating frames. All three must work together for dominant control."
+        "answer": "The three essential control points are: (1) Inside leg triangle around opponent's thigh controlling hip rotation, (2) Outside leg crossing their hip with shin pressure pinning them down, and (3) Upper body control through grips on their far leg, belt/shorts, or arm to prevent them from sitting up and creating frames. All three must work together for dominant control.",
+        "answer_line": "Leg triangle, hip pin, upper grip",
+        "distractors": {
+          "plausible": [
+            "Both legs plus body weight",
+            "Heel grip, hip pin, posture"
+          ],
+          "trap": [
+            "Underhook and cross collar grip"
+          ]
+        }
       },
       {
         "question": "How do you shut down the primary hip rotation escape from Honey Hole top?",
-        "answer": "Anticipate the rotation by maintaining constant downward hip pressure through your outside leg, which acts as a wedge against their hip. When you feel them load up to rotate, drive your hips forward and slightly toward their centerline, collapsing any space they need to turn. Keep your inside leg triangle tight and your body perpendicular - rotation becomes impossible when your weight pins their hip flat."
+        "answer": "Anticipate the rotation by maintaining constant downward hip pressure through your outside leg, which acts as a wedge against their hip. When you feel them load up to rotate, drive your hips forward and slightly toward their centerline, collapsing any space they need to turn. Keep your inside leg triangle tight and your body perpendicular - rotation becomes impossible when your weight pins their hip flat.",
+        "answer_line": "Outside leg pins hip down",
+        "distractors": {
+          "plausible": [
+            "Squeeze inside triangle harder",
+            "Chase their shoulders down"
+          ],
+          "trap": [
+            "Release outside leg to chase heel"
+          ]
+        }
       },
       {
         "question": "What grip priorities should you establish before attempting heel hook from Honey Hole?",
-        "answer": "First priority is controlling opponent's far leg or hip to prevent rotation and boot scooting. Second is securing their upper body to stop them from sitting up. Only then grip the heel - cup the heel with fingers on top, thumb underneath, with your other hand controlling their ankle or wrist. Gripping heel before securing control telegraphs the attack and gives them time to defend."
+        "answer": "First priority is controlling opponent's far leg or hip to prevent rotation and boot scooting. Second is securing their upper body to stop them from sitting up. Only then grip the heel - cup the heel with fingers on top, thumb underneath, with your other hand controlling their ankle or wrist. Gripping heel before securing control telegraphs the attack and gives them time to defend.",
+        "answer_line": "Control leg, body, then heel",
+        "distractors": {
+          "plausible": [
+            "Heel grip first, then control",
+            "Ankle first, then far leg"
+          ],
+          "trap": [
+            "Grab heel immediately to finish"
+          ]
+        }
       },
       {
         "question": "How do you apply pressure correctly in Honey Hole to drain opponent's energy while maintaining position?",
-        "answer": "Apply pressure through your outside leg driving across their hip while keeping your hips tight against their trapped leg. Your body weight should flow through your hips and legs, not through pushing with arms. Maintain steady, crushing pressure rather than explosive bursts - this forces them to work constantly against your weight while you conserve energy. The triangle configuration does the work; you just maintain tension."
+        "answer": "Apply pressure through your outside leg driving across their hip while keeping your hips tight against their trapped leg. Your body weight should flow through your hips and legs, not through pushing with arms. Maintain steady, crushing pressure rather than explosive bursts - this forces them to work constantly against your weight while you conserve energy. The triangle configuration does the work; you just maintain tension.",
+        "answer_line": "Steady hip pressure, not arms",
+        "distractors": {
+          "plausible": [
+            "Explosive bursts to fatigue them",
+            "Push with arms for control"
+          ],
+          "trap": [
+            "Constant heel cranking pressure"
+          ]
+        }
       },
       {
         "question": "Your opponent suddenly bridges and tries to invert toward your legs - what immediate adjustment do you make?",
-        "answer": "Immediately drive your outside leg deeper across their hip while posting your far hand on the mat for base. Shift your hips slightly away from their inversion direction to prevent them from rolling underneath you. If they commit heavily to the inversion, consider transitioning to their back as they turn, or tighten your triangle and follow their movement while maintaining heel access. Never let them complete the inversion without immediate positional adjustment."
+        "answer": "Immediately drive your outside leg deeper across their hip while posting your far hand on the mat for base. Shift your hips slightly away from their inversion direction to prevent them from rolling underneath you. If they commit heavily to the inversion, consider transitioning to their back as they turn, or tighten your triangle and follow their movement while maintaining heel access. Never let them complete the inversion without immediate positional adjustment.",
+        "answer_line": "Drive outside leg deeper, post",
+        "distractors": {
+          "plausible": [
+            "Follow them into the invert",
+            "Release grips to reset base"
+          ],
+          "trap": [
+            "Let go of triangle, chase back"
+          ]
+        }
       },
       {
         "question": "How do you manage your energy when opponent is actively defending for extended periods?",
-        "answer": "Let the position do the work - your triangle and hip pressure require minimal effort to maintain once properly established. Focus on steady, consistent pressure rather than explosive adjustments that drain your cardio. When they rest, you rest. When they move, make small efficient adjustments rather than large corrections. Attack submissions only when openings appear naturally from their defensive errors, not through forced attempts that waste energy."
+        "answer": "Let the position do the work - your triangle and hip pressure require minimal effort to maintain once properly established. Focus on steady, consistent pressure rather than explosive adjustments that drain your cardio. When they rest, you rest. When they move, make small efficient adjustments rather than large corrections. Attack submissions only when openings appear naturally from their defensive errors, not through forced attempts that waste energy.",
+        "answer_line": "Rest when they rest, stay steady",
+        "distractors": {
+          "plausible": [
+            "Constant explosive adjustments",
+            "Force submission attempts"
+          ],
+          "trap": [
+            "Grind nonstop to exhaust them"
+          ]
+        }
       },
       {
         "question": "After opponent partially extracts their leg but you maintain triangle control, how do you recover full position?",
-        "answer": "Immediately drive your hips forward to close the space they created, using your outside leg to push their hip back down. Re-tighten your inside leg triangle by pulling your ankle deeper behind their leg. Use your far hand to grip their pants/shorts at the knee and pull their leg back into the entanglement. Re-establish perpendicular alignment and hip pressure before they can create more space. Speed is critical - partial escapes must be recovered immediately."
+        "answer": "Immediately drive your hips forward to close the space they created, using your outside leg to push their hip back down. Re-tighten your inside leg triangle by pulling your ankle deeper behind their leg. Use your far hand to grip their pants/shorts at the knee and pull their leg back into the entanglement. Re-establish perpendicular alignment and hip pressure before they can create more space. Speed is critical - partial escapes must be recovered immediately.",
+        "answer_line": "Drive hips in, retighten fast",
+        "distractors": {
+          "plausible": [
+            "Wait for full extraction, reset",
+            "Switch grips to outside leg"
+          ],
+          "trap": [
+            "Chase heel grip instead of hips"
+          ]
+        }
       }
     ],
     "decision_tree": [
@@ -343,47 +423,102 @@
     "transitions": [
       {
         "transition": "Outside Heel Hook from Honey Hole",
-        "attempt_probability": 10
+        "attempt_probability": {
+          "gi": 0,
+          "nogi": 7
+        }
       },
       {
         "transition": "Heel Hook from Honey Hole",
-        "attempt_probability": 37
-      },
-      {
-        "transition": "Kneebar Finish",
-        "attempt_probability": 12
+        "attempt_probability": {
+          "gi": 0,
+          "nogi": 13
+        }
       },
       {
         "transition": "Toe Hold from Honey Hole",
-        "attempt_probability": 7
+        "attempt_probability": {
+          "gi": 24,
+          "nogi": 8
+        }
       },
       {
         "transition": "Back Take from Ashi",
-        "attempt_probability": 12
+        "attempt_probability": {
+          "gi": 11,
+          "nogi": 6
+        }
       },
       {
         "transition": "Estima Lock from Honey Hole",
-        "attempt_probability": 2
+        "attempt_probability": {
+          "gi": 5,
+          "nogi": 2
+        }
       },
       {
         "transition": "Backside 50-50 Entry from Ashi",
-        "attempt_probability": 2
+        "attempt_probability": {
+          "gi": 8,
+          "nogi": 11
+        }
       },
       {
         "transition": "Calf Slicer from Honey Hole",
-        "attempt_probability": 2
+        "attempt_probability": {
+          "gi": 9,
+          "nogi": 4
+        }
       },
       {
         "transition": "Honey Hole to Saddle",
-        "attempt_probability": 2
+        "attempt_probability": {
+          "gi": 15,
+          "nogi": 11
+        }
       },
       {
         "transition": "Inside Heel Hook from Honey Hole",
-        "attempt_probability": 2
+        "attempt_probability": {
+          "gi": 0,
+          "nogi": 29
+        }
       },
       {
         "transition": "Kneebar from Honey Hole",
-        "attempt_probability": 12
+        "attempt_probability": {
+          "gi": 28,
+          "nogi": 9
+        }
+      }
+    ],
+    "clips": [
+      {
+        "id": "3KAO2Ck4HRg",
+        "title": "Honey Hole Heel Hook from Bow and Arrow",
+        "by": "JitzLive",
+        "vertical": false,
+        "channel": "JitzLive",
+        "duration": 52,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "K5XhO7o5QN0",
+        "title": "Saddle Entries from Guard",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 66,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "PGQ7YYfu76Q",
+        "title": "Single Leg X to Honey Hole Heel Hook",
+        "by": "Ilya Bodnya",
+        "vertical": false,
+        "channel": "Ilya Bodnya",
+        "duration": 65,
+        "verified": "2026-07-14"
       }
     ]
   },
@@ -433,35 +568,115 @@
     "flashcards": [
       {
         "question": "Your opponent has just established inside leg triangle but hasn't secured your heel yet - what is your immediate priority?",
-        "answer": "Explosive escape BEFORE they grip your heel. The moment you feel the triangle forming, commit 100% to rotational escape toward their legs or inversion away from their control. You have 1-2 seconds maximum before heel grip makes escape dramatically harder. Do not assess the situation - react immediately with your chosen escape direction. Every fraction of a second of hesitation reduces your success probability."
+        "answer": "Explosive escape BEFORE they grip your heel. The moment you feel the triangle forming, commit 100% to rotational escape toward their legs or inversion away from their control. You have 1-2 seconds maximum before heel grip makes escape dramatically harder. Do not assess the situation - react immediately with your chosen escape direction. Every fraction of a second of hesitation reduces your success probability.",
+        "answer_line": "Explode out before heel grip",
+        "distractors": {
+          "plausible": [
+            "Assess the situation calmly",
+            "Grip fight the inside leg"
+          ],
+          "trap": [
+            "Wait and conserve energy"
+          ]
+        }
       },
       {
         "question": "What are the key indicators that tell you escape is no longer viable and you must tap?",
-        "answer": "Tap immediately when: (1) opponent has secured heel grip with proper hand configuration (four fingers on top, thumb below), (2) their breaking mechanics are engaged with their elbows driving toward their chest, and (3) you feel ANY rotational pressure on your knee. The timeline from grip to injury can be under 2 seconds. If you're debating whether to tap, you should already be tapping."
+        "answer": "Tap immediately when: (1) opponent has secured heel grip with proper hand configuration (four fingers on top, thumb below), (2) their breaking mechanics are engaged with their elbows driving toward their chest, and (3) you feel ANY rotational pressure on your knee. The timeline from grip to injury can be under 2 seconds. If you're debating whether to tap, you should already be tapping.",
+        "answer_line": "Heel gripped, rotation felt, tap",
+        "distractors": {
+          "plausible": [
+            "Sharp pain is the only signal",
+            "First exhaust every escape"
+          ],
+          "trap": [
+            "Power out against the twist"
+          ]
+        }
       },
       {
         "question": "How do you use your free leg to maximize escape probability from Honey Hole bottom?",
-        "answer": "Your free leg is your primary escape tool. Keep it mobile and actively posting - use it to push against opponent's hip to create space, hook their legs to initiate rotation into 50-50, or post on the mat for technical standup if space appears. Never let opponent control both legs. If they reach for your free leg, that's your window to explosively escape with the trapped leg while their attention is divided."
+        "answer": "Your free leg is your primary escape tool. Keep it mobile and actively posting - use it to push against opponent's hip to create space, hook their legs to initiate rotation into 50-50, or post on the mat for technical standup if space appears. Never let opponent control both legs. If they reach for your free leg, that's your window to explosively escape with the trapped leg while their attention is divided.",
+        "answer_line": "Push hip, hook toward 50-50",
+        "distractors": {
+          "plausible": [
+            "Tuck it away for safety",
+            "Kick out to create distance"
+          ],
+          "trap": [
+            "Let them control both legs"
+          ]
+        }
       },
       {
         "question": "When opponent's triangle loosens momentarily during a grip adjustment, what escape should you attempt?",
-        "answer": "Immediately execute explosive hip escape combined with rotation toward their legs to enter 50-50 guard, which neutralizes their inside position advantage. Drive your free foot into their hip while rotating your trapped leg's knee toward their centerline. The goal is to get your legs entangled with theirs in symmetrical position rather than staying in the asymmetric disadvantage. Speed and commitment are essential - this window closes in under one second."
+        "answer": "Immediately execute explosive hip escape combined with rotation toward their legs to enter 50-50 guard, which neutralizes their inside position advantage. Drive your free foot into their hip while rotating your trapped leg's knee toward their centerline. The goal is to get your legs entangled with theirs in symmetrical position rather than staying in the asymmetric disadvantage. Speed and commitment are essential - this window closes in under one second.",
+        "answer_line": "Explode and rotate into 50-50",
+        "distractors": {
+          "plausible": [
+            "Wait for a bigger opening",
+            "Pull knee straight back"
+          ],
+          "trap": [
+            "Relax and reset your breathing"
+          ]
+        }
       },
       {
         "question": "Your escape attempt failed and opponent has re-secured the triangle - what is your grip-fighting defense priority?",
-        "answer": "Fight their heel grip with both hands immediately. Your top priority is preventing them from cupping your heel with four fingers on top. Use two-on-one grip fighting to strip their hands, keeping your toes pointed toward them (hiding the heel). This is a last-resort defense that only delays the inevitable - continue attempting positional escapes between grip-fighting exchanges. If they establish full heel grip despite your grip fighting, prepare to tap."
+        "answer": "Fight their heel grip with both hands immediately. Your top priority is preventing them from cupping your heel with four fingers on top. Use two-on-one grip fighting to strip their hands, keeping your toes pointed toward them (hiding the heel). This is a last-resort defense that only delays the inevitable - continue attempting positional escapes between grip-fighting exchanges. If they establish full heel grip despite your grip fighting, prepare to tap.",
+        "answer_line": "Fight heel grip, toes hidden",
+        "distractors": {
+          "plausible": [
+            "Pry open their locked legs",
+            "Bridge to bump them off"
+          ],
+          "trap": [
+            "Rip trapped leg straight out"
+          ]
+        }
       },
       {
         "question": "How do you recover when your first escape attempt fails but you've created some space?",
-        "answer": "Do not pause to rest or reassess - immediately chain into your second escape attempt while any space exists. If rotation escape failed, try inversion. If inversion failed, try technical standup. Use all available energy in the first 3-5 seconds of being caught. The position only gets worse with time as opponent settles weight and tightens control. Sequential explosive attempts are more effective than single attempts followed by recovery."
+        "answer": "Do not pause to rest or reassess - immediately chain into your second escape attempt while any space exists. If rotation escape failed, try inversion. If inversion failed, try technical standup. Use all available energy in the first 3-5 seconds of being caught. The position only gets worse with time as opponent settles weight and tightens control. Sequential explosive attempts are more effective than single attempts followed by recovery.",
+        "answer_line": "Chain immediately to next attempt",
+        "distractors": {
+          "plausible": [
+            "Pause briefly to reassess",
+            "Repeat the same escape again"
+          ],
+          "trap": [
+            "Rest and conserve energy"
+          ]
+        }
       },
       {
         "question": "What body position should you maintain to minimize knee injury risk while defending?",
-        "answer": "Keep your trapped leg's knee pointing in the same direction as your toes - this alignment protects your knee ligaments from rotational damage. Never let your knee face a different direction than your foot, as this twisted position is exactly what heel hooks exploit. If opponent begins rotating your heel, turn your entire body in the same direction to keep knee and foot aligned, then tap if you cannot complete the turn."
+        "answer": "Keep your trapped leg's knee pointing in the same direction as your toes - this alignment protects your knee ligaments from rotational damage. Never let your knee face a different direction than your foot, as this twisted position is exactly what heel hooks exploit. If opponent begins rotating your heel, turn your entire body in the same direction to keep knee and foot aligned, then tap if you cannot complete the turn.",
+        "answer_line": "Keep knee aligned with toes",
+        "distractors": {
+          "plausible": [
+            "Point knee toward opponent",
+            "Square hips flat to the mat"
+          ],
+          "trap": [
+            "Twist free against their grip"
+          ]
+        }
       },
       {
         "question": "After tapping to a heel hook in training, what should you immediately assess about your defense?",
-        "answer": "Analyze the moment position was established: (1) What entry did they use and when could you have prevented it? (2) Did you hesitate after feeling the triangle form? (3) Was your escape attempt fully committed or half-hearted? (4) Did you grip-fight effectively? Prevention and early escape are far more trainable than late-stage defense. Most heel hook submissions happen because the bottom player didn't react in the first 1-2 seconds."
+        "answer": "Analyze the moment position was established: (1) What entry did they use and when could you have prevented it? (2) Did you hesitate after feeling the triangle form? (3) Was your escape attempt fully committed or half-hearted? (4) Did you grip-fight effectively? Prevention and early escape are far more trainable than late-stage defense. Most heel hook submissions happen because the bottom player didn't react in the first 1-2 seconds.",
+        "answer_line": "Check entry, reaction, commitment",
+        "distractors": {
+          "plausible": [
+            "Only study the final finish",
+            "Drill late escapes, skip entries"
+          ],
+          "trap": [
+            "Vow to hold out longer next time"
+          ]
+        }
       }
     ],
     "decision_tree": [
@@ -669,48 +884,223 @@
     "transitions": [
       {
         "transition": "Inversion Escape",
-        "attempt_probability": 14
+        "attempt_probability": {
+          "gi": 11,
+          "nogi": 11
+        }
       },
       {
         "transition": "Hip Escape to Guard",
-        "attempt_probability": 7
-      },
-      {
-        "transition": "Angle Change Escape",
-        "attempt_probability": 9
-      },
-      {
-        "transition": "Ashi Garami Escape",
-        "attempt_probability": 7
+        "attempt_probability": {
+          "gi": 19,
+          "nogi": 14
+        }
       },
       {
         "transition": "Counter-entangle to 50-50 Guard",
-        "attempt_probability": 36
+        "attempt_probability": {
+          "gi": 11,
+          "nogi": 13
+        }
       },
       {
         "transition": "Counter heel hook",
-        "attempt_probability": 3
+        "attempt_probability": {
+          "gi": 2,
+          "nogi": 12
+        }
       },
       {
         "transition": "Reverse the entanglement to Outside Ashi",
-        "attempt_probability": 8
+        "attempt_probability": {
+          "gi": 6,
+          "nogi": 7
+        }
       },
       {
         "transition": "Grip Break",
-        "attempt_probability": 13
+        "attempt_probability": {
+          "gi": 26,
+          "nogi": 25
+        }
       },
       {
         "transition": "Standing Escape",
-        "attempt_probability": 1
+        "attempt_probability": {
+          "gi": 17,
+          "nogi": 12
+        }
       },
       {
         "transition": "Sweep from Honey Hole",
-        "attempt_probability": 1
+        "attempt_probability": {
+          "gi": 8,
+          "nogi": 6
+        }
+      }
+    ],
+    "clips": [
+      {
+        "id": "PhS9Xj-4KbA",
+        "title": "Escaping the Honey Hole (Inside Sankaku)",
+        "by": "Oneonta Jiu Jitsu",
+        "vertical": false,
+        "channel": "OneontaJiuJitsu Academy",
+        "duration": 56,
+        "verified": "2026-07-14"
       },
       {
-        "transition": "Aoki Lock",
-        "attempt_probability": 1
+        "id": "DrjbaXt-nTo",
+        "title": "Rolling Out of Heel Hooks",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "Absolute MMA St Kilda - Melbourne",
+        "duration": 243,
+        "verified": "2026-07-14"
       }
     ]
-  }
+  },
+  "flashcards_position": [
+    {
+      "question": "What leg configuration defines the Honey Hole position?",
+      "answer": "Honey Hole is an inside sankaku, meaning the controlling player triangles their legs around the opponent's trapped thigh from the inside line rather than the outside. The inside leg loops over the trapped thigh just above the knee and the ankle hooks behind the leg, while the outside leg crosses over the opponent's hip to form a figure-four. This inside-line entanglement is what distinguishes it from outside ashi-garami and gives it access to the exposed inner heel. The trapped leg's knee is bent and the foot is drawn across the controller's centerline, isolating the leg from the rest of the body.",
+      "answer_line": "Inside sankaku over trapped thigh",
+      "distractors": {
+        "plausible": [
+          "Outside ashi-garami configuration",
+          "Symmetrical 50-50 entanglement"
+        ],
+        "trap": [
+          "Outside leg triangles the thigh"
+        ]
+      }
+    },
+    {
+      "question": "Why does the perpendicular body alignment matter to the mechanics of Honey Hole?",
+      "answer": "Both players sit roughly ninety degrees to each other, forming a T-shape where the controlling player's hips face into the opponent's isolated leg. This perpendicular relationship is what converts the leg entanglement into rotational control, because the trapped leg can only be freed by rotating out along an arc that the controller's body directly blocks. The alignment also keeps the controller's own legs and heels angled away from the opponent, reducing counter-attack exposure. Any drift back toward parallel alignment loosens the entanglement and restores the trapped player's ability to spin free.",
+      "answer_line": "Blocks the rotational escape arc",
+      "distractors": {
+        "plausible": [
+          "Improves posture for striking",
+          "Keeps hips square for passing"
+        ],
+        "trap": [
+          "Aligning parallel tightens control"
+        ]
+      }
+    },
+    {
+      "question": "How does the inside leg triangle produce rotational imprisonment?",
+      "answer": "The natural escape from a leg entanglement is to rotate the trapped knee and hip in the direction that unwinds it, but the inside sankaku places the controlling legs directly on that rotational path. The trapped thigh is pinned between the triangle above the knee while the crossing outside leg holds the hip down, so hip rotation is mechanically blocked in the one direction that would free the limb. This is why the position imprisons through geometry rather than grip strength. The entanglement is only defeated by inverting or changing angle to unwind it along the arc it was built on.",
+      "answer_line": "Blocks the only rotation path",
+      "distractors": {
+        "plausible": [
+          "Relies on pure grip strength",
+          "Locks both hips symmetrically"
+        ],
+        "trap": [
+          "Rotation escapes it easily"
+        ]
+      }
+    },
+    {
+      "question": "What role does hip pressure and the crossing outside leg play in the position?",
+      "answer": "The controlling player's outside leg crosses the opponent's hip at roughly mid-thigh with the shin driving downward, pinning the hip flat to the mat. This downward wedge is the primary anti-rotation and anti-space mechanism, because a flattened hip cannot generate the bridge or turn needed to escape. It also connects the controller's weight to the opponent so the whole configuration moves as one unit when either player shifts. When that hip pressure lapses, space opens and the trapped player regains the leverage to rotate or counter-entangle.",
+      "answer_line": "Pins hip flat, kills rotation",
+      "distractors": {
+        "plausible": [
+          "Controls the far arm mainly",
+          "Creates space to attack heel"
+        ],
+        "trap": [
+          "Lifts hip to expose the heel"
+        ]
+      }
+    },
+    {
+      "question": "Why is the inner heel exposed in Honey Hole, and what makes that a defining feature?",
+      "answer": "Because the leg is captured on the inside line with the foot drawn across the controller's centerline, the medial or inner heel is turned toward the controlling player's chest and hands. This inward orientation is precisely why the inside heel hook, the highest-percentage leg lock, is native to the position, since the heel is presented for capture without any additional rotation. The same geometry also angles the knee for kneebars and the ankle for toe holds. Outside ashi-garami, by contrast, exposes the outer heel and lacks this direct inner-heel access, which is the core mechanical difference between the two entanglements.",
+      "answer_line": "Foot crosses centerline inward",
+      "distractors": {
+        "plausible": [
+          "Outer heel faces the attacker",
+          "Ankle rotates outward naturally"
+        ],
+        "trap": [
+          "Heel points away from control"
+        ]
+      }
+    },
+    {
+      "question": "How does Honey Hole differ from 50-50 and outside ashi-garami in terms of control symmetry?",
+      "answer": "Honey Hole is a strongly asymmetric entanglement: one player controls the other's leg from the inside while keeping their own legs relatively safe, so control heavily favors the entangling player. 50-50 is symmetric because both players share identical mutual leg configurations, meaning whatever attack one has, the other has too. Outside ashi-garami is also asymmetric but from the outside line, offering less positional dominance and exposing the less-vulnerable outer heel. Recognizing which entanglement you are in dictates whether you hold a decisive advantage, a neutral exchange, or a weaker controlling frame.",
+      "answer_line": "Asymmetric inside-line control",
+      "distractors": {
+        "plausible": [
+          "Symmetric like 50-50 guard",
+          "Asymmetric but from outside"
+        ],
+        "trap": [
+          "Mutual entanglement, shared risk"
+        ]
+      }
+    },
+    {
+      "question": "Why does pulling the trapped leg straight back fail against this entanglement?",
+      "answer": "Linear extraction drives the captured leg directly into the closed figure-four, which only tightens as tension increases, so brute-force pulling fights the strongest line of the entanglement. The thigh is clamped above the knee and there is no straight corridor for the foot to travel out. The only path is angular, unwinding the triangle along the arc it was constructed on rather than fighting it head-on. This is why the position rewards patient angle change over strength and punishes anyone who treats it as a tug-of-war.",
+      "answer_line": "Pulling tightens the figure-four",
+      "distractors": {
+        "plausible": [
+          "Straight pull loosens the grip",
+          "Backward pull is the fastest exit"
+        ],
+        "trap": [
+          "Yank hard to snap the hold"
+        ]
+      }
+    },
+    {
+      "question": "Why is the submission timeline in Honey Hole so compressed compared to other control positions?",
+      "answer": "Because the heel, knee, and ankle are all isolated and pre-aligned for attack the instant the entanglement closes, no intermediate positional advancement is required before a finish becomes available. Unlike upper-body controls where a strangle must be threaded and tightened over time, the leg here is already presented and the breaking mechanics engage almost immediately once grips are secured. Rotational heel hook pressure damages ligaments in seconds with little warning stretch, so both players operate on a window measured in seconds rather than minutes. This compressed timeline is why recognition and immediate reaction define success from either side far more than prolonged positional battling.",
+      "answer_line": "Leg pre-aligned, no setup needed",
+      "distractors": {
+        "plausible": [
+          "Same pace as choke finishes",
+          "Requires slow positional build"
+        ],
+        "trap": [
+          "Plenty of time to escape safely"
+        ]
+      }
+    }
+  ],
+  "clips": [
+    {
+      "id": "F5rdV0PUuDc",
+      "title": "Leg Locks: Enter the System",
+      "by": "John Danaher",
+      "vertical": false,
+      "channel": "BJJ Fanatics",
+      "duration": 176,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "Jn_JST6ZJ3o",
+      "title": "Inside Sankaku Entries",
+      "by": "Dynamic Martial Arts",
+      "vertical": false,
+      "channel": "Dynamic Martial Arts Roseburg",
+      "duration": 138,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "VmxgqU-ScTM",
+      "title": "Honey Hole from Single Leg X",
+      "by": "Danny Mitchell",
+      "vertical": false,
+      "channel": "Danny Mitchell MMA",
+      "duration": 34,
+      "verified": "2026-07-14"
+    }
+  ]
 }

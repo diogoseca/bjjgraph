@@ -18,13 +18,15 @@ import {
   clearRollHistory,
 } from "./explorerGraphExpand"
 
-interface OpponentTransition {
+// A move entry as carried in the per-page slice. Player transitions and the derived opponent
+// moves share this shape; the trailing fields are populated only for opponent moves.
+interface MoveEntry {
   technique: string
   target: string
   targetPath?: string
   isSubmission: boolean
-  attemptProbability: number
   successRate: number
+  attemptProbability?: number
   successOutcome?: string
   successOutcomePath?: string
 }
@@ -33,20 +35,14 @@ interface PositionPageData {
   type: "position"
   name: string
   role?: string
-  transitions: Array<{
-    technique: string
-    target: string
-    targetPath?: string
-    isSubmission: boolean
-    successRate: number
-  }>
+  transitions: MoveEntry[]
   defenses: Array<{
     technique: string
     target: string
     targetPath?: string
     successRate: number
   }>
-  opponentTransitions?: OpponentTransition[]
+  opponentTransitions?: MoveEntry[]
 }
 
 /**
@@ -456,12 +452,22 @@ function triggerOpponentTurn(positionData: PositionPageData, currentPath: string
     return
   }
 
-  // Weighted random select by attemptProbability
-  const totalWeight = oppMoves.reduce((s, m) => s + (m.attemptProbability || 1), 0)
+  // Weighted random select by attemptProbability.
+  // ?? (not ||): an explicit 0 means "calibrated to never attempted" and must stay
+  // weight 0; only a MISSING value falls back to 1 (legacy data).
+  const weightOf = (m: MoveEntry) => m.attemptProbability ?? 1
+  const totalWeight = oppMoves.reduce((s, m) => s + weightOf(m), 0)
+  if (totalWeight <= 0) {
+    const showSnackbar = (window as any).showSnackbar
+    if (showSnackbar) {
+      showSnackbar({ type: "failure", message: "Move defended! Your turn again." })
+    }
+    return
+  }
   let roll = Math.random() * totalWeight
   let selectedMove = oppMoves[0]
   for (const move of oppMoves) {
-    roll -= move.attemptProbability || 1
+    roll -= weightOf(move)
     if (roll <= 0) {
       selectedMove = move
       break
@@ -475,7 +481,7 @@ function triggerOpponentTurn(positionData: PositionPageData, currentPath: string
 }
 
 function showOpponentOverlay(
-  move: OpponentTransition,
+  move: MoveEntry,
   success: boolean,
   positionData: PositionPageData,
   currentPath: string,

@@ -17,7 +17,10 @@
   "submission_type": "Arm Lock",
   "target_area": "Elbow joint (hyperextension with reverse rotation)",
   "starting_position": "Mount",
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "overview": "The Reverse Armbar is an advanced elbow hyperextension technique distinguished by its inverted body positioning relative to the standard armbar. Unlike the traditional armbar where you face toward your opponent's head, the reverse armbar requires you to rotate your body 180 degrees so your hips face toward their feet while maintaining control of their arm. This submission is particularly effective in scramble situations, failed standard armbar attempts, or when opponents defend the conventional armbar by turning their thumb down. The reverse mechanics create unexpected leverage angles that catch even experienced practitioners off-guard, as defensive instincts trained for standard armbars often fail against this variation. The technique demands precise hip positioning, tight arm isolation, and careful rotational control to prevent escape while maintaining submission pressure. Success hinges on understanding how the reversed body angle changes the leverage dynamics—your legs must control their shoulder and head differently, and your hip placement becomes critical for generating breaking force without losing control.",
   "safety_considerations": {
     "injury_risks": [
@@ -63,17 +66,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 60,
+      "probability": {
+        "gi": 60,
+        "nogi": 60
+      },
       "result": "success"
     },
     {
       "to": "Mount/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
@@ -96,7 +108,7 @@
     "Omoplata",
     "Kimura",
     "Spinning Armbar",
-    "Flying Armbar",
+    "Flying Armbar from Closed Guard",
     "Armbar",
     "Belly Down Armbar",
     "Inverted Triangle",
@@ -285,62 +297,193 @@
       {
         "question": "What is the most critical safety consideration when applying extension pressure in the reverse armbar?",
         "answer": "Never apply extension pressure while still rotating or before completely securing the reversed position. The extension must be slow and progressive (3-5 seconds minimum) and only applied after the 180-degree rotation is complete and legs are repositioned. Applying pressure during rotation creates unpredictable angles that can cause serious ligament damage to the elbow.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Extend only after rotation completes",
+        "distractors": {
+          "plausible": [
+            "Extend as soon as arm is pinned",
+            "Let hips drop before extending"
+          ],
+          "trap": [
+            "Yank fast for an instant tap"
+          ]
+        }
       },
       {
         "question": "During the rotation phase, you feel your opponent's arm starting to separate from your chest - what immediate adjustment do you make?",
         "answer": "Immediately stop the rotation and re-secure the arm pin before continuing. Pull their tricep tighter against your sternum by squeezing your elbows to your sides and drawing their wrist deeper across your chest. The arm pin to chest is the foundational control that prevents escape during the vulnerable rotation phase. Any space between their arm and your chest allows them to bend their elbow or pull free. Only resume rotation once you have confirmed zero daylight between their arm and your torso, as forcing through a compromised pin will lose the submission entirely.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Stop, re-pin arm tight to chest",
+        "distractors": {
+          "plausible": [
+            "Re-grip wrist without pausing",
+            "Sit heavier to stall them out"
+          ],
+          "trap": [
+            "Let the pin go to chase the wrist"
+          ]
+        }
       },
       {
         "question": "How does the reverse armbar's leverage mechanics differ from a standard armbar?",
         "answer": "The reverse armbar creates a different plane of pressure on the elbow joint. In standard armbar, extension force is applied with your body facing their head, creating straight hyperextension. In reverse armbar, your body faces their feet, which adds a rotational component to the hyperextension stress. This combined rotation and extension catches opponents off-guard because their defensive instincts are trained for straight pressure. The hip positioning and breaking angle are also inverted, requiring different body mechanics to generate force.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Adds rotation to hyperextension",
+        "distractors": {
+          "plausible": [
+            "Same straight pressure, new angle",
+            "Drives elbow down with wrist"
+          ],
+          "trap": [
+            "Crank the wrist to force a tap"
+          ]
+        }
       },
       {
         "question": "What are the three acceptable tap signals that must be immediately honored during a reverse armbar?",
         "answer": "Verbal tap (any vocalization indicating submission), physical hand tap on your body or the mat (at least two deliberate taps), and physical foot tap on the mat. Because the reverse armbar involves rotation and inverted positioning, verbal taps are especially important as the opponent's hands may be trapped or difficult to maneuver during the technique. Any distress signal must be treated as a tap and requires immediate release protocol.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Verbal, hand tap, foot tap",
+        "distractors": {
+          "plausible": [
+            "Shout, eye contact, wince",
+            "Nod, grimace, body tension"
+          ],
+          "trap": [
+            "Ignore anything but a mat slap"
+          ]
+        }
       },
       {
         "question": "What is the correct release protocol if your opponent taps during the extension phase?",
         "answer": "Immediately stop hip extension and rotation, lower your hips away from their elbow joint to remove breaking pressure, release leg pressure on their head and shoulder, return their arm to a neutral position before releasing your grip, and allow them to extract their arm at their own pace without rushing. Never release grip before lowering hips, as this can cause the arm to snap back under tension. The release must be as controlled as the application.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Lower hips before releasing grip",
+        "distractors": {
+          "plausible": [
+            "Release the leg pressure first",
+            "Return their arm, then drop hips"
+          ],
+          "trap": [
+            "Let go of the grip on the tap"
+          ]
+        }
       },
       {
         "question": "Why is the reverse armbar considered more effective against experienced grapplers than beginners?",
         "answer": "Experienced grapplers have developed strong defensive instincts and muscle memory for defending standard armbars—turning thumb down, grabbing gi, creating frames. These trained defenses often fail against the reverse armbar because the mechanics are inverted. Their defensive movement actually helps facilitate your rotation. Beginners lack these trained responses, so they're equally vulnerable to both standard and reverse variations. The reverse armbar exploits learned defensive patterns, making it a high-level counter technique against sophisticated opponents.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Their trained defense feeds it",
+        "distractors": {
+          "plausible": [
+            "It needs a stronger grip to work",
+            "Pros simply react more slowly"
+          ],
+          "trap": [
+            "Rip it fast before they defend"
+          ]
+        }
       },
       {
         "question": "At what point during the technique should you pause if you feel your control deteriorating?",
         "answer": "Immediately pause at any point where the arm pin separates from your chest or the opponent creates bend in their elbow. Do not proceed with rotation if arm control is compromised. Similarly, if during rotation you feel their body starting to roll with you, stop and reestablish base. Finally, never apply extension if your hips are not properly positioned with their elbow at your pubic bone. Safety and control trump submission attempts—releasing and resetting is always better than forcing a compromised position.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Pin separates or elbow bends",
+        "distractors": {
+          "plausible": [
+            "Pause only after full rotation",
+            "Pause only if they grab the gi"
+          ],
+          "trap": [
+            "Rush the finish before they set"
+          ]
+        }
       },
       {
         "question": "What anatomical structure does the reverse armbar specifically attack, and what makes it vulnerable in this position?",
         "answer": "The reverse armbar attacks the elbow joint, specifically hyperextending the ulnohumeral articulation against its natural range of motion. The elbow is particularly vulnerable because the arm is isolated with the thumb facing downward (pronated)—the orientation an opponent rotates into to defend the standard armbar—which exposes the joint to the reverse breaking plane where the olecranon process of the ulna cannot lock against the humerus for stability. Your hips create a fulcrum directly below the elbow while your grip pulls the wrist in the opposite direction, generating hyperextension force that the ligaments cannot resist once full extension is achieved.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Elbow, hyperextended thumb-down",
+        "distractors": {
+          "plausible": [
+            "Shoulder capsule twisted inward",
+            "Wrist bent under grip pressure"
+          ],
+          "trap": [
+            "Crank sideways, tear the shoulder"
+          ]
+        }
       },
       {
         "question": "You've completed the rotation and your opponent suddenly stops resisting - what three conditions do you verify before committing to final extension pressure?",
         "answer": "Verify that the arm is fully extended with no remaining bend at the elbow, that your hips are elevated and positioned tight against their shoulder creating the fulcrum below their elbow joint, and that your legs have reestablished control with knees squeezed together trapping their arm. These three conditions define the point of no escape. If any condition is missing—bend in the arm, space between your hips and their shoulder, or loose leg control—do not commit to the extension. Instead, address the missing element first. Committing to extension without all three conditions risks losing the submission or applying force at an unsafe angle.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "No bend, hips tight, knees locked",
+        "distractors": {
+          "plausible": [
+            "Arm bent slightly, hips elevated",
+            "Hips elevated, legs still moving"
+          ],
+          "trap": [
+            "Commit once resistance stops"
+          ]
+        }
       },
       {
         "question": "You've just completed the 180-degree rotation and are settling into the reversed position - what specific grip adjustment do you execute before applying the finish?",
         "answer": "Shift from the two-on-one rotation grip (both hands controlling wrist and forearm with arm pinned to chest) to a finishing grip where both hands control only their wrist with thumbs positioned on top of their forearm. This grip adjustment positions your hands to pull their wrist toward your chest during the finish while your hips elevate for the breaking angle. The thumbs-on-top positioning prevents their wrist from rotating out of the pronated (thumb-down) position and maintains the proper arm alignment needed for maximum hyperextension leverage in the reverse plane. Never attempt to finish with the rotation grip—it lacks the precision needed for controlled extension.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Thumbs-on-top wrist grip",
+        "distractors": {
+          "plausible": [
+            "Keep the two-on-one rotation grip",
+            "Grip forearm, not the wrist"
+          ],
+          "trap": [
+            "Release grip to reposition freely"
+          ]
+        }
       },
       {
         "question": "In competition, what finishing strategy maximizes submission success rate while minimizing injury risk to your opponent?",
         "answer": "In competition, once you've completed the rotation and established the reversed position, apply steady progressive pressure through hip elevation while maintaining tight arm control. The pressure should be constant but controlled—giving your opponent the opportunity to tap before the elbow reaches its breaking threshold. Avoid explosive jerking or spiking even in competition, as this creates unnecessary injury risk and can result in referee stoppage or penalty. The submission should feel inevitable to your opponent, creating psychological pressure that forces the tap before physical damage occurs. Patient, mechanical finishing produces higher completion rates than explosive attempts.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Steady progressive hip pressure",
+        "distractors": {
+          "plausible": [
+            "Hold static pressure, no increase",
+            "Release and reset for a new grip"
+          ],
+          "trap": [
+            "Explosive spike to force the tap"
+          ]
+        }
       },
       {
         "question": "During your extension attempt, your opponent suddenly rolls free and escapes - what mechanical error likely caused this and how do you prevent it next time?",
         "answer": "The most common cause is lifting your hips for the breaking angle while simultaneously loosening leg pressure on the opponent's head and shoulder. When you focus solely on hip elevation without maintaining downward leg pressure, you create space that allows them to turn their shoulders and roll toward you, escaping the submission. To prevent this, drive your hips upward for the breaking angle while simultaneously squeezing your knees together and maintaining leg pressure across their upper body. Your leg pressure must pin them flat while your hips create the hyperextension—both elements must work together. Drilling the finish with emphasis on knee squeeze during hip elevation builds the coordination needed.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Legs loosened while hips lifted",
+        "distractors": {
+          "plausible": [
+            "Knees were squeezed too early",
+            "Rotation was done too slowly"
+          ],
+          "trap": [
+            "Let go of legs and dive for wrist"
+          ]
+        }
+      }
+    ],
+    "clips": [
+      {
+        "id": "2zSi7RlFJEU",
+        "title": "Armbar from S-Mount breakdown",
+        "by": "Fenrir Jiu-Jitsu Academy",
+        "vertical": false,
+        "channel": "Fenrir Jiu-Jitsu Academy",
+        "duration": 78,
+        "verified": "2026-07-16"
       }
     ]
   },
@@ -427,27 +570,77 @@
       {
         "question": "The attacker has just pinned your arm to their chest and begins rotating toward your feet - how much time do you have to act and what should you do immediately?",
         "answer": "You have approximately 2-3 seconds during the rotation phase before the attacker reestablishes leg control and the escape window closes. Immediately bend your trapped arm and grip your own collar or opposite bicep to prevent extension. Simultaneously, begin rolling your body in the same direction the attacker is rotating to prevent them from establishing the 180-degree angle they need. If rolling is not possible, bridge explosively into the attacker during mid-rotation while their base is compromised. Every fraction of a second matters—hesitation during this window typically results in a locked submission.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Bend arm, grip, roll with them",
+        "distractors": {
+          "plausible": [
+            "Wait for the rotation to finish",
+            "Push their hips away first"
+          ],
+          "trap": [
+            "Relax the arm to ease the strain"
+          ]
+        }
       },
       {
         "question": "Why are standard armbar defenses ineffective against the reverse armbar?",
         "answer": "Standard armbar defenses are designed for a forward-facing attacker—turning the thumb down removes the breaking angle, stacking drives weight into the attacker's face, and clasping hands creates distance from the hips. The reverse armbar inverts all of these mechanics. The attacker faces your feet, so thumb-down rotation may actually align your arm with their new breaking plane. Stacking drives you toward their legs rather than disrupting control. Clasped hands are less effective because the reverse hip angle generates force from a direction your grip structure is not designed to resist.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Reverse angle voids those defenses",
+        "distractors": {
+          "plausible": [
+            "Thumb-down still kills the angle",
+            "Stacking still breaks the grip"
+          ],
+          "trap": [
+            "Turn thumb down and stack hard"
+          ]
+        }
       },
       {
         "question": "When should you tap rather than continue defending the reverse armbar?",
         "answer": "Tap immediately if three conditions exist simultaneously: your arm is fully extended with no remaining bend at the elbow, the attacker's hips are elevated and tight against your shoulder creating the fulcrum, and their legs have reestablished control pinning your head and shoulder. At this point, continued resistance will result in elbow ligament damage within seconds. The reverse breaking angle adds rotational stress that standard elbow flexibility cannot accommodate. There is no shame in tapping to a fully locked reverse armbar—the position is mechanically finished and further resistance only risks serious injury.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Arm locked, hips tight, legs pinned",
+        "distractors": {
+          "plausible": [
+            "When you lose your underhook grip",
+            "Once attacker sits up to rotate"
+          ],
+          "trap": [
+            "Bridge hard to rip the arm free"
+          ]
+        }
       },
       {
         "question": "You feel the attacker beginning to rotate their body toward your feet while gripping your wrist - describe step by step how you execute the rolling defense?",
         "answer": "As soon as you feel the rotational torque on your trapped arm, immediately initiate a roll in the same direction the attacker is rotating. Drive off your far foot and near shoulder to generate rolling momentum that matches their movement. This prevents the creation of the 180-degree angle they need for the reverse mechanics—your body follows theirs, collapsing the space between you and eliminating the leverage angle. As you roll, pull your trapped arm tight to your body and bend the elbow aggressively. The roll often results in a scramble where you can free your arm and recover to mount bottom or guard. The critical timing is initiating the roll as soon as you feel rotation begin, before the attacker builds momentum.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Roll same direction, bend arm tight",
+        "distractors": {
+          "plausible": [
+            "Roll opposite direction to escape",
+            "Wait for scramble, then roll"
+          ],
+          "trap": [
+            "Straighten arm to slip free"
+          ]
+        }
       },
       {
         "question": "What should your free hand prioritize when defending the reverse armbar?",
         "answer": "Your free hand should frame against the attacker's near hip to prevent them from establishing the tight hip-to-shoulder connection required for the finish. This frame creates space between your trapped shoulder and their hips, degrading their breaking angle and making extension less effective. Secondary priority is using the free hand to assist your trapped arm by gripping your own wrist, collar, or opposite bicep to reinforce the bent-arm defense. Never use the free hand to push on the attacker's head or chest—these actions waste energy and do not address the core mechanics of the position.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Frame against their near hip",
+        "distractors": {
+          "plausible": [
+            "Post on the mat for base",
+            "Chase a grip on their belt"
+          ],
+          "trap": [
+            "Push their knee with a straight arm"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -465,6 +658,26 @@
         "phase": "Phase 3: Progressive Resistance Defense",
         "focus": "Maintaining defensive structure against increasing offensive pressure",
         "description": "Partner attacks the reverse armbar at 60-80% intensity while you chain defensive techniques: recognize, bend arm, grip defensively, disrupt rotation, escape to guard. Track success rate across rounds and identify which phase of the defense breaks down first under pressure. Build conditioning for sustained grip fighting when the position stalls."
+      }
+    ],
+    "clips": [
+      {
+        "id": "kNdKfUdgO4I",
+        "title": "My favorite armbar escape",
+        "by": "Matt Arroyo",
+        "vertical": false,
+        "channel": "Matt Arroyo Jiu Jitsu ",
+        "duration": 92,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "CDpv10qYFLo",
+        "title": "How to defend an armbar",
+        "by": "Gordon Ryan",
+        "vertical": false,
+        "channel": "Gordon Ryan",
+        "duration": 274,
+        "verified": "2026-07-15"
       }
     ]
   },

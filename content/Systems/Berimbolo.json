@@ -334,39 +334,129 @@
   "flashcards": [
     {
       "question": "What is the Berimbolo and what does it accomplish?",
-      "answer": "The Berimbolo is an inversion-based attacking system, usually launched from De La Riva guard, that spins underneath and around the opponent to take their back, converting a defensive guard into dominant back control."
+      "answer": "The Berimbolo is an inversion-based attacking system, usually launched from De La Riva guard, that spins underneath and around the opponent to take their back, converting a defensive guard into dominant back control.",
+      "answer_line": "Invert from DLR to take the back",
+      "distractors": {
+        "plausible": [
+          "Sweep opponent to top position",
+          "Pass guard using leg entanglement"
+        ],
+        "trap": [
+          "Expose your back to opponent"
+        ]
+      }
     },
     {
       "question": "From which guard is the Berimbolo most commonly initiated?",
-      "answer": "It is most commonly initiated from De La Riva guard, using the inside-leg hook behind the opponent's near leg plus collar and pant grips to create the off-balance and angle needed to invert."
+      "answer": "It is most commonly initiated from De La Riva guard, using the inside-leg hook behind the opponent's near leg plus collar and pant grips to create the off-balance and angle needed to invert.",
+      "answer_line": "De La Riva guard",
+      "distractors": {
+        "plausible": [
+          "Reverse De La Riva guard",
+          "Single Leg X guard"
+        ],
+        "trap": [
+          "Turtle position"
+        ]
+      }
     },
     {
       "question": "Why should you roll over your shoulder rather than your neck during the inversion?",
-      "answer": "Rolling over the shoulder protects the cervical spine from dangerous loading, and it also produces a faster, more efficient rotation; rolling over the neck risks injury and slows the spin to the back."
+      "answer": "Rolling over the shoulder protects the cervical spine from dangerous loading, and it also produces a faster, more efficient rotation; rolling over the neck risks injury and slows the spin to the back.",
+      "answer_line": "Protects spine, faster spin",
+      "distractors": {
+        "plausible": [
+          "Only prevents neck injury",
+          "Keeps grips tighter mid-spin"
+        ],
+        "trap": [
+          "Roll over the neck for speed"
+        ]
+      }
     },
     {
       "question": "How do you counter an opponent who sits back to defend the Berimbolo?",
-      "answer": "Chain into X-Guard or Single Leg X sweeps. Sitting back removes the forward pressure the Berimbolo needs but exposes the opponent to elevation sweeps, creating a dilemma where both responses are threatening."
+      "answer": "Chain into X-Guard or Single Leg X sweeps. Sitting back removes the forward pressure the Berimbolo needs but exposes the opponent to elevation sweeps, creating a dilemma where both responses are threatening.",
+      "answer_line": "Chain into X-Guard sweeps",
+      "distractors": {
+        "plausible": [
+          "Force the spin through anyway",
+          "Switch to closed guard"
+        ],
+        "trap": [
+          "Release grips and reset"
+        ]
+      }
     },
     {
       "question": "What is the correct control sequence when completing the back take from the body lock phase?",
-      "answer": "Insert the near hook first while keeping body lock pressure, transition the grip to a seat belt with chest glued to the back, then insert the far hook last to consolidate full back control with both hooks deep."
+      "answer": "Insert the near hook first while keeping body lock pressure, transition the grip to a seat belt with chest glued to the back, then insert the far hook last to consolidate full back control with both hooks deep.",
+      "answer_line": "Near hook, seat belt, far hook",
+      "distractors": {
+        "plausible": [
+          "Far hook first, then near",
+          "Seat belt before any hooks"
+        ],
+        "trap": [
+          "Release body lock for grips"
+        ]
+      }
     },
     {
       "question": "What physical attribute is the key prerequisite for safely executing the Berimbolo?",
-      "answer": "Hip and spinal mobility (flexibility) is essential, because the system requires inverting and rotating the hips underneath the body; insufficient flexibility forces neck strain or incomplete rotation."
+      "answer": "Hip and spinal mobility (flexibility) is essential, because the system requires inverting and rotating the hips underneath the body; insufficient flexibility forces neck strain or incomplete rotation.",
+      "answer_line": "Hip and spinal mobility",
+      "distractors": {
+        "plausible": [
+          "Grip strength in the collar",
+          "Explosive leg power"
+        ],
+        "trap": [
+          "Heavy bodyweight for pressure"
+        ]
+      }
     },
     {
       "question": "What is a common timing error when entering the Berimbolo?",
-      "answer": "Inverting prematurely before the opponent is truly off-balanced. Without committed forward weight and posted hands, the opponent can follow your rotation or pressure forward into side control or mount."
+      "answer": "Inverting prematurely before the opponent is truly off-balanced. Without committed forward weight and posted hands, the opponent can follow your rotation or pressure forward into side control or mount.",
+      "answer_line": "Inverting before off-balance",
+      "distractors": {
+        "plausible": [
+          "Spinning too slowly to finish",
+          "Grabbing the wrong pant grip"
+        ],
+        "trap": [
+          "Waiting until opponent passes"
+        ]
+      }
     },
     {
       "question": "Why is the body lock or body triangle important during the rotation phase?",
-      "answer": "It is the transitional control that bridges De La Riva and full back control, keeping the opponent's hips trapped and preventing them from turning to face you while you finish inserting hooks and the seat belt."
+      "answer": "It is the transitional control that bridges De La Riva and full back control, keeping the opponent's hips trapped and preventing them from turning to face you while you finish inserting hooks and the seat belt.",
+      "answer_line": "Traps hips, bridges to back",
+      "distractors": {
+        "plausible": [
+          "Controls the far-side collar",
+          "Sets up a submission finish"
+        ],
+        "trap": [
+          "Lets opponent turn to face you"
+        ]
+      }
     },
     {
       "question": "How does the Berimbolo integrate with the rest of a modern guard game?",
-      "answer": "It connects seamlessly with De La Riva, X-Guard, Single Leg X, and Reverse De La Riva, so failed entries flow into sweeps or alternate back takes, making the guard player unpredictable and constantly threatening."
+      "answer": "It connects seamlessly with De La Riva, X-Guard, Single Leg X, and Reverse De La Riva, so failed entries flow into sweeps or alternate back takes, making the guard player unpredictable and constantly threatening.",
+      "answer_line": "Flows into DLR, X-Guard, sweeps",
+      "distractors": {
+        "plausible": [
+          "Only works from closed guard",
+          "Replaces need for other guards"
+        ],
+        "trap": [
+          "Abandon grips if entry fails"
+        ]
+      }
     }
   ]
 }

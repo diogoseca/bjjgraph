@@ -34,6 +34,43 @@ description: "Master New York Control Escape in BJJ. Systematic overhook extract
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "New York Control Escape \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Counter and escape the overhook clamp from guard",
+      "description": "New York Control Escape film study: Counter and escape the overhook clamp from guard, taught by The Grappling Bloke.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/58LkTy6v3KQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/58LkTy6v3KQ",
+      "url": "https://www.youtube.com/watch?v=58LkTy6v3KQ",
+      "creator": { "@type": "Person", "name": "The Grappling Bloke" },
+      "duration": "PT109S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Side control escape to the Hazlet",
+      "description": "New York Control Escape film study: Side control escape to the Hazlet, taught by 10th Planet Orange Park.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ldL974KL5sg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ldL974KL5sg",
+      "url": "https://www.youtube.com/watch?v=ldL974KL5sg",
+      "creator": { "@type": "Person", "name": "10th Planet Orange Park" },
+      "duration": "PT22S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +106,34 @@ Strategic mastery of this escape extends beyond simple positional recovery. Prac
 **Success Rate**: 55%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch New York Control Escape in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=58LkTy6v3KQ)
+
+<p class="clip-credit"><strong>Counter and escape the overhook clamp from guard</strong> — taught by The Grappling Bloke · 1:49 · <a href="https://www.youtube.com/watch?v=58LkTy6v3KQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ldL974KL5sg)
+
+<p class="clip-credit"><strong>Side control escape to the Hazlet</strong> — taught by 10th Planet Orange Park · 0:22 · <a href="https://www.youtube.com/watch?v=ldL974KL5sg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

@@ -34,6 +34,43 @@ description: "Master Hip Escape from Cross Body Ride in BJJ. Essential escape te
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Hip Escape from Cross Body Ride \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Escaping the cross body ride",
+      "description": "Hip Escape from Cross Body Ride film study: Escaping the cross body ride, taught by Jake Sueflohn.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/l7FuJKfhhug/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/l7FuJKfhhug",
+      "url": "https://www.youtube.com/watch?v=l7FuJKfhhug",
+      "creator": { "@type": "Person", "name": "Jake Sueflohn" },
+      "duration": "PT191S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Leg riding defense vs cross body ride",
+      "description": "Hip Escape from Cross Body Ride film study: Leg riding defense vs cross body ride, taught by Jeff Jordan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/tUuT7lVaIRA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/tUuT7lVaIRA",
+      "url": "https://www.youtube.com/watch?v=tUuT7lVaIRA",
+      "creator": { "@type": "Person", "name": "Jeff Jordan" },
+      "duration": "PT324S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +106,34 @@ The technique is most effective when initiated during moments of weight transiti
 **Success Rate**: 50%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Hip Escape from Cross Body Ride in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=l7FuJKfhhug)
+
+<p class="clip-credit"><strong>Escaping the cross body ride</strong> — taught by Jake Sueflohn · 3:11 · <a href="https://www.youtube.com/watch?v=l7FuJKfhhug" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=tUuT7lVaIRA)
+
+<p class="clip-credit"><strong>Leg riding defense vs cross body ride</strong> — taught by Jeff Jordan · 5:24 · <a href="https://www.youtube.com/watch?v=tUuT7lVaIRA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

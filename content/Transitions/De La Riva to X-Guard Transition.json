@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "X-Guard/Bottom",
-      "probability": 65,
+      "probability": {
+        "gi": 65,
+        "nogi": 65
+      },
       "result": "success"
     },
     {
       "to": "De La Riva Guard/Bottom",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "De La Riva Guard/Top",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 65,
+  "success_rate": {
+    "gi": 65,
+    "nogi": 65
+  },
   "summary": "The De La Riva to X-Guard transition is a bottom-player sequence that swaps a De La Riva hook for an X-Guard leg entanglement beneath a standing opponent, trading horizontal off-balancing for vertical elevation sweeps and leg-lock entries.",
   "overview": "Within the modern open-guard ecosystem, this transition is the bottom player's primary answer when a based-out, upright passer stalls direct De La Riva sweeps and refuses to be pulled forward. Unlike isolated techniques, this concept encompasses the biomechanical principles, timing considerations, and strategic decision-making that enable seamless positional flow between these two fundamental guard systems. This transition serves as both an offensive adaptation when initial De La Riva attacks are defended and a proactive entry strategy that leverages opponent's posture and base positioning to create superior sweeping opportunities.\n\nThe ability to flow between these positions transforms static guard retention into dynamic offensive pressure, making it one of the most powerful conceptual frameworks in modern guard play. When the top player maintains upright posture and resists DLR sweeps, the guard player converts underneath into X-Guard where the elevation mechanics become dominant. This reaction-based entry is what separates competent DLR players from dangerous ones: every defensive reaction opens a different offensive pathway.\n\nUnderstanding this transition requires mastery of hook mechanics, grip control transitions, and the ability to read opponent weight distribution in real-time. The DLR hook creates horizontal off-balancing forces while X-Guard hooks create vertical elevation forces. The transition bridges these two force systems seamlessly, maintaining continuous control throughout the reconfiguration of legs and grips.",
   "related_content": [
@@ -221,46 +233,166 @@
     "flashcards": [
       {
         "question": "What is the primary timing trigger for initiating the De La Riva to X-Guard transition?",
-        "answer": "The optimal timing is when opponent has committed their weight forward onto their DLR-hooked leg with a relatively wide base. This weight distribution allows for effective elevation once X-Guard is established. Conversely, if opponent has backward weight or narrow base, maintaining DLR for direct sweeps is typically more effective."
+        "answer": "The optimal timing is when opponent has committed their weight forward onto their DLR-hooked leg with a relatively wide base. This weight distribution allows for effective elevation once X-Guard is established. Conversely, if opponent has backward weight or narrow base, maintaining DLR for direct sweeps is typically more effective.",
+        "answer_line": "Weight forward, wide base",
+        "distractors": {
+          "plausible": [
+            "Weight back, narrow base",
+            "Right after DLR hook is set"
+          ],
+          "trap": [
+            "When opponent creates distance"
+          ]
+        }
       },
       {
         "question": "Why is establishing upper body control (underhook or grips) critical before transitioning hooks?",
-        "answer": "Upper body control prevents opponent from creating distance or backing away during the vulnerable moment when you're reconfiguring your hooks. Without this connection, opponent can simply step back as you release the DLR hook, causing complete loss of guard position. The underhook specifically pulls them into your elevation structure."
+        "answer": "Upper body control prevents opponent from creating distance or backing away during the vulnerable moment when you're reconfiguring your hooks. Without this connection, opponent can simply step back as you release the DLR hook, causing complete loss of guard position. The underhook specifically pulls them into your elevation structure.",
+        "answer_line": "Stops them stepping away mid-swap",
+        "distractors": {
+          "plausible": [
+            "Adds power to the final sweep",
+            "Tightens the DLR hook itself"
+          ],
+          "trap": [
+            "Let go of grips while switching"
+          ]
+        }
       },
       {
         "question": "How do the biomechanical functions of DLR and X-Guard hooks differ despite their similarities?",
-        "answer": "DLR hooks create off-balancing primarily through horizontal disruption of opponent's base (pulling knee away from centerline), while X-Guard hooks create elevation through vertical lifting forces (one hook pulls down/in while the other pushes up/away). DLR is more effective for lateral sweeps while X-Guard excels at vertical elevation sweeps. Both use leg entanglement but with different force vectors."
+        "answer": "DLR hooks create off-balancing primarily through horizontal disruption of opponent's base (pulling knee away from centerline), while X-Guard hooks create elevation through vertical lifting forces (one hook pulls down/in while the other pushes up/away). DLR is more effective for lateral sweeps while X-Guard excels at vertical elevation sweeps. Both use leg entanglement but with different force vectors.",
+        "answer_line": "DLR pulls sideways, X lifts up",
+        "distractors": {
+          "plausible": [
+            "DLR lifts, X-Guard pulls in",
+            "Both produce pure vertical lift"
+          ],
+          "trap": [
+            "Sweep X-Guard sideways like DLR"
+          ]
+        }
       },
       {
         "question": "What is the correct sequence for hook transition from DLR to X-Guard?",
-        "answer": "The bottom X-Guard hook (which will go behind opponent's knee) must be inserted simultaneously with or just before releasing the DLR hook. The DLR hook then converts to the top X-Guard hook across their hips. This coordination ensures no gap in control exists. Sequential transitions (releasing first, then establishing) create vulnerability windows."
+        "answer": "The bottom X-Guard hook (which will go behind opponent's knee) must be inserted simultaneously with or just before releasing the DLR hook. The DLR hook then converts to the top X-Guard hook across their hips. This coordination ensures no gap in control exists. Sequential transitions (releasing first, then establishing) create vulnerability windows.",
+        "answer_line": "Bottom hook in before DLR hook out",
+        "distractors": {
+          "plausible": [
+            "Release DLR hook, then set X hooks",
+            "Top hook across hips goes in first"
+          ],
+          "trap": [
+            "Turn belly-down to feed the hook"
+          ]
+        }
       },
       {
         "question": "When should you abort the transition and return to DLR or switch to alternative guards?",
-        "answer": "Abort when opponent successfully widens base and drops weight before you complete hook configuration, when they clear your bottom hook before top hook is established, or when they create significant distance during the transition. Alternative options include returning to De La Riva Guard, switching to Single Leg X Guard (both hooks on one leg), transitioning to Reverse De La Riva Guard if they're circling, or entering Deep Half Guard if they drop heavy weight."
+        "answer": "Abort when opponent successfully widens base and drops weight before you complete hook configuration, when they clear your bottom hook before top hook is established, or when they create significant distance during the transition. Alternative options include returning to De La Riva Guard, switching to Single Leg X Guard (both hooks on one leg), transitioning to Reverse De La Riva Guard if they're circling, or entering Deep Half Guard if they drop heavy weight.",
+        "answer_line": "Opponent widens base, clears hook",
+        "distractors": {
+          "plausible": [
+            "Opponent postures up only",
+            "Opponent grips your collar"
+          ],
+          "trap": [
+            "Never abort, force the sweep"
+          ]
+        }
       },
       {
         "question": "Why is hip positioning perpendicular to opponent's base line essential for effective X-Guard?",
-        "answer": "Perpendicular hip alignment places your body's structure directly underneath opponent's center of mass, maximizing elevation leverage. Side-on positioning (like in DLR) doesn't provide the correct angle for vertical elevation sweeps. The perpendicular alignment allows your legs to extend straight up into their base while your hips create the fulcrum point."
+        "answer": "Perpendicular hip alignment places your body's structure directly underneath opponent's center of mass, maximizing elevation leverage. Side-on positioning (like in DLR) doesn't provide the correct angle for vertical elevation sweeps. The perpendicular alignment allows your legs to extend straight up into their base while your hips create the fulcrum point.",
+        "answer_line": "Puts your frame under their base",
+        "distractors": {
+          "plausible": [
+            "Copies the side-on DLR angle",
+            "Locks their ankle in place"
+          ],
+          "trap": [
+            "Flatten hips, let them step over"
+          ]
+        }
       },
       {
         "question": "Your opponent posts their hand on the mat as you begin inserting the bottom X-Guard hook - how do you adjust?",
-        "answer": "A hand post indicates they are feeling off-balanced and trying to stabilize. This is actually a positive signal because it means one hand is no longer available for grip fighting or blocking your hooks. Accelerate the hook insertion and use your underhook to pull them forward into the post, increasing their dependence on it. Once both hooks are configured, the hand post provides almost no defensive value against elevation sweeps."
+        "answer": "A hand post indicates they are feeling off-balanced and trying to stabilize. This is actually a positive signal because it means one hand is no longer available for grip fighting or blocking your hooks. Accelerate the hook insertion and use your underhook to pull them forward into the post, increasing their dependence on it. Once both hooks are configured, the hand post provides almost no defensive value against elevation sweeps.",
+        "answer_line": "Accelerate hooks, pull onto post",
+        "distractors": {
+          "plausible": [
+            "Pause and reset your grips",
+            "Attack the posted arm instead"
+          ],
+          "trap": [
+            "Let go of hooks to grab the post"
+          ]
+        }
       },
       {
         "question": "What grip adjustments are required when performing this transition in no-gi versus gi?",
-        "answer": "In no-gi, replace collar grip with a collar tie or overhook, and replace sleeve grip with wrist control or two-on-one. The underhook becomes even more critical in no-gi because it's the most reliable upper body connection without lapel grips. In gi, the belt grip is a powerful alternative to the underhook for preventing opponent retreat. The fundamental hook mechanics remain identical regardless of attire; only the upper body control system changes."
+        "answer": "In no-gi, replace collar grip with a collar tie or overhook, and replace sleeve grip with wrist control or two-on-one. The underhook becomes even more critical in no-gi because it's the most reliable upper body connection without lapel grips. In gi, the belt grip is a powerful alternative to the underhook for preventing opponent retreat. The fundamental hook mechanics remain identical regardless of attire; only the upper body control system changes.",
+        "answer_line": "Collar tie/wrist control no-gi",
+        "distractors": {
+          "plausible": [
+            "Sleeve grips still work no-gi",
+            "Hook mechanics differ by ruleset"
+          ],
+          "trap": [
+            "Skip the underhook in no-gi"
+          ]
+        }
       },
       {
         "question": "Your opponent successfully defends the initial X-Guard sweep by posting both hands on the mat - what chain attacks become available?",
-        "answer": "A double hand post means both arms are occupied with balance recovery and neither is available for grip fighting or guard passing. This opens several chain attacks: transition to Single Leg X by releasing the top hook and concentrating both hooks on the near leg for a different sweeping angle, enter Ashi Garami by threading your bottom hook deeper and rotating toward leg entanglement, or use the technical stand-up to single leg by removing your hooks and climbing to a standing clinch while they are still recovering balance. Any post-based defense commits their arms, opening leg-based attacks."
+        "answer": "A double hand post means both arms are occupied with balance recovery and neither is available for grip fighting or guard passing. This opens several chain attacks: transition to Single Leg X by releasing the top hook and concentrating both hooks on the near leg for a different sweeping angle, enter Ashi Garami by threading your bottom hook deeper and rotating toward leg entanglement, or use the technical stand-up to single leg by removing your hooks and climbing to a standing clinch while they are still recovering balance. Any post-based defense commits their arms, opening leg-based attacks.",
+        "answer_line": "Attack legs, hands are occupied",
+        "distractors": {
+          "plausible": [
+            "Hunt a far-side collar choke",
+            "Climb straight to mount"
+          ],
+          "trap": [
+            "Post up and stand, dumping hooks"
+          ]
+        }
       },
       {
         "question": "During the hook transition phase, your opponent begins rapidly circling away from your hooking side - how do you adapt?",
-        "answer": "Rapid circling indicates the opponent has recognized the transition and is trying to create an angle where your hooks lose their mechanical advantage. If they circle toward your head, follow with your hips and consider transitioning to Reverse De La Riva Guard where their momentum feeds your control. If they circle away from your head, accelerate the bottom hook insertion since their lateral movement often opens the space needed for threading. In both cases, maintain the underhook connection as your primary tether and use their circular movement as energy for your own repositioning rather than fighting against it."
+        "answer": "Rapid circling indicates the opponent has recognized the transition and is trying to create an angle where your hooks lose their mechanical advantage. If they circle toward your head, follow with your hips and consider transitioning to Reverse De La Riva Guard where their momentum feeds your control. If they circle away from your head, accelerate the bottom hook insertion since their lateral movement often opens the space needed for threading. In both cases, maintain the underhook connection as your primary tether and use their circular movement as energy for your own repositioning rather than fighting against it.",
+        "answer_line": "Follow hips, keep underhook tether",
+        "distractors": {
+          "plausible": [
+            "Chase with your legs only",
+            "Release underhook to re-angle"
+          ],
+          "trap": [
+            "Fight the circle, hold position"
+          ]
+        }
       }
     ],
-    "safety_considerations": "This transition is generally safe when practiced progressively, but several precautions should be observed. When training hook transitions, move slowly initially to avoid catching toes or feet in partner's gi or legs, which can cause toe or ankle injuries. Partners should communicate clearly during early phases when bottom hook insertion might create uncomfortable pressure behind the knee. Avoid forcing elevation when opponent has dropped significant weight, as this can strain your hip flexors and lower back. In competition scenarios, be aware that rapid inverting movements during advanced variations can temporarily disorient, so maintain spatial awareness. When partner is elevated in X-Guard position, control descent speed if they're falling to prevent them landing awkwardly. Finally, in no-gi situations, ensure proper foot positioning to avoid toe injuries from entanglement during the transition phase."
+    "safety_considerations": "This transition is generally safe when practiced progressively, but several precautions should be observed. When training hook transitions, move slowly initially to avoid catching toes or feet in partner's gi or legs, which can cause toe or ankle injuries. Partners should communicate clearly during early phases when bottom hook insertion might create uncomfortable pressure behind the knee. Avoid forcing elevation when opponent has dropped significant weight, as this can strain your hip flexors and lower back. In competition scenarios, be aware that rapid inverting movements during advanced variations can temporarily disorient, so maintain spatial awareness. When partner is elevated in X-Guard position, control descent speed if they're falling to prevent them landing awkwardly. Finally, in no-gi situations, ensure proper foot positioning to avoid toe injuries from entanglement during the transition phase.",
+    "clips": [
+      {
+        "id": "zbYb6sOYC8w",
+        "title": "X-guard sweep",
+        "by": "Marcelo Garcia",
+        "vertical": false,
+        "channel": "CHOKE LABORATORY",
+        "duration": 53,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "m-ueyJXiShY",
+        "title": "No-gi X-guard sweep",
+        "by": "Marcelo Garcia",
+        "vertical": false,
+        "channel": "GRACIEMAG - The original BJJ magazine. ",
+        "duration": 126,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "De La Riva to X-Guard Transition Defender",
@@ -346,23 +478,73 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that your opponent is initiating the DLR to X-Guard transition?",
-        "answer": "The earliest reliable cue is the grip transition: the bottom player releases their collar or sleeve grip and reaches for an underhook or deep pant grip on your near side. This grip change precedes the hook reconfiguration by several seconds and signals the beginning of the transition sequence. The hip rotation underneath follows shortly after, but the grip switch is detectable first."
+        "answer": "The earliest reliable cue is the grip transition: the bottom player releases their collar or sleeve grip and reaches for an underhook or deep pant grip on your near side. This grip change precedes the hook reconfiguration by several seconds and signals the beginning of the transition sequence. The hip rotation underneath follows shortly after, but the grip switch is detectable first.",
+        "answer_line": "They release grip for underhook",
+        "distractors": {
+          "plausible": [
+            "Their hips rotate underneath",
+            "Bottom hook slides behind knee"
+          ],
+          "trap": [
+            "Wait until you feel elevation"
+          ]
+        }
       },
       {
         "question": "Why is the bottom X-Guard hook insertion the most critical moment to defend rather than the DLR hook release?",
-        "answer": "The bottom X-Guard hook (behind your knee) is the load-bearing structure of the entire X-Guard position. It creates the elevation fulcrum that powers all sweeps. Without it, the top hook across the hips has no leverage. If you allow the bottom hook to seat deeply but prevent the top hook, the bottom player can still transition to Single Leg X. But if you prevent the bottom hook, the entire transition fails regardless of other factors."
+        "answer": "The bottom X-Guard hook (behind your knee) is the load-bearing structure of the entire X-Guard position. It creates the elevation fulcrum that powers all sweeps. Without it, the top hook across the hips has no leverage. If you allow the bottom hook to seat deeply but prevent the top hook, the bottom player can still transition to Single Leg X. But if you prevent the bottom hook, the entire transition fails regardless of other factors.",
+        "answer_line": "Bottom hook is the fulcrum",
+        "distractors": {
+          "plausible": [
+            "Top hook drives sweep power",
+            "DLR hook release is the key"
+          ],
+          "trap": [
+            "Defend only the top hook"
+          ]
+        }
       },
       {
         "question": "Your opponent has secured an underhook and their free leg is beginning to thread under your stance - what is your immediate response?",
-        "answer": "Immediately strip the underhook by swimming your arm inside and peeling their grip while simultaneously dropping your hips low and driving your weight onto the threading leg to block its path. If you can only do one thing, block the leg insertion by narrowing your stance and driving your knee toward the mat on the threatened side. The underhook without hooks is recoverable; hooks without underhook still leads to X-Guard."
+        "answer": "Immediately strip the underhook by swimming your arm inside and peeling their grip while simultaneously dropping your hips low and driving your weight onto the threading leg to block its path. If you can only do one thing, block the leg insertion by narrowing your stance and driving your knee toward the mat on the threatened side. The underhook without hooks is recoverable; hooks without underhook still leads to X-Guard.",
+        "answer_line": "Block the leg, strip underhook",
+        "distractors": {
+          "plausible": [
+            "Grab a collar tie instead",
+            "Sprawl and create distance"
+          ],
+          "trap": [
+            "Focus only on stripping underhook"
+          ]
+        }
       },
       {
         "question": "Why is backing away without grip strips an ineffective defense against this transition?",
-        "answer": "The bottom player's underhook and remaining hook connections act as tethers that allow them to follow your backward movement while maintaining their transition angle. Backing away actually helps them by creating more space for hook insertion and rotation. Effective defense requires addressing the control points (stripping underhook, blocking hook insertion, peeling DLR hook) before creating distance. Only after connections are broken does distance become a useful defensive tool."
+        "answer": "The bottom player's underhook and remaining hook connections act as tethers that allow them to follow your backward movement while maintaining their transition angle. Backing away actually helps them by creating more space for hook insertion and rotation. Effective defense requires addressing the control points (stripping underhook, blocking hook insertion, peeling DLR hook) before creating distance. Only after connections are broken does distance become a useful defensive tool.",
+        "answer_line": "Grips tether them to follow you",
+        "distractors": {
+          "plausible": [
+            "Buys time to reset your base",
+            "Forces them to re-grip"
+          ],
+          "trap": [
+            "Create max distance immediately"
+          ]
+        }
       },
       {
         "question": "How does your defensive strategy change if the transition is already 80% complete with both hooks partially configured?",
-        "answer": "At 80% completion, proactive prevention is no longer viable. Switch to damage control: immediately lower your center of gravity, widen your base as much as possible, and fight for crossface or collar tie control to prevent the final hip positioning adjustment. If they achieve full elevation, accept the sweep is likely and focus on landing in the best possible position (half guard top or scramble) rather than fighting a lost battle from X-Guard top where you'll expend energy and still get swept."
+        "answer": "At 80% completion, proactive prevention is no longer viable. Switch to damage control: immediately lower your center of gravity, widen your base as much as possible, and fight for crossface or collar tie control to prevent the final hip positioning adjustment. If they achieve full elevation, accept the sweep is likely and focus on landing in the best possible position (half guard top or scramble) rather than fighting a lost battle from X-Guard top where you'll expend energy and still get swept.",
+        "answer_line": "Widen base, fight for crossface",
+        "distractors": {
+          "plausible": [
+            "Strip both hooks aggressively",
+            "Sprint backward to standing"
+          ],
+          "trap": [
+            "Posture tall and drive forward"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -385,6 +567,35 @@
         "phase": "Month 3-4: Full Resistance Positional Sparring",
         "focus": "Defending the complete DLR system including transition threats",
         "description": "Positional sparring starting in opponent's DLR guard. Opponent uses full attack repertoire including sweeps, berimbolo, and X-Guard transitions. Defend all threats with emphasis on preventing the X-Guard transition specifically. Track which transitions succeed and analyze defensive breakdowns. Alternate rounds to develop both perspectives."
+      }
+    ],
+    "clips": [
+      {
+        "id": "qStfwTHPxLw",
+        "title": "Defending the X-guard",
+        "by": "Bermuda Martial Arts coach",
+        "vertical": false,
+        "channel": "Bermuda Martial Arts",
+        "duration": 136,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "ucOnMkZV7Og",
+        "title": "Passing and Entering from De La Riva Guard",
+        "by": "Gordon Ryan",
+        "vertical": false,
+        "channel": "RVV BJJ",
+        "duration": 401,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "pfvlyC-JE0M",
+        "title": "Passing Deep De La Riva X",
+        "by": "Aaron Benzrihem",
+        "vertical": false,
+        "channel": "Aaron Benzrihem bjj",
+        "duration": 388,
+        "verified": "2026-07-15"
       }
     ]
   },

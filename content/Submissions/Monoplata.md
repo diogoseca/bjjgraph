@@ -34,6 +34,65 @@ description: "Master the Monoplata submission in BJJ. Complete guide covering se
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Monoplata \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Monoplata from Triangle Choke",
+      "description": "Monoplata film study: Monoplata from Triangle Choke, taught by Waza Brazilian Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/u9fF8OCRDks/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/u9fF8OCRDks",
+      "url": "https://www.youtube.com/watch?v=u9fF8OCRDks",
+      "creator": { "@type": "Person", "name": "Waza Brazilian Jiu Jitsu" },
+      "duration": "PT110S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Monoplata Trap System from Guard",
+      "description": "Monoplata film study: Monoplata Trap System from Guard, taught by Johnny Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/5J6Gtv1hAMo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/5J6Gtv1hAMo",
+      "url": "https://www.youtube.com/watch?v=5J6Gtv1hAMo",
+      "creator": { "@type": "Person", "name": "Johnny Jitsu" },
+      "duration": "PT160S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Omoplata From Mount",
+      "description": "Monoplata film study: Omoplata From Mount, taught by Jiu Jitsu With Andy.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/DeVb2R8SQL4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/DeVb2R8SQL4",
+      "url": "https://www.youtube.com/watch?v=DeVb2R8SQL4",
+      "creator": { "@type": "Person", "name": "Jiu Jitsu With Andy" },
+      "duration": "PT18S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 4,
+      "name": "Omoplata to Monoplata",
+      "description": "Monoplata film study: Omoplata to Monoplata, taught by Ninjuh Moves.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/kXwTSv13ATw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/kXwTSv13ATw",
+      "url": "https://www.youtube.com/watch?v=kXwTSv13ATw",
+      "creator": { "@type": "Person", "name": "Ninjuh Moves" },
+      "duration": "PT50S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -82,6 +141,50 @@ The Monoplata is an advanced shoulder lock submission that combines elements of 
 </section>
 
 
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Monoplata in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=u9fF8OCRDks)
+
+<p class="clip-credit"><strong>Monoplata from Triangle Choke</strong> — taught by Waza Brazilian Jiu Jitsu · 1:50 · <a href="https://www.youtube.com/watch?v=u9fF8OCRDks" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=5J6Gtv1hAMo)
+
+<p class="clip-credit"><strong>Monoplata Trap System from Guard</strong> — taught by Johnny Jitsu · 2:40 · <a href="https://www.youtube.com/watch?v=5J6Gtv1hAMo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=DeVb2R8SQL4)
+
+<p class="clip-credit"><strong>Omoplata From Mount</strong> — taught by Jiu Jitsu With Andy · 0:18 · <a href="https://www.youtube.com/watch?v=DeVb2R8SQL4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=kXwTSv13ATw)
+
+<p class="clip-credit"><strong>Omoplata to Monoplata</strong> — taught by Ninjuh Moves · 0:50 · <a href="https://www.youtube.com/watch?v=kXwTSv13ATw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
+
+
 <section id="variants" class="content-section">
 
 ## What positions can you finish from?
@@ -91,7 +194,7 @@ The Monoplata is an advanced shoulder lock submission that combines elements of 
 
 | From Position | Seat | Success | Play as Attacker | Play as Defender |
 |---|---|---|---|---|
-| [[Submissions/Monoplata/from Guard|Closed Guard]] | Bottom | 48% | [[Submissions/Monoplata/from Guard/Attacker|Attack →]] | [[Submissions/Monoplata/from Guard/Defender|Defend →]] |
+| [[Submissions/Monoplata/from Guard|Closed Guard]] | Bottom | 52% | [[Submissions/Monoplata/from Guard/Attacker|Attack →]] | [[Submissions/Monoplata/from Guard/Defender|Defend →]] |
 | [[Submissions/Monoplata/from Mount|Mount]] | Top | 48% | [[Submissions/Monoplata/from Mount/Attacker|Attack →]] | [[Submissions/Monoplata/from Mount/Defender|Defend →]] |
 
 

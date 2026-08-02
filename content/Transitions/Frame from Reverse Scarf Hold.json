@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Half Guard/Bottom",
-      "probability": 40,
+      "probability": {
+        "gi": 40,
+        "nogi": 40
+      },
       "result": "success"
     },
     {
       "to": "Reverse Scarf Hold/Bottom",
-      "probability": 35,
+      "probability": {
+        "gi": 35,
+        "nogi": 35
+      },
       "result": "failure"
     },
     {
       "to": "North-South/Bottom",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 40,
+  "success_rate": {
+    "gi": 40,
+    "nogi": 40
+  },
   "overview": "The Frame from Reverse Scarf Hold is a systematic defensive escape technique where the bottom player uses skeletal frames against the top player's body to incrementally create space for hip escape and guard recovery. Unlike bridge-based escapes that require explosive power and precise timing, this frame escape operates through persistent mechanical advantage, making it the most energy-efficient and reliable escape available from reverse scarf hold bottom when the top player's base is too wide for effective bridging.\n\nThe technique exploits a key vulnerability in reverse scarf hold: because the top player faces the bottom player's legs rather than their head, their ability to address frames directed at their neck and far shoulder is biomechanically limited. The bottom player establishes forearm frames using ulna bone contact against the top player's hip or shoulder, creating structural barriers that prevent the top player from re-closing distance after each hip escape increment. This incremental approach accumulates space that the opponent cannot recover, unlike single explosive movements that can be absorbed and followed.\n\nFrom a strategic perspective, the frame escape creates a complementary dilemma system with the bridge escape from the same position. When the top player widens their base to resist bridges, they become more susceptible to sustained framing pressure. When they tighten their position to collapse frames, bridge escape angles open. This two-threat system systematically degrades reverse scarf hold control until one method succeeds, making the frame escape an essential component of any complete reverse scarf hold escape toolkit.",
   "conditions": [
     "Far-side arm is free and available for establishing forearm frames against opponent's body",
@@ -243,38 +255,138 @@
     "flashcards": [
       {
         "question": "What is the primary structural advantage of using forearm frames rather than pushing with extended arms from reverse scarf hold bottom?",
-        "answer": "Forearm frames use skeletal structure (the ulna bone pressed against the opponent's hip or shoulder) to create a mechanical barrier that does not fatigue, while pushing with extended arms relies on muscular effort that depletes rapidly under the top player's full body weight. Additionally, extended arms expose the pushing limb to americana and armbar attacks, whereas a forearm frame with the elbow tight to the body is submission-safe and can be maintained indefinitely without significant energy expenditure."
+        "answer": "Forearm frames use skeletal structure (the ulna bone pressed against the opponent's hip or shoulder) to create a mechanical barrier that does not fatigue, while pushing with extended arms relies on muscular effort that depletes rapidly under the top player's full body weight. Additionally, extended arms expose the pushing limb to americana and armbar attacks, whereas a forearm frame with the elbow tight to the body is submission-safe and can be maintained indefinitely without significant energy expenditure.",
+        "answer_line": "Elbow tight, bone not muscle",
+        "distractors": {
+          "plausible": [
+            "Frame absorbs more force",
+            "Frame is easier to establish"
+          ],
+          "trap": [
+            "Push harder with extended arm"
+          ]
+        }
       },
       {
         "question": "Your opponent increases chest pressure when you establish your frame - how should you adjust rather than abandoning the technique?",
-        "answer": "Do not fight the increased pressure directly through your frame. Instead, maintain the frame at its current position and wait for the opponent to shift weight for a submission attempt or positional adjustment, then execute the hip escape during that timing window. If they maintain constant heavy pressure without shifting, redirect the frame angle to push laterally against their shoulder rather than their hip, or switch to a bridge escape attempt to create a dilemma that forces them to address a different threat."
+        "answer": "Do not fight the increased pressure directly through your frame. Instead, maintain the frame at its current position and wait for the opponent to shift weight for a submission attempt or positional adjustment, then execute the hip escape during that timing window. If they maintain constant heavy pressure without shifting, redirect the frame angle to push laterally against their shoulder rather than their hip, or switch to a bridge escape attempt to create a dilemma that forces them to address a different threat.",
+        "answer_line": "Hold frame, escape on weight shift",
+        "distractors": {
+          "plausible": [
+            "Push through the pressure harder",
+            "Reset frame angle immediately"
+          ],
+          "trap": [
+            "Abandon frame, bridge explosively"
+          ]
+        }
       },
       {
         "question": "Why must chained hip escapes be used rather than a single large movement, and how many increments are typically needed?",
-        "answer": "A single large hip escape is easily followed by the opponent who simply shifts their weight to close the distance in one reaction. Chaining two to three smaller hip escapes with frame readjustments between each increment creates cumulative space that the opponent cannot recover because each increment is protected by the active frame before the next movement begins. The frame acts as a ratchet mechanism, preserving each increment of progress until approximately six inches of total space allows knee insertion."
+        "answer": "A single large hip escape is easily followed by the opponent who simply shifts their weight to close the distance in one reaction. Chaining two to three smaller hip escapes with frame readjustments between each increment creates cumulative space that the opponent cannot recover because each increment is protected by the active frame before the next movement begins. The frame acts as a ratchet mechanism, preserving each increment of progress until approximately six inches of total space allows knee insertion.",
+        "answer_line": "2-3 small escapes, frame ratchets",
+        "distractors": {
+          "plausible": [
+            "One big explosive hip escape",
+            "Escape fully, then frame after"
+          ],
+          "trap": [
+            "Bridge repeatedly without framing"
+          ]
+        }
       },
       {
         "question": "What is the optimal bridge angle used in combination with framing from reverse scarf hold, and how does it differ from a reversal bridge?",
-        "answer": "The bridge used with frame escapes is a controlled pressure-relief bridge directed at 45 degrees toward the opponent's posting leg, designed to momentarily shift their weight distribution rather than roll them over. Unlike a reversal bridge that seeks maximum height and displacement, this bridge is moderate in intensity and serves only to create the initial space increment that the frame will preserve during the subsequent hip escape. Excessive bridge power can actually compromise frame positioning."
+        "answer": "The bridge used with frame escapes is a controlled pressure-relief bridge directed at 45 degrees toward the opponent's posting leg, designed to momentarily shift their weight distribution rather than roll them over. Unlike a reversal bridge that seeks maximum height and displacement, this bridge is moderate in intensity and serves only to create the initial space increment that the frame will preserve during the subsequent hip escape. Excessive bridge power can actually compromise frame positioning.",
+        "answer_line": "45° toward posting leg, moderate",
+        "distractors": {
+          "plausible": [
+            "Max-height reversal-style bridge",
+            "Straight up bridge, full power"
+          ],
+          "trap": [
+            "Explosive bridge to dump opponent"
+          ]
+        }
       },
       {
         "question": "Your opponent transitions toward north-south as you begin creating space with frames - what is your immediate response?",
-        "answer": "As the opponent moves toward north-south, their weight necessarily shifts off your chest, which is actually an opportunity. Immediately follow their movement with your hips by turning to face them and insert your knees between your bodies as they rotate. The transition moment between reverse scarf hold and north-south is often easier to escape than either settled position, so act immediately when you feel the directional weight shift rather than waiting for them to consolidate the new position."
+        "answer": "As the opponent moves toward north-south, their weight necessarily shifts off your chest, which is actually an opportunity. Immediately follow their movement with your hips by turning to face them and insert your knees between your bodies as they rotate. The transition moment between reverse scarf hold and north-south is often easier to escape than either settled position, so act immediately when you feel the directional weight shift rather than waiting for them to consolidate the new position.",
+        "answer_line": "Follow with hips, insert knee",
+        "distractors": {
+          "plausible": [
+            "Wait for them to settle first",
+            "Frame harder to block the turn"
+          ],
+          "trap": [
+            "Turn away to protect your back"
+          ]
+        }
       },
       {
         "question": "When during the escape should you insert your knee, and what happens if you delay even briefly?",
-        "answer": "Insert your knee immediately once approximately six inches of cumulative space exists between your body and the opponent, which typically occurs after two chained hip escape increments. Any delay of even one to two seconds allows the opponent to drive their hips back into the created space and collapse your frame, erasing all escape progress. The knee insertion is the commitment point of the escape because once established it creates a structural barrier far more robust than the forearm frame alone."
+        "answer": "Insert your knee immediately once approximately six inches of cumulative space exists between your body and the opponent, which typically occurs after two chained hip escape increments. Any delay of even one to two seconds allows the opponent to drive their hips back into the created space and collapse your frame, erasing all escape progress. The knee insertion is the commitment point of the escape because once established it creates a structural barrier far more robust than the forearm frame alone.",
+        "answer_line": "Insert knee at 6in, no delay",
+        "distractors": {
+          "plausible": [
+            "Wait for full guard recovery",
+            "Insert knee after bridging"
+          ],
+          "trap": [
+            "Pause to catch your breath first"
+          ]
+        }
       },
       {
         "question": "Your initial frame collapses under the opponent's heavy pressure - what is the recovery and re-attempt sequence?",
-        "answer": "When the frame collapses, immediately re-establish your defensive arm position first: near-side elbow tight to ribs, far-side arm recovering to frame-ready position close to your body. Re-establish controlled breathing to prevent panic response. Then reassess the opponent's position and weight distribution before re-attempting the frame. Consider whether their pressure has shifted to make a bridge escape more viable. The key is never chaining failed frame attempts without resetting your defensive foundation and energy between each effort."
+        "answer": "When the frame collapses, immediately re-establish your defensive arm position first: near-side elbow tight to ribs, far-side arm recovering to frame-ready position close to your body. Re-establish controlled breathing to prevent panic response. Then reassess the opponent's position and weight distribution before re-attempting the frame. Consider whether their pressure has shifted to make a bridge escape more viable. The key is never chaining failed frame attempts without resetting your defensive foundation and energy between each effort.",
+        "answer_line": "Reset arms, breathe, reassess",
+        "distractors": {
+          "plausible": [
+            "Immediately re-attempt same frame",
+            "Chain another hip escape at once"
+          ],
+          "trap": [
+            "Explode into a bridge instantly"
+          ]
+        }
       },
       {
         "question": "How does the frame escape from reverse scarf hold create a dilemma system with the bridge escape?",
-        "answer": "The two escapes target opposite base configurations. To resist frame escapes, the top player must maintain tight, heavy chest pressure with a narrow base that prevents lateral displacement. To resist bridge escapes, they need a wide sprawled base that absorbs directional force. These requirements are mutually exclusive: widening base against bridges creates gaps for frame-based hip escapes, while tightening against frames weakens bridge resistance. Alternating between threats forces the opponent to continuously adjust, creating timing windows for whichever escape targets their current configuration."
+        "answer": "The two escapes target opposite base configurations. To resist frame escapes, the top player must maintain tight, heavy chest pressure with a narrow base that prevents lateral displacement. To resist bridge escapes, they need a wide sprawled base that absorbs directional force. These requirements are mutually exclusive: widening base against bridges creates gaps for frame-based hip escapes, while tightening against frames weakens bridge resistance. Alternating between threats forces the opponent to continuously adjust, creating timing windows for whichever escape targets their current configuration.",
+        "answer_line": "Narrow vs wide base, can't do both",
+        "distractors": {
+          "plausible": [
+            "Frame beats any base width",
+            "Bridge only works vs narrow base"
+          ],
+          "trap": [
+            "Use only one escape repeatedly"
+          ]
+        }
       }
     ],
-    "safety_considerations": "The primary safety concern during this escape involves the near-side arm, which remains vulnerable to americana and kimura attacks throughout the framing sequence. Never allow the near-side arm to extend or drift away from the body during frame establishment or hip escapes. If the opponent aggressively attacks a submission during the escape, immediately abandon the frame and address the submission threat with both arms. Tap promptly if any shoulder lock reaches full extension before you can reset defensive positioning. During training, communicate with your partner about chest compression levels and trapped arm comfort. Progress resistance gradually from static weight to live pressure to prevent unnecessary shoulder, elbow, or rib injuries."
+    "safety_considerations": "The primary safety concern during this escape involves the near-side arm, which remains vulnerable to americana and kimura attacks throughout the framing sequence. Never allow the near-side arm to extend or drift away from the body during frame establishment or hip escapes. If the opponent aggressively attacks a submission during the escape, immediately abandon the frame and address the submission threat with both arms. Tap promptly if any shoulder lock reaches full extension before you can reset defensive positioning. During training, communicate with your partner about chest compression levels and trapped arm comfort. Progress resistance gradually from static weight to live pressure to prevent unnecessary shoulder, elbow, or rib injuries.",
+    "clips": [
+      {
+        "id": "JM9nDge0arQ",
+        "title": "Reverse kesa gatame escape breakdown",
+        "by": "MMA Leech",
+        "vertical": false,
+        "channel": "MMA Leech",
+        "duration": 238,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "aSF633klG8k",
+        "title": "My #1 Escape from Kesa Gatame",
+        "by": "Chad Hardy",
+        "vertical": false,
+        "channel": "Chad The Beast Hardy",
+        "duration": 127,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Frame from Reverse Scarf Hold Defender",
@@ -352,19 +464,59 @@
     "flashcards": [
       {
         "question": "Your opponent establishes a forearm frame against your hip from reverse scarf hold bottom - what is your immediate response?",
-        "answer": "Drop your weight lower and drive your hip pressure directly through the frame before it achieves full skeletal alignment. Re-angle your body slightly to change the direction of force so their frame cannot maintain structural advantage. If the frame is already solidly established with proper elbow-to-body positioning, transition to attacking the framing arm or near-side arm rather than trying to collapse a well-structured frame through pressure alone, which wastes energy."
+        "answer": "Drop your weight lower and drive your hip pressure directly through the frame before it achieves full skeletal alignment. Re-angle your body slightly to change the direction of force so their frame cannot maintain structural advantage. If the frame is already solidly established with proper elbow-to-body positioning, transition to attacking the framing arm or near-side arm rather than trying to collapse a well-structured frame through pressure alone, which wastes energy.",
+        "answer_line": "Drive through before it sets",
+        "distractors": {
+          "plausible": [
+            "Push straight through regardless",
+            "Wait for the frame to fully form"
+          ],
+          "trap": [
+            "Grab their frame arm and pull"
+          ]
+        }
       },
       {
         "question": "Your opponent successfully completes two hip escape increments and begins inserting their knee between your bodies - how do you respond?",
-        "answer": "You have two options depending on how far the knee has penetrated. If the knee has not yet crossed your centerline, immediately drive your hip back into the created space and use your hand to push their knee down and away, re-establishing chest contact. If the knee is already establishing a shield across your torso, immediately transition to north-south or step over to mount before the half guard is fully secured, converting their escape progress into your positional advancement rather than fighting a losing battle to maintain reverse scarf hold."
+        "answer": "You have two options depending on how far the knee has penetrated. If the knee has not yet crossed your centerline, immediately drive your hip back into the created space and use your hand to push their knee down and away, re-establishing chest contact. If the knee is already establishing a shield across your torso, immediately transition to north-south or step over to mount before the half guard is fully secured, converting their escape progress into your positional advancement rather than fighting a losing battle to maintain reverse scarf hold.",
+        "answer_line": "Block knee, or advance position",
+        "distractors": {
+          "plausible": [
+            "Always fight to keep the hold",
+            "Retreat to reset the position"
+          ],
+          "trap": [
+            "Go for a leg lock instead"
+          ]
+        }
       },
       {
         "question": "When should you transition away from reverse scarf hold rather than continuing to fight the frame escape?",
-        "answer": "Transition when the cumulative space from chained hip escapes makes re-closing distance energy-expensive, meaning you would need to expend significant effort to drive through established frames and recover chest-to-chest contact. The decision point is whether you can collapse the frame and close the gap faster than the bottom player can insert their knee. If the answer is uncertain, transition to north-south or mount immediately. Fighting to maintain a deteriorating reverse scarf hold wastes energy that could fuel a successful transition to a fresh dominant position."
+        "answer": "Transition when the cumulative space from chained hip escapes makes re-closing distance energy-expensive, meaning you would need to expend significant effort to drive through established frames and recover chest-to-chest contact. The decision point is whether you can collapse the frame and close the gap faster than the bottom player can insert their knee. If the answer is uncertain, transition to north-south or mount immediately. Fighting to maintain a deteriorating reverse scarf hold wastes energy that could fuel a successful transition to a fresh dominant position.",
+        "answer_line": "Move on if re-closing is costly",
+        "distractors": {
+          "plausible": [
+            "Keep fighting to maintain hold",
+            "Wait for their knee to fully pass"
+          ],
+          "trap": [
+            "Force a submission attempt now"
+          ]
+        }
       },
       {
         "question": "How does attacking the near-side arm preemptively reduce the effectiveness of frame escape attempts from reverse scarf hold bottom?",
-        "answer": "Attacking the near-side arm with americana or kimura forces the bottom player to prioritize arm defense over frame maintenance. They must pull their near arm back to defensive position, potentially use their far-side arm to defend the submission rather than maintaining their frame, and abandon hip escape positioning to address the immediate threat. This completely resets their escape progress and drains energy on defense. However, maintain your base during the submission attempt, as committing both hands to the attack without base adjustment creates a window where a desperate bridge may succeed."
+        "answer": "Attacking the near-side arm with americana or kimura forces the bottom player to prioritize arm defense over frame maintenance. They must pull their near arm back to defensive position, potentially use their far-side arm to defend the submission rather than maintaining their frame, and abandon hip escape positioning to address the immediate threat. This completely resets their escape progress and drains energy on defense. However, maintain your base during the submission attempt, as committing both hands to the attack without base adjustment creates a window where a desperate bridge may succeed.",
+        "answer_line": "Attack near arm, keep your base",
+        "distractors": {
+          "plausible": [
+            "Attack far arm for a kimura",
+            "Commit both hands, ignore base"
+          ],
+          "trap": [
+            "Release base to lock the sub"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -387,6 +539,35 @@
         "phase": "Phase 4: Live Positional Sparring",
         "focus": "Full resistance position maintenance against complete escape systems",
         "description": "Full resistance rounds starting in reverse scarf hold. Partner uses complete escape toolkit including frame escape, bridge escape, and combined chain attempts. Maintain position or advance for the duration of each round while mixing pressure maintenance with submission threats and transitions."
+      }
+    ],
+    "clips": [
+      {
+        "id": "L_u5g2wDpIQ",
+        "title": "Holding reverse scarf and attacking the kimura",
+        "by": "Torres Martial Arts Academy",
+        "vertical": false,
+        "channel": "Torres Martial Arts Academy",
+        "duration": 74,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "Z24JmX5e51A",
+        "title": "How to Mount Reverse Kesa Gatame",
+        "by": "David Webster",
+        "vertical": false,
+        "channel": "David Webster judo",
+        "duration": 134,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "eXRL6EWEiws",
+        "title": "Kesa Gatame Controls and Submissions Guide",
+        "by": "Knight Jiu-Jitsu",
+        "vertical": false,
+        "channel": "Knight Jiu-Jitsu",
+        "duration": 867,
+        "verified": "2026-07-15"
       }
     ]
   }

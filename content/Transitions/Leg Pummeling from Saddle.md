@@ -34,6 +34,43 @@ description: "Master leg pummeling from saddle position in BJJ. Step-by-step esc
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Leg Pummeling from Saddle \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Rolling under to backside 50/50 from saddle",
+      "description": "Leg Pummeling from Saddle film study: Rolling under to backside 50/50 from saddle, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/DBbSqQf6iCo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/DBbSqQf6iCo",
+      "url": "https://www.youtube.com/watch?v=DBbSqQf6iCo",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT110S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Pummeling from 50/50 to outside sankaku",
+      "description": "Leg Pummeling from Saddle film study: Pummeling from 50/50 to outside sankaku, taught by Jamie.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/zl-OLGxkKo0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/zl-OLGxkKo0",
+      "url": "https://www.youtube.com/watch?v=zl-OLGxkKo0",
+      "creator": { "@type": "Person", "name": "Jamie" },
+      "duration": "PT57S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +106,34 @@ Success with this technique requires patience, precise timing, and an unwavering
 **Success Rate**: 55%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Leg Pummeling from Saddle in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=DBbSqQf6iCo)
+
+<p class="clip-credit"><strong>Rolling under to backside 50/50 from saddle</strong> — taught by Lachlan Giles · 1:50 · <a href="https://www.youtube.com/watch?v=DBbSqQf6iCo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=zl-OLGxkKo0)
+
+<p class="clip-credit"><strong>Pummeling from 50/50 to outside sankaku</strong> — taught by Jamie · 0:57 · <a href="https://www.youtube.com/watch?v=zl-OLGxkKo0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

@@ -134,6 +134,43 @@ description: "Learn to defend against the Counter Leg Hook from top position. Ma
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Counter Leg Hook (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Leg lock escape by rolling through",
+      "description": "Counter Leg Hook (Defender) film study: Leg lock escape by rolling through, taught by Gordon Ryan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/MqtG9kuVt-Q/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/MqtG9kuVt-Q",
+      "url": "https://www.youtube.com/watch?v=MqtG9kuVt-Q",
+      "creator": { "@type": "Person", "name": "Gordon Ryan" },
+      "duration": "PT103S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Escaping the trapped leg from half guard",
+      "description": "Counter Leg Hook (Defender) film study: Escaping the trapped leg from half guard, taught by The Academy of Jiu-Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/lbGAiIpel5A/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/lbGAiIpel5A",
+      "url": "https://www.youtube.com/watch?v=lbGAiIpel5A",
+      "creator": { "@type": "Person", "name": "The Academy of Jiu-Jitsu" },
+      "duration": "PT81S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -143,6 +180,34 @@ As the defender against the Counter Leg Hook, you are the top player working to 
 **Opponent's Starting Position**: [[Positions/Leg Hook]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Counter Leg Hook (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=MqtG9kuVt-Q)
+
+<p class="clip-credit"><strong>Leg lock escape by rolling through</strong> — taught by Gordon Ryan · 1:43 · <a href="https://www.youtube.com/watch?v=MqtG9kuVt-Q" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=lbGAiIpel5A)
+
+<p class="clip-credit"><strong>Escaping the trapped leg from half guard</strong> — taught by The Academy of Jiu-Jitsu · 1:21 · <a href="https://www.youtube.com/watch?v=lbGAiIpel5A" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

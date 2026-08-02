@@ -34,6 +34,54 @@ description: "Master the Gogoplata submission from Rubber Guard in BJJ. Shin-acr
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Gogoplata \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "How to do the gogoplata from knee shield half guard",
+      "description": "Gogoplata film study: How to do the gogoplata from knee shield half guard, taught by Jamie.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/VbLlhI0aZC8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/VbLlhI0aZC8",
+      "url": "https://www.youtube.com/watch?v=VbLlhI0aZC8",
+      "creator": { "@type": "Person", "name": "Jamie" },
+      "duration": "PT68S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Gogoplata from guard",
+      "description": "Gogoplata film study: Gogoplata from guard, taught by Unknown coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/4Opp0j7UmlU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/4Opp0j7UmlU",
+      "url": "https://www.youtube.com/watch?v=4Opp0j7UmlU",
+      "creator": { "@type": "Person", "name": "Unknown coach" },
+      "duration": "PT21S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Gogoplata no-gi",
+      "description": "Gogoplata film study: Gogoplata no-gi, taught by Thiago Angelon.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/XWSofigu-zk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/XWSofigu-zk",
+      "url": "https://www.youtube.com/watch?v=XWSofigu-zk",
+      "creator": { "@type": "Person", "name": "Thiago Angelon" },
+      "duration": "PT16S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -68,9 +116,45 @@ From Mission Control, the Gogoplata setup requires bringing your attacking foot 
 Competition footage shows the Gogoplata succeeding primarily when opponents are unfamiliar with the position's danger or when they're already compromised in their posture from preceding Rubber Guard attacks. The submission's unconventional appearance often causes defenders to misjudge the threat level, creating windows for finish that more traditional attacks might not generate. However, the flexibility requirements mean this technique suits certain body types better than others, and practitioners should honestly assess their physical attributes before investing heavily in Gogoplata development.
 
 **From Position**: [[Positions/Rubber Guard/Mission Control]] (Bottom)
-**Success Rate**: 50%
+**Success Rate**: 26%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Gogoplata in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=VbLlhI0aZC8)
+
+<p class="clip-credit"><strong>How to do the gogoplata from knee shield half guard</strong> — taught by Jamie · 1:08 · <a href="https://www.youtube.com/watch?v=VbLlhI0aZC8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=4Opp0j7UmlU)
+
+<p class="clip-credit"><strong>Gogoplata from guard</strong> — taught by Unknown coach · 0:21 · <a href="https://www.youtube.com/watch?v=4Opp0j7UmlU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=XWSofigu-zk)
+
+<p class="clip-credit"><strong>Gogoplata no-gi</strong> — taught by Thiago Angelon · 0:16 · <a href="https://www.youtube.com/watch?v=XWSofigu-zk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 
@@ -243,7 +327,7 @@ The Gogoplata exists as a cornerstone attack within the Rubber Guard system, spe
 
 - [[Positions/Rubber Guard]] - Parent guard system
 
-- [[Positions/Crackhead Control]] - Alternative rubber guard control point
+- [[Positions/Rubber Guard/Crackhead Control]] - Alternative rubber guard control point
 
 - [[Positions/Triangle Control]] - Alternative attack from similar position
 

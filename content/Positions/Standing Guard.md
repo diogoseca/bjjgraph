@@ -34,6 +34,43 @@ description: "Master Standing Guard in BJJ. Strategic guide covering defensive s
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Standing Guard \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Standing Guard Passing for Competition",
+      "description": "Standing Guard film study: Standing Guard Passing for Competition, taught by BJJTube.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/OZ54F0L1ikY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/OZ54F0L1ikY",
+      "url": "https://www.youtube.com/watch?v=OZ54F0L1ikY",
+      "creator": { "@type": "Person", "name": "BJJTube" },
+      "duration": "PT105S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Why We Standing Guard Pass",
+      "description": "Standing Guard film study: Why We Standing Guard Pass, taught by Chattanooga Jiu-Jitsu Academy.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/CrB2ifj730g/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/CrB2ifj730g",
+      "url": "https://www.youtube.com/watch?v=CrB2ifj730g",
+      "creator": { "@type": "Person", "name": "Chattanooga Jiu-Jitsu Academy" },
+      "duration": "PT177S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -66,6 +103,34 @@ From Standing Guard, practitioners must balance multiple competing objectives: m
 Modern BJJ competition has elevated the importance of Standing Guard mastery, as most matches begin from this position and strategic guard pulling has become the primary method of initiating ground engagement. Success requires understanding not just the mechanics of standing and gripping, but the tactical frameworks for when to pull guard versus when to attempt takedowns, how to create favorable grip configurations before transitioning, and how to prevent opponents from dictating the terms of engagement. The position demands both technical precision in grip fighting and strategic thinking about match flow and positional advantage.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Standing Guard in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=OZ54F0L1ikY)
+
+<p class="clip-credit"><strong>Standing Guard Passing for Competition</strong> — taught by BJJTube · 1:45 · <a href="https://www.youtube.com/watch?v=OZ54F0L1ikY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=CrB2ifj730g)
+
+<p class="clip-credit"><strong>Why We Standing Guard Pass</strong> — taught by Chattanooga Jiu-Jitsu Academy · 2:57 · <a href="https://www.youtube.com/watch?v=CrB2ifj730g" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 
@@ -137,29 +202,23 @@ Modern BJJ competition has elevated the importance of Standing Guard mastery, as
 ### Available Transitions
 
 
-- **[[Transitions/Pull guard/Attacker|Pull guard]]** (37% of attempts)
+- **[[Transitions/Pull Guard from Ground/Attacker|Pull Guard from Ground]]** (12% of attempts)
 
-- **[[Transitions/Sitting Guard Pull/Attacker|Sitting Guard Pull]]** (10% of attempts)
+- **[[Transitions/Sitting Guard Pull/Attacker|Sitting Guard Pull]]** (12% of attempts)
 
-- **[[Transitions/Shin to Shin Pull/Attacker|Shin to Shin Pull]]** (8% of attempts)
+- **[[Transitions/Ankle Pick/Attacker|Ankle Pick]]** (12% of attempts)
 
-- **[[Transitions/Standing to Single Leg X/Attacker|Standing to Single Leg X]]** (7% of attempts)
-
-- **[[Transitions/Ankle Pick/Attacker|Ankle Pick]]** (7% of attempts)
-
-- **[[Transitions/Arm Drag to Back/Attacker|Arm Drag to Back]]** (6% of attempts)
+- **[[Transitions/Arm Drag to Back/Attacker|Arm Drag to Back]]** (12% of attempts)
 
 - **[[Transitions/Rolling Guard Pull/Attacker|Rolling Guard Pull]]** (5% of attempts)
 
-- **[[Transitions/Double Leg Entry/Attacker|Double Leg Entry]]** (6% of attempts)
+- **[[Transitions/Double Leg Entry/Attacker|Double Leg Entry]]** (12% of attempts)
 
-- **[[Transitions/Single Leg Entry/Attacker|Single Leg Entry]]** (6% of attempts)
+- **[[Transitions/Single Leg Entry/Attacker|Single Leg Entry]]** (13% of attempts)
 
-- **[[Transitions/Snap Down to Front Headlock/Attacker|Snap Down to Front Headlock]]** (5% of attempts)
+- **[[Transitions/Snap Down to Front Headlock/Attacker|Snap Down to Front Headlock]]** (11% of attempts)
 
-- **[[Transitions/Pull Guard from Ground/Attacker|Pull Guard from Ground]]** (2% of attempts)
-
-- **[[Transitions/Sweep from Standing Guard/Attacker|Sweep from Standing Guard]]** (1% of attempts)
+- **[[Transitions/Sweep from Standing Guard/Attacker|Sweep from Standing Guard]]** (11% of attempts)
 
 
 ### Common Mistakes
@@ -224,25 +283,25 @@ Modern BJJ competition has elevated the importance of Standing Guard mastery, as
 ### Available Transitions
 
 
-- **[[Transitions/Toreando Pass/Attacker|Toreando Pass]]** (22% of attempts)
+- **[[Transitions/Toreando Pass/Attacker|Toreando Pass]]** (17% of attempts)
 
-- **[[Transitions/Leg Drag Pass/Attacker|Leg Drag Pass]]** (11% of attempts)
+- **[[Transitions/Leg Drag Pass/Attacker|Leg Drag Pass]]** (15% of attempts)
 
-- **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** (11% of attempts)
+- **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** (14% of attempts)
 
-- **[[Transitions/Double Under Pass/Attacker|Double Under Pass]]** (10% of attempts)
+- **[[Transitions/Double Under Pass/Attacker|Double Under Pass]]** (9% of attempts)
 
-- **[[Transitions/X Pass/Attacker|X Pass]]** (11% of attempts)
+- **[[Transitions/X Pass/Attacker|X Pass]]** (9% of attempts)
 
-- **[[Transitions/Long Step Pass/Attacker|Long Step Pass]]** (12% of attempts)
+- **[[Transitions/Long Step Pass/Attacker|Long Step Pass]]** (7% of attempts)
 
 - **[[Transitions/Stack Pass/Attacker|Stack Pass]]** (9% of attempts)
 
-- **[[Transitions/Back Step/Attacker|Back Step]]** (8% of attempts)
+- **[[Transitions/Back Step/Attacker|Back Step]]** (6% of attempts)
 
-- **[[Transitions/Guard Pass from Standing Guard/Attacker|Guard Pass from Standing Guard]]** (4% of attempts)
+- **[[Transitions/Guard Pass from Standing Guard/Attacker|Guard Pass from Standing Guard]]** (8% of attempts)
 
-- **[[Transitions/Takedown from Standing Guard/Attacker|Takedown from Standing Guard]]** (2% of attempts)
+- **[[Transitions/Takedown from Standing Guard/Attacker|Takedown from Standing Guard]]** (6% of attempts)
 
 
 ### Common Mistakes

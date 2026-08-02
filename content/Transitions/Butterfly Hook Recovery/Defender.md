@@ -142,6 +142,43 @@ description: "How to defend against Butterfly Hook Recovery in BJJ. Recognition 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Butterfly Hook Recovery (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Shutting down guard recovery while passing",
+      "description": "Butterfly Hook Recovery (Defender) film study: Shutting down guard recovery while passing, taught by Jason Rau.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/YU4eCp4FXrA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/YU4eCp4FXrA",
+      "url": "https://www.youtube.com/watch?v=YU4eCp4FXrA",
+      "creator": { "@type": "Person", "name": "Jason Rau" },
+      "duration": "PT234S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Passing half butterfly guard",
+      "description": "Butterfly Hook Recovery (Defender) film study: Passing half butterfly guard, taught by John Danaher.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/9miuP4-v0EE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/9miuP4-v0EE",
+      "url": "https://www.youtube.com/watch?v=9miuP4-v0EE",
+      "creator": { "@type": "Person", "name": "John Danaher" },
+      "duration": "PT192S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -153,6 +190,34 @@ Successful defense against hook recovery demands constant awareness of your own 
 **Opponent's Starting Position**: [[Positions/Double Unders]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Butterfly Hook Recovery (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=YU4eCp4FXrA)
+
+<p class="clip-credit"><strong>Shutting down guard recovery while passing</strong> — taught by Jason Rau · 3:54 · <a href="https://www.youtube.com/watch?v=YU4eCp4FXrA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=9miuP4-v0EE)
+
+<p class="clip-credit"><strong>Passing half butterfly guard</strong> — taught by John Danaher · 3:12 · <a href="https://www.youtube.com/watch?v=9miuP4-v0EE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

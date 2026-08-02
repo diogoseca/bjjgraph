@@ -140,6 +140,43 @@ description: "Learn to counter the Frame Escape from High Mount in BJJ. Strategi
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Frame Escape from High Mount (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Maintaining mount by swimming through the arms",
+      "description": "Frame Escape from High Mount (Defender) film study: Maintaining mount by swimming through the arms, taught by Gracie Charlottesville.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/_jeIL_n2UcY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/_jeIL_n2UcY",
+      "url": "https://www.youtube.com/watch?v=_jeIL_n2UcY",
+      "creator": { "@type": "Person", "name": "Gracie Charlottesville" },
+      "duration": "PT41S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Holding the middle mount",
+      "description": "Frame Escape from High Mount (Defender) film study: Holding the middle mount, taught by SBG PDX.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/RTMJDbZnFO0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/RTMJDbZnFO0",
+      "url": "https://www.youtube.com/watch?v=RTMJDbZnFO0",
+      "creator": { "@type": "Person", "name": "SBG PDX" },
+      "duration": "PT154S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -149,6 +186,34 @@ As the top player in high mount, defending against frame escapes requires unders
 **Opponent's Starting Position**: [[Positions/Mount/High Mount]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Frame Escape from High Mount (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=_jeIL_n2UcY)
+
+<p class="clip-credit"><strong>Maintaining mount by swimming through the arms</strong> — taught by Gracie Charlottesville · 0:41 · <a href="https://www.youtube.com/watch?v=_jeIL_n2UcY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=RTMJDbZnFO0)
+
+<p class="clip-credit"><strong>Holding the middle mount</strong> — taught by SBG PDX · 2:34 · <a href="https://www.youtube.com/watch?v=RTMJDbZnFO0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

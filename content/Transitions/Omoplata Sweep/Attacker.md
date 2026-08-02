@@ -174,6 +174,54 @@ description: "How to execute the Omoplata Sweep in BJJ. Attacking perspective wi
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Omoplata Sweep (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Omoplata sweep from guard",
+      "description": "Omoplata Sweep (Attacker) film study: Omoplata sweep from guard, taught by Thunderdome BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Ar2oa-jV9-Y/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Ar2oa-jV9-Y",
+      "url": "https://www.youtube.com/watch?v=Ar2oa-jV9-Y",
+      "creator": { "@type": "Person", "name": "Thunderdome BJJ" },
+      "duration": "PT50S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Clark Gracie omoplata breakdown",
+      "description": "Omoplata Sweep (Attacker) film study: Clark Gracie omoplata breakdown, taught by Clark Gracie.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/oQAP8nARiHU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/oQAP8nARiHU",
+      "url": "https://www.youtube.com/watch?v=oQAP8nARiHU",
+      "creator": { "@type": "Person", "name": "Clark Gracie" },
+      "duration": "PT100S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Omoplata and log roll sweep",
+      "description": "Omoplata Sweep (Attacker) film study: Omoplata and log roll sweep, taught by PAC Jiu-Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/GDXF6brOcjw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/GDXF6brOcjw",
+      "url": "https://www.youtube.com/watch?v=GDXF6brOcjw",
+      "creator": { "@type": "Person", "name": "PAC Jiu-Jitsu" },
+      "duration": "PT108S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -183,6 +231,42 @@ The Omoplata Sweep attacks from closed guard by threatening the omoplata shoulde
 **From Position**: [[Positions/Closed Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Omoplata Sweep (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Ar2oa-jV9-Y)
+
+<p class="clip-credit"><strong>Omoplata sweep from guard</strong> — taught by Thunderdome BJJ · 0:50 · <a href="https://www.youtube.com/watch?v=Ar2oa-jV9-Y" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=oQAP8nARiHU)
+
+<p class="clip-credit"><strong>Clark Gracie omoplata breakdown</strong> — taught by Clark Gracie · 1:40 · <a href="https://www.youtube.com/watch?v=oQAP8nARiHU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=GDXF6brOcjw)
+
+<p class="clip-credit"><strong>Omoplata and log roll sweep</strong> — taught by PAC Jiu-Jitsu · 1:48 · <a href="https://www.youtube.com/watch?v=GDXF6brOcjw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

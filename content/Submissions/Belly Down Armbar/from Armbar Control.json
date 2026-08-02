@@ -17,7 +17,10 @@
   "target_area": "Elbow joint hyperextension and ulnar collateral ligament",
   "starting_position": "Armbar Control",
   "from_position": "Armbar Control/Top",
-  "success_rate": 50,
+  "success_rate": {
+    "gi": 50,
+    "nogi": 50
+  },
   "summary": "The belly down armbar from armbar control is a prone armbar finish where the attacker rotates face-down over the isolated arm, driving bodyweight and gravity through the elbow to defeat the clasped-hand and stacking defenses that stop the standard supine finish.",
   "overview": "The belly down armbar finish from armbar control is a high-percentage submission completion technique where the attacker transitions from the standard supine armbar position to a prone finishing position. This rotation fundamentally changes the finishing mechanics by channeling the attacker's entire body weight downward through the controlled arm while gravity assists the extension, creating substantially more pressure than the standard hip-bridge finish.\n\nWhen the defender successfully resists the conventional armbar through clasped hands, stacking, or the hitchhiker escape, the belly-down transition exploits a critical defensive gap. Most armbar defenses are designed for the supine position and become ineffective once the attacker achieves prone orientation. The defender's clasped hands, which provide substantial resistance against upward hip extension, offer minimal protection against the downward crushing pressure of the belly-down position.\n\nFrom armbar control specifically, this finish is particularly accessible because the attacker already has established grip control, hip proximity, and leg positioning. The transition requires only rotational movement rather than a complete positional change. Competition grapplers frequently chain the standard armbar attempt with the belly-down transition, creating a two-phase attack that forces the defender to address fundamentally different finishing vectors in rapid succession.",
   "safety_considerations": {
@@ -100,17 +103,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 50,
+      "probability": {
+        "gi": 50,
+        "nogi": 50
+      },
       "result": "success"
     },
     {
       "to": "Armbar Control/Top",
-      "probability": 32,
+      "probability": {
+        "gi": 32,
+        "nogi": 32
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 18,
+      "probability": {
+        "gi": 18,
+        "nogi": 18
+      },
       "result": "counter"
     }
   ],
@@ -277,52 +289,181 @@
       {
         "question": "What anatomical structure does the belly down armbar finish primarily attack?",
         "answer": "The belly down armbar primarily attacks the elbow joint by forcing hyperextension against the ulnar collateral ligament and joint capsule. The prone position creates a lever where the hip crease acts as the fulcrum against the posterior elbow, and the downward body weight combined with wrist curl generates extension force that stresses the ligaments preventing the elbow from bending backward.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Elbow joint hyperextension",
+        "distractors": {
+          "plausible": [
+            "Shoulder joint rotation",
+            "Wrist joint flexion"
+          ],
+          "trap": [
+            "Neck crank for the tap"
+          ]
+        }
       },
       {
         "question": "Your opponent clasps their hands together as you begin rotating to belly-down - what adjustment prevents the defense from succeeding?",
         "answer": "Complete the rotation to prone position even with their hands clasped, because the belly-down body weight creates far more grip-breaking force than the supine position. Once prone, wedge your forearm between their clasped hands and lever them apart, or attack the top hand by peeling individual fingers. The gravity-assisted pressure of the prone position makes hand clasping a temporary delay rather than a permanent defense.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Finish rotation, pry hands apart",
+        "distractors": {
+          "plausible": [
+            "Pause rotation to break grip",
+            "Sit back and wait for fatigue"
+          ],
+          "trap": [
+            "Lift leg off their face"
+          ]
+        }
       },
       {
         "question": "What grip configuration must you maintain throughout the rotational transition?",
         "answer": "Maintain a strong two-on-one wrist grip where both hands wrap around the opponent's wrist with thumbs overlapping on the inside. Forearms should squeeze together creating a vise around the wrist. This grip must never release during the rotation, as any momentary slack allows arm retraction. The monkey grip variation with interlocking fingers around the wrist provides the most secure hold during dynamic movement.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Two-on-one wrist grip, thumbs in",
+        "distractors": {
+          "plausible": [
+            "Single wrist grip, free hand",
+            "Grip forearm above wrist"
+          ],
+          "trap": [
+            "Loose grip, adjust as needed"
+          ]
+        }
       },
       {
         "question": "At what point during the belly down armbar sequence does the defender pass the point of no escape?",
         "answer": "The point of no escape occurs when the attacker completes the prone rotation with knees pinched and hips tight to the shoulder. Once the attacker's body weight is driving downward through the arm with knees clamped, the defender cannot generate sufficient force to retract the arm or rotate out. The transition window is the last reliable escape opportunity, which is why defenders must act before the rotation completes.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Knees pinched, hips to shoulder",
+        "distractors": {
+          "plausible": [
+            "Once rotation begins",
+            "When wrist grip is secured"
+          ],
+          "trap": [
+            "Wait until prone, then escape"
+          ]
+        }
       },
       {
         "question": "What is the most common finishing error that reduces belly down armbar effectiveness?",
         "answer": "The most common error is landing with hips too far from the opponent's shoulder after the rotation. This displaces the fulcrum point from the elbow joint and forces the attacker to rely on arm strength rather than body weight for the finish. The correction is to actively scoot hips toward the shoulder during and after the rotation, ensuring the elbow sits directly in the hip crease with zero gap.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Hips too far from their shoulder",
+        "distractors": {
+          "plausible": [
+            "Cranking the arm too early",
+            "Not pinching the knees together"
+          ],
+          "trap": [
+            "Rolling belly-up to crank harder"
+          ]
+        }
       },
       {
         "question": "Your opponent starts bridging explosively during your belly-down rotation - how do you adjust?",
         "answer": "Absorb the bridge momentum by following the opponent's hip movement rather than fighting against it. Tighten your wrist grip and use their upward energy to assist your rotation. As they bridge, their arm extends slightly which actually helps your finishing position. Once they return to the mat, immediately pinch knees and establish the prone control. Their bridge energy is wasted against the rotational transition.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Follow the bridge, keep grip tight",
+        "distractors": {
+          "plausible": [
+            "Stop rotating until bridge ends",
+            "Drive down to stop the bridge"
+          ],
+          "trap": [
+            "Release grip to reset position"
+          ]
+        }
       },
       {
         "question": "Why must extension pressure be applied slowly in the belly-down position compared to the standard armbar?",
         "answer": "The belly-down position creates dramatically greater mechanical advantage than the standard supine armbar because the attacker's entire body weight drives through the arm via gravity rather than just hip bridge force. This amplified leverage means the elbow reaches its structural limit much faster with less perceived effort from the attacker. Applying pressure quickly risks serious ligament damage or fracture before the defender can signal a tap.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Body weight multiplies the leverage",
+        "distractors": {
+          "plausible": [
+            "Gravity matters less when prone",
+            "The elbow bends further face-down"
+          ],
+          "trap": [
+            "Crank fast before they defend"
+          ]
+        }
       },
       {
         "question": "What is the proper release protocol after your opponent taps to the belly down armbar?",
         "answer": "Release extension pressure immediately by lowering the wrist away from your chest, then release the knee squeeze around the arm, then disengage completely from the prone position. Do not wait for a second tap or verbal confirmation. Check your partner's elbow mobility and ask about any discomfort before continuing training. If there is any doubt about whether a tap occurred, release immediately since the position can be safely re-established.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Free the wrist, then the knees",
+        "distractors": {
+          "plausible": [
+            "Let the knees go before the wrist",
+            "Keep light control after the tap"
+          ],
+          "trap": [
+            "Hold the lock for a second tap"
+          ]
+        }
       },
       {
         "question": "In competition, how do you set up the belly-down transition to maximize finishing probability?",
         "answer": "In competition, use the standard armbar finish as a genuine first attack rather than a feint. Apply real finishing pressure from supine to force the opponent into committed defensive reactions like hand clasping or stacking. When you feel their defense lock in, immediately transition to belly-down while their defensive structure is oriented against the wrong finishing vector. The two-phase attack is most effective when both threats are real.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Real attempt, then transition",
+        "distractors": {
+          "plausible": [
+            "Feint first, fake the finish",
+            "Go straight to belly-down"
+          ],
+          "trap": [
+            "Loosen knees while rotating"
+          ]
+        }
       },
       {
         "question": "What indicators tell you the elbow is approaching its structural breaking point during the belly-down finish?",
         "answer": "Key indicators include the arm reaching full extension against resistance, visible straightening of the elbow joint, the defender's body tensing or arching involuntarily, any vocalization or facial expression of distress, and feeling the arm become rigid against your hip pressure. When you feel the arm lock out against your extension pressure with no remaining flexion, the joint is at its structural limit. Ease pressure slightly and wait for the tap rather than continuing to apply force past this point.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Arm locks out, no give left",
+        "distractors": {
+          "plausible": [
+            "Opponent stops moving entirely",
+            "Grip on wrist starts slipping"
+          ],
+          "trap": [
+            "Continue until you hear a pop"
+          ]
+        }
+      }
+    ],
+    "clips": [
+      {
+        "id": "yDxtO6qzOL0",
+        "title": "Belly Down Arm Bar Finish",
+        "by": "Brandoo",
+        "vertical": false,
+        "channel": "Brandoo",
+        "duration": 58,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "9wGAI_8zvBQ",
+        "title": "Belly Down Arm Bar to counter the stack",
+        "by": "The Art of Fighting",
+        "vertical": false,
+        "channel": "The Art of Fighting",
+        "duration": 62,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "EdYFELAO6B0",
+        "title": "Belly Down Armbar from Guard",
+        "by": "Robert Hugus",
+        "vertical": false,
+        "channel": "Robert Hugus BJJ Videos",
+        "duration": 41,
+        "verified": "2026-07-14"
       }
     ]
   },
@@ -408,27 +549,77 @@
       {
         "question": "What are the earliest recognition cues that indicate the attacker is transitioning to a belly-down armbar finish?",
         "answer": "The earliest cues are the attacker posting their far foot on the mat, consolidating both hands specifically onto your wrist in a tight monkey grip, and their near leg beginning to swing over your face in an arc. You may also feel a rotational pulling force on your trapped arm combined with their body weight shifting from beside you to over your arm. Recognizing these cues immediately is critical because the defensive window closes within 1-2 seconds.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Foot posts, leg swings over",
+        "distractors": {
+          "plausible": [
+            "They flatten their back to mat",
+            "Their grip switches to collar"
+          ],
+          "trap": [
+            "Wait for the knee pinch"
+          ]
+        }
       },
       {
         "question": "When should you tap to the belly down armbar finish rather than continuing to defend?",
         "answer": "Tap immediately when the attacker has established the prone position with knees pinched and hips tight, and your arm begins to straighten against your resistance. The belly-down position amplifies force dramatically beyond the standard armbar, meaning the elbow reaches its structural limit much faster than you expect. If you feel your arm extending despite maximum defensive effort, tap before you feel a pop or sharp pain. There is no technical defense once the arm begins to straighten under prone body weight.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "When your arm starts to straighten",
+        "distractors": {
+          "plausible": [
+            "Once the arm is fully extended",
+            "After all escapes have failed"
+          ],
+          "trap": [
+            "When you feel the elbow pop"
+          ]
+        }
       },
       {
         "question": "What defensive options are available during the attacker's rotational transition?",
         "answer": "During the transition, you can turn into the attacker and sit up to prevent the rotation from completing, explosively retract your arm during the mid-rotation grip vulnerability when dynamic movement stresses their grip, or hip escape away to recover closed guard while the attacker is committed to the rotational movement. All three options must be executed during the 1-2 second transition window before prone position is established.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Sit up, retract arm, or hip escape",
+        "distractors": {
+          "plausible": [
+            "Bridge hard to buck them off",
+            "Stiff-arm and hold the frame"
+          ],
+          "trap": [
+            "Straighten arm to ease pressure"
+          ]
+        }
       },
       {
         "question": "Why does the hitchhiker escape fail against the belly-down armbar position?",
         "answer": "The hitchhiker escape works against the standard supine armbar by rotating the arm under the attacker's hips and sliding the elbow across to escape. In the belly-down position, the attacker's entire body weight pins the arm against the mat, eliminating the space required for the rotational escape. The downward pressure vector makes it mechanically impossible to slide the elbow underneath, rendering the hitchhiker completely ineffective against the prone finish.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Body weight pins arm, no space",
+        "distractors": {
+          "plausible": [
+            "It only works with a gi grip",
+            "Needs both hands free to spin"
+          ],
+          "trap": [
+            "Spin the arm anyway and hold"
+          ]
+        }
       },
       {
         "question": "How should you bridge when defending against the established belly-down armbar?",
         "answer": "Bridge laterally toward the trapped arm side rather than directly upward. Bridging up feeds energy into the attacker's downward pressure system and can accelerate arm extension by lifting the elbow into their hip fulcrum. Bridging laterally creates rotation that may shift the attacker off your arm and disrupt their knee pinch. However, if the prone position is fully established with tight control, bridging alone is unlikely to create escape and you should prioritize tapping safely over continued resistance.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Bridge sideways toward the arm",
+        "distractors": {
+          "plausible": [
+            "Shrimp your hips away from them",
+            "Kick your legs for momentum"
+          ],
+          "trap": [
+            "Bridge straight up into their hips"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -451,6 +642,35 @@
         "phase": "Phase 4: Live Defensive Sparring",
         "focus": "Applying all defensive skills against full-speed attacks",
         "description": "Start in armbar control with partner using full offensive effort including standard finish attempts and belly-down transitions. Defender uses recognition, transition defense, and tap awareness in combination. Focus on choosing the right defensive response based on the attacker's timing and commitment level."
+      }
+    ],
+    "clips": [
+      {
+        "id": "kNdKfUdgO4I",
+        "title": "My favorite armbar escape",
+        "by": "Matt Arroyo",
+        "vertical": false,
+        "channel": "Matt Arroyo Jiu Jitsu ",
+        "duration": 92,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "AfDEN3uK3W0",
+        "title": "Low effort armbar escape via foot capture",
+        "by": "Patrick Donabedian",
+        "vertical": false,
+        "channel": "Patrick Donabedian BJJ",
+        "duration": 55,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "eO6dA9Cq6aY",
+        "title": "Boogie Man Arm Bar Defense & Escape",
+        "by": "grpplng",
+        "vertical": false,
+        "channel": "grpplng",
+        "duration": 70,
+        "verified": "2026-07-14"
       }
     ]
   }

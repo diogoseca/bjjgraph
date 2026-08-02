@@ -13,21 +13,33 @@
   "outcomes": [
     {
       "to": "Mount/Top",
-      "probability": 65,
+      "probability": {
+        "gi": 65,
+        "nogi": 65
+      },
       "result": "success"
     },
     {
       "to": "Lapel Guard/Bottom",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "summary": "The Lapel Elevator Sweep is a gi-specific reversal from lapel guard bottom that uses the opponent's own trapped lapel as a lever combined with a butterfly hook to off-balance them directly into mount.",
   "overview": "Within the modern lapel guard attack system, the elevator sweep is the most direct bottom-to-top reversal, capitalizing on the unique control properties of lapel guards where the extracted lapel wrapped around the opponent's leg or torso creates persistent connection points that amplify your hip movement into dramatic off-balancing force. Because the fabric anchor does not require the constant grip maintenance of a traditional sleeve or collar tie, the bottom player can load the sweep patiently and wait for the exact reaction that makes it unstoppable.\n\nThe sweep works by combining a butterfly hook elevation with the pulling tension of the lapel grip to create a compound lever system. As you elevate with your hook, the lapel prevents the opponent from posting their hand or stepping out, channeling all their momentum into the sweep direction. The result is a sweep that feels almost effortless when timed correctly, as you're leveraging mechanical advantage rather than fighting strength against strength.\n\nStrategically, the Lapel Elevator Sweep fits into the broader lapel guard attack system as a primary sweeping threat that creates dilemmas. Opponents who defend the sweep by keeping heavy base expose themselves to back takes and omoplata entries. Those who try to clear the lapel configuration first open windows for the sweep execution. This technique rewards patience and positional awareness over explosive athleticism.",
   "related_content": [
@@ -202,46 +214,166 @@
     "flashcards": [
       {
         "question": "What is the primary mechanical advantage the lapel grip provides during the Lapel Elevator Sweep?",
-        "answer": "The lapel grip creates a persistent connection that prevents the opponent from posting their hand or stepping their leg out to base against the sweep. Unlike a traditional sleeve grip that only controls one limb, the lapel wrapping around their body eliminates multiple defensive options simultaneously, channeling all their momentum into the sweep direction."
+        "answer": "The lapel grip creates a persistent connection that prevents the opponent from posting their hand or stepping their leg out to base against the sweep. Unlike a traditional sleeve grip that only controls one limb, the lapel wrapping around their body eliminates multiple defensive options simultaneously, channeling all their momentum into the sweep direction.",
+        "answer_line": "Blocks their post and step-out",
+        "distractors": {
+          "plausible": [
+            "Controls the sleeve like normal",
+            "Just adds extra pulling power"
+          ],
+          "trap": [
+            "Trade the lapel for underhook"
+          ]
+        }
       },
       {
         "question": "What position do you start the Lapel Elevator Sweep from and what must already be established?",
-        "answer": "This technique starts from Lapel Guard bottom position, specifically with a lapel configuration already established where you've fed opponent's lapel around their leg or through your guard structure. The lapel must have constant tension maintained through a pistol grip or four-finger hook before you can proceed with the sweep mechanics."
+        "answer": "This technique starts from Lapel Guard bottom position, specifically with a lapel configuration already established where you've fed opponent's lapel around their leg or through your guard structure. The lapel must have constant tension maintained through a pistol grip or four-finger hook before you can proceed with the sweep mechanics.",
+        "answer_line": "Lapel Guard, tension already set",
+        "distractors": {
+          "plausible": [
+            "Closed Guard, grip on sleeve",
+            "Butterfly Guard, hooks in first"
+          ],
+          "trap": [
+            "Any guard, grab lapel loosely"
+          ]
+        }
       },
       {
         "question": "What are the key grips needed for the Lapel Elevator Sweep?",
-        "answer": "You need a primary grip on the lapel fabric (pistol grip or four-finger hook) maintaining constant tension, plus a secondary grip on opponent's sleeve or wrist on the sweep side to prevent them from posting their hand to base out. The secondary grip is equally critical—without it, the sweep fails even with perfect lapel mechanics."
+        "answer": "You need a primary grip on the lapel fabric (pistol grip or four-finger hook) maintaining constant tension, plus a secondary grip on opponent's sleeve or wrist on the sweep side to prevent them from posting their hand to base out. The secondary grip is equally critical—without it, the sweep fails even with perfect lapel mechanics.",
+        "answer_line": "Lapel grip plus sleeve control",
+        "distractors": {
+          "plausible": [
+            "Lapel grip, collar tie free hand",
+            "Grip both of their sleeves"
+          ],
+          "trap": [
+            "Drop sleeve, grab both lapels"
+          ]
+        }
       },
       {
         "question": "Your opponent posts their hand wide to prevent the sweep—what submission opportunity does this create?",
-        "answer": "Their posted arm becomes vulnerable to omoplata. As they post to defend the sweep, rotate your hips under their posting arm and thread your leg over their shoulder. The defensive post becomes the setup for shoulder lock control—this is a classic lapel guard dilemma where defending the sweep opens the submission."
+        "answer": "Their posted arm becomes vulnerable to omoplata. As they post to defend the sweep, rotate your hips under their posting arm and thread your leg over their shoulder. The defensive post becomes the setup for shoulder lock control—this is a classic lapel guard dilemma where defending the sweep opens the submission.",
+        "answer_line": "Omoplata off the posted arm",
+        "distractors": {
+          "plausible": [
+            "Armbar their far arm",
+            "Sweep toward the posted side"
+          ],
+          "trap": [
+            "Force sweep, get stacked passed"
+          ]
+        }
       },
       {
         "question": "When is the optimal timing window to execute the Lapel Elevator Sweep?",
-        "answer": "Execute when opponent drives forward to pressure pass or when they commit weight forward while attempting to clear your lapel configuration. Their forward momentum loads the sweep and makes it nearly impossible for them to change direction in time. The worst timing is when they are static with balanced weight distribution."
+        "answer": "Execute when opponent drives forward to pressure pass or when they commit weight forward while attempting to clear your lapel configuration. Their forward momentum loads the sweep and makes it nearly impossible for them to change direction in time. The worst timing is when they are static with balanced weight distribution.",
+        "answer_line": "When they drive forward to pass",
+        "distractors": {
+          "plausible": [
+            "When they sit back and stall",
+            "Right after they posture up"
+          ],
+          "trap": [
+            "Wait until they're fully static"
+          ]
+        }
       },
       {
         "question": "How do you adjust if opponent postures up and creates distance to reduce your lapel tension?",
-        "answer": "Follow their posture by sitting up aggressively with your hips, maintaining lapel tension throughout. Their attempt to create distance opens them to back take threats if they turn, or collar drag entries if they stay square. Don't let them escape the lapel connection—your hip follow is the critical adjustment."
+        "answer": "Follow their posture by sitting up aggressively with your hips, maintaining lapel tension throughout. Their attempt to create distance opens them to back take threats if they turn, or collar drag entries if they stay square. Don't let them escape the lapel connection—your hip follow is the critical adjustment.",
+        "answer_line": "Sit up, chase with your hips",
+        "distractors": {
+          "plausible": [
+            "Release lapel, reset guard",
+            "Pull them back down by force"
+          ],
+          "trap": [
+            "Let them create distance freely"
+          ]
+        }
       },
       {
         "question": "What is the critical hip mechanic that differentiates a successful elevator sweep from a failed attempt?",
-        "answer": "The hip rotation combined with hook elevation creates a diagonal lifting vector rather than straight up. You're not trying to overhead press your opponent—you're angling them over your body as you turn. The rotation generates the power while the hook provides the lift point. Straight vertical elevation is the most common mechanical failure."
+        "answer": "The hip rotation combined with hook elevation creates a diagonal lifting vector rather than straight up. You're not trying to overhead press your opponent—you're angling them over your body as you turn. The rotation generates the power while the hook provides the lift point. Straight vertical elevation is the most common mechanical failure.",
+        "answer_line": "Rotate hips for diagonal lift",
+        "distractors": {
+          "plausible": [
+            "Lift straight up with the hook",
+            "Drive knees into their hips"
+          ],
+          "trap": [
+            "Overhead press with the hook"
+          ]
+        }
       },
       {
         "question": "How should your butterfly hook be positioned for maximum sweep effectiveness?",
-        "answer": "The butterfly hook should be high on the opponent's inner thigh with your foot actively pressing toward their hip, toes pointed up and in. A hook positioned too low on the calf reduces leverage significantly and allows them to step over your leg to neutralize the sweep. The higher the hook, the greater your mechanical advantage."
+        "answer": "The butterfly hook should be high on the opponent's inner thigh with your foot actively pressing toward their hip, toes pointed up and in. A hook positioned too low on the calf reduces leverage significantly and allows them to step over your leg to neutralize the sweep. The higher the hook, the greater your mechanical advantage.",
+        "answer_line": "High on inner thigh, toes up",
+        "distractors": {
+          "plausible": [
+            "Mid-thigh, foot flexed down",
+            "Behind the knee for leverage"
+          ],
+          "trap": [
+            "Low on the calf for reach"
+          ]
+        }
       },
       {
         "question": "Your opponent strips your lapel grip mid-sweep attempt—what is your immediate contingency?",
-        "answer": "Transition immediately to spider guard or lasso guard using the momentum of their grip stripping motion. As they pull the lapel back, their arms extend and become available for bicep controls or lasso wraps. Do not chase the lapel re-grip from a compromised angle—establish a new guard system and work back to lapel extraction from a stable position."
+        "answer": "Transition immediately to spider guard or lasso guard using the momentum of their grip stripping motion. As they pull the lapel back, their arms extend and become available for bicep controls or lasso wraps. Do not chase the lapel re-grip from a compromised angle—establish a new guard system and work back to lapel extraction from a stable position.",
+        "answer_line": "Flow to spider or lasso guard",
+        "distractors": {
+          "plausible": [
+            "Stand up to break contact",
+            "Roll to turtle and reset"
+          ],
+          "trap": [
+            "Chase the same re-grip blindly"
+          ]
+        }
       },
       {
         "question": "What force direction should the lapel pull generate relative to your hook elevation?",
-        "answer": "The lapel pull should generate force pulling opponent's upper body toward you and slightly downward, loading their weight onto your butterfly hook. The hook then redirects this loaded weight diagonally upward and to the side as you rotate your hips. These two forces create a compound lever—the pull loads the fulcrum, and the hook tips them over it. Pulling and elevating must be coordinated, not sequential."
+        "answer": "The lapel pull should generate force pulling opponent's upper body toward you and slightly downward, loading their weight onto your butterfly hook. The hook then redirects this loaded weight diagonally upward and to the side as you rotate your hips. These two forces create a compound lever—the pull loads the fulcrum, and the hook tips them over it. Pulling and elevating must be coordinated, not sequential.",
+        "answer_line": "Pull loads, hook lifts diagonal",
+        "distractors": {
+          "plausible": [
+            "Pull up, hook drives straight",
+            "Pull first, then lift after"
+          ],
+          "trap": [
+            "Push them away, then elevate"
+          ]
+        }
       }
     ],
-    "safety_considerations": "The Lapel Elevator Sweep is generally low-risk when practiced with proper control. Primary safety concerns involve protecting training partners during the sweep execution—maintain control throughout so they don't land awkwardly or with excessive force. When following to mount, be mindful of not posting hands on partner's face or driving knees into ribs. The lapel grip itself can cause friction burns on partner's neck if fabric is yanked aggressively, so use controlled pulling tension rather than jerky movements. Avoid this technique if you have wrist or grip injuries, as the lapel grip requires sustained tension. Partners with shoulder issues should tap early if they feel uncomfortable in the swept position."
+    "safety_considerations": "The Lapel Elevator Sweep is generally low-risk when practiced with proper control. Primary safety concerns involve protecting training partners during the sweep execution—maintain control throughout so they don't land awkwardly or with excessive force. When following to mount, be mindful of not posting hands on partner's face or driving knees into ribs. The lapel grip itself can cause friction burns on partner's neck if fabric is yanked aggressively, so use controlled pulling tension rather than jerky movements. Avoid this technique if you have wrist or grip injuries, as the lapel grip requires sustained tension. Partners with shoulder issues should tap early if they feel uncomfortable in the swept position.",
+    "clips": [
+      {
+        "id": "GqeeDnherWw",
+        "title": "Lapeloplata guard to lapel sweep",
+        "by": "Street Jitsu",
+        "vertical": false,
+        "channel": "Street Jitsu",
+        "duration": 44,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "_iV0LtOiXNY",
+        "title": "Lapel guard takedown one minute breakdown",
+        "by": "Legion AJJ",
+        "vertical": false,
+        "channel": "Legion AJJ",
+        "duration": 64,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Lapel Elevator Sweep Defender",
@@ -325,23 +457,73 @@
     "flashcards": [
       {
         "question": "What are the three elements your opponent must establish before the Lapel Elevator Sweep becomes dangerous?",
-        "answer": "The three elements are lapel tension (fabric wrapped around your body with constant pulling force), butterfly hook placement (positioned high on your inner thigh as the elevation fulcrum), and sleeve or wrist control (preventing your posting hand from basing out). If you remove any single element, the compound lever system cannot function and the sweep loses most of its effectiveness."
+        "answer": "The three elements are lapel tension (fabric wrapped around your body with constant pulling force), butterfly hook placement (positioned high on your inner thigh as the elevation fulcrum), and sleeve or wrist control (preventing your posting hand from basing out). If you remove any single element, the compound lever system cannot function and the sweep loses most of its effectiveness.",
+        "answer_line": "Lapel tension, hook, sleeve grip",
+        "distractors": {
+          "plausible": [
+            "Lapel grip and hook only",
+            "Hook placement and posture break"
+          ],
+          "trap": [
+            "Collar grip and knee cut only"
+          ]
+        }
       },
       {
         "question": "Why is pulling backward to escape the sweep a common but critical defensive mistake?",
-        "answer": "Pulling backward plays directly into the opponent's lapel guard strategy. The backward retreat creates the distance and angle they need to sit up and threaten a back take, or it re-loads the sweep by pulling you into their lapel tension from a worse angle. The correct response is driving weight forward to kill the elevation angle, or posting wide and backstep passing around the barrier."
+        "answer": "Pulling backward plays directly into the opponent's lapel guard strategy. The backward retreat creates the distance and angle they need to sit up and threaten a back take, or it re-loads the sweep by pulling you into their lapel tension from a worse angle. The correct response is driving weight forward to kill the elevation angle, or posting wide and backstep passing around the barrier.",
+        "answer_line": "Feeds distance for back take",
+        "distractors": {
+          "plausible": [
+            "Buys time to reset base",
+            "Loosens their lapel tension"
+          ],
+          "trap": [
+            "Pull hard to break the grip"
+          ]
+        }
       },
       {
         "question": "Your opponent has established the full lapel configuration with hook and sleeve grip—what is your last-resort defensive option?",
-        "answer": "Post your free hand as wide as possible on the non-controlled side and drive your hips forward and down into the opponent to flatten the elevation angle. Simultaneously begin a backstep motion to navigate around the lapel barrier. Accept that you may expose your posting arm to omoplata—this is a calculated risk preferable to being swept cleanly to mount, which is a significantly worse positional outcome."
+        "answer": "Post your free hand as wide as possible on the non-controlled side and drive your hips forward and down into the opponent to flatten the elevation angle. Simultaneously begin a backstep motion to navigate around the lapel barrier. Accept that you may expose your posting arm to omoplata—this is a calculated risk preferable to being swept cleanly to mount, which is a significantly worse positional outcome.",
+        "answer_line": "Post wide, flatten angle, backstep",
+        "distractors": {
+          "plausible": [
+            "Pull knees in and turtle up",
+            "Sit back to reset your base"
+          ],
+          "trap": [
+            "Pull away to escape the lapel"
+          ]
+        }
       },
       {
         "question": "At what stage is it easiest to defend the Lapel Elevator Sweep and why?",
-        "answer": "The easiest stage to defend is during the initial lapel extraction and feeding, before the opponent has established the wrap around your body. At this point, a simple grip strip or forward pressure prevents the entire configuration from forming. Once the lapel is wrapped, each additional element (hook, sleeve grip) makes defense exponentially harder because you must solve multiple problems simultaneously under increasing mechanical disadvantage."
+        "answer": "The easiest stage to defend is during the initial lapel extraction and feeding, before the opponent has established the wrap around your body. At this point, a simple grip strip or forward pressure prevents the entire configuration from forming. Once the lapel is wrapped, each additional element (hook, sleeve grip) makes defense exponentially harder because you must solve multiple problems simultaneously under increasing mechanical disadvantage.",
+        "answer_line": "Before the lapel wrap sets",
+        "distractors": {
+          "plausible": [
+            "Right as the hook goes in",
+            "After the sweep starts loading"
+          ],
+          "trap": [
+            "Wait until mount is nearly done"
+          ]
+        }
       },
       {
         "question": "How does your base width affect your vulnerability to the Lapel Elevator Sweep?",
-        "answer": "A narrow base dramatically increases your vulnerability because the sweep uses a diagonal lifting vector—it tips you sideways, not straight backward. Wide base provides lateral stability that resists this diagonal force. When fighting lapel grips, always maintain your free leg posted far to the side as insurance against being swept during the grip exchange. Narrowing your base even momentarily during grip fighting creates the opening the sweep needs."
+        "answer": "A narrow base dramatically increases your vulnerability because the sweep uses a diagonal lifting vector—it tips you sideways, not straight backward. Wide base provides lateral stability that resists this diagonal force. When fighting lapel grips, always maintain your free leg posted far to the side as insurance against being swept during the grip exchange. Narrowing your base even momentarily during grip fighting creates the opening the sweep needs.",
+        "answer_line": "Narrow base invites the sweep",
+        "distractors": {
+          "plausible": [
+            "Wide base slows your passing",
+            "Base width barely matters here"
+          ],
+          "trap": [
+            "Narrow stance to move quicker"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -364,6 +546,26 @@
         "phase": "Week 7+",
         "focus": "Live defense and positional sparring",
         "description": "Defend the Lapel Elevator Sweep in live positional sparring starting from lapel guard. Partner uses full technique chains including the sweep and its alternative attacks (omoplata, back take). Develop real-time decision-making about which defensive option to deploy based on the specific setup your opponent is building."
+      }
+    ],
+    "clips": [
+      {
+        "id": "U9tV9gNze9A",
+        "title": "How to Escape Lapel Guard: 3 Variations",
+        "by": "Modern BJJ",
+        "vertical": false,
+        "channel": "Modern BJJ",
+        "duration": 533,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "SWqXV8bfl5A",
+        "title": "Countering the Spider Lapel and Lasso Guard",
+        "by": "Bernardo Faria",
+        "vertical": false,
+        "channel": "Bernardo Faria BJJ Fanatics",
+        "duration": 227,
+        "verified": "2026-07-15"
       }
     ]
   },

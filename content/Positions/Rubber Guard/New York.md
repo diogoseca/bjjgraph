@@ -34,6 +34,43 @@ description: "Master New York position control in 10th Planet's Rubber Guard sys
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "New York \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Rubber Guard Philosophy",
+      "description": "New York film study: Rubber Guard Philosophy, taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/tWAZbCiWQ9E/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/tWAZbCiWQ9E",
+      "url": "https://www.youtube.com/watch?v=tWAZbCiWQ9E",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT61S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Eddie Bravo explains Rubber Guard",
+      "description": "New York film study: Eddie Bravo explains Rubber Guard, taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/h1XzZDsUxHQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/h1XzZDsUxHQ",
+      "url": "https://www.youtube.com/watch?v=h1XzZDsUxHQ",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT111S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -76,6 +113,34 @@ Competition data from IBJJF and submission-only events shows that practitioners 
 The learning curve for New York is steep, typically requiring 6-12 months of dedicated practice to achieve functional proficiency. White and blue belts often struggle with the hip flexibility requirements, while purple and brown belts who commit to the system can develop world-class proficiency. The position is particularly effective for lighter practitioners who possess natural flexibility but may struggle with strength-based guards against larger opponents.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch New York in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=tWAZbCiWQ9E)
+
+<p class="clip-credit"><strong>Rubber Guard Philosophy</strong> — taught by Eddie Bravo · 1:01 · <a href="https://www.youtube.com/watch?v=tWAZbCiWQ9E" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=h1XzZDsUxHQ)
+
+<p class="clip-credit"><strong>Eddie Bravo explains Rubber Guard</strong> — taught by Eddie Bravo · 1:51 · <a href="https://www.youtube.com/watch?v=h1XzZDsUxHQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 
@@ -147,27 +212,27 @@ The learning curve for New York is steep, typically requiring 6-12 months of ded
 ### Available Transitions
 
 
-- **[[Transitions/New York to Invisible Collar/Attacker|New York to Invisible Collar]]** (10% of attempts)
+- **[[Transitions/New York to Invisible Collar/Attacker|New York to Invisible Collar]]** (14% of attempts)
 
-- **[[Transitions/Progression to Zombie/Attacker|Progression to Zombie]]** (10% of attempts)
+- **[[Transitions/Progression to Zombie/Attacker|Progression to Zombie]]** (11% of attempts)
 
-- **[[Transitions/Advance to Chill Dog/Attacker|Advance to Chill Dog]]** (8% of attempts)
+- **[[Transitions/Advance to Chill Dog/Attacker|Advance to Chill Dog]]** (15% of attempts)
 
-- **[[Transitions/Rotate to Carni/Attacker|Rotate to Carni]]** (9% of attempts)
+- **[[Transitions/Rotate to Carni/Attacker|Rotate to Carni]]** (6% of attempts)
 
-- **[[Transitions/Triangle Setup/Attacker|Triangle Setup]]** (17% of attempts)
+- **[[Transitions/Triangle Setup/Attacker|Triangle Setup]]** (13% of attempts)
 
-- **[[Transitions/Omoplata Sweep/Attacker|Omoplata Sweep]]** (7% of attempts)
+- **[[Transitions/Omoplata Sweep/Attacker|Omoplata Sweep]]** (8% of attempts)
 
 - **[[Transitions/Gogoplata/Attacker|Gogoplata]]** (6% of attempts)
 
-- **[[Transitions/Armbar from New York/Attacker|Armbar from New York]]** (9% of attempts)
+- **[[Transitions/Armbar from New York/Attacker|Armbar from New York]]** (7% of attempts)
 
-- **[[Transitions/Hip Bump Sweep/Attacker|Hip Bump Sweep]]** (9% of attempts)
+- **[[Transitions/Hip Bump Sweep/Attacker|Hip Bump Sweep]]** (6% of attempts)
 
-- **[[Transitions/Omoplata to Back/Attacker|Omoplata to Back]]** (9% of attempts)
+- **[[Transitions/Omoplata to Back/Attacker|Omoplata to Back]]** (5% of attempts)
 
-- **[[Transitions/Sweep from New York/Attacker|Sweep from New York]]** (3% of attempts)
+- **[[Transitions/Sweep from New York/Attacker|Sweep from New York]]** (6% of attempts)
 
 - **[[Belly Down Armbar from New York/Attacker|Belly Down Armbar from New York]]** (3% of attempts)
 
@@ -234,19 +299,19 @@ The learning curve for New York is steep, typically requiring 6-12 months of ded
 ### Available Transitions
 
 
-- **[[Transitions/Posture Recovery/Attacker|Posture Recovery]]** (19% of attempts)
+- **[[Transitions/Posture Recovery/Attacker|Posture Recovery]]** (26% of attempts)
 
-- **[[Transitions/Overhook Extraction/Attacker|Overhook Extraction]]** (19% of attempts)
+- **[[Transitions/Overhook Extraction/Attacker|Overhook Extraction]]** (17% of attempts)
 
 - **[[Transitions/Guard Opening Sequence/Attacker|Guard Opening Sequence]]** (14% of attempts)
 
-- **[[Transitions/Stack Defense/Attacker|Stack Defense]]** (25% of attempts)
+- **[[Transitions/Stack Pass/Attacker|Stack Pass]]** (14% of attempts)
 
-- **[[Transitions/Pressure Pass/Attacker|Pressure Pass]]** (9% of attempts)
+- **[[Transitions/Pressure Pass/Attacker|Pressure Pass]]** (10% of attempts)
 
-- **[[Transitions/Posture Recovery to Closed Guard/Attacker|Posture Recovery to Closed Guard]]** (9% of attempts)
+- **[[Transitions/Posture Recovery to Closed Guard/Attacker|Posture Recovery to Closed Guard]]** (8% of attempts)
 
-- **[[Transitions/New York Pass to Side Control/Attacker|New York Pass to Side Control]]** (5% of attempts)
+- **[[Transitions/New York Pass to Side Control/Attacker|New York Pass to Side Control]]** (11% of attempts)
 
 
 ### Common Mistakes

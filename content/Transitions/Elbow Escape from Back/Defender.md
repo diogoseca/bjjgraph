@@ -142,6 +142,43 @@ description: "Complete guide to defending against the elbow escape from your bac
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Elbow Escape from Back (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Maintaining back control with the hooks",
+      "description": "Elbow Escape from Back (Defender) film study: Maintaining back control with the hooks, taught by Gracie Charlottesville.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Rlk4mGg7vW4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Rlk4mGg7vW4",
+      "url": "https://www.youtube.com/watch?v=Rlk4mGg7vW4",
+      "creator": { "@type": "Person", "name": "Gracie Charlottesville" },
+      "duration": "PT84S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Countering the elbow escape to retake the back",
+      "description": "Elbow Escape from Back (Defender) film study: Countering the elbow escape to retake the back, taught by Brandon Quick.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/QekOjlzNWTI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/QekOjlzNWTI",
+      "url": "https://www.youtube.com/watch?v=QekOjlzNWTI",
+      "creator": { "@type": "Person", "name": "Brandon Quick" },
+      "duration": "PT81S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -151,6 +188,34 @@ Defending against your opponent's elbow escape requires early recognition and im
 **Opponent's Starting Position**: [[Positions/Back Control]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Elbow Escape from Back (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Rlk4mGg7vW4)
+
+<p class="clip-credit"><strong>Maintaining back control with the hooks</strong> — taught by Gracie Charlottesville · 1:24 · <a href="https://www.youtube.com/watch?v=Rlk4mGg7vW4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=QekOjlzNWTI)
+
+<p class="clip-credit"><strong>Countering the elbow escape to retake the back</strong> — taught by Brandon Quick · 1:21 · <a href="https://www.youtube.com/watch?v=QekOjlzNWTI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

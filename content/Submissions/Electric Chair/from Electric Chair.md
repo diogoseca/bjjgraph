@@ -34,6 +34,54 @@ description: "Master the Electric Chair in BJJ. Complete lockdown submission gui
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Electric Chair from Electric Chair \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Electric Chair from Lockdown Half Guard",
+      "description": "Electric Chair from Electric Chair film study: Electric Chair from Lockdown Half Guard, taught by Brandon Mccaghren.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/sMbaY4vG2mM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/sMbaY4vG2mM",
+      "url": "https://www.youtube.com/watch?v=sMbaY4vG2mM",
+      "creator": { "@type": "Person", "name": "Brandon Mccaghren" },
+      "duration": "PT42S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Electric Chair",
+      "description": "Electric Chair from Electric Chair film study: Electric Chair, taught by bjjtaro.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/I8HLek9eCbg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/I8HLek9eCbg",
+      "url": "https://www.youtube.com/watch?v=I8HLek9eCbg",
+      "creator": { "@type": "Person", "name": "bjjtaro" },
+      "duration": "PT25S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Electric Chair Submission",
+      "description": "Electric Chair from Electric Chair film study: Electric Chair Submission, taught by Dan M..",
+      "thumbnailUrl": "https://i.ytimg.com/vi/X7JA72d-3vw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/X7JA72d-3vw",
+      "url": "https://www.youtube.com/watch?v=X7JA72d-3vw",
+      "creator": { "@type": "Person", "name": "Dan M." },
+      "duration": "PT55S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -78,6 +126,42 @@ Strategically, the Electric Chair creates a powerful dilemma within the lockdown
 **Starting Position**: [[Positions/Half Guard/Electric Chair]] · **From**: [[Positions/Half Guard/Electric Chair]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Electric Chair from Electric Chair in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=sMbaY4vG2mM)
+
+<p class="clip-credit"><strong>Electric Chair from Lockdown Half Guard</strong> — taught by Brandon Mccaghren · 0:42 · <a href="https://www.youtube.com/watch?v=sMbaY4vG2mM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=I8HLek9eCbg)
+
+<p class="clip-credit"><strong>Electric Chair</strong> — taught by bjjtaro · 0:25 · <a href="https://www.youtube.com/watch?v=I8HLek9eCbg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=X7JA72d-3vw)
+
+<p class="clip-credit"><strong>Electric Chair Submission</strong> — taught by Dan M. · 0:55 · <a href="https://www.youtube.com/watch?v=X7JA72d-3vw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="outcomes" class="content-section">
 

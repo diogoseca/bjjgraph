@@ -148,6 +148,54 @@ description: "How to defend against Crucifix from Turtle in BJJ. Recognition cue
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Crucifix from Turtle (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Turtle roll counter",
+      "description": "Crucifix from Turtle (Defender) film study: Turtle roll counter, taught by Mark VanSchuyver.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/-JBwH7ZcyC8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/-JBwH7ZcyC8",
+      "url": "https://www.youtube.com/watch?v=-JBwH7ZcyC8",
+      "creator": { "@type": "Person", "name": "Mark VanSchuyver" },
+      "duration": "PT93S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Standing up from turtle",
+      "description": "Crucifix from Turtle (Defender) film study: Standing up from turtle, taught by Priit Mihkelson.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/_sBB-O8fqP4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/_sBB-O8fqP4",
+      "url": "https://www.youtube.com/watch?v=_sBB-O8fqP4",
+      "creator": { "@type": "Person", "name": "Priit Mihkelson" },
+      "duration": "PT114S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Inside roll escape from turtle",
+      "description": "Crucifix from Turtle (Defender) film study: Inside roll escape from turtle, taught by Kenny Lester.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/923eYpD1E58/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/923eYpD1E58",
+      "url": "https://www.youtube.com/watch?v=923eYpD1E58",
+      "creator": { "@type": "Person", "name": "Kenny Lester" },
+      "duration": "PT158S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +205,42 @@ Defending the crucifix from turtle requires a layered approach that begins with 
 **Opponent's Starting Position**: [[Positions/Turtle]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Crucifix from Turtle (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=-JBwH7ZcyC8)
+
+<p class="clip-credit"><strong>Turtle roll counter</strong> — taught by Mark VanSchuyver · 1:33 · <a href="https://www.youtube.com/watch?v=-JBwH7ZcyC8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=_sBB-O8fqP4)
+
+<p class="clip-credit"><strong>Standing up from turtle</strong> — taught by Priit Mihkelson · 1:54 · <a href="https://www.youtube.com/watch?v=_sBB-O8fqP4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=923eYpD1E58)
+
+<p class="clip-credit"><strong>Inside roll escape from turtle</strong> — taught by Kenny Lester · 2:38 · <a href="https://www.youtube.com/watch?v=923eYpD1E58" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

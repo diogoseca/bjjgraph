@@ -150,6 +150,43 @@ description: "Defend against the Bow and Arrow Choke from Invisible Collar. Reco
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Bow and Arrow Choke from Invisible Collar (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Back collar choke escape",
+      "description": "Bow and Arrow Choke from Invisible Collar (Defender) film study: Back collar choke escape, taught by Beto Vilanova.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/kkAVJ3u7THM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/kkAVJ3u7THM",
+      "url": "https://www.youtube.com/watch?v=kkAVJ3u7THM",
+      "creator": { "@type": "Person", "name": "Beto Vilanova" },
+      "duration": "PT166S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Bow and arrow choke defense",
+      "description": "Bow and Arrow Choke from Invisible Collar (Defender) film study: Bow and arrow choke defense, taught by Gracie Ohio Jiu-Jitsu Academy.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/2No7WP3otgI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/2No7WP3otgI",
+      "url": "https://www.youtube.com/watch?v=2No7WP3otgI",
+      "creator": { "@type": "Person", "name": "Gracie Ohio Jiu-Jitsu Academy" },
+      "duration": "PT92S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -160,6 +197,34 @@ Defending the Bow and Arrow Choke from Invisible Collar presents a unique challe
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Bow and Arrow Choke from Invisible Collar (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=kkAVJ3u7THM)
+
+<p class="clip-credit"><strong>Back collar choke escape</strong> — taught by Beto Vilanova · 2:46 · <a href="https://www.youtube.com/watch?v=kkAVJ3u7THM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=2No7WP3otgI)
+
+<p class="clip-credit"><strong>Bow and arrow choke defense</strong> — taught by Gracie Ohio Jiu-Jitsu Academy · 1:32 · <a href="https://www.youtube.com/watch?v=2No7WP3otgI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

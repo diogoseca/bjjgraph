@@ -176,6 +176,54 @@ description: "Learn to attack with the Short Choke from Seat Belt Control Back. 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Short Choke from Seat Belt Control Back (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Short Choke from Back Position",
+      "description": "Short Choke from Seat Belt Control Back (Attacker) film study: Short Choke from Back Position, taught by Cosens MMA.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Sb-atqD_TqQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Sb-atqD_TqQ",
+      "url": "https://www.youtube.com/watch?v=Sb-atqD_TqQ",
+      "creator": { "@type": "Person", "name": "Cosens MMA" },
+      "duration": "PT55S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Short Choke Finish",
+      "description": "Short Choke from Seat Belt Control Back (Attacker) film study: Short Choke Finish, taught by Alex Reyes.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Vikee5w07E0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Vikee5w07E0",
+      "url": "https://www.youtube.com/watch?v=Vikee5w07E0",
+      "creator": { "@type": "Person", "name": "Alex Reyes" },
+      "duration": "PT60S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "When \u0026 How to Apply the Short Choke from the Back (No-Gi)",
+      "description": "Short Choke from Seat Belt Control Back (Attacker) film study: When \u0026 How to Apply the Short Choke from the Back (No-Gi), taught by MMA Leech.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ld80o7n_DFU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ld80o7n_DFU",
+      "url": "https://www.youtube.com/watch?v=ld80o7n_DFU",
+      "creator": { "@type": "Person", "name": "MMA Leech" },
+      "duration": "PT165S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -186,6 +234,42 @@ The Short Choke from Seat Belt Control Back attacks the carotid arteries using t
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Short Choke from Seat Belt Control Back (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Sb-atqD_TqQ)
+
+<p class="clip-credit"><strong>Short Choke from Back Position</strong> — taught by Cosens MMA · 0:55 · <a href="https://www.youtube.com/watch?v=Sb-atqD_TqQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Vikee5w07E0)
+
+<p class="clip-credit"><strong>Short Choke Finish</strong> — taught by Alex Reyes · 1:00 · <a href="https://www.youtube.com/watch?v=Vikee5w07E0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ld80o7n_DFU)
+
+<p class="clip-credit"><strong>When &amp; How to Apply the Short Choke from the Back (No-Gi)</strong> — taught by MMA Leech · 2:45 · <a href="https://www.youtube.com/watch?v=ld80o7n_DFU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

@@ -168,6 +168,54 @@ description: "How to execute Jailbreak to Back Take in BJJ. Attacking perspectiv
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Jailbreak to Back Take (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Jailbreak from bottom side control",
+      "description": "Jailbreak to Back Take (Attacker) film study: Jailbreak from bottom side control, taught by Two Minute Technique coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/EV_xmwb3l-8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/EV_xmwb3l-8",
+      "url": "https://www.youtube.com/watch?v=EV_xmwb3l-8",
+      "creator": { "@type": "Person", "name": "Two Minute Technique coach" },
+      "duration": "PT191S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Jailbreak escape from side control step by step",
+      "description": "Jailbreak to Back Take (Attacker) film study: Jailbreak escape from side control step by step, taught by CORE MMA.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Ij2aFpcJiFU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Ij2aFpcJiFU",
+      "url": "https://www.youtube.com/watch?v=Ij2aFpcJiFU",
+      "creator": { "@type": "Person", "name": "CORE MMA" },
+      "duration": "PT175S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Prison guard breakdown from the lockdown",
+      "description": "Jailbreak to Back Take (Attacker) film study: Prison guard breakdown from the lockdown, taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/gFYyMkaMz34/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/gFYyMkaMz34",
+      "url": "https://www.youtube.com/watch?v=gFYyMkaMz34",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT59S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -181,6 +229,42 @@ This transition exemplifies the principle of using opponent reactions to your ad
 **From Position**: [[Positions/Jailbreak]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Jailbreak to Back Take (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=EV_xmwb3l-8)
+
+<p class="clip-credit"><strong>Jailbreak from bottom side control</strong> — taught by Two Minute Technique coach · 3:11 · <a href="https://www.youtube.com/watch?v=EV_xmwb3l-8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Ij2aFpcJiFU)
+
+<p class="clip-credit"><strong>Jailbreak escape from side control step by step</strong> — taught by CORE MMA · 2:55 · <a href="https://www.youtube.com/watch?v=Ij2aFpcJiFU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=gFYyMkaMz34)
+
+<p class="clip-credit"><strong>Prison guard breakdown from the lockdown</strong> — taught by Eddie Bravo · 0:59 · <a href="https://www.youtube.com/watch?v=gFYyMkaMz34" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

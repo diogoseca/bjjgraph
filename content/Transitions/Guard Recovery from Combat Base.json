@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Closed Guard/Bottom",
-      "probability": 50,
+      "probability": {
+        "gi": 50,
+        "nogi": 50
+      },
       "result": "success"
     },
     {
       "to": "Combat Base/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 50,
+  "success_rate": {
+    "gi": 50,
+    "nogi": 50
+  },
   "overview": "Guard Recovery from Combat Base is a fundamental defensive transition in Brazilian Jiu-Jitsu where the bottom player works to reestablish closed guard when their opponent has secured combat base inside their legs. This transition addresses the critical moment when your guard has been opened and your opponent has established an asymmetric kneeling stance with one knee posted and one foot planted, threatening multiple passing sequences including knee slice, toreando, and pressure passes.\n\nThe technique centers on a sequential process of framing, hip escaping, and leg reattachment that disrupts the combat base player's passing pressure and positional control. The bottom player must create initial distance through effective frames on the opponent's shoulders or chest, then generate angle through hip escapes to create the space necessary for reinserting legs between themselves and the passer. Timing is essential—attempting recovery while the opponent drives forward with heavy pressure results in being flattened, while waiting too long allows advancement through established passing chains.\n\nGuard recovery from combat base integrates directly into the broader guard retention system, connecting the open guard defensive network with closed guard's offensive platform. When full closed guard recovery is not achievable, the same mechanical principles drive transitions into half guard retention, butterfly guard recomposition, or open guard distance management. Mastery of this recovery makes your entire bottom game more resilient by ensuring that a momentary guard opening does not cascade into a complete positional loss.",
   "conditions": [
     "Opponent has established combat base with one knee posted and opposite foot planted inside your guard",
@@ -242,38 +254,138 @@
     "flashcards": [
       {
         "question": "What is the optimal timing window for initiating guard recovery against a combat base player?",
-        "answer": "The optimal window occurs during the opponent's weight transfer between passing options—when they shift from knee slice setup to toreando grip change, or when they adjust their posted foot position. During these transitional moments, their base is momentarily compromised and their pressure is least focused, creating the best opportunity for your frames to redirect their weight and your hip escape to generate meaningful distance."
+        "answer": "The optimal window occurs during the opponent's weight transfer between passing options—when they shift from knee slice setup to toreando grip change, or when they adjust their posted foot position. During these transitional moments, their base is momentarily compromised and their pressure is least focused, creating the best opportunity for your frames to redirect their weight and your hip escape to generate meaningful distance.",
+        "answer_line": "Their weight-transfer moment",
+        "distractors": {
+          "plausible": [
+            "Right after they pass your knee",
+            "When they settle into base"
+          ],
+          "trap": [
+            "Once you're already flat on back"
+          ]
+        }
       },
       {
         "question": "Your opponent strips your shoulder frame and drives their crossface into your jaw—how do you recover?",
-        "answer": "Do not fight the crossface directly with strength. Turn your face toward the crossface to relieve jaw pressure while shooting your near-side arm under their chin to create a new frame point. Simultaneously hip escape away from the crossface direction, as their weight commitment to the crossface creates space on the opposite side. Use this new angle to insert your knee shield before they can readjust their pressure."
+        "answer": "Do not fight the crossface directly with strength. Turn your face toward the crossface to relieve jaw pressure while shooting your near-side arm under their chin to create a new frame point. Simultaneously hip escape away from the crossface direction, as their weight commitment to the crossface creates space on the opposite side. Use this new angle to insert your knee shield before they can readjust their pressure.",
+        "answer_line": "Turn into it, arm under chin",
+        "distractors": {
+          "plausible": [
+            "Push straight against the crossface",
+            "Hip escape toward the crossface"
+          ],
+          "trap": [
+            "Turn your face away from it"
+          ]
+        }
       },
       {
         "question": "What grip should your far hand prioritize during the guard recovery sequence and why?",
-        "answer": "Your far hand should prioritize controlling the opponent's far sleeve at the wrist or their far bicep. This grip prevents them from establishing the underhook or crossface that enables passing, while also pulling their weight slightly forward and toward your frame side. In no-gi, a c-clamp grip on the bicep provides similar control while preventing them from posting with that hand during your hip escape."
+        "answer": "Your far hand should prioritize controlling the opponent's far sleeve at the wrist or their far bicep. This grip prevents them from establishing the underhook or crossface that enables passing, while also pulling their weight slightly forward and toward your frame side. In no-gi, a c-clamp grip on the bicep provides similar control while preventing them from posting with that hand during your hip escape.",
+        "answer_line": "Far sleeve or bicep control",
+        "distractors": {
+          "plausible": [
+            "Far collar for control",
+            "Near wrist to strip grips"
+          ],
+          "trap": [
+            "Post your far hand on mat"
+          ]
+        }
       },
       {
         "question": "Why is the shin frame insertion more effective than immediately closing guard after the hip escape?",
-        "answer": "The shin frame creates a structural barrier using skeletal leverage rather than muscular effort, maintaining distance while you reattach your far leg. Attempting to close guard immediately after hip escape requires both legs to travel behind the opponent simultaneously, leaving a gap where no leg controls distance. The shin frame maintains continuous leg contact throughout the transition, preventing the opponent from closing distance during the recovery."
+        "answer": "The shin frame creates a structural barrier using skeletal leverage rather than muscular effort, maintaining distance while you reattach your far leg. Attempting to close guard immediately after hip escape requires both legs to travel behind the opponent simultaneously, leaving a gap where no leg controls distance. The shin frame maintains continuous leg contact throughout the transition, preventing the opponent from closing distance during the recovery.",
+        "answer_line": "Shin frame keeps leg contact",
+        "distractors": {
+          "plausible": [
+            "Close guard right after escaping",
+            "Use both legs to close at once"
+          ],
+          "trap": [
+            "Let go and re-hook later"
+          ]
+        }
       },
       {
         "question": "Your opponent begins a knee slice pass during your guard recovery attempt—what adjustment prevents the pass?",
-        "answer": "Abandon the closed guard recovery and immediately transition to knee shield half guard retention. Turn into the passing direction, insert your bottom knee as a shield across their hip, and secure an underhook with your top arm. The knee shield stops their sliding knee while the underhook prevents crossface establishment. From knee shield half guard, you can work a secondary guard recovery sequence with better structural support."
+        "answer": "Abandon the closed guard recovery and immediately transition to knee shield half guard retention. Turn into the passing direction, insert your bottom knee as a shield across their hip, and secure an underhook with your top arm. The knee shield stops their sliding knee while the underhook prevents crossface establishment. From knee shield half guard, you can work a secondary guard recovery sequence with better structural support.",
+        "answer_line": "Switch to knee shield half guard",
+        "distractors": {
+          "plausible": [
+            "Push their knee back to guard",
+            "Keep forcing closed guard entry"
+          ],
+          "trap": [
+            "Turn away and give up the back"
+          ]
+        }
       },
       {
         "question": "What is the critical direction of force when using your frame against a combat base player's forward pressure?",
-        "answer": "Direct your frame at a forty-five degree angle toward the opponent's chin and away from your centerline rather than pushing straight back into their chest. Straight-back frames engage a strength battle you will lose against forward driving pressure. The angled frame redirects their weight past your body, converting their energy into rotational movement that carries them off-balance while creating the lateral space your hip escape needs."
+        "answer": "Direct your frame at a forty-five degree angle toward the opponent's chin and away from your centerline rather than pushing straight back into their chest. Straight-back frames engage a strength battle you will lose against forward driving pressure. The angled frame redirects their weight past your body, converting their energy into rotational movement that carries them off-balance while creating the lateral space your hip escape needs.",
+        "answer_line": "45° angle toward their chin",
+        "distractors": {
+          "plausible": [
+            "Straight back into their chest",
+            "Push down toward the mat"
+          ],
+          "trap": [
+            "Pull them straight onto you"
+          ]
+        }
       },
       {
         "question": "Your opponent posts a strong straight-arm to your hip to block your hip escape—how do you clear it and continue the recovery?",
-        "answer": "Attack the posted arm rather than fighting its line of strength: grip the wrist with your near hand and use your far-side knee or shin to bump the elbow off your hip line, collapsing the post. As the arm folds you regain hip-escape room, so immediately shrimp into the space you just created and insert your shin frame before they can re-post. If the arm stays heavy, a quick two-on-one pull of the wrist toward your centerline kills the post and feeds directly into a collar drag recovery."
+        "answer": "Attack the posted arm rather than fighting its line of strength: grip the wrist with your near hand and use your far-side knee or shin to bump the elbow off your hip line, collapsing the post. As the arm folds you regain hip-escape room, so immediately shrimp into the space you just created and insert your shin frame before they can re-post. If the arm stays heavy, a quick two-on-one pull of the wrist toward your centerline kills the post and feeds directly into a collar drag recovery.",
+        "answer_line": "Bump the elbow with knee/shin",
+        "distractors": {
+          "plausible": [
+            "Push straight against the post",
+            "Pull the wrist straight backward"
+          ],
+          "trap": [
+            "Force the hip escape through it"
+          ]
+        }
       },
       {
         "question": "If your shin frame and far-leg reattachment are stuffed, what is the highest-percentage chain attack to keep the recovery alive?",
-        "answer": "Convert the failed closed-guard recovery into a butterfly hook insertion or a collar drag rather than forcing the lock. If your near knee cannot cross to a shin frame, drop it into a butterfly hook under the passer's near thigh and elevate to off-balance them; if they over-rotate to defend, hit a collar drag across your centerline to spin behind them. Both keep at least one leg or grip controlling distance, so a stuffed recovery flows into a sweep or back-take instead of a flat pin."
+        "answer": "Convert the failed closed-guard recovery into a butterfly hook insertion or a collar drag rather than forcing the lock. If your near knee cannot cross to a shin frame, drop it into a butterfly hook under the passer's near thigh and elevate to off-balance them; if they over-rotate to defend, hit a collar drag across your centerline to spin behind them. Both keep at least one leg or grip controlling distance, so a stuffed recovery flows into a sweep or back-take instead of a flat pin.",
+        "answer_line": "Butterfly hook or collar drag",
+        "distractors": {
+          "plausible": [
+            "Force the same shin frame back in",
+            "Reset flat back to closed guard"
+          ],
+          "trap": [
+            "Let go of all grips and bridge"
+          ]
+        }
       }
     ],
-    "safety_considerations": "Guard recovery from combat base is a low-injury-risk transition, but practitioners should be mindful of neck strain when bridging under heavy crossface pressure. Avoid explosive bridging when the opponent has a deep crossface, as this can compress cervical vertebrae. If the opponent's weight fully pins your hips, abandon the recovery attempt and work incrementally rather than forcing explosive movements that risk lower back injury. During training, communicate with your partner about pressure intensity to prevent rib compression injuries from sustained combat base pressure."
+    "safety_considerations": "Guard recovery from combat base is a low-injury-risk transition, but practitioners should be mindful of neck strain when bridging under heavy crossface pressure. Avoid explosive bridging when the opponent has a deep crossface, as this can compress cervical vertebrae. If the opponent's weight fully pins your hips, abandon the recovery attempt and work incrementally rather than forcing explosive movements that risk lower back injury. During training, communicate with your partner about pressure intensity to prevent rib compression injuries from sustained combat base pressure.",
+    "clips": [
+      {
+        "id": "qrPBsg028-0",
+        "title": "Guard recovery mechanics breakdown",
+        "by": "Conceptual Grappling",
+        "vertical": false,
+        "channel": "Conceptual Grappling",
+        "duration": 60,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "8156_PwYWSM",
+        "title": "Solo guard retention drills",
+        "by": "Elements Jiu Jitsu Academy",
+        "vertical": false,
+        "channel": "Elements Jiu Jitsu Academy",
+        "duration": 79,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Guard Recovery from Combat Base Defender",
@@ -359,19 +471,59 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that your opponent is initiating guard recovery from under your combat base?",
-        "answer": "The earliest cue is the creation of a forearm frame across your collarbone or shoulder. This frame precedes all other recovery mechanics and signals that the bottom player is establishing the structural barrier needed to initiate hip escape movement. Addressing this frame within the first second—by swimming past it, stripping the grip, or driving crossface pressure to collapse it—prevents the entire recovery chain from developing."
+        "answer": "The earliest cue is the creation of a forearm frame across your collarbone or shoulder. This frame precedes all other recovery mechanics and signals that the bottom player is establishing the structural barrier needed to initiate hip escape movement. Addressing this frame within the first second—by swimming past it, stripping the grip, or driving crossface pressure to collapse it—prevents the entire recovery chain from developing.",
+        "answer_line": "Forearm frame on your collarbone",
+        "distractors": {
+          "plausible": [
+            "Their hip escape movement begins",
+            "Their shin frame insertion"
+          ],
+          "trap": [
+            "Wait until guard is closed"
+          ]
+        }
       },
       {
         "question": "Your opponent successfully inserts a shin frame across your midsection during their guard recovery—what is your highest-percentage response?",
-        "answer": "Rather than fighting the shin frame directly, which engages a losing leverage battle against their skeletal structure, advance your knee past the frame and work to establish half guard top position. Drive your crossface shoulder into their chin while sliding your knee through the gap between their shin and their far leg. Converting their partial recovery into a half guard passing position is more efficient than attempting to reset to combat base."
+        "answer": "Rather than fighting the shin frame directly, which engages a losing leverage battle against their skeletal structure, advance your knee past the frame and work to establish half guard top position. Drive your crossface shoulder into their chin while sliding your knee through the gap between their shin and their far leg. Converting their partial recovery into a half guard passing position is more efficient than attempting to reset to combat base.",
+        "answer_line": "Advance knee past, pass half guard",
+        "distractors": {
+          "plausible": [
+            "Fight the frame with strength",
+            "Reset straight back to combat base"
+          ],
+          "trap": [
+            "Stand straight up immediately"
+          ]
+        }
       },
       {
         "question": "How should you adjust your combat base when you feel the bottom player beginning a hip escape beneath you?",
-        "answer": "Follow their hip movement by adjusting your posted knee to track their near hip, preventing them from creating the lateral angle they need for recovery. Drive your weight through your chest and shoulder into their frame to collapse it during the escape. If they generate significant angle, immediately advance your knee toward their centerline to cut off the shin frame insertion path rather than allowing them to establish the intermediate barrier."
+        "answer": "Follow their hip movement by adjusting your posted knee to track their near hip, preventing them from creating the lateral angle they need for recovery. Drive your weight through your chest and shoulder into their frame to collapse it during the escape. If they generate significant angle, immediately advance your knee toward their centerline to cut off the shin frame insertion path rather than allowing them to establish the intermediate barrier.",
+        "answer_line": "Track hip, collapse the frame",
+        "distractors": {
+          "plausible": [
+            "Stay square and drive forward",
+            "Post your far knee out wide"
+          ],
+          "trap": [
+            "Chase only their far leg"
+          ]
+        }
       },
       {
         "question": "When is it strategically better to stand up from combat base rather than drive forward against a guard recovery attempt?",
-        "answer": "Standing is strategically superior when the bottom player has already established a strong shin frame and their far leg is beginning to circle behind your back, making guard closure imminent. At this point, driving forward risks being pulled into closed guard with broken posture. Standing creates vertical distance that removes their leg attachment options and allows you to initiate standing passes or resettle combat base with superior angle. However, you must immediately control their legs upon standing to prevent open guard establishment."
+        "answer": "Standing is strategically superior when the bottom player has already established a strong shin frame and their far leg is beginning to circle behind your back, making guard closure imminent. At this point, driving forward risks being pulled into closed guard with broken posture. Standing creates vertical distance that removes their leg attachment options and allows you to initiate standing passes or resettle combat base with superior angle. However, you must immediately control their legs upon standing to prevent open guard establishment.",
+        "answer_line": "Shin frame set, leg circling back",
+        "distractors": {
+          "plausible": [
+            "As soon as any frame appears",
+            "Once they've closed their guard"
+          ],
+          "trap": [
+            "Stand with their legs uncontrolled"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -394,6 +546,17 @@
         "phase": "Phase 4: Live Positional Sparring",
         "focus": "Full resistance guard maintenance against recovery specialists",
         "description": "Begin each round in combat base with partner working active guard recovery at full resistance. Apply all learned pressure concepts, frame elimination, and counter-advancement while reading and exploiting recovery timing. Rotate training partners to experience different body types, flexibility levels, and recovery styles."
+      }
+    ],
+    "clips": [
+      {
+        "id": "wDz5D3BzPMs",
+        "title": "Building a complete passing game",
+        "by": "Bernardo Faria",
+        "vertical": false,
+        "channel": "Bernardo Faria BJJ Fanatics",
+        "duration": 227,
+        "verified": "2026-07-16"
       }
     ]
   }

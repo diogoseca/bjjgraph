@@ -168,6 +168,54 @@ description: "How to execute Counter-entangle to 50-50 Guard in BJJ. Attacking p
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Counter-entangle to 50-50 Guard (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Roll under to backside 50/50",
+      "description": "Counter-entangle to 50-50 Guard (Attacker) film study: Roll under to backside 50/50, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/DBbSqQf6iCo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/DBbSqQf6iCo",
+      "url": "https://www.youtube.com/watch?v=DBbSqQf6iCo",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT110S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Three paths to backside 50/50 from single leg X",
+      "description": "Counter-entangle to 50-50 Guard (Attacker) film study: Three paths to backside 50/50 from single leg X, taught by Gustavo Gomes Firmino.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/yT3euuWRWXw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/yT3euuWRWXw",
+      "url": "https://www.youtube.com/watch?v=yT3euuWRWXw",
+      "creator": { "@type": "Person", "name": "Gustavo Gomes Firmino" },
+      "duration": "PT56S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Luiz Panza 50/50 entrance",
+      "description": "Counter-entangle to 50-50 Guard (Attacker) film study: Luiz Panza 50/50 entrance, taught by Luiz Panza.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/zMJb2tjrqOY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/zMJb2tjrqOY",
+      "url": "https://www.youtube.com/watch?v=zMJb2tjrqOY",
+      "creator": { "@type": "Person", "name": "Luiz Panza" },
+      "duration": "PT47S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -181,6 +229,42 @@ This technique requires precise timing and technical execution. Attempting the c
 **From Position**: [[Positions/Leg Knot]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Counter-entangle to 50-50 Guard (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=DBbSqQf6iCo)
+
+<p class="clip-credit"><strong>Roll under to backside 50/50</strong> — taught by Lachlan Giles · 1:50 · <a href="https://www.youtube.com/watch?v=DBbSqQf6iCo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=yT3euuWRWXw)
+
+<p class="clip-credit"><strong>Three paths to backside 50/50 from single leg X</strong> — taught by Gustavo Gomes Firmino · 0:56 · <a href="https://www.youtube.com/watch?v=yT3euuWRWXw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=zMJb2tjrqOY)
+
+<p class="clip-credit"><strong>Luiz Panza 50/50 entrance</strong> — taught by Luiz Panza · 0:47 · <a href="https://www.youtube.com/watch?v=zMJb2tjrqOY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

@@ -13,23 +13,35 @@
     "new-york"
   ],
   "from_position": "New York/Bottom",
-  "success_rate": 45,
+  "success_rate": {
+    "gi": 45,
+    "nogi": 45
+  },
   "summary": "The armbar from New York is a bottom-player submission entry in the 10th Planet Rubber Guard where you pivot your hips and swing the shin-control leg over the opponent's head, converting an established overhook into armbar control on the isolated arm.",
   "overview": "The armbar from New York represents one of the highest-percentage submission setups available within the 10th Planet Rubber Guard system. Unlike traditional armbar entries from closed guard that require the bottom player to create arm isolation from scratch, the New York position provides a pre-built control architecture where the deep overhook already isolates one of the opponent's arms while the shin across the back maintains broken posture. These pre-existing control elements mean the bottom player needs only to pivot their hips and transition the control leg over the opponent's head to establish armbar control, significantly reducing the number of steps required compared to standard armbar entries.\n\nThe strategic power of this technique lies in its integration with the broader New York attacking ecosystem. When the bottom player threatens the armbar, the opponent must address the arm isolation while simultaneously managing the broken posture and overhook control. Defending the armbar often requires the top player to retract their arm forcefully, which can expose them to triangle entries or deeper rubber guard progressions like Invisible Collar or Zombie. This creates a scenario where the defensive reaction to one threat opens pathways to others, making the armbar from New York particularly effective as both a primary attack and as a setup for chain submissions.\n\nCompetition data and training observations suggest this technique is most effective when the opponent partially recovers posture while leaving their arm trapped in the overhook. This momentary structural compromise — where the top player has enough space to feel safe but not enough to actually extract their arm — creates the ideal window for the hip pivot and leg swing that initiates the armbar sequence. Practitioners with strong hip flexibility and overhook control report success rates significantly above the baseline when they learn to recognize and exploit this specific timing window.",
   "outcomes": [
     {
       "to": "Armbar Control/Top",
-      "probability": 45,
+      "probability": {
+        "gi": 45,
+        "nogi": 45
+      },
       "result": "success"
     },
     {
       "to": "New York/Bottom",
-      "probability": 35,
+      "probability": {
+        "gi": 35,
+        "nogi": 35
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "counter"
     }
   ],
@@ -245,46 +257,175 @@
     "flashcards": [
       {
         "question": "What is the optimal timing window for initiating the armbar from New York?",
-        "answer": "The ideal moment is when the opponent has partially recovered posture while their arm remains trapped in the overhook — they have enough space to feel comfortable but not enough to actually extract their arm. This creates a structural compromise where their arm is extended across your centerline and their base is shifting backward, making them vulnerable to the hip pivot. Initiating too early when posture is fully broken wastes the existing rubber guard control, while waiting too long allows full posture recovery and arm extraction."
+        "answer": "The ideal moment is when the opponent has partially recovered posture while their arm remains trapped in the overhook — they have enough space to feel comfortable but not enough to actually extract their arm. This creates a structural compromise where their arm is extended across your centerline and their base is shifting backward, making them vulnerable to the hip pivot. Initiating too early when posture is fully broken wastes the existing rubber guard control, while waiting too long allows full posture recovery and arm extraction.",
+        "answer_line": "Posture rising, arm still trapped",
+        "distractors": {
+          "plausible": [
+            "Attack the moment posture breaks",
+            "Wait for full posture recovery"
+          ],
+          "trap": [
+            "Release overhook to reset grip"
+          ]
+        }
       },
       {
         "question": "What conditions must exist before you can attempt the armbar from New York?",
-        "answer": "Five conditions must be present: a deep overhook with shoulder-to-armpit contact isolating the arm, broken posture maintained by shin control across the back, the trapped arm positioned across your centerline rather than retracted, sufficient hip flexibility to complete the leg swing over the head, and active core engagement to power the hip pivot. Missing any one condition significantly reduces success probability and may expose you to counter-attacks."
+        "answer": "Five conditions must be present: a deep overhook with shoulder-to-armpit contact isolating the arm, broken posture maintained by shin control across the back, the trapped arm positioned across your centerline rather than retracted, sufficient hip flexibility to complete the leg swing over the head, and active core engagement to power the hip pivot. Missing any one condition significantly reduces success probability and may expose you to counter-attacks.",
+        "answer_line": "Deep overhook and broken posture",
+        "distractors": {
+          "plausible": [
+            "Loose overhook is good enough",
+            "Posture broken, arm fully free"
+          ],
+          "trap": [
+            "Skip shin control, go for speed"
+          ]
+        }
       },
       {
         "question": "What is the most critical hip movement during the armbar transition from New York?",
-        "answer": "The perpendicular hip pivot is the single most critical movement. You must rotate your hips from the guard-playing angle (roughly parallel to the opponent) to a perpendicular angle where your hip is directly adjacent to their shoulder joint. This pivot must be completed before the leg swings over the head, not simultaneously. Rushing the leg swing without achieving the proper hip angle results in a loose armbar where your hips are too far from the shoulder to generate effective extension leverage."
+        "answer": "The perpendicular hip pivot is the single most critical movement. You must rotate your hips from the guard-playing angle (roughly parallel to the opponent) to a perpendicular angle where your hip is directly adjacent to their shoulder joint. This pivot must be completed before the leg swings over the head, not simultaneously. Rushing the leg swing without achieving the proper hip angle results in a loose armbar where your hips are too far from the shoulder to generate effective extension leverage.",
+        "answer_line": "Pivot hips perpendicular first",
+        "distractors": {
+          "plausible": [
+            "Swing leg first, pivot after",
+            "Keep hips parallel to opponent"
+          ],
+          "trap": [
+            "Rush the leg swing immediately"
+          ]
+        }
       },
       {
         "question": "Your opponent posts their free hand on the mat during your armbar attempt — how do you adjust?",
-        "answer": "A posted hand signals they are trying to create a frame to resist the hip pivot or to base out for a stack defense. Immediately use your free hand to control their posting wrist, collapsing their base. If you cannot reach the wrist, accelerate the hip pivot and leg swing to establish the armbar before they can generate effective stacking pressure. Their posted arm is also now isolated from their body, potentially opening a secondary armbar or kimura opportunity if the primary attack is defended."
+        "answer": "A posted hand signals they are trying to create a frame to resist the hip pivot or to base out for a stack defense. Immediately use your free hand to control their posting wrist, collapsing their base. If you cannot reach the wrist, accelerate the hip pivot and leg swing to establish the armbar before they can generate effective stacking pressure. Their posted arm is also now isolated from their body, potentially opening a secondary armbar or kimura opportunity if the primary attack is defended.",
+        "answer_line": "Control the posting wrist",
+        "distractors": {
+          "plausible": [
+            "Ignore it and keep pivoting",
+            "Grab the far leg instead"
+          ],
+          "trap": [
+            "Release overhook to grab hand"
+          ]
+        }
       },
       {
         "question": "What grip configuration must you establish once the leg crosses the opponent's face?",
-        "answer": "Transition to a two-handed wrist grip with the opponent's thumb pointing toward the ceiling. Both hands should control near the wrist joint, pulling the arm tight against your chest centerline. The thumb-up orientation creates the most vulnerable angle for the elbow joint because it aligns the hyperextension plane directly with your hip elevation vector. Avoid gripping the forearm mid-shaft, which gives the opponent leverage to rotate out of the submission."
+        "answer": "Transition to a two-handed wrist grip with the opponent's thumb pointing toward the ceiling. Both hands should control near the wrist joint, pulling the arm tight against your chest centerline. The thumb-up orientation creates the most vulnerable angle for the elbow joint because it aligns the hyperextension plane directly with your hip elevation vector. Avoid gripping the forearm mid-shaft, which gives the opponent leverage to rotate out of the submission.",
+        "answer_line": "Two-hand wrist grip, thumb up",
+        "distractors": {
+          "plausible": [
+            "Grip mid-forearm with one hand",
+            "Thumb-down grip on the wrist"
+          ],
+          "trap": [
+            "Grab the sleeve, not the wrist"
+          ]
+        }
       },
       {
         "question": "Which direction should force be applied when working toward the armbar finish?",
-        "answer": "Force should be applied in two coordinated vectors simultaneously: hips drive upward toward the ceiling while hands pull the wrist downward toward your chest centerline. These perpendicular force vectors create maximum hyperextension pressure across the elbow joint. Pulling to the side rather than the centerline reduces leverage dramatically. The hip elevation is the primary force generator using large muscle groups, while the arm pull maintains control and direction."
+        "answer": "Force should be applied in two coordinated vectors simultaneously: hips drive upward toward the ceiling while hands pull the wrist downward toward your chest centerline. These perpendicular force vectors create maximum hyperextension pressure across the elbow joint. Pulling to the side rather than the centerline reduces leverage dramatically. The hip elevation is the primary force generator using large muscle groups, while the arm pull maintains control and direction.",
+        "answer_line": "Hips up, pull wrist down",
+        "distractors": {
+          "plausible": [
+            "Pull the arm out to the side",
+            "Push hips down, pull arm up"
+          ],
+          "trap": [
+            "Yank the wrist sideways hard"
+          ]
+        }
       },
       {
         "question": "Your opponent defends by bending their trapped arm and gripping their own wrist — what are your options?",
-        "answer": "When the opponent establishes a defensive grip by clasping their hands or gripping their own wrist, you have three high-percentage responses. First, use a wrist peel by isolating their gripping fingers and breaking the grip. Second, transition to an omoplata by releasing the armbar angle and rotating your body to catch their bent arm in the omoplata position. Third, apply a kimura grip on the bent arm to break their defensive connection. The key is recognizing that their bent arm defense opens these alternative attacks rather than continuing to fight for the straight armbar."
+        "answer": "When the opponent establishes a defensive grip by clasping their hands or gripping their own wrist, you have three high-percentage responses. First, use a wrist peel by isolating their gripping fingers and breaking the grip. Second, transition to an omoplata by releasing the armbar angle and rotating your body to catch their bent arm in the omoplata position. Third, apply a kimura grip on the bent arm to break their defensive connection. The key is recognizing that their bent arm defense opens these alternative attacks rather than continuing to fight for the straight armbar.",
+        "answer_line": "Wrist peel, omoplata, or kimura",
+        "distractors": {
+          "plausible": [
+            "Muscle through the straight armbar",
+            "Switch straight to triangle choke"
+          ],
+          "trap": [
+            "Let go and reset to guard"
+          ]
+        }
       },
       {
         "question": "How should you respond if the armbar attempt fails and you remain in New York?",
-        "answer": "If the armbar fails but you retain New York control, immediately re-establish the shin grip and return to the standard New York position. Do not attempt the same armbar entry again immediately, as the opponent is now primed to defend it. Instead, threaten a different attack pathway — progress toward Invisible Collar or Carni — to reset the opponent's defensive attention. After one or two different threats force them to adjust their defense, the armbar window often reopens as their attention divides between multiple threats."
+        "answer": "If the armbar fails but you retain New York control, immediately re-establish the shin grip and return to the standard New York position. Do not attempt the same armbar entry again immediately, as the opponent is now primed to defend it. Instead, threaten a different attack pathway — progress toward Invisible Collar or Carni — to reset the opponent's defensive attention. After one or two different threats force them to adjust their defense, the armbar window often reopens as their attention divides between multiple threats.",
+        "answer_line": "Reset grip, threaten new attack",
+        "distractors": {
+          "plausible": [
+            "Immediately retry the same armbar",
+            "Abandon New York for closed guard"
+          ],
+          "trap": [
+            "Force the same armbar repeatedly"
+          ]
+        }
       },
       {
         "question": "What distinguishes the armbar from New York from a standard closed guard armbar entry?",
-        "answer": "The fundamental difference is the pre-existing arm isolation provided by the overhook. In closed guard, the armbar requires the bottom player to create arm isolation from scratch using grips, angles, and posture breaking. In New York, the overhook already has one arm fully trapped, eliminating the most difficult step of the armbar setup. This means the New York armbar requires fewer transitional steps, has a shorter execution time, and catches defenders off-guard because the arm is already compromised before the armbar motion begins. The trade-off is that New York requires significant hip flexibility to maintain and to execute the leg swing."
+        "answer": "The fundamental difference is the pre-existing arm isolation provided by the overhook. In closed guard, the armbar requires the bottom player to create arm isolation from scratch using grips, angles, and posture breaking. In New York, the overhook already has one arm fully trapped, eliminating the most difficult step of the armbar setup. This means the New York armbar requires fewer transitional steps, has a shorter execution time, and catches defenders off-guard because the arm is already compromised before the armbar motion begins. The trade-off is that New York requires significant hip flexibility to maintain and to execute the leg swing.",
+        "answer_line": "Overhook already isolates the arm",
+        "distractors": {
+          "plausible": [
+            "Needs more grips to set up",
+            "Requires breaking posture first"
+          ],
+          "trap": [
+            "Requires no hip flexibility"
+          ]
+        }
       },
       {
         "question": "During positional sparring, your armbar attempts from New York keep failing at the leg swing stage — what should you troubleshoot?",
-        "answer": "Consistent failure at the leg swing stage points to three common issues: insufficient hip pivot before the swing, inadequate posture breakdown allowing the opponent to block the leg, or insufficient hip flexibility. First verify your hip pivot reaches at least 70 degrees before initiating the swing. Second, check that the opponent's head is at or below your chest level before releasing the shin. Third, if flexibility is the limitation, practice the leg swing solo with progressive stretching and consider the shin-walk variation that gradually walks the leg over rather than swinging in one motion."
+        "answer": "Consistent failure at the leg swing stage points to three common issues: insufficient hip pivot before the swing, inadequate posture breakdown allowing the opponent to block the leg, or insufficient hip flexibility. First verify your hip pivot reaches at least 70 degrees before initiating the swing. Second, check that the opponent's head is at or below your chest level before releasing the shin. Third, if flexibility is the limitation, practice the leg swing solo with progressive stretching and consider the shin-walk variation that gradually walks the leg over rather than swinging in one motion.",
+        "answer_line": "Check pivot angle and posture",
+        "distractors": {
+          "plausible": [
+            "Swing leg harder and faster",
+            "Grip tighter on the overhook"
+          ],
+          "trap": [
+            "Skip the pivot, force the swing"
+          ]
+        }
       }
     ],
-    "safety_considerations": "The armbar from New York applies significant hyperextension force to the elbow joint. Always apply extension pressure gradually during training and respect your partner's tap immediately. The transition from rubber guard to armbar can happen quickly, catching defenders off-guard before they recognize the submission threat. Communicate with your training partner about the intensity of your attacks. In drilling, release immediately upon feeling the arm straighten to prevent ligament damage. Be especially cautious with less experienced partners who may not recognize the armbar setup from the unfamiliar rubber guard position. The hip flexibility demands of this technique can also cause groin or hip flexor strain in the attacker — warm up thoroughly before drilling and respect your own physical limits during the leg swing phase."
+    "safety_considerations": "The armbar from New York applies significant hyperextension force to the elbow joint. Always apply extension pressure gradually during training and respect your partner's tap immediately. The transition from rubber guard to armbar can happen quickly, catching defenders off-guard before they recognize the submission threat. Communicate with your training partner about the intensity of your attacks. In drilling, release immediately upon feeling the arm straighten to prevent ligament damage. Be especially cautious with less experienced partners who may not recognize the armbar setup from the unfamiliar rubber guard position. The hip flexibility demands of this technique can also cause groin or hip flexor strain in the attacker — warm up thoroughly before drilling and respect your own physical limits during the leg swing phase.",
+    "clips": [
+      {
+        "id": "jT4wPY2Dc_U",
+        "title": "Dead Orchard armbar from rubber guard",
+        "by": "Eddie Bravo",
+        "vertical": false,
+        "channel": "James O'Brien",
+        "duration": 88,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "fME3fkrrZcA",
+        "title": "Invisible armbar from rubber guard",
+        "by": "mean gene",
+        "vertical": false,
+        "channel": "mean gene",
+        "duration": 109,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "htWNfAakkAY",
+        "title": "Mexican Dead Orchard setup",
+        "by": "Eddie Bravo",
+        "vertical": false,
+        "channel": "Eddie Bravo",
+        "duration": 61,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Armbar from New York Defender",
@@ -375,23 +516,73 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that an armbar from New York is being initiated?",
-        "answer": "The earliest cue is the opponent releasing their grip on their own shin while maintaining the overhook. In standard New York, the shin grip is essential for maintaining the rubber guard structure. When this grip releases, it signals the opponent is transitioning to an attack — most commonly the armbar. This release creates a brief window where the overhook tension may also decrease slightly, which is your best opportunity for defensive action before the hip pivot and leg swing progress."
+        "answer": "The earliest cue is the opponent releasing their grip on their own shin while maintaining the overhook. In standard New York, the shin grip is essential for maintaining the rubber guard structure. When this grip releases, it signals the opponent is transitioning to an attack — most commonly the armbar. This release creates a brief window where the overhook tension may also decrease slightly, which is your best opportunity for defensive action before the hip pivot and leg swing progress.",
+        "answer_line": "Opponent releases their shin grip",
+        "distractors": {
+          "plausible": [
+            "Opponent's overhook gets tighter",
+            "Opponent's posture fully breaks"
+          ],
+          "trap": [
+            "Wait for the leg to cross first"
+          ]
+        }
       },
       {
         "question": "Why is stacking forward more effective than pulling backward when defending this armbar?",
-        "answer": "Stacking forward attacks the root mechanic of the armbar from New York — the hip pivot. The opponent needs to rotate their hips perpendicular to your body to establish armbar angle, and this rotation requires hip space and mobility. Forward stacking pressure flattens their hips against the mat, physically preventing the pivot. Pulling backward, conversely, creates the exact space the opponent needs for the pivot and removes your body weight from the equation, making the leg swing over your head easier to complete."
+        "answer": "Stacking forward attacks the root mechanic of the armbar from New York — the hip pivot. The opponent needs to rotate their hips perpendicular to your body to establish armbar angle, and this rotation requires hip space and mobility. Forward stacking pressure flattens their hips against the mat, physically preventing the pivot. Pulling backward, conversely, creates the exact space the opponent needs for the pivot and removes your body weight from the equation, making the leg swing over your head easier to complete.",
+        "answer_line": "Stacking flattens hips, kills pivot",
+        "distractors": {
+          "plausible": [
+            "Pulling back removes pressure fast",
+            "Both directions work equally well"
+          ],
+          "trap": [
+            "Pull back to create escape space"
+          ]
+        }
       },
       {
         "question": "Your arm is partially trapped and the opponent has begun pivoting but the leg has not yet crossed your face — what sequence should you execute?",
-        "answer": "This is the critical defensive window. Execute three actions in rapid sequence: first, bend your trapped arm aggressively and turn your thumb toward your body to strengthen the elbow structure. Second, use your free hand to push against the leg that is beginning to swing over, blocking or redirecting it downward. Third, simultaneously drive your weight forward into a stacking position to flatten the opponent's hips and halt the pivot. If you can prevent the leg from crossing while stacking, the armbar attempt fails and you return to New York top position."
+        "answer": "This is the critical defensive window. Execute three actions in rapid sequence: first, bend your trapped arm aggressively and turn your thumb toward your body to strengthen the elbow structure. Second, use your free hand to push against the leg that is beginning to swing over, blocking or redirecting it downward. Third, simultaneously drive your weight forward into a stacking position to flatten the opponent's hips and halt the pivot. If you can prevent the leg from crossing while stacking, the armbar attempt fails and you return to New York top position.",
+        "answer_line": "Bend arm, block leg, stack forward",
+        "distractors": {
+          "plausible": [
+            "Pull elbow out, ignore the leg",
+            "Turn away and give up the back"
+          ],
+          "trap": [
+            "Straighten arm to slip it free"
+          ]
+        }
       },
       {
         "question": "How do you identify whether to attempt arm extraction or stacking defense against this armbar?",
-        "answer": "The decision depends on the overhook depth and the stage of the transition. If the overhook has loosened noticeably during the shin release — you can feel slack around your tricep — arm extraction is viable because the primary retention mechanism is compromised. If the overhook remains deep and tight, extraction will likely fail and waste energy, so stacking defense is the better option. As a general rule, if you cannot move your elbow more than a few inches toward your hip, commit to stacking rather than fighting an overhook you cannot break."
+        "answer": "The decision depends on the overhook depth and the stage of the transition. If the overhook has loosened noticeably during the shin release — you can feel slack around your tricep — arm extraction is viable because the primary retention mechanism is compromised. If the overhook remains deep and tight, extraction will likely fail and waste energy, so stacking defense is the better option. As a general rule, if you cannot move your elbow more than a few inches toward your hip, commit to stacking rather than fighting an overhook you cannot break.",
+        "answer_line": "Extract if loose, stack if tight",
+        "distractors": {
+          "plausible": [
+            "Always extract, regardless of grip",
+            "Always stack no matter what"
+          ],
+          "trap": [
+            "Fight the tight overhook to extract"
+          ]
+        }
       },
       {
         "question": "What should your defensive priorities be if the armbar is already fully established with knees pinched?",
-        "answer": "Once the armbar is fully established, switch to standard armbar defense principles: keep your arm bent at all costs with thumb pointing toward the ceiling, grip your own wrist with your free hand to reinforce the bend, and begin stacking by driving your hips forward and walking your feet toward the opponent's head. Control the leg across your face by pushing it toward the opponent with your free hand when available. The goal shifts from preventing the armbar to surviving it long enough to execute a hitchhiker escape or stack pass. Accept that escape from this stage is significantly harder and requires patience and technical precision."
+        "answer": "Once the armbar is fully established, switch to standard armbar defense principles: keep your arm bent at all costs with thumb pointing toward the ceiling, grip your own wrist with your free hand to reinforce the bend, and begin stacking by driving your hips forward and walking your feet toward the opponent's head. Control the leg across your face by pushing it toward the opponent with your free hand when available. The goal shifts from preventing the armbar to surviving it long enough to execute a hitchhiker escape or stack pass. Accept that escape from this stage is significantly harder and requires patience and technical precision.",
+        "answer_line": "Bend arm, grip wrist, stack up",
+        "distractors": {
+          "plausible": [
+            "Straighten arm to reduce pain",
+            "Pull the trapped arm free fast"
+          ],
+          "trap": [
+            "Relax the arm to wait it out"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -414,6 +605,17 @@
         "phase": "Live positional defense",
         "focus": "Full resistance armbar defense from New York",
         "description": "Full positional sparring starting from New York where the bottom player can attempt any attack but prioritizes the armbar. Defender works all available defensive tools against realistic timing and pressure. Rounds are 3 minutes with the goal of escaping to closed guard or surviving the full round without being submitted. Progressive resistance from 50% to full competition intensity."
+      }
+    ],
+    "clips": [
+      {
+        "id": "kNdKfUdgO4I",
+        "title": "Armbar escape",
+        "by": "Matt Arroyo",
+        "vertical": false,
+        "channel": "Matt Arroyo Jiu Jitsu ",
+        "duration": 92,
+        "verified": "2026-07-15"
       }
     ]
   }

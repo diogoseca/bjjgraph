@@ -176,6 +176,43 @@ description: "Learn to attack the toe hold from Inside Sankaku with expert grip 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Toe Hold from Inside Sankaku (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Inside Sankaku Toe Hold and Heel Hook Finishes",
+      "description": "Toe Hold from Inside Sankaku (Attacker) film study: Inside Sankaku Toe Hold and Heel Hook Finishes, taught by Professor Buck.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/lyF2GxQrLoQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/lyF2GxQrLoQ",
+      "url": "https://www.youtube.com/watch?v=lyF2GxQrLoQ",
+      "creator": { "@type": "Person", "name": "Professor Buck" },
+      "duration": "PT106S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Inside Sankaku Entries",
+      "description": "Toe Hold from Inside Sankaku (Attacker) film study: Inside Sankaku Entries, taught by Dynamic Martial Arts Roseburg.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Jn_JST6ZJ3o/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Jn_JST6ZJ3o",
+      "url": "https://www.youtube.com/watch?v=Jn_JST6ZJ3o",
+      "creator": { "@type": "Person", "name": "Dynamic Martial Arts Roseburg" },
+      "duration": "PT138S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -186,6 +223,34 @@ Attacking the toe hold from Inside Sankaku requires maintaining your leg entangl
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Toe Hold from Inside Sankaku (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=lyF2GxQrLoQ)
+
+<p class="clip-credit"><strong>Inside Sankaku Toe Hold and Heel Hook Finishes</strong> — taught by Professor Buck · 1:46 · <a href="https://www.youtube.com/watch?v=lyF2GxQrLoQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Jn_JST6ZJ3o)
+
+<p class="clip-credit"><strong>Inside Sankaku Entries</strong> — taught by Dynamic Martial Arts Roseburg · 2:18 · <a href="https://www.youtube.com/watch?v=Jn_JST6ZJ3o" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

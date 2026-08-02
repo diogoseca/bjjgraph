@@ -389,43 +389,163 @@
   "flashcards": [
     {
       "question": "What is the single highest priority when defending from an inferior position in BJJ?",
-      "answer": "Immediate submission survival always takes absolute priority over positional improvement; you defend the choke or joint lock first and only attempt to escape the position once the submission threat is neutralized."
+      "answer": "Immediate submission survival always takes absolute priority over positional improvement; you defend the choke or joint lock first and only attempt to escape the position once the submission threat is neutralized.",
+      "answer_line": "Defend submission before escaping",
+      "distractors": {
+        "plausible": [
+          "Escape position immediately",
+          "Fix grips before defending"
+        ],
+        "trap": [
+          "Ignore threat, scramble to top"
+        ]
+      }
     },
     {
       "question": "Why is staged defensive progression more effective than attempting an immediate full escape?",
-      "answer": "Working through survive, frame, create space, then recover guard keeps you stable at each step, whereas jumping straight to a full escape removes frames and opens space the opponent can exploit to advance or submit."
+      "answer": "Working through survive, frame, create space, then recover guard keeps you stable at each step, whereas jumping straight to a full escape removes frames and opens space the opponent can exploit to advance or submit.",
+      "answer_line": "Survive, frame, space, guard",
+      "distractors": {
+        "plausible": [
+          "Jump straight to full escape",
+          "Recover guard before framing"
+        ],
+        "trap": [
+          "Rush escape and drop frames"
+        ]
+      }
     },
     {
       "question": "How should you allocate energy across multiple simultaneous threats?",
-      "answer": "Rank threats hierarchically (submission first, positional advance second, minor discomfort last) and pour the bulk of your effort into the highest-priority danger instead of spreading attention thinly across all of them."
+      "answer": "Rank threats hierarchically (submission first, positional advance second, minor discomfort last) and pour the bulk of your effort into the highest-priority danger instead of spreading attention thinly across all of them.",
+      "answer_line": "Focus effort on top threat",
+      "distractors": {
+        "plausible": [
+          "Split effort evenly across all",
+          "Address minor discomfort first"
+        ],
+        "trap": [
+          "Ignore submission, chase position"
+        ]
+      }
     },
     {
       "question": "When is explosive effort appropriate during defense, and when is it a mistake?",
-      "answer": "Save explosive bursts for specific high-percentage escape windows; constant explosive struggling against a stable pin only burns energy, accelerates fatigue, and leads to defensive collapse before any escape succeeds."
+      "answer": "Save explosive bursts for specific high-percentage escape windows; constant explosive struggling against a stable pin only burns energy, accelerates fatigue, and leads to defensive collapse before any escape succeeds.",
+      "answer_line": "Save bursts for real escape windows",
+      "distractors": {
+        "plausible": [
+          "Explode constantly to escape",
+          "Match opponent's pace always"
+        ],
+        "trap": [
+          "Burn all energy right away"
+        ]
+      }
     },
     {
       "question": "What role do frames play within defensive concepts?",
-      "answer": "Frames are the structural foundation of defense — forearms, knees, and shins inserted to halt the opponent's advance and create escaping space; if frames collapse, re-establishing them takes priority over escaping."
+      "answer": "Frames are the structural foundation of defense — forearms, knees, and shins inserted to halt the opponent's advance and create escaping space; if frames collapse, re-establishing them takes priority over escaping.",
+      "answer_line": "Frames stop advance, enable space",
+      "distractors": {
+        "plausible": [
+          "Frames are optional if strong",
+          "Escape first, framing later"
+        ],
+        "trap": [
+          "Abandon frames to scramble free"
+        ]
+      }
     },
     {
       "question": "Why should you maintain offensive awareness even while defending?",
-      "answer": "Opponents who overcommit to attacks expose sweeps, reversals, and submissions; a purely reactive mindset misses these counter-attack windows, so the best defense often converts an opponent's aggression into your offense."
+      "answer": "Opponents who overcommit to attacks expose sweeps, reversals, and submissions; a purely reactive mindset misses these counter-attack windows, so the best defense often converts an opponent's aggression into your offense.",
+      "answer_line": "Watch for counters as they attack",
+      "distractors": {
+        "plausible": [
+          "Stay fully passive and defensive",
+          "Wait until fully escaped to attack"
+        ],
+        "trap": [
+          "Attack recklessly ignoring defense"
+        ]
+      }
     },
     {
       "question": "What is the danger of over-investing energy to escape a non-threatening position like side control?",
-      "answer": "Positions that allow safe defensive maintenance don't demand immediate escape; exhausting yourself there leaves no reserves for defending genuine submission threats or worse positions that develop later in the match."
+      "answer": "Positions that allow safe defensive maintenance don't demand immediate escape; exhausting yourself there leaves no reserves for defending genuine submission threats or worse positions that develop later in the match.",
+      "answer_line": "Conserve energy, position is safe",
+      "distractors": {
+        "plausible": [
+          "Escape side control immediately",
+          "Match effort across all positions"
+        ],
+        "trap": [
+          "Exhaust yourself escaping every pin"
+        ]
+      }
     },
     {
       "question": "How does preventive positioning differ from reactive escaping?",
-      "answer": "Preventive positioning uses anticipatory framing and base to stop a dominant position from ever being fully established, rather than waiting until the opponent has full control and only then trying to escape reactively."
+      "answer": "Preventive positioning uses anticipatory framing and base to stop a dominant position from ever being fully established, rather than waiting until the opponent has full control and only then trying to escape reactively.",
+      "answer_line": "Prevent control before it's set",
+      "distractors": {
+        "plausible": [
+          "Wait, then escape once pinned",
+          "React only after full mount"
+        ],
+        "trap": [
+          "Ignore early frames, escape later"
+        ]
+      }
     },
     {
       "question": "What distinguishes a beginner's defensive response from an expert's under heavy pressure?",
-      "answer": "Beginners panic, struggle explosively, and treat all threats as equally urgent; experts stay composed, prioritize threats accurately, progress through staged defense, and calmly exploit counter-attack opportunities."
+      "answer": "Beginners panic, struggle explosively, and treat all threats as equally urgent; experts stay composed, prioritize threats accurately, progress through staged defense, and calmly exploit counter-attack opportunities.",
+      "answer_line": "Prioritize threats, stay composed",
+      "distractors": {
+        "plausible": [
+          "Treat all threats equally urgent",
+          "Explode against every pressure"
+        ],
+        "trap": [
+          "Panic and struggle against pressure"
+        ]
+      }
     },
     {
       "question": "Why is psychological composure considered a core defensive skill rather than just a mindset?",
-      "answer": "Calm, regulated breathing and technical focus prevent the panic responses that cause practitioners to abandon sound structure; without composure even technically capable defenders collapse under sustained pressure."
+      "answer": "Calm, regulated breathing and technical focus prevent the panic responses that cause practitioners to abandon sound structure; without composure even technically capable defenders collapse under sustained pressure.",
+      "answer_line": "Composure prevents panic collapse",
+      "distractors": {
+        "plausible": [
+          "Physical strength matters most",
+          "Technique alone stops panic"
+        ],
+        "trap": [
+          "Force through with pure aggression"
+        ]
+      }
+    }
+  ],
+  "clips": [
+    {
+      "id": "ce_0XT1BBQA",
+      "title": "Guard retention and defensive structure",
+      "by": "John Danaher",
+      "vertical": false,
+      "channel": "Bernardo Faria BJJ Fanatics",
+      "duration": 1251,
+      "verified": "2026-07-15"
+    },
+    {
+      "id": "775gXyYzB08",
+      "title": "The first five escapes you need to know",
+      "by": "Knight Jiu-Jitsu",
+      "vertical": false,
+      "channel": "Knight Jiu-Jitsu",
+      "duration": 521,
+      "verified": "2026-07-15"
     }
   ]
 }

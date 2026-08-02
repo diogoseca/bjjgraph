@@ -34,6 +34,32 @@ description: "Master the Turn to Face escape from Zombie position in BJJ. Learn 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Turn to Face from Zombie \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Two simple rubber guard tips",
+      "description": "Turn to Face from Zombie film study: Two simple rubber guard tips, taught by Brandon McCaghren.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/cY1xCIx-9-I/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/cY1xCIx-9-I",
+      "url": "https://www.youtube.com/watch?v=cY1xCIx-9-I",
+      "creator": { "@type": "Person", "name": "Brandon McCaghren" },
+      "duration": "PT57S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +95,26 @@ Successfully executing this transition shifts the positional dynamic dramaticall
 **Success Rate**: 55%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Turn to Face from Zombie in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=cY1xCIx-9-I)
+
+<p class="clip-credit"><strong>Two simple rubber guard tips</strong> — taught by Brandon McCaghren · 0:57 · <a href="https://www.youtube.com/watch?v=cY1xCIx-9-I" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

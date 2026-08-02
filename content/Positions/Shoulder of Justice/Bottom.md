@@ -21,37 +21,37 @@ description: "Defend against intense shoulder pressure in Shoulder of Justice Bo
     {
       "@type": "HowToStep",
       "name": "Execute Shrimp Escape",
-      "text": "From this position, attempt Shrimp Escape. This technique is attempted in 36% of exchanges from this position.",
+      "text": "From this position, attempt Shrimp Escape. This technique is attempted in 10% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Elbow Escape to Guard",
-      "text": "From this position, attempt Elbow Escape to Guard. This technique is attempted in 18% of exchanges from this position.",
+      "text": "From this position, attempt Elbow Escape to Guard. This technique is attempted in 12% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Frame and Shrimp to Guard",
-      "text": "From this position, attempt Frame and Shrimp to Guard. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt Frame and Shrimp to Guard. This technique is attempted in 14% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Bridge and Roll",
-      "text": "From this position, attempt Bridge and Roll. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Bridge and Roll. This technique is attempted in 7% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Technical Stand-up",
-      "text": "From this position, attempt Technical Stand-up. This technique is attempted in 9% of exchanges from this position.",
+      "text": "From this position, attempt Technical Stand-up. This technique is attempted in 6% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Hip Escape to Guard",
-      "text": "From this position, attempt Hip Escape to Guard. This technique is attempted in 7% of exchanges from this position.",
+      "text": "From this position, attempt Hip Escape to Guard. This technique is attempted in 12% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -154,6 +154,54 @@ description: "Defend against intense shoulder pressure in Shoulder of Justice Bo
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Shoulder of Justice (Bottom) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Side Control Escape: Reverse Hip Escape",
+      "description": "Shoulder of Justice (Bottom) film study: Side Control Escape: Reverse Hip Escape, taught by Fox Den Martial Arts.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/4L25UQntnPg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/4L25UQntnPg",
+      "url": "https://www.youtube.com/watch?v=4L25UQntnPg",
+      "creator": { "@type": "Person", "name": "Fox Den Martial Arts" },
+      "duration": "PT25S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Bump \u0027n Roll Side Control Escape",
+      "description": "Shoulder of Justice (Bottom) film study: Bump \u0027n Roll Side Control Escape, taught by PIOT.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Zw_QEoWDvcw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Zw_QEoWDvcw",
+      "url": "https://www.youtube.com/watch?v=Zw_QEoWDvcw",
+      "creator": { "@type": "Person", "name": "PIOT" },
+      "duration": "PT82S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Shoulder Crunch Side Control Escape",
+      "description": "Shoulder of Justice (Bottom) film study: Shoulder Crunch Side Control Escape, taught by Cauliflower Ear Family.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/-Jib9G-LM-M/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/-Jib9G-LM-M",
+      "url": "https://www.youtube.com/watch?v=-Jib9G-LM-M",
+      "creator": { "@type": "Person", "name": "Cauliflower Ear Family" },
+      "duration": "PT188S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <aside class="entity-relations">
@@ -166,6 +214,42 @@ The Shoulder of Justice Bottom position represents one of the most uncomfortable
 From the bottom perspective, your primary objective is to relieve the shoulder pressure while preventing submissions and creating opportunities for escape or guard recovery. The psychological challenge of this position is significant - the pressure is designed to force reactive movements that open offensive pathways for your opponent. Understanding the dilemma structure inherent in this position is critical: attempting to push away with your near arm exposes you to kimuras, turning away opens north-south transitions, shrimping allows mount advancement, and bringing your far arm across creates arm triangle opportunities. Success from bottom requires patience, proper breathing techniques, systematic pressure relief, and recognition of genuine escape windows rather than reactive desperation movements that play into your opponent's control strategy.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Shoulder of Justice (Bottom) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=4L25UQntnPg)
+
+<p class="clip-credit"><strong>Side Control Escape: Reverse Hip Escape</strong> — taught by Fox Den Martial Arts · 0:25 · <a href="https://www.youtube.com/watch?v=4L25UQntnPg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Zw_QEoWDvcw)
+
+<p class="clip-credit"><strong>Bump &#39;n Roll Side Control Escape</strong> — taught by PIOT · 1:22 · <a href="https://www.youtube.com/watch?v=Zw_QEoWDvcw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=-Jib9G-LM-M)
+
+<p class="clip-credit"><strong>Shoulder Crunch Side Control Escape</strong> — taught by Cauliflower Ear Family · 3:08 · <a href="https://www.youtube.com/watch?v=-Jib9G-LM-M" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

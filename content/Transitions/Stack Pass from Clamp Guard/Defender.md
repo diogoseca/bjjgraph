@@ -134,6 +134,54 @@ description: "Defend and counter the Stack Pass from Clamp Guard in BJJ. Recogni
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Stack Pass from Clamp Guard (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Defending the stack pass in no-gi",
+      "description": "Stack Pass from Clamp Guard (Defender) film study: Defending the stack pass in no-gi, taught by Matt Serra.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Y6R29wW_KrU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Y6R29wW_KrU",
+      "url": "https://www.youtube.com/watch?v=Y6R29wW_KrU",
+      "creator": { "@type": "Person", "name": "Matt Serra" },
+      "duration": "PT158S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Guard Retention Against Stack Passing",
+      "description": "Stack Pass from Clamp Guard (Defender) film study: Guard Retention Against Stack Passing, taught by Jon Thomas.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/DMUuThQPX4M/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/DMUuThQPX4M",
+      "url": "https://www.youtube.com/watch?v=DMUuThQPX4M",
+      "creator": { "@type": "Person", "name": "Jon Thomas" },
+      "duration": "PT303S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Top 5 Guard Retention Mistakes",
+      "description": "Stack Pass from Clamp Guard (Defender) film study: Top 5 Guard Retention Mistakes, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/iTrQzYeCvHM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/iTrQzYeCvHM",
+      "url": "https://www.youtube.com/watch?v=iTrQzYeCvHM",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT436S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -143,6 +191,42 @@ Defending the Stack Pass from Clamp Guard requires recognizing the opponent's fo
 **Opponent's Starting Position**: [[Positions/Clamp Guard]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Stack Pass from Clamp Guard (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Y6R29wW_KrU)
+
+<p class="clip-credit"><strong>Defending the stack pass in no-gi</strong> — taught by Matt Serra · 2:38 · <a href="https://www.youtube.com/watch?v=Y6R29wW_KrU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=DMUuThQPX4M)
+
+<p class="clip-credit"><strong>Guard Retention Against Stack Passing</strong> — taught by Jon Thomas · 5:03 · <a href="https://www.youtube.com/watch?v=DMUuThQPX4M" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=iTrQzYeCvHM)
+
+<p class="clip-credit"><strong>Top 5 Guard Retention Mistakes</strong> — taught by Lachlan Giles · 7:16 · <a href="https://www.youtube.com/watch?v=iTrQzYeCvHM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

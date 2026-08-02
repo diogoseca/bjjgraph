@@ -144,6 +144,54 @@ description: "Defend the Breadcutter Choke from Side Control. Recognition cues, 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Breadcutter Choke from Side Control (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Paper Cutter Choke Counter",
+      "description": "Breadcutter Choke from Side Control (Defender) film study: Paper Cutter Choke Counter, taught by Gracie Barra HQ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/gwqRwPsnNnQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/gwqRwPsnNnQ",
+      "url": "https://www.youtube.com/watch?v=gwqRwPsnNnQ",
+      "creator": { "@type": "Person", "name": "Gracie Barra HQ" },
+      "duration": "PT195S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "A more effective side control escape",
+      "description": "Breadcutter Choke from Side Control (Defender) film study: A more effective side control escape, taught by Wim Deputter.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/WxoD5sDUyW4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/WxoD5sDUyW4",
+      "url": "https://www.youtube.com/watch?v=WxoD5sDUyW4",
+      "creator": { "@type": "Person", "name": "Wim Deputter" },
+      "duration": "PT206S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Gi side control escape before the paper cutter",
+      "description": "Breadcutter Choke from Side Control (Defender) film study: Gi side control escape before the paper cutter, taught by Steve Codella.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Us1B8R7jsHg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Us1B8R7jsHg",
+      "url": "https://www.youtube.com/watch?v=Us1B8R7jsHg",
+      "creator": { "@type": "Person", "name": "Steve Codella" },
+      "duration": "PT147S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -154,6 +202,42 @@ Defending the Breadcutter Choke from Side Control requires early recognition of 
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Breadcutter Choke from Side Control (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=gwqRwPsnNnQ)
+
+<p class="clip-credit"><strong>Paper Cutter Choke Counter</strong> — taught by Gracie Barra HQ · 3:15 · <a href="https://www.youtube.com/watch?v=gwqRwPsnNnQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=WxoD5sDUyW4)
+
+<p class="clip-credit"><strong>A more effective side control escape</strong> — taught by Wim Deputter · 3:26 · <a href="https://www.youtube.com/watch?v=WxoD5sDUyW4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Us1B8R7jsHg)
+
+<p class="clip-credit"><strong>Gi side control escape before the paper cutter</strong> — taught by Steve Codella · 2:27 · <a href="https://www.youtube.com/watch?v=Us1B8R7jsHg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

@@ -34,6 +34,43 @@ description: "Master the knee slice pass from knee shield half guard. Expert gui
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Knee Slice from Knee Shield \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Inside knee cut through the knee shield",
+      "description": "Knee Slice from Knee Shield film study: Inside knee cut through the knee shield, taught by War Room Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/yj_6xcl2emA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/yj_6xcl2emA",
+      "url": "https://www.youtube.com/watch?v=yj_6xcl2emA",
+      "creator": { "@type": "Person", "name": "War Room Jiu Jitsu" },
+      "duration": "PT70S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Knee slice pass fundamentals",
+      "description": "Knee Slice from Knee Shield film study: Knee slice pass fundamentals, taught by Marra Senki Jiujitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/j9DDQ_bkLVA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/j9DDQ_bkLVA",
+      "url": "https://www.youtube.com/watch?v=j9DDQ_bkLVA",
+      "creator": { "@type": "Person", "name": "Marra Senki Jiujitsu" },
+      "duration": "PT60S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +106,34 @@ At the competitive level, the knee slice from knee shield has become a cornersto
 **Success Rate**: 55%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Knee Slice from Knee Shield in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=yj_6xcl2emA)
+
+<p class="clip-credit"><strong>Inside knee cut through the knee shield</strong> — taught by War Room Jiu Jitsu · 1:10 · <a href="https://www.youtube.com/watch?v=yj_6xcl2emA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=j9DDQ_bkLVA)
+
+<p class="clip-credit"><strong>Knee slice pass fundamentals</strong> — taught by Marra Senki Jiujitsu · 1:00 · <a href="https://www.youtube.com/watch?v=j9DDQ_bkLVA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

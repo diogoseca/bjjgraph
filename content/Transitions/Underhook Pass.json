@@ -15,26 +15,41 @@
   "outcomes": [
     {
       "to": "Side Control/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Half Guard/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     },
     {
       "to": "Dogfight Position/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "Few half-guard exchanges are decided as cleanly as the underhook battle, and the Underhook Pass is the technique that cashes that battle in for a completed pass. It exploits the powerful control provided by securing an underhook on the bottom player's far side, combined with strategic weight distribution and hip pressure to flatten the opponent and clear the leg entanglement. The technique is built on the principle of controlling the opponent's shoulder and hip simultaneously, creating a cross-body pressure system that limits their defensive frames and movement options.\n\nThe underhook provides both offensive control and defensive protection, preventing the bottom player from establishing their own underhook or recovering full guard. This pass is particularly effective against players who rely on knee shield or traditional half guard retention, as it addresses their primary defensive structures through systematic breakdown and methodical advancement. Against high-level opponents who actively battle for the underhook, the pass becomes a chess match of upper body positioning where the first player to secure a deep underhook gains a decisive mechanical advantage.\n\nThe Underhook Pass integrates naturally with other pressure passing sequences, creating a branching decision tree where the opponent's defensive reactions determine whether you complete the pass directly, transition to a knee cut, or follow their movement to a back take. This adaptability makes it a cornerstone technique for any practitioner developing a systematic half guard passing game.",
   "related_content": [
     {
@@ -249,54 +264,194 @@
     "flashcards": [
       {
         "question": "Why is securing the underhook before attempting to flatten the opponent critical to the success of this pass?",
-        "answer": "The underhook provides the primary control mechanism that prevents the bottom player from turning into you or establishing their own underhook. Without it, the opponent can easily create frames, turn to face you, or initiate sweeps. The underhook acts as both offensive control (allowing you to manipulate their posture) and defensive protection (preventing their offensive options from half guard). Attempting to flatten without the underhook results in a scramble situation where the bottom player has equal or superior control options."
+        "answer": "The underhook provides the primary control mechanism that prevents the bottom player from turning into you or establishing their own underhook. Without it, the opponent can easily create frames, turn to face you, or initiate sweeps. The underhook acts as both offensive control (allowing you to manipulate their posture) and defensive protection (preventing their offensive options from half guard). Attempting to flatten without the underhook results in a scramble situation where the bottom player has equal or superior control options.",
+        "answer_line": "Stops them turning back into you",
+        "distractors": {
+          "plausible": [
+            "Crossface matters more than hook",
+            "Flatten first, secure hook after"
+          ],
+          "trap": [
+            "Rush the pass without underhook"
+          ]
+        }
       },
       {
         "question": "What is the primary purpose of controlling the opponent's near hip during the underhook pass, and what happens if this control is neglected?",
-        "answer": "Controlling the near hip prevents the opponent from using hip escape (shrimping) movements to create the angle and distance needed to recover full guard or initiate sweeps. The hip is the mobility center of the bottom player's defensive movement. Without this control, even with good underhook and crossface, the opponent can shrimp away, creating space to re-establish their guard structure or insert knee shields. The near hip control works in conjunction with the underhook to create a pinning system that immobilizes the opponent's core."
+        "answer": "Controlling the near hip prevents the opponent from shrimping to create the angle and distance needed to recover guard or initiate sweeps. The hip is the mobility center of the bottom player's defensive movement. Without this control, even with a good underhook and crossface, the opponent can hip escape away, creating space to re-establish their guard structure or insert knee shields. The near hip control works in conjunction with the underhook to create a pinning system that immobilizes the opponent's core.",
+        "distractors": {
+          "plausible": [
+            "Underhook alone controls the hip",
+            "Crossface handles hip mobility"
+          ],
+          "trap": [
+            "Reach for the far leg, get swept"
+          ]
+        },
+        "answer_line": "Blocks the shrimp to recover guard"
       },
       {
         "question": "Explain the biomechanical principle behind driving your shoulder into the opponent's chest while maintaining the underhook, and how this creates a flattening effect?",
-        "answer": "The shoulder drive creates a cross-body lever system where opposing forces work simultaneously. The underhook pulls their far shoulder toward you while your near shoulder pushes their near shoulder away from you. This creates rotational torque that flattens their spine against the mat. Additionally, the shoulder pressure on the chest restricts diaphragm expansion, making it uncomfortable to maintain a defensive posture on their side. The weight distribution through the shoulder transfers your body mass efficiently onto their frame, collapsing their structure without requiring you to lift your hips, which would create escape space."
+        "answer": "The shoulder drive creates a cross-body lever system where opposing forces work simultaneously. The underhook pulls their far shoulder toward you while your near shoulder pushes their near shoulder away from you. This creates rotational torque that flattens their spine against the mat. Additionally, the shoulder pressure on the chest restricts diaphragm expansion, making it uncomfortable to maintain a defensive posture on their side. The weight distribution through the shoulder transfers your body mass efficiently onto their frame, collapsing their structure without requiring you to lift your hips, which would create escape space.",
+        "answer_line": "Opposing shoulder-underhook torque",
+        "distractors": {
+          "plausible": [
+            "Push straight down with weight",
+            "Push straight forward, no twist"
+          ],
+          "trap": [
+            "Lift hips for more pressure"
+          ]
+        }
       },
       {
         "question": "How should you respond if the opponent establishes a lockdown on your trapped leg while you have the underhook position?",
-        "answer": "First, maintain all upper body control (underhook and crossface) to prevent sweeps while addressing the lockdown. Focus on breaking the lockdown by driving your trapped ankle toward the mat, creating a figure-four breaking position with your legs. Keep your weight forward and low to prevent the opponent from using the lockdown to create angles for electric chair or other attacks. If necessary, temporarily abandon leg extraction and work to break the lockdown first, potentially by driving your free knee across their body to relieve pressure on the trapped leg, then return to standard passing mechanics once the lockdown is broken."
+        "answer": "First, maintain all upper body control (underhook and crossface) to prevent sweeps while addressing the lockdown. Focus on breaking the lockdown by driving your trapped ankle toward the mat, creating a figure-four breaking position with your legs. Keep your weight forward and low to prevent the opponent from using the lockdown to create angles for electric chair or other attacks. If necessary, temporarily abandon leg extraction and work to break the lockdown first, potentially by driving your free knee across their body to relieve pressure on the trapped leg, then return to standard passing mechanics once the lockdown is broken.",
+        "answer_line": "Break lockdown, keep upper control",
+        "distractors": {
+          "plausible": [
+            "Abandon underhook to free the leg",
+            "Stall until they release it"
+          ],
+          "trap": [
+            "Posture up tall to yank the leg"
+          ]
+        }
       },
       {
         "question": "What are the key differences in executing the underhook pass against a knee shield half guard versus a traditional half guard with no shield?",
-        "answer": "Against knee shield, the primary challenge is dealing with the extended frame that prevents chest-to-chest pressure. You must first address the knee shield by either controlling the knee and driving it to the mat, stepping over it, or transitioning to a different passing angle (like knee cut). The underhook remains important but the crossface pressure is harder to establish initially. Against traditional half guard without knee shield, you can more directly establish chest-to-chest pressure and begin the flattening process immediately. The traditional half guard allows faster entry into the flattening phase but may have stronger lockdown or underhook battle threats, while knee shield provides more initial defensive structure but less sweep threat once bypassed."
+        "answer": "Against knee shield, the primary challenge is dealing with the extended frame that prevents chest-to-chest pressure. You must first address the knee shield by either controlling the knee and driving it to the mat, stepping over it, or transitioning to a different passing angle (like knee cut). The underhook remains important but the crossface pressure is harder to establish initially. Against traditional half guard without knee shield, you can more directly establish chest-to-chest pressure and begin the flattening process immediately. The traditional half guard allows faster entry into the flattening phase but may have stronger lockdown or underhook battle threats, while knee shield provides more initial defensive structure but less sweep threat once bypassed.",
+        "answer_line": "Clear knee shield before crossface",
+        "distractors": {
+          "plausible": [
+            "Underhook alone beats the shield",
+            "Same pressure as no-shield guard"
+          ],
+          "trap": [
+            "Crash chest-to-chest into shield"
+          ]
+        }
       },
       {
         "question": "Why is it important to keep your base wide with your free leg during the underhook pass, and how does this affect your passing mechanics?",
-        "answer": "A wide base with the free leg posted creates stability against the opponent's bridging, hip bump, and off-balancing attempts. With your weight forward and one leg trapped, you're potentially vulnerable to sweeps if your base is narrow. The wide post allows you to distribute weight effectively while maintaining mobility to adjust to the opponent's movements. It also creates the angle needed to drive your trapped knee across their thigh during leg extraction. A narrow base makes you top-heavy and easy to tip over, while a wide base allows you to stay heavy on top while remaining structurally sound and able to generate the hip movement needed to clear your trapped leg."
+        "answer": "A wide base with the free leg posted creates stability against the opponent's bridging, hip bump, and off-balancing attempts. With your weight forward and one leg trapped, you're potentially vulnerable to sweeps if your base is narrow. The wide post allows you to distribute weight effectively while maintaining mobility to adjust to the opponent's movements. It also creates the angle needed to drive your trapped knee across their thigh during leg extraction. A narrow base makes you top-heavy and easy to tip over, while a wide base allows you to stay heavy on top while remaining structurally sound and able to generate the hip movement needed to clear your trapped leg.",
+        "answer_line": "Wide base resists sweeps and bridges",
+        "distractors": {
+          "plausible": [
+            "Base only aids leg extraction",
+            "Weight only on the trapped knee"
+          ],
+          "trap": [
+            "Bring feet together and lean in"
+          ]
+        }
       },
       {
         "question": "When is the optimal timing window to begin extracting the trapped leg during the underhook pass?",
-        "answer": "The optimal window for leg extraction opens only after the opponent is fully flattened with their shoulder blades pinned to the mat and their hip mobility neutralized. Specifically, you should feel their resistance to your shoulder pressure collapse, meaning they can no longer maintain a side-facing posture. Their near hip should be controlled by your free hand, and their frames should be broken or ineffective. Attempting extraction before this point allows the opponent to use residual hip mobility and framing to prevent the pass or initiate sweeps. The moment their body goes flat and heavy against the mat is your cue to begin small, methodical knee-driving movements to clear the leg."
+        "answer": "Extract the trapped leg only after the opponent is fully flattened, with shoulder blades pinned to the mat and hip mobility neutralized. Specifically, you should feel their resistance to your shoulder pressure collapse, meaning they can no longer maintain a side-facing posture. Their near hip should be controlled by your free hand, and their frames should be broken or ineffective. Attempting extraction before this point allows the opponent to use residual hip mobility and framing to prevent the pass or initiate sweeps. The moment their body goes flat and heavy against the mat is your cue to begin small, methodical knee-driving movements to clear the leg.",
+        "distractors": {
+          "plausible": [
+            "Pull it free once grips are set",
+            "Start as soon as crossface lands"
+          ],
+          "trap": [
+            "Rip the leg out, hand them your back"
+          ]
+        },
+        "answer_line": "Extract only after fully flattened"
       },
       {
         "question": "Your opponent posts their far hand on the mat and starts to sit up while you are securing the underhook - how do you adjust?",
-        "answer": "This posting hand indicates the opponent is attempting to create a frame to prevent flattening or set up their own offensive sequence. Immediately increase your shoulder drive into their chest while pulling harder with your underhook to collapse their posting structure. Use your free hand to strip their posting hand off the mat by controlling their wrist or elbow, removing their structural support. If they continue to sit up, transition your crossface pressure higher toward their jawline to force their head back and collapse their posture. The key is to deny them the structural base that the posting hand provides before they can build momentum into a defensive sequence or back take attempt."
+        "answer": "This posting hand indicates the opponent is attempting to create a frame to prevent flattening or set up their own offensive sequence. Immediately increase your shoulder drive into their chest while pulling harder with your underhook to collapse their posting structure. Use your free hand to strip their posting hand off the mat by controlling their wrist or elbow, removing their structural support. If they continue to sit up, transition your crossface pressure higher toward their jawline to force their head back and collapse their posture. The key is to deny them the structural base that the posting hand provides before they can build momentum into a defensive sequence or back take attempt.",
+        "answer_line": "Strip the post, drive crossface up",
+        "distractors": {
+          "plausible": [
+            "Ignore hand, focus on the legs",
+            "Push down on their head only"
+          ],
+          "trap": [
+            "Release underhook to strip hand"
+          ]
+        }
       },
       {
         "question": "What is the critical direction of force application through your shoulder and hips during the flattening phase of the underhook pass?",
-        "answer": "The force vector must drive diagonally forward and downward at approximately 45 degrees, directed through your shoulder into the opponent's near pectoral and sternum area. Your hips should drive forward into their hip line, not upward. The underhook arm simultaneously pulls their far shoulder toward you, creating a rotational shearing force that works in opposition to your shoulder drive. This opposing force pair generates torque around the opponent's spine axis, rotating them from their side position onto their back. The common mistake is driving force straight down (which the opponent can brace against) or straight forward (which allows them to absorb pressure on their side). The diagonal vector bypasses both defensive structures."
+        "answer": "Drive force diagonally forward and downward at roughly 45 degrees through your shoulder into their near pectoral and sternum. Your hips should drive forward into their hip line, not upward. The underhook arm simultaneously pulls their far shoulder toward you, creating a rotational shearing force that works in opposition to your shoulder drive. This opposing force pair generates torque around the opponent's spine axis, rotating them from their side position onto their back. The common mistake is driving force straight down (which the opponent can brace against) or straight forward (which allows them to absorb pressure on their side). The diagonal vector bypasses both defensive structures.",
+        "distractors": {
+          "plausible": [
+            "Drive straight down hard",
+            "Drive straight forward only"
+          ],
+          "trap": [
+            "Lift up and back for leverage"
+          ]
+        },
+        "answer_line": "Diagonal 45° shoulder-hip drive"
       },
       {
         "question": "If you complete the underhook pass but the opponent immediately frames and starts recovering half guard during your side control consolidation, what chain attacks should you threaten?",
-        "answer": "As the opponent frames to recover, immediately threaten the kimura on their near arm that is reaching to frame - this punishes the frame creation and forces them to retract the arm. If they pull the arm back, transition to heavy crossface and drive to north-south to reset your control. If they insert their knee for half guard recovery, immediately attack with a darce choke as the knee insertion creates the head-and-arm configuration, or switch to knee on belly to punish the space creation. The key principle is that every defensive action they take to recover guard should open a submission or positional advancement threat, creating a lose-lose scenario where recovering guard exposes them to worse outcomes than accepting side control."
+        "answer": "Threaten the kimura on their near framing arm, then a darce or knee on belly if they insert the knee for half guard. The kimura punishes the frame creation and forces them to retract the arm; if they pull the arm back, transition to a heavy crossface and drive to north-south to reset your control. If they insert their knee for half guard recovery, immediately attack with a darce choke as the knee insertion creates the head-and-arm configuration, or switch to knee on belly to punish the space creation. The key principle is that every defensive action they take to recover guard should open a submission or positional advancement threat, creating a lose-lose scenario where recovering guard exposes them to worse outcomes than accepting side control.",
+        "distractors": {
+          "plausible": [
+            "Abandon control, reset to neutral",
+            "Only tighten crossface, no threats"
+          ],
+          "trap": [
+            "Release crossface to chase kimura"
+          ]
+        },
+        "answer_line": "Kimura the frame, darce the knee"
       },
       {
         "question": "What specific grip configuration with your underhook hand provides the most control, and why does grip depth matter?",
-        "answer": "The underhook hand should reach deep across the opponent's back, gripping their far lat muscle, belt line, or opposite hip. In gi, a belt grip or far lapel grip provides the strongest anchor. In no-gi, cupping the far lat or hooking the far hip is optimal. Grip depth matters because a shallow underhook (hand only reaching the spine) allows the opponent to pummel and re-establish their own underhook, turning it into an underhook battle. A deep underhook where your hand reaches past their centerline gives you mechanical advantage in the rotation battle, makes their pummeling attempts significantly harder, and increases the pulling force you can generate to flatten them. The deeper the grip, the more your underhook functions as a controlling clamp rather than a loose contact point."
+        "answer": "The underhook hand should reach deep across the opponent's back, gripping their far lat muscle, belt line, or opposite hip. In gi, a belt grip or far lapel grip provides the strongest anchor. In no-gi, cupping the far lat or hooking the far hip is optimal. Grip depth matters because a shallow underhook (hand only reaching the spine) allows the opponent to pummel and re-establish their own underhook, turning it into an underhook battle. A deep underhook where your hand reaches past their centerline gives you mechanical advantage in the rotation battle, makes their pummeling attempts significantly harder, and increases the pulling force you can generate to flatten them. The deeper the grip, the more your underhook functions as a controlling clamp rather than a loose contact point.",
+        "answer_line": "Deep grip: far lat, belt, or hip",
+        "distractors": {
+          "plausible": [
+            "Shallow grip along the spine",
+            "Grip their near shoulder instead"
+          ],
+          "trap": [
+            "Overreach deep, exposing your back"
+          ]
+        }
       },
       {
         "question": "Your opponent abandons half guard retention and explosively shrimps away to recover full closed guard while you are mid-pass - how do you prevent this?",
-        "answer": "The opponent's shrimp creates momentary space that you must immediately collapse. Drive your hips forward and drop your weight into the space they created, following their hip movement rather than staying in place. Your near-hip grip hand becomes critical here - use it to block their far knee from crossing over your body to close the guard. Simultaneously drive your crossface shoulder forward to prevent them from turning their hips enough to insert both legs. If their shrimp creates enough distance that guard recovery seems imminent, transition to a standing pass posture by posting your free leg and converting to a toreando or leg drag angle rather than fighting to maintain half guard top. The worst response is to freeze and allow them to complete the hip escape sequence unopposed."
+        "answer": "The opponent's shrimp creates momentary space that you must immediately collapse. Drive your hips forward and drop your weight into the space they created, following their hip movement rather than staying in place. Your near-hip grip hand becomes critical here - use it to block their far knee from crossing over your body to close the guard. Simultaneously drive your crossface shoulder forward to prevent them from turning their hips enough to insert both legs. If their shrimp creates enough distance that guard recovery seems imminent, transition to a standing pass posture by posting your free leg and converting to a toreando or leg drag angle rather than fighting to maintain half guard top. The worst response is to freeze and allow them to complete the hip escape sequence unopposed.",
+        "answer_line": "Chase hips, block their far knee",
+        "distractors": {
+          "plausible": [
+            "Pull back to reset the distance",
+            "Drop weight straight down only"
+          ],
+          "trap": [
+            "Rush across, get caught in triangle"
+          ]
+        }
       }
     ],
-    "safety_considerations": "The underhook pass is generally a safe technique when executed properly, but practitioners should be aware of several safety considerations. Avoid driving excessive pressure into the opponent's neck or head, as the crossface should target the chest and shoulder, not the cervical spine. When extracting the trapped leg, move methodically to avoid hyperextending your own or your opponent's knee joints. Be cautious of cranking or twisting motions with the underhook that could stress the opponent's shoulder joint. When drilling, partners should communicate about pressure levels, especially when learning the flattening mechanics. Beginners should focus on positional control rather than explosive movements that could result in knee or shoulder injuries."
+    "safety_considerations": "The underhook pass is generally a safe technique when executed properly, but practitioners should be aware of several safety considerations. Avoid driving excessive pressure into the opponent's neck or head, as the crossface should target the chest and shoulder, not the cervical spine. When extracting the trapped leg, move methodically to avoid hyperextending your own or your opponent's knee joints. Be cautious of cranking or twisting motions with the underhook that could stress the opponent's shoulder joint. When drilling, partners should communicate about pressure levels, especially when learning the flattening mechanics. Beginners should focus on positional control rather than explosive movements that could result in knee or shoulder injuries.",
+    "clips": [
+      {
+        "id": "aAd6OIq94X0",
+        "title": "Body lock pass off their underhook",
+        "by": "Gordon Ryan",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 205,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "Zy88ds_RDG4",
+        "title": "Passing half guard against the underhook",
+        "by": "Holy Grail BJJ coach",
+        "vertical": false,
+        "channel": "Holy Grail BJJ",
+        "duration": 126,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Underhook Pass Defender",
@@ -398,23 +553,73 @@
     "flashcards": [
       {
         "question": "What is the single most important defensive action when you feel the opponent beginning to thread their underhook from half guard top?",
-        "answer": "The most important action is immediately fighting to maintain or re-establish your side-facing posture by turning aggressively toward the top player. Use your bottom elbow as a structural post and drive your top knee into their hip as a frame. The underhook pass depends entirely on flattening you; if you can maintain your side-facing angle, the pass cannot progress regardless of how deep their underhook reaches. Every second you delay this response makes the eventual flattening significantly harder to prevent."
+        "answer": "The most important action is immediately fighting to maintain or re-establish your side-facing posture by turning aggressively toward the top player. Use your bottom elbow as a structural post and drive your top knee into their hip as a frame. The underhook pass depends entirely on flattening you; if you can maintain your side-facing angle, the pass cannot progress regardless of how deep their underhook reaches. Every second you delay this response makes the eventual flattening significantly harder to prevent.",
+        "answer_line": "Turn in, re-face them immediately",
+        "distractors": {
+          "plausible": [
+            "Fight the grip, ignore your angle",
+            "Push their head away instead"
+          ],
+          "trap": [
+            "Turn away and flatten out"
+          ]
+        }
       },
       {
         "question": "Why is attempting a bridge-and-roll escape against an established underhook and crossface position usually counterproductive?",
-        "answer": "The bridge-and-roll requires your opponent to be relatively square on top of you with their weight distributed centrally. When the top player has a deep underhook, their weight is distributed diagonally across your body with their base posted wide. The bridge lifts your hips off the mat, which actually helps the top player extract their trapped leg since you are creating the space they need for leg clearance. Additionally, the rolling motion turns you away from them, potentially exposing your back. Hip escape movements that create lateral distance are far more effective because they address the actual problem of the crossface and underhook pressure angle."
+        "answer": "The bridge-and-roll requires your opponent to be relatively square on top of you with their weight distributed centrally. When the top player has a deep underhook, their weight is distributed diagonally across your body with their base posted wide. The bridge lifts your hips off the mat, which actually helps the top player extract their trapped leg since you are creating the space they need for leg clearance. Additionally, the rolling motion turns you away from them, potentially exposing your back. Hip escape movements that create lateral distance are far more effective because they address the actual problem of the crossface and underhook pressure angle.",
+        "answer_line": "It gives space to free their leg",
+        "distractors": {
+          "plausible": [
+            "You must post a hand to bridge",
+            "Bridging locks in the crossface"
+          ],
+          "trap": [
+            "Roll away, giving up your back"
+          ]
+        }
       },
       {
         "question": "At what specific point during the underhook pass sequence does your window for successful defense narrow most dramatically?",
-        "answer": "The critical threshold is the moment both your shoulder blades contact the mat simultaneously while the top player maintains their crossface and hip control. Before this point, you retain hip mobility, framing capability, and the ability to create angles that disrupt the pass. After being fully flattened, your defensive options reduce to high-energy explosive escapes with significantly lower success rates. The practical implication is that all high-percentage defensive actions (pummeling for underhook, inserting knee shield, hip escaping to angle) must happen before the flattening is complete. Training should emphasize recognizing the approach to this threshold and reacting immediately."
+        "answer": "The critical threshold is the moment both your shoulder blades contact the mat simultaneously while the top player maintains their crossface and hip control. Before this point, you retain hip mobility, framing capability, and the ability to create angles that disrupt the pass. After being fully flattened, your defensive options reduce to high-energy explosive escapes with significantly lower success rates. The practical implication is that all high-percentage defensive actions (pummeling for underhook, inserting knee shield, hip escaping to angle) must happen before the flattening is complete. Training should emphasize recognizing the approach to this threshold and reacting immediately.",
+        "answer_line": "When both shoulder blades pin",
+        "distractors": {
+          "plausible": [
+            "When they first thread the underhook",
+            "When the leg finally comes free"
+          ],
+          "trap": [
+            "Roll to turtle and give up the back"
+          ]
+        }
       },
       {
         "question": "How do you use a knee shield defensively when you have already lost the underhook battle against the top player?",
-        "answer": "When the underhook battle is lost, immediately insert your top knee across the top player's hip line, placing your shin diagonally across their torso with your foot hooking their opposite hip. This knee shield creates a structural frame that prevents the chest-to-chest connection the top player needs to flatten you. Position the shield at mid-torso height - too high allows them to smash it down, too low allows them to step over. Use your hands to reinforce the shield by controlling their collar or bicep. The knee shield buys time to either re-enter the underhook battle from a safer position or transition to other half guard variations like deep half or butterfly half."
+        "answer": "When the underhook battle is lost, immediately insert your top knee across the top player's hip line, placing your shin diagonally across their torso with your foot hooking their opposite hip. This knee shield creates a structural frame that prevents the chest-to-chest connection the top player needs to flatten you. Position the shield at mid-torso height - too high allows them to smash it down, too low allows them to step over. Use your hands to reinforce the shield by controlling their collar or bicep. The knee shield buys time to either re-enter the underhook battle from a safer position or transition to other half guard variations like deep half or butterfly half.",
+        "answer_line": "Shin across hips, hook far side",
+        "distractors": {
+          "plausible": [
+            "Knee shield high on the chest",
+            "Knee shield low near the knees"
+          ],
+          "trap": [
+            "Drop the shield, turtle up"
+          ]
+        }
       },
       {
         "question": "Your opponent has the underhook and crossface but has not yet controlled your near hip - what defensive opportunity does this create?",
-        "answer": "Without near hip control, you retain the ability to hip escape, which is the foundation of all guard recovery sequences from this position. Immediately execute an aggressive hip escape away from the top player, simultaneously framing on their shoulder with your near hand to prevent them from following your movement. This lateral distance creation opens the possibility of inserting your far leg across their body to recover closed guard, or at minimum re-establishing a knee shield that negates their underhook advantage. The hip control grip is the second anchor point of the pass after the underhook - if they only have one anchor, your defensive probability increases dramatically."
+        "answer": "Without near hip control, you retain the ability to hip escape, which is the foundation of all guard recovery sequences from this position. Immediately execute an aggressive hip escape away from the top player, simultaneously framing on their shoulder with your near hand to prevent them from following your movement. This lateral distance creation opens the possibility of inserting your far leg across their body to recover closed guard, or at minimum re-establishing a knee shield that negates their underhook advantage. The hip control grip is the second anchor point of the pass after the underhook - if they only have one anchor, your defensive probability increases dramatically.",
+        "answer_line": "Hip escape now, frame the shoulder",
+        "distractors": {
+          "plausible": [
+            "Bridge hard into the crossface side",
+            "Reach across for a far underhook"
+          ],
+          "trap": [
+            "Roll belly-down into turtle"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -437,6 +642,26 @@
         "phase": "Phase 4: Live Defensive Sparring (Weeks 7+)",
         "focus": "Integrating all defensive skills against full resistance underhook pass attempts",
         "description": "Positional sparring starting in half guard bottom against partner actively attempting the underhook pass with full technique and pressure. Apply all defensive layers: early underhook fighting, frame maintenance, and escape sequences as needed. Track success rate across rounds and identify which defensive layer is failing most frequently for targeted improvement."
+      }
+    ],
+    "clips": [
+      {
+        "id": "dOdO6xJ-TcU",
+        "title": "Stop the half guard underhook",
+        "by": "Malachy Friedman",
+        "vertical": false,
+        "channel": "Malachy Friedman",
+        "duration": 98,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "L-tgJFSzbDE",
+        "title": "Countering the underhook from deep half guard",
+        "by": "Jason Juatco",
+        "vertical": false,
+        "channel": "Jason Juatco",
+        "duration": 111,
+        "verified": "2026-07-15"
       }
     ]
   },

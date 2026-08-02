@@ -34,6 +34,43 @@ description: "Master the Sweep from Inverted Guard in BJJ. Learn how inverted hi
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Sweep from Inverted Guard \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Tornado guard sweep and back take options",
+      "description": "Sweep from Inverted Guard film study: Tornado guard sweep and back take options, taught by Moncaio Brothers.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/HbgjJXhLIYk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/HbgjJXhLIYk",
+      "url": "https://www.youtube.com/watch?v=HbgjJXhLIYk",
+      "creator": { "@type": "Person", "name": "Moncaio Brothers" },
+      "duration": "PT73S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Inverted half guard sweep to Ezequiel from the back",
+      "description": "Sweep from Inverted Guard film study: Inverted half guard sweep to Ezequiel from the back, taught by Carpio Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/iwcRISvtG3g/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/iwcRISvtG3g",
+      "url": "https://www.youtube.com/watch?v=iwcRISvtG3g",
+      "creator": { "@type": "Person", "name": "Carpio Jiu Jitsu" },
+      "duration": "PT116S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +106,34 @@ This sweep integrates naturally into the modern guard retention and back attack 
 **Success Rate**: 45%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Sweep from Inverted Guard in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=HbgjJXhLIYk)
+
+<p class="clip-credit"><strong>Tornado guard sweep and back take options</strong> — taught by Moncaio Brothers · 1:13 · <a href="https://www.youtube.com/watch?v=HbgjJXhLIYk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=iwcRISvtG3g)
+
+<p class="clip-credit"><strong>Inverted half guard sweep to Ezequiel from the back</strong> — taught by Carpio Jiu Jitsu · 1:56 · <a href="https://www.youtube.com/watch?v=iwcRISvtG3g" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

@@ -14,21 +14,33 @@
   "outcomes": [
     {
       "to": "Side Control/Top",
-      "probability": 58,
+      "probability": {
+        "gi": 58,
+        "nogi": 58
+      },
       "result": "success"
     },
     {
       "to": "Spider Guard/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Spider Guard/Bottom",
-      "probability": 12,
+      "probability": {
+        "gi": 12,
+        "nogi": 12
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "overview": "The Spider Guard Pass represents a fundamental challenge in modern Brazilian Jiu-Jitsu, requiring systematic grip breaking, precise posture control, and strategic pressure application. This passing sequence targets one of the most common guard retention systems by neutralizing the opponent's foot-on-bicep control and collar grips that define spider guard. The pass succeeds by combining aggressive grip stripping with forward pressure and hip positioning to overcome the guard player's distance management.\n\nUnderstanding spider guard mechanics reveals that the guard's strength lies in creating distance and angles through arm extension and foot placement—the pass systematically removes these advantages through posture maintenance, grip dominance, and positional pressure. The core asymmetry to exploit is that spider guard uses the opponent's legs against your arms, so fighting foot pressure with arm strength is inherently losing. Instead, the passer must use posture, full-body mechanics, and timing to strip grips efficiently before explosive forward pressure closes the distance.\n\nSuccess requires patience in grip fighting exchanges, explosive movement during passing windows, and technical precision in controlling the opponent's hips during the final consolidation phase. At higher levels, the pass becomes part of a chain: if the guard player transitions to De La Riva, lasso, or collar-sleeve during your grip break, you must recognize the switch and flow to the appropriate passing sequence without resetting.",
   "related_content": [
     {
@@ -224,38 +236,147 @@
     "flashcards": [
       {
         "question": "Why is it critical to break both spider guard grips before attempting to pass?",
-        "answer": "Breaking both grips is essential because spider guard's primary defense mechanism relies on distance management and off-balancing through the foot-on-bicep and sleeve controls. Even one remaining grip gives the guard player the ability to create angles, prevent forward pressure, and execute sweeps. Systematic grip breaking removes all distance management tools before the passer commits to forward movement, preventing the most common cause of failed passes."
+        "answer": "Breaking both grips is essential because spider guard's primary defense mechanism relies on distance management and off-balancing through the foot-on-bicep and sleeve controls. Even one remaining grip gives the guard player the ability to create angles, prevent forward pressure, and execute sweeps. Systematic grip breaking removes all distance management tools before the passer commits to forward movement, preventing the most common cause of failed passes.",
+        "answer_line": "Even one grip enables sweeps",
+        "distractors": {
+          "plausible": [
+            "Break the strongest grip first",
+            "Posture matters more than grips"
+          ],
+          "trap": [
+            "Leave a grip, drive forward anyway"
+          ]
+        }
       },
       {
         "question": "What is the most common mistake that leads to triangle attacks during spider guard passing?",
-        "answer": "Leaning too far forward with poor posture during the grip breaking phase creates triangle vulnerability. When the passer's head drops forward and arms extend, the guard player can elevate their hips, throw one leg over the shoulder and the other behind the head to secure triangle position. Maintaining vertical posture with the head up and controlling the opponent's knees prevents the hip elevation needed for this attack angle."
+        "answer": "Leaning too far forward with poor posture during the grip breaking phase creates triangle vulnerability. When the passer's head drops forward and arms extend, the guard player can elevate their hips, throw one leg over the shoulder and the other behind the head to secure triangle position. Maintaining vertical posture with the head up and controlling the opponent's knees prevents the hip elevation needed for this attack angle.",
+        "answer_line": "Leaning forward, arms extended",
+        "distractors": {
+          "plausible": [
+            "Standing up too early",
+            "Gripping the pants too tightly"
+          ],
+          "trap": [
+            "Drop head down, drive through"
+          ]
+        }
       },
       {
         "question": "How should you respond if your opponent switches to De La Riva guard during your spider guard pass attempt?",
-        "answer": "Immediately address the DLR hook by either circling your trapped leg away from the hook while stripping remaining grips, or backstepping to face the opponent and enter a different passing position like leg drag or over-under. The key is recognizing the guard transition early and not allowing the DLR hook to establish fully, which would require a completely different passing approach and reset your passing sequence."
+        "answer": "Immediately address the DLR hook by either circling your trapped leg away from the hook while stripping remaining grips, or backstepping to face the opponent and enter a different passing position like leg drag or over-under. The key is recognizing the guard transition early and not allowing the DLR hook to establish fully, which would require a completely different passing approach and reset your passing sequence.",
+        "answer_line": "Circle away or backstep to pass",
+        "distractors": {
+          "plausible": [
+            "Power through with original pass",
+            "Sit back and reset your guard"
+          ],
+          "trap": [
+            "Chase the hook with both hands"
+          ]
+        }
       },
       {
         "question": "What role does knee control play in successful spider guard passing?",
-        "answer": "Knee control is the bridge between grip breaking and passing. After breaking each spider grip, immediately pinning or controlling the corresponding knee prevents the opponent from re-establishing the spider hook or transitioning to other guard variations. Knee control also facilitates flattening the opponent's hips against the mat, which eliminates their defensive frames, prevents hip elevation for sweeps, and creates clear passing lanes to side control."
+        "answer": "Knee control is the bridge between grip breaking and passing. After breaking each spider grip, immediately pinning or controlling the corresponding knee prevents the opponent from re-establishing the spider hook or transitioning to other guard variations. Knee control also facilitates flattening the opponent's hips against the mat, which eliminates their defensive frames, prevents hip elevation for sweeps, and creates clear passing lanes to side control.",
+        "answer_line": "Pin knee after each grip break",
+        "distractors": {
+          "plausible": [
+            "Control the head, ignore knees",
+            "Control both wrists first"
+          ],
+          "trap": [
+            "Let their hips stay mobile"
+          ]
+        }
       },
       {
         "question": "Your opponent has one spider hook remaining and begins loading a sweep—how do you stabilize?",
-        "answer": "Post your free hand wide on the mat on the side they are sweeping toward to create a wide base that resists the sweep direction. Drop your weight low and drive your hips toward the mat rather than staying upright where your center of gravity is vulnerable. From this stabilized position, address the remaining grip by controlling their wrist and extracting your arm using full body movement. Only after the grip is broken and you have recovered your base should you resume the passing sequence."
+        "answer": "Post your free hand wide on the mat on the side they are sweeping toward to create a wide base that resists the sweep direction. Drop your weight low and drive your hips toward the mat rather than staying upright where your center of gravity is vulnerable. From this stabilized position, address the remaining grip by controlling their wrist and extracting your arm using full body movement. Only after the grip is broken and you have recovered your base should you resume the passing sequence.",
+        "answer_line": "Post hand wide, drop weight low",
+        "distractors": {
+          "plausible": [
+            "Stand tall to keep your base",
+            "Rush to break the grip first"
+          ],
+          "trap": [
+            "Lean back to escape the angle"
+          ]
+        }
       },
       {
         "question": "Why is explosive forward pressure important after breaking spider guard grips?",
-        "answer": "Explosive pressure after grip breaking is critical because it eliminates the time window for guard recovery. Strong spider guard players can quickly re-establish grips, adjust frames, or transition to different guards if given even a few seconds. Immediate forward pressure flattens their hips, closes distance, and forces them into a defensive position before they can reset their guard structure. This timing transforms grip advantage into positional dominance."
+        "answer": "Explosive pressure after grip breaking is critical because it eliminates the time window for guard recovery. Strong spider guard players can quickly re-establish grips, adjust frames, or transition to different guards if given even a few seconds. Immediate forward pressure flattens their hips, closes distance, and forces them into a defensive position before they can reset their guard structure. This timing transforms grip advantage into positional dominance.",
+        "answer_line": "Closes window before guard resets",
+        "distractors": {
+          "plausible": [
+            "Lets you catch your breath",
+            "Re-check grips before advancing"
+          ],
+          "trap": [
+            "Pause and wait for them to react"
+          ]
+        }
       },
       {
         "question": "What direction of force should you use when stripping spider guard sleeve grips?",
-        "answer": "Pull your trapped arm back in a straight line toward your own hip while gripping the opponent's wrist with your free hand to peel their fingers. The direction must be straight back, not sideways or upward, because this aligns with the weakest axis of their grip—their fingers cannot resist a pull that goes directly against their thumb. Combine this with stepping or shifting your weight backward so your entire body mass powers the grip break rather than just your arm strength."
+        "answer": "Pull your trapped arm back in a straight line toward your own hip while gripping the opponent's wrist with your free hand to peel their fingers. The direction must be straight back, not sideways or upward, because this aligns with the weakest axis of their grip—their fingers cannot resist a pull that goes directly against their thumb. Combine this with stepping or shifting your weight backward so your entire body mass powers the grip break rather than just your arm strength.",
+        "answer_line": "Straight back toward your hip",
+        "distractors": {
+          "plausible": [
+            "Twist the wrist sideways",
+            "Pull upward and away"
+          ],
+          "trap": [
+            "Yank forward into their guard"
+          ]
+        }
       },
       {
         "question": "If your initial spider guard pass is defended and the opponent transitions to lasso guard, what chain attack should you use?",
-        "answer": "When the opponent threads one leg under your arm into lasso, you must immediately change your passing approach. The most effective chain is to backstep toward the lasso side while controlling their pants at the knee, which unwinds the lasso wrap. Alternatively, circle toward the lasso side and use a toreando-style pass by pushing both legs to the opposite side. The critical error is trying to continue the original spider pass with a lasso established, as this dramatically increases sweep and omoplata risk from the bottom player."
+        "answer": "When the opponent threads one leg under your arm into lasso, you must immediately change your passing approach. The most effective chain is to backstep toward the lasso side while controlling their pants at the knee, which unwinds the lasso wrap. Alternatively, circle toward the lasso side and use a toreando-style pass by pushing both legs to the opposite side. The critical error is trying to continue the original spider pass with a lasso established, as this dramatically increases sweep and omoplata risk from the bottom player.",
+        "answer_line": "Backstep, control pants at knee",
+        "distractors": {
+          "plausible": [
+            "Stand up and reset distance",
+            "Force the leg out with strength"
+          ],
+          "trap": [
+            "Continue the original spider pass"
+          ]
+        }
       }
     ],
-    "safety_considerations": "Spider guard passing is relatively low-risk compared to submission-heavy positions, but practitioners should exercise caution during several key moments. When breaking grips forcefully, avoid hyperextending the opponent's fingers by focusing pressure on their wrist rather than individual digits. During the pressure passing phase, control the intensity to prevent injury to the opponent's ribs or sternum—apply steady progressive pressure rather than dropping full body weight explosively. Be aware of potential leg entanglements during passing transitions that could stress knee ligaments if either player twists unexpectedly. If the opponent attempts submissions like triangles or armbars during the pass, recognize them early and defend appropriately rather than forcing the pass through dangerous positions. When drilling, communicate clearly about resistance levels to prevent training injuries from unexpected grip fighting intensity."
+    "safety_considerations": "Spider guard passing is relatively low-risk compared to submission-heavy positions, but practitioners should exercise caution during several key moments. When breaking grips forcefully, avoid hyperextending the opponent's fingers by focusing pressure on their wrist rather than individual digits. During the pressure passing phase, control the intensity to prevent injury to the opponent's ribs or sternum—apply steady progressive pressure rather than dropping full body weight explosively. Be aware of potential leg entanglements during passing transitions that could stress knee ligaments if either player twists unexpectedly. If the opponent attempts submissions like triangles or armbars during the pass, recognize them early and defend appropriately rather than forcing the pass through dangerous positions. When drilling, communicate clearly about resistance levels to prevent training injuries from unexpected grip fighting intensity.",
+    "clips": [
+      {
+        "id": "18F7wxj6xqg",
+        "title": "Passing the spider guard",
+        "by": "Performance MA Academy coach",
+        "vertical": false,
+        "channel": "Performance Martial Arts Academy",
+        "duration": 72,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "v9Fyn7YEddk",
+        "title": "Stacking spider guard pass",
+        "by": "Chris Haueter",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 231,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "IiQhyeU2iZI",
+        "title": "Method to pass spider guard",
+        "by": "Samuel Nagai",
+        "vertical": false,
+        "channel": "Bernardo Faria BJJ Fanatics",
+        "duration": 297,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Spider Guard Pass Defender",
@@ -352,23 +473,73 @@
     "flashcards": [
       {
         "question": "The passer has just broken your right sleeve grip and is reaching to pin your right knee—what should you do immediately?",
-        "answer": "You have a critical window before the knee is pinned. Either re-grip the right sleeve by using your right foot to push their right arm back into range while your hand shoots for the cuff, or immediately thread your right leg under and over their right arm to establish lasso guard on that side. The worst option is to do nothing and allow the knee pin, as this gives the passer a stable platform to address your remaining left-side spider hook."
+        "answer": "You have a critical window before the knee is pinned. Either re-grip the right sleeve by using your right foot to push their right arm back into range while your hand shoots for the cuff, or immediately thread your right leg under and over their right arm to establish lasso guard on that side. The worst option is to do nothing and allow the knee pin, as this gives the passer a stable platform to address your remaining left-side spider hook.",
+        "answer_line": "Re-grip sleeve or lasso that leg",
+        "distractors": {
+          "plausible": [
+            "Switch to an underhook control",
+            "Attack a triangle immediately"
+          ],
+          "trap": [
+            "Let the knee pin, defend after"
+          ]
+        }
       },
       {
         "question": "Why is transitioning to an alternative guard preferable to re-establishing spider guard once both grips are broken?",
-        "answer": "Once both grips are broken, the passer has already advanced past the control range where spider guard is effective. Trying to re-establish spider guard requires getting your feet back on their biceps and re-gripping their sleeves, which is nearly impossible when they are driving forward with pressure and controlling your knees. Transitioning to half guard, closed guard, or seated guard works with the passer's forward momentum rather than against it, giving you a much higher probability of maintaining a guard structure."
+        "answer": "Once both grips are broken, the passer has already advanced past the control range where spider guard is effective. Trying to re-establish spider guard requires getting your feet back on their biceps and re-gripping their sleeves, which is nearly impossible when they are driving forward with pressure and controlling your knees. Transitioning to half guard, closed guard, or seated guard works with the passer's forward momentum rather than against it, giving you a much higher probability of maintaining a guard structure.",
+        "answer_line": "Flow to half or closed guard",
+        "distractors": {
+          "plausible": [
+            "Stand up to reset the guard",
+            "Wait passively for an opening"
+          ],
+          "trap": [
+            "Fight to regrip the same sleeves"
+          ]
+        }
       },
       {
         "question": "How does threatening sweeps help defend against the spider guard pass?",
-        "answer": "Sweep threats force the passer to address your attacks before continuing their passing sequence. When you load a balloon sweep or scissor sweep, the passer must base out, adjust their weight distribution, or abandon their grip-breaking attempt to defend. This interrupts their rhythm and buys you time to re-establish grips or transition guards. A passer who only needs to worry about grip breaking can execute their sequence methodically, but one who faces sweep threats at every stage is forced into reactive, improvised passing that is far less effective."
+        "answer": "Sweep threats force the passer to address your attacks before continuing their passing sequence. When you load a balloon sweep or scissor sweep, the passer must base out, adjust their weight distribution, or abandon their grip-breaking attempt to defend. This interrupts their rhythm and buys you time to re-establish grips or transition guards. A passer who only needs to worry about grip breaking can execute their sequence methodically, but one who faces sweep threats at every stage is forced into reactive, improvised passing that is far less effective.",
+        "answer_line": "Forces reactive, disrupted passing",
+        "distractors": {
+          "plausible": [
+            "Guarantees an immediate sweep",
+            "Only useful late in the sequence"
+          ],
+          "trap": [
+            "Commit fully, ignore your grips"
+          ]
+        }
       },
       {
         "question": "What is the optimal timing to attempt a sweep against someone passing your spider guard?",
-        "answer": "The highest-percentage sweep timing occurs during two specific moments: first, when the passer is actively stripping a grip and their weight shifts backward or to one side from the effort of breaking your control; second, when the passer commits weight forward after breaking both grips to initiate their pressure pass. In both cases, their weight is committed in a specific direction, making them vulnerable to sweeps that redirect their momentum. Attempting sweeps when the passer has stable base and centered weight results in failed attempts and wasted energy."
+        "answer": "The highest-percentage sweep timing occurs during two specific moments: first, when the passer is actively stripping a grip and their weight shifts backward or to one side from the effort of breaking your control; second, when the passer commits weight forward after breaking both grips to initiate their pressure pass. In both cases, their weight is committed in a specific direction, making them vulnerable to sweeps that redirect their momentum. Attempting sweeps when the passer has stable base and centered weight results in failed attempts and wasted energy.",
+        "answer_line": "Mid grip-break or forward commit",
+        "distractors": {
+          "plausible": [
+            "When they have a stable base",
+            "Right at the very start"
+          ],
+          "trap": [
+            "Attempt sweep on stable base"
+          ]
+        }
       },
       {
         "question": "Why should you never allow both knees to be pinned to the mat simultaneously?",
-        "answer": "Both knees pinned to the mat means your hips are flat and immobilized, which eliminates every defensive option available to you. You cannot create angles for sweeps, cannot insert knee shields for guard recovery, cannot elevate your hips for balloon sweeps, and cannot hip escape to create space. The passer can then freely choose their passing direction and slide through to side control with minimal resistance. Keeping at least one knee free and mobile preserves your ability to create frames, transition guards, and threaten sweeps."
+        "answer": "Both knees pinned to the mat means your hips are flat and immobilized, which eliminates every defensive option available to you. You cannot create angles for sweeps, cannot insert knee shields for guard recovery, cannot elevate your hips for balloon sweeps, and cannot hip escape to create space. The passer can then freely choose their passing direction and slide through to side control with minimal resistance. Keeping at least one knee free and mobile preserves your ability to create frames, transition guards, and threaten sweeps.",
+        "answer_line": "Flat hips kill all your options",
+        "distractors": {
+          "plausible": [
+            "It only slows your recovery",
+            "It only affects your grips"
+          ],
+          "trap": [
+            "Let both pin, then bridge hard"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -391,6 +562,35 @@
         "phase": "Week 9+: Full Resistance Guard Retention Rounds",
         "focus": "Maintaining guard or sweeping against committed passing attempts in live sparring",
         "description": "Positional sparring starting in spider guard bottom. Partner uses full passing arsenal. Track successful guard retentions, successful sweeps, and passes conceded. Analyze which transitions and timing patterns yield the best results and refine weakest areas."
+      }
+    ],
+    "clips": [
+      {
+        "id": "P0MjwfaMlFE",
+        "title": "Spider guard retention drill, feet in biceps",
+        "by": "Denise Houle",
+        "vertical": false,
+        "channel": "Denise Houle",
+        "duration": 185,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "T_GhZe_MOWI",
+        "title": "Grip chain for guard retention",
+        "by": "Xande Ribeiro",
+        "vertical": false,
+        "channel": "XANDE RIBEIRO",
+        "duration": 174,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "rH8oYjlBsZg",
+        "title": "Guard retention 101: defending the X-pass",
+        "by": "Ostap Manastyrski",
+        "vertical": false,
+        "channel": "OpenMat MMA",
+        "duration": 275,
+        "verified": "2026-07-15"
       }
     ]
   },

@@ -34,6 +34,54 @@ description: "Master the Butterfly Smash in BJJ. Learn to collapse butterfly hoo
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Smash from Butterfly Hook Control \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Kick out to collapse the hooks passing drill",
+      "description": "Smash from Butterfly Hook Control film study: Kick out to collapse the hooks passing drill, taught by Lion Heart BJJ coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/yhwztrFcIUE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/yhwztrFcIUE",
+      "url": "https://www.youtube.com/watch?v=yhwztrFcIUE",
+      "creator": { "@type": "Person", "name": "Lion Heart BJJ coach" },
+      "duration": "PT125S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Pass from smash baiting the butterfly hook",
+      "description": "Smash from Butterfly Hook Control film study: Pass from smash baiting the butterfly hook, taught by JT Torres.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/s5MYmM58Ipg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/s5MYmM58Ipg",
+      "url": "https://www.youtube.com/watch?v=s5MYmM58Ipg",
+      "creator": { "@type": "Person", "name": "JT Torres" },
+      "duration": "PT198S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Gordon Ryan pass study: entry vs butterfly hooks",
+      "description": "Smash from Butterfly Hook Control film study: Gordon Ryan pass study: entry vs butterfly hooks, taught by Gordon Ryan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/TCBGiX1S81Y/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/TCBGiX1S81Y",
+      "url": "https://www.youtube.com/watch?v=TCBGiX1S81Y",
+      "creator": { "@type": "Person", "name": "Gordon Ryan" },
+      "duration": "PT297S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ Strategic integration of the butterfly smash into a broader passing system creat
 **Success Rate**: 55%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Smash from Butterfly Hook Control in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=yhwztrFcIUE)
+
+<p class="clip-credit"><strong>Kick out to collapse the hooks passing drill</strong> — taught by Lion Heart BJJ coach · 2:05 · <a href="https://www.youtube.com/watch?v=yhwztrFcIUE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=s5MYmM58Ipg)
+
+<p class="clip-credit"><strong>Pass from smash baiting the butterfly hook</strong> — taught by JT Torres · 3:18 · <a href="https://www.youtube.com/watch?v=s5MYmM58Ipg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=TCBGiX1S81Y)
+
+<p class="clip-credit"><strong>Gordon Ryan pass study: entry vs butterfly hooks</strong> — taught by Gordon Ryan · 4:57 · <a href="https://www.youtube.com/watch?v=TCBGiX1S81Y" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

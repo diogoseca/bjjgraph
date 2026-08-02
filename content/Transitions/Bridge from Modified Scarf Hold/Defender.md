@@ -134,6 +134,43 @@ description: "Defend against bridge escapes from Modified Scarf Hold top. Learn 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Bridge from Modified Scarf Hold (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Holding kesa gatame against the bridge escape",
+      "description": "Bridge from Modified Scarf Hold (Defender) film study: Holding kesa gatame against the bridge escape, taught by Harry Grech.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/M7RJFVturi4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/M7RJFVturi4",
+      "url": "https://www.youtube.com/watch?v=M7RJFVturi4",
+      "creator": { "@type": "Person", "name": "Harry Grech" },
+      "duration": "PT244S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Mune gatame chest hold pin control",
+      "description": "Bridge from Modified Scarf Hold (Defender) film study: Mune gatame chest hold pin control, taught by Grappler Station.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/RLpcMvQ8GTI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/RLpcMvQ8GTI",
+      "url": "https://www.youtube.com/watch?v=RLpcMvQ8GTI",
+      "creator": { "@type": "Person", "name": "Grappler Station" },
+      "duration": "PT66S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -143,6 +180,34 @@ As the defender against the Bridge from Modified Scarf Hold, you are the top pla
 **Opponent's Starting Position**: [[Positions/Side Control/Modified Scarf Hold]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Bridge from Modified Scarf Hold (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=M7RJFVturi4)
+
+<p class="clip-credit"><strong>Holding kesa gatame against the bridge escape</strong> — taught by Harry Grech · 4:04 · <a href="https://www.youtube.com/watch?v=M7RJFVturi4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=RLpcMvQ8GTI)
+
+<p class="clip-credit"><strong>Mune gatame chest hold pin control</strong> — taught by Grappler Station · 1:06 · <a href="https://www.youtube.com/watch?v=RLpcMvQ8GTI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

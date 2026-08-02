@@ -336,35 +336,115 @@
   "flashcards": [
     {
       "question": "What are the three control elements that define the Marcelo Garcia Butterfly Guard System?",
-      "answer": "Active butterfly hooks under the opponent's thighs, at least one underhook to deny the crossface, and a head position higher than the opponent's to break their posture and create sweeping angles."
+      "answer": "Active butterfly hooks under the opponent's thighs, at least one underhook to deny the crossface, and a head position higher than the opponent's to break their posture and create sweeping angles.",
+      "answer_line": "Active hooks, underhook, head high",
+      "distractors": {
+        "plausible": [
+          "Hooks and underhooks, forget head",
+          "Head position and hooks only"
+        ],
+        "trap": [
+          "Overhooks and flat butterfly hooks"
+        ]
+      }
     },
     {
       "question": "How does the system convert an opponent's hand post into an attack?",
-      "answer": "When the opponent posts a hand to block the elevation sweep, you immediately switch to an arm drag, controlling the posting arm across your body and circling behind to take the back with a seat belt grip."
+      "answer": "When the opponent posts a hand to block the elevation sweep, you immediately switch to an arm drag, controlling the posting arm across your body and circling behind to take the back with a seat belt grip.",
+      "answer_line": "Arm drag the post, take the back",
+      "distractors": {
+        "plausible": [
+          "Underhook the post arm instead",
+          "Switch to guillotine on the post"
+        ],
+        "trap": [
+          "Chase the sweep harder anyway"
+        ]
+      }
     },
     {
       "question": "Why is the guillotine an essential part of the system rather than an optional add-on?",
-      "answer": "The guillotine punishes opponents who pressure forward to pass, which forces them into more conservative, posted-back passing — and that cautious posture is exactly what makes the elevation sweeps land."
+      "answer": "The guillotine punishes opponents who pressure forward to pass, which forces them into more conservative, posted-back passing — and that cautious posture is exactly what makes the elevation sweeps land.",
+      "answer_line": "Punishes pressure, enables sweeps",
+      "distractors": {
+        "plausible": [
+          "Just a submission, not a system",
+          "Backup if sweeps fail only"
+        ],
+        "trap": [
+          "Ignore pressure, get passed"
+        ]
+      }
     },
     {
       "question": "What does it mean for butterfly hooks to be 'active,' and why does it matter?",
-      "answer": "Active hooks continuously lift and threaten elevation rather than resting passively; passive hooks let the opponent stand up or pressure through without ever facing a genuine sweep threat, killing the system."
+      "answer": "Active hooks continuously lift and threaten elevation rather than resting passively; passive hooks let the opponent stand up or pressure through without ever facing a genuine sweep threat, killing the system.",
+      "answer_line": "Constant lift, real sweep threat",
+      "distractors": {
+        "plausible": [
+          "Hooks in place, resting weight",
+          "Hooks deep, wait for opening"
+        ],
+        "trap": [
+          "Passive hooks, let them stand up"
+        ]
+      }
     },
     {
       "question": "When should you abandon butterfly guard and transition to single leg X-guard?",
-      "answer": "When the opponent leans or shifts their weight backward to counter the elevation, drop to single leg X while keeping one butterfly hook active, then sweep or advance position from there."
+      "answer": "When the opponent leans or shifts their weight backward to counter the elevation, drop to single leg X while keeping one butterfly hook active, then sweep or advance position from there.",
+      "answer_line": "Opponent leans back, drop to X",
+      "distractors": {
+        "plausible": [
+          "Opponent postures up, switch guard",
+          "Opponent flattens out, sweep now"
+        ],
+        "trap": [
+          "Release both hooks, chase legs"
+        ]
+      }
     },
     {
       "question": "What timing mistake most commonly causes butterfly sweeps to fail?",
-      "answer": "Attempting the sweep when the opponent's weight is posted back instead of waiting until they shift weight forward; sweeping into a posted base lets them stuff the attempt and begin passing."
+      "answer": "Attempting the sweep when the opponent's weight is posted back instead of waiting until they shift weight forward; sweeping into a posted base lets them stuff the attempt and begin passing.",
+      "answer_line": "Sweeping while they're posted back",
+      "distractors": {
+        "plausible": [
+          "Sweeping too early on entry",
+          "Waiting too long, losing hooks"
+        ],
+        "trap": [
+          "Sweep hard regardless of base"
+        ]
+      }
     },
     {
       "question": "How does the system create a 'dilemma' that makes it effective against high-level opponents?",
-      "answer": "Every defensive reaction opens another attack — a hand post feeds the arm drag and back take, forward pressure feeds the guillotine, and a backward lean feeds single leg X — so the opponent cannot defend everything at once."
+      "answer": "Every defensive reaction opens another attack — a hand post feeds the arm drag and back take, forward pressure feeds the guillotine, and a backward lean feeds single leg X — so the opponent cannot defend everything at once.",
+      "answer_line": "Every defense feeds another attack",
+      "distractors": {
+        "plausible": [
+          "Hooks alone overwhelm any defense",
+          "Guillotine threat wins alone"
+        ],
+        "trap": [
+          "Force one single attack repeatedly"
+        ]
+      }
     },
     {
       "question": "What should you prioritize first when the opponent secures a crossface?",
-      "answer": "Re-establish head position before fighting for the underhook: use forehead pressure and neck mobility to deny the crossface, shrimp to create space if it is already locked, then re-enter with the head high."
+      "answer": "Re-establish head position before fighting for the underhook: use forehead pressure and neck mobility to deny the crossface, shrimp to create space if it is already locked, then re-enter with the head high.",
+      "answer_line": "Re-establish head position first",
+      "distractors": {
+        "plausible": [
+          "Fight for underhook immediately",
+          "Shrimp away, reset from distance"
+        ],
+        "trap": [
+          "Push into the crossface harder"
+        ]
+      }
     }
   ]
 }

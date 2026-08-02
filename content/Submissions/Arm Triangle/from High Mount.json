@@ -18,7 +18,10 @@
   "target_area": "Carotid arteries (compressed by opponent's own shoulder and your arm)",
   "starting_position": "High Mount",
   "from_position": "High Mount/Top",
-  "success_rate": 62,
+  "success_rate": {
+    "gi": 62,
+    "nogi": 62
+  },
   "summary": "The arm triangle from high mount is a head-and-arm blood choke that traps the defender's own arm across their neck and compresses both carotids—their trapped shoulder on one side, your forearm on the other—to finish from grappling's most dominant mount.",
   "overview": "The arm triangle from high mount exploits the most dominant mount variation to isolate the defender's arm against their own neck, creating a bilateral carotid compression using the opponent's trapped shoulder and the attacker's forearm. High mount provides decisive advantages for this submission: the elevated knee position near the armpits restricts the defender's arm movement, gravity assists in steering the arm across the face, and the compressed posture limits defensive bridging and framing.\n\nThe setup typically begins when the attacker uses cross-face pressure or capitalizes on the defender's arm frames to push the near arm across the centerline of the neck. Once the arm is positioned, the attacker threads their choking arm over the trapped arm and behind the defender's head, locks a figure-four or gable grip, and transitions to a perpendicular finishing angle by stepping over to side control. The high mount entry is particularly effective because defenders are already compromised with limited escape options and restricted mobility.\n\nStrategically, the arm triangle from high mount integrates seamlessly into systematic mount attack chains. Armbar threats force defenders to retract their arms, positioning them for the arm triangle push across the neck. Choke threats force defenders to extend and frame, creating armbar opportunities that cycle back to arm triangle setups when the arms retract again. This cyclical pressure dynamic makes the arm triangle from high mount a high-percentage finish in competition and training alike, serving as a cornerstone of methodical mount finishing sequences used by elite grapplers.",
   "safety_considerations": {
@@ -105,17 +108,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 62,
+      "probability": {
+        "gi": 62,
+        "nogi": 62
+      },
       "result": "success"
     },
     {
       "to": "High Mount/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 13,
+      "probability": {
+        "gi": 13,
+        "nogi": 13
+      },
       "result": "counter"
     }
   ],
@@ -282,52 +294,181 @@
       {
         "question": "What anatomical structures does the arm triangle from high mount attack?",
         "answer": "The arm triangle compresses both carotid arteries simultaneously using a bilateral compression mechanism. The opponent's own trapped shoulder presses into one carotid from the near side, driven by chest-to-chest compression, while the attacker's forearm blade crosses behind the neck and presses into the opposite carotid from the far side. This bilateral restriction of blood flow to the brain causes unconsciousness in 6-8 seconds if not released.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Both carotids, shoulder + forearm",
+        "distractors": {
+          "plausible": [
+            "Windpipe/trachea compression",
+            "Only one carotid artery"
+          ],
+          "trap": [
+            "Crank the neck to force the tap"
+          ]
+        }
       },
       {
         "question": "Your opponent tucks their elbows tight to defend armbar attempts from high mount - how do you create the arm triangle setup?",
         "answer": "When the opponent tucks their elbows defensively, use cross-face pressure to push their near arm across their own neck. Slide your forearm across their jaw line while driving your weight forward, steering the arm past their centerline. The tucked elbow position actually assists this push because the arm is already close to the neck. Once the arm crosses their centerline, immediately pin it with chest pressure before they can retract it.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Cross-face, push arm to neck",
+        "distractors": {
+          "plausible": [
+            "Pry the elbow open first",
+            "Wait for them to extend arm"
+          ],
+          "trap": [
+            "Yank the wrist to free it"
+          ]
+        }
       },
       {
         "question": "What grip configuration locks the head-and-arm position for the arm triangle finish?",
         "answer": "The primary grip is a figure-four lock: the choking hand grips your own opposite bicep while your free hand cups behind the opponent's head, creating a closed loop around their head and trapped arm. Alternatively, a gable grip (palm-to-palm) provides maximum initial compression but offers less structural security. The figure-four is preferred because it locks mechanically and prevents the opponent from creating space by pushing on your hands.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Figure-four: hand to own bicep",
+        "distractors": {
+          "plausible": [
+            "Cross-collar lapel grip",
+            "Both hands under their chin"
+          ],
+          "trap": [
+            "Let go of the head, grab wrists"
+          ]
+        }
       },
       {
         "question": "You have locked the head-and-arm grip from high mount but the opponent bridges explosively to prevent you from stepping over - what adjustment do you make?",
         "answer": "Post your far-side hand wide on the mat and drop your base low to absorb the bridge rather than fighting it rigidly. If the bridge is strong enough to roll you, maintain the head-and-arm grip through the transition and finish from bottom position using a guard arm triangle. Do not release the grip to rebase. If the bridge fails, immediately step over and walk to the perpendicular finishing angle before the opponent can generate another explosive bridge attempt.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Post wide, drop base, keep grip",
+        "distractors": {
+          "plausible": [
+            "Sit up tall to stop the bridge",
+            "Wait until the bridge stops"
+          ],
+          "trap": [
+            "Let go of the head to repost"
+          ]
+        }
       },
       {
         "question": "What body angle creates maximum finishing pressure for the arm triangle from high mount?",
         "answer": "Walk your hips until they are perpendicular—90 degrees—to the opponent's body on the trapped-arm side. Drop your near hip to the mat and place your head on the mat on the far side of their head. Your chest should be directly over their face. This angle allows your expanding chest and body weight to drive the opponent's shoulder bone into their own carotid while your forearm compresses the other side. Any angle less than perpendicular reduces shoulder-on-carotid compression and may produce a neck crank rather than a clean blood choke.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Hips 90° to them, head to mat",
+        "distractors": {
+          "plausible": [
+            "Stay flat and parallel to them",
+            "Angle toward their legs"
+          ],
+          "trap": [
+            "Roll to your back to finish"
+          ]
+        }
       },
       {
         "question": "During the grip transition from high mount to arm triangle, the opponent starts pulling their trapped arm free - what is your immediate response?",
         "answer": "If the arm is sliding free during the grip transition, do not chase the arm triangle from a compromised position. Instead, immediately drive your chest weight back down onto the arm to re-pin it, or release the transition entirely and return to consolidated high mount control. From high mount you can re-isolate the arm using cross-face pressure once the position is stabilized. Forcing a grip transition on a partially freed arm results in a loose, ineffective choke that wastes energy and position.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Re-pin the arm, rebuild mount",
+        "distractors": {
+          "plausible": [
+            "Grab their wrist with both hands",
+            "Step over to the finish angle"
+          ],
+          "trap": [
+            "Crank the loose choke, get swept"
+          ]
+        }
       },
       {
         "question": "What are the key indicators that the arm triangle is properly locked and the opponent is approaching the point of no escape?",
         "answer": "The choke is properly locked when you feel the opponent's trapped shoulder bone pressing firmly into their neck with no space between your chest and their body. Their face may begin changing color as blood flow restricts. Their defensive movements become weaker and less coordinated, and their free arm framing loses force. If they cannot create any meaningful frame with their free hand and cannot bridge effectively to disrupt your angle, they have passed the point of no escape and the finish is imminent.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "No space, weak frame, color change",
+        "distractors": {
+          "plausible": [
+            "Face color changes only",
+            "They stop trying to bridge"
+          ],
+          "trap": [
+            "Opponent goes completely limp"
+          ]
+        }
       },
       {
         "question": "What safety precautions must you observe when applying the arm triangle from high mount in training?",
         "answer": "Apply pressure progressively over 3-5 seconds minimum from lock to tap—never spike or jerk the submission. Monitor the opponent's consciousness by watching for facial color changes, feeling for resistance changes, and noting if their movements suddenly weaken. Always ensure at least one of the opponent's hands is free to tap. Release immediately upon any tap signal including verbal, hand, or foot taps. If the opponent goes limp, release immediately and place them in recovery position on their side with legs elevated.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Apply gradually, release on tap",
+        "distractors": {
+          "plausible": [
+            "Accept only a hand tap",
+            "Monitor color only after release"
+          ],
+          "trap": [
+            "Spike it hard to force the tap"
+          ]
+        }
       },
       {
         "question": "Your opponent creates a strong frame with their free arm against your shoulder to prevent chest compression at the finishing angle - how do you eliminate this defense?",
         "answer": "Swim your free hand inside their far-side elbow to strip the frame from underneath rather than trying to muscle through it from above. Simultaneously walk your hips further toward their head, which collapses the space their frame creates and reduces their mechanical advantage. As you advance past the frame, your chest weight makes the frame progressively weaker. If the frame is extremely strong, use your head pressure on the far side to eliminate the space the frame is trying to create.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Swim inside elbow, walk hips up",
+        "distractors": {
+          "plausible": [
+            "Squeeze the grip tighter",
+            "Back hips out for more room"
+          ],
+          "trap": [
+            "Post both hands to pry the frame"
+          ]
+        }
       },
       {
         "question": "How does the arm triangle from high mount integrate into systematic mount attack chains for competition finishing?",
         "answer": "The arm triangle operates as part of a cyclical attack chain from high mount. Armbar threats force the opponent to retract and tuck their arms defensively, which positions the arms near the neck for the arm triangle push. Choke threats force the opponent to extend arms and create frames, exposing armbars. Each defense to one attack creates the setup for the next. In competition, patient practitioners use this cycle to progressively exhaust defensive options until the arm triangle or another submission in the chain succeeds.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Each defense opens the next attack",
+        "distractors": {
+          "plausible": [
+            "Drill one finish until it works",
+            "Hold mount and wait them out"
+          ],
+          "trap": [
+            "Give up mount to reset attacks"
+          ]
+        }
+      }
+    ],
+    "clips": [
+      {
+        "id": "tc-XXMg7v48",
+        "title": "The mounted arm triangle",
+        "by": "Coach Brian",
+        "vertical": false,
+        "channel": "TeachMeGrappling Coach Brian",
+        "duration": 145,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "YHCZ7SHep5k",
+        "title": "Finishing head-and-arm chokes the right way",
+        "by": "Henry Akins",
+        "vertical": false,
+        "channel": "Henry Akins' Hidden Jiu-Jitsu",
+        "duration": 88,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "wrZCRBlAB3Y",
+        "title": "Head and arm choke from mount finishing details",
+        "by": "Roger Gracie",
+        "vertical": false,
+        "channel": "Roger Gracie TV",
+        "duration": 265,
+        "verified": "2026-07-14"
       }
     ]
   },
@@ -421,27 +562,77 @@
       {
         "question": "How do you recognize that the attacker is setting up an arm triangle from high mount?",
         "answer": "The primary recognition cue is feeling strong cross-face pressure from the attacker driving your near arm across your face toward your opposite shoulder. This differs from normal mount control because the pressure is specifically directed at pushing your arm across your neck rather than controlling your head. The second cue is feeling the attacker's chest weight deliberately pin your arm against your own neck before they begin threading their choking arm behind your head.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Cross-face pressure on your arm",
+        "distractors": {
+          "plausible": [
+            "Simple head control pressure",
+            "Weight shifting to your hips"
+          ],
+          "trap": [
+            "Ignore it, it's normal mount"
+          ]
+        }
       },
       {
         "question": "What is the safest way to tap when caught in a locked arm triangle from high mount?",
         "answer": "Tap immediately and clearly using any available signal: tap the mat or the attacker's body multiple times with your free hand, tap with your feet if hands are trapped, or verbally say 'tap' loudly and clearly. Do not wait to see if you can escape once the choke is fully locked and sealed—arm triangles compress the carotid arteries and can cause unconsciousness in 6-8 seconds with minimal warning signs. Tapping early prevents injury and allows you to continue training safely.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Tap loud and clear right away",
+        "distractors": {
+          "plausible": [
+            "Signal once, very softly",
+            "Hands only, never your voice"
+          ],
+          "trap": [
+            "Ride it out and hunt an escape"
+          ]
+        }
       },
       {
         "question": "What arm positioning prevents the attacker from setting up the arm triangle from high mount?",
         "answer": "Keep your near arm either pinned tight against your own body with your elbow down and hand on your own chest, or extend it fully away from your neck in a direction that does not cross your throat line. The critical mistake is allowing your forearm to cross your own centerline at neck level, which creates the trapped-arm position the attacker needs. When defending high mount, prioritize hip escapes and bridges for escape rather than arm frames that cross your neck.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Keep your arm off your own neck",
+        "distractors": {
+          "plausible": [
+            "Hug their head with both arms",
+            "Reach for their far armpit"
+          ],
+          "trap": [
+            "Cross your forearm at neck level"
+          ]
+        }
       },
       {
         "question": "The attacker has locked the head-and-arm grip but has not yet stepped over to the finishing angle - what escape options remain?",
         "answer": "This is your last high-percentage escape window. Turn into the attacker toward your trapped-arm side and fight to get to your knees, which prevents them from establishing the perpendicular finishing angle. Simultaneously frame against their hips with your free arm to prevent them from stepping over. If you can face into the attacker, they cannot generate the chest compression needed to finish. Alternatively, bridge explosively toward the trapped-arm side during their step-over attempt to recover guard.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Turn in, to knees, frame hips",
+        "distractors": {
+          "plausible": [
+            "Push their head off with a hand",
+            "Buck your hips straight up"
+          ],
+          "trap": [
+            "Turn away and give up your back"
+          ]
+        }
       },
       {
         "question": "Why is turning toward the attacker more effective than turning away when defending the arm triangle?",
         "answer": "Turning toward the attacker (into the trapped-arm side) flattens the angle between your bodies, which reduces the compression of your own shoulder against your carotid artery. It also prevents the attacker from achieving the perpendicular finishing angle they need for maximum chest compression. Turning away from the attacker does the opposite—it drives your trapped shoulder deeper into your own carotid, gives the attacker the perpendicular angle, and accelerates the choke rather than relieving it.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Flattens angle, blocks 90° finish",
+        "distractors": {
+          "plausible": [
+            "It frees the trapped arm",
+            "It pops their grip loose"
+          ],
+          "trap": [
+            "Turn away to escape faster"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -464,6 +655,35 @@
         "phase": "Phase 4: Live defensive sparring from high mount bottom",
         "focus": "Full-speed defense against all high mount attacks including arm triangle",
         "description": "Partner starts in high mount top with full offensive options including arm triangle, armbar, and choke attacks. Defend all submissions while maintaining safe arm positioning to prevent the arm triangle setup. Focus on recognizing which attack is being set up and responding with the appropriate defense. 5-minute rounds, reset on escape or submission."
+      }
+    ],
+    "clips": [
+      {
+        "id": "n_2zR6BaF8A",
+        "title": "The best arm-triangle escape",
+        "by": "ZombieProofBJJ",
+        "vertical": false,
+        "channel": "ZombieProofBJJ",
+        "duration": 58,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "Nspz2EAIQ_k",
+        "title": "Arm triangle escape using hawking",
+        "by": "Crucifix Mike",
+        "vertical": false,
+        "channel": "Crucifix Mike",
+        "duration": 27,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "N7SC93aEOIA",
+        "title": "Head and arm choke escape",
+        "by": "Gracie Barra Jupiter",
+        "vertical": false,
+        "channel": "Gracie Barra Jupiter And Stuart",
+        "duration": 174,
+        "verified": "2026-07-14"
       }
     ]
   }

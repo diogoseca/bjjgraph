@@ -34,6 +34,54 @@ description: "Master the Inverted Triangle in BJJ. Reverse-angle triangle choke 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Inverted Triangle \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Inverted triangle setup",
+      "description": "Inverted Triangle film study: Inverted triangle setup, taught by Doug.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/9Z741GgDWj0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/9Z741GgDWj0",
+      "url": "https://www.youtube.com/watch?v=9Z741GgDWj0",
+      "creator": { "@type": "Person", "name": "Doug" },
+      "duration": "PT15S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Inverted triangle breakdown",
+      "description": "Inverted Triangle film study: Inverted triangle breakdown, taught by Bristol Jiu Jitsu coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/xAW3spYg9vE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/xAW3spYg9vE",
+      "url": "https://www.youtube.com/watch?v=xAW3spYg9vE",
+      "creator": { "@type": "Person", "name": "Bristol Jiu Jitsu coach" },
+      "duration": "PT51S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Crucifix to inverted triangle",
+      "description": "Inverted Triangle film study: Crucifix to inverted triangle, taught by Zen Spot coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/QPpQnCDw65k/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/QPpQnCDw65k",
+      "url": "https://www.youtube.com/watch?v=QPpQnCDw65k",
+      "creator": { "@type": "Person", "name": "Zen Spot coach" },
+      "duration": "PT25S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -65,10 +113,46 @@ Strategically, the inverted triangle serves as a critical tool in the triangle a
 
 The biomechanics of the inverted triangle differ significantly from the standard variation. The choking pressure comes from the opposite angle, with your legs positioned to compress the carotid arteries from behind rather than in front. This requires adjusting your hip angle, leg positioning, and grip placement to accommodate the reversed geometry. The inverted triangle also opens up different transition options, including back takes and armbar variations that aren't available from the standard triangle position.
 
-**From Position**: [[Positions/Triangle Control]] (Bottom)
-**Success Rate**: 55%
+**From Position**: [[Positions/Triangle Escape Position]] (Bottom)
+**Success Rate**: 60%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Inverted Triangle in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=9Z741GgDWj0)
+
+<p class="clip-credit"><strong>Inverted triangle setup</strong> — taught by Doug · 0:15 · <a href="https://www.youtube.com/watch?v=9Z741GgDWj0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=xAW3spYg9vE)
+
+<p class="clip-credit"><strong>Inverted triangle breakdown</strong> — taught by Bristol Jiu Jitsu coach · 0:51 · <a href="https://www.youtube.com/watch?v=xAW3spYg9vE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=QPpQnCDw65k)
+
+<p class="clip-credit"><strong>Crucifix to inverted triangle</strong> — taught by Zen Spot coach · 0:25 · <a href="https://www.youtube.com/watch?v=QPpQnCDw65k" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 
@@ -76,8 +160,8 @@ The biomechanics of the inverted triangle differ significantly from the standard
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Transitions/Inverted Triangle]] | 55% |
-| Failure | [[Positions/Triangle Control]] | 30% |
+| Success | [[Positions/Triangle Control]] | 55% |
+| Failure | [[Positions/Triangle Escape Position]] | 30% |
 | Counter | [[Positions/Side Control]] | 15% |
 
 

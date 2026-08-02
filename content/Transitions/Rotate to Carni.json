@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Carni/Bottom",
-      "probability": 60,
+      "probability": {
+        "gi": 60,
+        "nogi": 60
+      },
       "result": "success"
     },
     {
       "to": "New York/Bottom",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "summary": "Rotate to Carni is a 10th Planet Rubber Guard transition where the bottom player swings their hips 90 degrees from New York control to the Carni position, turning the opponent's lateral defensive movement into a shoulder-lock omoplata attack.",
   "overview": "Rotate to Carni is a critical transition within the 10th Planet Rubber Guard system that converts New York control into the powerful Carni position for omoplata-based attacks. The technique exploits the opponent's compromised posture and trapped arm by initiating a rotational movement that swings the bottom player's hips perpendicular to the opponent, creating the angle necessary for shoulder lock attacks.\n\nThe rotation occurs when the opponent widens their base or attempts to circle away from the overhook side, inadvertently creating the space needed for the bottom player to swing their hips. This reaction-based entry makes Rotate to Carni one of the most reliable transitions in the Rubber Guard system because it capitalizes on a common defensive reaction rather than requiring the bottom player to force the movement.\n\nStrategically, Rotate to Carni represents the shoulder attack pathway from New York, complementing the head attack pathway (Invisible Collar/Zombie) and the leg attack pathway (Chill Dog). Understanding when to select the Carni rotation versus other options is essential for maximizing submission rate from the Rubber Guard system. The technique is particularly effective against opponents who recognize the triangle and gogoplata threats and attempt to create lateral space, as this exact defensive movement opens the Carni angle.",
   "conditions": [
@@ -223,46 +235,166 @@
     "flashcards": [
       {
         "question": "What is the primary trigger that tells you to initiate Rotate to Carni?",
-        "answer": "The primary trigger is when the opponent widens their base laterally or begins circling away from your overhook side. This defensive movement creates the space needed for your hip rotation. You feel their weight shifting away from the overhook side, which means they cannot resist the perpendicular angle change. Attempting against a compact, forward-weighted base typically fails because there is no lateral space to rotate into."
+        "answer": "The primary trigger is when the opponent widens their base laterally or begins circling away from your overhook side. This defensive movement creates the space needed for your hip rotation. You feel their weight shifting away from the overhook side, which means they cannot resist the perpendicular angle change. Attempting against a compact, forward-weighted base typically fails because there is no lateral space to rotate into.",
+        "answer_line": "Opponent widens base laterally",
+        "distractors": {
+          "plausible": [
+            "Opponent postures up",
+            "Opponent extracts their arm"
+          ],
+          "trap": [
+            "Opponent drives forward"
+          ]
+        }
       },
       {
         "question": "What position do you start Rotate to Carni from and what controls must be established?",
-        "answer": "This technique starts from New York Bottom, a Rubber Guard position where you have a deep overhook around opponent's tricep with shoulder-to-armpit connection, and your shin controlled across their back using your same-side hand gripping near the ankle. Both the overhook depth and the shin position must be fully established before any rotation attempt, as the overhook is the control that must survive the transition."
+        "answer": "This technique starts from New York Bottom, a Rubber Guard position where you have a deep overhook around opponent's tricep with shoulder-to-armpit connection, and your shin controlled across their back using your same-side hand gripping near the ankle. Both the overhook depth and the shin position must be fully established before any rotation attempt, as the overhook is the control that must survive the transition.",
+        "answer_line": "Deep overhook plus shin across back",
+        "distractors": {
+          "plausible": [
+            "Overhook and cross-collar grip",
+            "Underhook and leg triangle"
+          ],
+          "trap": [
+            "Loose overhook, free shin hand"
+          ]
+        }
       },
       {
         "question": "What is the critical grip sequence during the rotation itself?",
-        "answer": "First, deepen the overhook by pulling your elbow tighter to your body before anything else. Then release the shin grip to free your posting hand. Use the free hand to post on the mat and power the rotation. As the 90-degree rotation completes, immediately thread your leg over opponent's shoulder to establish the Carni hook. Finally, your posting hand transitions to wrist control on the trapped arm. The overhook never releases throughout this entire sequence."
+        "answer": "First, deepen the overhook by pulling your elbow tighter to your body before anything else. Then release the shin grip to free your posting hand. Use the free hand to post on the mat and power the rotation. As the 90-degree rotation completes, immediately thread your leg over opponent's shoulder to establish the Carni hook. Finally, your posting hand transitions to wrist control on the trapped arm. The overhook never releases throughout this entire sequence.",
+        "answer_line": "Deepen overhook, release shin, post",
+        "distractors": {
+          "plausible": [
+            "Release overhook, keep shin grip",
+            "Thread leg before deepening hook"
+          ],
+          "trap": [
+            "Release overhook to free hand"
+          ]
+        }
       },
       {
         "question": "Your opponent drives forward aggressively as you begin the rotation - how do you adjust?",
-        "answer": "Abort the Carni rotation immediately and redirect to Chill Dog or Invisible Collar instead. Their forward drive actually assists both of those transitions because it brings their head closer and compresses the space needed for those controls. Forcing a Carni rotation against forward pressure will fail because you need lateral space, not forward compression. Accept the pressure and use their momentum for a higher-percentage pathway."
+        "answer": "Abort the Carni rotation immediately and redirect to Chill Dog or Invisible Collar instead. Their forward drive actually assists both of those transitions because it brings their head closer and compresses the space needed for those controls. Forcing a Carni rotation against forward pressure will fail because you need lateral space, not forward compression. Accept the pressure and use their momentum for a higher-percentage pathway.",
+        "answer_line": "Abort, switch to Chill Dog/Collar",
+        "distractors": {
+          "plausible": [
+            "Power through rotation anyway",
+            "Wait for them to stop driving"
+          ],
+          "trap": [
+            "Release overhook and reset"
+          ]
+        }
       },
       {
         "question": "What is the most critical mechanical detail that determines rotation success or failure?",
-        "answer": "The most critical detail is completing the full 90-degree hip rotation without pause or hesitation. Partial rotations stopping at 45-60 degrees leave you in a weak intermediate angle where you cannot establish the Carni leg hook but have already compromised your New York control. The rotation must be committed and complete, powered by core engagement and the posting hand, with the leg hook threading over the shoulder immediately upon completion."
+        "answer": "The most critical detail is completing the full 90-degree hip rotation without pause or hesitation. Partial rotations stopping at 45-60 degrees leave you in a weak intermediate angle where you cannot establish the Carni leg hook but have already compromised your New York control. The rotation must be committed and complete, powered by core engagement and the posting hand, with the leg hook threading over the shoulder immediately upon completion.",
+        "answer_line": "Complete full 90-degree rotation",
+        "distractors": {
+          "plausible": [
+            "Rotate slowly and cautiously",
+            "Thread leg before hips finish"
+          ],
+          "trap": [
+            "Stop rotation halfway to check"
+          ]
+        }
       },
       {
         "question": "Your opponent starts extracting their arm during your rotation - how do you chain to another attack?",
-        "answer": "If arm extraction begins during rotation, immediately transition to triangle setup rather than forcing the Carni. Their extracting arm creates the inside position needed for triangle because as the arm pulls free, it ends up positioned between your legs. Shoot your leg over their shoulder as their arm comes free and lock triangle control. The extraction actually opens a higher percentage attack than the Carni itself in many cases."
+        "answer": "If arm extraction begins during rotation, immediately transition to triangle setup rather than forcing the Carni. Their extracting arm creates the inside position needed for triangle because as the arm pulls free, it ends up positioned between your legs. Shoot your leg over their shoulder as their arm comes free and lock triangle control. The extraction actually opens a higher percentage attack than the Carni itself in many cases.",
+        "answer_line": "Switch to triangle setup",
+        "distractors": {
+          "plausible": [
+            "Force through to Carni anyway",
+            "Re-grip overhook and reset"
+          ],
+          "trap": [
+            "Chase and muscle the arm back"
+          ]
+        }
       },
       {
         "question": "What direction should the force be applied during the hip rotation?",
-        "answer": "The rotational force drives your hips in a 90-degree arc toward the overhook side, swinging your legs from behind the opponent's back to a perpendicular position relative to their body. The force is lateral and circular, not linear. Your posting hand pushes off the mat on the opposite side to power the swing, while your core generates the rotational torque. The movement follows a curved path, not a straight line."
+        "answer": "The rotational force drives your hips in a 90-degree arc toward the overhook side, swinging your legs from behind the opponent's back to a perpendicular position relative to their body. The force is lateral and circular, not linear. Your posting hand pushes off the mat on the opposite side to power the swing, while your core generates the rotational torque. The movement follows a curved path, not a straight line.",
+        "answer_line": "Circular arc toward overhook side",
+        "distractors": {
+          "plausible": [
+            "Straight line push forward",
+            "Arc away from overhook side"
+          ],
+          "trap": [
+            "Explosive bridge straight up"
+          ]
+        }
       },
       {
         "question": "How does Rotate to Carni fit into the broader Rubber Guard attack decision tree?",
-        "answer": "Rotate to Carni represents the shoulder attack pathway from New York, triggered by opponent's lateral defensive movement. It complements the head attack pathway (Invisible Collar/Zombie for chokes) triggered by slow arm extraction, and the leg attack pathway (Chill Dog for gogoplata) triggered by forward driving. The system creates a true decision tree where each defensive reaction selects a different high-percentage attack, making the New York position extremely dangerous when all three pathways are developed."
+        "answer": "Rotate to Carni represents the shoulder attack pathway from New York, triggered by opponent's lateral defensive movement. It complements the head attack pathway (Invisible Collar/Zombie for chokes) triggered by slow arm extraction, and the leg attack pathway (Chill Dog for gogoplata) triggered by forward driving. The system creates a true decision tree where each defensive reaction selects a different high-percentage attack, making the New York position extremely dangerous when all three pathways are developed.",
+        "answer_line": "Shoulder attack from New York",
+        "distractors": {
+          "plausible": [
+            "Head attack pathway for chokes",
+            "Leg attack pathway for gogoplata"
+          ],
+          "trap": [
+            "Same pathway regardless of reaction"
+          ]
+        }
       },
       {
         "question": "What are the entry requirements that must exist before you attempt this transition?",
-        "answer": "Four conditions must be met: established New York control with deep overhook and shin across opponent's back, opponent actively widening base or circling away from overhook side, sufficient overhook depth to survive the rotational movement without arm extraction, and adequate hip flexibility to complete the 90-degree swing while maintaining upper body connection. Missing any single requirement dramatically reduces success probability and should trigger you to wait or choose an alternative pathway."
+        "answer": "Four conditions must be met: established New York control with deep overhook and shin across opponent's back, opponent actively widening base or circling away from overhook side, sufficient overhook depth to survive the rotational movement without arm extraction, and adequate hip flexibility to complete the 90-degree swing while maintaining upper body connection. Missing any single requirement dramatically reduces success probability and should trigger you to wait or choose an alternative pathway.",
+        "answer_line": "Overhook depth, space, hip mobility",
+        "distractors": {
+          "plausible": [
+            "Just deep overhook is enough",
+            "Any opponent movement works"
+          ],
+          "trap": [
+            "Rotate immediately, ignore cues"
+          ]
+        }
       },
       {
         "question": "If Carni is established but the opponent immediately begins defending the omoplata, what chains are available?",
-        "answer": "From Carni, if the opponent defends the omoplata by rolling forward, follow the roll for an omoplata sweep to mount. If they posture and attempt to stack, use the stacking pressure to transition to a back take by threading under them. If they attempt to extract the arm, tighten the leg hook and switch to wrist lock threats on the trapped arm. The Carni position itself is a hub with multiple submission and positional advancement chains."
+        "answer": "From Carni, if the opponent defends the omoplata by rolling forward, follow the roll for an omoplata sweep to mount. If they posture and attempt to stack, use the stacking pressure to transition to a back take by threading under them. If they attempt to extract the arm, tighten the leg hook and switch to wrist lock threats on the trapped arm. The Carni position itself is a hub with multiple submission and positional advancement chains.",
+        "answer_line": "Follow roll, stack, or wrist lock",
+        "distractors": {
+          "plausible": [
+            "Always finish the omoplata",
+            "Release hook to reset position"
+          ],
+          "trap": [
+            "Fight the stack, push away"
+          ]
+        }
       }
     ],
-    "safety_considerations": "Rotate to Carni involves shoulder joint manipulation that can cause injury if executed explosively on an unprepared training partner. Always communicate with your partner before drilling omoplata-based positions. During rotation, avoid jerking or explosive movements that could hyperextend your partner's shoulder. Partners should tap early when shoulder pressure begins - do not wait for pain. Practitioners with shoulder injuries should avoid being the recipient during drilling. When completing the transition to Carni, control the shoulder angle gradually rather than cranking immediately. In competition, be prepared to release if opponent taps during any phase of the transition."
+    "safety_considerations": "Rotate to Carni involves shoulder joint manipulation that can cause injury if executed explosively on an unprepared training partner. Always communicate with your partner before drilling omoplata-based positions. During rotation, avoid jerking or explosive movements that could hyperextend your partner's shoulder. Partners should tap early when shoulder pressure begins - do not wait for pain. Practitioners with shoulder injuries should avoid being the recipient during drilling. When completing the transition to Carni, control the shoulder angle gradually rather than cranking immediately. In competition, be prepared to release if opponent taps during any phase of the transition.",
+    "clips": [
+      {
+        "id": "WliTCjEDA-8",
+        "title": "Basic entries and rotations into rubber guard",
+        "by": "BJJ4Breakfast",
+        "vertical": false,
+        "channel": "BJJ4Breakfast",
+        "duration": 106,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "nuT1Jk0KVoI",
+        "title": "Rubber guard trap and rotation",
+        "by": "Richie Martinez",
+        "vertical": false,
+        "channel": "BJJ Trickster",
+        "duration": 246,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Rotate to Carni Defender",
@@ -352,23 +484,73 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that your opponent is preparing to Rotate to Carni?",
-        "answer": "The earliest cue is when the bottom player releases their shin grip with their free hand while keeping the leg across your back. This hand release signals that they are freeing a posting hand to power the rotation. You may also feel the overhook tighten immediately before this release as they secure their primary control before initiating the transition. Recognizing this two-step signal gives you a 1-2 second window to act preventively."
+        "answer": "The earliest cue is when the bottom player releases their shin grip with their free hand while keeping the leg across your back. This hand release signals that they are freeing a posting hand to power the rotation. You may also feel the overhook tighten immediately before this release as they secure their primary control before initiating the transition. Recognizing this two-step signal gives you a 1-2 second window to act preventively.",
+        "answer_line": "They release shin grip early",
+        "distractors": {
+          "plausible": [
+            "They deepen overhook first",
+            "They shift hips laterally"
+          ],
+          "trap": [
+            "Wait until leg threads over"
+          ]
+        }
       },
       {
         "question": "Why is driving forward the highest percentage defensive response against early-stage rotation?",
-        "answer": "Driving forward is the highest percentage response because the Carni rotation requires lateral space to swing the hips perpendicular. Forward pressure directly collapses this space by pinning the bottom player's hips to the mat and preventing the arc of movement. Additionally, forward drive is mechanically simple and fast to execute compared to arm extraction or posture recovery, making it achievable within the small time window available before the rotation progresses past the point of no return."
+        "answer": "Driving forward is the highest percentage response because the Carni rotation requires lateral space to swing the hips perpendicular. Forward pressure directly collapses this space by pinning the bottom player's hips to the mat and preventing the arc of movement. Additionally, forward drive is mechanically simple and fast to execute compared to arm extraction or posture recovery, making it achievable within the small time window available before the rotation progresses past the point of no return.",
+        "answer_line": "Collapses lateral space needed",
+        "distractors": {
+          "plausible": [
+            "Pins overhook arm to hip",
+            "Circles away to create space"
+          ],
+          "trap": [
+            "Posture up to create distance"
+          ]
+        }
       },
       {
         "question": "What defensive position should you prioritize if you recognize the rotation too late to prevent Carni?",
-        "answer": "If Carni is already being established, prioritize protecting your shoulder by keeping your trapped arm's elbow tight to your body and turning your shoulder inward to reduce the omoplata angle. Begin working to extract your arm using a hitchhiker-style escape before the bottom player secures wrist control. Accept the positional loss and focus on preventing the submission rather than trying to reverse a position that is already established."
+        "answer": "If Carni is already being established, prioritize protecting your shoulder by keeping your trapped arm's elbow tight to your body and turning your shoulder inward to reduce the omoplata angle. Begin working to extract your arm using a hitchhiker-style escape before the bottom player secures wrist control. Accept the positional loss and focus on preventing the submission rather than trying to reverse a position that is already established.",
+        "answer_line": "Tight elbow, hitchhiker escape",
+        "distractors": {
+          "plausible": [
+            "Muscle the arm straight out",
+            "Posture up to break grip"
+          ],
+          "trap": [
+            "Push away and stand up"
+          ]
+        }
       },
       {
         "question": "What is the primary risk of attempting arm extraction during mid-rotation?",
-        "answer": "The primary risk is that partial arm extraction positions your arm inside the bottom player's guard in exactly the configuration needed for a triangle choke setup. As the arm begins coming free during rotation, it passes through the inside position between their legs, and if the rotation continues while your arm is partially extracted, the bottom player can redirect to triangle control instead of Carni. This is why arm extraction should only be attempted early when the overhook is genuinely loosened."
+        "answer": "The primary risk is that partial arm extraction positions your arm inside the bottom player's guard in exactly the configuration needed for a triangle choke setup. As the arm begins coming free during rotation, it passes through the inside position between their legs, and if the rotation continues while your arm is partially extracted, the bottom player can redirect to triangle control instead of Carni. This is why arm extraction should only be attempted early when the overhook is genuinely loosened.",
+        "answer_line": "Sets up their triangle choke",
+        "distractors": {
+          "plausible": [
+            "Gives them the omoplata angle",
+            "Lets them switch to armbar"
+          ],
+          "trap": [
+            "Extract fast to escape fully"
+          ]
+        }
       },
       {
         "question": "How should you modify your base positioning in New York to prevent the Carni rotation opportunity?",
-        "answer": "Maintain a narrow, compact base with knees close together and weight centered rather than distributed laterally. Avoid widening your base or circling away from the overhook side, as both create the lateral space the rotation requires. Keep your weight slightly forward to pin the bottom player's hips, making it difficult for them to generate the hip elevation needed to initiate the rotational arc. This compact positioning eliminates the trigger conditions for the Carni entry entirely."
+        "answer": "Maintain a narrow, compact base with knees close together and weight centered rather than distributed laterally. Avoid widening your base or circling away from the overhook side, as both create the lateral space the rotation requires. Keep your weight slightly forward to pin the bottom player's hips, making it difficult for them to generate the hip elevation needed to initiate the rotational arc. This compact positioning eliminates the trigger conditions for the Carni entry entirely.",
+        "answer_line": "Narrow base, weight forward",
+        "distractors": {
+          "plausible": [
+            "Wide base for more stability",
+            "Circle away from overhook side"
+          ],
+          "trap": [
+            "Post up and create space"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -391,6 +573,35 @@
         "phase": "Week 7+",
         "focus": "Live positional defense",
         "description": "Full resistance positional sparring from New York where partner can attempt Carni rotation or any other Rubber Guard attack. Defend all threats while working toward escape. Track how often Carni is successfully established versus defended to measure improvement."
+      }
+    ],
+    "clips": [
+      {
+        "id": "0-SG9igq40E",
+        "title": "Omoplata escape to front headlock",
+        "by": "Asaf Mich",
+        "vertical": false,
+        "channel": "Asaf Mich",
+        "duration": 14,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "AvivOVuYcCk",
+        "title": "Simple but risky rubber guard escape",
+        "by": "BJJ4Breakfast",
+        "vertical": false,
+        "channel": "BJJ4Breakfast",
+        "duration": 131,
+        "verified": "2026-07-16"
+      },
+      {
+        "id": "FkthdKIbacI",
+        "title": "Troubleshooting the Lockdown from rubber guard",
+        "by": "Eddie Bravo",
+        "vertical": false,
+        "channel": "Eddie Bravo",
+        "duration": 61,
+        "verified": "2026-07-16"
       }
     ]
   },

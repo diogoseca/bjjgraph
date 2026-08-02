@@ -34,6 +34,32 @@ description: "Master the Standing RNC from Rear Clinch in BJJ. Expert guide to f
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Rear Naked Choke from Standing Rear Clinch \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Takedown to rear naked choke setup",
+      "description": "Rear Naked Choke from Standing Rear Clinch film study: Takedown to rear naked choke setup, taught by Fit To Fight Republic.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/FvT_Ffy68OI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/FvT_Ffy68OI",
+      "url": "https://www.youtube.com/watch?v=FvT_Ffy68OI",
+      "creator": { "@type": "Person", "name": "Fit To Fight Republic" },
+      "duration": "PT38S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -78,6 +104,26 @@ From a competition perspective, the standing RNC appears most frequently in no-g
 **Starting Position**: [[Positions/Standing Rear Clinch]] · **From**: [[Positions/Standing Rear Clinch]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Rear Naked Choke from Standing Rear Clinch in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=FvT_Ffy68OI)
+
+<p class="clip-credit"><strong>Takedown to rear naked choke setup</strong> — taught by Fit To Fight Republic · 0:38 · <a href="https://www.youtube.com/watch?v=FvT_Ffy68OI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="outcomes" class="content-section">
 
@@ -248,10 +294,10 @@ From a competition perspective, the standing RNC appears most frequently in no-g
 ## Related
 - [[Submissions/Rear Naked Choke]]
 - [[Submissions/High Elbow Guillotine]]
-- [[Transitions/Guillotine Choke]]
+- [[Submissions/Guillotine Choke]]
 - [[Submissions/Bow and Arrow Choke]]
 - [[Submissions/Rear Triangle Choke]]
-- [[Transitions/Darce Choke]]
+- [[Submissions/Darce Choke]]
 - [[Positions/Standing Rear Clinch]] - Primary starting position from which this submission is initiated through seatbelt-to-choke transition
 - [[Positions/Back Control/Standing Back Control]] - Alternative standing control position with hooks that provides additional stability for the choke attempt
 - [[Positions/Back Control]] - Ground-based equivalent position offering greater stability for RNC finishing mechanics

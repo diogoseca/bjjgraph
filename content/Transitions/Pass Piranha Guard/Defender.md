@@ -148,6 +148,54 @@ description: "Defend against Piranha Guard passing in BJJ. Guard retention strat
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Pass Piranha Guard (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Guard retention against the pass",
+      "description": "Pass Piranha Guard (Defender) film study: Guard retention against the pass, taught by Cobrinha.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/X2JY-yMeGo8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/X2JY-yMeGo8",
+      "url": "https://www.youtube.com/watch?v=X2JY-yMeGo8",
+      "creator": { "@type": "Person", "name": "Cobrinha" },
+      "duration": "PT46S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Guard retention vs the cross pant grip pass",
+      "description": "Pass Piranha Guard (Defender) film study: Guard retention vs the cross pant grip pass, taught by Jon Thomas.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/t38qU44iy2s/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/t38qU44iy2s",
+      "url": "https://www.youtube.com/watch?v=t38qU44iy2s",
+      "creator": { "@type": "Person", "name": "Jon Thomas" },
+      "duration": "PT228S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Five biggest guard retention mistakes",
+      "description": "Pass Piranha Guard (Defender) film study: Five biggest guard retention mistakes, taught by Jon Thomas.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/SokxojIg2zI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/SokxojIg2zI",
+      "url": "https://www.youtube.com/watch?v=SokxojIg2zI",
+      "creator": { "@type": "Person", "name": "Jon Thomas" },
+      "duration": "PT520S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +205,42 @@ Defending against a Piranha Guard pass means you are the bottom player maintaini
 **Opponent's Starting Position**: [[Positions/Piranha Guard]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Pass Piranha Guard (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=X2JY-yMeGo8)
+
+<p class="clip-credit"><strong>Guard retention against the pass</strong> — taught by Cobrinha · 0:46 · <a href="https://www.youtube.com/watch?v=X2JY-yMeGo8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=t38qU44iy2s)
+
+<p class="clip-credit"><strong>Guard retention vs the cross pant grip pass</strong> — taught by Jon Thomas · 3:48 · <a href="https://www.youtube.com/watch?v=t38qU44iy2s" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=SokxojIg2zI)
+
+<p class="clip-credit"><strong>Five biggest guard retention mistakes</strong> — taught by Jon Thomas · 8:40 · <a href="https://www.youtube.com/watch?v=SokxojIg2zI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

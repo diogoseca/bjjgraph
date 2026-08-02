@@ -34,6 +34,43 @@ description: "Master the Kneebar from Estima Lock in BJJ. Convert defended footl
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Kneebar from Estima Lock \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Estima Lock demonstration",
+      "description": "Kneebar from Estima Lock film study: Estima Lock demonstration, taught by bjjtaro.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/_6BC8d5B5Hs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/_6BC8d5B5Hs",
+      "url": "https://www.youtube.com/watch?v=_6BC8d5B5Hs",
+      "creator": { "@type": "Person", "name": "bjjtaro" },
+      "duration": "PT31S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Estima Lock breakdown",
+      "description": "Kneebar from Estima Lock film study: Estima Lock breakdown, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/8Wum2xWu8b8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/8Wum2xWu8b8",
+      "url": "https://www.youtube.com/watch?v=8Wum2xWu8b8",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT108S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -66,9 +103,37 @@ This transition exploits a fundamental defensive dilemma: the actions the defend
 The technical execution requires precise hip placement perpendicular to the opponent's thigh, maintaining continuous leg isolation throughout the transition, and understanding the biomechanical relationship between ankle defense and knee vulnerability. This technique exemplifies the dilemma-based approach to submission grappling where each defensive action opens a new offensive pathway, forcing the defender to address multiple threats simultaneously rather than solving a single problem. Proficiency in this transition transforms the Estima Lock from a single-threat position into a multi-layered attack system.
 
 **From Position**: [[Positions/Estima Lock Control]] (Top)
-**Success Rate**: 50%
+**Success Rate**: 36%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Kneebar from Estima Lock in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=_6BC8d5B5Hs)
+
+<p class="clip-credit"><strong>Estima Lock demonstration</strong> — taught by bjjtaro · 0:31 · <a href="https://www.youtube.com/watch?v=_6BC8d5B5Hs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=8Wum2xWu8b8)
+
+<p class="clip-credit"><strong>Estima Lock breakdown</strong> — taught by Lachlan Giles · 1:48 · <a href="https://www.youtube.com/watch?v=8Wum2xWu8b8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 
@@ -245,7 +310,7 @@ The Kneebar from Estima Lock occupies a pivotal position within modern leg lock 
 
 - [[Transitions/Kneebar Control Maintenance]] - Follow-up technique for maintaining control after successful entry
 
-- [[Transitions/Estima Lock]] - Primary submission from source position that this chain attack complements
+- [[Submissions/Estima Lock]] - Primary submission from source position that this chain attack complements
 
 - [[Transitions/Toe Hold from Estima Lock]] - Alternative chain attack from same position targeting the foot instead of knee
 

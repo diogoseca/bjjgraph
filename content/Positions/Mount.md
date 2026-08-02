@@ -36,6 +36,54 @@ description: "Master the Mount position in BJJ. Complete guide to control, submi
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Mount \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Roger Gracie Mount Cross Collar Chokes",
+      "description": "Mount film study: Roger Gracie Mount Cross Collar Chokes, taught by Roger Gracie.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/dfP-Ov8FBUo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/dfP-Ov8FBUo",
+      "url": "https://www.youtube.com/watch?v=dfP-Ov8FBUo",
+      "creator": { "@type": "Person", "name": "Roger Gracie" },
+      "duration": "PT80S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Mount Control Fundamentals - Roger Gracie Style",
+      "description": "Mount film study: Mount Control Fundamentals - Roger Gracie Style, taught by MMA Leech.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/5Gxj5VQj8bc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/5Gxj5VQj8bc",
+      "url": "https://www.youtube.com/watch?v=5Gxj5VQj8bc",
+      "creator": { "@type": "Person", "name": "MMA Leech" },
+      "duration": "PT184S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Maintaining the Mount Position",
+      "description": "Mount film study: Maintaining the Mount Position, taught by Demian Maia.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/FO5aipaY0cc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/FO5aipaY0cc",
+      "url": "https://www.youtube.com/watch?v=FO5aipaY0cc",
+      "creator": { "@type": "Person", "name": "Demian Maia" },
+      "duration": "PT262S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -76,6 +124,42 @@ From bottom Mount, the position represents the most urgent defensive crisis in t
 Understanding Mount from both perspectives is essential for complete grappling development. The position sits at the intersection of positional control and submission finishing ability, rewarding practitioners who combine patience with systematic pressure on top and technical precision with composure on the bottom. Competition data consistently shows that mount is among the highest-converting positions to submission finish, making proficiency from both roles a non-negotiable requirement for serious competitors.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Mount in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=dfP-Ov8FBUo)
+
+<p class="clip-credit"><strong>Roger Gracie Mount Cross Collar Chokes</strong> — taught by Roger Gracie · 1:20 · <a href="https://www.youtube.com/watch?v=dfP-Ov8FBUo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=5Gxj5VQj8bc)
+
+<p class="clip-credit"><strong>Mount Control Fundamentals - Roger Gracie Style</strong> — taught by MMA Leech · 3:04 · <a href="https://www.youtube.com/watch?v=5Gxj5VQj8bc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=FO5aipaY0cc)
+
+<p class="clip-credit"><strong>Maintaining the Mount Position</strong> — taught by Demian Maia · 4:22 · <a href="https://www.youtube.com/watch?v=FO5aipaY0cc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 
@@ -149,21 +233,19 @@ Understanding Mount from both perspectives is essential for complete grappling d
 ### Available Transitions
 
 
-- **[[Transitions/Elbow Escape from Mount/Attacker|Elbow Escape from Mount]]** (35% of attempts)
+- **[[Transitions/Elbow Escape from Mount/Attacker|Elbow Escape from Mount]]** (26% of attempts)
 
-- **[[Transitions/Upa Escape/Attacker|Upa Escape]]** (22% of attempts)
+- **[[Transitions/Upa Escape/Attacker|Upa Escape]]** (20% of attempts)
 
-- **[[Transitions/Explosive Bridge to Guard Recovery/Attacker|Explosive Bridge to Guard Recovery]]** (15% of attempts)
+- **[[Transitions/Trap and Roll from Mount/Attacker|Trap and Roll from Mount]]** (14% of attempts)
 
-- **[[Transitions/Trap and Roll from Mount/Attacker|Trap and Roll from Mount]]** (10% of attempts)
+- **[[Transitions/Heel Drag Escape/Attacker|Heel Drag Escape]]** (14% of attempts)
 
-- **[[Transitions/Heel Drag Escape/Attacker|Heel Drag Escape]]** (7% of attempts)
+- **[[Transitions/Explosive Bridge to Turtle/Attacker|Explosive Bridge to Turtle]]** (9% of attempts)
 
-- **[[Transitions/Explosive Bridge to Turtle/Attacker|Explosive Bridge to Turtle]]** (5% of attempts)
+- **[[Transitions/Bridge and Roll/Attacker|Bridge and Roll]]** (10% of attempts)
 
-- **[[Transitions/Bridge and Roll/Attacker|Bridge and Roll]]** (4% of attempts)
-
-- **[[Transitions/Mount Escape to Half Guard Back Take/Attacker|Mount Escape to Half Guard Back Take]]** (2% of attempts)
+- **[[Transitions/Mount Escape to Half Guard Back Take/Attacker|Mount Escape to Half Guard Back Take]]** (7% of attempts)
 
 
 ### Common Mistakes
@@ -228,43 +310,41 @@ Understanding Mount from both perspectives is essential for complete grappling d
 ### Available Transitions
 
 
-- **[[Transitions/Mount to Armbar/Attacker|Mount to Armbar]]** (5% of attempts)
+- **[[Transitions/Mount to Armbar/Attacker|Mount to Armbar]]** (7% of attempts)
 
-- **[[Cross Collar Choke from Mount/Attacker|Cross Collar Choke from Mount]]** (4% of attempts)
+- **[[Cross Collar Choke from Mount/Attacker|Cross Collar Choke from Mount]]** (0% of attempts)
 
-- **[[Transitions/Gift Wrap to Technical Mount/Attacker|Gift Wrap to Technical Mount]]** (4% of attempts)
+- **[[Transitions/Gift Wrap to Technical Mount/Attacker|Gift Wrap to Technical Mount]]** (9% of attempts)
 
-- **[[Transitions/S-Mount Transition/Attacker|S-Mount Transition]]** (3% of attempts)
+- **[[Transitions/S-Mount Transition/Attacker|S-Mount Transition]]** (6% of attempts)
 
-- **[[Transitions/High Mount Transition/Attacker|High Mount Transition]]** (5% of attempts)
+- **[[Positions/Mount/Mounted Triangle/Attacker|Mounted Triangle]]** (4% of attempts)
 
-- **[[Positions/Mount/Mounted Triangle/Attacker|Mounted Triangle]]** (3% of attempts)
+- **[[Transitions/Consolidate Mount/Attacker|Consolidate Mount]]** (11% of attempts)
 
-- **[[Transitions/Consolidate Mount/Attacker|Consolidate Mount]]** (35% of attempts)
+- **[[Transitions/Mount Control/Attacker|Mount Control]]** (21% of attempts)
 
-- **[[Transitions/Mount Control/Attacker|Mount Control]]** (3% of attempts)
+- **[[Transitions/Mount to 3-4 Mount/Attacker|Mount to 3-4 Mount]]** (4% of attempts)
 
-- **[[Transitions/Mount to 3-4 Mount/Attacker|Mount to 3-4 Mount]]** (3% of attempts)
+- **[[Transitions/Mount to Knee on Belly/Attacker|Mount to Knee on Belly]]** (2% of attempts)
 
-- **[[Transitions/Mount to Knee on Belly/Attacker|Mount to Knee on Belly]]** (3% of attempts)
+- **[[Transitions/Mount to Technical Mount/Attacker|Mount to Technical Mount]]** (10% of attempts)
 
-- **[[Transitions/Mount to Technical Mount/Attacker|Mount to Technical Mount]]** (3% of attempts)
+- **[[Americana from Mount/Attacker|Americana from Mount]]** (8% of attempts)
 
-- **[[Americana from Mount/Attacker|Americana from Mount]]** (5% of attempts)
+- **[[Ezekiel Choke from Mount/Attacker|Ezekiel Choke from Mount]]** (2% of attempts)
 
-- **[[Ezekiel Choke from Mount/Attacker|Ezekiel Choke from Mount]]** (4% of attempts)
+- **[[Kimura from Mount/Attacker|Kimura from Mount]]** (3% of attempts)
 
-- **[[Kimura from Mount/Attacker|Kimura from Mount]]** (2% of attempts)
+- **[[Loop Choke from Mount/Attacker|Loop Choke from Mount]]** (0% of attempts)
 
-- **[[Loop Choke from Mount/Attacker|Loop Choke from Mount]]** (4% of attempts)
+- **[[Monoplata from Mount/Attacker|Monoplata from Mount]]** (1% of attempts)
 
-- **[[Monoplata from Mount/Attacker|Monoplata from Mount]]** (2% of attempts)
+- **[[Submissions/Armbar/Reverse Armbar from Mount/Attacker|Reverse Armbar from Mount]]** (1% of attempts)
 
-- **[[Submissions/Armbar/Reverse Armbar from Mount/Attacker|Reverse Armbar from Mount]]** (2% of attempts)
+- **[[Armbar from Mount/Attacker|Armbar from Mount]]** (8% of attempts)
 
-- **[[Armbar from Mount/Attacker|Armbar from Mount]]** (5% of attempts)
-
-- **[[Transitions/Mount to Modified Mount/Attacker|Mount to Modified Mount]]** (5% of attempts)
+- **[[Transitions/Mount to Modified Mount/Attacker|Mount to Modified Mount]]** (3% of attempts)
 
 
 ### Common Mistakes

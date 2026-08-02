@@ -16,7 +16,10 @@
   "target_area": "Knee and ankle joint",
   "starting_position": "Honey Hole",
   "from_position": "Honey Hole/Top",
-  "success_rate": 50,
+  "success_rate": {
+    "gi": 50,
+    "nogi": 50
+  },
   "summary": "The Inside Heel Hook from Honey Hole is a rotational knee submission applied from the inside sankaku leg entanglement, twisting the trapped heel to load the ACL, MCL, and meniscus — the highest-percentage finish in modern no-gi leg locking.",
   "overview": "The Inside Heel Hook from Honey Hole represents the highest-percentage finishing technique in modern no-gi Brazilian Jiu-Jitsu leg lock systems. Executed from the dominant Honey Hole (also known as Inside Sankaku, Saddle, or 411) entanglement, this submission attacks the knee joint through controlled rotational force applied via the heel, targeting the medial collateral ligament, anterior cruciate ligament, and meniscus simultaneously. The Honey Hole's structural control—inside leg triangle restricting hip rotation, perpendicular body alignment creating optimal leverage—allows the attacker to methodically establish grip, clear defenses, and apply breaking pressure without rushing.\n\nFrom a competitive standpoint, the Inside Heel Hook from Honey Hole has become the most feared finish in submission grappling, consistently appearing as the dominant submission at elite no-gi events. The position's inherent control means success rates are significantly higher than heel hooks attempted from looser entanglements like Outside Ashi-Garami or standard Ashi Garami. The inside configuration exposes the heel at an angle that maximizes rotational leverage against the knee's weakest axis, creating mechanical advantage that neutralizes size and strength differentials.\n\nThis submission demands absolute safety awareness. The rotational force attacks ligaments that provide minimal proprioceptive warning before failure—the defender often cannot feel the submission tightening until structural damage has already occurred. Controlled application, immediate release on any tap signal, and comprehensive training protocols are non-negotiable requirements for responsible practice of this technique.",
   "safety_considerations": {
@@ -68,17 +71,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 50,
+      "probability": {
+        "gi": 50,
+        "nogi": 50
+      },
       "result": "success"
     },
     {
       "to": "Honey Hole/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "50-50 Guard/Bottom",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "counter"
     }
   ],
@@ -293,45 +305,174 @@
       {
         "question": "What anatomical structures does the inside heel hook primarily attack and why is this submission uniquely dangerous?",
         "answer": "The inside heel hook targets the medial collateral ligament (MCL), anterior cruciate ligament (ACL), and meniscus of the knee joint through rotational force transmitted via the heel. The submission is uniquely dangerous because these knee structures have extremely poor proprioceptive feedback for rotational stress—the defender literally cannot feel the submission tightening progressively the way they can with an armbar or choke. Multiple ligaments can fail simultaneously in under one second once the breaking threshold is reached, often requiring surgical reconstruction and 9-12 months of recovery.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Knee ligaments, no pain warning",
+        "distractors": {
+          "plausible": [
+            "Attacks ankle like straight lock",
+            "Tightens gradually like an armbar"
+          ],
+          "trap": [
+            "Safe, defender feels it building"
+          ]
+        }
       },
       {
         "question": "What are the key indicators that the breaking point is approaching during application of the inside heel hook?",
         "answer": "The primary indicators are: the heel begins rotating past its natural range of motion relative to the knee axis, connective tissue tension increases dramatically through your grip creating a sense of structural resistance, and the opponent's body begins involuntarily twisting to follow the rotation direction. Critically, the defender may NOT perceive these indicators clearly due to the knee's poor rotational proprioception. The attacker bears primary responsibility for controlled application—you must apply slowly and watch for ANY tap signal because your partner may not feel the danger until damage has already begun.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Heel rotating past knee axis",
+        "distractors": {
+          "plausible": [
+            "Opponent grimaces or yells",
+            "Your grip slips on the ankle"
+          ],
+          "trap": [
+            "Rip fast to beat their escape"
+          ]
+        }
       },
       {
         "question": "What four control elements must be established before attempting the heel hook finish and why is the sequence important?",
-        "answer": "The four elements in order are: (1) secure inside leg triangle with proper figure-four around opponent's thigh, (2) establish hip-to-hip connection with perpendicular body alignment, (3) control the knee line to prevent defensive rotation past the barrier, and (4) clear opponent's defensive grips and frames. The sequence matters because each element builds on the previous one—without the triangle, hip pressure is unstable; without hip pressure, knee line control is ineffective; without knee line control, grip clearing exposes you to counter-entanglement. Skipping any element dramatically reduces finish probability and increases escape risk."
+        "answer": "The four elements in order are: (1) secure inside leg triangle with proper figure-four around opponent's thigh, (2) establish hip-to-hip connection with perpendicular body alignment, (3) control the knee line to prevent defensive rotation past the barrier, and (4) clear opponent's defensive grips and frames. The sequence matters because each element builds on the previous one—without the triangle, hip pressure is unstable; without hip pressure, knee line control is ineffective; without knee line control, grip clearing exposes you to counter-entanglement. Skipping any element dramatically reduces finish probability and increases escape risk.",
+        "answer_line": "Triangle, hips, knee line, grips",
+        "distractors": {
+          "plausible": [
+            "Grips first, then triangle",
+            "Knee line before triangle"
+          ],
+          "trap": [
+            "Rush finish, lose legs, get passed"
+          ]
+        }
       },
       {
         "question": "At what point during the finishing sequence can the defender no longer safely escape?",
-        "answer": "The point of no escape occurs once the figure-four finishing grip is established (Kimura grip on your own wrist) with the heel tucked into the armpit AND rotational tension has begun. At this stage, the mechanical advantage is overwhelming and any explosive escape attempt by the defender risks catastrophic knee damage because the rotational force is already loaded through the joint. The defender's only safe option is to tap immediately. As the attacker, recognizing this threshold means you must apply the remaining pressure with extreme control because your partner's safety depends entirely on your discipline."
+        "answer": "The point of no escape occurs once the figure-four finishing grip is established (Kimura grip on your own wrist) with the heel tucked into the armpit AND rotational tension has begun. At this stage, the mechanical advantage is overwhelming and any explosive escape attempt by the defender risks catastrophic knee damage because the rotational force is already loaded through the joint. The defender's only safe option is to tap immediately. As the attacker, recognizing this threshold means you must apply the remaining pressure with extreme control because your partner's safety depends entirely on your discipline.",
+        "answer_line": "Figure-four set, rotation started",
+        "distractors": {
+          "plausible": [
+            "Once triangle leg is locked",
+            "When heel is simply grabbed"
+          ],
+          "trap": [
+            "Still escapable, explode out"
+          ]
+        }
       },
       {
         "question": "What is the most common finishing error that reduces submission effectiveness from Honey Hole?",
-        "answer": "The most common error is applying the rotation by extending the arms away from the body rather than driving elbows toward the chest. Extending arms creates a longer lever that is mechanically weaker and easier for the defender to resist or strip. The correct mechanic uses short, powerful rotation with elbows pinched tight to the ribcage, rotating the heel using the entire upper body as a unit rather than just arm strength. This generates dramatically more rotational torque with less effort and is much harder for the defender to counter."
+        "answer": "The most common error is applying the rotation by extending the arms away from the body rather than driving elbows toward the chest. Extending arms creates a longer lever that is mechanically weaker and easier for the defender to resist or strip. The correct mechanic uses short, powerful rotation with elbows pinched tight to the ribcage, rotating the heel using the entire upper body as a unit rather than just arm strength. This generates dramatically more rotational torque with less effort and is much harder for the defender to counter.",
+        "answer_line": "Elbows to chest, not arms out",
+        "distractors": {
+          "plausible": [
+            "Rotate heel with wrist only",
+            "Squeeze knee, ignore the heel"
+          ],
+          "trap": [
+            "Sit up to crank, lose the legs"
+          ]
+        }
       },
       {
         "question": "How should you adjust your grip if the opponent's heel is sweaty and slipping during the finishing sequence?",
-        "answer": "In sweaty conditions, shift from cupping the smooth heel bone to gripping the Achilles tendon directly with a C-grip, hooking your fingers around the tendon itself which provides more texture and friction. Alternatively, use a palm-to-palm Gable grip around the ankle and heel for maximum surface contact. The key is maintaining wrist blade contact with the Achilles as the primary control point while using your armpit as a backstop to prevent the foot from sliding out. Wiping your hands on your shorts between grip attempts also helps, but never sacrifice positional control to dry your hands."
+        "answer": "In sweaty conditions, shift from cupping the smooth heel bone to gripping the Achilles tendon directly with a C-grip, hooking your fingers around the tendon itself which provides more texture and friction. Alternatively, use a palm-to-palm Gable grip around the ankle and heel for maximum surface contact. The key is maintaining wrist blade contact with the Achilles as the primary control point while using your armpit as a backstop to prevent the foot from sliding out. Wiping your hands on your shorts between grip attempts also helps, but never sacrifice positional control to dry your hands.",
+        "answer_line": "C-grip Achilles, not heel bone",
+        "distractors": {
+          "plausible": [
+            "Pinch heel bone with fingertips",
+            "Grip the toes and twist instead"
+          ],
+          "trap": [
+            "Release control to dry your hands"
+          ]
+        }
       },
       {
         "question": "Why must the inside heel hook always be applied slowly in training, and what specific injuries result from fast application?",
         "answer": "The inside heel hook must always be applied slowly because the knee joint has virtually no proprioceptive feedback for rotational stress—the defender cannot feel progressive tightening the way they can with a shoulder lock or choke. Fast application causes complete MCL and ACL tears, meniscus destruction, and potential LCL damage in under one second. These injuries require surgical reconstruction (ACL replacement using hamstring or patellar tendon graft) and 9-12 months of rehabilitation. A single explosive crank in training can end a partner's competitive career permanently. There is zero justification for fast application in any training context.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Knee can't sense the rotational load",
+        "distractors": {
+          "plausible": [
+            "Ankle is the joint being torn",
+            "You feel it tighten before harm"
+          ],
+          "trap": [
+            "Partner will tap in time"
+          ]
+        }
       },
       {
         "question": "What grip transition do you make when the opponent successfully hides their heel momentarily against their hip?",
-        "answer": "When the heel is temporarily hidden, maintain positional control and transition to controlling their ankle with a two-on-one grip, preventing full foot extraction. Use your top hand to control the ankle while your bottom hand maintains connection with their shin or calf. From this intermediate position you can: (1) apply sustained hip pressure to fatigue their heel-hiding posture until it re-exposes, (2) transition to toe hold by attacking the exposed foot from the opposite rotational angle, or (3) apply downward pressure to access a kneebar if their knee becomes accessible. The key is maintaining position while threatening multiple attacks to create a defensive dilemma."
+        "answer": "When the heel is temporarily hidden, maintain positional control and transition to controlling their ankle with a two-on-one grip, preventing full foot extraction. Use your top hand to control the ankle while your bottom hand maintains connection with their shin or calf. From this intermediate position you can: (1) apply sustained hip pressure to fatigue their heel-hiding posture until it re-exposes, (2) transition to toe hold by attacking the exposed foot from the opposite rotational angle, or (3) apply downward pressure to access a kneebar if their knee becomes accessible. The key is maintaining position while threatening multiple attacks to create a defensive dilemma.",
+        "answer_line": "Two-on-one ankle, threaten toehold",
+        "distractors": {
+          "plausible": [
+            "Switch immediately to kneebar",
+            "Crank the hidden heel harder"
+          ],
+          "trap": [
+            "Release legs and stand away"
+          ]
+        }
       },
       {
         "question": "In competition, how do you adjust your finishing approach against an opponent who is aggressively grip-fighting your heel hook attempts?",
-        "answer": "Against aggressive grip fighters, use a systematic bait-and-finish approach. Threaten the heel hook grip to draw their defensive hands low, then immediately re-establish positional control when they strip. Repeat this cycle 2-3 times to progressively exhaust their grip-fighting stamina while your positional control remains fresh. When their grip breaks become slower and weaker, commit to the finish with speed and precision. Alternatively, attack their free leg first to occupy one of their defensive hands, then switch to the heel hook when they have only one hand available for defense."
+        "answer": "Against aggressive grip fighters, use a systematic bait-and-finish approach. Threaten the heel hook grip to draw their defensive hands low, then immediately re-establish positional control when they strip. Repeat this cycle 2-3 times to progressively exhaust their grip-fighting stamina while your positional control remains fresh. When their grip breaks become slower and weaker, commit to the finish with speed and precision. Alternatively, attack their free leg first to occupy one of their defensive hands, then switch to the heel hook when they have only one hand available for defense.",
+        "answer_line": "Bait grip, finish when they tire",
+        "distractors": {
+          "plausible": [
+            "Muscle the grip past their hands",
+            "Hold position, never threaten"
+          ],
+          "trap": [
+            "Let go of legs to strip grips"
+          ]
+        }
       },
       {
         "question": "Your opponent begins rolling toward you during the finishing sequence—what adjustment prevents them from alleviating rotational pressure?",
-        "answer": "When the opponent rolls toward you, they are attempting to rotate their body in the same direction as your heel hook rotation to neutralize the twisting differential on their knee. Counter by following their roll while maintaining your grip configuration—as they turn, you turn, keeping the rotational differential between their heel and knee constant. Simultaneously tighten your leg triangle and drive hips forward to prevent them from completing the full rotation. If they continue committing to the roll, transition to a belly-down heel hook position by going over your shoulder, which generates even greater finishing torque using your entire body weight."
+        "answer": "When the opponent rolls toward you, they are attempting to rotate their body in the same direction as your heel hook rotation to neutralize the twisting differential on their knee. Counter by following their roll while maintaining your grip configuration—as they turn, you turn, keeping the rotational differential between their heel and knee constant. Simultaneously tighten your leg triangle and drive hips forward to prevent them from completing the full rotation. If they continue committing to the roll, transition to a belly-down heel hook position by going over your shoulder, which generates even greater finishing torque using your entire body weight.",
+        "answer_line": "Follow roll, keep triangle tight",
+        "distractors": {
+          "plausible": [
+            "Stop rolling and reset grip",
+            "Pull heel harder and hold still"
+          ],
+          "trap": [
+            "Stay static, let them come on top"
+          ]
+        }
+      }
+    ],
+    "clips": [
+      {
+        "id": "3KAO2Ck4HRg",
+        "title": "Honey Hole Heel Hook Finish",
+        "by": "JitzLive",
+        "vertical": false,
+        "channel": "JitzLive",
+        "duration": 52,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "PGQ7YYfu76Q",
+        "title": "Honey Hole to Heel Hook Finish",
+        "by": "Ilya Bodnya",
+        "vertical": false,
+        "channel": "Ilya Bodnya",
+        "duration": 65,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "sIYeSMSkqeE",
+        "title": "Inside Heel Hook Finish",
+        "by": "Craig Jones",
+        "vertical": false,
+        "channel": "Professor Buck",
+        "duration": 18,
+        "verified": "2026-07-14"
       }
     ]
   },
@@ -425,24 +566,74 @@
       {
         "question": "Your opponent has just established the inside leg triangle but has not yet reached for your heel—what is your immediate defensive priority?",
         "answer": "Hide your heel immediately by pressing it tightly against your own hip, rotating your knee inward and flexing your foot. Your near hand should reach down to grab your own ankle or shin to assist in keeping the heel protected. This is a time-critical action—you have approximately 1-2 seconds before they begin reaching for the heel, and every fraction of a second of hesitation reduces your escape probability dramatically. Do not assess the situation first; react with trained heel-hiding reflex.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Hide heel against hip fast",
+        "distractors": {
+          "plausible": [
+            "Frame on their chest first",
+            "Push opponent's hips away first"
+          ],
+          "trap": [
+            "Wait to see how tight it gets"
+          ]
+        }
       },
       {
         "question": "What are the definitive indicators that you must tap immediately rather than continue escape attempts?",
         "answer": "Tap immediately when: (1) opponent has secured a reinforced figure-four grip on your heel with their wrist blade against your Achilles tendon, (2) you feel ANY rotational pressure beginning on your heel, or (3) you cannot freely move your foot within their grip. The inside heel hook can cause complete ligament failure in under one second once the breaking threshold is reached—there is no time to evaluate mid-submission. If you are debating whether to tap, you should already be tapping. No training round or competition match is worth surgical knee reconstruction.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Feel any heel rotation, tap",
+        "distractors": {
+          "plausible": [
+            "Tap when the pain turns sharp",
+            "Tap once your ankle goes numb"
+          ],
+          "trap": [
+            "Spin out to beat the finish"
+          ]
+        }
       },
       {
         "question": "Your opponent momentarily loosens their leg triangle while adjusting their grip—what escape opportunity does this create and how do you exploit it?",
-        "answer": "The loosened triangle is your primary escape window and it closes in 1-2 seconds maximum. Immediately commit to explosive counter-entanglement rotation toward their legs to enter 50-50 Guard, or pump your hips backward explosively while framing with your free leg on their hip to create extraction distance. Do not hesitate to choose between options—pick one and commit fully. A half-committed escape attempt wastes the window and may actually help them retighten by providing movement they can follow and clamp down on."
+        "answer": "The loosened triangle is your primary escape window and it closes in 1-2 seconds maximum. Immediately commit to explosive counter-entanglement rotation toward their legs to enter 50-50 Guard, or pump your hips backward explosively while framing with your free leg on their hip to create extraction distance. Do not hesitate to choose between options—pick one and commit fully. A half-committed escape attempt wastes the window and may actually help them retighten by providing movement they can follow and clamp down on.",
+        "answer_line": "Commit fully, rotate to 50-50",
+        "distractors": {
+          "plausible": [
+            "Straighten leg and pull it free",
+            "Wait for their grip to slip"
+          ],
+          "trap": [
+            "Roll away, feeding the finish"
+          ]
+        }
       },
       {
         "question": "How should you use grip fighting defensively when trapped in Honey Hole with the opponent reaching for your heel?",
-        "answer": "Use two-on-one grip fighting targeting the opponent's thumb and wrist. Both hands should attack the gripping hand—strip at the thumb which is the weakest point of their grip. Fight their initial reaching hand before they establish the reinforced figure-four Kimura grip, because once both hands are locked the grip becomes nearly impossible to break. Between grip-fighting exchanges, maintain heel hiding with your ankle hand and continue attempting positional escapes. Grip fighting is a delay tactic, not a solution—you must escape the position, not just prevent the submission indefinitely."
+        "answer": "Use two-on-one grip fighting targeting the opponent's thumb and wrist. Both hands should attack the gripping hand—strip at the thumb which is the weakest point of their grip. Fight their initial reaching hand before they establish the reinforced figure-four Kimura grip, because once both hands are locked the grip becomes nearly impossible to break. Between grip-fighting exchanges, maintain heel hiding with your ankle hand and continue attempting positional escapes. Grip fighting is a delay tactic, not a solution—you must escape the position, not just prevent the submission indefinitely.",
+        "answer_line": "Strip their thumb early",
+        "distractors": {
+          "plausible": [
+            "Pry at their strongest fingers",
+            "Grab the triangle to break it"
+          ],
+          "trap": [
+            "Yank leg straight back hard"
+          ]
+        }
       },
       {
         "question": "After tapping to an inside heel hook in training, what should you analyze about your defense to improve for next time?",
-        "answer": "Analyze the critical decision points in reverse order: (1) When did the position become inescapable—could you have tapped earlier to protect your knee? (2) What entry did they use to establish Honey Hole and at what point could you have prevented it? (3) Did you hesitate after feeling the triangle form instead of reacting immediately? (4) Were your escape attempts fully committed or half-hearted? (5) Did you grip-fight effectively before they established the finishing configuration? Prevention and early-stage escape are far more trainable than late-stage defense. Most heel hook finishes occur because the defender failed to react in the first 1-2 seconds of entanglement."
+        "answer": "Analyze the critical decision points in reverse order: (1) When did the position become inescapable—could you have tapped earlier to protect your knee? (2) What entry did they use to establish Honey Hole and at what point could you have prevented it? (3) Did you hesitate after feeling the triangle form instead of reacting immediately? (4) Were your escape attempts fully committed or half-hearted? (5) Did you grip-fight effectively before they established the finishing configuration? Prevention and early-stage escape are far more trainable than late-stage defense. Most heel hook finishes occur because the defender failed to react in the first 1-2 seconds of entanglement.",
+        "answer_line": "Trace back to the first mistake",
+        "distractors": {
+          "plausible": [
+            "Only study the final grip",
+            "Ask them to go lighter next time"
+          ],
+          "trap": [
+            "Next time hold on past the tap"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -465,6 +656,35 @@
         "phase": "Phase 4: Live Defensive Sparring",
         "focus": "Full-speed defense from Honey Hole bottom with progressive resistance",
         "description": "Positional sparring starting from Honey Hole bottom. Defender works to escape or survive, attacker works to finish. Full resistance with strict safety protocols—tap early when submission is locked. Reset on escape or submission. Build realistic defensive timing, composure under pressure, and appropriate tap recognition."
+      }
+    ],
+    "clips": [
+      {
+        "id": "DF2AYLPbeHc",
+        "title": "Defending & Countering the Inside Heel Hook",
+        "by": "Jahred Dell",
+        "vertical": false,
+        "channel": "Jahred Dell",
+        "duration": 70,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "AsGMkATAqqw",
+        "title": "Heel Hook Defense When Ambushed",
+        "by": "John Danaher",
+        "vertical": false,
+        "channel": "Dohn Janaher ",
+        "duration": 53,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "v3w0qXLKxug",
+        "title": "Defending Heel Hooks",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "Absolute MMA St Kilda - Melbourne",
+        "duration": 92,
+        "verified": "2026-07-14"
       }
     ]
   }

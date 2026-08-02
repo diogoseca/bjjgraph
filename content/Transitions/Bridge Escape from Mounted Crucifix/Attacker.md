@@ -180,6 +180,54 @@ description: "Execute the bridge escape from mounted crucifix in BJJ. Step-by-st
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Bridge Escape from Mounted Crucifix (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Crucifix escape breakdown",
+      "description": "Bridge Escape from Mounted Crucifix (Attacker) film study: Crucifix escape breakdown, taught by Chosen Few BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/C7wr6klxbC8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/C7wr6klxbC8",
+      "url": "https://www.youtube.com/watch?v=C7wr6klxbC8",
+      "creator": { "@type": "Person", "name": "Chosen Few BJJ" },
+      "duration": "PT89S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Escaping the mounted crucifix",
+      "description": "Bridge Escape from Mounted Crucifix (Attacker) film study: Escaping the mounted crucifix, taught by Shem Rock.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/41koUZWmeHE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/41koUZWmeHE",
+      "url": "https://www.youtube.com/watch?v=41koUZWmeHE",
+      "creator": { "@type": "Person", "name": "Shem Rock" },
+      "duration": "PT146S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Simple crucifix escape",
+      "description": "Bridge Escape from Mounted Crucifix (Attacker) film study: Simple crucifix escape, taught by Coach Brian.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Wrg5Tx-88yM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Wrg5Tx-88yM",
+      "url": "https://www.youtube.com/watch?v=Wrg5Tx-88yM",
+      "creator": { "@type": "Person", "name": "Coach Brian" },
+      "duration": "PT149S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -189,6 +237,42 @@ Executing the bridge escape from mounted crucifix demands precise coordination b
 **From Position**: [[Positions/Mount/Mounted Crucifix]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Bridge Escape from Mounted Crucifix (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=C7wr6klxbC8)
+
+<p class="clip-credit"><strong>Crucifix escape breakdown</strong> — taught by Chosen Few BJJ · 1:29 · <a href="https://www.youtube.com/watch?v=C7wr6klxbC8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=41koUZWmeHE)
+
+<p class="clip-credit"><strong>Escaping the mounted crucifix</strong> — taught by Shem Rock · 2:26 · <a href="https://www.youtube.com/watch?v=41koUZWmeHE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Wrg5Tx-88yM)
+
+<p class="clip-credit"><strong>Simple crucifix escape</strong> — taught by Coach Brian · 2:29 · <a href="https://www.youtube.com/watch?v=Wrg5Tx-88yM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Turtle/Bottom",
-      "probability": 50,
+      "probability": {
+        "gi": 50,
+        "nogi": 50
+      },
       "result": "success"
     },
     {
       "to": "Back Control/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Mount/Bottom",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 50,
+  "success_rate": {
+    "gi": 50,
+    "nogi": 50
+  },
   "overview": "Back control is widely regarded as the most dominant position in BJJ, carrying immediate submission threats from rear naked choke, bow and arrow, and arm attacks, which makes a reliable path to turtle one of the most important survival skills a bottom player can own. Successfully reaching turtle removes the immediate choking danger and provides multiple paths to further improve position through guard recovery, sit-outs, or technical stand-ups. Treating this as a positional-improvement transition rather than a complete escape is the mindset that keeps the bottom player calm and methodical under pressure.\n\nThe escape requires a systematic approach that prioritizes neck defense before any positional movement. The bottom player must first neutralize the choking arm through hand fighting, then address the hooks sequentially, beginning with the near-side hook before working to clear the far-side hook. Hip movement and angle creation are essential throughout the sequence, as simply trying to pull hooks off without repositioning the hips rarely succeeds against a skilled back controller. The transition demands patience and composure under significant pressure, as rushing the escape typically results in the opponent capitalizing on defensive gaps to improve their control or transition to mount.\n\nUnderstanding when to initiate this escape versus other back escape options is a key tactical decision. Turtle escape is most viable when the opponent has loosened their hook control or when their seatbelt grip has been partially neutralized through hand fighting. Attempting this escape against a fully locked body triangle or deep seatbelt with chin strap control significantly reduces success probability and may expose the bottom player to worse outcomes.",
   "conditions": [
     "Opponent has back control with hooks and seatbelt or harness grip established",
@@ -245,38 +257,147 @@
     "flashcards": [
       {
         "question": "What is the most critical defensive priority before initiating the turtle escape from back control?",
-        "answer": "Securing neck defense through chin tuck and two-on-one grip control on the opponent's choking arm is the absolute first priority. Without neutralizing the choke threat, any escape movement exposes the neck and creates direct submission opportunities. The escape sequence cannot begin until the immediate choking danger is addressed through proper hand positioning and chin protection."
+        "answer": "Securing neck defense through chin tuck and two-on-one grip control on the opponent's choking arm is the absolute first priority. Without neutralizing the choke threat, any escape movement exposes the neck and creates direct submission opportunities. The escape sequence cannot begin until the immediate choking danger is addressed through proper hand positioning and chin protection.",
+        "answer_line": "Chin tuck, two-on-one grip control",
+        "distractors": {
+          "plausible": [
+            "Strip nearest hook first",
+            "Hip escape to create angle"
+          ],
+          "trap": [
+            "Push off and stand up"
+          ]
+        }
       },
       {
         "question": "Which hook should you strip first when escaping to turtle, and why?",
-        "answer": "Strip the near-side hook first, meaning the hook on the side you intend to turn toward. This hook controls the hip movement needed for your escape direction. Removing it first creates the space for your hip escape and makes the second hook much easier to clear as your body angle changes and the opponent's alignment is disrupted."
+        "answer": "Strip the near-side hook first, meaning the hook on the side you intend to turn toward. This hook controls the hip movement needed for your escape direction. Removing it first creates the space for your hip escape and makes the second hook much easier to clear as your body angle changes and the opponent's alignment is disrupted.",
+        "answer_line": "Strip hook on turn side first",
+        "distractors": {
+          "plausible": [
+            "Strip far-side hook first",
+            "Strip both hooks together"
+          ],
+          "trap": [
+            "Ignore hooks, defend neck only"
+          ]
+        }
       },
       {
         "question": "What is the primary hip movement that drives the transition from back control to turtle?",
-        "answer": "The angular hip escape toward the cleared hook side is the mechanical key. Rather than simply rolling forward or turning in place, the hip escape creates lateral displacement that disrupts the opponent's chest-to-back alignment and makes their remaining hook ineffective. This angular motion combined with driving knees under the body establishes the turtle base structure."
+        "answer": "The angular hip escape toward the cleared hook side is the mechanical key. Rather than simply rolling forward or turning in place, the hip escape creates lateral displacement that disrupts the opponent's chest-to-back alignment and makes their remaining hook ineffective. This angular motion combined with driving knees under the body establishes the turtle base structure.",
+        "answer_line": "Angular hip escape, knees under",
+        "distractors": {
+          "plausible": [
+            "Roll forward onto stomach",
+            "Turn in place without hip escape"
+          ],
+          "trap": [
+            "Push straight backward off opponent"
+          ]
+        }
       },
       {
         "question": "Your opponent tightens their body triangle as you begin stripping hooks - how should you adjust your escape strategy?",
-        "answer": "Against a body triangle, shift your approach to address the triangle before the hooks. Turn toward the side of the opponent's locked leg, as this relieves pressure on the triangle and may allow you to straighten their locking leg. Use both hands to push the locked ankle down while driving your hips into the triangle to create slack. Only attempt the turtle transition after breaking the body triangle configuration."
+        "answer": "Against a body triangle, shift your approach to address the triangle before the hooks. Turn toward the side of the opponent's locked leg, as this relieves pressure on the triangle and may allow you to straighten their locking leg. Use both hands to push the locked ankle down while driving your hips into the triangle to create slack. Only attempt the turtle transition after breaking the body triangle configuration.",
+        "answer_line": "Turn toward locked leg, push ankle",
+        "distractors": {
+          "plausible": [
+            "Strip hooks before the triangle",
+            "Turn away from locked leg side"
+          ],
+          "trap": [
+            "Sit back hard against the triangle"
+          ]
+        }
       },
       {
         "question": "What are the key structural elements of the turtle position you must establish immediately after clearing hooks?",
-        "answer": "The defensive turtle requires four key structural elements: knees under hips creating a stable four-point base, elbows tight against the inside of your knees to prevent underhook penetration, rounded back with chin tucked to chest protecting the neck from chokes, and active weight distribution across all four contact points. This shell must be formed immediately before the opponent can re-secure control."
+        "answer": "The defensive turtle requires four key structural elements: knees under hips creating a stable four-point base, elbows tight against the inside of your knees to prevent underhook penetration, rounded back with chin tucked to chest protecting the neck from chokes, and active weight distribution across all four contact points. This shell must be formed immediately before the opponent can re-secure control.",
+        "answer_line": "Knees in, elbows tight, chin tucked",
+        "distractors": {
+          "plausible": [
+            "Flat back, arms out wide",
+            "Knees wide, elbows flared out"
+          ],
+          "trap": [
+            "Sit up straight, chest exposed"
+          ]
+        }
       },
       {
         "question": "What grip configuration should you maintain on the opponent's choking arm during the escape?",
-        "answer": "Maintain a two-on-one grip with both hands controlling the opponent's choking wrist and forearm. Your bottom hand should grip their wrist while your top hand reinforces by controlling their forearm near the elbow. Pull their arm across your centerline toward your far hip to reduce their leverage. Never release both hands simultaneously to address hooks."
+        "answer": "Maintain a two-on-one grip with both hands controlling the opponent's choking wrist and forearm. Your bottom hand should grip their wrist while your top hand reinforces by controlling their forearm near the elbow. Pull their arm across your centerline toward your far hip to reduce their leverage. Never release both hands simultaneously to address hooks.",
+        "answer_line": "Two-on-one, pull arm across body",
+        "distractors": {
+          "plausible": [
+            "One hand wrist, one hand hooks",
+            "Grip bicep, release wrist"
+          ],
+          "trap": [
+            "Release both hands to strip hooks"
+          ]
+        }
       },
       {
         "question": "Your initial hook strip fails and the opponent re-secures the hook - what should your immediate follow-up be?",
-        "answer": "Return to full neck defense and reassess rather than repeatedly attacking the same hook. Allow 3-5 seconds for the opponent to relax their re-tightened control, then attempt the strip again from a slightly different angle or timing. Alternatively, switch to a different escape direction such as the opposite side hip escape or a full turn-in toward the opponent to face them."
+        "answer": "Return to full neck defense and reassess rather than repeatedly attacking the same hook. Allow 3-5 seconds for the opponent to relax their re-tightened control, then attempt the strip again from a slightly different angle or timing. Alternatively, switch to a different escape direction such as the opposite side hip escape or a full turn-in toward the opponent to face them.",
+        "answer_line": "Reset neck defense, retry later",
+        "distractors": {
+          "plausible": [
+            "Immediately re-attack same hook",
+            "Abandon defense, force the turn"
+          ],
+          "trap": [
+            "Let go of choking arm to fight hook"
+          ]
+        }
       },
       {
         "question": "How do you prevent the opponent from transitioning to mount as you begin turning during the escape?",
-        "answer": "Maintain elbow and knee frames on the turning side to block the opponent's leg from crossing over your body. As you hip escape, keep your near-side elbow tight to your hip creating a physical barrier against mount. If you feel their weight shifting over your hips, immediately frame with your forearm against their thigh and hip escape in the opposite direction to prevent mount establishment."
+        "answer": "Maintain elbow and knee frames on the turning side to block the opponent's leg from crossing over your body. As you hip escape, keep your near-side elbow tight to your hip creating a physical barrier against mount. If you feel their weight shifting over your hips, immediately frame with your forearm against their thigh and hip escape in the opposite direction to prevent mount establishment.",
+        "answer_line": "Frame elbow and knee on turn side",
+        "distractors": {
+          "plausible": [
+            "Speed up the hip escape only",
+            "Focus only on stripping hooks"
+          ],
+          "trap": [
+            "Drop the near-side elbow frame"
+          ]
+        }
       }
     ],
-    "safety_considerations": "During the turtle escape, avoid explosive bridging or turning movements that could strain the neck or spine under the opponent's body weight. The seatbelt grip across the chest can compress the ribcage during escape attempts, so communicate immediately if experiencing breathing difficulty. When drilling, the back controller should release hooks progressively to allow safe technique development. In live training, never attempt to stand up explosively with an opponent fully attached to your back, as uncontrolled falls can cause head and neck injuries to both practitioners."
+    "safety_considerations": "During the turtle escape, avoid explosive bridging or turning movements that could strain the neck or spine under the opponent's body weight. The seatbelt grip across the chest can compress the ribcage during escape attempts, so communicate immediately if experiencing breathing difficulty. When drilling, the back controller should release hooks progressively to allow safe technique development. In live training, never attempt to stand up explosively with an opponent fully attached to your back, as uncontrolled falls can cause head and neck injuries to both practitioners.",
+    "clips": [
+      {
+        "id": "dHanNAj6B80",
+        "title": "Turtle escape from back control",
+        "by": "Adnan Sadiq",
+        "vertical": false,
+        "channel": "Adnan Sadiq",
+        "duration": 38,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "waVFl1Ip6VU",
+        "title": "Back escape to turtle by shrugging",
+        "by": "Andy Tong",
+        "vertical": false,
+        "channel": "Andy Tong",
+        "duration": 33,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "wwa4llL0E1s",
+        "title": "Escaping back control with both hooks in",
+        "by": "Dinu Bucalet",
+        "vertical": false,
+        "channel": "Dinu Bucalet BJJ",
+        "duration": 159,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Turtle from Back Control Defender",
@@ -362,23 +483,73 @@
     "flashcards": [
       {
         "question": "What is the earliest indication that your opponent is preparing to escape back control to turtle?",
-        "answer": "The earliest cue is a change in their hand fighting behavior, specifically when they transition from purely defensive two-on-one neck protection to actively trying to strip your seatbelt grip or control your wrists. This signals they are preparing to address your hooks next, as the escape requires sequential dismantling of your control points starting with upper body grip neutralization."
+        "answer": "The earliest cue is a change in their hand fighting behavior, specifically when they transition from purely defensive two-on-one neck protection to actively trying to strip your seatbelt grip or control your wrists. This signals they are preparing to address your hooks next, as the escape requires sequential dismantling of your control points starting with upper body grip neutralization.",
+        "answer_line": "Hands shift from neck to seatbelt",
+        "distractors": {
+          "plausible": [
+            "Sudden explosive hip movement",
+            "Opponent stops all hand fighting"
+          ],
+          "trap": [
+            "Opponent taps their own hip"
+          ]
+        }
       },
       {
         "question": "Your opponent strips your near-side hook - should you fight to re-insert it or transition to mount?",
-        "answer": "This depends on your remaining controls. If your seatbelt is still tight and they have not created significant angle with their hips, fight to re-insert the hook by driving your knee back inside their thigh. If they have already begun turning their hips and your seatbelt is compromised, transition to mount immediately by walking your top leg over their body, as fighting for a lost hook wastes the window for mount."
+        "answer": "This depends on your remaining controls. If your seatbelt is still tight and they have not created significant angle with their hips, fight to re-insert the hook by driving your knee back inside their thigh. If they have already begun turning their hips and your seatbelt is compromised, transition to mount immediately by walking your top leg over their body, as fighting for a lost hook wastes the window for mount.",
+        "answer_line": "Depends on seatbelt and hip angle",
+        "distractors": {
+          "plausible": [
+            "Always re-insert the hook",
+            "Always transition to mount"
+          ],
+          "trap": [
+            "Release seatbelt to chase hook"
+          ]
+        }
       },
       {
         "question": "When is the optimal moment to attack a rear naked choke during your opponent's turtle escape attempt?",
-        "answer": "The optimal moment is when the opponent moves their hands from your choking arm to address your hooks. This defensive hand transition creates a 1-2 second window where their neck is unprotected while their hands are occupied with hook fighting. Recognize this hand movement and immediately advance the choking arm behind their neck. Even if the choke does not finish, it forces them to abandon the escape and return to neck defense."
+        "answer": "The optimal moment is when the opponent moves their hands from your choking arm to address your hooks. This defensive hand transition creates a 1-2 second window where their neck is unprotected while their hands are occupied with hook fighting. Recognize this hand movement and immediately advance the choking arm behind their neck. Even if the choke does not finish, it forces them to abandon the escape and return to neck defense.",
+        "answer_line": "When hands leave arm for hooks",
+        "distractors": {
+          "plausible": [
+            "Right as they strip first hook",
+            "After they fully turn to face you"
+          ],
+          "trap": [
+            "Wait until they stand up fully"
+          ]
+        }
       },
       {
         "question": "How does switching to body triangle configuration affect your ability to prevent the turtle escape?",
-        "answer": "Body triangle provides vastly superior hip control compared to standard hooks, making the hip escape phase of the turtle escape nearly impossible to execute. The locked leg configuration prevents the opponent from extending their legs to strip hooks and maintains constant compression around their waist. However, the transition itself requires briefly loosening hook control, and the opponent can target the locked ankle to relieve pressure if they turn toward the locked-leg side."
+        "answer": "Body triangle provides vastly superior hip control compared to standard hooks, making the hip escape phase of the turtle escape nearly impossible to execute. The locked leg configuration prevents the opponent from extending their legs to strip hooks and maintains constant compression around their waist. However, the transition itself requires briefly loosening hook control, and the opponent can target the locked ankle to relieve pressure if they turn toward the locked-leg side.",
+        "answer_line": "Locks hips, blocks hip escape",
+        "distractors": {
+          "plausible": [
+            "Same control as standard hooks",
+            "Makes hooks easier to strip"
+          ],
+          "trap": [
+            "Fully immune to ankle attacks"
+          ]
+        }
       },
       {
         "question": "How should you adjust your weight distribution when the opponent begins hip escaping during their escape attempt?",
-        "answer": "Drive your weight forward and down through your chest, angling the pressure toward the mat on the side the opponent is trying to hip escape toward. This creates downward resistance against their lateral hip movement. Simultaneously squeeze your hooks tighter and pull with your seatbelt in the opposite direction of their hip escape. The goal is to make their hip escape feel like they are dragging your entire body weight with them."
+        "answer": "Drive your weight forward and down through your chest, angling the pressure toward the mat on the side the opponent is trying to hip escape toward. This creates downward resistance against their lateral hip movement. Simultaneously squeeze your hooks tighter and pull with your seatbelt in the opposite direction of their hip escape. The goal is to make their hip escape feel like they are dragging your entire body weight with them.",
+        "answer_line": "Drive weight down, squeeze hooks",
+        "distractors": {
+          "plausible": [
+            "Lean away from the escape side",
+            "Loosen hooks to conserve energy"
+          ],
+          "trap": [
+            "Release seatbelt to reposition"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -401,6 +572,35 @@
         "phase": "Phase 4: Live Positional Sparring",
         "focus": "Full resistance back control retention and counter integration",
         "description": "Full resistance positional sparring starting from back control. Maintain position or improve to mount while opponent works full escape sequences. Integrate all defensive tools: hook retention, submission attacks during hand transitions, mount transitions, and body triangle switches. Evaluate success rate of retention versus escapes allowed."
+      }
+    ],
+    "clips": [
+      {
+        "id": "Rlk4mGg7vW4",
+        "title": "Maintaining back control with hooks",
+        "by": "Gracie Charlottesville",
+        "vertical": false,
+        "channel": "Gracie Charlottesville",
+        "duration": 84,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "JWwNMbkmzsM",
+        "title": "Keeping a strong hook when they turtle out",
+        "by": "Ben Egli",
+        "vertical": false,
+        "channel": "Ben Egli",
+        "duration": 225,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "8qQrZ1b_Omw",
+        "title": "Stopping the turtle and retaking the back",
+        "by": "Gold BJJ",
+        "vertical": false,
+        "channel": "RVV BJJ",
+        "duration": 318,
+        "verified": "2026-07-15"
       }
     ]
   }

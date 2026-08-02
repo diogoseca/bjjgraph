@@ -176,6 +176,54 @@ description: "Execute the Guillotine Choke from Clinch in BJJ. Step-by-step guid
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Guillotine Choke from Clinch (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Guillotine choke from the clinch",
+      "description": "Guillotine Choke from Clinch (Attacker) film study: Guillotine choke from the clinch, taught by Michael James.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/2Ioe4B7HF38/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/2Ioe4B7HF38",
+      "url": "https://www.youtube.com/watch?v=2Ioe4B7HF38",
+      "creator": { "@type": "Person", "name": "Michael James" },
+      "duration": "PT43S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Attacking the standing guillotine",
+      "description": "Guillotine Choke from Clinch (Attacker) film study: Attacking the standing guillotine, taught by Fargo BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/-x0MJel3Ru0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/-x0MJel3Ru0",
+      "url": "https://www.youtube.com/watch?v=-x0MJel3Ru0",
+      "creator": { "@type": "Person", "name": "Fargo BJJ" },
+      "duration": "PT55S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Two standing guillotine variations",
+      "description": "Guillotine Choke from Clinch (Attacker) film study: Two standing guillotine variations, taught by Hellfish MMA.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ilxJA4hIEFE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ilxJA4hIEFE",
+      "url": "https://www.youtube.com/watch?v=ilxJA4hIEFE",
+      "creator": { "@type": "Person", "name": "Hellfish MMA" },
+      "duration": "PT124S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -186,6 +234,42 @@ Attacking with the standing guillotine from clinch requires understanding the pr
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Guillotine Choke from Clinch (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=2Ioe4B7HF38)
+
+<p class="clip-credit"><strong>Guillotine choke from the clinch</strong> — taught by Michael James · 0:43 · <a href="https://www.youtube.com/watch?v=2Ioe4B7HF38" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=-x0MJel3Ru0)
+
+<p class="clip-credit"><strong>Attacking the standing guillotine</strong> — taught by Fargo BJJ · 0:55 · <a href="https://www.youtube.com/watch?v=-x0MJel3Ru0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ilxJA4hIEFE)
+
+<p class="clip-credit"><strong>Two standing guillotine variations</strong> — taught by Hellfish MMA · 2:04 · <a href="https://www.youtube.com/watch?v=ilxJA4hIEFE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

@@ -18,7 +18,10 @@
   "target_area": "Carotid arteries and trachea",
   "starting_position": "Triangle Control",
   "from_position": "Triangle Control/Bottom",
-  "success_rate": 60,
+  "success_rate": {
+    "gi": 60,
+    "nogi": 60
+  },
   "overview": "The inverted triangle from triangle control is an advanced blood choke variation that exploits the opponent's defensive reactions to the standard triangle position. When the bottom player holds triangle control and the opponent defends by tucking their chin, turning their shoulder, or neutralizing the standard choking angle, the attacker rotates their hips and reconfigures the leg lock to attack from an inverted direction. This repositioning bypasses established defensive frames and applies carotid compression from a vector the opponent is not prepared to resist.\n\nThe mechanical advantage of this transition lies in its ability to punish successful defense of the standard triangle. By swinging the hips to the opposite side and switching which leg crosses behind the neck, the attacker creates a new compression angle that negates the opponent's chin tuck and shoulder positioning. The transition itself creates a dangerous window—the movement from standard to inverted configuration forces the opponent to abandon their current defense to address the new threat, and this moment of defensive recalibration is often when the finish occurs.\n\nStrategically, the inverted triangle adds a critical dimension to the triangle submission chain. Where the standard triangle-to-armbar-to-omoplata chain attacks in three directions, the inverted triangle creates a fourth option that punishes successful choke defense. This makes triangle control substantially more dangerous for the defender, as neutralizing the primary choking angle no longer guarantees safety.",
   "safety_considerations": {
     "injury_risks": [
@@ -125,17 +128,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 60,
+      "probability": {
+        "gi": 60,
+        "nogi": 60
+      },
       "result": "success"
     },
     {
       "to": "Triangle Control/Bottom",
-      "probability": 26,
+      "probability": {
+        "gi": 26,
+        "nogi": 26
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Top",
-      "probability": 14,
+      "probability": {
+        "gi": 14,
+        "nogi": 14
+      },
       "result": "counter"
     }
   ],
@@ -286,52 +298,181 @@
       {
         "question": "What anatomical structures does the inverted triangle from triangle control primarily attack?",
         "answer": "The inverted triangle primarily compresses the carotid arteries bilaterally, restricting blood flow to the brain. The figure-four leg configuration applies pressure from one side while the opponent's own trapped arm, pulled across the throat, creates compression from the other side. The trachea may also experience secondary compression, but the primary submission mechanism is vascular—arterial occlusion produces unconsciousness within 8-12 seconds of full bilateral compression.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Bilateral carotid compression",
+        "distractors": {
+          "plausible": [
+            "Trachea and airway only",
+            "One-sided carotid pressure"
+          ],
+          "trap": [
+            "Crank the neck to force the tap"
+          ]
+        }
       },
       {
         "question": "What defensive commitment from the opponent creates the optimal window to transition from standard to inverted triangle?",
         "answer": "The optimal window opens when the opponent commits to a static defense against the standard triangle angle—typically by tucking their chin firmly, turning their shoulder into the choke, or shifting their weight to one side to neutralize the standard compression vector. This defensive commitment creates predictable positioning that the attacker exploits, because the opponent's defensive structure is oriented in one direction and cannot quickly reorganize to address the inverted angle. Attempting the switch against a mobile, uncommitted defender is far less effective.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Opponent locks into one defense",
+        "distractors": {
+          "plausible": [
+            "Opponent starts posturing up",
+            "Opponent grips your legs tight"
+          ],
+          "trap": [
+            "Switch against a mobile defender"
+          ]
+        }
       },
       {
         "question": "Why is maintaining head control throughout the hip rotation phase critical to the success of this technique?",
         "answer": "Head control prevents the opponent from posturing up during the brief window when the standard triangle lock is released and the inverted lock is not yet established. Without head control, the opponent can extend their spine, create vertical distance, and escape the triangle entirely during the transition. The head control grip acts as an anchor that keeps the opponent in submission range while the legs reconfigure, making it the single most important element during the vulnerable transition phase.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Prevents opponent posturing up",
+        "distractors": {
+          "plausible": [
+            "Keeps hips angled correctly",
+            "Maintains the figure-four lock"
+          ],
+          "trap": [
+            "Release head grip to reset legs"
+          ]
+        }
       },
       {
         "question": "Your opponent begins stacking you forward as you initiate the hip rotation for the inverted triangle—what adjustment prevents escape?",
         "answer": "Rather than fighting the stack, use the opponent's forward driving momentum to assist the hip rotation. Redirect their forward energy laterally by angling your hips into the swing, effectively converting their defensive stacking pressure into the rotational force needed for the inverted transition. Their forward drive actually accelerates the hip swing to the opposite side, and the stacking position often leaves their neck more exposed once you reach the inverted angle because their posture is already broken forward.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Redirect drive into hip swing",
+        "distractors": {
+          "plausible": [
+            "Post a hand to kill the momentum",
+            "Speed up the rotation regardless"
+          ],
+          "trap": [
+            "Fight the stack straight back"
+          ]
+        }
       },
       {
         "question": "What are the key indicators that the inverted figure-four lock is positioned correctly for a successful finish?",
         "answer": "The lock is correctly positioned when the crossing ankle sits high behind the opponent's neck rather than on the shoulders, both knees are pulled together creating bilateral compression, the opponent's trapped arm is pulled diagonally across their own throat amplifying the choking mechanism, and your hips are angled 30-45 degrees off the opponent's centerline relative to the inverted position. If the opponent's face is changing color and they are unable to turn their head, the compression geometry is correct. A correctly positioned lock produces submission pressure with minimal muscular effort.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Ankle high, knees tight, off-angle",
+        "distractors": {
+          "plausible": [
+            "Ankle on shoulder, knees apart",
+            "Arm pulled away from throat"
+          ],
+          "trap": [
+            "Square up, get stacked and passed"
+          ]
+        }
       },
       {
         "question": "What are the key safety considerations when applying the inverted triangle from triangle control in training?",
         "answer": "The inverted triangle must be applied with extremely slow progression—minimum 5-7 seconds from setup to full pressure. Blood chokes can produce unconsciousness within 8-12 seconds of full compression, and the inverted angle can catch the opponent by surprise, meaning they may not recognize the danger quickly enough to tap. Always ensure your training partner can tap with at least one hand, watch for signs of loss of consciousness including going limp or unusual sounds, and release immediately upon any tap signal. Never jerk or spike into the position, and never apply competition-level pressure during training.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Apply slowly, release on any tap",
+        "distractors": {
+          "plausible": [
+            "Reach full pressure in 2-3 seconds",
+            "Loosen gradually after they tap"
+          ],
+          "trap": [
+            "Spike in fast to catch the surprise"
+          ]
+        }
       },
       {
         "question": "How should you release the inverted triangle immediately after your training partner taps?",
         "answer": "First, uncross your ankles to open the figure-four lock, removing the primary compression mechanism. Then remove the leg crossing behind the opponent's neck. Release the trapped arm carefully without jerking it, as it may be in a compromised position. Create space to allow the opponent to turn their head and restore normal blood flow to the brain. Check for consciousness and breathing immediately. If the opponent appears disoriented or unconscious, support their neck during release and position them on their side. Never simply release and walk away—always verify your partner's condition after a blood choke.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Uncross ankles first, then check",
+        "distractors": {
+          "plausible": [
+            "Pull the trapped arm out first",
+            "Stand up and reset the round"
+          ],
+          "trap": [
+            "Hold the lock to confirm the tap"
+          ]
+        }
       },
       {
         "question": "Your opponent starts extracting their trapped arm during the leg reconfiguration phase—what is your best response?",
         "answer": "If the opponent begins pulling their trapped arm free during the transition, immediately clamp your legs tight around their neck and shoulder to retain whatever control you have. Rather than forcing the inverted triangle with a loose arm—which will not produce effective choking pressure—recognize the arm extraction as an opening for alternative attacks. The opponent pulling their arm back often exposes their back for a back take, or opens an omoplata angle. Adapt to the situation rather than stubbornly pursuing a technique that has lost its primary mechanical requirement.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Clamp legs, adapt to back/omoplata",
+        "distractors": {
+          "plausible": [
+            "Force the choke without the arm",
+            "Release legs to regrip arm"
+          ],
+          "trap": [
+            "Reach up and grab the arm back"
+          ]
+        }
       },
       {
         "question": "Why is the inverted triangle considered a fourth directional attack in the triangle control submission chain?",
         "answer": "The standard triangle control submission chain attacks in three directions: the triangle choke straight ahead, the armbar when the opponent postures, and the omoplata when the opponent stacks. The inverted triangle adds a fourth direction by attacking the choke from the opposite angle, specifically punishing opponents who successfully defend the standard triangle direction. This means that every defensive reaction the opponent can produce—posturing, stacking, shoulder turning, or chin tucking—leads to at least one effective offensive option, creating a comprehensive dilemma that deepens with each failed escape attempt.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Attacks the opposite direction",
+        "distractors": {
+          "plausible": [
+            "Only attacks after posture",
+            "Replaces standard triangle choke"
+          ],
+          "trap": [
+            "Bail on triangle to chase invert"
+          ]
+        }
       },
       {
         "question": "What is the point of no escape for the defender once the inverted triangle is being applied?",
         "answer": "The point of no escape occurs once the inverted figure-four is fully locked high on the neck with the trapped arm pulled across the throat and the attacker's hips properly angled at 30-45 degrees. At this stage, the bilateral carotid compression is established and the defender cannot generate sufficient force to break the leg lock or extract their arm. Prior to the full lock—during the rotation phase or before the arm is secured across the throat—escape remains viable through posture recovery, arm extraction, or exploiting the transition window. Once both elements are locked, tapping is the only safe option.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Figure-4 locked, arm across throat",
+        "distractors": {
+          "plausible": [
+            "As soon as the legs cross",
+            "When head control is established"
+          ],
+          "trap": [
+            "Never - you can fight out anytime"
+          ]
+        }
+      }
+    ],
+    "clips": [
+      {
+        "id": "xAW3spYg9vE",
+        "title": "Inverted Triangle",
+        "by": "Bristol Jiu Jitsu",
+        "vertical": false,
+        "channel": "Bristol Jiu Jitsu",
+        "duration": 51,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "i2l9Gx72DU0",
+        "title": "Inverted Triangle Finish",
+        "by": "BJJ Lotus Club",
+        "vertical": false,
+        "channel": "BJJ Lotus Club",
+        "duration": 25,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "RCzCmK7AeVU",
+        "title": "Inverted Triangle Choke Finish",
+        "by": "MMAYHEM",
+        "vertical": false,
+        "channel": "MMAYHEM",
+        "duration": 60,
+        "verified": "2026-07-14"
       }
     ]
   },
@@ -419,27 +560,77 @@
       {
         "question": "How do you recognize that an inverted triangle transition is being initiated from standard triangle control?",
         "answer": "The primary recognition cues are the attacker uncrossing their ankles from the standard figure-four configuration while maintaining their head control grip, followed by lateral hip movement toward the opposite side from the standard triangle angle. You will feel the leg pressure direction shifting and the attacker's grip tightening on your head or trapped arm just before the rotation begins. Early recognition during the ankle uncrossing phase provides the maximum defensive window.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Ankles uncross, hips shift",
+        "distractors": {
+          "plausible": [
+            "Attacker squares hips to you",
+            "Opponent posture breaks down"
+          ],
+          "trap": [
+            "Wait until fully locked to react"
+          ]
+        }
       },
       {
         "question": "What is the safest way to tap when caught in an inverted triangle from triangle control?",
         "answer": "Tap immediately and clearly using any available method—physical hand tap on the opponent's body or the mat, verbal tap by saying 'tap' loudly, or foot tap on the mat. The inverted triangle is a blood choke that can produce unconsciousness within 8-12 seconds of full bilateral compression, and the inverted angle may catch you by surprise, meaning you have less time to recognize the danger than with a standard triangle. Do not wait to see if you can escape once full compression is established. Tap early and tap clearly—there is no benefit to risking consciousness loss in training.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Tap at once - hand, foot or voice",
+        "distractors": {
+          "plausible": [
+            "Only a hand tap counts",
+            "Signal by shaking your head"
+          ],
+          "trap": [
+            "Hold on and try to survive it"
+          ]
+        }
       },
       {
         "question": "Why is the transition window the most important defensive opportunity against the inverted triangle?",
         "answer": "The transition window—the brief period when the attacker releases the standard figure-four and reconfigures for the inverted lock—is the only phase where the leg configuration is not fully secured around your neck. During this window, the attacker's legs are loose enough for posture recovery or arm extraction, and their hip rotation creates momentary instability in their control. Once the inverted figure-four is locked with the arm pulled across the throat, the bilateral carotid compression is established and escape becomes extremely difficult without significant strength or size advantage.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Only phase legs aren't fully locked",
+        "distractors": {
+          "plausible": [
+            "Phase with the heaviest pressure",
+            "Best time to counterattack legs"
+          ],
+          "trap": [
+            "Wait for full lock, then escape"
+          ]
+        }
       },
       {
         "question": "What defensive options are available against the inverted triangle during the transition phase?",
         "answer": "Three primary defensive options exist during the transition: posture explosion to extend the spine and extract the head before the inverted lock is secured, arm extraction to pull the trapped arm free while the figure-four is momentarily disengaged, and forward drive to pin the attacker's hips flat and disrupt their lateral hip rotation. The choice depends on timing and which element is most vulnerable—if the legs are loosest, posture recovery is optimal; if the arm grip is weakest, extraction is best; if the attacker is mid-rotation, the forward drive is most effective.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Posture, extract arm, drive forward",
+        "distractors": {
+          "plausible": [
+            "Peel the top leg with both hands",
+            "Bridge and roll to your back"
+          ],
+          "trap": [
+            "Push into the choke direction"
+          ]
+        }
       },
       {
         "question": "What should you do if the inverted triangle is fully locked and you cannot escape?",
         "answer": "If the inverted figure-four is fully locked with the arm secured across your throat and the attacker has proper angle, you should tap immediately. Attempting to fight through a fully locked inverted triangle risks unconsciousness, which occurs within 8-12 seconds of bilateral carotid compression. In training, there is never a valid reason to risk consciousness loss. In competition, the same applies unless you are executing a specific, pre-drilled escape technique with immediate results—but even then, the margin for error is extremely small with blood chokes.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Tap immediately",
+        "distractors": {
+          "plausible": [
+            "Free the trapped arm first",
+            "Posture up to relieve pressure"
+          ],
+          "trap": [
+            "Hold breath and wait it out"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -462,6 +653,35 @@
         "phase": "Phase 4: Full Integration Sparring",
         "focus": "Applying inverted triangle defense in live rolling",
         "description": "During regular sparring, actively seek triangle control positions and practice defending both standard and inverted triangle attempts with full resistance. Evaluate which defensive options work best against different body types and skill levels. Refine timing and technique selection based on accumulated live experience."
+      }
+    ],
+    "clips": [
+      {
+        "id": "dJOw0ZEyXXc",
+        "title": "Triangle Posture Up Escape",
+        "by": "Cosens MMA",
+        "vertical": false,
+        "channel": "Cosens MMA LLC",
+        "duration": 73,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "aQ2vFXXBn-o",
+        "title": "Countering a Full Inversion",
+        "by": "Gordon Ryan",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 61,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "sR2rS2dwpNY",
+        "title": "How to Escape a Triangle Choke",
+        "by": "Rener & Ryron Gracie",
+        "vertical": false,
+        "channel": "Hayabusa",
+        "duration": 117,
+        "verified": "2026-07-14"
       }
     ]
   }

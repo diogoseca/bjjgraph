@@ -34,6 +34,54 @@ description: "Master the Arm Triangle from Top in BJJ. Complete guide to setup f
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Arm Triangle from Top \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "How to arm triangle from side control",
+      "description": "Arm Triangle from Top film study: How to arm triangle from side control, taught by Evolve MMA.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/8An-33URyYk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/8An-33URyYk",
+      "url": "https://www.youtube.com/watch?v=8An-33URyYk",
+      "creator": { "@type": "Person", "name": "Evolve MMA" },
+      "duration": "PT57S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "No-gi arm triangle from side control",
+      "description": "Arm Triangle from Top film study: No-gi arm triangle from side control, taught by Ludus Dome.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/eid4RdAQ4gI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/eid4RdAQ4gI",
+      "url": "https://www.youtube.com/watch?v=eid4RdAQ4gI",
+      "creator": { "@type": "Person", "name": "Ludus Dome" },
+      "duration": "PT36S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "The mounted arm triangle",
+      "description": "Arm Triangle from Top film study: The mounted arm triangle, taught by Coach Brian.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/tc-XXMg7v48/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/tc-XXMg7v48",
+      "url": "https://www.youtube.com/watch?v=tc-XXMg7v48",
+      "creator": { "@type": "Person", "name": "Coach Brian" },
+      "duration": "PT145S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -70,13 +118,49 @@ The arm triangle from top integrates seamlessly with side control attacks. If th
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Arm Triangle from Top in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=8An-33URyYk)
+
+<p class="clip-credit"><strong>How to arm triangle from side control</strong> — taught by Evolve MMA · 0:57 · <a href="https://www.youtube.com/watch?v=8An-33URyYk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=eid4RdAQ4gI)
+
+<p class="clip-credit"><strong>No-gi arm triangle from side control</strong> — taught by Ludus Dome · 0:36 · <a href="https://www.youtube.com/watch?v=eid4RdAQ4gI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=tc-XXMg7v48)
+
+<p class="clip-credit"><strong>The mounted arm triangle</strong> — taught by Coach Brian · 2:25 · <a href="https://www.youtube.com/watch?v=tc-XXMg7v48" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
+
 <section id="possible-outcomes" class="content-section">
 
 ## Possible Outcomes
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Transitions/Arm Triangle]] | 55% |
+| Success | [[Arm Triangle from Side Control]] | 55% |
 | Failure | [[Positions/Side Control]] | 30% |
 | Counter | [[Positions/Half Guard]] | 15% |
 
@@ -240,11 +324,11 @@ The arm triangle from top is a cornerstone of the side control submission system
 ## Related Techniques
 
 
-- [[Transitions/Arm Triangle]] - Parent submission technique—the arm triangle from top is the setup transition that leads to the finishing choke
+- [[Submissions/Arm Triangle]] - Parent submission technique—the arm triangle from top is the setup transition that leads to the finishing choke
 
 - [[Positions/Side Control]] - Primary starting position from which the arm triangle is initiated
 
-- [[Transitions/Darce Choke]] - Complementary head-and-arm choke—when the opponent turns to defend the arm triangle, the darce becomes available
+- [[Submissions/Darce Choke]] - Complementary head-and-arm choke—when the opponent turns to defend the arm triangle, the darce becomes available
 
 - [[Submissions/Americana]] - Chain attack—americana defense (elbow high) creates the arm-across-neck configuration for the arm triangle
 

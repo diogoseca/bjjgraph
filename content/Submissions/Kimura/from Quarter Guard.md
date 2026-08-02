@@ -34,6 +34,43 @@ description: "Master the Kimura shoulder lock from Quarter Guard top. Expert gui
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Kimura from Quarter Guard \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Kimura Trap from Half/Quarter Guard",
+      "description": "Kimura from Quarter Guard film study: Kimura Trap from Half/Quarter Guard, taught by Clark Gracie.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/P0AuQRSfHfs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/P0AuQRSfHfs",
+      "url": "https://www.youtube.com/watch?v=P0AuQRSfHfs",
+      "creator": { "@type": "Person", "name": "Clark Gracie" },
+      "duration": "PT74S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Kimura Trap Counter to Single Leg",
+      "description": "Kimura from Quarter Guard film study: Kimura Trap Counter to Single Leg, taught by Dynamic Martial Arts.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/U3tD96avjXc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/U3tD96avjXc",
+      "url": "https://www.youtube.com/watch?v=U3tD96avjXc",
+      "creator": { "@type": "Person", "name": "Dynamic Martial Arts" },
+      "duration": "PT101S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -78,6 +115,34 @@ The Kimura from Quarter Guard is particularly effective because it punishes the 
 **Starting Position**: [[Positions/Quarter Guard]] · **From**: [[Positions/Quarter Guard]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Kimura from Quarter Guard in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=P0AuQRSfHfs)
+
+<p class="clip-credit"><strong>Kimura Trap from Half/Quarter Guard</strong> — taught by Clark Gracie · 1:14 · <a href="https://www.youtube.com/watch?v=P0AuQRSfHfs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=U3tD96avjXc)
+
+<p class="clip-credit"><strong>Kimura Trap Counter to Single Leg</strong> — taught by Dynamic Martial Arts · 1:41 · <a href="https://www.youtube.com/watch?v=U3tD96avjXc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="outcomes" class="content-section">
 
@@ -241,8 +306,8 @@ The Kimura from Quarter Guard is particularly effective because it punishes the 
 
 ## Related
 - [[Submissions/Americana]]
-- [[Transitions/Arm Triangle]]
-- [[Transitions/Darce Choke]]
+- [[Submissions/Arm Triangle]]
+- [[Submissions/Darce Choke]]
 - [[Submissions/Far Side Armbar]]
 - [[Submissions/Reverse Kimura]]
 - [[Positions/Quarter Guard]] - Primary starting position for this submission variant

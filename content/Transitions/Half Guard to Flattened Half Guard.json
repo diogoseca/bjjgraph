@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Flattened Half Guard/Top",
-      "probability": 65,
+      "probability": {
+        "gi": 65,
+        "nogi": 65
+      },
       "result": "success"
     },
     {
       "to": "Half Guard/Top",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "failure"
     },
     {
       "to": "Knee Shield Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 65,
+  "success_rate": {
+    "gi": 65,
+    "nogi": 65
+  },
   "overview": "Transitioning to Flattened Half Guard is the fundamental positional advancement that transforms an active, contested half guard exchange into a dominant pressure platform for the top player. Rather than attempting to pass directly from standard half guard where the bottom player maintains frames, underhooks, and hip mobility, this technique prioritizes systematically destroying the bottom player's defensive structure through crossface pressure, weight distribution, and upper body control. The goal is to drive the bottom player's shoulders flat to the mat, eliminate their frames, and establish chest-to-chest contact that severely limits their offensive capabilities while setting up high-percentage passing sequences.\n\nThe technique begins with winning the upper body control battle, specifically establishing a strong crossface while denying the bottom player their underhook. Once the crossface is secured, the top player progressively walks their hips forward and drives their weight through the chest and shoulder into the bottom player's torso. This systematic pressure collapses the bottom player's knee shield, overwrites their frames, and forces their back flat against the mat. The transition requires patience and methodical execution rather than explosive force, as rushing creates space that allows frame re-establishment.\n\nFrom a strategic perspective, this transition represents the critical bridge between contested half guard and completed guard passes. Skilled bottom players with active half guards are difficult to pass directly, but once flattened, their escape options narrow dramatically. The flattened position creates a pressure laboratory where the top player can methodically work through knee slice, crossface pass, or underhook pass sequences against compromised defensive structures. Understanding this transition is essential for any pressure-based passing game, as it converts positional scrambles into controlled passing sequences.",
   "conditions": [
     "Top player has established at least partial upper body control through crossface or head position",
@@ -260,38 +272,138 @@
     "flashcards": [
       {
         "question": "What is the correct order of control points to establish when flattening your opponent from half guard top?",
-        "answer": "Secure the crossface first to turn their head away and prevent near-side arm framing, then deny the underhook by controlling their near arm with your far-side hand or whizzer, then walk your hips forward to collapse frames. The crossface comes first because it provides the most immediate structural advantage and enables everything else in the sequence."
+        "answer": "Secure the crossface first, then deny the underhook, and only then walk your hips forward to collapse their frames. The crossface turns their head away and prevents near-side arm framing, and it comes first because it provides the most immediate structural advantage and enables everything else in the sequence. Deny the underhook by controlling their near arm with your far-side hand or a whizzer, then walk the hips forward to finish collapsing their frames.",
+        "distractors": {
+          "plausible": [
+            "Underhook first, then crossface",
+            "Hips first, then crossface"
+          ],
+          "trap": [
+            "Skip crossface, walk hips only"
+          ]
+        },
+        "answer_line": "Crossface, underhook, then hips"
       },
       {
         "question": "Your opponent has a strong knee shield preventing you from establishing chest-to-chest contact. How do you collapse it without using your hands?",
-        "answer": "Drive your hips and body weight directly into the knee shield's shin, using forward pressure to fold the shin flat against their body. Simultaneously pin their bottom knee to the mat with your near-side knee to remove the shield's structural foundation. The knee shield collapses under sustained body weight pressure, not from being pushed by hands, which would create space between your chest and theirs."
+        "answer": "Drive your hips and body weight directly into the knee shield's shin, using forward pressure to fold the shin flat against their body. Simultaneously pin their bottom knee to the mat with your near-side knee to remove the shield's structural foundation. The knee shield collapses under sustained body weight pressure, not from being pushed by hands, which would create space between your chest and theirs.",
+        "answer_line": "Drive hips into shin, pin knee",
+        "distractors": {
+          "plausible": [
+            "Pin the far knee to the mat",
+            "Lean back to unfold the shin"
+          ],
+          "trap": [
+            "Post both hands, lose chest contact"
+          ]
+        }
       },
       {
         "question": "Why should you walk your hips forward in small increments rather than driving forward explosively?",
-        "answer": "Incremental advancement maintains stable pressure throughout the transition and prevents the bottom player from redirecting your momentum into sweeps or creating space from sudden weight shifts. Explosive lunges are telegraphed and create the exact type of momentum that skilled bottom players use to generate sweeps. Small steps compound into full flattening without creating exploitable moments."
+        "answer": "Small incremental hip advances maintain constant stable pressure and deny the bottom player momentum to redirect into sweeps. Sudden weight shifts create space and explosive lunges are telegraphed, generating exactly the type of momentum that skilled bottom players use to sweep. Small steps compound into full flattening without ever creating an exploitable moment.",
+        "distractors": {
+          "plausible": [
+            "Small steps conserve your energy",
+            "Small steps save your grip strength"
+          ],
+          "trap": [
+            "Explode forward to end it fast"
+          ]
+        },
+        "answer_line": "Small steps deny sweep momentum"
       },
       {
         "question": "Your opponent is fighting hard for the underhook as you attempt to flatten them. What are your two primary responses?",
-        "answer": "First option is to apply a strong whizzer (overhook) on their underhook arm while driving the crossface harder to limit their leverage and prevent them from turning to their side. Second option is to switch to a Kimura grip on their exposed arm if they overcommit to the underhook, creating a submission threat that forces them to retract the arm and abandon the underhook battle."
+        "answer": "Whizzer their underhook arm while driving the crossface harder, or switch to a Kimura grip if they overcommit the arm. The strong whizzer (overhook) combined with increased crossface pressure limits their leverage and prevents them from turning to their side. The Kimura option targets their exposed arm when they overcommit, creating a submission threat that forces them to retract the arm and abandon the underhook battle.",
+        "distractors": {
+          "plausible": [
+            "Switch to an armbar attempt",
+            "Release crossface, grab wrist"
+          ],
+          "trap": [
+            "Concede the underhook, sit back"
+          ]
+        },
+        "answer_line": "Whizzer plus crossface, or Kimura"
       },
       {
         "question": "You have successfully flattened your opponent but they begin small hip escapes to create space. What is the optimal response?",
-        "answer": "Follow their hip escape with your pressure by adjusting your angle to close the gap they create. Use their shrimping motion as a trigger to initiate your passing sequence rather than fighting to reset the flat position. Their hip escape creates the angle needed for a knee slice pass, so time your knee advancement to coincide with their movement rather than resisting it."
+        "answer": "Follow their hip escape with your pressure by adjusting your angle to close the gap they create. Use their shrimping motion as a trigger to initiate your passing sequence rather than fighting to reset the flat position. Their hip escape creates the angle needed for a knee slice pass, so time your knee advancement to coincide with their movement rather than resisting it.",
+        "answer_line": "Follow angle, time knee slice",
+        "distractors": {
+          "plausible": [
+            "Reset to flat position first",
+            "Squeeze harder to stop the shrimp"
+          ],
+          "trap": [
+            "Release pressure to reposition"
+          ]
+        }
       },
       {
         "question": "What is the primary grip or control position that must be maintained throughout the entire flattening sequence?",
-        "answer": "The crossface must be maintained throughout the entire transition without interruption. Losing the crossface immediately allows the bottom player to turn to face you, re-establish frames, recover their knee shield, and return to active half guard. All other grip changes and position adjustments should happen sequentially while the crossface remains the constant anchor point."
+        "answer": "The crossface must be maintained throughout the entire transition without interruption. Losing the crossface immediately allows the bottom player to turn to face you, re-establish frames, recover their knee shield, and return to active half guard. All other grip changes and position adjustments should happen sequentially while the crossface remains the constant anchor point.",
+        "answer_line": "Maintain the crossface throughout",
+        "distractors": {
+          "plausible": [
+            "Keep the underhook locked",
+            "Control the far-side hip"
+          ],
+          "trap": [
+            "Trade crossface for an armbar grip"
+          ]
+        }
       },
       {
         "question": "Your opponent dives underneath you for deep half guard as you begin walking your hips forward. How do you address this counter?",
-        "answer": "Immediately sprawl your hips back and away to prevent them from getting underneath your center of gravity, while driving your crossface pressure downward to pin their head. If they achieve deep half, shift your focus to a whizzer and hip pressure to prevent the sweep rather than continuing the flattening sequence. Prevention is better than recovery, so recognize the early signs of the dive and stop hip advancement before they get under you."
+        "answer": "Immediately sprawl your hips back and away while driving your crossface pressure downward to pin their head. This prevents them from getting underneath your center of gravity. If they achieve deep half anyway, shift your focus to a whizzer and hip pressure to prevent the sweep rather than continuing the flattening sequence. Prevention is better than recovery, so recognize the early signs of the dive and stop hip advancement before they get under you.",
+        "distractors": {
+          "plausible": [
+            "Post hands and back away",
+            "Chase the underhook instead"
+          ],
+          "trap": [
+            "Keep walking hips forward"
+          ]
+        },
+        "answer_line": "Sprawl hips back, drive crossface"
       },
       {
         "question": "How should your weight distribution differ between chest pressure and hip pressure during the flattening process?",
-        "answer": "Chest and hip pressure must work as a unified system distributed across a broad base. Using only chest pressure allows hip escape opportunities because your hips are too high. Using only hip pressure leaves their upper body free to frame and create angles. Drive pressure through both simultaneously, with your hips staying low and heavy while your chest drives forward through the crossface connection. This broad pressure base limits their mobility in all directions."
+        "answer": "Chest and hip pressure must work as a unified system distributed across a broad base. Using only chest pressure allows hip escape opportunities because your hips are too high. Using only hip pressure leaves their upper body free to frame and create angles. Drive pressure through both simultaneously, with your hips staying low and heavy while your chest drives forward through the crossface connection. This broad pressure base limits their mobility in all directions.",
+        "answer_line": "Chest and hips together, broad base",
+        "distractors": {
+          "plausible": [
+            "Chest pressure only, hips high",
+            "Hip pressure only, chest light"
+          ],
+          "trap": [
+            "Lean back for better leverage"
+          ]
+        }
       }
     ],
-    "safety_considerations": "This technique involves sustained chest pressure that restricts your training partner's breathing. Always monitor your partner's comfort level and be responsive to tapping, which may indicate breathing distress rather than a submission. Avoid driving excessive pressure directly onto the throat or trachea through the crossface. In drilling, use moderate pressure that allows your partner to breathe shallowly rather than full competition-intensity pressure. Communicate with your training partner about pressure levels and allow breaks when needed. The crossface should pressure the jaw and cheek, not the neck or windpipe."
+    "safety_considerations": "This technique involves sustained chest pressure that restricts your training partner's breathing. Always monitor your partner's comfort level and be responsive to tapping, which may indicate breathing distress rather than a submission. Avoid driving excessive pressure directly onto the throat or trachea through the crossface. In drilling, use moderate pressure that allows your partner to breathe shallowly rather than full competition-intensity pressure. Communicate with your training partner about pressure levels and allow breaks when needed. The crossface should pressure the jaw and cheek, not the neck or windpipe.",
+    "clips": [
+      {
+        "id": "PTe4-NhLXf8",
+        "title": "Shallow cross face to flatten the bottom player",
+        "by": "Craig Jones",
+        "vertical": false,
+        "channel": "Dohn Janaher ",
+        "duration": 24,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "gHD03vpWGSM",
+        "title": "Building a tight cross face to flatten half guard",
+        "by": "Escapology BJJ coach",
+        "vertical": false,
+        "channel": "Escapology BJJ",
+        "duration": 119,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Half Guard to Flattened Half Guard Defender",
@@ -389,23 +501,73 @@
     "flashcards": [
       {
         "question": "What is the first recognition cue that your opponent is beginning the flattening sequence from half guard top?",
-        "answer": "The primary early cue is the crossface establishment, where you feel their arm threading across your jaw and their shoulder pressure increasing on your face, turning your head away. This is the foundational control point for the entire flattening sequence. Other early signs include their hips beginning to walk forward and your knee shield starting to fold inward under increasing pressure."
+        "answer": "The primary early cue is the crossface establishment, where you feel their arm threading across your jaw and their shoulder pressure increasing on your face, turning your head away. This is the foundational control point for the entire flattening sequence. Other early signs include their hips beginning to walk forward and your knee shield starting to fold inward under increasing pressure.",
+        "answer_line": "Feel their arm thread crossface",
+        "distractors": {
+          "plausible": [
+            "Feel their hips walking in",
+            "Feel them grab your bottom collar"
+          ],
+          "trap": [
+            "Wait for chest-to-chest contact"
+          ]
+        }
       },
       {
         "question": "Your opponent has secured a crossface but you still have your knee shield intact. What is your defensive priority?",
-        "answer": "Fight for the underhook on the trapped leg side while maintaining the knee shield. Accept the crossface as the lower-priority battle and invest your energy in establishing the underhook, which provides the structural support to maintain your side angle. With both the underhook and knee shield, you can initiate offensive sequences even with the crossface in place. Without the underhook, even a strong knee shield will eventually fold under sustained pressure."
+        "answer": "Fight for the underhook on the trapped leg side while maintaining the knee shield. Accept the crossface as the lower-priority battle and invest your energy in establishing the underhook, which provides the structural support to maintain your side angle. With both the underhook and knee shield, you can initiate offensive sequences even with the crossface in place. Without the underhook, even a strong knee shield will eventually fold under sustained pressure.",
+        "answer_line": "Fight underhook, keep knee shield",
+        "distractors": {
+          "plausible": [
+            "Fight to remove the crossface",
+            "Frame on their hip and wait"
+          ],
+          "trap": [
+            "Turn away and give up your back"
+          ]
+        }
       },
       {
         "question": "Why is it more effective to maintain frames than to try to rebuild them once lost?",
-        "answer": "Once frames collapse and your opponent achieves chest-to-chest contact, the energy required to re-create space is exponentially higher than the energy needed to maintain existing frames. The opponent's full body weight is compressing your structure, and every micro-movement against this weight is taxing. Maintaining frames means working against progressive pressure with structural support, while rebuilding means pushing the opponent's settled weight away with compromised positioning and reduced leverage."
+        "answer": "Once frames collapse and your opponent achieves chest-to-chest contact, the energy required to re-create space is exponentially higher than the energy needed to maintain existing frames. The opponent's full body weight is compressing your structure, and every micro-movement against this weight is taxing. Maintaining frames means working against progressive pressure with structural support, while rebuilding means pushing the opponent's settled weight away with compromised positioning and reduced leverage.",
+        "answer_line": "Rebuilding costs far more energy",
+        "distractors": {
+          "plausible": [
+            "Frames are about grip strength",
+            "Space matters less than grips"
+          ],
+          "trap": [
+            "Let frames collapse, bridge later"
+          ]
+        }
       },
       {
         "question": "Your knee shield begins folding inward under your opponent's hip pressure. What is your layered defensive response?",
-        "answer": "Immediately execute a hip escape to re-establish distance and reinsert the knee shield from the new angle. If the knee shield cannot be recovered, transition to a forearm frame on their shoulder or bicep to maintain some distance. If all frames fail, dive underneath for deep half guard entry before chest-to-chest contact is fully established. This layered sequence provides multiple fallback options rather than relying on a single defensive technique."
+        "answer": "Immediately execute a hip escape to re-establish distance and reinsert the knee shield from the new angle. If the knee shield cannot be recovered, transition to a forearm frame on their shoulder or bicep to maintain some distance. If all frames fail, dive underneath for deep half guard entry before chest-to-chest contact is fully established. This layered sequence provides multiple fallback options rather than relying on a single defensive technique.",
+        "answer_line": "Hip escape, frame, then deep half",
+        "distractors": {
+          "plausible": [
+            "Push with both hands immediately",
+            "Grab crossface arm and pull"
+          ],
+          "trap": [
+            "Stay flat and wait it out"
+          ]
+        }
       },
       {
         "question": "How do you use the opponent's forward pressure waves to create defensive movement?",
-        "answer": "Time your hip escapes to coincide with the opponent's forward pressure surges. When they drive forward, their weight commits in one direction, making it difficult for them to follow lateral movement. Use the moment of their heaviest forward drive to shrimp your hips away laterally, creating space that they cannot immediately close because their momentum is directed forward. This converts their offensive pressure into the energy source for your defensive escape."
+        "answer": "Time your hip escapes to coincide with the opponent's forward pressure surges. When they drive forward, their weight commits in one direction, making it difficult for them to follow lateral movement. Use the moment of their heaviest forward drive to shrimp your hips away laterally, creating space that they cannot immediately close because their momentum is directed forward. This converts their offensive pressure into the energy source for your defensive escape.",
+        "answer_line": "Shrimp laterally on their surge",
+        "distractors": {
+          "plausible": [
+            "Wait for a pause to escape",
+            "Push straight back against them"
+          ],
+          "trap": [
+            "Turn belly-down under their drive"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -428,6 +590,35 @@
         "phase": "Phase 4: Live Positional Sparring",
         "focus": "Applying defensive techniques under full resistance",
         "description": "Full resistance positional sparring starting in half guard bottom. Top player's goal is to flatten and pass. Bottom player's goal is to prevent flattening and either maintain active half guard or sweep. Rounds of 2-3 minutes with position resets. Focus on early recognition, frame maintenance, and timely transitions between defensive layers."
+      }
+    ],
+    "clips": [
+      {
+        "id": "NWie1oi3JSg",
+        "title": "Recovering when you get flattened in half guard",
+        "by": "Inverted Gear coach",
+        "vertical": false,
+        "channel": "Inverted Gear",
+        "duration": 274,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "I05XdrbakZQ",
+        "title": "How not to get flattened and crossfaced in half guard",
+        "by": "Stephan Kesting",
+        "vertical": false,
+        "channel": "Stephan Kesting",
+        "duration": 339,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "ALhb8nFaFgA",
+        "title": "How to stop getting smashed in bottom half guard",
+        "by": "Chewjitsu",
+        "vertical": false,
+        "channel": "Chewjitsu",
+        "duration": 369,
+        "verified": "2026-07-15"
       }
     ]
   }

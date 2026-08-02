@@ -34,6 +34,43 @@ description: "Master the Inversion from Headquarters in BJJ. Complete guide to i
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Inversion from Headquarters \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Around The Legs Guard Retention",
+      "description": "Inversion from Headquarters film study: Around The Legs Guard Retention, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ynoR-AtSYUc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ynoR-AtSYUc",
+      "url": "https://www.youtube.com/watch?v=ynoR-AtSYUc",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT210S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "High Leg Guard Retention",
+      "description": "Inversion from Headquarters film study: High Leg Guard Retention, taught by Paul McVeigh.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/UHL2gtIMnrg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/UHL2gtIMnrg",
+      "url": "https://www.youtube.com/watch?v=UHL2gtIMnrg",
+      "creator": { "@type": "Person", "name": "Paul McVeigh" },
+      "duration": "PT152S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -66,9 +103,37 @@ This movement represents a critical skill for modern guard players facing system
 Timing is paramount for successful execution. The inversion must be initiated during a transitional moment, typically when the passer shifts weight to begin a passing sequence like a knee cut or toreando. Attempting the inversion against a settled, heavy headquarters position dramatically reduces success rates and increases the risk of being caught mid-roll in an exposed position. Advanced practitioners learn to bait specific passing reactions that create the weight-shift windows necessary for clean inversions, transforming the passer's aggression into their own escape opportunity.
 
 **From Position**: [[Positions/Headquarters Position]] (Bottom)
-**Success Rate**: 50%
+**Success Rate**: 34%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Inversion from Headquarters in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ynoR-AtSYUc)
+
+<p class="clip-credit"><strong>Around The Legs Guard Retention</strong> — taught by Lachlan Giles · 3:30 · <a href="https://www.youtube.com/watch?v=ynoR-AtSYUc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=UHL2gtIMnrg)
+
+<p class="clip-credit"><strong>High Leg Guard Retention</strong> — taught by Paul McVeigh · 2:32 · <a href="https://www.youtube.com/watch?v=UHL2gtIMnrg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

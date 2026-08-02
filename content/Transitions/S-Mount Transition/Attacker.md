@@ -168,6 +168,54 @@ description: "How to execute S-Mount Transition in BJJ. Attacking perspective wi
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "S-Mount Transition (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Transitioning from mount to S-mount",
+      "description": "S-Mount Transition (Attacker) film study: Transitioning from mount to S-mount, taught by Procel BJJ coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/RsNdjwonGkw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/RsNdjwonGkw",
+      "url": "https://www.youtube.com/watch?v=RsNdjwonGkw",
+      "creator": { "@type": "Person", "name": "Procel BJJ coach" },
+      "duration": "PT132S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "S-mount basics, no-gi",
+      "description": "S-Mount Transition (Attacker) film study: S-mount basics, no-gi, taught by ZombieProofBJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/FSbR22OOSaE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/FSbR22OOSaE",
+      "url": "https://www.youtube.com/watch?v=FSbR22OOSaE",
+      "creator": { "@type": "Person", "name": "ZombieProofBJJ" },
+      "duration": "PT72S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "S-mount troubleshooting, no-gi",
+      "description": "S-Mount Transition (Attacker) film study: S-mount troubleshooting, no-gi, taught by ZombieProofBJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/2Xm_mLp8xwk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/2Xm_mLp8xwk",
+      "url": "https://www.youtube.com/watch?v=2Xm_mLp8xwk",
+      "creator": { "@type": "Person", "name": "ZombieProofBJJ" },
+      "duration": "PT67S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -177,6 +225,42 @@ The S-Mount Transition represents a critical positional advancement from Modifie
 **From Position**: [[Positions/Mount/Modified Mount]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch S-Mount Transition (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=RsNdjwonGkw)
+
+<p class="clip-credit"><strong>Transitioning from mount to S-mount</strong> — taught by Procel BJJ coach · 2:12 · <a href="https://www.youtube.com/watch?v=RsNdjwonGkw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=FSbR22OOSaE)
+
+<p class="clip-credit"><strong>S-mount basics, no-gi</strong> — taught by ZombieProofBJJ · 1:12 · <a href="https://www.youtube.com/watch?v=FSbR22OOSaE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=2Xm_mLp8xwk)
+
+<p class="clip-credit"><strong>S-mount troubleshooting, no-gi</strong> — taught by ZombieProofBJJ · 1:07 · <a href="https://www.youtube.com/watch?v=2Xm_mLp8xwk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

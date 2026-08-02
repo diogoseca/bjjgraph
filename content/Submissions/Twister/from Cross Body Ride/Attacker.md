@@ -176,6 +176,54 @@ description: "Learn to execute the Twister from Cross Body Ride with step-by-ste
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Twister from Cross Body Ride (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Twister Side Attacks",
+      "description": "Twister from Cross Body Ride (Attacker) film study: Twister Side Attacks, taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/odT3-cVWXdc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/odT3-cVWXdc",
+      "url": "https://www.youtube.com/watch?v=odT3-cVWXdc",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT61S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Eddie Bravo\u0027s Twister",
+      "description": "Twister from Cross Body Ride (Attacker) film study: Eddie Bravo\u0027s Twister, taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/FjWN_aBp2eE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/FjWN_aBp2eE",
+      "url": "https://www.youtube.com/watch?v=FjWN_aBp2eE",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT49S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Twister from Side Control",
+      "description": "Twister from Cross Body Ride (Attacker) film study: Twister from Side Control, taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/R55lmkc6Mus/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/R55lmkc6Mus",
+      "url": "https://www.youtube.com/watch?v=R55lmkc6Mus",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT87S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -186,6 +234,42 @@ Attacking with the Twister from Cross Body Ride requires mastery of the sequenti
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Twister from Cross Body Ride (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=odT3-cVWXdc)
+
+<p class="clip-credit"><strong>Twister Side Attacks</strong> — taught by Eddie Bravo · 1:01 · <a href="https://www.youtube.com/watch?v=odT3-cVWXdc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=FjWN_aBp2eE)
+
+<p class="clip-credit"><strong>Eddie Bravo&#39;s Twister</strong> — taught by Eddie Bravo · 0:49 · <a href="https://www.youtube.com/watch?v=FjWN_aBp2eE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=R55lmkc6Mus)
+
+<p class="clip-credit"><strong>Twister from Side Control</strong> — taught by Eddie Bravo · 1:27 · <a href="https://www.youtube.com/watch?v=R55lmkc6Mus" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

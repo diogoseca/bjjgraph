@@ -126,6 +126,54 @@ description: "Defend the Aoki Lock entry from Turtle Bottom in no-gi. Recognize 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Turtle to Aoki Lock (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Aoki lock counter from ashi and SLX",
+      "description": "Turtle to Aoki Lock (Defender) film study: Aoki lock counter from ashi and SLX, taught by Mads H..",
+      "thumbnailUrl": "https://i.ytimg.com/vi/p7fy3B6AAbA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/p7fy3B6AAbA",
+      "url": "https://www.youtube.com/watch?v=p7fy3B6AAbA",
+      "creator": { "@type": "Person", "name": "Mads H." },
+      "duration": "PT231S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Countering the shoulder crunch from turtle",
+      "description": "Turtle to Aoki Lock (Defender) film study: Countering the shoulder crunch from turtle, taught by Kieran Davern.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/32XoQ7jEvQ0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/32XoQ7jEvQ0",
+      "url": "https://www.youtube.com/watch?v=32XoQ7jEvQ0",
+      "creator": { "@type": "Person", "name": "Kieran Davern" },
+      "duration": "PT518S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Turtle neck: structure that denies shoulder locks",
+      "description": "Turtle to Aoki Lock (Defender) film study: Turtle neck: structure that denies shoulder locks, taught by Priit Mihkelson.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/wjcPhUmFRhM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/wjcPhUmFRhM",
+      "url": "https://www.youtube.com/watch?v=wjcPhUmFRhM",
+      "creator": { "@type": "Person", "name": "Priit Mihkelson" },
+      "duration": "PT169S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -139,6 +187,42 @@ Because the turtle is a scramble position, your best escapes are dynamic: spinni
 **Opponent's Starting Position**: [[Positions/Turtle]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Turtle to Aoki Lock (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=p7fy3B6AAbA)
+
+<p class="clip-credit"><strong>Aoki lock counter from ashi and SLX</strong> — taught by Mads H. · 3:51 · <a href="https://www.youtube.com/watch?v=p7fy3B6AAbA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=32XoQ7jEvQ0)
+
+<p class="clip-credit"><strong>Countering the shoulder crunch from turtle</strong> — taught by Kieran Davern · 8:38 · <a href="https://www.youtube.com/watch?v=32XoQ7jEvQ0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=wjcPhUmFRhM)
+
+<p class="clip-credit"><strong>Turtle neck: structure that denies shoulder locks</strong> — taught by Priit Mihkelson · 2:49 · <a href="https://www.youtube.com/watch?v=wjcPhUmFRhM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

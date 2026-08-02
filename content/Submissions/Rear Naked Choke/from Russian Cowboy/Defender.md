@@ -144,6 +144,43 @@ description: "Defend the Rear Naked Choke from Russian Cowboy. Recognition cues,
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Rear Naked Choke from Russian Cowboy (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Three rear choke defenses everyone should know",
+      "description": "Rear Naked Choke from Russian Cowboy (Defender) film study: Three rear choke defenses everyone should know, taught by Gracie Breakdown.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/UQO3V3Uo3t4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/UQO3V3Uo3t4",
+      "url": "https://www.youtube.com/watch?v=UQO3V3Uo3t4",
+      "creator": { "@type": "Person", "name": "Gracie Breakdown" },
+      "duration": "PT70S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "When to sit up to escape the back",
+      "description": "Rear Naked Choke from Russian Cowboy (Defender) film study: When to sit up to escape the back, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/lVLAROiSjNU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/lVLAROiSjNU",
+      "url": "https://www.youtube.com/watch?v=lVLAROiSjNU",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT136S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -154,6 +191,34 @@ Defending the Rear Naked Choke from Russian Cowboy requires addressing the immed
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Rear Naked Choke from Russian Cowboy (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=UQO3V3Uo3t4)
+
+<p class="clip-credit"><strong>Three rear choke defenses everyone should know</strong> — taught by Gracie Breakdown · 1:10 · <a href="https://www.youtube.com/watch?v=UQO3V3Uo3t4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=lVLAROiSjNU)
+
+<p class="clip-credit"><strong>When to sit up to escape the back</strong> — taught by Lachlan Giles · 2:16 · <a href="https://www.youtube.com/watch?v=lVLAROiSjNU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

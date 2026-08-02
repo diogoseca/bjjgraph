@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Side Control/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Matrix/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "Punishing a failed back-take rotation is one of the clearest markers of a mature top game, and this transition is the mechanism for doing exactly that. When the top player has blocked the bottom player's rotational attack, a critical window opens where the defender's compromised structure can be exploited to advance position rather than simply resetting to a neutral engagement.\n\nThis transition capitalizes on the mechanical reality that a halted Matrix rotation leaves the bottom player in a vulnerable state. Their base is disrupted, their grips are weakened or broken, and their body alignment is compromised from the arrested rotational momentum. The top player uses this momentary disadvantage to drive the opponent flat, establish crossface and hip control, and complete the consolidation to side control before the bottom player can reorganize their defensive structure.\n\nStrategically, this transition rewards patient, methodical Matrix defense. Rather than treating a stuffed back take as merely a defensive success, the top player who chains defensive blocking into offensive positional advancement gains a substantial reward for their awareness. The technique demands precise timing—acting too early before the rotation is fully neutralized risks being caught in a secondary rotation attempt, while waiting too long allows the bottom player to reset their grips and defensive frames for another Matrix entry. The transition exemplifies the principle that defense and offense in BJJ are not separate phases but continuous, interconnected aspects of positional grappling.",
   "conditions": [
     "Top player has successfully blocked or halted the opponent's Matrix back take rotation",
@@ -223,38 +235,138 @@
     "flashcards": [
       {
         "question": "What is the optimal moment to begin transitioning from Matrix defense to side control consolidation?",
-        "answer": "The optimal moment occurs when the bottom player's rotation has fully stalled—their hip movement has stopped, their momentum has dissipated, and their body has settled against your defensive base. You should also confirm that at least one of their primary grips has been broken or significantly weakened. Acting before the rotation fully stalls risks being caught in a secondary attempt, while waiting too long allows them to reset their structure."
+        "answer": "The optimal moment occurs when the bottom player's rotation has fully stalled—their hip movement has stopped, their momentum has dissipated, and their body has settled against your defensive base. You should also confirm that at least one of their primary grips has been broken or significantly weakened. Acting before the rotation fully stalls risks being caught in a secondary attempt, while waiting too long allows them to reset their structure.",
+        "answer_line": "Rotation stalled, grip broken",
+        "distractors": {
+          "plausible": [
+            "Any pause in opponent's grips",
+            "Once they show fatigue"
+          ],
+          "trap": [
+            "The instant rotation begins"
+          ]
+        }
       },
       {
         "question": "Why must crossface control be established before attempting to flatten the opponent during this transition?",
-        "answer": "Crossface control eliminates the opponent's ability to turn their head toward you, which is the prerequisite for re-entering the Matrix rotation. Without the crossface, the opponent retains rotational freedom and can use any forward pressure you apply as leverage for a secondary back take attempt. The crossface also creates uncomfortable pressure that forces defensive reactions, occupying the opponent's attention while you advance the consolidation."
+        "answer": "Crossface control eliminates the opponent's ability to turn their head toward you, which is the prerequisite for re-entering the Matrix rotation. Without the crossface, the opponent retains rotational freedom and can use any forward pressure you apply as leverage for a secondary back take attempt. The crossface also creates uncomfortable pressure that forces defensive reactions, occupying the opponent's attention while you advance the consolidation.",
+        "answer_line": "Blocks head turn to Matrix",
+        "distractors": {
+          "plausible": [
+            "Just extra discomfort pressure",
+            "Sets up the guard pass"
+          ],
+          "trap": [
+            "Skip it, flatten directly"
+          ]
+        }
       },
       {
         "question": "Your opponent's Matrix rotation is blocked but they still maintain a strong belt grip with one hand—how do you proceed?",
-        "answer": "Strip the belt grip before committing to the side control consolidation. That remaining grip provides a connection point the opponent can use to re-initiate rotation or pull you off balance during your passing attempt. Use your free hand to execute a sharp grip break while maintaining chest pressure to prevent them from using the momentary grip-fighting exchange to create space or reset their position for another Matrix entry."
+        "answer": "Strip the belt grip before committing to the side control consolidation. That remaining grip provides a connection point the opponent can use to re-initiate rotation or pull you off balance during your passing attempt. Use your free hand to execute a sharp grip break while maintaining chest pressure to prevent them from using the momentary grip-fighting exchange to create space or reset their position for another Matrix entry.",
+        "answer_line": "Strip belt grip first",
+        "distractors": {
+          "plausible": [
+            "Ignore grip, drive forward",
+            "Trap the hand, keep passing"
+          ],
+          "trap": [
+            "Push through, force the pass"
+          ]
+        }
       },
       {
         "question": "What direction of force should your chest pressure travel during the flattening phase of this transition?",
-        "answer": "Drive chest pressure diagonally across the opponent's body, perpendicular to their spine, combining lateral force with downward weight. This diagonal vector rolls them from their side onto their back while simultaneously eliminating the space between your bodies. Driving straight down is less effective because it compresses without flattening, and driving purely laterally allows them to use your momentum to create distance."
+        "answer": "Drive chest pressure diagonally across the opponent's body, perpendicular to their spine, combining lateral force with downward weight. This diagonal vector rolls them from their side onto their back while simultaneously eliminating the space between your bodies. Driving straight down is less effective because it compresses without flattening, and driving purely laterally allows them to use your momentum to create distance.",
+        "answer_line": "Diagonal, perpendicular to spine",
+        "distractors": {
+          "plausible": [
+            "Straight down, compress only",
+            "Purely lateral, side pressure"
+          ],
+          "trap": [
+            "Pull away then drive down"
+          ]
+        }
       },
       {
         "question": "The opponent attempts to re-enter their Matrix rotation as you begin consolidating—what is your immediate response?",
-        "answer": "Immediately return to your wide defensive base and re-block the rotation rather than trying to force through the consolidation. A secondary Matrix attempt against a narrow, passing-focused base is far more likely to succeed than the initial attempt against your prepared defense. Once the secondary rotation is fully neutralized, restart the consolidation sequence from the grip-stripping phase. Patience here prevents giving up back control."
+        "answer": "Immediately return to your wide defensive base and re-block the rotation rather than trying to force through the consolidation. A secondary Matrix attempt against a narrow, passing-focused base is far more likely to succeed than the initial attempt against your prepared defense. Once the secondary rotation is fully neutralized, restart the consolidation sequence from the grip-stripping phase. Patience here prevents giving up back control.",
+        "answer_line": "Return to wide base, re-block",
+        "distractors": {
+          "plausible": [
+            "Force through the consolidation",
+            "Switch to a different pass"
+          ],
+          "trap": [
+            "Chase the far hip harder"
+          ]
+        }
       },
       {
         "question": "How do you prevent the opponent from inserting a knee shield during the transition to side control?",
-        "answer": "Keep your near-side hip low and heavy against the opponent's far hip throughout the consolidation, applying constant downward pressure that blocks the pathway for knee insertion. Your hip acts as a physical barrier preventing their knee from threading between your bodies. If you feel their knee beginning to rise, immediately drop your hip weight onto it and drive it back down before it crosses the threshold where a knee shield becomes established."
+        "answer": "Keep your near-side hip low and heavy against the opponent's far hip throughout the consolidation, applying constant downward pressure that blocks the pathway for knee insertion. Your hip acts as a physical barrier preventing their knee from threading between your bodies. If you feel their knee beginning to rise, immediately drop your hip weight onto it and drive it back down before it crosses the threshold where a knee shield becomes established.",
+        "answer_line": "Hip low and heavy on far hip",
+        "distractors": {
+          "plausible": [
+            "Flatten shoulders, ignore hips",
+            "Grip the knee directly"
+          ],
+          "trap": [
+            "Post up, create space first"
+          ]
+        }
       },
       {
         "question": "What grip configuration provides the most secure control during the final consolidation phase into side control?",
-        "answer": "The crossface arm drives your forearm or bicep across the opponent's neck and face with shoulder pressure behind it, while the near-side hand controls their far hip to prevent guard recovery. This configuration addresses both primary defensive threats simultaneously—the crossface prevents rotation and turning, while the hip block prevents knee insertion. Once settled, you can adjust to underhook or other preferred side control grips."
+        "answer": "The crossface arm drives your forearm or bicep across the opponent's neck and face with shoulder pressure behind it, while the near-side hand controls their far hip to prevent guard recovery. This configuration addresses both primary defensive threats simultaneously—the crossface prevents rotation and turning, while the hip block prevents knee insertion. Once settled, you can adjust to underhook or other preferred side control grips.",
+        "answer_line": "Crossface plus far hip control",
+        "distractors": {
+          "plausible": [
+            "Underhook plus near hip grip",
+            "Double underhooks both arms"
+          ],
+          "trap": [
+            "Grab both wrists, control arms"
+          ]
+        }
       },
       {
         "question": "If the opponent turtles during your consolidation attempt rather than being flattened, how does your approach change?",
-        "answer": "A turtled opponent requires a different pathway to side control. Rather than continuing the flattening pressure against their turtle structure, transition to a spiral ride or use crossface pressure to break them down flat from turtle. Alternatively, you can chain to a front headlock attack, snap-down, or clock choke that exploits their turtle posture. The key is recognizing that turtle requires different mechanics than the standard Matrix-to-side-control flattening sequence."
+        "answer": "A turtled opponent requires a different pathway to side control. Rather than continuing the flattening pressure against their turtle structure, transition to a spiral ride or use crossface pressure to break them down flat from turtle. Alternatively, you can chain to a front headlock attack, snap-down, or clock choke that exploits their turtle posture. The key is recognizing that turtle requires different mechanics than the standard Matrix-to-side-control flattening sequence.",
+        "answer_line": "Switch to front headlock attacks",
+        "distractors": {
+          "plausible": [
+            "Keep driving flattening pressure",
+            "Stall until they flatten out"
+          ],
+          "trap": [
+            "Sit back to a leg entanglement"
+          ]
+        }
       }
     ],
-    "safety_considerations": "This transition involves significant pressure application through crossface and chest-to-chest contact. Be mindful of the opponent's neck position during crossface application to avoid excessive lateral neck pressure. During training, apply flattening pressure gradually rather than explosively to allow your partner to tap or verbally signal if the pressure becomes uncomfortable. Avoid driving crossface pressure directly into the throat—target the jaw and cheekbone area instead. When extracting legs from entanglements, move deliberately to avoid torquing your partner's knee or ankle joints."
+    "safety_considerations": "This transition involves significant pressure application through crossface and chest-to-chest contact. Be mindful of the opponent's neck position during crossface application to avoid excessive lateral neck pressure. During training, apply flattening pressure gradually rather than explosively to allow your partner to tap or verbally signal if the pressure becomes uncomfortable. Avoid driving crossface pressure directly into the throat—target the jaw and cheekbone area instead. When extracting legs from entanglements, move deliberately to avoid torquing your partner's knee or ankle joints.",
+    "clips": [
+      {
+        "id": "kXdw4YnLJnE",
+        "title": "Standing Pass to North-South Matrix",
+        "by": "Greg Hamilton",
+        "vertical": false,
+        "channel": "Renzo Gracie Jiu Jitsu DFW",
+        "duration": 323,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "uo8-ZJyba08",
+        "title": "Craig Jones Matrix to Top Position Compilation",
+        "by": "Craig Jones",
+        "vertical": false,
+        "channel": "FreeChannelOpen",
+        "duration": 63,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Matrix to Side Control Defender",
@@ -332,23 +444,73 @@
     "flashcards": [
       {
         "question": "What are the earliest cues that the top player is transitioning from Matrix defense to a side control pass attempt?",
-        "answer": "The earliest cues are a shift in the top player's weight distribution—moving from wide defensive base to forward pressure onto your torso—and the beginning of active grip stripping on your belt or pants connections. You will also feel crossface pressure increasing across your face as they begin turning your head away. Recognizing these cues in the first one to two seconds provides the maximum defensive window."
+        "answer": "The earliest cues are a shift in the top player's weight distribution—moving from wide defensive base to forward pressure onto your torso—and the beginning of active grip stripping on your belt or pants connections. You will also feel crossface pressure increasing across your face as they begin turning your head away. Recognizing these cues in the first one to two seconds provides the maximum defensive window.",
+        "answer_line": "Weight shifts forward, grips strip",
+        "distractors": {
+          "plausible": [
+            "Opponent stops moving completely",
+            "They tap out their own grips"
+          ],
+          "trap": [
+            "Wait until fully flattened"
+          ]
+        }
       },
       {
         "question": "Your Matrix rotation has been blocked and the top player is driving you flat—what is your primary defensive action?",
-        "answer": "Create forearm frames against the opponent's shoulders or hips immediately to resist the flattening pressure. Simultaneously fight to stay on your side by scooting your hips away from the opponent. Being on your side preserves your ability to create angles, insert knee shields, and recover guard. Once you are flat on your back with no frames, side control consolidation becomes extremely difficult to prevent regardless of your technical ability."
+        "answer": "Create forearm frames against the opponent's shoulders or hips immediately to resist the flattening pressure. Simultaneously fight to stay on your side by scooting your hips away from the opponent. Being on your side preserves your ability to create angles, insert knee shields, and recover guard. Once you are flat on your back with no frames, side control consolidation becomes extremely difficult to prevent regardless of your technical ability.",
+        "answer_line": "Frame up, stay on your side",
+        "distractors": {
+          "plausible": [
+            "Push their head away only",
+            "Bridge hard to escape"
+          ],
+          "trap": [
+            "Go flat, turtle up instead"
+          ]
+        }
       },
       {
         "question": "Why is timing the knee shield insertion critical when defending against this transition?",
-        "answer": "The knee shield insertion window exists only when the top player has committed to the consolidation but has not yet secured your far hip with their near hand. This window is brief—typically two to three seconds—and once hip control is established, the pathway for knee insertion is physically blocked. Threading your knee too early may be cleared by the opponent's leg extraction, while inserting too late meets an immovable hip block."
+        "answer": "The knee shield insertion window exists only when the top player has committed to the consolidation but has not yet secured your far hip with their near hand. This window is brief—typically two to three seconds—and once hip control is established, the pathway for knee insertion is physically blocked. Threading your knee too early may be cleared by the opponent's leg extraction, while inserting too late meets an immovable hip block.",
+        "answer_line": "Before hip control is secured",
+        "distractors": {
+          "plausible": [
+            "As soon as crossface lands",
+            "After they flatten you fully"
+          ],
+          "trap": [
+            "Wait until they pass completely"
+          ]
+        }
       },
       {
         "question": "The top player has established crossface control but has not yet secured your far hip—what opportunity does this create?",
-        "answer": "This incomplete consolidation leaves your hips mobile while your upper body is controlled. You can use this window to insert a knee shield or butterfly hook between your bodies before hip control is established. Alternatively, the hip freedom allows you to shrimp away to create enough distance for a full guard recovery. The key is acting immediately on the hip freedom rather than focusing on fighting the crossface, which is already established."
+        "answer": "This incomplete consolidation leaves your hips mobile while your upper body is controlled. You can use this window to insert a knee shield or butterfly hook between your bodies before hip control is established. Alternatively, the hip freedom allows you to shrimp away to create enough distance for a full guard recovery. The key is acting immediately on the hip freedom rather than focusing on fighting the crossface, which is already established.",
+        "answer_line": "Insert shield, shrimp for guard",
+        "distractors": {
+          "plausible": [
+            "Fight the crossface grip",
+            "Wait for hip control to land"
+          ],
+          "trap": [
+            "Push into their chest, stall"
+          ]
+        }
       },
       {
         "question": "How does maintaining grip connection to the top player help your defense even after your rotation is blocked?",
-        "answer": "Maintained grips provide three defensive benefits: first, they allow you to threaten a secondary Matrix rotation that forces the top player to maintain defensive width rather than narrowing for the pass. Second, grips give you leverage to resist flattening pressure and create movement through pulling and pushing against the opponent's structure. Third, grips enable sweep attempts during the transition when the opponent's base is compromised by the shift from defensive to offensive posture."
+        "answer": "Maintained grips provide three defensive benefits: first, they allow you to threaten a secondary Matrix rotation that forces the top player to maintain defensive width rather than narrowing for the pass. Second, grips give you leverage to resist flattening pressure and create movement through pulling and pushing against the opponent's structure. Third, grips enable sweep attempts during the transition when the opponent's base is compromised by the shift from defensive to offensive posture.",
+        "answer_line": "Threaten rotation, resist, sweep",
+        "distractors": {
+          "plausible": [
+            "Grips only slow their pass",
+            "Grips help you stand up"
+          ],
+          "trap": [
+            "Release grips, go to frames"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -366,6 +528,35 @@
         "phase": "Phase 3: Live Defensive Sparring",
         "focus": "Full resistance Matrix defense to guard recovery",
         "description": "Positional sparring from Matrix bottom after a blocked rotation. Top player attempts side control consolidation at full intensity while defender works complete defensive sequences including secondary rotation attempts, frame creation, guard recovery, and sweep attempts. Position resets after side control is established or defender recovers guard. Six rounds of 90 seconds each."
+      }
+    ],
+    "clips": [
+      {
+        "id": "qZFnfPF6N9o",
+        "title": "Stiff arm escape timing and speed drill",
+        "by": "Matrix Jiu Jitsu",
+        "vertical": false,
+        "channel": "Matrix Jiu Jitsu",
+        "duration": 71,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "61unSJ7vu4I",
+        "title": "Recovering Guard from the Turtle",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "Absolute MMA St Kilda - Melbourne",
+        "duration": 413,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "CA1uP2THJdY",
+        "title": "Escaping Side Control",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "Absolute MMA St Kilda - Melbourne",
+        "duration": 588,
+        "verified": "2026-07-15"
       }
     ]
   }

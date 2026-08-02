@@ -140,6 +140,43 @@ description: "Learn to defend and prevent the SLX to X-Guard transition from top
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "SLX to X-Guard (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Technical stand to escape X-guard",
+      "description": "SLX to X-Guard (Defender) film study: Technical stand to escape X-guard, taught by Elevate Jiu Jitsu coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/VtBYEY7UvZ8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/VtBYEY7UvZ8",
+      "url": "https://www.youtube.com/watch?v=VtBYEY7UvZ8",
+      "creator": { "@type": "Person", "name": "Elevate Jiu Jitsu coach" },
+      "duration": "PT49S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "X-guard defence for the standing passer",
+      "description": "SLX to X-Guard (Defender) film study: X-guard defence for the standing passer, taught by Bermuda Martial Arts coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/qStfwTHPxLw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/qStfwTHPxLw",
+      "url": "https://www.youtube.com/watch?v=qStfwTHPxLw",
+      "creator": { "@type": "Person", "name": "Bermuda Martial Arts coach" },
+      "duration": "PT136S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -149,6 +186,34 @@ Defending the SLX to X-Guard transition requires the top player to recognize the
 **Opponent's Starting Position**: [[Positions/X-Guard/Single Leg X-Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch SLX to X-Guard (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=VtBYEY7UvZ8)
+
+<p class="clip-credit"><strong>Technical stand to escape X-guard</strong> — taught by Elevate Jiu Jitsu coach · 0:49 · <a href="https://www.youtube.com/watch?v=VtBYEY7UvZ8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=qStfwTHPxLw)
+
+<p class="clip-credit"><strong>X-guard defence for the standing passer</strong> — taught by Bermuda Martial Arts coach · 2:16 · <a href="https://www.youtube.com/watch?v=qStfwTHPxLw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

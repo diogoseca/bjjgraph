@@ -144,6 +144,54 @@ description: "Learn to defend and escape the omoplata from inverted guard. Recog
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Omoplata from Inverted Guard (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Countering a Full Inversion",
+      "description": "Omoplata from Inverted Guard (Defender) film study: Countering a Full Inversion, taught by Gordon Ryan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/aQ2vFXXBn-o/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/aQ2vFXXBn-o",
+      "url": "https://www.youtube.com/watch?v=aQ2vFXXBn-o",
+      "creator": { "@type": "Person", "name": "Gordon Ryan" },
+      "duration": "PT61S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Omoplata 2.0 Escape Essentials",
+      "description": "Omoplata from Inverted Guard (Defender) film study: Omoplata 2.0 Escape Essentials, taught by Stephan Kesting.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/P3qLV1ujet0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/P3qLV1ujet0",
+      "url": "https://www.youtube.com/watch?v=P3qLV1ujet0",
+      "creator": { "@type": "Person", "name": "Stephan Kesting" },
+      "duration": "PT54S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Defending the Omoplata Sweep",
+      "description": "Omoplata from Inverted Guard (Defender) film study: Defending the Omoplata Sweep, taught by Ninja Pinto.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Y4TxL4mDSKg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Y4TxL4mDSKg",
+      "url": "https://www.youtube.com/watch?v=Y4TxL4mDSKg",
+      "creator": { "@type": "Person", "name": "Ninja Pinto" },
+      "duration": "PT47S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -154,6 +202,42 @@ Defending the omoplata from inverted guard requires recognizing the setup early 
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Omoplata from Inverted Guard (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=aQ2vFXXBn-o)
+
+<p class="clip-credit"><strong>Countering a Full Inversion</strong> — taught by Gordon Ryan · 1:01 · <a href="https://www.youtube.com/watch?v=aQ2vFXXBn-o" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=P3qLV1ujet0)
+
+<p class="clip-credit"><strong>Omoplata 2.0 Escape Essentials</strong> — taught by Stephan Kesting · 0:54 · <a href="https://www.youtube.com/watch?v=P3qLV1ujet0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Y4TxL4mDSKg)
+
+<p class="clip-credit"><strong>Defending the Omoplata Sweep</strong> — taught by Ninja Pinto · 0:47 · <a href="https://www.youtube.com/watch?v=Y4TxL4mDSKg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

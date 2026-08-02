@@ -148,6 +148,43 @@ description: "Learn to prevent knee shield recovery from flattened half guard as
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Recover Knee Shield from Flattened Half (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Stopping the knee shield half guard recovery",
+      "description": "Recover Knee Shield from Flattened Half (Defender) film study: Stopping the knee shield half guard recovery, taught by Dirtball BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/L8_9QIvzZtA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/L8_9QIvzZtA",
+      "url": "https://www.youtube.com/watch?v=L8_9QIvzZtA",
+      "creator": { "@type": "Person", "name": "Dirtball BJJ" },
+      "duration": "PT39S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Passing the flattened half guard",
+      "description": "Recover Knee Shield from Flattened Half (Defender) film study: Passing the flattened half guard, taught by Malachy Friedman.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/8WbQvytyCX0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/8WbQvytyCX0",
+      "url": "https://www.youtube.com/watch?v=8WbQvytyCX0",
+      "creator": { "@type": "Person", "name": "Malachy Friedman" },
+      "duration": "PT63S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +194,34 @@ As the top player defending against knee shield recovery, your objective is to m
 **Opponent's Starting Position**: [[Positions/Half Guard/Flattened Half Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Recover Knee Shield from Flattened Half (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=L8_9QIvzZtA)
+
+<p class="clip-credit"><strong>Stopping the knee shield half guard recovery</strong> — taught by Dirtball BJJ · 0:39 · <a href="https://www.youtube.com/watch?v=L8_9QIvzZtA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=8WbQvytyCX0)
+
+<p class="clip-credit"><strong>Passing the flattened half guard</strong> — taught by Malachy Friedman · 1:03 · <a href="https://www.youtube.com/watch?v=8WbQvytyCX0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

@@ -144,6 +144,43 @@ description: "How to defend against the Marce Choke in BJJ. Recognition cues, es
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Marce Choke from Side Control (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Elbow Push and Sit Up Escape vs Side Control",
+      "description": "Marce Choke from Side Control (Defender) film study: Elbow Push and Sit Up Escape vs Side Control, taught by Marcelo Garcia.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/pAaQ-PSIfuw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/pAaQ-PSIfuw",
+      "url": "https://www.youtube.com/watch?v=pAaQ-PSIfuw",
+      "creator": { "@type": "Person", "name": "Marcelo Garcia" },
+      "duration": "PT301S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Escaping Side Control",
+      "description": "Marce Choke from Side Control (Defender) film study: Escaping Side Control, taught by Marcelo Garcia.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/eiFQI_6AMIQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/eiFQI_6AMIQ",
+      "url": "https://www.youtube.com/watch?v=eiFQI_6AMIQ",
+      "creator": { "@type": "Person", "name": "Marcelo Garcia" },
+      "duration": "PT791S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -156,6 +193,34 @@ The defensive framework operates on a timeline: before the lapel grip is establi
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Marce Choke from Side Control (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=pAaQ-PSIfuw)
+
+<p class="clip-credit"><strong>Elbow Push and Sit Up Escape vs Side Control</strong> — taught by Marcelo Garcia · 5:01 · <a href="https://www.youtube.com/watch?v=pAaQ-PSIfuw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=eiFQI_6AMIQ)
+
+<p class="clip-credit"><strong>Escaping Side Control</strong> — taught by Marcelo Garcia · 13:11 · <a href="https://www.youtube.com/watch?v=eiFQI_6AMIQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

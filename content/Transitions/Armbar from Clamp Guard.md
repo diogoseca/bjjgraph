@@ -34,6 +34,43 @@ description: "Master the armbar from clamp guard in BJJ. Complete guide to conve
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Armbar from Clamp Guard \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Closed guard pull straight to armbar",
+      "description": "Armbar from Clamp Guard film study: Closed guard pull straight to armbar, taught by Satori BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/F4Ns40AnI3Q/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/F4Ns40AnI3Q",
+      "url": "https://www.youtube.com/watch?v=F4Ns40AnI3Q",
+      "creator": { "@type": "Person", "name": "Satori BJJ" },
+      "duration": "PT41S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Rolling armbar from closed guard",
+      "description": "Armbar from Clamp Guard film study: Rolling armbar from closed guard, taught by Pure Art BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/e995R56aRTU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/e995R56aRTU",
+      "url": "https://www.youtube.com/watch?v=e995R56aRTU",
+      "creator": { "@type": "Person", "name": "Pure Art BJJ" },
+      "duration": "PT19S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -66,9 +103,37 @@ The entry works by converting the bilateral leg clamp into a unilateral armbar c
 Strategically, the armbar from clamp guard functions as the primary submission threat within the clamp system. The mere possibility of this attack forces the top player into desperate extraction attempts, which create openings for triangle and omoplata entries. The opponent cannot defend all three submissions simultaneously, and each defensive reaction feeds directly into an alternative attack path. When the opponent pulls their arm straight back, the armbar becomes highest percentage. When they circle outward, the triangle opens. When they drive forward, sweeps become available. This trilemma is what makes the clamp guard armbar the centerpiece of the system.
 
 **From Position**: [[Positions/Clamp Guard]] (Bottom)
-**Success Rate**: 50%
+**Success Rate**: 30%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Armbar from Clamp Guard in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=F4Ns40AnI3Q)
+
+<p class="clip-credit"><strong>Closed guard pull straight to armbar</strong> — taught by Satori BJJ · 0:41 · <a href="https://www.youtube.com/watch?v=F4Ns40AnI3Q" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=e995R56aRTU)
+
+<p class="clip-credit"><strong>Rolling armbar from closed guard</strong> — taught by Pure Art BJJ · 0:19 · <a href="https://www.youtube.com/watch?v=e995R56aRTU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

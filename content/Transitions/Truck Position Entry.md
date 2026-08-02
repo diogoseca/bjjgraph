@@ -34,6 +34,54 @@ description: "Master Truck Position Entry from standing back control in BJJ. Ste
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Truck Position Entry \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "The Truck in transition",
+      "description": "Truck Position Entry film study: The Truck in transition, taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/sCBGkcJCQYY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/sCBGkcJCQYY",
+      "url": "https://www.youtube.com/watch?v=sCBGkcJCQYY",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT61S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Basic Truck entry demo",
+      "description": "Truck Position Entry film study: Basic Truck entry demo, taught by Georges St-Pierre \u0026 Firas Zahabi.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/aeD1fb1X6Oc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/aeD1fb1X6Oc",
+      "url": "https://www.youtube.com/watch?v=aeD1fb1X6Oc",
+      "creator": { "@type": "Person", "name": "Georges St-Pierre \u0026 Firas Zahabi" },
+      "duration": "PT93S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Two entries into the Truck",
+      "description": "Truck Position Entry film study: Two entries into the Truck, taught by Geo Martinez.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Y693ZHlCd2Q/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Y693ZHlCd2Q",
+      "url": "https://www.youtube.com/watch?v=Y693ZHlCd2Q",
+      "creator": { "@type": "Person", "name": "Geo Martinez" },
+      "duration": "PT100S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ In competition, this entry has become increasingly relevant as practitioners dev
 **Success Rate**: 58%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Truck Position Entry in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=sCBGkcJCQYY)
+
+<p class="clip-credit"><strong>The Truck in transition</strong> — taught by Eddie Bravo · 1:01 · <a href="https://www.youtube.com/watch?v=sCBGkcJCQYY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=aeD1fb1X6Oc)
+
+<p class="clip-credit"><strong>Basic Truck entry demo</strong> — taught by Georges St-Pierre &amp; Firas Zahabi · 1:33 · <a href="https://www.youtube.com/watch?v=aeD1fb1X6Oc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Y693ZHlCd2Q)
+
+<p class="clip-credit"><strong>Two entries into the Truck</strong> — taught by Geo Martinez · 1:40 · <a href="https://www.youtube.com/watch?v=Y693ZHlCd2Q" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

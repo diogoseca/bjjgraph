@@ -34,6 +34,54 @@ description: "Master the Stack Pass from Carni in BJJ. Aggressive pressure escap
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Stack Pass from Carni \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Stack pass breakdown",
+      "description": "Stack Pass from Carni film study: Stack pass breakdown, taught by Kenny Kim.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/2KcAEYsaHAg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/2KcAEYsaHAg",
+      "url": "https://www.youtube.com/watch?v=2KcAEYsaHAg",
+      "creator": { "@type": "Person", "name": "Kenny Kim" },
+      "duration": "PT88S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Pillory counter to rubber guard pass",
+      "description": "Stack Pass from Carni film study: Pillory counter to rubber guard pass, taught by Gabriel Rainer.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Yct0FnRjGP8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Yct0FnRjGP8",
+      "url": "https://www.youtube.com/watch?v=Yct0FnRjGP8",
+      "creator": { "@type": "Person", "name": "Gabriel Rainer" },
+      "duration": "PT133S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Rubber Guard stack escape and pass for MMA",
+      "description": "Stack Pass from Carni film study: Rubber Guard stack escape and pass for MMA, taught by Grappling Made Easy coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/mvk5Rgr3x-I/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/mvk5Rgr3x-I",
+      "url": "https://www.youtube.com/watch?v=mvk5Rgr3x-I",
+      "creator": { "@type": "Person", "name": "Grappling Made Easy coach" },
+      "duration": "PT150S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ Execution depends on three mechanical pillars: first, protecting the heel throug
 **Success Rate**: 45%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Stack Pass from Carni in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=2KcAEYsaHAg)
+
+<p class="clip-credit"><strong>Stack pass breakdown</strong> — taught by Kenny Kim · 1:28 · <a href="https://www.youtube.com/watch?v=2KcAEYsaHAg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Yct0FnRjGP8)
+
+<p class="clip-credit"><strong>Pillory counter to rubber guard pass</strong> — taught by Gabriel Rainer · 2:13 · <a href="https://www.youtube.com/watch?v=Yct0FnRjGP8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=mvk5Rgr3x-I)
+
+<p class="clip-credit"><strong>Rubber Guard stack escape and pass for MMA</strong> — taught by Grappling Made Easy coach · 2:30 · <a href="https://www.youtube.com/watch?v=mvk5Rgr3x-I" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

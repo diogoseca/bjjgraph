@@ -34,6 +34,54 @@ description: "Master lapel guard in BJJ with comprehensive strategies for contro
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Lapel Guard \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Lapel Guard Encyclopedia Teaser",
+      "description": "Lapel Guard film study: Lapel Guard Encyclopedia Teaser, taught by Keenan Cornelius.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/AL0k21Zdk5s/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/AL0k21Zdk5s",
+      "url": "https://www.youtube.com/watch?v=AL0k21Zdk5s",
+      "creator": { "@type": "Person", "name": "Keenan Cornelius" },
+      "duration": "PT44S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Worm Guard to Back Choke",
+      "description": "Lapel Guard film study: Worm Guard to Back Choke, taught by Keenan Cornelius.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ARmiJRANTpg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ARmiJRANTpg",
+      "url": "https://www.youtube.com/watch?v=ARmiJRANTpg",
+      "creator": { "@type": "Person", "name": "Keenan Cornelius" },
+      "duration": "PT36S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Lapel Guard Takedown Breakdown",
+      "description": "Lapel Guard film study: Lapel Guard Takedown Breakdown, taught by Legion AJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/_iV0LtOiXNY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/_iV0LtOiXNY",
+      "url": "https://www.youtube.com/watch?v=_iV0LtOiXNY",
+      "creator": { "@type": "Person", "name": "Legion AJJ" },
+      "duration": "PT64S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -72,6 +120,42 @@ Lapel guards excel in gi competition where grips are durable and lapel fabric pr
 The energy dynamics of lapel guard favor the bottom player in extended exchanges. Once lapel configurations are established, maintaining them requires relatively low energy compared to the intense problem-solving and grip breaking required from the top position. This inverts the traditional guard dynamic where the bottom player typically expends more energy than the passer.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Lapel Guard in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=AL0k21Zdk5s)
+
+<p class="clip-credit"><strong>Lapel Guard Encyclopedia Teaser</strong> — taught by Keenan Cornelius · 0:44 · <a href="https://www.youtube.com/watch?v=AL0k21Zdk5s" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ARmiJRANTpg)
+
+<p class="clip-credit"><strong>Worm Guard to Back Choke</strong> — taught by Keenan Cornelius · 0:36 · <a href="https://www.youtube.com/watch?v=ARmiJRANTpg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=_iV0LtOiXNY)
+
+<p class="clip-credit"><strong>Lapel Guard Takedown Breakdown</strong> — taught by Legion AJJ · 1:04 · <a href="https://www.youtube.com/watch?v=_iV0LtOiXNY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 
@@ -143,27 +227,27 @@ The energy dynamics of lapel guard favor the bottom player in extended exchanges
 ### Available Transitions
 
 
-- **[[Transitions/Worm Guard Entry/Attacker|Worm Guard Entry]]** (16% of attempts)
+- **[[Transitions/Worm Guard Entry/Attacker|Worm Guard Entry]]** (18% of attempts)
 
-- **[[Transitions/Squid Guard Entry/Attacker|Squid Guard Entry]]** (12% of attempts)
+- **[[Transitions/Squid Guard Entry/Attacker|Squid Guard Entry]]** (9% of attempts)
 
-- **[[Transitions/Ringworm Guard Entry/Attacker|Ringworm Guard Entry]]** (5% of attempts)
+- **[[Transitions/Ringworm Guard Entry/Attacker|Ringworm Guard Entry]]** (6% of attempts)
 
-- **[[Transitions/Lapel Sweep to Back/Attacker|Lapel Sweep to Back]]** (22% of attempts)
+- **[[Transitions/Lapel Sweep to Back/Attacker|Lapel Sweep to Back]]** (12% of attempts)
 
 - **[[Transitions/Lapel Omoplata Entry/Attacker|Lapel Omoplata Entry]]** (8% of attempts)
 
-- **[[Transitions/Lapel Triangle Setup/Attacker|Lapel Triangle Setup]]** (6% of attempts)
+- **[[Transitions/Lapel Triangle Setup/Attacker|Lapel Triangle Setup]]** (5% of attempts)
 
-- **[[Transitions/Lapel to Lasso Guard/Attacker|Lapel to Lasso Guard]]** (7% of attempts)
+- **[[Transitions/Lapel to Lasso Guard/Attacker|Lapel to Lasso Guard]]** (9% of attempts)
 
-- **[[Transitions/Lapel to Spider Guard/Attacker|Lapel to Spider Guard]]** (7% of attempts)
+- **[[Transitions/Lapel to Spider Guard/Attacker|Lapel to Spider Guard]]** (8% of attempts)
 
-- **[[Transitions/Lapel to De La Riva/Attacker|Lapel to De La Riva]]** (7% of attempts)
+- **[[Transitions/Lapel to De La Riva/Attacker|Lapel to De La Riva]]** (10% of attempts)
 
-- **[[Transitions/Lapel Elevator Sweep/Attacker|Lapel Elevator Sweep]]** (8% of attempts)
+- **[[Transitions/Lapel Elevator Sweep/Attacker|Lapel Elevator Sweep]]** (11% of attempts)
 
-- **[[Transitions/Lapel Guard to Piranha Guard/Attacker|Lapel Guard to Piranha Guard]]** (2% of attempts)
+- **[[Transitions/Lapel Guard to Piranha Guard/Attacker|Lapel Guard to Piranha Guard]]** (4% of attempts)
 
 
 ### Common Mistakes
@@ -224,23 +308,23 @@ The energy dynamics of lapel guard favor the bottom player in extended exchanges
 ### Available Transitions
 
 
-- **[[Transitions/Lapel Clear to Toreando Pass/Attacker|Lapel Clear to Toreando Pass]]** (12% of attempts)
+- **[[Transitions/Lapel Clear to Toreando Pass/Attacker|Lapel Clear to Toreando Pass]]** (0% of attempts)
 
-- **[[Transitions/Backstep Around Worm Guard/Attacker|Backstep Around Worm Guard]]** (16% of attempts)
+- **[[Transitions/Backstep Around Worm Guard/Attacker|Backstep Around Worm Guard]]** (0% of attempts)
 
-- **[[Transitions/Pressure Pass Through Squid/Attacker|Pressure Pass Through Squid]]** (11% of attempts)
+- **[[Transitions/Pressure Pass Through Squid/Attacker|Pressure Pass Through Squid]]** (16% of attempts)
 
-- **[[Transitions/Knee Slice Despite Lapel/Attacker|Knee Slice Despite Lapel]]** (12% of attempts)
+- **[[Transitions/Knee Slice Despite Lapel/Attacker|Knee Slice Despite Lapel]]** (23% of attempts)
 
-- **[[Transitions/Long Step Around Ringworm/Attacker|Long Step Around Ringworm]]** (11% of attempts)
+- **[[Transitions/Long Step Around Ringworm/Attacker|Long Step Around Ringworm]]** (13% of attempts)
 
-- **[[Transitions/Stack Pass Over Lapel Barrier/Attacker|Stack Pass Over Lapel Barrier]]** (9% of attempts)
+- **[[Transitions/Stack Pass Over Lapel Barrier/Attacker|Stack Pass Over Lapel Barrier]]** (14% of attempts)
 
-- **[[Transitions/Distance Creation to Reset/Attacker|Distance Creation to Reset]]** (8% of attempts)
+- **[[Transitions/Distance Creation to Reset/Attacker|Distance Creation to Reset]]** (22% of attempts)
 
-- **[[Transitions/Leg Drag While Clearing Lapel/Attacker|Leg Drag While Clearing Lapel]]** (11% of attempts)
+- **[[Transitions/Leg Drag While Clearing Lapel/Attacker|Leg Drag While Clearing Lapel]]** (10% of attempts)
 
-- **[[Transitions/Leg Extraction from Lapel Wrap/Attacker|Leg Extraction from Lapel Wrap]]** (10% of attempts)
+- **[[Transitions/Leg Extraction from Lapel Wrap/Attacker|Leg Extraction from Lapel Wrap]]** (2% of attempts)
 
 
 ### Common Mistakes

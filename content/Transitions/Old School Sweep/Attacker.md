@@ -174,6 +174,43 @@ description: "Complete guide to executing the Old School Sweep from half guard l
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Old School Sweep (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Old school sweep from half guard",
+      "description": "Old School Sweep (Attacker) film study: Old school sweep from half guard, taught by Ritchie Yip.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Jnc2siD9cak/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Jnc2siD9cak",
+      "url": "https://www.youtube.com/watch?v=Jnc2siD9cak",
+      "creator": { "@type": "Person", "name": "Ritchie Yip" },
+      "duration": "PT12S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Corona lockdown sweep from half guard",
+      "description": "Old School Sweep (Attacker) film study: Corona lockdown sweep from half guard, taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/08cbHHs_NsM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/08cbHHs_NsM",
+      "url": "https://www.youtube.com/watch?v=08cbHHs_NsM",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT53S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -183,6 +220,34 @@ The Old School Sweep is the signature offensive technique from the Old School ha
 **From Position**: [[Positions/Half Guard/Old School]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Old School Sweep (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Jnc2siD9cak)
+
+<p class="clip-credit"><strong>Old school sweep from half guard</strong> — taught by Ritchie Yip · 0:12 · <a href="https://www.youtube.com/watch?v=Jnc2siD9cak" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=08cbHHs_NsM)
+
+<p class="clip-credit"><strong>Corona lockdown sweep from half guard</strong> — taught by Eddie Bravo · 0:53 · <a href="https://www.youtube.com/watch?v=08cbHHs_NsM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

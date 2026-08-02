@@ -148,6 +148,43 @@ description: "How to defend against overhook guard establishment from closed gua
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Closed Guard to Overhook Guard (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Closed guard defense and counter to the overhook clamp",
+      "description": "Closed Guard to Overhook Guard (Defender) film study: Closed guard defense and counter to the overhook clamp, taught by The Grappling Bloke.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/58LkTy6v3KQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/58LkTy6v3KQ",
+      "url": "https://www.youtube.com/watch?v=58LkTy6v3KQ",
+      "creator": { "@type": "Person", "name": "The Grappling Bloke" },
+      "duration": "PT109S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Recovering posture and opening guard vs the overhook",
+      "description": "Closed Guard to Overhook Guard (Defender) film study: Recovering posture and opening guard vs the overhook, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/RCnDWdAWXQs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/RCnDWdAWXQs",
+      "url": "https://www.youtube.com/watch?v=RCnDWdAWXQs",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT559S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +194,34 @@ As the defender (top player in closed guard), you must prevent the bottom player
 **Opponent's Starting Position**: [[Positions/Closed Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Closed Guard to Overhook Guard (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=58LkTy6v3KQ)
+
+<p class="clip-credit"><strong>Closed guard defense and counter to the overhook clamp</strong> — taught by The Grappling Bloke · 1:49 · <a href="https://www.youtube.com/watch?v=58LkTy6v3KQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=RCnDWdAWXQs)
+
+<p class="clip-credit"><strong>Recovering posture and opening guard vs the overhook</strong> — taught by Lachlan Giles · 9:19 · <a href="https://www.youtube.com/watch?v=RCnDWdAWXQs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

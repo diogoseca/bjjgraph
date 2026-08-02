@@ -21,37 +21,37 @@ description: "Master Outside Ashi-Garami Top defense in BJJ. Complete guide cove
     {
       "@type": "HowToStep",
       "name": "Execute Ashi Garami Escape",
-      "text": "From this position, attempt Ashi Garami Escape. This technique is attempted in 53% of exchanges from this position.",
+      "text": "From this position, attempt Ashi Garami Escape. This technique is attempted in 14% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Back Step",
-      "text": "From this position, attempt Back Step. This technique is attempted in 16% of exchanges from this position.",
+      "text": "From this position, attempt Back Step. This technique is attempted in 10% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Counter heel hook",
-      "text": "From this position, attempt Counter heel hook. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Counter heel hook. This technique is attempted in 11% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Saddle Entry from Top",
-      "text": "From this position, attempt Saddle Entry from Top. This technique is attempted in 3% of exchanges from this position.",
+      "text": "From this position, attempt Saddle Entry from Top. This technique is attempted in 11% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Kneebar Setup",
-      "text": "From this position, attempt Kneebar Setup. This technique is attempted in 3% of exchanges from this position.",
+      "text": "From this position, attempt Kneebar Setup. This technique is attempted in 9% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Standing Escape",
-      "text": "From this position, attempt Standing Escape. This technique is attempted in 3% of exchanges from this position.",
+      "name": "Execute Outside Ashi to Inside Ashi",
+      "text": "From this position, attempt Outside Ashi to Inside Ashi. This technique is attempted in 12% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -153,6 +153,43 @@ description: "Master Outside Ashi-Garami Top defense in BJJ. Complete guide cove
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Outside Ashi-Garami (Top) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Outside heel hook finishing mechanics",
+      "description": "Outside Ashi-Garami (Top) film study: Outside heel hook finishing mechanics, taught by Fox Den Martial Arts.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/tLcHN042w48/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/tLcHN042w48",
+      "url": "https://www.youtube.com/watch?v=tLcHN042w48",
+      "creator": { "@type": "Person", "name": "Fox Den Martial Arts" },
+      "duration": "PT86S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Outside Ashi quick demo",
+      "description": "Outside Ashi-Garami (Top) film study: Outside Ashi quick demo, taught by Team Strela.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/xvx03k3jiWo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/xvx03k3jiWo",
+      "url": "https://www.youtube.com/watch?v=xvx03k3jiWo",
+      "creator": { "@type": "Person", "name": "Team Strela" },
+      "duration": "PT26S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -164,6 +201,34 @@ In this position, your opponent has their legs configured in a figure-4 around y
 This position represents a defensive challenge where understanding leg lock mechanics, maintaining proper posture, and executing timely escapes are critical to preventing submission and recovering advantageous position. The key to success lies in maintaining calm composure under submission threat while systematically working through escape sequences that protect the heel and create extraction opportunities.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Outside Ashi-Garami (Top) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=tLcHN042w48)
+
+<p class="clip-credit"><strong>Outside heel hook finishing mechanics</strong> — taught by Fox Den Martial Arts · 1:26 · <a href="https://www.youtube.com/watch?v=tLcHN042w48" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=xvx03k3jiWo)
+
+<p class="clip-credit"><strong>Outside Ashi quick demo</strong> — taught by Team Strela · 0:26 · <a href="https://www.youtube.com/watch?v=xvx03k3jiWo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 
@@ -352,7 +417,7 @@ Partner establishes outside ashi and slowly attempts to access your heel, practi
 - **[[Positions/Ashi Garami/Inside Ashi-Garami]]** - Similar defensive leg entanglement with inside variation
 - **[[Positions/Ashi Garami/Saddle]]** - Advanced defensive challenge with both legs trapped
 - **[[Transitions/Ashi Garami Escape]]** - Primary escape technique from this position
-- **[[Transitions/Heel Hook]]** - Primary submission threat from opponent
+- **[[Submissions/Heel Hook]]** - Primary submission threat from opponent
 - **[[Submissions/Straight Ankle Lock]]** - Secondary submission threat from opponent
 - **[[Positions/Ashi Garami/50-50 Guard]]** - Related defensive leg entanglement position
 - **[[Positions/Leg Entanglement]]** - General category this position belongs to

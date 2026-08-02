@@ -296,97 +296,228 @@
     "transitions": [
       {
         "transition": "Twister Entry",
-        "attempt_probability": 13
+        "attempt_probability": {
+          "gi": 3,
+          "nogi": 14
+        }
       },
       {
         "transition": "Roll to Truck",
-        "attempt_probability": 5
+        "attempt_probability": {
+          "gi": 5,
+          "nogi": 4
+        }
       },
       {
         "transition": "Rolling Back Take",
-        "attempt_probability": 20
+        "attempt_probability": {
+          "gi": 5,
+          "nogi": 4
+        }
       },
       {
         "transition": "Bow and Arrow Choke from Truck",
-        "attempt_probability": 7
+        "attempt_probability": {
+          "gi": 10,
+          "nogi": 0
+        }
       },
       {
         "transition": "Crab Ride to Back",
-        "attempt_probability": 7
+        "attempt_probability": {
+          "gi": 6,
+          "nogi": 6
+        }
       },
       {
         "transition": "Crucifix from Turtle",
-        "attempt_probability": 7
+        "attempt_probability": {
+          "gi": 2,
+          "nogi": 2
+        }
       },
       {
         "transition": "Back Take from Top",
-        "attempt_probability": 11
+        "attempt_probability": {
+          "gi": 8,
+          "nogi": 6
+        }
       },
       {
         "transition": "Truck Maintenance",
-        "attempt_probability": 3
+        "attempt_probability": {
+          "gi": 23,
+          "nogi": 19
+        }
       },
       {
         "transition": "Truck to Back Control",
-        "attempt_probability": 2
+        "attempt_probability": {
+          "gi": 18,
+          "nogi": 14
+        }
       },
       {
         "transition": "Truck to Twister Side Control",
-        "attempt_probability": 3
-      },
-      {
-        "transition": "Banana Split",
-        "attempt_probability": 2
+        "attempt_probability": {
+          "gi": 5,
+          "nogi": 5
+        }
       },
       {
         "transition": "Calf Slicer from Truck",
-        "attempt_probability": 13
-      },
-      {
-        "transition": "Spine Lock",
-        "attempt_probability": 2
+        "attempt_probability": {
+          "gi": 9,
+          "nogi": 14
+        }
       },
       {
         "transition": "Banana Split from Truck",
-        "attempt_probability": 3
+        "attempt_probability": {
+          "gi": 5,
+          "nogi": 9
+        }
       },
       {
         "transition": "Spine Lock from Truck",
-        "attempt_probability": 2
+        "attempt_probability": {
+          "gi": 1,
+          "nogi": 3
+        }
       }
     ],
     "flashcards": [
       {
         "question": "What is the primary control mechanism that makes the truck position effective?",
-        "answer": "The boot pressure (foot pressed against opponent's hip or thigh) is the primary control mechanism. It creates constant lateral torque that prevents the opponent from squaring up, rolling through, or achieving neutral posture. The boot acts as a fulcrum point that generates rotational force through the opponent's spine and lower body, enabling all subsequent submission attacks."
+        "answer": "The boot pressure (foot pressed against opponent's hip or thigh) is the primary control mechanism. It creates constant lateral torque that prevents the opponent from squaring up, rolling through, or achieving neutral posture. The boot acts as a fulcrum point that generates rotational force through the opponent's spine and lower body, enabling all subsequent submission attacks.",
+        "answer_line": "Boot pressure on the hip",
+        "distractors": {
+          "plausible": [
+            "Figure-four leg entanglement",
+            "Chest pressure on the back"
+          ],
+          "trap": [
+            "Chasing the neck for a choke"
+          ]
+        }
       },
       {
         "question": "Your opponent starts defending their neck and hiding their arms - what adjustment do you make?",
-        "answer": "When the opponent prioritizes upper body defense by hiding arms and protecting their neck from the twister, immediately redirect your attack to the lower body. Target the calf slicer by extending their trapped leg and applying compression pressure, or set up the banana split by controlling both legs and creating separation. This creates the core dilemma of the truck position."
+        "answer": "When the opponent prioritizes upper body defense by hiding arms and protecting their neck from the twister, immediately redirect your attack to the lower body. Target the calf slicer by extending their trapped leg and applying compression pressure, or set up the banana split by controlling both legs and creating separation. This creates the core dilemma of the truck position.",
+        "answer_line": "Attack the trapped leg",
+        "distractors": {
+          "plausible": [
+            "Chase the twister grip harder",
+            "Switch to bow-and-arrow choke"
+          ],
+          "trap": [
+            "Abandon boot pressure to chase arms"
+          ]
+        }
       },
       {
         "question": "How should you distribute your weight to maintain truck position against an escaping opponent?",
-        "answer": "Weight should be distributed through your chest or shoulder against the opponent's upper back while maintaining constant boot pressure on their hip. Avoid putting weight too far forward (allows roll-through) or too far back (reduces control). The key is staying perpendicular with connected pressure points at both the upper body (chest/shoulder) and lower body (boot) simultaneously."
+        "answer": "Weight should be distributed through your chest or shoulder against the opponent's upper back while maintaining constant boot pressure on their hip. Avoid putting weight too far forward (allows roll-through) or too far back (reduces control). The key is staying perpendicular with connected pressure points at both the upper body (chest/shoulder) and lower body (boot) simultaneously.",
+        "answer_line": "Chest weight plus boot pressure",
+        "distractors": {
+          "plausible": [
+            "Lean weight fully forward",
+            "Sit back off the hips"
+          ],
+          "trap": [
+            "Square up parallel to back"
+          ]
+        }
       },
       {
         "question": "What are the essential grips for maintaining truck position?",
-        "answer": "Essential grips include: your boot foot controlling their hip creating the foundational torque, your legs entangled with their trapped leg preventing straightening, and your arm controlling across their chest, shoulder, or around their neck for upper body connection. In no-gi, an underhook or overhook on their near arm supplements control. The boot is non-negotiable; without it, the entire control system collapses."
+        "answer": "Truck control rests on your boot pressing their hip, your legs figure-foured on their trapped leg, and an arm controlling their upper body. The boot foot on the hip creates the foundational torque, and the leg entanglement prevents the trapped leg from straightening. The arm connects across their chest, shoulder, or around their neck; in no-gi, an underhook or overhook on their near arm supplements control. The boot is non-negotiable; without it, the entire control system collapses.",
+        "distractors": {
+          "plausible": [
+            "Figure-four leg lock alone",
+            "Underhook without the boot"
+          ],
+          "trap": [
+            "Drop the boot for a choke grip"
+          ]
+        },
+        "answer_line": "Boot, figure-four, arm control"
       },
       {
         "question": "Your opponent begins a granby roll escape from truck bottom - what is your counter?",
-        "answer": "When the opponent initiates a granby roll, you have two primary options: follow their roll and transition to traditional back control by inserting your hooks during their rotation, or if you feel them generating significant momentum, switch to the crucifix by catching their far arm as they roll. The key is recognizing the roll early and choosing to flow with it rather than fighting against it."
+        "answer": "Flow with the granby roll: follow it into traditional back control by inserting your hooks mid-rotation, or catch the far arm for a crucifix. Switch to the crucifix specifically when you feel them generating significant momentum during the roll. The key is recognizing the roll early and choosing to flow with it rather than fighting against it.",
+        "distractors": {
+          "plausible": [
+            "Fight the roll and hold boot",
+            "Chase the twister immediately"
+          ],
+          "trap": [
+            "Release all grips to reset"
+          ]
+        },
+        "answer_line": "Flow into back control or crucifix"
       },
       {
         "question": "How do you prevent your opponent from straightening their trapped leg to escape?",
-        "answer": "Maintain constant inward pressure with your entangling leg, keeping their knee bent by hooking behind their knee joint or locking your feet together. If they begin straightening, immediately attack the calf slicer or transition to the banana split, which uses their straightening motion against them. You can also increase boot pressure to restrict their hip movement needed for leg extension."
+        "answer": "Maintain constant inward pressure with your entangling leg, keeping their knee bent by hooking behind their knee joint or locking your feet together. If they begin straightening, immediately attack the calf slicer or transition to the banana split, which uses their straightening motion against them. You can also increase boot pressure to restrict their hip movement needed for leg extension.",
+        "answer_line": "Hook behind the knee, stay bent",
+        "distractors": {
+          "plausible": [
+            "Grab the ankle with both hands",
+            "Rely on chest pressure alone"
+          ],
+          "trap": [
+            "Unlock your legs to regrip the foot"
+          ]
+        }
       },
       {
         "question": "What determines when to transition from truck to traditional back control?",
-        "answer": "Transition to back control when: submissions aren't presenting due to effective defense, the opponent's escape attempts are creating scramble situations, you're losing boot pressure and need to consolidate control, or when you've created enough rotation to easily insert hooks. The truck should flow into back control rather than being an isolated position."
+        "answer": "Move to back control when submissions stall, escapes create scrambles, boot pressure is slipping, or rotation makes hook insertion easy. Consolidating to back control when you are losing boot pressure preserves dominance instead of clinging to a degrading position. The truck should flow into back control rather than being treated as an isolated position.",
+        "distractors": {
+          "plausible": [
+            "Only after finishing a submission",
+            "As soon as you get the truck"
+          ],
+          "trap": [
+            "Hold truck at all costs"
+          ]
+        },
+        "answer_line": "When boot pressure is slipping"
       },
       {
         "question": "How do you manage energy expenditure while maintaining truck position?",
-        "answer": "Use skeletal structure rather than muscular effort by positioning your body weight to create pressure without constant tension. Maintain boot pressure through leg positioning rather than pushing. Work submissions methodically rather than frantically. Let the opponent's defensive reactions guide your attacks rather than forcing entries. Rest in control moments between attack sequences."
+        "answer": "Use skeletal structure rather than muscular effort by positioning your body weight to create pressure without constant tension. Maintain boot pressure through leg positioning rather than pushing. Work submissions methodically rather than frantically. Let the opponent's defensive reactions guide your attacks rather than forcing entries. Rest in control moments between attack sequences.",
+        "answer_line": "Use structure, not muscle",
+        "distractors": {
+          "plausible": [
+            "Push hard through the hips",
+            "Rush every submission attempt"
+          ],
+          "trap": [
+            "Grip and squeeze constantly"
+          ]
+        }
+      }
+    ],
+    "clips": [
+      {
+        "id": "sCBGkcJCQYY",
+        "title": "The truck in transition",
+        "by": "Eddie Bravo",
+        "vertical": false,
+        "channel": "Eddie Bravo",
+        "duration": 61,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "Y693ZHlCd2Q",
+        "title": "Two entries into the truck",
+        "by": "Geo Martinez",
+        "vertical": false,
+        "channel": "FloGrappling",
+        "duration": 100,
+        "verified": "2026-07-14"
       }
     ]
   },
@@ -616,78 +747,351 @@
     "transitions": [
       {
         "transition": "Granby Roll to Guard",
-        "attempt_probability": 42
+        "attempt_probability": {
+          "gi": 6,
+          "nogi": 7
+        }
       },
       {
         "transition": "Hip Escape to Guard",
-        "attempt_probability": 13
+        "attempt_probability": {
+          "gi": 9,
+          "nogi": 9
+        }
       },
       {
         "transition": "Leg Extraction to Guard",
-        "attempt_probability": 12
+        "attempt_probability": {
+          "gi": 16,
+          "nogi": 15
+        }
       },
       {
         "transition": "Rolling Back Take Reversal",
-        "attempt_probability": 4
+        "attempt_probability": {
+          "gi": 5,
+          "nogi": 5
+        }
       },
       {
         "transition": "Back Door Escape",
-        "attempt_probability": 4
+        "attempt_probability": {
+          "gi": 9,
+          "nogi": 11
+        }
       },
       {
         "transition": "Defensive Roll",
-        "attempt_probability": 7
+        "attempt_probability": {
+          "gi": 9,
+          "nogi": 8
+        }
       },
       {
         "transition": "Escape from Truck",
-        "attempt_probability": 4
+        "attempt_probability": {
+          "gi": 11,
+          "nogi": 10
+        }
       },
       {
         "transition": "Hip Escape from Truck",
-        "attempt_probability": 3
+        "attempt_probability": {
+          "gi": 11,
+          "nogi": 11
+        }
       },
       {
         "transition": "Leg Extraction from Truck",
-        "attempt_probability": 3
+        "attempt_probability": {
+          "gi": 15,
+          "nogi": 15
+        }
       },
       {
         "transition": "Roll to Guard from Truck",
-        "attempt_probability": 8
+        "attempt_probability": {
+          "gi": 9,
+          "nogi": 9
+        }
       }
     ],
     "flashcards": [
       {
         "question": "What is your immediate priority upon finding yourself in truck bottom position?",
-        "answer": "Your immediate priority is protecting your neck by tucking your chin and positioning your hands near your neck to defend against twister grips and choking attempts. The twister can cause serious spinal injury if the opponent achieves full rotation, so defending the cervical spine takes precedence over all other concerns including leg extraction."
+        "answer": "Your immediate priority is protecting your neck by tucking your chin and positioning your hands near your neck to defend against twister grips and choking attempts. The twister can cause serious spinal injury if the opponent achieves full rotation, so defending the cervical spine takes precedence over all other concerns including leg extraction.",
+        "answer_line": "Protect the neck first",
+        "distractors": {
+          "plausible": [
+            "Extract the trapped leg first",
+            "Fight the boot pressure first"
+          ],
+          "trap": [
+            "Try to escape immediately"
+          ]
+        }
       },
       {
         "question": "Your opponent increases boot pressure on your hip - how do you address this?",
-        "answer": "Address boot pressure by using your free hand to fight the boot while maintaining neck protection with the other hand. Simultaneously work your hips in a circular motion to reduce the leverage their boot creates. If you can break or reduce the boot pressure, their ability to generate torque for twister or maintain leg entanglement significantly decreases."
+        "answer": "Address boot pressure by using your free hand to fight the boot while maintaining neck protection with the other hand. Simultaneously work your hips in a circular motion to reduce the leverage their boot creates. If you can break or reduce the boot pressure, their ability to generate torque for twister or maintain leg entanglement significantly decreases.",
+        "answer_line": "Fight the boot, circle hips",
+        "distractors": {
+          "plausible": [
+            "Pull the trapped leg out first",
+            "Grab for an underhook"
+          ],
+          "trap": [
+            "Drop neck defense to fight boot"
+          ]
+        }
       },
       {
         "question": "What determines whether to attempt a granby roll versus a hip escape from truck bottom?",
-        "answer": "Choose granby roll when opponent's weight is committed forward or they're focused on upper body attacks, as the roll uses their forward pressure momentum. Choose hip escape when opponent has loose upper body control but strong boot/leg control, as shrimping can create angles to extract the trapped leg. Granby requires space to roll into; hip escape works in tighter spaces."
+        "answer": "Choose granby roll when opponent's weight is committed forward or they're focused on upper body attacks, as the roll uses their forward pressure momentum. Choose hip escape when opponent has loose upper body control but strong boot/leg control, as shrimping can create angles to extract the trapped leg. Granby requires space to roll into; hip escape works in tighter spaces.",
+        "answer_line": "Granby if weight is forward",
+        "distractors": {
+          "plausible": [
+            "Hip escape whenever possible",
+            "Granby only with tight space"
+          ],
+          "trap": [
+            "Roll toward the trapped leg"
+          ]
+        }
       },
       {
         "question": "How do you prevent the opponent from completing the twister finish?",
-        "answer": "Prevent twister finish by: keeping chin tucked to limit cervical rotation, fighting their grip on your far arm with your near hand, maintaining hip elevation to avoid being completely flattened, and preventing full torso rotation by posting your base hand. If they achieve the grip, immediately attempt granby roll before they can lock the rotation."
+        "answer": "Prevent twister finish by: keeping chin tucked to limit cervical rotation, fighting their grip on your far arm with your near hand, maintaining hip elevation to avoid being completely flattened, and preventing full torso rotation by posting your base hand. If they achieve the grip, immediately attempt granby roll before they can lock the rotation.",
+        "answer_line": "Tuck chin, fight the grip",
+        "distractors": {
+          "plausible": [
+            "Grab their far leg",
+            "Extend your legs to slip out"
+          ],
+          "trap": [
+            "Let hips flatten to the mat"
+          ]
+        }
       },
       {
         "question": "Your trapped leg is being extended for a calf slicer - what is your response?",
-        "answer": "When leg is being extended for calf slicer, attempt to bend your knee sharply to reduce pressure on the joint while simultaneously working to extract the leg. If extraction isn't possible, forward roll toward your head using the extended leg as a pivot point to end up in deep half guard. If submission pressure becomes significant, tap early to prevent knee injury."
+        "answer": "When leg is being extended for calf slicer, attempt to bend your knee sharply to reduce pressure on the joint while simultaneously working to extract the leg. If extraction isn't possible, forward roll toward your head using the extended leg as a pivot point to end up in deep half guard. If submission pressure becomes significant, tap early to prevent knee injury.",
+        "answer_line": "Bend knee, extract, or roll",
+        "distractors": {
+          "plausible": [
+            "Straighten leg to ease pressure",
+            "Roll backward away from them"
+          ],
+          "trap": [
+            "Never tap, push through pain"
+          ]
+        }
       },
       {
         "question": "How should you manage your breathing and energy when caught in truck bottom?",
-        "answer": "Maintain controlled breathing with slow, deep breaths through your nose to prevent panic response. Focus energy on systematic defensive actions rather than explosive random movements. Work in sequences: protect neck, then address one problem at a time. Accept that escape may require multiple attempts and save explosive efforts for moments when escape opportunity presents itself."
+        "answer": "Maintain controlled breathing with slow, deep breaths through your nose to prevent panic response. Focus energy on systematic defensive actions rather than explosive random movements. Work in sequences: protect neck, then address one problem at a time. Accept that escape may require multiple attempts and save explosive efforts for moments when escape opportunity presents itself.",
+        "answer_line": "Controlled breathing, sequence",
+        "distractors": {
+          "plausible": [
+            "Hold breath and explode out",
+            "Quick shallow breaths, stay tense"
+          ],
+          "trap": [
+            "Thrash wildly until something gives"
+          ]
+        }
       },
       {
         "question": "When is the correct time to initiate your primary escape attempt?",
-        "answer": "Initiate escape when opponent shifts their weight for submission setup, transitions between attacks, or when you've successfully addressed one of their control points (boot pressure reduced, grip broken). Attempting escape while opponent has full control usually fails and expends energy. Create your opportunity through defensive fighting, then exploit the opening."
+        "answer": "Initiate escape when opponent shifts their weight for submission setup, transitions between attacks, or when you've successfully addressed one of their control points (boot pressure reduced, grip broken). Attempting escape while opponent has full control usually fails and expends energy. Create your opportunity through defensive fighting, then exploit the opening.",
+        "answer_line": "When control lapses or shifts",
+        "distractors": {
+          "plausible": [
+            "The instant you feel any pressure",
+            "Once they've locked their grips"
+          ],
+          "trap": [
+            "As the finish tightens on you"
+          ]
+        }
       },
       {
         "question": "What body positioning minimizes your vulnerability while in truck bottom?",
-        "answer": "Optimal positioning includes: hips elevated off the mat rather than flattened, chin tucked with hands near neck for defense, free leg posted for base and potential bridging, torso not fully twisted (resist rotation), and weight distributed between your base hand and free leg. Avoid complete flattening as this gives opponent the stable platform needed for finishing."
+        "answer": "Optimal positioning includes: hips elevated off the mat rather than flattened, chin tucked with hands near neck for defense, free leg posted for base and potential bridging, torso not fully twisted (resist rotation), and weight distributed between your base hand and free leg. Avoid complete flattening as this gives opponent the stable platform needed for finishing.",
+        "answer_line": "Hips elevated, chin tucked",
+        "distractors": {
+          "plausible": [
+            "Let torso rotate freely",
+            "Post both hands on the mat"
+          ],
+          "trap": [
+            "Stay completely flat"
+          ]
+        }
+      }
+    ],
+    "clips": [
+      {
+        "id": "WEpVDP7MRpo",
+        "title": "Defending the rolling back take (truck roll)",
+        "by": "Brian Glick",
+        "vertical": false,
+        "channel": "Brian Glick",
+        "duration": 209,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "hxMggfwKx-I",
+        "title": "Advanced Back and Truck Escapes",
+        "by": "Eddie Bravo",
+        "vertical": false,
+        "channel": "Eddie Bravo",
+        "duration": 61,
+        "verified": "2026-07-16"
       }
     ]
-  }
+  },
+  "flashcards_position": [
+    {
+      "question": "What structural configuration defines the truck position regardless of which player is controlling it?",
+      "answer": "The truck is a perpendicular back-side position where one leg is trapped in a figure-four while a boot presses against the opponent's hip. The controlling player sits behind and across the opponent's back rather than squared up, linking the entangled lower body and exposed back as dual control points. This leg-in-front-of-hip geometry and perpendicular angle distinguish the truck from ordinary back control, where both hooks sit symmetrically inside the hips. The figure-four immobilizes the trapped leg independently of the hips, giving the position its signature dual-plane threat.",
+      "distractors": {
+        "plausible": [
+          "Symmetric hooks like back control",
+          "Chest squared to their spine"
+        ],
+        "trap": [
+          "Face them square, no entanglement"
+        ]
+      },
+      "answer_line": "Perpendicular, boot on hip, leg trap"
+    },
+    {
+      "question": "Why is boot pressure against the hip considered the engine of the truck for both players?",
+      "answer": "The boot pressed against the opponent's hip acts as a fulcrum that generates lateral torque through the spine and lower body, and this single contact point governs the entire position's stability. For the controlling player it prevents the opponent from squaring up, bridging, or rolling through, because the hip is pinned on a rotational axis it cannot easily escape. For the bottom player, clearing or reducing that boot pressure is the prerequisite to any escape, since without it the torque collapses and the entanglement loosens. Whoever controls the boot-hip relationship effectively controls whether the position holds or dissolves.",
+      "answer_line": "Boot-hip pressure is the fulcrum",
+      "distractors": {
+        "plausible": [
+          "Chest pressure is the fulcrum",
+          "Neck control is the fulcrum"
+        ],
+        "trap": [
+          "Grip fighting decides control"
+        ]
+      }
+    },
+    {
+      "question": "How does the figure-four leg entanglement create the truck's simultaneous upper-body and lower-body threats?",
+      "answer": "The figure-four locks the trapped leg so it cannot straighten or separate, which isolates the lower body on one mechanical plane while the exposed back and neck remain vulnerable on another. Because the leg is immobilized independently of hook placement, the controlling player can attack the calf slicer or banana split by extending or splitting the leg, or pivot to the twister and back attacks against the spine. These threats sit on different planes, so defending one exposes the other. This dual-plane dilemma is the defining dynamic that makes the truck a high-finishing-rate position rather than a mere control pin.",
+      "answer_line": "Leg locked, back still exposed",
+      "distractors": {
+        "plausible": [
+          "Figure-four secures the choke",
+          "Leg lock replaces back attacks"
+        ],
+        "trap": [
+          "Ignore the leg to attack the back"
+        ]
+      }
+    },
+    {
+      "question": "What is the core defensive dilemma inherent to the truck configuration?",
+      "answer": "The truck forces the defending player to choose between protecting the upper body and protecting the lower body, because both cannot be fully defended at once. Hiding the arms and shielding the neck to stop the twister or bow-and-arrow choke exposes the trapped leg to the calf slicer or banana split, while defending the leg frees the controlling player to attack the spine and back. This fork exists because the entangled leg and the exposed back are held on separate mechanical planes that a single defensive posture cannot cover. The dilemma is structural, not a matter of individual technique, which is why it persists regardless of skill matchup.",
+      "answer_line": "Protect legs or back, not both",
+      "distractors": {
+        "plausible": [
+          "Neck defense always comes first",
+          "Leg escape always comes first"
+        ],
+        "trap": [
+          "Full commitment stops both attacks"
+        ]
+      }
+    },
+    {
+      "question": "How does the truck differ mechanically from standard back control?",
+      "answer": "In standard back control both hooks sit symmetrically inside the opponent's hips and the controlling player's chest stays parallel to the opponent's back. The truck instead traps only one leg in a figure-four while the body sits perpendicular, immobilizing the hips through the trapped leg rather than through balanced hooks. This asymmetry sacrifices some of back control's positional stability but adds direct leg-attack access that back control lacks. The truck is therefore best understood as a hybrid that converges leg-lock and back-attack systems, whereas back control is purely a back-attack platform.",
+      "answer_line": "One leg trapped, not both hooks",
+      "distractors": {
+        "plausible": [
+          "Chest stays parallel to the back",
+          "Two inside grips pin the hips"
+        ],
+        "trap": [
+          "Truck is just deep back control"
+        ]
+      }
+    },
+    {
+      "question": "Why does the perpendicular body alignment matter to the leverage available in the truck?",
+      "answer": "The perpendicular alignment places the controlling player's weight across the opponent's back on an axis roughly ninety degrees to the opponent's spine, which maximizes rotational leverage for both spinal and leg attacks. This cross-body angle lets the boot generate corkscrew torque through the hip while the upper body can pin the shoulder to prevent rolls. If the alignment drifts back toward parallel, the position begins converting into ordinary back control and loses its leg-attack access. Maintaining or breaking that perpendicular relationship is therefore the pivotal battle that determines which attack systems remain live.",
+      "answer_line": "Perpendicular maximizes leverage",
+      "distractors": {
+        "plausible": [
+          "Parallel drift boosts leg attacks",
+          "Angle only matters for chokes"
+        ],
+        "trap": [
+          "Square your chest to their back"
+        ]
+      }
+    },
+    {
+      "question": "What role does spinal and torso rotation play in the truck's dynamics?",
+      "answer": "The boot-and-entanglement combination twists the defender's torso so that the hips and shoulders are wound in opposite directions, and how far that rotation progresses dictates the position's outcome. Increasing rotation feeds the twister by loading the cervical and lumbar spine, while resisting rotation and keeping the torso relatively square blunts the spinal attacks. The trapped leg anchors the lower half of this corkscrew so the rotational force concentrates through the middle of the body. Both players are effectively fighting over the degree of this twist, since it is the shared variable behind the position's most dangerous submissions.",
+      "answer_line": "Rotation fuels the twister",
+      "distractors": {
+        "plausible": [
+          "Torque only loads the lower body",
+          "Staying square feeds the choke"
+        ],
+        "trap": [
+          "Roll through to spin free"
+        ]
+      }
+    },
+    {
+      "question": "Which positions does the truck flow between, and what mechanical link drives each connection?",
+      "answer": "On the entry side the turtle and crab ride feed the truck because each presents an exposed back and an accessible leg to entangle in the figure-four. On the exit side back control is the standard fallback: when the boot is cleared or the leg entanglement is lost, the perpendicular angle squares back up and the hooks go in. The twister control is the primary submission destination once torso rotation is loaded. Understanding these neighbors matters because the truck is inherently unstable and constantly threatens to convert into or out of them as the boot-hip and rotation battles shift.",
+      "answer_line": "Turtle entry, back control exit",
+      "distractors": {
+        "plausible": [
+          "Mount entry, side control exit",
+          "Crab ride is the main exit"
+        ],
+        "trap": [
+          "Fall to closed guard to finish"
+        ]
+      }
+    }
+  ],
+  "clips": [
+    {
+      "id": "ZVAmQ2Sf-Fc",
+      "title": "Focusing on the truck",
+      "by": "Eddie Bravo",
+      "vertical": false,
+      "channel": "Eddie Bravo",
+      "duration": 60,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "sCBGkcJCQYY",
+      "title": "The truck in transition",
+      "by": "Eddie Bravo",
+      "vertical": false,
+      "channel": "Eddie Bravo",
+      "duration": 61,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "Y693ZHlCd2Q",
+      "title": "Two entries into the truck",
+      "by": "Geo Martinez",
+      "vertical": false,
+      "channel": "FloGrappling",
+      "duration": 100,
+      "verified": "2026-07-14"
+    }
+  ]
 }

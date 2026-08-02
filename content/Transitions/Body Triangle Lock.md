@@ -34,6 +34,43 @@ description: "Learn Body Triangle Lock from Gift Wrap in BJJ. Step-by-step execu
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Body Triangle Lock \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Attacking the back with a body triangle",
+      "description": "Body Triangle Lock film study: Attacking the back with a body triangle, taught by Grapple Box coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/3OkCuU0B0UE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/3OkCuU0B0UE",
+      "url": "https://www.youtube.com/watch?v=3OkCuU0B0UE",
+      "creator": { "@type": "Person", "name": "Grapple Box coach" },
+      "duration": "PT28S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Body triangle with shoulder lock",
+      "description": "Body Triangle Lock film study: Body triangle with shoulder lock, taught by Demian Maia.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/t85-T9z_evY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/t85-T9z_evY",
+      "url": "https://www.youtube.com/watch?v=t85-T9z_evY",
+      "creator": { "@type": "Person", "name": "Demian Maia" },
+      "duration": "PT195S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +106,34 @@ From a strategic perspective, the Body Triangle Lock transition is particularly 
 **Success Rate**: 58%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Body Triangle Lock in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=3OkCuU0B0UE)
+
+<p class="clip-credit"><strong>Attacking the back with a body triangle</strong> — taught by Grapple Box coach · 0:28 · <a href="https://www.youtube.com/watch?v=3OkCuU0B0UE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=t85-T9z_evY)
+
+<p class="clip-credit"><strong>Body triangle with shoulder lock</strong> — taught by Demian Maia · 3:15 · <a href="https://www.youtube.com/watch?v=t85-T9z_evY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

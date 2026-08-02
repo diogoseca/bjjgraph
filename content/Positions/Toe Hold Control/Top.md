@@ -21,37 +21,37 @@ description: "Master Toe Hold Control Top position in BJJ. Complete guide coveri
     {
       "@type": "HowToStep",
       "name": "Execute Toe Hold from Toe Hold Control",
-      "text": "From this position, attempt Toe Hold from Toe Hold Control. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Toe Hold from Toe Hold Control. This technique is attempted in 30% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Outside Ashi Entry",
-      "text": "From this position, attempt Outside Ashi Entry. This technique is attempted in 21% of exchanges from this position.",
+      "text": "From this position, attempt Outside Ashi Entry. This technique is attempted in 12% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Inside Ashi Entry",
-      "text": "From this position, attempt Inside Ashi Entry. This technique is attempted in 12% of exchanges from this position.",
+      "name": "Execute Saddle Entry from Top",
+      "text": "From this position, attempt Saddle Entry from Top. This technique is attempted in 15% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Saddle Entry from Top",
-      "text": "From this position, attempt Saddle Entry from Top. This technique is attempted in 12% of exchanges from this position.",
+      "name": "Execute Ankle Lock Finish",
+      "text": "From this position, attempt Ankle Lock Finish. This technique is attempted in 11% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Ankle Lock Finish",
-      "text": "From this position, attempt Ankle Lock Finish. This technique is attempted in 12% of exchanges from this position.",
+      "name": "Execute Toe Hold to Ashi Garami",
+      "text": "From this position, attempt Toe Hold to Ashi Garami. This technique is attempted in 10% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Kneebar Finish",
-      "text": "From this position, attempt Kneebar Finish. This technique is attempted in 11% of exchanges from this position.",
+      "name": "Execute Toe Hold to Straight Ankle Lock",
+      "text": "From this position, attempt Toe Hold to Straight Ankle Lock. This technique is attempted in 12% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -153,6 +153,43 @@ description: "Master Toe Hold Control Top position in BJJ. Complete guide coveri
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Toe Hold Control (Top) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Crossover Toe Hold from control",
+      "description": "Toe Hold Control (Top) film study: Crossover Toe Hold from control, taught by Craig Jones.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Kx8gZ3QdO8s/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Kx8gZ3QdO8s",
+      "url": "https://www.youtube.com/watch?v=Kx8gZ3QdO8s",
+      "creator": { "@type": "Person", "name": "Craig Jones" },
+      "duration": "PT51S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Toe Hold from 50/50 finish",
+      "description": "Toe Hold Control (Top) film study: Toe Hold from 50/50 finish, taught by John Danaher.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/B_StkmaI3Nc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/B_StkmaI3Nc",
+      "url": "https://www.youtube.com/watch?v=B_StkmaI3Nc",
+      "creator": { "@type": "Person", "name": "John Danaher" },
+      "duration": "PT17S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -160,6 +197,34 @@ description: "Master Toe Hold Control Top position in BJJ. Complete guide coveri
 Toe Hold Control Top is an advanced leg entanglement position where the top practitioner controls the opponent's leg with the goal of executing a toe hold submission. This position is characterized by the top player securing the opponent's foot in their armpit while establishing control over the lower leg, creating a direct path to the toe hold finish. The position requires precise ankle isolation and proper grip configuration to prevent escapes while maintaining the structural integrity needed for submission application. As a top-side leg entanglement position, Toe Hold Control Top offers significant offensive advantages through the combination of postural control and isolated joint attack. The top player maintains superior leverage by controlling the opponent's leg across their body while using their bodyweight and arm configuration to create rotational pressure on the ankle joint. This position is frequently entered from various ashi garami variations, saddle positions, or during leg entanglement transitions when the opponent's foot becomes exposed. Success in this position depends on maintaining proper distance management to prevent the opponent from sitting up while simultaneously securing the mechanical advantage necessary for the toe hold finish. The position exemplifies modern leg lock methodology where control precedes submission, emphasizing positional dominance before attempting the finish.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Toe Hold Control (Top) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Kx8gZ3QdO8s)
+
+<p class="clip-credit"><strong>Crossover Toe Hold from control</strong> — taught by Craig Jones · 0:51 · <a href="https://www.youtube.com/watch?v=Kx8gZ3QdO8s" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=B_StkmaI3Nc)
+
+<p class="clip-credit"><strong>Toe Hold from 50/50 finish</strong> — taught by John Danaher · 0:17 · <a href="https://www.youtube.com/watch?v=B_StkmaI3Nc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

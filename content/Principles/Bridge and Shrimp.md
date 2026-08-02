@@ -164,6 +164,54 @@ description: "Master the foundational Bridge and Shrimp movements in BJJ. Learn 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Bridge and Shrimp \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "How to shrimp",
+      "description": "Bridge and Shrimp film study: How to shrimp, taught by BJJ Fanatics.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/w_0fqd8aQco/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/w_0fqd8aQco",
+      "url": "https://www.youtube.com/watch?v=w_0fqd8aQco",
+      "creator": { "@type": "Person", "name": "BJJ Fanatics" },
+      "duration": "PT39S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Introduction to the defensive BJJ system",
+      "description": "Bridge and Shrimp film study: Introduction to the defensive BJJ system, taught by Priit Mihkelson.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/vHDqBGNTnfY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/vHDqBGNTnfY",
+      "url": "https://www.youtube.com/watch?v=vHDqBGNTnfY",
+      "creator": { "@type": "Person", "name": "Priit Mihkelson" },
+      "duration": "PT325S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Why the power shrimp is essential to escapes",
+      "description": "Bridge and Shrimp film study: Why the power shrimp is essential to escapes, taught by SBG PDX.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/VSdnYRHtCpc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/VSdnYRHtCpc",
+      "url": "https://www.youtube.com/watch?v=VSdnYRHtCpc",
+      "creator": { "@type": "Person", "name": "SBG PDX" },
+      "duration": "PT247S"
+    }
+  ]
+}
+</script>
+
+
 <section id="overview" class="content-section">
 
 ## What is Bridge and Shrimp?
@@ -173,6 +221,42 @@ description: "Master the foundational Bridge and Shrimp movements in BJJ. Learn 
 Bridge and Shrimp represent the fundamental escape movement patterns that form the foundation of all BJJ defensive techniques through hip elevation and lateral displacement that create space and enable position recovery from bottom positions. Unlike specific escape techniques, bridge and shrimp are comprehensive movement principles that apply across virtually all bottom scenarios where space creation and positional adjustment are required. These concepts encompass the biomechanical patterns, timing coordination, and strategic applications that transform defensive vulnerability into escape opportunities. Bridge and shrimp serve as both immediate defensive responses that create space under pressure, and foundational movement skills that enable all advanced escapes and position changes. The ability to execute effective bridge and shrimp movements often determines whether a practitioner can escape inferior positions or remains trapped under opponent control, making them the most essential movement patterns in BJJ fundamentals.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Bridge and Shrimp in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=w_0fqd8aQco)
+
+<p class="clip-credit"><strong>How to shrimp</strong> — taught by BJJ Fanatics · 0:39 · <a href="https://www.youtube.com/watch?v=w_0fqd8aQco" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=vHDqBGNTnfY)
+
+<p class="clip-credit"><strong>Introduction to the defensive BJJ system</strong> — taught by Priit Mihkelson · 5:25 · <a href="https://www.youtube.com/watch?v=vHDqBGNTnfY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=VSdnYRHtCpc)
+
+<p class="clip-credit"><strong>Why the power shrimp is essential to escapes</strong> — taught by SBG PDX · 4:07 · <a href="https://www.youtube.com/watch?v=VSdnYRHtCpc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="building-blocks" class="content-section">
 

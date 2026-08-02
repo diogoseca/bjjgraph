@@ -34,6 +34,54 @@ description: "Master the Foot Grab Sweep from seated guard. Step-by-step executi
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Foot Grab Sweep \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Ankle pick sweep from seated guard",
+      "description": "Foot Grab Sweep film study: Ankle pick sweep from seated guard, taught by Fox Den Martial Arts.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/pF7jaKzHra0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/pF7jaKzHra0",
+      "url": "https://www.youtube.com/watch?v=pF7jaKzHra0",
+      "creator": { "@type": "Person", "name": "Fox Den Martial Arts" },
+      "duration": "PT54S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Tripod sweep from open guard",
+      "description": "Foot Grab Sweep film study: Tripod sweep from open guard, taught by Kenneth Tay.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/howeq420rME/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/howeq420rME",
+      "url": "https://www.youtube.com/watch?v=howeq420rME",
+      "creator": { "@type": "Person", "name": "Kenneth Tay" },
+      "duration": "PT91S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Sit up guard to ankle pick sweep",
+      "description": "Foot Grab Sweep film study: Sit up guard to ankle pick sweep, taught by Carpio Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/XJxo3E7brlk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/XJxo3E7brlk",
+      "url": "https://www.youtube.com/watch?v=XJxo3E7brlk",
+      "creator": { "@type": "Person", "name": "Carpio Jiu Jitsu" },
+      "duration": "PT114S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ Success with this sweep depends heavily on timing, grip control, and the ability
 **Success Rate**: 60%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Foot Grab Sweep in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=pF7jaKzHra0)
+
+<p class="clip-credit"><strong>Ankle pick sweep from seated guard</strong> — taught by Fox Den Martial Arts · 0:54 · <a href="https://www.youtube.com/watch?v=pF7jaKzHra0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=howeq420rME)
+
+<p class="clip-credit"><strong>Tripod sweep from open guard</strong> — taught by Kenneth Tay · 1:31 · <a href="https://www.youtube.com/watch?v=howeq420rME" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=XJxo3E7brlk)
+
+<p class="clip-credit"><strong>Sit up guard to ankle pick sweep</strong> — taught by Carpio Jiu Jitsu · 1:54 · <a href="https://www.youtube.com/watch?v=XJxo3E7brlk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

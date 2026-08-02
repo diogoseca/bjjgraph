@@ -174,6 +174,54 @@ description: "How to execute the Forward Roll escape from turtle in BJJ. Step-by
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Forward Roll (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Turtle concepts: the front roll",
+      "description": "Forward Roll (Attacker) film study: Turtle concepts: the front roll, taught by Brazilian Top Team Happy Valley.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ILvdMiqeJaY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ILvdMiqeJaY",
+      "url": "https://www.youtube.com/watch?v=ILvdMiqeJaY",
+      "creator": { "@type": "Person", "name": "Brazilian Top Team Happy Valley" },
+      "duration": "PT73S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Turtle shoulder roll escape (maki komi)",
+      "description": "Forward Roll (Attacker) film study: Turtle shoulder roll escape (maki komi), taught by Team Daruma Dojo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Ba9EahLaXkg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Ba9EahLaXkg",
+      "url": "https://www.youtube.com/watch?v=Ba9EahLaXkg",
+      "creator": { "@type": "Person", "name": "Team Daruma Dojo" },
+      "duration": "PT36S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Turtle escape via shoulder roll",
+      "description": "Forward Roll (Attacker) film study: Turtle escape via shoulder roll, taught by BJJake.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/W0TCGKRcniA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/W0TCGKRcniA",
+      "url": "https://www.youtube.com/watch?v=W0TCGKRcniA",
+      "creator": { "@type": "Person", "name": "BJJake" },
+      "duration": "PT21S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -183,6 +231,42 @@ The Forward Roll from the attacker (executor) perspective is a dynamic escape te
 **From Position**: [[Positions/Turtle]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Forward Roll (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ILvdMiqeJaY)
+
+<p class="clip-credit"><strong>Turtle concepts: the front roll</strong> — taught by Brazilian Top Team Happy Valley · 1:13 · <a href="https://www.youtube.com/watch?v=ILvdMiqeJaY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Ba9EahLaXkg)
+
+<p class="clip-credit"><strong>Turtle shoulder roll escape (maki komi)</strong> — taught by Team Daruma Dojo · 0:36 · <a href="https://www.youtube.com/watch?v=Ba9EahLaXkg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=W0TCGKRcniA)
+
+<p class="clip-credit"><strong>Turtle escape via shoulder roll</strong> — taught by BJJake · 0:21 · <a href="https://www.youtube.com/watch?v=W0TCGKRcniA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

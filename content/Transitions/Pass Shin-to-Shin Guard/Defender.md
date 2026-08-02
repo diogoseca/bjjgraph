@@ -148,6 +148,54 @@ description: "Complete defensive guide against Shin-to-Shin Guard passing attemp
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Pass Shin-to-Shin Guard (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Shin-to-shin guard fundamentals from the bottom",
+      "description": "Pass Shin-to-Shin Guard (Defender) film study: Shin-to-shin guard fundamentals from the bottom, taught by RGA South Herts.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/sUJIGs8Othc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/sUJIGs8Othc",
+      "url": "https://www.youtube.com/watch?v=sUJIGs8Othc",
+      "creator": { "@type": "Person", "name": "RGA South Herts" },
+      "duration": "PT76S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "De La Riva shin-on-shin to the back",
+      "description": "Pass Shin-to-Shin Guard (Defender) film study: De La Riva shin-on-shin to the back, taught by Carpio Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/a1lWupzNhkg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/a1lWupzNhkg",
+      "url": "https://www.youtube.com/watch?v=a1lWupzNhkg",
+      "creator": { "@type": "Person", "name": "Carpio Jiu Jitsu" },
+      "duration": "PT81S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Shin-to-shin guard to single leg X sweep",
+      "description": "Pass Shin-to-Shin Guard (Defender) film study: Shin-to-shin guard to single leg X sweep, taught by Bermuda Martial Arts.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/vKjAcZbsTwI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/vKjAcZbsTwI",
+      "url": "https://www.youtube.com/watch?v=vKjAcZbsTwI",
+      "creator": { "@type": "Person", "name": "Bermuda Martial Arts" },
+      "duration": "PT138S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +205,42 @@ Defending against shin-to-shin guard passes requires understanding the passer's 
 **Opponent's Starting Position**: [[Positions/Shin-to-Shin Guard]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Pass Shin-to-Shin Guard (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=sUJIGs8Othc)
+
+<p class="clip-credit"><strong>Shin-to-shin guard fundamentals from the bottom</strong> — taught by RGA South Herts · 1:16 · <a href="https://www.youtube.com/watch?v=sUJIGs8Othc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=a1lWupzNhkg)
+
+<p class="clip-credit"><strong>De La Riva shin-on-shin to the back</strong> — taught by Carpio Jiu Jitsu · 1:21 · <a href="https://www.youtube.com/watch?v=a1lWupzNhkg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=vKjAcZbsTwI)
+
+<p class="clip-credit"><strong>Shin-to-shin guard to single leg X sweep</strong> — taught by Bermuda Martial Arts · 2:18 · <a href="https://www.youtube.com/watch?v=vKjAcZbsTwI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

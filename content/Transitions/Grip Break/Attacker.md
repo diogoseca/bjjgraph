@@ -168,6 +168,43 @@ description: "How to execute Grip Break in BJJ. Attacking perspective with setup
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Grip Break (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Twisty wristy grip break from the back",
+      "description": "Grip Break (Attacker) film study: Twisty wristy grip break from the back, taught by 10th Planet Colorado Springs.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/EV9gWyVYF2g/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/EV9gWyVYF2g",
+      "url": "https://www.youtube.com/watch?v=EV9gWyVYF2g",
+      "creator": { "@type": "Person", "name": "10th Planet Colorado Springs" },
+      "duration": "PT100S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Crucifix grip break",
+      "description": "Grip Break (Attacker) film study: Crucifix grip break, taught by Gabe Tuttle.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/OnmLBMNZ44A/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/OnmLBMNZ44A",
+      "url": "https://www.youtube.com/watch?v=OnmLBMNZ44A",
+      "creator": { "@type": "Person", "name": "Gabe Tuttle" },
+      "duration": "PT86S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -179,6 +216,34 @@ Effective grip breaking requires reading which grips pose the greatest tactical 
 **From Position**: [[Positions/Open Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Grip Break (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=EV9gWyVYF2g)
+
+<p class="clip-credit"><strong>Twisty wristy grip break from the back</strong> — taught by 10th Planet Colorado Springs · 1:40 · <a href="https://www.youtube.com/watch?v=EV9gWyVYF2g" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=OnmLBMNZ44A)
+
+<p class="clip-credit"><strong>Crucifix grip break</strong> — taught by Gabe Tuttle · 1:26 · <a href="https://www.youtube.com/watch?v=OnmLBMNZ44A" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

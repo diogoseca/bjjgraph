@@ -168,6 +168,54 @@ description: "How to execute Head Extraction to Posture in BJJ. Attacking perspe
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Head Extraction to Posture (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Head Extraction: Hips Down, Posture Up",
+      "description": "Head Extraction to Posture (Attacker) film study: Head Extraction: Hips Down, Posture Up, taught by Mat Life Training Center.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/HLWwfq8FNMI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/HLWwfq8FNMI",
+      "url": "https://www.youtube.com/watch?v=HLWwfq8FNMI",
+      "creator": { "@type": "Person", "name": "Mat Life Training Center" },
+      "duration": "PT19S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Use Good Posture to Counter the Headlock",
+      "description": "Head Extraction to Posture (Attacker) film study: Use Good Posture to Counter the Headlock, taught by Brandon McCaghren.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ICSTtSCjobM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ICSTtSCjobM",
+      "url": "https://www.youtube.com/watch?v=ICSTtSCjobM",
+      "creator": { "@type": "Person", "name": "Brandon McCaghren" },
+      "duration": "PT286S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Breaking down the Rubber Guard - posture work",
+      "description": "Head Extraction to Posture (Attacker) film study: Breaking down the Rubber Guard - posture work, taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/sqC1g6lVDCQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/sqC1g6lVDCQ",
+      "url": "https://www.youtube.com/watch?v=sqC1g6lVDCQ",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT541S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -181,6 +229,42 @@ Strategically, Head Extraction to Posture represents more than simple survival. 
 **From Position**: [[Positions/Gogoplata Control]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Head Extraction to Posture (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=HLWwfq8FNMI)
+
+<p class="clip-credit"><strong>Head Extraction: Hips Down, Posture Up</strong> — taught by Mat Life Training Center · 0:19 · <a href="https://www.youtube.com/watch?v=HLWwfq8FNMI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ICSTtSCjobM)
+
+<p class="clip-credit"><strong>Use Good Posture to Counter the Headlock</strong> — taught by Brandon McCaghren · 4:46 · <a href="https://www.youtube.com/watch?v=ICSTtSCjobM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=sqC1g6lVDCQ)
+
+<p class="clip-credit"><strong>Breaking down the Rubber Guard - posture work</strong> — taught by Eddie Bravo · 9:01 · <a href="https://www.youtube.com/watch?v=sqC1g6lVDCQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

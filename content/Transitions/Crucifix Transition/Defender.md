@@ -148,6 +148,43 @@ description: "How to defend against Crucifix Transition in BJJ. Recognition cues
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Crucifix Transition (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Universal back escape",
+      "description": "Crucifix Transition (Defender) film study: Universal back escape, taught by The Academy MN.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Yqd86F2qjHs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Yqd86F2qjHs",
+      "url": "https://www.youtube.com/watch?v=Yqd86F2qjHs",
+      "creator": { "@type": "Person", "name": "The Academy MN" },
+      "duration": "PT95S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Back escape when they take the underhook side",
+      "description": "Crucifix Transition (Defender) film study: Back escape when they take the underhook side, taught by Martial Arts and Wellness.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/KBvb1LqGwnA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/KBvb1LqGwnA",
+      "url": "https://www.youtube.com/watch?v=KBvb1LqGwnA",
+      "creator": { "@type": "Person", "name": "Martial Arts and Wellness" },
+      "duration": "PT149S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -161,6 +198,34 @@ If the crucifix entry progresses past the initial capture, your defensive priori
 **Opponent's Starting Position**: [[Positions/Back Control/Standing Back Control]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Crucifix Transition (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Yqd86F2qjHs)
+
+<p class="clip-credit"><strong>Universal back escape</strong> — taught by The Academy MN · 1:35 · <a href="https://www.youtube.com/watch?v=Yqd86F2qjHs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=KBvb1LqGwnA)
+
+<p class="clip-credit"><strong>Back escape when they take the underhook side</strong> — taught by Martial Arts and Wellness · 2:29 · <a href="https://www.youtube.com/watch?v=KBvb1LqGwnA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

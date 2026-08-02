@@ -174,6 +174,54 @@ description: "How to execute Crackhead Control to New York in BJJ. Attacking per
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Crackhead Control to New York (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Crackhead Control to Invisible Collar Tie",
+      "description": "Crackhead Control to New York (Attacker) film study: Crackhead Control to Invisible Collar Tie, taught by Fletcher Kirwan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/_3pJ2tPI0gY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/_3pJ2tPI0gY",
+      "url": "https://www.youtube.com/watch?v=_3pJ2tPI0gY",
+      "creator": { "@type": "Person", "name": "Fletcher Kirwan" },
+      "duration": "PT16S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Sorcerer from invisible collar",
+      "description": "Crackhead Control to New York (Attacker) film study: Sorcerer from invisible collar, taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/GPWBygTM1b0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/GPWBygTM1b0",
+      "url": "https://www.youtube.com/watch?v=GPWBygTM1b0",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT97S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Clearing the elbow to lock up the rubber guard finish",
+      "description": "Crackhead Control to New York (Attacker) film study: Clearing the elbow to lock up the rubber guard finish, taught by Ben Eddy.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/p6M-9BVuWqs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/p6M-9BVuWqs",
+      "url": "https://www.youtube.com/watch?v=p6M-9BVuWqs",
+      "creator": { "@type": "Person", "name": "Ben Eddy" },
+      "duration": "PT79S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -186,9 +234,45 @@ Strategically, this transition serves as a positional reset that maintains offen
 
 Energy management considerations make this transition particularly valuable during extended guard exchanges. Crackhead Control's aggressive positioning requires significant hip flexor engagement and core tension, leading to fatigue over time. New York offers a more sustainable control structure that allows brief recovery periods while maintaining offensive threat. Experienced rubber guard players cycle between these positions strategically, using Crackhead Control for submission bursts and New York for positional consolidation.
 
-**From Position**: [[Positions/Crackhead Control]] (Bottom)
+**From Position**: [[Positions/Rubber Guard/Crackhead Control]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Crackhead Control to New York (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=_3pJ2tPI0gY)
+
+<p class="clip-credit"><strong>Crackhead Control to Invisible Collar Tie</strong> — taught by Fletcher Kirwan · 0:16 · <a href="https://www.youtube.com/watch?v=_3pJ2tPI0gY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=GPWBygTM1b0)
+
+<p class="clip-credit"><strong>Sorcerer from invisible collar</strong> — taught by Eddie Bravo · 1:37 · <a href="https://www.youtube.com/watch?v=GPWBygTM1b0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=p6M-9BVuWqs)
+
+<p class="clip-credit"><strong>Clearing the elbow to lock up the rubber guard finish</strong> — taught by Ben Eddy · 1:19 · <a href="https://www.youtube.com/watch?v=p6M-9BVuWqs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 
@@ -246,7 +330,7 @@ Energy management considerations make this transition particularly valuable duri
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[Positions/Rubber Guard/New York]] | 65% |
-| Failure | [[Positions/Crackhead Control]] | 20% |
+| Failure | [[Positions/Rubber Guard/Crackhead Control]] | 20% |
 | Counter | [[Positions/Closed Guard]] | 15% |
 
 
@@ -258,9 +342,9 @@ Energy management considerations make this transition particularly valuable duri
 
 <p class="section-subtitle">How might your opponent counter Crackhead Control to New York?</p>
 
-- **Opponent drives forward explosively during leg repositioning to flatten and pass** (Effectiveness: High) - Your Response: Accept the forward drive and immediately transition to Carni or Chill Dog setup rather than completing New York - their momentum assists these transitions → Leads to [[Positions/Crackhead Control]]
+- **Opponent drives forward explosively during leg repositioning to flatten and pass** (Effectiveness: High) - Your Response: Accept the forward drive and immediately transition to Carni or Chill Dog setup rather than completing New York - their momentum assists these transitions → Leads to [[Positions/Rubber Guard/Crackhead Control]]
 - **Opponent postures up during the brief moment shin grip is released** (Effectiveness: Medium) - Your Response: Pull with overhook to break posture and either complete New York transition or abandon to closed guard if posture recovery is too strong → Leads to [[Positions/Closed Guard]]
-- **Opponent begins circling toward back exposure side during transition** (Effectiveness: Medium) - Your Response: Intensify free leg hip connection and either complete transition quickly or return to Crackhead Control to address back exposure threat first → Leads to [[Positions/Crackhead Control]]
+- **Opponent begins circling toward back exposure side during transition** (Effectiveness: Medium) - Your Response: Intensify free leg hip connection and either complete transition quickly or return to Crackhead Control to address back exposure threat first → Leads to [[Positions/Rubber Guard/Crackhead Control]]
 - **Opponent strips the shin grip as you attempt to re-establish it** (Effectiveness: Low) - Your Response: Immediately threaten triangle by shooting leg over shoulder while overhook remains - their grip fighting creates the opening for this attack → Leads to [[Positions/Rubber Guard/New York]]
 
 

@@ -23,7 +23,10 @@
   "target_area": "Shoulder joint (rotator cuff, capsule, AC joint)",
   "starting_position": "Closed Guard",
   "from_position": "Omoplata Control/Top",
-  "success_rate": 52,
+  "success_rate": {
+    "gi": 52,
+    "nogi": 52
+  },
   "variant_uniqueness": "Dual-function shoulder lock serving as both submission and positional control system",
   "overview": "The Omoplata is a sophisticated shoulder lock that attacks the opponent's shoulder joint through controlled rotation and leverage. This technique involves trapping the opponent's arm with your legs while controlling their posture, then rotating their shoulder beyond its natural range of motion. The Omoplata is unique among submissions because it functions as both a finishing technique and a powerful positional control system, offering numerous sweep and transition opportunities even when the submission itself is defended.\n\nThe technique is particularly effective from guard positions, where the bottom player can use their legs to control distance and angle while isolating the opponent's arm. The finishing mechanics rely on sitting up tall, establishing a perpendicular angle to the opponent's body, and progressively driving your chest forward over their trapped shoulder to create internal rotation. Far-side control of the opponent's hip or collar prevents the two primary escapes: posturing up and rolling forward.\n\nModern competition has elevated the Omoplata from a low-percentage novelty to a high-level control position that creates multiple offensive dilemmas for the opponent. When the finish is defended, the position naturally feeds into sweeps to top position, back takes from the opponent's roll escape, and transitions to triangle or armbar when posture is recovered. This versatility makes the omoplata a cornerstone technique in any guard player's arsenal.",
   "safety_considerations": {
@@ -264,6 +267,44 @@
     {
       "name": "Armbar Control",
       "relationship": "Alternative submission when opponent defends omoplata by posturing"
+    }
+  ],
+  "clips": [
+    {
+      "id": "TNvcL55uvrE",
+      "title": "Reverse Omoplata, Keenan style",
+      "by": "Keenan Cornelius",
+      "vertical": false,
+      "channel": "ufctalkingthailand",
+      "duration": 22,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "zZv3V0b3tqg",
+      "title": "Teaching the reverse omoplata",
+      "by": "Bradley",
+      "vertical": false,
+      "channel": "Logan Cook",
+      "duration": 106,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "HtMbIJCiz-4",
+      "title": "Omoplata to armbar transition",
+      "by": "Asbury Park Jiu Jitsu",
+      "vertical": false,
+      "channel": "Asbury Park Jiu Jitsu",
+      "duration": 70,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "hZMbgWNh7MI",
+      "title": "Omoplata to armbar",
+      "by": "Bicudo Maciel",
+      "vertical": false,
+      "channel": "Bicudo BJJ",
+      "duration": 25,
+      "verified": "2026-07-14"
     }
   ]
 }

@@ -148,6 +148,43 @@ description: "How to defend against Back Take from Lockdown Defense in BJJ. Reco
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Back Take from Lockdown Defense (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Safely escaping the lockdown",
+      "description": "Back Take from Lockdown Defense (Defender) film study: Safely escaping the lockdown, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/xIkXPK5h-4A/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/xIkXPK5h-4A",
+      "url": "https://www.youtube.com/watch?v=xIkXPK5h-4A",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT438S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Lockdown and electric chair counters and escapes",
+      "description": "Back Take from Lockdown Defense (Defender) film study: Lockdown and electric chair counters and escapes, taught by Street Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/3A6oRsDf3oU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/3A6oRsDf3oU",
+      "url": "https://www.youtube.com/watch?v=3A6oRsDf3oU",
+      "creator": { "@type": "Person", "name": "Street Jitsu" },
+      "duration": "PT286S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -161,6 +198,34 @@ Advanced defenders develop the ability to bait the backstep attempt by offering 
 **Opponent's Starting Position**: [[Positions/Half Guard/Electric Chair]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Back Take from Lockdown Defense (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=xIkXPK5h-4A)
+
+<p class="clip-credit"><strong>Safely escaping the lockdown</strong> — taught by Lachlan Giles · 7:18 · <a href="https://www.youtube.com/watch?v=xIkXPK5h-4A" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=3A6oRsDf3oU)
+
+<p class="clip-credit"><strong>Lockdown and electric chair counters and escapes</strong> — taught by Street Jitsu · 4:46 · <a href="https://www.youtube.com/watch?v=3A6oRsDf3oU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

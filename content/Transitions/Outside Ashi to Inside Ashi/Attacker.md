@@ -174,6 +174,43 @@ description: "Master the attacker perspective for Outside Ashi to Inside Ashi co
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Outside Ashi to Inside Ashi (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Ashi to inside heel hook transition",
+      "description": "Outside Ashi to Inside Ashi (Attacker) film study: Ashi to inside heel hook transition, taught by Factory Fresh Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/07rBjpOH3wo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/07rBjpOH3wo",
+      "url": "https://www.youtube.com/watch?v=07rBjpOH3wo",
+      "creator": { "@type": "Person", "name": "Factory Fresh Jiu Jitsu" },
+      "duration": "PT128S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Switching side to side Ashi Garami",
+      "description": "Outside Ashi to Inside Ashi (Attacker) film study: Switching side to side Ashi Garami, taught by Pendergrass Academy.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/I5WGh_TODis/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/I5WGh_TODis",
+      "url": "https://www.youtube.com/watch?v=I5WGh_TODis",
+      "creator": { "@type": "Person", "name": "Pendergrass Academy" },
+      "duration": "PT177S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -183,6 +220,34 @@ As the attacker executing the Outside Ashi to Inside Ashi transition, you are th
 **From Position**: [[Positions/Ashi Garami/Outside Ashi-Garami]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Outside Ashi to Inside Ashi (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=07rBjpOH3wo)
+
+<p class="clip-credit"><strong>Ashi to inside heel hook transition</strong> — taught by Factory Fresh Jiu Jitsu · 2:08 · <a href="https://www.youtube.com/watch?v=07rBjpOH3wo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=I5WGh_TODis)
+
+<p class="clip-credit"><strong>Switching side to side Ashi Garami</strong> — taught by Pendergrass Academy · 2:57 · <a href="https://www.youtube.com/watch?v=I5WGh_TODis" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

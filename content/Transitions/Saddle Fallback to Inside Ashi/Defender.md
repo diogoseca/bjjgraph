@@ -142,6 +142,54 @@ description: "Learn to recognize and exploit the transition window when your opp
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Saddle Fallback to Inside Ashi (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Leg defense from ashi garami",
+      "description": "Saddle Fallback to Inside Ashi (Defender) film study: Leg defense from ashi garami, taught by The Coop BJJ coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/L417yCl_-dc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/L417yCl_-dc",
+      "url": "https://www.youtube.com/watch?v=L417yCl_-dc",
+      "creator": { "@type": "Person", "name": "The Coop BJJ coach" },
+      "duration": "PT48S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Inside ashi leg lock defense",
+      "description": "Saddle Fallback to Inside Ashi (Defender) film study: Inside ashi leg lock defense, taught by Nick Ortiz.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/8F_7Y9JpTP0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/8F_7Y9JpTP0",
+      "url": "https://www.youtube.com/watch?v=8F_7Y9JpTP0",
+      "creator": { "@type": "Person", "name": "Nick Ortiz" },
+      "duration": "PT101S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Five leglock counters to ashi garami",
+      "description": "Saddle Fallback to Inside Ashi (Defender) film study: Five leglock counters to ashi garami, taught by BJJ Black Belt Dad.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/QMgsMSTRSBI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/QMgsMSTRSBI",
+      "url": "https://www.youtube.com/watch?v=QMgsMSTRSBI",
+      "creator": { "@type": "Person", "name": "BJJ Black Belt Dad" },
+      "duration": "PT93S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -151,6 +199,42 @@ The defender facing the Saddle Fallback to Inside Ashi is in a uniquely advantag
 **Opponent's Starting Position**: [[Positions/Ashi Garami/Saddle]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Saddle Fallback to Inside Ashi (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=L417yCl_-dc)
+
+<p class="clip-credit"><strong>Leg defense from ashi garami</strong> — taught by The Coop BJJ coach · 0:48 · <a href="https://www.youtube.com/watch?v=L417yCl_-dc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=8F_7Y9JpTP0)
+
+<p class="clip-credit"><strong>Inside ashi leg lock defense</strong> — taught by Nick Ortiz · 1:41 · <a href="https://www.youtube.com/watch?v=8F_7Y9JpTP0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=QMgsMSTRSBI)
+
+<p class="clip-credit"><strong>Five leglock counters to ashi garami</strong> — taught by BJJ Black Belt Dad · 1:33 · <a href="https://www.youtube.com/watch?v=QMgsMSTRSBI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

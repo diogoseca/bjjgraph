@@ -142,6 +142,43 @@ description: "Prevent guard recovery from Jailbreak as the top player in BJJ. Gu
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Guard Recovery from Jailbreak (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Shutting down guard recovery with the side guard",
+      "description": "Guard Recovery from Jailbreak (Defender) film study: Shutting down guard recovery with the side guard, taught by John Connors.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/H1mYd49sUfE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/H1mYd49sUfE",
+      "url": "https://www.youtube.com/watch?v=H1mYd49sUfE",
+      "creator": { "@type": "Person", "name": "John Connors" },
+      "duration": "PT96S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Countering a full inversion",
+      "description": "Guard Recovery from Jailbreak (Defender) film study: Countering a full inversion, taught by Gordon Ryan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/aQ2vFXXBn-o/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/aQ2vFXXBn-o",
+      "url": "https://www.youtube.com/watch?v=aQ2vFXXBn-o",
+      "creator": { "@type": "Person", "name": "Gordon Ryan" },
+      "duration": "PT61S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -151,6 +188,34 @@ As the top player after defending a Jailbreak attempt, you are in a strong posit
 **Opponent's Starting Position**: [[Positions/Jailbreak]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Guard Recovery from Jailbreak (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=H1mYd49sUfE)
+
+<p class="clip-credit"><strong>Shutting down guard recovery with the side guard</strong> — taught by John Connors · 1:36 · <a href="https://www.youtube.com/watch?v=H1mYd49sUfE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=aQ2vFXXBn-o)
+
+<p class="clip-credit"><strong>Countering a full inversion</strong> — taught by Gordon Ryan · 1:01 · <a href="https://www.youtube.com/watch?v=aQ2vFXXBn-o" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

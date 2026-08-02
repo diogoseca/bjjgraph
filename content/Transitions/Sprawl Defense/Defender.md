@@ -93,6 +93,14 @@ description: "How to counter the sprawl in BJJ. Strategies for completing takedo
         "@type": "Answer",
         "text": "When an opponent sprawls aggressively, they commit significant weight forward and downward. This commitment can be exploited by suddenly changing direction - for example, if they sprawl and drive their weight onto your back, you can sit through and pull them forward over you into a guard position. Alternatively, a sharp lateral angle change while they are committed forward can unbalance them and create a window to circle behind them. The key insight is that a heavy sprawl sacrifices the opponent's mobility and balance in exchange for pressure, and any sudden directional change exploits that trade-off."
       }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the earliest recognition cues that your opponent is about to sprawl on your takedown attempt?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The earliest cues are a sudden backward shift of their hips, their hands moving toward your head and shoulders, and their weight transferring from the balls of their feet toward their toes as they prepare to drive hips back. If you feel their hands make contact with the back of your head before you have secured deep grips on their legs, the sprawl is imminent and you should either accelerate your penetration dramatically or abort the shot and recover standing position before the weight settles."
+      }
     }
   ]
 }
@@ -148,6 +156,54 @@ description: "How to counter the sprawl in BJJ. Strategies for completing takedo
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Sprawl Defense (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Double leg finish when they sprawl",
+      "description": "Sprawl Defense (Defender) film study: Double leg finish when they sprawl, taught by Infliction Derby.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/suLByvCIBN4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/suLByvCIBN4",
+      "url": "https://www.youtube.com/watch?v=suLByvCIBN4",
+      "creator": { "@type": "Person", "name": "Infliction Derby" },
+      "duration": "PT146S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Beating the sprawl: double leg to back attacks",
+      "description": "Sprawl Defense (Defender) film study: Beating the sprawl: double leg to back attacks, taught by Modern Combat Arts.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/CZ-TUSCkvSs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/CZ-TUSCkvSs",
+      "url": "https://www.youtube.com/watch?v=CZ-TUSCkvSs",
+      "creator": { "@type": "Person", "name": "Modern Combat Arts" },
+      "duration": "PT127S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Chain wrestling: shot recovery after the sprawl",
+      "description": "Sprawl Defense (Defender) film study: Chain wrestling: shot recovery after the sprawl, taught by Jordan Burroughs.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/U3T0fy6-iNE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/U3T0fy6-iNE",
+      "url": "https://www.youtube.com/watch?v=U3T0fy6-iNE",
+      "creator": { "@type": "Person", "name": "Jordan Burroughs" },
+      "duration": "PT244S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +213,42 @@ As the person shooting the takedown, having your attack met with a sprawl is one
 **Opponent's Starting Position**: [[Positions/Standing Position]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Sprawl Defense (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=suLByvCIBN4)
+
+<p class="clip-credit"><strong>Double leg finish when they sprawl</strong> — taught by Infliction Derby · 2:26 · <a href="https://www.youtube.com/watch?v=suLByvCIBN4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=CZ-TUSCkvSs)
+
+<p class="clip-credit"><strong>Beating the sprawl: double leg to back attacks</strong> — taught by Modern Combat Arts · 2:07 · <a href="https://www.youtube.com/watch?v=CZ-TUSCkvSs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=U3T0fy6-iNE)
+
+<p class="clip-credit"><strong>Chain wrestling: shot recovery after the sprawl</strong> — taught by Jordan Burroughs · 4:04 · <a href="https://www.youtube.com/watch?v=U3T0fy6-iNE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

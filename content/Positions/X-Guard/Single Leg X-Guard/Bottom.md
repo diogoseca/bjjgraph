@@ -21,37 +21,37 @@ description: "Master Single Leg X-Guard Bottom in BJJ. Complete guide covering s
     {
       "@type": "HowToStep",
       "name": "Execute Single Leg X Sweep",
-      "text": "From this position, attempt Single Leg X Sweep. This technique is attempted in 18% of exchanges from this position.",
+      "text": "From this position, attempt Single Leg X Sweep. This technique is attempted in 20% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Ashi Entry from Leg Entanglement",
-      "text": "From this position, attempt Ashi Entry from Leg Entanglement. This technique is attempted in 10% of exchanges from this position.",
+      "name": "Execute Single Leg X Entry",
+      "text": "From this position, attempt Single Leg X Entry. This technique is attempted in 9% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Single Leg X Entry",
-      "text": "From this position, attempt Single Leg X Entry. This technique is attempted in 3% of exchanges from this position.",
+      "name": "Execute Technical Stand Up to Single Leg",
+      "text": "From this position, attempt Technical Stand Up to Single Leg. This technique is attempted in 12% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Technical Stand Up to Single Leg",
-      "text": "From this position, attempt Technical Stand Up to Single Leg. This technique is attempted in 9% of exchanges from this position.",
+      "name": "Execute Butterfly Guard to X-Guard",
+      "text": "From this position, attempt Butterfly Guard to X-Guard. This technique is attempted in 2% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Butterfly Guard to X-Guard",
-      "text": "From this position, attempt Butterfly Guard to X-Guard. This technique is attempted in 4% of exchanges from this position.",
+      "name": "Execute De La Riva to X-Guard Transition",
+      "text": "From this position, attempt De La Riva to X-Guard Transition. This technique is attempted in 1% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute De La Riva to X-Guard Transition",
-      "text": "From this position, attempt De La Riva to X-Guard Transition. This technique is attempted in 3% of exchanges from this position.",
+      "name": "Execute Ankle Pick Sweep",
+      "text": "From this position, attempt Ankle Pick Sweep. This technique is attempted in 6% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -153,6 +153,54 @@ description: "Master Single Leg X-Guard Bottom in BJJ. Complete guide covering s
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Single Leg X-Guard (Bottom) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "One-Leg X guard sweep",
+      "description": "Single Leg X-Guard (Bottom) film study: One-Leg X guard sweep, taught by Marcelo Garcia.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/AhsXraebbdg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/AhsXraebbdg",
+      "url": "https://www.youtube.com/watch?v=AhsXraebbdg",
+      "creator": { "@type": "Person", "name": "Marcelo Garcia" },
+      "duration": "PT47S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "X-Guard sweep",
+      "description": "Single Leg X-Guard (Bottom) film study: X-Guard sweep, taught by Marcelo Garcia.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/zbYb6sOYC8w/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/zbYb6sOYC8w",
+      "url": "https://www.youtube.com/watch?v=zbYb6sOYC8w",
+      "creator": { "@type": "Person", "name": "Marcelo Garcia" },
+      "duration": "PT53S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Two Single Leg X entries and sweep",
+      "description": "Single Leg X-Guard (Bottom) film study: Two Single Leg X entries and sweep, taught by Marcelo Garcia.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/y0C8vIeCrc0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/y0C8vIeCrc0",
+      "url": "https://www.youtube.com/watch?v=y0C8vIeCrc0",
+      "creator": { "@type": "Person", "name": "Marcelo Garcia" },
+      "duration": "PT179S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -160,6 +208,42 @@ description: "Master Single Leg X-Guard Bottom in BJJ. Complete guide covering s
 Single Leg X-Guard Bottom represents one of the most versatile and effective positions in modern Brazilian Jiu-Jitsu, offering practitioners a powerful platform for both sweeping and leg attack systems. The position is characterized by a specific leg configuration where the bottom player entangles one of the opponent's legs using an inside leg wrap around the ankle or lower calf, while the outside foot creates an active hook on the opponent's hip or inner thigh. This configuration creates exceptional control over the opponent's balance and base, offering powerful sweeping leverage and direct pathways to modern leg lock positions. The fundamental strength of Single Leg X-Guard lies in its ability to elevate and off-balance the opponent while maintaining multiple offensive options. Unlike many guard positions that specialize in either sweeping or submissions, SLX excels at both, making it a critical component of contemporary BJJ strategy. The position serves as a bridge between traditional guard play and modern leg entanglement systems, allowing practitioners to seamlessly flow between upper body attacks through sweeps and lower body attacks through leg locks. This versatility makes SLX particularly effective in no-gi competition, where the absence of gi grips places greater emphasis on body positioning and leg control. The effectiveness of Single Leg X-Guard has been proven at the highest levels of competition, with numerous world champions utilizing the position as a cornerstone of their guard systems. The position's relevance has only increased in recent years as leg lock strategies have become more prominent in competitive BJJ, making SLX an essential position for any serious practitioner to master.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Single Leg X-Guard (Bottom) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=AhsXraebbdg)
+
+<p class="clip-credit"><strong>One-Leg X guard sweep</strong> — taught by Marcelo Garcia · 0:47 · <a href="https://www.youtube.com/watch?v=AhsXraebbdg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=zbYb6sOYC8w)
+
+<p class="clip-credit"><strong>X-Guard sweep</strong> — taught by Marcelo Garcia · 0:53 · <a href="https://www.youtube.com/watch?v=zbYb6sOYC8w" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=y0C8vIeCrc0)
+
+<p class="clip-credit"><strong>Two Single Leg X entries and sweep</strong> — taught by Marcelo Garcia · 2:59 · <a href="https://www.youtube.com/watch?v=y0C8vIeCrc0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

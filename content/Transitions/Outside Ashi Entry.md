@@ -34,6 +34,54 @@ description: "Master the Outside Ashi Entry from standing to leg entanglements. 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Outside Ashi Entry \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Outside Ashi series entry",
+      "description": "Outside Ashi Entry film study: Outside Ashi series entry, taught by 10th Planet Torrance.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/WvUalQ3yOpY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/WvUalQ3yOpY",
+      "url": "https://www.youtube.com/watch?v=WvUalQ3yOpY",
+      "creator": { "@type": "Person", "name": "10th Planet Torrance" },
+      "duration": "PT73S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Three unorthodox entries into Outside Ashi",
+      "description": "Outside Ashi Entry film study: Three unorthodox entries into Outside Ashi, taught by Huxley Skate Co..",
+      "thumbnailUrl": "https://i.ytimg.com/vi/vEQNbapQOLU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/vEQNbapQOLU",
+      "url": "https://www.youtube.com/watch?v=vEQNbapQOLU",
+      "creator": { "@type": "Person", "name": "Huxley Skate Co." },
+      "duration": "PT120S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Outside Ashi entry demo",
+      "description": "Outside Ashi Entry film study: Outside Ashi entry demo, taught by Team Strela.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/xvx03k3jiWo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/xvx03k3jiWo",
+      "url": "https://www.youtube.com/watch?v=xvx03k3jiWo",
+      "creator": { "@type": "Person", "name": "Team Strela" },
+      "duration": "PT26S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -66,9 +114,45 @@ What makes the Outside Ashi Entry distinctive is its versatility - it can be exe
 This technique has become increasingly prevalent in modern competition due to its effectiveness in both gi and no-gi environments. The systematic approach to entering outside ashi creates a clear pathway to leg lock submissions while maintaining defensive integrity throughout the transition. Understanding this entry is essential for any practitioner looking to develop a comprehensive leg lock game, as it serves as a gateway to multiple finishing positions and creates dilemmas that force opponents into defensive reactions.
 
 **From Position**: [[Positions/Standing Position]] (Top)
-**Success Rate**: 58%
+**Success Rate**: 54%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Outside Ashi Entry in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=WvUalQ3yOpY)
+
+<p class="clip-credit"><strong>Outside Ashi series entry</strong> — taught by 10th Planet Torrance · 1:13 · <a href="https://www.youtube.com/watch?v=WvUalQ3yOpY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=vEQNbapQOLU)
+
+<p class="clip-credit"><strong>Three unorthodox entries into Outside Ashi</strong> — taught by Huxley Skate Co. · 2:00 · <a href="https://www.youtube.com/watch?v=vEQNbapQOLU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=xvx03k3jiWo)
+
+<p class="clip-credit"><strong>Outside Ashi entry demo</strong> — taught by Team Strela · 0:26 · <a href="https://www.youtube.com/watch?v=xvx03k3jiWo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 
@@ -257,7 +341,7 @@ The outside ashi entry serves as a crucial gateway technique in modern leg entan
 
 - [[Submissions/Straight Ankle Lock]] - Primary submission available from outside ashi position
 
-- [[Transitions/Outside Heel Hook]] - Advanced submission option from outside ashi where legal
+- [[Submissions/Outside Heel Hook]] - Advanced submission option from outside ashi where legal
 
 - [[Transitions/Single Leg Entry]] - Traditional technique that can transition to outside ashi if defended
 

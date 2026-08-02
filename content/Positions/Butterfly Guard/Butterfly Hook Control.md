@@ -34,6 +34,54 @@ description: "Master Butterfly Hook Control in BJJ. Strategic guide covering hoo
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Butterfly Hook Control \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Butterfly guard highlights",
+      "description": "Butterfly Hook Control film study: Butterfly guard highlights, taught by Forge Forward.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/OQCEokRYP4c/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/OQCEokRYP4c",
+      "url": "https://www.youtube.com/watch?v=OQCEokRYP4c",
+      "creator": { "@type": "Person", "name": "Forge Forward" },
+      "duration": "PT78S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Butterfly sweep on hip, one hook",
+      "description": "Butterfly Hook Control film study: Butterfly sweep on hip, one hook, taught by Nine Nine Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ywB6TEyjyRM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ywB6TEyjyRM",
+      "url": "https://www.youtube.com/watch?v=ywB6TEyjyRM",
+      "creator": { "@type": "Person", "name": "Nine Nine Jiu Jitsu" },
+      "duration": "PT58S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Marcelo Garcia butterfly sweep",
+      "description": "Butterfly Hook Control film study: Marcelo Garcia butterfly sweep, taught by Marcelo Garcia.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/c8JBXJMc0Oc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/c8JBXJMc0Oc",
+      "url": "https://www.youtube.com/watch?v=c8JBXJMc0Oc",
+      "creator": { "@type": "Person", "name": "Marcelo Garcia" },
+      "duration": "PT81S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -70,6 +118,42 @@ From the top perspective, butterfly hook control presents a unique passing puzzl
 The position serves as a crucial gateway in modern BJJ, connecting standing positions to ground-based guards and providing seamless transitions to leg entanglement systems, back attacks, and traditional top positions. Mastery of butterfly hook control—from both perspectives—is essential for developing well-rounded grappling skills and understanding the flow of positional chess that defines high-level competition.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Butterfly Hook Control in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=OQCEokRYP4c)
+
+<p class="clip-credit"><strong>Butterfly guard highlights</strong> — taught by Forge Forward · 1:18 · <a href="https://www.youtube.com/watch?v=OQCEokRYP4c" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ywB6TEyjyRM)
+
+<p class="clip-credit"><strong>Butterfly sweep on hip, one hook</strong> — taught by Nine Nine Jiu Jitsu · 0:58 · <a href="https://www.youtube.com/watch?v=ywB6TEyjyRM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=c8JBXJMc0Oc)
+
+<p class="clip-credit"><strong>Marcelo Garcia butterfly sweep</strong> — taught by Marcelo Garcia · 1:21 · <a href="https://www.youtube.com/watch?v=c8JBXJMc0Oc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 
@@ -137,39 +221,39 @@ The position serves as a crucial gateway in modern BJJ, connecting standing posi
 ### Available Transitions
 
 
-- **[[Transitions/Butterfly Sweep/Attacker|Butterfly Sweep]]** (41% of attempts)
+- **[[Transitions/Butterfly Sweep/Attacker|Butterfly Sweep]]** (15% of attempts)
 
-- **[[Transitions/Arm Drag to Back/Attacker|Arm Drag to Back]]** (9% of attempts)
+- **[[Transitions/Arm Drag to Back/Attacker|Arm Drag to Back]]** (10% of attempts)
 
-- **[[Transitions/Butterfly Guard to X-Guard/Attacker|Butterfly Guard to X-Guard]]** (6% of attempts)
+- **[[Transitions/Butterfly Guard to X-Guard/Attacker|Butterfly Guard to X-Guard]]** (8% of attempts)
 
-- **[[Transitions/Hook Sweep/Attacker|Hook Sweep]]** (5% of attempts)
+- **[[Transitions/Hook Sweep/Attacker|Hook Sweep]]** (9% of attempts)
 
-- **[[Transitions/Elevator Sweep/Attacker|Elevator Sweep]]** (5% of attempts)
+- **[[Transitions/Elevator Sweep/Attacker|Elevator Sweep]]** (7% of attempts)
 
-- **[[Transitions/Guillotine Setup/Attacker|Guillotine Setup]]** (5% of attempts)
+- **[[Guillotine Choke from Butterfly Guard/Attacker|Guillotine Choke from Butterfly Guard]]** (5% of attempts)
 
-- **[[Transitions/Deep Half Entry/Attacker|Deep Half Entry]]** (6% of attempts)
+- **[[Transitions/Deep Half Entry/Attacker|Deep Half Entry]]** (5% of attempts)
 
-- **[[Transitions/Single Leg X Entry/Attacker|Single Leg X Entry]]** (5% of attempts)
+- **[[Transitions/Single Leg X Entry/Attacker|Single Leg X Entry]]** (10% of attempts)
 
-- **[[Transitions/Butterfly Sweep with Guillotine/Attacker|Butterfly Sweep with Guillotine]]** (2% of attempts)
+- **[[Transitions/Butterfly Sweep with Guillotine/Attacker|Butterfly Sweep with Guillotine]]** (4% of attempts)
 
-- **[[Transitions/Butterfly Hook Recovery/Attacker|Butterfly Hook Recovery]]** (3% of attempts)
+- **[[Transitions/Butterfly Hook Recovery/Attacker|Butterfly Hook Recovery]]** (5% of attempts)
 
 - **[[Transitions/Kimura Sweep/Attacker|Kimura Sweep]]** (4% of attempts)
 
-- **[[Transitions/Collar Drag/Attacker|Collar Drag]]** (1% of attempts)
+- **[[Transitions/Collar Drag from Open Guard/Attacker|Collar Drag from Open Guard]]** (1% of attempts)
 
-- **[[Transitions/John Wayne Sweep/Attacker|John Wayne Sweep]]** (1% of attempts)
+- **[[Transitions/John Wayne Sweep/Attacker|John Wayne Sweep]]** (2% of attempts)
 
 - **[[Transitions/Sumi Gaeshi/Attacker|Sumi Gaeshi]]** (3% of attempts)
 
-- **[[Transitions/Arm Drag Sweep/Attacker|Arm Drag Sweep]]** (2% of attempts)
+- **[[Transitions/Arm Drag Sweep/Attacker|Arm Drag Sweep]]** (4% of attempts)
 
-- **[[Transitions/Butterfly Hook Sweep/Attacker|Butterfly Hook Sweep]]** (1% of attempts)
+- **[[Transitions/Butterfly Hook Sweep/Attacker|Butterfly Hook Sweep]]** (4% of attempts)
 
-- **[[Transitions/Reguard to Butterfly Guard/Attacker|Reguard to Butterfly Guard]]** (1% of attempts)
+- **[[Transitions/Reguard to Butterfly Guard/Attacker|Reguard to Butterfly Guard]]** (4% of attempts)
 
 
 ### Common Mistakes
@@ -228,33 +312,31 @@ The position serves as a crucial gateway in modern BJJ, connecting standing posi
 ### Available Transitions
 
 
-- **[[Transitions/Butterfly Pass/Attacker|Butterfly Pass]]** (10% of attempts)
+- **[[Transitions/Butterfly Pass/Attacker|Butterfly Pass]]** (8% of attempts)
 
-- **[[Transitions/Butterfly Smash/Attacker|Butterfly Smash]]** (34% of attempts)
+- **[[Transitions/Butterfly Smash/Attacker|Butterfly Smash]]** (9% of attempts)
 
-- **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** (10% of attempts)
-
-- **[[Transitions/Standing up in Base/Attacker|Standing up in Base]]** (12% of attempts)
+- **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** (12% of attempts)
 
 - **[[Transitions/Pressure Pass/Attacker|Pressure Pass]]** (8% of attempts)
 
-- **[[Transitions/Double Under Pass/Attacker|Double Under Pass]]** (4% of attempts)
+- **[[Transitions/Double Under Pass/Attacker|Double Under Pass]]** (7% of attempts)
 
-- **[[Transitions/Leg Weave Pass/Attacker|Leg Weave Pass]]** (4% of attempts)
+- **[[Transitions/Leg Weave Pass/Attacker|Leg Weave Pass]]** (7% of attempts)
 
-- **[[Transitions/Toreando Pass/Attacker|Toreando Pass]]** (2% of attempts)
+- **[[Transitions/Toreando Pass/Attacker|Toreando Pass]]** (8% of attempts)
 
-- **[[Transitions/Back Step Pass/Attacker|Back Step Pass]]** (4% of attempts)
+- **[[Transitions/Back Step Pass/Attacker|Back Step Pass]]** (5% of attempts)
 
-- **[[Transitions/Body Lock Pass/Attacker|Body Lock Pass]]** (4% of attempts)
+- **[[Transitions/Body Lock Pass/Attacker|Body Lock Pass]]** (10% of attempts)
 
-- **[[Transitions/Leg Drag Pass/Attacker|Leg Drag Pass]]** (4% of attempts)
+- **[[Transitions/Leg Drag Pass/Attacker|Leg Drag Pass]]** (9% of attempts)
 
-- **[[Transitions/Over-Under Pass/Attacker|Over-Under Pass]]** (2% of attempts)
+- **[[Transitions/Over-Under Pass/Attacker|Over-Under Pass]]** (7% of attempts)
 
-- **[[Transitions/Pass Butterfly Hook Control/Attacker|Pass Butterfly Hook Control]]** (1% of attempts)
+- **[[Transitions/Pass Butterfly Hook Control/Attacker|Pass Butterfly Hook Control]]** (4% of attempts)
 
-- **[[Transitions/Smash from Butterfly Hook Control/Attacker|Smash from Butterfly Hook Control]]** (1% of attempts)
+- **[[Transitions/Smash from Butterfly Hook Control/Attacker|Smash from Butterfly Hook Control]]** (6% of attempts)
 
 
 ### Common Mistakes

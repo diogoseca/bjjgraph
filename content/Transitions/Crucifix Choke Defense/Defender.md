@@ -140,6 +140,43 @@ description: "Counter your opponent's choke defense from crucifix top. Maintain 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Crucifix Choke Defense (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Crucifix escape",
+      "description": "Crucifix Choke Defense (Defender) film study: Crucifix escape, taught by Chosen Few BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/C7wr6klxbC8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/C7wr6klxbC8",
+      "url": "https://www.youtube.com/watch?v=C7wr6klxbC8",
+      "creator": { "@type": "Person", "name": "Chosen Few BJJ" },
+      "duration": "PT89S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Countering the sit out back into crucifix",
+      "description": "Crucifix Choke Defense (Defender) film study: Countering the sit out back into crucifix, taught by The Art of Fighting.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Xft_S7G_yeo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Xft_S7G_yeo",
+      "url": "https://www.youtube.com/watch?v=Xft_S7G_yeo",
+      "creator": { "@type": "Person", "name": "The Art of Fighting" },
+      "duration": "PT61S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -149,6 +186,34 @@ As the top player in crucifix attempting to finish a choke, you become the defen
 **Opponent's Starting Position**: [[Positions/Crucifix]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Crucifix Choke Defense (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=C7wr6klxbC8)
+
+<p class="clip-credit"><strong>Crucifix escape</strong> — taught by Chosen Few BJJ · 1:29 · <a href="https://www.youtube.com/watch?v=C7wr6klxbC8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Xft_S7G_yeo)
+
+<p class="clip-credit"><strong>Countering the sit out back into crucifix</strong> — taught by The Art of Fighting · 1:01 · <a href="https://www.youtube.com/watch?v=Xft_S7G_yeo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

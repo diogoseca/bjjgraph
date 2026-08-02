@@ -17,21 +17,33 @@
   "outcomes": [
     {
       "to": "Back Control/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Standing Position/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Standing Position/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "Adapted from wrestling and refined for both gi and no-gi grappling, the Collar Drag is prized as one of the highest-percentage standing entries to the back. It works by pulling the opponent's collar or neck across their body while simultaneously controlling their opposite arm, generating a powerful torque that disrupts their structure and opens pathways to back control, single leg attacks, or forced guard pulls. The technique relies on precise timing, proper grip placement, and explosive hip movement to generate the necessary pulling force. When executed correctly, the Collar Drag compromises the opponent's base and posture simultaneously, making it extremely difficult to defend.\n\nThe beauty of this technique lies in its versatility—it works equally well in gi and no-gi contexts (using the neck in no-gi), functions as both an offensive attack and a counter to aggressive opponents, and chains seamlessly into multiple follow-up options. The Collar Drag represents a core principle of BJJ: using leverage and angles to overcome strength, making it effective regardless of size differential when timing and technique are sound.\n\nStrategically, the Collar Drag occupies a central role in standing exchanges because it punishes both passivity and aggression. Against a passive opponent, the drag exploits their static base. Against an aggressive opponent driving forward, their own momentum amplifies the rotational force. This dual-use quality makes it one of the highest-percentage standing techniques across all levels of competition, from local tournaments to world championships.",
   "related_content": [
     {
@@ -223,46 +235,175 @@
     "flashcards": [
       {
         "question": "What is the primary purpose of stepping offline at a 45-degree angle during the collar drag?",
-        "answer": "Stepping offline achieves three critical objectives: it removes your body from the line of their potential counter-attacks, positions your hips at an angle where you can circle to their back with minimal steps, and makes it geometrically difficult for them to square their hips back to you. The angle creates a positional advantage where they must rotate their entire body to face you, while you are already moving toward their back. Without proper angle creation, the collar drag becomes a straight pull that opponent can easily defend by maintaining their facing."
+        "answer": "Stepping offline achieves three critical objectives: it removes your body from the line of their potential counter-attacks, positions your hips at an angle where you can circle to their back with minimal steps, and makes it geometrically difficult for them to square their hips back to you. The angle creates a positional advantage where they must rotate their entire body to face you, while you are already moving toward their back. Without proper angle creation, the collar drag becomes a straight pull that opponent can easily defend by maintaining their facing.",
+        "answer_line": "Angle off to open path to back",
+        "distractors": {
+          "plausible": [
+            "Dodge a counter strike only",
+            "Add power to the arm pull"
+          ],
+          "trap": [
+            "Step straight back for distance"
+          ]
+        }
       },
       {
         "question": "Why must you control the opposite arm when executing a collar drag, and what happens if you neglect it?",
-        "answer": "Controlling the opposite arm prevents opponent from posting that hand on your body or the mat, which would allow them to maintain their base and prevent rotation. Without arm control, opponent can extend their free arm as a post, creating a triangular base structure that resists the rotational force of the drag. The arm control also creates opposing vectors—one grip pulls them toward you while the other pushes away, creating torque that rotates their upper body. Additionally, controlling both points limits their ability to grip fight or attack you during the technique execution."
+        "answer": "Controlling the opposite arm prevents opponent from posting that hand on your body or the mat, which would allow them to maintain their base and prevent rotation. Without arm control, opponent can extend their free arm as a post, creating a triangular base structure that resists the rotational force of the drag. The arm control also creates opposing vectors—one grip pulls them toward you while the other pushes away, creating torque that rotates their upper body. Additionally, controlling both points limits their ability to grip fight or attack you during the technique execution.",
+        "answer_line": "Blocks their post, kills their base",
+        "distractors": {
+          "plausible": [
+            "Just to control both wrists",
+            "Sets up a kimura attack"
+          ],
+          "trap": [
+            "Let go once collar grip lands"
+          ]
+        }
       },
       {
         "question": "Your opponent circles away from your collar drag direction instead of allowing the rotation—what are your options?",
-        "answer": "When opponent circles away, you have three high-percentage options: First, immediately switch direction and collar drag to the opposite side, using their defensive momentum against them. Second, use their backward/circular movement to snap them down into front headlock position, as their circling creates forward vulnerability. Third, fake completing the original drag while actually transitioning to arm drag, duck-under, or single leg on the side they are circling toward. The key principle is that their defensive movement always opens something else—never fight against their reaction, redirect to attack what they have exposed."
+        "answer": "When opponent circles away, you have three high-percentage options: First, immediately switch direction and collar drag to the opposite side, using their defensive momentum against them. Second, use their backward/circular movement to snap them down into front headlock position, as their circling creates forward vulnerability. Third, fake completing the original drag while actually transitioning to arm drag, duck-under, or single leg on the side they are circling toward. The key principle is that their defensive movement always opens something else—never fight against their reaction, redirect to attack what they have exposed.",
+        "answer_line": "Snap down or attack the far side",
+        "distractors": {
+          "plausible": [
+            "Muscle through the same direction",
+            "Stand tall and re-grip the collar"
+          ],
+          "trap": [
+            "Turn your back chasing the grip"
+          ]
+        }
       },
       {
         "question": "What is the critical difference between pulling with your arms versus pulling with your hips during a collar drag?",
-        "answer": "Pulling with arms alone generates minimal force and is easily defended because arm strength is limited compared to the opponent's entire body structure. Pulling with hips means initiating the movement with hip rotation and core engagement, where your arms act as connection points but the power comes from your center mass rotating. This generates significantly more force, is harder to defend, and allows you to maintain the technique even against larger, stronger opponents. The visual cue is that hip-driven collar drags show the athlete's entire body rotating, while arm-only drags show just the upper body pulling with feet remaining static."
+        "answer": "Pulling with arms alone generates minimal force and is easily defended because arm strength is limited compared to the opponent's entire body structure. Pulling with hips means initiating the movement with hip rotation and core engagement, where your arms act as connection points but the power comes from your center mass rotating. This generates significantly more force, is harder to defend, and allows you to maintain the technique even against larger, stronger opponents. The visual cue is that hip-driven collar drags show the athlete's entire body rotating, while arm-only drags show just the upper body pulling with feet remaining static.",
+        "answer_line": "Drive the rotation from your hips",
+        "distractors": {
+          "plausible": [
+            "Pull harder with the arms",
+            "Use shoulder strength only"
+          ],
+          "trap": [
+            "Yank collar, keep feet planted"
+          ]
+        }
       },
       {
         "question": "When should you transition from collar drag to single leg instead of continuing to the back take?",
-        "answer": "Transition to single leg when you feel opponent drop their weight and create a strong base against your back take attempt—their heaviness downward makes back circle difficult but opens their legs. Also transition when they turn aggressively to face you after the initial drag, as their facing gives you single leg angle. If they grip your head or collar when you try circling to back, duck under and switch to single leg on the near leg. Use single leg variation strategically when you want takedown points rather than back control, or when your single leg finishing is stronger than your standing back control maintenance."
+        "answer": "Transition to single leg when you feel opponent drop their weight and create a strong base against your back take attempt—their heaviness downward makes back circle difficult but opens their legs. Also transition when they turn aggressively to face you after the initial drag, as their facing gives you single leg angle. If they grip your head or collar when you try circling to back, duck under and switch to single leg on the near leg. Use single leg variation strategically when you want takedown points rather than back control, or when your single leg finishing is stronger than your standing back control maintenance.",
+        "answer_line": "They post heavy against back take",
+        "distractors": {
+          "plausible": [
+            "Immediately after the initial pull",
+            "As soon as you feel dominant"
+          ],
+          "trap": [
+            "Wait until they turtle up fully"
+          ]
+        }
       },
       {
         "question": "How do you adapt the collar drag for no-gi contexts where there is no collar to grip?",
-        "answer": "In no-gi, replace the collar grip with cupping the back of opponent's neck or head using your palm with fingers spread for maximum control surface area. Some athletes grip behind the head with a C-grip (thumb separate from fingers). The pulling mechanics are identical—pull their head across their centerline while controlling opposite arm at wrist, triceps, or lat. The no-gi version often requires slightly more explosive execution since neck control can be less secure than deep collar grip. All footwork, angles, and follow-ups remain the same. Many athletes find the no-gi version actually works better because opponent gets less tactile warning than from a collar grip."
+        "answer": "In no-gi, replace the collar grip with cupping the back of opponent's neck or head using your palm with fingers spread for maximum control surface area. Some athletes grip behind the head with a C-grip (thumb separate from fingers). The pulling mechanics are identical—pull their head across their centerline while controlling opposite arm at wrist, triceps, or lat. The no-gi version often requires slightly more explosive execution since neck control can be less secure than deep collar grip. All footwork, angles, and follow-ups remain the same. Many athletes find the no-gi version actually works better because opponent gets less tactile warning than from a collar grip.",
+        "answer_line": "Cup back of neck instead of collar",
+        "distractors": {
+          "plausible": [
+            "Grip the far shoulder instead",
+            "Use a two-hand headlock grip"
+          ],
+          "trap": [
+            "Skip the drag, shoot legs instead"
+          ]
+        }
       },
       {
         "question": "Your opponent posts their free hand on your chest as you initiate the drag—how do you adjust?",
-        "answer": "A post on your chest means you failed to control their opposite arm or they freed it during the drag. Your immediate adjustment is to use your sleeve-control hand to swim inside their posting arm and redirect it downward or across their body, removing the structural support. Alternatively, change the angle of your drag by pulling more diagonally (down and across rather than purely across) so their post cannot resist the directional force. You can also abandon the drag and immediately transition to a two-on-one on the posting arm, converting their defensive structure into your next attack entry. The key is never to fight directly against a strong post—redirect it or attack the arm itself."
+        "answer": "A post on your chest means you failed to control their opposite arm or they freed it during the drag. Your immediate adjustment is to use your sleeve-control hand to swim inside their posting arm and redirect it downward or across their body, removing the structural support. Alternatively, change the angle of your drag by pulling more diagonally (down and across rather than purely across) so their post cannot resist the directional force. You can also abandon the drag and immediately transition to a two-on-one on the posting arm, converting their defensive structure into your next attack entry. The key is never to fight directly against a strong post—redirect it or attack the arm itself.",
+        "answer_line": "Swim off the post or two-on-one it",
+        "distractors": {
+          "plausible": [
+            "Push through the post harder",
+            "Switch to a double leg instead"
+          ],
+          "trap": [
+            "Release your collar grip to fight it"
+          ]
+        }
       },
       {
         "question": "What is the optimal timing window for executing the collar drag, and what makes it the highest-percentage moment?",
-        "answer": "The optimal timing window is when your opponent is mid-action—either pushing into you, pulling away, stepping, or adjusting their grips. During these transitional moments, their weight is momentarily committed in one direction and their base is least stable. The highest-percentage moment specifically is when they push forward into your grips, because their forward momentum combines with your pulling force to double the rotational effect. Alternatively, the instant after they break one of your grips and mentally relax, believing the threat is neutralized, provides an excellent timing window because their defensive alertness drops. Avoid dragging a completely static opponent with a strong, set base."
+        "answer": "The optimal timing window is when your opponent is mid-action—either pushing into you, pulling away, stepping, or adjusting their grips. During these transitional moments, their weight is momentarily committed in one direction and their base is least stable. The highest-percentage moment specifically is when they push forward into your grips, because their forward momentum combines with your pulling force to double the rotational effect. Alternatively, the instant after they break one of your grips and mentally relax, believing the threat is neutralized, provides an excellent timing window because their defensive alertness drops. Avoid dragging a completely static opponent with a strong, set base.",
+        "answer_line": "When they push, pull, or shift",
+        "distractors": {
+          "plausible": [
+            "When they stand completely still",
+            "Right at the start of the exchange"
+          ],
+          "trap": [
+            "Wait for them to set a deep grip"
+          ]
+        }
       },
       {
         "question": "What grip configuration produces the strongest collar drag, and why does grip depth matter?",
-        "answer": "The strongest configuration is a deep cross-collar grip where your fingers reach past the collar seam to the back of the collar fabric, combined with wrist or sleeve control on the opposite arm. Grip depth matters because a shallow collar grip (just the lapel edge) provides minimal mechanical advantage and can be stripped easily during the pull. A deep grip anchors behind the collarbone area, giving you a lever point that controls their entire upper body structure rather than just the surface fabric. The deeper grip also allows you to pull in a tighter arc across their centerline, generating more rotational force. In no-gi, the equivalent is cupping deep behind the neck at the base of the skull rather than just touching the back of the head."
+        "answer": "The strongest configuration is a deep cross-collar grip where your fingers reach past the collar seam to the back of the collar fabric, combined with wrist or sleeve control on the opposite arm. Grip depth matters because a shallow collar grip (just the lapel edge) provides minimal mechanical advantage and can be stripped easily during the pull. A deep grip anchors behind the collarbone area, giving you a lever point that controls their entire upper body structure rather than just the surface fabric. The deeper grip also allows you to pull in a tighter arc across their centerline, generating more rotational force. In no-gi, the equivalent is cupping deep behind the neck at the base of the skull rather than just touching the back of the head.",
+        "answer_line": "Deep cross-collar past the seam",
+        "distractors": {
+          "plausible": [
+            "Shallow lapel grip near the edge",
+            "Grip the shoulder seam instead"
+          ],
+          "trap": [
+            "Grab the far sleeve only"
+          ]
+        }
       },
       {
         "question": "If the collar drag fails and you end up in a neutral standing reset, what should you do differently on your second attempt?",
-        "answer": "After a failed first attempt, your opponent is now alert to the collar drag threat and will defend more aggressively against the same setup. You should change at least two variables: direction (drag to opposite side), entry (use arm drag first to set up collar drag), or timing (use a feint collar drag to draw their defensive reaction, then attack what opens). You can also switch levels—fake the collar drag high and shoot a low single leg when they defend the pull. The critical principle is never repeating the exact same attack after a failed attempt. Use the information from their defense to identify what they exposed, and attack that opening instead."
+        "answer": "After a failed first attempt, your opponent is now alert to the collar drag threat and will defend more aggressively against the same setup. You should change at least two variables: direction (drag to opposite side), entry (use arm drag first to set up collar drag), or timing (use a feint collar drag to draw their defensive reaction, then attack what opens). You can also switch levels—fake the collar drag high and shoot a low single leg when they defend the pull. The critical principle is never repeating the exact same attack after a failed attempt. Use the information from their defense to identify what they exposed, and attack that opening instead.",
+        "answer_line": "Change the side, entry, or timing",
+        "distractors": {
+          "plausible": [
+            "Repeat it faster and harder",
+            "Add more grip strength this time"
+          ],
+          "trap": [
+            "Chain the exact same drag again"
+          ]
+        }
       }
     ],
-    "safety_considerations": "The Collar Drag is a relatively safe technique when practiced correctly, but several precautions ensure injury-free training. When gripping the collar in gi, avoid overly tight or twisted grips that could cause finger injuries—grip firmly but maintain hand mobility. For the partner being dragged, if you feel excessive neck torque, immediately turn your body in the direction of the pull rather than resisting, which prevents neck strain. When practicing at high intensity, both partners should maintain awareness of the training space to avoid colliding with walls, equipment, or other practitioners when moving explosively. In no-gi variations, the person applying neck control should avoid pulling directly downward on the head/neck (which creates dangerous compression) and instead pull horizontally across the shoulders. When drilling, start slow and gradually increase speed and resistance—many collar drag injuries occur when practitioners attempt full-speed execution before mastering mechanics. If transitioning to takedowns or mat work after the drag, both partners should understand breakfall fundamentals to land safely."
+    "safety_considerations": "The Collar Drag is a relatively safe technique when practiced correctly, but several precautions ensure injury-free training. When gripping the collar in gi, avoid overly tight or twisted grips that could cause finger injuries—grip firmly but maintain hand mobility. For the partner being dragged, if you feel excessive neck torque, immediately turn your body in the direction of the pull rather than resisting, which prevents neck strain. When practicing at high intensity, both partners should maintain awareness of the training space to avoid colliding with walls, equipment, or other practitioners when moving explosively. In no-gi variations, the person applying neck control should avoid pulling directly downward on the head/neck (which creates dangerous compression) and instead pull horizontally across the shoulders. When drilling, start slow and gradually increase speed and resistance—many collar drag injuries occur when practitioners attempt full-speed execution before mastering mechanics. If transitioning to takedowns or mat work after the drag, both partners should understand breakfall fundamentals to land safely.",
+    "clips": [
+      {
+        "id": "Kp3ABmsn1I0",
+        "title": "Arm drag takedown demonstration",
+        "by": "Marcelo Garcia",
+        "vertical": false,
+        "channel": "Baltimore Martial Arts",
+        "duration": 55,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "mzMJN2lwBbk",
+        "title": "Collar drag / lapel drag from guard",
+        "by": "Louis Armezzani",
+        "vertical": false,
+        "channel": "Louis Armezzani",
+        "duration": 65,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "TkCWCSvk7I4",
+        "title": "Arm drag into single leg takedown",
+        "by": "Grapple Hub",
+        "vertical": false,
+        "channel": "Grapple hub ",
+        "duration": 60,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Collar Drag Defender",
@@ -347,19 +488,59 @@
     "flashcards": [
       {
         "question": "What is the single most important early defensive action when you feel a deep collar grip being established?",
-        "answer": "The most important early action is immediately stripping the collar grip before the attacker can coordinate their second control point on your opposite arm. Use your same-side hand to peel their fingers from your collar using a circular or two-on-one grip break. The collar drag requires two-point control to generate rotational torque—without the collar grip, the technique cannot function. Every second you allow the grip to remain increases the danger because it gives the attacker time to establish their arm control and choose their timing for the explosive pull."
+        "answer": "The most important early action is immediately stripping the collar grip before the attacker can coordinate their second control point on your opposite arm. Use your same-side hand to peel their fingers from your collar using a circular or two-on-one grip break. The collar drag requires two-point control to generate rotational torque—without the collar grip, the technique cannot function. Every second you allow the grip to remain increases the danger because it gives the attacker time to establish their arm control and choose their timing for the explosive pull.",
+        "answer_line": "Strip the collar grip immediately",
+        "distractors": {
+          "plausible": [
+            "Grab their other wrist first",
+            "Widen your stance and wait"
+          ],
+          "trap": [
+            "Push into them to create space"
+          ]
+        }
       },
       {
         "question": "Why is footwork more important than grip strength when defending a collar drag that has already been initiated?",
-        "answer": "Once the drag is initiated with an explosive pull, the attacker's goal is to circle past your hip line to access your back. No amount of upper body grip strength can prevent this if your feet remain planted, because the attacker is using lateral movement combined with pull force to create an angle. Your feet must match their circular movement to keep your hips squared to them. By circling in the same direction as the drag, you deny the angle change that makes the technique effective. Static feet are the single greatest predictor of collar drag success for the attacker."
+        "answer": "Once the drag is initiated with an explosive pull, the attacker's goal is to circle past your hip line to access your back. No amount of upper body grip strength can prevent this if your feet remain planted, because the attacker is using lateral movement combined with pull force to create an angle. Your feet must match their circular movement to keep your hips squared to them. By circling in the same direction as the drag, you deny the angle change that makes the technique effective. Static feet are the single greatest predictor of collar drag success for the attacker.",
+        "answer_line": "Circle your feet to match the pull",
+        "distractors": {
+          "plausible": [
+            "Grip fight harder with your hands",
+            "Sprawl your hips back and down"
+          ],
+          "trap": [
+            "Plant feet and brace with arms"
+          ]
+        }
       },
       {
         "question": "When is the optimal moment to attempt a counter-takedown against a collar drag, and what makes this timing critical?",
-        "answer": "The optimal counter-takedown moment is when the attacker commits to the lateral step and their weight shifts forward onto their lead foot. At this instant, they cannot sprawl effectively because their momentum is directed sideways and forward rather than backward. Their lead leg bears most of their weight and is vulnerable to single leg attacks. The timing is critical because too early (before their weight shifts) means they can abort and sprawl, and too late (after they have circled past your hip) means you are shooting while they are behind you. The window is approximately one second during their step-off commitment."
+        "answer": "The optimal counter-takedown moment is when the attacker commits to the lateral step and their weight shifts forward onto their lead foot. At this instant, they cannot sprawl effectively because their momentum is directed sideways and forward rather than backward. Their lead leg bears most of their weight and is vulnerable to single leg attacks. The timing is critical because too early (before their weight shifts) means they can abort and sprawl, and too late (after they have circled past your hip) means you are shooting while they are behind you. The window is approximately one second during their step-off commitment.",
+        "answer_line": "As they step, weight goes forward",
+        "distractors": {
+          "plausible": [
+            "Right when the grip is first set",
+            "After they've circled behind you"
+          ],
+          "trap": [
+            "Wait until they finish rotating"
+          ]
+        }
       },
       {
         "question": "Your opponent fakes a collar drag to your left, then immediately drags to your right—how do you avoid getting caught by the direction change?",
-        "answer": "Direction change fakes exploit the defender who over-commits their footwork to one side. The defense is to react with small, controlled steps rather than large lunging movements. When you feel the initial pull, take one small adjustment step while keeping your base centered rather than committing your full weight to that direction. This way, when the real drag comes to the opposite side, you can redirect your footwork without being caught off-balance. Additionally, focus on keeping your elbows tight rather than chasing the pull with your feet—elbow anchoring works against drags in both directions without requiring you to predict which side is real."
+        "answer": "Direction change fakes exploit the defender who over-commits their footwork to one side. The defense is to react with small, controlled steps rather than large lunging movements. When you feel the initial pull, take one small adjustment step while keeping your base centered rather than committing your full weight to that direction. This way, when the real drag comes to the opposite side, you can redirect your footwork without being caught off-balance. Additionally, focus on keeping your elbows tight rather than chasing the pull with your feet—elbow anchoring works against drags in both directions without requiring you to predict which side is real.",
+        "answer_line": "Small steps, keep elbows tight",
+        "distractors": {
+          "plausible": [
+            "Lunge hard to the first direction",
+            "Chase the pull with big steps"
+          ],
+          "trap": [
+            "Commit full weight to one side"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -382,6 +563,35 @@
         "phase": "Week 7+: Live Standing Sparring Integration",
         "focus": "Applying collar drag defense in full standing exchanges with unrestricted attacks",
         "description": "Incorporate collar drag defense into regular standing sparring rounds. Partner can mix collar drags with other attacks (arm drags, snap downs, takedowns) while you must recognize and defend each appropriately. Track success rate of collar drag defense versus other standing attacks. Add situational rounds where partner must attempt at least two collar drags per round to ensure repeated defensive practice."
+      }
+    ],
+    "clips": [
+      {
+        "id": "bmCjXADzgo4",
+        "title": "How to defend the arm drag",
+        "by": "Matt Arroyo",
+        "vertical": false,
+        "channel": "Matt Arroyo Jiu Jitsu ",
+        "duration": 103,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "0VFMOfzHLcM",
+        "title": "Arm drag counters and counter-attacks",
+        "by": "Zugaj Wrestling Academy",
+        "vertical": false,
+        "channel": "Zugaj brothers",
+        "duration": 40,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "_w0gGtSirRI",
+        "title": "Arm drag counter with seoi nage",
+        "by": "Orso BJJ",
+        "vertical": false,
+        "channel": "orsobjj",
+        "duration": 8,
+        "verified": "2026-07-15"
       }
     ]
   },

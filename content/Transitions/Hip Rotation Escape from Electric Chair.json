@@ -17,21 +17,33 @@
   "outcomes": [
     {
       "to": "Turtle/Bottom",
-      "probability": 45,
+      "probability": {
+        "gi": 45,
+        "nogi": 45
+      },
       "result": "success"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 35,
+      "probability": {
+        "gi": 35,
+        "nogi": 35
+      },
       "result": "failure"
     },
     {
       "to": "Side Control/Bottom",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 45,
+  "success_rate": {
+    "gi": 45,
+    "nogi": 45
+  },
   "overview": "When an electric chair attack from lockdown half guard stalls — the top player limp-legs out, breaks the underhook, or drives forward heavily enough to neutralize the splitting angle — clinging to the deteriorating position only drains energy and invites a pass. The hip rotation escape is the planned exit: rather than remaining where the top player is breaking through the lockdown or neutralizing the underhook, the bottom player uses a deliberate hip rotation to transition to turtle position, from which guard recovery or standup options become available. This technique reflects a fundamental strategic principle: knowing when to abandon a failing attack and redirect energy toward the next viable position.\n\nThe mechanics involve releasing the lockdown configuration, using the underhook as a pivot point, and rotating the hips underneath the body to come up to a four-point turtle base. The movement must be explosive and fully committed, as a half-hearted attempt leaves the practitioner caught in transition with their back partially exposed and no lockdown control remaining. The underhook serves dual purpose throughout: it provides the rotational anchor for the hip movement and prevents the top player from immediately establishing crossface control during the transition.\n\nFrom a systems perspective, the hip rotation escape connects the lockdown and electric chair attacking system with the turtle recovery system. While turtle is not an ideal final destination, it provides significantly more escape and recovery options than a broken-down electric chair position where the top player has begun to establish passing pressure. This technique is particularly valuable in competition settings where holding a failing position drains the shot clock and energy without generating scoring opportunities. At 6% attempt probability from electric chair bottom, this is a low-frequency but high-importance option that every lockdown player must have in their toolkit.",
   "conditions": [
     "Electric chair attack has stalled or is being effectively defended by the top player",
@@ -234,38 +246,147 @@
     "flashcards": [
       {
         "question": "What are the key indicators that tell you the electric chair attack is failing and it is time to initiate the hip rotation escape?",
-        "answer": "The primary indicators are: the top player successfully applying the limp leg technique to neutralize your lockdown tension, loss of underhook depth as the opponent establishes crossface or whizzer control, the top player driving heavy forward pressure that flattens your splitting angle, or the opponent beginning to systematically address the foot triangle of your lockdown. When two or more of these indicators are present simultaneously, the electric chair attack has diminishing returns and the bail-out should be executed before the position deteriorates further."
+        "answer": "The primary indicators are: the top player successfully applying the limp leg technique to neutralize your lockdown tension, loss of underhook depth as the opponent establishes crossface or whizzer control, the top player driving heavy forward pressure that flattens your splitting angle, or the opponent beginning to systematically address the foot triangle of your lockdown. When two or more of these indicators are present simultaneously, the electric chair attack has diminishing returns and the bail-out should be executed before the position deteriorates further.",
+        "answer_line": "Two or more indicators together",
+        "distractors": {
+          "plausible": [
+            "Underhook lost, escape immediately",
+            "Any single stall signals bail"
+          ],
+          "trap": [
+            "Wait until fully flattened out"
+          ]
+        }
       },
       {
         "question": "Why must the underhook be deep before initiating the rotation, and what happens if it is shallow?",
-        "answer": "The underhook serves as the primary pivot point for the entire hip rotation movement. A deep underhook reaching to the opponent's far lat or belt provides a solid anchor that your body can rotate around with power and control. If the underhook is shallow, the rotation lacks a fixed pivot point and becomes an uncontrolled roll that the top player can easily follow, stop, or exploit. A shallow underhook also means the opponent can easily strip it during the rotation, leaving you mid-transition with no control and an exposed back."
+        "answer": "The underhook serves as the primary pivot point for the entire hip rotation movement. A deep underhook reaching to the opponent's far lat or belt provides a solid anchor that your body can rotate around with power and control. If the underhook is shallow, the rotation lacks a fixed pivot point and becomes an uncontrolled roll that the top player can easily follow, stop, or exploit. A shallow underhook also means the opponent can easily strip it during the rotation, leaving you mid-transition with no control and an exposed back.",
+        "answer_line": "Deep underhook is the pivot point",
+        "distractors": {
+          "plausible": [
+            "Shallow underhook just works slower",
+            "Depth only helps control, not turn"
+          ],
+          "trap": [
+            "Skip the underhook, rely on speed"
+          ]
+        }
       },
       {
         "question": "What is the most critical mechanical detail in the hip rotation that determines success or failure?",
-        "answer": "The synchronization of the lockdown release with the hip rotation initiation is the single most critical mechanical detail. If the lockdown is released before the rotation begins, there is a static window where you have neither control nor movement, and the top player can immediately capitalize. The lockdown release and hip drive must happen as one coordinated motion so that you are always either controlling the opponent through the lockdown or moving through the rotation. There should never be a pause between releasing control and generating movement."
+        "answer": "The synchronization of the lockdown release with the hip rotation initiation is the single most critical mechanical detail. If the lockdown is released before the rotation begins, there is a static window where you have neither control nor movement, and the top player can immediately capitalize. The lockdown release and hip drive must happen as one coordinated motion so that you are always either controlling the opponent through the lockdown or moving through the rotation. There should never be a pause between releasing control and generating movement.",
+        "answer_line": "Release lockdown and rotate as one",
+        "distractors": {
+          "plausible": [
+            "Release lockdown first, then rotate",
+            "Rotate first, release lockdown after"
+          ],
+          "trap": [
+            "Pause to reset base between steps"
+          ]
+        }
       },
       {
         "question": "Your opponent drives heavy forward pressure as you begin releasing the lockdown - how do you adjust your rotation?",
-        "answer": "Use the opponent's forward pressure to your advantage by redirecting it into your rotation. Their forward momentum means their weight is committed away from their base, making them lighter on your hips. Accelerate the hip rotation and use the space created by their forward drive to complete the movement. If the pressure pins you completely flat before the rotation starts, abandon the attempt, re-engage the lockdown if possible, and wait for a better moment when their weight shifts."
+        "answer": "Use the opponent's forward pressure to your advantage by redirecting it into your rotation. Their forward momentum means their weight is committed away from their base, making them lighter on your hips. Accelerate the hip rotation and use the space created by their forward drive to complete the movement. If the pressure pins you completely flat before the rotation starts, abandon the attempt, re-engage the lockdown if possible, and wait for a better moment when their weight shifts.",
+        "answer_line": "Accelerate rotation with their drive",
+        "distractors": {
+          "plausible": [
+            "Rotate away from the pressure",
+            "Wait for their weight to shift"
+          ],
+          "trap": [
+            "Turn belly-down under the pressure"
+          ]
+        }
       },
       {
         "question": "What are the specific grip requirements throughout each phase of the hip rotation escape?",
-        "answer": "Phase one requires deep underhook across the opponent's back and ankle control on their near leg with your free hand. Phase two involves releasing the ankle grip and posting that hand on the mat while maintaining the deep underhook. Phase three requires the underhook to serve as the rotation pivot while the posting hand provides base. Phase four transitions the underhook to a mat post as you arrive in turtle. At no point should both hands be free simultaneously, as this creates a moment without any control or base."
+        "answer": "Phase one requires deep underhook across the opponent's back and ankle control on their near leg with your free hand. Phase two involves releasing the ankle grip and posting that hand on the mat while maintaining the deep underhook. Phase three requires the underhook to serve as the rotation pivot while the posting hand provides base. Phase four transitions the underhook to a mat post as you arrive in turtle. At no point should both hands be free simultaneously, as this creates a moment without any control or base.",
+        "answer_line": "Never release both hands together",
+        "distractors": {
+          "plausible": [
+            "Keep ankle grip through all phases",
+            "Post both hands before rotating"
+          ],
+          "trap": [
+            "Let go of underhook to post early"
+          ]
+        }
       },
       {
         "question": "In which direction should the primary force be applied during the hip rotation?",
-        "answer": "The primary force direction is lateral and slightly upward, driving your hips toward the underhook side and underneath your body. The force is not directed away from the opponent but rather perpendicular to the line between you and them, using the underhook as an anchor point. Think of your hips as swinging around the underhook arm like a pendulum. Secondary force comes from the posting hand pushing off the mat to help power the rotation. The force should never be directed straight backward, as this simply creates distance without achieving the positional change to turtle."
+        "answer": "The primary force direction is lateral and slightly upward, driving your hips toward the underhook side and underneath your body. The force is not directed away from the opponent but rather perpendicular to the line between you and them, using the underhook as an anchor point. Think of your hips as swinging around the underhook arm like a pendulum. Secondary force comes from the posting hand pushing off the mat to help power the rotation. The force should never be directed straight backward, as this simply creates distance without achieving the positional change to turtle.",
+        "answer_line": "Hips swing lateral around underhook",
+        "distractors": {
+          "plausible": [
+            "Drive straight up off the mat",
+            "Push directly away from opponent"
+          ],
+          "trap": [
+            "Push straight backward for distance"
+          ]
+        }
       },
       {
         "question": "Your opponent maintains a deep crossface that blocks your primary rotation direction - what is your response?",
-        "answer": "A deep crossface blocks the standard rotation toward the underhook side. You have two primary options: first, attempt the granby roll variation which goes over the opposite shoulder and defeats the crossface angle entirely. Second, abandon the escape attempt momentarily, work to clear the crossface by framing with your free hand and creating space, then re-attempt the rotation once the blocking force is removed. Do not try to power through a deep crossface, as this wastes energy and typically fails."
+        "answer": "A deep crossface blocks the standard rotation toward the underhook side. You have two primary options: first, attempt the granby roll variation which goes over the opposite shoulder and defeats the crossface angle entirely. Second, abandon the escape attempt momentarily, work to clear the crossface by framing with your free hand and creating space, then re-attempt the rotation once the blocking force is removed. Do not try to power through a deep crossface, as this wastes energy and typically fails.",
+        "answer_line": "Granby roll or clear crossface first",
+        "distractors": {
+          "plausible": [
+            "Power through the crossface pressure",
+            "Switch to opposite side underhook"
+          ],
+          "trap": [
+            "Force the standard rotation through"
+          ]
+        }
       },
       {
         "question": "After reaching turtle, what are your immediate chain attack options and how do you select between them?",
-        "answer": "From turtle, the primary options are: granby roll to guard recovery if the opponent's weight is high on your back, technical standup if the opponent has poor hip control, sit-through to half guard if the opponent is committed to one side, and Peterson roll if they have a loose harness grip. Selection depends on the opponent's weight distribution and grip establishment in the first two seconds after arrival. If their weight is forward and high, granby roll is highest percentage. If they are still adjusting their position and grips are loose, the technical standup provides the cleanest exit."
+        "answer": "From turtle, the primary options are: granby roll to guard recovery if the opponent's weight is high on your back, technical standup if the opponent has poor hip control, sit-through to half guard if the opponent is committed to one side, and Peterson roll if they have a loose harness grip. Selection depends on the opponent's weight distribution and grip establishment in the first two seconds after arrival. If their weight is forward and high, granby roll is highest percentage. If they are still adjusting their position and grips are loose, the technical standup provides the cleanest exit.",
+        "answer_line": "Read weight and grips in first 2 sec",
+        "distractors": {
+          "plausible": [
+            "Always default to technical standup",
+            "Always granby roll first from turtle"
+          ],
+          "trap": [
+            "Stay still until they settle grips"
+          ]
+        }
       }
     ],
-    "safety_considerations": "The hip rotation involves significant torque on both knees and the lower back during the transition from lockdown configuration to turtle position. Practitioners must ensure the lockdown is properly released before rotating to avoid knee ligament strain from the figure-four being torqued during rotation. The exposed neck during mid-rotation is vulnerable to front headlock attacks, so always tuck the chin and protect the neck throughout the movement. Train this technique progressively with cooperative partners before adding resistance, and never force the rotation against a fully committed opponent pinning you flat, as this risks shoulder and neck injury."
+    "safety_considerations": "The hip rotation involves significant torque on both knees and the lower back during the transition from lockdown configuration to turtle position. Practitioners must ensure the lockdown is properly released before rotating to avoid knee ligament strain from the figure-four being torqued during rotation. The exposed neck during mid-rotation is vulnerable to front headlock attacks, so always tuck the chin and protect the neck throughout the movement. Train this technique progressively with cooperative partners before adding resistance, and never force the rotation against a fully committed opponent pinning you flat, as this risks shoulder and neck injury.",
+    "clips": [
+      {
+        "id": "3A6oRsDf3oU",
+        "title": "Lockdown and electric chair counters and escapes",
+        "by": "Street Jitsu",
+        "vertical": false,
+        "channel": "Street Jitsu",
+        "duration": 286,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "lwwIfCAA7Zc",
+        "title": "Top Lockdown Turk Counter",
+        "by": "Craig Jones",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 207,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "pzpqHP-xx0I",
+        "title": "Electric Chair: The 3 Micro Battles",
+        "by": "Patrick Donabedian",
+        "vertical": false,
+        "channel": "Patrick Donabedian BJJ",
+        "duration": 630,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Hip Rotation Escape from Electric Chair Defender",
@@ -343,23 +464,73 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that the bottom player is preparing to abandon the electric chair for a hip rotation escape?",
-        "answer": "The earliest cue is a decrease in lockdown tension combined with repositioning of the underhook arm. When the bottom player shifts their underhook from a sweeping grip to a deeper pivot grip, and simultaneously reduces the pulling pressure on your trapped leg, they are transitioning from attacking to escaping. This typically happens before the ankle control is released and provides the maximum reaction window for defensive response."
+        "answer": "The earliest cue is a decrease in lockdown tension combined with repositioning of the underhook arm. When the bottom player shifts their underhook from a sweeping grip to a deeper pivot grip, and simultaneously reduces the pulling pressure on your trapped leg, they are transitioning from attacking to escaping. This typically happens before the ankle control is released and provides the maximum reaction window for defensive response.",
+        "answer_line": "Underhook shifts, lockdown loosens",
+        "distractors": {
+          "plausible": [
+            "Ankle control releases first",
+            "Complete stillness before movement"
+          ],
+          "trap": [
+            "Sudden explosive leg kick out"
+          ]
+        }
       },
       {
         "question": "Why is the moment of lockdown release the critical vulnerability window for the bottom player?",
-        "answer": "When the lockdown is released, the bottom player has abandoned their primary control mechanism but has not yet established the defensive turtle position. For a brief moment, their legs are free and uncommitted, their body is partially rotated with back exposed, and they have only the underhook as a control point. This window represents the optimal time for the top player to either flatten and pass or advance directly to side control, because none of the bottom player's normal defensive tools are available."
+        "answer": "When the lockdown is released, the bottom player has abandoned their primary control mechanism but has not yet established the defensive turtle position. For a brief moment, their legs are free and uncommitted, their body is partially rotated with back exposed, and they have only the underhook as a control point. This window represents the optimal time for the top player to either flatten and pass or advance directly to side control, because none of the bottom player's normal defensive tools are available.",
+        "answer_line": "Legs free, back exposed, mid-turn",
+        "distractors": {
+          "plausible": [
+            "Bottom player is fully defenseless",
+            "Window opens only after turtle set"
+          ],
+          "trap": [
+            "Wait for them to reach turtle"
+          ]
+        }
       },
       {
         "question": "Your opponent completes the rotation to turtle despite your defensive efforts - what should your immediate priorities be?",
-        "answer": "Immediate priorities in order: first, establish chest-to-back pressure to prevent them from creating space. Second, secure seatbelt or harness control with your arms around their upper body. Third, prevent their first escape attempt by reading their weight distribution and blocking the most likely escape direction. Only after upper body control is secured should you work to insert hooks for full back control. Rushing to hooks without upper body control allows easy granby rolls and sit-throughs."
+        "answer": "Immediate priorities in order: first, establish chest-to-back pressure to prevent them from creating space. Second, secure seatbelt or harness control with your arms around their upper body. Third, prevent their first escape attempt by reading their weight distribution and blocking the most likely escape direction. Only after upper body control is secured should you work to insert hooks for full back control. Rushing to hooks without upper body control allows easy granby rolls and sit-throughs.",
+        "answer_line": "Chest-to-back then seatbelt control",
+        "distractors": {
+          "plausible": [
+            "Insert hooks before upper control",
+            "Block escape direction immediately"
+          ],
+          "trap": [
+            "Rush hooks before seatbelt control"
+          ]
+        }
       },
       {
         "question": "How do you determine whether to attempt a backstep pass or drive forward to flatten during the escape attempt?",
-        "answer": "The decision depends on the bottom player's leg position during the lockdown release. If their legs open wide during the release creating a clear passing lane on one side, the backstep pass is higher percentage because you can thread your leg through before they close the space. If their legs stay relatively close together and they are rotating quickly, the forward pressure to flatten is more effective because it addresses the rotation directly rather than trying to pass around it."
+        "answer": "The decision depends on the bottom player's leg position during the lockdown release. If their legs open wide during the release creating a clear passing lane on one side, the backstep pass is higher percentage because you can thread your leg through before they close the space. If their legs stay relatively close together and they are rotating quickly, the forward pressure to flatten is more effective because it addresses the rotation directly rather than trying to pass around it.",
+        "answer_line": "Legs wide: backstep; tight: flatten",
+        "distractors": {
+          "plausible": [
+            "Always backstep pass from turtle",
+            "Always drive forward to flatten"
+          ],
+          "trap": [
+            "Wait for legs to close before acting"
+          ]
+        }
       },
       {
         "question": "What are the risks of overcommitting to preventing the escape versus allowing turtle and attacking from there?",
-        "answer": "Overcommitting to prevention, particularly through excessive forward drive, can backfire if the bottom player uses your momentum to power their rotation. You may also end up off-balance and in a scramble if the prevention fails. Allowing turtle and attacking from top is lower risk but gives the opponent time to establish defensive posture. The optimal approach is moderate prevention pressure with readiness to transition to turtle attacks if the escape succeeds, rather than going all-in on either strategy."
+        "answer": "Overcommitting to prevention, particularly through excessive forward drive, can backfire if the bottom player uses your momentum to power their rotation. You may also end up off-balance and in a scramble if the prevention fails. Allowing turtle and attacking from top is lower risk but gives the opponent time to establish defensive posture. The optimal approach is moderate prevention pressure with readiness to transition to turtle attacks if the escape succeeds, rather than going all-in on either strategy.",
+        "answer_line": "Moderate pressure, ready either way",
+        "distractors": {
+          "plausible": [
+            "Go all-in on forward pressure",
+            "Fully allow turtle, then attack"
+          ],
+          "trap": [
+            "Full commit risking a bad scramble"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -377,6 +548,26 @@
         "phase": "Phase 3: Positional Sparring",
         "focus": "Full resistance scenario training",
         "description": "Start in electric chair top position with partner having full grip establishment. Partner chooses between continuing the attack or bailing out to hip rotation escape. Practice defending the electric chair while staying ready to capitalize on any escape attempt. Reset after pass, sweep, or escape to guard."
+      }
+    ],
+    "clips": [
+      {
+        "id": "9CxxyZEd7-E",
+        "title": "Electric chair sweep technique breakdown",
+        "by": "Asaf Mich",
+        "vertical": false,
+        "channel": "Asaf Mich",
+        "duration": 76,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "adarj-QUB4Y",
+        "title": "Electric chair sweep from lockdown",
+        "by": "Moncaio Brothers Jiujitsu",
+        "vertical": false,
+        "channel": "Moncaio Brothers Jiujitsu",
+        "duration": 47,
+        "verified": "2026-07-15"
       }
     ]
   }

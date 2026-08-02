@@ -148,6 +148,54 @@ description: "Defend against the Technical Mount to S Mount transition in BJJ. L
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Technical Mount to S Mount (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Armbar escape to rear naked choke",
+      "description": "Technical Mount to S Mount (Defender) film study: Armbar escape to rear naked choke, taught by ZombieProofBJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/sDdqvh_1kbA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/sDdqvh_1kbA",
+      "url": "https://www.youtube.com/watch?v=sDdqvh_1kbA",
+      "creator": { "@type": "Person", "name": "ZombieProofBJJ" },
+      "duration": "PT63S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Favorite armbar escape",
+      "description": "Technical Mount to S Mount (Defender) film study: Favorite armbar escape, taught by Matt Arroyo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/kNdKfUdgO4I/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/kNdKfUdgO4I",
+      "url": "https://www.youtube.com/watch?v=kNdKfUdgO4I",
+      "creator": { "@type": "Person", "name": "Matt Arroyo" },
+      "duration": "PT92S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Hitchhiker armbar escape into a guard pass",
+      "description": "Technical Mount to S Mount (Defender) film study: Hitchhiker armbar escape into a guard pass, taught by Peter Mettler.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/w6M0NpTMkeU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/w6M0NpTMkeU",
+      "url": "https://www.youtube.com/watch?v=w6M0NpTMkeU",
+      "creator": { "@type": "Person", "name": "Peter Mettler" },
+      "duration": "PT55S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +205,42 @@ Defending the Technical Mount to S Mount transition requires recognizing the opp
 **Opponent's Starting Position**: [[Positions/Mount/Technical Mount]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Technical Mount to S Mount (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=sDdqvh_1kbA)
+
+<p class="clip-credit"><strong>Armbar escape to rear naked choke</strong> — taught by ZombieProofBJJ · 1:03 · <a href="https://www.youtube.com/watch?v=sDdqvh_1kbA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=kNdKfUdgO4I)
+
+<p class="clip-credit"><strong>Favorite armbar escape</strong> — taught by Matt Arroyo · 1:32 · <a href="https://www.youtube.com/watch?v=kNdKfUdgO4I" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=w6M0NpTMkeU)
+
+<p class="clip-credit"><strong>Hitchhiker armbar escape into a guard pass</strong> — taught by Peter Mettler · 0:55 · <a href="https://www.youtube.com/watch?v=w6M0NpTMkeU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

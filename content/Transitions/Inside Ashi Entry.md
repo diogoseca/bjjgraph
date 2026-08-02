@@ -34,6 +34,54 @@ description: "Master Inside Ashi Entry in BJJ. Systematic leg entanglement entry
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Inside Ashi Entry \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Inside ashi garami to heel hook",
+      "description": "Inside Ashi Entry film study: Inside ashi garami to heel hook, taught by Modesto Judo Club.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/FfkVEt5YHbY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/FfkVEt5YHbY",
+      "url": "https://www.youtube.com/watch?v=FfkVEt5YHbY",
+      "creator": { "@type": "Person", "name": "Modesto Judo Club" },
+      "duration": "PT59S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Ashi garami entry and heel hook",
+      "description": "Inside Ashi Entry film study: Ashi garami entry and heel hook, taught by The Coop BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/pRqoNs4K7cI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/pRqoNs4K7cI",
+      "url": "https://www.youtube.com/watch?v=pRqoNs4K7cI",
+      "creator": { "@type": "Person", "name": "The Coop BJJ" },
+      "duration": "PT83S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Getting to backside 50/50",
+      "description": "Inside Ashi Entry film study: Getting to backside 50/50, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ucAwPgTLSpQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ucAwPgTLSpQ",
+      "url": "https://www.youtube.com/watch?v=ucAwPgTLSpQ",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT121S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -62,9 +110,45 @@ description: "Master Inside Ashi Entry in BJJ. Systematic leg entanglement entry
 Inside Ashi Entry is a fundamental transition in modern leg lock systems that establishes the inside position on your opponent's leg. This entry creates immediate offensive opportunities for inside heel hooks, straight ankle locks, and transitions to more dominant leg entanglements. The inside position refers to having your outside leg positioned between your opponent's legs, creating a wedge that controls their hip and prevents escape. This entry is particularly effective from seated guard, single leg X-guard, or when your opponent is standing in your open guard. The key to successful execution lies in proper angle creation, hip control, and timing the entry when your opponent's weight is committed forward. Inside Ashi is considered one of the safest leg entanglements to enter because it offers strong control while maintaining defensive integrity against counter leg attacks.
 
 **From Position**: [[Positions/Open Guard]] (Bottom)
-**Success Rate**: 58%
+**Success Rate**: 53%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Inside Ashi Entry in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=FfkVEt5YHbY)
+
+<p class="clip-credit"><strong>Inside ashi garami to heel hook</strong> — taught by Modesto Judo Club · 0:59 · <a href="https://www.youtube.com/watch?v=FfkVEt5YHbY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=pRqoNs4K7cI)
+
+<p class="clip-credit"><strong>Ashi garami entry and heel hook</strong> — taught by The Coop BJJ · 1:23 · <a href="https://www.youtube.com/watch?v=pRqoNs4K7cI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ucAwPgTLSpQ)
+
+<p class="clip-credit"><strong>Getting to backside 50/50</strong> — taught by Lachlan Giles · 2:01 · <a href="https://www.youtube.com/watch?v=ucAwPgTLSpQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

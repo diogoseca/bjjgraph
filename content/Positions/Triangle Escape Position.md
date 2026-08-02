@@ -34,6 +34,43 @@ description: "Master both sides of the triangle in BJJ. Complete guide covering 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Triangle Escape Position \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Triangle setup with lapel",
+      "description": "Triangle Escape Position film study: Triangle setup with lapel, taught by Gracie Ohio.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/3aRpzqiIvgs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/3aRpzqiIvgs",
+      "url": "https://www.youtube.com/watch?v=3aRpzqiIvgs",
+      "creator": { "@type": "Person", "name": "Gracie Ohio" },
+      "duration": "PT135S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Rolling triangle from the clamp",
+      "description": "Triangle Escape Position film study: Rolling triangle from the clamp, taught by John Danaher.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/gQWXO_L0jbU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/gQWXO_L0jbU",
+      "url": "https://www.youtube.com/watch?v=gQWXO_L0jbU",
+      "creator": { "@type": "Person", "name": "John Danaher" },
+      "duration": "PT223S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -68,6 +105,34 @@ The escape methodology follows a strict hierarchy that cannot be shortcut withou
 Triangle escape training serves broader pedagogical purposes beyond the specific technique, teaching practitioners critical lessons about remaining calm under extreme submission pressure, executing systematic defensive sequences when panic would be the natural response, understanding biomechanical principles that apply across multiple submission escapes, and developing the mental toughness required for high-level competition where defensive competence often determines match outcomes. The position also teaches the importance of prevention over cure, as escaping triangles from fully locked positions against skilled opponents remains among the lowest percentage defensive scenarios in BJJ.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Triangle Escape Position in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=3aRpzqiIvgs)
+
+<p class="clip-credit"><strong>Triangle setup with lapel</strong> — taught by Gracie Ohio · 2:15 · <a href="https://www.youtube.com/watch?v=3aRpzqiIvgs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=gQWXO_L0jbU)
+
+<p class="clip-credit"><strong>Rolling triangle from the clamp</strong> — taught by John Danaher · 3:43 · <a href="https://www.youtube.com/watch?v=gQWXO_L0jbU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 
@@ -139,15 +204,15 @@ Triangle escape training serves broader pedagogical purposes beyond the specific
 ### Available Transitions
 
 
-- **[[Submissions/Triangle Choke/Attacker|Triangle Choke]]** (40% of attempts)
+- **[[Triangle Choke from Triangle Control/Attacker|Triangle Choke from Triangle Control]]** (40% of attempts)
 
-- **[[Transitions/Triangle to Armbar/Attacker|Triangle to Armbar]]** (25% of attempts)
+- **[[Transitions/Triangle to Armbar/Attacker|Triangle to Armbar]]** (22% of attempts)
 
-- **[[Transitions/Triangle to Omoplata/Attacker|Triangle to Omoplata]]** (15% of attempts)
+- **[[Transitions/Triangle to Omoplata/Attacker|Triangle to Omoplata]]** (13% of attempts)
 
-- **[[Transitions/Triangle to Back/Attacker|Triangle to Back]]** (12% of attempts)
+- **[[Transitions/Triangle to Back/Attacker|Triangle to Back]]** (15% of attempts)
 
-- **[[Transitions/Inverted Triangle/Attacker|Inverted Triangle]]** (8% of attempts)
+- **[[Transitions/Inverted Triangle/Attacker|Inverted Triangle]]** (10% of attempts)
 
 
 ### Common Mistakes
@@ -208,23 +273,19 @@ Triangle escape training serves broader pedagogical purposes beyond the specific
 ### Available Transitions
 
 
-- **[[Transitions/Stack Pass/Attacker|Stack Pass]]** (17% of attempts)
+- **[[Transitions/Stack Pass/Attacker|Stack Pass]]** (18% of attempts)
 
-- **[[Transitions/Posture Recovery/Attacker|Posture Recovery]]** (33% of attempts)
+- **[[Transitions/Posture Recovery/Attacker|Posture Recovery]]** (22% of attempts)
 
 - **[[Transitions/Triangle Escape/Attacker|Triangle Escape]]** (17% of attempts)
 
-- **[[Transitions/Arm Extraction/Attacker|Arm Extraction]]** (12% of attempts)
+- **[[Transitions/Pass to Side Control/Attacker|Pass to Side Control]]** (13% of attempts)
 
-- **[[Transitions/Pass to Side Control/Attacker|Pass to Side Control]]** (5% of attempts)
+- **[[Transitions/Complete Triangle Escape/Attacker|Complete Triangle Escape]]** (12% of attempts)
 
-- **[[Transitions/Standing up in Base/Attacker|Standing up in Base]]** (12% of attempts)
+- **[[Transitions/Posture in Triangle Escape/Attacker|Posture in Triangle Escape]]** (11% of attempts)
 
-- **[[Transitions/Complete Triangle Escape/Attacker|Complete Triangle Escape]]** (2% of attempts)
-
-- **[[Transitions/Posture in Triangle Escape/Attacker|Posture in Triangle Escape]]** (1% of attempts)
-
-- **[[Transitions/Reversal from Triangle Escape/Attacker|Reversal from Triangle Escape]]** (1% of attempts)
+- **[[Transitions/Reversal from Triangle Escape/Attacker|Reversal from Triangle Escape]]** (7% of attempts)
 
 
 ### Common Mistakes

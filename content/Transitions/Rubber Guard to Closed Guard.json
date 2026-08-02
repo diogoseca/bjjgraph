@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Closed Guard/Bottom",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Rubber Guard/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Open Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "The Rubber Guard to Closed Guard transition is a fundamental positional reset within the 10th Planet guard system, allowing the bottom player to return to a more sustainable and universally applicable guard position. While Rubber Guard offers unique submission pathways through its specialized leg and arm configurations, there are critical moments when transitioning back to Closed Guard becomes the strategically superior option. Flexibility fatigue, failed attack sequences, an opponent who is systematically stripping rubber guard grips, or the need to conserve energy for later exchanges all represent scenarios where this reset creates better offensive opportunities than persisting with a deteriorating rubber guard position.\n\nThe primary technical challenge lies in managing the brief control gap that occurs when the elevated leg moves from the high rubber guard position down to waist level for ankle crossing. During this window, the top player can exploit the reduced control to recover posture or open the guard entirely. Successful execution demands that the bottom player establish replacement grips—typically collar and head control or a strong sleeve grip—before releasing the rubber guard foot grip, ensuring continuous posture disruption throughout the transition. The leg must slide down smoothly while maintaining constant contact with the opponent's back, preventing any gap that would invite posture recovery.\n\nUnderstanding when and how to execute this positional reset is essential for any practitioner who employs the Rubber Guard system. The ability to flow seamlessly between Rubber Guard and Closed Guard creates a more complete bottom game, allowing the practitioner to attempt rubber guard attacks, reset to closed guard when those attacks stall, and launch entirely different offensive sequences from the new position. This transition also serves as a safety valve that prevents the bottom player from being forced into open guard when rubber guard control begins to deteriorate.",
   "conditions": [
     "Currently maintaining Rubber Guard control from the bottom position with leg elevated across opponent's back",
@@ -241,46 +253,166 @@
     "flashcards": [
       {
         "question": "What is the optimal moment to initiate the transition from Rubber Guard back to Closed Guard?",
-        "answer": "The optimal moment is when your rubber guard attacks have stalled but you still maintain strong posture control over your opponent. Specifically, transition when the opponent's posture is broken but they are successfully defending your submissions, when flexibility fatigue is beginning to reduce your control quality, or when the opponent has partially extracted their arm but has not yet recovered full posture. Never initiate during active exchanges where your attention is divided."
+        "answer": "The optimal moment is when your rubber guard attacks have stalled but you still maintain strong posture control over your opponent. Specifically, transition when the opponent's posture is broken but they are successfully defending your submissions, when flexibility fatigue is beginning to reduce your control quality, or when the opponent has partially extracted their arm but has not yet recovered full posture. Never initiate during active exchanges where your attention is divided.",
+        "answer_line": "Attacks stall, posture still broken",
+        "distractors": {
+          "plausible": [
+            "Right after locking rubber guard",
+            "While submissions still landing"
+          ],
+          "trap": [
+            "Mid active exchange, attention split"
+          ]
+        }
       },
       {
         "question": "What grip conditions must be established before releasing the Rubber Guard leg control?",
-        "answer": "You must establish at least one strong posture-controlling grip that functions independently of the rubber guard leg. The primary options are a deep collar grip pulling the opponent's head down, a behind-the-head grip with your palm on their neck pulling forward, or a combination of collar and far sleeve control. Test the grip's effectiveness by briefly reducing rubber guard pressure—if the opponent's posture stays broken, the replacement grip is sufficient."
+        "answer": "You must establish at least one strong posture-controlling grip that functions independently of the rubber guard leg. The primary options are a deep collar grip pulling the opponent's head down, a behind-the-head grip with your palm on their neck pulling forward, or a combination of collar and far sleeve control. Test the grip's effectiveness by briefly reducing rubber guard pressure—if the opponent's posture stays broken, the replacement grip is sufficient.",
+        "answer_line": "Collar or head grip pulling down",
+        "distractors": {
+          "plausible": [
+            "Any grip on opponent's gi",
+            "Sleeve control alone"
+          ],
+          "trap": [
+            "Release leg first, grip after"
+          ]
+        }
       },
       {
         "question": "What is the correct path for the elevated leg during the transition from high position to ankle lock?",
-        "answer": "The leg must slide down the opponent's back in constant contact, maintaining calf and shin pressure against their torso throughout the entire movement. The leg should never lift away from or float off the opponent's body, as any gap creates an opportunity for posture recovery. The path is a smooth downward arc from the upper back or shoulder area to the lower back and waist, where the foot immediately hooks with the opposite foot to cross ankles."
+        "answer": "The leg must slide down the opponent's back in constant contact, maintaining calf and shin pressure against their torso throughout the entire movement. The leg should never lift away from or float off the opponent's body, as any gap creates an opportunity for posture recovery. The path is a smooth downward arc from the upper back or shoulder area to the lower back and waist, where the foot immediately hooks with the opposite foot to cross ankles.",
+        "answer_line": "Slide down back, constant contact",
+        "distractors": {
+          "plausible": [
+            "Quick lift then drop to waist",
+            "Slide down opponent's side"
+          ],
+          "trap": [
+            "Lift leg off to reposition faster"
+          ]
+        }
       },
       {
         "question": "What is the most common reason this transition fails and results in the guard being opened?",
-        "answer": "The most common failure is releasing the rubber guard foot grip before establishing adequate replacement grips on the collar or head. This creates a brief window where there is no effective posture control mechanism in place, and experienced opponents will immediately drive their posture up and hips back during this gap, creating the separation needed to prevent the closed guard ankle lock from being established."
+        "answer": "The most common failure is releasing the rubber guard foot grip before establishing adequate replacement grips on the collar or head. This creates a brief window where there is no effective posture control mechanism in place, and experienced opponents will immediately drive their posture up and hips back during this gap, creating the separation needed to prevent the closed guard ankle lock from being established.",
+        "answer_line": "Releasing grip before replacement",
+        "distractors": {
+          "plausible": [
+            "Crossing ankles too early",
+            "Pulling collar too hard"
+          ],
+          "trap": [
+            "Rushing release to save time"
+          ]
+        }
       },
       {
         "question": "Which replacement grips provide the strongest posture control during the leg repositioning phase?",
-        "answer": "A deep cross-collar grip combined with a same-side head pull provides the strongest posture control during the transition. The collar grip creates constant downward pressure on the opponent's spine while the head pull prevents them from lifting their chin and shoulders. In no-gi, a two-on-one head control—both hands clasped behind the opponent's neck—provides comparable control but limits one hand from managing the leg transition."
+        "answer": "A deep cross-collar grip combined with a same-side head pull provides the strongest posture control during the transition. The collar grip creates constant downward pressure on the opponent's spine while the head pull prevents them from lifting their chin and shoulders. In no-gi, a two-on-one head control—both hands clasped behind the opponent's neck—provides comparable control but limits one hand from managing the leg transition.",
+        "answer_line": "Cross-collar grip plus head pull",
+        "distractors": {
+          "plausible": [
+            "Two-on-one head control (gi)",
+            "Single collar grip alone"
+          ],
+          "trap": [
+            "Grab both sleeves, let head free"
+          ]
+        }
       },
       {
         "question": "In which direction should you pull your opponent during the leg transition to prevent posture recovery?",
-        "answer": "Pull diagonally downward and toward your chest, not straight down toward the mat. The diagonal pull combines forward breaking pressure with downward spinal compression, which is mechanically the most difficult direction for the top player to resist. Pulling straight down allows the opponent to use their spinal erectors to posture, while the diagonal vector loads their anterior chain and pulls their weight forward over their knees."
+        "answer": "Pull diagonally downward and toward your chest, not straight down toward the mat. The diagonal pull combines forward breaking pressure with downward spinal compression, which is mechanically the most difficult direction for the top player to resist. Pulling straight down allows the opponent to use their spinal erectors to posture, while the diagonal vector loads their anterior chain and pulls their weight forward over their knees.",
+        "answer_line": "Diagonal, down and toward chest",
+        "distractors": {
+          "plausible": [
+            "Straight down toward the mat",
+            "Straight back toward your hips"
+          ],
+          "trap": [
+            "Push opponent's head away first"
+          ]
+        }
       },
       {
         "question": "Your opponent begins posturing aggressively as your leg drops from the high rubber guard position—how do you adjust?",
-        "answer": "If posture recovery begins during the leg slide, you have two options depending on timing. If the leg is still high, abort the transition entirely by re-hooking the foot and re-establishing rubber guard control rather than forcing a compromised closed guard. If the leg is already near waist level, accelerate the ankle crossing immediately—prioritize locking ankles even with imperfect positioning, then use the closed guard squeeze to re-break posture."
+        "answer": "If posture recovery begins during the leg slide, you have two options depending on timing. If the leg is still high, abort the transition entirely by re-hooking the foot and re-establishing rubber guard control rather than forcing a compromised closed guard. If the leg is already near waist level, accelerate the ankle crossing immediately—prioritize locking ankles even with imperfect positioning, then use the closed guard squeeze to re-break posture.",
+        "answer_line": "Abort if high, rush cross if low",
+        "distractors": {
+          "plausible": [
+            "Always finish the slide slowly",
+            "Switch to a different submission"
+          ],
+          "trap": [
+            "Let go of grips, reset from scratch"
+          ]
+        }
       },
       {
         "question": "If your opponent successfully postures during the transition and you cannot establish closed guard, what is your best follow-up?",
-        "answer": "Immediately transition to an active open guard rather than desperately chasing the closed guard ankle lock. Place your feet on the opponent's hips to establish distance control, secure collar and sleeve grips, and enter your preferred open guard variation—spider guard, de la riva, or collar sleeve guard. Attempting to force the closed guard against a fully postured opponent wastes energy and often results in worse positioning than accepting the open guard and working from there."
+        "answer": "Immediately transition to an active open guard rather than desperately chasing the closed guard ankle lock. Place your feet on the opponent's hips to establish distance control, secure collar and sleeve grips, and enter your preferred open guard variation—spider guard, de la riva, or collar sleeve guard. Attempting to force the closed guard against a fully postured opponent wastes energy and often results in worse positioning than accepting the open guard and working from there.",
+        "answer_line": "Switch to active open guard",
+        "distractors": {
+          "plausible": [
+            "Force the ankle lock anyway",
+            "Stand up and reset distance"
+          ],
+          "trap": [
+            "Chase closed guard until it locks"
+          ]
+        }
       },
       {
         "question": "Why is it critical to cross your ankles tightly behind your opponent's back immediately after the leg drops?",
-        "answer": "The ankle crossing is the structural mechanism that converts the open leg position into the closed kinetic chain that defines closed guard. Without tight ankle crossing, the guard remains functionally open—the opponent can drive their hips back, create separation, and begin guard opening sequences. The tighter the initial ankle cross, the more difficult it is for the opponent to break open, and it allows you to immediately apply the squeeze pressure that controls their posture and hip movement."
+        "answer": "The ankle crossing is the structural mechanism that converts the open leg position into the closed kinetic chain that defines closed guard. Without tight ankle crossing, the guard remains functionally open—the opponent can drive their hips back, create separation, and begin guard opening sequences. The tighter the initial ankle cross, the more difficult it is for the opponent to break open, and it allows you to immediately apply the squeeze pressure that controls their posture and hip movement.",
+        "answer_line": "Locks the closed kinetic chain",
+        "distractors": {
+          "plausible": [
+            "Prevents opponent from sitting up",
+            "Sets up an immediate sweep"
+          ],
+          "trap": [
+            "Loose cross allows faster resets"
+          ]
+        }
       },
       {
         "question": "How does the transition timing change when your opponent has already partially extracted their trapped arm?",
-        "answer": "When the opponent has partially extracted their arm, the transition becomes more urgent but also requires different grip priorities. The arm extraction reduces the effectiveness of continued rubber guard control, making the reset to closed guard increasingly necessary. However, the partial arm extraction also means the opponent has more posting ability, so replacement grips must be stronger—prioritize behind-the-head control over collar grip. Execute the transition faster, accepting that it may be less technically clean, because the alternative of remaining in a deteriorating rubber guard is worse."
+        "answer": "When the opponent has partially extracted their arm, the transition becomes more urgent but also requires different grip priorities. The arm extraction reduces the effectiveness of continued rubber guard control, making the reset to closed guard increasingly necessary. However, the partial arm extraction also means the opponent has more posting ability, so replacement grips must be stronger—prioritize behind-the-head control over collar grip. Execute the transition faster, accepting that it may be less technically clean, because the alternative of remaining in a deteriorating rubber guard is worse.",
+        "answer_line": "Faster, prioritize head control",
+        "distractors": {
+          "plausible": [
+            "Slow down for cleaner grips",
+            "Switch fully to collar grip"
+          ],
+          "trap": [
+            "Re-trap the arm before resetting"
+          ]
+        }
       }
     ],
-    "safety_considerations": "The primary safety concern during this transition involves the hip and hamstring flexibility demands of lowering the elevated leg from the high rubber guard position. Practitioners should never force the leg into positions that create sharp pain in the hip joint or excessive stretch in the hamstrings. The transition should be practiced at controlled speeds before attempting under resistance. Additionally, maintain proper neck alignment throughout—avoid excessive cervical flexion from pulling the opponent's head down too aggressively, as this can compress the cervical spine under the combined load of the opponent's weight and the grip pressure."
+    "safety_considerations": "The primary safety concern during this transition involves the hip and hamstring flexibility demands of lowering the elevated leg from the high rubber guard position. Practitioners should never force the leg into positions that create sharp pain in the hip joint or excessive stretch in the hamstrings. The transition should be practiced at controlled speeds before attempting under resistance. Additionally, maintain proper neck alignment throughout—avoid excessive cervical flexion from pulling the opponent's head down too aggressively, as this can compress the cervical spine under the combined load of the opponent's weight and the grip pressure.",
+    "clips": [
+      {
+        "id": "h1XzZDsUxHQ",
+        "title": "Eddie Bravo explains the rubber guard",
+        "by": "Eddie Bravo",
+        "vertical": false,
+        "channel": "JAN FERNANDEZ ",
+        "duration": 111,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "WliTCjEDA-8",
+        "title": "Basic entries into the rubber guard",
+        "by": "BJJ for Breakfast",
+        "vertical": false,
+        "channel": "BJJ4Breakfast",
+        "duration": 106,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Rubber Guard to Closed Guard Defender",
@@ -361,19 +493,59 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that your opponent is transitioning from Rubber Guard to Closed Guard?",
-        "answer": "The earliest cue is a change in the bottom player's hand configuration—specifically, the hand that was securing their own foot or shin in the rubber guard position releasing that grip and moving to establish a collar or behind-the-head grip. This grip change precedes the actual leg movement and signals the transition before the control gap opens. Secondary cues include feeling reduced arm trap pressure and seeing the opponent's gaze shift to their grip hand."
+        "answer": "The earliest cue is a change in the bottom player's hand configuration—specifically, the hand that was securing their own foot or shin in the rubber guard position releasing that grip and moving to establish a collar or behind-the-head grip. This grip change precedes the actual leg movement and signals the transition before the control gap opens. Secondary cues include feeling reduced arm trap pressure and seeing the opponent's gaze shift to their grip hand.",
+        "answer_line": "Hand leaves foot for collar grip",
+        "distractors": {
+          "plausible": [
+            "Leg starts sliding down back",
+            "Opponent's hips shift back"
+          ],
+          "trap": [
+            "Opponent taps rubber guard leg"
+          ]
+        }
       },
       {
         "question": "What specific defensive action gives you the highest probability of opening the guard during this transition?",
-        "answer": "The highest-percentage action is combining explosive posture recovery with a simultaneous hip retreat during the two-to-three second window when the leg is mid-slide. Specifically, plant both hands on the opponent's hips, straighten your arms while lifting your head and chest, and drive your hips backward away from their body. This creates maximum separation at the moment of minimum control, making it extremely difficult for the opponent to cross ankles before you establish distance."
+        "answer": "The highest-percentage action is combining explosive posture recovery with a simultaneous hip retreat during the two-to-three second window when the leg is mid-slide. Specifically, plant both hands on the opponent's hips, straighten your arms while lifting your head and chest, and drive your hips backward away from their body. This creates maximum separation at the moment of minimum control, making it extremely difficult for the opponent to cross ankles before you establish distance.",
+        "answer_line": "Posture up, drive hips back fast",
+        "distractors": {
+          "plausible": [
+            "Grab both sleeves and pull in",
+            "Sit up and grip fight collar"
+          ],
+          "trap": [
+            "Push down on opponent's shoulders"
+          ]
+        }
       },
       {
         "question": "Why is it important to address the replacement grips before the opponent completes the ankle lock behind your back?",
-        "answer": "Once the opponent completes the ankle lock with crossed ankles and has strong replacement grips on your collar or head, you face a fully established closed guard with a prepared attacker. The replacement grips provide the posture control that the rubber guard leg previously maintained, meaning the transition created no net reduction in the opponent's control quality. By stripping these grips during the transition window, you force the opponent to complete the ankle crossing without posture control, resulting in a weak closed guard that can be immediately opened."
+        "answer": "Once the opponent completes the ankle lock with crossed ankles and has strong replacement grips on your collar or head, you face a fully established closed guard with a prepared attacker. The replacement grips provide the posture control that the rubber guard leg previously maintained, meaning the transition created no net reduction in the opponent's control quality. By stripping these grips during the transition window, you force the opponent to complete the ankle crossing without posture control, resulting in a weak closed guard that can be immediately opened.",
+        "answer_line": "Strip grips before ankles lock",
+        "distractors": {
+          "plausible": [
+            "Wait until guard fully closes",
+            "Focus only on the leg position"
+          ],
+          "trap": [
+            "Let ankles lock, then fight grips"
+          ]
+        }
       },
       {
         "question": "Your opponent releases their rubber guard foot grip but maintains a deep collar grip pulling your head down—what is your priority action?",
-        "answer": "Your priority is breaking the collar grip before the leg completes its slide to waist level. Use a two-on-one grip break on the collar hand—grab their gripping wrist with both hands and push it toward their opposite hip while simultaneously lifting your posture. The deep collar grip is the primary mechanism preventing your posture recovery, and removing it during the transition window is more valuable than trying to prevent the leg movement. Without the collar grip, even a completed ankle crossing results in a weak closed guard you can open."
+        "answer": "Your priority is breaking the collar grip before the leg completes its slide to waist level. Use a two-on-one grip break on the collar hand—grab their gripping wrist with both hands and push it toward their opposite hip while simultaneously lifting your posture. The deep collar grip is the primary mechanism preventing your posture recovery, and removing it during the transition window is more valuable than trying to prevent the leg movement. Without the collar grip, even a completed ankle crossing results in a weak closed guard you can open.",
+        "answer_line": "Two-on-one break the collar grip",
+        "distractors": {
+          "plausible": [
+            "Block the leg from sliding down",
+            "Pull opponent's elbow across"
+          ],
+          "trap": [
+            "Ignore grip, focus on hip escape"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -391,6 +563,26 @@
         "phase": "Phase 3: Live Positional Sparring",
         "focus": "Full-speed application against committed transitions",
         "description": "Begin in established rubber guard with the bottom player given the objective of either attacking from rubber guard or successfully transitioning to closed guard. Defender works to either escape during the rubber guard phase or exploit the transition window. Full resistance from both players with emphasis on real-time decision making and competitive intensity."
+      }
+    ],
+    "clips": [
+      {
+        "id": "iwcfKUPNZNs",
+        "title": "Why Rubber Guard doesn't work - countering it",
+        "by": "Brandon McCaghren",
+        "vertical": false,
+        "channel": "Brandon Mccaghren",
+        "duration": 792,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "7ukIp8aQu4M",
+        "title": "Rubber Guard Fundamentals: mechanics and answers",
+        "by": "Knight Jiu-Jitsu",
+        "vertical": false,
+        "channel": "Knight Jiu-Jitsu",
+        "duration": 535,
+        "verified": "2026-07-15"
       }
     ]
   }

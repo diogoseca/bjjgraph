@@ -1,0 +1,95 @@
+/* @hyperspace {"theme":"unlock-economy","L":"curriculum-mid","F":"belt-path","B":"economy-math"} @invariant "A lesson row completes at exactly prep===goal (min(3, deckSize)): prep=goal-1 leaves the row without data-done and zero lesson_done beats, the single crossing grade emits exactly one lesson_done, and further grades never re-emit a second one." */
+import { test, expect } from "@playwright/test"
+import { journey } from "../dsl"
+import { curriculumMid, CURRICULUM } from "./personas"
+
+/**
+ * Mechanism under test (neural/src/app.src.jsx): lessonDone(key) = prep[key] >= _deckGoal(key)
+ * with _deckGoal = min(3, deckSize) (~line 2426). _maybeLessonDone (~2437) runs on EVERY grade
+ * via noteCardDone — BEFORE the cross-deck cardDone dedupe — and its in-memory _lessonBeatFired
+ * Set makes lesson_done once-only per deck per life; cross-deck shared-question credit bumps
+ * OTHER decks' prep but never fires their lesson_done, so exact beat-count asserts are safe.
+ * Two rails gotchas this spec leans on:
+ *   (1) data-done is written ONLY at renderExplorer() time — drilling while the explorer is
+ *       open does NOT live-update rows, so call __neural.renderExplorer() before every DOM
+ *       attribute read (matches real UX: openLessonStudy closes the explorer; reopening
+ *       re-renders).
+ *   (2) path_opened fires once per life (_pathBeatFired) — expectBeat it exactly once.
+ * No rigs beyond land()'s built-ins: the drill rail and the path render draw no RNG.
+ */
+
+const WHITE = CURRICULUM.belts[0]
+const UNIT2 = WHITE.units[1]
+// Mirror personas.ts curriculumMid EXACTLY: it seeds slice(0, ceil(n/2)) of unit-2 lessons at
+// prep=3, so the BACK half of unit 2 boots with prep 0 — the exact-boundary candidates.
+const SEEDED_N = Math.ceil(UNIT2.lessons.length / 2)
+const CANDIDATES: string[] = UNIT2.lessons.slice(SEEDED_N).map((l: any) => l.deckKey)
+
+test("lesson_done fires exactly once, at exactly prep===goal", async ({ page }) => {
+  // curriculum fact the boundary math leans on — fail loudly here if the corpus shifts
+  expect(CANDIDATES.length).toBeGreaterThan(0)
+
+  const j = journey(page)
+  await j.boot("/", { initialState: curriculumMid() })
+  await j.land("Mount Top")
+
+  // open the explorer's PATH view (curriculum loaded → path is the default mode)
+  await page.evaluate(() => (window as any).__neural.toggleExplorer())
+  await expect(page.locator("[data-view]").first()).toBeVisible()
+  await j.expectBeat("path_opened") // once per life — asserted here and never again
+
+  // pick the target IN-PAGE like the probe did: first candidate whose deck really has >= 3
+  // cards and prep 0 — app state is truth; the curriculum-derived list scopes the hunt
+  const target = await page.evaluate((cands) => {
+    const a = (window as any).__neural
+    for (const key of cands as string[]) {
+      const deck = a.flashcards?.decks?.[key]
+      if (deck && deck.cards.length >= 3 && !((a.prep && a.prep[key]) > 0)) {
+        return { key, deckSize: deck.cards.length, goal: a._deckGoal(key) }
+      }
+    }
+    return null
+  }, CANDIDATES)
+  expect(target, "an undrilled >=3-card lesson deck exists in white unit 2").toBeTruthy()
+  const { key, goal } = target!
+  expect(CANDIDATES).toContain(key)
+  expect(goal).toBe(3) // min(3, deckSize) with deckSize >= 3
+
+  const row = () => page.locator(`[data-lesson="${key}"]`).first()
+  const rerender = () => page.evaluate(() => (window as any).__neural.renderExplorer())
+  const prepOf = () => page.evaluate((k) => (window as any).__neural.prep[k] || 0, key)
+  const lessonBeats = async () => (await j.beats()).filter((b) => b.beat === "lesson_done")
+
+  // baseline: nothing has graded this life — zero lesson_done anywhere
+  expect(await lessonBeats()).toHaveLength(0)
+
+  // ONE BELOW THE BOUNDARY: prep=goal-1 — row not done, still zero beats
+  await j.drill(goal - 1, key)
+  expect(await prepOf()).toBe(goal - 1)
+  await rerender() // gotcha (1): rows only reflect prep at render time
+  expect(await row().getAttribute("data-done"), "row NOT done at prep=goal-1").toBeNull()
+  expect(await lessonBeats()).toHaveLength(0)
+
+  // THE CROSSING: the single grade that lands prep exactly on goal
+  await j.drill(1, key)
+  expect(await prepOf()).toBe(goal)
+  await rerender()
+  expect(await row().getAttribute("data-done"), "row done at prep===goal").toBe("1")
+  const crossed = await lessonBeats()
+  expect(crossed, "exactly one lesson_done at the crossing").toHaveLength(1)
+  expect((crossed[0] as any).deckKey).toBe(key)
+  expect((crossed[0] as any).unit).toBe(`${WHITE.id}/${UNIT2.id}`)
+  expect((crossed[0] as any).belt).toBe(WHITE.id)
+
+  // BEYOND: further grades bump prep past goal but never re-emit (_lessonBeatFired guard)
+  await j.drill(2, key)
+  expect(await prepOf()).toBe(goal + 2)
+  await rerender()
+  expect(await row().getAttribute("data-done"), "row stays done past goal").toBe("1")
+  expect(await lessonBeats(), "still exactly one lesson_done").toHaveLength(1)
+
+  // the crossing completed a LESSON only — no unit/checkpoint side effects ever fired
+  const beats = await j.beats()
+  expect(beats.filter((b) => b.beat === "unit_done")).toHaveLength(0)
+  expect(beats.filter((b) => b.beat.startsWith("checkpoint"))).toHaveLength(0)
+})

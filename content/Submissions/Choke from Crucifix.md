@@ -34,6 +34,54 @@ description: "Master the Choke from Crucifix in BJJ. Complete guide covering blo
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Choke from Crucifix \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Crucifix to Rear Naked Choke",
+      "description": "Choke from Crucifix film study: Crucifix to Rear Naked Choke, taught by Greg Ferguson.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/3t6j9HT6Mr8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/3t6j9HT6Mr8",
+      "url": "https://www.youtube.com/watch?v=3t6j9HT6Mr8",
+      "creator": { "@type": "Person", "name": "Greg Ferguson" },
+      "duration": "PT43S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Crucifix to Assassin Choke",
+      "description": "Choke from Crucifix film study: Crucifix to Assassin Choke, taught by Malachy Friedman.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/A6H5KUCB_0E/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/A6H5KUCB_0E",
+      "url": "https://www.youtube.com/watch?v=A6H5KUCB_0E",
+      "creator": { "@type": "Person", "name": "Malachy Friedman" },
+      "duration": "PT84S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Assassin Choke from Back Crucifix",
+      "description": "Choke from Crucifix film study: Assassin Choke from Back Crucifix, taught by Hellfish MMA.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/vCCarCZUPpM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/vCCarCZUPpM",
+      "url": "https://www.youtube.com/watch?v=vCCarCZUPpM",
+      "creator": { "@type": "Person", "name": "Hellfish MMA" },
+      "duration": "PT175S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -54,7 +102,7 @@ description: "Master the Choke from Crucifix in BJJ. Complete guide covering blo
 <span class="meta-chip">Choke</span>
 <span class="meta-chip">Blood Choke</span>
 <span class="meta-chip">Targets Carotid arteries and trachea</span>
-<span class="meta-chip">62% success</span>
+<span class="meta-chip">63% success</span>
 </div>
 
 > [!danger] Safety
@@ -78,6 +126,42 @@ This technique is commonly seen in high-level competition and represents excelle
 **Starting Position**: [[Positions/Crucifix]] · **From**: [[Positions/Crucifix]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Choke from Crucifix in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=3t6j9HT6Mr8)
+
+<p class="clip-credit"><strong>Crucifix to Rear Naked Choke</strong> — taught by Greg Ferguson · 0:43 · <a href="https://www.youtube.com/watch?v=3t6j9HT6Mr8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=A6H5KUCB_0E)
+
+<p class="clip-credit"><strong>Crucifix to Assassin Choke</strong> — taught by Malachy Friedman · 1:24 · <a href="https://www.youtube.com/watch?v=A6H5KUCB_0E" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=vCCarCZUPpM)
+
+<p class="clip-credit"><strong>Assassin Choke from Back Crucifix</strong> — taught by Hellfish MMA · 2:55 · <a href="https://www.youtube.com/watch?v=vCCarCZUPpM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="outcomes" class="content-section">
 
@@ -251,12 +335,12 @@ This technique is commonly seen in high-level competition and represents excelle
 ## Related
 - [[Submissions/Rear Naked Choke]]
 - [[Transitions/Clock Choke]]
-- [[Transitions/Arm Triangle]]
+- [[Submissions/Arm Triangle]]
 - [[Submissions/Kimura]]
 - [[Submissions/Ezekiel Choke]]
 - [[Submissions/Bow and Arrow Choke]]
 - [[Submissions/Bicep Slicer]]
-- [[Transitions/Darce Choke]]
+- [[Submissions/Darce Choke]]
 - [[Transitions/Back Control to Crucifix]] - Primary transition to reach crucifix position for this choke
 - [[Transitions/Crucifix from Turtle]] - Alternative entry to crucifix when opponent turtles
 - [[Transitions/Armbar from Crucifix]] - Alternative finish from same position when choke is defended

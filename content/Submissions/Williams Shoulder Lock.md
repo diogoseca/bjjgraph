@@ -34,6 +34,54 @@ description: "Master the Williams Shoulder Lock in BJJ. Complete guide covering 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Williams Shoulder Lock \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Neil Knot shoulder lock from Williams Guard",
+      "description": "Williams Shoulder Lock film study: Neil Knot shoulder lock from Williams Guard, taught by UFAI Grappling.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/CbhMCaKPYA4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/CbhMCaKPYA4",
+      "url": "https://www.youtube.com/watch?v=CbhMCaKPYA4",
+      "creator": { "@type": "Person", "name": "UFAI Grappling" },
+      "duration": "PT36S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Shoulder Pin to Neil Knot",
+      "description": "Williams Shoulder Lock film study: Shoulder Pin to Neil Knot, taught by Control Jiu-Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/YXaJU4DVUUc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/YXaJU4DVUUc",
+      "url": "https://www.youtube.com/watch?v=YXaJU4DVUUc",
+      "creator": { "@type": "Person", "name": "Control Jiu-Jitsu" },
+      "duration": "PT70S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Shoulder Pin Series",
+      "description": "Williams Shoulder Lock film study: Shoulder Pin Series, taught by Heritage JuJitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/URqmSVOr9Qw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/URqmSVOr9Qw",
+      "url": "https://www.youtube.com/watch?v=URqmSVOr9Qw",
+      "creator": { "@type": "Person", "name": "Heritage JuJitsu" },
+      "duration": "PT137S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -80,6 +128,42 @@ description: "Master the Williams Shoulder Lock in BJJ. Complete guide covering 
 The Williams Shoulder Lock is an advanced shoulder submission primarily executed from the Williams Guard position, utilizing an overhook control to isolate and attack the shoulder joint. This technique targets the glenohumeral joint and rotator cuff through a combination of lateral pressure and rotation, creating significant torque on the shoulder capsule. Named after its innovator, the Williams Shoulder Lock represents a sophisticated application of leverage principles where the attacker uses their entire body to control the opponent's arm while applying controlled rotational force. The submission is particularly effective against opponents who defend traditional armlocks by keeping their elbows tight, as it attacks a different plane of movement. The technique requires precise positioning and exceptional body awareness, making it a favorite among advanced practitioners who appreciate technical submissions over brute force applications. Due to the complexity of shoulder anatomy and the potential for serious injury, this submission demands careful study and controlled practice progression.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Williams Shoulder Lock in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=CbhMCaKPYA4)
+
+<p class="clip-credit"><strong>Neil Knot shoulder lock from Williams Guard</strong> — taught by UFAI Grappling · 0:36 · <a href="https://www.youtube.com/watch?v=CbhMCaKPYA4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=YXaJU4DVUUc)
+
+<p class="clip-credit"><strong>Shoulder Pin to Neil Knot</strong> — taught by Control Jiu-Jitsu · 1:10 · <a href="https://www.youtube.com/watch?v=YXaJU4DVUUc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=URqmSVOr9Qw)
+
+<p class="clip-credit"><strong>Shoulder Pin Series</strong> — taught by Heritage JuJitsu · 2:17 · <a href="https://www.youtube.com/watch?v=URqmSVOr9Qw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 
 <section id="variants" class="content-section">

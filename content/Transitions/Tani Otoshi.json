@@ -17,21 +17,33 @@
   "outcomes": [
     {
       "to": "Side Control/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Standing Position/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Standing Position/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "summary": "Tani Otoshi (Valley Drop) is a Judo-derived sacrifice throw where you drop to a seated hip position while blocking the opponent's leg and pulling their upper body across it to land directly in side control.",
   "overview": "Tani Otoshi, or Valley Drop, is a sacrifice throwing technique borrowed from Judo that has proven highly effective in Brazilian Jiu-Jitsu competition and no-gi grappling. Unlike traditional forward throws that require significant breaking of opponent's posture, Tani Otoshi capitalizes on lateral movement and timing, making it accessible to practitioners who may lack explosive power or superior size. The technique involves dropping to a seated position while simultaneously blocking the opponent's leg and controlling their upper body, creating a mechanical advantage that sends them over your blocking leg.\n\nWhat makes this throw particularly valuable in BJJ is its seamless transition potential - the throwing motion naturally places you in a dominant position (typically side control or knee on belly) as your opponent lands. The sacrifice nature of the technique also makes it psychologically surprising, as opponents often don't expect you to willingly drop your base. In modern competition, Tani Otoshi has gained popularity because it works effectively in both gi and no-gi contexts, requires minimal setup compared to other throws, and can be executed with relatively low energy expenditure when timed correctly.\n\nStrategically, Tani Otoshi fits into a broader standing game as a counter-offensive weapon. It punishes opponents who drive forward aggressively, circle into your preferred angle, or overcommit to grip fighting. The technique chains naturally with other judo-derived throws: if your opponent defends by stepping back, Osoto Gari becomes available; if they circle away, Tai Otoshi opens up. This makes Tani Otoshi not just a standalone technique but a central node in a standing attack system.",
   "related_content": [
@@ -238,46 +250,175 @@
     "flashcards": [
       {
         "question": "What is the primary mechanical principle that makes Tani Otoshi effective despite being a sacrifice throw?",
-        "answer": "The primary principle is creating a rigid mechanical obstacle (your blocking leg) below the opponent's center of gravity while simultaneously pulling their upper body forward and across your body. This creates a lever system where their forward momentum and body weight work against them, making it nearly impossible to maintain balance once properly executed. The sacrifice of your own base is compensated by the overwhelming mechanical advantage created through the leg block combined with rotational pulling force from upper body grips."
+        "answer": "The primary principle is creating a rigid mechanical obstacle (your blocking leg) below the opponent's center of gravity while simultaneously pulling their upper body forward and across your body. This creates a lever system where their forward momentum and body weight work against them, making it nearly impossible to maintain balance once properly executed. The sacrifice of your own base is compensated by the overwhelming mechanical advantage created through the leg block combined with rotational pulling force from upper body grips.",
+        "answer_line": "Leg block plus cross-body pull",
+        "distractors": {
+          "plausible": [
+            "Hip rotation like a hip throw",
+            "Pure upper body strength"
+          ],
+          "trap": [
+            "Drive forward into opponent"
+          ]
+        }
       },
       {
         "question": "Why is the lateral angle step critical to Tani Otoshi's success, and what happens if you attempt the throw from directly in front of your opponent?",
-        "answer": "The lateral angle step (typically 45 degrees) is critical because it positions your blocking leg across the opponent's leg line while simultaneously loading their weight onto the leg you intend to block. Attempting from directly in front means your blocking leg would need to wrap around further, giving opponent time to react and step over. The angle also creates rotational momentum that amplifies the throw. Without proper angle, the throw becomes a strength contest rather than a technical leverage advantage."
+        "answer": "The lateral angle step (typically 45 degrees) is critical because it positions your blocking leg across the opponent's leg line while simultaneously loading their weight onto the leg you intend to block. Attempting from directly in front means your blocking leg would need to wrap around further, giving opponent time to react and step over. The angle also creates rotational momentum that amplifies the throw. Without proper angle, the throw becomes a strength contest rather than a technical leverage advantage.",
+        "answer_line": "45° angle step loads target leg",
+        "distractors": {
+          "plausible": [
+            "Step straight back for space",
+            "Any angle works with grips"
+          ],
+          "trap": [
+            "Attack head-on, no angle"
+          ]
+        }
       },
       {
         "question": "Your opponent is aggressively driving forward with collar tie pressure - how does this create an opportunity for Tani Otoshi?",
-        "answer": "Forward pressure loads the opponent's weight onto their front foot, which is exactly the weight distribution Tani Otoshi exploits. Instead of fighting the pressure, use it by taking a lateral step to create your angle while they continue driving forward. Their forward momentum adds to the rotational force of the throw when you drop and block. The key is redirecting their forward energy laterally rather than absorbing it. Time the drop for the moment their weight is most committed forward, typically during a strong push or step."
+        "answer": "Forward pressure loads the opponent's weight onto their front foot, which is exactly the weight distribution Tani Otoshi exploits. Instead of fighting the pressure, use it by taking a lateral step to create your angle while they continue driving forward. Their forward momentum adds to the rotational force of the throw when you drop and block. The key is redirecting their forward energy laterally rather than absorbing it. Time the drop for the moment their weight is most committed forward, typically during a strong push or step.",
+        "answer_line": "Redirect their drive laterally",
+        "distractors": {
+          "plausible": [
+            "Push back against the pressure",
+            "Wait until pressure eases"
+          ],
+          "trap": [
+            "Match force head-on"
+          ]
+        }
       },
       {
         "question": "What grip configuration provides the strongest mechanical advantage for Tani Otoshi in gi, and why?",
-        "answer": "A high collar grip on the same side as your intended blocking direction combined with a sleeve grip on the opposite side provides optimal control. The collar grip allows you to pull the opponent's head and upper body down and across during the sacrifice, while the sleeve grip prevents them from posting their free hand to arrest the fall. This cross-body pulling configuration creates maximum rotational force. The collar grip should be deep behind the neck for maximum leverage rather than a shallow lapel grip."
+        "answer": "A high collar grip on the same side as your intended blocking direction combined with a sleeve grip on the opposite side provides optimal control. The collar grip allows you to pull the opponent's head and upper body down and across during the sacrifice, while the sleeve grip prevents them from posting their free hand to arrest the fall. This cross-body pulling configuration creates maximum rotational force. The collar grip should be deep behind the neck for maximum leverage rather than a shallow lapel grip.",
+        "answer_line": "Same-side collar, opposite sleeve",
+        "distractors": {
+          "plausible": [
+            "Two-on-one grip on the sleeve",
+            "Deep double lapel grip"
+          ],
+          "trap": [
+            "Underhook both arms"
+          ]
+        }
       },
       {
         "question": "You attempt Tani Otoshi but your opponent steps over your blocking leg - what are your two best immediate tactical responses?",
-        "answer": "First option: immediately transition to a single leg attack on the leg that stepped over your block, as it is now extended and isolated forward. Drive into the single leg as you come up from your dropped position. Second option: convert to butterfly guard by inserting hooks behind both of their knees from your seated position. This maintains offensive initiative and prevents opponent from capitalizing on your failed throw. Never remain static in the failed position waiting for them to pass."
+        "answer": "First option: immediately transition to a single leg attack on the leg that stepped over your block, as it is now extended and isolated forward. Drive into the single leg as you come up from your dropped position. Second option: convert to butterfly guard by inserting hooks behind both of their knees from your seated position. This maintains offensive initiative and prevents opponent from capitalizing on your failed throw. Never remain static in the failed position waiting for them to pass.",
+        "answer_line": "Single leg or butterfly hooks",
+        "distractors": {
+          "plausible": [
+            "Re-attempt the same throw",
+            "Pull to closed guard"
+          ],
+          "trap": [
+            "Freeze and let them pass"
+          ]
+        }
       },
       {
         "question": "How should you adjust Tani Otoshi execution against an opponent who is significantly taller than you?",
-        "answer": "Against taller opponents, close distance more aggressively in the setup phase to negate their reach advantage. Your blocking leg should target lower on their leg (upper shin area rather than knee) since their longer limbs create more leverage to step over higher blocks. Pull their upper body down more aggressively during the throw to overcome their height advantage. Consider using collar ties or head control to break their posture before attempting the throw. The lateral step may need to be slightly deeper to create proper angle given their longer stride length."
+        "answer": "Against taller opponents, close distance more aggressively in the setup phase to negate their reach advantage. Your blocking leg should target lower on their leg (upper shin area rather than knee) since their longer limbs create more leverage to step over higher blocks. Pull their upper body down more aggressively during the throw to overcome their height advantage. Consider using collar ties or head control to break their posture before attempting the throw. The lateral step may need to be slightly deeper to create proper angle given their longer stride length.",
+        "answer_line": "Close distance, block lower shin",
+        "distractors": {
+          "plausible": [
+            "Block higher at the knee",
+            "Stay at range, snipe the leg"
+          ],
+          "trap": [
+            "Try to out-lift their height"
+          ]
+        }
       },
       {
         "question": "What is the most critical difference between the drop phase of Tani Otoshi and simply sitting to guard?",
-        "answer": "The critical difference is directional intent and body mechanics. In Tani Otoshi, the drop is explosive and directed laterally with one leg extending as a rigid block while upper body grips maintain active pulling tension throughout. A guard pull involves sitting straight down or backward with legs ready to engage hooks. In Tani Otoshi, your hips drop while your chest stays connected to the opponent's chest, and the blocking leg is locked straight rather than bent for hooks. The pulling action must be continuous through the entire drop - releasing pulling pressure converts the throw into a failed guard pull."
+        "answer": "The critical difference is directional intent and body mechanics. In Tani Otoshi, the drop is explosive and directed laterally with one leg extending as a rigid block while upper body grips maintain active pulling tension throughout. A guard pull involves sitting straight down or backward with legs ready to engage hooks. In Tani Otoshi, your hips drop while your chest stays connected to the opponent's chest, and the blocking leg is locked straight rather than bent for hooks. The pulling action must be continuous through the entire drop - releasing pulling pressure converts the throw into a failed guard pull.",
+        "answer_line": "Maintain pull throughout the drop",
+        "distractors": {
+          "plausible": [
+            "Sit straight down, then pull",
+            "Bend blocking leg like a hook"
+          ],
+          "trap": [
+            "Release grips as you drop"
+          ]
+        }
       },
       {
         "question": "Why is Tani Otoshi particularly effective in no-gi and MMA contexts compared to other traditional Judo throws?",
-        "answer": "Tani Otoshi requires less grip dependency than throws like Seoi Nage or Uchi Mata which rely heavily on gi fabric control. The technique works effectively with body locks, over-under positions, or simple collar ties - all available in no-gi contexts. The lateral nature of the attack is less expected where most takedowns are linear (shots, body locks), creating surprise. The sacrifice nature also reduces guillotine counter risk since you control head position throughout. Finally, it requires less explosive lifting power than traditional throws, making it more energy efficient in extended competition."
+        "answer": "Tani Otoshi requires less grip dependency than throws like Seoi Nage or Uchi Mata which rely heavily on gi fabric control. The technique works effectively with body locks, over-under positions, or simple collar ties - all available in no-gi contexts. The lateral nature of the attack is less expected where most takedowns are linear (shots, body locks), creating surprise. The sacrifice nature also reduces guillotine counter risk since you control head position throughout. Finally, it requires less explosive lifting power than traditional throws, making it more energy efficient in extended competition.",
+        "answer_line": "Low grip need, low guillotine risk",
+        "distractors": {
+          "plausible": [
+            "Requires deep gi grips",
+            "Needs explosive lifting power"
+          ],
+          "trap": [
+            "Best set up from a shot takedown"
+          ]
+        }
       },
       {
         "question": "What role does Tani Otoshi play in a standing attack chain, and which throws complement it best?",
-        "answer": "Tani Otoshi functions as a lateral sacrifice attack that punishes forward weight commitment. It complements linear attacks like Kouchi Gari and Ouchi Gari, which force the opponent forward and load their weight onto the target leg. If the opponent defends Tani Otoshi by stepping back, Osoto Gari becomes available attacking the retreating leg. If they circle away, Tai Otoshi on the opposite side intercepts their circular motion. This creates a three-directional threat system: forward attacks set up the lateral sacrifice, and the sacrifice defenses open rear and opposite-side attacks."
+        "answer": "Tani Otoshi functions as a lateral sacrifice attack that punishes forward weight commitment. It complements linear attacks like Kouchi Gari and Ouchi Gari, which force the opponent forward and load their weight onto the target leg. If the opponent defends Tani Otoshi by stepping back, Osoto Gari becomes available attacking the retreating leg. If they circle away, Tai Otoshi on the opposite side intercepts their circular motion. This creates a three-directional threat system: forward attacks set up the lateral sacrifice, and the sacrifice defenses open rear and opposite-side attacks.",
+        "answer_line": "Chains off Kouchi/Ouchi Gari",
+        "distractors": {
+          "plausible": [
+            "Best used as the opening attack",
+            "Only chains into Osoto Gari"
+          ],
+          "trap": [
+            "Attack when they step backward"
+          ]
+        }
       },
       {
         "question": "At what point during Tani Otoshi execution should you release your grips, and what happens if you release too early?",
-        "answer": "Grips should be maintained with full pulling pressure until your opponent is clearly past the point of no return in their fall - typically when their center of gravity has passed over your blocking leg and they are airborne or falling. Releasing too early allows them to post a hand on the mat to arrest rotation, step over the block to regain balance, or simply remain standing while you sit to the mat with no control. The transition from pulling grips to posting for top position should happen during the final phase of their fall, not during the throwing motion itself."
+        "answer": "Grips should be maintained with full pulling pressure until your opponent is clearly past the point of no return in their fall - typically when their center of gravity has passed over your blocking leg and they are airborne or falling. Releasing too early allows them to post a hand on the mat to arrest rotation, step over the block to regain balance, or simply remain standing while you sit to the mat with no control. The transition from pulling grips to posting for top position should happen during the final phase of their fall, not during the throwing motion itself.",
+        "answer_line": "Hold pull until they're airborne",
+        "distractors": {
+          "plausible": [
+            "Release once they start falling",
+            "Switch grips mid-throw"
+          ],
+          "trap": [
+            "Let go early to post yourself"
+          ]
+        }
       }
     ],
-    "safety_considerations": "When practicing Tani Otoshi, the person being thrown must be taught proper breakfall technique before live drilling, particularly protecting the head and posting the far arm to control landing impact. The thrower must be careful not to drive their blocking leg directly into the opponent's knee joint, which could cause lateral knee ligament damage if executed with excessive force. Practice on appropriate mats with sufficient padding, especially during initial learning phases. When drilling with resistance, communicate clearly about intensity levels to prevent awkward landings. The blocking leg should contact the lower leg or upper shin area rather than directly into the knee. Partners should tap or verbally signal if they feel unstable or unable to safely complete the fall. Never practice this throw on hard surfaces or without proper supervision during the learning phase. Special caution is warranted with heavier training partners, as the combined body weight during the sacrifice can increase impact forces significantly."
+    "safety_considerations": "When practicing Tani Otoshi, the person being thrown must be taught proper breakfall technique before live drilling, particularly protecting the head and posting the far arm to control landing impact. The thrower must be careful not to drive their blocking leg directly into the opponent's knee joint, which could cause lateral knee ligament damage if executed with excessive force. Practice on appropriate mats with sufficient padding, especially during initial learning phases. When drilling with resistance, communicate clearly about intensity levels to prevent awkward landings. The blocking leg should contact the lower leg or upper shin area rather than directly into the knee. Partners should tap or verbally signal if they feel unstable or unable to safely complete the fall. Never practice this throw on hard surfaces or without proper supervision during the learning phase. Special caution is warranted with heavier training partners, as the combined body weight during the sacrifice can increase impact forces significantly.",
+    "clips": [
+      {
+        "id": "z1mirCkei_s",
+        "title": "Tani Otoshi throw",
+        "by": "Travis Stevens",
+        "vertical": false,
+        "channel": "Travis Stevens",
+        "duration": 12,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "AndVGmS5KR8",
+        "title": "Tani Otoshi valley drop breakdown",
+        "by": "Grappler Station",
+        "vertical": false,
+        "channel": "Grappler Station",
+        "duration": 79,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "MYF56XYb-nc",
+        "title": "Tani Otoshi judo takedown",
+        "by": "Unknown",
+        "vertical": false,
+        "channel": "Jiu-Jitsu Channel",
+        "duration": 87,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Tani Otoshi Defender",
@@ -369,23 +510,73 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that your opponent is setting up Tani Otoshi, and how should you respond?",
-        "answer": "The earliest cue is the lateral angle step - when your opponent takes a distinct step approximately 45 degrees to your side while maintaining or tightening their grip pressure. This step positions them for the blocking leg and creates the rotational angle. Your immediate response should be to circle in the same direction they stepped, denying them the angle advantage. Simultaneously, work to break their dominant grip (especially the collar grip) since the throw requires strong upper body pulling connection to generate rotational force."
+        "answer": "The earliest cue is the lateral angle step - when your opponent takes a distinct step approximately 45 degrees to your side while maintaining or tightening their grip pressure. This step positions them for the blocking leg and creates the rotational angle. Your immediate response should be to circle in the same direction they stepped, denying them the angle advantage. Simultaneously, work to break their dominant grip (especially the collar grip) since the throw requires strong upper body pulling connection to generate rotational force.",
+        "answer_line": "Circle with their angle step",
+        "distractors": {
+          "plausible": [
+            "Step straight back to escape",
+            "Wait and brace your base"
+          ],
+          "trap": [
+            "Circle away from their step"
+          ]
+        }
       },
       {
         "question": "Why is maintaining a slightly rear-weighted stance the best preventive defense against Tani Otoshi?",
-        "answer": "Tani Otoshi specifically exploits forward weight distribution - when your weight is loaded onto the front foot, the blocking leg below your knee creates an immovable obstacle and the rotational pull sends your upper body over it. A slightly rear-weighted stance keeps your center of gravity behind the blocking leg line, meaning the pull has to overcome your rear-loaded weight rather than amplify your forward momentum. This gives you significantly more time to react to the drop and either sprawl, step over, or circle away before the mechanical advantage develops."
+        "answer": "Tani Otoshi specifically exploits forward weight distribution - when your weight is loaded onto the front foot, the blocking leg below your knee creates an immovable obstacle and the rotational pull sends your upper body over it. A slightly rear-weighted stance keeps your center of gravity behind the blocking leg line, meaning the pull has to overcome your rear-loaded weight rather than amplify your forward momentum. This gives you significantly more time to react to the drop and either sprawl, step over, or circle away before the mechanical advantage develops.",
+        "answer_line": "Rear-weighted stance defends it",
+        "distractors": {
+          "plausible": [
+            "Even weight distribution",
+            "Wide low forward stance"
+          ],
+          "trap": [
+            "Lean weight onto lead foot"
+          ]
+        }
       },
       {
         "question": "Your opponent has already begun dropping and their blocking leg is contacting your shin - what is your best defensive option at this late stage?",
-        "answer": "At this late stage with the block already in contact, your best option is to immediately post your free hand (the hand not being controlled by their grips) on the mat on the opposite side of the throw direction. This arrests the rotational momentum and prevents the full fall. Simultaneously, bend the blocked knee aggressively to try to step over or around the blocking leg. If you can arrest the rotation even partially, you can scramble to a position where the attacker is seated and you are partially standing, then work to extract your leg and establish top position."
+        "answer": "At this late stage with the block already in contact, your best option is to immediately post your free hand (the hand not being controlled by their grips) on the mat on the opposite side of the throw direction. This arrests the rotational momentum and prevents the full fall. Simultaneously, bend the blocked knee aggressively to try to step over or around the blocking leg. If you can arrest the rotation even partially, you can scramble to a position where the attacker is seated and you are partially standing, then work to extract your leg and establish top position.",
+        "answer_line": "Post free hand, step over block",
+        "distractors": {
+          "plausible": [
+            "Pull them tighter into your chest",
+            "Sit down and accept the fall"
+          ],
+          "trap": [
+            "Post the hand being gripped"
+          ]
+        }
       },
       {
         "question": "How does the defense against Tani Otoshi differ from defending a traditional forward throw like Seoi Nage?",
-        "answer": "Against forward throws like Seoi Nage, the primary defense is to circle toward the throwing direction, drive your hips into the opponent, or hop over their hip entry. Against Tani Otoshi, you must circle away from the throw direction since the attack is lateral and low rather than rotational and high. Sprawling is more effective against Tani Otoshi because the attacker is dropping their base rather than loading you onto their hips. Additionally, the blocking leg is low (shin/knee level) rather than at hip level, so the defensive movement emphasizes stepping over or away rather than driving forward into the thrower."
+        "answer": "Against forward throws like Seoi Nage, the primary defense is to circle toward the throwing direction, drive your hips into the opponent, or hop over their hip entry. Against Tani Otoshi, you must circle away from the throw direction since the attack is lateral and low rather than rotational and high. Sprawling is more effective against Tani Otoshi because the attacker is dropping their base rather than loading you onto their hips. Additionally, the blocking leg is low (shin/knee level) rather than at hip level, so the defensive movement emphasizes stepping over or away rather than driving forward into the thrower.",
+        "answer_line": "Circle away, sprawl the block",
+        "distractors": {
+          "plausible": [
+            "Circle toward the throw direction",
+            "Drive your hips into them"
+          ],
+          "trap": [
+            "Hop over their hip like Seoi Nage"
+          ]
+        }
       },
       {
         "question": "What opportunities does a successfully defended Tani Otoshi create for you as the defender?",
-        "answer": "A failed Tani Otoshi leaves the attacker seated on the mat with compromised base and often with weakened grip control. This creates several offensive opportunities: you can immediately pass their seated guard to establish side control since they sacrificed their standing base; you can snap down into a front headlock if they are reaching up; you can disengage and force them to stand back up while you maintain superior position; or you can attack with your own takedown since they must rebuild their stance from the ground. The key is recognizing that a defended sacrifice throw is one of the best counter-attacking opportunities in standing grappling."
+        "answer": "A failed Tani Otoshi leaves the attacker seated on the mat with compromised base and often with weakened grip control. This creates several offensive opportunities: you can immediately pass their seated guard to establish side control since they sacrificed their standing base; you can snap down into a front headlock if they are reaching up; you can disengage and force them to stand back up while you maintain superior position; or you can attack with your own takedown since they must rebuild their stance from the ground. The key is recognizing that a defended sacrifice throw is one of the best counter-attacking opportunities in standing grappling.",
+        "answer_line": "Pass their seated guard fast",
+        "distractors": {
+          "plausible": [
+            "Pull guard and work from bottom",
+            "Stand tall and wait for their move"
+          ],
+          "trap": [
+            "Turn your back to disengage"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -408,6 +599,26 @@
         "phase": "Week 9+: Live Application and Scenario Sparring",
         "focus": "Defending Tani Otoshi in live standing exchanges with full resistance",
         "description": "Begin from standing with partner actively hunting for Tani Otoshi while defender practices real-time recognition and defense. Progress to mixed sparring where partner can attempt any throw including Tani Otoshi, requiring defender to differentiate and respond appropriately. Develop automatic defensive reactions that work against the full chain of standing attacks."
+      }
+    ],
+    "clips": [
+      {
+        "id": "mxGkw5fQRhg",
+        "title": "The Switch: countering with Tani Otoshi",
+        "by": "Shintaro Higashi",
+        "vertical": false,
+        "channel": "Shintaro Higashi",
+        "duration": 78,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "q3Dr7X006eE",
+        "title": "Tani Otoshi into Uchimata",
+        "by": "Shintaro Higashi",
+        "vertical": false,
+        "channel": "Shintaro Higashi",
+        "duration": 69,
+        "verified": "2026-07-15"
       }
     ]
   },

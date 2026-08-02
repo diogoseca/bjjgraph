@@ -34,6 +34,54 @@ description: "Master the Two-on-One to Back Take in BJJ. Step-by-step execution 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Two-on-One to Back Take \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Two-on-one Russian tie to arm drag back take",
+      "description": "Two-on-One to Back Take film study: Two-on-one Russian tie to arm drag back take, taught by EDH Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/RjAfCtXl7B4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/RjAfCtXl7B4",
+      "url": "https://www.youtube.com/watch?v=RjAfCtXl7B4",
+      "creator": { "@type": "Person", "name": "EDH Jiu Jitsu" },
+      "duration": "PT118S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Russian tie back take",
+      "description": "Two-on-One to Back Take film study: Russian tie back take, taught by Cody Floyd.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/NFRtUW5ZIvo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/NFRtUW5ZIvo",
+      "url": "https://www.youtube.com/watch?v=NFRtUW5ZIvo",
+      "creator": { "@type": "Person", "name": "Cody Floyd" },
+      "duration": "PT55S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Russian tie offense for BJJ and MMA",
+      "description": "Two-on-One to Back Take film study: Russian tie offense for BJJ and MMA, taught by Stuart Tomlinson.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/pTbiUDyFDQE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/pTbiUDyFDQE",
+      "url": "https://www.youtube.com/watch?v=pTbiUDyFDQE",
+      "creator": { "@type": "Person", "name": "Stuart Tomlinson" },
+      "duration": "PT572S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ What makes this technique particularly dangerous is the three-way dilemma it cre
 **Success Rate**: 55%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Two-on-One to Back Take in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=RjAfCtXl7B4)
+
+<p class="clip-credit"><strong>Two-on-one Russian tie to arm drag back take</strong> — taught by EDH Jiu Jitsu · 1:58 · <a href="https://www.youtube.com/watch?v=RjAfCtXl7B4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=NFRtUW5ZIvo)
+
+<p class="clip-credit"><strong>Russian tie back take</strong> — taught by Cody Floyd · 0:55 · <a href="https://www.youtube.com/watch?v=NFRtUW5ZIvo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=pTbiUDyFDQE)
+
+<p class="clip-credit"><strong>Russian tie offense for BJJ and MMA</strong> — taught by Stuart Tomlinson · 9:32 · <a href="https://www.youtube.com/watch?v=pTbiUDyFDQE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 
@@ -247,7 +331,7 @@ The two-on-one to back take serves as a critical bridge position in the standing
 
 - [[Positions/Front Headlock]] - Alternative transition target if back take is denied
 
-- [[Transitions/Duck Under]] - Related pathway technique for accessing opponent's back from clinch
+- [[Transitions/Duck Under from Clinch]] - Related pathway technique for accessing opponent's back from clinch
 
 - [[Positions/Overhook Control]] - Complementary clinch control position that can set up two-on-one
 

@@ -148,6 +148,43 @@ description: "Defend the Bull Pass from Collar Sleeve Guard. Recognition cues, g
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Bull Pass from Collar Sleeve (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Collar sleeve matrix defense, overhead sweep",
+      "description": "Bull Pass from Collar Sleeve (Defender) film study: Collar sleeve matrix defense, overhead sweep, taught by Luciana Marcos.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/wdvJF6S68TI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/wdvJF6S68TI",
+      "url": "https://www.youtube.com/watch?v=wdvJF6S68TI",
+      "creator": { "@type": "Person", "name": "Luciana Marcos" },
+      "duration": "PT68S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Tripod sweep from collar sleeve guard",
+      "description": "Bull Pass from Collar Sleeve (Defender) film study: Tripod sweep from collar sleeve guard, taught by Golden State BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/sXMtbCGzpvs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/sXMtbCGzpvs",
+      "url": "https://www.youtube.com/watch?v=sXMtbCGzpvs",
+      "creator": { "@type": "Person", "name": "Golden State BJJ" },
+      "duration": "PT95S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +194,34 @@ As the defender facing a bull pass from your collar sleeve guard, your primary o
 **Opponent's Starting Position**: [[Positions/Collar Sleeve Guard]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Bull Pass from Collar Sleeve (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=wdvJF6S68TI)
+
+<p class="clip-credit"><strong>Collar sleeve matrix defense, overhead sweep</strong> — taught by Luciana Marcos · 1:08 · <a href="https://www.youtube.com/watch?v=wdvJF6S68TI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=sXMtbCGzpvs)
+
+<p class="clip-credit"><strong>Tripod sweep from collar sleeve guard</strong> — taught by Golden State BJJ · 1:35 · <a href="https://www.youtube.com/watch?v=sXMtbCGzpvs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

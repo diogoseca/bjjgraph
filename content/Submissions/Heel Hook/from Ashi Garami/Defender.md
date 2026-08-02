@@ -155,6 +155,54 @@ description: "Defend against the heel hook from Ashi Garami with early recogniti
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Heel Hook from Ashi Garami (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Double outside ashi heel hook escape",
+      "description": "Heel Hook from Ashi Garami (Defender) film study: Double outside ashi heel hook escape, taught by Grappling Game Changer.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/2RLgyzWN71Y/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/2RLgyzWN71Y",
+      "url": "https://www.youtube.com/watch?v=2RLgyzWN71Y",
+      "creator": { "@type": "Person", "name": "Grappling Game Changer" },
+      "duration": "PT54S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Leg defense from ashi garami",
+      "description": "Heel Hook from Ashi Garami (Defender) film study: Leg defense from ashi garami, taught by The Coop BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/L417yCl_-dc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/L417yCl_-dc",
+      "url": "https://www.youtube.com/watch?v=L417yCl_-dc",
+      "creator": { "@type": "Person", "name": "The Coop BJJ" },
+      "duration": "PT48S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Outside ashi heel hook escape to back take",
+      "description": "Heel Hook from Ashi Garami (Defender) film study: Outside ashi heel hook escape to back take, taught by Grapple Box.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/KmGhb2j68Ng/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/KmGhb2j68Ng",
+      "url": "https://www.youtube.com/watch?v=KmGhb2j68Ng",
+      "creator": { "@type": "Person", "name": "Grapple Box" },
+      "duration": "PT34S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <aside class="entity-relations">
@@ -168,6 +216,42 @@ Defending the heel hook from Ashi Garami demands early recognition and immediate
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Heel Hook from Ashi Garami (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=2RLgyzWN71Y)
+
+<p class="clip-credit"><strong>Double outside ashi heel hook escape</strong> — taught by Grappling Game Changer · 0:54 · <a href="https://www.youtube.com/watch?v=2RLgyzWN71Y" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=L417yCl_-dc)
+
+<p class="clip-credit"><strong>Leg defense from ashi garami</strong> — taught by The Coop BJJ · 0:48 · <a href="https://www.youtube.com/watch?v=L417yCl_-dc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=KmGhb2j68Ng)
+
+<p class="clip-credit"><strong>Outside ashi heel hook escape to back take</strong> — taught by Grapple Box · 0:34 · <a href="https://www.youtube.com/watch?v=KmGhb2j68Ng" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

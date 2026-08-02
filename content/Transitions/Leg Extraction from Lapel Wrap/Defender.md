@@ -148,6 +148,43 @@ description: "How to defend against Leg Extraction from Lapel Wrap in BJJ. Maint
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Leg Extraction from Lapel Wrap (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Worm Guard Setup and Leg Control",
+      "description": "Leg Extraction from Lapel Wrap (Defender) film study: Worm Guard Setup and Leg Control, taught by Fit 2 Defend Academy.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/vNi5fRjWopE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/vNi5fRjWopE",
+      "url": "https://www.youtube.com/watch?v=vNi5fRjWopE",
+      "creator": { "@type": "Person", "name": "Fit 2 Defend Academy" },
+      "duration": "PT306S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Proto-Guard Grips to Keep Control",
+      "description": "Leg Extraction from Lapel Wrap (Defender) film study: Proto-Guard Grips to Keep Control, taught by Keenan Cornelius.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ba5KOGBUpNo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ba5KOGBUpNo",
+      "url": "https://www.youtube.com/watch?v=ba5KOGBUpNo",
+      "creator": { "@type": "Person", "name": "Keenan Cornelius" },
+      "duration": "PT230S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -161,6 +198,34 @@ Your most powerful tool is forcing the top player into a dilemma: if they commit
 **Opponent's Starting Position**: [[Positions/Ringworm Guard]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Leg Extraction from Lapel Wrap (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=vNi5fRjWopE)
+
+<p class="clip-credit"><strong>Worm Guard Setup and Leg Control</strong> — taught by Fit 2 Defend Academy · 5:06 · <a href="https://www.youtube.com/watch?v=vNi5fRjWopE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ba5KOGBUpNo)
+
+<p class="clip-credit"><strong>Proto-Guard Grips to Keep Control</strong> — taught by Keenan Cornelius · 3:50 · <a href="https://www.youtube.com/watch?v=ba5KOGBUpNo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

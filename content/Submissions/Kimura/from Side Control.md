@@ -34,6 +34,43 @@ description: "Master the Kimura from Side Control in BJJ. Comprehensive guide co
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Kimura from Side Control \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Set up Kimura from side control",
+      "description": "Kimura from Side Control film study: Set up Kimura from side control, taught by Heiho Dojo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/g-e2ZrNsoNQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/g-e2ZrNsoNQ",
+      "url": "https://www.youtube.com/watch?v=g-e2ZrNsoNQ",
+      "creator": { "@type": "Person", "name": "Heiho Dojo" },
+      "duration": "PT61S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Kimura finish from side control",
+      "description": "Kimura from Side Control film study: Kimura finish from side control, taught by ZombieProofBJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/FYKc-hep22I/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/FYKc-hep22I",
+      "url": "https://www.youtube.com/watch?v=FYKc-hep22I",
+      "creator": { "@type": "Person", "name": "ZombieProofBJJ" },
+      "duration": "PT31S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -74,6 +111,34 @@ The Kimura from Side Control is one of the most fundamental and high-percentage 
 **Starting Position**: [[Positions/Side Control]] · **From**: [[Positions/Side Control]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Kimura from Side Control in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=g-e2ZrNsoNQ)
+
+<p class="clip-credit"><strong>Set up Kimura from side control</strong> — taught by Heiho Dojo · 1:01 · <a href="https://www.youtube.com/watch?v=g-e2ZrNsoNQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=FYKc-hep22I)
+
+<p class="clip-credit"><strong>Kimura finish from side control</strong> — taught by ZombieProofBJJ · 0:31 · <a href="https://www.youtube.com/watch?v=FYKc-hep22I" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="outcomes" class="content-section">
 
@@ -253,9 +318,9 @@ The Kimura from Side Control is one of the most fundamental and high-percentage 
 - [[Submissions/Americana]]
 - [[Submissions/Reverse Kimura]]
 - [[Submissions/Far Side Armbar]]
-- [[Transitions/Arm Triangle]]
-- [[Transitions/North-South Choke]]
-- [[Transitions/Darce Choke]]
+- [[Submissions/Arm Triangle]]
+- [[Submissions/North-South Choke]]
+- [[Submissions/Darce Choke]]
 - [[Submissions/Kesa Gatame Arm Crush]]
 - [[Submissions/Ezekiel Choke]]
 - [[Positions/Kimura Trap]] - Control system based on maintaining Kimura grip for positional dominance

@@ -34,6 +34,54 @@ description: "Master the Banana Split compression submission in BJJ. Complete gu
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Banana Split \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Banana Split",
+      "description": "Banana Split film study: Banana Split, taught by Bowerhouse MMA.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/OUDbEh7cr4k/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/OUDbEh7cr4k",
+      "url": "https://www.youtube.com/watch?v=OUDbEh7cr4k",
+      "creator": { "@type": "Person", "name": "Bowerhouse MMA" },
+      "duration": "PT57S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "The Truck In Transition",
+      "description": "Banana Split film study: The Truck In Transition, taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/sCBGkcJCQYY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/sCBGkcJCQYY",
+      "url": "https://www.youtube.com/watch?v=sCBGkcJCQYY",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT61S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Turtle attacks: calf slicer to banana split",
+      "description": "Banana Split film study: Turtle attacks: calf slicer to banana split, taught by Renzo Gracie Holland.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/W6rQi-vPhsw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/W6rQi-vPhsw",
+      "url": "https://www.youtube.com/watch?v=W6rQi-vPhsw",
+      "creator": { "@type": "Person", "name": "Renzo Gracie Holland" },
+      "duration": "PT61S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -86,6 +134,42 @@ The Banana Split often works in combination with other attacks from half guard a
 </section>
 
 
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Banana Split in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=OUDbEh7cr4k)
+
+<p class="clip-credit"><strong>Banana Split</strong> — taught by Bowerhouse MMA · 0:57 · <a href="https://www.youtube.com/watch?v=OUDbEh7cr4k" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=sCBGkcJCQYY)
+
+<p class="clip-credit"><strong>The Truck In Transition</strong> — taught by Eddie Bravo · 1:01 · <a href="https://www.youtube.com/watch?v=sCBGkcJCQYY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=W6rQi-vPhsw)
+
+<p class="clip-credit"><strong>Turtle attacks: calf slicer to banana split</strong> — taught by Renzo Gracie Holland · 1:01 · <a href="https://www.youtube.com/watch?v=W6rQi-vPhsw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
+
+
 <section id="variants" class="content-section">
 
 ## What positions can you finish from?
@@ -95,7 +179,7 @@ The Banana Split often works in combination with other attacks from half guard a
 
 | From Position | Seat | Success | Play as Attacker | Play as Defender |
 |---|---|---|---|---|
-| [[Submissions/Banana Split/from Truck|Truck]] | Top | 48% | [[Submissions/Banana Split/from Truck/Attacker|Attack →]] | [[Submissions/Banana Split/from Truck/Defender|Defend →]] |
+| [[Submissions/Banana Split/from Truck|Truck]] | Top | 58% | [[Submissions/Banana Split/from Truck/Attacker|Attack →]] | [[Submissions/Banana Split/from Truck/Defender|Defend →]] |
 
 
 </div>
@@ -124,7 +208,7 @@ The Banana Split often works in combination with other attacks from half guard a
 - [[Submissions/Twister]] - Primary alternative submission from truck position targeting the spine
 - [[Submissions/Crotch Ripper]] - Closely related groin stretch sharing electric chair sweep mechanics
 - [[Submissions/Boston Crab]] - Similar back compression submission with leg control from turtle position
-- [[Transitions/Estima Lock]] - Alternative foot lock from similar leg entanglement configurations
+- [[Submissions/Estima Lock]] - Alternative foot lock from similar leg entanglement configurations
 - [[Submissions/Achilles Lock]] - Complementary ankle lock available from ashi garami transitions
 - [[Submissions/Toe Hold]] - Alternative foot attack when banana split leg control is partially established
 - [[Transitions/Kneebar]] - Complementary knee joint lock from similar leg entanglement positions

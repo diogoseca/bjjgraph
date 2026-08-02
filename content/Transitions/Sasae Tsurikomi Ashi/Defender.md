@@ -148,6 +148,43 @@ description: "How to defend against Sasae Tsurikomi Ashi in BJJ. Recognition cue
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Sasae Tsurikomi Ashi (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Foot sweep counter",
+      "description": "Sasae Tsurikomi Ashi (Defender) film study: Foot sweep counter, taught by FL Jiu Jitsu Studies coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/klXnE1xnfKI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/klXnE1xnfKI",
+      "url": "https://www.youtube.com/watch?v=klXnE1xnfKI",
+      "creator": { "@type": "Person", "name": "FL Jiu Jitsu Studies coach" },
+      "duration": "PT12S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Beating the stiff arm to shut down foot sweeps",
+      "description": "Sasae Tsurikomi Ashi (Defender) film study: Beating the stiff arm to shut down foot sweeps, taught by Travis Stevens.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/VGy3imISlaA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/VGy3imISlaA",
+      "url": "https://www.youtube.com/watch?v=VGy3imISlaA",
+      "creator": { "@type": "Person", "name": "Travis Stevens" },
+      "duration": "PT95S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +194,34 @@ Defending Sasae Tsurikomi Ashi requires early recognition and proactive posture 
 **Opponent's Starting Position**: [[Positions/Standing Position]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Sasae Tsurikomi Ashi (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=klXnE1xnfKI)
+
+<p class="clip-credit"><strong>Foot sweep counter</strong> — taught by FL Jiu Jitsu Studies coach · 0:12 · <a href="https://www.youtube.com/watch?v=klXnE1xnfKI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=VGy3imISlaA)
+
+<p class="clip-credit"><strong>Beating the stiff arm to shut down foot sweeps</strong> — taught by Travis Stevens · 1:35 · <a href="https://www.youtube.com/watch?v=VGy3imISlaA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

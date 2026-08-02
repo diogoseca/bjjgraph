@@ -148,6 +148,54 @@ description: "Learn to defend the stack pass from inverted guard. Recognition cu
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Stack from Inverted (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Double under stack defense and counter",
+      "description": "Stack from Inverted (Defender) film study: Double under stack defense and counter, taught by Wim Deputter.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Ad0qtay9IVQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Ad0qtay9IVQ",
+      "url": "https://www.youtube.com/watch?v=Ad0qtay9IVQ",
+      "creator": { "@type": "Person", "name": "Wim Deputter" },
+      "duration": "PT130S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Stack Pass Defense to Triangle Trap Position",
+      "description": "Stack from Inverted (Defender) film study: Stack Pass Defense to Triangle Trap Position, taught by Mark Cerrone.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/mOvf60z4HS0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/mOvf60z4HS0",
+      "url": "https://www.youtube.com/watch?v=mOvf60z4HS0",
+      "creator": { "@type": "Person", "name": "Mark Cerrone" },
+      "duration": "PT61S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Stack Pass and Defense Tips",
+      "description": "Stack from Inverted (Defender) film study: Stack Pass and Defense Tips, taught by Jimmy Thompson.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/KFYuvpewSaw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/KFYuvpewSaw",
+      "url": "https://www.youtube.com/watch?v=KFYuvpewSaw",
+      "creator": { "@type": "Person", "name": "Jimmy Thompson" },
+      "duration": "PT67S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +205,42 @@ As the defender playing inverted guard against a stack attempt, your primary obj
 **Opponent's Starting Position**: [[Positions/Inverted Guard]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Stack from Inverted (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Ad0qtay9IVQ)
+
+<p class="clip-credit"><strong>Double under stack defense and counter</strong> — taught by Wim Deputter · 2:10 · <a href="https://www.youtube.com/watch?v=Ad0qtay9IVQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=mOvf60z4HS0)
+
+<p class="clip-credit"><strong>Stack Pass Defense to Triangle Trap Position</strong> — taught by Mark Cerrone · 1:01 · <a href="https://www.youtube.com/watch?v=mOvf60z4HS0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=KFYuvpewSaw)
+
+<p class="clip-credit"><strong>Stack Pass and Defense Tips</strong> — taught by Jimmy Thompson · 1:07 · <a href="https://www.youtube.com/watch?v=KFYuvpewSaw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

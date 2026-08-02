@@ -34,6 +34,43 @@ description: "Master the Side Control to North-South transition in BJJ. Maintain
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Side Control to North-South \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Side control to north-south position",
+      "description": "Side Control to North-South film study: Side control to north-south position, taught by Joao Crus.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/vvZJYBd7z3o/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/vvZJYBd7z3o",
+      "url": "https://www.youtube.com/watch?v=vvZJYBd7z3o",
+      "creator": { "@type": "Person", "name": "Joao Crus" },
+      "duration": "PT88S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Side control to north-south darce",
+      "description": "Side Control to North-South film study: Side control to north-south darce, taught by Gracie Westchase coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/22EYQ2uhxQw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/22EYQ2uhxQw",
+      "url": "https://www.youtube.com/watch?v=22EYQ2uhxQw",
+      "creator": { "@type": "Person", "name": "Gracie Westchase coach" },
+      "duration": "PT75S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -66,9 +103,37 @@ Unlike Side Control where opponents can create frames with their near-side arm, 
 Understanding when to transition versus when to maintain Side Control is critical for strategic positional flow. The decision should be reactive, not pre-planned. When the opponent gives you cues through their defensive movements, you capitalize by flowing to North-South. This reactive approach means you are always one step ahead, using their energy against them while maintaining constant pressure throughout the entire rotational path.
 
 **From Position**: [[Positions/Side Control]] (Top)
-**Success Rate**: 78%
+**Success Rate**: 54%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Side Control to North-South in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=vvZJYBd7z3o)
+
+<p class="clip-credit"><strong>Side control to north-south position</strong> — taught by Joao Crus · 1:28 · <a href="https://www.youtube.com/watch?v=vvZJYBd7z3o" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=22EYQ2uhxQw)
+
+<p class="clip-credit"><strong>Side control to north-south darce</strong> — taught by Gracie Westchase coach · 1:15 · <a href="https://www.youtube.com/watch?v=22EYQ2uhxQw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 
@@ -243,7 +308,7 @@ The North-South transition is a critical component of top control maintenance an
 
 - [[Transitions/North-South to Kimura]] - Primary submission attack after transition
 
-- [[Transitions/North-South Choke]] - High-percentage submission from arrived position
+- [[Submissions/North-South Choke]] - High-percentage submission from arrived position
 
 - [[Transitions/North-South Escape]] - Understanding opponent's defensive options from North-South
 

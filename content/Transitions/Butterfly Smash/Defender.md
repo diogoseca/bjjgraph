@@ -148,6 +148,43 @@ description: "How to defend against Butterfly Smash in BJJ. Recognition cues, de
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Butterfly Smash (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Smash pass counter",
+      "description": "Butterfly Smash (Defender) film study: Smash pass counter, taught by Hauck Jiu-Jitsu coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/wWEaSPfKvJ0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/wWEaSPfKvJ0",
+      "url": "https://www.youtube.com/watch?v=wWEaSPfKvJ0",
+      "creator": { "@type": "Person", "name": "Hauck Jiu-Jitsu coach" },
+      "duration": "PT100S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Guard retention using butterfly hooks vs the smash",
+      "description": "Butterfly Smash (Defender) film study: Guard retention using butterfly hooks vs the smash, taught by Diamondback Jiu-Jitsu coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/02sVMQyHuGc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/02sVMQyHuGc",
+      "url": "https://www.youtube.com/watch?v=02sVMQyHuGc",
+      "creator": { "@type": "Person", "name": "Diamondback Jiu-Jitsu coach" },
+      "duration": "PT81S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -159,6 +196,34 @@ The defensive framework operates on a hierarchy: first, prevent the initial stru
 **Opponent's Starting Position**: [[Positions/Butterfly Guard]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Butterfly Smash (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=wWEaSPfKvJ0)
+
+<p class="clip-credit"><strong>Smash pass counter</strong> — taught by Hauck Jiu-Jitsu coach · 1:40 · <a href="https://www.youtube.com/watch?v=wWEaSPfKvJ0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=02sVMQyHuGc)
+
+<p class="clip-credit"><strong>Guard retention using butterfly hooks vs the smash</strong> — taught by Diamondback Jiu-Jitsu coach · 1:21 · <a href="https://www.youtube.com/watch?v=02sVMQyHuGc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

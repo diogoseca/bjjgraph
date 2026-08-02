@@ -161,6 +161,43 @@ description: "How to enter lapel guard from De La Riva in BJJ. Attacking perspec
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "De La Riva to Lapel Guard (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Worm guard to back choke",
+      "description": "De La Riva to Lapel Guard (Attacker) film study: Worm guard to back choke, taught by Keenan Cornelius.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ARmiJRANTpg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ARmiJRANTpg",
+      "url": "https://www.youtube.com/watch?v=ARmiJRANTpg",
+      "creator": { "@type": "Person", "name": "Keenan Cornelius" },
+      "duration": "PT36S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Lapel guard entry demonstration",
+      "description": "De La Riva to Lapel Guard (Attacker) film study: Lapel guard entry demonstration, taught by Unknown.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/OO2IqO3M8f8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/OO2IqO3M8f8",
+      "url": "https://www.youtube.com/watch?v=OO2IqO3M8f8",
+      "creator": { "@type": "Person", "name": "Unknown" },
+      "duration": "PT52S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <aside class="entity-relations">
@@ -177,6 +214,34 @@ The transition rewards patience and timing over speed. Rushing the extraction be
 **From Position**: [[Positions/De La Riva Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch De La Riva to Lapel Guard (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ARmiJRANTpg)
+
+<p class="clip-credit"><strong>Worm guard to back choke</strong> — taught by Keenan Cornelius · 0:36 · <a href="https://www.youtube.com/watch?v=ARmiJRANTpg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=OO2IqO3M8f8)
+
+<p class="clip-credit"><strong>Lapel guard entry demonstration</strong> — taught by Unknown · 0:52 · <a href="https://www.youtube.com/watch?v=OO2IqO3M8f8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

@@ -21,13 +21,13 @@ description: "Master Z-Guard Top in BJJ. Complete guide covering passing strateg
     {
       "@type": "HowToStep",
       "name": "Execute Knee Slice Pass",
-      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 40% of exchanges from this position.",
+      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 14% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Knee Slice from Half",
-      "text": "From this position, attempt Knee Slice from Half. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Knee Slice from Half. This technique is attempted in 9% of exchanges from this position.",
       "position": 2
     },
     {
@@ -39,19 +39,19 @@ description: "Master Z-Guard Top in BJJ. Complete guide covering passing strateg
     {
       "@type": "HowToStep",
       "name": "Execute Smash Pass",
-      "text": "From this position, attempt Smash Pass. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Smash Pass. This technique is attempted in 12% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Back Step",
-      "text": "From this position, attempt Back Step. This technique is attempted in 9% of exchanges from this position.",
+      "text": "From this position, attempt Back Step. This technique is attempted in 16% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Underhook Pass",
-      "text": "From this position, attempt Underhook Pass. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Underhook Pass. This technique is attempted in 7% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -154,6 +154,43 @@ description: "Master Z-Guard Top in BJJ. Complete guide covering passing strateg
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Z-Guard (Top) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Z-Guard pass to the back",
+      "description": "Z-Guard (Top) film study: Z-Guard pass to the back, taught by Animal.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/GQeS3xTXlb0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/GQeS3xTXlb0",
+      "url": "https://www.youtube.com/watch?v=GQeS3xTXlb0",
+      "creator": { "@type": "Person", "name": "Animal" },
+      "duration": "PT48S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "How to pass the Z-Guard (no-gi)",
+      "description": "Z-Guard (Top) film study: How to pass the Z-Guard (no-gi), taught by Zach LeCates.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/39EhiiW-p6o/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/39EhiiW-p6o",
+      "url": "https://www.youtube.com/watch?v=39EhiiW-p6o",
+      "creator": { "@type": "Person", "name": "Zach LeCates" },
+      "duration": "PT151S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <aside class="entity-relations">
@@ -168,6 +205,34 @@ The strategic challenge of Z-Guard Top lies in overcoming the bottom player's su
 From a competitive perspective, mastering Z-Guard Top passing is essential for any serious practitioner, as this defensive structure has become ubiquitous in modern BJJ across all belt levels and competition formats. The position serves as a critical testing ground for passing principles including pressure application, base maintenance, and reaction-based technique chaining. Understanding how to efficiently pass Z-Guard separates competent grapplers from elite competitors, as the position requires technical sophistication rather than relying solely on physical attributes. For the top player, Z-Guard represents both challenge and opportunity - while the defensive frames create significant obstacles, successful passes from this position often lead directly to dominant control positions with excellent submission opportunities.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Z-Guard (Top) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=GQeS3xTXlb0)
+
+<p class="clip-credit"><strong>Z-Guard pass to the back</strong> — taught by Animal · 0:48 · <a href="https://www.youtube.com/watch?v=GQeS3xTXlb0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=39EhiiW-p6o)
+
+<p class="clip-credit"><strong>How to pass the Z-Guard (no-gi)</strong> — taught by Zach LeCates · 2:31 · <a href="https://www.youtube.com/watch?v=39EhiiW-p6o" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

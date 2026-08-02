@@ -34,6 +34,54 @@ description: "Learn Granby Roll escape from Buggy Choke in BJJ. Inverted rolling
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Granby Roll to Guard \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Basic granby roll technique",
+      "description": "Granby Roll to Guard film study: Basic granby roll technique, taught by Danny Mitchell.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/vyphbya8ZVQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/vyphbya8ZVQ",
+      "url": "https://www.youtube.com/watch?v=vyphbya8ZVQ",
+      "creator": { "@type": "Person", "name": "Danny Mitchell" },
+      "duration": "PT44S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Progression of the granby roll",
+      "description": "Granby Roll to Guard film study: Progression of the granby roll, taught by Ryan Loder.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Ww3UlhG2GzI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Ww3UlhG2GzI",
+      "url": "https://www.youtube.com/watch?v=Ww3UlhG2GzI",
+      "creator": { "@type": "Person", "name": "Ryan Loder" },
+      "duration": "PT59S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Why the granby roll matters in BJJ",
+      "description": "Granby Roll to Guard film study: Why the granby roll matters in BJJ, taught by Unknown coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/rSn2PkpXaPw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/rSn2PkpXaPw",
+      "url": "https://www.youtube.com/watch?v=rSn2PkpXaPw",
+      "creator": { "@type": "Person", "name": "Unknown coach" },
+      "duration": "PT58S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -66,9 +114,45 @@ Strategically, the Granby Roll represents an aggressive defensive philosophy whe
 The technical demands of the Granby Roll require significant hip mobility, proprioceptive awareness, and precise timing. Executing the roll too early allows the opponent to follow and maintain control; executing too late means the position has already consolidated beyond the escape window. Mastery of this technique provides a reliable emergency exit from dangerous turtle scenarios while building the movement vocabulary necessary for advanced guard retention and recovery systems.
 
 **From Position**: [[Positions/Buggy Choke]] (Bottom)
-**Success Rate**: 58%
+**Success Rate**: 46%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Granby Roll to Guard in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=vyphbya8ZVQ)
+
+<p class="clip-credit"><strong>Basic granby roll technique</strong> — taught by Danny Mitchell · 0:44 · <a href="https://www.youtube.com/watch?v=vyphbya8ZVQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Ww3UlhG2GzI)
+
+<p class="clip-credit"><strong>Progression of the granby roll</strong> — taught by Ryan Loder · 0:59 · <a href="https://www.youtube.com/watch?v=Ww3UlhG2GzI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=rSn2PkpXaPw)
+
+<p class="clip-credit"><strong>Why the granby roll matters in BJJ</strong> — taught by Unknown coach · 0:58 · <a href="https://www.youtube.com/watch?v=rSn2PkpXaPw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

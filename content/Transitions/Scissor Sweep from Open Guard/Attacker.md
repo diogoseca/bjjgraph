@@ -174,6 +174,54 @@ description: "Master the offensive execution of the Scissor Sweep from Open Guar
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Scissor Sweep from Open Guard (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Roger Gracie: sweep from closed guard",
+      "description": "Scissor Sweep from Open Guard (Attacker) film study: Roger Gracie: sweep from closed guard, taught by Roger Gracie.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/dMcMblcXhF0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/dMcMblcXhF0",
+      "url": "https://www.youtube.com/watch?v=dMcMblcXhF0",
+      "creator": { "@type": "Person", "name": "Roger Gracie" },
+      "duration": "PT73S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Royce Gracie scissor sweep demo",
+      "description": "Scissor Sweep from Open Guard (Attacker) film study: Royce Gracie scissor sweep demo, taught by Royce Gracie.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/-wWHC0uqVAA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/-wWHC0uqVAA",
+      "url": "https://www.youtube.com/watch?v=-wWHC0uqVAA",
+      "creator": { "@type": "Person", "name": "Royce Gracie" },
+      "duration": "PT12S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Scissor sweep competition compilation",
+      "description": "Scissor Sweep from Open Guard (Attacker) film study: Scissor sweep competition compilation, taught by Bennett Smolen.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/S38J412QoW8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/S38J412QoW8",
+      "url": "https://www.youtube.com/watch?v=S38J412QoW8",
+      "creator": { "@type": "Person", "name": "Bennett Smolen" },
+      "duration": "PT59S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -183,6 +231,42 @@ Executing the Scissor Sweep from Open Guard requires precise coordination betwee
 **From Position**: [[Positions/Open Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Scissor Sweep from Open Guard (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=dMcMblcXhF0)
+
+<p class="clip-credit"><strong>Roger Gracie: sweep from closed guard</strong> — taught by Roger Gracie · 1:13 · <a href="https://www.youtube.com/watch?v=dMcMblcXhF0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=-wWHC0uqVAA)
+
+<p class="clip-credit"><strong>Royce Gracie scissor sweep demo</strong> — taught by Royce Gracie · 0:12 · <a href="https://www.youtube.com/watch?v=-wWHC0uqVAA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=S38J412QoW8)
+
+<p class="clip-credit"><strong>Scissor sweep competition compilation</strong> — taught by Bennett Smolen · 0:59 · <a href="https://www.youtube.com/watch?v=S38J412QoW8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

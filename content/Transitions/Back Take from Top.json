@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Back Control/Top",
-      "probability": 65,
+      "probability": {
+        "gi": 65,
+        "nogi": 65
+      },
       "result": "success"
     },
     {
       "to": "Hindulotine/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Turtle/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "overview": "The Back Take from Top Hindulotine represents one of the highest-percentage transitions in the front headlock attack system. When an opponent defends the guillotine choke by turning away to relieve neck pressure, they expose their back as a direct consequence of their defensive movement. This technique capitalizes on that predictable reaction, converting a potential submission loss into dominant back control.\n\nThe mechanical beauty of this transition lies in using the opponent's own escape energy against them. As they rotate to face away from the choking pressure, you maintain upper body control while your legs transition from sprawl base to hooks. The opponent's defensive turn becomes the entry mechanism for one of the most dominant positions in grappling. This creates a true dilemma: defend the choke and give up your back, or face the choke and risk being finished.\n\nStrategically, the back take option makes your Hindulotine attacks significantly more dangerous. Opponents who know you will take their back if they turn become hesitant to execute the primary escape, allowing more finishing opportunities on the guillotine itself. The mere threat of this transition improves your overall submission percentage from the position.",
   "conditions": [
     "Established top Hindulotine with guillotine grip secured",
@@ -209,46 +221,175 @@
     "flashcards": [
       {
         "question": "What is the primary trigger that indicates it's time to transition from Hindulotine to back take?",
-        "answer": "The primary trigger is feeling the opponent's shoulder rotation and hip movement as they turn away from the choking pressure. When you feel their near shoulder dropping toward the mat and their hips beginning to face away, this indicates they are committing to the turning escape and creates the window for back take transition."
+        "answer": "The primary trigger is feeling the opponent's shoulder rotation and hip movement as they turn away from the choking pressure. When you feel their near shoulder dropping toward the mat and their hips beginning to face away, this indicates they are committing to the turning escape and creates the window for back take transition.",
+        "answer_line": "Shoulder drops, hips turn away",
+        "distractors": {
+          "plausible": [
+            "Opponent stops resisting",
+            "They tap from choke pressure"
+          ],
+          "trap": [
+            "Release grip to check position"
+          ]
+        }
       },
       {
         "question": "What grip must be established before releasing the guillotine during this transition?",
-        "answer": "The seat belt grip must be established before fully releasing the guillotine. The seat belt consists of one arm over the opponent's shoulder and the other under their armpit, with hands locked together (typically gable grip) across their chest. This maintains upper body control throughout the transition."
+        "answer": "The seat belt grip must be established before fully releasing the guillotine. The seat belt consists of one arm over the opponent's shoulder and the other under their armpit, with hands locked together (typically gable grip) across their chest. This maintains upper body control throughout the transition.",
+        "answer_line": "Seat belt grip locked first",
+        "distractors": {
+          "plausible": [
+            "Underhook on far arm",
+            "Overhook on near wrist"
+          ],
+          "trap": [
+            "Release choke, grab both legs"
+          ]
+        }
       },
       {
         "question": "Your opponent begins turning but then stalls and turtles tightly - how do you adjust?",
-        "answer": "When opponent turtles instead of giving up the back fully, transition to systematic turtle attack methodology. Maintain your seat belt grip, work to establish spiral ride control, and systematically insert hooks using standard turtle-to-back techniques. The tight turtle is harder to attack but still leads to back control with patience."
+        "answer": "When opponent turtles instead of giving up the back fully, transition to systematic turtle attack methodology. Maintain your seat belt grip, work to establish spiral ride control, and systematically insert hooks using standard turtle-to-back techniques. The tight turtle is harder to attack but still leads to back control with patience.",
+        "answer_line": "Keep seat belt, ride to hooks",
+        "distractors": {
+          "plausible": [
+            "Flatten them out with force",
+            "Switch to leg lock entry"
+          ],
+          "trap": [
+            "Abandon position, reset guard"
+          ]
+        }
       },
       {
         "question": "Which hook should be inserted first and why?",
-        "answer": "The bottom hook should be inserted first because it controls the opponent's hip rotation and prevents them from continuing to turn to face you. The bottom hook creates a physical barrier that stops their escape momentum. The top hook is then added to complete control once the bottom hook secures their hip position."
+        "answer": "The bottom hook should be inserted first because it controls the opponent's hip rotation and prevents them from continuing to turn to face you. The bottom hook creates a physical barrier that stops their escape momentum. The top hook is then added to complete control once the bottom hook secures their hip position.",
+        "answer_line": "Bottom hook first, stops hips",
+        "distractors": {
+          "plausible": [
+            "Top hook first for control",
+            "Both hooks in simultaneously"
+          ],
+          "trap": [
+            "Insert hook then let go seatbelt"
+          ]
+        }
       },
       {
         "question": "What is the critical error if you attempt this back take when opponent is not actually turning?",
-        "answer": "Forcing the back take against a non-turning opponent abandons the Hindulotine submission threat without gaining position. You release choking pressure to chase a position that isn't available, giving opponent opportunity to posture, escape, or establish defensive frames. The back take must be reactive to their turn, not proactive."
+        "answer": "Forcing the back take against a non-turning opponent abandons the Hindulotine submission threat without gaining position. You release choking pressure to chase a position that isn't available, giving opponent opportunity to posture, escape, or establish defensive frames. The back take must be reactive to their turn, not proactive.",
+        "answer_line": "Releases choke for nothing",
+        "distractors": {
+          "plausible": [
+            "Loses point advantage",
+            "Tires out your grips"
+          ],
+          "trap": [
+            "Forces the turn with strength"
+          ]
+        }
       },
       {
         "question": "How do you maintain control if opponent explosively stands during your transition?",
-        "answer": "Follow them to standing while maintaining seat belt grip, establishing standing back control with your chest to their back. Lock a body lock grip and work to drag them back down or execute a standing back control takedown. The key is never releasing upper body control during their stand-up attempt."
+        "answer": "Follow them to standing while maintaining seat belt grip, establishing standing back control with your chest to their back. Lock a body lock grip and work to drag them back down or execute a standing back control takedown. The key is never releasing upper body control during their stand-up attempt.",
+        "answer_line": "Follow up, keep seat belt tight",
+        "distractors": {
+          "plausible": [
+            "Let go and reset on feet",
+            "Pull guard to reset"
+          ],
+          "trap": [
+            "Release grip, shoot takedown"
+          ]
+        }
       },
       {
         "question": "Your opponent posts their near arm as you attempt the back take - what adjustment do you make?",
-        "answer": "The posting arm becomes a target for control. Either arm drag the posting arm across their body to eliminate the post and continue the back take, or trap the arm in a gift wrap configuration. The post cannot be ignored as it allows them to base and potentially escape."
+        "answer": "The posting arm becomes a target for control. Either arm drag the posting arm across their body to eliminate the post and continue the back take, or trap the arm in a gift wrap configuration. The post cannot be ignored as it allows them to base and potentially escape.",
+        "answer_line": "Arm drag the post away",
+        "distractors": {
+          "plausible": [
+            "Push the elbow down flat",
+            "Grab wrist and wait it out"
+          ],
+          "trap": [
+            "Ignore post, keep pulling back"
+          ]
+        }
       },
       {
         "question": "How does threatening this back take improve your overall Hindulotine submission percentage?",
-        "answer": "The back take threat creates a dilemma for defenders. If they know you will take their back when they turn, they become hesitant to execute the primary guillotine escape. This hesitation keeps them in the choking position longer and makes them accept more pressure before attempting escape, increasing your finishing opportunities on the guillotine itself."
+        "answer": "The back take threat creates a dilemma for defenders. If they know you will take their back when they turn, they become hesitant to execute the primary guillotine escape. This hesitation keeps them in the choking position longer and makes them accept more pressure before attempting escape, increasing your finishing opportunities on the guillotine itself.",
+        "answer_line": "Threat makes them stay, tire out",
+        "distractors": {
+          "plausible": [
+            "It tires your own grips less",
+            "It speeds up their escape"
+          ],
+          "trap": [
+            "It lets you release pressure early"
+          ]
+        }
       },
       {
         "question": "What chest position must be maintained throughout this transition and why?",
-        "answer": "Constant chest-to-back connection must be maintained throughout. Any space allows opponent to frame, create distance, and either complete their escape or achieve a defensive turtle position. Your chest following their movement ensures continuous pressure and prevents the separation that enables defense."
+        "answer": "Constant chest-to-back connection must be maintained throughout. Any space allows opponent to frame, create distance, and either complete their escape or achieve a defensive turtle position. Your chest following their movement ensures continuous pressure and prevents the separation that enables defense.",
+        "answer_line": "Constant chest-to-back contact",
+        "distractors": {
+          "plausible": [
+            "Chest square to their hips",
+            "Chest high, weight off them"
+          ],
+          "trap": [
+            "Create space to swing hips over"
+          ]
+        }
       },
       {
         "question": "When should you use the rolling back take variant instead of the standard transition?",
-        "answer": "The rolling back take variant is appropriate when opponent commits strongly to their turn and your base becomes compromised by their momentum. Rather than fighting their energy, you follow the momentum by rolling underneath them while maintaining control. This uses their escape energy to end up in back control from the opposite side configuration."
+        "answer": "The rolling back take variant is appropriate when opponent commits strongly to their turn and your base becomes compromised by their momentum. Rather than fighting their energy, you follow the momentum by rolling underneath them while maintaining control. This uses their escape energy to end up in back control from the opposite side configuration.",
+        "answer_line": "When their turn momentum is strong",
+        "distractors": {
+          "plausible": [
+            "When opponent is stalling flat",
+            "When you lose seat belt grip"
+          ],
+          "trap": [
+            "When they post to stand up"
+          ]
+        }
       }
     ],
-    "safety_considerations": "This transition is relatively low-risk compared to submission techniques, but proper training protocols remain important. Avoid explosive jerking movements during the grip transition that could strain training partner's neck. When inserting hooks, be aware of knee positioning to prevent accidental strikes. During the learning phase, communicate with your partner about the pace of the turn to ensure controlled practice. The neck has already been under pressure from the Hindulotine, so allow recovery time between repetitions."
+    "safety_considerations": "This transition is relatively low-risk compared to submission techniques, but proper training protocols remain important. Avoid explosive jerking movements during the grip transition that could strain training partner's neck. When inserting hooks, be aware of knee positioning to prevent accidental strikes. During the learning phase, communicate with your partner about the pace of the turn to ensure controlled practice. The neck has already been under pressure from the Hindulotine, so allow recovery time between repetitions.",
+    "clips": [
+      {
+        "id": "m1zVrv0CQ_E",
+        "title": "Front headlock to back take",
+        "by": "Modesto Judo Club",
+        "vertical": false,
+        "channel": "Modesto Judo Club",
+        "duration": 28,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "4qnnIV8xJko",
+        "title": "Front headlock chest-to-back options",
+        "by": "Giancarlo Bodoni",
+        "vertical": false,
+        "channel": "Giancarlo Bodoni",
+        "duration": 500,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "87l6l0dmPWM",
+        "title": "Front headlock to the back",
+        "by": "Coach Casey",
+        "vertical": false,
+        "channel": "Coach “Coach Casey” Casey",
+        "duration": 52,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Back Take from Top Defender",
@@ -326,23 +467,73 @@
     "flashcards": [
       {
         "question": "What is the critical window of vulnerability during the attacker's transition that you should exploit?",
-        "answer": "The critical window occurs when the attacker releases their guillotine grip to transition to seat belt control. During this brief moment, neither the choke nor the positional control is fully established, creating your best opportunity to frame, create distance, and either complete your turn to face the opponent or establish a tight defensive turtle."
+        "answer": "The critical window occurs when the attacker releases their guillotine grip to transition to seat belt control. During this brief moment, neither the choke nor the positional control is fully established, creating your best opportunity to frame, create distance, and either complete your turn to face the opponent or establish a tight defensive turtle.",
+        "answer_line": "Gap between guillotine and seatbelt",
+        "distractors": {
+          "plausible": [
+            "Right as hooks get inserted",
+            "When they lock body triangle"
+          ],
+          "trap": [
+            "Wait until seatbelt is locked"
+          ]
+        }
       },
       {
         "question": "Your opponent follows your turn with chest pressure and begins threading their arm over your shoulder - what is your immediate response?",
-        "answer": "Immediately clamp your elbow tight to your ribs on the side where they are threading their arm, creating a physical barrier to seat belt establishment. Simultaneously drop your hips low to the mat and bring your knees together to deny hook entry. Use your opposite hand to grip fight their reaching arm, preventing them from locking their hands together across your chest."
+        "answer": "Immediately clamp your elbow tight to your ribs on the side where they are threading their arm, creating a physical barrier to seat belt establishment. Simultaneously drop your hips low to the mat and bring your knees together to deny hook entry. Use your opposite hand to grip fight their reaching arm, preventing them from locking their hands together across your chest.",
+        "answer_line": "Clamp elbow tight, drop hips low",
+        "distractors": {
+          "plausible": [
+            "Post hand on mat, stand up",
+            "Grab their wrist and pull"
+          ],
+          "trap": [
+            "Extend arm to push them off"
+          ]
+        }
       },
       {
         "question": "Why is controlling the speed of your turning escape critical to preventing the back take?",
-        "answer": "Explosive turning generates rotational momentum that the attacker uses to follow you into back control. The faster you turn, the more energy you provide for them to ride your rotation and establish position behind you. A controlled, measured turn with constant framing denies the attacker this free momentum and forces them to generate their own energy to pursue the back take."
+        "answer": "Explosive turning generates rotational momentum that the attacker uses to follow you into back control. The faster you turn, the more energy you provide for them to ride your rotation and establish position behind you. A controlled, measured turn with constant framing denies the attacker this free momentum and forces them to generate their own energy to pursue the back take.",
+        "answer_line": "Fast turns feed them momentum",
+        "distractors": {
+          "plausible": [
+            "Slow turns tire your core",
+            "Speed doesn't affect outcome"
+          ],
+          "trap": [
+            "Turn explosively to escape fast"
+          ]
+        }
       },
       {
         "question": "You feel the bottom hook being inserted as you turn - what adjustment prevents the second hook?",
-        "answer": "Immediately turn toward the hook side rather than away from it, which pins the inserted hook against the mat and prevents it from controlling your hip. Simultaneously bring your top knee over to trap their hooking leg between your thighs. This one-hook position is far more escapable than two hooks. From here, work to strip the single hook while preventing the second through active hip movement and leg positioning."
+        "answer": "Immediately turn toward the hook side rather than away from it, which pins the inserted hook against the mat and prevents it from controlling your hip. Simultaneously bring your top knee over to trap their hooking leg between your thighs. This one-hook position is far more escapable than two hooks. From here, work to strip the single hook while preventing the second through active hip movement and leg positioning.",
+        "answer_line": "Turn into the hook, trap leg",
+        "distractors": {
+          "plausible": [
+            "Turn away from the hook fast",
+            "Kick the leg straight out"
+          ],
+          "trap": [
+            "Sit up to break the hook free"
+          ]
+        }
       },
       {
         "question": "What body position should you achieve if you cannot complete the full turn to face your opponent?",
-        "answer": "Achieve a compact defensive turtle with elbows pinched tight to the inside of your knees, chin tucked to chest, back rounded, and hips low to the mat. This structure denies seat belt access because your elbows block arm threading, denies hooks because your hips are too low for leg entry, and protects your neck through the tucked chin and rounded spine. From this turtle, immediately begin working dynamic escapes."
+        "answer": "Achieve a compact defensive turtle with elbows pinched tight to the inside of your knees, chin tucked to chest, back rounded, and hips low to the mat. This structure denies seat belt access because your elbows block arm threading, denies hooks because your hips are too low for leg entry, and protects your neck through the tucked chin and rounded spine. From this turtle, immediately begin working dynamic escapes.",
+        "answer_line": "Tight turtle, elbows to knees",
+        "distractors": {
+          "plausible": [
+            "Flat on stomach, arms out",
+            "Sit up to face opponent"
+          ],
+          "trap": [
+            "Turn belly-up to block hooks"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -365,6 +556,35 @@
         "phase": "Week 7+",
         "focus": "Live positional defense",
         "description": "Full resistance positional sparring starting from Hindulotine. Partner works complete attack system including guillotine finishes, back takes, and darce transitions. Practice reading which attack is coming and selecting appropriate defense. Integrate all defensive options into fluid responses under pressure."
+      }
+    ],
+    "clips": [
+      {
+        "id": "dLlXgLRx--I",
+        "title": "Sucker drag escape from the front headlock",
+        "by": "Matt Rogers",
+        "vertical": false,
+        "channel": "Tom Dinklage",
+        "duration": 77,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "ry5lH-N7O-0",
+        "title": "Basic front headlock defense",
+        "by": "Askren Wrestling Academy",
+        "vertical": false,
+        "channel": "Askren Wrestling Academy",
+        "duration": 108,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "wxiM5z0NUXw",
+        "title": "Front headlock escape drill",
+        "by": "Gracie Barra Charlestown",
+        "vertical": false,
+        "channel": "Gracie Barra Charlestown",
+        "duration": 29,
+        "verified": "2026-07-15"
       }
     ]
   },

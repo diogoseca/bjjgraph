@@ -19,7 +19,10 @@
   "target_area": "Ankle joint, knee ligaments (ACL/MCL/LCL), and lower leg structural integrity",
   "starting_position": "Inside Ashi-Garami",
   "from_position": "Inside Ashi-Garami/Top",
-  "success_rate": 45,
+  "success_rate": {
+    "gi": 45,
+    "nogi": 45
+  },
   "overview": "The heel hook from Inside Ashi-Garami is one of the most fundamental leg lock attacks in modern no-gi grappling, targeting the knee's rotational ligaments through controlled twisting force applied to the captured heel. Inside Ashi-Garami provides the foundational entanglement for this attack, with the attacker's inside leg positioned across the opponent's hip to control rotation while the outside leg hooks behind the knee to prevent extraction. This configuration creates a stable platform for securing the heel and applying the rotational breaking mechanism that defines the heel hook.\n\nUnlike heel hooks applied from more dominant positions such as Saddle or Honey Hole, the Inside Ashi-Garami heel hook requires precise grip work and body positioning to overcome the defender's ability to rotate and extract their heel. The attacker must transition from initial C-grip control to a figure-four finishing grip while maintaining tight leg clamping pressure throughout. The position rewards patience and systematic pressure over explosive finishing attempts, as premature force application allows the defender to create space and escape the entanglement.\n\nThis submission carries extreme injury risk due to the knee's limited rotational tolerance and the delayed pain response that characterizes ligament attacks. Practitioners must develop strict safety habits including slow progressive application, constant awareness of tap signals, and immediate release protocols. The heel hook from Inside Ashi-Garami serves as both a direct finishing threat and a forcing mechanism that drives opponents into defensive reactions exploitable for position advancement to Saddle, Honey Hole, or other more dominant entanglements.",
   "safety_considerations": {
     "injury_risks": [
@@ -118,17 +121,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 45,
+      "probability": {
+        "gi": 45,
+        "nogi": 45
+      },
       "result": "success"
     },
     {
       "to": "Inside Ashi-Garami/Top",
-      "probability": 36,
+      "probability": {
+        "gi": 36,
+        "nogi": 36
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 19,
+      "probability": {
+        "gi": 19,
+        "nogi": 19
+      },
       "result": "counter"
     }
   ],
@@ -290,52 +302,331 @@
       {
         "question": "What anatomical structures does the heel hook from Inside Ashi-Garami primarily attack?",
         "answer": "The heel hook primarily attacks the knee's rotational ligaments, specifically the ACL (anterior cruciate ligament), MCL (medial collateral ligament), and LCL (lateral collateral ligament). Secondary targets include the meniscus cartilage and ankle ligaments. The rotational force applied through the heel creates torque that the knee joint is biomechanically unable to resist, as the knee is designed primarily for flexion and extension rather than rotation.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Knee's rotational ligaments",
+        "distractors": {
+          "plausible": [
+            "Ankle ligaments primarily",
+            "Meniscus cartilage first"
+          ],
+          "trap": [
+            "Muscle only, safe to ride out"
+          ]
+        }
       },
       {
         "question": "Your opponent begins rotating their body toward you to relieve knee pressure - what adjustment prevents their escape?",
         "answer": "Drive your inside leg harder across their hip to block the rotation and re-establish the perpendicular angle. If they continue turning, follow their movement by adjusting your body angle to maintain the rotational offset between their heel and knee. Their attempt to turn toward you often creates an opportunity to deepen the entanglement toward Honey Hole or Saddle, where your control over their rotation is significantly stronger.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Drive inside leg across hip",
+        "distractors": {
+          "plausible": [
+            "Pull the heel harder with arms",
+            "Switch to outside leg hook"
+          ],
+          "trap": [
+            "Drop knee clamp to follow them"
+          ]
+        }
       },
       {
         "question": "What grip configuration provides the strongest rotational control for finishing the heel hook from Inside Ashi-Garami?",
         "answer": "The figure-four (Kimura-style) grip provides the strongest rotational control. Position your primary wrist behind the opponent's Achilles tendon, then grip your own wrist with your secondary hand. This creates a closed kinetic chain that distributes rotational force across both forearms rather than relying on a single hand. The heel must be pinned to your chest throughout, with your forearms acting as levers that rotate the heel while your body generates the primary torque through hip extension.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Figure-four grip on Achilles",
+        "distractors": {
+          "plausible": [
+            "Single-hand cup on heel",
+            "Palm-to-palm Gable grip"
+          ],
+          "trap": [
+            "Release knee clamp to re-grip"
+          ]
+        }
       },
       {
         "question": "You have the heel secured but your opponent is scooting their hips away to create distance - how do you maintain finishing position?",
         "answer": "Follow their retreating hips by scooting your own hips toward them while maintaining the figure-four grip and leg clamp. Use your inside leg across their hip as a tether point - as they scoot away, your inside leg extends with them, maintaining connection. If they create significant distance, pull yourself toward them using the heel grip as an anchor point rather than reaching with extended arms, which weakens your finishing mechanics.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Scoot hips forward, keep grip",
+        "distractors": {
+          "plausible": [
+            "Extend arms to reach further",
+            "Re-grip with two-on-one ankle"
+          ],
+          "trap": [
+            "Unhook legs to chase their hips"
+          ]
+        }
       },
       {
         "question": "What are the key indicators that the heel hook is approaching the breaking point and requires extreme caution?",
         "answer": "The primary indicators include feeling the opponent's knee beginning to rotate with the pressure rather than resisting it, any popping or clicking sensations transmitted through the grip, sudden changes in the opponent's breathing or vocalization, their body going rigid or suddenly limp, and feeling a 'give' in the ligament structure. In training, you must stop well before any of these indicators appear. The delayed pain response of ligament attacks means significant damage can occur before the defender feels enough pain to tap.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Clicking, rigidity, or sudden grunt",
+        "distractors": {
+          "plausible": [
+            "They grip-fight your hands harder",
+            "Only a loud verbal tap counts"
+          ],
+          "trap": [
+            "Keep rotating until you hear a pop"
+          ]
+        }
       },
       {
         "question": "Your opponent grabs both your hands and attempts to strip your figure-four grip on their heel - what is your response?",
         "answer": "Immediately tighten your grip by pulling your elbows closer to your ribs and pressing the heel deeper into your chest. Use your inside leg to push their hip away, which extends the distance between their hands and your grip, making their grip-stripping effort less effective. If they persist, briefly release one hand to break their grip on your wrist, then immediately re-establish the figure-four. Alternatively, switch to applying a straight ankle lock finish which requires different grip positioning they are not defending.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Tighten grip, elbows to ribs",
+        "distractors": {
+          "plausible": [
+            "Pull both hands away at once",
+            "Sit up and hand-fight them"
+          ],
+          "trap": [
+            "Open legs to fight their hands"
+          ]
+        }
       },
       {
         "question": "Why must heel hooks be applied slowly and progressively rather than explosively in training?",
         "answer": "Heel hooks attack the knee's ligaments which have a delayed pain response compared to joint locks that compress nerves. The defender may not feel significant pain until after ligament damage has already occurred. Explosive application can cause ACL tears, MCL ruptures, or meniscus damage before the defender has any opportunity to tap. Recovery from these injuries requires 3-12 months of rehabilitation and potentially surgical reconstruction. Slow application gives the defender time to recognize pressure and tap before damage occurs.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Ligaments tear before pain warns",
+        "distractors": {
+          "plausible": [
+            "Gives them a chance to defend",
+            "Lets you dial in the rotation"
+          ],
+          "trap": [
+            "Partner will tap in time"
+          ]
+        }
       },
       {
         "question": "What is the critical difference between attacking the heel hook from Inside Ashi-Garami versus from Saddle or Honey Hole?",
         "answer": "Inside Ashi-Garami provides less control over the opponent's knee rotation compared to Saddle or Honey Hole, making the heel hook harder to finish against experienced defenders. In Saddle, the attacker's legs create a triangular lock around the opponent's leg that prevents rotation entirely. In Honey Hole, the crossed-leg configuration traps the knee line from both sides. From Inside Ashi, the opponent retains more ability to rotate their knee and extract their heel, requiring the attacker to rely more heavily on grip precision and body positioning to compensate for the less dominant leg configuration.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Inside Ashi gives less control",
+        "distractors": {
+          "plausible": [
+            "Saddle offers weaker control",
+            "Honey Hole allows more rotation"
+          ],
+          "trap": [
+            "Stay in inside ashi, never advance"
+          ]
+        }
       },
       {
         "question": "Your opponent straightens their trapped leg forcefully while you hold heel grip - how do you adjust your attack?",
         "answer": "A straightened leg reduces heel hook effectiveness but opens kneebar opportunities. If they straighten explosively, transition your hip position to apply downward pressure on their knee joint for a kneebar while maintaining heel control as a secondary threat. If you prefer to continue the heel hook, use your outside leg to re-bend their knee by pulling your hook behind their knee while simultaneously curling the heel toward you. The key insight is that their straightening is a defensive reaction, not an escape - use it as a trigger to shift attacks rather than fighting against the extension.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Shift to a kneebar attack",
+        "distractors": {
+          "plausible": [
+            "Squeeze harder on the same heel",
+            "Abandon leg, reset position"
+          ],
+          "trap": [
+            "Hang on as they stand and pass"
+          ]
+        }
       },
       {
         "question": "How should you properly release the heel hook after your training partner taps?",
         "answer": "Immediately stop all rotational pressure the instant you perceive any tap signal. Release your figure-four grip completely before unwrapping your leg entanglement. Allow your partner to extract their own leg at their own pace rather than pushing or pulling it free, as residual tension in damaged ligaments can cause further injury during extraction. After release, check verbally with your partner about their knee and ankle condition. Report any joint discomfort to the instructor even if it seems minor, as ligament damage is not always immediately apparent.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Stop, release grip immediately",
+        "distractors": {
+          "plausible": [
+            "Slowly ease off over seconds",
+            "Pull their leg free yourself"
+          ],
+          "trap": [
+            "Keep pressure until they relax"
+          ]
+        }
+      },
+      {
+        "question": "What anatomical structures does the inside heel hook primarily attack and why is this submission uniquely dangerous?",
+        "answer": "The inside heel hook targets the medial collateral ligament (MCL), anterior cruciate ligament (ACL), and meniscus of the knee joint through rotational force transmitted via the heel. The submission is uniquely dangerous because these knee structures have extremely poor proprioceptive feedback for rotational stress—the defender literally cannot feel the submission tightening progressively the way they can with an armbar or choke. Multiple ligaments can fail simultaneously in under one second once the breaking threshold is reached, often requiring surgical reconstruction and 9-12 months of recovery.",
+        "safety_critical": true,
+        "answer_line": "Poor rotational proprioception",
+        "distractors": {
+          "plausible": [
+            "High pain tolerance in knee",
+            "Multiple joints lock at once"
+          ],
+          "trap": [
+            "Opponent always feels it early"
+          ]
+        }
+      },
+      {
+        "question": "What are the key indicators that the breaking point is approaching during application of the inside heel hook?",
+        "answer": "The primary indicators are: the heel begins rotating past its natural range of motion relative to the knee axis, connective tissue tension increases dramatically through your grip creating a sense of structural resistance, and the opponent's body begins involuntarily twisting to follow the rotation direction. Critically, the defender may NOT perceive these indicators clearly due to the knee's poor rotational proprioception. The attacker bears primary responsibility for controlled application—you must apply slowly and watch for ANY tap signal because your partner may not feel the danger until damage has already begun.",
+        "safety_critical": true,
+        "answer_line": "Heel rotates past its normal range",
+        "distractors": {
+          "plausible": [
+            "Tension in your grip suddenly drops",
+            "They stop grip-fighting your hands"
+          ],
+          "trap": [
+            "Crank on until they cry out"
+          ]
+        }
+      },
+      {
+        "question": "What control elements must be established before attempting the heel hook finish from Inside Ashi-Garami and why is the sequence important?",
+        "answer": "The elements in order are: (1) inside leg positioned across opponent's near hip with foot planted on far side controlling rotation, (2) outside leg hooked behind opponent's knee securing the trapped leg, (3) establish hip-to-hip connection with perpendicular body alignment, (4) control the knee line to prevent defensive rotation past the barrier, and (5) clear opponent's defensive grips and frames. The sequence matters because each element builds on the previous one—without the inside leg frame, hip pressure is unstable; without the outside hook, the leg can be extracted; without hip pressure, knee line control is ineffective. Skipping any element dramatically reduces finish probability and increases escape risk.",
+        "safety_critical": false,
+        "answer_line": "Inside leg, hook, hips, then grip",
+        "distractors": {
+          "plausible": [
+            "Grip first, then leg control",
+            "Outside hook before inside leg"
+          ],
+          "trap": [
+            "Skip inside leg, grab heel fast"
+          ]
+        }
+      },
+      {
+        "question": "At what point during the finishing sequence can the defender no longer safely escape?",
+        "answer": "The point of no escape occurs once the figure-four finishing grip is established (Kimura grip on your own wrist) with the heel tucked into the armpit AND rotational tension has begun. At this stage, the mechanical advantage is overwhelming and any explosive escape attempt by the defender risks catastrophic knee damage because the rotational force is already loaded through the joint. The defender's only safe option is to tap immediately. As the attacker, recognizing this threshold means you must apply the remaining pressure with extreme control because your partner's safety depends entirely on your discipline.",
+        "safety_critical": true,
+        "answer_line": "Figure-four locked, tension on",
+        "distractors": {
+          "plausible": [
+            "As soon as ashi garami forms",
+            "When both legs are hooked"
+          ],
+          "trap": [
+            "Only after audible pop occurs"
+          ]
+        }
+      },
+      {
+        "question": "What is the most common finishing error that reduces submission effectiveness from Inside Ashi-Garami?",
+        "answer": "The most common error is applying the rotation by extending the arms away from the body rather than driving elbows toward the chest. Extending arms creates a longer lever that is mechanically weaker and easier for the defender to resist or strip. The correct mechanic uses short, powerful rotation with elbows pinched tight to the ribcage, rotating the heel using the entire upper body as a unit rather than just arm strength. This generates dramatically more rotational torque with less effort and is much harder for the defender to counter.",
+        "safety_critical": false,
+        "answer_line": "Extending arms away from body",
+        "distractors": {
+          "plausible": [
+            "Gripping ankle too loosely",
+            "Rotating hips before legs lock"
+          ],
+          "trap": [
+            "Rip finish before knee is pinned"
+          ]
+        }
+      },
+      {
+        "question": "How should you adjust your grip if the opponent's heel is sweaty and slipping during the finishing sequence?",
+        "answer": "In sweaty conditions, shift from cupping the smooth heel bone to gripping the Achilles tendon directly with a C-grip, hooking your fingers around the tendon itself which provides more texture and friction. Alternatively, use a palm-to-palm Gable grip around the ankle and heel for maximum surface contact. The key is maintaining wrist blade contact with the Achilles as the primary control point while using your armpit as a backstop to prevent the foot from sliding out. Wiping your hands on your shorts between grip attempts also helps, but never sacrifice positional control to dry your hands.",
+        "safety_critical": false,
+        "answer_line": "C-grip on Achilles tendon",
+        "distractors": {
+          "plausible": [
+            "Squeeze harder with same grip",
+            "Switch to ankle lock grip"
+          ],
+          "trap": [
+            "Stop to dry hands on shorts"
+          ]
+        }
+      },
+      {
+        "question": "Why must the inside heel hook always be applied slowly in training, and what specific injuries result from fast application?",
+        "answer": "The inside heel hook must always be applied slowly because the knee joint has virtually no proprioceptive feedback for rotational stress—the defender cannot feel progressive tightening the way they can with a shoulder lock or choke. Fast application causes complete MCL and ACL tears, meniscus destruction, and potential LCL damage in under one second. These injuries require surgical reconstruction (ACL replacement using hamstring or patellar tendon graft) and 9-12 months of rehabilitation. A single explosive crank in training can end a partner's competitive career permanently. There is zero justification for fast application in any training context.",
+        "safety_critical": true,
+        "answer_line": "Knee cannot sense rotation loading",
+        "distractors": {
+          "plausible": [
+            "Ligaments warn you before tearing",
+            "Fast reps build partner reflexes"
+          ],
+          "trap": [
+            "Snap it fast; they tap in time"
+          ]
+        }
+      },
+      {
+        "question": "What grip transition do you make when the opponent successfully hides their heel momentarily against their hip?",
+        "answer": "When the heel is temporarily hidden, maintain positional control and transition to controlling their ankle with a two-on-one grip, preventing full foot extraction. Use your top hand to control the ankle while your bottom hand maintains connection with their shin or calf. From this intermediate position you can: (1) apply sustained hip pressure to fatigue their heel-hiding posture until it re-exposes, (2) transition to toe hold by attacking the exposed foot from the opposite rotational angle, or (3) apply downward pressure to access a kneebar if their knee becomes accessible. The key is maintaining position while threatening multiple attacks to create a defensive dilemma.",
+        "safety_critical": false,
+        "answer_line": "Control ankle, two-on-one grip",
+        "distractors": {
+          "plausible": [
+            "Abandon attack, reset position",
+            "Wait passively for heel to show"
+          ],
+          "trap": [
+            "Open legs to dig the heel out"
+          ]
+        }
+      },
+      {
+        "question": "In competition, how do you adjust your finishing approach against an opponent who is aggressively grip-fighting your heel hook attempts?",
+        "answer": "Against aggressive grip fighters, use a systematic bait-and-finish approach. Threaten the heel hook grip to draw their defensive hands low, then immediately re-establish positional control when they strip. Repeat this cycle 2-3 times to progressively exhaust their grip-fighting stamina while your positional control remains fresh. When their grip breaks become slower and weaker, commit to the finish with speed and precision. Alternatively, attack their free leg first to occupy one of their defensive hands, then switch to the heel hook when they have only one hand available for defense.",
+        "safety_critical": false,
+        "answer_line": "Bait grip breaks, then finish fast",
+        "distractors": {
+          "plausible": [
+            "Attack free leg to pin both hands",
+            "Finish fast first, bait if it fails"
+          ],
+          "trap": [
+            "Drop control to two-hand the heel"
+          ]
+        }
+      },
+      {
+        "question": "Your opponent begins rolling toward you during the finishing sequence—what adjustment prevents them from alleviating rotational pressure?",
+        "answer": "When the opponent rolls toward you, they are attempting to rotate their body in the same direction as your heel hook rotation to neutralize the twisting differential on their knee. Counter by following their roll while maintaining your grip configuration—as they turn, you turn, keeping the rotational differential between their heel and knee constant. Simultaneously tighten your leg hooks and drive hips forward to prevent them from completing the full rotation. If they continue committing to the roll, transition to a belly-down heel hook position by going over your shoulder, which generates even greater finishing torque using your entire body weight.",
+        "safety_critical": false,
+        "answer_line": "Follow roll, keep grip tension",
+        "distractors": {
+          "plausible": [
+            "Post a hand to stop the roll",
+            "Pull heel harder without turning"
+          ],
+          "trap": [
+            "Unhook legs to spin the other way"
+          ]
+        }
+      }
+    ],
+    "clips": [
+      {
+        "id": "chtDbrmYQo8",
+        "title": "Inversion to inside heel hook",
+        "by": "Gordon Ryan",
+        "vertical": false,
+        "channel": "Control Jiu JItsu",
+        "duration": 62,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "mZ4Q3PL9iZ4",
+        "title": "WNO inversion heel hook breakdown",
+        "by": "Gordon Ryan",
+        "vertical": false,
+        "channel": "ZombieProofBJJ",
+        "duration": 53,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "FfkVEt5YHbY",
+        "title": "Inside ashi garami heel hook",
+        "by": "Modesto Judo Club",
+        "vertical": false,
+        "channel": "Modesto Judo Club",
+        "duration": 59,
+        "verified": "2026-07-14"
       }
     ]
   },
@@ -428,22 +719,137 @@
       {
         "question": "How do you recognize that a heel hook from Inside Ashi-Garami is being set up rather than a straight ankle lock?",
         "answer": "The key distinction is grip placement and hip orientation. For a heel hook, the attacker positions their wrist behind your Achilles tendon and seeks to wrap fingers around your heel bone, whereas an ankle lock grip goes across the top of your foot with pressure on the Achilles. The attacker's hips also rotate more perpendicular to your leg for heel hooks, and they focus on clamping your knee to prevent rotation rather than extending for ankle lock pressure.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Grip behind heel, not top of foot",
+        "distractors": {
+          "plausible": [
+            "Grip across the top of foot",
+            "Hips parallel to opponent's leg"
+          ],
+          "trap": [
+            "Assume ankle lock, defend loosely"
+          ]
+        }
       },
       {
         "question": "What is the safest way to tap when caught in a deep heel hook from Inside Ashi-Garami?",
         "answer": "Tap verbally first and loudly while simultaneously tapping physically with your free hand on the attacker's body, your own body, or the mat. Use multiple tap signals simultaneously to ensure the attacker perceives at least one. Do not wait until you feel pain to tap - tap as soon as you recognize the figure-four grip is locked and rotational pressure is building. Ligament damage from heel hooks occurs before pain signals reach the brain, making early tapping essential for injury prevention.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Tap loud and physically, early",
+        "distractors": {
+          "plausible": [
+            "Slap the mat once, quietly",
+            "Shout only after pain spikes"
+          ],
+          "trap": [
+            "Hold on and try to spin out"
+          ]
+        }
       },
       {
         "question": "What defensive options are available when the attacker has established a full figure-four grip and is beginning to apply rotational pressure?",
         "answer": "At this late stage, your safest option is to tap immediately rather than risk ligament damage. If you choose to defend, turn your entire body toward the attacker to align your knee with the rotational force, reducing ligament stress. Simultaneously grip-fight the figure-four by attacking the wrist connection point. However, understand that late-stage escapes from a fully locked heel hook carry significant injury risk, and the cost-benefit analysis strongly favors tapping early and learning to defend earlier in the sequence.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Tap immediately; escape is risky",
+        "distractors": {
+          "plausible": [
+            "Push their knee to make space",
+            "Flatten out and wait them out"
+          ],
+          "trap": [
+            "Explode and roll away from them"
+          ]
+        }
       },
       {
         "question": "Why is the boot defense considered the highest-percentage early prevention against the heel hook?",
         "answer": "Boot defense works by curling the toes and rotating the foot inward to hide the heel bone from the attacker's grip. Without access to the heel, the attacker cannot establish the rotational control necessary for a heel hook finish. This defense is most effective when initiated immediately upon recognizing the ashi garami entanglement, before any grip is established. It buys critical time to work on more comprehensive escapes like leg extraction or position advancement.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Hides heel bone from grip",
+        "distractors": {
+          "plausible": [
+            "Weakens opponent's hip pressure",
+            "Straightens the trapped leg"
+          ],
+          "trap": [
+            "Kick to create space aggressively"
+          ]
+        }
+      },
+      {
+        "question": "Your opponent has just established Inside Ashi-Garami but has not yet reached for your heel—what is your immediate defensive priority?",
+        "answer": "Hide your heel immediately by pressing it tightly against your own hip, rotating your knee inward and flexing your foot. Your near hand should reach down to grab your own ankle or shin to assist in keeping the heel protected. This is a time-critical action—you have approximately 1-2 seconds before they begin reaching for the heel, and every fraction of a second of hesitation reduces your escape probability dramatically. Because Inside Ashi-Garami lacks a full triangle lock, you also have an early window to attempt leg extraction by pumping your hips back while framing on their hip with your free leg.",
+        "safety_critical": true,
+        "answer_line": "Hide heel tight to your own hip",
+        "distractors": {
+          "plausible": [
+            "Push their knee off your hip",
+            "Sit up and grab their collar"
+          ],
+          "trap": [
+            "Straighten leg to pull it free"
+          ]
+        }
+      },
+      {
+        "question": "What are the definitive indicators that you must tap immediately rather than continue escape attempts?",
+        "answer": "Tap immediately when: (1) opponent has secured a reinforced figure-four grip on your heel with their wrist blade against your Achilles tendon, (2) you feel ANY rotational pressure beginning on your heel, or (3) you cannot freely move your foot within their grip. The inside heel hook can cause complete ligament failure in under one second once the breaking threshold is reached—there is no time to evaluate mid-submission. If you are debating whether to tap, you should already be tapping. No training round or competition match is worth surgical knee reconstruction.",
+        "safety_critical": true,
+        "answer_line": "Grip locked, any heel rotation",
+        "distractors": {
+          "plausible": [
+            "Once your knee starts to ache",
+            "When they grunt with effort"
+          ],
+          "trap": [
+            "Rip your leg out explosively"
+          ]
+        }
+      },
+      {
+        "question": "Your opponent momentarily loosens their leg control while adjusting their grip—what escape opportunity does this create and how do you exploit it?",
+        "answer": "The loosened control is your primary escape window and it closes in 1-2 seconds maximum. Immediately commit to explosive counter-entanglement rotation toward their legs to enter 50-50 Guard, or pump your hips backward explosively while framing with your free leg on their hip to create extraction distance. In Inside Ashi-Garami specifically, the absence of a triangle lock means these windows may be slightly wider than from Honey Hole—exploit this by being ready to act the instant you feel any loosening of their inside leg across your hip or outside hook behind your knee.",
+        "safety_critical": false,
+        "answer_line": "Explode into 50-50 right now",
+        "distractors": {
+          "plausible": [
+            "Reset guard and settle in",
+            "Shake the leg loose slowly"
+          ],
+          "trap": [
+            "Turn away from their legs"
+          ]
+        }
+      },
+      {
+        "question": "How should you use grip fighting defensively when trapped in Inside Ashi-Garami with the opponent reaching for your heel?",
+        "answer": "Use two-on-one grip fighting targeting the opponent's thumb and wrist. Both hands should attack the gripping hand—strip at the thumb which is the weakest point of their grip. Fight their initial reaching hand before they establish the reinforced figure-four Kimura grip, because once both hands are locked the grip becomes nearly impossible to break. Between grip-fighting exchanges, maintain heel hiding with your ankle hand and continue attempting positional escapes. Grip fighting is a delay tactic, not a solution—you must escape the position, not just prevent the submission indefinitely.",
+        "safety_critical": false,
+        "answer_line": "Two-on-one strip at the thumb",
+        "distractors": {
+          "plausible": [
+            "Peel a single wrist one-handed",
+            "Push their forearm away"
+          ],
+          "trap": [
+            "Let them lock figure-four grip"
+          ]
+        }
+      },
+      {
+        "question": "After tapping to an inside heel hook in training, what should you analyze about your defense to improve for next time?",
+        "answer": "Analyze the critical decision points in reverse order: (1) When did the position become inescapable—could you have tapped earlier to protect your knee? (2) What entry did they use to establish Inside Ashi-Garami and at what point could you have prevented it? (3) Did you hesitate after feeling the leg control form instead of reacting immediately? (4) Were your escape attempts fully committed or half-hearted? (5) Did you grip-fight effectively before they established the finishing configuration? Prevention and early-stage escape are far more trainable than late-stage defense. Most heel hook finishes occur because the defender failed to react in the first 1-2 seconds of entanglement.",
+        "safety_critical": false,
+        "answer_line": "Trace back to entry and hesitation",
+        "distractors": {
+          "plausible": [
+            "Only study the final grip fight",
+            "Judge your opponent's execution"
+          ],
+          "trap": [
+            "Only drill escapes from the finish"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -466,6 +872,26 @@
         "phase": "Phase 4: Live Defensive Sparring",
         "focus": "Applying defensive skills in live heel hook scenarios with safety protocols",
         "description": "Begin in Inside Ashi-Garami with partner attacking at 75% intensity. Practice full defensive repertoire including prevention, escape, and tactical tapping. Maintain strict safety protocols throughout with attacker applying finishing pressure slowly and defender tapping at first sign of committed rotational torque. Review each round to identify moments where earlier defense would have been more effective."
+      }
+    ],
+    "clips": [
+      {
+        "id": "cRXsNPAgVLU",
+        "title": "Irimi ashi garami counter",
+        "by": "John Danaher",
+        "vertical": false,
+        "channel": "Dohn Janaher ",
+        "duration": 29,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "gpg88DFH9D4",
+        "title": "Defending and countering the 50/50 heel hook",
+        "by": "Revolution BJJ",
+        "vertical": false,
+        "channel": "Revolution BJJ",
+        "duration": 81,
+        "verified": "2026-07-14"
       }
     ]
   }

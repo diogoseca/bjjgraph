@@ -34,6 +34,43 @@ description: "Master the arm triangle from Kuzure Kesa-Gatame with setup mechani
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Arm Triangle from Kuzure Kesa-Gatame \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Triangle Attacks From Kuzure Kesa Gatame",
+      "description": "Arm Triangle from Kuzure Kesa-Gatame film study: Triangle Attacks From Kuzure Kesa Gatame, taught by Chokes And More.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/tfykooWW-xk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/tfykooWW-xk",
+      "url": "https://www.youtube.com/watch?v=tfykooWW-xk",
+      "creator": { "@type": "Person", "name": "Chokes And More" },
+      "duration": "PT66S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "12 Kesa Gatame Attacks",
+      "description": "Arm Triangle from Kuzure Kesa-Gatame film study: 12 Kesa Gatame Attacks, taught by Johnny Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/fB7gGDIm1i8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/fB7gGDIm1i8",
+      "url": "https://www.youtube.com/watch?v=fB7gGDIm1i8",
+      "creator": { "@type": "Person", "name": "Johnny Jitsu" },
+      "duration": "PT88S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -78,6 +115,34 @@ The finish demands patience and precise body mechanics rather than raw squeezing
 **Starting Position**: [[Positions/Side Control/Kuzure Kesa-Gatame]] · **From**: [[Positions/Side Control/Kuzure Kesa-Gatame]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Arm Triangle from Kuzure Kesa-Gatame in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=tfykooWW-xk)
+
+<p class="clip-credit"><strong>Triangle Attacks From Kuzure Kesa Gatame</strong> — taught by Chokes And More · 1:06 · <a href="https://www.youtube.com/watch?v=tfykooWW-xk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=fB7gGDIm1i8)
+
+<p class="clip-credit"><strong>12 Kesa Gatame Attacks</strong> — taught by Johnny Jitsu · 1:28 · <a href="https://www.youtube.com/watch?v=fB7gGDIm1i8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="outcomes" class="content-section">
 
@@ -242,7 +307,7 @@ The finish demands patience and precise body mechanics rather than raw squeezing
 <section id="related" class="content-section">
 
 ## Related
-- [[Transitions/Arm Triangle]]
+- [[Submissions/Arm Triangle]]
 - [[Transitions/Anaconda Choke]]
 - [[Submissions/Arm in Guillotine]]
 - [[Positions/Side Control/Kuzure Kesa-Gatame]] - Starting position providing the arm isolation that enables this submission

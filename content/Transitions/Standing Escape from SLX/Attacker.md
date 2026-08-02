@@ -174,6 +174,54 @@ description: "Execute the Standing Escape from Single Leg X-Guard with proper ba
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Standing Escape from SLX (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Escape and counter the single leg X reap",
+      "description": "Standing Escape from SLX (Attacker) film study: Escape and counter the single leg X reap, taught by Matteo BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/jE1TQnPOzig/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/jE1TQnPOzig",
+      "url": "https://www.youtube.com/watch?v=jE1TQnPOzig",
+      "creator": { "@type": "Person", "name": "Matteo BJJ" },
+      "duration": "PT277S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Passing Single Leg X",
+      "description": "Standing Escape from SLX (Attacker) film study: Passing Single Leg X, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/XzILYmERAV8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/XzILYmERAV8",
+      "url": "https://www.youtube.com/watch?v=XzILYmERAV8",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT453S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Preventing the Single Leg X Get-Up Sweep",
+      "description": "Standing Escape from SLX (Attacker) film study: Preventing the Single Leg X Get-Up Sweep, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/pnc9alCVShI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/pnc9alCVShI",
+      "url": "https://www.youtube.com/watch?v=pnc9alCVShI",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT192S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -183,6 +231,42 @@ As the attacker executing the Standing Escape from SLX, your primary objective i
 **From Position**: [[Positions/X-Guard/Single Leg X-Guard]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Standing Escape from SLX (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=jE1TQnPOzig)
+
+<p class="clip-credit"><strong>Escape and counter the single leg X reap</strong> — taught by Matteo BJJ · 4:37 · <a href="https://www.youtube.com/watch?v=jE1TQnPOzig" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=XzILYmERAV8)
+
+<p class="clip-credit"><strong>Passing Single Leg X</strong> — taught by Lachlan Giles · 7:33 · <a href="https://www.youtube.com/watch?v=XzILYmERAV8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=pnc9alCVShI)
+
+<p class="clip-credit"><strong>Preventing the Single Leg X Get-Up Sweep</strong> — taught by Lachlan Giles · 3:12 · <a href="https://www.youtube.com/watch?v=pnc9alCVShI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

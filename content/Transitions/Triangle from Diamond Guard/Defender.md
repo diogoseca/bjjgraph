@@ -148,6 +148,54 @@ description: "Defend the triangle setup from Diamond Guard. Recognition cues, de
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Triangle from Diamond Guard (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Defending and escaping diamond guard",
+      "description": "Triangle from Diamond Guard (Defender) film study: Defending and escaping diamond guard, taught by Grappling Game Changer.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/TuAZXBEx5A4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/TuAZXBEx5A4",
+      "url": "https://www.youtube.com/watch?v=TuAZXBEx5A4",
+      "creator": { "@type": "Person", "name": "Grappling Game Changer" },
+      "duration": "PT73S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "How to escape a triangle choke",
+      "description": "Triangle from Diamond Guard (Defender) film study: How to escape a triangle choke, taught by Rener and Ryron Gracie.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/sR2rS2dwpNY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/sR2rS2dwpNY",
+      "url": "https://www.youtube.com/watch?v=sR2rS2dwpNY",
+      "creator": { "@type": "Person", "name": "Rener and Ryron Gracie" },
+      "duration": "PT117S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Triangle defense and escape",
+      "description": "Triangle from Diamond Guard (Defender) film study: Triangle defense and escape, taught by Daniel Frank.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/DLmrzSs1hWI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/DLmrzSs1hWI",
+      "url": "https://www.youtube.com/watch?v=DLmrzSs1hWI",
+      "creator": { "@type": "Person", "name": "Daniel Frank" },
+      "duration": "PT24S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +205,42 @@ Defending the triangle from Diamond Guard requires understanding that your defen
 **Opponent's Starting Position**: [[Positions/Closed Guard/Diamond Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Triangle from Diamond Guard (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=TuAZXBEx5A4)
+
+<p class="clip-credit"><strong>Defending and escaping diamond guard</strong> — taught by Grappling Game Changer · 1:13 · <a href="https://www.youtube.com/watch?v=TuAZXBEx5A4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=sR2rS2dwpNY)
+
+<p class="clip-credit"><strong>How to escape a triangle choke</strong> — taught by Rener and Ryron Gracie · 1:57 · <a href="https://www.youtube.com/watch?v=sR2rS2dwpNY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=DLmrzSs1hWI)
+
+<p class="clip-credit"><strong>Triangle defense and escape</strong> — taught by Daniel Frank · 0:24 · <a href="https://www.youtube.com/watch?v=DLmrzSs1hWI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

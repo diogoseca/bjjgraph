@@ -164,6 +164,54 @@ description: "Master position chains in BJJ. Learn systematic progression throug
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Position Chains \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Combinations and sequencing techniques",
+      "description": "Position Chains film study: Combinations and sequencing techniques, taught by Marcelo Garcia.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/X0pxgQGcvgI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/X0pxgQGcvgI",
+      "url": "https://www.youtube.com/watch?v=X0pxgQGcvgI",
+      "creator": { "@type": "Person", "name": "Marcelo Garcia" },
+      "duration": "PT872S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "How to develop your own submission chains",
+      "description": "Position Chains film study: How to develop your own submission chains, taught by Nick Albin.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/JDpqQJdktq4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/JDpqQJdktq4",
+      "url": "https://www.youtube.com/watch?v=JDpqQJdktq4",
+      "creator": { "@type": "Person", "name": "Nick Albin" },
+      "duration": "PT287S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Seven-submission flow chain",
+      "description": "Position Chains film study: Seven-submission flow chain, taught by Johnny Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/e3NL2SQZPV0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/e3NL2SQZPV0",
+      "url": "https://www.youtube.com/watch?v=e3NL2SQZPV0",
+      "creator": { "@type": "Person", "name": "Johnny Jitsu" },
+      "duration": "PT76S"
+    }
+  ]
+}
+</script>
+
+
 <section id="overview" class="content-section">
 
 ## What are Position Chains?
@@ -173,6 +221,42 @@ description: "Master position chains in BJJ. Learn systematic progression throug
 Position Chains represents the strategic principle of linking multiple positional transitions into planned sequences that systematically advance toward dominant control or submission outcomes. Unlike isolated technique execution, position chains involve pre-planned pathways through the state machine where each successful transition creates the setup for the next position in the sequence. This concept encompasses the strategic planning, pattern recognition, and sequential thinking required to navigate from disadvantageous or neutral positions toward dominant control through multiple intermediary states. Position chains serve as both an offensive roadmap that guides systematic advancement and a defensive framework that helps practitioners recognize and interrupt opponent's progression patterns. The ability to construct and execute position chains often determines whether a practitioner fights reactively technique-by-technique or strategically with coordinated multi-step plans, making it one of the most important conceptual elements for intermediate and advanced development.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Position Chains in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=X0pxgQGcvgI)
+
+<p class="clip-credit"><strong>Combinations and sequencing techniques</strong> — taught by Marcelo Garcia · 14:32 · <a href="https://www.youtube.com/watch?v=X0pxgQGcvgI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=JDpqQJdktq4)
+
+<p class="clip-credit"><strong>How to develop your own submission chains</strong> — taught by Nick Albin · 4:47 · <a href="https://www.youtube.com/watch?v=JDpqQJdktq4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=e3NL2SQZPV0)
+
+<p class="clip-credit"><strong>Seven-submission flow chain</strong> — taught by Johnny Jitsu · 1:16 · <a href="https://www.youtube.com/watch?v=e3NL2SQZPV0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="building-blocks" class="content-section">
 

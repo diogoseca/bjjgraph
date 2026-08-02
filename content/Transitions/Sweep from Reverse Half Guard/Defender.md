@@ -140,6 +140,54 @@ description: "Master defending the Sweep from Reverse Half Guard. Recognition cu
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Sweep from Reverse Half Guard (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Free your trapped foot while passing half guard",
+      "description": "Sweep from Reverse Half Guard (Defender) film study: Free your trapped foot while passing half guard, taught by Kameron Ross.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/kTSMGYlVJKY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/kTSMGYlVJKY",
+      "url": "https://www.youtube.com/watch?v=kTSMGYlVJKY",
+      "creator": { "@type": "Person", "name": "Kameron Ross" },
+      "duration": "PT55S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "How to counter the reverse half guard position",
+      "description": "Sweep from Reverse Half Guard (Defender) film study: How to counter the reverse half guard position, taught by Kenneth Brown.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/KriaQ7G10pk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/KriaQ7G10pk",
+      "url": "https://www.youtube.com/watch?v=KriaQ7G10pk",
+      "creator": { "@type": "Person", "name": "Kenneth Brown" },
+      "duration": "PT131S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Three options for the top player in reverse half guard",
+      "description": "Sweep from Reverse Half Guard (Defender) film study: Three options for the top player in reverse half guard, taught by MMA Leech.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ykTaOFB2fTc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ykTaOFB2fTc",
+      "url": "https://www.youtube.com/watch?v=ykTaOFB2fTc",
+      "creator": { "@type": "Person", "name": "MMA Leech" },
+      "duration": "PT633S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -149,6 +197,42 @@ Defending the Sweep from Reverse Half Guard requires the top player to recognize
 **Opponent's Starting Position**: [[Positions/Half Guard/Reverse Half Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Sweep from Reverse Half Guard (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=kTSMGYlVJKY)
+
+<p class="clip-credit"><strong>Free your trapped foot while passing half guard</strong> — taught by Kameron Ross · 0:55 · <a href="https://www.youtube.com/watch?v=kTSMGYlVJKY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=KriaQ7G10pk)
+
+<p class="clip-credit"><strong>How to counter the reverse half guard position</strong> — taught by Kenneth Brown · 2:11 · <a href="https://www.youtube.com/watch?v=KriaQ7G10pk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ykTaOFB2fTc)
+
+<p class="clip-credit"><strong>Three options for the top player in reverse half guard</strong> — taught by MMA Leech · 10:33 · <a href="https://www.youtube.com/watch?v=ykTaOFB2fTc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

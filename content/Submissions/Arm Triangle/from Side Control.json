@@ -19,7 +19,10 @@
   "target_area": "Carotid arteries (compressed by opponent's own shoulder and your arm)",
   "starting_position": "Side Control",
   "from_position": "Side Control/Top",
-  "success_rate": 62,
+  "success_rate": {
+    "gi": 62,
+    "nogi": 62
+  },
   "overview": "The arm triangle (kata-gatame) from side control is one of the highest-percentage submission finishes in Brazilian Jiu-Jitsu, available whenever the top player traps the opponent's near arm against their own neck while maintaining perpendicular chest-to-chest pressure. The attacker threads a figure-four or gable grip behind the opponent's head, creating bilateral compression on both carotid arteries simultaneously. The opponent's own shoulder becomes one wall of the choke while the attacker's bicep and forearm provide the other, making this a mechanically efficient blood choke that demands proper positioning rather than raw squeezing strength.\n\nWhat makes the arm triangle from side control particularly dangerous is its natural integration with standard side control pressure tactics. Many common defensive reactions from the bottom player—framing against the crossface, bridging to create space, or turning in to recover guard—inadvertently push the near arm across the neck and create the head-and-arm configuration the attacker needs. The finish requires walking the hips to the trapped-arm side to achieve a perpendicular finishing angle, dropping the near hip to the mat, and generating progressive chest-to-chest compression rather than arm squeezing. This body mechanics approach means the choke remains effective against larger opponents and can be sustained with minimal energy expenditure.\n\nAt the highest levels of competition, the arm triangle from side control remains one of the most reliable and frequently used finishes in both gi and no-gi formats. Its effectiveness stems from the fact that the submission becomes available precisely when the opponent is most active in their escape attempts, turning their defensive energy into the mechanism of their own defeat.",
   "safety_considerations": {
     "injury_risks": [
@@ -108,17 +111,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 62,
+      "probability": {
+        "gi": 62,
+        "nogi": 62
+      },
       "result": "success"
     },
     {
       "to": "Side Control/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Top",
-      "probability": 13,
+      "probability": {
+        "gi": 13,
+        "nogi": 13
+      },
       "result": "counter"
     }
   ],
@@ -286,51 +298,180 @@
       {
         "question": "What anatomical structures does the arm triangle from side control attack?",
         "answer": "The arm triangle compresses both carotid arteries simultaneously using a bilateral compression mechanism. The opponent's own trapped shoulder presses into one carotid artery from the near side, while the attacker's forearm blade crosses behind the neck and presses into the opposite carotid from the far side. This bilateral restriction of blood flow to the brain causes unconsciousness in approximately 6-8 seconds if maintained without release.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Compresses both carotid arteries",
+        "distractors": {
+          "plausible": [
+            "Trachea, cuts off airway",
+            "Just the far-side carotid"
+          ],
+          "trap": [
+            "Cervical spine, neck crank"
+          ]
+        }
       },
       {
         "question": "What are the key indicators that the arm triangle is properly locked and the opponent has passed the point of no escape?",
         "answer": "The choke is properly locked when the opponent's trapped shoulder bone is pressing firmly into their own neck with zero space between your chest and their body, your hip is dropped to the mat on the trapped-arm side, and your head is sealed to the mat on the far side. The opponent has passed the point of no escape when they cannot create any frame with their free hand, cannot generate an effective bridge, and their defensive movements become visibly weaker and less coordinated. Facial color changes indicate the blood restriction is taking effect.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "No frame, no bridge, fading fight",
+        "distractors": {
+          "plausible": [
+            "Loud breathing under pressure",
+            "Legs thrashing and kicking"
+          ],
+          "trap": [
+            "Keep squeezing after they go limp"
+          ]
+        }
       },
       {
         "question": "What control must be established before transitioning from side control crossface to the head-and-arm arm triangle grip?",
         "answer": "Before releasing the crossface grip, the attacker must pin the opponent's near arm against their own neck using full chest weight compression. The trapped arm must be completely immobilized by body pressure with no gap between the opponent's shoulder and their neck. If chest pressure does not fully secure the arm before the grip switch begins, the opponent will retract their arm during the vulnerable transition moment and the arm triangle opportunity is lost.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Pin trapped arm w/ chest weight",
+        "distractors": {
+          "plausible": [
+            "Underhook the far-side arm",
+            "Switch grip, then add weight"
+          ],
+          "trap": [
+            "Release crossface immediately"
+          ]
+        }
       },
       {
         "question": "Your opponent starts bridging toward the trapped-arm side as you walk to the finishing angle - what adjustment prevents escape?",
         "answer": "Post your far-side hand on the mat and widen your base toward the direction of the bridge to absorb the explosive movement without losing the head-and-arm grip. Keep your chest heavy on the opponent's face and shoulder throughout the bridge. Once the bridge peaks and the opponent settles back to the mat, immediately resume walking to the perpendicular angle. If the bridge is powerful enough to compromise your grip or angle, settle back into side control and re-establish the setup rather than forcing a finish from a compromised position.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Widen base, ride the bridge out",
+        "distractors": {
+          "plausible": [
+            "Rush the angle before they settle",
+            "Squeeze the grip tighter mid-bridge"
+          ],
+          "trap": [
+            "Lift your chest to avoid the bridge"
+          ]
+        }
       },
       {
         "question": "What body angle creates maximum finishing pressure for the arm triangle from side control?",
         "answer": "The optimal finishing angle is perpendicular (90 degrees) to the opponent's body on the trapped-arm side. The attacker's chest should be positioned directly over the opponent's face with the near hip dropped flat to the mat and the head sealed to the mat on the far side of the opponent's head. This angle maximizes the mechanical efficiency of the choke by allowing the attacker's expanding chest and body weight to drive the opponent's shoulder into their own carotid while the forearm compresses the opposite carotid.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Perpendicular, chest over face",
+        "distractors": {
+          "plausible": [
+            "Parallel, chest on chest",
+            "Square head-to-head on top"
+          ],
+          "trap": [
+            "Angle toward the legs, lose the pin"
+          ]
+        }
       },
       {
         "question": "What are the most common grip options for locking the arm triangle and when should each be used?",
         "answer": "The two primary grips are the figure-four and the gable grip. The figure-four involves grabbing your own bicep with the choking hand while the free hand cups behind the opponent's head, creating a strong triangular structure with mechanical advantage. The gable grip uses a palm-to-palm connection and provides tighter initial compression with faster locking speed. Use the figure-four for maximum finishing power when you have time to set it precisely. Use the gable grip when speed is critical and the opponent is actively fighting the grip transition.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Figure-four power, gable for speed",
+        "distractors": {
+          "plausible": [
+            "Gable for power, figure-four fast",
+            "Palm-to-palm behind their back"
+          ],
+          "trap": [
+            "Lace your fingers and pull"
+          ]
+        }
       },
       {
         "question": "Your opponent keeps their elbows tight and refuses to frame against your crossface - how do you create the arm triangle setup?",
         "answer": "When the opponent keeps their arms tight and will not frame voluntarily, use the paint-the-arm technique. Swim your crossface arm inside the opponent's near-side elbow and actively push their forearm across the centerline of their neck. You can also threaten a mount transition, which often forces the opponent to extend their arms to block, or attack an americana on the near arm to provoke a defensive movement that crosses their arm over their neck. Create the conditions that force the arm across rather than waiting passively for the frame.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Paint the arm across the neck",
+        "distractors": {
+          "plausible": [
+            "Wait for them to frame on their own",
+            "Kimura the far arm to open them"
+          ],
+          "trap": [
+            "Sit up to dig the arm, lose weight"
+          ]
+        }
       },
       {
         "question": "What safety precautions must you observe when applying the arm triangle from side control?",
         "answer": "Apply chest compression progressively over 3-5 seconds minimum, never spike or jerk the squeeze. Monitor the opponent's consciousness by feeling for resistance changes and watching for facial color changes indicating blood restriction. Always ensure at least one of the opponent's hands is free for tapping in training. Release immediately upon any tap signal including verbal, hand, or foot taps. If the opponent goes limp or stops resisting suddenly, release immediately, place them in recovery position on their side, elevate their legs, and monitor breathing until they regain consciousness.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Progressive squeeze, watch for tap",
+        "distractors": {
+          "plausible": [
+            "Squeeze fast to end it quickly",
+            "Release only on a verbal tap"
+          ],
+          "trap": [
+            "Trap both hands, then squeeze"
+          ]
+        }
       },
       {
         "question": "How does the arm triangle from side control differ from a neck crank, and how do you ensure you are applying a blood choke?",
         "answer": "A proper arm triangle compresses both carotid arteries bilaterally, restricting blood flow to the brain. A neck crank applies twisting or bending force to the cervical spine without effective arterial compression. The key difference is the finishing angle: when the attacker is perpendicular to the opponent with chest directly over the face and the opponent's shoulder loaded against their own carotid, the choke compresses arteries. When the angle is off or the attacker squeezes from a parallel position, the force goes into the neck structure rather than the arteries. The test is whether the opponent feels lightheaded rather than neck pain.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Compress both carotid arteries",
+        "distractors": {
+          "plausible": [
+            "Squeeze hard from parallel",
+            "Tap comes from neck pain"
+          ],
+          "trap": [
+            "Wrench the head to force the tap"
+          ]
+        }
       },
       {
         "question": "In competition, your arm triangle is locked but the opponent is defending by locking their hands together and straightening the trapped arm - how do you finish?",
-        "answer": "When the opponent locks hands and straightens the trapped arm to prevent their shoulder from compressing their carotid, maintain the head-and-arm grip and focus on improving your angle and compression rather than fighting the grip. Walk further toward the opponent's head to increase the perpendicular angle, which collapses their defensive structure. Drop your hip even lower and expand your chest maximally. You can also use your free knee to push against their locked hands from underneath to break the grip. Patience is critical—maintain steady progressive pressure and the defensive grip will fatigue before your body mechanics position does."
+        "answer": "When the opponent locks hands and straightens the trapped arm to prevent their shoulder from compressing their carotid, maintain the head-and-arm grip and focus on improving your angle and compression rather than fighting the grip. Walk further toward the opponent's head to increase the perpendicular angle, which collapses their defensive structure. Drop your hip even lower and expand your chest maximally. You can also use your free knee to push against their locked hands from underneath to break the grip. Patience is critical—maintain steady progressive pressure and the defensive grip will fatigue before your body mechanics position does.",
+        "answer_line": "Improve angle, walk toward head",
+        "distractors": {
+          "plausible": [
+            "Pry the locked hands apart fast",
+            "Switch to a different submission"
+          ],
+          "trap": [
+            "Yank the head down harder"
+          ]
+        }
+      }
+    ],
+    "clips": [
+      {
+        "id": "PSgn9TBgwfc",
+        "title": "Side Guard to Te Gatame Arm Triangle",
+        "by": "Gordon Ryan",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 77,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "8An-33URyYk",
+        "title": "How to Arm Triangle from Side Control",
+        "by": "Evolve MMA",
+        "vertical": false,
+        "channel": "Evolve Mixed Martial Arts",
+        "duration": 57,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "eid4RdAQ4gI",
+        "title": "Arm Triangle from Side Control No-Gi",
+        "by": "Ludus Dome",
+        "vertical": false,
+        "channel": "Ludus Dome",
+        "duration": 36,
+        "verified": "2026-07-14"
       }
     ]
   },
@@ -424,27 +565,77 @@
       {
         "question": "How do you recognize that the attacker is setting up an arm triangle from side control?",
         "answer": "The key recognition cues are unusually heavy crossface pressure designed to provoke a near-arm frame, followed by the attacker's chest weight deliberately dropping onto your framing arm to pin it against your own neck. The critical transition moment is when the attacker releases the crossface grip and begins threading their arm over yours and behind the back of your neck. You may also feel their hips begin to disengage from standard side control positioning as they prepare to walk to the finishing angle.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Crossface pins your framing arm",
+        "distractors": {
+          "plausible": [
+            "Attacker grabs your far wrist",
+            "Their knee slides onto your hip"
+          ],
+          "trap": [
+            "Wait until the grip locks to react"
+          ]
+        }
       },
       {
         "question": "What is the safest way to tap when caught in a fully locked arm triangle from side control?",
         "answer": "Tap immediately and clearly using any available signal the moment the choke is sealed and you cannot escape. Tap the mat or the attacker's body rapidly multiple times with your free hand, tap with your feet if your hands are trapped, or verbally say 'tap' loudly and clearly. Do not wait to see if you can fight out of a locked arm triangle—bilateral carotid compression causes unconsciousness in 6-8 seconds with very little warning before you lose consciousness. Tapping early preserves your health and allows you to continue training safely.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Tap fast, hand, foot, or voice",
+        "distractors": {
+          "plausible": [
+            "Tap once softly and wait",
+            "Verbal taps do not count"
+          ],
+          "trap": [
+            "Hold out and try to power free"
+          ]
+        }
       },
       {
         "question": "What arm positioning prevents the attacker from establishing the arm triangle from side control?",
         "answer": "Keep your near arm either pinned tight against your own body with your elbow down and hand flat on your own chest, or extend it fully away from your neck toward the mat. The critical mistake is allowing your forearm to cross your own throat centerline, which creates the trapped-arm position the attacker requires. When defending heavy crossface pressure, use your head, hips, and far arm for defensive framing rather than your near arm. If you must frame, frame against the attacker's hip or shoulder, never across your own neck.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Keep arm pinned or fully extended",
+        "distractors": {
+          "plausible": [
+            "Grab their far-side wrist",
+            "Reach over their back for a grip"
+          ],
+          "trap": [
+            "Frame across your own throat"
+          ]
+        }
       },
       {
         "question": "The attacker has locked the head-and-arm grip but has not yet walked to the finishing angle - what escape options are available?",
         "answer": "This is your last high-percentage escape window before the choke is sealed. Frame your free arm against the attacker's near hip and turn aggressively into them toward your trapped-arm side, fighting to get your knees under your body. If you can face into the attacker and prevent them from achieving the perpendicular angle, they cannot generate the chest compression needed to finish. Alternatively, bridge powerfully toward the trapped-arm side and shrimp your hips to pull them into closed guard, which disrupts the finishing angle entirely.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Turn in, frame their near hip",
+        "distractors": {
+          "plausible": [
+            "Push their face, pop your head out",
+            "Pull their choking arm free"
+          ],
+          "trap": [
+            "Turn away and bridge hard"
+          ]
+        }
       },
       {
         "question": "Why is turning away from the attacker the wrong defensive response when caught in an arm triangle?",
         "answer": "Turning away from the attacker is counterproductive because it gives the attacker exactly the perpendicular angle they need for the finish and drives your own trapped shoulder deeper into your carotid artery, actively accelerating the blood choke. The correct response is to turn into the attacker toward the trapped-arm side, which flattens the choke angle, reduces the shoulder-on-carotid pressure, and makes it harder for the attacker to generate chest compression. Turning in also gives you better options to frame against their hips and work toward guard recovery.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Gives them the finishing angle",
+        "distractors": {
+          "plausible": [
+            "Puts you flat on your stomach",
+            "Lets them switch to a kimura"
+          ],
+          "trap": [
+            "Feels looser, so keep rolling away"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -467,6 +658,35 @@
         "phase": "Phase 4: Live defensive sparring from side control",
         "focus": "Full-speed defense integrating arm triangle awareness into overall side control escape game",
         "description": "Partner starts in side control top with full offensive options including arm triangle, americana, kimura, and mount transitions. Defend all attacks with primary focus on near-arm positioning to prevent the arm triangle while still executing effective side control escapes. 5-minute rounds with reset on escape or submission. Track how often your near arm crosses your neck during the round."
+      }
+    ],
+    "clips": [
+      {
+        "id": "D2vkZGTD78I",
+        "title": "The Fastest Escape Out of the Arm Triangle",
+        "by": "Adam Bradley",
+        "vertical": false,
+        "channel": "Adam Bradley",
+        "duration": 31,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "n_2zR6BaF8A",
+        "title": "The Best Arm-Triangle Escape",
+        "by": "ZombieProofBJJ",
+        "vertical": false,
+        "channel": "ZombieProofBJJ",
+        "duration": 58,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "Jxd9UkmU5Co",
+        "title": "How to Escape the Head & Arm Triangle",
+        "by": "Malachy Friedman",
+        "vertical": false,
+        "channel": "Malachy Friedman",
+        "duration": 83,
+        "verified": "2026-07-14"
       }
     ]
   }

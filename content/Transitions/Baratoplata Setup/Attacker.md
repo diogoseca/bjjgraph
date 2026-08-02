@@ -168,6 +168,54 @@ description: "How to execute Baratoplata Setup in BJJ. Attacking perspective wit
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Baratoplata Setup (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Baratoplata Entry",
+      "description": "Baratoplata Setup (Attacker) film study: Baratoplata Entry, taught by Coach Brian.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/16hTPPDyl5E/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/16hTPPDyl5E",
+      "url": "https://www.youtube.com/watch?v=16hTPPDyl5E",
+      "creator": { "@type": "Person", "name": "Coach Brian" },
+      "duration": "PT158S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Baratoplata from spider guard",
+      "description": "Baratoplata Setup (Attacker) film study: Baratoplata from spider guard, taught by Joao Miyao.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/7PzrTuuHzZ4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/7PzrTuuHzZ4",
+      "url": "https://www.youtube.com/watch?v=7PzrTuuHzZ4",
+      "creator": { "@type": "Person", "name": "Joao Miyao" },
+      "duration": "PT362S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Baratoplata from top half guard",
+      "description": "Baratoplata Setup (Attacker) film study: Baratoplata from top half guard, taught by Juan Lopezcorrea.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/TUDgZTMr3_o/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/TUDgZTMr3_o",
+      "url": "https://www.youtube.com/watch?v=TUDgZTMr3_o",
+      "creator": { "@type": "Person", "name": "Juan Lopezcorrea" },
+      "duration": "PT28S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -181,6 +229,42 @@ The technique requires precise timing and mechanical understanding. Unlike strai
 **From Position**: [[Positions/Rubber Guard/Meathook]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Baratoplata Setup (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=16hTPPDyl5E)
+
+<p class="clip-credit"><strong>Baratoplata Entry</strong> — taught by Coach Brian · 2:38 · <a href="https://www.youtube.com/watch?v=16hTPPDyl5E" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=7PzrTuuHzZ4)
+
+<p class="clip-credit"><strong>Baratoplata from spider guard</strong> — taught by Joao Miyao · 6:02 · <a href="https://www.youtube.com/watch?v=7PzrTuuHzZ4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=TUDgZTMr3_o)
+
+<p class="clip-credit"><strong>Baratoplata from top half guard</strong> — taught by Juan Lopezcorrea · 0:28 · <a href="https://www.youtube.com/watch?v=TUDgZTMr3_o" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 
@@ -236,7 +320,7 @@ The technique requires precise timing and mechanical understanding. Unlike strai
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Submissions/Baratoplata]] | 50% |
+| Success | [[Positions/Omoplata Control]] | 50% |
 | Failure | [[Positions/Rubber Guard/Meathook]] | 25% |
 | Counter | [[Positions/Armbar Control]] | 15% |
 | Counter | [[Positions/Closed Guard]] | 10% |
@@ -252,7 +336,7 @@ The technique requires precise timing and mechanical understanding. Unlike strai
 
 - **Posture up explosively before figure-four is secured** (Effectiveness: High) - Your Response: If you feel them beginning to posture, immediately transition to Triangle Setup as their upward movement creates the angle for leg over neck → Leads to [[Positions/Closed Guard]]
 - **Straighten the trapped arm to prevent figure-four configuration** (Effectiveness: Medium) - Your Response: A straightened arm opens the Armbar on Free Arm directly—staying on the bottom, swing your leg over their head and finish the guard armbar using your shin hook as initial control → Leads to [[Positions/Armbar Control]]
-- **Roll toward the trapped arm side to relieve shoulder pressure** (Effectiveness: Medium) - Your Response: Their roll momentum assists your sweep—follow their roll to achieve mount while maintaining the figure-four for mounted Baratoplata finish → Leads to [[Submissions/Baratoplata]]
+- **Roll toward the trapped arm side to relieve shoulder pressure** (Effectiveness: Medium) - Your Response: Their roll momentum assists your transition—follow their roll while maintaining the figure-four to consolidate the shoulder-lock control position → Leads to [[Positions/Omoplata Control]]
 - **Stack forward to collapse the attack angle** (Effectiveness: Low) - Your Response: Stacking forward drives them into Gogoplata range—release the Baratoplata attempt and transition to shin across throat for choke → Leads to [[Positions/Rubber Guard/Meathook]]
 
 

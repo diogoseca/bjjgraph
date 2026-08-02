@@ -22,7 +22,10 @@
     "Mount",
     "Crucifix"
   ],
-  "success_rate": 50,
+  "success_rate": {
+    "gi": 50,
+    "nogi": 50
+  },
   "variant_uniqueness": "Pre-isolated arm from crucifix control enables direct finishing",
   "overview": "The Mounted Crucifix Armbar is a high-percentage joint lock executed from one of the most dominant control positions in Brazilian Jiu-Jitsu. The attacker leverages the mounted crucifix's inherent arm isolation—where one or both of the defender's arms are trapped by the attacker's legs—to hyperextend the elbow joint on the trapped arm. Because the defender's normal armbar defense mechanisms are severely compromised by the crucifix control, this submission converts at a significantly higher rate than standard armbar variations from mount.\n\nThe submission's tactical value lies in its complementary relationship with choke attacks from the mounted crucifix. When the defender commits their free arm entirely to neck defense against rear naked choke or collar choke attempts, the trapped arm becomes available for the armbar with minimal resistance. Conversely, if the defender attempts to free their trapped arm, the neck becomes exposed to choking attacks. This binary dilemma makes the mounted crucifix one of the highest-converting positions to submission finish in competitive grappling.\n\nMechanically, the armbar requires the attacker to pivot their hips toward the target arm while maintaining crucifix control, then extend the arm against the hip line with the elbow joint positioned for hyperextension pressure. The key distinction from a standard mount armbar is that the initial arm isolation is already established by the leg-based crucifix control, eliminating the most difficult phase of the armbar setup. This pre-existing control transforms the armbar from a multi-step sequence requiring significant positional transitions into a direct finishing technique with minimal setup time.",
   "safety_considerations": {
@@ -84,7 +87,7 @@
       "relationship": "Rotational armbar setup sharing arm isolation finishing principles"
     },
     {
-      "name": "Gift Wrap Armbar",
+      "name": "Gift Wrap Armbar from Gift Wrap",
       "relationship": "Related arm control submission from similar trapping control position"
     },
     {
@@ -136,6 +139,35 @@
     {
       "name": "Gift Wrap",
       "relationship": "Related arm control position with complementary trapping mechanics"
+    }
+  ],
+  "clips": [
+    {
+      "id": "hISwyzfmQr0",
+      "title": "Straight Armbar From Inverted Crucifix",
+      "by": "Laura Sanko",
+      "vertical": false,
+      "channel": "One On One | MMA",
+      "duration": 281,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "VL8WcZaILow",
+      "title": "Crucifix Attacks: Armbar and Rolling Reverse Omoplata",
+      "by": "Legion Jiu Jitsu Coach",
+      "vertical": false,
+      "channel": "Legion Jiu Jitsu ",
+      "duration": 441,
+      "verified": "2026-07-15"
+    },
+    {
+      "id": "uT8ryCrN3Q8",
+      "title": "Crucifix Redeemer Armbar",
+      "by": "Ayrshire Grappler Coach",
+      "vertical": false,
+      "channel": "Ayrshire Grappler",
+      "duration": 107,
+      "verified": "2026-07-15"
     }
   ]
 }

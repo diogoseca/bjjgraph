@@ -168,6 +168,54 @@ description: "How to execute the Clock Choke in BJJ. Attacking perspective with 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Clock Choke (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Bulldog choke from top turtle (no-gi clock choke)",
+      "description": "Clock Choke (Attacker) film study: Bulldog choke from top turtle (no-gi clock choke), taught by Brad Hodges.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/gKzOk8XthEQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/gKzOk8XthEQ",
+      "url": "https://www.youtube.com/watch?v=gKzOk8XthEQ",
+      "creator": { "@type": "Person", "name": "Brad Hodges" },
+      "duration": "PT67S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "The most important choke from top turtle",
+      "description": "Clock Choke (Attacker) film study: The most important choke from top turtle, taught by Brazilian Top Team Happy Valley.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/5E4oms5Yx6Q/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/5E4oms5Yx6Q",
+      "url": "https://www.youtube.com/watch?v=5E4oms5Yx6Q",
+      "creator": { "@type": "Person", "name": "Brazilian Top Team Happy Valley" },
+      "duration": "PT70S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Clock choke breakdown",
+      "description": "Clock Choke (Attacker) film study: Clock choke breakdown, taught by Energia Martial Arts.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/7-0YrhCpDUo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/7-0YrhCpDUo",
+      "url": "https://www.youtube.com/watch?v=7-0YrhCpDUo",
+      "creator": { "@type": "Person", "name": "Energia Martial Arts" },
+      "duration": "PT179S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -179,6 +227,42 @@ The technique creates a fundamental dilemma for the turtled opponent: defending 
 **From Position**: [[Positions/Turtle]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Clock Choke (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=gKzOk8XthEQ)
+
+<p class="clip-credit"><strong>Bulldog choke from top turtle (no-gi clock choke)</strong> — taught by Brad Hodges · 1:07 · <a href="https://www.youtube.com/watch?v=gKzOk8XthEQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=5E4oms5Yx6Q)
+
+<p class="clip-credit"><strong>The most important choke from top turtle</strong> — taught by Brazilian Top Team Happy Valley · 1:10 · <a href="https://www.youtube.com/watch?v=5E4oms5Yx6Q" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=7-0YrhCpDUo)
+
+<p class="clip-credit"><strong>Clock choke breakdown</strong> — taught by Energia Martial Arts · 2:59 · <a href="https://www.youtube.com/watch?v=7-0YrhCpDUo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 
@@ -233,9 +317,8 @@ The technique creates a fundamental dilemma for the turtled opponent: defending 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[game-over]] | 55% |
-| Failure | [[Transitions/Clock Choke]] | 18% |
-| Failure | [[Positions/Turtle]] | 15% |
+| Success | [[Positions/Crucifix]] | 55% |
+| Failure | [[Positions/Turtle]] | 33% |
 | Counter | [[Positions/Half Guard]] | 12% |
 
 
@@ -249,8 +332,8 @@ The technique creates a fundamental dilemma for the turtled opponent: defending 
 
 - **Opponent rolls toward the choking side to relieve pressure and recover guard** (Effectiveness: High) - Your Response: Maintain strong hip control with your non-choking arm and follow their roll, transitioning to side control while keeping collar grip for potential cross collar finish → Leads to [[Positions/Half Guard]]
 - **Opponent sits back into you before rotation is complete** (Effectiveness: Medium) - Your Response: Use your posted leg to prevent them from sitting fully back, or transition to back control as they create the opening by moving toward you → Leads to [[Positions/Turtle]]
-- **Opponent brings hands up to grip fight and strip the collar grip** (Effectiveness: Medium) - Your Response: Accelerate your rotation and sprawl to apply pressure before they can complete the grip break, or switch to back take if they expose their back during the grip fight → Leads to [[Transitions/Clock Choke]]
-- **Opponent flattens out completely to the mat to reduce neck exposure** (Effectiveness: Low) - Your Response: Maintain collar grip and walk further around to reapply pressure from a tighter angle, or transition to back control since flattening opens hook insertion opportunities → Leads to [[Transitions/Clock Choke]]
+- **Opponent brings hands up to grip fight and strip the collar grip** (Effectiveness: Medium) - Your Response: Accelerate your rotation and sprawl to apply pressure before they can complete the grip break, or switch to back take if they expose their back during the grip fight → Leads to [[Positions/Turtle]]
+- **Opponent flattens out completely to the mat to reduce neck exposure** (Effectiveness: Low) - Your Response: Maintain collar grip and walk further around to reapply pressure from a tighter angle, or transition to back control since flattening opens hook insertion opportunities → Leads to [[Positions/Turtle]]
 
 
 </section>

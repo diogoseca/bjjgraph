@@ -180,6 +180,54 @@ description: "Master the frame and escape technique from mounted triangle bottom
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Frame and Escape Mounted Triangle (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Escaping the triangle choke",
+      "description": "Frame and Escape Mounted Triangle (Attacker) film study: Escaping the triangle choke, taught by Rener \u0026 Ryron Gracie.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/sR2rS2dwpNY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/sR2rS2dwpNY",
+      "url": "https://www.youtube.com/watch?v=sR2rS2dwpNY",
+      "creator": { "@type": "Person", "name": "Rener \u0026 Ryron Gracie" },
+      "duration": "PT117S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "How to Defend the Mounted Triangle",
+      "description": "Frame and Escape Mounted Triangle (Attacker) film study: How to Defend the Mounted Triangle, taught by RVV BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/djm7BIQksOQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/djm7BIQksOQ",
+      "url": "https://www.youtube.com/watch?v=djm7BIQksOQ",
+      "creator": { "@type": "Person", "name": "RVV BJJ" },
+      "duration": "PT194S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Mounted Triangle Breakdown",
+      "description": "Frame and Escape Mounted Triangle (Attacker) film study: Mounted Triangle Breakdown, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Q0hYV74kWvU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Q0hYV74kWvU",
+      "url": "https://www.youtube.com/watch?v=Q0hYV74kWvU",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT654S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -189,6 +237,42 @@ Executing the frame and escape from mounted triangle requires the bottom player 
 **From Position**: [[Positions/Mount/Mounted Triangle]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Frame and Escape Mounted Triangle (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=sR2rS2dwpNY)
+
+<p class="clip-credit"><strong>Escaping the triangle choke</strong> — taught by Rener &amp; Ryron Gracie · 1:57 · <a href="https://www.youtube.com/watch?v=sR2rS2dwpNY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=djm7BIQksOQ)
+
+<p class="clip-credit"><strong>How to Defend the Mounted Triangle</strong> — taught by RVV BJJ · 3:14 · <a href="https://www.youtube.com/watch?v=djm7BIQksOQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Q0hYV74kWvU)
+
+<p class="clip-credit"><strong>Mounted Triangle Breakdown</strong> — taught by Lachlan Giles · 10:54 · <a href="https://www.youtube.com/watch?v=Q0hYV74kWvU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

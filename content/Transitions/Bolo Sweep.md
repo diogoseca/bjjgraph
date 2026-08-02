@@ -34,6 +34,54 @@ description: "Master the Bolo Sweep from De La Riva Guard. Learn rotational inve
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Bolo Sweep \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "No-gi De La Riva sweep demonstration",
+      "description": "Bolo Sweep film study: No-gi De La Riva sweep demonstration, taught by James Fisher.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/vG_QHqUZPbc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/vG_QHqUZPbc",
+      "url": "https://www.youtube.com/watch?v=vG_QHqUZPbc",
+      "creator": { "@type": "Person", "name": "James Fisher" },
+      "duration": "PT62S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "De La Riva sweep matrix \u2014 sweep options",
+      "description": "Bolo Sweep film study: De La Riva sweep matrix \u2014 sweep options, taught by Unknown.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/pcOF-B4y09Q/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/pcOF-B4y09Q",
+      "url": "https://www.youtube.com/watch?v=pcOF-B4y09Q",
+      "creator": { "@type": "Person", "name": "Unknown" },
+      "duration": "PT36S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "De La Riva guard sweep variation",
+      "description": "Bolo Sweep film study: De La Riva guard sweep variation, taught by Bruno Lieberenz.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/0QnWhCtEkq4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/0QnWhCtEkq4",
+      "url": "https://www.youtube.com/watch?v=0QnWhCtEkq4",
+      "creator": { "@type": "Person", "name": "Bruno Lieberenz" },
+      "duration": "PT39S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -67,6 +115,42 @@ What makes the Bolo particularly powerful is its scalability - it can be execute
 **Success Rate**: 55%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Bolo Sweep in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=vG_QHqUZPbc)
+
+<p class="clip-credit"><strong>No-gi De La Riva sweep demonstration</strong> — taught by James Fisher · 1:02 · <a href="https://www.youtube.com/watch?v=vG_QHqUZPbc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=pcOF-B4y09Q)
+
+<p class="clip-credit"><strong>De La Riva sweep matrix — sweep options</strong> — taught by Unknown · 0:36 · <a href="https://www.youtube.com/watch?v=pcOF-B4y09Q" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=0QnWhCtEkq4)
+
+<p class="clip-credit"><strong>De La Riva guard sweep variation</strong> — taught by Bruno Lieberenz · 0:39 · <a href="https://www.youtube.com/watch?v=0QnWhCtEkq4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

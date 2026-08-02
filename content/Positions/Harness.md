@@ -35,6 +35,43 @@ description: "Master Harness Position in BJJ - back control with seat belt grip.
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Harness \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Why You Keep Losing The Back",
+      "description": "Harness film study: Why You Keep Losing The Back, taught by Brandon Mccaghren.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/lpgcKpIgClw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/lpgcKpIgClw",
+      "url": "https://www.youtube.com/watch?v=lpgcKpIgClw",
+      "creator": { "@type": "Person", "name": "Brandon Mccaghren" },
+      "duration": "PT143S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Entries Into Rear Triangle Back Position",
+      "description": "Harness film study: Entries Into Rear Triangle Back Position, taught by John Danaher.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/-lMabjvtaLk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/-lMabjvtaLk",
+      "url": "https://www.youtube.com/watch?v=-lMabjvtaLk",
+      "creator": { "@type": "Person", "name": "John Danaher" },
+      "duration": "PT252S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -70,6 +107,34 @@ The harness grip creates a mechanical advantage by connecting the attacker's han
 Strategically, the harness position serves as a transitional control point and a submission platform for the top player, while presenting a critical defensive challenge for the bottom player. From this configuration, top practitioners can attack the neck directly, transition to other control positions like the gift wrap or crucifix, or use the grip structure to maintain control while adjusting hook placement. Bottom practitioners face the challenge of defending submissions while working systematic escapes to turtle, guard, or standing positions. The harness is particularly effective in no-gi grappling where gi-based grips are unavailable, and it forms the technical foundation for virtually all modern back attack and defense systems.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Harness in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=lpgcKpIgClw)
+
+<p class="clip-credit"><strong>Why You Keep Losing The Back</strong> — taught by Brandon Mccaghren · 2:23 · <a href="https://www.youtube.com/watch?v=lpgcKpIgClw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=-lMabjvtaLk)
+
+<p class="clip-credit"><strong>Entries Into Rear Triangle Back Position</strong> — taught by John Danaher · 4:12 · <a href="https://www.youtube.com/watch?v=-lMabjvtaLk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 
@@ -141,23 +206,23 @@ Strategically, the harness position serves as a transitional control point and a
 ### Available Transitions
 
 
-- **[[Transitions/Elbow Escape to Guard/Attacker|Elbow Escape to Guard]]** (21% of attempts)
+- **[[Transitions/Elbow Escape to Guard/Attacker|Elbow Escape to Guard]]** (12% of attempts)
 
-- **[[Transitions/Hip Escape to Turtle/Attacker|Hip Escape to Turtle]]** (17% of attempts)
+- **[[Transitions/Hip Escape to Turtle/Attacker|Hip Escape to Turtle]]** (11% of attempts)
 
-- **[[Transitions/Technical Stand Up to Single Leg/Attacker|Technical Stand Up to Single Leg]]** (8% of attempts)
+- **[[Transitions/Technical Stand Up to Single Leg/Attacker|Technical Stand Up to Single Leg]]** (7% of attempts)
 
-- **[[Transitions/Roll to Guard/Attacker|Roll to Guard]]** (12% of attempts)
+- **[[Transitions/Roll to Guard/Attacker|Roll to Guard]]** (9% of attempts)
 
-- **[[Transitions/Granby Roll to Guard/Attacker|Granby Roll to Guard]]** (11% of attempts)
+- **[[Transitions/Granby Roll to Guard/Attacker|Granby Roll to Guard]]** (7% of attempts)
 
-- **[[Transitions/Hip Escape to Guard/Attacker|Hip Escape to Guard]]** (11% of attempts)
+- **[[Transitions/Hip Escape to Guard/Attacker|Hip Escape to Guard]]** (12% of attempts)
 
-- **[[Transitions/Shrimp Escape/Attacker|Shrimp Escape]]** (9% of attempts)
+- **[[Transitions/Shrimp Escape/Attacker|Shrimp Escape]]** (14% of attempts)
 
-- **[[Transitions/Hand Fighting from Back/Attacker|Hand Fighting from Back]]** (7% of attempts)
+- **[[Transitions/Hand Fighting from Back/Attacker|Hand Fighting from Back]]** (20% of attempts)
 
-- **[[Transitions/Harness Escape to Half Guard/Attacker|Harness Escape to Half Guard]]** (4% of attempts)
+- **[[Transitions/Harness Escape to Half Guard/Attacker|Harness Escape to Half Guard]]** (8% of attempts)
 
 
 ### Common Mistakes
@@ -218,29 +283,27 @@ Strategically, the harness position serves as a transitional control point and a
 ### Available Transitions
 
 
-- **[[Rear Naked Choke from Harness/Attacker|Rear Naked Choke from Harness]]** (41% of attempts)
+- **[[Rear Naked Choke from Harness/Attacker|Rear Naked Choke from Harness]]** (32% of attempts)
 
-- **[[Transitions/Armbar from Back Transition/Attacker|Armbar from Back Transition]]** (13% of attempts)
+- **[[Transitions/Armbar from Back Transition/Attacker|Armbar from Back Transition]]** (6% of attempts)
 
-- **[[Transitions/Back Control to Crucifix/Attacker|Back Control to Crucifix]]** (8% of attempts)
+- **[[Transitions/Back Control to Crucifix/Attacker|Back Control to Crucifix]]** (7% of attempts)
 
-- **[[Transitions/Triangle from Back/Attacker|Triangle from Back]]** (4% of attempts)
+- **[[Transitions/Triangle from Back/Attacker|Triangle from Back]]** (6% of attempts)
 
-- **[[Bow and Arrow Choke from Harness/Attacker|Bow and Arrow Choke from Harness]]** (10% of attempts)
+- **[[Bow and Arrow Choke from Harness/Attacker|Bow and Arrow Choke from Harness]]** (0% of attempts)
 
-- **[[Short Choke from Harness/Attacker|Short Choke from Harness]]** (5% of attempts)
+- **[[Short Choke from Harness/Attacker|Short Choke from Harness]]** (10% of attempts)
 
-- **[[Transitions/Rolling Back Take/Attacker|Rolling Back Take]]** (3% of attempts)
+- **[[Transitions/Rolling Back Take/Attacker|Rolling Back Take]]** (2% of attempts)
 
-- **[[Transitions/Back Control Maintenance/Attacker|Back Control Maintenance]]** (2% of attempts)
+- **[[Transitions/Back Control Maintenance/Attacker|Back Control Maintenance]]** (20% of attempts)
 
 - **[[Transitions/Kimura from Back/Attacker|Kimura from Back]]** (6% of attempts)
 
-- **[[Transitions/Gift Wrap Transition/Attacker|Gift Wrap Transition]]** (4% of attempts)
+- **[[Transitions/Gift Wrap Transition/Attacker|Gift Wrap Transition]]** (5% of attempts)
 
-- **[[Transitions/Hand Fighting from Back/Attacker|Hand Fighting from Back]]** (3% of attempts)
-
-- **[[Transitions/Harness to Body Lock/Attacker|Harness to Body Lock]]** (1% of attempts)
+- **[[Transitions/Harness to Body Lock/Attacker|Harness to Body Lock]]** (6% of attempts)
 
 
 ### Common Mistakes

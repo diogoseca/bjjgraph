@@ -148,6 +148,43 @@ description: "Defend against the Open Guard to De La Riva transition as the top 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Open Guard to De La Riva (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Defense against a deep De La Riva hook",
+      "description": "Open Guard to De La Riva (Defender) film study: Defense against a deep De La Riva hook, taught by Sickness Ferro.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/CsBA40bkexk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/CsBA40bkexk",
+      "url": "https://www.youtube.com/watch?v=CsBA40bkexk",
+      "creator": { "@type": "Person", "name": "Sickness Ferro" },
+      "duration": "PT144S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Over-under pass from De La Riva",
+      "description": "Open Guard to De La Riva (Defender) film study: Over-under pass from De La Riva, taught by Carpio Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/KvdgeJjclTA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/KvdgeJjclTA",
+      "url": "https://www.youtube.com/watch?v=KvdgeJjclTA",
+      "creator": { "@type": "Person", "name": "Carpio Jiu Jitsu" },
+      "duration": "PT128S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +194,34 @@ As the top player facing an opponent attempting to establish De La Riva guard fr
 **Opponent's Starting Position**: [[Positions/Open Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Open Guard to De La Riva (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=CsBA40bkexk)
+
+<p class="clip-credit"><strong>Defense against a deep De La Riva hook</strong> — taught by Sickness Ferro · 2:24 · <a href="https://www.youtube.com/watch?v=CsBA40bkexk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=KvdgeJjclTA)
+
+<p class="clip-credit"><strong>Over-under pass from De La Riva</strong> — taught by Carpio Jiu Jitsu · 2:08 · <a href="https://www.youtube.com/watch?v=KvdgeJjclTA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

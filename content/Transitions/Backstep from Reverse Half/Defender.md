@@ -148,6 +148,54 @@ description: "Master defending the backstep back take from reverse half guard. R
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Backstep from Reverse Half (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Defending the backstep pass and recovering guard",
+      "description": "Backstep from Reverse Half (Defender) film study: Defending the backstep pass and recovering guard, taught by Inverted Gear.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/a3ModDEKY6s/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/a3ModDEKY6s",
+      "url": "https://www.youtube.com/watch?v=a3ModDEKY6s",
+      "creator": { "@type": "Person", "name": "Inverted Gear" },
+      "duration": "PT145S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Dealing with the switch base from half guard",
+      "description": "Backstep from Reverse Half (Defender) film study: Dealing with the switch base from half guard, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/rja-2KKDGb0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/rja-2KKDGb0",
+      "url": "https://www.youtube.com/watch?v=rja-2KKDGb0",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT284S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "How to defend against the backstep guard pass",
+      "description": "Backstep from Reverse Half (Defender) film study: How to defend against the backstep guard pass, taught by Roberto \u0027Gordo\u0027 Correa.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/p8b8Fmbwaio/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/p8b8Fmbwaio",
+      "url": "https://www.youtube.com/watch?v=p8b8Fmbwaio",
+      "creator": { "@type": "Person", "name": "Roberto \u0027Gordo\u0027 Correa" },
+      "duration": "PT118S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +205,42 @@ Defending the backstep from reverse half guard requires recognizing the attack e
 **Opponent's Starting Position**: [[Positions/Half Guard/Reverse Half Guard]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Backstep from Reverse Half (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=a3ModDEKY6s)
+
+<p class="clip-credit"><strong>Defending the backstep pass and recovering guard</strong> — taught by Inverted Gear · 2:25 · <a href="https://www.youtube.com/watch?v=a3ModDEKY6s" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=rja-2KKDGb0)
+
+<p class="clip-credit"><strong>Dealing with the switch base from half guard</strong> — taught by Lachlan Giles · 4:44 · <a href="https://www.youtube.com/watch?v=rja-2KKDGb0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=p8b8Fmbwaio)
+
+<p class="clip-credit"><strong>How to defend against the backstep guard pass</strong> — taught by Roberto &#39;Gordo&#39; Correa · 1:58 · <a href="https://www.youtube.com/watch?v=p8b8Fmbwaio" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

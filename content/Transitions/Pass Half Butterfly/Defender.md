@@ -148,6 +148,43 @@ description: "Complete guide to defending the Pass Half Butterfly in BJJ. Recogn
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Pass Half Butterfly (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Butterfly Guard Framing and Retention Concepts",
+      "description": "Pass Half Butterfly (Defender) film study: Butterfly Guard Framing and Retention Concepts, taught by ZeGrapplez.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ADwKEjvhX-U/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ADwKEjvhX-U",
+      "url": "https://www.youtube.com/watch?v=ADwKEjvhX-U",
+      "creator": { "@type": "Person", "name": "ZeGrapplez" },
+      "duration": "PT62S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Half Butterfly: Entering The Trade Off a Failed Sweep",
+      "description": "Pass Half Butterfly (Defender) film study: Half Butterfly: Entering The Trade Off a Failed Sweep, taught by Revolution BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/uH2MxHMNDo0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/uH2MxHMNDo0",
+      "url": "https://www.youtube.com/watch?v=uH2MxHMNDo0",
+      "creator": { "@type": "Person", "name": "Revolution BJJ" },
+      "duration": "PT74S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +194,34 @@ Defending the Pass Half Butterfly requires recognizing the passer's intent to ne
 **Opponent's Starting Position**: [[Positions/Butterfly Guard/Half Butterfly]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Pass Half Butterfly (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ADwKEjvhX-U)
+
+<p class="clip-credit"><strong>Butterfly Guard Framing and Retention Concepts</strong> — taught by ZeGrapplez · 1:02 · <a href="https://www.youtube.com/watch?v=ADwKEjvhX-U" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=uH2MxHMNDo0)
+
+<p class="clip-credit"><strong>Half Butterfly: Entering The Trade Off a Failed Sweep</strong> — taught by Revolution BJJ · 1:14 · <a href="https://www.youtube.com/watch?v=uH2MxHMNDo0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

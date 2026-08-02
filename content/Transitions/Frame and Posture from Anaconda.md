@@ -34,6 +34,43 @@ description: "Master the Frame and Posture escape from Anaconda Control in BJJ. 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Frame and Posture from Anaconda \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "How to escape the anaconda choke",
+      "description": "Frame and Posture from Anaconda film study: How to escape the anaconda choke, taught by ZombieProofBJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/czQckiDogRc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/czQckiDogRc",
+      "url": "https://www.youtube.com/watch?v=czQckiDogRc",
+      "creator": { "@type": "Person", "name": "ZombieProofBJJ" },
+      "duration": "PT92S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Anaconda choke defense",
+      "description": "Frame and Posture from Anaconda film study: Anaconda choke defense, taught by SFS MMA.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/SXm9wA1HcvM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/SXm9wA1HcvM",
+      "url": "https://www.youtube.com/watch?v=SXm9wA1HcvM",
+      "creator": { "@type": "Person", "name": "SFS MMA" },
+      "duration": "PT64S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +106,34 @@ Strategically, Frame and Posture from Anaconda serves as a complementary escape 
 **Success Rate**: 40%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Frame and Posture from Anaconda in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=czQckiDogRc)
+
+<p class="clip-credit"><strong>How to escape the anaconda choke</strong> — taught by ZombieProofBJJ · 1:32 · <a href="https://www.youtube.com/watch?v=czQckiDogRc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=SXm9wA1HcvM)
+
+<p class="clip-credit"><strong>Anaconda choke defense</strong> — taught by SFS MMA · 1:04 · <a href="https://www.youtube.com/watch?v=SXm9wA1HcvM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

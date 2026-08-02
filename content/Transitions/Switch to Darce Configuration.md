@@ -34,6 +34,54 @@ description: "Learn Switch to Darce Configuration from Buggy Choke in BJJ. Recon
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Switch to Darce Configuration \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Anaconda vs D\u0027Arce: switching between configurations",
+      "description": "Switch to Darce Configuration film study: Anaconda vs D\u0027Arce: switching between configurations, taught by Matt Arroyo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/6d6Wkgh9imU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/6d6Wkgh9imU",
+      "url": "https://www.youtube.com/watch?v=6d6Wkgh9imU",
+      "creator": { "@type": "Person", "name": "Matt Arroyo" },
+      "duration": "PT67S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Finishing the D\u0027Arce on bigger opponents",
+      "description": "Switch to Darce Configuration film study: Finishing the D\u0027Arce on bigger opponents, taught by Rener and Ryron Gracie.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/8Idnp8DpSHU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/8Idnp8DpSHU",
+      "url": "https://www.youtube.com/watch?v=8Idnp8DpSHU",
+      "creator": { "@type": "Person", "name": "Rener and Ryron Gracie" },
+      "duration": "PT151S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "D\u0027Arce setup from half guard, no-gi",
+      "description": "Switch to Darce Configuration film study: D\u0027Arce setup from half guard, no-gi, taught by Roy Dean.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/FZOqivRqzrg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/FZOqivRqzrg",
+      "url": "https://www.youtube.com/watch?v=FZOqivRqzrg",
+      "creator": { "@type": "Person", "name": "Roy Dean" },
+      "duration": "PT193S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -66,9 +114,45 @@ The darce configuration is mechanically distinct from the anaconda because the c
 This transition is a critical branch in the buggy choke attack tree. Opponents who turn in to defend the collar grip inadvertently create the head-and-arm angle required for both darce and anaconda attacks. Choosing the darce over the anaconda depends on arm positioning and the specific angle of the opponent's rotation. The darce configuration offers a powerful finishing position because the choking arm's blade sits directly across the carotid with the opponent's own trapped shoulder acting as the secondary compression point. Once the figure-four locks, the top player sprawls and walks hips toward the head to generate finishing pressure through body mechanics rather than arm strength.
 
 **From Position**: [[Positions/Buggy Choke]] (Top)
-**Success Rate**: 58%
+**Success Rate**: 39%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Switch to Darce Configuration in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=6d6Wkgh9imU)
+
+<p class="clip-credit"><strong>Anaconda vs D&#39;Arce: switching between configurations</strong> — taught by Matt Arroyo · 1:07 · <a href="https://www.youtube.com/watch?v=6d6Wkgh9imU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=8Idnp8DpSHU)
+
+<p class="clip-credit"><strong>Finishing the D&#39;Arce on bigger opponents</strong> — taught by Rener and Ryron Gracie · 2:31 · <a href="https://www.youtube.com/watch?v=8Idnp8DpSHU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=FZOqivRqzrg)
+
+<p class="clip-credit"><strong>D&#39;Arce setup from half guard, no-gi</strong> — taught by Roy Dean · 3:13 · <a href="https://www.youtube.com/watch?v=FZOqivRqzrg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 
@@ -239,7 +323,7 @@ The Switch to Darce Configuration is a critical branch in the buggy choke attack
 
 - [[Positions/Darce Control]] - Target position achieved upon successful grip reconfiguration to darce
 
-- [[Transitions/Darce Choke]] - Primary submission finish available from the darce control position
+- [[Submissions/Darce Choke]] - Primary submission finish available from the darce control position
 
 - [[Transitions/Switch to Anaconda Configuration]] - Mirror sibling transition using opposite threading direction from same starting position
 

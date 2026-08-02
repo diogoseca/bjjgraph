@@ -34,6 +34,43 @@ description: "Master the belly down armbar finish from Spider Guard. Learn grip 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Belly Down Armbar from Spider Guard \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "From Spider Guard to Arm Bar",
+      "description": "Belly Down Armbar from Spider Guard film study: From Spider Guard to Arm Bar, taught by Thamires Acquino.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/M6B2-c6cyog/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/M6B2-c6cyog",
+      "url": "https://www.youtube.com/watch?v=M6B2-c6cyog",
+      "creator": { "@type": "Person", "name": "Thamires Acquino" },
+      "duration": "PT221S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Quick Armbar from the Shin Trap",
+      "description": "Belly Down Armbar from Spider Guard film study: Quick Armbar from the Shin Trap, taught by Langaker BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Rle6wKSOeEA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Rle6wKSOeEA",
+      "url": "https://www.youtube.com/watch?v=Rle6wKSOeEA",
+      "creator": { "@type": "Person", "name": "Langaker BJJ" },
+      "duration": "PT98S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -78,6 +115,34 @@ Once the initial armbar position is secured, the attacker rotates to belly-down 
 **Starting Position**: [[Positions/Spider Guard]] · **From**: [[Positions/Spider Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Belly Down Armbar from Spider Guard in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=M6B2-c6cyog)
+
+<p class="clip-credit"><strong>From Spider Guard to Arm Bar</strong> — taught by Thamires Acquino · 3:41 · <a href="https://www.youtube.com/watch?v=M6B2-c6cyog" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Rle6wKSOeEA)
+
+<p class="clip-credit"><strong>Quick Armbar from the Shin Trap</strong> — taught by Langaker BJJ · 1:38 · <a href="https://www.youtube.com/watch?v=Rle6wKSOeEA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="outcomes" class="content-section">
 
@@ -223,7 +288,6 @@ Once the initial armbar position is secured, the attacker rotates to belly-down 
 ## Related
 - [[Submissions/Belly Down Armbar]]
 - [[Submissions/Far Side Armbar]]
-- [[Submissions/Flying Armbar]]
 - [[Submissions/Bicep Slicer]]
 - [[Positions/Spider Guard]] - Starting position providing the sleeve control and bicep hooks for this submission entry
 - [[Positions/Armbar Control]] - Control position securing the arm before transitioning to belly-down finish

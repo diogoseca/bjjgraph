@@ -17,24 +17,35 @@
   "outcomes": [
     {
       "to": "Williams Guard/Bottom",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Butterfly Guard/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Butterfly Guard/Top",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "summary": "Butterfly Guard to Williams Guard is a no-gi entry where the seated bottom player secures a deep overhook on the opponent's arm and threads a figure-four shoulder lock, converting butterfly hook control into the joint-threatening Williams Guard.",
-  "overview": "Butterfly Guard to Williams Guard is the primary entry into the modern shoulder-lock guard popularized by Roy Williams, executed from a seated butterfly base in no-gi. The bottom player begins with butterfly hooks and a same-side overhook on the opponent's arm, then collapses the elbow and threads a figure-four grip behind the opponent's tricep to isolate the shoulder. As the figure-four locks, the guard transforms from a pure hook-and-sweep platform into a joint-control hub where the trapped shoulder dictates the opponent's every reaction.\n\nThe entry works best when the opponent reaches in to control your collar, posts a hand on the mat to base, or drives forward to flatten your butterfly guard, because each of those actions feeds the arm you need into overhook range. By the time the shoulder lock is set, the opponent faces the Williams dilemma: defending the joint opens omoplatas and sweeps, while pursuing the pass deepens the submission. This makes the transition far more than a position change; it converts a neutral guard exchange into an immediate offensive threat.\n\nBecause Williams Guard relies on a shoulder lock rather than collar-and-sleeve grips, the butterfly entry is especially valuable in no-gi where grip-based guards lose retention. The seated butterfly posture provides the elevation and hip mobility needed to angle off, while the overhook supplies the pre-frame that becomes the figure-four. Practitioners who master this entry gain a reliable on-ramp into one of the most dynamic submission-driven guards in contemporary grappling."
-,
+  "overview": "Butterfly Guard to Williams Guard is the primary entry into the modern shoulder-lock guard popularized by Roy Williams, executed from a seated butterfly base in no-gi. The bottom player begins with butterfly hooks and a same-side overhook on the opponent's arm, then collapses the elbow and threads a figure-four grip behind the opponent's tricep to isolate the shoulder. As the figure-four locks, the guard transforms from a pure hook-and-sweep platform into a joint-control hub where the trapped shoulder dictates the opponent's every reaction.\n\nThe entry works best when the opponent reaches in to control your collar, posts a hand on the mat to base, or drives forward to flatten your butterfly guard, because each of those actions feeds the arm you need into overhook range. By the time the shoulder lock is set, the opponent faces the Williams dilemma: defending the joint opens omoplatas and sweeps, while pursuing the pass deepens the submission. This makes the transition far more than a position change; it converts a neutral guard exchange into an immediate offensive threat.\n\nBecause Williams Guard relies on a shoulder lock rather than collar-and-sleeve grips, the butterfly entry is especially valuable in no-gi where grip-based guards lose retention. The seated butterfly posture provides the elevation and hip mobility needed to angle off, while the overhook supplies the pre-frame that becomes the figure-four. Practitioners who master this entry gain a reliable on-ramp into one of the most dynamic submission-driven guards in contemporary grappling.",
   "conditions": [
     "Butterfly guard established with at least one active hook under the opponent's thigh",
     "You have an overhook or deep arm wrap on the side you intend to shoulder-lock",
@@ -100,8 +111,7 @@
   "attacker": {
     "name": "Butterfly Guard to Williams Guard Attacker",
     "description": "How to enter Williams Guard from Butterfly Guard. Attacker setup, overhook to figure-four shoulder lock steps, counters, and drills for the no-gi shoulder-lock guard.",
-    "overview": "As the attacker, your goal is to convert a neutral butterfly exchange into a shoulder-lock control hub by trapping the opponent's arm in a figure-four before they recognize the threat. You start seated with butterfly hooks and an overhook on one arm. The moment the opponent commits that arm forward to grip, post, or pressure, you collapse their elbow into your chest and thread your free hand to your own wrist, locking the shoulder. Once the figure-four is set, you angle your hips away from their free arm to maximize joint isolation and deny them the underhook that would let them escape.\n\nThe entry rewards patience and timing over force. Rushing the figure-four against a posted, strong arm telegraphs the lock and invites a frame escape; instead you let the opponent's own reaching, basing, or driving feed the arm into position. Throughout the entry your hooks and frames stay active so that if the shoulder lock is denied you simply retain butterfly guard rather than being flattened. When the lock lands cleanly you arrive in Williams Guard with the opponent already trapped in the mechanical dilemma that defines the position: defend the joint and open the sweep, or chase the pass and deepen the submission."
-,
+    "overview": "As the attacker, your goal is to convert a neutral butterfly exchange into a shoulder-lock control hub by trapping the opponent's arm in a figure-four before they recognize the threat. You start seated with butterfly hooks and an overhook on one arm. The moment the opponent commits that arm forward to grip, post, or pressure, you collapse their elbow into your chest and thread your free hand to your own wrist, locking the shoulder. Once the figure-four is set, you angle your hips away from their free arm to maximize joint isolation and deny them the underhook that would let them escape.\n\nThe entry rewards patience and timing over force. Rushing the figure-four against a posted, strong arm telegraphs the lock and invites a frame escape; instead you let the opponent's own reaching, basing, or driving feed the arm into position. Throughout the entry your hooks and frames stay active so that if the shoulder lock is denied you simply retain butterfly guard rather than being flattened. When the lock lands cleanly you arrive in Williams Guard with the opponent already trapped in the mechanical dilemma that defines the position: defend the joint and open the sweep, or chase the pass and deepen the submission.",
     "key_principles": [
       "Use an overhook as the pre-frame that becomes the figure-four shoulder lock, not a separate grip you scramble for",
       "Let the opponent's reaching, basing, or forward pressure feed their arm into overhook range rather than forcing it",
@@ -233,40 +243,138 @@
     "flashcards": [
       {
         "question": "Why must you collapse the opponent's elbow before threading the figure-four?",
-        "answer": "A straight arm slides out of the shoulder lock because there is no bend to bind the joint, so the opponent simply extracts the limb. Collapsing the elbow toward your chest shortens the lever, isolates the shoulder, and creates the folded structure the figure-four needs to control shoulder rotation and pose a genuine submission threat."
+        "answer": "A straight arm slides out of the shoulder lock because there is no bend to bind the joint, so the opponent simply extracts the limb. Collapsing the elbow toward your chest shortens the lever, isolates the shoulder, and creates the folded structure the figure-four needs to control shoulder rotation and pose a genuine submission threat.",
+        "answer_line": "Fold elbow to isolate shoulder",
+        "distractors": {
+          "plausible": [
+            "Grip low at the wrist first",
+            "Keep arm straight, lock fast"
+          ],
+          "trap": [
+            "Lock straight arm right away"
+          ]
+        }
       },
       {
         "question": "How does the opponent's own action create the entry into Williams Guard from butterfly?",
-        "answer": "The entry relies on the opponent committing their arm forward. When they reach to grip your collar, post a hand on the mat to defend a sweep, or drive forward to pressure your butterfly guard, they feed that arm directly into your overhook range. Letting these reactions deliver the arm is higher percentage than forcing the lock on a defended, retracted limb."
+        "answer": "The entry relies on the opponent committing their arm forward. When they reach to grip your collar, post a hand on the mat to defend a sweep, or drive forward to pressure your butterfly guard, they feed that arm directly into your overhook range. Letting these reactions deliver the arm is higher percentage than forcing the lock on a defended, retracted limb.",
+        "answer_line": "Let them feed the arm forward",
+        "distractors": {
+          "plausible": [
+            "Grip fight for the overhook",
+            "Wait for them to retreat"
+          ],
+          "trap": [
+            "Force the overhook through guard"
+          ]
+        }
       },
       {
         "question": "What should you do if the opponent rips their arm out before you finish the figure-four?",
-        "answer": "Do not chase the escaping arm, as over-extending exposes you to a pass. Instead re-pommel for the overhook or switch to a same-side underhook, reset your butterfly hooks and frames, and retain butterfly guard. The failure outcome should always return you to a safe guard rather than a scramble that concedes top position."
+        "answer": "Do not chase the escaping arm, as over-extending exposes you to a pass. Instead re-pommel for the overhook or switch to a same-side underhook, reset your butterfly hooks and frames, and retain butterfly guard. The failure outcome should always return you to a safe guard rather than a scramble that concedes top position.",
+        "answer_line": "Reset to butterfly, don't chase",
+        "distractors": {
+          "plausible": [
+            "Chase the arm to re-grip",
+            "Switch to closed guard"
+          ],
+          "trap": [
+            "Dive for a scramble sweep"
+          ]
+        }
       },
       {
         "question": "Why do you angle your hips away from the opponent's free arm once the lock is set?",
-        "answer": "Angling away from the free arm deepens the shoulder isolation, removes the space the opponent needs to dig a defensive underhook, and lines your legs up to threaten sweeps and the omoplata. Staying squared lets them drive forward and underhook, which neutralizes the shoulder lock and stalls your offense."
+        "answer": "Angling away from the free arm deepens the shoulder isolation, removes the space the opponent needs to dig a defensive underhook, and lines your legs up to threaten sweeps and the omoplata. Staying squared lets them drive forward and underhook, which neutralizes the shoulder lock and stalls your offense.",
+        "answer_line": "Deepens isolation, blocks underhook",
+        "distractors": {
+          "plausible": [
+            "Square up to control both arms",
+            "Angle toward the free arm"
+          ],
+          "trap": [
+            "Flatten out and drive forward"
+          ]
+        }
       },
       {
         "question": "Where should the figure-four grip sit and why does grip height matter?",
-        "answer": "The figure-four should sit high around the opponent's upper arm near the shoulder joint, not low at the wrist or forearm. A high grip controls shoulder rotation and produces a real joint threat, while a low grip only traps the forearm and lets the opponent rotate their shoulder free, so the lock never becomes the dilemma that defines Williams Guard."
+        "answer": "The figure-four should sit high around the opponent's upper arm near the shoulder joint, not low at the wrist or forearm. A high grip controls shoulder rotation and produces a real joint threat, while a low grip only traps the forearm and lets the opponent rotate their shoulder free, so the lock never becomes the dilemma that defines Williams Guard.",
+        "answer_line": "High, near the shoulder joint",
+        "distractors": {
+          "plausible": [
+            "Low at the wrist",
+            "Mid-forearm for leverage"
+          ],
+          "trap": [
+            "Grip low to trap the forearm"
+          ]
+        }
       },
       {
         "question": "How do you keep the entry safe so a failed shoulder lock does not cost you the guard?",
-        "answer": "Maintain at least one active butterfly hook or leg frame throughout the entire entry rather than committing both legs to the arm. With a hook or frame still managing distance, a denied shoulder lock simply leaves you in butterfly guard, so the worst realistic outcome is a reset rather than being flattened and passed."
+        "answer": "Maintain at least one active butterfly hook or leg frame throughout the entire entry rather than committing both legs to the arm. With a hook or frame still managing distance, a denied shoulder lock simply leaves you in butterfly guard, so the worst realistic outcome is a reset rather than being flattened and passed.",
+        "answer_line": "Keep a hook or frame active",
+        "distractors": {
+          "plausible": [
+            "Commit both legs to the arm",
+            "Release hooks to isolate arm"
+          ],
+          "trap": [
+            "Abandon hooks, trap both legs"
+          ]
+        }
       },
       {
         "question": "What makes this entry especially valuable in no-gi grappling?",
-        "answer": "Williams Guard controls through a shoulder lock rather than collar-and-sleeve grips, so it retains its threat when sweat and a lack of fabric defeat traditional gripping guards. The butterfly entry gives a grip-independent on-ramp into a retention-and-attack platform, making it a reliable way to escalate a neutral no-gi exchange into a submission-driven control hub."
+        "answer": "Williams Guard controls through a shoulder lock rather than collar-and-sleeve grips, so it retains its threat when sweat and a lack of fabric defeat traditional gripping guards. The butterfly entry gives a grip-independent on-ramp into a retention-and-attack platform, making it a reliable way to escalate a neutral no-gi exchange into a submission-driven control hub.",
+        "answer_line": "Grip-independent, no fabric needed",
+        "distractors": {
+          "plausible": [
+            "Relies on collar and sleeve",
+            "Only works with a strong gi grip"
+          ],
+          "trap": [
+            "Depends on a strong collar grip"
+          ]
+        }
       }
     ],
-    "safety_considerations": "The figure-four creates real shoulder-lock pressure, so apply the rotation slowly and stop immediately at your partner's tap, especially during reactive drilling where the opponent may feed the arm faster than expected. Avoid cranking the lock to force the entry; the shoulder is a vulnerable joint and a sudden jerk can injure the rotator cuff or labrum. Keep your own head off the centerline to protect against guillotine counters, and communicate clearly with newer partners before adding resistance."
+    "safety_considerations": "The figure-four creates real shoulder-lock pressure, so apply the rotation slowly and stop immediately at your partner's tap, especially during reactive drilling where the opponent may feed the arm faster than expected. Avoid cranking the lock to force the entry; the shoulder is a vulnerable joint and a sudden jerk can injure the rotator cuff or labrum. Keep your own head off the centerline to protect against guillotine counters, and communicate clearly with newer partners before adding resistance.",
+    "clips": [
+      {
+        "id": "Hob0ebzBwjc",
+        "title": "Williams guard Neil knot finish",
+        "by": "Ralph Gracie BJJ",
+        "vertical": false,
+        "channel": "Ralph Gracie BJJ - San Jose & Santa Clara",
+        "duration": 98,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "1XwXQYzWpcw",
+        "title": "Butterfly guard into Williams guard with choke option",
+        "by": "1066 Grappling Guild",
+        "vertical": false,
+        "channel": "1066 Grappling Guild",
+        "duration": 176,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "fajU7LdM1V4",
+        "title": "Z guard to Williams guard to triangle sequence",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "Absolute MMA St Kilda - Melbourne",
+        "duration": 749,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Butterfly Guard to Williams Guard Defender",
     "description": "Defend the entry into Williams Guard from Butterfly Guard. Recognition cues, arm-retraction and underhook defenses, and how to pass or stay neutral against the shoulder-lock setup.",
-    "overview": "As the defender you are the top or engaging player against a seated butterfly guard, and your job is to keep your arm out of the figure-four before the shoulder lock ever sets. The danger window opens the instant the bottom player secures a deep overhook on one of your arms and starts collapsing your elbow toward their chest. Recognize that pre-frame early: a tight overhook combined with the bottom player angling their hips off is the unmistakable signal that a Williams Guard entry is underway, not a routine butterfly exchange.\n\nYour highest-percentage defense is prevention. Keep your posture, fight the overhook before it deepens, and never feed a straight arm across the bottom player's centerline when you reach to grip or post. If the overhook is already deep, retract the arm along the path of least resistance — straightening and pulling the elbow back toward your own hip before the figure-four closes. When the lock is partially set, a strong free-arm underhook and forward pressure can stall the isolation and let you flatten the butterfly hooks. The worst mistakes are posting a lazy arm that invites the overhook and squaring up into the bottom player's hips, both of which deliver exactly the committed limb the entry needs."
-,
+    "overview": "As the defender you are the top or engaging player against a seated butterfly guard, and your job is to keep your arm out of the figure-four before the shoulder lock ever sets. The danger window opens the instant the bottom player secures a deep overhook on one of your arms and starts collapsing your elbow toward their chest. Recognize that pre-frame early: a tight overhook combined with the bottom player angling their hips off is the unmistakable signal that a Williams Guard entry is underway, not a routine butterfly exchange.\n\nYour highest-percentage defense is prevention. Keep your posture, fight the overhook before it deepens, and never feed a straight arm across the bottom player's centerline when you reach to grip or post. If the overhook is already deep, retract the arm along the path of least resistance — straightening and pulling the elbow back toward your own hip before the figure-four closes. When the lock is partially set, a strong free-arm underhook and forward pressure can stall the isolation and let you flatten the butterfly hooks. The worst mistakes are posting a lazy arm that invites the overhook and squaring up into the bottom player's hips, both of which deliver exactly the committed limb the entry needs.",
     "key_principles": [
       "Treat a deep overhook plus the bottom player angling off as the primary warning that a shoulder-lock entry is starting",
       "Prevent the entry by keeping good posture and refusing to feed a straight arm across the opponent's centerline",
@@ -334,15 +442,45 @@
     "flashcards": [
       {
         "question": "What is the clearest early sign that a butterfly opponent is entering Williams Guard rather than just sweeping?",
-        "answer": "The defining cue is a deep overhook on one of your arms combined with the bottom player angling their hips away from your free arm. A routine butterfly exchange focuses on hooks and elevation, but a tight overhook that folds your elbow toward their chest while they shrimp off-angle signals a shoulder-lock entry, giving you a narrow window to strip the grip before the figure-four closes."
+        "answer": "The defining cue is a deep overhook on one of your arms combined with the bottom player angling their hips away from your free arm. A routine butterfly exchange focuses on hooks and elevation, but a tight overhook that folds your elbow toward their chest while they shrimp off-angle signals a shoulder-lock entry, giving you a narrow window to strip the grip before the figure-four closes.",
+        "answer_line": "Deep overhook plus hip angle away",
+        "distractors": {
+          "plausible": [
+            "Tight underhook and flat hips",
+            "Aggressive hook fighting alone"
+          ],
+          "trap": [
+            "Both hands gripping your collar"
+          ]
+        }
       },
       {
         "question": "Why should you retract a trapped arm straight back toward your hip instead of circling it out?",
-        "answer": "The figure-four shoulder lock wants rotational movement, so circling or yanking the elbow across your body feeds exactly the motion that tightens the lock and can hand the opponent an omoplata or armbar. Pulling the elbow straight back along the shortest line toward your own hip works with the joint's structure and extracts the arm before the shoulder is isolated."
+        "answer": "The figure-four shoulder lock wants rotational movement, so circling or yanking the elbow across your body feeds exactly the motion that tightens the lock and can hand the opponent an omoplata or armbar. Pulling the elbow straight back along the shortest line toward your own hip works with the joint's structure and extracts the arm before the shoulder is isolated.",
+        "answer_line": "Pull elbow straight to your hip",
+        "distractors": {
+          "plausible": [
+            "Circle elbow away sideways",
+            "Push elbow across your chest"
+          ],
+          "trap": [
+            "Rotate arm hard to rip free"
+          ]
+        }
       },
       {
         "question": "How can defending the shoulder-lock entry simultaneously set up a guard pass?",
-        "answer": "When the lock is only partially set, digging a deep free-arm underhook and driving your chest forward kills the hip angle the shoulder lock depends on. That same pressure flattens the bottom player's butterfly hooks, so a single committed defensive action both stalls the isolation and opens a path to pass into top position, turning defense into offense."
+        "answer": "When the lock is only partially set, digging a deep free-arm underhook and driving your chest forward kills the hip angle the shoulder lock depends on. That same pressure flattens the bottom player's butterfly hooks, so a single committed defensive action both stalls the isolation and opens a path to pass into top position, turning defense into offense.",
+        "answer_line": "Underhook and drive, kill angle",
+        "distractors": {
+          "plausible": [
+            "Push away and re-butterfly",
+            "Grab a collar tie and post"
+          ],
+          "trap": [
+            "Pull guard to reset distance"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -360,6 +498,26 @@
         "phase": "Month 2+: Underhook Counter and Pass",
         "focus": "Stalling a partial lock and converting to a pass under resistance",
         "description": "Partner secures a partial shoulder lock at 60-70% while you practice digging the free-arm underhook, driving forward to flatten the hooks, and advancing toward a butterfly pass. Reset if the lock fully sets or you pass. 3-5 minute rounds."
+      }
+    ],
+    "clips": [
+      {
+        "id": "M__MeC_XCIM",
+        "title": "Countering the Williams guard armbar",
+        "by": "Sam Wilkinson",
+        "vertical": false,
+        "channel": "Sam Wilkinson MMA",
+        "duration": 66,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "ovecwiNyE3k",
+        "title": "Clearing the overhook and removing the angle",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "Absolute MMA St Kilda - Melbourne",
+        "duration": 386,
+        "verified": "2026-07-15"
       }
     ]
   }

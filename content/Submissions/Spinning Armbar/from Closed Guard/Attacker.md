@@ -170,6 +170,54 @@ description: "How to execute the Spinning Armbar from Closed Guard in BJJ. Attac
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Spinning Armbar from Closed Guard (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Armbar from Closed Guard",
+      "description": "Spinning Armbar from Closed Guard (Attacker) film study: Armbar from Closed Guard, taught by Gracie Barra Boston.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/D2tutut1zio/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/D2tutut1zio",
+      "url": "https://www.youtube.com/watch?v=D2tutut1zio",
+      "creator": { "@type": "Person", "name": "Gracie Barra Boston" },
+      "duration": "PT103S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Closed Guard Pull to Armbar",
+      "description": "Spinning Armbar from Closed Guard (Attacker) film study: Closed Guard Pull to Armbar, taught by Satori BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/F4Ns40AnI3Q/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/F4Ns40AnI3Q",
+      "url": "https://www.youtube.com/watch?v=F4Ns40AnI3Q",
+      "creator": { "@type": "Person", "name": "Satori BJJ" },
+      "duration": "PT41S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Armbar from Closed Guard: Hand Positioning",
+      "description": "Spinning Armbar from Closed Guard (Attacker) film study: Armbar from Closed Guard: Hand Positioning, taught by Jean Jacques Machado.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/FBDG7u5lOjk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/FBDG7u5lOjk",
+      "url": "https://www.youtube.com/watch?v=FBDG7u5lOjk",
+      "creator": { "@type": "Person", "name": "Jean Jacques Machado" },
+      "duration": "PT138S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -180,6 +228,42 @@ The Spinning Armbar from Closed Guard is a dynamic and versatile submission tech
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Spinning Armbar from Closed Guard (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=D2tutut1zio)
+
+<p class="clip-credit"><strong>Armbar from Closed Guard</strong> — taught by Gracie Barra Boston · 1:43 · <a href="https://www.youtube.com/watch?v=D2tutut1zio" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=F4Ns40AnI3Q)
+
+<p class="clip-credit"><strong>Closed Guard Pull to Armbar</strong> — taught by Satori BJJ · 0:41 · <a href="https://www.youtube.com/watch?v=F4Ns40AnI3Q" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=FBDG7u5lOjk)
+
+<p class="clip-credit"><strong>Armbar from Closed Guard: Hand Positioning</strong> — taught by Jean Jacques Machado · 2:18 · <a href="https://www.youtube.com/watch?v=FBDG7u5lOjk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

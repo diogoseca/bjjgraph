@@ -142,6 +142,43 @@ description: "How to defend against Roll to Deep Half Guard in BJJ. Recognition 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Roll to Deep Half Guard (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Top counter to the deep half back take",
+      "description": "Roll to Deep Half Guard (Defender) film study: Top counter to the deep half back take, taught by JiuJitsu.com.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/hHbb7ywVTwU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/hHbb7ywVTwU",
+      "url": "https://www.youtube.com/watch?v=hHbb7ywVTwU",
+      "creator": { "@type": "Person", "name": "JiuJitsu.com" },
+      "duration": "PT63S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Three options to defend the deep half guard",
+      "description": "Roll to Deep Half Guard (Defender) film study: Three options to defend the deep half guard, taught by Six Blades Jiu-Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/JEDoJOZWQHY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/JEDoJOZWQHY",
+      "url": "https://www.youtube.com/watch?v=JEDoJOZWQHY",
+      "creator": { "@type": "Person", "name": "Six Blades Jiu-Jitsu" },
+      "duration": "PT207S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -153,6 +190,34 @@ The key defensive insight is that the roll travels toward your near leg. By moni
 **Opponent's Starting Position**: [[Positions/Buggy Choke]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Roll to Deep Half Guard (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=hHbb7ywVTwU)
+
+<p class="clip-credit"><strong>Top counter to the deep half back take</strong> — taught by JiuJitsu.com · 1:03 · <a href="https://www.youtube.com/watch?v=hHbb7ywVTwU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=JEDoJOZWQHY)
+
+<p class="clip-credit"><strong>Three options to defend the deep half guard</strong> — taught by Six Blades Jiu-Jitsu · 3:27 · <a href="https://www.youtube.com/watch?v=JEDoJOZWQHY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

@@ -34,6 +34,54 @@ description: "Master the Crucifix to Mount transition in BJJ. Learn systematic l
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Crucifix to Mount \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Turtle attack finishing in mount",
+      "description": "Crucifix to Mount film study: Turtle attack finishing in mount, taught by Dirtball BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/C-to6LGEjIs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/C-to6LGEjIs",
+      "url": "https://www.youtube.com/watch?v=C-to6LGEjIs",
+      "creator": { "@type": "Person", "name": "Dirtball BJJ" },
+      "duration": "PT57S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Relationship Between Rear Mount and Back Crucifix",
+      "description": "Crucifix to Mount film study: Relationship Between Rear Mount and Back Crucifix, taught by John Danaher.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/elQcegGHtho/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/elQcegGHtho",
+      "url": "https://www.youtube.com/watch?v=elQcegGHtho",
+      "creator": { "@type": "Person", "name": "John Danaher" },
+      "duration": "PT212S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Why Switch From Mount to Mounted Crucifix",
+      "description": "Crucifix to Mount film study: Why Switch From Mount to Mounted Crucifix, taught by Gordon Ryan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/BLv_uIiwjws/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/BLv_uIiwjws",
+      "url": "https://www.youtube.com/watch?v=BLv_uIiwjws",
+      "creator": { "@type": "Person", "name": "Gordon Ryan" },
+      "duration": "PT103S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ From a strategic perspective, this transition reflects an advanced positional ca
 **Success Rate**: 55%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Crucifix to Mount in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=C-to6LGEjIs)
+
+<p class="clip-credit"><strong>Turtle attack finishing in mount</strong> — taught by Dirtball BJJ · 0:57 · <a href="https://www.youtube.com/watch?v=C-to6LGEjIs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=elQcegGHtho)
+
+<p class="clip-credit"><strong>Relationship Between Rear Mount and Back Crucifix</strong> — taught by John Danaher · 3:32 · <a href="https://www.youtube.com/watch?v=elQcegGHtho" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=BLv_uIiwjws)
+
+<p class="clip-credit"><strong>Why Switch From Mount to Mounted Crucifix</strong> — taught by Gordon Ryan · 1:43 · <a href="https://www.youtube.com/watch?v=BLv_uIiwjws" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

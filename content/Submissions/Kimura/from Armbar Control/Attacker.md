@@ -176,6 +176,43 @@ description: "Learn to attack with the Kimura from Armbar Control. Step-by-step 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Kimura from Armbar Control (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Kimura and armbar from side control",
+      "description": "Kimura from Armbar Control (Attacker) film study: Kimura and armbar from side control, taught by BJJ Recap.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/M-xjYAPgKVU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/M-xjYAPgKVU",
+      "url": "https://www.youtube.com/watch?v=M-xjYAPgKVU",
+      "creator": { "@type": "Person", "name": "BJJ Recap" },
+      "duration": "PT51S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "North-south kimura grip to armbar",
+      "description": "Kimura from Armbar Control (Attacker) film study: North-south kimura grip to armbar, taught by Raven Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/MIPeuSLIaKQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/MIPeuSLIaKQ",
+      "url": "https://www.youtube.com/watch?v=MIPeuSLIaKQ",
+      "creator": { "@type": "Person", "name": "Raven Jiu Jitsu" },
+      "duration": "PT214S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -186,6 +223,34 @@ Attacking with the Kimura from Armbar Control requires recognizing the precise m
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Kimura from Armbar Control (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=M-xjYAPgKVU)
+
+<p class="clip-credit"><strong>Kimura and armbar from side control</strong> — taught by BJJ Recap · 0:51 · <a href="https://www.youtube.com/watch?v=M-xjYAPgKVU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=MIPeuSLIaKQ)
+
+<p class="clip-credit"><strong>North-south kimura grip to armbar</strong> — taught by Raven Jiu Jitsu · 3:34 · <a href="https://www.youtube.com/watch?v=MIPeuSLIaKQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

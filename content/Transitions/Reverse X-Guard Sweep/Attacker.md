@@ -174,6 +174,54 @@ description: "How to execute Reverse X-Guard Sweep in BJJ. Attacking perspective
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Reverse X-Guard Sweep (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Half guard to reverse X guard saddle sweep",
+      "description": "Reverse X-Guard Sweep (Attacker) film study: Half guard to reverse X guard saddle sweep, taught by Gracie Barra Jupiter.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/V81JTcD_fTU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/V81JTcD_fTU",
+      "url": "https://www.youtube.com/watch?v=V81JTcD_fTU",
+      "creator": { "@type": "Person", "name": "Gracie Barra Jupiter" },
+      "duration": "PT141S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Low reverse X-guard series",
+      "description": "Reverse X-Guard Sweep (Attacker) film study: Low reverse X-guard series, taught by Kevin Hughes.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/xHNrf_HkKZQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/xHNrf_HkKZQ",
+      "url": "https://www.youtube.com/watch?v=xHNrf_HkKZQ",
+      "creator": { "@type": "Person", "name": "Kevin Hughes" },
+      "duration": "PT304S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Single leg X, X guard and reverse X options",
+      "description": "Reverse X-Guard Sweep (Attacker) film study: Single leg X, X guard and reverse X options, taught by Steven Kaloustian.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/EcxCadpBePk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/EcxCadpBePk",
+      "url": "https://www.youtube.com/watch?v=EcxCadpBePk",
+      "creator": { "@type": "Person", "name": "Steven Kaloustian" },
+      "duration": "PT97S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -187,6 +235,42 @@ Success with the Reverse X-Guard Sweep requires understanding the relationship b
 **From Position**: [[Positions/X-Guard/Reverse X-Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Reverse X-Guard Sweep (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=V81JTcD_fTU)
+
+<p class="clip-credit"><strong>Half guard to reverse X guard saddle sweep</strong> — taught by Gracie Barra Jupiter · 2:21 · <a href="https://www.youtube.com/watch?v=V81JTcD_fTU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=xHNrf_HkKZQ)
+
+<p class="clip-credit"><strong>Low reverse X-guard series</strong> — taught by Kevin Hughes · 5:04 · <a href="https://www.youtube.com/watch?v=xHNrf_HkKZQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=EcxCadpBePk)
+
+<p class="clip-credit"><strong>Single leg X, X guard and reverse X options</strong> — taught by Steven Kaloustian · 1:37 · <a href="https://www.youtube.com/watch?v=EcxCadpBePk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

@@ -34,6 +34,43 @@ description: "Learn the Basic Butterfly Sweep in BJJ. Step-by-step execution fro
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Basic Butterfly Sweep \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Marcelo Garcia butterfly sweep demonstration",
+      "description": "Basic Butterfly Sweep film study: Marcelo Garcia butterfly sweep demonstration, taught by Marcelo Garcia.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/c8JBXJMc0Oc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/c8JBXJMc0Oc",
+      "url": "https://www.youtube.com/watch?v=c8JBXJMc0Oc",
+      "creator": { "@type": "Person", "name": "Marcelo Garcia" },
+      "duration": "PT81S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Butterfly sweep breakdown, version 2",
+      "description": "Basic Butterfly Sweep film study: Butterfly sweep breakdown, version 2, taught by Marcelo Garcia.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Mo2vJ0_xb1U/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Mo2vJ0_xb1U",
+      "url": "https://www.youtube.com/watch?v=Mo2vJ0_xb1U",
+      "creator": { "@type": "Person", "name": "Marcelo Garcia" },
+      "duration": "PT239S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +106,34 @@ This is considered an essential technique for all BJJ practitioners and forms th
 **Success Rate**: 62%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Basic Butterfly Sweep in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=c8JBXJMc0Oc)
+
+<p class="clip-credit"><strong>Marcelo Garcia butterfly sweep demonstration</strong> — taught by Marcelo Garcia · 1:21 · <a href="https://www.youtube.com/watch?v=c8JBXJMc0Oc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Mo2vJ0_xb1U)
+
+<p class="clip-credit"><strong>Butterfly sweep breakdown, version 2</strong> — taught by Marcelo Garcia · 3:59 · <a href="https://www.youtube.com/watch?v=Mo2vJ0_xb1U" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

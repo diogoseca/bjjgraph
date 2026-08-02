@@ -34,6 +34,54 @@ description: "Master the rear naked choke from standing back control in BJJ. Com
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Rear Naked Choke from Standing Back Control \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "3 favorite chokes from the back",
+      "description": "Rear Naked Choke from Standing Back Control film study: 3 favorite chokes from the back, taught by Matt Arroyo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/eMbkVDRreIQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/eMbkVDRreIQ",
+      "url": "https://www.youtube.com/watch?v=eMbkVDRreIQ",
+      "creator": { "@type": "Person", "name": "Matt Arroyo" },
+      "duration": "PT87S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Rear naked choke from standing",
+      "description": "Rear Naked Choke from Standing Back Control film study: Rear naked choke from standing, taught by Teach Me NoGi.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/JVw1AvVRWQs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/JVw1AvVRWQs",
+      "url": "https://www.youtube.com/watch?v=JVw1AvVRWQs",
+      "creator": { "@type": "Person", "name": "Teach Me NoGi" },
+      "duration": "PT150S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Short choke from back position",
+      "description": "Rear Naked Choke from Standing Back Control film study: Short choke from back position, taught by Cosens MMA.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Sb-atqD_TqQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Sb-atqD_TqQ",
+      "url": "https://www.youtube.com/watch?v=Sb-atqD_TqQ",
+      "creator": { "@type": "Person", "name": "Cosens MMA" },
+      "duration": "PT55S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -78,6 +126,42 @@ At the competition level, standing back control finishes appear frequently in bo
 **Starting Position**: [[Positions/Back Control/Standing Back Control]] · **From**: [[Positions/Back Control/Standing Back Control]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Rear Naked Choke from Standing Back Control in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=eMbkVDRreIQ)
+
+<p class="clip-credit"><strong>3 favorite chokes from the back</strong> — taught by Matt Arroyo · 1:27 · <a href="https://www.youtube.com/watch?v=eMbkVDRreIQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=JVw1AvVRWQs)
+
+<p class="clip-credit"><strong>Rear naked choke from standing</strong> — taught by Teach Me NoGi · 2:30 · <a href="https://www.youtube.com/watch?v=JVw1AvVRWQs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Sb-atqD_TqQ)
+
+<p class="clip-credit"><strong>Short choke from back position</strong> — taught by Cosens MMA · 0:55 · <a href="https://www.youtube.com/watch?v=Sb-atqD_TqQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="outcomes" class="content-section">
 
@@ -240,9 +324,9 @@ At the competition level, standing back control finishes appear frequently in bo
 ## Related
 - [[Submissions/Rear Naked Choke]]
 - [[Submissions/Bow and Arrow Choke]]
-- [[Transitions/Arm Triangle]]
-- [[Transitions/Guillotine Choke]]
-- [[Transitions/Darce Choke]]
+- [[Submissions/Arm Triangle]]
+- [[Submissions/Guillotine Choke]]
+- [[Submissions/Darce Choke]]
 - [[Positions/Back Control/Standing Back Control]] - Primary starting position — back exposure while both practitioners are standing
 - [[Positions/Back Control]] - Ground-based alternative where choke can be consolidated with greater stability
 - [[Positions/Clinch]] - Common preceding position from which standing back control is achieved

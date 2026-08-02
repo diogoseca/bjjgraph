@@ -21,37 +21,37 @@ description: "Master closed guard top with defensive posture strategies, systema
     {
       "@type": "HowToStep",
       "name": "Execute Posture Recovery",
-      "text": "From this position, attempt Posture Recovery. This technique is attempted in 31% of exchanges from this position.",
+      "text": "From this position, attempt Posture Recovery. This technique is attempted in 27% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Guard Opening Sequence",
-      "text": "From this position, attempt Guard Opening Sequence. This technique is attempted in 26% of exchanges from this position.",
+      "text": "From this position, attempt Guard Opening Sequence. This technique is attempted in 21% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Standing up in Base",
-      "text": "From this position, attempt Standing up in Base. This technique is attempted in 22% of exchanges from this position.",
+      "name": "Execute Stack Pass",
+      "text": "From this position, attempt Stack Pass. This technique is attempted in 11% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Stack Pass",
-      "text": "From this position, attempt Stack Pass. This technique is attempted in 10% of exchanges from this position.",
+      "name": "Execute Stand Up in Closed Guard",
+      "text": "From this position, attempt Stand Up in Closed Guard. This technique is attempted in 22% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Stand Up in Closed Guard",
-      "text": "From this position, attempt Stand Up in Closed Guard. This technique is attempted in 3% of exchanges from this position.",
+      "name": "Execute Ezekiel Choke from Closed Guard",
+      "text": "From this position, attempt Ezekiel Choke from Closed Guard. This technique is attempted in 1% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Ezekiel Choke from Closed Guard",
-      "text": "From this position, attempt Ezekiel Choke from Closed Guard. This technique is attempted in 2% of exchanges from this position.",
+      "name": "Execute Knee Slice from Closed Guard",
+      "text": "From this position, attempt Knee Slice from Closed Guard. This technique is attempted in 13% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -154,6 +154,43 @@ description: "Master closed guard top with defensive posture strategies, systema
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Closed Guard (Top) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Great Detail to Open the Closed Guard",
+      "description": "Closed Guard (Top) film study: Great Detail to Open the Closed Guard, taught by Dan McCarthy.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/r2Zj80AQJuQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/r2Zj80AQJuQ",
+      "url": "https://www.youtube.com/watch?v=r2Zj80AQJuQ",
+      "creator": { "@type": "Person", "name": "Dan McCarthy" },
+      "duration": "PT220S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Passing Closed Guard with the Sao Paulo Pass",
+      "description": "Closed Guard (Top) film study: Passing Closed Guard with the Sao Paulo Pass, taught by Leonardo Nogueira.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/r3oI5TvaWg0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/r3oI5TvaWg0",
+      "url": "https://www.youtube.com/watch?v=r3oI5TvaWg0",
+      "creator": { "@type": "Person", "name": "Leonardo Nogueira" },
+      "duration": "PT340S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <aside class="entity-relations">
@@ -168,6 +205,34 @@ Success in closed guard top requires understanding that this is fundamentally a 
 The closed guard top position exemplifies the strategic complexity of Brazilian Jiu-Jitsu, where being on top does not automatically confer advantage. Understanding the systematic approach to guard opening - establishing posture, controlling grips, creating space, and opening the guard before attempting passes - separates effective guard passers from those who become trapped in defensive cycles or caught in submissions. Your success depends on balancing defensive awareness with offensive progression, creating a complex positional dynamic that requires both technical skill and strategic understanding to navigate effectively toward dominant position.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Closed Guard (Top) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=r2Zj80AQJuQ)
+
+<p class="clip-credit"><strong>Great Detail to Open the Closed Guard</strong> — taught by Dan McCarthy · 3:40 · <a href="https://www.youtube.com/watch?v=r2Zj80AQJuQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=r3oI5TvaWg0)
+
+<p class="clip-credit"><strong>Passing Closed Guard with the Sao Paulo Pass</strong> — taught by Leonardo Nogueira · 5:40 · <a href="https://www.youtube.com/watch?v=r3oI5TvaWg0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

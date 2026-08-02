@@ -19,7 +19,10 @@
   "target_area": "Trachea and carotid arteries",
   "starting_position": "Rubber Guard",
   "from_position": "Gogoplata Control/Top",
-  "success_rate": 40,
+  "success_rate": {
+    "gi": 40,
+    "nogi": 40
+  },
   "overview": "Emerging from Eddie Bravo's 10th Planet system, the Gogoplata earned its reputation as one of grappling's most flexibility-dependent finishes, prized for catching opponents who have never had to defend a hard shin driven across their windpipe. This highly technical submission is most commonly associated with the rubber guard system and requires exceptional flexibility, precise positioning, and excellent timing. The Gogoplata is executed primarily from rubber guard positions, though variations exist from mount and other control positions.\n\nWhat makes the Gogoplata particularly effective is its unexpected nature and the difficulty opponents face in defending once the position is established. Unlike traditional chokes that rely on arm or collar grips, the Gogoplata uses the shin bone as the primary choking mechanism, making it extremely difficult to grip-fight or hand-fight out of the submission. The technique's success heavily depends on the practitioner's ability to maintain high guard control, break the opponent's posture, and possess the hip flexibility necessary to bring the shin across the throat.\n\nWhile the Gogoplata has a reputation as a low-percentage submission due to its technical complexity and flexibility requirements, when executed by practitioners with the proper physical attributes and technical understanding, it becomes a powerful addition to the submission arsenal. The technique has been successfully used in high-level competition by flexibility-focused grapplers. The Gogoplata represents the evolution of submission grappling beyond traditional techniques, showcasing how creativity and physical attributes can be leveraged to create finishing opportunities from seemingly neutral positions.",
   "safety_considerations": {
     "injury_risks": [
@@ -73,17 +76,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 40,
+      "probability": {
+        "gi": 40,
+        "nogi": 40
+      },
       "result": "success"
     },
     {
       "to": "Gogoplata Control/Top",
-      "probability": 35,
+      "probability": {
+        "gi": 35,
+        "nogi": 35
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "counter"
     }
   ],
@@ -329,62 +341,202 @@
       {
         "question": "Why is the gogoplata considered one of the most dangerous submissions to practice in training?",
         "answer": "The gogoplata directly compresses the trachea (windpipe) with the hard shin bone, which can cause serious injury much more quickly than blood chokes that target the carotid arteries. The trachea is a delicate structure, and rapid or excessive pressure can cause tracheal collapse, crushing, or permanent damage. Unlike blood chokes that cause unconsciousness gradually, tracheal damage happens quickly and can be irreversible. This is why extremely slow application (5-7 seconds minimum) and immediate release upon tap are absolutely critical. Training partners must have complete trust and experience before practicing this technique.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Shin crushes trachea directly",
+        "distractors": {
+          "plausible": [
+            "Cuts blood flow like RNC",
+            "Only dangerous if held long"
+          ],
+          "trap": [
+            "Apply hard and fast for effect"
+          ]
+        }
       },
       {
         "question": "What anatomical structure does the gogoplata primarily attack, and how does this differ from blood chokes?",
         "answer": "The gogoplata primarily attacks the trachea (windpipe) by compressing it with the hard shin bone. This creates an air choke that restricts breathing. In contrast, blood chokes like the rear naked choke or triangle target the carotid arteries on either side of the neck, restricting blood flow to the brain. The gogoplata can also compress the carotid arteries secondarily when properly applied, creating a hybrid effect. The key difference is that tracheal compression can cause structural damage to the airway, while blood chokes cause reversible unconsciousness without damaging structures. This is why the gogoplata requires more careful application.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Trachea, not carotid arteries",
+        "distractors": {
+          "plausible": [
+            "Carotid arteries, like the RNC",
+            "Vagus nerve pressure point"
+          ],
+          "trap": [
+            "Crank the neck sideways to finish"
+          ]
+        }
       },
       {
         "question": "What is the primary physical requirement that determines whether a practitioner should attempt the gogoplata?",
         "answer": "Hip flexibility is the primary physical requirement for the gogoplata. The practitioner must be able to bring their shin across the opponent's throat while simultaneously maintaining high guard control and keeping the opponent's posture broken. This requires the ability to achieve extreme hip flexion and external rotation. Without sufficient flexibility, attempting to force the position can result in injury to the practitioner's hip, knee, or ankle. Practitioners should develop this flexibility through dedicated stretching, yoga, or similar training before attempting the submission in live situations. If your hips cannot comfortably achieve the required position, the gogoplata is not suitable for your current body capabilities.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Extreme hip flexibility",
+        "distractors": {
+          "plausible": [
+            "Shoulder and grip strength",
+            "Core strength and balance"
+          ],
+          "trap": [
+            "Force position through pain"
+          ]
+        }
       },
       {
         "question": "What indicators tell you the opponent has reached the point of no escape and the finish is inevitable?",
         "answer": "The point of no escape occurs when three conditions are simultaneously met: your shin is locked across the trachea with the blade of the bone creating pressure, your hands have secured deep control behind their head preventing any posture recovery, and your non-choking leg is hooked over their back eliminating their ability to create distance. At this point, you'll feel their defensive movements become weaker and less coordinated as the choke begins affecting them. They may begin tapping frantically, making distressed sounds, or their body may start going limp. Any of these signals means the finish is imminent and you should be prepared to release immediately upon the tap.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Shin locked, head trapped, hook set",
+        "distractors": {
+          "plausible": [
+            "Both your hands grip your shin",
+            "Their back is flat on the mat"
+          ],
+          "trap": [
+            "Crank hard until they stop moving"
+          ]
+        }
       },
       {
         "question": "Your opponent starts to posture up during your gogoplata attempt - what adjustment prevents escape while maintaining the submission threat?",
         "answer": "When opponent begins posturing, immediately pull harder with your hands on their head while simultaneously squeezing your knees together to trap their arms. Your non-choking leg should hook deeper over their back, pulling them forward. If they continue gaining posture despite these adjustments, you have two options: either abandon the gogoplata and transition to triangle choke using their upward momentum to swing your leg across, or switch to omoplata by following their arm with your hips. The key is recognizing early when posture recovery is happening and either countering it immediately or flowing to an alternative attack rather than stubbornly holding a compromised position.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Pull head, deepen leg hook",
+        "distractors": {
+          "plausible": [
+            "Force the choke harder",
+            "Let them posture, re-attack later"
+          ],
+          "trap": [
+            "Release grips to reset position"
+          ]
+        }
       },
       {
         "question": "What should you do immediately if your opponent goes limp or stops resisting during a gogoplata attempt?",
         "answer": "IMMEDIATELY release all pressure by removing your shin from their throat and releasing head control. Allow their head to return to a neutral position and remove your top leg from over their head completely. Lower your hips and release all pressure. Check on your training partner's condition immediately - they may have lost consciousness or suffered an injury. Do not continue training until you have confirmed they are okay and they have had adequate recovery time (minimum 2-3 minutes). If they lost consciousness, they should not continue training that day and should seek medical evaluation. Loss of resistance during a tracheal choke can indicate serious airway compromise or loss of consciousness, both of which require immediate cessation of the technique and medical assessment.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Release instantly, check on them",
+        "distractors": {
+          "plausible": [
+            "Ease off slowly then release",
+            "Get help before releasing"
+          ],
+          "trap": [
+            "Hold until you feel a real tap"
+          ]
+        }
       },
       {
         "question": "What common finishing error reduces the effectiveness of the shin pressure, and how do you correct it?",
         "answer": "The most common finishing error is placing the soft calf muscle across the throat instead of the hard shin bone. The calf provides much less pressure due to its cushioning effect, allowing opponents to endure and potentially escape. To correct this, focus on rotating your leg so the blade of the shin (the sharp front edge of the tibia) sits directly across the trachea. Your foot should be positioned behind their head or over their opposite shoulder - if the foot is alongside their face, your calf is likely on the throat instead of your shin. You can verify correct placement by feeling the hard bone contact against their neck. Additionally, pulling your toes toward your knee engages the proper muscle structure and rotates the shin into optimal position.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Cut shin blade across the throat",
+        "distractors": {
+          "plausible": [
+            "Turn their head to the side",
+            "Lift your hips to add pressure"
+          ],
+          "trap": [
+            "Straighten the leg to crank harder"
+          ]
+        }
       },
       {
         "question": "How should you adjust your grip and pulling angle when your opponent turns their head to the side to relieve pressure?",
         "answer": "When opponent turns their head sideways, follow the rotation with your shin angle rather than fighting to center their head. Use your hands to apply asymmetric pulling pressure - pull harder on the side they're turning toward to prevent further rotation and redirect their chin back toward center. If they persist in turning, you can actually use this against them by switching your shin angle to attack the exposed side of their neck where the carotid artery becomes more accessible. Alternatively, if they commit fully to the head turn, this often exposes their far shoulder for a transition to arm triangle or exposes their back for a transition to taking the back. The key is flowing with their defensive movement rather than fighting it directly.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Follow angle, pull chin back",
+        "distractors": {
+          "plausible": [
+            "Square their head up by force",
+            "Reset the shin and start over"
+          ],
+          "trap": [
+            "Crank the neck sideways for a tap"
+          ]
+        }
       },
       {
         "question": "What grip configuration provides the strongest control for pulling the opponent's head into the shin during the finish?",
         "answer": "The strongest grip configuration is a palm-to-palm or Gable grip behind the opponent's head, with your forearms framing either side of their neck. This grip allows you to generate maximum pulling force while preventing them from turning or lifting their head. In no-gi, interlace your fingers for additional security. In gi, you can alternatively grip the collar on both sides, creating a similar pulling mechanism. Your elbows should be squeezed together to narrow the frame and prevent any head movement. Avoid gripping the hair as this provides inconsistent control and is illegal in most competitions. The critical element is that both hands work together to create a unified pulling vector that drives their throat into your shin bone.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Gable grip behind the head",
+        "distractors": {
+          "plausible": [
+            "Single overhook on the neck",
+            "Grip collar with one hand only"
+          ],
+          "trap": [
+            "Grab their hair for control"
+          ]
+        }
       },
       {
         "question": "In competition, what finishing adjustments maximize effectiveness while maintaining safe application speed?",
         "answer": "In competition, while the urgency to finish is higher, you should still apply pressure progressively rather than explosively to avoid injuring your opponent. Start with moderate pressure and increase gradually over 3-4 seconds while watching for the tap. The key competitive adjustment is ensuring your control is completely locked before applying finishing pressure - spend the extra half-second confirming your shin placement and head control rather than rushing a sloppy finish. Many competition gogoplatas fail because athletes apply pressure before the position is fully secured. Additionally, you can increase effectiveness by lifting your hips slightly while pulling the head, creating opposing forces that accelerate the tap without requiring explosive pressure application.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Lock control, then squeeze slowly",
+        "distractors": {
+          "plausible": [
+            "Sacrifice head control for speed",
+            "Switch attacks to save time"
+          ],
+          "trap": [
+            "Explosive pressure for a fast tap"
+          ]
+        }
       },
       {
         "question": "What control must you maintain with your non-choking leg to prevent the most common escape, and why is this critical?",
         "answer": "Your non-choking leg (the rubber guard leg) must maintain an active hook over the opponent's back or shoulder, pulling them forward and preventing them from creating distance. This leg is critical because without it, opponents can simply drive backward to create space, reducing your shin pressure to zero. The hook should be positioned high on their back (near shoulder blade level) with your heel actively pulling into their body. Think of this leg as an anchor that keeps them trapped in the choke's effective range. If you feel them starting to successfully create distance, immediately deepen your hook and squeeze your thighs together. Losing this control is the primary reason gogoplatas fail against skilled opponents.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Hook stays deep, pulls them in",
+        "distractors": {
+          "plausible": [
+            "Hook is optional if shin is set",
+            "Push with that leg for leverage"
+          ],
+          "trap": [
+            "Release hook to free up hips"
+          ]
+        }
       },
       {
         "question": "When should you abandon a gogoplata attempt and transition to an alternative submission?",
         "answer": "Abandon the gogoplata and transition when: your shin cannot achieve proper tracheal placement despite multiple adjustment attempts, opponent successfully recovers posture to greater than 45 degrees upright despite your counters, opponent extracts their head past your shin creating space, you feel your own hip or knee straining from the flexibility demands, or you've been working the submission for more than 10-15 seconds without progress while feeling opponent's defensive structure solidifying. The best transitions are to triangle choke (using their upward posture movement), omoplata (following their arm if they're pushing), or armbar (if their arm becomes isolated during defense). A skilled practitioner recognizes these transition moments and flows to alternatives rather than forcing a failing attack.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "No progress in 10-15 seconds",
+        "distractors": {
+          "plausible": [
+            "Only after they fully stand up",
+            "Quit at the first resistance"
+          ],
+          "trap": [
+            "Grind through your own knee pain"
+          ]
+        }
+      }
+    ],
+    "clips": [
+      {
+        "id": "4Opp0j7UmlU",
+        "title": "Gogoplata from Guard",
+        "by": "Kinesiology College",
+        "vertical": false,
+        "channel": "Kinesiology College",
+        "duration": 21,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "PqAJraYllQI",
+        "title": "Gogoplata Variations from High Guard",
+        "by": "SpringHillBjj",
+        "vertical": false,
+        "channel": "SpringHillBjj",
+        "duration": 88,
+        "verified": "2026-07-14"
       }
     ]
   },
@@ -484,27 +636,77 @@
       {
         "question": "Why is it critical to address the attacker's head control grips before attempting to remove the shin from your throat?",
         "answer": "The attacker's two-hand head control generates the primary force that drives your throat into the shin bone. If you attempt to push the shin away while the head is still being pulled forward, you are fighting against the combined force of both their arms pulling your head plus the stationary shin. This is a losing battle. By stripping the head control first, you remove the pulling force that creates the choking pressure, which simultaneously makes posture recovery possible and allows the shin to be dislodged through distance creation rather than direct force against the leg.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Strip grips before pushing shin",
+        "distractors": {
+          "plausible": [
+            "Push shin away first, then grips",
+            "Fight both forces simultaneously"
+          ],
+          "trap": [
+            "Yank head forward to create slack"
+          ]
+        }
       },
       {
         "question": "What makes the gogoplata uniquely dangerous compared to other choke submissions from a defender's safety perspective?",
         "answer": "The gogoplata attacks the trachea directly with the hard shin bone, creating an air choke that can cause structural damage to the windpipe. Unlike blood chokes (rear naked choke, triangle) that compress the carotid arteries and cause reversible unconsciousness, tracheal compression from the gogoplata can crush or collapse the windpipe, resulting in permanent airway damage requiring surgical repair. This means the defender must tap earlier and more decisively than with blood chokes, as the window between 'uncomfortable' and 'seriously injured' is much narrower. Defenders should never attempt to tough out a locked gogoplata.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Air choke can crush the windpipe",
+        "distractors": {
+          "plausible": [
+            "Compresses carotids, not airway",
+            "Effects always fully reversible"
+          ],
+          "trap": [
+            "Ride it out like a blood choke"
+          ]
+        }
       },
       {
         "question": "At what point in the gogoplata sequence should a defender escalate their defensive urgency to maximum, and what should they do?",
         "answer": "Maximum defensive urgency should engage the instant you feel a hard bony surface (the shin) making contact with the front of your throat while your posture is broken. At this point, you have seconds before the attacker secures full head control and the choke becomes extremely dangerous. Your immediate response should be to tuck your chin, turn your head toward the attacker's knee, and explosively drive your hips backward while simultaneously fighting their grip on your head with both hands. If these actions do not create immediate space within 2-3 seconds, you should tap rather than continuing to fight a locked tracheal choke.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Shin hits throat: tuck chin, turn",
+        "distractors": {
+          "plausible": [
+            "Only once their hands lock",
+            "Once the choke starts hurting"
+          ],
+          "trap": [
+            "Bridge away and expose your back"
+          ]
+        }
       },
       {
         "question": "Your opponent has established rubber guard and you feel their leg beginning to thread across your face - what is the correct sequence of defensive actions?",
         "answer": "The correct sequence is: First, immediately drive your posture upward and backward using your core and hips, not just your neck. Second, simultaneously use your near-side hand to frame against their hip or leg to create space, preventing the leg from completing its arc across your throat. Third, fight any head control grips with your far-side hand to prevent them from pulling your face into the incoming shin. Fourth, if the leg continues advancing despite your posture recovery attempt, turn your chin strongly toward the direction the leg is coming from to prevent the shin from settling across the front of your trachea. The critical element is speed - every half-second of delay reduces your escape probability significantly.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Posture up, frame, strip grips",
+        "distractors": {
+          "plausible": [
+            "Pull the shin down with both hands",
+            "Cover your throat with one hand"
+          ],
+          "trap": [
+            "Turn your back to slip out"
+          ]
+        }
       },
       {
         "question": "How does the stacking defense work against the gogoplata, and what are its limitations?",
         "answer": "The stacking defense involves driving your weight forward and upward into the attacker, collapsing their hip elevation and compressing their guard structure. This works because the gogoplata requires the attacker to maintain elevated hips and extended legs - if you can fold them onto their shoulders, the mechanical leverage for the choke disappears. To execute, keep your chin tucked tightly, drive off your toes, and walk your hips forward while maintaining shoulder pressure. The limitation is that stacking against a skilled rubber guard player can feed into omoplata entries if they redirect your forward momentum into a shoulder rotation. Also, if the shin is already deeply across your throat, stacking can temporarily increase tracheal pressure before the structure collapses.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Drive forward, collapse hips",
+        "distractors": {
+          "plausible": [
+            "Pull back to create distance",
+            "Sit back and grip fight"
+          ],
+          "trap": [
+            "Stack hard even with shin set"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -527,6 +729,26 @@
         "phase": "Phase 4: Live Defense Integration",
         "focus": "Defending gogoplata attempts during live rolling with full contextual awareness",
         "description": "Positional sparring starting from rubber guard or mission control. Attacker works toward gogoplata finish while defender practices the full defensive sequence: early recognition, posture recovery, grip fighting, escape execution, and safe tapping when necessary. Rolling at progressive resistance levels. Focus on integrating gogoplata defense into overall rubber guard defensive strategy rather than treating it as an isolated technique."
+      }
+    ],
+    "clips": [
+      {
+        "id": "ROgt8e30a3s",
+        "title": "Gogoplata Defense: escaping the shin choke",
+        "by": "RedBeltJiuJitsu",
+        "vertical": false,
+        "channel": "RedBeltJiuJitsu",
+        "duration": 42,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "MvZ3fKl6rtk",
+        "title": "Using posture to escape guard attacks",
+        "by": "Ante Dzolic",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 170,
+        "verified": "2026-07-16"
       }
     ]
   }

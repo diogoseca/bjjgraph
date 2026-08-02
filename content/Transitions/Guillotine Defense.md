@@ -34,6 +34,54 @@ description: "Master Guillotine Defense in BJJ. Systematic escape from guillotin
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Guillotine Defense \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Standing guillotine escape",
+      "description": "Guillotine Defense film study: Standing guillotine escape, taught by dogtownman.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/8okq4cIHMO0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/8okq4cIHMO0",
+      "url": "https://www.youtube.com/watch?v=8okq4cIHMO0",
+      "creator": { "@type": "Person", "name": "dogtownman" },
+      "duration": "PT44S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Guillotine escape from closed guard to side control",
+      "description": "Guillotine Defense film study: Guillotine escape from closed guard to side control, taught by Street Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/lvjRNWzKMPc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/lvjRNWzKMPc",
+      "url": "https://www.youtube.com/watch?v=lvjRNWzKMPc",
+      "creator": { "@type": "Person", "name": "Street Jitsu" },
+      "duration": "PT27S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Guillotine escape from inside the guard",
+      "description": "Guillotine Defense film study: Guillotine escape from inside the guard, taught by Ground Zero MMA.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Qb8gtundzPg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Qb8gtundzPg",
+      "url": "https://www.youtube.com/watch?v=Qb8gtundzPg",
+      "creator": { "@type": "Person", "name": "Ground Zero MMA" },
+      "duration": "PT57S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ Success requires both preventative awareness to avoid deep guillotine positions 
 **Success Rate**: 55%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Guillotine Defense in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=8okq4cIHMO0)
+
+<p class="clip-credit"><strong>Standing guillotine escape</strong> — taught by dogtownman · 0:44 · <a href="https://www.youtube.com/watch?v=8okq4cIHMO0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=lvjRNWzKMPc)
+
+<p class="clip-credit"><strong>Guillotine escape from closed guard to side control</strong> — taught by Street Jitsu · 0:27 · <a href="https://www.youtube.com/watch?v=lvjRNWzKMPc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Qb8gtundzPg)
+
+<p class="clip-credit"><strong>Guillotine escape from inside the guard</strong> — taught by Ground Zero MMA · 0:57 · <a href="https://www.youtube.com/watch?v=Qb8gtundzPg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 
@@ -245,11 +329,11 @@ Guillotine defense serves as a critical bridge technique connecting multiple pos
 ## Related Techniques
 
 
-- [[Transitions/Guillotine Choke]] - Primary submission being defended - understanding offensive mechanics improves defensive success
+- [[Submissions/Guillotine Choke]] - Primary submission being defended - understanding offensive mechanics improves defensive success
 
 - [[Positions/Front Headlock]] - Starting position where guillotine threats commonly emerge
 
-- [[Submissions/Von Flue Choke]] - Counter-submission opportunity when opponent holds guillotine from inferior position after you pass
+- [[Von Flue Choke from Side Control]] - Counter-submission opportunity when opponent holds guillotine from inferior position after you pass
 
 - [[Transitions/Guillotine Counter]] - Alternative defensive approach focusing on positional counters rather than direct escape
 
@@ -261,7 +345,7 @@ Guillotine defense serves as a critical bridge technique connecting multiple pos
 
 - [[Transitions/Frame and Shrimp to Guard]] - Foundational movement pattern used within guillotine defense for creating space
 
-- [[Transitions/Darce Choke]] - Related front headlock submission with similar defensive principles around arm-in neck control
+- [[Submissions/Darce Choke]] - Related front headlock submission with similar defensive principles around arm-in neck control
 
 - [[Transitions/Anaconda Choke]] - Related front headlock submission with overlapping defensive concepts for arm-in chokes
 
@@ -269,7 +353,7 @@ Guillotine defense serves as a critical bridge technique connecting multiple pos
 
 - [[Positions/Side Control]] - Primary successful outcome position after completing guillotine defense
 
-- [[Submissions/Chin Strap Guillotine]] - Guillotine variation with specific grip requiring adapted defensive hand fighting
+- [[Chin Strap Guillotine from Front Headlock]] - Guillotine variation with specific grip requiring adapted defensive hand fighting
 
 
 </section>

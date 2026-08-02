@@ -174,6 +174,43 @@ description: "How to execute the transition from Anaconda Control to Dead Orchar
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Anaconda Control to Dead Orchard Control (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "The front headlock position explained",
+      "description": "Anaconda Control to Dead Orchard Control (Attacker) film study: The front headlock position explained, taught by DCS - Diaz Combat Sports.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/O22YyheqB-Q/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/O22YyheqB-Q",
+      "url": "https://www.youtube.com/watch?v=O22YyheqB-Q",
+      "creator": { "@type": "Person", "name": "DCS - Diaz Combat Sports" },
+      "duration": "PT105S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Chin strap front headlock to anaconda and d\u0027arce",
+      "description": "Anaconda Control to Dead Orchard Control (Attacker) film study: Chin strap front headlock to anaconda and d\u0027arce, taught by ChokeArtist.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Cy5vDkj8fDQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Cy5vDkj8fDQ",
+      "url": "https://www.youtube.com/watch?v=Cy5vDkj8fDQ",
+      "creator": { "@type": "Person", "name": "ChokeArtist" },
+      "duration": "PT261S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -183,6 +220,34 @@ Executing the Transition to Dead Orchard Control requires converting an existing
 **From Position**: [[Positions/Anaconda Control]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Anaconda Control to Dead Orchard Control (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=O22YyheqB-Q)
+
+<p class="clip-credit"><strong>The front headlock position explained</strong> — taught by DCS - Diaz Combat Sports · 1:45 · <a href="https://www.youtube.com/watch?v=O22YyheqB-Q" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Cy5vDkj8fDQ)
+
+<p class="clip-credit"><strong>Chin strap front headlock to anaconda and d&#39;arce</strong> — taught by ChokeArtist · 4:21 · <a href="https://www.youtube.com/watch?v=Cy5vDkj8fDQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

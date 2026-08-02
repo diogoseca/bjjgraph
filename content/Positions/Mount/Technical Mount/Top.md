@@ -21,37 +21,37 @@ description: "Master Technical Mount Top in BJJ. Complete offensive guide coveri
     {
       "@type": "HowToStep",
       "name": "Execute Armbar from Technical Mount",
-      "text": "From this position, attempt Armbar from Technical Mount. This technique is attempted in 42% of exchanges from this position.",
+      "text": "From this position, attempt Armbar from Technical Mount. This technique is attempted in 14% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Back Take",
-      "text": "From this position, attempt Back Take. This technique is attempted in 18% of exchanges from this position.",
+      "text": "From this position, attempt Back Take. This technique is attempted in 19% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Triangle Setup",
-      "text": "From this position, attempt Triangle Setup. This technique is attempted in 8% of exchanges from this position.",
+      "name": "Execute Consolidate Mount",
+      "text": "From this position, attempt Consolidate Mount. This technique is attempted in 13% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Consolidate Mount",
-      "text": "From this position, attempt Consolidate Mount. This technique is attempted in 6% of exchanges from this position.",
+      "name": "Execute Gift Wrap Control",
+      "text": "From this position, attempt Gift Wrap Control. This technique is attempted in 11% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Gift Wrap Control",
-      "text": "From this position, attempt Gift Wrap Control. This technique is attempted in 6% of exchanges from this position.",
+      "name": "Execute Technical Mount to Back Control",
+      "text": "From this position, attempt Technical Mount to Back Control. This technique is attempted in 17% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute High Mount Transition",
-      "text": "From this position, attempt High Mount Transition. This technique is attempted in 4% of exchanges from this position.",
+      "name": "Execute Technical Mount to Mount",
+      "text": "From this position, attempt Technical Mount to Mount. This technique is attempted in 11% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -153,6 +153,43 @@ description: "Master Technical Mount Top in BJJ. Complete offensive guide coveri
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Technical Mount (Top) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Technical mount attack sequence \u0026 back take",
+      "description": "Technical Mount (Top) film study: Technical mount attack sequence \u0026 back take, taught by DS Team Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/9bH-UvKJBf4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/9bH-UvKJBf4",
+      "url": "https://www.youtube.com/watch?v=9bH-UvKJBf4",
+      "creator": { "@type": "Person", "name": "DS Team Jiu Jitsu" },
+      "duration": "PT175S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Mount to technical mount transition",
+      "description": "Technical Mount (Top) film study: Mount to technical mount transition, taught by Dark Horse BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/plD6TW7pFv4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/plD6TW7pFv4",
+      "url": "https://www.youtube.com/watch?v=plD6TW7pFv4",
+      "creator": { "@type": "Person", "name": "Dark Horse BJJ" },
+      "duration": "PT20S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -164,6 +201,34 @@ The posted leg in Technical Mount serves multiple functions: it provides base ag
 This position represents a critical junction in mount offense where the practitioner commits to finishing rather than controlling. The success of Technical Mount depends on timing, proper arm isolation, and the ability to read the opponent's defensive reactions. When executed correctly, it creates a high-percentage pathway to submission or dominant back control, making it one of the most important positions in the submission game from mount.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Technical Mount (Top) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=9bH-UvKJBf4)
+
+<p class="clip-credit"><strong>Technical mount attack sequence &amp; back take</strong> — taught by DS Team Jiu Jitsu · 2:55 · <a href="https://www.youtube.com/watch?v=9bH-UvKJBf4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=plD6TW7pFv4)
+
+<p class="clip-credit"><strong>Mount to technical mount transition</strong> — taught by Dark Horse BJJ · 0:20 · <a href="https://www.youtube.com/watch?v=plD6TW7pFv4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

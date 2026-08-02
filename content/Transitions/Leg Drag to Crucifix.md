@@ -34,6 +34,54 @@ description: "Master the Leg Drag to Crucifix transition in BJJ. Capitalize on o
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Leg Drag to Crucifix \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Crucifix escape against the bulldog choke",
+      "description": "Leg Drag to Crucifix film study: Crucifix escape against the bulldog choke, taught by Mick Hall.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Wt2NW_hfTd0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Wt2NW_hfTd0",
+      "url": "https://www.youtube.com/watch?v=Wt2NW_hfTd0",
+      "creator": { "@type": "Person", "name": "Mick Hall" },
+      "duration": "PT228S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Defending the Leg Drag",
+      "description": "Leg Drag to Crucifix film study: Defending the Leg Drag, taught by Priit Mihkelson.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/fdq3I6AQvoU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/fdq3I6AQvoU",
+      "url": "https://www.youtube.com/watch?v=fdq3I6AQvoU",
+      "creator": { "@type": "Person", "name": "Priit Mihkelson" },
+      "duration": "PT275S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Side Kipping to Defeat the Leg Drag",
+      "description": "Leg Drag to Crucifix film study: Side Kipping to Defeat the Leg Drag, taught by Brian Glick.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/PeRFLNak-1U/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/PeRFLNak-1U",
+      "url": "https://www.youtube.com/watch?v=PeRFLNak-1U",
+      "creator": { "@type": "Person", "name": "Brian Glick" },
+      "duration": "PT233S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -71,6 +119,42 @@ The technique requires sensitivity to feel when the opponent commits to turning 
 **Success Rate**: 55%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Leg Drag to Crucifix in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Wt2NW_hfTd0)
+
+<p class="clip-credit"><strong>Crucifix escape against the bulldog choke</strong> — taught by Mick Hall · 3:48 · <a href="https://www.youtube.com/watch?v=Wt2NW_hfTd0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=fdq3I6AQvoU)
+
+<p class="clip-credit"><strong>Defending the Leg Drag</strong> — taught by Priit Mihkelson · 4:35 · <a href="https://www.youtube.com/watch?v=fdq3I6AQvoU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=PeRFLNak-1U)
+
+<p class="clip-credit"><strong>Side Kipping to Defeat the Leg Drag</strong> — taught by Brian Glick · 3:53 · <a href="https://www.youtube.com/watch?v=PeRFLNak-1U" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

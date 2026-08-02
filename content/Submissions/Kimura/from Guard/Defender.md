@@ -150,6 +150,54 @@ description: "How to defend against Kimura from Guard in BJJ. Recognition, escap
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Kimura from Guard (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Kimura Defense from Guard",
+      "description": "Kimura from Guard (Defender) film study: Kimura Defense from Guard, taught by Jiu-Jitsu Channel.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/a6vbWASwse8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/a6vbWASwse8",
+      "url": "https://www.youtube.com/watch?v=a6vbWASwse8",
+      "creator": { "@type": "Person", "name": "Jiu-Jitsu Channel" },
+      "duration": "PT67S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Defending the Kimura",
+      "description": "Kimura from Guard (Defender) film study: Defending the Kimura, taught by Eddie Kone.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/TuaopPUakM8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/TuaopPUakM8",
+      "url": "https://www.youtube.com/watch?v=TuaopPUakM8",
+      "creator": { "@type": "Person", "name": "Eddie Kone" },
+      "duration": "PT61S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "How to Escape the Kimura Armlock",
+      "description": "Kimura from Guard (Defender) film study: How to Escape the Kimura Armlock, taught by Eddie Kone.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/TIOgQ3N2a6Y/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/TIOgQ3N2a6Y",
+      "url": "https://www.youtube.com/watch?v=TIOgQ3N2a6Y",
+      "creator": { "@type": "Person", "name": "Eddie Kone" },
+      "duration": "PT45S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -164,6 +212,42 @@ A critical defensive principle is recognizing that the Kimura grip creates a con
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Kimura from Guard (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=a6vbWASwse8)
+
+<p class="clip-credit"><strong>Kimura Defense from Guard</strong> — taught by Jiu-Jitsu Channel · 1:07 · <a href="https://www.youtube.com/watch?v=a6vbWASwse8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=TuaopPUakM8)
+
+<p class="clip-credit"><strong>Defending the Kimura</strong> — taught by Eddie Kone · 1:01 · <a href="https://www.youtube.com/watch?v=TuaopPUakM8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=TIOgQ3N2a6Y)
+
+<p class="clip-credit"><strong>How to Escape the Kimura Armlock</strong> — taught by Eddie Kone · 0:45 · <a href="https://www.youtube.com/watch?v=TIOgQ3N2a6Y" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

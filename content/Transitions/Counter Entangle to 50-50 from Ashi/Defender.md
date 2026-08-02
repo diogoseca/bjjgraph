@@ -148,6 +148,54 @@ description: "Learn to defend and prevent the counter entangle to 50-50 from ash
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Counter Entangle to 50-50 from Ashi (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Escape outside ashi heel hook to back take",
+      "description": "Counter Entangle to 50-50 from Ashi (Defender) film study: Escape outside ashi heel hook to back take, taught by Grapple Box.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/KmGhb2j68Ng/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/KmGhb2j68Ng",
+      "url": "https://www.youtube.com/watch?v=KmGhb2j68Ng",
+      "creator": { "@type": "Person", "name": "Grapple Box" },
+      "duration": "PT34S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Outside heel hook defense into inside heel hook",
+      "description": "Counter Entangle to 50-50 from Ashi (Defender) film study: Outside heel hook defense into inside heel hook, taught by Holy Grail BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/clVAHxgRadE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/clVAHxgRadE",
+      "url": "https://www.youtube.com/watch?v=clVAHxgRadE",
+      "creator": { "@type": "Person", "name": "Holy Grail BJJ" },
+      "duration": "PT105S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Leglock defense from entanglement",
+      "description": "Counter Entangle to 50-50 from Ashi (Defender) film study: Leglock defense from entanglement, taught by Craig Jones.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/uZbUhFapIhg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/uZbUhFapIhg",
+      "url": "https://www.youtube.com/watch?v=uZbUhFapIhg",
+      "creator": { "@type": "Person", "name": "Craig Jones" },
+      "duration": "PT163S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +205,42 @@ As the defender against the counter entangle, you are the person whose leg is co
 **Opponent's Starting Position**: [[Positions/Ashi Garami/Inside Ashi-Garami]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Counter Entangle to 50-50 from Ashi (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=KmGhb2j68Ng)
+
+<p class="clip-credit"><strong>Escape outside ashi heel hook to back take</strong> — taught by Grapple Box · 0:34 · <a href="https://www.youtube.com/watch?v=KmGhb2j68Ng" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=clVAHxgRadE)
+
+<p class="clip-credit"><strong>Outside heel hook defense into inside heel hook</strong> — taught by Holy Grail BJJ · 1:45 · <a href="https://www.youtube.com/watch?v=clVAHxgRadE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=uZbUhFapIhg)
+
+<p class="clip-credit"><strong>Leglock defense from entanglement</strong> — taught by Craig Jones · 2:43 · <a href="https://www.youtube.com/watch?v=uZbUhFapIhg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

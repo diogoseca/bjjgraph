@@ -34,6 +34,54 @@ description: "Learn Whip-up Sweep from Lockdown in BJJ. Momentum-based reversal 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Whip-up Sweep \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Half guard whip up",
+      "description": "Whip-up Sweep film study: Half guard whip up, taught by Flashback Submission.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/EMvNZfNLCY0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/EMvNZfNLCY0",
+      "url": "https://www.youtube.com/watch?v=EMvNZfNLCY0",
+      "creator": { "@type": "Person", "name": "Flashback Submission" },
+      "duration": "PT57S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Lockdown sweep",
+      "description": "Whip-up Sweep film study: Lockdown sweep, taught by Midtown Grappling Academy.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/qLdzklkFCNM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/qLdzklkFCNM",
+      "url": "https://www.youtube.com/watch?v=qLdzklkFCNM",
+      "creator": { "@type": "Person", "name": "Midtown Grappling Academy" },
+      "duration": "PT42S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Lockdown to dogfight to roll under sweep",
+      "description": "Whip-up Sweep film study: Lockdown to dogfight to roll under sweep, taught by Coach Paul.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/uY4ZC6b6e3s/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/uY4ZC6b6e3s",
+      "url": "https://www.youtube.com/watch?v=uY4ZC6b6e3s",
+      "creator": { "@type": "Person", "name": "Coach Paul" },
+      "duration": "PT78S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ Strategically, the whip-up sweep creates a binary dilemma when paired with the O
 **Success Rate**: 58%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Whip-up Sweep in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=EMvNZfNLCY0)
+
+<p class="clip-credit"><strong>Half guard whip up</strong> — taught by Flashback Submission · 0:57 · <a href="https://www.youtube.com/watch?v=EMvNZfNLCY0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=qLdzklkFCNM)
+
+<p class="clip-credit"><strong>Lockdown sweep</strong> — taught by Midtown Grappling Academy · 0:42 · <a href="https://www.youtube.com/watch?v=qLdzklkFCNM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=uY4ZC6b6e3s)
+
+<p class="clip-credit"><strong>Lockdown to dogfight to roll under sweep</strong> — taught by Coach Paul · 1:18 · <a href="https://www.youtube.com/watch?v=uY4ZC6b6e3s" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

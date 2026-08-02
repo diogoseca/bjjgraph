@@ -174,6 +174,54 @@ description: "How to execute Front Headlock to Anaconda in BJJ. Attacking perspe
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Front Headlock to Anaconda (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Anaconda Choke from Front Headlock",
+      "description": "Front Headlock to Anaconda (Attacker) film study: Anaconda Choke from Front Headlock, taught by Ninja Pinto.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/RbkOnRb2lvA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/RbkOnRb2lvA",
+      "url": "https://www.youtube.com/watch?v=RbkOnRb2lvA",
+      "creator": { "@type": "Person", "name": "Ninja Pinto" },
+      "duration": "PT49S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Fixing Common Anaconda Choke Mistakes",
+      "description": "Front Headlock to Anaconda (Attacker) film study: Fixing Common Anaconda Choke Mistakes, taught by Lycan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/1e2GPOUYR-o/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/1e2GPOUYR-o",
+      "url": "https://www.youtube.com/watch?v=1e2GPOUYR-o",
+      "creator": { "@type": "Person", "name": "Lycan" },
+      "duration": "PT41S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Anaconda vs Darce: Grip and Finish Difference",
+      "description": "Front Headlock to Anaconda (Attacker) film study: Anaconda vs Darce: Grip and Finish Difference, taught by Matt Arroyo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/6d6Wkgh9imU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/6d6Wkgh9imU",
+      "url": "https://www.youtube.com/watch?v=6d6Wkgh9imU",
+      "creator": { "@type": "Person", "name": "Matt Arroyo" },
+      "duration": "PT67S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -187,6 +235,42 @@ This transition has become a staple in modern no-gi grappling and MMA, where the
 **From Position**: [[Positions/Front Headlock]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Front Headlock to Anaconda (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=RbkOnRb2lvA)
+
+<p class="clip-credit"><strong>Anaconda Choke from Front Headlock</strong> — taught by Ninja Pinto · 0:49 · <a href="https://www.youtube.com/watch?v=RbkOnRb2lvA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=1e2GPOUYR-o)
+
+<p class="clip-credit"><strong>Fixing Common Anaconda Choke Mistakes</strong> — taught by Lycan · 0:41 · <a href="https://www.youtube.com/watch?v=1e2GPOUYR-o" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=6d6Wkgh9imU)
+
+<p class="clip-credit"><strong>Anaconda vs Darce: Grip and Finish Difference</strong> — taught by Matt Arroyo · 1:07 · <a href="https://www.youtube.com/watch?v=6d6Wkgh9imU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

@@ -21,37 +21,37 @@ description: "Defensive survival position requiring systematic escape mechanics 
     {
       "@type": "HowToStep",
       "name": "Execute Granby Roll to Guard",
-      "text": "From this position, attempt Granby Roll to Guard. This technique is attempted in 42% of exchanges from this position.",
+      "text": "From this position, attempt Granby Roll to Guard. This technique is attempted in 7% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Hip Escape to Guard",
-      "text": "From this position, attempt Hip Escape to Guard. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Hip Escape to Guard. This technique is attempted in 9% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Leg Extraction to Guard",
-      "text": "From this position, attempt Leg Extraction to Guard. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Leg Extraction to Guard. This technique is attempted in 15% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Rolling Back Take Reversal",
-      "text": "From this position, attempt Rolling Back Take Reversal. This technique is attempted in 4% of exchanges from this position.",
+      "text": "From this position, attempt Rolling Back Take Reversal. This technique is attempted in 5% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Back Door Escape",
-      "text": "From this position, attempt Back Door Escape. This technique is attempted in 4% of exchanges from this position.",
+      "text": "From this position, attempt Back Door Escape. This technique is attempted in 11% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Defensive Roll",
-      "text": "From this position, attempt Defensive Roll. This technique is attempted in 7% of exchanges from this position.",
+      "text": "From this position, attempt Defensive Roll. This technique is attempted in 8% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -153,6 +153,43 @@ description: "Defensive survival position requiring systematic escape mechanics 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Truck (Bottom) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Defending the rolling back take (truck roll)",
+      "description": "Truck (Bottom) film study: Defending the rolling back take (truck roll), taught by Brian Glick.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/WEpVDP7MRpo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/WEpVDP7MRpo",
+      "url": "https://www.youtube.com/watch?v=WEpVDP7MRpo",
+      "creator": { "@type": "Person", "name": "Brian Glick" },
+      "duration": "PT209S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Advanced Back and Truck Escapes",
+      "description": "Truck (Bottom) film study: Advanced Back and Truck Escapes, taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/hxMggfwKx-I/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/hxMggfwKx-I",
+      "url": "https://www.youtube.com/watch?v=hxMggfwKx-I",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT61S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -164,6 +201,34 @@ Success in this position requires understanding the mechanical principles of spi
 The position emerged from wrestling's turk ride and was popularized in BJJ through the 10th Planet system, where it serves as a gateway to the Twister submission and various back attacks. Unlike more stable bottom positions, the Truck Bottom offers limited offensive options, making escape the primary tactical objective. The granby roll is the primary escape mechanism, but timing and setup are critical.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Truck (Bottom) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=WEpVDP7MRpo)
+
+<p class="clip-credit"><strong>Defending the rolling back take (truck roll)</strong> — taught by Brian Glick · 3:29 · <a href="https://www.youtube.com/watch?v=WEpVDP7MRpo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=hxMggfwKx-I)
+
+<p class="clip-credit"><strong>Advanced Back and Truck Escapes</strong> — taught by Eddie Bravo · 1:01 · <a href="https://www.youtube.com/watch?v=hxMggfwKx-I" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

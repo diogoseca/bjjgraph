@@ -144,6 +144,54 @@ description: "Defend against the Bow and Arrow Choke from Rear Triangle. Recogni
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Bow and Arrow Choke from Rear Triangle (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Back escape \u2014 standing up",
+      "description": "Bow and Arrow Choke from Rear Triangle (Defender) film study: Back escape \u2014 standing up, taught by Priit Mihkelson.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/_sBB-O8fqP4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/_sBB-O8fqP4",
+      "url": "https://www.youtube.com/watch?v=_sBB-O8fqP4",
+      "creator": { "@type": "Person", "name": "Priit Mihkelson" },
+      "duration": "PT114S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Escaping the bow and arrow choke late",
+      "description": "Bow and Arrow Choke from Rear Triangle (Defender) film study: Escaping the bow and arrow choke late, taught by Henry Akins.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/6PP0y4ael7w/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/6PP0y4ael7w",
+      "url": "https://www.youtube.com/watch?v=6PP0y4ael7w",
+      "creator": { "@type": "Person", "name": "Henry Akins" },
+      "duration": "PT134S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Bow and arrow choke defense fundamentals",
+      "description": "Bow and Arrow Choke from Rear Triangle (Defender) film study: Bow and arrow choke defense fundamentals, taught by Stephan Kesting.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/QVUP7U8W-0c/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/QVUP7U8W-0c",
+      "url": "https://www.youtube.com/watch?v=QVUP7U8W-0c",
+      "creator": { "@type": "Person", "name": "Stephan Kesting" },
+      "duration": "PT246S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -154,6 +202,42 @@ Defending the Bow and Arrow Choke from Rear Triangle requires addressing two sim
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Bow and Arrow Choke from Rear Triangle (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=_sBB-O8fqP4)
+
+<p class="clip-credit"><strong>Back escape — standing up</strong> — taught by Priit Mihkelson · 1:54 · <a href="https://www.youtube.com/watch?v=_sBB-O8fqP4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=6PP0y4ael7w)
+
+<p class="clip-credit"><strong>Escaping the bow and arrow choke late</strong> — taught by Henry Akins · 2:14 · <a href="https://www.youtube.com/watch?v=6PP0y4ael7w" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=QVUP7U8W-0c)
+
+<p class="clip-credit"><strong>Bow and arrow choke defense fundamentals</strong> — taught by Stephan Kesting · 4:06 · <a href="https://www.youtube.com/watch?v=QVUP7U8W-0c" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

@@ -21,37 +21,37 @@ description: "Master Shoulder of Justice Top in BJJ. Complete offensive guide wi
     {
       "@type": "HowToStep",
       "name": "Execute Americana from Shoulder of Justice",
-      "text": "From this position, attempt Americana from Shoulder of Justice. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Americana from Shoulder of Justice. This technique is attempted in 11% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Side Control to Mount",
-      "text": "From this position, attempt Side Control to Mount. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Side Control to Mount. This technique is attempted in 19% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Side Control to North-South",
-      "text": "From this position, attempt Side Control to North-South. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Side Control to North-South. This technique is attempted in 10% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Arm Triangle from Shoulder of Justice",
-      "text": "From this position, attempt Arm Triangle from Shoulder of Justice. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Arm Triangle from Shoulder of Justice. This technique is attempted in 13% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute North-South Choke from Shoulder of Justice",
-      "text": "From this position, attempt North-South Choke from Shoulder of Justice. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt North-South Choke from Shoulder of Justice. This technique is attempted in 9% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Knee on Belly",
-      "text": "From this position, attempt Knee on Belly. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Knee on Belly. This technique is attempted in 9% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -154,6 +154,54 @@ description: "Master Shoulder of Justice Top in BJJ. Complete offensive guide wi
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Shoulder of Justice (Top) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Shoulder Pressure From Side Control",
+      "description": "Shoulder of Justice (Top) film study: Shoulder Pressure From Side Control, taught by Roy Dean.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/BjeDX3WupdA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/BjeDX3WupdA",
+      "url": "https://www.youtube.com/watch?v=BjeDX3WupdA",
+      "creator": { "@type": "Person", "name": "Roy Dean" },
+      "duration": "PT39S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Side Smash Side Control Pressure",
+      "description": "Shoulder of Justice (Top) film study: Side Smash Side Control Pressure, taught by Owen Livesey.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/MpWpNkQwBGA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/MpWpNkQwBGA",
+      "url": "https://www.youtube.com/watch?v=MpWpNkQwBGA",
+      "creator": { "@type": "Person", "name": "Owen Livesey" },
+      "duration": "PT73S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Cross Sides Shoulder of Justice",
+      "description": "Shoulder of Justice (Top) film study: Cross Sides Shoulder of Justice, taught by SBG New Braunfels.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/HO877lE69nM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/HO877lE69nM",
+      "url": "https://www.youtube.com/watch?v=HO877lE69nM",
+      "creator": { "@type": "Person", "name": "SBG New Braunfels" },
+      "duration": "PT145S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <aside class="entity-relations">
@@ -166,6 +214,42 @@ The Shoulder of Justice Top position represents the offensive perspective of thi
 The Shoulder of Justice Top is characterized by driving your shoulder blade deep into the opponent's jaw at an angle toward their far shoulder, creating a pressure vector that travels through their cervical spine and limits head mobility. Your chest remains heavy and perpendicular to their torso while your hips stay low and connected to their near hip, preventing shrimping movements. This position creates a powerful psychological effect where opponents must choose between enduring the relentless pressure or making defensive movements that expose them to kimuras, americanas, arm triangles, and position advancements to mount or north-south. The effectiveness of this position lies in its ability to simultaneously attack comfort and technical position, forcing opponents into defensive reactions that create offensive opportunities for the top player.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Shoulder of Justice (Top) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=BjeDX3WupdA)
+
+<p class="clip-credit"><strong>Shoulder Pressure From Side Control</strong> — taught by Roy Dean · 0:39 · <a href="https://www.youtube.com/watch?v=BjeDX3WupdA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=MpWpNkQwBGA)
+
+<p class="clip-credit"><strong>Side Smash Side Control Pressure</strong> — taught by Owen Livesey · 1:13 · <a href="https://www.youtube.com/watch?v=MpWpNkQwBGA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=HO877lE69nM)
+
+<p class="clip-credit"><strong>Cross Sides Shoulder of Justice</strong> — taught by SBG New Braunfels · 2:25 · <a href="https://www.youtube.com/watch?v=HO877lE69nM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 
@@ -237,8 +321,8 @@ The Shoulder of Justice Top is characterized by driving your shoulder blade deep
 
 
 **If opponent brings far arm across to defend face from shoulder pressure:**
-- Execute **[[Transitions/Arm Triangle/Attacker|Arm Triangle]]** → [[Positions/Armbar Control]] (Probability: 65%)
-- Execute **[[Transitions/North-South Choke/Attacker|North-South Choke]]** → [[Positions/North-South]] (Probability: 58%)
+- Execute **[[Submissions/Arm Triangle/Attacker|Arm Triangle]]** → [[Positions/Armbar Control]] (Probability: 65%)
+- Execute **[[Submissions/North-South Choke/Attacker|North-South Choke]]** → [[Positions/North-South]] (Probability: 58%)
 
 
 **If opponent flattens out completely and stops resisting to conserve energy:**

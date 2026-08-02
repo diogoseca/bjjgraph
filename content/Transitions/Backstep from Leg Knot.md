@@ -34,6 +34,43 @@ description: "Master the Backstep from Leg Knot in BJJ. A systematic guide to di
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Backstep from Leg Knot \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Back step entry to honey hole with backup plan",
+      "description": "Backstep from Leg Knot film study: Back step entry to honey hole with backup plan, taught by Primate Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/w7HtrtgFGU4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/w7HtrtgFGU4",
+      "url": "https://www.youtube.com/watch?v=w7HtrtgFGU4",
+      "creator": { "@type": "Person", "name": "Primate Jiu Jitsu" },
+      "duration": "PT193S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Intro to the leg knot",
+      "description": "Backstep from Leg Knot film study: Intro to the leg knot, taught by Mike Robinson.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/MaQQU4ydJoc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/MaQQU4ydJoc",
+      "url": "https://www.youtube.com/watch?v=MaQQU4ydJoc",
+      "creator": { "@type": "Person", "name": "Mike Robinson" },
+      "duration": "PT170S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -66,9 +103,37 @@ The mechanical foundation of this technique relies on hip switching combined wit
 This technique has gained prominence in modern competition as practitioners recognize that not every leg entanglement needs to result in a leg lock exchange. Against opponents with strong heel hook defense or when the entanglement is neutral rather than advantageous, choosing to disengage and pass yields three points in IBJJF rulesets while eliminating the risk of being caught in a counter leg lock. The backstep from leg knot bridges the gap between modern leg lock systems and classical top-game passing, making it essential for well-rounded competitive grapplers.
 
 **From Position**: [[Positions/Leg Knot]] (Top)
-**Success Rate**: 50%
+**Success Rate**: 42%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Backstep from Leg Knot in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=w7HtrtgFGU4)
+
+<p class="clip-credit"><strong>Back step entry to honey hole with backup plan</strong> — taught by Primate Jiu Jitsu · 3:13 · <a href="https://www.youtube.com/watch?v=w7HtrtgFGU4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=MaQQU4ydJoc)
+
+<p class="clip-credit"><strong>Intro to the leg knot</strong> — taught by Mike Robinson · 2:50 · <a href="https://www.youtube.com/watch?v=MaQQU4ydJoc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

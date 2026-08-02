@@ -174,6 +174,43 @@ description: "Learn to execute the Sweep from Zombie Guard in BJJ. Step-by-step 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Sweep from Zombie Guard (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Lockdown old school sweep",
+      "description": "Sweep from Zombie Guard (Attacker) film study: Lockdown old school sweep, taught by The Jiu-Jitsu Foundry.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/c5aHZxvr2bk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/c5aHZxvr2bk",
+      "url": "https://www.youtube.com/watch?v=c5aHZxvr2bk",
+      "creator": { "@type": "Person", "name": "The Jiu-Jitsu Foundry" },
+      "duration": "PT33S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Sweep flow options from the lockdown",
+      "description": "Sweep from Zombie Guard (Attacker) film study: Sweep flow options from the lockdown, taught by 10th Planet Orange Park.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/CFQXFFFNQhM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/CFQXFFFNQhM",
+      "url": "https://www.youtube.com/watch?v=CFQXFFFNQhM",
+      "creator": { "@type": "Person", "name": "10th Planet Orange Park" },
+      "duration": "PT165S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -183,6 +220,34 @@ Executing the Sweep from Zombie Guard requires coordinating three mechanical sys
 **From Position**: [[Positions/Rubber Guard/Zombie]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Sweep from Zombie Guard (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=c5aHZxvr2bk)
+
+<p class="clip-credit"><strong>Lockdown old school sweep</strong> — taught by The Jiu-Jitsu Foundry · 0:33 · <a href="https://www.youtube.com/watch?v=c5aHZxvr2bk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=CFQXFFFNQhM)
+
+<p class="clip-credit"><strong>Sweep flow options from the lockdown</strong> — taught by 10th Planet Orange Park · 2:45 · <a href="https://www.youtube.com/watch?v=CFQXFFFNQhM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

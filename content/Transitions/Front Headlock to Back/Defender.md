@@ -148,6 +148,54 @@ description: "How to defend against Front Headlock to Back Take in BJJ. Recognit
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Front Headlock to Back (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Front Headlock Defense: Farside Peek Out",
+      "description": "Front Headlock to Back (Defender) film study: Front Headlock Defense: Farside Peek Out, taught by Procel BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/lV4cgzaVhb8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/lV4cgzaVhb8",
+      "url": "https://www.youtube.com/watch?v=lV4cgzaVhb8",
+      "creator": { "@type": "Person", "name": "Procel BJJ" },
+      "duration": "PT64S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Sucker Drag Defense Against the Front Headlock",
+      "description": "Front Headlock to Back (Defender) film study: Sucker Drag Defense Against the Front Headlock, taught by Procel BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/c8N4F3EgOZk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/c8N4F3EgOZk",
+      "url": "https://www.youtube.com/watch?v=c8N4F3EgOZk",
+      "creator": { "@type": "Person", "name": "Procel BJJ" },
+      "duration": "PT71S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Front Headlock Sit Out Reversal",
+      "description": "Front Headlock to Back (Defender) film study: Front Headlock Sit Out Reversal, taught by Keith Takada.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/t4xBYQ1VauU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/t4xBYQ1VauU",
+      "url": "https://www.youtube.com/watch?v=t4xBYQ1VauU",
+      "creator": { "@type": "Person", "name": "Keith Takada" },
+      "duration": "PT28S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -161,6 +209,42 @@ Successful defense also requires accepting that the front headlock itself is a c
 **Opponent's Starting Position**: [[Positions/Front Headlock]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Front Headlock to Back (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=lV4cgzaVhb8)
+
+<p class="clip-credit"><strong>Front Headlock Defense: Farside Peek Out</strong> — taught by Procel BJJ · 1:04 · <a href="https://www.youtube.com/watch?v=lV4cgzaVhb8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=c8N4F3EgOZk)
+
+<p class="clip-credit"><strong>Sucker Drag Defense Against the Front Headlock</strong> — taught by Procel BJJ · 1:11 · <a href="https://www.youtube.com/watch?v=c8N4F3EgOZk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=t4xBYQ1VauU)
+
+<p class="clip-credit"><strong>Front Headlock Sit Out Reversal</strong> — taught by Keith Takada · 0:28 · <a href="https://www.youtube.com/watch?v=t4xBYQ1VauU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

@@ -34,6 +34,54 @@ description: "Master the Heel Hook from Ushiro Ashi-Garami. Complete guide cover
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Heel Hook from Ushiro Ashi \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "V Grip from Top Ushiro leg entanglement",
+      "description": "Heel Hook from Ushiro Ashi film study: V Grip from Top Ushiro leg entanglement, taught by Gordon Ryan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/lTsK9C_a6po/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/lTsK9C_a6po",
+      "url": "https://www.youtube.com/watch?v=lTsK9C_a6po",
+      "creator": { "@type": "Person", "name": "Gordon Ryan" },
+      "duration": "PT140S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Arm Saddle to inside heel hook flow drill",
+      "description": "Heel Hook from Ushiro Ashi film study: Arm Saddle to inside heel hook flow drill, taught by Factory Fresh Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/QfNKQzy3V_w/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/QfNKQzy3V_w",
+      "url": "https://www.youtube.com/watch?v=QfNKQzy3V_w",
+      "creator": { "@type": "Person", "name": "Factory Fresh Jiu Jitsu" },
+      "duration": "PT21S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Reverse X ashi garami leg control",
+      "description": "Heel Hook from Ushiro Ashi film study: Reverse X ashi garami leg control, taught by The Sanctuary BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Bf5cJNYCMcA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Bf5cJNYCMcA",
+      "url": "https://www.youtube.com/watch?v=Bf5cJNYCMcA",
+      "creator": { "@type": "Person", "name": "The Sanctuary BJJ" },
+      "duration": "PT105S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -78,6 +126,42 @@ The heel hook from ushiro ashi-garami attacks the knee joint through rotational 
 **Starting Position**: [[Positions/Ashi Garami/Ushiro Ashi-Garami]] · **From**: [[Positions/Ashi Garami/Ushiro Ashi-Garami]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Heel Hook from Ushiro Ashi in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=lTsK9C_a6po)
+
+<p class="clip-credit"><strong>V Grip from Top Ushiro leg entanglement</strong> — taught by Gordon Ryan · 2:20 · <a href="https://www.youtube.com/watch?v=lTsK9C_a6po" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=QfNKQzy3V_w)
+
+<p class="clip-credit"><strong>Arm Saddle to inside heel hook flow drill</strong> — taught by Factory Fresh Jiu Jitsu · 0:21 · <a href="https://www.youtube.com/watch?v=QfNKQzy3V_w" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Bf5cJNYCMcA)
+
+<p class="clip-credit"><strong>Reverse X ashi garami leg control</strong> — taught by The Sanctuary BJJ · 1:45 · <a href="https://www.youtube.com/watch?v=Bf5cJNYCMcA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="outcomes" class="content-section">
 
@@ -244,12 +328,12 @@ The heel hook from ushiro ashi-garami attacks the knee joint through rotational 
 <section id="related" class="content-section">
 
 ## Related
-- [[Transitions/Heel Hook]]
+- [[Submissions/Heel Hook]]
 - [[Submissions/Achilles Lock]]
 - [[Transitions/Aoki Lock]]
 - [[Submissions/Calf Slicer]]
 - [[Submissions/Inside Heel Hook]]
-- [[Transitions/Estima Lock]]
+- [[Submissions/Estima Lock]]
 - [[Positions/Ashi Garami/Ushiro Ashi-Garami]] - Primary starting position providing the reversed leg entanglement control for this submission
 - [[Positions/Ashi Garami/Outside Ashi-Garami]] - Standard ashi position that commonly transitions to ushiro during opponent inversion escapes
 - [[Positions/Ashi Garami/Saddle]] - Higher-control leg entanglement offering alternative heel hook finishing opportunities

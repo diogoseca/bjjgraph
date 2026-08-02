@@ -34,6 +34,43 @@ description: "Master the Guard Pass from Diamond Guard in BJJ. Systematic techni
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Guard Pass from Diamond Guard \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Three passes from inside closed guard",
+      "description": "Guard Pass from Diamond Guard film study: Three passes from inside closed guard, taught by Strong Hold Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/dLXj6r-CX2U/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/dLXj6r-CX2U",
+      "url": "https://www.youtube.com/watch?v=dLXj6r-CX2U",
+      "creator": { "@type": "Person", "name": "Strong Hold Jiu Jitsu" },
+      "duration": "PT192S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "My 5 Favourite Guard Passes",
+      "description": "Guard Pass from Diamond Guard film study: My 5 Favourite Guard Passes, taught by Jon Thomas.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/iiExTTeuB2s/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/iiExTTeuB2s",
+      "url": "https://www.youtube.com/watch?v=iiExTTeuB2s",
+      "creator": { "@type": "Person", "name": "Jon Thomas" },
+      "duration": "PT566S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +106,34 @@ Timing is critical throughout this transition. The guard player's counter-attack
 **Success Rate**: 50%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Guard Pass from Diamond Guard in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=dLXj6r-CX2U)
+
+<p class="clip-credit"><strong>Three passes from inside closed guard</strong> — taught by Strong Hold Jiu Jitsu · 3:12 · <a href="https://www.youtube.com/watch?v=dLXj6r-CX2U" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=iiExTTeuB2s)
+
+<p class="clip-credit"><strong>My 5 Favourite Guard Passes</strong> — taught by Jon Thomas · 9:26 · <a href="https://www.youtube.com/watch?v=iiExTTeuB2s" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

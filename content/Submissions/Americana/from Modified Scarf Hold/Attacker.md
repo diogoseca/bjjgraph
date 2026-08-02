@@ -170,6 +170,54 @@ description: "Learn to attack with the Americana from Modified Scarf Hold. Step-
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Americana from Modified Scarf Hold (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Americana from Kesa-Gatame",
+      "description": "Americana from Modified Scarf Hold (Attacker) film study: Americana from Kesa-Gatame, taught by hammerhouse99.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/vyzwkYm-ZN4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/vyzwkYm-ZN4",
+      "url": "https://www.youtube.com/watch?v=vyzwkYm-ZN4",
+      "creator": { "@type": "Person", "name": "hammerhouse99" },
+      "duration": "PT21S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Kesa Gatame Leg Americana Sub NoGi",
+      "description": "Americana from Modified Scarf Hold (Attacker) film study: Kesa Gatame Leg Americana Sub NoGi, taught by RAW MMA.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ej1262EvsCk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ej1262EvsCk",
+      "url": "https://www.youtube.com/watch?v=ej1262EvsCk",
+      "creator": { "@type": "Person", "name": "RAW MMA" },
+      "duration": "PT98S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Favorite Series From Kuzure Kesa Gatame",
+      "description": "Americana from Modified Scarf Hold (Attacker) film study: Favorite Series From Kuzure Kesa Gatame, taught by Bobby Thompson.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Fm4CRsUkAfw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Fm4CRsUkAfw",
+      "url": "https://www.youtube.com/watch?v=Fm4CRsUkAfw",
+      "creator": { "@type": "Person", "name": "Bobby Thompson" },
+      "duration": "PT66S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -180,6 +228,42 @@ The Americana from Modified Scarf Hold leverages the crushing chest pressure and
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Americana from Modified Scarf Hold (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=vyzwkYm-ZN4)
+
+<p class="clip-credit"><strong>Americana from Kesa-Gatame</strong> — taught by hammerhouse99 · 0:21 · <a href="https://www.youtube.com/watch?v=vyzwkYm-ZN4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ej1262EvsCk)
+
+<p class="clip-credit"><strong>Kesa Gatame Leg Americana Sub NoGi</strong> — taught by RAW MMA · 1:38 · <a href="https://www.youtube.com/watch?v=ej1262EvsCk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Fm4CRsUkAfw)
+
+<p class="clip-credit"><strong>Favorite Series From Kuzure Kesa Gatame</strong> — taught by Bobby Thompson · 1:06 · <a href="https://www.youtube.com/watch?v=Fm4CRsUkAfw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

@@ -182,6 +182,43 @@ description: "Learn to attack the omoplata from De La Riva Guard with DLR leg sw
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Omoplata from De La Riva Guard (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Rafa Mendes\u0027 omoplata",
+      "description": "Omoplata from De La Riva Guard (Attacker) film study: Rafa Mendes\u0027 omoplata, taught by Rafael Mendes.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/cQEVTjYCq0M/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/cQEVTjYCq0M",
+      "url": "https://www.youtube.com/watch?v=cQEVTjYCq0M",
+      "creator": { "@type": "Person", "name": "Rafael Mendes" },
+      "duration": "PT61S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Finishing the omoplata from De La Riva",
+      "description": "Omoplata from De La Riva Guard (Attacker) film study: Finishing the omoplata from De La Riva, taught by Filipe.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/CK-STgse6C0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/CK-STgse6C0",
+      "url": "https://www.youtube.com/watch?v=CK-STgse6C0",
+      "creator": { "@type": "Person", "name": "Filipe" },
+      "duration": "PT125S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -192,6 +229,34 @@ Attacking the omoplata from De La Riva Guard requires reading the opponent's wei
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Omoplata from De La Riva Guard (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=cQEVTjYCq0M)
+
+<p class="clip-credit"><strong>Rafa Mendes&#39; omoplata</strong> — taught by Rafael Mendes · 1:01 · <a href="https://www.youtube.com/watch?v=cQEVTjYCq0M" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=CK-STgse6C0)
+
+<p class="clip-credit"><strong>Finishing the omoplata from De La Riva</strong> — taught by Filipe · 2:05 · <a href="https://www.youtube.com/watch?v=CK-STgse6C0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

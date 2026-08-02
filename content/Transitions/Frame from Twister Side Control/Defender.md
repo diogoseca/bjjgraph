@@ -134,6 +134,54 @@ description: "Counter the frame escape from twister side control with pressure m
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Frame from Twister Side Control (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Holding twister side control",
+      "description": "Frame from Twister Side Control (Defender) film study: Holding twister side control, taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/R55lmkc6Mus/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/R55lmkc6Mus",
+      "url": "https://www.youtube.com/watch?v=R55lmkc6Mus",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT87S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Setting Up and Holding Twister Side Control",
+      "description": "Frame from Twister Side Control (Defender) film study: Setting Up and Holding Twister Side Control, taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/6gZXaEZozto/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/6gZXaEZozto",
+      "url": "https://www.youtube.com/watch?v=6gZXaEZozto",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT92S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Stop Your Opponent From Escaping Side Mount",
+      "description": "Frame from Twister Side Control (Defender) film study: Stop Your Opponent From Escaping Side Mount, taught by JitsMagazine.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/5Q6WiAWEfQM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/5Q6WiAWEfQM",
+      "url": "https://www.youtube.com/watch?v=5Q6WiAWEfQM",
+      "creator": { "@type": "Person", "name": "JitsMagazine" },
+      "duration": "PT226S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -143,6 +191,42 @@ The defender in this context is the top player maintaining twister side control 
 **Opponent's Starting Position**: [[Positions/Twister Control/Twister Side Control]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Frame from Twister Side Control (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=R55lmkc6Mus)
+
+<p class="clip-credit"><strong>Holding twister side control</strong> — taught by Eddie Bravo · 1:27 · <a href="https://www.youtube.com/watch?v=R55lmkc6Mus" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=6gZXaEZozto)
+
+<p class="clip-credit"><strong>Setting Up and Holding Twister Side Control</strong> — taught by Eddie Bravo · 1:32 · <a href="https://www.youtube.com/watch?v=6gZXaEZozto" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=5Q6WiAWEfQM)
+
+<p class="clip-credit"><strong>Stop Your Opponent From Escaping Side Mount</strong> — taught by JitsMagazine · 3:46 · <a href="https://www.youtube.com/watch?v=5Q6WiAWEfQM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

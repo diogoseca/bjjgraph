@@ -140,6 +140,43 @@ description: "Defend the Guard Pass from Leg Entanglement in BJJ. Recognition cu
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Guard Pass from Leg Entanglement (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Protecting your leg in 50/50",
+      "description": "Guard Pass from Leg Entanglement (Defender) film study: Protecting your leg in 50/50, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/R7lPdQWLOus/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/R7lPdQWLOus",
+      "url": "https://www.youtube.com/watch?v=R7lPdQWLOus",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT161S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Single leg X: forcing their hands to the mat",
+      "description": "Guard Pass from Leg Entanglement (Defender) film study: Single leg X: forcing their hands to the mat, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/LQul2ZvHyms/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/LQul2ZvHyms",
+      "url": "https://www.youtube.com/watch?v=LQul2ZvHyms",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT254S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -149,6 +186,34 @@ As the defender against the Guard Pass from Leg Entanglement, you are the bottom
 **Opponent's Starting Position**: [[Positions/Leg Entanglement]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Guard Pass from Leg Entanglement (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=R7lPdQWLOus)
+
+<p class="clip-credit"><strong>Protecting your leg in 50/50</strong> — taught by Lachlan Giles · 2:41 · <a href="https://www.youtube.com/watch?v=R7lPdQWLOus" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=LQul2ZvHyms)
+
+<p class="clip-credit"><strong>Single leg X: forcing their hands to the mat</strong> — taught by Lachlan Giles · 4:14 · <a href="https://www.youtube.com/watch?v=LQul2ZvHyms" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

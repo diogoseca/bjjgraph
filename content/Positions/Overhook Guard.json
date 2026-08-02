@@ -267,69 +267,195 @@
     "transitions": [
       {
         "transition": "Smash Pass",
-        "attempt_probability": 24
+        "attempt_probability": {
+          "gi": 11,
+          "nogi": 11
+        }
       },
       {
         "transition": "Knee Slice Pass",
-        "attempt_probability": 15
+        "attempt_probability": {
+          "gi": 14,
+          "nogi": 13
+        }
       },
       {
         "transition": "Over-Under Pass",
-        "attempt_probability": 14
+        "attempt_probability": {
+          "gi": 12,
+          "nogi": 13
+        }
       },
       {
         "transition": "Overhook Pass to Side Control",
-        "attempt_probability": 14
-      },
-      {
-        "transition": "Arm Drag to Back",
-        "attempt_probability": 12
+        "attempt_probability": {
+          "gi": 15,
+          "nogi": 15
+        }
       },
       {
         "transition": "Side Control to Mount",
-        "attempt_probability": 12
+        "attempt_probability": {
+          "gi": 1,
+          "nogi": 1
+        }
       },
       {
         "transition": "Break Overhook Guard",
-        "attempt_probability": 6
+        "attempt_probability": {
+          "gi": 30,
+          "nogi": 30
+        }
       },
       {
         "transition": "Pass Overhook Guard",
-        "attempt_probability": 3
+        "attempt_probability": {
+          "gi": 17,
+          "nogi": 17
+        }
       }
     ],
     "flashcards": [
       {
         "question": "What is the primary method for maintaining overhook control when your opponent attempts to posture and pull their arm free?",
-        "answer": "Drive constant shoulder pressure into the overhooked arm while keeping your hips heavy and forward. The shoulder acts as a wedge that pins their arm to your body. Simultaneously maintain chest-to-chest contact to eliminate space they need to extract their arm, and use your free hand to control their opposite arm or collar to prevent them from generating leverage."
+        "answer": "Drive constant shoulder pressure into the overhooked arm while keeping your hips heavy and forward. The shoulder acts as a wedge that pins their arm to your body. Simultaneously maintain chest-to-chest contact to eliminate space they need to extract their arm, and use your free hand to control their opposite arm or collar to prevent them from generating leverage.",
+        "answer_line": "Drive shoulder pressure, stay heavy",
+        "distractors": {
+          "plausible": [
+            "Chest contact, hands passive",
+            "Grab collar before the overhook"
+          ],
+          "trap": [
+            "Back off to create space"
+          ]
+        }
       },
       {
         "question": "Your opponent begins bridging to create space while you have overhook control - how should you adjust your weight distribution?",
-        "answer": "Drop your hips lower and drive your weight forward through your chest into their torso, not backward. Widen your base with your knees to absorb the bridging motion. As they bridge, use their movement to advance your position by walking your feet forward and increasing the angle of pressure through your shoulder. Never lift your hips high during their bridge as this creates the space they need to escape."
+        "answer": "Drop your hips lower and drive your weight forward through your chest into their torso, not backward. Widen your base with your knees to absorb the bridging motion. As they bridge, use their movement to advance your position by walking your feet forward and increasing the angle of pressure through your shoulder. Never lift your hips high during their bridge as this creates the space they need to escape.",
+        "answer_line": "Drop hips, drive forward, widen base",
+        "distractors": {
+          "plausible": [
+            "Sprawl back away from bridge",
+            "Widen base, stay passive"
+          ],
+          "trap": [
+            "Lift hips high to ride bridge"
+          ]
+        }
       },
       {
         "question": "What are the essential grip priorities for maintaining overhook guard top position effectively?",
-        "answer": "Primary grip is the overhook itself, with your arm threaded deep under their arm and your hand controlling their shoulder blade or lat. Secondary priority is controlling their free arm with your opposite hand - grip their wrist, sleeve, or collar to prevent frames. In gi, use collar grips to reinforce control; in no-gi, use wrist control or underhook their free arm."
+        "answer": "Primary grip is the overhook itself, with your arm threaded deep under their arm and your hand controlling their shoulder blade or lat. Secondary priority is controlling their free arm with your opposite hand - grip their wrist, sleeve, or collar to prevent frames. In gi, use collar grips to reinforce control; in no-gi, use wrist control or underhook their free arm.",
+        "answer_line": "Deep overhook first, then free arm",
+        "distractors": {
+          "plausible": [
+            "Grip free arm before overhook",
+            "Overhook only, no other grip"
+          ],
+          "trap": [
+            "Grip their far leg instead"
+          ]
+        }
       },
       {
         "question": "How do you shut down your opponent's primary escape of turning away to recover guard?",
-        "answer": "When you feel them begin to turn, immediately drive your shoulder pressure forward and follow their rotation. Keep your chest glued to their back or side as they turn. If they commit to turning, capitalize by transitioning to back control rather than trying to flatten them again. Use your free hand to block their hip rotation by controlling their far hip or belt."
+        "answer": "When you feel them begin to turn, immediately drive your shoulder pressure forward and follow their rotation. Keep your chest glued to their back or side as they turn. If they commit to turning, capitalize by transitioning to back control rather than trying to flatten them again. Use your free hand to block their hip rotation by controlling their far hip or belt.",
+        "answer_line": "Follow the turn, take the back",
+        "distractors": {
+          "plausible": [
+            "Flatten them back to guard",
+            "Block only, don't advance"
+          ],
+          "trap": [
+            "Let go and reset your grips"
+          ]
+        }
       },
       {
         "question": "What is the proper shoulder pressure application technique from overhook guard top?",
-        "answer": "Position your shoulder at approximately 45 degrees across their chest, driving into the junction of their neck and shoulder on the trapped arm side. Your weight should flow through your shoulder like a blade cutting across their body. Keep your head low on the opposite side of the overhook, and maintain a driving angle that pins both their shoulder and arm simultaneously. The pressure should feel like you're trying to touch their opposite shoulder with yours."
+        "answer": "Position your shoulder at approximately 45 degrees across their chest, driving into the junction of their neck and shoulder on the trapped arm side. Your weight should flow through your shoulder like a blade cutting across their body. Keep your head low on the opposite side of the overhook, and maintain a driving angle that pins both their shoulder and arm simultaneously. The pressure should feel like you're trying to touch their opposite shoulder with yours.",
+        "answer_line": "45-degree angle into shoulder",
+        "distractors": {
+          "plausible": [
+            "Head high, drive straight down",
+            "Pressure square across chest"
+          ],
+          "trap": [
+            "Post head high for base"
+          ]
+        }
       },
       {
         "question": "Your opponent partially escapes by recovering half guard while you maintain the overhook - what is your recovery strategy?",
-        "answer": "Maintain the overhook control as your anchor point and immediately switch your passing strategy to half guard techniques. Use the overhook to flatten their upper body while addressing the half guard with knee slice or over-under mechanics. The overhook actually enhances your half guard passing by eliminating one of their primary frames. Focus on keeping shoulder pressure while your lower body works the pass."
+        "answer": "Maintain the overhook control as your anchor point and immediately switch your passing strategy to half guard techniques. Use the overhook to flatten their upper body while addressing the half guard with knee slice or over-under mechanics. The overhook actually enhances your half guard passing by eliminating one of their primary frames. Focus on keeping shoulder pressure while your lower body works the pass.",
+        "answer_line": "Keep overhook, pass with knee slice",
+        "distractors": {
+          "plausible": [
+            "Abandon overhook, reset guard",
+            "Switch grips to double unders"
+          ],
+          "trap": [
+            "Release overhook to free hands"
+          ]
+        }
       },
       {
         "question": "How do you manage energy expenditure to maintain this position for extended periods?",
-        "answer": "Distribute your weight efficiently through your skeletal structure rather than relying on muscular tension. Keep your elbows tight to your body, use your chest and shoulder as the primary pressure tools, and maintain a low center of gravity. Breathe rhythmically and avoid death-gripping. Progress the pass systematically rather than fighting for static control - active passing is less tiring than holding a stalemate."
+        "answer": "Distribute your weight efficiently through your skeletal structure rather than relying on muscular tension. Keep your elbows tight to your body, use your chest and shoulder as the primary pressure tools, and maintain a low center of gravity. Breathe rhythmically and avoid death-gripping. Progress the pass systematically rather than fighting for static control - active passing is less tiring than holding a stalemate.",
+        "answer_line": "Structure over strength, relaxed",
+        "distractors": {
+          "plausible": [
+            "Grip hard, muscle through it",
+            "Hold static, wait them out"
+          ],
+          "trap": [
+            "Death-grip and tense up"
+          ]
+        }
       },
       {
         "question": "Your opponent explosively frames with their free arm against your face - how do you recover control?",
-        "answer": "Turn your head to the side and drive your chin down, making the frame slip off your face rather than stopping your forward pressure. Simultaneously use your free hand to swim inside their framing arm and redirect it to the mat or pin it to their body. Never back away from the frame as this surrenders your position. Increase your forward pressure through the frame and angle your approach to bypass it."
+        "answer": "Turn your head to the side and drive your chin down, making the frame slip off your face rather than stopping your forward pressure. Simultaneously use your free hand to swim inside their framing arm and redirect it to the mat or pin it to their body. Never back away from the frame as this surrenders your position. Increase your forward pressure through the frame and angle your approach to bypass it.",
+        "answer_line": "Slip frame, swim hand inside",
+        "distractors": {
+          "plausible": [
+            "Push frame straight back",
+            "Pause pressure, reset angle"
+          ],
+          "trap": [
+            "Back away to create space"
+          ]
+        }
+      }
+    ],
+    "clips": [
+      {
+        "id": "NjpsGcUIo9Y",
+        "title": "Overhook guard pass",
+        "by": "Eric Laporte",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 167,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "nyZwifeL_Do",
+        "title": "Shoulder crunch pass",
+        "by": "Gordon Ryan",
+        "vertical": false,
+        "channel": "Jiu Jitsu Moves",
+        "duration": 106,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "aAd6OIq94X0",
+        "title": "Body lock guard pass off the underhook",
+        "by": "Gordon Ryan",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 205,
+        "verified": "2026-07-14"
       }
     ]
   },
@@ -542,78 +668,360 @@
     "transitions": [
       {
         "transition": "Overhook Sweep",
-        "attempt_probability": 12
+        "attempt_probability": {
+          "gi": 14,
+          "nogi": 14
+        }
       },
       {
         "transition": "Hip Bump Sweep",
-        "attempt_probability": 20
+        "attempt_probability": {
+          "gi": 9,
+          "nogi": 10
+        }
       },
       {
         "transition": "Closed Guard to Omoplata",
-        "attempt_probability": 10
+        "attempt_probability": {
+          "gi": 12,
+          "nogi": 10
+        }
       },
       {
         "transition": "Arm Drag to Back",
-        "attempt_probability": 10
+        "attempt_probability": {
+          "gi": 6,
+          "nogi": 8
+        }
       },
       {
         "transition": "Triangle Setup",
-        "attempt_probability": 12
+        "attempt_probability": {
+          "gi": 17,
+          "nogi": 17
+        }
       },
       {
         "transition": "Kimura Sweep",
-        "attempt_probability": 10
+        "attempt_probability": {
+          "gi": 5,
+          "nogi": 6
+        }
       },
       {
         "transition": "Flower Sweep",
-        "attempt_probability": 12
+        "attempt_probability": {
+          "gi": 6,
+          "nogi": 4
+        }
       },
       {
         "transition": "Overhook Guard Sweep",
-        "attempt_probability": 5
+        "attempt_probability": {
+          "gi": 11,
+          "nogi": 11
+        }
       },
       {
         "transition": "Overhook to Closed Guard",
-        "attempt_probability": 3
+        "attempt_probability": {
+          "gi": 11,
+          "nogi": 12
+        }
       },
       {
         "transition": "Omoplata from Guard",
-        "attempt_probability": 6
+        "attempt_probability": {
+          "gi": 9,
+          "nogi": 8
+        }
       }
     ],
     "flashcards": [
       {
         "question": "What is the correct hand positioning for an effective overhook that maintains control under pressure?",
-        "answer": "Thread your arm deep over and around the opponent's arm so your hand grips their lat muscle, shoulder blade, or far side of their back. Your elbow should be tight to your ribs, not flaring out. The deeper your hand reaches behind their shoulder, the harder it is for them to strip the control. Avoid gripping just around their tricep as this shallow grip is easily broken."
+        "answer": "Thread your arm deep over and around the opponent's arm so your hand grips their lat muscle, shoulder blade, or far side of their back. Your elbow should be tight to your ribs, not flaring out. The deeper your hand reaches behind their shoulder, the harder it is for them to strip the control. Avoid gripping just around their tricep as this shallow grip is easily broken.",
+        "answer_line": "Thread deep, grip lat not tricep",
+        "distractors": {
+          "plausible": [
+            "Grip shoulder, elbow flared out",
+            "Grip wrist instead of lat"
+          ],
+          "trap": [
+            "Grip only around the tricep"
+          ]
+        }
       },
       {
         "question": "Your opponent begins posturing up forcefully while you have the overhook established - what adjustments maintain your control?",
-        "answer": "Pull your overhook elbow tighter to your ribs while your hand pulls down on their lat. Simultaneously use your legs to prevent their hips from backing away by squeezing your knees together and pulling your heels toward your glutes. Add a collar or head grip with your free hand to create a second anchor point. If they continue posturing, follow their movement by sitting up with them rather than staying flat."
+        "answer": "Pull your overhook elbow tighter to your ribs while your hand pulls down on their lat. Simultaneously use your legs to prevent their hips from backing away by squeezing your knees together and pulling your heels toward your glutes. Add a collar or head grip with your free hand to create a second anchor point. If they continue posturing, follow their movement by sitting up with them rather than staying flat.",
+        "answer_line": "Pull elbow tight, squeeze knees",
+        "distractors": {
+          "plausible": [
+            "Push elbow out, extend legs",
+            "Grip collar only, release legs"
+          ],
+          "trap": [
+            "Loosen overhook to re-grip"
+          ]
+        }
       },
       {
         "question": "What are the essential grips needed to maintain overhook guard bottom against a pressure passer?",
-        "answer": "The overhook itself is primary, with your hand deep on their lat or back. Your free hand must control their opposite arm - grab their wrist, sleeve, or collar to prevent them from establishing a crossface or strong frame. In gi, collar grip behind their neck provides excellent posture control. In no-gi, cup behind their head or control their tricep. Both grips working together prevent them from establishing any passing pressure."
+        "answer": "The overhook itself is primary, with your hand deep on their lat or back. Your free hand must control their opposite arm - grab their wrist, sleeve, or collar to prevent them from establishing a crossface or strong frame. In gi, collar grip behind their neck provides excellent posture control. In no-gi, cup behind their head or control their tricep. Both grips working together prevent them from establishing any passing pressure.",
+        "answer_line": "Deep overhook, control free arm",
+        "distractors": {
+          "plausible": [
+            "Free arm grip, ignore overhook",
+            "Overhook only, hands free"
+          ],
+          "trap": [
+            "Grip their belt, let arms go"
+          ]
+        }
       },
       {
         "question": "How do you prevent your opponent's primary defense of stacking your hips when attacking from overhook guard?",
-        "answer": "Create angle before they can stack by hip escaping toward the overhook side. This positions your body at 45 degrees where stacking is mechanically difficult. Use your overhook to pull their shoulder down and toward you, preventing them from driving forward. If they begin stacking, immediately pivot your hips further to the side and transition to omoplata or triangle where their forward pressure becomes a liability."
+        "answer": "Create angle before they can stack by hip escaping toward the overhook side. This positions your body at 45 degrees where stacking is mechanically difficult. Use your overhook to pull their shoulder down and toward you, preventing them from driving forward. If they begin stacking, immediately pivot your hips further to the side and transition to omoplata or triangle where their forward pressure becomes a liability.",
+        "answer_line": "Angle toward overhook side early",
+        "distractors": {
+          "plausible": [
+            "Stay square, brace for stack",
+            "Angle away from overhook side"
+          ],
+          "trap": [
+            "Push straight into their chest"
+          ]
+        }
       },
       {
         "question": "What is the proper technique for applying shoulder pressure with your overhook to break opponent's posture?",
-        "answer": "Pull your overhook elbow down toward your hip while your hand pulls their lat toward you. This creates a rotational force that breaks their posture by collapsing their shoulder forward and down. Combine this with your legs pulling their hips toward you. The pressure should feel like you're trying to curl their shoulder into your chest. Maintain constant tension rather than jerking motions."
+        "answer": "Pull your overhook elbow down toward your hip while your hand pulls their lat toward you. This creates a rotational force that breaks their posture by collapsing their shoulder forward and down. Combine this with your legs pulling their hips toward you. The pressure should feel like you're trying to curl their shoulder into your chest. Maintain constant tension rather than jerking motions.",
+        "answer_line": "Pull elbow down, curl shoulder in",
+        "distractors": {
+          "plausible": [
+            "Jerk the arm in sharp bursts",
+            "Push elbow up and out"
+          ],
+          "trap": [
+            "Yank hard, then release grip"
+          ]
+        }
       },
       {
         "question": "Your opponent partially escapes by getting their knee inside your guard - how do you recover without losing the overhook?",
-        "answer": "Keep the overhook control as your anchor while immediately adjusting your leg position. Hip escape away from the knee that entered, creating space to recover your guard or transition to half guard with the overhook still intact. The overhook actually makes their knee position worse for passing because they can't post on that side. Use the overhook to keep their upper body controlled while your legs work to re-establish full guard closure."
+        "answer": "Keep the overhook control as your anchor while immediately adjusting your leg position. Hip escape away from the knee that entered, creating space to recover your guard or transition to half guard with the overhook still intact. The overhook actually makes their knee position worse for passing because they can't post on that side. Use the overhook to keep their upper body controlled while your legs work to re-establish full guard closure.",
+        "answer_line": "Keep overhook, escape hips away",
+        "distractors": {
+          "plausible": [
+            "Release overhook, reset guard",
+            "Push knee out with free hand"
+          ],
+          "trap": [
+            "Let go and stand to reset"
+          ]
+        }
       },
       {
         "question": "How should you manage energy when maintaining overhook guard for extended guard retention?",
-        "answer": "Use your skeletal structure rather than constant muscle tension - keep your elbow pinned to your ribs naturally, let your body weight pull on the overhook rather than actively gripping hard constantly. Breathe rhythmically and stay relaxed between attack attempts. Use micro-adjustments rather than big movements. Attack when opportunities present themselves rather than fighting for static control. A relaxed, active guard is sustainable; a tense, death-grip guard exhausts you quickly."
+        "answer": "Use your skeletal structure rather than constant muscle tension - keep your elbow pinned to your ribs naturally, let your body weight pull on the overhook rather than actively gripping hard constantly. Breathe rhythmically and stay relaxed between attack attempts. Use micro-adjustments rather than big movements. Attack when opportunities present themselves rather than fighting for static control. A relaxed, active guard is sustainable; a tense, death-grip guard exhausts you quickly.",
+        "answer_line": "Relaxed structure, micro-adjust",
+        "distractors": {
+          "plausible": [
+            "Grip hard constantly, stay tense",
+            "Big movements, attack nonstop"
+          ],
+          "trap": [
+            "Death-grip the overhook always"
+          ]
+        }
       },
       {
         "question": "Your opponent explosively attempts to rip their arm free from the overhook - what is your immediate counter?",
-        "answer": "Follow their arm movement rather than fighting it directly. As they pull, immediately transition to triangle by shooting your overhook-side leg over their shoulder since their posture is broken and arm is pulled back. Alternatively, switch to kimura grip as their arm extracts - their pulling motion actually assists your kimura entry. The key is to flow with their energy into an attack rather than losing a grip-fighting battle."
+        "answer": "Follow their arm movement rather than fighting it directly. As they pull, immediately transition to triangle by shooting your overhook-side leg over their shoulder since their posture is broken and arm is pulled back. Alternatively, switch to kimura grip as their arm extracts - their pulling motion actually assists your kimura entry. The key is to flow with their energy into an attack rather than losing a grip-fighting battle.",
+        "answer_line": "Flow with pull, attack triangle",
+        "distractors": {
+          "plausible": [
+            "Fight to keep the grip static",
+            "Chase the arm across the mat"
+          ],
+          "trap": [
+            "Grip-fight to hold overhook"
+          ]
+        }
+      }
+    ],
+    "clips": [
+      {
+        "id": "QPL5y0hIVV4",
+        "title": "Closed guard overhook sweep",
+        "by": "David Morris",
+        "vertical": false,
+        "channel": "David Morris Jiu Jitsu ",
+        "duration": 17,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "ljmJ9xP6N7U",
+        "title": "Overhook guard to reverse triangle + kimura",
+        "by": "ZeGrapplez",
+        "vertical": false,
+        "channel": "ZeGrapplez",
+        "duration": 45,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "PAVo91SaisY",
+        "title": "Overhook closed guard to triangle attack",
+        "by": "Hellfish MMA",
+        "vertical": false,
+        "channel": "Hellfish Mixed Martial Arts",
+        "duration": 174,
+        "verified": "2026-07-14"
       }
     ]
-  }
+  },
+  "flashcards_position": [
+    {
+      "question": "What configuration structurally defines Overhook Guard and distinguishes it from a neutral guard exchange?",
+      "answer": "Overhook Guard is defined by one player wrapping an arm over and around one of the opponent's arms, threading it near the shoulder so the hand grips the lat, shoulder blade, or far back rather than merely encircling the tricep. This is layered onto an existing guard structure such as closed, half, butterfly, or open guard, so the position is a control overlay rather than a standalone frame. The defining feature is asymmetry: only one of the opponent's arms is trapped, which trades the balanced control of a symmetric guard for a direct lever on one shoulder. The whizzer-style arm connection is what makes it Overhook Guard regardless of which underlying guard hosts it.",
+      "answer_line": "One arm trapped, layered on guard",
+      "distractors": {
+        "plausible": [
+          "Both arms trapped symmetrically",
+          "Standalone frame, no guard base"
+        ],
+        "trap": [
+          "Grip only around the tricep"
+        ]
+      }
+    },
+    {
+      "question": "Why is the depth of the overhook, rather than mere possession of it, the decisive control variable in this position?",
+      "answer": "A shallow overhook that wraps only the tricep sits on a mobile, rotating segment of the arm, so the trapped player can circle the elbow and slip free with minimal effort. A deep overhook that reaches the lat or shoulder blade connects to the torso itself, which cannot rotate away independently, converting the grip into control over the whole shoulder girdle. Depth also shortens the lever between the grip and the shoulder joint, amplifying every posture-breaking pull. This is why both players fight over centimeters of overhook depth: the deeper hand dictates whose structure governs the exchange.",
+      "answer_line": "Deep grip to lat, not tricep",
+      "distractors": {
+        "plausible": [
+          "Any grip depth works the same",
+          "Grip the wrist for control"
+        ],
+        "trap": [
+          "Grip the tricep and hold tight"
+        ]
+      }
+    },
+    {
+      "question": "What role does the asymmetry of trapping only one arm play in shaping the dynamics of Overhook Guard?",
+      "answer": "Because only one arm is controlled, the opponent retains one free posting hand, which keeps the position dynamic rather than static like a fully pinned control. The trapped side becomes a compromised base corner where posting and framing are eliminated, so pressure, off-balancing, and rotation all funnel toward that weakened corner. The free arm remains the pivot around which both players negotiate, making control of that opposite wrist or collar a shared priority for whoever wants to stabilize the exchange. This one-arm-in structure is precisely what sacrifices symmetry to open direct routes toward the trapped side.",
+      "answer_line": "Attack the compromised trapped side",
+      "distractors": {
+        "plausible": [
+          "Attack their free-arm side",
+          "Ignore the free arm entirely"
+        ],
+        "trap": [
+          "Trap both arms for balance"
+        ]
+      }
+    },
+    {
+      "question": "How does the overhook function simultaneously as a defensive frame and an offensive lever for the player who holds it?",
+      "answer": "As a frame, the overhooked arm occupies the space where the opponent would otherwise drive their shoulder or arm to establish passing pressure or a crossface, so it blocks structure before it forms. As a lever, that same connection lets the holder pull the captured shoulder down and toward their controlled side to break posture and rotate the opponent's torso. The two functions share one mechanism: the arm threaded over the shoulder, so tightening it for defense also loads it for attack. This dual nature is why the position rewards constant tension rather than a single committed action.",
+      "answer_line": "Same grip: blocks and pulls",
+      "distractors": {
+        "plausible": [
+          "Frame only, never attack with it",
+          "Use it once, then release"
+        ],
+        "trap": [
+          "Loosen grip between attacks"
+        ]
+      }
+    },
+    {
+      "question": "Why does controlling the opponent's opposite-side arm matter as much as the overhook itself in this configuration?",
+      "answer": "With one arm trapped by the overhook, the opponent's remaining free arm is their only tool for posting, framing, or re-establishing base, so leaving it unmanaged lets them stabilize despite the trapped side. Securing that free wrist, sleeve, or collar removes the last independent support and forces the opponent to defend from a two-corner deficit. The two grips work as a pair: the overhook collapses one side while opposite-arm control denies the counterbalance, together isolating the opponent's structure. Losing track of the free arm is the most common way the position's advantage evaporates for either player.",
+      "answer_line": "Control free arm to deny base",
+      "distractors": {
+        "plausible": [
+          "Overhook alone is sufficient",
+          "Control their legs instead"
+        ],
+        "trap": [
+          "Let the free arm go entirely"
+        ]
+      }
+    },
+    {
+      "question": "What role does creating an angle with the hips play in the mechanics of Overhook Guard?",
+      "answer": "Facing the opponent squarely lets their base spread evenly and resist the overhook's pull, so a perpendicular relationship neutralizes much of the leverage. Shifting the hips toward the overhooked side rotates the line of force off the opponent's centerline, so the same pull now torques their compromised corner where they cannot post. This angle change also exposes the seam behind the trapped shoulder, which is the structural basis for the routes toward the opponent's back. The overhook supplies the connection, but the hip angle is what converts that connection into off-balancing force.",
+      "answer_line": "Angle hips toward overhook side",
+      "distractors": {
+        "plausible": [
+          "Stay squared up to their base",
+          "Angle hips away from overhook"
+        ],
+        "trap": [
+          "Face square, drive straight in"
+        ]
+      }
+    },
+    {
+      "question": "How does Overhook Guard differ mechanically from adjacent guards like Butterfly Guard or Deep Half Guard that it commonly combines with?",
+      "answer": "Butterfly Guard and Deep Half Guard generate off-balancing primarily through the legs, using hooks or an underhooked leg beneath the opponent's base, whereas Overhook Guard generates it through upper-body arm capture. When the overhook is layered onto those guards, the leg-driven elevation and the arm-driven posture break stack into a single dilemma, which is why the position amplifies their sweeping power. Compared to symmetric guards, Overhook Guard concentrates control on one shoulder rather than distributing it, making it more directional. It is best understood as an arm-control module that upgrades whatever guard hosts it rather than a guard defined by leg configuration.",
+      "answer_line": "Arm-control module, not leg-based",
+      "distractors": {
+        "plausible": [
+          "Leg hooks are the key driver",
+          "Identical to Butterfly Guard"
+        ],
+        "trap": [
+          "Drop overhook, hook the legs"
+        ]
+      }
+    },
+    {
+      "question": "Why does Overhook Guard reward continuous attacking rather than passively holding the arm connection?",
+      "answer": "The single-arm trap leaves the opponent one free posting hand, so if the holder merely maintains the grip without threatening, the opponent uses that free arm to re-posture, rebuild base, and neutralize the connection. The deep overhook also depends on continuous posture-breaking tension; the moment that downward pull lapses, the trapped shoulder re-straightens and the control resets toward neutral. Because the compromised trapped corner invites off-balancing on one side and re-posturing on the other, the connection is only leverage while it is actively loaded. This is why the position is treated as a launch point for chained sweeps, back takes, and submissions rather than a control to sit in, with the overhook serving as the anchor that links one attack to the next.",
+      "answer_line": "Keep attacking, tension must stay",
+      "distractors": {
+        "plausible": [
+          "Hold the grip, wait for openings",
+          "Secure it once, then relax"
+        ],
+        "trap": [
+          "Sit still, hold the overhook"
+        ]
+      }
+    }
+  ],
+  "clips": [
+    {
+      "id": "DfUHvTQpzCg",
+      "title": "Using an overhook",
+      "by": "Patrick Spano",
+      "vertical": false,
+      "channel": "FANATIC WRESTLING",
+      "duration": 40,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "5J92PJO-dEo",
+      "title": "Overhook from closed guard",
+      "by": "6am Jiu Jitsu",
+      "vertical": false,
+      "channel": "6am jiu jitsu, try it, it’s fun they said 🥋",
+      "duration": 114,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "XVxTzuJ1F60",
+      "title": "Overhook closed guard to rolling armbar",
+      "by": "BOWERHOUSE MMA",
+      "vertical": false,
+      "channel": "BOWERHOUSE MMA",
+      "duration": 60,
+      "verified": "2026-07-14"
+    }
+  ]
 }

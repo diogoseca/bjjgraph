@@ -34,6 +34,54 @@ description: "Master the Feet on Hips Tripod Sweep in BJJ. Learn setup, executio
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Feet on Hips Tripod Sweep \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Tripod sweep solo drill transitions",
+      "description": "Feet on Hips Tripod Sweep film study: Tripod sweep solo drill transitions, taught by Kristen DeBruycker.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/mlQzSzarPqc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/mlQzSzarPqc",
+      "url": "https://www.youtube.com/watch?v=mlQzSzarPqc",
+      "creator": { "@type": "Person", "name": "Kristen DeBruycker" },
+      "duration": "PT19S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Tripod Sweep Breakdown",
+      "description": "Feet on Hips Tripod Sweep film study: Tripod Sweep Breakdown, taught by Gordon Ryan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ic7FrpZq6aU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ic7FrpZq6aU",
+      "url": "https://www.youtube.com/watch?v=ic7FrpZq6aU",
+      "creator": { "@type": "Person", "name": "Gordon Ryan" },
+      "duration": "PT161S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Collar and Sleeve Tripod Sweep",
+      "description": "Feet on Hips Tripod Sweep film study: Collar and Sleeve Tripod Sweep, taught by Alberto Serrano.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/0AnyD7w2wQE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/0AnyD7w2wQE",
+      "url": "https://www.youtube.com/watch?v=0AnyD7w2wQE",
+      "creator": { "@type": "Person", "name": "Alberto Serrano" },
+      "duration": "PT89S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ Strategically, the tripod sweep creates a devastating dilemma when paired with t
 **Success Rate**: 55%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Feet on Hips Tripod Sweep in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=mlQzSzarPqc)
+
+<p class="clip-credit"><strong>Tripod sweep solo drill transitions</strong> — taught by Kristen DeBruycker · 0:19 · <a href="https://www.youtube.com/watch?v=mlQzSzarPqc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ic7FrpZq6aU)
+
+<p class="clip-credit"><strong>Tripod Sweep Breakdown</strong> — taught by Gordon Ryan · 2:41 · <a href="https://www.youtube.com/watch?v=ic7FrpZq6aU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=0AnyD7w2wQE)
+
+<p class="clip-credit"><strong>Collar and Sleeve Tripod Sweep</strong> — taught by Alberto Serrano · 1:29 · <a href="https://www.youtube.com/watch?v=0AnyD7w2wQE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

@@ -174,6 +174,43 @@ description: "How to execute Twister in BJJ. Attacking perspective with setup, e
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Twister Entry (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Entering twister side control",
+      "description": "Twister Entry (Attacker) film study: Entering twister side control, taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/R55lmkc6Mus/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/R55lmkc6Mus",
+      "url": "https://www.youtube.com/watch?v=R55lmkc6Mus",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT87S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Grace\u0027s twister entry",
+      "description": "Twister Entry (Attacker) film study: Grace\u0027s twister entry, taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/nnphEk5pmjk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/nnphEk5pmjk",
+      "url": "https://www.youtube.com/watch?v=nnphEk5pmjk",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT61S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -187,6 +224,34 @@ The transition demands precise coordination between maintaining upper body press
 **From Position**: [[Positions/Cross Body Ride]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Twister Entry (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=R55lmkc6Mus)
+
+<p class="clip-credit"><strong>Entering twister side control</strong> — taught by Eddie Bravo · 1:27 · <a href="https://www.youtube.com/watch?v=R55lmkc6Mus" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=nnphEk5pmjk)
+
+<p class="clip-credit"><strong>Grace&#39;s twister entry</strong> — taught by Eddie Bravo · 1:01 · <a href="https://www.youtube.com/watch?v=nnphEk5pmjk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

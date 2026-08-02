@@ -22,7 +22,10 @@
   "target_area": "Carotid arteries and trachea",
   "starting_position": "Mount",
   "from_position": "Mount/Top",
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "variant_uniqueness": "Self-contained sleeve-based choke from dominant top positions",
   "overview": "The Ezekiel Choke is a fundamental gi-based blood choke that can be executed from dominant top positions, most commonly from mount but also effective from side control, knee on belly, and other control positions. Named after Brazilian judoka Ezequiel Paraguassú who popularized it in BJJ, this technique utilizes the practitioner's own sleeve as a fulcrum to create pressure on both carotid arteries. The Ezekiel is particularly effective because it can be applied even when the opponent has their hands free to defend, making it a high-percentage submission when proper mechanics are understood. The technique's versatility allows it to be threaded through various defensive frames and can be executed with either a traditional lapel grip or by threading the sleeve through for maximum control. What makes the Ezekiel especially valuable is its ability to create submission threats that force opponents to expose other attacks, making it an excellent tool for creating offensive sequences from dominant positions.\n\nThe mechanical principle behind the Ezekiel involves using your own gi sleeve as a rigid lever against one side of the opponent's neck while your opposite forearm creates pressure on the other side, effectively compressing both carotid arteries simultaneously. Unlike many chokes that require extensive grip fighting or precise hand placement on the opponent's gi, the Ezekiel's self-contained nature makes it reliable even against experienced grapplers. The choke can be finished with remarkable speed once proper positioning is achieved, often catching opponents by surprise due to its deceptive setup. From mount, the Ezekiel becomes especially dangerous because the top position provides natural weight distribution that prevents effective bridging escapes while the choke is being applied.\n\nStrategically, the Ezekiel serves multiple purposes beyond just finishing the submission. It creates excellent dilemmas when combined with armbar and cross collar choke attacks from mount, forcing opponents to defend multiple threats simultaneously. The setup naturally transitions into other control positions if the opponent attempts to escape, and even failed attempts often result in improved positional control. In gi competition, the Ezekiel represents a fundamental submission that every practitioner must understand both offensively and defensively, as it remains effective at all levels of competition when executed with proper timing and pressure application.",
   "safety_considerations": {
@@ -245,6 +248,44 @@
       "variation_name": "Reverse Ezekiel (Back Hand Grip)",
       "description": "A variation where you grip your sleeve with your opposite hand and thread that arm across the neck. This creates a different angle of attack and can be surprising to opponents familiar with the standard grip.",
       "when_to_use": "Effective when the standard Ezekiel is well-defended or when the opponent is specifically defending one side of their neck. The reverse grip can bypass chin tucking defenses that work against the standard version."
+    }
+  ],
+  "clips": [
+    {
+      "id": "U0bEVMh07b0",
+      "title": "Ezekiel Choke from Closed Guard with a Twist",
+      "by": "BJJ After Forty",
+      "vertical": false,
+      "channel": "BJJ After Forty",
+      "duration": 149,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "B7_MjC4WAoI",
+      "title": "The Ezekiel To End All Ezekiels (No Gi)",
+      "by": "Henry Akins",
+      "vertical": false,
+      "channel": "Henry Akins' Hidden Jiu-Jitsu",
+      "duration": 87,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "omNMiDmWt5w",
+      "title": "Ezekiel Choke from Mount",
+      "by": "Procel BJJ",
+      "vertical": false,
+      "channel": "Procel Brazilian Jiu-Jitsu",
+      "duration": 110,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "73ukcOj5s74",
+      "title": "Sneaky Easy Ezekiel Choke",
+      "by": "Johnny Jitsu",
+      "vertical": false,
+      "channel": "Johnny Jitsu",
+      "duration": 59,
+      "verified": "2026-07-14"
     }
   ]
 }

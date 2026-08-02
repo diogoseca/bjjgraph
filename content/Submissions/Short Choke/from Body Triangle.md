@@ -34,6 +34,54 @@ description: "Master the short choke from body triangle in BJJ. Learn lapel feed
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Short Choke from Body Triangle \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Short Choke to Rear Naked Choke",
+      "description": "Short Choke from Body Triangle film study: Short Choke to Rear Naked Choke, taught by Mako BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/EJaBa7Q3qVI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/EJaBa7Q3qVI",
+      "url": "https://www.youtube.com/watch?v=EJaBa7Q3qVI",
+      "creator": { "@type": "Person", "name": "Mako BJJ" },
+      "duration": "PT188S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Details on finishing the rear naked choke",
+      "description": "Short Choke from Body Triangle film study: Details on finishing the rear naked choke, taught by Craig Jones.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/8tdVE2zgjXw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/8tdVE2zgjXw",
+      "url": "https://www.youtube.com/watch?v=8tdVE2zgjXw",
+      "creator": { "@type": "Person", "name": "Craig Jones" },
+      "duration": "PT57S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Back attack system from the body triangle",
+      "description": "Short Choke from Body Triangle film study: Back attack system from the body triangle, taught by Jordan Preisinger.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/zzovZGhewQY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/zzovZGhewQY",
+      "url": "https://www.youtube.com/watch?v=zzovZGhewQY",
+      "creator": { "@type": "Person", "name": "Jordan Preisinger" },
+      "duration": "PT694S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -78,6 +126,42 @@ What distinguishes this variant from other short choke entries is the stability 
 **Starting Position**: [[Positions/Back Control/Body Triangle]] · **From**: [[Positions/Back Control/Body Triangle]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Short Choke from Body Triangle in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=EJaBa7Q3qVI)
+
+<p class="clip-credit"><strong>Short Choke to Rear Naked Choke</strong> — taught by Mako BJJ · 3:08 · <a href="https://www.youtube.com/watch?v=EJaBa7Q3qVI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=8tdVE2zgjXw)
+
+<p class="clip-credit"><strong>Details on finishing the rear naked choke</strong> — taught by Craig Jones · 0:57 · <a href="https://www.youtube.com/watch?v=8tdVE2zgjXw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=zzovZGhewQY)
+
+<p class="clip-credit"><strong>Back attack system from the body triangle</strong> — taught by Jordan Preisinger · 11:34 · <a href="https://www.youtube.com/watch?v=zzovZGhewQY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="outcomes" class="content-section">
 
@@ -240,7 +324,7 @@ What distinguishes this variant from other short choke entries is the stability 
 - [[Submissions/Bow and Arrow Choke]]
 - [[Submissions/Cross Collar Choke]]
 - [[Submissions/Ezekiel Choke]]
-- [[Transitions/Darce Choke]]
+- [[Submissions/Darce Choke]]
 - [[Positions/Back Control/Body Triangle]] - Primary control position providing the immobilizing platform for this choke
 - [[Positions/Back Control]] - Parent position family for back-based choke attacks
 - [[Positions/Back Control/Seat Belt Control Back]] - Upper body control configuration used to set up the lapel feed

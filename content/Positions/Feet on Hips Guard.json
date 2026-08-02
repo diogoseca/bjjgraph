@@ -292,85 +292,230 @@
     "transitions": [
       {
         "transition": "Toreando Pass",
-        "attempt_probability": 37
+        "attempt_probability": {
+          "gi": 20,
+          "nogi": 17
+        }
       },
       {
         "transition": "Knee Slice Pass",
-        "attempt_probability": 11
+        "attempt_probability": {
+          "gi": 14,
+          "nogi": 12
+        }
       },
       {
         "transition": "Leg Drag Pass",
-        "attempt_probability": 10
+        "attempt_probability": {
+          "gi": 13,
+          "nogi": 14
+        }
       },
       {
         "transition": "Double Under Pass",
-        "attempt_probability": 3
+        "attempt_probability": {
+          "gi": 5,
+          "nogi": 4
+        }
       },
       {
         "transition": "Long Step Pass",
-        "attempt_probability": 8
+        "attempt_probability": {
+          "gi": 8,
+          "nogi": 9
+        }
       },
       {
         "transition": "X Pass",
-        "attempt_probability": 8
+        "attempt_probability": {
+          "gi": 10,
+          "nogi": 10
+        }
       },
       {
         "transition": "Stack Pass",
-        "attempt_probability": 5
+        "attempt_probability": {
+          "gi": 5,
+          "nogi": 5
+        }
       },
       {
         "transition": "Body Lock Pass",
-        "attempt_probability": 5
+        "attempt_probability": {
+          "gi": 6,
+          "nogi": 10
+        }
       },
       {
         "transition": "Smash Pass",
-        "attempt_probability": 6
+        "attempt_probability": {
+          "gi": 7,
+          "nogi": 7
+        }
       },
       {
         "transition": "Leg Weave Pass",
-        "attempt_probability": 5
+        "attempt_probability": {
+          "gi": 4,
+          "nogi": 4
+        }
       },
       {
         "transition": "Knee Cut from Feet on Hips",
-        "attempt_probability": 1
+        "attempt_probability": {
+          "gi": 4,
+          "nogi": 5
+        }
       },
       {
         "transition": "Pass Feet on Hips Guard",
-        "attempt_probability": 1
+        "attempt_probability": {
+          "gi": 4,
+          "nogi": 3
+        }
       }
     ],
     "flashcards": [
       {
         "question": "What is the first step you should take before attempting any pass against feet on hips guard?",
-        "answer": "Establish strong bilateral pants grips at or just below the knees before initiating any passing movement. This grip control neutralizes the pushing power of the opponent's leg frames and prevents them from extending fully to create distance. Without knee control, the bottom player retains full leg extension capability which makes any pass extremely difficult to complete."
+        "answer": "Establish strong bilateral pants grips at or just below the knees before initiating any passing movement. This grip control neutralizes the pushing power of the opponent's leg frames and prevents them from extending fully to create distance. Without knee control, the bottom player retains full leg extension capability which makes any pass extremely difficult to complete.",
+        "answer_line": "Grip pants at both knees",
+        "distractors": {
+          "plausible": [
+            "Grab both ankles first",
+            "Collar grip to break posture"
+          ],
+          "trap": [
+            "Dive straight for a leg drag"
+          ]
+        }
       },
       {
         "question": "Your opponent starts extending their legs forcefully to push you away - what adjustment do you make?",
-        "answer": "Lower your center of gravity by bending your knees and driving your hips forward while maintaining your knee grips. Keep your weight driving into the opponent rather than leaning back against the pressure. Use their extension as an opportunity to step laterally and create a passing angle, since fully extended legs are more vulnerable to lateral passing attacks like the toreando or leg drag."
+        "answer": "Lower your center of gravity by bending your knees and driving your hips forward while maintaining your knee grips. Keep your weight driving into the opponent rather than leaning back against the pressure. Use their extension as an opportunity to step laterally and create a passing angle, since fully extended legs are more vulnerable to lateral passing attacks like the toreando or leg drag.",
+        "answer_line": "Lower base, step to an angle",
+        "distractors": {
+          "plausible": [
+            "Lean back against the push",
+            "Pull both knees to your chest"
+          ],
+          "trap": [
+            "Stand tall and back away"
+          ]
+        }
       },
       {
         "question": "Why should you break one frame at a time rather than attempting to clear both feet simultaneously?",
-        "answer": "Clearing both frames simultaneously requires releasing your grips and creates a moment where the opponent can freely adjust their position, re-establish frames, or attack with sweeps. Breaking one frame at a time maintains constant control and forward pressure. Once one foot is cleared past your hip, you can pin that leg while addressing the second frame, creating a systematic progression toward the pass rather than a chaotic exchange."
+        "answer": "Clearing both frames simultaneously requires releasing your grips and creates a moment where the opponent can freely adjust their position, re-establish frames, or attack with sweeps. Breaking one frame at a time maintains constant control and forward pressure. Once one foot is cleared past your hip, you can pin that leg while addressing the second frame, creating a systematic progression toward the pass rather than a chaotic exchange.",
+        "answer_line": "Clear one frame at a time",
+        "distractors": {
+          "plausible": [
+            "Clear both feet at once for speed",
+            "Break the far frame first"
+          ],
+          "trap": [
+            "Release grips to reset both"
+          ]
+        }
       },
       {
         "question": "What are the essential grips for maintaining pressure and control against feet on hips guard?",
-        "answer": "The priority grips are bilateral pants control at the knees, which neutralizes the pushing frames. Secondary grips include collar control to prevent the opponent from sitting up and establishing offensive grips, and ankle grips when transitioning to specific passes. Avoid reaching for sleeve grips initially as this exposes your posture and allows the bottom player to threaten spider guard or lasso transitions."
+        "answer": "The priority grips are bilateral pants control at the knees, which neutralizes the pushing frames. Secondary grips include collar control to prevent the opponent from sitting up and establishing offensive grips, and ankle grips when transitioning to specific passes. Avoid reaching for sleeve grips initially as this exposes your posture and allows the bottom player to threaten spider guard or lasso transitions.",
+        "answer_line": "Knee pants grips are priority",
+        "distractors": {
+          "plausible": [
+            "Collar grip is the priority",
+            "Ankle grips before knee control"
+          ],
+          "trap": [
+            "Grab sleeves to control posture"
+          ]
+        }
       },
       {
         "question": "How do you shut down the opponent's primary escape attempt of transitioning to De La Riva guard?",
-        "answer": "Maintain awareness of your knee line and keep your lead knee tight and low, preventing the opponent from threading their leg underneath to establish the DLR hook. When you see them attempt to rotate their hips or reach for your ankle, immediately backstep or circle your lead leg away from their hooking leg. Drive forward pressure through your grips to keep their hips flat, reducing their ability to create the angle needed for DLR entry."
+        "answer": "Maintain awareness of your knee line and keep your lead knee tight and low, preventing the opponent from threading their leg underneath to establish the DLR hook. When you see them attempt to rotate their hips or reach for your ankle, immediately backstep or circle your lead leg away from their hooking leg. Drive forward pressure through your grips to keep their hips flat, reducing their ability to create the angle needed for DLR entry.",
+        "answer_line": "Keep lead knee tight and low",
+        "distractors": {
+          "plausible": [
+            "Post a hand on their hip",
+            "Push their leg flat to the mat"
+          ],
+          "trap": [
+            "Let them hook to speed the pass"
+          ]
+        }
       },
       {
         "question": "The bottom player begins hip-escaping laterally to face you during your pass - how do you respond?",
-        "answer": "Follow their hip movement with your own lateral movement, keeping your chest aimed at their centerline. Use your knee grips to pull their legs back toward your centerline as they try to rotate. If they successfully create an angle, immediately transition to the passing direction they've exposed rather than fighting back to your original line. Their hip escape often creates an opportunity for knee cut or leg drag on the side they've opened."
+        "answer": "Follow their hip movement with your own lateral movement, keeping your chest aimed at their centerline. Use your knee grips to pull their legs back toward your centerline as they try to rotate. If they successfully create an angle, immediately transition to the passing direction they've exposed rather than fighting back to your original line. Their hip escape often creates an opportunity for knee cut or leg drag on the side they've opened.",
+        "answer_line": "Mirror their angle, chest square",
+        "distractors": {
+          "plausible": [
+            "Force them back to original angle",
+            "Release grips to re-square"
+          ],
+          "trap": [
+            "Chase their hips standing tall"
+          ]
+        }
       },
       {
         "question": "What is the optimal weight distribution when maintaining top position against feet on hips guard?",
-        "answer": "Weight should be distributed forward and low, with your hips driving toward the opponent rather than staying elevated or sitting back. Keep approximately 60% of your weight driving forward through your grips while maintaining a stable base with wide feet. Your shoulders should be slightly ahead of your hips. This forward pressure makes it difficult for the bottom player to create distance while your low center of gravity prevents them from off-balancing you with push sweeps."
+        "answer": "Weight should be distributed forward and low, with your hips driving toward the opponent rather than staying elevated or sitting back. Keep approximately 60% of your weight driving forward through your grips while maintaining a stable base with wide feet. Your shoulders should be slightly ahead of your hips. This forward pressure makes it difficult for the bottom player to create distance while your low center of gravity prevents them from off-balancing you with push sweeps.",
+        "answer_line": "Weight forward and low",
+        "distractors": {
+          "plausible": [
+            "Weight back for balance",
+            "Weight even, hips elevated"
+          ],
+          "trap": [
+            "Sit back onto your heels"
+          ]
+        }
       },
       {
         "question": "How do you manage energy while systematically breaking down feet on hips frames?",
-        "answer": "Avoid using upper body muscular effort to force through frames, which causes rapid fatigue. Instead, use your body weight and positioning to apply pressure. Grip the pants firmly but let your skeleton and bodyweight create pressure rather than constant grip squeezing. Move in small, controlled increments rather than explosive burst movements. Accept that breaking well-maintained frames takes time, and maintain consistent pressure rather than alternating between aggressive attacks and recovery periods."
+        "answer": "Avoid using upper body muscular effort to force through frames, which causes rapid fatigue. Instead, use your body weight and positioning to apply pressure. Grip the pants firmly but let your skeleton and bodyweight create pressure rather than constant grip squeezing. Move in small, controlled increments rather than explosive burst movements. Accept that breaking well-maintained frames takes time, and maintain consistent pressure rather than alternating between aggressive attacks and recovery periods.",
+        "answer_line": "Bodyweight pressure, not muscle",
+        "distractors": {
+          "plausible": [
+            "Squeeze grips as hard as possible",
+            "Burst attack then rest"
+          ],
+          "trap": [
+            "Muscle through with arm strength"
+          ]
+        }
+      }
+    ],
+    "clips": [
+      {
+        "id": "YLPNsyHtREs",
+        "title": "Monitoring Feet in Guard Passing",
+        "by": "Gordon Ryan",
+        "vertical": false,
+        "channel": "Michael Wong",
+        "duration": 50,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "JL4Bimt-Y0I",
+        "title": "Foot on Your Hip? No Problem!",
+        "by": "Rickson Gracie",
+        "vertical": false,
+        "channel": "Rickson Gracie Jiu-Jitsu Academy",
+        "duration": 139,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "kTSMGYlVJKY",
+        "title": "Free Your Foot While Passing",
+        "by": "Kameron Ross",
+        "vertical": false,
+        "channel": "Kameron Ross",
+        "duration": 55,
+        "verified": "2026-07-14"
       }
     ]
   },
@@ -617,98 +762,370 @@
     "transitions": [
       {
         "transition": "Tripod Sweep",
-        "attempt_probability": 53
+        "attempt_probability": {
+          "gi": 18,
+          "nogi": 17
+        }
       },
       {
         "transition": "Sickle Sweep",
-        "attempt_probability": 14
+        "attempt_probability": {
+          "gi": 14,
+          "nogi": 13
+        }
       },
       {
         "transition": "Tomoe Nage",
-        "attempt_probability": 8
+        "attempt_probability": {
+          "gi": 7,
+          "nogi": 5
+        }
       },
       {
         "transition": "Lumberjack Sweep",
-        "attempt_probability": 6
+        "attempt_probability": {
+          "gi": 6,
+          "nogi": 7
+        }
       },
       {
         "transition": "Push Sweep from Feet on Hips",
-        "attempt_probability": 5
+        "attempt_probability": {
+          "gi": 8,
+          "nogi": 10
+        }
       },
       {
         "transition": "Single Leg X Sweep",
-        "attempt_probability": 3
+        "attempt_probability": {
+          "gi": 9,
+          "nogi": 12
+        }
       },
       {
         "transition": "De La Riva Sweep",
-        "attempt_probability": 3
+        "attempt_probability": {
+          "gi": 6,
+          "nogi": 3
+        }
       },
       {
         "transition": "Arm Drag Sweep",
-        "attempt_probability": 2
+        "attempt_probability": {
+          "gi": 4,
+          "nogi": 7
+        }
       },
       {
         "transition": "Balloon Sweep",
-        "attempt_probability": 2
+        "attempt_probability": {
+          "gi": 2,
+          "nogi": 2
+        }
       },
       {
         "transition": "Elevator Sweep",
-        "attempt_probability": 2
+        "attempt_probability": {
+          "gi": 3,
+          "nogi": 3
+        }
       },
       {
         "transition": "X-Guard Sweep",
-        "attempt_probability": 1
+        "attempt_probability": {
+          "gi": 5,
+          "nogi": 7
+        }
       },
       {
         "transition": "Feet on Hips to De La Riva",
-        "attempt_probability": 0
-      },
-      {
-        "transition": "Guard Pull",
-        "attempt_probability": 0
+        "attempt_probability": {
+          "gi": 10,
+          "nogi": 5
+        }
       },
       {
         "transition": "Feet on Hips Sickle Sweep",
-        "attempt_probability": 0
+        "attempt_probability": {
+          "gi": 4,
+          "nogi": 4
+        }
       },
       {
         "transition": "Feet on Hips Tripod Sweep",
-        "attempt_probability": 1
+        "attempt_probability": {
+          "gi": 4,
+          "nogi": 5
+        }
       }
     ],
     "flashcards": [
       {
         "question": "What is the optimal foot placement for maintaining feet on hips guard and why?",
-        "answer": "Place the ball of each foot directly on the opponent's hip bones (anterior superior iliac spine landmarks), not on the thighs or stomach. This bony contact point provides maximum structural stability and pushing efficiency because bone-on-bone contact transmits force more effectively than pressing against soft tissue. The ball of the foot creates a broad, stable pushing surface while maintaining sensitivity to the opponent's weight shifts and movement."
+        "answer": "Place the ball of each foot directly on the opponent's hip bones (anterior superior iliac spine landmarks), not on the thighs or stomach. This bony contact point provides maximum structural stability and pushing efficiency because bone-on-bone contact transmits force more effectively than pressing against soft tissue. The ball of the foot creates a broad, stable pushing surface while maintaining sensitivity to the opponent's weight shifts and movement.",
+        "answer_line": "Ball of foot on hip bones",
+        "distractors": {
+          "plausible": [
+            "Flat foot on the stomach",
+            "Feet planted on the thighs"
+          ],
+          "trap": [
+            "Toes dug into the ribs"
+          ]
+        }
       },
       {
         "question": "Your opponent grabs both of your ankles - what immediate adjustment do you make?",
-        "answer": "React instantly by retracting both legs toward your chest while simultaneously pulling your hips back and creating an angle to one side. As you retract, fight to strip at least one ankle grip by circling your foot and pulling sharply. Immediately transition to an alternative guard position such as butterfly guard by placing hooks inside their thighs, or create enough distance to reset your feet back on their hips. Never allow them to control both ankles while your hips remain flat and stationary."
+        "answer": "React instantly by retracting both legs toward your chest while simultaneously pulling your hips back and creating an angle to one side. As you retract, fight to strip at least one ankle grip by circling your foot and pulling sharply. Immediately transition to an alternative guard position such as butterfly guard by placing hooks inside their thighs, or create enough distance to reset your feet back on their hips. Never allow them to control both ankles while your hips remain flat and stationary.",
+        "answer_line": "Retract legs, angle, strip grip",
+        "distractors": {
+          "plausible": [
+            "Kick legs straight to break free",
+            "Push through their ankle grips"
+          ],
+          "trap": [
+            "Keep hips flat and wait"
+          ]
+        }
       },
       {
         "question": "What are the essential grips for maintaining an effective feet on hips guard?",
-        "answer": "Prioritize sleeve grips at the wrists or elbows, which allow you to control the opponent's ability to grab your legs and provide pulling power to coordinate with your leg frames. Secondary options include collar grips for posture control and to threaten chokes, or pants grips at the knees to prevent them from stepping around your frames. Always fight to establish grips before the opponent can secure their own passing grips on your ankles or pants."
+        "answer": "Prioritize sleeve grips at the wrists or elbows, which allow you to control the opponent's ability to grab your legs and provide pulling power to coordinate with your leg frames. Secondary options include collar grips for posture control and to threaten chokes, or pants grips at the knees to prevent them from stepping around your frames. Always fight to establish grips before the opponent can secure their own passing grips on your ankles or pants.",
+        "answer_line": "Sleeve grips are priority",
+        "distractors": {
+          "plausible": [
+            "Collar grip is priority here",
+            "Wait for them to grip first"
+          ],
+          "trap": [
+            "Grip their far pant leg"
+          ]
+        }
       },
       {
         "question": "How do you maintain hip elevation and why is this critical for guard retention?",
-        "answer": "Maintain hip elevation by engaging your core muscles and keeping a curved lower back, creating space between your lower back and the mat. This elevated position preserves your ability to rotate, angle, and move your hips freely. When hips flatten to the mat, you lose mobility and the opponent can settle their weight, pin your legs, and systematically advance their pass. The curved spine position also generates stronger pushing power through your leg frames."
+        "answer": "Maintain hip elevation by engaging your core muscles and keeping a curved lower back, creating space between your lower back and the mat. This elevated position preserves your ability to rotate, angle, and move your hips freely. When hips flatten to the mat, you lose mobility and the opponent can settle their weight, pin your legs, and systematically advance their pass. The curved spine position also generates stronger pushing power through your leg frames.",
+        "answer_line": "Curve back, lift hips off mat",
+        "distractors": {
+          "plausible": [
+            "Flatten hips for a stable base",
+            "Arch your neck to see better"
+          ],
+          "trap": [
+            "Relax hips flat to save energy"
+          ]
+        }
       },
       {
         "question": "The opponent begins circling laterally to your left side - how do you track their movement?",
-        "answer": "Walk your hips in the same direction they're moving by using your shoulders and feet to scoot your body, keeping your feet centered on their hips and your chest facing them squarely. Adjust your foot pressure by pushing slightly harder with your right foot to track their leftward movement. If you have sleeve grips, use them to pull their upper body back toward your centerline while your legs redirect their hips. Never allow them to achieve a perpendicular angle to your body."
+        "answer": "Walk your hips in the same direction they're moving by using your shoulders and feet to scoot your body, keeping your feet centered on their hips and your chest facing them squarely. Adjust your foot pressure by pushing slightly harder with your right foot to track their leftward movement. If you have sleeve grips, use them to pull their upper body back toward your centerline while your legs redirect their hips. Never allow them to achieve a perpendicular angle to your body.",
+        "answer_line": "Walk hips to match their circle",
+        "distractors": {
+          "plausible": [
+            "Stay still and let them circle",
+            "Circle away the opposite way"
+          ],
+          "trap": [
+            "Turn your back to reset angle"
+          ]
+        }
       },
       {
         "question": "What is the primary escape when the opponent begins driving forward with heavy pressure into your frames?",
-        "answer": "Use their forward momentum against them by pulling them even further forward with your grips while extending your legs to load their weight onto your feet. This creates the setup for sweeps like the scissor sweep or pendulum sweep. If the sweep opportunity passes, redirect their forward pressure to one side by angling your hips and extending one leg more than the other, creating space to recover to closed guard or transition to De La Riva guard on the side they're now committed toward."
+        "answer": "Use their forward momentum against them by pulling them even further forward with your grips while extending your legs to load their weight onto your feet. This creates the setup for sweeps like the scissor sweep or pendulum sweep. If the sweep opportunity passes, redirect their forward pressure to one side by angling your hips and extending one leg more than the other, creating space to recover to closed guard or transition to De La Riva guard on the side they're now committed toward.",
+        "answer_line": "Pull them forward, load sweep",
+        "distractors": {
+          "plausible": [
+            "Push back harder to stop them",
+            "Collapse legs to absorb force"
+          ],
+          "trap": [
+            "Release grips and turtle up"
+          ]
+        }
       },
       {
         "question": "How do you recover position after the opponent partially passes one foot off your hip?",
-        "answer": "Immediately hip escape away from the side where you've lost foot placement, creating space and preventing them from achieving chest-to-chest contact. Use your remaining foot on their hip to push and create distance while your free leg either resets to their hip or transitions to a hook position such as butterfly or De La Riva. Simultaneously use your grips to prevent them from advancing further and create pulling tension that helps you recover your guard structure. Speed and immediate reaction are critical - never accept a partial pass without fighting to recover."
+        "answer": "Immediately hip escape away from the side where you've lost foot placement, creating space and preventing them from achieving chest-to-chest contact. Use your remaining foot on their hip to push and create distance while your free leg either resets to their hip or transitions to a hook position such as butterfly or De La Riva. Simultaneously use your grips to prevent them from advancing further and create pulling tension that helps you recover your guard structure. Speed and immediate reaction are critical - never accept a partial pass without fighting to recover.",
+        "answer_line": "Hip escape away, reset frame",
+        "distractors": {
+          "plausible": [
+            "Push with both feet harder",
+            "Wait to see if it worsens"
+          ],
+          "trap": [
+            "Turn to the mat and stall"
+          ]
+        }
       },
       {
         "question": "You have been in feet on hips guard for over a minute and your legs are beginning to fatigue from constant pushing - how do you manage energy while maintaining guard effectiveness?",
-        "answer": "Alternate between full leg extension pushing and brief recovery periods where you bend your knees slightly while maintaining ball-of-foot contact on the hips. Use your grips to share the workload with your upper body rather than relying solely on leg frames for distance management. Create momentary rest windows by threatening sweep attempts that force the opponent to reset their grips and posture. If fatigue becomes critical, proactively transition to a lower-energy guard like closed guard or butterfly guard before your frames weaken to the point where the opponent can break through. The key is recognizing the threshold where diminishing frame strength makes the position untenable and transitioning early rather than holding on until your frames collapse entirely."
+        "answer": "Alternate between full leg extension pushing and brief recovery periods where you bend your knees slightly while maintaining ball-of-foot contact on the hips. Use your grips to share the workload with your upper body rather than relying solely on leg frames for distance management. Create momentary rest windows by threatening sweep attempts that force the opponent to reset their grips and posture. If fatigue becomes critical, proactively transition to a lower-energy guard like closed guard or butterfly guard before your frames weaken to the point where the opponent can break through. The key is recognizing the threshold where diminishing frame strength makes the position untenable and transitioning early rather than holding on until your frames collapse entirely.",
+        "answer_line": "Alternate push, rest, threaten sweep",
+        "distractors": {
+          "plausible": [
+            "Push at maximum the entire time",
+            "Release grips to shake out legs"
+          ],
+          "trap": [
+            "Fully relax legs to recover"
+          ]
+        }
+      }
+    ],
+    "clips": [
+      {
+        "id": "WzT_DVarJGE",
+        "title": "Foot in Hip Sweep",
+        "by": "Mark VanSchuyver",
+        "vertical": false,
+        "channel": "Mark VanSchuyver",
+        "duration": 59,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "Ung3A0olxus",
+        "title": "X-Choke from Feet on Hips Guard",
+        "by": "RKBJJ",
+        "vertical": false,
+        "channel": "RKBJJ Class Archive",
+        "duration": 145,
+        "verified": "2026-07-14"
       }
     ]
-  }
+  },
+  "flashcards_position": [
+    {
+      "question": "What structural configuration defines feet on hips guard and distinguishes it from other open guards?",
+      "answer": "Feet on hips guard is defined by the bottom player planting both feet on the opponent's hip bones (the anterior superior iliac spine landmarks) while the opponent stays elevated in combat base or standing. The extended legs act as bilateral pushing frames that hold the two players a fixed distance apart, preventing chest-to-chest contact and denying the passer a chance to settle weight. Unlike grip-dependent guards, its primary control comes from skeletal leg structure against bone rather than from hand grips. This makes it a distance-management guard rather than an entanglement or connection-based guard, keeping the engagement at leg-extension range for both players.",
+      "answer_line": "Feet on hips, legs as frames",
+      "distractors": {
+        "plausible": [
+          "Feet hooked behind their knees",
+          "Grips are the primary control"
+        ],
+        "trap": [
+          "Feet planted on their chest"
+        ]
+      }
+    },
+    {
+      "question": "Why are the hip bones the specific contact point rather than the thighs or stomach?",
+      "answer": "The anterior superior iliac spine offers a bony landmark that transmits pushing force skeleton-to-skeleton, so the frame holds with minimal muscular effort from the bottom player. Feet on the thighs slide and give the passer freedom to step through, while feet on the stomach can be deflected and offer no structural stop against forward pressure. Contacting the hips also directly governs the passer's ability to advance their hips, which is the unit that must arrive to complete any pass. Because it is the exact joint the passer needs to move forward, controlling it makes the frame both efficient to hold and difficult to circumvent.",
+      "answer_line": "Bone-on-bone blocks hip advance",
+      "distractors": {
+        "plausible": [
+          "Thighs give more surface area",
+          "Stomach is a more sensitive spot"
+        ],
+        "trap": [
+          "Feet on chest stop passes best"
+        ]
+      }
+    },
+    {
+      "question": "How is the distance between the two players established and governed in this position?",
+      "answer": "Distance is a direct function of the bottom player's leg extension, typically holding the torsos roughly twelve to eighteen inches apart at full frame. Extending the legs pushes the passer away and denies engagement, while allowing the knees to bend invites the passer to close the gap and load weight forward. Both players are therefore fighting over a single variable, which is whether the legs stay long or get collapsed. The passer wins by folding or clearing the frames to close distance, and the guard is preserved as long as the feet stay anchored on the hips at extension.",
+      "answer_line": "Leg extension sets the distance",
+      "distractors": {
+        "plausible": [
+          "Grip strength sets the distance",
+          "Opponent's base sets the distance"
+        ],
+        "trap": [
+          "Bend knees to hold the distance"
+        ]
+      }
+    },
+    {
+      "question": "What role does hip elevation and a curved lower back play in the mechanics of this position?",
+      "answer": "Keeping the hips off the mat with a curved lower back gives the bottom player the mobility to rotate, angle, and reposition the feet to track the opponent. This elevation also lets the leg frames push at a stronger upward-and-outward angle, since a flat pelvis can only push horizontally with far less structure. When the hips flatten to the mat, the frames weaken and the passer can begin pinning the legs and advancing. The elevated, mobile hip is thus the foundation that keeps the pushing frames live rather than static barriers that pressure eventually defeats.",
+      "answer_line": "Elevation gives mobility, angle",
+      "distractors": {
+        "plausible": [
+          "Elevation just looks aggressive",
+          "Flat hips give stronger push"
+        ],
+        "trap": [
+          "Flatten hips for max leg power"
+        ]
+      }
+    },
+    {
+      "question": "How do pushing and pulling forces combine to make this position dynamically active rather than static?",
+      "answer": "The legs supply pushing force against the hips while the hands, gripping sleeves, collar, or pants, supply an opposing pulling force on the upper body. When these forces are coordinated, they stretch the opponent between two points and break their posture and base, creating the off-balancing tension that drives sweeps and transitions. Pushing alone lets a balanced opponent simply ride the pressure, and pulling alone lets them step forward, so neither force is decisive in isolation. This push-pull coupling is what converts feet on hips from a passive stiff-arm into an active off-balancing engine.",
+      "answer_line": "Push legs, pull grips together",
+      "distractors": {
+        "plausible": [
+          "Pushing alone is enough",
+          "Pulling alone is enough"
+        ],
+        "trap": [
+          "Push with legs, release grips"
+        ]
+      }
+    },
+    {
+      "question": "Why is feet on hips guard best understood as a transitional hub rather than a resting position?",
+      "answer": "The leg frames create space and buy time, but they do not by themselves control the opponent's limbs or trap them, so a patient passer will eventually find a grip or angle to collapse a purely defensive frame. Held statically, the position slowly loses to persistent pressure and grip fighting. Its real strength is that leg-extension distance gives immediate access to a wide menu of adjacent guards and attacks, letting whoever holds the frame threaten constantly. The position is therefore a launch point that must feed into sweeps, submissions, or guard changes to remain effective for either player.",
+      "answer_line": "It's a launch point, not a rest",
+      "distractors": {
+        "plausible": [
+          "It's a strong static hold",
+          "Hold it until they submit"
+        ],
+        "trap": [
+          "Stall here to run the clock"
+        ]
+      }
+    },
+    {
+      "question": "Which adjacent guards does feet on hips most naturally connect to, and what triggers each transition?",
+      "answer": "Establishing sleeve grips while the feet are on the hips flows directly into spider guard, and adding a lasso hook builds lasso guard from the same frame. When the opponent advances or circles to one side, threading a hook behind their leg converts to De La Riva guard, while stepping close or attacking the ankles opens X-guard and single-leg X entries. If the opponent drops between the legs into combat base, the feet can drop to hooks for butterfly guard, and collapsing distance under forward drive recovers closed guard. This dense web of exits is exactly why the position functions as a central open-guard hub.",
+      "answer_line": "Spider, DLR, X-guard, butterfly",
+      "distractors": {
+        "plausible": [
+          "Only leads to closed guard",
+          "Only leads to half guard"
+        ],
+        "trap": [
+          "Kick them off to reset guard"
+        ]
+      }
+    },
+    {
+      "question": "What makes fighting for grips the pivotal contest that decides which player controls this position?",
+      "answer": "Whoever secures grips first dictates the coordinated force exchange, since grips supply the pulling half of the push-pull mechanic and let that player steer the opponent's upper body. If the bottom player wins sleeve or collar control, the leg frames become an off-balancing system that sets up sweeps; if the passer wins pants or ankle control, they can pin the legs and begin dismantling the frames. Both players are simultaneously trying to establish their own grips while denying the other's, making hand fighting inseparable from the foot frames. The grip battle therefore determines whether the extended legs function offensively or are neutralized into a barrier that can be passed.",
+      "answer_line": "Whoever grips first controls it",
+      "distractors": {
+        "plausible": [
+          "Foot placement alone decides it",
+          "Whoever is stronger wins it"
+        ],
+        "trap": [
+          "Ignore grips, focus on legs only"
+        ]
+      }
+    }
+  ],
+  "clips": [
+    {
+      "id": "OEzteWy4psQ",
+      "title": "Basic Guard: Feet to Hips",
+      "by": "Martial Arts Concepts",
+      "vertical": false,
+      "channel": "Martial Arts Concepts",
+      "duration": 102,
+      "verified": "2026-07-15"
+    },
+    {
+      "id": "yrU-DdcJBgY",
+      "title": "Open Guard Feet On The Hips Series: 2 Key Steps",
+      "by": "Nemesis Jiu Jitsu",
+      "vertical": false,
+      "channel": "Nemesis Jiu Jitsu",
+      "duration": 378,
+      "verified": "2026-07-15"
+    }
+  ]
 }

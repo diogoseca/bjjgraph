@@ -148,6 +148,43 @@ description: "How to defend against Gift Wrap to Back in BJJ. Recognition cues, 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Gift Wrap to Back (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Super Simple Way to Avoid the Gift Wrap",
+      "description": "Gift Wrap to Back (Defender) film study: Super Simple Way to Avoid the Gift Wrap, taught by Coach Brian.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/q20Bxge55hk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/q20Bxge55hk",
+      "url": "https://www.youtube.com/watch?v=q20Bxge55hk",
+      "creator": { "@type": "Person", "name": "Coach Brian" },
+      "duration": "PT719S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Back Escape: Stop the Progression to Mount",
+      "description": "Gift Wrap to Back (Defender) film study: Back Escape: Stop the Progression to Mount, taught by Plus One Defense Systems.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/MMuT666UdS4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/MMuT666UdS4",
+      "url": "https://www.youtube.com/watch?v=MMuT666UdS4",
+      "creator": { "@type": "Person", "name": "Plus One Defense Systems" },
+      "duration": "PT180S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -161,6 +198,34 @@ Defensive strategy centers on three priorities: preventing your arm from crossin
 **Opponent's Starting Position**: [[Positions/Mount/S Mount]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Gift Wrap to Back (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=q20Bxge55hk)
+
+<p class="clip-credit"><strong>Super Simple Way to Avoid the Gift Wrap</strong> — taught by Coach Brian · 11:59 · <a href="https://www.youtube.com/watch?v=q20Bxge55hk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=MMuT666UdS4)
+
+<p class="clip-credit"><strong>Back Escape: Stop the Progression to Mount</strong> — taught by Plus One Defense Systems · 3:00 · <a href="https://www.youtube.com/watch?v=MMuT666UdS4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

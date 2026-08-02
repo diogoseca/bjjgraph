@@ -34,6 +34,54 @@ description: "Master the Kimura from Half Guard in BJJ. Complete guide with safe
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Kimura from Half Guard \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Kimura from Bottom Half Guard",
+      "description": "Kimura from Half Guard film study: Kimura from Bottom Half Guard, taught by Evolve MMA.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/5F3ZM01oPVo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/5F3ZM01oPVo",
+      "url": "https://www.youtube.com/watch?v=5F3ZM01oPVo",
+      "creator": { "@type": "Person", "name": "Evolve MMA" },
+      "duration": "PT41S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Kimura Half Guard Bottom",
+      "description": "Kimura from Half Guard film study: Kimura Half Guard Bottom, taught by Georges St-Pierre.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/dgYwflmcxKk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/dgYwflmcxKk",
+      "url": "https://www.youtube.com/watch?v=dgYwflmcxKk",
+      "creator": { "@type": "Person", "name": "Georges St-Pierre" },
+      "duration": "PT72S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Kimura Trap Roll from Half Guard",
+      "description": "Kimura from Half Guard film study: Kimura Trap Roll from Half Guard, taught by Combat Arts.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/3scKusIPsC8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/3scKusIPsC8",
+      "url": "https://www.youtube.com/watch?v=3scKusIPsC8",
+      "creator": { "@type": "Person", "name": "Combat Arts" },
+      "duration": "PT51S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -54,7 +102,7 @@ description: "Master the Kimura from Half Guard in BJJ. Complete guide with safe
 <span class="meta-chip">Joint Lock</span>
 <span class="meta-chip">Shoulder Lock</span>
 <span class="meta-chip">Targets Shoulder joint and rotator cuff</span>
-<span class="meta-chip">62% success</span>
+<span class="meta-chip">22% success</span>
 </div>
 
 > [!danger] Safety
@@ -74,6 +122,42 @@ The **Kimura from Half Guard** is one of the most versatile shoulder locks in Br
 **Starting Position**: [[Positions/Half Guard]] · **From**: [[Positions/Half Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Kimura from Half Guard in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=5F3ZM01oPVo)
+
+<p class="clip-credit"><strong>Kimura from Bottom Half Guard</strong> — taught by Evolve MMA · 0:41 · <a href="https://www.youtube.com/watch?v=5F3ZM01oPVo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=dgYwflmcxKk)
+
+<p class="clip-credit"><strong>Kimura Half Guard Bottom</strong> — taught by Georges St-Pierre · 1:12 · <a href="https://www.youtube.com/watch?v=dgYwflmcxKk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=3scKusIPsC8)
+
+<p class="clip-credit"><strong>Kimura Trap Roll from Half Guard</strong> — taught by Combat Arts · 0:51 · <a href="https://www.youtube.com/watch?v=3scKusIPsC8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="outcomes" class="content-section">
 
@@ -252,12 +336,12 @@ The **Kimura from Half Guard** is one of the most versatile shoulder locks in Br
 - [[Submissions/Americana]]
 - [[Submissions/Far Side Armbar]]
 - [[Positions/Half Guard/Electric Chair]]
-- [[Transitions/Arm Triangle]]
+- [[Submissions/Arm Triangle]]
 - [[Submissions/High Elbow Guillotine]]
 - [[Submissions/Omoplata]]
 - [[Submissions/Triangle Choke]]
-- [[Transitions/Guillotine Choke]]
-- [[Transitions/Darce Choke]]
+- [[Submissions/Guillotine Choke]]
+- [[Submissions/Darce Choke]]
 - [[Transitions/Anaconda Choke]]
 - [[Submissions/Baratoplata]]
 - [[Transitions/Old School Sweep]] - Alternative half guard bottom attack using similar positional control and angle creation

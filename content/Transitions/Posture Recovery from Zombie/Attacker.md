@@ -180,6 +180,54 @@ description: "Master the systematic approach to recovering posture from the Zomb
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Posture Recovery from Zombie (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Free your trapped foot while passing half guard",
+      "description": "Posture Recovery from Zombie (Attacker) film study: Free your trapped foot while passing half guard, taught by Kameron Ross.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/kTSMGYlVJKY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/kTSMGYlVJKY",
+      "url": "https://www.youtube.com/watch?v=kTSMGYlVJKY",
+      "creator": { "@type": "Person", "name": "Kameron Ross" },
+      "duration": "PT55S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Passing the lockdown half guard",
+      "description": "Posture Recovery from Zombie (Attacker) film study: Passing the lockdown half guard, taught by Peter Mettler.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Y4eC_7dtzOA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Y4eC_7dtzOA",
+      "url": "https://www.youtube.com/watch?v=Y4eC_7dtzOA",
+      "creator": { "@type": "Person", "name": "Peter Mettler" },
+      "duration": "PT73S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Lockdown pass with the backstep",
+      "description": "Posture Recovery from Zombie (Attacker) film study: Lockdown pass with the backstep, taught by Peter Mettler.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ABSueJ6cwis/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ABSueJ6cwis",
+      "url": "https://www.youtube.com/watch?v=ABSueJ6cwis",
+      "creator": { "@type": "Person", "name": "Peter Mettler" },
+      "duration": "PT98S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -189,6 +237,42 @@ As the attacker executing Posture Recovery from Zombie, your objective is to sys
 **From Position**: [[Positions/Rubber Guard/Zombie]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Posture Recovery from Zombie (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=kTSMGYlVJKY)
+
+<p class="clip-credit"><strong>Free your trapped foot while passing half guard</strong> — taught by Kameron Ross · 0:55 · <a href="https://www.youtube.com/watch?v=kTSMGYlVJKY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Y4eC_7dtzOA)
+
+<p class="clip-credit"><strong>Passing the lockdown half guard</strong> — taught by Peter Mettler · 1:13 · <a href="https://www.youtube.com/watch?v=Y4eC_7dtzOA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ABSueJ6cwis)
+
+<p class="clip-credit"><strong>Lockdown pass with the backstep</strong> — taught by Peter Mettler · 1:38 · <a href="https://www.youtube.com/watch?v=ABSueJ6cwis" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

@@ -175,6 +175,54 @@ description: "How to execute Uchi Mata in BJJ. Attacking perspective with setup,
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Uchi Mata (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Uchi mata common mistake and the fix",
+      "description": "Uchi Mata (Attacker) film study: Uchi mata common mistake and the fix, taught by Shintaro Higashi.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/U1dmlERRyBE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/U1dmlERRyBE",
+      "url": "https://www.youtube.com/watch?v=U1dmlERRyBE",
+      "creator": { "@type": "Person", "name": "Shintaro Higashi" },
+      "duration": "PT105S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Deep step uchi mata, right vs left stance",
+      "description": "Uchi Mata (Attacker) film study: Deep step uchi mata, right vs left stance, taught by Sam King.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/mJnp6GdW8Ew/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/mJnp6GdW8Ew",
+      "url": "https://www.youtube.com/watch?v=mJnp6GdW8Ew",
+      "creator": { "@type": "Person", "name": "Sam King" },
+      "duration": "PT104S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Uchi mata demonstration",
+      "description": "Uchi Mata (Attacker) film study: Uchi mata demonstration, taught by Shintaro Higashi.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/_oz_t6B0Ctw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/_oz_t6B0Ctw",
+      "url": "https://www.youtube.com/watch?v=_oz_t6B0Ctw",
+      "creator": { "@type": "Person", "name": "Shintaro Higashi" },
+      "duration": "PT37S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <aside class="entity-relations">
@@ -187,6 +235,42 @@ The Uchi Mata (inner thigh throw) is one of judo's most powerful and versatile t
 **From Position**: [[Positions/Clinch]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Uchi Mata (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=U1dmlERRyBE)
+
+<p class="clip-credit"><strong>Uchi mata common mistake and the fix</strong> — taught by Shintaro Higashi · 1:45 · <a href="https://www.youtube.com/watch?v=U1dmlERRyBE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=mJnp6GdW8Ew)
+
+<p class="clip-credit"><strong>Deep step uchi mata, right vs left stance</strong> — taught by Sam King · 1:44 · <a href="https://www.youtube.com/watch?v=mJnp6GdW8Ew" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=_oz_t6B0Ctw)
+
+<p class="clip-credit"><strong>Uchi mata demonstration</strong> — taught by Shintaro Higashi · 0:37 · <a href="https://www.youtube.com/watch?v=_oz_t6B0Ctw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

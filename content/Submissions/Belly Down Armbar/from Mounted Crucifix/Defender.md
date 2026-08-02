@@ -142,6 +142,43 @@ description: "Defend and escape the belly down armbar from mounted crucifix. Rec
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Belly Down Armbar from Mounted Crucifix (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Armbar Defense and Stack Escape",
+      "description": "Belly Down Armbar from Mounted Crucifix (Defender) film study: Armbar Defense and Stack Escape, taught by Daniel Frank.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/zKieMBkGXxU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/zKieMBkGXxU",
+      "url": "https://www.youtube.com/watch?v=zKieMBkGXxU",
+      "creator": { "@type": "Person", "name": "Daniel Frank" },
+      "duration": "PT32S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Crucifix Escape",
+      "description": "Belly Down Armbar from Mounted Crucifix (Defender) film study: Crucifix Escape, taught by Mick Hall.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Wt2NW_hfTd0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Wt2NW_hfTd0",
+      "url": "https://www.youtube.com/watch?v=Wt2NW_hfTd0",
+      "creator": { "@type": "Person", "name": "Mick Hall" },
+      "duration": "PT228S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -152,6 +189,34 @@ Defending the belly down armbar from mounted crucifix requires recognizing the a
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Belly Down Armbar from Mounted Crucifix (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=zKieMBkGXxU)
+
+<p class="clip-credit"><strong>Armbar Defense and Stack Escape</strong> — taught by Daniel Frank · 0:32 · <a href="https://www.youtube.com/watch?v=zKieMBkGXxU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Wt2NW_hfTd0)
+
+<p class="clip-credit"><strong>Crucifix Escape</strong> — taught by Mick Hall · 3:48 · <a href="https://www.youtube.com/watch?v=Wt2NW_hfTd0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

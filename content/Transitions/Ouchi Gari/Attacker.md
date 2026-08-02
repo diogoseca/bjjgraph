@@ -175,6 +175,54 @@ description: "How to execute Ouchi Gari in BJJ. Attacking perspective with setup
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Ouchi Gari (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Misdirection Ouchi Gari setup",
+      "description": "Ouchi Gari (Attacker) film study: Misdirection Ouchi Gari setup, taught by Shintaro Higashi.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/XdOuXj1H0ok/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/XdOuXj1H0ok",
+      "url": "https://www.youtube.com/watch?v=XdOuXj1H0ok",
+      "creator": { "@type": "Person", "name": "Shintaro Higashi" },
+      "duration": "PT99S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Circular Ouchi Gari breakdown",
+      "description": "Ouchi Gari (Attacker) film study: Circular Ouchi Gari breakdown, taught by Matt D\u0027Aquino.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/7GwpZmQOJqU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/7GwpZmQOJqU",
+      "url": "https://www.youtube.com/watch?v=7GwpZmQOJqU",
+      "creator": { "@type": "Person", "name": "Matt D\u0027Aquino" },
+      "duration": "PT90S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Parlati\u0027s drop Ouchi Gari",
+      "description": "Ouchi Gari (Attacker) film study: Parlati\u0027s drop Ouchi Gari, taught by JudoCrazy.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/cd7Qv244XEA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/cd7Qv244XEA",
+      "url": "https://www.youtube.com/watch?v=cd7Qv244XEA",
+      "creator": { "@type": "Person", "name": "JudoCrazy" },
+      "duration": "PT32S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <aside class="entity-relations">
@@ -187,6 +235,42 @@ Ouchi Gari (major inner reaping throw) is a fundamental judo technique that has 
 **From Position**: [[Positions/Standing Position]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Ouchi Gari (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=XdOuXj1H0ok)
+
+<p class="clip-credit"><strong>Misdirection Ouchi Gari setup</strong> — taught by Shintaro Higashi · 1:39 · <a href="https://www.youtube.com/watch?v=XdOuXj1H0ok" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=7GwpZmQOJqU)
+
+<p class="clip-credit"><strong>Circular Ouchi Gari breakdown</strong> — taught by Matt D&#39;Aquino · 1:30 · <a href="https://www.youtube.com/watch?v=7GwpZmQOJqU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=cd7Qv244XEA)
+
+<p class="clip-credit"><strong>Parlati&#39;s drop Ouchi Gari</strong> — taught by JudoCrazy · 0:32 · <a href="https://www.youtube.com/watch?v=cd7Qv244XEA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

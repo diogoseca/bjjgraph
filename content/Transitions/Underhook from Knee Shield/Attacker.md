@@ -174,6 +174,54 @@ description: "Master the attacking mechanics of the Underhook from Knee Shield. 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Underhook from Knee Shield (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "3 underhook sweeps from knee shield",
+      "description": "Underhook from Knee Shield (Attacker) film study: 3 underhook sweeps from knee shield, taught by Kameron Ross.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/BCnjULrSSPw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/BCnjULrSSPw",
+      "url": "https://www.youtube.com/watch?v=BCnjULrSSPw",
+      "creator": { "@type": "Person", "name": "Kameron Ross" },
+      "duration": "PT38S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Half guard knee shield to the dogfight",
+      "description": "Underhook from Knee Shield (Attacker) film study: Half guard knee shield to the dogfight, taught by The Base Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/X4jR2wWOy2M/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/X4jR2wWOy2M",
+      "url": "https://www.youtube.com/watch?v=X4jR2wWOy2M",
+      "creator": { "@type": "Person", "name": "The Base Jiu Jitsu" },
+      "duration": "PT79S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Entering the underhook from knee shield vs 1 leg up",
+      "description": "Underhook from Knee Shield (Attacker) film study: Entering the underhook from knee shield vs 1 leg up, taught by Darragh O\u0027Conaill.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/OSToEZOVdr0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/OSToEZOVdr0",
+      "url": "https://www.youtube.com/watch?v=OSToEZOVdr0",
+      "creator": { "@type": "Person", "name": "Darragh O\u0027Conaill" },
+      "duration": "PT132S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -183,6 +231,42 @@ As the attacker executing the Underhook from Knee Shield, your objective is to c
 **From Position**: [[Positions/Half Guard/Knee Shield Half Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Underhook from Knee Shield (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=BCnjULrSSPw)
+
+<p class="clip-credit"><strong>3 underhook sweeps from knee shield</strong> — taught by Kameron Ross · 0:38 · <a href="https://www.youtube.com/watch?v=BCnjULrSSPw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=X4jR2wWOy2M)
+
+<p class="clip-credit"><strong>Half guard knee shield to the dogfight</strong> — taught by The Base Jiu Jitsu · 1:19 · <a href="https://www.youtube.com/watch?v=X4jR2wWOy2M" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=OSToEZOVdr0)
+
+<p class="clip-credit"><strong>Entering the underhook from knee shield vs 1 leg up</strong> — taught by Darragh O&#39;Conaill · 2:12 · <a href="https://www.youtube.com/watch?v=OSToEZOVdr0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

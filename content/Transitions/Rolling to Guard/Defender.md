@@ -148,6 +148,54 @@ description: "How to defend against Rolling to Guard in BJJ. Recognition cues, c
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Rolling to Guard (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Riding the turtle through to side control",
+      "description": "Rolling to Guard (Defender) film study: Riding the turtle through to side control, taught by Rickson Gracie.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/8YvYkGr5FIU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/8YvYkGr5FIU",
+      "url": "https://www.youtube.com/watch?v=8YvYkGr5FIU",
+      "creator": { "@type": "Person", "name": "Rickson Gracie" },
+      "duration": "PT47S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Dealing With the Roll From Turtle",
+      "description": "Rolling to Guard (Defender) film study: Dealing With the Roll From Turtle, taught by Aaron Benzrihem.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/WeKW5XTMUxY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/WeKW5XTMUxY",
+      "url": "https://www.youtube.com/watch?v=WeKW5XTMUxY",
+      "creator": { "@type": "Person", "name": "Aaron Benzrihem" },
+      "duration": "PT223S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Turtle Back Take and Roll-Through Counter",
+      "description": "Rolling to Guard (Defender) film study: Turtle Back Take and Roll-Through Counter, taught by Kieran Davern.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/9LCMzNQNR1U/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/9LCMzNQNR1U",
+      "url": "https://www.youtube.com/watch?v=9LCMzNQNR1U",
+      "creator": { "@type": "Person", "name": "Kieran Davern" },
+      "duration": "PT351S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +205,42 @@ As the defender against Rolling to Guard, you are the top player in turtle who m
 **Opponent's Starting Position**: [[Positions/Turtle]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Rolling to Guard (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=8YvYkGr5FIU)
+
+<p class="clip-credit"><strong>Riding the turtle through to side control</strong> — taught by Rickson Gracie · 0:47 · <a href="https://www.youtube.com/watch?v=8YvYkGr5FIU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=WeKW5XTMUxY)
+
+<p class="clip-credit"><strong>Dealing With the Roll From Turtle</strong> — taught by Aaron Benzrihem · 3:43 · <a href="https://www.youtube.com/watch?v=WeKW5XTMUxY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=9LCMzNQNR1U)
+
+<p class="clip-credit"><strong>Turtle Back Take and Roll-Through Counter</strong> — taught by Kieran Davern · 5:51 · <a href="https://www.youtube.com/watch?v=9LCMzNQNR1U" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

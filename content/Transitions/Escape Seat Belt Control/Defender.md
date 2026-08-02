@@ -140,6 +140,54 @@ description: "Learn to maintain seat belt back control against escape attempts. 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Escape Seat Belt Control (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Seatbelt grip quick fix",
+      "description": "Escape Seat Belt Control (Defender) film study: Seatbelt grip quick fix, taught by Ben Kool.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/MwxnveKrlxU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/MwxnveKrlxU",
+      "url": "https://www.youtube.com/watch?v=MwxnveKrlxU",
+      "creator": { "@type": "Person", "name": "Ben Kool" },
+      "duration": "PT62S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Maintaining the seatbelt grip in back control",
+      "description": "Escape Seat Belt Control (Defender) film study: Maintaining the seatbelt grip in back control, taught by Academy Jiu Jitsu coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Wga4PfuShEg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Wga4PfuShEg",
+      "url": "https://www.youtube.com/watch?v=Wga4PfuShEg",
+      "creator": { "@type": "Person", "name": "Academy Jiu Jitsu coach" },
+      "duration": "PT114S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Rear naked choke from seatbelt control",
+      "description": "Escape Seat Belt Control (Defender) film study: Rear naked choke from seatbelt control, taught by Gordon Ryan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/70jECxFfCSA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/70jECxFfCSA",
+      "url": "https://www.youtube.com/watch?v=70jECxFfCSA",
+      "creator": { "@type": "Person", "name": "Gordon Ryan" },
+      "duration": "PT73S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -149,6 +197,42 @@ The defender in the Escape Seat Belt Control context is the back controller work
 **Opponent's Starting Position**: [[Positions/Back Control/Seat Belt Control Back]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Escape Seat Belt Control (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=MwxnveKrlxU)
+
+<p class="clip-credit"><strong>Seatbelt grip quick fix</strong> — taught by Ben Kool · 1:02 · <a href="https://www.youtube.com/watch?v=MwxnveKrlxU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Wga4PfuShEg)
+
+<p class="clip-credit"><strong>Maintaining the seatbelt grip in back control</strong> — taught by Academy Jiu Jitsu coach · 1:54 · <a href="https://www.youtube.com/watch?v=Wga4PfuShEg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=70jECxFfCSA)
+
+<p class="clip-credit"><strong>Rear naked choke from seatbelt control</strong> — taught by Gordon Ryan · 1:13 · <a href="https://www.youtube.com/watch?v=70jECxFfCSA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

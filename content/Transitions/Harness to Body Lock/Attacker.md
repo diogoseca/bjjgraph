@@ -174,6 +174,54 @@ description: "How to execute the Harness to Body Lock transition in BJJ. Grip sw
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Harness to Body Lock (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Leg Switch Cutback From Rear Bodylock",
+      "description": "Harness to Body Lock (Attacker) film study: Leg Switch Cutback From Rear Bodylock, taught by Procel Brazilian Jiu-Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/2VCyaassiRI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/2VCyaassiRI",
+      "url": "https://www.youtube.com/watch?v=2VCyaassiRI",
+      "creator": { "@type": "Person", "name": "Procel Brazilian Jiu-Jitsu" },
+      "duration": "PT52S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Knee Tap From the Body Lock",
+      "description": "Harness to Body Lock (Attacker) film study: Knee Tap From the Body Lock, taught by SBG Athens.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/auRFQHVeQeo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/auRFQHVeQeo",
+      "url": "https://www.youtube.com/watch?v=auRFQHVeQeo",
+      "creator": { "@type": "Person", "name": "SBG Athens" },
+      "duration": "PT58S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Seatbelt to Body Lock Takedown",
+      "description": "Harness to Body Lock (Attacker) film study: Seatbelt to Body Lock Takedown, taught by Progressive FORCE Concepts.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/F6bTABR5b1U/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/F6bTABR5b1U",
+      "url": "https://www.youtube.com/watch?v=F6bTABR5b1U",
+      "creator": { "@type": "Person", "name": "Progressive FORCE Concepts" },
+      "duration": "PT114S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -183,6 +231,42 @@ Executing the Transition to Body Lock requires converting your harness grip from
 **From Position**: [[Positions/Harness]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Harness to Body Lock (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=2VCyaassiRI)
+
+<p class="clip-credit"><strong>Leg Switch Cutback From Rear Bodylock</strong> — taught by Procel Brazilian Jiu-Jitsu · 0:52 · <a href="https://www.youtube.com/watch?v=2VCyaassiRI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=auRFQHVeQeo)
+
+<p class="clip-credit"><strong>Knee Tap From the Body Lock</strong> — taught by SBG Athens · 0:58 · <a href="https://www.youtube.com/watch?v=auRFQHVeQeo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=F6bTABR5b1U)
+
+<p class="clip-credit"><strong>Seatbelt to Body Lock Takedown</strong> — taught by Progressive FORCE Concepts · 1:54 · <a href="https://www.youtube.com/watch?v=F6bTABR5b1U" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

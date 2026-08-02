@@ -34,6 +34,43 @@ description: "Master the Knee Slice from De La Riva Guard. Complete guide to DLR
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Knee Slice from DLR \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Passing De La Riva guard with the knee slide",
+      "description": "Knee Slice from DLR film study: Passing De La Riva guard with the knee slide, taught by Icon Jiu-Jitsu Team.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/8QnCpFYN0L8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/8QnCpFYN0L8",
+      "url": "https://www.youtube.com/watch?v=8QnCpFYN0L8",
+      "creator": { "@type": "Person", "name": "Icon Jiu-Jitsu Team" },
+      "duration": "PT31S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Knee slice pass against De La Riva guard",
+      "description": "Knee Slice from DLR film study: Knee slice pass against De La Riva guard, taught by Pound For Pound.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/WumNvXa4ueI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/WumNvXa4ueI",
+      "url": "https://www.youtube.com/watch?v=WumNvXa4ueI",
+      "creator": { "@type": "Person", "name": "Pound For Pound" },
+      "duration": "PT196S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +106,34 @@ What makes this pass particularly valuable in competition is its role as a chain
 **Success Rate**: 55%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Knee Slice from DLR in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=8QnCpFYN0L8)
+
+<p class="clip-credit"><strong>Passing De La Riva guard with the knee slide</strong> — taught by Icon Jiu-Jitsu Team · 0:31 · <a href="https://www.youtube.com/watch?v=8QnCpFYN0L8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=WumNvXa4ueI)
+
+<p class="clip-credit"><strong>Knee slice pass against De La Riva guard</strong> — taught by Pound For Pound · 3:16 · <a href="https://www.youtube.com/watch?v=WumNvXa4ueI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

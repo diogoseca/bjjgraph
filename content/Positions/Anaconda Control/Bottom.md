@@ -21,37 +21,37 @@ description: "Master defensive strategies for surviving Anaconda Control from bo
     {
       "@type": "HowToStep",
       "name": "Execute Defensive Roll",
-      "text": "From this position, attempt Defensive Roll. This technique is attempted in 40% of exchanges from this position.",
+      "text": "From this position, attempt Defensive Roll. This technique is attempted in 12% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Hip Escape to Guard",
-      "text": "From this position, attempt Hip Escape to Guard. This technique is attempted in 20% of exchanges from this position.",
+      "text": "From this position, attempt Hip Escape to Guard. This technique is attempted in 12% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Arm Extraction",
-      "text": "From this position, attempt Arm Extraction. This technique is attempted in 20% of exchanges from this position.",
+      "text": "From this position, attempt Arm Extraction. This technique is attempted in 19% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Anaconda Grip Break to Front Headlock",
-      "text": "From this position, attempt Anaconda Grip Break to Front Headlock. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Anaconda Grip Break to Front Headlock. This technique is attempted in 16% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Frame and Posture from Anaconda",
-      "text": "From this position, attempt Frame and Posture from Anaconda. This technique is attempted in 5% of exchanges from this position.",
+      "text": "From this position, attempt Frame and Posture from Anaconda. This technique is attempted in 21% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Roll Defense from Anaconda",
-      "text": "From this position, attempt Roll Defense from Anaconda. This technique is attempted in 3% of exchanges from this position.",
+      "text": "From this position, attempt Roll Defense from Anaconda. This technique is attempted in 12% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -153,6 +153,54 @@ description: "Master defensive strategies for surviving Anaconda Control from bo
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Anaconda Control (Bottom) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Anaconda choke defense",
+      "description": "Anaconda Control (Bottom) film study: Anaconda choke defense, taught by Mamba BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/N9MbEtAv_Lw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/N9MbEtAv_Lw",
+      "url": "https://www.youtube.com/watch?v=N9MbEtAv_Lw",
+      "creator": { "@type": "Person", "name": "Mamba BJJ" },
+      "duration": "PT62S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Anaconda defense plus counter",
+      "description": "Anaconda Control (Bottom) film study: Anaconda defense plus counter, taught by Cyril Robert.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/s94GexEkoQ0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/s94GexEkoQ0",
+      "url": "https://www.youtube.com/watch?v=s94GexEkoQ0",
+      "creator": { "@type": "Person", "name": "Cyril Robert" },
+      "duration": "PT43S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "How to escape the anaconda choke",
+      "description": "Anaconda Control (Bottom) film study: How to escape the anaconda choke, taught by ArtOfSayingGoodbye.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/At1_GDu4hSc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/At1_GDu4hSc",
+      "url": "https://www.youtube.com/watch?v=At1_GDu4hSc",
+      "creator": { "@type": "Person", "name": "ArtOfSayingGoodbye" },
+      "duration": "PT23S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -164,6 +212,42 @@ The bottom player's primary objectives are to prevent the choke from being locke
 This position often occurs during scrambles from turtle, failed takedown attempts, or transitions from other front headlock positions, and represents one of the most dangerous control positions in modern no-gi grappling. The defensive hierarchy must prioritize survival over escape: first prevent the choke from tightening, then create breathing space, and finally work systematic escape to guard or neutral position. Time is critical - once the position is fully locked, escape becomes exponentially more difficult.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Anaconda Control (Bottom) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=N9MbEtAv_Lw)
+
+<p class="clip-credit"><strong>Anaconda choke defense</strong> — taught by Mamba BJJ · 1:02 · <a href="https://www.youtube.com/watch?v=N9MbEtAv_Lw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=s94GexEkoQ0)
+
+<p class="clip-credit"><strong>Anaconda defense plus counter</strong> — taught by Cyril Robert · 0:43 · <a href="https://www.youtube.com/watch?v=s94GexEkoQ0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=At1_GDu4hSc)
+
+<p class="clip-credit"><strong>How to escape the anaconda choke</strong> — taught by ArtOfSayingGoodbye · 0:23 · <a href="https://www.youtube.com/watch?v=At1_GDu4hSc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

@@ -170,6 +170,54 @@ description: "Step-by-step guide to attacking with the Kimura from Kuzure Kesa-G
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Kimura from Kuzure Kesa-Gatame (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Transition from Kesa Gatame to Kimura",
+      "description": "Kimura from Kuzure Kesa-Gatame (Attacker) film study: Transition from Kesa Gatame to Kimura, taught by Strong Hold Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/d7ucks8aHN0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/d7ucks8aHN0",
+      "url": "https://www.youtube.com/watch?v=d7ucks8aHN0",
+      "creator": { "@type": "Person", "name": "Strong Hold Jiu Jitsu" },
+      "duration": "PT71S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Kimura from Scarf Hold",
+      "description": "Kimura from Kuzure Kesa-Gatame (Attacker) film study: Kimura from Scarf Hold, taught by Julie Bond.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/u80GDGC1Yno/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/u80GDGC1Yno",
+      "url": "https://www.youtube.com/watch?v=u80GDGC1Yno",
+      "creator": { "@type": "Person", "name": "Julie Bond" },
+      "duration": "PT35S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Kimura from Kesa",
+      "description": "Kimura from Kuzure Kesa-Gatame (Attacker) film study: Kimura from Kesa, taught by Vernon Kirk.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/-RyLUQSZZ1s/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/-RyLUQSZZ1s",
+      "url": "https://www.youtube.com/watch?v=-RyLUQSZZ1s",
+      "creator": { "@type": "Person", "name": "Vernon Kirk" },
+      "duration": "PT92S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -180,6 +228,42 @@ Attacking with the Kimura from Kuzure Kesa-Gatame leverages the position's built
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Kimura from Kuzure Kesa-Gatame (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=d7ucks8aHN0)
+
+<p class="clip-credit"><strong>Transition from Kesa Gatame to Kimura</strong> — taught by Strong Hold Jiu Jitsu · 1:11 · <a href="https://www.youtube.com/watch?v=d7ucks8aHN0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=u80GDGC1Yno)
+
+<p class="clip-credit"><strong>Kimura from Scarf Hold</strong> — taught by Julie Bond · 0:35 · <a href="https://www.youtube.com/watch?v=u80GDGC1Yno" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=-RyLUQSZZ1s)
+
+<p class="clip-credit"><strong>Kimura from Kesa</strong> — taught by Vernon Kirk · 1:32 · <a href="https://www.youtube.com/watch?v=-RyLUQSZZ1s" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

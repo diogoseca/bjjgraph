@@ -363,35 +363,115 @@
   "flashcards": [
     {
       "question": "What is the no-gi grip hierarchy that underpins control in this system?",
-      "answer": "From strongest to weakest: body lock, double underhooks, single underhook, wrist control, then collar tie. Competitors fight to climb this hierarchy because no-gi offers no fabric grips to anchor control, so position and pressure replace cloth."
+      "answer": "From strongest to weakest: body lock, double underhooks, single underhook, wrist control, then collar tie. Competitors fight to climb this hierarchy because no-gi offers no fabric grips to anchor control, so position and pressure replace cloth.",
+      "answer_line": "Body lock is the top grip",
+      "distractors": {
+        "plausible": [
+          "Wrist control is the top grip",
+          "Single underhook beats body lock"
+        ],
+        "trap": [
+          "Collar tie is strongest control"
+        ]
+      }
     },
     {
       "question": "Why are leg entanglements treated as a primary system rather than a secondary attack in no-gi competition?",
-      "answer": "On a low-friction surface, entanglements like inside ashi-garami and saddle deliver reliable control points and high-percentage heel hook finishes, functioning simultaneously as a control mechanism and a submission platform when conventional grips slip."
+      "answer": "On a low-friction surface, entanglements like inside ashi-garami and saddle deliver reliable control points and high-percentage heel hook finishes, functioning simultaneously as a control mechanism and a submission platform when conventional grips slip.",
+      "answer_line": "Control point AND submission threat",
+      "distractors": {
+        "plausible": [
+          "Only useful as backup entry",
+          "Purely a control position"
+        ],
+        "trap": [
+          "Abandon leg for upper body grips"
+        ]
+      }
     },
     {
       "question": "How should pacing and energy be managed across a no-gi match?",
-      "answer": "Use structured intensity zones: explode during scrambles and dominant-position advances, then consolidate in low-energy holding positions to recover. This avoids the mid-round energy depletion that forces defensive posturing late in the match."
+      "answer": "Use structured intensity zones: explode during scrambles and dominant-position advances, then consolidate in low-energy holding positions to recover. This avoids the mid-round energy depletion that forces defensive posturing late in the match.",
+      "answer_line": "Explode scrambles, rest in control",
+      "distractors": {
+        "plausible": [
+          "Push constant high pace all match",
+          "Rest during scrambles, push control"
+        ],
+        "trap": [
+          "Sprint hard the entire match"
+        ]
+      }
     },
     {
       "question": "What makes back control the highest-value position in the No-Gi Competition Approach?",
-      "answer": "Back control combines maximum control with the lowest-risk, highest-percentage finish (the rear naked choke) and is reachable from standing, guard, turtle, front headlock, and leg entanglements, making it the central target of the game plan."
+      "answer": "Back control combines maximum control with the lowest-risk, highest-percentage finish (the rear naked choke) and is reachable from standing, guard, turtle, front headlock, and leg entanglements, making it the central target of the game plan.",
+      "answer_line": "Best control, safest finish",
+      "distractors": {
+        "plausible": [
+          "Only reachable from turtle",
+          "Mount gives better finish odds"
+        ],
+        "trap": [
+          "Skip back, attack legs instead"
+        ]
+      }
     },
     {
       "question": "What submissions and transitions flow from the front headlock series?",
-      "answer": "The front headlock hub feeds guillotines, darce and anaconda chokes, arm triangles, snap-downs to back takes, and entries to side control, with the choice to finish or transition dictated by the opponent's defensive reaction."
+      "answer": "The front headlock hub feeds guillotines, darce and anaconda chokes, arm triangles, snap-downs to back takes, and entries to side control, with the choice to finish or transition dictated by the opponent's defensive reaction.",
+      "answer_line": "Feeds guillotine, darce, anaconda",
+      "distractors": {
+        "plausible": [
+          "Solely a side-control entry",
+          "Always finish, never transition"
+        ],
+        "trap": [
+          "Drop the head, opponent takes back"
+        ]
+      }
     },
     {
       "question": "Why does the system emphasize submission chains over isolated finishing attempts?",
-      "answer": "Chaining links each threat to the opponent's likely defense, so a defended attack opens the next one. Isolated attempts let skilled opponents reset, while chains sustain continuous pressure and meaningfully raise finishing rates."
+      "answer": "Chaining links each threat to the opponent's likely defense, so a defended attack opens the next one. Isolated attempts let skilled opponents reset, while chains sustain continuous pressure and meaningfully raise finishing rates.",
+      "answer_line": "Chained attacks sustain pressure",
+      "distractors": {
+        "plausible": [
+          "One perfect attempt beats chains",
+          "Isolated attacks confuse more"
+        ],
+        "trap": [
+          "Reset position after each defense"
+        ]
+      }
     },
     {
       "question": "What is the most common mistake when transitioning from gi to no-gi competition?",
-      "answer": "Over-relying on gi-based gripping strategies that no longer work without fabric, instead of rebuilding control around underhooks, overhooks, body locks, and constant forward pressure adapted to the slippery, faster-moving environment."
+      "answer": "Over-relying on gi-based gripping strategies that no longer work without fabric, instead of rebuilding control around underhooks, overhooks, body locks, and constant forward pressure adapted to the slippery, faster-moving environment.",
+      "answer_line": "Relying on old gi-style grips",
+      "distractors": {
+        "plausible": [
+          "Too much forward pressure",
+          "Overusing underhooks early"
+        ],
+        "trap": [
+          "Keep grabbing collar and sleeves"
+        ]
+      }
     },
     {
       "question": "How should tactical adjustments differ when ahead versus behind late in a match?",
-      "answer": "When ahead on points, prioritize position maintenance, defensive awareness, and visible activity to avoid stalling penalties; when behind, raise risk tolerance and submission output while pressuring the opponent's fatigue to force errors."
+      "answer": "When ahead on points, prioritize position maintenance, defensive awareness, and visible activity to avoid stalling penalties; when behind, raise risk tolerance and submission output while pressuring the opponent's fatigue to force errors.",
+      "answer_line": "Ahead: control; behind: attack",
+      "distractors": {
+        "plausible": [
+          "Ahead: attack more, behind: stall",
+          "Behind: play defense, wait it out"
+        ],
+        "trap": [
+          "Always play max risk regardless"
+        ]
+      }
     }
   ]
 }

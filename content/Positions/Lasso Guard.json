@@ -79,51 +79,87 @@
     "transitions": [
       {
         "transition": "Lasso Guard Pass",
-        "attempt_probability": 15
+        "attempt_probability": {
+          "gi": 14,
+          "nogi": 15
+        }
       },
       {
         "transition": "Stack Pass",
-        "attempt_probability": 10
+        "attempt_probability": {
+          "gi": 12,
+          "nogi": 12
+        }
       },
       {
         "transition": "Knee Slice Pass",
-        "attempt_probability": 34
+        "attempt_probability": {
+          "gi": 13,
+          "nogi": 14
+        }
       },
       {
         "transition": "Smash Pass",
-        "attempt_probability": 8
+        "attempt_probability": {
+          "gi": 12,
+          "nogi": 11
+        }
       },
       {
         "transition": "Toreando Pass",
-        "attempt_probability": 8
+        "attempt_probability": {
+          "gi": 8,
+          "nogi": 10
+        }
       },
       {
         "transition": "Long Step Pass",
-        "attempt_probability": 3
+        "attempt_probability": {
+          "gi": 6,
+          "nogi": 6
+        }
       },
       {
         "transition": "Leg Weave Pass",
-        "attempt_probability": 8
+        "attempt_probability": {
+          "gi": 11,
+          "nogi": 9
+        }
       },
       {
         "transition": "Kimura from Lasso Guard",
-        "attempt_probability": 3
+        "attempt_probability": {
+          "gi": 3,
+          "nogi": 3
+        }
       },
       {
         "transition": "Body Lock Pass",
-        "attempt_probability": 6
+        "attempt_probability": {
+          "gi": 5,
+          "nogi": 8
+        }
       },
       {
         "transition": "Spider Guard Pass",
-        "attempt_probability": 3
+        "attempt_probability": {
+          "gi": 5,
+          "nogi": 3
+        }
       },
       {
         "transition": "Lasso Guard Backstep Pass",
-        "attempt_probability": 1
+        "attempt_probability": {
+          "gi": 6,
+          "nogi": 5
+        }
       },
       {
         "transition": "Lasso Guard Stack Pass",
-        "attempt_probability": 1
+        "attempt_probability": {
+          "gi": 5,
+          "nogi": 4
+        }
       }
     ],
     "decision_tree": [
@@ -313,6 +349,35 @@
       "systematic passing approach",
       "stack passing variations",
       "competition guard passing"
+    ],
+    "clips": [
+      {
+        "id": "Cx53Xl0SGC4",
+        "title": "Lasso Guard Knee Press Pass",
+        "by": "Roll 247",
+        "vertical": false,
+        "channel": "Roll 247",
+        "duration": 27,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "qIESyGHwDgs",
+        "title": "Destroying the Lasso Guard - Pass Details",
+        "by": "Gustavo Batista",
+        "vertical": false,
+        "channel": "Bernardo Faria BJJ Fanatics",
+        "duration": 257,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "Cwpk8obMtkE",
+        "title": "Over Under Pass Against Spider Lasso Guard",
+        "by": "Bernardo Faria",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 286,
+        "verified": "2026-07-15"
+      }
     ]
   },
   "bottom": {
@@ -348,59 +413,94 @@
     "transitions": [
       {
         "transition": "Sickle Sweep",
-        "attempt_probability": 24
+        "attempt_probability": {
+          "gi": 10,
+          "nogi": 13
+        }
       },
       {
         "transition": "Triangle Setup",
-        "attempt_probability": 15
+        "attempt_probability": {
+          "gi": 12,
+          "nogi": 16
+        }
       },
       {
         "transition": "Omoplata Sweep",
-        "attempt_probability": 13
+        "attempt_probability": {
+          "gi": 9,
+          "nogi": 10
+        }
       },
       {
         "transition": "De La Riva Sweep",
-        "attempt_probability": 8
+        "attempt_probability": {
+          "gi": 9,
+          "nogi": 11
+        }
       },
       {
         "transition": "Omoplata from Lasso",
-        "attempt_probability": 9
+        "attempt_probability": {
+          "gi": 13,
+          "nogi": 10
+        }
       },
       {
         "transition": "Hook Sweep",
-        "attempt_probability": 5
+        "attempt_probability": {
+          "gi": 7,
+          "nogi": 11
+        }
       },
       {
         "transition": "Lasso Sweep",
-        "attempt_probability": 7
+        "attempt_probability": {
+          "gi": 15,
+          "nogi": 6
+        }
       },
       {
         "transition": "X-Guard Sweep",
-        "attempt_probability": 5
+        "attempt_probability": {
+          "gi": 6,
+          "nogi": 10
+        }
       },
       {
         "transition": "Berimbolo Entry",
-        "attempt_probability": 3
+        "attempt_probability": {
+          "gi": 4,
+          "nogi": 2
+        }
       },
       {
         "transition": "Lasso Guard to Inverted Lasso Guard",
-        "attempt_probability": 3
-      },
-      {
-        "transition": "Armbar on Free Arm",
-        "attempt_probability": 2
+        "attempt_probability": {
+          "gi": 5,
+          "nogi": 1
+        }
       },
       {
         "transition": "Kimura Sweep",
-        "attempt_probability": 2
+        "attempt_probability": {
+          "gi": 4,
+          "nogi": 7
+        }
       },
       {
         "transition": "Lasso Guard to Russian Leg Lasso",
-        "attempt_probability": 2
+        "attempt_probability": {
+          "gi": 3,
+          "nogi": 1
+        }
       },
       {
         "transition": "Belly Down Armbar from Lasso Guard",
-        "attempt_probability": 2
+        "attempt_probability": {
+          "gi": 3,
+          "nogi": 2
+        }
       }
     ],
     "decision_tree": [
@@ -594,6 +694,278 @@
       "triangle entries from lasso",
       "omoplata setups",
       "competition guard systems"
+    ],
+    "clips": [
+      {
+        "id": "LwnoWDFJlN0",
+        "title": "Open Guard to Lasso Sweep",
+        "by": "Lucas Lepri",
+        "vertical": false,
+        "channel": "Lucas Lepri Brazilian Jiu Jitsu & Fitness",
+        "duration": 44,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "K4n_MQnR08c",
+        "title": "Lasso Guard to Arm Drag Sweep",
+        "by": "Xande Ribeiro",
+        "vertical": false,
+        "channel": "Riccardo Ammendolia",
+        "duration": 150,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "nHW1Sxvh_rI",
+        "title": "Lasso Guard Arm Drag to the Back",
+        "by": "OMJJJ",
+        "vertical": false,
+        "channel": "OMJJJ",
+        "duration": 79,
+        "verified": "2026-07-14"
+      }
     ]
-  }
+  },
+  "flashcards_family": [
+    {
+      "question": "What core mechanism defines every variant of the Lasso Guard family?",
+      "answer": "Every lasso variant threads a shin around the outside of the opponent's arm, between the elbow and shoulder against the tricep, while the same-side hand grips that arm's sleeve. This leg-threading is what separates lasso from an ordinary sleeve-and-foot spider grip: the wrapped shin converts a simple grip into a mechanical trap that loads the shoulder. The trapped limb can no longer post freely for base or establish passing grips, so one entire side of the opponent's body is neutralized. Whether played upright, inverted, or as a double-leg Russian lasso, this shin-over-arm plus sleeve-pull relationship is the constant.",
+      "answer_line": "Shin traps arm, sleeve grips",
+      "distractors": {
+        "plausible": [
+          "Foot posts on bicep for frame",
+          "Overhook the arm at the wrist"
+        ],
+        "trap": [
+          "Grip the collar, ignore the arm"
+        ]
+      }
+    },
+    {
+      "question": "Why does the lasso create such a powerful lever against the opponent's shoulder?",
+      "answer": "The lasso builds a fulcrum by opposing two forces across the shoulder joint: the sleeve grip pulls the arm inward and down toward your chest while the threaded shin pushes the tricep outward and up. Because these forces act on opposite sides of the joint, they rotate the shoulder rather than simply resisting it, which is far harder to power through than a straight pull. This rotational loading is why a smaller player can stall a much stronger opponent from any lasso variant. The opponent cannot square their hips or drive forward pressure while their shoulder is being torqued out of alignment.",
+      "answer_line": "Sleeve pulls in, shin pushes out",
+      "distractors": {
+        "plausible": [
+          "Both grips pull the same way",
+          "Shin drives straight down"
+        ],
+        "trap": [
+          "Release sleeve, grab collar instead"
+        ]
+      }
+    },
+    {
+      "question": "How does distance management underpin the entire lasso family regardless of variant?",
+      "answer": "The lasso itself controls one arm, but it is the non-lasso leg that governs the gap between you and the opponent. Posting the free foot on the hip, bicep, or hooking the far leg prevents the opponent from closing distance and stacking their weight onto the trapped structure. Without this distance frame, the opponent can collapse the lasso by driving forward and smashing, no matter how tight the sleeve grip is. Every variant therefore pairs the arm-trapping lasso with an active second point that dictates range, making it a two-limb control system rather than a single grip.",
+      "answer_line": "Free leg posts to hold distance",
+      "distractors": {
+        "plausible": [
+          "Free leg wraps opponent's back",
+          "Both legs thread the same arm"
+        ],
+        "trap": [
+          "Drop the free leg, close guard"
+        ]
+      }
+    },
+    {
+      "question": "Why is perpendicular hip angle a shared requirement across all lasso variations?",
+      "answer": "Keeping the hips angled perpendicular to the opponent's centerline aligns your sweeping vectors with the direction the opponent is weakest, while denying them a flat surface to settle their weight onto. When the hips go flat and square, the opponent can stack downward and the lasso's leverage collapses into a compression the passer can smash through. The perpendicular angle keeps the shin's outward push and the sleeve's inward pull working on the shoulder rather than being flattened out. This is why constant hip mobility, alongside sustained grip tension, is what keeps the position alive across every variant.",
+      "answer_line": "Angle hips perpendicular, not flat",
+      "distractors": {
+        "plausible": [
+          "Square hips to opponent's chest",
+          "Angle hips away from opponent"
+        ],
+        "trap": [
+          "Flatten hips to add pressure"
+        ]
+      }
+    },
+    {
+      "question": "What universal dilemma does the lasso impose on a passer in any variant?",
+      "answer": "The lasso forces a bind between posture and safety that has no clean answer. If the opponent stays upright to protect their base, their broken posture and loaded shoulder expose them to off-balancing sweeps. If they drive forward to kill the sweep angle and pressure pass, they feed their posture into triangle, omoplata, and armbar entries. Because the same control threatens both a sweep and a submission, every defensive choice opens the other line of attack. This two-horned threat, not any single technique, is what makes the family high-percentage.",
+      "answer_line": "Sweep if tall, submission if forward",
+      "distractors": {
+        "plausible": [
+          "Only defends the sweep threat",
+          "Only defends submission threat"
+        ],
+        "trap": [
+          "Drive forward to smash the guard"
+        ]
+      }
+    },
+    {
+      "question": "Why must secondary grips support the lasso in every variant of the family?",
+      "answer": "The lasso dominates one arm, but the opponent's free hand and free-side movement remain live threats that can strip grips or begin a pass. Establishing a secondary control point, such as a collar, lapel, or opposite-sleeve grip, creates multiple simultaneous anchors so the opponent cannot solve the position by defeating a single point. These layered grips also let you off-balance in more directions, since you can pull on two lines at once rather than only through the lasso. A lasso played in isolation is brittle; a lasso backed by a supporting grip is a connected system.",
+      "answer_line": "Add a second grip anchor",
+      "distractors": {
+        "plausible": [
+          "Grip both sleeves for symmetry",
+          "Free hand blocks the pass alone"
+        ],
+        "trap": [
+          "Release lasso to free your hands"
+        ]
+      }
+    },
+    {
+      "question": "What shared vulnerability does committing a leg to the lasso create, and how does it shape sound play?",
+      "answer": "Threading the shin over the arm commits a leg to a fixed position, which trades mobility for control and leaves you exposed to passers who step over the lasso leg, drive the knee through, or attack the extended limb. Because that leg is invested, a lasso player must read counters early and be willing to abandon the position before it is fully defeated rather than fighting from a collapsed structure. Sound lasso play therefore treats the position as a dynamic hub that flows to spider guard, De La Riva, X-guard, or an inversion the moment the trap is compromised. Recognizing when to keep the lasso versus when to release it separates control from stubbornness across every variant.",
+      "answer_line": "Release lasso before it's passed",
+      "distractors": {
+        "plausible": [
+          "Fight to keep the lasso locked",
+          "Hold the trap until it's swept"
+        ],
+        "trap": [
+          "Keep both legs invested longer"
+        ]
+      }
+    }
+  ],
+  "flashcards_position": [
+    {
+      "question": "What structural configuration defines Lasso Guard and separates it from an ordinary sleeve grip?",
+      "answer": "Lasso Guard is defined by the bottom player threading a shin around the outside of the opponent's arm, wrapping the limb between the elbow and shoulder, while gripping the same-side sleeve. An ordinary sleeve grip only tethers the hand and can be circled around or stripped, but the threaded shin physically encircles the arm so the limb cannot be pulled free without first clearing the leg. The sleeve pull toward the chest and the shin behind the tricep act as opposing forces, converting a flat grip into a shoulder-loading trap. The result is asymmetric dominance over one side of the opponent's body that dictates distance and posture for both players.",
+      "answer_line": "Shin encircles arm plus sleeve",
+      "distractors": {
+        "plausible": [
+          "Sleeve grip with foot on hip",
+          "Underhook the arm and sleeve"
+        ],
+        "trap": [
+          "Grip wrist instead of sleeve"
+        ]
+      }
+    },
+    {
+      "question": "Where are the primary control points that hold Lasso Guard together for both players?",
+      "answer": "There are two coupled control points: the sleeve grip on the trapped arm and the shin wrapped around the outside of that same arm above the elbow. The sleeve pulls the limb toward the bottom player's chest while the shin drives against the tricep in the opposite direction, forming a fulcrum across the opponent's shoulder joint. A common third point is a secondary grip on the collar, lapel, or pants that anchors the configuration and prevents the opponent from freeing space. If either the sleeve or the shin releases, the lasso opens and the fulcrum collapses, which is why both control points must stay under tension simultaneously.",
+      "answer_line": "Sleeve grip and wrapped shin",
+      "distractors": {
+        "plausible": [
+          "Two hands gripping the sleeve",
+          "Shin hook plus overhook grip"
+        ],
+        "trap": [
+          "Grip the belt, ignore the arm"
+        ]
+      }
+    },
+    {
+      "question": "How does the fulcrum in Lasso Guard mechanically load the opponent's shoulder?",
+      "answer": "The wrapped shin and the sleeve grip pull in opposite directions across the shoulder joint, so the arm becomes a lever the bottom player can rotate. Pulling the sleeve toward the chest while extending the shin against the tricep torques the shoulder and steals the opponent's ability to post that arm. Because the trapped arm can no longer bear weight or establish grips, the top player loses one of the two limbs they rely on for base and pressure. This one-sided joint loading is what forces the opponent into predictable, reactive posture rather than free movement.",
+      "answer_line": "Opposing pulls torque the shoulder",
+      "distractors": {
+        "plausible": [
+          "Both forces push the same way",
+          "Shin alone controls the shoulder"
+        ],
+        "trap": [
+          "Pull the arm straight to the mat"
+        ]
+      }
+    },
+    {
+      "question": "Why is hip angle and mobility so critical to the dynamics of Lasso Guard?",
+      "answer": "The lasso only generates sweep leverage when the bottom player's hips stay angled perpendicular to the opponent's centerline rather than square and flat. A perpendicular angle keeps the fulcrum across the shoulder alive and opens the off-balancing vectors that make sweeps available, while flat hips let the top player settle their weight straight down and neutralize the lever. For the top player the shared consequence is the opposite goal: squaring the hips up, stacking, or pinning the bottom player flat reduces the angle and defuses the position. Both players are therefore fighting over the same variable, the perpendicular hip angle, which makes hip mobility the central dynamic of the exchange.",
+      "answer_line": "Perpendicular hips keep leverage",
+      "distractors": {
+        "plausible": [
+          "Square hips create sweep angles",
+          "Hip angle only matters standing"
+        ],
+        "trap": [
+          "Flatten hips to stay heavy"
+        ]
+      }
+    },
+    {
+      "question": "What role does the non-lasso leg play in the shared mechanics of Lasso Guard?",
+      "answer": "The non-lasso leg is the distance-management limb that keeps the configuration stable while the lasso leg stays committed to the trap. It posts on the hip or bicep to prevent the opponent from closing distance and driving forward, hooks the opposite leg to stop them from circling around the lasso, or establishes a secondary connection such as a De La Riva hook. Without this second leg actively working, the opponent can simply pressure into the gap or step around, collapsing the perpendicular angle the lasso depends on. The interplay between the committed lasso leg and the mobile free leg is what lets the position control distance and posture at the same time.",
+      "answer_line": "Free leg manages the distance",
+      "distractors": {
+        "plausible": [
+          "Free leg also threads the arm",
+          "Free leg stays passive at hip"
+        ],
+        "trap": [
+          "Tuck the free leg under you"
+        ]
+      }
+    },
+    {
+      "question": "How does Lasso Guard differ from spider guard despite sharing sleeve-based control?",
+      "answer": "Both positions rely on a sleeve grip and manage distance through the legs, but the mechanism of leg contact is fundamentally different. Spider guard posts the sole of the foot on the bicep, creating a push frame that can be retracted or repositioned instantly, favoring mobility and rapid angle changes. Lasso guard instead threads the shin around the outside of the arm, wrapping and trapping the limb, which trades that mobility for a deeper shoulder-loading trap and stronger sweep leverage. This is why the two are frequently chained together, with a spider grip converting into a lasso by threading the leg through when the bottom player wants to commit to heavier control.",
+      "answer_line": "Lasso wraps the arm, not pushes",
+      "distractors": {
+        "plausible": [
+          "Lasso pushes with the foot",
+          "Spider wraps the arm fully"
+        ],
+        "trap": [
+          "Retract the leg like spider guard"
+        ]
+      }
+    },
+    {
+      "question": "What inherent trade-off does the lasso configuration create for the position as a whole?",
+      "answer": "The lasso gains its dominant one-arm control by fully committing the bottom player's leg into the wrap, which is simultaneously its greatest vulnerability. Because the leg is threaded rather than posted, it cannot retract quickly, so passing methods that step over the lasso leg or drive the knee through can exploit that commitment. This means the position offers tremendous asymmetric leverage over one shoulder in exchange for reduced escapability of the entangled limb. The shared dynamic is a race: the bottom player must convert the leverage into a sweep or submission before the top player exploits the committed leg to clear it.",
+      "answer_line": "Leverage traded for leg mobility",
+      "distractors": {
+        "plausible": [
+          "Leg stays free to retreat",
+          "Trap costs only grip strength"
+        ],
+        "trap": [
+          "Hold the lasso indefinitely"
+        ]
+      }
+    },
+    {
+      "question": "What happens to the configuration when the opponent's posture breaks forward versus when they stay tall?",
+      "answer": "Lasso Guard operates as a dual-threat dilemma driven by the opponent's posture. When the top player's posture breaks forward into the lasso, the trapped shoulder and bent posture open submission geometry such as triangle, omoplata, and armbar angles. When the top player stays tall and upright to avoid those submissions, they surrender base and expose themselves to off-balancing sweeps that exploit the perpendicular angle. Because each defensive posture opens the other line of attack, the opponent cannot simultaneously defend both, and this posture-dependent fork is the core shared dynamic that makes the position high-percentage.",
+      "answer_line": "Forward = submission, tall = swept",
+      "distractors": {
+        "plausible": [
+          "Forward only risks the sweep",
+          "Tall posture avoids both threats"
+        ],
+        "trap": [
+          "Stay tall to dodge everything"
+        ]
+      }
+    }
+  ],
+  "clips": [
+    {
+      "id": "LwnoWDFJlN0",
+      "title": "Open Guard to Lasso Sweep",
+      "by": "Lucas Lepri",
+      "vertical": false,
+      "channel": "Lucas Lepri Brazilian Jiu Jitsu & Fitness",
+      "duration": 44,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "3zM3gZsUPWc",
+      "title": "Lasso Sweep from Closed Guard",
+      "by": "Ralph Gracie BJJ",
+      "vertical": false,
+      "channel": "Ralph Gracie BJJ - San Jose & Santa Clara",
+      "duration": 39,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "K4n_MQnR08c",
+      "title": "Lasso Guard to Arm Drag Sweep",
+      "by": "Xande Ribeiro",
+      "vertical": false,
+      "channel": "Riccardo Ammendolia",
+      "duration": 150,
+      "verified": "2026-07-14"
+    }
+  ]
 }

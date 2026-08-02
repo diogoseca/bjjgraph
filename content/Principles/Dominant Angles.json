@@ -373,39 +373,158 @@
   "flashcards": [
     {
       "question": "What defines a dominant angle in BJJ?",
-      "answer": "A dominant angle is an off-axis position—perpendicular or diagonal to the opponent's alignment—that places your force outside their strongest defensive structure while compromising their base."
+      "answer": "A dominant angle is an off-axis position—perpendicular or diagonal to the opponent's alignment—that places your force outside their strongest defensive structure while compromising their base.",
+      "answer_line": "Off-axis, outside their defense",
+      "distractors": {
+        "plausible": [
+          "Any change of body direction",
+          "Angle relative to your own base"
+        ],
+        "trap": [
+          "Squaring up to match their base"
+        ]
+      }
     },
     {
       "question": "Why is moving perpendicular to an opponent's pressure more effective than resisting it directly?",
-      "answer": "Perpendicular movement avoids meeting force head-on, redirecting the opponent's energy and placing your leverage where their structure is weakest, so you spend far less energy for greater positional displacement."
+      "answer": "Perpendicular movement avoids meeting force head-on, redirecting the opponent's energy and placing your leverage where their structure is weakest, so you spend far less energy for greater positional displacement.",
+      "answer_line": "Redirects force, less energy",
+      "distractors": {
+        "plausible": [
+          "Blocks their force completely",
+          "Matches their strength directly"
+        ],
+        "trap": [
+          "Push straight into their pressure"
+        ]
+      }
     },
     {
       "question": "What is the most common error when creating angles, and how do you correct it?",
-      "answer": "Creating angles without anchoring grips lets the opponent rotate and follow you. Establish grips or frames that pin them in place before initiating the angular movement so they cannot re-square."
+      "answer": "Creating angles without anchoring grips lets the opponent rotate and follow you. Establish grips or frames that pin them in place before initiating the angular movement so they cannot re-square.",
+      "answer_line": "Anchor grips before angling",
+      "distractors": {
+        "plausible": [
+          "Move faster than opponent reacts",
+          "Angle with upper body only"
+        ],
+        "trap": [
+          "Release grips to move freely"
+        ]
+      }
     },
     {
       "question": "How does grip control enable angle creation?",
-      "answer": "Grips anchor the opponent so they cannot realign or follow your movement, letting you rotate off their centerline while they stay fixed—turning a shared rotation into a one-sided angular advantage."
+      "answer": "Grips anchor the opponent so they cannot realign or follow your movement, letting you rotate off their centerline while they stay fixed—turning a shared rotation into a one-sided angular advantage.",
+      "answer_line": "Grips pin them, you rotate free",
+      "distractors": {
+        "plausible": [
+          "Grips add strength to strikes",
+          "Grips only prevent submissions"
+        ],
+        "trap": [
+          "Let go of grips to rotate faster"
+        ]
+      }
     },
     {
       "question": "When is the optimal moment to initiate an angular movement?",
-      "answer": "During the opponent's weight shifts, transitions, or attacking commitments, when their base is momentarily compromised and they cannot easily follow or re-square to your new position."
+      "answer": "During the opponent's weight shifts, transitions, or attacking commitments, when their base is momentarily compromised and they cannot easily follow or re-square to your new position.",
+      "answer_line": "When their base is compromised",
+      "distractors": {
+        "plausible": [
+          "Right after you secure position",
+          "As soon as round begins"
+        ],
+        "trap": [
+          "Wait until they fully settle"
+        ]
+      }
     },
     {
       "question": "Why must you exploit an angle immediately after creating it?",
-      "answer": "Angular advantages are temporary because opponents recover alignment quickly. Launching an attack or positional advance before they re-square is what converts the created angle into a real outcome."
+      "answer": "Angular advantages are temporary because opponents recover alignment quickly. Launching an attack or positional advance before they re-square is what converts the created angle into a real outcome.",
+      "answer_line": "Angles are temporary, attack now",
+      "distractors": {
+        "plausible": [
+          "Angles last the whole exchange",
+          "Rest before attacking"
+        ],
+        "trap": [
+          "Wait for a bigger opening"
+        ]
+      }
     },
     {
       "question": "What is the difference between creating an angle with the upper body versus the hips?",
-      "answer": "Upper-body-only angles are superficial and don't change structural dynamics. Driving the angle through hip movement and lower-body displacement produces the meaningful off-axis position that opens attacks."
+      "answer": "Upper-body-only angles are superficial and don't change structural dynamics. Driving the angle through hip movement and lower-body displacement produces the meaningful off-axis position that opens attacks.",
+      "answer_line": "Hips drive real angle change",
+      "distractors": {
+        "plausible": [
+          "Shoulders alone create angles",
+          "Arms create the dominant angle"
+        ],
+        "trap": [
+          "Twist only the head and neck"
+        ]
+      }
     },
     {
       "question": "How should you respond when an opponent tries to create a dominant angle against you?",
-      "answer": "Recognize the off-axis threat early and counter by widening your base, fighting their anchoring grips, or following their movement to re-square your alignment with their centerline before they can attack."
+      "answer": "Recognize the off-axis threat early and counter by widening your base, fighting their anchoring grips, or following their movement to re-square your alignment with their centerline before they can attack.",
+      "answer_line": "Widen base, fight grips, re-square",
+      "distractors": {
+        "plausible": [
+          "Retreat and reset entirely",
+          "Overpower with pure strength"
+        ],
+        "trap": [
+          "Ignore it and stay still"
+        ]
+      }
     },
     {
       "question": "How do small, progressive angular adjustments lead to dominant positions?",
-      "answer": "Individually minor angle changes compound when chained patiently, each adding structural disruption until the opponent's base is broken enough to open a decisive sweep, pass, or submission."
+      "answer": "Individually minor angle changes compound when chained patiently, each adding structural disruption until the opponent's base is broken enough to open a decisive sweep, pass, or submission.",
+      "answer_line": "Chained small angles break base",
+      "distractors": {
+        "plausible": [
+          "One big movement does it all",
+          "Angles reset each exchange"
+        ],
+        "trap": [
+          "Repeat the same failed angle"
+        ]
+      }
+    }
+  ],
+  "clips": [
+    {
+      "id": "55zx0wJVo3I",
+      "title": "Finding the perfect angles from guard",
+      "by": "Rickson Gracie",
+      "vertical": false,
+      "channel": "Rickson Gracie Jiu-Jitsu Academy",
+      "duration": 52,
+      "verified": "2026-07-15"
+    },
+    {
+      "id": "IlWRaPI6BLA",
+      "title": "Guard passing with pressure and angles",
+      "by": "Predators MMA",
+      "vertical": false,
+      "channel": "Predators MMA and BJJ Academy Manchester",
+      "duration": 548,
+      "verified": "2026-07-15"
+    },
+    {
+      "id": "l4stVpjco6E",
+      "title": "Force vectors and planes in jiu-jitsu",
+      "by": "Rob Vella",
+      "vertical": false,
+      "channel": "RVV BJJ",
+      "duration": 600,
+      "verified": "2026-07-15"
     }
   ]
 }

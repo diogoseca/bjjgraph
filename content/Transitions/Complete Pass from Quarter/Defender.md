@@ -148,6 +148,54 @@ description: "Defend and counter the complete guard pass from quarter guard bott
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Complete Pass from Quarter (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Half guard retention concepts",
+      "description": "Complete Pass from Quarter (Defender) film study: Half guard retention concepts, taught by Five Lions Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/plsCCqn8-jQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/plsCCqn8-jQ",
+      "url": "https://www.youtube.com/watch?v=plsCCqn8-jQ",
+      "creator": { "@type": "Person", "name": "Five Lions Jiu Jitsu" },
+      "duration": "PT155S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Quarter guard recovery to deep half guard",
+      "description": "Complete Pass from Quarter (Defender) film study: Quarter guard recovery to deep half guard, taught by Honu BJJ Reno.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/3d2gH5Z6ETA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/3d2gH5Z6ETA",
+      "url": "https://www.youtube.com/watch?v=3d2gH5Z6ETA",
+      "creator": { "@type": "Person", "name": "Honu BJJ Reno" },
+      "duration": "PT281S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Defending the knee slice from quarter guard",
+      "description": "Complete Pass from Quarter (Defender) film study: Defending the knee slice from quarter guard, taught by Jean Jacques Machado.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/xDZucxFVK48/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/xDZucxFVK48",
+      "url": "https://www.youtube.com/watch?v=xDZucxFVK48",
+      "creator": { "@type": "Person", "name": "Jean Jacques Machado" },
+      "duration": "PT275S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -159,6 +207,42 @@ Success in this defensive position requires understanding that passivity guarant
 **Opponent's Starting Position**: [[Positions/Quarter Guard]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Complete Pass from Quarter (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=plsCCqn8-jQ)
+
+<p class="clip-credit"><strong>Half guard retention concepts</strong> — taught by Five Lions Jiu Jitsu · 2:35 · <a href="https://www.youtube.com/watch?v=plsCCqn8-jQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=3d2gH5Z6ETA)
+
+<p class="clip-credit"><strong>Quarter guard recovery to deep half guard</strong> — taught by Honu BJJ Reno · 4:41 · <a href="https://www.youtube.com/watch?v=3d2gH5Z6ETA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=xDZucxFVK48)
+
+<p class="clip-credit"><strong>Defending the knee slice from quarter guard</strong> — taught by Jean Jacques Machado · 4:35 · <a href="https://www.youtube.com/watch?v=xDZucxFVK48" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

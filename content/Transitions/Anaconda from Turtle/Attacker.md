@@ -174,6 +174,43 @@ description: "How to execute Anaconda from Turtle in BJJ. Attacking perspective 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Anaconda from Turtle (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Anaconda choke from top turtle",
+      "description": "Anaconda from Turtle (Attacker) film study: Anaconda choke from top turtle, taught by Jiu Jitsu Kid.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/faFx9xOawS8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/faFx9xOawS8",
+      "url": "https://www.youtube.com/watch?v=faFx9xOawS8",
+      "creator": { "@type": "Person", "name": "Jiu Jitsu Kid" },
+      "duration": "PT108S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Anaconda choke demonstration",
+      "description": "Anaconda from Turtle (Attacker) film study: Anaconda choke demonstration, taught by Grappler Station.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/SSWodDzj4-4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/SSWodDzj4-4",
+      "url": "https://www.youtube.com/watch?v=SSWodDzj4-4",
+      "creator": { "@type": "Person", "name": "Grappler Station" },
+      "duration": "PT91S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -183,6 +220,34 @@ The Anaconda from Turtle is a dynamic submission setup that transitions from tur
 **From Position**: [[Positions/Turtle]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Anaconda from Turtle (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=faFx9xOawS8)
+
+<p class="clip-credit"><strong>Anaconda choke from top turtle</strong> — taught by Jiu Jitsu Kid · 1:48 · <a href="https://www.youtube.com/watch?v=faFx9xOawS8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=SSWodDzj4-4)
+
+<p class="clip-credit"><strong>Anaconda choke demonstration</strong> — taught by Grappler Station · 1:31 · <a href="https://www.youtube.com/watch?v=SSWodDzj4-4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

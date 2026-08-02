@@ -148,6 +148,43 @@ description: "How to defend against the Kneebar Finish in BJJ. Recognition cues,
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Kneebar Finish (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Kneebar Defense vs Garry Tonon",
+      "description": "Kneebar Finish (Defender) film study: Kneebar Defense vs Garry Tonon, taught by AJ Agazarm.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/kUuJ03CcIUQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/kUuJ03CcIUQ",
+      "url": "https://www.youtube.com/watch?v=kUuJ03CcIUQ",
+      "creator": { "@type": "Person", "name": "AJ Agazarm" },
+      "duration": "PT23S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Knee Bar Defense to Back Take",
+      "description": "Kneebar Finish (Defender) film study: Knee Bar Defense to Back Take, taught by Bicudo BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/NuWBh3LN-SY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/NuWBh3LN-SY",
+      "url": "https://www.youtube.com/watch?v=NuWBh3LN-SY",
+      "creator": { "@type": "Person", "name": "Bicudo BJJ" },
+      "duration": "PT22S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -159,6 +196,34 @@ The most common defensive error is extending your leg in the first place. Unders
 **Opponent's Starting Position**: [[Positions/Rubber Guard/Carni]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Kneebar Finish (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=kUuJ03CcIUQ)
+
+<p class="clip-credit"><strong>Kneebar Defense vs Garry Tonon</strong> — taught by AJ Agazarm · 0:23 · <a href="https://www.youtube.com/watch?v=kUuJ03CcIUQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=NuWBh3LN-SY)
+
+<p class="clip-credit"><strong>Knee Bar Defense to Back Take</strong> — taught by Bicudo BJJ · 0:22 · <a href="https://www.youtube.com/watch?v=NuWBh3LN-SY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

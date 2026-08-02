@@ -176,6 +176,54 @@ description: "Learn to attack with the Peruvian Necktie from front headlock. Ste
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Peruvian Necktie from Front Headlock (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Peruvian Necktie",
+      "description": "Peruvian Necktie from Front Headlock (Attacker) film study: Peruvian Necktie, taught by Keith Krikorian.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/7J0hJPRPpRQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/7J0hJPRPpRQ",
+      "url": "https://www.youtube.com/watch?v=7J0hJPRPpRQ",
+      "creator": { "@type": "Person", "name": "Keith Krikorian" },
+      "duration": "PT87S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Front Headlock to Peruvian Necktie",
+      "description": "Peruvian Necktie from Front Headlock (Attacker) film study: Front Headlock to Peruvian Necktie, taught by Gile23.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/4ob2ZrEH3Yc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/4ob2ZrEH3Yc",
+      "url": "https://www.youtube.com/watch?v=4ob2ZrEH3Yc",
+      "creator": { "@type": "Person", "name": "Gile23" },
+      "duration": "PT113S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Peruvian Necktie",
+      "description": "Peruvian Necktie from Front Headlock (Attacker) film study: Peruvian Necktie, taught by Luke Harris.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/WpQIntujyFU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/WpQIntujyFU",
+      "url": "https://www.youtube.com/watch?v=WpQIntujyFU",
+      "creator": { "@type": "Person", "name": "Luke Harris" },
+      "duration": "PT106S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -186,6 +234,42 @@ Attacking with the Peruvian Necktie from front headlock requires precise grip po
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Peruvian Necktie from Front Headlock (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=7J0hJPRPpRQ)
+
+<p class="clip-credit"><strong>Peruvian Necktie</strong> — taught by Keith Krikorian · 1:27 · <a href="https://www.youtube.com/watch?v=7J0hJPRPpRQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=4ob2ZrEH3Yc)
+
+<p class="clip-credit"><strong>Front Headlock to Peruvian Necktie</strong> — taught by Gile23 · 1:53 · <a href="https://www.youtube.com/watch?v=4ob2ZrEH3Yc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=WpQIntujyFU)
+
+<p class="clip-credit"><strong>Peruvian Necktie</strong> — taught by Luke Harris · 1:46 · <a href="https://www.youtube.com/watch?v=WpQIntujyFU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

@@ -21,37 +21,37 @@ description: "Master defensive strategies from Reverse Mount Bottom. Learn syste
     {
       "@type": "HowToStep",
       "name": "Execute Elbow Escape to Guard",
-      "text": "From this position, attempt Elbow Escape to Guard. This technique is attempted in 28% of exchanges from this position.",
+      "text": "From this position, attempt Elbow Escape to Guard. This technique is attempted in 18% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Bridge and Roll",
-      "text": "From this position, attempt Bridge and Roll. This technique is attempted in 22% of exchanges from this position.",
+      "text": "From this position, attempt Bridge and Roll. This technique is attempted in 10% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Hip Escape to Guard",
-      "text": "From this position, attempt Hip Escape to Guard. This technique is attempted in 17% of exchanges from this position.",
+      "text": "From this position, attempt Hip Escape to Guard. This technique is attempted in 20% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Sit Through to Guard",
-      "text": "From this position, attempt Sit Through to Guard. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Sit Through to Guard. This technique is attempted in 13% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Frame and Shrimp to Guard",
-      "text": "From this position, attempt Frame and Shrimp to Guard. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Frame and Shrimp to Guard. This technique is attempted in 15% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Bridge from Reverse Mount",
-      "text": "From this position, attempt Bridge from Reverse Mount. This technique is attempted in 6% of exchanges from this position.",
+      "text": "From this position, attempt Bridge from Reverse Mount. This technique is attempted in 10% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -154,6 +154,54 @@ description: "Master defensive strategies from Reverse Mount Bottom. Learn syste
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Reverse Mount (Bottom) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Inverted mount escape to ashi garami",
+      "description": "Reverse Mount (Bottom) film study: Inverted mount escape to ashi garami, taught by Thunderdome BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/bNdt6jVatj4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/bNdt6jVatj4",
+      "url": "https://www.youtube.com/watch?v=bNdt6jVatj4",
+      "creator": { "@type": "Person", "name": "Thunderdome BJJ" },
+      "duration": "PT43S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Defending Roll to Far Side With Near Hook",
+      "description": "Reverse Mount (Bottom) film study: Defending Roll to Far Side With Near Hook, taught by Priit Mihkelson.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/0xYFYI9LkUQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/0xYFYI9LkUQ",
+      "url": "https://www.youtube.com/watch?v=0xYFYI9LkUQ",
+      "creator": { "@type": "Person", "name": "Priit Mihkelson" },
+      "duration": "PT144S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Two Ideas for Escaping the Mount",
+      "description": "Reverse Mount (Bottom) film study: Two Ideas for Escaping the Mount, taught by Coach Brian.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/bYx7xldM7Ls/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/bYx7xldM7Ls",
+      "url": "https://www.youtube.com/watch?v=bYx7xldM7Ls",
+      "creator": { "@type": "Person", "name": "Coach Brian" },
+      "duration": "PT775S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <aside class="entity-relations">
@@ -168,6 +216,42 @@ The primary objective is rapid escape to less compromising positions through sys
 Understanding the escape hierarchy and maintaining composure under pressure are critical for survival and eventual position improvement from this highly unfavorable state. The defender must balance immediate neck protection with continuous movement toward improved positions, never allowing the opponent to settle their weight and establish complete control.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Reverse Mount (Bottom) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=bNdt6jVatj4)
+
+<p class="clip-credit"><strong>Inverted mount escape to ashi garami</strong> — taught by Thunderdome BJJ · 0:43 · <a href="https://www.youtube.com/watch?v=bNdt6jVatj4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=0xYFYI9LkUQ)
+
+<p class="clip-credit"><strong>Defending Roll to Far Side With Near Hook</strong> — taught by Priit Mihkelson · 2:24 · <a href="https://www.youtube.com/watch?v=0xYFYI9LkUQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=bYx7xldM7Ls)
+
+<p class="clip-credit"><strong>Two Ideas for Escaping the Mount</strong> — taught by Coach Brian · 12:55 · <a href="https://www.youtube.com/watch?v=bYx7xldM7Ls" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

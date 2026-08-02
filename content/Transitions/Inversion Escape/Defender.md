@@ -148,6 +148,43 @@ description: "How to defend against the Inversion Escape from Honey Hole in BJJ.
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Inversion Escape (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Jackie Chan and 411 Leg Entanglement Breakdown",
+      "description": "Inversion Escape (Defender) film study: Jackie Chan and 411 Leg Entanglement Breakdown, taught by 10th Planet Orange Park.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/R4K-UU_bUZQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/R4K-UU_bUZQ",
+      "url": "https://www.youtube.com/watch?v=R4K-UU_bUZQ",
+      "creator": { "@type": "Person", "name": "10th Planet Orange Park" },
+      "duration": "PT75S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Cross Ashi / Honey Hole Counter to Back Take",
+      "description": "Inversion Escape (Defender) film study: Cross Ashi / Honey Hole Counter to Back Take, taught by Douglas Wasson.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/fsp_qU-D_-g/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/fsp_qU-D_-g",
+      "url": "https://www.youtube.com/watch?v=fsp_qU-D_-g",
+      "creator": { "@type": "Person", "name": "Douglas Wasson" },
+      "duration": "PT143S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -159,6 +196,34 @@ Defense against the Inversion Escape requires reading your opponent's preparator
 **Opponent's Starting Position**: [[Positions/Ashi Garami/Honey Hole]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Inversion Escape (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=R4K-UU_bUZQ)
+
+<p class="clip-credit"><strong>Jackie Chan and 411 Leg Entanglement Breakdown</strong> — taught by 10th Planet Orange Park · 1:15 · <a href="https://www.youtube.com/watch?v=R4K-UU_bUZQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=fsp_qU-D_-g)
+
+<p class="clip-credit"><strong>Cross Ashi / Honey Hole Counter to Back Take</strong> — taught by Douglas Wasson · 2:23 · <a href="https://www.youtube.com/watch?v=fsp_qU-D_-g" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

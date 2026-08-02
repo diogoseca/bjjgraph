@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Side Control/Top",
-      "probability": 40,
+      "probability": {
+        "gi": 40,
+        "nogi": 40
+      },
       "result": "success"
     },
     {
       "to": "Cross Body Ride/Bottom",
-      "probability": 35,
+      "probability": {
+        "gi": 35,
+        "nogi": 35
+      },
       "result": "failure"
     },
     {
       "to": "Back Control/Bottom",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 40,
+  "success_rate": {
+    "gi": 40,
+    "nogi": 40
+  },
   "overview": "The Escape from Cross Body Ride is a critical defensive technique for recovering from one of the most compromising turtle-top positions in Brazilian Jiu-Jitsu. When an opponent has established perpendicular chest-to-back contact with harness control, the bottom player faces immediate threats of back take, crucifix entry, and various choke attacks. This escape addresses the fundamental problem of removing the rider's weight and control points while creating enough space to reverse the position or recover guard.\n\nThe escape operates on the principle that the cross body rider's perpendicular orientation, while providing tremendous downward pressure, creates a structural vulnerability along the lateral axis. By timing hip movement with frame creation against the rider's hips, the bottom player can displace enough weight to initiate a reversal sequence. The most reliable path leads to side control top through a combination of hip switch, underhook establishment, and controlled rotation that uses the rider's committed weight against them.\n\nStrategically, this escape represents a high-reward response to a deteriorating position. Rather than accepting the gradual breakdown that cross body ride imposes, executing a well-timed escape converts defensive liability into offensive opportunity. The technique rewards practitioners who maintain composure under pressure, read weight distribution patterns, and commit decisively to escape sequences rather than making tentative, energy-wasting attempts that telegraph their intentions to the rider.",
   "conditions": [
     "Opponent has established cross body ride with chest perpendicular across your back",
@@ -234,46 +246,166 @@
     "flashcards": [
       {
         "question": "What is the most critical setup action before initiating the hip escape from cross body ride?",
-        "answer": "Establishing a frame against the rider's hip or thigh with your near-side forearm. This frame prevents the rider from following your hip movement and creates the structural resistance needed to generate separation. Without this frame, the rider simply shifts with you and re-establishes pressure, making the escape impossible regardless of how explosive your hip movement is."
+        "answer": "Establishing a frame against the rider's hip or thigh with your near-side forearm. This frame prevents the rider from following your hip movement and creates the structural resistance needed to generate separation. Without this frame, the rider simply shifts with you and re-establishes pressure, making the escape impossible regardless of how explosive your hip movement is.",
+        "answer_line": "Frame forearm on hip or thigh",
+        "distractors": {
+          "plausible": [
+            "Bridge explosively first",
+            "Push against their chest"
+          ],
+          "trap": [
+            "Turn belly-down to escape"
+          ]
+        }
       },
       {
         "question": "Your opponent has heavy shoulder pressure driving you toward the mat - how do you create the initial space needed to escape?",
-        "answer": "Rather than fighting the pressure directly, wait for the rider to shift weight during a grip adjustment or transition attempt. Use that momentary lightening to execute an explosive hip switch away from the pressure direction while simultaneously posting your near-side forearm against their hip. The combination of timing and frame placement creates space even against riders who are significantly heavier than you."
+        "answer": "Rather than fighting the pressure directly, wait for the rider to shift weight during a grip adjustment or transition attempt. Use that momentary lightening to execute an explosive hip switch away from the pressure direction while simultaneously posting your near-side forearm against their hip. The combination of timing and frame placement creates space even against riders who are significantly heavier than you.",
+        "answer_line": "Time hip switch to their shift",
+        "distractors": {
+          "plausible": [
+            "Bench press their chest up",
+            "Bridge hard against the pressure"
+          ],
+          "trap": [
+            "Turn away, exposing your back"
+          ]
+        }
       },
       {
         "question": "What determines which direction you should escape toward from cross body ride?",
-        "answer": "Escape toward the side where the rider's weight is least committed. Feel where their pressure is heaviest through your back contact. If they drive weight toward your head, escape toward your hips and vice versa. Additionally, escape away from their underhook side, as their control is mechanically weaker on the overhook side. The rider's grip configuration and hook placement also influence the optimal escape direction."
+        "answer": "Escape toward the side where the rider's weight is least committed. Feel where their pressure is heaviest through your back contact. If they drive weight toward your head, escape toward your hips and vice versa. Additionally, escape away from their underhook side, as their control is mechanically weaker on the overhook side. The rider's grip configuration and hook placement also influence the optimal escape direction.",
+        "answer_line": "Toward their lightest pressure side",
+        "distractors": {
+          "plausible": [
+            "Toward their strongest grip side",
+            "Always escape toward your head"
+          ],
+          "trap": [
+            "Escape into their underhook side"
+          ]
+        }
       },
       {
         "question": "Why is it important to chain multiple escape attempts rather than relying on a single explosive movement?",
-        "answer": "Single escape attempts are easily scouted and countered by experienced riders who anticipate the direction and adjust their weight accordingly. Chaining creates a dilemma where the rider's defensive reaction to the first attempt opens the path for the second attempt. This forces the rider to make split-second decisions under pressure, increasing the probability that they commit their weight incorrectly and allow the escape to succeed."
+        "answer": "Single escape attempts are easily scouted and countered by experienced riders who anticipate the direction and adjust their weight accordingly. Chaining creates a dilemma where the rider's defensive reaction to the first attempt opens the path for the second attempt. This forces the rider to make split-second decisions under pressure, increasing the probability that they commit their weight incorrectly and allow the escape to succeed.",
+        "answer_line": "Chains force bad weight commits",
+        "distractors": {
+          "plausible": [
+            "Repeat same move harder each time",
+            "One big explosive rep is best"
+          ],
+          "trap": [
+            "Pause and reset guard fully"
+          ]
+        }
       },
       {
         "question": "What is the critical mechanical detail when establishing the underhook during the reversal?",
-        "answer": "The underhook must be threaded deep under the rider's armpit with your elbow driving into their ribcage, not just reaching under their arm with your hand. A shallow underhook provides no leverage for the reversal and allows the rider to wizzer over your arm and block the turn. The depth of the underhook directly determines whether you can generate enough rotational force to complete the reversal to side control."
+        "answer": "The underhook must be threaded deep under the rider's armpit with your elbow driving into their ribcage, not just reaching under their arm with your hand. A shallow underhook provides no leverage for the reversal and allows the rider to wizzer over your arm and block the turn. The depth of the underhook directly determines whether you can generate enough rotational force to complete the reversal to side control.",
+        "answer_line": "Deep underhook, elbow in ribs",
+        "distractors": {
+          "plausible": [
+            "Hand grip alone is enough",
+            "Underhook then bridge instantly"
+          ],
+          "trap": [
+            "Reach shallow and yank up"
+          ]
+        }
       },
       {
         "question": "Your opponent inserts hooks during your escape attempt - what is your immediate response?",
-        "answer": "Immediately abort the reversal and transition to back escape protocol. Fight the most recently inserted hook first by trapping their foot with your legs and peeling it off before it gets established. Simultaneously protect your neck with chin tuck and two-on-one hand control on any choking hand. The priority shifts from reversal to preventing consolidation of back control, since continuing the escape with hooks in typically worsens the position significantly."
+        "answer": "Immediately abort the reversal and transition to back escape protocol. Fight the most recently inserted hook first by trapping their foot with your legs and peeling it off before it gets established. Simultaneously protect your neck with chin tuck and two-on-one hand control on any choking hand. The priority shifts from reversal to preventing consolidation of back control, since continuing the escape with hooks in typically worsens the position significantly.",
+        "answer_line": "Trap and peel newest hook",
+        "distractors": {
+          "plausible": [
+            "Keep pushing the reversal through",
+            "Fight both hooks at once"
+          ],
+          "trap": [
+            "Expose neck to strip the hook"
+          ]
+        }
       },
       {
         "question": "What grip requirements must be met before you can complete the reversal to side control?",
-        "answer": "You need a deep underhook on the near side with your elbow controlling the rider's upper body during the turn, and your far hand must be free to post on the mat for base during the rotation. If the rider has your far arm controlled or trapped, you must strip that grip before attempting the final reversal phase. Attempting the turn without these grips results in an incomplete reversal where the opponent can recover guard or re-take the top position."
+        "answer": "You need a deep underhook on the near side with your elbow controlling the rider's upper body during the turn, and your far hand must be free to post on the mat for base during the rotation. If the rider has your far arm controlled or trapped, you must strip that grip before attempting the final reversal phase. Attempting the turn without these grips results in an incomplete reversal where the opponent can recover guard or re-take the top position.",
+        "answer_line": "Deep underhook, far hand posted",
+        "distractors": {
+          "plausible": [
+            "Both hands gripping their gi",
+            "Underhook alone is enough"
+          ],
+          "trap": [
+            "Let them control your far arm"
+          ]
+        }
       },
       {
         "question": "How should you adjust your escape strategy if the rider transitions from perpendicular pressure to attempting a back take?",
-        "answer": "When the rider transitions from cross body pressure to back take attempts, their weight typically shifts from driving across your back to pulling backward to insert hooks. This creates forward space that was previously blocked by their chest. Use this shift to drive forward and either stand to base or execute a sit-through that takes advantage of the reduced downward pressure. The back take attempt actually creates better escape opportunities than settled cross body pressure if you recognize the timing window."
+        "answer": "When the rider transitions from cross body pressure to back take attempts, their weight typically shifts from driving across your back to pulling backward to insert hooks. This creates forward space that was previously blocked by their chest. Use this shift to drive forward and either stand to base or execute a sit-through that takes advantage of the reduced downward pressure. The back take attempt actually creates better escape opportunities than settled cross body pressure if you recognize the timing window.",
+        "answer_line": "Drive forward into new space",
+        "distractors": {
+          "plausible": [
+            "Brace backward against hooks",
+            "Wait passively for them to settle"
+          ],
+          "trap": [
+            "Turn belly-down to block hooks"
+          ]
+        }
       },
       {
         "question": "What is the most common failure point that leads to the opponent achieving back control during this escape?",
-        "answer": "The most common failure occurs when the escaper creates space with the hip switch but fails to establish the underhook before attempting the reversal turn. Without the underhook controlling the rider's upper body, the space created by the hip escape allows the rider to slide their hooks in and transition directly to back control. The underhook serves as both a reversal tool and a barrier that prevents hook insertion during the transition."
+        "answer": "The most common failure occurs when the escaper creates space with the hip switch but fails to establish the underhook before attempting the reversal turn. Without the underhook controlling the rider's upper body, the space created by the hip escape allows the rider to slide their hooks in and transition directly to back control. The underhook serves as both a reversal tool and a barrier that prevents hook insertion during the transition.",
+        "answer_line": "Space made, no underhook secured",
+        "distractors": {
+          "plausible": [
+            "Hip switch was too slow",
+            "Escaped toward wrong direction"
+          ],
+          "trap": [
+            "Turtle up without underhook"
+          ]
+        }
       },
       {
         "question": "During a competition, your first escape attempt is blocked and you feel your energy dropping - what is your strategy?",
-        "answer": "Immediately return to a defensive turtle shell with chin tucked and elbows tight rather than forcing additional escape attempts while fatigued. Take several controlled breaths to partially recover energy, then attempt a different escape direction than your first attempt. If the rider has adjusted to block your primary escape angle, switch to a sit-through or standing escape rather than repeating the same hip-switch pattern. Manage energy carefully because each failed attempt makes subsequent attempts harder against an adaptive opponent."
+        "answer": "Immediately return to a defensive turtle shell with chin tucked and elbows tight rather than forcing additional escape attempts while fatigued. Take several controlled breaths to partially recover energy, then attempt a different escape direction than your first attempt. If the rider has adjusted to block your primary escape angle, switch to a sit-through or standing escape rather than repeating the same hip-switch pattern. Manage energy carefully because each failed attempt makes subsequent attempts harder against an adaptive opponent.",
+        "answer_line": "Turtle, breathe, switch direction",
+        "distractors": {
+          "plausible": [
+            "Force the same escape again",
+            "Sprawl out flat to rest"
+          ],
+          "trap": [
+            "Muscle through, ignore fatigue"
+          ]
+        }
       }
     ],
-    "safety_considerations": "When executing the reversal, avoid explosive neck movements that could strain cervical vertebrae under the rider's pressure. If caught in a choke during the escape transition, tap immediately rather than attempting to power through while your neck is in a compromised position. During training, practice at controlled speed before adding explosiveness, and communicate with training partners about intensity levels. Be particularly careful with the underhook entry to avoid shoulder impingement when rotating under the rider's bodyweight load."
+    "safety_considerations": "When executing the reversal, avoid explosive neck movements that could strain cervical vertebrae under the rider's pressure. If caught in a choke during the escape transition, tap immediately rather than attempting to power through while your neck is in a compromised position. During training, practice at controlled speed before adding explosiveness, and communicate with training partners about intensity levels. Be particularly careful with the underhook entry to avoid shoulder impingement when rotating under the rider's bodyweight load.",
+    "clips": [
+      {
+        "id": "H3UURW2F9g8",
+        "title": "Cross body leg ride escape",
+        "by": "Hideout Wrestling",
+        "vertical": false,
+        "channel": "Hideout Wrestling",
+        "duration": 49,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "S2-UjM43Luk",
+        "title": "Five Crossbody Escape Drills",
+        "by": "Clinch Academy coach",
+        "vertical": false,
+        "channel": "Clinch Academy",
+        "duration": 152,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Escape from Cross Body Ride Defender",
@@ -352,19 +484,59 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that an escape attempt is imminent from cross body ride?",
-        "answer": "The earliest cue is feeling the bottom player's hips begin to shift laterally or sensing their weight load onto one side through your chest-to-back contact. Before any visible movement occurs, you can detect subtle weight transfers and muscle tension changes through pressure sensitivity. This pre-movement signal gives you a fraction of a second to preemptively adjust your weight and angle to neutralize the escape before it fully develops."
+        "answer": "The earliest cue is feeling the bottom player's hips begin to shift laterally or sensing their weight load onto one side through your chest-to-back contact. Before any visible movement occurs, you can detect subtle weight transfers and muscle tension changes through pressure sensitivity. This pre-movement signal gives you a fraction of a second to preemptively adjust your weight and angle to neutralize the escape before it fully develops.",
+        "answer_line": "Feel hip shift before it moves",
+        "distractors": {
+          "plausible": [
+            "Wait for visible leg movement",
+            "Listen for a verbal tell"
+          ],
+          "trap": [
+            "React only after space appears"
+          ]
+        }
       },
       {
         "question": "Your opponent creates space with a hip escape and you cannot re-establish cross body pressure - what is the optimal response?",
-        "answer": "Rather than fighting to recover cross body ride from a losing position, capitalize on the space by inserting hooks and transitioning to full back control. The bottom player's hip escape has already created the leg access you need for hook insertion. Maintain harness grip on the upper body while threading your hooks inside their thighs. This converts their escape attempt into a worse position for them, rewarding your ability to adapt rather than rigidly maintain one configuration."
+        "answer": "Rather than fighting to recover cross body ride from a losing position, capitalize on the space by inserting hooks and transitioning to full back control. The bottom player's hip escape has already created the leg access you need for hook insertion. Maintain harness grip on the upper body while threading your hooks inside their thighs. This converts their escape attempt into a worse position for them, rewarding your ability to adapt rather than rigidly maintain one configuration.",
+        "answer_line": "Insert hooks, take the back",
+        "distractors": {
+          "plausible": [
+            "Fight to regain cross body",
+            "Release grips and reset neutral"
+          ],
+          "trap": [
+            "Chase legs and lose top position"
+          ]
+        }
       },
       {
         "question": "How do you prevent the bottom player from establishing the underhook that enables the reversal?",
-        "answer": "Control their near-side arm by maintaining your near arm clamped against their elbow and bicep area, preventing them from threading underneath your armpit. If they begin to work the arm through, immediately drive your weight onto that shoulder to flatten the arm back against their body. You can also preemptively switch to a whizzer over their arm if the underhook begins to develop, using the overhook to block the reversal turn while keeping upper body control."
+        "answer": "Control their near-side arm by maintaining your near arm clamped against their elbow and bicep area, preventing them from threading underneath your armpit. If they begin to work the arm through, immediately drive your weight onto that shoulder to flatten the arm back against their body. You can also preemptively switch to a whizzer over their arm if the underhook begins to develop, using the overhook to block the reversal turn while keeping upper body control.",
+        "answer_line": "Clamp elbow, block the thread",
+        "distractors": {
+          "plausible": [
+            "Grip their wrist only",
+            "Push down after underhook lands"
+          ],
+          "trap": [
+            "Let arm through, then squeeze"
+          ]
+        }
       },
       {
         "question": "When is it better to let the escape partially succeed and transition to back control rather than fighting to maintain cross body ride?",
-        "answer": "When the bottom player has already created significant hip space and established a frame that you cannot easily strip, attempting to fight back to cross body ride wastes energy and often fails anyway. The better option is to immediately begin inserting hooks while the bottom player is focused on completing their reversal. Back control is a superior position to cross body ride, scoring four points versus zero, so using the escape attempt as a transition opportunity actually improves your position rather than merely defending a deteriorating one."
+        "answer": "When the bottom player has already created significant hip space and established a frame that you cannot easily strip, attempting to fight back to cross body ride wastes energy and often fails anyway. The better option is to immediately begin inserting hooks while the bottom player is focused on completing their reversal. Back control is a superior position to cross body ride, scoring four points versus zero, so using the escape attempt as a transition opportunity actually improves your position rather than merely defending a deteriorating one.",
+        "answer_line": "Abandon ride, take the back",
+        "distractors": {
+          "plausible": [
+            "Fight to restore cross body",
+            "Release everything and reset"
+          ],
+          "trap": [
+            "Chase legs, lose underhook control"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -387,6 +559,26 @@
         "phase": "Phase 4: Competitive Application",
         "focus": "Maintaining and advancing control under full resistance conditions",
         "description": "Full resistance positional sparring starting from cross body ride. Top player scores for maintaining position beyond sixty seconds or advancing to back control. Bottom player scores for successful escapes or guard recovery. Develop automatic responses to escape patterns that flow between maintenance and advancement."
+      }
+    ],
+    "clips": [
+      {
+        "id": "ANosXMXKLfQ",
+        "title": "Banana split to back take from cross body ride",
+        "by": "Bowerhouse MMA",
+        "vertical": false,
+        "channel": "BOWERHOUSE MMA",
+        "duration": 169,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "AkEySTc0_aw",
+        "title": "Leg and wrist ride combo to rear mount",
+        "by": "Spring Hill BJJ",
+        "vertical": false,
+        "channel": "SpringHillBjj",
+        "duration": 83,
+        "verified": "2026-07-15"
       }
     ]
   }

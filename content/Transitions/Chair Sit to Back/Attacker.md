@@ -180,6 +180,43 @@ description: "How to execute Chair Sit to Back in BJJ. Attacking perspective wit
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Chair Sit to Back (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Chair sit back take from turtle",
+      "description": "Chair Sit to Back (Attacker) film study: Chair sit back take from turtle, taught by New Legacy Martial Arts.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/KU5nK5cWZos/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/KU5nK5cWZos",
+      "url": "https://www.youtube.com/watch?v=KU5nK5cWZos",
+      "creator": { "@type": "Person", "name": "New Legacy Martial Arts" },
+      "duration": "PT133S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Back take basics",
+      "description": "Chair Sit to Back (Attacker) film study: Back take basics, taught by Leo Vieira.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/_ApGfiRgL5k/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/_ApGfiRgL5k",
+      "url": "https://www.youtube.com/watch?v=_ApGfiRgL5k",
+      "creator": { "@type": "Person", "name": "Leo Vieira" },
+      "duration": "PT54S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -189,6 +226,34 @@ The Chair Sit to Back Take is a systematic transition from attacking turtle posi
 **From Position**: [[Positions/Turtle]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Chair Sit to Back (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=KU5nK5cWZos)
+
+<p class="clip-credit"><strong>Chair sit back take from turtle</strong> — taught by New Legacy Martial Arts · 2:13 · <a href="https://www.youtube.com/watch?v=KU5nK5cWZos" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=_ApGfiRgL5k)
+
+<p class="clip-credit"><strong>Back take basics</strong> — taught by Leo Vieira · 0:54 · <a href="https://www.youtube.com/watch?v=_ApGfiRgL5k" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

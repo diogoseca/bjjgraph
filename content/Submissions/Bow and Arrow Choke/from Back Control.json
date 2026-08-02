@@ -17,7 +17,10 @@
   "target_area": "Carotid arteries",
   "starting_position": "Back Control",
   "from_position": "Back Control/Top",
-  "success_rate": 62,
+  "success_rate": {
+    "gi": 62,
+    "nogi": 62
+  },
   "summary": "The Bow and Arrow Choke from back control is a gi strangle where one hand pulls the far collar while the other controls the opponent's leg, stretching their body into a bow shape that compresses both carotid arteries.",
   "overview": "The Bow and Arrow Choke from back control is one of the highest-percentage gi submissions in Brazilian Jiu-Jitsu. Executed from the most dominant position in the sport, this choke combines collar grip pressure across the carotid arteries with leg leverage against the opponent's thigh to create an extraordinarily powerful finishing mechanism. The name derives from the body position at completion: one hand pulls the collar like drawing a bowstring while the other controls the far leg, stretching the opponent's body into an arc resembling a drawn bow.\n\nFrom back control, the choke benefits from the attacker's complete positional dominance. The hooks or body triangle provide the stable base needed to transition into the finishing position, while the seatbelt grip offers the initial collar access point. The key mechanical advantage lies in the two-directional force application: the collar hand pulls across the neck while the leg-controlling hand pulls the opponent's body in the opposite direction, creating compression that is nearly impossible to resist once fully locked. Unlike the rear naked choke, the bow and arrow requires gi collar access, but offers superior leverage and is significantly harder to defend once the grips are established.\n\nStrategically, the bow and arrow choke serves as the premier gi-specific attack from back control. It forces opponents into a defensive dilemma: defending the collar grip exposes the neck to rear naked choke attempts, while defending the RNC leaves the collar open for bow and arrow entry. Advanced practitioners use this complementary threat pairing to systematically break down defenses. The choke also chains naturally into armbar transitions when opponents extend their arms to fight the collar grip, making it a cornerstone technique in any systematic back attack game.",
   "safety_considerations": {
@@ -103,17 +106,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 62,
+      "probability": {
+        "gi": 62,
+        "nogi": 62
+      },
       "result": "success"
     },
     {
       "to": "Back Control/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 13,
+      "probability": {
+        "gi": 13,
+        "nogi": 13
+      },
       "result": "counter"
     }
   ],
@@ -286,52 +298,181 @@
       {
         "question": "What anatomical structures does the Bow and Arrow Choke primarily target, and how does the collar create compression?",
         "answer": "The Bow and Arrow Choke targets both carotid arteries on the sides of the neck. The gi collar material wraps across the front of the neck with the reinforced seam and wrist blade pressing into one carotid while the collar fabric compresses the other. The two-directional pull between the collar hand and the leg grip tightens this loop progressively, creating bilateral blood flow restriction that leads to unconsciousness within seconds of full application.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Both carotids, collar plus blade",
+        "distractors": {
+          "plausible": [
+            "Only one carotid gets pressure",
+            "Spine and neck vertebrae"
+          ],
+          "trap": [
+            "Crush the windpipe to finish"
+          ]
+        }
       },
       {
         "question": "Your opponent is defending the collar grip with both hands on your wrist. What adjustment creates a submission opportunity?",
         "answer": "When the opponent commits both hands to fighting the collar grip, their neck is completely undefended against the rear naked choke. Transition immediately to an RNC attempt by releasing or maintaining the collar while your free arm snakes under the chin. The opponent cannot simultaneously fight the collar and defend the RNC, creating a fundamental dilemma. If they release the collar to defend the RNC, re-establish the collar grip deeper.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Transition to naked choke",
+        "distractors": {
+          "plausible": [
+            "Force collar grip harder",
+            "Switch to armbar attempt"
+          ],
+          "trap": [
+            "Release back control entirely"
+          ]
+        }
       },
       {
         "question": "What is the correct depth for the collar grip, and how do you recognize when it is too shallow?",
         "answer": "The correct depth positions the blade of your wrist directly across the carotid artery, with the collar seam past the opponent's chin line and sitting on the front of the neck. A grip is too shallow when the collar material sits on the jaw or chin rather than the neck, when the opponent can relieve pressure by simply tucking their chin, or when the choke produces pain in the jaw but no blood restriction sensation. Walk the grip deeper using a caterpillar motion if the initial placement is above the chin.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Wrist blade past chin, on neck",
+        "distractors": {
+          "plausible": [
+            "Thumb-in grip at the shoulder",
+            "Fingers inside collar at jaw"
+          ],
+          "trap": [
+            "Crank across the jaw to finish"
+          ]
+        }
       },
       {
         "question": "Why is controlling the far leg essential to the bow and arrow finish, and what happens without it?",
         "answer": "The far leg grip creates the opposing force vector that gives the bow and arrow its mechanical advantage. Without the leg control, the choke relies solely on collar pull, which generates insufficient compression because the opponent can simply follow the direction of pull and close the gap. The leg grip stretches the opponent's body into an arc, preventing them from tucking or rotating to relieve pressure, and multiplies the effective force on the collar by creating a longer lever arm between the two grip points.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Leg creates opposing force arc",
+        "distractors": {
+          "plausible": [
+            "Leg grip is only for balance",
+            "Collar pull alone is enough"
+          ],
+          "trap": [
+            "Let go and dive for both legs"
+          ]
+        }
       },
       {
         "question": "What are the immediate steps you must take when your training partner goes unconscious from this choke?",
         "answer": "Immediately release all grips and pressure the moment you detect unconsciousness, which presents as sudden loss of muscle tension, arms dropping, or no response to verbal cues. Place the partner on their back, elevate their legs above heart level to restore blood flow to the brain, and monitor for breathing. Most people regain consciousness within 10-20 seconds. Do not shake them or apply stimulation. If they do not regain consciousness within 20 seconds, call for medical assistance immediately. Stay with them until they are fully alert and oriented.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Release, elevate legs, monitor",
+        "distractors": {
+          "plausible": [
+            "Shake them to wake up fast",
+            "Sit them up immediately"
+          ],
+          "trap": [
+            "Reapply choke briefly to check"
+          ]
+        }
       },
       {
         "question": "During the transition from seatbelt to collar grip, your opponent begins turning to face you. What is the correct response?",
         "answer": "If you have already established the collar grip, maintain it and use your remaining hook to slow their rotation. Pull the collar tight to prevent them from completing the turn, as the collar itself becomes a rotation check. If the collar is not yet secured, abandon the bow and arrow attempt and re-establish the seatbelt to maintain back control, as losing the back is a far worse outcome than missing one submission attempt. Position retention always takes priority over submission attempts.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Hold collar or resecure seatbelt",
+        "distractors": {
+          "plausible": [
+            "Release everything, restart",
+            "Chase the finish regardless"
+          ],
+          "trap": [
+            "Let go and grab a leg instead"
+          ]
+        }
       },
       {
         "question": "How should you progressively apply finishing pressure to allow safe tap recognition?",
         "answer": "Apply the finishing squeeze over a minimum of 3-5 seconds by gradually increasing the pull on the collar and the extension against the leg. Start at moderate tension and increase incrementally while monitoring for tap signals including verbal tap, hand tap on your body or the mat, foot tapping, or any audible distress. Never jerk or spike the choke to full pressure instantly, as this does not allow the opponent adequate time to recognize the danger and signal submission. In training, err on the side of slower application.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Squeeze gradually over 3-5 sec",
+        "distractors": {
+          "plausible": [
+            "Apply steady moderate pressure",
+            "Increase pressure each breath"
+          ],
+          "trap": [
+            "Jerk to full pressure instantly"
+          ]
+        }
       },
       {
         "question": "Your opponent tucks their chin effectively against the initial collar entry. What grip adjustment bypasses this defense?",
         "answer": "Use a caterpillar grip motion to walk the collar deeper incrementally rather than trying to force it past the chin in one motion. Grip the collar, pull slack through with small adjustments, regrip deeper, and repeat. You can also use your free hand to push the opponent's chin up momentarily while the collar hand feeds underneath, or switch to feeding the collar from below the chin line rather than over the top. If the chin tuck is very strong, transition to a short choke variation that works with a shallower grip placement.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Caterpillar grip, walk deeper",
+        "distractors": {
+          "plausible": [
+            "Yank collar past chin fast",
+            "Switch to different collar"
+          ],
+          "trap": [
+            "Crush jaw to force compliance"
+          ]
+        }
       },
       {
         "question": "What distinguishes a correctly applied blood choke from a dangerous airway choke or jaw crush in the bow and arrow?",
         "answer": "A correctly applied blood choke positions the collar across the sides of the neck compressing the carotid arteries, producing a sensation of dimming vision and lightheadedness without significant pain. A jaw crush positions the collar too high across the mandible, causing sharp pain without effective blood restriction. An airway choke places pressure on the trachea at the front of the throat, causing choking, coughing, and potential tracheal damage. The correction is ensuring the collar sits below the chin and across the lateral neck, with the pulling direction angled to compress the sides rather than crushing the front.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Dizzy, no pain = blood choke",
+        "distractors": {
+          "plausible": [
+            "Sharp pain = correct choke",
+            "Coughing means it's working"
+          ],
+          "trap": [
+            "Press harder on the trachea"
+          ]
+        }
       },
       {
         "question": "In competition, your bow and arrow grip is established but the opponent is defending the leg grab. What finishing alternative maintains pressure?",
         "answer": "If you cannot secure the far leg, you can use your free arm to push against the opponent's far shoulder or hip to create the opposing force instead. Another option is to hook the far leg with your own leg rather than gripping it with your hand, freeing both hands for collar work. You can also transition to a sliding collar choke by bringing your free hand to grip the other side of the collar, creating a cross-collar strangle from the back. The key is maintaining collar tension throughout any grip transition so the opponent cannot use the adjustment window to escape.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Hook far leg, free hands for collar",
+        "distractors": {
+          "plausible": [
+            "Grab the near ankle for leverage",
+            "Push against the near hip"
+          ],
+          "trap": [
+            "Sit back to finish a leglock"
+          ]
+        }
+      }
+    ],
+    "clips": [
+      {
+        "id": "xqNhZVNhxnE",
+        "title": "Bow and Arrow Choke from Back Control",
+        "by": "Evolve MMA",
+        "vertical": false,
+        "channel": "Evolve Mixed Martial Arts",
+        "duration": 45,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "rc77idEskwo",
+        "title": "Bow and Arrow Choke",
+        "by": "Helena Crevar",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 55,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "vlydEGpl50k",
+        "title": "Bow and Arrow Choke from the Back",
+        "by": "Procel BJJ",
+        "vertical": false,
+        "channel": "Procel Brazilian Jiu-Jitsu",
+        "duration": 52,
+        "verified": "2026-07-14"
       }
     ]
   },
@@ -425,22 +566,62 @@
       {
         "question": "What are the earliest recognition cues that a Bow and Arrow Choke is being set up from back control?",
         "answer": "The earliest cues are the attacker's top seatbelt hand releasing from the harness to reach toward the far collar, a lateral hip shift as they begin sliding to the choking side, and the sensation of collar material being gathered or fed across the front of your neck. Recognizing these cues allows you to begin defensive grip fighting before the collar is locked, which is the most effective defensive window.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Seatbelt hand reaches for collar",
+        "distractors": {
+          "plausible": [
+            "Sudden hip switch to mount",
+            "Both hooks release at once"
+          ],
+          "trap": [
+            "Wait until choke feels tight"
+          ]
+        }
       },
       {
         "question": "When should you tap to the Bow and Arrow Choke, and what tap signals should you use?",
         "answer": "Tap immediately when you feel effective blood restriction to the brain, indicated by dimming vision, lightheadedness, or a tightening sensation in your head. Do not wait to see if you can escape once the choke is fully locked and applied from the perpendicular position. Use clear signals: tap your hand on the attacker's body or the mat repeatedly, tap your foot on the mat, or verbally say tap. In training, err on the side of tapping early to prevent loss of consciousness.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Tap at first dizziness or dimming",
+        "distractors": {
+          "plausible": [
+            "Tap only when neck pain spikes",
+            "Nod your head to signal the tap"
+          ],
+          "trap": [
+            "Explode and bridge to power out"
+          ]
+        }
       },
       {
         "question": "Why is the transition phase when the attacker releases a hook the best defensive window?",
         "answer": "When the attacker releases one hook to reach for the far leg, their lower body control is temporarily reduced from two hooks to one. This creates a window where your hip movement is less restricted, making it possible to turn into the attacker and recover guard. Once both grips are established and the attacker reaches the perpendicular finishing position, their mechanical advantage is overwhelming and escape becomes extremely difficult. The hook release is often your last realistic opportunity for a successful escape.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Hook release frees your hips",
+        "distractors": {
+          "plausible": [
+            "Both hooks in is the best window",
+            "Timing never matters for escapes"
+          ],
+          "trap": [
+            "Wait for the perpendicular finish"
+          ]
+        }
       },
       {
         "question": "What is the correct defensive body position when the collar grip has been locked and you cannot strip it?",
         "answer": "Curl your body forward into a compact ball with knees drawn toward your chest, chin tucked firmly to your sternum, and both hands controlling the choking wrist with a two-on-one grip. This shortened body position reduces the attacker's bow-and-arrow leverage by denying the extension they need to generate maximum compression. Simultaneously use hip movement to prevent the attacker from establishing the perpendicular angle. Never bridge or extend your spine, as this assists the attacker's finishing mechanics.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Curl up, chin down, strip the wrist",
+        "distractors": {
+          "plausible": [
+            "Flatten out and stay square",
+            "Push the arm with one hand"
+          ],
+          "trap": [
+            "Bridge and extend your spine"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -463,6 +644,26 @@
         "phase": "Phase 4: Full Defense Sparring",
         "focus": "Live defense against committed bow and arrow attempts",
         "description": "Specific sparring starting from back control where the attacker's primary goal is the bow and arrow choke. Defender works the full defensive sequence: grip prevention, grip stripping, turn-in escape, and survival if caught deep. Track successful escapes over 10 rounds."
+      }
+    ],
+    "clips": [
+      {
+        "id": "Iz0aesx6cKk",
+        "title": "Bow and Arrow Choke Escape",
+        "by": "Revolution BJJ",
+        "vertical": false,
+        "channel": "Revolution BJJ",
+        "duration": 36,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "J91GRsql-ZA",
+        "title": "Bow & Arrow Choke Defense Drill",
+        "by": "Henry Akins",
+        "vertical": false,
+        "channel": "Henry Akins' Hidden Jiu-Jitsu",
+        "duration": 114,
+        "verified": "2026-07-14"
       }
     ]
   }

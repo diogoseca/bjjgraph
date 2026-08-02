@@ -176,6 +176,54 @@ description: "Learn to execute the Triangle Choke from Open Guard. Step-by-step 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Triangle Choke from Open Guard (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Triangle Choke from Collar Sleeve Open Guard",
+      "description": "Triangle Choke from Open Guard (Attacker) film study: Triangle Choke from Collar Sleeve Open Guard, taught by Josh Presley.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/4TSu2ySVQk4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/4TSu2ySVQk4",
+      "url": "https://www.youtube.com/watch?v=4TSu2ySVQk4",
+      "creator": { "@type": "Person", "name": "Josh Presley" },
+      "duration": "PT150S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Triangle setup from Z guard",
+      "description": "Triangle Choke from Open Guard (Attacker) film study: Triangle setup from Z guard, taught by Danny Brown.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/yQVALraYswM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/yQVALraYswM",
+      "url": "https://www.youtube.com/watch?v=yQVALraYswM",
+      "creator": { "@type": "Person", "name": "Danny Brown" },
+      "duration": "PT331S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Triangle choke complete guide and key details",
+      "description": "Triangle Choke from Open Guard (Attacker) film study: Triangle choke complete guide and key details, taught by Jon Thomas.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/UGp6VzbkReA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/UGp6VzbkReA",
+      "url": "https://www.youtube.com/watch?v=UGp6VzbkReA",
+      "creator": { "@type": "Person", "name": "Jon Thomas" },
+      "duration": "PT735S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -186,6 +234,42 @@ The Triangle from Open Guard Attacker position focuses on systematically isolati
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Triangle Choke from Open Guard (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=4TSu2ySVQk4)
+
+<p class="clip-credit"><strong>Triangle Choke from Collar Sleeve Open Guard</strong> — taught by Josh Presley · 2:30 · <a href="https://www.youtube.com/watch?v=4TSu2ySVQk4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=yQVALraYswM)
+
+<p class="clip-credit"><strong>Triangle setup from Z guard</strong> — taught by Danny Brown · 5:31 · <a href="https://www.youtube.com/watch?v=yQVALraYswM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=UGp6VzbkReA)
+
+<p class="clip-credit"><strong>Triangle choke complete guide and key details</strong> — taught by Jon Thomas · 12:15 · <a href="https://www.youtube.com/watch?v=UGp6VzbkReA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

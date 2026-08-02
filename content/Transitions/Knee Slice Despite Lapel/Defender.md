@@ -148,6 +148,43 @@ description: "How to defend against Knee Slice Despite Lapel in BJJ. Recognition
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Knee Slice Despite Lapel (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Dealing with the lapel feed in half guard",
+      "description": "Knee Slice Despite Lapel (Defender) film study: Dealing with the lapel feed in half guard, taught by Inverted Gear.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Mw9e-xftPcY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Mw9e-xftPcY",
+      "url": "https://www.youtube.com/watch?v=Mw9e-xftPcY",
+      "creator": { "@type": "Person", "name": "Inverted Gear" },
+      "duration": "PT92S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Countering the knee slice pass",
+      "description": "Knee Slice Despite Lapel (Defender) film study: Countering the knee slice pass, taught by Kohbukan Sisu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/yiIHeo7NgsE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/yiIHeo7NgsE",
+      "url": "https://www.youtube.com/watch?v=yiIHeo7NgsE",
+      "creator": { "@type": "Person", "name": "Kohbukan Sisu" },
+      "duration": "PT58S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -159,6 +196,34 @@ The critical defensive window occurs between the passer's partial lapel clear an
 **Opponent's Starting Position**: [[Positions/Lapel Guard]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Knee Slice Despite Lapel (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Mw9e-xftPcY)
+
+<p class="clip-credit"><strong>Dealing with the lapel feed in half guard</strong> — taught by Inverted Gear · 1:32 · <a href="https://www.youtube.com/watch?v=Mw9e-xftPcY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=yiIHeo7NgsE)
+
+<p class="clip-credit"><strong>Countering the knee slice pass</strong> — taught by Kohbukan Sisu · 0:58 · <a href="https://www.youtube.com/watch?v=yiIHeo7NgsE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

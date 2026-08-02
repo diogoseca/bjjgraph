@@ -21,37 +21,37 @@ description: "Offensive guide to mastering Russian Cowboy position. Learn contro
     {
       "@type": "HowToStep",
       "name": "Execute Truck Entry",
-      "text": "From this position, attempt Truck Entry. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Truck Entry. This technique is attempted in 16% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Twister from Russian Cowboy",
-      "text": "From this position, attempt Twister from Russian Cowboy. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Twister from Russian Cowboy. This technique is attempted in 11% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Back Control to Crucifix",
-      "text": "From this position, attempt Back Control to Crucifix. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Back Control to Crucifix. This technique is attempted in 9% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Rear Naked Choke from Russian Cowboy",
-      "text": "From this position, attempt Rear Naked Choke from Russian Cowboy. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Rear Naked Choke from Russian Cowboy. This technique is attempted in 18% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Calf Slicer from Russian Cowboy",
-      "text": "From this position, attempt Calf Slicer from Russian Cowboy. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Calf Slicer from Russian Cowboy. This technique is attempted in 8% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Bow and Arrow Choke from Russian Cowboy",
-      "text": "From this position, attempt Bow and Arrow Choke from Russian Cowboy. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Bow and Arrow Choke from Russian Cowboy. This technique is attempted in 0% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -153,6 +153,54 @@ description: "Offensive guide to mastering Russian Cowboy position. Learn contro
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Russian Cowboy (Top) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Double deep hook submissions from the Russian Cowboy",
+      "description": "Russian Cowboy (Top) film study: Double deep hook submissions from the Russian Cowboy, taught by 10th Planet Rochester.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/kGoEjQMRp3I/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/kGoEjQMRp3I",
+      "url": "https://www.youtube.com/watch?v=kGoEjQMRp3I",
+      "creator": { "@type": "Person", "name": "10th Planet Rochester" },
+      "duration": "PT193S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Deep hook submissions from the Russian Cowboy, part 1",
+      "description": "Russian Cowboy (Top) film study: Deep hook submissions from the Russian Cowboy, part 1, taught by 10th Planet Rochester.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/qrzsom95zes/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/qrzsom95zes",
+      "url": "https://www.youtube.com/watch?v=qrzsom95zes",
+      "creator": { "@type": "Person", "name": "10th Planet Rochester" },
+      "duration": "PT275S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Deep hook submissions from the Russian Cowboy, part 2",
+      "description": "Russian Cowboy (Top) film study: Deep hook submissions from the Russian Cowboy, part 2, taught by 10th Planet Rochester.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ndwBL1fHhl4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ndwBL1fHhl4",
+      "url": "https://www.youtube.com/watch?v=ndwBL1fHhl4",
+      "creator": { "@type": "Person", "name": "10th Planet Rochester" },
+      "duration": "PT252S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -164,6 +212,42 @@ From a tactical perspective, the Russian Cowboy represents a transitional state 
 The Russian Cowboy is particularly effective because it combines elements of back attack systems with leg entanglement control, forcing the opponent to defend multiple threats simultaneously. Unlike pure back control where both hooks are in, or pure truck where both legs are controlled, the Russian Cowboy's asymmetric structure creates unique mechanical advantages that make it difficult for the opponent to distribute their defensive resources effectively. This position requires strong positional awareness and the ability to transition fluidly between related control positions.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Russian Cowboy (Top) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=kGoEjQMRp3I)
+
+<p class="clip-credit"><strong>Double deep hook submissions from the Russian Cowboy</strong> — taught by 10th Planet Rochester · 3:13 · <a href="https://www.youtube.com/watch?v=kGoEjQMRp3I" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=qrzsom95zes)
+
+<p class="clip-credit"><strong>Deep hook submissions from the Russian Cowboy, part 1</strong> — taught by 10th Planet Rochester · 4:35 · <a href="https://www.youtube.com/watch?v=qrzsom95zes" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ndwBL1fHhl4)
+
+<p class="clip-credit"><strong>Deep hook submissions from the Russian Cowboy, part 2</strong> — taught by 10th Planet Rochester · 4:12 · <a href="https://www.youtube.com/watch?v=ndwBL1fHhl4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

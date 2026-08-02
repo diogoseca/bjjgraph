@@ -174,6 +174,43 @@ description: "Execute the turn-in escape from twister side control bottom. Step-
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Turn In from Twister Side Control (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Twister side control fundamentals",
+      "description": "Turn In from Twister Side Control (Attacker) film study: Twister side control fundamentals, taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/R55lmkc6Mus/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/R55lmkc6Mus",
+      "url": "https://www.youtube.com/watch?v=R55lmkc6Mus",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT87S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Attacks from twister side control",
+      "description": "Turn In from Twister Side Control (Attacker) film study: Attacks from twister side control, taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/odT3-cVWXdc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/odT3-cVWXdc",
+      "url": "https://www.youtube.com/watch?v=odT3-cVWXdc",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT61S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -183,6 +220,34 @@ Executing the turn-in from twister side control bottom requires a systematic app
 **From Position**: [[Positions/Twister Control/Twister Side Control]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Turn In from Twister Side Control (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=R55lmkc6Mus)
+
+<p class="clip-credit"><strong>Twister side control fundamentals</strong> — taught by Eddie Bravo · 1:27 · <a href="https://www.youtube.com/watch?v=R55lmkc6Mus" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=odT3-cVWXdc)
+
+<p class="clip-credit"><strong>Attacks from twister side control</strong> — taught by Eddie Bravo · 1:01 · <a href="https://www.youtube.com/watch?v=odT3-cVWXdc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

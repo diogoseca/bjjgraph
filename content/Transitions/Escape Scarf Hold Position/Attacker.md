@@ -174,6 +174,54 @@ description: "Execute the Escape from Scarf Hold Position in BJJ. Step-by-step g
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Escape Scarf Hold Position (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Kesa gatame escape",
+      "description": "Escape Scarf Hold Position (Attacker) film study: Kesa gatame escape, taught by SBG Australia coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/2M_6VytUaus/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/2M_6VytUaus",
+      "url": "https://www.youtube.com/watch?v=2M_6VytUaus",
+      "creator": { "@type": "Person", "name": "SBG Australia coach" },
+      "duration": "PT43S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Scarf hold escape with low underhook ghost escape",
+      "description": "Escape Scarf Hold Position (Attacker) film study: Scarf hold escape with low underhook ghost escape, taught by Mat Life coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/chpoSczCLTI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/chpoSczCLTI",
+      "url": "https://www.youtube.com/watch?v=chpoSczCLTI",
+      "creator": { "@type": "Person", "name": "Mat Life coach" },
+      "duration": "PT20S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Modified kesa-gatame escape",
+      "description": "Escape Scarf Hold Position (Attacker) film study: Modified kesa-gatame escape, taught by Shane Moore.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/5eAmcE9UXNc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/5eAmcE9UXNc",
+      "url": "https://www.youtube.com/watch?v=5eAmcE9UXNc",
+      "creator": { "@type": "Person", "name": "Shane Moore" },
+      "duration": "PT126S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -183,6 +231,42 @@ As the attacker executing the Escape from Scarf Hold Position, your objective is
 **From Position**: [[Positions/Side Control/Scarf Hold Position]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Escape Scarf Hold Position (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=2M_6VytUaus)
+
+<p class="clip-credit"><strong>Kesa gatame escape</strong> — taught by SBG Australia coach · 0:43 · <a href="https://www.youtube.com/watch?v=2M_6VytUaus" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=chpoSczCLTI)
+
+<p class="clip-credit"><strong>Scarf hold escape with low underhook ghost escape</strong> — taught by Mat Life coach · 0:20 · <a href="https://www.youtube.com/watch?v=chpoSczCLTI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=5eAmcE9UXNc)
+
+<p class="clip-credit"><strong>Modified kesa-gatame escape</strong> — taught by Shane Moore · 2:06 · <a href="https://www.youtube.com/watch?v=5eAmcE9UXNc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

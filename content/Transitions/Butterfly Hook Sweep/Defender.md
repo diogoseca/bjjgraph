@@ -148,6 +148,54 @@ description: "Complete guide to defending the Butterfly Hook Sweep. Recognition 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Butterfly Hook Sweep (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Passing half butterfly guard",
+      "description": "Butterfly Hook Sweep (Defender) film study: Passing half butterfly guard, taught by John Danaher.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/9miuP4-v0EE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/9miuP4-v0EE",
+      "url": "https://www.youtube.com/watch?v=9miuP4-v0EE",
+      "creator": { "@type": "Person", "name": "John Danaher" },
+      "duration": "PT192S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Efficient butterfly guard pass to beat the hooks",
+      "description": "Butterfly Hook Sweep (Defender) film study: Efficient butterfly guard pass to beat the hooks, taught by Chris Yonkers.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/m4FyrWlQ68k/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/m4FyrWlQ68k",
+      "url": "https://www.youtube.com/watch?v=m4FyrWlQ68k",
+      "creator": { "@type": "Person", "name": "Chris Yonkers" },
+      "duration": "PT318S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Passing half butterfly guard before the sweep",
+      "description": "Butterfly Hook Sweep (Defender) film study: Passing half butterfly guard before the sweep, taught by Jay Rodriguez.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/HqdBh__Rxy0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/HqdBh__Rxy0",
+      "url": "https://www.youtube.com/watch?v=HqdBh__Rxy0",
+      "creator": { "@type": "Person", "name": "Jay Rodriguez" },
+      "duration": "PT272S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -159,6 +207,42 @@ Recognizing the early warning signs of the sweep setup is critical because the t
 **Opponent's Starting Position**: [[Positions/Butterfly Guard/Butterfly Hook Control]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Butterfly Hook Sweep (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=9miuP4-v0EE)
+
+<p class="clip-credit"><strong>Passing half butterfly guard</strong> — taught by John Danaher · 3:12 · <a href="https://www.youtube.com/watch?v=9miuP4-v0EE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=m4FyrWlQ68k)
+
+<p class="clip-credit"><strong>Efficient butterfly guard pass to beat the hooks</strong> — taught by Chris Yonkers · 5:18 · <a href="https://www.youtube.com/watch?v=m4FyrWlQ68k" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=HqdBh__Rxy0)
+
+<p class="clip-credit"><strong>Passing half butterfly guard before the sweep</strong> — taught by Jay Rodriguez · 4:32 · <a href="https://www.youtube.com/watch?v=HqdBh__Rxy0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

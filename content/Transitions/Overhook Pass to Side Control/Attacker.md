@@ -174,6 +174,43 @@ description: "Master executing the Overhook Pass to Side Control. Systematic gui
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Overhook Pass to Side Control (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Body lock guard pass off their underhook",
+      "description": "Overhook Pass to Side Control (Attacker) film study: Body lock guard pass off their underhook, taught by Gordon Ryan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/aAd6OIq94X0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/aAd6OIq94X0",
+      "url": "https://www.youtube.com/watch?v=aAd6OIq94X0",
+      "creator": { "@type": "Person", "name": "Gordon Ryan" },
+      "duration": "PT205S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Standing up to reach over the whizzer",
+      "description": "Overhook Pass to Side Control (Attacker) film study: Standing up to reach over the whizzer, taught by John Beresford.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/mjOUm-T1Rr0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/mjOUm-T1Rr0",
+      "url": "https://www.youtube.com/watch?v=mjOUm-T1Rr0",
+      "creator": { "@type": "Person", "name": "John Beresford" },
+      "duration": "PT85S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -183,6 +220,34 @@ Executing the Overhook Pass to Side Control requires methodical progression thro
 **From Position**: [[Positions/Overhook Control]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Overhook Pass to Side Control (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=aAd6OIq94X0)
+
+<p class="clip-credit"><strong>Body lock guard pass off their underhook</strong> — taught by Gordon Ryan · 3:25 · <a href="https://www.youtube.com/watch?v=aAd6OIq94X0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=mjOUm-T1Rr0)
+
+<p class="clip-credit"><strong>Standing up to reach over the whizzer</strong> — taught by John Beresford · 1:25 · <a href="https://www.youtube.com/watch?v=mjOUm-T1Rr0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

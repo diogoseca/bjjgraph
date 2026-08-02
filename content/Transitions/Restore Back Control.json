@@ -14,21 +14,33 @@
   "outcomes": [
     {
       "to": "Back Control/Top",
-      "probability": 65,
+      "probability": {
+        "gi": 65,
+        "nogi": 65
+      },
       "result": "success"
     },
     {
       "to": "Turtle/Top",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 65,
+  "success_rate": {
+    "gi": 65,
+    "nogi": 65
+  },
   "summary": "Restore Back Control is the recovery transition where an attacker re-establishes full back control—re-inserting hooks, recovering grips, and tightening chest connection—after an opponent partially escapes by clearing a hook or stripping the seat belt.",
   "overview": "Restore Back Control is the critical recovery skill that separates elite back attackers from those who lose the position after initial resistance. When an opponent begins escaping back control—clearing a hook, pummeling out of the seat belt, or turning their hips—the window to restore full control is narrow but highly consequential. Rather than accepting the positional loss and transitioning to turtle top or half guard, skilled practitioners recognize the escape pattern early and execute targeted re-attachment sequences that return to full back control.\n\nThe technique operates on the principle that partial escapes create momentary vulnerabilities. When an opponent commits energy and movement to clearing one hook, their defensive attention shifts away from other control points. A well-timed hook re-insertion on the opposite side, combined with grip switching on the upper body, can not only restore control but often achieve deeper positioning than before the escape attempt. The opponent's defensive movement creates the energy and angles that the attacker redirects back into control.\n\nAdvanced restoration integrates seamlessly with threat cycling from back control maintenance. When the opponent begins an escape, the attacker uses the movement to transition between seat belt, collar grip, and body triangle variations while simultaneously re-establishing hook control. This transforms what appears to be a defensive recovery into an offensive repositioning that maintains continuous pressure throughout the exchange.",
   "related_content": [
@@ -204,46 +216,175 @@
     "flashcards": [
       {
         "question": "What is the recovery hierarchy when restoring back control, and why does this order matter?",
-        "answer": "The hierarchy is: chest connection first, hooks second, grips third. Chest-to-back contact is the anchor that prevents the opponent from turning to face you—without it, hook position is irrelevant because they can complete the escape by rotating. Hooks prevent hip escape and maintain lower body control, providing the platform for upper body grip work. Grips create threats and fine control but cannot compensate for missing hooks or chest contact. Following this hierarchy ensures you address the most critical element first."
+        "answer": "The hierarchy is: chest connection first, hooks second, grips third. Chest-to-back contact is the anchor that prevents the opponent from turning to face you—without it, hook position is irrelevant because they can complete the escape by rotating. Hooks prevent hip escape and maintain lower body control, providing the platform for upper body grip work. Grips create threats and fine control but cannot compensate for missing hooks or chest contact. Following this hierarchy ensures you address the most critical element first.",
+        "answer_line": "Chest, then hooks, then grips",
+        "distractors": {
+          "plausible": [
+            "Hooks first, then chest contact",
+            "Grips first, hooks and chest later"
+          ],
+          "trap": [
+            "Chase the hook, ignore chest"
+          ]
+        }
       },
       {
         "question": "Your opponent has cleared your bottom hook but your top hook and seat belt remain—what is your immediate priority?",
-        "answer": "Immediately drive your chest deeper into their back to prevent them from sliding their hips to the mat. Then follow their hip movement with your own hips and work to re-insert the bottom hook by curling your leg under their thigh. The bottom hook is priority because it prevents the most common escape completion—the hip slide to mat that allows them to turn into you. Do not sacrifice chest connection to chase the hook."
+        "answer": "Immediately drive your chest deeper into their back to prevent them from sliding their hips to the mat. Then follow their hip movement with your own hips and work to re-insert the bottom hook by curling your leg under their thigh. The bottom hook is priority because it prevents the most common escape completion—the hip slide to mat that allows them to turn into you. Do not sacrifice chest connection to chase the hook.",
+        "answer_line": "Drive chest deep, re-insert hook",
+        "distractors": {
+          "plausible": [
+            "Chase the hook immediately",
+            "Tighten seat belt grip first"
+          ],
+          "trap": [
+            "Release top hook to reset"
+          ]
+        }
       },
       {
         "question": "Why is following the opponent's escape momentum more effective than static resistance?",
-        "answer": "Static resistance creates a force-on-force battle that the escaping player can win by changing direction or using explosive movements. Following the escape momentum allows you to maintain contact without exhausting yourself, and the opponent's movement actually creates angles and openings for hook re-insertion. When you ride their movement, you can redirect their energy back into control rather than fighting against it. This also prevents the common scenario where the opponent feints one direction and escapes the other."
+        "answer": "Static resistance creates a force-on-force battle that the escaping player can win by changing direction or using explosive movements. Following the escape momentum allows you to maintain contact without exhausting yourself, and the opponent's movement actually creates angles and openings for hook re-insertion. When you ride their movement, you can redirect their energy back into control rather than fighting against it. This also prevents the common scenario where the opponent feints one direction and escapes the other.",
+        "answer_line": "Ride momentum, redirect energy",
+        "distractors": {
+          "plausible": [
+            "Match their force head-on",
+            "Anticipate and cut off early"
+          ],
+          "trap": [
+            "Muscle back to original spot"
+          ]
+        }
       },
       {
         "question": "When should you abandon the restoration attempt and transition to an alternative position?",
-        "answer": "Abandon restoration when: the opponent has fully turned to face you (transition to front headlock or turtle top), chest connection is completely broken and they have created significant distance (transition to turtle top and look for re-entry), or they have established a solid guard framework (accept the guard position and begin passing). The key indicator is whether you still have a realistic path to restoring chest contact—if not, transitioning to a strong secondary position preserves your advantage rather than fighting a lost battle."
+        "answer": "Abandon restoration when: the opponent has fully turned to face you (transition to front headlock or turtle top), chest connection is completely broken and they have created significant distance (transition to turtle top and look for re-entry), or they have established a solid guard framework (accept the guard position and begin passing). The key indicator is whether you still have a realistic path to restoring chest contact—if not, transitioning to a strong secondary position preserves your advantage rather than fighting a lost battle.",
+        "answer_line": "Face-to-face turn or guard set",
+        "distractors": {
+          "plausible": [
+            "Only after 10 seconds struggling",
+            "Once a hook is stripped once"
+          ],
+          "trap": [
+            "Never abandon, keep grinding"
+          ]
+        }
       },
       {
         "question": "How does grip switching during restoration create offensive opportunities?",
-        "answer": "When you switch from a compromised seat belt to a collar grip or gift wrap, the new grip creates a different submission threat that the opponent must address with a different defensive pattern. This forces them to stop their escape and redirect their hands to the new threat, creating a window for hook re-insertion. For example, switching to collar grip threatens a bow and arrow choke, which forces their hands to their neck, freeing your hooks from grip fighting. Each grip switch resets their defensive framework and interrupts escape momentum."
+        "answer": "When you switch from a compromised seat belt to a collar grip or gift wrap, the new grip creates a different submission threat that the opponent must address with a different defensive pattern. This forces them to stop their escape and redirect their hands to the new threat, creating a window for hook re-insertion. For example, switching to collar grip threatens a bow and arrow choke, which forces their hands to their neck, freeing your hooks from grip fighting. Each grip switch resets their defensive framework and interrupts escape momentum.",
+        "answer_line": "New grip threat frees the hooks",
+        "distractors": {
+          "plausible": [
+            "Switch grips to rest your hands",
+            "Switch grips to confuse them"
+          ],
+          "trap": [
+            "Release grips to save energy"
+          ]
+        }
       },
       {
         "question": "What is the optimal timing window for beginning the restoration sequence after the opponent clears a hook?",
-        "answer": "The optimal window is within the first one to two seconds after the hook is cleared, before the opponent can chain their hook clearance into a secondary escape action like turning or scooting hips away. During this brief window, the opponent is still committed to the clearing motion and has not yet redirected their energy toward the next phase of escape. Delaying beyond this window allows them to build momentum in a new escape direction, making restoration exponentially harder. Immediate recognition and response during the clearing motion itself produces the highest restoration success rate."
+        "answer": "The optimal window is within the first one to two seconds after the hook is cleared, before the opponent can chain their hook clearance into a secondary escape action like turning or scooting hips away. During this brief window, the opponent is still committed to the clearing motion and has not yet redirected their energy toward the next phase of escape. Delaying beyond this window allows them to build momentum in a new escape direction, making restoration exponentially harder. Immediate recognition and response during the clearing motion itself produces the highest restoration success rate.",
+        "answer_line": "First 1-2 seconds after clearing",
+        "distractors": {
+          "plausible": [
+            "Wait until they fully turn",
+            "After they re-grip defensively"
+          ],
+          "trap": [
+            "Delay until they stop moving"
+          ]
+        }
       },
       {
         "question": "Your opponent clears your bottom hook and immediately begins turning toward the underhook side—how do you adjust your force direction?",
-        "answer": "Shift your weight and drive diagonally across their turning direction rather than pulling them back. Use your chest pressure to angle toward the side they are turning away from, cutting off the rotation arc. Simultaneously, your top hook becomes the critical anchor—drive it deeper to create a pivot point that limits their turning radius. Use your overhook arm to cross-face or frame against their jaw to redirect the turn. The goal is to intercept the rotation rather than reverse it, converting their turning energy into an angle that actually facilitates your bottom hook re-insertion from the new position."
+        "answer": "Shift your weight and drive diagonally across their turning direction rather than pulling them back. Use your chest pressure to angle toward the side they are turning away from, cutting off the rotation arc. Simultaneously, your top hook becomes the critical anchor—drive it deeper to create a pivot point that limits their turning radius. Use your overhook arm to cross-face or frame against their jaw to redirect the turn. The goal is to intercept the rotation rather than reverse it, converting their turning energy into an angle that actually facilitates your bottom hook re-insertion from the new position.",
+        "answer_line": "Drive diagonal, anchor top hook",
+        "distractors": {
+          "plausible": [
+            "Pull straight back against turn",
+            "Follow the turn passively"
+          ],
+          "trap": [
+            "Release top hook, chase legs"
+          ]
+        }
       },
       {
         "question": "What grip configuration should you prioritize when the seat belt is fully stripped but both hooks remain?",
-        "answer": "With both hooks intact but no upper body grip, immediately secure a collar grip (gi) or a chinstrap-style grip under the jaw (no-gi) with your choking-side hand. This grip creates an immediate submission threat that the opponent must address with their hands rather than continuing to work on hook clearance. Your non-choking hand should reach across their body to control the far hip or wrist, preventing them from turning. The combination of hooks plus a new upper body threat often produces a stronger control configuration than the original compromised seat belt because the opponent must now defend a fresh attack while already partially fatigued from their escape effort."
+        "answer": "With both hooks intact but no upper body grip, immediately secure a collar grip (gi) or a chinstrap-style grip under the jaw (no-gi) with your choking-side hand. This grip creates an immediate submission threat that the opponent must address with their hands rather than continuing to work on hook clearance. Your non-choking hand should reach across their body to control the far hip or wrist, preventing them from turning. The combination of hooks plus a new upper body threat often produces a stronger control configuration than the original compromised seat belt because the opponent must now defend a fresh attack while already partially fatigued from their escape effort.",
+        "answer_line": "Collar grip or chinstrap now",
+        "distractors": {
+          "plausible": [
+            "Re-seek the seat belt first",
+            "Convert both hooks to grips"
+          ],
+          "trap": [
+            "Let go of hooks to grip fight"
+          ]
+        }
       },
       {
         "question": "How do you integrate body triangle as a restoration tool when standard hook re-insertion is being actively prevented?",
-        "answer": "When the opponent is successfully stripping or blocking individual hooks, the body triangle offers a fundamentally different control mechanism that bypasses their hook defense. To transition, use your top leg to swing over and across their waist while the bottom leg comes underneath to lock the triangle at the ankle. This requires only one clean leg entry rather than two separate hook insertions, and the interlocked legs are far more difficult to strip than individual hooks. The trade-off is reduced mobility and slightly less ability to adjust angles, but the control stability is significantly higher. Initiate the body triangle transition when you recognize the opponent has developed a reliable pattern of stripping your re-inserted hooks within seconds."
+        "answer": "When the opponent is successfully stripping or blocking individual hooks, the body triangle offers a fundamentally different control mechanism that bypasses their hook defense. To transition, use your top leg to swing over and across their waist while the bottom leg comes underneath to lock the triangle at the ankle. This requires only one clean leg entry rather than two separate hook insertions, and the interlocked legs are far more difficult to strip than individual hooks. The trade-off is reduced mobility and slightly less ability to adjust angles, but the control stability is significantly higher. Initiate the body triangle transition when you recognize the opponent has developed a reliable pattern of stripping your re-inserted hooks within seconds.",
+        "answer_line": "Lock a body triangle instead",
+        "distractors": {
+          "plausible": [
+            "Keep re-inserting stripped hook",
+            "Switch to a gift wrap grip"
+          ],
+          "trap": [
+            "Abandon legs, control by arms"
+          ]
+        }
       },
       {
         "question": "Your opponent posts their hand on the mat during the escape attempt—what opportunity does this create for restoration?",
-        "answer": "A posted hand means the opponent has removed one arm from their defensive grip fighting, which opens two immediate opportunities. First, the exposed arm can be attacked with a gift wrap by threading your choking arm over their posting arm and securing their wrist against their own body, simultaneously creating a submission entry and restoring upper body control. Second, if the post is near-side, it opens a crucifix entry where you can trap their arm between your legs while maintaining chest contact. In either case, the posting hand represents a commitment of their defensive resource to base rather than escape, creating a window where your hook re-insertion faces less resistance because they have fewer hands available to fight your feet."
+        "answer": "A posted hand means the opponent has removed one arm from their defensive grip fighting, which opens two immediate opportunities. First, the exposed arm can be attacked with a gift wrap by threading your choking arm over their posting arm and securing their wrist against their own body, simultaneously creating a submission entry and restoring upper body control. Second, if the post is near-side, it opens a crucifix entry where you can trap their arm between your legs while maintaining chest contact. In either case, the posting hand represents a commitment of their defensive resource to base rather than escape, creating a window where your hook re-insertion faces less resistance because they have fewer hands available to fight your feet.",
+        "answer_line": "Attack the post: gift wrap/crucifix",
+        "distractors": {
+          "plausible": [
+            "Wait for the other hand to post",
+            "Switch grips to the free side"
+          ],
+          "trap": [
+            "Ignore post, chase the hooks"
+          ]
+        }
       }
     ],
-    "safety_considerations": "Restore Back Control is a positional maintenance technique with minimal injury risk when practiced correctly. The primary safety concern is avoiding excessive squeezing with hooks that could hyperextend the opponent's knee or hip joints during the re-insertion process. Partners should communicate clearly about hook pressure and tap if any joint pressure becomes uncomfortable during drilling. During the chest connection phase, be mindful of not crushing the opponent's ribs with excessive forward pressure, particularly with smaller training partners."
+    "safety_considerations": "Restore Back Control is a positional maintenance technique with minimal injury risk when practiced correctly. The primary safety concern is avoiding excessive squeezing with hooks that could hyperextend the opponent's knee or hip joints during the re-insertion process. Partners should communicate clearly about hook pressure and tap if any joint pressure becomes uncomfortable during drilling. During the chest connection phase, be mindful of not crushing the opponent's ribs with excessive forward pressure, particularly with smaller training partners.",
+    "clips": [
+      {
+        "id": "Rlk4mGg7vW4",
+        "title": "Maintaining back control with hooks",
+        "by": "Gracie Charlottesville",
+        "vertical": false,
+        "channel": "Gracie Charlottesville",
+        "duration": 84,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "NdOA8wrM9BA",
+        "title": "Two hacks to keep back control",
+        "by": "The Grappling Academy",
+        "vertical": false,
+        "channel": "The Grappling Academy",
+        "duration": 205,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "clM9dN8bBH4",
+        "title": "Turning good back control into great back control",
+        "by": "Jean Jacques Machado",
+        "vertical": false,
+        "channel": "JeanJacquesMachado",
+        "duration": 204,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Restore Back Control Defender",
@@ -316,23 +457,73 @@
     "flashcards": [
       {
         "question": "Why is continuous movement essential when the attacker attempts to restore back control?",
-        "answer": "Continuous movement prevents the attacker from executing their restoration hierarchy. They need momentary stability to re-insert hooks, tighten chest contact, and recover grips. If you keep moving, they must constantly adjust rather than executing restoration steps. Pausing gives them the time window needed to re-insert a hook or switch grips, which resets your escape progress."
+        "answer": "Continuous movement prevents the attacker from executing their restoration hierarchy. They need momentary stability to re-insert hooks, tighten chest contact, and recover grips. If you keep moving, they must constantly adjust rather than executing restoration steps. Pausing gives them the time window needed to re-insert a hook or switch grips, which resets your escape progress.",
+        "answer_line": "Keep moving, deny stability",
+        "distractors": {
+          "plausible": [
+            "Pause to plan next move",
+            "Move only once hooks are in"
+          ],
+          "trap": [
+            "Stop and brace against pressure"
+          ]
+        }
       },
       {
         "question": "What should your immediate priority be when you feel the attacker's chest pressing deeper into your back during your escape?",
-        "answer": "Create hip distance immediately. The attacker is prioritizing chest connection because it is their primary anchor for restoration. Drive your hips away from them by scooting forward or bridging to create space. Once chest connection is broken, their hooks and grips become much less effective. Do not stop to fight their grips—address the chest pressure first."
+        "answer": "Create hip distance immediately. The attacker is prioritizing chest connection because it is their primary anchor for restoration. Drive your hips away from them by scooting forward or bridging to create space. Once chest connection is broken, their hooks and grips become much less effective. Do not stop to fight their grips—address the chest pressure first.",
+        "answer_line": "Create hip distance now",
+        "distractors": {
+          "plausible": [
+            "Fight the grips first",
+            "Wait for hooks before reacting"
+          ],
+          "trap": [
+            "Push back into their chest"
+          ]
+        }
       },
       {
         "question": "How do you exploit the attacker's grip switch during restoration?",
-        "answer": "When the attacker switches grips (e.g., from seat belt to collar), there is a brief moment where their upper body control is reduced. Use this window to accelerate your turn or clear a hook. The grip switch requires them to release one control point to establish another, creating a transition gap. Timing your explosive escape movement to coincide with their grip switch maximizes your success rate."
+        "answer": "When the attacker switches grips (e.g., from seat belt to collar), there is a brief moment where their upper body control is reduced. Use this window to accelerate your turn or clear a hook. The grip switch requires them to release one control point to establish another, creating a transition gap. Timing your explosive escape movement to coincide with their grip switch maximizes your success rate.",
+        "answer_line": "Explode during their grip switch",
+        "distractors": {
+          "plausible": [
+            "Wait until new grip is set",
+            "Fight the grip switch by hand"
+          ],
+          "trap": [
+            "Relax during the transition"
+          ]
+        }
       },
       {
         "question": "You have cleared both hooks but the attacker still has a strong seat belt grip—what escape sequence should you follow?",
-        "answer": "With both hooks cleared, your legs are free to move but the seat belt maintains upper body connection. First, scoot your hips forward and away to stretch out the chest-to-back connection, making the seat belt the only remaining control point. Then use two-on-one grip fighting on the choking arm to break or weaken the seat belt. As the grip loosens, immediately turn toward the underhook side to face the opponent. The key is creating maximum hip distance before committing to the turn, because the seat belt without hooks lacks the lower body control to follow your rotation effectively."
+        "answer": "With both hooks cleared, your legs are free to move but the seat belt maintains upper body connection. First, scoot your hips forward and away to stretch out the chest-to-back connection, making the seat belt the only remaining control point. Then use two-on-one grip fighting on the choking arm to break or weaken the seat belt. As the grip loosens, immediately turn toward the underhook side to face the opponent. The key is creating maximum hip distance before committing to the turn, because the seat belt without hooks lacks the lower body control to follow your rotation effectively.",
+        "answer_line": "Stretch space, break seat belt",
+        "distractors": {
+          "plausible": [
+            "Turn immediately without space",
+            "Attack the seat belt hand only"
+          ],
+          "trap": [
+            "Stay tight and wait it out"
+          ]
+        }
       },
       {
         "question": "What neck protection must you maintain while using your hands to strip a re-inserting hook?",
-        "answer": "When committing a hand to hook defense, you must keep your chin tucked tightly to your chest and your opposite shoulder elevated to close the gap on the choking side. The hand defending the hook should work quickly with a short, decisive push on the foot rather than an extended grip fight that leaves your neck exposed for multiple seconds. Ideally, use the hand on the same side as the re-inserting hook so your opposite arm remains available for neck defense. If both hands must momentarily leave neck defense, bunch your shoulders up toward your ears and tuck your chin maximally to create a structural barrier that buys you the fraction of a second needed to complete the hook strip."
+        "answer": "When committing a hand to hook defense, you must keep your chin tucked tightly to your chest and your opposite shoulder elevated to close the gap on the choking side. The hand defending the hook should work quickly with a short, decisive push on the foot rather than an extended grip fight that leaves your neck exposed for multiple seconds. Ideally, use the hand on the same side as the re-inserting hook so your opposite arm remains available for neck defense. If both hands must momentarily leave neck defense, bunch your shoulders up toward your ears and tuck your chin maximally to create a structural barrier that buys you the fraction of a second needed to complete the hook strip.",
+        "answer_line": "Tuck chin, quick same-side push",
+        "distractors": {
+          "plausible": [
+            "Use both hands to strip hook",
+            "Extend the grip fight longer"
+          ],
+          "trap": [
+            "Free both hands, expose neck"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -350,6 +541,26 @@
         "phase": "Phase 3: Positional Sparring",
         "focus": "Full resistance escape against restoration",
         "description": "Start from partially compromised back control with partner attempting full restoration. 3-minute rounds with the goal of completing escape or maintaining position. Track which escape patterns succeed most consistently."
+      }
+    ],
+    "clips": [
+      {
+        "id": "bDZntPrcLpg",
+        "title": "Escaping back control via turtle escape",
+        "by": "BJJ101",
+        "vertical": false,
+        "channel": "BJJ101",
+        "duration": 37,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "3Jd2llamfl8",
+        "title": "Back control escape explained simply",
+        "by": "Jean Jacques Machado",
+        "vertical": false,
+        "channel": "JeanJacquesMachado",
+        "duration": 189,
+        "verified": "2026-07-15"
       }
     ]
   },

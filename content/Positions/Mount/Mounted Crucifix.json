@@ -102,7 +102,7 @@
             "probability": 75
           },
           {
-            "technique": "Neck Crank",
+            "technique": "Neck Crank from Twister Control",
             "target": "game-over",
             "probability": 65
           }
@@ -297,97 +297,237 @@
     "transitions": [
       {
         "transition": "Armbar from Crucifix",
-        "attempt_probability": 11
-      },
-      {
-        "transition": "Straight Armbar",
-        "attempt_probability": 8
+        "attempt_probability": {
+          "gi": 15,
+          "nogi": 14
+        }
       },
       {
         "transition": "Rear Naked Choke from Mounted Crucifix",
-        "attempt_probability": 9
+        "attempt_probability": {
+          "gi": 8,
+          "nogi": 10
+        }
       },
       {
         "transition": "Back Control to Crucifix",
-        "attempt_probability": 9
+        "attempt_probability": {
+          "gi": 3,
+          "nogi": 3
+        }
       },
       {
         "transition": "Armbar on Free Arm",
-        "attempt_probability": 8
+        "attempt_probability": {
+          "gi": 9,
+          "nogi": 8
+        }
       },
       {
         "transition": "Gift Wrap to Technical Mount",
-        "attempt_probability": 9
+        "attempt_probability": {
+          "gi": 11,
+          "nogi": 11
+        }
       },
       {
         "transition": "Neck Crank from Mounted Crucifix",
-        "attempt_probability": 5
+        "attempt_probability": {
+          "gi": 1,
+          "nogi": 3
+        }
       },
       {
         "transition": "Mount to Armbar",
-        "attempt_probability": 4
+        "attempt_probability": {
+          "gi": 9,
+          "nogi": 8
+        }
       },
       {
         "transition": "Mounted Crucifix to S Mount",
-        "attempt_probability": 8
+        "attempt_probability": {
+          "gi": 11,
+          "nogi": 11
+        }
       },
       {
         "transition": "Gift Wrap Transition",
-        "attempt_probability": 8
+        "attempt_probability": {
+          "gi": 7,
+          "nogi": 7
+        }
       },
       {
         "transition": "Back Take from Top",
-        "attempt_probability": 9
+        "attempt_probability": {
+          "gi": 8,
+          "nogi": 9
+        }
       },
       {
         "transition": "Seat Belt Control Back",
-        "attempt_probability": 3
-      },
-      {
-        "transition": "Mounted Crucifix Armbar",
-        "attempt_probability": 2
+        "attempt_probability": {
+          "gi": 5,
+          "nogi": 5
+        }
       },
       {
         "transition": "Belly Down Armbar from Mounted Crucifix",
-        "attempt_probability": 3
+        "attempt_probability": {
+          "gi": 3,
+          "nogi": 3
+        }
       },
       {
         "transition": "Mounted Crucifix Armbar from Mounted Crucifix",
-        "attempt_probability": 4
+        "attempt_probability": {
+          "gi": 10,
+          "nogi": 8
+        }
       }
     ],
     "flashcards": [
       {
         "question": "What are the essential weight distribution principles for maintaining mounted crucifix control?",
-        "answer": "Weight should be distributed forward with hips low to prevent bridging escapes while keeping upper body mobile for attacks. The balance requires approximately 60% of weight forward over opponent's chest to control their hip movement, while the remaining 40% stays centered to maintain base. Leaning too far back enables explosive bridges; leaning too far forward risks being rolled. The key is staying heavy through your hips while keeping shoulders light enough to attack or adjust."
+        "answer": "Weight should be distributed forward with hips low to prevent bridging escapes while keeping upper body mobile for attacks. The balance requires approximately 60% of weight forward over opponent's chest to control their hip movement, while the remaining 40% stays centered to maintain base. Leaning too far back enables explosive bridges; leaning too far forward risks being rolled. The key is staying heavy through your hips while keeping shoulders light enough to attack or adjust.",
+        "answer_line": "60% forward, hips low",
+        "distractors": {
+          "plausible": [
+            "Weight back for mobility",
+            "Even 50/50 weight split"
+          ],
+          "trap": [
+            "Lean back to relax hips"
+          ]
+        }
       },
       {
         "question": "How should you adjust your knee pressure when opponent attempts to extract their trapped arm?",
-        "answer": "When opponent initiates arm extraction, immediately squeeze knees tighter together while driving your shin bone across their upper arm or bicep. Simultaneously shift weight slightly toward the escaping arm side to add pressure. The pinching motion with knees creates a vice-like trap that tightens as they pull. Avoid widening your knees or lifting your hips, as this creates the space they need. Think of your legs as a closing gate rather than a static barrier."
+        "answer": "When opponent initiates arm extraction, immediately squeeze knees tighter together while driving your shin bone across their upper arm or bicep. Simultaneously shift weight slightly toward the escaping arm side to add pressure. The pinching motion with knees creates a vice-like trap that tightens as they pull. Avoid widening your knees or lifting your hips, as this creates the space they need. Think of your legs as a closing gate rather than a static barrier.",
+        "answer_line": "Squeeze knees, shin across arm",
+        "distractors": {
+          "plausible": [
+            "Lift hips to add pressure",
+            "Loosen legs, grab wrist instead"
+          ],
+          "trap": [
+            "Widen knees to trap harder"
+          ]
+        }
       },
       {
         "question": "Your opponent starts bridging explosively while you have mounted crucifix - what adjustment prevents them from creating escape space?",
-        "answer": "Drop your chest pressure immediately onto their face or shoulder while driving hips forward and down into their midsection. Time your weight shift to land heavy just as their bridge peaks, using their own momentum against them. Keep knees tight and ride their movement rather than fighting against it. If the bridge is toward your trapped-arm side, you may transition to that side's submission attack while they are committed to the explosive movement."
+        "answer": "Drop your chest pressure immediately onto their face or shoulder while driving hips forward and down into their midsection. Time your weight shift to land heavy just as their bridge peaks, using their own momentum against them. Keep knees tight and ride their movement rather than fighting against it. If the bridge is toward your trapped-arm side, you may transition to that side's submission attack while they are committed to the explosive movement.",
+        "answer_line": "Drop chest, ride the bridge",
+        "distractors": {
+          "plausible": [
+            "Match their bridge with yours",
+            "Post hands to stop the bridge"
+          ],
+          "trap": [
+            "Lean back to absorb bridge"
+          ]
+        }
       },
       {
         "question": "What grip priorities should you establish from mounted crucifix top position?",
-        "answer": "Primary grip priority is controlling the opponent's far-side collar or underhook for choke setup. Secondary is wrist control on any free arm to prevent defensive framing. In no-gi, prioritize a cross-face or head control with one hand while the other threatens submissions. Avoid gripping both arms simultaneously as this reduces your attack options. Your legs provide the primary arm control, freeing your hands for offense rather than grip-fighting."
+        "answer": "Primary grip priority is controlling the opponent's far-side collar or underhook for choke setup. Secondary is wrist control on any free arm to prevent defensive framing. In no-gi, prioritize a cross-face or head control with one hand while the other threatens submissions. Avoid gripping both arms simultaneously as this reduces your attack options. Your legs provide the primary arm control, freeing your hands for offense rather than grip-fighting.",
+        "answer_line": "Collar/underhook, legs trap arms",
+        "distractors": {
+          "plausible": [
+            "Grip both arms with hands",
+            "Two-on-one wrist control"
+          ],
+          "trap": [
+            "Release legs, grab both wrists"
+          ]
+        }
       },
       {
         "question": "How do you apply pressure to drain opponent's energy while maintaining mounted crucifix?",
-        "answer": "Settle your weight through your pelvis directly onto their diaphragm area, making each breath difficult and energy-intensive. Keep constant forward pressure that forces them to carry your weight. Maintain the arm traps tight so their attempts to create space require full-body effort rather than efficient technical movements. The psychological pressure of being unable to defend with trapped arms accelerates fatigue. Avoid unnecessary movement that gives them recovery windows."
+        "answer": "Settle your weight through your pelvis directly onto their diaphragm area, making each breath difficult and energy-intensive. Keep constant forward pressure that forces them to carry your weight. Maintain the arm traps tight so their attempts to create space require full-body effort rather than efficient technical movements. The psychological pressure of being unable to defend with trapped arms accelerates fatigue. Avoid unnecessary movement that gives them recovery windows.",
+        "answer_line": "Pelvis pressure on diaphragm",
+        "distractors": {
+          "plausible": [
+            "Bounce weight to tire them",
+            "Grip harder, less base weight"
+          ],
+          "trap": [
+            "Stay light, move constantly"
+          ]
+        }
       },
       {
         "question": "Your opponent partially extracts one arm but remains pinned - how do you recover full control?",
-        "answer": "Immediately re-establish control before they complete extraction by driving your knee back over their arm while shifting weight to that side. If the arm is too far extracted, transition to Gift Wrap control by capturing their escaping arm across their face with your hand and re-securing. Alternatively, abandon that arm entirely and attack the remaining trapped arm with an immediate submission threat, using their escape effort against them as they're now committed to one direction."
+        "answer": "Immediately re-establish control before they complete extraction by driving your knee back over their arm while shifting weight to that side. If the arm is too far extracted, transition to Gift Wrap control by capturing their escaping arm across their face with your hand and re-securing. Alternatively, abandon that arm entirely and attack the remaining trapped arm with an immediate submission threat, using their escape effort against them as they're now committed to one direction.",
+        "answer_line": "Re-trap knee or gift wrap",
+        "distractors": {
+          "plausible": [
+            "Chase the arm with both hands",
+            "Release other arm to compensate"
+          ],
+          "trap": [
+            "Full release, restart mount"
+          ]
+        }
       },
       {
         "question": "What signals indicate you should transition to back control rather than continuing submission attempts from mounted crucifix?",
-        "answer": "Transition to back when opponent consistently turns their face away exposing the back of their head, when they start turtling their upper body to defend chokes, when your submission attempts are being effectively defended but they're opening their back during defense, or when fatigue has reduced your ability to maintain tight crucifix control. The back take preserves your dominant position if you sense control slipping, and opponents often give their back more readily than expected when defending crucifix submissions."
+        "answer": "Transition to back when opponent consistently turns their face away exposing the back of their head, when they start turtling their upper body to defend chokes, when your submission attempts are being effectively defended but they're opening their back during defense, or when fatigue has reduced your ability to maintain tight crucifix control. The back take preserves your dominant position if you sense control slipping, and opponents often give their back more readily than expected when defending crucifix submissions.",
+        "answer_line": "Face turns away, back opens",
+        "distractors": {
+          "plausible": [
+            "Any successful choke defense",
+            "Opponent's first bridge attempt"
+          ],
+          "trap": [
+            "Release control to reset grips"
+          ]
+        }
       },
       {
         "question": "How do you recover mounted crucifix control if your base is disrupted during a submission attempt?",
-        "answer": "Post immediately with your free hand on the mat to prevent being rolled while keeping the arm-trapping leg tight. Re-establish mount fundamentals first by squaring your hips and dropping weight, then re-isolate arms systematically. If the crucifix is lost entirely, settle for standard mount and work back to crucifix when stability returns. Never chase the crucifix position at the expense of mount - mount is still dominant and crucifix can be re-established from a stable foundation."
+        "answer": "Post immediately with your free hand on the mat to prevent being rolled while keeping the arm-trapping leg tight. Re-establish mount fundamentals first by squaring your hips and dropping weight, then re-isolate arms systematically. If the crucifix is lost entirely, settle for standard mount and work back to crucifix when stability returns. Never chase the crucifix position at the expense of mount - mount is still dominant and crucifix can be re-established from a stable foundation.",
+        "answer_line": "Post hand, keep legs trapped",
+        "distractors": {
+          "plausible": [
+            "Release legs to rebalance",
+            "Grab both arms immediately"
+          ],
+          "trap": [
+            "Abandon mount, chase crucifix"
+          ]
+        }
+      }
+    ],
+    "clips": [
+      {
+        "id": "rh7TUm0ysww",
+        "title": "Isolating the near arm in crucifix",
+        "by": "Gordon Ryan",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 151,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "WFCq8CASHeA",
+        "title": "Crucifix attack chain",
+        "by": "Johnny Jitsu",
+        "vertical": false,
+        "channel": "Johnny Jitsu",
+        "duration": 106,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "JT4v_EQyq5k",
+        "title": "Top crucifix breakdown",
+        "by": "Thomas Kincaid",
+        "vertical": false,
+        "channel": "Thomas Kincaid MMA",
+        "duration": 60,
+        "verified": "2026-07-14"
       }
     ]
   },
@@ -619,74 +759,339 @@
     "transitions": [
       {
         "transition": "Hip Escape from Mounted Crucifix",
-        "attempt_probability": 33
+        "attempt_probability": {
+          "gi": 19,
+          "nogi": 19
+        }
       },
       {
         "transition": "Bridge and Roll",
-        "attempt_probability": 12
+        "attempt_probability": {
+          "gi": 14,
+          "nogi": 13
+        }
       },
       {
         "transition": "Elbow Escape to Guard",
-        "attempt_probability": 14
+        "attempt_probability": {
+          "gi": 12,
+          "nogi": 12
+        }
       },
       {
         "transition": "Upa Escape",
-        "attempt_probability": 9
+        "attempt_probability": {
+          "gi": 14,
+          "nogi": 14
+        }
       },
       {
         "transition": "Hip Escape to Guard",
-        "attempt_probability": 12
+        "attempt_probability": {
+          "gi": 11,
+          "nogi": 11
+        }
       },
       {
         "transition": "Explosive Bridge to Turtle",
-        "attempt_probability": 10
+        "attempt_probability": {
+          "gi": 9,
+          "nogi": 10
+        }
       },
       {
         "transition": "Arm Drag Sweep",
-        "attempt_probability": 3
+        "attempt_probability": {
+          "gi": 3,
+          "nogi": 3
+        }
       },
       {
         "transition": "Rolling Escape to Guard",
-        "attempt_probability": 6
+        "attempt_probability": {
+          "gi": 6,
+          "nogi": 7
+        }
       },
       {
         "transition": "Bridge Escape from Mounted Crucifix",
-        "attempt_probability": 1
+        "attempt_probability": {
+          "gi": 12,
+          "nogi": 11
+        }
       }
     ],
     "flashcards": [
       {
         "question": "What is your first priority when you find yourself in mounted crucifix bottom position?",
-        "answer": "Your first priority is immediate submission defense - protect your neck and any remaining free limbs before attempting any positional escape. Tuck your chin tightly to your chest, elevate your shoulders toward your ears to protect the sides of your neck, and use any free arm to create secondary defensive barriers. Positional escapes come second because attempting to escape while arms are trapped typically results in either back exposure or submission. Survival must precede improvement."
+        "answer": "Your first priority is immediate submission defense - protect your neck and any remaining free limbs before attempting any positional escape. Tuck your chin tightly to your chest, elevate your shoulders toward your ears to protect the sides of your neck, and use any free arm to create secondary defensive barriers. Positional escapes come second because attempting to escape while arms are trapped typically results in either back exposure or submission. Survival must precede improvement.",
+        "answer_line": "Protect neck first, chin tucked",
+        "distractors": {
+          "plausible": [
+            "Immediately bridge to escape",
+            "Extract both arms first"
+          ],
+          "trap": [
+            "Bridge before defending neck"
+          ]
+        }
       },
       {
         "question": "Why must arm extraction precede traditional mount escape attempts from this position?",
-        "answer": "Attempting mount escapes like bridge and roll or elbow escape while arms remain trapped creates catastrophic vulnerabilities. Without arms to post or frame, escape movements expose your back directly to opponent who already has dominant control. The opponent can easily transition to back control with your arms still compromised, which is significantly worse than mounted crucifix. Arm extraction first restores your primary defensive tools, making subsequent escapes possible and safe."
+        "answer": "Attempting mount escapes like bridge and roll or elbow escape while arms remain trapped creates catastrophic vulnerabilities. Without arms to post or frame, escape movements expose your back directly to opponent who already has dominant control. The opponent can easily transition to back control with your arms still compromised, which is significantly worse than mounted crucifix. Arm extraction first restores your primary defensive tools, making subsequent escapes possible and safe.",
+        "answer_line": "Free arms before escaping mount",
+        "distractors": {
+          "plausible": [
+            "Bridge and roll immediately",
+            "Elbow escape immediately"
+          ],
+          "trap": [
+            "Turn away to shield the neck"
+          ]
+        }
       },
       {
         "question": "Your opponent shifts their weight forward to attack your neck with a choke - what escape opportunity does this create?",
-        "answer": "When opponent shifts forward for neck attacks, their base becomes compromised as weight moves off their hips. This creates a brief window for explosive hip movement - either a powerful bridge toward their trapped-arm side to disrupt balance, or a hip escape toward the open side. The key is timing your explosion precisely when their weight commits forward. Their attack commitment often loosens their leg control momentarily, potentially creating arm extraction opportunities simultaneously."
+        "answer": "When opponent shifts forward for neck attacks, their base becomes compromised as weight moves off their hips. This creates a brief window for explosive hip movement - either a powerful bridge toward their trapped-arm side to disrupt balance, or a hip escape toward the open side. The key is timing your explosion precisely when their weight commits forward. Their attack commitment often loosens their leg control momentarily, potentially creating arm extraction opportunities simultaneously.",
+        "answer_line": "Explode hips when weight shifts",
+        "distractors": {
+          "plausible": [
+            "Wait passively for the choke",
+            "Push their head away first"
+          ],
+          "trap": [
+            "Grab choking arm, pull hard"
+          ]
+        }
       },
       {
         "question": "How should you manage energy when trapped in mounted crucifix bottom?",
-        "answer": "Energy must be conserved for strategic moments rather than wasted on continuous explosive attempts. Maintain constant subtle hip movement to prevent opponent from settling perfectly, but save explosive escapes for windows when opponent's balance is compromised - typically during their positional adjustments, submission setups, or weight shifts. Continuous explosive bridging against stable control depletes energy rapidly with no escape benefit, leaving you exhausted and more vulnerable to submission."
+        "answer": "Energy must be conserved for strategic moments rather than wasted on continuous explosive attempts. Maintain constant subtle hip movement to prevent opponent from settling perfectly, but save explosive escapes for windows when opponent's balance is compromised - typically during their positional adjustments, submission setups, or weight shifts. Continuous explosive bridging against stable control depletes energy rapidly with no escape benefit, leaving you exhausted and more vulnerable to submission.",
+        "answer_line": "Save explosive bursts for windows",
+        "distractors": {
+          "plausible": [
+            "Bridge continuously to escape",
+            "Stay completely still, wait"
+          ],
+          "trap": [
+            "Explode constantly to tire them"
+          ]
+        }
       },
       {
         "question": "What technique should you use to extract trapped arms without strengthening opponent's control?",
-        "answer": "Use subtle hip movements and angle changes rather than forcefully pulling arms against established leg control. Hip rotation creates small spaces in the arm entanglement that allow sliding extraction. Wait for moments when opponent shifts weight or adjusts position to time your extraction - their movement naturally loosens the leg trap momentarily. Pulling forcefully against tight control actually creates leverage that tightens the trap and may expose the arm to direct armbar attacks."
+        "answer": "Use subtle hip movements and angle changes rather than forcefully pulling arms against established leg control. Hip rotation creates small spaces in the arm entanglement that allow sliding extraction. Wait for moments when opponent shifts weight or adjusts position to time your extraction - their movement naturally loosens the leg trap momentarily. Pulling forcefully against tight control actually creates leverage that tightens the trap and may expose the arm to direct armbar attacks.",
+        "answer_line": "Angle hips, don't pull straight",
+        "distractors": {
+          "plausible": [
+            "Pull arm hard against the trap",
+            "Extract immediately at all cost"
+          ],
+          "trap": [
+            "Yank arm free with full force"
+          ]
+        }
       },
       {
         "question": "When might accepting a worse-seeming position like turtle actually improve your situation from mounted crucifix bottom?",
-        "answer": "Accepting turtle can be advantageous when your arms become freed during an explosive bridge even if you cannot complete a full reversal. Turtle without arm entanglement offers significantly more escape options than mounted crucifix - you can immediately work for guard recovery, standing base, or sit-out escapes. The key is ensuring arm extraction happens during or before the turtle transition. Turtle with free arms is a recoverable position; mounted crucifix is a position trending toward submission."
+        "answer": "Accepting turtle can be advantageous when your arms become freed during an explosive bridge even if you cannot complete a full reversal. Turtle without arm entanglement offers significantly more escape options than mounted crucifix - you can immediately work for guard recovery, standing base, or sit-out escapes. The key is ensuring arm extraction happens during or before the turtle transition. Turtle with free arms is a recoverable position; mounted crucifix is a position trending toward submission.",
+        "answer_line": "Turtle only with arms free",
+        "distractors": {
+          "plausible": [
+            "Turtle to hide from subs",
+            "Any turtle beats crucifix"
+          ],
+          "trap": [
+            "Turtle with arms still trapped"
+          ]
+        }
       },
       {
         "question": "How do you defend against chokes when both arms are trapped and cannot protect your neck?",
-        "answer": "Without arms, neck defense relies entirely on positioning adjustments. Tuck chin extremely tight to chest, making it difficult for opponent to sink choking arm underneath. Elevate shoulders toward ears to close gaps on the sides of neck. Turn head toward whichever arm is attacking to reduce choking leverage. Keep constant subtle movement to prevent opponent from settling their choke grip. If one arm has any mobility, use it to fight the choking arm or create space at your neck."
+        "answer": "Without arms, neck defense relies entirely on positioning adjustments. Tuck chin extremely tight to chest, making it difficult for opponent to sink choking arm underneath. Elevate shoulders toward ears to close gaps on the sides of neck. Turn head toward whichever arm is attacking to reduce choking leverage. Keep constant subtle movement to prevent opponent from settling their choke grip. If one arm has any mobility, use it to fight the choking arm or create space at your neck.",
+        "answer_line": "Chin tucked, shoulders up",
+        "distractors": {
+          "plausible": [
+            "Turn head away from choke",
+            "Stay relaxed, save energy"
+          ],
+          "trap": [
+            "Extend neck to create space"
+          ]
+        }
       },
       {
         "question": "What mental approach helps maintain composure in the mounted crucifix bottom position?",
-        "answer": "Accept that this is a bad position requiring patience rather than panic. Focus on small, achievable goals - first survive the immediate submission threat, then create small spaces, then extract one arm, then escape mount. Each step builds toward escape rather than trying to accomplish everything at once. Recognize that opponent must also expend energy to attack, and patient defense can create opportunities when they overcommit. Panic leads to energy depletion and technical breakdown; composure maintains efficient defense until escape windows appear."
+        "answer": "Accept that this is a bad position requiring patience rather than panic. Focus on small, achievable goals - first survive the immediate submission threat, then create small spaces, then extract one arm, then escape mount. Each step builds toward escape rather than trying to accomplish everything at once. Recognize that opponent must also expend energy to attack, and patient defense can create opportunities when they overcommit. Panic leads to energy depletion and technical breakdown; composure maintains efficient defense until escape windows appear.",
+        "answer_line": "Patient survival, small goals",
+        "distractors": {
+          "plausible": [
+            "Explode immediately to escape",
+            "Focus only on full escape"
+          ],
+          "trap": [
+            "Panic-bridge to force a gap"
+          ]
+        }
+      }
+    ],
+    "clips": [
+      {
+        "id": "Wt2NW_hfTd0",
+        "title": "Escaping the crucifix",
+        "by": "Mick Hall",
+        "vertical": false,
+        "channel": "Mick Hall",
+        "duration": 228,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "PARsvWFmssI",
+        "title": "Chaining Escapes From Bottom Pin",
+        "by": "Gordon Ryan",
+        "vertical": false,
+        "channel": "Gordon Ryan",
+        "duration": 273,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "QpryBex1AXA",
+        "title": "The Hawking Defensive Structure",
+        "by": "Priit Mihkelson",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 322,
+        "verified": "2026-07-15"
       }
     ]
-  }
+  },
+  "flashcards_position": [
+    {
+      "question": "What configuration defines the mounted crucifix and distinguishes it from standard mount?",
+      "answer": "The mounted crucifix is a hybrid where the top player holds mount while using their legs to trap one or both of the bottom player's arms, threading a leg over the arm near the shoulder or bicep. This fuses mount's positional dominance with the arm-isolation mechanics of the traditional crucifix. The defining feature is that the bottom player's arms are removed from play by leg entanglement rather than left free as in standard mount. This single structural change converts a strong control position into a near-inescapable submission platform.",
+      "answer_line": "Mount plus legs trap the arms",
+      "distractors": {
+        "plausible": [
+          "Mount with both wrists gripped",
+          "Side control with arm trapped"
+        ],
+        "trap": [
+          "Back control with legs hooked"
+        ]
+      }
+    },
+    {
+      "question": "Why is arm isolation the mechanical linchpin that makes the mounted crucifix so dominant?",
+      "answer": "In standard mount the bottom player retains their arms to build frames, establish grips, and create the structure required for bridges and hip escapes. Trapping one or both arms with the legs strips away these primary defensive tools, leaving the neck, remaining limb, and back exposed with no framing available. The position therefore operates on a control hierarchy: mount establishes the base, the leg-trap removes the defense, and the exposure that follows creates the attacks. Removing the arms is what shifts the asymmetry from strong-but-escapable to dominant-and-trending-to-submission.",
+      "answer_line": "Removes arms, kills all framing",
+      "distractors": {
+        "plausible": [
+          "Just adds extra body weight",
+          "Mainly restricts opponent's legs"
+        ],
+        "trap": [
+          "Only matters for submissions"
+        ]
+      }
+    },
+    {
+      "question": "How does weight distribution govern the stability of the mounted crucifix for both players?",
+      "answer": "Stability depends on the top player keeping hips low and biasing weight forward over the chest, roughly 60% forward to pin the hips and kill the bridge with the remaining 40% centered to hold base against a roll. A rearward or upright posture surrenders the space the bottom player needs to buck and extract, while too much forward commitment invites being rolled. For the bottom player, that same forward pressure is the obstacle: any escape requires disrupting the weight during a moment when the top player shifts to attack. The position is stable precisely because forward pressure and tight legs leave no gap for the trapped player to exploit.",
+      "answer_line": "Forward weight kills the bridge",
+      "distractors": {
+        "plausible": [
+          "Weight back keeps options open",
+          "Perfectly even weight always"
+        ],
+        "trap": [
+          "Sit upright for better posture"
+        ]
+      }
+    },
+    {
+      "question": "How does the leg entanglement behave mechanically as the trapped arm is pulled against it?",
+      "answer": "The leg entanglement functions like a closing gate rather than a static barrier, with the knees acting as the hinge. When the knees stay pinched tight and a shin is driven across the trapped arm, the trap actually tightens as the arm pulls against it, feeding the resistance back into the leverage. If the knees separate or the hips lift, that gate opens and the arm gains the space to slide free. This is why extraction depends on creating small angular spaces rather than pulling straight, since a straight pull only closes the gate harder.",
+      "answer_line": "Knees pinched tighten as pulled",
+      "distractors": {
+        "plausible": [
+          "Wider knees grip harder",
+          "Lifting hips resets the trap"
+        ],
+        "trap": [
+          "Let hips rise to reposition"
+        ]
+      }
+    },
+    {
+      "question": "How does the mounted crucifix differ from the traditional crucifix and from a gift wrap?",
+      "answer": "The traditional crucifix traps the arms while controlling the opponent from the back or side, whereas the mounted crucifix keeps the top player squarely in mount facing the opponent, adding mount's forward pressure and point value to the arm-trap. The gift wrap uses the hands and one of the opponent's own arms wrapped across their face to isolate a limb, relying on grip rather than leg entanglement. The mounted crucifix instead uses the legs as the trapping mechanism, freeing the top player's hands entirely for attacks. This distinction in trapping tool defines each position's control dynamics and transition options.",
+      "answer_line": "Legs trap arms, hands stay free",
+      "distractors": {
+        "plausible": [
+          "Same as gift wrap, no legs",
+          "Same as back crucifix control"
+        ],
+        "trap": [
+          "Treat it like a gift wrap"
+        ]
+      }
+    },
+    {
+      "question": "Why does the mounted crucifix create tactical dilemmas rather than a single line of attack?",
+      "answer": "Because the trapped arms remove defensive framing, the neck, the free arm, and the exposed back all become simultaneous threats that cannot be defended at once. Defending the neck opens the arm to attack, defending the arm turns the head and exposes the back, and turning away invites a back take. This multiplicity of coexisting threats, rather than any one technique, is what makes the position high-percentage. For the bottom player it means committing to a single defense necessarily concedes another line, which is the structural reason escape percentages from here are so low.",
+      "answer_line": "Defending one exposes another",
+      "distractors": {
+        "plausible": [
+          "Only the neck is at risk",
+          "Only submissions threaten you"
+        ],
+        "trap": [
+          "Focus solely on neck defense"
+        ]
+      }
+    },
+    {
+      "question": "Where does the mounted crucifix sit in the positional hierarchy relative to its adjacent positions?",
+      "answer": "It emerges from high mount or S-mount when the bottom player's arms become exposed to leg entanglement, sitting one tier above standard mount in dominance. From here the natural advancement is to back control or a seat belt, since the arms are already controlled and the bottom player often surrenders the back while defending. If the trap is lost, the position degrades back toward standard mount rather than collapsing entirely, so mount remains the fallback floor. Understanding it as a bridge between mount and back control clarifies why it functions as a transition hub as well as a finishing platform.",
+      "answer_line": "Bridges mount to back control",
+      "distractors": {
+        "plausible": [
+          "Emerges only from closed guard",
+          "Always leads to armbar next"
+        ],
+        "trap": [
+          "Treat it as a dead-end position"
+        ]
+      }
+    }
+  ],
+  "clips": [
+    {
+      "id": "pwyBJLfBbpY",
+      "title": "Crucifix position overview",
+      "by": "Animal",
+      "vertical": false,
+      "channel": "Animal",
+      "duration": 56,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "4QlWJFhI7i8",
+      "title": "No-gi mounted crucifix",
+      "by": "Esteem Jiujitsu",
+      "vertical": false,
+      "channel": "Esteem Jiujitsu HQ",
+      "duration": 124,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "rh7TUm0ysww",
+      "title": "Isolating the near arm in crucifix",
+      "by": "Gordon Ryan",
+      "vertical": false,
+      "channel": "BJJ Fanatics",
+      "duration": 151,
+      "verified": "2026-07-14"
+    }
+  ]
 }

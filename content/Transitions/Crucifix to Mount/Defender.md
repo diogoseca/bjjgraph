@@ -148,6 +148,43 @@ description: "Defend against the Crucifix to Mount transition in BJJ. Recognitio
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Crucifix to Mount (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Escaping the mounted crucifix",
+      "description": "Crucifix to Mount (Defender) film study: Escaping the mounted crucifix, taught by Shem Rock.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/41koUZWmeHE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/41koUZWmeHE",
+      "url": "https://www.youtube.com/watch?v=41koUZWmeHE",
+      "creator": { "@type": "Person", "name": "Shem Rock" },
+      "duration": "PT146S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Crucifix escape",
+      "description": "Crucifix to Mount (Defender) film study: Crucifix escape, taught by Chosen Few BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/C7wr6klxbC8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/C7wr6klxbC8",
+      "url": "https://www.youtube.com/watch?v=C7wr6klxbC8",
+      "creator": { "@type": "Person", "name": "Chosen Few BJJ" },
+      "duration": "PT89S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +194,34 @@ Defending the Crucifix to Mount transition requires recognizing the brief window
 **Opponent's Starting Position**: [[Positions/Crucifix]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Crucifix to Mount (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=41koUZWmeHE)
+
+<p class="clip-credit"><strong>Escaping the mounted crucifix</strong> — taught by Shem Rock · 2:26 · <a href="https://www.youtube.com/watch?v=41koUZWmeHE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=C7wr6klxbC8)
+
+<p class="clip-credit"><strong>Crucifix escape</strong> — taught by Chosen Few BJJ · 1:29 · <a href="https://www.youtube.com/watch?v=C7wr6klxbC8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

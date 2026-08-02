@@ -411,43 +411,172 @@
   "flashcards": [
     {
       "question": "What is the correct sequence of stages in a fundamentally sound escape?",
-      "answer": "Frames first, then space creation through hip movement, then angle generation perpendicular to the opponent's pressure, and finally recovery to an improved guard position. Each stage prepares the next rather than acting in isolation."
+      "answer": "Frames first, then space creation through hip movement, then angle generation perpendicular to the opponent's pressure, and finally recovery to an improved guard position. Each stage prepares the next rather than acting in isolation.",
+      "answer_line": "Frames, space, angle, recover",
+      "distractors": {
+        "plausible": [
+          "Explode first, then frame up",
+          "Create angle before framing"
+        ],
+        "trap": [
+          "Bridge hard, skip framing entirely"
+        ]
+      }
     },
     {
       "question": "Why should you establish frames before attempting any explosive movement?",
-      "answer": "Frames create a structural barrier that stops the opponent from re-consolidating control. Exploding without frames spends energy on a disruption the opponent simply re-closes, leading to fatigue and progressively weaker escape attempts."
+      "answer": "Frames create a structural barrier that stops the opponent from re-consolidating control. Exploding without frames spends energy on a disruption the opponent simply re-closes, leading to fatigue and progressively weaker escape attempts.",
+      "answer_line": "Stops opponent re-consolidating",
+      "distractors": {
+        "plausible": [
+          "Saves energy for later bursts",
+          "Builds momentum before angle"
+        ],
+        "trap": [
+          "Explode first to catch them off"
+        ]
+      }
     },
     {
       "question": "What is the most common postural error when escaping a pin, and how do you correct it?",
-      "answer": "Staying flat on your back lets the opponent keep full pressure over both shoulders. Correct it by turning to face the opponent, creating a perpendicular angle that frees your hips and enables guard recovery."
+      "answer": "Staying flat on your back lets the opponent keep full pressure over both shoulders. Correct it by turning to face the opponent, creating a perpendicular angle that frees your hips and enables guard recovery.",
+      "answer_line": "Turn to face, create angle",
+      "distractors": {
+        "plausible": [
+          "Push their hips away first",
+          "Bridge and roll immediately"
+        ],
+        "trap": [
+          "Stay flat and wait it out"
+        ]
+      }
     },
     {
       "question": "How should frame pressure be generated to avoid rapid arm fatigue?",
-      "answer": "Drive frames from hip movement and core rotation using skeletal alignment and leverage, not isolated arm strength. Bone structure holds against weight far longer than muscular pushing, which collapses quickly under sustained pressure."
+      "answer": "Drive frames from hip movement and core rotation using skeletal alignment and leverage, not isolated arm strength. Bone structure holds against weight far longer than muscular pushing, which collapses quickly under sustained pressure.",
+      "answer_line": "Drive frames from hips, not arms",
+      "distractors": {
+        "plausible": [
+          "Push hard with straight arms",
+          "Grip fight for wrist control"
+        ],
+        "trap": [
+          "Curl arms in and muscle them off"
+        ]
+      }
     },
     {
       "question": "Why is recovering to a specific guard better than simply 'creating space'?",
-      "answer": "Without a target guard, the space and angle you create gets re-closed because you have no transition objective. Choosing a destination such as closed, half, or butterfly guard gives the escape a definite endpoint to consolidate."
+      "answer": "Without a target guard, the space and angle you create gets re-closed because you have no transition objective. Choosing a destination such as closed, half, or butterfly guard gives the escape a definite endpoint to consolidate.",
+      "answer_line": "Gives escape a definite target",
+      "distractors": {
+        "plausible": [
+          "Just create space and scramble",
+          "Stand straight up to reset"
+        ],
+        "trap": [
+          "Give up position, go neutral"
+        ]
+      }
     },
     {
       "question": "How do escape fundamentals apply differently to back control versus mount?",
-      "answer": "Back control prioritizes hand-fighting to prevent the choke and removing hooks before rotating to face the opponent. Mount prioritizes framing the hips, bridging for displacement, and elbow-escaping the knee through to recover guard."
+      "answer": "Back control prioritizes hand-fighting to prevent the choke and removing hooks before rotating to face the opponent. Mount prioritizes framing the hips, bridging for displacement, and elbow-escaping the knee through to recover guard.",
+      "answer_line": "Back: strip hooks; mount: bridge",
+      "distractors": {
+        "plausible": [
+          "Same sequence for every position",
+          "Prioritize submission escape first"
+        ],
+        "trap": [
+          "Ignore hooks, spin to back escape"
+        ]
+      }
     },
     {
       "question": "What must you never sacrifice while working an escape?",
-      "answer": "Submission awareness. Protecting the neck, arms, and legs must continue throughout the escape, because a position-focused escape that ignores active threats can directly feed the opponent a submission finish."
+      "answer": "Submission awareness. Protecting the neck, arms, and legs must continue throughout the escape, because a position-focused escape that ignores active threats can directly feed the opponent a submission finish.",
+      "answer_line": "Submission awareness",
+      "distractors": {
+        "plausible": [
+          "Speed of the escape",
+          "Top pressure and control"
+        ],
+        "trap": [
+          "Neck defense, to move faster"
+        ]
+      }
     },
     {
       "question": "When should explosive effort be used versus continuous pressure during an escape?",
-      "answer": "Continuous frame pressure maintains defensive structure and conserves energy. Explosive effort is reserved for the critical window when the opponent shifts weight or adjusts base, producing maximum displacement at the right moment."
+      "answer": "Continuous frame pressure maintains defensive structure and conserves energy. Explosive effort is reserved for the critical window when the opponent shifts weight or adjusts base, producing maximum displacement at the right moment.",
+      "answer_line": "Explode on their weight shift",
+      "distractors": {
+        "plausible": [
+          "Explode constantly for pressure",
+          "Never explode, only frame"
+        ],
+        "trap": [
+          "Explode early to surprise them"
+        ]
+      }
     },
     {
       "question": "What does it mean that escapes should be continuous rather than discrete attempts?",
-      "answer": "Instead of making isolated attempts and resetting, you maintain constant escape pressure and flow to an alternate pathway the moment one is blocked, preventing the opponent from consolidating control between attempts."
+      "answer": "Instead of making isolated attempts and resetting, you maintain constant escape pressure and flow to an alternate pathway the moment one is blocked, preventing the opponent from consolidating control between attempts.",
+      "answer_line": "Flow to next path, no reset",
+      "distractors": {
+        "plausible": [
+          "Reset and retry same escape",
+          "Wait for opponent to tire"
+        ],
+        "trap": [
+          "Stop and rebuild guard first"
+        ]
+      }
     },
     {
       "question": "How does varying timing and rhythm improve escape success against a skilled opponent?",
-      "answer": "Repeating identical timing lets the opponent anticipate and counter before the escape develops. Alternating between continuous pressure and explosive bursts creates uncertainty that opens gaps in their defensive reactions."
+      "answer": "Repeating identical timing lets the opponent anticipate and counter before the escape develops. Alternating between continuous pressure and explosive bursts creates uncertainty that opens gaps in their defensive reactions.",
+      "answer_line": "Mix rhythm to create uncertainty",
+      "distractors": {
+        "plausible": [
+          "Keep a steady constant pace",
+          "Match opponent's rhythm exactly"
+        ],
+        "trap": [
+          "Repeat same explosive burst"
+        ]
+      }
+    }
+  ],
+  "clips": [
+    {
+      "id": "g0G7LYfW9Y8",
+      "title": "Key detail for escaping mount bottom",
+      "by": "SBG PDX",
+      "vertical": false,
+      "channel": "SBG PDX & Vancouver BJJ and MMA Videos",
+      "duration": 118,
+      "verified": "2026-07-15"
+    },
+    {
+      "id": "JiqEETm20Wo",
+      "title": "The one principle behind every side control escape",
+      "by": "Jon Thomas",
+      "vertical": false,
+      "channel": "JonThomasBJJ",
+      "duration": 1287,
+      "verified": "2026-07-15"
+    },
+    {
+      "id": "775gXyYzB08",
+      "title": "The first five escapes you need to know",
+      "by": "Knight Jiu-Jitsu",
+      "vertical": false,
+      "channel": "Knight Jiu-Jitsu",
+      "duration": 521,
+      "verified": "2026-07-15"
     }
   ]
 }

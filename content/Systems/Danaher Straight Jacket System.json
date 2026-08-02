@@ -368,39 +368,129 @@
   "flashcards": [
     {
       "question": "What is the Danaher Straight Jacket System?",
-      "answer": "It is John Danaher's systematic back-attack framework that immobilizes the opponent's upper body through a progressive grip hierarchy (seat belt to gift wrap to crossed-arm straight jacket), eliminating hand defense before finishing with the rear naked choke."
+      "answer": "It is John Danaher's systematic back-attack framework that immobilizes the opponent's upper body through a progressive grip hierarchy (seat belt to gift wrap to crossed-arm straight jacket), eliminating hand defense before finishing with the rear naked choke.",
+      "answer_line": "Seat belt to gift wrap to jacket",
+      "distractors": {
+        "plausible": [
+          "Just a tighter body triangle",
+          "Hook-based back control system"
+        ],
+        "trap": [
+          "Rush straight to the choke"
+        ]
+      }
     },
     {
       "question": "Why does the system prioritize upper body control over hook insertion?",
-      "answer": "Because an opponent with free hands can defend the neck indefinitely; neutralizing hand-fighting through the seat belt is the critical gateway, while hooks only maintain position and do not establish the controlling connection."
+      "answer": "Because an opponent with free hands can defend the neck indefinitely; neutralizing hand-fighting through the seat belt is the critical gateway, while hooks only maintain position and do not establish the controlling connection.",
+      "answer_line": "Free hands defend the neck",
+      "distractors": {
+        "plausible": [
+          "Hooks are harder to establish",
+          "Hooks control hips better"
+        ],
+        "trap": [
+          "Insert hooks before grips"
+        ]
+      }
     },
     {
       "question": "How is the gift wrap established within the system?",
-      "answer": "By trapping one of the opponent's arms across their own body—typically feeding your under-arm through to grip your over-shoulder wrist—creating a closed loop that removes one defensive hand and opens immediate submission entries."
+      "answer": "By trapping one of the opponent's arms across their own body—typically feeding your under-arm through to grip your over-shoulder wrist—creating a closed loop that removes one defensive hand and opens immediate submission entries.",
+      "answer_line": "Trap one arm across their body",
+      "distractors": {
+        "plausible": [
+          "Overhook both arms tightly",
+          "Wrist ride from north-south"
+        ],
+        "trap": [
+          "Let go of seat belt to reach"
+        ]
+      }
     },
     {
       "question": "What defines the straight jacket configuration?",
-      "answer": "Both of the opponent's arms are secured in a crossed position so their own limbs form a barrier against neck defense, achieved by threading your over-shoulder arm behind their far arm to grip the wrist while controlling the near arm."
+      "answer": "Both of the opponent's arms are secured in a crossed position so their own limbs form a barrier against neck defense, achieved by threading your over-shoulder arm behind their far arm to grip the wrist while controlling the near arm.",
+      "answer_line": "Both arms crossed and trapped",
+      "distractors": {
+        "plausible": [
+          "One arm gift wrapped, one free",
+          "Hooks locked, body triangle"
+        ],
+        "trap": [
+          "Release near arm for choke"
+        ]
+      }
     },
     {
       "question": "What is the central dilemma principle that makes the system effective?",
-      "answer": "Every defensive action opens a specific offensive opportunity: the opponent cannot defend the neck without exposing the arms, and cannot free the arms without exposing the neck, so each escape attempt becomes submission leverage."
+      "answer": "Every defensive action opens a specific offensive opportunity: the opponent cannot defend the neck without exposing the arms, and cannot free the arms without exposing the neck, so each escape attempt becomes submission leverage.",
+      "answer_line": "Defend neck or arms, not both",
+      "distractors": {
+        "plausible": [
+          "Fatigue forces eventual tap",
+          "Hooks create same dilemma"
+        ],
+        "trap": [
+          "Attack whichever is easiest"
+        ]
+      }
     },
     {
       "question": "How should you respond when an opponent's strong hand fight keeps breaking the seat belt?",
-      "answer": "Fight for one grip at a time, prioritizing the over-shoulder grip, and use a body triangle or hook control to hold position while re-establishing broken grips rather than chasing both grips simultaneously."
+      "answer": "Fight for one grip at a time, prioritizing the over-shoulder grip, and use a body triangle or hook control to hold position while re-establishing broken grips rather than chasing both grips simultaneously.",
+      "answer_line": "Secure one grip, body triangle",
+      "distractors": {
+        "plausible": [
+          "Chase both grips at once",
+          "Abandon seat belt for hooks"
+        ],
+        "trap": [
+          "Release grips to re-attack"
+        ]
+      }
     },
     {
       "question": "What should you do if the rear naked choke is stalled by strong chin defense from the straight jacket?",
-      "answer": "Do not force the choke; recognize that committing to chin defense exposes the arms, and transition to kimura, armbar, or short-choke variations while maintaining control until the defensive structure fatigues."
+      "answer": "Do not force the choke; recognize that committing to chin defense exposes the arms, and transition to kimura, armbar, or short-choke variations while maintaining control until the defensive structure fatigues.",
+      "answer_line": "Switch to kimura or armbar",
+      "distractors": {
+        "plausible": [
+          "Crank harder through the chin",
+          "Break grips and reset position"
+        ],
+        "trap": [
+          "Let go and dive for hooks"
+        ]
+      }
     },
     {
       "question": "How do you prevent forward-roll or granby escapes during back control?",
-      "answer": "Maintain tight chest-to-back connection and heavy hip pressure, consider a body triangle for superior lower-body control, and follow the opponent's rolling momentum to retake the back on the opposite side rather than fighting the roll."
+      "answer": "Maintain tight chest-to-back connection and heavy hip pressure, consider a body triangle for superior lower-body control, and follow the opponent's rolling momentum to retake the back on the opposite side rather than fighting the roll.",
+      "answer_line": "Stay chest-tight, follow roll",
+      "distractors": {
+        "plausible": [
+          "Post out to stop the roll",
+          "Release hooks to rebalance"
+        ],
+        "trap": [
+          "Fight the roll, flatten out"
+        ]
+      }
     },
     {
       "question": "What is the most common entry-phase mistake in this system?",
-      "answer": "Rushing to insert hooks before securing the seat belt; upper body control must come first because hooks only maintain position while the seat belt neutralizes the hand-fighting that lets opponents defend the neck."
+      "answer": "Rushing to insert hooks before securing the seat belt; upper body control must come first because hooks only maintain position while the seat belt neutralizes the hand-fighting that lets opponents defend the neck.",
+      "answer_line": "Hooks before securing seat belt",
+      "distractors": {
+        "plausible": [
+          "Gift wrap before seat belt",
+          "Choke attempt before grips set"
+        ],
+        "trap": [
+          "Skip straight to full mount"
+        ]
+      }
     }
   ]
 }

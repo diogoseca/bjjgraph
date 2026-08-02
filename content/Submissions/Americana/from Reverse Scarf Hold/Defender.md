@@ -150,6 +150,54 @@ description: "Defend against the Americana from Reverse Scarf Hold with recognit
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Americana from Reverse Scarf Hold (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Spinning back door escape from side control",
+      "description": "Americana from Reverse Scarf Hold (Defender) film study: Spinning back door escape from side control, taught by Science Of JiuJitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/gawKiLxmZbc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/gawKiLxmZbc",
+      "url": "https://www.youtube.com/watch?v=gawKiLxmZbc",
+      "creator": { "@type": "Person", "name": "Science Of JiuJitsu" },
+      "duration": "PT48S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Kesa gatame escape",
+      "description": "Americana from Reverse Scarf Hold (Defender) film study: Kesa gatame escape, taught by Mattix Academy.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/-czPu1EvCU0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/-czPu1EvCU0",
+      "url": "https://www.youtube.com/watch?v=-czPu1EvCU0",
+      "creator": { "@type": "Person", "name": "Mattix Academy" },
+      "duration": "PT209S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Escaping reverse sit-out kesa gatame side control",
+      "description": "Americana from Reverse Scarf Hold (Defender) film study: Escaping reverse sit-out kesa gatame side control, taught by Uncle Kevvy.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/q2WjKMK1v94/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/q2WjKMK1v94",
+      "url": "https://www.youtube.com/watch?v=q2WjKMK1v94",
+      "creator": { "@type": "Person", "name": "Uncle Kevvy" },
+      "duration": "PT280S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -160,6 +208,42 @@ Defending the Americana from Reverse Scarf Hold demands early recognition of the
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Americana from Reverse Scarf Hold (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=gawKiLxmZbc)
+
+<p class="clip-credit"><strong>Spinning back door escape from side control</strong> — taught by Science Of JiuJitsu · 0:48 · <a href="https://www.youtube.com/watch?v=gawKiLxmZbc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=-czPu1EvCU0)
+
+<p class="clip-credit"><strong>Kesa gatame escape</strong> — taught by Mattix Academy · 3:29 · <a href="https://www.youtube.com/watch?v=-czPu1EvCU0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=q2WjKMK1v94)
+
+<p class="clip-credit"><strong>Escaping reverse sit-out kesa gatame side control</strong> — taught by Uncle Kevvy · 4:40 · <a href="https://www.youtube.com/watch?v=q2WjKMK1v94" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

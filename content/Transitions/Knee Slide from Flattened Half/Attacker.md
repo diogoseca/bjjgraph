@@ -174,6 +174,43 @@ description: "Complete attacker guide for the knee slide pass from flattened hal
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Knee Slide from Flattened Half (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Inside knee cut through the knee shield",
+      "description": "Knee Slide from Flattened Half (Attacker) film study: Inside knee cut through the knee shield, taught by War Room Jiu Jitsu coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/yj_6xcl2emA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/yj_6xcl2emA",
+      "url": "https://www.youtube.com/watch?v=yj_6xcl2emA",
+      "creator": { "@type": "Person", "name": "War Room Jiu Jitsu coach" },
+      "duration": "PT70S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Knee slide pass to mount",
+      "description": "Knee Slide from Flattened Half (Attacker) film study: Knee slide pass to mount, taught by Matt McCormick.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/MHkLdz5_qsw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/MHkLdz5_qsw",
+      "url": "https://www.youtube.com/watch?v=MHkLdz5_qsw",
+      "creator": { "@type": "Person", "name": "Matt McCormick" },
+      "duration": "PT79S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -183,6 +220,34 @@ As the attacker executing the Knee Slide from Flattened Half Guard, you are oper
 **From Position**: [[Positions/Half Guard/Flattened Half Guard]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Knee Slide from Flattened Half (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=yj_6xcl2emA)
+
+<p class="clip-credit"><strong>Inside knee cut through the knee shield</strong> — taught by War Room Jiu Jitsu coach · 1:10 · <a href="https://www.youtube.com/watch?v=yj_6xcl2emA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=MHkLdz5_qsw)
+
+<p class="clip-credit"><strong>Knee slide pass to mount</strong> — taught by Matt McCormick · 1:19 · <a href="https://www.youtube.com/watch?v=MHkLdz5_qsw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

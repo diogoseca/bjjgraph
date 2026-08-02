@@ -170,6 +170,54 @@ description: "Learn to execute the toe hold from Ashi Garami top position. Step-
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Toe Hold from Ashi Garami (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Crossover Toe Hold",
+      "description": "Toe Hold from Ashi Garami (Attacker) film study: Crossover Toe Hold, taught by Craig Jones.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Kx8gZ3QdO8s/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Kx8gZ3QdO8s",
+      "url": "https://www.youtube.com/watch?v=Kx8gZ3QdO8s",
+      "creator": { "@type": "Person", "name": "Craig Jones" },
+      "duration": "PT51S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Slide into Ashi to Straight Toe Hold",
+      "description": "Toe Hold from Ashi Garami (Attacker) film study: Slide into Ashi to Straight Toe Hold, taught by Josh Leduc.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/tUKGafnOlJo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/tUKGafnOlJo",
+      "url": "https://www.youtube.com/watch?v=tUKGafnOlJo",
+      "creator": { "@type": "Person", "name": "Josh Leduc" },
+      "duration": "PT58S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Brutal toe hold from single leg X",
+      "description": "Toe Hold from Ashi Garami (Attacker) film study: Brutal toe hold from single leg X, taught by Jeff Messina.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/o-xpj81VZzE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/o-xpj81VZzE",
+      "url": "https://www.youtube.com/watch?v=o-xpj81VZzE",
+      "creator": { "@type": "Person", "name": "Jeff Messina" },
+      "duration": "PT93S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -180,6 +228,42 @@ Executing the toe hold from Ashi Garami top position requires recognizing the na
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Toe Hold from Ashi Garami (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Kx8gZ3QdO8s)
+
+<p class="clip-credit"><strong>Crossover Toe Hold</strong> — taught by Craig Jones · 0:51 · <a href="https://www.youtube.com/watch?v=Kx8gZ3QdO8s" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=tUKGafnOlJo)
+
+<p class="clip-credit"><strong>Slide into Ashi to Straight Toe Hold</strong> — taught by Josh Leduc · 0:58 · <a href="https://www.youtube.com/watch?v=tUKGafnOlJo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=o-xpj81VZzE)
+
+<p class="clip-credit"><strong>Brutal toe hold from single leg X</strong> — taught by Jeff Messina · 1:33 · <a href="https://www.youtube.com/watch?v=o-xpj81VZzE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

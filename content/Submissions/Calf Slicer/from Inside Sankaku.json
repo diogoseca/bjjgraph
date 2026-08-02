@@ -18,7 +18,10 @@
   "target_area": "Calf muscle and posterior knee structures",
   "starting_position": "Inside Sankaku",
   "from_position": "Inside Sankaku/Top",
-  "success_rate": 50,
+  "success_rate": {
+    "gi": 50,
+    "nogi": 50
+  },
   "overview": "The calf slicer from inside sankaku exploits the inherent geometry of the honey hole leg entanglement to apply devastating compression against the opponent's calf muscle and posterior knee structures. When the standard inside heel hook is well-defended — the opponent hides their heel, controls grip fighting, or boots their foot free — the calf slicer provides a secondary finishing option that punishes the very defensive postures designed to neutralize the heel hook.\n\nFrom the inside sankaku configuration, the attacker threads their shin bone behind the opponent's knee crease, using the existing figure-four leg lock as an anchor point. By controlling the opponent's ankle and extending their own hips forward while pulling the foot toward them, the attacker creates a fulcrum effect that compresses the calf muscle against the hard edge of the shin bone. This compression attacks the gastrocnemius and soleus muscles, threatens the posterior cruciate ligament, and can hyperextend the knee if the opponent fails to tap.\n\nThe technique carries particular strategic value in competition because opponents conditioned to defend heel hooks often straighten their trapped leg as a defensive reflex — a movement that directly sets up the calf slicer entry. Understanding this attack-defense dynamic transforms the inside sankaku from a single-threat position into a genuine dilemma where every defensive choice opens a different submission pathway.",
   "safety_considerations": {
     "injury_risks": [
@@ -106,17 +109,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 50,
+      "probability": {
+        "gi": 50,
+        "nogi": 50
+      },
       "result": "success"
     },
     {
       "to": "Inside Sankaku/Top",
-      "probability": 32,
+      "probability": {
+        "gi": 32,
+        "nogi": 32
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 18,
+      "probability": {
+        "gi": 18,
+        "nogi": 18
+      },
       "result": "counter"
     }
   ],
@@ -278,52 +290,172 @@
       {
         "question": "What anatomical structures does the calf slicer from inside sankaku primarily attack?",
         "answer": "The calf slicer primarily compresses the gastrocnemius and soleus muscles of the calf against the shin bone, while simultaneously threatening the posterior cruciate ligament and the popliteal structures behind the knee joint. Secondary pressure can also affect the Achilles tendon when the foot is controlled in dorsiflexion during the finishing compression.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Calf muscle crushed vs shin bone",
+        "distractors": {
+          "plausible": [
+            "Achilles tendon only",
+            "ACL and meniscus tissue"
+          ],
+          "trap": [
+            "Ride it out, slicers are harmless"
+          ]
+        }
       },
       {
         "question": "What defensive posture from your opponent creates the ideal opening for transitioning from heel hook to calf slicer?",
         "answer": "When the opponent straightens their trapped leg to defend the heel hook — either by booting their foot forward, hiding their heel against their hip, or extending their knee to prevent rotation — they create space behind the knee crease that allows shin threading. The very act of neutralizing the rotational heel hook threat opens the linear compression threat of the calf slicer.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Leg straightens to defend heel hook",
+        "distractors": {
+          "plausible": [
+            "Opponent kicks foot free of grip",
+            "Opponent bridges to escape hips"
+          ],
+          "trap": [
+            "Heel hidden, crank rotation anyway"
+          ]
+        }
       },
       {
         "question": "Where exactly should your shin bone be positioned for maximum compression effectiveness?",
         "answer": "Your shin bone must sit directly in the popliteal fossa — the soft tissue depression behind the knee joint. If your shin is too high on the hamstring or too low on the upper calf, the compression dissipates into larger muscle groups without creating the focused pressure needed for a tap. The bony anterior edge of the tibia should press directly into the neurovascular bundle behind the knee.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Shin in popliteal fossa",
+        "distractors": {
+          "plausible": [
+            "Shin high on hamstring muscle",
+            "Shin low on upper calf"
+          ],
+          "trap": [
+            "Crank knee sideways to force tap"
+          ]
+        }
       },
       {
         "question": "What is the correct speed of application for the calf slicer in training and what happens if applied too fast?",
         "answer": "Apply pressure over a minimum of 5-7 seconds in training, using gradual steady force and never spiking or jerking. The calf slicer produces intense pain very rapidly once the fulcrum is properly positioned, and your partner may not have adequate time to signal a tap if pressure is applied at competition speed. Fast application risks serious calf muscle tears, posterior cruciate ligament sprains, and potential Achilles tendon damage.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Apply slow, 5-7 seconds steady",
+        "distractors": {
+          "plausible": [
+            "3-4 seconds is safe enough",
+            "Speed is fine if they tap early"
+          ],
+          "trap": [
+            "Spike hips hard to finish fast"
+          ]
+        }
       },
       {
         "question": "Your opponent rolls toward you to relieve calf slicer pressure — what submission becomes available?",
         "answer": "When the opponent rolls toward you to change the compression angle, their heel typically rotates toward your centerline, directly exposing the inside heel hook. Follow their roll while maintaining hip connection and transition your hands from the ankle grip to a heel hook configuration. This creates the core dilemma of the position — escaping the calf slicer by rolling feeds the inside heel hook, and defending the heel hook by straightening feeds the calf slicer.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Roll exposes inside heel hook",
+        "distractors": {
+          "plausible": [
+            "Roll escapes both submissions",
+            "Roll only resets to neutral"
+          ],
+          "trap": [
+            "Chase the roll, release grips"
+          ]
+        }
       },
       {
         "question": "How do you maintain the figure-four anchor while transitioning from heel hook to calf slicer?",
         "answer": "Keep your outside leg actively crossed over your inside leg throughout the transition, maintaining the triangle lock around the opponent's trapped leg. The figure-four provides the structural anchor that makes compression possible — without it, the opponent simply extracts their leg. Squeeze the triangle tighter as you begin threading your shin to compensate for any loosening that occurs during the grip transition from heel to ankle control.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Squeeze triangle tighter throughout",
+        "distractors": {
+          "plausible": [
+            "Loosen grip to reposition hands",
+            "Switch legs before adjusting grip"
+          ],
+          "trap": [
+            "Release triangle to grab ankle"
+          ]
+        }
       },
       {
         "question": "What are the immediate steps if your training partner does not tap and you feel structural resistance in their knee?",
         "answer": "Immediately release all pressure without waiting for a verbal or physical tap. Remove your shin from behind the knee, release the ankle grip, and allow your partner to straighten their leg naturally. Check their knee mobility, calf sensation, and pain level before any further training. In training, your partner's structural safety takes absolute priority — release at the first sign of structural resistance, not only after a tap.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Release immediately, no waiting",
+        "distractors": {
+          "plausible": [
+            "Ask if they're okay first",
+            "Ease off slowly over time"
+          ],
+          "trap": [
+            "Keep pressure until they tap"
+          ]
+        }
       },
       {
         "question": "How do you coordinate hip extension and ankle pulling to maximize the fulcrum compression effect?",
         "answer": "Drive your hips forward into the entanglement while simultaneously pulling the opponent's ankle toward your chest with both hands. These opposing forces create maximum compression against the shin fulcrum behind the knee. The coordination must be simultaneous — driving only hips or only pulling the ankle generates roughly half the compression force. Visualize creating maximum distance between your hips and the opponent's foot with the shin as the fixed pivot point.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Drive hips, pull ankle together",
+        "distractors": {
+          "plausible": [
+            "Pull ankle hard, hips still",
+            "Drive hips only, hold ankle"
+          ],
+          "trap": [
+            "Yank ankle in a sharp jerk"
+          ]
+        }
       },
       {
         "question": "What grip adjustments should you make if the opponent's foot begins slipping from your control during the finish?",
         "answer": "If the foot begins slipping, immediately tuck it deeper into your armpit and switch from a hand-clasp grip to a figure-four arm grip where your top hand grabs your own forearm for stronger mechanical advantage. Supinate your wrists to create a shelf that prevents the foot from sliding out. If the grip continues to deteriorate, abandon the calf slicer and transition back to the heel hook before losing positional control entirely.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Switch to figure-four arm grip",
+        "distractors": {
+          "plausible": [
+            "Grip tighter with same hands",
+            "Reposition body, keep grip"
+          ],
+          "trap": [
+            "Let go and reset the position"
+          ]
+        }
       },
       {
         "question": "In a competition setting, how does the calf slicer create strategic advantages beyond the immediate submission threat?",
         "answer": "The calf slicer forces the opponent to split their defensive attention between the compression threat and the heel hook threat, degrading the quality of both defenses. It drains defensive energy because every heel hook defense now carries the risk of feeding the slicer. Opponents who know you attack both submissions become more tentative in their escapes, extending your control time and increasing the probability of finishing with either technique over multiple attempts.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Splits defense between two subs",
+        "distractors": {
+          "plausible": [
+            "Only tires their grip strength",
+            "Forces them to grip fight harder"
+          ],
+          "trap": [
+            "Lets you stall out the round"
+          ]
+        }
+      }
+    ],
+    "clips": [
+      {
+        "id": "6M0HvIFfc-w",
+        "title": "Bear Trap into Calf Slicer",
+        "by": "Revolution BJJ",
+        "vertical": false,
+        "channel": "Revolution BJJ",
+        "duration": 119,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "VXmaDAUt-BU",
+        "title": "Inside Ashi Garami Calf Slicer",
+        "by": "Hicham",
+        "vertical": false,
+        "channel": "Hicham bjj",
+        "duration": 172,
+        "verified": "2026-07-14"
       }
     ]
   },
@@ -416,27 +548,77 @@
       {
         "question": "What is the earliest recognition cue that the attacker is transitioning from heel hook to calf slicer?",
         "answer": "The earliest cue is the attacker shifting their grip from your heel to your ankle or foot, pulling it toward their chest rather than applying rotational force. You will also feel their shin beginning to slide behind your knee crease rather than maintaining the lateral pressure used for heel hook setup. This grip change happens before the compression is established, creating a brief but critical window to react defensively.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Grip shifts from heel to ankle",
+        "distractors": {
+          "plausible": [
+            "Sudden increase in hip pressure",
+            "They tighten the figure-four legs"
+          ],
+          "trap": [
+            "Wait for pain before reacting"
+          ]
+        }
       },
       {
         "question": "When should you tap to the calf slicer from inside sankaku rather than attempting further escape?",
         "answer": "Tap immediately when three conditions are met: (1) the attacker's shin is fully seated behind your knee crease in the popliteal fossa, (2) they have secured a firm two-on-one grip on your ankle or foot, and (3) they begin extending their hips forward to apply compression. Once all three are established, the submission develops extremely quickly and can cause serious structural injury within one to two seconds. There is no safe escape window once fully locked.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Once fully locked, hips compressing",
+        "distractors": {
+          "plausible": [
+            "As soon as the shin slides in",
+            "Only once it becomes painful"
+          ],
+          "trap": [
+            "Yank the leg free explosively"
+          ]
+        }
       },
       {
         "question": "What defensive action prevents the calf slicer but may expose you to the inside heel hook?",
         "answer": "Straightening and extending your trapped leg to deny the attacker access to the knee crease effectively prevents the calf slicer, but this extension rotates your heel toward the attacker's centerline. If the attacker recognizes this quickly, they abandon the calf slicer and immediately re-engage the inside heel hook on the now-exposed heel. The safer approach is to retract with the heel hidden inward rather than extending the leg straight.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Straighten leg, exposes heel hook",
+        "distractors": {
+          "plausible": [
+            "Bend the knee to escape",
+            "Sit up and grab their collar"
+          ],
+          "trap": [
+            "Roll toward the attacker's hips"
+          ]
+        }
       },
       {
         "question": "How does your hip position relative to the attacker affect the severity of the calf slicer compression?",
         "answer": "The closer your hips are to the attacker's hips, the more compression force they can generate because the fulcrum has less distance to work through. By driving your hips away and creating maximum distance from the attacker, you reduce the compression force on your calf and posterior knee. Additionally, angling your body slightly away from the attacker changes the compression vector, potentially shifting the shin off the optimal fulcrum point.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Closer hips increase compression",
+        "distractors": {
+          "plausible": [
+            "Hip height matters, not distance",
+            "Angle only changes grip strength"
+          ],
+          "trap": [
+            "Pull your hips into the attacker"
+          ]
+        }
       },
       {
         "question": "What makes the calf slicer from inside sankaku particularly dangerous compared to calf slicers from other positions?",
         "answer": "The inside sankaku figure-four configuration locks your leg in place far more securely than other positions, making extraction extremely difficult once the shin is threaded. The entanglement prevents the hip mobility needed for standard escapes, and the attacker can chain directly between heel hook and calf slicer without releasing positional control. This creates a trapped dilemma where defending one submission directly exposes the other, reducing your defensive options significantly.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Sankaku lock prevents leg extraction",
+        "distractors": {
+          "plausible": [
+            "It attacks the knee, not the calf",
+            "Both legs get trapped at once"
+          ],
+          "trap": [
+            "Safe to sit in and defend late"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -454,6 +636,35 @@
         "phase": "Phase 3 — Live Defense Integration",
         "focus": "Defending under progressive resistance with safe tapping habits",
         "description": "Positional sparring starting in inside sankaku. Attacker works heel hook and calf slicer chains while defender practices recognition and appropriate defensive responses at gradually increasing intensity. Emphasize tapping when caught to build safe training habits that carry into competition."
+      }
+    ],
+    "clips": [
+      {
+        "id": "bjXLOFlO7us",
+        "title": "Slicer vs Honey Hole Leg Retraction",
+        "by": "ZombieProofBJJ",
+        "vertical": false,
+        "channel": "ZombieProofBJJ",
+        "duration": 115,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "Ah9XvwmTF9w",
+        "title": "3 Leglock Counters / Rolling Back-Takes",
+        "by": "Éire Grapple",
+        "vertical": false,
+        "channel": "Éire Grapple",
+        "duration": 34,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "VGNTi2hEvfc",
+        "title": "Defend & Escape the Leg-Lace/Cloverleaf",
+        "by": "jamielovesmartialarts",
+        "vertical": false,
+        "channel": "jamielovesmartialarts",
+        "duration": 78,
+        "verified": "2026-07-14"
       }
     ]
   }

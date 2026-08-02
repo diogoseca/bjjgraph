@@ -150,6 +150,54 @@ description: "Defend and escape the Guillotine Choke from Clinch in BJJ. Recogni
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Guillotine Choke from Clinch (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Positional check against the guillotine",
+      "description": "Guillotine Choke from Clinch (Defender) film study: Positional check against the guillotine, taught by Priit Mihkelson.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/nGpAcI79frk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/nGpAcI79frk",
+      "url": "https://www.youtube.com/watch?v=nGpAcI79frk",
+      "creator": { "@type": "Person", "name": "Priit Mihkelson" },
+      "duration": "PT116S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Standing guillotine defense (the beat)",
+      "description": "Guillotine Choke from Clinch (Defender) film study: Standing guillotine defense (the beat), taught by Mark Hatmaker.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/I0aWHdgbJzI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/I0aWHdgbJzI",
+      "url": "https://www.youtube.com/watch?v=I0aWHdgbJzI",
+      "creator": { "@type": "Person", "name": "Mark Hatmaker" },
+      "duration": "PT19S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "How to defend the guillotine choke",
+      "description": "Guillotine Choke from Clinch (Defender) film study: How to defend the guillotine choke, taught by Worldfightingnetwork.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/3aSFiPLqXmo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/3aSFiPLqXmo",
+      "url": "https://www.youtube.com/watch?v=3aSFiPLqXmo",
+      "creator": { "@type": "Person", "name": "Worldfightingnetwork" },
+      "duration": "PT25S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -162,6 +210,42 @@ The defensive hierarchy follows three priorities in strict order: first, protect
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Guillotine Choke from Clinch (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=nGpAcI79frk)
+
+<p class="clip-credit"><strong>Positional check against the guillotine</strong> — taught by Priit Mihkelson · 1:56 · <a href="https://www.youtube.com/watch?v=nGpAcI79frk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=I0aWHdgbJzI)
+
+<p class="clip-credit"><strong>Standing guillotine defense (the beat)</strong> — taught by Mark Hatmaker · 0:19 · <a href="https://www.youtube.com/watch?v=I0aWHdgbJzI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=3aSFiPLqXmo)
+
+<p class="clip-credit"><strong>How to defend the guillotine choke</strong> — taught by Worldfightingnetwork · 0:25 · <a href="https://www.youtube.com/watch?v=3aSFiPLqXmo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

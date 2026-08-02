@@ -17,7 +17,10 @@
   "target_area": "Carotid arteries and jugular veins",
   "starting_position": "Rodeo Ride",
   "from_position": "Rodeo Ride/Top",
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "summary": "The Clock Choke from Rodeo Ride is a gi blood choke finished by feeding a deep cross-collar grip on a turtled opponent and walking your hips around their head, sprawling weight through the lapel to compress both carotid arteries.",
   "overview": "The Clock Choke from Rodeo Ride is a gi-based blood choke that capitalizes on the dynamic control mechanics unique to the Rodeo Ride position on a turtled opponent. Unlike the standard Clock Choke from static turtle top, the Rodeo Ride variant leverages the asymmetric hip pressure and near-arm control already established in the ride to feed a deep cross-collar grip before the opponent can address the choking threat. The attacker's perpendicular angle and loaded hip position create a natural launching point for the circular walk that generates finishing pressure.\n\nWhat makes this variation particularly dangerous is that the Rodeo Ride's constant pressure cycling disguises the choke entry. The opponent is already defending multiple back attack and submission threats, so the lapel feed can be inserted during a transition between other attacks. Once the cross-collar grip is secured, the attacker walks their hips around the opponent's head in an arc while sprawling weight through their chest, compressing both carotid arteries using the lapel as a fulcrum against the opponent's neck. The Rodeo Ride's established hip control prevents the primary escape of sitting back to guard, which is the most common defense against standard Clock Chokes.\n\nThis submission is most effective when chained with other Rodeo Ride attacks—threatening the back take forces the opponent to defend their hips, which opens the collar for the choke entry. The technique requires precise timing between releasing near-arm control to feed the lapel and maintaining enough positional pressure to prevent escape during the grip transition.",
   "safety_considerations": {
@@ -99,17 +102,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 58,
+      "probability": {
+        "gi": 58,
+        "nogi": 58
+      },
       "result": "success"
     },
     {
       "to": "Rodeo Ride/Top",
-      "probability": 27,
+      "probability": {
+        "gi": 27,
+        "nogi": 27
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
@@ -254,52 +266,181 @@
       {
         "question": "What anatomical structures does the Clock Choke from Rodeo Ride primarily target?",
         "answer": "The Clock Choke targets both carotid arteries simultaneously using the opponent's own gi lapel as the compression mechanism. The cross-collar grip positions the lapel across the front and sides of the neck, and as the attacker walks around and sprawls, the lapel presses against the left and right carotid arteries, restricting blood flow to the brain. This bilateral compression causes unconsciousness within 8-12 seconds if the choke is fully locked. The technique is a blood choke, not an airway choke, which is why a deep collar grip past the centerline is essential.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Both carotid arteries via lapel",
+        "distractors": {
+          "plausible": [
+            "Trachea for an airway choke",
+            "Vagus nerve pressure trigger"
+          ],
+          "trap": [
+            "Crank the neck, no blood cut"
+          ]
+        }
       },
       {
         "question": "Why does the Rodeo Ride position create a superior Clock Choke entry compared to standard turtle top?",
         "answer": "Rodeo Ride provides three advantages over standard turtle top for Clock Choke entry. First, the established hip pressure and near-arm control mean the opponent is already defending multiple threats, disguising the collar grip feed. Second, the perpendicular angle of Rodeo Ride shortens the walking arc needed to finish, since you are already partially around the opponent's body. Third, the dynamic pressure cycling of Rodeo Ride prevents the sit-back escape that defeats most Clock Choke attempts from conventional turtle top positions, because your hips are actively loaded on their back.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Shorter arc, hidden grip feed",
+        "distractors": {
+          "plausible": [
+            "Extra points before the choke",
+            "Opponent cannot sit back at all"
+          ],
+          "trap": [
+            "Chase hooks, opponent turns in"
+          ]
+        }
       },
       {
         "question": "Your opponent starts tucking their chin aggressively when they feel the collar grip being fed—what adjustment prevents escape?",
         "answer": "Do not force the grip past a tucked chin, as this telegraphs the choke and wastes energy. Instead, maintain the partial grip and re-threaten a back take by shifting your hips toward inserting hooks. When the opponent redirects their defensive attention from chin protection to hip defense, the chin naturally opens and you can deepen the collar grip. Alternatively, use your near-side hand to cross-face and rotate their head slightly, creating the space needed to feed the grip deeper. The key principle is creating a dilemma where defending the chin opens the back, and defending the back opens the chin.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Re-threaten back take, chin opens",
+        "distractors": {
+          "plausible": [
+            "Force grip past the tucked chin",
+            "Switch to a different choke"
+          ],
+          "trap": [
+            "Pry chin open, lose hip pressure"
+          ]
+        }
       },
       {
         "question": "What are the key indicators that the choke is properly locked and approaching the breaking point?",
         "answer": "The choke is properly locked when you feel bilateral tension across both sides of the opponent's neck through the lapel, your chest is firmly connected to their upper back with no gap, and your hip weight is driving through the grip into their neck. The opponent's face will typically flush red and their breathing will become labored. Their defensive movements will become increasingly urgent and less coordinated. You should feel the lapel tightening against their neck without needing to squeeze with your arms—the pressure is generated by your body weight and position. If you are muscling the grip, the choke is not properly set.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Bilateral tension, chest sealed",
+        "distractors": {
+          "plausible": [
+            "Opponent stops moving entirely",
+            "They say the grip hurts"
+          ],
+          "trap": [
+            "Crank harder until they go limp"
+          ]
+        }
       },
       {
         "question": "What is the proper release protocol when your training partner taps to the Clock Choke?",
         "answer": "Immediately release the cross-collar grip upon any tap signal—verbal, hand tap, or foot tap. Remove your chest pressure and hip weight from the opponent's back and create space by moving away. Do not maintain any grip or body contact after the tap. Allow your partner to recover in a neutral position without any residual pressure. Check on their condition before resuming training. If the opponent went unconscious, place them in recovery position, monitor breathing, and seek medical attention. Never re-apply pressure after a tap to demonstrate the choke was locked.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Release immediately, back away",
+        "distractors": {
+          "plausible": [
+            "Ease off slowly, then release",
+            "Release grip, keep chest contact"
+          ],
+          "trap": [
+            "Hold briefly to prove the tap"
+          ]
+        }
       },
       {
         "question": "What grip adjustments should you make during the walking arc if you feel the choke loosening?",
         "answer": "If the choke loosens during the walking arc, first check that your chest has not separated from the opponent's back—re-establish chest contact immediately. Then pull your choking elbow tighter toward your own hip to take slack out of the lapel. If the grip has slipped shallow, you may need to pause the walk, re-sprawl your weight to pin the opponent, and re-feed the grip deeper before continuing. Avoid the temptation to walk faster to compensate—speed without depth creates an airway choke that is uncomfortable but won't finish. A brief pause to reset the grip is better than completing a loose arc.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Reseal chest, cinch elbow to hip",
+        "distractors": {
+          "plausible": [
+            "Pull harder with arm strength",
+            "Reinsert hooks before regripping"
+          ],
+          "trap": [
+            "Lift weight off, they sit back in"
+          ]
+        }
       },
       {
         "question": "When should you abandon the Clock Choke attempt and transition to a different attack from Rodeo Ride?",
         "answer": "Abandon the Clock Choke when the opponent successfully strips the collar grip before you begin the walking arc, when they sit back past the point where your hip pressure can prevent guard recovery, or when they flatten completely to the mat. If the grip is stripped, immediately re-establish Rodeo Ride control and cycle to a different attack—the back take or crucifix. If they sit back, transition to a front headlock or guillotine if the collar grip is still held. If they flatten, advance to mount. Never chase a lost Clock Choke by repeatedly reaching for the collar, as this compromises your riding position.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Don't chase grip, switch attack",
+        "distractors": {
+          "plausible": [
+            "Wait only for a full flatten out",
+            "Re-feed the same side immediately"
+          ],
+          "trap": [
+            "Keep chasing collar, lose the ride"
+          ]
+        }
       },
       {
         "question": "How do you manage the choke application speed to ensure training partner safety?",
         "answer": "Apply the finishing pressure progressively over 3-5 seconds minimum, never explosively. The walking arc itself should be deliberate and controlled. As you feel the choke tightening, maintain steady pressure rather than jerking or pulsing the grip. Monitor your partner's response throughout—if they are not tapping but showing signs of distress such as panicked movement, slowing movements, or going limp, release immediately. Blood chokes can cause unconsciousness within seconds of full application, so the controlled approach gives your partner adequate time to recognize the threat and tap before consciousness is affected.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Build pressure over 3-5 seconds",
+        "distractors": {
+          "plausible": [
+            "Tighten only when they stop moving",
+            "Pulse the grip to test the tap"
+          ],
+          "trap": [
+            "Crank it fast before they defend"
+          ]
+        }
       },
       {
         "question": "What common finishing error causes the Clock Choke to become an uncomfortable but non-finishing airway choke?",
         "answer": "The most common cause of an airway-only choke is a shallow collar grip that does not reach past the centerline of the opponent's neck. When the grip is shallow, the lapel presses against the trachea and front of the throat rather than compressing the carotid arteries on both sides. This creates pain and discomfort but will not cause a blood-choke finish. The correction is to ensure four fingers are fed deep past the far-side carotid before beginning the walk. A properly deep grip positioned at collar level, not throat level, naturally targets the lateral neck structures.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Shallow grip short of centerline",
+        "distractors": {
+          "plausible": [
+            "Grip set too high near the ear",
+            "Walking the arc too slowly"
+          ],
+          "trap": [
+            "Crush the windpipe to force a tap"
+          ]
+        }
       },
       {
         "question": "In competition, what strategic advantages does attacking the Clock Choke from Rodeo Ride offer over taking the back?",
         "answer": "The Clock Choke from Rodeo Ride offers a direct submission path without needing to secure hooks for back control points, which can be time-consuming against a well-defended turtle. In points-based competition, the Clock Choke can finish the match immediately from a position where no points have been scored yet—you bypass the incremental point-scoring of back take and go straight to submission. Additionally, opponents who are highly skilled at defending back takes often leave the neck more vulnerable because their defensive priorities focus on hook prevention and hip defense. The Clock Choke exploits this defensive allocation.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Direct finish, no hooks needed",
+        "distractors": {
+          "plausible": [
+            "Secure hooks first, then choke",
+            "Score 4 points, then submit"
+          ],
+          "trap": [
+            "Abandon ride to jump the back"
+          ]
+        }
+      }
+    ],
+    "clips": [
+      {
+        "id": "grDZ5vo84bg",
+        "title": "Turtle Control & Clock Choke",
+        "by": "CVL BJJ",
+        "vertical": false,
+        "channel": "CVL BJJ",
+        "duration": 135,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "VXP06YF8v10",
+        "title": "Chokes from Turtle",
+        "by": "Marcello Monteiro",
+        "vertical": false,
+        "channel": "Butch Hiles Brazilian Jiu Jitsu & MMA, LLC - Charleston, WV",
+        "duration": 48,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "vX8n_1YUZJs",
+        "title": "Clock Choke",
+        "by": "Wallid Ismail",
+        "vertical": false,
+        "channel": "Black Dragon BJJ  / Cobra Kai Karate Dungannon",
+        "duration": 171,
+        "verified": "2026-07-14"
       }
     ]
   },
@@ -393,22 +534,62 @@
       {
         "question": "What is the earliest recognition cue that a Clock Choke is being set up from Rodeo Ride?",
         "answer": "The earliest cue is feeling the attacker's far-side hand release its current grip—whether that was near-arm control, back attack grip, or belt grip—and move toward your collar area. This grip transition represents the moment of maximum vulnerability for the attacker because they are giving up established control to pursue the choke. Recognizing this transition is the defender's best opportunity, because reacting at this point allows you to strip a shallow grip rather than fighting a deep one.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Far hand releases toward collar",
+        "distractors": {
+          "plausible": [
+            "Hips shift to set up sprawl",
+            "Sudden weight increase on back"
+          ],
+          "trap": [
+            "Wait until the walk fully starts"
+          ]
+        }
       },
       {
         "question": "When should you tap to a Clock Choke to prevent injury?",
         "answer": "Tap as soon as you feel bilateral pressure on both sides of your neck and cannot execute an escape. Blood chokes can cause unconsciousness within 8-12 seconds of full application, and there is no benefit to waiting until the last moment. If the collar grip is deep, the walking arc is past your head, and the attacker is sprawled with weight through the grip, the choke is structurally complete. Tap clearly using hand taps, foot taps, or verbal submission. If your hands are trapped, use foot taps or verbal signals immediately. Never try to tough out a locked blood choke.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Both sides pressing, no escape",
+        "distractors": {
+          "plausible": [
+            "When only one side clamps",
+            "The moment the collar sinks in"
+          ],
+          "trap": [
+            "Tough it out and defend the grip"
+          ]
+        }
       },
       {
         "question": "Why is sitting back to guard preferable to remaining in turtle once the collar grip is deep?",
         "answer": "The Clock Choke mechanically requires the opponent to be in an elevated turtle position so the attacker can walk around the head and sprawl. When you sit back to guard, you collapse the structure the choke depends on—the attacker cannot walk around your head if you are facing them in guard. While sitting back concedes the guard position, this is a significant improvement over being submitted. The attacker may retain the collar grip in guard, but they cannot finish the Clock Choke from inside your guard. You trade a submission threat for a positional disadvantage, which is always the correct exchange.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Collapses arc, can't walk around",
+        "distractors": {
+          "plausible": [
+            "Fully removes the choke threat",
+            "Sets up a leg entry on them"
+          ],
+          "trap": [
+            "Stay turtled and fight the grip"
+          ]
+        }
       },
       {
         "question": "What defensive options remain once the attacker has fully committed to the walking arc?",
         "answer": "Once the walk has begun, your primary option is an aggressive sit-back to guard before the sprawl completes. Drop your hips to the mat and thread your legs in front of the attacker as they walk past your head. Secondary option is a granby roll away from the choking direction, using the roll to invert and face the attacker, which disrupts the arc angle. Grip stripping during the active walk is very difficult because the attacker's body weight is driving through the grip. The key is explosive timing—act within the first 1-2 steps of the walk before the sprawl locks the position.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Sit back before sprawl locks in",
+        "distractors": {
+          "plausible": [
+            "Strip the grip during the walk",
+            "Wait for sprawl, then defend"
+          ],
+          "trap": [
+            "Stand straight up to break grip"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -431,6 +612,35 @@
         "phase": "Phase 4: Live Defense",
         "focus": "Full resistance Clock Choke defense from Rodeo Ride",
         "description": "Positional sparring where attacker is instructed to prioritize Clock Choke from Rodeo Ride. Defender practices the full defensive timeline under competition-level resistance. Debrief after each round to identify the moment where defense succeeded or failed and which recognition cue was present."
+      }
+    ],
+    "clips": [
+      {
+        "id": "vckXustqtpQ",
+        "title": "Clock Choke Defense",
+        "by": "Revolution BJJ",
+        "vertical": false,
+        "channel": "Revolution BJJ Ashland",
+        "duration": 63,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "Ivs8Lt1oI0I",
+        "title": "Clock Choke Escape #1",
+        "by": "Vilanova BJJ",
+        "vertical": false,
+        "channel": "Vilanova Brazilian Jiu Jitsu",
+        "duration": 103,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "bHIR07WZ8yI",
+        "title": "Clock Choke from Turtle Escape",
+        "by": "Andy Tong",
+        "vertical": false,
+        "channel": "Andy Tong",
+        "duration": 17,
+        "verified": "2026-07-14"
       }
     ]
   }

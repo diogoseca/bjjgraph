@@ -150,6 +150,43 @@ description: "How to defend against the Cross Collar Choke Finish in BJJ. Recogn
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Cross Collar Choke from Invisible Collar (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Cross collar choke defense: down and over",
+      "description": "Cross Collar Choke from Invisible Collar (Defender) film study: Cross collar choke defense: down and over, taught by Emil Takeuchi.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/6rMCDkWRlgg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/6rMCDkWRlgg",
+      "url": "https://www.youtube.com/watch?v=6rMCDkWRlgg",
+      "creator": { "@type": "Person", "name": "Emil Takeuchi" },
+      "duration": "PT94S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Escape the lapel choke from back mount",
+      "description": "Cross Collar Choke from Invisible Collar (Defender) film study: Escape the lapel choke from back mount, taught by North Bay Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/KZBFuqvmKpo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/KZBFuqvmKpo",
+      "url": "https://www.youtube.com/watch?v=KZBFuqvmKpo",
+      "creator": { "@type": "Person", "name": "North Bay Jiu Jitsu" },
+      "duration": "PT142S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -164,6 +201,34 @@ The most favorable defensive outcomes involve either stripping the collar grip e
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Cross Collar Choke from Invisible Collar (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=6rMCDkWRlgg)
+
+<p class="clip-credit"><strong>Cross collar choke defense: down and over</strong> — taught by Emil Takeuchi · 1:34 · <a href="https://www.youtube.com/watch?v=6rMCDkWRlgg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=KZBFuqvmKpo)
+
+<p class="clip-credit"><strong>Escape the lapel choke from back mount</strong> — taught by North Bay Jiu Jitsu · 2:22 · <a href="https://www.youtube.com/watch?v=KZBFuqvmKpo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

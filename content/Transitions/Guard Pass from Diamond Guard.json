@@ -14,21 +14,33 @@
   "outcomes": [
     {
       "to": "Side Control/Top",
-      "probability": 50,
+      "probability": {
+        "gi": 50,
+        "nogi": 50
+      },
       "result": "success"
     },
     {
       "to": "Diamond Guard/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Mount/Bottom",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 50,
+  "success_rate": {
+    "gi": 50,
+    "nogi": 50
+  },
   "summary": "Guard Pass from Diamond Guard is a sequential top passing method that neutralizes the overhook-and-head-control frame in order — circling the head free, stripping the overhook, then opening the closed guard — to advance into side control.",
   "overview": "The Guard Pass from Diamond Guard addresses one of the most technically demanding closed guard configurations in modern BJJ. Diamond Guard combines an overhook on one arm with head control behind the neck, creating a self-reinforcing frame that amplifies posture-breaking effectiveness and provides direct pathways to triangles, omoplatas, and kimuras. Passing this guard requires a systematic, sequential approach to grip stripping that differs fundamentally from standard closed guard passing.\n\nThe central challenge is that diamond guard's two control points protect each other. Addressing head control without neutralizing the overhook allows the guard player to immediately threaten submissions with the freed space. Attacking the overhook without freeing the head leaves the passer in broken posture with insufficient hip drive to open the guard. The solution requires addressing head control first through a positional escape — circling the head to the free side rather than pulling directly backward — followed by overhook neutralization using hip drive and rotational arm extraction. Only after both controls are compromised can the passer proceed to open the closed guard and execute a passing sequence.\n\nTiming is critical throughout this transition. The guard player's counter-attack threats peak during the grip-stripping phase when the passer's weight distribution shifts. The hip bump sweep becomes particularly dangerous when the passer shifts weight backward during posture recovery. Successful passers maintain heavy hips throughout and only commit to standing or knee-based guard opening after the diamond frame has been sufficiently degraded.",
   "conditions": [
@@ -246,38 +258,138 @@
     "flashcards": [
       {
         "question": "What is the optimal timing window for initiating the head circle escape against diamond guard's head control?",
-        "answer": "The optimal timing is when the guard player adjusts their head control grip or momentarily releases pressure to transition toward a submission entry. At this moment, the head control is at its shallowest depth and the grip is least secure. You can also create your own timing by threatening to posture with hip drive, which forces the guard player to tighten their head control pull — the moment of maximum pull creates a predictable direction you can circle against."
+        "answer": "The optimal timing is when the guard player adjusts their head control grip or momentarily releases pressure to transition toward a submission entry. At this moment, the head control is at its shallowest depth and the grip is least secure. You can also create your own timing by threatening to posture with hip drive, which forces the guard player to tighten their head control pull — the moment of maximum pull creates a predictable direction you can circle against.",
+        "answer_line": "Circle against their peak pull",
+        "distractors": {
+          "plausible": [
+            "Circle before any grip changes",
+            "Wait until overhook fully gone"
+          ],
+          "trap": [
+            "Circle with the pull direction"
+          ]
+        }
       },
       {
         "question": "What conditions must exist before you can safely begin standing to open the closed guard in diamond guard?",
-        "answer": "Both diamond controls must be degraded: head control must be broken so you have upright posture, and the overhook must be stripped or reduced to a shallow grip that cannot generate significant pulling force. Your hips must be in contact with the guard player's hips to prevent sweep attempts during the stand-up. If either control remains deep, standing will accelerate the guard player's submission threats rather than advancing your pass."
+        "answer": "Both diamond controls must be degraded: head control must be broken so you have upright posture, and the overhook must be stripped or reduced to a shallow grip that cannot generate significant pulling force. Your hips must be in contact with the guard player's hips to prevent sweep attempts during the stand-up. If either control remains deep, standing will accelerate the guard player's submission threats rather than advancing your pass.",
+        "answer_line": "Head + overhook broken, hips pinned",
+        "distractors": {
+          "plausible": [
+            "Stand once overhook is stripped",
+            "Stand once posture is upright"
+          ],
+          "trap": [
+            "Stand immediately to break guard"
+          ]
+        }
       },
       {
         "question": "Why is the circular arm extraction more effective than pulling straight backward to strip the overhook?",
-        "answer": "The diamond frame is structurally designed to resist linear pulling — the overhook wraps over the arm and the closed guard legs anchor the structure. Straight backward pulling fights the grip at its strongest angle. Circular extraction rotates the trapped arm along the axis of the overhook grip, peeling the hook off incrementally rather than trying to overcome its full holding strength. The corkscrew motion breaks contact at the weakest points of the grip first, requiring significantly less force to complete the extraction."
+        "answer": "The diamond frame is structurally designed to resist linear pulling — the overhook wraps over the arm and the closed guard legs anchor the structure. Straight backward pulling fights the grip at its strongest angle. Circular extraction rotates the trapped arm along the axis of the overhook grip, peeling the hook off incrementally rather than trying to overcome its full holding strength. The corkscrew motion breaks contact at the weakest points of the grip first, requiring significantly less force to complete the extraction.",
+        "answer_line": "Rotate the arm, don't pull straight",
+        "distractors": {
+          "plausible": [
+            "Pull straight back with force",
+            "Strip grip finger by finger"
+          ],
+          "trap": [
+            "Release grip and re-posture"
+          ]
+        }
       },
       {
         "question": "You begin the posture recovery phase and feel the guard player's hips rise and their grip shift — what is happening and how do you respond?",
-        "answer": "The guard player is loading a hip bump sweep, which exploits the weight shift that occurs during posture recovery. Immediately drive your hips forward and down, pinning their hips flat to the mat. Plant one or both hands on their hips to block the sit-up motion that powers the sweep. Do not continue the posture recovery until their hips are flat and their sweep attempt is neutralized. The hip bump requires upward hip momentum and a seated posture to generate force — denying both kills the sweep."
+        "answer": "The guard player is loading a hip bump sweep, which exploits the weight shift that occurs during posture recovery. Immediately drive your hips forward and down, pinning their hips flat to the mat. Plant one or both hands on their hips to block the sit-up motion that powers the sweep. Do not continue the posture recovery until their hips are flat and their sweep attempt is neutralized. The hip bump requires upward hip momentum and a seated posture to generate force — denying both kills the sweep.",
+        "answer_line": "Drive hips down, pin flat",
+        "distractors": {
+          "plausible": [
+            "Pull head down to stop them",
+            "Post hands out for base"
+          ],
+          "trap": [
+            "Sit back to escape the sweep"
+          ]
+        }
       },
       {
         "question": "What grip configuration provides the most stable foundation during the initial posture recovery phase?",
-        "answer": "Both hands planted firmly on the guard player's hip bones provide the best foundation. This grip creates a rigid structure between your arms and their hips that prevents them from following your posture recovery with hip movement, blocks hip bump sweep attempts by controlling their hip elevation, and gives you a reference point for maintaining heavy hip pressure. Avoid gripping the gi or their arms during this phase, as those grips invite grip fighting that delays posture recovery and opens submission opportunities."
+        "answer": "Both hands planted firmly on the guard player's hip bones provide the best foundation. This grip creates a rigid structure between your arms and their hips that prevents them from following your posture recovery with hip movement, blocks hip bump sweep attempts by controlling their hip elevation, and gives you a reference point for maintaining heavy hip pressure. Avoid gripping the gi or their arms during this phase, as those grips invite grip fighting that delays posture recovery and opens submission opportunities.",
+        "answer_line": "Both hands on their hips",
+        "distractors": {
+          "plausible": [
+            "Grip both sleeves tightly",
+            "Underhook both their arms"
+          ],
+          "trap": [
+            "Grab the gi collar to pull up"
+          ]
+        }
       },
       {
         "question": "In which direction should the primary force vector travel during the posture recovery phase, and why?",
-        "answer": "The primary force vector should travel forward and slightly downward through your hips into the guard player's hips. This forward hip drive maintains the heavy hip contact that prevents sweeps while allowing your spine to straighten progressively. The common error is directing force upward and backward, which lifts your hips off theirs and creates exactly the weight shift the guard player needs for hip bump sweeps. Think of driving your belt buckle toward the mat between their legs rather than sitting up and away."
+        "answer": "The primary force vector should travel forward and slightly downward through your hips into the guard player's hips. This forward hip drive maintains the heavy hip contact that prevents sweeps while allowing your spine to straighten progressively. The common error is directing force upward and backward, which lifts your hips off theirs and creates exactly the weight shift the guard player needs for hip bump sweeps. Think of driving your belt buckle toward the mat between their legs rather than sitting up and away.",
+        "answer_line": "Forward and down through hips",
+        "distractors": {
+          "plausible": [
+            "Straight up to break posture",
+            "Backward to create space"
+          ],
+          "trap": [
+            "Up and back to sit away"
+          ]
+        }
       },
       {
         "question": "Your opponent opens their guard to attempt a triangle as you address the head control — how do you capitalize on this defensive response?",
-        "answer": "The guard player opening their guard to triangle removes the closed guard anchor that reinforces the diamond frame. Immediately drive your posture upward since the leg lock around your waist is no longer present. Use the freed posture to strip the remaining overhook with a strong arm rotation while simultaneously passing your head and shoulder to the inside of their triangle attempt. If you pass your head to the correct side, you end up in a guard-passed position rather than inside the triangle. The guard player's offensive decision to open guard is your pass opportunity."
+        "answer": "The guard player opening their guard to triangle removes the closed guard anchor that reinforces the diamond frame. Immediately drive your posture upward since the leg lock around your waist is no longer present. Use the freed posture to strip the remaining overhook with a strong arm rotation while simultaneously passing your head and shoulder to the inside of their triangle attempt. If you pass your head to the correct side, you end up in a guard-passed position rather than inside the triangle. The guard player's offensive decision to open guard is your pass opportunity.",
+        "answer_line": "Posture up and pass head inside",
+        "distractors": {
+          "plausible": [
+            "Immediately defend the triangle",
+            "Pull the trapped leg off"
+          ],
+          "trap": [
+            "Back away to reset distance"
+          ]
+        }
       },
       {
         "question": "After opening the guard, the opponent immediately reclasps their ankles to close the guard again — what passing options remain available?",
-        "answer": "If the guard recloses before you establish leg control, you must repeat the guard opening. However, the second attempt is easier because the diamond controls have already been stripped. Use one hand on their hip to maintain posture while positioning your knee in their tailbone area as a wedge. Drive the wedge forward to break their ankle lock while keeping your hips heavy. If they repeatedly reclose, transition to a log splitter approach where you drive one knee between their thighs to prevent ankle contact entirely, then establish leg control from the inside position."
+        "answer": "If the guard recloses before you establish leg control, you must repeat the guard opening. However, the second attempt is easier because the diamond controls have already been stripped. Use one hand on their hip to maintain posture while positioning your knee in their tailbone area as a wedge. Drive the wedge forward to break their ankle lock while keeping your hips heavy. If they repeatedly reclose, transition to a log splitter approach where you drive one knee between their thighs to prevent ankle contact entirely, then establish leg control from the inside position.",
+        "answer_line": "Wedge knee in, break ankle lock",
+        "distractors": {
+          "plausible": [
+            "Force the guard open again fast",
+            "Switch to double-unders pass"
+          ],
+          "trap": [
+            "Stand straight up to force it"
+          ]
+        }
       }
     ],
-    "safety_considerations": "Guard passing from diamond guard involves significant neck strain during the posture recovery phase due to the combined pulling forces of the overhook and head control. Avoid explosive head movements when the opponent has deep head control, as cervical spine injuries can result from sudden directional changes against a loaded grip. The overhook configuration can trap the shoulder in compromised positions during explosive stripping attempts, risking rotator cuff strain. Practice grip stripping and posture recovery at controlled speeds before adding intensity. Communicate with your training partner about neck discomfort, and release immediately if either practitioner reports pain in the cervical spine or shoulder during drilling."
+    "safety_considerations": "Guard passing from diamond guard involves significant neck strain during the posture recovery phase due to the combined pulling forces of the overhook and head control. Avoid explosive head movements when the opponent has deep head control, as cervical spine injuries can result from sudden directional changes against a loaded grip. The overhook configuration can trap the shoulder in compromised positions during explosive stripping attempts, risking rotator cuff strain. Practice grip stripping and posture recovery at controlled speeds before adding intensity. Communicate with your training partner about neck discomfort, and release immediately if either practitioner reports pain in the cervical spine or shoulder during drilling.",
+    "clips": [
+      {
+        "id": "dLXj6r-CX2U",
+        "title": "Three passes from inside closed guard",
+        "by": "Strong Hold Jiu Jitsu",
+        "vertical": false,
+        "channel": "Strong Hold Jiu Jitsu",
+        "duration": 192,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "iiExTTeuB2s",
+        "title": "My 5 Favourite Guard Passes",
+        "by": "Jon Thomas",
+        "vertical": false,
+        "channel": "JonThomasBJJ",
+        "duration": 566,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Guard Pass from Diamond Guard Defender",
@@ -362,23 +474,73 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that your opponent is initiating a guard pass from diamond guard?",
-        "answer": "The earliest cue is the opponent tucking their chin to their chest and beginning to angle their head toward the side opposite your overhook. This indicates they are preparing the head circle escape, which is the first step in the sequential grip-stripping approach. This happens before any significant posture change or grip fight, making it the earliest actionable signal. Immediately tighten both controls and increase heel pressure when you detect this movement."
+        "answer": "The earliest cue is the opponent tucking their chin to their chest and beginning to angle their head toward the side opposite your overhook. This indicates they are preparing the head circle escape, which is the first step in the sequential grip-stripping approach. This happens before any significant posture change or grip fight, making it the earliest actionable signal. Immediately tighten both controls and increase heel pressure when you detect this movement.",
+        "answer_line": "Chin tucks, head turns away",
+        "distractors": {
+          "plausible": [
+            "Overhook grip loosens first",
+            "Hips start to posture up"
+          ],
+          "trap": [
+            "Wait for full posture break"
+          ]
+        }
       },
       {
         "question": "Your opponent has circled their head free but has not yet stripped your overhook — what is your best defensive response?",
-        "answer": "With head control lost but the overhook retained, you have two strong options. First, deepen the overhook and use it to pull the opponent's shoulder across your centerline, which maintains partial posture break even without head control. Second, use the retained overhook to angle your hips and threaten a triangle entry, since the freed head creates the space needed for your leg to swing over. The key is acting immediately before the passer begins stripping the overhook, as the overhook alone provides sufficient control for offensive transitions."
+        "answer": "With head control lost but the overhook retained, you have two strong options. First, deepen the overhook and use it to pull the opponent's shoulder across your centerline, which maintains partial posture break even without head control. Second, use the retained overhook to angle your hips and threaten a triangle entry, since the freed head creates the space needed for your leg to swing over. The key is acting immediately before the passer begins stripping the overhook, as the overhook alone provides sufficient control for offensive transitions.",
+        "answer_line": "Deepen overhook, angle for triangle",
+        "distractors": {
+          "plausible": [
+            "Re-establish head control fast",
+            "Switch grips to overhook only"
+          ],
+          "trap": [
+            "Release overhook to reset guard"
+          ]
+        }
       },
       {
         "question": "Why is maintaining both control points of the diamond frame simultaneously more important than reinforcing either one individually?",
-        "answer": "The diamond frame's effectiveness comes from the mutual reinforcement between the overhook and head control — each grip makes the other harder to strip. The overhook prevents the arm from posting, which makes head control more effective at breaking posture. Head control prevents posture recovery, which makes the overhook deeper and harder to extract. Losing either point reduces the remaining grip's effectiveness by roughly half, not just by the one grip lost. The integrated system is more than the sum of its parts, which is why sequential stripping is the passer's strategy."
+        "answer": "The diamond frame's effectiveness comes from the mutual reinforcement between the overhook and head control — each grip makes the other harder to strip. The overhook prevents the arm from posting, which makes head control more effective at breaking posture. Head control prevents posture recovery, which makes the overhook deeper and harder to extract. Losing either point reduces the remaining grip's effectiveness by roughly half, not just by the one grip lost. The integrated system is more than the sum of its parts, which is why sequential stripping is the passer's strategy.",
+        "answer_line": "Each grip reinforces the other",
+        "distractors": {
+          "plausible": [
+            "Overhook matters more than head",
+            "Head control alone stops passing"
+          ],
+          "trap": [
+            "Neglect one grip to save energy"
+          ]
+        }
       },
       {
         "question": "Your opponent stands to open your guard while you still have a deep overhook — how do you use this to create a sweep opportunity?",
-        "answer": "When the opponent stands with your overhook still engaged, their base is compromised because one arm cannot post for balance. Use the overhook to pull them off-balance toward the overhook side while simultaneously extending your legs to push their hips away from you. This creates a pendulum effect where their weight shifts forward over a narrow base. From here, you can execute a hip bump sweep variation by sitting up into their compromised balance, or transition to a single leg X-guard entry using the overhook to control their trajectory as they fall forward."
+        "answer": "When the opponent stands with your overhook still engaged, their base is compromised because one arm cannot post for balance. Use the overhook to pull them off-balance toward the overhook side while simultaneously extending your legs to push their hips away from you. This creates a pendulum effect where their weight shifts forward over a narrow base. From here, you can execute a hip bump sweep variation by sitting up into their compromised balance, or transition to a single leg X-guard entry using the overhook to control their trajectory as they fall forward.",
+        "answer_line": "Pull off-balance, push hips away",
+        "distractors": {
+          "plausible": [
+            "Pull them straight down to guard",
+            "Release overhook, regain composure"
+          ],
+          "trap": [
+            "Let them stand and pass freely"
+          ]
+        }
       },
       {
         "question": "Your diamond frame has been fully broken and the opponent is beginning to open your guard — what is your immediate defensive priority?",
-        "answer": "Your immediate priority is transitioning to an active open guard system rather than attempting to re-establish the diamond frame, which is no longer viable once both controls are stripped. As the guard opens, immediately establish foot-on-hip control to manage distance while seeking collar or sleeve grips for an open guard configuration such as collar sleeve, spider guard, or De La Riva. The critical window is the two to three seconds between diamond collapse and open guard establishment — using this time to fight for the diamond is wasteful, while using it to establish distance management preserves your guard."
+        "answer": "Your immediate priority is transitioning to an active open guard system rather than attempting to re-establish the diamond frame, which is no longer viable once both controls are stripped. As the guard opens, immediately establish foot-on-hip control to manage distance while seeking collar or sleeve grips for an open guard configuration such as collar sleeve, spider guard, or De La Riva. The critical window is the two to three seconds between diamond collapse and open guard establishment — using this time to fight for the diamond is wasteful, while using it to establish distance management preserves your guard.",
+        "answer_line": "Establish open guard grips fast",
+        "distractors": {
+          "plausible": [
+            "Rebuild the diamond frame",
+            "Scramble for a leg lock entry"
+          ],
+          "trap": [
+            "Fight to reclose the guard"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -401,6 +563,26 @@
         "phase": "Phase 4: Live Defense Integration",
         "focus": "Full defensive game plan in live sparring",
         "description": "Positional sparring starting in diamond guard with partner using full passing methodology. Apply the complete defensive hierarchy: maintain diamond, counter-attack during grip stripping, transition to open guard if diamond breaks, and retain guard against the complete pass. Track outcomes across multiple rounds."
+      }
+    ],
+    "clips": [
+      {
+        "id": "Y9D5xi0ZPAs",
+        "title": "Defending the stack from the overhook guard",
+        "by": "JJPA APEX",
+        "vertical": false,
+        "channel": "JJPA APEX",
+        "duration": 28,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "Xj_MVwk2jq0",
+        "title": "Guard retention when they hold on",
+        "by": "Jean Jacques Machado",
+        "vertical": false,
+        "channel": "JeanJacquesMachado",
+        "duration": 46,
+        "verified": "2026-07-15"
       }
     ]
   }

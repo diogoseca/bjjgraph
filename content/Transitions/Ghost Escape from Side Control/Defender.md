@@ -93,6 +93,14 @@ description: "Defend the Ghost Escape to guard from side control top. Recognitio
         "@type": "Answer",
         "text": "The standard ghost escape simply requires stopping the rotation to prevent turtle. This variant adds the knee threading phase, meaning you have a secondary line of defense: even if you cannot stop the turn, you can still prevent the guard recovery by following closely enough to deny the knee insertion. This means following the turn to turtle top is a viable and favorable defensive outcome, whereas against the standard ghost escape, following to turtle is the expected result."
       }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the earliest physical cue that indicates a Ghost Escape attempt is beginning?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The earliest cue is feeling the bottom player's hips begin to rotate away from you in a circular motion toward their stomach, as opposed to the linear lateral shrimping movement of a standard hip escape. This rotational hip movement, often preceded by a short bridge, is the signature initiation of the Ghost Escape and your response window is extremely short once it begins."
+      }
     }
   ]
 }
@@ -148,6 +156,32 @@ description: "Defend the Ghost Escape to guard from side control top. Recognitio
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Ghost Escape from Side Control (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Stopping the Ghost Escape: The Door Stop Killer",
+      "description": "Ghost Escape from Side Control (Defender) film study: Stopping the Ghost Escape: The Door Stop Killer, taught by Coach Brian.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/6mZGA39kDxI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/6mZGA39kDxI",
+      "url": "https://www.youtube.com/watch?v=6mZGA39kDxI",
+      "creator": { "@type": "Person", "name": "Coach Brian" },
+      "duration": "PT73S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +191,26 @@ Defending the Ghost Escape to open guard means preventing the bottom player from
 **Opponent's Starting Position**: [[Positions/Side Control]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Ghost Escape from Side Control (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=6mZGA39kDxI)
+
+<p class="clip-credit"><strong>Stopping the Ghost Escape: The Door Stop Killer</strong> — taught by Coach Brian · 1:13 · <a href="https://www.youtube.com/watch?v=6mZGA39kDxI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

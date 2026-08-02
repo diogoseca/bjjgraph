@@ -148,6 +148,43 @@ description: "Defend against the standup from Inside Ashi-Garami. Recognition cu
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Standing Up from Inside Ashi (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Standing false reap counter",
+      "description": "Standing Up from Inside Ashi (Defender) film study: Standing false reap counter, taught by Doug.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/NljWP25vW5Y/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/NljWP25vW5Y",
+      "url": "https://www.youtube.com/watch?v=NljWP25vW5Y",
+      "creator": { "@type": "Person", "name": "Doug" },
+      "duration": "PT19S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Clearing defensive hands in ashi garami",
+      "description": "Standing Up from Inside Ashi (Defender) film study: Clearing defensive hands in ashi garami, taught by Brian Glick.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/QbTnnAOcAl4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/QbTnnAOcAl4",
+      "url": "https://www.youtube.com/watch?v=QbTnnAOcAl4",
+      "creator": { "@type": "Person", "name": "Brian Glick" },
+      "duration": "PT191S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +194,34 @@ When the bottom Inside Ashi-Garami player attempts to stand up, the defender has
 **Opponent's Starting Position**: [[Positions/Ashi Garami/Inside Ashi-Garami]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Standing Up from Inside Ashi (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=NljWP25vW5Y)
+
+<p class="clip-credit"><strong>Standing false reap counter</strong> — taught by Doug · 0:19 · <a href="https://www.youtube.com/watch?v=NljWP25vW5Y" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=QbTnnAOcAl4)
+
+<p class="clip-credit"><strong>Clearing defensive hands in ashi garami</strong> — taught by Brian Glick · 3:11 · <a href="https://www.youtube.com/watch?v=QbTnnAOcAl4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

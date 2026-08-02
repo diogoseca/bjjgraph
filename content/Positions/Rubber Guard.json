@@ -111,27 +111,38 @@
     "transitions": [
       {
         "transition": "Posture Recovery",
-        "attempt_probability": 30
+        "attempt_probability": {
+          "gi": 27,
+          "nogi": 27
+        }
       },
       {
         "transition": "Rubber Guard Clear to Pass",
-        "attempt_probability": 23
-      },
-      {
-        "transition": "Arm Extraction",
-        "attempt_probability": 19
+        "attempt_probability": {
+          "gi": 27,
+          "nogi": 28
+        }
       },
       {
         "transition": "Stack Pass",
-        "attempt_probability": 14
+        "attempt_probability": {
+          "gi": 12,
+          "nogi": 13
+        }
       },
       {
         "transition": "Pressure Pass",
-        "attempt_probability": 9
+        "attempt_probability": {
+          "gi": 13,
+          "nogi": 12
+        }
       },
       {
         "transition": "Rubber Guard Top Posture Escape",
-        "attempt_probability": 5
+        "attempt_probability": {
+          "gi": 21,
+          "nogi": 20
+        }
       }
     ],
     "decision_tree": [
@@ -299,6 +310,26 @@
       "10th planet defense and posture recovery",
       "mission control counter techniques",
       "submission defense against rubber guard"
+    ],
+    "clips": [
+      {
+        "id": "AvivOVuYcCk",
+        "title": "Escaping and passing the rubber guard",
+        "by": "BJJ4Breakfast",
+        "vertical": false,
+        "channel": "BJJ4Breakfast",
+        "duration": 131,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "7qHsahtxnDo",
+        "title": "Guard passing from the top: posture and pressure",
+        "by": "Mario Sperry",
+        "vertical": false,
+        "channel": "WorldMartialArts",
+        "duration": 165,
+        "verified": "2026-07-15"
+      }
     ]
   },
   "bottom": {
@@ -331,51 +362,87 @@
     "transitions": [
       {
         "transition": "Triangle Setup",
-        "attempt_probability": 34
+        "attempt_probability": {
+          "gi": 14,
+          "nogi": 14
+        }
       },
       {
         "transition": "Omoplata from Rubber Guard",
-        "attempt_probability": 13
+        "attempt_probability": {
+          "gi": 13,
+          "nogi": 12
+        }
       },
       {
         "transition": "Mission Control Entry from Rubber Guard",
-        "attempt_probability": 10
+        "attempt_probability": {
+          "gi": 18,
+          "nogi": 18
+        }
       },
       {
         "transition": "Rubber Guard to Closed Guard",
-        "attempt_probability": 6
+        "attempt_probability": {
+          "gi": 13,
+          "nogi": 11
+        }
       },
       {
         "transition": "New York Entry from Rubber Guard",
-        "attempt_probability": 4
+        "attempt_probability": {
+          "gi": 9,
+          "nogi": 10
+        }
       },
       {
         "transition": "Hip Bump Sweep",
-        "attempt_probability": 4
+        "attempt_probability": {
+          "gi": 6,
+          "nogi": 6
+        }
       },
       {
         "transition": "Omoplata Sweep",
-        "attempt_probability": 4
+        "attempt_probability": {
+          "gi": 6,
+          "nogi": 5
+        }
       },
       {
         "transition": "Gogoplata",
-        "attempt_probability": 4
+        "attempt_probability": {
+          "gi": 4,
+          "nogi": 5
+        }
       },
       {
         "transition": "Rubber Guard Sweep",
-        "attempt_probability": 4
+        "attempt_probability": {
+          "gi": 6,
+          "nogi": 6
+        }
       },
       {
         "transition": "Crackhead Control Entry",
-        "attempt_probability": 3
+        "attempt_probability": {
+          "gi": 3,
+          "nogi": 4
+        }
       },
       {
         "transition": "Meathook Entry from Rubber Guard",
-        "attempt_probability": 10
+        "attempt_probability": {
+          "gi": 3,
+          "nogi": 4
+        }
       },
       {
         "transition": "New York Control Entry from Rubber Guard",
-        "attempt_probability": 4
+        "attempt_probability": {
+          "gi": 5,
+          "nogi": 5
+        }
       }
     ],
     "decision_tree": [
@@ -570,6 +637,269 @@
       "no-gi guard control and submissions",
       "mission control to submission chains",
       "flexibility-based guard attack system"
+    ],
+    "clips": [
+      {
+        "id": "gFYyMkaMz34",
+        "title": "Prison guard breakdown from rubber guard",
+        "by": "Eddie Bravo",
+        "vertical": false,
+        "channel": "Eddie Bravo",
+        "duration": 59,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "KN7ww-OyaxQ",
+        "title": "Meathook options from rubber guard",
+        "by": "Eddie Bravo",
+        "vertical": false,
+        "channel": "Eddie Bravo",
+        "duration": 60,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "KCyIwacRKu8",
+        "title": "Invisible collar from rubber guard",
+        "by": "Eddie Bravo",
+        "vertical": false,
+        "channel": "Eddie Bravo",
+        "duration": 61,
+        "verified": "2026-07-14"
+      }
     ]
-  }
+  },
+  "flashcards_family": [
+    {
+      "question": "What single mechanical trade-off defines every Rubber Guard variation?",
+      "answer": "Every Rubber Guard configuration sacrifices hip mobility and positional stability in exchange for upper-body arm control and posture destruction. By committing one leg high across the opponent's back and clamping it with the arm, the bottom player pins the opponent's near arm to the chest and drives their head down, a level of upper-body control conventional closed guard cannot reach. The cost is that the elevated leg leaves the bottom player unable to quickly shrimp away or recover guard if the arm-and-posture trap is broken. This is why flexibility is the non-negotiable prerequisite across the entire system: the trade only pays off if the leg can actually reach and hold the high position without leaking pressure.",
+      "answer_line": "Mobility/stability for arm control",
+      "distractors": {
+        "plausible": [
+          "Strength for flexibility",
+          "Speed for submission setups"
+        ],
+        "trap": [
+          "Open guard to attack faster"
+        ]
+      }
+    },
+    {
+      "question": "Why does trapping the opponent's near arm against their own chest matter so much in any Rubber Guard variant?",
+      "answer": "Isolating the near arm removes the opponent's primary posting and framing tool, the same resource they would use to recover posture, stack, or pass. With that arm sealed inside the leg-and-arm loop, the opponent is reduced to fighting with a single free limb against a two-limb control structure. This arm isolation is the shared root threat of the whole system: every named position (Mission Control, New York, Invisible Collar, Zombie) is just a different way of keeping that same arm trapped while the free hand and shin migrate toward a submission. Break the arm trap and the variant collapses back toward conventional closed guard.",
+      "answer_line": "Removes their main post/frame",
+      "distractors": {
+        "plausible": [
+          "Sets up an instant armbar",
+          "Frees your own hips to move"
+        ],
+        "trap": [
+          "Lets you release guard early"
+        ]
+      }
+    },
+    {
+      "question": "How does posture destruction function as the universal control mechanism across Rubber Guard positions?",
+      "answer": "Rubber Guard controls by keeping the opponent's head pulled down and their spine flexed forward, because an opponent with broken posture cannot generate the extension needed to stack, pass, or defend the neck. The high leg over the back acts as a lever that drives the shoulders down while the trapping arm prevents re-extension. Every variation preserves this bent-forward posture as a constant precondition, and the moment the opponent restores upright posture the position is effectively neutralized. This is why posture is both the bottom player's anchor and the top player's first escape target across the whole family.",
+      "answer_line": "Broken posture blocks stack/pass",
+      "distractors": {
+        "plausible": [
+          "Tight hips block their base",
+          "Grip fighting wears them out"
+        ],
+        "trap": [
+          "Let them sit up to breathe"
+        ]
+      }
+    },
+    {
+      "question": "What is the shared submission logic that connects triangles, omoplatas, and gogoplatas from Rubber Guard?",
+      "answer": "All three finishes exploit the same trapped-arm-and-broken-posture geometry, differing only in which limb closes the angle. Because the near arm is already isolated across the centerline, the neck and the far side become the targets: the triangle closes when the legs encircle the neck and the already-isolated arm, the omoplata attacks the isolated shoulder when that arm is driven behind the opponent, and the gogoplata threads the shin across the throat once posture is broken deep enough. The bottom player does not pick one in advance; the opponent's reaction to the shared control dictates which angle opens. This is why the system is described as a decision tree rather than a fixed sequence.",
+      "answer_line": "Same trap, different finish angle",
+      "distractors": {
+        "plausible": [
+          "Pick the finish before starting",
+          "Always attack the far-side arm"
+        ],
+        "trap": [
+          "Force the triangle regardless"
+        ]
+      }
+    },
+    {
+      "question": "Why is control of the opponent's free hand the decisive variable in every Rubber Guard exchange?",
+      "answer": "With one arm already trapped, the opponent's remaining free hand is their only tool for framing, posting, and grip-fighting, so managing it determines whether the position advances or stalls. If the bottom player fails to occupy or monitor that free hand, the opponent uses it to create space, peel the leg, and recover posture, resetting to neutral closed guard. Conversely, when the bottom player neutralizes the free hand with a grip, overhook, or head control, the opponent is left with no functional limbs to defend and the system progresses toward submission. This is the universal escape-versus-advance hinge shared by every named variation.",
+      "answer_line": "Free hand is their last weapon",
+      "distractors": {
+        "plausible": [
+          "Watch their far leg instead",
+          "Focus only on your own grips"
+        ],
+        "trap": [
+          "Ignore the free hand, attack neck"
+        ]
+      }
+    },
+    {
+      "question": "Why is Rubber Guard organized as an ordered progression of named positions rather than a loose bag of moves?",
+      "answer": "The named positions (Mission Control to New York to Invisible Collar to Zombie) are sequenced so that each one deepens arm isolation and posture control while opening a specific new finish, letting the bottom player climb the hierarchy instead of forcing techniques at random. Following the progression keeps grip changes logical and reaction-driven: each defensive response the opponent gives cues the next position rather than a guessed attack. Jumping between positions without the correct grip sequence telegraphs the attack and hands experienced opponents easy defenses, which is a shared failure mode across the whole system. Systematic advancement, not improvisation, is what makes the variants function as one connected attacking framework.",
+      "answer_line": "Each step deepens control & options",
+      "distractors": {
+        "plausible": [
+          "Positions are interchangeable",
+          "Speed through steps quickly"
+        ],
+        "trap": [
+          "Skip steps to surprise them"
+        ]
+      }
+    },
+    {
+      "question": "Why must energy be applied differently in Rubber Guard than in conventional closed guard?",
+      "answer": "Conventional closed guard lets the bottom player sustain steady pressure with a locked ankle behind the opponent's back, but Rubber Guard's elevated leg cannot hold constant maximum tension without rapid fatigue. Across every variant the bottom player must apply pressure in bursts, clamping hard to break or advance and relaxing into a structural hold between attempts, relying on skeletal alignment rather than muscular squeezing. Overreliance on leg strength is a shared failure mode that lets the opponent simply wait out the fatigue and recover posture. This burst-and-hold rhythm is a universal principle of the system, not a feature of any one named position.",
+      "answer_line": "Burst and hold, not squeeze",
+      "distractors": {
+        "plausible": [
+          "Constant max leg tension",
+          "Relax fully between attacks"
+        ],
+        "trap": [
+          "Muscle the leg to keep tension"
+        ]
+      }
+    }
+  ],
+  "flashcards_position": [
+    {
+      "question": "What structural configuration defines the Rubber Guard and distinguishes it from a standard closed guard?",
+      "answer": "Rubber Guard is a closed-guard variant in which the bottom player brings one leg high across the opponent's back, threading the shin or foot up near or above the shoulder line and securing it with the same-side hand. This traps the opponent's near-side arm against the bottom player's chest inside the leg, converting the leg from a hip-level clamp into an upper-body control tool. Unlike a conventional closed guard, where the legs merely clamp the waist and posture is contested at range, Rubber Guard collapses the space entirely and locks the arm and head into a single trapped unit. The defining feature is this leg-over-shoulder arm trap, which is what makes the whole triangle, omoplata, and gogoplata family accessible.",
+      "answer_line": "Leg over shoulder traps the arm",
+      "distractors": {
+        "plausible": [
+          "Deep half guard leg hook",
+          "Overhook plus closed ankles"
+        ],
+        "trap": [
+          "Legs low, clamp the waist"
+        ]
+      }
+    },
+    {
+      "question": "Why is extreme hip and hamstring flexibility a hard prerequisite for the position rather than a stylistic preference?",
+      "answer": "The position's control depends on elevating one leg high enough that the shin crosses above the opponent's shoulder line, which requires deep hip flexion combined with the ability to hold that flexed leg under load. Without sufficient hamstring length and hip mobility, the leg sits too low, the shin stays at back level rather than shoulder level, and the arm cannot be trapped against the chest. A leg that cannot reach the correct height leaves a functionally ordinary closed guard with a loose overhook, giving neither the posture-breaking nor the arm-isolation benefits. This is why flexibility is treated as non-negotiable: it is a mechanical gate on whether the configuration can exist at all, not merely on how comfortable it feels.",
+      "answer_line": "No flex, no shin-to-shoulder height",
+      "distractors": {
+        "plausible": [
+          "Strength beats flexibility here",
+          "Ankle mobility matters most"
+        ],
+        "trap": [
+          "Force the leg up despite pain"
+        ]
+      }
+    },
+    {
+      "question": "What are the primary control points that keep both players locked into the Rubber Guard configuration?",
+      "answer": "The three anchoring control points are the high leg pinning the trapped arm against the bottom player's chest, the same-side hand securing the shin or foot to hold that leg in place, and the broken forward posture of the top player whose head is pulled down and forward. These points interlock: the leg cannot trap the arm unless posture is already broken, and posture stays broken because the trapped arm removes a primary posting base. The bottom player's spine also holds a rounded C-curve to protect the neck and maintain the angle. Remove any one of these anchors and the whole configuration begins to unravel back toward open or closed guard.",
+      "answer_line": "Leg, hand grip, broken posture",
+      "distractors": {
+        "plausible": [
+          "Both ankles locked behind back",
+          "Underhook and collar tie"
+        ],
+        "trap": [
+          "Squeeze knees, ignore the grip"
+        ]
+      }
+    },
+    {
+      "question": "How does the trapped-arm mechanic compromise the top player's posture and basing simultaneously?",
+      "answer": "When one arm is threaded inside the high leg and pinned to the bottom player's chest, the top player loses that arm as a posting base, so their weight shifts onto the free hand and knees alone. This narrows their base and pulls their spine into flexion because the trapped shoulder is drawn forward and down toward the bottom player's centerline. With posture broken forward and one post removed, the top player cannot easily sit back to open the guard or drive forward to stack without exposing the arm and neck to submission angles. The mechanic is efficient precisely because a single leg action attacks base and posture at the same time rather than requiring separate grips for each.",
+      "answer_line": "One post gone, spine flexes forward",
+      "distractors": {
+        "plausible": [
+          "Frees them to sit back easy",
+          "Only affects grip strength"
+        ],
+        "trap": [
+          "Let them stack, base is fine"
+        ]
+      }
+    },
+    {
+      "question": "What is the strategic trade-off that both players are implicitly accepting in the Rubber Guard exchange?",
+      "answer": "The bottom player trades positional stability and mobility for superior arm control and access to a submission tree unavailable from ordinary guard. The high leg is committed to trapping the arm rather than to freely re-clamping or elevating hips, so if the arm frees the bottom player is momentarily disorganized. The top player, conversely, accepts a badly compromised posture and a trapped arm in exchange for the chance to smash, stack, or extract and pass against a bottom player who is mechanically committed. This mutual commitment is what makes the position reaction-driven: whichever player better exploits the other's committed structure dictates the next state.",
+      "answer_line": "Both commit: control vs escape risk",
+      "distractors": {
+        "plausible": [
+          "Only bottom player risks anything",
+          "Top player has nothing to lose"
+        ],
+        "trap": [
+          "Bottom player should bail out"
+        ]
+      }
+    },
+    {
+      "question": "How does the position behave as a decision tree keyed to how the trapped top player reacts?",
+      "answer": "Rubber Guard resolves differently depending on which way the trapped top player commits, and both players read the same cues. If the top player pulls the trapped arm back to free it, the triangle line opens as the neck and remaining arm become exposed. If they drive forward to smash, the rotational omoplata and back-taking angles open. If they sit back or freeze without addressing the leg, the bottom player advances through the named sub-positions toward tighter control and the gogoplata. Because each defensive reaction feeds a specific attack, the configuration functions less like a static hold and more like a branching state machine where movement, not stillness, determines the outcome.",
+      "answer_line": "Their reaction opens the attack",
+      "distractors": {
+        "plausible": [
+          "Always attack the same way",
+          "Wait for them to tap out"
+        ],
+        "trap": [
+          "Force the submission blindly"
+        ]
+      }
+    },
+    {
+      "question": "What role does the named sub-position progression such as Mission Control, New York, and Invisible Collar play within the system?",
+      "answer": "The named positions are discrete, checkpointed configurations of the same underlying arm-and-leg trap, each defined by a specific grip and shin placement that stabilizes a particular attack. Mission Control is the foundational hold with the shin across the back and foot secured, serving as the hub from which the others branch. New York shifts the arm and grip to emphasize the omoplata threat, while Invisible Collar reconfigures toward a neck attack without needing gi grips. Progressing through them is not random escalation but a systematic response to how the opponent defends the current checkpoint, so the names function as a shared map of stable states rather than as separate techniques.",
+      "answer_line": "Checkpoints mapping stable states",
+      "distractors": {
+        "plausible": [
+          "Random techniques, any order",
+          "Separate systems, pick one"
+        ],
+        "trap": [
+          "Skip to Zombie immediately"
+        ]
+      }
+    },
+    {
+      "question": "How does the neck and spine posture of the bottom player govern the safety and integrity of the configuration for both athletes?",
+      "answer": "Because the bottom player's head is drawn toward their own knee and the leg is elevated over the shoulder line, the bottom player must maintain a rounded C-curve with the chin tucked to avoid cervical hyperextension under stacking pressure. This same rounded posture is what keeps the shoulders aligned to sustain the leg grip and hold the trapped arm tight, so structure and safety are the same thing here. For the top player, the bottom player's spinal alignment dictates how stacking pressure transmits: a well-curved bottom player absorbs stacking and preserves the trap, while a flattened or hyperextended one both risks injury and loosens the arm isolation. The configuration therefore hinges on a spinal posture that simultaneously protects the neck and preserves the control.",
+      "answer_line": "Round spine, tuck chin, stay safe",
+      "distractors": {
+        "plausible": [
+          "Arch back to add power",
+          "Keep neck neutral, not curved"
+        ],
+        "trap": [
+          "Extend neck to see the pass"
+        ]
+      }
+    }
+  ],
+  "clips": [
+    {
+      "id": "h1XzZDsUxHQ",
+      "title": "Eddie Bravo explains the rubber guard",
+      "by": "Eddie Bravo",
+      "vertical": false,
+      "channel": "JAN FERNANDEZ ",
+      "duration": 111,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "tWAZbCiWQ9E",
+      "title": "Rubber guard philosophy",
+      "by": "Eddie Bravo",
+      "vertical": false,
+      "channel": "Eddie Bravo",
+      "duration": 61,
+      "verified": "2026-07-14"
+    }
+  ]
 }

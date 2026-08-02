@@ -133,6 +133,54 @@ description: "How to defend the Single Leg X-Guard to Inside Sankaku entry in BJ
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Single Leg X-Guard to Inside Sankaku (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Defending heel hooks overview",
+      "description": "Single Leg X-Guard to Inside Sankaku (Defender) film study: Defending heel hooks overview, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/v3w0qXLKxug/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/v3w0qXLKxug",
+      "url": "https://www.youtube.com/watch?v=v3w0qXLKxug",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT92S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Proper heel hook defense vs ankle lock defense",
+      "description": "Single Leg X-Guard to Inside Sankaku (Defender) film study: Proper heel hook defense vs ankle lock defense, taught by Craig Jones.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/yUdB-EJaXgQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/yUdB-EJaXgQ",
+      "url": "https://www.youtube.com/watch?v=yUdB-EJaXgQ",
+      "creator": { "@type": "Person", "name": "Craig Jones" },
+      "duration": "PT133S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "The one key principle of heel hook defense",
+      "description": "Single Leg X-Guard to Inside Sankaku (Defender) film study: The one key principle of heel hook defense, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Z0WDtUMkBP8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Z0WDtUMkBP8",
+      "url": "https://www.youtube.com/watch?v=Z0WDtUMkBP8",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT170S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <aside class="entity-relations">
@@ -149,6 +197,42 @@ If the spin is already underway, your goal shifts to denying the leg fold and pr
 **Opponent's Starting Position**: [[Positions/X-Guard/Single Leg X-Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Single Leg X-Guard to Inside Sankaku (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=v3w0qXLKxug)
+
+<p class="clip-credit"><strong>Defending heel hooks overview</strong> — taught by Lachlan Giles · 1:32 · <a href="https://www.youtube.com/watch?v=v3w0qXLKxug" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=yUdB-EJaXgQ)
+
+<p class="clip-credit"><strong>Proper heel hook defense vs ankle lock defense</strong> — taught by Craig Jones · 2:13 · <a href="https://www.youtube.com/watch?v=yUdB-EJaXgQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Z0WDtUMkBP8)
+
+<p class="clip-credit"><strong>The one key principle of heel hook defense</strong> — taught by Lachlan Giles · 2:50 · <a href="https://www.youtube.com/watch?v=Z0WDtUMkBP8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

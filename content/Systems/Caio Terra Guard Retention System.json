@@ -382,35 +382,115 @@
   "flashcards": [
     {
       "question": "What core trade-off justifies prioritizing guard retention over guard recovery in the Caio Terra system?",
-      "answer": "Maintaining an existing guard costs far less energy than rebuilding one from an inferior position, so the system invests in staying connected rather than scrambling back, conserving energy for offense and the later stages of a match."
+      "answer": "Maintaining an existing guard costs far less energy than rebuilding one from an inferior position, so the system invests in staying connected rather than scrambling back, conserving energy for offense and the later stages of a match.",
+      "answer_line": "Retention costs less energy",
+      "distractors": {
+        "plausible": [
+          "Recovery rebuilds a stronger guard",
+          "Scrambling regains control faster"
+        ],
+        "trap": [
+          "Always scramble back to guard"
+        ]
+      }
     },
     {
       "question": "Why does the system favor small, continuous hip movements over large explosive escapes?",
-      "answer": "Small continuous hip adjustments keep the defender ahead of the pass and preserve connection control, whereas large explosive escapes open gaps the passer can exploit and quickly gas the defender out under sustained pressure."
+      "answer": "Small continuous hip adjustments keep the defender ahead of the pass and preserve connection control, whereas large explosive escapes open gaps the passer can exploit and quickly gas the defender out under sustained pressure.",
+      "answer_line": "Small hip moves stay ahead of pass",
+      "distractors": {
+        "plausible": [
+          "Big explosive escapes are faster",
+          "Move hips only when pressured"
+        ],
+        "trap": [
+          "Power through with raw strength"
+        ]
+      }
     },
     {
       "question": "What must you do before attempting to restructure your guard, according to the connection-breaking hierarchy?",
-      "answer": "Eliminate the opponent's most dangerous grips and connections first, ranked by passing threat, because recovering position while the passer still controls key connections simply feeds you straight back into the pass."
+      "answer": "Eliminate the opponent's most dangerous grips and connections first, ranked by passing threat, because recovering position while the passer still controls key connections simply feeds you straight back into the pass.",
+      "answer_line": "Break dangerous grips first",
+      "distractors": {
+        "plausible": [
+          "Restructure guard immediately",
+          "Recover position before grips"
+        ],
+        "trap": [
+          "Ignore grips, rebuild guard"
+        ]
+      }
     },
     {
       "question": "How does the Caio Terra system define a 'recovery loop'?",
-      "answer": "A recovery loop is a pre-programmed, heavily drilled sequence that returns the defender from a specific compromised position (knee cut, toreando, stack) back to a strong guard, and can be chained when the first attempt is countered."
+      "answer": "A recovery loop is a pre-programmed, heavily drilled sequence that returns the defender from a specific compromised position (knee cut, toreando, stack) back to a strong guard, and can be chained when the first attempt is countered.",
+      "answer_line": "Pre-drilled loop back to guard",
+      "distractors": {
+        "plausible": [
+          "Improvised recovery each time",
+          "One fixed escape, no backup chain"
+        ],
+        "trap": [
+          "Wait and stall for a break"
+        ]
+      }
     },
     {
       "question": "What distinguishes a dynamic, angle-based frame from a static, strength-based frame?",
-      "answer": "An angle-based frame uses skeletal alignment and positioning to redirect pressure with minimal force, so it holds against bigger opponents, while a strength-based frame relies on muscling and collapses once the passer out-pressures it."
+      "answer": "An angle-based frame uses skeletal alignment and positioning to redirect pressure with minimal force, so it holds against bigger opponents, while a strength-based frame relies on muscling and collapses once the passer out-pressures it.",
+      "answer_line": "Angles redirect force, not muscle",
+      "distractors": {
+        "plausible": [
+          "Strength frames stop bigger passers",
+          "Angle frames need constant power"
+        ],
+        "trap": [
+          "Muscle frame beats any pressure"
+        ]
+      }
     },
     {
       "question": "When should a practitioner abandon primary retention and switch to emergency guard replacement?",
-      "answer": "At the recognized 'point of no return' for a given pass, once frames and hip movement can no longer create space, you transition to granby rolls, inversions, or a technical stand-up to avoid conceding a completed pass."
+      "answer": "At the recognized 'point of no return' for a given pass, once frames and hip movement can no longer create space, you transition to granby rolls, inversions, or a technical stand-up to avoid conceding a completed pass.",
+      "answer_line": "At the pass's point of no return",
+      "distractors": {
+        "plausible": [
+          "As soon as passer touches hips",
+          "Only after guard is fully passed"
+        ],
+        "trap": [
+          "Wait it out, hope pass fails"
+        ]
+      }
     },
     {
       "question": "What is a common mistake practitioners make when applying this system under live pressure?",
-      "answer": "Reacting too late by waiting until the pass is fully developed before moving the hips, and leaning on static strength frames instead of proactive, continuous motion that begins before the passer can consolidate position."
+      "answer": "Reacting too late by waiting until the pass is fully developed before moving the hips, and leaning on static strength frames instead of proactive, continuous motion that begins before the passer can consolidate position.",
+      "answer_line": "Moving too late, muscling frames",
+      "distractors": {
+        "plausible": [
+          "Moving hips too early always",
+          "Relying only on hip movement"
+        ],
+        "trap": [
+          "Freeze and hold static frame"
+        ]
+      }
     },
     {
       "question": "How should recovery loops be trained so they hold up under fatigue?",
-      "answer": "Drill each loop in isolation until it is automatic and requires minimal cognitive load, then rehearse it specifically under fatigue and from progressively worse starting positions so it survives the stress of live rolling."
+      "answer": "Drill each loop in isolation until it is automatic and requires minimal cognitive load, then rehearse it specifically under fatigue and from progressively worse starting positions so it survives the stress of live rolling.",
+      "answer_line": "Isolate drill, then add fatigue",
+      "distractors": {
+        "plausible": [
+          "Only drill loops at full speed",
+          "Learn many loops, skip repetition"
+        ],
+        "trap": [
+          "Skip drilling, improvise live"
+        ]
+      }
     }
   ]
 }

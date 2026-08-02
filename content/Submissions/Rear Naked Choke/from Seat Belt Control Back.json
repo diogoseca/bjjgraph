@@ -21,7 +21,10 @@
   "target_area": "Carotid arteries and jugular veins",
   "starting_position": "Seat Belt Control Back",
   "from_position": "Seat Belt Control Back/Top",
-  "success_rate": 65,
+  "success_rate": {
+    "gi": 65,
+    "nogi": 65
+  },
   "overview": "Representing the natural culmination of the back control positional hierarchy, this choke converts the sport's most dominant position into its most reliable finish. The seat belt over-arm is already positioned along the choking pathway, requiring only a grip release and forearm thread to establish the strangle. This positional advantage eliminates the most difficult element of the rear naked choke — establishing choking arm depth — since the transition from seat belt to choke requires minimal distance and disruption.\n\nThe strategic framework centers on a fundamental dilemma: the opponent must use their hands either to defend the seat belt grip structure or to protect the neck from the choke. They cannot address both threats simultaneously. Skilled attackers exploit this by alternating between grip pressure and choke attempts, forcing the defender into a deteriorating cycle of defensive choices. Each exchange creates incremental improvements in choking arm position until the forearm slides beneath the chin and the figure-four configuration locks behind the head.\n\nFinishing mechanics require precise bilateral compression of both carotid arteries using forearm and bicep pressure. The choking arm blade sits across the anterior neck with the elbow crook centered under the chin, while the locking arm completes the circuit behind the head. The squeeze generates from chest expansion and elbow retraction rather than arm strength, producing sustainable finishing pressure that does not depend on grip endurance or raw power.",
   "safety_considerations": {
     "injury_risks": [
@@ -111,17 +114,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 65,
+      "probability": {
+        "gi": 65,
+        "nogi": 65
+      },
       "result": "success"
     },
     {
       "to": "Seat Belt Control Back/Top",
-      "probability": 23,
+      "probability": {
+        "gi": 23,
+        "nogi": 23
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 12,
+      "probability": {
+        "gi": 12,
+        "nogi": 12
+      },
       "result": "counter"
     }
   ],
@@ -290,52 +302,181 @@
       {
         "question": "What anatomical structures does the Rear Naked Choke target and why is bilateral compression critical for the finish?",
         "answer": "The Rear Naked Choke targets both carotid arteries on the lateral sides of the neck and the jugular veins. Bilateral compression restricts blood flow to and from the brain simultaneously, producing unconsciousness within 5-10 seconds of properly applied pressure. Unilateral compression (one side only) is significantly less effective because the opposite carotid maintains blood supply to the brain, extending the time to finish and giving the opponent substantially more opportunity to defend and escape.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Both carotid arteries, together",
+        "distractors": {
+          "plausible": [
+            "One carotid side is enough",
+            "Jugular veins only matter"
+          ],
+          "trap": [
+            "Compress the trachea directly"
+          ]
+        }
       },
       {
         "question": "How do you transition from the seat belt grip to choking arm position without losing back control?",
         "answer": "Before releasing the seat belt hand connection, use the under-arm to pin or strip the opponent's near-side defending hand. Then release the over-arm from the seat belt while maintaining tight chest-to-back pressure. Slide the over-arm forearm along its existing pathway toward the neck — the arm is already positioned over the shoulder, so the transition is a continuation of the existing line rather than a withdrawal and re-entry. Throughout this transition, hooks must remain deep and chest contact must stay constant to prevent the opponent from exploiting the momentary grip change.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Strip the defending hand first",
+        "distractors": {
+          "plausible": [
+            "Release over-arm, then grab neck",
+            "Withdraw arm and re-enter to neck"
+          ],
+          "trap": [
+            "Let go of both grips to reset"
+          ]
+        }
       },
       {
         "question": "What indicators tell you the choke is properly positioned on the carotid arteries versus dangerously compressing the trachea?",
         "answer": "A properly positioned choke sits in the soft tissue grooves on either side of the trachea — you should feel soft muscle tissue under the forearm blade rather than the hard midline cartilage ridge of the windpipe. The opponent will feel mounting head pressure and visual changes (tunnel vision) rather than pain or coughing. If you feel the hard tracheal ridge under your forearm, or if the opponent is coughing, gagging, or making strained breathing sounds rather than quietly fading, the choke is mispositioned and must be adjusted laterally immediately.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Soft tissue, not hard trachea",
+        "distractors": {
+          "plausible": [
+            "Coughing means it's working",
+            "Sharp pain means it's deep"
+          ],
+          "trap": [
+            "Ride the windpipe and squeeze"
+          ]
+        }
       },
       {
         "question": "Your opponent has a tight chin tuck with both hands defending their neck — how do you systematically clear the chin?",
         "answer": "Address the defense in layers rather than fighting through it. First, use the under-arm to strip or pin one of their defending hands, reducing their grip fighting capability by half. Second, use your free hand to frame against the opponent's forehead and tilt the head backward slightly, opening the chin line. If the chin remains tight, use a forearm wedge — slide the blade edge of the forearm along the jawline from the side rather than trying to pry under the chin from the front. Alternatively, switch to an armbar or crucifix attack to force them to move their hands away from the neck, creating the opening for the choke on the re-attack.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Strip hand, then frame head back",
+        "distractors": {
+          "plausible": [
+            "Yank the chin with your fingers",
+            "Wait for them to get tired"
+          ],
+          "trap": [
+            "Drop hooks to muscle the chin"
+          ]
+        }
       },
       {
         "question": "What control requirements must be established before committing to the choke attempt from seat belt?",
         "answer": "Before transitioning to the choke: both hooks must be deep inside the opponent's thighs with active inward pressure (or body triangle locked), chest must be pressed firmly against their back with zero space, the seat belt hand connection must be secure, and the opponent's posture should be broken forward so their chin is driven toward their chest. Additionally, you should have positional stability — if the opponent was recently scrambling or you feel your hooks are shallow, spend 10-20 seconds consolidating control before attempting the grip transition. Rushing the choke from an unstable seat belt is the primary cause of losing back control.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Deep hooks, chest tight, no gaps",
+        "distractors": {
+          "plausible": [
+            "Chin control alone is enough",
+            "Seat belt grip alone is enough"
+          ],
+          "trap": [
+            "Drop hooks to reach the neck"
+          ]
+        }
       },
       {
         "question": "What is the point of no escape for the defender once the choke reaches a certain configuration?",
         "answer": "Once the figure-four lock is completed behind the head with proper forearm depth across the carotid arteries, the choke becomes extremely difficult to defend. The closed circuit of the arms creates a self-reinforcing compression structure that the defender cannot break open with grip fighting alone. The specific point of no return is when the choking arm crook sits centered under the chin and the locking arm's forearm presses against the back of the skull — at this configuration, the attacker needs only to expand the chest to finish, requiring minimal additional effort. Experienced defenders recognize this threshold and will tap before the squeeze rather than attempting to fight a locked figure-four.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Figure-four locked under the chin",
+        "distractors": {
+          "plausible": [
+            "Both hooks fully inserted",
+            "Chest sealed to their back"
+          ],
+          "trap": [
+            "Peeling the wrist still saves you"
+          ]
+        }
       },
       {
         "question": "You feel your grip burning out during the squeeze — what adjustment ensures the finish without relying on arm strength?",
         "answer": "Shift the compression mechanics entirely to your torso. Arch your back to expand the ribcage, driving the chest forward into the opponent's back while pulling both elbows back toward your own hips using your latissimus dorsi and rhomboid muscles. Think of inflating your chest against their back rather than squeezing with the arms. If grip fatigue is severe, ensure the figure-four is locked tightly so the arm structure holds position passively while the torso generates all compression force. You can also use your hooks to extend the opponent's body slightly, stretching them out and reducing the neck circumference your arms need to compress.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Arch back, drive chest, pull elbows",
+        "distractors": {
+          "plausible": [
+            "Squeeze harder with forearms",
+            "Widen elbows for leverage"
+          ],
+          "trap": [
+            "Release and open hooks to rest"
+          ]
+        }
       },
       {
         "question": "What are the most dangerous finishing errors when applying the Rear Naked Choke and how do you avoid them?",
         "answer": "The most dangerous error is applying the choke to the trachea instead of the carotid arteries, which causes windpipe damage, intense pain, and potential long-term respiratory injury. Always verify the forearm sits in the lateral neck grooves, not on the midline. The second critical error is maintaining the choke after a tap or after the opponent goes unconscious — release must be immediate and complete upon any tap signal. The third error is explosive application — jerking or snapping the choke risks cervical spine injury. Always apply progressive pressure over 2-5 seconds minimum. In training, never apply competition-speed chokes.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Crushing trachea instead of carotids",
+        "distractors": {
+          "plausible": [
+            "Squeezing before hooks are set",
+            "Choking with the bicep only"
+          ],
+          "trap": [
+            "Letting go of hooks to squeeze"
+          ]
+        }
       },
       {
         "question": "How should you immediately respond when the opponent begins peeling your choking wrist with a two-on-one grip?",
         "answer": "When the opponent commits both hands to a two-on-one peel on your choking wrist, your free hand (previously the locking arm) strips their top gripping hand while your choking arm maintains inward pressure to resist the peel. If they succeed in pulling the wrist away, immediately re-thread the forearm from a different angle — enter from further to the side rather than directly under the chin. Alternatively, recognize that both their hands are committed to the peel and therefore not protecting the neck. Switch to a short choke by driving your forearm deeper and clasping a gable grip directly against the neck, using their own two-on-one grip position to your advantage since they are now pulling your arm tighter against their neck from the opposite side.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Strip their hand, re-thread angle",
+        "distractors": {
+          "plausible": [
+            "Pull the wrist back the same way",
+            "Squeeze harder against the peel"
+          ],
+          "trap": [
+            "Let go of the choking arm"
+          ]
+        }
       },
       {
         "question": "In a competition scenario with under one minute remaining, what adjustments maximize finishing probability from established seat belt?",
         "answer": "Accelerate the dilemma cycle by attacking the choke immediately without extended grip fighting sequences. Use the short choke variation to bypass the need for a full figure-four — a gable grip pressed against the side of the neck generates enough pressure to force a quick tap even without ideal arm depth. Increase hook pressure and body compression to make the opponent feel claustrophobic urgency. If the standard path is blocked, commit fully to the highest-percentage available option rather than cycling between multiple threats. Accept that a slightly imperfect choke position applied with decisive commitment finishes more often under time pressure than continuing to search for perfect positioning.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Go straight to the short choke",
+        "distractors": {
+          "plausible": [
+            "Hunt a perfect figure-four grip",
+            "Switch to an armbar instead"
+          ],
+          "trap": [
+            "Loosen hooks to chase the neck"
+          ]
+        }
+      }
+    ],
+    "clips": [
+      {
+        "id": "3H5ZyHEHfpI",
+        "title": "RNC details from the seatbelt",
+        "by": "Coach Brian",
+        "vertical": false,
+        "channel": "TeachMeGrappling Coach Brian",
+        "duration": 133,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "eMbkVDRreIQ",
+        "title": "3 favorite chokes from the back",
+        "by": "Matt Arroyo",
+        "vertical": false,
+        "channel": "Matt Arroyo Jiu Jitsu ",
+        "duration": 87,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "Sb-atqD_TqQ",
+        "title": "Short choke from back position",
+        "by": "Cosens MMA",
+        "vertical": false,
+        "channel": "Cosens MMA LLC",
+        "duration": 55,
+        "verified": "2026-07-14"
       }
     ]
   },
@@ -430,27 +571,77 @@
       {
         "question": "What tactile and visual cues indicate the Rear Naked Choke attempt is beginning from seat belt control?",
         "answer": "The primary cue is the attacker's over-arm hand releasing the seat belt grip connection — you will feel the hand separation at your chest or lat. Simultaneously, the attacker's chest pressure typically increases as they commit weight forward for stability during the transition. The under-arm may shift to pin your near-side defending hand. You may also feel the attacker's head move to one side as they position for the choking angle. Recognizing these cues early — particularly the hand release — gives you the critical 1-2 second window to establish defensive grips before the forearm reaches your neck.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Over-arm hand leaves seat belt",
+        "distractors": {
+          "plausible": [
+            "Their hooks loosen and drop",
+            "Increased hook pressure only"
+          ],
+          "trap": [
+            "Wait for forearm on your neck"
+          ]
+        }
       },
       {
         "question": "What is the safest way to signal a tap when caught in the Rear Naked Choke from back control?",
         "answer": "Use multiple simultaneous tap signals to ensure the attacker recognizes the tap immediately. Tap rapidly on the attacker's arm or body with your hand — this is the most direct signal since they will feel it through the choking arm. Simultaneously, say 'tap' verbally in case the physical tap is not felt. If your hands are trapped, use foot taps on the mat. Any audible sound or physical signal should be treated as a tap. Tap early when you feel the choke lock rather than waiting until the pressure builds — the figure-four lock position means the choke will only tighten from this point, and delayed tapping risks loss of consciousness.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Tap hand, say it, tap early",
+        "distractors": {
+          "plausible": [
+            "Wait until it truly hurts",
+            "Tap once and stay still"
+          ],
+          "trap": [
+            "Try to power out before tapping"
+          ]
+        }
       },
       {
         "question": "What are the primary defensive options available at different stages of the choke setup?",
         "answer": "Early stage (attacker still in seat belt): Focus on grip fighting the seat belt structure and clearing hooks to prepare escape paths — this is the best time to escape because the attacker has not yet committed to the choke. Middle stage (choking arm near neck): Two-on-one the choking wrist immediately and maintain tight chin tuck — your only goal is preventing forearm entry under the chin. Late stage (forearm under chin, figure-four being established): This is an emergency — pull the choking wrist down toward your chest with maximum effort while trying to slip your chin back over the forearm. If the figure-four locks behind your head, tap immediately.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Grip fight early, two-on-one mid",
+        "distractors": {
+          "plausible": [
+            "Bridge and buck to break grips",
+            "Wait for the choke to appear"
+          ],
+          "trap": [
+            "Turn belly-down to escape hooks"
+          ]
+        }
       },
       {
         "question": "Your opponent's forearm has partially slipped under your chin — what is the emergency defense protocol?",
         "answer": "Immediately two-on-one the choking wrist and pull it down and across your body toward your far hip with maximum urgency. Simultaneously re-tuck your chin as hard as possible, trying to slip the jawline back over the forearm to re-establish the chin barrier. Turn your head toward the bicep of the choking arm rather than away from it — this closes the remaining space. If these actions do not dislodge the forearm within 2-3 seconds and you feel the attacker establishing the figure-four behind your head, tap immediately. This is not a position where continued resistance is safe.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Two-on-one wrist, re-tuck chin",
+        "distractors": {
+          "plausible": [
+            "Push forearm away with one hand",
+            "Turn head away from the bicep"
+          ],
+          "trap": [
+            "Keep grip fighting past 3 seconds"
+          ]
+        }
       },
       {
         "question": "What is the correct priority sequence when escaping seat belt back control under an active choke threat?",
         "answer": "Priority 1: Protect the neck — chin tucked, hands defending collar line, never leave the neck exposed. Priority 2: Control the choking arm — two-on-one the threatening wrist to prevent advancement toward the neck. Priority 3: Break or weaken the seat belt grip connection — one hand fights the wrist while hip movement disrupts the grip structure. Priority 4: Clear hooks — once the grip is weakened and neck is defended, use hip escapes to remove at least the bottom hook. Priority 5: Turn and face — with hooks cleared and grips broken, rotate to face the attacker and recover guard. Never advance to a lower priority while a higher priority is unresolved.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Neck first, then arm, then grips",
+        "distractors": {
+          "plausible": [
+            "Clear hooks before defending neck",
+            "Break seat belt before neck safety"
+          ],
+          "trap": [
+            "Turn to face before hooks are clear"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -473,6 +664,35 @@
         "phase": "Live Survival Rounds",
         "focus": "Full resistance back defense with tap awareness",
         "description": "Defend against full-speed back attacks from an experienced training partner. Focus on surviving for defined time periods — start with 30 seconds and build to 2 minutes. Develop awareness of when to continue defending versus when to tap. Build composure under maximum pressure."
+      }
+    ],
+    "clips": [
+      {
+        "id": "dWEiE8VqqM4",
+        "title": "Back escape vs rear naked choke",
+        "by": "Skyhook Martial Arts",
+        "vertical": false,
+        "channel": "Skyhook Martial Arts & Fitness",
+        "duration": 19,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "L1KeviYu1FQ",
+        "title": "Back escape and RNC defence",
+        "by": "Arete BJJ Malta",
+        "vertical": false,
+        "channel": "Arete Brazilian Jiu Jitsu Malta",
+        "duration": 25,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "ylLO80PM4zg",
+        "title": "Rear naked choke escape",
+        "by": "Renato Migliaccio",
+        "vertical": false,
+        "channel": "Renato Migliaccio",
+        "duration": 16,
+        "verified": "2026-07-14"
       }
     ]
   }

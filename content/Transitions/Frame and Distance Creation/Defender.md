@@ -142,6 +142,43 @@ description: "How to defend against Frame and Distance Creation in BJJ. Recognit
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Frame and Distance Creation (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Key detail for an inescapable achilles lock",
+      "description": "Frame and Distance Creation (Defender) film study: Key detail for an inescapable achilles lock, taught by Gordon Ryan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/x6mkAn6N5zk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/x6mkAn6N5zk",
+      "url": "https://www.youtube.com/watch?v=x6mkAn6N5zk",
+      "creator": { "@type": "Person", "name": "Gordon Ryan" },
+      "duration": "PT216S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Cross Ankle Defense to Straight Ankle Lock",
+      "description": "Frame and Distance Creation (Defender) film study: Cross Ankle Defense to Straight Ankle Lock, taught by Mikey Musumeci.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/fuLnIKC7Qns/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/fuLnIKC7Qns",
+      "url": "https://www.youtube.com/watch?v=fuLnIKC7Qns",
+      "creator": { "@type": "Person", "name": "Mikey Musumeci" },
+      "duration": "PT362S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -153,6 +190,34 @@ The critical window for countering Frame and Distance Creation occurs during the
 **Opponent's Starting Position**: [[Positions/Straight Ankle Lock Control]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Frame and Distance Creation (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=x6mkAn6N5zk)
+
+<p class="clip-credit"><strong>Key detail for an inescapable achilles lock</strong> — taught by Gordon Ryan · 3:36 · <a href="https://www.youtube.com/watch?v=x6mkAn6N5zk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=fuLnIKC7Qns)
+
+<p class="clip-credit"><strong>Cross Ankle Defense to Straight Ankle Lock</strong> — taught by Mikey Musumeci · 6:02 · <a href="https://www.youtube.com/watch?v=fuLnIKC7Qns" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

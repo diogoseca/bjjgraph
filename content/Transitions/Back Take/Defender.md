@@ -148,6 +148,54 @@ description: "How to defend against Back Take in BJJ. Recognition cues, defensiv
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Back Take (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Three ways to defend the back take",
+      "description": "Back Take (Defender) film study: Three ways to defend the back take, taught by Roberto \"Cyborg\" Abreu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/OltjLaTW3wQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/OltjLaTW3wQ",
+      "url": "https://www.youtube.com/watch?v=OltjLaTW3wQ",
+      "creator": { "@type": "Person", "name": "Roberto \"Cyborg\" Abreu" },
+      "duration": "PT89S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Turtle back escape by shrugging",
+      "description": "Back Take (Defender) film study: Turtle back escape by shrugging, taught by Andy Tong.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/waVFl1Ip6VU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/waVFl1Ip6VU",
+      "url": "https://www.youtube.com/watch?v=waVFl1Ip6VU",
+      "creator": { "@type": "Person", "name": "Andy Tong" },
+      "duration": "PT33S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Turtle escape from back control",
+      "description": "Back Take (Defender) film study: Turtle escape from back control, taught by Adnan Sadiq.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/dHanNAj6B80/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/dHanNAj6B80",
+      "url": "https://www.youtube.com/watch?v=dHanNAj6B80",
+      "creator": { "@type": "Person", "name": "Adnan Sadiq" },
+      "duration": "PT38S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -158,9 +206,45 @@ Successful defense hinges on three interconnected elements: aggressive hand figh
 
 The defender's strategic mindset should treat crackhead control as an urgent but not yet critical situation. While the position is disadvantageous, it offers significantly more defensive options than established back control. Every second the attacker spends establishing the prerequisites for the back take is a second the defender can use for grip fighting, hip movement, and escape attempts. The defender should maintain constant activity rather than waiting for the back take to happen and then trying to escape from an even worse position.
 
-**Opponent's Starting Position**: [[Positions/Crackhead Control]] (Top)
+**Opponent's Starting Position**: [[Positions/Rubber Guard/Crackhead Control]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Back Take (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=OltjLaTW3wQ)
+
+<p class="clip-credit"><strong>Three ways to defend the back take</strong> — taught by Roberto &#34;Cyborg&#34; Abreu · 1:29 · <a href="https://www.youtube.com/watch?v=OltjLaTW3wQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=waVFl1Ip6VU)
+
+<p class="clip-credit"><strong>Turtle back escape by shrugging</strong> — taught by Andy Tong · 0:33 · <a href="https://www.youtube.com/watch?v=waVFl1Ip6VU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=dHanNAj6B80)
+
+<p class="clip-credit"><strong>Turtle escape from back control</strong> — taught by Adnan Sadiq · 0:38 · <a href="https://www.youtube.com/watch?v=dHanNAj6B80" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 
@@ -201,7 +285,7 @@ The defender's strategic mindset should treat crackhead control as an urgent but
 ### 1. Explosive sit-through toward the attacker's rotation direction, turning your hips to face them and pulling your knees toward your chest to deny hook insertion while stripping the seatbelt with both hands
 
 - **When to use**: As soon as you feel the attacker shift weight forward off your hips to initiate the rotation - the brief moment when their hip pressure lightens is the optimal window
-- **Targets**: [[Positions/Crackhead Control]]
+- **Targets**: [[Positions/Rubber Guard/Crackhead Control]]
 - **If successful**: Resets the position to crackhead control by preventing the rotation from completing, forcing the attacker to re-establish the chair-sit and restart their back take sequence
 - **Risk**: If poorly timed, the sit-through exposes your back further and the attacker can follow your movement to accelerate their rotation to back control
 
@@ -215,14 +299,14 @@ The defender's strategic mindset should treat crackhead control as an urgent but
 ### 3. Explosive standup by posting both hands wide, driving your hips up and forward while simultaneously stripping the attacker's grips through upward extension and shoulder shrugging
 
 - **When to use**: When the attacker has not yet secured the seatbelt grip and their hip control has loosened during the transition between chair-sit and rotation phases
-- **Targets**: [[Positions/Crackhead Control]]
+- **Targets**: [[Positions/Rubber Guard/Crackhead Control]]
 - **If successful**: Breaks the attacker's positional control entirely by creating standing separation, forcing a reset to neutral standing or clinch position
 - **Risk**: If the attacker maintains seatbelt grip during your standup attempt, they can jump hooks in from standing and achieve back control at a higher elevation with greater submission threat
 
 ### 4. Turn into the attacker by rotating your hips toward them aggressively while framing on their shoulder and hip, converting back exposure into a front-facing scramble position
 
 - **When to use**: During the mid-rotation phase when the attacker has begun rotating but has not yet inserted the first hook, exploiting the moment when they are between crackhead control and back control
-- **Targets**: [[Positions/Crackhead Control]]
+- **Targets**: [[Positions/Rubber Guard/Crackhead Control]]
 - **If successful**: Converts the back take attempt into a front-facing scramble where you can recover guard, establish half guard, or reach a neutral position
 - **Risk**: If the attacker anticipates your turn, they can use your rotation momentum against you to accelerate their own rotation and complete the back take faster
 
@@ -236,7 +320,7 @@ The defender's strategic mindset should treat crackhead control as an urgent but
 
 <p class="section-subtitle">What is the best outcome when defending Back Take?</p>
 
-### → [[Positions/Crackhead Control]]
+### → [[Positions/Rubber Guard/Crackhead Control]]
 
 Strip the seatbelt grip with aggressive two-on-one hand fighting before the attacker can clasp hands. Combine grip stripping with explosive hip movement - sit through or turn into the attacker during the weight transfer phase when they shift from chair-sit to rotation. The goal is to reset the position so the attacker must re-establish the prerequisites for the back take, buying time and burning their energy on repeated failed attempts.
 

@@ -21,37 +21,37 @@ description: "Defensive strategies and escape fundamentals from mounted triangle
     {
       "@type": "HowToStep",
       "name": "Execute Bridge and Roll",
-      "text": "From this position, attempt Bridge and Roll. This technique is attempted in 18% of exchanges from this position.",
+      "text": "From this position, attempt Bridge and Roll. This technique is attempted in 10% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Elbow Escape to Guard",
-      "text": "From this position, attempt Elbow Escape to Guard. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Elbow Escape to Guard. This technique is attempted in 11% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Granby Roll to Guard",
-      "text": "From this position, attempt Granby Roll to Guard. This technique is attempted in 5% of exchanges from this position.",
+      "text": "From this position, attempt Granby Roll to Guard. This technique is attempted in 6% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Hip Escape to Guard",
-      "text": "From this position, attempt Hip Escape to Guard. This technique is attempted in 19% of exchanges from this position.",
+      "text": "From this position, attempt Hip Escape to Guard. This technique is attempted in 10% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Upa Escape",
-      "text": "From this position, attempt Upa Escape. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Upa Escape. This technique is attempted in 11% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Frame and Shrimp to Guard",
-      "text": "From this position, attempt Frame and Shrimp to Guard. This technique is attempted in 18% of exchanges from this position.",
+      "text": "From this position, attempt Frame and Shrimp to Guard. This technique is attempted in 9% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -153,6 +153,54 @@ description: "Defensive strategies and escape fundamentals from mounted triangle
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Mounted Triangle (Bottom) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "How to escape a triangle choke",
+      "description": "Mounted Triangle (Bottom) film study: How to escape a triangle choke, taught by Rener \u0026 Ryron Gracie.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/sR2rS2dwpNY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/sR2rS2dwpNY",
+      "url": "https://www.youtube.com/watch?v=sR2rS2dwpNY",
+      "creator": { "@type": "Person", "name": "Rener \u0026 Ryron Gracie" },
+      "duration": "PT117S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "How To Defend The Mounted Triangle",
+      "description": "Mounted Triangle (Bottom) film study: How To Defend The Mounted Triangle, taught by RVV BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/djm7BIQksOQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/djm7BIQksOQ",
+      "url": "https://www.youtube.com/watch?v=djm7BIQksOQ",
+      "creator": { "@type": "Person", "name": "RVV BJJ" },
+      "duration": "PT194S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Avoiding and Defending the Triangle Choke",
+      "description": "Mounted Triangle (Bottom) film study: Avoiding and Defending the Triangle Choke, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Ss49jnCob0w/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Ss49jnCob0w",
+      "url": "https://www.youtube.com/watch?v=Ss49jnCob0w",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT775S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -166,6 +214,42 @@ Critical defensive priorities include: protecting the trapped arm from full exte
 Escape pathways generally involve either explosive bridging to disrupt the triangle configuration, systematic dismantling of the triangle structure through proper sequencing, or opportunistic transitions when the opponent commits too heavily to the submission. Advanced defenders recognize that mounted triangle, while dangerous, creates instability in the attacker's position - careful timing can convert defensive crisis into counter-attacking opportunity through sweep or reversal mechanics.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Mounted Triangle (Bottom) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=sR2rS2dwpNY)
+
+<p class="clip-credit"><strong>How to escape a triangle choke</strong> — taught by Rener &amp; Ryron Gracie · 1:57 · <a href="https://www.youtube.com/watch?v=sR2rS2dwpNY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=djm7BIQksOQ)
+
+<p class="clip-credit"><strong>How To Defend The Mounted Triangle</strong> — taught by RVV BJJ · 3:14 · <a href="https://www.youtube.com/watch?v=djm7BIQksOQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Ss49jnCob0w)
+
+<p class="clip-credit"><strong>Avoiding and Defending the Triangle Choke</strong> — taught by Lachlan Giles · 12:55 · <a href="https://www.youtube.com/watch?v=Ss49jnCob0w" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

@@ -34,6 +34,43 @@ description: "Master the Sweep from Double Unders in BJJ. Learn to use your oppo
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Sweep from Double Unders \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Sweep from the bottom of the double under pass",
+      "description": "Sweep from Double Unders film study: Sweep from the bottom of the double under pass, taught by Smith.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/uILaTRBgpG0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/uILaTRBgpG0",
+      "url": "https://www.youtube.com/watch?v=uILaTRBgpG0",
+      "creator": { "@type": "Person", "name": "Smith" },
+      "duration": "PT28S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Double under pass counter with hooks on the thighs",
+      "description": "Sweep from Double Unders film study: Double under pass counter with hooks on the thighs, taught by Smith.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ueOxMz2wlRo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ueOxMz2wlRo",
+      "url": "https://www.youtube.com/watch?v=ueOxMz2wlRo",
+      "creator": { "@type": "Person", "name": "Smith" },
+      "duration": "PT19S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +106,34 @@ This sweep occupies a unique position in the double unders defensive hierarchy. 
 **Success Rate**: 40%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Sweep from Double Unders in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=uILaTRBgpG0)
+
+<p class="clip-credit"><strong>Sweep from the bottom of the double under pass</strong> — taught by Smith · 0:28 · <a href="https://www.youtube.com/watch?v=uILaTRBgpG0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ueOxMz2wlRo)
+
+<p class="clip-credit"><strong>Double under pass counter with hooks on the thighs</strong> — taught by Smith · 0:19 · <a href="https://www.youtube.com/watch?v=ueOxMz2wlRo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

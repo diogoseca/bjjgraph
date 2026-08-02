@@ -34,6 +34,43 @@ description: "Master Jumping Guard in BJJ. Dynamic guard pull from standing to C
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Jumping Guard \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Jumping guard technique breakdown",
+      "description": "Jumping Guard film study: Jumping guard technique breakdown, taught by BJJInAction.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/at-wrp51-_Q/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/at-wrp51-_Q",
+      "url": "https://www.youtube.com/watch?v=at-wrp51-_Q",
+      "creator": { "@type": "Person", "name": "BJJInAction" },
+      "duration": "PT91S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Competition-tested ways to pull and jump guard",
+      "description": "Jumping Guard film study: Competition-tested ways to pull and jump guard, taught by Jon Thomas.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/B4_5rH7Vae0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/B4_5rH7Vae0",
+      "url": "https://www.youtube.com/watch?v=B4_5rH7Vae0",
+      "creator": { "@type": "Person", "name": "Jon Thomas" },
+      "duration": "PT207S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +106,34 @@ From a strategic perspective, jumping guard should be deployed selectively rathe
 **Success Rate**: 55%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Jumping Guard in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=at-wrp51-_Q)
+
+<p class="clip-credit"><strong>Jumping guard technique breakdown</strong> — taught by BJJInAction · 1:31 · <a href="https://www.youtube.com/watch?v=at-wrp51-_Q" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=B4_5rH7Vae0)
+
+<p class="clip-credit"><strong>Competition-tested ways to pull and jump guard</strong> — taught by Jon Thomas · 3:27 · <a href="https://www.youtube.com/watch?v=B4_5rH7Vae0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 
@@ -256,7 +321,7 @@ Jumping Guard serves as a dynamic entry point to the closed guard system within 
 
 - [[Transitions/Collar Drag]] - Setup - Grip manipulation that can create jumping guard opportunity
 
-- [[Submissions/Flying Armbar]] - Related - Dynamic jumping entry technique with direct submission commitment
+- [[Flying Armbar from Closed Guard]] - Related - Dynamic jumping entry technique with direct submission commitment
 
 - [[Transitions/Closed Guard to Triangle]] - Follow-up - Immediate submission setup option from closed guard established via jump
 

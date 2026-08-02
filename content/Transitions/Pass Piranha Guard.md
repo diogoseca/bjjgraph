@@ -34,6 +34,43 @@ description: "Learn how to pass Piranha Guard in BJJ. Systematic grip-breaking, 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Pass Piranha Guard \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Modern lapel guard passing",
+      "description": "Pass Piranha Guard film study: Modern lapel guard passing, taught by Romulo Barral.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/lACga4DakTM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/lACga4DakTM",
+      "url": "https://www.youtube.com/watch?v=lACga4DakTM",
+      "creator": { "@type": "Person", "name": "Romulo Barral" },
+      "duration": "PT121S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Modern lapel guard passing",
+      "description": "Pass Piranha Guard film study: Modern lapel guard passing, taught by Nick Salles and Danny Maira.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/JvQ3m64ScsA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/JvQ3m64ScsA",
+      "url": "https://www.youtube.com/watch?v=JvQ3m64ScsA",
+      "creator": { "@type": "Person", "name": "Nick Salles and Danny Maira" },
+      "duration": "PT672S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +106,34 @@ This technique represents a critical skill for gi competitors facing modern guar
 **Success Rate**: 50%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Pass Piranha Guard in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=lACga4DakTM)
+
+<p class="clip-credit"><strong>Modern lapel guard passing</strong> — taught by Romulo Barral · 2:01 · <a href="https://www.youtube.com/watch?v=lACga4DakTM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=JvQ3m64ScsA)
+
+<p class="clip-credit"><strong>Modern lapel guard passing</strong> — taught by Nick Salles and Danny Maira · 11:12 · <a href="https://www.youtube.com/watch?v=JvQ3m64ScsA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

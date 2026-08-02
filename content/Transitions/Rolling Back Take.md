@@ -34,6 +34,54 @@ description: "Learn Rolling Back Take in BJJ. Step-by-step execution from Turtle
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Rolling Back Take \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Rolling back take from turtle",
+      "description": "Rolling Back Take film study: Rolling back take from turtle, taught by JiuJitsu.com.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/oijKoS9siS4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/oijKoS9siS4",
+      "url": "https://www.youtube.com/watch?v=oijKoS9siS4",
+      "creator": { "@type": "Person", "name": "JiuJitsu.com" },
+      "duration": "PT41S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Gator roll back take from turtle",
+      "description": "Rolling Back Take film study: Gator roll back take from turtle, taught by Gracie Barra Pymble.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/o_7f8c64YrY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/o_7f8c64YrY",
+      "url": "https://www.youtube.com/watch?v=o_7f8c64YrY",
+      "creator": { "@type": "Person", "name": "Gracie Barra Pymble" },
+      "duration": "PT37S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Ninja roll back take",
+      "description": "Rolling Back Take film study: Ninja roll back take, taught by bjjtaro.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/7rE8Y4XyHno/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/7rE8Y4XyHno",
+      "url": "https://www.youtube.com/watch?v=7rE8Y4XyHno",
+      "creator": { "@type": "Person", "name": "bjjtaro" },
+      "duration": "PT11S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -62,9 +110,45 @@ description: "Learn Rolling Back Take in BJJ. Step-by-step execution from Turtle
 The Rolling Back Take is a dynamic and highly effective transition from top turtle position to back control. This technique exploits the opponent's defensive posture by using momentum and timing to roll over their shoulder, landing directly on their back with control. Unlike static back takes that rely on breaking down the turtle position incrementally, the rolling back take uses explosive movement to bypass defensive frames entirely. This technique is particularly valuable when the opponent maintains a strong defensive turtle with their elbows tight to their knees, making traditional hook insertions difficult. The rolling back take requires precise timing, spatial awareness, and the ability to maintain connection throughout the roll. When executed correctly, it provides immediate access to high-value control positions and submission opportunities, making it a favorite among competitors at all levels.
 
 **From Position**: [[Positions/Turtle]] (Top)
-**Success Rate**: 72%
+**Success Rate**: 36%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Rolling Back Take in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=oijKoS9siS4)
+
+<p class="clip-credit"><strong>Rolling back take from turtle</strong> — taught by JiuJitsu.com · 0:41 · <a href="https://www.youtube.com/watch?v=oijKoS9siS4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=o_7f8c64YrY)
+
+<p class="clip-credit"><strong>Gator roll back take from turtle</strong> — taught by Gracie Barra Pymble · 0:37 · <a href="https://www.youtube.com/watch?v=o_7f8c64YrY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=7rE8Y4XyHno)
+
+<p class="clip-credit"><strong>Ninja roll back take</strong> — taught by bjjtaro · 0:11 · <a href="https://www.youtube.com/watch?v=7rE8Y4XyHno" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

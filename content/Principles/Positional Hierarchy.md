@@ -164,6 +164,54 @@ description: "Master positional hierarchy in BJJ. Learn strategic position ranki
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Positional Hierarchy \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Understanding jiu-jitsu: the positional hierarchy",
+      "description": "Positional Hierarchy film study: Understanding jiu-jitsu: the positional hierarchy, taught by John Danaher.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/JMrGBjDctd4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/JMrGBjDctd4",
+      "url": "https://www.youtube.com/watch?v=JMrGBjDctd4",
+      "creator": { "@type": "Person", "name": "John Danaher" },
+      "duration": "PT1548S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "White belt positional guide: the hierarchy",
+      "description": "Positional Hierarchy film study: White belt positional guide: the hierarchy, taught by Will Brooks.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/x_IrC_-zzYU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/x_IrC_-zzYU",
+      "url": "https://www.youtube.com/watch?v=x_IrC_-zzYU",
+      "creator": { "@type": "Person", "name": "Will Brooks" },
+      "duration": "PT598S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Positional hierarchy explained, part 2",
+      "description": "Positional Hierarchy film study: Positional hierarchy explained, part 2, taught by Dark Horse BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/duFyN9AoWyE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/duFyN9AoWyE",
+      "url": "https://www.youtube.com/watch?v=duFyN9AoWyE",
+      "creator": { "@type": "Person", "name": "Dark Horse BJJ" },
+      "duration": "PT119S"
+    }
+  ]
+}
+</script>
+
+
 <section id="overview" class="content-section">
 
 ## What is Positional Hierarchy?
@@ -173,6 +221,42 @@ description: "Master positional hierarchy in BJJ. Learn strategic position ranki
 Every grappling exchange is governed by an implicit ranking of positions that experienced competitors internalize long before they can articulate it — the difference between a white belt who scrambles randomly and a brown belt who methodically climbs toward dominance. Unlike specific techniques, this framework is a comprehensive strategic guideline determining which positions to seek, which to avoid, and when to trade positions for tactical advantage. It encompasses the game-theoretic understanding that positions exist on a continuum from highly advantageous (mount, back control) to highly disadvantageous (being mounted, back controlled), with intermediate positions (guards, turtle) offering varying degrees of defensive and offensive potential. The concept serves as both a strategic compass guiding position selection and a risk-management tool enabling intelligent position-trading decisions. The ability to apply positional hierarchy consistently — converting it from conscious calculation into reflexive navigation — is what separates strategically sophisticated grapplers from those who merely accumulate techniques without an organizing logic to deploy them.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Positional Hierarchy in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=JMrGBjDctd4)
+
+<p class="clip-credit"><strong>Understanding jiu-jitsu: the positional hierarchy</strong> — taught by John Danaher · 25:48 · <a href="https://www.youtube.com/watch?v=JMrGBjDctd4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=x_IrC_-zzYU)
+
+<p class="clip-credit"><strong>White belt positional guide: the hierarchy</strong> — taught by Will Brooks · 9:58 · <a href="https://www.youtube.com/watch?v=x_IrC_-zzYU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=duFyN9AoWyE)
+
+<p class="clip-credit"><strong>Positional hierarchy explained, part 2</strong> — taught by Dark Horse BJJ · 1:59 · <a href="https://www.youtube.com/watch?v=duFyN9AoWyE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="building-blocks" class="content-section">
 

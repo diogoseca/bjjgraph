@@ -34,6 +34,54 @@ description: "Master the Underhook Sweep from Pocket Half Guard. Step-by-step gu
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Underhook Sweep from Pocket Half \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "3 underhook sweeps from knee shield half guard",
+      "description": "Underhook Sweep from Pocket Half film study: 3 underhook sweeps from knee shield half guard, taught by Kameron Ross.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/BCnjULrSSPw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/BCnjULrSSPw",
+      "url": "https://www.youtube.com/watch?v=BCnjULrSSPw",
+      "creator": { "@type": "Person", "name": "Kameron Ross" },
+      "duration": "PT38S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Back pocket sweep from half guard",
+      "description": "Underhook Sweep from Pocket Half film study: Back pocket sweep from half guard, taught by Animal.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/fCqC2CvOKt0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/fCqC2CvOKt0",
+      "url": "https://www.youtube.com/watch?v=fCqC2CvOKt0",
+      "creator": { "@type": "Person", "name": "Animal" },
+      "duration": "PT51S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "No-gi half guard underhook sweep",
+      "description": "Underhook Sweep from Pocket Half film study: No-gi half guard underhook sweep, taught by Precision Martial Arts.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/W80zSgyOIuQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/W80zSgyOIuQ",
+      "url": "https://www.youtube.com/watch?v=W80zSgyOIuQ",
+      "creator": { "@type": "Person", "name": "Precision Martial Arts" },
+      "duration": "PT46S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ Strategically, this technique creates a fundamental dilemma for the top player: 
 **Success Rate**: 43%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Underhook Sweep from Pocket Half in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=BCnjULrSSPw)
+
+<p class="clip-credit"><strong>3 underhook sweeps from knee shield half guard</strong> — taught by Kameron Ross · 0:38 · <a href="https://www.youtube.com/watch?v=BCnjULrSSPw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=fCqC2CvOKt0)
+
+<p class="clip-credit"><strong>Back pocket sweep from half guard</strong> — taught by Animal · 0:51 · <a href="https://www.youtube.com/watch?v=fCqC2CvOKt0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=W80zSgyOIuQ)
+
+<p class="clip-credit"><strong>No-gi half guard underhook sweep</strong> — taught by Precision Martial Arts · 0:46 · <a href="https://www.youtube.com/watch?v=W80zSgyOIuQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

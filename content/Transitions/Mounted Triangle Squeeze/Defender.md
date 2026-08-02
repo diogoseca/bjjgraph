@@ -140,6 +140,54 @@ description: "Defend and escape the mounted triangle squeeze in BJJ. Recognition
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Mounted Triangle Squeeze (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "How to escape a triangle choke",
+      "description": "Mounted Triangle Squeeze (Defender) film study: How to escape a triangle choke, taught by Rener and Ryron Gracie.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/sR2rS2dwpNY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/sR2rS2dwpNY",
+      "url": "https://www.youtube.com/watch?v=sR2rS2dwpNY",
+      "creator": { "@type": "Person", "name": "Rener and Ryron Gracie" },
+      "duration": "PT117S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "How to defend the mounted triangle",
+      "description": "Mounted Triangle Squeeze (Defender) film study: How to defend the mounted triangle, taught by RVV BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/djm7BIQksOQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/djm7BIQksOQ",
+      "url": "https://www.youtube.com/watch?v=djm7BIQksOQ",
+      "creator": { "@type": "Person", "name": "RVV BJJ" },
+      "duration": "PT194S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Avoiding and defending the triangle choke",
+      "description": "Mounted Triangle Squeeze (Defender) film study: Avoiding and defending the triangle choke, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Ss49jnCob0w/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Ss49jnCob0w",
+      "url": "https://www.youtube.com/watch?v=Ss49jnCob0w",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT775S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -149,6 +197,42 @@ Defending the mounted triangle squeeze requires understanding that the attacker 
 **Opponent's Starting Position**: [[Positions/Mount/Mounted Triangle]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Mounted Triangle Squeeze (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=sR2rS2dwpNY)
+
+<p class="clip-credit"><strong>How to escape a triangle choke</strong> — taught by Rener and Ryron Gracie · 1:57 · <a href="https://www.youtube.com/watch?v=sR2rS2dwpNY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=djm7BIQksOQ)
+
+<p class="clip-credit"><strong>How to defend the mounted triangle</strong> — taught by RVV BJJ · 3:14 · <a href="https://www.youtube.com/watch?v=djm7BIQksOQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Ss49jnCob0w)
+
+<p class="clip-credit"><strong>Avoiding and defending the triangle choke</strong> — taught by Lachlan Giles · 12:55 · <a href="https://www.youtube.com/watch?v=Ss49jnCob0w" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

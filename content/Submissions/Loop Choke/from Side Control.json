@@ -17,7 +17,10 @@
   "target_area": "Carotid arteries and jugular veins",
   "starting_position": "Side Control",
   "from_position": "Side Control/Top",
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "The Loop Choke from Side Control is a deceptive gi-based blood choke that capitalizes on the perpendicular body alignment inherent to side control to create a collar-based strangling mechanism. Unlike many side control submissions that require significant positional transitions, the loop choke can be initiated by converting the existing crossface grip into a deep collar penetration and finishing by sprawling the hips back while maintaining chest-to-chest pressure. The technique is particularly effective as a counter to common side control escape attempts, since the bottom player's turning and shrimping motions can inadvertently deepen the collar grip and accelerate the choke's tightening.\n\nThe perpendicular body alignment creates unique finishing mechanics compared to mount-based collar chokes, relying more on horizontal pressure vectors and hip sprawl rather than gravity-assisted downward force. The crossface position provides a natural on-ramp to the collar grip, making the transition from control to submission threat nearly invisible to experienced opponents.\n\nPractitioners who develop this technique gain a powerful addition to their side control submission chain, threatening the loop choke alongside Americanas, kimuras, and arm triangles to create a multi-layered attacking system that forces opponents into increasingly desperate escape attempts where each defensive reaction exposes a new vulnerability.",
   "safety_considerations": {
     "injury_risks": [
@@ -61,17 +64,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Side Control/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
@@ -288,52 +300,181 @@
       {
         "question": "What anatomical structures does the loop choke from side control attack to cause unconsciousness?",
         "answer": "The loop choke attacks the carotid arteries and jugular veins on both sides of the neck. When applied correctly, the collar creates a constricting loop that compresses these blood vessels bilaterally, restricting blood flow to and from the brain. This bilateral carotid compression causes rapid unconsciousness within 8-12 seconds of full application without directly attacking the airway. From side control, the horizontal sprawl tension pulls the collar across both sides of the neck simultaneously, creating the bilateral compression required for a true blood choke rather than an air choke.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Both carotids and jugulars",
+        "distractors": {
+          "plausible": [
+            "Only the far-side artery",
+            "Vagus nerve pressure point"
+          ],
+          "trap": [
+            "Crushes the windpipe/trachea"
+          ]
+        }
       },
       {
         "question": "What is the minimum time period you should take to apply full pressure in the loop choke from side control during training?",
         "answer": "The minimum application time is 3-5 seconds from initial tightness to full pressure. This progressive application is a critical safety requirement that gives your training partner adequate time to recognize the choke and tap safely. Competition-speed application is never appropriate in training and significantly increases injury risk, particularly tracheal damage from sudden collar tightening. The choke should tighten gradually through controlled sprawl pressure, allowing your partner to feel the progression and tap at any point during the sequence.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "3-5 seconds, gradual buildup",
+        "distractors": {
+          "plausible": [
+            "Under one second, then hold",
+            "Speed matters less than depth"
+          ],
+          "trap": [
+            "Finish at full competition speed"
+          ]
+        }
       },
       {
         "question": "Your opponent begins shrimping away while you have the deep collar grip established from side control - what adjustment prevents escape and can accelerate the finish?",
         "answer": "When the opponent shrimps away, follow their hip movement by driving your shoulder forward while maintaining collar grip depth. The shrimping motion can actually tighten the collar around their neck if you keep the grip deep and drive forward with your chest, because their movement creates distance that stretches the collar tight. Use the collar grip as a tether to pull yourself back into chest contact. If they create significant distance, hip-switch to follow them rather than reaching. The key is that your collar grip converts their escape movement into choking pressure when you maintain forward drive.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Follow hips, drive shoulder forward",
+        "distractors": {
+          "plausible": [
+            "Release grip, re-shoot deeper",
+            "Switch to a different choke"
+          ],
+          "trap": [
+            "Reach for them, lose chest contact"
+          ]
+        }
       },
       {
         "question": "What tactile and visual indicators confirm the loop choke is properly positioned before applying finishing pressure from side control?",
         "answer": "Key indicators include: your deep collar grip has four fingers past the trachea with the thumb against the side of the neck, your forearm lies diagonally across the centerline of their throat with collar fabric on both sides, the near lapel grip creates visible tension across their neck toward your opposite hip, your chest and shoulder are driving weight into their upper body, and you feel the collar tightening symmetrically around both sides of their neck rather than crushing the front of the throat. When you begin light sprawl pressure, the opponent should show signs of bilateral carotid compression—face color change and immediate defensive reaction—rather than coughing or gasping which indicates an air choke.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Deep grip, even neck compression",
+        "distractors": {
+          "plausible": [
+            "Two fingers in, thumb inside",
+            "Their coughing and gasping"
+          ],
+          "trap": [
+            "Post up to look at your grip"
+          ]
+        }
       },
       {
         "question": "You have been applying committed finishing pressure for 6 seconds with no tap - what should you do and why?",
         "answer": "Release the pressure and reset your grips rather than continuing to force the choke. If no tap occurs within 5-6 seconds of committed pressure, the setup is almost certainly incorrect—typically a shallow grip creating an air choke rather than a blood choke, or improper sprawl angle that fails to generate bilateral compression. Continuing to force a poorly positioned choke causes unnecessary tracheal discomfort, wastes energy, and creates injury risk without a realistic chance of finishing. Reset to side control, re-establish crossface control, and either attempt a fresh grip with proper depth or transition to a different submission.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Release and reset the grips",
+        "distractors": {
+          "plausible": [
+            "Assume they have a high tolerance",
+            "Adjust the sprawl angle mid-choke"
+          ],
+          "trap": [
+            "Crank the collar until they tap"
+          ]
+        }
       },
       {
         "question": "How does the perpendicular angle of side control change the finishing vectors compared to applying the loop choke from mount?",
         "answer": "From side control, the primary finishing force comes from horizontal tension created by sprawling the hips back while driving the shoulder forward, rather than the gravitational downward pressure used from mount. The perpendicular body alignment means you cannot simply drop your weight through the choke as you would from mount. Instead, the sprawl creates a stretching force that pulls the collar tight across the neck horizontally. Your shoulder acts as the forward anchor while your hips pull the collar taut in the opposite direction. This requires coordinating diagonal grip vectors with the sprawl motion to create compound compression on the carotid arteries.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Sprawl back, don't drop weight",
+        "distractors": {
+          "plausible": [
+            "Drop chest weight like mount",
+            "Pull straight up on collar"
+          ],
+          "trap": [
+            "Abandon sprawl, flatten out on top"
+          ]
+        }
       },
       {
         "question": "At what point in the loop choke sequence from side control does escape become nearly impossible for the defender?",
         "answer": "Escape becomes nearly impossible once both grips are established in the loop configuration and the attacker has committed to the sprawl with shoulder pressure driving forward. At this stage, the collar functions as a closed loop around the neck that self-tightens with any movement. The defender's bridging tightens the collar, their turning deepens the grip, and their shrimping stretches the fabric across the neck. The critical threshold is when the attacker's forearm is positioned diagonally across the centerline of the neck with both grips creating opposing tension—at this point, the only realistic option for the defender is to tap immediately.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Both grips set, sprawl committed",
+        "distractors": {
+          "plausible": [
+            "The instant a collar grip lands",
+            "Only after the legs get trapped"
+          ],
+          "trap": [
+            "Never — you can always bridge out"
+          ]
+        }
       },
       {
         "question": "What immediate actions must you take when your training partner taps to the loop choke from side control?",
         "answer": "Upon feeling or hearing a tap, immediately release both collar grips completely and remove all chest and shoulder pressure by disengaging to a neutral position. After release, check your partner's alertness and awareness before continuing training. Allow a minimum of 60 seconds recovery time before resuming. Never hesitate or delay the release, and never question whether the tap was real—all tap signals must be honored instantly without exception. Blood chokes have a very narrow window between discomfort and unconsciousness, making immediate release especially critical for this technique.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Release both grips, check partner",
+        "distractors": {
+          "plausible": [
+            "Let go and roll again at once",
+            "Release only the top hand first"
+          ],
+          "trap": [
+            "Hold the squeeze until it's verbal"
+          ]
+        }
       },
       {
         "question": "Your opponent defends the collar grip by tucking their chin aggressively from side control bottom - what chain attack do you threaten to reopen the collar?",
         "answer": "Threaten Americana or kimura on their near-side arm, which forces them to retract defensive frames and redirect their focus from collar protection to arm defense. When they extend their arms to prevent the shoulder lock, their chin tuck relaxes as their defensive priority shifts, reopening collar access. Alternatively, threaten the arm triangle by driving their far arm across their own neck with your crossface pressure—this both sets up a different choke and forces them to use their hands to clear the arm rather than protect the collar. The chin tuck is only sustainable when they have no other threats to manage.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Threaten kimura or arm triangle",
+        "distractors": {
+          "plausible": [
+            "Switch immediately to back take",
+            "Wait for them to relax naturally"
+          ],
+          "trap": [
+            "Force the chin with your forearm"
+          ]
+        }
       },
       {
         "question": "Why is the crossface-to-collar grip transition particularly effective for setting up the loop choke from side control?",
         "answer": "The crossface position naturally places your forearm across the opponent's neck in exactly the path needed for the collar grip entry. Converting the crossface to a collar grip maintains continuous pressure across their neck—the collar fabric replaces your forearm as the pressure source, making the transition nearly invisible to the opponent. They feel constant neck pressure throughout rather than a distinct shift from control to submission. Additionally, the crossface has already turned their head away, creating space on the far side of their neck for deep collar penetration. No other side control grip provides this seamless entry pathway to the collar.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Forearm becomes collar seamlessly",
+        "distractors": {
+          "plausible": [
+            "Because it traps their far arm",
+            "It builds pressure by pausing"
+          ],
+          "trap": [
+            "Let go of head to reset grip"
+          ]
+        }
+      }
+    ],
+    "clips": [
+      {
+        "id": "PAbRHZXGr8Q",
+        "title": "Loop Choke from Side Control",
+        "by": "Goulburn Martial Arts Academy",
+        "vertical": false,
+        "channel": "Goulburn Martial Arts Academy",
+        "duration": 79,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "Er-26kb4wss",
+        "title": "Alexandre Vieira Loop Choke",
+        "by": "Alexandre Vieira",
+        "vertical": false,
+        "channel": "Control Jiu JItsu",
+        "duration": 50,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "YZuU9259pcs",
+        "title": "Loop Choke from Side Control",
+        "by": "Fenrir Jiu-Jitsu Academy",
+        "vertical": false,
+        "channel": "Fenrir Jiu-Jitsu Academy",
+        "duration": 118,
+        "verified": "2026-07-14"
       }
     ]
   },
@@ -432,27 +573,77 @@
       {
         "question": "What is the earliest and most effective moment to defend the loop choke from side control?",
         "answer": "The earliest and most effective moment is during the crossface-to-collar transition, when the attacker's hand begins sliding from standard crossface position into the far collar. At this stage, tucking the chin and placing your near-side hand over the collar opening can completely prevent the grip from establishing. This is far more effective than any late-stage defense because the loop choke requires deep collar penetration to function—blocking the entry entirely eliminates the threat before it develops and costs minimal energy compared to escaping a partially locked choke.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Block the crossface-to-collar slide",
+        "distractors": {
+          "plausible": [
+            "Two-hand frame on their shoulder",
+            "Bridge into them right away"
+          ],
+          "trap": [
+            "Turn to your side, expose back"
+          ]
+        }
       },
       {
         "question": "When should you tap to the loop choke from side control rather than continue attempting to escape?",
         "answer": "You should tap immediately when you feel bilateral carotid compression with both grips established in the loop configuration and the attacker's sprawl committed to the finish. Once the horizontal sprawl tension is applied with proper grip depth and diagonal vectors, unconsciousness can occur within 8-12 seconds. There is no safe escape window once the choke is fully applied with correct mechanics from side control. The sprawl-based finish creates stretching tension that only increases as you resist. In training, always err on the side of tapping early—the cost of resetting is negligible compared to the risk of losing consciousness.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Both carotids sealed, tap at once",
+        "distractors": {
+          "plausible": [
+            "Bridge and shrimp out first",
+            "Wait for the sprawl to loosen"
+          ],
+          "trap": [
+            "Hold on until you nearly pass out"
+          ]
+        }
       },
       {
         "question": "Why is stripping the lapel grip more effective than stripping the deep collar grip as a defensive strategy from side control bottom?",
         "answer": "The near-side lapel grip is physically closer to your hands and requires less arm extension to reach, keeping your elbows tighter to your body and reducing exposure to arm attacks. The deep collar grip is buried behind your neck where you have extremely poor mechanical leverage—attempting to strip it requires reaching behind your own head with an extended arm, which is both mechanically weak and dangerously exposing. Since the loop choke requires both grips working in opposition to create the choking mechanism, breaking either grip is sufficient to defeat the choke. Targeting the easier, more accessible grip achieves the same result with far less risk.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Strip near lapel, easier reach",
+        "distractors": {
+          "plausible": [
+            "Strip deep collar grip first",
+            "Break both grips simultaneously"
+          ],
+          "trap": [
+            "Reach behind your head for collar"
+          ]
+        }
       },
       {
         "question": "How does the attacker's release of hip control during the loop choke setup create the best escape window for the defender?",
         "answer": "When the attacker releases their hip-control hand to grab the near-side lapel, both of their hands are momentarily occupied with collar and lapel work rather than maintaining side control structure. This creates a brief window where their base is significantly compromised—no posting hand, no hip block, and both arms committed above your torso. This is the optimal time for an explosive bridge or hip escape because the attacker cannot post to prevent the bridge and cannot block your hip movement to prevent guard recovery. Recognizing this specific moment and having a rehearsed escape response ready is the highest-percentage defensive strategy against the loop choke from side control.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Bridge hard when both hands are up",
+        "distractors": {
+          "plausible": [
+            "Shrimp slowly toward their legs",
+            "Grip-fight the lapel one-handed"
+          ],
+          "trap": [
+            "Turn belly-down to hide the neck"
+          ]
+        }
       },
       {
         "question": "What body positioning best prevents the loop choke finishing mechanics from side control bottom?",
         "answer": "The optimal defensive position combines a strongly tucked chin pressed toward your chest to physically block collar insertion, your near-side hand actively covering the collar opening, elbows tight to your ribs to prevent arm isolation, and hips angled slightly rather than completely flat to create instability in the attacker's base. Additionally, keeping your shoulders slightly elevated through core engagement prevents the attacker from using their chest weight to create slack in the collar for deeper grip insertion. This combined posture addresses both the initial grip prevention and limits the attacker's ability to generate the horizontal sprawl tension needed for the finish.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Chin tucked, hand covers collar",
+        "distractors": {
+          "plausible": [
+            "Flatten hips completely to the mat",
+            "Push chest up, arch the back"
+          ],
+          "trap": [
+            "Extend arms to push them off"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -475,6 +666,26 @@
         "phase": "Phase 4: Live Defensive Sparring Against Side Control Attacks",
         "focus": "Defending the loop choke within the full context of side control escape",
         "description": "Start in side control bottom against a partner who hunts the loop choke alongside Americanas, kimuras, and arm triangles. Defend using all trained responses while also working standard side control escapes. Partner uses full resistance and chains the loop choke with other submissions. Track prevention rate versus late-escape rate to measure improvement in early recognition."
+      }
+    ],
+    "clips": [
+      {
+        "id": "pZmJpXSwRTk",
+        "title": "Loop choke escape",
+        "by": "Ninja Pinto",
+        "vertical": false,
+        "channel": "Ninja Pinto BJJ",
+        "duration": 60,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "11PEV0xVadQ",
+        "title": "Loop choke escape, second variation",
+        "by": "Ninja Pinto",
+        "vertical": false,
+        "channel": "Ninja Pinto BJJ",
+        "duration": 99,
+        "verified": "2026-07-15"
       }
     ]
   },

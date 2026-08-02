@@ -34,6 +34,54 @@ description: "Master Lasso Guard in BJJ. Complete guide covering setup mechanics
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Lasso Guard \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Open Guard to Lasso Sweep",
+      "description": "Lasso Guard film study: Open Guard to Lasso Sweep, taught by Lucas Lepri.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/LwnoWDFJlN0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/LwnoWDFJlN0",
+      "url": "https://www.youtube.com/watch?v=LwnoWDFJlN0",
+      "creator": { "@type": "Person", "name": "Lucas Lepri" },
+      "duration": "PT44S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Lasso Sweep from Closed Guard",
+      "description": "Lasso Guard film study: Lasso Sweep from Closed Guard, taught by Ralph Gracie BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/3zM3gZsUPWc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/3zM3gZsUPWc",
+      "url": "https://www.youtube.com/watch?v=3zM3gZsUPWc",
+      "creator": { "@type": "Person", "name": "Ralph Gracie BJJ" },
+      "duration": "PT39S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Lasso Guard to Arm Drag Sweep",
+      "description": "Lasso Guard film study: Lasso Guard to Arm Drag Sweep, taught by Xande Ribeiro.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/K4n_MQnR08c/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/K4n_MQnR08c",
+      "url": "https://www.youtube.com/watch?v=K4n_MQnR08c",
+      "creator": { "@type": "Person", "name": "Xande Ribeiro" },
+      "duration": "PT150S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -72,6 +120,42 @@ Historically, Lasso Guard gained prominence through Brazilian competitors in the
 Understanding Lasso Guard requires appreciation for both its strengths and limitations. While it offers tremendous control over one arm, it commits your leg to a specific position that can be vulnerable to certain passing methods. Successful application demands constant grip management, hip mobility, and the ability to transition fluidly when the opponent begins to counter the position. Mastery involves developing the sensitivity to recognize when to maintain the lasso and when to abandon it for superior positions.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Lasso Guard in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=LwnoWDFJlN0)
+
+<p class="clip-credit"><strong>Open Guard to Lasso Sweep</strong> — taught by Lucas Lepri · 0:44 · <a href="https://www.youtube.com/watch?v=LwnoWDFJlN0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=3zM3gZsUPWc)
+
+<p class="clip-credit"><strong>Lasso Sweep from Closed Guard</strong> — taught by Ralph Gracie BJJ · 0:39 · <a href="https://www.youtube.com/watch?v=3zM3gZsUPWc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=K4n_MQnR08c)
+
+<p class="clip-credit"><strong>Lasso Guard to Arm Drag Sweep</strong> — taught by Xande Ribeiro · 2:30 · <a href="https://www.youtube.com/watch?v=K4n_MQnR08c" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 
@@ -134,31 +218,29 @@ Understanding Lasso Guard requires appreciation for both its strengths and limit
 ### Available Transitions
 
 
-- **[[Transitions/Sickle Sweep/Attacker|Sickle Sweep]]** (24% of attempts)
+- **[[Transitions/Sickle Sweep/Attacker|Sickle Sweep]]** (13% of attempts)
 
-- **[[Transitions/Triangle Setup/Attacker|Triangle Setup]]** (15% of attempts)
+- **[[Transitions/Triangle Setup/Attacker|Triangle Setup]]** (16% of attempts)
 
-- **[[Transitions/Omoplata Sweep/Attacker|Omoplata Sweep]]** (13% of attempts)
+- **[[Transitions/Omoplata Sweep/Attacker|Omoplata Sweep]]** (10% of attempts)
 
-- **[[Transitions/De La Riva Sweep/Attacker|De La Riva Sweep]]** (8% of attempts)
+- **[[Transitions/De La Riva Sweep/Attacker|De La Riva Sweep]]** (11% of attempts)
 
-- **[[Transitions/Omoplata from Lasso/Attacker|Omoplata from Lasso]]** (9% of attempts)
+- **[[Transitions/Omoplata from Lasso/Attacker|Omoplata from Lasso]]** (10% of attempts)
 
-- **[[Transitions/Hook Sweep/Attacker|Hook Sweep]]** (5% of attempts)
+- **[[Transitions/Hook Sweep/Attacker|Hook Sweep]]** (11% of attempts)
 
-- **[[Transitions/Lasso Sweep/Attacker|Lasso Sweep]]** (7% of attempts)
+- **[[Transitions/Lasso Sweep/Attacker|Lasso Sweep]]** (6% of attempts)
 
-- **[[Transitions/X-Guard Sweep/Attacker|X-Guard Sweep]]** (5% of attempts)
+- **[[Transitions/X-Guard Sweep/Attacker|X-Guard Sweep]]** (10% of attempts)
 
-- **[[Transitions/Berimbolo Entry/Attacker|Berimbolo Entry]]** (3% of attempts)
+- **[[Transitions/Berimbolo Entry/Attacker|Berimbolo Entry]]** (2% of attempts)
 
-- **[[Transitions/Lasso Guard to Inverted Lasso Guard/Attacker|Lasso Guard to Inverted Lasso Guard]]** (3% of attempts)
+- **[[Transitions/Lasso Guard to Inverted Lasso Guard/Attacker|Lasso Guard to Inverted Lasso Guard]]** (1% of attempts)
 
-- **[[Transitions/Armbar on Free Arm/Attacker|Armbar on Free Arm]]** (2% of attempts)
+- **[[Transitions/Kimura Sweep/Attacker|Kimura Sweep]]** (7% of attempts)
 
-- **[[Transitions/Kimura Sweep/Attacker|Kimura Sweep]]** (2% of attempts)
-
-- **[[Transitions/Lasso Guard to Russian Leg Lasso/Attacker|Lasso Guard to Russian Leg Lasso]]** (2% of attempts)
+- **[[Transitions/Lasso Guard to Russian Leg Lasso/Attacker|Lasso Guard to Russian Leg Lasso]]** (1% of attempts)
 
 - **[[Belly Down Armbar from Lasso Guard/Attacker|Belly Down Armbar from Lasso Guard]]** (2% of attempts)
 
@@ -221,27 +303,27 @@ Understanding Lasso Guard requires appreciation for both its strengths and limit
 
 - **[[Transitions/Lasso Guard Pass/Attacker|Lasso Guard Pass]]** (15% of attempts)
 
-- **[[Transitions/Stack Pass/Attacker|Stack Pass]]** (10% of attempts)
+- **[[Transitions/Stack Pass/Attacker|Stack Pass]]** (12% of attempts)
 
-- **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** (34% of attempts)
+- **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** (14% of attempts)
 
-- **[[Transitions/Smash Pass/Attacker|Smash Pass]]** (8% of attempts)
+- **[[Transitions/Smash Pass/Attacker|Smash Pass]]** (11% of attempts)
 
-- **[[Transitions/Toreando Pass/Attacker|Toreando Pass]]** (8% of attempts)
+- **[[Transitions/Toreando Pass/Attacker|Toreando Pass]]** (10% of attempts)
 
-- **[[Transitions/Long Step Pass/Attacker|Long Step Pass]]** (3% of attempts)
+- **[[Transitions/Long Step Pass/Attacker|Long Step Pass]]** (6% of attempts)
 
-- **[[Transitions/Leg Weave Pass/Attacker|Leg Weave Pass]]** (8% of attempts)
+- **[[Transitions/Leg Weave Pass/Attacker|Leg Weave Pass]]** (9% of attempts)
 
 - **[[Kimura from Lasso Guard/Attacker|Kimura from Lasso Guard]]** (3% of attempts)
 
-- **[[Transitions/Body Lock Pass/Attacker|Body Lock Pass]]** (6% of attempts)
+- **[[Transitions/Body Lock Pass/Attacker|Body Lock Pass]]** (8% of attempts)
 
 - **[[Transitions/Spider Guard Pass/Attacker|Spider Guard Pass]]** (3% of attempts)
 
-- **[[Transitions/Lasso Guard Backstep Pass/Attacker|Lasso Guard Backstep Pass]]** (1% of attempts)
+- **[[Transitions/Lasso Guard Backstep Pass/Attacker|Lasso Guard Backstep Pass]]** (5% of attempts)
 
-- **[[Transitions/Lasso Guard Stack Pass/Attacker|Lasso Guard Stack Pass]]** (1% of attempts)
+- **[[Transitions/Lasso Guard Stack Pass/Attacker|Lasso Guard Stack Pass]]** (4% of attempts)
 
 
 ### Common Mistakes

@@ -148,6 +148,54 @@ description: "Defend against guard passes from Williams Guard bottom position. L
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Guard Pass from Williams Guard (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Late-stage guard retention with the rubber guard",
+      "description": "Guard Pass from Williams Guard (Defender) film study: Late-stage guard retention with the rubber guard, taught by Robert Diggle.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/xNc_Cdh9VVg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/xNc_Cdh9VVg",
+      "url": "https://www.youtube.com/watch?v=xNc_Cdh9VVg",
+      "creator": { "@type": "Person", "name": "Robert Diggle" },
+      "duration": "PT189S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Williams Guard: Shoulder Pin Trapping System",
+      "description": "Guard Pass from Williams Guard (Defender) film study: Williams Guard: Shoulder Pin Trapping System, taught by Sonny Brown.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/jZbaahoIbmo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/jZbaahoIbmo",
+      "url": "https://www.youtube.com/watch?v=jZbaahoIbmo",
+      "creator": { "@type": "Person", "name": "Sonny Brown" },
+      "duration": "PT448S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Guard Retention 101: Defending the X-Pass",
+      "description": "Guard Pass from Williams Guard (Defender) film study: Guard Retention 101: Defending the X-Pass, taught by Ostap Manastyrski.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/rH8oYjlBsZg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/rH8oYjlBsZg",
+      "url": "https://www.youtube.com/watch?v=rH8oYjlBsZg",
+      "creator": { "@type": "Person", "name": "Ostap Manastyrski" },
+      "duration": "PT275S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +205,42 @@ Defending the guard pass from Williams Guard means you are the bottom player wor
 **Opponent's Starting Position**: [[Positions/Williams Guard]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Guard Pass from Williams Guard (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=xNc_Cdh9VVg)
+
+<p class="clip-credit"><strong>Late-stage guard retention with the rubber guard</strong> — taught by Robert Diggle · 3:09 · <a href="https://www.youtube.com/watch?v=xNc_Cdh9VVg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=jZbaahoIbmo)
+
+<p class="clip-credit"><strong>Williams Guard: Shoulder Pin Trapping System</strong> — taught by Sonny Brown · 7:28 · <a href="https://www.youtube.com/watch?v=jZbaahoIbmo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=rH8oYjlBsZg)
+
+<p class="clip-credit"><strong>Guard Retention 101: Defending the X-Pass</strong> — taught by Ostap Manastyrski · 4:35 · <a href="https://www.youtube.com/watch?v=rH8oYjlBsZg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

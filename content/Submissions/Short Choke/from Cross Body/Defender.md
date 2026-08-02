@@ -150,6 +150,43 @@ description: "Master defending the Short Choke from Cross Body Ride. Recognition
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Short Choke from Cross Body (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Escaping Back Control - Turtle Escape",
+      "description": "Short Choke from Cross Body (Defender) film study: Escaping Back Control - Turtle Escape, taught by BJJ101.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/bDZntPrcLpg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/bDZntPrcLpg",
+      "url": "https://www.youtube.com/watch?v=bDZntPrcLpg",
+      "creator": { "@type": "Person", "name": "BJJ101" },
+      "duration": "PT37S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Turtle Escape - Front Turtle",
+      "description": "Short Choke from Cross Body (Defender) film study: Turtle Escape - Front Turtle, taught by Michael Daye.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/XPWHqs67tt8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/XPWHqs67tt8",
+      "url": "https://www.youtube.com/watch?v=XPWHqs67tt8",
+      "creator": { "@type": "Person", "name": "Michael Daye" },
+      "duration": "PT60S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -160,6 +197,34 @@ Defending the Short Choke from Cross Body requires immediate recognition of the 
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Short Choke from Cross Body (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=bDZntPrcLpg)
+
+<p class="clip-credit"><strong>Escaping Back Control - Turtle Escape</strong> — taught by BJJ101 · 0:37 · <a href="https://www.youtube.com/watch?v=bDZntPrcLpg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=XPWHqs67tt8)
+
+<p class="clip-credit"><strong>Turtle Escape - Front Turtle</strong> — taught by Michael Daye · 1:00 · <a href="https://www.youtube.com/watch?v=XPWHqs67tt8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

@@ -34,6 +34,54 @@ description: "Master the Straight Ankle Lock in BJJ. Complete guide with safety 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Straight Ankle Lock \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Backside Foot Finish Mechanics",
+      "description": "Straight Ankle Lock film study: Backside Foot Finish Mechanics, taught by Mikey Musumeci.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/-VpByetjzqs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/-VpByetjzqs",
+      "url": "https://www.youtube.com/watch?v=-VpByetjzqs",
+      "creator": { "@type": "Person", "name": "Mikey Musumeci" },
+      "duration": "PT84S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Straight Ankle Lock",
+      "description": "Straight Ankle Lock film study: Straight Ankle Lock, taught by bjjtaro.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/PsyAVXfRhyY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/PsyAVXfRhyY",
+      "url": "https://www.youtube.com/watch?v=PsyAVXfRhyY",
+      "creator": { "@type": "Person", "name": "bjjtaro" },
+      "duration": "PT16S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Fast Straight Ankle Lock (No-Gi)",
+      "description": "Straight Ankle Lock film study: Fast Straight Ankle Lock (No-Gi), taught by Everythingbjj.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/GVwnRuiKk-Y/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/GVwnRuiKk-Y",
+      "url": "https://www.youtube.com/watch?v=GVwnRuiKk-Y",
+      "creator": { "@type": "Person", "name": "Everythingbjj" },
+      "duration": "PT64S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -85,6 +133,42 @@ The Straight Ankle Lock (also called Straight Footlock) is the most fundamental 
 </section>
 
 
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Straight Ankle Lock in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=-VpByetjzqs)
+
+<p class="clip-credit"><strong>Backside Foot Finish Mechanics</strong> — taught by Mikey Musumeci · 1:24 · <a href="https://www.youtube.com/watch?v=-VpByetjzqs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=PsyAVXfRhyY)
+
+<p class="clip-credit"><strong>Straight Ankle Lock</strong> — taught by bjjtaro · 0:16 · <a href="https://www.youtube.com/watch?v=PsyAVXfRhyY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=GVwnRuiKk-Y)
+
+<p class="clip-credit"><strong>Fast Straight Ankle Lock (No-Gi)</strong> — taught by Everythingbjj · 1:04 · <a href="https://www.youtube.com/watch?v=GVwnRuiKk-Y" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
+
+
 <section id="variants" class="content-section">
 
 ## What positions can you finish from?
@@ -94,7 +178,7 @@ The Straight Ankle Lock (also called Straight Footlock) is the most fundamental 
 
 | From Position | Seat | Success | Play as Attacker | Play as Defender |
 |---|---|---|---|---|
-| [[Submissions/Straight Ankle Lock/from Straight Ankle Lock Control|Straight Ankle Lock Control]] | Top | 58% | [[Submissions/Straight Ankle Lock/from Straight Ankle Lock Control/Attacker|Attack →]] | [[Submissions/Straight Ankle Lock/from Straight Ankle Lock Control/Defender|Defend →]] |
+| [[Submissions/Straight Ankle Lock/from Straight Ankle Lock Control|Straight Ankle Lock Control]] | Top | 60% | [[Submissions/Straight Ankle Lock/from Straight Ankle Lock Control/Attacker|Attack →]] | [[Submissions/Straight Ankle Lock/from Straight Ankle Lock Control/Defender|Defend →]] |
 
 
 </div>
@@ -119,14 +203,14 @@ The Straight Ankle Lock (also called Straight Footlock) is the most fundamental 
 <section id="related" class="content-section">
 
 ## Related
-- [[Transitions/Heel Hook]] - Primary follow-up submission when opponent defends ankle lock by rotating knee inward, exposing the heel
+- [[Submissions/Heel Hook]] - Primary follow-up submission when opponent defends ankle lock by rotating knee inward, exposing the heel
 - [[Submissions/Inside Heel Hook]] - Advanced variant attacking inside heel exposure from deeper leg entanglements like Saddle
-- [[Transitions/Outside Heel Hook]] - Alternative heel attack available when outside leg control is established in Outside Ashi
+- [[Submissions/Outside Heel Hook]] - Alternative heel attack available when outside leg control is established in Outside Ashi
 - [[Submissions/Toe Hold]] - Alternative ankle attack capitalizing on opponent turning knee inward to defend the straight ankle lock
 - [[Transitions/Kneebar]] - Leg attack targeting the knee joint, often chained when opponent straightens leg to defend ankle lock
 - [[Submissions/Achilles Lock]] - Compression-based ankle attack sharing similar leg control positions and armpit mechanics
 - [[Submissions/Calf Slicer]] - Compression submission available from similar leg entanglement configurations when opponent bends knee
-- [[Transitions/Estima Lock]] - Ankle lock variant attacking the foot from different angles, often from top passing positions
+- [[Submissions/Estima Lock]] - Ankle lock variant attacking the foot from different angles, often from top passing positions
 - [[Submissions/Flying Kneebar]] - Dynamic standing entry into the leg attack system that can transition to ankle lock control
 - [[Positions/Ashi Garami]] - Primary control position for straight ankle lock application
 - [[Positions/Ashi Garami/Inside Ashi-Garami]] - Most common variation of Ashi Garami for this submission

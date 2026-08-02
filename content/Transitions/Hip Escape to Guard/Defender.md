@@ -148,6 +148,43 @@ description: "How to prevent the Hip Escape to Guard in BJJ. Recognition cues, r
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Hip Escape to Guard (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Escaping side control against a bigger opponent",
+      "description": "Hip Escape to Guard (Defender) film study: Escaping side control against a bigger opponent, taught by Matt Arroyo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/_JPZaIcr90c/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/_JPZaIcr90c",
+      "url": "https://www.youtube.com/watch?v=_JPZaIcr90c",
+      "creator": { "@type": "Person", "name": "Matt Arroyo" },
+      "duration": "PT69S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Mount escape: the knee elbow hip escape",
+      "description": "Hip Escape to Guard (Defender) film study: Mount escape: the knee elbow hip escape, taught by Unknown coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/B3L865Q8P1U/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/B3L865Q8P1U",
+      "url": "https://www.youtube.com/watch?v=B3L865Q8P1U",
+      "creator": { "@type": "Person", "name": "Unknown coach" },
+      "duration": "PT82S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -161,6 +198,34 @@ Your positional advantage is substantial but requires active maintenance. Static
 **Opponent's Starting Position**: [[Positions/Gift Wrap]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Hip Escape to Guard (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=_JPZaIcr90c)
+
+<p class="clip-credit"><strong>Escaping side control against a bigger opponent</strong> — taught by Matt Arroyo · 1:09 · <a href="https://www.youtube.com/watch?v=_JPZaIcr90c" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=B3L865Q8P1U)
+
+<p class="clip-credit"><strong>Mount escape: the knee elbow hip escape</strong> — taught by Unknown coach · 1:22 · <a href="https://www.youtube.com/watch?v=B3L865Q8P1U" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

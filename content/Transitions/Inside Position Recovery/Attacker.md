@@ -174,6 +174,54 @@ description: "How to execute Inside Position Recovery in BJJ. Attacking perspect
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Inside Position Recovery (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Guard recovery when getting smashed",
+      "description": "Inside Position Recovery (Attacker) film study: Guard recovery when getting smashed, taught by Finesse Jiujitsu HTX.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/BhNZGloJ56c/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/BhNZGloJ56c",
+      "url": "https://www.youtube.com/watch?v=BhNZGloJ56c",
+      "creator": { "@type": "Person", "name": "Finesse Jiujitsu HTX" },
+      "duration": "PT103S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Guard recovery from side control bottom",
+      "description": "Inside Position Recovery (Attacker) film study: Guard recovery from side control bottom, taught by Academy Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/QH9-1I5XqO4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/QH9-1I5XqO4",
+      "url": "https://www.youtube.com/watch?v=QH9-1I5XqO4",
+      "creator": { "@type": "Person", "name": "Academy Jiu Jitsu" },
+      "duration": "PT105S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Turtle escape rolling back to guard",
+      "description": "Inside Position Recovery (Attacker) film study: Turtle escape rolling back to guard, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Ly89G4iCTSQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Ly89G4iCTSQ",
+      "url": "https://www.youtube.com/watch?v=Ly89G4iCTSQ",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT108S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -183,6 +231,42 @@ As the person executing Inside Position Recovery, you are the bottom player caug
 **From Position**: [[Positions/Leg Drag Control]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Inside Position Recovery (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=BhNZGloJ56c)
+
+<p class="clip-credit"><strong>Guard recovery when getting smashed</strong> — taught by Finesse Jiujitsu HTX · 1:43 · <a href="https://www.youtube.com/watch?v=BhNZGloJ56c" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=QH9-1I5XqO4)
+
+<p class="clip-credit"><strong>Guard recovery from side control bottom</strong> — taught by Academy Jiu Jitsu · 1:45 · <a href="https://www.youtube.com/watch?v=QH9-1I5XqO4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Ly89G4iCTSQ)
+
+<p class="clip-credit"><strong>Turtle escape rolling back to guard</strong> — taught by Lachlan Giles · 1:48 · <a href="https://www.youtube.com/watch?v=Ly89G4iCTSQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

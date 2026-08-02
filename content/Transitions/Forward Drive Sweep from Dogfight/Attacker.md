@@ -180,6 +180,54 @@ description: "Learn to execute the Forward Drive Sweep from Dogfight in BJJ. Ste
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Forward Drive Sweep from Dogfight (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Dogfight basics: driving forward to the sweep",
+      "description": "Forward Drive Sweep from Dogfight (Attacker) film study: Dogfight basics: driving forward to the sweep, taught by Brandon McCaghren.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/fjDBmFzfhgI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/fjDBmFzfhgI",
+      "url": "https://www.youtube.com/watch?v=fjDBmFzfhgI",
+      "creator": { "@type": "Person", "name": "Brandon McCaghren" },
+      "duration": "PT145S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Dogfight sweep mechanics",
+      "description": "Forward Drive Sweep from Dogfight (Attacker) film study: Dogfight sweep mechanics, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ea1HexPjAh0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ea1HexPjAh0",
+      "url": "https://www.youtube.com/watch?v=ea1HexPjAh0",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT54S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Timing the forward drive sweep from dogfight",
+      "description": "Forward Drive Sweep from Dogfight (Attacker) film study: Timing the forward drive sweep from dogfight, taught by Brandon McCaghren.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/hotSXTK9oGI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/hotSXTK9oGI",
+      "url": "https://www.youtube.com/watch?v=hotSXTK9oGI",
+      "creator": { "@type": "Person", "name": "Brandon McCaghren" },
+      "duration": "PT169S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -189,6 +237,42 @@ The Forward Drive Sweep is your primary direct offensive weapon from Dogfight. A
 **From Position**: [[Positions/Dogfight Position]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Forward Drive Sweep from Dogfight (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=fjDBmFzfhgI)
+
+<p class="clip-credit"><strong>Dogfight basics: driving forward to the sweep</strong> — taught by Brandon McCaghren · 2:25 · <a href="https://www.youtube.com/watch?v=fjDBmFzfhgI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ea1HexPjAh0)
+
+<p class="clip-credit"><strong>Dogfight sweep mechanics</strong> — taught by Lachlan Giles · 0:54 · <a href="https://www.youtube.com/watch?v=ea1HexPjAh0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=hotSXTK9oGI)
+
+<p class="clip-credit"><strong>Timing the forward drive sweep from dogfight</strong> — taught by Brandon McCaghren · 2:49 · <a href="https://www.youtube.com/watch?v=hotSXTK9oGI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

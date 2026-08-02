@@ -161,6 +161,54 @@ description: "How to weave from outside ashi-garami into the Leg Knot in BJJ. Se
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Outside Ashi to Leg Knot (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "No-gi 411 leg knot entry",
+      "description": "Outside Ashi to Leg Knot (Attacker) film study: No-gi 411 leg knot entry, taught by Rolling Society.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/AzzO0n7HMB0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/AzzO0n7HMB0",
+      "url": "https://www.youtube.com/watch?v=AzzO0n7HMB0",
+      "creator": { "@type": "Person", "name": "Rolling Society" },
+      "duration": "PT40S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Jackie Chan and 411 leg entanglement breakdown",
+      "description": "Outside Ashi to Leg Knot (Attacker) film study: Jackie Chan and 411 leg entanglement breakdown, taught by 10th Planet Orange Park.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/R4K-UU_bUZQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/R4K-UU_bUZQ",
+      "url": "https://www.youtube.com/watch?v=R4K-UU_bUZQ",
+      "creator": { "@type": "Person", "name": "10th Planet Orange Park" },
+      "duration": "PT75S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Transitioning to honey hole from Outside Ashi",
+      "description": "Outside Ashi to Leg Knot (Attacker) film study: Transitioning to honey hole from Outside Ashi, taught by Robot Dolphin Jiu-Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ratNiM2lx5U/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ratNiM2lx5U",
+      "url": "https://www.youtube.com/watch?v=ratNiM2lx5U",
+      "creator": { "@type": "Person", "name": "Robot Dolphin Jiu-Jitsu" },
+      "duration": "PT155S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <aside class="entity-relations">
@@ -175,6 +223,42 @@ The technique is timing-dependent. The best window appears when the opponent is 
 **From Position**: [[Positions/Ashi Garami/Outside Ashi-Garami]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Outside Ashi to Leg Knot (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=AzzO0n7HMB0)
+
+<p class="clip-credit"><strong>No-gi 411 leg knot entry</strong> — taught by Rolling Society · 0:40 · <a href="https://www.youtube.com/watch?v=AzzO0n7HMB0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=R4K-UU_bUZQ)
+
+<p class="clip-credit"><strong>Jackie Chan and 411 leg entanglement breakdown</strong> — taught by 10th Planet Orange Park · 1:15 · <a href="https://www.youtube.com/watch?v=R4K-UU_bUZQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ratNiM2lx5U)
+
+<p class="clip-credit"><strong>Transitioning to honey hole from Outside Ashi</strong> — taught by Robot Dolphin Jiu-Jitsu · 2:35 · <a href="https://www.youtube.com/watch?v=ratNiM2lx5U" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

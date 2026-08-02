@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Side Control/Top",
-      "probability": 65,
+      "probability": {
+        "gi": 65,
+        "nogi": 65
+      },
       "result": "success"
     },
     {
       "to": "Lasso Guard/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Lasso Guard/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "overview": "The Lasso Guard Pass is a fundamental skill for defeating one of the most controlling open guard variations in Brazilian Jiu-Jitsu. The lasso guard utilizes the opponent's sleeve grip combined with a leg threaded behind the arm to create powerful control that can sweep, submit, or prevent passing. Understanding how to systematically dismantle this guard structure is essential for any serious competitor.\n\nThe pass requires a combination of precise grip control, posture management, and strategic pressure application to neutralize the lasso hook while maintaining balance. Successful execution involves recognizing the mechanical disadvantages created by the lasso position and exploiting them through systematic steps that progressively remove the guard player's control points.\n\nThis technique integrates principles of base maintenance, pressure passing, and tactical grip fighting to achieve dominant top position. The key insight is that the lasso creates a lever system through the trapped arm, and the passer must change the angle of that lever rather than fighting it directly. By stepping outside the lasso leg and rotating the shoulder, the passer converts a strong control into a weak one before completing the pass to side control.",
   "conditions": [
     "Opponent has established lasso guard with sleeve grip and leg threaded behind your arm",
@@ -235,38 +247,147 @@
     "flashcards": [
       {
         "question": "Why is sleeve control on the lassoed arm considered the most important grip during this pass?",
-        "answer": "Sleeve control on the lassoed arm is critical because it prevents the opponent from creating and maintaining distance, which is the foundation of lasso guard effectiveness. By controlling this sleeve, you neutralize their ability to extend you away, set up sweeps, or transition to other guards. This grip also gives you control over their posture and prevents them from sitting up to reestablish their guard during the pass."
+        "answer": "Sleeve control on the lassoed arm is critical because it prevents the opponent from creating and maintaining distance, which is the foundation of lasso guard effectiveness. By controlling this sleeve, you neutralize their ability to extend you away, set up sweeps, or transition to other guards. This grip also gives you control over their posture and prevents them from sitting up to reestablish their guard during the pass.",
+        "answer_line": "Denies distance and extension",
+        "distractors": {
+          "plausible": [
+            "Controls their far hip only",
+            "Sets up an immediate back take"
+          ],
+          "trap": [
+            "Release it to speed up the pass"
+          ]
+        }
       },
       {
         "question": "What is the mechanical advantage of stepping outside the lasso leg rather than trying to pass on the inside?",
-        "answer": "Stepping outside the lasso leg creates an angle that reduces the hook's leverage and effectiveness. The lasso works by creating a strong connection between the opponent's leg and your arm in a straight line. When you step outside, you change this angle dramatically, making it much easier to rotate your shoulder and extract your arm. Additionally, this outside position puts you closer to completing the pass and makes it harder for the opponent to follow you with their hips."
+        "answer": "Stepping outside the lasso leg creates an angle that reduces the hook's leverage and effectiveness. The lasso works by creating a strong connection between the opponent's leg and your arm in a straight line. When you step outside, you change this angle dramatically, making it much easier to rotate your shoulder and extract your arm. Additionally, this outside position puts you closer to completing the pass and makes it harder for the opponent to follow you with their hips.",
+        "answer_line": "Changes angle, kills leverage",
+        "distractors": {
+          "plausible": [
+            "Steps inside for tighter control",
+            "Squares up to close distance"
+          ],
+          "trap": [
+            "Steps deeper into the lasso loop"
+          ]
+        }
       },
       {
         "question": "How should you adjust your passing strategy if the opponent transitions from lasso to spider guard during your pass attempt?",
-        "answer": "When the opponent transitions to spider guard, immediately adjust your grip strategy to control both sleeves rather than focusing solely on one. Recognize that spider guard requires different passing approaches, typically involving either breaking the grips and using pressure passing, or controlling both sleeves and using a knee cut or stack pass. The key is to not commit to the lasso passing sequence when the guard structure has fundamentally changed. Maintain your upright posture and wide base to prevent sweeps during this transition."
+        "answer": "When the opponent transitions to spider guard, immediately adjust your grip strategy to control both sleeves rather than focusing solely on one. Recognize that spider guard requires different passing approaches, typically involving either breaking the grips and using pressure passing, or controlling both sleeves and using a knee cut or stack pass. The key is to not commit to the lasso passing sequence when the guard structure has fundamentally changed. Maintain your upright posture and wide base to prevent sweeps during this transition.",
+        "answer_line": "Control both sleeves now",
+        "distractors": {
+          "plausible": [
+            "Keep chasing the lasso hook",
+            "Switch straight to a leg drag"
+          ],
+          "trap": [
+            "Drop posture and dive for the pass"
+          ]
+        }
       },
       {
         "question": "What are the most dangerous sweep threats when attempting to pass lasso guard, and how do you prevent them?",
-        "answer": "The primary sweep threats are the opponent using their free leg to hook your far leg while off-balancing you with the lasso, or sitting up and using the lasso to control your posture while sweeping with their free leg. Prevent these by maintaining a wide base with your far leg posted back and outside, keeping upright posture with your hips back, and controlling the sleeve to limit their ability to extend and create angles. Never allow your weight to shift too far forward or your base to become narrow."
+        "answer": "The primary sweep threats are the opponent using their free leg to hook your far leg while off-balancing you with the lasso, or sitting up and using the lasso to control your posture while sweeping with their free leg. Prevent these by maintaining a wide base with your far leg posted back and outside, keeping upright posture with your hips back, and controlling the sleeve to limit their ability to extend and create angles. Never allow your weight to shift too far forward or your base to become narrow.",
+        "answer_line": "Wide base, far leg posted back",
+        "distractors": {
+          "plausible": [
+            "Narrow base, drive forward hard",
+            "Post near hand and lean in"
+          ],
+          "trap": [
+            "Shift weight forward to pass"
+          ]
+        }
       },
       {
         "question": "Why is it crucial to immediately control the hips with your knee after clearing the lasso hook?",
-        "answer": "Hip control with the knee is essential because there is a critical moment after clearing the lasso where the opponent can still recover guard through hip movement and following your passing direction. By immediately driving your knee into their hip and pinning it to the mat, you eliminate their mobility and ability to create frames or shrimp away. This control point is what transitions the position from 'guard being passed' to 'pass completed,' and without it, even perfect technique up to that point can fail in the final moment."
+        "answer": "Hip control with the knee is essential because there is a critical moment after clearing the lasso where the opponent can still recover guard through hip movement and following your passing direction. By immediately driving your knee into their hip and pinning it to the mat, you eliminate their mobility and ability to create frames or shrimp away. This control point is what transitions the position from 'guard being passed' to 'pass completed,' and without it, even perfect technique up to that point can fail in the final moment.",
+        "answer_line": "Pin hip with knee at once",
+        "distractors": {
+          "plausible": [
+            "Grab the far collar first",
+            "Switch hips toward mount"
+          ],
+          "trap": [
+            "Release hip to hunt the far arm"
+          ]
+        }
       },
       {
         "question": "What role does posture play throughout the entire lasso guard passing sequence?",
-        "answer": "Upright posture is fundamental throughout the lasso pass because it reduces the mechanical effectiveness of the lasso hook and prevents forward sweeps. Good posture keeps your center of gravity over your base, making you difficult to off-balance. It also allows you to generate power from your legs and hips rather than relying on upper body strength. When standing, maintaining tall posture creates space to work and forces the opponent to use energy maintaining their guard rather than attacking you."
+        "answer": "Upright posture is fundamental throughout the lasso pass because it reduces the mechanical effectiveness of the lasso hook and prevents forward sweeps. Good posture keeps your center of gravity over your base, making you difficult to off-balance. It also allows you to generate power from your legs and hips rather than relying on upper body strength. When standing, maintaining tall posture creates space to work and forces the opponent to use energy maintaining their guard rather than attacking you.",
+        "answer_line": "Stay upright, centered base",
+        "distractors": {
+          "plausible": [
+            "Lean forward for heavy pressure",
+            "Drop weight low right away"
+          ],
+          "trap": [
+            "Hunch forward over their hips"
+          ]
+        }
       },
       {
         "question": "Your opponent begins circling their free leg toward your far knee while you are mid-pass with the lasso partially cleared - what do you do?",
-        "answer": "This is a sweep setup where the opponent is trying to hook your far leg and combine it with the remaining lasso control to off-balance you. Immediately hop your far leg back and widen your base to make it unreachable. If they have already contacted your leg, drop your weight onto their hip with your near knee to pin them flat, removing the angle they need for the sweep. You can also accelerate your outside step to complete the angle change faster, which removes the lasso leverage they need to complete the sweep even if they hook your leg."
+        "answer": "This is a sweep setup where the opponent is trying to hook your far leg and combine it with the remaining lasso control to off-balance you. Immediately hop your far leg back and widen your base to make it unreachable. If they have already contacted your leg, drop your weight onto their hip with your near knee to pin them flat, removing the angle they need for the sweep. You can also accelerate your outside step to complete the angle change faster, which removes the lasso leverage they need to complete the sweep even if they hook your leg.",
+        "answer_line": "Hop leg back, widen the base",
+        "distractors": {
+          "plausible": [
+            "Push forward through the hook",
+            "Grab their ankle to freeze it"
+          ],
+          "trap": [
+            "Step forward, ignore the leg"
+          ]
+        }
       },
       {
         "question": "What is the correct direction of force when rotating your shoulder to clear the lasso hook in step four?",
-        "answer": "The shoulder rotation must go backward and downward, not forward or upward. Rotate the trapped shoulder posteriorly while simultaneously dropping it toward the mat. This creates a corkscrew motion that reduces the circumference your arm presents inside the lasso loop, allowing extraction. Rotating forward or upward actually tightens the lasso by pressing your arm harder into their shin. The motion is similar to shrugging your shoulder backward while pulling your elbow toward your own hip, combined with the free hand pulling their shin away from your arm."
+        "answer": "The shoulder rotation must go backward and downward, not forward or upward. Rotate the trapped shoulder posteriorly while simultaneously dropping it toward the mat. This creates a corkscrew motion that reduces the circumference your arm presents inside the lasso loop, allowing extraction. Rotating forward or upward actually tightens the lasso by pressing your arm harder into their shin. The motion is similar to shrugging your shoulder backward while pulling your elbow toward your own hip, combined with the free hand pulling their shin away from your arm.",
+        "answer_line": "Rotate shoulder back and down",
+        "distractors": {
+          "plausible": [
+            "Rotate shoulder forward and up",
+            "Pull the elbow straight up"
+          ],
+          "trap": [
+            "Press arm deeper into the hook"
+          ]
+        }
       }
     ],
-    "safety_considerations": "The lasso guard pass is generally a low-risk technique from a safety perspective, but practitioners should be aware of several considerations. When clearing the lasso hook, avoid jerking or explosive movements that could stress the opponent's shoulder or elbow joint, as the lasso creates a connected system through their arm. When standing up, ensure your partner's arm is not trapped in an awkward position that could cause injury if you post weight suddenly. Be cautious of your own balance when standing, as falling onto your partner while they maintain the lasso could cause injury to both participants. During training, communicate with your partner about the intensity level and take care when applying pressure to their legs or hips. For practitioners with knee issues, be mindful when driving your knee across for the final pass, as excessive force on a mat can aggravate existing conditions. Finally, if your partner maintains the lasso and you feel stuck, tap and reset rather than forcing the position, as this prevents both frustration and potential injury from desperate movements."
+    "safety_considerations": "The lasso guard pass is generally a low-risk technique from a safety perspective, but practitioners should be aware of several considerations. When clearing the lasso hook, avoid jerking or explosive movements that could stress the opponent's shoulder or elbow joint, as the lasso creates a connected system through their arm. When standing up, ensure your partner's arm is not trapped in an awkward position that could cause injury if you post weight suddenly. Be cautious of your own balance when standing, as falling onto your partner while they maintain the lasso could cause injury to both participants. During training, communicate with your partner about the intensity level and take care when applying pressure to their legs or hips. For practitioners with knee issues, be mindful when driving your knee across for the final pass, as excessive force on a mat can aggravate existing conditions. Finally, if your partner maintains the lasso and you feel stuck, tap and reset rather than forcing the position, as this prevents both frustration and potential injury from desperate movements.",
+    "clips": [
+      {
+        "id": "9sQAn2ESkMU",
+        "title": "Passing lasso guard to the back",
+        "by": "Gabriel Sousa",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 113,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "EdLPqtAm5yQ",
+        "title": "Pressure pass the Lasso Guard",
+        "by": "Alberto Serrano",
+        "vertical": false,
+        "channel": "Alberto Serrano BJJ",
+        "duration": 123,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "eXriz8Oz99I",
+        "title": "Deep lasso guard pass to leg drag",
+        "by": "Carpio Jiu Jitsu",
+        "vertical": false,
+        "channel": "Carpio Jiu Jitsu",
+        "duration": 161,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Lasso Guard Pass Defender",
@@ -350,23 +471,73 @@
     "flashcards": [
       {
         "question": "What is the most critical moment to attack with a sweep when defending against the lasso guard pass?",
-        "answer": "The most critical sweep window occurs when the passer steps outside your lasso leg to change angles. During this weight transfer, their base is momentarily compromised as they shift from a squared stance to an angled one. This is when sickle sweeps and hook sweeps are highest percentage because the passer's weight is transitioning between legs and their posting ability is reduced. Attacking during this weight shift forces them to choose between completing the angle change or recovering their base."
+        "answer": "The most critical sweep window occurs when the passer steps outside your lasso leg to change angles. During this weight transfer, their base is momentarily compromised as they shift from a squared stance to an angled one. This is when sickle sweeps and hook sweeps are highest percentage because the passer's weight is transitioning between legs and their posting ability is reduced. Attacking during this weight shift forces them to choose between completing the angle change or recovering their base.",
+        "answer_line": "Attack during their weight shift",
+        "distractors": {
+          "plausible": [
+            "Attack the instant they stand",
+            "Wait until the pass finishes"
+          ],
+          "trap": [
+            "Attack once they're squared up"
+          ]
+        }
       },
       {
         "question": "Why should you follow the passer's angle change with your hips rather than staying flat when they step outside?",
-        "answer": "Following the passer's angle change with a hip switch maintains your perpendicular relationship to their body, which preserves the mechanical advantage of the lasso and keeps your sweep angles viable. If you stay flat while they step outside, the angle change progressively unwinds your lasso hook, making it easy for them to rotate their shoulder free. By turning your hips to face their new angle, you re-tension the lasso and maintain the fulcrum that makes the position controlling. This hip mobility is what separates effective lasso guard retention from static, easily passed guard play."
+        "answer": "Following the passer's angle change with a hip switch maintains your perpendicular relationship to their body, which preserves the mechanical advantage of the lasso and keeps your sweep angles viable. If you stay flat while they step outside, the angle change progressively unwinds your lasso hook, making it easy for them to rotate their shoulder free. By turning your hips to face their new angle, you re-tension the lasso and maintain the fulcrum that makes the position controlling. This hip mobility is what separates effective lasso guard retention from static, easily passed guard play.",
+        "answer_line": "Switch hips to re-tension lasso",
+        "distractors": {
+          "plausible": [
+            "Stay flat, just hold the sleeve",
+            "Sit up to re-grip the collar"
+          ],
+          "trap": [
+            "Turn away from their new angle"
+          ]
+        }
       },
       {
         "question": "When you feel your lasso control deteriorating, how do you decide between fighting to maintain the lasso versus transitioning to a different guard?",
-        "answer": "The decision hinges on whether the passer has completed the angle change and begun clearing the hook. If they have only stood up but not yet stepped outside, re-extending the lasso and pulling the sleeve tight can restore full control. However, once they have successfully stepped outside and begun rotating their shoulder, the mechanical advantage has shifted too far for recovery. At this point, transitioning to De La Riva with the non-lasso leg or recovering to spider guard is higher percentage than fighting to maintain a compromised lasso. The key indicator is whether your shin still has firm contact across their tricep."
+        "answer": "The decision hinges on whether the passer has completed the angle change and begun clearing the hook. If they have only stood up but not yet stepped outside, re-extending the lasso and pulling the sleeve tight can restore full control. However, once they have successfully stepped outside and begun rotating their shoulder, the mechanical advantage has shifted too far for recovery. At this point, transitioning to De La Riva with the non-lasso leg or recovering to spider guard is higher percentage than fighting to maintain a compromised lasso. The key indicator is whether your shin still has firm contact across their tricep.",
+        "answer_line": "Check shin-tricep contact",
+        "distractors": {
+          "plausible": [
+            "Always re-extend the lasso leg",
+            "Switch guards immediately"
+          ],
+          "trap": [
+            "Fight harder once shoulder clears"
+          ]
+        }
       },
       {
         "question": "What role does the non-lasso leg play in defending against the pass, and how should it be positioned?",
-        "answer": "The non-lasso leg is your primary distance management and secondary attack tool. It should post on the passer's hip when they pressure forward, preventing them from closing distance and smashing the lasso. When they stand, the free foot on the hip creates a frame that keeps space and allows you to follow their movement. When they step outside for the angle change, the non-lasso leg can hook behind their far ankle for a sickle sweep or transition to a De La Riva hook on the far leg. Neglecting the non-lasso leg removes half your defensive and offensive capability from the lasso position."
+        "answer": "The non-lasso leg is your primary distance management and secondary attack tool. It should post on the passer's hip when they pressure forward, preventing them from closing distance and smashing the lasso. When they stand, the free foot on the hip creates a frame that keeps space and allows you to follow their movement. When they step outside for the angle change, the non-lasso leg can hook behind their far ankle for a sickle sweep or transition to a De La Riva hook on the far leg. Neglecting the non-lasso leg removes half your defensive and offensive capability from the lasso position.",
+        "answer_line": "Post the hip, hook for sweeps",
+        "distractors": {
+          "plausible": [
+            "Keep it tucked and passive",
+            "Use it only for balance"
+          ],
+          "trap": [
+            "Cross it over the other leg"
+          ]
+        }
       },
       {
         "question": "Your opponent has stood up and gripped your lasso sleeve but has not yet stepped outside - what is your best immediate action?",
-        "answer": "At this stage, the passer is most vulnerable to re-extension and sweep threats. Immediately push your free foot into their same-side hip to create distance while pulling the sleeve grip tight and extending the lasso leg fully. This re-establishes the mechanical advantage before they can change angles. Simultaneously threaten a sickle sweep by hooking their far ankle with your free leg. This forces a dilemma: they must either abandon the sleeve grip to deal with the sweep threat, giving you time to re-establish full control, or accept the sweep risk and continue the pass under pressure."
+        "answer": "At this stage, the passer is most vulnerable to re-extension and sweep threats. Immediately push your free foot into their same-side hip to create distance while pulling the sleeve grip tight and extending the lasso leg fully. This re-establishes the mechanical advantage before they can change angles. Simultaneously threaten a sickle sweep by hooking their far ankle with your free leg. This forces a dilemma: they must either abandon the sleeve grip to deal with the sweep threat, giving you time to re-establish full control, or accept the sweep risk and continue the pass under pressure.",
+        "answer_line": "Re-extend leg, thread sickle",
+        "distractors": {
+          "plausible": [
+            "Pull them back down to guard",
+            "Switch to De La Riva now"
+          ],
+          "trap": [
+            "Release sleeve, grab their pants"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -389,6 +560,35 @@
         "phase": "Phase 4: Full Resistance Defense Integration (Weeks 7+)",
         "focus": "Defending passes at competition intensity with full offensive and defensive toolkit",
         "description": "Positional sparring starting in lasso guard with partner using full intensity passes. Combine grip retention, hip mobility, guard transitions, and sweep attacks into a complete defensive system. Track success rates: how often you maintain guard, how often you sweep, and how often you get passed. Identify patterns in where your defense breaks down and drill those specific scenarios."
+      }
+    ],
+    "clips": [
+      {
+        "id": "tO5rPtjfsGE",
+        "title": "Prevent the leg weave with lasso",
+        "by": "Grand Union Jiu Jitsu",
+        "vertical": false,
+        "channel": "Grand Union Jiu Jitsu",
+        "duration": 54,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "QT_3oCZJ-3Y",
+        "title": "Short lasso guard retention",
+        "by": "Dean Lewis",
+        "vertical": false,
+        "channel": "Dean Lewis",
+        "duration": 194,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "gRz_Kv4HUN4",
+        "title": "Why your lasso guard is easy to pass",
+        "by": "Darin Conner DeAngelis",
+        "vertical": false,
+        "channel": "Darin Conner DeAngelis",
+        "duration": 239,
+        "verified": "2026-07-15"
       }
     ]
   },

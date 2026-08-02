@@ -168,6 +168,43 @@ description: "How to execute Sprawl and Disengage in BJJ. Attacking perspective 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Sprawl and Disengage (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Basic sprawl drill",
+      "description": "Sprawl and Disengage (Attacker) film study: Basic sprawl drill, taught by Gaelforce BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Adz0whT8wBc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Adz0whT8wBc",
+      "url": "https://www.youtube.com/watch?v=Adz0whT8wBc",
+      "creator": { "@type": "Person", "name": "Gaelforce BJJ" },
+      "duration": "PT35S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Sit out to disengage from the inversion",
+      "description": "Sprawl and Disengage (Attacker) film study: Sit out to disengage from the inversion, taught by Spear Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/DvoaiDQaLDA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/DvoaiDQaLDA",
+      "url": "https://www.youtube.com/watch?v=DvoaiDQaLDA",
+      "creator": { "@type": "Person", "name": "Spear Jiu Jitsu" },
+      "duration": "PT74S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -181,6 +218,34 @@ From a systematic perspective, the Sprawl and Disengage represents intelligent r
 **From Position**: [[Positions/Grasshopper Guard]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Sprawl and Disengage (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Adz0whT8wBc)
+
+<p class="clip-credit"><strong>Basic sprawl drill</strong> — taught by Gaelforce BJJ · 0:35 · <a href="https://www.youtube.com/watch?v=Adz0whT8wBc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=DvoaiDQaLDA)
+
+<p class="clip-credit"><strong>Sit out to disengage from the inversion</strong> — taught by Spear Jiu Jitsu · 1:14 · <a href="https://www.youtube.com/watch?v=DvoaiDQaLDA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

@@ -148,6 +148,43 @@ description: "How to defend against the Transition to Matrix entry from turtle b
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Turtle to Matrix (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Defending the Telles turtle sweep to cross ashi",
+      "description": "Turtle to Matrix (Defender) film study: Defending the Telles turtle sweep to cross ashi, taught by JJPA APEX.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/v6PJRWSN9Lk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/v6PJRWSN9Lk",
+      "url": "https://www.youtube.com/watch?v=v6PJRWSN9Lk",
+      "creator": { "@type": "Person", "name": "JJPA APEX" },
+      "duration": "PT23S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Turtle offense and counters to matrix entries",
+      "description": "Turtle to Matrix (Defender) film study: Turtle offense and counters to matrix entries, taught by Raoul Audhoe.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/naD1QlcLZNk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/naD1QlcLZNk",
+      "url": "https://www.youtube.com/watch?v=naD1QlcLZNk",
+      "creator": { "@type": "Person", "name": "Raoul Audhoe" },
+      "duration": "PT117S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -161,6 +198,34 @@ Successful Matrix defense integrates with your broader turtle escape system. The
 **Opponent's Starting Position**: [[Positions/Turtle]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Turtle to Matrix (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=v6PJRWSN9Lk)
+
+<p class="clip-credit"><strong>Defending the Telles turtle sweep to cross ashi</strong> — taught by JJPA APEX · 0:23 · <a href="https://www.youtube.com/watch?v=v6PJRWSN9Lk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=naD1QlcLZNk)
+
+<p class="clip-credit"><strong>Turtle offense and counters to matrix entries</strong> — taught by Raoul Audhoe · 1:57 · <a href="https://www.youtube.com/watch?v=naD1QlcLZNk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

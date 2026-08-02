@@ -34,6 +34,54 @@ description: "Master the fundamental transition from side control to mount in BJ
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Side Control to Mount \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Side control to mount with head and arm choke",
+      "description": "Side Control to Mount film study: Side control to mount with head and arm choke, taught by Sticks and Stones BJJ coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/yTQT4hMLZGk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/yTQT4hMLZGk",
+      "url": "https://www.youtube.com/watch?v=yTQT4hMLZGk",
+      "creator": { "@type": "Person", "name": "Sticks and Stones BJJ coach" },
+      "duration": "PT143S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Side Control to Mount",
+      "description": "Side Control to Mount film study: Side Control to Mount, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/4GwlWU0Avlc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/4GwlWU0Avlc",
+      "url": "https://www.youtube.com/watch?v=4GwlWU0Avlc",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT342S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Side Control to Mount Transition Fundamentals",
+      "description": "Side Control to Mount film study: Side Control to Mount Transition Fundamentals, taught by Danny Fung.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Y78snTkc7iI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Y78snTkc7iI",
+      "url": "https://www.youtube.com/watch?v=Y78snTkc7iI",
+      "creator": { "@type": "Person", "name": "Danny Fung" },
+      "duration": "PT163S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -62,9 +110,45 @@ description: "Master the fundamental transition from side control to mount in BJ
 The transition to mount from side control represents one of the most fundamental and high-percentage positional advancements in Brazilian Jiu-Jitsu. This transition is the natural progression when an opponent's defensive frames are compromised or when they turn into you attempting to recover guard. The movement capitalizes on controlling the near side of the opponent's body while stepping over to establish the dominant mount position. Understanding this transition is critical for developing a systematic top game, as mount offers superior control and submission opportunities compared to side control. The technique relies on precise weight distribution, maintaining connection throughout the movement, and timing the transition when defensive frames collapse or opponent movement creates openings. This is a bread-and-butter technique that every practitioner from white belt to black belt uses regularly in training and competition. The transition can be executed with various grips and entry methods, but the fundamental mechanics remain consistent: control the near side, step the leg over, and establish mount with proper weight distribution.
 
 **From Position**: [[Positions/Side Control]] (Top)
-**Success Rate**: 68%
+**Success Rate**: 47%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Side Control to Mount in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=yTQT4hMLZGk)
+
+<p class="clip-credit"><strong>Side control to mount with head and arm choke</strong> — taught by Sticks and Stones BJJ coach · 2:23 · <a href="https://www.youtube.com/watch?v=yTQT4hMLZGk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=4GwlWU0Avlc)
+
+<p class="clip-credit"><strong>Side Control to Mount</strong> — taught by Lachlan Giles · 5:42 · <a href="https://www.youtube.com/watch?v=4GwlWU0Avlc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Y78snTkc7iI)
+
+<p class="clip-credit"><strong>Side Control to Mount Transition Fundamentals</strong> — taught by Danny Fung · 2:43 · <a href="https://www.youtube.com/watch?v=Y78snTkc7iI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

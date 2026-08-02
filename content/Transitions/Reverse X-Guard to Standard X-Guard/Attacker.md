@@ -174,6 +174,43 @@ description: "How to execute Reverse X-Guard to Standard X-Guard in BJJ. Attacki
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Reverse X-Guard to Standard X-Guard (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Single leg X, X guard and reverse X guard options",
+      "description": "Reverse X-Guard to Standard X-Guard (Attacker) film study: Single leg X, X guard and reverse X guard options, taught by Steven Kaloustian.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/EcxCadpBePk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/EcxCadpBePk",
+      "url": "https://www.youtube.com/watch?v=EcxCadpBePk",
+      "creator": { "@type": "Person", "name": "Steven Kaloustian" },
+      "duration": "PT97S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "X guard sweep demonstration",
+      "description": "Reverse X-Guard to Standard X-Guard (Attacker) film study: X guard sweep demonstration, taught by Marcelo Garcia.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/zbYb6sOYC8w/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/zbYb6sOYC8w",
+      "url": "https://www.youtube.com/watch?v=zbYb6sOYC8w",
+      "creator": { "@type": "Person", "name": "Marcelo Garcia" },
+      "duration": "PT53S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -187,6 +224,34 @@ The transition requires precise timing and coordinated hook movement to prevent 
 **From Position**: [[Positions/X-Guard/Reverse X-Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Reverse X-Guard to Standard X-Guard (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=EcxCadpBePk)
+
+<p class="clip-credit"><strong>Single leg X, X guard and reverse X guard options</strong> — taught by Steven Kaloustian · 1:37 · <a href="https://www.youtube.com/watch?v=EcxCadpBePk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=zbYb6sOYC8w)
+
+<p class="clip-credit"><strong>X guard sweep demonstration</strong> — taught by Marcelo Garcia · 0:53 · <a href="https://www.youtube.com/watch?v=zbYb6sOYC8w" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

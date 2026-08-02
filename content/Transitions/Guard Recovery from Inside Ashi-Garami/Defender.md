@@ -132,6 +132,43 @@ description: "Prevent guard recovery from Inside Ashi-Garami as the top player i
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Guard Recovery from Inside Ashi-Garami (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Clearing defensive hands in Ashi Garami",
+      "description": "Guard Recovery from Inside Ashi-Garami (Defender) film study: Clearing defensive hands in Ashi Garami, taught by Brian Glick.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/QbTnnAOcAl4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/QbTnnAOcAl4",
+      "url": "https://www.youtube.com/watch?v=QbTnnAOcAl4",
+      "creator": { "@type": "Person", "name": "Brian Glick" },
+      "duration": "PT191S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Beating the step-over escape from Ashi Garami",
+      "description": "Guard Recovery from Inside Ashi-Garami (Defender) film study: Beating the step-over escape from Ashi Garami, taught by Craig Jones.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/y-gsdLH2YBs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/y-gsdLH2YBs",
+      "url": "https://www.youtube.com/watch?v=y-gsdLH2YBs",
+      "creator": { "@type": "Person", "name": "Craig Jones" },
+      "duration": "PT242S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -141,6 +178,34 @@ As the top player whose leg is being released from Inside Ashi-Garami, the botto
 **Opponent's Starting Position**: [[Positions/Ashi Garami/Inside Ashi-Garami]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Guard Recovery from Inside Ashi-Garami (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=QbTnnAOcAl4)
+
+<p class="clip-credit"><strong>Clearing defensive hands in Ashi Garami</strong> — taught by Brian Glick · 3:11 · <a href="https://www.youtube.com/watch?v=QbTnnAOcAl4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=y-gsdLH2YBs)
+
+<p class="clip-credit"><strong>Beating the step-over escape from Ashi Garami</strong> — taught by Craig Jones · 4:02 · <a href="https://www.youtube.com/watch?v=y-gsdLH2YBs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

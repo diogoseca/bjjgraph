@@ -174,6 +174,43 @@ description: "Complete guide to executing the New York pass to side control. Lea
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "New York Pass to Side Control (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "10th Planet passing drill with Danny Gutierrez",
+      "description": "New York Pass to Side Control (Attacker) film study: 10th Planet passing drill with Danny Gutierrez, taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/4E5IQ9ouZfA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/4E5IQ9ouZfA",
+      "url": "https://www.youtube.com/watch?v=4E5IQ9ouZfA",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT51S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Passing basics breakdown",
+      "description": "New York Pass to Side Control (Attacker) film study: Passing basics breakdown, taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/SYl7QbIRELM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/SYl7QbIRELM",
+      "url": "https://www.youtube.com/watch?v=SYl7QbIRELM",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT119S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -183,6 +220,34 @@ The attacker in the New York Pass to Side Control is the top player currently tr
 **From Position**: [[Positions/Rubber Guard/New York]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch New York Pass to Side Control (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=4E5IQ9ouZfA)
+
+<p class="clip-credit"><strong>10th Planet passing drill with Danny Gutierrez</strong> — taught by Eddie Bravo · 0:51 · <a href="https://www.youtube.com/watch?v=4E5IQ9ouZfA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=SYl7QbIRELM)
+
+<p class="clip-credit"><strong>Passing basics breakdown</strong> — taught by Eddie Bravo · 1:59 · <a href="https://www.youtube.com/watch?v=SYl7QbIRELM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

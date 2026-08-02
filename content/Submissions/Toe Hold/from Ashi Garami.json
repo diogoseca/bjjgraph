@@ -19,7 +19,10 @@
   "target_area": "Ankle, toes, and foot ligaments",
   "starting_position": "Ashi Garami",
   "from_position": "Ashi Garami/Top",
-  "success_rate": 60,
+  "success_rate": {
+    "gi": 60,
+    "nogi": 60
+  },
   "overview": "The **toe hold** from **Ashi Garami** exploits the top player's ability to grip the bottom player's foot during leg entanglement exchanges. While the bottom player focuses on advancing their leg control hierarchy, the top player can opportunistically attack the exposed foot with a figure-four grip, creating rotational pressure on the ankle joint. This counter-offensive application transforms a defensive situation into a finishing opportunity, making it a valuable weapon in the top player's Ashi Garami toolkit.\n\nThe mechanics involve securing a kimura-style figure-four grip across the opponent's toes and ball of foot, then applying controlled medial rotation while stabilizing the knee line with your leg entanglement. From the Ashi Garami top position, the grip is accessible when the bottom player extends their hooking leg or adjusts their entanglement configuration, momentarily exposing the foot. The rotational force attacks the ankle ligaments, Lisfranc joint, and surrounding connective tissue, creating a submission through accumulated torsional stress rather than sudden joint hyperextension.\n\nCompetition-level application demands patience and precise timing. The toe hold works best as a counter-attack when the bottom player overcommits to advancing their leg entanglement position, creating windows where their foot becomes accessible. Understanding when to abandon the toe hold attempt and return to primary defensive objectives separates effective practitioners from those who compromise their position chasing a low-percentage finish.",
   "safety_considerations": {
     "injury_risks": [
@@ -112,17 +115,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 60,
+      "probability": {
+        "gi": 60,
+        "nogi": 60
+      },
       "result": "success"
     },
     {
       "to": "Ashi Garami/Top",
-      "probability": 26,
+      "probability": {
+        "gi": 26,
+        "nogi": 26
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 14,
+      "probability": {
+        "gi": 14,
+        "nogi": 14
+      },
       "result": "counter"
     }
   ],
@@ -266,53 +278,182 @@
     "flashcards": [
       {
         "question": "What anatomical structures does the toe hold primarily attack?",
-        "answer": "The toe hold attacks the lateral and medial ankle ligaments through rotational torque, the Lisfranc joint (midfoot articulation) through torsional stress, the plantar fascia, and the surrounding connective tissue of the foot and ankle complex. The medial rotation creates shearing force across multiple joint surfaces simultaneously.",
-        "safety_critical": false
+        "answer": "The toe hold primarily attacks the lateral and medial ankle ligaments and the Lisfranc joint of the midfoot through rotational torque. It also stresses the plantar fascia and the surrounding connective tissue of the foot and ankle complex through torsional load. The medial rotation creates shearing force across multiple joint surfaces simultaneously.",
+        "safety_critical": false,
+        "distractors": {
+          "plausible": [
+            "Knee ligaments and meniscus",
+            "Achilles tendon primarily"
+          ],
+          "trap": [
+            "Toe knuckles individually"
+          ]
+        },
+        "answer_line": "Ankle ligaments & Lisfranc joint"
       },
       {
         "question": "What is the correct grip configuration for the toe hold from Ashi Garami?",
-        "answer": "A kimura-style figure-four grip where the primary hand cups across the toes and ball of foot with the palm against the sole and fingers hooking over the metatarsals. The reinforcing hand threads under the ankle and grips the primary hand's wrist, creating a double-lock structure that generates rotational leverage through the ankle joint.",
-        "safety_critical": false
+        "answer": "The grip is a kimura-style figure-four: one hand cups the toes and ball of the foot, the other threads under the ankle to grip that wrist. The primary hand's palm sits against the sole with the fingers hooking over the metatarsals. This double-lock structure generates rotational leverage through the ankle joint.",
+        "safety_critical": false,
+        "distractors": {
+          "plausible": [
+            "Grip both ankles directly",
+            "One hand, straight arm pull"
+          ],
+          "trap": [
+            "Grip and twist each toe"
+          ]
+        },
+        "answer_line": "Figure-four: cup foot, grip wrist"
       },
       {
         "question": "Your opponent begins retracting their foot as you reach for the cup grip - what do you do?",
         "answer": "If the foot has not fully retracted, commit decisively to securing the cup grip in one fluid motion before they complete the retraction. If the foot is already pulled back and tucked, abandon the toe hold attempt immediately and return to primary Ashi Garami defensive positioning rather than chasing a grip you cannot cleanly secure.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Commit fast, else abandon chase",
+        "distractors": {
+          "plausible": [
+            "Always chase and force the grip",
+            "Switch straight to heel hook"
+          ],
+          "trap": [
+            "Yank the leg to stop retraction"
+          ]
+        }
       },
       {
         "question": "What are the key safety considerations when applying the toe hold in training?",
         "answer": "Apply pressure extremely slowly over 5-7 seconds minimum from grip to finish. Never grip individual toes. Never use explosive rotational force. Always cup across the ball of foot distributing force across multiple structures. Pause at each pressure increment to allow tap opportunity. The Lisfranc joint can suffer catastrophic injury from sudden force that requires surgical intervention.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Slow, cup ball, never grip toes",
+        "distractors": {
+          "plausible": [
+            "Fast snap before they defend",
+            "Grip toes for better control"
+          ],
+          "trap": [
+            "Crank hard and fast to finish"
+          ]
+        }
       },
       {
         "question": "How should you release the toe hold after your partner taps?",
         "answer": "Immediately stop all rotational pressure first, then release the toe grip completely, then release heel and knee line control. Allow the foot to return to neutral position naturally without abrupt release. Maintain light contact until your partner signals they are comfortable, then check verbally before resuming training to ensure no residual pain.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Stop rotation, then release grips",
+        "distractors": {
+          "plausible": [
+            "Release knee first, then toe",
+            "Release everything at once fast"
+          ],
+          "trap": [
+            "Keep torque on until they relax"
+          ]
+        }
       },
       {
         "question": "You have the figure-four secured but your opponent straightens their leg to escape - how do you adjust?",
         "answer": "A straightened leg compromises the toe hold mechanics because the rotational force dissipates through the extended knee rather than concentrating on the ankle. If the knee line opens, release the toe hold grip and immediately transition to an ankle lock on the now-extended leg, or re-engage your leg entanglement to re-bend the knee before reattempting.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Release, hunt the ankle lock",
+        "distractors": {
+          "plausible": [
+            "Keep the figure-four clamped",
+            "Sit back and stall for points"
+          ],
+          "trap": [
+            "Roll through and give up the legs"
+          ]
+        }
       },
       {
         "question": "What distinguishes a high-percentage toe hold attempt from a low-percentage one from Ashi Garami top?",
-        "answer": "A high-percentage attempt has three elements present simultaneously: the opponent's foot is genuinely exposed and accessible, your knee line control is established with the knee bent at approximately 90 degrees, and your base remains stable enough to maintain the position through the finishing sequence. Missing any one of these three elements drops the success rate dramatically.",
-        "safety_critical": false
+        "answer": "A high-percentage attempt has three elements at once: genuine foot exposure, knee-line control with the knee bent near 90 degrees, and stable base. The base must remain stable enough to maintain the position through the entire finishing sequence. Missing any one of these three elements drops the success rate dramatically.",
+        "safety_critical": false,
+        "distractors": {
+          "plausible": [
+            "Speed of the initial grab",
+            "Opponent's fatigue level"
+          ],
+          "trap": [
+            "Loose base for extra rotation"
+          ]
+        },
+        "answer_line": "Foot exposed, knee at 90°, stable"
       },
       {
         "question": "What is the point of no return for the defender once the toe hold is properly applied?",
-        "answer": "Once the figure-four grip is locked with correct wrist-to-wrist connection, the knee line is pinched at 90 degrees between the attacker's thighs, and medial rotation has begun loading the lateral ankle ligaments, the defender has very limited escape options. At this point, the defender should strongly consider tapping rather than fighting a fully locked submission to avoid ligament damage.",
-        "safety_critical": true
+        "answer": "The point of no return is when the figure-four is locked, the knee line is pinched at 90 degrees, and medial rotation begins loading the ankle. With correct wrist-to-wrist connection and the lateral ankle ligaments already under load, the defender has very limited escape options. At this point, the defender should strongly consider tapping rather than fighting a fully locked submission to avoid ligament damage.",
+        "safety_critical": true,
+        "distractors": {
+          "plausible": [
+            "The instant they grab your foot",
+            "When they first enter ashi garami"
+          ],
+          "trap": [
+            "You can always twist free late"
+          ]
+        },
+        "answer_line": "Grip locked, ankle now loading"
       },
       {
         "question": "Your opponent rolls toward you to relieve rotational pressure during the finish - what adjustment prevents escape?",
         "answer": "Follow their roll by adjusting your hip angle to maintain the rotational vector relative to their new body orientation. Your torso must rotate with them so the figure-four continues applying medial force on the foot. If they roll far enough to fully neutralize the angle, consider releasing the toe hold and transitioning to a heel hook since their roll often exposes the heel.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Rotate hips to follow their roll",
+        "distractors": {
+          "plausible": [
+            "Release grip and reset position",
+            "Pull straight back harder"
+          ],
+          "trap": [
+            "Let go and chase a takedown"
+          ]
+        }
       },
       {
         "question": "What competition strategy considerations apply to the toe hold from Ashi Garami top position?",
         "answer": "The toe hold from top Ashi is most effective as a surprise counter-attack during the opponent's advancement attempts, not as a primary game plan. Under IBJJF rules, toe holds are legal at brown belt and above in gi competition. Time the attempt during the opponent's transition between hierarchy levels when their foot is momentarily exposed, and be prepared to immediately return to leg extraction defense if the attempt fails.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Surprise counter, not primary plan",
+        "distractors": {
+          "plausible": [
+            "Lead with it as first attack",
+            "Save it only for white belts"
+          ],
+          "trap": [
+            "Spam it early to tire opponent"
+          ]
+        }
+      }
+    ],
+    "clips": [
+      {
+        "id": "Kx8gZ3QdO8s",
+        "title": "Crossover Toe Hold",
+        "by": "Craig Jones",
+        "vertical": false,
+        "channel": "Bence Romanek",
+        "duration": 51,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "tUKGafnOlJo",
+        "title": "Slide into Ashi to Straight Toe Hold",
+        "by": "Josh Leduc",
+        "vertical": false,
+        "channel": "Josh Star-Lord Leduc",
+        "duration": 58,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "o-xpj81VZzE",
+        "title": "Brutal toe hold from single leg X",
+        "by": "Jeff Messina",
+        "vertical": false,
+        "channel": "JEFF MESSINA JIU-JITSU and MAN STUFF",
+        "duration": 93,
+        "verified": "2026-07-14"
       }
     ]
   },
@@ -406,27 +547,77 @@
       {
         "question": "How do you recognize that the toe hold from Ashi Garami is being set up?",
         "answer": "Watch for the top player's near-side hand moving toward the sole of your hooking foot, the top player stabilizing position instead of attempting leg extraction, and feeling a cupping pressure across your toes followed by a second hand threading under your ankle. The top player squeezing their legs together to clamp your knee is the final confirmation.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Hand cups sole, squeezes knee",
+        "distractors": {
+          "plausible": [
+            "Sudden hip bump and switch",
+            "Grip fighting on your collar"
+          ],
+          "trap": [
+            "Ignore it, foot is still free"
+          ]
+        }
       },
       {
         "question": "What is the safest response when rotational pressure from the toe hold reaches your ankle joint?",
         "answer": "Tap immediately using any available signal - verbal tap, hand tap on the mat or partner, or foot tap with the free leg. The toe hold attacks the Lisfranc joint and ankle ligaments with extremely fast mechanical escalation once rotation begins. Delayed tapping risks catastrophic midfoot injury requiring surgical intervention and 3-6 months of recovery. Never fight a locked toe hold past the point of ankle pressure.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Tap immediately, any signal",
+        "distractors": {
+          "plausible": [
+            "Wait to see if pain increases",
+            "Try to power out first"
+          ],
+          "trap": [
+            "Fight through to escape angle"
+          ]
+        }
       },
       {
         "question": "What defensive options are available against the toe hold at different stages of the attack?",
         "answer": "Before grip contact: retract foot and curl toes. After cup grip but before figure-four: strip the single hand grip. After figure-four establishment: use both hands to pry the wrist connection apart. After knee line is clamped: straighten your leg with a hip escape to deny bent-knee mechanics. During rotation: roll toward the attacker to neutralize the angle, or tap if pressure reaches the ankle.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Stage-matched defense, then tap",
+        "distractors": {
+          "plausible": [
+            "Same escape at every stage",
+            "Wait until fully locked to react"
+          ],
+          "trap": [
+            "Bend knee more to relieve pressure"
+          ]
+        }
       },
       {
         "question": "Why is preventive foot positioning more effective than reactive escape against the toe hold?",
         "answer": "The toe hold's mechanical advantage increases dramatically at each stage of establishment - once the figure-four is locked and knee line clamped, escape options diminish rapidly. A flexed ankle with curled toes during all Ashi Garami sequences denies the initial cup grip entirely, making the attack impossible to initiate. Reactive escapes after grip establishment require significantly more energy and carry higher injury risk.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Curled toes deny the cup grip",
+        "distractors": {
+          "plausible": [
+            "React faster after grip lands",
+            "Only matters once locked in"
+          ],
+          "trap": [
+            "Keep toes relaxed to feel setups"
+          ]
+        }
       },
       {
         "question": "What are the risks of fighting a fully locked toe hold rather than tapping?",
         "answer": "A fully locked toe hold with rotation applied can cause Lisfranc joint dislocation requiring surgery and 3-6 months recovery, lateral and medial ankle ligament tears causing 6-12 weeks of rehabilitation with potential chronic instability, plantar fascia rupture requiring 8-16 weeks recovery, and toe fractures or dislocations. The escalation speed means damage can occur within fractions of a second after the point of no return.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Instant severe foot & ankle damage",
+        "distractors": {
+          "plausible": [
+            "Knee ligaments blow out",
+            "Numb toes, feeling comes back"
+          ],
+          "trap": [
+            "Power out if you're flexible"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -449,6 +640,35 @@
         "phase": "Phase 4 - Integrated Defense in Live Training",
         "focus": "Maintaining offensive Ashi Garami play while defending toe hold counter-attacks",
         "description": "Full-speed positional sparring from bottom Ashi Garami where the top player actively hunts for toe hold opportunities. Practice maintaining offensive advancement momentum while keeping your hooking foot protected. Develop the split attention required to advance your own position while monitoring and defending the top player's counter-offensive opportunities."
+      }
+    ],
+    "clips": [
+      {
+        "id": "3a9k8-ZcYrk",
+        "title": "How to escape the toe hold",
+        "by": "Gordon Ryan",
+        "vertical": false,
+        "channel": "The King Life",
+        "duration": 106,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "QMgsMSTRSBI",
+        "title": "5 Leglock Counters to Ashi Garami",
+        "by": "BJJBlackBeltDad",
+        "vertical": false,
+        "channel": "BJJBlackBeltDad",
+        "duration": 93,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "L417yCl_-dc",
+        "title": "Leg Defense from Ashi Garami",
+        "by": "The Coop BJJ",
+        "vertical": false,
+        "channel": "The Coop BJJ",
+        "duration": 48,
+        "verified": "2026-07-14"
       }
     ]
   }

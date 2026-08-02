@@ -34,6 +34,54 @@ description: "Master the Kneebar from Backside 50-50 in BJJ. Complete technique 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Kneebar \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Dog bar kneebar variation",
+      "description": "Kneebar film study: Dog bar kneebar variation, taught by Craig Jones.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/vMqDIi10z4k/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/vMqDIi10z4k",
+      "url": "https://www.youtube.com/watch?v=vMqDIi10z4k",
+      "creator": { "@type": "Person", "name": "Craig Jones" },
+      "duration": "PT61S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Omoplata to kneebar",
+      "description": "Kneebar film study: Omoplata to kneebar, taught by Todd Hendrickson.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/nlqXyzajRUg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/nlqXyzajRUg",
+      "url": "https://www.youtube.com/watch?v=nlqXyzajRUg",
+      "creator": { "@type": "Person", "name": "Todd Hendrickson" },
+      "duration": "PT88S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Go behind kneebar",
+      "description": "Kneebar film study: Go behind kneebar, taught by Craig Jones.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/v4lhLkKgVvU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/v4lhLkKgVvU",
+      "url": "https://www.youtube.com/watch?v=v4lhLkKgVvU",
+      "creator": { "@type": "Person", "name": "Craig Jones" },
+      "duration": "PT129S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -66,9 +114,45 @@ This submission capitalizes on the inherent vulnerability of the knee joint when
 The kneebar from Backside 50-50 integrates seamlessly into modern leg lock systems as a complementary attack to heel hooks and toe holds. When opponents defend heel hooks effectively by hiding their heel or rotating their knee outward, they often inadvertently straighten their leg, creating the exact configuration needed for kneebar entry. This makes the kneebar an essential tool for creating dilemmas within leg entanglement exchanges, forcing opponents to choose between exposing their heel or extending their leg.
 
 **From Position**: [[Positions/Ashi Garami/Backside 50-50]] (Top)
-**Success Rate**: 55%
+**Success Rate**: 60%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Kneebar in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=vMqDIi10z4k)
+
+<p class="clip-credit"><strong>Dog bar kneebar variation</strong> — taught by Craig Jones · 1:01 · <a href="https://www.youtube.com/watch?v=vMqDIi10z4k" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=nlqXyzajRUg)
+
+<p class="clip-credit"><strong>Omoplata to kneebar</strong> — taught by Todd Hendrickson · 1:28 · <a href="https://www.youtube.com/watch?v=nlqXyzajRUg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=v4lhLkKgVvU)
+
+<p class="clip-credit"><strong>Go behind kneebar</strong> — taught by Craig Jones · 2:09 · <a href="https://www.youtube.com/watch?v=v4lhLkKgVvU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 
@@ -239,7 +323,7 @@ The kneebar from Backside 50-50 functions as a critical component of modern leg 
 
 - [[Submissions/Inside Heel Hook]] - Complementary attack - kneebar defense exposes heel
 
-- [[Transitions/Outside Heel Hook]] - Alternative leg attack from same position
+- [[Submissions/Outside Heel Hook]] - Alternative leg attack from same position
 
 - [[Submissions/Toe Hold]] - Complementary attack - third option in leg lock dilemma
 

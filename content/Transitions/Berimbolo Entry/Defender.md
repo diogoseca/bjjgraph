@@ -154,6 +154,43 @@ description: "How to defend against Berimbolo Entry in BJJ. Recognition cues, de
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Berimbolo Entry (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Berimbolo escape to top position",
+      "description": "Berimbolo Entry (Defender) film study: Berimbolo escape to top position, taught by Lucas Lepri.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/L-cT37wN1-8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/L-cT37wN1-8",
+      "url": "https://www.youtube.com/watch?v=L-cT37wN1-8",
+      "creator": { "@type": "Person", "name": "Lucas Lepri" },
+      "duration": "PT35S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Toe hold counter to the berimbolo wedge",
+      "description": "Berimbolo Entry (Defender) film study: Toe hold counter to the berimbolo wedge, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/XkJI1fJGGbo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/XkJI1fJGGbo",
+      "url": "https://www.youtube.com/watch?v=XkJI1fJGGbo",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT289S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -163,6 +200,34 @@ Defending the berimbolo entry requires the top player to recognize the attack ea
 **Opponent's Starting Position**: [[Positions/De La Riva Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Berimbolo Entry (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=L-cT37wN1-8)
+
+<p class="clip-credit"><strong>Berimbolo escape to top position</strong> — taught by Lucas Lepri · 0:35 · <a href="https://www.youtube.com/watch?v=L-cT37wN1-8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=XkJI1fJGGbo)
+
+<p class="clip-credit"><strong>Toe hold counter to the berimbolo wedge</strong> — taught by Lachlan Giles · 4:49 · <a href="https://www.youtube.com/watch?v=XkJI1fJGGbo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

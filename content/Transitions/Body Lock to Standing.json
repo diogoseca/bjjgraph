@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Standing Position/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Body Lock/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "The Body Lock to Standing transition represents a tactical reset from the dominant body lock clinch position back to neutral standing engagement. While body lock control provides significant offensive advantages through mat returns, throws, and back takes, situations arise where disengagement becomes the strategically superior option. This occurs when the defender has successfully neutralized all takedown attempts, when grip fatigue threatens control quality, or when competition scoring dynamics demand a positional reset to avoid stalling penalties.\n\nThe technical challenge lies in disengaging safely without exposing yourself to counter-attacks during the release window. Simply unlocking your hands creates a momentary vulnerability where the defender can capitalize on the loss of control to shoot takedowns, establish their own clinch grips, or pull guard. Proper execution requires maintaining structural control through chest connection while systematically transitioning from locked grip to defensive hip frames, creating distance through explosive footwork before the opponent can capitalize on the grip release.\n\nThis transition appears at low frequency in competition because body lock represents such dominant control that voluntarily abandoning it constitutes a significant positional sacrifice. However, understanding when and how to execute this reset prevents burning excessive energy in a stalled exchange and allows you to re-engage with fresh grips and a new tactical approach. Elite competitors use this as a calculated tactical tool rather than a sign of failure, treating the reset as an opportunity to shift their offensive angle and approach from a different entry point.",
   "conditions": [
     "Secure body lock grip established with chest-to-back connection",
@@ -234,38 +246,147 @@
     "flashcards": [
       {
         "question": "What is the optimal timing window for initiating the Body Lock to Standing transition?",
-        "answer": "The optimal timing window occurs when your opponent's weight is shifted forward into your chest pressure or when they are committed to defending a specific threat like a mat return. This forward commitment makes it harder for them to follow your backward separation. Additionally, initiating when your opponent has just defended your last attack creates a recovery gap where they are least prepared to counter. Avoid initiating when they are actively loading for their own counter-attack or when their weight is settled in a strong defensive base."
+        "answer": "The optimal timing window occurs when your opponent's weight is shifted forward into your chest pressure or when they are committed to defending a specific threat like a mat return. This forward commitment makes it harder for them to follow your backward separation. Additionally, initiating when your opponent has just defended your last attack creates a recovery gap where they are least prepared to counter. Avoid initiating when they are actively loading for their own counter-attack or when their weight is settled in a strong defensive base.",
+        "answer_line": "Forward pressure or just defended",
+        "distractors": {
+          "plausible": [
+            "Opponent settled in strong base",
+            "Right after you defend an attack"
+          ],
+          "trap": [
+            "While they load their own attack"
+          ]
+        }
       },
       {
         "question": "What conditions must exist before you should attempt to disengage from body lock to standing?",
-        "answer": "Four conditions should be present: first, your body lock attacks including mat returns, throws, and back take attempts have been effectively defended for multiple exchanges. Second, you have sufficient energy remaining for the explosive separation since a weak push-off will be easily followed. Third, adequate mat space exists behind you for creating distance safely. Fourth, there is no immediately available high-percentage attack from body lock. If any condition is not met, continuing to attack from body lock is likely the superior tactical choice."
+        "answer": "Four conditions should be present: first, your body lock attacks including mat returns, throws, and back take attempts have been effectively defended for multiple exchanges. Second, you have sufficient energy remaining for the explosive separation since a weak push-off will be easily followed. Third, adequate mat space exists behind you for creating distance safely. Fourth, there is no immediately available high-percentage attack from body lock. If any condition is not met, continuing to attack from body lock is likely the superior tactical choice.",
+        "answer_line": "Attacks stalled, no better option",
+        "distractors": {
+          "plausible": [
+            "After one failed attack attempt",
+            "When space opens up in front"
+          ],
+          "trap": [
+            "Explode up even when gassed"
+          ]
+        }
       },
       {
         "question": "What is the most critical mechanical detail during the grip-to-frame transition?",
-        "answer": "The most critical detail is maintaining chest-to-back connection throughout the grip transition phase. Your chest must stay pressed against the opponent until your palms are firmly established on their hips with elbows locked. If you create any gap between your chest and their back before your hip frames are set, you create a control vacuum where you have neither grip control nor frame control. This momentary lack of structural connection is the most dangerous point in the transition and the window where most counter-attacks succeed."
+        "answer": "The most critical detail is maintaining chest-to-back connection throughout the grip transition phase. Your chest must stay pressed against the opponent until your palms are firmly established on their hips with elbows locked. If you create any gap between your chest and their back before your hip frames are set, you create a control vacuum where you have neither grip control nor frame control. This momentary lack of structural connection is the most dangerous point in the transition and the window where most counter-attacks succeed.",
+        "answer_line": "Keep chest sealed to their back",
+        "distractors": {
+          "plausible": [
+            "Lock elbows out first thing",
+            "Set hip grips, then close in"
+          ],
+          "trap": [
+            "Open space to insert frames"
+          ]
+        }
       },
       {
         "question": "Your opponent maintains a strong base and your body lock takedown attempts have failed three times - how do you decide between continuing to attack versus disengaging?",
-        "answer": "Assess three factors: grip fatigue level, scoring context, and remaining attack variety. If your grip strength is declining and continued holding risks losing the body lock entirely to a grip break, disengage proactively while you still have energy for an explosive separation. If competition scoring penalizes stalling, the reset prevents a penalty. If you have exhausted your primary attack chains without success, the reset allows re-entry from a different angle. However, if untried attack options remain and your grip is strong, continuing to attack is likely superior."
+        "answer": "Assess three factors: grip fatigue level, scoring context, and remaining attack variety. If your grip strength is declining and continued holding risks losing the body lock entirely to a grip break, disengage proactively while you still have energy for an explosive separation. If competition scoring penalizes stalling, the reset prevents a penalty. If you have exhausted your primary attack chains without success, the reset allows re-entry from a different angle. However, if untried attack options remain and your grip is strong, continuing to attack is likely superior.",
+        "answer_line": "Reset if grip fading, else attack",
+        "distractors": {
+          "plausible": [
+            "Keep attacking until grip fails",
+            "Bail out only to dodge a penalty"
+          ],
+          "trap": [
+            "Never release, grind it out"
+          ]
+        }
       },
       {
         "question": "What grip configuration provides the best structural frame for the push-off separation phase?",
-        "answer": "Open palms placed directly on the opponent's hip bones with fingers pointing downward or outward provide the most effective push-off frame. The hip bones offer hard skeletal contact points that prevent your hands from sliding off under force. Lock your elbows to create rigid structural beams from your shoulders through your arms to their hips. This configuration transfers force from your legs through your locked arms directly into their center of mass for maximum separation. Avoid pushing on soft tissue areas like the stomach as your hands will compress rather than generating clean separation force."
+        "answer": "Open palms placed directly on the opponent's hip bones with fingers pointing downward or outward provide the most effective push-off frame. The hip bones offer hard skeletal contact points that prevent your hands from sliding off under force. Lock your elbows to create rigid structural beams from your shoulders through your arms to their hips. This configuration transfers force from your legs through your locked arms directly into their center of mass for maximum separation. Avoid pushing on soft tissue areas like the stomach as your hands will compress rather than generating clean separation force.",
+        "answer_line": "Palms on hips, elbows locked",
+        "distractors": {
+          "plausible": [
+            "Grab the belt for a stronger pull",
+            "Push from shoulders, not the hips"
+          ],
+          "trap": [
+            "Push on the stomach for leverage"
+          ]
+        }
       },
       {
         "question": "Your opponent shoots a double leg the moment you begin releasing your body lock grip - what went wrong and how do you correct it?",
-        "answer": "The error was telegraphing the disengage through preliminary grip loosening or weight shifting before your frames were established. Your opponent read the intention and timed their shot to exploit the transition gap. The correction involves maintaining full chest pressure and grip tension until the exact moment of explosive separation. Do not gradually loosen your grip. Instead, transition from locked grip directly to hip frames in a single swift motion and execute the push-off immediately, giving no readable cues. If the shot does land, sprawl immediately and transition to front headlock control."
+        "answer": "The error was telegraphing the disengage through preliminary grip loosening or weight shifting before your frames were established. Your opponent read the intention and timed their shot to exploit the transition gap. The correction involves maintaining full chest pressure and grip tension until the exact moment of explosive separation. Do not gradually loosen your grip. Instead, transition from locked grip directly to hip frames in a single swift motion and execute the push-off immediately, giving no readable cues. If the shot does land, sprawl immediately and transition to front headlock control.",
+        "answer_line": "Keep full pressure till the break",
+        "distractors": {
+          "plausible": [
+            "Loosen grip, then set frames",
+            "Frame first, then break grip"
+          ],
+          "trap": [
+            "Turn away and give up the back"
+          ]
+        }
       },
       {
         "question": "In which direction should your force travel during the push-off separation, and why does this matter?",
-        "answer": "Your force should drive horizontally forward through your locked-elbow hip frames directly into the opponent's center of mass, not downward or upward. Driving into their center of mass shifts their weight backward onto their heels, breaking their forward pressure and opening the separation gap. Because your rear foot simultaneously steps backward, the opponent is pushed one direction while you travel the other, effectively doubling the distance created in a single beat. Angling the push downward collapses into their hips without producing space, while pushing upward lifts them into a stronger base and makes you vulnerable to being pulled back into the clinch."
+        "answer": "Your force should drive horizontally forward through your locked-elbow hip frames directly into the opponent's center of mass, not downward or upward. Driving into their center of mass shifts their weight backward onto their heels, breaking their forward pressure and opening the separation gap. Because your rear foot simultaneously steps backward, the opponent is pushed one direction while you travel the other, effectively doubling the distance created in a single beat. Angling the push downward collapses into their hips without producing space, while pushing upward lifts them into a stronger base and makes you vulnerable to being pulled back into the clinch.",
+        "answer_line": "Forward into their center of mass",
+        "distractors": {
+          "plausible": [
+            "Downward into their hips",
+            "Step back first, then push"
+          ],
+          "trap": [
+            "Upward to lift them off base"
+          ]
+        }
       },
       {
         "question": "You commit to the disengage but the opponent immediately closes distance and re-establishes their clinch grips before you can reset - what is your best option?",
-        "answer": "Abandon the idea of a full reset and weaponize the re-engagement by attacking out of the new grip exchange rather than retreating a second time. As they close, drop your level and shoot a single or double leg into their advancing momentum, or pummel for an underhook to re-establish your own body lock from the opposite angle. Retreating again only feeds their forward pressure and exposes your back-stepping base to a takedown. Treating their aggressive re-clinch as an opening to counter while their weight is committed forward turns a failed reset into a fresh offensive entry."
+        "answer": "Abandon the idea of a full reset and weaponize the re-engagement by attacking out of the new grip exchange rather than retreating a second time. As they close, drop your level and shoot a single or double leg into their advancing momentum, or pummel for an underhook to re-establish your own body lock from the opposite angle. Retreating again only feeds their forward pressure and exposes your back-stepping base to a takedown. Treating their aggressive re-clinch as an opening to counter while their weight is committed forward turns a failed reset into a fresh offensive entry.",
+        "answer_line": "Level change, shoot the takedown",
+        "distractors": {
+          "plausible": [
+            "Pummel for double underhooks first",
+            "Pull guard and reset off your back"
+          ],
+          "trap": [
+            "Retreat again to break the grips"
+          ]
+        }
       }
     ],
-    "safety_considerations": "This transition occurs in standing position where falls and collisions are possible during the explosive separation phase. Ensure adequate mat space behind you before executing the push-off to prevent stepping off the mat or colliding with walls and other practitioners. Practice the explosive separation at controlled speeds initially to develop proper mechanics before adding full power. Be aware that your opponent may shoot a takedown during the transition window, so maintain defensive readiness throughout the entire sequence. In training, communicate with your partner before attempting explosive separations to prevent unexpected impacts."
+    "safety_considerations": "This transition occurs in standing position where falls and collisions are possible during the explosive separation phase. Ensure adequate mat space behind you before executing the push-off to prevent stepping off the mat or colliding with walls and other practitioners. Practice the explosive separation at controlled speeds initially to develop proper mechanics before adding full power. Be aware that your opponent may shoot a takedown during the transition window, so maintain defensive readiness throughout the entire sequence. In training, communicate with your partner before attempting explosive separations to prevent unexpected impacts.",
+    "clips": [
+      {
+        "id": "2gknwIfTeN0",
+        "title": "Four body lock takedowns",
+        "by": "Erik Paulson",
+        "vertical": false,
+        "channel": "CSW Fullerton",
+        "duration": 194,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "YV5_0Vl-tfY",
+        "title": "Attacking a Standing Opponent",
+        "by": "Craig Jones",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 252,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "pIx6-xoDifI",
+        "title": "Using Wrestling to Beat Jiu-Jitsu",
+        "by": "Craig Jones",
+        "vertical": false,
+        "channel": "The B-Team",
+        "duration": 511,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Body Lock to Standing Defender",
@@ -351,19 +472,59 @@
     "flashcards": [
       {
         "question": "What are the earliest recognition cues that your opponent is about to release their body lock?",
-        "answer": "The earliest cues are subtle changes in grip tension and chest pressure. You will feel the locked grip behind your back begin to loosen or the fingers start to separate before the hands actually unlock. Simultaneously, the chest pressure against your back decreases slightly as the opponent shifts weight backward in preparation for push-off. The opponent's head may also lift away from your shoulder. These cues provide a half-second to full-second warning before the actual separation begins, which is the critical window for initiating counter-attacks."
+        "answer": "The earliest cues are subtle changes in grip tension and chest pressure. You will feel the locked grip behind your back begin to loosen or the fingers start to separate before the hands actually unlock. Simultaneously, the chest pressure against your back decreases slightly as the opponent shifts weight backward in preparation for push-off. The opponent's head may also lift away from your shoulder. These cues provide a half-second to full-second warning before the actual separation begins, which is the critical window for initiating counter-attacks.",
+        "answer_line": "Grip loosens, chest pressure drops",
+        "distractors": {
+          "plausible": [
+            "Sudden explosive push backward",
+            "Opponent's grip tightens first"
+          ],
+          "trap": [
+            "Opponent digs in for a mat return"
+          ]
+        }
       },
       {
         "question": "Why is the grip transition phase the most vulnerable moment for the person disengaging from body lock?",
-        "answer": "During the grip transition, the person disengaging has abandoned their primary control mechanism (locked hands) but has not yet established their secondary control (hip frames and distance). This creates a control vacuum lasting approximately half a second where they have neither grip control, frame control, nor defensive distance. Their weight is also transitioning backward, making them vulnerable to forward-driven attacks. This is the only phase where they cannot effectively defend a well-timed shot, making it the optimal counter-attack window."
+        "answer": "During the grip transition, the person disengaging has abandoned their primary control mechanism (locked hands) but has not yet established their secondary control (hip frames and distance). This creates a control vacuum lasting approximately half a second where they have neither grip control, frame control, nor defensive distance. Their weight is also transitioning backward, making them vulnerable to forward-driven attacks. This is the only phase where they cannot effectively defend a well-timed shot, making it the optimal counter-attack window.",
+        "answer_line": "No grip, no frame, no distance yet",
+        "distractors": {
+          "plausible": [
+            "Because hands are already fully open",
+            "Weight shifts forward, not back"
+          ],
+          "trap": [
+            "Because you're pulling them in tight"
+          ]
+        }
       },
       {
         "question": "When should you choose to shoot a takedown versus pull guard versus accept the reset during a body lock disengagement?",
-        "answer": "Shoot a takedown when you can time the entry to the grip transition phase and your opponent's weight is shifting backward, giving you forward momentum advantage over their retreating base. Pull guard when you prefer ground engagement and can establish control grips before sitting, or when the opponent's push-off is too explosive to counter with a standing technique. Accept the reset when the separation happens too quickly to counter effectively, and immediately establish your own dominant grips before the opponent fully resets their stance and offensive posture."
+        "answer": "Shoot a takedown when you can time the entry to the grip transition phase and your opponent's weight is shifting backward, giving you forward momentum advantage over their retreating base. Pull guard when you prefer ground engagement and can establish control grips before sitting, or when the opponent's push-off is too explosive to counter with a standing technique. Accept the reset when the separation happens too quickly to counter effectively, and immediately establish your own dominant grips before the opponent fully resets their stance and offensive posture.",
+        "answer_line": "Shoot on their backward weight shift",
+        "distractors": {
+          "plausible": [
+            "Always pull guard on disengage",
+            "Always accept the reset passively"
+          ],
+          "trap": [
+            "Chase with a blind leg attack"
+          ]
+        }
       },
       {
         "question": "How do you train to develop automatic counter-attack responses to body lock disengagement attempts?",
-        "answer": "Develop automatic responses through progressive drilling at increasing speeds. Begin with your partner slowly demonstrating the disengagement while you practice identifying the grip transition cues and executing your preferred counter at low speed. Progress to medium speed where timing becomes critical for success. Finally, practice at full speed with the partner randomly choosing between completing the disengage, faking the disengage and re-attacking, or switching to a different technique entirely. The randomization forces genuine pattern recognition development and prevents anticipated responses."
+        "answer": "Develop automatic responses through progressive drilling at increasing speeds. Begin with your partner slowly demonstrating the disengagement while you practice identifying the grip transition cues and executing your preferred counter at low speed. Progress to medium speed where timing becomes critical for success. Finally, practice at full speed with the partner randomly choosing between completing the disengage, faking the disengage and re-attacking, or switching to a different technique entirely. The randomization forces genuine pattern recognition development and prevents anticipated responses.",
+        "answer_line": "Drill slow to fast, then randomize",
+        "distractors": {
+          "plausible": [
+            "Drill only at full speed always",
+            "Memorize one fixed response"
+          ],
+          "trap": [
+            "Spar live without isolating the rep"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -386,6 +547,26 @@
         "phase": "Phase 4: Live Integration",
         "focus": "Applying counter-attacks in live sparring from body lock bottom",
         "description": "During live rolling, specifically seek body lock bottom situations and practice reading whether the opponent will continue attacking or attempt to disengage. When disengagement occurs, execute trained counter-attacks with full resistance and speed."
+      }
+    ],
+    "clips": [
+      {
+        "id": "8l-W5VTZC3E",
+        "title": "Rear body lock kimura counter to sweep",
+        "by": "SBG Australia coach",
+        "vertical": false,
+        "channel": "SBG Australia",
+        "duration": 21,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "ZGgfRpUJvHU",
+        "title": "Body lock counter and submission breakdown",
+        "by": "Craig Jones",
+        "vertical": false,
+        "channel": "FreeChannelOpen",
+        "duration": 114,
+        "verified": "2026-07-15"
       }
     ]
   }

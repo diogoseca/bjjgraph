@@ -35,6 +35,65 @@ description: "Master the Kneebar in BJJ. Complete guide covering safety protocol
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Kneebar \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "50/50 Spinning Kneebar",
+      "description": "Kneebar film study: 50/50 Spinning Kneebar, taught by Revolution BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/-5BXaxHLsyo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/-5BXaxHLsyo",
+      "url": "https://www.youtube.com/watch?v=-5BXaxHLsyo",
+      "creator": { "@type": "Person", "name": "Revolution BJJ" },
+      "duration": "PT97S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "50/50 Kneebar from Top",
+      "description": "Kneebar film study: 50/50 Kneebar from Top, taught by Revolution BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/4DMk3pavYFA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/4DMk3pavYFA",
+      "url": "https://www.youtube.com/watch?v=4DMk3pavYFA",
+      "creator": { "@type": "Person", "name": "Revolution BJJ" },
+      "duration": "PT126S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Kneebar from Bottom 50/50",
+      "description": "Kneebar film study: Kneebar from Bottom 50/50, taught by Dr. Deng.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/hn5ts5EWZ1A/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/hn5ts5EWZ1A",
+      "url": "https://www.youtube.com/watch?v=hn5ts5EWZ1A",
+      "creator": { "@type": "Person", "name": "Dr. Deng" },
+      "duration": "PT17S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 4,
+      "name": "Go Behind Kneebar",
+      "description": "Kneebar film study: Go Behind Kneebar, taught by Craig Jones.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/v4lhLkKgVvU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/v4lhLkKgVvU",
+      "url": "https://www.youtube.com/watch?v=v4lhLkKgVvU",
+      "creator": { "@type": "Person", "name": "Craig Jones" },
+      "duration": "PT129S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -54,7 +113,7 @@ description: "Master the Kneebar in BJJ. Complete guide covering safety protocol
   "@type": "FAQPage",
   "mainEntity": [
     { "@type": "Question", "name": "What is the Kneebar?", "acceptedAnswer": { "@type": "Answer", "text": "The Kneebar is a leg-lock submission that hyperextends the opponent\u0027s knee by trapping their leg against your torso and driving your hips forward, attacked from ashi garami and other leg entanglements as the linear-force complement to the heel hook." } },
-    { "@type": "Question", "name": "What positions can you finish the Kneebar from?", "acceptedAnswer": { "@type": "Answer", "text": "You can finish the Kneebar from 50-50 Guard, Carni, Half Guard, Honey Hole, Inside Ashi-Garami, Inside Sankaku, Kneebar Control, Straight Ankle Lock Control, Toe Hold Control, Side Control, Backside 50-50, Closed Guard, Leg Entanglement, Saddle, Single Leg X-Guard." } },
+    { "@type": "Question", "name": "What positions can you finish the Kneebar from?", "acceptedAnswer": { "@type": "Answer", "text": "You can finish the Kneebar from 50-50 Guard, Carni, Half Guard, Honey Hole, Inside Ashi-Garami, Inside Sankaku, Kneebar Control, Straight Ankle Lock Control, Toe Hold Control, Side Control, Closed Guard, Single Leg X-Guard, Backside 50-50, Leg Entanglement, Saddle." } },
     { "@type": "Question", "name": "Is the Kneebar dangerous?", "acceptedAnswer": { "@type": "Answer", "text": "Kneebar targets the Knee joint (primarily posterior cruciate ligament, medial collateral ligament, and joint capsule). Primary risk: Posterior cruciate ligament (PCL) tear. Tap early and release immediately on the tap." } }
   ]
 }
@@ -88,6 +147,50 @@ The technique has evolved significantly with modern leg lock systems, particular
 </section>
 
 
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Kneebar in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=-5BXaxHLsyo)
+
+<p class="clip-credit"><strong>50/50 Spinning Kneebar</strong> — taught by Revolution BJJ · 1:37 · <a href="https://www.youtube.com/watch?v=-5BXaxHLsyo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=4DMk3pavYFA)
+
+<p class="clip-credit"><strong>50/50 Kneebar from Top</strong> — taught by Revolution BJJ · 2:06 · <a href="https://www.youtube.com/watch?v=4DMk3pavYFA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=hn5ts5EWZ1A)
+
+<p class="clip-credit"><strong>Kneebar from Bottom 50/50</strong> — taught by Dr. Deng · 0:17 · <a href="https://www.youtube.com/watch?v=hn5ts5EWZ1A" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=v4lhLkKgVvU)
+
+<p class="clip-credit"><strong>Go Behind Kneebar</strong> — taught by Craig Jones · 2:09 · <a href="https://www.youtube.com/watch?v=v4lhLkKgVvU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
+
+
 <section id="variants" class="content-section">
 
 ## What positions can you finish from?
@@ -107,11 +210,11 @@ The technique has evolved significantly with modern leg lock systems, particular
 | [[Submissions/Kneebar/from Straight Ankle Lock Control|Straight Ankle Lock Control]] | Bottom | 60% | [[Submissions/Kneebar/from Straight Ankle Lock Control/Attacker|Attack →]] | [[Submissions/Kneebar/from Straight Ankle Lock Control/Defender|Defend →]] |
 | [[Submissions/Kneebar/from Toe Hold Control|Toe Hold Control]] | Top | 60% | [[Submissions/Kneebar/from Toe Hold Control/Attacker|Attack →]] | [[Submissions/Kneebar/from Toe Hold Control/Defender|Defend →]] |
 | [[Submissions/Kneebar/from Top|Side Control]] | Top | 55% | [[Submissions/Kneebar/from Top/Attacker|Attack →]] | [[Submissions/Kneebar/from Top/Defender|Defend →]] |
-| [[Submissions/Kneebar/from Backside 50-50|Backside 50-50]] | Top | 52% | [[Submissions/Kneebar/from Backside 50-50/Attacker|Attack →]] | [[Submissions/Kneebar/from Backside 50-50/Defender|Defend →]] |
 | [[Submissions/Kneebar/from Guard|Closed Guard]] | Bottom | 52% | [[Submissions/Kneebar/from Guard/Attacker|Attack →]] | [[Submissions/Kneebar/from Guard/Defender|Defend →]] |
-| [[Submissions/Kneebar/from Leg Entanglement|Leg Entanglement]] | Top | 52% | [[Submissions/Kneebar/from Leg Entanglement/Attacker|Attack →]] | [[Submissions/Kneebar/from Leg Entanglement/Defender|Defend →]] |
-| [[Submissions/Kneebar/from Saddle|Saddle]] | Top | 52% | [[Submissions/Kneebar/from Saddle/Attacker|Attack →]] | [[Submissions/Kneebar/from Saddle/Defender|Defend →]] |
 | [[Submissions/Kneebar/from Single Leg X-Guard|Single Leg X-Guard]] | Top | 52% | [[Submissions/Kneebar/from Single Leg X-Guard/Attacker|Attack →]] | [[Submissions/Kneebar/from Single Leg X-Guard/Defender|Defend →]] |
+| [[Submissions/Kneebar/from Backside 50-50|Backside 50-50]] | Top | 45% | [[Submissions/Kneebar/from Backside 50-50/Attacker|Attack →]] | [[Submissions/Kneebar/from Backside 50-50/Defender|Defend →]] |
+| [[Submissions/Kneebar/from Leg Entanglement|Leg Entanglement]] | Top | 45% | [[Submissions/Kneebar/from Leg Entanglement/Attacker|Attack →]] | [[Submissions/Kneebar/from Leg Entanglement/Defender|Defend →]] |
+| [[Submissions/Kneebar/from Saddle|Saddle]] | Top | 45% | [[Submissions/Kneebar/from Saddle/Attacker|Attack →]] | [[Submissions/Kneebar/from Saddle/Defender|Defend →]] |
 
 
 </div>
@@ -141,13 +244,13 @@ The technique has evolved significantly with modern leg lock systems, particular
 <section id="related" class="content-section">
 
 ## Related
-- [[Transitions/Heel Hook]] - Primary alternative leg attack from same entanglements, creates dilemma-based offense with kneebar
+- [[Submissions/Heel Hook]] - Primary alternative leg attack from same entanglements, creates dilemma-based offense with kneebar
 - [[Submissions/Straight Ankle Lock]] - Foundational leg lock from similar positions, often first attack before advancing to kneebar
 - [[Submissions/Toe Hold]] - Complementary foot lock from similar leg entanglements, rotational attack versus kneebar's linear force
 - [[Submissions/Inside Heel Hook]] - Primary rotational attack when opponent defends kneebar by bending knee and exposing heel
-- [[Transitions/Outside Heel Hook]] - Alternative heel attack from outside ashi positions where kneebar is also available
+- [[Submissions/Outside Heel Hook]] - Alternative heel attack from outside ashi positions where kneebar is also available
 - [[Submissions/Calf Slicer]] - Compression attack from similar positions, often available when kneebar angle is compromised
-- [[Transitions/Estima Lock]] - Foot lock attacking from different angle, available during kneebar defense transitions
+- [[Submissions/Estima Lock]] - Foot lock attacking from different angle, available during kneebar defense transitions
 - [[Submissions/Achilles Lock]] - Straight ankle attack from overlapping leg entanglement positions
 - [[Submissions/Flying Kneebar]] - Dynamic standing entry variation of the kneebar submission
 - [[Positions/Ashi Garami/Saddle]] - Primary control position for kneebar entries, offers transitions between kneebar and heel hook attacks

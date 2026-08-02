@@ -182,6 +182,54 @@ description: "Execute the Americana shoulder lock from 3-4 Mount. Setup grips, f
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Americana from 3-4 Mount (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Americana Armlock",
+      "description": "Americana from 3-4 Mount (Attacker) film study: Americana Armlock, taught by Dr. Deng.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/CeNHFF1gcNE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/CeNHFF1gcNE",
+      "url": "https://www.youtube.com/watch?v=CeNHFF1gcNE",
+      "creator": { "@type": "Person", "name": "Dr. Deng" },
+      "duration": "PT17S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Americana from the mount",
+      "description": "Americana from 3-4 Mount (Attacker) film study: Americana from the mount, taught by Renzo Gracie.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/KbOkHMVhnT8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/KbOkHMVhnT8",
+      "url": "https://www.youtube.com/watch?v=KbOkHMVhnT8",
+      "creator": { "@type": "Person", "name": "Renzo Gracie" },
+      "duration": "PT91S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Hidden detail to finish the americana",
+      "description": "Americana from 3-4 Mount (Attacker) film study: Hidden detail to finish the americana, taught by Henry Akins.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/mhpeVqdfZgQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/mhpeVqdfZgQ",
+      "url": "https://www.youtube.com/watch?v=mhpeVqdfZgQ",
+      "creator": { "@type": "Person", "name": "Henry Akins" },
+      "duration": "PT696S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -192,6 +240,42 @@ The Americana from 3-4 Mount attacks the shoulder through forced external rotati
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Americana from 3-4 Mount (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=CeNHFF1gcNE)
+
+<p class="clip-credit"><strong>Americana Armlock</strong> — taught by Dr. Deng · 0:17 · <a href="https://www.youtube.com/watch?v=CeNHFF1gcNE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=KbOkHMVhnT8)
+
+<p class="clip-credit"><strong>Americana from the mount</strong> — taught by Renzo Gracie · 1:31 · <a href="https://www.youtube.com/watch?v=KbOkHMVhnT8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=mhpeVqdfZgQ)
+
+<p class="clip-credit"><strong>Hidden detail to finish the americana</strong> — taught by Henry Akins · 11:36 · <a href="https://www.youtube.com/watch?v=mhpeVqdfZgQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

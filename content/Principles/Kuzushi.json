@@ -422,43 +422,172 @@
   "flashcards": [
     {
       "question": "What is kuzushi in Brazilian Jiu-Jitsu?",
-      "answer": "Kuzushi is the act of breaking an opponent's balance—disrupting their base and equilibrium along a vector where they cannot post or recover—so a sweep, takedown, or reversal succeeds through leverage and timing rather than raw strength."
+      "answer": "Kuzushi is the act of breaking an opponent's balance—disrupting their base and equilibrium along a vector where they cannot post or recover—so a sweep, takedown, or reversal succeeds through leverage and timing rather than raw strength.",
+      "answer_line": "Break balance, not brute force",
+      "distractors": {
+        "plausible": [
+          "Pin them to control position",
+          "Overpower with strength"
+        ],
+        "trap": [
+          "Push straight into their base"
+        ]
+      }
     },
     {
       "question": "What three interconnected elements make a sweep succeed?",
-      "answer": "Base disruption (removing or compromising contact points with the ground), directional control (guiding the body where balance cannot be recovered), and explosive execution (capitalizing on the brief window when weight is committed)."
+      "answer": "Base disruption (removing or compromising contact points with the ground), directional control (guiding the body where balance cannot be recovered), and explosive execution (capitalizing on the brief window when weight is committed).",
+      "answer_line": "Disrupt base, direct, explode",
+      "distractors": {
+        "plausible": [
+          "Strength, speed, and grip",
+          "Grip fighting, pressure, timing"
+        ],
+        "trap": [
+          "Force through their strongest base"
+        ]
+      }
     },
     {
       "question": "Why is a moving opponent generally easier to sweep than a stationary one?",
-      "answer": "Movement and weight transfer create brief windows where base points are temporarily lifted or committed; a static opponent with an established base can absorb sweep force, so timing the transition is far higher percentage than forcing it."
+      "answer": "Movement and weight transfer create brief windows where base points are temporarily lifted or committed; a static opponent with an established base can absorb sweep force, so timing the transition is far higher percentage than forcing it.",
+      "answer_line": "Movement lifts their base points",
+      "distractors": {
+        "plausible": [
+          "Static opponents tire faster",
+          "Moving opponents grip weaker"
+        ],
+        "trap": [
+          "Force the sweep on a set base"
+        ]
+      }
     },
     {
       "question": "Why does attacking a single base point usually fail to off-balance an opponent?",
-      "answer": "If only one contact point is compromised, the opponent simply posts with a free hand or foot to recover. Effective kuzushi removes or threatens multiple base points at once so no posting option remains."
+      "answer": "If only one contact point is compromised, the opponent simply posts with a free hand or foot to recover. Effective kuzushi removes or threatens multiple base points at once so no posting option remains.",
+      "answer_line": "They post with a free limb",
+      "distractors": {
+        "plausible": [
+          "Single point needs more force",
+          "Only works on tired opponents"
+        ],
+        "trap": [
+          "Attack one point harder"
+        ]
+      }
     },
     {
       "question": "What is \"structural collapse\" in the context of sweeping?",
-      "answer": "A cascade effect where removing one base point forces the opponent to transfer weight, which in turn compromises their remaining points of stability—so a single well-placed disruption topples the whole structure rather than one corner."
+      "answer": "A cascade effect where removing one base point forces the opponent to transfer weight, which in turn compromises their remaining points of stability—so a single well-placed disruption topples the whole structure rather than one corner.",
+      "answer_line": "One break cascades to topple all",
+      "distractors": {
+        "plausible": [
+          "Opponent collapses from fatigue",
+          "Only works with size advantage"
+        ],
+        "trap": [
+          "Needs overwhelming raw force"
+        ]
+      }
     },
     {
       "question": "How does grip configuration determine which sweeps are available?",
-      "answer": "Grips control the opponent's ability to post: collar grips break posture, sleeve grips remove arm posts, and pant grips control the legs. The grips you win dictate which posting directions are closed off and which sweep vectors stay open."
+      "answer": "Grips control the opponent's ability to post: collar grips break posture, sleeve grips remove arm posts, and pant grips control the legs. The grips you win dictate which posting directions are closed off and which sweep vectors stay open.",
+      "answer_line": "Grips close their posting options",
+      "distractors": {
+        "plausible": [
+          "Any strong grip opens all sweeps",
+          "More grips means more power"
+        ],
+        "trap": [
+          "Just grab the strongest grip"
+        ]
+      }
     },
     {
       "question": "Why does relying on strength alone produce low-percentage sweeps?",
-      "answer": "Without leverage points and proper angles you fight the opponent's full base and strength directly, leading to exhaustion without reversal. Establishing mechanical advantage first lets a smaller force topple a committed weight."
+      "answer": "Without leverage points and proper angles you fight the opponent's full base and strength directly, leading to exhaustion without reversal. Establishing mechanical advantage first lets a smaller force topple a committed weight.",
+      "answer_line": "Fights their full strength directly",
+      "distractors": {
+        "plausible": [
+          "Just burns extra energy",
+          "Only fails on bigger opponents"
+        ],
+        "trap": [
+          "Muscle through their base"
+        ]
+      }
     },
     {
       "question": "How can creating a reaction open a sweep opportunity?",
-      "answer": "A false threat or pressure in one direction—a submission attempt or aggressive pass-stuff—forces the opponent to shift weight to defend, momentarily compromising their base in the opposite or perpendicular direction where the real sweep lands."
+      "answer": "A false threat or pressure in one direction—a submission attempt or aggressive pass-stuff—forces the opponent to shift weight to defend, momentarily compromising their base in the opposite or perpendicular direction where the real sweep lands.",
+      "answer_line": "Fake threat, sweep the reaction",
+      "distractors": {
+        "plausible": [
+          "Only real attacks force reactions",
+          "Reactions only set up submissions"
+        ],
+        "trap": [
+          "Wait for their attack first"
+        ]
+      }
     },
     {
       "question": "What should you do when your initial sweep attempt is defended?",
-      "answer": "Chain immediately to a secondary option rather than resetting to neutral. The opponent's defensive reaction—posting, base recovery, or weight shift—becomes the setup for an opposite-direction sweep, keeping continuous offensive pressure."
+      "answer": "Chain immediately to a secondary option rather than resetting to neutral. The opponent's defensive reaction—posting, base recovery, or weight shift—becomes the setup for an opposite-direction sweep, keeping continuous offensive pressure.",
+      "answer_line": "Chain to the opposite sweep",
+      "distractors": {
+        "plausible": [
+          "Reset to neutral and regrip",
+          "Repeat the same sweep harder"
+        ],
+        "trap": [
+          "Stall and give up the attack"
+        ]
+      }
     },
     {
       "question": "Why are hip elevation and bridging central to kuzushi?",
-      "answer": "Bridging and hip elevation generate the vertical force needed to lift an opponent off their base and create the angles required for rotational sweeps. This hip engine, timed with grip pulling and leg extension, powers most sweeping mechanics."
+      "answer": "Bridging and hip elevation generate the vertical force needed to lift an opponent off their base and create the angles required for rotational sweeps. This hip engine, timed with grip pulling and leg extension, powers most sweeping mechanics.",
+      "answer_line": "Hips generate lift and rotation",
+      "distractors": {
+        "plausible": [
+          "Arms provide most sweep power",
+          "Bridging is only for escapes"
+        ],
+        "trap": [
+          "Pull with arms, skip the hips"
+        ]
+      }
+    }
+  ],
+  "clips": [
+    {
+      "id": "0ryNzeo3eoc",
+      "title": "All about kuzushi: breaking balance in depth",
+      "by": "Shintaro Higashi",
+      "vertical": false,
+      "channel": "Shintaro Higashi",
+      "duration": 458,
+      "verified": "2026-07-15"
+    },
+    {
+      "id": "hOlLwI3dMMA",
+      "title": "The essential physics behind kuzushi",
+      "by": "Shintaro Nakano",
+      "vertical": false,
+      "channel": "Shintaro Nakano",
+      "duration": 342,
+      "verified": "2026-07-15"
+    },
+    {
+      "id": "b1zpi81TLPs",
+      "title": "Kuzushi: breaking balance in 30 seconds",
+      "by": "Rener Gracie",
+      "vertical": false,
+      "channel": "GracieBreakdown",
+      "duration": 31,
+      "verified": "2026-07-15"
     }
   ]
 }

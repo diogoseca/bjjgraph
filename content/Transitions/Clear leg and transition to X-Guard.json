@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "X-Guard/Bottom",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Leg Knot/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Saddle/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 50,
+  "success_rate": {
+    "gi": 50,
+    "nogi": 50
+  },
   "overview": "The Clear Leg and Transition to X-Guard represents a high-value escape pathway from leg entanglement scenarios that transforms defensive necessity into offensive opportunity. When trapped in Leg Knot Bottom, practitioners face immediate submission threats to the lower body. Rather than simply extracting the leg and returning to neutral, this technique leverages the extraction movement to establish X-Guard—a powerful sweeping and attacking position that immediately reverses the momentum of the exchange.\n\nThe biomechanical foundation of this transition relies on understanding the relationship between leg clearing mechanics and hook placement timing. As the trapped leg extracts through hip rotation and the clearing motion, the free leg simultaneously establishes the X-Guard hooks. This creates a seamless transition where the defensive action of leg extraction flows directly into the offensive structure of X-Guard without pause or reset.\n\nStrategically, this transition exemplifies modern leg lock defense philosophy: never simply escape, but escape to a position of advantage. By establishing X-Guard rather than returning to neutral, practitioners maintain lower body control over their opponent while eliminating the immediate leg lock threats. The resulting X-Guard position offers immediate sweep opportunities and leg attack pathways of your own, effectively punishing the opponent for their failed leg entanglement attempt.",
   "related_content": [
     {
@@ -203,46 +215,166 @@
     "flashcards": [
       {
         "question": "What is the primary goal of Clear Leg and Transition to X-Guard?",
-        "answer": "The primary goal is to transform a defensive leg entanglement escape into an offensive position of advantage. Rather than simply extracting the trapped leg and returning to neutral, this technique establishes X-Guard—a powerful sweeping and attacking position that immediately reverses the exchange dynamic and punishes the opponent for their failed leg lock attempt."
+        "answer": "The primary goal is to transform a defensive leg entanglement escape into an offensive position of advantage. Rather than simply extracting the trapped leg and returning to neutral, this technique establishes X-Guard—a powerful sweeping and attacking position that immediately reverses the exchange dynamic and punishes the opponent for their failed leg lock attempt.",
+        "answer_line": "Turn escape into X-Guard sweep",
+        "distractors": {
+          "plausible": [
+            "Just clear leg to neutral",
+            "Return to closed guard"
+          ],
+          "trap": [
+            "Chase a heel hook instead"
+          ]
+        }
       },
       {
         "question": "Why is hip rotation more effective than pulling for clearing the trapped leg?",
-        "answer": "Hip rotation creates space by changing the angle of the entanglement, naturally loosening the leg knot configuration without engaging in a strength battle. Pulling straight back actually tightens most leg entanglements and can expose your heel for heel hook attacks. Rotation uses technique over strength and creates the mechanical pathway for leg extraction."
+        "answer": "Hip rotation creates space by changing the angle of the entanglement, naturally loosening the leg knot configuration without engaging in a strength battle. Pulling straight back actually tightens most leg entanglements and can expose your heel for heel hook attacks. Rotation uses technique over strength and creates the mechanical pathway for leg extraction.",
+        "answer_line": "Rotate hips to loosen the knot",
+        "distractors": {
+          "plausible": [
+            "Push away with your legs",
+            "Muscle through the tangle"
+          ],
+          "trap": [
+            "Pull straight back, risk heel hook"
+          ]
+        }
       },
       {
         "question": "Your opponent begins backstepping away as you initiate the leg clear—how do you adjust?",
-        "answer": "Immediately transition to single leg X-Guard on the near leg rather than chasing the full X-Guard configuration. If they create too much distance for any X-Guard, convert to a technical standup while maintaining your grip on their ankle. Use their backward momentum against them by following with wrestling-based attacks rather than forcing guard retention."
+        "answer": "Immediately transition to single leg X-Guard on the near leg rather than chasing the full X-Guard configuration. If they create too much distance for any X-Guard, convert to a technical standup while maintaining your grip on their ankle. Use their backward momentum against them by following with wrestling-based attacks rather than forcing guard retention.",
+        "answer_line": "Single leg X-Guard on near leg",
+        "distractors": {
+          "plausible": [
+            "Chase full X-Guard anyway",
+            "Stand up, release ankle grip"
+          ],
+          "trap": [
+            "Let go and reset to neutral"
+          ]
+        }
       },
       {
         "question": "What grip must be maintained throughout the entire transition and why?",
-        "answer": "The two-on-one grip on opponent's ankle or Achilles tendon must be maintained until both X-Guard hooks are established. This grip controls distance to prevent opponent backstepping, prevents re-engagement of leg entanglement, provides the pulling anchor needed to load weight into X-Guard, and ensures immediate sweep capability upon completion."
+        "answer": "The two-on-one grip on opponent's ankle or Achilles tendon must be maintained until both X-Guard hooks are established. This grip controls distance to prevent opponent backstepping, prevents re-engagement of leg entanglement, provides the pulling anchor needed to load weight into X-Guard, and ensures immediate sweep capability upon completion.",
+        "answer_line": "Two-on-one ankle grip",
+        "distractors": {
+          "plausible": [
+            "Grip the far collar",
+            "Underhook the near arm"
+          ],
+          "trap": [
+            "Release grip to insert hooks"
+          ]
+        }
       },
       {
         "question": "In what sequence should the X-Guard hooks be established and why does order matter?",
-        "answer": "The butterfly hook behind opponent's knee should be established first, followed by the cross-body hook on the far hip. This sequence matters because the butterfly hook serves as the anchor point that prevents opponent from simply stepping over your guard. Inserting the cross-body hook first creates an unstable position that opponent can easily pass or disengage from."
+        "answer": "The butterfly hook behind opponent's knee should be established first, followed by the cross-body hook on the far hip. This sequence matters because the butterfly hook serves as the anchor point that prevents opponent from simply stepping over your guard. Inserting the cross-body hook first creates an unstable position that opponent can easily pass or disengage from.",
+        "answer_line": "Butterfly hook first, then cross",
+        "distractors": {
+          "plausible": [
+            "Cross-body hook first",
+            "Insert both hooks together"
+          ],
+          "trap": [
+            "Skip hooks, pull to sweep"
+          ]
+        }
       },
       {
         "question": "Your opponent drives forward aggressively during your transition attempt—is this a problem?",
-        "answer": "No, forward pressure from opponent actually assists the transition. Their forward drive loads their weight onto your X-Guard structure, making sweep completion easier. Use their momentum to accelerate hook insertion and elevation. The danger comes from flat, distance-creating responses, not forward pressure which can be redirected into immediate sweeps."
+        "answer": "No, forward pressure from opponent actually assists the transition. Their forward drive loads their weight onto your X-Guard structure, making sweep completion easier. Use their momentum to accelerate hook insertion and elevation. The danger comes from flat, distance-creating responses, not forward pressure which can be redirected into immediate sweeps.",
+        "answer_line": "No, use momentum for sweep",
+        "distractors": {
+          "plausible": [
+            "Yes, brace and stall",
+            "Yes, backstep away"
+          ],
+          "trap": [
+            "Push back to create distance"
+          ]
+        }
       },
       {
         "question": "When should you abort the X-Guard transition and what should you do instead?",
-        "answer": "Abort when opponent successfully re-establishes leg entanglement control during your clearing motion. Never force the X-Guard transition against a fresh entanglement as this exposes you to immediate submission danger. Instead, focus on completing the leg clear to neutral, then reassess the situation. Better to reset to neutral than to be caught in a submission while forcing a failed transition."
+        "answer": "Abort when opponent successfully re-establishes leg entanglement control during your clearing motion. Never force the X-Guard transition against a fresh entanglement as this exposes you to immediate submission danger. Instead, focus on completing the leg clear to neutral, then reassess the situation. Better to reset to neutral than to be caught in a submission while forcing a failed transition.",
+        "answer_line": "Abort if re-entangled, reset",
+        "distractors": {
+          "plausible": [
+            "Abort if opponent stands",
+            "Push through to X-Guard"
+          ],
+          "trap": [
+            "Force X-Guard, risk submission"
+          ]
+        }
       },
       {
         "question": "What makes this transition effective against modern leg lock systems?",
-        "answer": "Modern leg lock systems rely on maintaining entanglement control to threaten submissions. This transition directly attacks that control mechanism by extracting from the entanglement while simultaneously establishing an offensive position. The X-Guard provides your own leg control platform with sweep threats, effectively punishing opponents for failed leg attacks and discouraging aggressive leg entanglement hunting."
+        "answer": "Modern leg lock systems rely on maintaining entanglement control to threaten submissions. This transition directly attacks that control mechanism by extracting from the entanglement while simultaneously establishing an offensive position. The X-Guard provides your own leg control platform with sweep threats, effectively punishing opponents for failed leg attacks and discouraging aggressive leg entanglement hunting.",
+        "answer_line": "Attacks their entanglement control",
+        "distractors": {
+          "plausible": [
+            "Outlasts their grip strength",
+            "Avoids leg entanglement entirely"
+          ],
+          "trap": [
+            "Chases a leg lock trade"
+          ]
+        }
       },
       {
         "question": "How does body position affect your ability to execute the leg clear?",
-        "answer": "You must be positioned on your side rather than flat on your back to execute the clearing motion. Being flat eliminates the rotational mechanics required for the clear. Use frames with your free leg and upper body to maintain side position before attempting the transition. If forced flat, re-establish side position first before proceeding with the clear."
+        "answer": "You must be positioned on your side rather than flat on your back to execute the clearing motion. Being flat eliminates the rotational mechanics required for the clear. Use frames with your free leg and upper body to maintain side position before attempting the transition. If forced flat, re-establish side position first before proceeding with the clear.",
+        "answer_line": "Stay on side, not flat",
+        "distractors": {
+          "plausible": [
+            "Flat back, frame with arms",
+            "Sit up to face opponent"
+          ],
+          "trap": [
+            "Lie flat, bridge to escape"
+          ]
+        }
       },
       {
         "question": "What follow-up attacks become immediately available from the established X-Guard position?",
-        "answer": "X-Guard provides immediate access to technical standup sweeps, single leg sweeps, overhead sweeps, and leg drag entries. Additionally, you can attack opponent's legs with your own entries to inside ashi or outside ashi. The ankle grip maintained from the transition sets up immediate ankle lock attempts if sweeps are defended. This variety of options makes X-Guard a high-value escape destination."
+        "answer": "X-Guard provides immediate access to technical standup sweeps, single leg sweeps, overhead sweeps, and leg drag entries. Additionally, you can attack opponent's legs with your own entries to inside ashi or outside ashi. The ankle grip maintained from the transition sets up immediate ankle lock attempts if sweeps are defended. This variety of options makes X-Guard a high-value escape destination.",
+        "answer_line": "Standup, single leg, leg drag sweeps",
+        "distractors": {
+          "plausible": [
+            "Only technical standup",
+            "Straight ankle lock only"
+          ],
+          "trap": [
+            "Abandon ankle grip, pass guard"
+          ]
+        }
       }
     ],
-    "safety_considerations": "Practice this transition with controlled resistance before attempting in live sparring, as rushed execution can result in knee injuries if the leg clears at an awkward angle while still partially entangled. Communicate clearly with training partners about resistance levels during drilling. Be aware that failed attempts can worsen your leg entanglement position and increase submission danger—know when to abort and reset rather than forcing a compromised technique. Tap early if caught in submissions during practice; this transition works best when you recognize the window early rather than attempting it as a last-resort escape against fully locked submissions."
+    "safety_considerations": "Practice this transition with controlled resistance before attempting in live sparring, as rushed execution can result in knee injuries if the leg clears at an awkward angle while still partially entangled. Communicate clearly with training partners about resistance levels during drilling. Be aware that failed attempts can worsen your leg entanglement position and increase submission danger—know when to abort and reset rather than forcing a compromised technique. Tap early if caught in submissions during practice; this transition works best when you recognize the window early rather than attempting it as a last-resort escape against fully locked submissions.",
+    "clips": [
+      {
+        "id": "RWtKllp2avU",
+        "title": "Clearing the leg from mount escape into X-Guard",
+        "by": "Masters Martial Arts",
+        "vertical": false,
+        "channel": "Masters Martial Arts",
+        "duration": 54,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "fQ1z2RLYz4Q",
+        "title": "Shallow K Guard entry off the far leg",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "Absolute MMA St Kilda - Melbourne",
+        "duration": 42,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Clear leg and transition to X-Guard Defender",
@@ -333,23 +465,73 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that your opponent is preparing the Clear Leg to X-Guard transition?",
-        "answer": "The earliest cue is the bottom player shifting from a flat-back defensive posture to a side-lying position with their hips angled toward you. This side position is the prerequisite for the hip rotation that powers the entire clearing mechanic. If you detect this postural shift before they establish grips, you can prevent the transition by driving forward to flatten their hips."
+        "answer": "The earliest cue is the bottom player shifting from a flat-back defensive posture to a side-lying position with their hips angled toward you. This side position is the prerequisite for the hip rotation that powers the entire clearing mechanic. If you detect this postural shift before they establish grips, you can prevent the transition by driving forward to flatten their hips.",
+        "answer_line": "Hips angle to side-lying",
+        "distractors": {
+          "plausible": [
+            "Two-on-one ankle grip appears",
+            "Butterfly hook is inserted"
+          ],
+          "trap": [
+            "Wait until X-Guard is set"
+          ]
+        }
       },
       {
         "question": "Your opponent has established a two-on-one grip on your ankle but has not yet started rotating—what is your best response?",
-        "answer": "Strip the ankle grip immediately using your free hand to peel their fingers or by repositioning your foot. The two-on-one ankle grip is the distance control mechanism that enables the entire transition. Without it, the bottom player cannot control the space needed for hook insertion even if they clear the leg. Simultaneously increase entanglement pressure to discourage further escape attempts."
+        "answer": "Strip the ankle grip immediately using your free hand to peel their fingers or by repositioning your foot. The two-on-one ankle grip is the distance control mechanism that enables the entire transition. Without it, the bottom player cannot control the space needed for hook insertion even if they clear the leg. Simultaneously increase entanglement pressure to discourage further escape attempts.",
+        "answer_line": "Strip the ankle grip now",
+        "distractors": {
+          "plausible": [
+            "Wait for rotation, then react",
+            "Backstep to create space"
+          ],
+          "trap": [
+            "Ignore grip, pass to side"
+          ]
+        }
       },
       {
         "question": "The bottom player's leg has partially cleared but no X-Guard hooks are inserted yet—should you drive forward or backstep?",
-        "answer": "Backstep to create distance. At this stage, driving forward is dangerous because a partially cleared leg means the bottom player is close to inserting hooks, and your forward pressure would load their X-Guard structure. Instead, backstep to break the engagement, preventing hook insertion and forcing them to chase you from a position where they have no structural control. Re-engage on your terms from standing or combat base."
+        "answer": "Backstep to create distance. At this stage, driving forward is dangerous because a partially cleared leg means the bottom player is close to inserting hooks, and your forward pressure would load their X-Guard structure. Instead, backstep to break the engagement, preventing hook insertion and forcing them to chase you from a position where they have no structural control. Re-engage on your terms from standing or combat base.",
+        "answer_line": "Backstep to prevent hooks",
+        "distractors": {
+          "plausible": [
+            "Drive forward to flatten",
+            "Stay still, re-grip legs"
+          ],
+          "trap": [
+            "Push forward into X-Guard"
+          ]
+        }
       },
       {
         "question": "How does aggressively attacking submissions serve as a defense against this transition?",
-        "answer": "When the bottom player commits to the leg clearing motion, they redirect their defensive frames away from submission protection and toward the extraction movement. This creates a brief window where heel hooks and toe holds become higher-percentage because the bottom player's hands are occupied with the ankle grip and their focus is on rotation rather than heel hiding. Attacking during this window forces them to choose between completing the escape and defending the submission."
+        "answer": "When the bottom player commits to the leg clearing motion, they redirect their defensive frames away from submission protection and toward the extraction movement. This creates a brief window where heel hooks and toe holds become higher-percentage because the bottom player's hands are occupied with the ankle grip and their focus is on rotation rather than heel hiding. Attacking during this window forces them to choose between completing the escape and defending the submission.",
+        "answer_line": "Attack heel hooks during clear",
+        "distractors": {
+          "plausible": [
+            "Wait for full extraction",
+            "Focus only on posture"
+          ],
+          "trap": [
+            "Abandon leg attacks, pass guard"
+          ]
+        }
       },
       {
         "question": "Your opponent has successfully inserted one butterfly hook behind your knee—what is the critical next action?",
-        "answer": "Do not drive forward under any circumstances, as this loads their guard structure. Instead, immediately address the hook by extracting your leg backward while angling your knee outward to strip the hook. If extraction fails, backstep aggressively to prevent the second hook from being inserted. One hook alone does not create stable X-Guard—they need both the butterfly hook and the cross-body hook. Preventing the second hook collapses the entire transition attempt."
+        "answer": "Do not drive forward under any circumstances, as this loads their guard structure. Instead, immediately address the hook by extracting your leg backward while angling your knee outward to strip the hook. If extraction fails, backstep aggressively to prevent the second hook from being inserted. One hook alone does not create stable X-Guard—they need both the butterfly hook and the cross-body hook. Preventing the second hook collapses the entire transition attempt.",
+        "answer_line": "Extract leg, strip the hook",
+        "distractors": {
+          "plausible": [
+            "Push forward to flatten",
+            "Wait for second hook"
+          ],
+          "trap": [
+            "Drive forward into guard"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -372,6 +554,17 @@
         "phase": "Week 7+",
         "focus": "Live positional sparring",
         "description": "Full-resistance positional rounds starting from Leg Knot. Top player practices maintaining entanglement and preventing X-Guard establishment while bottom player attempts the full transition. Track success rates for both players and identify which defensive strategies work best against different clearing variations."
+      }
+    ],
+    "clips": [
+      {
+        "id": "R7lPdQWLOus",
+        "title": "Protecting your leg from entanglement entries",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "The Grapplers Guide by Jason Scully",
+        "duration": 161,
+        "verified": "2026-07-15"
       }
     ]
   },

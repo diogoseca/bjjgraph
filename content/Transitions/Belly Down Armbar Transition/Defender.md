@@ -148,6 +148,54 @@ description: "Defend against the belly down armbar transition. Recognition cues,
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Belly Down Armbar Transition (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Armbar escape when they have the arm extended",
+      "description": "Belly Down Armbar Transition (Defender) film study: Armbar escape when they have the arm extended, taught by Matt Arroyo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/kNdKfUdgO4I/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/kNdKfUdgO4I",
+      "url": "https://www.youtube.com/watch?v=kNdKfUdgO4I",
+      "creator": { "@type": "Person", "name": "Matt Arroyo" },
+      "duration": "PT92S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Armbar escape: spin under when stacked",
+      "description": "Belly Down Armbar Transition (Defender) film study: Armbar escape: spin under when stacked, taught by OMJJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/E3mDnJiv28Y/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/E3mDnJiv28Y",
+      "url": "https://www.youtube.com/watch?v=E3mDnJiv28Y",
+      "creator": { "@type": "Person", "name": "OMJJJ" },
+      "duration": "PT53S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Armbar defense: stack and hitchhiker escape",
+      "description": "Belly Down Armbar Transition (Defender) film study: Armbar defense: stack and hitchhiker escape, taught by Gladiators Academy.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/04LT-fIPlgw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/04LT-fIPlgw",
+      "url": "https://www.youtube.com/watch?v=04LT-fIPlgw",
+      "creator": { "@type": "Person", "name": "Gladiators Academy" },
+      "duration": "PT120S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +205,42 @@ Defending the belly down armbar transition requires recognizing the attacker's i
 **Opponent's Starting Position**: [[Positions/Armbar Control]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Belly Down Armbar Transition (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=kNdKfUdgO4I)
+
+<p class="clip-credit"><strong>Armbar escape when they have the arm extended</strong> — taught by Matt Arroyo · 1:32 · <a href="https://www.youtube.com/watch?v=kNdKfUdgO4I" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=E3mDnJiv28Y)
+
+<p class="clip-credit"><strong>Armbar escape: spin under when stacked</strong> — taught by OMJJJ · 0:53 · <a href="https://www.youtube.com/watch?v=E3mDnJiv28Y" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=04LT-fIPlgw)
+
+<p class="clip-credit"><strong>Armbar defense: stack and hitchhiker escape</strong> — taught by Gladiators Academy · 2:00 · <a href="https://www.youtube.com/watch?v=04LT-fIPlgw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

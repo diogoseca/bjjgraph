@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Turtle/Bottom",
-      "probability": 45,
+      "probability": {
+        "gi": 45,
+        "nogi": 45
+      },
       "result": "success"
     },
     {
       "to": "Reverse Mount/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Back Control/Bottom",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 45,
+  "success_rate": {
+    "gi": 45,
+    "nogi": 45
+  },
   "overview": "Because reverse mount is an inherently transitional, backward-facing pin, the bottom player's escape options diverge sharply from standard mount defense, and the angled bridge becomes the highest-utility tool when traditional frames cannot be established. Unlike standard mount escapes where the defender can frame against the opponent's chest and hips, reverse mount requires bridging into an opponent whose weight is distributed backward, creating different leverage dynamics. The bridge exploits the inherent instability of reverse mount—the top player's backward orientation means they lack the head control and visual cues available in standard mount, making explosive movement harder to anticipate and counter.\n\nThe technique relies on creating angles before the explosive bridge rather than bridging straight up. The bottom player must first shift their hips to establish a bridging direction, then execute an explosive hip extension combined with a shoulder turn to create enough space to begin turning to turtle. Timing is critical—the bridge must coincide with moments when the top player's weight shifts or they reach for grips, compromising their base. Successful execution requires committing fully to the movement, as partial bridges allow the top player to settle weight and potentially advance to back control.\n\nStrategically, this escape sits within the broader reverse mount escape hierarchy alongside elbow escapes, hip escapes, and frame-based techniques. While not the highest-percentage option in isolation, the bridge is often the most accessible escape when the top player has compromised the bottom player's ability to use other methods. The bridge creates enough displacement for the bottom player to turn face-down into turtle, which while still defensive, offers significantly more escape pathways than remaining under reverse mount. The technique also functions as a threat that forces the top player to commit weight and base, potentially opening windows for alternative escapes.",
   "conditions": [
     "Opponent has established reverse mount with hips seated on your torso facing your feet",
@@ -244,38 +256,147 @@
     "flashcards": [
       {
         "question": "Why is it critical to create an angle with your hips before executing the bridge from reverse mount?",
-        "answer": "Bridging straight up only lifts the opponent vertically without displacing them from your center line, allowing them to land back in position when you descend. Creating an angle with a hip shift establishes a directional vector for the bridge, displacing the opponent laterally toward their weakest base point. This directional force is what actually creates the space needed to initiate the turn to turtle."
+        "answer": "Bridging straight up only lifts the opponent vertically without displacing them from your center line, allowing them to land back in position when you descend. Creating an angle with a hip shift establishes a directional vector for the bridge, displacing the opponent laterally toward their weakest base point. This directional force is what actually creates the space needed to initiate the turn to turtle.",
+        "answer_line": "Hip angle creates directional force",
+        "distractors": {
+          "plausible": [
+            "Explode straight up for lift",
+            "Push hands first, then hips"
+          ],
+          "trap": [
+            "Bridge straight up, no angle"
+          ]
+        }
       },
       {
         "question": "What is the optimal timing window for executing the bridge from reverse mount?",
-        "answer": "The optimal timing window is when the top player's weight shifts during their own movements—reaching for grips, transitioning to a different position, or adjusting their base. These moments temporarily compromise their structural stability, making your bridge more effective with less force. Bridging against a settled, heavy opponent who is not moving is the lowest percentage scenario."
+        "answer": "The optimal timing window is when the top player's weight shifts during their own movements—reaching for grips, transitioning to a different position, or adjusting their base. These moments temporarily compromise their structural stability, making your bridge more effective with less force. Bridging against a settled, heavy opponent who is not moving is the lowest percentage scenario.",
+        "answer_line": "Bridge when they shift weight",
+        "distractors": {
+          "plausible": [
+            "Bridge when they're heaviest",
+            "Bridge right after they settle"
+          ],
+          "trap": [
+            "Bridge only when they're still"
+          ]
+        }
       },
       {
         "question": "Your opponent successfully rides your first bridge attempt and resettles in reverse mount—what should you do next?",
-        "answer": "Immediately execute a second bridge in the opposite direction to exploit their weight redistribution from countering the first bridge. Their base will be adjusted to defend the original direction, making them vulnerable to the opposite angle. If the double bridge fails, switch to an entirely different escape method such as a hip escape or frame-based technique to prevent becoming predictable."
+        "answer": "Immediately execute a second bridge in the opposite direction to exploit their weight redistribution from countering the first bridge. Their base will be adjusted to defend the original direction, making them vulnerable to the opposite angle. If the double bridge fails, switch to an entirely different escape method such as a hip escape or frame-based technique to prevent becoming predictable.",
+        "answer_line": "Bridge again, opposite direction",
+        "distractors": {
+          "plausible": [
+            "Repeat the same bridge direction",
+            "Immediately switch to hip escape"
+          ],
+          "trap": [
+            "Stay still and reset your grips"
+          ]
+        }
       },
       {
         "question": "What is the most critical grip or hand position during the bridge from reverse mount?",
-        "answer": "At least one hand must remain protecting the neck and collar area throughout the entire bridge sequence to prevent the opponent from securing a choke during the escape. The chin must stay tucked firmly to the chest. While one hand protects the neck, the other can post on the mat for additional bridging power or be used to facilitate the turn, but neck defense is never sacrificed for bridge mechanics."
+        "answer": "At least one hand must remain protecting the neck and collar area throughout the entire bridge sequence to prevent the opponent from securing a choke during the escape. The chin must stay tucked firmly to the chest. While one hand protects the neck, the other can post on the mat for additional bridging power or be used to facilitate the turn, but neck defense is never sacrificed for bridge mechanics.",
+        "answer_line": "One hand always guards the neck",
+        "distractors": {
+          "plausible": [
+            "Both hands post for max power",
+            "One hand grips their far leg"
+          ],
+          "trap": [
+            "Free both hands to bridge harder"
+          ]
+        }
       },
       {
         "question": "How does the bridge from reverse mount differ mechanically from a standard bridge escape from mount?",
-        "answer": "In standard mount, you bridge toward the opponent's head or to either side where their base is compromised, using frames against their chest or hips to create direction. In reverse mount, the opponent faces your feet, so their base orientation is inverted—their strong base is toward your legs and their weak base is where they lack posting ability. You must target these reversed angles and cannot use traditional chest frames since the opponent's back faces you."
+        "answer": "In standard mount, you bridge toward the opponent's head or to either side where their base is compromised, using frames against their chest or hips to create direction. In reverse mount, the opponent faces your feet, so their base orientation is inverted—their strong base is toward your legs and their weak base is where they lack posting ability. You must target these reversed angles and cannot use traditional chest frames since the opponent's back faces you.",
+        "answer_line": "Target their reversed weak base",
+        "distractors": {
+          "plausible": [
+            "Bridge toward the head as usual",
+            "Push straight up for lift"
+          ],
+          "trap": [
+            "Reach for chest frames behind you"
+          ]
+        }
       },
       {
         "question": "Your opponent begins inserting hooks as you turn to turtle during the bridge—how do you respond?",
-        "answer": "Prioritize completing the turn to turtle immediately rather than stopping to fight the hooks. Once in turtle, immediately strip the first hook by extending your leg back and away while keeping elbows tight to knees to prevent the second hook. A single hook in turtle is recoverable through standard turtle escapes, but pausing mid-turn to fight hooks leaves you in a worse position than either reverse mount or turtle."
+        "answer": "Prioritize completing the turn to turtle immediately rather than stopping to fight the hooks. Once in turtle, immediately strip the first hook by extending your leg back and away while keeping elbows tight to knees to prevent the second hook. A single hook in turtle is recoverable through standard turtle escapes, but pausing mid-turn to fight hooks leaves you in a worse position than either reverse mount or turtle.",
+        "answer_line": "Finish the turn, then strip hook",
+        "distractors": {
+          "plausible": [
+            "Stop and fight the first hook",
+            "Reverse back to reverse mount"
+          ],
+          "trap": [
+            "Freeze mid-turn to block hooks"
+          ]
+        }
       },
       {
         "question": "Why is it an error to rest in turtle after a successful bridge from reverse mount?",
-        "answer": "Turtle is a transitional defensive position, not a destination. Reaching turtle from reverse mount only partially improves your situation—your back is still exposed and the opponent is still behind you with attacking opportunities including back takes, front headlock submissions, and crucifix entries. The bridge-to-turtle is phase one; immediate continuation into a granby roll, sit-through, or technical standup completes the escape to a genuinely safer position."
+        "answer": "Turtle is a transitional defensive position, not a destination. Reaching turtle from reverse mount only partially improves your situation—your back is still exposed and the opponent is still behind you with attacking opportunities including back takes, front headlock submissions, and crucifix entries. The bridge-to-turtle is phase one; immediate continuation into a granby roll, sit-through, or technical standup completes the escape to a genuinely safer position.",
+        "answer_line": "Turtle is transit, keep moving",
+        "distractors": {
+          "plausible": [
+            "Turtle is safe, hold position",
+            "Turtle means fight is over"
+          ],
+          "trap": [
+            "Stay in turtle to catch breath"
+          ]
+        }
       },
       {
         "question": "What body types or opponent characteristics make the bridge from reverse mount more or less effective?",
-        "answer": "The bridge is more effective against taller or lighter opponents whose weight is distributed over a larger area and whose base in reverse mount may be less compact. It is less effective against heavier, stockier opponents who can sink dense weight onto your torso. Against heavier opponents, the double bridge sequence or switching to hip escapes may be necessary. Regardless of opponent size, timing the bridge with their movement remains the most important success factor."
+        "answer": "The bridge is more effective against taller or lighter opponents whose weight is distributed over a larger area and whose base in reverse mount may be less compact. It is less effective against heavier, stockier opponents who can sink dense weight onto your torso. Against heavier opponents, the double bridge sequence or switching to hip escapes may be necessary. Regardless of opponent size, timing the bridge with their movement remains the most important success factor.",
+        "answer_line": "Timing matters most, any body type",
+        "distractors": {
+          "plausible": [
+            "Only works against lighter people",
+            "Size matters more than timing"
+          ],
+          "trap": [
+            "Force the bridge on heavy opponents"
+          ]
+        }
       }
     ],
-    "safety_considerations": "The Bridge from Reverse Mount involves explosive spinal extension under load from the opponent's body weight. Warm up the lower back, glutes, and hip flexors thoroughly before drilling this technique. Avoid hyperextension of the cervical spine during the bridge—keep the chin tucked firmly to protect neck vertebrae throughout the movement. When drilling with partners, communicate clearly about intensity levels and ensure the top player is prepared for the bridge to avoid being displaced unexpectedly onto the mat. Practitioners with pre-existing lower back conditions should modify bridge amplitude and consult their instructor for safe alternatives. Always drill on adequately padded surfaces."
+    "safety_considerations": "The Bridge from Reverse Mount involves explosive spinal extension under load from the opponent's body weight. Warm up the lower back, glutes, and hip flexors thoroughly before drilling this technique. Avoid hyperextension of the cervical spine during the bridge—keep the chin tucked firmly to protect neck vertebrae throughout the movement. When drilling with partners, communicate clearly about intensity levels and ensure the top player is prepared for the bridge to avoid being displaced unexpectedly onto the mat. Practitioners with pre-existing lower back conditions should modify bridge amplitude and consult their instructor for safe alternatives. Always drill on adequately padded surfaces.",
+    "clips": [
+      {
+        "id": "XQ4fwGrXV2Q",
+        "title": "Reverse mount scrambles and reversals",
+        "by": "Jamie",
+        "vertical": false,
+        "channel": "jamielovesmartialarts",
+        "duration": 23,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "0xYFYI9LkUQ",
+        "title": "Rolling the opponent to the far side with a near hook",
+        "by": "Priit Mihkelson",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 144,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "3RbOD9fhi20",
+        "title": "Running man escape from the back and reverse mount",
+        "by": "Jiu Jitsu Modern",
+        "vertical": false,
+        "channel": "JIU JITSU MODERN",
+        "duration": 210,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Bridge from Reverse Mount Defender",
@@ -362,19 +483,59 @@
     "flashcards": [
       {
         "question": "What tactile cues indicate the bottom player is preparing to bridge from reverse mount?",
-        "answer": "Key tactile cues include the bottom player shifting their hips to one side beneath your weight, planting both feet flat on the mat with knees bent, increased core and glute tension detectable through your seated contact on their torso, and small test bumps or micro-bridges before the full explosive attempt. Any change in their foot positioning from extended to planted is a strong indicator of imminent bridge."
+        "answer": "Key tactile cues include the bottom player shifting their hips to one side beneath your weight, planting both feet flat on the mat with knees bent, increased core and glute tension detectable through your seated contact on their torso, and small test bumps or micro-bridges before the full explosive attempt. Any change in their foot positioning from extended to planted is a strong indicator of imminent bridge.",
+        "answer_line": "Feet plant flat, hips shift",
+        "distractors": {
+          "plausible": [
+            "Breathing gets faster and shallow",
+            "Grip tightens on your collar"
+          ],
+          "trap": [
+            "Ignore subtle shifts, stay heavy"
+          ]
+        }
       },
       {
         "question": "Why should you treat a successful bridge displacement as an advancement opportunity rather than a position loss?",
-        "answer": "When the bottom player bridges successfully and begins turning to turtle, their movement actually assists your transition to back control. By following their rotation and maintaining chest-to-back contact, you can insert hooks and establish seatbelt control during their turn. The bridge displaces you from reverse mount—an inherently transitional position—directly into a back take sequence, which leads to the superior 4-point back control position. Treating it as an opportunity rather than a loss keeps you offensive."
+        "answer": "When the bottom player bridges successfully and begins turning to turtle, their movement actually assists your transition to back control. By following their rotation and maintaining chest-to-back contact, you can insert hooks and establish seatbelt control during their turn. The bridge displaces you from reverse mount—an inherently transitional position—directly into a back take sequence, which leads to the superior 4-point back control position. Treating it as an opportunity rather than a loss keeps you offensive.",
+        "answer_line": "Follow rotation into back take",
+        "distractors": {
+          "plausible": [
+            "Resist the turn, reclaim mount",
+            "Let go and reset to guard"
+          ],
+          "trap": [
+            "Fight to stay in reverse mount"
+          ]
+        }
       },
       {
         "question": "How should you adjust your base when you detect the bottom player shifting their hips to one side?",
-        "answer": "Immediately widen your base on the side they are shifting toward by extending your knee further out. Post your hand on the mat on that same side to create a tripod base structure. Sink your weight heavier through your hips onto their torso to increase the force they must overcome. This preemptive base adjustment makes their directional bridge significantly less effective because you have already reinforced the angle they intend to exploit."
+        "answer": "Immediately widen your base on the side they are shifting toward by extending your knee further out. Post your hand on the mat on that same side to create a tripod base structure. Sink your weight heavier through your hips onto their torso to increase the force they must overcome. This preemptive base adjustment makes their directional bridge significantly less effective because you have already reinforced the angle they intend to exploit.",
+        "answer_line": "Widen base toward the shift",
+        "distractors": {
+          "plausible": [
+            "Widen base away from the shift",
+            "Sit back and lighten your weight"
+          ],
+          "trap": [
+            "Post hand on the opposite side"
+          ]
+        }
       },
       {
         "question": "What is the primary risk of holding reverse mount too long instead of transitioning when bridge attempts begin?",
-        "answer": "Reverse mount is inherently transitional with limited sustainability. Each bridge attempt the bottom player makes degrades your positional control even if none fully succeed—your energy expenditure increases, your base gets tested repeatedly, and the bottom player identifies your weakest angles. Staying in reverse mount past the first bridge attempt means you are fighting against the position's natural instability rather than converting it. Transitioning to standard mount or back control within the first few seconds eliminates the bridge threat entirely."
+        "answer": "Reverse mount is inherently transitional with limited sustainability. Each bridge attempt the bottom player makes degrades your positional control even if none fully succeed—your energy expenditure increases, your base gets tested repeatedly, and the bottom player identifies your weakest angles. Staying in reverse mount past the first bridge attempt means you are fighting against the position's natural instability rather than converting it. Transitioning to standard mount or back control within the first few seconds eliminates the bridge threat entirely.",
+        "answer_line": "Transition fast, don't linger",
+        "distractors": {
+          "plausible": [
+            "Hold reverse mount, wear them out",
+            "Wait for a bigger opening first"
+          ],
+          "trap": [
+            "Stay put and absorb every bridge"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -397,6 +558,26 @@
         "phase": "Live Positional Sparring",
         "focus": "Full resistance defense and counter from reverse mount top",
         "description": "Start in reverse mount with full resistance. Top player must either maintain position for 30 seconds, advance to back control, or convert to standard mount. Bottom player uses all available escapes including bridges, hip escapes, and frames. Track success rates for maintaining position versus advancing to superior positions."
+      }
+    ],
+    "clips": [
+      {
+        "id": "kft2AkvKhWU",
+        "title": "Best way to control and retain the mount",
+        "by": "Gordon Ryan",
+        "vertical": false,
+        "channel": "Bernardo Faria BJJ Fanatics",
+        "duration": 538,
+        "verified": "2026-07-16"
+      },
+      {
+        "id": "DSJJyA-2HKU",
+        "title": "Basic ways to flatten an opponent out on top",
+        "by": "Gordon Ryan",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 813,
+        "verified": "2026-07-16"
       }
     ]
   }

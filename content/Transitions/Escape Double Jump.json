@@ -15,26 +15,41 @@
   "outcomes": [
     {
       "to": "Half Guard/Bottom",
-      "probability": 45,
+      "probability": {
+        "gi": 45,
+        "nogi": 45
+      },
       "result": "success"
     },
     {
       "to": "Knee Shield Half Guard/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "success"
     },
     {
       "to": "Flattened Half Guard/Bottom",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Side Control/Bottom",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "Escape Double Jump is a critical recovery technique in Brazilian Jiu-Jitsu that addresses the tactical problem of safely retreating from a committed but unsuccessful double jump guard entry. When the explosive bilateral leg insertion fails to achieve deep half guard position—whether due to the opponent's sprawl defense, base widening, or upper body control establishment—the bottom player must systematically disengage and return to a stable half guard without conceding a pass.\n\nThe technique requires precise sequencing of leg extraction, frame establishment, and hook reconfiguration. Unlike abandoning other guard positions where you can simply disengage, the double jump commits both legs underneath the opponent's base, creating significant vulnerability during the retreat phase. The opponent's weight and forward pressure can easily convert a sloppy retreat into a flattened half guard or complete pass to side control. Understanding the mechanics of this escape transforms the double jump from an all-or-nothing gamble into a calculated attack with a reliable safety net.\n\nMastery of this escape is essential for any practitioner who incorporates double jump entries into their half guard game. Without a reliable retreat option, the inherent risk of the double jump entry becomes unjustifiable at higher levels of competition where opponents capitalize on failed entries. The escape creates the strategic foundation that makes aggressive double jump attempts viable by ensuring you can return to a playable position when the entry is defended.",
   "conditions": [
     "Double jump entry has been attempted but failed to achieve deep half guard position",
@@ -243,38 +258,147 @@
     "flashcards": [
       {
         "question": "What is the single most important thing to establish before beginning leg extraction from a failed double jump?",
-        "answer": "Forearm frames on the opponent's shoulder and hip must be established before starting any leg extraction. Without these frames, the opponent will collapse their weight onto your chest during the extraction phase, flattening you and converting the retreat into a worse position than the failed entry. The frames create the space buffer that makes sequential leg extraction possible."
+        "answer": "Forearm frames on the opponent's shoulder and hip must be established before starting any leg extraction. Without these frames, the opponent will collapse their weight onto your chest during the extraction phase, flattening you and converting the retreat into a worse position than the failed entry. The frames create the space buffer that makes sequential leg extraction possible.",
+        "answer_line": "Frame forearms on shoulder, hip",
+        "distractors": {
+          "plausible": [
+            "Extract legs before framing",
+            "Grip opponent's collar first"
+          ],
+          "trap": [
+            "Relax and absorb their weight"
+          ]
+        }
       },
       {
         "question": "Why is it critical to extract the inside leg before the outside leg?",
-        "answer": "The inside leg is deepest underneath the opponent's base and most vulnerable to being trapped. Extracting it first while maintaining outside leg contact preserves some form of entanglement throughout the transition. If the outside leg is extracted first, you lose your last point of defensive contact and the opponent can freely advance to side control during the gap in control."
+        "answer": "The inside leg is deepest underneath the opponent's base and most vulnerable to being trapped. Extracting it first while maintaining outside leg contact preserves some form of entanglement throughout the transition. If the outside leg is extracted first, you lose your last point of defensive contact and the opponent can freely advance to side control during the gap in control.",
+        "answer_line": "Extract inside leg first",
+        "distractors": {
+          "plausible": [
+            "Extract outside leg first",
+            "Extract both legs together"
+          ],
+          "trap": [
+            "Release outside leg contact early"
+          ]
+        }
       },
       {
         "question": "Your double jump entry stalls and the opponent begins driving heavy crossface pressure—what do you do?",
-        "answer": "Immediately prioritize your forearm frame against their shoulder to manage the crossface pressure. Use the pressure as a cue to begin the escape rather than fighting to complete the entry. The crossface indicates the opponent has defended successfully, and continuing the entry against established crossface will only result in being flattened. Begin sequential leg extraction while the frame holds their weight at distance."
+        "answer": "Immediately prioritize your forearm frame against their shoulder to manage the crossface pressure. Use the pressure as a cue to begin the escape rather than fighting to complete the entry. The crossface indicates the opponent has defended successfully, and continuing the entry against established crossface will only result in being flattened. Begin sequential leg extraction while the frame holds their weight at distance.",
+        "answer_line": "Frame shoulder, begin escape",
+        "distractors": {
+          "plausible": [
+            "Push through, finish entry",
+            "Bridge and roll away"
+          ],
+          "trap": [
+            "Turn belly down to defend"
+          ]
+        }
       },
       {
         "question": "How do you determine whether to continue the double jump entry or begin the escape?",
-        "answer": "If the entry has not progressed meaningfully within 2-3 seconds, or if the opponent has established upper body control through crossface, sprawl, or base widening, the escape should begin immediately. Key indicators of a stalled entry include inability to advance hips further underneath, increasing chest pressure from the top player, and the opponent's hands establishing grips on your upper body."
+        "answer": "If the entry has not progressed meaningfully within 2-3 seconds, or if the opponent has established upper body control through crossface, sprawl, or base widening, the escape should begin immediately. Key indicators of a stalled entry include inability to advance hips further underneath, increasing chest pressure from the top player, and the opponent's hands establishing grips on your upper body.",
+        "answer_line": "No progress in 2-3s? Escape",
+        "distractors": {
+          "plausible": [
+            "Wait for a clear opening",
+            "Push harder to force entry"
+          ],
+          "trap": [
+            "Keep entry going regardless"
+          ]
+        }
       },
       {
         "question": "What role does the knee shield play in the escape sequence?",
-        "answer": "The knee shield serves as the critical intermediate frame between extracting the inside leg and completing the transition to half guard. After the inside leg is retracted, inserting your shin across the opponent's torso creates a structural barrier that prevents them from collapsing their hips forward during the remaining extraction. Without this intermediate frame, there is a dangerous gap where both legs are partially committed and vulnerable to being passed."
+        "answer": "The knee shield serves as the critical intermediate frame between extracting the inside leg and completing the transition to half guard. After the inside leg is retracted, inserting your shin across the opponent's torso creates a structural barrier that prevents them from collapsing their hips forward during the remaining extraction. Without this intermediate frame, there is a dangerous gap where both legs are partially committed and vulnerable to being passed.",
+        "answer_line": "Shin frame after inside leg out",
+        "distractors": {
+          "plausible": [
+            "Knee shield goes in first",
+            "Skip shield, go straight to half"
+          ],
+          "trap": [
+            "Drop shield, grab their collar"
+          ]
+        }
       },
       {
         "question": "What is the most common counter an opponent will attempt during your escape, and how do you address it?",
-        "answer": "The most common counter is driving heavy crossface pressure during the leg extraction phase to flatten you and prevent frame maintenance. Address this by ensuring your shoulder frame is established before extraction begins, using hip escape motion to angle away from the crossface, and inserting the knee shield as early as possible to create a structural barrier that their crossface pressure cannot bypass."
+        "answer": "The most common counter is driving heavy crossface pressure during the leg extraction phase to flatten you and prevent frame maintenance. Address this by ensuring your shoulder frame is established before extraction begins, using hip escape motion to angle away from the crossface, and inserting the knee shield as early as possible to create a structural barrier that their crossface pressure cannot bypass.",
+        "answer_line": "Frame vs crossface, add shield",
+        "distractors": {
+          "plausible": [
+            "Muscle through the crossface",
+            "Turtle up to block crossface"
+          ],
+          "trap": [
+            "Post hands, expose the back"
+          ]
+        }
       },
       {
         "question": "After successfully escaping to half guard, what should your immediate priority be?",
-        "answer": "Your immediate priority is establishing an offensive half guard configuration—either securing the underhook on the trapped leg side or reinforcing your knee shield to create distance. Do not rest after reaching half guard. The opponent has just successfully defended your attack and will look to capitalize with passing pressure. Transition immediately to an active guard that threatens sweeps and prevents their pass."
+        "answer": "Your immediate priority is establishing an offensive half guard configuration—either securing the underhook on the trapped leg side or reinforcing your knee shield to create distance. Do not rest after reaching half guard. The opponent has just successfully defended your attack and will look to capitalize with passing pressure. Transition immediately to an active guard that threatens sweeps and prevents their pass.",
+        "answer_line": "Underhook or reinforce shield",
+        "distractors": {
+          "plausible": [
+            "Rest and reset breathing",
+            "Wait for opponent to pass"
+          ],
+          "trap": [
+            "Flatten out to recover"
+          ]
+        }
       },
       {
         "question": "When should you choose the knee shield recovery variant over the standard half guard escape?",
-        "answer": "Choose the knee shield recovery variant when the opponent is applying very heavy forward pressure that threatens to flatten you during the extraction. The knee shield provides superior structural defense against forward drive compared to standard half guard hooks. It is also preferable when you need more time to consolidate because the knee shield creates greater distance and prevents the immediate chest-to-chest pressure that makes standard half guard difficult to hold against aggressive passers."
+        "answer": "Choose the knee shield recovery variant when the opponent is applying very heavy forward pressure that threatens to flatten you during the extraction. The knee shield provides superior structural defense against forward drive compared to standard half guard hooks. It is also preferable when you need more time to consolidate because the knee shield creates greater distance and prevents the immediate chest-to-chest pressure that makes standard half guard difficult to hold against aggressive passers.",
+        "answer_line": "Heavy pressure needs shield",
+        "distractors": {
+          "plausible": [
+            "Use it against light pressure",
+            "Use it only when tired"
+          ],
+          "trap": [
+            "Abandon frame, hunt submission"
+          ]
+        }
       }
     ],
-    "safety_considerations": "Escape Double Jump is a low-risk positional transition that does not involve joint locks or chokes. The primary safety concern is neck strain from heavy crossface pressure during the escape. If your training partner applies excessive crossface force during drilling, communicate immediately. During the leg extraction phase, be mindful of knee positioning to avoid catching your foot or ankle in an awkward angle as you retract from underneath your partner's base. When drilling with significant resistance, ensure both partners understand the escape sequence to prevent inadvertent knee torque from unexpected movements."
+    "safety_considerations": "Escape Double Jump is a low-risk positional transition that does not involve joint locks or chokes. The primary safety concern is neck strain from heavy crossface pressure during the escape. If your training partner applies excessive crossface force during drilling, communicate immediately. During the leg extraction phase, be mindful of knee positioning to avoid catching your foot or ankle in an awkward angle as you retract from underneath your partner's base. When drilling with significant resistance, ensure both partners understand the escape sequence to prevent inadvertent knee torque from unexpected movements.",
+    "clips": [
+      {
+        "id": "5sdZak2bil4",
+        "title": "Half Guard: Reclaim Closed Guard",
+        "by": "Daniel Lima",
+        "vertical": false,
+        "channel": "Daniel Lima",
+        "duration": 26,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "BhNZGloJ56c",
+        "title": "Guard Recovery Trick When You Get Smashed",
+        "by": "Finesse Jiu-Jitsu HTX",
+        "vertical": false,
+        "channel": "FINESSE JIUJITSU HTX",
+        "duration": 103,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "QH9-1I5XqO4",
+        "title": "Side Control Bottom: Guard Recovery vs Cross Face",
+        "by": "Academy Jiu Jitsu",
+        "vertical": false,
+        "channel": "Academy Jiu Jitsu",
+        "duration": 105,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Escape Double Jump Defender",
@@ -360,19 +484,59 @@
     "flashcards": [
       {
         "question": "What is the most vulnerable moment for the bottom player during the Escape Double Jump?",
-        "answer": "The most vulnerable moment is when the bottom player has extracted their inside leg but has not yet inserted their knee shield. During this brief window, both legs are partially committed and the bottom player lacks the structural frame that the knee shield provides. This is the optimal timing for crossface pressure, backstep passes, or knee slice pass attempts that exploit the reorganizing guard."
+        "answer": "The most vulnerable moment is when the bottom player has extracted their inside leg but has not yet inserted their knee shield. During this brief window, both legs are partially committed and the bottom player lacks the structural frame that the knee shield provides. This is the optimal timing for crossface pressure, backstep passes, or knee slice pass attempts that exploit the reorganizing guard.",
+        "answer_line": "Inside leg out, shield not in",
+        "distractors": {
+          "plausible": [
+            "During the double jump entry",
+            "Right after escaping to half guard"
+          ],
+          "trap": [
+            "Once in full half guard"
+          ]
+        }
       },
       {
         "question": "How do you prevent the bottom player from establishing the frames needed for their escape?",
-        "answer": "Drive immediate crossface pressure and maintain chest-to-chest connection as soon as you recognize the entry has stalled. By keeping your weight driving forward through your shoulder into their face and chest, you eliminate the space their forearms need to create frames on your shoulder and hip. Without these frames, the leg extraction becomes impossible without being flattened."
+        "answer": "Drive immediate crossface pressure and maintain chest-to-chest connection as soon as you recognize the entry has stalled. By keeping your weight driving forward through your shoulder into their face and chest, you eliminate the space their forearms need to create frames on your shoulder and hip. Without these frames, the leg extraction becomes impossible without being flattened.",
+        "answer_line": "Drive crossface, chest to chest",
+        "distractors": {
+          "plausible": [
+            "Grab both wrists tightly",
+            "Push their hips away first"
+          ],
+          "trap": [
+            "Back off to reset position"
+          ]
+        }
       },
       {
         "question": "Your opponent successfully establishes frames and begins extracting their legs—what is your best response?",
-        "answer": "If frames are established and extraction is underway, shift focus from preventing the escape to capitalizing on the transition. Target the moment between inside leg extraction and knee shield insertion with a knee slice or backstep pass. Their legs are reorganizing and briefly vulnerable. Chain your passing attempts against their retreating guard rather than trying to drive them back into the failed double jump position."
+        "answer": "If frames are established and extraction is underway, shift focus from preventing the escape to capitalizing on the transition. Target the moment between inside leg extraction and knee shield insertion with a knee slice or backstep pass. Their legs are reorganizing and briefly vulnerable. Chain your passing attempts against their retreating guard rather than trying to drive them back into the failed double jump position.",
+        "answer_line": "Knee slice as legs reorganize",
+        "distractors": {
+          "plausible": [
+            "Force them back to double jump",
+            "Wait for them to reach half guard"
+          ],
+          "trap": [
+            "Chase a guillotine now"
+          ]
+        }
       },
       {
         "question": "Why is it advantageous when the bottom player switches from their double jump attack to the escape?",
-        "answer": "When the bottom player switches from offense to defense, their mental framework shifts from attacking to retreating. This defensive mindset makes them reactive rather than proactive, creating opportunities for you to dictate the exchange. The physical mechanics of leg extraction also create brief windows of reduced control that do not exist when the bottom player is committed to the entry. Every moment of the escape is a potential passing opportunity."
+        "answer": "When the bottom player switches from offense to defense, their mental framework shifts from attacking to retreating. This defensive mindset makes them reactive rather than proactive, creating opportunities for you to dictate the exchange. The physical mechanics of leg extraction also create brief windows of reduced control that do not exist when the bottom player is committed to the entry. Every moment of the escape is a potential passing opportunity.",
+        "answer_line": "Defense makes them reactive",
+        "distractors": {
+          "plausible": [
+            "They get physically tired faster",
+            "They lose all guard retention skill"
+          ],
+          "trap": [
+            "Ease off, let them recover"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -395,6 +559,26 @@
         "phase": "Passing chain development",
         "focus": "Chaining counters against the retreating guard",
         "description": "After defending the double jump and recognizing the escape, chain 3-4 passing attempts against the retreating bottom player. Practice flowing from crossface pressure to knee slice to backstep to smash pass based on the bottom player's defensive reactions during and after the escape."
+      }
+    ],
+    "clips": [
+      {
+        "id": "8WbQvytyCX0",
+        "title": "How to Pass the Flat Half Guard",
+        "by": "Malachy Friedman",
+        "vertical": false,
+        "channel": "Malachy Friedman",
+        "duration": 63,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "o3PZRQSZStQ",
+        "title": "Guard Passing Tip to Shut Down Recovery",
+        "by": "Henry Akins",
+        "vertical": false,
+        "channel": "Henry Akins' Hidden Jiu-Jitsu",
+        "duration": 84,
+        "verified": "2026-07-15"
       }
     ]
   }

@@ -14,21 +14,33 @@
   "outcomes": [
     {
       "to": "Side Control/Top",
-      "probability": 40,
+      "probability": {
+        "gi": 40,
+        "nogi": 40
+      },
       "result": "success"
     },
     {
       "to": "Headquarters Position/Bottom",
-      "probability": 38,
+      "probability": {
+        "gi": 38,
+        "nogi": 38
+      },
       "result": "failure"
     },
     {
       "to": "Mount/Bottom",
-      "probability": 22,
+      "probability": {
+        "gi": 22,
+        "nogi": 22
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 40,
+  "success_rate": {
+    "gi": 40,
+    "nogi": 40
+  },
   "summary": "The Sweep from Headquarters is a bottom-player reversal that exploits the passer's committed weight and triangulated base, combining an underhook or shin contact with a free-leg hook to topple them diagonally past their support and recover top position.",
   "overview": "The Sweep from Headquarters represents a critical counter-offensive response when the top player establishes headquarters position with one of the bottom player's legs trapped between their knees. Rather than passively accepting the guard pass, the bottom player exploits structural vulnerabilities inherent in the headquarters stance—specifically the wide base, elevated posting leg, and the top player's directional weight commitment—to create off-balancing opportunities that reverse the positional hierarchy entirely. This sweep chain is fundamental to making headquarters a contested position rather than a one-sided passing platform.\n\nThe primary sweep mechanics leverage the asymmetric weight distribution of headquarters. Because the top player commits significant downward pressure to controlling the trapped leg, their base becomes directionally vulnerable perpendicular to their stance. The bottom player creates sweep angles by combining underhook access on the near side with butterfly hook insertion or shin-to-shin contact from the free leg, then redirecting the top player's committed weight past their base of support. The timing element is critical—the sweep must be initiated during the passer's weight transitions between passing attempts rather than against a settled, balanced headquarters.\n\nThis technique functions as both a direct positional reversal and a strategic deterrent within the guard passing exchange. When the top player recognizes the sweep threat, they must widen their base or reduce trapped-leg pressure, both of which create opportunities for guard recovery or reguarding. Even failed sweep attempts that disrupt the passer's rhythm serve a strategic purpose by preventing the systematic decision-making that makes headquarters passing so effective, forcing the top player to address the sweep threat before continuing their pass.",
   "conditions": [
@@ -250,38 +262,138 @@
     "flashcards": [
       {
         "question": "What is the optimal timing window to initiate a sweep from headquarters position?",
-        "answer": "The optimal timing window is during the opponent's weight transitions—specifically when they shift weight to initiate a passing attempt such as a knee cut or toreando. At this moment, their base is directionally committed and temporarily vulnerable to forces perpendicular to their movement direction. Attempting sweeps against a settled, balanced headquarters base has significantly lower success rates because the triangulated structure can absorb force from any direction."
+        "answer": "The optimal timing window is during the opponent's weight transitions—specifically when they shift weight to initiate a passing attempt such as a knee cut or toreando. At this moment, their base is directionally committed and temporarily vulnerable to forces perpendicular to their movement direction. Attempting sweeps against a settled, balanced headquarters base has significantly lower success rates because the triangulated structure can absorb force from any direction.",
+        "answer_line": "During their weight shift to pass",
+        "distractors": {
+          "plausible": [
+            "When base is settled, balanced",
+            "As soon as headquarters is set"
+          ],
+          "trap": [
+            "After you've been flattened out"
+          ]
+        }
       },
       {
         "question": "What conditions must exist before you can effectively attempt a sweep from headquarters?",
-        "answer": "Four conditions must be present: your free leg must retain enough mobility to create a hook or contact point, at least one hand must be available for an underhook or controlling grip, your hips must maintain sufficient mobility to create angle despite the trapped leg, and the opponent's weight must be directionally committed rather than perfectly centered. Missing any of these prerequisites significantly reduces sweep effectiveness and may expose you to guard passes."
+        "answer": "Four conditions must be present: your free leg must retain enough mobility to create a hook or contact point, at least one hand must be available for an underhook or controlling grip, your hips must maintain sufficient mobility to create angle despite the trapped leg, and the opponent's weight must be directionally committed rather than perfectly centered. Missing any of these prerequisites significantly reduces sweep effectiveness and may expose you to guard passes.",
+        "answer_line": "4: grip, hook, hips, weight shift",
+        "distractors": {
+          "plausible": [
+            "Grip and hook only, nothing else",
+            "Hip space and weight shift only"
+          ],
+          "trap": [
+            "Trapped leg fully pinned is fine"
+          ]
+        }
       },
       {
         "question": "What is the most critical mechanical detail that determines sweep success or failure?",
-        "answer": "The direction of sweep force is the most critical mechanical detail. The force must travel diagonally across the opponent's centerline rather than directly sideways or forward. This diagonal vector targets the gap in the opponent's base between their posting leg and the trapped leg side, where they have minimal structural resistance. A purely lateral sweep is easily absorbed by the wide headquarters base because the triangulated posting structure resists lateral forces effectively."
+        "answer": "The direction of sweep force is the most critical mechanical detail. The force must travel diagonally across the opponent's centerline rather than directly sideways or forward. This diagonal vector targets the gap in the opponent's base between their posting leg and the trapped leg side, where they have minimal structural resistance. A purely lateral sweep is easily absorbed by the wide headquarters base because the triangulated posting structure resists lateral forces effectively.",
+        "answer_line": "Diagonal force across centerline",
+        "distractors": {
+          "plausible": [
+            "Straight lateral push",
+            "Force toward their far hip"
+          ],
+          "trap": [
+            "Push straight forward into base"
+          ]
+        }
       },
       {
         "question": "What is the most common reason sweep attempts from headquarters fail?",
-        "answer": "The most common failure is attempting the sweep without first establishing a controlling grip or underhook. Without this anchor, the sweep generates force but has no mechanism to translate it into the opponent's displacement. The grip or underhook connects your hip and leg mechanics to the opponent's body, creating the closed kinetic chain necessary for effective force transfer. Without it, the opponent simply adjusts their base and continues passing."
+        "answer": "The most common failure is attempting the sweep without first establishing a controlling grip or underhook. Without this anchor, the sweep generates force but has no mechanism to translate it into the opponent's displacement. The grip or underhook connects your hip and leg mechanics to the opponent's body, creating the closed kinetic chain necessary for effective force transfer. Without it, the opponent simply adjusts their base and continues passing.",
+        "answer_line": "No grip/underhook before sweeping",
+        "distractors": {
+          "plausible": [
+            "Rushing the leg hook insertion",
+            "Wrong angle of hip escape"
+          ],
+          "trap": [
+            "Relying on leg strength alone"
+          ]
+        }
       },
       {
         "question": "What grips should you prioritize when setting up the sweep from headquarters?",
-        "answer": "The near-side underhook is the highest priority grip, providing direct control of the opponent's center of mass and preventing them from posting on the sweep side. If the underhook is unavailable due to crossface pressure, the far-side collar grip or cross-sleeve grip serves as an effective alternative by creating pulling control that redirects the opponent's weight. Regardless of which grip is used, it must be established before committing to sweep mechanics to ensure force transfer."
+        "answer": "The near-side underhook is the highest priority grip, providing direct control of the opponent's center of mass and preventing them from posting on the sweep side. If the underhook is unavailable due to crossface pressure, the far-side collar grip or cross-sleeve grip serves as an effective alternative by creating pulling control that redirects the opponent's weight. Regardless of which grip is used, it must be established before committing to sweep mechanics to ensure force transfer.",
+        "answer_line": "Near-side underhook first",
+        "distractors": {
+          "plausible": [
+            "Far-side collar grip first",
+            "Cross-sleeve grip primary"
+          ],
+          "trap": [
+            "Grip after committing to sweep"
+          ]
+        }
       },
       {
         "question": "Your opponent widens their base significantly when they feel your sweep setup—how do you adjust?",
-        "answer": "When the opponent widens their base to neutralize the sweep, they necessarily reduce pressure on your trapped leg and create more space between their hips and yours. Exploit this by transitioning from the sweep attempt to guard recovery—use the increased space to insert a knee shield, recover half guard, or transition to butterfly guard. Their wide base sacrifices passing pressure for sweep defense, which is a favorable trade for the bottom player that should be capitalized on immediately."
+        "answer": "When the opponent widens their base to neutralize the sweep, they necessarily reduce pressure on your trapped leg and create more space between their hips and yours. Exploit this by transitioning from the sweep attempt to guard recovery—use the increased space to insert a knee shield, recover half guard, or transition to butterfly guard. Their wide base sacrifices passing pressure for sweep defense, which is a favorable trade for the bottom player that should be capitalized on immediately.",
+        "answer_line": "Recover guard, don't force sweep",
+        "distractors": {
+          "plausible": [
+            "Push harder through wide base",
+            "Switch straight to different sweep"
+          ],
+          "trap": [
+            "Abandon leg hook, turtle up"
+          ]
+        }
       },
       {
         "question": "If your initial sweep attempt is blocked, what follow-up options are available from headquarters bottom?",
-        "answer": "Failed sweep attempts create several follow-up chains: reattempt with a different variant exploiting the opponent's adjusted base, transition to guard recovery by using the disrupted rhythm to insert a knee shield or recover half guard, chain into a deep half guard entry by diving under the opponent's hips while they focus on sweep defense, or use the sweep threat as a setup for an inversion to attack the posting leg for a leg entanglement entry. The key is never accepting a stalled position after a failed attempt."
+        "answer": "Failed sweep attempts create several follow-up chains: reattempt with a different variant exploiting the opponent's adjusted base, transition to guard recovery by using the disrupted rhythm to insert a knee shield or recover half guard, chain into a deep half guard entry by diving under the opponent's hips while they focus on sweep defense, or use the sweep threat as a setup for an inversion to attack the posting leg for a leg entanglement entry. The key is never accepting a stalled position after a failed attempt.",
+        "answer_line": "Chain: reattempt, recover, invert",
+        "distractors": {
+          "plausible": [
+            "Stay put and reset base",
+            "Repeat same sweep immediately"
+          ],
+          "trap": [
+            "Accept stalled position, reset"
+          ]
+        }
       },
       {
         "question": "How do you keep the trapped leg active during the sweep attempt rather than accepting the pin?",
-        "answer": "Push against the trapping pressure with the trapped leg using small pulsing movements rather than one sustained push. This prevents complete flattening and maintains the hip mobility necessary for sweep mechanics. Even partial trapped leg mobility creates the hip angle needed for the sweep. If the leg is completely immobilized, focus on creating maximum angle with hip escape on the free side to compensate for the restricted trapped side and generate sweep leverage from the available movement."
+        "answer": "Push against the trapping pressure with the trapped leg using small pulsing movements rather than one sustained push. This prevents complete flattening and maintains the hip mobility necessary for sweep mechanics. Even partial trapped leg mobility creates the hip angle needed for the sweep. If the leg is completely immobilized, focus on creating maximum angle with hip escape on the free side to compensate for the restricted trapped side and generate sweep leverage from the available movement.",
+        "answer_line": "Pulse trapped leg, not one push",
+        "distractors": {
+          "plausible": [
+            "Push hard once, hold position",
+            "Relax leg, accept full pin"
+          ],
+          "trap": [
+            "Let leg go dead, focus elsewhere"
+          ]
+        }
       }
     ],
-    "safety_considerations": "Sweeps from headquarters involve dynamic hip movement and rotational forces that stress the knee and ankle joints. Be particularly mindful of knee strain on the trapped leg during explosive sweep attempts, as the leg may be wedged between the opponent's knees at an awkward angle. Tap immediately if you feel sharp pain in the knee or ankle of the trapped leg during training. Communicate with your partner about the intensity of leg trapping pressure and avoid forcing sweep attempts when the trapped leg position creates dangerous joint angles. During drilling, begin with slow controlled repetitions before adding speed and resistance."
+    "safety_considerations": "Sweeps from headquarters involve dynamic hip movement and rotational forces that stress the knee and ankle joints. Be particularly mindful of knee strain on the trapped leg during explosive sweep attempts, as the leg may be wedged between the opponent's knees at an awkward angle. Tap immediately if you feel sharp pain in the knee or ankle of the trapped leg during training. Communicate with your partner about the intensity of leg trapping pressure and avoid forcing sweep attempts when the trapped leg position creates dangerous joint angles. During drilling, begin with slow controlled repetitions before adding speed and resistance.",
+    "clips": [
+      {
+        "id": "kSc35SuV7W0",
+        "title": "Star sweep",
+        "by": "bjjtaro",
+        "vertical": false,
+        "channel": "bjjtaro",
+        "duration": 13,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "eO0iX_6Whaw",
+        "title": "De La Riva tip from headquarters passing",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "Absolute MMA St Kilda - Melbourne",
+        "duration": 71,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Sweep from Headquarters Defender",
@@ -367,19 +479,59 @@
     "flashcards": [
       {
         "question": "What are the earliest recognition cues that a sweep from headquarters is being initiated?",
-        "answer": "The earliest cues are the bottom player fighting for an underhook on the near side and their free leg becoming active with hook insertion attempts. Hip escape movement creating an angle is another early indicator. These setup actions must be addressed immediately, as the sweep becomes exponentially harder to defend once the underhook and hook are both established and the sweep angle is loaded."
+        "answer": "The earliest cues are the bottom player fighting for an underhook on the near side and their free leg becoming active with hook insertion attempts. Hip escape movement creating an angle is another early indicator. These setup actions must be addressed immediately, as the sweep becomes exponentially harder to defend once the underhook and hook are both established and the sweep angle is loaded.",
+        "answer_line": "Underhook fight + hook insertion",
+        "distractors": {
+          "plausible": [
+            "Opponent grips your collar first",
+            "They shift weight suddenly"
+          ],
+          "trap": [
+            "Wait for full sweep angle load"
+          ]
+        }
       },
       {
         "question": "How should you adjust your base when you feel the bottom player inserting a butterfly hook?",
-        "answer": "Immediately widen your posting leg and drop your hips lower to increase base stability against the hook's elevation force. Use your free hand to block or push down the hooking leg before it gets fully inserted under your thigh. If the hook is already in, backstep away from the hook's direction to remove your leg from the elevation angle rather than trying to muscle through the sweep with weight alone."
+        "answer": "Immediately widen your posting leg and drop your hips lower to increase base stability against the hook's elevation force. Use your free hand to block or push down the hooking leg before it gets fully inserted under your thigh. If the hook is already in, backstep away from the hook's direction to remove your leg from the elevation angle rather than trying to muscle through the sweep with weight alone.",
+        "answer_line": "Widen base, block the hook",
+        "distractors": {
+          "plausible": [
+            "Sit back and pull guard",
+            "Push forward into the hook"
+          ],
+          "trap": [
+            "Ignore hook, drive the pass"
+          ]
+        }
       },
       {
         "question": "What is the most dangerous moment for the top player during a sweep attempt from headquarters?",
-        "answer": "The most dangerous moment is during your own passing transitions when weight shifts directionally to initiate a knee cut, toreando, or leg drag. At these moments your base is momentarily compromised and directionally committed, creating the exact vulnerability the sweep exploits. Maintaining awareness of sweep threats during transitions and keeping at least one stable base point throughout the movement is essential for safe headquarters passing."
+        "answer": "The most dangerous moment is during your own passing transitions when weight shifts directionally to initiate a knee cut, toreando, or leg drag. At these moments your base is momentarily compromised and directionally committed, creating the exact vulnerability the sweep exploits. Maintaining awareness of sweep threats during transitions and keeping at least one stable base point throughout the movement is essential for safe headquarters passing.",
+        "answer_line": "Your own passing weight shifts",
+        "distractors": {
+          "plausible": [
+            "While opponent underhooks you",
+            "When you have both legs posted"
+          ],
+          "trap": [
+            "Never - top position is safe"
+          ]
+        }
       },
       {
         "question": "How can you turn a failed sweep attempt by the bottom player into a passing opportunity?",
-        "answer": "When the bottom player commits to a sweep and fails, their hips are typically angled and their grips are extended for offense rather than guard retention, creating openings in their guard structure. Drive forward immediately through the failed sweep angle to exploit this gap. Their commitment to the sweep means their free leg and arms are positioned for offense rather than defense, making passes such as knee cuts or toreando significantly easier to complete before they can reorganize."
+        "answer": "When the bottom player commits to a sweep and fails, their hips are typically angled and their grips are extended for offense rather than guard retention, creating openings in their guard structure. Drive forward immediately through the failed sweep angle to exploit this gap. Their commitment to the sweep means their free leg and arms are positioned for offense rather than defense, making passes such as knee cuts or toreando significantly easier to complete before they can reorganize.",
+        "answer_line": "Drive through their failed angle",
+        "distractors": {
+          "plausible": [
+            "Wait for them to reset guard",
+            "Circle away to reset base"
+          ],
+          "trap": [
+            "Retreat and rebuild your grips"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -402,6 +554,17 @@
         "phase": "Phase 4: Live Integration",
         "focus": "Maintaining headquarters against sweep-focused opponents",
         "description": "Full resistance rounds starting from headquarters against a partner whose primary goal is to sweep. Develop the ability to pass while managing constant sweep threats, integrating sweep defense into your natural passing flow without disrupting offensive rhythm."
+      }
+    ],
+    "clips": [
+      {
+        "id": "YNcEX5v0bcs",
+        "title": "Seated escape basics",
+        "by": "Andre Galvao",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 70,
+        "verified": "2026-07-15"
       }
     ]
   }

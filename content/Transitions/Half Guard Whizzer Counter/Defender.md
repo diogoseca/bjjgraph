@@ -127,6 +127,43 @@ description: "How to defend the Half Guard Whizzer Counter in BJJ. Bottom-game p
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Half Guard Whizzer Counter (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Defeat the whizzer in the dogfight position",
+      "description": "Half Guard Whizzer Counter (Defender) film study: Defeat the whizzer in the dogfight position, taught by Grapplezilla.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/QpiSPUtLtpE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/QpiSPUtLtpE",
+      "url": "https://www.youtube.com/watch?v=QpiSPUtLtpE",
+      "creator": { "@type": "Person", "name": "Grapplezilla" },
+      "duration": "PT141S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Underhook fundamentals vs whizzer counter",
+      "description": "Half Guard Whizzer Counter (Defender) film study: Underhook fundamentals vs whizzer counter, taught by Bury BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/P4XzQEyx55c/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/P4XzQEyx55c",
+      "url": "https://www.youtube.com/watch?v=P4XzQEyx55c",
+      "creator": { "@type": "Person", "name": "Bury BJJ" },
+      "duration": "PT168S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <aside class="entity-relations">
@@ -143,6 +180,34 @@ The most common defensive mistakes are letting the underhook stay shallow so it 
 **Opponent's Starting Position**: [[Positions/Half Guard]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Half Guard Whizzer Counter (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=QpiSPUtLtpE)
+
+<p class="clip-credit"><strong>Defeat the whizzer in the dogfight position</strong> — taught by Grapplezilla · 2:21 · <a href="https://www.youtube.com/watch?v=QpiSPUtLtpE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=P4XzQEyx55c)
+
+<p class="clip-credit"><strong>Underhook fundamentals vs whizzer counter</strong> — taught by Bury BJJ · 2:48 · <a href="https://www.youtube.com/watch?v=P4XzQEyx55c" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

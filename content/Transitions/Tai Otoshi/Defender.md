@@ -148,6 +148,43 @@ description: "How to defend against Tai Otoshi in BJJ. Recognition cues, defensi
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Tai Otoshi (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Tai Otoshi Counter",
+      "description": "Tai Otoshi (Defender) film study: Tai Otoshi Counter, taught by Katelyn Jarrell.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/GHnOhjt4nn0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/GHnOhjt4nn0",
+      "url": "https://www.youtube.com/watch?v=GHnOhjt4nn0",
+      "creator": { "@type": "Person", "name": "Katelyn Jarrell" },
+      "duration": "PT95S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Ouchi-gari to Tai Otoshi counter",
+      "description": "Tai Otoshi (Defender) film study: Ouchi-gari to Tai Otoshi counter, taught by Judo PSG Club Australia.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/lyGzPirYRxM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/lyGzPirYRxM",
+      "url": "https://www.youtube.com/watch?v=lyGzPirYRxM",
+      "creator": { "@type": "Person", "name": "Judo PSG Club Australia" },
+      "duration": "PT13S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +194,34 @@ Defending Tai Otoshi requires understanding the throw's mechanical dependencies 
 **Opponent's Starting Position**: [[Positions/Standing Position]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Tai Otoshi (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=GHnOhjt4nn0)
+
+<p class="clip-credit"><strong>Tai Otoshi Counter</strong> — taught by Katelyn Jarrell · 1:35 · <a href="https://www.youtube.com/watch?v=GHnOhjt4nn0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=lyGzPirYRxM)
+
+<p class="clip-credit"><strong>Ouchi-gari to Tai Otoshi counter</strong> — taught by Judo PSG Club Australia · 0:13 · <a href="https://www.youtube.com/watch?v=lyGzPirYRxM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

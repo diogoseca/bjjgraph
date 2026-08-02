@@ -34,6 +34,54 @@ description: "Master Technical Mount to Mount consolidation in BJJ. Learn leg re
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Technical Mount to Mount \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Mount system breakdown",
+      "description": "Technical Mount to Mount film study: Mount system breakdown, taught by Gordon Ryan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/J2xs_-sAJMc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/J2xs_-sAJMc",
+      "url": "https://www.youtube.com/watch?v=J2xs_-sAJMc",
+      "creator": { "@type": "Person", "name": "Gordon Ryan" },
+      "duration": "PT239S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Controlling mount and technical mount",
+      "description": "Technical Mount to Mount film study: Controlling mount and technical mount, taught by Gordon Ryan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/kft2AkvKhWU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/kft2AkvKhWU",
+      "url": "https://www.youtube.com/watch?v=kft2AkvKhWU",
+      "creator": { "@type": "Person", "name": "Gordon Ryan" },
+      "duration": "PT538S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Technical mount and top movement basics",
+      "description": "Technical Mount to Mount film study: Technical mount and top movement basics, taught by Cal McDonald.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/WO2VgVacAbU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/WO2VgVacAbU",
+      "url": "https://www.youtube.com/watch?v=WO2VgVacAbU",
+      "creator": { "@type": "Person", "name": "Cal McDonald" },
+      "duration": "PT128S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ This transition reflects a fundamental principle of sophisticated mount offense:
 **Success Rate**: 55%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Technical Mount to Mount in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=J2xs_-sAJMc)
+
+<p class="clip-credit"><strong>Mount system breakdown</strong> — taught by Gordon Ryan · 3:59 · <a href="https://www.youtube.com/watch?v=J2xs_-sAJMc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=kft2AkvKhWU)
+
+<p class="clip-credit"><strong>Controlling mount and technical mount</strong> — taught by Gordon Ryan · 8:58 · <a href="https://www.youtube.com/watch?v=kft2AkvKhWU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=WO2VgVacAbU)
+
+<p class="clip-credit"><strong>Technical mount and top movement basics</strong> — taught by Cal McDonald · 2:08 · <a href="https://www.youtube.com/watch?v=WO2VgVacAbU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

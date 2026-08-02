@@ -170,6 +170,54 @@ description: "Learn to execute the belly down armbar finish from mounted triangl
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Belly Down Armbar from Mounted Triangle (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Mounted Triangle Armbar Variation",
+      "description": "Belly Down Armbar from Mounted Triangle (Attacker) film study: Mounted Triangle Armbar Variation, taught by Tommy.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ZLlkimwLb_Q/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ZLlkimwLb_Q",
+      "url": "https://www.youtube.com/watch?v=ZLlkimwLb_Q",
+      "creator": { "@type": "Person", "name": "Tommy" },
+      "duration": "PT103S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Roger Gracie Armbars",
+      "description": "Belly Down Armbar from Mounted Triangle (Attacker) film study: Roger Gracie Armbars, taught by Roger Gracie.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/vSmRbpNmf-E/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/vSmRbpNmf-E",
+      "url": "https://www.youtube.com/watch?v=vSmRbpNmf-E",
+      "creator": { "@type": "Person", "name": "Roger Gracie" },
+      "duration": "PT102S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Arm Triangle to Armbar to Belly Down",
+      "description": "Belly Down Armbar from Mounted Triangle (Attacker) film study: Arm Triangle to Armbar to Belly Down, taught by Sukrit Chandra.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/T8lhwzwE__c/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/T8lhwzwE__c",
+      "url": "https://www.youtube.com/watch?v=T8lhwzwE__c",
+      "creator": { "@type": "Person", "name": "Sukrit Chandra" },
+      "duration": "PT40S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -180,6 +228,42 @@ Attacking with the belly down armbar from mounted triangle requires mastering th
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Belly Down Armbar from Mounted Triangle (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ZLlkimwLb_Q)
+
+<p class="clip-credit"><strong>Mounted Triangle Armbar Variation</strong> — taught by Tommy · 1:43 · <a href="https://www.youtube.com/watch?v=ZLlkimwLb_Q" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=vSmRbpNmf-E)
+
+<p class="clip-credit"><strong>Roger Gracie Armbars</strong> — taught by Roger Gracie · 1:42 · <a href="https://www.youtube.com/watch?v=vSmRbpNmf-E" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=T8lhwzwE__c)
+
+<p class="clip-credit"><strong>Arm Triangle to Armbar to Belly Down</strong> — taught by Sukrit Chandra · 0:40 · <a href="https://www.youtube.com/watch?v=T8lhwzwE__c" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

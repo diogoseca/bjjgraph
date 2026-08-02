@@ -148,6 +148,43 @@ description: "How to defend against Counter Ashi Entry in BJJ. Recognition cues,
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Counter Ashi Entry (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Ashi garami entry against shin defense",
+      "description": "Counter Ashi Entry (Defender) film study: Ashi garami entry against shin defense, taught by Placido Santos.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/VIpOq3emUZ0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/VIpOq3emUZ0",
+      "url": "https://www.youtube.com/watch?v=VIpOq3emUZ0",
+      "creator": { "@type": "Person", "name": "Placido Santos" },
+      "duration": "PT150S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Securing saddle entries from guard",
+      "description": "Counter Ashi Entry (Defender) film study: Securing saddle entries from guard, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/K5XhO7o5QN0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/K5XhO7o5QN0",
+      "url": "https://www.youtube.com/watch?v=K5XhO7o5QN0",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT66S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -161,6 +198,34 @@ Understanding when the top player is likely to attempt Counter Ashi Entry allows
 **Opponent's Starting Position**: [[Positions/Ashi Garami]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Counter Ashi Entry (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=VIpOq3emUZ0)
+
+<p class="clip-credit"><strong>Ashi garami entry against shin defense</strong> — taught by Placido Santos · 2:30 · <a href="https://www.youtube.com/watch?v=VIpOq3emUZ0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=K5XhO7o5QN0)
+
+<p class="clip-credit"><strong>Securing saddle entries from guard</strong> — taught by Lachlan Giles · 1:06 · <a href="https://www.youtube.com/watch?v=K5XhO7o5QN0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

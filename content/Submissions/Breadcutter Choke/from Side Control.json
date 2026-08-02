@@ -18,7 +18,10 @@
   "target_area": "Carotid arteries and trachea",
   "starting_position": "Side Control",
   "from_position": "Side Control/Top",
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "overview": "The Breadcutter Choke from Side Control is a devastating gi-based blood choke that leverages the perpendicular alignment of standard side control to establish deep collar grips behind the opponent's neck. This submission exploits a mechanical advantage unique to side control: the attacker's body weight can be driven directly through the choking forearm while the collar grip creates a fixed fulcrum against the far-side carotid artery. The result is a scissors-like compression of both carotid arteries that produces rapid unconsciousness if not defended.\n\nThe setup rewards patience and positional dominance. From established side control, the attacker feeds the near-side lapel deep behind the opponent's neck with the cross-side hand, threading the fabric under the neck and securing a four-finger grip on the far collar as deep as possible. The finishing hand then reaches across the opponent's throat to grip the near-side lapel, creating the characteristic cross-collar configuration. The choke is completed by sprawling the hips away while driving the forearm across the neck and pulling the behind-the-neck grip upward.\n\nThis choke is particularly effective because opponents under side control typically prioritize defending arm attacks and preventing mount transitions, leaving the collar relatively accessible. The breadcutter can be set up incrementally during normal pressure maintenance, with the critical behind-the-neck grip established over several seconds before the opponent recognizes the threat. When combined with strong crossface pressure and hip control, the choke becomes extremely difficult to defend once both grips are secured.",
   "safety_considerations": {
     "injury_risks": [
@@ -104,17 +107,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 58,
+      "probability": {
+        "gi": 58,
+        "nogi": 58
+      },
       "result": "success"
     },
     {
       "to": "Side Control/Top",
-      "probability": 27,
+      "probability": {
+        "gi": 27,
+        "nogi": 27
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
@@ -282,42 +294,151 @@
       {
         "question": "What anatomical structures does the Breadcutter Choke primarily attack?",
         "answer": "The Breadcutter Choke primarily compresses both carotid arteries using a scissors-like action between the behind-the-neck collar grip and the cross-collar forearm. The collar pulls against one carotid while the forearm drives across the other, creating bilateral vascular compression that restricts blood flow to the brain.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Both carotid arteries",
+        "distractors": {
+          "plausible": [
+            "Windpipe and airway",
+            "Jaw and facial nerve"
+          ],
+          "trap": [
+            "Crank the neck for a spine lock"
+          ]
+        }
       },
       {
         "question": "Why is the depth of the behind-the-neck collar grip critical to finishing the choke?",
         "answer": "A deeper grip behind the neck means less distance is required to close the choking mechanism and more of the collar fabric contacts the far-side carotid artery. A shallow grip leaves slack that the opponent can exploit to create defensive space, and the collar may slide off the artery during the finishing sprawl, reducing compression effectiveness significantly.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Deeper grip closes choke sooner",
+        "distractors": {
+          "plausible": [
+            "Shallow grip is easier to hide",
+            "Only the cross forearm matters"
+          ],
+          "trap": [
+            "Sit up to reach deeper mid-feed"
+          ]
+        }
       },
       {
         "question": "What control must be maintained before initiating the collar feed to prevent escape?",
         "answer": "You must have established heavy side control with crossface pressure driving the opponent's face away, chest-to-chest perpendicular contact, and your near knee blocking their far hip. Without settled positional control, the opponent will escape during the grip transition phase when one of your hands is occupied with the lapel feed rather than controlling their body.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Crossface plus knee block hip",
+        "distractors": {
+          "plausible": [
+            "Underhook and head control",
+            "Chest pressure alone"
+          ],
+          "trap": [
+            "Release hip control first"
+          ]
+        }
       },
       {
         "question": "Your opponent tucks their chin tightly to block the forearm from crossing the throat - how do you adjust?",
         "answer": "Drive the forearm blade across the jawline rather than directly across the throat. The jaw acts as a lever that forces the chin up and exposes the neck. Alternatively, use the crossface hand to push their chin upward before sliding the choking forearm into position. The chin tuck defense becomes ineffective once the forearm gains purchase on the jaw.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Blade forearm across the jawline",
+        "distractors": {
+          "plausible": [
+            "Press straight into the windpipe",
+            "Pull the collar tighter instead"
+          ],
+          "trap": [
+            "Sit up and crank the head down"
+          ]
+        }
       },
       {
         "question": "What happens if the opponent bridges explosively during your finishing sprawl?",
         "answer": "If the grips are fully secured, maintain the sprawl and ride the bridge by keeping chest weight committed through the forearm. The bridge actually helps close the choke if your position is correct. If the grips are not fully set, the bridge may create enough space for them to turn in and recover guard, so you must abandon the choke and secure side control.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Maintain sprawl, ride the bridge",
+        "distractors": {
+          "plausible": [
+            "Posture up to tighten the choke",
+            "Follow them, re-clamp the grips"
+          ],
+          "trap": [
+            "Roll to back, finish from guard"
+          ]
+        }
       },
       {
         "question": "Why should you never spike or jerk the Breadcutter Choke during training?",
         "answer": "Sudden explosive force on the neck can cause tracheal damage, cervical spine injury, and carotid artery trauma that may require surgery and weeks to months of recovery. Blood chokes compress the carotid arteries and can cause unconsciousness within seconds, so a gradual controlled application gives the training partner adequate time to recognize the choke and tap before losing consciousness.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Risks neck injury, no tap time",
+        "distractors": {
+          "plausible": [
+            "So they have time to escape",
+            "So you don't catch them off guard"
+          ],
+          "trap": [
+            "The risk is only minor bruising"
+          ]
+        }
       },
       {
         "question": "What is the proper release protocol when your partner taps to the Breadcutter Choke?",
         "answer": "Immediately release the collar grip upon any tap signal, including verbal, physical hand or foot tap, or body going limp. Remove body weight and pressure from the opponent's neck, allow them to turn to a safe position, verify they are breathing normally and conscious, and give them recovery time before continuing. Never hold the choke even momentarily after a tap.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Release at once, check breathing",
+        "distractors": {
+          "plausible": [
+            "Only a verbal tap counts",
+            "Reset grips for the next rep"
+          ],
+          "trap": [
+            "Hold until they go limp"
+          ]
+        }
       },
       {
         "question": "How does the Breadcutter Choke chain with other attacks when the opponent defends the collar grip?",
         "answer": "When the opponent focuses on stripping collar grips, their arms move away from their body and their attention shifts to hand fighting. This opens opportunities for americana and kimura attacks on the exposed arms, arm triangle setups when they bring an arm across their neck defensively, and transitions to mount or knee on belly while they are occupied with grip defense rather than positional escape.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Americana or kimura on the arm",
+        "distractors": {
+          "plausible": [
+            "Wait until they stop stripping",
+            "Drop back for a leg attack"
+          ],
+          "trap": [
+            "Stand up to reset the grip fight"
+          ]
+        }
+      }
+    ],
+    "clips": [
+      {
+        "id": "vhFpxC1vCag",
+        "title": "Paper Cutter Choke with Lapel from Side Control",
+        "by": "Robert Hugus",
+        "vertical": false,
+        "channel": "Robert Hugus BJJ Videos",
+        "duration": 42,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "3SNZDysizY0",
+        "title": "Side Control Breadcutter Choke",
+        "by": "Nino Schembri",
+        "vertical": false,
+        "channel": "Nino Schembri BJJ Academy",
+        "duration": 46,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "xab75xOnHqk",
+        "title": "Bread Cutter Choke, Roger Gracie Style",
+        "by": "Andy Hagans",
+        "vertical": false,
+        "channel": "Guardian Jiu-Jitsu - Holland, Michigan",
+        "duration": 70,
+        "verified": "2026-07-14"
       }
     ]
   },
@@ -404,27 +525,77 @@
       {
         "question": "What is the earliest and most effective point to defend the Breadcutter Choke?",
         "answer": "The most effective defensive window is when the attacker first attempts to feed the lapel behind your neck. At this stage, a simple two-handed grip strip on their wrist completely resets the attack. Waiting until both collar grips are established makes defense significantly harder because you must overcome both the grip strength and the attacker's body weight simultaneously.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Strip wrist during lapel feed",
+        "distractors": {
+          "plausible": [
+            "Turn away once grip is set",
+            "Frame forearm once locked"
+          ],
+          "trap": [
+            "Wait for both grips first"
+          ]
+        }
       },
       {
         "question": "Why should you turn toward the attacker rather than away when defending this choke?",
         "answer": "Turning toward the attacker compresses the space behind your neck, making it harder for them to feed the lapel deeper. Turning away stretches the collar across your neck, actually tightening the existing grip and exposing more of your far collar. Additionally, turning away can expose your back, creating a worse position than the original side control bottom.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Turn in toward the attacker",
+        "distractors": {
+          "plausible": [
+            "Bridge straight backward",
+            "Flatten out and wait it out"
+          ],
+          "trap": [
+            "Roll away and give up your back"
+          ]
+        }
       },
       {
         "question": "When should you tap to the Breadcutter Choke to prevent injury?",
         "answer": "Tap immediately when you feel bilateral pressure on both sides of your neck and cannot effectively strip either collar grip. Blood chokes can cause unconsciousness in as few as four to six seconds once fully locked. Do not wait to see if you can tough it out. Use verbal tap, hand tap on opponent or mat, or foot tap on mat. Tap early and tap often in training.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Tap once grips can't be stripped",
+        "distractors": {
+          "plausible": [
+            "Only after you feel pain",
+            "When the pressure feels sharp"
+          ],
+          "trap": [
+            "Ride it out to build tolerance"
+          ]
+        }
       },
       {
         "question": "How does the attacker releasing hip control for collar grips create a defensive opportunity?",
         "answer": "When the attacker moves their hip-controlling hand to establish collar grips behind your neck, your hips are momentarily free from direct control. This creates a window to hip escape, insert your near knee between bodies, and recover half guard or closed guard. Recognizing this timing window is critical because the attacker cannot simultaneously control your hips and establish collar grips.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Hip escape, recover guard",
+        "distractors": {
+          "plausible": [
+            "Bench press off their chest",
+            "Attack their far-side arm"
+          ],
+          "trap": [
+            "Turn away, expose your back"
+          ]
+        }
       },
       {
         "question": "What defensive structure should you maintain against your neck while under Breadcutter Choke threat?",
         "answer": "Keep your near-side hand at collar level with fingers inside your own collar to block the attacker's hand from gripping the fabric behind your neck. Your far-side hand should be ready to strip any grip that gets past your initial defense. Elbows stay tight to your ribs to deny the hand path to the collar and maintain framing capability against the forearm if the cross grip is established.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Fingers inside your own collar",
+        "distractors": {
+          "plausible": [
+            "Grab both of their sleeves",
+            "Cover the neck with both palms"
+          ],
+          "trap": [
+            "Straight-arm their chest away"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -447,6 +618,35 @@
         "phase": "Phase 4: Live Positional Defense",
         "focus": "Full resistance defensive application",
         "description": "Start under side control with partner attacking the breadcutter at full speed and intent. Practice the complete defensive sequence from recognition through grip stripping to guard recovery against full resistance. Develop comfort with the choke pressure and confidence in your defensive timing."
+      }
+    ],
+    "clips": [
+      {
+        "id": "gwqRwPsnNnQ",
+        "title": "Paper Cutter Choke Counter",
+        "by": "Gracie Barra HQ",
+        "vertical": false,
+        "channel": "Gracie Barra HQ - California",
+        "duration": 195,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "WxoD5sDUyW4",
+        "title": "A more effective side control escape",
+        "by": "Wim Deputter",
+        "vertical": false,
+        "channel": "Wim Deputter BJJ",
+        "duration": 206,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "Us1B8R7jsHg",
+        "title": "Gi side control escape before the paper cutter",
+        "by": "Steve Codella",
+        "vertical": false,
+        "channel": "Jay Storm",
+        "duration": 147,
+        "verified": "2026-07-15"
       }
     ]
   }

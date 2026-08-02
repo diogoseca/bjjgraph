@@ -34,6 +34,43 @@ description: "Master the bridge escape from Reverse Kesa-Gatame in BJJ. Complete
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Bridge from Reverse Kesa-Gatame \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Kuzure kesa gatame escapes",
+      "description": "Bridge from Reverse Kesa-Gatame film study: Kuzure kesa gatame escapes, taught by Kodokan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/-zFQ6h4yKT4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/-zFQ6h4yKT4",
+      "url": "https://www.youtube.com/watch?v=-zFQ6h4yKT4",
+      "creator": { "@type": "Person", "name": "Kodokan" },
+      "duration": "PT70S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Kesa gatame bridge and reverse shrimp escape",
+      "description": "Bridge from Reverse Kesa-Gatame film study: Kesa gatame bridge and reverse shrimp escape, taught by JitzLive.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/iDi59hI5-YQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/iDi59hI5-YQ",
+      "url": "https://www.youtube.com/watch?v=iDi59hI5-YQ",
+      "creator": { "@type": "Person", "name": "JitzLive" },
+      "duration": "PT132S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +106,34 @@ Strategically, the bridge from Reverse Kesa-Gatame creates a binary risk-reward 
 **Success Rate**: 45%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Bridge from Reverse Kesa-Gatame in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=-zFQ6h4yKT4)
+
+<p class="clip-credit"><strong>Kuzure kesa gatame escapes</strong> — taught by Kodokan · 1:10 · <a href="https://www.youtube.com/watch?v=-zFQ6h4yKT4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=iDi59hI5-YQ)
+
+<p class="clip-credit"><strong>Kesa gatame bridge and reverse shrimp escape</strong> — taught by JitzLive · 2:12 · <a href="https://www.youtube.com/watch?v=iDi59hI5-YQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

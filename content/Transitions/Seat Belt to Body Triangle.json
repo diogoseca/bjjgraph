@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Body Triangle/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Seat Belt Control Back/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "The Seat Belt to Body Triangle transition converts standard hook-based back control into the mechanically superior body triangle configuration. From an established seat belt grip with hooks, the attacker threads one leg across the defender's torso and locks a figure-four behind their own knee, replacing bilateral hook control with a unified compression lock that restricts breathing and eliminates standard hook-clearing escapes. This upgrade represents a critical decision point in back control: sacrificing the dynamic mobility of hooks for the static mechanical dominance of the triangle lock.\n\nStrategically, this transition is most effective when the attacker has already stabilized seat belt control and the defender has begun working systematic hook-clearing sequences. The body triangle negates the defender's primary escape pathway—individually removing hooks—by replacing two independent control points with a single locked structure. The breathing restriction compounds over time, creating urgency that forces defensive errors and opens submission opportunities. However, the transition itself requires temporarily releasing one hook, creating a vulnerability window that skilled defenders exploit through explosive hip movement or guard recovery.\n\nThe timing and leg selection are critical. Threading the leg across the defender's centerline requires momentary space creation, and choosing the correct side—typically the side where your hips are positioned on the mat—determines the squeeze angle and effectiveness. Elite practitioners treat this not as an isolated technique but as a positional upgrade within a broader back attack system, where the body triangle serves as a platform for sustained pressure and methodical submission hunting.",
   "conditions": [
     "Seat belt grip firmly established with hands connected and chest-to-back pressure maintained",
@@ -234,46 +246,175 @@
     "flashcards": [
       {
         "question": "What is the optimal timing window for initiating the seat belt to body triangle transition?",
-        "answer": "The optimal timing window occurs when the defender is in a passive moment — specifically after a failed escape attempt when they pause to breathe, while they are actively defending their neck with both hands (which means they are not fighting hooks), or during the brief reset period between defensive sequences. Initiating during active hip escaping or hook fighting dramatically increases failure probability because the defender's momentum compounds with your hook release to create positional instability."
+        "answer": "The optimal timing window occurs when the defender is in a passive moment — specifically after a failed escape attempt when they pause to breathe, while they are actively defending their neck with both hands (which means they are not fighting hooks), or during the brief reset period between defensive sequences. Initiating during active hip escaping or hook fighting dramatically increases failure probability because the defender's momentum compounds with your hook release to create positional instability.",
+        "answer_line": "When they pause, hands on neck",
+        "distractors": {
+          "plausible": [
+            "While they actively hip escape",
+            "Right after you lock the seat belt"
+          ],
+          "trap": [
+            "Mid hook-fight, rip your hook free"
+          ]
+        }
       },
       {
         "question": "Why must the seat belt grip remain connected throughout the entire threading process?",
-        "answer": "The seat belt grip is the structural foundation of back control. During the transition, you temporarily reduce leg control from two hooks to one hook while threading. If the seat belt is also released, you have neither adequate upper body nor lower body control, creating a catastrophic vulnerability window where the defender can turn, frame, and escape. The seat belt must compensate for reduced leg control during the threading phase — it is the only thing preventing the defender from converting your transition attempt into an escape."
+        "answer": "The seat belt grip is the structural foundation of back control. During the transition, you temporarily reduce leg control from two hooks to one hook while threading. If the seat belt is also released, you have neither adequate upper body nor lower body control, creating a catastrophic vulnerability window where the defender can turn, frame, and escape. The seat belt must compensate for reduced leg control during the threading phase — it is the only thing preventing the defender from converting your transition attempt into an escape.",
+        "answer_line": "Compensates for lost hook control",
+        "distractors": {
+          "plausible": [
+            "Keeps chest sealed to their back",
+            "Thread both hooks before regripping"
+          ],
+          "trap": [
+            "Let go to thread the hooks faster"
+          ]
+        }
       },
       {
         "question": "Your crossing leg is halfway across the defender's torso when they grab it with both hands — what do you do?",
-        "answer": "Recognize that both of the defender's hands on your leg means zero hands defending their neck. You have two viable options: immediately attack the rear naked choke since the neck is undefended, which forces them to release your leg to defend; or use increased seat belt pressure and hip drive to pin their arms against their body while completing the threading with mechanical advantage. The defender grabbing your leg is actually an offensive opportunity if you recognize it quickly."
+        "answer": "Recognize that both of the defender's hands on your leg means zero hands defending their neck. You have two viable options: immediately attack the rear naked choke since the neck is undefended, which forces them to release your leg to defend; or use increased seat belt pressure and hip drive to pin their arms against their body while completing the threading with mechanical advantage. The defender grabbing your leg is actually an offensive opportunity if you recognize it quickly.",
+        "answer_line": "Attack the choke, neck's undefended",
+        "distractors": {
+          "plausible": [
+            "Yank leg free and restart",
+            "Abort and re-insert both hooks"
+          ],
+          "trap": [
+            "Fight their grip hand-to-hand"
+          ]
+        }
       },
       {
         "question": "What determines which leg you should thread across the defender's torso?",
-        "answer": "The primary determinant is your hip position relative to the mat. Thread the top leg — the one on the side away from the mat — because it has natural clearance over the defender's body and requires less hip adjustment to cross their centerline. The bottom leg (mat side) serves as the stabilizing hook during the transition and later becomes the closing leg of the figure-four. Threading the bottom leg is possible but requires a hip lift that creates additional instability and is generally reserved for situations where the top hook has been partially cleared."
+        "answer": "The primary determinant is your hip position relative to the mat. Thread the top leg — the one on the side away from the mat — because it has natural clearance over the defender's body and requires less hip adjustment to cross their centerline. The bottom leg (mat side) serves as the stabilizing hook during the transition and later becomes the closing leg of the figure-four. Threading the bottom leg is possible but requires a hip lift that creates additional instability and is generally reserved for situations where the top hook has been partially cleared.",
+        "answer_line": "Thread the top leg, away from mat",
+        "distractors": {
+          "plausible": [
+            "Thread whichever hook is loosest",
+            "Thread the mat-side bottom leg"
+          ],
+          "trap": [
+            "Thread the leg closest to their head"
+          ]
+        }
       },
       {
         "question": "What is the correct height for positioning the body triangle lock on the defender's torso?",
-        "answer": "The lock should sit around the lower ribcage and diaphragm area, approximately at the defender's belly button level. This position maximizes breathing restriction because the lower ribs are more compressible than the upper ribs, and the diaphragm compression directly limits their ability to take full breaths. Too high (near armpits) provides poor compression and easy clearing. Too low (around hips) provides minimal breathing restriction and may slip off entirely. The hip bones serve as a natural shelf that prevents the properly positioned lock from sliding downward."
+        "answer": "The lock should sit around the lower ribcage and diaphragm area, approximately at the defender's belly button level. This position maximizes breathing restriction because the lower ribs are more compressible than the upper ribs, and the diaphragm compression directly limits their ability to take full breaths. Too high (near armpits) provides poor compression and easy clearing. Too low (around hips) provides minimal breathing restriction and may slip off entirely. The hip bones serve as a natural shelf that prevents the properly positioned lock from sliding downward.",
+        "answer_line": "Lower ribs, near the belly button",
+        "distractors": {
+          "plausible": [
+            "High near the armpits for control",
+            "Low around the hip bones"
+          ],
+          "trap": [
+            "Wherever the legs naturally land"
+          ]
+        }
       },
       {
         "question": "How do you distinguish between a deep figure-four lock and a shallow one, and why does this matter?",
-        "answer": "A deep lock has the closing foot tucked completely behind the knee crease with no portion of the foot exposed — you should be able to squeeze your legs together and feel the ankle bone firmly seated in the knee pit. A shallow lock has the foot resting on the calf muscle with visible exposure. This distinction matters because a shallow lock can be opened through direct hand attack on the exposed foot, hip rotation that leverages the foot free, or simple gradual slippage under pressure. A deep lock is structurally self-reinforcing — squeezing tighter drives the foot deeper behind the knee."
+        "answer": "A deep lock has the closing foot tucked completely behind the knee crease with no portion of the foot exposed — you should be able to squeeze your legs together and feel the ankle bone firmly seated in the knee pit. A shallow lock has the foot resting on the calf muscle with visible exposure. This distinction matters because a shallow lock can be opened through direct hand attack on the exposed foot, hip rotation that leverages the foot free, or simple gradual slippage under pressure. A deep lock is structurally self-reinforcing — squeezing tighter drives the foot deeper behind the knee.",
+        "answer_line": "Ankle seated deep behind knee crease",
+        "distractors": {
+          "plausible": [
+            "Foot resting flat on the calf",
+            "Legs crossed tightly at the shins"
+          ],
+          "trap": [
+            "Squeeze harder to fix a shallow lock"
+          ]
+        }
       },
       {
         "question": "The defender bridges explosively just as you begin threading your crossing leg — what is your immediate response?",
-        "answer": "Immediately abort the threading attempt and re-insert the hook to restore bilateral control. Follow the bridge by dropping your weight lower, tightening chest-to-back pressure, and driving both hooks deeper. Do not attempt to race through the threading during a bridge — the instability from reduced hook control combined with the defender's explosive movement creates the highest-probability failure scenario. Re-stabilize completely, wait for the next passive window, then attempt again."
+        "answer": "Immediately abort the threading attempt and re-insert the hook to restore bilateral control. Follow the bridge by dropping your weight lower, tightening chest-to-back pressure, and driving both hooks deeper. Do not attempt to race through the threading during a bridge — the instability from reduced hook control combined with the defender's explosive movement creates the highest-probability failure scenario. Re-stabilize completely, wait for the next passive window, then attempt again.",
+        "answer_line": "Abort, re-insert hook, drop weight",
+        "distractors": {
+          "plausible": [
+            "Push through the thread quickly",
+            "Switch to the other hook instead"
+          ],
+          "trap": [
+            "Race to finish threading mid-bridge"
+          ]
+        }
       },
       {
         "question": "After establishing the body triangle, what attacks become more effective compared to standard hook control?",
-        "answer": "The body triangle amplifies all upper body attacks because the breathing restriction creates compounding urgency — the defender must address both the squeeze and the submission threat simultaneously. The rear naked choke becomes significantly more effective because the defender cannot fully expand their chest to create defensive space. The bow and arrow choke benefits from the immobilized hips preventing defensive rotation. Armbar setups improve because the defender's reduced oxygen makes sustained grip fighting more difficult. The body triangle squeeze itself can serve as a submission or force tap through sustained rib compression."
+        "answer": "The body triangle amplifies all upper body attacks because the breathing restriction creates compounding urgency — the defender must address both the squeeze and the submission threat simultaneously. The rear naked choke becomes significantly more effective because the defender cannot fully expand their chest to create defensive space. The bow and arrow choke benefits from the immobilized hips preventing defensive rotation. Armbar setups improve because the defender's reduced oxygen makes sustained grip fighting more difficult. The body triangle squeeze itself can serve as a submission or force tap through sustained rib compression.",
+        "answer_line": "Upper-body chokes amplified",
+        "distractors": {
+          "plausible": [
+            "Leg attacks from the triangle",
+            "Kimura replaces the choke"
+          ],
+          "trap": [
+            "Release the seatbelt to armbar"
+          ]
+        }
       },
       {
         "question": "You notice the defender has both hands tucked under their chin defending a choke — is this the right moment to initiate the body triangle transition?",
-        "answer": "Yes, this is an excellent timing window. When both of the defender's hands are committed to neck defense, they cannot fight your hooks, grab your threading leg, or generate hip escapes effectively. Their defensive focus is entirely on the upper body threat, leaving the lower body transition largely uncontested. Increase seat belt pressure slightly to reinforce their commitment to neck defense, then begin threading smoothly. The defender faces a dilemma: abandon neck defense to fight your legs and risk being choked, or allow the body triangle to lock and face compounding pressure from both the squeeze and continued choke threats."
+        "answer": "Yes, this is an excellent timing window. When both of the defender's hands are committed to neck defense, they cannot fight your hooks, grab your threading leg, or generate hip escapes effectively. Their defensive focus is entirely on the upper body threat, leaving the lower body transition largely uncontested. Increase seat belt pressure slightly to reinforce their commitment to neck defense, then begin threading smoothly. The defender faces a dilemma: abandon neck defense to fight your legs and risk being choked, or allow the body triangle to lock and face compounding pressure from both the squeeze and continued choke threats.",
+        "answer_line": "Yes, thread legs while hands defend",
+        "distractors": {
+          "plausible": [
+            "No, finish the choke first",
+            "Wait for a hand to come free"
+          ],
+          "trap": [
+            "Loosen seat belt to thread faster"
+          ]
+        }
       },
       {
         "question": "After locking the body triangle, you realize the lock has slipped too low around the defender's hips rather than their lower ribs — how do you correct this without losing the lock?",
-        "answer": "Use hip extension and a slight upward hip walk to slide the triangle higher on the defender's torso. Maintain the figure-four lock throughout the adjustment — do not unlock and re-lock, as this creates an escape window. Pull the defender's upper body toward you with the seat belt while driving your hips forward and slightly upward, using the friction of your legs against their body to inch the lock higher. Time each adjustment with a squeeze pulse that pins the defender's torso while your hips reposition. The hip bones will catch the lock once you reach the lower ribcage area, preventing further slippage."
+        "answer": "Use hip extension and a slight upward hip walk to slide the triangle higher on the defender's torso. Maintain the figure-four lock throughout the adjustment — do not unlock and re-lock, as this creates an escape window. Pull the defender's upper body toward you with the seat belt while driving your hips forward and slightly upward, using the friction of your legs against their body to inch the lock higher. Time each adjustment with a squeeze pulse that pins the defender's torso while your hips reposition. The hip bones will catch the lock once you reach the lower ribcage area, preventing further slippage.",
+        "answer_line": "Hip walk up, keep figure-four locked",
+        "distractors": {
+          "plausible": [
+            "Unlock briefly then re-lock higher",
+            "Pull seat belt harder, ignore hips"
+          ],
+          "trap": [
+            "Open the lock to reposition freely"
+          ]
+        }
       }
     ],
-    "safety_considerations": "The Seat Belt to Body Triangle transition itself carries moderate injury risk primarily during the threading phase. Avoid explosive leg swings that could impact the defender's ribs, floating ribs, or spine. Once the body triangle is established, apply compression gradually rather than slamming into maximum squeeze — sudden full-power compression on the ribcage can cause rib fractures or cartilage damage, particularly against smaller training partners. In training, communicate with your partner about pressure levels and release immediately upon tap. Be especially careful with the lock positioning — a triangle locked across the lower spine rather than the ribs can cause lumbar compression injuries."
+    "safety_considerations": "The Seat Belt to Body Triangle transition itself carries moderate injury risk primarily during the threading phase. Avoid explosive leg swings that could impact the defender's ribs, floating ribs, or spine. Once the body triangle is established, apply compression gradually rather than slamming into maximum squeeze — sudden full-power compression on the ribcage can cause rib fractures or cartilage damage, particularly against smaller training partners. In training, communicate with your partner about pressure levels and release immediately upon tap. Be especially careful with the lock positioning — a triangle locked across the lower spine rather than the ribs can cause lumbar compression injuries.",
+    "clips": [
+      {
+        "id": "3OkCuU0B0UE",
+        "title": "Attacking the back with a body triangle",
+        "by": "Grapple Box",
+        "vertical": false,
+        "channel": "Grapple Box llc",
+        "duration": 28,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "8JwxpgWGsFU",
+        "title": "How to properly use the body triangle",
+        "by": "Gordon Ryan",
+        "vertical": false,
+        "channel": "Less Impressed More Involved BJJ",
+        "duration": 294,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "TFKAmteeVIA",
+        "title": "Body triangle troubleshooting from back control",
+        "by": "Tom Halpin",
+        "vertical": false,
+        "channel": "Tom Halpin",
+        "duration": 186,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Seat Belt to Body Triangle Defender",
@@ -358,23 +499,73 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that the attacker is attempting the body triangle transition rather than just adjusting their hooks?",
-        "answer": "The earliest cue is feeling one hook begin to withdraw from inside your thigh while simultaneously experiencing increased seat belt pressure and chest compression. Normal hook adjustments maintain the hook inside your thigh — they shift position but don't withdraw. The threading attempt requires the hook to come completely out of your thigh to cross your torso. Additionally, the attacker's hip pressure often increases against the mat as they establish a stable threading base, which feels different from the dynamic hip movement of standard back control."
+        "answer": "The earliest cue is feeling one hook begin to withdraw from inside your thigh while simultaneously experiencing increased seat belt pressure and chest compression. Normal hook adjustments maintain the hook inside your thigh — they shift position but don't withdraw. The threading attempt requires the hook to come completely out of your thigh to cross your torso. Additionally, the attacker's hip pressure often increases against the mat as they establish a stable threading base, which feels different from the dynamic hip movement of standard back control.",
+        "answer_line": "Hook fully withdraws from your thigh",
+        "distractors": {
+          "plausible": [
+            "Seat belt grip loosens slightly",
+            "Their hips start moving dynamically"
+          ],
+          "trap": [
+            "Feeling both hooks tighten together"
+          ]
+        }
       },
       {
         "question": "Why is defending during the threading phase far more effective than defending after the body triangle locks?",
-        "answer": "During the threading phase, the attacker has voluntarily reduced their leg control from two independent hooks to a single hook plus a crossing leg that provides no control until locked. This is the weakest point of their back control during the entire transition. After the lock closes, you face a unified mechanical structure that eliminates your primary escape pathways — hook clearing — and adds breathing restriction that compounds over time. Defending during threading requires one well-timed hip escape; escaping an established body triangle requires sustained technical work under physiological stress."
+        "answer": "During the threading phase, the attacker has voluntarily reduced their leg control from two independent hooks to a single hook plus a crossing leg that provides no control until locked. This is the weakest point of their back control during the entire transition. After the lock closes, you face a unified mechanical structure that eliminates your primary escape pathways — hook clearing — and adds breathing restriction that compounds over time. Defending during threading requires one well-timed hip escape; escaping an established body triangle requires sustained technical work under physiological stress.",
+        "answer_line": "Only one hook controls you then",
+        "distractors": {
+          "plausible": [
+            "Their grips are weaker while moving",
+            "You have both hands totally free"
+          ],
+          "trap": [
+            "Squeeze pressure is strongest then"
+          ]
+        }
       },
       {
         "question": "Your hands are already defending your neck when you feel the threading begin — how do you defend without compromising neck protection?",
-        "answer": "Use your hips and legs as the primary defense rather than your hands. Execute an immediate hip escape away from the remaining hook, which creates distance that prevents the crossing leg from completing its path. Simultaneously bring your knees together and tuck them toward your chest, which physically blocks the threading leg's path across your torso without requiring any hand involvement. Your hands remain on neck defense throughout. This hip-and-knee defense is actually more effective than hand blocking because it addresses the root mechanic of the transition."
+        "answer": "Use your hips and legs as the primary defense rather than your hands. Execute an immediate hip escape away from the remaining hook, which creates distance that prevents the crossing leg from completing its path. Simultaneously bring your knees together and tuck them toward your chest, which physically blocks the threading leg's path across your torso without requiring any hand involvement. Your hands remain on neck defense throughout. This hip-and-knee defense is actually more effective than hand blocking because it addresses the root mechanic of the transition.",
+        "answer_line": "Hip escape, knees block the thread",
+        "distractors": {
+          "plausible": [
+            "Drop one hand to grab the leg",
+            "Bridge hard to buck them off"
+          ],
+          "trap": [
+            "Release neck defense to block leg"
+          ]
+        }
       },
       {
         "question": "The body triangle has just locked but the attacker has not yet established full squeeze pressure — what immediate action gives you the best escape chance?",
-        "answer": "Attack the figure-four lock immediately before the attacker settles their weight and begins squeezing. Target the foot tucked behind their knee — push it out of the knee crease using your nearest hand while simultaneously turning your hips toward the triangle leg side. The first 3-5 seconds after the lock closes offer the best clearing opportunity because the attacker is still adjusting their position and the lock has not yet been reinforced by sustained squeeze pressure. Once they settle and squeeze, clearing becomes exponentially more difficult."
+        "answer": "Attack the figure-four lock immediately before the attacker settles their weight and begins squeezing. Target the foot tucked behind their knee — push it out of the knee crease using your nearest hand while simultaneously turning your hips toward the triangle leg side. The first 3-5 seconds after the lock closes offer the best clearing opportunity because the attacker is still adjusting their position and the lock has not yet been reinforced by sustained squeeze pressure. Once they settle and squeeze, clearing becomes exponentially more difficult.",
+        "answer_line": "Push foot out, turn hips immediately",
+        "distractors": {
+          "plausible": [
+            "Wait for them to settle, then move",
+            "Attack their seat belt hands first"
+          ],
+          "trap": [
+            "Try to power through a hip bridge"
+          ]
+        }
       },
       {
         "question": "How should you adjust your overall escape strategy when you realize the attacker is likely to attempt the body triangle transition?",
-        "answer": "Shift from methodical hook-clearing escapes to more urgent, timing-based defensive actions. Increase your hip activity to make the attacker's threading timing-dependent rather than available at will. Consider initiating your own escape attempt precisely when they begin the transition — their commitment to the threading reduces their ability to counter your escape, creating a race condition where their positional upgrade competes with your escape. If you cannot prevent the transition, begin working standard body triangle escapes immediately rather than wasting energy on hook-clearing sequences that no longer apply."
+        "answer": "Shift from methodical hook-clearing escapes to more urgent, timing-based defensive actions. Increase your hip activity to make the attacker's threading timing-dependent rather than available at will. Consider initiating your own escape attempt precisely when they begin the transition — their commitment to the threading reduces their ability to counter your escape, creating a race condition where their positional upgrade competes with your escape. If you cannot prevent the transition, begin working standard body triangle escapes immediately rather than wasting energy on hook-clearing sequences that no longer apply.",
+        "answer_line": "Race your escape as they transition",
+        "distractors": {
+          "plausible": [
+            "Keep clearing hooks methodically",
+            "Start body-triangle escapes now"
+          ],
+          "trap": [
+            "Roll belly-down to shake them"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -397,6 +588,35 @@
         "phase": "Phase 4: Live Defensive Sparring",
         "focus": "Preventing body triangle under full resistance conditions",
         "description": "Positional sparring starting from seat belt back control. Attacker's explicit goal is establishing body triangle. Defender's goal is preventing the transition for 2-minute rounds. Track success rates. If body triangle locks, continue sparring with defender working to clear the lock, providing realistic consequences for failed prevention and developing post-lock escape skills."
+      }
+    ],
+    "clips": [
+      {
+        "id": "hCu7SXEaXjc",
+        "title": "Defending the figure-4 body triangle from the back",
+        "by": "Whangarei BJJ",
+        "vertical": false,
+        "channel": "Whangarei BJJ",
+        "duration": 67,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "CUZLhGfADcA",
+        "title": "Body triangle footlock counter",
+        "by": "MMA Academy Online",
+        "vertical": false,
+        "channel": "MMA ACADEMY ONLINE",
+        "duration": 51,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "hgaULMND3ag",
+        "title": "Escaping the body triangle",
+        "by": "Coach Brian",
+        "vertical": false,
+        "channel": "TeachMeGrappling Coach Brian",
+        "duration": 129,
+        "verified": "2026-07-15"
       }
     ]
   }

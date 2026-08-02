@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Mounted Crucifix/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "S Mount/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "summary": "The Mounted Crucifix Entry is a transition from S Mount where the top player threads a leg over the opponent's exposed far arm to trap both arms, advancing to the dominant Mounted Crucifix control position.",
   "overview": "The Mounted Crucifix Entry is an advanced transition that capitalizes on the arm isolation opportunities inherent in S Mount to establish one of the most dominant control positions in Brazilian Jiu-Jitsu. This technique transforms the attacking angle of S Mount into complete upper body control by threading your legs over both of the opponent's arms, effectively removing their primary defensive tools.\n\nFrom a strategic standpoint, the mounted crucifix entry represents the natural evolution of S Mount attacking sequences. When opponents successfully defend armbar attempts by bending their arms or bringing their free arm across to defend, they inadvertently expose themselves to crucifix control. The entry exploits the defensive arm positioning that often follows failed submission attempts, turning opponent defense into opportunity for advancement.\n\nThe technical requirements for this entry demand precise timing and weight distribution. You must maintain sufficient mount pressure to prevent bridging escapes while creating the space needed to thread your leg over the opponent's second arm. This balance between control and mobility distinguishes successful crucifix entries from failed attempts that result in positional loss. The transition requires reading opponent reactions and capitalizing on their defensive movements rather than forcing the position against strong resistance.",
   "conditions": [
@@ -202,54 +214,203 @@
     "flashcards": [
       {
         "question": "What is the primary goal of the Mounted Crucifix Entry transition?",
-        "answer": "The primary goal is to advance from S Mount to Mounted Crucifix by trapping both of the opponent's arms with your legs. This removes their primary defensive tools (frames and grips), creating an extremely dominant control position with multiple high-percentage submission opportunities including chokes and armbars."
+        "answer": "The primary goal is to advance from S Mount to Mounted Crucifix by trapping both of the opponent's arms with your legs. This removes their primary defensive tools (frames and grips), creating an extremely dominant control position with multiple high-percentage submission opportunities including chokes and armbars.",
+        "answer_line": "Trap both arms with legs",
+        "distractors": {
+          "plausible": [
+            "Isolate one arm for armbar",
+            "Set up transition to back"
+          ],
+          "trap": [
+            "Let go of near-arm control"
+          ]
+        }
       },
       {
         "question": "When should you abandon the crucifix entry attempt and return to standard S Mount attacks?",
-        "answer": "Abandon the crucifix entry when opponent maintains strong arm positioning close to their body without exposing the far arm, when your weight shift creates excessive space allowing their hip escape, or after two failed threading attempts. Forcing the crucifix against solid defense wastes energy and may result in complete position loss. The armbar from S Mount remains high percentage even when crucifix is unavailable."
+        "answer": "Abandon the crucifix entry when opponent maintains strong arm positioning close to their body without exposing the far arm, when your weight shift creates excessive space allowing their hip escape, or after two failed threading attempts. Forcing the crucifix against solid defense wastes energy and may result in complete position loss. The armbar from S Mount remains high percentage even when crucifix is unavailable.",
+        "answer_line": "No exposure after two attempts",
+        "distractors": {
+          "plausible": [
+            "Only after opponent bridges",
+            "Only once armbar fails"
+          ],
+          "trap": [
+            "Force it until arm frees"
+          ]
+        }
       },
       {
         "question": "Your opponent defends your armbar by bending their arm and gripping their collar - how does this create crucifix opportunity?",
-        "answer": "When opponents bend their arm and grip their collar for armbar defense, they must bring their far arm across their body to reach their collar or the defending arm. This defensive arm crossing exposes it for leg threading. Additionally, their focus on preventing arm extension means they often neglect the incoming leg trap. Time your leg thread immediately when you see the grip establish."
+        "answer": "When opponents bend their arm and grip their collar for armbar defense, they must bring their far arm across their body to reach their collar or the defending arm. This defensive arm crossing exposes it for leg threading. Additionally, their focus on preventing arm extension means they often neglect the incoming leg trap. Time your leg thread immediately when you see the grip establish.",
+        "answer_line": "Grip pulls far arm across body",
+        "distractors": {
+          "plausible": [
+            "They open guard defense",
+            "Focus shifts to their legs"
+          ],
+          "trap": [
+            "Wait for them to release grip"
+          ]
+        }
       },
       {
         "question": "What weight distribution adjustments are required during the leg threading phase?",
-        "answer": "Shift weight forward onto your chest and posting arm before lifting your far leg to thread over opponent's arm. This forward shift serves two purposes: it creates space for leg movement by reducing pressure on your seated position, and it prevents opponent from using the transition moment to bridge effectively. The posting arm provides stability during the single-leg balance phase."
+        "answer": "Shift weight forward onto your chest and posting arm before lifting your far leg to thread over opponent's arm. This forward shift serves two purposes: it creates space for leg movement by reducing pressure on your seated position, and it prevents opponent from using the transition moment to bridge effectively. The posting arm provides stability during the single-leg balance phase.",
+        "answer_line": "Shift forward before leg lift",
+        "distractors": {
+          "plausible": [
+            "Shift backward for space",
+            "Keep weight centered, lift leg"
+          ],
+          "trap": [
+            "Lean back to free your leg"
+          ]
+        }
       },
       {
         "question": "What immediate action must you take the instant your leg lands over the opponent's second arm?",
-        "answer": "Squeeze both knees together immediately in a vice-like clamp pinching both of opponent's arms between your shins. This knee squeeze must be automatic and instantaneous - any delay allows opponent to extract one or both arms before control establishes. Think of the leg landing and knee squeeze as a single combined motion rather than two separate actions."
+        "answer": "Squeeze both knees together immediately in a vice-like clamp pinching both of opponent's arms between your shins. This knee squeeze must be automatic and instantaneous - any delay allows opponent to extract one or both arms before control establishes. Think of the leg landing and knee squeeze as a single combined motion rather than two separate actions.",
+        "answer_line": "Squeeze knees together instantly",
+        "distractors": {
+          "plausible": [
+            "Post hand then squeeze knees",
+            "Secure grip before squeezing"
+          ],
+          "trap": [
+            "Pause to check arm position"
+          ]
+        }
       },
       {
         "question": "How do you respond when opponent explosively bridges during your weight shift for the crucifix entry?",
-        "answer": "Post immediately with your free hand in the direction of their bridge to prevent being displaced. Ride the bridge by moving your hips with their movement rather than fighting against it. Once the bridge settles, re-establish S Mount pressure before considering another crucifix attempt. Do not try to complete the leg thread mid-bridge as this typically results in losing mount entirely."
+        "answer": "Post immediately with your free hand in the direction of their bridge to prevent being displaced. Ride the bridge by moving your hips with their movement rather than fighting against it. Once the bridge settles, re-establish S Mount pressure before considering another crucifix attempt. Do not try to complete the leg thread mid-bridge as this typically results in losing mount entirely.",
+        "answer_line": "Post, ride bridge, reset S mount",
+        "distractors": {
+          "plausible": [
+            "Fight bridge with your weight",
+            "Retreat and reset from scratch"
+          ],
+          "trap": [
+            "Finish leg thread mid-bridge"
+          ]
+        }
       },
       {
         "question": "What distinguishes a successful leg threading motion from one that creates escape opportunities?",
-        "answer": "Successful threading uses hip rotation to slide the leg low and tight over the arm rather than lifting the leg high. High lifting creates space underneath your body that opponents exploit for hip escapes or arm extraction. Keep your chest down and connected to opponent while using rotational hip mechanics. The leg should travel in an arc close to opponent's body rather than up and over in a wide motion."
+        "answer": "Successful threading uses hip rotation to slide the leg low and tight over the arm rather than lifting the leg high. High lifting creates space underneath your body that opponents exploit for hip escapes or arm extraction. Keep your chest down and connected to opponent while using rotational hip mechanics. The leg should travel in an arc close to opponent's body rather than up and over in a wide motion.",
+        "answer_line": "Low hip-driven arc, not lift",
+        "distractors": {
+          "plausible": [
+            "Lift leg high and fast",
+            "Push chest up for space"
+          ],
+          "trap": [
+            "Swing leg wide and high"
+          ]
+        }
       },
       {
         "question": "Your opponent keeps their far arm tight to their body refusing to expose it - what setup can bait the arm out?",
-        "answer": "Feint armbar attacks on the already-isolated near arm while watching for the far arm to reach across defensively. You can also threaten a mounted triangle by starting to swing your leg toward their head, which often prompts them to push against your leg with their far arm. Any time they reach to prevent a submission, the arm becomes exposed for crucifix entry."
+        "answer": "Feint armbar attacks on the already-isolated near arm while watching for the far arm to reach across defensively. You can also threaten a mounted triangle by starting to swing your leg toward their head, which often prompts them to push against your leg with their far arm. Any time they reach to prevent a submission, the arm becomes exposed for crucifix entry.",
+        "answer_line": "Feint armbar or mounted triangle",
+        "distractors": {
+          "plausible": [
+            "Wait for them to move first",
+            "Grip fight for the far wrist"
+          ],
+          "trap": [
+            "Release near arm to bait far"
+          ]
+        }
       },
       {
         "question": "What common error causes practitioners to lose mount entirely during crucifix entry attempts?",
-        "answer": "Attempting the crucifix entry before establishing solid S Mount control is the primary cause of complete position loss. Without proper hip-to-shoulder pressure and stable leg positioning in S Mount, the weight shift required for leg threading creates enough space for opponent to execute hip escapes or reversal attempts. Always consolidate S Mount fully before transitioning."
+        "answer": "Attempting the crucifix entry before establishing solid S Mount control is the primary cause of complete position loss. Without proper hip-to-shoulder pressure and stable leg positioning in S Mount, the weight shift required for leg threading creates enough space for opponent to execute hip escapes or reversal attempts. Always consolidate S Mount fully before transitioning.",
+        "answer_line": "Skipping solid S Mount first",
+        "distractors": {
+          "plausible": [
+            "Threading leg too cautiously",
+            "Over-committing to armbar first"
+          ],
+          "trap": [
+            "Loosening base to thread faster"
+          ]
+        }
       },
       {
         "question": "How should you adjust if opponent successfully extracts one arm during your crucifix establishment?",
-        "answer": "If one arm extracts while the other remains trapped, you have effectively returned to S Mount position with single arm isolation. Continue attacking with armbar on the trapped arm, or transition to mounted triangle if the free arm attempts to defend. Do not chase re-establishing crucifix immediately - the arm that escaped is now likely protected. Work with what remains rather than forcing a lost position."
+        "answer": "If one arm extracts while the other remains trapped, you have effectively returned to S Mount position with single arm isolation. Continue attacking with armbar on the trapped arm, or transition to mounted triangle if the free arm attempts to defend. Do not chase re-establishing crucifix immediately - the arm that escaped is now likely protected. Work with what remains rather than forcing a lost position.",
+        "answer_line": "Back to S Mount, armbar trapped arm",
+        "distractors": {
+          "plausible": [
+            "Immediately re-chase crucifix",
+            "Switch to opposite side attack"
+          ],
+          "trap": [
+            "Chase escaped arm right away"
+          ]
+        }
       },
       {
         "question": "Your opponent posts their hand against your hip during the weight shift - how do you capitalize on this?",
-        "answer": "A posted hand against your hip is an extended arm, which is exactly the exposure you need. Immediately attack the posting arm with an armbar threat, which will either result in a submission or force them to retract the arm quickly. As they pull back, that retraction motion often crosses the arm over their body, creating the crucifix threading opportunity. The stiff-arm defense defeats itself."
+        "answer": "A posted hand against your hip is an extended arm, which is exactly the exposure you need. Immediately attack the posting arm with an armbar threat, which will either result in a submission or force them to retract the arm quickly. As they pull back, that retraction motion often crosses the arm over their body, creating the crucifix threading opportunity. The stiff-arm defense defeats itself.",
+        "answer_line": "Attack the posted arm with armbar",
+        "distractors": {
+          "plausible": [
+            "Ignore it, keep controlling hips",
+            "Grab the wrist and wait"
+          ],
+          "trap": [
+            "Base out to prevent a bridge"
+          ]
+        }
       },
       {
         "question": "What is the critical direction of force when threading your leg over the second arm?",
-        "answer": "The primary force direction is rotational through your hips, not vertical with your leg. Your hip drives the leg laterally across the opponent's arm using a scooping arc that keeps contact with their body throughout. Vertical lifting separates you from the opponent and creates space. Think of the motion as rotating your pelvis to slide your shin across their bicep, maintaining constant downward chest pressure throughout the rotation."
+        "answer": "The primary force direction is rotational through your hips, not vertical with your leg. Your hip drives the leg laterally across the opponent's arm using a scooping arc that keeps contact with their body throughout. Vertical lifting separates you from the opponent and creates space. Think of the motion as rotating your pelvis to slide your shin across their bicep, maintaining constant downward chest pressure throughout the rotation.",
+        "answer_line": "Rotational hip drive, not vertical",
+        "distractors": {
+          "plausible": [
+            "Vertical lift with high knee",
+            "Push shin down before hips move"
+          ],
+          "trap": [
+            "Yank leg over as fast as possible"
+          ]
+        }
       }
     ],
-    "safety_considerations": "The Mounted Crucifix Entry is generally safe when practiced with proper control and communication. Primary injury risks involve the trapped arms - avoid cranking or twisting arms during leg threading as this can strain shoulders or elbows. The bottom practitioner should tap immediately if shoulder pressure becomes excessive before crucifix is established. Partners should establish clear tap signals before drilling, as verbal taps may be muffled during position transitions. When drilling at higher intensities, ensure the receiving partner can absorb the weight transfer without cervical spine compression. Avoid explosive entries on partners with existing shoulder injuries. Always release control immediately upon tap."
+    "safety_considerations": "The Mounted Crucifix Entry is generally safe when practiced with proper control and communication. Primary injury risks involve the trapped arms - avoid cranking or twisting arms during leg threading as this can strain shoulders or elbows. The bottom practitioner should tap immediately if shoulder pressure becomes excessive before crucifix is established. Partners should establish clear tap signals before drilling, as verbal taps may be muffled during position transitions. When drilling at higher intensities, ensure the receiving partner can absorb the weight transfer without cervical spine compression. Avoid explosive entries on partners with existing shoulder injuries. Always release control immediately upon tap.",
+    "clips": [
+      {
+        "id": "-Vmyjv8-WFw",
+        "title": "Mount to side crucifix with arm attacks",
+        "by": "Evolve MMA",
+        "vertical": false,
+        "channel": "Evolve Mixed Martial Arts",
+        "duration": 76,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "uQn6tbgVeGA",
+        "title": "Arm drag entry to the crucifix",
+        "by": "Revolution BJJ",
+        "vertical": false,
+        "channel": "Revolution BJJ",
+        "duration": 57,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "Q48AWgG50hw",
+        "title": "Mounted crucifix basic instruction",
+        "by": "Matthew Elliott",
+        "vertical": false,
+        "channel": "Matthew Elliott",
+        "duration": 283,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Mounted Crucifix Entry Defender",
@@ -341,23 +502,73 @@
     "flashcards": [
       {
         "question": "Why is reaching across your body to defend the armbar the most common mistake that leads to crucifix entry?",
-        "answer": "When you reach across your body to grip your own wrist or the defender's arm during armbar defense, your far arm crosses your centerline directly into the path where the opponent will thread their leg. This motion essentially delivers your arm into the trap. The attacker does not need to hunt for your arm - your defensive instinct presents it. Instead, defend the armbar by gripping your own collar with the trapped hand and framing with your far arm on your side of the body."
+        "answer": "When you reach across your body to grip your own wrist or the defender's arm during armbar defense, your far arm crosses your centerline directly into the path where the opponent will thread their leg. This motion essentially delivers your arm into the trap. The attacker does not need to hunt for your arm - your defensive instinct presents it. Instead, defend the armbar by gripping your own collar with the trapped hand and framing with your far arm on your side of the body.",
+        "answer_line": "Crossing arm feeds crucifix trap",
+        "distractors": {
+          "plausible": [
+            "Framing on the far side is risky",
+            "Gripping own collar is unsafe"
+          ],
+          "trap": [
+            "Reach across to grip own wrist"
+          ]
+        }
       },
       {
         "question": "What is the optimal timing window for an explosive bridge to disrupt the crucifix entry?",
-        "answer": "The optimal window is the moment the attacker shifts their weight forward and begins lifting their far leg to thread over your arm. At this point, they are transitioning from a seated two-leg base to a single-leg posting position, making their balance most vulnerable. Bridging before this moment hits stable S Mount base. Bridging after this moment happens when their leg is already in transit and the bridge may actually assist the threading by creating space."
+        "answer": "The optimal window is the moment the attacker shifts their weight forward and begins lifting their far leg to thread over your arm. At this point, they are transitioning from a seated two-leg base to a single-leg posting position, making their balance most vulnerable. Bridging before this moment hits stable S Mount base. Bridging after this moment happens when their leg is already in transit and the bridge may actually assist the threading by creating space.",
+        "answer_line": "As they shift weight, lift leg",
+        "distractors": {
+          "plausible": [
+            "Right when S Mount is secured",
+            "After their leg is fully over"
+          ],
+          "trap": [
+            "Bridge only once thread lands"
+          ]
+        }
       },
       {
         "question": "Your opponent begins rotating their hips in S Mount - what does this signal and how should you respond?",
-        "answer": "Hip rotation from S Mount signals the beginning of a leg threading attempt for the crucifix entry. The attacker needs to rotate their pelvis to create the angle for their shin to clear your arm. Immediately pull your far arm tight to your body, frame against their hip to prevent the rotation from completing, and execute a hip escape toward their legs. The hip escape changes the angle between your bodies, making the rotational thread mechanically more difficult to complete."
+        "answer": "Hip rotation from S Mount signals the beginning of a leg threading attempt for the crucifix entry. The attacker needs to rotate their pelvis to create the angle for their shin to clear your arm. Immediately pull your far arm tight to your body, frame against their hip to prevent the rotation from completing, and execute a hip escape toward their legs. The hip escape changes the angle between your bodies, making the rotational thread mechanically more difficult to complete.",
+        "answer_line": "Frame hip, hip escape to legs",
+        "distractors": {
+          "plausible": [
+            "Grip fight for both wrists",
+            "Push into them to stop rotation"
+          ],
+          "trap": [
+            "Pull arm out and reach guard"
+          ]
+        }
       },
       {
         "question": "How does the direction of your bridge affect the success of your defense against the crucifix entry?",
-        "answer": "Bridging toward the threading leg collapses the space the attacker needs for the leg-over motion and directly attacks their compromised base. Bridging away from the threading leg actually creates additional space that assists the leg crossing over your arm. The counter-intuitive correct direction toward the danger side works because it addresses the root mechanical requirement of the technique rather than simply trying to create distance."
+        "answer": "Bridging toward the threading leg collapses the space the attacker needs for the leg-over motion and directly attacks their compromised base. Bridging away from the threading leg actually creates additional space that assists the leg crossing over your arm. The counter-intuitive correct direction toward the danger side works because it addresses the root mechanical requirement of the technique rather than simply trying to create distance.",
+        "answer_line": "Bridge toward the threading leg",
+        "distractors": {
+          "plausible": [
+            "Wait for their grip to slip",
+            "Bridge straight up and arch"
+          ],
+          "trap": [
+            "Bridge away from the leg"
+          ]
+        }
       },
       {
         "question": "Both your arms are trapped and the opponent has established the crucifix - what is your immediate priority?",
-        "answer": "Your immediate priority shifts from crucifix prevention to submission defense. Tuck your chin tightly to your chest and elevate your shoulders toward your ears to protect your neck, as choke attacks become the primary threat. Do not waste energy trying to immediately extract both arms against established knee pressure. Instead, focus on small hip movements to create incremental space in the arm traps, targeting extraction of one arm at a time. Once one arm is free, you can address the remaining arm trap and begin mount escape sequences."
+        "answer": "Your immediate priority shifts from crucifix prevention to submission defense. Tuck your chin tightly to your chest and elevate your shoulders toward your ears to protect your neck, as choke attacks become the primary threat. Do not waste energy trying to immediately extract both arms against established knee pressure. Instead, focus on small hip movements to create incremental space in the arm traps, targeting extraction of one arm at a time. Once one arm is free, you can address the remaining arm trap and begin mount escape sequences.",
+        "answer_line": "Protect neck, extract one arm",
+        "distractors": {
+          "plausible": [
+            "Rip both arms free at once",
+            "Buck hips explosively now"
+          ],
+          "trap": [
+            "Force both arms out together"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -380,6 +591,26 @@
         "phase": "Week 7+",
         "focus": "Live positional sparring from S Mount bottom",
         "description": "Full resistance positional sparring starting from S Mount bottom. Partner attacks freely with armbars, triangles, and crucifix entries. Measure success by time survived and positions recovered to. Develop personal timing for defensive explosions and build confidence in the recognition-response cycle under realistic pressure."
+      }
+    ],
+    "clips": [
+      {
+        "id": "41koUZWmeHE",
+        "title": "Escaping the mounted crucifix",
+        "by": "Shem Rock",
+        "vertical": false,
+        "channel": "Shem Rock ",
+        "duration": 146,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "m-iTKRTVeeo",
+        "title": "Crucifix escape",
+        "by": "Chosen Few BJJ",
+        "vertical": false,
+        "channel": "Chosen Few BJJ",
+        "duration": 160,
+        "verified": "2026-07-15"
       }
     ]
   },

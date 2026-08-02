@@ -1,0 +1,113 @@
+:root {
+  color-scheme: dark;
+  --fc-bg: #0b0e1a;
+  --fc-canvas: #121528;
+  --fc-surface: #171b30;
+  --fc-surface-strong: #1d223b;
+  --fc-surface-soft: rgba(27, 32, 55, 0.82);
+  --fc-border: rgba(150, 170, 210, 0.18);
+  --fc-border-strong: rgba(150, 175, 235, 0.34);
+  --fc-text: #eef1f6;
+  --fc-text-soft: #c9d3e6;
+  --fc-muted: #8b97b0;
+  --fc-faint: #8490aa;
+  --fc-blue: #789fff;
+  --fc-blue-strong: #4a6cff;
+  --fc-purple: #9a5cff;
+  --fc-green: #7ee0a8;
+  --fc-red: #ff6b78;
+  --fc-amber: #ffb45a;
+  --fc-yellow: #e9d75a;
+  --fc-radius-sm: 8px;
+  --fc-radius-md: 12px;
+  --fc-radius-lg: 16px;
+  --fc-radius-xl: 20px;
+  --fc-shadow: 0 18px 56px rgba(0, 0, 0, 0.42);
+  --fc-font:
+    "Plus Jakarta Sans", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    sans-serif;
+  --fc-display: "Space Grotesk", var(--fc-font);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  min-width: 320px;
+  background: var(--fc-bg);
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: var(--fc-bg);
+  color: var(--fc-text);
+  font-family: var(--fc-font);
+  -webkit-font-smoothing: antialiased;
+}
+
+button,
+input,
+select {
+  font: inherit;
+}
+
+button,
+select {
+  color: inherit;
+}
+
+button {
+  border: 0;
+}
+
+a {
+  color: inherit;
+}
+
+:focus-visible {
+  outline: 2px solid var(--fc-blue);
+  outline-offset: 3px;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.sr-only:focus,
+.sr-only:focus-visible {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  z-index: 1000;
+  width: auto;
+  height: auto;
+  padding: 10px 14px;
+  margin: 0;
+  overflow: visible;
+  clip: auto;
+  white-space: normal;
+  border: 1px solid var(--fc-blue);
+  border-radius: 8px;
+  background: var(--fc-panel);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Side Control/Top",
-      "probability": 35,
+      "probability": {
+        "gi": 35,
+        "nogi": 35
+      },
       "result": "success"
     },
     {
       "to": "Saddle/Bottom",
-      "probability": 40,
+      "probability": {
+        "gi": 40,
+        "nogi": 40
+      },
       "result": "failure"
     },
     {
       "to": "Saddle/Bottom",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 35,
+  "success_rate": {
+    "gi": 35,
+    "nogi": 35
+  },
   "overview": "The Sweep from Saddle represents one of the highest-risk, highest-reward defensive options available when trapped in the saddle leg entanglement. Rather than attempting traditional escapes that focus on leg extraction and guard recovery, this technique weaponizes the entanglement itself, using the structural connection between both players as a lever to reverse position. The sweep exploits moments when the top player's weight distribution becomes compromised—typically during submission attempts, grip transitions, or positional adjustments—to generate rotational force that rolls the opponent and allows the bottom player to emerge in a dominant top position.\n\nThe fundamental mechanics of this sweep rely on the same perpendicular alignment that makes the saddle dangerous for the bottom player. When the top player commits their weight to attack a heel hook or tighten their control, they momentarily sacrifice base stability. The bottom player capitalizes on this by coordinating a bridge with directional rotation, using frames against the opponent's hips and shoulders to amplify the sweeping force. The leg entanglement, paradoxically, becomes an anchor that prevents the top player from disengaging and posting to stop the sweep.\n\nThis technique demands precise timing, composure under pressure, and thorough understanding of the opponent's weight distribution patterns. It is not a desperation move—rushed attempts without proper setup will fail and potentially accelerate submission finishes. The sweep works best as part of a broader saddle defense strategy where grip fighting and frame creation set up the sweeping opportunity. At purple belt and above, the ability to threaten sweeps from leg entanglements transforms the defensive dynamic, forcing the attacker to allocate attention to base maintenance rather than committing fully to submissions.",
   "conditions": [
     "Opponent has saddle control but has not yet secured a finishing grip on your heel",
@@ -247,38 +259,147 @@
     "flashcards": [
       {
         "question": "What is the most critical safety check before attempting a sweep from saddle?",
-        "answer": "Verify that your heel is not exposed to a finishing grip. If the opponent has established heel control with rotational pressure, attempting a sweep will amplify the joint destruction through the movement. Always address heel protection through grip fighting and knee rotation before initiating any sweeping motion from this position."
+        "answer": "Verify that your heel is not exposed to a finishing grip. If the opponent has established heel control with rotational pressure, attempting a sweep will amplify the joint destruction through the movement. Always address heel protection through grip fighting and knee rotation before initiating any sweeping motion from this position.",
+        "answer_line": "Check heel isn't trapped",
+        "distractors": {
+          "plausible": [
+            "Confirm free foot is planted",
+            "Test opponent's base first"
+          ],
+          "trap": [
+            "Grip fight instead of checking heel"
+          ]
+        }
       },
       {
         "question": "When is the optimal timing window to initiate the sweep?",
-        "answer": "The best timing is when the opponent shifts their weight forward or laterally during a submission setup, grip transition, or positional adjustment. These moments temporarily compromise their base and posting ability, creating a window where coordinated bridge and rotation can generate sufficient force to complete the sweep before they can recover."
+        "answer": "The best timing is when the opponent shifts their weight forward or laterally during a submission setup, grip transition, or positional adjustment. These moments temporarily compromise their base and posting ability, creating a window where coordinated bridge and rotation can generate sufficient force to complete the sweep before they can recover.",
+        "answer_line": "Weight shifts during their setup",
+        "distractors": {
+          "plausible": [
+            "Immediately after entering saddle",
+            "When you feel your grip slipping"
+          ],
+          "trap": [
+            "When opponent is squared up and set"
+          ]
+        }
       },
       {
         "question": "Your opponent posts their hand when you attempt the sweep—how do you adjust?",
-        "answer": "Redirect the sweep angle to the opposite direction where they cannot post, or use their extended posting arm as a handle for an arm drag that pulls their weight back into the sweep direction. If the post is too structurally sound to overcome, abandon the sweep and use the positional disruption to advance grip fighting or begin an alternative escape sequence."
+        "answer": "Redirect the sweep angle to the opposite direction where they cannot post, or use their extended posting arm as a handle for an arm drag that pulls their weight back into the sweep direction. If the post is too structurally sound to overcome, abandon the sweep and use the positional disruption to advance grip fighting or begin an alternative escape sequence.",
+        "answer_line": "Redirect sweep away from post",
+        "distractors": {
+          "plausible": [
+            "Push harder into the post",
+            "Switch to a different submission"
+          ],
+          "trap": [
+            "Force through the posted arm"
+          ]
+        }
       },
       {
         "question": "What role does the free leg play in the sweep execution?",
-        "answer": "The free leg provides the posting platform for generating bridge force. Plant it flat on the mat close to your hip with the foot angled in the intended sweep direction. The quality of the bridge, and therefore the sweep, is directly determined by foot placement, angle, and explosive extension through the hip. Without proper free leg positioning, insufficient force is generated."
+        "answer": "The free leg provides the posting platform for generating bridge force. Plant it flat on the mat close to your hip with the foot angled in the intended sweep direction. The quality of the bridge, and therefore the sweep, is directly determined by foot placement, angle, and explosive extension through the hip. Without proper free leg positioning, insufficient force is generated.",
+        "answer_line": "Plant free foot near hip, angled",
+        "distractors": {
+          "plausible": [
+            "Keep free leg loose and relaxed",
+            "Drive free knee into their thigh"
+          ],
+          "trap": [
+            "Extend free leg straight out"
+          ]
+        }
       },
       {
         "question": "Why is it critical to maintain frames throughout the sweep rather than grabbing the opponent?",
-        "answer": "Frames create structural leverage that guides the sweep direction and prevents the opponent from collapsing their weight into your space. Releasing frames to grab the opponent removes this structural advantage and allows them to flatten you, eliminating the sweeping angle entirely. Convert frames to grips only after rotational momentum is firmly established."
+        "answer": "Frames create structural leverage that guides the sweep direction and prevents the opponent from collapsing their weight into your space. Releasing frames to grab the opponent removes this structural advantage and allows them to flatten you, eliminating the sweeping angle entirely. Convert frames to grips only after rotational momentum is firmly established.",
+        "answer_line": "Keep frames, don't grab opponent",
+        "distractors": {
+          "plausible": [
+            "Grip their gi for extra power",
+            "Switch to grabbing once moving"
+          ],
+          "trap": [
+            "Release frames to grab and pull"
+          ]
+        }
       },
       {
         "question": "How does the direction of the bridge relate to the opponent's weight distribution?",
-        "answer": "Always bridge in the direction the opponent's weight is already shifting. Working against their weight requires exponentially more force and telegraphs your intention. Their submission setups create predictable weight patterns—a heel hook attempt shifts weight toward your trapped leg while a grip transition creates lateral movement. Read these patterns and sweep with them."
+        "answer": "Always bridge in the direction the opponent's weight is already shifting. Working against their weight requires exponentially more force and telegraphs your intention. Their submission setups create predictable weight patterns—a heel hook attempt shifts weight toward your trapped leg while a grip transition creates lateral movement. Read these patterns and sweep with them.",
+        "answer_line": "Bridge with their weight shift",
+        "distractors": {
+          "plausible": [
+            "Bridge straight up for power",
+            "Bridge opposite their pressure"
+          ],
+          "trap": [
+            "Bridge against their weight shift"
+          ]
+        }
       },
       {
         "question": "What should you do immediately after successfully completing the sweep?",
-        "answer": "Establish side control immediately by driving your crossface across the opponent's neck, settling your hips against their hips, and distributing weight across their torso. Release the leg entanglement only after top control is secure. Pausing without consolidating position allows the opponent to scramble to guard or re-establish a leg entanglement from bottom."
+        "answer": "Establish side control immediately by driving your crossface across the opponent's neck, settling your hips against their hips, and distributing weight across their torso. Release the leg entanglement only after top control is secure. Pausing without consolidating position allows the opponent to scramble to guard or re-establish a leg entanglement from bottom.",
+        "answer_line": "Crossface and consolidate top",
+        "distractors": {
+          "plausible": [
+            "Release legs, then find crossface",
+            "Sit up and reset your base"
+          ],
+          "trap": [
+            "Pause to celebrate the sweep"
+          ]
+        }
       },
       {
         "question": "Your opponent begins applying rotational pressure to your heel during your sweep setup—what is your response?",
-        "answer": "Abandon the sweep attempt immediately and prioritize heel protection. Return to the defensive hierarchy: hide the heel by rotating your knee inward, address the opponent's grips with systematic grip fighting, and re-establish frames. Never continue a sweep when submission mechanics are actively engaged, as the sweeping motion will accelerate joint damage significantly."
+        "answer": "Abandon the sweep attempt immediately and prioritize heel protection. Return to the defensive hierarchy: hide the heel by rotating your knee inward, address the opponent's grips with systematic grip fighting, and re-establish frames. Never continue a sweep when submission mechanics are actively engaged, as the sweeping motion will accelerate joint damage significantly.",
+        "answer_line": "Abandon sweep, protect the heel",
+        "distractors": {
+          "plausible": [
+            "Speed up the sweep to escape",
+            "Switch grips and keep going"
+          ],
+          "trap": [
+            "Continue the sweep through pain"
+          ]
+        }
       }
     ],
-    "safety_considerations": "This technique carries significant knee and ankle injury risk for both participants. The bottom player must never attempt explosive sweeps when the opponent has an active heel hook grip, as rotational forces generated during the sweep can catastrophically amplify joint damage. Both training partners should establish clear tap protocols before drilling. Practice at controlled speeds initially, and never attempt this sweep in competition without extensive drilling. If you feel any knee rotation pressure during the sweep attempt, abandon the sweep immediately and tap if necessary."
+    "safety_considerations": "This technique carries significant knee and ankle injury risk for both participants. The bottom player must never attempt explosive sweeps when the opponent has an active heel hook grip, as rotational forces generated during the sweep can catastrophically amplify joint damage. Both training partners should establish clear tap protocols before drilling. Practice at controlled speeds initially, and never attempt this sweep in competition without extensive drilling. If you feel any knee rotation pressure during the sweep attempt, abandon the sweep immediately and tap if necessary.",
+    "clips": [
+      {
+        "id": "K5XhO7o5QN0",
+        "title": "Saddle entries from guard",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 66,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "xCrW5MBmqig",
+        "title": "Entering the saddle from elevating butterfly guard",
+        "by": "Foundation Chicago",
+        "vertical": false,
+        "channel": "Foundation Chicago",
+        "duration": 44,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "HVc2CKdAfN0",
+        "title": "X-guard to saddle (cross ashi)",
+        "by": "Johnny Jitsu",
+        "vertical": false,
+        "channel": "Johnny Jitsu",
+        "duration": 120,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Sweep from Saddle Defender",
@@ -360,19 +481,59 @@
     "flashcards": [
       {
         "question": "What are the earliest indicators that your opponent is setting up a sweep from saddle bottom?",
-        "answer": "Watch for frame establishment against your hips or shoulders, repositioning of the free foot flat on the mat near their hip, directional hip shifts rather than standard escape movements, and changes in grip pattern from defensive heel protection to offensive body gripping. These indicators typically appear one to three seconds before the sweep attempt, giving you time to adjust base or strip frames preemptively."
+        "answer": "Watch for frame establishment against your hips or shoulders, repositioning of the free foot flat on the mat near their hip, directional hip shifts rather than standard escape movements, and changes in grip pattern from defensive heel protection to offensive body gripping. These indicators typically appear one to three seconds before the sweep attempt, giving you time to adjust base or strip frames preemptively.",
+        "answer_line": "Frames, foot plant, hip shift",
+        "distractors": {
+          "plausible": [
+            "Tighter grip on your collar",
+            "Sudden burst of forward pressure"
+          ],
+          "trap": [
+            "Increased pressure on your heel"
+          ]
+        }
       },
       {
         "question": "How should you balance submission commitment with sweep defense from saddle top?",
-        "answer": "Maintain at least one hand ready to post at all times during submission sequences. Develop techniques that allow attacking with distributed weight rather than fully committed weight. If you recognize pre-sweep indicators, pause your submission attempt and re-establish base before continuing. The saddle position is sustainable enough that momentarily pausing attacks to reset base is always preferable to being swept to bottom."
+        "answer": "Maintain at least one hand ready to post at all times during submission sequences. Develop techniques that allow attacking with distributed weight rather than fully committed weight. If you recognize pre-sweep indicators, pause your submission attempt and re-establish base before continuing. The saddle position is sustainable enough that momentarily pausing attacks to reset base is always preferable to being swept to bottom.",
+        "answer_line": "Keep one hand free to post",
+        "distractors": {
+          "plausible": [
+            "Commit fully to finish faster",
+            "Grip fight until submission locks"
+          ],
+          "trap": [
+            "Put full weight into the attack"
+          ]
+        }
       },
       {
         "question": "Your opponent successfully bridges and begins rotating you—what is your recovery protocol?",
-        "answer": "If the sweep is already in motion, your first priority is posting your hand on the mat to stop the rotation. If posting fails, consider releasing the leg entanglement to facilitate a scramble rather than being swept cleanly to bottom side control. Once the sweep completes, immediately establish guard frames rather than attempting to re-enter the leg entanglement. Focus on landing in the best possible defensive position."
+        "answer": "If the sweep is already in motion, your first priority is posting your hand on the mat to stop the rotation. If posting fails, consider releasing the leg entanglement to facilitate a scramble rather than being swept cleanly to bottom side control. Once the sweep completes, immediately establish guard frames rather than attempting to re-enter the leg entanglement. Focus on landing in the best possible defensive position.",
+        "answer_line": "Post hand to stop the rotation",
+        "distractors": {
+          "plausible": [
+            "Grip fight to regain the heel",
+            "Try to out-muscle the bridge"
+          ],
+          "trap": [
+            "Re-enter the leg entanglement"
+          ]
+        }
       },
       {
         "question": "Why is controlling the opponent's free leg a critical defensive priority against sweeps?",
-        "answer": "The free leg provides the posting platform that generates all bridging force for the sweep. Without the ability to plant their foot and drive through their hip, the bottom player cannot generate sufficient force for a successful sweep regardless of their timing or technique quality. Controlling the free leg neutralizes the sweep threat at its mechanical root rather than trying to reactively stop the completed sweeping motion."
+        "answer": "The free leg provides the posting platform that generates all bridging force for the sweep. Without the ability to plant their foot and drive through their hip, the bottom player cannot generate sufficient force for a successful sweep regardless of their timing or technique quality. Controlling the free leg neutralizes the sweep threat at its mechanical root rather than trying to reactively stop the completed sweeping motion.",
+        "answer_line": "Free leg powers their bridge",
+        "distractors": {
+          "plausible": [
+            "It stops their heel hook attempt",
+            "It prevents them from sitting up"
+          ],
+          "trap": [
+            "Ignore the free leg, control hips"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -395,6 +556,35 @@
         "phase": "Phase 4: Live Positional Sparring",
         "focus": "Full integration under realistic competitive conditions",
         "description": "Both players start in saddle at 80-100% intensity. Top player works to maintain position and finish submissions while bottom player uses full range of defensive options including sweep attempts. Focus on developing instinctive sweep recognition during active attacking sequences."
+      }
+    ],
+    "clips": [
+      {
+        "id": "myVCvQJ08RM",
+        "title": "Berimbolo counter to the saddle",
+        "by": "Thunderdome BJJ",
+        "vertical": false,
+        "channel": "Thunderdome BJJ",
+        "duration": 25,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "CFTLb8iywJg",
+        "title": "Defending and escaping the saddle",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "Absolute MMA St Kilda - Melbourne",
+        "duration": 383,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "Cu3cDBeOxsg",
+        "title": "Three ways to escape the saddle",
+        "by": "Drew Weatherhead",
+        "vertical": false,
+        "channel": "Because Jitsu",
+        "duration": 354,
+        "verified": "2026-07-15"
       }
     ]
   }

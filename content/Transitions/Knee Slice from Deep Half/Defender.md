@@ -148,6 +148,43 @@ description: "Complete defender guide for preventing the knee slice pass from de
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Knee Slice from Deep Half (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Common deep half sweep mistakes",
+      "description": "Knee Slice from Deep Half (Defender) film study: Common deep half sweep mistakes, taught by John Kelly.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/dhGbNUvfvjM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/dhGbNUvfvjM",
+      "url": "https://www.youtube.com/watch?v=dhGbNUvfvjM",
+      "creator": { "@type": "Person", "name": "John Kelly" },
+      "duration": "PT73S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Push him away to stop the knee cut from half guard",
+      "description": "Knee Slice from Deep Half (Defender) film study: Push him away to stop the knee cut from half guard, taught by Bernardo Faria.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/q8buwG6oS0s/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/q8buwG6oS0s",
+      "url": "https://www.youtube.com/watch?v=q8buwG6oS0s",
+      "creator": { "@type": "Person", "name": "Bernardo Faria" },
+      "duration": "PT148S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +194,34 @@ As the deep half guard bottom player facing a knee slice pass attempt, your prim
 **Opponent's Starting Position**: [[Positions/Half Guard/Deep Half Guard]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Knee Slice from Deep Half (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=dhGbNUvfvjM)
+
+<p class="clip-credit"><strong>Common deep half sweep mistakes</strong> — taught by John Kelly · 1:13 · <a href="https://www.youtube.com/watch?v=dhGbNUvfvjM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=q8buwG6oS0s)
+
+<p class="clip-credit"><strong>Push him away to stop the knee cut from half guard</strong> — taught by Bernardo Faria · 2:28 · <a href="https://www.youtube.com/watch?v=q8buwG6oS0s" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

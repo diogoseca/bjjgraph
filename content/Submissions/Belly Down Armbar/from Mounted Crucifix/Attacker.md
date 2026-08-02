@@ -176,6 +176,54 @@ description: "Learn to execute the belly down armbar finish from mounted crucifi
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Belly Down Armbar from Mounted Crucifix (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Mount to Side Crucifix Arm Attacks",
+      "description": "Belly Down Armbar from Mounted Crucifix (Attacker) film study: Mount to Side Crucifix Arm Attacks, taught by Evolve MMA.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/-Vmyjv8-WFw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/-Vmyjv8-WFw",
+      "url": "https://www.youtube.com/watch?v=-Vmyjv8-WFw",
+      "creator": { "@type": "Person", "name": "Evolve MMA" },
+      "duration": "PT76S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Belly Down Attacks: Armbar and Rear Triangle",
+      "description": "Belly Down Armbar from Mounted Crucifix (Attacker) film study: Belly Down Attacks: Armbar and Rear Triangle, taught by Kameron Ross.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/5eA_LJK-gJo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/5eA_LJK-gJo",
+      "url": "https://www.youtube.com/watch?v=5eA_LJK-gJo",
+      "creator": { "@type": "Person", "name": "Kameron Ross" },
+      "duration": "PT67S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Belly Down Armbar from Mount Against Push",
+      "description": "Belly Down Armbar from Mounted Crucifix (Attacker) film study: Belly Down Armbar from Mount Against Push, taught by Forca Martial Arts.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/MIo1Q07Ng6U/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/MIo1Q07Ng6U",
+      "url": "https://www.youtube.com/watch?v=MIo1Q07Ng6U",
+      "creator": { "@type": "Person", "name": "Forca Martial Arts" },
+      "duration": "PT110S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -186,6 +234,42 @@ Attacking with the belly down armbar from mounted crucifix combines the already 
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Belly Down Armbar from Mounted Crucifix (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=-Vmyjv8-WFw)
+
+<p class="clip-credit"><strong>Mount to Side Crucifix Arm Attacks</strong> — taught by Evolve MMA · 1:16 · <a href="https://www.youtube.com/watch?v=-Vmyjv8-WFw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=5eA_LJK-gJo)
+
+<p class="clip-credit"><strong>Belly Down Attacks: Armbar and Rear Triangle</strong> — taught by Kameron Ross · 1:07 · <a href="https://www.youtube.com/watch?v=5eA_LJK-gJo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=MIo1Q07Ng6U)
+
+<p class="clip-credit"><strong>Belly Down Armbar from Mount Against Push</strong> — taught by Forca Martial Arts · 1:50 · <a href="https://www.youtube.com/watch?v=MIo1Q07Ng6U" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

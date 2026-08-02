@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Side Control/Top",
-      "probability": 40,
+      "probability": {
+        "gi": 40,
+        "nogi": 40
+      },
       "result": "success"
     },
     {
       "to": "Clamp Guard/Top",
-      "probability": 35,
+      "probability": {
+        "gi": 35,
+        "nogi": 35
+      },
       "result": "failure"
     },
     {
       "to": "Triangle Control/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 40,
+  "success_rate": {
+    "gi": 40,
+    "nogi": 40
+  },
   "overview": "The Stack Pass from Clamp Guard is a pressure-based passing technique employed when the top player's arm is trapped in the bottom player's clamp guard configuration. Rather than fighting to extract the trapped arm — which plays directly into the guard player's submission chain of armbars, triangles, and omoplatas — the passer drives forward explosively, folding the bottom player's hips over their shoulders and compressing their spine. This stacking action neutralizes the hip mobility that powers the clamp guard's entire offensive system, progressively weakening the shin-on-bicep control as the bottom player's legs are compressed toward their own face and their ability to angle disappears.\n\nThe technique represents a calculated risk-reward decision within the guard passing hierarchy. The forward drive necessary for stacking brings the passer's head and shoulders deeper into the guard player's leg territory, creating a window for triangle entry if the timing or mechanics are imprecise. However, when executed with proper hip positioning and deliberate head placement on the far side, the stack pass converts the clamp guard's structural advantage into a liability — the same leg positioning that traps the arm becomes compressed and immobilized under the passer's bodyweight. The compression eliminates the guard player's ability to angle their hips, which is the prerequisite for virtually every attack from clamp guard including armbar extension, triangle shooting, and omoplata rotation.\n\nFrom a systematic perspective, the stack pass offers a direct path from one of the more threatening open guard positions to full side control without the incremental arm extraction approach that often results in extended guard battles and multiple submission threats. Advanced passers combine the initial stack with lateral movement, walking around the compressed guard player to clear legs and establish crossface control in side control. The key tactical insight is that the stack must be committed — half-measures allow the guard player to re-establish angles and launch the counter-attacks that make clamp guard dangerous in the first place.",
   "conditions": [
     "Opponent has established clamp guard with shin positioned across your bicep, trapping the arm between their legs",
@@ -243,38 +255,138 @@
     "flashcards": [
       {
         "question": "What is the critical head positioning during the stack pass and why does it determine the outcome?",
-        "answer": "Pin your head to the opposite side of the trapped arm, pressing your forehead or temple into the mat beside the opponent's hip. This placement physically blocks the triangle entry path because the opponent cannot swing their leg over your neck when your head is already past their hip on the far side. Without this deliberate head position, the forward drive of the stack creates the exact angle the opponent needs to lock a triangle — your head enters their leg territory with the trapped arm already inside, which is precisely the triangle configuration. The head pin converts a dangerous drive into a safe one."
+        "answer": "Pin your head to the opposite side of the trapped arm, pressing your forehead or temple into the mat beside the opponent's hip. This placement physically blocks the triangle entry path because the opponent cannot swing their leg over your neck when your head is already past their hip on the far side. Without this deliberate head position, the forward drive of the stack creates the exact angle the opponent needs to lock a triangle — your head enters their leg territory with the trapped arm already inside, which is precisely the triangle configuration. The head pin converts a dangerous drive into a safe one.",
+        "answer_line": "Pin head past opponent's far hip",
+        "distractors": {
+          "plausible": [
+            "Keep head centered, chest to chest",
+            "Drive head low into their sternum"
+          ],
+          "trap": [
+            "Push head between their thighs"
+          ]
+        }
       },
       {
         "question": "Why should you avoid attempting arm extraction before establishing the stack?",
-        "answer": "Attempting arm extraction before stacking feeds directly into the clamp guard player's submission chain. The entire clamp guard system is engineered to punish extraction attempts: pulling the arm straight back extends it for armbar entry, circling the arm outward opens the angle needed for triangle shooting, and rotating the arm creates omoplata opportunities. The stack bypasses this entire trap system by compressing the guard player's legs and eliminating their hip mobility, causing the clamp to loosen naturally as a byproduct of spinal compression rather than through the direct arm fighting the guard player has prepared for."
+        "answer": "Attempting arm extraction before stacking feeds directly into the clamp guard player's submission chain. The entire clamp guard system is engineered to punish extraction attempts: pulling the arm straight back extends it for armbar entry, circling the arm outward opens the angle needed for triangle shooting, and rotating the arm creates omoplata opportunities. The stack bypasses this entire trap system by compressing the guard player's legs and eliminating their hip mobility, causing the clamp to loosen naturally as a byproduct of spinal compression rather than through the direct arm fighting the guard player has prepared for.",
+        "answer_line": "Stack first, extraction follows",
+        "distractors": {
+          "plausible": [
+            "Circle the arm out slowly",
+            "Rotate arm to break the grip"
+          ],
+          "trap": [
+            "Yank the arm straight back"
+          ]
+        }
       },
       {
         "question": "Your opponent frames against your shoulders and pushes you away as you initiate the stack drive — how do you adjust?",
-        "answer": "Drop your driving level so your chest targets the opponent's thigh-to-hip junction rather than their upper body, swimming under the shoulder frames rather than pushing through them at the same height. Use your head as a wedge against their hip to maintain forward progress below the frame line. Shoulder frames are most effective when they align with your driving direction at the same height — by dropping below them, you bypass the structural advantage entirely and continue the stack from a lower angle that the opponent cannot effectively frame against with extended arms."
+        "answer": "Drop your driving level so your chest targets the opponent's thigh-to-hip junction rather than their upper body, swimming under the shoulder frames rather than pushing through them at the same height. Use your head as a wedge against their hip to maintain forward progress below the frame line. Shoulder frames are most effective when they align with your driving direction at the same height — by dropping below them, you bypass the structural advantage entirely and continue the stack from a lower angle that the opponent cannot effectively frame against with extended arms.",
+        "answer_line": "Drop level, swim under frames",
+        "distractors": {
+          "plausible": [
+            "Push through frames harder",
+            "Pull frames down to hips"
+          ],
+          "trap": [
+            "Rise up to break the frames"
+          ]
+        }
       },
       {
         "question": "What is the correct force vector for the stack drive and why does direction matter?",
-        "answer": "The force vector should drive your hips upward and forward at approximately a 45-degree angle, aiming to fold the opponent's knees toward their own face. A purely horizontal drive pushes the opponent across the mat without compressing their spine, failing to neutralize the clamp. A purely vertical drive lifts their hips without folding them, maintaining their hip mobility and clamp integrity. The 45-degree upward-forward vector achieves both spinal compression and hip loading simultaneously, which is the mechanical key to breaking the clamp structure through bodyweight pressure rather than arm strength."
+        "answer": "The force vector should drive your hips upward and forward at approximately a 45-degree angle, aiming to fold the opponent's knees toward their own face. A purely horizontal drive pushes the opponent across the mat without compressing their spine, failing to neutralize the clamp. A purely vertical drive lifts their hips without folding them, maintaining their hip mobility and clamp integrity. The 45-degree upward-forward vector achieves both spinal compression and hip loading simultaneously, which is the mechanical key to breaking the clamp structure through bodyweight pressure rather than arm strength.",
+        "answer_line": "45-degree up-and-forward drive",
+        "distractors": {
+          "plausible": [
+            "Straight horizontal push through",
+            "Pure vertical lift of hips"
+          ],
+          "trap": [
+            "Drive straight down into mat"
+          ]
+        }
       },
       {
         "question": "When during the stack pass sequence is the triangle risk highest and what precautions mitigate it?",
-        "answer": "Triangle risk peaks during the initial forward drive phase, specifically in the first two seconds when your head and shoulders enter the guard player's leg territory but before full stack compression is established. During this window, the opponent still has hip mobility to angle and shoot their legs over your neck. Three precautions mitigate this risk: pinning your head to the far side before driving to physically block triangle entry, controlling the opponent's hip with your free arm to prevent the angling needed for triangle setup, and committing to an explosive rather than gradual forward drive that reaches full compression before the opponent can react and reconfigure."
+        "answer": "Triangle risk peaks during the initial forward drive phase, specifically in the first two seconds when your head and shoulders enter the guard player's leg territory but before full stack compression is established. During this window, the opponent still has hip mobility to angle and shoot their legs over your neck. Three precautions mitigate this risk: pinning your head to the far side before driving to physically block triangle entry, controlling the opponent's hip with your free arm to prevent the angling needed for triangle setup, and committing to an explosive rather than gradual forward drive that reaches full compression before the opponent can react and reconfigure.",
+        "answer_line": "Highest in first two seconds",
+        "distractors": {
+          "plausible": [
+            "Highest once fully stacked",
+            "Highest during lateral walk"
+          ],
+          "trap": [
+            "Risk is only after standing up"
+          ]
+        }
       },
       {
         "question": "How do you confirm that sufficient stack compression has been achieved before beginning the lateral walk?",
-        "answer": "Sufficient compression is confirmed when the opponent's knees are past the plane of their own shoulders and their hips are visibly elevated above their torso, indicating that active hip movement is severely limited. Test by briefly reducing forward pressure slightly — if the opponent's legs remain compressed rather than springing back to guard position, the stack is deep enough for lateral movement. If their legs immediately reactivate and begin seeking hooks or reclamp positions, deepen the stack further before proceeding. Beginning the lateral walk prematurely is the most common cause of failed stack passes."
+        "answer": "Sufficient compression is confirmed when the opponent's knees are past the plane of their own shoulders and their hips are visibly elevated above their torso, indicating that active hip movement is severely limited. Test by briefly reducing forward pressure slightly — if the opponent's legs remain compressed rather than springing back to guard position, the stack is deep enough for lateral movement. If their legs immediately reactivate and begin seeking hooks or reclamp positions, deepen the stack further before proceeding. Beginning the lateral walk prematurely is the most common cause of failed stack passes.",
+        "answer_line": "Knees past shoulders, hips lifted",
+        "distractors": {
+          "plausible": [
+            "Opponent stops gripping legs",
+            "Opponent's back flat on mat"
+          ],
+          "trap": [
+            "Begin walk as soon as driving"
+          ]
+        }
       },
       {
         "question": "Your opponent begins rotating their hips toward omoplata as you drive forward — what is your immediate response?",
-        "answer": "Maintain maximum forward pressure and use your free arm to pin the opponent's far hip to the mat, directly blocking the hip rotation that the omoplata requires. The omoplata needs the guard player to rotate perpendicular to your body and swing their leg over your shoulder — the stack compression makes this rotation difficult but not impossible if you release pressure or allow their hips to turn. If rotation has already progressed significantly, step your far leg forward past their hip to create a structural post that prevents the roll completion, then drive back into stack position to re-flatten them."
+        "answer": "Maintain maximum forward pressure and use your free arm to pin the opponent's far hip to the mat, directly blocking the hip rotation that the omoplata requires. The omoplata needs the guard player to rotate perpendicular to your body and swing their leg over your shoulder — the stack compression makes this rotation difficult but not impossible if you release pressure or allow their hips to turn. If rotation has already progressed significantly, step your far leg forward past their hip to create a structural post that prevents the roll completion, then drive back into stack position to re-flatten them.",
+        "answer_line": "Pin far hip, block rotation",
+        "distractors": {
+          "plausible": [
+            "Release pressure, reset stack",
+            "Grab their far arm instead"
+          ],
+          "trap": [
+            "Let them roll then chase"
+          ]
+        }
       },
       {
         "question": "What grip adjustments should you make with your free arm as you progress through each phase of the stack pass?",
-        "answer": "During the initial drive phase, grip the opponent's far hip or pants at thigh level to control their angling ability and prevent triangle setup. As stack compression establishes and you begin the lateral walk, shift the grip to behind their near knee or under their thigh to help direct and clear their legs as you walk around their compressed guard. During the final phase of clearing legs and establishing side control, release the leg grip entirely and immediately transition to crossface or underhook on the opponent's upper body. Each grip change corresponds to the control priority of that specific phase — hip control during stack, leg management during walk, upper body control during consolidation."
+        "answer": "During the initial drive phase, grip the opponent's far hip or pants at thigh level to control their angling ability and prevent triangle setup. As stack compression establishes and you begin the lateral walk, shift the grip to behind their near knee or under their thigh to help direct and clear their legs as you walk around their compressed guard. During the final phase of clearing legs and establishing side control, release the leg grip entirely and immediately transition to crossface or underhook on the opponent's upper body. Each grip change corresponds to the control priority of that specific phase — hip control during stack, leg management during walk, upper body control during consolidation.",
+        "answer_line": "Hip grip, then knee, then crossface",
+        "distractors": {
+          "plausible": [
+            "Underhook first, then hip",
+            "Same grip through all phases"
+          ],
+          "trap": [
+            "Release all grips during walk"
+          ]
+        }
       }
     ],
-    "safety_considerations": "The stack pass places significant compressive force on the opponent's cervical spine and lower back as their hips are folded over their shoulders. Apply stacking pressure progressively during drilling rather than explosively to allow the training partner to signal discomfort before dangerous compression levels are reached. Never maintain a deep stack position if the opponent indicates pain in their neck or spine. Release immediately if the opponent taps for any reason during the stacking phase, even if no submission is being applied, as spinal compression injuries can occur independently of submission mechanics. Be especially cautious with training partners who have limited spinal flexibility or pre-existing cervical conditions."
+    "safety_considerations": "The stack pass places significant compressive force on the opponent's cervical spine and lower back as their hips are folded over their shoulders. Apply stacking pressure progressively during drilling rather than explosively to allow the training partner to signal discomfort before dangerous compression levels are reached. Never maintain a deep stack position if the opponent indicates pain in their neck or spine. Release immediately if the opponent taps for any reason during the stacking phase, even if no submission is being applied, as spinal compression injuries can occur independently of submission mechanics. Be especially cautious with training partners who have limited spinal flexibility or pre-existing cervical conditions.",
+    "clips": [
+      {
+        "id": "2KcAEYsaHAg",
+        "title": "Stack pass mechanics and finish",
+        "by": "Kenny Kim",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 88,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "xQIZEMLolpU",
+        "title": "Guard break into stack pass",
+        "by": "Einar Friðgeirs",
+        "vertical": false,
+        "channel": "Einar Friðgeirs",
+        "duration": 21,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Stack Pass from Clamp Guard Defender",
@@ -353,19 +465,59 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that your opponent is about to attempt a stack pass rather than arm extraction?",
-        "answer": "The earliest cue is the opponent's free hand moving to grip your far hip or thigh rather than working to create leverage against their trapped arm. This hip grip signals stack pass intent because arm extraction requires working against the clamp itself, not controlling your hip position. Additionally, the opponent begins dropping their head to one side and shifting their weight from upright posture to forward-leaning with toes engaged for driving force. Recognizing this shift gives you the critical seconds needed to pre-frame and prepare triangle or defensive responses before the drive begins."
+        "answer": "The earliest cue is the opponent's free hand moving to grip your far hip or thigh rather than working to create leverage against their trapped arm. This hip grip signals stack pass intent because arm extraction requires working against the clamp itself, not controlling your hip position. Additionally, the opponent begins dropping their head to one side and shifting their weight from upright posture to forward-leaning with toes engaged for driving force. Recognizing this shift gives you the critical seconds needed to pre-frame and prepare triangle or defensive responses before the drive begins.",
+        "answer_line": "Free hand grips your hip/thigh",
+        "distractors": {
+          "plausible": [
+            "Opponent grips your sleeve",
+            "Opponent postures upright"
+          ],
+          "trap": [
+            "Opponent pulls your trapped arm"
+          ]
+        }
       },
       {
         "question": "At what specific moment during the stack pass attempt does the triangle counter have the highest success probability?",
-        "answer": "The triangle counter has the highest success rate during the first two seconds of the opponent's forward drive, specifically when their head enters your leg territory but before their chest contacts your thighs and establishes compression. At this moment, you still have full hip mobility to angle for the triangle, the opponent's head is in the ideal position for your leg to pass over their neck, and their committed forward momentum prevents them from retreating. Once stack compression is established and your hips are folded past your shoulders, triangle entry becomes physically impossible due to complete loss of hip mobility and leg freedom."
+        "answer": "The triangle counter has the highest success rate during the first two seconds of the opponent's forward drive, specifically when their head enters your leg territory but before their chest contacts your thighs and establishes compression. At this moment, you still have full hip mobility to angle for the triangle, the opponent's head is in the ideal position for your leg to pass over their neck, and their committed forward momentum prevents them from retreating. Once stack compression is established and your hips are folded past your shoulders, triangle entry becomes physically impossible due to complete loss of hip mobility and leg freedom.",
+        "answer_line": "First two seconds of the drive",
+        "distractors": {
+          "plausible": [
+            "After the stack is locked in",
+            "During the lateral walk phase"
+          ],
+          "trap": [
+            "Once mounted after the pass"
+          ]
+        }
       },
       {
         "question": "Your opponent has established partial stack compression but has not begun the lateral walk — what should you prioritize?",
-        "answer": "Prioritize creating a strong frame against the shoulder closest to the side the opponent needs to walk toward, blocking their lateral movement path. Simultaneously, fight to get one hip off the mat by turning slightly to one side, which partially decompresses your spine and recovers some leg mobility. If you can re-establish even partial hip angle before they begin the lateral walk, you can potentially reguard to clamp by reseating the shin on their bicep, or transition to closed guard by wrapping your legs around their torso while their weight is committed forward."
+        "answer": "Prioritize creating a strong frame against the shoulder closest to the side the opponent needs to walk toward, blocking their lateral movement path. Simultaneously, fight to get one hip off the mat by turning slightly to one side, which partially decompresses your spine and recovers some leg mobility. If you can re-establish even partial hip angle before they begin the lateral walk, you can potentially reguard to clamp by reseating the shin on their bicep, or transition to closed guard by wrapping your legs around their torso while their weight is committed forward.",
+        "answer_line": "Frame shoulder, turn hip off mat",
+        "distractors": {
+          "plausible": [
+            "Push their head away first",
+            "Grab both their sleeves"
+          ],
+          "trap": [
+            "Extend trapped arm to escape"
+          ]
+        }
       },
       {
         "question": "How should you protect your spine during a deeply committed stack pass attempt that you cannot prevent?",
-        "answer": "If the stack is deep enough that your hips are above your shoulders, immediately turn your body to one side rather than accepting the compression flat on your back. Flat stacking loads the cervical spine axially, which is the most dangerous loading pattern for neck injuries. Turning to one side converts the axial load into a lateral load that your spine handles much more safely through its natural curvature. Additionally, use your arms to create frames that support some of the passer's weight through skeletal structure rather than allowing full compression through your spine. If the compression becomes painful at any point, tap immediately — no guard recovery is worth a cervical injury."
+        "answer": "If the stack is deep enough that your hips are above your shoulders, immediately turn your body to one side rather than accepting the compression flat on your back. Flat stacking loads the cervical spine axially, which is the most dangerous loading pattern for neck injuries. Turning to one side converts the axial load into a lateral load that your spine handles much more safely through its natural curvature. Additionally, use your arms to create frames that support some of the passer's weight through skeletal structure rather than allowing full compression through your spine. If the compression becomes painful at any point, tap immediately — no guard recovery is worth a cervical injury.",
+        "answer_line": "Turn to one side to shed the load",
+        "distractors": {
+          "plausible": [
+            "Arch hard to fight the compression",
+            "Squeeze knees tight and wait it out"
+          ],
+          "trap": [
+            "Bridge straight up into the stack"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -388,6 +540,35 @@
         "phase": "Phase 4: Full Integration",
         "focus": "Combined defense, counter-attack, and reguarding",
         "description": "Full positional sparring from established clamp guard against stack pass attempts at competition intensity. Bottom player integrates recognition, triangle counters, defensive framing, and reguarding into a complete defensive system. Alternate roles each round to build understanding of both perspectives and timing windows."
+      }
+    ],
+    "clips": [
+      {
+        "id": "Y6R29wW_KrU",
+        "title": "Defending the stack pass in no-gi",
+        "by": "Matt Serra",
+        "vertical": false,
+        "channel": "Fernaldi Jonatan",
+        "duration": 158,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "DMUuThQPX4M",
+        "title": "Guard Retention Against Stack Passing",
+        "by": "Jon Thomas",
+        "vertical": false,
+        "channel": "JonThomasBJJ",
+        "duration": 303,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "iTrQzYeCvHM",
+        "title": "Top 5 Guard Retention Mistakes",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "Bernardo Faria BJJ Fanatics",
+        "duration": 436,
+        "verified": "2026-07-15"
       }
     ]
   }

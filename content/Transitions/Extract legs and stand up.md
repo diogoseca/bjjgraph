@@ -34,6 +34,43 @@ description: "Learn Extract Legs and Stand Up escape from 50-50 Guard. Step-by-s
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Extract legs and stand up \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Standing Up Safely From 50/50",
+      "description": "Extract legs and stand up film study: Standing Up Safely From 50/50, taught by South Boston BJJ coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/kvDnNTzT2wc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/kvDnNTzT2wc",
+      "url": "https://www.youtube.com/watch?v=kvDnNTzT2wc",
+      "creator": { "@type": "Person", "name": "South Boston BJJ coach" },
+      "duration": "PT285S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "50/50 Defense: Protecting Your Leg",
+      "description": "Extract legs and stand up film study: 50/50 Defense: Protecting Your Leg, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/R7lPdQWLOus/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/R7lPdQWLOus",
+      "url": "https://www.youtube.com/watch?v=R7lPdQWLOus",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT161S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +106,34 @@ Strategically, this escape reflects modern competitive reality: when facing a su
 **Success Rate**: 58%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Extract legs and stand up in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=kvDnNTzT2wc)
+
+<p class="clip-credit"><strong>Standing Up Safely From 50/50</strong> — taught by South Boston BJJ coach · 4:45 · <a href="https://www.youtube.com/watch?v=kvDnNTzT2wc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=R7lPdQWLOus)
+
+<p class="clip-credit"><strong>50/50 Defense: Protecting Your Leg</strong> — taught by Lachlan Giles · 2:41 · <a href="https://www.youtube.com/watch?v=R7lPdQWLOus" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

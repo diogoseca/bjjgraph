@@ -140,6 +140,43 @@ description: "Complete guide to preventing posture recovery from Williams Guard.
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Posture from Williams Guard (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Williams guard cartwheel escape counter",
+      "description": "Posture from Williams Guard (Defender) film study: Williams guard cartwheel escape counter, taught by Sam Wilkinson.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/NZEf9jXzCYA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/NZEf9jXzCYA",
+      "url": "https://www.youtube.com/watch?v=NZEf9jXzCYA",
+      "creator": { "@type": "Person", "name": "Sam Wilkinson" },
+      "duration": "PT80S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Williams guard armbar counter",
+      "description": "Posture from Williams Guard (Defender) film study: Williams guard armbar counter, taught by Sam Wilkinson.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/M__MeC_XCIM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/M__MeC_XCIM",
+      "url": "https://www.youtube.com/watch?v=M__MeC_XCIM",
+      "creator": { "@type": "Person", "name": "Sam Wilkinson" },
+      "duration": "PT66S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -149,6 +186,34 @@ Defending against posture recovery from Williams Guard means maintaining the int
 **Opponent's Starting Position**: [[Positions/Williams Guard]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Posture from Williams Guard (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=NZEf9jXzCYA)
+
+<p class="clip-credit"><strong>Williams guard cartwheel escape counter</strong> — taught by Sam Wilkinson · 1:20 · <a href="https://www.youtube.com/watch?v=NZEf9jXzCYA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=M__MeC_XCIM)
+
+<p class="clip-credit"><strong>Williams guard armbar counter</strong> — taught by Sam Wilkinson · 1:06 · <a href="https://www.youtube.com/watch?v=M__MeC_XCIM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

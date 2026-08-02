@@ -34,6 +34,54 @@ description: "Escape gogoplata control by extracting head and recovering posture
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Head Extraction to Posture \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Head Extraction: Hips Down, Posture Up",
+      "description": "Head Extraction to Posture film study: Head Extraction: Hips Down, Posture Up, taught by Mat Life Training Center.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/HLWwfq8FNMI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/HLWwfq8FNMI",
+      "url": "https://www.youtube.com/watch?v=HLWwfq8FNMI",
+      "creator": { "@type": "Person", "name": "Mat Life Training Center" },
+      "duration": "PT19S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Use Good Posture to Counter the Headlock",
+      "description": "Head Extraction to Posture film study: Use Good Posture to Counter the Headlock, taught by Brandon McCaghren.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ICSTtSCjobM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ICSTtSCjobM",
+      "url": "https://www.youtube.com/watch?v=ICSTtSCjobM",
+      "creator": { "@type": "Person", "name": "Brandon McCaghren" },
+      "duration": "PT286S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Breaking down the Rubber Guard - posture work",
+      "description": "Head Extraction to Posture film study: Breaking down the Rubber Guard - posture work, taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/sqC1g6lVDCQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/sqC1g6lVDCQ",
+      "url": "https://www.youtube.com/watch?v=sqC1g6lVDCQ",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT541S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -66,9 +114,45 @@ The technique prioritizes systematic extraction over explosive movement. Rather 
 Strategically, Head Extraction to Posture represents more than simple survival. Successfully completing this escape returns you to closed guard with posture, meaning you can immediately begin your passing sequences. The technique also teaches broader principles about defending unorthodox submissions by understanding their mechanical requirements and systematically dismantling them rather than fighting the symptoms.
 
 **From Position**: [[Positions/Gogoplata Control]] (Top)
-**Success Rate**: 58%
+**Success Rate**: 48%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Head Extraction to Posture in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=HLWwfq8FNMI)
+
+<p class="clip-credit"><strong>Head Extraction: Hips Down, Posture Up</strong> — taught by Mat Life Training Center · 0:19 · <a href="https://www.youtube.com/watch?v=HLWwfq8FNMI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ICSTtSCjobM)
+
+<p class="clip-credit"><strong>Use Good Posture to Counter the Headlock</strong> — taught by Brandon McCaghren · 4:46 · <a href="https://www.youtube.com/watch?v=ICSTtSCjobM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=sqC1g6lVDCQ)
+
+<p class="clip-credit"><strong>Breaking down the Rubber Guard - posture work</strong> — taught by Eddie Bravo · 9:01 · <a href="https://www.youtube.com/watch?v=sqC1g6lVDCQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

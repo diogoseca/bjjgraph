@@ -148,6 +148,43 @@ description: "How to prevent and counter the Elbow Escape to Guard in BJJ. Recog
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Elbow Escape to Guard (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "3 Buggy Choke Finishing Concepts",
+      "description": "Elbow Escape to Guard (Defender) film study: 3 Buggy Choke Finishing Concepts, taught by Kade and Tye Ruotolo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/0_3YYrWEGoU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/0_3YYrWEGoU",
+      "url": "https://www.youtube.com/watch?v=0_3YYrWEGoU",
+      "creator": { "@type": "Person", "name": "Kade and Tye Ruotolo" },
+      "duration": "PT201S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Buggy Choke Position Tips and Finish Details",
+      "description": "Elbow Escape to Guard (Defender) film study: Buggy Choke Position Tips and Finish Details, taught by Rene Sousa.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/7xyLRBtUmoU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/7xyLRBtUmoU",
+      "url": "https://www.youtube.com/watch?v=7xyLRBtUmoU",
+      "creator": { "@type": "Person", "name": "Rene Sousa" },
+      "duration": "PT356S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -159,6 +196,34 @@ The escape relies on a specific sequence—chin tuck, elbow wedge insertion, hip
 **Opponent's Starting Position**: [[Positions/Buggy Choke]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Elbow Escape to Guard (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=0_3YYrWEGoU)
+
+<p class="clip-credit"><strong>3 Buggy Choke Finishing Concepts</strong> — taught by Kade and Tye Ruotolo · 3:21 · <a href="https://www.youtube.com/watch?v=0_3YYrWEGoU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=7xyLRBtUmoU)
+
+<p class="clip-credit"><strong>Buggy Choke Position Tips and Finish Details</strong> — taught by Rene Sousa · 5:56 · <a href="https://www.youtube.com/watch?v=7xyLRBtUmoU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

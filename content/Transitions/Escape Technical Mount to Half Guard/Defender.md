@@ -148,6 +148,54 @@ description: "Defend against the Technical Mount to Half Guard escape in BJJ. Le
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Escape Technical Mount to Half Guard (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Keeping mount when opponent grabs the hips",
+      "description": "Escape Technical Mount to Half Guard (Defender) film study: Keeping mount when opponent grabs the hips, taught by Prodigy MMA Australia.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/wQI7JTaVM58/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/wQI7JTaVM58",
+      "url": "https://www.youtube.com/watch?v=wQI7JTaVM58",
+      "creator": { "@type": "Person", "name": "Prodigy MMA Australia" },
+      "duration": "PT30S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Mount maintenance drill",
+      "description": "Escape Technical Mount to Half Guard (Defender) film study: Mount maintenance drill, taught by SBG Australia.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/PcSYX5if2rE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/PcSYX5if2rE",
+      "url": "https://www.youtube.com/watch?v=PcSYX5if2rE",
+      "creator": { "@type": "Person", "name": "SBG Australia" },
+      "duration": "PT109S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Three ways to maintain mount",
+      "description": "Escape Technical Mount to Half Guard (Defender) film study: Three ways to maintain mount, taught by Exodus Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/d-4IYhVS7sc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/d-4IYhVS7sc",
+      "url": "https://www.youtube.com/watch?v=d-4IYhVS7sc",
+      "creator": { "@type": "Person", "name": "Exodus Jiu Jitsu" },
+      "duration": "PT106S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +205,42 @@ As the top player in Technical Mount facing an escape attempt to half guard, you
 **Opponent's Starting Position**: [[Positions/Mount/Technical Mount]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Escape Technical Mount to Half Guard (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=wQI7JTaVM58)
+
+<p class="clip-credit"><strong>Keeping mount when opponent grabs the hips</strong> — taught by Prodigy MMA Australia · 0:30 · <a href="https://www.youtube.com/watch?v=wQI7JTaVM58" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=PcSYX5if2rE)
+
+<p class="clip-credit"><strong>Mount maintenance drill</strong> — taught by SBG Australia · 1:49 · <a href="https://www.youtube.com/watch?v=PcSYX5if2rE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=d-4IYhVS7sc)
+
+<p class="clip-credit"><strong>Three ways to maintain mount</strong> — taught by Exodus Jiu Jitsu · 1:46 · <a href="https://www.youtube.com/watch?v=d-4IYhVS7sc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

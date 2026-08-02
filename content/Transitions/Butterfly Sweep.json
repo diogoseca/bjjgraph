@@ -14,21 +14,33 @@
   "outcomes": [
     {
       "to": "Mount/Top",
-      "probability": 70,
+      "probability": {
+        "gi": 70,
+        "nogi": 70
+      },
       "result": "success"
     },
     {
       "to": "Butterfly Guard/Bottom",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "failure"
     },
     {
       "to": "Butterfly Guard/Top",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 62,
+  "success_rate": {
+    "gi": 62,
+    "nogi": 62
+  },
   "overview": "As the cornerstone attack of the Butterfly Guard system, the sweep converts inside-hook leverage and upper-body control into a full positional reversal that lands in a dominant top position. By using butterfly hooks (feet positioned on opponent's inner thighs) combined with precise hip movement and off-balancing mechanics, the practitioner elevates and destabilizes the opponent, reversing position from bottom to top. This sweep is particularly effective when the opponent commits their weight forward or attempts to pass, creating the perfect opportunity for the guard player to capitalize on compromised balance. The technique exemplifies efficient use of leverage over strength, making it accessible to practitioners of all sizes and suitable against larger opponents. The butterfly sweep serves as a foundation for numerous guard systems and a gateway to more advanced butterfly guard attacks, including X-Guard entries, arm drags to the back, and guillotine threats when the opponent postures to defend.",
   "related_content": [
     {
@@ -245,46 +257,175 @@
     "flashcards": [
       {
         "question": "What is the primary mechanical principle that makes the butterfly sweep effective against larger opponents?",
-        "answer": "The butterfly sweep uses leverage and rotational momentum rather than pure strength. By establishing a fulcrum with the posted base hand and using the butterfly hook to break opponent's base while pulling them across your centerline, you create a wheel-like rotation that multiplies force. The technique redirects opponent's weight and uses their own mass against them, making size difference less relevant. Proper execution requires coordination of multiple components (hook elevation, upper body pull, hip rotation) occurring simultaneously to generate circular momentum that opponent cannot resist with base alone."
+        "answer": "The butterfly sweep uses leverage and rotational momentum rather than pure strength. By establishing a fulcrum with the posted base hand and using the butterfly hook to break opponent's base while pulling them across your centerline, you create a wheel-like rotation that multiplies force. The technique redirects opponent's weight and uses their own mass against them, making size difference less relevant. Proper execution requires coordination of multiple components (hook elevation, upper body pull, hip rotation) occurring simultaneously to generate circular momentum that opponent cannot resist with base alone.",
+        "answer_line": "Rotational leverage beats strength",
+        "distractors": {
+          "plausible": [
+            "Speed and quickness advantage",
+            "Flexibility and joint mobility"
+          ],
+          "trap": [
+            "Muscle through with raw strength"
+          ]
+        }
       },
       {
         "question": "Why is breaking opponent's posture essential before attempting the butterfly sweep?",
-        "answer": "Breaking posture serves multiple critical functions: it brings opponent's weight onto your centerline, compromising their base and making them easier to off-balance; it prevents them from seeing the sweep coming and reacting with early posts; it creates forward momentum that you redirect during the sweep; and it limits their ability to drive into you with pressure. Without broken posture, opponent maintains strong base with weight distributed on their knees and feet, making the sweep a low-percentage pushing contest. Proper posture breaking makes opponent heavy on top of you, which paradoxically makes them easier to sweep because their weight becomes a liability when you redirect it."
+        "answer": "Breaking posture loads the opponent's weight onto your centerline and hooks, compromising their base so they can be off-balanced and swept. It also prevents them from seeing the sweep coming and reacting with early posts, creates forward momentum you redirect during the sweep, and limits their ability to drive into you with pressure. Without broken posture, the opponent maintains a strong base with weight distributed on their knees and feet, turning the sweep into a low-percentage pushing contest. Paradoxically, making the opponent heavy on top of you makes them easier to sweep, because their weight becomes a liability once you redirect it.",
+        "distractors": {
+          "plausible": [
+            "Tires opponent out first",
+            "Sets up a submission first"
+          ],
+          "trap": [
+            "Let opponent stay upright and light"
+          ]
+        },
+        "answer_line": "Loads their weight onto your hooks"
       },
       {
         "question": "What should you do if your opponent posts their hand on the mat during your butterfly sweep attempt?",
-        "answer": "The posted hand creates a strong defensive base but also creates opportunities. Primary response is to attack the posted arm with Kimura grip, as the arm is extended and isolated. Alternatively, redirect your sweep to the opposite side, as opponent's weight is now committed to the posted side. You can also transition to X-Guard by adjusting your hooks to control the opposite leg. Advanced practitioners may continue the sweep by removing the posted hand through grip breaks or by generating enough rotational momentum to overcome the post. The key is recognizing the post early and immediately transitioning to your planned response rather than fighting against the post."
+        "answer": "The posted hand creates a strong defensive base but also creates opportunities. Primary response is to attack the posted arm with Kimura grip, as the arm is extended and isolated. Alternatively, redirect your sweep to the opposite side, as opponent's weight is now committed to the posted side. You can also transition to X-Guard by adjusting your hooks to control the opposite leg. Advanced practitioners may continue the sweep by removing the posted hand through grip breaks or by generating enough rotational momentum to overcome the post. The key is recognizing the post early and immediately transitioning to your planned response rather than fighting against the post.",
+        "answer_line": "Attack Kimura on posted arm",
+        "distractors": {
+          "plausible": [
+            "Push through the same side harder",
+            "Switch to a collar choke attempt"
+          ],
+          "trap": [
+            "Grab the post and pull yourself up"
+          ]
+        }
       },
       {
         "question": "How does the base hand posting position contribute to sweep success?",
-        "answer": "The base hand acts as the pivot point or fulcrum for the rotational sweep motion. Posted behind you with slight elbow bend, it prevents you from falling backward and provides structural stability throughout the sweep. The hand creates an axis of rotation that allows your body to act as a wheel, with opponent being rolled over the top. Proper posting allows you to generate leverage by creating distance between your posted hand and your hooks, maximizing the mechanical advantage. Without the base hand post, you risk collapsing backward, losing all momentum and often ending up underneath opponent in mount. The post must be established before initiating the sweep and maintained throughout the motion."
+        "answer": "The base hand acts as the pivot point or fulcrum for the rotational sweep motion. Posted behind you with slight elbow bend, it prevents you from falling backward and provides structural stability throughout the sweep. The hand creates an axis of rotation that allows your body to act as a wheel, with opponent being rolled over the top. Proper posting allows you to generate leverage by creating distance between your posted hand and your hooks, maximizing the mechanical advantage. Without the base hand post, you risk collapsing backward, losing all momentum and often ending up underneath opponent in mount. The post must be established before initiating the sweep and maintained throughout the motion.",
+        "answer_line": "Pivot point for the rotation",
+        "distractors": {
+          "plausible": [
+            "Extra grip to pull opponent in",
+            "Frame to push opponent away"
+          ],
+          "trap": [
+            "Keep both hands on opponent's collar"
+          ]
+        }
       },
       {
         "question": "What is the difference between a successful butterfly sweep and an incomplete sweep that ends in scramble?",
-        "answer": "A successful sweep features complete position reversal where you establish mount or side control with opponent's back on the mat. This requires: proper posture breaking before initiation; coordinated execution of all sweep components; sufficient rotational momentum to fully invert opponent; immediate extraction of hooks as opponent inverts; aggressive forward drive to establish top position; and instant consolidation with crossface and underhook control. An incomplete sweep typically results from: inadequate posture breaking leaving opponent's base intact; poor coordination causing weak momentum; early hook extraction preventing full inversion; lack of follow-through allowing opponent to turtle; or telegraphing the sweep allowing opponent to prepare defenses. The key distinction is intention and execution - you must commit fully to the sweep and drive through completely rather than hoping opponent will fall over."
+        "answer": "A successful sweep features complete position reversal where you establish mount or side control with opponent's back on the mat. This requires: proper posture breaking before initiation; coordinated execution of all sweep components; sufficient rotational momentum to fully invert opponent; immediate extraction of hooks as opponent inverts; aggressive forward drive to establish top position; and instant consolidation with crossface and underhook control. An incomplete sweep typically results from: inadequate posture breaking leaving opponent's base intact; poor coordination causing weak momentum; early hook extraction preventing full inversion; lack of follow-through allowing opponent to turtle; or telegraphing the sweep allowing opponent to prepare defenses. The key distinction is intention and execution - you must commit fully to the sweep and drive through completely rather than hoping opponent will fall over.",
+        "answer_line": "Full reversal, then consolidate top",
+        "distractors": {
+          "plausible": [
+            "Opponent's base breaks momentarily",
+            "Opponent posts and re-guards"
+          ],
+          "trap": [
+            "Stop once opponent starts to tip"
+          ]
+        }
       },
       {
         "question": "When opponent sprawls backward away from your butterfly hooks, what immediate transition options are available?",
-        "answer": "When opponent sprawls backward, they remove weight from your hooks but expose opportunities for guard transitions. Primary option is Deep Half Guard by following their backward motion and sliding one leg deep under their body. Alternatively, transition to Single Leg X-Guard by adjusting your hooks to control one leg. You can also pursue Technical Standup to standing position, maintaining grip control as you rise. Another option is transitioning to Shin-to-Shin or De La Riva guard if opponent stays on their knees. The critical element is maintaining grip control and immediately following opponent's movement rather than trying to pull them back onto your hooks. Train these transitions as direct sequences from failed butterfly sweep attempts."
+        "answer": "When opponent sprawls backward, they remove weight from your hooks but expose opportunities for guard transitions. Primary option is Deep Half Guard by following their backward motion and sliding one leg deep under their body. Alternatively, transition to Single Leg X-Guard by adjusting your hooks to control one leg. You can also pursue Technical Standup to standing position, maintaining grip control as you rise. Another option is transitioning to Shin-to-Shin or De La Riva guard if opponent stays on their knees. The critical element is maintaining grip control and immediately following opponent's movement rather than trying to pull them back onto your hooks. Train these transitions as direct sequences from failed butterfly sweep attempts.",
+        "answer_line": "Follow into deep half guard",
+        "distractors": {
+          "plausible": [
+            "Pull them back onto your hooks",
+            "Chase with an ankle grab from range"
+          ],
+          "trap": [
+            "Release all grips and disengage"
+          ]
+        }
       },
       {
         "question": "What is the optimal timing window for initiating the butterfly sweep?",
-        "answer": "The optimal timing window occurs when the opponent shifts their weight forward, typically when they lean in to establish grips, attempt to flatten you, or drive forward to initiate a pass. At this moment their center of gravity moves over your hooks, their hands are occupied with grip fighting rather than posting for base, and their forward momentum can be redirected into rotational force. A secondary timing window opens when the opponent reaches with one hand for a grip or attempts a crossface, as this momentarily removes one potential posting hand. Recognizing these windows requires sensitivity to weight shifts through your hooks and grips, which develops through extensive positional sparring."
+        "answer": "The prime window is the moment the opponent shifts weight forward—leaning in for grips, driving to pass, or trying to flatten you. At that instant their center of gravity moves over your hooks, their hands are occupied with grip fighting rather than posting for base, and their forward momentum can be redirected into rotational force. A secondary window opens when the opponent reaches with one hand for a grip or attempts a crossface, momentarily removing one potential posting hand. Recognizing these windows requires sensitivity to weight shifts through your hooks and grips, which develops through extensive positional sparring.",
+        "distractors": {
+          "plausible": [
+            "Right when they first sit down",
+            "Once they've fully sprawled back"
+          ],
+          "trap": [
+            "Wait until they've passed your legs"
+          ]
+        },
+        "answer_line": "When they lean forward for grips"
       },
       {
         "question": "What grip configuration provides the strongest control for the standard underhook butterfly sweep?",
-        "answer": "The strongest configuration uses a deep underhook on the sweep side with your hand reaching to opponent's far shoulder blade or lat, combined with a collar grip, wrist control, or overhook on the opposite side. The underhook serves dual purposes: it prevents opponent from posting on the sweep side and provides pulling power to break posture and generate rotational momentum. The opposite hand grip controls the non-sweep side and prevents opponent from basing out or creating distance. The underhook must be deep enough that your shoulder is tight against opponent's armpit, creating a structural connection that transfers your hip movement directly to their upper body."
+        "answer": "The strongest configuration uses a deep underhook on the sweep side with your hand reaching to opponent's far shoulder blade or lat, combined with a collar grip, wrist control, or overhook on the opposite side. The underhook serves dual purposes: it prevents opponent from posting on the sweep side and provides pulling power to break posture and generate rotational momentum. The opposite hand grip controls the non-sweep side and prevents opponent from basing out or creating distance. The underhook must be deep enough that your shoulder is tight against opponent's armpit, creating a structural connection that transfers your hip movement directly to their upper body.",
+        "answer_line": "Deep underhook plus far-side grip",
+        "distractors": {
+          "plausible": [
+            "Both hands gripping the same collar",
+            "Underhook on the non-sweep side"
+          ],
+          "trap": [
+            "Give up underhook for a collar tie"
+          ]
+        }
       },
       {
         "question": "In which direction should the primary force be applied during the butterfly sweep?",
-        "answer": "The primary force vector is diagonal and rotational, not straight upward or straight sideways. The sweeping hook drives upward at approximately a 45-degree angle across your body toward the opposite shoulder, while simultaneously your upper body grips pull opponent laterally in the same diagonal direction. You fall toward your posted base hand while driving opponent over the top. This creates a circular arc where opponent's body rotates around the fulcrum of your posted hand. A common misconception is that the sweep is primarily an upward lift, but the elevation is only one component. The actual sweep power comes from the coordinated diagonal pull-and-fall motion that converts opponent's forward weight into rotational momentum."
+        "answer": "The primary force vector is diagonal and rotational, not straight upward or straight sideways. The sweeping hook drives upward at approximately a 45-degree angle across your body toward the opposite shoulder, while simultaneously your upper body grips pull opponent laterally in the same diagonal direction. You fall toward your posted base hand while driving opponent over the top. This creates a circular arc where opponent's body rotates around the fulcrum of your posted hand. A common misconception is that the sweep is primarily an upward lift, but the elevation is only one component. The actual sweep power comes from the coordinated diagonal pull-and-fall motion that converts opponent's forward weight into rotational momentum.",
+        "answer_line": "Diagonal pull-and-fall rotation",
+        "distractors": {
+          "plausible": [
+            "Straight upward lifting force",
+            "Straight sideways push force"
+          ],
+          "trap": [
+            "Push opponent straight backward"
+          ]
+        }
       },
       {
         "question": "Your opponent defends the butterfly sweep by standing up while you still have hooks and grips. What attack chain should you pursue?",
-        "answer": "When the opponent stands from your butterfly guard, maintain your grips and immediately transition your hooks to address the new geometry. Primary option is to insert one hook behind their knee while controlling the same-side sleeve or collar, entering X-Guard or Single Leg X-Guard where sweeps become even higher percentage against a standing opponent. If they stand with narrow base, an immediate elevation sweep is possible by driving both hooks upward while pulling their upper body down. If they create distance and break grips, transition to De La Riva or Reverse De La Riva guard to maintain leg control. The critical error is releasing your grips when they stand, which allows them to disengage and begin a standing pass."
+        "answer": "When the opponent stands from your butterfly guard, maintain your grips and immediately transition your hooks to address the new geometry. Primary option is to insert one hook behind their knee while controlling the same-side sleeve or collar, entering X-Guard or Single Leg X-Guard where sweeps become even higher percentage against a standing opponent. If they stand with narrow base, an immediate elevation sweep is possible by driving both hooks upward while pulling their upper body down. If they create distance and break grips, transition to De La Riva or Reverse De La Riva guard to maintain leg control. The critical error is releasing your grips when they stand, which allows them to disengage and begin a standing pass.",
+        "answer_line": "Keep grips, enter X-Guard",
+        "distractors": {
+          "plausible": [
+            "Stand up with them immediately",
+            "Switch to a double leg takedown"
+          ],
+          "trap": [
+            "Release grips as they stand"
+          ]
+        }
       }
     ],
-    "safety_considerations": "The butterfly sweep is generally safe when practiced with proper progression and partner communication. Primary safety concerns include: neck and spine protection during the sweep - ensure partner can tuck chin and roll properly to avoid landing awkwardly on head or neck; knee stress on the sweeping practitioner from over-relying on leg strength rather than coordinated technique; finger and wrist injuries from improper grip breaking during resistance - maintain proper grip structure and release grips if caught awkwardly; shoulder stress from posted arm if weight lands incorrectly - keep elbow slightly bent on posted arm. During training, start with cooperative drilling to establish proper mechanics before adding resistance. Partners should communicate about neck or knee issues that might require modified drilling. When being swept, learn to roll properly and avoid posting hands at awkward angles. Competition-level resistance should only be applied after both partners have developed technical proficiency and understand proper breakfalls. If either partner experiences pain during the sweep, stop immediately and assess technique."
+    "safety_considerations": "The butterfly sweep is generally safe when practiced with proper progression and partner communication. Primary safety concerns include: neck and spine protection during the sweep - ensure partner can tuck chin and roll properly to avoid landing awkwardly on head or neck; knee stress on the sweeping practitioner from over-relying on leg strength rather than coordinated technique; finger and wrist injuries from improper grip breaking during resistance - maintain proper grip structure and release grips if caught awkwardly; shoulder stress from posted arm if weight lands incorrectly - keep elbow slightly bent on posted arm. During training, start with cooperative drilling to establish proper mechanics before adding resistance. Partners should communicate about neck or knee issues that might require modified drilling. When being swept, learn to roll properly and avoid posting hands at awkward angles. Competition-level resistance should only be applied after both partners have developed technical proficiency and understand proper breakfalls. If either partner experiences pain during the sweep, stop immediately and assess technique.",
+    "clips": [
+      {
+        "id": "Ml2YppHVvj0",
+        "title": "Marcelo Garcia hits the butterfly push sweep at ADCC",
+        "by": "Marcelo Garcia",
+        "vertical": false,
+        "channel": "ac c",
+        "duration": 11,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "ywB6TEyjyRM",
+        "title": "Butterfly sweep with hip and one hook",
+        "by": "Nine Nine Jiu Jitsu",
+        "vertical": false,
+        "channel": "Nine Nine Jiu Jitsu",
+        "duration": 58,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "Mo2vJ0_xb1U",
+        "title": "Marcelo Garcia breaks down the butterfly sweep",
+        "by": "Marcelo Garcia",
+        "vertical": false,
+        "channel": "bjjweekly",
+        "duration": 239,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Butterfly Sweep Defender",
@@ -370,23 +511,73 @@
     "flashcards": [
       {
         "question": "What is the single most important body position detail for preventing the butterfly sweep from being initiated?",
-        "answer": "Keeping your hips back and low with weight distributed through your knees rather than leaning forward over opponent's hooks. When your hips are behind your shoulders, opponent cannot load your weight onto their hooks effectively, which is the prerequisite for any butterfly sweep variation. This hip position simultaneously limits how much elevation the hooks can generate and reduces the forward momentum available for the bottom player to redirect. Maintaining this posture requires active awareness because natural grappling instincts often lead to leaning forward to apply pressure, which is exactly what feeds the sweep."
+        "answer": "Keeping your hips back and low with weight distributed through your knees rather than leaning forward over opponent's hooks. When your hips are behind your shoulders, opponent cannot load your weight onto their hooks effectively, which is the prerequisite for any butterfly sweep variation. This hip position simultaneously limits how much elevation the hooks can generate and reduces the forward momentum available for the bottom player to redirect. Maintaining this posture requires active awareness because natural grappling instincts often lead to leaning forward to apply pressure, which is exactly what feeds the sweep.",
+        "answer_line": "Keep hips back and weight low",
+        "distractors": {
+          "plausible": [
+            "Keep shoulders square and stacked",
+            "Widen your base with knees out"
+          ],
+          "trap": [
+            "Lean forward to apply pressure"
+          ]
+        }
       },
       {
         "question": "Your opponent has established a deep underhook and is starting to pull you forward while elevating one hook. What is your immediate defensive priority?",
-        "answer": "Your immediate priority is posting your hand on the mat on the side the hook is elevating, while simultaneously driving your hip down on that same side to kill the elevation. The post must happen before full rotation begins. Simultaneously, use your other hand to attack the underhook by driving a whizzer or swimming your arm back inside. Do not try to pull away from the underhook by creating distance, as this gives the bottom player the angle they need. After stopping the immediate sweep threat, work to strip the underhook before the next attempt. If the post feels too late and rotation has begun, sprawl backward explosively to remove your weight from the hooks entirely."
+        "answer": "Your immediate priority is posting your hand on the mat on the side the hook is elevating, while simultaneously driving your hip down on that same side to kill the elevation. The post must happen before full rotation begins. Simultaneously, use your other hand to attack the underhook by driving a whizzer or swimming your arm back inside. Do not try to pull away from the underhook by creating distance, as this gives the bottom player the angle they need. After stopping the immediate sweep threat, work to strip the underhook before the next attempt. If the post feels too late and rotation has begun, sprawl backward explosively to remove your weight from the hooks entirely.",
+        "answer_line": "Post hand, drive hip down",
+        "distractors": {
+          "plausible": [
+            "Pull away to create distance",
+            "Post on the opposite side instead"
+          ],
+          "trap": [
+            "Reach to grab their far leg"
+          ]
+        }
       },
       {
         "question": "Why is sprawling backward sometimes more effective than posting the hand when defending the butterfly sweep?",
-        "answer": "Sprawling backward removes your entire body weight from the hooks simultaneously, eliminating the elevation power that drives the sweep. A hand post only blocks the rotational direction and can be overcome if the bottom player generates sufficient momentum or if they redirect the sweep to the opposite side. Sprawling also has the advantage of being direction-neutral, meaning it works regardless of which side the sweep is aimed at, whereas a hand post only blocks one direction and leaves you vulnerable to the other. However, sprawling is most effective early in the sweep sequence before directional commitment. Once full rotation has begun, a hand post is faster and more practical than a full sprawl."
+        "answer": "Sprawling backward removes your entire body weight from the hooks simultaneously, eliminating the elevation power that drives the sweep. A hand post only blocks the rotational direction and can be overcome if the bottom player generates sufficient momentum or if they redirect the sweep to the opposite side. Sprawling also has the advantage of being direction-neutral, meaning it works regardless of which side the sweep is aimed at, whereas a hand post only blocks one direction and leaves you vulnerable to the other. However, sprawling is most effective early in the sweep sequence before directional commitment. Once full rotation has begun, a hand post is faster and more practical than a full sprawl.",
+        "answer_line": "Removes all weight at once",
+        "distractors": {
+          "plausible": [
+            "Blocks only the near-side direction",
+            "Works better once fully rotated"
+          ],
+          "trap": [
+            "Try to power through the elevation"
+          ]
+        }
       },
       {
         "question": "How can you use grip fighting from the top position to prevent butterfly sweep attempts before they start?",
-        "answer": "Proactive grip fighting prevents the bottom player from assembling sweep prerequisites. Prioritize denying the underhook by keeping your elbows tight and fighting for inside position with your own underhooks or collar ties. If in gi, strip collar grips immediately by two-on-one breaking before they can be used to break your posture. Control at least one of opponent's wrists to prevent them from establishing the bilateral control needed for high-percentage sweeps. When you control the grip exchange, the bottom player must spend energy fighting for grips rather than executing sweeps, which shifts the tactical initiative to you and creates windows for passing attempts."
+        "answer": "Proactive grip fighting prevents the bottom player from assembling sweep prerequisites. Prioritize denying the underhook by keeping your elbows tight and fighting for inside position with your own underhooks or collar ties. If in gi, strip collar grips immediately by two-on-one breaking before they can be used to break your posture. Control at least one of opponent's wrists to prevent them from establishing the bilateral control needed for high-percentage sweeps. When you control the grip exchange, the bottom player must spend energy fighting for grips rather than executing sweeps, which shifts the tactical initiative to you and creates windows for passing attempts.",
+        "answer_line": "Deny the underhook, elbows tight",
+        "distractors": {
+          "plausible": [
+            "Cross-face to flatten them out",
+            "Grip their pants and stall"
+          ],
+          "trap": [
+            "Let them get a two-on-one grip"
+          ]
+        }
       },
       {
         "question": "After successfully defending a butterfly sweep attempt, what should your immediate follow-up action be?",
-        "answer": "Immediately initiate a passing sequence before the opponent can re-establish optimal guard structure. After a failed sweep, the bottom player's grips are disrupted, their posture may be compromised from the attempt, and their hooks may be partially displaced. This creates a brief window where their guard retention capability is degraded. The specific pass depends on the defense used: after a hand post, drive the posted hand side forward into a knee slice or pressure pass; after a sprawl, follow forward pressure into a smash pass or over-under configuration; after stripping grips, immediately establish your own dominant grips for a toreando or body lock pass."
+        "answer": "Immediately initiate a passing sequence before the opponent can re-establish optimal guard structure. After a failed sweep, the bottom player's grips are disrupted, their posture may be compromised from the attempt, and their hooks may be partially displaced. This creates a brief window where their guard retention capability is degraded. The specific pass depends on the defense used: after a hand post, drive the posted hand side forward into a knee slice or pressure pass; after a sprawl, follow forward pressure into a smash pass or over-under configuration; after stripping grips, immediately establish your own dominant grips for a toreando or body lock pass.",
+        "answer_line": "Immediately begin passing guard",
+        "distractors": {
+          "plausible": [
+            "Reset to neutral and re-grip slowly",
+            "Wait for opponent to attack again"
+          ],
+          "trap": [
+            "Back away to create space"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -409,6 +600,35 @@
         "phase": "Week 9+: Live Positional Sparring",
         "focus": "Full resistance defense and counter-offense against complete butterfly guard game",
         "description": "Full resistance positional sparring from inside opponent's butterfly guard. Partner uses complete butterfly guard game including sweep chains, transitions to X-Guard, arm drags, and guillotine threats. Defender must defend all threats while actively working to pass. 5-minute rounds with scoring for sweeps, sweep defense, and passes. Rotate partners of different sizes and styles. Integrate butterfly guard defense into regular rolling with emphasis on recognizing and shutting down sweep setups early."
+      }
+    ],
+    "clips": [
+      {
+        "id": "ZAOF5qNApJ0",
+        "title": "Counters to a failed butterfly sweep",
+        "by": "Oneonta Jiu Jitsu",
+        "vertical": false,
+        "channel": "OneontaJiuJitsu Academy",
+        "duration": 98,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "IKs6ZDfahHE",
+        "title": "Passing butterfly guard via cross butterfly hook",
+        "by": "Thunderdome BJJ",
+        "vertical": false,
+        "channel": "Thunderdome BJJ",
+        "duration": 44,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "cUTZ4bpZVUU",
+        "title": "One minute butterfly guard pass",
+        "by": "Phil Migliarese",
+        "vertical": false,
+        "channel": "Balance Studios: Gracie Jiu-Jitsu & Muay Thai",
+        "duration": 72,
+        "verified": "2026-07-15"
       }
     ]
   },

@@ -176,6 +176,54 @@ description: "How to execute the kneebar from Saddle position in BJJ. Attacking 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Kneebar from Saddle (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Kneebar from Saddle",
+      "description": "Kneebar from Saddle (Attacker) film study: Kneebar from Saddle, taught by Bristol Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/fig6JjjU-bE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/fig6JjjU-bE",
+      "url": "https://www.youtube.com/watch?v=fig6JjjU-bE",
+      "creator": { "@type": "Person", "name": "Bristol Jiu Jitsu" },
+      "duration": "PT88S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Dog Bar (Saddle Kneebar)",
+      "description": "Kneebar from Saddle (Attacker) film study: Dog Bar (Saddle Kneebar), taught by Craig Jones.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/vMqDIi10z4k/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/vMqDIi10z4k",
+      "url": "https://www.youtube.com/watch?v=vMqDIi10z4k",
+      "creator": { "@type": "Person", "name": "Craig Jones" },
+      "duration": "PT61S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Kneebar from Saddle",
+      "description": "Kneebar from Saddle (Attacker) film study: Kneebar from Saddle, taught by Sickness Ferro.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/wDwhA_MeFbU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/wDwhA_MeFbU",
+      "url": "https://www.youtube.com/watch?v=wDwhA_MeFbU",
+      "creator": { "@type": "Person", "name": "Sickness Ferro" },
+      "duration": "PT143S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -186,6 +234,42 @@ The kneebar from Saddle represents a high-percentage secondary attack from one o
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Kneebar from Saddle (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=fig6JjjU-bE)
+
+<p class="clip-credit"><strong>Kneebar from Saddle</strong> — taught by Bristol Jiu Jitsu · 1:28 · <a href="https://www.youtube.com/watch?v=fig6JjjU-bE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=vMqDIi10z4k)
+
+<p class="clip-credit"><strong>Dog Bar (Saddle Kneebar)</strong> — taught by Craig Jones · 1:01 · <a href="https://www.youtube.com/watch?v=vMqDIi10z4k" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=wDwhA_MeFbU)
+
+<p class="clip-credit"><strong>Kneebar from Saddle</strong> — taught by Sickness Ferro · 2:23 · <a href="https://www.youtube.com/watch?v=wDwhA_MeFbU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

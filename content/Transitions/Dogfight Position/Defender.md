@@ -148,6 +148,54 @@ description: "How to defend against Dogfight Position in BJJ. Recognition cues, 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Dogfight Position (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Dogfight defense: limp leg and sprawl",
+      "description": "Dogfight Position (Defender) film study: Dogfight defense: limp leg and sprawl, taught by Corey McWilliams.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/81_Ayv0Auro/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/81_Ayv0Auro",
+      "url": "https://www.youtube.com/watch?v=81_Ayv0Auro",
+      "creator": { "@type": "Person", "name": "Corey McWilliams" },
+      "duration": "PT281S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Dogfight Counterattacks: How to Beat Their Guard",
+      "description": "Dogfight Position (Defender) film study: Dogfight Counterattacks: How to Beat Their Guard, taught by Energia Martial Arts.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/TlAHoKqCq7M/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/TlAHoKqCq7M",
+      "url": "https://www.youtube.com/watch?v=TlAHoKqCq7M",
+      "creator": { "@type": "Person", "name": "Energia Martial Arts" },
+      "duration": "PT438S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Underhook Half Guard vs Darce and Guillotine",
+      "description": "Dogfight Position (Defender) film study: Underhook Half Guard vs Darce and Guillotine, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/dM1xebWBFzc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/dM1xebWBFzc",
+      "url": "https://www.youtube.com/watch?v=dM1xebWBFzc",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT369S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -159,6 +207,42 @@ The defensive strategy centers on denying the three pillars the bottom player ne
 **Opponent's Starting Position**: [[Positions/Leg Weave]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Dogfight Position (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=81_Ayv0Auro)
+
+<p class="clip-credit"><strong>Dogfight defense: limp leg and sprawl</strong> — taught by Corey McWilliams · 4:41 · <a href="https://www.youtube.com/watch?v=81_Ayv0Auro" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=TlAHoKqCq7M)
+
+<p class="clip-credit"><strong>Dogfight Counterattacks: How to Beat Their Guard</strong> — taught by Energia Martial Arts · 7:18 · <a href="https://www.youtube.com/watch?v=TlAHoKqCq7M" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=dM1xebWBFzc)
+
+<p class="clip-credit"><strong>Underhook Half Guard vs Darce and Guillotine</strong> — taught by Lachlan Giles · 6:09 · <a href="https://www.youtube.com/watch?v=dM1xebWBFzc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

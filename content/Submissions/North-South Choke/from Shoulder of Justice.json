@@ -19,7 +19,10 @@
   "target_area": "Carotid arteries",
   "starting_position": "Shoulder of Justice",
   "from_position": "Shoulder of Justice/Top",
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "overview": "The North-South Choke from Shoulder of Justice leverages the intense jaw pressure already established in the Shoulder of Justice position to seamlessly transition into one of the highest-percentage blood chokes in grappling. Unlike entering the North-South Choke from standard side control or north-south, this variation uses the opponent's compromised defensive structure—head turned away, near arm trapped, posture broken by sustained pressure—to thread the choking arm under the neck before the defender recognizes the threat.\n\nThe setup begins with the cross-face arm sliding from shoulder pressure into an underhook beneath the opponent's neck while the attacker walks their hips toward the head. The transition itself maintains constant pressure, preventing the critical window where defenders typically insert frames or recover head position. Once the gable grip locks and the hips sprawl past the opponent's head, the choke compresses both carotid arteries through the combined mechanics of arm squeeze, chest-to-shoulder pressure, and hip sprawl.\n\nThis submission chain is particularly effective because the Shoulder of Justice creates a dilemma: endure the jaw pressure or react defensively. Both options feed directly into the North-South Choke entry, making it a natural complement to the pressure-based control strategy that defines the Shoulder of Justice position.",
   "safety_considerations": {
     "injury_risks": [
@@ -104,17 +107,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 58,
+      "probability": {
+        "gi": 58,
+        "nogi": 58
+      },
       "result": "success"
     },
     {
       "to": "Shoulder of Justice/Top",
-      "probability": 27,
+      "probability": {
+        "gi": 27,
+        "nogi": 27
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
@@ -292,47 +304,166 @@
       {
         "question": "What anatomical structures does the North-South Choke primarily compress to produce unconsciousness?",
         "answer": "The North-South Choke primarily compresses both carotid arteries on the lateral sides of the neck, restricting blood flow to the brain. The choking arm encircles the neck and the combined squeeze of the arms, chest pressure, and hip sprawl creates bilateral compression. This is a blood choke that produces unconsciousness in approximately eight to twelve seconds under full compression, making prompt release upon tap absolutely critical.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Both carotid arteries",
+        "distractors": {
+          "plausible": [
+            "Trachea and airway",
+            "Jugular veins"
+          ],
+          "trap": [
+            "Cervical spine"
+          ]
+        }
       },
       {
         "question": "Your opponent inserts a forearm frame during your arm threading—what is the correct response?",
         "answer": "Do not force the choke against an established frame. Release the threading attempt, re-establish Shoulder of Justice pressure with your shoulder driven back into their jaw, and reset completely. The frame indicates they recognized the transition early. Re-apply sustained jaw pressure to break their defensive composure, then reattempt the choke when they react to the pressure with a different defensive movement that exposes the neck.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Release, reset jaw pressure",
+        "distractors": {
+          "plausible": [
+            "Push through the frame",
+            "Abandon top position"
+          ],
+          "trap": [
+            "Rip the frame arm free"
+          ]
+        }
       },
       {
         "question": "What makes entering the North-South Choke from Shoulder of Justice different from entering from standard north-south position?",
         "answer": "The Shoulder of Justice entry provides three significant advantages. First, the opponent's head is already turned away by sustained jaw pressure, creating a clear path for the threading arm. Second, the near arm is typically trapped or controlled, preventing frame insertion. Third, the opponent's defensive structure is already compromised by the relentless pressure, reducing their reaction time and available defensive options during the grip transition.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Head turned, arm already trapped",
+        "distractors": {
+          "plausible": [
+            "More space to move hips",
+            "Opponent expects the choke"
+          ],
+          "trap": [
+            "Skip the jaw pressure step"
+          ]
+        }
       },
       {
         "question": "Why must you squeeze elbows together rather than pulling with your arms when finishing this choke?",
         "answer": "Pulling with your arms engages the biceps and forearm flexors, which fatigue rapidly and produce inconsistent compression against the neck. Squeezing your elbows together toward each other activates the larger muscles of the chest and back, creating sustainable force that compresses both sides of the neck symmetrically. Additionally, the elbow squeeze maintains structural integrity of the gable grip, while pulling loosens the grip and allows the opponent to create space between your arm and their neck.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Squeeze elbows, use chest/back",
+        "distractors": {
+          "plausible": [
+            "Pull hard with biceps",
+            "Squeeze knees together"
+          ],
+          "trap": [
+            "Loosen grip to reposition"
+          ]
+        }
       },
       {
         "question": "What are the immediate signs that you should release the choke during training?",
         "answer": "Release the choke immediately upon any tap signal including verbal submission, hand taps on your body, or foot taps on the mat. Release immediately if the opponent goes limp, stops resisting entirely, or shows involuntary movements such as body convulsions. In training, always err on the side of early release. If there is any doubt whether your partner tapped, release and ask rather than holding and waiting for a clearer signal.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Tap, limp body, convulsions",
+        "distractors": {
+          "plausible": [
+            "Only verbal tap counts",
+            "Wait for clear tap"
+          ],
+          "trap": [
+            "Hold until fully limp"
+          ]
+        }
       },
       {
         "question": "Where should the gable grip sit relative to the opponent's jaw for maximum arterial compression?",
         "answer": "The gable grip should sit at the base of the opponent's jaw near the ear, where the carotid arteries pass closest to the skin surface. Gripping too low on the neck targets the trachea rather than the arteries, producing a slower airway choke that gives more escape time. Gripping too high near the chin misses the arterial targets entirely. The jaw line serves as the primary anatomical landmark for optimal grip placement and maximum blood choke effectiveness.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Base of jaw, near the ear",
+        "distractors": {
+          "plausible": [
+            "Low on neck, over the trachea",
+            "High up near the chin"
+          ],
+          "trap": [
+            "Behind the skull, crank the neck"
+          ]
+        }
       },
       {
         "question": "Why is rushing the hip walk toward north-south a critical error during setup?",
         "answer": "Rushing the hip walk creates two significant problems. First, large movements lift your chest pressure off the opponent's body, opening space for frame insertion and head repositioning that prevents the choke from being established. Second, large movements are far easier for the defender to recognize and react to than small incremental steps. The defender feels the sudden weight shift and immediately inserts defensive frames. Small steps maintain constant pressure and disguise the transition within normal positional adjustments.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Lifts pressure, tips off defense",
+        "distractors": {
+          "plausible": [
+            "Wastes too much energy",
+            "Loses grip strength"
+          ],
+          "trap": [
+            "Faster is always better here"
+          ]
+        }
       },
       {
         "question": "In competition, when should you commit to finishing versus abandoning the choke and returning to Shoulder of Justice?",
         "answer": "Commit to the finishing squeeze when your gable grip is locked at the jaw line and your hips have completely cleared past the opponent's head into the north-south position. If you have not secured a solid grip or your hips are still in transition, the choke is not yet viable and you should return to Shoulder of Justice pressure control. Maintaining the dominant positional control is more valuable than gambling on a low-percentage choke attempt with an incomplete setup.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Grip locked, hips past head",
+        "distractors": {
+          "plausible": [
+            "Grip locked, hips still moving",
+            "Hips past head, grip loose"
+          ],
+          "trap": [
+            "Commit as soon as threading starts"
+          ]
+        }
       },
       {
         "question": "How should you release the North-South Choke safely after your partner taps?",
         "answer": "Upon any tap signal, immediately unlock your gable grip and remove your arms from around the opponent's neck without any jerking motion. Roll your body off their head and neck area completely to eliminate all compression. Allow your partner to recover in a side-lying position with their airway clear and do not manipulate their neck in any direction. If they appear disoriented or were briefly unconscious, place them in the recovery position and monitor their breathing until they are fully alert.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Unlock grip, roll off, monitor",
+        "distractors": {
+          "plausible": [
+            "Let go but stay on top",
+            "Ease the pressure slowly"
+          ],
+          "trap": [
+            "Twist their head to release"
+          ]
+        }
+      }
+    ],
+    "clips": [
+      {
+        "id": "gU-njOOuKh4",
+        "title": "Teaching shoulder pressure choke",
+        "by": "Phil Dunlap",
+        "vertical": false,
+        "channel": "Phil Dunlap",
+        "duration": 36,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "Fdq-j0AUVtc",
+        "title": "North South pressure choke",
+        "by": "Nick Unander",
+        "vertical": false,
+        "channel": "Nick Unander",
+        "duration": 99,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "z3RNUfHfiSM",
+        "title": "Marcelo Garcia - North South Choke",
+        "by": "Marcelo Garcia",
+        "vertical": false,
+        "channel": "Kon Ying",
+        "duration": 20,
+        "verified": "2026-07-14"
       }
     ]
   },
@@ -426,27 +557,77 @@
       {
         "question": "How do you recognize the North-South Choke setup from Shoulder of Justice before the grip locks?",
         "answer": "The key recognition cues are a shift in shoulder pressure from static jaw compression to a sliding movement along the side of your neck, the attacker walking their hips toward your head in small incremental steps, and their cross-face arm beginning to thread under your neck rather than maintaining static downward pressure. The weight distribution also shifts noticeably from your hip line toward your head and shoulder area. Any of these cues should trigger immediate defensive action.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Shoulder slides, hips step up",
+        "distractors": {
+          "plausible": [
+            "Explosive sudden weight shift",
+            "Cross-face arm pulls downward"
+          ],
+          "trap": [
+            "Overall pressure feels lighter"
+          ]
+        }
       },
       {
         "question": "What is the safest way to signal submission when caught in this choke?",
         "answer": "Tap clearly and repeatedly on the attacker's body with your hand, or verbally submit loudly if your hands are restricted. Multiple rapid taps are easier for your partner to feel than a single tap. If both hands are restricted, tap rapidly with your feet on the mat. Do not wait until the choke is fully locked to tap—the North-South Choke can produce unconsciousness within seconds of full bilateral compression, so tap as soon as you recognize the grip is locked and you cannot escape.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Tap rapidly, early and often",
+        "distractors": {
+          "plausible": [
+            "Wait until the grip is set",
+            "One firm signal is enough"
+          ],
+          "trap": [
+            "Grit it out and don't submit"
+          ]
+        }
       },
       {
         "question": "What defensive options are available and at what stage of the attack should each be employed?",
         "answer": "Frame insertion against the threading arm is your highest-percentage defense and should be used the moment you feel the arm sliding under your neck during the initial transition. Chin tuck and turning toward the choking arm is your secondary option if the arm has begun threading but the gable grip is not yet secured. Hip escape during the attacker's weight shift is your tertiary option for creating distance during the transition phase. After the gable grip locks, your best option is to tap immediately.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Frame early, tap once locked",
+        "distractors": {
+          "plausible": [
+            "Hip escape before framing",
+            "Chin tuck as first response"
+          ],
+          "trap": [
+            "Explode out immediately"
+          ]
+        }
       },
       {
         "question": "Why is panicking and making explosive movements particularly dangerous when defending this choke?",
         "answer": "Explosive uncontrolled movements burn energy rapidly while creating openings that actually help the attacker settle into a tighter finishing position. The North-South Choke mechanically tightens on movement because thrashing creates gaps that the attacker fills with deeper arm positioning and heavier sprawl pressure. Calm, technical defense focused on frame insertion and timed hip escape is far more effective than explosive bursts that accelerate your fatigue and improve the attacker's finishing position.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Movement tightens the choke",
+        "distractors": {
+          "plausible": [
+            "Wastes stamina only",
+            "Signals tap to opponent"
+          ],
+          "trap": [
+            "Explosive escape breaks grip"
+          ]
+        }
       },
       {
         "question": "What is the consequence of waiting too long to begin your defense against this choke?",
         "answer": "If you wait until the gable grip is fully locked and the attacker's hips have sprawled past your head, escape success drops dramatically even for advanced practitioners. At this stage, bilateral carotid compression is established and increasing, leaving you only seconds before blood flow restriction produces unconsciousness. The critical defensive window is during the arm threading phase—once that window closes, tapping immediately is the safest option rather than risking consciousness loss from a fully locked blood choke.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Escape odds drop, tap fast",
+        "distractors": {
+          "plausible": [
+            "Still time to power out",
+            "Frame still works late"
+          ],
+          "trap": [
+            "Bridge and roll to escape"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -469,6 +650,26 @@
         "phase": "Phase 4: Live Defense Under Pressure",
         "focus": "Defensive composure and decision-making under realistic conditions",
         "description": "Full resistance positional sparring starting from Shoulder of Justice. Partner attempts the North-South Choke at realistic speed and pressure. Practice maintaining composure, recognizing the setup under duress, and choosing the appropriate defensive response. Tap early when the grip locks to build safe training habits."
+      }
+    ],
+    "clips": [
+      {
+        "id": "XaLBmGnHm78",
+        "title": "North South inverted spin escape",
+        "by": "SBG Australia",
+        "vertical": false,
+        "channel": "SBG Australia",
+        "duration": 37,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "O-2iSvT8zDk",
+        "title": "Hook-Plata North-South choke escape",
+        "by": "Erik Koehne",
+        "vertical": false,
+        "channel": "Erik Koehne",
+        "duration": 59,
+        "verified": "2026-07-14"
       }
     ]
   }

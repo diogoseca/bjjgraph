@@ -34,6 +34,43 @@ description: "Master the Saddle Fallback to Inside Ashi in BJJ. Learn when and h
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Saddle Fallback to Inside Ashi \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Cross ashi and inside sankaku control switch",
+      "description": "Saddle Fallback to Inside Ashi film study: Cross ashi and inside sankaku control switch, taught by Ilya.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/HniaoFWTsmI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/HniaoFWTsmI",
+      "url": "https://www.youtube.com/watch?v=HniaoFWTsmI",
+      "creator": { "@type": "Person", "name": "Ilya" },
+      "duration": "PT53S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Arm saddle to inside heel hook flow drill",
+      "description": "Saddle Fallback to Inside Ashi film study: Arm saddle to inside heel hook flow drill, taught by Factory Fresh coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/QfNKQzy3V_w/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/QfNKQzy3V_w",
+      "url": "https://www.youtube.com/watch?v=QfNKQzy3V_w",
+      "creator": { "@type": "Person", "name": "Factory Fresh coach" },
+      "duration": "PT21S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +106,34 @@ From a systems perspective, this transition transforms the saddle from an isolat
 **Success Rate**: 55%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Saddle Fallback to Inside Ashi in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=HniaoFWTsmI)
+
+<p class="clip-credit"><strong>Cross ashi and inside sankaku control switch</strong> — taught by Ilya · 0:53 · <a href="https://www.youtube.com/watch?v=HniaoFWTsmI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=QfNKQzy3V_w)
+
+<p class="clip-credit"><strong>Arm saddle to inside heel hook flow drill</strong> — taught by Factory Fresh coach · 0:21 · <a href="https://www.youtube.com/watch?v=QfNKQzy3V_w" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

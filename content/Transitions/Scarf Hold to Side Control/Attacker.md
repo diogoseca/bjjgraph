@@ -168,6 +168,43 @@ description: "Master the attacker's approach to transitioning from Scarf Hold to
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Scarf Hold to Side Control (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Side Control to Scarf Hold Position",
+      "description": "Scarf Hold to Side Control (Attacker) film study: Side Control to Scarf Hold Position, taught by TRITAC Martial Arts.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/SzLuqtw6lpE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/SzLuqtw6lpE",
+      "url": "https://www.youtube.com/watch?v=SzLuqtw6lpE",
+      "creator": { "@type": "Person", "name": "TRITAC Martial Arts" },
+      "duration": "PT104S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Side Control to Scarf Hold",
+      "description": "Scarf Hold to Side Control (Attacker) film study: Side Control to Scarf Hold, taught by Raven Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/aAKcSjzX4to/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/aAKcSjzX4to",
+      "url": "https://www.youtube.com/watch?v=aAKcSjzX4to",
+      "creator": { "@type": "Person", "name": "Raven Jiu Jitsu" },
+      "duration": "PT115S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -177,6 +214,34 @@ As the attacker executing Scarf Hold to Side Control, your primary objective is 
 **From Position**: [[Positions/Side Control/Scarf Hold Position]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Scarf Hold to Side Control (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=SzLuqtw6lpE)
+
+<p class="clip-credit"><strong>Side Control to Scarf Hold Position</strong> — taught by TRITAC Martial Arts · 1:44 · <a href="https://www.youtube.com/watch?v=SzLuqtw6lpE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=aAKcSjzX4to)
+
+<p class="clip-credit"><strong>Side Control to Scarf Hold</strong> — taught by Raven Jiu Jitsu · 1:55 · <a href="https://www.youtube.com/watch?v=aAKcSjzX4to" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

@@ -148,6 +148,43 @@ description: "How to defend against Lockdown Recovery in BJJ. Recognition cues, 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Lockdown Recovery (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Strategy-based lockdown escape from half guard top",
+      "description": "Lockdown Recovery (Defender) film study: Strategy-based lockdown escape from half guard top, taught by Jean Jacques Machado.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/rHT8G14Gbb8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/rHT8G14Gbb8",
+      "url": "https://www.youtube.com/watch?v=rHT8G14Gbb8",
+      "creator": { "@type": "Person", "name": "Jean Jacques Machado" },
+      "duration": "PT159S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Breaking the lockdown half guard",
+      "description": "Lockdown Recovery (Defender) film study: Breaking the lockdown half guard, taught by Matt Arroyo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Xb4-phb4BhE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Xb4-phb4BhE",
+      "url": "https://www.youtube.com/watch?v=Xb4-phb4BhE",
+      "creator": { "@type": "Person", "name": "Matt Arroyo" },
+      "duration": "PT251S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +194,34 @@ Defending against Lockdown Recovery from Modified Mount top requires understandi
 **Opponent's Starting Position**: [[Positions/Mount/Modified Mount]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Lockdown Recovery (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=rHT8G14Gbb8)
+
+<p class="clip-credit"><strong>Strategy-based lockdown escape from half guard top</strong> — taught by Jean Jacques Machado · 2:39 · <a href="https://www.youtube.com/watch?v=rHT8G14Gbb8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Xb4-phb4BhE)
+
+<p class="clip-credit"><strong>Breaking the lockdown half guard</strong> — taught by Matt Arroyo · 4:11 · <a href="https://www.youtube.com/watch?v=Xb4-phb4BhE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

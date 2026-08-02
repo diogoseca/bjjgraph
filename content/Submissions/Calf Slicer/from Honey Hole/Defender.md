@@ -144,6 +144,54 @@ description: "Defend against the calf slicer from Honey Hole. Recognition cues, 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Calf Slicer from Honey Hole (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "How to Escape the Honey Hole",
+      "description": "Calf Slicer from Honey Hole (Defender) film study: How to Escape the Honey Hole, taught by Vagner Rocha.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/gEEHqiSznS4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/gEEHqiSznS4",
+      "url": "https://www.youtube.com/watch?v=gEEHqiSznS4",
+      "creator": { "@type": "Person", "name": "Vagner Rocha" },
+      "duration": "PT60S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Counter to Honey Hole",
+      "description": "Calf Slicer from Honey Hole (Defender) film study: Counter to Honey Hole, taught by Sonny Parlin.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/XwndkdlPHwc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/XwndkdlPHwc",
+      "url": "https://www.youtube.com/watch?v=XwndkdlPHwc",
+      "creator": { "@type": "Person", "name": "Sonny Parlin" },
+      "duration": "PT65S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "How To Defend \u0026 Escape the Leg-Lace/Cloverleaf",
+      "description": "Calf Slicer from Honey Hole (Defender) film study: How To Defend \u0026 Escape the Leg-Lace/Cloverleaf, taught by jamielovesmartialarts.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/VGNTi2hEvfc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/VGNTi2hEvfc",
+      "url": "https://www.youtube.com/watch?v=VGNTi2hEvfc",
+      "creator": { "@type": "Person", "name": "jamielovesmartialarts" },
+      "duration": "PT78S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -154,6 +202,42 @@ Defending the calf slicer from Honey Hole requires immediate recognition of the 
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Calf Slicer from Honey Hole (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=gEEHqiSznS4)
+
+<p class="clip-credit"><strong>How to Escape the Honey Hole</strong> — taught by Vagner Rocha · 1:00 · <a href="https://www.youtube.com/watch?v=gEEHqiSznS4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=XwndkdlPHwc)
+
+<p class="clip-credit"><strong>Counter to Honey Hole</strong> — taught by Sonny Parlin · 1:05 · <a href="https://www.youtube.com/watch?v=XwndkdlPHwc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=VGNTi2hEvfc)
+
+<p class="clip-credit"><strong>How To Defend &amp; Escape the Leg-Lace/Cloverleaf</strong> — taught by jamielovesmartialarts · 1:18 · <a href="https://www.youtube.com/watch?v=VGNTi2hEvfc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

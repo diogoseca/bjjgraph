@@ -144,6 +144,43 @@ description: "How to defend the kneebar from leg entanglement in BJJ. Recognitio
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Kneebar from Leg Entanglement (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "How to Defend a Kneebar",
+      "description": "Kneebar from Leg Entanglement (Defender) film study: How to Defend a Kneebar, taught by Revolution BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/wBRG0fY94fs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/wBRG0fY94fs",
+      "url": "https://www.youtube.com/watch?v=wBRG0fY94fs",
+      "creator": { "@type": "Person", "name": "Revolution BJJ" },
+      "duration": "PT59S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Leg Lock Defense (No-Gi)",
+      "description": "Kneebar from Leg Entanglement (Defender) film study: Leg Lock Defense (No-Gi), taught by Kuwy Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/m0NLphEuFoc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/m0NLphEuFoc",
+      "url": "https://www.youtube.com/watch?v=m0NLphEuFoc",
+      "creator": { "@type": "Person", "name": "Kuwy Jitsu" },
+      "duration": "PT61S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -158,6 +195,34 @@ Critical safety awareness is paramount. Never attempt explosive rotational escap
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Kneebar from Leg Entanglement (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=wBRG0fY94fs)
+
+<p class="clip-credit"><strong>How to Defend a Kneebar</strong> — taught by Revolution BJJ · 0:59 · <a href="https://www.youtube.com/watch?v=wBRG0fY94fs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=m0NLphEuFoc)
+
+<p class="clip-credit"><strong>Leg Lock Defense (No-Gi)</strong> — taught by Kuwy Jitsu · 1:01 · <a href="https://www.youtube.com/watch?v=m0NLphEuFoc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

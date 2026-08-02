@@ -21,37 +21,37 @@ description: "Master Crab Ride Top attacks in BJJ. Complete guide covering back 
     {
       "@type": "HowToStep",
       "name": "Execute Crab Ride to Back",
-      "text": "From this position, attempt Crab Ride to Back. This technique is attempted in 40% of exchanges from this position.",
+      "text": "From this position, attempt Crab Ride to Back. This technique is attempted in 27% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Darce from Turtle",
-      "text": "From this position, attempt Darce from Turtle. This technique is attempted in 7% of exchanges from this position.",
+      "text": "From this position, attempt Darce from Turtle. This technique is attempted in 8% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Anaconda from Turtle",
-      "text": "From this position, attempt Anaconda from Turtle. This technique is attempted in 6% of exchanges from this position.",
+      "text": "From this position, attempt Anaconda from Turtle. This technique is attempted in 4% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Guillotine from Turtle",
-      "text": "From this position, attempt Guillotine from Turtle. This technique is attempted in 3% of exchanges from this position.",
+      "text": "From this position, attempt Guillotine from Turtle. This technique is attempted in 5% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Truck Entry",
-      "text": "From this position, attempt Truck Entry. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Truck Entry. This technique is attempted in 16% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Crucifix from Turtle",
-      "text": "From this position, attempt Crucifix from Turtle. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Crucifix from Turtle. This technique is attempted in 9% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -153,6 +153,43 @@ description: "Master Crab Ride Top attacks in BJJ. Complete guide covering back 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Crab Ride (Top) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "DLR to crab ride back take",
+      "description": "Crab Ride (Top) film study: DLR to crab ride back take, taught by Moncaio Brothers.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Y6fBPjHzfv4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Y6fBPjHzfv4",
+      "url": "https://www.youtube.com/watch?v=Y6fBPjHzfv4",
+      "creator": { "@type": "Person", "name": "Moncaio Brothers" },
+      "duration": "PT28S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Leg drag to crab ride back attack",
+      "description": "Crab Ride (Top) film study: Leg drag to crab ride back attack, taught by Factory Fresh Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/oxkUTA1yf-o/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/oxkUTA1yf-o",
+      "url": "https://www.youtube.com/watch?v=oxkUTA1yf-o",
+      "creator": { "@type": "Person", "name": "Factory Fresh Jiu Jitsu" },
+      "duration": "PT24S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -168,6 +205,34 @@ The decision tree from Crab Ride Top branches into several high-percentage pathw
 Crab Ride Top is particularly valued in modern no-gi grappling and MMA contexts, where it serves as an essential transitional position between turtle and back control. The position offers high-percentage pathways to the back, crucifix, and various submission attacks, making it a cornerstone of complete turtle attack systems. Training this position effectively requires developing sensitivity to your opponent's weight shifts and defensive reactions, as each defensive movement opens specific offensive pathways and the ability to read these reactions in real time determines your success rate.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Crab Ride (Top) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Y6fBPjHzfv4)
+
+<p class="clip-credit"><strong>DLR to crab ride back take</strong> — taught by Moncaio Brothers · 0:28 · <a href="https://www.youtube.com/watch?v=Y6fBPjHzfv4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=oxkUTA1yf-o)
+
+<p class="clip-credit"><strong>Leg drag to crab ride back attack</strong> — taught by Factory Fresh Jiu Jitsu · 0:24 · <a href="https://www.youtube.com/watch?v=oxkUTA1yf-o" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

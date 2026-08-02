@@ -148,6 +148,43 @@ description: "Defend against the Carni to Gogoplata Setup transition. Recognitio
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Carni to Gogoplata Setup (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Half guard defense countering the gogoplata",
+      "description": "Carni to Gogoplata Setup (Defender) film study: Half guard defense countering the gogoplata, taught by Yesanam Atomm.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/gkijX3Hbd_s/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/gkijX3Hbd_s",
+      "url": "https://www.youtube.com/watch?v=gkijX3Hbd_s",
+      "creator": { "@type": "Person", "name": "Yesanam Atomm" },
+      "duration": "PT52S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Gogoplata defense",
+      "description": "Carni to Gogoplata Setup (Defender) film study: Gogoplata defense, taught by RedBeltJiuJitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ROgt8e30a3s/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ROgt8e30a3s",
+      "url": "https://www.youtube.com/watch?v=ROgt8e30a3s",
+      "creator": { "@type": "Person", "name": "RedBeltJiuJitsu" },
+      "duration": "PT42S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +194,34 @@ Defending the Carni to Gogoplata Setup requires early recognition and immediate 
 **Opponent's Starting Position**: [[Positions/Rubber Guard/Carni]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Carni to Gogoplata Setup (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=gkijX3Hbd_s)
+
+<p class="clip-credit"><strong>Half guard defense countering the gogoplata</strong> — taught by Yesanam Atomm · 0:52 · <a href="https://www.youtube.com/watch?v=gkijX3Hbd_s" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ROgt8e30a3s)
+
+<p class="clip-credit"><strong>Gogoplata defense</strong> — taught by RedBeltJiuJitsu · 0:42 · <a href="https://www.youtube.com/watch?v=ROgt8e30a3s" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

@@ -142,6 +142,54 @@ description: "Learn to recognize and exploit the transition window when your opp
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Fallback to Inside Ashi-Garami (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Escaping and countering cross ashi garami",
+      "description": "Fallback to Inside Ashi-Garami (Defender) film study: Escaping and countering cross ashi garami, taught by Lux.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/FUjlpGRjU44/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/FUjlpGRjU44",
+      "url": "https://www.youtube.com/watch?v=FUjlpGRjU44",
+      "creator": { "@type": "Person", "name": "Lux" },
+      "duration": "PT45S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Irimi ashi garami counter",
+      "description": "Fallback to Inside Ashi-Garami (Defender) film study: Irimi ashi garami counter, taught by John Danaher.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/cRXsNPAgVLU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/cRXsNPAgVLU",
+      "url": "https://www.youtube.com/watch?v=cRXsNPAgVLU",
+      "creator": { "@type": "Person", "name": "John Danaher" },
+      "duration": "PT29S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Escaping ashi garami: leg lock defense",
+      "description": "Fallback to Inside Ashi-Garami (Defender) film study: Escaping ashi garami: leg lock defense, taught by Scott Elliott.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/AQbJMBiWYfU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/AQbJMBiWYfU",
+      "url": "https://www.youtube.com/watch?v=AQbJMBiWYfU",
+      "creator": { "@type": "Person", "name": "Scott Elliott" },
+      "duration": "PT141S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -153,6 +201,42 @@ The defender's primary objective during this transition is to escape the leg ent
 **Opponent's Starting Position**: [[Positions/Ashi Garami/Saddle]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Fallback to Inside Ashi-Garami (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=FUjlpGRjU44)
+
+<p class="clip-credit"><strong>Escaping and countering cross ashi garami</strong> — taught by Lux · 0:45 · <a href="https://www.youtube.com/watch?v=FUjlpGRjU44" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=cRXsNPAgVLU)
+
+<p class="clip-credit"><strong>Irimi ashi garami counter</strong> — taught by John Danaher · 0:29 · <a href="https://www.youtube.com/watch?v=cRXsNPAgVLU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=AQbJMBiWYfU)
+
+<p class="clip-credit"><strong>Escaping ashi garami: leg lock defense</strong> — taught by Scott Elliott · 2:21 · <a href="https://www.youtube.com/watch?v=AQbJMBiWYfU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

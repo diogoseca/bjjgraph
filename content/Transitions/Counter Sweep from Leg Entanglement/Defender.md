@@ -132,6 +132,54 @@ description: "Defend and prevent the counter sweep from leg entanglement. Recogn
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Counter Sweep from Leg Entanglement (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Leg defense from ashi garami",
+      "description": "Counter Sweep from Leg Entanglement (Defender) film study: Leg defense from ashi garami, taught by The Coop BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/L417yCl_-dc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/L417yCl_-dc",
+      "url": "https://www.youtube.com/watch?v=L417yCl_-dc",
+      "creator": { "@type": "Person", "name": "The Coop BJJ" },
+      "duration": "PT48S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Heel hook vs ankle lock defense compared",
+      "description": "Counter Sweep from Leg Entanglement (Defender) film study: Heel hook vs ankle lock defense compared, taught by Craig Jones.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/yUdB-EJaXgQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/yUdB-EJaXgQ",
+      "url": "https://www.youtube.com/watch?v=yUdB-EJaXgQ",
+      "creator": { "@type": "Person", "name": "Craig Jones" },
+      "duration": "PT133S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "5 leglock counters from ashi garami",
+      "description": "Counter Sweep from Leg Entanglement (Defender) film study: 5 leglock counters from ashi garami, taught by BJJBlackBeltDad.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/QMgsMSTRSBI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/QMgsMSTRSBI",
+      "url": "https://www.youtube.com/watch?v=QMgsMSTRSBI",
+      "creator": { "@type": "Person", "name": "BJJBlackBeltDad" },
+      "duration": "PT93S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -141,6 +189,42 @@ As the defender against the counter sweep, you are the leg lock attacker whose o
 **Opponent's Starting Position**: [[Positions/Leg Entanglement]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Counter Sweep from Leg Entanglement (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=L417yCl_-dc)
+
+<p class="clip-credit"><strong>Leg defense from ashi garami</strong> — taught by The Coop BJJ · 0:48 · <a href="https://www.youtube.com/watch?v=L417yCl_-dc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=yUdB-EJaXgQ)
+
+<p class="clip-credit"><strong>Heel hook vs ankle lock defense compared</strong> — taught by Craig Jones · 2:13 · <a href="https://www.youtube.com/watch?v=yUdB-EJaXgQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=QMgsMSTRSBI)
+
+<p class="clip-credit"><strong>5 leglock counters from ashi garami</strong> — taught by BJJBlackBeltDad · 1:33 · <a href="https://www.youtube.com/watch?v=QMgsMSTRSBI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

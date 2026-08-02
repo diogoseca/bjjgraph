@@ -176,6 +176,43 @@ description: "Learn to attack the kneebar from toe hold control. Step-by-step gu
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Kneebar from Toe Hold Control (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Toe Hold to Kneebar Attack",
+      "description": "Kneebar from Toe Hold Control (Attacker) film study: Toe Hold to Kneebar Attack, taught by Eliot Marshall.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/-HT8Vfiq5Pk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/-HT8Vfiq5Pk",
+      "url": "https://www.youtube.com/watch?v=-HT8Vfiq5Pk",
+      "creator": { "@type": "Person", "name": "Eliot Marshall" },
+      "duration": "PT67S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Kneebar and Toe Hold from Guard Pass",
+      "description": "Kneebar from Toe Hold Control (Attacker) film study: Kneebar and Toe Hold from Guard Pass, taught by Precision MA.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/frFaHeQJHTA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/frFaHeQJHTA",
+      "url": "https://www.youtube.com/watch?v=frFaHeQJHTA",
+      "creator": { "@type": "Person", "name": "Precision MA" },
+      "duration": "PT57S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -186,6 +223,34 @@ Executing the kneebar from toe hold control requires reading your opponent's def
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Kneebar from Toe Hold Control (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=-HT8Vfiq5Pk)
+
+<p class="clip-credit"><strong>Toe Hold to Kneebar Attack</strong> — taught by Eliot Marshall · 1:07 · <a href="https://www.youtube.com/watch?v=-HT8Vfiq5Pk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=frFaHeQJHTA)
+
+<p class="clip-credit"><strong>Kneebar and Toe Hold from Guard Pass</strong> — taught by Precision MA · 0:57 · <a href="https://www.youtube.com/watch?v=frFaHeQJHTA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

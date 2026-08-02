@@ -14,26 +14,41 @@
   "outcomes": [
     {
       "to": "Half Guard/Bottom",
-      "probability": 40,
+      "probability": {
+        "gi": 40,
+        "nogi": 40
+      },
       "result": "success"
     },
     {
       "to": "Open Guard/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "success"
     },
     {
       "to": "Reverse Mount/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Back Control/Bottom",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 50,
+  "success_rate": {
+    "gi": 50,
+    "nogi": 50
+  },
   "summary": "Escape Reverse Mount is a bottom-position guard recovery where you protect your neck, hip-escape to build an angle, then turn to face the opponent and trap a leg—recovering half guard out of the reverse-facing mount.",
   "conditions": [
     "Opponent has established reverse mount with hips on your torso while facing your feet",
@@ -257,38 +272,138 @@
     "flashcards": [
       {
         "question": "What must be your absolute first priority when you find yourself in reverse mount bottom before initiating any escape?",
-        "answer": "Protect your neck immediately by tucking your chin and bringing both hands to defend the collar and throat area with elbows tight to your ribs. This defensive posture must be established before any escape movement because the rear naked choke is the most immediate and dangerous threat from this position. Sacrificing neck defense for escape speed can result in a tap."
+        "answer": "Protect your neck immediately by tucking your chin and bringing both hands to defend the collar and throat area with elbows tight to your ribs. This defensive posture must be established before any escape movement because the rear naked choke is the most immediate and dangerous threat from this position. Sacrificing neck defense for escape speed can result in a tap.",
+        "answer_line": "Tuck chin, defend the collar",
+        "distractors": {
+          "plausible": [
+            "Shrimp your hips out first",
+            "Bridge and buck to escape"
+          ],
+          "trap": [
+            "Turn belly-down to escape"
+          ]
+        }
       },
       {
         "question": "Why should you bridge at an angle rather than straight up when escaping reverse mount?",
-        "answer": "Bridging straight up only creates temporary vertical space that the opponent immediately reclaims when you return to the mat. Bridging at a 30-45 degree angle aligned with your hip escape direction creates diagonal displacement that facilitates the turn and moves you progressively out from under the opponent's weight. The angled bridge builds on the space already created by hip escapes rather than working independently."
+        "answer": "Bridging straight up only creates temporary vertical space that the opponent immediately reclaims when you return to the mat. Bridging at a 30-45 degree angle aligned with your hip escape direction creates diagonal displacement that facilitates the turn and moves you progressively out from under the opponent's weight. The angled bridge builds on the space already created by hip escapes rather than working independently.",
+        "answer_line": "Bridge at an angle, not up",
+        "distractors": {
+          "plausible": [
+            "Bridge straight up first",
+            "Bridge only after full turn"
+          ],
+          "trap": [
+            "Bridge away from turn direction"
+          ]
+        }
       },
       {
         "question": "Your opponent drops their weight heavily when you begin hip escaping — how do you adjust your escape strategy?",
-        "answer": "Switch from larger hip escape movements to small, persistent incremental shrimps that are harder to counter with weight alone. Each micro-movement creates cumulative space that heavy weight cannot fully negate. Wait for the opponent to make a grip adjustment or weight shift before timing your bridge and turn. Patience and persistence overcome weight advantages when explosive movement cannot create sufficient displacement."
+        "answer": "Switch from larger hip escape movements to small, persistent incremental shrimps that are harder to counter with weight alone. Each micro-movement creates cumulative space that heavy weight cannot fully negate. Wait for the opponent to make a grip adjustment or weight shift before timing your bridge and turn. Patience and persistence overcome weight advantages when explosive movement cannot create sufficient displacement.",
+        "answer_line": "Small shrimps, wait, then bridge",
+        "distractors": {
+          "plausible": [
+            "Explosive bridge through weight",
+            "Bigger hip escapes, more force"
+          ],
+          "trap": [
+            "Stop moving, wait it out"
+          ]
+        }
       },
       {
         "question": "What is the critical timing relationship between the turn and the knee insertion during this escape?",
-        "answer": "The knee insertion and the turn must happen simultaneously as one connected motion, not sequentially. Driving the inside knee across the opponent's thigh line during the turn ensures that half guard entanglement is established before the opponent can react to the directional change. Turning first and then trying to trap the leg allows the opponent to re-mount or establish side control before guard recovery is complete."
+        "answer": "The knee insertion and the turn must happen simultaneously as one connected motion, not sequentially. Driving the inside knee across the opponent's thigh line during the turn ensures that half guard entanglement is established before the opponent can react to the directional change. Turning first and then trying to trap the leg allows the opponent to re-mount or establish side control before guard recovery is complete.",
+        "answer_line": "Insert knee same time as turn",
+        "distractors": {
+          "plausible": [
+            "Turn first, then trap the leg",
+            "Insert knee, then start turning"
+          ],
+          "trap": [
+            "Finish full turn before defending"
+          ]
+        }
       },
       {
         "question": "How does the opponent's inability to see your upper body in reverse mount create an advantage for this escape?",
-        "answer": "In reverse mount, the top player faces your feet and cannot see your head, shoulders, or arm movements without turning around, which compromises their base. This means your defensive posture adjustments, hip escape initiation, and bridge setup are harder for them to detect and counter compared to standard mount where they can see and feel your upper body preparations. You can build your escape incrementally with less risk of preemptive counters."
+        "answer": "In reverse mount, the top player faces your feet and cannot see your head, shoulders, or arm movements without turning around, which compromises their base. This means your defensive posture adjustments, hip escape initiation, and bridge setup are harder for them to detect and counter compared to standard mount where they can see and feel your upper body preparations. You can build your escape incrementally with less risk of preemptive counters.",
+        "answer_line": "Hide setup, they can't see you",
+        "distractors": {
+          "plausible": [
+            "They can't feel any movement",
+            "Their base is always weak"
+          ],
+          "trap": [
+            "Openly signal your turn early"
+          ]
+        }
       },
       {
         "question": "You successfully turn but the opponent manages to insert one hook during the movement — what should you do?",
-        "answer": "If one hook is inserted, immediately address it before completing the guard recovery. Use your legs to strip the hook by pushing their foot off your hip with your near-side hand while continuing to secure half guard on their other leg. If both hooks are inserted, abandon the half guard recovery and transition immediately to back escape protocol with two-on-one hand control and seated posture recovery. One hook is manageable; two hooks means the situation has changed."
+        "answer": "If one hook is inserted, immediately address it before completing the guard recovery. Use your legs to strip the hook by pushing their foot off your hip with your near-side hand while continuing to secure half guard on their other leg. If both hooks are inserted, abandon the half guard recovery and transition immediately to back escape protocol with two-on-one hand control and seated posture recovery. One hook is manageable; two hooks means the situation has changed.",
+        "answer_line": "Strip one hook, two = back escape",
+        "distractors": {
+          "plausible": [
+            "Ignore hook, finish half guard",
+            "Abandon guard at first hook"
+          ],
+          "trap": [
+            "Fight to strip both hooks"
+          ]
+        }
       },
       {
         "question": "Why is committing fully to the turn direction once initiated essential for this escape?",
-        "answer": "A half-committed turn leaves you in a worse position than the starting point — partially turned with your back still exposed but now without the defensive shell established at the beginning. The opponent can capitalize on the incomplete movement by inserting hooks or securing grips on your partially exposed side. A fully committed turn, even with imperfect technique, creates enough positional change to establish some form of guard, while an abandoned turn creates vulnerability with no improvement."
+        "answer": "A half-committed turn leaves you in a worse position than the starting point — partially turned with your back still exposed but now without the defensive shell established at the beginning. The opponent can capitalize on the incomplete movement by inserting hooks or securing grips on your partially exposed side. A fully committed turn, even with imperfect technique, creates enough positional change to establish some form of guard, while an abandoned turn creates vulnerability with no improvement.",
+        "answer_line": "Commit fully once you turn",
+        "distractors": {
+          "plausible": [
+            "Turn slowly to stay safe",
+            "Pause turn to check position"
+          ],
+          "trap": [
+            "Abandon turn if resisted"
+          ]
+        }
       },
       {
         "question": "What are the key grip and frame priorities immediately after establishing half guard from this escape?",
-        "answer": "Immediately fight for the underhook on the trapped leg side with your bottom arm while establishing a frame against the opponent's shoulder or chest with your top arm. The underhook provides the primary offensive pathway to sweeps and back takes from half guard, while the chest frame prevents the opponent from immediately re-establishing crushing pressure. These grips must be secured within seconds of establishing half guard before the opponent settles their passing game."
+        "answer": "Immediately fight for the underhook on the trapped leg side with your bottom arm while establishing a frame against the opponent's shoulder or chest with your top arm. The underhook provides the primary offensive pathway to sweeps and back takes from half guard, while the chest frame prevents the opponent from immediately re-establishing crushing pressure. These grips must be secured within seconds of establishing half guard before the opponent settles their passing game.",
+        "answer_line": "Underhook leg, frame their chest",
+        "distractors": {
+          "plausible": [
+            "Overhook the far arm first",
+            "Frame their hips, not chest"
+          ],
+          "trap": [
+            "Delay grips to catch your breath"
+          ]
+        }
       }
     ],
-    "safety_considerations": "This escape involves bridging and turning movements under an opponent's body weight, which places stress on the cervical and lumbar spine. Avoid explosive neck movements that could strain cervical vertebrae. If the opponent secures a choke during the escape attempt, tap immediately rather than continuing the escape under submission threat. Practitioners with lower back injuries should modify the bridge technique to reduce lumbar stress. When drilling, partners should communicate clearly about resistance levels and avoid dropping full weight unexpectedly during cooperative phases."
+    "safety_considerations": "This escape involves bridging and turning movements under an opponent's body weight, which places stress on the cervical and lumbar spine. Avoid explosive neck movements that could strain cervical vertebrae. If the opponent secures a choke during the escape attempt, tap immediately rather than continuing the escape under submission threat. Practitioners with lower back injuries should modify the bridge technique to reduce lumbar stress. When drilling, partners should communicate clearly about resistance levels and avoid dropping full weight unexpectedly during cooperative phases.",
+    "clips": [
+      {
+        "id": "bNdt6jVatj4",
+        "title": "Inverted mount escape to ashi garami",
+        "by": "Thunderdome BJJ coach",
+        "vertical": false,
+        "channel": "Thunderdome BJJ",
+        "duration": 43,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "XQ4fwGrXV2Q",
+        "title": "Reverse mount scrambles and escapes",
+        "by": "Unknown coach",
+        "vertical": false,
+        "channel": "jamielovesmartialarts",
+        "duration": 23,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Escape Reverse Mount Defender",
@@ -374,19 +489,59 @@
     "flashcards": [
       {
         "question": "What is the most effective counter when the bottom player begins hip escaping from reverse mount?",
-        "answer": "Drop your weight immediately and sprawl your hips to flatten their escape angle. Your weight should drive through your hips directly onto their lower back and torso, making it difficult for them to continue creating lateral space. Simultaneously, use your hands to control their hip movement by posting on the mat near their hips. This counters the early stages of the escape before momentum builds."
+        "answer": "Drop your weight immediately and sprawl your hips to flatten their escape angle. Your weight should drive through your hips directly onto their lower back and torso, making it difficult for them to continue creating lateral space. Simultaneously, use your hands to control their hip movement by posting on the mat near their hips. This counters the early stages of the escape before momentum builds.",
+        "answer_line": "Sprawl weight onto their hips",
+        "distractors": {
+          "plausible": [
+            "Chase their hips with grips",
+            "Flatten by pulling their head"
+          ],
+          "trap": [
+            "Wait for them to finish escape"
+          ]
+        }
       },
       {
         "question": "Why should you view the escape attempt as an opportunity rather than just a threat to your position?",
-        "answer": "The bottom player's turning movement during the escape exposes their back and creates natural hook insertion points that are not available when they remain flat. Their rotational momentum can actually facilitate your transition to back control if you time your hook insertion correctly. Converting to back control during an escape attempt is often higher percentage than trying to maintain reverse mount, and back control is a significantly superior position."
+        "answer": "The bottom player's turning movement during the escape exposes their back and creates natural hook insertion points that are not available when they remain flat. Their rotational momentum can actually facilitate your transition to back control if you time your hook insertion correctly. Converting to back control during an escape attempt is often higher percentage than trying to maintain reverse mount, and back control is a significantly superior position.",
+        "answer_line": "Insert hooks, take the back",
+        "distractors": {
+          "plausible": [
+            "Re-flatten them immediately",
+            "Reset to base reverse mount"
+          ],
+          "trap": [
+            "Chase legs for a leglock"
+          ]
+        }
       },
       {
         "question": "How do you distinguish between the bottom player's preparatory movements and their committed escape attempt?",
-        "answer": "Preparatory movements are small hip adjustments and weight shifts that create incremental angles — these are the early shrimping motions. The committed escape is marked by shoulder rotation, explosive bridge, and directional turn with full body engagement. The preparatory phase is where weight adjustment counters are most effective. Once the committed turn begins, switching to back take via hook insertion becomes the higher-percentage response rather than trying to re-flatten them."
+        "answer": "Preparatory movements are small hip adjustments and weight shifts that create incremental angles — these are the early shrimping motions. The committed escape is marked by shoulder rotation, explosive bridge, and directional turn with full body engagement. The preparatory phase is where weight adjustment counters are most effective. Once the committed turn begins, switching to back take via hook insertion becomes the higher-percentage response rather than trying to re-flatten them.",
+        "answer_line": "Small shifts vs explosive turn",
+        "distractors": {
+          "plausible": [
+            "Any hip movement is committed",
+            "Wait for full stillness only"
+          ],
+          "trap": [
+            "React only after they escape"
+          ]
+        }
       },
       {
         "question": "What tactile cues indicate the bottom player is about to attempt an explosive bridge escape?",
-        "answer": "Increased core tension underneath you, a brief pause in hip movement as they coil for the bridge, and their feet planting firmly on the mat for pushing power. Their breathing pattern may change with a sharp inhale as they prepare for exertion. Recognizing these pre-bridge signals allows you to drop weight preemptively or prepare for hook insertion during the post-bridge turning window that follows."
+        "answer": "Increased core tension underneath you, a brief pause in hip movement as they coil for the bridge, and their feet planting firmly on the mat for pushing power. Their breathing pattern may change with a sharp inhale as they prepare for exertion. Recognizing these pre-bridge signals allows you to drop weight preemptively or prepare for hook insertion during the post-bridge turning window that follows.",
+        "answer_line": "Core tension, feet plant, inhale",
+        "distractors": {
+          "plausible": [
+            "Loud breathing before any move",
+            "Sudden relaxation then stillness"
+          ],
+          "trap": [
+            "Their grip loosening, relaxing"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -404,6 +559,26 @@
         "phase": "Phase 3: Live Positional Application",
         "focus": "Full resistance defensive application with position tracking",
         "description": "Positional sparring from reverse mount with full resistance. Top player practices both maintaining and converting to back control based on bottom player's escape choices. Track success rates for position maintenance versus back take conversion. 2-minute rounds with role switching to build bilateral understanding."
+      }
+    ],
+    "clips": [
+      {
+        "id": "d-4IYhVS7sc",
+        "title": "Three ways to maintain mount",
+        "by": "Exodus Jiu Jitsu coach",
+        "vertical": false,
+        "channel": "Exodus Jiu Jitsu",
+        "duration": 106,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "RTMJDbZnFO0",
+        "title": "Holding the middle mount",
+        "by": "SBG coach",
+        "vertical": false,
+        "channel": "SBG PDX & Vancouver BJJ and MMA Videos",
+        "duration": 154,
+        "verified": "2026-07-15"
       }
     ]
   }

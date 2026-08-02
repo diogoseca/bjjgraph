@@ -158,6 +158,43 @@ description: "Defend the Kimura from Modified Mount effectively. Recognize grip 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Kimura from Modified Mount (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Bent Armlock (Kimura) Escape from Mount",
+      "description": "Kimura from Modified Mount (Defender) film study: Bent Armlock (Kimura) Escape from Mount, taught by Soma Academy.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/qVINUjefot8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/qVINUjefot8",
+      "url": "https://www.youtube.com/watch?v=qVINUjefot8",
+      "creator": { "@type": "Person", "name": "Soma Academy" },
+      "duration": "PT72S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "How To Escape The Kimura",
+      "description": "Kimura from Modified Mount (Defender) film study: How To Escape The Kimura, taught by Inverted Gear.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/qQZI-_SRLM4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/qQZI-_SRLM4",
+      "url": "https://www.youtube.com/watch?v=qQZI-_SRLM4",
+      "creator": { "@type": "Person", "name": "Inverted Gear" },
+      "duration": "PT219S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -168,6 +205,34 @@ Defending the Kimura from Modified Mount requires understanding that the opponen
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Kimura from Modified Mount (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=qVINUjefot8)
+
+<p class="clip-credit"><strong>Bent Armlock (Kimura) Escape from Mount</strong> — taught by Soma Academy · 1:12 · <a href="https://www.youtube.com/watch?v=qVINUjefot8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=qQZI-_SRLM4)
+
+<p class="clip-credit"><strong>How To Escape The Kimura</strong> — taught by Inverted Gear · 3:39 · <a href="https://www.youtube.com/watch?v=qQZI-_SRLM4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

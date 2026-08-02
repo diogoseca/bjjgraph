@@ -292,65 +292,195 @@
     "transitions": [
       {
         "transition": "Anaconda Choke",
-        "attempt_probability": 35
+        "attempt_probability": {
+          "gi": 19,
+          "nogi": 16
+        }
       },
       {
         "transition": "Front Headlock to Back",
-        "attempt_probability": 18
+        "attempt_probability": {
+          "gi": 17,
+          "nogi": 20
+        }
       },
       {
         "transition": "Side Control to Mount",
-        "attempt_probability": 18
+        "attempt_probability": {
+          "gi": 11,
+          "nogi": 11
+        }
       },
       {
         "transition": "Darce from Turtle",
-        "attempt_probability": 13
+        "attempt_probability": {
+          "gi": 13,
+          "nogi": 13
+        }
       },
       {
         "transition": "Side Control to North-South",
-        "attempt_probability": 8
+        "attempt_probability": {
+          "gi": 10,
+          "nogi": 10
+        }
       },
       {
         "transition": "Anaconda Choke from Dead Orchard",
-        "attempt_probability": 6
+        "attempt_probability": {
+          "gi": 20,
+          "nogi": 18
+        }
       },
       {
         "transition": "Dead Orchard to Darce Switch",
-        "attempt_probability": 2
+        "attempt_probability": {
+          "gi": 10,
+          "nogi": 12
+        }
       }
     ],
     "flashcards": [
       {
         "question": "What grip adjustment maintains choke pressure when opponent attempts to create space at the neck?",
-        "answer": "When opponent creates space at the neck, walk your gable grip deeper toward their far shoulder while simultaneously driving your shoulder harder into their trapped shoulder. This re-establishes the compression angle and tightens the blood choke mechanics. The key is maintaining circular pressure direction toward their far armpit rather than simply squeezing harder in place."
+        "answer": "When opponent creates space at the neck, walk your gable grip deeper toward their far shoulder while simultaneously driving your shoulder harder into their trapped shoulder. This re-establishes the compression angle and tightens the blood choke mechanics. The key is maintaining circular pressure direction toward their far armpit rather than simply squeezing harder in place.",
+        "answer_line": "Walk grip deeper, shoulder in",
+        "distractors": {
+          "plausible": [
+            "Switch to a new choking grip",
+            "Drive shoulder pressure only"
+          ],
+          "trap": [
+            "Just squeeze harder in place"
+          ]
+        }
       },
       {
         "question": "Your opponent starts turning their body away from the choke - what adjustment prevents escape?",
-        "answer": "Follow their turning motion by walking your hips around while maintaining chest pressure on their trapped shoulder. Use their turning momentum to transition to mount or back control rather than fighting to keep them flat. If they turn toward you, accelerate to back control. If they turn away, step over to mount. The dead orchard position naturally flows into these superior positions when opponents try to turn."
+        "answer": "Follow their turning motion by walking your hips around while maintaining chest pressure on their trapped shoulder. Use their turning momentum to transition to mount or back control rather than fighting to keep them flat. If they turn toward you, accelerate to back control. If they turn away, step over to mount. The dead orchard position naturally flows into these superior positions when opponents try to turn.",
+        "answer_line": "Follow turn, advance position",
+        "distractors": {
+          "plausible": [
+            "Fight to keep them flat",
+            "Release grip and reset position"
+          ],
+          "trap": [
+            "Hold them flat, ignore the turn"
+          ]
+        }
       },
       {
         "question": "What are the essential weight distribution points for maintaining dead orchard control?",
-        "answer": "Primary weight drives through your shoulder into opponent's trapped shoulder, pinning it to the mat. Secondary weight distribution uses your hips to control their movement - keep hips low and connected to their body rather than floating. Your chest maintains constant contact with their upper back. The free hand posts or controls their far hip to prevent rolling. Weight should feel like a gradual crushing pressure, not static dead weight."
+        "answer": "Primary weight drives through your shoulder into opponent's trapped shoulder, pinning it to the mat. Secondary weight distribution uses your hips to control their movement - keep hips low and connected to their body rather than floating. Your chest maintains constant contact with their upper back. The free hand posts or controls their far hip to prevent rolling. Weight should feel like a gradual crushing pressure, not static dead weight.",
+        "answer_line": "Shoulder pin, hips low, chest tight",
+        "distractors": {
+          "plausible": [
+            "Weight balanced evenly overall",
+            "Hips floated, weight on chest only"
+          ],
+          "trap": [
+            "Dead static weight, no chest contact"
+          ]
+        }
       },
       {
         "question": "How do you recognize when to finish the choke versus continue holding position?",
-        "answer": "Finish attempts are optimal when opponent's defensive movements slow, their breathing becomes labored, their trapped arm relaxes, or their free arm stops actively fighting your grips. Continue holding when opponent is actively hand-fighting, has strong neck defense, or is explosively trying to escape. The dead orchard philosophy emphasizes patience - a tired opponent who has burned energy defending becomes much easier to finish than a fresh opponent with full defensive capacity."
+        "answer": "Finish attempts are optimal when opponent's defensive movements slow, their breathing becomes labored, their trapped arm relaxes, or their free arm stops actively fighting your grips. Continue holding when opponent is actively hand-fighting, has strong neck defense, or is explosively trying to escape. The dead orchard philosophy emphasizes patience - a tired opponent who has burned energy defending becomes much easier to finish than a fresh opponent with full defensive capacity.",
+        "answer_line": "Finish when defense slows, tires",
+        "distractors": {
+          "plausible": [
+            "Attack the choke immediately",
+            "Only finish when fully still"
+          ],
+          "trap": [
+            "Force finish while they resist"
+          ]
+        }
       },
       {
         "question": "Your opponent manages to get their free hand inside the choking arm - how do you re-establish the strangle?",
-        "answer": "Rather than fighting their grip directly, use body movement to re-establish control. Walk your hips slightly away to create angle, which naturally tightens the grip around their neck. Simultaneously, use your free arm to attack their defending hand by stripping it toward their hip or controlling their elbow. If the hand fight continues, transition to darce grip or advance to mount/back control where their defensive hand becomes irrelevant."
+        "answer": "Rather than fighting their grip directly, use body movement to re-establish control. Walk your hips slightly away to create angle, which naturally tightens the grip around their neck. Simultaneously, use your free arm to attack their defending hand by stripping it toward their hip or controlling their elbow. If the hand fight continues, transition to darce grip or advance to mount/back control where their defensive hand becomes irrelevant.",
+        "answer_line": "Angle hips away, strip their hand",
+        "distractors": {
+          "plausible": [
+            "Muscle grip back into place",
+            "Release and reset the choke"
+          ],
+          "trap": [
+            "Grip fight their hand directly"
+          ]
+        }
       },
       {
         "question": "What breathing pattern should you maintain during extended dead orchard control?",
-        "answer": "Maintain slow, controlled nasal breathing that matches your pressure application rhythm. Exhale when increasing pressure, inhale during brief relaxation phases. This prevents tension buildup that causes premature fatigue and helps you remain sensitive to opponent's defensive patterns. Your breathing should reflect the patient, methodical nature of the position - not the rapid breathing of explosive attacks."
+        "answer": "Maintain slow, controlled nasal breathing that matches your pressure application rhythm. Exhale when increasing pressure, inhale during brief relaxation phases. This prevents tension buildup that causes premature fatigue and helps you remain sensitive to opponent's defensive patterns. Your breathing should reflect the patient, methodical nature of the position - not the rapid breathing of explosive attacks.",
+        "answer_line": "Controlled nasal breath, not rapid",
+        "distractors": {
+          "plausible": [
+            "Rapid breathing for output",
+            "Hold breath during pressure"
+          ],
+          "trap": [
+            "Mouth-breathe fast to power through"
+          ]
+        }
       },
       {
         "question": "How do you prevent opponent from recovering turtle base during the control sequence?",
-        "answer": "Keep constant downward shoulder pressure that flattens their trapped shoulder to the mat. Your hip placement should block their ability to get their nearside knee underneath them. Use your free arm to control their far hip, preventing them from building base on that side. If they start to post on their far hand, immediately drive weight forward and walk your hips to take their angle away. The dead orchard position should progressively flatten them rather than allowing any base recovery."
+        "answer": "Keep constant downward shoulder pressure that flattens their trapped shoulder to the mat. Your hip placement should block their ability to get their nearside knee underneath them. Use your free arm to control their far hip, preventing them from building base on that side. If they start to post on their far hand, immediately drive weight forward and walk your hips to take their angle away. The dead orchard position should progressively flatten them rather than allowing any base recovery.",
+        "answer_line": "Flatten shoulder, block hip base",
+        "distractors": {
+          "plausible": [
+            "Let them post to control tempo",
+            "Focus only on choking arm"
+          ],
+          "trap": [
+            "Ease pressure to save energy"
+          ]
+        }
       },
       {
         "question": "What indicates you should abandon the choke and transition to a different position?",
-        "answer": "Transition when opponent successfully extracts their trapped arm past your grip depth, when they establish solid frames that you cannot collapse after 15-20 seconds of effort, when they achieve strong underhook on your far leg threatening sweep, or when they begin to successfully stand or build base despite your pressure. In these scenarios, flowing to mount, back control, or north-south maintains your advantage better than fighting for a position that has been significantly compromised."
+        "answer": "Transition when opponent successfully extracts their trapped arm past your grip depth, when they establish solid frames that you cannot collapse after 15-20 seconds of effort, when they achieve strong underhook on your far leg threatening sweep, or when they begin to successfully stand or build base despite your pressure. In these scenarios, flowing to mount, back control, or north-south maintains your advantage better than fighting for a position that has been significantly compromised.",
+        "answer_line": "Arm slips free or frames hold firm",
+        "distractors": {
+          "plausible": [
+            "Any brief defensive movement",
+            "Opponent breathes hard once"
+          ],
+          "trap": [
+            "Keep grinding the same grip"
+          ]
+        }
+      }
+    ],
+    "clips": [
+      {
+        "id": "XoiB1D2WJwE",
+        "title": "Dead Orchard Instructional (Part 1)",
+        "by": "Nathan Orchard",
+        "vertical": false,
+        "channel": "10th Planet Portland",
+        "duration": 111,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "i9rAyo8tRZw",
+        "title": "Hindulotine Breakdown",
+        "by": "CordesgainsBJJ",
+        "vertical": false,
+        "channel": "CordesgainsBJJ",
+        "duration": 87,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "6UwoAQt6u6o",
+        "title": "Hindulotine Finish",
+        "by": "Ben Eddy",
+        "vertical": false,
+        "channel": "Rubber Guard Assassins",
+        "duration": 60,
+        "verified": "2026-07-14"
       }
     ]
   },
@@ -600,70 +730,346 @@
     "transitions": [
       {
         "transition": "Shrimp Escape",
-        "attempt_probability": 38
+        "attempt_probability": {
+          "gi": 17,
+          "nogi": 19
+        }
       },
       {
         "transition": "Arm Extraction",
-        "attempt_probability": 18
+        "attempt_probability": {
+          "gi": 15,
+          "nogi": 15
+        }
       },
       {
         "transition": "Rolling to Guard",
-        "attempt_probability": 17
+        "attempt_probability": {
+          "gi": 12,
+          "nogi": 11
+        }
       },
       {
         "transition": "Hip Escape to Guard",
-        "attempt_probability": 11
+        "attempt_probability": {
+          "gi": 13,
+          "nogi": 14
+        }
       },
       {
         "transition": "Granby Roll to Guard",
-        "attempt_probability": 10
+        "attempt_probability": {
+          "gi": 11,
+          "nogi": 12
+        }
       },
       {
         "transition": "Escape Dead Orchard Control",
-        "attempt_probability": 4
+        "attempt_probability": {
+          "gi": 15,
+          "nogi": 13
+        }
       },
       {
         "transition": "Roll from Dead Orchard",
-        "attempt_probability": 1
+        "attempt_probability": {
+          "gi": 9,
+          "nogi": 9
+        }
       },
       {
         "transition": "Escape from Dead Orchard",
-        "attempt_probability": 1
+        "attempt_probability": {
+          "gi": 8,
+          "nogi": 7
+        }
       }
     ],
     "flashcards": [
       {
         "question": "What is your immediate priority when opponent locks the dead orchard grip around your neck?",
-        "answer": "Immediate priority is getting your free hand to the choking arm at the crook of the elbow and creating a frame to prevent the grip from tightening further. Do not waste energy trying to peel their hands apart - focus on blocking the squeeze at the elbow joint where leverage is most effective. Simultaneously, tuck your chin and turn your face toward their body to protect your neck and reduce choke effectiveness."
+        "answer": "Immediate priority is getting your free hand to the choking arm at the crook of the elbow and creating a frame to prevent the grip from tightening further. Do not waste energy trying to peel their hands apart - focus on blocking the squeeze at the elbow joint where leverage is most effective. Simultaneously, tuck your chin and turn your face toward their body to protect your neck and reduce choke effectiveness.",
+        "answer_line": "Frame elbow, tuck chin, turn in",
+        "distractors": {
+          "plausible": [
+            "Peel their hands apart first",
+            "Pull head straight backward"
+          ],
+          "trap": [
+            "Yank the trapped arm free fast"
+          ]
+        }
       },
       {
         "question": "Your opponent increases shoulder pressure and you feel the choke tightening - what adjustment prevents the finish?",
-        "answer": "Turn your body toward your trapped arm side while simultaneously hip escaping away from opponent. This changes the angle of the choke and reduces the circular compression on your neck. Use your free hand to create space at the elbow of the choking arm, not by pushing outward but by wedging your forearm between your neck and their grip. The combination of angle change and frame creates survival space."
+        "answer": "Turn your body toward your trapped arm side while simultaneously hip escaping away from opponent. This changes the angle of the choke and reduces the circular compression on your neck. Use your free hand to create space at the elbow of the choking arm, not by pushing outward but by wedging your forearm between your neck and their grip. The combination of angle change and frame creates survival space.",
+        "answer_line": "Turn toward trapped arm, hip escape",
+        "distractors": {
+          "plausible": [
+            "Pull straight back away from grip",
+            "Push opponent's chest off you"
+          ],
+          "trap": [
+            "Pull outward on the choking arm"
+          ]
+        }
       },
       {
         "question": "How do you maintain proper breathing when your airway is partially restricted?",
-        "answer": "Focus on slow, controlled nasal breathing rather than gasping through your mouth. Accept that full breaths are impossible and work with shallow but consistent breathing rhythm. Exhale fully when creating frames or executing movements, then inhale during brief pauses. Mental calm is essential - panic breathing accelerates fatigue dramatically. Your body can function on restricted oxygen longer than most people realize if you remain calm."
+        "answer": "Focus on slow, controlled nasal breathing rather than gasping through your mouth. Accept that full breaths are impossible and work with shallow but consistent breathing rhythm. Exhale fully when creating frames or executing movements, then inhale during brief pauses. Mental calm is essential - panic breathing accelerates fatigue dramatically. Your body can function on restricted oxygen longer than most people realize if you remain calm.",
+        "answer_line": "Calm shallow nasal breaths",
+        "distractors": {
+          "plausible": [
+            "Gasp through mouth for air",
+            "Hold breath, then power move"
+          ],
+          "trap": [
+            "Panic-breathe to grab oxygen"
+          ]
+        }
       },
       {
         "question": "When should you attempt to extract your trapped arm versus focusing on other escape routes?",
-        "answer": "Attempt arm extraction when opponent's grip is not fully locked and their weight is transitioning - such as when they're adjusting position or reaching for a secondary grip. If the arm is deeply trapped with full weight commitment, arm extraction wastes energy and often tightens the position. In that case, focus on hip escape and guard recovery first. Once you've created hip angle, arm extraction becomes more viable as opponent must adjust to follow you."
+        "answer": "Attempt arm extraction when opponent's grip is not fully locked and their weight is transitioning - such as when they're adjusting position or reaching for a secondary grip. If the arm is deeply trapped with full weight commitment, arm extraction wastes energy and often tightens the position. In that case, focus on hip escape and guard recovery first. Once you've created hip angle, arm extraction becomes more viable as opponent must adjust to follow you.",
+        "answer_line": "Extract only when grip isn't locked",
+        "distractors": {
+          "plausible": [
+            "Always extract arm first",
+            "Extract once fully trapped"
+          ],
+          "trap": [
+            "Force arm out under full weight"
+          ]
+        }
       },
       {
         "question": "Your opponent starts walking their hips toward your head for the anaconda finish - what is your defensive response?",
-        "answer": "As opponent walks hips toward your head, you must follow their movement by walking your hips in the same direction to prevent them from achieving the finishing angle. Simultaneously, use your free arm to push on their far hip to slow their rotation. If you cannot match their speed, immediately execute a forward roll in the direction they're rotating to invert the position and potentially escape to guard. Staying static while they rotate guarantees the finish."
+        "answer": "As opponent walks hips toward your head, you must follow their movement by walking your hips in the same direction to prevent them from achieving the finishing angle. Simultaneously, use your free arm to push on their far hip to slow their rotation. If you cannot match their speed, immediately execute a forward roll in the direction they're rotating to invert the position and potentially escape to guard. Staying static while they rotate guarantees the finish.",
+        "answer_line": "Match hip walk, push far hip",
+        "distractors": {
+          "plausible": [
+            "Stay still and brace neck",
+            "Pull head away from pressure"
+          ],
+          "trap": [
+            "Stay static while they rotate"
+          ]
+        }
       },
       {
         "question": "What body position minimizes the effectiveness of the dead orchard choke while you work escapes?",
-        "answer": "Keep your chin tucked tight to your chest with your face turned toward opponent's body. Your shoulders should be slightly curled forward creating a defensive shell shape. Keep your trapped arm elbow tight to your ribs rather than allowing it to extend across your neck. Your hips should be slightly turned toward the trapped arm side, not flat. This position reduces choke effectiveness by 30-40% compared to flat positioning with chin up."
+        "answer": "Keep your chin tucked tight to your chest with your face turned toward opponent's body. Your shoulders should be slightly curled forward creating a defensive shell shape. Keep your trapped arm elbow tight to your ribs rather than allowing it to extend across your neck. Your hips should be slightly turned toward the trapped arm side, not flat. This position reduces choke effectiveness by 30-40% compared to flat positioning with chin up.",
+        "answer_line": "Chin tucked, elbow tight to ribs",
+        "distractors": {
+          "plausible": [
+            "Chin up, arm extended for space",
+            "Shoulders squared flat to mat"
+          ],
+          "trap": [
+            "Face away, chin up, arm extended"
+          ]
+        }
       },
       {
         "question": "How do you recognize the optimal moment to execute your primary escape?",
-        "answer": "The optimal escape moment occurs when opponent shifts their weight - either to adjust their grip, transition to a different position, or respond to your defensive movements. Feel for when pressure momentarily reduces on your trapped shoulder or when their hips lift slightly. Their movement creates windows where your hip escape can succeed. Never try to escape against settled, committed pressure - make small movements to force them to adjust, then escape during their adjustment."
+        "answer": "The optimal escape moment occurs when opponent shifts their weight - either to adjust their grip, transition to a different position, or respond to your defensive movements. Feel for when pressure momentarily reduces on your trapped shoulder or when their hips lift slightly. Their movement creates windows where your hip escape can succeed. Never try to escape against settled, committed pressure - make small movements to force them to adjust, then escape during their adjustment.",
+        "answer_line": "Escape when they shift weight",
+        "distractors": {
+          "plausible": [
+            "Escape against settled pressure",
+            "Wait for them to fully commit"
+          ],
+          "trap": [
+            "Explode escape into set pressure"
+          ]
+        }
       },
       {
         "question": "What indicates you should stop fighting and tap rather than continue escape attempts?",
-        "answer": "Tap when you feel sharp pressure on the blood vessels in your neck combined with vision changes, ringing in ears, or a sensation of pressure building in your head. Also tap if you've been fighting the position for extended time and feel your movements becoming sluggish or uncoordinated. Never wait until you're about to lose consciousness. In training, tap early and learn - an early tap is far better than brain hypoxia or cervical injury. The position will be there tomorrow to practice again."
+        "answer": "Tap when you feel sharp pressure on the blood vessels in your neck combined with vision changes, ringing in ears, or a sensation of pressure building in your head. Also tap if you've been fighting the position for extended time and feel your movements becoming sluggish or uncoordinated. Never wait until you're about to lose consciousness. In training, tap early and learn - an early tap is far better than brain hypoxia or cervical injury. The position will be there tomorrow to practice again.",
+        "answer_line": "Vision changes, ringing, pressure",
+        "distractors": {
+          "plausible": [
+            "Muscle burn in your forearms",
+            "Only sharp joint pain counts"
+          ],
+          "trap": [
+            "Hold on until you feel faint"
+          ]
+        }
+      }
+    ],
+    "clips": [
+      {
+        "id": "SXm9wA1HcvM",
+        "title": "Anaconda Choke Defense",
+        "by": "SFS MMA",
+        "vertical": false,
+        "channel": "Fierce Pierce15",
+        "duration": 64,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "czQckiDogRc",
+        "title": "How to Escape the Anaconda Choke",
+        "by": "ZombieProofBJJ",
+        "vertical": false,
+        "channel": "ZombieProofBJJ",
+        "duration": 92,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "J-MaOIfDHXk",
+        "title": "Standing Front Headlock Choke Defense",
+        "by": "Empower Gym Tampa",
+        "vertical": false,
+        "channel": "Empower Gym Tampa",
+        "duration": 60,
+        "verified": "2026-07-14"
       }
     ]
-  }
+  },
+  "flashcards_position": [
+    {
+      "question": "What configuration defines Dead Orchard Control and distinguishes it from a standard anaconda?",
+      "answer": "Dead Orchard Control is a front-headlock state built on the anaconda arm-in structure, where the top player has threaded an arm under the trapped player's near armpit and around the neck, isolating the head and one arm together in a constricting loop. What distinguishes it from a standard anaconda is intent rather than grip: instead of racing to the roll-through finish, the configuration is held as an extended control platform that systematically breaks down the trapped player's structure over time. This is a 10th Planet-emphasized variation where the arm-in loop, chest-to-shoulder pressure, and perpendicular body angle are maintained deliberately to preserve multiple pathways. The result is a hybrid state that is simultaneously a submission threat and a positional cage.",
+      "answer_line": "Anaconda arm-in held as control",
+      "distractors": {
+        "plausible": [
+          "Standard rear naked choke setup",
+          "Guillotine facing under chin"
+        ],
+        "trap": [
+          "Loose headlock with no arm trap"
+        ]
+      }
+    },
+    {
+      "question": "Which control points make Dead Orchard Control so difficult for the trapped player to escape?",
+      "answer": "The primary control point is the arm-in loop that traps the head and near arm together, so the trapped player cannot post or frame on that entire side of their body. The second is the top player's shoulder and chest pressure driving down into the trapped shoulder, which pins it toward the mat and prevents posture recovery. The third is the perpendicular hip position beside or slightly behind the trapped player, applying angular weight that stops them from squaring up. Because these three points reinforce each other, relieving one alone does not free the position, the compression, the trapped limb, and the base disruption all have to be addressed.",
+      "answer_line": "Arm-in loop, shoulder pin, angle",
+      "distractors": {
+        "plausible": [
+          "Just the neck grip alone",
+          "Only leg control matters"
+        ],
+        "trap": [
+          "Relieve one point frees it all"
+        ]
+      }
+    },
+    {
+      "question": "How is weight directed in Dead Orchard Control, and why does that direction matter to both players?",
+      "answer": "Weight is driven forward and down through the chest and shoulder into the trapped player's near shoulder, pinning it toward the mat while the hips stay connected to control movement. This direction matters because it flattens the trapped shoulder and removes the base the bottom player would need to rebuild posture. If the weight drifts too far past the head, the top player loses the ability to follow movement and the trapped player gains room to turn in; if it stays too upright, the compression slackens and the loop loosens. The whole position lives or dies on that forward-and-down shoulder pressure being a constant crushing pressure rather than static dead weight.",
+      "answer_line": "Forward-down into trapped shoulder",
+      "distractors": {
+        "plausible": [
+          "Weight centered over own hips",
+          "Weight pressed onto opponent's head"
+        ],
+        "trap": [
+          "Lean back upright for base"
+        ]
+      }
+    },
+    {
+      "question": "Why is the trapped arm such a critical element of the Dead Orchard configuration for both players?",
+      "answer": "The trapped arm is what converts a simple headlock into a strangle mechanism, because pinning it inside the loop uses the trapped player's own limb and shoulder as one wall of the compression against their neck. As long as that arm stays isolated, the bottom player has no frame on the choking side and the loop stays structurally sound. This is why the arm's depth and tightness govern the whole position: keeping it trapped and bent tight preserves the control, while extracting it or straightening it fundamentally changes the geometry and opens escape or transition to a different attack. Both players effectively fight over that single limb because it determines whether the configuration holds.",
+      "answer_line": "Arm forms the choke's other wall",
+      "distractors": {
+        "plausible": [
+          "Arm only blocks their striking",
+          "Arm controls their far hip"
+        ],
+        "trap": [
+          "Let the trapped arm extend free"
+        ]
+      }
+    },
+    {
+      "question": "What role does the angle of compression play in why Dead Orchard Control functions as a blood choke?",
+      "answer": "The compression is directed circularly toward the trapped player's far shoulder and armpit rather than pressing straight into the front of the throat, which places pressure on the sides of the neck over the carotid arteries instead of the windpipe. This carotid-focused angle is what makes it a blood choke, cutting circulation rather than air, and produces lightheadedness and tunnel vision rather than gagging. Maintaining that angle depends on the loop staying tight and the head being bent forward and to the side by the grip. Changing the angle, whether the top player deepens toward the far shoulder or the bottom player turns to realign their neck, directly changes how much of the strangle is live.",
+      "answer_line": "Circular pressure hits carotids",
+      "distractors": {
+        "plausible": [
+          "Pressure crushes the windpipe",
+          "Angle targets the jaw only"
+        ],
+        "trap": [
+          "Press straight into the throat"
+        ]
+      }
+    },
+    {
+      "question": "How does Dead Orchard Control relate to and differ from its neighboring front-headlock positions?",
+      "answer": "Dead Orchard Control sits inside the front-headlock family alongside Anaconda Control, Darce Control, and Guillotine Control, all of which trap the head and share the compromised-posture dynamic. It is essentially the anaconda's arm-in loop held as extended control, whereas the darce uses a different hand path across the neck and the guillotine faces the choking arm the other direction under the chin. The key differentiator is temporal rather than structural: adjacent controls tend toward an immediate finish, while Dead Orchard prioritizes sustained dominance and the option to advance to mount, back, or north-south. Because the base configuration overlaps so heavily, the position can flow into a darce or anaconda finish depending on how the trapped arm and neck angle shift.",
+      "answer_line": "Anaconda loop held, not rushed",
+      "distractors": {
+        "plausible": [
+          "Identical to guillotine grip",
+          "Same hand path as the darce"
+        ],
+        "trap": [
+          "Rush finish just like a darce"
+        ]
+      }
+    },
+    {
+      "question": "Why does time work against the trapped player in Dead Orchard Control while favoring the controlling player?",
+      "answer": "The trapped player must simultaneously fight the choking pressure and the positional control with limited resources, so every second under the crushing chest pressure and restricted breathing drains energy faster than it drains the top player, who can rely on skeletal structure and body weight rather than muscular squeezing. This asymmetry is the entire point of the position's name and design, it lets pressure and fatigue break the bottom player down gradually rather than requiring an explosive finish. As the trapped player tires, their defensive frames weaken and finishing windows open. That is why the controlling player is rewarded for patience and the trapped player is rewarded for acting early before the deficit compounds.",
+      "answer_line": "Pressure drains them, not you",
+      "distractors": {
+        "plausible": [
+          "Time favors whoever moves first",
+          "Fatigue hits both sides equally"
+        ],
+        "trap": [
+          "Rush the finish to save time"
+        ]
+      }
+    },
+    {
+      "question": "What shared dynamic makes explosive movement generally counterproductive for both players in Dead Orchard Control?",
+      "answer": "The position is governed by tight connection and constant compression, so sudden explosive movement tends to create the very momentum and space the other side can exploit. For the trapped player, thrashing burns oxygen against a restricted airway and often feeds the top player's transitions to mount or back. For the controlling player, lunging for a rushed finish sacrifices the connection that keeps the loop tight and lets the trapped arm or head slip free. Both sides are therefore better served by small, deliberate adjustments that preserve or attack structure incrementally, which is why the position rewards methodical pressure and composure over speed.",
+      "answer_line": "Explosive moves burn energy, space",
+      "distractors": {
+        "plausible": [
+          "Explosive moves speed up escapes",
+          "Speed always beats patience here"
+        ],
+        "trap": [
+          "Lunge for a fast, rushed finish"
+        ]
+      }
+    }
+  ],
+  "clips": [
+    {
+      "id": "EbhWFWp-B6s",
+      "title": "How to Do an Anaconda Choke",
+      "by": "Brandon Mccaghren",
+      "vertical": false,
+      "channel": "Brandon Mccaghren",
+      "duration": 81,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "dr66s8QK9_g",
+      "title": "Anaconda Choke Finish Details",
+      "by": "Ben Eddy",
+      "vertical": false,
+      "channel": "Ben Eddy Bravo",
+      "duration": 96,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "GsqBxkrlrKE",
+      "title": "Rolling Anaconda from Leg Drag",
+      "by": "Brent Smith",
+      "vertical": false,
+      "channel": "Brandon Mccaghren",
+      "duration": 115,
+      "verified": "2026-07-14"
+    }
+  ]
 }

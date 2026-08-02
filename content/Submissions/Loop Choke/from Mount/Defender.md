@@ -150,6 +150,43 @@ description: "How to defend against Loop Choke from Mount in BJJ. Recognition, e
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Loop Choke from Mount (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Loop choke escape",
+      "description": "Loop Choke from Mount (Defender) film study: Loop choke escape, taught by Ninja Pinto.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/pZmJpXSwRTk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/pZmJpXSwRTk",
+      "url": "https://www.youtube.com/watch?v=pZmJpXSwRTk",
+      "creator": { "@type": "Person", "name": "Ninja Pinto" },
+      "duration": "PT60S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Cross collar choke defense from bottom",
+      "description": "Loop Choke from Mount (Defender) film study: Cross collar choke defense from bottom, taught by Peter Mettler.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/be-iHHhJGng/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/be-iHHhJGng",
+      "url": "https://www.youtube.com/watch?v=be-iHHhJGng",
+      "creator": { "@type": "Person", "name": "Peter Mettler" },
+      "duration": "PT130S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -160,6 +197,34 @@ Defending the Loop Choke from Mount requires immediate recognition and proactive
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Loop Choke from Mount (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=pZmJpXSwRTk)
+
+<p class="clip-credit"><strong>Loop choke escape</strong> — taught by Ninja Pinto · 1:00 · <a href="https://www.youtube.com/watch?v=pZmJpXSwRTk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=be-iHHhJGng)
+
+<p class="clip-credit"><strong>Cross collar choke defense from bottom</strong> — taught by Peter Mettler · 2:10 · <a href="https://www.youtube.com/watch?v=be-iHHhJGng" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

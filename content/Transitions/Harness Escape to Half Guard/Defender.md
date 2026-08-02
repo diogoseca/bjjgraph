@@ -140,6 +140,43 @@ description: "Learn to prevent and counter the Harness Escape to Half Guard from
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Harness Escape to Half Guard (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Back escape against the seat belt grip",
+      "description": "Harness Escape to Half Guard (Defender) film study: Back escape against the seat belt grip, taught by Brandon Quick.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/CVb5lpBQsVY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/CVb5lpBQsVY",
+      "url": "https://www.youtube.com/watch?v=CVb5lpBQsVY",
+      "creator": { "@type": "Person", "name": "Brandon Quick" },
+      "duration": "PT138S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Avoiding mount when escaping the back",
+      "description": "Harness Escape to Half Guard (Defender) film study: Avoiding mount when escaping the back, taught by Henry Akins.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/bhkb4ItZQno/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/bhkb4ItZQno",
+      "url": "https://www.youtube.com/watch?v=bhkb4ItZQno",
+      "creator": { "@type": "Person", "name": "Henry Akins" },
+      "duration": "PT131S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -149,6 +186,34 @@ Defending against the Harness Escape to Half Guard means you are the practitione
 **Opponent's Starting Position**: [[Positions/Harness]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Harness Escape to Half Guard (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=CVb5lpBQsVY)
+
+<p class="clip-credit"><strong>Back escape against the seat belt grip</strong> — taught by Brandon Quick · 2:18 · <a href="https://www.youtube.com/watch?v=CVb5lpBQsVY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=bhkb4ItZQno)
+
+<p class="clip-credit"><strong>Avoiding mount when escaping the back</strong> — taught by Henry Akins · 2:11 · <a href="https://www.youtube.com/watch?v=bhkb4ItZQno" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

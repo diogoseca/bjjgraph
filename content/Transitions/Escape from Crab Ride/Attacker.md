@@ -180,6 +180,43 @@ description: "Learn to execute the Escape from Crab Ride in BJJ. Step-by-step gu
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Escape from Crab Ride (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Escaping the leg ride",
+      "description": "Escape from Crab Ride (Attacker) film study: Escaping the leg ride, taught by Steve Weismann.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/F6reAeYmhoU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/F6reAeYmhoU",
+      "url": "https://www.youtube.com/watch?v=F6reAeYmhoU",
+      "creator": { "@type": "Person", "name": "Steve Weismann" },
+      "duration": "PT14S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Single hook defense: stopping the second hook",
+      "description": "Escape from Crab Ride (Attacker) film study: Single hook defense: stopping the second hook, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/DDyJiMgWfnI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/DDyJiMgWfnI",
+      "url": "https://www.youtube.com/watch?v=DDyJiMgWfnI",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT116S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -189,6 +226,34 @@ Executing the Escape from Crab Ride requires a systematic approach that addresse
 **From Position**: [[Positions/Crab Ride]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Escape from Crab Ride (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=F6reAeYmhoU)
+
+<p class="clip-credit"><strong>Escaping the leg ride</strong> — taught by Steve Weismann · 0:14 · <a href="https://www.youtube.com/watch?v=F6reAeYmhoU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=DDyJiMgWfnI)
+
+<p class="clip-credit"><strong>Single hook defense: stopping the second hook</strong> — taught by Lachlan Giles · 1:56 · <a href="https://www.youtube.com/watch?v=DDyJiMgWfnI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

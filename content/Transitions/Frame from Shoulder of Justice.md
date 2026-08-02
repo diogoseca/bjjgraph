@@ -34,6 +34,54 @@ description: "Master framing from Shoulder of Justice in BJJ. Defensive guide to
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Frame from Shoulder of Justice \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Getting your frame back from bottom side control",
+      "description": "Frame from Shoulder of Justice film study: Getting your frame back from bottom side control, taught by Steven Henshall.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/__VUVYcI3uA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/__VUVYcI3uA",
+      "url": "https://www.youtube.com/watch?v=__VUVYcI3uA",
+      "creator": { "@type": "Person", "name": "Steven Henshall" },
+      "duration": "PT48S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Framing off side control to recover guard",
+      "description": "Frame from Shoulder of Justice film study: Framing off side control to recover guard, taught by DS Team Jiu Jitsu School.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/GFyuu8sAUtg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/GFyuu8sAUtg",
+      "url": "https://www.youtube.com/watch?v=GFyuu8sAUtg",
+      "creator": { "@type": "Person", "name": "DS Team Jiu Jitsu School" },
+      "duration": "PT127S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Babybridge frame against shoulder pressure",
+      "description": "Frame from Shoulder of Justice film study: Babybridge frame against shoulder pressure, taught by Priit Mihkelson.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/wDSd5Qy8Kac/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/wDSd5Qy8Kac",
+      "url": "https://www.youtube.com/watch?v=wDSd5Qy8Kac",
+      "creator": { "@type": "Person", "name": "Priit Mihkelson" },
+      "duration": "PT231S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ Strategically, this technique serves as the first link in an escape chain. Reach
 **Success Rate**: 40%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Frame from Shoulder of Justice in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=__VUVYcI3uA)
+
+<p class="clip-credit"><strong>Getting your frame back from bottom side control</strong> — taught by Steven Henshall · 0:48 · <a href="https://www.youtube.com/watch?v=__VUVYcI3uA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=GFyuu8sAUtg)
+
+<p class="clip-credit"><strong>Framing off side control to recover guard</strong> — taught by DS Team Jiu Jitsu School · 2:07 · <a href="https://www.youtube.com/watch?v=GFyuu8sAUtg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=wDSd5Qy8Kac)
+
+<p class="clip-credit"><strong>Babybridge frame against shoulder pressure</strong> — taught by Priit Mihkelson · 3:51 · <a href="https://www.youtube.com/watch?v=wDSd5Qy8Kac" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

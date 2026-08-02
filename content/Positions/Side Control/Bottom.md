@@ -21,37 +21,37 @@ description: "Master escaping Side Control Bottom in BJJ. Systematic defensive f
     {
       "@type": "HowToStep",
       "name": "Execute Elbow Escape to Guard",
-      "text": "From this position, attempt Elbow Escape to Guard. This technique is attempted in 38% of exchanges from this position.",
+      "text": "From this position, attempt Elbow Escape to Guard. This technique is attempted in 13% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Frame and Shrimp to Guard",
-      "text": "From this position, attempt Frame and Shrimp to Guard. This technique is attempted in 19% of exchanges from this position.",
+      "text": "From this position, attempt Frame and Shrimp to Guard. This technique is attempted in 12% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Hip Escape to Guard",
-      "text": "From this position, attempt Hip Escape to Guard. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt Hip Escape to Guard. This technique is attempted in 12% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Bridge and Roll",
-      "text": "From this position, attempt Bridge and Roll. This technique is attempted in 7% of exchanges from this position.",
+      "text": "From this position, attempt Bridge and Roll. This technique is attempted in 8% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Side Control Escape",
-      "text": "From this position, attempt Side Control Escape. This technique is attempted in 3% of exchanges from this position.",
+      "text": "From this position, attempt Side Control Escape. This technique is attempted in 8% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Ghost Escape from Side Control",
-      "text": "From this position, attempt Ghost Escape from Side Control. This technique is attempted in 9% of exchanges from this position.",
+      "text": "From this position, attempt Ghost Escape from Side Control. This technique is attempted in 7% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -155,6 +155,54 @@ description: "Master escaping Side Control Bottom in BJJ. Systematic defensive f
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Side Control (Bottom) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Bump \u0027n Roll Side Control Escape",
+      "description": "Side Control (Bottom) film study: Bump \u0027n Roll Side Control Escape, taught by PIOT.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Zw_QEoWDvcw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Zw_QEoWDvcw",
+      "url": "https://www.youtube.com/watch?v=Zw_QEoWDvcw",
+      "creator": { "@type": "Person", "name": "PIOT" },
+      "duration": "PT82S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Turkish Get-Up Side Control Escape",
+      "description": "Side Control (Bottom) film study: Turkish Get-Up Side Control Escape, taught by Dirtball BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/mBFVriM0ojQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/mBFVriM0ojQ",
+      "url": "https://www.youtube.com/watch?v=mBFVriM0ojQ",
+      "creator": { "@type": "Person", "name": "Dirtball BJJ" },
+      "duration": "PT64S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Side Control Underhook Escape",
+      "description": "Side Control (Bottom) film study: Side Control Underhook Escape, taught by Clayton Phillips.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/TPkmg7qRcSc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/TPkmg7qRcSc",
+      "url": "https://www.youtube.com/watch?v=TPkmg7qRcSc",
+      "creator": { "@type": "Person", "name": "Clayton Phillips" },
+      "duration": "PT128S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <aside class="entity-relations">
@@ -166,6 +214,42 @@ description: "Master escaping Side Control Bottom in BJJ. Systematic defensive f
 Side Control Bottom is one of the most challenging defensive positions in Brazilian Jiu-Jitsu, where you are pinned on your back with your opponent's chest perpendicular to your torso, controlling your upper body and hips. This position represents a critical moment where effective defense can prevent submission and enable escape or guard recovery. Understanding the systematic approach to escaping side control is essential for all practitioners, as it directly impacts your ability to survive and counter dominant positions. The bottom player must focus on creating frames, generating space through hip movement, and systematically working toward guard recovery or escape while defending against constant submission threats. Success from this position requires technical precision, timing, patience, and the ability to recognize and exploit small windows of opportunity when the top player transitions or attacks. The defensive hierarchy prioritizes first preventing submissions, second preventing position advancement to mount or back, and third creating escape opportunities through systematic space creation and guard recovery sequences. The mechanical principle that makes side control escapes possible is the creation of space through hip movement combined with framing structures that prevent the opponent from following your movement. When you shrimp your hips away, you must simultaneously create a frame with your forearms against the opponent's shoulders or hips to prevent them from simply following your movement and maintaining the pin. The timing element is critical - attempts to escape when the opponent has stable base and settled weight will fail regardless of technique quality.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Side Control (Bottom) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Zw_QEoWDvcw)
+
+<p class="clip-credit"><strong>Bump &#39;n Roll Side Control Escape</strong> — taught by PIOT · 1:22 · <a href="https://www.youtube.com/watch?v=Zw_QEoWDvcw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=mBFVriM0ojQ)
+
+<p class="clip-credit"><strong>Turkish Get-Up Side Control Escape</strong> — taught by Dirtball BJJ · 1:04 · <a href="https://www.youtube.com/watch?v=mBFVriM0ojQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=TPkmg7qRcSc)
+
+<p class="clip-credit"><strong>Side Control Underhook Escape</strong> — taught by Clayton Phillips · 2:08 · <a href="https://www.youtube.com/watch?v=TPkmg7qRcSc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 
@@ -221,7 +305,7 @@ Side Control Bottom is one of the most challenging defensive positions in Brazil
 
 **If opponent settles heavy chest pressure with tight crossface and hip control:**
 - Execute **[[Principles/Frames/Attacker|Frames]]** → [[Defensive frames established]] (Probability: 60%)
-- Execute **[[Transitions/Ghost Escape/Attacker|Ghost Escape]]** → [[Positions/Turtle]] (Probability: 35%)
+- Execute **[[Transitions/Ghost Escape from Side Control/Attacker|Ghost Escape from Side Control]]** → [[Positions/Turtle]] (Probability: 35%)
 
 
 **If opponent transitions toward mount raising hips:**
@@ -240,7 +324,7 @@ Side Control Bottom is one of the most challenging defensive positions in Brazil
 
 
 **If opponent drives aggressive crossface creating turning momentum:**
-- Execute **[[Transitions/Ghost Escape/Attacker|Ghost Escape]]** → [[Positions/Turtle]] (Probability: 50%)
+- Execute **[[Transitions/Ghost Escape from Side Control/Attacker|Ghost Escape from Side Control]]** → [[Positions/Turtle]] (Probability: 50%)
 - Execute **[[Transitions/Bridge and Roll/Attacker|Bridge and Roll]]** → [[Positions/Closed Guard]] (Probability: 25%)
 
 

@@ -34,6 +34,54 @@ description: "Master the mounted triangle squeeze in BJJ. Expert guide to tighte
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Mounted Triangle Squeeze \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Triangle squeeze finishing mechanics",
+      "description": "Mounted Triangle Squeeze film study: Triangle squeeze finishing mechanics, taught by Daniel Wanderley.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/yBHU4resLgc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/yBHU4resLgc",
+      "url": "https://www.youtube.com/watch?v=yBHU4resLgc",
+      "creator": { "@type": "Person", "name": "Daniel Wanderley" },
+      "duration": "PT93S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Triangle choke finish with the arm in",
+      "description": "Mounted Triangle Squeeze film study: Triangle choke finish with the arm in, taught by Thunderdome BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/zuJkiUU2djs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/zuJkiUU2djs",
+      "url": "https://www.youtube.com/watch?v=zuJkiUU2djs",
+      "creator": { "@type": "Person", "name": "Thunderdome BJJ" },
+      "duration": "PT47S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Finishing the triangle without closing the legs",
+      "description": "Mounted Triangle Squeeze film study: Finishing the triangle without closing the legs, taught by Mr. NogiJiujitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/uE8JGma_Y80/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/uE8JGma_Y80",
+      "url": "https://www.youtube.com/watch?v=uE8JGma_Y80",
+      "creator": { "@type": "Person", "name": "Mr. NogiJiujitsu" },
+      "duration": "PT90S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ Strategically, the mounted triangle squeeze creates a compounding pressure scena
 **Success Rate**: 55%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Mounted Triangle Squeeze in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=yBHU4resLgc)
+
+<p class="clip-credit"><strong>Triangle squeeze finishing mechanics</strong> — taught by Daniel Wanderley · 1:33 · <a href="https://www.youtube.com/watch?v=yBHU4resLgc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=zuJkiUU2djs)
+
+<p class="clip-credit"><strong>Triangle choke finish with the arm in</strong> — taught by Thunderdome BJJ · 0:47 · <a href="https://www.youtube.com/watch?v=zuJkiUU2djs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=uE8JGma_Y80)
+
+<p class="clip-credit"><strong>Finishing the triangle without closing the legs</strong> — taught by Mr. NogiJiujitsu · 1:30 · <a href="https://www.youtube.com/watch?v=uE8JGma_Y80" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

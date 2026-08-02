@@ -321,7 +321,7 @@
       "relationship": "Common competition opening strategy requiring specific preparation"
     },
     {
-      "name": "Arm Drag from Standing",
+      "name": "Arm Drag",
       "content_type": "Transition",
       "relationship": "Standing phase technique for offensive and defensive transitions in competition"
     },
@@ -389,43 +389,143 @@
   "flashcards": [
     {
       "question": "What is the Competition Preparation System in BJJ?",
-      "answer": "It is a structured multi-phase framework that integrates periodized physical conditioning, mental rehearsal, strategic game planning, weight management, and match-day protocols to peak an athlete's performance for tournament day."
+      "answer": "It is a structured multi-phase framework that integrates periodized physical conditioning, mental rehearsal, strategic game planning, weight management, and match-day protocols to peak an athlete's performance for tournament day.",
+      "answer_line": "Periodized multi-phase peak plan",
+      "distractors": {
+        "plausible": [
+          "Just physical conditioning plan",
+          "Weight cut and diet strategy"
+        ],
+        "trap": [
+          "One intense training block"
+        ]
+      }
     },
     {
       "question": "How long should a typical competition preparation cycle last?",
-      "answer": "Most cycles run 8-12 weeks, progressing through a base-building phase, an intensification phase, a peak-sharpening phase, and a final taper week before competition day."
+      "answer": "Most cycles run 8-12 weeks, progressing through a base-building phase, an intensification phase, a peak-sharpening phase, and a final taper week before competition day.",
+      "answer_line": "8-12 weeks with taper week",
+      "distractors": {
+        "plausible": [
+          "2-3 weeks, high intensity only",
+          "6 months of steady training"
+        ],
+        "trap": [
+          "Train hardest until fight week"
+        ]
+      }
     },
     {
       "question": "Why is the taper week critical in competition preparation?",
-      "answer": "Reducing training volume 40-50% while maintaining intensity dissipates accumulated fatigue and supercompensates fitness, so the athlete arrives fresh and technically sharp rather than overtrained on competition day."
+      "answer": "Reducing training volume 40-50% while maintaining intensity dissipates accumulated fatigue and supercompensates fitness, so the athlete arrives fresh and technically sharp rather than overtrained on competition day.",
+      "answer_line": "Cut volume, keep intensity",
+      "distractors": {
+        "plausible": [
+          "Rest completely, no training",
+          "Increase volume to peak sharper"
+        ],
+        "trap": [
+          "Add extra hard sessions late"
+        ]
+      }
     },
     {
       "question": "What does periodization accomplish in a competition prep cycle?",
-      "answer": "Periodization waves training intensity and volume across mesocycles with strategic deloads, progressively building strength and conditioning while managing fatigue so physical readiness peaks precisely on competition day."
+      "answer": "Periodization waves training intensity and volume across mesocycles with strategic deloads, progressively building strength and conditioning while managing fatigue so physical readiness peaks precisely on competition day.",
+      "answer_line": "Wave intensity with deloads",
+      "distractors": {
+        "plausible": [
+          "Constant max intensity always",
+          "Random daily workout variation"
+        ],
+        "trap": [
+          "Train max effort every week"
+        ]
+      }
     },
     {
       "question": "How should a competitor manage energy across a multi-match tournament?",
-      "answer": "Pace early matches to conserve energy, use between-match recovery protocols like hydration and quick-digesting carbohydrates, and rehearse low-rest competition rounds in training to build tournament-day endurance."
+      "answer": "Pace early matches to conserve energy, use between-match recovery protocols like hydration and quick-digesting carbohydrates, and rehearse low-rest competition rounds in training to build tournament-day endurance.",
+      "answer_line": "Pace early, recover, rehearse rest",
+      "distractors": {
+        "plausible": [
+          "Go all-out every match",
+          "Rest fully between each match"
+        ],
+        "trap": [
+          "Sprint first match for momentum"
+        ]
+      }
     },
     {
       "question": "What is the danger of aggressive weight cutting before competition?",
-      "answer": "Severe dehydration-rehydration cycles sacrifice strength, endurance, and health for marginal advantages; a gradual 4-6 week reduction or competing near walking weight preserves both performance and safety."
+      "answer": "Severe dehydration-rehydration cycles sacrifice strength, endurance, and health for marginal advantages; a gradual 4-6 week reduction or competing near walking weight preserves both performance and safety.",
+      "answer_line": "Gradual cut, not dehydration",
+      "distractors": {
+        "plausible": [
+          "Cut fast, rehydrate morning of",
+          "Sauna cut day before weigh-in"
+        ],
+        "trap": [
+          "Cut max weight for bracket edge"
+        ]
+      }
     },
     {
       "question": "Why must a competitor build a game plan with contingencies?",
-      "answer": "A clear primary strategy plus 2-3 backup approaches prevents reactive performance and lets the athlete adapt when an opponent neutralizes the initial plan, keeping the match under proactive tactical control."
+      "answer": "A clear primary strategy plus 2-3 backup approaches prevents reactive performance and lets the athlete adapt when an opponent neutralizes the initial plan, keeping the match under proactive tactical control.",
+      "answer_line": "Primary plan plus 2-3 backups",
+      "distractors": {
+        "plausible": [
+          "One plan, commit fully",
+          "Copy opponent's known gameplan"
+        ],
+        "trap": [
+          "Improvise entirely, no plan"
+        ]
+      }
     },
     {
       "question": "What role does mental rehearsal play in competition preparation?",
-      "answer": "Daily visualization of successful execution and adversity scenarios builds psychological resilience, ingrains pre-match routines, and regulates arousal so technical skill transfers reliably under competitive pressure."
+      "answer": "Daily visualization of successful execution and adversity scenarios builds psychological resilience, ingrains pre-match routines, and regulates arousal so technical skill transfers reliably under competitive pressure.",
+      "answer_line": "Visualize success and adversity",
+      "distractors": {
+        "plausible": [
+          "Only visualize winning scenarios",
+          "Watch opponent film only"
+        ],
+        "trap": [
+          "Skip mental prep, drill only"
+        ]
+      }
     },
     {
       "question": "What should post-competition analysis focus on?",
-      "answer": "Reviewing match video within 48 hours to objectively assess technical execution, tactical decision-making, and psychological response, then integrating those lessons into the next preparation cycle."
+      "answer": "Reviewing match video within 48 hours to objectively assess technical execution, tactical decision-making, and psychological response, then integrating those lessons into the next preparation cycle.",
+      "answer_line": "Review film within 48 hours",
+      "distractors": {
+        "plausible": [
+          "Rest two weeks before reviewing",
+          "Focus only on wins, skip losses"
+        ],
+        "trap": [
+          "Ignore losses, repeat same plan"
+        ]
+      }
     },
     {
       "question": "What is a common mistake competitors make in the final week before a tournament?",
-      "answer": "Overtraining to cram last-minute preparation instead of trusting the taper, which accumulates fatigue and degrades performance rather than improving readiness on competition day."
+      "answer": "Overtraining to cram last-minute preparation instead of trusting the taper, which accumulates fatigue and degrades performance rather than improving readiness on competition day.",
+      "answer_line": "Overtraining instead of tapering",
+      "distractors": {
+        "plausible": [
+          "Adding new techniques last week",
+          "Extra cardio to peak fitness"
+        ],
+        "trap": [
+          "Hard sparring day before weigh-in"
+        ]
+      }
     }
   ]
 }

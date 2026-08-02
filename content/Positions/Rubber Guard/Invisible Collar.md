@@ -34,6 +34,54 @@ description: "Master Invisible Collar position in BJJ. Advanced back control set
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Invisible Collar \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Invisible Collar (MTS 134)",
+      "description": "Invisible Collar film study: Invisible Collar (MTS 134), taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/KCyIwacRKu8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/KCyIwacRKu8",
+      "url": "https://www.youtube.com/watch?v=KCyIwacRKu8",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT61S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Sorcerer from the invisible collar",
+      "description": "Invisible Collar film study: Sorcerer from the invisible collar, taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/GPWBygTM1b0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/GPWBygTM1b0",
+      "url": "https://www.youtube.com/watch?v=GPWBygTM1b0",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT97S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Invisible collar no-gi choke walkthrough",
+      "description": "Invisible Collar film study: Invisible collar no-gi choke walkthrough, taught by 10th Planet coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/efFII9gjTrY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/efFII9gjTrY",
+      "url": "https://www.youtube.com/watch?v=efFII9gjTrY",
+      "creator": { "@type": "Person", "name": "10th Planet coach" },
+      "duration": "PT186S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -66,6 +114,42 @@ Unlike traditional collar grips that telegraph submission intent, the invisible 
 The invisible collar serves multiple strategic functions within back attack systems. It acts as both a submission position and a controlling platform that limits opponent mobility while setting up alternative attacks. When executed properly, the position creates submission dilemmas where defending one threat opens opportunities for others. This makes it particularly effective in competition settings where opponents are experienced in defending conventional back attacks but may not recognize the invisible collar configuration until it's too late to mount effective defense.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Invisible Collar in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=KCyIwacRKu8)
+
+<p class="clip-credit"><strong>Invisible Collar (MTS 134)</strong> — taught by Eddie Bravo · 1:01 · <a href="https://www.youtube.com/watch?v=KCyIwacRKu8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=GPWBygTM1b0)
+
+<p class="clip-credit"><strong>Sorcerer from the invisible collar</strong> — taught by Eddie Bravo · 1:37 · <a href="https://www.youtube.com/watch?v=GPWBygTM1b0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=efFII9gjTrY)
+
+<p class="clip-credit"><strong>Invisible collar no-gi choke walkthrough</strong> — taught by 10th Planet coach · 3:06 · <a href="https://www.youtube.com/watch?v=efFII9gjTrY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 
@@ -137,17 +221,17 @@ The invisible collar serves multiple strategic functions within back attack syst
 ### Available Transitions
 
 
-- **[[Transitions/Hand Fighting to Remove Collar Grip/Attacker|Hand Fighting to Remove Collar Grip]]** (22% of attempts)
+- **[[Transitions/Hand Fighting to Remove Collar Grip/Attacker|Hand Fighting to Remove Collar Grip]]** (39% of attempts)
 
-- **[[Transitions/Hip Escape to Guard/Attacker|Hip Escape to Guard]]** (18% of attempts)
+- **[[Transitions/Hip Escape to Guard/Attacker|Hip Escape to Guard]]** (21% of attempts)
 
-- **[[Transitions/Elbow Escape to Remove Hooks/Attacker|Elbow Escape to Remove Hooks]]** (20% of attempts)
+- **[[Transitions/Elbow Escape to Remove Hooks/Attacker|Elbow Escape to Remove Hooks]]** (15% of attempts)
 
-- **[[Transitions/Rolling Escape to Guard/Attacker|Rolling Escape to Guard]]** (13% of attempts)
+- **[[Transitions/Rolling Escape to Guard/Attacker|Rolling Escape to Guard]]** (8% of attempts)
 
 - **[[Transitions/Standing Escape/Attacker|Standing Escape]]** (11% of attempts)
 
-- **[[Transitions/Granby Roll to Guard/Attacker|Granby Roll to Guard]]** (16% of attempts)
+- **[[Transitions/Granby Roll to Guard/Attacker|Granby Roll to Guard]]** (6% of attempts)
 
 
 ### Common Mistakes
@@ -204,21 +288,21 @@ The invisible collar serves multiple strategic functions within back attack syst
 ### Available Transitions
 
 
-- **[[Cross Collar Choke from Invisible Collar/Attacker|Cross Collar Choke from Invisible Collar]]** (14% of attempts)
+- **[[Cross Collar Choke from Invisible Collar/Attacker|Cross Collar Choke from Invisible Collar]]** (4% of attempts)
 
-- **[[Rear Naked Choke from Invisible Collar/Attacker|Rear Naked Choke from Invisible Collar]]** (14% of attempts)
+- **[[Rear Naked Choke from Invisible Collar/Attacker|Rear Naked Choke from Invisible Collar]]** (37% of attempts)
 
-- **[[Transitions/Armbar from Back Transition/Attacker|Armbar from Back Transition]]** (12% of attempts)
+- **[[Transitions/Armbar from Back Transition/Attacker|Armbar from Back Transition]]** (8% of attempts)
 
-- **[[Transitions/Aoki Lock to Crucifix/Attacker|Aoki Lock to Crucifix]]** (11% of attempts)
+- **[[Transitions/Aoki Lock to Crucifix/Attacker|Aoki Lock to Crucifix]]** (3% of attempts)
 
-- **[[Bow and Arrow Choke from Invisible Collar/Attacker|Bow and Arrow Choke from Invisible Collar]]** (11% of attempts)
+- **[[Bow and Arrow Choke from Invisible Collar/Attacker|Bow and Arrow Choke from Invisible Collar]]** (0% of attempts)
 
-- **[[Clock Choke from Invisible Collar/Attacker|Clock Choke from Invisible Collar]]** (10% of attempts)
+- **[[Clock Choke from Invisible Collar/Attacker|Clock Choke from Invisible Collar]]** (0% of attempts)
 
-- **[[Transitions/Back Control Maintenance/Attacker|Back Control Maintenance]]** (15% of attempts)
+- **[[Transitions/Back Control Maintenance/Attacker|Back Control Maintenance]]** (29% of attempts)
 
-- **[[Transitions/Body Triangle Lock/Attacker|Body Triangle Lock]]** (13% of attempts)
+- **[[Transitions/Body Triangle Lock/Attacker|Body Triangle Lock]]** (19% of attempts)
 
 
 ### Common Mistakes

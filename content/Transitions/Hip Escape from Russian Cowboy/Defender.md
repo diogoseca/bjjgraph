@@ -132,6 +132,43 @@ description: "Complete guide to preventing the hip escape from Russian Cowboy to
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Hip Escape from Russian Cowboy (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Keeping the ride when opponent rolls to far side",
+      "description": "Hip Escape from Russian Cowboy (Defender) film study: Keeping the ride when opponent rolls to far side, taught by Priit Mihkelson.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/0xYFYI9LkUQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/0xYFYI9LkUQ",
+      "url": "https://www.youtube.com/watch?v=0xYFYI9LkUQ",
+      "creator": { "@type": "Person", "name": "Priit Mihkelson" },
+      "duration": "PT144S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Russian cowboy ride to double kneebar",
+      "description": "Hip Escape from Russian Cowboy (Defender) film study: Russian cowboy ride to double kneebar, taught by DanTheWolfman.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/o9a6Dmge5Gg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/o9a6Dmge5Gg",
+      "url": "https://www.youtube.com/watch?v=o9a6Dmge5Gg",
+      "creator": { "@type": "Person", "name": "DanTheWolfman" },
+      "duration": "PT308S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -141,6 +178,34 @@ Defending against the hip escape from Russian Cowboy top requires proactive cont
 **Opponent's Starting Position**: [[Positions/Russian Cowboy]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Hip Escape from Russian Cowboy (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=0xYFYI9LkUQ)
+
+<p class="clip-credit"><strong>Keeping the ride when opponent rolls to far side</strong> — taught by Priit Mihkelson · 2:24 · <a href="https://www.youtube.com/watch?v=0xYFYI9LkUQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=o9a6Dmge5Gg)
+
+<p class="clip-credit"><strong>Russian cowboy ride to double kneebar</strong> — taught by DanTheWolfman · 5:08 · <a href="https://www.youtube.com/watch?v=o9a6Dmge5Gg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

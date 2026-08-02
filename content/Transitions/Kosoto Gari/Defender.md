@@ -149,6 +149,43 @@ description: "How to defend against Kosoto Gari in BJJ. Recognition cues, defens
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Kosoto Gari (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Counter kosoto gari with ouchi gari",
+      "description": "Kosoto Gari (Defender) film study: Counter kosoto gari with ouchi gari, taught by Mick.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/KG3kJoh57uk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/KG3kJoh57uk",
+      "url": "https://www.youtube.com/watch?v=KG3kJoh57uk",
+      "creator": { "@type": "Person", "name": "Mick" },
+      "duration": "PT158S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Judo throw counter-attacks",
+      "description": "Kosoto Gari (Defender) film study: Judo throw counter-attacks, taught by Shintaro Higashi.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/C7HnA1zd5Rs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/C7HnA1zd5Rs",
+      "url": "https://www.youtube.com/watch?v=C7HnA1zd5Rs",
+      "creator": { "@type": "Person", "name": "Shintaro Higashi" },
+      "duration": "PT161S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <aside class="entity-relations">
@@ -161,6 +198,34 @@ Defending Kosoto Gari requires a combination of early recognition, proper weight
 **Opponent's Starting Position**: [[Positions/Standing Position]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Kosoto Gari (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=KG3kJoh57uk)
+
+<p class="clip-credit"><strong>Counter kosoto gari with ouchi gari</strong> — taught by Mick · 2:38 · <a href="https://www.youtube.com/watch?v=KG3kJoh57uk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=C7HnA1zd5Rs)
+
+<p class="clip-credit"><strong>Judo throw counter-attacks</strong> — taught by Shintaro Higashi · 2:41 · <a href="https://www.youtube.com/watch?v=C7HnA1zd5Rs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

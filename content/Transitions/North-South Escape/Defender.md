@@ -148,6 +148,54 @@ description: "How to defend against North-South Escape in BJJ. Recognition cues,
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "North-South Escape (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "North-south counter to the underhook escape",
+      "description": "North-South Escape (Defender) film study: North-south counter to the underhook escape, taught by Paul McVeigh.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Yzd35ezo2OQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Yzd35ezo2OQ",
+      "url": "https://www.youtube.com/watch?v=Yzd35ezo2OQ",
+      "creator": { "@type": "Person", "name": "Paul McVeigh" },
+      "duration": "PT76S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "How to hold north-south",
+      "description": "North-South Escape (Defender) film study: How to hold north-south, taught by Inverted Gear.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/LdjrPT6Wt7c/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/LdjrPT6Wt7c",
+      "url": "https://www.youtube.com/watch?v=LdjrPT6Wt7c",
+      "creator": { "@type": "Person", "name": "Inverted Gear" },
+      "duration": "PT121S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "North-south choke as a pinning tool",
+      "description": "North-South Escape (Defender) film study: North-south choke as a pinning tool, taught by Craig Jones.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/SPXanCnoBYA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/SPXanCnoBYA",
+      "url": "https://www.youtube.com/watch?v=SPXanCnoBYA",
+      "creator": { "@type": "Person", "name": "Craig Jones" },
+      "duration": "PT135S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +205,42 @@ As the top player in north-south, your opponent's escape attempts represent a di
 **Opponent's Starting Position**: [[Positions/North-South]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch North-South Escape (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Yzd35ezo2OQ)
+
+<p class="clip-credit"><strong>North-south counter to the underhook escape</strong> — taught by Paul McVeigh · 1:16 · <a href="https://www.youtube.com/watch?v=Yzd35ezo2OQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=LdjrPT6Wt7c)
+
+<p class="clip-credit"><strong>How to hold north-south</strong> — taught by Inverted Gear · 2:01 · <a href="https://www.youtube.com/watch?v=LdjrPT6Wt7c" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=SPXanCnoBYA)
+
+<p class="clip-credit"><strong>North-south choke as a pinning tool</strong> — taught by Craig Jones · 2:15 · <a href="https://www.youtube.com/watch?v=SPXanCnoBYA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

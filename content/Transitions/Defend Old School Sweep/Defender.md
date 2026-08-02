@@ -148,6 +148,54 @@ description: "Overcome Old School Sweep defense in BJJ half guard. Bottom player
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Defend Old School Sweep (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Old school sweep from the lockdown",
+      "description": "Defend Old School Sweep (Defender) film study: Old school sweep from the lockdown, taught by The Jiu-Jitsu Foundry.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/c5aHZxvr2bk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/c5aHZxvr2bk",
+      "url": "https://www.youtube.com/watch?v=c5aHZxvr2bk",
+      "creator": { "@type": "Person", "name": "The Jiu-Jitsu Foundry" },
+      "duration": "PT33S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Old school half guard sweep breakdown",
+      "description": "Defend Old School Sweep (Defender) film study: Old school half guard sweep breakdown, taught by Wimbledon BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/IZ2UJ-IsRV0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/IZ2UJ-IsRV0",
+      "url": "https://www.youtube.com/watch?v=IZ2UJ-IsRV0",
+      "creator": { "@type": "Person", "name": "Wimbledon BJJ" },
+      "duration": "PT110S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Dogfight basics: Plan B and old school sweep",
+      "description": "Defend Old School Sweep (Defender) film study: Dogfight basics: Plan B and old school sweep, taught by Brandon McCaghren.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/fjDBmFzfhgI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/fjDBmFzfhgI",
+      "url": "https://www.youtube.com/watch?v=fjDBmFzfhgI",
+      "creator": { "@type": "Person", "name": "Brandon McCaghren" },
+      "duration": "PT145S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -159,6 +207,42 @@ The key insight for the defender is that the top player's defense is reactive an
 **Opponent's Starting Position**: [[Positions/Half Guard/Old School]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Defend Old School Sweep (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=c5aHZxvr2bk)
+
+<p class="clip-credit"><strong>Old school sweep from the lockdown</strong> — taught by The Jiu-Jitsu Foundry · 0:33 · <a href="https://www.youtube.com/watch?v=c5aHZxvr2bk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=IZ2UJ-IsRV0)
+
+<p class="clip-credit"><strong>Old school half guard sweep breakdown</strong> — taught by Wimbledon BJJ · 1:50 · <a href="https://www.youtube.com/watch?v=IZ2UJ-IsRV0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=fjDBmFzfhgI)
+
+<p class="clip-credit"><strong>Dogfight basics: Plan B and old school sweep</strong> — taught by Brandon McCaghren · 2:25 · <a href="https://www.youtube.com/watch?v=fjDBmFzfhgI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

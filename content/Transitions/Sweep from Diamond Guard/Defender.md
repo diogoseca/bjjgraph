@@ -148,6 +148,54 @@ description: "Learn to defend the Sweep from Diamond Guard in BJJ. Recognition c
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Sweep from Diamond Guard (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Defending and countering the overhook clamp guard",
+      "description": "Sweep from Diamond Guard (Defender) film study: Defending and countering the overhook clamp guard, taught by The Grappling Bloke.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/58LkTy6v3KQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/58LkTy6v3KQ",
+      "url": "https://www.youtube.com/watch?v=58LkTy6v3KQ",
+      "creator": { "@type": "Person", "name": "The Grappling Bloke" },
+      "duration": "PT109S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Posture to Break Closed Guard in Gi or No-Gi",
+      "description": "Sweep from Diamond Guard (Defender) film study: Posture to Break Closed Guard in Gi or No-Gi, taught by Jean Jacques Machado.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/IJx92rHqtfg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/IJx92rHqtfg",
+      "url": "https://www.youtube.com/watch?v=IJx92rHqtfg",
+      "creator": { "@type": "Person", "name": "Jean Jacques Machado" },
+      "duration": "PT190S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Recovering Posture and Opening Closed Guard vs Overhook",
+      "description": "Sweep from Diamond Guard (Defender) film study: Recovering Posture and Opening Closed Guard vs Overhook, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/RCnDWdAWXQs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/RCnDWdAWXQs",
+      "url": "https://www.youtube.com/watch?v=RCnDWdAWXQs",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT559S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +205,42 @@ Defending the Sweep from Diamond Guard requires recognizing the guard player's p
 **Opponent's Starting Position**: [[Positions/Closed Guard/Diamond Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Sweep from Diamond Guard (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=58LkTy6v3KQ)
+
+<p class="clip-credit"><strong>Defending and countering the overhook clamp guard</strong> — taught by The Grappling Bloke · 1:49 · <a href="https://www.youtube.com/watch?v=58LkTy6v3KQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=IJx92rHqtfg)
+
+<p class="clip-credit"><strong>Posture to Break Closed Guard in Gi or No-Gi</strong> — taught by Jean Jacques Machado · 3:10 · <a href="https://www.youtube.com/watch?v=IJx92rHqtfg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=RCnDWdAWXQs)
+
+<p class="clip-credit"><strong>Recovering Posture and Opening Closed Guard vs Overhook</strong> — taught by Lachlan Giles · 9:19 · <a href="https://www.youtube.com/watch?v=RCnDWdAWXQs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

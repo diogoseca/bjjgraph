@@ -34,6 +34,43 @@ description: "Master standing back control in BJJ. Strategic guide covering when
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Standing Back Control \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Standing Back Control",
+      "description": "Standing Back Control film study: Standing Back Control, taught by JFLOJUDO.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/K2Q1qg-cjTc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/K2Q1qg-cjTc",
+      "url": "https://www.youtube.com/watch?v=K2Q1qg-cjTc",
+      "creator": { "@type": "Person", "name": "JFLOJUDO" },
+      "duration": "PT58S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Mat Return from Standing Back Control",
+      "description": "Standing Back Control film study: Mat Return from Standing Back Control, taught by William Abreu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/HWrsepCcaUk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/HWrsepCcaUk",
+      "url": "https://www.youtube.com/watch?v=HWrsepCcaUk",
+      "creator": { "@type": "Person", "name": "William Abreu" },
+      "duration": "PT194S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -68,6 +105,34 @@ From the bottom perspective, Standing Back Control is one of the most vulnerable
 The position frequently occurs during scrambles, failed takedown attempts, successful back takes from standing positions, or as a transition from other standing clinch positions. Understanding both perspectives is essential for modern BJJ practitioners, as the position appears regularly in both gi and no-gi contexts, across all skill levels and competition formats. The strategic complexity lies in recognizing when to maintain standing control versus when to transition to grounded positions, and for the defensive player, how to survive immediate threats while working systematic escapes that minimize risk of ending in worse positions.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Standing Back Control in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=K2Q1qg-cjTc)
+
+<p class="clip-credit"><strong>Standing Back Control</strong> — taught by JFLOJUDO · 0:58 · <a href="https://www.youtube.com/watch?v=K2Q1qg-cjTc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=HWrsepCcaUk)
+
+<p class="clip-credit"><strong>Mat Return from Standing Back Control</strong> — taught by William Abreu · 3:14 · <a href="https://www.youtube.com/watch?v=HWrsepCcaUk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 
@@ -139,23 +204,23 @@ The position frequently occurs during scrambles, failed takedown attempts, succe
 ### Available Transitions
 
 
-- **[[Transitions/Hip Escape to Turtle/Attacker|Hip Escape to Turtle]]** (10% of attempts)
+- **[[Transitions/Hip Escape to Turtle/Attacker|Hip Escape to Turtle]]** (6% of attempts)
 
 - **[[Transitions/Rolling to Guard/Attacker|Rolling to Guard]]** (6% of attempts)
 
-- **[[Transitions/Granby Roll to Guard/Attacker|Granby Roll to Guard]]** (5% of attempts)
+- **[[Transitions/Granby Roll to Guard/Attacker|Granby Roll to Guard]]** (4% of attempts)
 
-- **[[Transitions/Grip Break and Face/Attacker|Grip Break and Face]]** (13% of attempts)
+- **[[Transitions/Grip Break and Face/Attacker|Grip Break and Face]]** (29% of attempts)
 
-- **[[Transitions/Controlled Descent/Attacker|Controlled Descent]]** (30% of attempts)
+- **[[Transitions/Controlled Descent/Attacker|Controlled Descent]]** (13% of attempts)
 
-- **[[Transitions/Explosive Forward Roll/Attacker|Explosive Forward Roll]]** (4% of attempts)
+- **[[Transitions/Explosive Forward Roll/Attacker|Explosive Forward Roll]]** (6% of attempts)
 
-- **[[Transitions/Turn In and Face/Attacker|Turn In and Face]]** (15% of attempts)
+- **[[Transitions/Turn In and Face/Attacker|Turn In and Face]]** (17% of attempts)
 
-- **[[Transitions/Arm Drag Escape/Attacker|Arm Drag Escape]]** (7% of attempts)
+- **[[Transitions/Arm Drag Escape/Attacker|Arm Drag Escape]]** (8% of attempts)
 
-- **[[Transitions/Standing up in Base/Attacker|Standing up in Base]]** (10% of attempts)
+- **[[Transitions/Standing up in Base/Attacker|Standing up in Base]]** (11% of attempts)
 
 
 ### Common Mistakes
@@ -216,27 +281,27 @@ The position frequently occurs during scrambles, failed takedown attempts, succe
 ### Available Transitions
 
 
-- **[[Rear Naked Choke from Standing Back Control/Attacker|Rear Naked Choke from Standing Back Control]]** (30% of attempts)
+- **[[Rear Naked Choke from Standing Back Control/Attacker|Rear Naked Choke from Standing Back Control]]** (11% of attempts)
 
-- **[[Transitions/Takedown to Grounded Back Control/Attacker|Takedown to Grounded Back Control]]** (18% of attempts)
+- **[[Transitions/Takedown to Grounded Back Control/Attacker|Takedown to Grounded Back Control]]** (21% of attempts)
 
-- **[[Transitions/Body Triangle Lock/Attacker|Body Triangle Lock]]** (7% of attempts)
+- **[[Transitions/Body Triangle Lock/Attacker|Body Triangle Lock]]** (6% of attempts)
 
-- **[[Transitions/Armbar from Back Transition/Attacker|Armbar from Back Transition]]** (9% of attempts)
+- **[[Transitions/Armbar from Back Transition/Attacker|Armbar from Back Transition]]** (1% of attempts)
 
-- **[[Transitions/Crucifix Transition/Attacker|Crucifix Transition]]** (7% of attempts)
+- **[[Transitions/Crucifix Transition/Attacker|Crucifix Transition]]** (1% of attempts)
 
-- **[[Transitions/Truck Position Entry/Attacker|Truck Position Entry]]** (5% of attempts)
+- **[[Transitions/Truck Position Entry/Attacker|Truck Position Entry]]** (3% of attempts)
 
 - **[[Transitions/Snap Down to Front Headlock/Attacker|Snap Down to Front Headlock]]** (4% of attempts)
 
-- **[[Transitions/Follow to Back Control/Attacker|Follow to Back Control]]** (9% of attempts)
+- **[[Transitions/Follow to Back Control/Attacker|Follow to Back Control]]** (16% of attempts)
 
-- **[[Transitions/Mat Return to Back Mount/Attacker|Mat Return to Back Mount]]** (7% of attempts)
+- **[[Transitions/Mat Return to Back Mount/Attacker|Mat Return to Back Mount]]** (21% of attempts)
 
-- **[[Transitions/Back Control to Seat Belt Control Back/Attacker|Back Control to Seat Belt Control Back]]** (2% of attempts)
+- **[[Transitions/Back Control to Seat Belt Control Back/Attacker|Back Control to Seat Belt Control Back]]** (16% of attempts)
 
-- **[[Transitions/Bow and Arrow Setup from Standing Back/Attacker|Bow and Arrow Setup from Standing Back]]** (2% of attempts)
+- **[[Transitions/Bow and Arrow Setup from Standing Back/Attacker|Bow and Arrow Setup from Standing Back]]** (0% of attempts)
 
 
 ### Common Mistakes

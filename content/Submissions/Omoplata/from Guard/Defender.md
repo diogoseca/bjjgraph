@@ -158,6 +158,43 @@ description: "How to defend against Omoplata from Guard in BJJ. Recognition, esc
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Omoplata from Guard (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Best Way to Escape the Omoplata Shoulder Lock",
+      "description": "Omoplata from Guard (Defender) film study: Best Way to Escape the Omoplata Shoulder Lock, taught by John Connors.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ocIHY3jBYIQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ocIHY3jBYIQ",
+      "url": "https://www.youtube.com/watch?v=ocIHY3jBYIQ",
+      "creator": { "@type": "Person", "name": "John Connors" },
+      "duration": "PT62S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Quick Omoplata Escape",
+      "description": "Omoplata from Guard (Defender) film study: Quick Omoplata Escape, taught by Adam Bradley.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/HszTUEYJ-xE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/HszTUEYJ-xE",
+      "url": "https://www.youtube.com/watch?v=HszTUEYJ-xE",
+      "creator": { "@type": "Person", "name": "Adam Bradley" },
+      "duration": "PT36S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -168,6 +205,34 @@ Defending the Omoplata from Guard requires early recognition, immediate posture 
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Omoplata from Guard (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ocIHY3jBYIQ)
+
+<p class="clip-credit"><strong>Best Way to Escape the Omoplata Shoulder Lock</strong> — taught by John Connors · 1:02 · <a href="https://www.youtube.com/watch?v=ocIHY3jBYIQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=HszTUEYJ-xE)
+
+<p class="clip-credit"><strong>Quick Omoplata Escape</strong> — taught by Adam Bradley · 0:36 · <a href="https://www.youtube.com/watch?v=HszTUEYJ-xE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

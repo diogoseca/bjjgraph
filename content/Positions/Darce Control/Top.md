@@ -21,13 +21,13 @@ description: "Master Darce Control Top in BJJ. Dominant front headlock variation
     {
       "@type": "HowToStep",
       "name": "Execute Darce Choke from Darce Control",
-      "text": "From this position, attempt Darce Choke from Darce Control. This technique is attempted in 53% of exchanges from this position.",
+      "text": "From this position, attempt Darce Choke from Darce Control. This technique is attempted in 34% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Turtle to Back Take",
-      "text": "From this position, attempt Turtle to Back Take. This technique is attempted in 17% of exchanges from this position.",
+      "text": "From this position, attempt Turtle to Back Take. This technique is attempted in 12% of exchanges from this position.",
       "position": 2
     },
     {
@@ -39,19 +39,19 @@ description: "Master Darce Control Top in BJJ. Dominant front headlock variation
     {
       "@type": "HowToStep",
       "name": "Execute Side Control to Mount",
-      "text": "From this position, attempt Side Control to Mount. This technique is attempted in 9% of exchanges from this position.",
+      "text": "From this position, attempt Side Control to Mount. This technique is attempted in 8% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Side Control to North-South",
-      "text": "From this position, attempt Side Control to North-South. This technique is attempted in 5% of exchanges from this position.",
+      "text": "From this position, attempt Side Control to North-South. This technique is attempted in 8% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Darce Control Maintenance",
-      "text": "From this position, attempt Darce Control Maintenance. This technique is attempted in 2% of exchanges from this position.",
+      "text": "From this position, attempt Darce Control Maintenance. This technique is attempted in 19% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -153,6 +153,54 @@ description: "Master Darce Control Top in BJJ. Dominant front headlock variation
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Darce Control (Top) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "3 darce choke finishes",
+      "description": "Darce Control (Top) film study: 3 darce choke finishes, taught by Bowerhouse MMA.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/pnLk6jW0qeI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/pnLk6jW0qeI",
+      "url": "https://www.youtube.com/watch?v=pnLk6jW0qeI",
+      "creator": { "@type": "Person", "name": "Bowerhouse MMA" },
+      "duration": "PT15S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Darce choke from the front headlock",
+      "description": "Darce Control (Top) film study: Darce choke from the front headlock, taught by Procel BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/BMU1_wfjYTw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/BMU1_wfjYTw",
+      "url": "https://www.youtube.com/watch?v=BMU1_wfjYTw",
+      "creator": { "@type": "Person", "name": "Procel BJJ" },
+      "duration": "PT101S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Finishing the darce on big guys",
+      "description": "Darce Control (Top) film study: Finishing the darce on big guys, taught by Rener \u0026 Ryron Gracie.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/8Idnp8DpSHU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/8Idnp8DpSHU",
+      "url": "https://www.youtube.com/watch?v=8Idnp8DpSHU",
+      "creator": { "@type": "Person", "name": "Rener \u0026 Ryron Gracie" },
+      "duration": "PT151S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -164,6 +212,42 @@ The Darce Control Top position emerged from wrestling's front headlock series an
 From a strategic perspective, Darce Control Top exemplifies the modern submission-hunting approach where positions blur the line between control and finish. The grip configuration allows for immediate submission attempts while maintaining the option to transition to mount, back control, or other dominant positions if the choke is defended. This versatility makes it one of the most feared positions in contemporary BJJ competition.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Darce Control (Top) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=pnLk6jW0qeI)
+
+<p class="clip-credit"><strong>3 darce choke finishes</strong> — taught by Bowerhouse MMA · 0:15 · <a href="https://www.youtube.com/watch?v=pnLk6jW0qeI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=BMU1_wfjYTw)
+
+<p class="clip-credit"><strong>Darce choke from the front headlock</strong> — taught by Procel BJJ · 1:41 · <a href="https://www.youtube.com/watch?v=BMU1_wfjYTw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=8Idnp8DpSHU)
+
+<p class="clip-credit"><strong>Finishing the darce on big guys</strong> — taught by Rener &amp; Ryron Gracie · 2:31 · <a href="https://www.youtube.com/watch?v=8Idnp8DpSHU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 
@@ -223,11 +307,11 @@ From a strategic perspective, Darce Control Top exemplifies the modern submissio
 
 **Else if opponent attempts to roll through or turn into the choke:**
 - Execute **[[Transitions/Turtle to Back Take/Attacker|Turtle to Back Take]]** → [[Positions/Back Control]] (Probability: 75%)
-- Execute **[[Transitions/Darce Choke/Attacker|Darce Choke]]** → [[game-over]] (Probability: 60%)
+- Execute **[[Submissions/Darce Choke/Attacker|Darce Choke]]** → [[game-over]] (Probability: 60%)
 
 
 **Else if opponent's defensive posture breaks down and arm remains trapped:**
-- Execute **[[Transitions/Darce Choke/Attacker|Darce Choke]]** → [[game-over]] (Probability: 80%)
+- Execute **[[Submissions/Darce Choke/Attacker|Darce Choke]]** → [[game-over]] (Probability: 80%)
 - Execute **[[Transitions/Anaconda from Turtle/Attacker|Anaconda from Turtle]]** → [[Positions/Anaconda Control]] (Probability: 55%)
 
 
@@ -332,7 +416,7 @@ Start from front headlock or turtle positions and work to establish darce contro
 - **[[Positions/Darce Control]]** - Hub position covering both perspectives
 - **[[Positions/Front Headlock]]** - Precursor position and common entry point
 - **[[Positions/Anaconda Control]]** - Similar position with alternative front headlock choke configuration
-- **[[Transitions/Darce Choke]]** - Primary submission finishing technique from this position
+- **[[Submissions/Darce Choke]]** - Primary submission finishing technique from this position
 - **[[Positions/Turtle]]** - Common preceding position where darce opportunities arise
 - **[[Positions/Mount]]** - Positional advancement when choke is defended
 - **[[Positions/Back Control]]** - High-percentage transition when opponent rolls to escape

@@ -35,6 +35,54 @@ description: "Master the Hip Bump Sweep from Closed Guard. Step-by-step executio
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Hip Bump Sweep \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Hip bump sweep from closed guard",
+      "description": "Hip Bump Sweep film study: Hip bump sweep from closed guard, taught by Todd Hendrickson.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/h8_sHO2W44Q/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/h8_sHO2W44Q",
+      "url": "https://www.youtube.com/watch?v=h8_sHO2W44Q",
+      "creator": { "@type": "Person", "name": "Todd Hendrickson" },
+      "duration": "PT44S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Hip bump sweep competition details",
+      "description": "Hip Bump Sweep film study: Hip bump sweep competition details, taught by Grand Union Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/O1hBu9yZkX0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/O1hBu9yZkX0",
+      "url": "https://www.youtube.com/watch?v=O1hBu9yZkX0",
+      "creator": { "@type": "Person", "name": "Grand Union Jiu Jitsu" },
+      "duration": "PT38S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Hip bump sweep and follow-up submissions",
+      "description": "Hip Bump Sweep film study: Hip bump sweep and follow-up submissions, taught by Alex Humen.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/kGjbaMDs65g/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/kGjbaMDs65g",
+      "url": "https://www.youtube.com/watch?v=kGjbaMDs65g",
+      "creator": { "@type": "Person", "name": "Alex Humen" },
+      "duration": "PT56S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -70,9 +118,45 @@ The beauty of the Hip Bump Sweep lies in its versatility and chain attack potent
 The Hip Bump Sweep is also an excellent technique for developing timing, hip mobility, and the ability to off-balance opponents. It teaches practitioners to feel weight distribution and exploit moments of vulnerability. While beginners often struggle with the explosive hip movement and timing required, intermediate and advanced practitioners can execute this sweep with remarkable consistency, especially when integrated into a comprehensive guard attack system.
 
 **From Position**: [[Positions/Closed Guard]] (Bottom)
-**Success Rate**: 60%
+**Success Rate**: 32%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Hip Bump Sweep in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=h8_sHO2W44Q)
+
+<p class="clip-credit"><strong>Hip bump sweep from closed guard</strong> — taught by Todd Hendrickson · 0:44 · <a href="https://www.youtube.com/watch?v=h8_sHO2W44Q" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=O1hBu9yZkX0)
+
+<p class="clip-credit"><strong>Hip bump sweep competition details</strong> — taught by Grand Union Jiu Jitsu · 0:38 · <a href="https://www.youtube.com/watch?v=O1hBu9yZkX0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=kGjbaMDs65g)
+
+<p class="clip-credit"><strong>Hip bump sweep and follow-up submissions</strong> — taught by Alex Humen · 0:56 · <a href="https://www.youtube.com/watch?v=kGjbaMDs65g" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 
@@ -242,7 +326,7 @@ The Hip Bump Sweep is part of the fundamental closed guard attack system and ser
 
 - [[Transitions/Kimura Sweep]] - Primary chain attack - used when opponent posts to defend Hip Bump, transitioning to Kimura grip
 
-- [[Transitions/Guillotine Choke]] - Secondary chain attack - used when opponent pulls arm back to defend Kimura
+- [[Submissions/Guillotine Choke]] - Secondary chain attack - used when opponent pulls arm back to defend Kimura
 
 - [[Transitions/Scissor Sweep]] - Alternative sweep from closed guard with different mechanics and timing
 

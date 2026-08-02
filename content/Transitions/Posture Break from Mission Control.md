@@ -34,6 +34,54 @@ description: "Master the posture break from Mission Control in BJJ. Learn to dis
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Posture Break from Mission Control \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Mission Control to Zombie and Double Bag attacks",
+      "description": "Posture Break from Mission Control film study: Mission Control to Zombie and Double Bag attacks, taught by 10th Planet Orange Park.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/5fJM5bIk8Fw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/5fJM5bIk8Fw",
+      "url": "https://www.youtube.com/watch?v=5fJM5bIk8Fw",
+      "creator": { "@type": "Person", "name": "10th Planet Orange Park" },
+      "duration": "PT108S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Eddie Bravo explains the Rubber Guard",
+      "description": "Posture Break from Mission Control film study: Eddie Bravo explains the Rubber Guard, taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/h1XzZDsUxHQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/h1XzZDsUxHQ",
+      "url": "https://www.youtube.com/watch?v=h1XzZDsUxHQ",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT111S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Rubber Guard posture break and set up",
+      "description": "Posture Break from Mission Control film study: Rubber Guard posture break and set up, taught by Basingstoke School of Martial Arts.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/uLFo6zhZU7o/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/uLFo6zhZU7o",
+      "url": "https://www.youtube.com/watch?v=uLFo6zhZU7o",
+      "creator": { "@type": "Person", "name": "Basingstoke School of Martial Arts" },
+      "duration": "PT217S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ The success of this technique depends heavily on preparation and awareness. The 
 **Success Rate**: 45%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Posture Break from Mission Control in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=5fJM5bIk8Fw)
+
+<p class="clip-credit"><strong>Mission Control to Zombie and Double Bag attacks</strong> — taught by 10th Planet Orange Park · 1:48 · <a href="https://www.youtube.com/watch?v=5fJM5bIk8Fw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=h1XzZDsUxHQ)
+
+<p class="clip-credit"><strong>Eddie Bravo explains the Rubber Guard</strong> — taught by Eddie Bravo · 1:51 · <a href="https://www.youtube.com/watch?v=h1XzZDsUxHQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=uLFo6zhZU7o)
+
+<p class="clip-credit"><strong>Rubber Guard posture break and set up</strong> — taught by Basingstoke School of Martial Arts · 3:37 · <a href="https://www.youtube.com/watch?v=uLFo6zhZU7o" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

@@ -148,6 +148,43 @@ description: "Defensive guide for surviving and escaping the Gift Wrap from Back
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Gift Wrap from Back (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Back escape with the arm trapped",
+      "description": "Gift Wrap from Back (Defender) film study: Back escape with the arm trapped, taught by Skyhook Martial Arts.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/B_kiu8SIRRc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/B_kiu8SIRRc",
+      "url": "https://www.youtube.com/watch?v=B_kiu8SIRRc",
+      "creator": { "@type": "Person", "name": "Skyhook Martial Arts" },
+      "duration": "PT40S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Basic back control escape",
+      "description": "Gift Wrap from Back (Defender) film study: Basic back control escape, taught by AMAZIN BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/jv_nitah_-s/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/jv_nitah_-s",
+      "url": "https://www.youtube.com/watch?v=jv_nitah_-s",
+      "creator": { "@type": "Person", "name": "AMAZIN BJJ" },
+      "duration": "PT41S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +194,34 @@ As the defender against the Gift Wrap from Back, you face a critical moment wher
 **Opponent's Starting Position**: [[Positions/Back Control]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Gift Wrap from Back (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=B_kiu8SIRRc)
+
+<p class="clip-credit"><strong>Back escape with the arm trapped</strong> — taught by Skyhook Martial Arts · 0:40 · <a href="https://www.youtube.com/watch?v=B_kiu8SIRRc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=jv_nitah_-s)
+
+<p class="clip-credit"><strong>Basic back control escape</strong> — taught by AMAZIN BJJ · 0:41 · <a href="https://www.youtube.com/watch?v=jv_nitah_-s" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

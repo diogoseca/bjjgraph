@@ -174,6 +174,43 @@ description: "Execute the Escape from Rodeo Ride in BJJ. Step-by-step guide to d
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Escape from Rodeo Ride (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Reversing Opponents From Turtle",
+      "description": "Escape from Rodeo Ride (Attacker) film study: Reversing Opponents From Turtle, taught by Craig Jones.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/VnkfgTfdMio/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/VnkfgTfdMio",
+      "url": "https://www.youtube.com/watch?v=VnkfgTfdMio",
+      "creator": { "@type": "Person", "name": "Craig Jones" },
+      "duration": "PT693S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Attacking and escaping from bottom turtle",
+      "description": "Escape from Rodeo Ride (Attacker) film study: Attacking and escaping from bottom turtle, taught by Grappling Instructionals.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/sSGaeoVvcwk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/sSGaeoVvcwk",
+      "url": "https://www.youtube.com/watch?v=sSGaeoVvcwk",
+      "creator": { "@type": "Person", "name": "Grappling Instructionals" },
+      "duration": "PT39S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -183,6 +220,34 @@ As the bottom practitioner trapped in Rodeo Ride, your primary objective is to s
 **From Position**: [[Positions/Rodeo Ride]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Escape from Rodeo Ride (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=VnkfgTfdMio)
+
+<p class="clip-credit"><strong>Reversing Opponents From Turtle</strong> — taught by Craig Jones · 11:33 · <a href="https://www.youtube.com/watch?v=VnkfgTfdMio" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=sSGaeoVvcwk)
+
+<p class="clip-credit"><strong>Attacking and escaping from bottom turtle</strong> — taught by Grappling Instructionals · 0:39 · <a href="https://www.youtube.com/watch?v=sSGaeoVvcwk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

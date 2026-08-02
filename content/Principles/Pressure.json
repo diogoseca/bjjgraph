@@ -374,43 +374,172 @@
   "flashcards": [
     {
       "question": "What distinguishes effective pressure from simply being heavy on an opponent?",
-      "answer": "Effective pressure directs bodyweight perpendicular to the opponent's skeletal structure through specific connection points, collapsing their frames; merely being heavy spreads diffuse weight that a defender can absorb and manage without losing structure."
+      "answer": "Effective pressure directs bodyweight perpendicular to the opponent's skeletal structure through specific connection points, collapsing their frames; merely being heavy spreads diffuse weight that a defender can absorb and manage without losing structure.",
+      "answer_line": "Perpendicular pressure on skeleton",
+      "distractors": {
+        "plausible": [
+          "Applying more total bodyweight",
+          "Pressing straight down with weight"
+        ],
+        "trap": [
+          "Spreading weight evenly across body"
+        ]
+      }
     },
     {
       "question": "Why should pressure be generated through skeletal positioning rather than muscular tension?",
-      "answer": "Muscular pressure fatigues the attacker faster than the defender, reversing the energy dynamic; skeletal alignment, hip placement, and gravity create heavy pressure that can be sustained almost indefinitely with minimal energy expenditure."
+      "answer": "Muscular pressure fatigues the attacker faster than the defender, reversing the energy dynamic; skeletal alignment, hip placement, and gravity create heavy pressure that can be sustained almost indefinitely with minimal energy expenditure.",
+      "answer_line": "Skeletal alignment, not muscle",
+      "distractors": {
+        "plausible": [
+          "Squeezing hard with arm muscles",
+          "Using core strength to press down"
+        ],
+        "trap": [
+          "Maximum muscular tension throughout"
+        ]
+      }
     },
     {
       "question": "What is the most common pressure mistake during transitions, and how is it corrected?",
-      "answer": "Practitioners release all pressure at once, giving the opponent a recovery window; the fix is to transfer pressure sequentially between connection points, establishing the next contact before releasing the previous so pressure overlaps and never fully lifts."
+      "answer": "Practitioners release all pressure at once, giving the opponent a recovery window; the fix is to transfer pressure sequentially between connection points, establishing the next contact before releasing the previous so pressure overlaps and never fully lifts.",
+      "answer_line": "Keep pressure overlapping always",
+      "distractors": {
+        "plausible": [
+          "Release pressure, then reposition",
+          "Move quickly between positions"
+        ],
+        "trap": [
+          "Release all pressure, then move"
+        ]
+      }
     },
     {
       "question": "How does perpendicular force application increase pressure effectiveness?",
-      "answer": "Directing force at roughly ninety degrees to the opponent's bones denies them structural support and maximizes the collapsing effect on their frames; pressure applied parallel to their structure lets them resist with skeletal strength."
+      "answer": "Directing force at roughly ninety degrees to the opponent's bones denies them structural support and maximizes the collapsing effect on their frames; pressure applied parallel to their structure lets them resist with skeletal strength.",
+      "answer_line": "Denies structural support",
+      "distractors": {
+        "plausible": [
+          "Pushes along their skeleton line",
+          "Applies force straight down"
+        ],
+        "trap": [
+          "Pressure parallel to their spine"
+        ]
+      }
     },
     {
       "question": "Why is concentrating pressure on 2-3 key points better than spreading it everywhere?",
-      "answer": "Diffuse pressure across many contacts yields insufficient intensity anywhere, so the opponent manages it easily; concentrating force through primary targets like the crossface, chest, or hips creates intensity high enough to genuinely restrict and break down defenses."
+      "answer": "Diffuse pressure across many contacts yields insufficient intensity anywhere, so the opponent manages it easily; concentrating force through primary targets like the crossface, chest, or hips creates intensity high enough to genuinely restrict and break down defenses.",
+      "answer_line": "Concentrated force breaks defense",
+      "distractors": {
+        "plausible": [
+          "Focus pressure on the far hip",
+          "Rotate pressure to stay comfortable"
+        ],
+        "trap": [
+          "Distribute weight over many points"
+        ]
+      }
     },
     {
       "question": "What role does breathing restriction play in pressure-based control?",
-      "answer": "Sustained chest and shoulder compression on the diaphragm and ribcage makes breathing labored, accelerating fatigue and creating psychological urgency that pushes the opponent into rushed, technically flawed escape attempts."
+      "answer": "Sustained chest and shoulder compression on the diaphragm and ribcage makes breathing labored, accelerating fatigue and creating psychological urgency that pushes the opponent into rushed, technically flawed escape attempts.",
+      "answer_line": "Restricted breathing rushes mistakes",
+      "distractors": {
+        "plausible": [
+          "Tires opponent through hard grips",
+          "Slows opponent's overall movement"
+        ],
+        "trap": [
+          "Choke pressure to force a tap"
+        ]
+      }
     },
     {
       "question": "How should pressure intensity change in response to an opponent's defensive reactions?",
-      "answer": "Pressure should be modulated dynamically: increased to crush attempts to create space, redirected to exploit newly opened vulnerabilities, and occasionally eased to bait a specific reaction, rather than held static, which lets the opponent adapt and counter."
+      "answer": "Pressure should be modulated dynamically: increased to crush attempts to create space, redirected to exploit newly opened vulnerabilities, and occasionally eased to bait a specific reaction, rather than held static, which lets the opponent adapt and counter.",
+      "answer_line": "Adjust pressure to their reactions",
+      "distractors": {
+        "plausible": [
+          "Keep pressure constant and steady",
+          "Ease off once they start defending"
+        ],
+        "trap": [
+          "Hold pressure at max the whole time"
+        ]
+      }
     },
     {
       "question": "Why must pressure be balanced against base stability?",
-      "answer": "Overcommitting weight forward to maximize pressure compromises base integrity and exposes the attacker to bridges, sweeps, and rolls; keeping a meaningful share of weight toward base points preserves stability while still applying heavy pressure."
+      "answer": "Overcommitting weight forward to maximize pressure compromises base integrity and exposes the attacker to bridges, sweeps, and rolls; keeping a meaningful share of weight toward base points preserves stability while still applying heavy pressure.",
+      "answer_line": "Too much forward weight risks sweeps",
+      "distractors": {
+        "plausible": [
+          "Keep weight low and centered",
+          "Widen base, reduce pressure"
+        ],
+        "trap": [
+          "Commit all weight forward always"
+        ]
+      }
     },
     {
       "question": "What is a pressure dilemma, and why is it an advanced application?",
-      "answer": "A pressure dilemma uses sustained force to funnel the opponent into choosing between multiple unfavorable responses where every defensive option worsens their position; it marks pressure's evolution from a simple control mechanism into a decision-forcing tactical tool."
+      "answer": "A pressure dilemma uses sustained force to funnel the opponent into choosing between multiple unfavorable responses where every defensive option worsens their position; it marks pressure's evolution from a simple control mechanism into a decision-forcing tactical tool.",
+      "answer_line": "Forces a choice between bad options",
+      "distractors": {
+        "plausible": [
+          "Forces one specific escape route",
+          "Overwhelms with brute strength"
+        ],
+        "trap": [
+          "Locks position and waits it out"
+        ]
+      }
     },
     {
       "question": "At an expert level, how does pressure function as a primary offensive weapon?",
-      "answer": "Expert practitioners systematically break down even high-level defensive structures through pressure alone, forcing escapes or submissions without traditional attacking sequences, all while appearing relaxed and using minimal visible effort."
+      "answer": "Expert practitioners systematically break down even high-level defensive structures through pressure alone, forcing escapes or submissions without traditional attacking sequences, all while appearing relaxed and using minimal visible effort.",
+      "answer_line": "Breaks defense alone, looks relaxed",
+      "distractors": {
+        "plausible": [
+          "Combines pressure with fast attacks",
+          "Uses visible strength and effort"
+        ],
+        "trap": [
+          "Tenses up and grinds forcefully"
+        ]
+      }
+    }
+  ],
+  "clips": [
+    {
+      "id": "E80mUDnD1mo",
+      "title": "Adding smashing top pressure with bodyweight",
+      "by": "Nick Albin",
+      "vertical": false,
+      "channel": "Chewjitsu",
+      "duration": 411,
+      "verified": "2026-07-15"
+    },
+    {
+      "id": "44xq78i6fcU",
+      "title": "Creating heavy top pressure through bodyweight",
+      "by": "Nick Albin",
+      "vertical": false,
+      "channel": "Chewjitsu",
+      "duration": 380,
+      "verified": "2026-07-15"
+    },
+    {
+      "id": "m85SzGvZe1Q",
+      "title": "How to apply pressure like a heavyweight",
+      "by": "Matt Arroyo",
+      "vertical": false,
+      "channel": "Matt Arroyo Jiu Jitsu ",
+      "duration": 96,
+      "verified": "2026-07-15"
     }
   ]
 }

@@ -21,19 +21,19 @@ description: "Master Gift Wrap control from top in BJJ. Complete guide covering 
     {
       "@type": "HowToStep",
       "name": "Execute Rear Naked Choke from Gift Wrap",
-      "text": "From this position, attempt Rear Naked Choke from Gift Wrap. This technique is attempted in 30% of exchanges from this position.",
+      "text": "From this position, attempt Rear Naked Choke from Gift Wrap. This technique is attempted in 25% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Armbar on Free Arm",
-      "text": "From this position, attempt Armbar on Free Arm. This technique is attempted in 8% of exchanges from this position.",
+      "text": "From this position, attempt Armbar on Free Arm. This technique is attempted in 7% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Gift Wrap to Technical Mount",
-      "text": "From this position, attempt Gift Wrap to Technical Mount. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Gift Wrap to Technical Mount. This technique is attempted in 13% of exchanges from this position.",
       "position": 3
     },
     {
@@ -45,13 +45,13 @@ description: "Master Gift Wrap control from top in BJJ. Complete guide covering 
     {
       "@type": "HowToStep",
       "name": "Execute Bow and Arrow Choke Setup",
-      "text": "From this position, attempt Bow and Arrow Choke Setup. This technique is attempted in 5% of exchanges from this position.",
+      "text": "From this position, attempt Bow and Arrow Choke Setup. This technique is attempted in 0% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Body Triangle Lock",
-      "text": "From this position, attempt Body Triangle Lock. This technique is attempted in 6% of exchanges from this position.",
+      "text": "From this position, attempt Body Triangle Lock. This technique is attempted in 10% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -153,6 +153,54 @@ description: "Master Gift Wrap control from top in BJJ. Complete guide covering 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Gift Wrap (Top) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Taking the back from the gift wrap",
+      "description": "Gift Wrap (Top) film study: Taking the back from the gift wrap, taught by Henry Akins.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/eKTd-9SkrVk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/eKTd-9SkrVk",
+      "url": "https://www.youtube.com/watch?v=eKTd-9SkrVk",
+      "creator": { "@type": "Person", "name": "Henry Akins" },
+      "duration": "PT81S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Mount to gift wrap to tap",
+      "description": "Gift Wrap (Top) film study: Mount to gift wrap to tap, taught by Henry Akins.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/X3yIMfhGHnk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/X3yIMfhGHnk",
+      "url": "https://www.youtube.com/watch?v=X3yIMfhGHnk",
+      "creator": { "@type": "Person", "name": "Henry Akins" },
+      "duration": "PT92S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Side control sit back, gift wrap to back",
+      "description": "Gift Wrap (Top) film study: Side control sit back, gift wrap to back, taught by Watauga BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/-ypj83J2Ngk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/-ypj83J2Ngk",
+      "url": "https://www.youtube.com/watch?v=-ypj83J2Ngk",
+      "creator": { "@type": "Person", "name": "Watauga BJJ" },
+      "duration": "PT24S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -168,6 +216,42 @@ The Gift Wrap requires technical precision in its establishment and maintenance.
 Understanding Gift Wrap Top requires recognizing it as part of a larger submission system rather than a destination position. The arm trap creates opportunities but also requires active pressure and offensive action. Maintaining the Gift Wrap indefinitely without attacking allows the defender time to develop defensive solutions or for the referee to intervene for stalling. The position demands a balance between patient control and aggressive submission hunting.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Gift Wrap (Top) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=eKTd-9SkrVk)
+
+<p class="clip-credit"><strong>Taking the back from the gift wrap</strong> — taught by Henry Akins · 1:21 · <a href="https://www.youtube.com/watch?v=eKTd-9SkrVk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=X3yIMfhGHnk)
+
+<p class="clip-credit"><strong>Mount to gift wrap to tap</strong> — taught by Henry Akins · 1:32 · <a href="https://www.youtube.com/watch?v=X3yIMfhGHnk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=-ypj83J2Ngk)
+
+<p class="clip-credit"><strong>Side control sit back, gift wrap to back</strong> — taught by Watauga BJJ · 0:24 · <a href="https://www.youtube.com/watch?v=-ypj83J2Ngk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

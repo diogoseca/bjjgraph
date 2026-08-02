@@ -168,6 +168,54 @@ description: "How to execute Anaconda Choke in BJJ. Attacking perspective with s
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Anaconda Choke (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Anaconda choke fundamentals",
+      "description": "Anaconda Choke (Attacker) film study: Anaconda choke fundamentals, taught by Ninja Pinto.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/RbkOnRb2lvA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/RbkOnRb2lvA",
+      "url": "https://www.youtube.com/watch?v=RbkOnRb2lvA",
+      "creator": { "@type": "Person", "name": "Ninja Pinto" },
+      "duration": "PT49S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Difference between the anaconda and d\u0027arce choke",
+      "description": "Anaconda Choke (Attacker) film study: Difference between the anaconda and d\u0027arce choke, taught by Matt Arroyo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/6d6Wkgh9imU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/6d6Wkgh9imU",
+      "url": "https://www.youtube.com/watch?v=6d6Wkgh9imU",
+      "creator": { "@type": "Person", "name": "Matt Arroyo" },
+      "duration": "PT67S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Sneaky anaconda submission entry",
+      "description": "Anaconda Choke (Attacker) film study: Sneaky anaconda submission entry, taught by The Grapple Club coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/PGZUu6JbtDA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/PGZUu6JbtDA",
+      "url": "https://www.youtube.com/watch?v=PGZUu6JbtDA",
+      "creator": { "@type": "Person", "name": "The Grapple Club coach" },
+      "duration": "PT89S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -181,6 +229,42 @@ Strategically, the anaconda excels when opponents shoot takedowns or turn into y
 **From Position**: [[Positions/Front Headlock]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Anaconda Choke (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=RbkOnRb2lvA)
+
+<p class="clip-credit"><strong>Anaconda choke fundamentals</strong> — taught by Ninja Pinto · 0:49 · <a href="https://www.youtube.com/watch?v=RbkOnRb2lvA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=6d6Wkgh9imU)
+
+<p class="clip-credit"><strong>Difference between the anaconda and d&#39;arce choke</strong> — taught by Matt Arroyo · 1:07 · <a href="https://www.youtube.com/watch?v=6d6Wkgh9imU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=PGZUu6JbtDA)
+
+<p class="clip-credit"><strong>Sneaky anaconda submission entry</strong> — taught by The Grapple Club coach · 1:29 · <a href="https://www.youtube.com/watch?v=PGZUu6JbtDA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

@@ -21,37 +21,37 @@ description: "Master Pocket Half Guard Bottom in BJJ. Deep underhook half guard 
     {
       "@type": "HowToStep",
       "name": "Execute Old School Sweep",
-      "text": "From this position, attempt Old School Sweep. This technique is attempted in 43% of exchanges from this position.",
+      "text": "From this position, attempt Old School Sweep. This technique is attempted in 12% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Deep Half Entry",
-      "text": "From this position, attempt Deep Half Entry. This technique is attempted in 17% of exchanges from this position.",
+      "text": "From this position, attempt Deep Half Entry. This technique is attempted in 6% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Half Guard to Back Take",
-      "text": "From this position, attempt Half Guard to Back Take. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt Half Guard to Back Take. This technique is attempted in 17% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Underhook Sweep from Half",
-      "text": "From this position, attempt Underhook Sweep from Half. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Underhook Sweep from Half. This technique is attempted in 13% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Electric Chair Transition",
-      "text": "From this position, attempt Electric Chair Transition. This technique is attempted in 7% of exchanges from this position.",
+      "text": "From this position, attempt Electric Chair Transition. This technique is attempted in 6% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Roll to Truck",
-      "text": "From this position, attempt Roll to Truck. This technique is attempted in 4% of exchanges from this position.",
+      "text": "From this position, attempt Roll to Truck. This technique is attempted in 5% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -153,6 +153,54 @@ description: "Master Pocket Half Guard Bottom in BJJ. Deep underhook half guard 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Pocket Half Guard (Bottom) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Roger windmill half guard sweep",
+      "description": "Pocket Half Guard (Bottom) film study: Roger windmill half guard sweep, taught by SBG Australia.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/X3M6JUqr1Bo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/X3M6JUqr1Bo",
+      "url": "https://www.youtube.com/watch?v=X3M6JUqr1Bo",
+      "creator": { "@type": "Person", "name": "SBG Australia" },
+      "duration": "PT16S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Forcing Half Guard: Clearing the Line of Feet",
+      "description": "Pocket Half Guard (Bottom) film study: Forcing Half Guard: Clearing the Line of Feet, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/kw8cs6soC8M/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/kw8cs6soC8M",
+      "url": "https://www.youtube.com/watch?v=kw8cs6soC8M",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT88S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Half Guard Entries to Switch Base",
+      "description": "Pocket Half Guard (Bottom) film study: Half Guard Entries to Switch Base, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/9Z9TSmFppbM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/9Z9TSmFppbM",
+      "url": "https://www.youtube.com/watch?v=9Z9TSmFppbM",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT70S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -164,6 +212,42 @@ The position gained prominence through the 10th Planet system and has been refin
 Pocket Half Guard Bottom is particularly effective against opponents who favor heavy pressure passing or who attempt to flatten you in half guard. The deep underhook and hip frame prevent them from establishing chest-to-chest pressure, while the leg configuration maintains enough space to generate hip movement and rotational power for sweeps. Advanced practitioners use this position as a launching point for the Old School Sweep, back-takes, and transitions to Deep Half Guard or X-Guard variations.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Pocket Half Guard (Bottom) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=X3M6JUqr1Bo)
+
+<p class="clip-credit"><strong>Roger windmill half guard sweep</strong> — taught by SBG Australia · 0:16 · <a href="https://www.youtube.com/watch?v=X3M6JUqr1Bo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=kw8cs6soC8M)
+
+<p class="clip-credit"><strong>Forcing Half Guard: Clearing the Line of Feet</strong> — taught by Lachlan Giles · 1:28 · <a href="https://www.youtube.com/watch?v=kw8cs6soC8M" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=9Z9TSmFppbM)
+
+<p class="clip-credit"><strong>Half Guard Entries to Switch Base</strong> — taught by Lachlan Giles · 1:10 · <a href="https://www.youtube.com/watch?v=9Z9TSmFppbM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

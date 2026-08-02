@@ -148,6 +148,43 @@ description: "Defend against heel hook escape attempts from Honey Hole top. Cont
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Heel Hook Defense Escape (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Heel hook from outside ashi garami",
+      "description": "Heel Hook Defense Escape (Defender) film study: Heel hook from outside ashi garami, taught by Craig Jones.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/m4sGDhukUmk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/m4sGDhukUmk",
+      "url": "https://www.youtube.com/watch?v=m4sGDhukUmk",
+      "creator": { "@type": "Person", "name": "Craig Jones" },
+      "duration": "PT141S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Proper heel hook and preventing the escape",
+      "description": "Heel Hook Defense Escape (Defender) film study: Proper heel hook and preventing the escape, taught by Pantera Jiujitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ZqkMQMUoL6w/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ZqkMQMUoL6w",
+      "url": "https://www.youtube.com/watch?v=ZqkMQMUoL6w",
+      "creator": { "@type": "Person", "name": "Pantera Jiujitsu" },
+      "duration": "PT154S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +194,34 @@ As the Honey Hole top player, your opponent is attempting to escape your inside 
 **Opponent's Starting Position**: [[Positions/Ashi Garami/Cross Ashi-Garami]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Heel Hook Defense Escape (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=m4sGDhukUmk)
+
+<p class="clip-credit"><strong>Heel hook from outside ashi garami</strong> — taught by Craig Jones · 2:21 · <a href="https://www.youtube.com/watch?v=m4sGDhukUmk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ZqkMQMUoL6w)
+
+<p class="clip-credit"><strong>Proper heel hook and preventing the escape</strong> — taught by Pantera Jiujitsu · 2:34 · <a href="https://www.youtube.com/watch?v=ZqkMQMUoL6w" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

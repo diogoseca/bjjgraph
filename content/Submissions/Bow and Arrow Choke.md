@@ -34,6 +34,65 @@ description: "Master the Bow and Arrow Choke in BJJ. Complete guide with safety 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Bow and Arrow Choke \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Bow and Arrow Choke from Back Control",
+      "description": "Bow and Arrow Choke film study: Bow and Arrow Choke from Back Control, taught by Evolve MMA.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/xqNhZVNhxnE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/xqNhZVNhxnE",
+      "url": "https://www.youtube.com/watch?v=xqNhZVNhxnE",
+      "creator": { "@type": "Person", "name": "Evolve MMA" },
+      "duration": "PT45S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Bow and Arrow Choke",
+      "description": "Bow and Arrow Choke film study: Bow and Arrow Choke, taught by Helena Crevar.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/rc77idEskwo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/rc77idEskwo",
+      "url": "https://www.youtube.com/watch?v=rc77idEskwo",
+      "creator": { "@type": "Person", "name": "Helena Crevar" },
+      "duration": "PT55S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Bow and Arrow Choke from the Back",
+      "description": "Bow and Arrow Choke film study: Bow and Arrow Choke from the Back, taught by Procel BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/vlydEGpl50k/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/vlydEGpl50k",
+      "url": "https://www.youtube.com/watch?v=vlydEGpl50k",
+      "creator": { "@type": "Person", "name": "Procel BJJ" },
+      "duration": "PT52S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 4,
+      "name": "Bow \u0026 Arrow Choke",
+      "description": "Bow and Arrow Choke film study: Bow \u0026 Arrow Choke, taught by Gracie Barra.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/R5LFNqtx1ps/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/R5LFNqtx1ps",
+      "url": "https://www.youtube.com/watch?v=R5LFNqtx1ps",
+      "creator": { "@type": "Person", "name": "Gracie Barra" },
+      "duration": "PT66S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -53,7 +112,7 @@ description: "Master the Bow and Arrow Choke in BJJ. Complete guide with safety 
   "@type": "FAQPage",
   "mainEntity": [
     { "@type": "Question", "name": "What is the Bow and Arrow Choke?", "acceptedAnswer": { "@type": "Answer", "text": "The Bow and Arrow Choke is a gi blood choke from back control in which you grip the opponent\u0027s collar and pull their leg in the opposite direction, drawing your body like a bow to compress both carotid arteries." } },
-    { "@type": "Question", "name": "What positions can you finish the Bow and Arrow Choke from?", "acceptedAnswer": { "@type": "Answer", "text": "You can finish the Bow and Arrow Choke from Back Control, Body Triangle, Harness, Invisible Collar, Rear Triangle, Rodeo Ride, Russian Cowboy, Seat Belt Control Back, Truck." } },
+    { "@type": "Question", "name": "What positions can you finish the Bow and Arrow Choke from?", "acceptedAnswer": { "@type": "Answer", "text": "You can finish the Bow and Arrow Choke from Back Control, Body Triangle, Harness, Rear Triangle, Seat Belt Control Back, Invisible Collar, Rodeo Ride, Truck, Russian Cowboy." } },
     { "@type": "Question", "name": "Is the Bow and Arrow Choke dangerous?", "acceptedAnswer": { "@type": "Answer", "text": "Bow and Arrow Choke targets the Carotid arteries. Primary risk: Carotid artery compression leading to unconsciousness. Tap early and release immediately on the tap." } }
   ]
 }
@@ -85,6 +144,50 @@ The Bow and Arrow Choke is a highly effective gi-based blood choke executed from
 </section>
 
 
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Bow and Arrow Choke in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=xqNhZVNhxnE)
+
+<p class="clip-credit"><strong>Bow and Arrow Choke from Back Control</strong> — taught by Evolve MMA · 0:45 · <a href="https://www.youtube.com/watch?v=xqNhZVNhxnE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=rc77idEskwo)
+
+<p class="clip-credit"><strong>Bow and Arrow Choke</strong> — taught by Helena Crevar · 0:55 · <a href="https://www.youtube.com/watch?v=rc77idEskwo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=vlydEGpl50k)
+
+<p class="clip-credit"><strong>Bow and Arrow Choke from the Back</strong> — taught by Procel BJJ · 0:52 · <a href="https://www.youtube.com/watch?v=vlydEGpl50k" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=R5LFNqtx1ps)
+
+<p class="clip-credit"><strong>Bow &amp; Arrow Choke</strong> — taught by Gracie Barra · 1:06 · <a href="https://www.youtube.com/watch?v=R5LFNqtx1ps" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
+
+
 <section id="variants" class="content-section">
 
 ## What positions can you finish from?
@@ -94,15 +197,15 @@ The Bow and Arrow Choke is a highly effective gi-based blood choke executed from
 
 | From Position | Seat | Success | Play as Attacker | Play as Defender |
 |---|---|---|---|---|
-| [[Submissions/Bow and Arrow Choke/from Back Control|Back Control]] | Top | 62% | [[Submissions/Bow and Arrow Choke/from Back Control/Attacker|Attack →]] | [[Submissions/Bow and Arrow Choke/from Back Control/Defender|Defend →]] |
-| [[Submissions/Bow and Arrow Choke/from Body Triangle|Body Triangle]] | Top | 62% | [[Submissions/Bow and Arrow Choke/from Body Triangle/Attacker|Attack →]] | [[Submissions/Bow and Arrow Choke/from Body Triangle/Defender|Defend →]] |
-| [[Submissions/Bow and Arrow Choke/from Harness|Harness]] | Top | 62% | [[Submissions/Bow and Arrow Choke/from Harness/Attacker|Attack →]] | [[Submissions/Bow and Arrow Choke/from Harness/Defender|Defend →]] |
-| [[Submissions/Bow and Arrow Choke/from Invisible Collar|Invisible Collar]] | Top | 62% | [[Submissions/Bow and Arrow Choke/from Invisible Collar/Attacker|Attack →]] | [[Submissions/Bow and Arrow Choke/from Invisible Collar/Defender|Defend →]] |
-| [[Submissions/Bow and Arrow Choke/from Rear Triangle|Rear Triangle]] | Top | 62% | [[Submissions/Bow and Arrow Choke/from Rear Triangle/Attacker|Attack →]] | [[Submissions/Bow and Arrow Choke/from Rear Triangle/Defender|Defend →]] |
-| [[Submissions/Bow and Arrow Choke/from Rodeo Ride|Rodeo Ride]] | Top | 62% | [[Submissions/Bow and Arrow Choke/from Rodeo Ride/Attacker|Attack →]] | [[Submissions/Bow and Arrow Choke/from Rodeo Ride/Defender|Defend →]] |
-| [[Submissions/Bow and Arrow Choke/from Russian Cowboy|Russian Cowboy]] | Top | 62% | [[Submissions/Bow and Arrow Choke/from Russian Cowboy/Attacker|Attack →]] | [[Submissions/Bow and Arrow Choke/from Russian Cowboy/Defender|Defend →]] |
-| [[Submissions/Bow and Arrow Choke/from Seat Belt Control Back|Seat Belt Control Back]] | Top | 62% | [[Submissions/Bow and Arrow Choke/from Seat Belt Control Back/Attacker|Attack →]] | [[Submissions/Bow and Arrow Choke/from Seat Belt Control Back/Defender|Defend →]] |
+| [[Submissions/Bow and Arrow Choke/from Back Control|Back Control]] | Top | 65% | [[Submissions/Bow and Arrow Choke/from Back Control/Attacker|Attack →]] | [[Submissions/Bow and Arrow Choke/from Back Control/Defender|Defend →]] |
+| [[Submissions/Bow and Arrow Choke/from Body Triangle|Body Triangle]] | Top | 65% | [[Submissions/Bow and Arrow Choke/from Body Triangle/Attacker|Attack →]] | [[Submissions/Bow and Arrow Choke/from Body Triangle/Defender|Defend →]] |
+| [[Submissions/Bow and Arrow Choke/from Harness|Harness]] | Top | 65% | [[Submissions/Bow and Arrow Choke/from Harness/Attacker|Attack →]] | [[Submissions/Bow and Arrow Choke/from Harness/Defender|Defend →]] |
+| [[Submissions/Bow and Arrow Choke/from Rear Triangle|Rear Triangle]] | Top | 65% | [[Submissions/Bow and Arrow Choke/from Rear Triangle/Attacker|Attack →]] | [[Submissions/Bow and Arrow Choke/from Rear Triangle/Defender|Defend →]] |
+| [[Submissions/Bow and Arrow Choke/from Seat Belt Control Back|Seat Belt Control Back]] | Top | 65% | [[Submissions/Bow and Arrow Choke/from Seat Belt Control Back/Attacker|Attack →]] | [[Submissions/Bow and Arrow Choke/from Seat Belt Control Back/Defender|Defend →]] |
+| [[Submissions/Bow and Arrow Choke/from Invisible Collar|Invisible Collar]] | Top | 58% | [[Submissions/Bow and Arrow Choke/from Invisible Collar/Attacker|Attack →]] | [[Submissions/Bow and Arrow Choke/from Invisible Collar/Defender|Defend →]] |
+| [[Submissions/Bow and Arrow Choke/from Rodeo Ride|Rodeo Ride]] | Top | 58% | [[Submissions/Bow and Arrow Choke/from Rodeo Ride/Attacker|Attack →]] | [[Submissions/Bow and Arrow Choke/from Rodeo Ride/Defender|Defend →]] |
 | [[Submissions/Bow and Arrow Choke/from Truck|Truck]] | Top | 58% | [[Submissions/Bow and Arrow Choke/from Truck/Attacker|Attack →]] | [[Submissions/Bow and Arrow Choke/from Truck/Defender|Defend →]] |
+| [[Submissions/Bow and Arrow Choke/from Russian Cowboy|Russian Cowboy]] | Top | 40% | [[Submissions/Bow and Arrow Choke/from Russian Cowboy/Attacker|Attack →]] | [[Submissions/Bow and Arrow Choke/from Russian Cowboy/Defender|Defend →]] |
 
 
 </div>
@@ -142,10 +245,9 @@ The Bow and Arrow Choke is a highly effective gi-based blood choke executed from
 - [[Transitions/Clock Choke]] - Chains into bow and arrow when opponent rolls defensively from turtle
 - [[Submissions/Short Choke]] - Alternative back choke when bow and arrow collar grip is defended
 - [[Submissions/Cross Collar Choke]] - Complementary collar choke sharing similar deep lapel grip mechanics
-- [[Submissions/Gift Wrap Armbar]] - Alternative attack when arm is trapped during bow and arrow setup
 - [[Submissions/Baseball Bat Choke]] - Related collar choke using cross-grip lapel control from turtle
 - [[Submissions/Brabo Choke]] - Related lapel choke using opponent's gi as force multiplier
-- [[Transitions/Darce Choke]] - Alternative choking attack from front headlock when back control is lost
+- [[Submissions/Darce Choke]] - Alternative choking attack from front headlock when back control is lost
 - [[Submissions/Ezekiel Choke]] - Alternative gi choke option from back control using sleeve mechanics
 - [[Positions/Back Control]] - Primary starting position for bow and arrow choke entry
 - [[Positions/Back Control/Seat Belt Control Back]] - Fundamental back control configuration before transitioning to bow and arrow

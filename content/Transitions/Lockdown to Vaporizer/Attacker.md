@@ -174,6 +174,54 @@ description: "Complete guide to executing the Transition to Vaporizer from Lockd
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Lockdown to Vaporizer (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Lockdown to vaporizer entry",
+      "description": "Lockdown to Vaporizer (Attacker) film study: Lockdown to vaporizer entry, taught by Axel Collazo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/8ZgEL2zU_jg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/8ZgEL2zU_jg",
+      "url": "https://www.youtube.com/watch?v=8ZgEL2zU_jg",
+      "creator": { "@type": "Person", "name": "Axel Collazo" },
+      "duration": "PT98S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Quarter guard to vaporizer breakdown",
+      "description": "Lockdown to Vaporizer (Attacker) film study: Quarter guard to vaporizer breakdown, taught by Superhero Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/dLIqO90Ix7o/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/dLIqO90Ix7o",
+      "url": "https://www.youtube.com/watch?v=dLIqO90Ix7o",
+      "creator": { "@type": "Person", "name": "Superhero Jiu Jitsu" },
+      "duration": "PT113S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Lockdown clinch details",
+      "description": "Lockdown to Vaporizer (Attacker) film study: Lockdown clinch details, taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/OIr4wDxl-Ys/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/OIr4wDxl-Ys",
+      "url": "https://www.youtube.com/watch?v=OIr4wDxl-Ys",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT60S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -183,6 +231,42 @@ As the attacker executing the Transition to Vaporizer, your objective is to conv
 **From Position**: [[Positions/Half Guard/Lockdown]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Lockdown to Vaporizer (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=8ZgEL2zU_jg)
+
+<p class="clip-credit"><strong>Lockdown to vaporizer entry</strong> — taught by Axel Collazo · 1:38 · <a href="https://www.youtube.com/watch?v=8ZgEL2zU_jg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=dLIqO90Ix7o)
+
+<p class="clip-credit"><strong>Quarter guard to vaporizer breakdown</strong> — taught by Superhero Jiu Jitsu · 1:53 · <a href="https://www.youtube.com/watch?v=dLIqO90Ix7o" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=OIr4wDxl-Ys)
+
+<p class="clip-credit"><strong>Lockdown clinch details</strong> — taught by Eddie Bravo · 1:00 · <a href="https://www.youtube.com/watch?v=OIr4wDxl-Ys" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

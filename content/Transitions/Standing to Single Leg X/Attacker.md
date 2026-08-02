@@ -168,6 +168,54 @@ description: "How to execute Standing to Single Leg X in BJJ. Attacking perspect
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Standing to Single Leg X (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Single leg X pull from standing",
+      "description": "Standing to Single Leg X (Attacker) film study: Single leg X pull from standing, taught by Haven Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/7SMKvyR3lUE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/7SMKvyR3lUE",
+      "url": "https://www.youtube.com/watch?v=7SMKvyR3lUE",
+      "creator": { "@type": "Person", "name": "Haven Jiu Jitsu" },
+      "duration": "PT16S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Simple entry into single leg X guard",
+      "description": "Standing to Single Leg X (Attacker) film study: Simple entry into single leg X guard, taught by Grappler Station.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/yuTJYpVKrJc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/yuTJYpVKrJc",
+      "url": "https://www.youtube.com/watch?v=yuTJYpVKrJc",
+      "creator": { "@type": "Person", "name": "Grappler Station" },
+      "duration": "PT104S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "No-gi guard pull to single leg X",
+      "description": "Standing to Single Leg X (Attacker) film study: No-gi guard pull to single leg X, taught by BJJ4Breakfast.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/xyy5xm72UJ8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/xyy5xm72UJ8",
+      "url": "https://www.youtube.com/watch?v=xyy5xm72UJ8",
+      "creator": { "@type": "Person", "name": "BJJ4Breakfast" },
+      "duration": "PT139S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -177,6 +225,42 @@ The Standing to Single Leg X transition is a fundamental guard pull entry that c
 **From Position**: [[Positions/Standing Position]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Standing to Single Leg X (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=7SMKvyR3lUE)
+
+<p class="clip-credit"><strong>Single leg X pull from standing</strong> — taught by Haven Jiu Jitsu · 0:16 · <a href="https://www.youtube.com/watch?v=7SMKvyR3lUE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=yuTJYpVKrJc)
+
+<p class="clip-credit"><strong>Simple entry into single leg X guard</strong> — taught by Grappler Station · 1:44 · <a href="https://www.youtube.com/watch?v=yuTJYpVKrJc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=xyy5xm72UJ8)
+
+<p class="clip-credit"><strong>No-gi guard pull to single leg X</strong> — taught by BJJ4Breakfast · 2:19 · <a href="https://www.youtube.com/watch?v=xyy5xm72UJ8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

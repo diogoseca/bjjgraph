@@ -34,6 +34,54 @@ description: "Master the Turtle to Back Take in BJJ. Complete guide covering sea
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Turtle to Back Take \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Hip switch to back take from turtle",
+      "description": "Turtle to Back Take film study: Hip switch to back take from turtle, taught by Gordon Ryan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/f3PJ06A_bWQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/f3PJ06A_bWQ",
+      "url": "https://www.youtube.com/watch?v=f3PJ06A_bWQ",
+      "creator": { "@type": "Person", "name": "Gordon Ryan" },
+      "duration": "PT19S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Rolling back take from turtle",
+      "description": "Turtle to Back Take film study: Rolling back take from turtle, taught by JiuJitsu.com.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/oijKoS9siS4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/oijKoS9siS4",
+      "url": "https://www.youtube.com/watch?v=oijKoS9siS4",
+      "creator": { "@type": "Person", "name": "JiuJitsu.com" },
+      "duration": "PT41S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Back take from the turtle position",
+      "description": "Turtle to Back Take film study: Back take from the turtle position, taught by Evolve MMA.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/6ns9XP2BsjQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/6ns9XP2BsjQ",
+      "url": "https://www.youtube.com/watch?v=6ns9XP2BsjQ",
+      "creator": { "@type": "Person", "name": "Evolve MMA" },
+      "duration": "PT66S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -66,9 +114,45 @@ Mastery of this transition is essential for any grappler, as the turtle position
 The positional hierarchy in BJJ places back control as the highest-value position, scoring 4 points in IBJJF competition and offering the best submission percentages of any position. Converting turtle attacks into back control therefore represents one of the most valuable skill chains a practitioner can develop. The transition requires patience, systematic grip establishment, and the discipline to secure control layers in the correct sequence rather than rushing for hooks before upper body control is locked in.
 
 **From Position**: [[Positions/Turtle]] (Top)
-**Success Rate**: 68%
+**Success Rate**: 46%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Turtle to Back Take in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=f3PJ06A_bWQ)
+
+<p class="clip-credit"><strong>Hip switch to back take from turtle</strong> — taught by Gordon Ryan · 0:19 · <a href="https://www.youtube.com/watch?v=f3PJ06A_bWQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=oijKoS9siS4)
+
+<p class="clip-credit"><strong>Rolling back take from turtle</strong> — taught by JiuJitsu.com · 0:41 · <a href="https://www.youtube.com/watch?v=oijKoS9siS4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=6ns9XP2BsjQ)
+
+<p class="clip-credit"><strong>Back take from the turtle position</strong> — taught by Evolve MMA · 1:06 · <a href="https://www.youtube.com/watch?v=6ns9XP2BsjQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

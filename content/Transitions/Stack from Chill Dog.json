@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Half Guard/Top",
-      "probability": 45,
+      "probability": {
+        "gi": 45,
+        "nogi": 45
+      },
       "result": "success"
     },
     {
       "to": "Chill Dog/Top",
-      "probability": 35,
+      "probability": {
+        "gi": 35,
+        "nogi": 35
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Top",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 45,
+  "success_rate": {
+    "gi": 45,
+    "nogi": 45
+  },
   "summary": "Stack from Chill Dog is a pressure-based turtle attack where the top player drives the bottom player's hips forward over their shoulders, collapsing the compact Chill Dog defensive frame to advance into half guard top.",
   "overview": "The Stack from Chill Dog is a pressure-based positional advancement technique used by the top player against an opponent who has adopted the compact Chill Dog turtle defense. Rather than attempting to insert hooks or fight for back control grips against the tightly closed defensive frame, the top player uses their body weight and sustained forward driving pressure to stack the bottom player's hips over their shoulders, collapsing the turtle structure entirely. This technique targets the fundamental vulnerability in all turtle variants: while the compact frame excels at preventing hook insertion and grip establishment, it is inherently susceptible to sustained forward pressure that loads the defender's weight onto their neck and shoulders.\n\nThe mechanics of the stack revolve around driving through the opponent's center of gravity. By establishing chest-to-back contact and walking the hips forward while driving downward, the top player progressively shifts the bottom player's weight distribution from their hands and knees onto their shoulders. As the weight transfers forward past the tipping point, the elbow-to-knee connection that forms the foundation of Chill Dog defense breaks under the structural load, and the turtle collapses into a flat or side-lying position where half guard top can be established.\n\nStrategically, the stack is most effective as part of a broader dilemma-based turtle attack system. Threatening the stack forces the bottom player to widen their base or post their hands forward to resist, which in turn opens opportunities for hook insertion, front headlock attacks, or crucifix entries. Even when the stack itself does not succeed, the defensive reactions it provokes create openings for higher-percentage attacks. This makes the stack a valuable chain-starting technique that pressures the opponent into increasingly compromised defensive responses.",
   "conditions": [
@@ -231,34 +243,124 @@
     "flashcards": [
       {
         "question": "Where should you place your chest pressure during the Stack from Chill Dog and why?",
-        "answer": "Chest pressure should be placed on the opponent's upper back between the shoulder blades. This location creates maximum forward loading on the opponent's hands and destabilizes the rounded back posture most effectively. Pressure placed too low near the hips actually helps the opponent maintain base by pushing their weight back toward their knees. The upper back is the fulcrum point where forward pressure has the greatest mechanical advantage for collapsing the turtle structure."
+        "answer": "Chest pressure should be placed on the opponent's upper back between the shoulder blades. This location creates maximum forward loading on the opponent's hands and destabilizes the rounded back posture most effectively. Pressure placed too low near the hips actually helps the opponent maintain base by pushing their weight back toward their knees. The upper back is the fulcrum point where forward pressure has the greatest mechanical advantage for collapsing the turtle structure.",
+        "answer_line": "Upper back between shoulder blades",
+        "distractors": {
+          "plausible": [
+            "Mid-spine, centered on back",
+            "Base of neck, driving down"
+          ],
+          "trap": [
+            "Low near the hips"
+          ]
+        }
       },
       {
         "question": "Your opponent suddenly widens their base and posts their hands wide during your stacking attempt - how do you adapt?",
-        "answer": "The widened base indicates they are abandoning the compact elbow-to-knee frame to resist your forward pressure. This actually opens new attack opportunities. You can shift to a perpendicular angle for a walk-around stack variant, or take advantage of the broken elbow-to-knee connection to insert a near hook for back control. The widened base that resists the stack simultaneously exposes the gaps that other attacks exploit, creating the exact dilemma-based pressure that makes the stack valuable even when it does not succeed directly."
+        "answer": "The widened base indicates they are abandoning the compact elbow-to-knee frame to resist your forward pressure. This actually opens new attack opportunities. You can shift to a perpendicular angle for a walk-around stack variant, or take advantage of the broken elbow-to-knee connection to insert a near hook for back control. The widened base that resists the stack simultaneously exposes the gaps that other attacks exploit, creating the exact dilemma-based pressure that makes the stack valuable even when it does not succeed directly.",
+        "answer_line": "Walk-around stack or insert hook",
+        "distractors": {
+          "plausible": [
+            "Push harder for original stack",
+            "Switch to arm-drag guillotine"
+          ],
+          "trap": [
+            "Release pressure and reset entirely"
+          ]
+        }
       },
       {
         "question": "What is the critical entry requirement before initiating the stacking sequence?",
-        "answer": "You must have chest contact established on the opponent's upper back and at least one hand controlling their near hip before beginning the stack. Without chest contact, you cannot generate the sustained forward pressure needed to load their weight forward. Without hip control, the opponent can simply rotate their hips away from your pressure and escape laterally, negating the entire stacking sequence regardless of how much forward force you generate."
+        "answer": "You must have chest contact established on the opponent's upper back and at least one hand controlling their near hip before beginning the stack. Without chest contact, you cannot generate the sustained forward pressure needed to load their weight forward. Without hip control, the opponent can simply rotate their hips away from your pressure and escape laterally, negating the entire stacking sequence regardless of how much forward force you generate.",
+        "answer_line": "Chest contact plus near hip control",
+        "distractors": {
+          "plausible": [
+            "Chest contact only, hips later",
+            "Both hands on far hip"
+          ],
+          "trap": [
+            "Overhook first, chest optional"
+          ]
+        }
       },
       {
         "question": "Why is sustained gradual pressure more effective than explosive bursts for the stack?",
-        "answer": "Explosive bursts allow the opponent to time counter-movements because they can feel the loading phase before the burst. A timed Granby roll or sit-through during your explosion uses your own momentum against you. Sustained gradual pressure denies the opponent a clear timing window for their counter. Each incremental step forward adds a small amount of load that is individually manageable but cumulatively overwhelming. The opponent cannot find a moment to escape because the pressure never releases."
+        "answer": "Explosive bursts allow the opponent to time counter-movements because they can feel the loading phase before the burst. A timed Granby roll or sit-through during your explosion uses your own momentum against you. Sustained gradual pressure denies the opponent a clear timing window for their counter. Each incremental step forward adds a small amount of load that is individually manageable but cumulatively overwhelming. The opponent cannot find a moment to escape because the pressure never releases.",
+        "answer_line": "Denies opponent a timing window",
+        "distractors": {
+          "plausible": [
+            "Builds pressure faster overall",
+            "Tires opponent's grip strength"
+          ],
+          "trap": [
+            "Explode early, surprise them"
+          ]
+        }
       },
       {
         "question": "You feel the opponent's elbows begin separating from their knees as your pressure builds - what should you do immediately?",
-        "answer": "This is the critical inflection point where the defensive frame is failing. You must continue driving forward without pause to follow through the collapse. Do not stop to readjust or switch techniques at this moment. Continue your forward pressure and be ready to immediately establish crossface and underhook as the opponent transitions from turtle to a flat or side-lying position. The window between frame collapse and guard recovery is one to two seconds, so immediate follow-through is essential."
+        "answer": "This is the critical inflection point where the defensive frame is failing. You must continue driving forward without pause to follow through the collapse. Do not stop to readjust or switch techniques at this moment. Continue your forward pressure and be ready to immediately establish crossface and underhook as the opponent transitions from turtle to a flat or side-lying position. The window between frame collapse and guard recovery is one to two seconds, so immediate follow-through is essential.",
+        "answer_line": "Drive forward, follow the collapse",
+        "distractors": {
+          "plausible": [
+            "Pause to reset base first",
+            "Switch to a leg attack"
+          ],
+          "trap": [
+            "Back off to avoid a scramble"
+          ]
+        }
       },
       {
         "question": "What grip should you use on the opponent's hip in no-gi and why is hip control essential?",
-        "answer": "In no-gi, use a cupping grip on the opponent's hip crest where the iliac bone protrudes, wrapping your fingers over the top of the hip bone. This grip provides the most secure control without fabric to grab. Hip control is essential because it prevents the opponent from rotating their hips away from your stacking pressure. Without hip control, the opponent can simply turn laterally to shed your forward pressure, and your chest drive translates into nothing. The hip grip anchors your pressure vector through their center of gravity."
+        "answer": "In no-gi, use a cupping grip on the opponent's hip crest where the iliac bone protrudes, wrapping your fingers over the top of the hip bone. This grip provides the most secure control without fabric to grab. Hip control is essential because it prevents the opponent from rotating their hips away from your stacking pressure. Without hip control, the opponent can simply turn laterally to shed your forward pressure, and your chest drive translates into nothing. The hip grip anchors your pressure vector through their center of gravity.",
+        "answer_line": "Cup the hip crest, stop rotation",
+        "distractors": {
+          "plausible": [
+            "Grip the far hip for control",
+            "Grab waistband, pull inward"
+          ],
+          "trap": [
+            "Control the far shoulder instead"
+          ]
+        }
       },
       {
         "question": "How does the Stack from Chill Dog create value for your broader turtle attack system even when the stack itself fails?",
-        "answer": "The stack creates dilemmas that force the opponent into defensive reactions that expose vulnerabilities to other attacks. When the opponent widens their base to resist the stack, their elbow-to-knee frame opens for hook insertion and back takes. When they post hands forward, their head becomes accessible for front headlock attacks. When they try to sit through, they expose their back during the rotation. Even a failed stack degrades the opponent's defensive position and creates chain-attack opportunities, making it a valuable opening technique in any turtle attack sequence."
+        "answer": "The stack creates dilemmas that force the opponent into defensive reactions that expose vulnerabilities to other attacks. When the opponent widens their base to resist the stack, their elbow-to-knee frame opens for hook insertion and back takes. When they post hands forward, their head becomes accessible for front headlock attacks. When they try to sit through, they expose their back during the rotation. Even a failed stack degrades the opponent's defensive position and creates chain-attack opportunities, making it a valuable opening technique in any turtle attack sequence.",
+        "answer_line": "Failed stack still opens attacks",
+        "distractors": {
+          "plausible": [
+            "Only works if stack succeeds",
+            "Tires opponent for later rounds"
+          ],
+          "trap": [
+            "Wastes time, abandon it early"
+          ]
+        }
       }
     ],
-    "safety_considerations": "The Stack from Chill Dog involves driving an opponent's weight forward onto their neck and shoulders. Always apply stacking pressure gradually and progressively rather than in sudden explosive bursts. Be aware of your training partner's cervical spine health and stop immediately if they report any neck discomfort or pain. Never force the stack against a rigid neck position where the opponent's head is trapped against the mat. Release pressure immediately if your partner taps or verbally signals discomfort. Athletes with pre-existing neck injuries should communicate limitations before drilling this technique. In training, focus on controlled pressure application and allow your partner to tap or escape rather than driving through at full intensity."
+    "safety_considerations": "The Stack from Chill Dog involves driving an opponent's weight forward onto their neck and shoulders. Always apply stacking pressure gradually and progressively rather than in sudden explosive bursts. Be aware of your training partner's cervical spine health and stop immediately if they report any neck discomfort or pain. Never force the stack against a rigid neck position where the opponent's head is trapped against the mat. Release pressure immediately if your partner taps or verbally signals discomfort. Athletes with pre-existing neck injuries should communicate limitations before drilling this technique. In training, focus on controlled pressure application and allow your partner to tap or escape rather than driving through at full intensity.",
+    "clips": [
+      {
+        "id": "Yct0FnRjGP8",
+        "title": "Pillory counter to rubber guard pass",
+        "by": "Gabriel Rainer",
+        "vertical": false,
+        "channel": "gabrielraindog",
+        "duration": 133,
+        "verified": "2026-07-16"
+      },
+      {
+        "id": "kaVklKMW3aw",
+        "title": "Why London left the 10th Planet system",
+        "by": "Submissions101 coach",
+        "vertical": false,
+        "channel": "Submissions101",
+        "duration": 94,
+        "verified": "2026-07-16"
+      }
+    ]
   },
   "defender": {
     "name": "Stack from Chill Dog Defender",
@@ -344,23 +446,73 @@
     "flashcards": [
       {
         "question": "What are the earliest recognition cues that a stack is being initiated rather than standard turtle top pressure?",
-        "answer": "The earliest cues are the opponent walking their feet forward behind you and a progressive shift of weight onto your hands and wrists. Standard turtle top pressure is relatively static, but stacking pressure involves incrementally increasing forward loading that you can feel through your wrist and hand contact with the mat. If your hands start bearing noticeably more weight than your knees, a stack is being built. Recognizing this early gives you the widest window for escape."
+        "answer": "The earliest cues are the opponent walking their feet forward behind you and a progressive shift of weight onto your hands and wrists. Standard turtle top pressure is relatively static, but stacking pressure involves incrementally increasing forward loading that you can feel through your wrist and hand contact with the mat. If your hands start bearing noticeably more weight than your knees, a stack is being built. Recognizing this early gives you the widest window for escape.",
+        "answer_line": "Feet walking in, weight on hands",
+        "distractors": {
+          "plausible": [
+            "Sudden crossface pressure spike",
+            "Opponent switches to overhook"
+          ],
+          "trap": [
+            "Wait for full elbow-knee break"
+          ]
+        }
       },
       {
         "question": "Why should you escape preemptively rather than waiting until the frame is about to break?",
-        "answer": "Waiting until the frame is about to break means your structural integrity is already compromised. Escape techniques like the Granby roll and sit-through require you to generate explosive rotational or turning movement, which demands intact structural positioning as a launch platform. Once your elbows have separated from your knees and your weight is loaded forward past your hands, you lack the mechanical base to generate the movement needed for these escapes. Early escape uses your intact frame as a springboard."
+        "answer": "Waiting until the frame is about to break means your structural integrity is already compromised. Escape techniques like the Granby roll and sit-through require you to generate explosive rotational or turning movement, which demands intact structural positioning as a launch platform. Once your elbows have separated from your knees and your weight is loaded forward past your hands, you lack the mechanical base to generate the movement needed for these escapes. Early escape uses your intact frame as a springboard.",
+        "answer_line": "Escapes need an intact frame",
+        "distractors": {
+          "plausible": [
+            "Preemptive escapes are always faster",
+            "Waiting conserves more energy"
+          ],
+          "trap": [
+            "Widen base first, then roll"
+          ]
+        }
       },
       {
         "question": "You feel the opponent's chest pressure increasing on your upper back and your hands are bearing more weight - which escape do you choose and why?",
-        "answer": "If the opponent's weight is heavily forward, the Granby roll is the highest-percentage escape because their forward commitment provides momentum for your inversion. Their base is weakest backward, so rolling under them exploits the direction they cannot easily recover. However, if you feel space on one side where the opponent's pressure is lighter, a sit-through to that side may be faster and more direct. The choice depends on which direction the opponent's weight is least supported."
+        "answer": "If the opponent's weight is heavily forward, the Granby roll is the highest-percentage escape because their forward commitment provides momentum for your inversion. Their base is weakest backward, so rolling under them exploits the direction they cannot easily recover. However, if you feel space on one side where the opponent's pressure is lighter, a sit-through to that side may be faster and more direct. The choice depends on which direction the opponent's weight is least supported.",
+        "answer_line": "Granby roll into forward weight",
+        "distractors": {
+          "plausible": [
+            "Sit-through no matter the side",
+            "Stand up to break contact"
+          ],
+          "trap": [
+            "Push straight back into them"
+          ]
+        }
       },
       {
         "question": "What is the risk of widening your base to resist the stack, and when is it appropriate?",
-        "answer": "Widening your base breaks the elbow-to-knee connection that is the foundation of Chill Dog defense. This opens you to hook insertion for back takes, arm isolation for crucifix, and harness grip establishment. The trade-off is temporary resistance to the stack at the cost of exposing yourself to other attacks. It is appropriate only as a brief transitional measure while you set up a more decisive escape, not as a sustained defensive strategy. Use it to buy two to three seconds, then immediately execute your escape."
+        "answer": "Widening your base breaks the elbow-to-knee connection that is the foundation of Chill Dog defense. This opens you to hook insertion for back takes, arm isolation for crucifix, and harness grip establishment. The trade-off is temporary resistance to the stack at the cost of exposing yourself to other attacks. It is appropriate only as a brief transitional measure while you set up a more decisive escape, not as a sustained defensive strategy. Use it to buy two to three seconds, then immediately execute your escape.",
+        "answer_line": "Opens hooks; only brief transition",
+        "distractors": {
+          "plausible": [
+            "Safe long-term defensive strategy",
+            "Only risky if hands are trapped"
+          ],
+          "trap": [
+            "Hold it until pressure fully fades"
+          ]
+        }
       },
       {
         "question": "How do you use the opponent's forward commitment during the stack to power your Granby roll escape?",
-        "answer": "The opponent's forward weight commitment during the stack means their momentum is already moving in the direction of your Granby roll. Instead of generating all the rotational force yourself, you tuck your inside shoulder, turn your head away, and use the opponent's forward pressure as an accelerant for the inversion. Their body weight, which was working against you as stacking force, now drives the roll forward. The key timing is initiating the roll just as you feel their maximum forward commitment, when their base is weakest in the backward direction."
+        "answer": "The opponent's forward weight commitment during the stack means their momentum is already moving in the direction of your Granby roll. Instead of generating all the rotational force yourself, you tuck your inside shoulder, turn your head away, and use the opponent's forward pressure as an accelerant for the inversion. Their body weight, which was working against you as stacking force, now drives the roll forward. The key timing is initiating the roll just as you feel their maximum forward commitment, when their base is weakest in the backward direction.",
+        "answer_line": "Tuck shoulder, ride their momentum",
+        "distractors": {
+          "plausible": [
+            "Wait for them to stop, then roll",
+            "Push back against their drive"
+          ],
+          "trap": [
+            "Match force straight back at them"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -383,6 +535,35 @@
         "phase": "Phase 4: Full Resistance Positional Rounds",
         "focus": "Defending the stack under competitive intensity",
         "description": "Partner attempts the stack at full competition intensity. Defender scores for successful guard recovery or standing escape. Partner scores for collapsing to half guard or better. Develop the composure, timing, and explosive execution needed to survive and escape the stack in live rolling. 3-minute rounds with full reset between scores."
+      }
+    ],
+    "clips": [
+      {
+        "id": "dH6Cj-nv3vU",
+        "title": "Shoulder lock defending the double under stack pass",
+        "by": "Tony Casarez",
+        "vertical": false,
+        "channel": "Tony Casarez",
+        "duration": 62,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "12F5eAkrS4s",
+        "title": "Stack Attack: dealing with the stack in rubber guard",
+        "by": "Submissions101 coach",
+        "vertical": false,
+        "channel": "Submissions101",
+        "duration": 105,
+        "verified": "2026-07-16"
+      },
+      {
+        "id": "gFYyMkaMz34",
+        "title": "Prison Guard breakdown from rubber guard",
+        "by": "Eddie Bravo",
+        "vertical": false,
+        "channel": "Eddie Bravo",
+        "duration": 59,
+        "verified": "2026-07-16"
       }
     ]
   }

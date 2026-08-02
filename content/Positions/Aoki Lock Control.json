@@ -41,35 +41,115 @@
     "flashcards": [
       {
         "question": "Your opponent starts bridging explosively while you have Aoki Lock control - what adjustment prevents escape?",
-        "answer": "Drive your hips forward and down into their shoulder while simultaneously tightening your leg triangle around their arm. Keep your posted leg close to their body to maintain base against the bridge. If they generate significant momentum, follow their movement and transition to back control rather than fighting the bridge directly."
+        "answer": "Drive your hips forward and down into their shoulder while simultaneously tightening your leg triangle around their arm. Keep your posted leg close to their body to maintain base against the bridge. If they generate significant momentum, follow their movement and transition to back control rather than fighting the bridge directly.",
+        "answer_line": "Hips forward, tighten leg triangle",
+        "distractors": {
+          "plausible": [
+            "Post leg away from their hips",
+            "Sit back to absorb momentum"
+          ],
+          "trap": [
+            "Pull back and fight the bridge"
+          ]
+        }
       },
       {
         "question": "What are the essential control points for maintaining Aoki Lock top position?",
-        "answer": "Three primary control points must be maintained simultaneously: leg entanglement around the opponent's arm and shoulder complex, hip pressure directed into the shoulder joint creating rotational stress, and hand control on opponent's hips or far-side limbs preventing rotation. The posted leg provides base stability. Losing any single control point significantly compromises position effectiveness."
+        "answer": "Three primary control points must be maintained simultaneously: leg entanglement around the opponent's arm and shoulder complex, hip pressure directed into the shoulder joint creating rotational stress, and hand control on opponent's hips or far-side limbs preventing rotation. The posted leg provides base stability. Losing any single control point significantly compromises position effectiveness.",
+        "answer_line": "Legs, hip pressure, hand control",
+        "distractors": {
+          "plausible": [
+            "Grip the trapped arm tightly",
+            "Squeeze legs, ignore hip pressure"
+          ],
+          "trap": [
+            "Let go of hips to free hands"
+          ]
+        }
       },
       {
         "question": "How do you shut down the opponent's primary escape when they try to roll forward through the position?",
-        "answer": "Anticipate the roll by keeping your weight distribution forward through your hips rather than sitting back. As they initiate the roll, follow their momentum while maintaining leg entanglement - this often converts directly to back control. Do not fight the roll by pulling backward, as this creates space for arm extraction."
+        "answer": "Anticipate the roll by keeping your weight distribution forward through your hips rather than sitting back. As they initiate the roll, follow their momentum while maintaining leg entanglement - this often converts directly to back control. Do not fight the roll by pulling backward, as this creates space for arm extraction.",
+        "answer_line": "Follow roll, convert to back control",
+        "distractors": {
+          "plausible": [
+            "Sit back and block the roll",
+            "Pull backward against momentum"
+          ],
+          "trap": [
+            "Release legs to reset position"
+          ]
+        }
       },
       {
         "question": "What grip priorities should you establish when entering Aoki Lock top position?",
-        "answer": "Primary grip is controlling opponent's far hip with your hands to prevent rotation and escape angles. Secondary priority is managing their free arm to prevent posting or defensive frames. Your legs provide the primary shoulder control through entanglement, so hand grips focus on hip and position management rather than the trapped arm itself."
+        "answer": "Primary grip is controlling opponent's far hip with your hands to prevent rotation and escape angles. Secondary priority is managing their free arm to prevent posting or defensive frames. Your legs provide the primary shoulder control through entanglement, so hand grips focus on hip and position management rather than the trapped arm itself.",
+        "answer_line": "Control far hip, then free arm",
+        "distractors": {
+          "plausible": [
+            "Grip the trapped arm directly",
+            "Control near hip, ignore far arm"
+          ],
+          "trap": [
+            "Let go of hips, grab both wrists"
+          ]
+        }
       },
       {
         "question": "How do you apply progressive pressure for the submission without risking injury to your training partner?",
-        "answer": "Apply shoulder pressure gradually over 3-5 seconds minimum using controlled hip drive rather than explosive movement. Maintain constant visual awareness of your partner's tap signals including verbal taps, hand taps on any surface, and body language indicating distress. Release immediately upon any tap signal. The goal is progressive, controlled pressure that allows time for tap recognition."
+        "answer": "Apply shoulder pressure gradually over 3-5 seconds minimum using controlled hip drive rather than explosive movement. Maintain constant visual awareness of your partner's tap signals including verbal taps, hand taps on any surface, and body language indicating distress. Release immediately upon any tap signal. The goal is progressive, controlled pressure that allows time for tap recognition.",
+        "answer_line": "Apply pressure slowly, watch for tap",
+        "distractors": {
+          "plausible": [
+            "Apply pressure fast, then check",
+            "Watch face, ignore hand taps"
+          ],
+          "trap": [
+            "Crank hard for a quick finish"
+          ]
+        }
       },
       {
         "question": "Your opponent is defending well with their shoulder positioned to resist pressure - when should you transition rather than force the finish?",
-        "answer": "Transition when you've applied two attempts at increasing pressure without submission progress, when opponent's defensive posture is strong and static, or when they create any opening for back control, truck, or crucifix. Forcing a defended shoulder lock wastes energy and creates stalemate. Recognizing transition opportunities converts positional control into advancement."
+        "answer": "Transition when you've applied two attempts at increasing pressure without submission progress, when opponent's defensive posture is strong and static, or when they create any opening for back control, truck, or crucifix. Forcing a defended shoulder lock wastes energy and creates stalemate. Recognizing transition opportunities converts positional control into advancement.",
+        "answer_line": "Two failed attempts, then transition",
+        "distractors": {
+          "plausible": [
+            "Keep forcing until they tap",
+            "Switch grips, same pressure angle"
+          ],
+          "trap": [
+            "Never abandon the shoulder lock"
+          ]
+        }
       },
       {
         "question": "How do you manage energy expenditure when holding Aoki Lock top position?",
-        "answer": "Use body weight through hips rather than muscular effort for shoulder pressure. Keep legs actively squeezing but avoid death-gripping with constant maximum tension. Post your free leg strongly but efficiently without over-extension. Let gravity and positioning do the work rather than fighting against opponent's defensive tension. The position should feel sustainable for 60-90 seconds."
+        "answer": "Use body weight through hips rather than muscular effort for shoulder pressure. Keep legs actively squeezing but avoid death-gripping with constant maximum tension. Post your free leg strongly but efficiently without over-extension. Let gravity and positioning do the work rather than fighting against opponent's defensive tension. The position should feel sustainable for 60-90 seconds.",
+        "answer_line": "Use body weight, not muscle",
+        "distractors": {
+          "plausible": [
+            "Grip max tension the whole time",
+            "Rest fully, let legs go loose"
+          ],
+          "trap": [
+            "Death-grip legs for full control"
+          ]
+        }
       },
       {
         "question": "Your opponent partially extracts their arm but you still have leg contact - how do you recover full control?",
-        "answer": "Immediately re-tighten your leg triangle before they complete extraction by driving your top leg down while pulling your bottom leg up. Simultaneously drive hip pressure forward to prevent further extraction. If extraction continues, abandon the shoulder lock and transition to back control or turtle attacks using your existing leg positioning as a starting point."
+        "answer": "Immediately re-tighten your leg triangle before they complete extraction by driving your top leg down while pulling your bottom leg up. Simultaneously drive hip pressure forward to prevent further extraction. If extraction continues, abandon the shoulder lock and transition to back control or turtle attacks using your existing leg positioning as a starting point.",
+        "answer_line": "Re-tighten triangle, drive hips in",
+        "distractors": {
+          "plausible": [
+            "Grab the arm to pull it back",
+            "Squeeze harder, hold hip position"
+          ],
+          "trap": [
+            "Release legs, chase the arm"
+          ]
+        }
       }
     ],
     "state_properties": {
@@ -295,27 +375,74 @@
     "transitions": [
       {
         "transition": "Aoki Lock from Aoki Lock Control",
-        "attempt_probability": 38
+        "attempt_probability": {
+          "gi": 26,
+          "nogi": 26
+        }
       },
       {
         "transition": "Aoki Lock to Back Control",
-        "attempt_probability": 20
+        "attempt_probability": {
+          "gi": 22,
+          "nogi": 25
+        }
       },
       {
         "transition": "Aoki Lock to Crucifix",
-        "attempt_probability": 14
+        "attempt_probability": {
+          "gi": 16,
+          "nogi": 15
+        }
       },
       {
         "transition": "Kimura Switch",
-        "attempt_probability": 9
+        "attempt_probability": {
+          "gi": 15,
+          "nogi": 14
+        }
       },
       {
         "transition": "Truck Entry",
-        "attempt_probability": 14
+        "attempt_probability": {
+          "gi": 14,
+          "nogi": 15
+        }
       },
       {
         "transition": "Aoki Lock",
-        "attempt_probability": 5
+        "attempt_probability": {
+          "gi": 7,
+          "nogi": 5
+        }
+      }
+    ],
+    "clips": [
+      {
+        "id": "tQWfhZiDREc",
+        "title": "Aoki lock from butterfly ashi",
+        "by": "Factory Fresh Jiu Jitsu",
+        "vertical": false,
+        "channel": "Factory Fresh Jiu Jitsu",
+        "duration": 77,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "QDNLTs55V8c",
+        "title": "Sneaky Aoki Lock from the Saddle",
+        "by": "Grappling Education",
+        "vertical": false,
+        "channel": "Grappling Education",
+        "duration": 121,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "9F3m0gNYlXU",
+        "title": "How to Do the Aoki Lock in No-Gi Grappling",
+        "by": "Stephan Kesting",
+        "vertical": false,
+        "channel": "Stephan Kesting",
+        "duration": 386,
+        "verified": "2026-07-15"
       }
     ]
   },
@@ -324,35 +451,115 @@
     "flashcards": [
       {
         "question": "Your opponent increases hip pressure on your shoulder - what immediate defensive adjustment should you make?",
-        "answer": "Internally rotate your shoulder to resist the external rotation pressure from their hip drive. Simultaneously initiate a roll toward your trapped arm direction, using their forward pressure momentum to assist your escape. Do not fight the pressure by pulling away, as this dramatically increases shoulder torque and injury risk."
+        "answer": "Internally rotate your shoulder to resist the external rotation pressure from their hip drive. Simultaneously initiate a roll toward your trapped arm direction, using their forward pressure momentum to assist your escape. Do not fight the pressure by pulling away, as this dramatically increases shoulder torque and injury risk.",
+        "answer_line": "Rotate in, roll toward trapped arm",
+        "distractors": {
+          "plausible": [
+            "Pull arm away from pressure",
+            "Roll away from the trapped arm"
+          ],
+          "trap": [
+            "Externally rotate to create space"
+          ]
+        }
       },
       {
         "question": "What are the essential defensive priorities when caught in Aoki Lock bottom position?",
-        "answer": "First priority is protecting your shoulder from catastrophic rotation by keeping it internally rotated. Second is addressing the leg entanglement before attempting arm extraction. Third is using your free hand to attack opponent's posted leg base or control their hip. Fourth is creating continuous movement toward escape rather than static defense."
+        "answer": "First priority is protecting your shoulder from catastrophic rotation by keeping it internally rotated. Second is addressing the leg entanglement before attempting arm extraction. Third is using your free hand to attack opponent's posted leg base or control their hip. Fourth is creating continuous movement toward escape rather than static defense.",
+        "answer_line": "Protect shoulder, then clear legs",
+        "distractors": {
+          "plausible": [
+            "Yank arm free immediately",
+            "Grip trapped arm, stay still"
+          ],
+          "trap": [
+            "Extend arm to test the pressure"
+          ]
+        }
       },
       {
         "question": "How do you shut down your opponent's ability to finish the submission?",
-        "answer": "Keep your trapped elbow bent when possible without compromising shoulder safety to prevent full arm extension. Roll toward the trapped arm direction following path of least resistance. Attack opponent's posted leg to destabilize their base and pressure generation. Create hip movement to reduce the pressure angle. Most importantly, tap early if pressure reaches dangerous threshold."
+        "answer": "Keep your trapped elbow bent when possible without compromising shoulder safety to prevent full arm extension. Roll toward the trapped arm direction following path of least resistance. Attack opponent's posted leg to destabilize their base and pressure generation. Create hip movement to reduce the pressure angle. Most importantly, tap early if pressure reaches dangerous threshold.",
+        "answer_line": "Bend elbow, attack their base",
+        "distractors": {
+          "plausible": [
+            "Straighten arm to buy time",
+            "Roll away from trapped arm side"
+          ],
+          "trap": [
+            "Pull hard to rip arm free"
+          ]
+        }
       },
       {
         "question": "What grip or frame priorities help you survive and escape Aoki Lock bottom?",
-        "answer": "Your free hand should immediately engage in attacking opponent's posted leg or controlling their hip to create escape angles. Do not grip your trapped arm trying to pull it free, as this wastes energy and doesn't address the leg entanglement. Focus frames on creating space and destabilizing opponent's base rather than directly fighting the submission."
+        "answer": "Your free hand should immediately engage in attacking opponent's posted leg or controlling their hip to create escape angles. Do not grip your trapped arm trying to pull it free, as this wastes energy and doesn't address the leg entanglement. Focus frames on creating space and destabilizing opponent's base rather than directly fighting the submission.",
+        "answer_line": "Attack posted leg, not trapped arm",
+        "distractors": {
+          "plausible": [
+            "Grip trapped arm and pull free",
+            "Frame on their far shoulder"
+          ],
+          "trap": [
+            "Let go of hip, grab the mat"
+          ]
+        }
       },
       {
         "question": "How do you recognize when you should tap rather than continue defending?",
-        "answer": "Tap immediately when you feel sharp pain in the shoulder joint, when you cannot prevent your arm from full extension, when your shoulder rotation reaches uncomfortable levels, or when opponent's pressure is increasing and you have no escape path. Shoulder injuries from this position include rotator cuff tears, labrum damage, and dislocation - none are worth continuing defense."
+        "answer": "Tap immediately when you feel sharp pain in the shoulder joint, when you cannot prevent your arm from full extension, when your shoulder rotation reaches uncomfortable levels, or when opponent's pressure is increasing and you have no escape path. Shoulder injuries from this position include rotator cuff tears, labrum damage, and dislocation - none are worth continuing defense.",
+        "answer_line": "Tap at sharp pain or no escape",
+        "distractors": {
+          "plausible": [
+            "Wait for the coach to stop it",
+            "Breathe and wait out the pressure"
+          ],
+          "trap": [
+            "Tough it out to prove your grit"
+          ]
+        }
       },
       {
         "question": "Your opponent adjusts their posted leg position - how do you capitalize on this moment?",
-        "answer": "Attack their base immediately with your free hand before they re-establish stable posting. Time your arm extraction attempt to coincide with their adjustment since leg entanglement often loosens during repositioning. Use their momentary instability to create hip movement and change your angle toward escape. This is your primary window for successful escape."
+        "answer": "Attack their base immediately with your free hand before they re-establish stable posting. Time your arm extraction attempt to coincide with their adjustment since leg entanglement often loosens during repositioning. Use their momentary instability to create hip movement and change your angle toward escape. This is your primary window for successful escape.",
+        "answer_line": "Attack base during their adjustment",
+        "distractors": {
+          "plausible": [
+            "Wait for them to re-post fully",
+            "Pull trapped arm free now"
+          ],
+          "trap": [
+            "Stay still to avoid detection"
+          ]
+        }
       },
       {
         "question": "How do you manage energy when defending Aoki Lock bottom position?",
-        "answer": "Avoid fighting the submission with constant maximum tension, which exhausts you quickly. Focus on efficient movement patterns rather than strength-based resistance. Time your escape attempts to coincide with opponent's adjustments or pressure changes. Accept that some pressure is inevitable and conserve energy for explosive escape attempts at opportune moments."
+        "answer": "Avoid fighting the submission with constant maximum tension, which exhausts you quickly. Focus on efficient movement patterns rather than strength-based resistance. Time your escape attempts to coincide with opponent's adjustments or pressure changes. Accept that some pressure is inevitable and conserve energy for explosive escape attempts at opportune moments.",
+        "answer_line": "Time escapes, don't max-tense",
+        "distractors": {
+          "plausible": [
+            "Fight with constant max tension",
+            "Rest completely, wait it out"
+          ],
+          "trap": [
+            "Muscle through nonstop resistance"
+          ]
+        }
       },
       {
         "question": "Your escape attempt fails but you've created some space - how do you prevent opponent from fully re-establishing control?",
-        "answer": "Keep moving immediately rather than pausing in the partial escape position. If you've loosened the leg entanglement, continue working arm extraction before they re-tighten. If you've disrupted their base, continue attacking it to prevent re-stabilization. Chain your escape attempts together rather than treating each as isolated. Continuous movement is more effective than single powerful attempts."
+        "answer": "Keep moving immediately rather than pausing in the partial escape position. If you've loosened the leg entanglement, continue working arm extraction before they re-tighten. If you've disrupted their base, continue attacking it to prevent re-stabilization. Chain your escape attempts together rather than treating each as isolated. Continuous movement is more effective than single powerful attempts.",
+        "answer_line": "Keep moving, chain the escape",
+        "distractors": {
+          "plausible": [
+            "Pause to reset your base",
+            "Hold position, catch your breath"
+          ],
+          "trap": [
+            "Stop and reassess calmly"
+          ]
+        }
       }
     ],
     "state_properties": {
@@ -544,28 +751,209 @@
     "transitions": [
       {
         "transition": "Rolling Escape to Guard",
-        "attempt_probability": 21
+        "attempt_probability": {
+          "gi": 19,
+          "nogi": 20
+        }
       },
       {
         "transition": "Arm Extraction to Turtle",
-        "attempt_probability": 38
+        "attempt_probability": {
+          "gi": 21,
+          "nogi": 21
+        }
       },
       {
         "transition": "Hip Escape to Guard",
-        "attempt_probability": 17
+        "attempt_probability": {
+          "gi": 22,
+          "nogi": 21
+        }
       },
       {
         "transition": "Counter Roll to Top",
-        "attempt_probability": 4
+        "attempt_probability": {
+          "gi": 12,
+          "nogi": 12
+        }
       },
       {
         "transition": "Granby Roll to Guard",
-        "attempt_probability": 18
+        "attempt_probability": {
+          "gi": 15,
+          "nogi": 15
+        }
       },
       {
         "transition": "Base Attack to Sweep",
-        "attempt_probability": 2
+        "attempt_probability": {
+          "gi": 11,
+          "nogi": 11
+        }
+      }
+    ],
+    "clips": [
+      {
+        "id": "6-HYU8Pbngg",
+        "title": "K guard defense vs toe hold and straight foot lock",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "Absolute MMA St Kilda - Melbourne",
+        "duration": 152,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "p7fy3B6AAbA",
+        "title": "Aoki lock counter from standard ashi and SLX",
+        "by": "Mads H.",
+        "vertical": false,
+        "channel": "Mads H. BJJ",
+        "duration": 231,
+        "verified": "2026-07-15"
       }
     ]
-  }
+  },
+  "flashcards_position": [
+    {
+      "question": "What structural configuration defines the Aoki Lock Control position?",
+      "answer": "It is a leg-entangled shoulder lock in which one player's legs trap the opponent's isolated arm, with the thigh draped over the shoulder and the shin controlling the upper arm. The trapped arm is extended and isolated between the legs with the elbow pointed away from the torso, which prevents the joint from re-centering. Unlike arm-clasping shoulder locks, the control mechanism here is entirely the lower body wrapping the shoulder girdle rather than the arms clasping. This leg-based trap frees the hands for hip and base management while the legs carry the isolating pressure.",
+      "answer_line": "Legs trap shoulder, arm extended",
+      "distractors": {
+        "plausible": [
+          "Arms clasp like a kimura grip",
+          "Legs triangle from closed guard"
+        ],
+        "trap": [
+          "Grip figure-four on the wrist"
+        ]
+      }
+    },
+    {
+      "question": "Which control points make the Aoki Lock configuration function as a shoulder lock rather than a simple pin?",
+      "answer": "Three interdependent points define it: the leg entanglement isolating the shoulder complex, hip pressure directed down and forward into the shoulder joint to create rotational stress on the capsule, and hand control on the hips or far-side limbs preventing rotation. The posted free leg supplies the base so this pressure can be delivered without the top player tipping over. Remove any one point and the configuration decays from an active shoulder lock into a loose entanglement the trapped player can rotate out of. The submission threat lives specifically in the extended, externally rotated arm angle held under leg trap.",
+      "answer_line": "Leg trap, hip drive, hand control",
+      "distractors": {
+        "plausible": [
+          "Grip strength alone holds it",
+          "Posted leg alone creates pressure"
+        ],
+        "trap": [
+          "Squeeze arms, ignore hip line"
+        ]
+      }
+    },
+    {
+      "question": "How does hip positioning determine the pressure vector in Aoki Lock Control?",
+      "answer": "The controlling player's hips act as the pressure engine, driving downward and forward onto the shoulder joint rather than squeezing with the arms. This vector loads the shoulder capsule into external rotation, which is what threatens the joint and pins the isolated arm. Because the mechanism is hip-driven, both players' fight centers on the hip line: the controller keeps hips heavy and connected while the trapped player tries to angle their hips away to change the vector. Shifting hip contact even slightly off the shoulder line changes whether the shoulder is genuinely loaded or merely held.",
+      "answer_line": "Hips drive down into the shoulder",
+      "distractors": {
+        "plausible": [
+          "Squeeze legs, ignore hip angle",
+          "Post leg carries the pressure"
+        ],
+        "trap": [
+          "Sit hips back off the shoulder"
+        ]
+      }
+    },
+    {
+      "question": "Why is base maintenance through the posted free leg critical to holding this position?",
+      "answer": "The posted free leg is the stable platform that lets hip pressure translate into shoulder torque instead of the controller rolling off. Without a strong post, any bridge or roll from the trapped player carries the whole entanglement over, because the shoulder lock has no independent base of its own. The post must stay close to the opponent's body; posting too far reduces the downward hip pressure and opens space for the shoulder to rotate free. This is why it is a stable-base shoulder lock rather than a purely gripping control.",
+      "answer_line": "Post leg close, stay connected",
+      "distractors": {
+        "plausible": [
+          "Post leg wide for more base",
+          "Rely on grips instead of base"
+        ],
+        "trap": [
+          "Post leg far away from body"
+        ]
+      }
+    },
+    {
+      "question": "What role does the extended, externally rotated arm angle play in this position for both players?",
+      "answer": "The isolated arm being extended with the elbow pointed away from the torso is the joint alignment that makes the shoulder vulnerable, so it is the central contested variable for both sides. The controlling player uses leg positioning to preserve that extension and outward elbow angle, since it keeps the capsule loaded. The trapped player's entire defensive premise is to bend the elbow back toward the body and internally rotate, which re-centers the joint and defuses the lock. Whoever wins the battle over elbow bend and rotation decides whether the position is a live submission or a neutralized entanglement.",
+      "answer_line": "Elbow angle decides finish or escape",
+      "distractors": {
+        "plausible": [
+          "Wrist control decides the finish",
+          "Hip pressure alone decides it"
+        ],
+        "trap": [
+          "Grip strength alone decides it"
+        ]
+      }
+    },
+    {
+      "question": "How does the leg entanglement in Aoki Lock Control change the position's dynamics compared to an omoplata or kimura trap?",
+      "answer": "Aoki Lock shares omoplata-style rotational shoulder pressure but delivers it through a leg trap of the arm and shoulder rather than an omoplata's legs triangled over the shoulder from guard, or a kimura's figure-four arm grip. The leg entanglement simultaneously traps the arm and limits the opponent's lower-body mobility, which those grip-based shoulder locks do not do as completely. This dual trap closes standard extraction and framing routes, making it a distinctly no-gi, entanglement-driven control. The trade is that the mechanism depends on leg tightness, so a loosened entanglement degrades it faster than a committed grip would.",
+      "answer_line": "Legs trap arm and limit mobility",
+      "distractors": {
+        "plausible": [
+          "Arms clasp like a kimura figure-four",
+          "Legs triangle over from guard"
+        ],
+        "trap": [
+          "Rely on grips, ignore the legs"
+        ]
+      }
+    },
+    {
+      "question": "What position dynamics make the Aoki Lock a transitional hub rather than a static hold?",
+      "answer": "Because the leg entanglement already controls the arm, shoulder, and hip line, the same configuration sits adjacent to back control, the truck, and the crucifix, so movement by either player tends to flow toward one of those states. Rotational attempts by the trapped player frequently expose the back or far arm, converting the shoulder lock into a positional advance rather than a pure finish. This instability cuts both ways: the controller must finish or transition quickly, and the trapped player treats every adjustment as a scramble window. The position resolves into a finish, an advancement, or an escape rather than being held indefinitely.",
+      "answer_line": "Rotation attempts expose the back",
+      "distractors": {
+        "plausible": [
+          "Hold statically until they tire",
+          "Only path forward is the finish"
+        ],
+        "trap": [
+          "Release legs to force a scramble"
+        ]
+      }
+    },
+    {
+      "question": "How can either player tell whether the shoulder lock is genuinely loaded versus merely held in Aoki Lock Control?",
+      "answer": "A genuinely loaded lock shows the trapped arm extended with the elbow pointing away from the body, the shoulder in external rotation, and the controller's hips connected and driving into the joint. If the elbow has bent back toward the torso, the arm has internally rotated, or hip contact has drifted off the shoulder line, the configuration is only a positional hold with no active submission threat. Both players read these same cues in opposite directions: the trapped player seeks the bent-elbow, internally rotated state as safety, while the controller reads it as the signal to re-extend the arm or transition. This distinction separates the finishing phase from the mere control phase of the position.",
+      "answer_line": "Arm extended, hips on the line",
+      "distractors": {
+        "plausible": [
+          "Legs squeezed tight means loaded",
+          "Any hip contact means it's loaded"
+        ],
+        "trap": [
+          "Trapped elbow bent means loaded"
+        ]
+      }
+    }
+  ],
+  "clips": [
+    {
+      "id": "QDNLTs55V8c",
+      "title": "Sneaky Aoki lock from the saddle",
+      "by": "Grappling Education",
+      "vertical": false,
+      "channel": "Grappling Education",
+      "duration": 121,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "N9dnzaleHdk",
+      "title": "The Aoki Lock Explained",
+      "by": "Jeremy Skinner",
+      "vertical": false,
+      "channel": "Absolute MMA St Kilda - Melbourne",
+      "duration": 268,
+      "verified": "2026-07-15"
+    },
+    {
+      "id": "S2DMBU42Yl0",
+      "title": "Get the Aoki Lock Finish Every Time",
+      "by": "Brian Glick",
+      "vertical": false,
+      "channel": "Brian Glick",
+      "duration": 273,
+      "verified": "2026-07-15"
+    }
+  ]
 }

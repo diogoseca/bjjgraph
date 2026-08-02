@@ -14,21 +14,33 @@
   "outcomes": [
     {
       "to": "Back Control/Top",
-      "probability": 65,
+      "probability": {
+        "gi": 65,
+        "nogi": 65
+      },
       "result": "success"
     },
     {
       "to": "S Mount/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "overview": "The Gift Wrap to Back transition represents one of the most reliable pathways from mount to back control in Brazilian Jiu-Jitsu. This technique capitalizes on the opponent's natural defensive instinct to turn away from submission threats by using their own arm against them. When you establish the gift wrap grip—wrapping their arm across their body and securing it with your hand reaching under their neck—you create a mechanical trap that forces them to expose their back.\n\nFrom S Mount, the gift wrap becomes particularly powerful because you already have advantageous positioning with perpendicular hip alignment and natural arm isolation. When the opponent attempts to protect their isolated arm by turning toward it, you capitalize by feeding their arm across their centerline and securing the gift wrap configuration. This control eliminates their ability to face you while creating the rotational momentum needed to take the back.\n\nThe strategic value of this transition lies in its forcing function—the opponent must choose between defending the arm attack (which exposes the back) or preventing the back take (which exposes the arm). This dilemma creation is fundamental to high-level positional grappling. The gift wrap control also travels with you during the transition, providing continuous control through the movement rather than requiring you to release and re-establish grips.",
   "conditions": [
     "S Mount or high mount established with dominant control",
@@ -214,46 +226,175 @@
     "flashcards": [
       {
         "question": "What is the optimal timing window for initiating the Gift Wrap to Back transition?",
-        "answer": "The optimal timing is when opponent turns away from you to defend an arm attack, typically the armbar threat from S Mount. Their rotation toward their trapped arm creates both the momentum and the arm positioning needed for the gift wrap. Attempting it while they face you requires forcing the arm across against resistance, which drops the success rate significantly and risks losing S Mount."
+        "answer": "The optimal timing is when opponent turns away from you to defend an arm attack, typically the armbar threat from S Mount. Their rotation toward their trapped arm creates both the momentum and the arm positioning needed for the gift wrap. Attempting it while they face you requires forcing the arm across against resistance, which drops the success rate significantly and risks losing S Mount.",
+        "answer_line": "When they turn away from armbar",
+        "distractors": {
+          "plausible": [
+            "Right after establishing S Mount",
+            "When they posture up to escape"
+          ],
+          "trap": [
+            "Muscle the arm across by force"
+          ]
+        }
       },
       {
         "question": "What entry requirements must exist before you can attempt this transition?",
-        "answer": "You need established S Mount or high mount with dominant control, the opponent's near arm must be isolated or accessible for cross-body wrapping, and the opponent must be turning away from you either to protect their arm or escape a submission threat. Your chest and hips must be positioned to follow their rotation, and your far hand must be free to reach under their neck to complete the grip."
+        "answer": "You need established S Mount or high mount with dominant control, the opponent's near arm must be isolated or accessible for cross-body wrapping, and the opponent must be turning away from you either to protect their arm or escape a submission threat. Your chest and hips must be positioned to follow their rotation, and your far hand must be free to reach under their neck to complete the grip.",
+        "answer_line": "S Mount + isolated arm + turn away",
+        "distractors": {
+          "plausible": [
+            "Any mount with arm nearby",
+            "Back control with near arm free"
+          ],
+          "trap": [
+            "Standing over opponent's guard"
+          ]
+        }
       },
       {
         "question": "What is the most critical mechanical detail during the rotation phase?",
-        "answer": "Maintaining constant hip-to-body contact throughout the entire rotation is the single most critical mechanical detail. Your hips must stay glued to their shoulder and upper back as you circle around their head. Any gap between your hips and their body allows them to hip escape, turn back toward you, or create enough distance to recover half guard. The hip connection is what makes the rotation controlling rather than just movement."
+        "answer": "Maintaining constant hip-to-body contact throughout the entire rotation is the single most critical mechanical detail. Your hips must stay glued to their shoulder and upper back as you circle around their head. Any gap between your hips and their body allows them to hip escape, turn back toward you, or create enough distance to recover half guard. The hip connection is what makes the rotation controlling rather than just movement.",
+        "answer_line": "Keep hips glued to their body",
+        "distractors": {
+          "plausible": [
+            "Keep chest pressure on their arm",
+            "Control their head throughout"
+          ],
+          "trap": [
+            "Release hips to circle faster"
+          ]
+        }
       },
       {
         "question": "What are the two most common failure points that cause this technique to break down?",
-        "answer": "The first is attempting the gift wrap before the opponent turns away, chasing the arm across their centerline against resistance rather than capitalizing on their defensive rotation. The second is releasing chest pressure on the wrapped arm during the rotation phase, which allows the opponent to extract their arm and either turn back to face you or begin an escape sequence. Both errors stem from rushing rather than letting the opponent's reactions create the opportunity."
+        "answer": "The first is attempting the gift wrap before the opponent turns away, chasing the arm across their centerline against resistance rather than capitalizing on their defensive rotation. The second is releasing chest pressure on the wrapped arm during the rotation phase, which allows the opponent to extract their arm and either turn back to face you or begin an escape sequence. Both errors stem from rushing rather than letting the opponent's reactions create the opportunity.",
+        "answer_line": "Early feed & losing chest pressure",
+        "distractors": {
+          "plausible": [
+            "Wrong grip order and slow rotation",
+            "Bad angle and weak underhook"
+          ],
+          "trap": [
+            "Waiting too long to attack"
+          ]
+        }
       },
       {
         "question": "What specific grip configuration defines the gift wrap and how is it established?",
-        "answer": "The gift wrap requires your far hand reaching under the opponent's neck from the opposite side to grab their wrist, while their arm has been fed across their body toward their opposite shoulder. Your near hand initially controls their wrist to feed the arm across, then your far hand connects underneath to secure it. The result is your arm wrapping around their head while controlling their trapped wrist against their neck, creating a loop that pins their face away from you."
+        "answer": "The gift wrap requires your far hand reaching under the opponent's neck from the opposite side to grab their wrist, while their arm has been fed across their body toward their opposite shoulder. Your near hand initially controls their wrist to feed the arm across, then your far hand connects underneath to secure it. The result is your arm wrapping around their head while controlling their trapped wrist against their neck, creating a loop that pins their face away from you.",
+        "answer_line": "Far hand grabs wrist under neck",
+        "distractors": {
+          "plausible": [
+            "Near hand grabs wrist under neck",
+            "Both hands feed arm across body"
+          ],
+          "trap": [
+            "Underhook far arm, ignore wrist"
+          ]
+        }
       },
       {
         "question": "In which direction should force be applied during the arm feeding phase?",
-        "answer": "Force should be applied diagonally across the opponent's centerline, driving their wrist from their near side toward their far shoulder. This is not a straight push but a diagonal feed combined with downward chest pressure that pins the arm against their body. The direction is critical because it follows the natural arc needed for your far hand to connect under their neck. Pushing straight across without the diagonal angle makes the grip connection much harder."
+        "answer": "Force should be applied diagonally across the opponent's centerline, driving their wrist from their near side toward their far shoulder. This is not a straight push but a diagonal feed combined with downward chest pressure that pins the arm against their body. The direction is critical because it follows the natural arc needed for your far hand to connect under their neck. Pushing straight across without the diagonal angle makes the grip connection much harder.",
+        "answer_line": "Diagonal feed toward far shoulder",
+        "distractors": {
+          "plausible": [
+            "Straight push across their chest",
+            "Pull the wrist straight upward"
+          ],
+          "trap": [
+            "Yank the arm straight backward"
+          ]
+        }
       },
       {
         "question": "Your opponent keeps their elbow extremely tight and refuses to let the arm cross their centerline — how do you adjust?",
-        "answer": "A tight elbow defense actually creates the perfect armbar setup rather than enabling the gift wrap. Switch your attack to the armbar since their bent arm is already isolated between your legs in S Mount. Their defensive posture against the gift wrap is the exact arm configuration needed for armbar success. This is the core dilemma: defending one attack opens the other. Take what they give you rather than forcing the gift wrap."
+        "answer": "A tight elbow defense actually creates the perfect armbar setup rather than enabling the gift wrap. Switch your attack to the armbar since their bent arm is already isolated between your legs in S Mount. Their defensive posture against the gift wrap is the exact arm configuration needed for armbar success. This is the core dilemma: defending one attack opens the other. Take what they give you rather than forcing the gift wrap.",
+        "answer_line": "Switch to the armbar attack",
+        "distractors": {
+          "plausible": [
+            "Force the gift wrap through anyway",
+            "Abandon S Mount and reset"
+          ],
+          "trap": [
+            "Release the arm to reposition"
+          ]
+        }
       },
       {
         "question": "Your opponent posts their far arm as you begin rotating around their head — what options does this create?",
-        "answer": "Their posted arm is now extended and vulnerable to attack. You can secure a kimura grip on their posting wrist with your free hand, abandoning the rotation temporarily to attack the exposed arm. Alternatively, you can continue the rotation and trap their posting arm with your leg as you pass over it, transitioning to mounted crucifix rather than standard back control. The posting arm is a defensive error that opens multiple offensive pathways."
+        "answer": "Their posted arm is now extended and vulnerable to attack. You can secure a kimura grip on their posting wrist with your free hand, abandoning the rotation temporarily to attack the exposed arm. Alternatively, you can continue the rotation and trap their posting arm with your leg as you pass over it, transitioning to mounted crucifix rather than standard back control. The posting arm is a defensive error that opens multiple offensive pathways.",
+        "answer_line": "Attack kimura or trap for crucifix",
+        "distractors": {
+          "plausible": [
+            "Ignore it and rush the seatbelt",
+            "Switch immediately to armbar"
+          ],
+          "trap": [
+            "Let go of gift wrap to grab post"
+          ]
+        }
       },
       {
         "question": "How do you maintain continuous control during the transition from gift wrap grip to seatbelt?",
-        "answer": "The transition must overlap — your free hand establishes the seatbelt underhook on their far side before you release the gift wrap grip with your other hand. Keep your chest pinning their wrapped arm throughout the rotation as a secondary control layer. There should never be a moment where neither the gift wrap nor the seatbelt is controlling their upper body. If you release the gift wrap before securing the seatbelt, the opponent can turn and escape during the control gap."
+        "answer": "The transition must overlap — your free hand establishes the seatbelt underhook on their far side before you release the gift wrap grip with your other hand. Keep your chest pinning their wrapped arm throughout the rotation as a secondary control layer. There should never be a moment where neither the gift wrap nor the seatbelt is controlling their upper body. If you release the gift wrap before securing the seatbelt, the opponent can turn and escape during the control gap.",
+        "answer_line": "Secure seatbelt before releasing",
+        "distractors": {
+          "plausible": [
+            "Release gift wrap, then seatbelt",
+            "Switch grips as fast as possible"
+          ],
+          "trap": [
+            "Let go early to save energy"
+          ]
+        }
       },
       {
         "question": "If the back take is blocked and you cannot complete the rotation, what chain attacks are available?",
-        "answer": "If the opponent prevents back exposure by turning into you, follow their rotation to maintain mount with the gift wrap still intact and reattempt from the new angle. If they post with the far arm, attack with kimura or transition to crucifix. If they bridge and create space, abandon the gift wrap and secure side control or reset to mount. The gift wrap control persists through most defensive reactions, so you can chain multiple attempts before the grip is actually broken."
+        "answer": "If the opponent prevents back exposure by turning into you, follow their rotation to maintain mount with the gift wrap still intact and reattempt from the new angle. If they post with the far arm, attack with kimura or transition to crucifix. If they bridge and create space, abandon the gift wrap and secure side control or reset to mount. The gift wrap control persists through most defensive reactions, so you can chain multiple attempts before the grip is actually broken.",
+        "answer_line": "Follow reactions: kimura/mount/side",
+        "distractors": {
+          "plausible": [
+            "Always finish with the armbar",
+            "Reset to guard and start over"
+          ],
+          "trap": [
+            "Force rotation against resistance"
+          ]
+        }
       }
     ],
-    "safety_considerations": "The Gift Wrap to Back transition is generally low-risk for injury when performed correctly. The primary safety concern is shoulder strain on the trapped arm if excessive force is applied to the gift wrap grip. Always apply control progressively rather than jerking the arm into position. During training, communicate with your partner if the shoulder position feels compromised. Avoid cranking the arm beyond its natural range of motion—the technique works through positional control, not joint manipulation. When drilling, release immediately if your partner taps or indicates discomfort in the shoulder."
+    "safety_considerations": "The Gift Wrap to Back transition is generally low-risk for injury when performed correctly. The primary safety concern is shoulder strain on the trapped arm if excessive force is applied to the gift wrap grip. Always apply control progressively rather than jerking the arm into position. During training, communicate with your partner if the shoulder position feels compromised. Avoid cranking the arm beyond its natural range of motion—the technique works through positional control, not joint manipulation. When drilling, release immediately if your partner taps or indicates discomfort in the shoulder.",
+    "clips": [
+      {
+        "id": "eKTd-9SkrVk",
+        "title": "Taking the back from the gift wrap",
+        "by": "Henry Akins",
+        "vertical": false,
+        "channel": "Henry Akins' Hidden Jiu-Jitsu",
+        "duration": 81,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "EOv5GYpUYDw",
+        "title": "Gift wrap back take",
+        "by": "BJJ Lab Zürich",
+        "vertical": false,
+        "channel": "BJJ Lab Zürich",
+        "duration": 69,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "-ypj83J2Ngk",
+        "title": "Sit back gift wrap to the back",
+        "by": "Watauga BJJ",
+        "vertical": false,
+        "channel": "Watauga BJJ",
+        "duration": 24,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Gift Wrap to Back Defender",
@@ -343,23 +484,73 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that a Gift Wrap to Back is being attempted?",
-        "answer": "The earliest cue is feeling the attacker's near hand control your wrist and begin pushing your arm across your body toward your opposite shoulder. This arm feed is the initiating movement of the entire technique. Recognizing this pressure immediately and reacting by keeping your elbow tight and retracting your arm is the highest-percentage defensive moment in the entire sequence."
+        "answer": "The earliest cue is feeling the attacker's near hand control your wrist and begin pushing your arm across your body toward your opposite shoulder. This arm feed is the initiating movement of the entire technique. Recognizing this pressure immediately and reacting by keeping your elbow tight and retracting your arm is the highest-percentage defensive moment in the entire sequence.",
+        "answer_line": "Feel wrist pushed across body",
+        "distractors": {
+          "plausible": [
+            "Feel hips glue to your back",
+            "Feel far hand reach under neck"
+          ],
+          "trap": [
+            "Wait until fully mounted to react"
+          ]
+        }
       },
       {
         "question": "Why is turning away from the attacker the worst defensive reaction when you feel arm pressure from S Mount?",
-        "answer": "Turning away is the exact reaction the gift wrap technique requires. It simultaneously feeds your arm across your centerline (completing half the gift wrap setup) and exposes your back (completing the positional requirement for the back take). The attacker is deliberately creating arm threat pressure specifically to provoke this turning response. Facing the attacker instead denies both conditions simultaneously."
+        "answer": "Turning away is the exact reaction the gift wrap technique requires. It simultaneously feeds your arm across your centerline (completing half the gift wrap setup) and exposes your back (completing the positional requirement for the back take). The attacker is deliberately creating arm threat pressure specifically to provoke this turning response. Facing the attacker instead denies both conditions simultaneously.",
+        "answer_line": "It feeds arm and exposes back",
+        "distractors": {
+          "plausible": [
+            "It relieves pressure on elbow",
+            "It creates space to escape"
+          ],
+          "trap": [
+            "Turn away fast to beat rotation"
+          ]
+        }
       },
       {
         "question": "What defensive dilemma does the Gift Wrap create, and how should you prioritize your responses?",
-        "answer": "The dilemma is that defending the arm tightly (keeping elbow clamped) creates armbar vulnerability, while allowing the arm to cross your body to avoid the armbar enables the gift wrap and back take. The priority should be keeping the elbow tight to prevent the gift wrap, because remaining in S Mount bottom with armbar threat is significantly better than conceding back control. You trade one bad position for a worse one by allowing the arm to cross."
+        "answer": "The dilemma is that defending the arm tightly (keeping elbow clamped) creates armbar vulnerability, while allowing the arm to cross your body to avoid the armbar enables the gift wrap and back take. The priority should be keeping the elbow tight to prevent the gift wrap, because remaining in S Mount bottom with armbar threat is significantly better than conceding back control. You trade one bad position for a worse one by allowing the arm to cross.",
+        "answer_line": "Keep elbow tight, risk armbar",
+        "distractors": {
+          "plausible": [
+            "Let arm cross to save the elbow",
+            "Split focus between both threats"
+          ],
+          "trap": [
+            "Release elbow completely to escape"
+          ]
+        }
       },
       {
         "question": "The attacker has already secured the gift wrap and begins rotating around your head — what is your best defensive option?",
-        "answer": "Block their rotation by posting your far arm against the mat and driving your shoulder into their path to prevent them from clearing your shoulder. Simultaneously hip escape toward their legs to create distance. If you can stall the rotation long enough, the attacker may need to reset or switch attacks. Accepting that stripping the grip is unlikely at this point and focusing on positional defense gives you the best chance of recovery."
+        "answer": "Block their rotation by posting your far arm against the mat and driving your shoulder into their path to prevent them from clearing your shoulder. Simultaneously hip escape toward their legs to create distance. If you can stall the rotation long enough, the attacker may need to reset or switch attacks. Accepting that stripping the grip is unlikely at this point and focusing on positional defense gives you the best chance of recovery.",
+        "answer_line": "Post far arm, hip escape to legs",
+        "distractors": {
+          "plausible": [
+            "Strip the grip with your free hand",
+            "Bridge straight up repeatedly"
+          ],
+          "trap": [
+            "Turn further into the rotation"
+          ]
+        }
       },
       {
         "question": "How can you recover half guard during the Gift Wrap to Back transition?",
-        "answer": "Time your bridge and hip escape to coincide with the attacker's rotation, when their hips momentarily lift off your body as they walk around your head. Bridge explosively while hip escaping toward their legs, then insert your top knee between your bodies to establish half guard entanglement. The key is directional escape toward their legs combined with the bridge, not just bridging upward."
+        "answer": "Time your bridge and hip escape to coincide with the attacker's rotation, when their hips momentarily lift off your body as they walk around your head. Bridge explosively while hip escaping toward their legs, then insert your top knee between your bodies to establish half guard entanglement. The key is directional escape toward their legs combined with the bridge, not just bridging upward.",
+        "answer_line": "Bridge, hip escape, insert knee",
+        "distractors": {
+          "plausible": [
+            "Bridge straight up only",
+            "Hip escape away from their legs"
+          ],
+          "trap": [
+            "Push their hips down and stall"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -382,6 +573,26 @@
         "phase": "Week 7+",
         "focus": "Live positional defense",
         "description": "Positional sparring starting from S Mount bottom. Partner uses full arsenal of attacks including armbar threats to set up the gift wrap. Defend against the complete dilemma system with full resistance. Track how often the back take is completed vs. defended, identifying remaining defensive gaps."
+      }
+    ],
+    "clips": [
+      {
+        "id": "q20Bxge55hk",
+        "title": "Super Simple Way to Avoid the Gift Wrap",
+        "by": "Coach Brian",
+        "vertical": false,
+        "channel": "TeachMeGrappling Coach Brian",
+        "duration": 719,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "MMuT666UdS4",
+        "title": "Back Escape: Stop the Progression to Mount",
+        "by": "Plus One Defense Systems",
+        "vertical": false,
+        "channel": "Plus One Defense Systems",
+        "duration": 180,
+        "verified": "2026-07-15"
       }
     ]
   },

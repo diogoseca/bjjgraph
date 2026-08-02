@@ -34,6 +34,43 @@ description: "Understand Can Opener neck crank in BJJ: safety risks, legal statu
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Can Opener \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "How to Do a Can Opener",
+      "description": "Can Opener film study: How to Do a Can Opener, taught by MMA Submissions.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/_-NGlUCnHy0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/_-NGlUCnHy0",
+      "url": "https://www.youtube.com/watch?v=_-NGlUCnHy0",
+      "creator": { "@type": "Person", "name": "MMA Submissions" },
+      "duration": "PT126S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Can Opener Cervical Choke",
+      "description": "Can Opener film study: Can Opener Cervical Choke, taught by Marcus Soares.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/FGPGkKnY_Mg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/FGPGkKnY_Mg",
+      "url": "https://www.youtube.com/watch?v=FGPGkKnY_Mg",
+      "creator": { "@type": "Person", "name": "Marcus Soares" },
+      "duration": "PT73S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -82,6 +119,34 @@ The Can Opener is a neck crank technique applied from within an opponent's close
 </section>
 
 
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Can Opener in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=_-NGlUCnHy0)
+
+<p class="clip-credit"><strong>How to Do a Can Opener</strong> — taught by MMA Submissions · 2:06 · <a href="https://www.youtube.com/watch?v=_-NGlUCnHy0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=FGPGkKnY_Mg)
+
+<p class="clip-credit"><strong>Can Opener Cervical Choke</strong> — taught by Marcus Soares · 1:13 · <a href="https://www.youtube.com/watch?v=FGPGkKnY_Mg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
+
+
 <section id="variants" class="content-section">
 
 ## What positions can you finish from?
@@ -91,7 +156,7 @@ The Can Opener is a neck crank technique applied from within an opponent's close
 
 | From Position | Seat | Success | Play as Attacker | Play as Defender |
 |---|---|---|---|---|
-| [[Submissions/Can Opener/from Closed Guard|Closed Guard]] | Top | 30% | [[Submissions/Can Opener/from Closed Guard/Attacker|Attack →]] | [[Submissions/Can Opener/from Closed Guard/Defender|Defend →]] |
+| [[Submissions/Can Opener/from Closed Guard|Closed Guard]] | Top | 65% | [[Submissions/Can Opener/from Closed Guard/Attacker|Attack →]] | [[Submissions/Can Opener/from Closed Guard/Defender|Defend →]] |
 
 
 </div>
@@ -114,13 +179,13 @@ The Can Opener is a neck crank technique applied from within an opponent's close
 <section id="related" class="content-section">
 
 ## Related
-- [[Transitions/Guillotine Choke]] - Legal alternative neck attack from similar hand positioning inside closed guard
-- [[Transitions/Darce Choke]] - Legal neck attack using blood choke mechanics rather than spinal compression
+- [[Submissions/Guillotine Choke]] - Legal alternative neck attack from similar hand positioning inside closed guard
+- [[Submissions/Darce Choke]] - Legal neck attack using blood choke mechanics rather than spinal compression
 - [[Transitions/Anaconda Choke]] - Legal neck attack focusing on carotid compression rather than cervical pressure
 - [[Submissions/Rear Naked Choke]] - Highest percentage neck submission using blood choke from back control
-- [[Transitions/Arm Triangle]] - Legal head and arm compression submission accessible from top positions
+- [[Submissions/Arm Triangle]] - Legal head and arm compression submission accessible from top positions
 - [[Submissions/Ezekiel Choke]] - Legal choke applicable from inside closed guard as safer alternative
-- [[Transitions/North-South Choke]] - Legal neck attack from dominant north-south position using shoulder pressure
+- [[Submissions/North-South Choke]] - Legal neck attack from dominant north-south position using shoulder pressure
 - [[Submissions/Cross Collar Choke]] - Legal gi-based choke from closed guard using collar grip mechanics
 - [[Positions/Closed Guard]] - Primary position where Can Opener is attempted as guard-breaking mechanism
 - [[Positions/Half Guard]] - Alternative position where Can Opener variation can be attempted with similar risks

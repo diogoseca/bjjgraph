@@ -21,37 +21,37 @@ description: "Master Z-Guard Bottom position in BJJ. Complete guide covering kne
     {
       "@type": "HowToStep",
       "name": "Execute Old School Sweep",
-      "text": "From this position, attempt Old School Sweep. This technique is attempted in 35% of exchanges from this position.",
+      "text": "From this position, attempt Old School Sweep. This technique is attempted in 7% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Underhook Sweep from Half",
-      "text": "From this position, attempt Underhook Sweep from Half. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Underhook Sweep from Half. This technique is attempted in 16% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Deep Half Entry",
-      "text": "From this position, attempt Deep Half Entry. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Deep Half Entry. This technique is attempted in 7% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Back Take from Bottom",
-      "text": "From this position, attempt Back Take from Bottom. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Back Take from Bottom. This technique is attempted in 10% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute X-Guard Sweep",
-      "text": "From this position, attempt X-Guard Sweep. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt X-Guard Sweep. This technique is attempted in 6% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Lockdown Recovery",
-      "text": "From this position, attempt Lockdown Recovery. This technique is attempted in 9% of exchanges from this position.",
+      "text": "From this position, attempt Lockdown Recovery. This technique is attempted in 5% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -154,6 +154,54 @@ description: "Master Z-Guard Bottom position in BJJ. Complete guide covering kne
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Z-Guard (Bottom) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Three attacks from the Z-Guard",
+      "description": "Z-Guard (Bottom) film study: Three attacks from the Z-Guard, taught by Way of BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/T3Gwg-ABsZA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/T3Gwg-ABsZA",
+      "url": "https://www.youtube.com/watch?v=T3Gwg-ABsZA",
+      "creator": { "@type": "Person", "name": "Way of BJJ" },
+      "duration": "PT67S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Reverse Z-Guard options, Craig Jones style",
+      "description": "Z-Guard (Bottom) film study: Reverse Z-Guard options, Craig Jones style, taught by Craig Jones.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/TrVf9YzEe0E/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/TrVf9YzEe0E",
+      "url": "https://www.youtube.com/watch?v=TrVf9YzEe0E",
+      "creator": { "@type": "Person", "name": "Craig Jones" },
+      "duration": "PT139S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Dog Bar from Z-Guard",
+      "description": "Z-Guard (Bottom) film study: Dog Bar from Z-Guard, taught by Craig Jones.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/vMqDIi10z4k/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/vMqDIi10z4k",
+      "url": "https://www.youtube.com/watch?v=vMqDIi10z4k",
+      "creator": { "@type": "Person", "name": "Craig Jones" },
+      "duration": "PT61S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <aside class="entity-relations">
@@ -168,6 +216,42 @@ The Z-Guard Bottom excels as a position that combines defensive soundness with o
 From a strategic perspective, Z-Guard Bottom represents a critical position in the modern guard retention hierarchy. It serves as an intermediary position between open guard and deep half guard, allowing practitioners to maintain distance against pressure passers while setting up transitions to more offensive positions. The position's effectiveness stems from its ability to nullify the opponent's weight advantage through proper framing and angle creation, while simultaneously threatening with sweeps that capitalize on the opponent's forward pressure. Understanding Z-Guard Bottom is essential for any serious competitor, as it addresses the fundamental problem of dealing with heavy top pressure while maintaining offensive capabilities.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Z-Guard (Bottom) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=T3Gwg-ABsZA)
+
+<p class="clip-credit"><strong>Three attacks from the Z-Guard</strong> — taught by Way of BJJ · 1:07 · <a href="https://www.youtube.com/watch?v=T3Gwg-ABsZA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=TrVf9YzEe0E)
+
+<p class="clip-credit"><strong>Reverse Z-Guard options, Craig Jones style</strong> — taught by Craig Jones · 2:19 · <a href="https://www.youtube.com/watch?v=TrVf9YzEe0E" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=vMqDIi10z4k)
+
+<p class="clip-credit"><strong>Dog Bar from Z-Guard</strong> — taught by Craig Jones · 1:01 · <a href="https://www.youtube.com/watch?v=vMqDIi10z4k" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

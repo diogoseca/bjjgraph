@@ -14,26 +14,41 @@
   "outcomes": [
     {
       "to": "Back Control/Bottom",
-      "probability": 35,
+      "probability": {
+        "gi": 35,
+        "nogi": 35
+      },
       "result": "success"
     },
     {
       "to": "Turtle/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "success"
     },
     {
       "to": "Seat Belt Control Back/Bottom",
-      "probability": 40,
+      "probability": {
+        "gi": 40,
+        "nogi": 40
+      },
       "result": "failure"
     },
     {
       "to": "Seat Belt Control Back/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 45,
+  "success_rate": {
+    "gi": 45,
+    "nogi": 45
+  },
   "overview": "Hand fighting from seat belt control represents the most critical defensive micro-battle in the back control escape hierarchy. When an opponent establishes the seat belt grip from back control, they gain biomechanically superior control through opposing diagonal force vectors across your torso. The over-shoulder arm creates downward pressure while the under-armpit arm creates upward pressure, locking your upper body in place. The hand fight is the essential first step in any escape sequence, as attempting hip escapes or hook removal while the seat belt remains intact typically results in the opponent re-establishing tighter control or advancing to choke positions through your compromised defensive posture.\n\nThe technique demands disciplined two-on-one grip fighting methodology rather than explosive strength. The bottom player must identify which arm presents the greater immediate threat - typically the over-shoulder arm that provides both primary choking leverage and the structural keystone of the grip configuration - and systematically address it while maintaining neck protection with the remaining free hand. This creates constant tactical tension: every hand committed to grip breaking is one less hand protecting your throat. Managing this dilemma through proper sequencing, rhythmic timing, and positional awareness separates effective hand fighters from practitioners who exhaust themselves without meaningful progress against skilled back attackers.\n\nSuccessful hand fighting creates cascading defensive advantages that compound through the escape sequence. Breaking the seat belt downgrades opponent's control from the specialized diagonal configuration to general back control, reducing submission options and overall retention capacity. This positional degradation opens pathways for secondary escape sequences including back door escapes, hip escapes to turtle, and elbow escapes to half guard. The hand fight is therefore not an isolated technique but a gateway action that enables the full spectrum of back escape methodology.",
   "conditions": [
     "Opponent has established seat belt grip configuration with one arm over your shoulder and one arm under your opposite armpit",
@@ -252,42 +267,152 @@
     "flashcards": [
       {
         "question": "Your opponent has a strong gable grip connecting their seat belt - which arm should you prioritize stripping first and why?",
-        "answer": "Prioritize the over-shoulder arm because it serves as both the primary choking platform and the structural keystone of the seat belt configuration. The over-arm provides the diagonal downward force that pins your shoulder and creates the angle needed for rear naked choke entry. Once the over-arm is stripped, the under-arm alone cannot maintain the same level of control or submission threat, making subsequent escape significantly easier. The under-arm without the over-arm becomes a single underhook with limited controlling power."
+        "answer": "Prioritize the over-shoulder arm because it serves as both the primary choking platform and the structural keystone of the seat belt configuration. The over-arm provides the diagonal downward force that pins your shoulder and creates the angle needed for rear naked choke entry. Once the over-arm is stripped, the under-arm alone cannot maintain the same level of control or submission threat, making subsequent escape significantly easier. The under-arm without the over-arm becomes a single underhook with limited controlling power.",
+        "answer_line": "Strip over-shoulder arm first",
+        "distractors": {
+          "plausible": [
+            "Strip under-arm first",
+            "Strip both arms at once"
+          ],
+          "trap": [
+            "Drop chin tuck to grip fight"
+          ]
+        }
       },
       {
         "question": "During your hand fight attempt, your opponent begins sliding their forearm toward your neck - what is your immediate response?",
-        "answer": "Immediately abandon the grip break and return both hands to neck defense. Tuck your chin harder to your chest and use a two-on-one grip on their advancing forearm to pull it away from your throat. Only resume hand fighting once the choke threat is fully neutralized and your neck defense is re-established. The hand fight can always be restarted from zero, but allowing a choke to lock in during the grip fight may end the match within seconds as the rear naked choke compresses carotid arteries rapidly."
+        "answer": "Immediately abandon the grip break and return both hands to neck defense. Tuck your chin harder to your chest and use a two-on-one grip on their advancing forearm to pull it away from your throat. Only resume hand fighting once the choke threat is fully neutralized and your neck defense is re-established. The hand fight can always be restarted from zero, but allowing a choke to lock in during the grip fight may end the match within seconds as the rear naked choke compresses carotid arteries rapidly.",
+        "answer_line": "Tuck chin, abandon grip fight",
+        "distractors": {
+          "plausible": [
+            "Grab wrist, keep chin up",
+            "Frame off, push away hard"
+          ],
+          "trap": [
+            "Finish grip strip, defend next"
+          ]
+        }
       },
       {
         "question": "What role does hip movement play in effective hand fighting from seat belt control?",
-        "answer": "Hip movement creates angles that mechanically weaken the seat belt grip structure by changing the force vectors through which the grip operates. When you hip escape or shrimp, your torso rotates slightly, which misaligns the diagonal over-under configuration and reduces its structural integrity. This mechanical weakening means grip strips require significantly less force, transforming what would be a pure strength contest into a technical sequence where timing and angles overcome grip endurance. Hip movement also creates space between your back and opponent's chest, further reducing their control leverage."
+        "answer": "Hip movement creates angles that mechanically weaken the seat belt grip structure by changing the force vectors through which the grip operates. When you hip escape or shrimp, your torso rotates slightly, which misaligns the diagonal over-under configuration and reduces its structural integrity. This mechanical weakening means grip strips require significantly less force, transforming what would be a pure strength contest into a technical sequence where timing and angles overcome grip endurance. Hip movement also creates space between your back and opponent's chest, further reducing their control leverage.",
+        "answer_line": "Shrimp to weaken seat belt grip",
+        "distractors": {
+          "plausible": [
+            "Hip movement only tires them out",
+            "Bridge hard to break the grip"
+          ],
+          "trap": [
+            "Stay still, save your energy"
+          ]
+        }
       },
       {
         "question": "How do you prevent your opponent from immediately re-gripping after you strip one arm of the seat belt?",
-        "answer": "After stripping the over-arm, immediately pin it against your body by trapping it between your elbow and hip or by controlling the wrist against your torso with one hand. Maintain constant downward pressure on the stripped arm while transitioning your remaining free hand to begin attacking the under-arm. The critical error is releasing the stripped arm entirely to address the second grip with both hands, which allows instant re-connection. Keep the first arm physically controlled throughout the entire remaining sequence until you transition to an escape."
+        "answer": "After stripping the over-arm, immediately pin it against your body by trapping it between your elbow and hip or by controlling the wrist against your torso with one hand. Maintain constant downward pressure on the stripped arm while transitioning your remaining free hand to begin attacking the under-arm. The critical error is releasing the stripped arm entirely to address the second grip with both hands, which allows instant re-connection. Keep the first arm physically controlled throughout the entire remaining sequence until you transition to an escape.",
+        "answer_line": "Pin stripped arm to your body",
+        "distractors": {
+          "plausible": [
+            "Release it, attack other arm",
+            "Hold with two hands briefly"
+          ],
+          "trap": [
+            "Free both hands for second arm"
+          ]
+        }
       },
       {
         "question": "Your opponent switches from seat belt to a gift wrap grip when you begin hand fighting - how should you adjust your defense?",
-        "answer": "Recognize that the transition between grip configurations creates a brief window of reduced control where opponent must release one or both connection points to reconfigure. This transition moment offers the best escape opportunity - use it to immediately initiate hip escape or begin turning into your opponent. If they complete the gift wrap before you can escape, address this new configuration with arm extraction and rotation toward the trapped arm side, which is a different technical sequence than seat belt stripping."
+        "answer": "Recognize that the transition between grip configurations creates a brief window of reduced control where opponent must release one or both connection points to reconfigure. This transition moment offers the best escape opportunity - use it to immediately initiate hip escape or begin turning into your opponent. If they complete the gift wrap before you can escape, address this new configuration with arm extraction and rotation toward the trapped arm side, which is a different technical sequence than seat belt stripping.",
+        "answer_line": "Escape during the grip switch",
+        "distractors": {
+          "plausible": [
+            "Wait, then defend gift wrap",
+            "Fight grip mid-switch"
+          ],
+          "trap": [
+            "Stay put, brace for gift wrap"
+          ]
+        }
       },
       {
         "question": "What is the ideal timing for initiating hand fighting from seat belt back control?",
-        "answer": "Initiate hand fighting when opponent is in a maintenance phase rather than actively advancing a submission. If they are driving their forearm toward your neck, your hands must defend rather than attack grips. Wait for moments when their grip focus shifts to holding control rather than progressing attacks. Also time hand fight attempts with your own hip movement - begin the strip when you shrimp, as the combined directional forces of your hip escape and your grip pull multiply the effectiveness of the strip against a grip weakened by angular displacement."
+        "answer": "Initiate hand fighting when opponent is in a maintenance phase rather than actively advancing a submission. If they are driving their forearm toward your neck, your hands must defend rather than attack grips. Wait for moments when their grip focus shifts to holding control rather than progressing attacks. Also time hand fight attempts with your own hip movement - begin the strip when you shrimp, as the combined directional forces of your hip escape and your grip pull multiply the effectiveness of the strip against a grip weakened by angular displacement.",
+        "answer_line": "When they pause, not attacking",
+        "distractors": {
+          "plausible": [
+            "Anytime, keep attacking grips",
+            "Right when hooks go in"
+          ],
+          "trap": [
+            "While their forearm nears neck"
+          ]
+        }
       },
       {
         "question": "How do you manage energy during extended hand fighting sequences against a patient opponent who reinforces grips effectively?",
-        "answer": "Use rhythmic pulsing rather than sustained maximum effort. Apply strong grip break attempts for 3-5 seconds, then reduce intensity briefly while maintaining chin tuck and passive arm control. This pulse-rest pattern preserves grip endurance over minutes rather than depleting it in seconds. Focus on wrist manipulation technique over raw pulling force. Control breathing deliberately - exhale during effort phases and inhale during recovery windows. Accept that multiple cycles may be needed and that each partially successful strip weakens opponent's grip endurance cumulatively."
+        "answer": "Use rhythmic pulsing rather than sustained maximum effort. Apply strong grip break attempts for 3-5 seconds, then reduce intensity briefly while maintaining chin tuck and passive arm control. This pulse-rest pattern preserves grip endurance over minutes rather than depleting it in seconds. Focus on wrist manipulation technique over raw pulling force. Control breathing deliberately - exhale during effort phases and inhale during recovery windows. Accept that multiple cycles may be needed and that each partially successful strip weakens opponent's grip endurance cumulatively.",
+        "answer_line": "Pulse effort, rest briefly",
+        "distractors": {
+          "plausible": [
+            "Max effort the whole time",
+            "One big explosive pull"
+          ],
+          "trap": [
+            "Hold breath, grind constantly"
+          ]
+        }
       },
       {
         "question": "Which grip connection type on the seat belt is most vulnerable to two-on-one wrist peel and how should you adjust your stripping technique against a gable grip versus a wrist-on-wrist grab?",
-        "answer": "The wrist-on-wrist grab is the most vulnerable to two-on-one peel because it relies on a single point of friction at the wrist contact. Attack it by rotating the captured wrist outward while pulling downward, peeling the grabbing hand off the wrist surface. Against a gable grip, which distributes force across interlocked fingers, direct peeling is less effective. Instead, target the weakest link by isolating and bending back individual fingers, or use rotational torque on the entire forearm to twist the palm-to-palm connection apart. Against gable grips, combining wrist rotation with a simultaneous hip escape generates enough angular disruption to separate the connection."
+        "answer": "The wrist-on-wrist grab is the most vulnerable to two-on-one peel because it relies on a single point of friction at the wrist contact. Attack it by rotating the captured wrist outward while pulling downward, peeling the grabbing hand off the wrist surface. Against a gable grip, which distributes force across interlocked fingers, direct peeling is less effective. Instead, target the weakest link by isolating and bending back individual fingers, or use rotational torque on the entire forearm to twist the palm-to-palm connection apart. Against gable grips, combining wrist rotation with a simultaneous hip escape generates enough angular disruption to separate the connection.",
+        "answer_line": "Wrist-on-wrist, peel it first",
+        "distractors": {
+          "plausible": [
+            "Gable grip, easiest to peel",
+            "Both grips equally weak"
+          ],
+          "trap": [
+            "Yank gable grip straight out"
+          ]
+        }
       },
       {
         "question": "You have successfully broken the seat belt but your opponent still has both hooks in - what is the correct sequence of actions in the next three seconds?",
-        "answer": "In the first second, immediately execute a sharp hip escape to the side of the bottom hook, creating angular separation between your back and opponent's chest before they can re-grip. In the second second, use your near-side elbow to frame against their top leg while bringing your far-side hand to control their bottom hook ankle, preventing hook reinforcement. In the third second, drive your hips to the mat on the bottom hook side while stripping the bottom hook with your hand, initiating the transition to turtle or half guard. The critical principle is never pausing after the grip break - the window before re-establishment is approximately two to three seconds, and every moment spent stationary allows opponent to reconfigure control."
+        "answer": "In the first second, immediately execute a sharp hip escape to the side of the bottom hook, creating angular separation between your back and opponent's chest before they can re-grip. In the second second, use your near-side elbow to frame against their top leg while bringing your far-side hand to control their bottom hook ankle, preventing hook reinforcement. In the third second, drive your hips to the mat on the bottom hook side while stripping the bottom hook with your hand, initiating the transition to turtle or half guard. The critical principle is never pausing after the grip break - the window before re-establishment is approximately two to three seconds, and every moment spent stationary allows opponent to reconfigure control.",
+        "answer_line": "Hip escape, frame, strip hook",
+        "distractors": {
+          "plausible": [
+            "Sit up and turn to face them",
+            "Wait for chest pressure to ease"
+          ],
+          "trap": [
+            "Pause to reset before moving"
+          ]
+        }
       }
     ],
-    "safety_considerations": "Hand fighting from back control carries inherent neck injury risk due to the proximity of choking attacks throughout the sequence. Never fully extend or lift your chin during grip breaks, as even momentary throat exposure invites choke entry that can compress carotid arteries and cause unconsciousness within seconds. If opponent secures a choke during hand fighting, immediately prioritize choke defense over continuing the grip break. In training, tap early when chokes are locked rather than continuing to fight grips. Communicate with training partners about appropriate resistance levels during back defense drilling to prevent cervical strain from explosive neck movements."
+    "safety_considerations": "Hand fighting from back control carries inherent neck injury risk due to the proximity of choking attacks throughout the sequence. Never fully extend or lift your chin during grip breaks, as even momentary throat exposure invites choke entry that can compress carotid arteries and cause unconsciousness within seconds. If opponent secures a choke during hand fighting, immediately prioritize choke defense over continuing the grip break. In training, tap early when chokes are locked rather than continuing to fight grips. Communicate with training partners about appropriate resistance levels during back defense drilling to prevent cervical strain from explosive neck movements.",
+    "clips": [
+      {
+        "id": "djhMEfVZozo",
+        "title": "Back escape vs seatbelt grip",
+        "by": "Skyhook Martial Arts coach",
+        "vertical": false,
+        "channel": "Skyhook Martial Arts & Fitness",
+        "duration": 36,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "cWrV0wc6jyQ",
+        "title": "\"Home Alone\" back escape off the seat belt",
+        "by": "Procel BJJ coach",
+        "vertical": false,
+        "channel": "Procel Brazilian Jiu-Jitsu",
+        "duration": 84,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Hand Fight from Seat Belt Control Defender",
@@ -369,19 +494,59 @@
     "flashcards": [
       {
         "question": "When your opponent begins two-on-one attacking your over-shoulder arm, what counter-attack should you immediately threaten?",
-        "answer": "Immediately advance your free under-armpit arm toward their throat as a choke threat. Since they've committed both hands to stripping your over-arm, their neck is completely undefended. This creates a defensive dilemma where they must either release the grip fight to defend the choke or accept the choke risk while continuing to strip. Even if the choke does not finish, it forces them to abandon the two-on-one attack and return to neck defense, resetting their progress."
+        "answer": "Immediately advance your free under-armpit arm toward their throat as a choke threat. Since they've committed both hands to stripping your over-arm, their neck is completely undefended. This creates a defensive dilemma where they must either release the grip fight to defend the choke or accept the choke risk while continuing to strip. Even if the choke does not finish, it forces them to abandon the two-on-one attack and return to neck defense, resetting their progress.",
+        "answer_line": "Threaten choke with free arm",
+        "distractors": {
+          "plausible": [
+            "Pull away hard with both hands",
+            "Wait for them to finish stripping"
+          ],
+          "trap": [
+            "Give up under-arm to defend"
+          ]
+        }
       },
       {
         "question": "How do you maintain seat belt control when opponent uses hip escapes coordinated with hand fighting?",
-        "answer": "Follow their hip movement by adjusting your own hip position to maintain perpendicular alignment with their spine. Deepen your hooks in response to hip escapes, using your bottom hook to prevent the shrimp motion from completing. Increase chest pressure to close any space created by the hip escape before it can compound into rotational angle. The combination of hook adjustment, hip following, and chest pressure neutralizes the mechanical advantage that hip escapes provide to their grip fighting."
+        "answer": "Follow their hip movement by adjusting your own hip position to maintain perpendicular alignment with their spine. Deepen your hooks in response to hip escapes, using your bottom hook to prevent the shrimp motion from completing. Increase chest pressure to close any space created by the hip escape before it can compound into rotational angle. The combination of hook adjustment, hip following, and chest pressure neutralizes the mechanical advantage that hip escapes provide to their grip fighting.",
+        "answer_line": "Follow hips, deepen hooks",
+        "distractors": {
+          "plausible": [
+            "Squeeze grip tighter only",
+            "Sit back to reset base"
+          ],
+          "trap": [
+            "Release hooks to chase hips"
+          ]
+        }
       },
       {
         "question": "Your opponent successfully strips your over-arm grip - what is your immediate positional adjustment?",
-        "answer": "Immediately transition the stripped arm to an alternative control position: thread it under their armpit for double underhook control, swim it across their body for gift wrap position, or re-establish the seat belt from the opposite side. Do not chase the original grip configuration if it has been cleanly broken. Simultaneously increase chest pressure and hook depth to compensate for reduced upper body control during the transition. Maintaining back control through alternative means preserves your positional advantage."
+        "answer": "Immediately transition the stripped arm to an alternative control position: thread it under their armpit for double underhook control, swim it across their body for gift wrap position, or re-establish the seat belt from the opposite side. Do not chase the original grip configuration if it has been cleanly broken. Simultaneously increase chest pressure and hook depth to compensate for reduced upper body control during the transition. Maintaining back control through alternative means preserves your positional advantage.",
+        "answer_line": "Swim to gift wrap or underhook",
+        "distractors": {
+          "plausible": [
+            "Re-grab the same grip fast",
+            "Switch to full nelson grip"
+          ],
+          "trap": [
+            "Let go of hooks to re-grip arm"
+          ]
+        }
       },
       {
         "question": "What grip reinforcement strategies are most effective against technically skilled hand fighters who use wrist rotation and finger isolation?",
-        "answer": "Use alternating grip configurations to prevent opponent from developing a consistent stripping rhythm. Switch between gable grip, palm cup, and wrist-on-wrist connections every 15-20 seconds to force them to constantly readapt their stripping approach. Position your grip connection deeper on the far side of their body where access is more difficult. Keep elbows tight to reduce exposed forearm surface area. These micro-adjustments compound to make sustained technical hand fighting significantly more difficult for even skilled opponents."
+        "answer": "Use alternating grip configurations to prevent opponent from developing a consistent stripping rhythm. Switch between gable grip, palm cup, and wrist-on-wrist connections every 15-20 seconds to force them to constantly readapt their stripping approach. Position your grip connection deeper on the far side of their body where access is more difficult. Keep elbows tight to reduce exposed forearm surface area. These micro-adjustments compound to make sustained technical hand fighting significantly more difficult for even skilled opponents.",
+        "answer_line": "Rotate grips every 15-20 sec",
+        "distractors": {
+          "plausible": [
+            "Grip harder with one config",
+            "Widen elbows for more reach"
+          ],
+          "trap": [
+            "Keep elbows wide, arms extended"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -404,6 +569,35 @@
         "phase": "Grip Configuration Transitions",
         "focus": "Seamless transitions between seat belt, gift wrap, and alternative controls under pressure",
         "description": "When partner successfully breaks your seat belt, immediately transition to alternative control rather than re-fighting the same grip. Practice flowing between seat belt, gift wrap, double underhooks, and body triangle configurations to maintain back control despite successful grip breaks."
+      }
+    ],
+    "clips": [
+      {
+        "id": "y_GjhMb6Qf8",
+        "title": "Holding the seatbelt position from the back",
+        "by": "Kyuzo BJJ coach",
+        "vertical": false,
+        "channel": "Kyuzo Brazilian Jiu Jitsu",
+        "duration": 26,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "MwxnveKrlxU",
+        "title": "Quick fix for a stronger seatbelt grip",
+        "by": "Ben Kool",
+        "vertical": false,
+        "channel": "Ben Kool Tech",
+        "duration": 62,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "Wga4PfuShEg",
+        "title": "Keeping the seatbelt grip in back control",
+        "by": "Academy Jiu Jitsu coach",
+        "vertical": false,
+        "channel": "Academy Jiu Jitsu",
+        "duration": 114,
+        "verified": "2026-07-15"
       }
     ]
   }

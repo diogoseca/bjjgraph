@@ -174,6 +174,54 @@ description: "How to execute Turtle to Standing escape in BJJ. Complete attackin
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Turtle to Standing (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Standing up from turtle, step 5",
+      "description": "Turtle to Standing (Attacker) film study: Standing up from turtle, step 5, taught by Priit Mihkelson.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/_sBB-O8fqP4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/_sBB-O8fqP4",
+      "url": "https://www.youtube.com/watch?v=_sBB-O8fqP4",
+      "creator": { "@type": "Person", "name": "Priit Mihkelson" },
+      "duration": "PT114S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Sit out from turtle with head on back",
+      "description": "Turtle to Standing (Attacker) film study: Sit out from turtle with head on back, taught by Mj\u00f8lnir Fight Club.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/d312j3n9fIw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/d312j3n9fIw",
+      "url": "https://www.youtube.com/watch?v=d312j3n9fIw",
+      "creator": { "@type": "Person", "name": "Mj\u00f8lnir Fight Club" },
+      "duration": "PT30S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Standing up without exposing your back",
+      "description": "Turtle to Standing (Attacker) film study: Standing up without exposing your back, taught by Brandon McCaghren.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/TsBQBAp5o_I/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/TsBQBAp5o_I",
+      "url": "https://www.youtube.com/watch?v=TsBQBAp5o_I",
+      "creator": { "@type": "Person", "name": "Brandon McCaghren" },
+      "duration": "PT146S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -183,6 +231,42 @@ Executing the Turtle to Standing transition requires coordinating explosive hip 
 **From Position**: [[Positions/Turtle]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Turtle to Standing (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=_sBB-O8fqP4)
+
+<p class="clip-credit"><strong>Standing up from turtle, step 5</strong> — taught by Priit Mihkelson · 1:54 · <a href="https://www.youtube.com/watch?v=_sBB-O8fqP4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=d312j3n9fIw)
+
+<p class="clip-credit"><strong>Sit out from turtle with head on back</strong> — taught by Mjølnir Fight Club · 0:30 · <a href="https://www.youtube.com/watch?v=d312j3n9fIw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=TsBQBAp5o_I)
+
+<p class="clip-credit"><strong>Standing up without exposing your back</strong> — taught by Brandon McCaghren · 2:26 · <a href="https://www.youtube.com/watch?v=TsBQBAp5o_I" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

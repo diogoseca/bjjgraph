@@ -21,37 +21,37 @@ description: "Master Kimura Trap Bottom in BJJ. Defensive control position with 
     {
       "@type": "HowToStep",
       "name": "Execute Old School Sweep",
-      "text": "From this position, attempt Old School Sweep. This technique is attempted in 29% of exchanges from this position.",
+      "text": "From this position, attempt Old School Sweep. This technique is attempted in 11% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Kimura to Back Take",
-      "text": "From this position, attempt Kimura to Back Take. This technique is attempted in 14% of exchanges from this position.",
+      "text": "From this position, attempt Kimura to Back Take. This technique is attempted in 16% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Rolling Kimura",
-      "text": "From this position, attempt Rolling Kimura. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Rolling Kimura. This technique is attempted in 13% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Kimura Sweep",
-      "text": "From this position, attempt Kimura Sweep. This technique is attempted in 9% of exchanges from this position.",
+      "text": "From this position, attempt Kimura Sweep. This technique is attempted in 14% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Underhook Sweep from Half",
-      "text": "From this position, attempt Underhook Sweep from Half. This technique is attempted in 6% of exchanges from this position.",
+      "text": "From this position, attempt Underhook Sweep from Half. This technique is attempted in 11% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Half Guard to Back Take",
-      "text": "From this position, attempt Half Guard to Back Take. This technique is attempted in 6% of exchanges from this position.",
+      "text": "From this position, attempt Half Guard to Back Take. This technique is attempted in 11% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -153,6 +153,54 @@ description: "Master Kimura Trap Bottom in BJJ. Defensive control position with 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Kimura Trap (Bottom) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Kimura Trap Rolling Sweep from Bottom",
+      "description": "Kimura Trap (Bottom) film study: Kimura Trap Rolling Sweep from Bottom, taught by Mat Life Training Center.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/YvTmqi750wQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/YvTmqi750wQ",
+      "url": "https://www.youtube.com/watch?v=YvTmqi750wQ",
+      "creator": { "@type": "Person", "name": "Mat Life Training Center" },
+      "duration": "PT31S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Half Guard Kimura Sweep 2 ways",
+      "description": "Kimura Trap (Bottom) film study: Half Guard Kimura Sweep 2 ways, taught by OMJJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Px0XWVtlHAM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Px0XWVtlHAM",
+      "url": "https://www.youtube.com/watch?v=Px0XWVtlHAM",
+      "creator": { "@type": "Person", "name": "OMJJJ" },
+      "duration": "PT70S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Bottom Half Guard Kimura Elevator Sweep",
+      "description": "Kimura Trap (Bottom) film study: Bottom Half Guard Kimura Elevator Sweep, taught by David Avellan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/3DrVJNkQqFo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/3DrVJNkQqFo",
+      "url": "https://www.youtube.com/watch?v=3DrVJNkQqFo",
+      "creator": { "@type": "Person", "name": "David Avellan" },
+      "duration": "PT201S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -166,6 +214,42 @@ The Kimura Trap Bottom exemplifies modern BJJ's emphasis on creating offensive o
 Strategically, the position forces top players into impossible choices—they must simultaneously defend the Kimura submission, prevent sweeps, and maintain positional control, but cannot effectively address all three threats. This creates predictable defensive reactions that the bottom player can exploit with predetermined counters. The position is particularly effective in both gi and no-gi contexts, with the Kimura grip providing reliable control regardless of friction and grip variations available. Advanced practitioners use the Kimura Trap Bottom as their primary half guard system, often preferring it to traditional underhook-based approaches due to its superior control and finishing mechanics.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Kimura Trap (Bottom) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=YvTmqi750wQ)
+
+<p class="clip-credit"><strong>Kimura Trap Rolling Sweep from Bottom</strong> — taught by Mat Life Training Center · 0:31 · <a href="https://www.youtube.com/watch?v=YvTmqi750wQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Px0XWVtlHAM)
+
+<p class="clip-credit"><strong>Half Guard Kimura Sweep 2 ways</strong> — taught by OMJJJ · 1:10 · <a href="https://www.youtube.com/watch?v=Px0XWVtlHAM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=3DrVJNkQqFo)
+
+<p class="clip-credit"><strong>Bottom Half Guard Kimura Elevator Sweep</strong> — taught by David Avellan · 3:21 · <a href="https://www.youtube.com/watch?v=3DrVJNkQqFo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

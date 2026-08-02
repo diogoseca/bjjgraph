@@ -148,6 +148,43 @@ description: "Learn to defend against underhook pummeling in the clinch. Recogni
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Underhook Pummeling from Clinch (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "How to escape underhooks in the clinch",
+      "description": "Underhook Pummeling from Clinch (Defender) film study: How to escape underhooks in the clinch, taught by Muaythai Muppets coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/i5pNuC1_uyA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/i5pNuC1_uyA",
+      "url": "https://www.youtube.com/watch?v=i5pNuC1_uyA",
+      "creator": { "@type": "Person", "name": "Muaythai Muppets coach" },
+      "duration": "PT75S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Defending the double underhooks",
+      "description": "Underhook Pummeling from Clinch (Defender) film study: Defending the double underhooks, taught by Mark Weir.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/mlEClPMNcPk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/mlEClPMNcPk",
+      "url": "https://www.youtube.com/watch?v=mlEClPMNcPk",
+      "creator": { "@type": "Person", "name": "Mark Weir" },
+      "duration": "PT96S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +194,34 @@ Defending against underhook pummeling requires maintaining your established grip
 **Opponent's Starting Position**: [[Positions/Clinch]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Underhook Pummeling from Clinch (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=i5pNuC1_uyA)
+
+<p class="clip-credit"><strong>How to escape underhooks in the clinch</strong> — taught by Muaythai Muppets coach · 1:15 · <a href="https://www.youtube.com/watch?v=i5pNuC1_uyA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=mlEClPMNcPk)
+
+<p class="clip-credit"><strong>Defending the double underhooks</strong> — taught by Mark Weir · 1:36 · <a href="https://www.youtube.com/watch?v=mlEClPMNcPk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

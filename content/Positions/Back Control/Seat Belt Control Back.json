@@ -297,89 +297,237 @@
     "transitions": [
       {
         "transition": "Rear Naked Choke from Seat Belt Control Back",
-        "attempt_probability": 37
+        "attempt_probability": {
+          "gi": 21,
+          "nogi": 30
+        }
       },
       {
         "transition": "Armbar from Back Transition",
-        "attempt_probability": 10
+        "attempt_probability": {
+          "gi": 4,
+          "nogi": 4
+        }
       },
       {
         "transition": "Bow and Arrow Choke from Seat Belt Control Back",
-        "attempt_probability": 7
+        "attempt_probability": {
+          "gi": 15,
+          "nogi": 0
+        }
       },
       {
         "transition": "Back Control to Crucifix",
-        "attempt_probability": 6
+        "attempt_probability": {
+          "gi": 4,
+          "nogi": 5
+        }
       },
       {
         "transition": "Short Choke from Seat Belt Control Back",
-        "attempt_probability": 5
+        "attempt_probability": {
+          "gi": 5,
+          "nogi": 5
+        }
       },
       {
         "transition": "Back Control Maintenance",
-        "attempt_probability": 13
+        "attempt_probability": {
+          "gi": 17,
+          "nogi": 17
+        }
       },
       {
         "transition": "Body Triangle Lock",
-        "attempt_probability": 6
+        "attempt_probability": {
+          "gi": 8,
+          "nogi": 11
+        }
       },
       {
         "transition": "Kimura from Back",
-        "attempt_probability": 3
+        "attempt_probability": {
+          "gi": 3,
+          "nogi": 3
+        }
       },
       {
         "transition": "Triangle from Back",
-        "attempt_probability": 3
+        "attempt_probability": {
+          "gi": 3,
+          "nogi": 3
+        }
       },
       {
         "transition": "Roll to Truck",
-        "attempt_probability": 3
+        "attempt_probability": {
+          "gi": 2,
+          "nogi": 5
+        }
       },
       {
         "transition": "Gift Wrap",
-        "attempt_probability": 5
+        "attempt_probability": {
+          "gi": 5,
+          "nogi": 5
+        }
       },
       {
         "transition": "Seat Belt to Body Triangle",
-        "attempt_probability": 1
+        "attempt_probability": {
+          "gi": 6,
+          "nogi": 6
+        }
       },
       {
         "transition": "Seat Belt to Full Back Control",
-        "attempt_probability": 1
+        "attempt_probability": {
+          "gi": 7,
+          "nogi": 6
+        }
       }
     ],
     "flashcards": [
       {
         "question": "Your opponent begins bridging explosively while hand fighting your seat belt grip - what immediate adjustment do you make?",
-        "answer": "Drop your weight lower on their back by sliding your hips down toward their hips, tighten chest-to-back connection to eliminate any space created by the bridge, and drive your hooks deeper to prevent hip rotation. The bridge creates momentary space that you must immediately close by following their movement with your body weight while reinforcing your grip connection. Never allow the bridge to create cumulative space - match their movement with downward pressure."
+        "answer": "Drop your weight lower on their back by sliding your hips down toward their hips, tighten chest-to-back connection to eliminate any space created by the bridge, and drive your hooks deeper to prevent hip rotation. The bridge creates momentary space that you must immediately close by following their movement with your body weight while reinforcing your grip connection. Never allow the bridge to create cumulative space - match their movement with downward pressure.",
+        "answer_line": "Drop weight, deepen hooks",
+        "distractors": {
+          "plausible": [
+            "Squeeze harder on grip",
+            "Wait for bridge to stop"
+          ],
+          "trap": [
+            "Lift hips to block bridge"
+          ]
+        }
       },
       {
         "question": "What are the essential grip configurations for maintaining seat belt control from the back?",
-        "answer": "The primary seat belt configuration requires one arm over opponent's shoulder and the other under their opposite armpit, with hands connected across their chest or lat area. Connection options include gable grip (palm-to-palm with fingers interlocked), wrist-on-wrist grab, or palm cup grip. The over-arm should stay tight to prevent opponent from trapping it, while the under-arm provides the primary choking threat. Hand connection must be constantly reinforced as breaking this connection is opponent's primary escape objective."
+        "answer": "The primary seat belt configuration requires one arm over opponent's shoulder and the other under their opposite armpit, with hands connected across their chest or lat area. Connection options include gable grip (palm-to-palm with fingers interlocked), wrist-on-wrist grab, or palm cup grip. The over-arm should stay tight to prevent opponent from trapping it, while the under-arm provides the primary choking threat. Hand connection must be constantly reinforced as breaking this connection is opponent's primary escape objective.",
+        "answer_line": "Over-under diagonal, hands joined",
+        "distractors": {
+          "plausible": [
+            "Both arms over shoulders",
+            "Double underhooks only"
+          ],
+          "trap": [
+            "Grip opponent's far wrist"
+          ]
+        }
       },
       {
         "question": "What is the optimal weight distribution for maintaining seat belt back control without exhausting yourself?",
-        "answer": "Weight should be distributed primarily through chest compression against opponent's back and through your hooks/legs rather than through arm strength. Your core and hips provide the controlling pressure while arms maintain grip connection without generating force. Approximately 60% of control pressure should come from chest-to-back connection and hook tension, 30% from hip positioning, and only 10% from arm grip. This allows sustained control without grip fatigue that leads to position loss."
+        "answer": "Weight should be distributed primarily through chest compression against opponent's back and through your hooks/legs rather than through arm strength. Your core and hips provide the controlling pressure while arms maintain grip connection without generating force. Approximately 60% of control pressure should come from chest-to-back connection and hook tension, 30% from hip positioning, and only 10% from arm grip. This allows sustained control without grip fatigue that leads to position loss.",
+        "answer_line": "Chest & hooks, not arm strength",
+        "distractors": {
+          "plausible": [
+            "Squeeze tight with both arms",
+            "Weight on hip, light chest"
+          ],
+          "trap": [
+            "Grip as hard as possible"
+          ]
+        }
       },
       {
         "question": "How do you shut down the primary escape attempt where opponent tries to slide their hips to the mat and turn toward you?",
-        "answer": "Immediately drop your bottom hook deeper while using your top hook to prevent their far hip from rotating. Increase chest pressure to pin their shoulders forward, preventing the rotation needed to turn. If they create any angle, immediately follow by adjusting your body position to maintain perpendicular alignment with their spine. The key is preventing the initial rotation rather than recovering after they've created angle - once momentum builds, escape probability increases exponentially."
+        "answer": "Immediately drop your bottom hook deeper while using your top hook to prevent their far hip from rotating. Increase chest pressure to pin their shoulders forward, preventing the rotation needed to turn. If they create any angle, immediately follow by adjusting your body position to maintain perpendicular alignment with their spine. The key is preventing the initial rotation rather than recovering after they've created angle - once momentum builds, escape probability increases exponentially.",
+        "answer_line": "Drop bottom hook, block far hip",
+        "distractors": {
+          "plausible": [
+            "Increase choke pressure",
+            "Follow angle after it forms"
+          ],
+          "trap": [
+            "Release hooks to reposition"
+          ]
+        }
       },
       {
         "question": "What grip priorities should you maintain when opponent actively attacks your seat belt with both hands?",
-        "answer": "Prioritize maintaining hand connection above all else - if hands separate, immediately reconnect before opponent can exploit the opening. When opponent attacks your over-arm grip, use your under-arm to reinforce by grabbing your own wrist. When opponent attacks under-arm, sink it deeper toward their far hip making it harder to access. Switch between grip configurations (gable, wrist, palm cup) based on which provides best security against their specific attack. Never allow both grips to be compromised simultaneously."
+        "answer": "Prioritize maintaining hand connection above all else - if hands separate, immediately reconnect before opponent can exploit the opening. When opponent attacks your over-arm grip, use your under-arm to reinforce by grabbing your own wrist. When opponent attacks under-arm, sink it deeper toward their far hip making it harder to access. Switch between grip configurations (gable, wrist, palm cup) based on which provides best security against their specific attack. Never allow both grips to be compromised simultaneously.",
+        "answer_line": "Reconnect hands immediately",
+        "distractors": {
+          "plausible": [
+            "Switch fully to gable grip",
+            "Sink under-arm deeper only"
+          ],
+          "trap": [
+            "Let one grip go to save other"
+          ]
+        }
       },
       {
         "question": "Your opponent is defending perfectly with chin tucked and hands controlling your choking arm - how do you apply pressure to force a reaction?",
-        "answer": "Apply diagonal pressure across their body by pulling with your over-arm while pushing with your under-arm, creating rotational stress. Alternate between squeezing tightly and releasing slightly to disrupt their defensive rhythm. Use your hooks to rock their hips side-to-side, forcing them to constantly readjust. Attack the arm defending the neck - if they commit hands to neck defense, their arms become vulnerable to isolation for armbar or crucifix entries. The goal is creating dilemmas where defending one threat exposes another."
+        "answer": "Apply diagonal pressure across their body by pulling with your over-arm while pushing with your under-arm, creating rotational stress. Alternate between squeezing tightly and releasing slightly to disrupt their defensive rhythm. Use your hooks to rock their hips side-to-side, forcing them to constantly readjust. Attack the arm defending the neck - if they commit hands to neck defense, their arms become vulnerable to isolation for armbar or crucifix entries. The goal is creating dilemmas where defending one threat exposes another.",
+        "answer_line": "Diagonal pressure, rock hips",
+        "distractors": {
+          "plausible": [
+            "Squeeze choke harder",
+            "Isolate hooks, drive forward"
+          ],
+          "trap": [
+            "Release grip to reset entry"
+          ]
+        }
       },
       {
         "question": "How do you anticipate and counter the Granby roll escape attempt from back control?",
-        "answer": "Recognize the setup - opponent creates space on one side and loads weight to initiate the roll. Counter by immediately following their hip movement with your hooks, preventing the inversion. Drop your weight low and toward the direction they're attempting to roll, using chest pressure to pin them flat. If they begin the roll, release your top hook and post your leg wide to prevent being rolled over, then immediately re-establish hooks once their movement stops. Stay heavy and connected rather than trying to hold them static."
+        "answer": "Recognize the setup - opponent creates space on one side and loads weight to initiate the roll. Counter by immediately following their hip movement with your hooks, preventing the inversion. Drop your weight low and toward the direction they're attempting to roll, using chest pressure to pin them flat. If they begin the roll, release your top hook and post your leg wide to prevent being rolled over, then immediately re-establish hooks once their movement stops. Stay heavy and connected rather than trying to hold them static.",
+        "answer_line": "Follow hips, stay heavy, pin flat",
+        "distractors": {
+          "plausible": [
+            "Hold hooks static and rigid",
+            "Release grips to avoid roll"
+          ],
+          "trap": [
+            "Chase the roll by inverting"
+          ]
+        }
       },
       {
         "question": "Opponent has cleared your bottom hook - how do you recover position before they complete the escape?",
-        "answer": "Immediately transition to body triangle attempt with your top leg or swing the cleared leg over their body to establish reverse hooks. Simultaneously tighten seat belt grip and increase chest pressure to prevent further rotation. If body triangle isn't available, use your free leg to post and prevent them from completing the turn while working to re-insert the hook from a new angle. Consider transitioning to technical mount or gift wrap if hook recovery isn't immediately possible - maintaining some control is better than losing position entirely."
+        "answer": "Immediately transition to body triangle attempt with your top leg or swing the cleared leg over their body to establish reverse hooks. Simultaneously tighten seat belt grip and increase chest pressure to prevent further rotation. If body triangle isn't available, use your free leg to post and prevent them from completing the turn while working to re-insert the hook from a new angle. Consider transitioning to technical mount or gift wrap if hook recovery isn't immediately possible - maintaining some control is better than losing position entirely.",
+        "answer_line": "Body triangle or swing leg over",
+        "distractors": {
+          "plausible": [
+            "Re-insert hook from same angle",
+            "Grip fight instead of legs"
+          ],
+          "trap": [
+            "Release top hook too"
+          ]
+        }
+      }
+    ],
+    "clips": [
+      {
+        "id": "MwxnveKrlxU",
+        "title": "Seatbelt Grip Quick Fix",
+        "by": "Ben Kool",
+        "vertical": false,
+        "channel": "Ben Kool Tech",
+        "duration": 62,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "rvh8MFq_tb0",
+        "title": "Deep Seatbelt Control",
+        "by": "Tom Halpin",
+        "vertical": false,
+        "channel": "Tom Halpin",
+        "duration": 111,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "Es7T1KjTUpI",
+        "title": "Application Against a Seated Opponent",
+        "by": "John Danaher",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 157,
+        "verified": "2026-07-14"
       }
     ]
   },
@@ -595,78 +743,342 @@
     "transitions": [
       {
         "transition": "Hand Fighting from Back",
-        "attempt_probability": 43
+        "attempt_probability": {
+          "gi": 17,
+          "nogi": 17
+        }
       },
       {
         "transition": "Back Door Escape",
-        "attempt_probability": 12
+        "attempt_probability": {
+          "gi": 6,
+          "nogi": 7
+        }
       },
       {
         "transition": "Granby Roll to Guard",
-        "attempt_probability": 2
+        "attempt_probability": {
+          "gi": 6,
+          "nogi": 7
+        }
       },
       {
         "transition": "Elbow Escape to Remove Hooks",
-        "attempt_probability": 19
+        "attempt_probability": {
+          "gi": 10,
+          "nogi": 10
+        }
       },
       {
         "transition": "Hip Escape to Turtle",
-        "attempt_probability": 15
+        "attempt_probability": {
+          "gi": 11,
+          "nogi": 10
+        }
       },
       {
         "transition": "Standing up in Base",
-        "attempt_probability": 2
+        "attempt_probability": {
+          "gi": 6,
+          "nogi": 7
+        }
       },
       {
         "transition": "Turn In and Face",
-        "attempt_probability": 4
+        "attempt_probability": {
+          "gi": 10,
+          "nogi": 10
+        }
       },
       {
         "transition": "Escape Seat Belt Control",
-        "attempt_probability": 1
+        "attempt_probability": {
+          "gi": 12,
+          "nogi": 12
+        }
       },
       {
         "transition": "Hand Fight from Seat Belt Control",
-        "attempt_probability": 1
+        "attempt_probability": {
+          "gi": 14,
+          "nogi": 13
+        }
       },
       {
         "transition": "Seat Belt Peel Escape",
-        "attempt_probability": 1
+        "attempt_probability": {
+          "gi": 8,
+          "nogi": 7
+        }
       }
     ],
     "flashcards": [
       {
         "question": "Opponent begins sliding their choking arm toward your neck - what is your immediate defensive response?",
-        "answer": "Immediately tuck your chin tightly to your chest to close the space under your jaw. Simultaneously bring both hands to your collar line, grabbing opponent's choking wrist or forearm with your near-side hand while your far-side hand protects the collar area. Turn your head away from the choking arm direction. The chin tuck must be your first reflex - even a split-second delay in tucking allows the forearm to slide under."
+        "answer": "Immediately tuck your chin tightly to your chest to close the space under your jaw. Simultaneously bring both hands to your collar line, grabbing opponent's choking wrist or forearm with your near-side hand while your far-side hand protects the collar area. Turn your head away from the choking arm direction. The chin tuck must be your first reflex - even a split-second delay in tucking allows the forearm to slide under.",
+        "answer_line": "Tuck chin, grab wrist, turn away",
+        "distractors": {
+          "plausible": [
+            "Push opponent's chest away",
+            "Grab the far-side collar"
+          ],
+          "trap": [
+            "Pull down on the choking arm"
+          ]
+        }
       },
       {
         "question": "What are the essential defensive frames for surviving seat belt back control?",
-        "answer": "Primary frames include: hands controlling opponent's choking wrist to prevent RNC completion, elbows tucked tight to ribs to prevent arm isolation, shoulders rounded forward with chin tucked to protect neck space. Secondary frames include controlling opponent's hooks with your legs by keeping knees together and using your feet to block their hook insertion. Your entire body should create a defensive shell while you work systematic escape sequences."
+        "answer": "Primary frames include: hands controlling opponent's choking wrist to prevent RNC completion, elbows tucked tight to ribs to prevent arm isolation, shoulders rounded forward with chin tucked to protect neck space. Secondary frames include controlling opponent's hooks with your legs by keeping knees together and using your feet to block their hook insertion. Your entire body should create a defensive shell while you work systematic escape sequences.",
+        "answer_line": "Control wrist, tuck elbows/chin",
+        "distractors": {
+          "plausible": [
+            "Push away with both hands",
+            "Grab opponent's far hook"
+          ],
+          "trap": [
+            "Extend arms to create space"
+          ]
+        }
       },
       {
         "question": "How do you systematically break the seat belt grip to begin your escape?",
-        "answer": "Address one grip at a time rather than fighting the entire structure. Start with the over-shoulder arm as it provides opponent's primary choking leverage. Two-on-one grip the over-arm wrist, pulling it toward your hip while creating hip movement to generate angles that weaken their grip structure. Once the over-arm is weakened or controlled, the under-arm becomes less threatening. Never try to pull both arms simultaneously - this exhausts you while opponent easily maintains connection."
+        "answer": "Address one grip at a time rather than fighting the entire structure. Start with the over-shoulder arm as it provides opponent's primary choking leverage. Two-on-one grip the over-arm wrist, pulling it toward your hip while creating hip movement to generate angles that weaken their grip structure. Once the over-arm is weakened or controlled, the under-arm becomes less threatening. Never try to pull both arms simultaneously - this exhausts you while opponent easily maintains connection.",
+        "answer_line": "Two-on-one over-arm first",
+        "distractors": {
+          "plausible": [
+            "Attack under-arm first",
+            "Pull straight back on hands"
+          ],
+          "trap": [
+            "Pull both arms simultaneously"
+          ]
+        }
       },
       {
         "question": "Your opponent has established both hooks - what is your priority order for escape?",
-        "answer": "Priority order: 1) Protect neck from immediate submission threat, 2) Control opponent's choking hand to prevent RNC setup, 3) Address the bottom hook first by bringing your knee up and using hip movement to slide your hip to the mat on that side, 4) Once hips are to mat with bottom hook cleared, work to face opponent and recover guard. The bottom hook must be addressed first because it prevents you from sliding your hips to the mat - without that foundation movement, no escape is possible."
+        "answer": "Priority order: 1) Protect neck from immediate submission threat, 2) Control opponent's choking hand to prevent RNC setup, 3) Address the bottom hook first by bringing your knee up and using hip movement to slide your hip to the mat on that side, 4) Once hips are to mat with bottom hook cleared, work to face opponent and recover guard. The bottom hook must be addressed first because it prevents you from sliding your hips to the mat - without that foundation movement, no escape is possible.",
+        "answer_line": "Protect neck, clear bottom hook",
+        "distractors": {
+          "plausible": [
+            "Attack top hook first",
+            "Bridge immediately to escape"
+          ],
+          "trap": [
+            "Ignore neck, fight hooks first"
+          ]
+        }
       },
       {
         "question": "Opponent is applying heavy chest pressure making it hard to breathe - how do you create space to initiate escape?",
-        "answer": "Use explosive bridge-and-shrimp combinations to create momentary space. Bridge your hips up forcefully while simultaneously turning your shoulders toward the direction you want to escape. As your hips come down, immediately shrimp away from opponent, creating 4-6 inches of separation. Time your escapes when opponent shifts weight for attacks - their commitment to submissions creates windows where their control is momentarily weaker."
+        "answer": "Use explosive bridge-and-shrimp combinations to create momentary space. Bridge your hips up forcefully while simultaneously turning your shoulders toward the direction you want to escape. As your hips come down, immediately shrimp away from opponent, creating 4-6 inches of separation. Time your escapes when opponent shifts weight for attacks - their commitment to submissions creates windows where their control is momentarily weaker.",
+        "answer_line": "Bridge-shrimp combo, time attacks",
+        "distractors": {
+          "plausible": [
+            "Push chest away with hands",
+            "Turn head to breathe easier"
+          ],
+          "trap": [
+            "Hold breath and wait it out"
+          ]
+        }
       },
       {
         "question": "What defensive anticipation cues indicate opponent is about to attack the rear naked choke?",
-        "answer": "Watch for: opponent's over-arm hand releasing grip to slide toward your neck, their chest pressure increasing as they commit weight forward, subtle repositioning of their head toward your choking-side shoulder, their choking-side hook driving deeper to stabilize their base. When you feel these cues, immediately reinforce neck defense before the attack materializes. The moment they release the seat belt grip to attack, you have a brief window where their control is compromised."
+        "answer": "Watch for: opponent's over-arm hand releasing grip to slide toward your neck, their chest pressure increasing as they commit weight forward, subtle repositioning of their head toward your choking-side shoulder, their choking-side hook driving deeper to stabilize their base. When you feel these cues, immediately reinforce neck defense before the attack materializes. The moment they release the seat belt grip to attack, you have a brief window where their control is compromised.",
+        "answer_line": "Over-arm releases, head shifts",
+        "distractors": {
+          "plausible": [
+            "Hooks loosen before attack",
+            "Chest pressure decreases"
+          ],
+          "trap": [
+            "Wait until hand touches chin"
+          ]
+        }
       },
       {
         "question": "Opponent has broken through your neck defense and their arm is partially under your chin - what is your recovery protocol?",
-        "answer": "Immediately two-on-one grip their choking wrist and pull it across your body toward your far hip, creating distance between their forearm and your neck. Simultaneously tuck your chin harder and turn your head toward their bicep rather than away. Bridge explosively while pulling their arm to create enough space to re-tuck your chin behind their forearm. This is an emergency defense - once their arm is under the chin, you have seconds before the choke is locked."
+        "answer": "Immediately two-on-one grip their choking wrist and pull it across your body toward your far hip, creating distance between their forearm and your neck. Simultaneously tuck your chin harder and turn your head toward their bicep rather than away. Bridge explosively while pulling their arm to create enough space to re-tuck your chin behind their forearm. This is an emergency defense - once their arm is under the chin, you have seconds before the choke is locked.",
+        "answer_line": "Two-on-one wrist, pull to hip",
+        "distractors": {
+          "plausible": [
+            "Tuck chin harder only",
+            "Push opponent's elbow away"
+          ],
+          "trap": [
+            "Pull straight down on the arm"
+          ]
+        }
       },
       {
         "question": "When is it appropriate to attempt the rolling escape from back control?",
-        "answer": "Attempt rolling escapes when opponent extends their body to complete a submission, temporarily loosening their hook control. Also effective when opponent is high on your back with their weight forward, making them susceptible to being rolled. Do not attempt rolls when opponent has tight hooks and compact body positioning - this wastes energy and often results in worse position. The roll requires opponent's commitment elsewhere that compromises their hook security."
+        "answer": "Attempt rolling escapes when opponent extends their body to complete a submission, temporarily loosening their hook control. Also effective when opponent is high on your back with their weight forward, making them susceptible to being rolled. Do not attempt rolls when opponent has tight hooks and compact body positioning - this wastes energy and often results in worse position. The roll requires opponent's commitment elsewhere that compromises their hook security.",
+        "answer_line": "When they extend for submission",
+        "distractors": {
+          "plausible": [
+            "Anytime hooks feel loose",
+            "Right after hooks are set"
+          ],
+          "trap": [
+            "Roll when hooks are tight"
+          ]
+        }
+      }
+    ],
+    "clips": [
+      {
+        "id": "_sBB-O8fqP4",
+        "title": "Standing Up from Back Control",
+        "by": "Priit Mihkelson",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 114,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "_1jEnlqZgS0",
+        "title": "Makikomi Roll vs Seat Belt/Harness",
+        "by": "Corey McWilliams",
+        "vertical": false,
+        "channel": "Corey McWilliams",
+        "duration": 264,
+        "verified": "2026-07-14"
       }
     ]
-  }
+  },
+  "flashcards_position": [
+    {
+      "question": "What grip configuration defines the seat belt and distinguishes it from a parallel over-under harness?",
+      "answer": "The seat belt is a diagonal over-under grip: one arm crosses over the shoulder while the other threads under the opposite armpit, with the hands joined across the chest or lat. This diagonal arrangement is what defines it, as opposed to two parallel arms. The crossing of the two arms on opposite planes is precisely what locks the torso, whereas parallel grips leave a rotational axis open. Break the diagonal and the configuration ceases to be a seat belt regardless of whether the hands stay connected.",
+      "answer_line": "Diagonal over-under grip",
+      "distractors": {
+        "plausible": [
+          "Two parallel over-hooks",
+          "Both arms under armpits"
+        ],
+        "trap": [
+          "Double collar tie grip"
+        ]
+      }
+    },
+    {
+      "question": "Why is the diagonal seat belt biomechanically harder to escape than a parallel two-arm hug?",
+      "answer": "The over-arm pulls down on one shoulder while the under-arm lifts the opposite side, producing two opposing force vectors that cross the torso diagonally. These opposing vectors clamp the trunk against rotation in both directions, because turning one way is blocked by the over-arm and turning the other way is blocked by the under-arm. A parallel hug applies force along a single plane, leaving one rotational axis free. The seat belt effectively removes that free axis, which is the core reason it is the universal back-control grip.",
+      "answer_line": "Opposing vectors block rotation",
+      "distractors": {
+        "plausible": [
+          "Grip strength alone stops it",
+          "Both arms pull same direction"
+        ],
+        "trap": [
+          "Parallel hug blocks rotation too"
+        ]
+      }
+    },
+    {
+      "question": "What role do the hooks play in the seat belt configuration and why must they sit deep in the thighs?",
+      "answer": "Both legs hook inside the opponent's thighs (or lock as a body triangle), pinning the hips so the lower body cannot rotate independently of the trapped upper body. Depth matters because feet placed on the inner thigh muscles cannot be cleared simply by bringing the knees together, whereas shallow hooks near the knees are stripped by knee pinch or hip movement. Deep hooks establish the stable lower-body base that the seat belt's upper-body control relies on. Together the grip and hooks control both ends of the spine so neither can pivot free of the other.",
+      "answer_line": "Deep hooks pin hips, block spin",
+      "distractors": {
+        "plausible": [
+          "Shallow hooks near the knees",
+          "Hooks matter less than grip"
+        ],
+        "trap": [
+          "Cross ankles for extra lock"
+        ]
+      }
+    },
+    {
+      "question": "What is the function of the chest-to-back connection and head placement in defining this position?",
+      "answer": "The chest pressed flat against the opponent's back eliminates the space that rotation or bridging escapes require, keeping the shoulders pinned forward. Zero gap between chest and back means any bridge is immediately followed and closed rather than becoming cumulative space. The head is placed to one side of the opponent's head, not directly behind it, both to avoid backward head-butts and to keep the controlling player's balance over the spine. Chest connection plus a side-placed head is a structural element of the configuration, not merely a comfort detail.",
+      "answer_line": "Chest flat, head beside not behind",
+      "distractors": {
+        "plausible": [
+          "Head directly behind opponent",
+          "Chest loose to save energy"
+        ],
+        "trap": [
+          "Head forward past their ear"
+        ]
+      }
+    },
+    {
+      "question": "How does the seat belt relate to and differ from its neighboring positions like Body Triangle, Crucifix, and Gift Wrap?",
+      "answer": "Body Triangle keeps the same seat belt upper-body grip but replaces the two-hook lower body with a figure-four leg lock, trading mobility for even tighter hip control. Crucifix is a more advanced back configuration reached when one of the opponent's arms gets isolated and trapped by the legs, going beyond the seat belt's symmetric grip. Gift Wrap is a different upper-body control where one of the opponent's own arms is folded across their neck. All share the back-control family, but the defining seat belt trait is specifically the diagonal over-under with two independent hooks.",
+      "answer_line": "Diagonal grip, two hooks",
+      "distractors": {
+        "plausible": [
+          "Body triangle uses two hooks too",
+          "Crucifix keeps symmetric grip"
+        ],
+        "trap": [
+          "Gift wrap is same as seat belt"
+        ]
+      }
+    },
+    {
+      "question": "Where does the clamping force in a well-maintained seat belt actually come from, and why does that make it low-energy to hold?",
+      "answer": "Control pressure comes primarily from chest compression and hook tension driven by the core and hips, not from squeezing with the arms. The arms only maintain the hand connection; they do not generate the clamping force, which would otherwise fatigue the grip within a minute or two. Roughly the bulk of control is chest-to-back and hook tension, some from hip positioning, and only a small fraction from arm grip. This sourcing of force through the trunk rather than the arms is why the configuration is sustainable for long durations rather than a short grip-strength contest.",
+      "answer_line": "Chest and hooks, not arms",
+      "distractors": {
+        "plausible": [
+          "Core strength moves the hips",
+          "Arms provide most pressure"
+        ],
+        "trap": [
+          "Squeeze grip as hard as possible"
+        ]
+      }
+    },
+    {
+      "question": "Why is the hand connection across the chest the single most contested control point in this position?",
+      "answer": "The joined hands are what convert two separate arms into one locked diagonal loop, so the entire control structure depends on that connection holding. Keeping the hands connected via gable, wrist-on-wrist, or palm-cup grip is the structural priority above all else. Conversely, separating those hands is the primary way the loop is defeated, because once it opens the diagonal clamp collapses even if both arms remain in place. This is why grip fighting over the hand connection is the central battle regardless of which side you are on.",
+      "answer_line": "Hands lock the diagonal loop",
+      "distractors": {
+        "plausible": [
+          "Hooks are most contested point",
+          "Head position matters most"
+        ],
+        "trap": [
+          "Let go of grip to regrip better"
+        ]
+      }
+    },
+    {
+      "question": "Can a seat belt exist without hooks, and what does that transitional state reveal about the position's control layers?",
+      "answer": "Yes, the seat belt grip can be held momentarily without hooks during transitions, where the upper-body diagonal grip temporarily compensates for missing leg control. This reveals that the position has two somewhat independent control layers: the upper-body diagonal grip and the lower-body hooks. A complete seat belt has both, but either can briefly carry control while the other is being established or recovered. Understanding these as separable layers explains why re-establishing a lost hook while keeping the grip, or vice versa, is a normal part of maintaining the position.",
+      "answer_line": "Yes, two independent layers",
+      "distractors": {
+        "plausible": [
+          "No, hooks are mandatory always",
+          "Only during submissions"
+        ],
+        "trap": [
+          "Grip alone is enough, skip hooks"
+        ]
+      }
+    }
+  ],
+  "clips": [
+    {
+      "id": "MwxnveKrlxU",
+      "title": "Seatbelt Grip Quick Fix",
+      "by": "Ben Kool",
+      "vertical": false,
+      "channel": "Ben Kool Tech",
+      "duration": 62,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "baSqWCtLysU",
+      "title": "Back Mount Seatbelt Control Fundamentals",
+      "by": "Teach Me NoGi",
+      "vertical": false,
+      "channel": "Teach Me NoGi",
+      "duration": 212,
+      "verified": "2026-07-14"
+    }
+  ]
 }

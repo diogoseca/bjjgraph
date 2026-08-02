@@ -17,21 +17,33 @@
   "outcomes": [
     {
       "to": "Reverse Half Guard/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Back Control/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "The transition to reverse half guard from back control occurs when the back attacker's hooks are being cleared or the bottom player begins successfully turning to face their opponent. Rather than fighting to maintain deteriorating back control, the top player proactively backsteps into reverse half guard, preserving top position and offensive momentum. This transition converts a potentially losing positional battle into a strong passing position with back take and leg drag options.\n\nStrategically, this transition represents a critical decision point in the back control retention hierarchy. When the bottom player strips one hook and begins rotating, the back attacker must choose between fighting to re-establish hooks (increasingly difficult against a mobile defender) or converting their remaining leg entanglement into reverse half guard top. The backstep conversion is the higher-percentage option because it uses the defender's rotational momentum rather than opposing it, maintaining the top player's weight advantage throughout.\n\nThis technique is essential for any practitioner who regularly attacks from back control, as even elite grapplers face escape attempts that compromise hook placement. Understanding the backstep to reverse half guard transforms a defensive scramble into an offensive transition, ensuring the back attacker retains positional dominance regardless of whether the original back control is maintained. The transition integrates directly into leg drag passing systems and secondary back take opportunities from reverse half guard top.",
   "conditions": [
     "Bottom player has cleared or is actively clearing at least one hook from back control",
@@ -247,38 +259,138 @@
     "flashcards": [
       {
         "question": "What is the primary trigger that tells you to initiate the backstep to reverse half guard?",
-        "answer": "The primary trigger is feeling your bottom hook being stripped or the defender beginning to rotate their shoulders toward you. When you sense the hook clearing and re-insertion becomes unlikely within the next movement cycle, that is the moment to commit to the backstep. Waiting until the hook is fully cleared reduces your control during the transition."
+        "answer": "The primary trigger is feeling your bottom hook being stripped or the defender beginning to rotate their shoulders toward you. When you sense the hook clearing and re-insertion becomes unlikely within the next movement cycle, that is the moment to commit to the backstep. Waiting until the hook is fully cleared reduces your control during the transition.",
+        "answer_line": "Hook stripped or shoulders rotate",
+        "distractors": {
+          "plausible": [
+            "Wait until hook fully clears",
+            "Feel their hips start to shrimp"
+          ],
+          "trap": [
+            "Release grips to reset the hook"
+          ]
+        }
       },
       {
         "question": "Why is it critical to maintain upper body control before executing the backstep?",
-        "answer": "Upper body control through crossface, collar grip, or chest pressure serves as the anchor that prevents separation during the leg reconfiguration. Without this anchor, the defender can create distance or complete their rotation to face you during the backstep, negating the reverse half guard advantage. The upper body grip is the one constant that bridges back control and reverse half guard."
+        "answer": "Upper body control through crossface, collar grip, or chest pressure serves as the anchor that prevents separation during the leg reconfiguration. Without this anchor, the defender can create distance or complete their rotation to face you during the backstep, negating the reverse half guard advantage. The upper body grip is the one constant that bridges back control and reverse half guard.",
+        "answer_line": "It anchors you during leg reconfig",
+        "distractors": {
+          "plausible": [
+            "Only matters after the backstep",
+            "Leg control matters more here"
+          ],
+          "trap": [
+            "Let go of grips to free your hips"
+          ]
+        }
       },
       {
         "question": "Your defender strips your bottom hook and immediately shrimps away - how do you adjust the backstep timing?",
-        "answer": "When the defender shrimps away after stripping the hook, you must accelerate the backstep and follow their hip movement simultaneously. Drive your chest into their retreating hips while threading the backstep leg between their legs. The shrimping motion actually assists the backstep by creating the space your leg needs to thread through, but you must stay connected to prevent full separation."
+        "answer": "When the defender shrimps away after stripping the hook, you must accelerate the backstep and follow their hip movement simultaneously. Drive your chest into their retreating hips while threading the backstep leg between their legs. The shrimping motion actually assists the backstep by creating the space your leg needs to thread through, but you must stay connected to prevent full separation.",
+        "answer_line": "Accelerate step, chase their hips",
+        "distractors": {
+          "plausible": [
+            "Slow down and reassess the grip",
+            "Finish backstep, ignore the hips"
+          ],
+          "trap": [
+            "Release chest pressure, reset"
+          ]
+        }
       },
       {
         "question": "What is the most common mechanical error during the backstep and how does it manifest?",
-        "answer": "The most common error is rising up on the hips during the backstep rather than staying low and heavy. This manifests as the defender suddenly having space underneath to insert a knee shield, recover guard, or complete an explosive escape. The correction is to think of the backstep as a sliding movement around the defender rather than a lifting movement over them."
+        "answer": "The most common error is rising up on the hips during the backstep rather than staying low and heavy. This manifests as the defender suddenly having space underneath to insert a knee shield, recover guard, or complete an explosive escape. The correction is to think of the backstep as a sliding movement around the defender rather than a lifting movement over them.",
+        "answer_line": "Rising on hips, giving up space",
+        "distractors": {
+          "plausible": [
+            "Stepping too wide, losing base",
+            "Backstepping to the wrong side"
+          ],
+          "trap": [
+            "Rotating your back to opponent"
+          ]
+        }
       },
       {
         "question": "Once you establish reverse half guard top, what determines whether you pursue a back take or a guard pass?",
-        "answer": "The defender's reaction determines your choice. If they turn toward you attempting to face you and recover guard, follow their rotation and pursue the back take by inserting hooks. If they flatten defensively or try to shrimp away from you, commit to the leg drag or knee slice pass to advance to side control. Read their movement within two to three seconds and commit fully."
+        "answer": "The defender's reaction determines your choice. If they turn toward you attempting to face you and recover guard, follow their rotation and pursue the back take by inserting hooks. If they flatten defensively or try to shrimp away from you, commit to the leg drag or knee slice pass to advance to side control. Read their movement within two to three seconds and commit fully.",
+        "answer_line": "Read their reaction, commit fast",
+        "distractors": {
+          "plausible": [
+            "Always chase the back take",
+            "Always pass no matter what"
+          ],
+          "trap": [
+            "Wait them out, don't commit yet"
+          ]
+        }
       },
       {
         "question": "How does the backstep leg threading depth affect the stability of reverse half guard?",
-        "answer": "Deeper leg threading past the defender's knee line creates a stronger entanglement that is significantly harder for them to clear. Shallow threading only past the ankle or mid-calf allows easy extraction and guard recovery. Drive your backstep leg deep between their thighs with your foot past their far knee to establish maximum control and prevent them from straightening their legs to free themselves."
+        "answer": "Deeper leg threading past the defender's knee line creates a stronger entanglement that is significantly harder for them to clear. Shallow threading only past the ankle or mid-calf allows easy extraction and guard recovery. Drive your backstep leg deep between their thighs with your foot past their far knee to establish maximum control and prevent them from straightening their legs to free themselves.",
+        "answer_line": "Thread deep past their far knee",
+        "distractors": {
+          "plausible": [
+            "Shallow past the ankle is fine",
+            "Depth barely matters here"
+          ],
+          "trap": [
+            "Keep the leg outside their thigh"
+          ]
+        }
       },
       {
         "question": "Your defender catches your backstep leg in a deep half guard configuration - what is your immediate response?",
-        "answer": "If they trap your backstep leg underneath them in deep half, stop the backstep conversion and address the deep half position first. Post on their hip with your free hand to prevent them from completing the deep half sweep. Work to extract your leg using a whizzer or hip pressure before they can establish full deep half guard control. Alternatively, accept the deep half position and use standard deep half passing techniques."
+        "answer": "If they trap your backstep leg underneath them in deep half, stop the backstep conversion and address the deep half position first. Post on their hip with your free hand to prevent them from completing the deep half sweep. Work to extract your leg using a whizzer or hip pressure before they can establish full deep half guard control. Alternatively, accept the deep half position and use standard deep half passing techniques.",
+        "answer_line": "Post hip, whizzer, extract leg",
+        "distractors": {
+          "plausible": [
+            "Force the backstep through anyway",
+            "Abandon the position entirely"
+          ],
+          "trap": [
+            "Yank the leg free, ignore posture"
+          ]
+        }
       },
       {
         "question": "What role does crossface pressure play during and after the backstep transition?",
-        "answer": "Crossface pressure serves dual purposes. During the backstep, it slows the defender's shoulder rotation to buy time for the leg reconfiguration. After establishing reverse half guard, the crossface from behind prevents the defender from turning to face you, which would convert the position to standard half guard and eliminate your reverse angle advantage. Strong crossface is the primary control mechanism in reverse half guard top."
+        "answer": "Crossface pressure serves dual purposes. During the backstep, it slows the defender's shoulder rotation to buy time for the leg reconfiguration. After establishing reverse half guard, the crossface from behind prevents the defender from turning to face you, which would convert the position to standard half guard and eliminate your reverse angle advantage. Strong crossface is the primary control mechanism in reverse half guard top.",
+        "answer_line": "Slows rotation, blocks facing up",
+        "distractors": {
+          "plausible": [
+            "Only useful during the step itself",
+            "Replaces the need for hooks"
+          ],
+          "trap": [
+            "Release crossface once settled"
+          ]
+        }
       }
     ],
-    "safety_considerations": "This transition involves rapid positional changes and leg entanglement that require controlled execution during training. Avoid explosive backstep movements that could torque your partner's trapped knee or ankle. During drilling, communicate with your partner about the speed and pressure of the transition. Be particularly careful when threading the backstep leg to avoid catching your partner's knee in an awkward angle. If your partner signals discomfort in the leg entanglement, release immediately and adjust your positioning."
+    "safety_considerations": "This transition involves rapid positional changes and leg entanglement that require controlled execution during training. Avoid explosive backstep movements that could torque your partner's trapped knee or ankle. During drilling, communicate with your partner about the speed and pressure of the transition. Be particularly careful when threading the backstep leg to avoid catching your partner's knee in an awkward angle. If your partner signals discomfort in the leg entanglement, release immediately and adjust your positioning.",
+    "clips": [
+      {
+        "id": "iVUskeb2-Ss",
+        "title": "Back take from reverse half guard",
+        "by": "Trapp Martial Arts",
+        "vertical": false,
+        "channel": "Trapp Martial Arts",
+        "duration": 104,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "s21HgPr-lIA",
+        "title": "Reverse half guard sweep and back take",
+        "by": "Legacy Jiu-Jitsu Academy",
+        "vertical": false,
+        "channel": "Legacy Jiu-Jitsu Academy",
+        "duration": 146,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Back Control to Reverse Half Guard Defender",
@@ -360,23 +472,73 @@
     "flashcards": [
       {
         "question": "What is the earliest cue that your opponent is converting to a backstep rather than fighting to re-insert their hook?",
-        "answer": "The earliest cue is the lateral weight shift combined with their free leg moving in a circular arc over your body rather than driving back toward the inside of your thigh for hook re-insertion. You will also feel their grip transitioning from seatbelt to crossface or collar control. When these cues appear together, the backstep is imminent and you must react immediately."
+        "answer": "The earliest cue is the lateral weight shift combined with their free leg moving in a circular arc over your body rather than driving back toward the inside of your thigh for hook re-insertion. You will also feel their grip transitioning from seatbelt to crossface or collar control. When these cues appear together, the backstep is imminent and you must react immediately.",
+        "answer_line": "Lateral shift, free leg arcs over",
+        "distractors": {
+          "plausible": [
+            "They attempt hook re-insertion",
+            "Sudden explosive bridge escape"
+          ],
+          "trap": [
+            "They tighten their seatbelt grip"
+          ]
+        }
       },
       {
         "question": "Why is completing your rotation to face the opponent the highest-priority defensive response?",
-        "answer": "The entire advantage of reverse half guard comes from the reverse angle where the top player is behind you. By completing your rotation to face them, you convert the position to standard half guard where you have established frames, sweep options, and defensive structures. Facing the opponent neutralizes the backstep's primary benefit and puts you in a familiar defensive position."
+        "answer": "The entire advantage of reverse half guard comes from the reverse angle where the top player is behind you. By completing your rotation to face them, you convert the position to standard half guard where you have established frames, sweep options, and defensive structures. Facing the opponent neutralizes the backstep's primary benefit and puts you in a familiar defensive position.",
+        "answer_line": "Converts it to standard half guard",
+        "distractors": {
+          "plausible": [
+            "Buys time before framing up",
+            "Sets up a leg lock entry"
+          ],
+          "trap": [
+            "Flatten out and stall the pace"
+          ]
+        }
       },
       {
         "question": "Your opponent has completed the backstep and is settling weight in reverse half guard - what is your immediate priority?",
-        "answer": "Your immediate priority is preventing the crossface from behind and working to turn your shoulders to face the opponent. Frame against their hip and shoulder to create the space needed for rotation. If you cannot rotate immediately, keep your legs active to prevent deep leg entanglement and work to insert a knee shield as a preliminary defensive structure before fully recovering standard half guard."
+        "answer": "Your immediate priority is preventing the crossface from behind and working to turn your shoulders to face the opponent. Frame against their hip and shoulder to create the space needed for rotation. If you cannot rotate immediately, keep your legs active to prevent deep leg entanglement and work to insert a knee shield as a preliminary defensive structure before fully recovering standard half guard.",
+        "answer_line": "Block crossface, rotate to face",
+        "distractors": {
+          "plausible": [
+            "Attack their legs immediately",
+            "Bridge and roll explosively"
+          ],
+          "trap": [
+            "Flatten out to absorb pressure"
+          ]
+        }
       },
       {
         "question": "How can you convert the opponent's backstep attempt into a deep half guard entry?",
-        "answer": "As the opponent's backstep leg threads between your legs, you can trap it by clamping your legs and pulling their leg underneath your body into deep half guard configuration. This requires precise timing during the backstep motion and active hip movement to position yourself under their center of gravity. Deep half guard gives you strong sweep options and negates their passing advantage from reverse half guard."
+        "answer": "As the opponent's backstep leg threads between your legs, you can trap it by clamping your legs and pulling their leg underneath your body into deep half guard configuration. This requires precise timing during the backstep motion and active hip movement to position yourself under their center of gravity. Deep half guard gives you strong sweep options and negates their passing advantage from reverse half guard.",
+        "answer_line": "Trap threading leg, pull it under",
+        "distractors": {
+          "plausible": [
+            "Sprawl to block the leg thread",
+            "Backstep away simultaneously"
+          ],
+          "trap": [
+            "Push the leg away, create space"
+          ]
+        }
       },
       {
         "question": "What makes flattening to the mat the worst defensive response when the backstep initiates?",
-        "answer": "Flattening eliminates your framing ability, hip mobility, and sweep potential simultaneously. It gives the opponent maximum chest-to-hip pressure from behind and makes their passing options from reverse half guard much easier. The flat position also prevents you from inserting a knee shield or completing rotation to face them. Staying on your side or actively rotating preserves all your defensive options."
+        "answer": "Flattening eliminates your framing ability, hip mobility, and sweep potential simultaneously. It gives the opponent maximum chest-to-hip pressure from behind and makes their passing options from reverse half guard much easier. The flat position also prevents you from inserting a knee shield or completing rotation to face them. Staying on your side or actively rotating preserves all your defensive options.",
+        "answer_line": "Kills frames, hips, and sweeps",
+        "distractors": {
+          "plausible": [
+            "Only makes passing easier",
+            "Only blocks the knee shield"
+          ],
+          "trap": [
+            "It's the safest way to survive"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -399,6 +561,35 @@
         "phase": "Phase 4: Live Integration",
         "focus": "Full resistance back escape to backstep defense chain",
         "description": "Positional sparring starting from back control. Work full escape sequences knowing the partner may convert to backstep at any point. Practice the complete defensive chain from back escape through backstep recognition and defense to half guard recovery. Track which defensive options succeed most frequently against your training partners."
+      }
+    ],
+    "clips": [
+      {
+        "id": "4swAdbsNv-0",
+        "title": "Countering the back step to back take",
+        "by": "Força Martial Arts",
+        "vertical": false,
+        "channel": "Força Martial Arts & Fitness",
+        "duration": 94,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "k-lCzVAzJpg",
+        "title": "Escaping the back with correct leg work",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "Absolute MMA St Kilda - Melbourne",
+        "duration": 421,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "rja-2KKDGb0",
+        "title": "Dealing with the switch base from half guard",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "Absolute MMA St Kilda - Melbourne",
+        "duration": 284,
+        "verified": "2026-07-15"
       }
     ]
   }

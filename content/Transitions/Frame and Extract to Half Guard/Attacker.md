@@ -168,6 +168,54 @@ description: "How to execute Frame and Extract to Half Guard in BJJ. Attacking p
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Frame and Extract to Half Guard (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Escaping the honey hole (inside sankaku)",
+      "description": "Frame and Extract to Half Guard (Attacker) film study: Escaping the honey hole (inside sankaku), taught by Oneonta Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/PhS9Xj-4KbA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/PhS9Xj-4KbA",
+      "url": "https://www.youtube.com/watch?v=PhS9Xj-4KbA",
+      "creator": { "@type": "Person", "name": "Oneonta Jiu Jitsu" },
+      "duration": "PT56S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Basic Defense and Escape from Inside Sankaku",
+      "description": "Frame and Extract to Half Guard (Attacker) film study: Basic Defense and Escape from Inside Sankaku, taught by BJJ4Breakfast.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/VSTMOIkVMAk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/VSTMOIkVMAk",
+      "url": "https://www.youtube.com/watch?v=VSTMOIkVMAk",
+      "creator": { "@type": "Person", "name": "BJJ4Breakfast" },
+      "duration": "PT217S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Defending and Escaping the Saddle",
+      "description": "Frame and Extract to Half Guard (Attacker) film study: Defending and Escaping the Saddle, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/CFTLb8iywJg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/CFTLb8iywJg",
+      "url": "https://www.youtube.com/watch?v=CFTLb8iywJg",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT383S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -181,6 +229,42 @@ The transition to Half Guard specifically is chosen because it allows you to imm
 **From Position**: [[Positions/Inside Sankaku]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Frame and Extract to Half Guard (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=PhS9Xj-4KbA)
+
+<p class="clip-credit"><strong>Escaping the honey hole (inside sankaku)</strong> — taught by Oneonta Jiu Jitsu · 0:56 · <a href="https://www.youtube.com/watch?v=PhS9Xj-4KbA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=VSTMOIkVMAk)
+
+<p class="clip-credit"><strong>Basic Defense and Escape from Inside Sankaku</strong> — taught by BJJ4Breakfast · 3:37 · <a href="https://www.youtube.com/watch?v=VSTMOIkVMAk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=CFTLb8iywJg)
+
+<p class="clip-credit"><strong>Defending and Escaping the Saddle</strong> — taught by Lachlan Giles · 6:23 · <a href="https://www.youtube.com/watch?v=CFTLb8iywJg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

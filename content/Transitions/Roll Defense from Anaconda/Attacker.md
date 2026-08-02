@@ -180,6 +180,43 @@ description: "Learn to execute the Roll Defense from Anaconda as the defender ca
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Roll Defense from Anaconda (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Fixing Your Anaconda Choke Mechanics",
+      "description": "Roll Defense from Anaconda (Attacker) film study: Fixing Your Anaconda Choke Mechanics, taught by Lycan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/1e2GPOUYR-o/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/1e2GPOUYR-o",
+      "url": "https://www.youtube.com/watch?v=1e2GPOUYR-o",
+      "creator": { "@type": "Person", "name": "Lycan" },
+      "duration": "PT41S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Anaconda choke defense",
+      "description": "Roll Defense from Anaconda (Attacker) film study: Anaconda choke defense, taught by SFS MMA.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/SXm9wA1HcvM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/SXm9wA1HcvM",
+      "url": "https://www.youtube.com/watch?v=SXm9wA1HcvM",
+      "creator": { "@type": "Person", "name": "SFS MMA" },
+      "duration": "PT64S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -189,6 +226,34 @@ As the person caught in anaconda control, executing the Roll Defense requires pr
 **From Position**: [[Positions/Anaconda Control]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Roll Defense from Anaconda (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=1e2GPOUYR-o)
+
+<p class="clip-credit"><strong>Fixing Your Anaconda Choke Mechanics</strong> — taught by Lycan · 0:41 · <a href="https://www.youtube.com/watch?v=1e2GPOUYR-o" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=SXm9wA1HcvM)
+
+<p class="clip-credit"><strong>Anaconda choke defense</strong> — taught by SFS MMA · 1:04 · <a href="https://www.youtube.com/watch?v=SXm9wA1HcvM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

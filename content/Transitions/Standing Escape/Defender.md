@@ -148,6 +148,43 @@ description: "How to defend against Standing Escape from Invisible Collar in BJJ
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Standing Escape (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Countering the Back Escape into Lat Juji",
+      "description": "Standing Escape (Defender) film study: Countering the Back Escape into Lat Juji, taught by Brian Glick.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/3AC2nQiMNhQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/3AC2nQiMNhQ",
+      "url": "https://www.youtube.com/watch?v=3AC2nQiMNhQ",
+      "creator": { "@type": "Person", "name": "Brian Glick" },
+      "duration": "PT234S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "8 Back Control Tips to Keep the Back",
+      "description": "Standing Escape (Defender) film study: 8 Back Control Tips to Keep the Back, taught by Jordan Preisinger.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/CFDVh9EVgPA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/CFDVh9EVgPA",
+      "url": "https://www.youtube.com/watch?v=CFDVh9EVgPA",
+      "creator": { "@type": "Person", "name": "Jordan Preisinger" },
+      "duration": "PT443S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -161,6 +198,34 @@ Understanding the escaping player's decision points allows you to anticipate and
 **Opponent's Starting Position**: [[Positions/Rubber Guard/Invisible Collar]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Standing Escape (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=3AC2nQiMNhQ)
+
+<p class="clip-credit"><strong>Countering the Back Escape into Lat Juji</strong> — taught by Brian Glick · 3:54 · <a href="https://www.youtube.com/watch?v=3AC2nQiMNhQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=CFDVh9EVgPA)
+
+<p class="clip-credit"><strong>8 Back Control Tips to Keep the Back</strong> — taught by Jordan Preisinger · 7:23 · <a href="https://www.youtube.com/watch?v=CFDVh9EVgPA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

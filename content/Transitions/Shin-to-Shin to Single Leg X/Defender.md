@@ -148,6 +148,54 @@ description: "Learn to defend and counter the Shin-to-Shin to Single Leg X-Guard
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Shin-to-Shin to Single Leg X (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Single leg X counter with heel hook",
+      "description": "Shin-to-Shin to Single Leg X (Defender) film study: Single leg X counter with heel hook, taught by Charles Allan Price.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/e2KVHXnSh_o/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/e2KVHXnSh_o",
+      "url": "https://www.youtube.com/watch?v=e2KVHXnSh_o",
+      "creator": { "@type": "Person", "name": "Charles Allan Price" },
+      "duration": "PT75S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Corkscrew footlock counter to single leg X",
+      "description": "Shin-to-Shin to Single Leg X (Defender) film study: Corkscrew footlock counter to single leg X, taught by Robyn Sheehan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/B7OQh6tNAn4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/B7OQh6tNAn4",
+      "url": "https://www.youtube.com/watch?v=B7OQh6tNAn4",
+      "creator": { "@type": "Person", "name": "Robyn Sheehan" },
+      "duration": "PT121S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Single leg X guard sweep defense",
+      "description": "Shin-to-Shin to Single Leg X (Defender) film study: Single leg X guard sweep defense, taught by Tiger Muay Thai coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/gwEmeb9RSk4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/gwEmeb9RSk4",
+      "url": "https://www.youtube.com/watch?v=gwEmeb9RSk4",
+      "creator": { "@type": "Person", "name": "Tiger Muay Thai coach" },
+      "duration": "PT227S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +205,42 @@ Defending the Shin-to-Shin to Single Leg X-Guard entry requires recognizing the 
 **Opponent's Starting Position**: [[Positions/Shin-to-Shin Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Shin-to-Shin to Single Leg X (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=e2KVHXnSh_o)
+
+<p class="clip-credit"><strong>Single leg X counter with heel hook</strong> — taught by Charles Allan Price · 1:15 · <a href="https://www.youtube.com/watch?v=e2KVHXnSh_o" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=B7OQh6tNAn4)
+
+<p class="clip-credit"><strong>Corkscrew footlock counter to single leg X</strong> — taught by Robyn Sheehan · 2:01 · <a href="https://www.youtube.com/watch?v=B7OQh6tNAn4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=gwEmeb9RSk4)
+
+<p class="clip-credit"><strong>Single leg X guard sweep defense</strong> — taught by Tiger Muay Thai coach · 3:47 · <a href="https://www.youtube.com/watch?v=gwEmeb9RSk4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

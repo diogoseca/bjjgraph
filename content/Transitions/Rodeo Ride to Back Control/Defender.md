@@ -148,6 +148,54 @@ description: "Defend the Rodeo Ride to Back Control transition. Learn recognitio
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Rodeo Ride to Back Control (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Turtle Escape with the Shoulder Roll",
+      "description": "Rodeo Ride to Back Control (Defender) film study: Turtle Escape with the Shoulder Roll, taught by BJJake.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/W0TCGKRcniA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/W0TCGKRcniA",
+      "url": "https://www.youtube.com/watch?v=W0TCGKRcniA",
+      "creator": { "@type": "Person", "name": "BJJake" },
+      "duration": "PT21S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Sit-Out and Turn-In from Turtle Defense",
+      "description": "Rodeo Ride to Back Control (Defender) film study: Sit-Out and Turn-In from Turtle Defense, taught by Adam Song.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/0AzYYiSiPbU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/0AzYYiSiPbU",
+      "url": "https://www.youtube.com/watch?v=0AzYYiSiPbU",
+      "creator": { "@type": "Person", "name": "Adam Song" },
+      "duration": "PT162S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Standing Up from Defensive Positions",
+      "description": "Rodeo Ride to Back Control (Defender) film study: Standing Up from Defensive Positions, taught by Priit Mihkelson.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/_sBB-O8fqP4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/_sBB-O8fqP4",
+      "url": "https://www.youtube.com/watch?v=_sBB-O8fqP4",
+      "creator": { "@type": "Person", "name": "Priit Mihkelson" },
+      "duration": "PT114S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +205,42 @@ Defending the Rodeo Ride to Back Control transition requires recognizing the cri
 **Opponent's Starting Position**: [[Positions/Rodeo Ride]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Rodeo Ride to Back Control (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=W0TCGKRcniA)
+
+<p class="clip-credit"><strong>Turtle Escape with the Shoulder Roll</strong> — taught by BJJake · 0:21 · <a href="https://www.youtube.com/watch?v=W0TCGKRcniA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=0AzYYiSiPbU)
+
+<p class="clip-credit"><strong>Sit-Out and Turn-In from Turtle Defense</strong> — taught by Adam Song · 2:42 · <a href="https://www.youtube.com/watch?v=0AzYYiSiPbU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=_sBB-O8fqP4)
+
+<p class="clip-credit"><strong>Standing Up from Defensive Positions</strong> — taught by Priit Mihkelson · 1:54 · <a href="https://www.youtube.com/watch?v=_sBB-O8fqP4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

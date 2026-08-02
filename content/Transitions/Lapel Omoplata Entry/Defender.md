@@ -148,6 +148,54 @@ description: "How to defend against Lapel Omoplata Entry in BJJ. Recognition cue
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Lapel Omoplata Entry (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Best way to escape the omoplata shoulder lock",
+      "description": "Lapel Omoplata Entry (Defender) film study: Best way to escape the omoplata shoulder lock, taught by John Connors.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ocIHY3jBYIQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ocIHY3jBYIQ",
+      "url": "https://www.youtube.com/watch?v=ocIHY3jBYIQ",
+      "creator": { "@type": "Person", "name": "John Connors" },
+      "duration": "PT62S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Omoplata escape by jumping over",
+      "description": "Lapel Omoplata Entry (Defender) film study: Omoplata escape by jumping over, taught by Ritchie Yip.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/_2dhd21ffbc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/_2dhd21ffbc",
+      "url": "https://www.youtube.com/watch?v=_2dhd21ffbc",
+      "creator": { "@type": "Person", "name": "Ritchie Yip" },
+      "duration": "PT8S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Defending the omoplata sweep",
+      "description": "Lapel Omoplata Entry (Defender) film study: Defending the omoplata sweep, taught by Ninja Pinto.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Y4TxL4mDSKg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Y4TxL4mDSKg",
+      "url": "https://www.youtube.com/watch?v=Y4TxL4mDSKg",
+      "creator": { "@type": "Person", "name": "Ninja Pinto" },
+      "duration": "PT47S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -161,6 +209,42 @@ The defensive timing window is narrow but decisive. Early recognition—before t
 **Opponent's Starting Position**: [[Positions/Lapel Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Lapel Omoplata Entry (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ocIHY3jBYIQ)
+
+<p class="clip-credit"><strong>Best way to escape the omoplata shoulder lock</strong> — taught by John Connors · 1:02 · <a href="https://www.youtube.com/watch?v=ocIHY3jBYIQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=_2dhd21ffbc)
+
+<p class="clip-credit"><strong>Omoplata escape by jumping over</strong> — taught by Ritchie Yip · 0:08 · <a href="https://www.youtube.com/watch?v=_2dhd21ffbc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Y4TxL4mDSKg)
+
+<p class="clip-credit"><strong>Defending the omoplata sweep</strong> — taught by Ninja Pinto · 0:47 · <a href="https://www.youtube.com/watch?v=Y4TxL4mDSKg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

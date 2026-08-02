@@ -23,21 +23,33 @@
   "outcomes": [
     {
       "to": "Side Control/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Old School/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "This technique addresses the fundamental challenge of passing Old School bottom: the bottom player's underhook, head control, and lockdown combine to create powerful sweep threats that must be systematically dismantled before any pass can succeed. The crossface serves as the primary weapon for breaking this control structure, driving the opponent's head away to eliminate their sweeping angle while simultaneously flattening their torso posture. Rather than forcing a path through the lockdown directly, the top player attacks the upper-body alignment that makes the lockdown dangerous in the first place.\n\nThe technique works by leveraging shoulder and forearm pressure across the bottom player's face and jaw, forcing their head to turn away from the underhook side. This single action cascades through the bottom player's entire control system: turning the head breaks the head control grip, flattens the torso angle required for sweeps, and reduces the mechanical effectiveness of the lockdown extension. Once the bottom player is flattened, the top player can systematically address the lockdown through hip pressure and ankle manipulation to extract the trapped leg and complete the pass to side control.\n\nStrategic application demands patience and incrementally increasing pressure rather than explosive force. The bottom player in Old School relies on the top player's reactions to time sweeps, so steady, suffocating pressure denies them the timing windows they need while gradually degrading their control structure. This technique pairs naturally with the whizzer control already established in Old School Top to create a comprehensive passing system from the lockdown half guard.",
   "variants_and_adaptations": [
     {
@@ -258,38 +270,138 @@
     "flashcards": [
       {
         "question": "Your opponent begins pumping the lockdown aggressively as you start the crossface - how do you adjust your approach?",
-        "answer": "Immediately sprawl your hips slightly back while maintaining chest pressure to neutralize the pump's sweeping leverage. Do not fight the pump by pulling your leg, as this feeds their mechanics. Wait for the pumping rhythm to slow, then resume the crossface drive during a pause between pumps. The sprawl removes the leverage angle they need while your weight keeps them pinned."
+        "answer": "Immediately sprawl your hips slightly back while maintaining chest pressure to neutralize the pump's sweeping leverage. Do not fight the pump by pulling your leg, as this feeds their mechanics. Wait for the pumping rhythm to slow, then resume the crossface drive during a pause between pumps. The sprawl removes the leverage angle they need while your weight keeps them pinned.",
+        "answer_line": "Sprawl hips, wait for pause, drive",
+        "distractors": {
+          "plausible": [
+            "Drive crossface through the pump",
+            "Release chest pressure, reset"
+          ],
+          "trap": [
+            "Pull your trapped leg free hard"
+          ]
+        }
       },
       {
         "question": "What is the most critical body position element that makes the crossface effective from Old School Top?",
-        "answer": "Chest-to-chest weight distribution with hips low is the critical element. The crossface derives its power from body weight transferred through the chest and shoulder, not from arm strength. When chest weight is properly committed forward onto the opponent's sternum, the crossface becomes a structural force they cannot frame against, while simultaneously preventing the hip movement they need for sweeps and guard recovery."
+        "answer": "Chest-to-chest weight distribution with hips low is the critical element. The crossface derives its power from body weight transferred through the chest and shoulder, not from arm strength. When chest weight is properly committed forward onto the opponent's sternum, the crossface becomes a structural force they cannot frame against, while simultaneously preventing the hip movement they need for sweeps and guard recovery.",
+        "answer_line": "Chest-to-chest weight, hips low",
+        "distractors": {
+          "plausible": [
+            "Grip strength on head control",
+            "Hip pressure, chest light"
+          ],
+          "trap": [
+            "Post hands wide for base"
+          ]
+        }
       },
       {
         "question": "Why must you maintain whizzer depth throughout the entire crossface passing sequence?",
-        "answer": "The whizzer prevents the bottom player from recovering a deep underhook, which is the foundation of their entire Old School control system. If the whizzer slips during the crossface, the opponent can repummel their underhook and immediately re-establish sweeping angle regardless of head position. The whizzer is the anchor that holds your progress while the crossface does the active work of flattening."
+        "answer": "The whizzer prevents the bottom player from recovering a deep underhook, which is the foundation of their entire Old School control system. If the whizzer slips during the crossface, the opponent can repummel their underhook and immediately re-establish sweeping angle regardless of head position. The whizzer is the anchor that holds your progress while the crossface does the active work of flattening.",
+        "answer_line": "Whizzer blocks underhook recovery",
+        "distractors": {
+          "plausible": [
+            "Whizzer sets up the sweep",
+            "Whizzer controls their hips"
+          ],
+          "trap": [
+            "Release whizzer to free hand"
+          ]
+        }
       },
       {
         "question": "Your opponent frames against your crossface shoulder with their forearm - what does this tell you and how do you respond?",
-        "answer": "The frame indicates they have released head control to create the frame, which is actually favorable because head control was one of the structures you needed to break. Swim your crossface hand inside their framing forearm and re-establish crossface below the frame. Their frame becomes ineffective once you are below it, and they have already given up the more dangerous head control grip voluntarily."
+        "answer": "The frame indicates they have released head control to create the frame, which is actually favorable because head control was one of the structures you needed to break. Swim your crossface hand inside their framing forearm and re-establish crossface below the frame. Their frame becomes ineffective once you are below it, and they have already given up the more dangerous head control grip voluntarily.",
+        "answer_line": "Swim inside frame, crossface below",
+        "distractors": {
+          "plausible": [
+            "Fight the frame with more force",
+            "Switch to head control grip"
+          ],
+          "trap": [
+            "Back off to reset your grip"
+          ]
+        }
       },
       {
         "question": "What conditions must exist before you attempt to extract your trapped leg from the lockdown?",
-        "answer": "The opponent must be substantially flattened with shoulders approaching the mat, their head turned away from the underhook side by the crossface, and their underhook shallow or neutralized by your whizzer. Attempting extraction before these conditions are met results in fighting a mechanically strong lockdown while the opponent retains sweep angles. The flattening process is what makes the lockdown extractable."
+        "answer": "The opponent must be substantially flattened with shoulders approaching the mat, their head turned away from the underhook side by the crossface, and their underhook shallow or neutralized by your whizzer. Attempting extraction before these conditions are met results in fighting a mechanically strong lockdown while the opponent retains sweep angles. The flattening process is what makes the lockdown extractable.",
+        "answer_line": "Flat, head turned, underhook shallow",
+        "distractors": {
+          "plausible": [
+            "Head turned, still deep underhook",
+            "Opponent flattened, head centered"
+          ],
+          "trap": [
+            "Yank leg early to beat the pump"
+          ]
+        }
       },
       {
         "question": "How should you time the crossface drive relative to your opponent's breathing and movement patterns?",
-        "answer": "Drive the crossface during your opponent's exhale or during moments when they pause between offensive actions. The exhale reduces their core tension and makes flattening easier. Pauses between lockdown pumps or sweep attempts represent windows where their structure is resetting. Avoid driving during their explosive bridge or pump movements, as your force will add to their momentum rather than opposing it effectively."
+        "answer": "Drive the crossface during your opponent's exhale or during moments when they pause between offensive actions. The exhale reduces their core tension and makes flattening easier. Pauses between lockdown pumps or sweep attempts represent windows where their structure is resetting. Avoid driving during their explosive bridge or pump movements, as your force will add to their momentum rather than opposing it effectively.",
+        "answer_line": "Drive on exhale or pause, not bridge",
+        "distractors": {
+          "plausible": [
+            "Drive during their inhale",
+            "Drive constantly, no timing"
+          ],
+          "trap": [
+            "Drive into their bridge explosion"
+          ]
+        }
       },
       {
         "question": "If the crossface stalls and you cannot fully flatten your opponent, what alternative transitions become available?",
-        "answer": "A partial crossface that turns the head but does not fully flatten opens several options: a knee slice pass using the angle created by the partial head turn, a darce choke if the opponent turns away from the crossface exposing their neck, or a switch to underhook passing by swimming for an underhook on the opposite side. The partial crossface has still degraded their control structure even if it did not complete the pass."
+        "answer": "A partial crossface that turns the head but does not fully flatten opens several options: a knee slice pass using the angle created by the partial head turn, a darce choke if the opponent turns away from the crossface exposing their neck, or a switch to underhook passing by swimming for an underhook on the opposite side. The partial crossface has still degraded their control structure even if it did not complete the pass.",
+        "answer_line": "Knee slice, darce, or underhook pass",
+        "distractors": {
+          "plausible": [
+            "Abandon pass, reset to guard",
+            "Switch to leg lock entry"
+          ],
+          "trap": [
+            "Release head control to regrip"
+          ]
+        }
       },
       {
         "question": "Your opponent dives underneath you attempting deep half guard entry during your crossface - what is the immediate response?",
-        "answer": "Sprawl your hips back and down heavily while driving the crossface deeper to prevent the rotation they need to complete the deep half entry. Their deep half attempt requires scooping under your hips, so removing hip space is the priority. If they are already partially under, switch to a whizzer and heavy hip pressure to prevent them from completing the position and address the deep half rather than continuing the crossface pass."
+        "answer": "Sprawl your hips back and down heavily while driving the crossface deeper to prevent the rotation they need to complete the deep half entry. Their deep half attempt requires scooping under your hips, so removing hip space is the priority. If they are already partially under, switch to a whizzer and heavy hip pressure to prevent them from completing the position and address the deep half rather than continuing the crossface pass.",
+        "answer_line": "Sprawl hips, drive crossface deeper",
+        "distractors": {
+          "plausible": [
+            "Post base and wait it out",
+            "Chase underhook immediately"
+          ],
+          "trap": [
+            "Let them settle deep half fully"
+          ]
+        }
       }
     ],
-    "safety_considerations": "The crossface applies pressure across the face and jaw which can cause discomfort but generally poses low injury risk when applied gradually. Avoid driving crossface directly into the throat or trachea. In training, communicate with your partner about pressure intensity and ensure they can breathe adequately throughout the exchange. The lockdown extraction phase requires careful attention to knee and ankle alignment to prevent ligament strain on both players."
+    "safety_considerations": "The crossface applies pressure across the face and jaw which can cause discomfort but generally poses low injury risk when applied gradually. Avoid driving crossface directly into the throat or trachea. In training, communicate with your partner about pressure intensity and ensure they can breathe adequately throughout the exchange. The lockdown extraction phase requires careful attention to knee and ankle alignment to prevent ligament strain on both players.",
+    "clips": [
+      {
+        "id": "oHHWw-nySzA",
+        "title": "Cross face half guard pass",
+        "by": "GB Neto",
+        "vertical": false,
+        "channel": "gbneto BJJ",
+        "duration": 78,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "qqaMVmLxklI",
+        "title": "Half guard top cross body pass",
+        "by": "SBG New Braunfels",
+        "vertical": false,
+        "channel": "SBG New Braunfels BJJ",
+        "duration": 121,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Crossface from Old School Defender",
@@ -375,19 +487,59 @@
     "flashcards": [
       {
         "question": "What is the first thing you should do when you recognize the crossface initiation from Old School Top?",
-        "answer": "Immediately pump the lockdown with maximum extension while tightening your underhook and pulling your head control grip deeper. The pump creates counter-force that resists the flattening effect while your tightened controls prevent the incremental degradation the crossface aims to achieve. Early action when the crossface pressure is still light is far more effective than attempting recovery after significant flattening has occurred."
+        "answer": "Immediately pump the lockdown with maximum extension while tightening your underhook and pulling your head control grip deeper. The pump creates counter-force that resists the flattening effect while your tightened controls prevent the incremental degradation the crossface aims to achieve. Early action when the crossface pressure is still light is far more effective than attempting recovery after significant flattening has occurred.",
+        "answer_line": "Pump lockdown, tighten underhook",
+        "distractors": {
+          "plausible": [
+            "Wait for pressure to build first",
+            "Frame on their chest, push away"
+          ],
+          "trap": [
+            "Relax and accept the flattening"
+          ]
+        }
       },
       {
         "question": "Why does the opponent's crossface weight shift create an opportunity for the Old School Sweep?",
-        "answer": "The crossface requires the opponent to commit weight forward through their shoulder and chest into your face. This forward weight commitment is the exact weight distribution that makes Old School Sweeps most effective, because the opponent's center of gravity is shifted toward the sweeping direction. Their base is momentarily compromised during the heaviest drive, creating a timing window where the sweep has maximum probability of success."
+        "answer": "The crossface requires the opponent to commit weight forward through their shoulder and chest into your face. This forward weight commitment is the exact weight distribution that makes Old School Sweeps most effective, because the opponent's center of gravity is shifted toward the sweeping direction. Their base is momentarily compromised during the heaviest drive, creating a timing window where the sweep has maximum probability of success.",
+        "answer_line": "Forward weight aids sweep timing",
+        "distractors": {
+          "plausible": [
+            "Crossface weakens their grip",
+            "Weight shift opens back take"
+          ],
+          "trap": [
+            "Wait for hips high to sweep"
+          ]
+        }
       },
       {
         "question": "When should you abandon Old School defense and transition to deep half guard instead?",
-        "answer": "Transition to deep half when your head has been turned more than 45 degrees from the underhook side, your underhook depth has been reduced to shallow, and you still retain hip mobility to scoop under the opponent. These conditions indicate that Old School recovery is unlikely to succeed but you have not yet been fully flattened. The transition requires releasing lockdown and head control simultaneously while diving under the opponent's hips, so do not wait until you are flat on your back."
+        "answer": "Transition to deep half when your head has been turned more than 45 degrees from the underhook side, your underhook depth has been reduced to shallow, and you still retain hip mobility to scoop under the opponent. These conditions indicate that Old School recovery is unlikely to succeed but you have not yet been fully flattened. The transition requires releasing lockdown and head control simultaneously while diving under the opponent's hips, so do not wait until you are flat on your back.",
+        "answer_line": "Head turning, hips still mobile",
+        "distractors": {
+          "plausible": [
+            "Wait until fully flattened",
+            "Keep lockdown, switch head only"
+          ],
+          "trap": [
+            "Release lockdown, stay flat"
+          ]
+        }
       },
       {
         "question": "How do you maintain your underhook depth against the whizzer during the crossface exchange?",
-        "answer": "Keep your underhooking elbow clamped tight to your ribs rather than extended outward, and grip as high on the opponent's back or shoulder as possible. The whizzer's power comes from creating downward pressure on your arm, so keeping your elbow tight removes the lever they need. Additionally, use your head control to pull the opponent's posture down, which paradoxically gives your underhook more depth as their body folds forward toward you."
+        "answer": "Keep your underhooking elbow clamped tight to your ribs rather than extended outward, and grip as high on the opponent's back or shoulder as possible. The whizzer's power comes from creating downward pressure on your arm, so keeping your elbow tight removes the lever they need. Additionally, use your head control to pull the opponent's posture down, which paradoxically gives your underhook more depth as their body folds forward toward you.",
+        "answer_line": "Elbow tight, grip high, pull posture",
+        "distractors": {
+          "plausible": [
+            "Extend elbow for more leverage",
+            "Grip low on the hip for control"
+          ],
+          "trap": [
+            "Release underhook to escape whizzer"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -405,6 +557,26 @@
         "phase": "Phase 3: Full Resistance Defense",
         "focus": "Applying complete defensive and counter-offensive repertoire against determined crossface attempts",
         "description": "Partner applies full-pressure crossface passing sequence. Defend using all available options: lockdown pumping, sweep timing, deep half transitions, and frame recovery. 3-minute rounds from Old School Bottom with reset after pass or sweep. Track which defensive option succeeds most frequently under pressure."
+      }
+    ],
+    "clips": [
+      {
+        "id": "1ZKvfHNiGOQ",
+        "title": "Half guard sweep against crossface and underhook",
+        "by": "Indrek Reiland",
+        "vertical": false,
+        "channel": "indrekreiland",
+        "duration": 98,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "Jnc2siD9cak",
+        "title": "Old school half guard sweep",
+        "by": "Ritchie Yip",
+        "vertical": false,
+        "channel": "Ritchie Yip",
+        "duration": 12,
+        "verified": "2026-07-15"
       }
     ]
   }

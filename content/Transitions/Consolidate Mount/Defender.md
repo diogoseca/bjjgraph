@@ -148,6 +148,54 @@ description: "How to defend against Consolidate Mount in BJJ. Recognition cues, 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Consolidate Mount (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "A mount escape that actually works",
+      "description": "Consolidate Mount (Defender) film study: A mount escape that actually works, taught by Gabriel Gonzaga.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/9252EvCT0q4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/9252EvCT0q4",
+      "url": "https://www.youtube.com/watch?v=9252EvCT0q4",
+      "creator": { "@type": "Person", "name": "Gabriel Gonzaga" },
+      "duration": "PT93S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "The Dagestani mount escape",
+      "description": "Consolidate Mount (Defender) film study: The Dagestani mount escape, taught by Danny Mitchell.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/boWprABmeaU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/boWprABmeaU",
+      "url": "https://www.youtube.com/watch?v=boWprABmeaU",
+      "creator": { "@type": "Person", "name": "Danny Mitchell" },
+      "duration": "PT145S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Mount escape against the crossface",
+      "description": "Consolidate Mount (Defender) film study: Mount escape against the crossface, taught by Fenix Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/QHuh7h0VDOM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/QHuh7h0VDOM",
+      "url": "https://www.youtube.com/watch?v=QHuh7h0VDOM",
+      "creator": { "@type": "Person", "name": "Fenix Jiu Jitsu" },
+      "duration": "PT135S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +205,42 @@ Defending against mount consolidation is one of the most urgent defensive tasks 
 **Opponent's Starting Position**: [[Positions/Mount]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Consolidate Mount (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=9252EvCT0q4)
+
+<p class="clip-credit"><strong>A mount escape that actually works</strong> — taught by Gabriel Gonzaga · 1:33 · <a href="https://www.youtube.com/watch?v=9252EvCT0q4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=boWprABmeaU)
+
+<p class="clip-credit"><strong>The Dagestani mount escape</strong> — taught by Danny Mitchell · 2:25 · <a href="https://www.youtube.com/watch?v=boWprABmeaU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=QHuh7h0VDOM)
+
+<p class="clip-credit"><strong>Mount escape against the crossface</strong> — taught by Fenix Jiu Jitsu · 2:15 · <a href="https://www.youtube.com/watch?v=QHuh7h0VDOM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

@@ -34,6 +34,43 @@ description: "Master the heel hook from Inside Sankaku position. Complete guide 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Heel Hook from Inside Sankaku \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Heel Hook Breaking Mechanics",
+      "description": "Heel Hook from Inside Sankaku film study: Heel Hook Breaking Mechanics, taught by Craig Jones.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/6gu-n4P9JXo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/6gu-n4P9JXo",
+      "url": "https://www.youtube.com/watch?v=6gu-n4P9JXo",
+      "creator": { "@type": "Person", "name": "Craig Jones" },
+      "duration": "PT77S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Backside 50/50 Inside Heel Hook Finish",
+      "description": "Heel Hook from Inside Sankaku film study: Backside 50/50 Inside Heel Hook Finish, taught by Craig Jones.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/sIYeSMSkqeE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/sIYeSMSkqeE",
+      "url": "https://www.youtube.com/watch?v=sIYeSMSkqeE",
+      "creator": { "@type": "Person", "name": "Craig Jones" },
+      "duration": "PT18S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -81,6 +118,34 @@ The critical distinction from other leg lock positions is the degree of rotation
 **Starting Position**: [[Positions/Inside Sankaku]] · **From**: [[Positions/Inside Sankaku]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Heel Hook from Inside Sankaku in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=6gu-n4P9JXo)
+
+<p class="clip-credit"><strong>Heel Hook Breaking Mechanics</strong> — taught by Craig Jones · 1:17 · <a href="https://www.youtube.com/watch?v=6gu-n4P9JXo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=sIYeSMSkqeE)
+
+<p class="clip-credit"><strong>Backside 50/50 Inside Heel Hook Finish</strong> — taught by Craig Jones · 0:18 · <a href="https://www.youtube.com/watch?v=sIYeSMSkqeE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="outcomes" class="content-section">
 
@@ -247,7 +312,7 @@ The critical distinction from other leg lock positions is the degree of rotation
 <section id="related" class="content-section">
 
 ## Related
-- [[Transitions/Heel Hook]]
+- [[Submissions/Heel Hook]]
 - [[Submissions/Inside Heel Hook]]
 - [[Submissions/Calf Slicer]]
 - [[Submissions/Achilles Lock]]

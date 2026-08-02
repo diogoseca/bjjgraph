@@ -34,6 +34,54 @@ description: "Master the Roll Through Escape from Twister Control. Learn spinal 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Roll Through Escape \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Twister Side Control to Twister Roll",
+      "description": "Roll Through Escape film study: Twister Side Control to Twister Roll, taught by Ramsey Dewey.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/U_nrXc64nIM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/U_nrXc64nIM",
+      "url": "https://www.youtube.com/watch?v=U_nrXc64nIM",
+      "creator": { "@type": "Person", "name": "Ramsey Dewey" },
+      "duration": "PT27S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Rolling escape out of twister side control",
+      "description": "Roll Through Escape film study: Rolling escape out of twister side control, taught by Pearson BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/0-Ht2pQtWRs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/0-Ht2pQtWRs",
+      "url": "https://www.youtube.com/watch?v=0-Ht2pQtWRs",
+      "creator": { "@type": "Person", "name": "Pearson BJJ" },
+      "duration": "PT228S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Escape and counter the twister",
+      "description": "Roll Through Escape film study: Escape and counter the twister, taught by Matrix Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Va1YNgx2E6M/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Va1YNgx2E6M",
+      "url": "https://www.youtube.com/watch?v=Va1YNgx2E6M",
+      "creator": { "@type": "Person", "name": "Matrix Jiu Jitsu" },
+      "duration": "PT165S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ Strategically, this escape requires precise timing and commitment. Attempting it
 **Success Rate**: 58%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Roll Through Escape in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=U_nrXc64nIM)
+
+<p class="clip-credit"><strong>Twister Side Control to Twister Roll</strong> — taught by Ramsey Dewey · 0:27 · <a href="https://www.youtube.com/watch?v=U_nrXc64nIM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=0-Ht2pQtWRs)
+
+<p class="clip-credit"><strong>Rolling escape out of twister side control</strong> — taught by Pearson BJJ · 3:48 · <a href="https://www.youtube.com/watch?v=0-Ht2pQtWRs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Va1YNgx2E6M)
+
+<p class="clip-credit"><strong>Escape and counter the twister</strong> — taught by Matrix Jiu Jitsu · 2:45 · <a href="https://www.youtube.com/watch?v=Va1YNgx2E6M" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

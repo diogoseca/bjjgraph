@@ -174,6 +174,54 @@ description: "Master the attacker perspective for Standing Back Control Entry in
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Standing Back Control Entry (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "The Dagestani drag to the back from standing",
+      "description": "Standing Back Control Entry (Attacker) film study: The Dagestani drag to the back from standing, taught by Wrestling University.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/f6o0MecKxOU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/f6o0MecKxOU",
+      "url": "https://www.youtube.com/watch?v=f6o0MecKxOU",
+      "creator": { "@type": "Person", "name": "Wrestling University" },
+      "duration": "PT84S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Key Concept for Unstoppable Back Control",
+      "description": "Standing Back Control Entry (Attacker) film study: Key Concept for Unstoppable Back Control, taught by Demian Maia.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/cHArBVK59pI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/cHArBVK59pI",
+      "url": "https://www.youtube.com/watch?v=cHArBVK59pI",
+      "creator": { "@type": "Person", "name": "Demian Maia" },
+      "duration": "PT409S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Continuous Seat Belt Back Take Drill",
+      "description": "Standing Back Control Entry (Attacker) film study: Continuous Seat Belt Back Take Drill, taught by Brandon Quick.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/njpKEGZ7JC8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/njpKEGZ7JC8",
+      "url": "https://www.youtube.com/watch?v=njpKEGZ7JC8",
+      "creator": { "@type": "Person", "name": "Brandon Quick" },
+      "duration": "PT148S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -183,6 +231,42 @@ From the attacker perspective, Standing Back Control Entry requires precise coor
 **From Position**: [[Positions/Back Control]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Standing Back Control Entry (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=f6o0MecKxOU)
+
+<p class="clip-credit"><strong>The Dagestani drag to the back from standing</strong> — taught by Wrestling University · 1:24 · <a href="https://www.youtube.com/watch?v=f6o0MecKxOU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=cHArBVK59pI)
+
+<p class="clip-credit"><strong>Key Concept for Unstoppable Back Control</strong> — taught by Demian Maia · 6:49 · <a href="https://www.youtube.com/watch?v=cHArBVK59pI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=njpKEGZ7JC8)
+
+<p class="clip-credit"><strong>Continuous Seat Belt Back Take Drill</strong> — taught by Brandon Quick · 2:28 · <a href="https://www.youtube.com/watch?v=njpKEGZ7JC8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

@@ -18,7 +18,10 @@
   "target_area": "Shoulder joint (specifically glenohumeral joint and rotator cuff)",
   "starting_position": "S Mount",
   "from_position": "S Mount/Top",
-  "success_rate": 68,
+  "success_rate": {
+    "gi": 68,
+    "nogi": 68
+  },
   "overview": "The Americana from S Mount exploits the perpendicular body angle unique to S Mount to create devastating shoulder lock mechanics. Unlike the traditional Americana applied from standard mount or side control, the S Mount variant benefits from superior hip-to-shoulder pressure that pins the opponent's arm to the mat while the top practitioner's weight drives directly through the shoulder joint. This positional advantage makes grip breaks extremely difficult and accelerates the submission finish.\n\nThe key mechanical difference lies in how S Mount positions your hips directly over the target shoulder. In standard mount Americana, the attacker must lean laterally to apply rotational force, creating opportunities for the bottom person to bridge or shrimp. From S Mount, your perpendicular alignment means your bodyweight naturally loads the shoulder, and the figure-four keylock grip encounters less resistance because the arm is already partially isolated by your leg positioning. The finishing angle paints the opponent's wrist toward the mat in a shorter arc, reducing the time between initial grip and tap.\n\nStrategically, the Americana from S Mount serves as a powerful secondary attack in the S Mount submission chain. When the opponent defends the armbar by keeping their elbow bent and hugging tight, the Americana capitalizes on that exact defensive posture. The bent-arm position that protects against armbar extension becomes the starting configuration for the keylock, creating a true dilemma: straighten the arm and face the armbar, or keep it bent and expose the Americana.",
   "safety_considerations": {
     "injury_risks": [
@@ -108,17 +111,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 68,
+      "probability": {
+        "gi": 68,
+        "nogi": 68
+      },
       "result": "success"
     },
     {
       "to": "S Mount/Top",
-      "probability": 21,
+      "probability": {
+        "gi": 21,
+        "nogi": 21
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 11,
+      "probability": {
+        "gi": 11,
+        "nogi": 11
+      },
       "result": "counter"
     }
   ],
@@ -264,42 +276,151 @@
       {
         "question": "What anatomical structures does the Americana from S Mount primarily attack?",
         "answer": "The Americana targets the glenohumeral shoulder joint, specifically applying rotational force to the shoulder capsule, rotator cuff muscles (supraspinatus, infraspinatus, teres minor, subscapularis), and the surrounding ligaments. The keylock grip creates external rotation of the humerus while the shoulder is pinned by hip pressure, stressing these structures simultaneously. Secondary stress occurs at the AC joint and biceps tendon.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Shoulder joint & rotator cuff",
+        "distractors": {
+          "plausible": [
+            "Elbow joint hyperextension",
+            "Wrist flexor tendons"
+          ],
+          "trap": [
+            "Neck and cervical spine"
+          ]
+        }
       },
       {
         "question": "Your opponent stops moving and becomes rigid as you apply the Americana rotation - what does this indicate and how should you respond?",
         "answer": "Rigidity and stillness typically indicate the opponent has reached their pain threshold and the joint is approaching its mechanical limit. They may be trying to endure rather than tap. At this point, slow your application speed and hold steady pressure rather than increasing force. Watch for verbal distress or involuntary facial grimacing as additional indicators the tap is imminent. In training, verbally ask if they want to tap rather than pushing further.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Slow down, hold steady pressure",
+        "distractors": {
+          "plausible": [
+            "Keep increasing pressure steadily",
+            "Release grip to check in"
+          ],
+          "trap": [
+            "Crank harder for quick tap"
+          ]
+        }
       },
       {
         "question": "What control must be established before beginning the Americana finish from S Mount?",
         "answer": "Hip-to-shoulder connection must be tight with your weight driving through the opponent's near shoulder. The figure-four keylock grip must be fully secured with one hand controlling the wrist and the other threaded under the elbow. Your legs must maintain S Mount structure with one over the head and one across the torso. The opponent's elbow should be pinned near their body with their forearm perpendicular to the ground before any rotation begins.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Hip pressure + locked figure-four",
+        "distractors": {
+          "plausible": [
+            "Just wrist control is enough",
+            "Cross-face before grip locks"
+          ],
+          "trap": [
+            "Let elbow float off mat"
+          ]
+        }
       },
       {
         "question": "At what point during the Americana from S Mount is the submission considered inescapable?",
         "answer": "Once the figure-four grip is locked with proper hip pressure anchoring the shoulder, and the wrist has been painted past the midline of the opponent's body toward the mat, escape becomes nearly impossible. The combination of hip weight on the shoulder, locked keylock grip, and rotational force beyond the midline creates a mechanical position where strength alone cannot overcome the leverage disadvantage. At this point the defender should tap immediately.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Wrist rotated past midline",
+        "distractors": {
+          "plausible": [
+            "Grip locked, rotation not started",
+            "Elbow pinned, wrist still centered"
+          ],
+          "trap": [
+            "Wait for opponent to tire out"
+          ]
+        }
       },
       {
         "question": "What are the most frequent finishing errors that prevent completing the Americana from S Mount?",
         "answer": "The most common finishing errors are: lifting hips off the shoulder during rotation, which allows the opponent to create defensive space; using arm strength instead of hip drive to rotate the wrist, which causes rapid fatigue; allowing the opponent's elbow to lift off the mat, which reduces rotational leverage dramatically; and attempting the Americana on a straight arm rather than transitioning to the armbar, which wastes time on an incorrect submission for the arm configuration.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Lifting hips off the shoulder",
+        "distractors": {
+          "plausible": [
+            "Driving the turn with body weight",
+            "Keeping the elbow pinned down"
+          ],
+          "trap": [
+            "Jerking the lock for a fast tap"
+          ]
+        }
       },
       {
         "question": "Your opponent grabs their own belt to defend the Americana grip - how do you adjust to break this defense?",
         "answer": "Maintain your figure-four grip and shift your hip pressure forward to increase the pin on their shoulder. Use small pulsing hip drives to fatigue their defensive grip while you work the wrist free. Alternatively, slide your wrist-controlling hand to their fingers and peel the grip one finger at a time starting with the pinky. If the belt grip holds, consider transitioning to the armbar by working to extend their arm, since the defensive grip often straightens the elbow into armbar position.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Pulse hips, peel the grip free",
+        "distractors": {
+          "plausible": [
+            "Yank the wrist straight back",
+            "Switch hands to strip the belt"
+          ],
+          "trap": [
+            "Lean back to rip the belt away"
+          ]
+        }
       },
       {
         "question": "What are the key safety considerations when applying the Americana from S Mount in training?",
         "answer": "Apply rotational force slowly over 3-5 seconds minimum and never jerk or spike the shoulder joint. The S Mount hip pressure amplifies the submission force significantly, so use only 10-20% pressure in drilling. Watch for verbal distress, facial grimacing, or body rigidity as pre-tap indicators. Release immediately upon any tap signal including verbal, hand, or foot taps. Never repeatedly submit the same shoulder in one training session, and partners with previous shoulder injuries require medical clearance.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Apply slowly, release on tap",
+        "distractors": {
+          "plausible": [
+            "Use full pressure, then ease",
+            "Only rely on verbal tap"
+          ],
+          "trap": [
+            "Repeat submissions same shoulder"
+          ]
+        }
       },
       {
         "question": "In competition, your opponent is defending the Americana grip but leaving their neck exposed - what finishing strategy do you employ?",
         "answer": "Maintain the Americana threat as your primary attack while noting the neck exposure. The best competition strategy is to create a submission dilemma: threaten the Americana aggressively enough to force defensive commitment to shoulder protection, then transition to a mounted triangle or arm triangle if they over-commit by bringing their free arm across their body. The Americana serves as the primary forcing function that opens secondary attacks, making your submission chain unpredictable and difficult to defend comprehensively.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Force reaction, chain to triangle",
+        "distractors": {
+          "plausible": [
+            "Abandon shoulder lock for choke",
+            "Muscle the keylock through grips"
+          ],
+          "trap": [
+            "Sit up tall and reach for the neck"
+          ]
+        }
+      }
+    ],
+    "clips": [
+      {
+        "id": "Z44VF9pmJBg",
+        "title": "Americana from Mount",
+        "by": "Chelsea Ozer",
+        "vertical": false,
+        "channel": "Alain Pozo",
+        "duration": 52,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "uPazS4MJiDc",
+        "title": "How To Perform Americana From Top Mount",
+        "by": "Evolve MMA",
+        "vertical": false,
+        "channel": "Evolve Mixed Martial Arts",
+        "duration": 71,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "9XZSamucGkg",
+        "title": "How to Finish the Americana",
+        "by": "BatuhanBjj",
+        "vertical": false,
+        "channel": "BatuhanBjj",
+        "duration": 131,
+        "verified": "2026-07-14"
       }
     ]
   },
@@ -392,27 +513,77 @@
       {
         "question": "How do you recognize the Americana setup from S Mount before the figure-four grip is locked?",
         "answer": "The key recognition cues are: the opponent's far hand begins sliding under your elbow while their near hand maintains wrist control, creating the figure-four threading motion. You will also feel increased hip pressure on your shoulder as they prepare to anchor the finish. The transition from armbar threat to Americana often occurs when you successfully keep your elbow bent, so recognize that your armbar defense has shifted the threat rather than eliminated it.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Far hand threading under elbow",
+        "distractors": {
+          "plausible": [
+            "Sudden drop in hip pressure",
+            "Near hand releasing your wrist"
+          ],
+          "trap": [
+            "Wait until the wrist rotates"
+          ]
+        }
       },
       {
         "question": "What is the safest course of action when the Americana from S Mount is fully locked with rotation past your midline?",
         "answer": "Tap immediately using your free hand, verbal signal, or foot tap on the mat. Once the keylock is secured with proper hip pressure and the wrist has been rotated past your body's midline, the submission is mechanically complete. Attempting to resist risks serious rotator cuff tears, shoulder capsule damage, or glenohumeral dislocation. There is no defensive technique that reliably escapes a properly locked Americana at this stage - tap early to train again tomorrow.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Tap immediately, don't resist",
+        "distractors": {
+          "plausible": [
+            "Bridge hard to reverse position",
+            "Push through, wait for whistle"
+          ],
+          "trap": [
+            "Resist and fight for the frame"
+          ]
+        }
       },
       {
         "question": "Your opponent begins threading the figure-four grip from S Mount - what defensive options are available in the first two seconds?",
         "answer": "In the first two seconds before the grip fully locks: drive your elbow to the mat and pin it tight to your ribs to prevent the hand from threading under, immediately grip your own collar with the threatened hand to create an anchor point they must break, and begin hip escaping toward their legs to disrupt the perpendicular alignment. The critical window is before the keylock locks - once the figure-four is fully set, defensive options diminish dramatically.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Pin elbow tight, grip collar",
+        "distractors": {
+          "plausible": [
+            "Push opponent's chest away",
+            "Wait and see if grip locks"
+          ],
+          "trap": [
+            "Extend arm to create space"
+          ]
+        }
       },
       {
         "question": "What defensive errors most commonly lead to getting submitted by the Americana from S Mount?",
         "answer": "The most common errors are: extending the trapped arm straight while trying to push the attacker away, which feeds the armbar; removing the free hand from leg control to fight the grip with both hands, which loses your primary escape tool; panicking and bridging without maintaining collar grip arm protection, which can accelerate the submission; and failing to recognize the Americana grip setup early enough to prevent the figure-four from being established, which eliminates the highest-percentage defensive window.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Extending trapped arm straight",
+        "distractors": {
+          "plausible": [
+            "Pinning elbow tight to ribs",
+            "Gripping your own collar"
+          ],
+          "trap": [
+            "Tapping early to the keylock"
+          ]
+        }
       },
       {
         "question": "You successfully defend the Americana grip but remain trapped in S Mount bottom - what is your immediate next priority?",
         "answer": "Return to fundamental S Mount defense: maintain bent-arm protection with collar grip, control the opponent's near leg with your free hand, and begin hip escaping toward their legs. Do not relax after preventing the Americana - you remain in severe danger of armbar, triangle, or another Americana attempt. Use the brief transition period while the opponent resets their attack to create incremental space for escape. The goal shifts from submission defense to positional escape.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Resume bent-arm, hip escape",
+        "distractors": {
+          "plausible": [
+            "Relax, defense fully secured",
+            "Immediately attack for sweep"
+          ],
+          "trap": [
+            "Release leg control to rest"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -435,6 +606,35 @@
         "phase": "Phase 4: Live Positional Defense",
         "focus": "Defending the full S Mount submission chain including Americana in live sparring",
         "description": "Positional sparring starting in S Mount bottom with partner allowed to attack any submission including Americana. Defend all threats and work to escape to guard. This phase integrates Americana defense with armbar defense and overall S Mount survival, building the ability to handle combined threats under realistic conditions."
+      }
+    ],
+    "clips": [
+      {
+        "id": "NZjUCo8os8Q",
+        "title": "Simple Americana Armlock Escape",
+        "by": "Eddie Kone",
+        "vertical": false,
+        "channel": "Eddie Kone Academy Of Jiu-Jitsu",
+        "duration": 61,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "Ny_l7GHApo0",
+        "title": "Mounted Americana Defenses - Early Escapes",
+        "by": "Força Martial Arts",
+        "vertical": false,
+        "channel": "Força Martial Arts & Fitness",
+        "duration": 200,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "x5oNak2YANY",
+        "title": "Americana Defense to Armbar Finish",
+        "by": "JiuJitsu.com",
+        "vertical": false,
+        "channel": "JiuJitsu.com",
+        "duration": 177,
+        "verified": "2026-07-14"
       }
     ]
   }

@@ -133,6 +133,54 @@ description: "How to defend the toe hold entry from Ashi Garami in BJJ. Recogniz
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Ashi Garami to Toe Hold Control (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "How to escape the toe hold",
+      "description": "Ashi Garami to Toe Hold Control (Defender) film study: How to escape the toe hold, taught by Gordon Ryan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/3a9k8-ZcYrk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/3a9k8-ZcYrk",
+      "url": "https://www.youtube.com/watch?v=3a9k8-ZcYrk",
+      "creator": { "@type": "Person", "name": "Gordon Ryan" },
+      "duration": "PT106S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "How to defend against toe holds",
+      "description": "Ashi Garami to Toe Hold Control (Defender) film study: How to defend against toe holds, taught by The Grappling Academy.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/f4OOg_35Xjk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/f4OOg_35Xjk",
+      "url": "https://www.youtube.com/watch?v=f4OOg_35Xjk",
+      "creator": { "@type": "Person", "name": "The Grappling Academy" },
+      "duration": "PT203S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "5 leglock counters to ashi garami",
+      "description": "Ashi Garami to Toe Hold Control (Defender) film study: 5 leglock counters to ashi garami, taught by BJJBlackBeltDad.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/QMgsMSTRSBI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/QMgsMSTRSBI",
+      "url": "https://www.youtube.com/watch?v=QMgsMSTRSBI",
+      "creator": { "@type": "Person", "name": "BJJBlackBeltDad" },
+      "duration": "PT93S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <aside class="entity-relations">
@@ -149,6 +197,42 @@ Above all, manage risk. The toe hold injures fast, so you must distinguish betwe
 **Opponent's Starting Position**: [[Positions/Ashi Garami]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Ashi Garami to Toe Hold Control (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=3a9k8-ZcYrk)
+
+<p class="clip-credit"><strong>How to escape the toe hold</strong> — taught by Gordon Ryan · 1:46 · <a href="https://www.youtube.com/watch?v=3a9k8-ZcYrk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=f4OOg_35Xjk)
+
+<p class="clip-credit"><strong>How to defend against toe holds</strong> — taught by The Grappling Academy · 3:23 · <a href="https://www.youtube.com/watch?v=f4OOg_35Xjk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=QMgsMSTRSBI)
+
+<p class="clip-credit"><strong>5 leglock counters to ashi garami</strong> — taught by BJJBlackBeltDad · 1:33 · <a href="https://www.youtube.com/watch?v=QMgsMSTRSBI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

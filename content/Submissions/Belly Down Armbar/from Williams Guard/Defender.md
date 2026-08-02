@@ -144,6 +144,43 @@ description: "Defend the belly down armbar from Williams Guard. Recognition cues
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Belly Down Armbar from Williams Guard (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "My Favorite Armbar Escape",
+      "description": "Belly Down Armbar from Williams Guard (Defender) film study: My Favorite Armbar Escape, taught by Matt Arroyo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/kNdKfUdgO4I/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/kNdKfUdgO4I",
+      "url": "https://www.youtube.com/watch?v=kNdKfUdgO4I",
+      "creator": { "@type": "Person", "name": "Matt Arroyo" },
+      "duration": "PT92S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Why Your Armbar from Guard Always Fails",
+      "description": "Belly Down Armbar from Williams Guard (Defender) film study: Why Your Armbar from Guard Always Fails, taught by Wim Deputter.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/58eCiNxdOiI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/58eCiNxdOiI",
+      "url": "https://www.youtube.com/watch?v=58eCiNxdOiI",
+      "creator": { "@type": "Person", "name": "Wim Deputter" },
+      "duration": "PT76S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -154,6 +191,34 @@ Defending the belly down armbar from Williams Guard requires early recognition a
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Belly Down Armbar from Williams Guard (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=kNdKfUdgO4I)
+
+<p class="clip-credit"><strong>My Favorite Armbar Escape</strong> — taught by Matt Arroyo · 1:32 · <a href="https://www.youtube.com/watch?v=kNdKfUdgO4I" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=58eCiNxdOiI)
+
+<p class="clip-credit"><strong>Why Your Armbar from Guard Always Fails</strong> — taught by Wim Deputter · 1:16 · <a href="https://www.youtube.com/watch?v=58eCiNxdOiI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

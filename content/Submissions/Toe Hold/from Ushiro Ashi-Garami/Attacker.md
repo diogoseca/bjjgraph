@@ -176,6 +176,43 @@ description: "Learn to attack the toe hold from ushiro ashi-garami with proper g
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Toe Hold from Ushiro Ashi-Garami (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Slide into Ashi to Straight Toe Hold",
+      "description": "Toe Hold from Ushiro Ashi-Garami (Attacker) film study: Slide into Ashi to Straight Toe Hold, taught by Josh Star-Lord Leduc.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/tUKGafnOlJo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/tUKGafnOlJo",
+      "url": "https://www.youtube.com/watch?v=tUKGafnOlJo",
+      "creator": { "@type": "Person", "name": "Josh Star-Lord Leduc" },
+      "duration": "PT58S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Toe Hold / Kneebar from Reverse Ashi",
+      "description": "Toe Hold from Ushiro Ashi-Garami (Attacker) film study: Toe Hold / Kneebar from Reverse Ashi, taught by Mads H..",
+      "thumbnailUrl": "https://i.ytimg.com/vi/TkSFu08UXec/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/TkSFu08UXec",
+      "url": "https://www.youtube.com/watch?v=TkSFu08UXec",
+      "creator": { "@type": "Person", "name": "Mads H." },
+      "duration": "PT296S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -186,6 +223,34 @@ Executing the toe hold from ushiro ashi-garami requires precise grip placement o
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Toe Hold from Ushiro Ashi-Garami (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=tUKGafnOlJo)
+
+<p class="clip-credit"><strong>Slide into Ashi to Straight Toe Hold</strong> — taught by Josh Star-Lord Leduc · 0:58 · <a href="https://www.youtube.com/watch?v=tUKGafnOlJo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=TkSFu08UXec)
+
+<p class="clip-credit"><strong>Toe Hold / Kneebar from Reverse Ashi</strong> — taught by Mads H. · 4:56 · <a href="https://www.youtube.com/watch?v=TkSFu08UXec" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

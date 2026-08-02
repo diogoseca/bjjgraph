@@ -152,6 +152,43 @@ description: "Defend and escape the bow and arrow choke from body triangle. Reco
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Bow and Arrow Choke from Body Triangle (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Defending Back Control Face Down",
+      "description": "Bow and Arrow Choke from Body Triangle (Defender) film study: Defending Back Control Face Down, taught by Academy Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/485wvqwlBYA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/485wvqwlBYA",
+      "url": "https://www.youtube.com/watch?v=485wvqwlBYA",
+      "creator": { "@type": "Person", "name": "Academy Jiu Jitsu" },
+      "duration": "PT92S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Escaping the Body Triangle",
+      "description": "Bow and Arrow Choke from Body Triangle (Defender) film study: Escaping the Body Triangle, taught by Coach Brian.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/hgaULMND3ag/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/hgaULMND3ag",
+      "url": "https://www.youtube.com/watch?v=hgaULMND3ag",
+      "creator": { "@type": "Person", "name": "Coach Brian" },
+      "duration": "PT129S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -162,6 +199,34 @@ Defending the Bow and Arrow Choke from Body Triangle is among the most challengi
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Bow and Arrow Choke from Body Triangle (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=485wvqwlBYA)
+
+<p class="clip-credit"><strong>Defending Back Control Face Down</strong> — taught by Academy Jiu Jitsu · 1:32 · <a href="https://www.youtube.com/watch?v=485wvqwlBYA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=hgaULMND3ag)
+
+<p class="clip-credit"><strong>Escaping the Body Triangle</strong> — taught by Coach Brian · 2:09 · <a href="https://www.youtube.com/watch?v=hgaULMND3ag" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

@@ -34,6 +34,43 @@ description: "Master the cross face pass from flattened half guard. Complete gui
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Cross Face Pass from Flattened Half \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Shallow cross face detail",
+      "description": "Cross Face Pass from Flattened Half film study: Shallow cross face detail, taught by Craig Jones.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/PTe4-NhLXf8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/PTe4-NhLXf8",
+      "url": "https://www.youtube.com/watch?v=PTe4-NhLXf8",
+      "creator": { "@type": "Person", "name": "Craig Jones" },
+      "duration": "PT24S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "How to create an insanely tight cross face",
+      "description": "Cross Face Pass from Flattened Half film study: How to create an insanely tight cross face, taught by Escapology BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/gHD03vpWGSM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/gHD03vpWGSM",
+      "url": "https://www.youtube.com/watch?v=gHD03vpWGSM",
+      "creator": { "@type": "Person", "name": "Escapology BJJ" },
+      "duration": "PT119S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +106,34 @@ Strategically, the cross face pass represents the natural completion of a pressu
 **Success Rate**: 52%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Cross Face Pass from Flattened Half in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=PTe4-NhLXf8)
+
+<p class="clip-credit"><strong>Shallow cross face detail</strong> — taught by Craig Jones · 0:24 · <a href="https://www.youtube.com/watch?v=PTe4-NhLXf8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=gHD03vpWGSM)
+
+<p class="clip-credit"><strong>How to create an insanely tight cross face</strong> — taught by Escapology BJJ · 1:59 · <a href="https://www.youtube.com/watch?v=gHD03vpWGSM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

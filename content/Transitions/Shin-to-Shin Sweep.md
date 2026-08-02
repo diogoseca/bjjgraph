@@ -34,6 +34,54 @@ description: "Master the Shin-to-Shin Sweep in BJJ. Learn to convert shin connec
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Shin-to-Shin Sweep \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Shin on shin sweep to back take",
+      "description": "Shin-to-Shin Sweep film study: Shin on shin sweep to back take, taught by Thomas.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/o-Dq-CFxwX8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/o-Dq-CFxwX8",
+      "url": "https://www.youtube.com/watch?v=o-Dq-CFxwX8",
+      "creator": { "@type": "Person", "name": "Thomas" },
+      "duration": "PT19S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Shin-on-shin sweep to the back from De La Riva",
+      "description": "Shin-to-Shin Sweep film study: Shin-on-shin sweep to the back from De La Riva, taught by Carpio Jiu Jitsu coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/a1lWupzNhkg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/a1lWupzNhkg",
+      "url": "https://www.youtube.com/watch?v=a1lWupzNhkg",
+      "creator": { "@type": "Person", "name": "Carpio Jiu Jitsu coach" },
+      "duration": "PT81S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Easy shin to shin sweep breakdown",
+      "description": "Shin-to-Shin Sweep film study: Easy shin to shin sweep breakdown, taught by Coach Brian.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/lyXznrhM-po/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/lyXznrhM-po",
+      "url": "https://www.youtube.com/watch?v=lyXznrhM-po",
+      "creator": { "@type": "Person", "name": "Coach Brian" },
+      "duration": "PT197S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ The sweep's mechanical foundation relies on three simultaneous forces: the shin 
 **Success Rate**: 50%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Shin-to-Shin Sweep in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=o-Dq-CFxwX8)
+
+<p class="clip-credit"><strong>Shin on shin sweep to back take</strong> — taught by Thomas · 0:19 · <a href="https://www.youtube.com/watch?v=o-Dq-CFxwX8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=a1lWupzNhkg)
+
+<p class="clip-credit"><strong>Shin-on-shin sweep to the back from De La Riva</strong> — taught by Carpio Jiu Jitsu coach · 1:21 · <a href="https://www.youtube.com/watch?v=a1lWupzNhkg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=lyXznrhM-po)
+
+<p class="clip-credit"><strong>Easy shin to shin sweep breakdown</strong> — taught by Coach Brian · 3:17 · <a href="https://www.youtube.com/watch?v=lyXznrhM-po" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

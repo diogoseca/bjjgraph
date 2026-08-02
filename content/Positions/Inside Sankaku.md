@@ -35,6 +35,54 @@ description: "Master Inside Sankaku (Honey Hole) in BJJ. Complete guide covering
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Inside Sankaku \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "4 Foot Positions for Leg Locks",
+      "description": "Inside Sankaku film study: 4 Foot Positions for Leg Locks, taught by Evo BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/eiI_4VBA-qA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/eiI_4VBA-qA",
+      "url": "https://www.youtube.com/watch?v=eiI_4VBA-qA",
+      "creator": { "@type": "Person", "name": "Evo BJJ" },
+      "duration": "PT162S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Terminology of Ashi Garami \u0026 Leg Locks",
+      "description": "Inside Sankaku film study: Terminology of Ashi Garami \u0026 Leg Locks, taught by Patrick Donabedian.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/fkl93-NakrI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/fkl93-NakrI",
+      "url": "https://www.youtube.com/watch?v=fkl93-NakrI",
+      "creator": { "@type": "Person", "name": "Patrick Donabedian" },
+      "duration": "PT79S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Saddle Entries From Guard",
+      "description": "Inside Sankaku film study: Saddle Entries From Guard, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/K5XhO7o5QN0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/K5XhO7o5QN0",
+      "url": "https://www.youtube.com/watch?v=K5XhO7o5QN0",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT66S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -66,6 +114,42 @@ description: "Master Inside Sankaku (Honey Hole) in BJJ. Complete guide covering
 Inside Sankaku, also known as the 'Honey Hole' or '411', is an advanced leg entanglement position where the opponent's leg is trapped in a figure-four configuration that exposes the inside of their heel. This position is considered one of the most dominant leg entanglements in modern Brazilian Jiu-Jitsu, offering exceptional control and high-percentage submission opportunities. The configuration allows for devastating mechanical advantage in applying inside heel hooks while severely limiting the opponent's defensive options. The position is characterized by the practitioner's legs forming a triangle around the opponent's trapped leg, with the heel facing toward the attacker's centerline. This entanglement emerged as a cornerstone of modern leg lock systems, particularly in no-gi grappling, and has become essential knowledge for advanced practitioners competing in submission-only formats. The position provides superior control over the opponent's hip mobility while creating optimal angles for attacking with the inside heel hook. Understanding the systematic breakdown of defensive barriers - establishing the fundamental entanglement structure, controlling hip mobility, dominating the knee line to prevent rotation, and isolating heel exposure - is critical for success from this position. The strategic trade-off of Inside Sankaku is that while it offers tremendous offensive control, both practitioners are engaged in leg entanglements, requiring the top player to maintain superior positioning and control to prevent counter-attacks. Modern competition has proven this position to be among the highest percentage finishing positions when proper control protocols are followed.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Inside Sankaku in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=eiI_4VBA-qA)
+
+<p class="clip-credit"><strong>4 Foot Positions for Leg Locks</strong> — taught by Evo BJJ · 2:42 · <a href="https://www.youtube.com/watch?v=eiI_4VBA-qA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=fkl93-NakrI)
+
+<p class="clip-credit"><strong>Terminology of Ashi Garami &amp; Leg Locks</strong> — taught by Patrick Donabedian · 1:19 · <a href="https://www.youtube.com/watch?v=fkl93-NakrI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=K5XhO7o5QN0)
+
+<p class="clip-credit"><strong>Saddle Entries From Guard</strong> — taught by Lachlan Giles · 1:06 · <a href="https://www.youtube.com/watch?v=K5XhO7o5QN0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 
@@ -137,23 +221,19 @@ Inside Sankaku, also known as the 'Honey Hole' or '411', is an advanced leg enta
 ### Available Transitions
 
 
-- **[[Transitions/Hip Escape to Guard/Attacker|Hip Escape to Guard]]** (14% of attempts)
+- **[[Transitions/Hip Escape to Guard/Attacker|Hip Escape to Guard]]** (17% of attempts)
 
-- **[[Transitions/Granby Roll to Guard/Attacker|Granby Roll to Guard]]** (13% of attempts)
+- **[[Transitions/Granby Roll to Guard/Attacker|Granby Roll to Guard]]** (10% of attempts)
 
-- **[[Transitions/Technical Stand-up/Attacker|Technical Stand-up]]** (5% of attempts)
+- **[[Transitions/Technical Stand-up/Attacker|Technical Stand-up]]** (14% of attempts)
 
-- **[[Transitions/Counter Leg Attack/Attacker|Counter Leg Attack]]** (9% of attempts)
+- **[[Transitions/Counter Leg Attack/Attacker|Counter Leg Attack]]** (17% of attempts)
 
-- **[[Transitions/Frame and Extract to Half Guard/Attacker|Frame and Extract to Half Guard]]** (26% of attempts)
+- **[[Transitions/Frame and Extract to Half Guard/Attacker|Frame and Extract to Half Guard]]** (17% of attempts)
 
-- **[[Transitions/Counter-entangle to 50-50 Guard/Attacker|Counter-entangle to 50-50 Guard]]** (17% of attempts)
+- **[[Transitions/Counter-entangle to 50-50 Guard/Attacker|Counter-entangle to 50-50 Guard]]** (16% of attempts)
 
-- **[[Transitions/Angle Change Escape/Attacker|Angle Change Escape]]** (6% of attempts)
-
-- **[[Transitions/Ashi Garami Escape/Attacker|Ashi Garami Escape]]** (7% of attempts)
-
-- **[[Transitions/Sweep from Inside Sankaku/Attacker|Sweep from Inside Sankaku]]** (3% of attempts)
+- **[[Transitions/Sweep from Inside Sankaku/Attacker|Sweep from Inside Sankaku]]** (9% of attempts)
 
 
 ### Common Mistakes
@@ -214,27 +294,25 @@ Inside Sankaku, also known as the 'Honey Hole' or '411', is an advanced leg enta
 ### Available Transitions
 
 
-- **[[Transitions/Inside Sankaku Heel Hook/Attacker|Inside Sankaku Heel Hook]]** (40% of attempts)
+- **[[Transitions/Inside Sankaku Heel Hook/Attacker|Inside Sankaku Heel Hook]]** (34% of attempts)
 
-- **[[Heel Hook from Inside Sankaku/Attacker|Heel Hook from Inside Sankaku]]** (5% of attempts)
+- **[[Heel Hook from Inside Sankaku/Attacker|Heel Hook from Inside Sankaku]]** (12% of attempts)
 
-- **[[Transitions/Inside Sankaku to Saddle/Attacker|Inside Sankaku to Saddle]]** (8% of attempts)
+- **[[Transitions/Inside Sankaku to Saddle/Attacker|Inside Sankaku to Saddle]]** (11% of attempts)
 
 - **[[Toe Hold from Inside Sankaku/Attacker|Toe Hold from Inside Sankaku]]** (9% of attempts)
 
-- **[[Transitions/Outside Ashi Entry/Attacker|Outside Ashi Entry]]** (7% of attempts)
+- **[[Transitions/Outside Ashi Entry/Attacker|Outside Ashi Entry]]** (5% of attempts)
 
-- **[[Transitions/Saddle Entry from Top/Attacker|Saddle Entry from Top]]** (5% of attempts)
+- **[[Transitions/Saddle Entry from Top/Attacker|Saddle Entry from Top]]** (4% of attempts)
 
-- **[[Transitions/50-50 Entry/Attacker|50-50 Entry]]** (3% of attempts)
+- **[[Kneebar from Inside Sankaku/Attacker|Kneebar from Inside Sankaku]]** (7% of attempts)
 
-- **[[Kneebar from Inside Sankaku/Attacker|Kneebar from Inside Sankaku]]** (8% of attempts)
-
-- **[[Calf Slicer from Inside Sankaku/Attacker|Calf Slicer from Inside Sankaku]]** (3% of attempts)
+- **[[Calf Slicer from Inside Sankaku/Attacker|Calf Slicer from Inside Sankaku]]** (4% of attempts)
 
 - **[[Transitions/Rolling Back Take/Attacker|Rolling Back Take]]** (7% of attempts)
 
-- **[[Transitions/Inside Ashi-Garami to Honey Hole/Attacker|Inside Ashi-Garami to Honey Hole]]** (5% of attempts)
+- **[[Transitions/Inside Ashi-Garami to Honey Hole/Attacker|Inside Ashi-Garami to Honey Hole]]** (7% of attempts)
 
 
 ### Common Mistakes

@@ -14,21 +14,33 @@
   "outcomes": [
     {
       "to": "North-South/Top",
-      "probability": 75,
+      "probability": {
+        "gi": 75,
+        "nogi": 75
+      },
       "result": "success"
     },
     {
       "to": "Side Control/Top",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "failure"
     },
     {
       "to": "Side Control/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 78,
+  "success_rate": {
+    "gi": 78,
+    "nogi": 78
+  },
   "summary": "Side Control to North-South is a top-position transition where you walk your feet around a pinned opponent's head while keeping chest pressure, rotating from a perpendicular side pin to a head-to-head pin that opens kimuras, chokes, and armbars.",
   "overview": "The transition from Side Control to North-South is a fundamental positional advancement that creates new submission opportunities and eliminates defensive frames. This movement maintains maximum pressure while rotating your body perpendicular to your opponent, placing your head near their hips and your hips near their head. The North-South position offers unique attacking angles for chokes, kimuras, and armbars while severely limiting your opponent's escape options.\n\nUnlike Side Control where opponents can create frames with their near-side arm, North-South removes this defensive tool entirely by changing the angle of engagement. The transition is highest percentage when executed as a response to specific defensive movements, particularly when opponents turn into you or attempt to recover guard. Their defensive motion provides the momentum and timing window that makes the transition seamless rather than forced.\n\nUnderstanding when to transition versus when to maintain Side Control is critical for strategic positional flow. The decision should be reactive, not pre-planned. When the opponent gives you cues through their defensive movements, you capitalize by flowing to North-South. This reactive approach means you are always one step ahead, using their energy against them while maintaining constant pressure throughout the entire rotational path.",
   "related_content": [
@@ -228,46 +240,166 @@
     "flashcards": [
       {
         "question": "What is the primary control point that must be maintained throughout the transition to North-South?",
-        "answer": "Chest-to-chest pressure must be maintained throughout the entire transition. Breaking this connection creates space for opponent to insert frames, recover guard, or escape. Your sternum should remain heavy on their torso from start to finish of the movement, functioning like a rolling pin that never lifts off the surface."
+        "answer": "Chest-to-chest pressure must be maintained throughout the entire transition. Breaking this connection creates space for opponent to insert frames, recover guard, or escape. Your sternum should remain heavy on their torso from start to finish of the movement, functioning like a rolling pin that never lifts off the surface.",
+        "answer_line": "Keep chest-to-chest pressure",
+        "distractors": {
+          "plausible": [
+            "Keep a tight crossface",
+            "Maintain hip-to-hip pressure"
+          ],
+          "trap": [
+            "Release grips to move faster"
+          ]
+        }
       },
       {
         "question": "Why is the transition to North-South more effective when opponent attempts to turn into you?",
-        "answer": "When opponents turn into you from Side Control, they shift their weight and remove their defensive frames momentarily. This movement creates the perfect timing window for transition because they cannot simultaneously defend the position change and complete their escape attempt. Their turning motion actually helps you complete the circular path to North-South faster by providing momentum in the direction you want to travel."
+        "answer": "When opponents turn into you from Side Control, they shift their weight and remove their defensive frames momentarily. This movement creates the perfect timing window for transition because they cannot simultaneously defend the position change and complete their escape attempt. Their turning motion actually helps you complete the circular path to North-South faster by providing momentum in the direction you want to travel.",
+        "answer_line": "Their turn removes their frames",
+        "distractors": {
+          "plausible": [
+            "Turning tires them out fast",
+            "It signals a submission attempt"
+          ],
+          "trap": [
+            "Stop and reset your base"
+          ]
+        }
       },
       {
         "question": "What is the correct path your feet should take during the transition?",
-        "answer": "Your feet should walk in a tight semicircular arc around opponent's head, moving from the Side Control position to perpendicular North-South alignment. The path should consist of small steps keeping your hips low and connected. Walking too wide creates space that allows escape; walking too tight may cause you to trip or lose balance. The arc should keep your body in constant contact with theirs."
+        "answer": "Your feet should walk in a tight semicircular arc around opponent's head, moving from the Side Control position to perpendicular North-South alignment. The path should consist of small steps keeping your hips low and connected. Walking too wide creates space that allows escape; walking too tight may cause you to trip or lose balance. The arc should keep your body in constant contact with theirs.",
+        "answer_line": "Tight arc around their head",
+        "distractors": {
+          "plausible": [
+            "Wide arc for extra space",
+            "Straight line over the hips"
+          ],
+          "trap": [
+            "Jump the far leg immediately"
+          ]
+        }
       },
       {
         "question": "How should you adjust your strategy if opponent secures an underhook on your far leg during transition?",
-        "answer": "If opponent secures an underhook on your far leg, the North-South transition is compromised. You should immediately abandon it and either return to Side Control, transition to mount by stepping over with your hooked leg using their grip as leverage, or attack the underhook arm with a kimura. Forcing the transition against a leg underhook gives opponent leverage to recover guard or sweep you."
+        "answer": "If opponent secures an underhook on your far leg, the North-South transition is compromised. You should immediately abandon it and either return to Side Control, transition to mount by stepping over with your hooked leg using their grip as leverage, or attack the underhook arm with a kimura. Forcing the transition against a leg underhook gives opponent leverage to recover guard or sweep you.",
+        "answer_line": "Abandon it, attack the underhook",
+        "distractors": {
+          "plausible": [
+            "Power through with more weight",
+            "Speed up the foot walk"
+          ],
+          "trap": [
+            "Force the walk to completion"
+          ]
+        }
       },
       {
         "question": "What new submission opportunities become available in North-South that were difficult from Side Control?",
-        "answer": "North-South position offers superior access to the kimura on the far arm by reaching under their body, the North-South choke by controlling the head with your arm and chest, and simultaneous arm attacks on both sides. The perpendicular angle eliminates many defensive frames that work in Side Control and allows you to isolate limbs more effectively because the opponent cannot use lateral hip escapes to create defensive angles."
+        "answer": "North-South position offers superior access to the kimura on the far arm by reaching under their body, the North-South choke by controlling the head with your arm and chest, and simultaneous arm attacks on both sides. The perpendicular angle eliminates many defensive frames that work in Side Control and allows you to isolate limbs more effectively because the opponent cannot use lateral hip escapes to create defensive angles.",
+        "answer_line": "Kimura and North-South choke",
+        "distractors": {
+          "plausible": [
+            "Armbar from the far side",
+            "Triangle from the top"
+          ],
+          "trap": [
+            "Release pressure to check arms"
+          ]
+        }
       },
       {
         "question": "Why must you establish new grips immediately upon reaching North-South position?",
-        "answer": "The moment you complete the transition is when the opponent has the best opportunity to begin their escape sequence because your old grips have been released and new ones are not yet secured. If you don't immediately secure arm controls such as double underhooks, kimura grip, or hugging the far arm, they can create frames, bridge, or start rolling to turtle. The first 1-2 seconds after arrival are critical for establishing dominant grips."
+        "answer": "The moment you complete the transition is when the opponent has the best opportunity to begin their escape sequence because your old grips have been released and new ones are not yet secured. If you don't immediately secure arm controls such as double underhooks, kimura grip, or hugging the far arm, they can create frames, bridge, or start rolling to turtle. The first 1-2 seconds after arrival are critical for establishing dominant grips.",
+        "answer_line": "Grips in the first 1-2 seconds",
+        "distractors": {
+          "plausible": [
+            "Wait for them to settle first",
+            "Focus on head control first"
+          ],
+          "trap": [
+            "Relax pressure to catch breath"
+          ]
+        }
       },
       {
         "question": "Your opponent frames against your hip during the transition - how do you continue the movement?",
-        "answer": "When opponent frames your hip, use your chest pressure to drive forward and collapse the frame by angling your body past it. Simultaneously accelerate your foot walk to stay ahead of their defensive structure. If the frame is strong, switch to attacking the extended arm with a kimura grip rather than fighting through the frame. The frame exposes the arm, creating an offensive opportunity from what was a defensive action."
+        "answer": "When opponent frames your hip, use your chest pressure to drive forward and collapse the frame by angling your body past it. Simultaneously accelerate your foot walk to stay ahead of their defensive structure. If the frame is strong, switch to attacking the extended arm with a kimura grip rather than fighting through the frame. The frame exposes the arm, creating an offensive opportunity from what was a defensive action.",
+        "answer_line": "Collapse frame, attack the arm",
+        "distractors": {
+          "plausible": [
+            "Pull back and reset position",
+            "Grab their far leg instead"
+          ],
+          "trap": [
+            "Fight the frame with pure force"
+          ]
+        }
       },
       {
         "question": "What grip should you prioritize securing first upon reaching North-South position?",
-        "answer": "Prioritize double underhooks on both arms, scooping underneath their triceps to pin their arms to their sides. This eliminates all framing ability and sets up multiple submission pathways including the North-South choke and kimura. If double underhooks are not available, secure control of the near arm with a kimura grip or hug the far arm tight to your chest. The key is denying arm mobility within the first 1-2 seconds after arrival."
+        "answer": "Prioritize double underhooks on both arms, scooping underneath their triceps to pin their arms to their sides. This eliminates all framing ability and sets up multiple submission pathways including the North-South choke and kimura. If double underhooks are not available, secure control of the near arm with a kimura grip or hug the far arm tight to your chest. The key is denying arm mobility within the first 1-2 seconds after arrival.",
+        "answer_line": "Double underhooks both arms",
+        "distractors": {
+          "plausible": [
+            "Head control with crossface",
+            "Single underhook near arm"
+          ],
+          "trap": [
+            "Grab both wrists immediately"
+          ]
+        }
       },
       {
         "question": "How does the direction of force change between Side Control and North-South positions?",
-        "answer": "In Side Control, your pressure drives laterally across opponent's body from shoulder to hip, creating a shearing force. In North-South, the pressure drives vertically downward through your chest into their sternum, creating a compressive force. This perpendicular force direction compresses their rib cage and restricts breathing more effectively. The transition requires smoothly shifting from lateral to vertical pressure without creating gaps during the rotational movement."
+        "answer": "In Side Control, your pressure drives laterally across opponent's body from shoulder to hip, creating a shearing force. In North-South, the pressure drives vertically downward through your chest into their sternum, creating a compressive force. This perpendicular force direction compresses their rib cage and restricts breathing more effectively. The transition requires smoothly shifting from lateral to vertical pressure without creating gaps during the rotational movement.",
+        "answer_line": "Lateral in Side, vertical in NS",
+        "distractors": {
+          "plausible": [
+            "Same pressure, different angle",
+            "Diagonal force throughout"
+          ],
+          "trap": [
+            "Push force toward their legs"
+          ]
+        }
       },
       {
         "question": "Your opponent begins turning to turtle as you initiate the transition - should you continue or abort?",
-        "answer": "Continue the transition but modify your objective. As they turn, accelerate your movement and transition past North-South directly to front headlock or turtle top position. Their turning motion actually assists your circular path around their head. Rather than fighting to keep them flat, use their movement to advance to a position where you threaten chokes or back takes from their turtle. This is a higher-value outcome than completing North-South against a resisting opponent."
+        "answer": "Continue the transition but modify your objective. As they turn, accelerate your movement and transition past North-South directly to front headlock or turtle top position. Their turning motion actually assists your circular path around their head. Rather than fighting to keep them flat, use their movement to advance to a position where you threaten chokes or back takes from their turtle. This is a higher-value outcome than completing North-South against a resisting opponent.",
+        "answer_line": "Continue, take turtle top",
+        "distractors": {
+          "plausible": [
+            "Abort back to Side Control",
+            "Force them flat again first"
+          ],
+          "trap": [
+            "Chase a leg lock instead"
+          ]
+        }
       }
     ],
-    "safety_considerations": "The North-South transition is one of the safer movements in BJJ when executed properly, but practitioners must be aware of potential issues. Maintain controlled pressure throughout - dropping your full weight suddenly onto opponent's chest can cause rib injuries or breathing difficulty. Be particularly cautious with smaller or injured training partners. When consolidating in North-South, ensure your partner can breathe and tap if needed. Avoid posting hands near opponent's face during the transition to prevent accidental eye pokes. Practice smooth, controlled movements rather than explosive or jerky motions that could injure neck or shoulders. Always respond immediately when partner taps, especially if you have transitioned to submission attempts from North-South."
+    "safety_considerations": "The North-South transition is one of the safer movements in BJJ when executed properly, but practitioners must be aware of potential issues. Maintain controlled pressure throughout - dropping your full weight suddenly onto opponent's chest can cause rib injuries or breathing difficulty. Be particularly cautious with smaller or injured training partners. When consolidating in North-South, ensure your partner can breathe and tap if needed. Avoid posting hands near opponent's face during the transition to prevent accidental eye pokes. Practice smooth, controlled movements rather than explosive or jerky motions that could injure neck or shoulders. Always respond immediately when partner taps, especially if you have transitioned to submission attempts from North-South.",
+    "clips": [
+      {
+        "id": "vvZJYBd7z3o",
+        "title": "Side control to north-south position",
+        "by": "Joao Crus",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 88,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "22EYQ2uhxQw",
+        "title": "Side control to north-south darce",
+        "by": "Gracie Westchase coach",
+        "vertical": false,
+        "channel": "Gracie Westchase ",
+        "duration": 75,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Side Control to North-South Defender",
@@ -358,27 +490,87 @@
     "flashcards": [
       {
         "question": "What is the earliest tactile cue that your opponent is beginning the transition to North-South?",
-        "answer": "The earliest cue is feeling their feet begin small stepping movements toward your head while their chest pressure remains constant. You may also feel their crossface pressure shift from a lateral drive to a rotational pull as they begin the circular walking path. This occurs before any visible position change and gives you the maximum defensive time window of 2-3 seconds."
+        "answer": "The earliest cue is feeling their feet begin small stepping movements toward your head while their chest pressure remains constant. You may also feel their crossface pressure shift from a lateral drive to a rotational pull as they begin the circular walking path. This occurs before any visible position change and gives you the maximum defensive time window of 2-3 seconds.",
+        "answer_line": "Feet stepping toward your head",
+        "distractors": {
+          "plausible": [
+            "Sudden increase in weight",
+            "Crossface pressure loosening"
+          ],
+          "trap": [
+            "Wait until fully mounted"
+          ]
+        }
       },
       {
         "question": "Why is it better to prevent the North-South transition than to escape after it is established?",
-        "answer": "North-South is significantly harder to escape than Side Control because the perpendicular chest pressure restricts breathing and compresses the rib cage, both arms can be controlled simultaneously through underhooks, and the body alignment eliminates the lateral framing options that work in Side Control. Preventing the transition requires one well-timed defensive action, while escaping North-South requires a multi-step sequence under worse conditions and greater energy expenditure."
+        "answer": "North-South is significantly harder to escape than Side Control because the perpendicular chest pressure restricts breathing and compresses the rib cage, both arms can be controlled simultaneously through underhooks, and the body alignment eliminates the lateral framing options that work in Side Control. Preventing the transition requires one well-timed defensive action, while escaping North-South requires a multi-step sequence under worse conditions and greater energy expenditure.",
+        "answer_line": "One block beats a hard escape",
+        "distractors": {
+          "plausible": [
+            "Both positions equally hard",
+            "Escaping NS is quicker"
+          ],
+          "trap": [
+            "Wait it out, save energy"
+          ]
+        }
       },
       {
         "question": "Your opponent's feet are walking around your head and you feel pressure shifting - what is your immediate priority?",
-        "answer": "Your immediate priority is inserting a frame against their hip or chest to slow the rotation while simultaneously hip escaping toward their legs. The frame buys you time by blocking their circular path, and the hip escape creates distance to insert your knee for guard recovery. You must act within the first 1-2 seconds of detecting the movement. If you delay beyond the halfway point of their rotation, switch to turning toward turtle instead."
+        "answer": "Your immediate priority is inserting a frame against their hip or chest to slow the rotation while simultaneously hip escaping toward their legs. The frame buys you time by blocking their circular path, and the hip escape creates distance to insert your knee for guard recovery. You must act within the first 1-2 seconds of detecting the movement. If you delay beyond the halfway point of their rotation, switch to turning toward turtle instead.",
+        "answer_line": "Frame their hip, hip escape",
+        "distractors": {
+          "plausible": [
+            "Push their head away",
+            "Bridge explosively upward"
+          ],
+          "trap": [
+            "Wait for them to complete it"
+          ]
+        }
       },
       {
         "question": "When is underhooking the opponent's far leg most effective as a defensive option?",
-        "answer": "Underhooking the far leg is most effective during the mid-point of the transition when their leg comes within reach as they walk around your head. It must be done before they complete the rotation to North-South. The underhook anchors their lower body and prevents the rotation from completing. However, you must be prepared for them to abandon the transition and step over to mount instead, so have a backup plan for knee shield insertion."
+        "answer": "Underhooking the far leg is most effective during the mid-point of the transition when their leg comes within reach as they walk around your head. It must be done before they complete the rotation to North-South. The underhook anchors their lower body and prevents the rotation from completing. However, you must be prepared for them to abandon the transition and step over to mount instead, so have a backup plan for knee shield insertion.",
+        "answer_line": "Mid-transition, leg in reach",
+        "distractors": {
+          "plausible": [
+            "Right at the very start",
+            "After they reach North-South"
+          ],
+          "trap": [
+            "Release grip if they resist"
+          ]
+        }
       },
       {
         "question": "Your opponent has completed the transition and established North-South with double underhooks - what is your escape priority?",
-        "answer": "With double underhooks established, your first priority is controlled breathing to prevent panic and energy depletion. Then begin small hip escapes to create incremental space, fighting for inside wrist control to break one underhook at a time. Target the weaker grip first and work to free that arm for framing. Once you have one arm free, frame against their chest and accelerate your hip escape to insert a knee. Accept that this will take multiple small movements rather than one explosive attempt."
+        "answer": "With double underhooks established, your first priority is controlled breathing to prevent panic and energy depletion. Then begin small hip escapes to create incremental space, fighting for inside wrist control to break one underhook at a time. Target the weaker grip first and work to free that arm for framing. Once you have one arm free, frame against their chest and accelerate your hip escape to insert a knee. Accept that this will take multiple small movements rather than one explosive attempt.",
+        "answer_line": "Break one underhook at a time",
+        "distractors": {
+          "plausible": [
+            "Explosive bridge to escape",
+            "Push their head off you"
+          ],
+          "trap": [
+            "Try to escape in one big move"
+          ]
+        }
       },
       {
         "question": "How should you adjust your defense if the transition attempt is past the halfway point and frames cannot prevent completion?",
-        "answer": "When the transition is past the halfway point, abandon frame-based prevention and switch to following the opponent's rotation by turning to turtle position. Turn toward them with elbows tight and chin tucked, establishing defensive turtle before they can consolidate North-South. Turtle offers more escape options than North-South bottom, including standing up, granby rolls, and sit-out escapes. Protect your neck immediately upon reaching turtle to prevent front headlock submissions."
+        "answer": "When the transition is past the halfway point, abandon frame-based prevention and switch to following the opponent's rotation by turning to turtle position. Turn toward them with elbows tight and chin tucked, establishing defensive turtle before they can consolidate North-South. Turtle offers more escape options than North-South bottom, including standing up, granby rolls, and sit-out escapes. Protect your neck immediately upon reaching turtle to prevent front headlock submissions.",
+        "answer_line": "Turn to turtle, protect neck",
+        "distractors": {
+          "plausible": [
+            "Keep fighting with frames",
+            "Bridge and roll them over"
+          ],
+          "trap": [
+            "Turtle without tucking chin"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -401,6 +593,26 @@
         "phase": "Phase 4: Live Positional Sparring",
         "focus": "Full resistance defensive application",
         "description": "Start in Side Control bottom with partner attempting transitions to North-South, Mount, and Knee on Belly. Defend all transitions at full resistance while prioritizing guard recovery. Reset after position changes. 5-minute rounds alternating roles. Track success rate of transition prevention."
+      }
+    ],
+    "clips": [
+      {
+        "id": "rmT52A--V3Q",
+        "title": "How to escape north-south in jiu-jitsu",
+        "by": "Jon Thomas",
+        "vertical": false,
+        "channel": "JonThomasBJJ Plus",
+        "duration": 203,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "YTKbNwNaaPQ",
+        "title": "Escaping and countering north-south",
+        "by": "John Connors",
+        "vertical": false,
+        "channel": "John Connors, Old Man BJJ Black Belt",
+        "duration": 216,
+        "verified": "2026-07-15"
       }
     ]
   },

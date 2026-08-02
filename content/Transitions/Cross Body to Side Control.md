@@ -34,6 +34,54 @@ description: "Master Cross Body to Side Control in BJJ. Complete guide to flatte
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Cross Body to Side Control \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Turtle position to side control",
+      "description": "Cross Body to Side Control film study: Turtle position to side control, taught by Rickson Gracie.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/8YvYkGr5FIU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/8YvYkGr5FIU",
+      "url": "https://www.youtube.com/watch?v=8YvYkGr5FIU",
+      "creator": { "@type": "Person", "name": "Rickson Gracie" },
+      "duration": "PT47S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Turtle gator roll to side control",
+      "description": "Cross Body to Side Control film study: Turtle gator roll to side control, taught by Carlos Machado.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/b25b-PjmgdY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/b25b-PjmgdY",
+      "url": "https://www.youtube.com/watch?v=b25b-PjmgdY",
+      "creator": { "@type": "Person", "name": "Carlos Machado" },
+      "duration": "PT84S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Cross body ride entry vs seated opponent",
+      "description": "Cross Body to Side Control film study: Cross body ride entry vs seated opponent, taught by Bowerhouse MMA.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/4U7fN1DNk4A/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/4U7fN1DNk4A",
+      "url": "https://www.youtube.com/watch?v=4U7fN1DNk4A",
+      "creator": { "@type": "Person", "name": "Bowerhouse MMA" },
+      "duration": "PT38S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ Execution demands maintaining continuous chest-to-back connection throughout the
 **Success Rate**: 55%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Cross Body to Side Control in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=8YvYkGr5FIU)
+
+<p class="clip-credit"><strong>Turtle position to side control</strong> — taught by Rickson Gracie · 0:47 · <a href="https://www.youtube.com/watch?v=8YvYkGr5FIU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=b25b-PjmgdY)
+
+<p class="clip-credit"><strong>Turtle gator roll to side control</strong> — taught by Carlos Machado · 1:24 · <a href="https://www.youtube.com/watch?v=b25b-PjmgdY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=4U7fN1DNk4A)
+
+<p class="clip-credit"><strong>Cross body ride entry vs seated opponent</strong> — taught by Bowerhouse MMA · 0:38 · <a href="https://www.youtube.com/watch?v=4U7fN1DNk4A" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

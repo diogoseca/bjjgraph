@@ -34,6 +34,43 @@ description: "Master the Escape from Reverse Scarf Hold in BJJ. Learn systematic
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Escape Reverse Scarf Hold \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Reverse kesa gatame escape to back take",
+      "description": "Escape Reverse Scarf Hold film study: Reverse kesa gatame escape to back take, taught by Unknown coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ORpUBUxK1QE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ORpUBUxK1QE",
+      "url": "https://www.youtube.com/watch?v=ORpUBUxK1QE",
+      "creator": { "@type": "Person", "name": "Unknown coach" },
+      "duration": "PT26S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Kesa gatame pressure defense using framing",
+      "description": "Escape Reverse Scarf Hold film study: Kesa gatame pressure defense using framing, taught by Kohbukan Sisu coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/fvp5_BVEtLg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/fvp5_BVEtLg",
+      "url": "https://www.youtube.com/watch?v=fvp5_BVEtLg",
+      "creator": { "@type": "Person", "name": "Kohbukan Sisu coach" },
+      "duration": "PT84S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +106,34 @@ Strategically, this escape complements the bridge escape from reverse scarf hold
 **Success Rate**: 55%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Escape Reverse Scarf Hold in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ORpUBUxK1QE)
+
+<p class="clip-credit"><strong>Reverse kesa gatame escape to back take</strong> — taught by Unknown coach · 0:26 · <a href="https://www.youtube.com/watch?v=ORpUBUxK1QE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=fvp5_BVEtLg)
+
+<p class="clip-credit"><strong>Kesa gatame pressure defense using framing</strong> — taught by Kohbukan Sisu coach · 1:24 · <a href="https://www.youtube.com/watch?v=fvp5_BVEtLg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

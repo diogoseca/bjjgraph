@@ -148,6 +148,54 @@ description: "Learn to defend and prevent the seat belt to body triangle transit
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Seat Belt to Body Triangle (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Defending the figure-4 body triangle from the back",
+      "description": "Seat Belt to Body Triangle (Defender) film study: Defending the figure-4 body triangle from the back, taught by Whangarei BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/hCu7SXEaXjc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/hCu7SXEaXjc",
+      "url": "https://www.youtube.com/watch?v=hCu7SXEaXjc",
+      "creator": { "@type": "Person", "name": "Whangarei BJJ" },
+      "duration": "PT67S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Body triangle footlock counter",
+      "description": "Seat Belt to Body Triangle (Defender) film study: Body triangle footlock counter, taught by MMA Academy Online.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/CUZLhGfADcA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/CUZLhGfADcA",
+      "url": "https://www.youtube.com/watch?v=CUZLhGfADcA",
+      "creator": { "@type": "Person", "name": "MMA Academy Online" },
+      "duration": "PT51S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Escaping the body triangle",
+      "description": "Seat Belt to Body Triangle (Defender) film study: Escaping the body triangle, taught by Coach Brian.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/hgaULMND3ag/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/hgaULMND3ag",
+      "url": "https://www.youtube.com/watch?v=hgaULMND3ag",
+      "creator": { "@type": "Person", "name": "Coach Brian" },
+      "duration": "PT129S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +205,42 @@ As the defender facing the Seat Belt to Body Triangle transition, your primary o
 **Opponent's Starting Position**: [[Positions/Back Control/Seat Belt Control Back]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Seat Belt to Body Triangle (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=hCu7SXEaXjc)
+
+<p class="clip-credit"><strong>Defending the figure-4 body triangle from the back</strong> — taught by Whangarei BJJ · 1:07 · <a href="https://www.youtube.com/watch?v=hCu7SXEaXjc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=CUZLhGfADcA)
+
+<p class="clip-credit"><strong>Body triangle footlock counter</strong> — taught by MMA Academy Online · 0:51 · <a href="https://www.youtube.com/watch?v=CUZLhGfADcA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=hgaULMND3ag)
+
+<p class="clip-credit"><strong>Escaping the body triangle</strong> — taught by Coach Brian · 2:09 · <a href="https://www.youtube.com/watch?v=hgaULMND3ag" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

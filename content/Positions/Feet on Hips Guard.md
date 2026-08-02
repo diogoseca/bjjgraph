@@ -34,6 +34,43 @@ description: "Master feet on hips guard in BJJ. Strategic guide covering distanc
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Feet on Hips Guard \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Basic Guard: Feet to Hips",
+      "description": "Feet on Hips Guard film study: Basic Guard: Feet to Hips, taught by Martial Arts Concepts.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/OEzteWy4psQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/OEzteWy4psQ",
+      "url": "https://www.youtube.com/watch?v=OEzteWy4psQ",
+      "creator": { "@type": "Person", "name": "Martial Arts Concepts" },
+      "duration": "PT102S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Open Guard Feet On The Hips Series: 2 Key Steps",
+      "description": "Feet on Hips Guard film study: Open Guard Feet On The Hips Series: 2 Key Steps, taught by Nemesis Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/yrU-DdcJBgY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/yrU-DdcJBgY",
+      "url": "https://www.youtube.com/watch?v=yrU-DdcJBgY",
+      "creator": { "@type": "Person", "name": "Nemesis Jiu Jitsu" },
+      "duration": "PT378S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -68,6 +105,34 @@ From a pedagogical standpoint, feet on hips guard teaches beginners the fundamen
 The position excels against standing and combat base opponents, using leg extension to manage engagement distance. However, its effectiveness depends on active implementation—static feet-on-hips frames eventually succumb to persistent pressure and grip control. Successful practitioners use this position as a transitional hub, constantly threatening attacks and guard changes that prevent the opponent from settling into passing sequences. The position's low risk profile and medium energy cost make it sustainable for extended periods, but its true power emerges when used dynamically as part of a comprehensive guard system.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Feet on Hips Guard in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=OEzteWy4psQ)
+
+<p class="clip-credit"><strong>Basic Guard: Feet to Hips</strong> — taught by Martial Arts Concepts · 1:42 · <a href="https://www.youtube.com/watch?v=OEzteWy4psQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=yrU-DdcJBgY)
+
+<p class="clip-credit"><strong>Open Guard Feet On The Hips Series: 2 Key Steps</strong> — taught by Nemesis Jiu Jitsu · 6:18 · <a href="https://www.youtube.com/watch?v=yrU-DdcJBgY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 
@@ -139,35 +204,33 @@ The position excels against standing and combat base opponents, using leg extens
 ### Available Transitions
 
 
-- **[[Transitions/Tripod Sweep/Attacker|Tripod Sweep]]** (53% of attempts)
+- **[[Transitions/Tripod Sweep/Attacker|Tripod Sweep]]** (17% of attempts)
 
-- **[[Transitions/Sickle Sweep/Attacker|Sickle Sweep]]** (14% of attempts)
+- **[[Transitions/Sickle Sweep/Attacker|Sickle Sweep]]** (13% of attempts)
 
-- **[[Transitions/Tomoe Nage/Attacker|Tomoe Nage]]** (8% of attempts)
+- **[[Transitions/Tomoe Nage/Attacker|Tomoe Nage]]** (5% of attempts)
 
-- **[[Transitions/Lumberjack Sweep/Attacker|Lumberjack Sweep]]** (6% of attempts)
+- **[[Transitions/Lumberjack Sweep/Attacker|Lumberjack Sweep]]** (7% of attempts)
 
-- **[[Transitions/Push Sweep from Feet on Hips/Attacker|Push Sweep from Feet on Hips]]** (5% of attempts)
+- **[[Transitions/Push Sweep from Feet on Hips/Attacker|Push Sweep from Feet on Hips]]** (10% of attempts)
 
-- **[[Transitions/Single Leg X Sweep/Attacker|Single Leg X Sweep]]** (3% of attempts)
+- **[[Transitions/Single Leg X Sweep/Attacker|Single Leg X Sweep]]** (12% of attempts)
 
 - **[[Transitions/De La Riva Sweep/Attacker|De La Riva Sweep]]** (3% of attempts)
 
-- **[[Transitions/Arm Drag Sweep/Attacker|Arm Drag Sweep]]** (2% of attempts)
+- **[[Transitions/Arm Drag Sweep/Attacker|Arm Drag Sweep]]** (7% of attempts)
 
 - **[[Transitions/Balloon Sweep/Attacker|Balloon Sweep]]** (2% of attempts)
 
-- **[[Transitions/Elevator Sweep/Attacker|Elevator Sweep]]** (2% of attempts)
+- **[[Transitions/Elevator Sweep/Attacker|Elevator Sweep]]** (3% of attempts)
 
-- **[[Transitions/X-Guard Sweep/Attacker|X-Guard Sweep]]** (1% of attempts)
+- **[[Transitions/X-Guard Sweep/Attacker|X-Guard Sweep]]** (7% of attempts)
 
-- **[[Transitions/Feet on Hips to De La Riva/Attacker|Feet on Hips to De La Riva]]** (0% of attempts)
+- **[[Transitions/Feet on Hips to De La Riva/Attacker|Feet on Hips to De La Riva]]** (5% of attempts)
 
-- **[[Transitions/Guard Pull/Attacker|Guard Pull]]** (0% of attempts)
+- **[[Transitions/Feet on Hips Sickle Sweep/Attacker|Feet on Hips Sickle Sweep]]** (4% of attempts)
 
-- **[[Transitions/Feet on Hips Sickle Sweep/Attacker|Feet on Hips Sickle Sweep]]** (0% of attempts)
-
-- **[[Transitions/Feet on Hips Tripod Sweep/Attacker|Feet on Hips Tripod Sweep]]** (1% of attempts)
+- **[[Transitions/Feet on Hips Tripod Sweep/Attacker|Feet on Hips Tripod Sweep]]** (5% of attempts)
 
 
 ### Common Mistakes
@@ -232,29 +295,29 @@ The position excels against standing and combat base opponents, using leg extens
 ### Available Transitions
 
 
-- **[[Transitions/Toreando Pass/Attacker|Toreando Pass]]** (37% of attempts)
+- **[[Transitions/Toreando Pass/Attacker|Toreando Pass]]** (17% of attempts)
 
-- **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** (11% of attempts)
+- **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** (12% of attempts)
 
-- **[[Transitions/Leg Drag Pass/Attacker|Leg Drag Pass]]** (10% of attempts)
+- **[[Transitions/Leg Drag Pass/Attacker|Leg Drag Pass]]** (14% of attempts)
 
-- **[[Transitions/Double Under Pass/Attacker|Double Under Pass]]** (3% of attempts)
+- **[[Transitions/Double Under Pass/Attacker|Double Under Pass]]** (4% of attempts)
 
-- **[[Transitions/Long Step Pass/Attacker|Long Step Pass]]** (8% of attempts)
+- **[[Transitions/Long Step Pass/Attacker|Long Step Pass]]** (9% of attempts)
 
-- **[[Transitions/X Pass/Attacker|X Pass]]** (8% of attempts)
+- **[[Transitions/X Pass/Attacker|X Pass]]** (10% of attempts)
 
 - **[[Transitions/Stack Pass/Attacker|Stack Pass]]** (5% of attempts)
 
-- **[[Transitions/Body Lock Pass/Attacker|Body Lock Pass]]** (5% of attempts)
+- **[[Transitions/Body Lock Pass/Attacker|Body Lock Pass]]** (10% of attempts)
 
-- **[[Transitions/Smash Pass/Attacker|Smash Pass]]** (6% of attempts)
+- **[[Transitions/Smash Pass/Attacker|Smash Pass]]** (7% of attempts)
 
-- **[[Transitions/Leg Weave Pass/Attacker|Leg Weave Pass]]** (5% of attempts)
+- **[[Transitions/Leg Weave Pass/Attacker|Leg Weave Pass]]** (4% of attempts)
 
-- **[[Transitions/Knee Cut from Feet on Hips/Attacker|Knee Cut from Feet on Hips]]** (1% of attempts)
+- **[[Transitions/Knee Cut from Feet on Hips/Attacker|Knee Cut from Feet on Hips]]** (5% of attempts)
 
-- **[[Transitions/Pass Feet on Hips Guard/Attacker|Pass Feet on Hips Guard]]** (1% of attempts)
+- **[[Transitions/Pass Feet on Hips Guard/Attacker|Pass Feet on Hips Guard]]** (3% of attempts)
 
 
 ### Common Mistakes

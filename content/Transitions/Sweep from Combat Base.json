@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Mount/Top",
-      "probability": 42,
+      "probability": {
+        "gi": 42,
+        "nogi": 42
+      },
       "result": "success"
     },
     {
       "to": "Combat Base/Bottom",
-      "probability": 35,
+      "probability": {
+        "gi": 35,
+        "nogi": 35
+      },
       "result": "failure"
     },
     {
       "to": "Side Control/Bottom",
-      "probability": 23,
+      "probability": {
+        "gi": 23,
+        "nogi": 23
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 42,
+  "success_rate": {
+    "gi": 42,
+    "nogi": 42
+  },
   "overview": "The Sweep from Combat Base exploits the inherent directional vulnerability of the asymmetric combat base stance, where one knee is posted and the opposite foot is planted flat. While this stance provides strong forward-backward stability, it creates a diagonal weakness running from the planted foot toward the posted knee. The guard player's objective is to load the top player's weight onto one of these supports, then remove it through hook elevation, foot attacks, or angular displacement, toppling them along the line of least resistance.\n\nThe sweep operates on a fundamental principle: combat base sacrifices lateral stability for forward mobility. The posted knee provides a stable anchor against forward pressure but offers minimal resistance to sideways forces directed toward the planted foot side. By inserting a butterfly hook on the posted-knee side, securing upper body control through collar grip, underhook, or sleeve control, and then creating an angle with a slight hip escape, the guard player generates the mechanical advantage needed to elevate and turn the top player. The sweep direction follows the diagonal from posted knee toward planted foot, exploiting the geometric weakness inherent in the asymmetric stance.\n\nThis sweep family is essential for any guard player facing a disciplined passer who establishes combat base as their primary platform. Without reliable sweeps from this position, the guard player is forced to play reactively against passing attempts rather than creating offensive threats. The sweep also functions as a critical component of the guard retention chain: threatening the sweep forces the top player to defend, disrupting their passing rhythm and creating windows for guard re-establishment, leg entanglement entries, or back takes when they overreact to the sweep threat.",
   "conditions": [
     "Opponent has established combat base with one knee posted and opposite foot planted flat on the mat",
@@ -244,38 +256,138 @@
     "flashcards": [
       {
         "question": "What is the primary diagonal line of weakness in combat base that this sweep exploits?",
-        "answer": "The diagonal line runs from the posted knee toward the planted foot. Combat base provides strong forward-backward resistance through the triangulated base, but sideways forces directed along this diagonal encounter minimal structural resistance because neither the posted knee nor the planted foot can effectively resist lateral force in that direction. The sweep directs the opponent's upper body along this line while lifting the posted-knee base point."
+        "answer": "The diagonal line runs from the posted knee toward the planted foot. Combat base provides strong forward-backward resistance through the triangulated base, but sideways forces directed along this diagonal encounter minimal structural resistance because neither the posted knee nor the planted foot can effectively resist lateral force in that direction. The sweep directs the opponent's upper body along this line while lifting the posted-knee base point.",
+        "answer_line": "Diagonal: knee to foot",
+        "distractors": {
+          "plausible": [
+            "Front-to-back weak axis",
+            "Straight lateral direction"
+          ],
+          "trap": [
+            "Lift straight upward"
+          ]
+        }
       },
       {
         "question": "Why must you create an angle with a hip escape before attempting to elevate the hook?",
-        "answer": "Without the angle, the hook elevation pushes the opponent straight upward rather than generating the rotational toppling force needed for the sweep. The hip escape positions your hook to lift diagonally rather than vertically, converting the elevation into rotational momentum along the opponent's weakest structural line. The approximately 30-degree angle also gives your grips a pulling direction that is perpendicular to the opponent's strongest resistance axis."
+        "answer": "Without the angle, the hook elevation pushes the opponent straight upward rather than generating the rotational toppling force needed for the sweep. The hip escape positions your hook to lift diagonally rather than vertically, converting the elevation into rotational momentum along the opponent's weakest structural line. The approximately 30-degree angle also gives your grips a pulling direction that is perpendicular to the opponent's strongest resistance axis.",
+        "answer_line": "Shrimp first for lift angle",
+        "distractors": {
+          "plausible": [
+            "Escape hips after lifting",
+            "Square hips, then lift"
+          ],
+          "trap": [
+            "Skip angle, lift straight up"
+          ]
+        }
       },
       {
         "question": "Your opponent posts their far hand on the mat to stop the sweep - how do you adjust?",
-        "answer": "You have two primary options. First, use your sleeve grip to pull their posting arm across their body, removing the post and continuing the original sweep direction. Second, if the posting arm is too strong to pull, immediately retract the hook and switch to the opposite side, attacking the planted foot side which is now exposed because their posting hand is committed to the other direction. The post defense opens a vulnerability elsewhere that you can exploit with quick side-switching."
+        "answer": "You have two primary options. First, use your sleeve grip to pull their posting arm across their body, removing the post and continuing the original sweep direction. Second, if the posting arm is too strong to pull, immediately retract the hook and switch to the opposite side, attacking the planted foot side which is now exposed because their posting hand is committed to the other direction. The post defense opens a vulnerability elsewhere that you can exploit with quick side-switching.",
+        "answer_line": "Pull the post or switch sides",
+        "distractors": {
+          "plausible": [
+            "Force through the post",
+            "Abandon sweep, reset guard"
+          ],
+          "trap": [
+            "Release grip, chase far hand"
+          ]
+        }
       },
       {
         "question": "What tactile feedback through your hook tells you the opponent's weight is properly loaded for the sweep?",
-        "answer": "You should feel significant downward pressure on your instep from the opponent's thigh weight. When the opponent's weight is properly loaded, your foot will feel like it is bearing a meaningful portion of their body weight, similar to the feeling of a loaded butterfly hook before a standard butterfly sweep. If the instep feels light, the opponent's weight is still centered or back, and the elevation will fail. Continue pulling with upper body grips until you feel the load transfer before lifting."
+        "answer": "You should feel significant downward pressure on your instep from the opponent's thigh weight. When the opponent's weight is properly loaded, your foot will feel like it is bearing a meaningful portion of their body weight, similar to the feeling of a loaded butterfly hook before a standard butterfly sweep. If the instep feels light, the opponent's weight is still centered or back, and the elevation will fail. Continue pulling with upper body grips until you feel the load transfer before lifting.",
+        "answer_line": "Heavy pressure on your instep",
+        "distractors": {
+          "plausible": [
+            "Light, bouncy foot feel",
+            "Pressure on your own knee"
+          ],
+          "trap": [
+            "Lift the instant hook is in"
+          ]
+        }
       },
       {
         "question": "What are the minimum grip requirements for a successful sweep, and what happens if grips are stripped mid-attempt?",
-        "answer": "At minimum you need one controlling upper body grip (collar, sleeve, or underhook) and the butterfly hook. The upper body grip serves two functions: loading the opponent's weight onto the hook through pulling, and preventing the opponent from posting their hand to stop the sweep. If your grip is stripped mid-attempt, abort the sweep immediately and re-establish guard engagement rather than continuing without upper body control, which typically results in the opponent passing over the exposed hook."
+        "answer": "At minimum you need one controlling upper body grip (collar, sleeve, or underhook) and the butterfly hook. The upper body grip serves two functions: loading the opponent's weight onto the hook through pulling, and preventing the opponent from posting their hand to stop the sweep. If your grip is stripped mid-attempt, abort the sweep immediately and re-establish guard engagement rather than continuing without upper body control, which typically results in the opponent passing over the exposed hook.",
+        "answer_line": "One upper grip plus the hook",
+        "distractors": {
+          "plausible": [
+            "Two hooks, no upper grip",
+            "Underhook and overhook only"
+          ],
+          "trap": [
+            "Continue sweep grip-stripped"
+          ]
+        }
       },
       {
         "question": "Your opponent drives forward aggressively to smash through your sweep attempt - what is your response?",
-        "answer": "Use their forward momentum against them rather than trying to maintain your original sweep position. Convert to a collar drag or pendulum-style sweep by redirecting their forward drive over your head or across your body. Their aggressive forward pressure actually aids these redirecting sweeps because the momentum is already moving in the direction you want. Alternatively, frame against their shoulder, retain guard, and use the forward pressure to enter De La Riva or shin-to-shin position for an alternative attack."
+        "answer": "Use their forward momentum against them rather than trying to maintain your original sweep position. Convert to a collar drag or pendulum-style sweep by redirecting their forward drive over your head or across your body. Their aggressive forward pressure actually aids these redirecting sweeps because the momentum is already moving in the direction you want. Alternatively, frame against their shoulder, retain guard, and use the forward pressure to enter De La Riva or shin-to-shin position for an alternative attack.",
+        "answer_line": "Redirect into a collar drag",
+        "distractors": {
+          "plausible": [
+            "Brace and force original sweep",
+            "Retreat to flat guard"
+          ],
+          "trap": [
+            "Match their force head-on"
+          ]
+        }
       },
       {
         "question": "How does this sweep integrate with the broader guard retention and attack system against a combat base passer?",
-        "answer": "The sweep threat forces the passer to defend rather than focusing purely on passing, disrupting their rhythm and creating windows for guard re-establishment. When the sweep fails, it naturally resets to open guard positions where you can transition to De La Riva, butterfly guard, or shin-to-shin entries. The threat of the sweep makes the opponent hesitant to commit their weight forward, which in turn makes their passes less aggressive and easier to defend. The sweep is part of a cycle: threaten sweep, opponent defends, use the defensive reaction to establish preferred guard or chain to another attack."
+        "answer": "The sweep threat forces the passer to defend rather than focusing purely on passing, disrupting their rhythm and creating windows for guard re-establishment. When the sweep fails, it naturally resets to open guard positions where you can transition to De La Riva, butterfly guard, or shin-to-shin entries. The threat of the sweep makes the opponent hesitant to commit their weight forward, which in turn makes their passes less aggressive and easier to defend. The sweep is part of a cycle: threaten sweep, opponent defends, use the defensive reaction to establish preferred guard or chain to another attack.",
+        "answer_line": "Sweep threat forces defense",
+        "distractors": {
+          "plausible": [
+            "Only useful as a finisher",
+            "Ignore sweep, just pass-block"
+          ],
+          "trap": [
+            "Abandon guard after it fails"
+          ]
+        }
       },
       {
         "question": "What is the critical difference between the hook elevation sweep and the ankle pick sweep in terms of timing and opponent position?",
-        "answer": "The hook elevation sweep works best when the opponent's weight is forward or centered, loading the posted knee that your hook targets. The ankle pick sweep works best when the opponent sits back with weight on the planted foot, making it the primary load-bearing point you can remove. They complement each other because the opponent cannot simultaneously distribute weight to defend both attacks. If the opponent sits back to avoid the hook sweep, the ankle pick becomes available, and if they drive forward to avoid the ankle pick, the hook sweep becomes available."
+        "answer": "The hook elevation sweep works best when the opponent's weight is forward or centered, loading the posted knee that your hook targets. The ankle pick sweep works best when the opponent sits back with weight on the planted foot, making it the primary load-bearing point you can remove. They complement each other because the opponent cannot simultaneously distribute weight to defend both attacks. If the opponent sits back to avoid the hook sweep, the ankle pick becomes available, and if they drive forward to avoid the ankle pick, the hook sweep becomes available.",
+        "answer_line": "Hook needs forward weight",
+        "distractors": {
+          "plausible": [
+            "Both need forward weight",
+            "Ankle pick needs deep hook"
+          ],
+          "trap": [
+            "Hook works when they sit back"
+          ]
+        }
       }
     ],
-    "safety_considerations": "Sweeps from combat base carry moderate injury risk primarily concentrated in the landing phase and knee mechanics. The top player being swept can injure their shoulder or wrist if they post aggressively on an extended arm during the fall. The bottom player executing the sweep risks knee strain if the hook gets trapped and the opponent drives forward over it. Practice sweeps at controlled speed initially, allowing the partner to fall safely by tucking rather than posting on extended limbs. When drilling, the person being swept should practice falling to their side with arms close to body rather than extending arms to catch themselves."
+    "safety_considerations": "Sweeps from combat base carry moderate injury risk primarily concentrated in the landing phase and knee mechanics. The top player being swept can injure their shoulder or wrist if they post aggressively on an extended arm during the fall. The bottom player executing the sweep risks knee strain if the hook gets trapped and the opponent drives forward over it. Practice sweeps at controlled speed initially, allowing the partner to fall safely by tucking rather than posting on extended limbs. When drilling, the person being swept should practice falling to their side with arms close to body rather than extending arms to catch themselves.",
+    "clips": [
+      {
+        "id": "z-3izL3cyTQ",
+        "title": "Sitting guard sweep against combat base",
+        "by": "Jean Jacques Machado",
+        "vertical": false,
+        "channel": "JeanJacquesMachado",
+        "duration": 114,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "Ge4PxqkgVN4",
+        "title": "Sweeping the combat base",
+        "by": "Sticks and Stones BJJ",
+        "vertical": false,
+        "channel": "Sticks and Stones BJJ",
+        "duration": 205,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Sweep from Combat Base Defender",
@@ -362,19 +474,59 @@
     "flashcards": [
       {
         "question": "What is the earliest point at which you should begin defending the sweep from combat base?",
-        "answer": "Defense begins at the grip fighting stage, before the guard player establishes the collar and sleeve control needed to load your weight onto their hook. By fighting grips aggressively and preventing the guard player from consolidating upper body control, you deny them the ability to initiate the sweep sequence at all. Waiting until you feel the hook elevation starting means the sweep is already past the most effective defensive intervention point."
+        "answer": "Defense begins at the grip fighting stage, before the guard player establishes the collar and sleeve control needed to load your weight onto their hook. By fighting grips aggressively and preventing the guard player from consolidating upper body control, you deny them the ability to initiate the sweep sequence at all. Waiting until you feel the hook elevation starting means the sweep is already past the most effective defensive intervention point.",
+        "answer_line": "Fight grips before hook loads",
+        "distractors": {
+          "plausible": [
+            "Defend at hook elevation",
+            "Wait until weight loads"
+          ],
+          "trap": [
+            "React only once swept"
+          ]
+        }
       },
       {
         "question": "Why is sitting back with weight on your heels an incomplete defensive strategy against combat base sweeps?",
-        "answer": "While sitting back removes the forward weight that the hook sweep requires, it creates three new problems: it gives the guard player space to establish their preferred open guard, it eliminates your forward passing pressure that keeps them defensive, and it exposes your planted foot to ankle pick attacks that work specifically when weight is loaded backward. Complete defense requires dynamic weight management that adjusts to the specific sweep variant being attempted, not a static weight-back posture."
+        "answer": "While sitting back removes the forward weight that the hook sweep requires, it creates three new problems: it gives the guard player space to establish their preferred open guard, it eliminates your forward passing pressure that keeps them defensive, and it exposes your planted foot to ankle pick attacks that work specifically when weight is loaded backward. Complete defense requires dynamic weight management that adjusts to the specific sweep variant being attempted, not a static weight-back posture.",
+        "answer_line": "Opens ankle pick, gives space",
+        "distractors": {
+          "plausible": [
+            "Fully stops all sweep threats",
+            "Keeps forward passing pressure"
+          ],
+          "trap": [
+            "Stay weight-back the whole pass"
+          ]
+        }
       },
       {
         "question": "How can you convert a defended sweep attempt into a guard passing opportunity?",
-        "answer": "When the guard player commits to a sweep attempt, their grips and hips are oriented toward the sweep direction, leaving the opposite side exposed. After successfully posting or disengaging the hook, immediately attack the exposed side with a knee slice, toreando, or smash pass before the guard player can reorient their guard structure. Their committed hip angle from the sweep attempt actually creates a favorable passing lane if you act quickly enough during the transition between their failed sweep and guard re-establishment."
+        "answer": "When the guard player commits to a sweep attempt, their grips and hips are oriented toward the sweep direction, leaving the opposite side exposed. After successfully posting or disengaging the hook, immediately attack the exposed side with a knee slice, toreando, or smash pass before the guard player can reorient their guard structure. Their committed hip angle from the sweep attempt actually creates a favorable passing lane if you act quickly enough during the transition between their failed sweep and guard re-establishment.",
+        "answer_line": "Attack the side opposite sweep",
+        "distractors": {
+          "plausible": [
+            "Reset to neutral base first",
+            "Pass the same side as sweep"
+          ],
+          "trap": [
+            "Retreat and disengage guard"
+          ]
+        }
       },
       {
         "question": "Your opponent has a deep butterfly hook under your posted knee and is pulling your collar forward - what is your priority sequence?",
-        "answer": "First, post your far hand wide to prevent the immediate sweep from succeeding. Second, strip the collar grip with your near hand using a circular wrist motion to remove the pulling force loading your weight. Third, address the hook by stepping your posted knee back or driving it forward to dislodge the instep from your thigh. Finally, re-establish combat base with proper distance and hand positioning before resuming your passing game. The order matters because posting stops the immediate threat, grip stripping removes the sustained loading force, and hook removal prevents the guard player from immediately re-attempting."
+        "answer": "First, post your far hand wide to prevent the immediate sweep from succeeding. Second, strip the collar grip with your near hand using a circular wrist motion to remove the pulling force loading your weight. Third, address the hook by stepping your posted knee back or driving it forward to dislodge the instep from your thigh. Finally, re-establish combat base with proper distance and hand positioning before resuming your passing game. The order matters because posting stops the immediate threat, grip stripping removes the sustained loading force, and hook removal prevents the guard player from immediately re-attempting.",
+        "answer_line": "Post, strip collar, clear hook",
+        "distractors": {
+          "plausible": [
+            "Strip collar before posting",
+            "Clear hook before posting"
+          ],
+          "trap": [
+            "Pull away and stand straight up"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -397,6 +549,26 @@
         "phase": "Phase 4: Counter-Offense Integration",
         "focus": "Converting successful sweep defense into immediate guard passing opportunities",
         "description": "After defending each sweep attempt, immediately transition to a passing technique targeting the exposed side created by the guard player's failed sweep commitment. Practice knee slice, toreando, and smash pass entries within the 1-2 second window before the guard player resets their guard. Chain defense directly into offense without pausing in neutral combat base."
+      }
+    ],
+    "clips": [
+      {
+        "id": "htIK1Z0dXc0",
+        "title": "Using combat base to counter the guard pull",
+        "by": "Força Martial Arts",
+        "vertical": false,
+        "channel": "Força Martial Arts & Fitness",
+        "duration": 47,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "kNfVYhZbgrg",
+        "title": "Unsweepable: Four Levels of Sweep Defense",
+        "by": "Wim Deputter",
+        "vertical": false,
+        "channel": "Wim Deputter BJJ",
+        "duration": 87,
+        "verified": "2026-07-15"
       }
     ]
   }

@@ -94,35 +94,115 @@
     "flashcards": [
       {
         "question": "What is the critical first step when finding yourself trapped in lockdown from top position?",
-        "answer": "The critical first step is establishing dominant upper body control through crossface or heavy shoulder pressure before attempting any leg extraction. Without upper body control, the bottom player can freely attack with sweeps and submissions. By flattening the opponent first, you limit their hip mobility and offensive options, making subsequent leg extraction significantly easier and safer."
+        "answer": "The critical first step is establishing dominant upper body control through crossface or heavy shoulder pressure before attempting any leg extraction. Without upper body control, the bottom player can freely attack with sweeps and submissions. By flattening the opponent first, you limit their hip mobility and offensive options, making subsequent leg extraction significantly easier and safer.",
+        "answer_line": "Crossface before extraction",
+        "distractors": {
+          "plausible": [
+            "Extract leg immediately",
+            "Post base, ignore upper body"
+          ],
+          "trap": [
+            "Pull leg straight back first"
+          ]
+        }
       },
       {
         "question": "Your opponent begins extending the lockdown aggressively to off-balance you - what adjustment should you make?",
-        "answer": "When opponent extends the lockdown aggressively, drive your weight forward through your chest and shoulder into their upper body rather than pulling backward. Pulling back plays into their strength and opens Electric Chair opportunities. Forward pressure compresses their space and makes extensions less effective. Simultaneously, widen your free leg base to stabilize against the off-balancing force."
+        "answer": "When opponent extends the lockdown aggressively, drive your weight forward through your chest and shoulder into their upper body rather than pulling backward. Pulling back plays into their strength and opens Electric Chair opportunities. Forward pressure compresses their space and makes extensions less effective. Simultaneously, widen your free leg base to stabilize against the off-balancing force.",
+        "answer_line": "Drive forward, widen base",
+        "distractors": {
+          "plausible": [
+            "Pull back to resist",
+            "Sit back and post hands"
+          ],
+          "trap": [
+            "Pull straight back hard"
+          ]
+        }
       },
       {
         "question": "Why should you avoid attempting to extract your trapped leg by pulling straight backward?",
-        "answer": "Pulling straight backward against the lockdown actually strengthens the opponent's control because the lockdown mechanism is designed to resist linear backward force. It also extends your leg into the Electric Chair position, giving them their primary submission opportunity. Instead, use circular motion and angle changes combined with hip pressure to extract the leg, working with the mechanics rather than directly against them."
+        "answer": "Pulling straight backward against the lockdown actually strengthens the opponent's control because the lockdown mechanism is designed to resist linear backward force. It also extends your leg into the Electric Chair position, giving them their primary submission opportunity. Instead, use circular motion and angle changes combined with hip pressure to extract the leg, working with the mechanics rather than directly against them.",
+        "answer_line": "Circle knee, change angle",
+        "distractors": {
+          "plausible": [
+            "Pull straight back harder",
+            "Yank leg free quickly"
+          ],
+          "trap": [
+            "Extend leg fully backward"
+          ]
+        }
       },
       {
         "question": "What are the essential grips and controls for maintaining top position against lockdown?",
-        "answer": "The essential controls are crossface with shoulder pressure driving into opponent's jaw or chest, control of their near-side hip or underhook arm to prevent them from turning into you, and a wide posted base with your free leg. Collar control in gi or head control in no-gi supplements the crossface. These combined controls flatten the opponent and neutralize their ability to create attacking angles."
+        "answer": "The essential controls are crossface with shoulder pressure driving into opponent's jaw or chest, control of their near-side hip or underhook arm to prevent them from turning into you, and a wide posted base with your free leg. Collar control in gi or head control in no-gi supplements the crossface. These combined controls flatten the opponent and neutralize their ability to create attacking angles.",
+        "answer_line": "Crossface, hip control, wide base",
+        "distractors": {
+          "plausible": [
+            "Overhook and squeeze knees",
+            "Both hands on far collar"
+          ],
+          "trap": [
+            "Sit back on heels for base"
+          ]
+        }
       },
       {
         "question": "You notice your opponent momentarily relaxes their lockdown tension to adjust their underhook grip - what should you do?",
-        "answer": "This is the optimal window for leg extraction. When the opponent relaxes the lockdown to adjust their upper body grips, the figure-four pressure on your trapped leg decreases momentarily. Immediately initiate your extraction sequence by driving your hip into them while circling the trapped knee outward. Combine this with increased crossface pressure to prevent them from re-tightening the lockdown. These brief windows during grip transitions are your highest-percentage extraction opportunities - never attempt extraction when they are actively extending or attacking."
+        "answer": "This is the optimal window for leg extraction. When the opponent relaxes the lockdown to adjust their upper body grips, the figure-four pressure on your trapped leg decreases momentarily. Immediately initiate your extraction sequence by driving your hip into them while circling the trapped knee outward. Combine this with increased crossface pressure to prevent them from re-tightening the lockdown. These brief windows during grip transitions are your highest-percentage extraction opportunities - never attempt extraction when they are actively extending or attacking.",
+        "answer_line": "Extract now, circle knee out",
+        "distractors": {
+          "plausible": [
+            "Wait for a bigger opening",
+            "Extend lockdown to test"
+          ],
+          "trap": [
+            "Attack when they extend hard"
+          ]
+        }
       },
       {
         "question": "Your opponent secures a strong underhook while you're trapped in lockdown - what immediate response is required?",
-        "answer": "Immediately address the underhook by driving heavy shoulder pressure into their face and chest while either swimming your arm over theirs to re-establish your underhook, or using your free hand to push their elbow down and away to break the underhook grip. Never allow the underhook to remain unchallenged as it enables the Old School sweep and back take opportunities."
+        "answer": "Immediately address the underhook by driving heavy shoulder pressure into their face and chest while either swimming your arm over theirs to re-establish your underhook, or using your free hand to push their elbow down and away to break the underhook grip. Never allow the underhook to remain unchallenged as it enables the Old School sweep and back take opportunities.",
+        "answer_line": "Swim over or strip underhook",
+        "distractors": {
+          "plausible": [
+            "Ignore it, focus on legs",
+            "Post hands and wait it out"
+          ],
+          "trap": [
+            "Let underhook sit, pass legs"
+          ]
+        }
       },
       {
         "question": "What weight distribution prevents the whip-up sweep while maintaining pressure?",
-        "answer": "Keep your weight distributed forward through your chest onto their upper torso with your hips relatively low but not heavy on their hips. Your free leg posts wide for base with the knee pointed outward. This distribution creates downward pressure that makes it difficult for them to come up for the whip-up while maintaining enough mobility to adjust when they extend. Avoid sitting back with weight on your heels."
+        "answer": "Keep your weight distributed forward through your chest onto their upper torso with your hips relatively low but not heavy on their hips. Your free leg posts wide for base with the knee pointed outward. This distribution creates downward pressure that makes it difficult for them to come up for the whip-up while maintaining enough mobility to adjust when they extend. Avoid sitting back with weight on your heels.",
+        "answer_line": "Chest forward, wide leg post",
+        "distractors": {
+          "plausible": [
+            "Heavy hips, low posture",
+            "Weight centered, knees in"
+          ],
+          "trap": [
+            "Sit back, weight on heels"
+          ]
+        }
       },
       {
         "question": "How do you recover if the bottom player begins successfully executing the whip-up motion?",
-        "answer": "If they begin the whip-up, immediately drive your weight forward and down through your crossface, simultaneously posting your free hand far to the threatened side. If they continue coming up, you may need to accept the scramble to dogfight position and immediately fight for your own underhook. Alternatively, switch to a front headlock if they expose their neck during the transition. Never continue trying to pass once the whip-up is in motion."
+        "answer": "If they begin the whip-up, immediately drive your weight forward and down through your crossface, simultaneously posting your free hand far to the threatened side. If they continue coming up, you may need to accept the scramble to dogfight position and immediately fight for your own underhook. Alternatively, switch to a front headlock if they expose their neck during the transition. Never continue trying to pass once the whip-up is in motion.",
+        "answer_line": "Post hand, drive crossface down",
+        "distractors": {
+          "plausible": [
+            "Pull away and reset base",
+            "Stiff-arm and stand up"
+          ],
+          "trap": [
+            "Keep passing through the whip"
+          ]
+        }
       }
     ],
     "decision_tree": [
@@ -293,47 +373,109 @@
     "transitions": [
       {
         "transition": "Half Guard Pass",
-        "attempt_probability": 6
+        "attempt_probability": {
+          "gi": 9,
+          "nogi": 8
+        }
       },
       {
         "transition": "Knee Slice from Half",
-        "attempt_probability": 9
+        "attempt_probability": {
+          "gi": 7,
+          "nogi": 7
+        }
       },
       {
         "transition": "Smash Pass",
-        "attempt_probability": 8
+        "attempt_probability": {
+          "gi": 9,
+          "nogi": 8
+        }
       },
       {
         "transition": "Underhook Pass",
-        "attempt_probability": 8
+        "attempt_probability": {
+          "gi": 7,
+          "nogi": 7
+        }
       },
       {
         "transition": "Crossface Pass",
-        "attempt_probability": 9
+        "attempt_probability": {
+          "gi": 10,
+          "nogi": 9
+        }
       },
       {
         "transition": "Leg Extraction to Combat Base",
-        "attempt_probability": 27
+        "attempt_probability": {
+          "gi": 14,
+          "nogi": 14
+        }
       },
       {
         "transition": "Lockdown Escape to Half Guard Pass",
-        "attempt_probability": 10
+        "attempt_probability": {
+          "gi": 12,
+          "nogi": 12
+        }
       },
       {
         "transition": "Lockdown to Z-Lock Half Guard",
-        "attempt_probability": 9
+        "attempt_probability": {
+          "gi": 3,
+          "nogi": 3
+        }
       },
       {
         "transition": "Lockdown Break and Pass",
-        "attempt_probability": 10
+        "attempt_probability": {
+          "gi": 16,
+          "nogi": 15
+        }
       },
       {
         "transition": "Darce from Lockdown Counter",
-        "attempt_probability": 3
+        "attempt_probability": {
+          "gi": 5,
+          "nogi": 9
+        }
       },
       {
         "transition": "Lockdown Whizzer Pass",
-        "attempt_probability": 1
+        "attempt_probability": {
+          "gi": 8,
+          "nogi": 8
+        }
+      }
+    ],
+    "clips": [
+      {
+        "id": "kTSMGYlVJKY",
+        "title": "Free your foot while passing half guard",
+        "by": "Kameron Ross",
+        "vertical": false,
+        "channel": "Kameron Ross",
+        "duration": 55,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "-49CypLW9aM",
+        "title": "Lockdown half guard break",
+        "by": "Superhero Jiu Jitsu Academy",
+        "vertical": false,
+        "channel": "Superhero Jiu Jitsu Academy ",
+        "duration": 61,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "ABSueJ6cwis",
+        "title": "Advanced lockdown pass with backstep",
+        "by": "Peter Mettler",
+        "vertical": false,
+        "channel": "Peter Mettler Martial Arts",
+        "duration": 98,
+        "verified": "2026-07-14"
       }
     ]
   },
@@ -383,35 +525,115 @@
     "flashcards": [
       {
         "question": "What is the correct leg configuration to establish and maintain a tight lockdown?",
-        "answer": "The near-side leg threads over opponent's trapped leg at knee level, wrapping around and crossing back underneath their ankle. The bottom leg hooks under their shin from the outside. Ankles must be crossed tightly with the top foot flexed and pulling their heel toward your hip. Squeeze your knees together while extending your hips to maximize control and pressure on their trapped leg."
+        "answer": "The near-side leg threads over opponent's trapped leg at knee level, wrapping around and crossing back underneath their ankle. The bottom leg hooks under their shin from the outside. Ankles must be crossed tightly with the top foot flexed and pulling their heel toward your hip. Squeeze your knees together while extending your hips to maximize control and pressure on their trapped leg.",
+        "answer_line": "Figure-four, ankles crossed",
+        "distractors": {
+          "plausible": [
+            "Knees pinch, no ankle cross",
+            "Hook shin, leave ankle free"
+          ],
+          "trap": [
+            "Cross ankles loosely, relax"
+          ]
+        }
       },
       {
         "question": "Your opponent drives forward with heavy crossface pressure - what sweep opportunity does this create?",
-        "answer": "Forward pressure from opponent creates the ideal setup for the whip-up sweep. Use their forward momentum against them by securing the underhook, extending the lockdown to load their weight, then explosively come up to your elbow and drive into them while maintaining the lockdown. Their forward pressure becomes the energy that propels you to top position or dogfight."
+        "answer": "Forward pressure from opponent creates the ideal setup for the whip-up sweep. Use their forward momentum against them by securing the underhook, extending the lockdown to load their weight, then explosively come up to your elbow and drive into them while maintaining the lockdown. Their forward pressure becomes the energy that propels you to top position or dogfight.",
+        "answer_line": "Whip-up off their pressure",
+        "distractors": {
+          "plausible": [
+            "Old School using their push",
+            "Electric Chair immediately"
+          ],
+          "trap": [
+            "Push back to create space"
+          ]
+        }
       },
       {
         "question": "What are the essential grips needed to maintain offensive pressure from lockdown bottom?",
-        "answer": "The primary grip is the underhook on the trapped-leg side, reaching deep around their back. Secondary controls include overhook on their far arm to prevent them establishing underhook, or collar grip (in gi) on the crossface side. Your free hand frames against their shoulder or bicep to prevent flattening. These grips combined with tight lockdown create control over their entire upper body."
+        "answer": "The primary grip is the underhook on the trapped-leg side, reaching deep around their back. Secondary controls include overhook on their far arm to prevent them establishing underhook, or collar grip (in gi) on the crossface side. Your free hand frames against their shoulder or bicep to prevent flattening. These grips combined with tight lockdown create control over their entire upper body.",
+        "answer_line": "Underhook, frame their bicep",
+        "distractors": {
+          "plausible": [
+            "Double overhook both arms",
+            "Grip their belt for control"
+          ],
+          "trap": [
+            "Both hands defend the legs"
+          ]
+        }
       },
       {
         "question": "How do you prevent being flattened when opponent establishes strong crossface control?",
-        "answer": "Immediately counter crossface by turning into the opponent rather than away. Use your outside arm to frame against their bicep or shoulder while whipping up toward them. The whip-up motion uses the lockdown extension to off-balance them while you come to your side. If you remain flat under crossface, you lose all offensive potential. Always maintain the ability to turn toward your opponent."
+        "answer": "Immediately counter crossface by turning into the opponent rather than away. Use your outside arm to frame against their bicep or shoulder while whipping up toward them. The whip-up motion uses the lockdown extension to off-balance them while you come to your side. If you remain flat under crossface, you lose all offensive potential. Always maintain the ability to turn toward your opponent.",
+        "answer_line": "Turn in, frame, whip up",
+        "distractors": {
+          "plausible": [
+            "Turn away to create space",
+            "Push their head off gently"
+          ],
+          "trap": [
+            "Stay flat and wait it out"
+          ]
+        }
       },
       {
         "question": "Your opponent sits back with their weight away from you trying to extract their leg - what attack becomes available?",
-        "answer": "When opponent sits back, this opens the Old School sweep and Electric Chair submission. For Old School, secure deep underhook, post your outside leg, and drive into them while extending the lockdown. For Electric Chair, release the triangle and step over their trapped leg with your outside leg, capturing in Electric Chair configuration while maintaining the underhook for control."
+        "answer": "When opponent sits back, this opens the Old School sweep and Electric Chair submission. For Old School, secure deep underhook, post your outside leg, and drive into them while extending the lockdown. For Electric Chair, release the triangle and step over their trapped leg with your outside leg, capturing in Electric Chair configuration while maintaining the underhook for control.",
+        "answer_line": "Old School or Electric Chair",
+        "distractors": {
+          "plausible": [
+            "Whip-up sweep timing",
+            "Kimura from underneath"
+          ],
+          "trap": [
+            "Release lockdown, reset guard"
+          ]
+        }
       },
       {
         "question": "What adjustment do you make when opponent begins successfully extracting their trapped leg?",
-        "answer": "When they begin extraction, immediately extend your lockdown forcefully while pulling their heel toward your hip with flexed feet. Simultaneously hip escape away from them to lengthen the leg and make extraction harder. If they continue progressing, release the lockdown and transition to deep half guard by going underneath them, or switch to traditional half guard retention with knee shield."
+        "answer": "When they begin extraction, immediately extend your lockdown forcefully while pulling their heel toward your hip with flexed feet. Simultaneously hip escape away from them to lengthen the leg and make extraction harder. If they continue progressing, release the lockdown and transition to deep half guard by going underneath them, or switch to traditional half guard retention with knee shield.",
+        "answer_line": "Extend lockdown, hip escape",
+        "distractors": {
+          "plausible": [
+            "Squeeze knees together harder",
+            "Chase the leg with hands"
+          ],
+          "trap": [
+            "Drop underhook to chase leg"
+          ]
+        }
       },
       {
         "question": "How do you manage energy expenditure while maintaining active lockdown offense?",
-        "answer": "Lockdown should pulse between pressure and brief relaxation rather than constant maximum squeeze. Extend aggressively when attacking, then relax slightly to recover while maintaining the configuration. Use your opponent's movement and weight shifts as opportunities to attack rather than fighting static battles of strength. Time your biggest efforts for actual sweep attempts, not just retention."
+        "answer": "Lockdown should pulse between pressure and brief relaxation rather than constant maximum squeeze. Extend aggressively when attacking, then relax slightly to recover while maintaining the configuration. Use your opponent's movement and weight shifts as opportunities to attack rather than fighting static battles of strength. Time your biggest efforts for actual sweep attempts, not just retention.",
+        "answer_line": "Pulse pressure, don't grind",
+        "distractors": {
+          "plausible": [
+            "Squeeze legs max at all times",
+            "Relax fully between attacks"
+          ],
+          "trap": [
+            "Match their strength constantly"
+          ]
+        }
       },
       {
         "question": "What indicates the correct timing to transition from lockdown retention to sweep attempt?",
-        "answer": "Transition to sweep when opponent commits their weight in one direction - either driving forward (whip-up) or sitting back (Old School). Watch for them posting one hand on the mat which indicates compromised base. When they release upper body pressure to adjust position or fight grips, immediately attack with coordinated extension and upper body drive. Never attempt sweeps when their base is solid and weight centered."
+        "answer": "Transition to sweep when opponent commits their weight in one direction - either driving forward (whip-up) or sitting back (Old School). Watch for them posting one hand on the mat which indicates compromised base. When they release upper body pressure to adjust position or fight grips, immediately attack with coordinated extension and upper body drive. Never attempt sweeps when their base is solid and weight centered.",
+        "answer_line": "When their weight commits",
+        "distractors": {
+          "plausible": [
+            "As soon as lockdown is set",
+            "Every time they breathe"
+          ],
+          "trap": [
+            "Attack when base is solid"
+          ]
+        }
       }
     ],
     "decision_tree": [
@@ -587,60 +809,260 @@
     "transitions": [
       {
         "transition": "Whip-up Sweep",
-        "attempt_probability": 25
+        "attempt_probability": {
+          "gi": 20,
+          "nogi": 20
+        }
       },
       {
         "transition": "Old School Sweep",
-        "attempt_probability": 9
+        "attempt_probability": {
+          "gi": 13,
+          "nogi": 12
+        }
       },
       {
         "transition": "Electric Chair Transition",
-        "attempt_probability": 10
+        "attempt_probability": {
+          "gi": 10,
+          "nogi": 12
+        }
       },
       {
         "transition": "Underhook Sweep from Half",
-        "attempt_probability": 7
+        "attempt_probability": {
+          "gi": 9,
+          "nogi": 8
+        }
       },
       {
-        "transition": "Rolling Back Take",
-        "attempt_probability": 7
+        "transition": "Half Guard to Back Take",
+        "attempt_probability": {
+          "gi": 8,
+          "nogi": 8
+        }
       },
       {
         "transition": "Roll to Truck",
-        "attempt_probability": 8
+        "attempt_probability": {
+          "gi": 4,
+          "nogi": 5
+        }
       },
       {
         "transition": "Deep Half Entry",
-        "attempt_probability": 8
+        "attempt_probability": {
+          "gi": 6,
+          "nogi": 5
+        }
       },
       {
         "transition": "Kimura from Lockdown",
-        "attempt_probability": 4
+        "attempt_probability": {
+          "gi": 6,
+          "nogi": 6
+        }
       },
       {
         "transition": "Lockdown Recovery",
-        "attempt_probability": 4
+        "attempt_probability": {
+          "gi": 12,
+          "nogi": 11
+        }
       },
       {
         "transition": "Lockdown to Vaporizer",
-        "attempt_probability": 3
+        "attempt_probability": {
+          "gi": 2,
+          "nogi": 3
+        }
       },
       {
         "transition": "Half Guard to Old School",
-        "attempt_probability": 6
-      },
-      {
-        "transition": "Back Take from Lockdown Defense",
-        "attempt_probability": 4
-      },
-      {
-        "transition": "Crotch Ripper",
-        "attempt_probability": 2
+        "attempt_probability": {
+          "gi": 8,
+          "nogi": 7
+        }
       },
       {
         "transition": "Crotch Ripper from Lockdown",
-        "attempt_probability": 3
+        "attempt_probability": {
+          "gi": 2,
+          "nogi": 3
+        }
+      }
+    ],
+    "clips": [
+      {
+        "id": "08cbHHs_NsM",
+        "title": "Corona lockdown sweep",
+        "by": "Eddie Bravo",
+        "vertical": false,
+        "channel": "Eddie Bravo",
+        "duration": 53,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "OIr4wDxl-Ys",
+        "title": "Lockdown clinches (MTS 176)",
+        "by": "Eddie Bravo",
+        "vertical": false,
+        "channel": "Eddie Bravo",
+        "duration": 60,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "AmOMN0S1v8Q",
+        "title": "Advanced lockdown details",
+        "by": "Eddie Bravo",
+        "vertical": false,
+        "channel": "Eddie Bravo",
+        "duration": 61,
+        "verified": "2026-07-14"
       }
     ]
-  }
+  },
+  "flashcards_position": [
+    {
+      "question": "What precise leg configuration defines the Lockdown and distinguishes it from ordinary half guard?",
+      "answer": "In Lockdown the bottom player's near-side leg threads over the opponent's trapped leg at knee level, then triangles back underneath so the ankles cross and lock, while the outside foot hooks under the opponent's shin. This figure-four entanglement of the legs is what separates Lockdown from ordinary half guard, where the trapped leg is merely pinched between the knees without a locking triangle. The crossed-ankle lock lets the bottom player actively stretch and immobilize the trapped leg rather than just hold it. That single mechanical difference converts a defensive hold into an offensive lever.",
+      "answer_line": "Crossed ankles, figure-four",
+      "distractors": {
+        "plausible": [
+          "Knees pinch trapped leg only",
+          "Single hook under the shin"
+        ],
+        "trap": [
+          "Loose knee pinch, no lock"
+        ]
+      }
+    },
+    {
+      "question": "How does extending the Lockdown physically off-balance the top player?",
+      "answer": "Extending the Lockdown means the bottom player straightens their legs and pushes the trapped leg forward and down, stretching the opponent's leg away from their base. Because the top player's knee and hip are now forced into extension, their center of gravity is pulled forward and their base narrows to just the free leg and posting hands. This loading of weight onto a compromised base is the shared mechanism behind the whip-up and Old School sweeps. Both players are reading the same lever: one to create the off-balance, the other to resist it.",
+      "answer_line": "Stretches leg, narrows base",
+      "distractors": {
+        "plausible": [
+          "Pulls them straight backward",
+          "Locks their hips in place"
+        ],
+        "trap": [
+          "Relax legs to load their hip"
+        ]
+      }
+    },
+    {
+      "question": "Why is the underhook battle on the trapped-leg side the decisive upper-body contest in Lockdown?",
+      "answer": "Whoever wins the trapped-leg-side underhook controls whether the bottom player can turn in and elevate or is flattened onto their back. If the bottom player secures it, they can drive the whip-up and reach the opponent's back; if the top player secures crossface and denies it, they flatten the bottom player and neutralize the sweeps. The leg entanglement alone does not decide the exchange because the sweeps require upper-body connection to transmit the off-balancing force. This is why both players prioritize the same grip from opposite intentions.",
+      "answer_line": "Decides turn-in vs flattened",
+      "distractors": {
+        "plausible": [
+          "Decides who taps first",
+          "Only the ankle lock matters"
+        ],
+        "trap": [
+          "Ignore it, trust the leg lock"
+        ]
+      }
+    },
+    {
+      "question": "What is the mechanical trade-off that defines the Lockdown, captured by \"leg triangle trades mobility for sweeps\"?",
+      "answer": "The figure-four leg lock immobilizes the opponent's trapped leg powerfully, but committing both of the bottom player's legs to the entanglement sacrifices the free hip and butterfly-hook mobility available in other half guards. In exchange, the bottom player gains a rigid lever to stretch and load the opponent's base for sweeps. This means the Lockdown is slow to disengage and vulnerable if the leg is extracted, but exceptionally strong at generating off-balancing power once set. Understanding this trade explains both why it retains so well and why disengaging cleanly is difficult for both players.",
+      "answer_line": "Rigid lever, less hip mobility",
+      "distractors": {
+        "plausible": [
+          "More mobility, weaker lever",
+          "No trade-off, pure control"
+        ],
+        "trap": [
+          "Free legs for max hip escape"
+        ]
+      }
+    },
+    {
+      "question": "How does the position of the top player's weight determine which sweep dilemma is active?",
+      "answer": "If the top player drives their weight forward through crossface and low posture, their momentum feeds the whip-up, where the bottom player comes up on the same forward energy. If the top player sits back and posts high to extract the leg, they expose themselves to the Old School sweep and Electric Chair. Because forward and backward pressure each open a different attack, the top player is caught in a dilemma no matter which way they commit. Reading the opponent's weight vector is the single decision both players are constantly making.",
+      "answer_line": "Forward=whip-up, back=Old School",
+      "distractors": {
+        "plausible": [
+          "Forward pressure is always safe",
+          "Weight doesn't affect sweeps"
+        ],
+        "trap": [
+          "Sit back to relieve pressure"
+        ]
+      }
+    },
+    {
+      "question": "Why must leg extraction from the Lockdown use circular, angular motion rather than pulling straight back?",
+      "answer": "The crossed-ankle figure-four is engineered to resist linear backward force, so pulling the trapped leg straight out only tightens the bottom player's lock and stretches the leg into the Electric Chair. Extraction succeeds by circling the trapped knee outward and changing the angle so the ankles can no longer maintain their cross. This is why the top player combines hip pressure and angle change with the pull rather than fighting the lock head-on. The same geometry tells the bottom player to keep re-crossing the ankles and flexing the top foot to preserve the lock.",
+      "answer_line": "Straight pull feeds the lock",
+      "distractors": {
+        "plausible": [
+          "Straight pull is fastest exit",
+          "Force wins against any lock"
+        ],
+        "trap": [
+          "Yank leg straight out hard"
+        ]
+      }
+    },
+    {
+      "question": "How does the Lockdown relate to the Electric Chair, and what changes between the two?",
+      "answer": "The Electric Chair is a direct extension of the Lockdown in which the bottom player releases the triangle and steps the outside leg over the opponent's trapped leg, capturing it in a stretched configuration to attack the hip and spine. The Lockdown supplies the initial leg control and the stretched, off-balanced opponent; the Electric Chair converts that control into a submission-oriented entanglement. The key change is that the ankles uncross and the outside leg re-hooks over the top, trading pure retention for finishing leverage. This continuity is why the Electric Chair is treated as the signature attack of the position rather than a separate technique.",
+      "answer_line": "Release triangle, step over leg",
+      "distractors": {
+        "plausible": [
+          "Keep ankles crossed, add choke",
+          "Switch straight to kneebar"
+        ],
+        "trap": [
+          "Never release the lockdown"
+        ]
+      }
+    },
+    {
+      "question": "Why does the Lockdown retain better in no-gi than many other half guards?",
+      "answer": "The Lockdown's control comes entirely from the figure-four leg entanglement rather than from gi grips like the lapel or pant cuff, so removing the gi takes nothing away from its core mechanism. Traditional half guards that rely on collar or sleeve grips lose retention strength in no-gi, whereas the Lockdown's ankle lock and underhook are equally available. This grip-independence is why it became a cornerstone of no-gi systems and why its retention rate stays high there. Both players therefore treat it as a friction-and-leverage battle rather than a grip-fighting one.",
+      "answer_line": "Leg lock, no gi grips needed",
+      "distractors": {
+        "plausible": [
+          "Collar grip carries it no-gi",
+          "Pant cuff grip is the key"
+        ],
+        "trap": [
+          "Relies on lapel for control"
+        ]
+      }
+    }
+  ],
+  "clips": [
+    {
+      "id": "OIr4wDxl-Ys",
+      "title": "Lockdown clinches (MTS 176)",
+      "by": "Eddie Bravo",
+      "vertical": false,
+      "channel": "Eddie Bravo",
+      "duration": 60,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "Y0D5lpXsf1U",
+      "title": "Understanding the Lockdown",
+      "by": "Brandon McCaghren",
+      "vertical": false,
+      "channel": "Brandon Mccaghren",
+      "duration": 503,
+      "verified": "2026-07-15"
+    },
+    {
+      "id": "2ajPv8XKfvY",
+      "title": "Lockdown entries",
+      "by": "Eddie Bravo",
+      "vertical": false,
+      "channel": "Eddie Bravo",
+      "duration": 115,
+      "verified": "2026-07-15"
+    }
+  ]
 }

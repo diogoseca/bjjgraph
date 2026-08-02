@@ -34,6 +34,54 @@ description: "Learn Turn In and Face escape from Buggy Choke bottom in BJJ. Step
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Turn In and Face \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "The Buggy Choke demonstrated step by step",
+      "description": "Turn In and Face film study: The Buggy Choke demonstrated step by step, taught by ZombieProofBJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/-b7Avb1x7g8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/-b7Avb1x7g8",
+      "url": "https://www.youtube.com/watch?v=-b7Avb1x7g8",
+      "creator": { "@type": "Person", "name": "ZombieProofBJJ" },
+      "duration": "PT61S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Fixing the details of your Buggy Choke",
+      "description": "Turn In and Face film study: Fixing the details of your Buggy Choke, taught by Yoga for BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/0VDUwuyT6N4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/0VDUwuyT6N4",
+      "url": "https://www.youtube.com/watch?v=0VDUwuyT6N4",
+      "creator": { "@type": "Person", "name": "Yoga for BJJ" },
+      "duration": "PT71S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Buggy choke entry with Kade Ruotolo",
+      "description": "Turn In and Face film study: Buggy choke entry with Kade Ruotolo, taught by Kade Ruotolo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/U-eR63GzcIo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/U-eR63GzcIo",
+      "url": "https://www.youtube.com/watch?v=U-eR63GzcIo",
+      "creator": { "@type": "Person", "name": "Kade Ruotolo" },
+      "duration": "PT67S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -66,9 +114,45 @@ The escape works because the buggy choke's power comes from the threading arm wr
 Strategically, Turn In and Face is the preferred escape when the defender still has sufficient posture and mobility to execute a rotation. It creates direct pathways to open guard, closed guard, or half guard depending on how the attacker reacts. Compared to alternatives like granby rolls or sitting to half guard, this escape keeps the defender facing the opponent from the outset, reducing the risk of exposing the back during the escape sequence. For practitioners who play guard-centric games, this transition provides the most direct route back to their preferred positions.
 
 **From Position**: [[Positions/Buggy Choke]] (Bottom)
-**Success Rate**: 58%
+**Success Rate**: 40%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Turn In and Face in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=-b7Avb1x7g8)
+
+<p class="clip-credit"><strong>The Buggy Choke demonstrated step by step</strong> — taught by ZombieProofBJJ · 1:01 · <a href="https://www.youtube.com/watch?v=-b7Avb1x7g8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=0VDUwuyT6N4)
+
+<p class="clip-credit"><strong>Fixing the details of your Buggy Choke</strong> — taught by Yoga for BJJ · 1:11 · <a href="https://www.youtube.com/watch?v=0VDUwuyT6N4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=U-eR63GzcIo)
+
+<p class="clip-credit"><strong>Buggy choke entry with Kade Ruotolo</strong> — taught by Kade Ruotolo · 1:07 · <a href="https://www.youtube.com/watch?v=U-eR63GzcIo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

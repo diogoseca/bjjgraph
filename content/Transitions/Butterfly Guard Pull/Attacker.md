@@ -174,6 +174,43 @@ description: "Execute the Butterfly Guard Pull in BJJ. Master grip sequences, ti
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Butterfly Guard Pull (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Belt grab guard pull",
+      "description": "Butterfly Guard Pull (Attacker) film study: Belt grab guard pull, taught by Mick Hall.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/L8JpDuYczgk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/L8JpDuYczgk",
+      "url": "https://www.youtube.com/watch?v=L8JpDuYczgk",
+      "creator": { "@type": "Person", "name": "Mick Hall" },
+      "duration": "PT98S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Marcelo Garcia butterfly guard sweep",
+      "description": "Butterfly Guard Pull (Attacker) film study: Marcelo Garcia butterfly guard sweep, taught by Marcelo Garcia.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/c8JBXJMc0Oc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/c8JBXJMc0Oc",
+      "url": "https://www.youtube.com/watch?v=c8JBXJMc0Oc",
+      "creator": { "@type": "Person", "name": "Marcelo Garcia" },
+      "duration": "PT81S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -183,6 +220,34 @@ As the attacker executing the Butterfly Guard Pull, your objective is to transit
 **From Position**: [[Positions/Standing Position]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Butterfly Guard Pull (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=L8JpDuYczgk)
+
+<p class="clip-credit"><strong>Belt grab guard pull</strong> — taught by Mick Hall · 1:38 · <a href="https://www.youtube.com/watch?v=L8JpDuYczgk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=c8JBXJMc0Oc)
+
+<p class="clip-credit"><strong>Marcelo Garcia butterfly guard sweep</strong> — taught by Marcelo Garcia · 1:21 · <a href="https://www.youtube.com/watch?v=c8JBXJMc0Oc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

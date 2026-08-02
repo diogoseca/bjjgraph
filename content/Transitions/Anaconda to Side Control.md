@@ -34,6 +34,54 @@ description: "Master the Anaconda to Side Control transition in BJJ. Learn gator
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Anaconda to Side Control \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Anaconda choke roll and finish",
+      "description": "Anaconda to Side Control film study: Anaconda choke roll and finish, taught by Marcelo Garcia.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/DHYmDsncdS8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/DHYmDsncdS8",
+      "url": "https://www.youtube.com/watch?v=DHYmDsncdS8",
+      "creator": { "@type": "Person", "name": "Marcelo Garcia" },
+      "duration": "PT126S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Anaconda choke with the gator roll",
+      "description": "Anaconda to Side Control film study: Anaconda choke with the gator roll, taught by Howcast.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/YLYBOuXKzVQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/YLYBOuXKzVQ",
+      "url": "https://www.youtube.com/watch?v=YLYBOuXKzVQ",
+      "creator": { "@type": "Person", "name": "Howcast" },
+      "duration": "PT129S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Gator roll into anaconda choke",
+      "description": "Anaconda to Side Control film study: Gator roll into anaconda choke, taught by Raw Warrior.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/7dgJ9qVHZkM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/7dgJ9qVHZkM",
+      "url": "https://www.youtube.com/watch?v=7dgJ9qVHZkM",
+      "creator": { "@type": "Person", "name": "Raw Warrior" },
+      "duration": "PT116S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -66,9 +114,45 @@ Strategically, this transition serves a dual purpose within the anaconda system.
 The critical challenge lies in maintaining grip integrity throughout the rotation while preventing the opponent from basing out, posting a hand, or scrambling during the momentum shift. The roll demands full commitment — hesitation allows the defender to establish defensive frames and potentially reverse the position entirely. Understanding the biomechanics of the roll, proper hip positioning before initiation, and the decision point between maintaining the anaconda grip or transitioning to standard side control grips upon arrival is what separates effective execution from positional loss.
 
 **From Position**: [[Positions/Anaconda Control]] (Top)
-**Success Rate**: 55%
+**Success Rate**: 58%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Anaconda to Side Control in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=DHYmDsncdS8)
+
+<p class="clip-credit"><strong>Anaconda choke roll and finish</strong> — taught by Marcelo Garcia · 2:06 · <a href="https://www.youtube.com/watch?v=DHYmDsncdS8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=YLYBOuXKzVQ)
+
+<p class="clip-credit"><strong>Anaconda choke with the gator roll</strong> — taught by Howcast · 2:09 · <a href="https://www.youtube.com/watch?v=YLYBOuXKzVQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=7dgJ9qVHZkM)
+
+<p class="clip-credit"><strong>Gator roll into anaconda choke</strong> — taught by Raw Warrior · 1:56 · <a href="https://www.youtube.com/watch?v=7dgJ9qVHZkM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

@@ -148,6 +148,43 @@ description: "How to defend against the Over-Under Pass in BJJ. Recognition cues
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Over-Under Pass (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Early Double Under and Over Under Pass Defense",
+      "description": "Over-Under Pass (Defender) film study: Early Double Under and Over Under Pass Defense, taught by Cal McDonald.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/RonrS17I1mA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/RonrS17I1mA",
+      "url": "https://www.youtube.com/watch?v=RonrS17I1mA",
+      "creator": { "@type": "Person", "name": "Cal McDonald" },
+      "duration": "PT141S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Guard Retention: When To Sit Up Escape",
+      "description": "Over-Under Pass (Defender) film study: Guard Retention: When To Sit Up Escape, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/lVLAROiSjNU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/lVLAROiSjNU",
+      "url": "https://www.youtube.com/watch?v=lVLAROiSjNU",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT136S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +194,34 @@ Defending the Over-Under Pass requires early recognition of the passer's grip co
 **Opponent's Starting Position**: [[Positions/Half Guard]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Over-Under Pass (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=RonrS17I1mA)
+
+<p class="clip-credit"><strong>Early Double Under and Over Under Pass Defense</strong> — taught by Cal McDonald · 2:21 · <a href="https://www.youtube.com/watch?v=RonrS17I1mA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=lVLAROiSjNU)
+
+<p class="clip-credit"><strong>Guard Retention: When To Sit Up Escape</strong> — taught by Lachlan Giles · 2:16 · <a href="https://www.youtube.com/watch?v=lVLAROiSjNU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

@@ -156,6 +156,43 @@ description: "How to defend against Double Leg Setup in BJJ. Recognition cues, d
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Double Leg Setup (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Fixing common double leg defense errors",
+      "description": "Double Leg Setup (Defender) film study: Fixing common double leg defense errors, taught by Travis Rutt.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/QhpRyI_HjcU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/QhpRyI_HjcU",
+      "url": "https://www.youtube.com/watch?v=QhpRyI_HjcU",
+      "creator": { "@type": "Person", "name": "Travis Rutt" },
+      "duration": "PT79S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Dominating the sprawl when he won\u0027t let go",
+      "description": "Double Leg Setup (Defender) film study: Dominating the sprawl when he won\u0027t let go, taught by Coach Bosak.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/o87xwvz76RE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/o87xwvz76RE",
+      "url": "https://www.youtube.com/watch?v=o87xwvz76RE",
+      "creator": { "@type": "Person", "name": "Coach Bosak" },
+      "duration": "PT106S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -165,6 +202,34 @@ Defending the double leg setup requires recognizing pre-attack indicators and re
 **Opponent's Starting Position**: [[Positions/Standing Position]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Double Leg Setup (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=QhpRyI_HjcU)
+
+<p class="clip-credit"><strong>Fixing common double leg defense errors</strong> — taught by Travis Rutt · 1:19 · <a href="https://www.youtube.com/watch?v=QhpRyI_HjcU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=o87xwvz76RE)
+
+<p class="clip-credit"><strong>Dominating the sprawl when he won&#39;t let go</strong> — taught by Coach Bosak · 1:46 · <a href="https://www.youtube.com/watch?v=o87xwvz76RE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

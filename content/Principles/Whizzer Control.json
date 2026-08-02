@@ -381,35 +381,144 @@
   "flashcards": [
     {
       "question": "What is a Whizzer and where does it come from?",
-      "answer": "A Whizzer is a defensive overhook threaded over an opponent's underhooking arm. Borrowed from wrestling, it neutralizes their control while applying downward pressure to break posture and create counters."
+      "answer": "A Whizzer is a defensive overhook threaded over an opponent's underhooking arm. Borrowed from wrestling, it neutralizes their control while applying downward pressure to break posture and create counters.",
+      "answer_line": "Overhook over their underhook",
+      "distractors": {
+        "plausible": [
+          "Underhook fighting the grip",
+          "Collar tie borrowed from Judo"
+        ],
+        "trap": [
+          "Push off to create distance"
+        ]
+      }
     },
     {
       "question": "Why must you establish the Whizzer before the opponent secures a deep underhook?",
-      "answer": "Once the underhook is deep, the opponent already owns dominant control and can resist; an early Whizzer wins the leverage race before their position consolidates, keeping your overhook effective."
+      "answer": "Once the underhook is deep, the opponent already owns dominant control and can resist; an early Whizzer wins the leverage race before their position consolidates, keeping your overhook effective.",
+      "answer_line": "Win the leverage race early",
+      "distractors": {
+        "plausible": [
+          "Wait for them to commit first",
+          "Match grips symmetrically"
+        ],
+        "trap": [
+          "Let the underhook go deep first"
+        ]
+      }
     },
     {
       "question": "In which direction should Whizzer pressure be applied, and why?",
-      "answer": "Downward and slightly backward, using the trapped arm as a lever to break the opponent's posture and base. Upward pressure is a common error that actually helps them elevate and improve position."
+      "answer": "Downward and slightly backward, using the trapped arm as a lever to break the opponent's posture and base. Upward pressure is a common error that actually helps them elevate and improve position.",
+      "answer_line": "Down and back, breaks posture",
+      "distractors": {
+        "plausible": [
+          "Straight down only",
+          "Squeeze inward on the ribs"
+        ],
+        "trap": [
+          "Push upward to elevate them"
+        ]
+      }
     },
     {
       "question": "Why is the Whizzer arm alone insufficient for control?",
-      "answer": "Without coordinated base, hip position, and posture, the overhook becomes isolated arm control the opponent counters through base attacks or transitions; the Whizzer must be part of a whole-body structure."
+      "answer": "Without coordinated base, hip position, and posture, the overhook becomes isolated arm control the opponent counters through base attacks or transitions; the Whizzer must be part of a whole-body structure.",
+      "answer_line": "Needs base, hips, posture too",
+      "distractors": {
+        "plausible": [
+          "Grip strength is what matters",
+          "Just keep the elbow tight"
+        ],
+        "trap": [
+          "Isolate the arm, ignore hips"
+        ]
+      }
     },
     {
       "question": "How does the Whizzer convert defense into offense?",
-      "answer": "By off-balancing the opponent and compromising posture, it opens windows for sweeps, reversals, and back takes, most notably the underhook/Whizzer sweep from half guard and dogfight angle changes."
+      "answer": "By off-balancing the opponent and compromising posture, it opens windows for sweeps, reversals, and back takes, most notably the underhook/Whizzer sweep from half guard and dogfight angle changes.",
+      "answer_line": "Off-balance opens sweeps, back takes",
+      "distractors": {
+        "plausible": [
+          "Stalls until ref stands you up",
+          "Forces a scramble reset"
+        ],
+        "trap": [
+          "Hold it and wait them out"
+        ]
+      }
     },
     {
       "question": "What is the most common error when holding a Whizzer too long?",
-      "answer": "Failing to recognize counter-offensive windows; staying defensive lets the opponent adjust, establish alternative controls, or grind out the Whizzer instead of you transitioning to a sweep or reversal."
+      "answer": "Failing to recognize counter-offensive windows; staying defensive lets the opponent adjust, establish alternative controls, or grind out the Whizzer instead of you transitioning to a sweep or reversal.",
+      "answer_line": "Missing the counter-attack window",
+      "distractors": {
+        "plausible": [
+          "Squeezing too hard too fast",
+          "Switching sides too early"
+        ],
+        "trap": [
+          "Releasing it to reset grips"
+        ]
+      }
     },
     {
       "question": "Why should the Whizzer rely on leverage rather than arm strength?",
-      "answer": "Strength-based pressure fatigues quickly and degrades over long exchanges; leverage from proper angles, hip position, and the arm-as-lever sustains control with minimal effort against resisting opponents."
+      "answer": "Strength-based pressure fatigues quickly and degrades over long exchanges; leverage from proper angles, hip position, and the arm-as-lever sustains control with minimal effort against resisting opponents.",
+      "answer_line": "Leverage sustains, strength fatigues",
+      "distractors": {
+        "plausible": [
+          "Strength wins short exchanges",
+          "Speed beats leverage anyway"
+        ],
+        "trap": [
+          "Crank harder as they resist"
+        ]
+      }
     },
     {
       "question": "Which three positions make the Whizzer a critical tool?",
-      "answer": "Half guard (prevents flattening and cross-face, enables sweeps), turtle (prevents back exposure), and the dogfight or standing clinch (denies underhook-based takedowns and contests the dominant angle)."
+      "answer": "Half guard (prevents flattening and cross-face, enables sweeps), turtle (prevents back exposure), and the dogfight or standing clinch (denies underhook-based takedowns and contests the dominant angle).",
+      "answer_line": "Half guard, turtle, dogfight/clinch",
+      "distractors": {
+        "plausible": [
+          "Mount, side control, back",
+          "Closed guard, 50/50, north-south"
+        ],
+        "trap": [
+          "Only useful standing in the clinch"
+        ]
+      }
+    }
+  ],
+  "clips": [
+    {
+      "id": "rM6_ocxyhng",
+      "title": "Generating pressure with the whizzer",
+      "by": "Coach Brian",
+      "vertical": false,
+      "channel": "TeachMeGrappling Coach Brian",
+      "duration": 406,
+      "verified": "2026-07-15"
+    },
+    {
+      "id": "QzJvPmdjjFU",
+      "title": "Essential whizzer mechanics and control",
+      "by": "Coach Brian",
+      "vertical": false,
+      "channel": "TeachMeGrappling Coach Brian",
+      "duration": 267,
+      "verified": "2026-07-15"
+    },
+    {
+      "id": "8mXBDHXrAu4",
+      "title": "Whizzer from half guard: winning the dogfight",
+      "by": "Wrecking Crew BJJ",
+      "vertical": false,
+      "channel": "Wrecking Crew BJJ",
+      "duration": 60,
+      "verified": "2026-07-15"
     }
   ]
 }

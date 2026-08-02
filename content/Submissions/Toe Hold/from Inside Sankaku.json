@@ -19,7 +19,10 @@
   "target_area": "Ankle, toes, and foot ligaments",
   "starting_position": "Inside Sankaku",
   "from_position": "Inside Sankaku/Top",
-  "success_rate": 60,
+  "success_rate": {
+    "gi": 60,
+    "nogi": 60
+  },
   "overview": "The toe hold from Inside Sankaku represents a critical secondary attack within the modern leg lock system. When the bottom player successfully hides their heel to defend the inside heel hook, the toe hold becomes the natural chain attack that punishes their defensive posture. The figure-four grip on the opponent's foot creates rotational force through the ankle joint, attacking the ligaments of the ankle, the metatarsal joints, and the midfoot structures simultaneously.\n\nWhat makes this particular toe hold variant especially effective is the superior leg control provided by the Inside Sankaku entanglement. Unlike toe holds from open positions where the opponent can freely retract their foot, the trapped leg in Inside Sankaku has severely limited mobility. The hip-to-hip connection and knee line control that define Inside Sankaku mean the opponent cannot easily create the distance needed to relieve pressure on their foot.\n\nStrategically, the toe hold from Inside Sankaku functions as part of a dilemma system. The opponent must choose between exposing their heel for the heel hook or leaving their foot vulnerable to the toe hold. Skilled attackers alternate between these threats to overwhelm the defense, creating a submission chain where each defensive response opens the pathway to the alternate attack.",
   "safety_considerations": {
     "injury_risks": [
@@ -115,17 +118,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 60,
+      "probability": {
+        "gi": 60,
+        "nogi": 60
+      },
       "result": "success"
     },
     {
       "to": "Inside Sankaku/Top",
-      "probability": 26,
+      "probability": {
+        "gi": 26,
+        "nogi": 26
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 14,
+      "probability": {
+        "gi": 14,
+        "nogi": 14
+      },
       "result": "counter"
     }
   ],
@@ -276,52 +288,172 @@
       {
         "question": "What anatomical structures does the toe hold from Inside Sankaku primarily attack?",
         "answer": "The toe hold attacks the ankle ligaments (lateral and medial collateral), the metatarsal joints of the midfoot, and the plantar fascia. The rotational force distributes across multiple small joints simultaneously, which makes the submission effective but also dangerous because damage can occur across many structures at once. The Lisfranc joint complex in the midfoot is particularly vulnerable to this twisting mechanism.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Ankle, midfoot, Lisfranc joints",
+        "distractors": {
+          "plausible": [
+            "Achilles tendon alone",
+            "Knee ligaments and the femur"
+          ],
+          "trap": [
+            "Crank one toe until it snaps"
+          ]
+        }
       },
       {
         "question": "Your opponent hides their heel to defend the inside heel hook - how do you transition to the toe hold without losing positional control?",
         "answer": "Maintain your Inside Sankaku leg configuration and hip connection throughout the transition. Release your heel hook grip with your near hand and immediately reach across to cup the opponent's exposed toes and ball of foot. Thread your far hand under their foot to establish the figure-four before they can retract. The key is keeping your legs locked in the entanglement so their foot cannot escape during the grip change window.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Keep legs locked, grab toes fast",
+        "distractors": {
+          "plausible": [
+            "Sit up and re-grip the heel",
+            "Switch to outside ashi first"
+          ],
+          "trap": [
+            "Unhook legs to reach the toes"
+          ]
+        }
       },
       {
         "question": "What is the breaking point indicator that tells you the toe hold is close to causing structural damage?",
         "answer": "You will feel a sudden decrease in resistance as the opponent's ankle reaches its end range of rotation. The foot begins to feel loose and you may feel small pops from the metatarsal joints. At this point, the submission is extremely close to causing structural damage. If the opponent has not tapped, hold the position without adding further pressure and verbally communicate with them to check if they want to continue.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Sudden looseness, small pops",
+        "distractors": {
+          "plausible": [
+            "Opponent goes quiet and still",
+            "Their calf tenses up hard"
+          ],
+          "trap": [
+            "Add torque until you hear a crack"
+          ]
+        }
       },
       {
         "question": "What grip configuration provides the strongest mechanical advantage for the toe hold finish from Inside Sankaku?",
         "answer": "The figure-four grip with your wrist blade positioned against the ball of the foot provides maximum leverage. Your near hand wraps around the toes from the outside, fingers curling over the metatarsals. Your far hand threads under the foot and grips your own wrist. Elbows stay tight to your torso, and the foot is pulled against your chest so rotational force comes from your whole body turning rather than isolated arm strength.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Figure-four, wrist blade on foot",
+        "distractors": {
+          "plausible": [
+            "Single-hand toe grip twist",
+            "Grip ankle bone directly"
+          ],
+          "trap": [
+            "Isolate and yank individual toes"
+          ]
+        }
       },
       {
         "question": "How should you release the toe hold after your training partner taps?",
         "answer": "Immediately stop all rotational pressure upon hearing or feeling the tap. Slowly release your figure-four grip while maintaining light contact with the foot rather than dropping it abruptly. Allow the opponent's foot to return to its neutral position naturally. Release the Inside Sankaku leg entanglement and give your partner space to assess their ankle. Verbally confirm they are okay before resuming training.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Stop, release slowly, check in",
+        "distractors": {
+          "plausible": [
+            "Let go abruptly and stand up",
+            "Wait for a second tap first"
+          ],
+          "trap": [
+            "Torque harder after the tap"
+          ]
+        }
       },
       {
         "question": "Your opponent begins straightening their trapped leg to relieve toe hold pressure - what adjustment prevents the escape?",
         "answer": "Tighten your Inside Sankaku leg configuration by squeezing your knees together and driving your hips forward to prevent their leg from extending. Use your outside leg to press down on their thigh above the knee, keeping the leg bent. If they continue forcing extension, briefly release toe hold pressure to re-establish deeper Inside Sankaku control before reapplying the submission with the leg properly trapped.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Squeeze knees, drive hips forward",
+        "distractors": {
+          "plausible": [
+            "Pull harder on the foot",
+            "Switch to heel hook instantly"
+          ],
+          "trap": [
+            "Release entanglement to reset"
+          ]
+        }
       },
       {
         "question": "What is the fundamental difference between applying a toe hold from Inside Sankaku versus from an open guard position?",
         "answer": "From Inside Sankaku, the opponent's leg is trapped in your figure-four entanglement, preventing them from retracting their foot or straightening their leg to relieve pressure. In open guard positions, the opponent can kick free, create distance, or retract their leg entirely. The Inside Sankaku entanglement acts as an anchor that makes the toe hold far higher percentage because the opponent cannot address the grip and the positional control simultaneously.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Leg trapped, can't retract foot",
+        "distractors": {
+          "plausible": [
+            "Open guard offers a better angle",
+            "Grip strength decides the finish"
+          ],
+          "trap": [
+            "Skip entanglement, dive on feet"
+          ]
+        }
       },
       {
         "question": "How do you manage the transition between heel hook and toe hold threats to create an effective attack dilemma?",
         "answer": "Alternate your grip attacks based on the opponent's foot positioning. When they hide their heel by pressing it against their hip, their toes become exposed for the toe hold. When they defend the toe hold by curling their toes and pointing their foot, their heel opens for the heel hook. Maintain constant contact with the foot during transitions so the opponent never gets a free moment to reset both defenses simultaneously.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Attack exposed grip, stay attached",
+        "distractors": {
+          "plausible": [
+            "Always start with toe hold",
+            "Switch grips every few seconds"
+          ],
+          "trap": [
+            "Release foot contact to reset"
+          ]
+        }
       },
       {
         "question": "What common grip error creates the highest injury risk when applying the toe hold from Inside Sankaku?",
         "answer": "Gripping individual toes rather than wrapping across the full ball of the foot creates the highest injury risk. Isolated toe grips concentrate force on single small joints that fracture or dislocate far before the opponent feels enough pain to tap. Always grip across multiple toes and the metatarsal heads with a full hand wrap, distributing force across the broader foot structure where the opponent can feel progressive pressure and tap in time.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Isolating single toes, not ball",
+        "distractors": {
+          "plausible": [
+            "Loose grip that slips off",
+            "Both hands cupping the heel"
+          ],
+          "trap": [
+            "Crank through the tap to be sure"
+          ]
+        }
       },
       {
         "question": "Your opponent rotates their body in the direction of the toe hold twist - should you follow the rotation or abandon the attack?",
         "answer": "Follow the rotation and increase your own rotational pressure proportionally while maintaining Inside Sankaku control. Their body rotation partially neutralizes your torque, but if they rotate far enough, their heel becomes exposed from the turning movement. This creates the transition opportunity back to the inside heel hook. The dilemma is that their best toe hold defense creates their worst heel hook exposure, so you chain between threats based on their rotation direction.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Follow rotation, chase heel",
+        "distractors": {
+          "plausible": [
+            "Hold position, don't adjust",
+            "Abandon toe hold, reset"
+          ],
+          "trap": [
+            "Release entanglement to chase heel"
+          ]
+        }
+      }
+    ],
+    "clips": [
+      {
+        "id": "lyF2GxQrLoQ",
+        "title": "Inside Sankaku Toe Hold and Heel Hook Finishes",
+        "by": "Professor Buck",
+        "vertical": false,
+        "channel": "Professor Buck",
+        "duration": 106,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "Jn_JST6ZJ3o",
+        "title": "Inside Sankaku Entries",
+        "by": "Dynamic Martial Arts Roseburg",
+        "vertical": false,
+        "channel": "Dynamic Martial Arts Roseburg",
+        "duration": 138,
+        "verified": "2026-07-14"
       }
     ]
   },
@@ -403,27 +535,77 @@
       {
         "question": "How do you recognize that a toe hold from Inside Sankaku is being set up?",
         "answer": "The primary recognition cues are: the opponent releases their heel hook grip and reaches toward your toes with their near hand, you feel fingers wrapping around the ball of your foot or metatarsal area, and the opponent's chest rises as they pull your foot upward toward their torso. If you have been successfully hiding your heel, expect the toe hold as the natural follow-up attack in the chain.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Heel release, hand reaches toes",
+        "distractors": {
+          "plausible": [
+            "They dig for your Achilles",
+            "Opponent pulls your knee line"
+          ],
+          "trap": [
+            "Ignore it and hunt your own leg"
+          ]
+        }
       },
       {
         "question": "What is the safest way to tap to the toe hold from Inside Sankaku?",
         "answer": "Tap verbally by loudly saying 'tap' while simultaneously tapping with your free hand on the opponent or mat. Verbal tap is critical because your hands may be occupied fighting grips. Tap at the first sensation of rotational pressure on your ankle joint rather than waiting to assess escape possibility. Toe holds cause rapid multi-joint damage across the ankle and midfoot, and the pain signal often arrives after structural damage has already begun.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Say 'tap' loudly and tap early",
+        "distractors": {
+          "plausible": [
+            "Wait to test the escape first",
+            "Tap after the pain peaks"
+          ],
+          "trap": [
+            "Explode out to rip your foot free"
+          ]
+        }
       },
       {
         "question": "What defensive options are available against the toe hold from Inside Sankaku?",
         "answer": "Three primary defenses exist: early grip stripping before the figure-four locks using both hands to pry the opponent's fingers off your toes, body rotation in the direction of the twisting pressure to neutralize the rotational force on your ankle, and leg extraction by pushing the opponent's hips away with your free leg to break the Inside Sankaku entanglement while their hands are committed to the toe hold grip rather than leg control.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Strip grip, rotate, extract leg",
+        "distractors": {
+          "plausible": [
+            "Hand-fight only and stay flat",
+            "Pull knee to chest hard"
+          ],
+          "trap": [
+            "Explosively straighten the leg"
+          ]
+        }
       },
       {
         "question": "When trapped in Inside Sankaku, how do you defend both the heel hook and toe hold simultaneously?",
         "answer": "Adopt a combined defensive posture by hiding your heel against your own hip while simultaneously curling your toes and pointing your foot downward to deny toe hold grip access. Keep your near-side hand ready to fight grips on either your heel or toes depending on which attack the opponent pursues. This combined posture is energy-intensive to maintain, so use it to buy time while working positional escape protocols.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Hide heel, curl toes down",
+        "distractors": {
+          "plausible": [
+            "Point foot straight and flex",
+            "Only defend heel hook"
+          ],
+          "trap": [
+            "Kick out leg to break contact"
+          ]
+        }
       },
       {
         "question": "Why is it dangerous to attempt a powerful leg straightening movement against an established toe hold?",
         "answer": "Explosive leg extension against a locked toe hold concentrates force through the already-compromised ankle joint and midfoot structures. The rotational lock on the foot means extension adds a secondary vector of force that can tear the lateral ankle ligaments and damage the Lisfranc joint complex simultaneously. The movement happens faster than your nervous system can register pain, so structural damage occurs before you feel the need to tap.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Ankle tears before pain warns you",
+        "distractors": {
+          "plausible": [
+            "It overloads the knee ligaments",
+            "It makes the grip harder to break"
+          ],
+          "trap": [
+            "Kick your leg straight to rip free"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -446,6 +628,35 @@
         "phase": "Live Defensive Sparring",
         "focus": "Full scenario defense under pressure",
         "description": "Start in established Inside Sankaku with partner working all available attacks including toe hold. Practice defending and escaping under realistic conditions with progressive resistance up to full competition intensity."
+      }
+    ],
+    "clips": [
+      {
+        "id": "3a9k8-ZcYrk",
+        "title": "How to escape the toe hold",
+        "by": "Gordon Ryan",
+        "vertical": false,
+        "channel": "The King Life",
+        "duration": 106,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "8pCKbDQt3_8",
+        "title": "Toe hold counters",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "Absolute MMA St Kilda - Melbourne",
+        "duration": 326,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "6-HYU8Pbngg",
+        "title": "K guard vs toe hold and straight foot lock",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "Absolute MMA St Kilda - Melbourne",
+        "duration": 152,
+        "verified": "2026-07-15"
       }
     ]
   }

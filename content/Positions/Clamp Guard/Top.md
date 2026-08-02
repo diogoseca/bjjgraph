@@ -21,13 +21,13 @@ description: "Escape Clamp Guard in BJJ. Complete guide for the trapped passer t
     {
       "@type": "HowToStep",
       "name": "Execute Arm Extraction from Clamp Guard",
-      "text": "From this position, attempt Arm Extraction from Clamp Guard. This technique is attempted in 55% of exchanges from this position.",
+      "text": "From this position, attempt Arm Extraction from Clamp Guard. This technique is attempted in 52% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Stack Pass from Clamp Guard",
-      "text": "From this position, attempt Stack Pass from Clamp Guard. This technique is attempted in 45% of exchanges from this position.",
+      "text": "From this position, attempt Stack Pass from Clamp Guard. This technique is attempted in 48% of exchanges from this position.",
       "position": 2
     }
   ],
@@ -129,6 +129,43 @@ description: "Escape Clamp Guard in BJJ. Complete guide for the trapped passer t
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Clamp Guard (Top) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Defense and counter to the clamp guard",
+      "description": "Clamp Guard (Top) film study: Defense and counter to the clamp guard, taught by The Grappling Bloke.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/58LkTy6v3KQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/58LkTy6v3KQ",
+      "url": "https://www.youtube.com/watch?v=58LkTy6v3KQ",
+      "creator": { "@type": "Person", "name": "The Grappling Bloke" },
+      "duration": "PT109S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Clamp Guard Basics",
+      "description": "Clamp Guard (Top) film study: Clamp Guard Basics, taught by Brian Glick.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Y3CJAMifi7E/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Y3CJAMifi7E",
+      "url": "https://www.youtube.com/watch?v=Y3CJAMifi7E",
+      "creator": { "@type": "Person", "name": "Brian Glick" },
+      "duration": "PT268S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -140,6 +177,34 @@ This is a position that only gets worse the longer you stay in it, so urgency is
 The two primary tools from the top are arm extraction and the stack pass. Arm extraction reclaims the trapped limb by stripping the shin off your bicep — pin the bottom player's clamping knee to the mat, posture your shoulders up and over, and slide the elbow free along their thigh while keeping your spine straight. The stack pass attacks the position structurally: drive your weight forward and stack the bottom player onto their shoulders, which folds their hips, kills the clamp's leverage, and lets you walk the trapped arm free as you pass to side control. Throughout, keep your posture tall, your base wide, and your trapped-side shoulder driving into the bottom player so they cannot create the angle they need to finish.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Clamp Guard (Top) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=58LkTy6v3KQ)
+
+<p class="clip-credit"><strong>Defense and counter to the clamp guard</strong> — taught by The Grappling Bloke · 1:49 · <a href="https://www.youtube.com/watch?v=58LkTy6v3KQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Y3CJAMifi7E)
+
+<p class="clip-credit"><strong>Clamp Guard Basics</strong> — taught by Brian Glick · 4:28 · <a href="https://www.youtube.com/watch?v=Y3CJAMifi7E" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

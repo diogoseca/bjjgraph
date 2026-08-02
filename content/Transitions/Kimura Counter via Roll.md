@@ -34,6 +34,54 @@ description: "Master the Kimura Counter via Roll in BJJ. Defensive rolling techn
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Kimura Counter via Roll \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Kimura trap rolling sweep from bottom side control",
+      "description": "Kimura Counter via Roll film study: Kimura trap rolling sweep from bottom side control, taught by Mat Life coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/YvTmqi750wQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/YvTmqi750wQ",
+      "url": "https://www.youtube.com/watch?v=YvTmqi750wQ",
+      "creator": { "@type": "Person", "name": "Mat Life coach" },
+      "duration": "PT31S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Kimura trap roll from half guard",
+      "description": "Kimura Counter via Roll film study: Kimura trap roll from half guard, taught by Combat Arts coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/3scKusIPsC8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/3scKusIPsC8",
+      "url": "https://www.youtube.com/watch?v=3scKusIPsC8",
+      "creator": { "@type": "Person", "name": "Combat Arts coach" },
+      "duration": "PT51S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "No gi kimura trap roll",
+      "description": "Kimura Counter via Roll film study: No gi kimura trap roll, taught by Robyn Sheehan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/WEhMKdFPV9U/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/WEhMKdFPV9U",
+      "url": "https://www.youtube.com/watch?v=WEhMKdFPV9U",
+      "creator": { "@type": "Person", "name": "Robyn Sheehan" },
+      "duration": "PT60S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ Strategically, the Kimura Counter via Roll serves as an essential safety valve t
 **Success Rate**: 55%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Kimura Counter via Roll in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=YvTmqi750wQ)
+
+<p class="clip-credit"><strong>Kimura trap rolling sweep from bottom side control</strong> — taught by Mat Life coach · 0:31 · <a href="https://www.youtube.com/watch?v=YvTmqi750wQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=3scKusIPsC8)
+
+<p class="clip-credit"><strong>Kimura trap roll from half guard</strong> — taught by Combat Arts coach · 0:51 · <a href="https://www.youtube.com/watch?v=3scKusIPsC8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=WEhMKdFPV9U)
+
+<p class="clip-credit"><strong>No gi kimura trap roll</strong> — taught by Robyn Sheehan · 1:00 · <a href="https://www.youtube.com/watch?v=WEhMKdFPV9U" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

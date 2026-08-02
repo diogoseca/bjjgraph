@@ -34,6 +34,43 @@ description: "Master the Inversion to Turtle escape from Ushiro Ashi-Garami. Com
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Inversion to Turtle \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "How to Escape the Inside Ashi Garami Heel Hook",
+      "description": "Inversion to Turtle film study: How to Escape the Inside Ashi Garami Heel Hook, taught by Eddie Cummings.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/3xEmPci_szw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/3xEmPci_szw",
+      "url": "https://www.youtube.com/watch?v=3xEmPci_szw",
+      "creator": { "@type": "Person", "name": "Eddie Cummings" },
+      "duration": "PT164S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Defend Ashi Garami and Take Your Opponent\u0027s Back",
+      "description": "Inversion to Turtle film study: Defend Ashi Garami and Take Your Opponent\u0027s Back, taught by Hellfish MMA Coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/L1cPlysOgvc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/L1cPlysOgvc",
+      "url": "https://www.youtube.com/watch?v=L1cPlysOgvc",
+      "creator": { "@type": "Person", "name": "Hellfish MMA Coach" },
+      "duration": "PT785S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +106,34 @@ The technique requires precise timing and commitment. Half-hearted attempts crea
 **Success Rate**: 55%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Inversion to Turtle in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=3xEmPci_szw)
+
+<p class="clip-credit"><strong>How to Escape the Inside Ashi Garami Heel Hook</strong> — taught by Eddie Cummings · 2:44 · <a href="https://www.youtube.com/watch?v=3xEmPci_szw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=L1cPlysOgvc)
+
+<p class="clip-credit"><strong>Defend Ashi Garami and Take Your Opponent&#39;s Back</strong> — taught by Hellfish MMA Coach · 13:05 · <a href="https://www.youtube.com/watch?v=L1cPlysOgvc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

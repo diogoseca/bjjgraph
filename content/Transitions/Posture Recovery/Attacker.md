@@ -174,6 +174,43 @@ description: "How to execute Posture Recovery in BJJ. Step-by-step guide for reg
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Posture Recovery (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Posture up and pass the closed guard",
+      "description": "Posture Recovery (Attacker) film study: Posture up and pass the closed guard, taught by Rickson Gracie.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/RrD643OqTao/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/RrD643OqTao",
+      "url": "https://www.youtube.com/watch?v=RrD643OqTao",
+      "creator": { "@type": "Person", "name": "Rickson Gracie" },
+      "duration": "PT66S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Common guard mistake that gives up posture",
+      "description": "Posture Recovery (Attacker) film study: Common guard mistake that gives up posture, taught by Rickson Gracie.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/jx120fTdOfA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/jx120fTdOfA",
+      "url": "https://www.youtube.com/watch?v=jx120fTdOfA",
+      "creator": { "@type": "Person", "name": "Rickson Gracie" },
+      "duration": "PT58S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -183,6 +220,34 @@ As the top player executing Posture Recovery, your objective is to systematicall
 **From Position**: [[Positions/Closed Guard]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Posture Recovery (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=RrD643OqTao)
+
+<p class="clip-credit"><strong>Posture up and pass the closed guard</strong> — taught by Rickson Gracie · 1:06 · <a href="https://www.youtube.com/watch?v=RrD643OqTao" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=jx120fTdOfA)
+
+<p class="clip-credit"><strong>Common guard mistake that gives up posture</strong> — taught by Rickson Gracie · 0:58 · <a href="https://www.youtube.com/watch?v=jx120fTdOfA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Crackhead Control/Bottom",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Rubber Guard/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Open Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "The Crackhead Control Entry is a positional advancement within the 10th Planet Rubber Guard system that transitions the bottom player from standard Rubber Guard into the more dominant Crackhead Control configuration. This transition centers on achieving extreme arm isolation by pulling the opponent's trapped arm further across their centerline while repositioning the controlling leg to apply direct shoulder pressure. The result is a locked configuration that severely limits the top player's defensive options and creates high-percentage pathways to triangles, omoplatas, and gogoplatas.\n\nThe entry requires precise timing and mechanical understanding. The bottom player must capitalize on moments when the opponent's posture is broken and their trapped arm is vulnerable to further manipulation. Rushing the entry without proper grip control results in the opponent extracting their arm and recovering posture, potentially escaping the Rubber Guard entirely. The prerequisite flexibility for this transition is significant—practitioners need sufficient hip mobility to maintain the elevated leg position while simultaneously adjusting hand grips and arm positioning through a multi-step grip transfer sequence.\n\nStrategically, the Crackhead Control Entry represents a critical decision point in the Rubber Guard progression tree. When the opponent freezes or fails to defend the initial Mission Control position aggressively, the bottom player can advance to this more dominant configuration rather than immediately attacking with submissions from a less secure position. The entry creates a positional ratchet—once Crackhead Control is established, the opponent faces a dramatically narrower set of defensive options compared to standard Rubber Guard, making all subsequent submission entries substantially higher percentage.",
   "conditions": [
     "Rubber Guard (Mission Control) must be established with shin across opponent's back",
@@ -253,46 +265,175 @@
     "flashcards": [
       {
         "question": "What is the optimal moment to initiate the Crackhead Control Entry from Mission Control?",
-        "answer": "The optimal moment is when the opponent's head is below your shoulder line and their trapped arm has relaxed slightly from active resistance. Look for moments when they stop fighting the Mission Control grip and either freeze or attempt a slow controlled escape rather than an explosive posture recovery. Initiating during active posture attempts dramatically reduces success rate because the opponent's resistance provides the structural tension needed to extract their arm."
+        "answer": "The optimal moment is when the opponent's head is below your shoulder line and their trapped arm has relaxed slightly from active resistance. Look for moments when they stop fighting the Mission Control grip and either freeze or attempt a slow controlled escape rather than an explosive posture recovery. Initiating during active posture attempts dramatically reduces success rate because the opponent's resistance provides the structural tension needed to extract their arm.",
+        "answer_line": "Head drops, resistance relaxes",
+        "distractors": {
+          "plausible": [
+            "During active posture recovery",
+            "Right after locking the grip"
+          ],
+          "trap": [
+            "As they explode to posture up"
+          ]
+        }
       },
       {
         "question": "What grip must you establish before releasing your shin control during the entry?",
-        "answer": "You must secure a wrist or forearm grip on the opponent's trapped arm with your free hand before releasing the foot or shin grip that maintains Mission Control. This overlap of control points ensures continuous arm isolation throughout the transition. Without this secondary control established first, the opponent can extract their arm during the brief moment of reduced control when the shin grip is released."
+        "answer": "You must secure a wrist or forearm grip on the opponent's trapped arm with your free hand before releasing the foot or shin grip that maintains Mission Control. This overlap of control points ensures continuous arm isolation throughout the transition. Without this secondary control established first, the opponent can extract their arm during the brief moment of reduced control when the shin grip is released.",
+        "answer_line": "Wrist grip before releasing shin",
+        "distractors": {
+          "plausible": [
+            "Release shin first, then grip",
+            "Underhook the far shoulder"
+          ],
+          "trap": [
+            "Release both grips at once"
+          ]
+        }
       },
       {
         "question": "How do you adjust your hip angle to facilitate the arm pull across the opponent's centerline?",
-        "answer": "Shift your hips approximately 20-30 degrees toward the side of the trapped arm before initiating the pull. This rotation creates a mechanical pathway that allows the arm to travel further across the opponent's body past the structural resistance at their centerline. Without this hip angle adjustment, the arm meets the opponent's skeletal resistance at the midline and cannot be isolated deeply enough for effective Crackhead Control compression."
+        "answer": "Shift your hips approximately 20-30 degrees toward the side of the trapped arm before initiating the pull. This rotation creates a mechanical pathway that allows the arm to travel further across the opponent's body past the structural resistance at their centerline. Without this hip angle adjustment, the arm meets the opponent's skeletal resistance at the midline and cannot be isolated deeply enough for effective Crackhead Control compression.",
+        "answer_line": "Rotate hips toward trapped arm",
+        "distractors": {
+          "plausible": [
+            "Keep hips squared, then pull",
+            "Rotate hips away from the arm"
+          ],
+          "trap": [
+            "Pull straight through centerline"
+          ]
+        }
       },
       {
         "question": "Your opponent begins circling their elbow outward during your grip transfer—how do you respond?",
-        "answer": "Follow their elbow movement with your wrist grip, maintaining constant contact rather than fighting the circular motion directly. If they succeed in creating significant space through the circular extraction, immediately pivot to a triangle setup since their arm extraction movement has created the exact space needed for your leg to insert across their neck. The counter becomes your submission entry rather than a positional loss."
+        "answer": "Follow their elbow movement with your wrist grip, maintaining constant contact rather than fighting the circular motion directly. If they succeed in creating significant space through the circular extraction, immediately pivot to a triangle setup since their arm extraction movement has created the exact space needed for your leg to insert across their neck. The counter becomes your submission entry rather than a positional loss.",
+        "answer_line": "Track elbow, triangle if space opens",
+        "distractors": {
+          "plausible": [
+            "Fight the circular motion directly",
+            "Release grip, then re-secure it"
+          ],
+          "trap": [
+            "Force a straight-arm extraction"
+          ]
+        }
       },
       {
         "question": "What is the critical difference between the leg position in Mission Control versus Crackhead Control?",
-        "answer": "In Mission Control, the shin runs horizontally across the opponent's upper back with the foot secured by the same-side hand, functioning primarily as a posture control tool. In Crackhead Control, the leg repositions higher to apply direct downward pressure on the opponent's shoulder of the isolated arm. The leg transitions from a back-control tool to a shoulder-compression tool, fundamentally changing the mechanical function from general posture management to specific arm isolation and shoulder loading."
+        "answer": "In Mission Control, the shin runs horizontally across the opponent's upper back with the foot secured by the same-side hand, functioning primarily as a posture control tool. In Crackhead Control, the leg repositions higher to apply direct downward pressure on the opponent's shoulder of the isolated arm. The leg transitions from a back-control tool to a shoulder-compression tool, fundamentally changing the mechanical function from general posture management to specific arm isolation and shoulder loading.",
+        "answer_line": "Leg shifts higher to press shoulder",
+        "distractors": {
+          "plausible": [
+            "Leg stays flat across the back",
+            "Leg drops lower onto the hip"
+          ],
+          "trap": [
+            "Leg releases to free their foot"
+          ]
+        }
       },
       {
         "question": "What direction of force does your controlling leg apply in the final Crackhead Control position?",
-        "answer": "The controlling leg applies force directly downward into the opponent's shoulder, perpendicular to the mat surface. This downward compression pins the shoulder while your hands maintain the cross-body arm position through structural locking on your own shin. The combination of downward leg pressure and cross-body arm pull creates a wedge effect that immobilizes the entire shoulder girdle and prevents the opponent from rotating or posturing."
+        "answer": "The controlling leg applies force directly downward into the opponent's shoulder, perpendicular to the mat surface. This downward compression pins the shoulder while your hands maintain the cross-body arm position through structural locking on your own shin. The combination of downward leg pressure and cross-body arm pull creates a wedge effect that immobilizes the entire shoulder girdle and prevents the opponent from rotating or posturing.",
+        "answer_line": "Straight down into the shoulder",
+        "distractors": {
+          "plausible": [
+            "Diagonal push toward their head",
+            "Lateral pressure across the chest"
+          ],
+          "trap": [
+            "Pull the leg up off the mat"
+          ]
+        }
       },
       {
         "question": "Your opponent stacks you during the entry attempt—what is your immediate tactical response?",
-        "answer": "Use their forward stacking momentum to load the omoplata angle rather than fighting the stack directly. Frame on their hip with your free hand and rotate your body underneath them to establish omoplata control. Their aggressive forward pressure actually assists the rotation needed for omoplata entry, converting their defensive action into your offensive advantage. Only use this response when you can maintain arm control throughout the rotation."
+        "answer": "Use their forward stacking momentum to load the omoplata angle rather than fighting the stack directly. Frame on their hip with your free hand and rotate your body underneath them to establish omoplata control. Their aggressive forward pressure actually assists the rotation needed for omoplata entry, converting their defensive action into your offensive advantage. Only use this response when you can maintain arm control throughout the rotation.",
+        "answer_line": "Use the stack to load omoplata",
+        "distractors": {
+          "plausible": [
+            "Fight the stack, hold position",
+            "Release arm, reset to guard"
+          ],
+          "trap": [
+            "Push straight up against stack"
+          ]
+        }
       },
       {
         "question": "What submission chains become available once Crackhead Control is fully established?",
-        "answer": "The primary chains are: first, triangle entry by releasing the arm and inserting your leg across their neck using the space created by the isolation; second, omoplata by rotating underneath while maintaining shoulder pressure on the trapped arm; third, gogoplata by repositioning your shin across their throat from the elevated leg position; and fourth, advancing to Carni position for combined submission threats. The extreme arm isolation makes each of these substantially higher percentage than from standard Rubber Guard."
+        "answer": "The primary chains are: first, triangle entry by releasing the arm and inserting your leg across their neck using the space created by the isolation; second, omoplata by rotating underneath while maintaining shoulder pressure on the trapped arm; third, gogoplata by repositioning your shin across their throat from the elevated leg position; and fourth, advancing to Carni position for combined submission threats. The extreme arm isolation makes each of these substantially higher percentage than from standard Rubber Guard.",
+        "answer_line": "Triangle, omoplata, gogoplata, Carni",
+        "distractors": {
+          "plausible": [
+            "Armbar, kimura, straight ankle lock",
+            "Back take, then rear-naked choke"
+          ],
+          "trap": [
+            "Release arm, reset closed guard"
+          ]
+        }
       },
       {
         "question": "How do you manage energy expenditure during the entry to avoid premature fatigue?",
-        "answer": "Use structural holds rather than muscular tension throughout the sequence. Once your leg is positioned, lock it in place with skeletal alignment by grabbing your own shin with both hands instead of squeezing with hip flexors. The grip transfer should be smooth and efficient, not rushed. Maintain the entry attempt only when genuine windows present themselves rather than forcing against active resistance. If the opponent is actively defending with strong posture, maintain Mission Control and wait for a better opportunity."
+        "answer": "Use structural holds rather than muscular tension throughout the sequence. Once your leg is positioned, lock it in place with skeletal alignment by grabbing your own shin with both hands instead of squeezing with hip flexors. The grip transfer should be smooth and efficient, not rushed. Maintain the entry attempt only when genuine windows present themselves rather than forcing against active resistance. If the opponent is actively defending with strong posture, maintain Mission Control and wait for a better opportunity.",
+        "answer_line": "Lock leg on shin, wait for windows",
+        "distractors": {
+          "plausible": [
+            "Squeeze hard with hip flexors",
+            "Rush the grip transfer fast"
+          ],
+          "trap": [
+            "Force it against resistance"
+          ]
+        }
       },
       {
         "question": "What are the flexibility prerequisites for this entry, and how do you compensate if your flexibility is limited?",
-        "answer": "The entry requires sufficient hip flexion and external rotation to maintain an elevated leg across the opponent's upper back and shoulder while simultaneously adjusting hip angle for the arm pull. If flexibility is limited, compensate by breaking the opponent's posture more aggressively before attempting the entry, which reduces the range of motion needed for leg repositioning by bringing their body closer to yours. Long-term, develop hamstring and hip flexor flexibility through a dedicated stretching program targeting these specific ranges."
+        "answer": "The entry requires sufficient hip flexion and external rotation to maintain an elevated leg across the opponent's upper back and shoulder while simultaneously adjusting hip angle for the arm pull. If flexibility is limited, compensate by breaking the opponent's posture more aggressively before attempting the entry, which reduces the range of motion needed for leg repositioning by bringing their body closer to yours. Long-term, develop hamstring and hip flexor flexibility through a dedicated stretching program targeting these specific ranges.",
+        "answer_line": "Break posture more to compensate",
+        "distractors": {
+          "plausible": [
+            "Skip leg elevation entirely",
+            "Use a wider base for room"
+          ],
+          "trap": [
+            "Force the stretch mid-entry"
+          ]
+        }
       }
     ],
-    "safety_considerations": "The Crackhead Control Entry places significant stress on the practitioner's own hip flexors, hamstrings, and groin muscles. Warm up thoroughly before drilling this technique, focusing on hip external rotation and hamstring flexibility. Avoid forcing the entry if hip flexibility is insufficient, as this risks groin strain or acute hip injury. When applying shoulder pressure in the final position, increase pressure gradually during training to allow your partner to tap if their shoulder is compromised. Communicate clearly with training partners about intensity levels, particularly regarding the cross-body arm isolation which can create acute shoulder pressure and potential injury if applied explosively."
+    "safety_considerations": "The Crackhead Control Entry places significant stress on the practitioner's own hip flexors, hamstrings, and groin muscles. Warm up thoroughly before drilling this technique, focusing on hip external rotation and hamstring flexibility. Avoid forcing the entry if hip flexibility is insufficient, as this risks groin strain or acute hip injury. When applying shoulder pressure in the final position, increase pressure gradually during training to allow your partner to tap if their shoulder is compromised. Communicate clearly with training partners about intensity levels, particularly regarding the cross-body arm isolation which can create acute shoulder pressure and potential injury if applied explosively.",
+    "clips": [
+      {
+        "id": "_3pJ2tPI0gY",
+        "title": "Crackhead Control to Invisible Collar Tie",
+        "by": "Fletcher Kirwan",
+        "vertical": false,
+        "channel": "Fletcher Kirwan",
+        "duration": 16,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "rpsvedaYKUY",
+        "title": "Armbar from Crackhead Control",
+        "by": "Clinton",
+        "vertical": false,
+        "channel": "10thPlanetDisciple",
+        "duration": 96,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "WliTCjEDA-8",
+        "title": "Basic entries into rubber guard",
+        "by": "BJJ4Breakfast",
+        "vertical": false,
+        "channel": "BJJ4Breakfast",
+        "duration": 106,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Crackhead Control Entry Defender",
@@ -379,23 +520,73 @@
     "flashcards": [
       {
         "question": "What are the earliest recognition cues that a Crackhead Control Entry is being attempted from Rubber Guard?",
-        "answer": "The earliest cues are: the bottom player's free hand moving toward your trapped wrist or forearm rather than maintaining head control; a subtle hip angle shift beneath you as they rotate toward your trapped arm side to create the mechanical pathway; and a temporary reduction in head-pulling pressure as they redirect energy toward the grip transfer sequence. These cues precede the actual entry by one to two seconds, providing the critical defensive window."
+        "answer": "The earliest cues are: the bottom player's free hand moving toward your trapped wrist or forearm rather than maintaining head control; a subtle hip angle shift beneath you as they rotate toward your trapped arm side to create the mechanical pathway; and a temporary reduction in head-pulling pressure as they redirect energy toward the grip transfer sequence. These cues precede the actual entry by one to two seconds, providing the critical defensive window.",
+        "answer_line": "Hand shifts to wrist, hip rotates",
+        "distractors": {
+          "plausible": [
+            "Sudden explosive posture attempt",
+            "Increased head-pulling pressure"
+          ],
+          "trap": [
+            "Opponent releases Mission Control"
+          ]
+        }
       },
       {
         "question": "Why is circular arm extraction more effective than pulling the arm straight back against the cross-body pull?",
-        "answer": "Pulling straight back fights directly against the cross-body pull's leverage, creating a tug-of-war where the bottom player has superior mechanical advantage through their leg pressure and body weight. Circular extraction—rotating the elbow outward and downward—changes the angle of force, bypassing the direct resistance line and exploiting the gap in the bottom player's grip configuration where their fingers are weakest. This requires substantially less strength and is mechanically sound."
+        "answer": "Pulling straight back fights directly against the cross-body pull's leverage, creating a tug-of-war where the bottom player has superior mechanical advantage through their leg pressure and body weight. Circular extraction—rotating the elbow outward and downward—changes the angle of force, bypassing the direct resistance line and exploiting the gap in the bottom player's grip configuration where their fingers are weakest. This requires substantially less strength and is mechanically sound.",
+        "answer_line": "Angles around grip, not tug-of-war",
+        "distractors": {
+          "plausible": [
+            "Pull straight back with more force",
+            "Match pressure and outlast them"
+          ],
+          "trap": [
+            "Yank the arm straight against pull"
+          ]
+        }
       },
       {
         "question": "Your arm has been partially pulled across your centerline but the leg has not yet repositioned—what is your best remaining defensive option?",
-        "answer": "Immediately commit to explosive posture recovery combined with driving your shoulder into the bottom player's chest before the leg repositions to lock the configuration. Use your free hand to post on the mat and push your body upward while simultaneously circling the trapped elbow back toward your body. If the arm cannot be fully extracted, transition to stacking defense to compress the bottom player and relieve the leg pressure before they complete the structural lock."
+        "answer": "Immediately commit to explosive posture recovery combined with driving your shoulder into the bottom player's chest before the leg repositions to lock the configuration. Use your free hand to post on the mat and push your body upward while simultaneously circling the trapped elbow back toward your body. If the arm cannot be fully extracted, transition to stacking defense to compress the bottom player and relieve the leg pressure before they complete the structural lock.",
+        "answer_line": "Posture up, drive shoulder in",
+        "distractors": {
+          "plausible": [
+            "Circle the elbow, ignore posture",
+            "Wait passively for a window"
+          ],
+          "trap": [
+            "Yank the arm straight back only"
+          ]
+        }
       },
       {
         "question": "How does the stacking defense counter this entry, and what submission risk does it create?",
-        "answer": "Stacking drives your weight forward and down, compressing the bottom player and reducing the space their controlling leg needs to maintain its elevated position across your back. The increased pressure can force them to release the leg configuration to protect their spine and neck from compression. However, the forward momentum can be redirected by a skilled opponent into an omoplata entry, as the stacking motion provides exactly the rotational angle needed for omoplata control. Only stack when you can maintain your trapped arm tight to your body."
+        "answer": "Stacking drives your weight forward and down, compressing the bottom player and reducing the space their controlling leg needs to maintain its elevated position across your back. The increased pressure can force them to release the leg configuration to protect their spine and neck from compression. However, the forward momentum can be redirected by a skilled opponent into an omoplata entry, as the stacking motion provides exactly the rotational angle needed for omoplata control. Only stack when you can maintain your trapped arm tight to your body.",
+        "answer_line": "Stack them, but omoplata risk",
+        "distractors": {
+          "plausible": [
+            "Stack them with no counter-risk",
+            "Never stack, it always fails"
+          ],
+          "trap": [
+            "Stack hard with arm posted wide"
+          ]
+        }
       },
       {
         "question": "What energy management considerations apply when defending against repeated Crackhead Control Entry attempts?",
-        "answer": "The Crackhead Control Entry creates urgency that can cause the defender to waste energy on ineffective explosive movements. Prioritize one decisive defensive action per attempt rather than multiple half-committed responses. If the first defense fails to fully prevent the entry, immediately transition to defending the established Crackhead Control position rather than continuing to fight the completed entry. Accepting a partially advanced position and defending from there conserves more energy than exhausting yourself fighting a locked position."
+        "answer": "The Crackhead Control Entry creates urgency that can cause the defender to waste energy on ineffective explosive movements. Prioritize one decisive defensive action per attempt rather than multiple half-committed responses. If the first defense fails to fully prevent the entry, immediately transition to defending the established Crackhead Control position rather than continuing to fight the completed entry. Accepting a partially advanced position and defending from there conserves more energy than exhausting yourself fighting a locked position.",
+        "answer_line": "One decisive defense, not many",
+        "distractors": {
+          "plausible": [
+            "Fight every attempt full power",
+            "Defend passively and conserve"
+          ],
+          "trap": [
+            "Keep fighting the completed lock"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -418,6 +609,35 @@
         "phase": "Phase 4: Live Defense",
         "focus": "Full resistance defensive application",
         "description": "Positional sparring starting from established Rubber Guard with the bottom player attempting Crackhead Control Entry and other Rubber Guard progressions. Top player defends using the full defensive toolkit against unpredictable attacks. Track escape rates and identify which defensive sequences succeed most consistently."
+      }
+    ],
+    "clips": [
+      {
+        "id": "AvivOVuYcCk",
+        "title": "Rubber guard escape",
+        "by": "BJJ4Breakfast",
+        "vertical": false,
+        "channel": "BJJ4Breakfast",
+        "duration": 131,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "ZqiF7-4OFsU",
+        "title": "Three Ways to Clear the Neck from Rubber Guard",
+        "by": "Eddie Bravo",
+        "vertical": false,
+        "channel": "Eddie Bravo",
+        "duration": 61,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "_QgRae3Hxvs",
+        "title": "Knee Cut and Cartwheel Passing vs Rubber Guard",
+        "by": "Eddie Bravo",
+        "vertical": false,
+        "channel": "Eddie Bravo",
+        "duration": 61,
+        "verified": "2026-07-15"
       }
     ]
   }

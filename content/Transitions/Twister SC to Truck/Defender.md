@@ -148,6 +148,54 @@ description: "Defend against the Twister Side Control to Truck transition with e
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Twister SC to Truck (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Twister side control counter",
+      "description": "Twister SC to Truck (Defender) film study: Twister side control counter, taught by 10th Planet Jiu Jitsu Murrieta.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/jg0Rdc0rJzg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/jg0Rdc0rJzg",
+      "url": "https://www.youtube.com/watch?v=jg0Rdc0rJzg",
+      "creator": { "@type": "Person", "name": "10th Planet Jiu Jitsu Murrieta" },
+      "duration": "PT16S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Defending the rolling back take (truck roll)",
+      "description": "Twister SC to Truck (Defender) film study: Defending the rolling back take (truck roll), taught by Brian Glick.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/WEpVDP7MRpo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/WEpVDP7MRpo",
+      "url": "https://www.youtube.com/watch?v=WEpVDP7MRpo",
+      "creator": { "@type": "Person", "name": "Brian Glick" },
+      "duration": "PT209S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Escape and counter the twister",
+      "description": "Twister SC to Truck (Defender) film study: Escape and counter the twister, taught by Matrix Jiu Jitsu coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Va1YNgx2E6M/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Va1YNgx2E6M",
+      "url": "https://www.youtube.com/watch?v=Va1YNgx2E6M",
+      "creator": { "@type": "Person", "name": "Matrix Jiu Jitsu coach" },
+      "duration": "PT165S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +205,42 @@ From the defender's perspective, the Twister Side Control to Truck transition re
 **Opponent's Starting Position**: [[Positions/Twister Control/Twister Side Control]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Twister SC to Truck (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=jg0Rdc0rJzg)
+
+<p class="clip-credit"><strong>Twister side control counter</strong> — taught by 10th Planet Jiu Jitsu Murrieta · 0:16 · <a href="https://www.youtube.com/watch?v=jg0Rdc0rJzg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=WEpVDP7MRpo)
+
+<p class="clip-credit"><strong>Defending the rolling back take (truck roll)</strong> — taught by Brian Glick · 3:29 · <a href="https://www.youtube.com/watch?v=WEpVDP7MRpo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Va1YNgx2E6M)
+
+<p class="clip-credit"><strong>Escape and counter the twister</strong> — taught by Matrix Jiu Jitsu coach · 2:45 · <a href="https://www.youtube.com/watch?v=Va1YNgx2E6M" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

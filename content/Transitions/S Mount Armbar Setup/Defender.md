@@ -156,6 +156,54 @@ description: "Defend the S Mount Armbar Setup in BJJ. Recognition cues, escape t
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "S Mount Armbar Setup (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Favorite armbar escape",
+      "description": "S Mount Armbar Setup (Defender) film study: Favorite armbar escape, taught by Matt Arroyo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/kNdKfUdgO4I/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/kNdKfUdgO4I",
+      "url": "https://www.youtube.com/watch?v=kNdKfUdgO4I",
+      "creator": { "@type": "Person", "name": "Matt Arroyo" },
+      "duration": "PT92S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Low-effort armbar escape via foot capture",
+      "description": "S Mount Armbar Setup (Defender) film study: Low-effort armbar escape via foot capture, taught by Patrick Donabedian.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/AfDEN3uK3W0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/AfDEN3uK3W0",
+      "url": "https://www.youtube.com/watch?v=AfDEN3uK3W0",
+      "creator": { "@type": "Person", "name": "Patrick Donabedian" },
+      "duration": "PT55S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Armbar defense and stack escape",
+      "description": "S Mount Armbar Setup (Defender) film study: Armbar defense and stack escape, taught by Daniel Frank.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/zKieMBkGXxU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/zKieMBkGXxU",
+      "url": "https://www.youtube.com/watch?v=zKieMBkGXxU",
+      "creator": { "@type": "Person", "name": "Daniel Frank" },
+      "duration": "PT32S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -165,6 +213,42 @@ Defending the S Mount Armbar Setup requires recognizing the transition from posi
 **Opponent's Starting Position**: [[Positions/Mount/S Mount]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch S Mount Armbar Setup (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=kNdKfUdgO4I)
+
+<p class="clip-credit"><strong>Favorite armbar escape</strong> — taught by Matt Arroyo · 1:32 · <a href="https://www.youtube.com/watch?v=kNdKfUdgO4I" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=AfDEN3uK3W0)
+
+<p class="clip-credit"><strong>Low-effort armbar escape via foot capture</strong> — taught by Patrick Donabedian · 0:55 · <a href="https://www.youtube.com/watch?v=AfDEN3uK3W0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=zKieMBkGXxU)
+
+<p class="clip-credit"><strong>Armbar defense and stack escape</strong> — taught by Daniel Frank · 0:32 · <a href="https://www.youtube.com/watch?v=zKieMBkGXxU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

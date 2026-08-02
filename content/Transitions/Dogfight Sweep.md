@@ -34,6 +34,54 @@ description: "Master the Dogfight Sweep in BJJ. Complete guide to this underhook
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Dogfight Sweep \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Roger\u0027s windmill half guard sweep",
+      "description": "Dogfight Sweep film study: Roger\u0027s windmill half guard sweep, taught by Roger Gracie.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/X3M6JUqr1Bo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/X3M6JUqr1Bo",
+      "url": "https://www.youtube.com/watch?v=X3M6JUqr1Bo",
+      "creator": { "@type": "Person", "name": "Roger Gracie" },
+      "duration": "PT16S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Armlock off the dogfight sweep",
+      "description": "Dogfight Sweep film study: Armlock off the dogfight sweep, taught by Brandon Mccaghren.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/jJzA1wrxJNs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/jJzA1wrxJNs",
+      "url": "https://www.youtube.com/watch?v=jJzA1wrxJNs",
+      "creator": { "@type": "Person", "name": "Brandon Mccaghren" },
+      "duration": "PT97S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Dogfight basics: plan B and old school sweep",
+      "description": "Dogfight Sweep film study: Dogfight basics: plan B and old school sweep, taught by Brandon Mccaghren.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/fjDBmFzfhgI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/fjDBmFzfhgI",
+      "url": "https://www.youtube.com/watch?v=fjDBmFzfhgI",
+      "creator": { "@type": "Person", "name": "Brandon Mccaghren" },
+      "duration": "PT145S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -66,9 +114,45 @@ Strategically, the Dogfight Sweep is the anchor technique of the Dogfight attack
 The sweep scales effectively across skill levels. Beginners can succeed with raw forward pressure and grip strength. Advanced practitioners refine the timing to execute during weight transitions, reading when the opponent shifts their base and attacking the precise moment their far leg becomes load-bearing. The mechanical simplicity combined with strategic depth makes this sweep essential for any competitive half guard practitioner.
 
 **From Position**: [[Positions/Dogfight Position]] (Bottom)
-**Success Rate**: 55%
+**Success Rate**: 40%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Dogfight Sweep in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=X3M6JUqr1Bo)
+
+<p class="clip-credit"><strong>Roger&#39;s windmill half guard sweep</strong> — taught by Roger Gracie · 0:16 · <a href="https://www.youtube.com/watch?v=X3M6JUqr1Bo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=jJzA1wrxJNs)
+
+<p class="clip-credit"><strong>Armlock off the dogfight sweep</strong> — taught by Brandon Mccaghren · 1:37 · <a href="https://www.youtube.com/watch?v=jJzA1wrxJNs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=fjDBmFzfhgI)
+
+<p class="clip-credit"><strong>Dogfight basics: plan B and old school sweep</strong> — taught by Brandon Mccaghren · 2:25 · <a href="https://www.youtube.com/watch?v=fjDBmFzfhgI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

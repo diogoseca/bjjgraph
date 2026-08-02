@@ -174,6 +174,54 @@ description: "How to execute Crossface to Combat Base in BJJ. Attacking perspect
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Crossface to Combat Base (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Building an extremely tight crossface",
+      "description": "Crossface to Combat Base (Attacker) film study: Building an extremely tight crossface, taught by Escapology BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/gHD03vpWGSM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/gHD03vpWGSM",
+      "url": "https://www.youtube.com/watch?v=gHD03vpWGSM",
+      "creator": { "@type": "Person", "name": "Escapology BJJ" },
+      "duration": "PT119S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Passing half guard with the crossface",
+      "description": "Crossface to Combat Base (Attacker) film study: Passing half guard with the crossface, taught by Behring Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/07SF02_2dbw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/07SF02_2dbw",
+      "url": "https://www.youtube.com/watch?v=07SF02_2dbw",
+      "creator": { "@type": "Person", "name": "Behring Jiu Jitsu" },
+      "duration": "PT100S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Shoulder pressure from top control",
+      "description": "Crossface to Combat Base (Attacker) film study: Shoulder pressure from top control, taught by Roy Dean.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/BjeDX3WupdA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/BjeDX3WupdA",
+      "url": "https://www.youtube.com/watch?v=BjeDX3WupdA",
+      "creator": { "@type": "Person", "name": "Roy Dean" },
+      "duration": "PT39S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -187,6 +235,42 @@ The strategic value of this transition lies in its versatility. Once combat base
 **From Position**: [[Positions/Half Guard]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Crossface to Combat Base (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=gHD03vpWGSM)
+
+<p class="clip-credit"><strong>Building an extremely tight crossface</strong> — taught by Escapology BJJ · 1:59 · <a href="https://www.youtube.com/watch?v=gHD03vpWGSM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=07SF02_2dbw)
+
+<p class="clip-credit"><strong>Passing half guard with the crossface</strong> — taught by Behring Jiu Jitsu · 1:40 · <a href="https://www.youtube.com/watch?v=07SF02_2dbw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=BjeDX3WupdA)
+
+<p class="clip-credit"><strong>Shoulder pressure from top control</strong> — taught by Roy Dean · 0:39 · <a href="https://www.youtube.com/watch?v=BjeDX3WupdA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

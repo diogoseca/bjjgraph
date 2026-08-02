@@ -148,6 +148,54 @@ description: "Master defensive strategies against the armbar from reverse mount.
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Armbar from Reverse Mount (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Fixing your armbar defense",
+      "description": "Armbar from Reverse Mount (Defender) film study: Fixing your armbar defense, taught by Michael Currier.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/KuhIFZMNIKs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/KuhIFZMNIKs",
+      "url": "https://www.youtube.com/watch?v=KuhIFZMNIKs",
+      "creator": { "@type": "Person", "name": "Michael Currier" },
+      "duration": "PT105S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Armbar escape fundamentals",
+      "description": "Armbar from Reverse Mount (Defender) film study: Armbar escape fundamentals, taught by Matt Arroyo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/kNdKfUdgO4I/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/kNdKfUdgO4I",
+      "url": "https://www.youtube.com/watch?v=kNdKfUdgO4I",
+      "creator": { "@type": "Person", "name": "Matt Arroyo" },
+      "duration": "PT92S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Escaping the armbar",
+      "description": "Armbar from Reverse Mount (Defender) film study: Escaping the armbar, taught by Booster Fightgear.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/C0OsN1gteBQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/C0OsN1gteBQ",
+      "url": "https://www.youtube.com/watch?v=C0OsN1gteBQ",
+      "creator": { "@type": "Person", "name": "Booster Fightgear" },
+      "duration": "PT78S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +205,42 @@ Defending the armbar from reverse mount demands rapid recognition and immediate 
 **Opponent's Starting Position**: [[Positions/Reverse Mount]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Armbar from Reverse Mount (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=KuhIFZMNIKs)
+
+<p class="clip-credit"><strong>Fixing your armbar defense</strong> — taught by Michael Currier · 1:45 · <a href="https://www.youtube.com/watch?v=KuhIFZMNIKs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=kNdKfUdgO4I)
+
+<p class="clip-credit"><strong>Armbar escape fundamentals</strong> — taught by Matt Arroyo · 1:32 · <a href="https://www.youtube.com/watch?v=kNdKfUdgO4I" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=C0OsN1gteBQ)
+
+<p class="clip-credit"><strong>Escaping the armbar</strong> — taught by Booster Fightgear · 1:18 · <a href="https://www.youtube.com/watch?v=C0OsN1gteBQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

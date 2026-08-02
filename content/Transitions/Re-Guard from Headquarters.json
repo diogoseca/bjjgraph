@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Open Guard/Bottom",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Headquarters Position/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Side Control/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "Re-guarding from Headquarters position is a critical defensive skill that allows you to recover guard structure when your opponent has established a dominant passing position. Headquarters, also known as the floating passing position, occurs when the passer has cleared your legs to one side but hasn't yet established a control position like side control or knee on belly. This transitional moment presents a critical window for guard recovery.\n\nThe essence of re-guarding from Headquarters lies in creating distance and frames while simultaneously recovering your leg positioning. Your opponent is attempting to consolidate their pass by controlling your hips and preventing leg recovery, so your primary objectives are to create space with proper frames, recover hip mobility through shrimping mechanics, and reinsert your legs into the space between you and your opponent. This requires a combination of defensive framing, hip movement, and timing to capitalize on the brief moment before full consolidation.\n\nSuccessful re-guarding from this position is fundamental to maintaining a strong defensive game. The ability to recover guard when a pass is nearly complete separates intermediate practitioners from advanced competitors. This technique builds upon fundamental concepts of guard retention, framing mechanics, and hip escape principles while requiring precise timing and spatial awareness to execute against resisting opponents.",
   "conditions": [
     "Opponent has cleared your legs to one side and established Headquarters position",
@@ -239,54 +251,203 @@
     "flashcards": [
       {
         "question": "Why must you establish frames before attempting hip escapes during guard recovery from Headquarters?",
-        "answer": "Frames create and maintain the distance necessary for hip escapes to be effective. Without frames, your opponent can follow your hips as you escape, closing the distance immediately and preventing any space creation. Frames act as structural barriers that prevent your opponent from consolidating their position while you create the space needed for leg recovery. The frames don't create the space themselves, but they prevent the opponent from closing the space that your hip escapes create."
+        "answer": "Frames create and maintain the distance necessary for hip escapes to be effective. Without frames, your opponent can follow your hips as you escape, closing the distance immediately and preventing any space creation. Frames act as structural barriers that prevent your opponent from consolidating their position while you create the space needed for leg recovery. The frames don't create the space themselves, but they prevent the opponent from closing the space that your hip escapes create.",
+        "answer_line": "Frames block opponent closing gap",
+        "distractors": {
+          "plausible": [
+            "Frames create the escape space",
+            "Frames alone push opponent off"
+          ],
+          "trap": [
+            "Skip frames, shrimp first"
+          ]
+        }
       },
       {
         "question": "What is the mechanical reason for recovering the near-side leg before the far-side leg in most guard recovery sequences?",
-        "answer": "The near-side leg requires less distance to travel and less space to recover because it's already closer to the gap between you and your opponent. By recovering it first, you establish an initial guard structure (knee shield or hook) that helps maintain the space you've created, making far-side leg recovery easier. Additionally, the near-side leg can function as a frame itself once recovered, actively preventing opponent pressure while you work to recover the far-side leg. Sequential recovery is more mechanically efficient than trying to recover both legs simultaneously through the same limited space."
+        "answer": "The near-side leg requires less distance to travel and less space to recover because it's already closer to the gap between you and your opponent. By recovering it first, you establish an initial guard structure (knee shield or hook) that helps maintain the space you've created, making far-side leg recovery easier. Additionally, the near-side leg can function as a frame itself once recovered, actively preventing opponent pressure while you work to recover the far-side leg. Sequential recovery is more mechanically efficient than trying to recover both legs simultaneously through the same limited space.",
+        "answer_line": "Near leg travels less distance",
+        "distractors": {
+          "plausible": [
+            "Far leg recovers more easily",
+            "Near leg is your stronger side"
+          ],
+          "trap": [
+            "Recover both legs simultaneously"
+          ]
+        }
       },
       {
         "question": "How should you modify your recovery strategy when your opponent is using heavy forward pressure versus when they're maintaining distance and control?",
-        "answer": "Against heavy forward pressure, use that pressure to facilitate larger hip escapes or granby rolls, essentially using their momentum to help create space. Don't fight force with force through frames; instead, redirect their pressure to create angles. Against opponent maintaining distance and control, focus on breaking their grips and frames that keep you at bay, then aggressively close distance to recover guard structure. The first scenario requires using their energy; the second requires generating your own movement to break their control structure."
+        "answer": "Against heavy forward pressure, use that pressure to facilitate larger hip escapes or granby rolls, essentially using their momentum to help create space. Don't fight force with force through frames; instead, redirect their pressure to create angles. Against opponent maintaining distance and control, focus on breaking their grips and frames that keep you at bay, then aggressively close distance to recover guard structure. The first scenario requires using their energy; the second requires generating your own movement to break their control structure.",
+        "answer_line": "Use their pressure to make space",
+        "distractors": {
+          "plausible": [
+            "Fight pressure with strong frames",
+            "Close distance, then break grips"
+          ],
+          "trap": [
+            "Turn belly-down to relieve pressure"
+          ]
+        }
       },
       {
         "question": "What are the primary indicators that you should abandon full guard recovery and transition to an alternative defensive position like turtle or technical standup?",
-        "answer": "Abandon full guard recovery when: opponent has secured strong crossface and underhook combination that severely limits hip mobility; you've attempted 2-3 recovery sequences without creating sufficient space; opponent has transitioned to controlling your legs directly, making recovery mechanically impossible; or your energy is depleting faster than your opponent's. At these decision points, maintaining fight sustainability through tactical position changes is smarter than exhausting yourself in failed recovery attempts. Transitioning to turtle, technical standup, or accepting half guard allows you to continue defending from structured positions rather than being passed while depleted."
+        "answer": "Abandon full guard recovery when: opponent has secured strong crossface and underhook combination that severely limits hip mobility; you've attempted 2-3 recovery sequences without creating sufficient space; opponent has transitioned to controlling your legs directly, making recovery mechanically impossible; or your energy is depleting faster than your opponent's. At these decision points, maintaining fight sustainability through tactical position changes is smarter than exhausting yourself in failed recovery attempts. Transitioning to turtle, technical standup, or accepting half guard allows you to continue defending from structured positions rather than being passed while depleted.",
+        "answer_line": "2-3 failed tries or losing energy",
+        "distractors": {
+          "plausible": [
+            "Only when totally flattened",
+            "When opponent gets underhook only"
+          ],
+          "trap": [
+            "Keep attempting until guard recovers"
+          ]
+        }
       },
       {
         "question": "Why is maintaining a position on your side rather than flat on your back critical for successful guard recovery from Headquarters?",
-        "answer": "Being on your side provides dramatically superior hip mobility compared to being flat on your back. When you're on your side, your hip can rotate through a much larger range of motion, allowing for more effective and extensive shrimping. Additionally, being on your side makes your frames more structurally sound because they're pushing at better angles relative to your body's core strength. Flat on your back, your frames are weaker, your hips are immobilized, and opponent can settle their weight more effectively. The side position is the foundation for all effective guard recovery mechanics."
+        "answer": "Being on your side provides dramatically superior hip mobility compared to being flat on your back. When you're on your side, your hip can rotate through a much larger range of motion, allowing for more effective and extensive shrimping. Additionally, being on your side makes your frames more structurally sound because they're pushing at better angles relative to your body's core strength. Flat on your back, your frames are weaker, your hips are immobilized, and opponent can settle their weight more effectively. The side position is the foundation for all effective guard recovery mechanics.",
+        "answer_line": "Side position enables hip rotation",
+        "distractors": {
+          "plausible": [
+            "Flat back gives stronger frames",
+            "Either position works equally well"
+          ],
+          "trap": [
+            "Stay flat to protect your back"
+          ]
+        }
       },
       {
         "question": "How does the concept of chaining multiple recovery attempts differ from relying on single perfect technique execution?",
-        "answer": "Chaining multiple attempts acknowledges that against skilled opponents, single-attempt success rates are low, so you must link 2-4 recovery attempts in sequence, using each attempt to create options for the next. If the first shrimp doesn't create enough space, immediately chain into a second shrimp at a different angle. If direct recovery is shut down, chain into deep half entry or granby roll. This approach maintains constant defensive pressure on the opponent, forcing them to defend multiple threats rather than countering one technique and consolidating. Chaining transforms defense from binary success/failure into a sustained defensive system with multiple branches and options."
+        "answer": "Chaining multiple attempts acknowledges that against skilled opponents, single-attempt success rates are low, so you must link 2-4 recovery attempts in sequence, using each attempt to create options for the next. If the first shrimp doesn't create enough space, immediately chain into a second shrimp at a different angle. If direct recovery is shut down, chain into deep half entry or granby roll. This approach maintains constant defensive pressure on the opponent, forcing them to defend multiple threats rather than countering one technique and consolidating. Chaining transforms defense from binary success/failure into a sustained defensive system with multiple branches and options.",
+        "answer_line": "Chain attempts, don't rely on one",
+        "distractors": {
+          "plausible": [
+            "Perfect one technique, repeat it",
+            "Attempt only the first shrimp"
+          ],
+          "trap": [
+            "Commit fully to one big escape"
+          ]
+        }
       },
       {
         "question": "Your opponent posts their hand on your hip to prevent your shrimp - how do you adjust your recovery attempt?",
-        "answer": "When opponent posts on your hip, their weight shifts and their base narrows temporarily. Use this to your advantage by swimming your near-side arm under their posting arm and clearing it while simultaneously executing a smaller, quicker shrimp in the opposite direction from where they expect. Alternatively, attack the posting arm with a two-on-one grip to break the post, or simply shrimp toward the posting side since their hip-side is now less protected. The posting arm creates a predictable anchor point you can work around rather than against."
+        "answer": "When opponent posts on your hip, their weight shifts and their base narrows temporarily. Use this to your advantage by swimming your near-side arm under their posting arm and clearing it while simultaneously executing a smaller, quicker shrimp in the opposite direction from where they expect. Alternatively, attack the posting arm with a two-on-one grip to break the post, or simply shrimp toward the posting side since their hip-side is now less protected. The posting arm creates a predictable anchor point you can work around rather than against.",
+        "answer_line": "Clear the post, shrimp opposite",
+        "distractors": {
+          "plausible": [
+            "Push through their posting arm",
+            "Wait for them to remove the post"
+          ],
+          "trap": [
+            "Shrimp straight into the post"
+          ]
+        }
       },
       {
         "question": "What grip configurations should you prioritize when attempting re-guard from Headquarters?",
-        "answer": "Prioritize frames over grips initially - stiff-arm frames on the hip and shoulder create space without requiring grip strength. Once space is created, secure collar grip with far-side hand to prevent opponent from driving forward, and sleeve or wrist grip with near-side hand to control their ability to post. In no-gi, wrist control on the near arm and underhook or collar tie with far hand serve similar purposes. Avoid death-gripping early as this depletes energy and telegraphs your intentions; frames are structural while grips are for control refinement after space exists."
+        "answer": "Prioritize frames over grips initially - stiff-arm frames on the hip and shoulder create space without requiring grip strength. Once space is created, secure collar grip with far-side hand to prevent opponent from driving forward, and sleeve or wrist grip with near-side hand to control their ability to post. In no-gi, wrist control on the near arm and underhook or collar tie with far hand serve similar purposes. Avoid death-gripping early as this depletes energy and telegraphs your intentions; frames are structural while grips are for control refinement after space exists.",
+        "answer_line": "Frames first, grips after space",
+        "distractors": {
+          "plausible": [
+            "Grip collar before framing hip",
+            "Grab deep grips immediately"
+          ],
+          "trap": [
+            "Death-grip early to control them"
+          ]
+        }
       },
       {
         "question": "If your initial knee recovery is blocked and opponent begins consolidating to side control, what is your emergency recovery sequence?",
-        "answer": "Immediately switch from knee recovery to hip escape in the opposite direction, turning to face them rather than continuing away. If side control consolidation is imminent, accept quarter guard or half guard by hooking their leg with your far-side leg while continuing to frame with your arms. This gives you a structured defensive position rather than being flattened in side control. From half guard, you can work proper escapes with more options than from fully passed position. The key is recognizing the transition moment and accepting the best available fallback rather than fighting for a lost position."
+        "answer": "Immediately switch from knee recovery to hip escape in the opposite direction, turning to face them rather than continuing away. If side control consolidation is imminent, accept quarter guard or half guard by hooking their leg with your far-side leg while continuing to frame with your arms. This gives you a structured defensive position rather than being flattened in side control. From half guard, you can work proper escapes with more options than from fully passed position. The key is recognizing the transition moment and accepting the best available fallback rather than fighting for a lost position.",
+        "answer_line": "Face them, hook leg to half guard",
+        "distractors": {
+          "plausible": [
+            "Keep driving knee to full guard",
+            "Frame and bridge to reset"
+          ],
+          "trap": [
+            "Turn belly-down, escape to knees"
+          ]
+        }
       },
       {
         "question": "What is the optimal timing window for initiating guard recovery from Headquarters position?",
-        "answer": "The optimal window is immediately after your opponent completes their leg clear but before they establish upper body control (crossface, underhook, or chest pressure). This window typically lasts 1-3 seconds. If you wait until they've secured grips and settled weight, recovery success drops dramatically. Watch for the moment they shift weight or attention to secure upper body control - this is when their base is most vulnerable to hip escape. Initiate frames the instant you recognize Headquarters rather than waiting; even if recovery fails, early frames prevent the consolidation that makes later recovery impossible."
+        "answer": "The optimal window is immediately after your opponent completes their leg clear but before they establish upper body control (crossface, underhook, or chest pressure). This window typically lasts 1-3 seconds. If you wait until they've secured grips and settled weight, recovery success drops dramatically. Watch for the moment they shift weight or attention to secure upper body control - this is when their base is most vulnerable to hip escape. Initiate frames the instant you recognize Headquarters rather than waiting; even if recovery fails, early frames prevent the consolidation that makes later recovery impossible.",
+        "answer_line": "Immediately after leg clear, 1-3s",
+        "distractors": {
+          "plausible": [
+            "After they secure upper body",
+            "Once they settle their full weight"
+          ],
+          "trap": [
+            "Wait to see their next move first"
+          ]
+        }
       },
       {
         "question": "How do you read which direction to shrimp when your opponent controls one leg in Headquarters?",
-        "answer": "Shrimp toward the side where your leg is NOT controlled - this leg has freedom to recover first and the angle naturally facilitates knee insertion. If opponent controls your right leg, shrimp left and recover your left knee first. The controlled leg becomes the far-side leg in your recovery sequence. If opponent switches leg control, immediately change your shrimp direction to match. The trapped leg provides information about which recovery path is available; never shrimp toward the controlled leg as this compounds the control rather than escaping it."
+        "answer": "Shrimp toward the side where your leg is NOT controlled - this leg has freedom to recover first and the angle naturally facilitates knee insertion. If opponent controls your right leg, shrimp left and recover your left knee first. The controlled leg becomes the far-side leg in your recovery sequence. If opponent switches leg control, immediately change your shrimp direction to match. The trapped leg provides information about which recovery path is available; never shrimp toward the controlled leg as this compounds the control rather than escaping it.",
+        "answer_line": "Shrimp away from controlled leg",
+        "distractors": {
+          "plausible": [
+            "Shrimp based on your stronger side",
+            "Always shrimp to your right"
+          ],
+          "trap": [
+            "Shrimp toward the controlled leg"
+          ]
+        }
       },
       {
         "question": "Your opponent sprawls their hips back as you attempt to insert your knee shield - what adjustment do you make?",
-        "answer": "When opponent sprawls back, they create distance but also reduce their forward pressure and control. Capitalize by immediately switching from knee shield insertion to butterfly hook insertion, threading your foot under their hips rather than placing shin across their torso. The sprawl creates the space underneath them that butterfly hooks exploit. Alternatively, use their backward movement to sit up toward them and establish a sitting guard position. Their sprawl is defensive against your knee shield but opens other recovery paths; recognize the reaction and select the appropriate counter-recovery."
+        "answer": "When opponent sprawls back, they create distance but also reduce their forward pressure and control. Capitalize by immediately switching from knee shield insertion to butterfly hook insertion, threading your foot under their hips rather than placing shin across their torso. The sprawl creates the space underneath them that butterfly hooks exploit. Alternatively, use their backward movement to sit up toward them and establish a sitting guard position. Their sprawl is defensive against your knee shield but opens other recovery paths; recognize the reaction and select the appropriate counter-recovery.",
+        "answer_line": "Switch to butterfly hook insertion",
+        "distractors": {
+          "plausible": [
+            "Push knee shield in harder",
+            "Wait for them to settle back down"
+          ],
+          "trap": [
+            "Chase their hips with your shin"
+          ]
+        }
       }
     ],
-    "safety_considerations": "Guard recovery from Headquarters is generally a low-risk technique with minimal injury potential when practiced correctly. The primary safety concern is avoiding overexertion during resistance training, particularly in the hip and lower back regions which can be strained by explosive shrimping movements. When drilling, start with slow, controlled movements to build proper motor patterns before adding speed and resistance. Partners should communicate clearly about resistance levels and stop immediately if either person experiences joint discomfort, particularly in the knees during leg recovery movements. Avoid practicing this technique when fatigued to the point where form breaks down, as poor mechanics during explosive hip movements can lead to lower back strain. During training progressions, increase resistance gradually over weeks rather than jumping to full resistance immediately, allowing connective tissues to adapt to the forces involved."
+    "safety_considerations": "Guard recovery from Headquarters is generally a low-risk technique with minimal injury potential when practiced correctly. The primary safety concern is avoiding overexertion during resistance training, particularly in the hip and lower back regions which can be strained by explosive shrimping movements. When drilling, start with slow, controlled movements to build proper motor patterns before adding speed and resistance. Partners should communicate clearly about resistance levels and stop immediately if either person experiences joint discomfort, particularly in the knees during leg recovery movements. Avoid practicing this technique when fatigued to the point where form breaks down, as poor mechanics during explosive hip movements can lead to lower back strain. During training progressions, increase resistance gradually over weeks rather than jumping to full resistance immediately, allowing connective tissues to adapt to the forces involved.",
+    "clips": [
+      {
+        "id": "rP8SOouke1s",
+        "title": "Retention basics: knee-elbow connection, knee cut response",
+        "by": "Cal McDonald",
+        "vertical": false,
+        "channel": "Cal McDonald",
+        "duration": 57,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "lVLAROiSjNU",
+        "title": "Guard retention: when to sit up and escape",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 136,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "ynoR-AtSYUc",
+        "title": "Recovering guard around the legs",
+        "by": "Absolute MMA St Kilda",
+        "vertical": false,
+        "channel": "Absolute MMA St Kilda - Melbourne",
+        "duration": 210,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Re-Guard from Headquarters Defender",
@@ -372,23 +533,73 @@
     "flashcards": [
       {
         "question": "Why should the passer prioritize upper body control over leg control when preventing a re-guard from Headquarters?",
-        "answer": "Upper body control (crossface, underhook, chest pressure) eliminates the hip mobility that powers all leg recovery mechanics. The bottom player's legs can only recover if their hips can generate shrimping movement, and hip movement requires the ability to turn onto their side with shoulder freedom. By controlling the head and shoulders first, you neutralize the engine that drives leg recovery rather than fighting the symptoms. Chasing legs is reactive and disadvantageous because the bottom player has superior leg dexterity from their position."
+        "answer": "Upper body control (crossface, underhook, chest pressure) eliminates the hip mobility that powers all leg recovery mechanics. The bottom player's legs can only recover if their hips can generate shrimping movement, and hip movement requires the ability to turn onto their side with shoulder freedom. By controlling the head and shoulders first, you neutralize the engine that drives leg recovery rather than fighting the symptoms. Chasing legs is reactive and disadvantageous because the bottom player has superior leg dexterity from their position.",
+        "answer_line": "Upper control kills hip mobility",
+        "distractors": {
+          "plausible": [
+            "Leg control stops all movement",
+            "Both matter equally either order"
+          ],
+          "trap": [
+            "Chase and pin both legs first"
+          ]
+        }
       },
       {
         "question": "Your opponent executes a strong hip escape and begins pulling their near-side knee through - what is your highest-percentage response?",
-        "answer": "Rather than trying to push their knee back out, transition immediately into a knee slice pass using their partially recovered knee as the passing lane. Drive your near-side knee through the gap alongside their recovering knee, using their own movement to create the angle for your pass. This converts their defensive action into your offensive opportunity. If you try to simply block the knee, you're fighting their leg strength with your arm strength in a disadvantageous exchange, and they can simply chain into another shrimp angle."
+        "answer": "Rather than trying to push their knee back out, transition immediately into a knee slice pass using their partially recovered knee as the passing lane. Drive your near-side knee through the gap alongside their recovering knee, using their own movement to create the angle for your pass. This converts their defensive action into your offensive opportunity. If you try to simply block the knee, you're fighting their leg strength with your arm strength in a disadvantageous exchange, and they can simply chain into another shrimp angle.",
+        "answer_line": "Knee slice using their knee gap",
+        "distractors": {
+          "plausible": [
+            "Push their knee straight back",
+            "Retreat and reset your base"
+          ],
+          "trap": [
+            "Block the knee with your arm"
+          ]
+        }
       },
       {
         "question": "What is the critical timing window for the passer to consolidate from Headquarters before re-guard becomes likely?",
-        "answer": "The passer has approximately 1-3 seconds after clearing the legs to establish upper body control before the bottom player initiates effective recovery. This window begins when your legs clear their guard structure and ends when they establish their first structural frame on your hip or shoulder. Use this window to immediately drive crossface, secure underhook, and drop chest weight. If you spend this window adjusting grips, repositioning your base, or hesitating on which pass to attempt, the bottom player will establish frames that make consolidation significantly harder."
+        "answer": "The passer has approximately 1-3 seconds after clearing the legs to establish upper body control before the bottom player initiates effective recovery. This window begins when your legs clear their guard structure and ends when they establish their first structural frame on your hip or shoulder. Use this window to immediately drive crossface, secure underhook, and drop chest weight. If you spend this window adjusting grips, repositioning your base, or hesitating on which pass to attempt, the bottom player will establish frames that make consolidation significantly harder.",
+        "answer_line": "1-3 sec after clearing legs",
+        "distractors": {
+          "plausible": [
+            "After you settle base and grips",
+            "Once you choose which pass to run"
+          ],
+          "trap": [
+            "Wait for their frame, then crossface"
+          ]
+        }
       },
       {
         "question": "How do you distinguish between a bottom player committing to a shrimp recovery versus setting up a granby roll?",
-        "answer": "A shrimp recovery shows the bottom player driving their hips linearly away from you while maintaining frames, with their back largely facing the ceiling and feet planting on the mat for push-off power. A granby roll setup shows the bottom player tucking their chin, loading weight onto their shoulder, and curling their hips upward rather than away - the motion is rotational rather than linear. When you detect the rotational setup, immediately sprawl your hips back and downward to remove the space underneath you that the granby needs. Against the linear shrimp, follow forward with your hips to close the distance."
+        "answer": "A shrimp recovery shows the bottom player driving their hips linearly away from you while maintaining frames, with their back largely facing the ceiling and feet planting on the mat for push-off power. A granby roll setup shows the bottom player tucking their chin, loading weight onto their shoulder, and curling their hips upward rather than away - the motion is rotational rather than linear. When you detect the rotational setup, immediately sprawl your hips back and downward to remove the space underneath you that the granby needs. Against the linear shrimp, follow forward with your hips to close the distance.",
+        "answer_line": "Granby curls up; shrimp drives away",
+        "distractors": {
+          "plausible": [
+            "Both look identical, react the same",
+            "Fast movement means granby roll"
+          ],
+          "trap": [
+            "Follow forward against a granby"
+          ]
+        }
       },
       {
         "question": "Your opponent has established a knee shield after partially recovering from Headquarters - what systematic options remain for completing the pass?",
-        "answer": "With a knee shield established, you have three primary options: first, smash pass by collapsing your weight laterally across their knee shield to pin it and walk around to side control; second, backstep over the knee shield to establish reverse headquarters on the opposite side; third, address the knee shield with a knee slice by stapling their bottom leg and sliding your knee through above their shield while maintaining crossface. The worst response is trying to simply push through the knee shield with forward pressure, which reinforces their guard structure. Accept that full open guard recovery was prevented and work the half guard passing game methodically."
+        "answer": "With a knee shield established, you have three primary options: first, smash pass by collapsing your weight laterally across their knee shield to pin it and walk around to side control; second, backstep over the knee shield to establish reverse headquarters on the opposite side; third, address the knee shield with a knee slice by stapling their bottom leg and sliding your knee through above their shield while maintaining crossface. The worst response is trying to simply push through the knee shield with forward pressure, which reinforces their guard structure. Accept that full open guard recovery was prevented and work the half guard passing game methodically.",
+        "answer_line": "Smash, backstep, or knee slice it",
+        "distractors": {
+          "plausible": [
+            "Grip break the knee shield only",
+            "Wait for shield to relax naturally"
+          ],
+          "trap": [
+            "Push straight through with pressure"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -411,6 +622,26 @@
         "phase": "Week 9-12: Full Resistance Passing Chains",
         "focus": "Completing passes against full resistance with integrated systematic passing",
         "description": "Partner uses full-resistance re-guard attempts with their best techniques and variations. You must consolidate to side control or advance to mount within 30 seconds of establishing Headquarters. Practice against different guard recovery styles: aggressive shrimpers, inverters, granby roll specialists, and technical standup players. Develop the ability to read and shut down any recovery pattern while maintaining your systematic passing framework. Target 70%+ consolidation rate against training partners of similar skill."
+      }
+    ],
+    "clips": [
+      {
+        "id": "ACWzSbjbo2g",
+        "title": "Shutting down guard recovery while passing",
+        "by": "Danny Brown",
+        "vertical": false,
+        "channel": "UNC_CynX",
+        "duration": 209,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "VWmjU3Aj_LU",
+        "title": "Setting Up the Guard Pass with a Lateral Step",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "Absolute MMA St Kilda - Melbourne",
+        "duration": 332,
+        "verified": "2026-07-15"
       }
     ]
   },

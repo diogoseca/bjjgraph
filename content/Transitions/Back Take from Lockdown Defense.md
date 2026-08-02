@@ -34,6 +34,54 @@ description: "Master Back Take from Lockdown Defense in BJJ. Counter the Electri
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Back Take from Lockdown Defense \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Lockdown to rolling back take",
+      "description": "Back Take from Lockdown Defense film study: Lockdown to rolling back take, taught by UFAI Grappling.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/gLcZH8HPJEA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/gLcZH8HPJEA",
+      "url": "https://www.youtube.com/watch?v=gLcZH8HPJEA",
+      "creator": { "@type": "Person", "name": "UFAI Grappling" },
+      "duration": "PT43S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Understanding the lockdown",
+      "description": "Back Take from Lockdown Defense film study: Understanding the lockdown, taught by Brandon McCaghren.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Y0D5lpXsf1U/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Y0D5lpXsf1U",
+      "url": "https://www.youtube.com/watch?v=Y0D5lpXsf1U",
+      "creator": { "@type": "Person", "name": "Brandon McCaghren" },
+      "duration": "PT503S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Lockdown clinches",
+      "description": "Back Take from Lockdown Defense film study: Lockdown clinches, taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/OIr4wDxl-Ys/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/OIr4wDxl-Ys",
+      "url": "https://www.youtube.com/watch?v=OIr4wDxl-Ys",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT60S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ From a tactical perspective, this technique punishes overly aggressive lockdown 
 **Success Rate**: 58%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Back Take from Lockdown Defense in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=gLcZH8HPJEA)
+
+<p class="clip-credit"><strong>Lockdown to rolling back take</strong> — taught by UFAI Grappling · 0:43 · <a href="https://www.youtube.com/watch?v=gLcZH8HPJEA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Y0D5lpXsf1U)
+
+<p class="clip-credit"><strong>Understanding the lockdown</strong> — taught by Brandon McCaghren · 8:23 · <a href="https://www.youtube.com/watch?v=Y0D5lpXsf1U" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=OIr4wDxl-Ys)
+
+<p class="clip-credit"><strong>Lockdown clinches</strong> — taught by Eddie Bravo · 1:00 · <a href="https://www.youtube.com/watch?v=OIr4wDxl-Ys" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

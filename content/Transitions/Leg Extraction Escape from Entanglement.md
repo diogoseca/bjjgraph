@@ -34,6 +34,54 @@ description: "Master the Leg Extraction Escape from leg entanglements in BJJ. St
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Leg Extraction Escape from Entanglement \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Roll through leg lock escape",
+      "description": "Leg Extraction Escape from Entanglement film study: Roll through leg lock escape, taught by Gordon Ryan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/MqtG9kuVt-Q/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/MqtG9kuVt-Q",
+      "url": "https://www.youtube.com/watch?v=MqtG9kuVt-Q",
+      "creator": { "@type": "Person", "name": "Gordon Ryan" },
+      "duration": "PT103S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Escaping ashi garami leg entanglements",
+      "description": "Leg Extraction Escape from Entanglement film study: Escaping ashi garami leg entanglements, taught by Scott Elliott.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/AQbJMBiWYfU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/AQbJMBiWYfU",
+      "url": "https://www.youtube.com/watch?v=AQbJMBiWYfU",
+      "creator": { "@type": "Person", "name": "Scott Elliott" },
+      "duration": "PT141S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Protecting the leg to escape 50/50",
+      "description": "Leg Extraction Escape from Entanglement film study: Protecting the leg to escape 50/50, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/R7lPdQWLOus/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/R7lPdQWLOus",
+      "url": "https://www.youtube.com/watch?v=R7lPdQWLOus",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT161S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -66,9 +114,45 @@ The technique operates on a simple biomechanical principle: leg entanglements re
 Strategically, leg extraction escape represents the most energy-efficient defensive option from leg entanglements when the opponent has not yet advanced deep into the positional hierarchy. Compared to inversions, which require significant athletic ability and carry rotational injury risk, or boot scoot escapes that demand sustained hip movement, leg extraction relies primarily on precise hand fighting and mechanical clearing that any body type can execute. The key timing window occurs before the opponent consolidates tight hip-to-hip pressure and secures a finishing grip on the heel. Once those two conditions are met, alternative escape methods become necessary, making early recognition and immediate action critical to this escape's success.
 
 **From Position**: [[Positions/Leg Entanglement]] (Bottom)
-**Success Rate**: 45%
+**Success Rate**: 44%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Leg Extraction Escape from Entanglement in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=MqtG9kuVt-Q)
+
+<p class="clip-credit"><strong>Roll through leg lock escape</strong> — taught by Gordon Ryan · 1:43 · <a href="https://www.youtube.com/watch?v=MqtG9kuVt-Q" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=AQbJMBiWYfU)
+
+<p class="clip-credit"><strong>Escaping ashi garami leg entanglements</strong> — taught by Scott Elliott · 2:21 · <a href="https://www.youtube.com/watch?v=AQbJMBiWYfU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=R7lPdQWLOus)
+
+<p class="clip-credit"><strong>Protecting the leg to escape 50/50</strong> — taught by Lachlan Giles · 2:41 · <a href="https://www.youtube.com/watch?v=R7lPdQWLOus" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

@@ -17,7 +17,10 @@
   "target_area": "Knee joint (posterior cruciate ligament, medial collateral ligament, lateral collateral ligament)",
   "starting_position": "Backside 50-50",
   "from_position": "Backside 50-50/Top",
-  "success_rate": 52,
+  "success_rate": {
+    "gi": 52,
+    "nogi": 52
+  },
   "overview": "The kneebar from Backside 50-50 exploits the dominant top player's positional advantages in one of modern grappling's most powerful leg entanglement configurations. From Backside 50-50 top, the attacker has chest-to-back pressure, superior visibility of the opponent's legs, and pre-existing leg control through the mirrored entanglement. The kneebar becomes available when the bottom player extends their trapped leg during escape attempts or when the attacker transitions from a defended heel hook threat.\n\nUnlike kneebars from open guard positions, the Backside 50-50 entry benefits from the opponent's severely limited defensive options. The bottom player faces away from the attacker and cannot see the attack developing, their hip mobility is restricted by top pressure, and their legs are already partially isolated within the entanglement structure. The attacker pivots from standard chest-to-back control to a perpendicular finishing angle while maintaining the existing leg control framework.\n\nThis technique functions as a critical secondary attack within the Backside 50-50 offensive system. When opponents successfully hide their heel to defend against heel hooks and outside heel hooks, the kneebar punishes their defensive posture by attacking the knee joint through hyperextension. The ability to chain between heel attacks and kneebar creates an unsolvable offensive dilemma that defines high-level leg lock competition.",
   "safety_considerations": {
     "injury_risks": [
@@ -74,17 +77,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Backside 50-50/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Top",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "counter"
     }
   ],
@@ -312,52 +324,172 @@
       {
         "question": "What anatomical structures does the kneebar from Backside 50-50 primarily attack, and what is the mechanism of injury?",
         "answer": "The kneebar primarily attacks the posterior cruciate ligament (PCL) through hyperextension of the knee joint. The mechanism involves positioning your lower abdomen or hip flexors as a fulcrum point just above the opponent's kneecap, then extending your hips upward to create a lever that forces the knee beyond its natural range of extension. Secondary structures at risk include the medial and lateral collateral ligaments, which resist valgus and varus stress respectively, and the menisci, which can tear under compressive or rotational forces if the heel is not properly controlled during application.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "PCL via hip-driven hyperextension",
+        "distractors": {
+          "plausible": [
+            "ACL via rotational torque",
+            "MCL via lateral knee pressure"
+          ],
+          "trap": [
+            "Achilles tendon via ankle bend"
+          ]
+        }
       },
       {
         "question": "Why is the kneebar from Backside 50-50 considered higher percentage than kneebar entries from open guard positions?",
         "answer": "The Backside 50-50 entry provides three inherent advantages that open guard entries lack. First, the opponent faces away from you and cannot see the attack developing, eliminating their visual reaction time. Second, your chest-to-back pressure restricts their hip mobility, reducing their ability to pivot, frame, or create escape angles. Third, their legs are already partially isolated within the existing 50-50 entanglement structure, meaning you start with significant control rather than building it from scratch. These combined advantages dramatically narrow the defensive window available to the bottom player.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Blindside, hip pin, legs isolated",
+        "distractors": {
+          "plausible": [
+            "Chest pressure alone controls all",
+            "Kneebar entry is always faster"
+          ],
+          "trap": [
+            "Bigger leverage from athleticism"
+          ]
+        }
       },
       {
         "question": "What are the three simultaneous control points that indicate the point of no escape for the defender?",
         "answer": "The point of no escape occurs when you have achieved three simultaneous conditions: a fully perpendicular hip angle with your abdomen positioned as a fulcrum directly above the opponent's kneecap, a locked figure-four leg triangle preventing any possibility of leg extraction, and tight heel control with the opponent's heel pulled flush against your chest eliminating all space. Once all three elements are secured and hip extension begins, the mechanical advantage is overwhelming. Prior to achieving all three, various escapes remain viable including sitting up, grip fighting, rotating the trapped leg, or stepping the free leg over your head.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "90°, triangle locked, heel tight",
+        "distractors": {
+          "plausible": [
+            "Just heel control is enough",
+            "Any leg triangle stops escape"
+          ],
+          "trap": [
+            "Sit back and wait for tap"
+          ]
+        }
       },
       {
         "question": "Why must you apply kneebar finishing pressure progressively over 5-7 seconds rather than explosively in training?",
         "answer": "The knee joint has minimal tolerance for hyperextension, and the transition from controlled pressure to catastrophic ligament damage occurs far more rapidly than with most other submissions. Explosive application can cause immediate PCL tears, MCL ruptures, and meniscus damage before the training partner has any opportunity to recognize the danger and tap. Unlike chokes where unconsciousness provides a gradual warning, knee hyperextension produces structural failure with almost no buffer zone between safe pressure and injury. Progressive application over 5-7 seconds allows your partner to feel the increasing danger and tap safely.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Knee has near-zero injury buffer",
+        "distractors": {
+          "plausible": [
+            "Slow finishes look more skilled",
+            "It conserves your grip strength"
+          ],
+          "trap": [
+            "Snap it fast before they escape"
+          ]
+        }
       },
       {
         "question": "Your opponent starts hiding their heel to defend your heel hook from Backside 50-50 - how does this create the kneebar opportunity?",
         "answer": "When the opponent hides their heel by turning the knee inward and pulling their toes toward their shin, their defensive posture straightens and exposes the knee joint to hyperextension attack. The act of hiding the heel often requires extending the leg slightly, creating the exact alignment needed for a kneebar. You exploit this by releasing the heel hook grip, immediately securing the ankle area for kneebar control, and pivoting your hips perpendicular. The opponent cannot simultaneously hide their heel from heel hook and bend their knee to defend the kneebar, creating an unsolvable dilemma.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Hiding heel straightens the knee",
+        "distractors": {
+          "plausible": [
+            "Opponent tires from defending",
+            "They lose grip strength fast"
+          ],
+          "trap": [
+            "Chase the heel hook harder"
+          ]
+        }
       },
       {
         "question": "What grip adjustments must you make if the opponent's heel begins to rotate during kneebar finishing pressure?",
         "answer": "If the heel begins rotating, immediately stop all finishing pressure. Heel rotation during hyperextension adds rotational torque to the knee in a plane it cannot safely absorb, creating compound loading that can cause ACL tears in addition to the PCL stress from hyperextension. Reinforce your grip by bringing both elbows tight to your body, cup the heel with overlapping hands in a reinforced prayer grip, and pull the heel deeper into your armpit area for greater rotational stability. Angle their toes directly away from you and use your forearms as a rigid cage preventing any rotation before cautiously resuming progressive pressure.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Stop, reinforce grip, kill rotation",
+        "distractors": {
+          "plausible": [
+            "Switch to a straight ankle lock",
+            "Let go and reset the entry"
+          ],
+          "trap": [
+            "Crank harder to stop the spin"
+          ]
+        }
       },
       {
         "question": "What is the correct power source for the kneebar finish, and what common mistake reduces finishing effectiveness?",
         "answer": "The correct power source is hip extension through glute engagement - a controlled hip thrust driving your hips upward toward the ceiling while keeping your core braced. The common mistake is arching the lower back to generate pressure, which produces minimal force against the opponent's knee because the lever arm is inefficient, and simultaneously creates risk of lumbar strain to yourself. Hip extension engages the largest muscle group in the body and creates a direct force vector against the knee joint. The motion should feel identical to a barbell hip thrust: glutes and core engaged, hips driving upward, spine neutral.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Hip extension through glutes",
+        "distractors": {
+          "plausible": [
+            "Pull with the arms and back",
+            "Squeeze the legs together hard"
+          ],
+          "trap": [
+            "Arch the lower back for power"
+          ]
+        }
       },
       {
         "question": "Your opponent begins posturing up by pushing against your free leg frame - what adjustment secures the position?",
         "answer": "When the opponent pushes against your free leg frame attempting to sit up, immediately increase the pushing pressure with that leg while simultaneously tightening the figure-four leg triangle squeeze and scooting your hips further away from their body. If they continue generating upward force, angle your free leg foot toward their far shoulder to redirect their posture sideways rather than straight up. Simultaneously accelerate the finishing pressure through hip extension. If they break through the frame entirely and achieve upright posture, immediately transition back to Backside 50-50 control or threaten a sweep rather than forcing a compromised finish.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Push harder, tighten, scoot back",
+        "distractors": {
+          "plausible": [
+            "Sit up to chase a heel hook",
+            "Let them posture, reset position"
+          ],
+          "trap": [
+            "Drop the frame and re-triangle"
+          ]
+        }
       },
       {
         "question": "How do you recognize when the kneebar position quality is insufficient for a safe finish?",
         "answer": "Position quality is insufficient when any of these indicators are present: your hips are not fully perpendicular creating an acute angle rather than a right angle with the opponent's leg, space exists between their heel and your chest allowing potential extraction, your figure-four leg triangle is loose or the opponent's thigh is not fully trapped, the opponent has defensive grips on their own leg that you cannot break, or the opponent has stepped their free leg over your head establishing a defensive hook. Forcing the finish under any of these conditions risks both escape and potential injury from improper mechanics. Return to Backside 50-50 control and re-attack with better positioning.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Loose angle, gap, or loose triangle",
+        "distractors": {
+          "plausible": [
+            "Any heel contact means it's locked",
+            "Perpendicular hips alone is enough"
+          ],
+          "trap": [
+            "Finish now, adjust while cranking"
+          ]
+        }
       },
       {
         "question": "What competition strategy maximizes the kneebar's effectiveness within the Backside 50-50 offensive system?",
         "answer": "The kneebar functions as the second threat in a two-pronged attack system. Begin by threatening heel hooks as your primary attack, forcing the opponent to commit defensive resources to hiding their heel. Once they establish heel-hiding defense, immediately transition to the kneebar to punish the defensive posture. If they then defend the kneebar by grabbing their leg, their heel becomes exposed again for heel hook re-attack. This chain creates a binary dilemma where defending one attack opens the other. In competition, vary which attack you lead with to prevent the opponent from establishing a predictable defensive rhythm. The threat of both attacks makes each individual attack more dangerous.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Threaten heel hook, then kneebar",
+        "distractors": {
+          "plausible": [
+            "Attack kneebar first, every time",
+            "Only chain when they grip fight"
+          ],
+          "trap": [
+            "Commit fully to one attack only"
+          ]
+        }
+      }
+    ],
+    "clips": [
+      {
+        "id": "v4lhLkKgVvU",
+        "title": "Go Behind Kneebar",
+        "by": "Craig Jones",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 129,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "DBbSqQf6iCo",
+        "title": "Roll Under to Backside 50/50",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "BJJ focus camps",
+        "duration": 110,
+        "verified": "2026-07-14"
       }
     ]
   },
@@ -447,27 +579,77 @@
       {
         "question": "Why is it critical to tap immediately when kneebar finishing pressure begins rather than attempting a late escape?",
         "answer": "The knee joint has minimal tolerance for hyperextension, and the transition from controlled pressure to catastrophic ligament damage occurs in less than one second. Unlike chokes where unconsciousness provides gradual warning, knee hyperextension produces structural failure with almost no buffer zone between safe pressure and injury. Attempting explosive escapes under finishing pressure adds dangerous rotational forces that compound the injury risk by loading the ACL in addition to the PCL. A controlled tap preserves all ligaments; a late escape attempt risks 6-12 months of surgical recovery and potential permanent instability.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Injury window is under one second",
+        "distractors": {
+          "plausible": [
+            "Sharp pain warns you in time",
+            "Ligaments stretch before tearing"
+          ],
+          "trap": [
+            "Explosively spin out immediately"
+          ]
+        }
       },
       {
         "question": "What is the earliest recognition cue that your opponent is transitioning from standard Backside 50-50 control to a kneebar attack?",
         "answer": "The earliest cue is feeling the attacker secure a two-handed grip on your heel or ankle area while their chest-to-back pressure begins to release. This combination signals they are preparing to pivot perpendicular for the kneebar rather than maintaining standard Backside 50-50 control or attacking a heel hook. Your immediate response must be to sit up or turn to face them in the 1-2 second transition window before the perpendicular angle is established. Acting in this window gives you the highest probability of disrupting the attack entirely.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Two-hand heel grip, pressure eases",
+        "distractors": {
+          "plausible": [
+            "Sudden hip switch to the side",
+            "They grab your far collar"
+          ],
+          "trap": [
+            "Wait for the perpendicular angle"
+          ]
+        }
       },
       {
         "question": "Why should you move toward the attacker rather than pulling away when defending the kneebar?",
         "answer": "The kneebar's mechanical leverage requires distance between the attacker's hips (the fulcrum above your kneecap) and your heel (the lever arm pulled to their chest). Pulling away increases this distance and strengthens the submission by driving your heel deeper into their control and creating a longer hyperextension lever. Moving toward the attacker collapses this distance, reducing or eliminating the lever arm. Sitting up also allows you to reach their hands for grip fighting to strip heel control, and bending your knee while driving forward is biomechanically resistant to hyperextension.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Closing distance kills the lever",
+        "distractors": {
+          "plausible": [
+            "Rolling out breaks their grip",
+            "Framing their hip stops the finish"
+          ],
+          "trap": [
+            "Pull back hard to rip free"
+          ]
+        }
       },
       {
         "question": "Your opponent has achieved the perpendicular angle but has not locked the figure-four leg triangle - what specific actions should you take?",
         "answer": "Immediately grab your own knee or shin with BOTH hands using a gable grip for maximum security. Pull your trapped leg tight to your chest to prevent the attacker from threading their inside leg across your thigh. Simultaneously begin sitting up by driving your hips forward and lifting your chest. Use your free leg to step toward the attacker's head, looking for the opportunity to step over and establish a defensive hook behind their shoulder. This combined defense of grip protection and posture recovery attacks two elements the attacker needs simultaneously. Every second of delay in this window makes the leg triangle lock more likely.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Gable grip knee, sit up, step over",
+        "distractors": {
+          "plausible": [
+            "Push hips back and stall",
+            "Grab their belt to reverse"
+          ],
+          "trap": [
+            "Relax the leg and wait"
+          ]
+        }
       },
       {
         "question": "Why is explosive rotational escape the most dangerous defensive error when kneebar finishing pressure is being applied?",
         "answer": "Explosive rotation while the knee is under hyperextension pressure adds torque to the joint in a plane it cannot safely absorb. The knee moves primarily in flexion and extension; adding rotational force under hyperextension load attacks the anterior cruciate ligament in addition to the posterior cruciate ligament already under stress. This compound loading mechanism can cause simultaneous multi-ligament injury, which is catastrophically worse than a single-ligament tear. Multi-ligament knee injuries often require multiple surgeries, 12+ months of rehabilitation, and may result in permanent joint instability. A clean tap preserves all ligaments intact.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Rotation loads the ACL too",
+        "distractors": {
+          "plausible": [
+            "It tears the meniscus cartilage",
+            "It pops the kneecap loose"
+          ],
+          "trap": [
+            "Twist hard and spin free"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -490,6 +672,26 @@
         "phase": "Phase 4: Live Defensive Integration",
         "focus": "Defending kneebar threats within live Backside 50-50 bottom scenarios",
         "description": "Positional sparring rounds starting from Backside 50-50 bottom while your partner attacks with heel hooks and kneebars at progressive intensity. Integrate recognition, transition window exploitation, grip defense, and escape sequences into live rolling. Track which defensive responses work at each stage of the kneebar entry and develop your personal defensive hierarchy based on your reaction time and flexibility."
+      }
+    ],
+    "clips": [
+      {
+        "id": "wBRG0fY94fs",
+        "title": "How to Defend a Kneebar",
+        "by": "Revolution BJJ",
+        "vertical": false,
+        "channel": "Revolution BJJ",
+        "duration": 59,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "4V3sDIXGfJs",
+        "title": "Backside 50/50 Counter to the Back",
+        "by": "Thunderdome BJJ",
+        "vertical": false,
+        "channel": "Thunderdome BJJ",
+        "duration": 24,
+        "verified": "2026-07-14"
       }
     ]
   }

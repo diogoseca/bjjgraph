@@ -34,6 +34,54 @@ description: "Master the inside heel hook from ushiro ashi-garami with detailed 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Inside Heel Hook from Ushiro Ashi-Garami \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Inside Heel Hook",
+      "description": "Inside Heel Hook from Ushiro Ashi-Garami film study: Inside Heel Hook, taught by Craig Jones.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/rjMVCd6n1TA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/rjMVCd6n1TA",
+      "url": "https://www.youtube.com/watch?v=rjMVCd6n1TA",
+      "creator": { "@type": "Person", "name": "Craig Jones" },
+      "duration": "PT61S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Heel Hook Breaking Mechanics",
+      "description": "Inside Heel Hook from Ushiro Ashi-Garami film study: Heel Hook Breaking Mechanics, taught by Craig Jones.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/6gu-n4P9JXo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/6gu-n4P9JXo",
+      "url": "https://www.youtube.com/watch?v=6gu-n4P9JXo",
+      "creator": { "@type": "Person", "name": "Craig Jones" },
+      "duration": "PT77S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Arm Saddle to Inside Heel Hook Drill",
+      "description": "Inside Heel Hook from Ushiro Ashi-Garami film study: Arm Saddle to Inside Heel Hook Drill, taught by Factory Fresh Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/QfNKQzy3V_w/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/QfNKQzy3V_w",
+      "url": "https://www.youtube.com/watch?v=QfNKQzy3V_w",
+      "creator": { "@type": "Person", "name": "Factory Fresh Jiu Jitsu" },
+      "duration": "PT21S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -78,6 +126,42 @@ Strategically, this submission serves as a high-percentage finishing option that
 **Starting Position**: [[Positions/Ashi Garami/Ushiro Ashi-Garami]] · **From**: [[Positions/Ashi Garami/Ushiro Ashi-Garami]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Inside Heel Hook from Ushiro Ashi-Garami in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=rjMVCd6n1TA)
+
+<p class="clip-credit"><strong>Inside Heel Hook</strong> — taught by Craig Jones · 1:01 · <a href="https://www.youtube.com/watch?v=rjMVCd6n1TA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=6gu-n4P9JXo)
+
+<p class="clip-credit"><strong>Heel Hook Breaking Mechanics</strong> — taught by Craig Jones · 1:17 · <a href="https://www.youtube.com/watch?v=6gu-n4P9JXo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=QfNKQzy3V_w)
+
+<p class="clip-credit"><strong>Arm Saddle to Inside Heel Hook Drill</strong> — taught by Factory Fresh Jiu Jitsu · 0:21 · <a href="https://www.youtube.com/watch?v=QfNKQzy3V_w" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="outcomes" class="content-section">
 
@@ -241,7 +325,7 @@ Strategically, this submission serves as a high-percentage finishing option that
 
 ## Related
 - [[Submissions/Inside Heel Hook]]
-- [[Transitions/Heel Hook]]
+- [[Submissions/Heel Hook]]
 - [[Submissions/Achilles Lock]]
 - [[Transitions/Aoki Lock]]
 - [[Positions/Ashi Garami/Ushiro Ashi-Garami]] - Primary starting position for this submission variant

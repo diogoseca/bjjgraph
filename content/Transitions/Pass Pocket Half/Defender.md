@@ -148,6 +148,43 @@ description: "Defend against the Pocket Half Guard pass in BJJ. Recognition cues
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Pass Pocket Half (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "No-gi half guard sweep from the bottom",
+      "description": "Pass Pocket Half (Defender) film study: No-gi half guard sweep from the bottom, taught by Precision Martial Arts.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/W80zSgyOIuQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/W80zSgyOIuQ",
+      "url": "https://www.youtube.com/watch?v=W80zSgyOIuQ",
+      "creator": { "@type": "Person", "name": "Precision Martial Arts" },
+      "duration": "PT46S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Back pocket sweep from half guard",
+      "description": "Pass Pocket Half (Defender) film study: Back pocket sweep from half guard, taught by Animal.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/fCqC2CvOKt0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/fCqC2CvOKt0",
+      "url": "https://www.youtube.com/watch?v=fCqC2CvOKt0",
+      "creator": { "@type": "Person", "name": "Animal" },
+      "duration": "PT51S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +194,34 @@ Defending the Pocket Half Guard pass requires early recognition and proactive di
 **Opponent's Starting Position**: [[Positions/Half Guard/Pocket Half Guard]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Pass Pocket Half (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=W80zSgyOIuQ)
+
+<p class="clip-credit"><strong>No-gi half guard sweep from the bottom</strong> — taught by Precision Martial Arts · 0:46 · <a href="https://www.youtube.com/watch?v=W80zSgyOIuQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=fCqC2CvOKt0)
+
+<p class="clip-credit"><strong>Back pocket sweep from half guard</strong> — taught by Animal · 0:51 · <a href="https://www.youtube.com/watch?v=fCqC2CvOKt0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

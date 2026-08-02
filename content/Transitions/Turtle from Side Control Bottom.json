@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Turtle/Bottom",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Side Control/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Back Control/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "The turtle turn from side control bottom is one of the most fundamental escape pathways in Brazilian Jiu-Jitsu. When trapped under heavy side control pressure, turning to turtle provides a viable positional improvement that creates immediate opportunities for guard recovery, technical stand-ups, and scrambles. While turtle carries inherent risk from back exposure, it represents a significant upgrade from the flat, pinned state of side control bottom where submission threats are constant and movement options are severely limited.\n\nThe mechanics of this transition rely on creating sufficient space through bridging and framing to initiate the turning motion, then executing a controlled turn to hands and knees while maintaining a tight defensive shell. The critical detail separating successful turtle turns from failed attempts is the elbow-to-knee connection during the turn, which prevents the opponent from inserting hooks or establishing back control during the vulnerable transition window. Timing is equally important: attempting the turn when the opponent has settled heavy pressure with a strong crossface will fail, but executing it during their weight shifts or submission setups exploits the momentary gap in their control.\n\nThis transition occupies a key strategic role in the escape hierarchy. When traditional hip escape and guard recovery pathways are blocked by tight crossface pressure or aggressive hip control, the turtle turn uses fundamentally different rotational mechanics to create a new escape vector. Advanced practitioners use this as part of a layered escape system, threatening guard recovery to draw reactions that open the turtle turn, and vice versa. The turtle turn is not an endpoint but a waypoint, and its value depends entirely on the practitioner's ability to immediately chain into subsequent escape sequences from the turtle position.",
   "conditions": [
     "Opponent's weight is not fully committed to pinning your hips, allowing initial hip movement for the turn",
@@ -238,46 +250,175 @@
     "flashcards": [
       {
         "question": "What is the most critical body connection to maintain during the turning motion and why?",
-        "answer": "The elbow-to-knee connection on the near side is the most critical body structure during the turn. This connection creates a sealed defensive shell that prevents the opponent from inserting underhooks, hooks, or reaching your neck as you rotate from your back to your hands and knees. Without this connection, the gap between your upper and lower body becomes an entry point for back control establishment, making the turn counterproductive."
+        "answer": "The elbow-to-knee connection on the near side is the most critical body structure during the turn. This connection creates a sealed defensive shell that prevents the opponent from inserting underhooks, hooks, or reaching your neck as you rotate from your back to your hands and knees. Without this connection, the gap between your upper and lower body becomes an entry point for back control establishment, making the turn counterproductive.",
+        "answer_line": "Near-side elbow glued to knee",
+        "distractors": {
+          "plausible": [
+            "Both hands gripping their collar",
+            "Flat back pressed to the mat"
+          ],
+          "trap": [
+            "Reach far arm across their body"
+          ]
+        }
       },
       {
         "question": "When is the optimal timing window to initiate the turtle turn from side control bottom?",
-        "answer": "The optimal timing window occurs when the opponent shifts their weight during transitions or submission setups. Specifically, when they lift their hips to attempt an americana, adjust for a kimura, or shift weight toward your head for a north-south transition. These moments create momentary gaps in hip pressure that allow the turning motion to succeed. Attempting the turn against settled, heavy side control pressure has a significantly lower success rate."
+        "answer": "The optimal timing window occurs when the opponent shifts their weight during transitions or submission setups. Specifically, when they lift their hips to attempt an americana, adjust for a kimura, or shift weight toward your head for a north-south transition. These moments create momentary gaps in hip pressure that allow the turning motion to succeed. Attempting the turn against settled, heavy side control pressure has a significantly lower success rate.",
+        "answer_line": "When their hips lift or shift",
+        "distractors": {
+          "plausible": [
+            "As soon as they land in side control",
+            "When their crossface is heaviest"
+          ],
+          "trap": [
+            "Roll away while they sit heavy"
+          ]
+        }
       },
       {
         "question": "Your opponent blocks your turn by driving a heavy crossface - how do you adjust your escape strategy?",
-        "answer": "When the crossface blocks the turn, switch strategies rather than fighting through it. Options include using a stronger bridge combined with far-side underhook to create more space, switching to a hip escape toward the opponent instead of away, or threatening a guard recovery with your far-side leg to force the opponent to address a different threat. This may lighten the crossface pressure enough for a subsequent turn attempt from a different angle."
+        "answer": "When the crossface blocks the turn, switch strategies rather than fighting through it. Options include using a stronger bridge combined with far-side underhook to create more space, switching to a hip escape toward the opponent instead of away, or threatening a guard recovery with your far-side leg to force the opponent to address a different threat. This may lighten the crossface pressure enough for a subsequent turn attempt from a different angle.",
+        "answer_line": "Bridge hard, win far underhook",
+        "distractors": {
+          "plausible": [
+            "Shrimp away from their chest",
+            "Grab their belt and pull down"
+          ],
+          "trap": [
+            "Turn away and give up your back"
+          ]
+        }
       },
       {
         "question": "What frame must be established before initiating the turn and where should it be positioned?",
-        "answer": "The near-side forearm frame against the opponent's hip crease or across their shoulder is the essential pre-turn structure. This frame creates the initial separation between your body and the opponent's, preventing them from simply following your rotation with their chest pressure. The far-side arm should simultaneously control the opponent's upper body through collar grip, underhook, or wrist control to manage their positioning throughout the turn."
+        "answer": "The near-side forearm frame against the opponent's hip crease or across their shoulder is the essential pre-turn structure. This frame creates the initial separation between your body and the opponent's, preventing them from simply following your rotation with their chest pressure. The far-side arm should simultaneously control the opponent's upper body through collar grip, underhook, or wrist control to manage their positioning throughout the turn.",
+        "answer_line": "Near forearm on hip or shoulder",
+        "distractors": {
+          "plausible": [
+            "Far-side forearm on the hip",
+            "Near-side collar grip control"
+          ],
+          "trap": [
+            "Push off their far knee"
+          ]
+        }
       },
       {
         "question": "Why is remaining static in turtle position dangerous after completing the turn?",
-        "answer": "Static turtle is dangerous because it gives the opponent unlimited time to systematically establish back control through seatbelt grip, hook insertion, and harness control. The opponent transitions from side control top to turtle top, where they have multiple high-percentage attack pathways including back takes, front headlock submissions, and crucifix entries. The turtle should be treated as a momentary waypoint with immediate continuation to guard recovery or standing."
+        "answer": "Static turtle is dangerous because it gives the opponent unlimited time to systematically establish back control through seatbelt grip, hook insertion, and harness control. The opponent transitions from side control top to turtle top, where they have multiple high-percentage attack pathways including back takes, front headlock submissions, and crucifix entries. The turtle should be treated as a momentary waypoint with immediate continuation to guard recovery or standing.",
+        "answer_line": "They set seatbelt and hooks",
+        "distractors": {
+          "plausible": [
+            "Your frames slowly tire out",
+            "It lets them recover their grips"
+          ],
+          "trap": [
+            "Stay put and catch your breath"
+          ]
+        }
       },
       {
         "question": "Your opponent begins inserting a hook as you complete the turn to turtle - what is your immediate response?",
-        "answer": "Immediately kick your leg back and away from the hooking foot while simultaneously initiating a sit-through to the opposite side. Do not allow the hook to settle because the window for defending a single hook is small. If the hook sets before you can clear it, shift your defensive priority to preventing the second hook and the seatbelt grip while working a sit-through or granby roll escape. Speed of response is critical during this transition moment."
+        "answer": "Immediately kick your leg back and away from the hooking foot while simultaneously initiating a sit-through to the opposite side. Do not allow the hook to settle because the window for defending a single hook is small. If the hook sets before you can clear it, shift your defensive priority to preventing the second hook and the seatbelt grip while working a sit-through or granby roll escape. Speed of response is critical during this transition moment.",
+        "answer_line": "Kick hook leg, sit through",
+        "distractors": {
+          "plausible": [
+            "Reach back to strip the hook",
+            "Stay tucked, block with hips"
+          ],
+          "trap": [
+            "Let the hook set, then escape"
+          ]
+        }
       },
       {
         "question": "What determines whether you should attempt the turtle turn versus a standard hip escape to guard?",
-        "answer": "The determining factor is the opponent's control configuration. The turtle turn is preferred when the opponent has a very tight crossface that prevents hip escape toward them, when their weight is distributed more toward your upper body leaving hip space, or when standard guard recovery has been repeatedly blocked. Hip escape to guard is preferred when the crossface is loose, when there is space to insert a knee between your bodies, or when the opponent's weight is centered on your hips rather than your torso."
+        "answer": "The determining factor is the opponent's control configuration. The turtle turn is preferred when the opponent has a very tight crossface that prevents hip escape toward them, when their weight is distributed more toward your upper body leaving hip space, or when standard guard recovery has been repeatedly blocked. Hip escape to guard is preferred when the crossface is loose, when there is space to insert a knee between your bodies, or when the opponent's weight is centered on your hips rather than your torso.",
+        "answer_line": "Their crossface and weight bias",
+        "distractors": {
+          "plausible": [
+            "Your energy level at the moment",
+            "Which arm they trapped first"
+          ],
+          "trap": [
+            "Shrimp away under a tight crossface"
+          ]
+        }
       },
       {
         "question": "What is the proper chin position throughout the turning sequence and why is it critical?",
-        "answer": "The chin must remain tucked tightly to your chest throughout the entire turning sequence. This protects against front headlock attacks including guillotines, darces, and anacondas that become available when your neck is exposed during the rotation. The tucked chin also facilitates the rounded back position needed for a tight defensive turtle structure. Lifting the chin even briefly during the turn creates a submission opportunity that skilled opponents will exploit immediately."
+        "answer": "The chin must remain tucked tightly to your chest throughout the entire turning sequence. This protects against front headlock attacks including guillotines, darces, and anacondas that become available when your neck is exposed during the rotation. The tucked chin also facilitates the rounded back position needed for a tight defensive turtle structure. Lifting the chin even briefly during the turn creates a submission opportunity that skilled opponents will exploit immediately.",
+        "answer_line": "Chin tucked stops guillotines",
+        "distractors": {
+          "plausible": [
+            "Head turned away from them",
+            "Jaw relaxed, eyes on the ceiling"
+          ],
+          "trap": [
+            "Lift chin to spot their base"
+          ]
+        }
       },
       {
         "question": "How does the direction of your bridge affect the success of the turtle turn?",
-        "answer": "The bridge should drive upward and slightly into the opponent rather than directly away from them. This directional bridge serves two purposes: it lifts the opponent's weight most effectively by driving against their center of gravity, and it creates the rotational momentum needed for the subsequent turn. A bridge directed straight away from the opponent creates horizontal space but insufficient vertical clearance for the turning motion to succeed."
+        "answer": "The bridge should drive upward and slightly into the opponent rather than directly away from them. This directional bridge serves two purposes: it lifts the opponent's weight most effectively by driving against their center of gravity, and it creates the rotational momentum needed for the subsequent turn. A bridge directed straight away from the opponent creates horizontal space but insufficient vertical clearance for the turning motion to succeed.",
+        "answer_line": "Bridge up and into opponent",
+        "distractors": {
+          "plausible": [
+            "Bridge straight up, no angle",
+            "Bridge away to create space"
+          ],
+          "trap": [
+            "Roll belly-down with no bridge"
+          ]
+        }
       },
       {
         "question": "What follow-up escape should you prioritize immediately after reaching turtle position?",
-        "answer": "The follow-up depends on the opponent's position after the turn. If they are behind you with chest pressure, execute a sit-through to guard or granby roll while their base is still adjusting to the new position. If they are circling toward the front, technical standup is optimal as their angle is wrong for back control. If they have established wrist control but no hooks, an explosive forward roll to guard can break their grips. The key principle is continuous motion without pause."
+        "answer": "The follow-up depends on the opponent's position after the turn. If they are behind you with chest pressure, execute a sit-through to guard or granby roll while their base is still adjusting to the new position. If they are circling toward the front, technical standup is optimal as their angle is wrong for back control. If they have established wrist control but no hooks, an explosive forward roll to guard can break their grips. The key principle is continuous motion without pause.",
+        "answer_line": "Keep moving, read their angle",
+        "distractors": {
+          "plausible": [
+            "Always sit through to guard",
+            "Always stand up immediately"
+          ],
+          "trap": [
+            "Pause turtle to reset first"
+          ]
+        }
       }
     ],
-    "safety_considerations": "The turtle turn from side control involves rotational movement under an opponent's bodyweight, creating potential strain on the neck and shoulders. Always tuck your chin firmly to protect the cervical spine during the rotation. Do not force the turn against a deeply established crossface, as this can create dangerous neck compression. In training, partners should allow the turn to complete rather than cranking on the neck to prevent it. If shoulder discomfort occurs during the elbow-knee connection phase, stop and reassess your positioning before continuing. Be mindful of your posting wrist and elbow during the drive to hands and knees, as these joints absorb significant force when combined with opponent's weight."
+    "safety_considerations": "The turtle turn from side control involves rotational movement under an opponent's bodyweight, creating potential strain on the neck and shoulders. Always tuck your chin firmly to protect the cervical spine during the rotation. Do not force the turn against a deeply established crossface, as this can create dangerous neck compression. In training, partners should allow the turn to complete rather than cranking on the neck to prevent it. If shoulder discomfort occurs during the elbow-knee connection phase, stop and reassess your positioning before continuing. Be mindful of your posting wrist and elbow during the drive to hands and knees, as these joints absorb significant force when combined with opponent's weight.",
+    "clips": [
+      {
+        "id": "psMJiX4ZIWw",
+        "title": "Side control escape to turtle transition",
+        "by": "Kameron Ross",
+        "vertical": false,
+        "channel": "Kameron Ross",
+        "duration": 140,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "FUtwSNi-3MM",
+        "title": "Side control escape by turning away to turtle",
+        "by": "Honu BJJ",
+        "vertical": false,
+        "channel": "Honu BJJ Reno",
+        "duration": 471,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "zgvlMKLWxAI",
+        "title": "Sitting turtle to running man",
+        "by": "Priit Mihkelson",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 224,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Turtle from Side Control Bottom Defender",
@@ -363,19 +504,59 @@
     "flashcards": [
       {
         "question": "What early indicator signals that the bottom player is about to attempt a turtle turn from side control?",
-        "answer": "The earliest indicator is the establishment of a forearm frame against your hip or shoulder. This frame is the prerequisite for every turn because it creates the separation needed to rotate. When you feel the bottom player's near-side arm pressing into your hip crease or driving against your shoulder, immediately increase your crossface pressure and hip connection to prevent the turn from developing. The explosive bridge that follows the frame is the second signal, but responding at that point gives you less time to counter effectively."
+        "answer": "The earliest indicator is the establishment of a forearm frame against your hip or shoulder. This frame is the prerequisite for every turn because it creates the separation needed to rotate. When you feel the bottom player's near-side arm pressing into your hip crease or driving against your shoulder, immediately increase your crossface pressure and hip connection to prevent the turn from developing. The explosive bridge that follows the frame is the second signal, but responding at that point gives you less time to counter effectively.",
+        "answer_line": "Forearm frame at hip/shoulder",
+        "distractors": {
+          "plausible": [
+            "Explosive bridge begins",
+            "Bottom player grips your collar"
+          ],
+          "trap": [
+            "Wait for the bridge to react"
+          ]
+        }
       },
       {
         "question": "Should you attempt to block the turtle turn or follow it to back control?",
-        "answer": "The decision depends on timing and the stage of the turn's development. If you recognize the turn early during frame establishment, blocking by increasing crossface and hip pressure is preferred because it maintains your dominant side control position. If the turn has already progressed significantly past the point where their near-side hip has begun rotating toward the mat, following to back control is superior because fighting a turn in progress often creates scrambles with unpredictable results. The key threshold is whether the rotation has generated its own momentum."
+        "answer": "The decision depends on timing and the stage of the turn's development. If you recognize the turn early during frame establishment, blocking by increasing crossface and hip pressure is preferred because it maintains your dominant side control position. If the turn has already progressed significantly past the point where their near-side hip has begun rotating toward the mat, following to back control is superior because fighting a turn in progress often creates scrambles with unpredictable results. The key threshold is whether the rotation has generated its own momentum.",
+        "answer_line": "Block early, follow if rotating",
+        "distractors": {
+          "plausible": [
+            "Always block to keep side control",
+            "Always follow for the back"
+          ],
+          "trap": [
+            "Fight the rotation once moving"
+          ]
+        }
       },
       {
         "question": "How do you maintain control continuity when transitioning from side control top to turtle top as the opponent turns?",
-        "answer": "Maintain chest-to-back contact throughout the rotation by moving your upper body with the bottom player as they turn. As they rotate, your crossface hand transitions into a seatbelt position by sliding over their shoulder. Your near-side control hand slides from hip control to an underhook position around their waist. The critical principle is never having a moment of disconnection. Your weight should transfer seamlessly from side control chest pressure to turtle top chest pressure without any gap."
+        "answer": "Maintain chest-to-back contact throughout the rotation by moving your upper body with the bottom player as they turn. As they rotate, your crossface hand transitions into a seatbelt position by sliding over their shoulder. Your near-side control hand slides from hip control to an underhook position around their waist. The critical principle is never having a moment of disconnection. Your weight should transfer seamlessly from side control chest pressure to turtle top chest pressure without any gap.",
+        "answer_line": "Stay chest-to-back, no gaps",
+        "distractors": {
+          "plausible": [
+            "Switch grips, then reconnect",
+            "Release hip control temporarily"
+          ],
+          "trap": [
+            "Let go to reset your base"
+          ]
+        }
       },
       {
         "question": "What position advancement opportunities does a failed turtle turn create for the top player?",
-        "answer": "A failed turtle turn often leaves the bottom player partially rotated with compromised framing structure and depleted energy. This creates excellent opportunities for mount advancement because their hip has turned away, making the step-over easier than from standard side control. If they return to their back after a failed turn, they are typically more exhausted and their frames are weaker, making submission attempts like americana or kimura more viable. The failed escape also provides psychological advantage as their confidence in escape options diminishes."
+        "answer": "A failed turtle turn often leaves the bottom player partially rotated with compromised framing structure and depleted energy. This creates excellent opportunities for mount advancement because their hip has turned away, making the step-over easier than from standard side control. If they return to their back after a failed turn, they are typically more exhausted and their frames are weaker, making submission attempts like americana or kimura more viable. The failed escape also provides psychological advantage as their confidence in escape options diminishes.",
+        "answer_line": "Step over into mount now",
+        "distractors": {
+          "plausible": [
+            "Drop back for a straight footlock",
+            "Spin to north-south and stall"
+          ],
+          "trap": [
+            "Chase the back, lose top position"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -398,6 +579,26 @@
         "phase": "Phase 4: Live Application",
         "focus": "Full-resistance counter strategies from side control top",
         "description": "Positional sparring from side control with partner using all available escapes including the turtle turn, hip escape, and ghost escape. Practice selecting the appropriate response in real-time against full resistance. Build automatic recognition and response patterns for each escape type."
+      }
+    ],
+    "clips": [
+      {
+        "id": "6_4uK_c0-cI",
+        "title": "Cross knee pass, preventing the turtle",
+        "by": "Inverted Gear",
+        "vertical": false,
+        "channel": "Inverted Gear",
+        "duration": 79,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "mWimgVQrsMU",
+        "title": "Far side underhook pin",
+        "by": "Craig Jones",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 137,
+        "verified": "2026-07-15"
       }
     ]
   }

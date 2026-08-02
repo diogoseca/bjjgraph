@@ -148,6 +148,43 @@ description: "How to defend against the Elevator Sweep in BJJ. Recognition cues,
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Elevator Sweep (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Simple Counters to a Failed Butterfly Sweep",
+      "description": "Elevator Sweep (Defender) film study: Simple Counters to a Failed Butterfly Sweep, taught by Oneonta Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ZAOF5qNApJ0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ZAOF5qNApJ0",
+      "url": "https://www.youtube.com/watch?v=ZAOF5qNApJ0",
+      "creator": { "@type": "Person", "name": "Oneonta Jiu Jitsu" },
+      "duration": "PT98S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Body Lock Pass Defense vs Elevator Sweep",
+      "description": "Elevator Sweep (Defender) film study: Body Lock Pass Defense vs Elevator Sweep, taught by Brian Glick.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/YVeeiNy43j4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/YVeeiNy43j4",
+      "url": "https://www.youtube.com/watch?v=YVeeiNy43j4",
+      "creator": { "@type": "Person", "name": "Brian Glick" },
+      "duration": "PT123S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -161,6 +198,34 @@ From a strategic perspective, the defender should view elevator sweep defense no
 **Opponent's Starting Position**: [[Positions/Butterfly Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Elevator Sweep (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ZAOF5qNApJ0)
+
+<p class="clip-credit"><strong>Simple Counters to a Failed Butterfly Sweep</strong> — taught by Oneonta Jiu Jitsu · 1:38 · <a href="https://www.youtube.com/watch?v=ZAOF5qNApJ0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=YVeeiNy43j4)
+
+<p class="clip-credit"><strong>Body Lock Pass Defense vs Elevator Sweep</strong> — taught by Brian Glick · 2:03 · <a href="https://www.youtube.com/watch?v=YVeeiNy43j4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

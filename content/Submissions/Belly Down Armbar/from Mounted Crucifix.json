@@ -17,7 +17,10 @@
   "target_area": "Elbow joint hyperextension and ulnar collateral ligament",
   "starting_position": "Mounted Crucifix",
   "from_position": "Mounted Crucifix/Top",
-  "success_rate": 50,
+  "success_rate": {
+    "gi": 50,
+    "nogi": 50
+  },
   "summary": "The belly down armbar from mounted crucifix is a prone elbow lock where the attacker, already controlling both arms via leg entanglement, rotates face-down over an isolated arm to hyperextend the elbow against the pelvis.",
   "overview": "The belly down armbar finish from mounted crucifix exploits one of the most mechanically advantageous finishing positions in Brazilian Jiu-Jitsu. From the mounted crucifix, the attacker already controls both of the opponent's arms through leg entanglement, making the transition to a prone armbar finish a natural and high-percentage attack path. The key distinction from standard armbar finishes is the rotational transition: rather than falling back for a supine armbar, the attacker rotates over the isolated arm and finishes face-down, creating a finishing angle where gravity and body weight compound the hyperextension force on the elbow joint.\n\nThe mounted crucifix entry provides unique advantages for the belly down finish. Because the opponent's arms are already trapped by the attacker's legs, the isolated arm is pre-positioned for extraction and extension. The attacker can select whichever arm offers the clearest path, slide the hips past the shoulder line, and rotate to the prone position while maintaining continuous pressure. This eliminates the most common armbar defense—the hitchhiker escape—because the belly down angle pins the opponent's shoulder rotation and removes the space needed to spin out.\n\nStrategically, this submission chains naturally with other mounted crucifix attacks. When the opponent defends chokes by tucking their chin, their arms often extend or shift position, opening the armbar path. The belly down finish also serves as a bail-out option when the standard mounted armbar stalls, since rotating prone adds a new vector of pressure that defenders rarely anticipate from the crucifix position.",
   "safety_considerations": {
@@ -95,17 +98,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 50,
+      "probability": {
+        "gi": 50,
+        "nogi": 50
+      },
       "result": "success"
     },
     {
       "to": "Mounted Crucifix/Top",
-      "probability": 32,
+      "probability": {
+        "gi": 32,
+        "nogi": 32
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 18,
+      "probability": {
+        "gi": 18,
+        "nogi": 18
+      },
       "result": "counter"
     }
   ],
@@ -278,52 +290,181 @@
       {
         "question": "What anatomical structure does the belly down armbar from mounted crucifix primarily attack?",
         "answer": "The primary target is the elbow joint, specifically hyperextending it past its natural range of motion. The ulnar collateral ligament and the joint capsule bear the greatest stress. The belly down angle directs force through the posterior aspect of the elbow joint, with the attacker's pelvic bone serving as the fulcrum against the olecranon process. Secondary stress occurs on the biceps tendon as it resists the forced extension.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Elbow joint hyperextension",
+        "distractors": {
+          "plausible": [
+            "Shoulder rotation like a kimura",
+            "Biceps tendon as main target"
+          ],
+          "trap": [
+            "Neck crank through the crucifix"
+          ]
+        }
       },
       {
         "question": "Why does the belly down position generate more finishing pressure than a standard supine armbar?",
         "answer": "The belly down position recruits the entire posterior chain—glutes, hamstrings, and spinal erectors—through hip extension, which are among the strongest muscle groups in the body. In a supine armbar, you lift the hips against gravity with less mechanical advantage. Belly down, gravity assists the position and the hip bridge motion directly translates to elbow hyperextension. The opponent's arm is also pinned against the mat, eliminating their ability to rotate or create escape angles that are available in the supine position.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Posterior chain drives hip extension",
+        "distractors": {
+          "plausible": [
+            "Lifting with arm strength",
+            "Pins the opponent's shoulder"
+          ],
+          "trap": [
+            "Rip the hips up at full speed"
+          ]
+        }
       },
       {
         "question": "What are the critical safety considerations when applying extension in the belly down position?",
         "answer": "The belly down position generates force far exceeding what is needed to damage the elbow, so extension must be applied slowly and progressively using gradual hip elevation. Never jerk or spike the arm. The prone position muffles verbal taps, so be alert for foot taps on the mat and any unusual vocalization. Release immediately on any tap signal—even a suspected one—because re-establishing the position is easy but joint damage is irreversible. In training, apply at roughly 25% of the speed you could use.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Extend slowly, watch for any tap",
+        "distractors": {
+          "plausible": [
+            "Rely on verbal tap only",
+            "Check their face for a wince"
+          ],
+          "trap": [
+            "Jerk the arm to lock it quickly"
+          ]
+        }
       },
       {
         "question": "How should you release the belly down armbar after your partner taps?",
         "answer": "First lower your hips immediately to remove the extension pressure from the elbow joint. Then release the wrist grip, allowing the arm to return to its natural position. Finally, release knee squeeze and disengage from the position entirely. Check your partner's arm mobility and ask about pain before resuming training. The release sequence prioritizes removing pressure from the most dangerous vector first—the hip extension—before releasing the grip and position.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Lower hips, then release wrist",
+        "distractors": {
+          "plausible": [
+            "Release grip first, then hips",
+            "Release knees first, then hips"
+          ],
+          "trap": [
+            "Hold pressure until fully clear"
+          ]
+        }
       },
       {
         "question": "Your opponent begins to bend their elbow during the rotation—what adjustment prevents the escape?",
         "answer": "Immediately increase knee squeeze pressure around their upper arm to clamp the bicep and tricep together, mechanically preventing further elbow flexion. If the elbow is already significantly bent, do not force the extension from this angle—instead, return to mounted crucifix and re-isolate the arm with full leg entanglement before attempting the rotation again. Trying to straighten a bent arm during mid-rotation usually results in losing the arm entirely.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Squeeze knees to stop flexion",
+        "distractors": {
+          "plausible": [
+            "Grab wrist and pull harder",
+            "Rotate faster to finish"
+          ],
+          "trap": [
+            "Force the bent arm straight"
+          ]
+        }
       },
       {
         "question": "What grip adjustment should you make if the opponent clasps their hands together to defend the extension?",
         "answer": "From belly down, grip break by peeling toward the pinky-finger side of their clasped hands while simultaneously driving your hips upward. The hip extension force applied through your pelvic fulcrum far exceeds their grip strength, especially when directed against the weakest axis of their clasp. Alternatively, maintain position and apply slow, progressive pressure—their grip will fatigue before your hip drive does. Avoid jerking or explosive breaks, which risk sudden uncontrolled hyperextension once the grip fails.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Peel pinky-side, drive hips up",
+        "distractors": {
+          "plausible": [
+            "Pry from the thumb-side grip",
+            "Twist their wrist to break grip"
+          ],
+          "trap": [
+            "Release the arm to pry two-handed"
+          ]
+        }
       },
       {
         "question": "What are the key indicators that the submission is reaching the breaking point and you should ease pressure in training?",
         "answer": "Watch for the opponent's body stiffening as they resist the extension, increased breathing rate or holding breath, any involuntary flinch or jerk in their trapped arm, and their free hand reaching toward the trapped arm or tapping their own body. The elbow will reach full extension with visible straightening of the arm, and any pressure beyond this point risks ligament damage. In training, ease off at full extension and give adequate time for the tap—the submission is proven at full extension, not beyond it.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Arm straightens, body stiffens",
+        "distractors": {
+          "plausible": [
+            "Elbow still bent at 90 degrees",
+            "Opponent relaxes and goes limp"
+          ],
+          "trap": [
+            "Wait for a clear verbal tap"
+          ]
+        }
       },
       {
         "question": "How does the mounted crucifix entry change the belly down armbar compared to entries from other positions?",
         "answer": "The mounted crucifix provides pre-isolated arm control through leg entanglement, eliminating the grip-fighting and arm isolation phase required from other positions. This means the attacker can focus entirely on the rotation and finishing mechanics rather than securing the arm. Additionally, the opponent's second arm is also controlled, removing their ability to assist the trapped arm's defense or create frames to disrupt the rotation. The trade-off is that unwinding the leg entanglement during rotation requires precise timing to maintain continuous control.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Arm already isolated, no grip fight",
+        "distractors": {
+          "plausible": [
+            "Faster since no base is needed",
+            "Opponent's free arm rotates loose"
+          ],
+          "trap": [
+            "No need to keep leg entanglement"
+          ]
+        }
       },
       {
         "question": "What base adjustments prevent the opponent from rolling you over once you establish the belly down position?",
         "answer": "Spread both legs wide to create a stable tripod base, driving your toes into the mat for anchor points. Your knees should be off the mat with weight distributed through your toes and your pelvis. If the opponent attempts to roll toward you, post your far leg out further to widen the base. If they roll away, follow with your hips and maintain the extension angle. The wider your base, the more force is required to displace you—narrow legs are the primary reason attackers get rolled from belly down.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Wide base, toes anchored down",
+        "distractors": {
+          "plausible": [
+            "Knees flat, weight centered",
+            "Sit back onto your heels"
+          ],
+          "trap": [
+            "Squeeze legs together and hold on"
+          ]
+        }
       },
       {
         "question": "In competition, what finishing strategy maximizes success rate with the belly down armbar from mounted crucifix?",
         "answer": "Set up the belly down armbar by first threatening chokes from the crucifix, forcing the opponent to extend their arms defensively. When the arm extends, immediately secure the wrist and begin the rotation. Execute the rotation at full speed since the opponent is already committed to choke defense. Once belly down, apply pressure progressively but without hesitation—competition opponents will attempt multiple escapes in rapid succession. Maintain wide base throughout and be prepared to transition to standard armbar if they roll into you, turning their escape into a second submission opportunity.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Threaten choke, catch extended arm",
+        "distractors": {
+          "plausible": [
+            "Wait for them to grip fight",
+            "Attack the free arm first"
+          ],
+          "trap": [
+            "Abandon crucifix to spin for it"
+          ]
+        }
+      }
+    ],
+    "clips": [
+      {
+        "id": "-Vmyjv8-WFw",
+        "title": "Mount to Side Crucifix Arm Attacks",
+        "by": "Evolve MMA",
+        "vertical": false,
+        "channel": "Evolve Mixed Martial Arts",
+        "duration": 76,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "5eA_LJK-gJo",
+        "title": "Belly Down Attacks: Armbar and Rear Triangle",
+        "by": "Kameron Ross",
+        "vertical": false,
+        "channel": "Kameron Ross",
+        "duration": 67,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "MIo1Q07Ng6U",
+        "title": "Belly Down Armbar from Mount Against Push",
+        "by": "Forca Martial Arts",
+        "vertical": false,
+        "channel": "Força Martial Arts & Fitness",
+        "duration": 110,
+        "verified": "2026-07-14"
       }
     ]
   },
@@ -416,22 +557,62 @@
       {
         "question": "How do you recognize that the belly down armbar from mounted crucifix is being set up?",
         "answer": "The key recognition cues are the attacker establishing two-on-one wrist control on your trapped arm, their hips sliding laterally toward your head on the arm side, and their chest beginning to rotate toward the mat. You may also feel their leg control on the targeted arm shift or loosen as they prepare to unwind the crucifix for the rotation. The hip slide is the most reliable indicator because it must happen before the rotation can begin.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Hips slide toward your head",
+        "distractors": {
+          "plausible": [
+            "Their knees pinch your hips",
+            "They post a hand by your head"
+          ],
+          "trap": [
+            "Relax, the crucifix feels secure"
+          ]
+        }
       },
       {
         "question": "What is the safest way to tap to the belly down armbar from mounted crucifix?",
         "answer": "Tap early and clearly using multiple signals simultaneously. Verbal tap loudly saying 'tap' because your hands may be trapped or obscured in the prone position. Simultaneously tap with your free hand on the attacker, the mat, or your own body. Use foot taps on the mat with either leg as an additional signal. In the belly down position, the mechanical advantage is enormous and damage occurs quickly—tap at the first sign of significant extension pressure rather than attempting to tough it out. There is no shame in tapping to a fully locked submission.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Tap early with multiple signals",
+        "distractors": {
+          "plausible": [
+            "Free your trapped hand, then tap",
+            "Signal softly to keep your cool"
+          ],
+          "trap": [
+            "Power out and tap once it hurts"
+          ]
+        }
       },
       {
         "question": "What defensive options are available against the belly down armbar from mounted crucifix?",
         "answer": "The highest-percentage defense is elbow retraction during the rotation transition, when the attacker's leg control momentarily loosens. Turning into the attacker during mid-rotation can disrupt the prone angle and create a scramble. Explosive bridging during the hip slide phase can topple the off-balance attacker. As a last resort, clasping hands together once belly down delays the extension but will not escape it. The critical principle is that all effective defenses happen during the transition—once the belly down position is established with full extension control, options are nearly exhausted.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Retract elbow during transition",
+        "distractors": {
+          "plausible": [
+            "Grab your own gi and wait it out",
+            "Kick your legs to create space"
+          ],
+          "trap": [
+            "Straighten the arm to ease the pain"
+          ]
+        }
       },
       {
         "question": "Why is the transition phase the critical window for defense rather than after the belly down position is established?",
         "answer": "During the transition, the attacker must release or adjust their leg entanglement from the crucifix to rotate prone, creating a brief window where arm control is loosened. Once belly down is fully established with hips past the shoulder, wide base, and wrist secured, the attacker's mechanical advantage through hip extension is overwhelming—their posterior chain muscles against your bicep is not a winnable strength contest. Defending the transition prevents the position from being established rather than trying to escape an already dominant finishing position.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Leg control loosens mid-rotation",
+        "distractors": {
+          "plausible": [
+            "Their hips are highest mid-roll",
+            "Wrist grip weakens at the end"
+          ],
+          "trap": [
+            "Wait until belly down, then escape"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -454,6 +635,26 @@
         "phase": "Phase 4: Full Resistance Survival",
         "focus": "Defending against committed attacks",
         "description": "Full resistance positional sparring starting from mounted crucifix with the attacker pursuing the belly down armbar. Practice surviving the transition and escaping to any safer position. Goal is extending survival time and increasing escape rate against progressively skilled attackers."
+      }
+    ],
+    "clips": [
+      {
+        "id": "zKieMBkGXxU",
+        "title": "Armbar Defense and Stack Escape",
+        "by": "Daniel Frank",
+        "vertical": false,
+        "channel": "Daniel Frank",
+        "duration": 32,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "Wt2NW_hfTd0",
+        "title": "Crucifix Escape",
+        "by": "Mick Hall",
+        "vertical": false,
+        "channel": "Mick Hall",
+        "duration": 228,
+        "verified": "2026-07-14"
       }
     ]
   }

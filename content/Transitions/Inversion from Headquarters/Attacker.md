@@ -174,6 +174,43 @@ description: "Complete guide to executing the Inversion from Headquarters as the
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Inversion from Headquarters (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Around The Legs Guard Retention",
+      "description": "Inversion from Headquarters (Attacker) film study: Around The Legs Guard Retention, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ynoR-AtSYUc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ynoR-AtSYUc",
+      "url": "https://www.youtube.com/watch?v=ynoR-AtSYUc",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT210S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "High Leg Guard Retention",
+      "description": "Inversion from Headquarters (Attacker) film study: High Leg Guard Retention, taught by Paul McVeigh.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/UHL2gtIMnrg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/UHL2gtIMnrg",
+      "url": "https://www.youtube.com/watch?v=UHL2gtIMnrg",
+      "creator": { "@type": "Person", "name": "Paul McVeigh" },
+      "duration": "PT152S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -183,6 +220,34 @@ As the bottom player caught in headquarters, executing the inversion requires pr
 **From Position**: [[Positions/Headquarters Position]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Inversion from Headquarters (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ynoR-AtSYUc)
+
+<p class="clip-credit"><strong>Around The Legs Guard Retention</strong> — taught by Lachlan Giles · 3:30 · <a href="https://www.youtube.com/watch?v=ynoR-AtSYUc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=UHL2gtIMnrg)
+
+<p class="clip-credit"><strong>High Leg Guard Retention</strong> — taught by Paul McVeigh · 2:32 · <a href="https://www.youtube.com/watch?v=UHL2gtIMnrg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

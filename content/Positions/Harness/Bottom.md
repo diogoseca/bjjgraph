@@ -21,37 +21,37 @@ description: "Master defensive strategies from Harness Bottom Position in BJJ. L
     {
       "@type": "HowToStep",
       "name": "Execute Elbow Escape to Guard",
-      "text": "From this position, attempt Elbow Escape to Guard. This technique is attempted in 21% of exchanges from this position.",
+      "text": "From this position, attempt Elbow Escape to Guard. This technique is attempted in 12% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Hip Escape to Turtle",
-      "text": "From this position, attempt Hip Escape to Turtle. This technique is attempted in 17% of exchanges from this position.",
+      "text": "From this position, attempt Hip Escape to Turtle. This technique is attempted in 11% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Technical Stand Up to Single Leg",
-      "text": "From this position, attempt Technical Stand Up to Single Leg. This technique is attempted in 8% of exchanges from this position.",
+      "text": "From this position, attempt Technical Stand Up to Single Leg. This technique is attempted in 7% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Roll to Guard",
-      "text": "From this position, attempt Roll to Guard. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Roll to Guard. This technique is attempted in 9% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Granby Roll to Guard",
-      "text": "From this position, attempt Granby Roll to Guard. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Granby Roll to Guard. This technique is attempted in 7% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Hip Escape to Guard",
-      "text": "From this position, attempt Hip Escape to Guard. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Hip Escape to Guard. This technique is attempted in 12% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -154,6 +154,54 @@ description: "Master defensive strategies from Harness Bottom Position in BJJ. L
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Harness (Bottom) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Standing Up From Turtle/Back Defense",
+      "description": "Harness (Bottom) film study: Standing Up From Turtle/Back Defense, taught by Priit Mihkelson.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/_sBB-O8fqP4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/_sBB-O8fqP4",
+      "url": "https://www.youtube.com/watch?v=_sBB-O8fqP4",
+      "creator": { "@type": "Person", "name": "Priit Mihkelson" },
+      "duration": "PT114S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Simple Standing Rear Naked Choke Escape",
+      "description": "Harness (Bottom) film study: Simple Standing Rear Naked Choke Escape, taught by Henry Akins.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/BL0RhUlKPQs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/BL0RhUlKPQs",
+      "url": "https://www.youtube.com/watch?v=BL0RhUlKPQs",
+      "creator": { "@type": "Person", "name": "Henry Akins" },
+      "duration": "PT205S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Back Control Escape Explained Simply",
+      "description": "Harness (Bottom) film study: Back Control Escape Explained Simply, taught by Jean Jacques Machado.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/3Jd2llamfl8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/3Jd2llamfl8",
+      "url": "https://www.youtube.com/watch?v=3Jd2llamfl8",
+      "creator": { "@type": "Person", "name": "Jean Jacques Machado" },
+      "duration": "PT189S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <aside class="entity-relations">
@@ -168,6 +216,42 @@ From this position, the bottom player faces significant challenges including def
 The strategic priority from Harness Bottom Position is threefold: first, prevent the rear naked choke by controlling the choking arm and protecting the neck; second, prevent or remove hooks to maintain mobility; and third, create space and angles to escape back to more favorable positions such as turtle, guard, or standing positions. Understanding the mechanics of the harness grip and the opponent's offensive threats is essential for developing effective defensive responses and escape pathways.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Harness (Bottom) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=_sBB-O8fqP4)
+
+<p class="clip-credit"><strong>Standing Up From Turtle/Back Defense</strong> — taught by Priit Mihkelson · 1:54 · <a href="https://www.youtube.com/watch?v=_sBB-O8fqP4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=BL0RhUlKPQs)
+
+<p class="clip-credit"><strong>Simple Standing Rear Naked Choke Escape</strong> — taught by Henry Akins · 3:25 · <a href="https://www.youtube.com/watch?v=BL0RhUlKPQs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=3Jd2llamfl8)
+
+<p class="clip-credit"><strong>Back Control Escape Explained Simply</strong> — taught by Jean Jacques Machado · 3:09 · <a href="https://www.youtube.com/watch?v=3Jd2llamfl8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

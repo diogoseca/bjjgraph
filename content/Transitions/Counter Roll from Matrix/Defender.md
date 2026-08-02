@@ -140,6 +140,54 @@ description: "Defend against Counter Roll from Matrix attempts. Learn recognitio
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Counter Roll from Matrix (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Countering a full inversion",
+      "description": "Counter Roll from Matrix (Defender) film study: Countering a full inversion, taught by Gordon Ryan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/aQ2vFXXBn-o/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/aQ2vFXXBn-o",
+      "url": "https://www.youtube.com/watch?v=aQ2vFXXBn-o",
+      "creator": { "@type": "Person", "name": "Gordon Ryan" },
+      "duration": "PT61S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Defending the Rolling Back Take (Truck Roll)",
+      "description": "Counter Roll from Matrix (Defender) film study: Defending the Rolling Back Take (Truck Roll), taught by Brian Glick.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/WEpVDP7MRpo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/WEpVDP7MRpo",
+      "url": "https://www.youtube.com/watch?v=WEpVDP7MRpo",
+      "creator": { "@type": "Person", "name": "Brian Glick" },
+      "duration": "PT209S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "How to Pass Matrix Guard",
+      "description": "Counter Roll from Matrix (Defender) film study: How to Pass Matrix Guard, taught by Modern BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/IyLjvq3dU8Q/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/IyLjvq3dU8Q",
+      "url": "https://www.youtube.com/watch?v=IyLjvq3dU8Q",
+      "creator": { "@type": "Person", "name": "Modern BJJ" },
+      "duration": "PT339S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -149,6 +197,42 @@ The Counter Roll from Matrix defender is the top player who has successfully blo
 **Opponent's Starting Position**: [[Positions/Matrix]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Counter Roll from Matrix (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=aQ2vFXXBn-o)
+
+<p class="clip-credit"><strong>Countering a full inversion</strong> — taught by Gordon Ryan · 1:01 · <a href="https://www.youtube.com/watch?v=aQ2vFXXBn-o" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=WEpVDP7MRpo)
+
+<p class="clip-credit"><strong>Defending the Rolling Back Take (Truck Roll)</strong> — taught by Brian Glick · 3:29 · <a href="https://www.youtube.com/watch?v=WEpVDP7MRpo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=IyLjvq3dU8Q)
+
+<p class="clip-credit"><strong>How to Pass Matrix Guard</strong> — taught by Modern BJJ · 5:39 · <a href="https://www.youtube.com/watch?v=IyLjvq3dU8Q" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

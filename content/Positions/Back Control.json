@@ -97,99 +97,164 @@
     "transitions": [
       {
         "transition": "Rear Naked Choke from Back Control",
-        "attempt_probability": 43
+        "attempt_probability": {
+          "gi": 21,
+          "nogi": 27
+        }
       },
       {
         "transition": "Back Control Maintenance",
-        "attempt_probability": 14
+        "attempt_probability": {
+          "gi": 16,
+          "nogi": 16
+        }
       },
       {
         "transition": "Bow and Arrow Choke from Back Control",
-        "attempt_probability": 5
+        "attempt_probability": {
+          "gi": 13,
+          "nogi": 0
+        }
       },
       {
         "transition": "Gift Wrap from Back",
-        "attempt_probability": 3
+        "attempt_probability": {
+          "gi": 5,
+          "nogi": 6
+        }
       },
       {
         "transition": "Armbar from Back Transition",
-        "attempt_probability": 6
+        "attempt_probability": {
+          "gi": 4,
+          "nogi": 4
+        }
       },
       {
         "transition": "Body Triangle Lock",
-        "attempt_probability": 1
+        "attempt_probability": {
+          "gi": 5,
+          "nogi": 8
+        }
       },
       {
         "transition": "Back Control to Crucifix",
-        "attempt_probability": 1
+        "attempt_probability": {
+          "gi": 1,
+          "nogi": 2
+        }
       },
       {
         "transition": "Short Choke Attack",
-        "attempt_probability": 2
+        "attempt_probability": {
+          "gi": 2,
+          "nogi": 2
+        }
       },
       {
         "transition": "Armbar on Free Arm",
-        "attempt_probability": 2
+        "attempt_probability": {
+          "gi": 2,
+          "nogi": 2
+        }
       },
       {
         "transition": "Rear Naked Choke Setup",
-        "attempt_probability": 2
+        "attempt_probability": {
+          "gi": 6,
+          "nogi": 7
+        }
       },
       {
         "transition": "Kimura from Back",
-        "attempt_probability": 2
+        "attempt_probability": {
+          "gi": 1,
+          "nogi": 1
+        }
       },
       {
         "transition": "Triangle from Back",
-        "attempt_probability": 1
+        "attempt_probability": {
+          "gi": 2,
+          "nogi": 2
+        }
       },
       {
         "transition": "Standing Back Control Entry",
-        "attempt_probability": 1
+        "attempt_probability": {
+          "gi": 1,
+          "nogi": 1
+        }
       },
       {
         "transition": "Mat Return to Back Mount",
-        "attempt_probability": 1
+        "attempt_probability": {
+          "gi": 2,
+          "nogi": 2
+        }
       },
       {
         "transition": "Back Control to Seat Belt Control Back",
-        "attempt_probability": 1
+        "attempt_probability": {
+          "gi": 4,
+          "nogi": 4
+        }
       },
       {
         "transition": "Gift Wrap Control",
-        "attempt_probability": 1
+        "attempt_probability": {
+          "gi": 2,
+          "nogi": 2
+        }
       },
       {
         "transition": "Back Control to Cross Body Ride",
-        "attempt_probability": 1
+        "attempt_probability": {
+          "gi": 1,
+          "nogi": 1
+        }
       },
       {
         "transition": "Back Control to Reverse Half Guard",
-        "attempt_probability": 1
+        "attempt_probability": {
+          "gi": 1,
+          "nogi": 1
+        }
       },
       {
         "transition": "Restore Back Control",
-        "attempt_probability": 1
-      },
-      {
-        "transition": "Rear Triangle Choke",
-        "attempt_probability": 1
+        "attempt_probability": {
+          "gi": 4,
+          "nogi": 4
+        }
       },
       {
         "transition": "Armbar from Back",
-        "attempt_probability": 6
+        "attempt_probability": {
+          "gi": 4,
+          "nogi": 3
+        }
       },
       {
         "transition": "Armbar from Back with Legs",
-        "attempt_probability": 2
+        "attempt_probability": {
+          "gi": 1,
+          "nogi": 1
+        }
       },
       {
         "transition": "Rear Triangle Choke from Back Control",
-        "attempt_probability": 1
+        "attempt_probability": {
+          "gi": 1,
+          "nogi": 2
+        }
       },
       {
         "transition": "Short Choke from Back Control",
-        "attempt_probability": 1
+        "attempt_probability": {
+          "gi": 1,
+          "nogi": 2
+        }
       }
     ],
     "decision_tree": [
@@ -379,7 +444,36 @@
         "description": "Success rate of finishing submission from back control position"
       },
       "average_time": "45-90 seconds before submission attempt or position change"
-    }
+    },
+    "clips": [
+      {
+        "id": "f3PJ06A_bWQ",
+        "title": "Hip Switch to Back Take",
+        "by": "Gordon Ryan",
+        "vertical": false,
+        "channel": "Jiu Jitsu Moves",
+        "duration": 19,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "70jECxFfCSA",
+        "title": "Rear Naked Choke from the Back",
+        "by": "Gordon Ryan",
+        "vertical": false,
+        "channel": "Control Jiu JItsu",
+        "duration": 73,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "aQ2vFXXBn-o",
+        "title": "Countering a Full Inversion",
+        "by": "Gordon Ryan",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 61,
+        "verified": "2026-07-14"
+      }
+    ]
   },
   "bottom": {
     "name": "Back Control Bottom",
@@ -422,59 +516,101 @@
     "transitions": [
       {
         "transition": "Hand Fighting from Back",
-        "attempt_probability": 22
+        "attempt_probability": {
+          "gi": 22,
+          "nogi": 22
+        }
       },
       {
         "transition": "Back Door Escape",
-        "attempt_probability": 20
+        "attempt_probability": {
+          "gi": 6,
+          "nogi": 7
+        }
       },
       {
         "transition": "Hip Escape to Turtle",
-        "attempt_probability": 13
+        "attempt_probability": {
+          "gi": 10,
+          "nogi": 10
+        }
       },
       {
         "transition": "Elbow Escape to Remove Hooks",
-        "attempt_probability": 12
+        "attempt_probability": {
+          "gi": 10,
+          "nogi": 10
+        }
       },
       {
         "transition": "Turn In and Face",
-        "attempt_probability": 8
+        "attempt_probability": {
+          "gi": 10,
+          "nogi": 10
+        }
       },
       {
         "transition": "Hip Escape from Back Control",
-        "attempt_probability": 5
+        "attempt_probability": {
+          "gi": 14,
+          "nogi": 13
+        }
       },
       {
         "transition": "Turtle from Back Control",
-        "attempt_probability": 5
+        "attempt_probability": {
+          "gi": 4,
+          "nogi": 4
+        }
       },
       {
         "transition": "Shoulder Walk Escape from Back",
-        "attempt_probability": 5
+        "attempt_probability": {
+          "gi": 5,
+          "nogi": 6
+        }
       },
       {
         "transition": "Scoot Hips to Guard from Back",
-        "attempt_probability": 4
+        "attempt_probability": {
+          "gi": 4,
+          "nogi": 4
+        }
       },
       {
         "transition": "Turn into Opponent from Back",
-        "attempt_probability": 3
+        "attempt_probability": {
+          "gi": 5,
+          "nogi": 5
+        }
       },
       {
         "transition": "Elbow Escape from Back",
-        "attempt_probability": 2
+        "attempt_probability": {
+          "gi": 4,
+          "nogi": 4
+        }
       },
       {
         "transition": "Hand Fight to Turtle from Back",
-        "attempt_probability": 1
+        "attempt_probability": {
+          "gi": 3,
+          "nogi": 3
+        }
       },
       {
         "transition": "Granby Roll to Guard",
-        "attempt_probability": 0
+        "attempt_probability": {
+          "gi": 1,
+          "nogi": 1
+        }
       },
       {
         "transition": "Rolling Escape to Guard",
-        "attempt_probability": 0
+        "attempt_probability": {
+          "gi": 2,
+          "nogi": 1
+        }
       }
     ],
     "decision_tree": [
@@ -652,6 +788,283 @@
         "description": "Risk of being submitted from back control bottom position by opponent"
       },
       "average_time": "30-60 seconds before submission or escape attempt"
+    },
+    "clips": [
+      {
+        "id": "_sBB-O8fqP4",
+        "title": "Standing Up from Back Control",
+        "by": "Priit Mihkelson",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 114,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "3RbOD9fhi20",
+        "title": "Running Man Back Escape",
+        "by": "Jiu Jitsu Modern",
+        "vertical": false,
+        "channel": "JIU JITSU MODERN",
+        "duration": 210,
+        "verified": "2026-07-14"
+      }
+    ]
+  },
+  "flashcards_family": [
+    {
+      "question": "Why is back control considered the most dominant position in Brazilian Jiu-Jitsu regardless of which leg variation is used?",
+      "answer": "Back control is dominant because it combines maximum attacking potential with minimal defensive risk: the person on the back can see and reach every target while the defender cannot see or directly reach the attacker. Every variant maintains three simultaneous control layers - lower-body connection through hooks or a body triangle, upper-body control through the harness or seatbelt, and chest-to-back connection that removes the defender's ability to create distance or turn in. Because the attacker faces the defender's exposed spine and neck, the primary submission threats stay hidden while the defender must fight blind. This asymmetry of vision and reach is what makes the position the highest-percentage finishing platform in the sport across every leg configuration.",
+      "answer_line": "Attacker sees, defender can't",
+      "distractors": {
+        "plausible": [
+          "Heaviest possible pressure",
+          "Legs fully control hips"
+        ],
+        "trap": [
+          "Crossing feet for max squeeze"
+        ]
+      }
+    },
+    {
+      "question": "What three-layer control hierarchy must be present for any variant of back control to be considered fully secured?",
+      "answer": "Every variant relies on the same three reinforcing layers of control. The lower-body layer - hooks inside the thighs or a locked body triangle - controls the hips and prevents rotation. The upper-body layer - the harness or seatbelt grip with one arm over the shoulder and one under the armpit - restricts arm movement and creates submission angles. The connecting layer is constant chest-to-back pressure that eliminates space and prevents the defender from turning to face the attacker. A variant that has only one or two of these layers is transitional, not secured, because the missing layer becomes the defender's escape route.",
+      "answer_line": "Hooks + harness + chest pressure",
+      "distractors": {
+        "plausible": [
+          "Harness grip alone secures it",
+          "Hooks alone control the hips"
+        ],
+        "trap": [
+          "Cross feet in front for lock"
+        ]
+      }
+    },
+    {
+      "question": "How does the chest-to-back connection function as the foundational principle across all back control variations?",
+      "answer": "Chest-to-back connection is the constant that every back control variant depends on, because space is the currency of every escape. When the attacker's chest stays glued to the defender's back with forward pressure, the defender cannot create the distance needed to turn in, insert frames, or slip a shoulder to the mat. Losing this connection - by sitting up high or leaning back - immediately gives the defender room to rotate toward the attacker and clear the hooks. Whether the legs are in standard hooks, a body triangle, or the position is standing, maintaining low, forward chest pressure is what keeps the other two control layers viable and prevents the defender from initiating any escape sequence.",
+      "answer_line": "Chest pressure kills all space",
+      "distractors": {
+        "plausible": [
+          "Harness grip matters most",
+          "Deep hooks stop all escapes"
+        ],
+        "trap": [
+          "Sit up high for leverage"
+        ]
+      }
+    },
+    {
+      "question": "What is the universal escape hierarchy a defender must follow from any back control variant, and why must the order be respected?",
+      "answer": "From every back control variant the defender must address control points in a strict sequence: defend the neck first, then strip the upper-body grip, then remove the lower-body control, and finally rotate to face the attacker. The order is non-negotiable because the neck carries the immediate submission threat - fighting hooks or hips while the choking arm is live simply results in getting strangled. Only after two-on-one hand fighting and chin protection have neutralized the choke can the defender safely invest energy in clearing the seatbelt and the hooks or triangle. Skipping steps, such as attacking the legs before securing neck defense, is the single most common cause of tapping from the bottom regardless of which variation the attacker is using.",
+      "answer_line": "Neck, then grip, then hooks, turn",
+      "distractors": {
+        "plausible": [
+          "Strip hooks before the choke",
+          "Turn in first, then defend neck"
+        ],
+        "trap": [
+          "Buck and bridge, ignore the choke"
+        ]
+      }
+    },
+    {
+      "question": "Why does the position-before-submission principle carry heightened importance from back control compared to many other dominant positions?",
+      "answer": "Back control offers the sport's highest finishing rate, which tempts attackers to rush submissions before control is complete - and that impatience is precisely how the position is lost. Because breaking the harness grip to attack the neck temporarily frees the defender's arms and reduces upper-body control, a premature attack hands the defender the tools to hand-fight, strip hooks, and escape unopposed. Across all variants the correct sequence is to first secure all three control layers, then systematically break down the defender's hand fighting, and only commit to a finish once the defense has been compromised. Patient control-first hunting yields far higher finishing rates than aggressive early attacks that risk surrendering the best position in the sport.",
+      "answer_line": "Attacking loosens your own control",
+      "distractors": {
+        "plausible": [
+          "Finish rate is highest, so rush it",
+          "Defender is helpless once hooks set"
+        ],
+        "trap": [
+          "Break grip to lunge for the neck"
+        ]
+      }
+    },
+    {
+      "question": "What role does the cooking effect play in the energetic dynamics shared by all back control variants?",
+      "answer": "The cooking effect describes how proper weight distribution through the chest and hooks drains the defender's energy faster than the attacker's across every variant. The attacker uses skeletal structure and body weight to maintain pressure rather than muscular effort, staying relatively relaxed while the defender must simultaneously fight the choke, resist the positional control, and carry the attacker's weight. Because the defender expends energy on multiple fronts at once, panic and explosive escape attempts accelerate their fatigue and typically worsen the position. This energetic asymmetry favors the patient attacker, who can wait for the defender to tire and make the defensive errors that open finishing windows.",
+      "answer_line": "Relaxed weight, defender burns",
+      "distractors": {
+        "plausible": [
+          "Muscle strength wins the grind",
+          "Both fighters tire equally"
+        ],
+        "trap": [
+          "Panic and explode to escape"
+        ]
+      }
+    },
+    {
+      "question": "How does the interconnected web of submission threats create defensive dilemmas from back control across variations?",
+      "answer": "Back control links multiple attacks - rear naked choke, collar chokes, arm attacks, and crucifix or gift-wrap entries - into a web where defending one threat exposes another. When the defender uses both hands to strip the choking arm and protect the neck, their arms become vulnerable to being trapped for a gift wrap or crucifix. When they over-defend the neck, an arm attack opens; when they protect their arms, the neck opens. This is a shared strategic property of the position rather than a feature of any single variant, and it is why systematic hand fighting from the top is so effective: it forces the defender into a losing choice where every defensive commitment creates an opening somewhere else.",
+      "answer_line": "Defending one threat opens another",
+      "distractors": {
+        "plausible": [
+          "Block the choke, ignore the arms",
+          "Attacks come one after another"
+        ],
+        "trap": [
+          "Turn belly-down to escape"
+        ]
+      }
+    },
+    {
+      "question": "Why must the legs never be crossed in front of the defender's body in any back control variation?",
+      "answer": "Crossing the feet in front of the defender's body is a universal error because it simultaneously exposes the attacker to a footlock and weakens hip control. Crossed feet present the ankles as a target the defender can attack with a straight ankle lock or figure-four, turning the attacker's control mechanism into their vulnerability. It also reduces the lateral squeeze and hip containment that hooks or a body triangle provide, making rotational escapes easier. The correct principle across every variant is to keep feet hooked inside the thighs with toes pointed outward, or to lock a proper body triangle over the shoulder and behind the knee, so that leg control is maintained without creating a submission opening for the defender.",
+      "answer_line": "Exposes ankles to footlock",
+      "distractors": {
+        "plausible": [
+          "Weakens grip on the harness",
+          "Slows switching to the mount"
+        ],
+        "trap": [
+          "Cross feet for tighter squeeze"
+        ]
+      }
     }
-  }
+  ],
+  "flashcards_position": [
+    {
+      "question": "What three layers of control define the back control configuration?",
+      "answer": "Back control is defined by three reinforcing layers of connection between the two players. The first is chest-to-back connection, where the top player's torso stays glued to the bottom player's spine with constant forward pressure. The second is lower-body control through leg hooks inserted inside the thighs or a body triangle locked around the waist, governing hip movement and rotation. The third is upper-body control via the harness grip, one arm over the shoulder and the other under the armpit with hands clasped. When all three are present the position is fully established; when any one is missing the position is contested or breaking down.",
+      "answer_line": "Chest, hooks/triangle, harness",
+      "distractors": {
+        "plausible": [
+          "Crossface, underhook, whizzer",
+          "Knee pin, collar tie, base"
+        ],
+        "trap": [
+          "Loose chest, tight hooks only"
+        ]
+      }
+    },
+    {
+      "question": "Why is the seatbelt (harness) grip diagonal across the torso rather than symmetric?",
+      "answer": "The harness runs one arm over the same-side shoulder and the other under the opposite armpit, crossing the torso diagonally. This asymmetry is deliberate: it creates a strong \"over\" shoulder and a weak \"under\" arm side, which orients the entire exchange. The over-shoulder arm is the natural choking arm and the reference point both players fight around, while the under-arm side becomes the direction the bottom player tries to escape toward and the top player must defend. The diagonal also locks the shoulders so the bottom player cannot square their spine to the mat, keeping their upper body pinned to the attacker's chest.",
+      "answer_line": "Creates strong-arm choking side",
+      "distractors": {
+        "plausible": [
+          "Symmetric grip resists escapes",
+          "Diagonal grip frees both hands"
+        ],
+        "trap": [
+          "Hug the waist with both arms"
+        ]
+      }
+    },
+    {
+      "question": "How does hook placement inside the thighs determine who controls the hips?",
+      "answer": "Hooks are the feet threaded inside the thighs near the groin, with toes pointed outward to catch on the inner leg. Placed deep, the hooks let the top player spread or lift the legs to steer the hips and prevent the bottom player from turning. Placed too high near the beltline, the hooks lose their wedge and the bottom player can pinch their knees to strip them. The battle over hook depth is therefore the battle over hip control: whoever wins it dictates whether the bottom player can rotate toward the escape or stays hip-locked facing away.",
+      "answer_line": "Deep hooks steer the hips",
+      "distractors": {
+        "plausible": [
+          "High hooks near belt control hips",
+          "Point toes inward for grip"
+        ],
+        "trap": [
+          "Hook outside the thighs"
+        ]
+      }
+    },
+    {
+      "question": "What mechanical trade-off distinguishes the body triangle from standard hooks?",
+      "answer": "The body triangle locks one leg over the other behind the opponent's knee, replacing two independent hooks with a single closed frame around the waist. This trades away the steering and lifting ability of free hooks for far greater hip immobilization and constant abdominal compression that drains the bottom player. The cost is a slight vulnerability: because the legs are crossed and committed, a bottom player who turns hard into the triangle can attack the ankle or apply pressure to the locked knee. Hooks stay mobile and re-adjustable; the body triangle is heavier and tighter but more committed.",
+      "answer_line": "Locks hips, less mobile control",
+      "distractors": {
+        "plausible": [
+          "Triangle gives more mobility",
+          "Hooks immobilize hips more"
+        ],
+        "trap": [
+          "Ignore your exposed crossed ankle"
+        ]
+      }
+    },
+    {
+      "question": "Why does the fight over the bottom player's shoulders on the mat matter to both players?",
+      "answer": "Whether the bottom player's shoulders reach the mat is a central positional lever. If the top player keeps the shoulders elevated and the spine rounded away from the floor, the neck stays exposed and rotational escapes are cut off. If the bottom player flattens both shoulders to the mat into a defensive ball, they shrink the choke angles and build a base to bridge and turn. The two players are therefore in direct opposition over shoulder height, and it is one of the clearest tells for who currently holds the initiative in the position.",
+      "answer_line": "Elevated shoulders keep neck open",
+      "distractors": {
+        "plausible": [
+          "Flat shoulders help the attacker",
+          "Bridging is impossible when flat"
+        ],
+        "trap": [
+          "Let shoulders flatten to mat"
+        ]
+      }
+    },
+    {
+      "question": "How does the exposure of the bottom player's back shape the exchange for both players?",
+      "answer": "The bottom player faces away and cannot see the attacker's hands, which is the core informational asymmetry of the position. This forces the bottom player to defend by feel and prediction rather than sight, prioritizing chin protection and two-on-one hand fighting on the choking arm before anything else. For the top player it means attacks arrive with less warning, which is why back control carries the sport's highest submission rate. The whole position is organized around this blind-side dynamic: the attacker exploits it and the defender must neutralize it before attempting to escape.",
+      "answer_line": "Defender fights blind by feel",
+      "distractors": {
+        "plausible": [
+          "Back attacks are easy to read",
+          "Chin tuck alone stops chokes"
+        ],
+        "trap": [
+          "Ignore hand fighting, turtle up"
+        ]
+      }
+    },
+    {
+      "question": "Why is crossing the feet in front of the opponent's body a structurally weak leg configuration in back control?",
+      "answer": "In a sound back control the feet act as independent wedges hooked inside the thighs, or the legs form a closed body triangle around the waist. Crossing the ankles in front of the opponent's midsection instead stacks both feet together at a single point over the belly. Mechanically this collapses hip control, because two crossed feet cannot spread or steer the legs the way separated hooks do, and it exposes the stacked ankles to being trapped and attacked with a straight footlock. The configuration therefore weakens the position from both directions at once, which is why the stable leg options are inside hooks or a body triangle rather than crossed feet in front.",
+      "answer_line": "Stacks feet, exposes footlock",
+      "distractors": {
+        "plausible": [
+          "Crossed feet tighten hip control",
+          "Crossed feet hide from attacks"
+        ],
+        "trap": [
+          "Cross feet, squeeze harder"
+        ]
+      }
+    },
+    {
+      "question": "What makes back control mechanically distinct from mount despite both being dominant positions?",
+      "answer": "Both mount and back control are top-tier dominant positions, but they attack from opposite sides and control different planes. Mount pins the opponent chest-to-chest from the front, relying on downward weight and the opponent facing up. Back control attaches chest-to-back from behind, relying on the harness and leg hooks rather than flat pressure, and the opponent faces away. This gives back control its blind-side advantage and higher submission rate, while mount trades that away for more direct visual control and heavier top pressure. The transition between them is why losing the back often flows into mount rather than a full escape.",
+      "answer_line": "Attacks blind side, not front",
+      "distractors": {
+        "plausible": [
+          "Uses downward chest pressure",
+          "Same control, opposite grip"
+        ],
+        "trap": [
+          "Face opponent like in mount"
+        ]
+      }
+    }
+  ],
+  "clips": [
+    {
+      "id": "ovyq_pmaB88",
+      "title": "Back Attacks System Overview",
+      "by": "John Danaher",
+      "vertical": false,
+      "channel": "BJJ Fanatics",
+      "duration": 56,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "ypTfNWlR5ls",
+      "title": "Basics of Back Control & Rear Strangle",
+      "by": "Robyn Sheehan",
+      "vertical": false,
+      "channel": "Robyn Sheehan",
+      "duration": 168,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "-lMabjvtaLk",
+      "title": "Entries Into Rear Triangle Back Position",
+      "by": "John Danaher",
+      "vertical": false,
+      "channel": "BJJ Fanatics",
+      "duration": 252,
+      "verified": "2026-07-14"
+    }
+  ]
 }

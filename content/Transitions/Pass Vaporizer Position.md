@@ -34,6 +34,43 @@ description: "Master passing the Vaporizer position in BJJ. Step-by-step guide t
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Pass Vaporizer Position \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Escaping and passing the lockdown",
+      "description": "Pass Vaporizer Position film study: Escaping and passing the lockdown, taught by Thunderdome BJJ coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/PptkZQh_MFA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/PptkZQh_MFA",
+      "url": "https://www.youtube.com/watch?v=PptkZQh_MFA",
+      "creator": { "@type": "Person", "name": "Thunderdome BJJ coach" },
+      "duration": "PT31S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Lockdown half guard pass with backstep",
+      "description": "Pass Vaporizer Position film study: Lockdown half guard pass with backstep, taught by Peter Mettler.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ABSueJ6cwis/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ABSueJ6cwis",
+      "url": "https://www.youtube.com/watch?v=ABSueJ6cwis",
+      "creator": { "@type": "Person", "name": "Peter Mettler" },
+      "duration": "PT98S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +106,34 @@ This pass represents the definitive answer to lockdown-based half guard systems.
 **Success Rate**: 50%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Pass Vaporizer Position in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=PptkZQh_MFA)
+
+<p class="clip-credit"><strong>Escaping and passing the lockdown</strong> — taught by Thunderdome BJJ coach · 0:31 · <a href="https://www.youtube.com/watch?v=PptkZQh_MFA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ABSueJ6cwis)
+
+<p class="clip-credit"><strong>Lockdown half guard pass with backstep</strong> — taught by Peter Mettler · 1:38 · <a href="https://www.youtube.com/watch?v=ABSueJ6cwis" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

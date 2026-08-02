@@ -323,39 +323,129 @@
   "flashcards": [
     {
       "question": "What core concept distinguishes the Gordon Ryan Passing System from speed-based passing?",
-      "answer": "It treats guard passing as a control game rather than a speed game - establishing dominant grips and body lock control to strip frames before advancing, which minimizes the risk of sweeps and submissions."
+      "answer": "It treats guard passing as a control game rather than a speed game - establishing dominant grips and body lock control to strip frames before advancing, which minimizes the risk of sweeps and submissions.",
+      "answer_line": "Control game, not speed",
+      "distractors": {
+        "plausible": [
+          "Fast pass before recovery",
+          "Chain scrambles quickly"
+        ],
+        "trap": [
+          "Explode past the guard"
+        ]
+      }
     },
     {
       "question": "Why must grip dominance be established before initiating any passing movement in this system?",
-      "answer": "Grips remove the opponent's ability to create distance and re-frame; passing without grip control lets them recover guard, counter, or threaten leg entanglements, so grips always precede forward pressure."
+      "answer": "Grips remove the opponent's ability to create distance and re-frame; passing without grip control lets them recover guard, counter, or threaten leg entanglements, so grips always precede forward pressure.",
+      "answer_line": "Grips before pressure",
+      "distractors": {
+        "plausible": [
+          "Posture first, grips later",
+          "Attack legs before grips"
+        ],
+        "trap": [
+          "Rush the pass without grips"
+        ]
+      }
     },
     {
       "question": "What role does the Headquarters position play within the system?",
-      "answer": "Headquarters is the central hub - a stable, sweep-resistant platform controlling the opponent's legs from which body locks, leg drags, and pressure passes can all be launched while posture and base are maintained."
+      "answer": "Headquarters is the central hub - a stable, sweep-resistant platform controlling the opponent's legs from which body locks, leg drags, and pressure passes can all be launched while posture and base are maintained.",
+      "answer_line": "Stable leg-control hub",
+      "distractors": {
+        "plausible": [
+          "Temporary transition point",
+          "Submission-first position"
+        ],
+        "trap": [
+          "Abandon base to attack legs"
+        ]
+      }
     },
     {
       "question": "How does the body lock pass neutralize an opponent's defensive options?",
-      "answer": "Securing a tight body lock around the torso connects your hips to theirs, eliminating space for frames and hip escapes, after which walking the legs to one side methodically dismantles guard retention."
+      "answer": "Securing a tight body lock around the torso connects your hips to theirs, eliminating space for frames and hip escapes, after which walking the legs to one side methodically dismantles guard retention.",
+      "answer_line": "Body lock kills hip escapes",
+      "distractors": {
+        "plausible": [
+          "Grip belt then walk around",
+          "Underhook then sit back"
+        ],
+        "trap": [
+          "Release lock to speed up"
+        ]
+      }
     },
     {
       "question": "When is the over-under pressure pass the preferred passing choice?",
-      "answer": "It excels against space-creating open or butterfly guard players and larger opponents - driving a shoulder under one leg while controlling over the other stacks them and removes the room they need to retain guard."
+      "answer": "It excels against space-creating open or butterfly guard players and larger opponents - driving a shoulder under one leg while controlling over the other stacks them and removes the room they need to retain guard.",
+      "answer_line": "Vs open/butterfly, bigger foes",
+      "distractors": {
+        "plausible": [
+          "Best vs closed guard",
+          "Only for smaller opponents"
+        ],
+        "trap": [
+          "Use vs deep half guard"
+        ]
+      }
     },
     {
       "question": "What advantage does the leg drag offer compared to other passes in the system?",
-      "answer": "Dragging the near leg across the body breaks the opponent's hip alignment and creates immediate back-exposure opportunities while killing retention mechanics, making it a high-percentage entry to side control or the back."
+      "answer": "Dragging the near leg across the body breaks the opponent's hip alignment and creates immediate back-exposure opportunities while killing retention mechanics, making it a high-percentage entry to side control or the back.",
+      "answer_line": "Exposes back, kills retention",
+      "distractors": {
+        "plausible": [
+          "Slower but safer entry",
+          "Best for submissions directly"
+        ],
+        "trap": [
+          "Drag far leg across body"
+        ]
+      }
     },
     {
       "question": "What is the most common mistake practitioners make when applying this pressure passing system?",
-      "answer": "Substituting speed for pressure - the system relies on patient, heavy control rather than explosive scrambles, and rushing surrenders grip dominance and lets a skilled guard player recover frames."
+      "answer": "Substituting speed for pressure - the system relies on patient, heavy control rather than explosive scrambles, and rushing surrenders grip dominance and lets a skilled guard player recover frames.",
+      "answer_line": "Rushing instead of pressure",
+      "distractors": {
+        "plausible": [
+          "Over-gripping single collar",
+          "Too much lateral movement"
+        ],
+        "trap": [
+          "Speed through every defense"
+        ]
+      }
     },
     {
       "question": "How should you respond when an initial passing attempt is defended?",
-      "answer": "Chain into the next passing option rather than resetting to neutral - transition between body lock, leg drag, and over-under based on the defensive reaction to keep continuous pressure and fatigue the guard."
+      "answer": "Chain into the next passing option rather than resetting to neutral - transition between body lock, leg drag, and over-under based on the defensive reaction to keep continuous pressure and fatigue the guard.",
+      "answer_line": "Chain to next pass option",
+      "distractors": {
+        "plausible": [
+          "Reset to neutral stance",
+          "Stand up and restart"
+        ],
+        "trap": [
+          "Abandon grips, retreat"
+        ]
+      }
     },
     {
       "question": "Why is leg entanglement awareness critical when pressuring forward in no-gi?",
-      "answer": "Elite guard players threaten ashi garami and other entanglements to stop forward pressure; keeping the hips back when appropriate and clearing the legs with leg drags lets you advance through danger zones safely."
+      "answer": "Elite guard players threaten ashi garami and other entanglements to stop forward pressure; keeping the hips back when appropriate and clearing the legs with leg drags lets you advance through danger zones safely.",
+      "answer_line": "Clear legs, avoid entanglement",
+      "distractors": {
+        "plausible": [
+          "Ignore legs, push forward",
+          "Sit back immediately always"
+        ],
+        "trap": [
+          "Chase the ashi garami"
+        ]
+      }
     }
   ]
 }

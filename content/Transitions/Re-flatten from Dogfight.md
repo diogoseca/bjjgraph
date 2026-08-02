@@ -34,6 +34,54 @@ description: "Master the Re-flatten from Dogfight in BJJ. Learn crossface pressu
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Re-flatten from Dogfight \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Killing the half guard underhook to flatten your opponent",
+      "description": "Re-flatten from Dogfight film study: Killing the half guard underhook to flatten your opponent, taught by Malachy Friedman.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/dOdO6xJ-TcU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/dOdO6xJ-TcU",
+      "url": "https://www.youtube.com/watch?v=dOdO6xJ-TcU",
+      "creator": { "@type": "Person", "name": "Malachy Friedman" },
+      "duration": "PT98S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Dog Fight Basics: Plan B and Oldschool Sweep",
+      "description": "Re-flatten from Dogfight film study: Dog Fight Basics: Plan B and Oldschool Sweep, taught by Brandon McCaghren.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/fjDBmFzfhgI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/fjDBmFzfhgI",
+      "url": "https://www.youtube.com/watch?v=fjDBmFzfhgI",
+      "creator": { "@type": "Person", "name": "Brandon McCaghren" },
+      "duration": "PT145S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Dogfight Counterattacks: Beating Their Half Guard",
+      "description": "Re-flatten from Dogfight film study: Dogfight Counterattacks: Beating Their Half Guard, taught by Energia Martial Arts coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/TlAHoKqCq7M/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/TlAHoKqCq7M",
+      "url": "https://www.youtube.com/watch?v=TlAHoKqCq7M",
+      "creator": { "@type": "Person", "name": "Energia Martial Arts coach" },
+      "duration": "PT438S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -66,9 +114,45 @@ The technique operates on a fundamental biomechanical principle: the dogfight bo
 Strategically, the re-flatten occupies an important position in the top player's dogfight decision tree. While more aggressive options like the crossface pass or back step exist, the re-flatten provides the highest-percentage method for stabilizing the position and resetting to a controlled passing scenario. Advanced practitioners layer the re-flatten threat with other attacks, using the bottom player's defensive reactions to re-flattening pressure as entries for passes and submissions. The technique is particularly valuable against skilled half guard players who consistently achieve dogfight, as it allows the top player to deny the offensive position rather than repeatedly defending sweeps and back takes.
 
 **From Position**: [[Positions/Dogfight Position]] (Top)
-**Success Rate**: 55%
+**Success Rate**: 49%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Re-flatten from Dogfight in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=dOdO6xJ-TcU)
+
+<p class="clip-credit"><strong>Killing the half guard underhook to flatten your opponent</strong> — taught by Malachy Friedman · 1:38 · <a href="https://www.youtube.com/watch?v=dOdO6xJ-TcU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=fjDBmFzfhgI)
+
+<p class="clip-credit"><strong>Dog Fight Basics: Plan B and Oldschool Sweep</strong> — taught by Brandon McCaghren · 2:25 · <a href="https://www.youtube.com/watch?v=fjDBmFzfhgI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=TlAHoKqCq7M)
+
+<p class="clip-credit"><strong>Dogfight Counterattacks: Beating Their Half Guard</strong> — taught by Energia Martial Arts coach · 7:18 · <a href="https://www.youtube.com/watch?v=TlAHoKqCq7M" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

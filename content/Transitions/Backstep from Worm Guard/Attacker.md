@@ -174,6 +174,43 @@ description: "Complete guide to executing the Backstep from Worm Guard pass. Lea
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Backstep from Worm Guard (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Passing the Polish Worm Rider lapel guard",
+      "description": "Backstep from Worm Guard (Attacker) film study: Passing the Polish Worm Rider lapel guard, taught by Daniel Maira and Nicholas Salles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/aR0dbddbfQA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/aR0dbddbfQA",
+      "url": "https://www.youtube.com/watch?v=aR0dbddbfQA",
+      "creator": { "@type": "Person", "name": "Daniel Maira and Nicholas Salles" },
+      "duration": "PT54S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Passing Lapel Guard",
+      "description": "Backstep from Worm Guard (Attacker) film study: Passing Lapel Guard, taught by Vicente Cavalcanti.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/u0D9HUwXuKE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/u0D9HUwXuKE",
+      "url": "https://www.youtube.com/watch?v=u0D9HUwXuKE",
+      "creator": { "@type": "Person", "name": "Vicente Cavalcanti" },
+      "duration": "PT70S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -183,6 +220,34 @@ As the top player executing the backstep from worm guard, your primary objective
 **From Position**: [[Positions/Worm Guard]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Backstep from Worm Guard (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=aR0dbddbfQA)
+
+<p class="clip-credit"><strong>Passing the Polish Worm Rider lapel guard</strong> — taught by Daniel Maira and Nicholas Salles · 0:54 · <a href="https://www.youtube.com/watch?v=aR0dbddbfQA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=u0D9HUwXuKE)
+
+<p class="clip-credit"><strong>Passing Lapel Guard</strong> — taught by Vicente Cavalcanti · 1:10 · <a href="https://www.youtube.com/watch?v=u0D9HUwXuKE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

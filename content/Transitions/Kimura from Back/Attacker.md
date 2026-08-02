@@ -174,6 +174,54 @@ description: "How to execute Kimura from Back in BJJ. Attacking perspective with
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Kimura from Back (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Short figure-four kimura from back control",
+      "description": "Kimura from Back (Attacker) film study: Short figure-four kimura from back control, taught by Effortless Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/gA0eqO9KtUg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/gA0eqO9KtUg",
+      "url": "https://www.youtube.com/watch?v=gA0eqO9KtUg",
+      "creator": { "@type": "Person", "name": "Effortless Jiu Jitsu" },
+      "duration": "PT268S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Back leg shin pin into kimura",
+      "description": "Kimura from Back (Attacker) film study: Back leg shin pin into kimura, taught by John Danaher.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/CHSAJDqdQIs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/CHSAJDqdQIs",
+      "url": "https://www.youtube.com/watch?v=CHSAJDqdQIs",
+      "creator": { "@type": "Person", "name": "John Danaher" },
+      "duration": "PT249S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Danaher kimura from the back",
+      "description": "Kimura from Back (Attacker) film study: Danaher kimura from the back, taught by John Danaher.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/NoQ5bt7yw48/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/NoQ5bt7yw48",
+      "url": "https://www.youtube.com/watch?v=NoQ5bt7yw48",
+      "creator": { "@type": "Person", "name": "John Danaher" },
+      "duration": "PT108S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -187,6 +235,42 @@ The technique exemplifies the principle of systematic attack chains from back co
 **From Position**: [[Positions/Triangle Control/Rear Triangle]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Kimura from Back (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=gA0eqO9KtUg)
+
+<p class="clip-credit"><strong>Short figure-four kimura from back control</strong> — taught by Effortless Jiu Jitsu · 4:28 · <a href="https://www.youtube.com/watch?v=gA0eqO9KtUg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=CHSAJDqdQIs)
+
+<p class="clip-credit"><strong>Back leg shin pin into kimura</strong> — taught by John Danaher · 4:09 · <a href="https://www.youtube.com/watch?v=CHSAJDqdQIs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=NoQ5bt7yw48)
+
+<p class="clip-credit"><strong>Danaher kimura from the back</strong> — taught by John Danaher · 1:48 · <a href="https://www.youtube.com/watch?v=NoQ5bt7yw48" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

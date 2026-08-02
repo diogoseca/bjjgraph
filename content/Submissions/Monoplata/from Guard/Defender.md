@@ -150,6 +150,54 @@ description: "How to defend against Monoplata from Guard in BJJ. Recognition, es
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Monoplata from Guard (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "The Omoplata Escape Before the Forward Roll",
+      "description": "Monoplata from Guard (Defender) film study: The Omoplata Escape Before the Forward Roll, taught by Jiu-Jitsu Times.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/tJRjDm9z_9E/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/tJRjDm9z_9E",
+      "url": "https://www.youtube.com/watch?v=tJRjDm9z_9E",
+      "creator": { "@type": "Person", "name": "Jiu-Jitsu Times" },
+      "duration": "PT98S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Omoplata Defense Breakdown",
+      "description": "Monoplata from Guard (Defender) film study: Omoplata Defense Breakdown, taught by Ursinho BJJ Coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/WpdIBfxbUbo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/WpdIBfxbUbo",
+      "url": "https://www.youtube.com/watch?v=WpdIBfxbUbo",
+      "creator": { "@type": "Person", "name": "Ursinho BJJ Coach" },
+      "duration": "PT160S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Omoplata Escapes",
+      "description": "Monoplata from Guard (Defender) film study: Omoplata Escapes, taught by Athlas Training Team Coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/FTJFeHQj1Fo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/FTJFeHQj1Fo",
+      "url": "https://www.youtube.com/watch?v=FTJFeHQj1Fo",
+      "creator": { "@type": "Person", "name": "Athlas Training Team Coach" },
+      "duration": "PT180S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -160,6 +208,42 @@ Defending the Monoplata from Guard requires early recognition and immediate acti
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Monoplata from Guard (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=tJRjDm9z_9E)
+
+<p class="clip-credit"><strong>The Omoplata Escape Before the Forward Roll</strong> — taught by Jiu-Jitsu Times · 1:38 · <a href="https://www.youtube.com/watch?v=tJRjDm9z_9E" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=WpdIBfxbUbo)
+
+<p class="clip-credit"><strong>Omoplata Defense Breakdown</strong> — taught by Ursinho BJJ Coach · 2:40 · <a href="https://www.youtube.com/watch?v=WpdIBfxbUbo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=FTJFeHQj1Fo)
+
+<p class="clip-credit"><strong>Omoplata Escapes</strong> — taught by Athlas Training Team Coach · 3:00 · <a href="https://www.youtube.com/watch?v=FTJFeHQj1Fo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

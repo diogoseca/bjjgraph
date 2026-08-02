@@ -170,6 +170,54 @@ description: "Learn to attack with the heel hook from Inside Ashi-Garami includi
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Heel Hook from Inside Ashi-Garami (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Inversion to inside heel hook",
+      "description": "Heel Hook from Inside Ashi-Garami (Attacker) film study: Inversion to inside heel hook, taught by Gordon Ryan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/chtDbrmYQo8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/chtDbrmYQo8",
+      "url": "https://www.youtube.com/watch?v=chtDbrmYQo8",
+      "creator": { "@type": "Person", "name": "Gordon Ryan" },
+      "duration": "PT62S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "WNO inversion heel hook breakdown",
+      "description": "Heel Hook from Inside Ashi-Garami (Attacker) film study: WNO inversion heel hook breakdown, taught by Gordon Ryan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/mZ4Q3PL9iZ4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/mZ4Q3PL9iZ4",
+      "url": "https://www.youtube.com/watch?v=mZ4Q3PL9iZ4",
+      "creator": { "@type": "Person", "name": "Gordon Ryan" },
+      "duration": "PT53S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Inside ashi garami heel hook",
+      "description": "Heel Hook from Inside Ashi-Garami (Attacker) film study: Inside ashi garami heel hook, taught by Modesto Judo Club.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/FfkVEt5YHbY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/FfkVEt5YHbY",
+      "url": "https://www.youtube.com/watch?v=FfkVEt5YHbY",
+      "creator": { "@type": "Person", "name": "Modesto Judo Club" },
+      "duration": "PT59S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -180,6 +228,42 @@ Attacking the heel hook from Inside Ashi-Garami requires establishing secure leg
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Heel Hook from Inside Ashi-Garami (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=chtDbrmYQo8)
+
+<p class="clip-credit"><strong>Inversion to inside heel hook</strong> — taught by Gordon Ryan · 1:02 · <a href="https://www.youtube.com/watch?v=chtDbrmYQo8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=mZ4Q3PL9iZ4)
+
+<p class="clip-credit"><strong>WNO inversion heel hook breakdown</strong> — taught by Gordon Ryan · 0:53 · <a href="https://www.youtube.com/watch?v=mZ4Q3PL9iZ4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=FfkVEt5YHbY)
+
+<p class="clip-credit"><strong>Inside ashi garami heel hook</strong> — taught by Modesto Judo Club · 0:59 · <a href="https://www.youtube.com/watch?v=FfkVEt5YHbY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

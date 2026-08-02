@@ -34,6 +34,43 @@ description: "Master Seat Belt Control from Back position in BJJ. Dominant 4-poi
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Seat Belt Control Back \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Seatbelt Grip Quick Fix",
+      "description": "Seat Belt Control Back film study: Seatbelt Grip Quick Fix, taught by Ben Kool.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/MwxnveKrlxU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/MwxnveKrlxU",
+      "url": "https://www.youtube.com/watch?v=MwxnveKrlxU",
+      "creator": { "@type": "Person", "name": "Ben Kool" },
+      "duration": "PT62S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Back Mount Seatbelt Control Fundamentals",
+      "description": "Seat Belt Control Back film study: Back Mount Seatbelt Control Fundamentals, taught by Teach Me NoGi.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/baSqWCtLysU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/baSqWCtLysU",
+      "url": "https://www.youtube.com/watch?v=baSqWCtLysU",
+      "creator": { "@type": "Person", "name": "Teach Me NoGi" },
+      "duration": "PT212S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -68,6 +105,34 @@ From both perspectives, this position demands technical precision and strategic 
 The seat belt grip itself functions as a force multiplier. The over-arm creates downward diagonal pressure while the under-arm creates upward diagonal pressure, and these opposing vectors lock opponent's torso in place far more effectively than parallel grips would. This biomechanical reality explains why the seat belt has become universal across all competition formats. Breaking this grip requires addressing each arm independently, which creates the fundamental timing dilemma for the bottom player: releasing neck defense to fight grips exposes the throat, while ignoring grips allows the top player to maintain indefinite control and systematically work toward finishes.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Seat Belt Control Back in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=MwxnveKrlxU)
+
+<p class="clip-credit"><strong>Seatbelt Grip Quick Fix</strong> — taught by Ben Kool · 1:02 · <a href="https://www.youtube.com/watch?v=MwxnveKrlxU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=baSqWCtLysU)
+
+<p class="clip-credit"><strong>Back Mount Seatbelt Control Fundamentals</strong> — taught by Teach Me NoGi · 3:32 · <a href="https://www.youtube.com/watch?v=baSqWCtLysU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 
@@ -139,25 +204,25 @@ The seat belt grip itself functions as a force multiplier. The over-arm creates 
 ### Available Transitions
 
 
-- **[[Transitions/Hand Fighting from Back/Attacker|Hand Fighting from Back]]** (43% of attempts)
+- **[[Transitions/Hand Fighting from Back/Attacker|Hand Fighting from Back]]** (17% of attempts)
 
-- **[[Transitions/Back Door Escape/Attacker|Back Door Escape]]** (12% of attempts)
+- **[[Transitions/Back Door Escape/Attacker|Back Door Escape]]** (7% of attempts)
 
-- **[[Transitions/Granby Roll to Guard/Attacker|Granby Roll to Guard]]** (2% of attempts)
+- **[[Transitions/Granby Roll to Guard/Attacker|Granby Roll to Guard]]** (7% of attempts)
 
-- **[[Transitions/Elbow Escape to Remove Hooks/Attacker|Elbow Escape to Remove Hooks]]** (19% of attempts)
+- **[[Transitions/Elbow Escape to Remove Hooks/Attacker|Elbow Escape to Remove Hooks]]** (10% of attempts)
 
-- **[[Transitions/Hip Escape to Turtle/Attacker|Hip Escape to Turtle]]** (15% of attempts)
+- **[[Transitions/Hip Escape to Turtle/Attacker|Hip Escape to Turtle]]** (10% of attempts)
 
-- **[[Transitions/Standing up in Base/Attacker|Standing up in Base]]** (2% of attempts)
+- **[[Transitions/Standing up in Base/Attacker|Standing up in Base]]** (7% of attempts)
 
-- **[[Transitions/Turn In and Face/Attacker|Turn In and Face]]** (4% of attempts)
+- **[[Transitions/Turn In and Face/Attacker|Turn In and Face]]** (10% of attempts)
 
-- **[[Transitions/Escape Seat Belt Control/Attacker|Escape Seat Belt Control]]** (1% of attempts)
+- **[[Transitions/Escape Seat Belt Control/Attacker|Escape Seat Belt Control]]** (12% of attempts)
 
-- **[[Transitions/Hand Fight from Seat Belt Control/Attacker|Hand Fight from Seat Belt Control]]** (1% of attempts)
+- **[[Transitions/Hand Fight from Seat Belt Control/Attacker|Hand Fight from Seat Belt Control]]** (13% of attempts)
 
-- **[[Transitions/Seat Belt Peel Escape/Attacker|Seat Belt Peel Escape]]** (1% of attempts)
+- **[[Transitions/Seat Belt Peel Escape/Attacker|Seat Belt Peel Escape]]** (7% of attempts)
 
 
 ### Common Mistakes
@@ -218,31 +283,31 @@ The seat belt grip itself functions as a force multiplier. The over-arm creates 
 ### Available Transitions
 
 
-- **[[Rear Naked Choke from Seat Belt Control Back/Attacker|Rear Naked Choke from Seat Belt Control Back]]** (37% of attempts)
+- **[[Rear Naked Choke from Seat Belt Control Back/Attacker|Rear Naked Choke from Seat Belt Control Back]]** (30% of attempts)
 
-- **[[Transitions/Armbar from Back Transition/Attacker|Armbar from Back Transition]]** (10% of attempts)
+- **[[Transitions/Armbar from Back Transition/Attacker|Armbar from Back Transition]]** (4% of attempts)
 
-- **[[Bow and Arrow Choke from Seat Belt Control Back/Attacker|Bow and Arrow Choke from Seat Belt Control Back]]** (7% of attempts)
+- **[[Bow and Arrow Choke from Seat Belt Control Back/Attacker|Bow and Arrow Choke from Seat Belt Control Back]]** (0% of attempts)
 
-- **[[Transitions/Back Control to Crucifix/Attacker|Back Control to Crucifix]]** (6% of attempts)
+- **[[Transitions/Back Control to Crucifix/Attacker|Back Control to Crucifix]]** (5% of attempts)
 
 - **[[Short Choke from Seat Belt Control Back/Attacker|Short Choke from Seat Belt Control Back]]** (5% of attempts)
 
-- **[[Transitions/Back Control Maintenance/Attacker|Back Control Maintenance]]** (13% of attempts)
+- **[[Transitions/Back Control Maintenance/Attacker|Back Control Maintenance]]** (17% of attempts)
 
-- **[[Transitions/Body Triangle Lock/Attacker|Body Triangle Lock]]** (6% of attempts)
+- **[[Transitions/Body Triangle Lock/Attacker|Body Triangle Lock]]** (11% of attempts)
 
 - **[[Transitions/Kimura from Back/Attacker|Kimura from Back]]** (3% of attempts)
 
 - **[[Transitions/Triangle from Back/Attacker|Triangle from Back]]** (3% of attempts)
 
-- **[[Transitions/Roll to Truck/Attacker|Roll to Truck]]** (3% of attempts)
+- **[[Transitions/Roll to Truck/Attacker|Roll to Truck]]** (5% of attempts)
 
 - **[[Positions/Gift Wrap/Attacker|Gift Wrap]]** (5% of attempts)
 
-- **[[Transitions/Seat Belt to Body Triangle/Attacker|Seat Belt to Body Triangle]]** (1% of attempts)
+- **[[Transitions/Seat Belt to Body Triangle/Attacker|Seat Belt to Body Triangle]]** (6% of attempts)
 
-- **[[Transitions/Seat Belt to Full Back Control/Attacker|Seat Belt to Full Back Control]]** (1% of attempts)
+- **[[Transitions/Seat Belt to Full Back Control/Attacker|Seat Belt to Full Back Control]]** (6% of attempts)
 
 
 ### Common Mistakes

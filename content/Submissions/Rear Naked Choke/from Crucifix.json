@@ -20,7 +20,10 @@
   "target_area": "Carotid arteries and jugular veins",
   "starting_position": "Crucifix",
   "from_position": "Crucifix/Top",
-  "success_rate": 65,
+  "success_rate": {
+    "gi": 65,
+    "nogi": 65
+  },
   "summary": "The Rear Naked Choke from Crucifix is a high-percentage blood choke finished from crucifix control, where both of the opponent's arms are isolated—one by a leg triangle, the other by hand—leaving the neck undefended for a carotid strangle.",
   "overview": "The Rear Naked Choke from Crucifix exploits the defining advantage of the crucifix position: complete bilateral arm isolation. With both of the opponent's arms trapped—one by a leg triangle configuration and the other by hand or overhook control—the neck becomes almost entirely undefended, creating a finishing scenario with one of the highest success rates of any choke setup in competitive grappling.\n\nThe primary technical challenge lies in transitioning from arm control to choking grip without compromising positional integrity. The attacker must release control of the far arm to thread the choking arm under the opponent's chin, creating a brief vulnerability window where the defender may free a hand for neck defense. Timing this transition—and having secondary controls ready—separates successful finishes from scrambles back to neutral crucifix.\n\nUnlike the standard RNC from back control, the crucifix variant benefits from the opponent's severely limited hip mobility and inability to create defensive angles. The trapped arms cannot generate the frames needed for escape, and the opponent's awareness of their vulnerability often produces reactions that further expose the neck. Advanced practitioners use the choke threat to set up arm attacks, creating a submission chain where defending one threat opens another.",
   "safety_considerations": {
@@ -106,17 +109,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 65,
+      "probability": {
+        "gi": 65,
+        "nogi": 65
+      },
       "result": "success"
     },
     {
       "to": "Crucifix/Top",
-      "probability": 23,
+      "probability": {
+        "gi": 23,
+        "nogi": 23
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 12,
+      "probability": {
+        "gi": 12,
+        "nogi": 12
+      },
       "result": "counter"
     }
   ],
@@ -278,52 +290,181 @@
       {
         "question": "What anatomical structures does the Rear Naked Choke from Crucifix primarily attack?",
         "answer": "The RNC targets the carotid arteries on both sides of the neck, compressing them between the forearm and bicep to restrict blood flow to the brain. The crook of the elbow aligns with the center of the throat so the radius bone compresses one carotid artery and the bicep compresses the other. This produces cerebral ischemia and unconsciousness within 4-8 seconds of a properly locked choke, making correct arterial targeting essential for both effectiveness and safety.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Both carotid arteries",
+        "distractors": {
+          "plausible": [
+            "Jugular veins on both sides",
+            "One carotid, one jugular"
+          ],
+          "trap": [
+            "Crush the trachea directly"
+          ]
+        }
       },
       {
         "question": "What is the critical transition window and how do you minimize defensive opportunities during it?",
         "answer": "The transition window is the moment when you release control of the far arm to thread the choking arm under the chin. During this 1-2 second window, the opponent's freed hand can reach their neck for defense. Minimize this by pre-positioning the choking arm close to the neck before releasing, making the release and thread nearly simultaneous. Speed and preparation during this window determine whether the choke succeeds or becomes a contested grip fight.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Pre-position arm before releasing",
+        "distractors": {
+          "plausible": [
+            "Release far arm, then reposition",
+            "Grip fight before releasing"
+          ],
+          "trap": [
+            "Release both arms at once"
+          ]
+        }
       },
       {
         "question": "Your opponent aggressively tucks their chin as you thread the choking arm—what adjustments do you make?",
         "answer": "First, use the non-choking hand to push the chin up from the opposite side or pry under it with your wrist blade along the jawline as a wedge. If the chin remains locked, apply the choke over the chin—from crucifix with both arms trapped, the jaw pressure creates extreme discomfort that often forces the opponent to lift their chin voluntarily, creating space for the forearm to slide underneath into a clean blood choke position.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Pry chin up, or choke over it",
+        "distractors": {
+          "plausible": [
+            "Wait for the chin to tire out",
+            "Squeeze harder without adjusting"
+          ],
+          "trap": [
+            "Release arm control to reposition"
+          ]
+        }
       },
       {
         "question": "What is the correct forearm placement to ensure a blood choke rather than an air choke?",
         "answer": "The crook of the elbow must align with the center of the opponent's throat so that the radius and ulna compress one carotid artery while the bicep compresses the other. If the forearm sits across the front of the trachea, it creates an air choke that is less effective and significantly more dangerous to the training partner. Confirm correct placement by checking that pressure is felt on the sides of the neck, not the front. Adjust by sliding the arm deeper if needed.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Elbow crook centers on throat",
+        "distractors": {
+          "plausible": [
+            "Bicep only, no forearm depth",
+            "Wrist blade under the jawline"
+          ],
+          "trap": [
+            "Grind forearm across the windpipe"
+          ]
+        }
       },
       {
         "question": "How should you release the Rear Naked Choke from Crucifix immediately upon receiving a tap signal?",
         "answer": "Immediately open the figure-four lock and remove the choking arm from the neck. Release the leg triangle to free the trapped arm. Allow the opponent to return to a neutral position. Monitor their consciousness and breathing for at least 30 seconds after release. If they lost consciousness, keep them in a side-lying recovery position and do not allow them to stand until they are fully alert and responsive. Never hold the choke past the tap for any reason.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Release fully, monitor 30 seconds",
+        "distractors": {
+          "plausible": [
+            "Sit them up right away",
+            "Keep legs locked, drop the arm"
+          ],
+          "trap": [
+            "Hold two seconds to be sure"
+          ]
+        }
       },
       {
         "question": "What are the indicators that the choke is properly positioned and will produce a finish?",
         "answer": "Key indicators include the opponent's face rapidly changing color, involuntary body tension followed by progressive relaxation, the opponent's movements becoming slower and less coordinated, and the feeling of arterial pulse against your forearm diminishing. In training, a properly locked choke typically produces a tap within 2-3 seconds. If you are squeezing hard but the opponent shows no distress after 5 seconds, your forearm placement is likely off-center and needs adjustment.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Pulse fading, tap within seconds",
+        "distractors": {
+          "plausible": [
+            "Loud gasping and coughing sounds",
+            "Face stays its normal color"
+          ],
+          "trap": [
+            "Crank harder when nothing happens"
+          ]
+        }
       },
       {
         "question": "Why is maintaining leg triangle pressure during the choke attempt essential to the finish?",
         "answer": "The leg triangle trapping the near arm is the positional foundation that makes the crucifix RNC viable. If the leg triangle loosens, the opponent extracts their trapped arm and immediately gains defensive capability—they can create frames, fight the choking arm with two hands, and generate escape momentum. Maintaining constant leg pressure ensures the opponent remains defenseless throughout the choke sequence, preserving the asymmetric advantage that defines this position and its high finish rate.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Traps arm, removes all defense",
+        "distractors": {
+          "plausible": [
+            "Just extra body control",
+            "Mainly for balance/base"
+          ],
+          "trap": [
+            "Loosen it to save energy"
+          ]
+        }
       },
       {
         "question": "Your opponent gets their freed hand inside your choking grip before the figure-four is locked—how do you respond?",
         "answer": "Use your non-choking hand to isolate and strip their defensive hand by peeling fingers from your wrist or forearm, working from the pinky side. If the grip is too established to strip, switch to an arm attack on the now-exposed defending arm—reaching to defend the neck pulls their arm away from their body into vulnerable positions for kimura or armbar. This creates a submission chain where defending the choke opens a different attack.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Strip hand, or attack that arm",
+        "distractors": {
+          "plausible": [
+            "Squeeze harder and force it",
+            "Wait for their grip to tire"
+          ],
+          "trap": [
+            "Open the leg triangle to adjust"
+          ]
+        }
       },
       {
         "question": "What distinguishes the RNC finish from crucifix versus standard back control in terms of defensive options available to the opponent?",
         "answer": "From standard back control, the opponent has both arms free for defense, enabling two-on-one grip fighting, active hand fighting on the choking arm, and frame creation against the head. From crucifix, at minimum one arm is completely trapped by the leg triangle and the other is controlled or briefly freed during transition. This eliminates the two-on-one defense entirely and reduces defensive options to single-hand fighting and chin tuck, dramatically increasing the finish rate compared to conventional back control RNC attempts.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "No two-on-one defense possible",
+        "distractors": {
+          "plausible": [
+            "Body triangle replaces leg control",
+            "Only the finishing angle differs"
+          ],
+          "trap": [
+            "Free their arm to speed the choke"
+          ]
+        }
       },
       {
         "question": "What training speed should you use when drilling this submission and why is it particularly important from crucifix?",
         "answer": "Always drill with slow, progressive application—3-5 seconds minimum to build pressure in training. The RNC from crucifix is particularly dangerous because the opponent has severely limited defensive capacity and the choke can lock fully before they have time to tap. Never use competition speed during drilling. The combination of positional dominance and rapid blood flow restriction means unconsciousness can occur within seconds of a properly locked choke, making controlled and progressive application absolutely essential for partner safety.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Slow build, 3-5 seconds minimum",
+        "distractors": {
+          "plausible": [
+            "Light and fast for more reps",
+            "Normal drilling pace, like armbars"
+          ],
+          "trap": [
+            "Snap it on to test their defense"
+          ]
+        }
+      }
+    ],
+    "clips": [
+      {
+        "id": "3t6j9HT6Mr8",
+        "title": "Crucifix to Rear Naked Choke",
+        "by": "Greg Ferguson",
+        "vertical": false,
+        "channel": "Greg Ferguson",
+        "duration": 43,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "amVyOvT2yJs",
+        "title": "Rear Naked Choke from Crucifix Position",
+        "by": "Mat Life Training Center",
+        "vertical": false,
+        "channel": "Mat Life Training Center",
+        "duration": 14,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "9CY6G2j6kHI",
+        "title": "Crucifix from Modified North South",
+        "by": "BJJ Recap",
+        "vertical": false,
+        "channel": "BJJ Recap",
+        "duration": 69,
+        "verified": "2026-07-14"
       }
     ]
   },
@@ -412,22 +553,62 @@
       {
         "question": "How do you recognize that the attacker is transitioning from crucifix control to the Rear Naked Choke attempt?",
         "answer": "Key recognition cues include the attacker loosening or shifting their grip on your far arm, their body angle changing to align the choking arm with your neck, and a weight shift as they prepare to commit. The most definitive signal is feeling your far arm released entirely—at this point the choke transition is actively happening and you have 1-2 seconds to establish neck defense before the forearm reaches your chin. Early recognition dramatically improves defensive success rates.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Far arm released entirely",
+        "distractors": {
+          "plausible": [
+            "Grip tightens on trapped arm",
+            "Opponent's hips settle down"
+          ],
+          "trap": [
+            "Wait for figure-four to lock"
+          ]
+        }
       },
       {
         "question": "What is the safest response if the choke is fully locked with the figure-four secured behind your head?",
         "answer": "Tap immediately using any available signal—verbal tap, hand tap on the attacker's body or the mat, or foot tap on the mat. A properly locked RNC from crucifix produces unconsciousness within 4-8 seconds and has virtually zero escape rate when both arms are compromised by the crucifix configuration. Fighting a locked choke from this position wastes energy and risks loss of consciousness. Tapping to a fully secured submission from the most dominant finishing position in grappling is the correct and safe decision.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Tap immediately, any signal",
+        "distractors": {
+          "plausible": [
+            "Try to strip the choking wrist",
+            "Bridge and roll to escape"
+          ],
+          "trap": [
+            "Fight it a few more seconds"
+          ]
+        }
       },
       {
         "question": "What defensive options are available when the attacker threads their forearm under your chin but has not locked the figure-four?",
         "answer": "If the forearm is under the chin but the figure-four is not locked, use your freed hand for two-on-one defense—grip the choking wrist and pull it away from your neck while turning your chin toward the crook of the elbow to reduce compression. Simultaneously work to extract the trapped arm from the leg triangle through hip movement. If you can strip the choking grip, immediately address the crucifix position before the attacker reattempts. Time is critical because once the figure-four locks, effective defense becomes nearly impossible.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Two-on-one grip, turn chin in",
+        "distractors": {
+          "plausible": [
+            "Bridge and roll to the far side",
+            "Push their head back with a hand"
+          ],
+          "trap": [
+            "Turn away from the choking arm"
+          ]
+        }
       },
       {
         "question": "Why is the transition moment when the attacker releases your far arm the most important defensive window?",
         "answer": "This is the only moment when the attacker has voluntarily reduced their control over the position—they have released one control point to commit to the choke. This brief window is your best opportunity because you have a free hand for immediate neck defense, the attacker's weight is shifting during the transition creating potential instability, and their attention is split between maintaining the leg triangle trap and threading the choking arm. Every second of delay in exploiting this window decreases your probability of successful defense.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Only moment control is reduced",
+        "distractors": {
+          "plausible": [
+            "Their body triangle opens then",
+            "Their grip strength peaks then"
+          ],
+          "trap": [
+            "Wait until the figure-four locks"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -450,6 +631,35 @@
         "phase": "Phase 4: Live Positional Defense",
         "focus": "Full resistance survival and escape under competition conditions",
         "description": "Three-minute rounds from crucifix bottom with partner actively attacking the RNC at full intensity. Full resistance from both players. Track survival time and escape rate across sessions. Debrief after each round to identify specific defensive gaps, timing errors, and which recognition cues were missed or acted on too slowly."
+      }
+    ],
+    "clips": [
+      {
+        "id": "Wrg5Tx-88yM",
+        "title": "Simple Crucifix Escape",
+        "by": "Coach Brian",
+        "vertical": false,
+        "channel": "TeachMeGrappling Coach Brian",
+        "duration": 149,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "OO92wSXFFV8",
+        "title": "Crucifix Escape",
+        "by": "Left Side Jiu-Jitsu",
+        "vertical": false,
+        "channel": "Left Side Jiu-Jitsu ",
+        "duration": 145,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "m-iTKRTVeeo",
+        "title": "Crucifix Escape",
+        "by": "Chosen Few BJJ",
+        "vertical": false,
+        "channel": "Chosen Few BJJ",
+        "duration": 160,
+        "verified": "2026-07-14"
       }
     ]
   }

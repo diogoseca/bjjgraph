@@ -174,6 +174,43 @@ description: "Learn how to execute the Frame and Shrimp escape from Knee on Bell
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Frame and Shrimp from Knee on Belly (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "How to escape knee on belly",
+      "description": "Frame and Shrimp from Knee on Belly (Attacker) film study: How to escape knee on belly, taught by Evolve MMA.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Wn01Ynw7O28/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Wn01Ynw7O28",
+      "url": "https://www.youtube.com/watch?v=Wn01Ynw7O28",
+      "creator": { "@type": "Person", "name": "Evolve MMA" },
+      "duration": "PT40S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Knee on belly escape to technical stand up",
+      "description": "Frame and Shrimp from Knee on Belly (Attacker) film study: Knee on belly escape to technical stand up, taught by Lucas Lepri.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/52LxBaUJdcw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/52LxBaUJdcw",
+      "url": "https://www.youtube.com/watch?v=52LxBaUJdcw",
+      "creator": { "@type": "Person", "name": "Lucas Lepri" },
+      "duration": "PT131S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -183,6 +220,34 @@ As the bottom player executing the Frame and Shrimp escape, your objective is to
 **From Position**: [[Positions/Knee on Belly]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Frame and Shrimp from Knee on Belly (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Wn01Ynw7O28)
+
+<p class="clip-credit"><strong>How to escape knee on belly</strong> — taught by Evolve MMA · 0:40 · <a href="https://www.youtube.com/watch?v=Wn01Ynw7O28" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=52LxBaUJdcw)
+
+<p class="clip-credit"><strong>Knee on belly escape to technical stand up</strong> — taught by Lucas Lepri · 2:11 · <a href="https://www.youtube.com/watch?v=52LxBaUJdcw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

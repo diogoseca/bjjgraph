@@ -168,6 +168,54 @@ description: "How to execute Knee on Belly in BJJ. Attacking perspective with se
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Knee on Belly (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Knee On Belly Basics",
+      "description": "Knee on Belly (Attacker) film study: Knee On Belly Basics, taught by bjjtaro.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/jV_z0mC4SNw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/jV_z0mC4SNw",
+      "url": "https://www.youtube.com/watch?v=jV_z0mC4SNw",
+      "creator": { "@type": "Person", "name": "bjjtaro" },
+      "duration": "PT16S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "3 Attacks from Knee-on-Belly",
+      "description": "Knee on Belly (Attacker) film study: 3 Attacks from Knee-on-Belly, taught by Lucas Lepri.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/XNhDD7N4JNY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/XNhDD7N4JNY",
+      "url": "https://www.youtube.com/watch?v=XNhDD7N4JNY",
+      "creator": { "@type": "Person", "name": "Lucas Lepri" },
+      "duration": "PT68S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Back Take from Knee on Belly",
+      "description": "Knee on Belly (Attacker) film study: Back Take from Knee on Belly, taught by AMAZIN BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/4MDc03yp6zI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/4MDc03yp6zI",
+      "url": "https://www.youtube.com/watch?v=4MDc03yp6zI",
+      "creator": { "@type": "Person", "name": "AMAZIN BJJ" },
+      "duration": "PT69S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -179,6 +227,42 @@ The transition's value extends beyond the points scored. Knee on Belly serves as
 **From Position**: [[Positions/Side Control]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Knee on Belly (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=jV_z0mC4SNw)
+
+<p class="clip-credit"><strong>Knee On Belly Basics</strong> — taught by bjjtaro · 0:16 · <a href="https://www.youtube.com/watch?v=jV_z0mC4SNw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=XNhDD7N4JNY)
+
+<p class="clip-credit"><strong>3 Attacks from Knee-on-Belly</strong> — taught by Lucas Lepri · 1:08 · <a href="https://www.youtube.com/watch?v=XNhDD7N4JNY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=4MDc03yp6zI)
+
+<p class="clip-credit"><strong>Back Take from Knee on Belly</strong> — taught by AMAZIN BJJ · 1:09 · <a href="https://www.youtube.com/watch?v=4MDc03yp6zI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

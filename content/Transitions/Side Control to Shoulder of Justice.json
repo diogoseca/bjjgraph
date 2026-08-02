@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Shoulder of Justice/Top",
-      "probability": 70,
+      "probability": {
+        "gi": 70,
+        "nogi": 70
+      },
       "result": "success"
     },
     {
       "to": "Side Control/Top",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 70,
+  "success_rate": {
+    "gi": 70,
+    "nogi": 70
+  },
   "overview": "The Transition to Shoulder of Justice is a positional advancement from standard side control into one of the most punishing control variations in Brazilian Jiu-Jitsu. This transition focuses on redirecting your shoulder pressure from a general crossface into a concentrated, angled drive directly into the opponent's jaw and temporomandibular joint. The result is a position that creates extreme discomfort, forces defensive reactions, and opens multiple high-percentage submission and advancement pathways.\n\nThe transition itself is subtle rather than explosive. It involves walking your chest position forward while adjusting your shoulder angle from a flat crossface to a 45-degree drive toward the opponent's far shoulder. Simultaneously, you must maintain hip connection to prevent any shrimping escape during the transition window. The critical detail is that the shoulder blade, not the deltoid, becomes the primary pressure contact point against the jaw line. This biomechanical refinement transforms standard side control pressure into targeted, almost unbearable control that experienced practitioners recognize as one of the most effective pin refinements available.\n\nStrategically, this transition serves as a force multiplier for your entire top-side game. Once established, the Shoulder of Justice creates a dilemma system where every defensive reaction the bottom player makes opens a specific offensive pathway: pushing with the near arm exposes kimuras, shrimping away allows mount advancement, turning in opens north-south transitions, and bringing the far arm across creates arm triangle opportunities. The transition should be attempted once you have consolidated standard side control and want to escalate offensive pressure without risking positional loss.",
   "conditions": [
     "Established side control with chest-to-chest contact and crossface control",
@@ -251,38 +263,138 @@
     "flashcards": [
       {
         "question": "What is the optimal shoulder angle for establishing Shoulder of Justice pressure from the transition?",
-        "answer": "The optimal angle is approximately 45 degrees directed toward the opponent's far shoulder, using the shoulder blade as the primary contact point against the jaw and temporomandibular joint. This angle prevents the opponent from turning their head back toward you and creates a pressure vector through their cervical spine. Driving straight down is less effective because it allows head rotation and escape initiation."
+        "answer": "The optimal angle is approximately 45 degrees directed toward the opponent's far shoulder, using the shoulder blade as the primary contact point against the jaw and temporomandibular joint. This angle prevents the opponent from turning their head back toward you and creates a pressure vector through their cervical spine. Driving straight down is less effective because it allows head rotation and escape initiation.",
+        "answer_line": "45° toward far shoulder",
+        "distractors": {
+          "plausible": [
+            "Straight down through jaw",
+            "90° across the neck"
+          ],
+          "trap": [
+            "Drive forearm into throat"
+          ]
+        }
       },
       {
         "question": "Why must hip connection be maintained throughout the chest walk-up rather than just at the start and finish?",
-        "answer": "Any momentary disconnection of your hips from the opponent's near hip line during the walk-up creates a window for shrimping escape. The chest walk-up is the most vulnerable phase of the transition because your weight is shifting forward, and if your hips lift even briefly, a skilled opponent will exploit that space to insert a knee for half guard recovery or begin a shrimping sequence that defeats the transition entirely."
+        "answer": "Any momentary disconnection of your hips from the opponent's near hip line during the walk-up creates a window for shrimping escape. The chest walk-up is the most vulnerable phase of the transition because your weight is shifting forward, and if your hips lift even briefly, a skilled opponent will exploit that space to insert a knee for half guard recovery or begin a shrimping sequence that defeats the transition entirely.",
+        "answer_line": "Never let hips lift, even briefly",
+        "distractors": {
+          "plausible": [
+            "Reconnect hips at the finish",
+            "Reconnect hips only at start"
+          ],
+          "trap": [
+            "Lift hips to walk chest up"
+          ]
+        }
       },
       {
         "question": "Your opponent creates a strong forearm frame against your neck as you begin the chest walk-up. How do you respond?",
-        "answer": "You have two primary options depending on frame strength. First, use your body weight to collapse the frame by walking your pressure into it incrementally rather than trying to push through it with arm strength. Second, if the frame is structurally sound with elbow-to-knee connection, attack the extended arm with a kimura grip, converting their defensive frame into an offensive opportunity. Never try to muscle through a well-structured frame."
+        "answer": "You have two primary options depending on frame strength. First, use your body weight to collapse the frame by walking your pressure into it incrementally rather than trying to push through it with arm strength. Second, if the frame is structurally sound with elbow-to-knee connection, attack the extended arm with a kimura grip, converting their defensive frame into an offensive opportunity. Never try to muscle through a well-structured frame.",
+        "answer_line": "Collapse frame, or grip kimura",
+        "distractors": {
+          "plausible": [
+            "Muscle through with your arms",
+            "Pull head down to break frame"
+          ],
+          "trap": [
+            "Push through frame with strength"
+          ]
+        }
       },
       {
         "question": "What conditions must exist before you should attempt this transition?",
-        "answer": "Four conditions must be verified: consolidated standard side control with stable crossface and chest contact, opponent's near arm controlled or trapped to prevent framing, hip connection to opponent's near hip line maintained with hips low and heavy, and far knee posted wide providing stable base. Attempting the transition without all four conditions significantly increases the risk of losing position during the adjustment."
+        "answer": "Four conditions must be verified: consolidated standard side control with stable crossface and chest contact, opponent's near arm controlled or trapped to prevent framing, hip connection to opponent's near hip line maintained with hips low and heavy, and far knee posted wide providing stable base. Attempting the transition without all four conditions significantly increases the risk of losing position during the adjustment.",
+        "answer_line": "All 4: crossface, trap, hips, base",
+        "distractors": {
+          "plausible": [
+            "Crossface control is enough",
+            "Trap the far arm, not near"
+          ],
+          "trap": [
+            "Rush in before consolidating"
+          ]
+        }
       },
       {
         "question": "Why should the chest walk-up use incremental movements rather than one large positional shift?",
-        "answer": "Incremental movements maintain constant chest-to-chest contact and pressure throughout the transition, preventing the creation of space that opponents can exploit. A single large movement creates a brief moment of instability and space where the opponent can frame, shrimp, or bridge effectively. Small steps ensure your weight stays on the opponent and your base remains stable at every point of the transition."
+        "answer": "Incremental movements maintain constant chest-to-chest contact and pressure throughout the transition, preventing the creation of space that opponents can exploit. A single large movement creates a brief moment of instability and space where the opponent can frame, shrimp, or bridge effectively. Small steps ensure your weight stays on the opponent and your base remains stable at every point of the transition.",
+        "answer_line": "Small steps keep chest contact",
+        "distractors": {
+          "plausible": [
+            "One big shift saves time",
+            "Speed matters more than contact"
+          ],
+          "trap": [
+            "Explode into position fast"
+          ]
+        }
       },
       {
         "question": "Your opponent shrimps away explosively during your transition attempt. What is the correct response?",
-        "answer": "Immediately drop your hips back to their hip line and assess the space created. If the space is minimal, re-consolidate standard side control and attempt the transition again when their near arm retracts. If they created significant distance, capitalize by transitioning to knee on belly or mount rather than forcing the Shoulder of Justice from a compromised angle. Their successful shrimp means your hip connection was insufficient during that attempt."
+        "answer": "Immediately drop your hips back to their hip line and assess the space created. If the space is minimal, re-consolidate standard side control and attempt the transition again when their near arm retracts. If they created significant distance, capitalize by transitioning to knee on belly or mount rather than forcing the Shoulder of Justice from a compromised angle. Their successful shrimp means your hip connection was insufficient during that attempt.",
+        "answer_line": "Drop hips back, reassess space",
+        "distractors": {
+          "plausible": [
+            "Force the transition anyway",
+            "Chase far side immediately"
+          ],
+          "trap": [
+            "Release side control to chase"
+          ]
+        }
       },
       {
         "question": "What distinguishes driving pressure through your center of mass versus using shoulder muscles alone?",
-        "answer": "Driving through your center of mass engages your core, hips, and legs to transfer your full body weight through the shoulder contact point, creating sustainable heavy pressure that can be maintained for minutes without fatigue. Using shoulder muscles alone generates only localized force that fatigues within 30 seconds, provides inadequate control, and allows the opponent to outlast your pressure by simply waiting for your muscles to tire."
+        "answer": "Driving through your center of mass engages your core, hips, and legs to transfer your full body weight through the shoulder contact point, creating sustainable heavy pressure that can be maintained for minutes without fatigue. Using shoulder muscles alone generates only localized force that fatigues within 30 seconds, provides inadequate control, and allows the opponent to outlast your pressure by simply waiting for your muscles to tire.",
+        "answer_line": "Core & hips drive weight, not arms",
+        "distractors": {
+          "plausible": [
+            "Push hard with shoulder strength",
+            "Squeeze harder with the arm"
+          ],
+          "trap": [
+            "Muscle down with shoulder alone"
+          ]
+        }
       },
       {
         "question": "After establishing Shoulder of Justice, your opponent pushes your shoulder with their near arm to relieve pressure. What offensive chain does this open?",
-        "answer": "Their extended near arm creates an immediate kimura opportunity. Secure a kimura grip on the extended wrist and elbow, then transition to the Kimura Trap control position. This is the highest-percentage submission pathway from Shoulder of Justice because the shoulder pressure specifically provokes this arm extension reaction. The opponent faces a dilemma: endure the jaw pressure or extend the arm and risk the kimura."
+        "answer": "Their extended near arm creates an immediate kimura opportunity. Secure a kimura grip on the extended wrist and elbow, then transition to the Kimura Trap control position. This is the highest-percentage submission pathway from Shoulder of Justice because the shoulder pressure specifically provokes this arm extension reaction. The opponent faces a dilemma: endure the jaw pressure or extend the arm and risk the kimura.",
+        "answer_line": "Extended arm = kimura setup",
+        "distractors": {
+          "plausible": [
+            "Switch to armbar attack",
+            "Go straight to back take"
+          ],
+          "trap": [
+            "Chase the choke instead"
+          ]
+        }
       }
     ],
-    "safety_considerations": "The Shoulder of Justice transition involves significant jaw and neck pressure that must be applied with awareness of training partner safety. During drilling, communicate with your partner about pressure intensity and allow them to tap to positional discomfort, not just submissions. Avoid driving shoulder pressure directly into the throat or trachea, as this can cause serious injury. The pressure should target the jaw line and mandible, not the airway. Partners with TMJ disorders or neck injuries should inform you before drilling. Reduce intensity when training with less experienced partners who may not know how to safely defend the position."
+    "safety_considerations": "The Shoulder of Justice transition involves significant jaw and neck pressure that must be applied with awareness of training partner safety. During drilling, communicate with your partner about pressure intensity and allow them to tap to positional discomfort, not just submissions. Avoid driving shoulder pressure directly into the throat or trachea, as this can cause serious injury. The pressure should target the jaw line and mandible, not the airway. Partners with TMJ disorders or neck injuries should inform you before drilling. Reduce intensity when training with less experienced partners who may not know how to safely defend the position.",
+    "clips": [
+      {
+        "id": "BjeDX3WupdA",
+        "title": "Shoulder pressure from side control",
+        "by": "Roy Dean",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 39,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "pyfc2SjiXVM",
+        "title": "Crossface shoulder crunch fundamentals",
+        "by": "CORE MMA coach",
+        "vertical": false,
+        "channel": "CORE MMA",
+        "duration": 143,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Side Control to Shoulder of Justice Defender",
@@ -369,19 +481,59 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that your opponent is transitioning from standard side control to Shoulder of Justice?",
-        "answer": "The earliest cue is feeling the opponent begin to walk their chest forward toward your head while maintaining side control. This forward movement precedes the shoulder angle change and is the moment when defensive action is most effective. You may also notice them adjusting their near-side hand to trap your arm, which is a setup action that precedes the chest walk-up."
+        "answer": "The earliest cue is feeling the opponent begin to walk their chest forward toward your head while maintaining side control. This forward movement precedes the shoulder angle change and is the moment when defensive action is most effective. You may also notice them adjusting their near-side hand to trap your arm, which is a setup action that precedes the chest walk-up.",
+        "answer_line": "Chest walking forward toward head",
+        "distractors": {
+          "plausible": [
+            "Feeling hip pressure increase",
+            "Opponent adjusts leg position"
+          ],
+          "trap": [
+            "Wait until shoulder is on jaw"
+          ]
+        }
       },
       {
         "question": "Why is the transitional window the best time to attempt a defensive shrimp?",
-        "answer": "During the chest walk-up, the attacker must shift their weight forward, which momentarily lightens their hip connection to your near hip line. This brief window of reduced hip pressure is the optimal time for a shrimp because the primary barrier to shrimping, their heavy hip weight, is temporarily reduced. Once the Shoulder of Justice is fully established with re-consolidated hip pressure, shrimping becomes significantly harder."
+        "answer": "During the chest walk-up, the attacker must shift their weight forward, which momentarily lightens their hip connection to your near hip line. This brief window of reduced hip pressure is the optimal time for a shrimp because the primary barrier to shrimping, their heavy hip weight, is temporarily reduced. Once the Shoulder of Justice is fully established with re-consolidated hip pressure, shrimping becomes significantly harder.",
+        "answer_line": "Hip pressure lightens mid-walk-up",
+        "distractors": {
+          "plausible": [
+            "Wait until fully established",
+            "Shrimp right after it locks"
+          ],
+          "trap": [
+            "Bridge hard once it's set"
+          ]
+        }
       },
       {
         "question": "Your opponent has fully established the Shoulder of Justice and you are in significant discomfort. What should you NOT do and why?",
-        "answer": "You should not extend your near arm to push their shoulder away, bring your far arm across your face for protection, or turn your face into the pressure to relieve jaw pain. Each of these reactive movements is specifically what the attacker is trying to provoke: the extended near arm opens a kimura, the crossed far arm creates an arm triangle, and turning in opens north-south and back-take transitions. Instead, breathe through your nose, maintain micro-frames, and wait for the attacker to shift weight during a transition or submission attempt."
+        "answer": "You should not extend your near arm to push their shoulder away, bring your far arm across your face for protection, or turn your face into the pressure to relieve jaw pain. Each of these reactive movements is specifically what the attacker is trying to provoke: the extended near arm opens a kimura, the crossed far arm creates an arm triangle, and turning in opens north-south and back-take transitions. Instead, breathe through your nose, maintain micro-frames, and wait for the attacker to shift weight during a transition or submission attempt.",
+        "answer_line": "Don't extend arm or turn face in",
+        "distractors": {
+          "plausible": [
+            "Push their shoulder away hard",
+            "Cover face with far arm"
+          ],
+          "trap": [
+            "Turn into pressure to relieve pain"
+          ]
+        }
       },
       {
         "question": "What defensive option gives you the best chance of escaping once the Shoulder of Justice is already established?",
-        "answer": "Timing a shrimp escape when the attacker shifts weight for a submission attempt or positional advancement gives you the best chance. When they initiate a kimura, mount transition, or north-south spin, their base changes and hip connection lightens momentarily. Use that window for a deliberate hip escape to insert a knee for half guard. This requires patience and the discipline to wait for the right moment rather than forcing an escape under maximum pressure."
+        "answer": "Timing a shrimp escape when the attacker shifts weight for a submission attempt or positional advancement gives you the best chance. When they initiate a kimura, mount transition, or north-south spin, their base changes and hip connection lightens momentarily. Use that window for a deliberate hip escape to insert a knee for half guard. This requires patience and the discipline to wait for the right moment rather than forcing an escape under maximum pressure.",
+        "answer_line": "Shrimp when they shift for attack",
+        "distractors": {
+          "plausible": [
+            "Escape the moment pressure hits",
+            "Bridge and roll immediately"
+          ],
+          "trap": [
+            "Fight pressure with strength"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -404,6 +556,26 @@
         "phase": "Phase 4: Established Position Survival and Escape",
         "focus": "Surviving and escaping after the Shoulder of Justice is fully established",
         "description": "Partner establishes full Shoulder of Justice and maintains it with competition pressure. Practice controlled breathing, micro-frames, and recognizing escape windows during the attacker's offensive movements. Build tolerance for the position's discomfort while maintaining tactical awareness for escape opportunities."
+      }
+    ],
+    "clips": [
+      {
+        "id": "myIsFYohrNA",
+        "title": "Elbow escape and shrimp to replace guard",
+        "by": "Champions Jiu Jitsu coach",
+        "vertical": false,
+        "channel": "Champions Jiu Jitsu & Muay Thai",
+        "duration": 32,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "sdV37h_k8Wg",
+        "title": "Side control bottom escape fundamentals",
+        "by": "Cane Prevost",
+        "vertical": false,
+        "channel": "cane prevost",
+        "duration": 268,
+        "verified": "2026-07-15"
       }
     ]
   }

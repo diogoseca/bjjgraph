@@ -140,6 +140,43 @@ description: "Learn to prevent the turtle turn escape from side control top. Com
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Turtle from Side Control Bottom (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Cross knee pass, preventing the turtle",
+      "description": "Turtle from Side Control Bottom (Defender) film study: Cross knee pass, preventing the turtle, taught by Inverted Gear.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/6_4uK_c0-cI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/6_4uK_c0-cI",
+      "url": "https://www.youtube.com/watch?v=6_4uK_c0-cI",
+      "creator": { "@type": "Person", "name": "Inverted Gear" },
+      "duration": "PT79S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Far side underhook pin",
+      "description": "Turtle from Side Control Bottom (Defender) film study: Far side underhook pin, taught by Craig Jones.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/mWimgVQrsMU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/mWimgVQrsMU",
+      "url": "https://www.youtube.com/watch?v=mWimgVQrsMU",
+      "creator": { "@type": "Person", "name": "Craig Jones" },
+      "duration": "PT137S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -149,6 +186,34 @@ As the top player in side control, preventing the bottom player's turtle turn is
 **Opponent's Starting Position**: [[Positions/Side Control]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Turtle from Side Control Bottom (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=6_4uK_c0-cI)
+
+<p class="clip-credit"><strong>Cross knee pass, preventing the turtle</strong> — taught by Inverted Gear · 1:19 · <a href="https://www.youtube.com/watch?v=6_4uK_c0-cI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=mWimgVQrsMU)
+
+<p class="clip-credit"><strong>Far side underhook pin</strong> — taught by Craig Jones · 2:17 · <a href="https://www.youtube.com/watch?v=mWimgVQrsMU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

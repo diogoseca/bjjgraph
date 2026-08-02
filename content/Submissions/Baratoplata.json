@@ -16,7 +16,10 @@
   "submission_type": "Shoulder Lock",
   "target_area": "Shoulder joint and rotator cuff",
   "starting_position": "Rubber Guard",
-  "success_rate": 42,
+  "success_rate": {
+    "gi": 42,
+    "nogi": 42
+  },
   "variant_uniqueness": "Arm weave creates closed kinetic chain isolating shoulder rotation",
   "summary": "The Baratoplata is a 10th Planet shoulder lock that weaves the attacker's arm through the opponent's trapped arm and levers the shoulder past its range from rubber guard, functioning as the omoplata's harder-to-defend cousin.",
   "overview": "The Baratoplata is an advanced shoulder lock submission that originated from the 10th Planet Jiu-Jitsu system, combining elements of the omoplata with unique arm isolation mechanics. This technique is typically initiated from rubber guard positions, particularly Mission Control or New York, and represents a sophisticated understanding of shoulder manipulation and control. The submission works by trapping the opponent's arm while rotating their shoulder beyond its natural range of motion, creating intense pressure on the rotator cuff and shoulder capsule. Unlike traditional omoplatas that focus primarily on forward shoulder rotation, the Baratoplata incorporates a unique arm weave that increases the mechanical advantage and makes escape more difficult.\n\nThe technique exemplifies the innovation within modern no-gi grappling, offering a creative solution to opponents who defend conventional rubber guard attacks. The arm weave creates a closed kinetic chain that eliminates the primary defensive hand fighting available against standard omoplatas, while the high guard leg maintains constant posture control throughout the finishing sequence. While technically demanding and requiring significant flexibility and timing, the Baratoplata has proven effective at the highest levels of competition when executed with proper setup and control. The submission chains naturally with triangle chokes, standard omoplatas, and armbar attacks, creating a decision tree from rubber guard where each defensive reaction opens a different submission pathway.",
@@ -173,6 +176,35 @@
     {
       "name": "Omoplata Control",
       "relationship": "Related control position for shoulder submissions"
+    }
+  ],
+  "clips": [
+    {
+      "id": "1O-BoOWXhzY",
+      "title": "Baratoplata basics from rubber guard",
+      "by": "True Believer Jiu Jitsu",
+      "vertical": false,
+      "channel": "True Believer Jiu Jitsu",
+      "duration": 232,
+      "verified": "2026-07-15"
+    },
+    {
+      "id": "tNlNA20iGRw",
+      "title": "Duda to the baratoplata",
+      "by": "Eddie Bravo",
+      "vertical": false,
+      "channel": "Eddie Bravo",
+      "duration": 365,
+      "verified": "2026-07-15"
+    },
+    {
+      "id": "v30lrt84x-Y",
+      "title": "Baratoplata shoulder lock from north south",
+      "by": "Show the ART",
+      "vertical": false,
+      "channel": "Show the ART",
+      "duration": 158,
+      "verified": "2026-07-15"
     }
   ]
 }

@@ -148,6 +148,43 @@ description: "How to defend and counter the Transition to Piranha Guard in BJJ. 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Lapel Guard to Piranha Guard (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Modern Lapel Guard Passing",
+      "description": "Lapel Guard to Piranha Guard (Defender) film study: Modern Lapel Guard Passing, taught by Nick Salles and Danny Maira.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/JvQ3m64ScsA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/JvQ3m64ScsA",
+      "url": "https://www.youtube.com/watch?v=JvQ3m64ScsA",
+      "creator": { "@type": "Person", "name": "Nick Salles and Danny Maira" },
+      "duration": "PT672S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Single Grip to Slice Through Lapel Guards",
+      "description": "Lapel Guard to Piranha Guard (Defender) film study: Single Grip to Slice Through Lapel Guards, taught by Keenan Cornelius.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/kMybfbRxsPg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/kMybfbRxsPg",
+      "url": "https://www.youtube.com/watch?v=kMybfbRxsPg",
+      "creator": { "@type": "Person", "name": "Keenan Cornelius" },
+      "duration": "PT512S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +194,34 @@ Defending the Transition to Piranha Guard requires recognizing the brief window 
 **Opponent's Starting Position**: [[Positions/Lapel Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Lapel Guard to Piranha Guard (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=JvQ3m64ScsA)
+
+<p class="clip-credit"><strong>Modern Lapel Guard Passing</strong> — taught by Nick Salles and Danny Maira · 11:12 · <a href="https://www.youtube.com/watch?v=JvQ3m64ScsA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=kMybfbRxsPg)
+
+<p class="clip-credit"><strong>Single Grip to Slice Through Lapel Guards</strong> — taught by Keenan Cornelius · 8:32 · <a href="https://www.youtube.com/watch?v=kMybfbRxsPg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

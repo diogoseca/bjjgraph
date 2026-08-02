@@ -34,6 +34,54 @@ description: "Learn Pressure Pass through Center from Grasshopper Guard. Step-by
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Pressure Pass through Center \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Countering a full inversion from the top",
+      "description": "Pressure Pass through Center film study: Countering a full inversion from the top, taught by Gordon Ryan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/aQ2vFXXBn-o/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/aQ2vFXXBn-o",
+      "url": "https://www.youtube.com/watch?v=aQ2vFXXBn-o",
+      "creator": { "@type": "Person", "name": "Gordon Ryan" },
+      "duration": "PT61S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Countering an inversion from north-south",
+      "description": "Pressure Pass through Center film study: Countering an inversion from north-south, taught by Frankie Roberts.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/3e82Y_MRj_o/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/3e82Y_MRj_o",
+      "url": "https://www.youtube.com/watch?v=3e82Y_MRj_o",
+      "creator": { "@type": "Person", "name": "Frankie Roberts" },
+      "duration": "PT42S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Stack pass variation from shin trap",
+      "description": "Pressure Pass through Center film study: Stack pass variation from shin trap, taught by Modern BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/4X_JC-YQ9yY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/4X_JC-YQ9yY",
+      "url": "https://www.youtube.com/watch?v=4X_JC-YQ9yY",
+      "creator": { "@type": "Person", "name": "Modern BJJ" },
+      "duration": "PT85S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ Strategically, this pass works as a pressure-based counter to the high-energy in
 **Success Rate**: 58%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Pressure Pass through Center in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=aQ2vFXXBn-o)
+
+<p class="clip-credit"><strong>Countering a full inversion from the top</strong> — taught by Gordon Ryan · 1:01 · <a href="https://www.youtube.com/watch?v=aQ2vFXXBn-o" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=3e82Y_MRj_o)
+
+<p class="clip-credit"><strong>Countering an inversion from north-south</strong> — taught by Frankie Roberts · 0:42 · <a href="https://www.youtube.com/watch?v=3e82Y_MRj_o" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=4X_JC-YQ9yY)
+
+<p class="clip-credit"><strong>Stack pass variation from shin trap</strong> — taught by Modern BJJ · 1:25 · <a href="https://www.youtube.com/watch?v=4X_JC-YQ9yY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

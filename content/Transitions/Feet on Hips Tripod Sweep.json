@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Open Guard/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Feet on Hips Guard/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "The Feet on Hips Tripod Sweep is one of the most fundamental and high-percentage sweeps available from the open guard. Executed from the feet-on-hips guard, this technique employs a three-point base destruction principle: one foot pushes the opponent's hip backward while the other foot hooks behind their near ankle, and a hand controls the opposite ankle. The coordinated push-pull action collapses the opponent's standing base, sending them backward to the mat while the sweeper follows to establish top position.\n\nThis sweep represents a cornerstone of open guard offense because it requires minimal grip prerequisites—no sleeve or collar control is strictly necessary, making it highly effective in both gi and no-gi contexts. The tripod sweep teaches the fundamental sweeping concept of removing base points while applying directional force. When the opponent's weight shifts backward from the hip push, the simultaneous ankle removal eliminates their ability to step and recover, creating an irrecoverable topple.\n\nStrategically, the tripod sweep creates a devastating dilemma when paired with the sickle sweep. Both attacks share the same initial feet-on-hips configuration but send the opponent in opposite directions—the tripod drives them backward while the sickle cuts them laterally. This pairing forces the opponent to defend multiple directions simultaneously, dramatically increasing the success rate of both techniques. The tripod sweep also serves as an excellent entry into standing passing sequences, as the sweeper naturally rises to their feet during follow-through.",
   "conditions": [
     "Both feet established on opponent's hip bones with solid ball-of-foot contact",
@@ -244,38 +256,147 @@
     "flashcards": [
       {
         "question": "What is the optimal timing window for initiating the tripod sweep?",
-        "answer": "The best timing is when the opponent shifts their weight forward onto their toes or reaches to establish grips on your legs. This forward weight commitment makes backward toppling significantly easier because their center of gravity is already displaced in the direction you are sweeping. The moment they extend their arms or lean forward to fight grips, their base becomes narrowest and most vulnerable to the three-point collapse."
+        "answer": "The best timing is when the opponent shifts their weight forward onto their toes or reaches to establish grips on your legs. This forward weight commitment makes backward toppling significantly easier because their center of gravity is already displaced in the direction you are sweeping. The moment they extend their arms or lean forward to fight grips, their base becomes narrowest and most vulnerable to the three-point collapse.",
+        "answer_line": "Weight shifts forward, reaching",
+        "distractors": {
+          "plausible": [
+            "When they settle into base",
+            "After they grip your collar"
+          ],
+          "trap": [
+            "When base is low and wide"
+          ]
+        }
       },
       {
         "question": "What conditions must exist before you can effectively attempt the tripod sweep?",
-        "answer": "You need both feet solidly placed on the opponent's hips with active frames, the opponent must be in a standing or elevated base position with both ankles accessible, and you need at least one free hand to control the far ankle. Your hips must be elevated with sufficient core engagement to generate explosive extension force. The opponent's base should be relatively narrow or their weight shifted forward rather than settled into a low, wide defensive stance."
+        "answer": "You need both feet solidly placed on the opponent's hips with active frames, the opponent must be in a standing or elevated base position with both ankles accessible, and you need at least one free hand to control the far ankle. Your hips must be elevated with sufficient core engagement to generate explosive extension force. The opponent's base should be relatively narrow or their weight shifted forward rather than settled into a low, wide defensive stance.",
+        "answer_line": "Feet on hips, hand free for ankle",
+        "distractors": {
+          "plausible": [
+            "Both hands gripping their collar",
+            "Opponent already sitting low"
+          ],
+          "trap": [
+            "Feet planted flat on the mat"
+          ]
+        }
       },
       {
         "question": "What is the most critical hip movement during the tripod sweep execution?",
-        "answer": "The explosive hip extension through your pushing foot is the primary force generator of the entire sweep. Your hips must drive upward and forward simultaneously, transmitting force through the ball of your foot directly into the opponent's hip bone. Without full, committed hip extension, the pushing force is insufficient to overcome the opponent's base and the sweep stalls regardless of how well the ankle controls are set."
+        "answer": "The explosive hip extension through your pushing foot is the primary force generator of the entire sweep. Your hips must drive upward and forward simultaneously, transmitting force through the ball of your foot directly into the opponent's hip bone. Without full, committed hip extension, the pushing force is insufficient to overcome the opponent's base and the sweep stalls regardless of how well the ankle controls are set.",
+        "answer_line": "Explosive hip extension through foot",
+        "distractors": {
+          "plausible": [
+            "Rotate hips sideways first",
+            "Pull hips back before pushing"
+          ],
+          "trap": [
+            "Keep hips flat, let arms push"
+          ]
+        }
       },
       {
         "question": "Your tripod sweep attempt fails and your opponent does not fall - what is the most likely mechanical error?",
-        "answer": "The most common mechanical failure is poor timing of the three-point attack. If the hip push, ankle hook, and hand grip do not engage simultaneously, the opponent has time to adjust their base between each force application. Typically the push arrives before the ankle controls are fully set, giving the opponent a free leg to step backward and recover. The fix is ensuring all three forces fire at the same instant rather than sequentially."
+        "answer": "The most common mechanical failure is poor timing of the three-point attack. If the hip push, ankle hook, and hand grip do not engage simultaneously, the opponent has time to adjust their base between each force application. Typically the push arrives before the ankle controls are fully set, giving the opponent a free leg to step backward and recover. The fix is ensuring all three forces fire at the same instant rather than sequentially.",
+        "answer_line": "Push arrives before ankle hook sets",
+        "distractors": {
+          "plausible": [
+            "Grip too high on the calf",
+            "Hips not elevated enough"
+          ],
+          "trap": [
+            "Release ankle grip to push harder"
+          ]
+        }
       },
       {
         "question": "What grip do you need on the far ankle and why is its specific position critical?",
-        "answer": "Grip the far ankle at the Achilles tendon area or just above the shoe line using a cupping grip that wraps behind and under the heel. This low grip point maximizes your mechanical advantage for pulling the foot toward you and prevents the opponent from simply stepping that foot backward to recover balance. A grip placed too high on the calf provides insufficient control over foot placement and allows the opponent to rotate their ankle free."
+        "answer": "Grip the far ankle at the Achilles tendon area or just above the shoe line using a cupping grip that wraps behind and under the heel. This low grip point maximizes your mechanical advantage for pulling the foot toward you and prevents the opponent from simply stepping that foot backward to recover balance. A grip placed too high on the calf provides insufficient control over foot placement and allows the opponent to rotate their ankle free.",
+        "answer_line": "Cup Achilles, wrap under heel",
+        "distractors": {
+          "plausible": [
+            "Grip mid-calf for leverage",
+            "Grip above the knee"
+          ],
+          "trap": [
+            "Grab the top of the foot"
+          ]
+        }
       },
       {
         "question": "In which directions do the three force vectors of the tripod sweep operate?",
-        "answer": "The hip foot pushes the opponent's center of mass backward and slightly upward through explosive hip extension. The ankle hook sweeps the near foot forward and toward you, removing their front base point from underneath them. The hand grip pulls the far ankle laterally toward you and slightly upward, removing their remaining base point. These three converging vectors create simultaneous base removal in multiple directions, making recovery impossible once all three engage."
+        "answer": "The hip foot pushes the opponent's center of mass backward and slightly upward through explosive hip extension. The ankle hook sweeps the near foot forward and toward you, removing their front base point from underneath them. The hand grip pulls the far ankle laterally toward you and slightly upward, removing their remaining base point. These three converging vectors create simultaneous base removal in multiple directions, making recovery impossible once all three engage.",
+        "answer_line": "Push back, hook forward, pull in",
+        "distractors": {
+          "plausible": [
+            "All three push backward together",
+            "Hook pulls up, hand pushes down"
+          ],
+          "trap": [
+            "Push forward, hook back, pull out"
+          ]
+        }
       },
       {
         "question": "Your opponent feels your foot sliding toward their ankle and immediately backsteps that leg - how do you adjust?",
-        "answer": "Immediately transition to the sickle sweep by redirecting your attack direction laterally instead of backward. The backstep loads the opponent's weight onto their remaining standing leg, which is now perfectly positioned for the sickle sweep cut. Use your remaining hip foot and grips to sweep them in the lateral direction rather than fighting to re-establish the failed tripod configuration. This is exactly why the tripod-sickle combination is so effective—each sweep sets up the other."
+        "answer": "Immediately transition to the sickle sweep by redirecting your attack direction laterally instead of backward. The backstep loads the opponent's weight onto their remaining standing leg, which is now perfectly positioned for the sickle sweep cut. Use your remaining hip foot and grips to sweep them in the lateral direction rather than fighting to re-establish the failed tripod configuration. This is exactly why the tripod-sickle combination is so effective—each sweep sets up the other.",
+        "answer_line": "Redirect laterally into sickle",
+        "distractors": {
+          "plausible": [
+            "Chase the foot to re-hook it",
+            "Switch to a scissor sweep"
+          ],
+          "trap": [
+            "Release grips and reset guard"
+          ]
+        }
       },
       {
         "question": "The sweep is blocked but you maintain your feet-on-hips position - what attacks do you chain into next?",
-        "answer": "Immediately threaten the sickle sweep since the opponent has likely widened their base to resist the backward topple, making them vulnerable to a lateral cut. If they drop their base entirely, transition to a collar drag to snap them forward or enter tomoe nage using their newly lowered posture. If they reach forward aggressively to control your legs, use their forward momentum for a lumberjack sweep or balloon sweep. The key is maintaining constant offensive pressure and never allowing them to settle into a stable defensive position."
+        "answer": "Immediately threaten the sickle sweep since the opponent has likely widened their base to resist the backward topple, making them vulnerable to a lateral cut. If they drop their base entirely, transition to a collar drag to snap them forward or enter tomoe nage using their newly lowered posture. If they reach forward aggressively to control your legs, use their forward momentum for a lumberjack sweep or balloon sweep. The key is maintaining constant offensive pressure and never allowing them to settle into a stable defensive position.",
+        "answer_line": "Chain sickle, collar drag, tomoe",
+        "distractors": {
+          "plausible": [
+            "Switch to closed guard and reset",
+            "Sit up and hunt an underhook"
+          ],
+          "trap": [
+            "Drop feet, let them stack and pass"
+          ]
+        }
       }
     ],
-    "safety_considerations": "The tripod sweep is a low-risk technique with minimal injury potential for both practitioners. Primary safety concerns involve the falling opponent landing awkwardly on their back or head if swept with excessive force on hard surfaces. The sweeper should control sweep speed in training and allow their partner to land safely. The ankle hook should wrap gently behind the Achilles area without applying twisting or compressive force to the ankle joint. Both practitioners should ensure adequate mat space behind the standing player before drilling, and the person being swept should practice backward breakfalls as a prerequisite."
+    "safety_considerations": "The tripod sweep is a low-risk technique with minimal injury potential for both practitioners. Primary safety concerns involve the falling opponent landing awkwardly on their back or head if swept with excessive force on hard surfaces. The sweeper should control sweep speed in training and allow their partner to land safely. The ankle hook should wrap gently behind the Achilles area without applying twisting or compressive force to the ankle joint. Both practitioners should ensure adequate mat space behind the standing player before drilling, and the person being swept should practice backward breakfalls as a prerequisite.",
+    "clips": [
+      {
+        "id": "mlQzSzarPqc",
+        "title": "Tripod sweep solo drill transitions",
+        "by": "Kristen DeBruycker",
+        "vertical": false,
+        "channel": "Kristen DeBruycker",
+        "duration": 19,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "ic7FrpZq6aU",
+        "title": "Tripod Sweep Breakdown",
+        "by": "Gordon Ryan",
+        "vertical": false,
+        "channel": "Gordon Ryan",
+        "duration": 161,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "0AnyD7w2wQE",
+        "title": "Collar and Sleeve Tripod Sweep",
+        "by": "Alberto Serrano",
+        "vertical": false,
+        "channel": "Alberto Serrano BJJ",
+        "duration": 89,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Feet on Hips Tripod Sweep Defender",
@@ -361,19 +482,59 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that a tripod sweep is being set up from feet on hips guard?",
-        "answer": "The earliest indicator is the opponent's foot beginning to slide off your hip and move downward toward your ankle or lower leg. This transition from pushing frame to hooking position signals the sweep setup. You have a narrow window—typically less than two seconds—between when the foot leaves your hip and when the hook fully establishes behind your ankle to execute a defensive reaction."
+        "answer": "The earliest indicator is the opponent's foot beginning to slide off your hip and move downward toward your ankle or lower leg. This transition from pushing frame to hooking position signals the sweep setup. You have a narrow window—typically less than two seconds—between when the foot leaves your hip and when the hook fully establishes behind your ankle to execute a defensive reaction.",
+        "answer_line": "Foot slides off hip toward ankle",
+        "distractors": {
+          "plausible": [
+            "Opponent grips both ankles",
+            "Opponent leans back suddenly"
+          ],
+          "trap": [
+            "Opponent grips your collar"
+          ]
+        }
       },
       {
         "question": "Your opponent has established the hook behind your ankle but has not yet gripped your far ankle - what should you do?",
-        "answer": "Immediately backstep the hooked ankle by pulling it straight back and stepping away from the hook before the hand grip completes the three-point control system. Without the far ankle grip, the sweep cannot generate the multi-directional force needed to topple you. Simultaneously drive your weight forward through your hips and maintain pants grips on their knees to make backward sweeping mechanically more difficult."
+        "answer": "Immediately backstep the hooked ankle by pulling it straight back and stepping away from the hook before the hand grip completes the three-point control system. Without the far ankle grip, the sweep cannot generate the multi-directional force needed to topple you. Simultaneously drive your weight forward through your hips and maintain pants grips on their knees to make backward sweeping mechanically more difficult.",
+        "answer_line": "Backstep hooked ankle immediately",
+        "distractors": {
+          "plausible": [
+            "Push harder through both hips",
+            "Grab their wrist to stop grip"
+          ],
+          "trap": [
+            "Let them finish the grip first"
+          ]
+        }
       },
       {
         "question": "Why does lowering your base defend against the tripod sweep, and what risk does this create?",
-        "answer": "Lowering your base through bending your knees or dropping to combat base position moves your center of gravity closer to the ground, requiring dramatically more force to topple you backward. The mechanical advantage of the sweep decreases exponentially as your base widens and lowers. However, this defense creates risk because the lowered posture opens opportunities for the opponent to transition to butterfly guard hooks, tomoe nage, or collar drag attacks that exploit close-range engagement with a lowered opponent."
+        "answer": "Lowering your base through bending your knees or dropping to combat base position moves your center of gravity closer to the ground, requiring dramatically more force to topple you backward. The mechanical advantage of the sweep decreases exponentially as your base widens and lowers. However, this defense creates risk because the lowered posture opens opportunities for the opponent to transition to butterfly guard hooks, tomoe nage, or collar drag attacks that exploit close-range engagement with a lowered opponent.",
+        "answer_line": "Lower base; risks butterfly/tomoe",
+        "distractors": {
+          "plausible": [
+            "Lower base; risks armbar only",
+            "Lower base; no risk at all"
+          ],
+          "trap": [
+            "Raise base higher for momentum"
+          ]
+        }
       },
       {
         "question": "How do you defend against the tripod and sickle sweep combination when both are threatened from the same position?",
-        "answer": "The key is maintaining a centered, balanced base that resists both backward and lateral sweeping forces simultaneously rather than overcommitting to defend one direction. Keep your weight evenly distributed between both feet rather than favoring one side. When defending the tripod by backstepping, do so at a diagonal angle that does not load your weight entirely onto the remaining stance leg where a sickle sweep would catch you. Active pants grips at the knees prevent both sweep configurations from establishing their necessary foot positions."
+        "answer": "The key is maintaining a centered, balanced base that resists both backward and lateral sweeping forces simultaneously rather than overcommitting to defend one direction. Keep your weight evenly distributed between both feet rather than favoring one side. When defending the tripod by backstepping, do so at a diagonal angle that does not load your weight entirely onto the remaining stance leg where a sickle sweep would catch you. Active pants grips at the knees prevent both sweep configurations from establishing their necessary foot positions.",
+        "answer_line": "Stay centered, backstep diagonal",
+        "distractors": {
+          "plausible": [
+            "Commit weight to one strong leg",
+            "Backstep straight back fully"
+          ],
+          "trap": [
+            "Sprawl backward with straight legs"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -396,6 +557,26 @@
         "phase": "Phase 4: Live Situational Sparring",
         "focus": "Full-speed recognition, defense, and counter under realistic conditions",
         "description": "Full-speed positional sparring from feet-on-hips guard where the bottom player has specific instruction to attack primarily with the tripod sweep and its combinations. Defender works on recognition speed, defensive selection, and immediate counter-offense under competition-realistic conditions."
+      }
+    ],
+    "clips": [
+      {
+        "id": "kNfVYhZbgrg",
+        "title": "Four levels of sweep defense from open guard",
+        "by": "Wim Deputter",
+        "vertical": false,
+        "channel": "Wim Deputter BJJ",
+        "duration": 87,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "8xOq1cUJyDw",
+        "title": "Countering Sweeps from X Guard",
+        "by": "Andre Galvao",
+        "vertical": false,
+        "channel": "Atos Jiu-Jitsu HQ | World's Best BJJ Academy - Home Page",
+        "duration": 254,
+        "verified": "2026-07-15"
       }
     ]
   }

@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Half Guard/Bottom",
-      "probability": 40,
+      "probability": {
+        "gi": 40,
+        "nogi": 40
+      },
       "result": "success"
     },
     {
       "to": "Kuzure Kesa-Gatame/Bottom",
-      "probability": 40,
+      "probability": {
+        "gi": 40,
+        "nogi": 40
+      },
       "result": "failure"
     },
     {
       "to": "Mount/Bottom",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 40,
+  "success_rate": {
+    "gi": 40,
+    "nogi": 40
+  },
   "summary": "The Frame Escape from Kuzure Kesa-Gatame is an energy-efficient bottom escape that uses forearm frames against the top player's hip and chained hip escapes to manufacture space, insert a knee shield, and recover half guard from modified scarf hold.",
   "overview": "Within the defensive toolkit available from modified scarf hold bottom, the frame escape is the steady-state option practitioners turn to when explosive reversals are unavailable or too risky against a heavy, well-based opponent. Unlike bridge-based escapes that rely on power and precise limb trapping, this escape employs a methodical approach where the bottom practitioner uses forearm and elbow structures against the top person's hip and shoulder to incrementally create the space necessary for knee insertion and guard recovery.\n\nThe technique's strategic value lies in its energy efficiency and reliability. While bridge-and-roll escapes require precise limb trapping and explosive power, the frame escape works through persistent mechanical advantage, making it effective even when fatigued or outweighed. The free arm establishes a structural barrier that prevents the top person from re-closing distance after each hip escape increment, allowing the bottom practitioner to chain small movements into meaningful positional change.\n\nFrom a systems perspective, the frame escape integrates with the broader defensive toolkit available from Kuzure Kesa-Gatame bottom. It serves as the primary steady-state escape when explosive options are unavailable, and its mechanics naturally set up transitions to half guard where the bottom practitioner can immediately begin offensive sequences. The escape also creates submission defense windows by redirecting the top person's attention from arm attacks to position maintenance.",
   "conditions": [
@@ -248,42 +260,152 @@
     "flashcards": [
       {
         "question": "What is the correct angle for your bridge when initiating the frame escape sequence?",
-        "answer": "Bridge at a 45-degree angle toward the opponent's posting leg rather than straight upward. This attacks their base structure and creates directional space for the subsequent hip escape. A vertical bridge merely lifts them temporarily without generating useful space, as they simply settle back down when you land."
+        "answer": "Bridge at a 45-degree angle toward the opponent's posting leg rather than straight upward. This attacks their base structure and creates directional space for the subsequent hip escape. A vertical bridge merely lifts them temporarily without generating useful space, as they simply settle back down when you land.",
+        "answer_line": "45° toward their posting leg",
+        "distractors": {
+          "plausible": [
+            "Bridge straight up, no angle",
+            "45° away from posting leg"
+          ],
+          "trap": [
+            "Explosive bridge, no frame set"
+          ]
+        }
       },
       {
         "question": "Before you commit to the frame escape, what entry conditions must exist for it to have a realistic chance of working?",
-        "answer": "Your free arm must be available to establish a forearm frame against the opponent's hip or shoulder, your trapped arm must be bent near 90 degrees and safe from immediate submission, and you need enough residual hip mobility to shrimp. The escape works best when the opponent's weight is channeled through hip contact rather than full chest-to-chest compression, since flat chest pressure removes the room your frame needs to redirect force."
+        "answer": "Your free arm must be available to establish a forearm frame against the opponent's hip or shoulder, your trapped arm must be bent near 90 degrees and safe from immediate submission, and you need enough residual hip mobility to shrimp. The escape works best when the opponent's weight is channeled through hip contact rather than full chest-to-chest compression, since flat chest pressure removes the room your frame needs to redirect force.",
+        "answer_line": "Free frame arm, trapped arm at 90°",
+        "distractors": {
+          "plausible": [
+            "Wait for full chest pressure gone",
+            "Trapped arm free before framing"
+          ],
+          "trap": [
+            "Extend trapped arm to push off"
+          ]
+        }
       },
       {
         "question": "Your opponent increases hip pressure when you establish your frame - how should you adjust?",
-        "answer": "Do not fight the increased pressure directly with your frame. Instead, wait for them to shift weight for a submission attempt or positional adjustment, then use that timing window to execute your hip escape. If they maintain constant heavy pressure without shifting, switch to a bridge-and-roll attempt to force them to address a different threat that disrupts their pressure pattern."
+        "answer": "Do not fight the increased pressure directly with your frame. Instead, wait for them to shift weight for a submission attempt or positional adjustment, then use that timing window to execute your hip escape. If they maintain constant heavy pressure without shifting, switch to a bridge-and-roll attempt to force them to address a different threat that disrupts their pressure pattern.",
+        "answer_line": "Wait for their weight shift",
+        "distractors": {
+          "plausible": [
+            "Fight the pressure with your frame",
+            "Bridge and roll immediately"
+          ],
+          "trap": [
+            "Push chest into the pressure"
+          ]
+        }
       },
       {
         "question": "What position must your trapped arm maintain throughout the escape and why?",
-        "answer": "The trapped arm must stay bent at approximately 90 degrees with the elbow clamped tight to your ribs and slight internal shoulder rotation. This prevents both the armbar finish which requires arm extension and the americana finish which requires the arm to collapse against the body. Maintaining this position is non-negotiable even if it means pausing the escape."
+        "answer": "The trapped arm must stay bent at approximately 90 degrees with the elbow clamped tight to your ribs and slight internal shoulder rotation. This prevents both the armbar finish which requires arm extension and the americana finish which requires the arm to collapse against the body. Maintaining this position is non-negotiable even if it means pausing the escape.",
+        "answer_line": "Bent 90°, elbow tight to ribs",
+        "distractors": {
+          "plausible": [
+            "Straight arm, elbow flared out",
+            "Arm folded across your chest"
+          ],
+          "trap": [
+            "Let arm extend to create space"
+          ]
+        }
       },
       {
         "question": "How many hip escape increments should you chain together and why not attempt one large movement?",
-        "answer": "Chain two to three smaller hip escapes with frame readjustments between each increment. A single large explosive movement is easily followed by the opponent who simply closes the distance. Incremental escapes with frame preservation accumulate space that the opponent cannot recover, as each increment is protected by the frame before the next movement begins."
+        "answer": "Chain two to three smaller hip escapes with frame readjustments between each increment. A single large explosive movement is easily followed by the opponent who simply closes the distance. Incremental escapes with frame preservation accumulate space that the opponent cannot recover, as each increment is protected by the frame before the next movement begins.",
+        "answer_line": "2-3 small escapes, reframe between",
+        "distractors": {
+          "plausible": [
+            "One big explosive escape",
+            "5+ tiny escapes back to back"
+          ],
+          "trap": [
+            "One max explosion, skip framing"
+          ]
+        }
       },
       {
         "question": "When during the escape sequence should you insert your knee and what happens if you delay?",
-        "answer": "Insert your knee immediately once approximately six inches of space exists between your body and the opponent. Any delay allows the opponent to re-close this distance, erasing all escape progress. The knee insertion is the commitment point of the escape because once established it creates a structural barrier far more difficult for the opponent to remove than the arm frame alone."
+        "answer": "Insert your knee immediately once approximately six inches of space exists between your body and the opponent. Any delay allows the opponent to re-close this distance, erasing all escape progress. The knee insertion is the commitment point of the escape because once established it creates a structural barrier far more difficult for the opponent to remove than the arm frame alone.",
+        "answer_line": "Insert knee at ~6 inches space",
+        "distractors": {
+          "plausible": [
+            "Wait until guard is fully secure",
+            "Insert knee at the very first inch"
+          ],
+          "trap": [
+            "Delay knee, reinforce frame first"
+          ]
+        }
       },
       {
         "question": "Your opponent begins sliding their knee across your belly during your hip escape - what is the immediate priority?",
-        "answer": "Abandon the escape and immediately address the mount transition. Turn your hips toward the opponent and drive your inside knee between your bodies to block their knee from crossing. Preventing mount takes absolute priority over completing the escape, as mount is a significantly worse position than Kuzure Kesa-Gatame. Restart the escape attempt once the mount threat is neutralized."
+        "answer": "Abandon the escape and immediately address the mount transition. Turn your hips toward the opponent and drive your inside knee between your bodies to block their knee from crossing. Preventing mount takes absolute priority over completing the escape, as mount is a significantly worse position than Kuzure Kesa-Gatame. Restart the escape attempt once the mount threat is neutralized.",
+        "answer_line": "Block the knee, stop mount first",
+        "distractors": {
+          "plausible": [
+            "Keep hip escaping through it",
+            "Push their head down instead"
+          ],
+          "trap": [
+            "Ignore it, finish the hip escape"
+          ]
+        }
       },
       {
         "question": "Your opponent shuts down lateral hip escape by driving straight through your frame - what do you chain into?",
-        "answer": "When forward pressure kills the shrimping path, switch threats rather than fighting the jam. Transition immediately to a bridge-and-roll, using their committed forward weight against their base, or initiate a Granby roll, inverting underneath toward turtle or open guard since the inversion does not require the lateral space they just denied. The frame escape and these alternatives form a two-threat system where defending one opens the other."
+        "answer": "When forward pressure kills the shrimping path, switch threats rather than fighting the jam. Transition immediately to a bridge-and-roll, using their committed forward weight against their base, or initiate a Granby roll, inverting underneath toward turtle or open guard since the inversion does not require the lateral space they just denied. The frame escape and these alternatives form a two-threat system where defending one opens the other.",
+        "answer_line": "Bridge-roll or Granby invert",
+        "distractors": {
+          "plausible": [
+            "Push harder into their frame",
+            "Hold still, wait them out"
+          ],
+          "trap": [
+            "Force the same hip escape again"
+          ]
+        }
       },
       {
         "question": "What grip does your framing arm use against the opponent's hip?",
-        "answer": "No grip is used. The frame is a forearm-to-hip contact using the bone of your ulna pressed against their hip bone or belt line. Gripping wastes energy through muscular contraction and reduces the structural efficiency of the frame. The forearm acts as a rigid strut maintained by skeletal alignment rather than grip strength, which is essential for sustainability under prolonged pressure."
+        "answer": "No grip is used. The frame is a forearm-to-hip contact using the bone of your ulna pressed against their hip bone or belt line. Gripping wastes energy through muscular contraction and reduces the structural efficiency of the frame. The forearm acts as a rigid strut maintained by skeletal alignment rather than grip strength, which is essential for sustainability under prolonged pressure.",
+        "answer_line": "No grip, bone-on-bone forearm",
+        "distractors": {
+          "plausible": [
+            "Grip their belt tightly",
+            "Palm push against their hip"
+          ],
+          "trap": [
+            "Grab and pull their far hip"
+          ]
+        }
       }
     ],
-    "safety_considerations": "The primary safety concern during this escape involves the trapped arm. Never allow the trapped arm to extend during framing or hip escape attempts, as this creates immediate armbar risk. If the opponent aggressively attacks a submission during the escape, immediately abandon the escape and address the submission threat. Tap promptly if any shoulder lock reaches full extension before you can reset your defensive arm position. During training, communicate with your partner about pressure levels and trapped arm comfort to prevent unnecessary shoulder or elbow injuries."
+    "safety_considerations": "The primary safety concern during this escape involves the trapped arm. Never allow the trapped arm to extend during framing or hip escape attempts, as this creates immediate armbar risk. If the opponent aggressively attacks a submission during the escape, immediately abandon the escape and address the submission threat. Tap promptly if any shoulder lock reaches full extension before you can reset your defensive arm position. During training, communicate with your partner about pressure levels and trapped arm comfort to prevent unnecessary shoulder or elbow injuries.",
+    "clips": [
+      {
+        "id": "fvp5_BVEtLg",
+        "title": "Kesa gatame pressure defense using proper framing",
+        "by": "Kohbukan Sisu",
+        "vertical": false,
+        "channel": "Kohbukan Sisu",
+        "duration": 84,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "2okf5X17jeg",
+        "title": "Scarf hold escape from kesa gatame",
+        "by": "Bruce Fowler",
+        "vertical": false,
+        "channel": "Renzo Gracie Jiu Jitsu DFW",
+        "duration": 230,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Frame Escape from Kuzure Kesa Defender",
@@ -368,19 +490,59 @@
     "flashcards": [
       {
         "question": "Your opponent establishes a forearm frame against your hip - what is your immediate response?",
-        "answer": "Drop your weight lower and drive your hip pressure through the frame at an angle rather than straight into it. Re-angle your body slightly to change the direction of force so their frame cannot maintain structural advantage. If the frame is solidly established already, transition to attacking the framing arm rather than trying to collapse the frame through pressure alone."
+        "answer": "Drop your weight lower and drive your hip pressure through the frame at an angle rather than straight into it. Re-angle your body slightly to change the direction of force so their frame cannot maintain structural advantage. If the frame is solidly established already, transition to attacking the framing arm rather than trying to collapse the frame through pressure alone.",
+        "answer_line": "Drop weight, angle through frame",
+        "distractors": {
+          "plausible": [
+            "Push straight into their frame",
+            "Grab and rip their frame off"
+          ],
+          "trap": [
+            "Back off and circle away"
+          ]
+        }
       },
       {
         "question": "Your opponent successfully hip escapes and begins threading their knee between your bodies - how do you respond?",
-        "answer": "You have two options depending on how much space exists. If the knee has not yet crossed your centerline, drive your hip back into the space and use your hand to push their knee down and away. If the knee is already establishing a shield, immediately transition to mount by sliding your knee across their belly before the half guard is fully secured, converting their escape into your positional advancement."
+        "answer": "You have two options depending on how much space exists. If the knee has not yet crossed your centerline, drive your hip back into the space and use your hand to push their knee down and away. If the knee is already establishing a shield, immediately transition to mount by sliding your knee across their belly before the half guard is fully secured, converting their escape into your positional advancement.",
+        "answer_line": "Push knee down or slide to mount",
+        "distractors": {
+          "plausible": [
+            "Always push knee down and hold",
+            "Retreat and reset kesa fully"
+          ],
+          "trap": [
+            "Let the knee cross, no reaction"
+          ]
+        }
       },
       {
         "question": "When should you transition to mount versus maintaining Kuzure Kesa-Gatame during an escape attempt?",
-        "answer": "Transition to mount when the bottom person creates space by turning their hips away from you during the escape. Their turning motion opens the lane for your knee to slide across. Maintain Kuzure Kesa-Gatame when you can shut down the escape through pressure re-establishment and the bottom person has not created significant lateral space. The decision point is whether you can close the gap faster than they can insert their knee."
+        "answer": "Transition to mount when the bottom person creates space by turning their hips away from you during the escape. Their turning motion opens the lane for your knee to slide across. Maintain Kuzure Kesa-Gatame when you can shut down the escape through pressure re-establishment and the bottom person has not created significant lateral space. The decision point is whether you can close the gap faster than they can insert their knee.",
+        "answer_line": "Mount when their hips turn away",
+        "distractors": {
+          "plausible": [
+            "Always transition to mount fast",
+            "Maintain kesa no matter what"
+          ],
+          "trap": [
+            "Chase mount before hips turn"
+          ]
+        }
       },
       {
         "question": "How does your head position help prevent the frame escape?",
-        "answer": "Keep your head on the far side of the opponent's body past their shoulder line. This redirects any bridge force across your body rather than over your base, and it prevents the bottom person from using frames against your neck or jaw for leverage. The head position also provides a counterbalance when they attempt to create angles with hip escapes, maintaining your weight distribution across a wider and more stable base."
+        "answer": "Keep your head on the far side of the opponent's body past their shoulder line. This redirects any bridge force across your body rather than over your base, and it prevents the bottom person from using frames against your neck or jaw for leverage. The head position also provides a counterbalance when they attempt to create angles with hip escapes, maintaining your weight distribution across a wider and more stable base.",
+        "answer_line": "Head past their far shoulder",
+        "distractors": {
+          "plausible": [
+            "Head tucked under near armpit",
+            "Head on the close/near side"
+          ],
+          "trap": [
+            "Head down low near their neck"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -403,6 +565,35 @@
         "phase": "Phase 4: Live Defense",
         "focus": "Full resistance position maintenance",
         "description": "Positional sparring where partner attempts all available escapes including frame escape, bridge-and-roll, and Granby Roll. Maintain position or advance for the duration of each round. Develop integrated defensive responses across multiple escape threats."
+      }
+    ],
+    "clips": [
+      {
+        "id": "TfNpVcekHGg",
+        "title": "Kesa gatame: holding the scarf hold",
+        "by": "Grappler Station",
+        "vertical": false,
+        "channel": "Grappler Station",
+        "duration": 121,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "v_0JUOxAnpU",
+        "title": "Kuzure kesa gatame: holding the broken scarf pin",
+        "by": "JBBA Judo Education",
+        "vertical": false,
+        "channel": "JBBA Judo Education Channel",
+        "duration": 79,
+        "verified": "2026-07-16"
+      },
+      {
+        "id": "JIiuJC7s7n0",
+        "title": "Kuzure-kesa-gatame pin fundamentals",
+        "by": "International Judo Federation",
+        "vertical": false,
+        "channel": "International Judo Federation",
+        "duration": 63,
+        "verified": "2026-07-16"
       }
     ]
   }

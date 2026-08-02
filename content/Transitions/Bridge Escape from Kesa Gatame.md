@@ -34,6 +34,43 @@ description: "Master the bridge escape from Kesa Gatame in BJJ. Complete guide t
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Bridge Escape from Kesa Gatame \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Kesa gatame escape",
+      "description": "Bridge Escape from Kesa Gatame film study: Kesa gatame escape, taught by SBG Australia.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/2M_6VytUaus/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/2M_6VytUaus",
+      "url": "https://www.youtube.com/watch?v=2M_6VytUaus",
+      "creator": { "@type": "Person", "name": "SBG Australia" },
+      "duration": "PT43S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Kesa gatame bridge escape to armbar",
+      "description": "Bridge Escape from Kesa Gatame film study: Kesa gatame bridge escape to armbar, taught by Ivan Chumakov.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/PfkG6R7bbeo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/PfkG6R7bbeo",
+      "url": "https://www.youtube.com/watch?v=PfkG6R7bbeo",
+      "creator": { "@type": "Person", "name": "Ivan Chumakov" },
+      "duration": "PT171S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +106,34 @@ Within the broader Kesa Gatame escape framework, the bridge escape creates a val
 **Success Rate**: 40%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Bridge Escape from Kesa Gatame in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=2M_6VytUaus)
+
+<p class="clip-credit"><strong>Kesa gatame escape</strong> — taught by SBG Australia · 0:43 · <a href="https://www.youtube.com/watch?v=2M_6VytUaus" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=PfkG6R7bbeo)
+
+<p class="clip-credit"><strong>Kesa gatame bridge escape to armbar</strong> — taught by Ivan Chumakov · 2:51 · <a href="https://www.youtube.com/watch?v=PfkG6R7bbeo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 
@@ -244,7 +309,7 @@ The Bridge Escape from Kesa Gatame occupies a critical role within the Kesa Gata
 
 - [[Transitions/Back Take from Kesa Gatame]] - Alternative escape that exploits opponent's exposed back through turning away
 
-- [[Transitions/Ghost Escape]] - Complementary escape creating two-directional threat with bridge escape
+- [[Transitions/Ghost Escape from Side Control]] - Complementary escape creating two-directional threat with bridge escape
 
 - [[Transitions/Bridge and Turn to Turtle]] - Related escape technique using bridge to reach turtle instead of half guard
 

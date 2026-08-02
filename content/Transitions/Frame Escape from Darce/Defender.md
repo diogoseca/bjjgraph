@@ -140,6 +140,43 @@ description: "Learn to counter the Frame Escape from Darce in BJJ. Techniques fo
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Frame Escape from Darce (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Finishing the D\u0027arce against bigger opponents",
+      "description": "Frame Escape from Darce (Defender) film study: Finishing the D\u0027arce against bigger opponents, taught by Rener and Ryron Gracie.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/8Idnp8DpSHU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/8Idnp8DpSHU",
+      "url": "https://www.youtube.com/watch?v=8Idnp8DpSHU",
+      "creator": { "@type": "Person", "name": "Rener and Ryron Gracie" },
+      "duration": "PT151S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Preventing the bridge and roll out of the D\u0027arce",
+      "description": "Frame Escape from Darce (Defender) film study: Preventing the bridge and roll out of the D\u0027arce, taught by EffortlessJiuJitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/1EU_QlWrFRA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/1EU_QlWrFRA",
+      "url": "https://www.youtube.com/watch?v=1EU_QlWrFRA",
+      "creator": { "@type": "Person", "name": "EffortlessJiuJitsu" },
+      "duration": "PT274S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -149,6 +186,34 @@ As the defender against the Frame Escape from Darce, you are the practitioner ho
 **Opponent's Starting Position**: [[Positions/Darce Control]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Frame Escape from Darce (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=8Idnp8DpSHU)
+
+<p class="clip-credit"><strong>Finishing the D&#39;arce against bigger opponents</strong> — taught by Rener and Ryron Gracie · 2:31 · <a href="https://www.youtube.com/watch?v=8Idnp8DpSHU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=1EU_QlWrFRA)
+
+<p class="clip-credit"><strong>Preventing the bridge and roll out of the D&#39;arce</strong> — taught by EffortlessJiuJitsu · 4:34 · <a href="https://www.youtube.com/watch?v=1EU_QlWrFRA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

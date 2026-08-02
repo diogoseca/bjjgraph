@@ -21,37 +21,37 @@ description: "Master Reverse De La Riva Guard Bottom in BJJ. Complete guide cove
     {
       "@type": "HowToStep",
       "name": "Execute Waiter Sweep",
-      "text": "From this position, attempt Waiter Sweep. This technique is attempted in 22% of exchanges from this position.",
+      "text": "From this position, attempt Waiter Sweep. This technique is attempted in 9% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Kiss of the Dragon",
-      "text": "From this position, attempt Kiss of the Dragon. This technique is attempted in 14% of exchanges from this position.",
+      "name": "Execute Berimbolo Entry",
+      "text": "From this position, attempt Berimbolo Entry. This technique is attempted in 5% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Berimbolo Entry",
-      "text": "From this position, attempt Berimbolo Entry. This technique is attempted in 13% of exchanges from this position.",
+      "name": "Execute De La Riva to X-Guard Transition",
+      "text": "From this position, attempt De La Riva to X-Guard Transition. This technique is attempted in 14% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute De La Riva to X-Guard Transition",
-      "text": "From this position, attempt De La Riva to X-Guard Transition. This technique is attempted in 12% of exchanges from this position.",
-      "position": 4
-    },
-    {
-      "@type": "HowToStep",
       "name": "Execute Single Leg X Entry",
-      "text": "From this position, attempt Single Leg X Entry. This technique is attempted in 14% of exchanges from this position.",
-      "position": 5
+      "text": "From this position, attempt Single Leg X Entry. This technique is attempted in 23% of exchanges from this position.",
+      "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Omoplata Sweep",
       "text": "From this position, attempt Omoplata Sweep. This technique is attempted in 4% of exchanges from this position.",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Reverse De La Riva Recovery",
+      "text": "From this position, attempt Reverse De La Riva Recovery. This technique is attempted in 18% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -153,6 +153,43 @@ description: "Master Reverse De La Riva Guard Bottom in BJJ. Complete guide cove
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Reverse De La Riva Guard (Bottom) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Reverse De La Riva into a Knee Bar",
+      "description": "Reverse De La Riva Guard (Bottom) film study: Reverse De La Riva into a Knee Bar, taught by Pardee BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/9cyNdPpL4-I/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/9cyNdPpL4-I",
+      "url": "https://www.youtube.com/watch?v=9cyNdPpL4-I",
+      "creator": { "@type": "Person", "name": "Pardee BJJ" },
+      "duration": "PT65S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "How to Use Reverse De La Riva",
+      "description": "Reverse De La Riva Guard (Bottom) film study: How to Use Reverse De La Riva, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/_beJGS2-yIE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/_beJGS2-yIE",
+      "url": "https://www.youtube.com/watch?v=_beJGS2-yIE",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT122S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -164,6 +201,34 @@ The position requires strong hip mobility and core strength to maintain the inve
 Strategically, Reverse De La Riva operates on the principle of creating rotational off-balancing that forces opponents into defensive dilemmas. The inverted hook structure naturally pulls the opponent's base in a circular pattern, making it difficult for them to establish stable posture or initiate effective passing sequences. This makes the position particularly effective in both gi and no-gi grappling, though gi grips on pants and ankles can enhance the control significantly. The position serves as a critical bridge between traditional open guards and modern leg entanglement systems, offering practitioners multiple pathways to dominant positions including back control, top position via sweeps, and transitions to X-Guard or Single Leg X variations. Understanding this position is essential for modern competitors, as it has become one of the highest-percentage pathways from guard to back control in contemporary grappling.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Reverse De La Riva Guard (Bottom) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=9cyNdPpL4-I)
+
+<p class="clip-credit"><strong>Reverse De La Riva into a Knee Bar</strong> — taught by Pardee BJJ · 1:05 · <a href="https://www.youtube.com/watch?v=9cyNdPpL4-I" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=_beJGS2-yIE)
+
+<p class="clip-credit"><strong>How to Use Reverse De La Riva</strong> — taught by Lachlan Giles · 2:02 · <a href="https://www.youtube.com/watch?v=_beJGS2-yIE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

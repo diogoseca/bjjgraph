@@ -174,6 +174,43 @@ description: "Master executing the Sweep from Headquarters as the bottom player.
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Sweep from Headquarters (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Star sweep",
+      "description": "Sweep from Headquarters (Attacker) film study: Star sweep, taught by bjjtaro.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/kSc35SuV7W0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/kSc35SuV7W0",
+      "url": "https://www.youtube.com/watch?v=kSc35SuV7W0",
+      "creator": { "@type": "Person", "name": "bjjtaro" },
+      "duration": "PT13S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "De La Riva tip from headquarters passing",
+      "description": "Sweep from Headquarters (Attacker) film study: De La Riva tip from headquarters passing, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/eO0iX_6Whaw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/eO0iX_6Whaw",
+      "url": "https://www.youtube.com/watch?v=eO0iX_6Whaw",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT71S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -183,6 +220,34 @@ As the bottom player in headquarters, your primary objective is to disrupt the p
 **From Position**: [[Positions/Headquarters Position]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Sweep from Headquarters (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=kSc35SuV7W0)
+
+<p class="clip-credit"><strong>Star sweep</strong> — taught by bjjtaro · 0:13 · <a href="https://www.youtube.com/watch?v=kSc35SuV7W0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=eO0iX_6Whaw)
+
+<p class="clip-credit"><strong>De La Riva tip from headquarters passing</strong> — taught by Lachlan Giles · 1:11 · <a href="https://www.youtube.com/watch?v=eO0iX_6Whaw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

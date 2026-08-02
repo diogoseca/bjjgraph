@@ -126,6 +126,54 @@ description: "Learn to prevent and counter the Turn In escape from Reverse Kesa-
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Turn In from Reverse Kesa (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Quick kesa gatame escape",
+      "description": "Turn In from Reverse Kesa (Defender) film study: Quick kesa gatame escape, taught by Taylorjiujitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/5atT-Q9-CVw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/5atT-Q9-CVw",
+      "url": "https://www.youtube.com/watch?v=5atT-Q9-CVw",
+      "creator": { "@type": "Person", "name": "Taylorjiujitsu" },
+      "duration": "PT14S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Reverse kesa gatame escape",
+      "description": "Turn In from Reverse Kesa (Defender) film study: Reverse kesa gatame escape, taught by Inverted Gear.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/xROpHA3sNlY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/xROpHA3sNlY",
+      "url": "https://www.youtube.com/watch?v=xROpHA3sNlY",
+      "creator": { "@type": "Person", "name": "Inverted Gear" },
+      "duration": "PT109S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Reverse kesa escape to back take and choke",
+      "description": "Turn In from Reverse Kesa (Defender) film study: Reverse kesa escape to back take and choke, taught by Gymnanigains.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ORpUBUxK1QE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ORpUBUxK1QE",
+      "url": "https://www.youtube.com/watch?v=ORpUBUxK1QE",
+      "creator": { "@type": "Person", "name": "Gymnanigains" },
+      "duration": "PT26S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -135,6 +183,42 @@ As the defender (top player maintaining Reverse Kesa-Gatame), your goal is to pr
 **Opponent's Starting Position**: [[Positions/Side Control/Reverse Kesa-Gatame]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Turn In from Reverse Kesa (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=5atT-Q9-CVw)
+
+<p class="clip-credit"><strong>Quick kesa gatame escape</strong> — taught by Taylorjiujitsu · 0:14 · <a href="https://www.youtube.com/watch?v=5atT-Q9-CVw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=xROpHA3sNlY)
+
+<p class="clip-credit"><strong>Reverse kesa gatame escape</strong> — taught by Inverted Gear · 1:49 · <a href="https://www.youtube.com/watch?v=xROpHA3sNlY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ORpUBUxK1QE)
+
+<p class="clip-credit"><strong>Reverse kesa escape to back take and choke</strong> — taught by Gymnanigains · 0:26 · <a href="https://www.youtube.com/watch?v=ORpUBUxK1QE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

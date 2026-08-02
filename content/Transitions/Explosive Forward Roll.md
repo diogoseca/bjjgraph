@@ -34,6 +34,43 @@ description: "Master the Explosive Forward Roll escape from standing back contro
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Explosive Forward Roll \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Forward roll escape from rear bear hug under arms",
+      "description": "Explosive Forward Roll film study: Forward roll escape from rear bear hug under arms, taught by Soma Academy.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Dqnh7bhBdEc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Dqnh7bhBdEc",
+      "url": "https://www.youtube.com/watch?v=Dqnh7bhBdEc",
+      "creator": { "@type": "Person", "name": "Soma Academy" },
+      "duration": "PT39S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Basic forward roll mechanics",
+      "description": "Explosive Forward Roll film study: Basic forward roll mechanics, taught by Dark Arts Jiu-Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/l1eLyDgyNUA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/l1eLyDgyNUA",
+      "url": "https://www.youtube.com/watch?v=l1eLyDgyNUA",
+      "creator": { "@type": "Person", "name": "Dark Arts Jiu-Jitsu" },
+      "duration": "PT77S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +106,34 @@ Strategically, the explosive forward roll serves as an alternative when traditio
 **Success Rate**: 58%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Explosive Forward Roll in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Dqnh7bhBdEc)
+
+<p class="clip-credit"><strong>Forward roll escape from rear bear hug under arms</strong> — taught by Soma Academy · 0:39 · <a href="https://www.youtube.com/watch?v=Dqnh7bhBdEc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=l1eLyDgyNUA)
+
+<p class="clip-credit"><strong>Basic forward roll mechanics</strong> — taught by Dark Arts Jiu-Jitsu · 1:17 · <a href="https://www.youtube.com/watch?v=l1eLyDgyNUA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

@@ -14,21 +14,33 @@
   "outcomes": [
     {
       "to": "Open Guard/Top",
-      "probability": 50,
+      "probability": {
+        "gi": 50,
+        "nogi": 50
+      },
       "result": "success"
     },
     {
       "to": "Omoplata Control/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Mount/Bottom",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 50,
+  "success_rate": {
+    "gi": 50,
+    "nogi": 50
+  },
   "summary": "The Cartwheel Escape from Omoplata is a defensive forward-roll escape where the trapped player follows the direction of shoulder rotation, somersaulting over their posting hand to clear the opponent's controlling legs and land in open guard top.",
   "overview": "Among omoplata defenses, the cartwheel escape is the highest-percentage option available before the attacker consolidates control, which is why purple and brown belts must master both its execution and its counters. Rather than fighting the rotational pressure directly, the escaper follows the direction of shoulder rotation by performing a forward roll that clears the opponent's controlling legs and lands in a neutral or advantageous top position. This escape exploits the critical timing window that exists before the omoplata player can sit up and establish hip or belt control to anchor the position.\n\nStrategically, the cartwheel escape transforms a dangerous submission threat into a potential passing opportunity. When executed with proper timing, the escaper transitions from a compromised position to open guard top, where they can immediately initiate guard passing sequences. However, experienced omoplata players recognize this pattern and develop specific counters - primarily hip control through belt grips and the ability to follow the roll momentum for sweeps to mount or side control. This creates a tactical chess match where the quality of the omoplata holder's positional control directly determines whether the escape window remains open.\n\nUnderstanding this escape is essential for any practitioner working the omoplata game from either side. The threat of the cartwheel escape forces omoplata players to develop comprehensive hip control systems before threatening the submission finish, while knowledge of counter-timing helps the escaper recognize exactly when the window closes and alternative defensive strategies such as posture recovery or stack defense become necessary instead.",
   "conditions": [
@@ -248,46 +260,175 @@
     "flashcards": [
       {
         "question": "What is the critical timing window for attempting the cartwheel escape from omoplata?",
-        "answer": "The escape must be attempted before the omoplata holder sits up and establishes hip or belt control. The optimal window exists when the holder's leg is over your shoulder but they remain on their back without gripping your belt, pants, or hip. Once hip control is secured, the forward rolling space is eliminated and the escape becomes nearly impossible. Reading the opponent's grip progression is essential for identifying when this window is open."
+        "answer": "The escape must be attempted before the omoplata holder sits up and establishes hip or belt control. The optimal window exists when the holder's leg is over your shoulder but they remain on their back without gripping your belt, pants, or hip. Once hip control is secured, the forward rolling space is eliminated and the escape becomes nearly impossible. Reading the opponent's grip progression is essential for identifying when this window is open.",
+        "answer_line": "Before belt or hip grip locks",
+        "distractors": {
+          "plausible": [
+            "Once they start sitting up",
+            "After leg fully crosses back"
+          ],
+          "trap": [
+            "Wait until they finish grips"
+          ]
+        }
       },
       {
         "question": "Why must you roll diagonally rather than straight forward during the cartwheel escape?",
-        "answer": "Rolling straight forward drives directly into the opponent's controlling leg that is draped across your back, causing the arm to re-catch and the omoplata to tighten. The diagonal roll follows the direction of shoulder rotation, which naturally clears the controlling leg as you pass over it. The correct angle is roughly forty-five degrees in the direction the shoulder is being rotated, rolling over the trapped shoulder rather than straight ahead."
+        "answer": "Rolling straight forward drives directly into the opponent's controlling leg that is draped across your back, causing the arm to re-catch and the omoplata to tighten. The diagonal roll follows the direction of shoulder rotation, which naturally clears the controlling leg as you pass over it. The correct angle is roughly forty-five degrees in the direction the shoulder is being rotated, rolling over the trapped shoulder rather than straight ahead.",
+        "answer_line": "Diagonal clears the leg drape",
+        "distractors": {
+          "plausible": [
+            "Roll straight through fast",
+            "Roll away from trapped arm"
+          ],
+          "trap": [
+            "Roll straight into their leg"
+          ]
+        }
       },
       {
         "question": "Your opponent has their leg over your shoulder but has not gripped your belt yet - how do you assess whether to attempt the cartwheel escape?",
-        "answer": "Check three things rapidly: first, whether their free leg is hooking your far leg, which would block the roll; second, whether they are beginning to sit up, which signals imminent hip control; third, whether you have clear mat space ahead for the roll. If the leg hook is absent, they remain on their back, and space is available, commit immediately and decisively to the forward roll before the window closes."
+        "answer": "Check three things rapidly: first, whether their free leg is hooking your far leg, which would block the roll; second, whether they are beginning to sit up, which signals imminent hip control; third, whether you have clear mat space ahead for the roll. If the leg hook is absent, they remain on their back, and space is available, commit immediately and decisively to the forward roll before the window closes.",
+        "answer_line": "Check leg hook, posture, space",
+        "distractors": {
+          "plausible": [
+            "Check grip strength only",
+            "Check their base leg position"
+          ],
+          "trap": [
+            "Commit without checking hook"
+          ]
+        }
       },
       {
         "question": "What role does the posting hand play in the mechanics of the cartwheel escape?",
-        "answer": "The posting hand serves as the directional anchor and speed regulator for the entire forward roll. It is planted firmly on the mat on the far side of the opponent's hip, with fingers spread wide for maximum base. Without the posting hand, the roll becomes uncontrolled and you land in a poor position. The hand placement determines the roll trajectory, ensuring you clear the controlling legs and land in base rather than flat on your back."
+        "answer": "The posting hand serves as the directional anchor and speed regulator for the entire forward roll. It is planted firmly on the mat on the far side of the opponent's hip, with fingers spread wide for maximum base. Without the posting hand, the roll becomes uncontrolled and you land in a poor position. The hand placement determines the roll trajectory, ensuring you clear the controlling legs and land in base rather than flat on your back.",
+        "answer_line": "Anchors roll direction, speed",
+        "distractors": {
+          "plausible": [
+            "Pushes off opponent's chest",
+            "Grips opponent's far knee"
+          ],
+          "trap": [
+            "Tuck hand under your hip"
+          ]
+        }
       },
       {
         "question": "What should you do in the first two seconds after landing from a successful cartwheel escape?",
-        "answer": "Immediately establish a wide base by spreading your knees and posting with both hands, driving your hips low to the mat. Then turn to face the opponent without hesitation and establish grips on their legs or pants to begin controlling distance. These first two seconds determine whether you escape cleanly or get swept as the opponent follows the roll momentum. Failing to base out quickly is the most common reason successful rolls still result in being swept to bottom."
+        "answer": "Immediately establish a wide base by spreading your knees and posting with both hands, driving your hips low to the mat. Then turn to face the opponent without hesitation and establish grips on their legs or pants to begin controlling distance. These first two seconds determine whether you escape cleanly or get swept as the opponent follows the roll momentum. Failing to base out quickly is the most common reason successful rolls still result in being swept to bottom.",
+        "answer_line": "Base wide, then face opponent",
+        "distractors": {
+          "plausible": [
+            "Immediately shoot for a pass",
+            "Sit back and catch your breath"
+          ],
+          "trap": [
+            "Turn away to create distance"
+          ]
+        }
       },
       {
         "question": "The omoplata holder grabs your belt as you begin loading weight forward - what is the correct response?",
-        "answer": "Abort the cartwheel escape immediately. The belt grip anchors your hips and prevents the forward momentum needed for the roll. Attempting to force through the grip wastes energy and worsens your position. Instead, transition to alternative defenses: drive your hips back to relieve shoulder pressure while working to strip the belt grip, use posture recovery by walking your knees back and creating an upright position, or employ the stack defense by driving forward pressure onto the opponent to flatten them."
+        "answer": "Abort the cartwheel escape immediately. The belt grip anchors your hips and prevents the forward momentum needed for the roll. Attempting to force through the grip wastes energy and worsens your position. Instead, transition to alternative defenses: drive your hips back to relieve shoulder pressure while working to strip the belt grip, use posture recovery by walking your knees back and creating an upright position, or employ the stack defense by driving forward pressure onto the opponent to flatten them.",
+        "answer_line": "Abort roll, strip belt grip",
+        "distractors": {
+          "plausible": [
+            "Power through the grip",
+            "Switch grips and continue"
+          ],
+          "trap": [
+            "Force the roll through anyway"
+          ]
+        }
       },
       {
         "question": "How do you prevent the opponent from following your roll and sweeping to mount?",
-        "answer": "The primary defense against the follow-through sweep is establishing base immediately after landing. Widen your knees, post both hands, and drive your hips low within one to two seconds of completing the roll. Additionally, during the roll itself, control the speed using your posting hand rather than just falling through. If you sense the opponent following, hip out aggressively to the side opposite their momentum as you land, creating an angle that makes the sweep transition much more difficult for them."
+        "answer": "The primary defense against the follow-through sweep is establishing base immediately after landing. Widen your knees, post both hands, and drive your hips low within one to two seconds of completing the roll. Additionally, during the roll itself, control the speed using your posting hand rather than just falling through. If you sense the opponent following, hip out aggressively to the side opposite their momentum as you land, creating an angle that makes the sweep transition much more difficult for them.",
+        "answer_line": "Base fast, hip out on landing",
+        "distractors": {
+          "plausible": [
+            "Roll faster to outrun them",
+            "Grab a leg mid-roll"
+          ],
+          "trap": [
+            "Fall flat and reset slowly"
+          ]
+        }
       },
       {
         "question": "What grip adjustments should you make with the trapped arm during the forward roll?",
-        "answer": "Pin the trapped arm tight against your body throughout the roll by internally rotating the shoulder and driving the elbow toward your hip. This prevents the arm from catching on the opponent's controlling leg during the rotation, which would re-establish the omoplata or create an armbar opportunity. The momentary looseness created by the forward roll provides a natural window to extract the arm, but only if the elbow stays compact against the ribs rather than flaring outward."
+        "answer": "Pin the trapped arm tight against your body throughout the roll by internally rotating the shoulder and driving the elbow toward your hip. This prevents the arm from catching on the opponent's controlling leg during the rotation, which would re-establish the omoplata or create an armbar opportunity. The momentary looseness created by the forward roll provides a natural window to extract the arm, but only if the elbow stays compact against the ribs rather than flaring outward.",
+        "answer_line": "Pin elbow tight to your ribs",
+        "distractors": {
+          "plausible": [
+            "Flare elbow for leverage",
+            "Extend arm to create space"
+          ],
+          "trap": [
+            "Let arm swing loose freely"
+          ]
+        }
       },
       {
         "question": "You complete the cartwheel escape and land in open guard top - what immediate offensive actions should you take to capitalize on the escape?",
-        "answer": "Immediately establish grips on the opponent's pants at the knees or ankles to control their legs and prevent them from establishing a strong open guard. Drive forward pressure into a guard passing sequence such as a toreando or leg drag pass, capitalizing on the opponent's momentary disorientation from the failed omoplata. The transition from escape to passing must be seamless because any pause allows them to reset grips, establish foot-on-hip frames, and recover a structured guard position. The cartwheel escape is most valuable when it directly chains into passing rather than resetting to a neutral guard engagement."
+        "answer": "Immediately establish grips on the opponent's pants at the knees or ankles to control their legs and prevent them from establishing a strong open guard. Drive forward pressure into a guard passing sequence such as a toreando or leg drag pass, capitalizing on the opponent's momentary disorientation from the failed omoplata. The transition from escape to passing must be seamless because any pause allows them to reset grips, establish foot-on-hip frames, and recover a structured guard position. The cartwheel escape is most valuable when it directly chains into passing rather than resetting to a neutral guard engagement.",
+        "answer_line": "Grip pants, chain into pass",
+        "distractors": {
+          "plausible": [
+            "Reset to neutral guard",
+            "Pause to regain balance first"
+          ],
+          "trap": [
+            "Wait for them to reset guard"
+          ]
+        }
       },
       {
         "question": "Your opponent hooks your far leg with their free leg as you prepare to initiate the forward roll - how do you adjust your escape approach?",
-        "answer": "The leg hook removes the base needed to generate forward rolling momentum and must be addressed before the cartwheel can proceed. Kick the hooked leg free by extending it forcefully while keeping your upper body loaded forward to maintain readiness for the roll. If the hook is too deep to clear with a single kick, abandon the cartwheel escape entirely and switch to alternative defenses. Drive your hips backward to relieve shoulder pressure and work toward posture recovery, or use the stack defense by driving forward weight onto the opponent to flatten them and reduce their leg control. Never attempt the roll with the far leg hooked as the incomplete momentum will stall the escape and leave you in a worse position."
+        "answer": "The leg hook removes the base needed to generate forward rolling momentum and must be addressed before the cartwheel can proceed. Kick the hooked leg free by extending it forcefully while keeping your upper body loaded forward to maintain readiness for the roll. If the hook is too deep to clear with a single kick, abandon the cartwheel escape entirely and switch to alternative defenses. Drive your hips backward to relieve shoulder pressure and work toward posture recovery, or use the stack defense by driving forward weight onto the opponent to flatten them and reduce their leg control. Never attempt the roll with the far leg hooked as the incomplete momentum will stall the escape and leave you in a worse position.",
+        "answer_line": "Kick leg free, then roll",
+        "distractors": {
+          "plausible": [
+            "Push through the hook",
+            "Switch roll direction instead"
+          ],
+          "trap": [
+            "Force roll with leg hooked"
+          ]
+        }
       }
     ],
-    "safety_considerations": "The cartwheel escape involves a forward roll that places significant stress on the trapped shoulder and cervical spine. Always tuck the chin firmly before initiating any forward movement to protect the neck from compression injuries. If shoulder mobility is limited due to existing injury or the omoplata pressure has already created significant pain, do not attempt the roll as the rotational forces during the escape can exacerbate shoulder damage. In training, communicate clearly with your partner and tap early if the shoulder pressure becomes excessive before attempting the escape. Start all drilling at slow speed to develop proper rolling mechanics before adding intensity. Practitioners with neck or shoulder injuries should consult with their instructor before training this technique."
+    "safety_considerations": "The cartwheel escape involves a forward roll that places significant stress on the trapped shoulder and cervical spine. Always tuck the chin firmly before initiating any forward movement to protect the neck from compression injuries. If shoulder mobility is limited due to existing injury or the omoplata pressure has already created significant pain, do not attempt the roll as the rotational forces during the escape can exacerbate shoulder damage. In training, communicate clearly with your partner and tap early if the shoulder pressure becomes excessive before attempting the escape. Start all drilling at slow speed to develop proper rolling mechanics before adding intensity. Practitioners with neck or shoulder injuries should consult with their instructor before training this technique.",
+    "clips": [
+      {
+        "id": "_2dhd21ffbc",
+        "title": "Omoplata escape by jumping over the leg",
+        "by": "Ritchie Yip",
+        "vertical": false,
+        "channel": "Ritchie Yip",
+        "duration": 8,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "i1SFYSZvMJU",
+        "title": "Cartwheel over the head to escape the omoplata",
+        "by": "David Thomas",
+        "vertical": false,
+        "channel": "David Thomas",
+        "duration": 30,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "HszTUEYJ-xE",
+        "title": "Quick omoplata escape",
+        "by": "Adam Bradley",
+        "vertical": false,
+        "channel": "Adam Bradley",
+        "duration": 36,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Cartwheel Escape from Omoplata Defender",
@@ -373,23 +514,73 @@
     "flashcards": [
       {
         "question": "What is the single most important control point for preventing the cartwheel escape from omoplata?",
-        "answer": "The belt or hip grip is the most critical control point because it directly anchors the opponent's body and eliminates the forward space needed for the roll. Without this grip, even excellent leg positioning can be overcome by sufficient forward momentum. The grip should be established as the very first action after threading the leg over the shoulder, before any attempt at sitting up or applying finishing pressure."
+        "answer": "The belt or hip grip is the most critical control point because it directly anchors the opponent's body and eliminates the forward space needed for the roll. Without this grip, even excellent leg positioning can be overcome by sufficient forward momentum. The grip should be established as the very first action after threading the leg over the shoulder, before any attempt at sitting up or applying finishing pressure.",
+        "answer_line": "Belt or hip grip",
+        "distractors": {
+          "plausible": [
+            "Leg pressure on shoulder",
+            "Wrist control on trapped arm"
+          ],
+          "trap": [
+            "Sit up without grip first"
+          ]
+        }
       },
       {
         "question": "How should you respond when you recognize the opponent has already committed to the forward roll?",
-        "answer": "Switch immediately from prevention to exploitation. Maintain hip connection by keeping your controlling leg and shin tight against their back, and follow their rolling momentum by riding over them. Use the energy of their roll to transition directly into mount or side control rather than fighting against the momentum. The key is maintaining physical contact throughout the roll rather than trying to re-engage after they complete it."
+        "answer": "Switch immediately from prevention to exploitation. Maintain hip connection by keeping your controlling leg and shin tight against their back, and follow their rolling momentum by riding over them. Use the energy of their roll to transition directly into mount or side control rather than fighting against the momentum. The key is maintaining physical contact throughout the roll rather than trying to re-engage after they complete it.",
+        "answer_line": "Ride roll into mount or side",
+        "distractors": {
+          "plausible": [
+            "Re-grip and restart omoplata",
+            "Let go and reset position"
+          ],
+          "trap": [
+            "Fight the rolling momentum"
+          ]
+        }
       },
       {
         "question": "What early recognition cues indicate the opponent is about to attempt a cartwheel escape?",
-        "answer": "Watch for the opponent planting their free hand firmly on the mat on your far side, which establishes their posting base. Their weight will shift forward onto the hands and trapped shoulder, and their head will drop toward the mat as they tuck the chin. The hips will begin driving forward and upward to generate momentum. Recognizing the hand posting is the earliest and most reliable cue, as it typically occurs one to two seconds before the actual roll begins."
+        "answer": "Watch for the opponent planting their free hand firmly on the mat on your far side, which establishes their posting base. Their weight will shift forward onto the hands and trapped shoulder, and their head will drop toward the mat as they tuck the chin. The hips will begin driving forward and upward to generate momentum. Recognizing the hand posting is the earliest and most reliable cue, as it typically occurs one to two seconds before the actual roll begins.",
+        "answer_line": "Watch for free hand posting",
+        "distractors": {
+          "plausible": [
+            "Watch for hip lifting first",
+            "Watch for arm loosening"
+          ],
+          "trap": [
+            "Wait for the roll to complete"
+          ]
+        }
       },
       {
         "question": "Why is sitting up perpendicular to the opponent important for preventing the cartwheel escape?",
-        "answer": "Sitting up perpendicular accomplishes two critical objectives simultaneously. First, it increases the rotational pressure on the trapped shoulder, making the forward roll more painful and mechanically difficult. Second, it reduces the space between your body and the opponent's, physically blocking the forward rolling path. The combination of increased pressure and reduced space makes the cartwheel escape nearly impossible when combined with a belt or hip grip."
+        "answer": "Sitting up perpendicular accomplishes two critical objectives simultaneously. First, it increases the rotational pressure on the trapped shoulder, making the forward roll more painful and mechanically difficult. Second, it reduces the space between your body and the opponent's, physically blocking the forward rolling path. The combination of increased pressure and reduced space makes the cartwheel escape nearly impossible when combined with a belt or hip grip.",
+        "answer_line": "Adds pressure, blocks space",
+        "distractors": {
+          "plausible": [
+            "Increases their grip strength",
+            "Improves your own posture only"
+          ],
+          "trap": [
+            "Lean back to avoid pressure"
+          ]
+        }
       },
       {
         "question": "How do you use the free leg to complement your hip control in preventing the cartwheel escape?",
-        "answer": "The free leg serves as an additional blocking frame by hooking the opponent's far hip or thigh. This hook removes the base they need to generate forward momentum for the roll. Position the free leg behind their far hip and pull toward you, which simultaneously blocks the roll and helps you sit up into the perpendicular control position. The free leg hook is especially important when you have not yet secured the belt grip, as it provides an alternative anchor point."
+        "answer": "The free leg serves as an additional blocking frame by hooking the opponent's far hip or thigh. This hook removes the base they need to generate forward momentum for the roll. Position the free leg behind their far hip and pull toward you, which simultaneously blocks the roll and helps you sit up into the perpendicular control position. The free leg hook is especially important when you have not yet secured the belt grip, as it provides an alternative anchor point.",
+        "answer_line": "Hook far hip, pull them in",
+        "distractors": {
+          "plausible": [
+            "Hook their near knee",
+            "Push their hip away"
+          ],
+          "trap": [
+            "Release free leg for speed"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -412,6 +603,26 @@
         "phase": "Phase 4: Live Situational Sparring",
         "focus": "Full resistance decision-making",
         "description": "Begin from omoplata control with full resistance. Defender must decide in real-time whether to prevent the escape through control or follow the roll for the sweep. Track success rates for prevention versus exploitation across multiple rounds. Develop automatic responses to the recognition cues identified in Phase 1."
+      }
+    ],
+    "clips": [
+      {
+        "id": "NZEf9jXzCYA",
+        "title": "Countering the cartwheel escape",
+        "by": "Sam Wilkinson",
+        "vertical": false,
+        "channel": "Sam Wilkinson MMA",
+        "duration": 80,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "AHCYSGbEGHM",
+        "title": "Finishing the omoplata against the common defense",
+        "by": "Jon Thomas",
+        "vertical": false,
+        "channel": "JonThomasBJJ",
+        "duration": 425,
+        "verified": "2026-07-15"
       }
     ]
   }

@@ -34,6 +34,54 @@ description: "Master overhook control (whizzer) in BJJ. Complete guide covering 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Overhook Control \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Using an overhook",
+      "description": "Overhook Control film study: Using an overhook, taught by Patrick Spano.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/DfUHvTQpzCg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/DfUHvTQpzCg",
+      "url": "https://www.youtube.com/watch?v=DfUHvTQpzCg",
+      "creator": { "@type": "Person", "name": "Patrick Spano" },
+      "duration": "PT40S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Whizzer from half guard: win the dogfight",
+      "description": "Overhook Control film study: Whizzer from half guard: win the dogfight, taught by Wrecking Crew BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/8mXBDHXrAu4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/8mXBDHXrAu4",
+      "url": "https://www.youtube.com/watch?v=8mXBDHXrAu4",
+      "creator": { "@type": "Person", "name": "Wrecking Crew BJJ" },
+      "duration": "PT60S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Overhook to counter underhook control",
+      "description": "Overhook Control film study: Overhook to counter underhook control, taught by Wrecking Crew BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/IQJ2k2Nbst8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/IQJ2k2Nbst8",
+      "url": "https://www.youtube.com/watch?v=IQJ2k2Nbst8",
+      "creator": { "@type": "Person", "name": "Wrecking Crew BJJ" },
+      "duration": "PT54S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -68,6 +116,42 @@ Modern BJJ has evolved the overhook from its wrestling roots into a sophisticate
 The dual nature of overhook control makes it equally valuable as both an offensive weapon and defensive tool. Offensively, it serves as a transitional control leading to dominant positions within seconds. Defensively, it prevents opponents from establishing their preferred grips, disrupts their attacking sequences, and creates separation when needed. This versatility across multiple contexts and positions makes overhook control one of the most high-percentage techniques in grappling, with applications ranging from beginner fundamentals through advanced competition strategies.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Overhook Control in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=DfUHvTQpzCg)
+
+<p class="clip-credit"><strong>Using an overhook</strong> — taught by Patrick Spano · 0:40 · <a href="https://www.youtube.com/watch?v=DfUHvTQpzCg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=8mXBDHXrAu4)
+
+<p class="clip-credit"><strong>Whizzer from half guard: win the dogfight</strong> — taught by Wrecking Crew BJJ · 1:00 · <a href="https://www.youtube.com/watch?v=8mXBDHXrAu4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=IQJ2k2Nbst8)
+
+<p class="clip-credit"><strong>Overhook to counter underhook control</strong> — taught by Wrecking Crew BJJ · 0:54 · <a href="https://www.youtube.com/watch?v=IQJ2k2Nbst8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 
@@ -139,25 +223,23 @@ The dual nature of overhook control makes it equally valuable as both an offensi
 ### Available Transitions
 
 
-- **[[Transitions/Arm Drag to Back/Attacker|Arm Drag to Back]]** (11% of attempts)
+- **[[Transitions/Arm Drag to Back/Attacker|Arm Drag to Back]]** (13% of attempts)
 
-- **[[Transitions/Overhook Sweep/Attacker|Overhook Sweep]]** (22% of attempts)
+- **[[Transitions/Overhook Sweep/Attacker|Overhook Sweep]]** (15% of attempts)
 
-- **[[Transitions/Butterfly Sweep/Attacker|Butterfly Sweep]]** (11% of attempts)
+- **[[Transitions/Butterfly Sweep/Attacker|Butterfly Sweep]]** (12% of attempts)
 
-- **[[Transitions/Triangle Setup/Attacker|Triangle Setup]]** (10% of attempts)
+- **[[Transitions/Triangle Setup/Attacker|Triangle Setup]]** (12% of attempts)
 
-- **[[Transitions/Closed Guard to Omoplata/Attacker|Closed Guard to Omoplata]]** (9% of attempts)
+- **[[Transitions/Closed Guard to Omoplata/Attacker|Closed Guard to Omoplata]]** (8% of attempts)
 
-- **[[Transitions/Guillotine Setup/Attacker|Guillotine Setup]]** (10% of attempts)
+- **[[Transitions/Elevator Sweep/Attacker|Elevator Sweep]]** (9% of attempts)
 
-- **[[Transitions/Elevator Sweep/Attacker|Elevator Sweep]]** (11% of attempts)
+- **[[Transitions/Old School Sweep/Attacker|Old School Sweep]]** (9% of attempts)
 
-- **[[Transitions/Old School Sweep/Attacker|Old School Sweep]]** (10% of attempts)
+- **[[Transitions/Overhook Control Sweep/Attacker|Overhook Control Sweep]]** (13% of attempts)
 
-- **[[Transitions/Overhook Control Sweep/Attacker|Overhook Control Sweep]]** (4% of attempts)
-
-- **[[Transitions/Overhook to Half Guard/Attacker|Overhook to Half Guard]]** (2% of attempts)
+- **[[Transitions/Overhook to Half Guard/Attacker|Overhook to Half Guard]]** (9% of attempts)
 
 
 ### Common Mistakes
@@ -214,25 +296,23 @@ The dual nature of overhook control makes it equally valuable as both an offensi
 ### Available Transitions
 
 
-- **[[Kimura from Overhook Control/Attacker|Kimura from Overhook Control]]** (16% of attempts)
+- **[[Kimura from Overhook Control/Attacker|Kimura from Overhook Control]]** (15% of attempts)
 
-- **[[Darce Choke from Overhook Control/Attacker|Darce Choke from Overhook Control]]** (10% of attempts)
+- **[[Darce Choke from Overhook Control/Attacker|Darce Choke from Overhook Control]]** (16% of attempts)
 
-- **[[Transitions/Anaconda Choke/Attacker|Anaconda Choke]]** (9% of attempts)
+- **[[Transitions/Anaconda Choke/Attacker|Anaconda Choke]]** (11% of attempts)
 
-- **[[Transitions/Arm Drag to Back/Attacker|Arm Drag to Back]]** (11% of attempts)
+- **[[Transitions/Two-on-One to Back Take/Attacker|Two-on-One to Back Take]]** (13% of attempts)
 
-- **[[Transitions/Two-on-One to Back Take/Attacker|Two-on-One to Back Take]]** (10% of attempts)
+- **[[Transitions/Snap Down to Front Headlock/Attacker|Snap Down to Front Headlock]]** (12% of attempts)
 
-- **[[Transitions/Snap Down to Front Headlock/Attacker|Snap Down to Front Headlock]]** (11% of attempts)
+- **[[Transitions/Crab Ride to Back/Attacker|Crab Ride to Back]]** (8% of attempts)
 
-- **[[Transitions/Crab Ride to Back/Attacker|Crab Ride to Back]]** (10% of attempts)
+- **[[Transitions/Crucifix from Turtle/Attacker|Crucifix from Turtle]]** (7% of attempts)
 
-- **[[Transitions/Crucifix from Turtle/Attacker|Crucifix from Turtle]]** (8% of attempts)
+- **[[Transitions/Side Control to Mount/Attacker|Side Control to Mount]]** (7% of attempts)
 
-- **[[Transitions/Side Control to Mount/Attacker|Side Control to Mount]]** (11% of attempts)
-
-- **[[Transitions/Overhook Pass to Side Control/Attacker|Overhook Pass to Side Control]]** (4% of attempts)
+- **[[Transitions/Overhook Pass to Side Control/Attacker|Overhook Pass to Side Control]]** (11% of attempts)
 
 
 ### Common Mistakes

@@ -148,6 +148,54 @@ description: "How to defend against Granby to Closed Guard in BJJ. Recognition c
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Granby to Closed Guard (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Rolling back take from turtle",
+      "description": "Granby to Closed Guard (Defender) film study: Rolling back take from turtle, taught by JiuJitsu.com coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/oijKoS9siS4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/oijKoS9siS4",
+      "url": "https://www.youtube.com/watch?v=oijKoS9siS4",
+      "creator": { "@type": "Person", "name": "JiuJitsu.com coach" },
+      "duration": "PT41S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Back take from the turtle position",
+      "description": "Granby to Closed Guard (Defender) film study: Back take from the turtle position, taught by Evolve MMA coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/6ns9XP2BsjQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/6ns9XP2BsjQ",
+      "url": "https://www.youtube.com/watch?v=6ns9XP2BsjQ",
+      "creator": { "@type": "Person", "name": "Evolve MMA coach" },
+      "duration": "PT66S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Crab ride to counter granby rolls",
+      "description": "Granby to Closed Guard (Defender) film study: Crab ride to counter granby rolls, taught by Duck-Jitsu coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/9eP5msv3Qsk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/9eP5msv3Qsk",
+      "url": "https://www.youtube.com/watch?v=9eP5msv3Qsk",
+      "creator": { "@type": "Person", "name": "Duck-Jitsu coach" },
+      "duration": "PT234S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -161,6 +209,42 @@ Advanced defenders develop the ability to use the Granby roll attempt against th
 **Opponent's Starting Position**: [[Positions/Turtle]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Granby to Closed Guard (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=oijKoS9siS4)
+
+<p class="clip-credit"><strong>Rolling back take from turtle</strong> — taught by JiuJitsu.com coach · 0:41 · <a href="https://www.youtube.com/watch?v=oijKoS9siS4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=6ns9XP2BsjQ)
+
+<p class="clip-credit"><strong>Back take from the turtle position</strong> — taught by Evolve MMA coach · 1:06 · <a href="https://www.youtube.com/watch?v=6ns9XP2BsjQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=9eP5msv3Qsk)
+
+<p class="clip-credit"><strong>Crab ride to counter granby rolls</strong> — taught by Duck-Jitsu coach · 3:54 · <a href="https://www.youtube.com/watch?v=9eP5msv3Qsk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

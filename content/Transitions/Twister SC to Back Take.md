@@ -34,6 +34,43 @@ description: "Master the Twister Side Control to Back Take in BJJ. Complete guid
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Twister SC to Back Take \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Back attacks and RNC from twister side control",
+      "description": "Twister SC to Back Take film study: Back attacks and RNC from twister side control, taught by Thunderdome BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/v3hCMwN92TQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/v3hCMwN92TQ",
+      "url": "https://www.youtube.com/watch?v=v3hCMwN92TQ",
+      "creator": { "@type": "Person", "name": "Thunderdome BJJ" },
+      "duration": "PT57S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Twister side control attacks",
+      "description": "Twister SC to Back Take film study: Twister side control attacks, taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/odT3-cVWXdc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/odT3-cVWXdc",
+      "url": "https://www.youtube.com/watch?v=odT3-cVWXdc",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT61S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +106,34 @@ The success of this technique depends heavily on timing and the ability to maint
 **Success Rate**: 55%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Twister SC to Back Take in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=v3hCMwN92TQ)
+
+<p class="clip-credit"><strong>Back attacks and RNC from twister side control</strong> — taught by Thunderdome BJJ · 0:57 · <a href="https://www.youtube.com/watch?v=v3hCMwN92TQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=odT3-cVWXdc)
+
+<p class="clip-credit"><strong>Twister side control attacks</strong> — taught by Eddie Bravo · 1:01 · <a href="https://www.youtube.com/watch?v=odT3-cVWXdc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

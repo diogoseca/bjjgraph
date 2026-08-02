@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Side Control/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "success"
     },
     {
       "to": "Cross Ashi-Garami/Bottom",
-      "probability": 45,
+      "probability": {
+        "gi": 45,
+        "nogi": 45
+      },
       "result": "failure"
     },
     {
       "to": "Saddle/Bottom",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 30,
+  "success_rate": {
+    "gi": 30,
+    "nogi": 30
+  },
   "overview": "Within modern leg-lock exchanges, this sweep gives the bottom player a rare offensive answer to cross ashi control: rather than grinding through a purely defensive escape, it turns the seated top player's own commitment against them and converts a dangerous bottom position into a dominant top one. The technique exploits a fundamental structural vulnerability in the cross ashi position—the top player's base is inherently narrow because both legs are committed to controlling the entangled limb, and both hands are typically occupied with heel or ankle grips. When the bottom player can control the top player's upper body and time a powerful hip bridge or sit-up motion, the seated opponent lacks reliable posting options and can be toppled backward or laterally.\n\nThe sweep functions as a critical escape pathway within modern leg lock exchanges, offering the bottom player an alternative to pure leg extraction or counter-entanglement strategies. Rather than fighting to free the trapped leg—which requires overcoming the top player's primary control mechanism—the sweep redirects energy toward disrupting the top player's balance while using the entanglement itself as a fulcrum for leverage. This makes it particularly effective against opponents who become overly focused on finishing heel hooks and neglect their base maintenance. The technique rewards patience, timing, and sensitivity to weight distribution shifts rather than raw explosiveness.\n\nStrategically, the sweep occupies a unique role in the defensive leg entanglement toolbox. It provides a path to a dominant top position (Side Control) rather than merely returning to neutral guard, making it a high-reward option when conditions align. However, a poorly timed or executed sweep attempt carries real risk—the movement can expose the heel, create rotational forces that aid the top player's submission, or allow advancement to the deeper Saddle position. Success requires reading the opponent's weight commitment, securing upper body control before initiating the sweep, and committing fully once the motion begins.",
   "conditions": [
     "Top player's hands are occupied with heel or ankle grips, limiting posting ability",
@@ -240,38 +252,147 @@
     "flashcards": [
       {
         "question": "What is the single most important setup requirement before initiating the Sweep from Cross Ashi-Garami?",
-        "answer": "Establishing upper body control on the opponent is the non-negotiable prerequisite. Without an underhook, collar tie, or sleeve grip connecting you to the opponent's torso, the sweep has no fulcrum for generating rotational force. The seated opponent can simply lean away or post a hand to absorb any hip bridge or sit-up attempt that lacks this upper body connection."
+        "answer": "Establishing upper body control on the opponent is the non-negotiable prerequisite. Without an underhook, collar tie, or sleeve grip connecting you to the opponent's torso, the sweep has no fulcrum for generating rotational force. The seated opponent can simply lean away or post a hand to absorb any hip bridge or sit-up attempt that lacks this upper body connection.",
+        "answer_line": "Get upper body control first",
+        "distractors": {
+          "plausible": [
+            "Break opponent's posture down",
+            "Secure a deep heel hook grip"
+          ],
+          "trap": [
+            "Let go of the leg entanglement"
+          ]
+        }
       },
       {
         "question": "Your opponent begins transitioning their grip from your heel to set up a different leg attack—how does this create a sweep opportunity?",
-        "answer": "Grip transitions create the ideal sweep timing window because both of the opponent's hands are momentarily disengaged from secure control. Their attention is divided between releasing the old grip and establishing the new one, and their base is typically compromised as they adjust body position for the new attack angle. This is the moment to secure upper body control and execute the sweep before they settle into the new configuration."
+        "answer": "Grip transitions create the ideal sweep timing window because both of the opponent's hands are momentarily disengaged from secure control. Their attention is divided between releasing the old grip and establishing the new one, and their base is typically compromised as they adjust body position for the new attack angle. This is the moment to secure upper body control and execute the sweep before they settle into the new configuration.",
+        "answer_line": "Attack while grips transition",
+        "distractors": {
+          "plausible": [
+            "Wait for new grip to settle",
+            "Free your trapped leg now"
+          ],
+          "trap": [
+            "Push away and try to stand"
+          ]
+        }
       },
       {
         "question": "What is the critical mechanical principle that makes the entangled leg useful for the sweep rather than purely a liability?",
-        "answer": "The entangled leg serves as a fixed pivot point around which the sweep rotation occurs. Because the opponent's legs are locked around your trapped limb, this connection actually transfers your bridging or sit-up force directly into the opponent's base structure. Instead of fighting to free the leg, the sweep uses the connection as leverage—the more tightly the opponent holds the leg, the more effectively the rotational force transfers through the entanglement to disrupt their balance."
+        "answer": "The entangled leg serves as a fixed pivot point around which the sweep rotation occurs. Because the opponent's legs are locked around your trapped limb, this connection actually transfers your bridging or sit-up force directly into the opponent's base structure. Instead of fighting to free the leg, the sweep uses the connection as leverage—the more tightly the opponent holds the leg, the more effectively the rotational force transfers through the entanglement to disrupt their balance.",
+        "answer_line": "Leg entanglement is your pivot",
+        "distractors": {
+          "plausible": [
+            "Free the leg before sweeping",
+            "Ignore the leg, use hips only"
+          ],
+          "trap": [
+            "Yank leg free to gain space"
+          ]
+        }
       },
       {
         "question": "You feel your opponent applying rotational pressure on your heel as you begin the sweep motion—what should you do?",
-        "answer": "Abandon the sweep immediately and address the heel hook threat. Continuing the sweep during active heel hook rotation dramatically increases knee injury risk because the sweep motion can amplify the rotational force on the trapped joint. Fight the heel hook grips, align your body with the rotation direction to reduce torque, and only reconsider the sweep after the immediate submission threat is neutralized. Safety always takes priority over positional advancement."
+        "answer": "Abandon the sweep immediately and address the heel hook threat. Continuing the sweep during active heel hook rotation dramatically increases knee injury risk because the sweep motion can amplify the rotational force on the trapped joint. Fight the heel hook grips, align your body with the rotation direction to reduce torque, and only reconsider the sweep after the immediate submission threat is neutralized. Safety always takes priority over positional advancement.",
+        "answer_line": "Stop and defend the heel hook",
+        "distractors": {
+          "plausible": [
+            "Switch to a different sweep angle",
+            "Wait for the grip to loosen"
+          ],
+          "trap": [
+            "Rip the trapped leg free hard"
+          ]
+        }
       },
       {
         "question": "Why is the sit-up sweep variant particularly effective against opponents who lean forward aggressively to attack submissions?",
-        "answer": "When the opponent leans forward, their center of gravity shifts ahead of their base, creating a structural imbalance that the sit-up motion exploits directly. The forward lean means their weight is already moving in the direction the sweep wants to send them. The sit-up sweep meets this forward momentum with additional driving force, overwhelming their ability to recover base. Their forward posture also means their posting hands are further from the mat, reducing their ability to catch themselves."
+        "answer": "When the opponent leans forward, their center of gravity shifts ahead of their base, creating a structural imbalance that the sit-up motion exploits directly. The forward lean means their weight is already moving in the direction the sweep wants to send them. The sit-up sweep meets this forward momentum with additional driving force, overwhelming their ability to recover base. Their forward posture also means their posting hands are further from the mat, reducing their ability to catch themselves.",
+        "answer_line": "Sit-up meets their forward lean",
+        "distractors": {
+          "plausible": [
+            "Hip bridge counters forward lean",
+            "Wait for them to sit back up"
+          ],
+          "trap": [
+            "Pull against their momentum"
+          ]
+        }
       },
       {
         "question": "What grip configuration should you use to prevent the opponent from posting during the sweep?",
-        "answer": "Control the opponent's far-side arm or sleeve to eliminate their primary posting option. An underhook on the far side is ideal because it traps their arm against their body while providing powerful leverage for the rotation. If an underhook is not available, gripping the far-side sleeve or wrist accomplishes the same anti-posting function. The near-side arm is less important to control since the opponent cannot effectively post toward the direction of the sweep with it."
+        "answer": "Control the opponent's far-side arm or sleeve to eliminate their primary posting option. An underhook on the far side is ideal because it traps their arm against their body while providing powerful leverage for the rotation. If an underhook is not available, gripping the far-side sleeve or wrist accomplishes the same anti-posting function. The near-side arm is less important to control since the opponent cannot effectively post toward the direction of the sweep with it.",
+        "answer_line": "Underhook or control far arm",
+        "distractors": {
+          "plausible": [
+            "Grip the near-side wrist",
+            "Control both of their ankles"
+          ],
+          "trap": [
+            "Release upper body, grab far leg"
+          ]
+        }
       },
       {
         "question": "After the sweep succeeds and you achieve top position, what is the immediate priority before establishing Side Control?",
-        "answer": "Extract the trapped leg from the entanglement immediately. If you settle into Side Control without freeing the trapped leg, the opponent retains leg control from bottom and can instantly transition to a bottom ashi garami position, creating a new leg lock exchange from a compromised angle. Pull the knee toward your chest, push the opponent's controlling legs away with your free leg and hip pressure, and only then establish crossface and hip control for proper Side Control consolidation."
+        "answer": "Extract the trapped leg from the entanglement immediately. If you settle into Side Control without freeing the trapped leg, the opponent retains leg control from bottom and can instantly transition to a bottom ashi garami position, creating a new leg lock exchange from a compromised angle. Pull the knee toward your chest, push the opponent's controlling legs away with your free leg and hip pressure, and only then establish crossface and hip control for proper Side Control consolidation.",
+        "answer_line": "Extract leg before side control",
+        "distractors": {
+          "plausible": [
+            "Establish crossface immediately",
+            "Push opponent's hips down first"
+          ],
+          "trap": [
+            "Settle into side control fast"
+          ]
+        }
       },
       {
         "question": "How should you use your free leg differently in the hip bridge variant versus the kick-over variant?",
-        "answer": "In the hip bridge variant, the free foot plants firmly on the mat near your hip to provide the posting base for vertical hip elevation. The free leg drives straight down into the mat to generate maximal upward force. In the kick-over variant, the free leg swings overhead in a pendulum arc, generating rotational momentum that carries your body over the opponent. The kick-over variant requires more space and a longer arc but generates powerful rotational force that is difficult for the opponent to resist once the momentum builds."
+        "answer": "In the hip bridge variant, the free foot plants firmly on the mat near your hip to provide the posting base for vertical hip elevation. The free leg drives straight down into the mat to generate maximal upward force. In the kick-over variant, the free leg swings overhead in a pendulum arc, generating rotational momentum that carries your body over the opponent. The kick-over variant requires more space and a longer arc but generates powerful rotational force that is difficult for the opponent to resist once the momentum builds.",
+        "answer_line": "Plant to bridge, swing to kick",
+        "distractors": {
+          "plausible": [
+            "Swing leg in both variants",
+            "Plant foot in both variants"
+          ],
+          "trap": [
+            "Keep free leg passive always"
+          ]
+        }
       }
     ],
-    "safety_considerations": "Cross Ashi-Garami sweeps involve rotational forces on both practitioners' knees due to the entangled leg configuration. Never attempt the sweep while the opponent is actively applying a heel hook with rotation, as the sweep motion can amplify destructive forces on the knee ligaments. Always communicate with training partners about intensity levels and establish clear tap protocols before drilling. If you feel any knee pressure or twisting sensation in the trapped leg during the sweep motion, abandon the technique immediately rather than forcing through resistance. During training, perform sweep entries at controlled speed before adding intensity, and ensure both partners understand the mechanics to prevent accidental injury during the rotation. Release all leg control immediately if your partner taps during any phase of the sweep."
+    "safety_considerations": "Cross Ashi-Garami sweeps involve rotational forces on both practitioners' knees due to the entangled leg configuration. Never attempt the sweep while the opponent is actively applying a heel hook with rotation, as the sweep motion can amplify destructive forces on the knee ligaments. Always communicate with training partners about intensity levels and establish clear tap protocols before drilling. If you feel any knee pressure or twisting sensation in the trapped leg during the sweep motion, abandon the technique immediately rather than forcing through resistance. During training, perform sweep entries at controlled speed before adding intensity, and ensure both partners understand the mechanics to prevent accidental injury during the rotation. Release all leg control immediately if your partner taps during any phase of the sweep.",
+    "clips": [
+      {
+        "id": "A9N2yA6dRX4",
+        "title": "Single leg to cross ashi to sweep to knee slice",
+        "by": "Moncaio Brothers",
+        "vertical": false,
+        "channel": "Moncaio Brothers Jiujitsu",
+        "duration": 29,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "DBbSqQf6iCo",
+        "title": "Roll under to backside 50/50",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "BJJ focus camps",
+        "duration": 110,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "SLYKgVORsxk",
+        "title": "Cross ashi to double cross ashi drill",
+        "by": "Factory Fresh Jiu Jitsu",
+        "vertical": false,
+        "channel": "Factory Fresh Jiu Jitsu",
+        "duration": 28,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Sweep from Cross Ashi-Garami Defender",
@@ -357,23 +478,73 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that your opponent is setting up a sweep from Cross Ashi-Garami bottom?",
-        "answer": "The earliest cue is the opponent's free hand reaching toward your upper body—specifically toward your far arm for an underhook, your collar or neck for a collar tie, or your sleeve or wrist for grip control. This upper body connection attempt precedes the actual sweep motion and is the critical setup phase. Shutting down this grip establishment prevents the sweep from being mechanically possible, making it the optimal intervention point."
+        "answer": "The earliest cue is the opponent's free hand reaching toward your upper body—specifically toward your far arm for an underhook, your collar or neck for a collar tie, or your sleeve or wrist for grip control. This upper body connection attempt precedes the actual sweep motion and is the critical setup phase. Shutting down this grip establishment prevents the sweep from being mechanically possible, making it the optimal intervention point.",
+        "answer_line": "Free hand reaching for upper body",
+        "distractors": {
+          "plausible": [
+            "Opponent shifting hip angle",
+            "Opponent gripping your pants"
+          ],
+          "trap": [
+            "Wait until they sit up fully"
+          ]
+        }
       },
       {
         "question": "Why is transitioning to Saddle often a better defensive response than simply fighting the sweep?",
-        "answer": "Transitioning to Saddle converts a defensive moment into a positional advancement. If the sweep is gaining momentum and maintaining cross ashi is becoming difficult, fighting the sweep directly risks losing position entirely. The Saddle position offers superior control with your legs crossed more deeply around the opponent's leg, better heel hook finishing mechanics, and greater resistance to future sweep attempts. Using the opponent's upward hip motion to thread into Saddle turns their offense into your advancement."
+        "answer": "Transitioning to Saddle converts a defensive moment into a positional advancement. If the sweep is gaining momentum and maintaining cross ashi is becoming difficult, fighting the sweep directly risks losing position entirely. The Saddle position offers superior control with your legs crossed more deeply around the opponent's leg, better heel hook finishing mechanics, and greater resistance to future sweep attempts. Using the opponent's upward hip motion to thread into Saddle turns their offense into your advancement.",
+        "answer_line": "Thread into Saddle, don't fight",
+        "distractors": {
+          "plausible": [
+            "Fight the sweep at all costs",
+            "Release grips and reset guard"
+          ],
+          "trap": [
+            "Try to stand straight up"
+          ]
+        }
       },
       {
         "question": "Your opponent plants their free foot on the mat and starts sitting up—what is your immediate defensive response?",
-        "answer": "Immediately strip any upper body grip the opponent has established, as this is the critical connection enabling the sweep. Push their free-side shoulder or chest back down to the mat to prevent the sit-up from completing. If the sit-up motion has too much momentum to stop, post your near hand on the mat in the sweep direction to maintain base while accelerating your heel hook attack with the remaining grip. The combination of base maintenance and submission threat forces the opponent to choose between completing the sweep and defending the heel hook."
+        "answer": "Immediately strip any upper body grip the opponent has established, as this is the critical connection enabling the sweep. Push their free-side shoulder or chest back down to the mat to prevent the sit-up from completing. If the sit-up motion has too much momentum to stop, post your near hand on the mat in the sweep direction to maintain base while accelerating your heel hook attack with the remaining grip. The combination of base maintenance and submission threat forces the opponent to choose between completing the sweep and defending the heel hook.",
+        "answer_line": "Strip grip, push shoulder down",
+        "distractors": {
+          "plausible": [
+            "Pull them into closed guard",
+            "Wait for the sweep to finish"
+          ],
+          "trap": [
+            "Grab their far leg for control"
+          ]
+        }
       },
       {
         "question": "How does the opponent's hip bridge actually create an opportunity for you to advance to Saddle?",
-        "answer": "When the opponent bridges their hips upward, they create space between their legs and the mat that did not exist when they were lying flat. This vertical space allows you to thread your legs deeper into the entanglement and cross your feet in the Saddle configuration. Their elevation also momentarily reduces the downward pressure on your controlling legs, giving you freedom to adjust your leg positioning. Essentially, the opponent's sweep effort lifts the obstacle (their body weight pressing on your legs) that normally makes transitioning to Saddle more difficult from cross ashi."
+        "answer": "When the opponent bridges their hips upward, they create space between their legs and the mat that did not exist when they were lying flat. This vertical space allows you to thread your legs deeper into the entanglement and cross your feet in the Saddle configuration. Their elevation also momentarily reduces the downward pressure on your controlling legs, giving you freedom to adjust your leg positioning. Essentially, the opponent's sweep effort lifts the obstacle (their body weight pressing on your legs) that normally makes transitioning to Saddle more difficult from cross ashi.",
+        "answer_line": "Bridge creates space to thread",
+        "distractors": {
+          "plausible": [
+            "Bridge weakens their own grips",
+            "Bridge frees your trapped leg"
+          ],
+          "trap": [
+            "Bridge means you should bail out"
+          ]
+        }
       },
       {
         "question": "When should you choose to post a hand for base versus attacking the heel hook during a sweep attempt?",
-        "answer": "Post for base when the sweep has already generated significant momentum and your balance is genuinely compromised—losing the position entirely is worse than temporarily reducing submission pressure. Attack the heel hook when you detect the sweep setup early (opponent reaching for upper body control, planting foot) and your base is still stable enough that the submission threat will force them to abandon the sweep before it develops. The earlier you recognize the sweep attempt, the more likely you can punish it with a submission rather than needing to defend reactively."
+        "answer": "Post for base when the sweep has already generated significant momentum and your balance is genuinely compromised—losing the position entirely is worse than temporarily reducing submission pressure. Attack the heel hook when you detect the sweep setup early (opponent reaching for upper body control, planting foot) and your base is still stable enough that the submission threat will force them to abandon the sweep before it develops. The earlier you recognize the sweep attempt, the more likely you can punish it with a submission rather than needing to defend reactively.",
+        "answer_line": "Post late, attack heel hook early",
+        "distractors": {
+          "plausible": [
+            "Always attack the heel hook",
+            "Always post for base first"
+          ],
+          "trap": [
+            "Ignore base, chase submission"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -396,6 +567,35 @@
         "phase": "Phase 4: Live Positional Sparring",
         "focus": "Full-resistance defense against sweep attempts from cross ashi top",
         "description": "Begin rounds in cross ashi top position with the partner's primary objective being the sweep. Roll at full intensity with realistic submission threats in both directions. Track the ratio of sweeps defended to sweeps completed and identify which sweep variants give you the most difficulty. Adjust your base positioning and grip strategy based on observed patterns."
+      }
+    ],
+    "clips": [
+      {
+        "id": "ox4UVx6ps-s",
+        "title": "Cross ashi and honey hole escape",
+        "by": "Moncaio Brothers",
+        "vertical": false,
+        "channel": "Moncaio Brothers Jiujitsu",
+        "duration": 43,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "cRXsNPAgVLU",
+        "title": "Irimi ashi garami counter",
+        "by": "John Danaher",
+        "vertical": false,
+        "channel": "Dohn Janaher ",
+        "duration": 29,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "L417yCl_-dc",
+        "title": "Leg defense from ashi garami",
+        "by": "The Coop BJJ",
+        "vertical": false,
+        "channel": "The Coop BJJ",
+        "duration": 48,
+        "verified": "2026-07-15"
       }
     ]
   }

@@ -14,21 +14,33 @@
   "outcomes": [
     {
       "to": "Side Control/Top",
-      "probability": 68,
+      "probability": {
+        "gi": 68,
+        "nogi": 68
+      },
       "result": "success"
     },
     {
       "to": "Open Guard/Top",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "failure"
     },
     {
       "to": "Open Guard/Bottom",
-      "probability": 12,
+      "probability": {
+        "gi": 12,
+        "nogi": 12
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 68,
+  "success_rate": {
+    "gi": 68,
+    "nogi": 68
+  },
   "conditions": [
     "Passer must have standing or combat base position with ability to control distance",
     "Opponent must be in an open guard variation where legs are not locked around the passer",
@@ -249,46 +261,166 @@
     "flashcards": [
       {
         "question": "What is the primary purpose of the long step in this passing technique?",
-        "answer": "The long step serves to bypass the opponent's guard structure by placing your knee past their hip line, creating an angle that makes it extremely difficult for them to insert defensive frames or recover guard position. It commits your weight forward and establishes the passing angle that will be maintained throughout the technique."
+        "answer": "The long step bypasses the opponent's guard structure by placing your knee past their hip line, creating the passing angle. That angle makes it extremely difficult for them to insert defensive frames or recover guard position. It also commits your weight forward and establishes the passing angle that will be maintained throughout the technique.",
+        "distractors": {
+          "plausible": [
+            "Speed past their guard frames",
+            "Break both pant grips first"
+          ],
+          "trap": [
+            "Stand tall and invite the lasso"
+          ]
+        },
+        "answer_line": "Knee past hip creates angle"
       },
       {
         "question": "Why is crossface pressure critical to the success of the Long Step Pass?",
-        "answer": "Crossface pressure serves multiple essential functions: it controls the opponent's head and prevents them from turning into you, it creates significant discomfort that encourages defensive reactions rather than offensive guard retention, and it helps maintain your chest pressure on their chest which is crucial for preventing space creation and re-guarding attempts."
+        "answer": "Crossface pressure controls the opponent's head and stops them turning into you, which shuts down guard recovery. It also creates significant discomfort that encourages defensive reactions rather than offensive guard retention. Finally, it helps maintain your chest-on-chest pressure, which is crucial for preventing space creation and re-guarding attempts.",
+        "distractors": {
+          "plausible": [
+            "Frees a hand for the choke",
+            "Creates room to switch hips"
+          ],
+          "trap": [
+            "Ignore hips to chase crossface"
+          ]
+        },
+        "answer_line": "Controls head, stops turn-in"
       },
       {
         "question": "How should you adjust the Long Step Pass when your opponent creates a knee shield?",
-        "answer": "When the opponent establishes a knee shield, you should immediately transition to a Knee Slice Pass variation by using your underhook to flatten the opponent while driving your knee through the shield. Alternatively, you can step back and switch to a different passing approach like the Toreando Pass. The key is recognizing the knee shield early and adapting rather than forcing the original passing angle."
+        "answer": "Against a knee shield, transition immediately to a Knee Slice Pass, using your underhook to flatten them while driving your knee through the shield. Alternatively, you can step back and switch to a different passing approach like the Toreando Pass. The key is recognizing the knee shield early and adapting rather than forcing the original passing angle.",
+        "distractors": {
+          "plausible": [
+            "Push through with pure weight",
+            "Grab the far collar instead"
+          ],
+          "trap": [
+            "Sit back into their guard"
+          ]
+        },
+        "answer_line": "Switch to Knee Slice Pass"
       },
       {
         "question": "What are the key differences between executing the Long Step Pass in gi versus no-gi?",
-        "answer": "In no-gi, the grip configurations shift from pants and belt grips to controlling the head, hips, and wrists. The mechanical principles remain identical but pressure application becomes even more critical without gi friction to assist control. Underhooks and overhooks replace collar grips, and you must be more conscious of maintaining constant contact since grips are less reliable. The pass often happens faster in no-gi due to reduced friction."
+        "answer": "In no-gi, the grip configurations shift from pants and belt grips to controlling the head, hips, and wrists. The mechanical principles remain identical but pressure application becomes even more critical without gi friction to assist control. Underhooks and overhooks replace collar grips, and you must be more conscious of maintaining constant contact since grips are less reliable. The pass often happens faster in no-gi due to reduced friction.",
+        "answer_line": "Underhooks replace collar grips",
+        "distractors": {
+          "plausible": [
+            "Same grips, only tighter",
+            "Speed replaces pressure"
+          ],
+          "trap": [
+            "Chase grips, lose chest contact"
+          ]
+        }
       },
       {
         "question": "How does the Long Step Pass connect to the broader pressure passing system?",
-        "answer": "The Long Step Pass is foundational to pressure passing systems because it establishes the key principles of controlling distance, maintaining forward pressure, and using strategic stepping to create passing angles. It connects seamlessly with the Knee Slice Pass, Over-Under Pass, and Smash Pass, allowing the passer to flow between techniques based on the opponent's defensive reactions. The skills developed in the Long Step Pass - particularly crossface pressure and leg control - transfer directly to all other pressure-based passing approaches."
+        "answer": "The Long Step Pass is foundational to pressure passing because it teaches distance control, forward pressure, and strategic stepping to create passing angles. It connects seamlessly with the Knee Slice Pass, Over-Under Pass, and Smash Pass, allowing the passer to flow between techniques based on the opponent's defensive reactions. The skills it develops — particularly crossface pressure and leg control — transfer directly to all other pressure-based passing approaches.",
+        "distractors": {
+          "plausible": [
+            "Trains submissions from the top",
+            "Replaces the Knee Slice entry"
+          ],
+          "trap": [
+            "Drop crossface while switching"
+          ]
+        },
+        "answer_line": "Builds crossface and leg control"
       },
       {
         "question": "What should your weight distribution be during the long step execution?",
-        "answer": "During the long step, your weight should be distributed primarily forward over your lead leg, with your chest driving down toward the opponent's chest. Your hips should remain low but mobile, and your base should be wide enough to prevent being rolled or swept. The weight commitment should be full and forward while maintaining enough base to prevent being off-balanced by guard retention attempts."
+        "answer": "During the long step, your weight should be distributed primarily forward over your lead leg, with your chest driving down toward the opponent's chest. Your hips should remain low but mobile, and your base should be wide enough to prevent being rolled or swept. The weight commitment should be full and forward while maintaining enough base to prevent being off-balanced by guard retention attempts.",
+        "answer_line": "Forward over lead leg, low hips",
+        "distractors": {
+          "plausible": [
+            "Even weight, high hips",
+            "Weight back for safety"
+          ],
+          "trap": [
+            "Narrow base for max speed"
+          ]
+        }
       },
       {
         "question": "Why is it important to maintain continuous motion from the long step through to side control consolidation?",
-        "answer": "Any pause or hesitation during the passing sequence allows the opponent to insert frames, create space, or recover guard position. The pass should be one flowing movement because the opponent's best defensive opportunities occur during transitions between positions. Continuous pressure and movement prevent the opponent from establishing defensive structures and force them into increasingly compromised positions until the pass is complete."
+        "answer": "Any pause or hesitation during the passing sequence allows the opponent to insert frames, create space, or recover guard position. The pass should be one flowing movement because the opponent's best defensive opportunities occur during transitions between positions. Continuous pressure and movement prevent the opponent from establishing defensive structures and force them into increasingly compromised positions until the pass is complete.",
+        "answer_line": "Pauses let them insert frames",
+        "distractors": {
+          "plausible": [
+            "Speed matters more than pressure",
+            "Reset grips between each step"
+          ],
+          "trap": [
+            "Halt mid-pass and get swept back"
+          ]
+        }
       },
       {
         "question": "Your opponent posts their far foot on the mat and bridges into you during the long step - how do you adjust?",
-        "answer": "When the opponent bridges into you during the long step, use their momentum against them by maintaining your crossface pressure and driving your weight forward through the bridge. As they return to the mat after the bridge, immediately circle your hips further around to complete the pass. The bridge actually creates a momentary opening because their legs extend and cannot maintain active guard frames. Widen your base momentarily to absorb the bridge force without being displaced."
+        "answer": "Keep your crossface, drive your weight forward through the bridge, and circle your hips further around as they return to the mat to complete the pass. The bridge actually creates a momentary opening because their legs extend and cannot maintain active guard frames — you are using their momentum against them. Widen your base momentarily to absorb the bridge force without being displaced.",
+        "distractors": {
+          "plausible": [
+            "Stall high until they settle",
+            "Push their hips down to flatten"
+          ],
+          "trap": [
+            "Release crossface to balance"
+          ]
+        },
+        "answer_line": "Drive through bridge, circle hips"
       },
       {
         "question": "What grip configuration gives you the highest success rate when initiating the Long Step Pass against butterfly guard?",
-        "answer": "Against butterfly guard, the optimal grip configuration is controlling both of the opponent's knees or pants at knee level, pushing them down and to one side to flatten the butterfly hooks before stepping. If the opponent has strong hooks, control the near sleeve or wrist with one hand to prevent the underhook while your other hand controls the far knee. This prevents the elevation that powers butterfly sweeps while creating the angle needed to initiate the long step safely."
+        "answer": "Control both of the opponent's knees or pants at knee level, pushing them down and to one side to flatten the butterfly hooks before stepping. If the opponent has strong hooks, control the near sleeve or wrist with one hand to prevent the underhook while your other hand controls the far knee. This prevents the elevation that powers butterfly sweeps while creating the angle needed to initiate the long step safely.",
+        "distractors": {
+          "plausible": [
+            "Grab both ankles and pull",
+            "Control both collars first"
+          ],
+          "trap": [
+            "Post hands on mat for base"
+          ]
+        },
+        "answer_line": "Control both knees, flatten hooks"
       },
       {
         "question": "Your initial long step is blocked and the opponent begins threading for De La Riva hook - what is your immediate chain attack?",
-        "answer": "When the opponent begins threading a De La Riva hook after your long step is blocked, immediately backstep your hooked leg free while maintaining your upper body grips. As you clear the hook, transition to a leg drag by controlling the opponent's hooking leg and driving it across their body. This leg drag creates an even more dominant passing angle than the original long step. If the leg drag is also defended, you can circle back to a toreando or re-enter the long step from the new angle. The key is never allowing the opponent to fully establish the De La Riva hook with sleeve control."
+        "answer": "Backstep your hooked leg free while keeping your upper-body grips, then leg drag the opponent's hooking leg across their body. This leg drag creates an even more dominant passing angle than the original long step. If the leg drag is also defended, you can circle back to a toreando or re-enter the long step from the new angle. The key is never allowing the opponent to fully establish the De La Riva hook with sleeve control.",
+        "distractors": {
+          "plausible": [
+            "Leg drag first, then free hook",
+            "Free hook, then knee slice pass"
+          ],
+          "trap": [
+            "Let DLR settle, then grip fight"
+          ]
+        },
+        "answer_line": "Backstep free, then leg drag"
       }
     ],
-    "safety_considerations": "The Long Step Pass is generally a safe technique when executed with proper control and awareness. The primary safety concern is avoiding excessive pressure on the opponent's neck and face during the crossface application - while the crossface should be firm and controlling, it should not create dangerous cranking pressure on the cervical spine. When practicing, partners should communicate about pressure levels and reduce intensity if the crossface becomes uncomfortable. Additionally, be aware of your weight distribution to avoid dropping all your weight onto the opponent's ribcage, which can restrict breathing or cause discomfort. During training progressions, increase resistance gradually to prevent injuries from explosive movements when practitioners are still learning proper mechanics. Pay particular attention to knee and hip positioning to avoid hyperextension injuries during the stepping motion."
+    "safety_considerations": "The Long Step Pass is generally a safe technique when executed with proper control and awareness. The primary safety concern is avoiding excessive pressure on the opponent's neck and face during the crossface application - while the crossface should be firm and controlling, it should not create dangerous cranking pressure on the cervical spine. When practicing, partners should communicate about pressure levels and reduce intensity if the crossface becomes uncomfortable. Additionally, be aware of your weight distribution to avoid dropping all your weight onto the opponent's ribcage, which can restrict breathing or cause discomfort. During training progressions, increase resistance gradually to prevent injuries from explosive movements when practitioners are still learning proper mechanics. Pay particular attention to knee and hip positioning to avoid hyperextension injuries during the stepping motion.",
+    "clips": [
+      {
+        "id": "ogVmQtLfN9w",
+        "title": "Long step pass solo drills",
+        "by": "Tainan Dalpra",
+        "vertical": false,
+        "channel": "ART OF JIU JITSU",
+        "duration": 84,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "l9xDCQv0TgQ",
+        "title": "Long step guard pass drill and body mechanics",
+        "by": "Greg Hamilton",
+        "vertical": false,
+        "channel": "Renzo Gracie Jiu Jitsu DFW",
+        "duration": 116,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Long Step Pass Defender",
@@ -379,23 +511,73 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that a Long Step Pass is being initiated?",
-        "answer": "The earliest cue is the passer angling their body approximately 45 degrees to one side while pushing your knees down and away from center. This angle creation precedes the actual long step and provides the critical window for inserting defensive frames. Secondary cues include the passer's weight shifting to their lead leg and their rear foot repositioning for a deep lateral step."
+        "answer": "The earliest cue is the passer angling their body approximately 45 degrees to one side while pushing your knees down and away from center. This angle creation precedes the actual long step and provides the critical window for inserting defensive frames. Secondary cues include the passer's weight shifting to their lead leg and their rear foot repositioning for a deep lateral step.",
+        "answer_line": "45 degree angle, knees pushed down",
+        "distractors": {
+          "plausible": [
+            "Passer grips your collar first",
+            "Passer stands up to circle"
+          ],
+          "trap": [
+            "Wait for crossface to react"
+          ]
+        }
       },
       {
         "question": "Why is the knee shield the most effective single defensive structure against the Long Step Pass?",
-        "answer": "The knee shield creates a structural barrier between your body and the passer that cannot be easily compressed with pressure alone. It prevents the passer from achieving chest-to-chest contact, which is the foundation of the Long Step Pass's effectiveness. The knee shield also controls distance, creates angles for guard recovery, and provides a platform for follow-up sweeps if the passer tries to force through it."
+        "answer": "The knee shield creates a structural barrier between your body and the passer that cannot be easily compressed with pressure alone. It prevents the passer from achieving chest-to-chest contact, which is the foundation of the Long Step Pass's effectiveness. The knee shield also controls distance, creates angles for guard recovery, and provides a platform for follow-up sweeps if the passer tries to force through it.",
+        "answer_line": "Blocks chest-to-chest contact",
+        "distractors": {
+          "plausible": [
+            "Traps their inside arm",
+            "Sets up a deep collar grip"
+          ],
+          "trap": [
+            "Flatten out and hold the shield"
+          ]
+        }
       },
       {
         "question": "Your opponent has landed the long step and is beginning to establish crossface - what is your last-resort defensive sequence?",
-        "answer": "When the crossface is being established, immediately get your near-side forearm across the passer's throat or under their chin to create a frame that prevents full crossface completion. Simultaneously begin hip escaping toward the passer's legs (not away from them) to create angle. Use your far hand to fight for an underhook or frame on their far shoulder. Your goal shifts from preventing the pass to recovering half guard by inserting your near knee between their legs before they can circle to full side control."
+        "answer": "When the crossface is being established, immediately get your near-side forearm across the passer's throat or under their chin to create a frame that prevents full crossface completion. Simultaneously begin hip escaping toward the passer's legs (not away from them) to create angle. Use your far hand to fight for an underhook or frame on their far shoulder. Your goal shifts from preventing the pass to recovering half guard by inserting your near knee between their legs before they can circle to full side control.",
+        "answer_line": "Frame throat, hip escape to legs",
+        "distractors": {
+          "plausible": [
+            "Bridge hard and roll away",
+            "Grab their belt and hold on"
+          ],
+          "trap": [
+            "Turn away to hide your neck"
+          ]
+        }
       },
       {
         "question": "How do you exploit the passer's forward weight commitment to set up a sweep counter?",
-        "answer": "When the passer commits weight forward during the long step, their base becomes narrow in the lateral direction. Insert a butterfly hook with your near leg under their thigh and use their forward momentum combined with an underhook to elevate and off-balance them to the side. The timing must coincide with the stepping motion when both the passer's weight and momentum are directed forward and down. If you have collar access, a collar drag combined with the butterfly hook creates an even stronger sweeping vector."
+        "answer": "When the passer commits weight forward during the long step, their base becomes narrow in the lateral direction. Insert a butterfly hook with your near leg under their thigh and use their forward momentum combined with an underhook to elevate and off-balance them to the side. The timing must coincide with the stepping motion when both the passer's weight and momentum are directed forward and down. If you have collar access, a collar drag combined with the butterfly hook creates an even stronger sweeping vector.",
+        "answer_line": "Butterfly hook + underhook lift",
+        "distractors": {
+          "plausible": [
+            "Overhook and roll to knees",
+            "Push their hips back to reset"
+          ],
+          "trap": [
+            "Turn belly-down to escape pressure"
+          ]
+        }
       },
       {
         "question": "What grip fighting priorities should you maintain to prevent the Long Step Pass from being initiated?",
-        "answer": "First priority is preventing the passer from controlling both of your knees or pants simultaneously, as this is the grip configuration that enables the angle creation. Use two-on-one grip breaks immediately when they grab your pants. Second priority is maintaining at least one foot on their hip to control distance and prevent them from closing the gap needed for the long step. Third priority is controlling one of their sleeves or wrists to limit their grip options and prevent them from establishing crossface or underhook control during the pass attempt."
+        "answer": "First priority is preventing the passer from controlling both of your knees or pants simultaneously, as this is the grip configuration that enables the angle creation. Use two-on-one grip breaks immediately when they grab your pants. Second priority is maintaining at least one foot on their hip to control distance and prevent them from closing the gap needed for the long step. Third priority is controlling one of their sleeves or wrists to limit their grip options and prevent them from establishing crossface or underhook control during the pass attempt.",
+        "answer_line": "Block both knee/pant grips first",
+        "distractors": {
+          "plausible": [
+            "Grip fight the collar first",
+            "Control both wrists first"
+          ],
+          "trap": [
+            "Let both knees go, hold hips"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -418,6 +600,35 @@
         "phase": "Week 9-12: Live Defense and Counter-Attacking",
         "focus": "Full-speed defense with sweep and submission counters",
         "description": "Positional sparring starting from open guard with passer attempting Long Step Pass at full competition intensity. Practice both defensive guard retention and offensive counter-attacks. Develop the ability to transition from defense to offense when the passer's base is compromised. Include rounds where you must defend for a set time period and rounds where you are scored on sweep counters."
+      }
+    ],
+    "clips": [
+      {
+        "id": "hvq9Mm2gwtk",
+        "title": "Trapping the long step pass",
+        "by": "Jean Jacques Machado",
+        "vertical": false,
+        "channel": "JeanJacquesMachado",
+        "duration": 169,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "7zCdpY8nKug",
+        "title": "Headquarters retention for the open guard player",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "Absolute MMA St Kilda - Melbourne",
+        "duration": 586,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "P4JGqlSKGek",
+        "title": "Retention against passes from headquarters",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "Absolute MMA St Kilda - Melbourne",
+        "duration": 348,
+        "verified": "2026-07-15"
       }
     ]
   },

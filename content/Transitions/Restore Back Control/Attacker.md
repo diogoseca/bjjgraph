@@ -174,6 +174,54 @@ description: "How to execute Restore Back Control in BJJ. Attacking perspective 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Restore Back Control (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Maintaining back control with hooks",
+      "description": "Restore Back Control (Attacker) film study: Maintaining back control with hooks, taught by Gracie Charlottesville.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Rlk4mGg7vW4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Rlk4mGg7vW4",
+      "url": "https://www.youtube.com/watch?v=Rlk4mGg7vW4",
+      "creator": { "@type": "Person", "name": "Gracie Charlottesville" },
+      "duration": "PT84S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Two hacks to keep back control",
+      "description": "Restore Back Control (Attacker) film study: Two hacks to keep back control, taught by The Grappling Academy.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/NdOA8wrM9BA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/NdOA8wrM9BA",
+      "url": "https://www.youtube.com/watch?v=NdOA8wrM9BA",
+      "creator": { "@type": "Person", "name": "The Grappling Academy" },
+      "duration": "PT205S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Turning good back control into great back control",
+      "description": "Restore Back Control (Attacker) film study: Turning good back control into great back control, taught by Jean Jacques Machado.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/clM9dN8bBH4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/clM9dN8bBH4",
+      "url": "https://www.youtube.com/watch?v=clM9dN8bBH4",
+      "creator": { "@type": "Person", "name": "Jean Jacques Machado" },
+      "duration": "PT204S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -185,6 +233,42 @@ The restoration process follows a hierarchy: chest connection is the anchor, hoo
 **From Position**: [[Positions/Back Control]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Restore Back Control (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Rlk4mGg7vW4)
+
+<p class="clip-credit"><strong>Maintaining back control with hooks</strong> — taught by Gracie Charlottesville · 1:24 · <a href="https://www.youtube.com/watch?v=Rlk4mGg7vW4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=NdOA8wrM9BA)
+
+<p class="clip-credit"><strong>Two hacks to keep back control</strong> — taught by The Grappling Academy · 3:25 · <a href="https://www.youtube.com/watch?v=NdOA8wrM9BA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=clM9dN8bBH4)
+
+<p class="clip-credit"><strong>Turning good back control into great back control</strong> — taught by Jean Jacques Machado · 3:24 · <a href="https://www.youtube.com/watch?v=clM9dN8bBH4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

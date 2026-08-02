@@ -174,6 +174,43 @@ description: "Master crucifix maintenance from the attacker perspective. Systema
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Crucifix Maintenance (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Top crucifix control breakdown",
+      "description": "Crucifix Maintenance (Attacker) film study: Top crucifix control breakdown, taught by Thomas Kincaid.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/JT4v_EQyq5k/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/JT4v_EQyq5k",
+      "url": "https://www.youtube.com/watch?v=JT4v_EQyq5k",
+      "creator": { "@type": "Person", "name": "Thomas Kincaid" },
+      "duration": "PT60S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Holding the top side crucifix",
+      "description": "Crucifix Maintenance (Attacker) film study: Holding the top side crucifix, taught by Aces Jiu Jitsu Club.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/J2pwckT1zaw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/J2pwckT1zaw",
+      "url": "https://www.youtube.com/watch?v=J2pwckT1zaw",
+      "creator": { "@type": "Person", "name": "Aces Jiu Jitsu Club" },
+      "duration": "PT206S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -183,6 +220,34 @@ Crucifix Maintenance from the attacker's perspective involves the continuous adj
 **From Position**: [[Positions/Crucifix]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Crucifix Maintenance (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=JT4v_EQyq5k)
+
+<p class="clip-credit"><strong>Top crucifix control breakdown</strong> — taught by Thomas Kincaid · 1:00 · <a href="https://www.youtube.com/watch?v=JT4v_EQyq5k" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=J2pwckT1zaw)
+
+<p class="clip-credit"><strong>Holding the top side crucifix</strong> — taught by Aces Jiu Jitsu Club · 3:26 · <a href="https://www.youtube.com/watch?v=J2pwckT1zaw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

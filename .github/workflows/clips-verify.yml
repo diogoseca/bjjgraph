@@ -1,0 +1,36 @@
+name: Clips Verify (monthly YouTube rot check)
+
+# Curated film-study clips rot: videos get deleted, made private, or have
+# embedding disabled after curation. This re-runs the machine checks (oEmbed
+# embeddability + Shorts thumbnail) over every clip whose `verified` date is
+# older than 30 days. REPORT-ONLY: a failing run means dead clips exist — fix
+# locally with `npm run clips:verify -- --prune` (or replace ids by hand) and
+# commit; this workflow never mutates content.
+
+on:
+  schedule:
+    - cron: "0 6 1 * *" # 1st of the month, 06:00 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: clips-verify
+  cancel-in-progress: false
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4
+
+      - name: Set up Python
+        uses: actions/setup-python@7f4fc3e22c37d6ff65e88745f38bd3157c663f7c # v4
+        with:
+          python-version: "3.11"
+
+      - name: Re-verify stale clips (exit 1 = rot found)
+        run: python3 scripts/verify_clips.py --max-age-days 30 --sleep 0.5

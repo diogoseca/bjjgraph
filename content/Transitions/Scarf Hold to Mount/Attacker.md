@@ -174,6 +174,43 @@ description: "Master the offensive mechanics of transitioning from Scarf Hold to
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Scarf Hold to Mount (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Kesa gatame position, transition and submission",
+      "description": "Scarf Hold to Mount (Attacker) film study: Kesa gatame position, transition and submission, taught by Merge Grappling coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/XDBq3B6_P2Y/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/XDBq3B6_P2Y",
+      "url": "https://www.youtube.com/watch?v=XDBq3B6_P2Y",
+      "creator": { "@type": "Person", "name": "Merge Grappling coach" },
+      "duration": "PT138S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Pivot on chest to baseball slide Kesa Gatame",
+      "description": "Scarf Hold to Mount (Attacker) film study: Pivot on chest to baseball slide Kesa Gatame, taught by Carlson Gracie Jr.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/KV2JQHe9g0A/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/KV2JQHe9g0A",
+      "url": "https://www.youtube.com/watch?v=KV2JQHe9g0A",
+      "creator": { "@type": "Person", "name": "Carlson Gracie Jr" },
+      "duration": "PT48S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -183,6 +220,34 @@ Executing the Scarf Hold to Mount transition requires precise coordination betwe
 **From Position**: [[Positions/Side Control/Scarf Hold Position]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Scarf Hold to Mount (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=XDBq3B6_P2Y)
+
+<p class="clip-credit"><strong>Kesa gatame position, transition and submission</strong> — taught by Merge Grappling coach · 2:18 · <a href="https://www.youtube.com/watch?v=XDBq3B6_P2Y" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=KV2JQHe9g0A)
+
+<p class="clip-credit"><strong>Pivot on chest to baseball slide Kesa Gatame</strong> — taught by Carlson Gracie Jr · 0:48 · <a href="https://www.youtube.com/watch?v=KV2JQHe9g0A" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

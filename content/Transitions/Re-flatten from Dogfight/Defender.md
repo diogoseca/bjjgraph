@@ -140,6 +140,43 @@ description: "Learn to defend the Re-flatten from Dogfight as the bottom player.
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Re-flatten from Dogfight (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Keeping the dogfight and sweeping from the underhook",
+      "description": "Re-flatten from Dogfight (Defender) film study: Keeping the dogfight and sweeping from the underhook, taught by Brandon McCaghren.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/hotSXTK9oGI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/hotSXTK9oGI",
+      "url": "https://www.youtube.com/watch?v=hotSXTK9oGI",
+      "creator": { "@type": "Person", "name": "Brandon McCaghren" },
+      "duration": "PT169S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Defeating the weave pass with the underhook",
+      "description": "Re-flatten from Dogfight (Defender) film study: Defeating the weave pass with the underhook, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ZXt2yzy0BL0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ZXt2yzy0BL0",
+      "url": "https://www.youtube.com/watch?v=ZXt2yzy0BL0",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT249S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -149,6 +186,34 @@ Defending the re-flatten from the dogfight bottom position requires understandin
 **Opponent's Starting Position**: [[Positions/Dogfight Position]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Re-flatten from Dogfight (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=hotSXTK9oGI)
+
+<p class="clip-credit"><strong>Keeping the dogfight and sweeping from the underhook</strong> — taught by Brandon McCaghren · 2:49 · <a href="https://www.youtube.com/watch?v=hotSXTK9oGI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ZXt2yzy0BL0)
+
+<p class="clip-credit"><strong>Defeating the weave pass with the underhook</strong> — taught by Lachlan Giles · 4:09 · <a href="https://www.youtube.com/watch?v=ZXt2yzy0BL0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

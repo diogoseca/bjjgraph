@@ -357,43 +357,143 @@
   "flashcards": [
     {
       "question": "Why does the Back Attack System prioritize control before submission?",
-      "answer": "Because back control is so overwhelmingly dominant that rushing a single finish usually trades a permanent positional advantage for a low-percentage attempt; holding seatbelt and hooks lets the attacker grind through defensive reactions until a high-percentage finish appears."
+      "answer": "Because back control is so overwhelmingly dominant that rushing a single finish usually trades a permanent positional advantage for a low-percentage attempt; holding seatbelt and hooks lets the attacker grind through defensive reactions until a high-percentage finish appears.",
+      "answer_line": "Hold position for high-% finish",
+      "distractors": {
+        "plausible": [
+          "Finish fast to save time",
+          "Switch submissions constantly"
+        ],
+        "trap": [
+          "Rush the first choke opening"
+        ]
+      }
     },
     {
       "question": "What is the harness (seatbelt) grip and why is it foundational to back attacks?",
-      "answer": "The harness is an asymmetric grip with one arm over the shoulder and one under the opposite armpit. It controls the opponent's upper body, prevents hip escapes, and doubles as a submission setup since defensive reactions to it open armbar and crucifix opportunities."
+      "answer": "The harness is an asymmetric grip with one arm over the shoulder and one under the opposite armpit. It controls the opponent's upper body, prevents hip escapes, and doubles as a submission setup since defensive reactions to it open armbar and crucifix opportunities.",
+      "answer_line": "Over-shoulder, under-arm grip",
+      "distractors": {
+        "plausible": [
+          "Two hooks in, no upper grip",
+          "Both arms overhooking shoulders"
+        ],
+        "trap": [
+          "Grab both wrists, skip harness"
+        ]
+      }
     },
     {
       "question": "How does the submission loop chain rear naked choke, armbar, and bow and arrow?",
-      "answer": "Choke defense exposes the arms for an armbar, armbar defense frees a hand to attack the collar for a bow and arrow, and persistent hand-fighting opens the crucifix. Each defensive action generates the next attack, creating continuous pressure rather than isolated attempts."
+      "answer": "Choke defense exposes the arms for an armbar, armbar defense frees a hand to attack the collar for a bow and arrow, and persistent hand-fighting opens the crucifix. Each defensive action generates the next attack, creating continuous pressure rather than isolated attempts.",
+      "answer_line": "Each defense opens next attack",
+      "distractors": {
+        "plausible": [
+          "Always finish with the choke",
+          "Switch sides after each escape"
+        ],
+        "trap": [
+          "Abandon back control, chase arm"
+        ]
+      }
     },
     {
       "question": "When should you choose a body triangle over inside hooks for back control?",
-      "answer": "Use the body triangle for maximum compression against explosive, athletic escape attempts, accepting reduced mobility. Keep inside hooks for superior steering, off-balancing, and quick transitions when the opponent is moving rather than bridging hard."
+      "answer": "Use the body triangle for maximum compression against explosive, athletic escape attempts, accepting reduced mobility. Keep inside hooks for superior steering, off-balancing, and quick transitions when the opponent is moving rather than bridging hard.",
+      "answer_line": "Triangle vs explosive escapes",
+      "distractors": {
+        "plausible": [
+          "Hooks vs explosive escapes",
+          "Triangle for quick transitions"
+        ],
+        "trap": [
+          "Lock triangle every time"
+        ]
+      }
     },
     {
       "question": "What is the most common reason practitioners fail to finish the rear naked choke from a secured back?",
-      "answer": "Chin protection. The opponent buries the chin and fights the choking hand, so the attacker must hand-fight to clear defensive grips and slide the choking arm under the chin rather than across the face, or transition to the armbar instead of forcing a low-percentage choke."
+      "answer": "Chin protection. The opponent buries the chin and fights the choking hand, so the attacker must hand-fight to clear defensive grips and slide the choking arm under the chin rather than across the face, or transition to the armbar instead of forcing a low-percentage choke.",
+      "answer_line": "Chin defense blocks the choke",
+      "distractors": {
+        "plausible": [
+          "Weak hook control loses back",
+          "Grip too tight, hand cramps"
+        ],
+        "trap": [
+          "Slide arm across the face"
+        ]
+      }
     },
     {
       "question": "How do you prevent losing back control during an aggressive hip-escape sequence?",
-      "answer": "Anticipate the escape direction from the hook and weight configuration, use the hooks actively to steer the opponent instead of passively holding, transition to a body triangle as they explode, and follow their movement while keeping the harness rather than resisting in place."
+      "answer": "Anticipate the escape direction from the hook and weight configuration, use the hooks actively to steer the opponent instead of passively holding, transition to a body triangle as they explode, and follow their movement while keeping the harness rather than resisting in place.",
+      "answer_line": "Steer hooks, follow the escape",
+      "distractors": {
+        "plausible": [
+          "Hold hooks rigid, resist move",
+          "Release hooks, reset position"
+        ],
+        "trap": [
+          "Fight the escape head-on"
+        ]
+      }
     },
     {
       "question": "Why is entry diversity treated as a core component rather than a luxury?",
-      "answer": "Relying on one or two back-take entries makes the attack predictable and easy to defend. Mastering turtle chair-sits, guard arm-drags, standing single-leg back-takes, and scramble captures lets a practitioner thread back attacks throughout the entire game from any scenario."
+      "answer": "Relying on one or two back-take entries makes the attack predictable and easy to defend. Mastering turtle chair-sits, guard arm-drags, standing single-leg back-takes, and scramble captures lets a practitioner thread back attacks throughout the entire game from any scenario.",
+      "answer_line": "Multiple entries prevent defense",
+      "distractors": {
+        "plausible": [
+          "Master one high-percentage entry",
+          "Only chase scrambles for entries"
+        ],
+        "trap": [
+          "Repeat the same entry always"
+        ]
+      }
     },
     {
       "question": "How does the Back Attack System integrate with other offensive frameworks?",
-      "answer": "It connects to front-headlock series, turtle attacks, and leg-entanglement games. When an opponent defends a front headlock or a guard pass by turning in, that reaction funnels them toward back exposure, letting the attacker convert those situations into back control."
+      "answer": "It connects to front-headlock series, turtle attacks, and leg-entanglement games. When an opponent defends a front headlock or a guard pass by turning in, that reaction funnels them toward back exposure, letting the attacker convert those situations into back control.",
+      "answer_line": "Funnels turtle/headlock to back",
+      "distractors": {
+        "plausible": [
+          "Only works from open guard",
+          "Separate system, no crossover"
+        ],
+        "trap": [
+          "Ignore turtle, wait for scramble"
+        ]
+      }
     },
     {
       "question": "What does a high back-take conversion rate require beyond simply grabbing the back?",
-      "answer": "It requires securing harness control with at least one hook before completing the take. Breaking entries into angle creation, inside control, and harness completion prevents rushed takes that achieve the position but immediately lose it to a defensive scramble."
+      "answer": "It requires securing harness control with at least one hook before completing the take. Breaking entries into angle creation, inside control, and harness completion prevents rushed takes that achieve the position but immediately lose it to a defensive scramble.",
+      "answer_line": "Secure harness + hook before done",
+      "distractors": {
+        "plausible": [
+          "Grab both hooks before harness",
+          "Get the back, submit immediately"
+        ],
+        "trap": [
+          "Take back with no upper control"
+        ]
+      }
     },
     {
       "question": "Why is hand-fighting an essential skill for systematic back attacks?",
-      "answer": "Skilled defenders survive on strong hand frames protecting the neck. Hand-fighting strips those grips to open choking-hand pathways and forces the opponent to choose between defending the choke and protecting the arms, which is exactly what creates the submission dilemmas the system relies on."
+      "answer": "Skilled defenders survive on strong hand frames protecting the neck. Hand-fighting strips those grips to open choking-hand pathways and forces the opponent to choose between defending the choke and protecting the arms, which is exactly what creates the submission dilemmas the system relies on.",
+      "answer_line": "Strip grips to open choke path",
+      "distractors": {
+        "plausible": [
+          "Just squeeze harder each time",
+          "Wait for opponent to tire out"
+        ],
+        "trap": [
+          "Ignore their frames, force choke"
+        ]
+      }
     }
   ]
 }

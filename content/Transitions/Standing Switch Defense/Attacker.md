@@ -174,6 +174,54 @@ description: "Learn how to defend the standing switch as the controlling player 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Standing Switch Defense (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Mat return drill against the stand-up",
+      "description": "Standing Switch Defense (Attacker) film study: Mat return drill against the stand-up, taught by Nicky Rodriguez.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/GKrJsIYmycM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/GKrJsIYmycM",
+      "url": "https://www.youtube.com/watch?v=GKrJsIYmycM",
+      "creator": { "@type": "Person", "name": "Nicky Rodriguez" },
+      "duration": "PT84S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Standing Wrestler\u0027s Switch from a Rear Clinch",
+      "description": "Standing Switch Defense (Attacker) film study: Standing Wrestler\u0027s Switch from a Rear Clinch, taught by Joe Scioli.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/bt_NT5AwjvA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/bt_NT5AwjvA",
+      "url": "https://www.youtube.com/watch?v=bt_NT5AwjvA",
+      "creator": { "@type": "Person", "name": "Joe Scioli" },
+      "duration": "PT110S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Wrestling Reversals: The Switch",
+      "description": "Standing Switch Defense (Attacker) film study: Wrestling Reversals: The Switch, taught by DICK\u0027S Sporting Goods.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/87LyJ3zsShY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/87LyJ3zsShY",
+      "url": "https://www.youtube.com/watch?v=87LyJ3zsShY",
+      "creator": { "@type": "Person", "name": "DICK\u0027S Sporting Goods" },
+      "duration": "PT54S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -183,6 +231,42 @@ As the attacker executing the Standing Switch Defense, you are the controlling p
 **From Position**: [[Positions/Standing Rear Clinch]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Standing Switch Defense (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=GKrJsIYmycM)
+
+<p class="clip-credit"><strong>Mat return drill against the stand-up</strong> — taught by Nicky Rodriguez · 1:24 · <a href="https://www.youtube.com/watch?v=GKrJsIYmycM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=bt_NT5AwjvA)
+
+<p class="clip-credit"><strong>Standing Wrestler&#39;s Switch from a Rear Clinch</strong> — taught by Joe Scioli · 1:50 · <a href="https://www.youtube.com/watch?v=bt_NT5AwjvA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=87LyJ3zsShY)
+
+<p class="clip-credit"><strong>Wrestling Reversals: The Switch</strong> — taught by DICK&#39;S Sporting Goods · 0:54 · <a href="https://www.youtube.com/watch?v=87LyJ3zsShY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

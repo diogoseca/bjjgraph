@@ -174,6 +174,43 @@ description: "Execute the Guillotine Escape to Von Flue choke. Step-by-step guid
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Guillotine Escape to Von Flue (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Von Flue choke as the answer to the guillotine",
+      "description": "Guillotine Escape to Von Flue (Attacker) film study: Von Flue choke as the answer to the guillotine, taught by Guard Dog Athletic.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/YhKOlw7jXI4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/YhKOlw7jXI4",
+      "url": "https://www.youtube.com/watch?v=YhKOlw7jXI4",
+      "creator": { "@type": "Person", "name": "Guard Dog Athletic" },
+      "duration": "PT56S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Von Flue choke countering the guillotine",
+      "description": "Guillotine Escape to Von Flue (Attacker) film study: Von Flue choke countering the guillotine, taught by Ramsey Dewey.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/WSH-gBwPmLs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/WSH-gBwPmLs",
+      "url": "https://www.youtube.com/watch?v=WSH-gBwPmLs",
+      "creator": { "@type": "Person", "name": "Ramsey Dewey" },
+      "duration": "PT199S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -183,6 +220,34 @@ As the attacker in the Guillotine Escape to Von Flue, you are the practitioner c
 **From Position**: [[Positions/Guillotine Control]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Guillotine Escape to Von Flue (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=YhKOlw7jXI4)
+
+<p class="clip-credit"><strong>Von Flue choke as the answer to the guillotine</strong> — taught by Guard Dog Athletic · 0:56 · <a href="https://www.youtube.com/watch?v=YhKOlw7jXI4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=WSH-gBwPmLs)
+
+<p class="clip-credit"><strong>Von Flue choke countering the guillotine</strong> — taught by Ramsey Dewey · 3:19 · <a href="https://www.youtube.com/watch?v=WSH-gBwPmLs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

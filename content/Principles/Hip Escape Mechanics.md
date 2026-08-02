@@ -164,6 +164,54 @@ description: "Master hip escape mechanics in BJJ. Learn coordinated bridging, fr
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Hip Escape Mechanics \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "A more powerful alternative to the hip escape",
+      "description": "Hip Escape Mechanics film study: A more powerful alternative to the hip escape, taught by Ryan Hall.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/TjGVpKRUUWc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/TjGVpKRUUWc",
+      "url": "https://www.youtube.com/watch?v=TjGVpKRUUWc",
+      "creator": { "@type": "Person", "name": "Ryan Hall" },
+      "duration": "PT819S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Hip escape mechanics against forward pressure",
+      "description": "Hip Escape Mechanics film study: Hip escape mechanics against forward pressure, taught by Wim Deputter.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/nHKXx3TDLaA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/nHKXx3TDLaA",
+      "url": "https://www.youtube.com/watch?v=nHKXx3TDLaA",
+      "creator": { "@type": "Person", "name": "Wim Deputter" },
+      "duration": "PT756S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Shrimping and hip escape solo drills",
+      "description": "Hip Escape Mechanics film study: Shrimping and hip escape solo drills, taught by Kameron Ross.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/qnPzh_CY-Ec/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/qnPzh_CY-Ec",
+      "url": "https://www.youtube.com/watch?v=qnPzh_CY-Ec",
+      "creator": { "@type": "Person", "name": "Kameron Ross" },
+      "duration": "PT59S"
+    }
+  ]
+}
+</script>
+
+
 <section id="overview" class="content-section">
 
 ## What are Hip Escape Mechanics?
@@ -173,6 +221,42 @@ description: "Master hip escape mechanics in BJJ. Learn coordinated bridging, fr
 Often the first movement pattern taught to a white belt and one of the last fully mastered by a black belt, hip escape mechanics underpins nearly every defensive sequence in Brazilian Jiu-Jitsu. Unlike a specific escape technique tied to a single position, it is a comprehensive conceptual system that applies across all bottom positions where the practitioner must create distance from the opponent's pressure and control. This concept encompasses the coordinated sequence of bridging to create initial space, framing to maintain separation, hip rotation to generate distance, and leg recovery to reestablish defensive positioning. Hip escape mechanics serves as both the primary escape methodology from pins and mounted positions, and the foundational movement pattern for guard recovery and defensive repositioning. The ability to execute effective hip escapes often determines whether a practitioner remains trapped in inferior positions or successfully recovers to neutral or advantageous states, making it one of the most essential survival skills in BJJ.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Hip Escape Mechanics in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=TjGVpKRUUWc)
+
+<p class="clip-credit"><strong>A more powerful alternative to the hip escape</strong> — taught by Ryan Hall · 13:39 · <a href="https://www.youtube.com/watch?v=TjGVpKRUUWc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=nHKXx3TDLaA)
+
+<p class="clip-credit"><strong>Hip escape mechanics against forward pressure</strong> — taught by Wim Deputter · 12:36 · <a href="https://www.youtube.com/watch?v=nHKXx3TDLaA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=qnPzh_CY-Ec)
+
+<p class="clip-credit"><strong>Shrimping and hip escape solo drills</strong> — taught by Kameron Ross · 0:59 · <a href="https://www.youtube.com/watch?v=qnPzh_CY-Ec" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="building-blocks" class="content-section">
 

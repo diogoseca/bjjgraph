@@ -156,6 +156,43 @@ description: "How to defend against Peruvian Necktie Setup in BJJ. Recognition c
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Peruvian Necktie Setup (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Peruvian necktie escape",
+      "description": "Peruvian Necktie Setup (Defender) film study: Peruvian necktie escape, taught by Chosen Few BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/FuNT7N9X8y8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/FuNT7N9X8y8",
+      "url": "https://www.youtube.com/watch?v=FuNT7N9X8y8",
+      "creator": { "@type": "Person", "name": "Chosen Few BJJ" },
+      "duration": "PT183S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Turtle escapes before the necktie locks",
+      "description": "Peruvian Necktie Setup (Defender) film study: Turtle escapes before the necktie locks, taught by Jean Jacques Machado.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/zxSKKUroV6Q/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/zxSKKUroV6Q",
+      "url": "https://www.youtube.com/watch?v=zxSKKUroV6Q",
+      "creator": { "@type": "Person", "name": "Jean Jacques Machado" },
+      "duration": "PT214S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -165,6 +202,34 @@ Defending the Peruvian Necktie Setup demands early recognition and immediate act
 **Opponent's Starting Position**: [[Positions/Front Headlock]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Peruvian Necktie Setup (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=FuNT7N9X8y8)
+
+<p class="clip-credit"><strong>Peruvian necktie escape</strong> — taught by Chosen Few BJJ · 3:03 · <a href="https://www.youtube.com/watch?v=FuNT7N9X8y8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=zxSKKUroV6Q)
+
+<p class="clip-credit"><strong>Turtle escapes before the necktie locks</strong> — taught by Jean Jacques Machado · 3:34 · <a href="https://www.youtube.com/watch?v=zxSKKUroV6Q" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

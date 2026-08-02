@@ -148,6 +148,54 @@ description: "Defend the Double Sleeve to Spider Guard transition in BJJ. Learn 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Double Sleeve to Spider Guard (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Spider guard grip break",
+      "description": "Double Sleeve to Spider Guard (Defender) film study: Spider guard grip break, taught by Marcelo Garcia.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/QLFDlCZqHlU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/QLFDlCZqHlU",
+      "url": "https://www.youtube.com/watch?v=QLFDlCZqHlU",
+      "creator": { "@type": "Person", "name": "Marcelo Garcia" },
+      "duration": "PT10S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Removing spider grips to torreando leg drag pass",
+      "description": "Double Sleeve to Spider Guard (Defender) film study: Removing spider grips to torreando leg drag pass, taught by Joao Miyao.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/-LZ8rl5LrxU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/-LZ8rl5LrxU",
+      "url": "https://www.youtube.com/watch?v=-LZ8rl5LrxU",
+      "creator": { "@type": "Person", "name": "Joao Miyao" },
+      "duration": "PT146S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "How to pass the spider guard",
+      "description": "Double Sleeve to Spider Guard (Defender) film study: How to pass the spider guard, taught by Jon Thomas.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/XK-wLG3B0xU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/XK-wLG3B0xU",
+      "url": "https://www.youtube.com/watch?v=XK-wLG3B0xU",
+      "creator": { "@type": "Person", "name": "Jon Thomas" },
+      "duration": "PT205S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +205,42 @@ Defending the Double Sleeve to Spider Guard transition requires the top player t
 **Opponent's Starting Position**: [[Positions/Double Sleeve Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Double Sleeve to Spider Guard (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=QLFDlCZqHlU)
+
+<p class="clip-credit"><strong>Spider guard grip break</strong> — taught by Marcelo Garcia · 0:10 · <a href="https://www.youtube.com/watch?v=QLFDlCZqHlU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=-LZ8rl5LrxU)
+
+<p class="clip-credit"><strong>Removing spider grips to torreando leg drag pass</strong> — taught by Joao Miyao · 2:26 · <a href="https://www.youtube.com/watch?v=-LZ8rl5LrxU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=XK-wLG3B0xU)
+
+<p class="clip-credit"><strong>How to pass the spider guard</strong> — taught by Jon Thomas · 3:25 · <a href="https://www.youtube.com/watch?v=XK-wLG3B0xU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

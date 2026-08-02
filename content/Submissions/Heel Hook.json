@@ -24,7 +24,10 @@
   "target_area": "Ankle joint, knee ligaments (ACL/MCL/LCL), and lower leg structural integrity",
   "starting_position": "Ashi Garami",
   "from_position": "Ashi Garami/Bottom",
-  "success_rate": 45,
+  "success_rate": {
+    "gi": 45,
+    "nogi": 45
+  },
   "is_family": true,
   "variant_uniqueness": "Rotational force attacks multiple knee structures simultaneously",
   "summary": "The Heel Hook is a rotational leg-lock submission that twists the heel to torque the knee and ankle ligaments simultaneously, attacked from Ashi Garami entanglements such as the saddle and 50-50, and existing in inside and outside variants.",
@@ -252,6 +255,44 @@
     {
       "name": "from Ushiro Ashi",
       "slug": "from-ushiro-ashi"
+    }
+  ],
+  "clips": [
+    {
+      "id": "U1vlUbJN3sc",
+      "title": "True 50/50 heel hook",
+      "by": "John Danaher",
+      "vertical": false,
+      "channel": "Dohn Janaher ",
+      "duration": 34,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "UuluKZKDt8w",
+      "title": "Heel hooks breakdown",
+      "by": "Lachlan Giles",
+      "vertical": false,
+      "channel": "Jiu Jitsu Moves",
+      "duration": 64,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "eb6ujAO09SY",
+      "title": "Get the 50/50 heel hook",
+      "by": "Asaf Mich",
+      "vertical": false,
+      "channel": "Asaf Mich",
+      "duration": 123,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "m4sGDhukUmk",
+      "title": "Nasty heel hook from outside ashi garami",
+      "by": "Craig Jones",
+      "vertical": false,
+      "channel": "The Bear's Den BJJ & MMA  熊派巴西柔術及MMA學院",
+      "duration": 141,
+      "verified": "2026-07-14"
     }
   ]
 }

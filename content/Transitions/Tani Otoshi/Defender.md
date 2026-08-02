@@ -149,6 +149,43 @@ description: "How to defend against Tani Otoshi in BJJ. Recognition cues, defens
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Tani Otoshi (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "The Switch: countering with Tani Otoshi",
+      "description": "Tani Otoshi (Defender) film study: The Switch: countering with Tani Otoshi, taught by Shintaro Higashi.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/mxGkw5fQRhg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/mxGkw5fQRhg",
+      "url": "https://www.youtube.com/watch?v=mxGkw5fQRhg",
+      "creator": { "@type": "Person", "name": "Shintaro Higashi" },
+      "duration": "PT78S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Tani Otoshi into Uchimata",
+      "description": "Tani Otoshi (Defender) film study: Tani Otoshi into Uchimata, taught by Shintaro Higashi.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/q3Dr7X006eE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/q3Dr7X006eE",
+      "url": "https://www.youtube.com/watch?v=q3Dr7X006eE",
+      "creator": { "@type": "Person", "name": "Shintaro Higashi" },
+      "duration": "PT69S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <aside class="entity-relations">
@@ -161,6 +198,34 @@ Defending Tani Otoshi requires early recognition and immediate reaction, because
 **Opponent's Starting Position**: [[Positions/Standing Position]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Tani Otoshi (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=mxGkw5fQRhg)
+
+<p class="clip-credit"><strong>The Switch: countering with Tani Otoshi</strong> — taught by Shintaro Higashi · 1:18 · <a href="https://www.youtube.com/watch?v=mxGkw5fQRhg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=q3Dr7X006eE)
+
+<p class="clip-credit"><strong>Tani Otoshi into Uchimata</strong> — taught by Shintaro Higashi · 1:09 · <a href="https://www.youtube.com/watch?v=q3Dr7X006eE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

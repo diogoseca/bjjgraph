@@ -148,6 +148,43 @@ description: "Complete guide to defending the Sweep from Double Unders as the to
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Sweep from Double Unders (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Three ways to counter the double under pass",
+      "description": "Sweep from Double Unders (Defender) film study: Three ways to counter the double under pass, taught by Dom.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/vXSyHH514Gs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/vXSyHH514Gs",
+      "url": "https://www.youtube.com/watch?v=vXSyHH514Gs",
+      "creator": { "@type": "Person", "name": "Dom" },
+      "duration": "PT115S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Double unders pass defense with elbow push",
+      "description": "Sweep from Double Unders (Defender) film study: Double unders pass defense with elbow push, taught by Satori BJJ coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/HoFMu4LXLt4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/HoFMu4LXLt4",
+      "url": "https://www.youtube.com/watch?v=HoFMu4LXLt4",
+      "creator": { "@type": "Person", "name": "Satori BJJ coach" },
+      "duration": "PT53S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +194,34 @@ As the defender against the Sweep from Double Unders, you are the top player who
 **Opponent's Starting Position**: [[Positions/Double Unders]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Sweep from Double Unders (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=vXSyHH514Gs)
+
+<p class="clip-credit"><strong>Three ways to counter the double under pass</strong> — taught by Dom · 1:55 · <a href="https://www.youtube.com/watch?v=vXSyHH514Gs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=HoFMu4LXLt4)
+
+<p class="clip-credit"><strong>Double unders pass defense with elbow push</strong> — taught by Satori BJJ coach · 0:53 · <a href="https://www.youtube.com/watch?v=HoFMu4LXLt4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

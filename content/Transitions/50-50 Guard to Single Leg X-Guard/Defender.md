@@ -148,6 +148,54 @@ description: "How to defend against 50-50 Guard to Single Leg X-Guard in BJJ. Re
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "50-50 Guard to Single Leg X-Guard (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Single leg X defense to rolling back take",
+      "description": "50-50 Guard to Single Leg X-Guard (Defender) film study: Single leg X defense to rolling back take, taught by Gracie Barra Pymble coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/m1nyuMt3IP4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/m1nyuMt3IP4",
+      "url": "https://www.youtube.com/watch?v=m1nyuMt3IP4",
+      "creator": { "@type": "Person", "name": "Gracie Barra Pymble coach" },
+      "duration": "PT80S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Single leg X counter with heel hook",
+      "description": "50-50 Guard to Single Leg X-Guard (Defender) film study: Single leg X counter with heel hook, taught by Charles Allan Price.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/e2KVHXnSh_o/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/e2KVHXnSh_o",
+      "url": "https://www.youtube.com/watch?v=e2KVHXnSh_o",
+      "creator": { "@type": "Person", "name": "Charles Allan Price" },
+      "duration": "PT75S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Single leg X guard options and counters",
+      "description": "50-50 Guard to Single Leg X-Guard (Defender) film study: Single leg X guard options and counters, taught by Steven Kaloustian.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/EcxCadpBePk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/EcxCadpBePk",
+      "url": "https://www.youtube.com/watch?v=EcxCadpBePk",
+      "creator": { "@type": "Person", "name": "Steven Kaloustian" },
+      "duration": "PT97S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -159,6 +207,42 @@ The defender's strategic framework centers on a simple principle: the transition
 **Opponent's Starting Position**: [[Positions/Ashi Garami/50-50 Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch 50-50 Guard to Single Leg X-Guard (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=m1nyuMt3IP4)
+
+<p class="clip-credit"><strong>Single leg X defense to rolling back take</strong> — taught by Gracie Barra Pymble coach · 1:20 · <a href="https://www.youtube.com/watch?v=m1nyuMt3IP4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=e2KVHXnSh_o)
+
+<p class="clip-credit"><strong>Single leg X counter with heel hook</strong> — taught by Charles Allan Price · 1:15 · <a href="https://www.youtube.com/watch?v=e2KVHXnSh_o" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=EcxCadpBePk)
+
+<p class="clip-credit"><strong>Single leg X guard options and counters</strong> — taught by Steven Kaloustian · 1:37 · <a href="https://www.youtube.com/watch?v=EcxCadpBePk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

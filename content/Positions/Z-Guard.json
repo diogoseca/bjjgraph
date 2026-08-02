@@ -256,73 +256,200 @@
     "transitions": [
       {
         "transition": "Knee Slice Pass",
-        "attempt_probability": 40
+        "attempt_probability": {
+          "gi": 16,
+          "nogi": 14
+        }
       },
       {
         "transition": "Knee Slice from Half",
-        "attempt_probability": 13
+        "attempt_probability": {
+          "gi": 9,
+          "nogi": 9
+        }
       },
       {
         "transition": "Long Step Pass",
-        "attempt_probability": 10
+        "attempt_probability": {
+          "gi": 10,
+          "nogi": 10
+        }
       },
       {
         "transition": "Smash Pass",
-        "attempt_probability": 11
+        "attempt_probability": {
+          "gi": 12,
+          "nogi": 12
+        }
       },
       {
         "transition": "Back Step",
-        "attempt_probability": 9
+        "attempt_probability": {
+          "gi": 13,
+          "nogi": 16
+        }
       },
       {
         "transition": "Underhook Pass",
-        "attempt_probability": 10
+        "attempt_probability": {
+          "gi": 7,
+          "nogi": 7
+        }
       },
       {
         "transition": "Knee Slice from Z-Guard",
-        "attempt_probability": 4
+        "attempt_probability": {
+          "gi": 14,
+          "nogi": 13
+        }
       },
       {
         "transition": "Pass Z-Guard",
-        "attempt_probability": 2
+        "attempt_probability": {
+          "gi": 10,
+          "nogi": 10
+        }
       },
       {
         "transition": "Z-Guard Pass",
-        "attempt_probability": 1
+        "attempt_probability": {
+          "gi": 9,
+          "nogi": 9
+        }
       }
     ],
     "flashcards": [
       {
         "question": "Your opponent has a strong knee shield and you feel them starting to bump you off-balance - what immediate adjustment should you make?",
-        "answer": "Widen your base by spreading your knees further apart and drop your hips lower to create a more stable platform. Shift your weight forward into their knee shield rather than pulling back, as retreating only gives them more space to work. Simultaneously look to control their far arm or establish a collar grip to prevent them from coordinating the bump with an underhook entry."
+        "answer": "Widen your base by spreading your knees further apart and drop your hips lower to create a more stable platform. Shift your weight forward into their knee shield rather than pulling back, as retreating only gives them more space to work. Simultaneously look to control their far arm or establish a collar grip to prevent them from coordinating the bump with an underhook entry.",
+        "answer_line": "Widen base, weight forward",
+        "distractors": {
+          "plausible": [
+            "Retreat and pull back",
+            "Post hands, stay upright"
+          ],
+          "trap": [
+            "Lean back to avoid the bump"
+          ]
+        }
       },
       {
         "question": "What are the essential grips for maintaining pressure and control from Z-Guard Top?",
-        "answer": "The primary grips are crossface control (hand behind their head driving their face away from you), collar grip on the near side for posture control, and far hip or pants grip to prevent them from creating angles. The underhook on the far side is crucial - securing it prevents their sweeps and opens passing lanes. Secondary grips include controlling their knee shield leg at the knee to collapse it systematically."
+        "answer": "The primary grips are crossface control (hand behind their head driving their face away from you), collar grip on the near side for posture control, and far hip or pants grip to prevent them from creating angles. The underhook on the far side is crucial - securing it prevents their sweeps and opens passing lanes. Secondary grips include controlling their knee shield leg at the knee to collapse it systematically.",
+        "answer_line": "Crossface, collar, far underhook",
+        "distractors": {
+          "plausible": [
+            "Double collar tie only",
+            "Overhook far arm, near grip"
+          ],
+          "trap": [
+            "Let go grips, drive forward"
+          ]
+        }
       },
       {
         "question": "How do you shut down the opponent's primary escape attempt - the deep half entry?",
-        "answer": "Prevent deep half by keeping your hips heavy and forward, not allowing them to shoot their head underneath you. When you feel them diving underneath, immediately sprawl your hips back and drive your shoulder pressure into their shoulder. Control their far underhook arm to prevent them from getting the necessary angle. If they're persistent, backstep to face their hips directly rather than letting them duck under."
+        "answer": "Prevent deep half by keeping your hips heavy and forward, not allowing them to shoot their head underneath you. When you feel them diving underneath, immediately sprawl your hips back and drive your shoulder pressure into their shoulder. Control their far underhook arm to prevent them from getting the necessary angle. If they're persistent, backstep to face their hips directly rather than letting them duck under.",
+        "answer_line": "Sprawl hips, block shoulder",
+        "distractors": {
+          "plausible": [
+            "Pull head up to stop them",
+            "Drop weight straight down"
+          ],
+          "trap": [
+            "Let them shoot, then flatten"
+          ]
+        }
       },
       {
         "question": "What grip priorities should you establish before attempting to pass?",
-        "answer": "First priority is winning the underhook battle on the far side or establishing crossface control to limit their mobility. Second priority is controlling their far hip or pants to prevent angle creation. Third priority is addressing their knee shield leg through knee or ankle control. Only after securing at least two of these control points should you initiate passing sequences - attempting to pass without proper grips leads to being swept."
+        "answer": "First priority is winning the underhook battle on the far side or establishing crossface control to limit their mobility. Second priority is controlling their far hip or pants to prevent angle creation. Third priority is addressing their knee shield leg through knee or ankle control. Only after securing at least two of these control points should you initiate passing sequences - attempting to pass without proper grips leads to being swept.",
+        "answer_line": "Underhook first, then hip control",
+        "distractors": {
+          "plausible": [
+            "Grab both ankles first",
+            "Knee control before underhook"
+          ],
+          "trap": [
+            "Pass immediately, no grips"
+          ]
+        }
       },
       {
         "question": "How should you apply pressure to collapse the knee shield without overcommitting?",
-        "answer": "Apply pressure at a 45-degree angle rather than straight down, driving your shoulder into their shin while keeping your weight distributed. Use your chest to pin their knee shield leg rather than just your arms. Keep your head tight to their body on the crossface side to prevent them from creating space. The key is sustained, progressive pressure that collapses their frame over time rather than explosive force that they can redirect into sweeps."
+        "answer": "Apply pressure at a 45-degree angle rather than straight down, driving your shoulder into their shin while keeping your weight distributed. Use your chest to pin their knee shield leg rather than just your arms. Keep your head tight to their body on the crossface side to prevent them from creating space. The key is sustained, progressive pressure that collapses their frame over time rather than explosive force that they can redirect into sweeps.",
+        "answer_line": "45-degree angle, chest pin leg",
+        "distractors": {
+          "plausible": [
+            "Push straight down hard",
+            "Explosive burst to collapse"
+          ],
+          "trap": [
+            "Drive head away from crossface"
+          ]
+        }
       },
       {
         "question": "Your opponent begins turning to their side to defend your pressure - how should you react?",
-        "answer": "When they turn to their side, immediately recognize this as a back-take opportunity rather than forcing the frontal pass. Follow their rotation by circling toward their back while maintaining your underhook or collar grip. If they've exposed their back significantly, transition to seatbelt grip and start establishing hooks. If they're only partially turned, use the angle to accelerate your knee slice or backstep pass."
+        "answer": "When they turn to their side, immediately recognize this as a back-take opportunity rather than forcing the frontal pass. Follow their rotation by circling toward their back while maintaining your underhook or collar grip. If they've exposed their back significantly, transition to seatbelt grip and start establishing hooks. If they're only partially turned, use the angle to accelerate your knee slice or backstep pass.",
+        "answer_line": "Follow turn, take the back",
+        "distractors": {
+          "plausible": [
+            "Force frontal pass anyway",
+            "Reset to neutral position"
+          ],
+          "trap": [
+            "Release grips, let them turn away"
+          ]
+        }
       },
       {
         "question": "How do you manage energy when facing a skilled Z-Guard player who maintains excellent frame integrity?",
-        "answer": "Avoid constant maximum pressure which burns energy without results. Use intermittent pressure bursts combined with grip fighting to tire them out while conserving your own energy. Make them carry your weight by settling into the position rather than actively fighting every moment. Focus on winning small battles - strip one grip, collapse the frame slightly, control one arm - rather than trying to pass in one explosive effort."
+        "answer": "Avoid constant maximum pressure which burns energy without results. Use intermittent pressure bursts combined with grip fighting to tire them out while conserving your own energy. Make them carry your weight by settling into the position rather than actively fighting every moment. Focus on winning small battles - strip one grip, collapse the frame slightly, control one arm - rather than trying to pass in one explosive effort.",
+        "answer_line": "Intermittent bursts, small wins",
+        "distractors": {
+          "plausible": [
+            "Constant max pressure",
+            "Rest completely, conserve all"
+          ],
+          "trap": [
+            "Explosive one-time passing attempt"
+          ]
+        }
       },
       {
         "question": "After their knee shield partially collapses but they haven't fully given up the position, what's your recovery strategy?",
-        "answer": "Immediately establish a dominant control point before they can re-extend their frame - either secure the crossface, control their pants at the knee, or establish your underhook. Keep your hips heavy on the collapsed shield to prevent re-extension. From this halfway point, you can choose between completing the knee slice if there's enough space, or resetting with better grips if they're defending well. Don't retreat to neutral - maintain whatever ground you've gained."
+        "answer": "Immediately establish a dominant control point before they can re-extend their frame - either secure the crossface, control their pants at the knee, or establish your underhook. Keep your hips heavy on the collapsed shield to prevent re-extension. From this halfway point, you can choose between completing the knee slice if there's enough space, or resetting with better grips if they're defending well. Don't retreat to neutral - maintain whatever ground you've gained.",
+        "answer_line": "Secure control point, stay heavy",
+        "distractors": {
+          "plausible": [
+            "Retreat to reset position",
+            "Wait for them to re-extend"
+          ],
+          "trap": [
+            "Back off to neutral position"
+          ]
+        }
+      }
+    ],
+    "clips": [
+      {
+        "id": "GQeS3xTXlb0",
+        "title": "Z-Guard pass to the back",
+        "by": "Animal",
+        "vertical": false,
+        "channel": "Animal",
+        "duration": 48,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "39EhiiW-p6o",
+        "title": "How to pass the Z-Guard (no-gi)",
+        "by": "Zach LeCates",
+        "vertical": false,
+        "channel": "Zach LeCates BJJ",
+        "duration": 151,
+        "verified": "2026-07-14"
       }
     ]
   },
@@ -564,78 +691,360 @@
     "transitions": [
       {
         "transition": "Old School Sweep",
-        "attempt_probability": 35
+        "attempt_probability": {
+          "gi": 8,
+          "nogi": 7
+        }
       },
       {
         "transition": "Underhook Sweep from Half",
-        "attempt_probability": 11
+        "attempt_probability": {
+          "gi": 14,
+          "nogi": 16
+        }
       },
       {
         "transition": "Deep Half Entry",
-        "attempt_probability": 10
+        "attempt_probability": {
+          "gi": 10,
+          "nogi": 7
+        }
       },
       {
         "transition": "Back Take from Bottom",
-        "attempt_probability": 12
+        "attempt_probability": {
+          "gi": 9,
+          "nogi": 10
+        }
       },
       {
         "transition": "X-Guard Sweep",
-        "attempt_probability": 10
+        "attempt_probability": {
+          "gi": 6,
+          "nogi": 6
+        }
       },
       {
         "transition": "Lockdown Recovery",
-        "attempt_probability": 9
+        "attempt_probability": {
+          "gi": 3,
+          "nogi": 5
+        }
       },
       {
         "transition": "Electric Chair Transition",
-        "attempt_probability": 8
+        "attempt_probability": {
+          "gi": 3,
+          "nogi": 6
+        }
       },
       {
         "transition": "Z-Guard Sweep",
-        "attempt_probability": 3
+        "attempt_probability": {
+          "gi": 17,
+          "nogi": 16
+        }
       },
       {
         "transition": "Z-Guard to Half Guard",
-        "attempt_probability": 1
+        "attempt_probability": {
+          "gi": 15,
+          "nogi": 14
+        }
       },
       {
         "transition": "Sweep from Z-Guard",
-        "attempt_probability": 1
+        "attempt_probability": {
+          "gi": 15,
+          "nogi": 13
+        }
       }
     ],
     "flashcards": [
       {
         "question": "Your opponent starts to drive heavy pressure into your knee shield - what adjustment should you make to maintain the position?",
-        "answer": "Rather than fighting the pressure head-on, use hip mobility to create an angle by escaping your hips slightly away from the pressure. Simultaneously extend your knee shield more forcefully into their shoulder while keeping your foot hooked on their hip for additional distance control. If pressure continues to increase, this is actually your cue to transition to deep half guard by allowing them to collapse your frame while you dive underneath them."
+        "answer": "Rather than fighting the pressure head-on, use hip mobility to create an angle by escaping your hips slightly away from the pressure. Simultaneously extend your knee shield more forcefully into their shoulder while keeping your foot hooked on their hip for additional distance control. If pressure continues to increase, this is actually your cue to transition to deep half guard by allowing them to collapse your frame while you dive underneath them.",
+        "answer_line": "Angle hips, extend shield harder",
+        "distractors": {
+          "plausible": [
+            "Push both hands into chest",
+            "Hold shield still, absorb it"
+          ],
+          "trap": [
+            "Straighten legs and go flat"
+          ]
+        }
       },
       {
         "question": "What are the essential grips for maintaining Z-Guard effectively?",
-        "answer": "The underhook on the trapped leg side is the most critical grip - it controls opponent's posture and enables all major sweeps. Secondary grips include: collar tie on the same side to prevent crossface, far side sleeve or wrist control to prevent them from establishing grips, and potentially a pants grip near their knee to control their base. The combination of underhook plus one secondary grip is the minimum for effective offense."
+        "answer": "The underhook on the trapped leg side is the most critical grip - it controls opponent's posture and enables all major sweeps. Secondary grips include: collar tie on the same side to prevent crossface, far side sleeve or wrist control to prevent them from establishing grips, and potentially a pants grip near their knee to control their base. The combination of underhook plus one secondary grip is the minimum for effective offense.",
+        "answer_line": "Underhook trapped-leg side",
+        "distractors": {
+          "plausible": [
+            "Double sleeve grip both sides",
+            "Collar grip far side only"
+          ],
+          "trap": [
+            "Grab both ankles, let go top"
+          ]
+        }
       },
       {
         "question": "How do you shut down the opponent's primary passing attack - the knee slice?",
-        "answer": "Prevent the knee slice by maintaining constant tension in your knee shield against their shoulder rather than letting it drop to their hip. Control their far arm to prevent them from establishing the crossface that enables the slice. Keep your hips angled rather than square - if they begin the slice motion, hip escape away while maintaining the underhook to create space. If they commit hard to the slice, use their forward momentum to enter deep half or execute an underhook sweep."
+        "answer": "Prevent the knee slice by maintaining constant tension in your knee shield against their shoulder rather than letting it drop to their hip. Control their far arm to prevent them from establishing the crossface that enables the slice. Keep your hips angled rather than square - if they begin the slice motion, hip escape away while maintaining the underhook to create space. If they commit hard to the slice, use their forward momentum to enter deep half or execute an underhook sweep.",
+        "answer_line": "Keep shield tension, hips angled",
+        "distractors": {
+          "plausible": [
+            "Square hips to block slice",
+            "Push knee into their hip"
+          ],
+          "trap": [
+            "Let shield drop to their hip"
+          ]
+        }
       },
       {
         "question": "What grip priorities should you establish when first entering Z-Guard?",
-        "answer": "First priority is securing the underhook on the trapped leg side before opponent can establish crossface. Second priority is establishing a controlling grip on their far side - sleeve, collar, or wrist - to limit their options. Third priority is ensuring proper knee shield placement high on their shoulder rather than low on their chest. These three elements create the foundation that makes all offensive options available."
+        "answer": "First priority is securing the underhook on the trapped leg side before opponent can establish crossface. Second priority is establishing a controlling grip on their far side - sleeve, collar, or wrist - to limit their options. Third priority is ensuring proper knee shield placement high on their shoulder rather than low on their chest. These three elements create the foundation that makes all offensive options available.",
+        "answer_line": "Underhook first, shield high",
+        "distractors": {
+          "plausible": [
+            "Collar grip before underhook",
+            "Knee shield low on the hip"
+          ],
+          "trap": [
+            "Give up underhook, grab legs"
+          ]
+        }
       },
       {
         "question": "How should you apply the knee shield for maximum defensive effectiveness?",
-        "answer": "Position your knee directly into opponent's shoulder or collarbone rather than their chest or bicep. Angle your shin upward at approximately 45 degrees with your foot hooking their hip or thigh to create maximum distance. Maintain constant active pressure - think of it as a spring that must stay loaded. Your knee shield should feel like a barrier they cannot simply push through, redirecting their pressure rather than absorbing it."
+        "answer": "Position your knee directly into opponent's shoulder or collarbone rather than their chest or bicep. Angle your shin upward at approximately 45 degrees with your foot hooking their hip or thigh to create maximum distance. Maintain constant active pressure - think of it as a spring that must stay loaded. Your knee shield should feel like a barrier they cannot simply push through, redirecting their pressure rather than absorbing it.",
+        "answer_line": "Knee on shoulder, 45-degree shin",
+        "distractors": {
+          "plausible": [
+            "Knee into their chest center",
+            "Relax shield, absorb pressure"
+          ],
+          "trap": [
+            "Drop knee to their hip low"
+          ]
+        }
       },
       {
         "question": "Your opponent begins circling toward your back to avoid the knee shield - how should you react?",
-        "answer": "Recognize this as an offensive opportunity rather than a defensive problem. As they circle, use your underhook to follow their movement and begin climbing up their back. Convert your bottom hook to a back hook and look to establish seatbelt control. If they've overcommitted to the circle, you may be able to take their back directly. If they stop mid-circle, use the angle they've created to hit the old school sweep or transition to electric chair."
+        "answer": "Recognize this as an offensive opportunity rather than a defensive problem. As they circle, use your underhook to follow their movement and begin climbing up their back. Convert your bottom hook to a back hook and look to establish seatbelt control. If they've overcommitted to the circle, you may be able to take their back directly. If they stop mid-circle, use the angle they've created to hit the old school sweep or transition to electric chair.",
+        "answer_line": "Follow circle, climb to back",
+        "distractors": {
+          "plausible": [
+            "Block the circle, reset guard",
+            "Chase legs, ignore upper body"
+          ],
+          "trap": [
+            "Release underhook, let them pass"
+          ]
+        }
       },
       {
         "question": "How do you manage energy when facing a heavy pressure passer who is systematically working to collapse your frames?",
-        "answer": "Conserve energy by using frames and leverage rather than muscular resistance. Let your skeletal structure bear the weight through proper knee shield positioning rather than holding them off with arm strength. Use opponent's pressure to load your sweeps - when they push, that energy can be redirected into sweep attempts. If position becomes too compromised, transition to deep half rather than exhausting yourself defending a deteriorating Z-Guard."
+        "answer": "Conserve energy by using frames and leverage rather than muscular resistance. Let your skeletal structure bear the weight through proper knee shield positioning rather than holding them off with arm strength. Use opponent's pressure to load your sweeps - when they push, that energy can be redirected into sweep attempts. If position becomes too compromised, transition to deep half rather than exhausting yourself defending a deteriorating Z-Guard.",
+        "answer_line": "Use frames, redirect pressure",
+        "distractors": {
+          "plausible": [
+            "Muscle through with arm strength",
+            "Hold position at all costs"
+          ],
+          "trap": [
+            "Tense up and push back hard"
+          ]
+        }
       },
       {
         "question": "After your knee shield partially collapses but you haven't been passed, what's your recovery strategy?",
-        "answer": "Immediately make a decision - either re-establish the knee shield or commit to a transition. To recover, hip escape aggressively while using your arms to frame and create space, then re-insert the knee shield before they can settle their weight. If recovery isn't possible, accept the collapse and dive into deep half guard using their forward momentum. The worst option is staying in the halfway position where you have neither good defense nor offensive options."
+        "answer": "Immediately make a decision - either re-establish the knee shield or commit to a transition. To recover, hip escape aggressively while using your arms to frame and create space, then re-insert the knee shield before they can settle their weight. If recovery isn't possible, accept the collapse and dive into deep half guard using their forward momentum. The worst option is staying in the halfway position where you have neither good defense nor offensive options.",
+        "answer_line": "Re-insert shield or go deep half",
+        "distractors": {
+          "plausible": [
+            "Wait and see what happens",
+            "Push them off with arms"
+          ],
+          "trap": [
+            "Stay in halfway position"
+          ]
+        }
+      }
+    ],
+    "clips": [
+      {
+        "id": "T3Gwg-ABsZA",
+        "title": "Three attacks from the Z-Guard",
+        "by": "Way of BJJ",
+        "vertical": false,
+        "channel": "Way of BJJ",
+        "duration": 67,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "TrVf9YzEe0E",
+        "title": "Reverse Z-Guard options, Craig Jones style",
+        "by": "Craig Jones",
+        "vertical": false,
+        "channel": "Phantom Punch Breakdowns",
+        "duration": 139,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "vMqDIi10z4k",
+        "title": "Dog Bar from Z-Guard",
+        "by": "Craig Jones",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 61,
+        "verified": "2026-07-14"
       }
     ]
-  }
+  },
+  "flashcards_position": [
+    {
+      "question": "What structural configuration defines Z-Guard and distinguishes it from ordinary half guard?",
+      "answer": "Z-Guard is a half guard variation where the bottom player's inside leg traps one of the top player's legs while the outside leg forms a high knee shield, with the shin angled across the top player's shoulder or upper chest. Viewed from the side, the trapped-leg and shielding-leg geometry resembles the letter 'Z', which gives the position its name. Unlike flat half guard where the bottom player accepts chest-to-chest pressure, Z-Guard interposes the shin as a wedge that holds the top player at distance. This shin barrier is the single feature that separates the configuration from a standard half guard entanglement.",
+      "answer_line": "Shin wedge holds at distance",
+      "distractors": {
+        "plausible": [
+          "Both legs wrapped, no shield",
+          "Flat chest-to-chest contact"
+        ],
+        "trap": [
+          "Drop shield, hug chest tight"
+        ]
+      }
+    },
+    {
+      "question": "Why is the height of the knee shield on the torso such a critical variable in Z-Guard?",
+      "answer": "The knee shield's contact point directly determines how much leverage the frame generates against the top player's forward pressure. When the knee is placed high on the shoulder or collarbone, it sits far from the top player's hips and creates a long lever that makes weight consolidation mechanically disadvantageous. When the shield slides low toward the hip or belly, the lever shortens and the top player can begin driving chest-to-chest to flatten the frame. This height distinction is exactly what separates Z-Guard from standard knee shield half guard, where the knee rides lower on the hip.",
+      "answer_line": "High shield creates longer lever",
+      "distractors": {
+        "plausible": [
+          "Height doesn't affect leverage",
+          "Low shield gives more control"
+        ],
+        "trap": [
+          "Drop knee low onto their hip"
+        ]
+      }
+    },
+    {
+      "question": "What are the primary contact and control points that hold the Z-Guard configuration together for both players?",
+      "answer": "The position is anchored by three simultaneous points working as an integrated system rather than in isolation. The knee shield shin presses into the shoulder or upper chest to manage distance, the trapped inside leg wraps the top player's leg to deny leg extraction, and the underhook-versus-crossface battle on the near side governs whose posture and angle wins. The bottom player's shielding-side foot typically hooks the hip or thigh to reinforce the distance the shin creates. Because these points reinforce each other, collapsing any one of them tends to unravel the others.",
+      "answer_line": "Shin, trapped leg, underhook",
+      "distractors": {
+        "plausible": [
+          "Only the trapped leg matters",
+          "Grip fighting alone controls it"
+        ],
+        "trap": [
+          "Release trapped leg for space"
+        ]
+      }
+    },
+    {
+      "question": "Why is the underhook battle described as the decisive factor for both players in Z-Guard?",
+      "answer": "The underhook determines who controls posture and angle, which in turn dictates whether the position resolves as a sweep or a pass. When the bottom player wins the underhook on the trapped-leg side, they can break the top player's posture forward and load sweeps or back takes. When the top player wins the crossface and far-side control instead, they suppress the bottom player's framing and open passing lanes. Because the same grip simultaneously enables one player's offense and neutralizes the other's, it functions as a shared pivot point rather than a role-specific advantage.",
+      "answer_line": "Underhook decides sweep or pass",
+      "distractors": {
+        "plausible": [
+          "Knee shield alone decides outcome",
+          "Leg control matters more"
+        ],
+        "trap": [
+          "Give up underhook for legs"
+        ]
+      }
+    },
+    {
+      "question": "How does the angled-torso, shoulders-off-the-mat posture shape the dynamics of Z-Guard?",
+      "answer": "The bottom player keeps their shoulders elevated at roughly a 45-degree angle with weight on one shoulder blade and hip rather than lying flat. This angled posture preserves hip mobility so the bottom player can hip escape to maintain distance or bridge to create sweeping angles. If the top player succeeds in flattening the bottom player square to their back, the knee shield loses its spring and the frame becomes far easier to pass. Consequently the contest for staying angled versus being flattened is one of the central dynamics both players fight over.",
+      "answer_line": "Stay angled, avoid flat back",
+      "distractors": {
+        "plausible": [
+          "Lie flat for maximum stability",
+          "Square shoulders to the mat"
+        ],
+        "trap": [
+          "Flatten out to conserve energy"
+        ]
+      }
+    },
+    {
+      "question": "In what sense does the knee shield behave as a spring-loaded mechanism that governs the exchange?",
+      "answer": "The shielding leg maintains constant tension into the top player's upper body so that it can either extend to generate space or compress to enable a transition, much like a loaded spring. When the top player drives forward, that incoming pressure is stored in the frame and can be redirected, which is why the bottom player uses the opponent's own pressure to power sweeps. When the shield is allowed to go slack, the top player settles weight and the stored energy disappears. This load-and-release quality is what makes Z-Guard simultaneously a retention frame and an offensive launching platform.",
+      "answer_line": "Load shield, redirect pressure",
+      "distractors": {
+        "plausible": [
+          "Keep shield rigid, never move",
+          "Push shield straight out only"
+        ],
+        "trap": [
+          "Let shield go slack to rest"
+        ]
+      }
+    },
+    {
+      "question": "How does Z-Guard relate to and differ from the adjacent positions of deep half guard and standard knee shield half guard?",
+      "answer": "Z-Guard sits between open guard and deep half guard in the retention hierarchy, distinguished by its high shin frame targeting the shoulder rather than the hip contact that defines standard knee shield half guard. When forward pressure collapses the knee shield, the natural escape hatch is to dive underneath into deep half guard, using the top player's own momentum. In this sense deep half is the primary release valve when the Z-frame fails, while standard knee shield half is the lower-leverage cousin from which Z-Guard is elevated. The trapped inside leg is the common thread linking all three as half guard family positions.",
+      "answer_line": "Deep half is the escape hatch",
+      "distractors": {
+        "plausible": [
+          "Standard half guard is the upgrade",
+          "Z-Guard replaces deep half entirely"
+        ],
+        "trap": [
+          "Abandon trapped leg to escape"
+        ]
+      }
+    },
+    {
+      "question": "Why is the collapse of the knee shield the pivotal event that decides how a Z-Guard exchange resolves?",
+      "answer": "As long as the shin maintains its high frame and tension, the top player cannot consolidate weight and the bottom player retains both sweeping and retention options. Once the shield collapses and the top player settles chest pressure, the leverage that defined the position vanishes and the exchange tips decisively toward a pass. This is why the moment of partial collapse is treated as a hard decision point by both players: the top player rushes to establish a control point before the frame re-extends, while the bottom player must immediately either re-insert the shield or bail into deep half. Lingering in the half-collapsed middle leaves neither player their intended tools.",
+      "answer_line": "Collapse tips control to passer",
+      "distractors": {
+        "plausible": [
+          "Collapse always favors bottom",
+          "Middle position is neutral, safe"
+        ],
+        "trap": [
+          "Linger in half-collapsed spot"
+        ]
+      }
+    }
+  ],
+  "clips": [
+    {
+      "id": "T3Gwg-ABsZA",
+      "title": "Use the Z-Guard: three options",
+      "by": "Way of BJJ",
+      "vertical": false,
+      "channel": "Way of BJJ",
+      "duration": 67,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "TrVf9YzEe0E",
+      "title": "Reverse Z-Guard options, Craig Jones style",
+      "by": "Craig Jones",
+      "vertical": false,
+      "channel": "Phantom Punch Breakdowns",
+      "duration": 139,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "cnW27eV9H8U",
+      "title": "Triangle from the Z-Guard",
+      "by": "Evolve MMA",
+      "vertical": false,
+      "channel": "Evolve Mixed Martial Arts",
+      "duration": 95,
+      "verified": "2026-07-14"
+    }
+  ]
 }

@@ -34,6 +34,54 @@ description: "Master the Kneebar Finish from Carni position in BJJ. Complete gui
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Kneebar Finish \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "No-Gi Kneebar Finish Mechanics",
+      "description": "Kneebar Finish film study: No-Gi Kneebar Finish Mechanics, taught by Unknown.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/12rNXPlqVXo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/12rNXPlqVXo",
+      "url": "https://www.youtube.com/watch?v=12rNXPlqVXo",
+      "creator": { "@type": "Person", "name": "Unknown" },
+      "duration": "PT20S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Knee Bar Finish",
+      "description": "Kneebar Finish film study: Knee Bar Finish, taught by Ken Shamrock.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/4dnPuMo_-W8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/4dnPuMo_-W8",
+      "url": "https://www.youtube.com/watch?v=4dnPuMo_-W8",
+      "creator": { "@type": "Person", "name": "Ken Shamrock" },
+      "duration": "PT21S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Go Behind Kneebar",
+      "description": "Kneebar Finish film study: Go Behind Kneebar, taught by Craig Jones.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/v4lhLkKgVvU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/v4lhLkKgVvU",
+      "url": "https://www.youtube.com/watch?v=v4lhLkKgVvU",
+      "creator": { "@type": "Person", "name": "Craig Jones" },
+      "duration": "PT129S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -66,9 +114,45 @@ From the Carni position, the kneebar becomes available when the opponent extends
 What makes this finish particularly effective from Carni is the element of surprise. Most opponents in Carni are primarily defending the heel hook, keeping their knee bent and heel protected. When they momentarily straighten the leg, they expose themselves to a completely different submission angle that many practitioners fail to defend. This creates the classic dilemma system where defending one attack opens vulnerability to another.
 
 **From Position**: [[Positions/Rubber Guard/Carni]] (Bottom)
-**Success Rate**: 58%
+**Success Rate**: 32%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Kneebar Finish in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=12rNXPlqVXo)
+
+<p class="clip-credit"><strong>No-Gi Kneebar Finish Mechanics</strong> — taught by Unknown · 0:20 · <a href="https://www.youtube.com/watch?v=12rNXPlqVXo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=4dnPuMo_-W8)
+
+<p class="clip-credit"><strong>Knee Bar Finish</strong> — taught by Ken Shamrock · 0:21 · <a href="https://www.youtube.com/watch?v=4dnPuMo_-W8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=v4lhLkKgVvU)
+
+<p class="clip-credit"><strong>Go Behind Kneebar</strong> — taught by Craig Jones · 2:09 · <a href="https://www.youtube.com/watch?v=v4lhLkKgVvU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 
@@ -76,7 +160,7 @@ What makes this finish particularly effective from Carni is the element of surpr
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Transitions/Kneebar]] | 65% |
+| Success | [[Kneebar from Carni]] | 65% |
 | Failure | [[Positions/Rubber Guard/Carni]] | 25% |
 | Counter | [[Positions/Half Guard]] | 10% |
 
@@ -243,7 +327,7 @@ The Kneebar Finish integrates into the Carni attack system as the complementary 
 
 - [[Positions/Half Guard]] - Common recovery position for defender after successful counter-escape
 
-- [[Transitions/Heel Hook]] - Primary Carni submission that creates the dilemma enabling kneebar opportunities
+- [[Submissions/Heel Hook]] - Primary Carni submission that creates the dilemma enabling kneebar opportunities
 
 - [[Transitions/Kneebar]] - Parent submission category covering kneebar mechanics across all positions
 

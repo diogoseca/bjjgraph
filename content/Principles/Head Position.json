@@ -368,39 +368,149 @@
   "flashcards": [
     {
       "question": "Why does controlling the head give control over the entire body?",
-      "answer": "The head leads the spine, and the spine organizes posture, base, and force generation. By steering the head you dictate spinal alignment, which limits the opponent's ability to bridge, frame, or rotate out of the position."
+      "answer": "The head leads the spine, and the spine organizes posture, base, and force generation. By steering the head you dictate spinal alignment, which limits the opponent's ability to bridge, frame, or rotate out of the position.",
+      "answer_line": "Head leads spine, sets posture",
+      "distractors": {
+        "plausible": [
+          "Hips control the whole body",
+          "Grip strength dictates posture"
+        ],
+        "trap": [
+          "Only hip control matters"
+        ]
+      }
     },
     {
       "question": "In side control, which direction should you drive the opponent's head and why?",
-      "answer": "Drive the head away from their hips with a cross-face. Pushing it toward the hips actually helps them recover guard, whereas turning it away kills the hip escape and pins the near shoulder to the mat."
+      "answer": "Drive the head away from their hips with a cross-face. Pushing it toward the hips actually helps them recover guard, whereas turning it away kills the hip escape and pins the near shoulder to the mat.",
+      "answer_line": "Cross-face, drive head away",
+      "distractors": {
+        "plausible": [
+          "Grip the far collar instead",
+          "Control near arm, ignore head"
+        ],
+        "trap": [
+          "Push head toward their hips"
+        ]
+      }
     },
     {
       "question": "What is the most common error that causes head control to fail during transitions?",
-      "answer": "Releasing head control while changing position. The brief moment of lost contact lets the opponent regain posture, build frames, or escape, so control must persist through the movement rather than be re-established afterward."
+      "answer": "Releasing head control while changing position. The brief moment of lost contact lets the opponent regain posture, build frames, or escape, so control must persist through the movement rather than be re-established afterward.",
+      "answer_line": "Releasing control during transition",
+      "distractors": {
+        "plausible": [
+          "Gripping too hard, fatigues fast",
+          "Wrong angle, not wrong timing"
+        ],
+        "trap": [
+          "Release then regrip after moving"
+        ]
+      }
     },
     {
       "question": "Why is relying on pure grip strength to control the head a mistake?",
-      "answer": "Grip strength fatigues quickly and gives the opponent a rigid post to leverage. Effective head control comes from positional pressure (body weight, angle, structure), using grips only as connection points for transferring that pressure."
+      "answer": "Grip strength fatigues quickly and gives the opponent a rigid post to leverage. Effective head control comes from positional pressure (body weight, angle, structure), using grips only as connection points for transferring that pressure.",
+      "answer_line": "Positional pressure, not just grip",
+      "distractors": {
+        "plausible": [
+          "Grip strength never fatigues",
+          "Bigger grips beat all defenses"
+        ],
+        "trap": [
+          "Squeeze harder to hold position"
+        ]
+      }
     },
     {
       "question": "How does head control relate to finishing the rear naked choke from back control?",
-      "answer": "The choke requires overcoming chin protection. Superior head control prevents the opponent from tucking their chin and turning their head, opening the channel needed to slide the choking arm under the jaw."
+      "answer": "The choke requires overcoming chin protection. Superior head control prevents the opponent from tucking their chin and turning their head, opening the channel needed to slide the choking arm under the jaw.",
+      "answer_line": "Prevent chin tuck to open choke",
+      "distractors": {
+        "plausible": [
+          "Control the hips, not the head",
+          "Squeeze harder for tighter choke"
+        ],
+        "trap": [
+          "Let them tuck, then muscle it"
+        ]
+      }
     },
     {
       "question": "What does multi-point head stabilization mean and why does it matter?",
-      "answer": "It means using several coordinated contact points (grips, shoulder pressure, chest weight, hip position) to prevent head movement in every direction at once. Single-direction control lets the opponent rotate out through the uncontrolled axis."
+      "answer": "It means using several coordinated contact points (grips, shoulder pressure, chest weight, hip position) to prevent head movement in every direction at once. Single-direction control lets the opponent rotate out through the uncontrolled axis.",
+      "answer_line": "Multiple contacts block all axes",
+      "distractors": {
+        "plausible": [
+          "One strong grip is enough",
+          "Weight alone stops all rotation"
+        ],
+        "trap": [
+          "Control just one direction"
+        ]
+      }
     },
     {
       "question": "How should you respond when an opponent successfully defends one type of head control?",
-      "answer": "Transition to an alternative head control method rather than abandoning the head entirely. If a cross-face is defended, switch to a chin strap, head-and-arm, or front headlock to keep the spine compromised."
+      "answer": "Transition to an alternative head control method rather than abandoning the head entirely. If a cross-face is defended, switch to a chin strap, head-and-arm, or front headlock to keep the spine compromised.",
+      "answer_line": "Switch to another head control",
+      "distractors": {
+        "plausible": [
+          "Increase pressure on same grip",
+          "Abandon head, attack the arm"
+        ],
+        "trap": [
+          "Let go and reset position"
+        ]
+      }
     },
     {
       "question": "Why must you guard your own head position while attacking the opponent's?",
-      "answer": "In neutral exchanges both players have head access, and neglecting your own protection lets the opponent establish control or a choke on you. Maintain simultaneous awareness: deny their head while seeking to control yours."
+      "answer": "In neutral exchanges both players have head access, and neglecting your own protection lets the opponent establish control or a choke on you. Maintain simultaneous awareness: deny their head while seeking to control yours.",
+      "answer_line": "Protect your head while attacking",
+      "distractors": {
+        "plausible": [
+          "Attack head, ignore your own",
+          "Only defend after they attack"
+        ],
+        "trap": [
+          "Commit both hands to the attack"
+        ]
+      }
     },
     {
       "question": "In the front headlock, how does head position determine the available submissions?",
-      "answer": "Head position relative to the trapped arm and the centerline decides whether the guillotine, anaconda, or darce is open, and whether the opponent can stand or turn, making head positioning the key decision point for the whole attack chain."
+      "answer": "Head position relative to the trapped arm and the centerline decides whether the guillotine, anaconda, or darce is open, and whether the opponent can stand or turn, making head positioning the key decision point for the whole attack chain.",
+      "answer_line": "Head position dictates the attack",
+      "distractors": {
+        "plausible": [
+          "Grip strength decides the finish",
+          "Speed determines which choke"
+        ],
+        "trap": [
+          "Any head position, same choke"
+        ]
+      }
+    }
+  ],
+  "clips": [
+    {
+      "id": "LTVX-QojYJw",
+      "title": "Head control concepts and the chokes they lead to",
+      "by": "Firas Zahabi",
+      "vertical": false,
+      "channel": "Tristar Gym",
+      "duration": 637,
+      "verified": "2026-07-15"
+    },
+    {
+      "id": "HSplh5HeJvE",
+      "title": "Head control principle explained",
+      "by": "Gracie Breakdown",
+      "vertical": false,
+      "channel": "GracieBreakdown",
+      "duration": 31,
+      "verified": "2026-07-15"
     }
   ]
 }

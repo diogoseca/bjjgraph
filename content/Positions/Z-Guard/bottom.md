@@ -21,37 +21,37 @@ description: "Master Z-Guard Bottom position in BJJ. Complete guide covering kne
     {
       "@type": "HowToStep",
       "name": "Execute Old School Sweep",
-      "text": "From this position, attempt Old School Sweep. This technique is attempted in 30% of exchanges from this position.",
+      "text": "From this position, attempt Old School Sweep. This technique is attempted in 7% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Underhook Sweep from Half",
-      "text": "From this position, attempt Underhook Sweep from Half. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Underhook Sweep from Half. This technique is attempted in 16% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Deep Half Entry",
-      "text": "From this position, attempt Deep Half Entry. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Deep Half Entry. This technique is attempted in 7% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Back Take from Bottom",
-      "text": "From this position, attempt Back Take from Bottom. This technique is attempted in 9% of exchanges from this position.",
+      "text": "From this position, attempt Back Take from Bottom. This technique is attempted in 10% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Turtle to Truck",
-      "text": "From this position, attempt Turtle to Truck. This technique is attempted in 8% of exchanges from this position.",
+      "name": "Execute X-Guard Sweep",
+      "text": "From this position, attempt X-Guard Sweep. This technique is attempted in 6% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute X-Guard Sweep",
-      "text": "From this position, attempt X-Guard Sweep. This technique is attempted in 10% of exchanges from this position.",
+      "name": "Execute Lockdown Recovery",
+      "text": "From this position, attempt Lockdown Recovery. This technique is attempted in 5% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -116,6 +116,7 @@ description: "Master Z-Guard Bottom position in BJJ. Complete guide covering kne
   "@type": "WebPage",
   "name": "Z-Guard Bottom",
   "description": "Master Z-Guard Bottom position in BJJ. Complete guide covering knee shield retention, sweeps, and back takes. Defensive half guard variation with exceptional retention capabilities.",
+  "alternateName": ["Z Guard"],
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -153,8 +154,59 @@ description: "Master Z-Guard Bottom position in BJJ. Complete guide covering kne
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Z-Guard (Bottom) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Three attacks from the Z-Guard",
+      "description": "Z-Guard (Bottom) film study: Three attacks from the Z-Guard, taught by Way of BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/T3Gwg-ABsZA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/T3Gwg-ABsZA",
+      "url": "https://www.youtube.com/watch?v=T3Gwg-ABsZA",
+      "creator": { "@type": "Person", "name": "Way of BJJ" },
+      "duration": "PT67S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Reverse Z-Guard options, Craig Jones style",
+      "description": "Z-Guard (Bottom) film study: Reverse Z-Guard options, Craig Jones style, taught by Craig Jones.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/TrVf9YzEe0E/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/TrVf9YzEe0E",
+      "url": "https://www.youtube.com/watch?v=TrVf9YzEe0E",
+      "creator": { "@type": "Person", "name": "Craig Jones" },
+      "duration": "PT139S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Dog Bar from Z-Guard",
+      "description": "Z-Guard (Bottom) film study: Dog Bar from Z-Guard, taught by Craig Jones.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/vMqDIi10z4k/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/vMqDIi10z4k",
+      "url": "https://www.youtube.com/watch?v=vMqDIi10z4k",
+      "creator": { "@type": "Person", "name": "Craig Jones" },
+      "duration": "PT61S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<aside class="entity-relations">
+<p class="also-known-as"><em>Also known as:</em> <strong>Z Guard</strong> <span class="role-hint">(bottom)</span></p>
+</aside>
 <section id="overview" class="content-section">
 
 Z-Guard Bottom is a dynamic half guard variation characterized by an active knee shield that creates distance and frames against the top player's pressure. This position, also known as Knee Shield Half Guard in some systems, represents one of the most versatile defensive positions in modern BJJ, offering exceptional retention capabilities while maintaining offensive sweep and back-take options. The fundamental structure involves trapping one of the opponent's legs with your inside leg while your outside leg creates a shield with the knee pressed into the opponent's shoulder or upper chest, preventing them from settling their weight and establishing effective passing pressure.
@@ -165,9 +217,47 @@ From a strategic perspective, Z-Guard Bottom represents a critical position in t
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Z-Guard (Bottom) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=T3Gwg-ABsZA)
+
+<p class="clip-credit"><strong>Three attacks from the Z-Guard</strong> — taught by Way of BJJ · 1:07 · <a href="https://www.youtube.com/watch?v=T3Gwg-ABsZA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=TrVf9YzEe0E)
+
+<p class="clip-credit"><strong>Reverse Z-Guard options, Craig Jones style</strong> — taught by Craig Jones · 2:19 · <a href="https://www.youtube.com/watch?v=TrVf9YzEe0E" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=vMqDIi10z4k)
+
+<p class="clip-credit"><strong>Dog Bar from Z-Guard</strong> — taught by Craig Jones · 1:01 · <a href="https://www.youtube.com/watch?v=vMqDIi10z4k" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
+
 <section id="state-invariants" class="content-section">
 
 ## Position Definition
+
+<p class="section-subtitle">What is Z-Guard (Bottom)?</p>
 
 - Inside leg (same side as trapped leg) wraps around opponent's thigh, securing half guard control with the foot locked behind opponent's knee or calf, preventing leg extraction
 - Outside leg creates active knee shield with knee pressed into opponent's shoulder, collarbone, or upper chest area, shin angled upward at approximately 45 degrees, creating maximum distance and preventing opponent from settling weight
@@ -183,6 +273,8 @@ From a strategic perspective, Z-Guard Bottom represents a critical position in t
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before playing Z-Guard (Bottom)?</p>
+
 - Opponent in top half guard position attempting to pass or establish control
 - Bottom player has secured half guard control with inside leg wrapped around opponent's leg
 - Bottom player able to create sufficient space to establish knee shield frame before opponent settles full weight
@@ -195,6 +287,8 @@ From a strategic perspective, Z-Guard Bottom represents a critical position in t
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Z-Guard?</p>
 
 - Maintain active knee shield pressure into opponent's shoulder or chest, never allowing the knee to collapse or lose tension against their body
 - Keep shoulders off mat at angle, using hip mobility to continuously adjust position and prevent opponent from flattening you to your back
@@ -211,30 +305,31 @@ From a strategic perspective, Z-Guard Bottom represents a critical position in t
 
 ## Decision Making from This Position
 
+<p class="section-subtitle">What should you do from Z-Guard (Bottom)?</p>
+
 **If opponent drives heavy forward pressure attempting to collapse knee shield and flatten you to back:**
-- Execute **[[Transitions/Deep Half Entry]]** → [[Positions/Half Guard/Deep Half Guard]] (Probability: 65%)
-- Execute **[[Transitions/Underhook Sweep from Half]]** → [[Positions/Side Control]] (Probability: 55%)
+- Execute **[[Transitions/Deep Half Entry/Attacker|Deep Half Entry]]** → [[Positions/Half Guard/Deep Half Guard]] (Probability: 65%)
+- Execute **[[Transitions/Underhook Sweep from Half/Attacker|Underhook Sweep from Half]]** → [[Positions/Side Control]] (Probability: 55%)
 
 
 **If opponent posts hand on mat near your head or attempts to establish crossface control:**
-- Execute **[[Transitions/Old School Sweep]]** → [[Positions/Side Control]] (Probability: 70%)
-- Execute **[[Transitions/Underhook Sweep from Half]]** → [[Positions/Side Control]] (Probability: 60%)
+- Execute **[[Transitions/Old School Sweep/Attacker|Old School Sweep]]** → [[Positions/Side Control]] (Probability: 70%)
+- Execute **[[Transitions/Underhook Sweep from Half/Attacker|Underhook Sweep from Half]]** → [[Positions/Side Control]] (Probability: 60%)
 
 
 **If opponent attempts to circle around knee shield toward backstep position:**
-- Execute **[[Transitions/Back Take from Bottom]]** → [[Positions/Back Control]] (Probability: 60%)
-- Execute **[[Transitions/Electric Chair Transition]]** → [[Positions/Half Guard/Electric Chair]] (Probability: 50%)
-- Execute **[[Transitions/Turtle to Truck]]** → [[Positions/Twister Control]] (Probability: 55%)
+- Execute **[[Transitions/Back Take from Bottom/Attacker|Back Take from Bottom]]** → [[Positions/Back Control]] (Probability: 60%)
+- Execute **[[Transitions/Electric Chair Transition/Attacker|Electric Chair Transition]]** → [[Positions/Half Guard/Electric Chair]] (Probability: 50%)
 
 
 **If opponent successfully collapses knee shield but has not yet established full passing pressure:**
-- Execute **[[Transitions/Lockdown Recovery]]** → [[Positions/Half Guard/Lockdown]] (Probability: 60%)
-- Execute **[[Transitions/Underhook Sweep from Half]]** → [[Positions/Side Control]] (Probability: 50%)
+- Execute **[[Transitions/Lockdown Recovery/Attacker|Lockdown Recovery]]** → [[Positions/Half Guard/Lockdown]] (Probability: 60%)
+- Execute **[[Transitions/Underhook Sweep from Half/Attacker|Underhook Sweep from Half]]** → [[Positions/Side Control]] (Probability: 50%)
 
 
 **If opponent maintains distance and good base, preventing sweep entries:**
-- Execute **[[Transitions/X-Guard Sweep]]** → [[Positions/X-Guard]] (Probability: 55%)
-- Execute **[[Transitions/Deep Half Entry]]** → [[Positions/Half Guard/Deep Half Guard]] (Probability: 60%)
+- Execute **[[Transitions/X-Guard Sweep/Attacker|X-Guard Sweep]]** → [[Positions/X-Guard]] (Probability: 55%)
+- Execute **[[Transitions/Deep Half Entry/Attacker|Deep Half Entry]]** → [[Positions/Half Guard/Deep Half Guard]] (Probability: 60%)
 
 
 
@@ -244,6 +339,8 @@ From a strategic perspective, Z-Guard Bottom represents a critical position in t
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Z-Guard?</p>
 
 ### 1. Allowing knee shield to collapse or lose tension against opponent's body
 
@@ -288,6 +385,8 @@ From a strategic perspective, Z-Guard Bottom represents a critical position in t
 
 ## Training Drills for Defense
 
+<p class="section-subtitle">How do you train Z-Guard defense?</p>
+
 ### Knee Shield Retention Drill
 
 Bottom player maintains Z-Guard while partner applies progressive pressure attempting to collapse knee shield. Bottom player practices maintaining shield integrity, adjusting angles, and using hip mobility to prevent being flattened. Progress from 25% resistance to 75% over multiple rounds. Focus on keeping shoulders off mat and maintaining active pressure into partner's body.
@@ -304,7 +403,7 @@ Partner starts in top half guard with light resistance. Bottom player flows thro
 
 ### Back Take Reaction Drill
 
-Top player attempts to circle toward backstep position around knee shield. Bottom player practices recognizing circling movement and immediately reacting with appropriate back take or truck entry. Start slow to develop recognition, then progress to live speed. Focus on using opponent's circling momentum to facilitate transitions rather than fighting against their movement.
+Top player attempts to circle toward backstep position around knee shield. Bottom player practices recognizing circling movement and immediately reacting with the appropriate underhook back take or electric chair entry. Start slow to develop recognition, then progress to live speed. Focus on using opponent's circling momentum to facilitate transitions rather than fighting against their movement.
 
 **Duration**: 3 minutes per round, 3-4 rounds per position
 
@@ -327,38 +426,6 @@ Start from flattened half guard or nearly-passed position. Bottom player must re
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Your opponent starts to drive heavy pressure into your knee shield - what adjustment should you make to maintain the position?
-**A**: Rather than fighting the pressure head-on, use hip mobility to create an angle by escaping your hips slightly away from the pressure. Simultaneously extend your knee shield more forcefully into their shoulder while keeping your foot hooked on their hip for additional distance control. If pressure continues to increase, this is actually your cue to transition to deep half guard by allowing them to collapse your frame while you dive underneath them.
-
-**Q2**: What are the essential grips for maintaining Z-Guard effectively?
-**A**: The underhook on the trapped leg side is the most critical grip - it controls opponent's posture and enables all major sweeps. Secondary grips include: collar tie on the same side to prevent crossface, far side sleeve or wrist control to prevent them from establishing grips, and potentially a pants grip near their knee to control their base. The combination of underhook plus one secondary grip is the minimum for effective offense.
-
-**Q3**: How do you shut down the opponent's primary passing attack - the knee slice?
-**A**: Prevent the knee slice by maintaining constant tension in your knee shield against their shoulder rather than letting it drop to their hip. Control their far arm to prevent them from establishing the crossface that enables the slice. Keep your hips angled rather than square - if they begin the slice motion, hip escape away while maintaining the underhook to create space. If they commit hard to the slice, use their forward momentum to enter deep half or execute an underhook sweep.
-
-**Q4**: What grip priorities should you establish when first entering Z-Guard?
-**A**: First priority is securing the underhook on the trapped leg side before opponent can establish crossface. Second priority is establishing a controlling grip on their far side - sleeve, collar, or wrist - to limit their options. Third priority is ensuring proper knee shield placement high on their shoulder rather than low on their chest. These three elements create the foundation that makes all offensive options available.
-
-**Q5**: How should you apply the knee shield for maximum defensive effectiveness?
-**A**: Position your knee directly into opponent's shoulder or collarbone rather than their chest or bicep. Angle your shin upward at approximately 45 degrees with your foot hooking their hip or thigh to create maximum distance. Maintain constant active pressure - think of it as a spring that must stay loaded. Your knee shield should feel like a barrier they cannot simply push through, redirecting their pressure rather than absorbing it.
-
-**Q6**: Your opponent begins circling toward your back to avoid the knee shield - how should you react?
-**A**: Recognize this as an offensive opportunity rather than a defensive problem. As they circle, use your underhook to follow their movement and begin climbing up their back. Convert your bottom hook to a back hook and look to establish seatbelt control. If they've overcommitted to the circle, you may be able to take their back directly. If they stop mid-circle, use the angle they've created to hit the old school sweep or transition to electric chair.
-
-**Q7**: How do you manage energy when facing a heavy pressure passer who is systematically working to collapse your frames?
-**A**: Conserve energy by using frames and leverage rather than muscular resistance. Let your skeletal structure bear the weight through proper knee shield positioning rather than holding them off with arm strength. Use opponent's pressure to load your sweeps - when they push, that energy can be redirected into sweep attempts. If position becomes too compromised, transition to deep half rather than exhausting yourself defending a deteriorating Z-Guard.
-
-**Q8**: After your knee shield partially collapses but you haven't been passed, what's your recovery strategy?
-**A**: Immediately make a decision - either re-establish the knee shield or commit to a transition. To recover, hip escape aggressively while using your arms to frame and create space, then re-insert the knee shield before they can settle their weight. If recovery isn't possible, accept the collapse and dive into deep half guard using their forward momentum. The worst option is staying in the halfway position where you have neither good defense nor offensive options.
-
-
-
-</section>
 
 
 <section id="position-metrics" class="content-section">
@@ -392,5 +459,7 @@ Start from flattened half guard or nearly-passed position. Bottom player must re
 
 
 </section>
+
+
 
 </main>

@@ -34,6 +34,43 @@ description: "Master the Escape Vaporizer in BJJ. Strategic lockdown disengageme
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Escape Vaporizer \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Lockdown to vaporizer",
+      "description": "Escape Vaporizer film study: Lockdown to vaporizer, taught by Axel Collazo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/8ZgEL2zU_jg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/8ZgEL2zU_jg",
+      "url": "https://www.youtube.com/watch?v=8ZgEL2zU_jg",
+      "creator": { "@type": "Person", "name": "Axel Collazo" },
+      "duration": "PT98S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Quarter guard to vaporizer",
+      "description": "Escape Vaporizer film study: Quarter guard to vaporizer, taught by Superhero Jiu Jitsu Academy.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/dLIqO90Ix7o/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/dLIqO90Ix7o",
+      "url": "https://www.youtube.com/watch?v=dLIqO90Ix7o",
+      "creator": { "@type": "Person", "name": "Superhero Jiu Jitsu Academy" },
+      "duration": "PT113S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +106,34 @@ Recognizing when to abandon the Vaporizer is a hallmark of positional intelligen
 **Success Rate**: 50%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Escape Vaporizer in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=8ZgEL2zU_jg)
+
+<p class="clip-credit"><strong>Lockdown to vaporizer</strong> — taught by Axel Collazo · 1:38 · <a href="https://www.youtube.com/watch?v=8ZgEL2zU_jg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=dLIqO90Ix7o)
+
+<p class="clip-credit"><strong>Quarter guard to vaporizer</strong> — taught by Superhero Jiu Jitsu Academy · 1:53 · <a href="https://www.youtube.com/watch?v=dLIqO90Ix7o" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 
@@ -253,7 +318,7 @@ The Escape Vaporizer connects the 10th Planet lockdown system to the broader ope
 
 - [[Transitions/Back Door Escape from Half Guard]] - Related escape concept demonstrating tactical retreat from half guard positions
 
-- [[Transitions/Deep Half Entry from Half Guard]] - Alternative transition path available from the half guard family
+- [[Transitions/Deep Half Entry]] - Alternative transition path available from the half guard family
 
 - [[Positions/Butterfly Guard]] - Specific open guard variation accessible through the quick-release butterfly variant
 

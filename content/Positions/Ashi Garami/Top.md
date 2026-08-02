@@ -21,37 +21,37 @@ description: "Master defensive strategies against Ashi Garami leg entanglements 
     {
       "@type": "HowToStep",
       "name": "Execute Ashi Garami Escape",
-      "text": "From this position, attempt Ashi Garami Escape. This technique is attempted in 38% of exchanges from this position.",
+      "text": "From this position, attempt Ashi Garami Escape. This technique is attempted in 13% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Counter Ashi Entry",
-      "text": "From this position, attempt Counter Ashi Entry. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt Counter Ashi Entry. This technique is attempted in 17% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Pass to Side Control",
-      "text": "From this position, attempt Pass to Side Control. This technique is attempted in 8% of exchanges from this position.",
+      "text": "From this position, attempt Pass to Side Control. This technique is attempted in 14% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Guillotine Setup",
-      "text": "From this position, attempt Guillotine Setup. This technique is attempted in 4% of exchanges from this position.",
+      "text": "From this position, attempt Guillotine Setup. This technique is attempted in 8% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Straight Ankle Lock Entry",
-      "text": "From this position, attempt Straight Ankle Lock Entry. This technique is attempted in 13% of exchanges from this position.",
+      "name": "Execute Back Step Pass",
+      "text": "From this position, attempt Back Step Pass. This technique is attempted in 13% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Back Step Pass",
-      "text": "From this position, attempt Back Step Pass. This technique is attempted in 10% of exchanges from this position.",
+      "name": "Execute Toe Hold from Ashi Garami",
+      "text": "From this position, attempt Toe Hold from Ashi Garami. This technique is attempted in 14% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -153,6 +153,43 @@ description: "Master defensive strategies against Ashi Garami leg entanglements 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Ashi Garami (Top) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Nasty heel hook from outside ashi garami",
+      "description": "Ashi Garami (Top) film study: Nasty heel hook from outside ashi garami, taught by Craig Jones.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/m4sGDhukUmk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/m4sGDhukUmk",
+      "url": "https://www.youtube.com/watch?v=m4sGDhukUmk",
+      "creator": { "@type": "Person", "name": "Craig Jones" },
+      "duration": "PT141S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Reverse achilles lock from ashi garami",
+      "description": "Ashi Garami (Top) film study: Reverse achilles lock from ashi garami, taught by Corey K.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/D9_e_d6WpyU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/D9_e_d6WpyU",
+      "url": "https://www.youtube.com/watch?v=D9_e_d6WpyU",
+      "creator": { "@type": "Person", "name": "Corey K" },
+      "duration": "PT84S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -168,6 +205,34 @@ Offensive counter-opportunities from top Ashi positions include establishing you
 Top Ashi Garami defense requires extensive drilling of mechanical extraction sequences, heel protection positioning, and recognition of positional hierarchy markers that indicate immediate danger versus manageable risk. Competition application demands strategic decision-making about when to invest energy in immediate escape attempts versus maintaining patient defensive positioning while the opponent exhausts themselves attempting advancement, as well as understanding rule sets regarding legal and illegal leg attack variations at your competition level. Comprehensive leg lock defense transforms from reactive scrambling to systematic problem-solving through positional understanding and technical extraction mechanics.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Ashi Garami (Top) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=m4sGDhukUmk)
+
+<p class="clip-credit"><strong>Nasty heel hook from outside ashi garami</strong> — taught by Craig Jones · 2:21 · <a href="https://www.youtube.com/watch?v=m4sGDhukUmk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=D9_e_d6WpyU)
+
+<p class="clip-credit"><strong>Reverse achilles lock from ashi garami</strong> — taught by Corey K · 1:24 · <a href="https://www.youtube.com/watch?v=D9_e_d6WpyU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

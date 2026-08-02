@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Mount/Top",
-      "probability": 48,
+      "probability": {
+        "gi": 48,
+        "nogi": 48
+      },
       "result": "success"
     },
     {
       "to": "Electric Chair/Bottom",
-      "probability": 32,
+      "probability": {
+        "gi": 32,
+        "nogi": 32
+      },
       "result": "failure"
     },
     {
       "to": "Side Control/Bottom",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 48,
+  "success_rate": {
+    "gi": 48,
+    "nogi": 48
+  },
   "overview": "Within the 10th Planet lockdown system, this sweep is the payoff that justifies hunting the Electric Chair in the first place. It capitalizes on the splitting pressure and structural off-balance created by the lockdown configuration, using coordinated hip extension, underhook leverage, and ankle control to roll the opponent over their trapped leg and come up to top position. The sweep represents the culmination of the Electric Chair attack sequence, where submission pressure naturally transitions into sweeping momentum.\n\nThe technique's effectiveness derives from the fundamental dilemma inherent in the Electric Chair position. As the bottom player extends their hips and splits the opponent's legs apart, the top player faces an impossible choice: defend the crotch-splitting submission by pulling their leg inward, which shifts their weight and creates the momentum needed for the sweep, or base out to prevent the sweep, which increases their exposure to the submission finish. This binary threat structure makes the sweep one of the highest-percentage reversals available from bottom half guard.\n\nExecution requires precise coordination between three control points working simultaneously. The lockdown leg configuration maintains constant tension on the trapped leg, preventing extraction. The deep underhook reaching across the opponent's back provides the primary sweeping lever and upper body control. The hand controlling the opponent's near ankle creates the splitting action that drives the entire mechanism. When these three points are engaged and the bottom player commits to a powerful hip extension while driving the underhook across, the opponent's base collapses and the sweep follows naturally as they roll over their compromised trapped leg.",
   "conditions": [
     "Lockdown must be fully established with tight figure-four leg configuration trapping opponent's near leg",
@@ -251,38 +263,147 @@
     "flashcards": [
       {
         "question": "What is the most critical grip adjustment if your underhook is too shallow to generate adequate sweep leverage?",
-        "answer": "You must release and re-establish the underhook deeper across opponent's back, reaching to their far lat or belt. A shallow underhook provides insufficient leverage and allows the opponent to posture away. Temporarily increase lockdown tension to maintain positional control while you re-set the underhook depth. Never attempt the sweep with a shallow underhook."
+        "answer": "You must release and re-establish the underhook deeper across opponent's back, reaching to their far lat or belt. A shallow underhook provides insufficient leverage and allows the opponent to posture away. Temporarily increase lockdown tension to maintain positional control while you re-set the underhook depth. Never attempt the sweep with a shallow underhook.",
+        "answer_line": "Re-establish deeper underhook",
+        "distractors": {
+          "plausible": [
+            "Push through, ignore hook",
+            "Switch to overhook grip"
+          ],
+          "trap": [
+            "Release lockdown to reset hook"
+          ]
+        }
       },
       {
         "question": "Your opponent posts their far hand on the mat to prevent the sweep roll - how do you adjust your attack?",
-        "answer": "Increase the splitting pressure through additional hip extension and stronger ankle pull. Their posting hand removes one arm from defending the submission, making the Banana Split finish more available. If they maintain the post, attack the submission to force them to retract the hand for defense, then immediately convert the weight shift into the sweep."
+        "answer": "Increase the splitting pressure through additional hip extension and stronger ankle pull. Their posting hand removes one arm from defending the submission, making the Banana Split finish more available. If they maintain the post, attack the submission to force them to retract the hand for defense, then immediately convert the weight shift into the sweep.",
+        "answer_line": "Attack split to pull hand back",
+        "distractors": {
+          "plausible": [
+            "Force the roll harder anyway",
+            "Switch underhook to far side"
+          ],
+          "trap": [
+            "Grab their post directly"
+          ]
+        }
       },
       {
         "question": "What determines the optimal timing window for committing to the sweep?",
-        "answer": "The optimal window occurs when the opponent shifts weight to defend the Electric Chair submission pressure. When they pull their trapped leg inward or lean forward to relieve the split, their base becomes momentarily compromised. This weight shift creates a brief window where the sweep requires minimal force to complete. Attempting the sweep against a fully based opponent wastes energy and fails."
+        "answer": "The optimal window occurs when the opponent shifts weight to defend the Electric Chair submission pressure. When they pull their trapped leg inward or lean forward to relieve the split, their base becomes momentarily compromised. This weight shift creates a brief window where the sweep requires minimal force to complete. Attempting the sweep against a fully based opponent wastes energy and fails.",
+        "answer_line": "When they shift weight to defend",
+        "distractors": {
+          "plausible": [
+            "Right after establishing lockdown",
+            "As soon as underhook is set"
+          ],
+          "trap": [
+            "Force sweep against full base"
+          ]
+        }
       },
       {
         "question": "What hip movement generates the most sweeping power in this technique?",
-        "answer": "A powerful bridging motion combined with lateral hip rotation toward the underhook side generates maximum force. The hips must extend fully while rotating rather than simply bridging straight up. The lockdown amplifies this force by preventing the opponent's trapped leg from providing counter-base during the rotation, effectively removing half their foundation."
+        "answer": "A powerful bridging motion combined with lateral hip rotation toward the underhook side generates maximum force. The hips must extend fully while rotating rather than simply bridging straight up. The lockdown amplifies this force by preventing the opponent's trapped leg from providing counter-base during the rotation, effectively removing half their foundation.",
+        "answer_line": "Bridge and rotate toward hook side",
+        "distractors": {
+          "plausible": [
+            "Straight bridge with no rotation",
+            "Rotate away from underhook side"
+          ],
+          "trap": [
+            "Pull with arms, skip hip drive"
+          ]
+        }
       },
       {
         "question": "What are the three control points and why must all three be engaged before initiating the sweep?",
-        "answer": "The three points are the lockdown leg configuration, the deep underhook across the back, and the ankle grip creating the split. All three must be engaged because each addresses a different axis of control: the lockdown prevents leg extraction, the underhook controls upper body and provides sweeping leverage, and the ankle grip creates the off-balance through splitting pressure. Missing any single point gives the opponent an escape route."
+        "answer": "The three points are the lockdown leg configuration, the deep underhook across the back, and the ankle grip creating the split. All three must be engaged because each addresses a different axis of control: the lockdown prevents leg extraction, the underhook controls upper body and provides sweeping leverage, and the ankle grip creates the off-balance through splitting pressure. Missing any single point gives the opponent an escape route.",
+        "answer_line": "Lockdown, underhook, ankle split",
+        "distractors": {
+          "plausible": [
+            "Lockdown and underhook only",
+            "Underhook and ankle grip only"
+          ],
+          "trap": [
+            "Ankle grip alone is enough"
+          ]
+        }
       },
       {
         "question": "If your opponent successfully defends the sweep but you maintain the Electric Chair position, what should your follow-up strategy be?",
-        "answer": "Maintain the Electric Chair position and re-apply splitting pressure to re-establish the dilemma. If the sweep was defended because your opponent based out, increase submission pressure on the Banana Split. If they defended by driving forward, transition to Old School sweep using their forward momentum. If they begin extracting the leg, flow to Deep Half or Dogfight. Never abandon the position after one failed attempt."
+        "answer": "Maintain the Electric Chair position and re-apply splitting pressure to re-establish the dilemma. If the sweep was defended because your opponent based out, increase submission pressure on the Banana Split. If they defended by driving forward, transition to Old School sweep using their forward momentum. If they begin extracting the leg, flow to Deep Half or Dogfight. Never abandon the position after one failed attempt.",
+        "answer_line": "Re-apply pressure, adapt to defense",
+        "distractors": {
+          "plausible": [
+            "Abandon position, reset guard",
+            "Switch straight to back take"
+          ],
+          "trap": [
+            "Release lockdown and stand up"
+          ]
+        }
       },
       {
         "question": "How do you prevent your opponent from rolling through the sweep and recovering guard instead of you achieving mount?",
-        "answer": "Control the sweep speed by maintaining the underhook tight and connected throughout the entire roll. Do not release the underhook until you are fully established on top. Keep your chest connected to opponent's torso during the transition, and drive your hips forward immediately upon arriving on top to prevent them from continuing rotational momentum into a guard recovery."
+        "answer": "Control the sweep speed by maintaining the underhook tight and connected throughout the entire roll. Do not release the underhook until you are fully established on top. Keep your chest connected to opponent's torso during the transition, and drive your hips forward immediately upon arriving on top to prevent them from continuing rotational momentum into a guard recovery.",
+        "answer_line": "Stay connected, drive hips on top",
+        "distractors": {
+          "plausible": [
+            "Release hook once sweep begins",
+            "Post hands to stop the roll"
+          ],
+          "trap": [
+            "Let go early, chase the finish"
+          ]
+        }
       },
       {
         "question": "What grip and leverage adjustments are needed when the opponent is significantly larger or stronger?",
-        "answer": "Against larger opponents, the underhook must be even deeper to generate sufficient leverage against greater mass. Prioritize hip extension power over arm strength for the sweep, since your legs are stronger than your arms. Consider using a belt grip or far lat grip for maximum purchase. The lockdown becomes more critical as weight differential increases, so ensure maximum tension through the figure-four before attempting the sweep."
+        "answer": "Against larger opponents, the underhook must be even deeper to generate sufficient leverage against greater mass. Prioritize hip extension power over arm strength for the sweep, since your legs are stronger than your arms. Consider using a belt grip or far lat grip for maximum purchase. The lockdown becomes more critical as weight differential increases, so ensure maximum tension through the figure-four before attempting the sweep.",
+        "answer_line": "Deeper hook, use hips not arms",
+        "distractors": {
+          "plausible": [
+            "Grip harder, arm-wrestle the sweep",
+            "Loosen lockdown to save energy"
+          ],
+          "trap": [
+            "Rely on arm strength to muscle"
+          ]
+        }
       }
     ],
-    "safety_considerations": "The Electric Chair sweep involves significant pressure on the opponent's knee, hip joint, and groin area through the splitting mechanism. Always apply splitting pressure gradually during training to allow partners time to tap before injury occurs. Be especially cautious with the lockdown leg configuration, as forced extraction by either player can damage the trapped knee. When drilling, communicate clearly with your partner about pressure levels and stop immediately if they signal discomfort. The sweep motion itself carries lower injury risk, but the setup pressure demands constant awareness."
+    "safety_considerations": "The Electric Chair sweep involves significant pressure on the opponent's knee, hip joint, and groin area through the splitting mechanism. Always apply splitting pressure gradually during training to allow partners time to tap before injury occurs. Be especially cautious with the lockdown leg configuration, as forced extraction by either player can damage the trapped knee. When drilling, communicate clearly with your partner about pressure levels and stop immediately if they signal discomfort. The sweep motion itself carries lower injury risk, but the setup pressure demands constant awareness.",
+    "clips": [
+      {
+        "id": "sMbaY4vG2mM",
+        "title": "Electric chair from lockdown half guard",
+        "by": "Brandon McCaghren",
+        "vertical": false,
+        "channel": "Brandon Mccaghren",
+        "duration": 42,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "9CxxyZEd7-E",
+        "title": "Electric chair sweep technique breakdown",
+        "by": "Asaf Mich",
+        "vertical": false,
+        "channel": "Asaf Mich",
+        "duration": 76,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "O18n2Z5HISI",
+        "title": "Electric chair from deep half guard",
+        "by": "Heart & Dagger BJJ",
+        "vertical": false,
+        "channel": "Heart & Dagger  BJJ - Mineral Wells Jiu Jitsu",
+        "duration": 43,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Sweep from Electric Chair Defender",
@@ -368,23 +489,73 @@
     "flashcards": [
       {
         "question": "What is your first priority when you recognize the Electric Chair sweep setup developing?",
-        "answer": "Your first priority is preventing the underhook from reaching full depth across your back. If the underhook is already established, immediately fight to establish crossface pressure to limit sweeping leverage. Simultaneously drive weight forward to prevent the hip extension that powers both the sweep and the submission. Addressing the most immediate threat first, then working toward lockdown breaking is the correct sequence."
+        "answer": "Your first priority is preventing the underhook from reaching full depth across your back. If the underhook is already established, immediately fight to establish crossface pressure to limit sweeping leverage. Simultaneously drive weight forward to prevent the hip extension that powers both the sweep and the submission. Addressing the most immediate threat first, then working toward lockdown breaking is the correct sequence.",
+        "answer_line": "Stop underhook before it's deep",
+        "distractors": {
+          "plausible": [
+            "Break lockdown first",
+            "Grab their ankle grip"
+          ],
+          "trap": [
+            "Post hands wide, ignore hook"
+          ]
+        }
       },
       {
         "question": "How do you distinguish between the opponent setting up the sweep versus the submission from Electric Chair?",
-        "answer": "The sweep is characterized by the opponent beginning a rolling motion toward their underhook side with coordinated hip extension. The submission involves the opponent staying more stationary while increasing outward splitting pressure through sustained hip drive. However, both threats share the same setup controls, which is why early intervention before the position is fully established is the most effective defense against both threats simultaneously."
+        "answer": "The sweep is characterized by the opponent beginning a rolling motion toward their underhook side with coordinated hip extension. The submission involves the opponent staying more stationary while increasing outward splitting pressure through sustained hip drive. However, both threats share the same setup controls, which is why early intervention before the position is fully established is the most effective defense against both threats simultaneously.",
+        "answer_line": "Rolling motion vs stationary split",
+        "distractors": {
+          "plausible": [
+            "Watch grip changes only",
+            "Wait until fully committed"
+          ],
+          "trap": [
+            "Ignore until submission tap risk"
+          ]
+        }
       },
       {
         "question": "What adjustments do you make when the sweep is already in motion and cannot be prevented?",
-        "answer": "If the sweep is past the point of no return, do not fight the roll or you risk knee injury from the lockdown. Flow with the momentum and immediately fight for underhook or head control as you arrive on bottom. Your goal shifts from preventing the sweep to preventing consolidated mount. Frame immediately as you land, work to insert a knee shield before they settle their hips, and look for half guard recovery."
+        "answer": "If the sweep is past the point of no return, do not fight the roll or you risk knee injury from the lockdown. Flow with the momentum and immediately fight for underhook or head control as you arrive on bottom. Your goal shifts from preventing the sweep to preventing consolidated mount. Frame immediately as you land, work to insert a knee shield before they settle their hips, and look for half guard recovery.",
+        "answer_line": "Flow with the roll, fight underhook",
+        "distractors": {
+          "plausible": [
+            "Wait to land before reacting",
+            "Hunt for a submission mid-scramble"
+          ],
+          "trap": [
+            "Fight the lockdown mid-roll"
+          ]
+        }
       },
       {
         "question": "When is it safe to attempt breaking the lockdown versus when should you prioritize base?",
-        "answer": "Prioritize base and sweep prevention when the opponent is actively extending hips and generating splitting pressure. Only attempt lockdown breaks during pauses between attacks, when the opponent adjusts grips, or when they momentarily reduce lockdown tension to reach for the ankle. Breaking the lockdown while under active sweep pressure divides your attention and typically results in being swept mid-attempt."
+        "answer": "Prioritize base and sweep prevention when the opponent is actively extending hips and generating splitting pressure. Only attempt lockdown breaks during pauses between attacks, when the opponent adjusts grips, or when they momentarily reduce lockdown tension to reach for the ankle. Breaking the lockdown while under active sweep pressure divides your attention and typically results in being swept mid-attempt.",
+        "answer_line": "Break lockdown only during pauses",
+        "distractors": {
+          "plausible": [
+            "Break lockdown as soon as trapped",
+            "Always prioritize base, never break"
+          ],
+          "trap": [
+            "Attack lockdown mid-pressure"
+          ]
+        }
       },
       {
         "question": "What body positioning minimizes both sweep and submission risk simultaneously?",
-        "answer": "Keep your weight forward with chest pressure on opponent's upper body while your hips stay as low as possible. Post your free leg wide at approximately 45 degrees for maximum base stability. Use your nearside arm for crossface pressure and your farside arm to fight the underhook depth. Apply the limp leg concept to your trapped leg to reduce the lockdown's mechanical effectiveness. This posture limits hip extension while providing broad base against the roll."
+        "answer": "Keep your weight forward with chest pressure on opponent's upper body while your hips stay as low as possible. Post your free leg wide at approximately 45 degrees for maximum base stability. Use your nearside arm for crossface pressure and your farside arm to fight the underhook depth. Apply the limp leg concept to your trapped leg to reduce the lockdown's mechanical effectiveness. This posture limits hip extension while providing broad base against the roll.",
+        "answer_line": "Weight forward, wide base, limp leg",
+        "distractors": {
+          "plausible": [
+            "Weight back, narrow base",
+            "Sit up, push off with hands"
+          ],
+          "trap": [
+            "Stiffen trapped leg against hook"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -407,6 +578,26 @@
         "phase": "Phase 4: Live Defense",
         "focus": "Full resistance defensive application",
         "description": "Positional sparring starting in Electric Chair top against full resistance. Practice the complete defensive sequence from recognition through prevention to counter-offense. Partner attacks with all lockdown options including sweep, submission, Old School, and Truck transitions."
+      }
+    ],
+    "clips": [
+      {
+        "id": "3A6oRsDf3oU",
+        "title": "Lockdown and electric chair counters and escapes",
+        "by": "Street Jitsu",
+        "vertical": false,
+        "channel": "Street Jitsu",
+        "duration": 286,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "pzpqHP-xx0I",
+        "title": "10th Planet Electric Chair: The 3 Micro Battles",
+        "by": "Patrick Donabedian",
+        "vertical": false,
+        "channel": "Patrick Donabedian BJJ",
+        "duration": 630,
+        "verified": "2026-07-15"
       }
     ]
   }

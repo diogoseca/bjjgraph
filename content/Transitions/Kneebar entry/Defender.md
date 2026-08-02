@@ -148,6 +148,43 @@ description: "How to defend against Kneebar entry in BJJ. Recognition cues, defe
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Kneebar entry (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "50/50 Escape, No-Gi Leg Locks",
+      "description": "Kneebar entry (Defender) film study: 50/50 Escape, No-Gi Leg Locks, taught by Elite Team Monterey.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/cYEzCp2l4rQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/cYEzCp2l4rQ",
+      "url": "https://www.youtube.com/watch?v=cYEzCp2l4rQ",
+      "creator": { "@type": "Person", "name": "Elite Team Monterey" },
+      "duration": "PT46S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Knee Bar Defense to Leg Drag",
+      "description": "Kneebar entry (Defender) film study: Knee Bar Defense to Leg Drag, taught by Clark Gracie.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/-1c4KyEfZ9Y/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/-1c4KyEfZ9Y",
+      "url": "https://www.youtube.com/watch?v=-1c4KyEfZ9Y",
+      "creator": { "@type": "Person", "name": "Clark Gracie" },
+      "duration": "PT234S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -159,6 +196,34 @@ Your defensive priority hierarchy is: first, prevent the foot trap by maintainin
 **Opponent's Starting Position**: [[Positions/Ashi Garami/50-50 Guard]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Kneebar entry (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=cYEzCp2l4rQ)
+
+<p class="clip-credit"><strong>50/50 Escape, No-Gi Leg Locks</strong> — taught by Elite Team Monterey · 0:46 · <a href="https://www.youtube.com/watch?v=cYEzCp2l4rQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=-1c4KyEfZ9Y)
+
+<p class="clip-credit"><strong>Knee Bar Defense to Leg Drag</strong> — taught by Clark Gracie · 3:54 · <a href="https://www.youtube.com/watch?v=-1c4KyEfZ9Y" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

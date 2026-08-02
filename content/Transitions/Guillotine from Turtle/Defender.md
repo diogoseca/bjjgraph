@@ -148,6 +148,54 @@ description: "How to defend against Guillotine from Turtle in BJJ. Recognition c
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Guillotine from Turtle (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Positional check against the guillotine",
+      "description": "Guillotine from Turtle (Defender) film study: Positional check against the guillotine, taught by Priit Mihkelson.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/nGpAcI79frk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/nGpAcI79frk",
+      "url": "https://www.youtube.com/watch?v=nGpAcI79frk",
+      "creator": { "@type": "Person", "name": "Priit Mihkelson" },
+      "duration": "PT116S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Standing guillotine escape",
+      "description": "Guillotine from Turtle (Defender) film study: Standing guillotine escape, taught by dogtownman.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/8okq4cIHMO0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/8okq4cIHMO0",
+      "url": "https://www.youtube.com/watch?v=8okq4cIHMO0",
+      "creator": { "@type": "Person", "name": "dogtownman" },
+      "duration": "PT44S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Front headlock choke defense: guillotine escape",
+      "description": "Guillotine from Turtle (Defender) film study: Front headlock choke defense: guillotine escape, taught by Peter Mettler.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/a7L1JP7_rgE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/a7L1JP7_rgE",
+      "url": "https://www.youtube.com/watch?v=a7L1JP7_rgE",
+      "creator": { "@type": "Person", "name": "Peter Mettler" },
+      "duration": "PT153S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -159,6 +207,42 @@ The defensive framework operates on a timeline: early recognition allows posture
 **Opponent's Starting Position**: [[Positions/Turtle]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Guillotine from Turtle (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=nGpAcI79frk)
+
+<p class="clip-credit"><strong>Positional check against the guillotine</strong> — taught by Priit Mihkelson · 1:56 · <a href="https://www.youtube.com/watch?v=nGpAcI79frk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=8okq4cIHMO0)
+
+<p class="clip-credit"><strong>Standing guillotine escape</strong> — taught by dogtownman · 0:44 · <a href="https://www.youtube.com/watch?v=8okq4cIHMO0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=a7L1JP7_rgE)
+
+<p class="clip-credit"><strong>Front headlock choke defense: guillotine escape</strong> — taught by Peter Mettler · 2:33 · <a href="https://www.youtube.com/watch?v=a7L1JP7_rgE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

@@ -168,6 +168,54 @@ description: "How to execute Lockdown Escape to Half Guard Pass in BJJ. Attackin
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Lockdown Escape to Half Guard Pass (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Quick lockdown escape from top",
+      "description": "Lockdown Escape to Half Guard Pass (Attacker) film study: Quick lockdown escape from top, taught by Thunderdome BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/PptkZQh_MFA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/PptkZQh_MFA",
+      "url": "https://www.youtube.com/watch?v=PptkZQh_MFA",
+      "creator": { "@type": "Person", "name": "Thunderdome BJJ" },
+      "duration": "PT31S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Lockdown break to half guard pass",
+      "description": "Lockdown Escape to Half Guard Pass (Attacker) film study: Lockdown break to half guard pass, taught by Superhero Jiu Jitsu Academy.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/-49CypLW9aM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/-49CypLW9aM",
+      "url": "https://www.youtube.com/watch?v=-49CypLW9aM",
+      "creator": { "@type": "Person", "name": "Superhero Jiu Jitsu Academy" },
+      "duration": "PT61S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Strategy-based lockdown escape",
+      "description": "Lockdown Escape to Half Guard Pass (Attacker) film study: Strategy-based lockdown escape, taught by Jean Jacques Machado.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/rHT8G14Gbb8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/rHT8G14Gbb8",
+      "url": "https://www.youtube.com/watch?v=rHT8G14Gbb8",
+      "creator": { "@type": "Person", "name": "Jean Jacques Machado" },
+      "duration": "PT159S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -181,6 +229,42 @@ Strategically, this technique transforms a defensive predicament into offensive 
 **From Position**: [[Positions/Half Guard/Lockdown]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Lockdown Escape to Half Guard Pass (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=PptkZQh_MFA)
+
+<p class="clip-credit"><strong>Quick lockdown escape from top</strong> — taught by Thunderdome BJJ · 0:31 · <a href="https://www.youtube.com/watch?v=PptkZQh_MFA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=-49CypLW9aM)
+
+<p class="clip-credit"><strong>Lockdown break to half guard pass</strong> — taught by Superhero Jiu Jitsu Academy · 1:01 · <a href="https://www.youtube.com/watch?v=-49CypLW9aM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=rHT8G14Gbb8)
+
+<p class="clip-credit"><strong>Strategy-based lockdown escape</strong> — taught by Jean Jacques Machado · 2:39 · <a href="https://www.youtube.com/watch?v=rHT8G14Gbb8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

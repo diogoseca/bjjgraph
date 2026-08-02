@@ -126,6 +126,43 @@ description: "Learn to counter the Straighten Leg Defense when attacking from El
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Straighten Leg Defense from Electric Chair (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Electric chair from lockdown half guard",
+      "description": "Straighten Leg Defense from Electric Chair (Defender) film study: Electric chair from lockdown half guard, taught by Brandon McCaghren.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/sMbaY4vG2mM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/sMbaY4vG2mM",
+      "url": "https://www.youtube.com/watch?v=sMbaY4vG2mM",
+      "creator": { "@type": "Person", "name": "Brandon McCaghren" },
+      "duration": "PT42S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Electric chair sweep breakdown",
+      "description": "Straighten Leg Defense from Electric Chair (Defender) film study: Electric chair sweep breakdown, taught by Asaf Mich.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/9CxxyZEd7-E/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/9CxxyZEd7-E",
+      "url": "https://www.youtube.com/watch?v=9CxxyZEd7-E",
+      "creator": { "@type": "Person", "name": "Asaf Mich" },
+      "duration": "PT76S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -135,6 +172,34 @@ As the bottom player in Electric Chair, your opponent's most immediate defensive
 **Opponent's Starting Position**: [[Positions/Half Guard/Electric Chair]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Straighten Leg Defense from Electric Chair (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=sMbaY4vG2mM)
+
+<p class="clip-credit"><strong>Electric chair from lockdown half guard</strong> — taught by Brandon McCaghren · 0:42 · <a href="https://www.youtube.com/watch?v=sMbaY4vG2mM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=9CxxyZEd7-E)
+
+<p class="clip-credit"><strong>Electric chair sweep breakdown</strong> — taught by Asaf Mich · 1:16 · <a href="https://www.youtube.com/watch?v=9CxxyZEd7-E" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

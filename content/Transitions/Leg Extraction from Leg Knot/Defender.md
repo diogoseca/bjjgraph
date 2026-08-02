@@ -132,6 +132,43 @@ description: "Defend against Leg Extraction from Leg Knot in BJJ. Recognition cu
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Leg Extraction from Leg Knot (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Rolling leg knot control",
+      "description": "Leg Extraction from Leg Knot (Defender) film study: Rolling leg knot control, taught by Tom Dinklage.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/8VfldffVsFU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/8VfldffVsFU",
+      "url": "https://www.youtube.com/watch?v=8VfldffVsFU",
+      "creator": { "@type": "Person", "name": "Tom Dinklage" },
+      "duration": "PT91S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "411 leg entanglement control details",
+      "description": "Leg Extraction from Leg Knot (Defender) film study: 411 leg entanglement control details, taught by Holy Grail BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/iVa-jgMsLUk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/iVa-jgMsLUk",
+      "url": "https://www.youtube.com/watch?v=iVa-jgMsLUk",
+      "creator": { "@type": "Person", "name": "Holy Grail BJJ" },
+      "duration": "PT135S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -141,6 +178,34 @@ As the defender against the Leg Extraction from Leg Knot, you occupy the bottom 
 **Opponent's Starting Position**: [[Positions/Leg Knot]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Leg Extraction from Leg Knot (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=8VfldffVsFU)
+
+<p class="clip-credit"><strong>Rolling leg knot control</strong> — taught by Tom Dinklage · 1:31 · <a href="https://www.youtube.com/watch?v=8VfldffVsFU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=iVa-jgMsLUk)
+
+<p class="clip-credit"><strong>411 leg entanglement control details</strong> — taught by Holy Grail BJJ · 2:15 · <a href="https://www.youtube.com/watch?v=iVa-jgMsLUk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

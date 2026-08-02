@@ -21,37 +21,37 @@ description: "Master Lockdown Bottom in BJJ. 10th Planet's signature half guard 
     {
       "@type": "HowToStep",
       "name": "Execute Whip-up Sweep",
-      "text": "From this position, attempt Whip-up Sweep. This technique is attempted in 25% of exchanges from this position.",
+      "text": "From this position, attempt Whip-up Sweep. This technique is attempted in 20% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Old School Sweep",
-      "text": "From this position, attempt Old School Sweep. This technique is attempted in 9% of exchanges from this position.",
+      "text": "From this position, attempt Old School Sweep. This technique is attempted in 12% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Electric Chair Transition",
-      "text": "From this position, attempt Electric Chair Transition. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Electric Chair Transition. This technique is attempted in 12% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Underhook Sweep from Half",
-      "text": "From this position, attempt Underhook Sweep from Half. This technique is attempted in 7% of exchanges from this position.",
+      "text": "From this position, attempt Underhook Sweep from Half. This technique is attempted in 8% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Rolling Back Take",
-      "text": "From this position, attempt Rolling Back Take. This technique is attempted in 7% of exchanges from this position.",
+      "name": "Execute Half Guard to Back Take",
+      "text": "From this position, attempt Half Guard to Back Take. This technique is attempted in 8% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Roll to Truck",
-      "text": "From this position, attempt Roll to Truck. This technique is attempted in 8% of exchanges from this position.",
+      "text": "From this position, attempt Roll to Truck. This technique is attempted in 5% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -153,6 +153,54 @@ description: "Master Lockdown Bottom in BJJ. 10th Planet's signature half guard 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Lockdown (Bottom) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Corona lockdown sweep",
+      "description": "Lockdown (Bottom) film study: Corona lockdown sweep, taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/08cbHHs_NsM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/08cbHHs_NsM",
+      "url": "https://www.youtube.com/watch?v=08cbHHs_NsM",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT53S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Lockdown clinches (MTS 176)",
+      "description": "Lockdown (Bottom) film study: Lockdown clinches (MTS 176), taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/OIr4wDxl-Ys/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/OIr4wDxl-Ys",
+      "url": "https://www.youtube.com/watch?v=OIr4wDxl-Ys",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT60S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Advanced lockdown details",
+      "description": "Lockdown (Bottom) film study: Advanced lockdown details, taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/AmOMN0S1v8Q/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/AmOMN0S1v8Q",
+      "url": "https://www.youtube.com/watch?v=AmOMN0S1v8Q",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT61S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -160,6 +208,42 @@ description: "Master Lockdown Bottom in BJJ. 10th Planet's signature half guard 
 Lockdown Bottom is 10th Planet's signature half guard variation where the bottom practitioner uses a triangled leg configuration to control the opponent's trapped leg. This 10th Planet system position transforms traditional half guard from a stalling position into a dynamic offensive platform. The lockdown prevents the top player from completing passes while creating leverage for sweeps and back takes. By extending and controlling the trapped leg, the bottom practitioner can off-balance opponents, create angles, and attack with the whip-up, Old School sweep, and Electric Chair submissions. The position emphasizes active offense over passive defense, using the leg triangle as both a retention mechanism and an attacking lever. This position revolutionized half guard play in no-gi grappling and has become a fundamental component of modern BJJ game plans.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Lockdown (Bottom) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=08cbHHs_NsM)
+
+<p class="clip-credit"><strong>Corona lockdown sweep</strong> — taught by Eddie Bravo · 0:53 · <a href="https://www.youtube.com/watch?v=08cbHHs_NsM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=OIr4wDxl-Ys)
+
+<p class="clip-credit"><strong>Lockdown clinches (MTS 176)</strong> — taught by Eddie Bravo · 1:00 · <a href="https://www.youtube.com/watch?v=OIr4wDxl-Ys" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=AmOMN0S1v8Q)
+
+<p class="clip-credit"><strong>Advanced lockdown details</strong> — taught by Eddie Bravo · 1:01 · <a href="https://www.youtube.com/watch?v=AmOMN0S1v8Q" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

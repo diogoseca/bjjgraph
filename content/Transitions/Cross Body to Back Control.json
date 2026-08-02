@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Back Control/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Cross Body Ride/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "Cross Body to Back Control is the fundamental transition from the perpendicular turtle ride to the most dominant position in Brazilian Jiu-Jitsu. Beginning from the Cross Body Ride—where the top player maintains chest-to-back pressure at a perpendicular angle across the opponent's spine—this transition involves systematically rotating from the perpendicular orientation to a parallel chest-behind-back position while inserting hooks and establishing the seatbelt grip. The technique capitalizes on the control advantages of the cross body position to methodically advance to full back control without creating escape opportunities.\n\nThe transition represents a critical junction in the turtle attack hierarchy. While the Cross Body Ride provides excellent control and pressure, it lacks the direct submission threats available from full back control. The ability to smoothly convert perpendicular pressure into back control with hooks determines whether the top player can capitalize on their dominant turtle position or whether the opponent finds windows to escape during the positional adjustment. The 55% success rate reflects the inherent challenge of maintaining control during the rotational phase.\n\nSuccessful execution demands maintaining constant chest-to-back connection throughout the entire rotation. The most common failure occurs when practitioners lift their weight to insert hooks, creating space that allows the opponent to turn, granby roll, or sit through to guard. Elite practitioners solve this by threading hooks sequentially while driving their shoulder into the opponent's back, ensuring zero daylight between their chest and the opponent's spine throughout the transition. The seatbelt grip serves as the primary anchor, preventing the opponent from exploiting rotational momentum to escape.",
   "conditions": [
     "Top player has established perpendicular chest-to-back contact from turtle top position",
@@ -262,38 +274,147 @@
     "flashcards": [
       {
         "question": "What is the optimal timing window to begin the rotation from perpendicular to parallel?",
-        "answer": "The optimal window opens when the opponent's turtle structure shows signs of collapse under your sustained perpendicular pressure—specifically when their elbows begin widening, their head drops, or their hips sag toward the mat. These indicators mean they are absorbing your weight rather than maintaining defensive structure, reducing their capacity for explosive escape during the transition. Never initiate rotation when the opponent is freshly set in a strong, tight turtle."
+        "answer": "The optimal window opens when the opponent's turtle structure shows signs of collapse under your sustained perpendicular pressure—specifically when their elbows begin widening, their head drops, or their hips sag toward the mat. These indicators mean they are absorbing your weight rather than maintaining defensive structure, reducing their capacity for explosive escape during the transition. Never initiate rotation when the opponent is freshly set in a strong, tight turtle.",
+        "answer_line": "Structure sags—elbows widen",
+        "distractors": {
+          "plausible": [
+            "Immediately after chest contact",
+            "As soon as seatbelt is locked"
+          ],
+          "trap": [
+            "Right when turtle is freshly set"
+          ]
+        }
       },
       {
         "question": "What entry requirements must be met before initiating the Cross Body to Back Control transition?",
-        "answer": "Four conditions must be met: established perpendicular chest-to-back contact with weight loaded onto the opponent's back, seatbelt grip secured with one arm over the shoulder and one under the armpit with hands clasped, control or neutralization of the opponent's near-side arm to prevent posting, and sufficient base through your far-side leg to support controlled rotation. Missing any one of these prerequisites significantly reduces success rate and increases counter opportunities."
+        "answer": "Four conditions must be met: established perpendicular chest-to-back contact with weight loaded onto the opponent's back, seatbelt grip secured with one arm over the shoulder and one under the armpit with hands clasped, control or neutralization of the opponent's near-side arm to prevent posting, and sufficient base through your far-side leg to support controlled rotation. Missing any one of these prerequisites significantly reduces success rate and increases counter opportunities.",
+        "answer_line": "Weight, seatbelt, arm control, base",
+        "distractors": {
+          "plausible": [
+            "Just seatbelt grip is enough",
+            "Hooks in before seatbelt grip"
+          ],
+          "trap": [
+            "Rotate immediately, grip after"
+          ]
+        }
       },
       {
         "question": "What is the most critical mechanical detail that determines success or failure of this transition?",
-        "answer": "Maintaining unbroken chest-to-back contact throughout the entire rotation is the single most critical mechanical detail. Any separation between your chest and the opponent's back—even momentarily to insert hooks—creates the space necessary for granby rolls, sit-throughs, and turns that defeat the transition. The chest connection functions as continuous compression that pins the opponent's defensive options. Every other element of the technique serves this principle."
+        "answer": "Maintaining unbroken chest-to-back contact throughout the entire rotation is the single most critical mechanical detail. Any separation between your chest and the opponent's back—even momentarily to insert hooks—creates the space necessary for granby rolls, sit-throughs, and turns that defeat the transition. The chest connection functions as continuous compression that pins the opponent's defensive options. Every other element of the technique serves this principle.",
+        "answer_line": "Never break chest-to-back contact",
+        "distractors": {
+          "plausible": [
+            "Insert hooks before rotating",
+            "Grip the far arm tightly"
+          ],
+          "trap": [
+            "Break contact to insert hooks fast"
+          ]
+        }
       },
       {
         "question": "Your opponent posts their near arm outward as you begin rotating—how do you adjust?",
-        "answer": "An extended near arm is actually an opportunity rather than an obstacle. Use your underhook arm to scoop under their posted arm and begin trapping it for a crucifix entry, which is often higher percentage than continuing the back take. Alternatively, use heavy shoulder pressure to collapse the post inward, then immediately resume the rotation before they can re-establish the frame. The posted arm signals that they are prioritizing blocking your rotation over protecting their limbs—exploit this defensive commitment."
+        "answer": "An extended near arm is actually an opportunity rather than an obstacle. Use your underhook arm to scoop under their posted arm and begin trapping it for a crucifix entry, which is often higher percentage than continuing the back take. Alternatively, use heavy shoulder pressure to collapse the post inward, then immediately resume the rotation before they can re-establish the frame. The posted arm signals that they are prioritizing blocking your rotation over protecting their limbs—exploit this defensive commitment.",
+        "answer_line": "Scoop the arm for crucifix",
+        "distractors": {
+          "plausible": [
+            "Grab wrist and go for arm-lock",
+            "Pause, reset the pressure"
+          ],
+          "trap": [
+            "Let go of seatbelt to grab arm"
+          ]
+        }
       },
       {
         "question": "What grip configuration is required before initiating the rotation, and why?",
-        "answer": "The seatbelt grip is required—one arm threaded over the opponent's shoulder (the choking arm) and the other under their armpit (the control arm), with hands clasped together at the sternum. This grip is mandatory because it serves as the upper body anchor that prevents the opponent from spinning away during rotation. Without the seatbelt, your rotation causes you to slide off the opponent's back since there is no connection preventing lateral separation. The grip must be established before any hip movement begins."
+        "answer": "The seatbelt grip is required—one arm threaded over the opponent's shoulder (the choking arm) and the other under their armpit (the control arm), with hands clasped together at the sternum. This grip is mandatory because it serves as the upper body anchor that prevents the opponent from spinning away during rotation. Without the seatbelt, your rotation causes you to slide off the opponent's back since there is no connection preventing lateral separation. The grip must be established before any hip movement begins.",
+        "answer_line": "Seatbelt grip, clasped at sternum",
+        "distractors": {
+          "plausible": [
+            "One arm over shoulder only",
+            "Grip after hips start moving"
+          ],
+          "trap": [
+            "Underhook both arms, no seatbelt"
+          ]
+        }
       },
       {
         "question": "What is the primary direction of force you apply during the transition?",
-        "answer": "The primary force vector is downward and forward through your chest into the opponent's upper back. During the rotation phase, this vector shifts from purely downward perpendicular pressure to a diagonal downward-and-forward compression as you move behind them. You should never pull the opponent toward you during the transition—instead, you drive yourself into them. This forward pressure prevents them from creating distance, standing, or generating the space needed for any escape attempt."
+        "answer": "The primary force vector is downward and forward through your chest into the opponent's upper back. During the rotation phase, this vector shifts from purely downward perpendicular pressure to a diagonal downward-and-forward compression as you move behind them. You should never pull the opponent toward you during the transition—instead, you drive yourself into them. This forward pressure prevents them from creating distance, standing, or generating the space needed for any escape attempt.",
+        "answer_line": "Forward-down through the chest",
+        "distractors": {
+          "plausible": [
+            "Straight down only, no forward",
+            "Diagonal, but pull them in"
+          ],
+          "trap": [
+            "Pull opponent toward you"
+          ]
+        }
       },
       {
         "question": "Your opponent executes a sit-through toward your near hip as you begin inserting the first hook—what is your response?",
-        "answer": "Follow the sit-through direction with your seatbelt control, keeping your chest attached to their back as they rotate. The sit-through often exposes their back more than it defends it if you stay connected. Use your seatbelt to redirect their upper body back toward your hooks while your near-side leg follows their hip rotation. If they complete the sit-through fully, you may end up in a modified back control or transition to the opposite side. Never release the seatbelt to re-establish the perpendicular position—commit forward with them."
+        "answer": "Follow the sit-through direction with your seatbelt control, keeping your chest attached to their back as they rotate. The sit-through often exposes their back more than it defends it if you stay connected. Use your seatbelt to redirect their upper body back toward your hooks while your near-side leg follows their hip rotation. If they complete the sit-through fully, you may end up in a modified back control or transition to the opposite side. Never release the seatbelt to re-establish the perpendicular position—commit forward with them.",
+        "answer_line": "Follow it, keep chest attached",
+        "distractors": {
+          "plausible": [
+            "Block the roll with your hooks",
+            "Chase the hip with legs only"
+          ],
+          "trap": [
+            "Release seatbelt, reset position"
+          ]
+        }
       },
       {
         "question": "If the direct back take is blocked and you cannot complete the rotation, what chain attacks are available?",
-        "answer": "Three primary chains branch from a blocked back take: First, if the opponent posts their near arm to block rotation, transition to crucifix by trapping that arm with your legs. Second, if they ball up tightly, maintain cross body pressure and begin crab ride hook insertion on their near hip for an alternative back take pathway. Third, if they flatten to belly, thread for a clock choke or darce choke from the perpendicular position. The key principle is that every defensive reaction to the back take opens a different offensive pathway."
+        "answer": "Three primary chains branch from a blocked back take: First, if the opponent posts their near arm to block rotation, transition to crucifix by trapping that arm with your legs. Second, if they ball up tightly, maintain cross body pressure and begin crab ride hook insertion on their near hip for an alternative back take pathway. Third, if they flatten to belly, thread for a clock choke or darce choke from the perpendicular position. The key principle is that every defensive reaction to the back take opens a different offensive pathway.",
+        "answer_line": "Crucifix, crab ride, or clock choke",
+        "distractors": {
+          "plausible": [
+            "Switch sides and restart entry",
+            "Abandon and reset to guard"
+          ],
+          "trap": [
+            "Force the same rotation harder"
+          ]
+        }
       }
     ],
-    "safety_considerations": "Cross Body to Back Control is a positional transition without direct submission threat, making it relatively low risk for training partners. However, practitioners should be mindful of neck strain during the rotation phase, particularly if the opponent's head gets trapped between the top player's chest and the mat. Avoid driving excessive weight onto the opponent's cervical spine. During drilling, ensure the bottom player can tap or verbally communicate discomfort from pressure. When practicing with significant size mismatches, the larger player should moderate chest pressure to prevent rib compression injuries on the bottom player."
+    "safety_considerations": "Cross Body to Back Control is a positional transition without direct submission threat, making it relatively low risk for training partners. However, practitioners should be mindful of neck strain during the rotation phase, particularly if the opponent's head gets trapped between the top player's chest and the mat. Avoid driving excessive weight onto the opponent's cervical spine. During drilling, ensure the bottom player can tap or verbally communicate discomfort from pressure. When practicing with significant size mismatches, the larger player should moderate chest pressure to prevent rib compression injuries on the bottom player.",
+    "clips": [
+      {
+        "id": "aX87dPPVcGU",
+        "title": "Cross body ride back take vs turtle",
+        "by": "Paul McVeigh",
+        "vertical": false,
+        "channel": "Paul Mcveigh",
+        "duration": 107,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "h3C7rZzKHVY",
+        "title": "Cross body ride entry from knee shield",
+        "by": "Bowerhouse MMA",
+        "vertical": false,
+        "channel": "BOWERHOUSE MMA",
+        "duration": 25,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "4U7fN1DNk4A",
+        "title": "Cross body ride entry vs seated opponent",
+        "by": "Bowerhouse MMA",
+        "vertical": false,
+        "channel": "BOWERHOUSE MMA",
+        "duration": 38,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Cross Body to Back Control Defender",
@@ -380,23 +501,73 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that tells you the Cross Body to Back Control transition is being initiated?",
-        "answer": "The earliest cue is feeling the opponent's arm threading under your armpit to establish the seatbelt grip. This is the first required step before they can safely rotate behind you. If you feel this threading motion, immediately clamp your elbow tight to your rib to deny the underhook entry. Secondary cues include feeling the perpendicular pressure shift to a diagonal angle and sensing their hips beginning to walk behind you."
+        "answer": "The earliest cue is feeling the opponent's arm threading under your armpit to establish the seatbelt grip. This is the first required step before they can safely rotate behind you. If you feel this threading motion, immediately clamp your elbow tight to your rib to deny the underhook entry. Secondary cues include feeling the perpendicular pressure shift to a diagonal angle and sensing their hips beginning to walk behind you.",
+        "answer_line": "Arm threading under your armpit",
+        "distractors": {
+          "plausible": [
+            "Feeling hips shift diagonally",
+            "Weight suddenly increasing on back"
+          ],
+          "trap": [
+            "Waiting for hooks to feel it"
+          ]
+        }
       },
       {
         "question": "When is the best moment to attempt a sit-through escape during this transition?",
-        "answer": "The optimal sit-through timing is during the opponent's rotation phase, specifically when their weight shifts from perpendicular to diagonal as they walk their hips toward your back. This weight shift creates a momentary pressure gap on your near side because their center of gravity is moving away from you. This gap is your window—sit through toward their near hip in the opposite direction of their rotation. Attempting the sit-through before the rotation begins (when pressure is fully consolidated) or after hooks are inserted (when control is complete) both have significantly lower success rates."
+        "answer": "The optimal sit-through timing is during the opponent's rotation phase, specifically when their weight shifts from perpendicular to diagonal as they walk their hips toward your back. This weight shift creates a momentary pressure gap on your near side because their center of gravity is moving away from you. This gap is your window—sit through toward their near hip in the opposite direction of their rotation. Attempting the sit-through before the rotation begins (when pressure is fully consolidated) or after hooks are inserted (when control is complete) both have significantly lower success rates.",
+        "answer_line": "During the rotation weight shift",
+        "distractors": {
+          "plausible": [
+            "Before rotation, pressure is full",
+            "After hooks are fully inserted"
+          ],
+          "trap": [
+            "Sit through toward their far hip"
+          ]
+        }
       },
       {
         "question": "How do you chain defensive responses if your initial escape attempt fails?",
-        "answer": "Chain defenses by reading what the opponent does in response to your first attempt and immediately transitioning to the appropriate follow-up. If your sit-through is blocked, use the rotation momentum to attempt a granby roll in the opposite direction. If the granby is stuffed, immediately drive to standing before hooks can be inserted. If standing is denied, retighten your turtle and deny the seatbelt to reset. The key is continuous movement with each defense flowing into the next rather than pausing between attempts, which allows the opponent to re-consolidate control."
+        "answer": "Chain defenses by reading what the opponent does in response to your first attempt and immediately transitioning to the appropriate follow-up. If your sit-through is blocked, use the rotation momentum to attempt a granby roll in the opposite direction. If the granby is stuffed, immediately drive to standing before hooks can be inserted. If standing is denied, retighten your turtle and deny the seatbelt to reset. The key is continuous movement with each defense flowing into the next rather than pausing between attempts, which allows the opponent to re-consolidate control.",
+        "answer_line": "Chain moves, never pause",
+        "distractors": {
+          "plausible": [
+            "Only use the granby roll",
+            "Repeat the same defense twice"
+          ],
+          "trap": [
+            "Pause between each attempt"
+          ]
+        }
       },
       {
         "question": "Why is preventing the seatbelt grip more important than fighting hook insertion?",
-        "answer": "The seatbelt is the upper body anchor that keeps the opponent connected to your back regardless of what your legs and hips do. Without the seatbelt, the opponent slides off during rotation and hook insertion becomes irrelevant because they cannot maintain the position. With the seatbelt locked, they can repeatedly attempt hook insertion even if you clear individual hooks because the seatbelt keeps them attached. Preventing the seatbelt eliminates the foundation of the entire transition, while fighting hooks only addresses one control point while leaving the primary anchor intact."
+        "answer": "The seatbelt is the upper body anchor that keeps the opponent connected to your back regardless of what your legs and hips do. Without the seatbelt, the opponent slides off during rotation and hook insertion becomes irrelevant because they cannot maintain the position. With the seatbelt locked, they can repeatedly attempt hook insertion even if you clear individual hooks because the seatbelt keeps them attached. Preventing the seatbelt eliminates the foundation of the entire transition, while fighting hooks only addresses one control point while leaving the primary anchor intact.",
+        "answer_line": "Seatbelt is the true anchor",
+        "distractors": {
+          "plausible": [
+            "Hooks control the hips first",
+            "Both are equally critical"
+          ],
+          "trap": [
+            "Fight hooks, ignore the grip"
+          ]
+        }
       },
       {
         "question": "What is the most dangerous thing you can do when defending against this transition?",
-        "answer": "The most dangerous response is extending your near arm outward to post or frame against the opponent's rotation. An extended arm from turtle is the highest-value target in grappling because it invites crucifix entries where both arms are trapped and you face undefended choke attacks. The crucifix is arguably worse than back control because you have zero defensive capability. Keep both elbows welded to your ribs and use hip movement rather than arm extension for all defensive actions."
+        "answer": "The most dangerous response is extending your near arm outward to post or frame against the opponent's rotation. An extended arm from turtle is the highest-value target in grappling because it invites crucifix entries where both arms are trapped and you face undefended choke attacks. The crucifix is arguably worse than back control because you have zero defensive capability. Keep both elbows welded to your ribs and use hip movement rather than arm extension for all defensive actions.",
+        "answer_line": "Extending your arm to post",
+        "distractors": {
+          "plausible": [
+            "Turning your head away",
+            "Trying to stand up early"
+          ],
+          "trap": [
+            "Bridging hard to buck them off"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -419,6 +590,35 @@
         "phase": "Phase 4: Live Defense",
         "focus": "Full resistance positional sparring from cross body ride bottom",
         "description": "Positional sparring starting from cross body ride bottom. Defender scores points for preventing back take or escaping to guard. Attacker scores for completing the back take. Full resistance with realistic intensity and scrambling. Develops the timing, explosiveness, and decision-making needed for live application."
+      }
+    ],
+    "clips": [
+      {
+        "id": "waVFl1Ip6VU",
+        "title": "Turtle back escape by shrugging",
+        "by": "Andy Tong",
+        "vertical": false,
+        "channel": "Andy Tong",
+        "duration": 33,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "dHanNAj6B80",
+        "title": "Turtle escape from back control",
+        "by": "Adnan Sadiq",
+        "vertical": false,
+        "channel": "Adnan Sadiq",
+        "duration": 38,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "OltjLaTW3wQ",
+        "title": "Three ways to defend the back take",
+        "by": "Roberto \"Cyborg\" Abreu",
+        "vertical": false,
+        "channel": "Cyborg BJJ",
+        "duration": 89,
+        "verified": "2026-07-15"
       }
     ]
   }

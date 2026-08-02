@@ -27,7 +27,10 @@
   "target_area": "Carotid arteries and trachea",
   "starting_position": "Front Headlock",
   "from_position": "Anaconda Control/Top",
-  "success_rate": 65,
+  "success_rate": {
+    "gi": 65,
+    "nogi": 65
+  },
   "summary": "The Anaconda Choke is a front-headlock blood choke that traps the opponent's head and near arm in a figure-four, driving their own shoulder into one carotid while your forearm compresses the other.",
   "overview": "Within the modern front-headlock attack system, the Anaconda is the arm-in strangle you turn to when the opponent buries their head and keeps their near arm pinned to their body. Named for the constricting serpent, the submission wraps around the opponent's neck and trapped arm to create a powerful strangling mechanism, most commonly applied from turtle position or front headlock control when the opponent defends with their head down. Unlike the rear naked choke which attacks from behind, the Anaconda approaches from the side, threading one arm under the opponent's neck and opposite armpit while the other arm completes the figure-four grip.\n\nThe submission's effectiveness comes from the combined pressure of the choking arm against the carotid artery while the opponent's own shoulder is driven into their opposite carotid. This dual-sided pressure creates a rapid loss of consciousness if not defended immediately. The Anaconda is particularly effective in no-gi grappling where the absence of collar grips forces opponents to defend with posture, creating the head-down position ideal for this attack.\n\nThe technique has become a staple in modern BJJ competition, with the Anaconda-to-Darce chain representing one of the highest-percentage front headlock attack systems available. Mastering the Anaconda requires understanding the precise arm threading depth, the critical role of the opponent's trapped shoulder in creating bilateral compression, and the rolling mechanics that generate finishing pressure through hip drive rather than arm strength alone.",
   "safety_considerations": {
@@ -224,6 +227,44 @@
       "variation_name": "Standing Anaconda Variation",
       "description": "Secure anaconda lock while both you and opponent are standing or in combat base. Instead of rolling, use your free hand to post on opponent's far hip or back of knee. Drive your choking shoulder downward while lifting with your hips. This creates severe compression without requiring ground transition. Particularly effective in no-gi or MMA contexts where staying standing has strategic value.",
       "when_to_use": "In scrambles where both grapplers are standing; when you want to avoid guard pull or bottom position; against opponents with dangerous guard games; in MMA contexts where ground fighting is disadvantageous"
+    }
+  ],
+  "clips": [
+    {
+      "id": "DHYmDsncdS8",
+      "title": "Anaconda choke finish",
+      "by": "Marcelo Garcia",
+      "vertical": false,
+      "channel": "forlogosVideos",
+      "duration": 126,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "RbkOnRb2lvA",
+      "title": "Anaconda choke",
+      "by": "Ninja Pinto",
+      "vertical": false,
+      "channel": "Ninja Pinto BJJ",
+      "duration": 49,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "1e2GPOUYR-o",
+      "title": "Fix your anaconda chokes",
+      "by": "Lycan",
+      "vertical": false,
+      "channel": "Lycan",
+      "duration": 41,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "dr66s8QK9_g",
+      "title": "Anaconda finish details, S-grip",
+      "by": "Ben Eddy",
+      "vertical": false,
+      "channel": "Ben Eddy Bravo",
+      "duration": 96,
+      "verified": "2026-07-14"
     }
   ]
 }

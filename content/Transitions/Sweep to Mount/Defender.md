@@ -148,6 +148,43 @@ description: "How to defend against Sweep to Mount in BJJ. Recognition cues, def
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Sweep to Mount (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Escapes from bottom",
+      "description": "Sweep to Mount (Defender) film study: Escapes from bottom, taught by Marcelo Garcia.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/xMYkejkc2BQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/xMYkejkc2BQ",
+      "url": "https://www.youtube.com/watch?v=xMYkejkc2BQ",
+      "creator": { "@type": "Person", "name": "Marcelo Garcia" },
+      "duration": "PT244S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Late arm-in guillotine defense",
+      "description": "Sweep to Mount (Defender) film study: Late arm-in guillotine defense, taught by Noel Danforth.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/fYE1jgWfIgY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/fYE1jgWfIgY",
+      "url": "https://www.youtube.com/watch?v=fYE1jgWfIgY",
+      "creator": { "@type": "Person", "name": "Noel Danforth" },
+      "duration": "PT188S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -161,6 +198,34 @@ Defensive timing is paramount. The sweep has a specific loading phase where the 
 **Opponent's Starting Position**: [[Positions/Hindulotine]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Sweep to Mount (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=xMYkejkc2BQ)
+
+<p class="clip-credit"><strong>Escapes from bottom</strong> — taught by Marcelo Garcia · 4:04 · <a href="https://www.youtube.com/watch?v=xMYkejkc2BQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=fYE1jgWfIgY)
+
+<p class="clip-credit"><strong>Late arm-in guillotine defense</strong> — taught by Noel Danforth · 3:08 · <a href="https://www.youtube.com/watch?v=fYE1jgWfIgY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

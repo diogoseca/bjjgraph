@@ -154,6 +154,54 @@ description: "How to defend against the Armbar from Back Transition in BJJ. Reco
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Armbar from Back Transition (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Armbar escape when they are close to finishing",
+      "description": "Armbar from Back Transition (Defender) film study: Armbar escape when they are close to finishing, taught by Matt Arroyo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/kNdKfUdgO4I/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/kNdKfUdgO4I",
+      "url": "https://www.youtube.com/watch?v=kNdKfUdgO4I",
+      "creator": { "@type": "Person", "name": "Matt Arroyo" },
+      "duration": "PT92S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "How to Defend an Armbar",
+      "description": "Armbar from Back Transition (Defender) film study: How to Defend an Armbar, taught by Gordon Ryan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/CDpv10qYFLo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/CDpv10qYFLo",
+      "url": "https://www.youtube.com/watch?v=CDpv10qYFLo",
+      "creator": { "@type": "Person", "name": "Gordon Ryan" },
+      "duration": "PT274S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Late Stage Armbar Defense",
+      "description": "Armbar from Back Transition (Defender) film study: Late Stage Armbar Defense, taught by Less Impressed More Involved.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Es_1o8wh17M/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Es_1o8wh17M",
+      "url": "https://www.youtube.com/watch?v=Es_1o8wh17M",
+      "creator": { "@type": "Person", "name": "Less Impressed More Involved" },
+      "duration": "PT485S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -167,6 +215,42 @@ Advanced defenders use the transition attempt as an escape opportunity. When the
 **Opponent's Starting Position**: [[Positions/Back Control/Standing Back Control]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Armbar from Back Transition (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=kNdKfUdgO4I)
+
+<p class="clip-credit"><strong>Armbar escape when they are close to finishing</strong> — taught by Matt Arroyo · 1:32 · <a href="https://www.youtube.com/watch?v=kNdKfUdgO4I" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=CDpv10qYFLo)
+
+<p class="clip-credit"><strong>How to Defend an Armbar</strong> — taught by Gordon Ryan · 4:34 · <a href="https://www.youtube.com/watch?v=CDpv10qYFLo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Es_1o8wh17M)
+
+<p class="clip-credit"><strong>Late Stage Armbar Defense</strong> — taught by Less Impressed More Involved · 8:05 · <a href="https://www.youtube.com/watch?v=Es_1o8wh17M" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

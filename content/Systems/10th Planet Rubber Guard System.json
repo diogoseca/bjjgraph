@@ -376,35 +376,115 @@
   "flashcards": [
     {
       "question": "What problem does the 10th Planet Rubber Guard System solve for no-gi grapplers?",
-      "answer": "It replaces gi collar and sleeve grips with leg-based controls, letting you break and hold an opponent's posture from closed guard when there is no fabric to grip in no-gi competition."
+      "answer": "It replaces gi collar and sleeve grips with leg-based controls, letting you break and hold an opponent's posture from closed guard when there is no fabric to grip in no-gi competition.",
+      "answer_line": "Legs replace gi grips for control",
+      "distractors": {
+        "plausible": [
+          "Extra submissions with no gi",
+          "Makes standup grappling easier"
+        ],
+        "trap": [
+          "Lets you skip posture control"
+        ]
+      }
     },
     {
       "question": "What is Mission Control and why is it called the base camp of the system?",
-      "answer": "Mission Control is the foundational position where your shin crosses behind the opponent's head and your hand secures the shin or ankle, breaking posture forward while freeing your other hand to attack or advance to tighter controls."
+      "answer": "Mission Control is the foundational position where your shin crosses behind the opponent's head and your hand secures the shin or ankle, breaking posture forward while freeing your other hand to attack or advance to tighter controls.",
+      "answer_line": "Shin crosses head, hand locks shin",
+      "distractors": {
+        "plausible": [
+          "Both hooks in for hip control",
+          "Overhook locks near-side arm"
+        ],
+        "trap": [
+          "Release shin grip to posture up"
+        ]
+      }
     },
     {
       "question": "How do you progress from Mission Control to New York?",
-      "answer": "From Mission Control you grab your own shin or ankle with both hands, creating an extremely tight lock that stops the opponent from posturing up and opens gogoplata attacks and back-take pathways."
+      "answer": "From Mission Control you grab your own shin or ankle with both hands, creating an extremely tight lock that stops the opponent from posturing up and opens gogoplata attacks and back-take pathways.",
+      "answer_line": "Grab own shin with both hands",
+      "distractors": {
+        "plausible": [
+          "Switch to overhook for triangle",
+          "Post on hip to angle off"
+        ],
+        "trap": [
+          "Release grip to hunt gogoplata"
+        ]
+      }
     },
     {
       "question": "Which submission is most associated with the New York position?",
-      "answer": "The Gogoplata is the signature attack from New York, because the tight posture-breaking lock isolates the head and neck and lets you bring a foot across the throat for the finish."
+      "answer": "The Gogoplata is the signature attack from New York, because the tight posture-breaking lock isolates the head and neck and lets you bring a foot across the throat for the finish.",
+      "answer_line": "Gogoplata",
+      "distractors": {
+        "plausible": [
+          "Triangle choke",
+          "Omoplata"
+        ],
+        "trap": [
+          "Kimura grip finish"
+        ]
+      }
     },
     {
       "question": "Why does flexibility matter in Rubber Guard, and what should less flexible players do?",
-      "answer": "Hip and hamstring flexibility let the leg reach high on the opponent's back, but less mobile practitioners can use modified leg positions that still achieve the functional goal of breaking and holding posture."
+      "answer": "Hip and hamstring flexibility let the leg reach high on the opponent's back, but less mobile practitioners can use modified leg positions that still achieve the functional goal of breaking and holding posture.",
+      "answer_line": "Use modified positions, same goal",
+      "distractors": {
+        "plausible": [
+          "Skip rubber guard entirely",
+          "Only chase submissions, not control"
+        ],
+        "trap": [
+          "Force high leg placement anyway"
+        ]
+      }
     },
     {
       "question": "What is the core idea behind the system's submission chains?",
-      "answer": "Each defended attack opens the next: a defended triangle flows into an omoplata, a defended omoplata opens a gogoplata or back take, keeping constant offensive pressure rather than resetting to neutral."
+      "answer": "Each defended attack opens the next: a defended triangle flows into an omoplata, a defended omoplata opens a gogoplata or back take, keeping constant offensive pressure rather than resetting to neutral.",
+      "answer_line": "Defended attacks chain to next",
+      "distractors": {
+        "plausible": [
+          "Reset to neutral after each defense",
+          "Only chain triangle to armbar"
+        ],
+        "trap": [
+          "Abandon control after defense"
+        ]
+      }
     },
     {
       "question": "What is a common mistake practitioners make when learning Rubber Guard?",
-      "answer": "Rushing to submissions before establishing solid control, which sacrifices position and lets the opponent posture out or pass; control must be locked in before any attack is launched."
+      "answer": "Rushing to submissions before establishing solid control, which sacrifices position and lets the opponent posture out or pass; control must be locked in before any attack is launched.",
+      "answer_line": "Attacking before locking control",
+      "distractors": {
+        "plausible": [
+          "Playing too passively on bottom",
+          "Overcommitting to gogoplata early"
+        ],
+        "trap": [
+          "Not using enough leg flexibility"
+        ]
+      }
     },
     {
       "question": "How does a Rubber Guard player avoid getting passed while playing high guard?",
-      "answer": "By retaining fundamental guard-recovery instincts and abandoning the system the moment control breaks down, only entering Rubber Guard from strong initial control instead of as a desperation recovery move."
+      "answer": "By retaining fundamental guard-recovery instincts and abandoning the system the moment control breaks down, only entering Rubber Guard from strong initial control instead of as a desperation recovery move.",
+      "answer_line": "Abandon system if control breaks",
+      "distractors": {
+        "plausible": [
+          "Always finish once committed",
+          "Rely on flexibility to escape"
+        ],
+        "trap": [
+          "Hold rubber guard at all costs"
+        ]
+      }
     }
   ]
 }

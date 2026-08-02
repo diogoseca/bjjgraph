@@ -20,8 +20,8 @@ description: "Master North-South top position in BJJ. Complete guide to establis
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Execute North-South Choke",
-      "text": "From this position, attempt North-South Choke. This technique is attempted in 13% of exchanges from this position.",
+      "name": "Execute North-South Choke from North-South",
+      "text": "From this position, attempt North-South Choke from North-South. This technique is attempted in 18% of exchanges from this position.",
       "position": 1
     },
     {
@@ -33,25 +33,25 @@ description: "Master North-South top position in BJJ. Complete guide to establis
     {
       "@type": "HowToStep",
       "name": "Execute North-South to Kimura",
-      "text": "From this position, attempt North-South to Kimura. This technique is attempted in 14% of exchanges from this position.",
+      "text": "From this position, attempt North-South to Kimura. This technique is attempted in 19% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Armbar from North-South",
-      "text": "From this position, attempt Armbar from North-South. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Armbar from North-South. This technique is attempted in 6% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Side Control to North-South",
-      "text": "From this position, attempt Side Control to North-South. This technique is attempted in 8% of exchanges from this position.",
+      "text": "From this position, attempt Side Control to North-South. This technique is attempted in 10% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Americana",
-      "text": "From this position, attempt Americana. This technique is attempted in 10% of exchanges from this position.",
+      "name": "Execute Americana from North-South",
+      "text": "From this position, attempt Americana from North-South. This technique is attempted in 4% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -116,6 +116,8 @@ description: "Master North-South top position in BJJ. Complete guide to establis
   "@type": "WebPage",
   "name": "North-South Top",
   "description": "Master North-South top position in BJJ. Complete guide to establishing crushing pressure control, submission attacks, and positional transitions from this dominant pinning position.",
+  "alternateName": ["Kami Shiho Gatame", "North South Position", "69 Position"],
+  "disambiguatingDescription": "Often confused with North-South Choke \u2014 the North-South Choke is a submission finished from this position, not the position itself.",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -153,8 +155,60 @@ description: "Master North-South top position in BJJ. Complete guide to establis
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "North-South (Top) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "North-South choke",
+      "description": "North-South (Top) film study: North-South choke, taught by Marcelo Garcia.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/z3RNUfHfiSM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/z3RNUfHfiSM",
+      "url": "https://www.youtube.com/watch?v=z3RNUfHfiSM",
+      "creator": { "@type": "Person", "name": "Marcelo Garcia" },
+      "duration": "PT20S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "North-South pressure choke",
+      "description": "North-South (Top) film study: North-South pressure choke, taught by Nick Unander.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Fdq-j0AUVtc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Fdq-j0AUVtc",
+      "url": "https://www.youtube.com/watch?v=Fdq-j0AUVtc",
+      "creator": { "@type": "Person", "name": "Nick Unander" },
+      "duration": "PT99S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "North-South choke as a pinning tool",
+      "description": "North-South (Top) film study: North-South choke as a pinning tool, taught by Craig Jones.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/SPXanCnoBYA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/SPXanCnoBYA",
+      "url": "https://www.youtube.com/watch?v=SPXanCnoBYA",
+      "creator": { "@type": "Person", "name": "Craig Jones" },
+      "duration": "PT135S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<aside class="entity-relations">
+<p class="also-known-as"><em>Also known as:</em> <strong>Kami Shiho Gatame</strong>, <strong>North South Position</strong>, <strong>69 Position</strong> <span class="role-hint">(top)</span></p>
+<p class="often-confused-with"><em>Often confused with</em> <strong>[[Submissions/North-South Choke|North-South Choke]]</strong> — the North-South Choke is a submission finished from this position, not the position itself</p>
+</aside>
 <section id="overview" class="content-section">
 
 North-South top is one of Brazilian Jiu-Jitsu's most dominant pinning positions, characterized by perpendicular chest-to-chest alignment where you distribute your entire body weight across your opponent's upper body while your heads point in opposite directions. This position offers exceptional control with relatively low energy expenditure once properly established, making it ideal for recovering stamina while maintaining offensive pressure.
@@ -167,9 +221,47 @@ The position serves as a critical checkpoint during guard passing sequences and 
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch North-South (Top) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=z3RNUfHfiSM)
+
+<p class="clip-credit"><strong>North-South choke</strong> — taught by Marcelo Garcia · 0:20 · <a href="https://www.youtube.com/watch?v=z3RNUfHfiSM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Fdq-j0AUVtc)
+
+<p class="clip-credit"><strong>North-South pressure choke</strong> — taught by Nick Unander · 1:39 · <a href="https://www.youtube.com/watch?v=Fdq-j0AUVtc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=SPXanCnoBYA)
+
+<p class="clip-credit"><strong>North-South choke as a pinning tool</strong> — taught by Craig Jones · 2:15 · <a href="https://www.youtube.com/watch?v=SPXanCnoBYA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
+
 <section id="state-invariants" class="content-section">
 
 ## Position Definition
+
+<p class="section-subtitle">What is North-South (Top)?</p>
 
 - Top player's chest maintains continuous downward pressure across bottom player's chest and shoulder area, with body weight distributed to compress their rib cage and restrict breathing while heads align perpendicular to each other
 - Top player's hips remain relatively low and base-wide to prevent bridging escapes, with weight forward over opponent's upper body rather than sitting back toward their legs where control weakens significantly
@@ -182,6 +274,8 @@ The position serves as a critical checkpoint during guard passing sequences and 
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before playing North-South (Top)?</p>
+
 - Bottom player's back is flat on mat with guard passed or position entered from side control
 - Top player has achieved perpendicular body alignment with chest over opponent's chest
 - Top player controls or restricts at least one of bottom player's arms
@@ -193,6 +287,8 @@ The position serves as a critical checkpoint during guard passing sequences and 
 <section id="key-principles" class="content-section">
 
 ## Key Offensive Principles
+
+<p class="section-subtitle">What are the key principles for attacking from North-South?</p>
 
 - Distribute body weight across opponent's chest and shoulders, not stomach or hips
 - Keep chest pressure constant while hands work for arm control or submissions
@@ -209,29 +305,31 @@ The position serves as a critical checkpoint during guard passing sequences and 
 
 ## Decision Making from This Position
 
+<p class="section-subtitle">What should you do from North-South (Top)?</p>
+
 **If opponent maintains flat back with arms controlled:**
-- Execute **[[North-South choke setup]]** → [[game-over]] (Probability: 55%)
-- Execute **[[Maintain pressure and control]]** → [[Positions/North-South]] (Probability: 70%)
+- Execute **[[North-South choke setup/Attacker|North-South choke setup]]** → [[game-over]] (Probability: 55%)
+- Execute **[[Maintain pressure and control/Attacker|Maintain pressure and control]]** → [[Positions/North-South]] (Probability: 70%)
 
 
 **If opponent creates frames and begins hip escape:**
-- Execute **[[Transition to mount]]** → [[Positions/Mount]] (Probability: 65%)
-- Execute **[[Switch to side control]]** → [[Positions/Side Control]] (Probability: 60%)
+- Execute **[[Transition to mount/Attacker|Transition to mount]]** → [[Positions/Mount]] (Probability: 65%)
+- Execute **[[Switch to side control/Attacker|Switch to side control]]** → [[Positions/Side Control]] (Probability: 60%)
 
 
 **If opponent exposes near arm during escape attempt:**
-- Execute **[[Kimura grip and control]]** → [[Positions/Kimura Trap]] (Probability: 60%)
-- Execute **[[Americana lock]]** → [[game-over]] (Probability: 45%)
+- Execute **[[Kimura grip and control/Attacker|Kimura grip and control]]** → [[Positions/Kimura Trap]] (Probability: 60%)
+- Execute **[[Americana lock/Attacker|Americana lock]]** → [[game-over]] (Probability: 45%)
 
 
 **If opponent turns to turtle:**
-- Execute **[[Take the back]]** → [[Positions/Back Control]] (Probability: 70%)
-- Execute **[[Return to side control]]** → [[Positions/Side Control]] (Probability: 65%)
+- Execute **[[Take the back/Attacker|Take the back]]** → [[Positions/Back Control]] (Probability: 70%)
+- Execute **[[Return to side control/Attacker|Return to side control]]** → [[Positions/Side Control]] (Probability: 65%)
 
 
 **If opponent extends both arms for frames:**
-- Execute **[[North-South choke]]** → [[game-over]] (Probability: 50%)
-- Execute **[[Armbar setup]]** → [[game-over]] (Probability: 40%)
+- Execute **[[North-South choke/Attacker|North-South choke]]** → [[game-over]] (Probability: 50%)
+- Execute **[[Armbar setup/Attacker|Armbar setup]]** → [[game-over]] (Probability: 40%)
 
 
 
@@ -241,6 +339,8 @@ The position serves as a critical checkpoint during guard passing sequences and 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Offensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when attacking from North-South?</p>
 
 ### 1. Sitting weight back toward opponent's hips instead of forward over chest
 
@@ -285,6 +385,8 @@ The position serves as a critical checkpoint during guard passing sequences and 
 
 ## Training Drills for Attacks
 
+<p class="section-subtitle">How do you train North-South attacks?</p>
+
 ### North-South Control Maintenance
 
 Maintain North-South position against progressively resistant partner for timed rounds. Partner works systematic escapes while you focus on weight distribution, arm control, and pressure maintenance. Reset each time opponent escapes. Develop endurance and positional awareness.
@@ -318,38 +420,6 @@ Maintain maximum chest pressure in North-South while partner attempts only frame
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the optimal weight distribution for maintaining North-South control?
-**A**: Your body weight should be distributed forward across your opponent's chest and shoulders, not sitting back toward their hips or stomach. The pressure point should be your sternum driving into their upper chest area, compressing their rib cage to restrict breathing. Keep your hips relatively low and base wide to prevent bridging escapes while maintaining the forward weight commitment. Think of draping your torso over theirs like a heavy blanket rather than sitting on them.
-
-**Q2**: Your opponent starts creating frames with their forearms against your chest - what adjustment do you make?
-**A**: When frames are being established, you have two primary options: either collapse the frames by driving your chest pressure forward and angling your shoulders to slip past their forearms, or recognize this as a signal to transition to mount or side control. Fighting against established frames wastes energy - instead, use their frame creation as a trigger to advance position by stepping over to mount when they commit both arms to framing. Their framing arms cannot simultaneously block your leg step-over.
-
-**Q3**: What are the essential grip priorities from North-South top?
-**A**: Priority one is controlling at least one of your opponent's arms through underhooks, overhooks, or direct wrist control to prevent defensive framing. Secondary grips depend on your objective: for the North-South choke, control their far arm while positioning for the choke; for kimura attacks, isolate and feed the near arm across their body. Never allow both arms to remain free and active simultaneously, as this creates compounding frame problems.
-
-**Q4**: How do you shut down the primary bridge and roll escape attempt from North-South?
-**A**: Widen your base immediately when you feel them begin to bridge by sprawling your legs outward and lowering your hips. Your head should stay heavy on the mat beside their hip to block their turning momentum. Keep weight forward over their chest - if you're sitting back, you're vulnerable. The key is anticipating the bridge by feeling their hip movement and pre-emptively adjusting your base before they generate momentum. Their bridge must overcome both your weight and your base width.
-
-**Q5**: Your opponent explosively bridges and you feel yourself being lifted - what is your immediate response?
-**A**: Immediately sprawl your hips back and widen your base, using your hands to post on the mat if needed. Ride the bridge rather than fighting it directly - their bridge will fail within 1-2 seconds due to fatigue. As they return to the mat, immediately reestablish your chest pressure and tighten your arm control. If the bridge was strong enough to create space, consider transitioning to mount during their descent when their energy is momentarily depleted.
-
-**Q6**: How do you manage energy while maintaining North-South for extended periods?
-**A**: North-South should be a low-energy position when maintained correctly. Use skeletal structure rather than muscular effort - let your body weight create pressure rather than actively pushing. Keep your breathing rhythmic and controlled. Avoid constant movement; instead, settle your weight and only adjust when your opponent moves. The position is designed for recovery while controlling, so relax your non-essential muscles and let gravity do the work. Your body should feel heavy and relaxed, not tense.
-
-**Q7**: Your opponent partially escapes and gets one knee between you - how do you recover full control?
-**A**: Address the knee immediately by hip switching to clear it before they can establish a full half guard frame. Drive your chest pressure forward while using your hand to push their knee down and away. If the knee is established, transition to passing their half guard rather than trying to force back to North-South. You can also switch your angle and attack side control on the opposite side where they haven't established the knee shield.
-
-**Q8**: What determines whether you should hunt submissions from North-South versus transitioning to mount?
-**A**: Transition to mount when: your opponent has established strong defensive frames, they're defending their neck well making the North-South choke unavailable, or you feel their escape is progressing despite your control. Hunt submissions when: their arms are exposed or isolated, their neck is available for the choke, they're flat on their back without active frames, or they're exhausted and not actively defending. The decision also depends on the rule set - mount scores additional points, so in competition you may prioritize advancement over submission attempts.
-
-
-
-</section>
-
 
 <section id="position-metrics" class="content-section">
 
@@ -373,12 +443,25 @@ Maintain maximum chest pressure in North-South while partner attempts only frame
 - **[[Positions/Side Control]]** - Common entry position and alternative control option
 - **[[Positions/Mount]]** - Primary transition target for positional advancement
 - **[[Positions/Knee on Belly]]** - Alternative pressure position with different control dynamics
-- **[[Transitions/North-South Choke]]** - Primary submission from this position
+- **[[Submissions/North-South Choke]]** - Primary submission from this position
 - **[[Transitions/North-South to Kimura]]** - High-percentage submission transition
 - **[[Transitions/Side Control to Mount]]** - Primary advancement technique from North-South
 - **[[Positions/Back Control]]** - Available when opponent turns to turtle
 - **[[Positions/Kimura Trap]]** - Control position for finishing arm attacks
 
+
+</section>
+
+<section id="related-systems" class="content-section related-systems">
+
+## Train this with a System
+
+<div class="related-systems-grid">
+<a class="system-card" href="/Systems/Submission-Clinic-System" data-cta="related-system-card" data-system-slug="systems/submission-clinic-system" data-system-name="Submission Clinic System" data-member-count="30"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Submission Clinic System</span><span class="system-card__unlocks-badge">Unlocks 30 techniques</span><span class="system-card__blurb">Transition position connecting side control to mount with kimura access</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Competition-Scoring-Strategy" data-cta="related-system-card" data-system-slug="systems/competition-scoring-strategy" data-system-name="Competition Scoring Strategy" data-member-count="24"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Competition Scoring Strategy</span><span class="system-card__unlocks-badge">Unlocks 24 techniques</span><span class="system-card__blurb">Control position for lead preservation and submission threats</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Roger-Gracie-Fundamental-System" data-cta="related-system-card" data-system-slug="systems/roger-gracie-fundamental-system" data-system-name="Roger Gracie Fundamental System" data-member-count="22"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Roger Gracie Fundamental System</span><span class="system-card__unlocks-badge">Unlocks 22 techniques</span><span class="system-card__blurb">Control position reached during certain passing sequences and mount escape defenses</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Kimura-Trap-System" data-cta="related-system-card" data-system-slug="systems/kimura-trap-system" data-system-name="Kimura Trap System" data-member-count="21"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Kimura Trap System</span><span class="system-card__unlocks-badge">Unlocks 21 techniques</span><span class="system-card__blurb">Transitional position offering kimura opportunities during passing</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Submission Chain</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+</div>
 
 </section>
 

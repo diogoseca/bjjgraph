@@ -148,6 +148,43 @@ description: "How to defend against Leg Drag While Clearing Lapel in BJJ. Recogn
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Leg Drag While Clearing Lapel (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Matrix defense against the leg drag",
+      "description": "Leg Drag While Clearing Lapel (Defender) film study: Matrix defense against the leg drag, taught by BJJ Lab Zurich.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/QCEdvqfWZMI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/QCEdvqfWZMI",
+      "url": "https://www.youtube.com/watch?v=QCEdvqfWZMI",
+      "creator": { "@type": "Person", "name": "BJJ Lab Zurich" },
+      "duration": "PT96S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Guard retention into the back take",
+      "description": "Leg Drag While Clearing Lapel (Defender) film study: Guard retention into the back take, taught by Cobrinha.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/X2JY-yMeGo8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/X2JY-yMeGo8",
+      "url": "https://www.youtube.com/watch?v=X2JY-yMeGo8",
+      "creator": { "@type": "Person", "name": "Cobrinha" },
+      "duration": "PT46S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -161,6 +198,34 @@ The most dangerous moment is when the attacker has controlled your gripping hand
 **Opponent's Starting Position**: [[Positions/Lapel Guard]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Leg Drag While Clearing Lapel (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=QCEdvqfWZMI)
+
+<p class="clip-credit"><strong>Matrix defense against the leg drag</strong> — taught by BJJ Lab Zurich · 1:36 · <a href="https://www.youtube.com/watch?v=QCEdvqfWZMI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=X2JY-yMeGo8)
+
+<p class="clip-credit"><strong>Guard retention into the back take</strong> — taught by Cobrinha · 0:46 · <a href="https://www.youtube.com/watch?v=X2JY-yMeGo8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

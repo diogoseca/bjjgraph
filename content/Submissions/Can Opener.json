@@ -16,7 +16,10 @@
   "target_area": "Cervical spine and neck muscles",
   "starting_position": "Closed Guard",
   "from_position": "Closed Guard/Top",
-  "success_rate": 30,
+  "success_rate": {
+    "gi": 30,
+    "nogi": 30
+  },
   "variant_uniqueness": "Cervical spine compression from inside closed guard",
   "summary": "The Can Opener is a cervical neck crank applied from inside an opponent's closed guard, interlacing the hands behind their head and driving the forearms down to bend the neck forward—used mainly to force the guard open, and banned under most competition rulesets.",
   "overview": "The Can Opener is a neck crank technique applied from within an opponent's closed guard, primarily used as a guard-breaking mechanism rather than a finishing submission. The technique involves interlacing fingers behind the opponent's head and driving the forearms into their neck while pulling the head forward and down, creating intense pressure on the cervical spine and neck muscles. This compression submission is banned in most Brazilian Jiu-Jitsu competitions under IBJJF rules and is considered a controversial technique due to its high injury potential. While it can be effective at forcing an opponent to open their guard to relieve pressure, the Can Opener carries significant risks including neck muscle strains, cervical spine compression injuries, and potential disc damage. Modern BJJ practitioners typically learn this technique primarily for defensive purposes - understanding how to recognize and counter it - rather than as an offensive weapon. The technique's effectiveness comes from the mechanical disadvantage created when the defender's own guard restricts their ability to posture away from the pressure. However, higher-level practitioners develop strong defensive responses including grip fighting, posture control, and guard adjustments that significantly reduce the Can Opener's success rate. Understanding this technique is essential for comprehensive grappling education, but its application should be severely restricted or avoided entirely in training environments.",
@@ -171,6 +174,26 @@
       "variation_name": "LEGAL ALTERNATIVE: Standing Guard Break",
       "description": "Stand up in guard, establish solid posture, control hips, and break guard through proper leg positioning and pressure direction. No neck involvement.",
       "when_to_use": "ALWAYS prefer this method. Legal in all competitions, safe for training partners, effective at all skill levels, and develops proper technical fundamentals."
+    }
+  ],
+  "clips": [
+    {
+      "id": "_-NGlUCnHy0",
+      "title": "How to Do a Can Opener",
+      "by": "MMA Submissions",
+      "vertical": false,
+      "channel": "thuật võ",
+      "duration": 126,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "FGPGkKnY_Mg",
+      "title": "Can Opener Cervical Choke",
+      "by": "Marcus Soares",
+      "vertical": false,
+      "channel": "Marcus Soares Brazilian Jiu Jitsu Academy",
+      "duration": 73,
+      "verified": "2026-07-14"
     }
   ]
 }

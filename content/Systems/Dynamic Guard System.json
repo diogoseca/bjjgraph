@@ -307,7 +307,7 @@
       "relationship": "Counter-movement option when switching out of De La Riva engagement"
     },
     {
-      "name": "Arm Drag from Standing",
+      "name": "Arm Drag",
       "content_type": "Transition",
       "relationship": "Entry method for initiating dynamic guard engagement and back exposure"
     },
@@ -340,35 +340,115 @@
   "flashcards": [
     {
       "question": "What is the core philosophy of the Dynamic Guard System?",
-      "answer": "It treats the guard as a continuously moving target, using constant position switching, grip fighting, and angle changes to deny passers the stable grips and pressure they need to complete a pass."
+      "answer": "It treats the guard as a continuously moving target, using constant position switching, grip fighting, and angle changes to deny passers the stable grips and pressure they need to complete a pass.",
+      "answer_line": "Keep moving, deny stable grips",
+      "distractors": {
+        "plausible": [
+          "Lock into your best guard",
+          "Match opponent's pace exactly"
+        ],
+        "trap": [
+          "Freeze up to conserve energy"
+        ]
+      }
     },
     {
       "question": "How does the Dynamic Guard System prevent opponents from passing?",
-      "answer": "By constantly changing guard types, grips, and angles, it forces the passer into reactive defense and never lets them settle into a preferred passing sequence or establish stabilizing pressure."
+      "answer": "By constantly changing guard types, grips, and angles, it forces the passer into reactive defense and never lets them settle into a preferred passing sequence or establish stabilizing pressure.",
+      "answer_line": "Never let passer settle in",
+      "distractors": {
+        "plausible": [
+          "Overwhelm with speed alone",
+          "Use strongest guard only"
+        ],
+        "trap": [
+          "Grip fight until exhausted"
+        ]
+      }
     },
     {
       "question": "What is the Guard Switching Matrix component?",
-      "answer": "A decision framework of guard-to-guard transition trees that tells you which guard to switch to based on the opponent's grips, posture, and pressure direction, while preserving frames throughout."
+      "answer": "A decision framework of guard-to-guard transition trees that tells you which guard to switch to based on the opponent's grips, posture, and pressure direction, while preserving frames throughout.",
+      "answer_line": "Transition tree based on grips",
+      "distractors": {
+        "plausible": [
+          "Random guard rotation drill",
+          "Switch based on the clock"
+        ],
+        "trap": [
+          "Drop frames to switch faster"
+        ]
+      }
     },
     {
       "question": "Why is grip fighting central to this system?",
-      "answer": "Grips dictate distance, pace, and direction of engagement; winning the grip battle lets you control the exchange, break passing grips early, and set up sweeps before the passer can advance."
+      "answer": "Grips dictate distance, pace, and direction of engagement; winning the grip battle lets you control the exchange, break passing grips early, and set up sweeps before the passer can advance.",
+      "answer_line": "Grips control distance and pace",
+      "distractors": {
+        "plausible": [
+          "Break grips only near the end",
+          "Grips matter less than hips"
+        ],
+        "trap": [
+          "Let opponent grip freely"
+        ]
+      }
     },
     {
       "question": "What is the most common mistake when applying the Dynamic Guard System?",
-      "answer": "Moving constantly without purpose, which burns energy and opens passing lanes. Effective movement is deliberate and reactive, switching only when the opponent's grips or pressure demand it."
+      "answer": "Moving constantly without purpose, which burns energy and opens passing lanes. Effective movement is deliberate and reactive, switching only when the opponent's grips or pressure demand it.",
+      "answer_line": "Moving without purpose",
+      "distractors": {
+        "plausible": [
+          "Not switching guards enough",
+          "Focusing on subs too early"
+        ],
+        "trap": [
+          "Committing hard to one grip"
+        ]
+      }
     },
     {
       "question": "How should a practitioner drill this system in the early stages?",
-      "answer": "Begin with solo hip-mobility and switching drills, then add cooperative feeds of specific passes, progressing to increasing resistance and positional sparring that rewards switching over holding one guard."
+      "answer": "Begin with solo hip-mobility and switching drills, then add cooperative feeds of specific passes, progressing to increasing resistance and positional sparring that rewards switching over holding one guard.",
+      "answer_line": "Solo drills, then live resistance",
+      "distractors": {
+        "plausible": [
+          "Jump straight to live rolling",
+          "Only drill against resistance"
+        ],
+        "trap": [
+          "Skip drilling, spar full speed"
+        ]
+      }
     },
     {
       "question": "How do you maintain guard integrity during a transition between guards?",
-      "answer": "Establish the new grip or frame before releasing the old one, keeping at least one strong frame connected to the opponent so they cannot capitalize on the momentary gap during the switch."
+      "answer": "Establish the new grip or frame before releasing the old one, keeping at least one strong frame connected to the opponent so they cannot capitalize on the momentary gap during the switch.",
+      "answer_line": "New frame before releasing old",
+      "distractors": {
+        "plausible": [
+          "Release old grip first, then reset",
+          "Switch both grips at once"
+        ],
+        "trap": [
+          "Let go of all frames to switch"
+        ]
+      }
     },
     {
       "question": "How does the Dynamic Guard System convert defense into offense?",
-      "answer": "Position switches and grip battles off-balance the passer, and timing-based sweeps and submissions are launched the instant the opponent reacts to movement, turning retention into attack."
+      "answer": "Position switches and grip battles off-balance the passer, and timing-based sweeps and submissions are launched the instant the opponent reacts to movement, turning retention into attack.",
+      "answer_line": "Attack the instant they react",
+      "distractors": {
+        "plausible": [
+          "Wait for full guard pass",
+          "Attack only from closed guard"
+        ],
+        "trap": [
+          "Hold position, never attack"
+        ]
+      }
     }
   ]
 }

@@ -140,6 +140,43 @@ description: "How to maintain your guillotine choke against defensive escape att
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Guillotine Defense (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Marcelotine choke demonstration",
+      "description": "Guillotine Defense (Defender) film study: Marcelotine choke demonstration, taught by Marcelo Garcia.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/NUnTxPvjCa0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/NUnTxPvjCa0",
+      "url": "https://www.youtube.com/watch?v=NUnTxPvjCa0",
+      "creator": { "@type": "Person", "name": "Marcelo Garcia" },
+      "duration": "PT73S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Marcelo Garcia guillotine (Marcelotine) breakdown",
+      "description": "Guillotine Defense (Defender) film study: Marcelo Garcia guillotine (Marcelotine) breakdown, taught by Half The Battle.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Dg1dvtWkXhE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Dg1dvtWkXhE",
+      "url": "https://www.youtube.com/watch?v=Dg1dvtWkXhE",
+      "creator": { "@type": "Person", "name": "Half The Battle" },
+      "duration": "PT110S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -149,6 +186,34 @@ As the guillotine attacker facing a knowledgeable defender, your challenge is to
 **Opponent's Starting Position**: [[Positions/Front Headlock]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Guillotine Defense (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=NUnTxPvjCa0)
+
+<p class="clip-credit"><strong>Marcelotine choke demonstration</strong> — taught by Marcelo Garcia · 1:13 · <a href="https://www.youtube.com/watch?v=NUnTxPvjCa0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Dg1dvtWkXhE)
+
+<p class="clip-credit"><strong>Marcelo Garcia guillotine (Marcelotine) breakdown</strong> — taught by Half The Battle · 1:50 · <a href="https://www.youtube.com/watch?v=Dg1dvtWkXhE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

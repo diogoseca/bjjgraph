@@ -156,6 +156,54 @@ description: "Defend and counter the Reverse Kesa to North-South transition. Rec
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Reverse Kesa to North-South (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Reverse kesa gatame escape to back take",
+      "description": "Reverse Kesa to North-South (Defender) film study: Reverse kesa gatame escape to back take, taught by Gymnanigains.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ORpUBUxK1QE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ORpUBUxK1QE",
+      "url": "https://www.youtube.com/watch?v=ORpUBUxK1QE",
+      "creator": { "@type": "Person", "name": "Gymnanigains" },
+      "duration": "PT26S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "North south escape",
+      "description": "Reverse Kesa to North-South (Defender) film study: North south escape, taught by Moncaio Brothers.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/2EZfzJb_-tA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/2EZfzJb_-tA",
+      "url": "https://www.youtube.com/watch?v=2EZfzJb_-tA",
+      "creator": { "@type": "Person", "name": "Moncaio Brothers" },
+      "duration": "PT24S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "How to escape north south",
+      "description": "Reverse Kesa to North-South (Defender) film study: How to escape north south, taught by Jon Thomas.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/rmT52A--V3Q/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/rmT52A--V3Q",
+      "url": "https://www.youtube.com/watch?v=rmT52A--V3Q",
+      "creator": { "@type": "Person", "name": "Jon Thomas" },
+      "duration": "PT203S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -165,6 +213,42 @@ Defending against the Reverse Kesa to North-South transition requires recognizin
 **Opponent's Starting Position**: [[Positions/Side Control/Reverse Kesa-Gatame]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Reverse Kesa to North-South (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ORpUBUxK1QE)
+
+<p class="clip-credit"><strong>Reverse kesa gatame escape to back take</strong> — taught by Gymnanigains · 0:26 · <a href="https://www.youtube.com/watch?v=ORpUBUxK1QE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=2EZfzJb_-tA)
+
+<p class="clip-credit"><strong>North south escape</strong> — taught by Moncaio Brothers · 0:24 · <a href="https://www.youtube.com/watch?v=2EZfzJb_-tA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=rmT52A--V3Q)
+
+<p class="clip-credit"><strong>How to escape north south</strong> — taught by Jon Thomas · 3:23 · <a href="https://www.youtube.com/watch?v=rmT52A--V3Q" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

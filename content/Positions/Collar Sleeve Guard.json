@@ -270,85 +270,214 @@
     "transitions": [
       {
         "transition": "Headquarters Pass",
-        "attempt_probability": 30
-      },
-      {
-        "transition": "Grip Break",
-        "attempt_probability": 12
+        "attempt_probability": {
+          "gi": 13,
+          "nogi": 11
+        }
       },
       {
         "transition": "Knee Slice Pass",
-        "attempt_probability": 10
+        "attempt_probability": {
+          "gi": 13,
+          "nogi": 14
+        }
       },
       {
         "transition": "Toreando Pass",
-        "attempt_probability": 8
+        "attempt_probability": {
+          "gi": 11,
+          "nogi": 14
+        }
       },
       {
         "transition": "Stack Pass",
-        "attempt_probability": 8
+        "attempt_probability": {
+          "gi": 7,
+          "nogi": 8
+        }
       },
       {
         "transition": "Leg Drag Pass",
-        "attempt_probability": 8
+        "attempt_probability": {
+          "gi": 11,
+          "nogi": 12
+        }
       },
       {
         "transition": "X Pass",
-        "attempt_probability": 8
+        "attempt_probability": {
+          "gi": 8,
+          "nogi": 8
+        }
       },
       {
         "transition": "Pressure Pass",
-        "attempt_probability": 7
+        "attempt_probability": {
+          "gi": 8,
+          "nogi": 8
+        }
       },
       {
         "transition": "Long Step Pass",
-        "attempt_probability": 4
+        "attempt_probability": {
+          "gi": 7,
+          "nogi": 8
+        }
       },
       {
         "transition": "Double Under Pass",
-        "attempt_probability": 3
+        "attempt_probability": {
+          "gi": 6,
+          "nogi": 5
+        }
       },
       {
         "transition": "Bull Pass from Collar Sleeve",
-        "attempt_probability": 1
+        "attempt_probability": {
+          "gi": 7,
+          "nogi": 5
+        }
       },
       {
         "transition": "Pass Collar Sleeve Guard",
-        "attempt_probability": 1
+        "attempt_probability": {
+          "gi": 9,
+          "nogi": 7
+        }
       }
     ],
     "flashcards": [
       {
         "question": "Your opponent has established strong collar and sleeve grips and starts pulling your posture forward - what immediate adjustment do you make?",
-        "answer": "Drive your hips backward while simultaneously widening your knees to create a stable tripod base. Keep your chest elevated and look forward rather than down. This repositions your center of gravity behind their pulling force vector, making it mechanically inefficient for them to continue breaking your posture. Avoid fighting their pull with pure upper body strength, which is unsustainable and leads to exhaustion."
+        "answer": "Drive your hips backward while simultaneously widening your knees to create a stable tripod base. Keep your chest elevated and look forward rather than down. This repositions your center of gravity behind their pulling force vector, making it mechanically inefficient for them to continue breaking your posture. Avoid fighting their pull with pure upper body strength, which is unsustainable and leads to exhaustion.",
+        "answer_line": "Hips back, widen knees",
+        "distractors": {
+          "plausible": [
+            "Muscle back with your arms",
+            "Drop head, look down"
+          ],
+          "trap": [
+            "Post chest down, lean in"
+          ]
+        }
       },
       {
         "question": "What are the essential grips you should prioritize when facing collar sleeve guard?",
-        "answer": "Prioritize controlling their collar-gripping wrist with your free hand to neutralize their posture control, then establish your own pants grips at the knees or pant cuffs on both legs. These grips allow you to control their leg positioning for passing while preventing them from using their legs to create frames. If you cannot immediately break their collar grip, establishing your own cross-collar grip provides a counter-balance and opens passing opportunities."
+        "answer": "Prioritize controlling their collar-gripping wrist with your free hand to neutralize their posture control, then establish your own pants grips at the knees or pant cuffs on both legs. These grips allow you to control their leg positioning for passing while preventing them from using their legs to create frames. If you cannot immediately break their collar grip, establishing your own cross-collar grip provides a counter-balance and opens passing opportunities.",
+        "answer_line": "Control wrist, grip pants",
+        "distractors": {
+          "plausible": [
+            "Break sleeve grip first",
+            "Grab both ankles"
+          ],
+          "trap": [
+            "Grip their far collar"
+          ]
+        }
       },
       {
         "question": "How do you shut down the primary triangle threat from collar sleeve guard?",
-        "answer": "Keep your controlled arm's elbow tight to your ribs rather than letting it float forward where they can capture it with their legs. Maintain strong upright posture so your head stays out of triangle range. When you feel them load their leg to shoot the triangle, immediately drive your free hand to the mat on the opposite side and drive your hips back. The combination of posture, elbow position, and base distribution makes triangle entries extremely difficult."
+        "answer": "Keep your controlled arm's elbow tight to your ribs rather than letting it float forward where they can capture it with their legs. Maintain strong upright posture so your head stays out of triangle range. When you feel them load their leg to shoot the triangle, immediately drive your free hand to the mat on the opposite side and drive your hips back. The combination of posture, elbow position, and base distribution makes triangle entries extremely difficult.",
+        "answer_line": "Elbow tight, posture up, hips back",
+        "distractors": {
+          "plausible": [
+            "Pull arm back, drop head",
+            "Widen knees, drop elbow"
+          ],
+          "trap": [
+            "Post hand forward, lean in"
+          ]
+        }
       },
       {
         "question": "What grip priorities should guide your approach to breaking collar sleeve guard structure?",
-        "answer": "Break the collar grip first since it provides the most control over your posture and positioning. Use a two-on-one grip break where your free hand controls their gripping wrist while you explosively drive your hips back. Once the collar grip is broken, the sleeve grip becomes much less dangerous as they cannot effectively combine it with posture control for attacks. After breaking grips, immediately establish your own controlling grips before they can re-establish."
+        "answer": "Break the collar grip first since it provides the most control over your posture and positioning. Use a two-on-one grip break where your free hand controls their gripping wrist while you explosively drive your hips back. Once the collar grip is broken, the sleeve grip becomes much less dangerous as they cannot effectively combine it with posture control for attacks. After breaking grips, immediately establish your own controlling grips before they can re-establish.",
+        "answer_line": "Break collar grip first",
+        "distractors": {
+          "plausible": [
+            "Break sleeve grip first",
+            "Pry both grips at once"
+          ],
+          "trap": [
+            "Yank back with no control"
+          ]
+        }
       },
       {
         "question": "How should you apply pressure when passing collar sleeve guard without exposing yourself to sweeps?",
-        "answer": "Apply pressure in controlled bursts of 15-20 seconds rather than constant grinding. When pressuring forward, keep your base wide and hips low with weight distributed to both legs. Drive your chest and shoulder into their upper body to flatten their hips while maintaining the ability to post your free hand. If you feel them loading for a sweep, immediately sit your hips back and widen your base rather than trying to muscle through the sweep attempt."
+        "answer": "Apply pressure in controlled bursts of 15-20 seconds rather than constant grinding. When pressuring forward, keep your base wide and hips low with weight distributed to both legs. Drive your chest and shoulder into their upper body to flatten their hips while maintaining the ability to post your free hand. If you feel them loading for a sweep, immediately sit your hips back and widen your base rather than trying to muscle through the sweep attempt.",
+        "answer_line": "Bursts of pressure, wide base",
+        "distractors": {
+          "plausible": [
+            "Constant grinding pressure",
+            "Narrow base, drive through"
+          ],
+          "trap": [
+            "Muscle through the sweep"
+          ]
+        }
       },
       {
         "question": "Your opponent starts to hip escape and angle away as you pressure forward - what adjustment prevents guard recovery?",
-        "answer": "Follow their hip movement with your body rather than letting them create angle. When they escape their hips, immediately cut your knee through the space they create toward their far hip. Use your chest to pin their near shoulder while your knee slides across their thigh line. This knee cut motion intercepts their guard recovery by occupying the space before they can insert frames or hooks. The key is reacting immediately to hip movement rather than allowing them to complete the escape and re-establish guard structure."
+        "answer": "Follow their hip movement with your body rather than letting them create angle. When they escape their hips, immediately cut your knee through the space they create toward their far hip. Use your chest to pin their near shoulder while your knee slides across their thigh line. This knee cut motion intercepts their guard recovery by occupying the space before they can insert frames or hooks. The key is reacting immediately to hip movement rather than allowing them to complete the escape and re-establish guard structure.",
+        "answer_line": "Cut knee through the gap",
+        "distractors": {
+          "plausible": [
+            "Chase hips laterally",
+            "Wait, then follow angle"
+          ],
+          "trap": [
+            "Back off, reset distance"
+          ]
+        }
       },
       {
         "question": "What indicators tell you an opponent is about to attempt a pendulum or flower sweep from collar sleeve guard?",
-        "answer": "Watch for hip elevation and angle creation as they shift their body perpendicular to yours. They will typically extend the sleeve-grip side leg while loading weight onto the opposite hip. The collar pull will intensify and change direction from straight back to angular, pulling you toward the sweeping direction. Their free leg will begin to hook behind your leg or elevate toward your shoulder. Recognizing these loading motions allows you to preemptively base out in the opposite direction of their sweep before they can generate momentum."
+        "answer": "Watch for hip elevation and angle creation as they shift their body perpendicular to yours. They will typically extend the sleeve-grip side leg while loading weight onto the opposite hip. The collar pull will intensify and change direction from straight back to angular, pulling you toward the sweeping direction. Their free leg will begin to hook behind your leg or elevate toward your shoulder. Recognizing these loading motions allows you to preemptively base out in the opposite direction of their sweep before they can generate momentum.",
+        "answer_line": "Hip rise, angular collar pull",
+        "distractors": {
+          "plausible": [
+            "Sudden grip release",
+            "Flat hips, straight pull"
+          ],
+          "trap": [
+            "Ignore it, press forward"
+          ]
+        }
       },
       {
         "question": "How do you manage energy when facing an opponent with very active collar sleeve guard?",
-        "answer": "Establish a rhythm where you apply intense passing pressure for 15-20 seconds, then briefly disengage to a safe standing or combat base distance for 5-10 seconds. During pressure phases, work to break grips and advance position. During recovery phases, maintain distance that prevents them from re-establishing ideal grips without expending energy defending. Avoid trying to pass through continuous grinding which leads to exhaustion and mistakes. Also focus on efficient grip breaks using leverage rather than strength to conserve grip endurance."
+        "answer": "Establish a rhythm where you apply intense passing pressure for 15-20 seconds, then briefly disengage to a safe standing or combat base distance for 5-10 seconds. During pressure phases, work to break grips and advance position. During recovery phases, maintain distance that prevents them from re-establishing ideal grips without expending energy defending. Avoid trying to pass through continuous grinding which leads to exhaustion and mistakes. Also focus on efficient grip breaks using leverage rather than strength to conserve grip endurance.",
+        "answer_line": "Pressure bursts, then disengage",
+        "distractors": {
+          "plausible": [
+            "Constant grinding pressure",
+            "Full rest, re-engage later"
+          ],
+          "trap": [
+            "Grip battle, hold on tight"
+          ]
+        }
+      }
+    ],
+    "clips": [
+      {
+        "id": "N4M0VWhDkMA",
+        "title": "Two ways to pass the collar & sleeve",
+        "by": "Carpio Jiu Jitsu",
+        "vertical": false,
+        "channel": "Carpio Jiu Jitsu",
+        "duration": 103,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "WJ25wu9Ioks",
+        "title": "Passing the collar sleeve guard",
+        "by": "Ultra Jiu Jitsu Academy",
+        "vertical": false,
+        "channel": "Ultra Jiu Jitsu Academy",
+        "duration": 105,
+        "verified": "2026-07-14"
       }
     ]
   },
@@ -575,94 +704,365 @@
     "transitions": [
       {
         "transition": "Triangle Setup",
-        "attempt_probability": 31
+        "attempt_probability": {
+          "gi": 13,
+          "nogi": 15
+        }
       },
       {
         "transition": "Pendulum Sweep",
-        "attempt_probability": 11
+        "attempt_probability": {
+          "gi": 10,
+          "nogi": 9
+        }
       },
       {
         "transition": "Scissor Sweep",
-        "attempt_probability": 9
+        "attempt_probability": {
+          "gi": 9,
+          "nogi": 8
+        }
       },
       {
         "transition": "Hip Bump Sweep",
-        "attempt_probability": 8
+        "attempt_probability": {
+          "gi": 5,
+          "nogi": 8
+        }
       },
       {
         "transition": "Flower Sweep",
-        "attempt_probability": 7
+        "attempt_probability": {
+          "gi": 7,
+          "nogi": 7
+        }
       },
       {
         "transition": "Omoplata Sweep",
-        "attempt_probability": 7
+        "attempt_probability": {
+          "gi": 7,
+          "nogi": 7
+        }
       },
       {
-        "transition": "Collar Drag",
-        "attempt_probability": 6
+        "transition": "Collar Drag from Open Guard",
+        "attempt_probability": {
+          "gi": 9,
+          "nogi": 0
+        }
       },
       {
         "transition": "Arm Drag to Back",
-        "attempt_probability": 5
+        "attempt_probability": {
+          "gi": 5,
+          "nogi": 20
+        }
       },
       {
         "transition": "Lapel to Spider Guard",
-        "attempt_probability": 4
+        "attempt_probability": {
+          "gi": 6,
+          "nogi": 0
+        }
       },
       {
         "transition": "Lapel to Lasso Guard",
-        "attempt_probability": 4
+        "attempt_probability": {
+          "gi": 5,
+          "nogi": 0
+        }
       },
       {
         "transition": "Collar Sleeve to De La Riva",
-        "attempt_probability": 3
+        "attempt_probability": {
+          "gi": 8,
+          "nogi": 9
+        }
       },
       {
         "transition": "Standing up in Base",
-        "attempt_probability": 3
+        "attempt_probability": {
+          "gi": 3,
+          "nogi": 16
+        }
       },
       {
         "transition": "Collar Sleeve Sweep",
-        "attempt_probability": 1
+        "attempt_probability": {
+          "gi": 8,
+          "nogi": 0
+        }
       },
       {
         "transition": "Collar Sleeve to Spider Guard",
-        "attempt_probability": 1
+        "attempt_probability": {
+          "gi": 5,
+          "nogi": 1
+        }
       }
     ],
     "flashcards": [
       {
         "question": "Your opponent starts to posture up strongly against your collar grip - what immediate adjustment do you make?",
-        "answer": "Pull the collar at a 45-degree angle toward one of your shoulders rather than straight back toward your chest. This angular pull creates rotational force that is much harder to resist than a linear pull. Simultaneously elevate your hips and pump your legs to add lower body force to the pull. If they continue posturing, transition to a sweep that capitalizes on their backward weight shift, such as a flower sweep or sitting guard sweep, rather than fighting a losing strength battle."
+        "answer": "Pull the collar at a 45-degree angle toward one of your shoulders rather than straight back toward your chest. This angular pull creates rotational force that is much harder to resist than a linear pull. Simultaneously elevate your hips and pump your legs to add lower body force to the pull. If they continue posturing, transition to a sweep that capitalizes on their backward weight shift, such as a flower sweep or sitting guard sweep, rather than fighting a losing strength battle.",
+        "answer_line": "Angle pull 45°, pump hips",
+        "distractors": {
+          "plausible": [
+            "Pull straight back harder",
+            "Release grip, re-angle"
+          ],
+          "trap": [
+            "Match strength with strength"
+          ]
+        }
       },
       {
         "question": "What are the essential grips for maintaining effective collar sleeve guard?",
-        "answer": "The cross-collar grip should have four fingers deep inside the collar near the opponent's shoulder or upper chest, with thumb outside for maximum purchase. This grip controls posture and creates rotational leverage. The same-side sleeve grip controls at the wrist or mid-forearm, never higher than the elbow, to prevent posting and manage distance. The wrist-level grip gives you the longest lever arm and maximum control over where their hand can reach."
+        "answer": "The cross-collar grip should have four fingers deep inside the collar near the opponent's shoulder or upper chest, with thumb outside for maximum purchase. This grip controls posture and creates rotational leverage. The same-side sleeve grip controls at the wrist or mid-forearm, never higher than the elbow, to prevent posting and manage distance. The wrist-level grip gives you the longest lever arm and maximum control over where their hand can reach.",
+        "answer_line": "Deep collar, wrist-level sleeve",
+        "distractors": {
+          "plausible": [
+            "Collar grip, grip at elbow",
+            "Shallow collar, deep sleeve"
+          ],
+          "trap": [
+            "Grip both of their collars"
+          ]
+        }
       },
       {
         "question": "How do you shut down a toreando pass attempt from collar sleeve guard?",
-        "answer": "When you feel them grab your knees or pants to initiate toreando, immediately frame with your feet on their hips or biceps to maintain distance. Pull hard on the collar grip to break their posture forward which compromises their passing base. If they commit to the lateral step, follow their movement with your hips by hip escaping in the same direction while maintaining collar tension. The collar grip is your anchor - as long as you keep pulling them forward and off-balance, they cannot complete the lateral passing motion effectively."
+        "answer": "When you feel them grab your knees or pants to initiate toreando, immediately frame with your feet on their hips or biceps to maintain distance. Pull hard on the collar grip to break their posture forward which compromises their passing base. If they commit to the lateral step, follow their movement with your hips by hip escaping in the same direction while maintaining collar tension. The collar grip is your anchor - as long as you keep pulling them forward and off-balance, they cannot complete the lateral passing motion effectively.",
+        "answer_line": "Frame feet, pull collar tight",
+        "distractors": {
+          "plausible": [
+            "Release grips, hip escape",
+            "Grab pants sleeve harder"
+          ],
+          "trap": [
+            "Let go and turtle up"
+          ]
+        }
       },
       {
         "question": "What grip priorities guide your attack selection from collar sleeve guard?",
-        "answer": "Your attack options flow from which grip is strongest. If your collar grip is deep and controlling their posture effectively, prioritize sweeps that use collar pulls like pendulum and flower sweeps. If your sleeve grip has full extension preventing their posting, triangles become high percentage because they cannot use that arm to defend. When both grips are strong, you can chain any attack because their defensive options are limited. Always secure the collar grip first as it provides more versatile control."
+        "answer": "Your attack options flow from which grip is strongest. If your collar grip is deep and controlling their posture effectively, prioritize sweeps that use collar pulls like pendulum and flower sweeps. If your sleeve grip has full extension preventing their posting, triangles become high percentage because they cannot use that arm to defend. When both grips are strong, you can chain any attack because their defensive options are limited. Always secure the collar grip first as it provides more versatile control.",
+        "answer_line": "Follow the strongest grip",
+        "distractors": {
+          "plausible": [
+            "Always triangle first",
+            "Always sweep first"
+          ],
+          "trap": [
+            "Release grips, go blind"
+          ]
+        }
       },
       {
         "question": "How should you apply off-balancing pressure to set up sweeps from collar sleeve guard?",
-        "answer": "Create continuous multi-directional off-balancing rather than single committed pulls. Alternate between pulling their collar forward to break posture, then angular pulls toward your shoulders to create rotational instability. Use your legs actively - pump the hip with the sleeve-side foot on their bicep or hip while your other leg hooks behind their leg or elevates for attacks. This constant movement prevents them from settling their weight and creates the loading moment where a committed sweep becomes high percentage. The goal is to make them constantly adjust their base until they commit too far in one direction."
+        "answer": "Create continuous multi-directional off-balancing rather than single committed pulls. Alternate between pulling their collar forward to break posture, then angular pulls toward your shoulders to create rotational instability. Use your legs actively - pump the hip with the sleeve-side foot on their bicep or hip while your other leg hooks behind their leg or elevates for attacks. This constant movement prevents them from settling their weight and creates the loading moment where a committed sweep becomes high percentage. The goal is to make them constantly adjust their base until they commit too far in one direction.",
+        "answer_line": "Multi-direction pulls, active legs",
+        "distractors": {
+          "plausible": [
+            "One committed hard pull",
+            "Static grip, wait it out"
+          ],
+          "trap": [
+            "Release sleeve, free hands"
+          ]
+        }
       },
       {
         "question": "Your opponent breaks your sleeve grip and starts advancing their knee to pass - what recovery options do you have?",
-        "answer": "Immediately hip escape away from their advancing knee while maintaining your collar grip anchor. Use your free hand to frame on their shoulder or bicep on the passing side to create space. If space allows, re-establish sleeve control before they complete the pass. If they have too much momentum, transition to lasso guard by threading your leg around their arm on the passing side, or transition to De La Riva by inserting a hook on their far leg. The collar grip gives you a connection point to work guard retention even when other grips are lost."
+        "answer": "Immediately hip escape away from their advancing knee while maintaining your collar grip anchor. Use your free hand to frame on their shoulder or bicep on the passing side to create space. If space allows, re-establish sleeve control before they complete the pass. If they have too much momentum, transition to lasso guard by threading your leg around their arm on the passing side, or transition to De La Riva by inserting a hook on their far leg. The collar grip gives you a connection point to work guard retention even when other grips are lost.",
+        "answer_line": "Hip escape, frame, keep collar",
+        "distractors": {
+          "plausible": [
+            "Push their knee back",
+            "Grab both legs, sit up"
+          ],
+          "trap": [
+            "Let go of collar, scramble"
+          ]
+        }
       },
       {
         "question": "What indicators tell you it's time to transition from sweep attempts to triangle attacks?",
-        "answer": "The primary indicator is when the opponent posts their free hand on the mat or your body to defend sweep attempts. This hand posting creates the arm isolation needed for triangle entry. Watch for their free arm to extend forward - this is your cue to immediately shoot your leg over their shoulder while pulling their head down with the collar grip. Other indicators include when they elevate onto their toes for base (hips become light making leg entry easier) or when they square up to you directly (makes their arm more accessible to your leg)."
+        "answer": "The primary indicator is when the opponent posts their free hand on the mat or your body to defend sweep attempts. This hand posting creates the arm isolation needed for triangle entry. Watch for their free arm to extend forward - this is your cue to immediately shoot your leg over their shoulder while pulling their head down with the collar grip. Other indicators include when they elevate onto their toes for base (hips become light making leg entry easier) or when they square up to you directly (makes their arm more accessible to your leg).",
+        "answer_line": "Their free hand posts down",
+        "distractors": {
+          "plausible": [
+            "They square up fully",
+            "They rise onto their toes"
+          ],
+          "trap": [
+            "Release collar, grab leg"
+          ]
+        }
       },
       {
         "question": "How do you manage energy during extended collar sleeve guard exchanges without becoming passive?",
-        "answer": "Develop a rhythm that alternates between high-intensity attack sequences and lower-intensity control phases. During attack phases (10-15 seconds), commit fully to sweep or submission chains with active hip movement. During control phases (5-10 seconds), maintain grip tension and hip elevation but reduce large movements while you recover grip strength and assess their reactions. Never go completely passive - always maintain some degree of off-balancing pressure through your grips. Focus on efficiency by using hip movement to amplify grip power rather than relying solely on grip strength."
+        "answer": "Develop a rhythm that alternates between high-intensity attack sequences and lower-intensity control phases. During attack phases (10-15 seconds), commit fully to sweep or submission chains with active hip movement. During control phases (5-10 seconds), maintain grip tension and hip elevation but reduce large movements while you recover grip strength and assess their reactions. Never go completely passive - always maintain some degree of off-balancing pressure through your grips. Focus on efficiency by using hip movement to amplify grip power rather than relying solely on grip strength.",
+        "answer_line": "Attack bursts, brief control",
+        "distractors": {
+          "plausible": [
+            "Full rest between attacks",
+            "Nonstop high intensity"
+          ],
+          "trap": [
+            "Go passive, hold grips only"
+          ]
+        }
+      }
+    ],
+    "clips": [
+      {
+        "id": "SehIaBibwYY",
+        "title": "3 attacks from collar & sleeve guard",
+        "by": "Giancarlo Bodoni",
+        "vertical": false,
+        "channel": "Giancarlo Bodoni",
+        "duration": 16,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "I2xn1bMaBdg",
+        "title": "Five sweeps from collar & sleeve guard",
+        "by": "OneontaJiuJitsu Academy",
+        "vertical": false,
+        "channel": "OneontaJiuJitsu Academy",
+        "duration": 103,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "wdvJF6S68TI",
+        "title": "Collar sleeve over-head sweep",
+        "by": "luciana MARCOS",
+        "vertical": false,
+        "channel": "luciana MARCOS",
+        "duration": 68,
+        "verified": "2026-07-14"
       }
     ]
-  }
+  },
+  "flashcards_position": [
+    {
+      "question": "What grip configuration defines collar sleeve guard and distinguishes it from other open guards?",
+      "answer": "Collar sleeve guard is defined by an asymmetric two-grip structure in which the bottom player pairs a cross-collar grip with a same-side sleeve grip on the opponent's forearm or wrist. The collar grip runs diagonally across the body to control posture and upper-body rotation, while the sleeve grip on the matching side pins one arm and governs engagement distance. This same-side pairing is the defining feature: while a supporting leg frame regulates range, control originates from the hands rather than from the leg-to-arm connections that primarily define spider or lasso guard. The mismatch between a diagonal collar pull and a straight-line sleeve extension is what generates the rotational forces central to the position.",
+      "answer_line": "Cross-collar + same-side sleeve",
+      "distractors": {
+        "plausible": [
+          "Same-side collar and sleeve",
+          "Opposite-side collar, sleeve"
+        ],
+        "trap": [
+          "Two collar grips, no sleeve"
+        ]
+      }
+    },
+    {
+      "question": "Why does the same-side collar and sleeve pairing generate rotational rather than purely linear force?",
+      "answer": "Because the two grips pull along different vectors, they form a couple, a pair of offset forces that produce torque rather than a single straight push or pull. The cross-collar grip draws one shoulder diagonally forward and down while the same-side sleeve grip anchors and extends that arm, so the opponent's upper body is twisted around its own spine instead of simply pulled forward. This rotational loading is far harder to resist than a linear pull because the opponent cannot brace against it by leaning into a single direction. The torque is what continually compromises the top player's square base and makes the position feel unstable even when their posture initially looks strong.",
+      "answer_line": "Offset grips create torque",
+      "distractors": {
+        "plausible": [
+          "Two grips add raw strength",
+          "Grips align, pull straight"
+        ],
+        "trap": [
+          "Rotation comes from leg hooks"
+        ]
+      }
+    },
+    {
+      "question": "What role does the sleeve-side leg frame play in the shared mechanics of the position?",
+      "answer": "The sleeve-side leg typically posts a foot on the opponent's hip or bicep to act as a distance-regulating frame, forming the third control point alongside the two hand grips. This frame sets the engagement range so the collar pull can break posture without the top player collapsing weight forward into the bottom player. It also prevents the top player from closing distance to smother the guard or initiate a pressure pass. Because the foot frame connects to the same side as both grips, all three control points reinforce one triangle of control on one side of the body, leaving the opposite leg free to hook, elevate, or pump for dynamic action.",
+      "answer_line": "Foot frame sets range, third point",
+      "distractors": {
+        "plausible": [
+          "Frame alone stops passing",
+          "Frame replaces sleeve grip"
+        ],
+        "trap": [
+          "Drop frame, hook both legs"
+        ]
+      }
+    },
+    {
+      "question": "How does weight distribution and base tend to be organized between the two players in collar sleeve guard?",
+      "answer": "The bottom player keeps their hips elevated and mobile off the mat rather than flat, allowing constant angle changes that feed the rotational grips. The top player, meanwhile, must keep hips back and chest elevated with weight biased toward the free-hand side, because the sleeve grip denies them the ability to post that captured arm for base. This produces a characteristic asymmetry: one side of the top player's base is structurally weakened by the sleeve control, while the bottom player's floating hips continuously probe for the moment that base commits too far. The position is inherently unstable and rewards whoever better manages this shifting weight balance.",
+      "answer_line": "Bottom floats hips, top base biased",
+      "distractors": {
+        "plausible": [
+          "Both players stay flat, square",
+          "Top posts sleeve arm for base"
+        ],
+        "trap": [
+          "Bottom flattens hips to rest"
+        ]
+      }
+    },
+    {
+      "question": "What are the primary control points that both players contest in collar sleeve guard?",
+      "answer": "There are three contested control points: the collar grip governing posture, the sleeve grip governing one arm and distance, and the leg frame regulating range. Whoever controls each point dictates the exchange, so the position is fundamentally a grip-fighting contest over these connections. The collar is the highest-value point because it directly manages posture and rotation, which is why it is generally established and defended first by both sides. Distance is the second axis of contention: the bottom player uses the sleeve grip and leg frame to hold an ideal working range, while the top player fights to either close distance for pressure or clear it entirely to pass.",
+      "answer_line": "Collar, sleeve, and leg frame",
+      "distractors": {
+        "plausible": [
+          "Both collars, both sleeves",
+          "Head and hip control only"
+        ],
+        "trap": [
+          "Ignore grips, fight position"
+        ]
+      }
+    },
+    {
+      "question": "How does collar sleeve guard relate to and transition between adjacent open guards like spider, lasso, and De La Riva?",
+      "answer": "Collar sleeve sits at a hub within the gi open-guard family and shares grip lineage with several neighbors, so the transitions are largely a matter of adding or converting a connection. Threading the free leg around the sleeve-gripped arm converts the position into lasso guard, while placing a foot in the bicep of that arm shifts it toward spider guard. Inserting a hook behind the opponent's leg blends it into De La Riva while retaining the collar and sleeve grips. Because the collar grip persists across all of these, it acts as the constant anchor that lets a player flow between guards as the opponent's positioning and passing pressure change.",
+      "answer_line": "Collar grip anchors transitions",
+      "distractors": {
+        "plausible": [
+          "Sleeve grip anchors transitions",
+          "Leg frame anchors transitions"
+        ],
+        "trap": [
+          "Release collar to switch guards"
+        ]
+      }
+    },
+    {
+      "question": "Why is constant hip movement and angle adjustment essential to sustaining collar sleeve guard for both players?",
+      "answer": "A static collar sleeve guard lets the opposing player settle their weight, establish counter-grips, and begin a stable passing or defensive sequence, so stillness surrenders the position's core advantage. The rotational grip structure only produces its off-balancing torque when the bottom player's hips are actively shifting angles, typically fifteen to thirty degrees at a time, to keep reloading the collar pull from fresh directions. From the top, matching that movement is equally required, because failing to follow the changing angle allows the bottom player to create the perpendicular relationship that precedes most attacks. The position is therefore dynamic by nature: whichever player stops moving first generally cedes control of the engagement's timing.",
+      "answer_line": "Stillness lets top settle, pass",
+      "distractors": {
+        "plausible": [
+          "Movement only needed to attack",
+          "Angle changes waste energy"
+        ],
+        "trap": [
+          "Hold static angle, save energy"
+        ]
+      }
+    }
+  ],
+  "clips": [
+    {
+      "id": "1piAnOs7xpA",
+      "title": "Intro to the collar & sleeve guard",
+      "by": "Mikey Musumeci",
+      "vertical": false,
+      "channel": "BJJ Fanatics",
+      "duration": 158,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "SehIaBibwYY",
+      "title": "3 attacks from collar & sleeve guard",
+      "by": "Giancarlo Bodoni",
+      "vertical": false,
+      "channel": "Giancarlo Bodoni",
+      "duration": 16,
+      "verified": "2026-07-14"
+    }
+  ]
 }

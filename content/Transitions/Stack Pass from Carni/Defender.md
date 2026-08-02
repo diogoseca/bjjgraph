@@ -140,6 +140,43 @@ description: "Complete guide to defending against the Stack Pass from Carni bott
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Stack Pass from Carni (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Funk roll counter to the stack pass",
+      "description": "Stack Pass from Carni (Defender) film study: Funk roll counter to the stack pass, taught by Adam Bradley.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/hj1nHZUZvoA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/hj1nHZUZvoA",
+      "url": "https://www.youtube.com/watch?v=hj1nHZUZvoA",
+      "creator": { "@type": "Person", "name": "Adam Bradley" },
+      "duration": "PT60S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Five tips to improve your guard retention",
+      "description": "Stack Pass from Carni (Defender) film study: Five tips to improve your guard retention, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/zIsvigk3CZQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/zIsvigk3CZQ",
+      "url": "https://www.youtube.com/watch?v=zIsvigk3CZQ",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT583S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -149,6 +186,34 @@ As the bottom player in Carni defending against your opponent's stack pass attem
 **Opponent's Starting Position**: [[Positions/Rubber Guard/Carni]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Stack Pass from Carni (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=hj1nHZUZvoA)
+
+<p class="clip-credit"><strong>Funk roll counter to the stack pass</strong> — taught by Adam Bradley · 1:00 · <a href="https://www.youtube.com/watch?v=hj1nHZUZvoA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=zIsvigk3CZQ)
+
+<p class="clip-credit"><strong>Five tips to improve your guard retention</strong> — taught by Lachlan Giles · 9:43 · <a href="https://www.youtube.com/watch?v=zIsvigk3CZQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

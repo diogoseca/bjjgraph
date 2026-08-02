@@ -150,6 +150,43 @@ description: "Defend against the Americana from Scarf Hold. Recognition cues, ar
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Americana from Scarf Hold Position (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Scarf hold headlock escape",
+      "description": "Americana from Scarf Hold Position (Defender) film study: Scarf hold headlock escape, taught by Clinch.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/c5GUAlY1YwE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/c5GUAlY1YwE",
+      "url": "https://www.youtube.com/watch?v=c5GUAlY1YwE",
+      "creator": { "@type": "Person", "name": "Clinch" },
+      "duration": "PT141S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Kesa-gatame escape and armlock",
+      "description": "Americana from Scarf Hold Position (Defender) film study: Kesa-gatame escape and armlock, taught by Kombatan Kali Brianza.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/HMTN5IrV2Mw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/HMTN5IrV2Mw",
+      "url": "https://www.youtube.com/watch?v=HMTN5IrV2Mw",
+      "creator": { "@type": "Person", "name": "Kombatan Kali Brianza" },
+      "duration": "PT15S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -160,6 +197,34 @@ Defending the Americana from Scarf Hold requires immediate recognition of the gr
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Americana from Scarf Hold Position (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=c5GUAlY1YwE)
+
+<p class="clip-credit"><strong>Scarf hold headlock escape</strong> — taught by Clinch · 2:21 · <a href="https://www.youtube.com/watch?v=c5GUAlY1YwE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=HMTN5IrV2Mw)
+
+<p class="clip-credit"><strong>Kesa-gatame escape and armlock</strong> — taught by Kombatan Kali Brianza · 0:15 · <a href="https://www.youtube.com/watch?v=HMTN5IrV2Mw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

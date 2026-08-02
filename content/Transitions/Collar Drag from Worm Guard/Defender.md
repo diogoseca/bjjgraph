@@ -140,6 +140,43 @@ description: "Defend the collar drag from worm guard in BJJ. Recognition cues, p
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Collar Drag from Worm Guard (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Single grip to shut down lapel guards",
+      "description": "Collar Drag from Worm Guard (Defender) film study: Single grip to shut down lapel guards, taught by Keenan Cornelius.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/kMybfbRxsPg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/kMybfbRxsPg",
+      "url": "https://www.youtube.com/watch?v=kMybfbRxsPg",
+      "creator": { "@type": "Person", "name": "Keenan Cornelius" },
+      "duration": "PT512S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Cross collar grip counters",
+      "description": "Collar Drag from Worm Guard (Defender) film study: Cross collar grip counters, taught by BJJ Scout.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/KDDab88J--g/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/KDDab88J--g",
+      "url": "https://www.youtube.com/watch?v=KDDab88J--g",
+      "creator": { "@type": "Person", "name": "BJJ Scout" },
+      "duration": "PT145S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -149,6 +186,34 @@ Defending the collar drag from worm guard requires recognizing the setup before 
 **Opponent's Starting Position**: [[Positions/Worm Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Collar Drag from Worm Guard (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=kMybfbRxsPg)
+
+<p class="clip-credit"><strong>Single grip to shut down lapel guards</strong> — taught by Keenan Cornelius · 8:32 · <a href="https://www.youtube.com/watch?v=kMybfbRxsPg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=KDDab88J--g)
+
+<p class="clip-credit"><strong>Cross collar grip counters</strong> — taught by BJJ Scout · 2:25 · <a href="https://www.youtube.com/watch?v=KDDab88J--g" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

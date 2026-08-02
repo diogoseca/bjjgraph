@@ -34,6 +34,43 @@ description: "Master the toe hold finish from ushiro ashi-garami with complete g
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Toe Hold from Ushiro Ashi-Garami \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Slide into Ashi to Straight Toe Hold",
+      "description": "Toe Hold from Ushiro Ashi-Garami film study: Slide into Ashi to Straight Toe Hold, taught by Josh Star-Lord Leduc.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/tUKGafnOlJo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/tUKGafnOlJo",
+      "url": "https://www.youtube.com/watch?v=tUKGafnOlJo",
+      "creator": { "@type": "Person", "name": "Josh Star-Lord Leduc" },
+      "duration": "PT58S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Toe Hold / Kneebar from Reverse Ashi",
+      "description": "Toe Hold from Ushiro Ashi-Garami film study: Toe Hold / Kneebar from Reverse Ashi, taught by Mads H..",
+      "thumbnailUrl": "https://i.ytimg.com/vi/TkSFu08UXec/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/TkSFu08UXec",
+      "url": "https://www.youtube.com/watch?v=TkSFu08UXec",
+      "creator": { "@type": "Person", "name": "Mads H." },
+      "duration": "PT296S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -78,6 +115,34 @@ Strategically, the toe hold from ushiro serves as a critical secondary attack wh
 **Starting Position**: [[Positions/Ashi Garami/Ushiro Ashi-Garami]] · **From**: [[Positions/Ashi Garami/Ushiro Ashi-Garami]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Toe Hold from Ushiro Ashi-Garami in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=tUKGafnOlJo)
+
+<p class="clip-credit"><strong>Slide into Ashi to Straight Toe Hold</strong> — taught by Josh Star-Lord Leduc · 0:58 · <a href="https://www.youtube.com/watch?v=tUKGafnOlJo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=TkSFu08UXec)
+
+<p class="clip-credit"><strong>Toe Hold / Kneebar from Reverse Ashi</strong> — taught by Mads H. · 4:56 · <a href="https://www.youtube.com/watch?v=TkSFu08UXec" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="outcomes" class="content-section">
 
@@ -225,11 +290,11 @@ Strategically, the toe hold from ushiro serves as a critical secondary attack wh
 <section id="related" class="content-section">
 
 ## Related
-- [[Transitions/Heel Hook]]
+- [[Submissions/Heel Hook]]
 - [[Submissions/Inside Heel Hook]]
 - [[Submissions/Achilles Lock]]
 - [[Submissions/Calf Slicer]]
-- [[Transitions/Estima Lock]]
+- [[Submissions/Estima Lock]]
 - [[Positions/Ashi Garami/Ushiro Ashi-Garami]] - Primary starting position providing the reversed entanglement for this toe hold variant
 - [[Positions/Ashi Garami/Outside Ashi-Garami]] - Standard entanglement that transitions to ushiro configuration during opponent inversion
 - [[Positions/Ashi Garami/Saddle]] - High-control entanglement position where similar toe hold mechanics apply

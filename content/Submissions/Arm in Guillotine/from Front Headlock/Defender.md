@@ -144,6 +144,54 @@ description: "Learn to defend and escape the arm-in guillotine from front headlo
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Arm in Guillotine from Front Headlock (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Standing Guillotine Escape",
+      "description": "Arm in Guillotine from Front Headlock (Defender) film study: Standing Guillotine Escape, taught by dogtownman.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/8okq4cIHMO0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/8okq4cIHMO0",
+      "url": "https://www.youtube.com/watch?v=8okq4cIHMO0",
+      "creator": { "@type": "Person", "name": "dogtownman" },
+      "duration": "PT44S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Master the Guillotine Escape",
+      "description": "Arm in Guillotine from Front Headlock (Defender) film study: Master the Guillotine Escape, taught by Cobrinha.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/dyTKKiajgzQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/dyTKKiajgzQ",
+      "url": "https://www.youtube.com/watch?v=dyTKKiajgzQ",
+      "creator": { "@type": "Person", "name": "Cobrinha" },
+      "duration": "PT44S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Escaping the Front Headlock",
+      "description": "Arm in Guillotine from Front Headlock (Defender) film study: Escaping the Front Headlock, taught by Satori BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ZCTAYYZMVUo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ZCTAYYZMVUo",
+      "url": "https://www.youtube.com/watch?v=ZCTAYYZMVUo",
+      "creator": { "@type": "Person", "name": "Satori BJJ" },
+      "duration": "PT36S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -154,6 +202,42 @@ Defending the arm-in guillotine from front headlock is one of the most urgent de
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Arm in Guillotine from Front Headlock (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=8okq4cIHMO0)
+
+<p class="clip-credit"><strong>Standing Guillotine Escape</strong> — taught by dogtownman · 0:44 · <a href="https://www.youtube.com/watch?v=8okq4cIHMO0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=dyTKKiajgzQ)
+
+<p class="clip-credit"><strong>Master the Guillotine Escape</strong> — taught by Cobrinha · 0:44 · <a href="https://www.youtube.com/watch?v=dyTKKiajgzQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ZCTAYYZMVUo)
+
+<p class="clip-credit"><strong>Escaping the Front Headlock</strong> — taught by Satori BJJ · 0:36 · <a href="https://www.youtube.com/watch?v=ZCTAYYZMVUo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

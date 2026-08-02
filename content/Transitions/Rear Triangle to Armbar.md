@@ -34,6 +34,50 @@ description: "Master the Rear Triangle to Armbar transition in BJJ. Convert back
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Rear Triangle to Armbar \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Triangle to armbar",
+      "description": "Rear Triangle to Armbar film study: Triangle to armbar, taught by ADCC.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/lvaEerT_LE8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/lvaEerT_LE8",
+      "url": "https://www.youtube.com/watch?v=lvaEerT_LE8",
+      "creator": { "@type": "Person", "name": "ADCC" }
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Triangle \u2192 armbar details",
+      "description": "Rear Triangle to Armbar film study: Triangle \u2192 armbar details, taught by Bellingham BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Y0LsaUhyiYs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Y0LsaUhyiYs",
+      "url": "https://www.youtube.com/watch?v=Y0LsaUhyiYs",
+      "creator": { "@type": "Person", "name": "Bellingham BJJ" }
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Triangle \u2194 armbar chain",
+      "description": "Rear Triangle to Armbar film study: Triangle \u2194 armbar chain.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/6qiaGv5W--U/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/6qiaGv5W--U",
+      "url": "https://www.youtube.com/watch?v=6qiaGv5W--U"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +113,42 @@ Strategically, this transition serves as a cornerstone of the rear triangle atta
 **Success Rate**: 55%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Rear Triangle to Armbar in action — curated instructionals</p>
+
+
+<div class="film-clip film-clip--vertical">
+
+![](https://www.youtube.com/watch?v=lvaEerT_LE8&end=22)
+
+<p class="clip-credit"><strong>Triangle to armbar</strong> — taught by ADCC · <a href="https://www.youtube.com/watch?v=lvaEerT_LE8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Y0LsaUhyiYs)
+
+<p class="clip-credit"><strong>Triangle → armbar details</strong> — taught by Bellingham BJJ · <a href="https://www.youtube.com/watch?v=Y0LsaUhyiYs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=6qiaGv5W--U)
+
+<p class="clip-credit"><strong>Triangle ↔ armbar chain</strong> · <a href="https://www.youtube.com/watch?v=6qiaGv5W--U" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

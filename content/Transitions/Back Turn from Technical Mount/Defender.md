@@ -142,6 +142,54 @@ description: "Guide to countering the back turn from technical mount top. Recogn
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Back Turn from Technical Mount (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Technical mount escape to darce",
+      "description": "Back Turn from Technical Mount (Defender) film study: Technical mount escape to darce, taught by Ari.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Za5f-J8FcBg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Za5f-J8FcBg",
+      "url": "https://www.youtube.com/watch?v=Za5f-J8FcBg",
+      "creator": { "@type": "Person", "name": "Ari" },
+      "duration": "PT72S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Punishing the turn: armbar from technical mount",
+      "description": "Back Turn from Technical Mount (Defender) film study: Punishing the turn: armbar from technical mount, taught by Mauricio Gomes.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/4zVQ4maQdB0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/4zVQ4maQdB0",
+      "url": "https://www.youtube.com/watch?v=4zVQ4maQdB0",
+      "creator": { "@type": "Person", "name": "Mauricio Gomes" },
+      "duration": "PT43S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Taking the back when they turn in",
+      "description": "Back Turn from Technical Mount (Defender) film study: Taking the back when they turn in, taught by Knight Jiu-Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/0vy0zPYLMaM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/0vy0zPYLMaM",
+      "url": "https://www.youtube.com/watch?v=0vy0zPYLMaM",
+      "creator": { "@type": "Person", "name": "Knight Jiu-Jitsu" },
+      "duration": "PT851S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -151,6 +199,42 @@ As the top player in technical mount, your opponent's back turn is a defensive r
 **Opponent's Starting Position**: [[Positions/Mount/Technical Mount]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Back Turn from Technical Mount (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Za5f-J8FcBg)
+
+<p class="clip-credit"><strong>Technical mount escape to darce</strong> — taught by Ari · 1:12 · <a href="https://www.youtube.com/watch?v=Za5f-J8FcBg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=4zVQ4maQdB0)
+
+<p class="clip-credit"><strong>Punishing the turn: armbar from technical mount</strong> — taught by Mauricio Gomes · 0:43 · <a href="https://www.youtube.com/watch?v=4zVQ4maQdB0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=0vy0zPYLMaM)
+
+<p class="clip-credit"><strong>Taking the back when they turn in</strong> — taught by Knight Jiu-Jitsu · 14:11 · <a href="https://www.youtube.com/watch?v=0vy0zPYLMaM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

@@ -161,6 +161,54 @@ description: "How to enter the Estima Lock from Single Leg X-Guard in BJJ. Attac
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Single Leg X to Estima Lock (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Estima Lock demonstration",
+      "description": "Single Leg X to Estima Lock (Attacker) film study: Estima Lock demonstration, taught by bjjtaro.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/_6BC8d5B5Hs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/_6BC8d5B5Hs",
+      "url": "https://www.youtube.com/watch?v=_6BC8d5B5Hs",
+      "creator": { "@type": "Person", "name": "bjjtaro" },
+      "duration": "PT31S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Estima Lock breakdown",
+      "description": "Single Leg X to Estima Lock (Attacker) film study: Estima Lock breakdown, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/8Wum2xWu8b8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/8Wum2xWu8b8",
+      "url": "https://www.youtube.com/watch?v=8Wum2xWu8b8",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT108S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Key detail for finishing the Estima Lock",
+      "description": "Single Leg X to Estima Lock (Attacker) film study: Key detail for finishing the Estima Lock, taught by Brandon McCaghren.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/enJwT6Ttreo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/enJwT6Ttreo",
+      "url": "https://www.youtube.com/watch?v=enJwT6Ttreo",
+      "creator": { "@type": "Person", "name": "Brandon McCaghren" },
+      "duration": "PT137S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <aside class="entity-relations">
@@ -175,6 +223,42 @@ The entry is high-percentage because Single Leg X-Guard naturally exposes the fo
 **From Position**: [[Positions/X-Guard/Single Leg X-Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Single Leg X to Estima Lock (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=_6BC8d5B5Hs)
+
+<p class="clip-credit"><strong>Estima Lock demonstration</strong> — taught by bjjtaro · 0:31 · <a href="https://www.youtube.com/watch?v=_6BC8d5B5Hs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=8Wum2xWu8b8)
+
+<p class="clip-credit"><strong>Estima Lock breakdown</strong> — taught by Lachlan Giles · 1:48 · <a href="https://www.youtube.com/watch?v=8Wum2xWu8b8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=enJwT6Ttreo)
+
+<p class="clip-credit"><strong>Key detail for finishing the Estima Lock</strong> — taught by Brandon McCaghren · 2:17 · <a href="https://www.youtube.com/watch?v=enJwT6Ttreo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

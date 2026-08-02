@@ -148,6 +148,54 @@ description: "How to defend against Omoplata to Sweep in BJJ. Recognition cues, 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Omoplata to Sweep (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Omoplata defense drills",
+      "description": "Omoplata to Sweep (Defender) film study: Omoplata defense drills, taught by 316BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/1AuDq4XddmE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/1AuDq4XddmE",
+      "url": "https://www.youtube.com/watch?v=1AuDq4XddmE",
+      "creator": { "@type": "Person", "name": "316BJJ" },
+      "duration": "PT135S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Three basic escapes from the omoplata",
+      "description": "Omoplata to Sweep (Defender) film study: Three basic escapes from the omoplata, taught by Ricardo Cavalcanti.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/AY0512OZ18w/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/AY0512OZ18w",
+      "url": "https://www.youtube.com/watch?v=AY0512OZ18w",
+      "creator": { "@type": "Person", "name": "Ricardo Cavalcanti" },
+      "duration": "PT225S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Omoplata escapes: rolling and jump over",
+      "description": "Omoplata to Sweep (Defender) film study: Omoplata escapes: rolling and jump over, taught by Inverted Gear.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/muoPxAUJYT0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/muoPxAUJYT0",
+      "url": "https://www.youtube.com/watch?v=muoPxAUJYT0",
+      "creator": { "@type": "Person", "name": "Inverted Gear" },
+      "duration": "PT216S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +205,42 @@ Defending the Omoplata to Sweep requires understanding that the sweep exploits y
 **Opponent's Starting Position**: [[Positions/Omoplata Control]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Omoplata to Sweep (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=1AuDq4XddmE)
+
+<p class="clip-credit"><strong>Omoplata defense drills</strong> — taught by 316BJJ · 2:15 · <a href="https://www.youtube.com/watch?v=1AuDq4XddmE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=AY0512OZ18w)
+
+<p class="clip-credit"><strong>Three basic escapes from the omoplata</strong> — taught by Ricardo Cavalcanti · 3:45 · <a href="https://www.youtube.com/watch?v=AY0512OZ18w" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=muoPxAUJYT0)
+
+<p class="clip-credit"><strong>Omoplata escapes: rolling and jump over</strong> — taught by Inverted Gear · 3:36 · <a href="https://www.youtube.com/watch?v=muoPxAUJYT0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

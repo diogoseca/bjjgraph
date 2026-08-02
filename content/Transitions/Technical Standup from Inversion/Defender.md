@@ -148,6 +148,43 @@ description: "How to defend against Technical Standup from Inversion in BJJ. Rec
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Technical Standup from Inversion (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "When they stand up from your closed guard",
+      "description": "Technical Standup from Inversion (Defender) film study: When they stand up from your closed guard, taught by Jean Jacques Machado.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/TCinYYTF2BA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/TCinYYTF2BA",
+      "url": "https://www.youtube.com/watch?v=TCinYYTF2BA",
+      "creator": { "@type": "Person", "name": "Jean Jacques Machado" },
+      "duration": "PT54S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Technical standup base, posture and structure",
+      "description": "Technical Standup from Inversion (Defender) film study: Technical standup base, posture and structure, taught by Jiu Jitsu X Factor.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/JzEaiLDwIwc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/JzEaiLDwIwc",
+      "url": "https://www.youtube.com/watch?v=JzEaiLDwIwc",
+      "creator": { "@type": "Person", "name": "Jiu Jitsu X Factor" },
+      "duration": "PT71S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -161,6 +198,34 @@ The key defensive principle is maintaining forward pressure readiness without ov
 **Opponent's Starting Position**: [[Positions/Grasshopper Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Technical Standup from Inversion (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=TCinYYTF2BA)
+
+<p class="clip-credit"><strong>When they stand up from your closed guard</strong> — taught by Jean Jacques Machado · 0:54 · <a href="https://www.youtube.com/watch?v=TCinYYTF2BA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=JzEaiLDwIwc)
+
+<p class="clip-credit"><strong>Technical standup base, posture and structure</strong> — taught by Jiu Jitsu X Factor · 1:11 · <a href="https://www.youtube.com/watch?v=JzEaiLDwIwc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

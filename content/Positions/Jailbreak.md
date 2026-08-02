@@ -34,6 +34,54 @@ description: "Master the Jailbreak position in BJJ. Advanced half guard escape s
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Jailbreak \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Prison Guard Breakdown (MTS 201)",
+      "description": "Jailbreak film study: Prison Guard Breakdown (MTS 201), taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/gFYyMkaMz34/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/gFYyMkaMz34",
+      "url": "https://www.youtube.com/watch?v=gFYyMkaMz34",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT59S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Jailbreak Escape from Side Control",
+      "description": "Jailbreak film study: Jailbreak Escape from Side Control, taught by CORE MMA.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Ij2aFpcJiFU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Ij2aFpcJiFU",
+      "url": "https://www.youtube.com/watch?v=Ij2aFpcJiFU",
+      "creator": { "@type": "Person", "name": "CORE MMA" },
+      "duration": "PT175S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Jailbreak to reversal sweep",
+      "description": "Jailbreak film study: Jailbreak to reversal sweep, taught by Redmond Fit.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/kFEDU0DVQ7I/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/kFEDU0DVQ7I",
+      "url": "https://www.youtube.com/watch?v=kFEDU0DVQ7I",
+      "creator": { "@type": "Person", "name": "Redmond Fit" },
+      "duration": "PT77S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -68,6 +116,42 @@ From bottom perspective, the practitioner uses underhook control combined with i
 The biomechanical principle underlying the Jailbreak from bottom involves converting the opponent's forward pressure into rotational momentum. When the top player commits their weight forward with crossface or shoulder pressure, their center of gravity advances and their base becomes narrow. The underhook serves as the pivotal connection point that prevents the top player from re-establishing control during the inversion. From top, the challenge is navigating extended leg frames while maintaining upper body pressure, reading whether to weave through, smash past, or backstep around the defensive barriers. The position rewards practitioners who develop sensitivity to weight distribution and the ability to commit decisively to their chosen action.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Jailbreak in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=gFYyMkaMz34)
+
+<p class="clip-credit"><strong>Prison Guard Breakdown (MTS 201)</strong> — taught by Eddie Bravo · 0:59 · <a href="https://www.youtube.com/watch?v=gFYyMkaMz34" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Ij2aFpcJiFU)
+
+<p class="clip-credit"><strong>Jailbreak Escape from Side Control</strong> — taught by CORE MMA · 2:55 · <a href="https://www.youtube.com/watch?v=Ij2aFpcJiFU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=kFEDU0DVQ7I)
+
+<p class="clip-credit"><strong>Jailbreak to reversal sweep</strong> — taught by Redmond Fit · 1:17 · <a href="https://www.youtube.com/watch?v=kFEDU0DVQ7I" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 
@@ -139,19 +223,19 @@ The biomechanical principle underlying the Jailbreak from bottom involves conver
 ### Available Transitions
 
 
-- **[[Transitions/Jailbreak to Turtle/Attacker|Jailbreak to Turtle]]** (22% of attempts)
+- **[[Transitions/Jailbreak to Turtle/Attacker|Jailbreak to Turtle]]** (17% of attempts)
 
-- **[[Transitions/Jailbreak to Back Take/Attacker|Jailbreak to Back Take]]** (14% of attempts)
+- **[[Transitions/Jailbreak to Back Take/Attacker|Jailbreak to Back Take]]** (10% of attempts)
 
 - **[[Transitions/Jailbreak to Deep Half Entry/Attacker|Jailbreak to Deep Half Entry]]** (15% of attempts)
 
-- **[[Transitions/Guard Recovery from Jailbreak/Attacker|Guard Recovery from Jailbreak]]** (15% of attempts)
+- **[[Transitions/Guard Recovery from Jailbreak/Attacker|Guard Recovery from Jailbreak]]** (20% of attempts)
 
-- **[[Transitions/Old School Sweep/Attacker|Old School Sweep]]** (12% of attempts)
+- **[[Transitions/Old School Sweep/Attacker|Old School Sweep]]** (13% of attempts)
 
-- **[[Transitions/Lockdown Recovery/Attacker|Lockdown Recovery]]** (12% of attempts)
+- **[[Transitions/Lockdown Recovery/Attacker|Lockdown Recovery]]** (16% of attempts)
 
-- **[[Transitions/Electric Chair Transition/Attacker|Electric Chair Transition]]** (10% of attempts)
+- **[[Transitions/Electric Chair Transition/Attacker|Electric Chair Transition]]** (9% of attempts)
 
 
 ### Common Mistakes
@@ -214,21 +298,21 @@ The biomechanical principle underlying the Jailbreak from bottom involves conver
 
 - **[[Transitions/Leg Weave Pass/Attacker|Leg Weave Pass]]** (12% of attempts)
 
-- **[[Transitions/Smash Pass/Attacker|Smash Pass]]** (33% of attempts)
+- **[[Transitions/Smash Pass/Attacker|Smash Pass]]** (14% of attempts)
 
-- **[[Transitions/Knee Slice from Half/Attacker|Knee Slice from Half]]** (17% of attempts)
+- **[[Transitions/Knee Slice from Half/Attacker|Knee Slice from Half]]** (16% of attempts)
 
-- **[[Transitions/Underhook Pass/Attacker|Underhook Pass]]** (17% of attempts)
+- **[[Transitions/Underhook Pass/Attacker|Underhook Pass]]** (12% of attempts)
 
-- **[[Transitions/Darce Setup/Attacker|Darce Setup]]** (9% of attempts)
+- **[[Transitions/Darce Setup/Attacker|Darce Setup]]** (10% of attempts)
 
-- **[[Transitions/Front Headlock to Back/Attacker|Front Headlock to Back]]** (7% of attempts)
+- **[[Transitions/Front Headlock to Back/Attacker|Front Headlock to Back]]** (10% of attempts)
 
-- **[[Transitions/Knee Slide from Jailbreak/Attacker|Knee Slide from Jailbreak]]** (3% of attempts)
+- **[[Transitions/Knee Slide from Jailbreak/Attacker|Knee Slide from Jailbreak]]** (10% of attempts)
 
-- **[[Transitions/North-South Recovery from Jailbreak/Attacker|North-South Recovery from Jailbreak]]** (1% of attempts)
+- **[[Transitions/North-South Recovery from Jailbreak/Attacker|North-South Recovery from Jailbreak]]** (6% of attempts)
 
-- **[[Transitions/Reestablish Side Control from Jailbreak/Attacker|Reestablish Side Control from Jailbreak]]** (1% of attempts)
+- **[[Transitions/Reestablish Side Control from Jailbreak/Attacker|Reestablish Side Control from Jailbreak]]** (10% of attempts)
 
 
 ### Common Mistakes

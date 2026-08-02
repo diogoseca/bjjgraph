@@ -21,37 +21,37 @@ description: "Master Vaporizer top defense in BJJ. Complete guide to escaping lo
     {
       "@type": "HowToStep",
       "name": "Execute Half Guard Pass",
-      "text": "From this position, attempt Half Guard Pass. This technique is attempted in 33% of exchanges from this position.",
+      "text": "From this position, attempt Half Guard Pass. This technique is attempted in 13% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Knee Slice Pass",
-      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 14% of exchanges from this position.",
+      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 18% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Smash Pass",
-      "text": "From this position, attempt Smash Pass. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Smash Pass. This technique is attempted in 15% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Pressure Pass",
-      "text": "From this position, attempt Pressure Pass. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Pressure Pass. This technique is attempted in 13% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Whizzer",
-      "text": "From this position, attempt Whizzer. This technique is attempted in 18% of exchanges from this position.",
+      "text": "From this position, attempt Whizzer. This technique is attempted in 10% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Defend Vaporizer Sweep",
-      "text": "From this position, attempt Defend Vaporizer Sweep. This technique is attempted in 6% of exchanges from this position.",
+      "text": "From this position, attempt Defend Vaporizer Sweep. This technique is attempted in 15% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -153,6 +153,54 @@ description: "Master Vaporizer top defense in BJJ. Complete guide to escaping lo
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Vaporizer (Top) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Lockdown Escape",
+      "description": "Vaporizer (Top) film study: Lockdown Escape, taught by Thunderdome BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/PptkZQh_MFA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/PptkZQh_MFA",
+      "url": "https://www.youtube.com/watch?v=PptkZQh_MFA",
+      "creator": { "@type": "Person", "name": "Thunderdome BJJ" },
+      "duration": "PT31S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Lockdown half guard break",
+      "description": "Vaporizer (Top) film study: Lockdown half guard break, taught by Superhero Jiu Jitsu Academy.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/-49CypLW9aM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/-49CypLW9aM",
+      "url": "https://www.youtube.com/watch?v=-49CypLW9aM",
+      "creator": { "@type": "Person", "name": "Superhero Jiu Jitsu Academy" },
+      "duration": "PT61S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Advanced Half Guard Lockdown Pass w/ Backstep",
+      "description": "Vaporizer (Top) film study: Advanced Half Guard Lockdown Pass w/ Backstep, taught by Peter Mettler.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ABSueJ6cwis/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ABSueJ6cwis",
+      "url": "https://www.youtube.com/watch?v=ABSueJ6cwis",
+      "creator": { "@type": "Person", "name": "Peter Mettler" },
+      "duration": "PT98S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -164,6 +212,42 @@ From the top position in the Vaporizer, the primary objective is to neutralize t
 Successful navigation of this position requires understanding the systematic nature of 10th Planet attacks emanating from the Vaporizer. The top player must recognize that every defensive action creates a potential counter-opportunity for the bottom player, making it essential to employ defensive sequences that address multiple threats simultaneously. Whether clearing the lockdown through leg positioning adjustments, countering the whip-up with base management, or transitioning to safer passing positions, the Vaporizer top position tests a practitioner's ability to remain composed under pressure while executing technically sound defensive movements.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Vaporizer (Top) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=PptkZQh_MFA)
+
+<p class="clip-credit"><strong>Lockdown Escape</strong> — taught by Thunderdome BJJ · 0:31 · <a href="https://www.youtube.com/watch?v=PptkZQh_MFA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=-49CypLW9aM)
+
+<p class="clip-credit"><strong>Lockdown half guard break</strong> — taught by Superhero Jiu Jitsu Academy · 1:01 · <a href="https://www.youtube.com/watch?v=-49CypLW9aM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ABSueJ6cwis)
+
+<p class="clip-credit"><strong>Advanced Half Guard Lockdown Pass w/ Backstep</strong> — taught by Peter Mettler · 1:38 · <a href="https://www.youtube.com/watch?v=ABSueJ6cwis" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

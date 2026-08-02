@@ -34,6 +34,54 @@ description: "Master the Chin Strap Guillotine in BJJ. High-control choke target
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Chin Strap Guillotine from Front Headlock \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Guillotine From Front Headlock",
+      "description": "Chin Strap Guillotine from Front Headlock film study: Guillotine From Front Headlock, taught by Chris Jones.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/GgXRLKAm9pY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/GgXRLKAm9pY",
+      "url": "https://www.youtube.com/watch?v=GgXRLKAm9pY",
+      "creator": { "@type": "Person", "name": "Chris Jones" },
+      "duration": "PT97S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Chin Strap Basics",
+      "description": "Chin Strap Guillotine from Front Headlock film study: Chin Strap Basics, taught by Dante Leon.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/7be6L0alFug/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/7be6L0alFug",
+      "url": "https://www.youtube.com/watch?v=7be6L0alFug",
+      "creator": { "@type": "Person", "name": "Dante Leon" },
+      "duration": "PT166S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Diving Guillotine",
+      "description": "Chin Strap Guillotine from Front Headlock film study: Diving Guillotine, taught by Marcelo Garcia.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ihbFhV4DA-M/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ihbFhV4DA-M",
+      "url": "https://www.youtube.com/watch?v=ihbFhV4DA-M",
+      "creator": { "@type": "Person", "name": "Marcelo Garcia" },
+      "duration": "PT179S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -76,6 +124,42 @@ The submission works exceptionally well in no-gi situations where collar grips a
 **Starting Position**: [[Positions/Front Headlock]] · **From**: [[Positions/Front Headlock]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Chin Strap Guillotine from Front Headlock in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=GgXRLKAm9pY)
+
+<p class="clip-credit"><strong>Guillotine From Front Headlock</strong> — taught by Chris Jones · 1:37 · <a href="https://www.youtube.com/watch?v=GgXRLKAm9pY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=7be6L0alFug)
+
+<p class="clip-credit"><strong>Chin Strap Basics</strong> — taught by Dante Leon · 2:46 · <a href="https://www.youtube.com/watch?v=7be6L0alFug" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ihbFhV4DA-M)
+
+<p class="clip-credit"><strong>Diving Guillotine</strong> — taught by Marcelo Garcia · 2:59 · <a href="https://www.youtube.com/watch?v=ihbFhV4DA-M" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="outcomes" class="content-section">
 
@@ -257,16 +341,15 @@ The submission works exceptionally well in no-gi situations where collar grips a
 <section id="related" class="content-section">
 
 ## Related
-- [[Transitions/Guillotine Choke]]
+- [[Submissions/Guillotine Choke]]
 - [[Submissions/High Elbow Guillotine]]
 - [[Submissions/Arm in Guillotine]]
 - [[Submissions/Ten Finger Guillotine]]
-- [[Transitions/Darce Choke]]
+- [[Submissions/Darce Choke]]
 - [[Transitions/Anaconda Choke]]
 - [[Submissions/Rear Naked Choke]]
-- [[Transitions/Arm Triangle]]
-- [[Submissions/Von Flue Choke]]
-- [[Transitions/North-South Choke]]
+- [[Submissions/Arm Triangle]]
+- [[Submissions/North-South Choke]]
 - [[Submissions/Brabo Choke]]
 - [[Transitions/Guillotine Setup]] - Primary entry transition for establishing chin strap position
 - [[Positions/Front Headlock]] - Broader control system containing chin strap as one finishing option
@@ -322,6 +405,15 @@ The submission works exceptionally well in no-gi situations where collar grips a
 
 </section>
 
+<section id="related-systems" class="content-section related-systems">
 
+## Train this with a System
+
+<div class="related-systems-grid">
+<a class="system-card" href="/Systems/Danaher-Front-Headlock-System" data-cta="related-system-card" data-system-slug="systems/danaher-front-headlock-system" data-system-name="Danaher Front Headlock System" data-member-count="30"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Danaher Front Headlock System</span><span class="system-card__unlocks-badge">Unlocks 30 techniques</span><span class="system-card__blurb">Guillotine variation using chinstrap grip configuration</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Control System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Marcelo-Garcia-Guillotine-System" data-cta="related-system-card" data-system-slug="systems/marcelo-garcia-guillotine-system" data-system-name="Marcelo Garcia Guillotine System" data-member-count="25"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Marcelo Garcia Guillotine System</span><span class="system-card__unlocks-badge">Unlocks 25 techniques</span><span class="system-card__blurb">Grip variation providing additional control and finishing options within the system</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Submission Chain</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+</div>
+
+</section>
 
 </main>

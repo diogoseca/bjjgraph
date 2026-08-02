@@ -168,6 +168,54 @@ description: "How to execute Guillotine from Turtle in BJJ. Attacking perspectiv
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Guillotine from Turtle (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "High elbow guillotine from front turtle",
+      "description": "Guillotine from Turtle (Attacker) film study: High elbow guillotine from front turtle, taught by Michael Hoffman.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/6mHJ8Mh6fDs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/6mHJ8Mh6fDs",
+      "url": "https://www.youtube.com/watch?v=6mHJ8Mh6fDs",
+      "creator": { "@type": "Person", "name": "Michael Hoffman" },
+      "duration": "PT22S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Guillotine choke from turtle",
+      "description": "Guillotine from Turtle (Attacker) film study: Guillotine choke from turtle, taught by Cavalo Jiu-Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Mw5qLLzjay4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Mw5qLLzjay4",
+      "url": "https://www.youtube.com/watch?v=Mw5qLLzjay4",
+      "creator": { "@type": "Person", "name": "Cavalo Jiu-Jitsu" },
+      "duration": "PT49S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Arm-in guillotine attacking the front headlock",
+      "description": "Guillotine from Turtle (Attacker) film study: Arm-in guillotine attacking the front headlock, taught by BJJ101.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/bVNnVVnAWnU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/bVNnVVnAWnU",
+      "url": "https://www.youtube.com/watch?v=bVNnVVnAWnU",
+      "creator": { "@type": "Person", "name": "BJJ101" },
+      "duration": "PT35S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -177,6 +225,42 @@ The Guillotine from Turtle is a high-percentage submission setup that capitalize
 **From Position**: [[Positions/Turtle]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Guillotine from Turtle (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=6mHJ8Mh6fDs)
+
+<p class="clip-credit"><strong>High elbow guillotine from front turtle</strong> — taught by Michael Hoffman · 0:22 · <a href="https://www.youtube.com/watch?v=6mHJ8Mh6fDs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Mw5qLLzjay4)
+
+<p class="clip-credit"><strong>Guillotine choke from turtle</strong> — taught by Cavalo Jiu-Jitsu · 0:49 · <a href="https://www.youtube.com/watch?v=Mw5qLLzjay4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=bVNnVVnAWnU)
+
+<p class="clip-credit"><strong>Arm-in guillotine attacking the front headlock</strong> — taught by BJJ101 · 0:35 · <a href="https://www.youtube.com/watch?v=bVNnVVnAWnU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

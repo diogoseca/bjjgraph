@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Spider Guard/Bottom",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Double Sleeve Guard/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Open Guard/Top",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "The Double Sleeve to Spider Guard transition represents one of the most natural guard evolution pathways in gi jiu-jitsu. Starting from bilateral sleeve control with feet on the opponent's hips, the bottom player systematically repositions their feet from the hips to the biceps, establishing the distinctive spider guard hooks that create superior distance management and enhanced attacking angles. This transition leverages the existing sleeve grips as a foundation, making it one of the lowest-risk guard transitions available from the double sleeve position.\n\nThe core mechanic involves converting horizontal hip-pushing control into vertical bicep-pushing control. In double sleeve guard, your feet push the opponent's hips away while your hands pull their sleeves. In spider guard, your feet push directly against their arms while maintaining the same sleeve grips, creating a much stronger mechanical connection that uses your legs against their arms—a favorable strength asymmetry that allows smaller practitioners to control larger opponents effectively.\n\nTiming is critical in this transition. Moving both feet simultaneously to the biceps creates a momentary gap in your defensive structure that alert opponents can exploit to strip grips or initiate passing sequences. The preferred approach is transitioning one foot at a time, maintaining at least one point of distance control throughout the movement. Reading the opponent's weight distribution and posture to identify the optimal transition window separates competent guard players from elite ones.",
   "conditions": [
     "Both sleeve grips are firmly established at or near opponent's cuffs",
@@ -243,38 +255,147 @@
     "flashcards": [
       {
         "question": "What is the critical timing window for transitioning the first foot from hip to bicep?",
-        "answer": "The optimal window is when the opponent's weight shifts forward or they are occupied with grip fighting on the opposite side. Their forward weight commitment makes their arms extend naturally, bringing the biceps within range. Attempting the transition when they are postured upright with retracted arms makes foot placement significantly harder and risks losing distance control."
+        "answer": "The optimal window is when the opponent's weight shifts forward or they are occupied with grip fighting on the opposite side. Their forward weight commitment makes their arms extend naturally, bringing the biceps within range. Attempting the transition when they are postured upright with retracted arms makes foot placement significantly harder and risks losing distance control.",
+        "answer_line": "When they shift weight forward",
+        "distractors": {
+          "plausible": [
+            "When they posture up straight",
+            "Immediately after grip break"
+          ],
+          "trap": [
+            "When they retract both arms"
+          ]
+        }
       },
       {
         "question": "Why must you maintain sleeve grip tension throughout the transition rather than briefly relaxing grips?",
-        "answer": "Sleeve grip tension serves as your primary control mechanism during the transition window when your feet are between positions. If you relax tension, the opponent can retract their arms making bicep placement impossible, strip your grips entirely, or drive forward through the gap in your defensive structure. The grips are your safety net while your feet are in transit between control points."
+        "answer": "Sleeve grip tension serves as your primary control mechanism during the transition window when your feet are between positions. If you relax tension, the opponent can retract their arms making bicep placement impossible, strip your grips entirely, or drive forward through the gap in your defensive structure. The grips are your safety net while your feet are in transit between control points.",
+        "answer_line": "Grips are your safety net",
+        "distractors": {
+          "plausible": [
+            "To set up the arm bar",
+            "To control their hips"
+          ],
+          "trap": [
+            "Briefly relax to reset grip"
+          ]
+        }
       },
       {
         "question": "Which foot should you transition first when your opponent's weight is shifted to their right side?",
-        "answer": "Transition your right foot to their left bicep first, as their weight commitment to their right side means their left arm is carrying less structural load and is easier to control with a bicep hook. The lighter arm offers less resistance to foot placement and the opponent cannot easily redirect weight to defend both sides simultaneously."
+        "answer": "Transition your right foot to their left bicep first, as their weight commitment to their right side means their left arm is carrying less structural load and is easier to control with a bicep hook. The lighter arm offers less resistance to foot placement and the opponent cannot easily redirect weight to defend both sides simultaneously.",
+        "answer_line": "Right foot to left bicep first",
+        "distractors": {
+          "plausible": [
+            "Hook their heavy right arm first",
+            "Post left foot on their hip first"
+          ],
+          "trap": [
+            "Drop feet, grab their collar"
+          ]
+        }
       },
       {
         "question": "Your opponent posts their hand on your hip during the transition—how do you adjust?",
-        "answer": "A posted hand on your hip means that arm is committed and cannot defend against the bicep hook. Place your foot on the bicep of their posting arm first, as their hand is anchored to your hip and cannot retract to prevent the hook. Then use the established hook to push their arm away from your hip, breaking their post and establishing your spider guard simultaneously."
+        "answer": "A posted hand on your hip means that arm is committed and cannot defend against the bicep hook. Place your foot on the bicep of their posting arm first, as their hand is anchored to your hip and cannot retract to prevent the hook. Then use the established hook to push their arm away from your hip, breaking their post and establishing your spider guard simultaneously.",
+        "answer_line": "Hook the posting arm's bicep",
+        "distractors": {
+          "plausible": [
+            "Strip the hip post grip first",
+            "Switch attention to other arm"
+          ],
+          "trap": [
+            "Pull them onto the post"
+          ]
+        }
       },
       {
         "question": "What is the most critical foot placement detail for establishing effective bicep hooks?",
-        "answer": "Place the ball of your foot in the crease of the opponent's elbow or upper bicep, not on the flat of the bicep or shoulder. The crease creates a natural pocket that prevents your foot from sliding off under pressure. Your toes should point slightly inward toward the opponent's centerline, and your foot should push at a slight downward angle to pin their arm against their own body structure."
+        "answer": "Place the ball of your foot in the crease of the opponent's elbow or upper bicep, not on the flat of the bicep or shoulder. The crease creates a natural pocket that prevents your foot from sliding off under pressure. Your toes should point slightly inward toward the opponent's centerline, and your foot should push at a slight downward angle to pin their arm against their own body structure.",
+        "answer_line": "Ball of foot in elbow crease",
+        "distractors": {
+          "plausible": [
+            "Flat of foot on the bicep",
+            "Toes pointed outward"
+          ],
+          "trap": [
+            "Heel pressed on the shoulder"
+          ]
+        }
       },
       {
         "question": "How does the direction of force differ between double sleeve guard and spider guard?",
-        "answer": "In double sleeve guard, the primary force vector is horizontal—your feet push the opponent's hips away while your hands pull their sleeves toward you, creating a linear push-pull dynamic. In spider guard, the force becomes vertical and angular—your feet push upward and outward against their arms while your hands pull downward, creating a lever system that breaks posture through angular displacement rather than linear distance."
+        "answer": "In double sleeve guard, the primary force vector is horizontal—your feet push the opponent's hips away while your hands pull their sleeves toward you, creating a linear push-pull dynamic. In spider guard, the force becomes vertical and angular—your feet push upward and outward against their arms while your hands pull downward, creating a lever system that breaks posture through angular displacement rather than linear distance.",
+        "answer_line": "Horizontal push vs vertical lever",
+        "distractors": {
+          "plausible": [
+            "Both use horizontal force",
+            "Spider pulls, sleeve pushes only"
+          ],
+          "trap": [
+            "Force direction never changes"
+          ]
+        }
       },
       {
         "question": "What chain attacks become available after successfully establishing spider guard that were not accessible from double sleeve?",
-        "answer": "Spider guard opens triangle entries by pushing one arm across while pulling the other, creating arm isolation. Omoplata setups become available by rotating your hips under the extended arm. Balloon sweeps use the bicep hooks to elevate the opponent directly overhead. Pendulum sweeps gain power from the additional control point on the arms. These attacks require the bicep hook structure that double sleeve guard alone cannot provide."
+        "answer": "Spider guard opens triangle entries by pushing one arm across while pulling the other, creating arm isolation. Omoplata setups become available by rotating your hips under the extended arm. Balloon sweeps use the bicep hooks to elevate the opponent directly overhead. Pendulum sweeps gain power from the additional control point on the arms. These attacks require the bicep hook structure that double sleeve guard alone cannot provide.",
+        "answer_line": "Triangle, omoplata, balloon sweep",
+        "distractors": {
+          "plausible": [
+            "Armbar and kimura only",
+            "Only sweeps, no submissions"
+          ],
+          "trap": [
+            "Rear naked choke setup"
+          ]
+        }
       },
       {
         "question": "Your opponent begins retracting both arms forcefully as you attempt the transition—what is the best response?",
-        "answer": "Follow their arm retraction by sitting up immediately, using the sleeve grips to maintain connection. Their backward pull compromises their base and creates sweep opportunities. Attack with a tripod sweep by placing one foot on their hip and the other behind their knee while they are leaning backward. Alternatively, use their retraction to come to a seated position for a technical standup, as their arms are too retracted to prevent your elevation."
+        "answer": "Follow their arm retraction by sitting up immediately, using the sleeve grips to maintain connection. Their backward pull compromises their base and creates sweep opportunities. Attack with a tripod sweep by placing one foot on their hip and the other behind their knee while they are leaning backward. Alternatively, use their retraction to come to a seated position for a technical standup, as their arms are too retracted to prevent your elevation.",
+        "answer_line": "Sit up, attack tripod sweep",
+        "distractors": {
+          "plausible": [
+            "Re-establish sleeve grips only",
+            "Push hips back to reset"
+          ],
+          "trap": [
+            "Chase grips and lean forward"
+          ]
+        }
       }
     ],
-    "safety_considerations": "The Double Sleeve to Spider transition is a low-risk guard transition with minimal injury potential. However, practitioners should be aware that aggressive pulling on sleeve grips can cause finger strain over extended training sessions. Use proper four-finger pistol grips rather than death-gripping to preserve finger joint health. If you feel your grips weakening due to fatigue, transition to a less grip-dependent guard rather than fighting through pain. Partners should communicate if sleeve pressure causes discomfort at the elbow or wrist joints."
+    "safety_considerations": "The Double Sleeve to Spider transition is a low-risk guard transition with minimal injury potential. However, practitioners should be aware that aggressive pulling on sleeve grips can cause finger strain over extended training sessions. Use proper four-finger pistol grips rather than death-gripping to preserve finger joint health. If you feel your grips weakening due to fatigue, transition to a less grip-dependent guard rather than fighting through pain. Partners should communicate if sleeve pressure causes discomfort at the elbow or wrist joints.",
+    "clips": [
+      {
+        "id": "UiLkVg7by60",
+        "title": "Double sleeve guard sweep",
+        "by": "Han Bin Seo",
+        "vertical": false,
+        "channel": "서한빈",
+        "duration": 16,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "WQcr_6wkXo8",
+        "title": "Spider guard double sleeve triangle choke",
+        "by": "Ritchie Yip",
+        "vertical": false,
+        "channel": "Ritchie Yip",
+        "duration": 25,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "CphfVS-0W6Y",
+        "title": "Spider guard sweep to one leg X sweep to side control",
+        "by": "Lucas Lepri",
+        "vertical": false,
+        "channel": "Lucas Lepri Brazilian Jiu Jitsu & Fitness",
+        "duration": 35,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Double Sleeve to Spider Defender",
@@ -360,23 +481,73 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that your opponent is attempting the Double Sleeve to Spider transition?",
-        "answer": "The earliest cue is a change in sleeve pulling direction—shifting from horizontal pulls toward their hips to slightly downward pulls that aim to extend your arms. This precedes the foot movement and signals their intention to bring your biceps into foot range. The foot sliding upward from the hip is a secondary cue that confirms the transition, but by then you have less time to react preemptively."
+        "answer": "The earliest cue is a change in sleeve pulling direction—shifting from horizontal pulls toward their hips to slightly downward pulls that aim to extend your arms. This precedes the foot movement and signals their intention to bring your biceps into foot range. The foot sliding upward from the hip is a secondary cue that confirms the transition, but by then you have less time to react preemptively.",
+        "answer_line": "Sleeve pulls shift downward",
+        "distractors": {
+          "plausible": [
+            "Foot slides up from hip",
+            "Opponent breaks eye contact"
+          ],
+          "trap": [
+            "Wait for foot on bicep"
+          ]
+        }
       },
       {
         "question": "Why is the transition window your most effective defensive opportunity?",
-        "answer": "During the transition window, the opponent's feet are between positions—no longer controlling your hips and not yet established on your biceps. Their defensive structure has a momentary gap because they have reduced their contact points from two (feet on hips plus sleeve grips) to one (sleeve grips only). This is when grip strips and forward pressure are most effective because there are no leg frames to stop your advancement."
+        "answer": "During the transition window, the opponent's feet are between positions—no longer controlling your hips and not yet established on your biceps. Their defensive structure has a momentary gap because they have reduced their contact points from two (feet on hips plus sleeve grips) to one (sleeve grips only). This is when grip strips and forward pressure are most effective because there are no leg frames to stop your advancement.",
+        "answer_line": "Only one contact point remains",
+        "distractors": {
+          "plausible": [
+            "They have full guard control",
+            "Their base is most stable"
+          ],
+          "trap": [
+            "Wait for hooks to set first"
+          ]
+        }
       },
       {
         "question": "How should you adjust your arm position when you feel increased pulling tension on your sleeves?",
-        "answer": "Immediately pin your elbows to your ribs and engage your back muscles to retract your arms. Sit your hips back and straighten your spine to create posture-based resistance rather than arm-based resistance. This positions your biceps behind your forearms and beyond the reach of their feet, requiring them to pull significantly harder to create the arm extension they need for foot placement."
+        "answer": "Immediately pin your elbows to your ribs and engage your back muscles to retract your arms. Sit your hips back and straighten your spine to create posture-based resistance rather than arm-based resistance. This positions your biceps behind your forearms and beyond the reach of their feet, requiring them to pull significantly harder to create the arm extension they need for foot placement.",
+        "answer_line": "Pin elbows, sit hips back",
+        "distractors": {
+          "plausible": [
+            "Pull arms forward to resist",
+            "Grip fight to break their hold"
+          ],
+          "trap": [
+            "Extend arms to create space"
+          ]
+        }
       },
       {
         "question": "Your opponent successfully places one foot on your bicep—what immediate action prevents full spider guard establishment?",
-        "answer": "Circle toward the hooked side while simultaneously working to strip the sleeve grip on that side. Circling reduces the hook's effectiveness because the angle change shortens their leg line and compromises their extension. While addressing that hook, keep your other elbow pinned to prevent the second hook. If you can strip the grip on the hooked side, the foot loses its controlling connection and can be pushed off easily."
+        "answer": "Circle toward the hooked side while simultaneously working to strip the sleeve grip on that side. Circling reduces the hook's effectiveness because the angle change shortens their leg line and compromises their extension. While addressing that hook, keep your other elbow pinned to prevent the second hook. If you can strip the grip on the hooked side, the foot loses its controlling connection and can be pushed off easily.",
+        "answer_line": "Circle toward the hooked side",
+        "distractors": {
+          "plausible": [
+            "Circle away from the hook",
+            "Strip the far side grip"
+          ],
+          "trap": [
+            "Pull both arms back sharply"
+          ]
+        }
       },
       {
         "question": "What passing strategy should you employ if you successfully strip grips during the transition window?",
-        "answer": "Immediately establish your own grips on their pants at the knees and drive forward with controlled pressure. The opponent is in a transitional state with feet between positions and at least one grip broken—this is the optimal passing window. Toreando pass or leg drag pass are the highest-percentage options because you can redirect their legs before they re-establish any guard structure. Do not pause after the grip strip—immediate forward advancement is critical."
+        "answer": "Immediately establish your own grips on their pants at the knees and drive forward with controlled pressure. The opponent is in a transitional state with feet between positions and at least one grip broken—this is the optimal passing window. Toreando pass or leg drag pass are the highest-percentage options because you can redirect their legs before they re-establish any guard structure. Do not pause after the grip strip—immediate forward advancement is critical.",
+        "answer_line": "Drive forward, toreando pass",
+        "distractors": {
+          "plausible": [
+            "Pause and reset stance first",
+            "Circle to re-grip sleeves"
+          ],
+          "trap": [
+            "Wait for them to re-guard"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -399,6 +570,35 @@
         "phase": "Phase 4: Live Defense",
         "focus": "Full resistance transition defense",
         "description": "Positional sparring where the bottom player starts in double sleeve guard and attempts to establish spider guard. You must prevent the transition and advance to a passing position. Track success rate and refine timing. Progress to open sparring scenarios where the transition can happen at any time."
+      }
+    ],
+    "clips": [
+      {
+        "id": "hELDQRRa8iw",
+        "title": "Throw-by trick to pass sticky guards",
+        "by": "Gold BJJ",
+        "vertical": false,
+        "channel": "Gold BJJ",
+        "duration": 156,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "XK-wLG3B0xU",
+        "title": "How to pass the spider guard",
+        "by": "Jon Thomas",
+        "vertical": false,
+        "channel": "JonThomasBJJ Plus",
+        "duration": 205,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "wje0dLTWHlo",
+        "title": "Spider guard grip breaks",
+        "by": "Sentosa Martial Arts",
+        "vertical": false,
+        "channel": "Sentosa Martial Arts and Fitness",
+        "duration": 248,
+        "verified": "2026-07-15"
       }
     ]
   }

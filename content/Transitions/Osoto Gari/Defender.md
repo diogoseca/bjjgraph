@@ -149,6 +149,43 @@ description: "How to defend against Osoto Gari in BJJ. Recognition cues, defensi
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Osoto Gari (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "No-gi Osoto Gari counter",
+      "description": "Osoto Gari (Defender) film study: No-gi Osoto Gari counter, taught by BJJ4Breakfast.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/st_61V1EcVE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/st_61V1EcVE",
+      "url": "https://www.youtube.com/watch?v=st_61V1EcVE",
+      "creator": { "@type": "Person", "name": "BJJ4Breakfast" },
+      "duration": "PT128S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Osoto Gari: watching out for the counter",
+      "description": "Osoto Gari (Defender) film study: Osoto Gari: watching out for the counter, taught by David Groom.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/LdjSdus6LVE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/LdjSdus6LVE",
+      "url": "https://www.youtube.com/watch?v=LdjSdus6LVE",
+      "creator": { "@type": "Person", "name": "David Groom" },
+      "duration": "PT171S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <aside class="entity-relations">
@@ -161,6 +198,34 @@ Defending Osoto Gari requires understanding the throw's mechanical sequence so y
 **Opponent's Starting Position**: [[Positions/Standing Position]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Osoto Gari (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=st_61V1EcVE)
+
+<p class="clip-credit"><strong>No-gi Osoto Gari counter</strong> — taught by BJJ4Breakfast · 2:08 · <a href="https://www.youtube.com/watch?v=st_61V1EcVE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=LdjSdus6LVE)
+
+<p class="clip-credit"><strong>Osoto Gari: watching out for the counter</strong> — taught by David Groom · 2:51 · <a href="https://www.youtube.com/watch?v=LdjSdus6LVE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

@@ -20,7 +20,10 @@
   "target_area": "Carotid arteries and trachea",
   "starting_position": "Side Control",
   "from_position": "Side Control/Top",
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "overview": "The North-South Choke from Side Control is a powerful blood choke that combines positional transition with submission finishing in a single fluid sequence. Unlike entries from north-south itself, this variation begins from a stable side control position and uses the transition toward north-south as the mechanism for threading the choking arm underneath the opponent's near-side neck. The movement catches many opponents off-guard because they are focused on defending the standard side control attacks — americana, kimura, and arm triangle — rather than anticipating the rotational transition that sets up the choke.\n\nThe key mechanical advantage of entering from side control is that the crossface already controls the opponent's head position, making it straightforward to slide the choking arm into place as you walk your body toward the north-south angle. The finishing pressure comes from a combination of the choking arm compressing one carotid artery while the shoulder and chest weight compress the other side, creating bilateral carotid occlusion that produces unconsciousness within seconds when applied correctly. The attacker's sprawled legs and chest-to-chest contact prevent the defender from creating the space needed to relieve pressure.\n\nThis submission is particularly effective against opponents who defend side control by keeping their elbows tight and chin tucked, as the transition bypasses those defensive structures entirely. The choke does not require a gi, making it equally effective in no-gi competition, and the slow, grinding nature of the setup makes it difficult for referees to identify the danger early — a significant tactical advantage in competition settings where opponents may not realize the severity of the choke until it is too late to escape.",
   "safety_considerations": {
     "injury_risks": [
@@ -110,17 +113,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 58,
+      "probability": {
+        "gi": 58,
+        "nogi": 58
+      },
       "result": "success"
     },
     {
       "to": "Side Control/Top",
-      "probability": 27,
+      "probability": {
+        "gi": 27,
+        "nogi": 27
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
@@ -270,52 +282,181 @@
       {
         "question": "What anatomical structures does the North-South Choke target and how does bilateral compression work?",
         "answer": "The choke targets both carotid arteries simultaneously. The choking arm's bicep compresses the near-side carotid artery while the shoulder and pectoral muscles compress the far-side carotid. This bilateral occlusion cuts blood flow to the brain and produces unconsciousness within 5-10 seconds when applied correctly. The trachea may also experience secondary compression but the primary mechanism is blood choke, not air choke.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Bicep+shoulder choke both carotids",
+        "distractors": {
+          "plausible": [
+            "Bicep chokes throat, not carotid",
+            "Crossface pressure cuts blood flow"
+          ],
+          "trap": [
+            "It's mainly a trachea air choke"
+          ]
+        }
       },
       {
         "question": "Your opponent's near-side arm is framing against your hip as you attempt to initiate the choke — what do you do?",
         "answer": "You must clear the near-side arm before threading the choking arm. Swim your underhook deeper and use your shoulder pressure to collapse their frame. Alternatively, use your crossface hand to push their wrist above their head or toward their opposite hip. If you thread the choking arm with their arm still in the way, it will block the carotid compression and the choke will not work, turning it into an uncomfortable but ineffective squeeze.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Clear the frame before threading",
+        "distractors": {
+          "plausible": [
+            "Thread arm around the frame",
+            "Push their elbow to the mat"
+          ],
+          "trap": [
+            "Crank down without clearing arm"
+          ]
+        }
       },
       {
         "question": "What is the difference between a clean blood choke and a neck crank in this position, and why does it matter?",
         "answer": "A clean blood choke compresses both carotid arteries with the bicep and shoulder, producing unconsciousness safely with minimal pain. A neck crank occurs when the arm is too shallow (elbow at the chin rather than past it) and twists the cervical spine instead of compressing arteries. Cranks cause significant pain, risk cervical injury, and are unreliable as finishes. In training, always ensure your elbow depth passes beyond the chin to the far side of the neck before applying pressure.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Elbow past chin = clean choke",
+        "distractors": {
+          "plausible": [
+            "Elbow at the chin is fine",
+            "Crank is just a slower choke"
+          ],
+          "trap": [
+            "Twist harder to force the tap"
+          ]
+        }
       },
       {
         "question": "You have threaded your arm and started the transition but the choke feels loose after 5 seconds of pressure — what adjustments should you try?",
         "answer": "First, walk your hips slightly further toward full north-south to change the shoulder angle. Second, turn your choking-side wrist so your palm faces the ceiling, rotating the radius bone into the carotid more effectively. Third, ensure your sprawl is complete with hips flat on the mat — elevated hips reduce shoulder pressure. If none of these adjustments produce a tighter choke, release and re-establish side control rather than holding a poor position that drains your energy.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Turn wrist palm-up, flatten hips",
+        "distractors": {
+          "plausible": [
+            "Squeeze harder with same angle",
+            "Pull head down for more bite"
+          ],
+          "trap": [
+            "Hold position and wait it out"
+          ]
+        }
       },
       {
         "question": "Why is it critical to maintain chest contact throughout the entire transition from side control to the choking position?",
         "answer": "Chest contact serves two purposes: it prevents the opponent from creating space to insert frames, turn in, or recover guard, and it maintains the pressure that keeps the choking arm threaded deep. If you lift your chest even briefly during the transition, the opponent can bridge to create space, get their near-side arm inside the choke, or shrimp their hips away to recover half guard. The transition and the pressure are inseparable — every step of the walk toward north-south should increase compression, not relieve it.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Never lift chest during the walk",
+        "distractors": {
+          "plausible": [
+            "Keep pressure only at the end",
+            "Light chest, heavy hips instead"
+          ],
+          "trap": [
+            "Rise up to see position clearly"
+          ]
+        }
       },
       {
         "question": "What are the immediate steps you must take when your training partner taps to this choke?",
         "answer": "Immediately release all arm pressure and remove your shoulder from their neck. Roll off their head and neck area completely to eliminate any residual compression. Allow your partner to recover in a side-lying position with a clear airway. Monitor them for signs of normal consciousness and breathing. Do not move their neck manually — let them move naturally. If they lost consciousness before tapping, alert coaching staff immediately and place them in the recovery position.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Release instantly, check breathing",
+        "distractors": {
+          "plausible": [
+            "Ease off slowly, then release",
+            "Ask if they're okay, then release"
+          ],
+          "trap": [
+            "Hold a beat to confirm the tap"
+          ]
+        }
       },
       {
         "question": "Your opponent starts bridging explosively as you begin walking toward north-south — how do you maintain the choke setup?",
         "answer": "Drop your hips immediately and sprawl hard to absorb the upward force of the bridge. Keep your chest weight heavy on their face and upper chest rather than floating above them. If you maintain direct chest-to-chest contact, the bridge cannot generate enough space to be effective. If they create a momentary gap, backstep your far-side leg quickly to prevent guard recovery and re-settle your weight before continuing the walk. Bridges are most dangerous when they catch you mid-step with your weight shifting.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Sprawl heavy, stay chest-to-chest",
+        "distractors": {
+          "plausible": [
+            "Float weight to stay mobile",
+            "Base out on hands, ride bridge"
+          ],
+          "trap": [
+            "Post up high to avoid the force"
+          ]
+        }
       },
       {
         "question": "In competition, what strategic advantage does the slow transition to this choke provide?",
         "answer": "The gradual transition from side control to north-south disguises the submission setup as a positional adjustment. Referees and opponents often do not recognize the choke threat until the arm is already deep and the position is locked. This means the opponent's defensive reactions come late, after the choke is already partially applied. Additionally, the slow grind of the transition is demoralizing and forces the opponent to expend energy defending what feels like pressure passing rather than a submission attack, creating a psychological advantage in longer matches.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Hides the setup as position change",
+        "distractors": {
+          "plausible": [
+            "Awards guard-pass points faster",
+            "Lets you rest mid-match"
+          ],
+          "trap": [
+            "Announce the choke to intimidate"
+          ]
+        }
       },
       {
         "question": "What grip does your free hand take during the finish and why?",
         "answer": "The free hand typically grabs your own thigh on the choking-arm side or reaches under the opponent's far-side armpit for a controlling grip. Grabbing your own thigh locks your body into a tight frame that prevents the opponent from pushing your shoulder away and stabilizes the choking arm angle. Reaching under the far-side armpit controls the opponent's ability to turn away and adds a pulling force that supplements the choking compression. The specific grip depends on the opponent's defensive posture, but both options anchor the position and increase finishing pressure.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Grab own thigh or far armpit",
+        "distractors": {
+          "plausible": [
+            "Grip their far collar instead",
+            "Post free hand on the mat"
+          ],
+          "trap": [
+            "Lift your chest to reach far"
+          ]
+        }
       },
       {
         "question": "How do you recognize the point of no escape for the defender in this choke?",
         "answer": "The point of no escape occurs when your choking arm is threaded past the opponent's chin to the far side of their neck, your shoulder is seated directly on the near-side carotid, and your hips are sprawled flat with legs wide. At this stage, the opponent has no avenue to insert their arm inside the choke, cannot bridge effectively against your sprawled base, and cannot shrimp because your chest weight pins their upper body. Any squeezing from this position produces immediate carotid compression. If all three conditions are met, the finish is a matter of progressive pressure application.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Arm past chin, hips sprawled flat",
+        "distractors": {
+          "plausible": [
+            "Crossface locked, legs together",
+            "Arm threaded, hips still elevated"
+          ],
+          "trap": [
+            "Chest lifted, squeezing hard"
+          ]
+        }
+      }
+    ],
+    "clips": [
+      {
+        "id": "z3RNUfHfiSM",
+        "title": "Marcelo Garcia - North South Choke",
+        "by": "Marcelo Garcia",
+        "vertical": false,
+        "channel": "Kon Ying",
+        "duration": 20,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "TkdKbLp5Ugo",
+        "title": "North South choke attack from side control",
+        "by": "Fighting Techniques Collection",
+        "vertical": false,
+        "channel": "Fighting Techniques Collection",
+        "duration": 78,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "HEocenfcpKg",
+        "title": "Side control to north south lapel choke",
+        "by": "JMA BKNY",
+        "vertical": false,
+        "channel": "JMA BKNY",
+        "duration": 62,
+        "verified": "2026-07-14"
       }
     ]
   },
@@ -409,22 +550,62 @@
       {
         "question": "What are the earliest warning signs that your opponent is setting up the North-South Choke from Side Control?",
         "answer": "The earliest signs are the crossface deepening beyond normal side control pressure with the arm sliding further under your neck, the opponent actively clearing or pinning your near-side arm, and the opponent beginning to walk their body toward north-south by stepping their far leg over your head. Any combination of these three indicates a choke setup and requires immediate defensive action before the arm thread is completed.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Crossface deepens, they walk north",
+        "distractors": {
+          "plausible": [
+            "They post on your far hip",
+            "They pull half guard underneath"
+          ],
+          "trap": [
+            "They just adjust their base weight"
+          ]
+        }
       },
       {
         "question": "When should you tap to the North-South Choke and what signals should you use?",
         "answer": "Tap immediately when you feel bilateral pressure on both sides of your neck and cannot breathe or feel lightheadedness beginning. Do not wait to see if you can escape — blood chokes produce unconsciousness within 5-10 seconds. Use rapid hand taps on the opponent's body, verbal tap, or rapid foot taps on the mat. If your arms are trapped, use verbal submission loudly. The key is tapping before you feel yourself fading, as reaction time decreases as consciousness diminishes.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Tap at first bilateral pressure",
+        "distractors": {
+          "plausible": [
+            "Wait to see if you can escape",
+            "Tap only once vision blurs"
+          ],
+          "trap": [
+            "Try to power through the fade"
+          ]
+        }
       },
       {
         "question": "Why is turning toward the attacker the correct defensive response rather than turning away?",
         "answer": "Turning toward the attacker blocks the arm thread by keeping your near-side shoulder and arm between the opponent's bicep and your neck. It also allows you to fight for an underhook and prevents the opponent from achieving the north-south angle. Turning away exposes the back of the neck, makes the arm thread easier by removing obstructions, and eliminates your ability to frame effectively. The only scenario where turning away might work is a very early stage turtle transition, but this carries its own risks.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Turn in to block the arm thread",
+        "distractors": {
+          "plausible": [
+            "Stay flat and wait for space",
+            "Reach back for their head"
+          ],
+          "trap": [
+            "Turn away, expose your back"
+          ]
+        }
       },
       {
         "question": "What is your best defensive option if the choking arm is already threaded but the attacker has not yet sprawled into the final position?",
         "answer": "Insert your near-side arm inside the choke space to block the carotid compression. Your forearm between the opponent's bicep and your neck prevents the blood choke from engaging. Simultaneously, hip escape aggressively and fight to turn into the attacker to disrupt their base. This is a temporary measure — the arm block buys time but is not sustainable. You must use the window to either escape to guard or force the attacker to abandon the choke and reset to side control.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Frame forearm inside, hip escape",
+        "distractors": {
+          "plausible": [
+            "Grab their wrist and pull it out",
+            "Turtle up to protect your neck"
+          ],
+          "trap": [
+            "Stay still and conserve energy"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -447,6 +628,26 @@
         "phase": "Phase 4: Live Positional Sparring",
         "focus": "Defending the complete attack sequence under full resistance",
         "description": "Start in side control with the attacker attempting the north-south choke. Defender uses all defensive tools — frames, turns, arm blocks, hip escapes — against full resistance. Rounds reset after successful defense, guard recovery, or tap. Builds the ability to integrate recognition, prevention, and escape into a cohesive defensive response."
+      }
+    ],
+    "clips": [
+      {
+        "id": "ZT4QcOFksxs",
+        "title": "Kimura escape from North South",
+        "by": "Street Jitsu",
+        "vertical": false,
+        "channel": "Street Jitsu",
+        "duration": 25,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "rmT52A--V3Q",
+        "title": "How to escape North South",
+        "by": "Jon Thomas",
+        "vertical": false,
+        "channel": "JonThomasBJJ Plus",
+        "duration": 203,
+        "verified": "2026-07-14"
       }
     ]
   }

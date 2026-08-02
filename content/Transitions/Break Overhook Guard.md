@@ -34,6 +34,43 @@ description: "Master the Break Overhook Guard technique in BJJ. Complete guide t
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Break Overhook Guard \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Breaking the overhook clamp from closed guard",
+      "description": "Break Overhook Guard film study: Breaking the overhook clamp from closed guard, taught by The Grappling Bloke.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/58LkTy6v3KQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/58LkTy6v3KQ",
+      "url": "https://www.youtube.com/watch?v=58LkTy6v3KQ",
+      "creator": { "@type": "Person", "name": "The Grappling Bloke" },
+      "duration": "PT109S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Overhook escape and half guard sweep",
+      "description": "Break Overhook Guard film study: Overhook escape and half guard sweep, taught by JiuJitsu.com.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/21-ZmD25pMs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/21-ZmD25pMs",
+      "url": "https://www.youtube.com/watch?v=21-ZmD25pMs",
+      "creator": { "@type": "Person", "name": "JiuJitsu.com" },
+      "duration": "PT197S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +106,34 @@ Successful execution returns the top player to neutral closed guard top position
 **Success Rate**: 50%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Break Overhook Guard in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=58LkTy6v3KQ)
+
+<p class="clip-credit"><strong>Breaking the overhook clamp from closed guard</strong> — taught by The Grappling Bloke · 1:49 · <a href="https://www.youtube.com/watch?v=58LkTy6v3KQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=21-ZmD25pMs)
+
+<p class="clip-credit"><strong>Overhook escape and half guard sweep</strong> — taught by JiuJitsu.com · 3:17 · <a href="https://www.youtube.com/watch?v=21-ZmD25pMs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

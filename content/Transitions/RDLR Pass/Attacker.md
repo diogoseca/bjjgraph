@@ -180,6 +180,54 @@ description: "How to execute the RDLR Pass in BJJ. Complete attacking guide cove
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "RDLR Pass (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Passing reverse de la riva",
+      "description": "RDLR Pass (Attacker) film study: Passing reverse de la riva, taught by Ronin Training Center.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ynFpOlFWdLw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ynFpOlFWdLw",
+      "url": "https://www.youtube.com/watch?v=ynFpOlFWdLw",
+      "creator": { "@type": "Person", "name": "Ronin Training Center" },
+      "duration": "PT68S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Reverse de la riva passing drills",
+      "description": "RDLR Pass (Attacker) film study: Reverse de la riva passing drills, taught by Carlos Miller.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/F5S-CtME6_U/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/F5S-CtME6_U",
+      "url": "https://www.youtube.com/watch?v=F5S-CtME6_U",
+      "creator": { "@type": "Person", "name": "Carlos Miller" },
+      "duration": "PT67S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Passing reverse de la riva with a shin slice",
+      "description": "RDLR Pass (Attacker) film study: Passing reverse de la riva with a shin slice, taught by BJJ4Breakfast.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/IdfQWVHikws/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/IdfQWVHikws",
+      "url": "https://www.youtube.com/watch?v=IdfQWVHikws",
+      "creator": { "@type": "Person", "name": "BJJ4Breakfast" },
+      "duration": "PT86S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -191,6 +239,42 @@ Success with this pass requires reading the guard player's weight distribution a
 **From Position**: [[Positions/De La Riva Guard/Reverse De La Riva Guard]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch RDLR Pass (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ynFpOlFWdLw)
+
+<p class="clip-credit"><strong>Passing reverse de la riva</strong> — taught by Ronin Training Center · 1:08 · <a href="https://www.youtube.com/watch?v=ynFpOlFWdLw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=F5S-CtME6_U)
+
+<p class="clip-credit"><strong>Reverse de la riva passing drills</strong> — taught by Carlos Miller · 1:07 · <a href="https://www.youtube.com/watch?v=F5S-CtME6_U" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=IdfQWVHikws)
+
+<p class="clip-credit"><strong>Passing reverse de la riva with a shin slice</strong> — taught by BJJ4Breakfast · 1:26 · <a href="https://www.youtube.com/watch?v=IdfQWVHikws" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Deep Half Guard/Bottom",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Flattened Half Guard/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Side Control/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "For purple and brown belts who keep getting flattened by heavy pressure passers, this entry reframes the entire defensive problem: rather than fighting back to the surface against the top player's full weight, you weaponize the very proximity that flattening creates. When pinned flat under crushing chest pressure with your half guard hook as the only remaining barrier, the dive underneath your opponent's center of gravity becomes available precisely because their chest pressure has brought their hips close to your head. The entry relies on precise timing, specific hip mechanics, and the ability to thread your body beneath the top player during momentary weight shifts.\n\nThis technique represents a paradigm shift in half guard recovery philosophy. Rather than fighting to re-establish frames and knee shields from the surface, a process that requires overcoming the top player's entire body weight, the deep half entry takes advantage of the proximity that flattening creates. Your opponent's chest pressure brings their hips close to your head, which is precisely the distance needed to dive under for deep half guard. What appears to be a crushing disadvantage becomes the setup for your escape, provided you understand the entry mechanics and timing windows.\n\nThe transition carries inherent risk because the entry movement temporarily removes your remaining defensive structures. During the dive, you momentarily abandon your half guard hook and frame, committing to reaching the deep half position. If the top player recognizes the entry early and counters with sprawling pressure or a backstep, you can end up passed to side control. This risk-reward calculation makes timing the critical variable, executing when the top player shifts weight to advance rather than when they are settled and applying static pressure.",
   "conditions": [
     "Bottom player retains half guard hook on at least one of top player's legs",
@@ -251,46 +263,175 @@
     "flashcards": [
       {
         "question": "What is the optimal timing window for initiating the deep half entry from flattened half guard?",
-        "answer": "The optimal window occurs when the top player shifts weight to advance their pass, typically during a knee slice initiation, grip adjustment, or hand post. This weight shift momentarily raises their hips from direct contact with your body, creating the space needed to thread underneath. Never force the entry against settled static pressure, as the movement requires space that only exists during active weight transfers."
+        "answer": "The optimal window occurs when the top player shifts weight to advance their pass, typically during a knee slice initiation, grip adjustment, or hand post. This weight shift momentarily raises their hips from direct contact with your body, creating the space needed to thread underneath. Never force the entry against settled static pressure, as the movement requires space that only exists during active weight transfers.",
+        "answer_line": "Time it to their weight shift",
+        "distractors": {
+          "plausible": [
+            "Attack when pressure is heaviest",
+            "Right when they secure crossface"
+          ],
+          "trap": [
+            "Force it against settled pressure"
+          ]
+        }
       },
       {
         "question": "Why must the hip turn and arm thread happen simultaneously rather than sequentially?",
-        "answer": "If you thread the arm without turning your hips, your body remains flat on the mat and cannot slide underneath the opponent. If you turn your hips without the arm thread, you have no anchor to pull yourself into position and the top player can easily re-flatten you. The coordinated movement creates a compound motion where the hip turn provides the angle and the arm thread provides the directional pull."
+        "answer": "If you thread the arm without turning your hips, your body remains flat on the mat and cannot slide underneath the opponent. If you turn your hips without the arm thread, you have no anchor to pull yourself into position and the top player can easily re-flatten you. The coordinated movement creates a compound motion where the hip turn provides the angle and the arm thread provides the directional pull.",
+        "answer_line": "Hip turn and arm thread together",
+        "distractors": {
+          "plausible": [
+            "Turn hips first, then thread arm",
+            "Thread the arm before hips turn"
+          ],
+          "trap": [
+            "Release the guard hook first"
+          ]
+        }
       },
       {
         "question": "Your opponent drives heavy crossface pressure and you cannot turn your hips for the entry - what alternative should you attempt?",
-        "answer": "When the crossface prevents hip rotation, switch to frame recovery instead. Use micro hip escapes to create incremental space, inserting your elbow as a wedge. Build toward re-establishing a knee shield. The deep half entry requires hip mobility that severe crossface pressure eliminates, and attempting it anyway results in a stalled half-entry position worse than flattened half guard."
+        "answer": "When the crossface prevents hip rotation, switch to frame recovery instead. Use micro hip escapes to create incremental space, inserting your elbow as a wedge. Build toward re-establishing a knee shield. The deep half entry requires hip mobility that severe crossface pressure eliminates, and attempting it anyway results in a stalled half-entry position worse than flattened half guard.",
+        "answer_line": "Frame recovery via micro escapes",
+        "distractors": {
+          "plausible": [
+            "Switch to underhook immediately",
+            "Wait passively for pressure to ease"
+          ],
+          "trap": [
+            "Force the hip turn regardless"
+          ]
+        }
       },
       {
         "question": "What is the critical grip that must be established before committing your body to the dive?",
-        "answer": "The deep underhook around the far leg is the critical grip. Your near arm must thread between the top player's legs and wrap around their far thigh before you commit your body to sliding underneath. This grip serves as both the anchor that pulls you into position and the primary control mechanism of the resulting deep half guard. Without it, the dive has no direction or endpoint."
+        "answer": "The deep underhook around the far leg is the critical grip. Your near arm must thread between the top player's legs and wrap around their far thigh before you commit your body to sliding underneath. This grip serves as both the anchor that pulls you into position and the primary control mechanism of the resulting deep half guard. Without it, the dive has no direction or endpoint.",
+        "answer_line": "Deep underhook on the far leg",
+        "distractors": {
+          "plausible": [
+            "Overhook the near leg",
+            "Collar grip before diving"
+          ],
+          "trap": [
+            "Dive first, grip second"
+          ]
+        }
       },
       {
         "question": "Why is the half guard hook maintained throughout the entry rather than released early?",
-        "answer": "The half guard hook is the last defensive barrier preventing the top player from completing a guard pass. During the entry transition, there is a vulnerable moment where your frames are abandoned but deep half is not yet established. The hook prevents the top player from simply stepping free and passing to side control during this gap. Only release it once the deep underhook and shoulder wedge are firmly secured."
+        "answer": "The half guard hook is the last defensive barrier preventing the top player from completing a guard pass. During the entry transition, there is a vulnerable moment where your frames are abandoned but deep half is not yet established. The hook prevents the top player from simply stepping free and passing to side control during this gap. Only release it once the deep underhook and shoulder wedge are firmly secured.",
+        "answer_line": "Keep hook until wedge is set",
+        "distractors": {
+          "plausible": [
+            "Release once underhook is set",
+            "Release early to move faster"
+          ],
+          "trap": [
+            "Release the hook to start the dive"
+          ]
+        }
       },
       {
         "question": "Your opponent begins a knee slice as you initiate the deep half entry - how does this affect your execution?",
-        "answer": "The knee slice actually creates an ideal entry window because the lateral weight shift raises the far hip and creates maximum space underneath. As they commit to the slice direction, their momentum makes it difficult to reverse and counter your entry. Accelerate your dive timing to coincide with their lateral movement, using their weight transfer to assist your slide underneath their base."
+        "answer": "The knee slice actually creates an ideal entry window because the lateral weight shift raises the far hip and creates maximum space underneath. As they commit to the slice direction, their momentum makes it difficult to reverse and counter your entry. Accelerate your dive timing to coincide with their lateral movement, using their weight transfer to assist your slide underneath their base.",
+        "answer_line": "Accelerate into their knee slice",
+        "distractors": {
+          "plausible": [
+            "Wait for the slice to finish",
+            "Pause and reassess the timing"
+          ],
+          "trap": [
+            "Retreat away from the slice"
+          ]
+        }
       },
       {
         "question": "What happens if you dive too deep and overshoot the deep half position?",
-        "answer": "Overshooting means your body passes beyond the opponent's hips rather than settling underneath them. This eliminates the leverage needed for sweeps and can expose your back or leave you in turtle. To correct, target your shoulder to contact their inner thigh at hip level and stop your slide once you feel that wedge point. The shoulder-to-thigh contact is the landmark that signals correct depth."
+        "answer": "Overshooting means your body passes beyond the opponent's hips rather than settling underneath them. This eliminates the leverage needed for sweeps and can expose your back or leave you in turtle. To correct, target your shoulder to contact their inner thigh at hip level and stop your slide once you feel that wedge point. The shoulder-to-thigh contact is the landmark that signals correct depth.",
+        "answer_line": "Stop at shoulder-to-thigh contact",
+        "distractors": {
+          "plausible": [
+            "Slide until you clear their hips",
+            "Aim for knee-to-knee contact"
+          ],
+          "trap": [
+            "Keep diving until fully underneath"
+          ]
+        }
       },
       {
         "question": "How do you create the timing window yourself rather than waiting passively for the top player to shift weight?",
-        "answer": "Threaten a frame recovery or underhook attempt on the surface to force the top player to react. When they increase forward pressure to counter your surface escape, their hips move closer and higher, creating the exact conditions needed for the deep half entry. This bait-and-switch uses their defensive reaction as the trigger for your actual attack, turning their pressure into your opportunity."
+        "answer": "Threaten a frame recovery or underhook attempt on the surface to force the top player to react. When they increase forward pressure to counter your surface escape, their hips move closer and higher, creating the exact conditions needed for the deep half entry. This bait-and-switch uses their defensive reaction as the trigger for your actual attack, turning their pressure into your opportunity.",
+        "answer_line": "Bait a frame recovery attempt",
+        "distractors": {
+          "plausible": [
+            "Wait passively for their shift",
+            "Attempt the dive immediately"
+          ],
+          "trap": [
+            "Push them away for space"
+          ]
+        }
       },
       {
         "question": "What direction of force does your underhook arm apply during the entry?",
-        "answer": "The underhook arm pulls the far leg toward your chest while simultaneously pulling your own body underneath the opponent's hips. The force direction is diagonal, inward toward your centerline and downward toward the mat. This creates a compression that locks the leg to your body and draws your shoulder into the wedge position against their inner thigh. Pulling straight backward would push the opponent away rather than loading them onto your leverage point."
+        "answer": "The underhook arm pulls the far leg toward your chest while simultaneously pulling your own body underneath the opponent's hips. The force direction is diagonal, inward toward your centerline and downward toward the mat. This creates a compression that locks the leg to your body and draws your shoulder into the wedge position against their inner thigh. Pulling straight backward would push the opponent away rather than loading them onto your leverage point.",
+        "answer_line": "Diagonal in and down",
+        "distractors": {
+          "plausible": [
+            "Straight down into the mat",
+            "Inward to your centerline"
+          ],
+          "trap": [
+            "Pull straight back and away"
+          ]
+        }
       },
       {
         "question": "If the entry fails and you find yourself stuck halfway with one arm threaded but your body still flat, what is the recovery sequence?",
-        "answer": "Retract your arm immediately and re-establish your half guard frame. Do not remain in the half-threaded position, as it compromises both your frame defense and your half guard hook. Pull your arm back, re-establish your elbow wedge against the opponent, and recover to standard flattened half guard defense. You can attempt the entry again when a better timing window presents itself rather than forcing through from a compromised position."
+        "answer": "Retract your arm immediately and re-establish your half guard frame. Do not remain in the half-threaded position, as it compromises both your frame defense and your half guard hook. Pull your arm back, re-establish your elbow wedge against the opponent, and recover to standard flattened half guard defense. You can attempt the entry again when a better timing window presents itself rather than forcing through from a compromised position.",
+        "answer_line": "Retract arm, rebuild half frame",
+        "distractors": {
+          "plausible": [
+            "Hold position and wait it out",
+            "Release the hook to reset"
+          ],
+          "trap": [
+            "Force through to complete dive"
+          ]
+        }
       }
     ],
-    "safety_considerations": "The Deep Half Entry from Flattened involves significant spinal flexion and neck positioning during the dive underneath the opponent. Practitioners should develop adequate neck strength and flexibility before attempting this technique under resistance. The transition places your head and neck between the opponent's legs, creating risk of neck compression if the top player drives their weight downward during the entry. Always practice with a cooperative partner first to establish safe movement patterns. Tap immediately if you feel any neck or cervical spine pressure during the entry attempt."
+    "safety_considerations": "The Deep Half Entry from Flattened involves significant spinal flexion and neck positioning during the dive underneath the opponent. Practitioners should develop adequate neck strength and flexibility before attempting this technique under resistance. The transition places your head and neck between the opponent's legs, creating risk of neck compression if the top player drives their weight downward during the entry. Always practice with a cooperative partner first to establish safe movement patterns. Tap immediately if you feel any neck or cervical spine pressure during the entry attempt.",
+    "clips": [
+      {
+        "id": "Dalv3UtxCZ0",
+        "title": "Entering deep half guard from under knee on belly",
+        "by": "Team Daruma Dojo",
+        "vertical": false,
+        "channel": "Team Daruma Dojo",
+        "duration": 68,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "_IGB9jEvXfo",
+        "title": "Low grip and high grip for deep half guard",
+        "by": "Jeff Glover",
+        "vertical": false,
+        "channel": "The Jiu Jitsu Encyclopedia",
+        "duration": 42,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "ZQzg3TnzMJI",
+        "title": "Deep half guard sweep from under pressure",
+        "by": "Kyle Dimmitt",
+        "vertical": false,
+        "channel": "Kyle Dimmitt",
+        "duration": 42,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Deep Half Entry from Flattened Defender",
@@ -376,23 +517,73 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that a deep half entry is being attempted from flattened half guard?",
-        "answer": "The earliest cue is the bottom player's near hip beginning to rotate toward your legs instead of staying flat against the mat. This hip rotation is the prerequisite for the entire entry movement. Without it, they cannot thread their arm or slide underneath your hips. Detecting this rotation before the arm thread begins gives you maximum time to counter with crossface pressure and hip sprawl."
+        "answer": "The earliest cue is the bottom player's near hip beginning to rotate toward your legs instead of staying flat against the mat. This hip rotation is the prerequisite for the entire entry movement. Without it, they cannot thread their arm or slide underneath your hips. Detecting this rotation before the arm thread begins gives you maximum time to counter with crossface pressure and hip sprawl.",
+        "answer_line": "Near hip rotating toward legs",
+        "distractors": {
+          "plausible": [
+            "Arm threading between legs",
+            "Shoulder touching your thigh"
+          ],
+          "trap": [
+            "Wait for the underhook to see it"
+          ]
+        }
       },
       {
         "question": "Why is dropping hip weight an effective counter when timed early but counterproductive when timed late?",
-        "answer": "When timed early before the underhook is established, dropping hip weight removes the space underneath your hips that the bottom player needs to thread through, collapsing their entry path. When timed late after the underhook and shoulder wedge are in place, your descending weight loads directly onto their leverage system, effectively assisting their sweep mechanics. The shoulder wedge converts your downward pressure into horizontal sweep force."
+        "answer": "When timed early before the underhook is established, dropping hip weight removes the space underneath your hips that the bottom player needs to thread through, collapsing their entry path. When timed late after the underhook and shoulder wedge are in place, your descending weight loads directly onto their leverage system, effectively assisting their sweep mechanics. The shoulder wedge converts your downward pressure into horizontal sweep force.",
+        "answer_line": "Drop weight early, not late",
+        "distractors": {
+          "plausible": [
+            "Drop weight late for control",
+            "Drop weight steadily throughout"
+          ],
+          "trap": [
+            "Drop weight after underhook lands"
+          ]
+        }
       },
       {
         "question": "Your opponent has threaded their arm halfway but has not yet established the shoulder wedge - what is your best defensive response?",
-        "answer": "Immediately whizzer the threading arm with your near arm to prevent it from reaching deeper around your far leg. Simultaneously drive your crossface pressure forward and sprawl your hips back to re-flatten the bottom player. The partial thread gives you a window. Once the shoulder clears your hip and the wedge is established, the position dramatically favors the bottom player. Address the arm control now while recovery is still possible."
+        "answer": "Immediately whizzer the threading arm with your near arm to prevent it from reaching deeper around your far leg. Simultaneously drive your crossface pressure forward and sprawl your hips back to re-flatten the bottom player. The partial thread gives you a window. Once the shoulder clears your hip and the wedge is established, the position dramatically favors the bottom player. Address the arm control now while recovery is still possible.",
+        "answer_line": "Whizzer the arm, crossface, sprawl",
+        "distractors": {
+          "plausible": [
+            "Wait for the wedge to confirm",
+            "Grab the far leg to block it"
+          ],
+          "trap": [
+            "Let the shoulder clear then act"
+          ]
+        }
       },
       {
         "question": "How does maintaining crossface pressure specifically prevent the deep half entry?",
-        "answer": "Crossface pressure limits the bottom player's ability to rotate their hips, which is the essential first movement of the entry sequence. By driving their head away from the direction they need to turn, the crossface creates structural opposition to the hip rotation. Without the hip turn, the bottom player cannot achieve the angle needed to slide their body underneath your base, effectively shutting down the entry at its foundation."
+        "answer": "Crossface pressure limits the bottom player's ability to rotate their hips, which is the essential first movement of the entry sequence. By driving their head away from the direction they need to turn, the crossface creates structural opposition to the hip rotation. Without the hip turn, the bottom player cannot achieve the angle needed to slide their body underneath your base, effectively shutting down the entry at its foundation.",
+        "answer_line": "Blocks the hip rotation start",
+        "distractors": {
+          "plausible": [
+            "Blocks the arm thread only",
+            "Blocks the shoulder wedge only"
+          ],
+          "trap": [
+            "Ease crossface to save energy"
+          ]
+        }
       },
       {
         "question": "When is it appropriate to attempt a backstep pass rather than re-flattening the bottom player during a deep half entry attempt?",
-        "answer": "The backstep is appropriate when the bottom player has committed significantly to the entry. Their frames are abandoned and their half guard hook is loosened. At this point, their commitment creates a vulnerability window where your leg can be extracted. Attempting the backstep too early before they commit gives them space without the positional compromise, and they may use the created space for frame recovery instead."
+        "answer": "The backstep is appropriate when the bottom player has committed significantly to the entry. Their frames are abandoned and their half guard hook is loosened. At this point, their commitment creates a vulnerability window where your leg can be extracted. Attempting the backstep too early before they commit gives them space without the positional compromise, and they may use the created space for frame recovery instead.",
+        "answer_line": "When frames and hook are gone",
+        "distractors": {
+          "plausible": [
+            "As soon as they start turning",
+            "When the underhook is halfway"
+          ],
+          "trap": [
+            "Immediately at the first hint"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -415,6 +606,26 @@
         "phase": "Phase 4: Live Positional Defense",
         "focus": "Full resistance defensive application in sparring",
         "description": "Positional rounds starting in flattened half guard. Top player works to maintain position and pass while actively defending all escape attempts including deep half entry. Full resistance with competition intensity. Track how often deep half entry succeeds versus gets countered."
+      }
+    ],
+    "clips": [
+      {
+        "id": "qqheiIgQrfY",
+        "title": "Passing the guard against a deep half entry",
+        "by": "Koji Shibamoto",
+        "vertical": false,
+        "channel": "トライフォース柔術アカデミー / Tri-force Jiu-jitsu Academy",
+        "duration": 33,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "K0XMj9BNJ8U",
+        "title": "Knee slide pass counter to deep half entry",
+        "by": "Scott Ryan Chiriboga",
+        "vertical": false,
+        "channel": "Scott Ryan Chiriboga",
+        "duration": 133,
+        "verified": "2026-07-15"
       }
     ]
   }

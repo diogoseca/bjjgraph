@@ -168,6 +168,54 @@ description: "How to execute Knee Tap in BJJ. Attacking perspective with setup, 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Knee Tap (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Knee tap from the front headlock",
+      "description": "Knee Tap (Attacker) film study: Knee tap from the front headlock, taught by Ben Askren.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/F29Chv2R9MI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/F29Chv2R9MI",
+      "url": "https://www.youtube.com/watch?v=F29Chv2R9MI",
+      "creator": { "@type": "Person", "name": "Ben Askren" },
+      "duration": "PT63S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Inside knee tap off a failed shot",
+      "description": "Knee Tap (Attacker) film study: Inside knee tap off a failed shot, taught by Five Star Wrestling coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/b459BzZNmTA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/b459BzZNmTA",
+      "url": "https://www.youtube.com/watch?v=b459BzZNmTA",
+      "creator": { "@type": "Person", "name": "Five Star Wrestling coach" },
+      "duration": "PT86S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Failed sweep single straight into a knee tap",
+      "description": "Knee Tap (Attacker) film study: Failed sweep single straight into a knee tap, taught by Trent Creech.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/vK7xJrBO3Jc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/vK7xJrBO3Jc",
+      "url": "https://www.youtube.com/watch?v=vK7xJrBO3Jc",
+      "creator": { "@type": "Person", "name": "Trent Creech" },
+      "duration": "PT57S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -177,6 +225,42 @@ The Knee Tap is a fundamental wrestling-based takedown that exploits opponent's 
 **From Position**: [[Positions/Standing Position]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Knee Tap (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=F29Chv2R9MI)
+
+<p class="clip-credit"><strong>Knee tap from the front headlock</strong> — taught by Ben Askren · 1:03 · <a href="https://www.youtube.com/watch?v=F29Chv2R9MI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=b459BzZNmTA)
+
+<p class="clip-credit"><strong>Inside knee tap off a failed shot</strong> — taught by Five Star Wrestling coach · 1:26 · <a href="https://www.youtube.com/watch?v=b459BzZNmTA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=vK7xJrBO3Jc)
+
+<p class="clip-credit"><strong>Failed sweep single straight into a knee tap</strong> — taught by Trent Creech · 0:57 · <a href="https://www.youtube.com/watch?v=vK7xJrBO3Jc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

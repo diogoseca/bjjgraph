@@ -174,6 +174,54 @@ description: "Execute the Toreando pass from Double Sleeve Guard. Complete attac
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Toreando from Double Sleeve (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Two ways to pass the collar-and-sleeve guard",
+      "description": "Toreando from Double Sleeve (Attacker) film study: Two ways to pass the collar-and-sleeve guard, taught by Carpio Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/N4M0VWhDkMA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/N4M0VWhDkMA",
+      "url": "https://www.youtube.com/watch?v=N4M0VWhDkMA",
+      "creator": { "@type": "Person", "name": "Carpio Jiu Jitsu" },
+      "duration": "PT103S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "C-grip toreando pass against the frame",
+      "description": "Toreando from Double Sleeve (Attacker) film study: C-grip toreando pass against the frame, taught by Isaac Doederlein.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Ae6DgOYvVec/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Ae6DgOYvVec",
+      "url": "https://www.youtube.com/watch?v=Ae6DgOYvVec",
+      "creator": { "@type": "Person", "name": "Isaac Doederlein" },
+      "duration": "PT158S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Double arm (sleeve) guard pass",
+      "description": "Toreando from Double Sleeve (Attacker) film study: Double arm (sleeve) guard pass, taught by 10th Planet Costa Mesa.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/nolXMAMiIMU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/nolXMAMiIMU",
+      "url": "https://www.youtube.com/watch?v=nolXMAMiIMU",
+      "creator": { "@type": "Person", "name": "10th Planet Costa Mesa" },
+      "duration": "PT23S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -183,6 +231,42 @@ As the attacker executing the Toreando from Double Sleeve, your objective is to 
 **From Position**: [[Positions/Double Sleeve Guard]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Toreando from Double Sleeve (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=N4M0VWhDkMA)
+
+<p class="clip-credit"><strong>Two ways to pass the collar-and-sleeve guard</strong> — taught by Carpio Jiu Jitsu · 1:43 · <a href="https://www.youtube.com/watch?v=N4M0VWhDkMA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Ae6DgOYvVec)
+
+<p class="clip-credit"><strong>C-grip toreando pass against the frame</strong> — taught by Isaac Doederlein · 2:38 · <a href="https://www.youtube.com/watch?v=Ae6DgOYvVec" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=nolXMAMiIMU)
+
+<p class="clip-credit"><strong>Double arm (sleeve) guard pass</strong> — taught by 10th Planet Costa Mesa · 0:23 · <a href="https://www.youtube.com/watch?v=nolXMAMiIMU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

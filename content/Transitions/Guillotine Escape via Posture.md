@@ -34,6 +34,43 @@ description: "Learn the Guillotine Escape via Posture in BJJ. Master posture mec
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Guillotine Escape via Posture \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Standing guillotine escape",
+      "description": "Guillotine Escape via Posture film study: Standing guillotine escape, taught by dogtownman.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/8okq4cIHMO0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/8okq4cIHMO0",
+      "url": "https://www.youtube.com/watch?v=8okq4cIHMO0",
+      "creator": { "@type": "Person", "name": "dogtownman" },
+      "duration": "PT44S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Standing guillotine defense with two takedowns",
+      "description": "Guillotine Escape via Posture film study: Standing guillotine defense with two takedowns, taught by Chewjitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/8TsrMk-cwHs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/8TsrMk-cwHs",
+      "url": "https://www.youtube.com/watch?v=8TsrMk-cwHs",
+      "creator": { "@type": "Person", "name": "Chewjitsu" },
+      "duration": "PT215S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +106,34 @@ Timing is critical. The escape becomes exponentially harder the longer you remai
 **Success Rate**: 55%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Guillotine Escape via Posture in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=8okq4cIHMO0)
+
+<p class="clip-credit"><strong>Standing guillotine escape</strong> — taught by dogtownman · 0:44 · <a href="https://www.youtube.com/watch?v=8okq4cIHMO0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=8TsrMk-cwHs)
+
+<p class="clip-credit"><strong>Standing guillotine defense with two takedowns</strong> — taught by Chewjitsu · 3:35 · <a href="https://www.youtube.com/watch?v=8TsrMk-cwHs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 
@@ -255,7 +320,7 @@ The Guillotine Escape via Posture is a cornerstone defensive transition that con
 
 - [[Transitions/Arm in Guillotine Variation]] - Related guillotine variation that the opponent may transition to during your escape, requiring adjusted defense
 
-- [[Submissions/Chin Strap Guillotine]] - Related submission threat that the opponent may use as an alternative grip when standard guillotine is being escaped
+- [[Chin Strap Guillotine from Front Headlock]] - Related submission threat that the opponent may use as an alternative grip when standard guillotine is being escaped
 
 
 </section>

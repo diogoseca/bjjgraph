@@ -169,6 +169,54 @@ description: "How to execute the Hip Bump Sweep in BJJ. Attacking perspective wi
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Hip Bump Sweep (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Hip bump sweep from closed guard",
+      "description": "Hip Bump Sweep (Attacker) film study: Hip bump sweep from closed guard, taught by Todd Hendrickson.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/h8_sHO2W44Q/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/h8_sHO2W44Q",
+      "url": "https://www.youtube.com/watch?v=h8_sHO2W44Q",
+      "creator": { "@type": "Person", "name": "Todd Hendrickson" },
+      "duration": "PT44S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Hip bump sweep competition details",
+      "description": "Hip Bump Sweep (Attacker) film study: Hip bump sweep competition details, taught by Grand Union Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/O1hBu9yZkX0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/O1hBu9yZkX0",
+      "url": "https://www.youtube.com/watch?v=O1hBu9yZkX0",
+      "creator": { "@type": "Person", "name": "Grand Union Jiu Jitsu" },
+      "duration": "PT38S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Hip bump sweep and follow-up submissions",
+      "description": "Hip Bump Sweep (Attacker) film study: Hip bump sweep and follow-up submissions, taught by Alex Humen.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/kGjbaMDs65g/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/kGjbaMDs65g",
+      "url": "https://www.youtube.com/watch?v=kGjbaMDs65g",
+      "creator": { "@type": "Person", "name": "Alex Humen" },
+      "duration": "PT56S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <aside class="entity-relations">
@@ -185,6 +233,42 @@ The Hip Bump Sweep is also an excellent technique for developing timing, hip mob
 **From Position**: [[Positions/Closed Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Hip Bump Sweep (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=h8_sHO2W44Q)
+
+<p class="clip-credit"><strong>Hip bump sweep from closed guard</strong> — taught by Todd Hendrickson · 0:44 · <a href="https://www.youtube.com/watch?v=h8_sHO2W44Q" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=O1hBu9yZkX0)
+
+<p class="clip-credit"><strong>Hip bump sweep competition details</strong> — taught by Grand Union Jiu Jitsu · 0:38 · <a href="https://www.youtube.com/watch?v=O1hBu9yZkX0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=kGjbaMDs65g)
+
+<p class="clip-credit"><strong>Hip bump sweep and follow-up submissions</strong> — taught by Alex Humen · 0:56 · <a href="https://www.youtube.com/watch?v=kGjbaMDs65g" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

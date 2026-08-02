@@ -148,6 +148,43 @@ description: "How to defend against Sit Through to Guard in BJJ. Recognition cue
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Sit Through to Guard (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Riding the turtle and preventing guard recovery",
+      "description": "Sit Through to Guard (Defender) film study: Riding the turtle and preventing guard recovery, taught by Rituals Jiu Jitsu coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/cs87MxpXdB4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/cs87MxpXdB4",
+      "url": "https://www.youtube.com/watch?v=cs87MxpXdB4",
+      "creator": { "@type": "Person", "name": "Rituals Jiu Jitsu coach" },
+      "duration": "PT127S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Turtle to side control: cutting off the sit through",
+      "description": "Sit Through to Guard (Defender) film study: Turtle to side control: cutting off the sit through, taught by Rickson Gracie academy coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/8YvYkGr5FIU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/8YvYkGr5FIU",
+      "url": "https://www.youtube.com/watch?v=8YvYkGr5FIU",
+      "creator": { "@type": "Person", "name": "Rickson Gracie academy coach" },
+      "duration": "PT47S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +194,34 @@ Defending the Sit Through to Guard requires the turtle top player to recognize e
 **Opponent's Starting Position**: [[Positions/Turtle]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Sit Through to Guard (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=cs87MxpXdB4)
+
+<p class="clip-credit"><strong>Riding the turtle and preventing guard recovery</strong> — taught by Rituals Jiu Jitsu coach · 2:07 · <a href="https://www.youtube.com/watch?v=cs87MxpXdB4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=8YvYkGr5FIU)
+
+<p class="clip-credit"><strong>Turtle to side control: cutting off the sit through</strong> — taught by Rickson Gracie academy coach · 0:47 · <a href="https://www.youtube.com/watch?v=8YvYkGr5FIU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

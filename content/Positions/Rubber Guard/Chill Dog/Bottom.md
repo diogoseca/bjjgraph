@@ -27,31 +27,31 @@ description: "Master defensive Chill Dog position from bottom. Learn compact tur
     {
       "@type": "HowToStep",
       "name": "Execute Granby to Closed Guard",
-      "text": "From this position, attempt Granby to Closed Guard. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Granby to Closed Guard. This technique is attempted in 9% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Technical Stand-up",
-      "text": "From this position, attempt Technical Stand-up. This technique is attempted in 32% of exchanges from this position.",
+      "text": "From this position, attempt Technical Stand-up. This technique is attempted in 10% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Rolling to Guard",
-      "text": "From this position, attempt Rolling to Guard. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Rolling to Guard. This technique is attempted in 12% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Turtle to Guard",
-      "text": "From this position, attempt Turtle to Guard. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Turtle to Guard. This technique is attempted in 14% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Hip Escape to Guard",
-      "text": "From this position, attempt Hip Escape to Guard. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Hip Escape to Guard. This technique is attempted in 10% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -153,6 +153,43 @@ description: "Master defensive Chill Dog position from bottom. Learn compact tur
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Chill Dog (Bottom) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Standing-up escape from turtle",
+      "description": "Chill Dog (Bottom) film study: Standing-up escape from turtle, taught by Priit Mihkelson.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/_sBB-O8fqP4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/_sBB-O8fqP4",
+      "url": "https://www.youtube.com/watch?v=_sBB-O8fqP4",
+      "creator": { "@type": "Person", "name": "Priit Mihkelson" },
+      "duration": "PT114S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "The London and Why It Left the 10th Planet System",
+      "description": "Chill Dog (Bottom) film study: The London and Why It Left the 10th Planet System, taught by Submissions101 coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/kaVklKMW3aw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/kaVklKMW3aw",
+      "url": "https://www.youtube.com/watch?v=kaVklKMW3aw",
+      "creator": { "@type": "Person", "name": "Submissions101 coach" },
+      "duration": "PT94S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -168,6 +205,34 @@ Breathing and mental composure are critical skills for bottom Chill Dog. Newer p
 In the 10th Planet system, Chill Dog Bottom serves as a gateway back to offensive positions. Once you successfully escape to guard, you immediately work to establish your preferred attacking position - whether that's rubber guard, lockdown half guard, or one of the specialized 10th Planet guard variations. The position teaches practitioners that defense is not passive survival, but an active process of controlling the situation while setting up your return to offense.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Chill Dog (Bottom) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=_sBB-O8fqP4)
+
+<p class="clip-credit"><strong>Standing-up escape from turtle</strong> — taught by Priit Mihkelson · 1:54 · <a href="https://www.youtube.com/watch?v=_sBB-O8fqP4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=kaVklKMW3aw)
+
+<p class="clip-credit"><strong>The London and Why It Left the 10th Planet System</strong> — taught by Submissions101 coach · 1:34 · <a href="https://www.youtube.com/watch?v=kaVklKMW3aw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

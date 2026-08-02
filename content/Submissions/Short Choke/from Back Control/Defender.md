@@ -144,6 +144,43 @@ description: "Learn to defend and escape the Short Choke from Back Control in BJ
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Short Choke from Back Control (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Escaping Back Control - Turtle Escape",
+      "description": "Short Choke from Back Control (Defender) film study: Escaping Back Control - Turtle Escape, taught by BJJ101.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/bDZntPrcLpg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/bDZntPrcLpg",
+      "url": "https://www.youtube.com/watch?v=bDZntPrcLpg",
+      "creator": { "@type": "Person", "name": "BJJ101" },
+      "duration": "PT37S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Standing Up Back Escape",
+      "description": "Short Choke from Back Control (Defender) film study: Standing Up Back Escape, taught by Priit Mihkelson.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/_sBB-O8fqP4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/_sBB-O8fqP4",
+      "url": "https://www.youtube.com/watch?v=_sBB-O8fqP4",
+      "creator": { "@type": "Person", "name": "Priit Mihkelson" },
+      "duration": "PT114S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -154,6 +191,34 @@ Defending the Short Choke from Back Control demands early recognition and immedi
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Short Choke from Back Control (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=bDZntPrcLpg)
+
+<p class="clip-credit"><strong>Escaping Back Control - Turtle Escape</strong> — taught by BJJ101 · 0:37 · <a href="https://www.youtube.com/watch?v=bDZntPrcLpg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=_sBB-O8fqP4)
+
+<p class="clip-credit"><strong>Standing Up Back Escape</strong> — taught by Priit Mihkelson · 1:54 · <a href="https://www.youtube.com/watch?v=_sBB-O8fqP4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

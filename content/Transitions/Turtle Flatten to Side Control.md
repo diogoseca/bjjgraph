@@ -34,6 +34,54 @@ description: "Learn Turtle Flatten to Side Control in BJJ. Step-by-step breakdow
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Turtle Flatten to Side Control \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Flattening the turtled opponent into side control",
+      "description": "Turtle Flatten to Side Control film study: Flattening the turtled opponent into side control, taught by Paul Schreiner.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/0FxFdqZ8mus/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/0FxFdqZ8mus",
+      "url": "https://www.youtube.com/watch?v=0FxFdqZ8mus",
+      "creator": { "@type": "Person", "name": "Paul Schreiner" },
+      "duration": "PT153S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "From turtle to side control: flattening options",
+      "description": "Turtle Flatten to Side Control film study: From turtle to side control: flattening options, taught by Aaron Benzrihem.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/IkuBvrwtwtg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/IkuBvrwtwtg",
+      "url": "https://www.youtube.com/watch?v=IkuBvrwtwtg",
+      "creator": { "@type": "Person", "name": "Aaron Benzrihem" },
+      "duration": "PT249S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Turtle position to side control",
+      "description": "Turtle Flatten to Side Control film study: Turtle position to side control, taught by Rickson Gracie Academy.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/8YvYkGr5FIU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/8YvYkGr5FIU",
+      "url": "https://www.youtube.com/watch?v=8YvYkGr5FIU",
+      "creator": { "@type": "Person", "name": "Rickson Gracie Academy" },
+      "duration": "PT47S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -64,9 +112,45 @@ Turtle Flatten to Side Control is a fundamental top-game transition that convert
 Strategically, the flatten is a high-percentage option when the opponent has excellent turtle defense or when you recognize that forcing the back take will result in scrambles that favor the bottom player. The flatten works by exploiting the structural weakness of turtle position: the base collapses when lateral pressure is applied at the hip line while controlling the upper body. By breaking the four-point base down to a flat position, you eliminate the opponent's ability to execute granby rolls, sit-throughs, or stand-ups, converting a volatile scramble-prone position into a controlled passing scenario. Competition-proven athletes frequently use this transition as a reliable pathway when back take attempts stall, particularly against opponents with strong turtle defense built around constant motion and grip fighting.
 
 **From Position**: [[Positions/Turtle]] (Top)
-**Success Rate**: 58%
+**Success Rate**: 50%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Turtle Flatten to Side Control in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=0FxFdqZ8mus)
+
+<p class="clip-credit"><strong>Flattening the turtled opponent into side control</strong> — taught by Paul Schreiner · 2:33 · <a href="https://www.youtube.com/watch?v=0FxFdqZ8mus" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=IkuBvrwtwtg)
+
+<p class="clip-credit"><strong>From turtle to side control: flattening options</strong> — taught by Aaron Benzrihem · 4:09 · <a href="https://www.youtube.com/watch?v=IkuBvrwtwtg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=8YvYkGr5FIU)
+
+<p class="clip-credit"><strong>Turtle position to side control</strong> — taught by Rickson Gracie Academy · 0:47 · <a href="https://www.youtube.com/watch?v=8YvYkGr5FIU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

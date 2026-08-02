@@ -148,6 +148,54 @@ description: "How to defend against Double Underhook Pass in BJJ. Recognition cu
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Double Underhook Pass (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Shoulder lock defending the double under stack pass",
+      "description": "Double Underhook Pass (Defender) film study: Shoulder lock defending the double under stack pass, taught by Tony Casarez.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/dH6Cj-nv3vU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/dH6Cj-nv3vU",
+      "url": "https://www.youtube.com/watch?v=dH6Cj-nv3vU",
+      "creator": { "@type": "Person", "name": "Tony Casarez" },
+      "duration": "PT62S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Defense against double underhooks to guillotine",
+      "description": "Double Underhook Pass (Defender) film study: Defense against double underhooks to guillotine, taught by First BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/H9spCvrBPsE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/H9spCvrBPsE",
+      "url": "https://www.youtube.com/watch?v=H9spCvrBPsE",
+      "creator": { "@type": "Person", "name": "First BJJ" },
+      "duration": "PT108S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Double under pass defense to triangle",
+      "description": "Double Underhook Pass (Defender) film study: Double under pass defense to triangle, taught by Clark Gracie.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/aBLmq4iT0sM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/aBLmq4iT0sM",
+      "url": "https://www.youtube.com/watch?v=aBLmq4iT0sM",
+      "creator": { "@type": "Person", "name": "Clark Gracie" },
+      "duration": "PT164S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -158,9 +206,45 @@ The fundamental defensive strategy centers on preventing the attacker from estab
 
 The defender's positional advantages include proximity to the mat for base, the ability to use their own bodyweight by sitting back into the attacker, and access to granby roll mechanics that can redirect the attacker's forward momentum. Successful defense transforms the attacker's committed forward pressure into a liability by using their own momentum against them, either recovering guard through hip insertion or creating enough scramble chaos to reset to a more neutral turtle position.
 
-**Opponent's Starting Position**: [[Positions/Crackhead Control]] (Top)
+**Opponent's Starting Position**: [[Positions/Rubber Guard/Crackhead Control]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Double Underhook Pass (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=dH6Cj-nv3vU)
+
+<p class="clip-credit"><strong>Shoulder lock defending the double under stack pass</strong> — taught by Tony Casarez · 1:02 · <a href="https://www.youtube.com/watch?v=dH6Cj-nv3vU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=H9spCvrBPsE)
+
+<p class="clip-credit"><strong>Defense against double underhooks to guillotine</strong> — taught by First BJJ · 1:48 · <a href="https://www.youtube.com/watch?v=H9spCvrBPsE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=aBLmq4iT0sM)
+
+<p class="clip-credit"><strong>Double under pass defense to triangle</strong> — taught by Clark Gracie · 2:44 · <a href="https://www.youtube.com/watch?v=aBLmq4iT0sM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 
@@ -200,7 +284,7 @@ The defender's positional advantages include proximity to the mat for base, the 
 ### 1. Sit back into the attacker during the single-to-double underhook transition by dropping your hips toward them and collapsing your turtle base toward their lap
 
 - **When to use**: When you feel the first underhook establish and the attacker shifts weight to thread the second - this is the highest-percentage defensive window before the grip consolidates
-- **Targets**: [[Positions/Crackhead Control]]
+- **Targets**: [[Positions/Rubber Guard/Crackhead Control]]
 - **If successful**: Resets the position to neutral Crackhead Control where the attacker must restart their attack sequence, and may expose back take opportunities if they lose hip position
 - **Risk**: If poorly timed, you may flatten yourself and make the pass easier. Must maintain base through your posting hand to control the sit-back speed.
 
@@ -221,7 +305,7 @@ The defender's positional advantages include proximity to the mat for base, the 
 ### 4. Strip the Gable grip by swimming your near arm free using a circular motion toward the mat, breaking the palm-to-palm connection before the drive phase begins
 
 - **When to use**: Immediately after you feel both hands connect at your chest in the Gable grip but before the attacker initiates the forward drive - there is a brief window where the grip is not yet loaded
-- **Targets**: [[Positions/Crackhead Control]]
+- **Targets**: [[Positions/Rubber Guard/Crackhead Control]]
 - **If successful**: Breaks the pass sequence entirely. Without the connected grip, the attacker cannot generate sufficient leverage to flatten you and must reset to single underhook or abandon the pass attempt
 - **Risk**: Swimming the arm may briefly expose your back if the attacker transitions to a back take instead of re-establishing the grip. Must immediately return elbow to ribs after stripping.
 
@@ -235,7 +319,7 @@ The defender's positional advantages include proximity to the mat for base, the 
 
 <p class="section-subtitle">What is the best outcome when defending Double Underhook Pass?</p>
 
-### → [[Positions/Crackhead Control]]
+### → [[Positions/Rubber Guard/Crackhead Control]]
 
 Disrupt the pass early by sitting back into the attacker during the underhook threading phase or by stripping the Gable grip before the drive. This resets to neutral Crackhead Control where the attacker must restart their sequence. Maintain active hip movement and tight elbows after the reset to prevent immediate re-entry.
 

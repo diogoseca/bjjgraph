@@ -140,6 +140,54 @@ description: "Defend the Toss Pass from Double Unders in BJJ. Recognition cues, 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Toss Pass from Double Unders (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Simple double under guard pass defense",
+      "description": "Toss Pass from Double Unders (Defender) film study: Simple double under guard pass defense, taught by Ancient City Martial Arts.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/4k-D0Q8DeGQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/4k-D0Q8DeGQ",
+      "url": "https://www.youtube.com/watch?v=4k-D0Q8DeGQ",
+      "creator": { "@type": "Person", "name": "Ancient City Martial Arts" },
+      "duration": "PT56S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Stop the double under pass with a stiff arm",
+      "description": "Toss Pass from Double Unders (Defender) film study: Stop the double under pass with a stiff arm, taught by JitzLive.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/kgEKjcHAyh4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/kgEKjcHAyh4",
+      "url": "https://www.youtube.com/watch?v=kgEKjcHAyh4",
+      "creator": { "@type": "Person", "name": "JitzLive" },
+      "duration": "PT66S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Double under stack defense and counter",
+      "description": "Toss Pass from Double Unders (Defender) film study: Double under stack defense and counter, taught by Wim Deputter.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Ad0qtay9IVQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Ad0qtay9IVQ",
+      "url": "https://www.youtube.com/watch?v=Ad0qtay9IVQ",
+      "creator": { "@type": "Person", "name": "Wim Deputter" },
+      "duration": "PT130S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -149,6 +197,42 @@ Defending the Toss Pass from Double Unders requires the bottom player to recogni
 **Opponent's Starting Position**: [[Positions/Double Unders]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Toss Pass from Double Unders (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=4k-D0Q8DeGQ)
+
+<p class="clip-credit"><strong>Simple double under guard pass defense</strong> — taught by Ancient City Martial Arts · 0:56 · <a href="https://www.youtube.com/watch?v=4k-D0Q8DeGQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=kgEKjcHAyh4)
+
+<p class="clip-credit"><strong>Stop the double under pass with a stiff arm</strong> — taught by JitzLive · 1:06 · <a href="https://www.youtube.com/watch?v=kgEKjcHAyh4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Ad0qtay9IVQ)
+
+<p class="clip-credit"><strong>Double under stack defense and counter</strong> — taught by Wim Deputter · 2:10 · <a href="https://www.youtube.com/watch?v=Ad0qtay9IVQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

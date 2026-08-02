@@ -142,6 +142,54 @@ description: "How to defend against Counter Entry to Opponent's Leg in BJJ. Reco
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Counter Entry to Opponent\u0027s Leg (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Defending 50/50 heel hooks and backsteps",
+      "description": "Counter Entry to Opponent\u0027s Leg (Defender) film study: Defending 50/50 heel hooks and backsteps, taught by Revolution BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/gpg88DFH9D4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/gpg88DFH9D4",
+      "url": "https://www.youtube.com/watch?v=gpg88DFH9D4",
+      "creator": { "@type": "Person", "name": "Revolution BJJ" },
+      "duration": "PT81S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Leglock counter with back take",
+      "description": "Counter Entry to Opponent\u0027s Leg (Defender) film study: Leglock counter with back take, taught by Bermuda Martial Arts.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/-rHUXnSOAzY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/-rHUXnSOAzY",
+      "url": "https://www.youtube.com/watch?v=-rHUXnSOAzY",
+      "creator": { "@type": "Person", "name": "Bermuda Martial Arts" },
+      "duration": "PT48S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Leglock defense from entanglement",
+      "description": "Counter Entry to Opponent\u0027s Leg (Defender) film study: Leglock defense from entanglement, taught by Craig Jones.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/uZbUhFapIhg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/uZbUhFapIhg",
+      "url": "https://www.youtube.com/watch?v=uZbUhFapIhg",
+      "creator": { "@type": "Person", "name": "Craig Jones" },
+      "duration": "PT163S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -155,6 +203,42 @@ When you do recognize the counter-entry beginning, you face a tactical decision 
 **Opponent's Starting Position**: [[Positions/Straight Ankle Lock Control]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Counter Entry to Opponent's Leg (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=gpg88DFH9D4)
+
+<p class="clip-credit"><strong>Defending 50/50 heel hooks and backsteps</strong> — taught by Revolution BJJ · 1:21 · <a href="https://www.youtube.com/watch?v=gpg88DFH9D4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=-rHUXnSOAzY)
+
+<p class="clip-credit"><strong>Leglock counter with back take</strong> — taught by Bermuda Martial Arts · 0:48 · <a href="https://www.youtube.com/watch?v=-rHUXnSOAzY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=uZbUhFapIhg)
+
+<p class="clip-credit"><strong>Leglock defense from entanglement</strong> — taught by Craig Jones · 2:43 · <a href="https://www.youtube.com/watch?v=uZbUhFapIhg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

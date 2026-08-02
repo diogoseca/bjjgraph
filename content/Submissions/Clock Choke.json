@@ -17,7 +17,10 @@
   "target_area": "Carotid arteries and jugular veins",
   "starting_position": "Turtle",
   "from_position": "Turtle/Top",
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "variant_uniqueness": "Gi lapel choke using circular walking motion for rotational neck pressure",
   "summary": "The Clock Choke is a gi blood choke attacked from the top of turtle, where the attacker feeds a deep grip on the opponent's collar and walks in a circle around their head to compress the carotid arteries.",
   "overview": "The Clock Choke is a highly effective gi-based blood choke primarily executed from turtle position, though it can also be applied from back control variations. The technique derives its name from the circular walking motion the attacker makes around the opponent's head, resembling the movement of clock hands. This submission targets the carotid arteries using a combination of the opponent's own gi lapel and precise body positioning. The Clock Choke represents an excellent example of using the gi as a force multiplier, creating a mechanical advantage that doesn't require significant upper body strength. The technique is particularly valuable because it can be executed when traditional back takes are defended, offering an alternative finishing option from turtle and transition positions. Many practitioners overlook the Clock Choke in favor of taking the back, but experienced grapplers recognize it as a high-percentage finish that capitalizes on the opponent's defensive posture in turtle.",
@@ -187,6 +190,44 @@
       "variation_name": "Two-on-One Clock Choke",
       "description": "Instead of controlling opponent's far side with your free hand, use it to reinforce your choking grip by grabbing your own wrist or grabbing the gi material near your choking hand. This creates significantly more pressure but requires you to already have excellent positioning and control. The trade-off is less ability to prevent opponent's rolling escape.",
       "when_to_use": "When opponent is smaller or when you have already achieved perfect positioning and want maximum choking pressure; most effective when they cannot roll due to being near the edge of the mat"
+    }
+  ],
+  "clips": [
+    {
+      "id": "Yc4zm2EWi4g",
+      "title": "Tight Clock Choke",
+      "by": "Satoshi Ishii",
+      "vertical": false,
+      "channel": "Bernardo Faria BJJ Fanatics",
+      "duration": 138,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "rjP4GvxTO6s",
+      "title": "Invisible Choke From Side Control",
+      "by": "Tom Oberhue",
+      "vertical": false,
+      "channel": "Bernardo Faria BJJ Fanatics",
+      "duration": 166,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "rJ1YYOBoXMg",
+      "title": "No-Gi Clock Choke",
+      "by": "Ronster",
+      "vertical": false,
+      "channel": "Ronster",
+      "duration": 21,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "grDZ5vo84bg",
+      "title": "Turtle Control & Clock Choke",
+      "by": "CVL BJJ",
+      "vertical": false,
+      "channel": "CVL BJJ",
+      "duration": 135,
+      "verified": "2026-07-14"
     }
   ]
 }

@@ -140,6 +140,54 @@ description: "Defend and counter the Buggy Choke to North-South transition in BJ
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Buggy Choke to North-South (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "North south escape",
+      "description": "Buggy Choke to North-South (Defender) film study: North south escape, taught by Moncaio Brothers.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/2EZfzJb_-tA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/2EZfzJb_-tA",
+      "url": "https://www.youtube.com/watch?v=2EZfzJb_-tA",
+      "creator": { "@type": "Person", "name": "Moncaio Brothers" },
+      "duration": "PT24S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "North South pin-down escape",
+      "description": "Buggy Choke to North-South (Defender) film study: North South pin-down escape, taught by Giroux Family.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/y5bnvzVyRgM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/y5bnvzVyRgM",
+      "url": "https://www.youtube.com/watch?v=y5bnvzVyRgM",
+      "creator": { "@type": "Person", "name": "Giroux Family" },
+      "duration": "PT11S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "North South inverted spin escape",
+      "description": "Buggy Choke to North-South (Defender) film study: North South inverted spin escape, taught by SBG Australia.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/XaLBmGnHm78/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/XaLBmGnHm78",
+      "url": "https://www.youtube.com/watch?v=XaLBmGnHm78",
+      "creator": { "@type": "Person", "name": "SBG Australia" },
+      "duration": "PT37S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -149,6 +197,42 @@ As the defender facing the Buggy Choke to North-South transition, you are in tur
 **Opponent's Starting Position**: [[Positions/Buggy Choke]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Buggy Choke to North-South (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=2EZfzJb_-tA)
+
+<p class="clip-credit"><strong>North south escape</strong> — taught by Moncaio Brothers · 0:24 · <a href="https://www.youtube.com/watch?v=2EZfzJb_-tA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=y5bnvzVyRgM)
+
+<p class="clip-credit"><strong>North South pin-down escape</strong> — taught by Giroux Family · 0:11 · <a href="https://www.youtube.com/watch?v=y5bnvzVyRgM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=XaLBmGnHm78)
+
+<p class="clip-credit"><strong>North South inverted spin escape</strong> — taught by SBG Australia · 0:37 · <a href="https://www.youtube.com/watch?v=XaLBmGnHm78" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

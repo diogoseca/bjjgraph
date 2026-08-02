@@ -16,7 +16,10 @@
   "target_area": "Carotid arteries and trachea via lapel compression",
   "starting_position": "Side Control",
   "from_position": "Side Control/Top",
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "variant_uniqueness": "Lapel-as-ligature creates noose effect from top control",
   "summary": "The Marce Choke is a gi-specific lapel strangle applied from dominant top positions such as side control and north-south, using the opponent's own lapel as a ligature around the neck to compress both carotid arteries.",
   "overview": "The Marce Choke is a highly effective gi-specific submission that combines elements of the loop choke and cross collar choke mechanics. This technique leverages the opponent's own lapel to create a powerful blood choke from dominant top positions, particularly side control and north-south. The Marce Choke is particularly effective because it uses the mechanical advantage of the lapel wrapped around the opponent's neck, creating compression on both carotid arteries simultaneously while controlling the opponent's upper body.\n\nUnlike traditional collar chokes that require both hands on the lapel, the Marce Choke uses one hand on the lapel and your body weight to apply pressure, making it extremely difficult to defend once properly set. The technique excels in gi competition because it can be applied from multiple top positions and often catches opponents by surprise as they focus on defending more common submissions.\n\nThe choke works on a fundamental principle: using the lapel as a ligature around the neck while your body weight and positioning create the constricting force. This makes it a high-percentage technique for practitioners who master the proper setup and understand the mechanics of lapel manipulation. The finishing mechanic relies on opposing forces - the lapel pulls from one direction while chest pressure drives from the other - creating a noose effect that is biomechanically efficient and extremely difficult to defend through strength alone.",
@@ -186,6 +189,35 @@
     {
       "name": "Breadcutter Choke",
       "relationship": "Alternative lapel choke from similar positions with different finishing mechanics"
+    }
+  ],
+  "clips": [
+    {
+      "id": "hCiHjCbhGyE",
+      "title": "1 Minute Jiu-Jitsu Hack: Marce Choke",
+      "by": "Brandon McCaghren",
+      "vertical": false,
+      "channel": "Brandon Mccaghren",
+      "duration": 67,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "1jsDC-jaPoU",
+      "title": "Marce Choke",
+      "by": "Colemans Electric",
+      "vertical": false,
+      "channel": "Colemans Electric",
+      "duration": 78,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "Mp7Ffm85k0A",
+      "title": "Knee Flare Marce Choke Detail",
+      "by": "Drew Darce",
+      "vertical": false,
+      "channel": "Drew Darce",
+      "duration": 113,
+      "verified": "2026-07-14"
     }
   ]
 }

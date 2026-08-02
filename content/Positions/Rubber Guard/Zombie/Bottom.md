@@ -21,19 +21,19 @@ description: "Master Zombie Bottom position in BJJ. Defensive half guard variant
     {
       "@type": "HowToStep",
       "name": "Execute Old School Sweep",
-      "text": "From this position, attempt Old School Sweep. This technique is attempted in 35% of exchanges from this position.",
+      "text": "From this position, attempt Old School Sweep. This technique is attempted in 10% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Electric Chair Transition",
-      "text": "From this position, attempt Electric Chair Transition. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Electric Chair Transition. This technique is attempted in 10% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Lockdown Recovery",
-      "text": "From this position, attempt Lockdown Recovery. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Lockdown Recovery. This technique is attempted in 12% of exchanges from this position.",
       "position": 3
     },
     {
@@ -45,13 +45,13 @@ description: "Master Zombie Bottom position in BJJ. Defensive half guard variant
     {
       "@type": "HowToStep",
       "name": "Execute Granby Roll to Guard",
-      "text": "From this position, attempt Granby Roll to Guard. This technique is attempted in 9% of exchanges from this position.",
+      "text": "From this position, attempt Granby Roll to Guard. This technique is attempted in 10% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Rolling Back Take",
-      "text": "From this position, attempt Rolling Back Take. This technique is attempted in 7% of exchanges from this position.",
+      "name": "Execute Roll to Truck",
+      "text": "From this position, attempt Roll to Truck. This technique is attempted in 6% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -153,6 +153,54 @@ description: "Master Zombie Bottom position in BJJ. Defensive half guard variant
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Zombie (Bottom) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Prison Guard Homie X",
+      "description": "Zombie (Bottom) film study: Prison Guard Homie X, taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/G9g3ZOJaQHA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/G9g3ZOJaQHA",
+      "url": "https://www.youtube.com/watch?v=G9g3ZOJaQHA",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT61S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Lockdown Entries",
+      "description": "Zombie (Bottom) film study: Lockdown Entries, taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/2ajPv8XKfvY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/2ajPv8XKfvY",
+      "url": "https://www.youtube.com/watch?v=2ajPv8XKfvY",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT115S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Lockdown Strategies",
+      "description": "Zombie (Bottom) film study: Lockdown Strategies, taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/oSQ7BHerIow/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/oSQ7BHerIow",
+      "url": "https://www.youtube.com/watch?v=oSQ7BHerIow",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT61S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -164,6 +212,42 @@ The Zombie is characterized by the bottom practitioner being on their side with 
 Unlike traditional turtle positions where the practitioner curls into a ball, the Zombie position involves active movement, constant reframing, and strategic use of the lockdown to off-balance the opponent. The position's effectiveness lies in its ability to frustrate passing attempts while creating opportunities for guard recovery, sweeps, or even back takes. Understanding the Zombie position is essential for modern no-gi practitioners, particularly those training in the 10th Planet system or facing opponents who utilize deep half guard and lockdown-based games.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Zombie (Bottom) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=G9g3ZOJaQHA)
+
+<p class="clip-credit"><strong>Prison Guard Homie X</strong> — taught by Eddie Bravo · 1:01 · <a href="https://www.youtube.com/watch?v=G9g3ZOJaQHA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=2ajPv8XKfvY)
+
+<p class="clip-credit"><strong>Lockdown Entries</strong> — taught by Eddie Bravo · 1:55 · <a href="https://www.youtube.com/watch?v=2ajPv8XKfvY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=oSQ7BHerIow)
+
+<p class="clip-credit"><strong>Lockdown Strategies</strong> — taught by Eddie Bravo · 1:01 · <a href="https://www.youtube.com/watch?v=oSQ7BHerIow" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

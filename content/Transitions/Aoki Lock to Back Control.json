@@ -14,21 +14,33 @@
   "outcomes": [
     {
       "to": "Back Control/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Aoki Lock Control/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Turtle/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "summary": "Aoki Lock to Back Control is a no-gi transition where the top player abandons a stalling shoulder lock to ride the opponent's rolling escape into seatbelt control and back hooks, converting a defended submission into the most dominant position in grappling.",
   "overview": "The Aoki Lock to Back Control transition exploits the natural defensive reaction of an opponent caught in the Aoki Lock shoulder submission. When the bottom player attempts to roll through or rotate away from the shoulder pressure, the top player abandons the submission grip and follows the opponent's momentum to establish hooks and seatbelt control on the back. This is a high-percentage bail-out that converts a potentially stalled shoulder lock into the most dominant control position in grappling.\n\nStrategically, this transition functions as the primary alternative when the Aoki Lock finish stalls. Rather than burning energy forcing a defended shoulder lock, recognizing the moment your opponent commits to a rolling escape allows you to ride their movement directly into back control. The leg entanglement from Aoki Lock provides a natural starting point for hook insertion, since your legs are already threaded around the opponent's upper body. The key mechanical insight is that the same leg positioning that creates shoulder pressure can be redirected into back hooks with minimal adjustment.\n\nThis technique is particularly effective in no-gi competition where the absence of collar grips makes the Aoki Lock harder to finish but the slippery surface facilitates smooth transitions to the back. It represents the core principle of positional advancement over submission hunting: when your opponent gives you their back to escape a joint lock, taking the superior position often yields better finishing opportunities than the original attack.",
   "conditions": [
@@ -219,46 +231,175 @@
     "flashcards": [
       {
         "question": "What is the primary trigger that tells you to abandon the Aoki Lock and transition to back control?",
-        "answer": "The primary trigger is feeling the opponent commit to a rolling escape or turning away from the shoulder pressure. When they shift their weight forward, rotate their hips, or begin extracting their arm, this defensive movement creates the momentum you need to follow them to back control. Attempting the transition before they commit wastes a viable submission opportunity."
+        "answer": "The primary trigger is feeling the opponent commit to a rolling escape or turning away from the shoulder pressure. When they shift their weight forward, rotate their hips, or begin extracting their arm, this defensive movement creates the momentum you need to follow them to back control. Attempting the transition before they commit wastes a viable submission opportunity.",
+        "answer_line": "Opponent commits to rolling escape",
+        "distractors": {
+          "plausible": [
+            "Any slight hip shift they make",
+            "Opponent taps to pressure"
+          ],
+          "trap": [
+            "Wait until they fully free arm"
+          ]
+        }
       },
       {
         "question": "What is the first grip you must establish when arriving on your opponent's back during this transition?",
-        "answer": "The seatbelt grip is the first priority. Your top arm goes over the opponent's shoulder and your bottom arm threads under their far armpit, locking hands together at the sternum. This grip prevents them from turning to face you and provides the upper body anchor needed to stabilize the position while you work to insert hooks."
+        "answer": "The seatbelt grip is the first priority. Your top arm goes over the opponent's shoulder and your bottom arm threads under their far armpit, locking hands together at the sternum. This grip prevents them from turning to face you and provides the upper body anchor needed to stabilize the position while you work to insert hooks.",
+        "answer_line": "Seatbelt: over shoulder, under arm",
+        "distractors": {
+          "plausible": [
+            "Insert both hooks first",
+            "Grab a collar tie first"
+          ],
+          "trap": [
+            "Cross your feet around waist"
+          ]
+        }
       },
       {
         "question": "Your opponent starts rolling forward but then stops midway and tries to re-establish defensive posture - how do you adjust?",
-        "answer": "If the opponent stalls mid-roll, you have two options based on your position. If you already have chest-to-back contact, continue driving forward with hip pressure to complete the transition and establish seatbelt. If you are still in the Aoki Lock configuration with leg entanglement, re-engage the shoulder lock pressure since their interrupted escape has likely weakened their defensive posture."
+        "answer": "If the opponent stalls mid-roll, you have two options based on your position. If you already have chest-to-back contact, continue driving forward with hip pressure to complete the transition and establish seatbelt. If you are still in the Aoki Lock configuration with leg entanglement, re-engage the shoulder lock pressure since their interrupted escape has likely weakened their defensive posture.",
+        "answer_line": "Chest contact: drive to seatbelt",
+        "distractors": {
+          "plausible": [
+            "Always finish the roll regardless",
+            "Switch immediately to hooks"
+          ],
+          "trap": [
+            "Release all pressure and reset"
+          ]
+        }
       },
       {
         "question": "What is the critical hip movement required to convert Aoki Lock leg entanglement into back hooks?",
-        "answer": "You must drive your hips forward and through as you follow the opponent's roll, then redirect your legs from the shoulder entanglement position downward toward their hip crease. The bottom leg that was trapping their shoulder threads inside their thigh as a hook, while your top leg swings over their hip to establish the second hook. The hip drive forward is what keeps you connected during the conversion."
+        "answer": "You must drive your hips forward and through as you follow the opponent's roll, then redirect your legs from the shoulder entanglement position downward toward their hip crease. The bottom leg that was trapping their shoulder threads inside their thigh as a hook, while your top leg swings over their hip to establish the second hook. The hip drive forward is what keeps you connected during the conversion.",
+        "answer_line": "Drive hips forward, redirect legs",
+        "distractors": {
+          "plausible": [
+            "Pull legs straight back first",
+            "Sit back to create space"
+          ],
+          "trap": [
+            "Cross ankles to lock hooks fast"
+          ]
+        }
       },
       {
         "question": "Why should you never cross your feet when establishing back hooks after this transition?",
-        "answer": "Crossed feet expose you to a straight ankle lock counter where the bottom player triangles their legs around your crossed ankles and extends their hips for the submission. Independent hooks with heels in the hip crease provide better control, allow you to adjust each leg independently to counter escape attempts, and eliminate the ankle lock vulnerability entirely."
+        "answer": "Crossed feet expose you to a straight ankle lock counter where the bottom player triangles their legs around your crossed ankles and extends their hips for the submission. Independent hooks with heels in the hip crease provide better control, allow you to adjust each leg independently to counter escape attempts, and eliminate the ankle lock vulnerability entirely.",
+        "answer_line": "Crossed feet risk ankle lock",
+        "distractors": {
+          "plausible": [
+            "Crossed feet are just less stable",
+            "Crossed feet slow hook insertion"
+          ],
+          "trap": [
+            "Cross feet for max squeeze power"
+          ]
+        }
       },
       {
         "question": "Your opponent turtles tight after the roll and squeezes elbows to knees preventing hook insertion - what is your response?",
-        "answer": "Maintain the seatbelt grip as your anchor and use a spiral ride or wedge technique to pry open space. Drive your knee between their elbow and knee on one side to create the gap for hook insertion. Alternatively, abandon hooks entirely and transition to a body triangle by locking your legs around their waist, or target a crucifix by isolating their far arm. A tight turtle with seatbelt control is still a dominant position."
+        "answer": "Maintain the seatbelt grip as your anchor and use a spiral ride or wedge technique to pry open space. Drive your knee between their elbow and knee on one side to create the gap for hook insertion. Alternatively, abandon hooks entirely and transition to a body triangle by locking your legs around their waist, or target a crucifix by isolating their far arm. A tight turtle with seatbelt control is still a dominant position.",
+        "answer_line": "Seatbelt anchor, wedge knee for gap",
+        "distractors": {
+          "plausible": [
+            "Force hooks in with leg strength",
+            "Abandon position, reset guard"
+          ],
+          "trap": [
+            "Let go of seatbelt to pry elbows"
+          ]
+        }
       },
       {
         "question": "What are the entry requirements that must exist before you attempt the Aoki Lock to back control transition?",
-        "answer": "You need established Aoki Lock top position with active leg entanglement, the opponent must be actively attempting to escape rather than passively defending, you must have at least one hand that can release the shoulder lock grip quickly, and you need sufficient hip mobility to redirect your legs from shoulder control to hook position. Missing any of these conditions makes the transition low-percentage."
+        "answer": "You need established Aoki Lock top position with active leg entanglement, the opponent must be actively attempting to escape rather than passively defending, you must have at least one hand that can release the shoulder lock grip quickly, and you need sufficient hip mobility to redirect your legs from shoulder control to hook position. Missing any of these conditions makes the transition low-percentage.",
+        "answer_line": "Active escape, quick-release grip",
+        "distractors": {
+          "plausible": [
+            "Opponent passively stalling",
+            "Only need shoulder pressure"
+          ],
+          "trap": [
+            "Commit without hip mobility"
+          ]
+        }
       },
       {
         "question": "How does the direction of your opponent's escape determine which hook you insert first?",
-        "answer": "If the opponent rolls forward, your bottom-side leg naturally arrives at the hook position first since it was already entangling their shoulder area and follows them through the roll. If they turn away to their side, your top-side leg can often swing over their hip first. In both cases, the leg closest to their body during the transition becomes the first hook, and the remaining leg follows to complete dual hook control."
+        "answer": "If the opponent rolls forward, your bottom-side leg naturally arrives at the hook position first since it was already entangling their shoulder area and follows them through the roll. If they turn away to their side, your top-side leg can often swing over their hip first. In both cases, the leg closest to their body during the transition becomes the first hook, and the remaining leg follows to complete dual hook control.",
+        "answer_line": "Leg closest to their body first",
+        "distractors": {
+          "plausible": [
+            "Top leg always inserts first",
+            "Bottom leg always inserts first"
+          ],
+          "trap": [
+            "Insert both hooks simultaneously"
+          ]
+        }
       },
       {
         "question": "When the Aoki Lock finish is stalling, what signals tell you the back take is higher percentage than continuing the submission?",
-        "answer": "Key signals include: opponent has stabilized their shoulder defense and stopped giving ground to pressure, your energy expenditure is increasing without submission progress, the opponent's hips are mobile and creating rotation angles, or you have been in the position for more than 15-20 seconds without finishing. Two failed pressure escalations without progress is a strong indicator to transition rather than force the finish."
+        "answer": "Key signals include: opponent has stabilized their shoulder defense and stopped giving ground to pressure, your energy expenditure is increasing without submission progress, the opponent's hips are mobile and creating rotation angles, or you have been in the position for more than 15-20 seconds without finishing. Two failed pressure escalations without progress is a strong indicator to transition rather than force the finish.",
+        "answer_line": "Stalled defense, no gain in 15-20s",
+        "distractors": {
+          "plausible": [
+            "Opponent's grip getting tighter",
+            "You feel tired after 5 seconds"
+          ],
+          "trap": [
+            "Increase pressure, never transition"
+          ]
+        }
       },
       {
         "question": "What chain attacks become available after successfully completing this transition to back control?",
-        "answer": "From back control you gain access to rear naked choke as the primary submission, bow and arrow choke if in gi, armbar from back by trapping and extending the arm over your leg, and collar chokes in gi. You can also transition to body triangle for enhanced control, mounted crucifix if their arm becomes isolated, or truck position if they attempt to escape by turning. The back control position offers the highest submission rate in competition."
+        "answer": "From back control you gain access to rear naked choke as the primary submission, bow and arrow choke if in gi, armbar from back by trapping and extending the arm over your leg, and collar chokes in gi. You can also transition to body triangle for enhanced control, mounted crucifix if their arm becomes isolated, or truck position if they attempt to escape by turning. The back control position offers the highest submission rate in competition.",
+        "answer_line": "Rear naked choke is primary",
+        "distractors": {
+          "plausible": [
+            "Armbar from mount is primary",
+            "Kimura is the go-to finish"
+          ],
+          "trap": [
+            "Release seatbelt for leglock"
+          ]
+        }
       }
     ],
-    "safety_considerations": "The Aoki Lock to Back Control transition involves releasing a shoulder lock submission mid-application, which requires careful attention to safety protocols. During the transition, maintain controlled release of shoulder pressure rather than abruptly jerking or twisting. The most dangerous moment is when your opponent rolls while the shoulder lock is still partially engaged, as this can amplify joint stress beyond safe limits. If you feel resistance in the shoulder joint during the roll, release pressure immediately before continuing the back take. In training, communicate clearly with your partner about the transition so they do not panic during the positional change. Avoid attempting this transition at full speed until the movement pattern is well-established through drilling. Partners should tap immediately if shoulder discomfort occurs during the rolling phase, even if the submission grip has been released, as residual leg entanglement can maintain unwanted joint pressure."
+    "safety_considerations": "The Aoki Lock to Back Control transition involves releasing a shoulder lock submission mid-application, which requires careful attention to safety protocols. During the transition, maintain controlled release of shoulder pressure rather than abruptly jerking or twisting. The most dangerous moment is when your opponent rolls while the shoulder lock is still partially engaged, as this can amplify joint stress beyond safe limits. If you feel resistance in the shoulder joint during the roll, release pressure immediately before continuing the back take. In training, communicate clearly with your partner about the transition so they do not panic during the positional change. Avoid attempting this transition at full speed until the movement pattern is well-established through drilling. Partners should tap immediately if shoulder discomfort occurs during the rolling phase, even if the submission grip has been released, as residual leg entanglement can maintain unwanted joint pressure.",
+    "clips": [
+      {
+        "id": "f3PJ06A_bWQ",
+        "title": "Hip switch to back take",
+        "by": "Gordon Ryan",
+        "vertical": false,
+        "channel": "Jiu Jitsu Moves",
+        "duration": 19,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "GDT7T2k-zU4",
+        "title": "Ankle lock to back take combination",
+        "by": "Jon Thomas",
+        "vertical": false,
+        "channel": "JonThomasBJJ",
+        "duration": 650,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "EWwWb2Ibfsk",
+        "title": "Shotgun ankle Aoki locks",
+        "by": "Mateusz Szczecinski",
+        "vertical": false,
+        "channel": "Learn Faster BJJ - Jiu Jitsu Breakdowns",
+        "duration": 406,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Aoki Lock to Back Control Defender",
@@ -348,23 +489,73 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that your opponent is transitioning from Aoki Lock to a back take?",
-        "answer": "The earliest cue is a sudden release or significant reduction of shoulder lock pressure while your opponent maintains or increases body contact. When the rotational shoulder pressure disappears but their chest drives forward into your back, they have abandoned the submission and are initiating the back take. This tactile shift from rotational to linear pressure is the primary early warning signal."
+        "answer": "The earliest cue is a sudden release or significant reduction of shoulder lock pressure while your opponent maintains or increases body contact. When the rotational shoulder pressure disappears but their chest drives forward into your back, they have abandoned the submission and are initiating the back take. This tactile shift from rotational to linear pressure is the primary early warning signal.",
+        "answer_line": "Pressure drops, chest presses in",
+        "distractors": {
+          "plausible": [
+            "Opponent stops all movement",
+            "They grab your wrist tightly"
+          ],
+          "trap": [
+            "Wait until hooks are fully in"
+          ]
+        }
       },
       {
         "question": "Why is the transition window between grip release and seatbelt establishment your best defensive opportunity?",
-        "answer": "During this brief window, your opponent has abandoned their strongest control mechanism, the leg-entangled shoulder lock, and has not yet established their next control mechanism, the seatbelt grip with hooks. Their hands are transitioning between grips and their legs are repositioning from shoulder control to hook position. This is the moment of minimum control where defensive actions like turning in, creating distance, or establishing frames have the highest probability of success."
+        "answer": "During this brief window, your opponent has abandoned their strongest control mechanism, the leg-entangled shoulder lock, and has not yet established their next control mechanism, the seatbelt grip with hooks. Their hands are transitioning between grips and their legs are repositioning from shoulder control to hook position. This is the moment of minimum control where defensive actions like turning in, creating distance, or establishing frames have the highest probability of success.",
+        "answer_line": "Old control gone, new not set",
+        "distractors": {
+          "plausible": [
+            "It's when they're most tired",
+            "It's when action pauses"
+          ],
+          "trap": [
+            "Wait for hooks before defending"
+          ]
+        }
       },
       {
         "question": "Your opponent has established seatbelt but no hooks yet - what is your defensive priority sequence?",
-        "answer": "First, protect your neck by tucking your chin and controlling the over-shoulder arm with two-on-one grip fighting. Second, turtle tight with elbows to knees to deny hook insertion space. Third, begin actively stripping the seatbelt grip using your hands while maintaining the tight turtle shell. Fourth, once seatbelt loosens, immediately execute an escape such as granby roll, sit-through, or technical standup before they can re-establish control. Never skip the neck protection step to fight hooks."
+        "answer": "First, protect your neck by tucking your chin and controlling the over-shoulder arm with two-on-one grip fighting. Second, turtle tight with elbows to knees to deny hook insertion space. Third, begin actively stripping the seatbelt grip using your hands while maintaining the tight turtle shell. Fourth, once seatbelt loosens, immediately execute an escape such as granby roll, sit-through, or technical standup before they can re-establish control. Never skip the neck protection step to fight hooks.",
+        "answer_line": "Protect neck, then turtle tight",
+        "distractors": {
+          "plausible": [
+            "Strip hooks before seatbelt",
+            "Explode to standing at once"
+          ],
+          "trap": [
+            "Fight hooks first, ignore neck"
+          ]
+        }
       },
       {
         "question": "When should you choose to turtle tight versus turning into your opponent during this transition?",
-        "answer": "Turn into your opponent when you detect the transition early, specifically when you feel the shoulder pressure release and their hands have not yet reached seatbelt position. This requires fast recognition and immediate commitment. Turtle tight when the transition is already advanced and your opponent has chest-to-back contact or partial seatbelt, because turning at this stage would expose your neck. The decision hinges on timing: early detection enables turning, late detection requires turtling."
+        "answer": "Turn into your opponent when you detect the transition early, specifically when you feel the shoulder pressure release and their hands have not yet reached seatbelt position. This requires fast recognition and immediate commitment. Turtle tight when the transition is already advanced and your opponent has chest-to-back contact or partial seatbelt, because turning at this stage would expose your neck. The decision hinges on timing: early detection enables turning, late detection requires turtling.",
+        "answer_line": "Early: turn in. Late: turtle tight",
+        "distractors": {
+          "plausible": [
+            "Always turtle regardless",
+            "Always turn in regardless"
+          ],
+          "trap": [
+            "Turn in after hooks are set"
+          ]
+        }
       },
       {
         "question": "How do you prevent your rolling escape from Aoki Lock from becoming a free back take for your opponent?",
-        "answer": "Before committing to a forward roll, test whether your opponent is maintaining body contact by doing a small directional feint. If they are glued to your back and matching your movement, the forward roll will deliver you directly into their back control. Instead, change escape direction by turning toward them, sprawling flat, or executing a sit-through to a different angle. Only commit to the full roll when you feel genuine separation between your back and their chest."
+        "answer": "Before committing to a forward roll, test whether your opponent is maintaining body contact by doing a small directional feint. If they are glued to your back and matching your movement, the forward roll will deliver you directly into their back control. Instead, change escape direction by turning toward them, sprawling flat, or executing a sit-through to a different angle. Only commit to the full roll when you feel genuine separation between your back and their chest.",
+        "answer_line": "Feint first, confirm separation",
+        "distractors": {
+          "plausible": [
+            "Roll faster to outpace them",
+            "Roll same direction each time"
+          ],
+          "trap": [
+            "Commit to full roll immediately"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -387,6 +578,26 @@
         "phase": "Week 7-8",
         "focus": "Full resistance positional sparring",
         "description": "Start from Aoki Lock bottom with partner at full resistance. Defend the shoulder lock while being prepared for the back take transition. Execute the full defensive sequence: recognize transition, choose defensive response, fight grips, escape. Track success rate of preventing full back control establishment across multiple rounds."
+      }
+    ],
+    "clips": [
+      {
+        "id": "djhMEfVZozo",
+        "title": "Back escape against the seatbelt grip",
+        "by": "Skyhook Martial Arts",
+        "vertical": false,
+        "channel": "Skyhook Martial Arts & Fitness",
+        "duration": 36,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "cfvNAYrogwQ",
+        "title": "Back escape detail: no seat belt grip",
+        "by": "Elements Martial Arts Brighton",
+        "vertical": false,
+        "channel": "Elements Martial Arts Brighton",
+        "duration": 118,
+        "verified": "2026-07-15"
       }
     ]
   },

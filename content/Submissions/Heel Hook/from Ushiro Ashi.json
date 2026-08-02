@@ -15,7 +15,10 @@
   "target_area": "Knee ligaments (MCL, LCL, meniscus) via rotational force through heel",
   "starting_position": "Ushiro Ashi-Garami",
   "from_position": "Ushiro Ashi-Garami/Top",
-  "success_rate": 45,
+  "success_rate": {
+    "gi": 45,
+    "nogi": 45
+  },
   "summary": "The Heel Hook from Ushiro Ashi-Garami is a rotational knee submission finished from the reversed leg entanglement, where the opponent's inverted hips force a compact grip and body-driven rotation to attack the knee ligaments through the heel.",
   "overview": "The Heel Hook from Ushiro Ashi-Garami represents one of the most technically demanding finishing sequences in modern leg lock systems. Unlike heel hooks executed from standard outside or inside ashi-garami configurations, this variation requires specific mechanical adjustments to account for the opponent's inverted hip orientation that characterizes the ushiro (reverse) entanglement. The reversed configuration changes optimal grip placement, hip angle, and rotational mechanics for the finish, demanding a more compact finishing position with the attacker's hips positioned closer to the opponent's trapped leg.\n\nThis submission typically arises when an opponent attempts to escape standard leg entanglements through inversion, and the attacker follows their rotation to maintain control in the ushiro configuration. The finishing window often opens during the opponent's escape attempt, when their defensive attention is divided between clearing legs and protecting the heel. Experienced leg lock specialists capitalize on this divided attention to secure heel exposure and apply controlled rotational force before the defender can complete their escape sequence.\n\nThe heel hook from ushiro ashi-garami attacks the knee joint through rotational force applied via the heel and ankle complex. The reversed orientation creates different leverage angles compared to standard heel hooks, often requiring the blade of the wrist to seat behind the Achilles from an adjusted angle. Success demands precise understanding of how the inverted configuration affects biomechanical leverage, grip placement, and the timing of rotational force application. The submission carries extreme injury risk due to the rotational nature of the attack on the knee ligaments, making controlled application and immediate recognition of tap signals absolutely essential for safe training.",
   "safety_considerations": {
@@ -66,22 +69,34 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 45,
+      "probability": {
+        "gi": 45,
+        "nogi": 45
+      },
       "result": "success"
     },
     {
       "to": "Ushiro Ashi-Garami/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Open Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     },
     {
       "to": "50-50 Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
@@ -305,52 +320,181 @@
       {
         "question": "What anatomical structures does the heel hook from ushiro ashi-garami primarily attack?",
         "answer": "The heel hook attacks the knee ligaments through rotational force transmitted via the heel and ankle complex. The primary targets are the medial collateral ligament (MCL) and lateral collateral ligament (LCL), with secondary risk to the meniscus and anterior cruciate ligament (ACL). The rotational mechanism twists the tibia relative to the femur, stressing these structures beyond their normal range of motion. This is particularly dangerous because these ligaments provide minimal pain warning before catastrophic failure.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "MCL/LCL via tibial rotation",
+        "distractors": {
+          "plausible": [
+            "ACL is the primary target",
+            "Meniscus is main target"
+          ],
+          "trap": [
+            "Only the ankle joint, not knee"
+          ]
+        }
       },
       {
         "question": "What specific grip adjustment is required for the heel hook from ushiro versus a standard outside ashi-garami heel hook?",
         "answer": "In ushiro ashi-garami, the opponent's inverted hip orientation requires the attacker to seat the blade of the wrist behind the Achilles from a more compact angle, with elbows positioned closer to the attacker's own hips rather than extended across the opponent's body. The reversed configuration means the finishing grip often requires a more parallel alignment to the opponent's body rather than the perpendicular angle used in standard outside ashi. This compact positioning compensates for the different leverage angles created by the inverted entanglement geometry.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Compact grip, elbows tucked in",
+        "distractors": {
+          "plausible": [
+            "Extend arms across their body",
+            "Perpendicular grip like outside ashi"
+          ],
+          "trap": [
+            "Release thigh control to reach heel"
+          ]
+        }
       },
       {
         "question": "How do you recognize that the opponent's heel is approaching the breaking point during the finish?",
         "answer": "Breaking point indicators include the opponent's knee beginning to rotate independently of their hip, a sudden change in the resistance profile where the ligament tension shifts from elastic to rigid, and the opponent's body visibly tensing or attempting emergency escape movements. However, the critical safety reality is that knee ligaments often provide NO pain warning before catastrophic failure. This means you must apply force so slowly and progressively that the opponent has ample time to feel any discomfort and tap before structural damage occurs. Never rely on the opponent's reaction as your only safety measure.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Knee rotates, tension turns rigid",
+        "distractors": {
+          "plausible": [
+            "Heel slides deeper into the grip",
+            "Their hips flatten to the mat"
+          ],
+          "trap": [
+            "Wait for pain to warn you"
+          ]
+        }
       },
       {
         "question": "What control must be established before you can safely attempt the heel hook finish from ushiro?",
         "answer": "Before attempting the finish, you must have stable ushiro ashi-garami with your inside leg deeply controlling the opponent's thigh, your outside leg tight over their knee line with legs squeezed together eliminating space, control or neutralization of the opponent's free leg preventing escape completion, and your hips positioned close to the trapped leg with weight driving downward. Attempting the finish without these control elements results in either failed submission attempts that allow escape, or uncontrolled application of force that creates injury risk.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Deep thigh control, free leg tamed",
+        "distractors": {
+          "plausible": [
+            "Just squeeze legs together tight",
+            "Hip control alone is sufficient"
+          ],
+          "trap": [
+            "Grip heel first, control second"
+          ]
+        }
       },
       {
         "question": "At what point during the heel hook sequence does the opponent reach the point of no escape?",
         "answer": "The point of no escape occurs when the attacker has established a deep two-handed heel hook grip with elbows locked to the torso, the inside leg maintains deep thigh control preventing hip rotation, and the attacker's body has begun rotating as a unified structure. Once the full grip is locked and the attacker's body rotation begins, the defender cannot generate enough counter-force to prevent the finish through grip fighting alone. Prior to this point, strong dorsiflexion, grip fighting, and inversion completion remain viable escape options for the defender.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Two-hand lock plus body rotation",
+        "distractors": {
+          "plausible": [
+            "Once dorsiflexion first breaks",
+            "Single hand grip on the heel"
+          ],
+          "trap": [
+            "Wait until the knee pops to tap"
+          ]
+        }
       },
       {
         "question": "Your opponent has a strong grip defense protecting their heel but your ushiro control is solid. What finishing error should you avoid?",
         "answer": "The critical error is continuing to fight through established defensive grips with diminishing returns and increasing energy expenditure. Forcing the heel hook against strong two-handed grip defense has low success probability and degrades your positional control as you overcommit to grip fighting. Instead, use your stable ushiro control as a platform to transition to alternative attacks such as a straight ankle lock that bypasses heel defense, advance to saddle or honey hole for better finishing leverage, or switch to kneebar attacks that exploit the opponent's defensive grip focus.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Don't force it, switch attacks",
+        "distractors": {
+          "plausible": [
+            "Grip fight harder for the tap",
+            "Add more inversion torque"
+          ],
+          "trap": [
+            "Jerk the heel to break grips"
+          ]
+        }
       },
       {
         "question": "How should grip adjustments be made during the finishing sequence if the opponent partially strips your initial heel hook grip?",
         "answer": "When the opponent partially strips your grip, avoid chasing the heel with extended arms which creates space for escape. Instead, re-consolidate your leg control first by squeezing your figure-four tighter and driving your hips closer to the trapped leg. Then re-enter the grip from a different angle, often by switching from a palm-up to palm-down wrist position behind the Achilles, or by transitioning to a body lock configuration around the lower leg that makes grip stripping more difficult. The key is maintaining positional control during grip transitions rather than scrambling after the heel.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Re-consolidate legs, re-enter grip",
+        "distractors": {
+          "plausible": [
+            "Straighten arms to chase the heel",
+            "Loosen the figure-four for room"
+          ],
+          "trap": [
+            "Open your legs to lunge for heel"
+          ]
+        }
       },
       {
         "question": "What are your immediate obligations if your training partner does not verbally tap but shows signs of distress during heel hook application?",
         "answer": "You must release ALL rotational pressure immediately upon any sign of distress, including unusual facial expressions, gasping, sudden rigidity, or any vocalization that could indicate pain or panic. Do not wait for a formal tap signal. Knee ligaments can fail catastrophically without adequate pain warning, meaning your partner may not recognize the danger before structural damage occurs. After releasing, check on your partner's knee condition and do not resume training the submission until you have confirmed they are uninjured. Erring on the side of caution is always correct with heel hooks.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Release instantly, no tap needed",
+        "distractors": {
+          "plausible": [
+            "Ease pressure and ask if okay",
+            "Hold still until they settle"
+          ],
+          "trap": [
+            "Keep cranking until they tap"
+          ]
+        }
       },
       {
         "question": "In competition, what strategic adjustments maximize finishing percentage from ushiro ashi-garami?",
         "answer": "Competition strategy from ushiro emphasizes speed of grip establishment over positional patience, since opponents are less willing to tap and rule sets create urgency. Immediately upon establishing ushiro control, attack the heel before the opponent can organize their defense. Use your free hand to strip their defensive grip while simultaneously seating your heel hook grip rather than sequencing these actions separately. If the first attempt fails, rapidly cycle between heel hook, ankle lock, and positional advancement attempts to overwhelm the opponent's defensive decision-making rather than committing to a single extended finishing attempt.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Attack heel before defense sets",
+        "distractors": {
+          "plausible": [
+            "Slow down and secure control first",
+            "Go for the kneebar setup"
+          ],
+          "trap": [
+            "Open the ashi to chase the finish"
+          ]
+        }
       },
       {
         "question": "Why is it dangerous to apply the heel hook with arm rotation only rather than full body rotation?",
         "answer": "Arm-only rotation creates two critical problems. First, it produces inconsistent and jerky force application because small arm muscles fatigue rapidly and generate force in unpredictable bursts rather than smooth progressive pressure. This makes it nearly impossible to apply the slow, controlled rotation required for safe training. Second, arm-only rotation lacks sufficient power against competent defense, leading the attacker to compensate by jerking or spiking the submission in frustration, dramatically increasing injury risk. Full body rotation using core and hip turn creates smooth, powerful, controllable force that can be modulated precisely.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Jerky bursts spike the knee",
+        "distractors": {
+          "plausible": [
+            "Your elbow slips off their shin",
+            "Opponent can grab your wrist"
+          ],
+          "trap": [
+            "Yank hard once for a fast tap"
+          ]
+        }
+      }
+    ],
+    "clips": [
+      {
+        "id": "lTsK9C_a6po",
+        "title": "V Grip from Top Ushiro leg entanglement",
+        "by": "Gordon Ryan",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 140,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "QfNKQzy3V_w",
+        "title": "Arm Saddle to inside heel hook flow drill",
+        "by": "Factory Fresh Jiu Jitsu",
+        "vertical": false,
+        "channel": "Factory Fresh Jiu Jitsu",
+        "duration": 21,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "Bf5cJNYCMcA",
+        "title": "Reverse X ashi garami leg control",
+        "by": "The Sanctuary BJJ",
+        "vertical": false,
+        "channel": "The Sanctuary Brazilian JiuJitsu and Fitness",
+        "duration": 105,
+        "verified": "2026-07-15"
       }
     ]
   },
@@ -456,27 +600,77 @@
       {
         "question": "What is the single most important defensive action to maintain throughout the entire heel hook defense sequence?",
         "answer": "Maintaining dorsiflexion (foot flexed with toes pulled toward the shin) throughout the entire defense. This position pulls the heel closer to the lower leg, making it significantly more difficult for the attacker to seat their wrist behind the Achilles and establish a finishing grip. Even momentary relaxation of dorsiflexion during grip fighting or escape attempts creates the opening for a skilled attacker to establish the heel hook. This one action buys more defensive time than any other single technique.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Keep the foot dorsiflexed",
+        "distractors": {
+          "plausible": [
+            "Grip fight their wrist first",
+            "Bridge hard to bump them off"
+          ],
+          "trap": [
+            "Point the toes to slip free"
+          ]
+        }
       },
       {
         "question": "How do you distinguish between a shallow ushiro entanglement you can escape versus a deep entanglement requiring alternative strategy?",
         "answer": "In shallow entanglement, the attacker's inside leg has minimal control below your knee and their upper body grips have not established heel access. You can complete rotation to standing or turtle. In deep entanglement, their inside leg controls your thigh deeply, their outside leg is tight over your knee line, and they are actively working heel grips. Deep entanglement requires accepting turtle or counter-entanglement rather than forcing extraction, which would worsen heel exposure during the struggle.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Thigh trapped, knee crossed = deep",
+        "distractors": {
+          "plausible": [
+            "Any hand contact means it's deep",
+            "Deep only once you're inverted"
+          ],
+          "trap": [
+            "Rip the leg out while grips set"
+          ]
+        }
       },
       {
         "question": "Why is it critical to tap early rather than late when a heel hook from ushiro is fully locked?",
         "answer": "Heel hooks attack the knee ligaments through rotational force, and these ligaments provide minimal to no pain warning before catastrophic structural failure. Unlike arm locks where increasing pain signals approaching danger, the knee can transition from feeling manageable pressure to complete MCL, LCL, or meniscus tear in a fraction of a second. Once the attacker has a deep two-handed grip with body rotation initiated, the mechanical advantage favors the attacker overwhelmingly. Tapping early preserves your ability to train and compete long-term.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Knee gives no pain warning",
+        "distractors": {
+          "plausible": [
+            "Ligaments stretch before tearing",
+            "The grip loosens as you turn"
+          ],
+          "trap": [
+            "Ride it out to feel real pain"
+          ]
+        }
       },
       {
         "question": "When should you accept turtle position instead of continuing to fight the leg extraction from ushiro?",
         "answer": "Accept turtle when the attacker's control is too deep to safely extract your leg with dorsiflexion alone, when their heel hook grip is established and continuing rotation is the only way to prevent the finish, when you have been defending for more than five seconds without measurable escape progress, or when your energy is depleting rapidly from grip fighting. Turtle is a significantly safer transitional position than remaining in deep ushiro entanglement with an active submission threat.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "When control's too deep to pull out",
+        "distractors": {
+          "plausible": [
+            "After five seconds of progress",
+            "Only once both heels are trapped"
+          ],
+          "trap": [
+            "Rip the leg free and hope"
+          ]
+        }
       },
       {
         "question": "What counter-attack opportunity exists when the attacker adjusts their grips to establish the heel hook?",
         "answer": "When the attacker releases their inside leg control or shifts both hands to establish heel grips, their own legs often become exposed for counter-entanglement. During this adjustment phase, the attacker's focus shifts from position maintenance to submission finishing, creating a window where you can enter your own outside ashi-garami on their free leg or establish 50-50 guard. This transforms the exchange from pure defense into a bilateral leg lock battle that favors whoever established superior position first.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Enter ashi on their exposed leg",
+        "distractors": {
+          "plausible": [
+            "Sit up and stack their hips",
+            "Pull guard to reset position"
+          ],
+          "trap": [
+            "Kick free and stand straight up"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -499,6 +693,35 @@
         "phase": "Phase 4: Live Positional Sparring",
         "focus": "Full defensive application against committed attacks",
         "description": "Begin in ushiro ashi-garami with partner working full offensive heel hook sequences. Defend using all available tools with realistic intensity, practicing tap timing when the submission is fully established. Develop the judgment to distinguish between recoverable and unrecoverable submission positions under pressure."
+      }
+    ],
+    "clips": [
+      {
+        "id": "2RLgyzWN71Y",
+        "title": "Outside Ashi Heel Hook Running Man Escape",
+        "by": "Grappling Game Changer",
+        "vertical": false,
+        "channel": "GRAPPLING GAME CHANGER",
+        "duration": 54,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "clVAHxgRadE",
+        "title": "Outside Heel Hook Defense to Inside Heel Hook",
+        "by": "Holy Grail BJJ",
+        "vertical": false,
+        "channel": "Holy Grail BJJ",
+        "duration": 105,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "EP49pafOr_I",
+        "title": "The Heel Hook Escape (Burn His Rashguard)",
+        "by": "Stephan Kesting",
+        "vertical": false,
+        "channel": "Stephan Kesting",
+        "duration": 172,
+        "verified": "2026-07-14"
       }
     ]
   }

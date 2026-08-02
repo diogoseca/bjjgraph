@@ -176,6 +176,43 @@ description: "Master attacking the Short Choke from Cross Body Ride. Step-by-ste
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Short Choke from Cross Body (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Back side control setup to rear naked choke",
+      "description": "Short Choke from Cross Body (Attacker) film study: Back side control setup to rear naked choke, taught by David Avellan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/nUxJy-aNHTY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/nUxJy-aNHTY",
+      "url": "https://www.youtube.com/watch?v=nUxJy-aNHTY",
+      "creator": { "@type": "Person", "name": "David Avellan" },
+      "duration": "PT227S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Back attack system for finishing chokes",
+      "description": "Short Choke from Cross Body (Attacker) film study: Back attack system for finishing chokes, taught by Jordan Preisinger.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/zzovZGhewQY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/zzovZGhewQY",
+      "url": "https://www.youtube.com/watch?v=zzovZGhewQY",
+      "creator": { "@type": "Person", "name": "Jordan Preisinger" },
+      "duration": "PT694S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -186,6 +223,34 @@ Executing the Short Choke from Cross Body requires precise arm threading under t
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Short Choke from Cross Body (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=nUxJy-aNHTY)
+
+<p class="clip-credit"><strong>Back side control setup to rear naked choke</strong> — taught by David Avellan · 3:47 · <a href="https://www.youtube.com/watch?v=nUxJy-aNHTY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=zzovZGhewQY)
+
+<p class="clip-credit"><strong>Back attack system for finishing chokes</strong> — taught by Jordan Preisinger · 11:34 · <a href="https://www.youtube.com/watch?v=zzovZGhewQY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

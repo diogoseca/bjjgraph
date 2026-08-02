@@ -36,6 +36,65 @@ description: "Master the Rear Naked Choke in BJJ. Complete safety guide with pro
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Rear Naked Choke \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Rear Naked Choke from Back Control",
+      "description": "Rear Naked Choke film study: Rear Naked Choke from Back Control, taught by Affinity Academy.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/3vCytl_OI-4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/3vCytl_OI-4",
+      "url": "https://www.youtube.com/watch?v=3vCytl_OI-4",
+      "creator": { "@type": "Person", "name": "Affinity Academy" },
+      "duration": "PT75S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Rear Naked Choke",
+      "description": "Rear Naked Choke film study: Rear Naked Choke, taught by Gordon Ryan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/70jECxFfCSA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/70jECxFfCSA",
+      "url": "https://www.youtube.com/watch?v=70jECxFfCSA",
+      "creator": { "@type": "Person", "name": "Gordon Ryan" },
+      "duration": "PT73S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Rear Naked Choke: It\u0027s in the Squeeze",
+      "description": "Rear Naked Choke film study: Rear Naked Choke: It\u0027s in the Squeeze, taught by Henry Akins.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/rPRORaAiJAs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/rPRORaAiJAs",
+      "url": "https://www.youtube.com/watch?v=rPRORaAiJAs",
+      "creator": { "@type": "Person", "name": "Henry Akins" },
+      "duration": "PT95S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 4,
+      "name": "Attack the Back with a Body Triangle",
+      "description": "Rear Naked Choke film study: Attack the Back with a Body Triangle, taught by Grapple Box.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/3OkCuU0B0UE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/3OkCuU0B0UE",
+      "url": "https://www.youtube.com/watch?v=3OkCuU0B0UE",
+      "creator": { "@type": "Person", "name": "Grapple Box" },
+      "duration": "PT28S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -55,7 +114,7 @@ description: "Master the Rear Naked Choke in BJJ. Complete safety guide with pro
   "@type": "FAQPage",
   "mainEntity": [
     { "@type": "Question", "name": "What is the Rear Naked Choke?", "acceptedAnswer": { "@type": "Answer", "text": "The Rear Naked Choke is a blood choke applied from behind that wraps a forearm across the throat to compress both carotid arteries, cutting blood flow to the brain and forcing a tap or unconsciousness within seconds." } },
-    { "@type": "Question", "name": "What positions can you finish the Rear Naked Choke from?", "acceptedAnswer": { "@type": "Answer", "text": "You can finish the Rear Naked Choke from Back Control, Body Triangle, Crucifix, Gift Wrap, Harness, Invisible Collar, Mounted Crucifix, Rear Triangle, Russian Cowboy, Seat Belt Control Back, Standing Back Control, Rodeo Ride, Standing Rear Clinch." } },
+    { "@type": "Question", "name": "What positions can you finish the Rear Naked Choke from?", "acceptedAnswer": { "@type": "Answer", "text": "You can finish the Rear Naked Choke from Back Control, Body Triangle, Crucifix, Gift Wrap, Harness, Rear Triangle, Seat Belt Control Back, Standing Back Control, Invisible Collar, Mounted Crucifix, Rodeo Ride, Russian Cowboy, Standing Rear Clinch." } },
     { "@type": "Question", "name": "Is the Rear Naked Choke dangerous?", "acceptedAnswer": { "@type": "Answer", "text": "Rear Naked Choke targets the Carotid arteries and jugular veins. Primary risk: Loss of consciousness from blood choke. Tap early and release immediately on the tap." } }
   ]
 }
@@ -87,6 +146,50 @@ The Rear Naked Choke (RNC) is widely considered the highest-percentage submissio
 </section>
 
 
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Rear Naked Choke in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=3vCytl_OI-4)
+
+<p class="clip-credit"><strong>Rear Naked Choke from Back Control</strong> — taught by Affinity Academy · 1:15 · <a href="https://www.youtube.com/watch?v=3vCytl_OI-4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=70jECxFfCSA)
+
+<p class="clip-credit"><strong>Rear Naked Choke</strong> — taught by Gordon Ryan · 1:13 · <a href="https://www.youtube.com/watch?v=70jECxFfCSA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=rPRORaAiJAs)
+
+<p class="clip-credit"><strong>Rear Naked Choke: It&#39;s in the Squeeze</strong> — taught by Henry Akins · 1:35 · <a href="https://www.youtube.com/watch?v=rPRORaAiJAs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=3OkCuU0B0UE)
+
+<p class="clip-credit"><strong>Attack the Back with a Body Triangle</strong> — taught by Grapple Box · 0:28 · <a href="https://www.youtube.com/watch?v=3OkCuU0B0UE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
+
+
 <section id="variants" class="content-section">
 
 ## What positions can you finish from?
@@ -101,13 +204,13 @@ The Rear Naked Choke (RNC) is widely considered the highest-percentage submissio
 | [[Submissions/Rear Naked Choke/from Crucifix|Crucifix]] | Top | 65% | [[Submissions/Rear Naked Choke/from Crucifix/Attacker|Attack →]] | [[Submissions/Rear Naked Choke/from Crucifix/Defender|Defend →]] |
 | [[Submissions/Rear Naked Choke/from Gift Wrap|Gift Wrap]] | Top | 65% | [[Submissions/Rear Naked Choke/from Gift Wrap/Attacker|Attack →]] | [[Submissions/Rear Naked Choke/from Gift Wrap/Defender|Defend →]] |
 | [[Submissions/Rear Naked Choke/from Harness|Harness]] | Top | 65% | [[Submissions/Rear Naked Choke/from Harness/Attacker|Attack →]] | [[Submissions/Rear Naked Choke/from Harness/Defender|Defend →]] |
-| [[Submissions/Rear Naked Choke/from Invisible Collar|Invisible Collar]] | Top | 65% | [[Submissions/Rear Naked Choke/from Invisible Collar/Attacker|Attack →]] | [[Submissions/Rear Naked Choke/from Invisible Collar/Defender|Defend →]] |
-| [[Submissions/Rear Naked Choke/from Mounted Crucifix|Mounted Crucifix]] | Top | 65% | [[Submissions/Rear Naked Choke/from Mounted Crucifix/Attacker|Attack →]] | [[Submissions/Rear Naked Choke/from Mounted Crucifix/Defender|Defend →]] |
 | [[Submissions/Rear Naked Choke/from Rear Triangle|Rear Triangle]] | Top | 65% | [[Submissions/Rear Naked Choke/from Rear Triangle/Attacker|Attack →]] | [[Submissions/Rear Naked Choke/from Rear Triangle/Defender|Defend →]] |
-| [[Submissions/Rear Naked Choke/from Russian Cowboy|Russian Cowboy]] | Top | 65% | [[Submissions/Rear Naked Choke/from Russian Cowboy/Attacker|Attack →]] | [[Submissions/Rear Naked Choke/from Russian Cowboy/Defender|Defend →]] |
 | [[Submissions/Rear Naked Choke/from Seat Belt Control Back|Seat Belt Control Back]] | Top | 65% | [[Submissions/Rear Naked Choke/from Seat Belt Control Back/Attacker|Attack →]] | [[Submissions/Rear Naked Choke/from Seat Belt Control Back/Defender|Defend →]] |
 | [[Submissions/Rear Naked Choke/from Standing Back Control|Standing Back Control]] | Top | 65% | [[Submissions/Rear Naked Choke/from Standing Back Control/Attacker|Attack →]] | [[Submissions/Rear Naked Choke/from Standing Back Control/Defender|Defend →]] |
+| [[Submissions/Rear Naked Choke/from Invisible Collar|Invisible Collar]] | Top | 58% | [[Submissions/Rear Naked Choke/from Invisible Collar/Attacker|Attack →]] | [[Submissions/Rear Naked Choke/from Invisible Collar/Defender|Defend →]] |
+| [[Submissions/Rear Naked Choke/from Mounted Crucifix|Mounted Crucifix]] | Top | 50% | [[Submissions/Rear Naked Choke/from Mounted Crucifix/Attacker|Attack →]] | [[Submissions/Rear Naked Choke/from Mounted Crucifix/Defender|Defend →]] |
 | [[Submissions/Rear Naked Choke/from Rodeo|Rodeo Ride]] | Top | 50% | [[Submissions/Rear Naked Choke/from Rodeo/Attacker|Attack →]] | [[Submissions/Rear Naked Choke/from Rodeo/Defender|Defend →]] |
+| [[Submissions/Rear Naked Choke/from Russian Cowboy|Russian Cowboy]] | Top | 40% | [[Submissions/Rear Naked Choke/from Russian Cowboy/Attacker|Attack →]] | [[Submissions/Rear Naked Choke/from Russian Cowboy/Defender|Defend →]] |
 | [[Submissions/Rear Naked Choke/from Standing Rear Clinch|Standing Rear Clinch]] | Top | 35% | [[Submissions/Rear Naked Choke/from Standing Rear Clinch/Attacker|Attack →]] | [[Submissions/Rear Naked Choke/from Standing Rear Clinch/Defender|Defend →]] |
 
 
@@ -136,12 +239,12 @@ The Rear Naked Choke (RNC) is widely considered the highest-percentage submissio
 - [[Submissions/Belly Down Armbar]] - Arm attack from back control when opponent turns belly down to escape
 - [[Submissions/Bow and Arrow Choke]] - Alternative high-percentage gi choke from back control using collar and leg leverage
 - [[Transitions/Clock Choke]] - Collar choke alternative from turtle and back control transitions
-- [[Transitions/Arm Triangle]] - Choke option during failed back control to front-facing transitions
-- [[Transitions/Guillotine Choke]] - Front headlock choke in scrambles when opponent escapes back control forward
+- [[Submissions/Arm Triangle]] - Choke option during failed back control to front-facing transitions
+- [[Submissions/Guillotine Choke]] - Front headlock choke in scrambles when opponent escapes back control forward
 - [[Submissions/Ezekiel Choke]] - Surprise inside choke variation available from back control position
 - [[Submissions/Cross Collar Choke]] - Gi-based choke alternative from back control using cross-collar grips
 - [[Submissions/Baseball Bat Choke]] - Cross-grip gi choke alternative from back control
-- [[Transitions/Darce Choke]] - Arm-in choke from front headlock when opponent turtles during back escape
+- [[Submissions/Darce Choke]] - Arm-in choke from front headlock when opponent turtles during back escape
 - [[Positions/Back Control]] - Primary attacking position for this submission
 - [[Positions/Gift Wrap]] - Control position that traps one arm, making neck defense difficult
 - [[Positions/Harness]] - Alternative back control grip system for controlling opponent

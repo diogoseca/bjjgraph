@@ -148,6 +148,43 @@ description: "How to defend against Rolling Back Take Reversal in BJJ. Recogniti
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Rolling Back Take Reversal (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Back escape breakdown",
+      "description": "Rolling Back Take Reversal (Defender) film study: Back escape breakdown, taught by Nicky Rodriguez.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/KPYtg6YeNzU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/KPYtg6YeNzU",
+      "url": "https://www.youtube.com/watch?v=KPYtg6YeNzU",
+      "creator": { "@type": "Person", "name": "Nicky Rodriguez" },
+      "duration": "PT80S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Body triangle ankle trap escape",
+      "description": "Rolling Back Take Reversal (Defender) film study: Body triangle ankle trap escape, taught by Garry Tonon \u0026 Gordon Ryan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/VYef5MPcNZA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/VYef5MPcNZA",
+      "url": "https://www.youtube.com/watch?v=VYef5MPcNZA",
+      "creator": { "@type": "Person", "name": "Garry Tonon \u0026 Gordon Ryan" },
+      "duration": "PT144S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -161,6 +198,34 @@ Your positional advantage as the back controller with body triangle is substanti
 **Opponent's Starting Position**: [[Positions/Back Control/Body Triangle]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Rolling Back Take Reversal (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=KPYtg6YeNzU)
+
+<p class="clip-credit"><strong>Back escape breakdown</strong> — taught by Nicky Rodriguez · 1:20 · <a href="https://www.youtube.com/watch?v=KPYtg6YeNzU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=VYef5MPcNZA)
+
+<p class="clip-credit"><strong>Body triangle ankle trap escape</strong> — taught by Garry Tonon &amp; Gordon Ryan · 2:24 · <a href="https://www.youtube.com/watch?v=VYef5MPcNZA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

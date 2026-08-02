@@ -34,6 +34,54 @@ description: "Master the Roll from Vaporizer transition in BJJ. Complete guide t
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Roll from Vaporizer \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Truck back take vs babybridge and Hawkins rolls",
+      "description": "Roll from Vaporizer film study: Truck back take vs babybridge and Hawkins rolls, taught by Wim Deputter.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/LA-AdwNMGvc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/LA-AdwNMGvc",
+      "url": "https://www.youtube.com/watch?v=LA-AdwNMGvc",
+      "creator": { "@type": "Person", "name": "Wim Deputter" },
+      "duration": "PT162S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Vaporizer from top stoner control",
+      "description": "Roll from Vaporizer film study: Vaporizer from top stoner control, taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/VopfKnaVSjE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/VopfKnaVSjE",
+      "url": "https://www.youtube.com/watch?v=VopfKnaVSjE",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT254S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Vaporizer leg lock step by step",
+      "description": "Roll from Vaporizer film study: Vaporizer leg lock step by step, taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/G1tIzC2FIfg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/G1tIzC2FIfg",
+      "url": "https://www.youtube.com/watch?v=G1tIzC2FIfg",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT341S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ The technique requires careful coordination between releasing the lockdown, main
 **Success Rate**: 55%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Roll from Vaporizer in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=LA-AdwNMGvc)
+
+<p class="clip-credit"><strong>Truck back take vs babybridge and Hawkins rolls</strong> — taught by Wim Deputter · 2:42 · <a href="https://www.youtube.com/watch?v=LA-AdwNMGvc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=VopfKnaVSjE)
+
+<p class="clip-credit"><strong>Vaporizer from top stoner control</strong> — taught by Eddie Bravo · 4:14 · <a href="https://www.youtube.com/watch?v=VopfKnaVSjE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=G1tIzC2FIfg)
+
+<p class="clip-credit"><strong>Vaporizer leg lock step by step</strong> — taught by Eddie Bravo · 5:41 · <a href="https://www.youtube.com/watch?v=G1tIzC2FIfg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

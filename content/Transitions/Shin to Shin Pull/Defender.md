@@ -148,6 +148,43 @@ description: "How to defend against Shin to Shin Pull in BJJ. Recognition cues, 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Shin to Shin Pull (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Backstep counter to shin to shin",
+      "description": "Shin to Shin Pull (Defender) film study: Backstep counter to shin to shin, taught by Kyle Dimmitt.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/25oMxgS-wH0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/25oMxgS-wH0",
+      "url": "https://www.youtube.com/watch?v=25oMxgS-wH0",
+      "creator": { "@type": "Person", "name": "Kyle Dimmitt" },
+      "duration": "PT73S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Countering the wrestle up from shin to shin",
+      "description": "Shin to Shin Pull (Defender) film study: Countering the wrestle up from shin to shin, taught by Unknown coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/qAV1x1_RVbg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/qAV1x1_RVbg",
+      "url": "https://www.youtube.com/watch?v=qAV1x1_RVbg",
+      "creator": { "@type": "Person", "name": "Unknown coach" },
+      "duration": "PT45S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -159,6 +196,34 @@ Successful defense operates on a timeline: the earlier you react, the more optio
 **Opponent's Starting Position**: [[Positions/Standing Position]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Shin to Shin Pull (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=25oMxgS-wH0)
+
+<p class="clip-credit"><strong>Backstep counter to shin to shin</strong> — taught by Kyle Dimmitt · 1:13 · <a href="https://www.youtube.com/watch?v=25oMxgS-wH0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=qAV1x1_RVbg)
+
+<p class="clip-credit"><strong>Countering the wrestle up from shin to shin</strong> — taught by Unknown coach · 0:45 · <a href="https://www.youtube.com/watch?v=qAV1x1_RVbg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

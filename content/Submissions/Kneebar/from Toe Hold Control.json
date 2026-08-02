@@ -19,7 +19,10 @@
   "target_area": "Knee joint (primarily posterior cruciate ligament, medial collateral ligament, and joint capsule)",
   "starting_position": "Toe Hold Control",
   "from_position": "Toe Hold Control/Top",
-  "success_rate": 60,
+  "success_rate": {
+    "gi": 60,
+    "nogi": 60
+  },
   "overview": "This technique sits at a critical junction in the leg lock hierarchy, weaponizing the predictable defensive reactions that a genuine toe hold threat produces. When an opponent defends the toe hold by straightening their leg, rotating their knee inward, or creating distance, these movements expose the posterior aspect of the knee to attack. The attacker releases their figure-four toe hold grip and repositions their hips against the popliteal fossa while securing the opponent's thigh between their knees, converting the existing leg entanglement into a kneebar finishing position.\n\nThis technique embodies dilemma-based leg lock strategy at its core. The toe hold threat forces defensive reactions that open kneebar opportunities, creating a tactical problem with no clean solution: defend the ankle and expose the knee, or protect the knee and remain vulnerable to the toe hold. This two-attack dynamic makes the combination far more dangerous than either submission alone, as each defense feeds directly into the complementary attack.\n\nThe positional advantage is substantial because the leg is already isolated within the entanglement before the transition begins. Unlike kneebar entries from passing or scrambles, the attacker starts with established leg control. The primary technical challenge is the grip transition window — the brief moment between releasing the toe hold and securing the kneebar. Maintaining continuous leg control through this window separates successful application from positional loss.",
   "safety_considerations": {
     "injury_risks": [
@@ -103,17 +106,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 60,
+      "probability": {
+        "gi": 60,
+        "nogi": 60
+      },
       "result": "success"
     },
     {
       "to": "Toe Hold Control/Top",
-      "probability": 26,
+      "probability": {
+        "gi": 26,
+        "nogi": 26
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 14,
+      "probability": {
+        "gi": 14,
+        "nogi": 14
+      },
       "result": "counter"
     }
   ],
@@ -268,52 +280,172 @@
       {
         "question": "What anatomical structures does the kneebar from toe hold control primarily attack?",
         "answer": "The kneebar attacks the posterior cruciate ligament, medial collateral ligament, and joint capsule of the knee through hyperextension pressure. The hips drive into the popliteal fossa (back of the knee) while the hands pull the shin in the opposite direction, creating a fulcrum that forces the knee beyond its natural extension range. Secondary stress is placed on the menisci and surrounding connective tissue.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "PCL, MCL, joint capsule",
+        "distractors": {
+          "plausible": [
+            "Achilles and calf tendon",
+            "Kneecap and quad tendon"
+          ],
+          "trap": [
+            "Hip flexors and IT band"
+          ]
+        }
       },
       {
         "question": "What specific defensive reaction from your opponent signals that the kneebar transition is available?",
         "answer": "The kneebar becomes available when your opponent straightens their leg to relieve toe hold ankle rotation, rotates their knee inward to limit rotational torque on the ankle, or pushes away to create distance from the toe hold grip. All three reactions expose the posterior knee to hyperextension by either straightening the leg line or creating space for hip repositioning against the popliteal fossa.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Leg straightens or knee rotates in",
+        "distractors": {
+          "plausible": [
+            "Opponent points the toes down",
+            "Opponent grabs your near wrist"
+          ],
+          "trap": [
+            "Opponent bends knee tighter"
+          ]
+        }
       },
       {
         "question": "How do you maintain leg control during the critical grip transition window?",
         "answer": "Before releasing the toe hold figure-four, clamp your knees tightly together around the opponent's upper thigh using adductor squeeze. This secondary control point keeps the leg trapped during the brief moment when your hands transition from foot to shin. The knee pinch must be established and secure before the figure-four opens. Without this overlap of control, the opponent can extract their leg through the gap.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Pinch knees on thigh first",
+        "distractors": {
+          "plausible": [
+            "Release grip, then pinch knees",
+            "Switch hands before knees"
+          ],
+          "trap": [
+            "Open figure-four immediately"
+          ]
+        }
       },
       {
         "question": "What indicates your opponent has reached the point of no escape in the kneebar?",
         "answer": "The point of no escape occurs when your hips are flush against the popliteal fossa with zero gap, knees are pinching the thigh preventing lateral escape, hands are secured on the shin in a closed grip, and the opponent's free leg is neutralized. Once all four control points are locked simultaneously, the opponent cannot bend their knee, rotate out, or create distance — only the tap remains.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Hips flush, knees pinch, grip set",
+        "distractors": {
+          "plausible": [
+            "Just hips flush to knee",
+            "Only hands locked on shin"
+          ],
+          "trap": [
+            "Opponent stops protesting"
+          ]
+        }
       },
       {
         "question": "Your opponent begins curling their knee to prevent hyperextension — how do you adjust?",
         "answer": "Maintain constant hip pressure against the back of the knee and wait for their leg to fatigue from the isometric hold. If the curl persists and you cannot overcome it, transition back to the toe hold by re-establishing your figure-four on their now-accessible foot. This recreates the original dilemma and forces them to choose which submission to defend. The ability to cycle between both attacks is what makes this chain so effective.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Hold pressure, recycle toe hold",
+        "distractors": {
+          "plausible": [
+            "Release and reset from scratch",
+            "Wait passively for a tap"
+          ],
+          "trap": [
+            "Let go and stand up"
+          ]
+        }
       },
       {
         "question": "What is the most dangerous finishing error when applying the kneebar from toe hold control?",
         "answer": "The most dangerous error is bridging explosively rather than applying progressive pressure. Knee ligaments can tear within fractions of a second once the breaking threshold is reached, and explosive application does not give the training partner time to process pain and tap. In training, hip extension must build over a minimum of 3-5 seconds with continuous monitoring of your partner's response. This single error accounts for the majority of serious knee injuries from kneebars.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Explosive bridge, not gradual",
+        "distractors": {
+          "plausible": [
+            "Not squeezing knees enough",
+            "Releasing grip too early"
+          ],
+          "trap": [
+            "Overcommitting and getting swept"
+          ]
+        }
       },
       {
         "question": "How should you immediately release the kneebar after receiving a tap signal?",
         "answer": "Immediately stop all hip extension and drop your hips away from the opponent's leg to remove hyperextension pressure. Do not simply relax — actively move your hips backward to create space. Maintain positional control to prevent your partner from moving their injured knee erratically, but allow them to extract their leg at their own pace. Verbally check with your partner after release to confirm they are uninjured before continuing.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Drop hips back immediately",
+        "distractors": {
+          "plausible": [
+            "Just relax the grip",
+            "Slowly ease pressure off"
+          ],
+          "trap": [
+            "Hold position, ask if OK"
+          ]
+        }
       },
       {
         "question": "How do you adjust your grip if the opponent's leg begins to slip laterally during the finish?",
         "answer": "If the leg slips laterally, immediately tighten your knee pinch around the thigh by squeezing your adductors harder. Simultaneously, pull your elbows tighter against your body to close any gap in your shin grip. Angle your body slightly toward the direction of the slip to re-center the leg. If the slip continues despite adjustments, the finish is compromised — transition back to toe hold or pursue outside ashi-garami rather than forcing a deteriorating kneebar.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Tighten pinch, angle body in",
+        "distractors": {
+          "plausible": [
+            "Let the leg slide free",
+            "Push opponent's hip away"
+          ],
+          "trap": [
+            "Force finish through the slip"
+          ]
+        }
       },
       {
         "question": "What competition strategy maximizes the success rate of this chain submission?",
         "answer": "In competition, commit fully to the toe hold first — apply genuine finishing pressure that forces a real defensive reaction rather than a half-hearted setup. Opponents who believe the toe hold is the primary attack commit harder to their defense, creating wider openings for the kneebar transition. Time the transition when the opponent is mid-defense and their mental focus is locked on the ankle. The element of surprise during the switch is amplified under competition stress where cognitive bandwidth is already limited.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Commit fully to toe hold first",
+        "distractors": {
+          "plausible": [
+            "Threaten both subs at once",
+            "Stall and wait for openings"
+          ],
+          "trap": [
+            "Skip the toe hold entirely"
+          ]
+        }
       },
       {
         "question": "Why is it critical to genuinely threaten the toe hold before transitioning to the kneebar?",
         "answer": "Without a genuine toe hold threat, the opponent has no reason to execute the defensive reactions that expose the knee. The kneebar opportunity arises specifically from the opponent straightening their leg or rotating their knee — movements they only perform when the ankle is under real attack. A telegraphed or half-committed toe hold allows the opponent to defend both attacks simultaneously because they are not forced to prioritize one over the other. The dilemma only works when both threats are credible.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Forces real defensive reactions",
+        "distractors": {
+          "plausible": [
+            "Drains their leg cardio",
+            "Scores aggression points"
+          ],
+          "trap": [
+            "It guarantees a fast tap"
+          ]
+        }
+      }
+    ],
+    "clips": [
+      {
+        "id": "-HT8Vfiq5Pk",
+        "title": "Toe Hold to Kneebar Attack",
+        "by": "Eliot Marshall",
+        "vertical": false,
+        "channel": "Eliot Marshall",
+        "duration": 67,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "frFaHeQJHTA",
+        "title": "Kneebar and Toe Hold from Guard Pass",
+        "by": "Precision MA",
+        "vertical": false,
+        "channel": "Precision Martial Arts Academy",
+        "duration": 57,
+        "verified": "2026-07-14"
       }
     ]
   },
@@ -402,27 +534,77 @@
       {
         "question": "How do you recognize that your opponent is transitioning from a toe hold to a kneebar?",
         "answer": "The key recognition cues are: the attacker releases their figure-four grip on your foot and redirects hands toward your shin, their hips begin shifting forward toward the back of your knee, you feel increasing pressure behind the knee rather than rotational ankle pressure, and their knees squeeze tighter around your thigh. Recognizing these cues during the grip transition provides the best defensive window.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Grip releases, hips shift forward",
+        "distractors": {
+          "plausible": [
+            "Ankle rotation pressure increases",
+            "Opponent switches to armbar"
+          ],
+          "trap": [
+            "Ignore it, no defense needed"
+          ]
+        }
       },
       {
         "question": "When should you tap to a kneebar rather than continuing to fight the submission?",
         "answer": "Tap immediately when you feel progressive hyperextension pressure building and your defensive options are exhausted — meaning your knee curl is being overcome, grip fighting has failed, and you cannot create distance with your free leg. Knee ligaments can tear within fractions of a second once the breaking threshold is reached, and the injury timeline is far shorter than your brain's ability to evaluate options. No training round justifies risking knee reconstruction surgery.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Tap when options run out",
+        "distractors": {
+          "plausible": [
+            "Tap only at sharp pain",
+            "Trust your partner to go slow"
+          ],
+          "trap": [
+            "Fight through to escape late"
+          ]
+        }
       },
       {
         "question": "What defensive options are available when you recognize the kneebar transition from toe hold control?",
         "answer": "Four primary defenses exist: immediate knee curl to deny hyperextension, grip fighting on the attacker's hands during the transition window before they establish a closed hold, hip escape combined with free leg framing to extract the trapped leg, and rolling toward the trapped leg to disrupt hip placement. The most effective approach combines knee curl with grip fighting during the transition, as this addresses both the immediate threat and the attacker's ability to establish control.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Curl knee and fight grips",
+        "distractors": {
+          "plausible": [
+            "Yank the leg out straight",
+            "Reach for their far collar"
+          ],
+          "trap": [
+            "Roll away from trapped leg"
+          ]
+        }
       },
       {
         "question": "Why is the grip transition window the most important moment for your defense?",
         "answer": "During the grip transition, the attacker has released their toe hold figure-four but has not yet secured the kneebar grip on your shin. This brief window is when their control over your leg is at its weakest because neither submission is fully locked. Aggressive grip fighting and leg extraction during this moment have the highest success rate. Once the attacker establishes the closed kneebar system with hips flush and grip secure, escape becomes dramatically harder.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Neither submission locked yet",
+        "distractors": {
+          "plausible": [
+            "Attacker is off balance then",
+            "Attacker's grip is exhausted"
+          ],
+          "trap": [
+            "Wait for a better moment later"
+          ]
+        }
       },
       {
         "question": "What is the safest body mechanic for extracting your leg from a partially locked kneebar?",
         "answer": "Use angular hip escape with internal leg rotation rather than straight pulling. Circle your knee toward your chest while rotating your foot inward, extracting the leg at an angle the kneebar mechanics cannot follow. Straight backward pulling actually improves the attacker's leverage and risks straightening the leg under load. Combine the angular extraction with free leg framing against the attacker's hips to create the space needed for the escape.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Angular escape, knee rotates in",
+        "distractors": {
+          "plausible": [
+            "Pull leg straight back hard",
+            "Rotate knee outward instead"
+          ],
+          "trap": [
+            "Kick out with sudden force"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -445,6 +627,26 @@
         "phase": "Phase 4: Live Defensive Rolling",
         "focus": "Applying defensive skills under realistic rolling conditions with full resistance",
         "description": "During live rolling, actively put yourself in toe hold control situations and work your defensive protocols. Track which escape pathways succeed most often and which recognition cues you respond to fastest. Maintain strict tap-early discipline throughout and communicate with training partners about intensity levels for leg lock exchanges."
+      }
+    ],
+    "clips": [
+      {
+        "id": "wBRG0fY94fs",
+        "title": "How to Defend a Kneebar",
+        "by": "Revolution BJJ",
+        "vertical": false,
+        "channel": "Revolution BJJ",
+        "duration": 59,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "hze1WyTvkzA",
+        "title": "Defending Kneebar to Toe Hold",
+        "by": "Garden State BJJ",
+        "vertical": false,
+        "channel": "Garden State Brazilian Jiu-Jitsu Academy",
+        "duration": 24,
+        "verified": "2026-07-14"
       }
     ]
   }

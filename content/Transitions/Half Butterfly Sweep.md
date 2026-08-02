@@ -34,6 +34,54 @@ description: "Master the Half Butterfly Sweep in BJJ. Step-by-step guide to this
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Half Butterfly Sweep \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Half butterfly guard sweep from head wrap",
+      "description": "Half Butterfly Sweep film study: Half butterfly guard sweep from head wrap, taught by Six Blades JJ Yorktown.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/_PJ9H2B8us8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/_PJ9H2B8us8",
+      "url": "https://www.youtube.com/watch?v=_PJ9H2B8us8",
+      "creator": { "@type": "Person", "name": "Six Blades JJ Yorktown" },
+      "duration": "PT43S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Half guard sit-up to butterfly sweep",
+      "description": "Half Butterfly Sweep film study: Half guard sit-up to butterfly sweep, taught by Bjj Picanha.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/hTQ29eG4cqY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/hTQ29eG4cqY",
+      "url": "https://www.youtube.com/watch?v=hTQ29eG4cqY",
+      "creator": { "@type": "Person", "name": "Bjj Picanha" },
+      "duration": "PT38S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Half butterfly sweep from half guard",
+      "description": "Half Butterfly Sweep film study: Half butterfly sweep from half guard, taught by StadiumMMA.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/oyBedW2q0Qo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/oyBedW2q0Qo",
+      "url": "https://www.youtube.com/watch?v=oyBedW2q0Qo",
+      "creator": { "@type": "Person", "name": "StadiumMMA" },
+      "duration": "PT30S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ Strategically, the Half Butterfly Sweep anchors the entire half butterfly offens
 **Success Rate**: 50%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Half Butterfly Sweep in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=_PJ9H2B8us8)
+
+<p class="clip-credit"><strong>Half butterfly guard sweep from head wrap</strong> — taught by Six Blades JJ Yorktown · 0:43 · <a href="https://www.youtube.com/watch?v=_PJ9H2B8us8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=hTQ29eG4cqY)
+
+<p class="clip-credit"><strong>Half guard sit-up to butterfly sweep</strong> — taught by Bjj Picanha · 0:38 · <a href="https://www.youtube.com/watch?v=hTQ29eG4cqY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=oyBedW2q0Qo)
+
+<p class="clip-credit"><strong>Half butterfly sweep from half guard</strong> — taught by StadiumMMA · 0:30 · <a href="https://www.youtube.com/watch?v=oyBedW2q0Qo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

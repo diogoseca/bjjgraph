@@ -34,6 +34,43 @@ description: "Master the feet on hips to De La Riva guard transition in BJJ. Com
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Feet on Hips to De La Riva \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "No-gi De La Riva hook entry and sweep",
+      "description": "Feet on Hips to De La Riva film study: No-gi De La Riva hook entry and sweep, taught by James Fisher.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/vG_QHqUZPbc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/vG_QHqUZPbc",
+      "url": "https://www.youtube.com/watch?v=vG_QHqUZPbc",
+      "creator": { "@type": "Person", "name": "James Fisher" },
+      "duration": "PT62S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Leg sweep from De La Riva guard",
+      "description": "Feet on Hips to De La Riva film study: Leg sweep from De La Riva guard, taught by Elite MMA.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/mRP5ixL9TbE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/mRP5ixL9TbE",
+      "url": "https://www.youtube.com/watch?v=mRP5ixL9TbE",
+      "creator": { "@type": "Person", "name": "Elite MMA" },
+      "duration": "PT58S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +106,34 @@ This guard change serves as a gateway transition in the broader open guard ecosy
 **Success Rate**: 55%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Feet on Hips to De La Riva in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=vG_QHqUZPbc)
+
+<p class="clip-credit"><strong>No-gi De La Riva hook entry and sweep</strong> — taught by James Fisher · 1:02 · <a href="https://www.youtube.com/watch?v=vG_QHqUZPbc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=mRP5ixL9TbE)
+
+<p class="clip-credit"><strong>Leg sweep from De La Riva guard</strong> — taught by Elite MMA · 0:58 · <a href="https://www.youtube.com/watch?v=mRP5ixL9TbE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

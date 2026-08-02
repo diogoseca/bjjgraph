@@ -28,7 +28,10 @@
   "target_area": "Ankle, toes, and foot ligaments",
   "starting_position": "Ashi Garami",
   "from_position": "Toe Hold Control/Top",
-  "success_rate": 60,
+  "success_rate": {
+    "gi": 60,
+    "nogi": 60
+  },
   "variant_uniqueness": "Rotational ankle attack with rapid onset from multiple leg entanglements",
   "summary": "The Toe Hold is a rotational ankle lock in which you grip the opponent's toes and forefoot while bracing their heel, twisting the foot inward to torque the ankle and midfoot joints into a fast, low-warning tap.",
   "overview": "The Toe Hold is a powerful leg lock submission that attacks the ankle joint and foot by controlling the heel and applying rotational pressure to the toes and forefoot. Unlike straight ankle locks that compress the joint, the Toe Hold creates a twisting, hyperextending force that threatens multiple structures simultaneously - the ankle ligaments, the small joints of the toes, and the plantar fascia. This makes it an extremely effective finishing technique when applied correctly, but also one that requires exceptional control and awareness due to the injury potential.\n\nThe Toe Hold is most commonly applied from leg entanglement positions such as Ashi Garami, 50-50 Guard, or the Saddle position. The submission works by securing the opponent's heel against your chest or shoulder while gripping the toes and ball of the foot, then rotating the foot inward (internally rotating) while extending the ankle. This combination of rotation and extension creates tremendous pressure on the ankle joint and can force a tap very quickly. The technique is legal in most advanced no-gi competitions but often restricted at lower belt levels due to its injury potential.\n\nWhat makes the Toe Hold particularly dangerous and effective is the speed at which it can be applied and the difficulty opponents have in recognizing the danger until it's too late. Unlike heel hooks which have clear warning signs, the Toe Hold can go from a controlling position to a fight-ending submission in a fraction of a second. This rapid application, combined with the fact that the ankle and foot contain numerous small, vulnerable structures, makes proper safety protocols absolutely essential when training this technique.",
@@ -281,6 +284,44 @@
     {
       "name": "Cross Ashi-Garami",
       "relationship": "Cross-body leg entanglement offering unique Toe Hold angles and enhanced control"
+    }
+  ],
+  "clips": [
+    {
+      "id": "B_StkmaI3Nc",
+      "title": "Toe Hold from 50/50",
+      "by": "John Danaher",
+      "vertical": false,
+      "channel": "Dohn Janaher ",
+      "duration": 17,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "xwaJm1Ft5lc",
+      "title": "Paper Cutter Toehold from 50/50",
+      "by": "Garden State BJJ",
+      "vertical": false,
+      "channel": "Garden State Brazilian Jiu-Jitsu Academy",
+      "duration": 60,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "BbPdLSszYt8",
+      "title": "Fifty-fifty toe hold",
+      "by": "Ninja Pinto",
+      "vertical": false,
+      "channel": "Ninja Pinto BJJ",
+      "duration": 70,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "Kx8gZ3QdO8s",
+      "title": "Crossover Toe Hold",
+      "by": "Craig Jones",
+      "vertical": false,
+      "channel": "Bence Romanek",
+      "duration": 51,
+      "verified": "2026-07-14"
     }
   ]
 }

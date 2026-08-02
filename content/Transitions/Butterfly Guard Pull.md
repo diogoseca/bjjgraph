@@ -34,6 +34,43 @@ description: "Master the Butterfly Guard Pull in BJJ. Step-by-step guide to grip
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Butterfly Guard Pull \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Belt grab guard pull",
+      "description": "Butterfly Guard Pull film study: Belt grab guard pull, taught by Mick Hall.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/L8JpDuYczgk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/L8JpDuYczgk",
+      "url": "https://www.youtube.com/watch?v=L8JpDuYczgk",
+      "creator": { "@type": "Person", "name": "Mick Hall" },
+      "duration": "PT98S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Marcelo Garcia butterfly guard sweep",
+      "description": "Butterfly Guard Pull film study: Marcelo Garcia butterfly guard sweep, taught by Marcelo Garcia.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/c8JBXJMc0Oc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/c8JBXJMc0Oc",
+      "url": "https://www.youtube.com/watch?v=c8JBXJMc0Oc",
+      "creator": { "@type": "Person", "name": "Marcelo Garcia" },
+      "duration": "PT81S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +106,34 @@ Strategically, the butterfly guard pull is especially effective against aggressi
 **Success Rate**: 55%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Butterfly Guard Pull in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=L8JpDuYczgk)
+
+<p class="clip-credit"><strong>Belt grab guard pull</strong> — taught by Mick Hall · 1:38 · <a href="https://www.youtube.com/watch?v=L8JpDuYczgk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=c8JBXJMc0Oc)
+
+<p class="clip-credit"><strong>Marcelo Garcia butterfly guard sweep</strong> — taught by Marcelo Garcia · 1:21 · <a href="https://www.youtube.com/watch?v=c8JBXJMc0Oc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

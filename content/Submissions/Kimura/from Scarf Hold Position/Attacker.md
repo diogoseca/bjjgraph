@@ -176,6 +176,43 @@ description: "Step-by-step guide to attacking the Kimura from Scarf Hold. Grip t
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Kimura from Scarf Hold Position (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Kesa Gatame to Kimura transition",
+      "description": "Kimura from Scarf Hold Position (Attacker) film study: Kesa Gatame to Kimura transition, taught by Strong Hold Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/d7ucks8aHN0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/d7ucks8aHN0",
+      "url": "https://www.youtube.com/watch?v=d7ucks8aHN0",
+      "creator": { "@type": "Person", "name": "Strong Hold Jiu Jitsu" },
+      "duration": "PT71S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Kesa Gatame attacks including Kimura",
+      "description": "Kimura from Scarf Hold Position (Attacker) film study: Kesa Gatame attacks including Kimura, taught by Johnny Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/fB7gGDIm1i8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/fB7gGDIm1i8",
+      "url": "https://www.youtube.com/watch?v=fB7gGDIm1i8",
+      "creator": { "@type": "Person", "name": "Johnny Jitsu" },
+      "duration": "PT88S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -186,6 +223,34 @@ Attacking the Kimura from Scarf Hold Position leverages the pre-existing arm iso
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Kimura from Scarf Hold Position (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=d7ucks8aHN0)
+
+<p class="clip-credit"><strong>Kesa Gatame to Kimura transition</strong> — taught by Strong Hold Jiu Jitsu · 1:11 · <a href="https://www.youtube.com/watch?v=d7ucks8aHN0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=fB7gGDIm1i8)
+
+<p class="clip-credit"><strong>Kesa Gatame attacks including Kimura</strong> — taught by Johnny Jitsu · 1:28 · <a href="https://www.youtube.com/watch?v=fB7gGDIm1i8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

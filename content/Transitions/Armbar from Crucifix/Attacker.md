@@ -180,6 +180,43 @@ description: "Execute the Armbar from Crucifix in BJJ. Complete attacking guide 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Armbar from Crucifix (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Arm drag to crucifix armlock",
+      "description": "Armbar from Crucifix (Attacker) film study: Arm drag to crucifix armlock, taught by John Gutta.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/qq1LScm50Ow/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/qq1LScm50Ow",
+      "url": "https://www.youtube.com/watch?v=qq1LScm50Ow",
+      "creator": { "@type": "Person", "name": "John Gutta" },
+      "duration": "PT151S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Crucifix armbar on a turtled opponent",
+      "description": "Armbar from Crucifix (Attacker) film study: Crucifix armbar on a turtled opponent, taught by Prodigy MMA.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/JRaAEvCjz0A/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/JRaAEvCjz0A",
+      "url": "https://www.youtube.com/watch?v=JRaAEvCjz0A",
+      "creator": { "@type": "Person", "name": "Prodigy MMA" },
+      "duration": "PT129S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -189,6 +226,34 @@ As the attacker executing the Armbar from Crucifix, you exploit the unique dynam
 **From Position**: [[Positions/Crucifix]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Armbar from Crucifix (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=qq1LScm50Ow)
+
+<p class="clip-credit"><strong>Arm drag to crucifix armlock</strong> — taught by John Gutta · 2:31 · <a href="https://www.youtube.com/watch?v=qq1LScm50Ow" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=JRaAEvCjz0A)
+
+<p class="clip-credit"><strong>Crucifix armbar on a turtled opponent</strong> — taught by Prodigy MMA · 2:09 · <a href="https://www.youtube.com/watch?v=JRaAEvCjz0A" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

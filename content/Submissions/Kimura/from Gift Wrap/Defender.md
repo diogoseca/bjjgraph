@@ -150,6 +150,54 @@ description: "Defend against the Kimura from Gift Wrap in BJJ. Learn recognition
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Kimura from Gift Wrap (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Escaping the Gift Wrap",
+      "description": "Kimura from Gift Wrap (Defender) film study: Escaping the Gift Wrap, taught by thejiujitsupedia.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/OMzki0Uu7vA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/OMzki0Uu7vA",
+      "url": "https://www.youtube.com/watch?v=OMzki0Uu7vA",
+      "creator": { "@type": "Person", "name": "thejiujitsupedia" },
+      "duration": "PT48S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Kimura Defense",
+      "description": "Kimura from Gift Wrap (Defender) film study: Kimura Defense, taught by Jon Satava.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/gvRGrvtKd1U/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/gvRGrvtKd1U",
+      "url": "https://www.youtube.com/watch?v=gvRGrvtKd1U",
+      "creator": { "@type": "Person", "name": "Jon Satava" },
+      "duration": "PT142S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Countering the Kimura Back Take",
+      "description": "Kimura from Gift Wrap (Defender) film study: Countering the Kimura Back Take, taught by Placido Santos.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/qKj5Y-jDEeM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/qKj5Y-jDEeM",
+      "url": "https://www.youtube.com/watch?v=qKj5Y-jDEeM",
+      "creator": { "@type": "Person", "name": "Placido Santos" },
+      "duration": "PT32S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -160,6 +208,42 @@ Defending the Kimura from Gift Wrap requires recognizing the submission threat w
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Kimura from Gift Wrap (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=OMzki0Uu7vA)
+
+<p class="clip-credit"><strong>Escaping the Gift Wrap</strong> — taught by thejiujitsupedia · 0:48 · <a href="https://www.youtube.com/watch?v=OMzki0Uu7vA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=gvRGrvtKd1U)
+
+<p class="clip-credit"><strong>Kimura Defense</strong> — taught by Jon Satava · 2:22 · <a href="https://www.youtube.com/watch?v=gvRGrvtKd1U" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=qKj5Y-jDEeM)
+
+<p class="clip-credit"><strong>Countering the Kimura Back Take</strong> — taught by Placido Santos · 0:32 · <a href="https://www.youtube.com/watch?v=qKj5Y-jDEeM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

@@ -156,6 +156,54 @@ description: "Complete guide to defending the Kimura from Half Guard Top. Learn 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Kimura from Half Guard (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Countering the kimura from top half guard",
+      "description": "Kimura from Half Guard (Defender) film study: Countering the kimura from top half guard, taught by Revolution BJJ Ashland.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/urKU1BKZNXA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/urKU1BKZNXA",
+      "url": "https://www.youtube.com/watch?v=urKU1BKZNXA",
+      "creator": { "@type": "Person", "name": "Revolution BJJ Ashland" },
+      "duration": "PT53S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Counter the half guard kimura with a kimura",
+      "description": "Kimura from Half Guard (Defender) film study: Counter the half guard kimura with a kimura, taught by Troy Manning.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/_JzYqwuH-Q0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/_JzYqwuH-Q0",
+      "url": "https://www.youtube.com/watch?v=_JzYqwuH-Q0",
+      "creator": { "@type": "Person", "name": "Troy Manning" },
+      "duration": "PT51S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Escaping and preventing the half guard kimura",
+      "description": "Kimura from Half Guard (Defender) film study: Escaping and preventing the half guard kimura, taught by Kieran Davern.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/7dU6lsfyowU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/7dU6lsfyowU",
+      "url": "https://www.youtube.com/watch?v=7dU6lsfyowU",
+      "creator": { "@type": "Person", "name": "Kieran Davern" },
+      "duration": "PT259S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -165,6 +213,42 @@ As the defender in half guard top, your objective is to prevent the bottom playe
 **Opponent's Starting Position**: [[Positions/Half Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Kimura from Half Guard (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=urKU1BKZNXA)
+
+<p class="clip-credit"><strong>Countering the kimura from top half guard</strong> — taught by Revolution BJJ Ashland · 0:53 · <a href="https://www.youtube.com/watch?v=urKU1BKZNXA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=_JzYqwuH-Q0)
+
+<p class="clip-credit"><strong>Counter the half guard kimura with a kimura</strong> — taught by Troy Manning · 0:51 · <a href="https://www.youtube.com/watch?v=_JzYqwuH-Q0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=7dU6lsfyowU)
+
+<p class="clip-credit"><strong>Escaping and preventing the half guard kimura</strong> — taught by Kieran Davern · 4:19 · <a href="https://www.youtube.com/watch?v=7dU6lsfyowU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

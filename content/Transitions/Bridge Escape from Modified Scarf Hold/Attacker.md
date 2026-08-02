@@ -174,6 +174,54 @@ description: "Complete guide to executing the bridge escape from Modified Scarf 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Bridge Escape from Modified Scarf Hold (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Kesa gatame escape",
+      "description": "Bridge Escape from Modified Scarf Hold (Attacker) film study: Kesa gatame escape, taught by SBG Australia.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/2M_6VytUaus/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/2M_6VytUaus",
+      "url": "https://www.youtube.com/watch?v=2M_6VytUaus",
+      "creator": { "@type": "Person", "name": "SBG Australia" },
+      "duration": "PT43S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Kesa gatame escape: elbow to the floor",
+      "description": "Bridge Escape from Modified Scarf Hold (Attacker) film study: Kesa gatame escape: elbow to the floor, taught by Revolution BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/W16rYg4nzrw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/W16rYg4nzrw",
+      "url": "https://www.youtube.com/watch?v=W16rYg4nzrw",
+      "creator": { "@type": "Person", "name": "Revolution BJJ" },
+      "duration": "PT159S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Scarf hold defence: the two foot positions",
+      "description": "Bridge Escape from Modified Scarf Hold (Attacker) film study: Scarf hold defence: the two foot positions, taught by SBG Rossendale.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/KUBGWiRuSkI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/KUBGWiRuSkI",
+      "url": "https://www.youtube.com/watch?v=KUBGWiRuSkI",
+      "creator": { "@type": "Person", "name": "SBG Rossendale" },
+      "duration": "PT141S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -183,6 +231,42 @@ Executing the bridge escape from Modified Scarf Hold requires precise coordinati
 **From Position**: [[Positions/Side Control/Modified Scarf Hold]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Bridge Escape from Modified Scarf Hold (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=2M_6VytUaus)
+
+<p class="clip-credit"><strong>Kesa gatame escape</strong> — taught by SBG Australia · 0:43 · <a href="https://www.youtube.com/watch?v=2M_6VytUaus" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=W16rYg4nzrw)
+
+<p class="clip-credit"><strong>Kesa gatame escape: elbow to the floor</strong> — taught by Revolution BJJ · 2:39 · <a href="https://www.youtube.com/watch?v=W16rYg4nzrw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=KUBGWiRuSkI)
+
+<p class="clip-credit"><strong>Scarf hold defence: the two foot positions</strong> — taught by SBG Rossendale · 2:21 · <a href="https://www.youtube.com/watch?v=KUBGWiRuSkI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

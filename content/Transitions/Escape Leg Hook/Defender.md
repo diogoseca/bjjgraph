@@ -134,6 +134,43 @@ description: "Learn to defend against the Escape Leg Hook from top position. Mai
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Escape Leg Hook (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Guard retention against the knee through",
+      "description": "Escape Leg Hook (Defender) film study: Guard retention against the knee through, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/3oD74kEITs8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/3oD74kEITs8",
+      "url": "https://www.youtube.com/watch?v=3oD74kEITs8",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT48S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Guard retention: when to sit up and recover",
+      "description": "Escape Leg Hook (Defender) film study: Guard retention: when to sit up and recover, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/lVLAROiSjNU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/lVLAROiSjNU",
+      "url": "https://www.youtube.com/watch?v=lVLAROiSjNU",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT136S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -143,6 +180,34 @@ As the defender against the Escape Leg Hook, you are the top player working to m
 **Opponent's Starting Position**: [[Positions/Leg Hook]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Escape Leg Hook (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=3oD74kEITs8)
+
+<p class="clip-credit"><strong>Guard retention against the knee through</strong> — taught by Lachlan Giles · 0:48 · <a href="https://www.youtube.com/watch?v=3oD74kEITs8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=lVLAROiSjNU)
+
+<p class="clip-credit"><strong>Guard retention: when to sit up and recover</strong> — taught by Lachlan Giles · 2:16 · <a href="https://www.youtube.com/watch?v=lVLAROiSjNU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

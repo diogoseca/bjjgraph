@@ -164,6 +164,43 @@ description: "Master hyperextension mechanics in BJJ. Learn joint lock principle
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Hyperextension \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Armbar elbow hyperextension explained",
+      "description": "Hyperextension film study: Armbar elbow hyperextension explained, taught by Grapplers Performx.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/gXSSXLGFOQU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/gXSSXLGFOQU",
+      "url": "https://www.youtube.com/watch?v=gXSSXLGFOQU",
+      "creator": { "@type": "Person", "name": "Grapplers Performx" },
+      "duration": "PT89S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "20 BJJ concepts including joint breaking mechanics",
+      "description": "Hyperextension film study: 20 BJJ concepts including joint breaking mechanics, taught by Jordan Preisinger.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/aXP_4Jncfj0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/aXP_4Jncfj0",
+      "url": "https://www.youtube.com/watch?v=aXP_4Jncfj0",
+      "creator": { "@type": "Person", "name": "Jordan Preisinger" },
+      "duration": "PT1024S"
+    }
+  ]
+}
+</script>
+
+
 <section id="overview" class="content-section">
 
 ## What is Hyperextension?
@@ -177,6 +214,34 @@ The hyperextension mechanic is considered fundamental because it relies on simpl
 Despite the mechanical simplicity, hyperextension submissions require careful training practices. Joint damage from hyperextension can range from minor ligament sprains to complete tears that require surgical repair and months of rehabilitation. The elbow and knee joints have relatively narrow ranges of acceptable motion, meaning the distance between a tight submission and an injury is measured in degrees of angle. Practitioners must develop the discipline to apply hyperextension submissions progressively, and defenders must tap early before structural damage occurs. In training, the attacker should apply slow, steady pressure while the defender communicates the moment they feel the joint reaching its limit. There is no training context where jerking or cranking a joint through its range is acceptable.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Hyperextension in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=gXSSXLGFOQU)
+
+<p class="clip-credit"><strong>Armbar elbow hyperextension explained</strong> — taught by Grapplers Performx · 1:29 · <a href="https://www.youtube.com/watch?v=gXSSXLGFOQU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=aXP_4Jncfj0)
+
+<p class="clip-credit"><strong>20 BJJ concepts including joint breaking mechanics</strong> — taught by Jordan Preisinger · 17:04 · <a href="https://www.youtube.com/watch?v=aXP_4Jncfj0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="building-blocks" class="content-section">
 

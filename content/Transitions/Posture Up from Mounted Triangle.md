@@ -34,6 +34,43 @@ description: "Master the posture up escape from mounted triangle in BJJ. Learn f
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Posture Up from Mounted Triangle \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Preventing the mounted triangle by posturing",
+      "description": "Posture Up from Mounted Triangle film study: Preventing the mounted triangle by posturing, taught by Justen Hamilton.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/l-HhOV9UjJU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/l-HhOV9UjJU",
+      "url": "https://www.youtube.com/watch?v=l-HhOV9UjJU",
+      "creator": { "@type": "Person", "name": "Justen Hamilton" },
+      "duration": "PT104S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Escaping the triangle choke",
+      "description": "Posture Up from Mounted Triangle film study: Escaping the triangle choke, taught by Rener and Ryron Gracie.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/sR2rS2dwpNY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/sR2rS2dwpNY",
+      "url": "https://www.youtube.com/watch?v=sR2rS2dwpNY",
+      "creator": { "@type": "Person", "name": "Rener and Ryron Gracie" },
+      "duration": "PT117S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +106,34 @@ Strategic awareness is essential throughout this escape sequence. The top player
 **Success Rate**: 30%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Posture Up from Mounted Triangle in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=l-HhOV9UjJU)
+
+<p class="clip-credit"><strong>Preventing the mounted triangle by posturing</strong> — taught by Justen Hamilton · 1:44 · <a href="https://www.youtube.com/watch?v=l-HhOV9UjJU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=sR2rS2dwpNY)
+
+<p class="clip-credit"><strong>Escaping the triangle choke</strong> — taught by Rener and Ryron Gracie · 1:57 · <a href="https://www.youtube.com/watch?v=sR2rS2dwpNY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

@@ -22,7 +22,10 @@
     "Lockdown",
     "Half Guard"
   ],
-  "success_rate": 42,
+  "success_rate": {
+    "gi": 42,
+    "nogi": 42
+  },
   "overview": "The Electric Chair is a devastating submission from the 10th Planet lockdown half guard system that attacks the hip joint and groin through forced hyperabduction of the opponent's trapped leg. Originating from the Electric Chair sweeping position, this technique capitalizes on the mechanical advantage created by the lockdown leg configuration combined with deep underhook control to progressively split the opponent's legs beyond their natural range of motion, forcing a tap through intense pressure on the adductor muscles, hip flexors, and the hip joint capsule itself.\n\nThe submission operates through a coordinated three-point control system: the lockdown traps and extends the opponent's leg, the underhook creates upper body leverage, and the free hand captures the opponent's far ankle to initiate the splitting action. This triangulation of control makes the Electric Chair exceptionally difficult to defend once fully established, as neutralizing any single control point still leaves two active forces working to complete the submission. The technique's effectiveness varies significantly based on the opponent's hip flexibility, making recognition of the breaking point a critical safety consideration.\n\nStrategically, the Electric Chair creates a powerful dilemma within the lockdown system. The threat of the submission forces opponents to address the split, which opens pathways to high-percentage sweeps like the Old School. Conversely, defending the sweep exposes the submission. This dual-threat architecture makes the Electric Chair position one of the most potent offensive platforms in modern no-gi grappling, particularly when integrated with transitions to the Truck, back control, and other lockdown-based attacks.",
   "safety_considerations": {
     "injury_risks": [
@@ -70,17 +73,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 45,
+      "probability": {
+        "gi": 45,
+        "nogi": 45
+      },
       "result": "success"
     },
     {
       "to": "Electric Chair/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "counter"
     }
   ],
@@ -305,37 +317,146 @@
       {
         "question": "What anatomical structures does the Electric Chair primarily attack?",
         "answer": "The Electric Chair primarily attacks the hip joint through forced hyperabduction, stretching the adductor muscles of the inner thigh, hip flexors, and the hip joint capsule itself. The groin region experiences the most acute pressure as the legs are split beyond their natural range of motion. Secondary stress is placed on the medial collateral ligament of the trapped knee due to rotational forces transmitted through the lockdown configuration.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Hip joint and inner-thigh adductors",
+        "distractors": {
+          "plausible": [
+            "Neck and cervical spine",
+            "Shoulder capsule and rotator cuff"
+          ],
+          "trap": [
+            "Harmless muscle stretch, ride it out"
+          ]
+        }
       },
       {
         "question": "What are the visual and tactile indicators that you are approaching the breaking point of the submission?",
         "answer": "Key indicators include increasing rigidity in the opponent's resistance as they approach their flexibility limit, visible distress in facial expression or body tension, the opponent's free leg beginning to scramble or push desperately against the mat, and a noticeable change in their breathing pattern becoming rapid or shallow. The attacker should feel progressively more structural resistance followed by a point where the hip structure begins to give.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Rigidity climbs, then hip gives",
+        "distractors": {
+          "plausible": [
+            "Breathing slows and steadies",
+            "Free leg goes still and calm"
+          ],
+          "trap": [
+            "Sudden slack means they submit"
+          ]
+        }
       },
       {
         "question": "What three control points must be established before initiating the Electric Chair?",
-        "answer": "The three essential control points are: first, a tight lockdown figure-four on the opponent's trapped leg with ankles crossed and heel pulling down on their thigh; second, a deep underhook reaching across the opponent's back to their far lat or belt area for extension leverage; third, capture of the opponent's near ankle or foot with the free hand to direct the splitting force. All three must be simultaneously maintained throughout the finishing sequence."
+        "answer": "The three essential control points are: first, a tight lockdown figure-four on the opponent's trapped leg with ankles crossed and heel pulling down on their thigh; second, a deep underhook reaching across the opponent's back to their far lat or belt area for extension leverage; third, capture of the opponent's near ankle or foot with the free hand to direct the splitting force. All three must be simultaneously maintained throughout the finishing sequence.",
+        "answer_line": "Lockdown, underhook, ankle grip",
+        "distractors": {
+          "plausible": [
+            "Lockdown, crossface, hip pressure",
+            "Underhook, waistlock, knee ride"
+          ],
+          "trap": [
+            "Release lockdown to grab ankle"
+          ]
+        }
       },
       {
         "question": "At what point during the Electric Chair does the submission become effectively inescapable for the defender?",
-        "answer": "The submission becomes extremely difficult to escape once the attacker has achieved full perpendicular angle with all three control points locked in and the split has progressed past approximately 70% of the opponent's flexibility range. At this point, the defender lacks the leverage to squeeze their knees back together and the attacker's mechanical advantage is overwhelming. The critical escape window is during the angle creation phase before full splitting pressure is applied."
+        "answer": "The submission becomes extremely difficult to escape once the attacker has achieved full perpendicular angle with all three control points locked in and the split has progressed past approximately 70% of the opponent's flexibility range. At this point, the defender lacks the leverage to squeeze their knees back together and the attacker's mechanical advantage is overwhelming. The critical escape window is during the angle creation phase before full splitting pressure is applied.",
+        "answer_line": "Perpendicular angle, 70% split",
+        "distractors": {
+          "plausible": [
+            "Once lockdown is secured",
+            "When underhook is established"
+          ],
+          "trap": [
+            "After opponent stops resisting"
+          ]
+        }
       },
       {
         "question": "What are the most common finishing errors that allow the opponent to escape the Electric Chair?",
-        "answer": "The two most frequent finishing errors are releasing lockdown tension while reaching for the ankle, which allows the opponent to extract their leg, and attempting to apply explosive splitting force rather than progressive pressure. Explosive force often results in the opponent absorbing the initial burst and scrambling free during the brief recovery moment. Patient, progressive pressure that incrementally increases the split is far more effective and safer than attempting to muscle through the submission."
+        "answer": "The two most frequent finishing errors are releasing lockdown tension while reaching for the ankle, which allows the opponent to extract their leg, and attempting to apply explosive splitting force rather than progressive pressure. Explosive force often results in the opponent absorbing the initial burst and scrambling free during the brief recovery moment. Patient, progressive pressure that incrementally increases the split is far more effective and safer than attempting to muscle through the submission.",
+        "answer_line": "Losing lockdown, exploding early",
+        "distractors": {
+          "plausible": [
+            "Pressing too slowly and steadily",
+            "Failing to grip the collar"
+          ],
+          "trap": [
+            "Sit up and abandon the lockdown"
+          ]
+        }
       },
       {
         "question": "How should you adjust your grips if the opponent begins successfully resisting the split by squeezing their knees together?",
-        "answer": "When the opponent squeezes knees to resist, first verify your lockdown is tight by re-engaging the heel pull and ankle cross. Then adjust the splitting angle by hip escaping further to create a more perpendicular line of force against their knee squeeze. Pulsate the pressure by briefly reducing and then rapidly re-engaging the split to find gaps in their defensive contraction. If knee squeeze defense remains strong, transition to the Old School sweep to capitalize on their defensive commitment to keeping legs together."
+        "answer": "When the opponent squeezes knees to resist, first verify your lockdown is tight by re-engaging the heel pull and ankle cross. Then adjust the splitting angle by hip escaping further to create a more perpendicular line of force against their knee squeeze. Pulsate the pressure by briefly reducing and then rapidly re-engaging the split to find gaps in their defensive contraction. If knee squeeze defense remains strong, transition to the Old School sweep to capitalize on their defensive commitment to keeping legs together.",
+        "answer_line": "Tighten heel, re-angle, then pulse",
+        "distractors": {
+          "plausible": [
+            "Wait for them to tire out",
+            "Grab their collar and pull"
+          ],
+          "trap": [
+            "Drop the lockdown to reset"
+          ]
+        }
       },
       {
         "question": "Why must the Electric Chair be applied slowly and progressively rather than explosively in training?",
         "answer": "The Electric Chair targets the hip joint and groin where flexibility varies enormously between individuals and can change day to day. Unlike chokes which provide clear warning sensations before danger, hip hyperabduction can cause catastrophic injury before the defender fully recognizes they are in danger. A partner may feel only mild discomfort one moment and suffer a severe groin tear or hip labral injury with just slightly more force. Progressive application gives the defender time to tap and gives the attacker critical feedback about their partner's flexibility limits.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Groin injury outpaces warning signs",
+        "distractors": {
+          "plausible": [
+            "Slow pace raises finishing odds",
+            "Keeps the lockdown from opening"
+          ],
+          "trap": [
+            "Crank fast to beat the defense"
+          ]
+        }
       },
       {
         "question": "What competition strategy maximizes finishing rate with the Electric Chair?",
-        "answer": "In competition, establish the lockdown early and immediately work toward the Electric Chair position rather than attempting sweeps first. Once the position is secured, threaten the Old School sweep to force the opponent to commit their base defensively, then capitalize on their defensive posture to initiate the split. Apply steady progressive pressure and avoid resetting once the split begins. If the opponent successfully defends the submission, immediately transition to the Old School sweep while their attention remains focused on split defense."
+        "answer": "In competition, establish the lockdown early and immediately work toward the Electric Chair position rather than attempting sweeps first. Once the position is secured, threaten the Old School sweep to force the opponent to commit their base defensively, then capitalize on their defensive posture to initiate the split. Apply steady progressive pressure and avoid resetting once the split begins. If the opponent successfully defends the submission, immediately transition to the Old School sweep while their attention remains focused on split defense.",
+        "answer_line": "Bait the sweep, then split",
+        "distractors": {
+          "plausible": [
+            "Sweep first, chair as backup",
+            "Stall and win on points"
+          ],
+          "trap": [
+            "Abandon lockdown to scramble up"
+          ]
+        }
+      }
+    ],
+    "clips": [
+      {
+        "id": "sMbaY4vG2mM",
+        "title": "Electric Chair from Lockdown Half Guard",
+        "by": "Brandon Mccaghren",
+        "vertical": false,
+        "channel": "Brandon Mccaghren",
+        "duration": 42,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "I8HLek9eCbg",
+        "title": "Electric Chair",
+        "by": "bjjtaro",
+        "vertical": false,
+        "channel": "bjjtaro",
+        "duration": 25,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "X7JA72d-3vw",
+        "title": "Electric Chair Submission",
+        "by": "Dan M.",
+        "vertical": false,
+        "channel": "Dan M.",
+        "duration": 55,
+        "verified": "2026-07-14"
       }
     ]
   },
@@ -426,26 +547,76 @@
       {
         "question": "What are the earliest recognition cues that an Electric Chair is being set up from lockdown?",
         "answer": "The earliest cues are the opponent securing a noticeably deep underhook from lockdown bottom that reaches across your back, feeling them begin to extend their hips away from you which creates an angular pull on your trapped leg, and the opponent releasing one hand from upper body control to reach toward your ankle or foot. Any combination of these indicates the Electric Chair is being established and immediate defensive response is required before the split begins.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Deep underhook, hips extending",
+        "distractors": {
+          "plausible": [
+            "They flatten out and stall",
+            "Both hands fight your collar"
+          ],
+          "trap": [
+            "Relax and let them build angle"
+          ]
+        }
       },
       {
         "question": "Why is it critical to defend the Electric Chair before the attacker achieves full perpendicular angle?",
         "answer": "Once the attacker achieves perpendicular angle with all three control points established (lockdown, underhook, ankle), the mechanical advantage of the split becomes overwhelming. At this point, knee squeeze defense alone cannot resist the splitting force, and the attacker's leverage multiplies significantly with each degree of additional angle. Early defense when the attacker is still establishing controls requires far less energy and has substantially higher success rates than late-stage defense attempts.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Leverage multiplies with angle",
+        "distractors": {
+          "plausible": [
+            "Escapes are easier once locked",
+            "Their grip weakens over time"
+          ],
+          "trap": [
+            "Hold on until the hip pops"
+          ]
+        }
       },
       {
         "question": "What is the safest immediate response when you feel the splitting pressure beginning to build on your hip?",
         "answer": "The safest immediate response is to simultaneously squeeze your knees together as tightly as possible while driving your chest weight forward onto the opponent's upper body. This combination prevents the split from progressing while limiting the attacker's ability to create a better perpendicular angle. Do not attempt to rip your leg free, as this can worsen the split. Focus on nullifying the current pressure first, then systematically work to break the lockdown configuration.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Knees pinch, chest drives forward",
+        "distractors": {
+          "plausible": [
+            "Break the lockdown first",
+            "Spread knees to create base"
+          ],
+          "trap": [
+            "Yank the trapped leg out hard"
+          ]
+        }
       },
       {
         "question": "How should you respond if you feel you cannot escape and the submission pressure is continuing to increase?",
         "answer": "Tap immediately. The Electric Chair attacks the hip joint and groin where injury can occur rapidly and without adequate warning sensation. Unlike chokes which allow a brief period of defense before unconsciousness, the Electric Chair can cause a sudden groin tear or hip labral injury with just slightly more pressure than you can currently endure. There is no safe way to test your flexibility limits under live submission pressure. If the splitting pressure is significant and you cannot escape, tapping and resetting is always the correct decision.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Tap immediately",
+        "distractors": {
+          "plausible": [
+            "Wait until you feel sharp pain",
+            "Breathe and try to ride it out"
+          ],
+          "trap": [
+            "Power through and rip your leg free"
+          ]
+        }
       },
       {
         "question": "After successfully escaping the Electric Chair, what position should you immediately work to establish?",
-        "answer": "After escaping, immediately work to establish standard half guard top position by driving your weight forward through crossface or shoulder pressure and securing your free leg in a wide base for stability. Focus on breaking whatever remains of the lockdown configuration before the opponent can re-engage the leg control. If the lockdown is already broken, transition directly to a passing sequence such as knee slice or smash pass to capitalize on the scramble before the opponent can re-establish their lockdown guard system."
+        "answer": "After escaping, immediately work to establish standard half guard top position by driving your weight forward through crossface or shoulder pressure and securing your free leg in a wide base for stability. Focus on breaking whatever remains of the lockdown configuration before the opponent can re-engage the leg control. If the lockdown is already broken, transition directly to a passing sequence such as knee slice or smash pass to capitalize on the scramble before the opponent can re-establish their lockdown guard system.",
+        "answer_line": "Half guard top, break lockdown",
+        "distractors": {
+          "plausible": [
+            "Full mount, isolate the arm",
+            "Back control, seatbelt grip"
+          ],
+          "trap": [
+            "Chase leg lock immediately"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -468,6 +639,35 @@
         "phase": "Phase 4: Counter-Attacks",
         "focus": "Transitioning from successful defense to offensive passing",
         "description": "After successfully defending or escaping the Electric Chair, immediately transition to guard passing or counter-attacks. Develop the ability to chain escape into guard pass completion. Practice against full resistance in positional sparring from the Electric Chair starting position."
+      }
+    ],
+    "clips": [
+      {
+        "id": "3A6oRsDf3oU",
+        "title": "Lockdown & Electric Chair Counters and Escapes",
+        "by": "Street Jitsu",
+        "vertical": false,
+        "channel": "Street Jitsu",
+        "duration": 286,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "gtsKv_sDRnw",
+        "title": "Passing the lockdown",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "Absolute MMA St Kilda - Melbourne",
+        "duration": 359,
+        "verified": "2026-07-16"
+      },
+      {
+        "id": "O6HinOc-zvA",
+        "title": "The best lockdown counter",
+        "by": "Keenan Cornelius",
+        "vertical": false,
+        "channel": "Keenan Cornelius",
+        "duration": 538,
+        "verified": "2026-07-16"
       }
     ]
   }

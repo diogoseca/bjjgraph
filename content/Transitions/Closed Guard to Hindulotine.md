@@ -35,6 +35,43 @@ description: "Catch the high-elbow guillotine from closed guard and rotate your 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Closed Guard to Hindulotine \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Two Hindulotine finishes from the ADCC Trials",
+      "description": "Closed Guard to Hindulotine film study: Two Hindulotine finishes from the ADCC Trials, taught by Eddy Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/NqAXUtNqYLk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/NqAXUtNqYLk",
+      "url": "https://www.youtube.com/watch?v=NqAXUtNqYLk",
+      "creator": { "@type": "Person", "name": "Eddy Bravo" },
+      "duration": "PT85S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Marcelo Garcia guillotine (Marcelotine) breakdown",
+      "description": "Closed Guard to Hindulotine film study: Marcelo Garcia guillotine (Marcelotine) breakdown, taught by Half The Battle.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Dg1dvtWkXhE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Dg1dvtWkXhE",
+      "url": "https://www.youtube.com/watch?v=Dg1dvtWkXhE",
+      "creator": { "@type": "Person", "name": "Half The Battle" },
+      "duration": "PT110S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -73,6 +110,34 @@ Strategically the entry is valuable because it threatens immediately while prese
 **Success Rate**: 55%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Closed Guard to Hindulotine in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=NqAXUtNqYLk)
+
+<p class="clip-credit"><strong>Two Hindulotine finishes from the ADCC Trials</strong> — taught by Eddy Bravo · 1:25 · <a href="https://www.youtube.com/watch?v=NqAXUtNqYLk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Dg1dvtWkXhE)
+
+<p class="clip-credit"><strong>Marcelo Garcia guillotine (Marcelotine) breakdown</strong> — taught by Half The Battle · 1:50 · <a href="https://www.youtube.com/watch?v=Dg1dvtWkXhE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

@@ -180,6 +180,54 @@ description: "Master the bridge defense escape from mounted triangle. Step-by-st
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Bridge Defense from Mounted Triangle (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Escaping the mount by bridging",
+      "description": "Bridge Defense from Mounted Triangle (Attacker) film study: Escaping the mount by bridging, taught by Pantera Jiujitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/R21vtm5BHF4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/R21vtm5BHF4",
+      "url": "https://www.youtube.com/watch?v=R21vtm5BHF4",
+      "creator": { "@type": "Person", "name": "Pantera Jiujitsu" },
+      "duration": "PT80S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Bridge and roll escape from under mount",
+      "description": "Bridge Defense from Mounted Triangle (Attacker) film study: Bridge and roll escape from under mount, taught by Absolute MMA.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/nkvBImWia78/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/nkvBImWia78",
+      "url": "https://www.youtube.com/watch?v=nkvBImWia78",
+      "creator": { "@type": "Person", "name": "Absolute MMA" },
+      "duration": "PT174S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Mount escape with choke defense",
+      "description": "Bridge Defense from Mounted Triangle (Attacker) film study: Mount escape with choke defense, taught by Combat Sports Center Salem.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/qVD1UD39hNc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/qVD1UD39hNc",
+      "url": "https://www.youtube.com/watch?v=qVD1UD39hNc",
+      "creator": { "@type": "Person", "name": "Combat Sports Center Salem" },
+      "duration": "PT190S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -189,6 +237,42 @@ The bridge defense from mounted triangle is executed by the bottom player trappe
 **From Position**: [[Positions/Mount/Mounted Triangle]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Bridge Defense from Mounted Triangle (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=R21vtm5BHF4)
+
+<p class="clip-credit"><strong>Escaping the mount by bridging</strong> — taught by Pantera Jiujitsu · 1:20 · <a href="https://www.youtube.com/watch?v=R21vtm5BHF4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=nkvBImWia78)
+
+<p class="clip-credit"><strong>Bridge and roll escape from under mount</strong> — taught by Absolute MMA · 2:54 · <a href="https://www.youtube.com/watch?v=nkvBImWia78" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=qVD1UD39hNc)
+
+<p class="clip-credit"><strong>Mount escape with choke defense</strong> — taught by Combat Sports Center Salem · 3:10 · <a href="https://www.youtube.com/watch?v=qVD1UD39hNc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

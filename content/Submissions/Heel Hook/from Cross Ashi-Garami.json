@@ -19,7 +19,10 @@
   "target_area": "Ankle joint, knee ligaments (ACL/MCL/LCL), and lower leg structural integrity",
   "starting_position": "Cross Ashi-Garami",
   "from_position": "Cross Ashi-Garami/Top",
-  "success_rate": 45,
+  "success_rate": {
+    "gi": 45,
+    "nogi": 45
+  },
   "overview": "The heel hook from Cross Ashi-Garami exploits the unique crossed leg configuration to generate powerful rotational force on the opponent's knee ligaments. Cross Ashi provides superior hip control compared to standard ashi garami positions because the crossed legs create a wedge effect that prevents the defender from sitting up or rotating their hips to clear the entanglement. The perpendicular hip alignment between attacker and defender, combined with the pinching effect of the inside hook and outside cross, immobilizes the trapped leg and creates one of the highest-percentage leg lock finishing platforms in modern submission grappling.\n\nThe key mechanical advantage lies in how the cross configuration amplifies rotational torque. The attacker's inside hook anchors behind the defender's hip while the outside leg crosses at shin level, locking the lower leg in place. With the heel cupped and the foot controlled, the attacker applies rotational force by turning the heel toward the ceiling while driving their hips forward. Because the defender cannot generate effective counter-rotation from this position, the breaking mechanics engage quickly once the grip is consolidated.\n\nThis submission demands meticulous attention to safety in training. The mechanism attacks the ACL, MCL, and LCL simultaneously through rotational torque, and structural damage can occur before the defender feels significant pain. Both training partners must understand proper application speed, tap protocols, and release procedures. In competition, the heel hook from Cross Ashi-Garami has become a cornerstone technique, forcing all serious grapplers to develop both offensive proficiency and reliable defensive responses.",
   "safety_considerations": {
     "injury_risks": [
@@ -118,17 +121,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 45,
+      "probability": {
+        "gi": 45,
+        "nogi": 45
+      },
       "result": "success"
     },
     {
       "to": "Cross Ashi-Garami/Top",
-      "probability": 36,
+      "probability": {
+        "gi": 36,
+        "nogi": 36
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 19,
+      "probability": {
+        "gi": 19,
+        "nogi": 19
+      },
       "result": "counter"
     }
   ],
@@ -295,52 +307,181 @@
       {
         "question": "What anatomical structures does the heel hook from Cross Ashi-Garami primarily attack?",
         "answer": "The heel hook attacks the knee ligaments through rotational torque applied at the ankle. The primary targets are the ACL (anterior cruciate ligament), MCL (medial collateral ligament), and LCL (lateral collateral ligament). The rotational force travels up from the ankle through the tibia and into the knee joint, creating shearing forces that the knee ligaments are not designed to withstand. Secondary damage can occur to the meniscus, ankle ligaments, and joint capsule.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Knee ligaments: ACL, MCL, LCL",
+        "distractors": {
+          "plausible": [
+            "Ankle joint bones",
+            "Meniscus and cartilage only"
+          ],
+          "trap": [
+            "Just calf muscle - safe to ride"
+          ]
+        }
       },
       {
         "question": "What physical indicators tell you the heel hook is approaching the submission threshold?",
         "answer": "Key indicators include the opponent's heel beginning to rotate beyond its natural range, visible tension in the Achilles tendon area, the opponent's body stiffening or becoming rigid as ligament strain increases, and verbal or physical distress signals. In training, you should feel progressive resistance through the grip that suddenly decreases as structures begin to yield. Stop well before this point and allow your partner to tap during the progressive loading phase.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Heel rotates past natural range",
+        "distractors": {
+          "plausible": [
+            "Resistance steadily increases",
+            "Achilles area feels slack"
+          ],
+          "trap": [
+            "Keep turning until it pops"
+          ]
+        }
       },
       {
         "question": "What control must be established before applying rotational force to the heel?",
         "answer": "You must have the cross configuration secure with inside hook deep behind the hip and outside leg crossed at shin level. The heel must be fully exposed and cupped in your grip with the figure-four or S-grip locked. Your elbows must be pinned to your ribs with the heel pulled tight against your sternum. The opponent's toes and forefoot must be controlled against your chest. Only when all five control points are established should rotational force begin.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Cross grip locked, heel to chest",
+        "distractors": {
+          "plausible": [
+            "Just cup the heel firmly",
+            "Cross legs, grip optional"
+          ],
+          "trap": [
+            "Rotate as soon as heel touches"
+          ]
+        }
       },
       {
         "question": "At what point during heel hook application does escape become nearly impossible for the defender?",
         "answer": "Escape becomes extremely difficult once the attacker has locked the figure-four grip configuration with the heel pulled tight to the chest and elbows pinned. At this point, the defender cannot strip the grip through hand fighting and their foot is fixed against the attacker's torso. The mechanical advantage is overwhelmingly in the attacker's favor once hip rotation begins, because the defender cannot generate sufficient counter-rotation from the cross ashi bottom position.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Figure-four locked, heel pinned",
+        "distractors": {
+          "plausible": [
+            "Once ashi garami is entered",
+            "When first hand touches heel"
+          ],
+          "trap": [
+            "Safe until you feel real pain"
+          ]
+        }
       },
       {
         "question": "Your opponent begins pulling their knee toward their chest to hide the heel - what adjustment creates a finishing opportunity?",
         "answer": "When the defender retracts their knee, transition immediately to a straight ankle lock or toe hold, both of which become available when the knee is flexed. The bent knee actually improves ankle lock mechanics by providing a fulcrum point. Alternatively, use a two-on-one wrist grip break to pry their hands off your wrist, then re-expose the heel by extending their leg using your leg entanglement. Never chase a fully hidden heel with the heel hook grip.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Switch to ankle lock/toe hold",
+        "distractors": {
+          "plausible": [
+            "Chase heel with more grip force",
+            "Wait for them to extend leg"
+          ],
+          "trap": [
+            "Yank the heel through anyway"
+          ]
+        }
       },
       {
         "question": "What grip adjustment prevents the defender from spinning their heel free during your finishing attempt?",
         "answer": "Pin the opponent's toes and forefoot firmly against your chest using your forearms, creating a fixed reference point that prevents foot rotation. Your wrist bone should sit across the Achilles tendon as a fulcrum while your other hand locks the figure-four. When the defender attempts to rotate their foot, your forearm contact on their toes prevents the spin. Keep your elbows squeezed tight so there is no gap for the foot to rotate through.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Pin toes to chest, wrist fulcrum",
+        "distractors": {
+          "plausible": [
+            "Squeeze the ankle bone harder",
+            "Hook their foot with your leg"
+          ],
+          "trap": [
+            "Release grip and re-grab heel"
+          ]
+        }
       },
       {
         "question": "What is the correct application speed for heel hooks in training and why is this critical?",
         "answer": "In training, rotational force must be applied over a minimum of 5-7 seconds from initial pressure to maximum engagement, with pauses at each increment to allow your partner to assess and tap. This is critical because heel hooks damage knee ligaments before significant pain is felt by the defender. Unlike joint locks where increasing pain provides a warning signal, heel hook damage can occur catastrophically and suddenly. Slow application gives both partners time to assess the position safely.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Slow, 5-7 sec, pausing to check",
+        "distractors": {
+          "plausible": [
+            "One continuous squeeze to max",
+            "Same tempo as an armbar"
+          ],
+          "trap": [
+            "Snap it hard for the finish"
+          ]
+        }
       },
       {
         "question": "In competition, how should you adjust your finishing strategy when the opponent is actively boot-defending?",
         "answer": "Against persistent boot defense, implement a submission chain rather than forcing the heel hook. Threaten the heel hook to force the boot, then immediately transition to a straight ankle lock or toe hold that capitalizes on their flexed knee position. When they straighten to defend the ankle lock, re-attack the heel hook. This chain creates an unsolvable dilemma where defending one submission exposes the other. Maintain cross ashi integrity throughout transitions.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Chain heel hook into ankle lock",
+        "distractors": {
+          "plausible": [
+            "Wait for the boot to tire out",
+            "Switch to their other leg"
+          ],
+          "trap": [
+            "Crank through the locked boot"
+          ]
+        }
       },
       {
         "question": "Your opponent starts sitting up and pushing frames while you have initial heel contact but not a locked grip - what prevents their escape?",
         "answer": "Drive your inside hook deeper behind their hip to pull them back down while simultaneously pulling their heel tighter toward your chest. Their upward movement paradoxically often exposes the heel more clearly as they shift their weight. Use their posting arm as a timing cue: when they commit weight to the post, they have less hand fighting capacity, creating a window to consolidate your figure-four grip. Then their sit-up posture actually aids your rotational mechanics.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Deepen hook, pull heel tighter",
+        "distractors": {
+          "plausible": [
+            "Release and reset position",
+            "Chase their upper body instead"
+          ],
+          "trap": [
+            "Rotate immediately to stop them"
+          ]
+        }
       },
       {
         "question": "How should you release the heel hook after your training partner taps?",
         "answer": "Immediately stop all rotational pressure the instant you perceive any tap signal. Release the heel grip completely by opening your hands before unwrapping the leg entanglement. Slowly remove your crossed legs while allowing your partner to extract their leg at their own pace. Never maintain any rotational pressure during the release, even passively. Check with your partner about their knee and ankle status after every heel hook attempt, and report any discomfort to the instructor.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Stop at once, then unwrap slowly",
+        "distractors": {
+          "plausible": [
+            "Ask if they tapped first",
+            "Pop the grip and stand up fast"
+          ],
+          "trap": [
+            "Keep twisting as you let go"
+          ]
+        }
+      }
+    ],
+    "clips": [
+      {
+        "id": "h_SRARh0B6U",
+        "title": "Cross ashi belly-down heel hook",
+        "by": "Bowerhouse MMA",
+        "vertical": false,
+        "channel": "BOWERHOUSE MMA",
+        "duration": 68,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "GqE4UobpkMs",
+        "title": "Reverse X to cross ashi to inside heel hook",
+        "by": "Bowerhouse MMA",
+        "vertical": false,
+        "channel": "BOWERHOUSE MMA",
+        "duration": 88,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "lr7rlj7WV-E",
+        "title": "X guard to heel hook",
+        "by": "Craig Jones",
+        "vertical": false,
+        "channel": "The Bear's Den BJJ & MMA  熊派巴西柔術及MMA學院",
+        "duration": 94,
+        "verified": "2026-07-14"
       }
     ]
   },
@@ -434,27 +575,77 @@
       {
         "question": "How do you recognize that a heel hook from Cross Ashi-Garami is being set up?",
         "answer": "Key recognition cues include the attacker establishing a crossed leg configuration with their outside leg crossing over your shin, aggressive hand fighting to access your heel, and the attacker angling their body perpendicular to yours. You will feel them pulling your foot toward their chest while cupping your heel with their palm across the Achilles tendon. Their elbows clamping tight to their ribs signals grip consolidation is imminent.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Legs cross, heel cupped, pulled in",
+        "distractors": {
+          "plausible": [
+            "They square hips and grab lapel",
+            "Their knee slides to half guard"
+          ],
+          "trap": [
+            "Wait until you feel knee pain"
+          ]
+        }
       },
       {
         "question": "When should you tap to a heel hook from Cross Ashi-Garami to prevent injury?",
         "answer": "Tap immediately when the attacker has locked their figure-four grip on your heel and begins any rotational pressure. Do not wait for pain because heel hooks damage knee ligaments (ACL, MCL, LCL) before significant pain is felt. If you feel your heel rotating beyond its natural range, any unusual pressure in your knee, or if you cannot break the grip and rotation has started, tap immediately using verbal and physical signals. Tapping early prevents career-ending injuries.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Tap at lock, before pain hits",
+        "distractors": {
+          "plausible": [
+            "Tap only when pain is sharp",
+            "Wait to see if it tightens"
+          ],
+          "trap": [
+            "Try to power out first"
+          ]
+        }
       },
       {
         "question": "What defensive options are available against the heel hook from Cross Ashi-Garami?",
         "answer": "Primary defenses include boot defense (flexing the knee to hide the heel), aggressive hand fighting to prevent grip consolidation, counter-entanglement entries when the attacker's inside leg is exposed, and spinning escapes when the cross configuration loosens. The most effective overall strategy combines boot defense with hand fighting to prevent the grip, while watching for escape windows during the attacker's positional adjustments.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Boot defense plus hand fighting",
+        "distractors": {
+          "plausible": [
+            "Stall and grab their far arm",
+            "Push their head with both hands"
+          ],
+          "trap": [
+            "Spin explosively to unwind leg"
+          ]
+        }
       },
       {
         "question": "What creates the best escape windows when defending the heel hook from Cross Ashi-Garami?",
         "answer": "The best escape windows occur when the attacker loosens their leg control to adjust grips, reposition their body, or transition to another entanglement position like Saddle. Watch for moments when their inside hook loses depth behind your hip or their outside cross becomes less tight. These transitional moments create space for leg extraction or counter-entanglement. Attempting escape against tight control wastes energy and risks injury.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "When they loosen control to adjust",
+        "distractors": {
+          "plausible": [
+            "When their inside hook digs deeper",
+            "Right after they lock the heel in"
+          ],
+          "trap": [
+            "Flatten onto your back to bridge"
+          ]
+        }
       },
       {
         "question": "Why is explosive spinning particularly dangerous when defending the heel hook from Cross Ashi-Garami?",
         "answer": "Explosive spinning feeds rotational force directly into the heel hook mechanism. The heel hook finishes through rotation of the heel and ankle, and your uncontrolled spinning motion creates exactly the rotational force the attacker needs to damage your knee ligaments. The attacker can simply follow and amplify your own momentum. Only attempt rotational escapes when the cross configuration is clearly compromised and the escape path is open.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Spinning feeds the rotation",
+        "distractors": {
+          "plausible": [
+            "It tires out the attacker",
+            "It resets to neutral position"
+          ],
+          "trap": [
+            "It's the fastest safe escape"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -477,6 +668,26 @@
         "phase": "Phase 4: Live Defense with Full Resistance",
         "focus": "Integrating all defensive skills against realistic attacks",
         "description": "Full positional sparring from Cross Ashi-Garami bottom against partner attacking at 80-90% intensity. Practice combining boot defense, hand fighting, escape recognition, and counter-attacks in real time. Heel hooks applied at controlled training speed only. Focus on making correct decisions under pressure."
+      }
+    ],
+    "clips": [
+      {
+        "id": "FUjlpGRjU44",
+        "title": "Escaping and countering cross ashi garami",
+        "by": "Lux's Jiu Jitsu",
+        "vertical": false,
+        "channel": "Lux’s jiu jitsu channel",
+        "duration": 45,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "v3w0qXLKxug",
+        "title": "Defending heel hooks",
+        "by": "Absolute MMA St Kilda",
+        "vertical": false,
+        "channel": "Absolute MMA St Kilda - Melbourne",
+        "duration": 92,
+        "verified": "2026-07-14"
       }
     ]
   }

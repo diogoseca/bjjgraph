@@ -34,6 +34,43 @@ description: "Master the Toreando Pass from De La Riva Guard in BJJ. Step-by-ste
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Toreando Pass from De La Riva \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Toreando pass from De La Riva guard",
+      "description": "Toreando Pass from De La Riva film study: Toreando pass from De La Riva guard, taught by Unknown.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/XO_i9aiSuHU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/XO_i9aiSuHU",
+      "url": "https://www.youtube.com/watch?v=XO_i9aiSuHU",
+      "creator": { "@type": "Person", "name": "Unknown" },
+      "duration": "PT82S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "De La Riva toreando pass breakdown",
+      "description": "Toreando Pass from De La Riva film study: De La Riva toreando pass breakdown, taught by Unknown.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/F3Io4_p10Mg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/F3Io4_p10Mg",
+      "url": "https://www.youtube.com/watch?v=F3Io4_p10Mg",
+      "creator": { "@type": "Person", "name": "Unknown" },
+      "duration": "PT158S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -66,9 +103,37 @@ The technical challenge of executing the toreando from DLR lies in the sequencin
 At competitive levels, the toreando from DLR becomes most dangerous when integrated into a passing chain system. The initial toreando attempt forces the guard player to commit their legs defensively to one direction, which opens knee slice, leg drag, or backstep opportunities on the opposite side. This chain-passing methodology transforms the toreando from a single technique into a systematic tool for progressively dismantling DLR guard structure, creating compounding problems that even elite guard players struggle to solve simultaneously.
 
 **From Position**: [[Positions/De La Riva Guard]] (Top)
-**Success Rate**: 55%
+**Success Rate**: 39%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Toreando Pass from De La Riva in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=XO_i9aiSuHU)
+
+<p class="clip-credit"><strong>Toreando pass from De La Riva guard</strong> — taught by Unknown · 1:22 · <a href="https://www.youtube.com/watch?v=XO_i9aiSuHU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=F3Io4_p10Mg)
+
+<p class="clip-credit"><strong>De La Riva toreando pass breakdown</strong> — taught by Unknown · 2:38 · <a href="https://www.youtube.com/watch?v=F3Io4_p10Mg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

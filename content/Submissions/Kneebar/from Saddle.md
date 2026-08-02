@@ -34,6 +34,54 @@ description: "Master the kneebar from Saddle position in BJJ. Expert guide cover
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Kneebar from Saddle \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Kneebar from Saddle",
+      "description": "Kneebar from Saddle film study: Kneebar from Saddle, taught by Bristol Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/fig6JjjU-bE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/fig6JjjU-bE",
+      "url": "https://www.youtube.com/watch?v=fig6JjjU-bE",
+      "creator": { "@type": "Person", "name": "Bristol Jiu Jitsu" },
+      "duration": "PT88S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Dog Bar (Saddle Kneebar)",
+      "description": "Kneebar from Saddle film study: Dog Bar (Saddle Kneebar), taught by Craig Jones.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/vMqDIi10z4k/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/vMqDIi10z4k",
+      "url": "https://www.youtube.com/watch?v=vMqDIi10z4k",
+      "creator": { "@type": "Person", "name": "Craig Jones" },
+      "duration": "PT61S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Kneebar from Saddle",
+      "description": "Kneebar from Saddle film study: Kneebar from Saddle, taught by Sickness Ferro.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/wDwhA_MeFbU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/wDwhA_MeFbU",
+      "url": "https://www.youtube.com/watch?v=wDwhA_MeFbU",
+      "creator": { "@type": "Person", "name": "Sickness Ferro" },
+      "duration": "PT143S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -78,6 +126,42 @@ Safety awareness is paramount when training this technique. The combination of t
 **Starting Position**: [[Positions/Ashi Garami/Saddle]] · **From**: [[Positions/Ashi Garami/Saddle]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Kneebar from Saddle in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=fig6JjjU-bE)
+
+<p class="clip-credit"><strong>Kneebar from Saddle</strong> — taught by Bristol Jiu Jitsu · 1:28 · <a href="https://www.youtube.com/watch?v=fig6JjjU-bE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=vMqDIi10z4k)
+
+<p class="clip-credit"><strong>Dog Bar (Saddle Kneebar)</strong> — taught by Craig Jones · 1:01 · <a href="https://www.youtube.com/watch?v=vMqDIi10z4k" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=wDwhA_MeFbU)
+
+<p class="clip-credit"><strong>Kneebar from Saddle</strong> — taught by Sickness Ferro · 2:23 · <a href="https://www.youtube.com/watch?v=wDwhA_MeFbU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="outcomes" class="content-section">
 
@@ -245,7 +329,7 @@ Safety awareness is paramount when training this technique. The combination of t
 ## Related
 - [[Transitions/Kneebar]]
 - [[Submissions/Inside Heel Hook]]
-- [[Transitions/Heel Hook]]
+- [[Submissions/Heel Hook]]
 - [[Submissions/Straight Ankle Lock]]
 - [[Submissions/Toe Hold]]
 - [[Submissions/Calf Slicer]]

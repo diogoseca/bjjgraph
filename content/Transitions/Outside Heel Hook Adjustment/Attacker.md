@@ -168,6 +168,43 @@ description: "How to execute Outside Heel Hook Adjustment in BJJ. Attacking pers
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Outside Heel Hook Adjustment (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Modified heel hook grip adjustment",
+      "description": "Outside Heel Hook Adjustment (Attacker) film study: Modified heel hook grip adjustment, taught by Andre Galvao.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/eODg9V29QXU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/eODg9V29QXU",
+      "url": "https://www.youtube.com/watch?v=eODg9V29QXU",
+      "creator": { "@type": "Person", "name": "Andre Galvao" },
+      "duration": "PT83S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "American heel hook finish detail",
+      "description": "Outside Heel Hook Adjustment (Attacker) film study: American heel hook finish detail, taught by bjjtaro.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/O7Dr2Ymq3PQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/O7Dr2Ymq3PQ",
+      "url": "https://www.youtube.com/watch?v=O7Dr2Ymq3PQ",
+      "creator": { "@type": "Person", "name": "bjjtaro" },
+      "duration": "PT11S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -181,6 +218,34 @@ Successful attackers develop sensitivity for the defender's grip fighting rhythm
 **From Position**: [[Positions/Ashi Garami/Ushiro Ashi-Garami]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Outside Heel Hook Adjustment (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=eODg9V29QXU)
+
+<p class="clip-credit"><strong>Modified heel hook grip adjustment</strong> — taught by Andre Galvao · 1:23 · <a href="https://www.youtube.com/watch?v=eODg9V29QXU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=O7Dr2Ymq3PQ)
+
+<p class="clip-credit"><strong>American heel hook finish detail</strong> — taught by bjjtaro · 0:11 · <a href="https://www.youtube.com/watch?v=O7Dr2Ymq3PQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 
@@ -234,7 +299,7 @@ Successful attackers develop sensitivity for the defender's grip fighting rhythm
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Transitions/Outside Heel Hook]] | 55% |
+| Success | [[Outside Heel Hook from Ushiro Ashi-Garami]] | 55% |
 | Failure | [[Positions/Ashi Garami/Ushiro Ashi-Garami]] | 30% |
 | Counter | [[Positions/Ashi Garami/Inside Ashi-Garami]] | 15% |
 
@@ -250,7 +315,7 @@ Successful attackers develop sensitivity for the defender's grip fighting rhythm
 - **Boot defense (dorsiflexing foot and pointing toes toward shin to hide heel)** (Effectiveness: High) - Your Response: Use your forearm to apply pressure behind their calf, forcing their heel to pop out. If boot is strong, transition to ankle lock or saddle position. → Leads to [[Positions/Ashi Garami/Ushiro Ashi-Garami]]
 - **Accelerated inversion to turtle, completing rotation before adjustment finishes** (Effectiveness: Medium) - Your Response: Follow to back control rather than forcing the heel hook. The back take is often higher percentage than fighting a committed rotation. → Leads to [[Positions/Ashi Garami/Ushiro Ashi-Garami]]
 - **Counter-entanglement by attacking your exposed legs during the grip transition** (Effectiveness: Medium) - Your Response: Maintain outside leg pressure on their free leg throughout adjustment. If they achieve inside position, address their entanglement before continuing. → Leads to [[Positions/Ashi Garami/Inside Ashi-Garami]]
-- **Straightening the trapped leg to reduce rotational pressure on knee** (Effectiveness: Low) - Your Response: Straight leg actually makes heel hook more dangerous. Squeeze knees tighter to prevent full extension and finish with standard mechanics. → Leads to [[Transitions/Outside Heel Hook]]
+- **Straightening the trapped leg to reduce rotational pressure on knee** (Effectiveness: Low) - Your Response: Straight leg actually makes heel hook more dangerous. Squeeze knees tighter to prevent full extension and finish with standard mechanics. → Leads to [[Outside Heel Hook from Ushiro Ashi-Garami]]
 
 
 </section>

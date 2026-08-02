@@ -34,6 +34,43 @@ description: "Master the recovery from a failed sweep in BJJ. Convert unsuccessf
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Recovery from Failed Sweep \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Single leg reversal off a failed attack",
+      "description": "Recovery from Failed Sweep film study: Single leg reversal off a failed attack, taught by Foundation Chicago.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/GC0tdc01ASI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/GC0tdc01ASI",
+      "url": "https://www.youtube.com/watch?v=GC0tdc01ASI",
+      "creator": { "@type": "Person", "name": "Foundation Chicago" },
+      "duration": "PT44S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Single leg reversal from turtle",
+      "description": "Recovery from Failed Sweep film study: Single leg reversal from turtle, taught by Brian.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/495HaYBg-mY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/495HaYBg-mY",
+      "url": "https://www.youtube.com/watch?v=495HaYBg-mY",
+      "creator": { "@type": "Person", "name": "Brian" },
+      "duration": "PT36S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +106,34 @@ The scramble from failed sweep also serves as a critical mental framework. Pract
 **Success Rate**: 50%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Recovery from Failed Sweep in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=GC0tdc01ASI)
+
+<p class="clip-credit"><strong>Single leg reversal off a failed attack</strong> — taught by Foundation Chicago · 0:44 · <a href="https://www.youtube.com/watch?v=GC0tdc01ASI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=495HaYBg-mY)
+
+<p class="clip-credit"><strong>Single leg reversal from turtle</strong> — taught by Brian · 0:36 · <a href="https://www.youtube.com/watch?v=495HaYBg-mY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

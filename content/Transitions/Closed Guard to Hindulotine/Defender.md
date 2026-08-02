@@ -127,6 +127,54 @@ description: "How to defend the Hindulotine entry from closed guard. Recognize t
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Closed Guard to Hindulotine (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Guillotine escape from closed guard to side control",
+      "description": "Closed Guard to Hindulotine (Defender) film study: Guillotine escape from closed guard to side control, taught by Street Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/lvjRNWzKMPc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/lvjRNWzKMPc",
+      "url": "https://www.youtube.com/watch?v=lvjRNWzKMPc",
+      "creator": { "@type": "Person", "name": "Street Jitsu" },
+      "duration": "PT27S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Gordon Ryan breaks down the guillotine escape",
+      "description": "Closed Guard to Hindulotine (Defender) film study: Gordon Ryan breaks down the guillotine escape, taught by Gordon Ryan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/aHRDKmcZCEE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/aHRDKmcZCEE",
+      "url": "https://www.youtube.com/watch?v=aHRDKmcZCEE",
+      "creator": { "@type": "Person", "name": "Gordon Ryan" },
+      "duration": "PT98S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Worst case guillotine scenario defense",
+      "description": "Closed Guard to Hindulotine (Defender) film study: Worst case guillotine scenario defense, taught by Malachy Friedman.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/PYiD6UjqMTw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/PYiD6UjqMTw",
+      "url": "https://www.youtube.com/watch?v=PYiD6UjqMTw",
+      "creator": { "@type": "Person", "name": "Malachy Friedman" },
+      "duration": "PT108S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <aside class="entity-relations">
@@ -143,6 +191,42 @@ The most important strategic point is timing. Defending before the hips clear is
 **Opponent's Starting Position**: [[Positions/Closed Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Closed Guard to Hindulotine (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=lvjRNWzKMPc)
+
+<p class="clip-credit"><strong>Guillotine escape from closed guard to side control</strong> — taught by Street Jitsu · 0:27 · <a href="https://www.youtube.com/watch?v=lvjRNWzKMPc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=aHRDKmcZCEE)
+
+<p class="clip-credit"><strong>Gordon Ryan breaks down the guillotine escape</strong> — taught by Gordon Ryan · 1:38 · <a href="https://www.youtube.com/watch?v=aHRDKmcZCEE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=PYiD6UjqMTw)
+
+<p class="clip-credit"><strong>Worst case guillotine scenario defense</strong> — taught by Malachy Friedman · 1:48 · <a href="https://www.youtube.com/watch?v=PYiD6UjqMTw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

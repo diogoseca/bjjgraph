@@ -21,37 +21,37 @@ description: "Master Single Leg X-Guard Top in BJJ. Control, pass, and attack fr
     {
       "@type": "HowToStep",
       "name": "Execute Headquarters Pass",
-      "text": "From this position, attempt Headquarters Pass. This technique is attempted in 14% of exchanges from this position.",
+      "text": "From this position, attempt Headquarters Pass. This technique is attempted in 11% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Knee Slice Pass",
-      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 12% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Leg Weave Pass",
-      "text": "From this position, attempt Leg Weave Pass. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Leg Weave Pass. This technique is attempted in 7% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Standing up in Base",
-      "text": "From this position, attempt Standing up in Base. This technique is attempted in 27% of exchanges from this position.",
+      "name": "Execute Smash Pass",
+      "text": "From this position, attempt Smash Pass. This technique is attempted in 8% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Smash Pass",
-      "text": "From this position, attempt Smash Pass. This technique is attempted in 10% of exchanges from this position.",
+      "name": "Execute Kneebar from Single Leg X-Guard",
+      "text": "From this position, attempt Kneebar from Single Leg X-Guard. This technique is attempted in 7% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Kneebar from Single Leg X-Guard",
-      "text": "From this position, attempt Kneebar from Single Leg X-Guard. This technique is attempted in 10% of exchanges from this position.",
+      "name": "Execute Backstep from Single Leg X",
+      "text": "From this position, attempt Backstep from Single Leg X. This technique is attempted in 24% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -153,6 +153,54 @@ description: "Master Single Leg X-Guard Top in BJJ. Control, pass, and attack fr
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Single Leg X-Guard (Top) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Single Leg X sweep defense (no-gi)",
+      "description": "Single Leg X-Guard (Top) film study: Single Leg X sweep defense (no-gi), taught by Tiger Muay Thai.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/gwEmeb9RSk4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/gwEmeb9RSk4",
+      "url": "https://www.youtube.com/watch?v=gwEmeb9RSk4",
+      "creator": { "@type": "Person", "name": "Tiger Muay Thai" },
+      "duration": "PT227S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Single Leg X sweep defense: forcing a back step pass",
+      "description": "Single Leg X-Guard (Top) film study: Single Leg X sweep defense: forcing a back step pass, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/FAlfIHm3Vqg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/FAlfIHm3Vqg",
+      "url": "https://www.youtube.com/watch?v=FAlfIHm3Vqg",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT205S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Passing Single Leg X",
+      "description": "Single Leg X-Guard (Top) film study: Passing Single Leg X, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/XzILYmERAV8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/XzILYmERAV8",
+      "url": "https://www.youtube.com/watch?v=XzILYmERAV8",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT453S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -160,6 +208,42 @@ description: "Master Single Leg X-Guard Top in BJJ. Control, pass, and attack fr
 Single Leg X-Guard Top represents the controlling position when facing an opponent who has established Single Leg X Guard on you. From this position, the top player must navigate the complexities of leg entanglement defense while maintaining balance and working toward passing opportunities. The position requires understanding proper base mechanics, strategic weight distribution, and systematic approaches to neutralizing the bottom player's sweeping threats. Unlike many guard passing scenarios, SLX Top demands specific technical responses due to the nature of the leg entanglement and the powerful sweeping mechanics available from the bottom position. The modern game has evolved significantly in how top players approach this position, with systematic methods emerging from elite competitors. The key to success lies in understanding the hierarchy of controls—managing the opponent's grips, maintaining proper base alignment, and creating passing opportunities through strategic pressure application. Top players must be aware of the constant threat of sweeps, leg attacks, and transitions to other guard systems, making this position both technically demanding and strategically complex. Successful navigation of SLX Top position requires balancing defensive awareness with offensive intent. The top player must simultaneously defend against immediate sweeping threats while advancing their position toward guard passing or securing dominant control. This dual mandate makes Single Leg X-Guard Top a critical position in the modern BJJ game, particularly in no-gi competition where leg entanglements play a central role in contemporary strategy.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Single Leg X-Guard (Top) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=gwEmeb9RSk4)
+
+<p class="clip-credit"><strong>Single Leg X sweep defense (no-gi)</strong> — taught by Tiger Muay Thai · 3:47 · <a href="https://www.youtube.com/watch?v=gwEmeb9RSk4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=FAlfIHm3Vqg)
+
+<p class="clip-credit"><strong>Single Leg X sweep defense: forcing a back step pass</strong> — taught by Lachlan Giles · 3:25 · <a href="https://www.youtube.com/watch?v=FAlfIHm3Vqg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=XzILYmERAV8)
+
+<p class="clip-credit"><strong>Passing Single Leg X</strong> — taught by Lachlan Giles · 7:33 · <a href="https://www.youtube.com/watch?v=XzILYmERAV8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

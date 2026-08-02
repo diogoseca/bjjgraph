@@ -34,6 +34,43 @@ description: "Master the Standing Escape from X-Guard in BJJ. Systematic techniq
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Standing Escape from X-Guard \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Single leg X guard escapes and footlock counters",
+      "description": "Standing Escape from X-Guard film study: Single leg X guard escapes and footlock counters, taught by James O\u0027Connor.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/JSOM86_1lRo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/JSOM86_1lRo",
+      "url": "https://www.youtube.com/watch?v=JSOM86_1lRo",
+      "creator": { "@type": "Person", "name": "James O\u0027Connor" },
+      "duration": "PT111S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "How to Pass X-Guard",
+      "description": "Standing Escape from X-Guard film study: How to Pass X-Guard, taught by Kaynan Duarte.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/C1lYVhDXwvw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/C1lYVhDXwvw",
+      "url": "https://www.youtube.com/watch?v=C1lYVhDXwvw",
+      "creator": { "@type": "Person", "name": "Kaynan Duarte" },
+      "duration": "PT116S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +106,34 @@ Strategically, this escape serves as the primary reset option when standard pass
 **Success Rate**: 55%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Standing Escape from X-Guard in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=JSOM86_1lRo)
+
+<p class="clip-credit"><strong>Single leg X guard escapes and footlock counters</strong> — taught by James O&#39;Connor · 1:51 · <a href="https://www.youtube.com/watch?v=JSOM86_1lRo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=C1lYVhDXwvw)
+
+<p class="clip-credit"><strong>How to Pass X-Guard</strong> — taught by Kaynan Duarte · 1:56 · <a href="https://www.youtube.com/watch?v=C1lYVhDXwvw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 
@@ -255,7 +320,7 @@ The Standing Escape from X-Guard functions as a critical safety valve within the
 
 - [[Transitions/Half Guard to X-Guard]] - Reverse transition showing common pathway into X-Guard that this escape undoes
 
-- [[Transitions/Heel Hook]] - Submission threat the bottom player may pursue via ashi garami entry during failed escape, creating urgency to complete extraction
+- [[Submissions/Heel Hook]] - Submission threat the bottom player may pursue via ashi garami entry during failed escape, creating urgency to complete extraction
 
 - [[Positions/Combat Base]] - Intermediate base position that may be used during controlled extraction from X-Guard
 

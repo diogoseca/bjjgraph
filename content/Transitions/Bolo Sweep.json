@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Back Control/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "De La Riva Guard/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "De La Riva Guard/Top",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "The Bolo Sweep, short for Berimbolo, is one of the most revolutionary techniques in modern Brazilian Jiu-Jitsu, fundamentally transforming how practitioners approach the De La Riva guard. This dynamic sweeping technique utilizes rotation and inversion to destabilize opponents while simultaneously creating opportunities to take the back. The movement combines elements of traditional sweeping mechanics with gymnastic-style inversion, making it particularly effective against standing opponents who base heavily on their De La Riva-hooked leg. The technique's effectiveness lies in its ability to create a rotational force that opponents cannot easily counter without risking being swept or having their back taken.\n\nWhat makes the Bolo particularly powerful is its scalability - it can be executed as a pure sweep to off-balance and reverse positions, or it can seamlessly transition into back-taking sequences when the opponent attempts to defend the initial sweep. The technique has become a cornerstone of modern sport BJJ competition, particularly in the lighter weight divisions where flexibility and speed can be maximized. The Bolo creates a dilemma structure where defending the sweep exposes the back and defending the back take opens the sweep, forcing opponents into reactive decision-making under rotational pressure.",
   "related_content": [
     {
@@ -209,46 +221,175 @@
     "flashcards": [
       {
         "question": "What is the primary control mechanism that must be maintained throughout the Bolo rotation and why?",
-        "answer": "The De La Riva hook on the opponent's far leg must be maintained throughout the entire rotation. This hook serves as the steering mechanism that guides your body along the correct rotational path underneath the opponent, prevents them from stepping away or disengaging during the inversion, and creates the leverage that powers the sweep. Releasing this hook prematurely eliminates the rotational force vector and leaves you inverted with no connection, making you vulnerable to passing."
+        "answer": "The De La Riva hook on the opponent's far leg must be maintained throughout the entire rotation. This hook serves as the steering mechanism that guides your body along the correct rotational path underneath the opponent, prevents them from stepping away or disengaging during the inversion, and creates the leverage that powers the sweep. Releasing this hook prematurely eliminates the rotational force vector and leaves you inverted with no connection, making you vulnerable to passing.",
+        "answer_line": "Keep the DLR hook locked in",
+        "distractors": {
+          "plausible": [
+            "Keep pulling the collar grip",
+            "Control opponent's near arm"
+          ],
+          "trap": [
+            "Release hook, grab both legs"
+          ]
+        }
       },
       {
         "question": "Your opponent posts their far hand on the mat as you begin inverting for the Bolo - how do you adjust?",
-        "answer": "When the opponent posts their hand, they anchor themselves to resist the forward pulling force but simultaneously commit their weight to that posted point. You can continue your rotation toward the posted arm side, effectively transitioning to Kiss of the Dragon mechanics where their anchored position becomes a pivot point you spin around. Alternatively, the posted arm opens their upper body for triangle or omoplata setups if you redirect your attack. The key is recognizing that their posted hand creates a predictable position you can exploit rather than an obstacle that stops your attack."
+        "answer": "When the opponent posts their hand, they anchor themselves to resist the forward pulling force but simultaneously commit their weight to that posted point. You can continue your rotation toward the posted arm side, effectively transitioning to Kiss of the Dragon mechanics where their anchored position becomes a pivot point you spin around. Alternatively, the posted arm opens their upper body for triangle or omoplata setups if you redirect your attack. The key is recognizing that their posted hand creates a predictable position you can exploit rather than an obstacle that stops your attack.",
+        "answer_line": "Rotate toward the posted arm",
+        "distractors": {
+          "plausible": [
+            "Switch attack to opposite side",
+            "Pull harder to break the post"
+          ],
+          "trap": [
+            "Stop rotation and restart entry"
+          ]
+        }
       },
       {
         "question": "What angle must be established before initiating the inversion, and what happens if you skip this step?",
-        "answer": "You must create a 30-45 degree angle by pulling the opponent forward and laterally using your collar or sleeve grip while extending the De La Riva hook. This displaces their weight onto the hooked leg and opens the spatial channel for your rotation. Skipping this step means attempting to invert against a centered, balanced opponent whose base blocks your rotation path. You end up stuck underneath with no leverage, exposed to smash passing or leg attacks, and unable to complete the technique."
+        "answer": "You must create a 30-45 degree angle by pulling the opponent forward and laterally using your collar or sleeve grip while extending the De La Riva hook. This displaces their weight onto the hooked leg and opens the spatial channel for your rotation. Skipping this step means attempting to invert against a centered, balanced opponent whose base blocks your rotation path. You end up stuck underneath with no leverage, exposed to smash passing or leg attacks, and unable to complete the technique.",
+        "answer_line": "Establish 30-45° angle first",
+        "distractors": {
+          "plausible": [
+            "Pull straight back, then angle",
+            "Angle out mid-rotation instead"
+          ],
+          "trap": [
+            "Invert immediately, no setup"
+          ]
+        }
       },
       {
         "question": "How do you decide between finishing with a sweep to top position versus taking the back during the Bolo?",
-        "answer": "The decision is made in real-time based on the opponent's defensive reaction as you emerge from the rotation. If they base heavily with their hands on the mat or drive their weight forward to prevent being swept, their back becomes exposed for climbing onto back control with seatbelt and hooks. If they turn away or turtle to protect their back, their weight displacement makes them vulnerable to being completed as a traditional sweep to top position. Advanced practitioners develop the sensitivity to read these reactions mid-rotation and select the appropriate finish before the rotation is fully completed."
+        "answer": "The decision is made in real-time based on the opponent's defensive reaction as you emerge from the rotation. If they base heavily with their hands on the mat or drive their weight forward to prevent being swept, their back becomes exposed for climbing onto back control with seatbelt and hooks. If they turn away or turtle to protect their back, their weight displacement makes them vulnerable to being completed as a traditional sweep to top position. Advanced practitioners develop the sensitivity to read these reactions mid-rotation and select the appropriate finish before the rotation is fully completed.",
+        "answer_line": "Read their reaction, then choose",
+        "distractors": {
+          "plausible": [
+            "Always finish as a sweep",
+            "Always climb to take the back"
+          ],
+          "trap": [
+            "Commit to sweep, ignore base"
+          ]
+        }
       },
       {
         "question": "What is the optimal timing window for initiating the Bolo relative to your opponent's weight distribution?",
-        "answer": "The optimal window occurs when the opponent's weight is committed forward over the De La Riva-hooked leg. This forward loading means the rotational force of the Bolo amplifies their existing displacement rather than fighting against it. The best practitioners provoke this forward commitment through active hook pulling and grip tension that forces the opponent to lean forward to maintain balance, then immediately capitalize on that weight shift to begin the inversion. Initiating against a rearward-weighted opponent forces you to overcome their entire base structure."
+        "answer": "The optimal window occurs when the opponent's weight is committed forward over the De La Riva-hooked leg. This forward loading means the rotational force of the Bolo amplifies their existing displacement rather than fighting against it. The best practitioners provoke this forward commitment through active hook pulling and grip tension that forces the opponent to lean forward to maintain balance, then immediately capitalize on that weight shift to begin the inversion. Initiating against a rearward-weighted opponent forces you to overcome their entire base structure.",
+        "answer_line": "When their weight loads forward",
+        "distractors": {
+          "plausible": [
+            "When weight shifts backward",
+            "As soon as hook is in"
+          ],
+          "trap": [
+            "Wait for them to posture up tall"
+          ]
+        }
       },
       {
         "question": "Your opponent steps over your inverting body with their free leg during the Bolo - what are your options?",
-        "answer": "When the opponent steps over, immediately hook that stepping leg with your free leg and transition to X-Guard or Single Leg X-Guard position. Their stepping motion carries forward momentum that you can redirect into a backward off-balance by elevating the hooked stepping leg. This converts their defensive reaction into a new attacking opportunity from a different guard system. The key is recognizing the step-over early and reacting immediately rather than trying to force the original Bolo rotation against an opponent who has already bypassed your inversion path."
+        "answer": "When the opponent steps over, immediately hook that stepping leg with your free leg and transition to X-Guard or Single Leg X-Guard position. Their stepping motion carries forward momentum that you can redirect into a backward off-balance by elevating the hooked stepping leg. This converts their defensive reaction into a new attacking opportunity from a different guard system. The key is recognizing the step-over early and reacting immediately rather than trying to force the original Bolo rotation against an opponent who has already bypassed your inversion path.",
+        "answer_line": "Hook that leg, enter X-Guard",
+        "distractors": {
+          "plausible": [
+            "Force the original Bolo spin",
+            "Release grips and reset guard"
+          ],
+          "trap": [
+            "Let them pass, retreat to half"
+          ]
+        }
       },
       {
         "question": "Why must you commit fully to the Bolo rotation rather than pausing to assess mid-movement?",
-        "answer": "The Bolo generates its effectiveness through continuous rotational momentum that overwhelms the opponent's ability to react. Pausing at any point during the inversion leaves you in an inherently unstable position - inverted underneath the opponent with no established guard and no completed sweep. This stalled position is vulnerable to smash passing, leg attacks, and being pinned on your shoulders. The technique must be executed as one explosive, continuous motion. If the rotation stalls due to opponent resistance, immediately transition to a recognized guard position like X-Guard rather than trying to restart the stopped rotation."
+        "answer": "The Bolo generates its effectiveness through continuous rotational momentum that overwhelms the opponent's ability to react. Pausing at any point during the inversion leaves you in an inherently unstable position - inverted underneath the opponent with no established guard and no completed sweep. This stalled position is vulnerable to smash passing, leg attacks, and being pinned on your shoulders. The technique must be executed as one explosive, continuous motion. If the rotation stalls due to opponent resistance, immediately transition to a recognized guard position like X-Guard rather than trying to restart the stopped rotation.",
+        "answer_line": "One continuous explosive motion",
+        "distractors": {
+          "plausible": [
+            "Pause to check grips mid-spin",
+            "Slow down for tighter control"
+          ],
+          "trap": [
+            "Stop and restart the rotation"
+          ]
+        }
       },
       {
         "question": "How does the Bolo create a dilemma structure that makes it more effective than single-threat sweeps?",
-        "answer": "The Bolo forces the opponent to choose between defending the sweep and defending the back take, and each defensive choice opens the other attack. Basing heavily with the hands to prevent being swept pulls their shoulders forward and exposes their back for climbing. Turning away to protect the back shifts their weight laterally and makes the sweep completion high-percentage. This two-outcome attack means the opponent cannot neutralize both threats simultaneously. Single-threat sweeps allow the opponent to focus all defensive resources on one outcome, while the Bolo splits their attention between two equally dangerous possibilities."
+        "answer": "The Bolo forces the opponent to choose between defending the sweep and defending the back take, and each defensive choice opens the other attack. Basing heavily with the hands to prevent being swept pulls their shoulders forward and exposes their back for climbing. Turning away to protect the back shifts their weight laterally and makes the sweep completion high-percentage. This two-outcome attack means the opponent cannot neutralize both threats simultaneously. Single-threat sweeps allow the opponent to focus all defensive resources on one outcome, while the Bolo splits their attention between two equally dangerous possibilities.",
+        "answer_line": "Basing exposes back, turning sweeps",
+        "distractors": {
+          "plausible": [
+            "It only threatens the sweep",
+            "It only threatens the back take"
+          ],
+          "trap": [
+            "Opponent can defend both at once"
+          ]
+        }
       },
       {
         "question": "What grip adjustments differentiate the Bolo from the standard Berimbolo Entry technique?",
-        "answer": "The Bolo Sweep and Berimbolo Entry share the same mechanical family but differ primarily in initial grip configuration and finishing emphasis. The Bolo typically uses a collar grip or same-side sleeve grip for the initial pull, emphasizing the sweep-to-back-take duality from the De La Riva position. The standard Berimbolo Entry often uses a far hip or belt grip as the primary pulling mechanism, which provides a stronger connection during the inversion but requires closer initial proximity. The Bolo's collar grip allows it to function at slightly longer range and creates a more natural transition into sweep-finishing mechanics, while the Berimbolo Entry's hip grip produces a more direct path to back control. Both techniques share the fundamental rotational mechanic and De La Riva hook requirement."
+        "answer": "The Bolo Sweep and Berimbolo Entry share the same mechanical family but differ primarily in initial grip configuration and finishing emphasis. The Bolo typically uses a collar grip or same-side sleeve grip for the initial pull, emphasizing the sweep-to-back-take duality from the De La Riva position. The standard Berimbolo Entry often uses a far hip or belt grip as the primary pulling mechanism, which provides a stronger connection during the inversion but requires closer initial proximity. The Bolo's collar grip allows it to function at slightly longer range and creates a more natural transition into sweep-finishing mechanics, while the Berimbolo Entry's hip grip produces a more direct path to back control. Both techniques share the fundamental rotational mechanic and De La Riva hook requirement.",
+        "answer_line": "Collar/sleeve grip vs hip/belt grip",
+        "distractors": {
+          "plausible": [
+            "Bolo uses no upper body grip",
+            "Berimbolo uses the collar grip"
+          ],
+          "trap": [
+            "Grip choice is interchangeable"
+          ]
+        }
       },
       {
         "question": "During live sparring, your Bolo rotation stalls at approximately 90 degrees because your opponent sprawled their weight forward - what chain attacks are available?",
-        "answer": "At 90 degrees of partial rotation, several viable chain attacks exist. The highest percentage option is transitioning to X-Guard by threading your bottom leg as an X-hook while your top leg maintains the DLR hook, creating an immediate elevation sweep threat. Second, you can establish Single Leg X-Guard by controlling the near leg for a simpler sweeping position. Third, you can redirect momentum into a Kiss of the Dragon by releasing the hook and spinning through to the far side. The critical principle is never remaining static at 90 degrees, as this position is inherently unstable and vulnerable. Always convert partial rotation into a recognized guard position or redirect into an alternative attack chain."
+        "answer": "At 90 degrees of partial rotation, several viable chain attacks exist. The highest percentage option is transitioning to X-Guard by threading your bottom leg as an X-hook while your top leg maintains the DLR hook, creating an immediate elevation sweep threat. Second, you can establish Single Leg X-Guard by controlling the near leg for a simpler sweeping position. Third, you can redirect momentum into a Kiss of the Dragon by releasing the hook and spinning through to the far side. The critical principle is never remaining static at 90 degrees, as this position is inherently unstable and vulnerable. Always convert partial rotation into a recognized guard position or redirect into an alternative attack chain.",
+        "answer_line": "Thread into X-Guard immediately",
+        "distractors": {
+          "plausible": [
+            "Force the stalled rotation through",
+            "Wait to see what they do next"
+          ],
+          "trap": [
+            "Hold static at 90 degrees"
+          ]
+        }
       }
     ],
-    "safety_considerations": "The Bolo requires significant spinal flexibility and inversion ability, making progressive warm-up of the neck, shoulders, and thoracic spine essential before training. Practitioners should develop neck strength and inversion comfort through solo forward and backward rolling drills before attempting the technique with a partner. Ensure adequate mat space since the rotation can carry both practitioners several feet from the starting position. Partners should never post hands directly on the inverting practitioner's head or neck during drilling, as this can cause cervical spine compression. Beginners must practice the inversion mechanics slowly with fully cooperative partners before adding any resistance. Those with pre-existing neck, back, or shoulder injuries should consult a medical professional before training this technique. In competition, be aware of IBJJF rules regarding slamming from inversions."
+    "safety_considerations": "The Bolo requires significant spinal flexibility and inversion ability, making progressive warm-up of the neck, shoulders, and thoracic spine essential before training. Practitioners should develop neck strength and inversion comfort through solo forward and backward rolling drills before attempting the technique with a partner. Ensure adequate mat space since the rotation can carry both practitioners several feet from the starting position. Partners should never post hands directly on the inverting practitioner's head or neck during drilling, as this can cause cervical spine compression. Beginners must practice the inversion mechanics slowly with fully cooperative partners before adding any resistance. Those with pre-existing neck, back, or shoulder injuries should consult a medical professional before training this technique. In competition, be aware of IBJJF rules regarding slamming from inversions.",
+    "clips": [
+      {
+        "id": "vG_QHqUZPbc",
+        "title": "No-gi De La Riva sweep demonstration",
+        "by": "James Fisher",
+        "vertical": false,
+        "channel": "James Fisher",
+        "duration": 62,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "pcOF-B4y09Q",
+        "title": "De La Riva sweep matrix — sweep options",
+        "by": "Unknown",
+        "vertical": false,
+        "channel": "FreeChannelOpen",
+        "duration": 36,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "0QnWhCtEkq4",
+        "title": "De La Riva guard sweep variation",
+        "by": "Bruno Lieberenz",
+        "vertical": false,
+        "channel": "Bruno Lieberenz",
+        "duration": 39,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Bolo Sweep Defender",
@@ -333,23 +474,73 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that a Bolo Sweep is being set up from De La Riva guard?",
-        "answer": "The earliest cue is the attacker pulling aggressively with their collar or sleeve grip while simultaneously extending the De La Riva hook outward, creating a combined forward-and-lateral force on your base. This combined pull displaces your weight onto the hooked leg and creates the angular opening the attacker needs for inversion. Early detection is critical because the Bolo becomes exponentially harder to defend once the rotation has started. Before the inversion, you can strip grips, sit hips back, or backstep to remove the hook. Once the attacker is spinning underneath, your defensive options narrow significantly."
+        "answer": "The earliest cue is the attacker pulling aggressively with their collar or sleeve grip while simultaneously extending the De La Riva hook outward, creating a combined forward-and-lateral force on your base. This combined pull displaces your weight onto the hooked leg and creates the angular opening the attacker needs for inversion. Early detection is critical because the Bolo becomes exponentially harder to defend once the rotation has started. Before the inversion, you can strip grips, sit hips back, or backstep to remove the hook. Once the attacker is spinning underneath, your defensive options narrow significantly.",
+        "answer_line": "Grip pull plus DLR hook extend",
+        "distractors": {
+          "plausible": [
+            "Opponent simply grips your collar",
+            "A sudden hip escape motion"
+          ],
+          "trap": [
+            "Wait until fully inverted to react"
+          ]
+        }
       },
       {
         "question": "Why is stripping the upper body grip typically more important than removing the De La Riva hook when defending the Bolo?",
-        "answer": "The collar or sleeve grip provides the forward pulling force that initiates the rotation and displaces your weight onto the hooked leg. Without this grip, the attacker cannot pull your shoulders down and forward to create the angular displacement needed for inversion entry. The De La Riva hook alone primarily functions as a guard retention and off-balancing tool, but it cannot generate the combined forward-and-lateral force required for the Bolo's rotational mechanics. Stripping the upper body grip neutralizes the Bolo threat immediately while leaving the attacker in basic De La Riva guard, whereas removing only the hook still leaves them with a pulling grip that can redirect into Kiss of the Dragon or other inversion entries."
+        "answer": "The collar or sleeve grip provides the forward pulling force that initiates the rotation and displaces your weight onto the hooked leg. Without this grip, the attacker cannot pull your shoulders down and forward to create the angular displacement needed for inversion entry. The De La Riva hook alone primarily functions as a guard retention and off-balancing tool, but it cannot generate the combined forward-and-lateral force required for the Bolo's rotational mechanics. Stripping the upper body grip neutralizes the Bolo threat immediately while leaving the attacker in basic De La Riva guard, whereas removing only the hook still leaves them with a pulling grip that can redirect into Kiss of the Dragon or other inversion entries.",
+        "answer_line": "Grip drives the pull - strip it",
+        "distractors": {
+          "plausible": [
+            "Remove the DLR hook first",
+            "Both equally urgent to strip"
+          ],
+          "trap": [
+            "Ignore the grip, fight the hook"
+          ]
+        }
       },
       {
         "question": "Your opponent begins their Bolo rotation and is approximately halfway through the spin underneath you - what is your highest percentage response?",
-        "answer": "At the halfway point, the highest percentage response is to drive your hips forward and down aggressively while counter-rotating to follow the direction of their spin. This combination collapses the space the attacker needs to complete the rotation and keeps your chest facing their body to prevent back exposure. Pure counter-rotation without forward pressure allows them to continue spinning, and pure forward pressure without turning can expose your back if they redirect. The combination of both movements simultaneously is what makes this defense effective. Upon successfully stopping the rotation, immediately transition to a passing sequence rather than resetting to neutral."
+        "answer": "At the halfway point, the highest percentage response is to drive your hips forward and down aggressively while counter-rotating to follow the direction of their spin. This combination collapses the space the attacker needs to complete the rotation and keeps your chest facing their body to prevent back exposure. Pure counter-rotation without forward pressure allows them to continue spinning, and pure forward pressure without turning can expose your back if they redirect. The combination of both movements simultaneously is what makes this defense effective. Upon successfully stopping the rotation, immediately transition to a passing sequence rather than resetting to neutral.",
+        "answer_line": "Drive hips down, counter-rotate",
+        "distractors": {
+          "plausible": [
+            "Counter-rotate without pressure",
+            "Drive forward without turning"
+          ],
+          "trap": [
+            "Sit hips back to create space"
+          ]
+        }
       },
       {
         "question": "How should your defensive response change when facing a Kiss of the Dragon combination versus a standard Bolo?",
-        "answer": "The Kiss of the Dragon attacks from the opposite direction - the attacker releases the DLR hook and spins through to the far side rather than rotating around the hooked leg. Against the standard Bolo, sitting your hips back denies forward weight loading and is an effective early defense. Against Kiss of the Dragon, sitting back actually creates more space for the attacker to spin through underneath you. The correct defense against Kiss of the Dragon is to drive forward with pressure and close distance to prevent the spin-through, and to protect the far side of your back since the attack vector is reversed. Recognizing which direction the attacker is rotating determines your entire defensive approach."
+        "answer": "The Kiss of the Dragon attacks from the opposite direction - the attacker releases the DLR hook and spins through to the far side rather than rotating around the hooked leg. Against the standard Bolo, sitting your hips back denies forward weight loading and is an effective early defense. Against Kiss of the Dragon, sitting back actually creates more space for the attacker to spin through underneath you. The correct defense against Kiss of the Dragon is to drive forward with pressure and close distance to prevent the spin-through, and to protect the far side of your back since the attack vector is reversed. Recognizing which direction the attacker is rotating determines your entire defensive approach.",
+        "answer_line": "Drive forward, not hips back",
+        "distractors": {
+          "plausible": [
+            "Protect the near side, not far",
+            "Counter-rotate around the DLR hook"
+          ],
+          "trap": [
+            "Sit hips back to open space"
+          ]
+        }
       },
       {
         "question": "What passing opportunities become available after successfully defending a committed Bolo attempt?",
-        "answer": "A failed Bolo leaves the attacker in a compromised guard position - partially inverted, with disrupted hip position and potentially broken grips. Immediate passing opportunities include smash passing over their flattened hips to side control, leg drag passing by controlling the legs that are displaced from the failed inversion, toreando passing while they are still recovering guard structure, and backstep passing to the opposite side of their compromised DLR hook. The critical principle is to attack the pass immediately rather than allowing them to recover to standard De La Riva guard. The 2-3 second window after a failed Bolo represents the highest percentage passing opportunity from the De La Riva engagement."
+        "answer": "A failed Bolo leaves the attacker in a compromised guard position - partially inverted, with disrupted hip position and potentially broken grips. Immediate passing opportunities include smash passing over their flattened hips to side control, leg drag passing by controlling the legs that are displaced from the failed inversion, toreando passing while they are still recovering guard structure, and backstep passing to the opposite side of their compromised DLR hook. The critical principle is to attack the pass immediately rather than allowing them to recover to standard De La Riva guard. The 2-3 second window after a failed Bolo represents the highest percentage passing opportunity from the De La Riva engagement.",
+        "answer_line": "Attack pass in the 2-3s window",
+        "distractors": {
+          "plausible": [
+            "Reset to neutral and restart",
+            "Secure a grip before moving"
+          ],
+          "trap": [
+            "Let them rebuild full guard"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -372,6 +563,35 @@
         "phase": "Week 9+: Live Integration and Counter-Attacking",
         "focus": "Full-speed defense with immediate guard passing after Bolo denial",
         "description": "Open positional sparring from De La Riva guard with full resistance. Partner uses complete DLR attack system including Bolo, Berimbolo Entry, Kiss of the Dragon, and standard sweeps. Focus on recognizing Bolo versus other DLR attacks and selecting appropriate defense. After successful Bolo defense, immediately transition to guard passing rather than resetting. Include rounds against multiple training partners with different DLR styles to develop universal pattern recognition."
+      }
+    ],
+    "clips": [
+      {
+        "id": "S5IKZijyNMc",
+        "title": "Guard pass shutting down De La Riva and berimbolo",
+        "by": "Augusto Frota",
+        "vertical": false,
+        "channel": "Gile23",
+        "duration": 51,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "bdD496w3erA",
+        "title": "De La Riva counter into back take",
+        "by": "Vicente Cavalcanti",
+        "vertical": false,
+        "channel": "VICENTE CAVALCANTI",
+        "duration": 56,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "QSZEm0Y0KIg",
+        "title": "Passing De La Riva with your pant controlled",
+        "by": "Alec Baulding",
+        "vertical": false,
+        "channel": "Alec Baulding",
+        "duration": 174,
+        "verified": "2026-07-15"
       }
     ]
   },

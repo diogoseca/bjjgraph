@@ -21,37 +21,37 @@ description: "Master bottom kneebar control in BJJ. Complete technical guide cov
     {
       "@type": "HowToStep",
       "name": "Execute Kneebar Finish",
-      "text": "From this position, attempt Kneebar Finish. This technique is attempted in 41% of exchanges from this position.",
+      "text": "From this position, attempt Kneebar Finish. This technique is attempted in 16% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Heel Hook from Kneebar Control",
-      "text": "From this position, attempt Heel Hook from Kneebar Control. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Heel Hook from Kneebar Control. This technique is attempted in 16% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Inside Ashi Entry",
-      "text": "From this position, attempt Inside Ashi Entry. This technique is attempted in 7% of exchanges from this position.",
+      "text": "From this position, attempt Inside Ashi Entry. This technique is attempted in 12% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Ankle Lock Finish",
-      "text": "From this position, attempt Ankle Lock Finish. This technique is attempted in 7% of exchanges from this position.",
+      "text": "From this position, attempt Ankle Lock Finish. This technique is attempted in 8% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Toe Hold from Kneebar Control",
-      "text": "From this position, attempt Toe Hold from Kneebar Control. This technique is attempted in 6% of exchanges from this position.",
+      "text": "From this position, attempt Toe Hold from Kneebar Control. This technique is attempted in 9% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Backside 50-50 Entry from Ashi",
-      "text": "From this position, attempt Backside 50-50 Entry from Ashi. This technique is attempted in 6% of exchanges from this position.",
+      "text": "From this position, attempt Backside 50-50 Entry from Ashi. This technique is attempted in 8% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -153,6 +153,54 @@ description: "Master bottom kneebar control in BJJ. Complete technical guide cov
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Kneebar Control (Bottom) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Roll Under to Backside 50/50",
+      "description": "Kneebar Control (Bottom) film study: Roll Under to Backside 50/50, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/DBbSqQf6iCo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/DBbSqQf6iCo",
+      "url": "https://www.youtube.com/watch?v=DBbSqQf6iCo",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT110S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Getting to Backside 50/50",
+      "description": "Kneebar Control (Bottom) film study: Getting to Backside 50/50, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ucAwPgTLSpQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ucAwPgTLSpQ",
+      "url": "https://www.youtube.com/watch?v=ucAwPgTLSpQ",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT121S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Knee Bar from Deep Half Guard",
+      "description": "Kneebar Control (Bottom) film study: Knee Bar from Deep Half Guard, taught by Miles Moudy.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ih_7aXNM6UU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ih_7aXNM6UU",
+      "url": "https://www.youtube.com/watch?v=ih_7aXNM6UU",
+      "creator": { "@type": "Person", "name": "Miles Moudy" },
+      "duration": "PT25S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -168,6 +216,42 @@ The main variations of bottom kneebar control include inside ashi garami (inside
 Defensively, the bottom practitioner must be aware that committing to a kneebar finish temporarily reduces their leg control, creating windows for the opponent to extract their leg or counter with their own attacks. Managing this risk-reward calculation based on the opponent's defensive skill level represents a crucial aspect of high-level leg lock games. The position also requires constant awareness of positional hierarchy - while leg locks can be powerful, giving up position to pursue them must be a calculated decision rather than a desperation move.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Kneebar Control (Bottom) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=DBbSqQf6iCo)
+
+<p class="clip-credit"><strong>Roll Under to Backside 50/50</strong> — taught by Lachlan Giles · 1:50 · <a href="https://www.youtube.com/watch?v=DBbSqQf6iCo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ucAwPgTLSpQ)
+
+<p class="clip-credit"><strong>Getting to Backside 50/50</strong> — taught by Lachlan Giles · 2:01 · <a href="https://www.youtube.com/watch?v=ucAwPgTLSpQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ih_7aXNM6UU)
+
+<p class="clip-credit"><strong>Knee Bar from Deep Half Guard</strong> — taught by Miles Moudy · 0:25 · <a href="https://www.youtube.com/watch?v=ih_7aXNM6UU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 
@@ -227,7 +311,7 @@ Defensively, the bottom practitioner must be aware that committing to a kneebar 
 
 **If opponent's leg becomes straightened and defensive posture breaks under pulling pressure:**
 - Execute **[[Transitions/Kneebar Finish/Attacker|Kneebar Finish]]** → [[game-over]] (Probability: 50%)
-- Execute **[[Transitions/Heel Hook/Attacker|Heel Hook]]** → [[game-over]] (Probability: 45%)
+- Execute **[[Submissions/Heel Hook/Attacker|Heel Hook]]** → [[game-over]] (Probability: 45%)
 
 
 **If opponent rotates hips away from kneebar pressure to defend knee joint:**

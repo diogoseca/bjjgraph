@@ -34,6 +34,43 @@ description: "Master the Counter Sweep from Outside Ashi-Garami in BJJ. Complete
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Counter Sweep from Outside Ashi \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Escaping outside ashi into a rolling back take",
+      "description": "Counter Sweep from Outside Ashi film study: Escaping outside ashi into a rolling back take, taught by Grapple Box coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/KmGhb2j68Ng/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/KmGhb2j68Ng",
+      "url": "https://www.youtube.com/watch?v=KmGhb2j68Ng",
+      "creator": { "@type": "Person", "name": "Grapple Box coach" },
+      "duration": "PT34S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Countering outside ashi by rolling to 50/50",
+      "description": "Counter Sweep from Outside Ashi film study: Countering outside ashi by rolling to 50/50, taught by Robyn Sheehan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/up34T04wt_U/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/up34T04wt_U",
+      "url": "https://www.youtube.com/watch?v=up34T04wt_U",
+      "creator": { "@type": "Person", "name": "Robyn Sheehan" },
+      "duration": "PT107S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +106,34 @@ Timing is the defining factor in this sweep's success rate. The sweep window ope
 **Success Rate**: 40%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Counter Sweep from Outside Ashi in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=KmGhb2j68Ng)
+
+<p class="clip-credit"><strong>Escaping outside ashi into a rolling back take</strong> — taught by Grapple Box coach · 0:34 · <a href="https://www.youtube.com/watch?v=KmGhb2j68Ng" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=up34T04wt_U)
+
+<p class="clip-credit"><strong>Countering outside ashi by rolling to 50/50</strong> — taught by Robyn Sheehan · 1:47 · <a href="https://www.youtube.com/watch?v=up34T04wt_U" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 
@@ -241,7 +306,7 @@ The Counter Sweep from Outside Ashi-Garami bridges the modern leg lock game with
 
 - [[Transitions/Ashi Garami Escape]] - Opponent's primary defensive technique that creates the sweep timing window
 
-- [[Transitions/Outside Heel Hook]] - Alternative submission attack from the same starting position when sweep conditions are absent
+- [[Submissions/Outside Heel Hook]] - Alternative submission attack from the same starting position when sweep conditions are absent
 
 - [[Positions/Ashi Garami/Inside Ashi-Garami]] - Related leg entanglement with different sweep angles and mechanics
 

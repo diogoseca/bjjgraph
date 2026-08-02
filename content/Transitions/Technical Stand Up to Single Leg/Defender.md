@@ -148,6 +148,54 @@ description: "How to defend the Technical Stand Up to Single Leg in BJJ. Recogni
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Technical Stand Up to Single Leg (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Single leg defense: sprawl and crunch",
+      "description": "Technical Stand Up to Single Leg (Defender) film study: Single leg defense: sprawl and crunch, taught by CMPTV coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/lygOlTN0GAU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/lygOlTN0GAU",
+      "url": "https://www.youtube.com/watch?v=lygOlTN0GAU",
+      "creator": { "@type": "Person", "name": "CMPTV coach" },
+      "duration": "PT175S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Stuff head and sprawl to defend the single leg",
+      "description": "Technical Stand Up to Single Leg (Defender) film study: Stuff head and sprawl to defend the single leg, taught by Rob Harman.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/cB5RNJHKfIw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/cB5RNJHKfIw",
+      "url": "https://www.youtube.com/watch?v=cB5RNJHKfIw",
+      "creator": { "@type": "Person", "name": "Rob Harman" },
+      "duration": "PT186S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Single leg defense to back take",
+      "description": "Technical Stand Up to Single Leg (Defender) film study: Single leg defense to back take, taught by Dragons Den MMA coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/uaPLKgwdgc0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/uaPLKgwdgc0",
+      "url": "https://www.youtube.com/watch?v=uaPLKgwdgc0",
+      "creator": { "@type": "Person", "name": "Dragons Den MMA coach" },
+      "duration": "PT120S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +205,42 @@ Defending the Technical Stand Up to Single Leg requires a two-phase approach tha
 **Opponent's Starting Position**: [[Positions/Turtle]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Technical Stand Up to Single Leg (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=lygOlTN0GAU)
+
+<p class="clip-credit"><strong>Single leg defense: sprawl and crunch</strong> — taught by CMPTV coach · 2:55 · <a href="https://www.youtube.com/watch?v=lygOlTN0GAU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=cB5RNJHKfIw)
+
+<p class="clip-credit"><strong>Stuff head and sprawl to defend the single leg</strong> — taught by Rob Harman · 3:06 · <a href="https://www.youtube.com/watch?v=cB5RNJHKfIw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=uaPLKgwdgc0)
+
+<p class="clip-credit"><strong>Single leg defense to back take</strong> — taught by Dragons Den MMA coach · 2:00 · <a href="https://www.youtube.com/watch?v=uaPLKgwdgc0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

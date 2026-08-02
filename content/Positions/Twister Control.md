@@ -34,6 +34,54 @@ description: "Master Twister Control in BJJ. Complete guide covering entries, sp
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Twister Control \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Twister side attacks",
+      "description": "Twister Control film study: Twister side attacks, taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/odT3-cVWXdc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/odT3-cVWXdc",
+      "url": "https://www.youtube.com/watch?v=odT3-cVWXdc",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT61S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Twister side control",
+      "description": "Twister Control film study: Twister side control, taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/R55lmkc6Mus/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/R55lmkc6Mus",
+      "url": "https://www.youtube.com/watch?v=R55lmkc6Mus",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT87S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Smash side control",
+      "description": "Twister Control film study: Smash side control, taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/oBya4BEW_XU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/oBya4BEW_XU",
+      "url": "https://www.youtube.com/watch?v=oBya4BEW_XU",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT61S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -72,6 +120,42 @@ Understanding the biomechanical principles of Twister Control requires examining
 The position's effectiveness scales with skill level and understanding. Beginners often struggle to maintain the necessary leg control and rotation, allowing opponents to simply turn into them and escape. Intermediate practitioners develop better pressure and control but may fixate too heavily on the Twister submission itself. Advanced practitioners understand Twister Control as a position from which multiple attacks flow, with the Twister finish being just one option in a broader offensive system that includes calf slicers, banana splits, guillotines, and transitions to traditional back control with hooks.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Twister Control in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=odT3-cVWXdc)
+
+<p class="clip-credit"><strong>Twister side attacks</strong> — taught by Eddie Bravo · 1:01 · <a href="https://www.youtube.com/watch?v=odT3-cVWXdc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=R55lmkc6Mus)
+
+<p class="clip-credit"><strong>Twister side control</strong> — taught by Eddie Bravo · 1:27 · <a href="https://www.youtube.com/watch?v=R55lmkc6Mus" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=oBya4BEW_XU)
+
+<p class="clip-credit"><strong>Smash side control</strong> — taught by Eddie Bravo · 1:01 · <a href="https://www.youtube.com/watch?v=oBya4BEW_XU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 
@@ -140,23 +224,23 @@ The position's effectiveness scales with skill level and understanding. Beginner
 ### Available Transitions
 
 
-- **[[Transitions/Roll Through Escape/Attacker|Roll Through Escape]]** (15% of attempts)
+- **[[Transitions/Roll Through Escape/Attacker|Roll Through Escape]]** (17% of attempts)
 
 - **[[Transitions/Hip Escape to Guard/Attacker|Hip Escape to Guard]]** (14% of attempts)
 
-- **[[Transitions/Bridge and Turn to Turtle/Attacker|Bridge and Turn to Turtle]]** (14% of attempts)
+- **[[Transitions/Bridge and Turn to Turtle/Attacker|Bridge and Turn to Turtle]]** (11% of attempts)
 
-- **[[Transitions/Leg Extraction/Attacker|Leg Extraction]]** (12% of attempts)
+- **[[Transitions/Leg Extraction/Attacker|Leg Extraction]]** (15% of attempts)
 
-- **[[Transitions/Defensive Roll/Attacker|Defensive Roll]]** (11% of attempts)
+- **[[Transitions/Defensive Roll/Attacker|Defensive Roll]]** (6% of attempts)
 
-- **[[Transitions/Frame and Turn/Attacker|Frame and Turn]]** (10% of attempts)
+- **[[Transitions/Frame and Turn/Attacker|Frame and Turn]]** (11% of attempts)
 
-- **[[Transitions/Scramble to Guard/Attacker|Scramble to Guard]]** (10% of attempts)
+- **[[Transitions/Scramble to Guard/Attacker|Scramble to Guard]]** (13% of attempts)
 
-- **[[Transitions/Shrimp Escape/Attacker|Shrimp Escape]]** (8% of attempts)
+- **[[Transitions/Shrimp Escape/Attacker|Shrimp Escape]]** (6% of attempts)
 
-- **[[Transitions/Granby Roll to Guard/Attacker|Granby Roll to Guard]]** (6% of attempts)
+- **[[Transitions/Granby Roll to Guard/Attacker|Granby Roll to Guard]]** (7% of attempts)
 
 
 ### Common Mistakes
@@ -213,15 +297,15 @@ The position's effectiveness scales with skill level and understanding. Beginner
 ### Available Transitions
 
 
-- **[[Twister from Twister Control/Attacker|Twister from Twister Control]]** (35% of attempts)
+- **[[Twister from Twister Control/Attacker|Twister from Twister Control]]** (33% of attempts)
 
-- **[[Transitions/Back Take/Attacker|Back Take]]** (25% of attempts)
+- **[[Transitions/Back Take/Attacker|Back Take]]** (22% of attempts)
 
-- **[[Guillotine Choke from Twister Control/Attacker|Guillotine Choke from Twister Control]]** (15% of attempts)
+- **[[Guillotine Choke from Twister Control/Attacker|Guillotine Choke from Twister Control]]** (18% of attempts)
 
 - **[[Neck Crank from Twister Control/Attacker|Neck Crank from Twister Control]]** (13% of attempts)
 
-- **[[Calf Slicer from Twister Control/Attacker|Calf Slicer from Twister Control]]** (12% of attempts)
+- **[[Calf Slicer from Twister Control/Attacker|Calf Slicer from Twister Control]]** (14% of attempts)
 
 
 ### Common Mistakes

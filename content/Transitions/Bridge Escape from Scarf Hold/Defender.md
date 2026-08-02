@@ -148,6 +148,43 @@ description: "Defend against the bridge escape from scarf hold in BJJ. Learn to 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Bridge Escape from Scarf Hold (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Kesa gatame scarf hold control",
+      "description": "Bridge Escape from Scarf Hold (Defender) film study: Kesa gatame scarf hold control, taught by Grappler Station.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/TfNpVcekHGg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/TfNpVcekHGg",
+      "url": "https://www.youtube.com/watch?v=TfNpVcekHGg",
+      "creator": { "@type": "Person", "name": "Grappler Station" },
+      "duration": "PT121S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Ura gatame crucifix pin and lapel strangle",
+      "description": "Bridge Escape from Scarf Hold (Defender) film study: Ura gatame crucifix pin and lapel strangle, taught by Steve Scott.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/jLimc9NW8Jc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/jLimc9NW8Jc",
+      "url": "https://www.youtube.com/watch?v=jLimc9NW8Jc",
+      "creator": { "@type": "Person", "name": "Steve Scott" },
+      "duration": "PT119S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +194,34 @@ Defending against the bridge escape from scarf hold requires the top player to r
 **Opponent's Starting Position**: [[Positions/Side Control/Scarf Hold Position]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Bridge Escape from Scarf Hold (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=TfNpVcekHGg)
+
+<p class="clip-credit"><strong>Kesa gatame scarf hold control</strong> — taught by Grappler Station · 2:01 · <a href="https://www.youtube.com/watch?v=TfNpVcekHGg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=jLimc9NW8Jc)
+
+<p class="clip-credit"><strong>Ura gatame crucifix pin and lapel strangle</strong> — taught by Steve Scott · 1:59 · <a href="https://www.youtube.com/watch?v=jLimc9NW8Jc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

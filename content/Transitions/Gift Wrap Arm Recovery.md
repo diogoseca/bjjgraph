@@ -34,6 +34,43 @@ description: "Master Gift Wrap Arm Recovery in BJJ. Step-by-step escape from tra
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Gift Wrap Arm Recovery \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Back Escape with Arms Trapped",
+      "description": "Gift Wrap Arm Recovery film study: Back Escape with Arms Trapped, taught by Skyhook Martial Arts.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/B_kiu8SIRRc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/B_kiu8SIRRc",
+      "url": "https://www.youtube.com/watch?v=B_kiu8SIRRc",
+      "creator": { "@type": "Person", "name": "Skyhook Martial Arts" },
+      "duration": "PT40S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "The Gift Wrap in 2 Minutes - No Gi",
+      "description": "Gift Wrap Arm Recovery film study: The Gift Wrap in 2 Minutes - No Gi, taught by Brian Glick.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/5bw7poxVJ1E/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/5bw7poxVJ1E",
+      "url": "https://www.youtube.com/watch?v=5bw7poxVJ1E",
+      "creator": { "@type": "Person", "name": "Brian Glick" },
+      "duration": "PT112S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -66,9 +103,37 @@ The technique operates on the principle that the arm trap relies on specific ang
 Strategically, Gift Wrap Arm Recovery represents the critical first step in any escape sequence from this position. Without recovering the arm, all other escape attempts become significantly more difficult. The technique must be executed while maintaining neck defense with the free hand, as opponents often attack the rear naked choke when they sense the arm recovery attempt. Timing the recovery when the opponent shifts weight for a submission attempt creates the optimal window for success.
 
 **From Position**: [[Positions/Gift Wrap]] (Bottom)
-**Success Rate**: 48%
+**Success Rate**: 36%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Gift Wrap Arm Recovery in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=B_kiu8SIRRc)
+
+<p class="clip-credit"><strong>Back Escape with Arms Trapped</strong> — taught by Skyhook Martial Arts · 0:40 · <a href="https://www.youtube.com/watch?v=B_kiu8SIRRc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=5bw7poxVJ1E)
+
+<p class="clip-credit"><strong>The Gift Wrap in 2 Minutes - No Gi</strong> — taught by Brian Glick · 1:52 · <a href="https://www.youtube.com/watch?v=5bw7poxVJ1E" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

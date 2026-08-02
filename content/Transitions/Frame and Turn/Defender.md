@@ -148,6 +148,54 @@ description: "How to defend against Frame and Turn escape in BJJ. Recognition cu
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Frame and Turn (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Twister side attacks: holding the turn",
+      "description": "Frame and Turn (Defender) film study: Twister side attacks: holding the turn, taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/odT3-cVWXdc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/odT3-cVWXdc",
+      "url": "https://www.youtube.com/watch?v=odT3-cVWXdc",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT61S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Twister Side Control vs Regular Side Control",
+      "description": "Frame and Turn (Defender) film study: Twister Side Control vs Regular Side Control, taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/6kWSdS6uKtA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/6kWSdS6uKtA",
+      "url": "https://www.youtube.com/watch?v=6kWSdS6uKtA",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT321S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Twister Side Control: How To",
+      "description": "Frame and Turn (Defender) film study: Twister Side Control: How To, taught by Brandon McCaghren.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/McaB7pfeCGo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/McaB7pfeCGo",
+      "url": "https://www.youtube.com/watch?v=McaB7pfeCGo",
+      "creator": { "@type": "Person", "name": "Brandon McCaghren" },
+      "duration": "PT516S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -161,6 +209,42 @@ Successful defense against Frame and Turn requires constant pressure adjustment 
 **Opponent's Starting Position**: [[Positions/Twister Control]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Frame and Turn (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=odT3-cVWXdc)
+
+<p class="clip-credit"><strong>Twister side attacks: holding the turn</strong> — taught by Eddie Bravo · 1:01 · <a href="https://www.youtube.com/watch?v=odT3-cVWXdc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=6kWSdS6uKtA)
+
+<p class="clip-credit"><strong>Twister Side Control vs Regular Side Control</strong> — taught by Eddie Bravo · 5:21 · <a href="https://www.youtube.com/watch?v=6kWSdS6uKtA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=McaB7pfeCGo)
+
+<p class="clip-credit"><strong>Twister Side Control: How To</strong> — taught by Brandon McCaghren · 8:36 · <a href="https://www.youtube.com/watch?v=McaB7pfeCGo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

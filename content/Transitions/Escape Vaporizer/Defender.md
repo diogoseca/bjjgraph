@@ -140,6 +140,43 @@ description: "Learn to defend against and capitalize on the Escape Vaporizer in 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Escape Vaporizer (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Lockdown to vaporizer",
+      "description": "Escape Vaporizer (Defender) film study: Lockdown to vaporizer, taught by Axel Collazo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/8ZgEL2zU_jg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/8ZgEL2zU_jg",
+      "url": "https://www.youtube.com/watch?v=8ZgEL2zU_jg",
+      "creator": { "@type": "Person", "name": "Axel Collazo" },
+      "duration": "PT98S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Quarter guard to vaporizer",
+      "description": "Escape Vaporizer (Defender) film study: Quarter guard to vaporizer, taught by Superhero Jiu Jitsu Academy.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/dLIqO90Ix7o/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/dLIqO90Ix7o",
+      "url": "https://www.youtube.com/watch?v=dLIqO90Ix7o",
+      "creator": { "@type": "Person", "name": "Superhero Jiu Jitsu Academy" },
+      "duration": "PT113S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -149,6 +186,34 @@ The Escape Vaporizer Defender is the top player in the Vaporizer who recognizes 
 **Opponent's Starting Position**: [[Positions/Vaporizer]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Escape Vaporizer (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=8ZgEL2zU_jg)
+
+<p class="clip-credit"><strong>Lockdown to vaporizer</strong> — taught by Axel Collazo · 1:38 · <a href="https://www.youtube.com/watch?v=8ZgEL2zU_jg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=dLIqO90Ix7o)
+
+<p class="clip-credit"><strong>Quarter guard to vaporizer</strong> — taught by Superhero Jiu Jitsu Academy · 1:53 · <a href="https://www.youtube.com/watch?v=dLIqO90Ix7o" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

@@ -34,6 +34,54 @@ description: "Master the frame to guard escape from Kesa Gatame in BJJ. Complete
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Frame to Guard from Kesa Gatame \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Framing against kesa gatame pressure",
+      "description": "Frame to Guard from Kesa Gatame film study: Framing against kesa gatame pressure, taught by Kohbukan Sisu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/fvp5_BVEtLg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/fvp5_BVEtLg",
+      "url": "https://www.youtube.com/watch?v=fvp5_BVEtLg",
+      "creator": { "@type": "Person", "name": "Kohbukan Sisu" },
+      "duration": "PT84S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Modified kesa gatame escape",
+      "description": "Frame to Guard from Kesa Gatame film study: Modified kesa gatame escape, taught by Shane Moore.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/5eAmcE9UXNc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/5eAmcE9UXNc",
+      "url": "https://www.youtube.com/watch?v=5eAmcE9UXNc",
+      "creator": { "@type": "Person", "name": "Shane Moore" },
+      "duration": "PT126S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Modified scarf hold escape step by step",
+      "description": "Frame to Guard from Kesa Gatame film study: Modified scarf hold escape step by step, taught by Knots and Collar.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/u4mzEqzqoAU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/u4mzEqzqoAU",
+      "url": "https://www.youtube.com/watch?v=u4mzEqzqoAU",
+      "creator": { "@type": "Person", "name": "Knots and Collar" },
+      "duration": "PT208S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ Strategically, this escape works best when the top player commits weight forward
 **Success Rate**: 50%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Frame to Guard from Kesa Gatame in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=fvp5_BVEtLg)
+
+<p class="clip-credit"><strong>Framing against kesa gatame pressure</strong> — taught by Kohbukan Sisu · 1:24 · <a href="https://www.youtube.com/watch?v=fvp5_BVEtLg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=5eAmcE9UXNc)
+
+<p class="clip-credit"><strong>Modified kesa gatame escape</strong> — taught by Shane Moore · 2:06 · <a href="https://www.youtube.com/watch?v=5eAmcE9UXNc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=u4mzEqzqoAU)
+
+<p class="clip-credit"><strong>Modified scarf hold escape step by step</strong> — taught by Knots and Collar · 3:28 · <a href="https://www.youtube.com/watch?v=u4mzEqzqoAU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

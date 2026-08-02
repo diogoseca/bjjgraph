@@ -34,6 +34,10 @@ description: "Master the Achilles Lock leg submission in BJJ. Complete guide cov
 </script>
 
 
+
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -53,7 +57,6 @@ description: "Master the Achilles Lock leg submission in BJJ. Complete guide cov
   "@type": "FAQPage",
   "mainEntity": [
     { "@type": "Question", "name": "What is the Achilles Lock?", "acceptedAnswer": { "@type": "Answer", "text": "The Achilles Lock is a straight-ankle leg lock that wedges the forearm or wrist bone across the Achilles tendon and extends the hips, compressing the tendon and hyperextending the ankle to force a tap from Ashi Garami positions." } },
-    { "@type": "Question", "name": "What positions can you finish the Achilles Lock from?", "acceptedAnswer": { "@type": "Answer", "text": "You can finish the Achilles Lock from Inside Ashi-Garami." } },
     { "@type": "Question", "name": "Is the Achilles Lock dangerous?", "acceptedAnswer": { "@type": "Answer", "text": "Achilles Lock targets the Achilles tendon and ankle joint. Primary risk: Achilles tendon rupture or tear. Tap early and release immediately on the tap." } }
   ]
 }
@@ -85,47 +88,20 @@ The Achilles Lock is a fundamental leg lock submission that targets the Achilles
 </section>
 
 
-<section id="variants" class="content-section">
 
-## What positions can you finish from?
-
-
-<div class="variants-table">
-
-| From Position | Seat | Success | Play as Attacker | Play as Defender |
-|---|---|---|---|---|
-| [[Submissions/Achilles Lock/from Inside Ashi-Garami|Inside Ashi-Garami]] | Bottom | 58% | [[Submissions/Achilles Lock/from Inside Ashi-Garami/Attacker|Attack →]] | [[Submissions/Achilles Lock/from Inside Ashi-Garami/Defender|Defend →]] |
-
-
-</div>
-
-
-<details class="mechanical-variations">
-<summary>Mechanical variations (how the choke is finished)</summary>
-
-- **Figure-Four Achilles Lock**: Instead of gable grip, use one arm to thread under the ankle and grab your own wrist/forearm creating a figure-four configuration. This provides more leverage and a sharper fulcrum point. (When to use: Use when opponent has strong ankle flexibility or when you need maximum breaking power. Also effective when transitioning from other leg attacks.)
-- **Belly-Down Achilles Lock**: Instead of sitting back, turn your body face-down toward the mat while maintaining heel control. Use your body weight and chest pressure to drive the submission while extending hips. (When to use: Effective when opponent is successfully defending the standard version by sitting up. Also useful in no-gi when grips are harder to maintain.)
-- **Achilles Lock from Outside Ashi**: From outside Ashi position (your outside leg over opponent's hip, inside leg under), the same mechanics apply but your body is positioned on the outside of their leg. Often provides better control against defensive hip rotation. (When to use: Use when opponent is defending standard Ashi by turning their knee inward. Outside position prevents this defense and provides different angle.)
-- **Achilles Lock from Single Leg X Guard**: From Single Leg X position, extend opponent's leg straight and transition your leg configuration to Ashi while maintaining heel control. The elevation makes the setup easier. (When to use: Natural transition during guard passing sequences or when opponent tries to pass your Single Leg X. The elevated position often surprises opponents.)
-
-
-</details>
-
-
-</section>
 
 
 <section id="related" class="content-section">
 
 ## Related
 - [[Submissions/Straight Ankle Lock]] - Similar submission targeting same area with different grip configuration and finishing mechanics
-- [[Transitions/Heel Hook]] - Advanced rotational leg lock often threatened in combination from same Ashi Garami positions
+- [[Submissions/Heel Hook]] - Advanced rotational leg lock often threatened in combination from same Ashi Garami positions
 - [[Submissions/Inside Heel Hook]] - Rotational heel attack accessible from same leg entanglements when opponent defends Achilles Lock
-- [[Transitions/Outside Heel Hook]] - Complementary heel attack from outside angle positions sharing similar entries
+- [[Submissions/Outside Heel Hook]] - Complementary heel attack from outside angle positions sharing similar entries
 - [[Transitions/Kneebar]] - Alternative leg attack targeting knee hyperextension from similar leg entanglement positions
 - [[Submissions/Toe Hold]] - Foot lock often chained when Achilles Lock defense creates rotational opening
 - [[Submissions/Calf Slicer]] - Compression submission available from similar leg control when opponent bends knee to defend
-- [[Transitions/Estima Lock]] - Ankle compression lock with related foot control mechanics and shared positional entries
+- [[Submissions/Estima Lock]] - Ankle compression lock with related foot control mechanics and shared positional entries
 - [[Positions/Ashi Garami]] - Primary position for Achilles Lock setup and control
 - [[Positions/Ashi Garami/Outside Ashi-Garami]] - Alternative position providing different angle for Achilles Lock
 - [[Positions/X-Guard/Single Leg X-Guard]] - Common entry position transitioning to Achilles Lock

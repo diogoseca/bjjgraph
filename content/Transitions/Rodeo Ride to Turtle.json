@@ -14,21 +14,33 @@
   "outcomes": [
     {
       "to": "Turtle/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Rodeo Ride/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "summary": "Rodeo Ride to Turtle is a top-position transition where the attacker abandons dynamic asymmetric ride control to settle into standard turtle top, trading explosive attack angles for a stable seatbelt-to-hooks back-attack platform.",
   "overview": "The Rodeo Ride to Turtle transition represents a controlled positional adjustment where the top practitioner converts their dynamic Rodeo Ride control into standard turtle top position. While Rodeo Ride offers powerful asymmetric pressure and explosive attack angles, there are situations where transitioning to conventional turtle top provides a more systematic platform for back attacks, hook insertion, and submission setups. This transition becomes necessary when the bottom practitioner defends Rodeo Ride-specific attacks effectively or when the dynamic ride becomes unstable, forcing the top player to reset to a methodical attacking framework rather than continuing to chase diminishing returns from a compromised position.\n\nExecuting this transition requires careful grip management and weight distribution throughout the repositioning phase. The critical window of vulnerability occurs when the attacker releases Rodeo Ride-specific asymmetric grips to establish standard turtle top controls such as seatbelt or harness. During this moment, the bottom practitioner has opportunities to escape to guard, stand up, or create scramble situations that could reverse the positional hierarchy entirely. Successful execution demands that the top player maintains at least one anchor grip at all times while sliding from a perpendicular angle to directly behind the opponent, establishing uninterrupted chest-to-back connection throughout. The transition rewards patience, tactile sensitivity, and the discipline to maintain continuous pressure rather than rushing through grip changes that create exploitable gaps in control.\n\nStrategically, this transition converts a potentially stalling Rodeo Ride position into a high-percentage back attack platform. Standard turtle top offers clearer pathways to seatbelt control, systematic hook insertion, and the conventional back take sequence that represents one of the most dominant finishing positions in competitive grappling. Understanding when to abandon Rodeo Ride dynamics in favor of methodical turtle control separates advanced practitioners who can read positional flow from those who become locked into a single approach regardless of diminishing effectiveness.",
   "conditions": [
@@ -232,38 +244,147 @@
     "flashcards": [
       {
         "question": "Why would you deliberately transition from Rodeo Ride to standard turtle top rather than continuing to attack from Rodeo Ride?",
-        "answer": "Rodeo Ride excels at dynamic, explosive attacks but becomes less effective when the bottom player defends those specific attacks well or when the asymmetric control starts degrading. Standard turtle top provides a more methodical platform for the conventional seatbelt-to-hooks back take sequence, systematic front headlock entries, and measured submission setups. The transition preserves dominant position when staying in Rodeo Ride would mean diminishing returns or risking position loss through continued forcing of defended attacks."
+        "answer": "Rodeo Ride excels at dynamic, explosive attacks but becomes less effective when the bottom player defends those specific attacks well or when the asymmetric control starts degrading. Standard turtle top provides a more methodical platform for the conventional seatbelt-to-hooks back take sequence, systematic front headlock entries, and measured submission setups. The transition preserves dominant position when staying in Rodeo Ride would mean diminishing returns or risking position loss through continued forcing of defended attacks.",
+        "answer_line": "Stabilize when attacks get defended",
+        "distractors": {
+          "plausible": [
+            "Turtle top finishes faster",
+            "Rest, then re-hit Rodeo attacks"
+          ],
+          "trap": [
+            "Release hooks to flatten them out"
+          ]
+        }
       },
       {
         "question": "What is the single most critical principle during the grip transition phase?",
-        "answer": "Never release all control points simultaneously. Maintain at least one secure anchor grip throughout the entire transition. This hand-over-hand principle ensures that no complete control gap exists for the opponent to exploit. Whether using collar control, wrist control, or a partial seatbelt, one grip must always be actively restraining the opponent's movement before the other grip is released and repositioned."
+        "answer": "Never release all control points simultaneously. Maintain at least one secure anchor grip throughout the entire transition. This hand-over-hand principle ensures that no complete control gap exists for the opponent to exploit. Whether using collar control, wrist control, or a partial seatbelt, one grip must always be actively restraining the opponent's movement before the other grip is released and repositioned.",
+        "answer_line": "Always keep one anchor grip",
+        "distractors": {
+          "plausible": [
+            "Switch both grips at once for speed",
+            "Prioritize the strongest grip only"
+          ],
+          "trap": [
+            "Release all grips to reset cleanly"
+          ]
+        }
       },
       {
         "question": "Your opponent suddenly tenses and you feel them coiling to explode as you begin the transition. What should you do?",
-        "answer": "Abort the transition attempt and re-establish full Rodeo Ride control immediately. An opponent who is coiled and ready to explode will capitalize on any grip change or weight shift during your transition. Wait for them to expend their stored energy through a defensive attempt, then initiate the transition during the recovery moment when they are depleted and less reactive. Timing the transition during low-energy windows is critical for success."
+        "answer": "Abort the transition attempt and re-establish full Rodeo Ride control immediately. An opponent who is coiled and ready to explode will capitalize on any grip change or weight shift during your transition. Wait for them to expend their stored energy through a defensive attempt, then initiate the transition during the recovery moment when they are depleted and less reactive. Timing the transition during low-energy windows is critical for success.",
+        "answer_line": "Abort transition, reset control",
+        "distractors": {
+          "plausible": [
+            "Transition as they explode",
+            "Switch grips to hold on"
+          ],
+          "trap": [
+            "Release hooks and re-grip"
+          ]
+        }
       },
       {
         "question": "What body part serves as the primary continuous control mechanism throughout the entire transition?",
-        "answer": "The chest serves as the primary continuous control mechanism. Chest-to-back contact must be maintained without interruption from start to finish of the transition. The chest provides constant downward pressure that compresses the opponent's turtle structure, prevents standing attempts, and allows tactile feedback about the opponent's movements and intentions. While grips change and hips reposition, the chest remains the one control point that never disconnects."
+        "answer": "The chest serves as the primary continuous control mechanism. Chest-to-back contact must be maintained without interruption from start to finish of the transition. The chest provides constant downward pressure that compresses the opponent's turtle structure, prevents standing attempts, and allows tactile feedback about the opponent's movements and intentions. While grips change and hips reposition, the chest remains the one control point that never disconnects.",
+        "answer_line": "Chest-to-back contact, never breaks",
+        "distractors": {
+          "plausible": [
+            "Hips, driving constant pressure",
+            "Lead hand grip, never released"
+          ],
+          "trap": [
+            "Legs, hooking to hold them down"
+          ]
+        }
       },
       {
         "question": "How does the spiral walk variant differ from the controlled seatbelt reset variant, and when would you choose each?",
-        "answer": "The spiral walk maintains existing Rodeo Ride grips while walking the hips in an arc to reposition behind the opponent, only changing grips at the final position. The controlled seatbelt reset replaces grips to seatbelt first while still at the perpendicular angle, then repositions with seatbelt already established. Choose the spiral walk when the opponent is actively hand-fighting and any grip release would trigger escape attempts. Choose the controlled reset when the opponent is relatively passive and the grip change can happen safely before repositioning."
+        "answer": "The spiral walk maintains existing Rodeo Ride grips while walking the hips in an arc to reposition behind the opponent, only changing grips at the final position. The controlled seatbelt reset replaces grips to seatbelt first while still at the perpendicular angle, then repositions with seatbelt already established. Choose the spiral walk when the opponent is actively hand-fighting and any grip release would trigger escape attempts. Choose the controlled reset when the opponent is relatively passive and the grip change can happen safely before repositioning.",
+        "answer_line": "Hold grips if active, swap if calm",
+        "distractors": {
+          "plausible": [
+            "Always keep grips until the end",
+            "Always swap to seatbelt first"
+          ],
+          "trap": [
+            "Release grips to reset when active"
+          ]
+        }
       },
       {
         "question": "The opponent begins a granby roll halfway through your transition. Should you disengage and reset, or follow the roll?",
-        "answer": "Follow the roll while maintaining your anchor grip and chest contact. The granby roll during your transition actually assists your repositioning because the opponent's rotation moves them further under your body. Stay connected and use their momentum to accelerate your own movement behind them. Disengaging would waste your transitional progress and allow them to recover guard. The key is keeping your grip tight through the rotation and immediately establishing seatbelt control when the roll completes."
+        "answer": "Follow the roll while maintaining your anchor grip and chest contact. The granby roll during your transition actually assists your repositioning because the opponent's rotation moves them further under your body. Stay connected and use their momentum to accelerate your own movement behind them. Disengaging would waste your transitional progress and allow them to recover guard. The key is keeping your grip tight through the rotation and immediately establishing seatbelt control when the roll completes.",
+        "answer_line": "Follow the roll, keep your anchor",
+        "distractors": {
+          "plausible": [
+            "Disengage and rebuild your base",
+            "Stay tight but pause to re-grip"
+          ],
+          "trap": [
+            "Reach across, trap the far arm"
+          ]
+        }
       },
       {
         "question": "What is the optimal direction and application of force during the hip walk repositioning phase?",
-        "answer": "The primary force vector should be oriented forward and downward at approximately a 45-degree angle into the opponent's spine and lower back. This angled pressure serves dual purposes: it prevents the opponent from standing or creating upward movement, and it keeps their base loaded so they cannot sit back or rotate laterally. The direction should not be purely downward, which would allow lateral escape, nor purely forward, which would push them flat and eliminate the turtle structure you need. Maintaining this 45-degree vector throughout the entire arc of repositioning ensures the opponent cannot exploit directional gaps during your movement."
+        "answer": "The primary force vector should be oriented forward and downward at approximately a 45-degree angle into the opponent's spine and lower back. This angled pressure serves dual purposes: it prevents the opponent from standing or creating upward movement, and it keeps their base loaded so they cannot sit back or rotate laterally. The direction should not be purely downward, which would allow lateral escape, nor purely forward, which would push them flat and eliminate the turtle structure you need. Maintaining this 45-degree vector throughout the entire arc of repositioning ensures the opponent cannot exploit directional gaps during your movement.",
+        "answer_line": "45-degree forward-down into spine",
+        "distractors": {
+          "plausible": [
+            "Straight down to flatten them out",
+            "Straight forward to prevent standing"
+          ],
+          "trap": [
+            "Pull upward to lift their hips"
+          ]
+        }
       },
       {
         "question": "Your opponent successfully defends the transition and you remain in a compromised Rodeo Ride position. What attack chains should you pursue?",
-        "answer": "Immediately return to Rodeo Ride offensive options rather than forcing a compromised transition. Re-establish your asymmetric Rodeo Ride grips and threaten crab ride entries, rolling back take attempts, or clock choke setups. You can also reattempt the transition after a different attack forces the opponent to react and creates a new vulnerability window. The key is treating the failed transition as information: the opponent's specific defense reveals their priorities. If they explosively resisted upward, they are vulnerable to attacks that go with their energy. If they turned to face you, crab ride or crucifix entries become higher percentage. Chain attacks based on their specific defensive reaction rather than repeating the same transition."
+        "answer": "Immediately return to Rodeo Ride offensive options rather than forcing a compromised transition. Re-establish your asymmetric Rodeo Ride grips and threaten crab ride entries, rolling back take attempts, or clock choke setups. You can also reattempt the transition after a different attack forces the opponent to react and creates a new vulnerability window. The key is treating the failed transition as information: the opponent's specific defense reveals their priorities. If they explosively resisted upward, they are vulnerable to attacks that go with their energy. If they turned to face you, crab ride or crucifix entries become higher percentage. Chain attacks based on their specific defensive reaction rather than repeating the same transition.",
+        "answer_line": "Return to Rodeo Ride attack chains",
+        "distractors": {
+          "plausible": [
+            "Force the same transition again",
+            "Abandon back attacks for a pass"
+          ],
+          "trap": [
+            "Release grips to reset from scratch"
+          ]
+        }
       }
     ],
-    "safety_considerations": "The Rodeo Ride to Turtle transition involves controlled repositioning that generally poses minimal acute injury risk compared to submission techniques. However, practitioners should be mindful of knee or shin pressure on the bottom player's ribs and spine during weight shifts. Avoid dropping full body weight suddenly when completing the repositioning behind the opponent. The primary safety concern during training is accidental elbow strikes to the bottom player's head or face during grip transitions, as hands move rapidly around the opponent's torso. Communicate with training partners during grip changes and maintain controlled movements rather than explosive hand fighting that could cause inadvertent contact with eyes or jaw."
+    "safety_considerations": "The Rodeo Ride to Turtle transition involves controlled repositioning that generally poses minimal acute injury risk compared to submission techniques. However, practitioners should be mindful of knee or shin pressure on the bottom player's ribs and spine during weight shifts. Avoid dropping full body weight suddenly when completing the repositioning behind the opponent. The primary safety concern during training is accidental elbow strikes to the bottom player's head or face during grip transitions, as hands move rapidly around the opponent's torso. Communicate with training partners during grip changes and maintain controlled movements rather than explosive hand fighting that could cause inadvertent contact with eyes or jaw.",
+    "clips": [
+      {
+        "id": "XXnawMQEfKw",
+        "title": "Breaking the Turtle with the Spiral Ride",
+        "by": "Big Guy BJJ",
+        "vertical": false,
+        "channel": "Big Guy BJJ",
+        "duration": 73,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "S6o_HLxqd3c",
+        "title": "Spiral ride into the seated rodeo ride on turtle",
+        "by": "Steve Scott",
+        "vertical": false,
+        "channel": "welcomematstevescott",
+        "duration": 231,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "Wo9va8yGZp8",
+        "title": "Rodeo ride basics for controlling a turtled opponent",
+        "by": "Steve Scott",
+        "vertical": false,
+        "channel": "welcomematstevescott",
+        "duration": 303,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Rodeo Ride to Turtle Defender",
@@ -345,23 +466,73 @@
     "flashcards": [
       {
         "question": "When is the optimal moment to attempt an escape during the Rodeo Ride to Turtle transition?",
-        "answer": "The optimal escape moment occurs during the attacker's grip transition phase when they are releasing one grip to establish another. This creates a brief window of reduced control where only one anchor point restrains your movement. Specifically, the moment between when they release their Rodeo Ride-specific grip and when they secure the seatbelt configuration represents the lowest control point in the entire transition. Your escape attempt should be already in motion as you sense the grip change beginning."
+        "answer": "The optimal escape moment occurs during the attacker's grip transition phase when they are releasing one grip to establish another. This creates a brief window of reduced control where only one anchor point restrains your movement. Specifically, the moment between when they release their Rodeo Ride-specific grip and when they secure the seatbelt configuration represents the lowest control point in the entire transition. Your escape attempt should be already in motion as you sense the grip change beginning.",
+        "answer_line": "During the attacker's grip switch",
+        "distractors": {
+          "plausible": [
+            "Once the seatbelt is locked in",
+            "After both hooks are set"
+          ],
+          "trap": [
+            "Wait until the choke starts"
+          ]
+        }
       },
       {
         "question": "What tactile cues indicate that the attacker is beginning the Rodeo Ride to Turtle transition?",
-        "answer": "The primary tactile cues include a shift in pressure direction from lateral and perpendicular to more directly downward as the attacker moves behind you, a momentary lightening of hip pressure as they walk their hips from the side to behind your back, and the distinct feeling of grip releases and re-grips as they transition from asymmetric Rodeo Ride controls to seatbelt or harness configuration. You may also feel their posted leg moving from a lateral position to behind your hip."
+        "answer": "The primary tactile cues include a shift in pressure direction from lateral and perpendicular to more directly downward as the attacker moves behind you, a momentary lightening of hip pressure as they walk their hips from the side to behind your back, and the distinct feeling of grip releases and re-grips as they transition from asymmetric Rodeo Ride controls to seatbelt or harness configuration. You may also feel their posted leg moving from a lateral position to behind your hip.",
+        "answer_line": "Pressure turns downward behind you",
+        "distractors": {
+          "plausible": [
+            "Hip pressure spikes as he passes",
+            "Grips clamp tighter, never release"
+          ],
+          "trap": [
+            "Roll away to escape the pressure"
+          ]
+        }
       },
       {
         "question": "Why is sitting back toward the attacker more effective than pushing away during escape attempts?",
-        "answer": "Sitting back toward the attacker disrupts their control structure by collapsing the space they need to maintain chest-to-back pressure. When you close distance by sitting into them, their arms cannot maintain the leverage needed for seatbelt control and their weight is displaced by your backward movement. Pushing away creates space that the attacker can immediately fill by following forward, maintaining or even improving their control. Additionally, sitting back is the first movement in establishing guard, which requires you to face the opponent rather than move away from them."
+        "answer": "Sitting back toward the attacker disrupts their control structure by collapsing the space they need to maintain chest-to-back pressure. When you close distance by sitting into them, their arms cannot maintain the leverage needed for seatbelt control and their weight is displaced by your backward movement. Pushing away creates space that the attacker can immediately fill by following forward, maintaining or even improving their control. Additionally, sitting back is the first movement in establishing guard, which requires you to face the opponent rather than move away from them.",
+        "answer_line": "Collapses their control space",
+        "distractors": {
+          "plausible": [
+            "Bridge first to lift them off",
+            "Peel the seatbelt grip first"
+          ],
+          "trap": [
+            "Push away to create escape room"
+          ]
+        }
       },
       {
         "question": "Your escape attempt during the grip transition fails and the attacker reestablishes control. What should your next priority be?",
-        "answer": "Immediately return to a strong defensive turtle structure with elbows tight, chin tucked, and base wide. Do not continue scrambling from a compromised position, as this often makes things worse. Reset your defensive posture and begin monitoring for the next opportunity. The attacker may attempt another grip adjustment or begin attacking from their new position, both of which can create new escape windows. Preserve energy for the next calculated attempt rather than expending it on a continued scramble from a losing position."
+        "answer": "Immediately return to a strong defensive turtle structure with elbows tight, chin tucked, and base wide. Do not continue scrambling from a compromised position, as this often makes things worse. Reset your defensive posture and begin monitoring for the next opportunity. The attacker may attempt another grip adjustment or begin attacking from their new position, both of which can create new escape windows. Preserve energy for the next calculated attempt rather than expending it on a continued scramble from a losing position.",
+        "answer_line": "Rebuild a tight turtle base",
+        "distractors": {
+          "plausible": [
+            "Fix your grips before resetting base",
+            "Chin tuck, then go flat on belly"
+          ],
+          "trap": [
+            "Roll away to shake the grip"
+          ]
+        }
       },
       {
         "question": "After successfully escaping to half guard during the transition, what should your immediate priorities be?",
-        "answer": "Immediately establish a strong half guard structure with an active knee shield or underhook before the former attacker can establish a dominant passing position. The transition from turtle escape to half guard bottom creates a brief moment where neither player has consolidated their position. Use this window to secure the underhook on the trapped leg side, establish a knee shield frame, and get onto your side rather than remaining flat on your back. Your opponent is transitioning from a back attack mindset to a passing mindset, and this mental shift creates a gap you can exploit by immediately threatening sweeps or guard recovery to full guard."
+        "answer": "Immediately establish a strong half guard structure with an active knee shield or underhook before the former attacker can establish a dominant passing position. The transition from turtle escape to half guard bottom creates a brief moment where neither player has consolidated their position. Use this window to secure the underhook on the trapped leg side, establish a knee shield frame, and get onto your side rather than remaining flat on your back. Your opponent is transitioning from a back attack mindset to a passing mindset, and this mental shift creates a gap you can exploit by immediately threatening sweeps or guard recovery to full guard.",
+        "answer_line": "Underhook + knee shield on your side",
+        "distractors": {
+          "plausible": [
+            "Chase a sweep before framing up",
+            "Sit up and post to build a base"
+          ],
+          "trap": [
+            "Turn belly-down to rebuild turtle"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -384,6 +555,26 @@
         "phase": "Phase 4: Full Resistance Positional Sparring",
         "focus": "Live application of defensive skills",
         "description": "Full resistance rounds starting from Rodeo Ride. Attacker has full freedom to transition to turtle top or continue Rodeo Ride attacks. Defender must use recognition and timing skills to find and exploit escape opportunities in real time. Track success rates over multiple rounds to measure improvement."
+      }
+    ],
+    "clips": [
+      {
+        "id": "_sBB-O8fqP4",
+        "title": "Standing Up from Defensive Positions",
+        "by": "Priit Mihkelson",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 114,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "Ft6OyIZ6vPs",
+        "title": "Turtle escape system: stop giving up your back",
+        "by": "Jozef Chen",
+        "vertical": false,
+        "channel": "BJJ focus camps",
+        "duration": 149,
+        "verified": "2026-07-15"
       }
     ]
   }

@@ -140,6 +140,43 @@ description: "Defend the Z-Guard Sweep in BJJ. Complete guide to recognizing swe
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Z-Guard Sweep (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Beating Z-Guard with tripod base",
+      "description": "Z-Guard Sweep (Defender) film study: Beating Z-Guard with tripod base, taught by Street Jitsu coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/JvuTT95vUvw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/JvuTT95vUvw",
+      "url": "https://www.youtube.com/watch?v=JvuTT95vUvw",
+      "creator": { "@type": "Person", "name": "Street Jitsu coach" },
+      "duration": "PT106S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Dealing with the Z-Guard from top",
+      "description": "Z-Guard Sweep (Defender) film study: Dealing with the Z-Guard from top, taught by Henry Akins.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/VWtpArHvmEc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/VWtpArHvmEc",
+      "url": "https://www.youtube.com/watch?v=VWtpArHvmEc",
+      "creator": { "@type": "Person", "name": "Henry Akins" },
+      "duration": "PT174S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -149,6 +186,34 @@ The Z-Guard Sweep Defender operates from the top position against an opponent wh
 **Opponent's Starting Position**: [[Positions/Z-Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Z-Guard Sweep (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=JvuTT95vUvw)
+
+<p class="clip-credit"><strong>Beating Z-Guard with tripod base</strong> — taught by Street Jitsu coach · 1:46 · <a href="https://www.youtube.com/watch?v=JvuTT95vUvw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=VWtpArHvmEc)
+
+<p class="clip-credit"><strong>Dealing with the Z-Guard from top</strong> — taught by Henry Akins · 2:54 · <a href="https://www.youtube.com/watch?v=VWtpArHvmEc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

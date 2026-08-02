@@ -35,6 +35,54 @@ description: "Master Shoulder of Justice side control in BJJ. Strategic guide co
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Shoulder of Justice \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Shoulder Pressure Concept",
+      "description": "Shoulder of Justice film study: Shoulder Pressure Concept, taught by Roy Dean.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/BjeDX3WupdA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/BjeDX3WupdA",
+      "url": "https://www.youtube.com/watch?v=BjeDX3WupdA",
+      "creator": { "@type": "Person", "name": "Roy Dean" },
+      "duration": "PT39S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Heavy shoulder of justice in side control",
+      "description": "Shoulder of Justice film study: Heavy shoulder of justice in side control, taught by Coach Cane.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ajC_jfdoMCE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ajC_jfdoMCE",
+      "url": "https://www.youtube.com/watch?v=ajC_jfdoMCE",
+      "creator": { "@type": "Person", "name": "Coach Cane" },
+      "duration": "PT192S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Cross sides shoulder of justice pressure",
+      "description": "Shoulder of Justice film study: Cross sides shoulder of justice pressure, taught by SBG PDX.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/zMVWIvd6MQU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/zMVWIvd6MQU",
+      "url": "https://www.youtube.com/watch?v=zMVWIvd6MQU",
+      "creator": { "@type": "Person", "name": "SBG PDX" },
+      "duration": "PT256S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -68,6 +116,42 @@ Among side control variations, the Shoulder of Justice earns its name from the r
 This position is particularly effective in both gi and no-gi contexts, as it combines physical discomfort with technical control to break the opponent's defensive structure. The shoulder pressure creates a powerful psychological effect, forcing opponents to react defensively rather than offensively. Unlike standard side control where weight is distributed more evenly, the Shoulder of Justice concentrates pressure at a single point of control, making it exceptionally difficult to escape. The position excels at creating submission opportunities, particularly to near-side attacks like the kimura, americana, and various chokes, while also providing excellent positional transitions to mount, north-south, and knee-on-belly. From bottom, defensive priorities focus on relieving pressure and creating escape opportunities, while from top, the practitioner maintains relentless control to force reactive mistakes.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Shoulder of Justice in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=BjeDX3WupdA)
+
+<p class="clip-credit"><strong>Shoulder Pressure Concept</strong> — taught by Roy Dean · 0:39 · <a href="https://www.youtube.com/watch?v=BjeDX3WupdA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ajC_jfdoMCE)
+
+<p class="clip-credit"><strong>Heavy shoulder of justice in side control</strong> — taught by Coach Cane · 3:12 · <a href="https://www.youtube.com/watch?v=ajC_jfdoMCE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=zMVWIvd6MQU)
+
+<p class="clip-credit"><strong>Cross sides shoulder of justice pressure</strong> — taught by SBG PDX · 4:16 · <a href="https://www.youtube.com/watch?v=zMVWIvd6MQU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 
@@ -139,23 +223,23 @@ This position is particularly effective in both gi and no-gi contexts, as it com
 ### Available Transitions
 
 
-- **[[Transitions/Shrimp Escape/Attacker|Shrimp Escape]]** (36% of attempts)
+- **[[Transitions/Shrimp Escape/Attacker|Shrimp Escape]]** (10% of attempts)
 
-- **[[Transitions/Elbow Escape to Guard/Attacker|Elbow Escape to Guard]]** (18% of attempts)
+- **[[Transitions/Elbow Escape to Guard/Attacker|Elbow Escape to Guard]]** (12% of attempts)
 
-- **[[Transitions/Frame and Shrimp to Guard/Attacker|Frame and Shrimp to Guard]]** (15% of attempts)
+- **[[Transitions/Frame and Shrimp to Guard/Attacker|Frame and Shrimp to Guard]]** (14% of attempts)
 
-- **[[Transitions/Bridge and Roll/Attacker|Bridge and Roll]]** (10% of attempts)
+- **[[Transitions/Bridge and Roll/Attacker|Bridge and Roll]]** (7% of attempts)
 
-- **[[Transitions/Technical Stand-up/Attacker|Technical Stand-up]]** (9% of attempts)
+- **[[Transitions/Technical Stand-up/Attacker|Technical Stand-up]]** (6% of attempts)
 
-- **[[Transitions/Hip Escape to Guard/Attacker|Hip Escape to Guard]]** (7% of attempts)
+- **[[Transitions/Hip Escape to Guard/Attacker|Hip Escape to Guard]]** (12% of attempts)
 
-- **[[Transitions/Escape Shoulder of Justice/Attacker|Escape Shoulder of Justice]]** (3% of attempts)
+- **[[Transitions/Escape Shoulder of Justice/Attacker|Escape Shoulder of Justice]]** (12% of attempts)
 
-- **[[Transitions/Frame from Shoulder of Justice/Attacker|Frame from Shoulder of Justice]]** (1% of attempts)
+- **[[Transitions/Frame from Shoulder of Justice/Attacker|Frame from Shoulder of Justice]]** (15% of attempts)
 
-- **[[Transitions/Frame Escape from Shoulder of Justice/Attacker|Frame Escape from Shoulder of Justice]]** (1% of attempts)
+- **[[Transitions/Frame Escape from Shoulder of Justice/Attacker|Frame Escape from Shoulder of Justice]]** (12% of attempts)
 
 
 ### Common Mistakes
@@ -220,23 +304,23 @@ This position is particularly effective in both gi and no-gi contexts, as it com
 ### Available Transitions
 
 
-- **[[Americana from Shoulder of Justice/Attacker|Americana from Shoulder of Justice]]** (12% of attempts)
+- **[[Americana from Shoulder of Justice/Attacker|Americana from Shoulder of Justice]]** (11% of attempts)
 
-- **[[Transitions/Side Control to Mount/Attacker|Side Control to Mount]]** (13% of attempts)
+- **[[Transitions/Side Control to Mount/Attacker|Side Control to Mount]]** (19% of attempts)
 
-- **[[Transitions/Side Control to North-South/Attacker|Side Control to North-South]]** (13% of attempts)
+- **[[Transitions/Side Control to North-South/Attacker|Side Control to North-South]]** (10% of attempts)
 
-- **[[Arm Triangle from Shoulder of Justice/Attacker|Arm Triangle from Shoulder of Justice]]** (11% of attempts)
+- **[[Arm Triangle from Shoulder of Justice/Attacker|Arm Triangle from Shoulder of Justice]]** (13% of attempts)
 
-- **[[North-South Choke from Shoulder of Justice/Attacker|North-South Choke from Shoulder of Justice]]** (10% of attempts)
+- **[[North-South Choke from Shoulder of Justice/Attacker|North-South Choke from Shoulder of Justice]]** (9% of attempts)
 
-- **[[Positions/Knee on Belly/Attacker|Knee on Belly]]** (13% of attempts)
+- **[[Positions/Knee on Belly/Attacker|Knee on Belly]]** (9% of attempts)
 
-- **[[Transitions/Shoulder of Justice Kimura Setup/Attacker|Shoulder of Justice Kimura Setup]]** (5% of attempts)
+- **[[Transitions/Shoulder of Justice Kimura Setup/Attacker|Shoulder of Justice Kimura Setup]]** (10% of attempts)
 
-- **[[Transitions/Shoulder of Justice to Mount/Attacker|Shoulder of Justice to Mount]]** (3% of attempts)
+- **[[Transitions/Shoulder of Justice to Mount/Attacker|Shoulder of Justice to Mount]]** (9% of attempts)
 
-- **[[Kimura from Shoulder of Justice/Attacker|Kimura from Shoulder of Justice]]** (20% of attempts)
+- **[[Kimura from Shoulder of Justice/Attacker|Kimura from Shoulder of Justice]]** (10% of attempts)
 
 
 ### Common Mistakes

@@ -142,6 +142,43 @@ description: "Comprehensive defensive guide against the Body Lock Takedown. Reco
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Body Lock Takedown (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Breaking the body lock with a kimura grip",
+      "description": "Body Lock Takedown (Defender) film study: Breaking the body lock with a kimura grip, taught by SBG Australia.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Fxpu62evbwk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Fxpu62evbwk",
+      "url": "https://www.youtube.com/watch?v=Fxpu62evbwk",
+      "creator": { "@type": "Person", "name": "SBG Australia" },
+      "duration": "PT44S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Defending the body lock takedown",
+      "description": "Body Lock Takedown (Defender) film study: Defending the body lock takedown, taught by TJ Dillashaw.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/4HaZwBmkFgk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/4HaZwBmkFgk",
+      "url": "https://www.youtube.com/watch?v=4HaZwBmkFgk",
+      "creator": { "@type": "Person", "name": "TJ Dillashaw" },
+      "duration": "PT207S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -151,6 +188,34 @@ Defending the Body Lock Takedown requires recognizing the attacker's setup cues 
 **Opponent's Starting Position**: [[Positions/Body Lock]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Body Lock Takedown (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Fxpu62evbwk)
+
+<p class="clip-credit"><strong>Breaking the body lock with a kimura grip</strong> — taught by SBG Australia · 0:44 · <a href="https://www.youtube.com/watch?v=Fxpu62evbwk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=4HaZwBmkFgk)
+
+<p class="clip-credit"><strong>Defending the body lock takedown</strong> — taught by TJ Dillashaw · 3:27 · <a href="https://www.youtube.com/watch?v=4HaZwBmkFgk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

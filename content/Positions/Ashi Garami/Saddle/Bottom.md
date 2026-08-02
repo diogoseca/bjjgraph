@@ -20,38 +20,38 @@ description: "Learn systematic saddle escapes prioritizing heel protection, hip 
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Execute Ashi Garami Escape",
-      "text": "From this position, attempt Ashi Garami Escape. This technique is attempted in 28% of exchanges from this position.",
+      "name": "Execute Standing up in Base",
+      "text": "From this position, attempt Standing up in Base. This technique is attempted in 10% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Standing up in Base",
-      "text": "From this position, attempt Standing up in Base. This technique is attempted in 2% of exchanges from this position.",
+      "name": "Execute Guard Recovery from Leg Entanglement",
+      "text": "From this position, attempt Guard Recovery from Leg Entanglement. This technique is attempted in 10% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Guard Recovery from Leg Entanglement",
-      "text": "From this position, attempt Guard Recovery from Leg Entanglement. This technique is attempted in 7% of exchanges from this position.",
+      "name": "Execute Frame and Shrimp to Guard",
+      "text": "From this position, attempt Frame and Shrimp to Guard. This technique is attempted in 6% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Frame and Shrimp to Guard",
-      "text": "From this position, attempt Frame and Shrimp to Guard. This technique is attempted in 8% of exchanges from this position.",
+      "name": "Execute Counter-entangle to 50-50 Guard",
+      "text": "From this position, attempt Counter-entangle to 50-50 Guard. This technique is attempted in 9% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Counter-entangle to 50-50 Guard",
-      "text": "From this position, attempt Counter-entangle to 50-50 Guard. This technique is attempted in 10% of exchanges from this position.",
+      "name": "Execute Inversion Escape",
+      "text": "From this position, attempt Inversion Escape. This technique is attempted in 5% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Inversion Escape",
-      "text": "From this position, attempt Inversion Escape. This technique is attempted in 12% of exchanges from this position.",
+      "name": "Execute Leg Extraction to Guard",
+      "text": "From this position, attempt Leg Extraction to Guard. This technique is attempted in 12% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -153,6 +153,43 @@ description: "Learn systematic saddle escapes prioritizing heel protection, hip 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Saddle (Bottom) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Saddle escape / leg drag flow",
+      "description": "Saddle (Bottom) film study: Saddle escape / leg drag flow, taught by Travis Anderson.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/C3bPRoMwGPo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/C3bPRoMwGPo",
+      "url": "https://www.youtube.com/watch?v=C3bPRoMwGPo",
+      "creator": { "@type": "Person", "name": "Travis Anderson" },
+      "duration": "PT70S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "How to escape from the toehold",
+      "description": "Saddle (Bottom) film study: How to escape from the toehold, taught by Gordon Ryan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/3a9k8-ZcYrk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/3a9k8-ZcYrk",
+      "url": "https://www.youtube.com/watch?v=3a9k8-ZcYrk",
+      "creator": { "@type": "Person", "name": "Gordon Ryan" },
+      "duration": "PT106S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -168,6 +205,34 @@ The psychological component of bottom Saddle cannot be understated. The position
 Understanding common submission mechanics from Saddle is essential for defensive strategy. The inside heel hook, outside heel hook, straight ankle lock, and kneebar all function differently and require position-specific defensive responses. A defense that successfully prevents inside heel hook mechanics might simultaneously expose the ankle to straight footlock attacks. This complexity demands comprehensive knowledge of submission pathways and their biomechanical requirements, allowing the defender to prioritize threats appropriately and select defensive actions that address multiple attacking options simultaneously.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Saddle (Bottom) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=C3bPRoMwGPo)
+
+<p class="clip-credit"><strong>Saddle escape / leg drag flow</strong> — taught by Travis Anderson · 1:10 · <a href="https://www.youtube.com/watch?v=C3bPRoMwGPo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=3a9k8-ZcYrk)
+
+<p class="clip-credit"><strong>How to escape from the toehold</strong> — taught by Gordon Ryan · 1:46 · <a href="https://www.youtube.com/watch?v=3a9k8-ZcYrk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 
@@ -341,7 +406,7 @@ Partner alternates between heel hook and ankle lock threats. Practice transition
 - **[[Positions/Ashi Garami/Inside Ashi-Garami]]** - Common fallback position when saddle escape is partially successful
 - **[[Positions/Ashi Garami/Outside Ashi-Garami]]** - Intermediate position during escape sequence
 - **[[Transitions/Ashi Garami Escape]]** - Primary defensive transition technique
-- **[[Transitions/Heel Hook]]** - Primary submission threat requiring defense
+- **[[Submissions/Heel Hook]]** - Primary submission threat requiring defense
 - **[[Submissions/Straight Ankle Lock]]** - Secondary submission threat when heel is hidden
 - **[[Positions/Leg Entanglement]]** - Conceptual framework for understanding position hierarchy
 

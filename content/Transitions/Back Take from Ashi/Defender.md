@@ -148,6 +148,54 @@ description: "How to defend against Back Take from Ashi in BJJ. Recognition cues
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Back Take from Ashi (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Cross ashi / honey hole counter to the back take",
+      "description": "Back Take from Ashi (Defender) film study: Cross ashi / honey hole counter to the back take, taught by Douglas Wasson.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/fsp_qU-D_-g/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/fsp_qU-D_-g",
+      "url": "https://www.youtube.com/watch?v=fsp_qU-D_-g",
+      "creator": { "@type": "Person", "name": "Douglas Wasson" },
+      "duration": "PT143S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Pillow defense against the back take sequence",
+      "description": "Back Take from Ashi (Defender) film study: Pillow defense against the back take sequence, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/14U9eDy1DKs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/14U9eDy1DKs",
+      "url": "https://www.youtube.com/watch?v=14U9eDy1DKs",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT483S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Outside ashi garami ankle lock defense",
+      "description": "Back Take from Ashi (Defender) film study: Outside ashi garami ankle lock defense, taught by Robert Diggle.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/E-7tbclTOe4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/E-7tbclTOe4",
+      "url": "https://www.youtube.com/watch?v=E-7tbclTOe4",
+      "creator": { "@type": "Person", "name": "Robert Diggle" },
+      "duration": "PT326S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -161,6 +209,42 @@ At the competition level, the defender's goal is not merely survival but creatin
 **Opponent's Starting Position**: [[Positions/Ashi Garami/Inside Ashi-Garami]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Back Take from Ashi (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=fsp_qU-D_-g)
+
+<p class="clip-credit"><strong>Cross ashi / honey hole counter to the back take</strong> — taught by Douglas Wasson · 2:23 · <a href="https://www.youtube.com/watch?v=fsp_qU-D_-g" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=14U9eDy1DKs)
+
+<p class="clip-credit"><strong>Pillow defense against the back take sequence</strong> — taught by Lachlan Giles · 8:03 · <a href="https://www.youtube.com/watch?v=14U9eDy1DKs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=E-7tbclTOe4)
+
+<p class="clip-credit"><strong>Outside ashi garami ankle lock defense</strong> — taught by Robert Diggle · 5:26 · <a href="https://www.youtube.com/watch?v=E-7tbclTOe4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

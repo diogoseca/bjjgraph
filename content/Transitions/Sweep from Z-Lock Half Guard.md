@@ -34,6 +34,54 @@ description: "Master the Sweep from Z-Lock Half Guard in BJJ. Combine lockdown t
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Sweep from Z-Lock Half Guard \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Corona lockdown sweep from half guard",
+      "description": "Sweep from Z-Lock Half Guard film study: Corona lockdown sweep from half guard, taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/08cbHHs_NsM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/08cbHHs_NsM",
+      "url": "https://www.youtube.com/watch?v=08cbHHs_NsM",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT53S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Lockdown sweep from half guard",
+      "description": "Sweep from Z-Lock Half Guard film study: Lockdown sweep from half guard, taught by Jiu-Jitsu Studio Salamanca.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/PKWx7CpKUXY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/PKWx7CpKUXY",
+      "url": "https://www.youtube.com/watch?v=PKWx7CpKUXY",
+      "creator": { "@type": "Person", "name": "Jiu-Jitsu Studio Salamanca" },
+      "duration": "PT65S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Lockdown stomp to butterfly guard",
+      "description": "Sweep from Z-Lock Half Guard film study: Lockdown stomp to butterfly guard, taught by Brandon McCaghren.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/LYeQDaZhVL0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/LYeQDaZhVL0",
+      "url": "https://www.youtube.com/watch?v=LYeQDaZhVL0",
+      "creator": { "@type": "Person", "name": "Brandon McCaghren" },
+      "duration": "PT123S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ Strategic deployment of this sweep creates a genuine dilemma for the top player:
 **Success Rate**: 40%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Sweep from Z-Lock Half Guard in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=08cbHHs_NsM)
+
+<p class="clip-credit"><strong>Corona lockdown sweep from half guard</strong> — taught by Eddie Bravo · 0:53 · <a href="https://www.youtube.com/watch?v=08cbHHs_NsM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=PKWx7CpKUXY)
+
+<p class="clip-credit"><strong>Lockdown sweep from half guard</strong> — taught by Jiu-Jitsu Studio Salamanca · 1:05 · <a href="https://www.youtube.com/watch?v=PKWx7CpKUXY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=LYeQDaZhVL0)
+
+<p class="clip-credit"><strong>Lockdown stomp to butterfly guard</strong> — taught by Brandon McCaghren · 2:03 · <a href="https://www.youtube.com/watch?v=LYeQDaZhVL0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

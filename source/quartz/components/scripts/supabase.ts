@@ -599,3 +599,86 @@ export async function syncOnLoad() {
     // Silent failure — data is still in localStorage (pull schedules a retry)
   }
 }
+
+// ── Neural progress blob ────────────────────────────────────────────────────────
+// The Neural app stores its per-user progress as a single JSONB column (`neural`)
+// on the same user_training_data row the legacy sync uses. Both writers upsert on
+// user_id with column-scoped payloads: Postgres ON CONFLICT DO UPDATE only touches
+// the columns present in the payload, and pushToCloud's payload never includes
+// `neural` (nor does this one include the training columns), so the two syncs
+// coexist on one row without clobbering each other.
+// Requires the `neural` column — apply supabase/neural_v1.sql before shipping.
+
+export async function pullNeural(): Promise<Record<string, unknown> | null> {
+  if (!isConfigured()) return null
+  try {
+    const client = await getClient()
+    const userId = await getUserId(client)
+    if (!userId) return null
+
+    const { data, error } = await client
+      .from("user_training_data")
+      .select("neural")
+      .eq("user_id", userId)
+      .maybeSingle()
+
+    if (error) {
+      console.error("[supabase] neural pull failed:", error)
+      return null
+    }
+    // No row yet (first visit before any push) → null; caller starts fresh.
+    return (data?.neural as Record<string, unknown> | undefined) ?? null
+  } catch (e) {
+    console.error("[supabase] neural pull error:", e)
+    return null
+  }
+}
+
+export async function pushNeural(blob: Record<string, unknown>): Promise<boolean> {
+  if (!isConfigured()) return false
+  try {
+    const client = await getClient()
+    const userId = await getUserId(client)
+    if (!userId) return false
+
+    const { error } = await client
+      .from("user_training_data")
+      .upsert({ user_id: userId, neural: blob }, { onConflict: "user_id" })
+      .single()
+
+    if (error) {
+      console.error("[supabase] neural push failed:", error)
+      return false
+    }
+    return true
+  } catch (e) {
+    console.error("[supabase] neural push error:", e)
+    return false
+  }
+}
+
+// ── Window façade for the Neural bundle ─────────────────────────────────────────
+// The Neural app is a separate no-eval IIFE bundle that cannot import TS modules;
+// it reaches auth + cloud persistence exclusively through this façade so zero
+// supabase-js bytes enter the neural bundle. Installed at module top-level:
+// supabase.ts is statically imported by authUI.inline.ts, whose bundle runs as
+// Component.AuthUI()'s afterDOMLoaded script in sharedPageComponents.afterBody —
+// i.e. on EVERY page, before any auth/config gate — so the façade is present
+// regardless of sign-in state. Each function degrades gracefully when Supabase
+// is unconfigured (null/false/no-op), matching the module's existing behaviour.
+
+if (typeof window !== "undefined") {
+  ;(window as any).__bjjAuth = {
+    ensureClientInitialized,
+    isAuthenticated,
+    getSession,
+    signIn,
+    signUp,
+    signInWithGoogle,
+    signOut,
+    onAuthChange,
+    resetPassword,
+    pullNeural,
+    pushNeural,
+  }
+}

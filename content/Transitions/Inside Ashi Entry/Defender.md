@@ -148,6 +148,54 @@ description: "How to defend against Inside Ashi Entry in BJJ. Recognition cues, 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Inside Ashi Entry (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Irimi ashi garami counter",
+      "description": "Inside Ashi Entry (Defender) film study: Irimi ashi garami counter, taught by John Danaher.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/cRXsNPAgVLU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/cRXsNPAgVLU",
+      "url": "https://www.youtube.com/watch?v=cRXsNPAgVLU",
+      "creator": { "@type": "Person", "name": "John Danaher" },
+      "duration": "PT29S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Leg defense from ashi garami",
+      "description": "Inside Ashi Entry (Defender) film study: Leg defense from ashi garami, taught by The Coop BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/L417yCl_-dc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/L417yCl_-dc",
+      "url": "https://www.youtube.com/watch?v=L417yCl_-dc",
+      "creator": { "@type": "Person", "name": "The Coop BJJ" },
+      "duration": "PT48S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Leg lock defense from the entanglement",
+      "description": "Inside Ashi Entry (Defender) film study: Leg lock defense from the entanglement, taught by Kuwy Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/m0NLphEuFoc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/m0NLphEuFoc",
+      "url": "https://www.youtube.com/watch?v=m0NLphEuFoc",
+      "creator": { "@type": "Person", "name": "Kuwy Jitsu" },
+      "duration": "PT61S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +205,42 @@ Defending the Inside Ashi Entry requires early recognition and immediate action 
 **Opponent's Starting Position**: [[Positions/Open Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Inside Ashi Entry (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=cRXsNPAgVLU)
+
+<p class="clip-credit"><strong>Irimi ashi garami counter</strong> — taught by John Danaher · 0:29 · <a href="https://www.youtube.com/watch?v=cRXsNPAgVLU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=L417yCl_-dc)
+
+<p class="clip-credit"><strong>Leg defense from ashi garami</strong> — taught by The Coop BJJ · 0:48 · <a href="https://www.youtube.com/watch?v=L417yCl_-dc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=m0NLphEuFoc)
+
+<p class="clip-credit"><strong>Leg lock defense from the entanglement</strong> — taught by Kuwy Jitsu · 1:01 · <a href="https://www.youtube.com/watch?v=m0NLphEuFoc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

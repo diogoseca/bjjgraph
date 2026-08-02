@@ -174,6 +174,43 @@ description: "Master the Toss Pass attacker strategy from Double Unders. Step-by
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Toss Pass from Double Unders (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Double unders pass",
+      "description": "Toss Pass from Double Unders (Attacker) film study: Double unders pass, taught by Nicky Ryan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/N4PxPPv98k4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/N4PxPPv98k4",
+      "url": "https://www.youtube.com/watch?v=N4PxPPv98k4",
+      "creator": { "@type": "Person", "name": "Nicky Ryan" },
+      "duration": "PT91S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Double under pass breakdown",
+      "description": "Toss Pass from Double Unders (Attacker) film study: Double under pass breakdown, taught by Scranton MMA.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/MPUuovNI1ak/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/MPUuovNI1ak",
+      "url": "https://www.youtube.com/watch?v=MPUuovNI1ak",
+      "creator": { "@type": "Person", "name": "Scranton MMA" },
+      "duration": "PT131S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -183,6 +220,34 @@ The Toss Pass attacker operates from an already dominant double unders control p
 **From Position**: [[Positions/Double Unders]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Toss Pass from Double Unders (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=N4PxPPv98k4)
+
+<p class="clip-credit"><strong>Double unders pass</strong> — taught by Nicky Ryan · 1:31 · <a href="https://www.youtube.com/watch?v=N4PxPPv98k4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=MPUuovNI1ak)
+
+<p class="clip-credit"><strong>Double under pass breakdown</strong> — taught by Scranton MMA · 2:11 · <a href="https://www.youtube.com/watch?v=MPUuovNI1ak" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

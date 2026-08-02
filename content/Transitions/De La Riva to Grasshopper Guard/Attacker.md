@@ -169,6 +169,43 @@ description: "How to invert from De La Riva into Grasshopper Guard in BJJ. Attac
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "De La Riva to Grasshopper Guard (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Inversion mechanics for guard entries",
+      "description": "De La Riva to Grasshopper Guard (Attacker) film study: Inversion mechanics for guard entries, taught by Mikey Musumeci.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/KNz5AkZ4jrg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/KNz5AkZ4jrg",
+      "url": "https://www.youtube.com/watch?v=KNz5AkZ4jrg",
+      "creator": { "@type": "Person", "name": "Mikey Musumeci" },
+      "duration": "PT72S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Tip to improve your De La Riva hook",
+      "description": "De La Riva to Grasshopper Guard (Attacker) film study: Tip to improve your De La Riva hook, taught by Absolute MMA St Kilda.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/eO0iX_6Whaw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/eO0iX_6Whaw",
+      "url": "https://www.youtube.com/watch?v=eO0iX_6Whaw",
+      "creator": { "@type": "Person", "name": "Absolute MMA St Kilda" },
+      "duration": "PT71S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <aside class="entity-relations">
@@ -185,6 +222,34 @@ Done well, this transition turns an apparent guard-pass scramble into a leg-atta
 **From Position**: [[Positions/De La Riva Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch De La Riva to Grasshopper Guard (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=KNz5AkZ4jrg)
+
+<p class="clip-credit"><strong>Inversion mechanics for guard entries</strong> — taught by Mikey Musumeci · 1:12 · <a href="https://www.youtube.com/watch?v=KNz5AkZ4jrg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=eO0iX_6Whaw)
+
+<p class="clip-credit"><strong>Tip to improve your De La Riva hook</strong> — taught by Absolute MMA St Kilda · 1:11 · <a href="https://www.youtube.com/watch?v=eO0iX_6Whaw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

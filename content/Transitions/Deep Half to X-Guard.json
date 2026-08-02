@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "X-Guard/Bottom",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Deep Half Guard/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "The Deep Half to X-Guard transition is a fundamental guard reconfiguration that connects two of BJJ's most powerful bottom positions. When the top player begins extracting their leg from deep half guard — either by pulling backward, widening their base, or shifting weight to defeat sweep threats — the bottom player exploits the movement by threading X-Guard hooks as the leg becomes available. This transition capitalizes on the principle that defensive reactions to one guard system create vulnerabilities to another, forming a chain that keeps the bottom player perpetually threatening.\n\nThe mechanics center on the bottom player's ability to rotate from the inverted deep half positioning to a perpendicular angle underneath the opponent. As the deep underhook releases or loosens, the bottom player threads their inside leg behind the opponent's near knee while simultaneously establishing the outside leg across the hip line. The hands transition from deep half grips to ankle and foot control, completing the X-Guard configuration. The entire movement must be fluid and continuous — any pause allows the top player to extract completely and establish a passing position.\n\nStrategically, this transition creates a powerful dilemma for the top player in deep half guard. If they maintain position, they face deep half sweeps like the waiter sweep and old school sweep. If they attempt to extract and disengage, they expose themselves to X-Guard entry and the powerful elevation sweeps that follow. This catch-22 dynamic makes the deep half to X-Guard chain one of the most effective bottom game systems in modern grappling, used extensively by elite competitors in both gi and no-gi competition.",
   "conditions": [
     "Bottom player has established deep half guard with underhook on opponent's far leg",
@@ -243,34 +255,133 @@
     "flashcards": [
       {
         "question": "Your opponent begins pulling their trapped leg backward while maintaining crossface pressure - how do you initiate the X-Guard transition?",
-        "answer": "Use the crossface pressure to your advantage by timing the transition with their pull. As they pull backward, their crossface becomes less effective because their weight shifts away from you. Thread your inside hook behind their knee as the leg moves backward, using their extraction momentum to help seat the hook deeply. Transfer your near hand to their ankle simultaneously to prevent full extraction. The pull-back actually makes the inside hook easier to thread because their leg is moving toward your hook entry angle."
+        "answer": "Use the crossface pressure to your advantage by timing the transition with their pull. As they pull backward, their crossface becomes less effective because their weight shifts away from you. Thread your inside hook behind their knee as the leg moves backward, using their extraction momentum to help seat the hook deeply. Transfer your near hand to their ankle simultaneously to prevent full extraction. The pull-back actually makes the inside hook easier to thread because their leg is moving toward your hook entry angle.",
+        "answer_line": "Thread hook as leg pulls back",
+        "distractors": {
+          "plausible": [
+            "Resist the pull, hold hook",
+            "Wait until leg fully extracts"
+          ],
+          "trap": [
+            "Release hook, chase the leg"
+          ]
+        }
       },
       {
         "question": "What is the most critical hook placement when transitioning from deep half to X-Guard?",
-        "answer": "The inside hook behind the opponent's near knee is the most critical placement. This hook must pass completely behind the knee joint with your foot visible on the far side. A shallow hook that only reaches the back of the thigh provides insufficient control and allows easy extraction. Thread the hook using hip thrust rather than leg extension alone, and ensure the hook locks at the crook of the knee where it creates maximum leverage for elevation sweeps and prevents the opponent from simply kicking free."
+        "answer": "The inside hook behind the opponent's near knee is the most critical placement. This hook must pass completely behind the knee joint with your foot visible on the far side. A shallow hook that only reaches the back of the thigh provides insufficient control and allows easy extraction. Thread the hook using hip thrust rather than leg extension alone, and ensure the hook locks at the crook of the knee where it creates maximum leverage for elevation sweeps and prevents the opponent from simply kicking free.",
+        "answer_line": "Inside hook behind near knee",
+        "distractors": {
+          "plausible": [
+            "Hook around the thigh",
+            "Hook at the ankle instead"
+          ],
+          "trap": [
+            "Grab both legs, skip hook"
+          ]
+        }
       },
       {
         "question": "You have threaded your inside hook but your opponent sprawls before you can establish the outside leg - what adjustment do you make?",
-        "answer": "If only the inside hook is set and the opponent sprawls, evaluate the distance. If they are still within reach, immediately elevate with just the inside hook to off-balance them while racing to place your outside foot on their far hip. If they have created too much distance for the outside leg, convert to Single Leg X-Guard by bringing your outside leg to the same-side hip and hooking with both legs on one side. The inside hook gives you enough control to prevent full disengagement while you reconfigure."
+        "answer": "If only the inside hook is set and the opponent sprawls, evaluate the distance. If they are still within reach, immediately elevate with just the inside hook to off-balance them while racing to place your outside foot on their far hip. If they have created too much distance for the outside leg, convert to Single Leg X-Guard by bringing your outside leg to the same-side hip and hooking with both legs on one side. The inside hook gives you enough control to prevent full disengagement while you reconfigure.",
+        "answer_line": "Elevate hook or switch to SLX",
+        "distractors": {
+          "plausible": [
+            "Abandon hook, reset guard",
+            "Force outside leg regardless"
+          ],
+          "trap": [
+            "Release hook, stand up"
+          ]
+        }
       },
       {
         "question": "What grip must you establish on the opponent's ankle before completing the X-Guard configuration?",
-        "answer": "Your near-side hand should secure a grip on the opponent's trapped ankle or heel, controlling the lower leg to prevent backward extraction. In gi, grab the pants at the ankle cuff. In no-gi, cup the heel or hook behind the Achilles tendon. This grip is the third point in a three-point control system alongside the inside hook and outside leg frame. Without ankle control, the opponent can simply step backward out of X-Guard, as leg hooks alone cannot prevent linear retreat when the opponent commits to extraction."
+        "answer": "Your near-side hand should secure a grip on the opponent's trapped ankle or heel, controlling the lower leg to prevent backward extraction. In gi, grab the pants at the ankle cuff. In no-gi, cup the heel or hook behind the Achilles tendon. This grip is the third point in a three-point control system alongside the inside hook and outside leg frame. Without ankle control, the opponent can simply step backward out of X-Guard, as leg hooks alone cannot prevent linear retreat when the opponent commits to extraction.",
+        "answer_line": "Grip trapped ankle or heel",
+        "distractors": {
+          "plausible": [
+            "Grip the far knee instead",
+            "Grip pants at the thigh"
+          ],
+          "trap": [
+            "Let go of leg, grab collar"
+          ]
+        }
       },
       {
         "question": "The top player drives their knee forward to prevent your inside hook from threading - what chain attack becomes available?",
-        "answer": "When the opponent drives their knee forward to block the inside hook, they shift their weight toward you, which is the exact trigger for deep half sweeps. Abandon the X-Guard attempt and immediately attack with the waiter sweep, using their forward weight commitment against them. Alternatively, if their knee drive creates space on the far side, enter the old school sweep. The opponent faces a dilemma: resist the X-Guard transition by driving forward and expose themselves to deep half sweeps, or pull back and allow the X-Guard entry."
+        "answer": "When the opponent drives their knee forward to block the inside hook, they shift their weight toward you, which is the exact trigger for deep half sweeps. Abandon the X-Guard attempt and immediately attack with the waiter sweep, using their forward weight commitment against them. Alternatively, if their knee drive creates space on the far side, enter the old school sweep. The opponent faces a dilemma: resist the X-Guard transition by driving forward and expose themselves to deep half sweeps, or pull back and allow the X-Guard entry.",
+        "answer_line": "Attack the waiter sweep",
+        "distractors": {
+          "plausible": [
+            "Keep fighting for X-Guard",
+            "Push knee back to reset"
+          ],
+          "trap": [
+            "Release grips and retreat"
+          ]
+        }
       },
       {
         "question": "What hip angle relative to the opponent creates optimal sweeping leverage in the completed X-Guard position?",
-        "answer": "Your body should be perpendicular to the opponent's trapped leg, forming a T-shape where your shoulders point approximately 90 degrees away from the direction their leg faces. This perpendicular angle maximizes sweeping leverage because your legs create forces that act at right angles to the opponent's base, which is the most mechanically efficient direction for off-balancing. A parallel angle reduces sweep power significantly because your forces align with their base direction rather than cutting across it."
+        "answer": "Your body should be perpendicular to the opponent's trapped leg, forming a T-shape where your shoulders point approximately 90 degrees away from the direction their leg faces. This perpendicular angle maximizes sweeping leverage because your legs create forces that act at right angles to the opponent's base, which is the most mechanically efficient direction for off-balancing. A parallel angle reduces sweep power significantly because your forces align with their base direction rather than cutting across it.",
+        "answer_line": "Perpendicular T-shape angle",
+        "distractors": {
+          "plausible": [
+            "Parallel to their leg line",
+            "Facing them straight on"
+          ],
+          "trap": [
+            "Turn away, back to opponent"
+          ]
+        }
       },
       {
         "question": "What are the two primary conditions that must exist before attempting the Deep Half to X-Guard transition?",
-        "answer": "First, the opponent must be shifting their weight backward or attempting to extract their far leg from your deep half control. Forward-driving opponents should be swept with deep half techniques, not transitioned against. Second, you must have sufficient hip mobility and space to rotate from the inverted deep half angle to the perpendicular X-Guard position. If you are completely flattened by crossface pressure without space to rotate, you need to create space first through framing and shrimping before attempting the transition."
+        "answer": "First, the opponent must be shifting their weight backward or attempting to extract their far leg from your deep half control. Forward-driving opponents should be swept with deep half techniques, not transitioned against. Second, you must have sufficient hip mobility and space to rotate from the inverted deep half angle to the perpendicular X-Guard position. If you are completely flattened by crossface pressure without space to rotate, you need to create space first through framing and shrimping before attempting the transition.",
+        "answer_line": "Weight shift back plus hip space",
+        "distractors": {
+          "plausible": [
+            "Any moment guard is broken",
+            "Opponent flat, no space needed"
+          ],
+          "trap": [
+            "Attempt under heavy crossface"
+          ]
+        }
       }
     ],
-    "safety_considerations": "This transition involves significant hip rotation and leg repositioning under an opponent's weight. Avoid forcing hooks when knee alignment is compromised, as lateral knee pressure during the X-Guard entry can stress the MCL and meniscus. Ensure proper warm-up of hips and knees before drilling. Tap immediately if your partner's weight shifts unexpectedly onto a compromised leg position. When drilling at speed, communicate with training partners about knee sensitivity. The inside hook threading carries particular risk if the opponent drives their knee laterally while your foot is partially inserted — release and reset rather than forcing through resistance."
+    "safety_considerations": "This transition involves significant hip rotation and leg repositioning under an opponent's weight. Avoid forcing hooks when knee alignment is compromised, as lateral knee pressure during the X-Guard entry can stress the MCL and meniscus. Ensure proper warm-up of hips and knees before drilling. Tap immediately if your partner's weight shifts unexpectedly onto a compromised leg position. When drilling at speed, communicate with training partners about knee sensitivity. The inside hook threading carries particular risk if the opponent drives their knee laterally while your foot is partially inserted — release and reset rather than forcing through resistance.",
+    "clips": [
+      {
+        "id": "vOYlq4yK8ns",
+        "title": "Waiter sweep to X-guard from deep half",
+        "by": "Revolution BJJ",
+        "vertical": false,
+        "channel": "Revolution BJJ",
+        "duration": 16,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "WWclVTFqucc",
+        "title": "Deep half guard to X-guard transition",
+        "by": "Revolution BJJ",
+        "vertical": false,
+        "channel": "Revolution BJJ",
+        "duration": 137,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "GOeuZa7Kc6U",
+        "title": "Deep half to single X entry",
+        "by": "Strong Hold Jiu Jitsu",
+        "vertical": false,
+        "channel": "Strong Hold Jiu Jitsu",
+        "duration": 122,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Deep Half to X-Guard Defender",
@@ -356,19 +467,59 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that indicates the bottom player is transitioning from deep half to X-Guard?",
-        "answer": "The earliest cue is the loosening or release of the deep underhook on your far leg. In deep half guard, this underhook is the primary control mechanism, so any voluntary loosening indicates the bottom player is preparing to reconfigure their hooks. You may also feel their hips beginning to rotate from the inverted deep half angle toward a perpendicular position. Both cues precede the actual hook threading and provide the critical early warning window needed for effective defense."
+        "answer": "The earliest cue is the loosening or release of the deep underhook on your far leg. In deep half guard, this underhook is the primary control mechanism, so any voluntary loosening indicates the bottom player is preparing to reconfigure their hooks. You may also feel their hips beginning to rotate from the inverted deep half angle toward a perpendicular position. Both cues precede the actual hook threading and provide the critical early warning window needed for effective defense.",
+        "answer_line": "Underhook loosens on far leg",
+        "distractors": {
+          "plausible": [
+            "Hips start rotating first",
+            "Trapped leg pulls back first"
+          ],
+          "trap": [
+            "Wait until hook is threaded"
+          ]
+        }
       },
       {
         "question": "How should you adjust your weight distribution when you feel the bottom player's underhook loosening?",
-        "answer": "Shift your weight slightly forward and drive crossface pressure into the bottom player's jaw and upper body. This forward weight commitment flattens their upper body to prevent the hip rotation needed for X-Guard entry, and drives your trapped knee forward past their hook entry zone. However, do not overcommit forward — maintain enough balance to adjust if they switch from the X-Guard attempt back to a deep half sweep that capitalizes on your forward pressure."
+        "answer": "Shift your weight slightly forward and drive crossface pressure into the bottom player's jaw and upper body. This forward weight commitment flattens their upper body to prevent the hip rotation needed for X-Guard entry, and drives your trapped knee forward past their hook entry zone. However, do not overcommit forward — maintain enough balance to adjust if they switch from the X-Guard attempt back to a deep half sweep that capitalizes on your forward pressure.",
+        "answer_line": "Shift forward, crossface jaw",
+        "distractors": {
+          "plausible": [
+            "Shift weight back, create space",
+            "Sit back to defend hook"
+          ],
+          "trap": [
+            "Overcommit forward, drop base"
+          ]
+        }
       },
       {
         "question": "Your opponent has threaded one hook behind your knee but has not established the outside leg - what is the optimal defensive response?",
-        "answer": "With only the inside hook set, the X-Guard is not yet functional. Immediately drive your hooked knee downward and outward to make the hook shallow while driving crossface pressure to prevent the outside leg from reaching your hip. If you can push their inside hook below your knee joint, it loses control effectiveness. Simultaneously use your free hand to block their outside leg from crossing your hip line. Without the outside leg frame, the inside hook alone cannot generate sweep leverage."
+        "answer": "With only the inside hook set, the X-Guard is not yet functional. Immediately drive your hooked knee downward and outward to make the hook shallow while driving crossface pressure to prevent the outside leg from reaching your hip. If you can push their inside hook below your knee joint, it loses control effectiveness. Simultaneously use your free hand to block their outside leg from crossing your hip line. Without the outside leg frame, the inside hook alone cannot generate sweep leverage.",
+        "answer_line": "Drive knee down, block outside leg",
+        "distractors": {
+          "plausible": [
+            "Kick leg free immediately",
+            "Retreat hips to create space"
+          ],
+          "trap": [
+            "Let hook set, defend later"
+          ]
+        }
       },
       {
         "question": "What grip or pressure point most effectively prevents the bottom player from completing the perpendicular angle needed for X-Guard?",
-        "answer": "Crossface pressure on their jaw and upper body is the most effective control. The perpendicular angle requires hip rotation, which is powered by turning the head and shoulders first. By driving your shoulder or forearm across their face and pinning their head to the mat facing away from the rotation direction, you mechanically prevent the hip rotation from occurring. Secondary control through a hand on their far hip further restricts the rotational movement needed to complete the transition."
+        "answer": "Crossface pressure on their jaw and upper body is the most effective control. The perpendicular angle requires hip rotation, which is powered by turning the head and shoulders first. By driving your shoulder or forearm across their face and pinning their head to the mat facing away from the rotation direction, you mechanically prevent the hip rotation from occurring. Secondary control through a hand on their far hip further restricts the rotational movement needed to complete the transition.",
+        "answer_line": "Crossface pins head, shoulders",
+        "distractors": {
+          "plausible": [
+            "Grip far hip only",
+            "Push down on their chest"
+          ],
+          "trap": [
+            "Release crossface, grab legs"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -391,6 +542,26 @@
         "phase": "Phase 4: Counter-Attack Integration",
         "focus": "Transitioning from defense to immediate offense",
         "description": "After successfully defending the X-Guard transition, practice immediately transitioning to guard passing or leg entanglement entries without pause. Build the habit of capitalizing on the bottom player's failed transition rather than simply re-establishing deep half top and restarting the cycle."
+      }
+    ],
+    "clips": [
+      {
+        "id": "K0XMj9BNJ8U",
+        "title": "Knee slide pass counter before deep half develops",
+        "by": "Scott Ryan Chiriboga",
+        "vertical": false,
+        "channel": "Scott Ryan Chiriboga",
+        "duration": 133,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "WQu-G2JVj2A",
+        "title": "Defensive strategy to avoid the deep half guard",
+        "by": "DVG Jiu Jitsu",
+        "vertical": false,
+        "channel": "DVG JIU JITSU",
+        "duration": 275,
+        "verified": "2026-07-15"
       }
     ]
   }

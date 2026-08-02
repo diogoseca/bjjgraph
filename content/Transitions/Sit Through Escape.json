@@ -14,21 +14,33 @@
   "outcomes": [
     {
       "to": "Open Guard/Bottom",
-      "probability": 65,
+      "probability": {
+        "gi": 65,
+        "nogi": 65
+      },
       "result": "success"
     },
     {
       "to": "Crab Ride/Bottom",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Back Control/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "summary": "The Sit Through Escape is a wrestling-based guard recovery from Crab Ride bottom where you load your base, drop the near-side hip, and swing the trapped leg through the opponent's hook to arrive face-to-face in open guard.",
   "overview": "The Sit Through Escape is a fundamental wrestling-based escape from the Crab Ride position that creates rotational momentum to clear the opponent's hook and establish a facing guard position. This technique exploits the inherent weakness in the crab ride control structure—the top player's commitment to maintaining their hooking leg creates a momentary vulnerability when the bottom player shifts weight and rotates through the space between the hook and the opponent's base leg.\n\nThe escape works by combining a strategic weight shift with explosive hip rotation. As the bottom player loads weight onto their hands and far-side knee, they create the space necessary to swing their near-side leg through to the other side of their body. This rotation not only clears the crab ride hook but also creates the momentum to face the opponent directly, establishing an open guard configuration. The timing must coincide with moments when the top player adjusts their grips or shifts their weight forward.\n\nStrategically, the Sit Through Escape represents a high-percentage option when the opponent has established only the initial hook and has not yet secured deep upper body control. It is particularly effective against opponents who over-commit to the hooking leg or who extend too far forward in pursuit of back control. The escape transitions naturally into various open guard variations and can be chained with technical stand-ups when the opponent's reaction creates additional space.",
   "related_content": [
@@ -204,46 +216,175 @@
     "flashcards": [
       {
         "question": "What is the primary goal of Sit Through Escape?",
-        "answer": "The primary goal is to clear the opponent's hooking leg and rotate to a position where you are facing them directly, establishing an open guard configuration. This eliminates back exposure and creates a defensive position where you can manage distance with your legs and threaten sweeps or submissions rather than purely defending against back control."
+        "answer": "The primary goal is to clear the opponent's hooking leg and rotate to a position where you are facing them directly, establishing an open guard configuration. This eliminates back exposure and creates a defensive position where you can manage distance with your legs and threaten sweeps or submissions rather than purely defending against back control.",
+        "answer_line": "Clear hook, face them, open guard",
+        "distractors": {
+          "plausible": [
+            "Turn and get to turtle",
+            "Stand up to break grip"
+          ],
+          "trap": [
+            "Turn away and expose back"
+          ]
+        }
       },
       {
         "question": "What position do you start Sit Through Escape from?",
-        "answer": "This technique starts from Crab Ride Bottom, where the opponent has established a single hook control from the side of your turtle position. You are on hands and knees with the opponent's hooking leg wrapped around your near-side hip while they maintain upper body control and work to insert a second hook for full back control."
+        "answer": "This technique starts from Crab Ride Bottom, where the opponent has established a single hook control from the side of your turtle position. You are on hands and knees with the opponent's hooking leg wrapped around your near-side hip while they maintain upper body control and work to insert a second hook for full back control.",
+        "answer_line": "Crab Ride Bottom",
+        "distractors": {
+          "plausible": [
+            "Turtle, both hooks in",
+            "Seat belt back control"
+          ],
+          "trap": [
+            "Mount, opponent on top"
+          ]
+        }
       },
       {
         "question": "What are the key structural positions needed before initiating Sit Through Escape?",
-        "answer": "You need three structural elements established before initiating: hands planted firmly on the mat slightly wider than shoulders with bent elbows for explosive push-off capability, far-side knee loaded underneath your body to serve as the rotation pivot point, and near-side leg mobile with hip ready to drive down to create hook clearance. Without this three-point base, the rotation cannot generate sufficient momentum."
+        "answer": "Before initiating, plant hands slightly wider than shoulders, load the far-side knee as a pivot, and keep the near-side leg mobile. Hands go firmly on the mat with bent elbows for explosive push-off capability, the far-side knee loads underneath your body to serve as the rotation pivot point, and the near-side hip stays ready to drive down to create hook clearance. Without this three-point base, the rotation cannot generate sufficient momentum.",
+        "distractors": {
+          "plausible": [
+            "Load near knee as pivot",
+            "Post hands narrow, elbows locked"
+          ],
+          "trap": [
+            "Keep both knees planted wide"
+          ]
+        },
+        "answer_line": "Hands wide, load far knee"
       },
       {
         "question": "How do you counter Sit Through Escape when opponent follows your rotation?",
-        "answer": "When the opponent follows your rotation effectively, abandon settling into guard and accelerate into a technical stand-up or immediately chain to a different escape direction. You can also use the sit through as a feint—begin the motion to draw their following response, then reverse direction into a Granby roll. The key is never settling into a static position when they have maintained connection through your movement."
+        "answer": "When the opponent follows your rotation, abandon settling into guard and accelerate into a technical stand-up or chain to a different escape direction. You can also use the sit through as a feint—begin the motion to draw their following response, then reverse direction into a Granby roll. The key is never settling into a static position when they have maintained connection through your movement.",
+        "distractors": {
+          "plausible": [
+            "Push through into guard fast",
+            "Keep rotating same direction"
+          ],
+          "trap": [
+            "Settle into open guard anyway"
+          ]
+        },
+        "answer_line": "Stand up or reverse direction"
       },
       {
         "question": "When is the optimal timing window to attempt Sit Through Escape?",
-        "answer": "The optimal timing occurs when the opponent shifts their weight forward to attempt the second hook insertion, adjusts their upper body grips, or reaches for a new control point. These moments create brief windows where their hook connection loosens and their ability to follow rotation is compromised. Additionally, when opponent is high on your back with a shallow hook (foot not deeply crossed) presents excellent timing."
+        "answer": "Attempt it when the opponent shifts weight forward for the second hook, adjusts their upper body grips, or reaches for a new control point. These moments create brief windows where their hook connection loosens and their ability to follow rotation is compromised. Additionally, when the opponent is high on your back with a shallow hook (foot not deeply crossed), that presents excellent timing.",
+        "distractors": {
+          "plausible": [
+            "Right after seat belt locks",
+            "When hook is buried deep"
+          ],
+          "trap": [
+            "Wait for full back control"
+          ]
+        },
+        "answer_line": "When they shift for 2nd hook"
       },
       {
         "question": "What hip movement direction generates the most effective rotation for Sit Through Escape?",
-        "answer": "The hip movement should initially drive DOWN toward the mat on your near side (the hooked side) to create clearance space, then explosively rotate THROUGH toward your far side as the swinging leg passes underneath. The motion is not a flat spin but rather a drop-and-rotate sequence that uses the mat as a reference point for creating the hook clearance before the rotation phase."
+        "answer": "Drive your hips DOWN into the mat on the hooked near side first to create clearance, then explosively rotate THROUGH toward your far side. The swinging leg passes underneath during the rotation phase. The motion is not a flat spin but a drop-and-rotate sequence that uses the mat as a reference point for creating hook clearance before the rotation.",
+        "distractors": {
+          "plausible": [
+            "Rotate flat in one motion",
+            "Swing leg first, then drop hip"
+          ],
+          "trap": [
+            "Push hips up and away"
+          ]
+        },
+        "answer_line": "Drop hip down, then rotate through"
       },
       {
         "question": "Your opponent secures a seat belt grip while maintaining crab ride—should you attempt sit through immediately?",
-        "answer": "No. When opponent has consolidated seat belt control, the sit through should not be your immediate choice. First address the upper body control by two-on-one gripping their choking hand and prying it away from your neck, or by stripping their under-hooking arm. Only after creating slack in their upper body control should you initiate the sit through, otherwise they will simply maintain connection through your rotation."
+        "answer": "No—first break their upper body control by two-on-one gripping the choking hand and prying it from your neck, or stripping the underhook arm. Only after creating slack in their upper body control should you initiate the sit through; otherwise they will simply maintain connection through your rotation, since a consolidated seat belt lets them follow you.",
+        "distractors": {
+          "plausible": [
+            "Yes, sit through breaks it too",
+            "No, wait for them to tire"
+          ],
+          "trap": [
+            "Yes, immediately explode through"
+          ]
+        },
+        "answer_line": "No, break upper body grip first"
       },
       {
         "question": "What guard variation should you establish immediately after completing the sit through rotation?",
-        "answer": "Open guard with feet immediately on opponent's hips is the highest priority to create distance and prevent them from immediately closing back to a passing position. From there, depending on their posture and grips, you can transition to butterfly guard if they drop their base, de la riva if they stand, or close your guard if they drive forward into you. The key is active foot engagement within 1-2 seconds of completing rotation."
+        "answer": "Open guard with feet immediately on the opponent's hips is the highest priority, creating distance and preventing them from closing back to a passing position. From there, depending on their posture and grips, transition to butterfly guard if they drop their base, de la riva if they stand, or close your guard if they drive forward into you. The key is active foot engagement within 1-2 seconds of completing rotation.",
+        "distractors": {
+          "plausible": [
+            "Closed guard immediately",
+            "De la riva right away"
+          ],
+          "trap": [
+            "Sit back and reset turtle"
+          ]
+        },
+        "answer_line": "Open guard, feet on hips"
       },
       {
         "question": "How does the sit through escape chain with other crab ride bottom escape options?",
-        "answer": "The sit through chains naturally with Granby roll (opposite rotation direction creates misdirection), hip escape to turtle reset (when rotation is blocked), and technical stand-up (continuation of momentum). Effective crab ride defense involves threatening multiple escape directions so opponent cannot commit fully to countering any single escape. Begin one escape, read their reaction, and flow to the option their counter creates openings for."
+        "answer": "It chains with the Granby roll (opposite rotation creates misdirection), hip escape to turtle reset when blocked, and technical stand-up off its momentum. Effective crab ride defense involves threatening multiple escape directions so the opponent cannot commit fully to countering any single escape. Begin one escape, read their reaction, and flow to the option their counter creates openings for.",
+        "distractors": {
+          "plausible": [
+            "Only granby roll works well",
+            "Just repeat sit through"
+          ],
+          "trap": [
+            "Commit fully to one escape"
+          ]
+        },
+        "answer_line": "Granby, hip escape, stand-up"
       },
       {
         "question": "What is the critical error that prevents the rotation from completing during sit through attempts?",
-        "answer": "The most critical error is failing to properly load weight onto the far-side knee before initiating rotation. Without this pivot point established, the rotation has no stable base to generate momentum from. Practitioners who keep their far-side knee wide or unloaded find their rotation stalls midway, leaving them in a worse position than they started. Always feel your weight shift to the pivot knee before swinging the near leg through."
+        "answer": "The most critical error is failing to properly load weight onto the far-side knee before initiating rotation. Without this pivot point established, the rotation has no stable base to generate momentum from. Practitioners who keep their far-side knee wide or unloaded find their rotation stalls midway, leaving them in a worse position than they started. Always feel your weight shift to the pivot knee before swinging the near leg through.",
+        "answer_line": "Not loading far-side knee",
+        "distractors": {
+          "plausible": [
+            "Hands placed too close",
+            "Moving hips too slowly"
+          ],
+          "trap": [
+            "Loading the near-side knee instead"
+          ]
+        }
       }
     ],
-    "safety_considerations": "The Sit Through Escape is generally a low-injury-risk technique when performed correctly. Primary safety concerns involve neck protection during rotation—keep chin firmly tucked throughout to prevent opponent from capitalizing on exposed neck during the transition. Avoid attempting this escape when opponent has deep seat belt control as the rotation under these conditions can create strain on the neck and shoulder complex. Practice initially at slow speeds to develop the rotation mechanics before adding explosiveness. Be aware of your training partner's position during rotation to avoid accidentally kneeing them during the swinging phase. If rotation is blocked mid-execution, do not force through—release and reset to prevent shoulder strain from fighting a stuck position."
+    "safety_considerations": "The Sit Through Escape is generally a low-injury-risk technique when performed correctly. Primary safety concerns involve neck protection during rotation—keep chin firmly tucked throughout to prevent opponent from capitalizing on exposed neck during the transition. Avoid attempting this escape when opponent has deep seat belt control as the rotation under these conditions can create strain on the neck and shoulder complex. Practice initially at slow speeds to develop the rotation mechanics before adding explosiveness. Be aware of your training partner's position during rotation to avoid accidentally kneeing them during the swinging phase. If rotation is blocked mid-execution, do not force through—release and reset to prevent shoulder strain from fighting a stuck position.",
+    "clips": [
+      {
+        "id": "-S6bU0mQp1Y",
+        "title": "Escaping the crab ride",
+        "by": "Brian Hawkins",
+        "vertical": false,
+        "channel": "Brian Hawkins",
+        "duration": 78,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "cUpVFqRUXY4",
+        "title": "Getting out from crab ride",
+        "by": "Iron Faith Wrestling",
+        "vertical": false,
+        "channel": "Iron Faith Wrestling",
+        "duration": 92,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "jdUhyICbKSM",
+        "title": "Crab ride defense to low leg cradle",
+        "by": "Michael Trasso",
+        "vertical": false,
+        "channel": "Merge Grappling",
+        "duration": 33,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Sit Through Escape Defender",
@@ -319,23 +460,73 @@
     "flashcards": [
       {
         "question": "What is the earliest physical cue that your opponent is preparing a sit through escape from crab ride?",
-        "answer": "The earliest cue is feeling their weight shift forward onto their posted hands, which reduces the pressure you feel through your hooking leg. This weight transfer is the necessary first step before they can load their far-side knee and initiate the hip drop. Reacting at this stage by increasing forward pressure and deepening your hook stops the escape before the rotation mechanics can develop."
+        "answer": "The earliest cue is feeling their weight shift forward onto their posted hands, which reduces the pressure you feel through your hooking leg. This weight transfer is the necessary first step before they can load their far-side knee and initiate the hip drop. Reacting at this stage by increasing forward pressure and deepening your hook stops the escape before the rotation mechanics can develop.",
+        "answer_line": "Weight shifts onto posted hands",
+        "distractors": {
+          "plausible": [
+            "Hook suddenly goes very tight",
+            "They stop moving completely"
+          ],
+          "trap": [
+            "They relax upper body grips"
+          ]
+        }
       },
       {
         "question": "Your opponent begins rotating through a sit through and your hook is clearing—what should you do?",
-        "answer": "Do not try to re-establish the original hook position. Instead, follow their rotation by driving forward and circling in the same direction they are rotating. Keep your chest glued to their back throughout the movement. As they complete the rotation, look to insert your hook on the opposite side of their body and transition to full back control. Fighting the rotation statically almost always fails against a committed sit through."
+        "answer": "Do not try to re-establish the original hook position. Instead, follow their rotation by driving forward and circling in the same direction they are rotating. Keep your chest glued to their back throughout the movement. As they complete the rotation, look to insert your hook on the opposite side of their body and transition to full back control. Fighting the rotation statically almost always fails against a committed sit through.",
+        "answer_line": "Follow rotation, chest glued",
+        "distractors": {
+          "plausible": [
+            "Re-hook same original spot",
+            "Stay flat, wait for reversal"
+          ],
+          "trap": [
+            "Fight rotation, hold hook static"
+          ]
+        }
       },
       {
         "question": "How does maintaining seat belt control change your defensive approach against the sit through?",
-        "answer": "Seat belt control fundamentally changes the defensive dynamic because it connects your upper body to theirs, preventing independent torso rotation. With a solid seat belt grip, the bottom player cannot rotate their shoulders and hips independently of your body, which is the core mechanic of the sit through. This means the escape becomes mechanically impossible without them first stripping your upper body control, giving you a clear defensive hierarchy: maintain seat belt first, then manage hook depth."
+        "answer": "Seat belt control fundamentally changes the defensive dynamic because it connects your upper body to theirs, preventing independent torso rotation. With a solid seat belt grip, the bottom player cannot rotate their shoulders and hips independently of your body, which is the core mechanic of the sit through. This means the escape becomes mechanically impossible without them first stripping your upper body control, giving you a clear defensive hierarchy: maintain seat belt first, then manage hook depth.",
+        "answer_line": "Seat belt blocks the rotation",
+        "distractors": {
+          "plausible": [
+            "Seat belt only slows the hook",
+            "Seat belt replaces hook need"
+          ],
+          "trap": [
+            "Seat belt lets you release hook"
+          ]
+        }
       },
       {
         "question": "Your opponent fakes a sit through then immediately attempts a Granby roll—how do you adapt?",
-        "answer": "This combination attack exploits your tendency to drive forward in reaction to the sit through cue. When you feel the directional change from sit through to Granby, immediately shift your weight laterally rather than continuing forward pressure. Keep your hooking leg active and look to re-establish your perpendicular position as they roll. The key is not over-committing in either direction—maintain balanced pressure that allows you to follow either escape path without losing your base."
+        "answer": "This combination attack exploits your tendency to drive forward in reaction to the sit through cue. When you feel the directional change from sit through to Granby, immediately shift your weight laterally rather than continuing forward pressure. Keep your hooking leg active and look to re-establish your perpendicular position as they roll. The key is not over-committing in either direction—maintain balanced pressure that allows you to follow either escape path without losing your base.",
+        "answer_line": "Shift weight laterally, stay active",
+        "distractors": {
+          "plausible": [
+            "Keep driving forward hard",
+            "Abandon hook, chase Granby"
+          ],
+          "trap": [
+            "Commit full weight forward"
+          ]
+        }
       },
       {
         "question": "What is the most important defensive principle when facing a skilled opponent who chains sit through with other escapes?",
-        "answer": "The most important principle is maintaining constant chest-to-back connection above all else. Individual hook and grip adjustments will vary as you react to different escape directions, but as long as your chest stays connected to their back, you maintain positional authority regardless of which escape they attempt. This connection gives you the tactile feedback to read their movements and the physical platform to follow any directional change. Losing chest contact is the common denominator in all successful escapes from crab ride."
+        "answer": "The most important principle is maintaining constant chest-to-back connection above all else. Individual hook and grip adjustments will vary as you react to different escape directions, but as long as your chest stays connected to their back, you maintain positional authority regardless of which escape they attempt. This connection gives you the tactile feedback to read their movements and the physical platform to follow any directional change. Losing chest contact is the common denominator in all successful escapes from crab ride.",
+        "answer_line": "Keep chest connected to back",
+        "distractors": {
+          "plausible": [
+            "Track their hip movement only",
+            "Reset grips after each attempt"
+          ],
+          "trap": [
+            "Release chest, create space"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -358,6 +549,35 @@
         "phase": "Week 7+",
         "focus": "Live positional sparring",
         "description": "Full resistance positional rounds from crab ride. Top player works to maintain control and advance to back while bottom player uses all escape options. Track how often sit through attempts succeed versus get countered. Identify patterns in your defensive timing gaps."
+      }
+    ],
+    "clips": [
+      {
+        "id": "X06h6EJpV24",
+        "title": "Scoring with a crab ride when opponent sits out",
+        "by": "WrestlingTournaments.com",
+        "vertical": false,
+        "channel": "WrestlingTournaments․com",
+        "duration": 52,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "qp--XOaaFjk",
+        "title": "Crab ride turn when opponent traps you on your back",
+        "by": "CMPTV",
+        "vertical": false,
+        "channel": "CMPTV",
+        "duration": 61,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "F-5OoSOUBBo",
+        "title": "Crab ride transition to leg ride",
+        "by": "Myrmidon Wrestling",
+        "vertical": false,
+        "channel": "myrmidonwrestling",
+        "duration": 118,
+        "verified": "2026-07-15"
       }
     ]
   },

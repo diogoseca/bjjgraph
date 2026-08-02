@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Mount/Bottom",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Mounted Crucifix/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Back Control/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "summary": "The Hip Escape from Mounted Crucifix is a bottom escape that pairs an explosive directional bridge with a sharp lateral hip shift to free the leg-trapped arms and downgrade the position back to standard mount bottom.",
   "overview": "The hip escape from mounted crucifix addresses one of the most desperate defensive scenarios in Brazilian Jiu-Jitsu. When trapped beneath an opponent who has combined mount control with leg-based arm isolation, your standard escape repertoire is severely compromised. This technique uses coordinated hip movement and precise timing to create the space necessary for arm extraction, converting the mounted crucifix into a regular mount position where traditional escape sequences become available.\n\nThe mechanics center on generating lateral hip displacement despite the opponent's weight and arm control. Unlike standard mount escapes where both arms are available for framing, the mounted crucifix forces reliance on hip power, bridging mechanics, and strategic timing of the opponent's weight shifts. The escape typically begins with an explosive bridge to disrupt the opponent's balance, immediately followed by a sharp hip escape that creates angular displacement between your torso and their leg-based arm traps. This angular change reduces the mechanical advantage of the leg entanglement, allowing gradual arm extraction.\n\nStrategically, the hip escape from mounted crucifix represents the first link in a survival chain. Success does not mean safety - it means transitioning from an almost inescapable position to one where proven escape methods can be applied. The practitioner must understand that reaching mount bottom after extracting their arms is a significant positional improvement, not a failure. From there, standard elbow escapes, bridge-and-roll techniques, and guard recovery sequences become viable. Training this escape develops the explosive hip mechanics and composure under extreme pressure that transfer to defensive competency across all bottom positions.",
   "conditions": [
@@ -244,38 +256,138 @@
     "flashcards": [
       {
         "question": "Why must you bridge toward the trapped-arm side rather than directly upward when initiating the hip escape?",
-        "answer": "Bridging toward the trapped-arm side creates specific directional disruption to the opponent's base on that side while generating momentum that feeds into the subsequent hip escape in the opposite direction. A straight-up bridge allows the opponent to ride and re-settle symmetrically. The directional bridge forces them to respond to a lateral threat, and the immediate directional change to hip escape exploits the recovery lag in their balance adjustment."
+        "answer": "Bridging toward the trapped-arm side creates specific directional disruption to the opponent's base on that side while generating momentum that feeds into the subsequent hip escape in the opposite direction. A straight-up bridge allows the opponent to ride and re-settle symmetrically. The directional bridge forces them to respond to a lateral threat, and the immediate directional change to hip escape exploits the recovery lag in their balance adjustment.",
+        "answer_line": "Disrupts base, feeds momentum",
+        "distractors": {
+          "plausible": [
+            "Bridge straight up for power",
+            "Bridge toward the free-arm side"
+          ],
+          "trap": [
+            "Skip the bridge, shrimp only"
+          ]
+        }
       },
       {
         "question": "What is the critical timing window for arm extraction during the hip escape sequence?",
-        "answer": "The optimal extraction window occurs during the transition between the bridge peak and the hip escape completion, approximately one to two seconds. At this moment, the angular displacement between your torso and the opponent's legs is at maximum, creating the widest gaps in the leg entanglement. Attempting extraction before this point faces full resistance, while waiting too long allows the opponent to re-establish tight control as they settle back onto your new position."
+        "answer": "The optimal extraction window occurs during the transition between the bridge peak and the hip escape completion, approximately one to two seconds. At this moment, the angular displacement between your torso and the opponent's legs is at maximum, creating the widest gaps in the leg entanglement. Attempting extraction before this point faces full resistance, while waiting too long allows the opponent to re-establish tight control as they settle back onto your new position.",
+        "answer_line": "Just after bridge peak",
+        "distractors": {
+          "plausible": [
+            "During the bridge itself",
+            "After opponent resettles"
+          ],
+          "trap": [
+            "Before you even bridge"
+          ]
+        }
       },
       {
         "question": "Your opponent squeezes their knees tighter every time you bridge - how do you adjust your escape strategy?",
-        "answer": "Use the bridge as a feint rather than the primary escape mechanism. Bridge explosively to provoke the tightening response, then immediately relax and wait for the brief loosening that naturally follows as the opponent relaxes from their defensive squeeze. Execute the hip escape during this post-tension window. Alternatively, time your escape to coincide with their submission attempts, when their focus shifts from control to attack and leg pressure naturally decreases."
+        "answer": "Use the bridge as a feint rather than the primary escape mechanism. Bridge explosively to provoke the tightening response, then immediately relax and wait for the brief loosening that naturally follows as the opponent relaxes from their defensive squeeze. Execute the hip escape during this post-tension window. Alternatively, time your escape to coincide with their submission attempts, when their focus shifts from control to attack and leg pressure naturally decreases.",
+        "answer_line": "Feint bridge, wait for release",
+        "distractors": {
+          "plausible": [
+            "Bridge harder every rep",
+            "Wait for them to fatigue"
+          ],
+          "trap": [
+            "Force knees apart with hands"
+          ]
+        }
       },
       {
         "question": "What grip or arm position should you establish immediately after extracting your arms from the crucifix?",
-        "answer": "Immediately establish forearm frames against the opponent's hips and inner thighs, creating a structural barrier that prevents re-isolation of your arms. The frames should use skeletal alignment with elbows connected to your ribcage for maximum strength. Do not extend arms or reach for the opponent's upper body, as this re-exposes the arms to leg entanglement. The priority is creating a defensive structure that converts the position to standard mount bottom."
+        "answer": "Immediately establish forearm frames against the opponent's hips and inner thighs, creating a structural barrier that prevents re-isolation of your arms. The frames should use skeletal alignment with elbows connected to your ribcage for maximum strength. Do not extend arms or reach for the opponent's upper body, as this re-exposes the arms to leg entanglement. The priority is creating a defensive structure that converts the position to standard mount bottom.",
+        "answer_line": "Frame hips and thighs, elbows in",
+        "distractors": {
+          "plausible": [
+            "Reach for their upper body",
+            "Extend arms to push them off"
+          ],
+          "trap": [
+            "Grab collar and posture up"
+          ]
+        }
       },
       {
         "question": "How do you prevent the opponent from taking your back during the hip escape movement?",
-        "answer": "Keep your shoulders relatively square to the opponent during the hip escape rather than turning fully to your side. The hip escape should move your hips laterally while your upper body maintains a defensive angle that does not expose your back. If you feel the opponent beginning to follow your movement with hooks, immediately reverse direction and turn back toward them. Extracting arms before full commitment to the lateral escape reduces back exposure risk."
+        "answer": "Keep your shoulders relatively square to the opponent during the hip escape rather than turning fully to your side. The hip escape should move your hips laterally while your upper body maintains a defensive angle that does not expose your back. If you feel the opponent beginning to follow your movement with hooks, immediately reverse direction and turn back toward them. Extracting arms before full commitment to the lateral escape reduces back exposure risk.",
+        "answer_line": "Keep shoulders square, don't turn",
+        "distractors": {
+          "plausible": [
+            "Turn fully to escape faster",
+            "Chase full side-turn early"
+          ],
+          "trap": [
+            "Turn your back to create space"
+          ]
+        }
       },
       {
         "question": "Your escape attempt fails and you are back in mounted crucifix with depleted energy - what is your recovery strategy?",
-        "answer": "Shift to energy conservation mode with controlled breathing and minimal movement to recover stamina. Maintain essential defensive positioning - chin tucked, shoulders elevated - while waiting for the opponent's next movement to create a timing window. Avoid additional explosive attempts until breathing normalizes. The opponent must also expend energy to attack, and patient defense through their submission attempts often creates better escape windows than forcing through established control when exhausted."
+        "answer": "Shift to energy conservation mode with controlled breathing and minimal movement to recover stamina. Maintain essential defensive positioning - chin tucked, shoulders elevated - while waiting for the opponent's next movement to create a timing window. Avoid additional explosive attempts until breathing normalizes. The opponent must also expend energy to attack, and patient defense through their submission attempts often creates better escape windows than forcing through established control when exhausted.",
+        "answer_line": "Conserve energy, defend patiently",
+        "distractors": {
+          "plausible": [
+            "Bridge again immediately",
+            "Posture up to create space"
+          ],
+          "trap": [
+            "Force another explosive attempt"
+          ]
+        }
       },
       {
         "question": "What body mechanics generate the most effective hip escape force from a mounted crucifix position?",
-        "answer": "Plant both feet firmly on the mat with knees bent at approximately 90 degrees. Drive through the outside foot and bridge side of the hip to initiate the lateral displacement, using core rotation to amplify the movement. The hip escape force comes from the ground through your feet and legs, not from your core alone. Keep the movement compact and sharp rather than slow and sweeping, as a quick displacement is harder for the opponent to follow and creates more immediate space for arm extraction."
+        "answer": "Plant both feet firmly on the mat with knees bent at approximately 90 degrees. Drive through the outside foot and bridge side of the hip to initiate the lateral displacement, using core rotation to amplify the movement. The hip escape force comes from the ground through your feet and legs, not from your core alone. Keep the movement compact and sharp rather than slow and sweeping, as a quick displacement is harder for the opponent to follow and creates more immediate space for arm extraction.",
+        "answer_line": "Drive through feet, not just core",
+        "distractors": {
+          "plausible": [
+            "Power comes from core alone",
+            "Slow, sweeping hip movement"
+          ],
+          "trap": [
+            "Straighten legs, arch high"
+          ]
+        }
       },
       {
         "question": "When should you choose the incremental shrimp escape variant over the explosive bridge-to-hip-escape combination?",
-        "answer": "Choose the incremental shrimp when your energy reserves are depleted, when the opponent is significantly heavier and explosive bridges cannot disrupt their base, or when you have already partially loosened the arm control and small additional adjustments can complete the extraction. The explosive variant is preferred when you have energy, when the opponent shifts weight during attack transitions, or when their control is tight but their balance is forward. The incremental approach trades speed for sustainability."
+        "answer": "Choose the incremental shrimp when your energy reserves are depleted, when the opponent is significantly heavier and explosive bridges cannot disrupt their base, or when you have already partially loosened the arm control and small additional adjustments can complete the extraction. The explosive variant is preferred when you have energy, when the opponent shifts weight during attack transitions, or when their control is tight but their balance is forward. The incremental approach trades speed for sustainability.",
+        "answer_line": "Low energy or heavier opponent",
+        "distractors": {
+          "plausible": [
+            "Always use explosive bridges",
+            "Only after tapping once"
+          ],
+          "trap": [
+            "Explosive bridge when exhausted"
+          ]
+        }
       }
     ],
-    "safety_considerations": "The hip escape from mounted crucifix involves explosive bridging and hip movement while under significant spinal load from the opponent's body weight. Practitioners should be cautious of neck strain during aggressive chin-tucking defense, especially when the opponent drives forward. During training, partners should communicate clearly about pressure levels and allow controlled escape practice before full resistance. Tapping immediately to any submission threat that develops during escape attempts is essential, as the compromised arm position creates elevated risk for shoulder and elbow injuries. Avoid training this escape when fatigued to the point where bridging mechanics deteriorate and cervical spine protection is compromised."
+    "safety_considerations": "The hip escape from mounted crucifix involves explosive bridging and hip movement while under significant spinal load from the opponent's body weight. Practitioners should be cautious of neck strain during aggressive chin-tucking defense, especially when the opponent drives forward. During training, partners should communicate clearly about pressure levels and allow controlled escape practice before full resistance. Tapping immediately to any submission threat that develops during escape attempts is essential, as the compromised arm position creates elevated risk for shoulder and elbow injuries. Avoid training this escape when fatigued to the point where bridging mechanics deteriorate and cervical spine protection is compromised.",
+    "clips": [
+      {
+        "id": "C7wr6klxbC8",
+        "title": "Crucifix escape demonstration",
+        "by": "Chosen Few BJJ coach",
+        "vertical": false,
+        "channel": "Chosen Few BJJ",
+        "duration": 89,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "m-iTKRTVeeo",
+        "title": "Crucifix escape mechanics",
+        "by": "Chosen Few BJJ coach",
+        "vertical": false,
+        "channel": "Chosen Few BJJ",
+        "duration": 160,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Hip Escape from Mounted Crucifix Defender",
@@ -362,19 +474,59 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that your opponent is about to attempt the hip escape from mounted crucifix?",
-        "answer": "The earliest cue is the opponent firmly planting both feet on the mat and loading their hips by pressing their lower back into the ground. This preparatory position is necessary to generate bridging force and typically occurs one to two seconds before the explosive movement. Secondary cues include changes in breathing pattern, subtle hip rocking, and core tensing. Recognizing these preparatory movements allows you to preemptively tighten control before the escape begins."
+        "answer": "The earliest cue is the opponent firmly planting both feet on the mat and loading their hips by pressing their lower back into the ground. This preparatory position is necessary to generate bridging force and typically occurs one to two seconds before the explosive movement. Secondary cues include changes in breathing pattern, subtle hip rocking, and core tensing. Recognizing these preparatory movements allows you to preemptively tighten control before the escape begins.",
+        "answer_line": "Feet planted, hips loading",
+        "distractors": {
+          "plausible": [
+            "Sudden explosive bridge",
+            "Deep controlled breathing"
+          ],
+          "trap": [
+            "Wait for the bridge to react"
+          ]
+        }
       },
       {
         "question": "How should you adjust your weight distribution when you feel the opponent begin to bridge?",
-        "answer": "Immediately drive your weight forward and down, lowering your center of gravity toward their chest while squeezing knees tight. Avoid posting hands on the mat if possible, as this lifts weight off the opponent. Instead, use your chest pressure and hip heaviness to absorb the bridge. If the bridge has a directional component, shift your weight slightly toward the opposite side to counter the lateral force while maintaining leg entanglement on the trapped arms."
+        "answer": "Immediately drive your weight forward and down, lowering your center of gravity toward their chest while squeezing knees tight. Avoid posting hands on the mat if possible, as this lifts weight off the opponent. Instead, use your chest pressure and hip heaviness to absorb the bridge. If the bridge has a directional component, shift your weight slightly toward the opposite side to counter the lateral force while maintaining leg entanglement on the trapped arms.",
+        "answer_line": "Drop weight forward, squeeze knees",
+        "distractors": {
+          "plausible": [
+            "Post hands on mat to balance",
+            "Sit back and wait it out"
+          ],
+          "trap": [
+            "Rise up on your hands"
+          ]
+        }
       },
       {
         "question": "When should you abandon maintaining mounted crucifix and transition to back control instead?",
-        "answer": "Transition to back control when the opponent's hip escape has created more than approximately thirty degrees of angular displacement and their arm is beginning to slide free from your leg entanglement. At this point, maintaining crucifix requires fighting against their momentum, while following the direction of their escape naturally positions you for back hooks. The opponent's own escape movement provides the momentum for your transition. Recognizing this tipping point and committing to back control preserves dominant position rather than losing control entirely."
+        "answer": "Transition to back control when the opponent's hip escape has created more than approximately thirty degrees of angular displacement and their arm is beginning to slide free from your leg entanglement. At this point, maintaining crucifix requires fighting against their momentum, while following the direction of their escape naturally positions you for back hooks. The opponent's own escape movement provides the momentum for your transition. Recognizing this tipping point and committing to back control preserves dominant position rather than losing control entirely.",
+        "answer_line": "30-degree shift, arm slipping",
+        "distractors": {
+          "plausible": [
+            "Fight to hold crucifix longer",
+            "Wait for full arm extraction"
+          ],
+          "trap": [
+            "Chase a straight armbar instead"
+          ]
+        }
       },
       {
         "question": "Your opponent keeps timing their escape attempts to your submission setups - how do you break this pattern?",
-        "answer": "Vary your attack rhythm by feinting submissions without fully committing, forcing the opponent to react defensively without receiving the weight shift they rely on for escape timing. Alternate between genuine submission threats and pressure maintenance phases so the opponent cannot predict when the weight shift will occur. You can also bait the escape by simulating a weight shift and then immediately tightening control when they initiate the bridge, catching them in a compromised position with depleted energy."
+        "answer": "Vary your attack rhythm by feinting submissions without fully committing, forcing the opponent to react defensively without receiving the weight shift they rely on for escape timing. Alternate between genuine submission threats and pressure maintenance phases so the opponent cannot predict when the weight shift will occur. You can also bait the escape by simulating a weight shift and then immediately tightening control when they initiate the bridge, catching them in a compromised position with depleted energy.",
+        "answer_line": "Feint attacks, vary the rhythm",
+        "distractors": {
+          "plausible": [
+            "Stop attempting submissions",
+            "Always finish the same setup"
+          ],
+          "trap": [
+            "Commit fully to every setup"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -397,6 +549,26 @@
         "phase": "Phase 4: Dynamic Decision Making",
         "focus": "Choosing between maintaining crucifix, transitioning to back, or attacking submissions in real time",
         "description": "Full positional sparring from mounted crucifix with unrestricted escape attempts. Practice reading the situation and making split-second decisions about whether to maintain control, follow the escape into back control, or attack a submission. Develop the tactical awareness to select the highest-percentage response to each escape variation."
+      }
+    ],
+    "clips": [
+      {
+        "id": "-Vmyjv8-WFw",
+        "title": "Holding the side crucifix and attacking the arm",
+        "by": "Evolve MMA coach",
+        "vertical": false,
+        "channel": "Evolve Mixed Martial Arts",
+        "duration": 76,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "rdQkBWzG-X4",
+        "title": "Mounted crucifix control and attacks",
+        "by": "Team United MMA coach",
+        "vertical": false,
+        "channel": "Team United MMA",
+        "duration": 142,
+        "verified": "2026-07-15"
       }
     ]
   }

@@ -389,39 +389,158 @@
   "flashcards": [
     {
       "question": "What is a clamp in BJJ mechanics?",
-      "answer": "A clamp is the squeezing together of two paired body parts — legs around a torso, arms around a neck, knees against ribs — applying inward force the opponent can only resist by expanding outward, which is mechanically disadvantaged."
+      "answer": "A clamp is the squeezing together of two paired body parts — legs around a torso, arms around a neck, knees against ribs — applying inward force the opponent can only resist by expanding outward, which is mechanically disadvantaged.",
+      "answer_line": "Squeeze paired parts inward",
+      "distractors": {
+        "plausible": [
+          "Any strong grip or hold",
+          "Pressing weight straight down"
+        ],
+        "trap": [
+          "Push opponent's limbs outward"
+        ]
+      }
     },
     {
       "question": "Why are leg-based clamps generally stronger than arm-based clamps?",
-      "answer": "The adductors, hip flexors, and glutes that drive leg clamps are among the largest, strongest muscles in the body and fatigue far more slowly than the lats, chest, and arms used in upper-body clamps."
+      "answer": "The adductors, hip flexors, and glutes that drive leg clamps are among the largest, strongest muscles in the body and fatigue far more slowly than the lats, chest, and arms used in upper-body clamps.",
+      "answer_line": "Legs use bigger, tireless muscles",
+      "distractors": {
+        "plausible": [
+          "Legs have much longer reach",
+          "Arms are needed for grips elsewhere"
+        ],
+        "trap": [
+          "Arm clamps fatigue slower"
+        ]
+      }
     },
     {
       "question": "Why should you close the loop before applying maximum squeeze pressure?",
-      "answer": "An open loop leaks pressure and warns the opponent, letting them posture up or insert frames before the clamp completes. Securing the ankle lock, clasp, or figure-four first gives the squeeze a closed structure to compress against."
+      "answer": "An open loop leaks pressure and warns the opponent, letting them posture up or insert frames before the clamp completes. Securing the ankle lock, clasp, or figure-four first gives the squeeze a closed structure to compress against.",
+      "answer_line": "Close the loop, then squeeze",
+      "distractors": {
+        "plausible": [
+          "Squeeze hard immediately",
+          "Posture up before locking in"
+        ],
+        "trap": [
+          "Leave the loop open to rest"
+        ]
+      }
     },
     {
       "question": "Why is clamping the ribcage more effective than clamping the waist?",
-      "answer": "The ribcage is a narrower, less compressible circumference, so the same squeeze force produces greater compression. Migrating the clamp to the narrowest viable circumference dramatically increases its effectiveness per unit of effort."
+      "answer": "The ribcage is a narrower, less compressible circumference, so the same squeeze force produces greater compression. Migrating the clamp to the narrowest viable circumference dramatically increases its effectiveness per unit of effort.",
+      "answer_line": "Narrower ribs = more compression",
+      "distractors": {
+        "plausible": [
+          "Bony ribs hurt more than waist",
+          "Higher clamp = better leverage"
+        ],
+        "trap": [
+          "Release and re-clamp higher up"
+        ]
+      }
     },
     {
       "question": "What role do skeletal locks play in maintaining a clamp?",
-      "answer": "Skeletal locks like the ankle behind the knee or the figure-four let the bones bear the clamping load, so the loop stays closed while the muscles rest — enabling sustained pressure without continuous muscular fatigue."
+      "answer": "Skeletal locks like the ankle behind the knee or the figure-four let the bones bear the clamping load, so the loop stays closed while the muscles rest — enabling sustained pressure without continuous muscular fatigue.",
+      "answer_line": "Bones bear load, muscles rest",
+      "distractors": {
+        "plausible": [
+          "Muscles must stay flexed always",
+          "Locks add extra squeeze force"
+        ],
+        "trap": [
+          "Release the lock to re-squeeze"
+        ]
+      }
     },
     {
       "question": "What is the universal pattern for escaping any clamp?",
-      "answer": "Every clamp escape involves creating enough internal space within the squeeze to extract a body part through the loop, using posture, frames, and wedges to find and exploit the weakest point in the clamp."
+      "answer": "Every clamp escape involves creating enough internal space within the squeeze to extract a body part through the loop, using posture, frames, and wedges to find and exploit the weakest point in the clamp.",
+      "answer_line": "Create space, extract through loop",
+      "distractors": {
+        "plausible": [
+          "Overpower it with raw strength",
+          "Wait for opponent to fatigue"
+        ],
+        "trap": [
+          "Push straight into the squeeze"
+        ]
+      }
     },
     {
       "question": "What is the most common error when clamping with the legs?",
-      "answer": "Squeezing with the calves instead of the adductors and hips. The small distal muscles fatigue quickly and generate weak pressure, while the large proximal muscles produce far stronger, more sustainable compression."
+      "answer": "Squeezing with the calves instead of the adductors and hips. The small distal muscles fatigue quickly and generate weak pressure, while the large proximal muscles produce far stronger, more sustainable compression.",
+      "answer_line": "Squeezing with calves, not hips",
+      "distractors": {
+        "plausible": [
+          "Gripping too hard with the hands",
+          "Locking the ankles before squeezing"
+        ],
+        "trap": [
+          "Flexing calves for more power"
+        ]
+      }
     },
     {
       "question": "How do clamps and frames relate to one another?",
-      "answer": "Frames are the primary defense against clamps — they create the internal space needed to break the loop — while good clamps are designed to deny frame insertion, which reveals the core offensive-defensive interplay between them."
+      "answer": "Frames are the primary defense against clamps — they create the internal space needed to break the loop — while good clamps are designed to deny frame insertion, which reveals the core offensive-defensive interplay between them.",
+      "answer_line": "Frames create space to break clamp",
+      "distractors": {
+        "plausible": [
+          "Frames add force to a clamp",
+          "Clamps and frames are unrelated"
+        ],
+        "trap": [
+          "Add frames to strengthen your clamp"
+        ]
+      }
     },
     {
       "question": "How does the triangle choke amplify clamping force beyond simple compression?",
-      "answer": "The figure-four leg configuration uses the leg as a lever with the opponent's shoulder as a fulcrum, multiplying the squeezing force well beyond what straight inward compression of the thighs alone could generate."
+      "answer": "The figure-four leg configuration uses the leg as a lever with the opponent's shoulder as a fulcrum, multiplying the squeezing force well beyond what straight inward compression of the thighs alone could generate.",
+      "answer_line": "Leg as lever, shoulder as fulcrum",
+      "distractors": {
+        "plausible": [
+          "Pure thigh compression force",
+          "Two-handed clasp adds extra grip"
+        ],
+        "trap": [
+          "Push opponent's head down harder"
+        ]
+      }
+    }
+  ],
+  "clips": [
+    {
+      "id": "gQWXO_L0jbU",
+      "title": "The clamp position and its attacks",
+      "by": "BJJ Fanatics",
+      "vertical": false,
+      "channel": "BJJ Fanatics",
+      "duration": 223,
+      "verified": "2026-07-15"
+    },
+    {
+      "id": "ypi3ie6hKTI",
+      "title": "Closed guard fundamentals: clamping the opponent",
+      "by": "John Danaher",
+      "vertical": false,
+      "channel": "Bernardo Faria BJJ Fanatics",
+      "duration": 1103,
+      "verified": "2026-07-15"
+    },
+    {
+      "id": "E8x1Cva8hJ8",
+      "title": "Half guard clamping and control mechanics",
+      "by": "John Danaher",
+      "vertical": false,
+      "channel": "Bernardo Faria BJJ Fanatics",
+      "duration": 1664,
+      "verified": "2026-07-15"
     }
   ]
 }

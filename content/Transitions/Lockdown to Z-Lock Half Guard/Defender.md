@@ -140,6 +140,54 @@ description: "Complete guide to defending against the Z-Lock Half Guard transiti
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Lockdown to Z-Lock Half Guard (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Breaking the lockdown half guard",
+      "description": "Lockdown to Z-Lock Half Guard (Defender) film study: Breaking the lockdown half guard, taught by Superhero Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/-49CypLW9aM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/-49CypLW9aM",
+      "url": "https://www.youtube.com/watch?v=-49CypLW9aM",
+      "creator": { "@type": "Person", "name": "Superhero Jiu Jitsu" },
+      "duration": "PT61S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Z guard break",
+      "description": "Lockdown to Z-Lock Half Guard (Defender) film study: Z guard break, taught by Enso Jiu Jitsu coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/5mmi9w-dZas/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/5mmi9w-dZas",
+      "url": "https://www.youtube.com/watch?v=5mmi9w-dZas",
+      "creator": { "@type": "Person", "name": "Enso Jiu Jitsu coach" },
+      "duration": "PT32S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Getting unstuck on top half guard",
+      "description": "Lockdown to Z-Lock Half Guard (Defender) film study: Getting unstuck on top half guard, taught by Trapp Martial Arts.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/WMcD-_R-To0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/WMcD-_R-To0",
+      "url": "https://www.youtube.com/watch?v=WMcD-_R-To0",
+      "creator": { "@type": "Person", "name": "Trapp Martial Arts" },
+      "duration": "PT35S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -149,6 +197,42 @@ As the defender in the Transition to Z-Lock Half Guard, you are the bottom playe
 **Opponent's Starting Position**: [[Positions/Half Guard/Lockdown]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Lockdown to Z-Lock Half Guard (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=-49CypLW9aM)
+
+<p class="clip-credit"><strong>Breaking the lockdown half guard</strong> — taught by Superhero Jiu Jitsu · 1:01 · <a href="https://www.youtube.com/watch?v=-49CypLW9aM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=5mmi9w-dZas)
+
+<p class="clip-credit"><strong>Z guard break</strong> — taught by Enso Jiu Jitsu coach · 0:32 · <a href="https://www.youtube.com/watch?v=5mmi9w-dZas" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=WMcD-_R-To0)
+
+<p class="clip-credit"><strong>Getting unstuck on top half guard</strong> — taught by Trapp Martial Arts · 0:35 · <a href="https://www.youtube.com/watch?v=WMcD-_R-To0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

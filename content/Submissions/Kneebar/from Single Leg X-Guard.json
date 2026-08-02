@@ -17,7 +17,10 @@
   "target_area": "Knee joint (posterior cruciate ligament, medial collateral ligament, lateral collateral ligament)",
   "starting_position": "Single Leg X-Guard",
   "from_position": "Single Leg X-Guard/Top",
-  "success_rate": 52,
+  "success_rate": {
+    "gi": 52,
+    "nogi": 52
+  },
   "overview": "The kneebar from Single Leg X-Guard is a high-percentage counter-attack available to the top player whose leg is trapped within the SLX guard configuration. This technique exploits a fundamental vulnerability in the SLX position: the bottom player's legs, while providing powerful sweeping leverage and control, are extended and partially isolated, making the knee joint accessible to hyperextension attack. The top player transitions from a defensive posture to an aggressive leg lock by controlling the bottom player's hooking foot, backstepping around the entangling leg, and establishing a perpendicular kneebar position on the controlling leg.\n\nThis entry is particularly effective because it reverses the positional dynamic entirely. The bottom player, accustomed to being the aggressor from SLX, suddenly becomes the defender against a joint lock targeting their own controlling leg. The transition requires precise timing — initiating the kneebar entry when the bottom player commits to a sweep or extends their hooks aggressively creates a window where their leg is maximally exposed and defensive awareness is at its lowest. Modern competitive grapplers have refined this entry into a systematic counter-attack that fundamentally alters the risk-reward calculation of playing Single Leg X-Guard.\n\nThe kneebar from SLX has become an essential component of top-player strategy when facing sophisticated leg entanglement guards in no-gi competition. Proficiency in this technique forces guard players to moderate their aggression from SLX bottom, opening additional passing lanes and creating a tactical advantage that extends well beyond the submission threat itself. The technique combines standard kneebar finishing mechanics with position-specific entry timing that exploits the structural properties unique to the SLX configuration.",
   "safety_considerations": {
     "injury_risks": [
@@ -74,17 +77,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Single Leg X-Guard/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Top",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "counter"
     }
   ],
@@ -318,62 +330,202 @@
       {
         "question": "Why must you apply kneebar pressure progressively over 5-7 seconds in training rather than explosively?",
         "answer": "Explosive application of the kneebar can cause immediate catastrophic knee injury including PCL tears, MCL ruptures, and meniscus damage before your training partner has time to recognize the danger and tap. The knee joint is extremely vulnerable to hyperextension, and unlike many other submissions, there is minimal safe zone between no pressure and injury. Progressive application over 5-7 seconds allows your partner to feel the increasing danger and tap safely, preventing serious injuries that require surgery and months of recovery.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Prevent injury before tap",
+        "distractors": {
+          "plausible": [
+            "Warm up the joint gradually",
+            "Feel for their flexibility"
+          ],
+          "trap": [
+            "Snap it fast for quick tap"
+          ]
+        }
       },
       {
         "question": "What makes the backstep entry timing critical when attacking the kneebar from SLX Top?",
         "answer": "The backstep must be initiated immediately upon securing the bottom player's hooking foot, before they can retract their hooks and deny the entry. The optimal timing window occurs when the bottom player commits to extending their hooks for a sweep — their legs are maximally exposed and their defensive attention is directed toward sweeping rather than protecting their knee. Any hesitation during the backstep allows the bottom player to recognize the threat and pull their legs back to safety. The entry should be drilled as one fluid motion from foot grab to sitting perpendicular, with no pause between phases.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Strike as they extend hooks",
+        "distractors": {
+          "plausible": [
+            "Enter after they retract hooks",
+            "Settle the grip, then backstep"
+          ],
+          "trap": [
+            "Stall and let them take your back"
+          ]
+        }
       },
       {
         "question": "What anatomical structures does the kneebar from SLX primarily attack, and what is the mechanism of injury?",
         "answer": "The kneebar primarily attacks the posterior cruciate ligament (PCL) through hyperextension of the knee joint. The mechanism involves positioning the fulcrum point (your hip or lower abdomen) just above the patella while controlling the heel, then extending your hips to create a lever that forces the knee beyond its natural range of extension. Secondary structures at risk include the medial and lateral collateral ligaments, which resist valgus and varus stress respectively, and the menisci, which can tear under rotational or compressive forces if the heel is not properly controlled during application.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "PCL via knee hyperextension",
+        "distractors": {
+          "plausible": [
+            "ACL torn by deep knee flexion",
+            "Kneecap pried from the joint"
+          ],
+          "trap": [
+            "Knee snapped by explosive twist"
+          ]
+        }
       },
       {
         "question": "Your opponent begins sitting up to strip your heel control — what immediate adjustment secures the kneebar position?",
         "answer": "Immediately increase the push pressure with your free leg against their chest or shoulder to drive them back down, while simultaneously tightening your heel grip and scooting your hips further away from their body to increase the lever arm distance. If they continue rising despite the leg frame, squeeze your figure-four leg triangle tighter to prevent leg extraction and angle your body more perpendicular. The combination of upper body frame pressure and tightened hip angle creates a structure they cannot posture through. If they achieve full upright posture despite these adjustments, transition to guard passing rather than forcing a compromised finish.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Push chest, tighten heel grip",
+        "distractors": {
+          "plausible": [
+            "Release heel to reset grip",
+            "Pull hips closer to control"
+          ],
+          "trap": [
+            "Let them sit up then reattack"
+          ]
+        }
       },
       {
         "question": "Why must you maintain tight heel control throughout the kneebar, and what happens if the heel rotates during application?",
         "answer": "Tight heel control is essential because any space between the heel and your chest allows the bottom player to extract their foot and escape the submission entirely. More critically, if the heel rotates or turns during pressure application, it adds dangerous rotational torque to the knee joint, exponentially increasing injury risk. This rotation can cause ACL tears in addition to the primary PCL and collateral ligament damage from hyperextension. The heel must be locked tightly to your chest with toes pointing straight away from you, controlled rigidly by both arms in a prayer grip to prevent any rotation.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Lock heel, toes straight away",
+        "distractors": {
+          "plausible": [
+            "Cup heel loosely to relax",
+            "Control with one arm only"
+          ],
+          "trap": [
+            "Let heel rotate for angle"
+          ]
+        }
       },
       {
         "question": "What is the proper power source for kneebar finishing pressure, and why does technique matter more than strength?",
         "answer": "The proper power source is hip extension through engaging the glutes and thrusting hips upward toward the ceiling, not arching the back or pulling with arm strength. Hip extension creates efficient, controlled pressure against the knee joint while protecting your own lower back from injury. The glutes are among the strongest muscles in the body, generating far more force than arms or spinal erectors. Attempting to finish with back arching generates minimal submission pressure, risks lumbar strain, and signals poor technique. The motion should feel like a controlled hip thrust with engaged core, driving hips up while pulling the heel down to your chest.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Drive with glutes and hips",
+        "distractors": {
+          "plausible": [
+            "Pull the leg with arm strength",
+            "Crunch your torso upward"
+          ],
+          "trap": [
+            "Rip the leg back explosively"
+          ]
+        }
       },
       {
         "question": "At what point during the kneebar from SLX is there effectively no escape for your opponent?",
         "answer": "The point of no escape occurs when three simultaneous conditions are achieved: perpendicular hip positioning with your fulcrum directly above their kneecap, a locked figure-four leg triangle preventing any leg extraction, and tight heel control eliminating all space between their heel and your chest. Once these three elements are secured and you begin hip extension, the mechanical advantage is overwhelming and escape becomes nearly impossible without significant injury risk. Prior to achieving all three conditions, the bottom player has viable escapes including retracting hooks, sitting up, grip fighting, or stepping over with their free leg.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "All three controls locked at once",
+        "distractors": {
+          "plausible": [
+            "When their leg stops kicking",
+            "Once your hips touch the mat"
+          ],
+          "trap": [
+            "Crank early with loose hips"
+          ]
+        }
       },
       {
         "question": "How should you respond when the bottom player grabs their own knee to prevent your leg isolation during entry?",
         "answer": "When the bottom player establishes a defensive grip on their own knee or shin, use two-on-one grip breaking to attack their weakest grip point, typically peeling at the fingers. Simultaneously use your free leg to push against their chest, preventing them from maintaining the upright posture needed to sustain the defensive grip. If their grip proves unbreakable, threaten a guard pass transition that forces them to release the defensive grip and post their hands for base, creating the opening for a clean return to the kneebar entry. Never force the kneebar against an established defensive grip, as this wastes energy and allows them to stabilize.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Break grip two-on-one, push chest",
+        "distractors": {
+          "plausible": [
+            "Wait for their grip to tire",
+            "Squeeze their shin harder"
+          ],
+          "trap": [
+            "Turn away, giving up your back"
+          ]
+        }
       },
       {
         "question": "What are the primary tap signals you must recognize immediately when applying a kneebar?",
         "answer": "You must immediately recognize verbal taps (preferred for leg locks due to the speed of injury onset), multiple rapid hand taps on you or the mat, multiple foot taps, any vocalization of distress or pain, and frantic or panicked movement. Leg locks like the kneebar can cause injury extremely quickly, so any indication of submission must result in immediate release. Unlike some chokes where there is a gradual progression to unconsciousness, knee joint submissions cross the injury threshold much faster than the partner can react, making instant recognition and release of all tap signals absolutely critical.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Any tap, sound, or panic",
+        "distractors": {
+          "plausible": [
+            "Only verbal tap counts",
+            "Wait for hand tap only"
+          ],
+          "trap": [
+            "Continue until clear tap out"
+          ]
+        }
       },
       {
         "question": "What grip adjustments should you make if the bottom player attempts to rotate their heel during the finish?",
         "answer": "If the bottom player attempts heel rotation, immediately reinforce your grip by bringing both elbows tight to your body while cupping their heel with overlapping hands in a prayer grip. Pull their heel deeper into your armpit area rather than holding it at chest level, which provides significantly more rotational stability. Angle their toes directly away from you and use your forearms to create a rigid cage around the heel that prevents any rotation. If rotation begins despite these measures, immediately release all finishing pressure, as continued pressure with rotation dramatically increases ACL injury risk in addition to PCL damage.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Deepen prayer grip to armpit",
+        "distractors": {
+          "plausible": [
+            "Squeeze harder at chest level",
+            "Switch to one-hand grip"
+          ],
+          "trap": [
+            "Push through the rotation"
+          ]
+        }
       },
       {
         "question": "How do you adapt the kneebar finishing strategy in competition versus training?",
         "answer": "In competition, the entry speed can be full competition pace since the opponent is actively defending and expects attacks. However, the finishing pressure should still be controlled and progressive — even in competition, spiking a kneebar risks catastrophic injury to your opponent. The key difference is in commitment level: in competition, fully commit to the backstep entry and do not hesitate, whereas in training you may drill entries at various speeds. In competition, chain the kneebar threat with guard passing to create a dual-threat strategy that forces the bottom player to choose between defending the submission and maintaining guard. The psychological pressure of the kneebar threat often opens passing lanes even when the finish itself is not achieved.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Commit hard, finish controlled",
+        "distractors": {
+          "plausible": [
+            "Skip the backstep in matches",
+            "Hold the position for points"
+          ],
+          "trap": [
+            "Rip the finish because it's a match"
+          ]
+        }
       },
       {
         "question": "How do you recognize when your kneebar position quality is insufficient for a safe finish?",
         "answer": "Position quality is insufficient when any of these indicators are present: your hips are not fully perpendicular to their leg creating an acute rather than right angle, space exists between their heel and your chest allowing potential extraction, your figure-four leg triangle is loose or the opponent's thigh is not fully trapped, the opponent has defensive grips on their own leg that you cannot break, or the opponent has successfully stepped their free leg over your head establishing a defensive hook. When these conditions exist, forcing the finish risks both escape and potential injury from a compromised angle. Transition to guard passing or alternative leg entanglements rather than committing to a low-percentage finish.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Hips off square, space, slack lock",
+        "distractors": {
+          "plausible": [
+            "Judge only by their reaction",
+            "Trust it if the entry felt fast"
+          ],
+          "trap": [
+            "Crank anyway and hope for a tap"
+          ]
+        }
+      }
+    ],
+    "clips": [
+      {
+        "id": "fZRfKh1B53o",
+        "title": "Single Leg X to Kneebar",
+        "by": "Fernaldi Jonatan",
+        "vertical": false,
+        "channel": "Fernaldi Jonatan",
+        "duration": 76,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "V7ND4cpJ2_c",
+        "title": "Reverse X to Kneebar",
+        "by": "Combat by the Minute",
+        "vertical": false,
+        "channel": "Combat by the Minute",
+        "duration": 117,
+        "verified": "2026-07-14"
       }
     ]
   },
@@ -462,27 +614,77 @@
       {
         "question": "Why is it critical to tap immediately when finishing pressure begins on a kneebar rather than attempting a late escape?",
         "answer": "The knee joint has minimal tolerance for hyperextension compared to other joints, and the transition from controlled pressure to catastrophic ligament damage can occur in less than one second. Unlike chokes where unconsciousness provides a gradual progression, knee hyperextension can cause immediate PCL tears, MCL ruptures, and meniscus damage before you have time to execute an escape. Attempting explosive escapes under finishing pressure adds dangerous rotational forces that compound injury risk. The cost of tapping is restarting the roll; the cost of a late escape attempt is potentially 6-12 months of surgical recovery.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Ligaments tear in under a second",
+        "distractors": {
+          "plausible": [
+            "Rolling out is usually safe",
+            "The knee gives warning pain first"
+          ],
+          "trap": [
+            "Fight until you hear a pop"
+          ]
+        }
       },
       {
         "question": "What is the earliest recognition cue that the top player is initiating a kneebar from your SLX guard, and what should your immediate response be?",
         "answer": "The earliest cue is feeling the top player firmly grab your outside hooking foot at their hip instead of attempting normal guard clearing movements. This grip on your foot is the distinguishing action that separates kneebar entry from standard guard passing. Your immediate response must be to retract both hooks aggressively, pulling your legs tight to your body before the top player can execute the backstep. Acting in this initial 1-2 second window gives you the highest probability of denying the attack entirely. Do not attempt to maintain SLX or complete a sweep — prioritize pulling your legs to safety.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Retract hooks immediately",
+        "distractors": {
+          "plausible": [
+            "Push their hips away first",
+            "Grip fight for the foot"
+          ],
+          "trap": [
+            "Finish the sweep attempt"
+          ]
+        }
       },
       {
         "question": "Why should you move toward the attacker rather than pulling away when defending a kneebar?",
         "answer": "The kneebar's mechanical leverage requires distance between the attacker's hips (the fulcrum) and your heel (the end of the lever arm). Pulling away increases this distance and straightens the knee, actually strengthening the submission by creating a longer lever arm for hyperextension. Moving toward the attacker collapses this distance, reducing or eliminating the lever arm. Sitting up and driving your body toward them also allows you to reach their hands for grip fighting to strip heel control, and a bent knee driven forward is biomechanically resistant to hyperextension force.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Move toward attacker, bend knee",
+        "distractors": {
+          "plausible": [
+            "Straighten leg for strength",
+            "Brace and hold position"
+          ],
+          "trap": [
+            "Pull away for distance"
+          ]
+        }
       },
       {
         "question": "The top player has completed the backstep but has not locked the leg triangle yet — what specific defensive actions should you take in this window?",
         "answer": "Immediately grab your own knee or shin with BOTH hands using a gable grip for maximum security. Pull your trapped leg tight toward your chest to prevent the attacker from threading their inside leg across your thigh for the figure-four. Simultaneously begin sitting up by driving your hips forward and lifting your chest toward the attacker. Use your free leg to step toward the attacker's head, looking for the opportunity to step over and establish a defensive hook. This combined defense of grip protection, knee bending, and postural recovery attacks all three elements the attacker needs: leg isolation, knee extension, and your positional weakness.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Gable grip knee, sit up, step in",
+        "distractors": {
+          "plausible": [
+            "Stay flat and wait it out",
+            "Frame on hips, keep hips down"
+          ],
+          "trap": [
+            "Rip the leg out with force"
+          ]
+        }
       },
       {
         "question": "Why is attempting an explosive rotational escape the most dangerous defensive error when kneebar finishing pressure is being applied?",
         "answer": "Explosive rotation while the knee is under hyperextension pressure adds torque to the joint in a plane it is not designed to resist. The knee primarily moves in flexion and extension; adding rotational force under hyperextension load attacks the anterior cruciate ligament (ACL) in addition to the posterior cruciate ligament (PCL) already under stress. This compound loading mechanism can cause simultaneous multi-ligament injury, which is catastrophically worse than a single-ligament tear. Multi-ligament knee injuries often require multiple surgeries, 12 or more months of rehabilitation, and may result in permanent joint instability. A controlled tap preserves all ligaments intact.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Adds torque, risks the ACL too",
+        "distractors": {
+          "plausible": [
+            "Damage is limited to meniscus",
+            "It only strains the hamstring"
+          ],
+          "trap": [
+            "Spin hard to rip the leg free"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -505,6 +707,35 @@
         "phase": "Phase 4: Live Defensive Sparring from SLX",
         "focus": "Integrating kneebar defense into live SLX guard exchanges",
         "description": "Positional sparring rounds where you play SLX Bottom while your partner has the kneebar counter-attack as their primary option alongside guard passing. Integrate recognition, early hook retraction, grip fighting, and escape sequences into live rolling at progressive intensity. Track which defensive responses work at each stage and develop your personal defensive hierarchy based on your timing and flexibility."
+      }
+    ],
+    "clips": [
+      {
+        "id": "m0NLphEuFoc",
+        "title": "Leg Lock Defense (No-Gi)",
+        "by": "Kuwy Jitsu",
+        "vertical": false,
+        "channel": "Kuwy Jitsu",
+        "duration": 61,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "HwU4-0-JBUM",
+        "title": "How to defend and escape the kneebar",
+        "by": "Stephan Kesting",
+        "vertical": false,
+        "channel": "Stephan Kesting",
+        "duration": 533,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "eoFrZfJBlvw",
+        "title": "Kneebar escapes",
+        "by": "Dean Lister",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 158,
+        "verified": "2026-07-15"
       }
     ]
   }

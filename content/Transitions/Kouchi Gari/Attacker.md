@@ -169,6 +169,54 @@ description: "How to execute Kouchi Gari in BJJ. Attacking perspective with setu
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Kouchi Gari (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Kouchi gari small inner reap breakdown",
+      "description": "Kouchi Gari (Attacker) film study: Kouchi gari small inner reap breakdown, taught by Ben Stark.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/4FDRR9ukLjc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/4FDRR9ukLjc",
+      "url": "https://www.youtube.com/watch?v=4FDRR9ukLjc",
+      "creator": { "@type": "Person", "name": "Ben Stark" },
+      "duration": "PT52S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Kouchi gari in no-gi grappling",
+      "description": "Kouchi Gari (Attacker) film study: Kouchi gari in no-gi grappling, taught by CombatLife.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/4Kgcm3TthAg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/4Kgcm3TthAg",
+      "url": "https://www.youtube.com/watch?v=4Kgcm3TthAg",
+      "creator": { "@type": "Person", "name": "CombatLife" },
+      "duration": "PT46S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Sumi gaeshi into drop kouchi gari",
+      "description": "Kouchi Gari (Attacker) film study: Sumi gaeshi into drop kouchi gari, taught by Shintaro Higashi.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/_osQlpT8mTE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/_osQlpT8mTE",
+      "url": "https://www.youtube.com/watch?v=_osQlpT8mTE",
+      "creator": { "@type": "Person", "name": "Shintaro Higashi" },
+      "duration": "PT95S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <aside class="entity-relations">
@@ -181,6 +229,42 @@ As the attacker executing Kouchi Gari, your primary objective is to remove your 
 **From Position**: [[Positions/Clinch]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Kouchi Gari (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=4FDRR9ukLjc)
+
+<p class="clip-credit"><strong>Kouchi gari small inner reap breakdown</strong> — taught by Ben Stark · 0:52 · <a href="https://www.youtube.com/watch?v=4FDRR9ukLjc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=4Kgcm3TthAg)
+
+<p class="clip-credit"><strong>Kouchi gari in no-gi grappling</strong> — taught by CombatLife · 0:46 · <a href="https://www.youtube.com/watch?v=4Kgcm3TthAg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=_osQlpT8mTE)
+
+<p class="clip-credit"><strong>Sumi gaeshi into drop kouchi gari</strong> — taught by Shintaro Higashi · 1:35 · <a href="https://www.youtube.com/watch?v=_osQlpT8mTE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

@@ -34,6 +34,54 @@ description: "Master the Roll from Dead Orchard escape in BJJ. Complete guide to
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Roll from Dead Orchard \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Dead Orchard Entry and Roll",
+      "description": "Roll from Dead Orchard film study: Dead Orchard Entry and Roll, taught by bjjtaro coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/PTAAQz-RMyw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/PTAAQz-RMyw",
+      "url": "https://www.youtube.com/watch?v=PTAAQz-RMyw",
+      "creator": { "@type": "Person", "name": "bjjtaro coach" },
+      "duration": "PT83S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Dead orchard instructional, part 1",
+      "description": "Roll from Dead Orchard film study: Dead orchard instructional, part 1, taught by Nathan Orchard.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/XoiB1D2WJwE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/XoiB1D2WJwE",
+      "url": "https://www.youtube.com/watch?v=XoiB1D2WJwE",
+      "creator": { "@type": "Person", "name": "Nathan Orchard" },
+      "duration": "PT111S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Dead orchard mechanics and roll-through",
+      "description": "Roll from Dead Orchard film study: Dead orchard mechanics and roll-through, taught by Mean Gene.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/AdKKIm9D6KU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/AdKKIm9D6KU",
+      "url": "https://www.youtube.com/watch?v=AdKKIm9D6KU",
+      "creator": { "@type": "Person", "name": "Mean Gene" },
+      "duration": "PT87S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ The primary risk of this escape is that a poorly timed or incorrectly angled rol
 **Success Rate**: 40%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Roll from Dead Orchard in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=PTAAQz-RMyw)
+
+<p class="clip-credit"><strong>Dead Orchard Entry and Roll</strong> — taught by bjjtaro coach · 1:23 · <a href="https://www.youtube.com/watch?v=PTAAQz-RMyw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=XoiB1D2WJwE)
+
+<p class="clip-credit"><strong>Dead orchard instructional, part 1</strong> — taught by Nathan Orchard · 1:51 · <a href="https://www.youtube.com/watch?v=XoiB1D2WJwE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=AdKKIm9D6KU)
+
+<p class="clip-credit"><strong>Dead orchard mechanics and roll-through</strong> — taught by Mean Gene · 1:27 · <a href="https://www.youtube.com/watch?v=AdKKIm9D6KU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

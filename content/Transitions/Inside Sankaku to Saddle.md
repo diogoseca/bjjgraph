@@ -34,6 +34,54 @@ description: "Master the Inside Sankaku to Saddle transition in BJJ. Learn syste
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Inside Sankaku to Saddle \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Deep half guard to honey hole",
+      "description": "Inside Sankaku to Saddle film study: Deep half guard to honey hole, taught by Mission Tristan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/hcw1zaEizxw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/hcw1zaEizxw",
+      "url": "https://www.youtube.com/watch?v=hcw1zaEizxw",
+      "creator": { "@type": "Person", "name": "Mission Tristan" },
+      "duration": "PT68S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Honey hole entry from half guard",
+      "description": "Inside Sankaku to Saddle film study: Honey hole entry from half guard, taught by JitzLive.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/rldppvn1WTg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/rldppvn1WTg",
+      "url": "https://www.youtube.com/watch?v=rldppvn1WTg",
+      "creator": { "@type": "Person", "name": "JitzLive" },
+      "duration": "PT89S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Shoulder roll to cross ashi / saddle",
+      "description": "Inside Sankaku to Saddle film study: Shoulder roll to cross ashi / saddle, taught by bjj doug.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/eRQVlYxFx1Y/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/eRQVlYxFx1Y",
+      "url": "https://www.youtube.com/watch?v=eRQVlYxFx1Y",
+      "creator": { "@type": "Person", "name": "bjj doug" },
+      "duration": "PT42S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -66,9 +114,45 @@ This transition most commonly occurs when the opponent's defensive reactions to 
 The primary technical challenge lies in maintaining heel exposure and continuous leg control throughout the reconfiguration phase. Any momentary lapse during the transition creates escape windows that skilled defenders will exploit immediately. Mastery requires understanding the precise mechanical relationship between Inside Sankaku and Saddle, specifically how hip angle changes, leg repositioning, and weight transfer work together to achieve deeper entanglement without sacrificing existing control. Elite practitioners make this transition feel seamless because they time it to the opponent's defensive movement rather than forcing it against static resistance.
 
 **From Position**: [[Positions/Inside Sankaku]] (Top)
-**Success Rate**: 55%
+**Success Rate**: 58%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Inside Sankaku to Saddle in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=hcw1zaEizxw)
+
+<p class="clip-credit"><strong>Deep half guard to honey hole</strong> — taught by Mission Tristan · 1:08 · <a href="https://www.youtube.com/watch?v=hcw1zaEizxw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=rldppvn1WTg)
+
+<p class="clip-credit"><strong>Honey hole entry from half guard</strong> — taught by JitzLive · 1:29 · <a href="https://www.youtube.com/watch?v=rldppvn1WTg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=eRQVlYxFx1Y)
+
+<p class="clip-credit"><strong>Shoulder roll to cross ashi / saddle</strong> — taught by bjj doug · 0:42 · <a href="https://www.youtube.com/watch?v=eRQVlYxFx1Y" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

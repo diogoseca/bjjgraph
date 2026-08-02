@@ -21,37 +21,37 @@ description: "Master High Mount Top position in BJJ. Advanced mount control with
     {
       "@type": "HowToStep",
       "name": "Execute Mount to Armbar",
-      "text": "From this position, attempt Mount to Armbar. This technique is attempted in 30% of exchanges from this position.",
+      "text": "From this position, attempt Mount to Armbar. This technique is attempted in 13% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Cross Collar Choke from High Mount",
-      "text": "From this position, attempt Cross Collar Choke from High Mount. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Cross Collar Choke from High Mount. This technique is attempted in 0% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Americana from High Mount",
-      "text": "From this position, attempt Americana from High Mount. This technique is attempted in 7% of exchanges from this position.",
+      "text": "From this position, attempt Americana from High Mount. This technique is attempted in 8% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Triangle from Mount",
-      "text": "From this position, attempt Triangle from Mount. This technique is attempted in 7% of exchanges from this position.",
+      "text": "From this position, attempt Triangle from Mount. This technique is attempted in 6% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Kimura from High Mount",
-      "text": "From this position, attempt Kimura from High Mount. This technique is attempted in 7% of exchanges from this position.",
+      "text": "From this position, attempt Kimura from High Mount. This technique is attempted in 5% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Arm Triangle from High Mount",
-      "text": "From this position, attempt Arm Triangle from High Mount. This technique is attempted in 6% of exchanges from this position.",
+      "text": "From this position, attempt Arm Triangle from High Mount. This technique is attempted in 11% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -153,6 +153,43 @@ description: "Master High Mount Top position in BJJ. Advanced mount control with
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "High Mount (Top) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Cross collar chokes from mount",
+      "description": "High Mount (Top) film study: Cross collar chokes from mount, taught by Roger Gracie.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/dfP-Ov8FBUo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/dfP-Ov8FBUo",
+      "url": "https://www.youtube.com/watch?v=dfP-Ov8FBUo",
+      "creator": { "@type": "Person", "name": "Roger Gracie" },
+      "duration": "PT80S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Armbars from mount",
+      "description": "High Mount (Top) film study: Armbars from mount, taught by Roger Gracie.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/vSmRbpNmf-E/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/vSmRbpNmf-E",
+      "url": "https://www.youtube.com/watch?v=vSmRbpNmf-E",
+      "creator": { "@type": "Person", "name": "Roger Gracie" },
+      "duration": "PT102S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -166,6 +203,34 @@ Strategically, high mount serves as the final checkpoint before submission or ad
 From a biomechanical perspective, High Mount achieves dominance by positioning the top player's center of mass directly over the opponent's upper chest and sternum, compressing the torso and restricting breathing. This weight distribution, combined with high knee placement near the armpits, eliminates the angle required for effective bridging while maintaining mobility for transitions. The position exemplifies the principle of maximum efficiency with minimum effort, using body positioning rather than muscular strength to achieve control.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch High Mount (Top) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=dfP-Ov8FBUo)
+
+<p class="clip-credit"><strong>Cross collar chokes from mount</strong> — taught by Roger Gracie · 1:20 · <a href="https://www.youtube.com/watch?v=dfP-Ov8FBUo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=vSmRbpNmf-E)
+
+<p class="clip-credit"><strong>Armbars from mount</strong> — taught by Roger Gracie · 1:42 · <a href="https://www.youtube.com/watch?v=vSmRbpNmf-E" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

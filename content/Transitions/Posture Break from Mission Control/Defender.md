@@ -148,6 +148,43 @@ description: "Learn to defend your Mission Control against the top player's post
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Posture Break from Mission Control (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Rubber Guard tips every beginner should know",
+      "description": "Posture Break from Mission Control (Defender) film study: Rubber Guard tips every beginner should know, taught by Brandon Mccaghren.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/WwcWSfurE2A/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/WwcWSfurE2A",
+      "url": "https://www.youtube.com/watch?v=WwcWSfurE2A",
+      "creator": { "@type": "Person", "name": "Brandon Mccaghren" },
+      "duration": "PT273S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Posture defense against closed guard control",
+      "description": "Posture Break from Mission Control (Defender) film study: Posture defense against closed guard control, taught by Jean Jacques Machado.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/IJx92rHqtfg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/IJx92rHqtfg",
+      "url": "https://www.youtube.com/watch?v=IJx92rHqtfg",
+      "creator": { "@type": "Person", "name": "Jean Jacques Machado" },
+      "duration": "PT190S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +194,34 @@ As the bottom player in Mission Control, defending against the top player's post
 **Opponent's Starting Position**: [[Positions/Rubber Guard/Mission Control]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Posture Break from Mission Control (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=WwcWSfurE2A)
+
+<p class="clip-credit"><strong>Rubber Guard tips every beginner should know</strong> — taught by Brandon Mccaghren · 4:33 · <a href="https://www.youtube.com/watch?v=WwcWSfurE2A" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=IJx92rHqtfg)
+
+<p class="clip-credit"><strong>Posture defense against closed guard control</strong> — taught by Jean Jacques Machado · 3:10 · <a href="https://www.youtube.com/watch?v=IJx92rHqtfg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

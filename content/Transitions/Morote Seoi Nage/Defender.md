@@ -148,6 +148,54 @@ description: "How to defend against Morote Seoi Nage in BJJ. Recognition cues, d
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Morote Seoi Nage (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Counter seoi-nage with a quick foot sweep",
+      "description": "Morote Seoi Nage (Defender) film study: Counter seoi-nage with a quick foot sweep, taught by Judoroland.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/qEE09xFbu8I/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/qEE09xFbu8I",
+      "url": "https://www.youtube.com/watch?v=qEE09xFbu8I",
+      "creator": { "@type": "Person", "name": "Judoroland" },
+      "duration": "PT28S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Judo against a defensive opponent",
+      "description": "Morote Seoi Nage (Defender) film study: Judo against a defensive opponent, taught by Shintaro Higashi.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/KfXpH1BHhnk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/KfXpH1BHhnk",
+      "url": "https://www.youtube.com/watch?v=KfXpH1BHhnk",
+      "creator": { "@type": "Person", "name": "Shintaro Higashi" },
+      "duration": "PT80S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Beating the stiff arm defense",
+      "description": "Morote Seoi Nage (Defender) film study: Beating the stiff arm defense, taught by Travis Stevens.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/VGy3imISlaA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/VGy3imISlaA",
+      "url": "https://www.youtube.com/watch?v=VGy3imISlaA",
+      "creator": { "@type": "Person", "name": "Travis Stevens" },
+      "duration": "PT95S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +205,42 @@ Defending Morote Seoi Nage requires early recognition, strong posture management
 **Opponent's Starting Position**: [[Positions/Standing Position]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Morote Seoi Nage (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=qEE09xFbu8I)
+
+<p class="clip-credit"><strong>Counter seoi-nage with a quick foot sweep</strong> — taught by Judoroland · 0:28 · <a href="https://www.youtube.com/watch?v=qEE09xFbu8I" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=KfXpH1BHhnk)
+
+<p class="clip-credit"><strong>Judo against a defensive opponent</strong> — taught by Shintaro Higashi · 1:20 · <a href="https://www.youtube.com/watch?v=KfXpH1BHhnk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=VGy3imISlaA)
+
+<p class="clip-credit"><strong>Beating the stiff arm defense</strong> — taught by Travis Stevens · 1:35 · <a href="https://www.youtube.com/watch?v=VGy3imISlaA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

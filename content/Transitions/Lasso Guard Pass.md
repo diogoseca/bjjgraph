@@ -34,6 +34,54 @@ description: "Master the Lasso Guard Pass in BJJ. Complete breakdown of techniqu
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Lasso Guard Pass \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Passing lasso guard to the back",
+      "description": "Lasso Guard Pass film study: Passing lasso guard to the back, taught by Gabriel Sousa.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/9sQAn2ESkMU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/9sQAn2ESkMU",
+      "url": "https://www.youtube.com/watch?v=9sQAn2ESkMU",
+      "creator": { "@type": "Person", "name": "Gabriel Sousa" },
+      "duration": "PT113S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Pressure pass the Lasso Guard",
+      "description": "Lasso Guard Pass film study: Pressure pass the Lasso Guard, taught by Alberto Serrano.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/EdLPqtAm5yQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/EdLPqtAm5yQ",
+      "url": "https://www.youtube.com/watch?v=EdLPqtAm5yQ",
+      "creator": { "@type": "Person", "name": "Alberto Serrano" },
+      "duration": "PT123S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Deep lasso guard pass to leg drag",
+      "description": "Lasso Guard Pass film study: Deep lasso guard pass to leg drag, taught by Carpio Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/eXriz8Oz99I/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/eXriz8Oz99I",
+      "url": "https://www.youtube.com/watch?v=eXriz8Oz99I",
+      "creator": { "@type": "Person", "name": "Carpio Jiu Jitsu" },
+      "duration": "PT161S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -66,9 +114,45 @@ The pass requires a combination of precise grip control, posture management, and
 This technique integrates principles of base maintenance, pressure passing, and tactical grip fighting to achieve dominant top position. The key insight is that the lasso creates a lever system through the trapped arm, and the passer must change the angle of that lever rather than fighting it directly. By stepping outside the lasso leg and rotating the shoulder, the passer converts a strong control into a weak one before completing the pass to side control.
 
 **From Position**: [[Positions/Lasso Guard]] (Top)
-**Success Rate**: 58%
+**Success Rate**: 46%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Lasso Guard Pass in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=9sQAn2ESkMU)
+
+<p class="clip-credit"><strong>Passing lasso guard to the back</strong> — taught by Gabriel Sousa · 1:53 · <a href="https://www.youtube.com/watch?v=9sQAn2ESkMU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=EdLPqtAm5yQ)
+
+<p class="clip-credit"><strong>Pressure pass the Lasso Guard</strong> — taught by Alberto Serrano · 2:03 · <a href="https://www.youtube.com/watch?v=EdLPqtAm5yQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=eXriz8Oz99I)
+
+<p class="clip-credit"><strong>Deep lasso guard pass to leg drag</strong> — taught by Carpio Jiu Jitsu · 2:41 · <a href="https://www.youtube.com/watch?v=eXriz8Oz99I" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

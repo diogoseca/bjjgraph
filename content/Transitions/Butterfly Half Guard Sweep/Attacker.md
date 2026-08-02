@@ -174,6 +174,54 @@ description: "Complete guide to executing the Butterfly Half Guard Sweep. Setup 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Butterfly Half Guard Sweep (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Half butterfly sweep from half guard",
+      "description": "Butterfly Half Guard Sweep (Attacker) film study: Half butterfly sweep from half guard, taught by StadiumMMA coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/oyBedW2q0Qo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/oyBedW2q0Qo",
+      "url": "https://www.youtube.com/watch?v=oyBedW2q0Qo",
+      "creator": { "@type": "Person", "name": "StadiumMMA coach" },
+      "duration": "PT30S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Butterfly sweep from half guard",
+      "description": "Butterfly Half Guard Sweep (Attacker) film study: Butterfly sweep from half guard, taught by Alberto Serrano.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/mwXARWfRC0I/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/mwXARWfRC0I",
+      "url": "https://www.youtube.com/watch?v=mwXARWfRC0I",
+      "creator": { "@type": "Person", "name": "Alberto Serrano" },
+      "duration": "PT73S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Half guard sit-up to butterfly sweep",
+      "description": "Butterfly Half Guard Sweep (Attacker) film study: Half guard sit-up to butterfly sweep, taught by Bjj Picanha coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/hTQ29eG4cqY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/hTQ29eG4cqY",
+      "url": "https://www.youtube.com/watch?v=hTQ29eG4cqY",
+      "creator": { "@type": "Person", "name": "Bjj Picanha coach" },
+      "duration": "PT38S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -183,6 +231,42 @@ The Butterfly Half Guard Sweep requires precise coordination of butterfly hook e
 **From Position**: [[Positions/Half Guard/Butterfly Half Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Butterfly Half Guard Sweep (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=oyBedW2q0Qo)
+
+<p class="clip-credit"><strong>Half butterfly sweep from half guard</strong> — taught by StadiumMMA coach · 0:30 · <a href="https://www.youtube.com/watch?v=oyBedW2q0Qo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=mwXARWfRC0I)
+
+<p class="clip-credit"><strong>Butterfly sweep from half guard</strong> — taught by Alberto Serrano · 1:13 · <a href="https://www.youtube.com/watch?v=mwXARWfRC0I" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=hTQ29eG4cqY)
+
+<p class="clip-credit"><strong>Half guard sit-up to butterfly sweep</strong> — taught by Bjj Picanha coach · 0:38 · <a href="https://www.youtube.com/watch?v=hTQ29eG4cqY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

@@ -174,6 +174,43 @@ description: "How to execute Reverse X to Single Leg X Entry in BJJ. Attacking p
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Reverse X to Single Leg X Entry (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Single leg X, X-guard and reverse X options",
+      "description": "Reverse X to Single Leg X Entry (Attacker) film study: Single leg X, X-guard and reverse X options, taught by Steven Kaloustian.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/EcxCadpBePk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/EcxCadpBePk",
+      "url": "https://www.youtube.com/watch?v=EcxCadpBePk",
+      "creator": { "@type": "Person", "name": "Steven Kaloustian" },
+      "duration": "PT97S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Single leg X to reverse X to kneebar",
+      "description": "Reverse X to Single Leg X Entry (Attacker) film study: Single leg X to reverse X to kneebar, taught by Combat by the Minute.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/V7ND4cpJ2_c/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/V7ND4cpJ2_c",
+      "url": "https://www.youtube.com/watch?v=V7ND4cpJ2_c",
+      "creator": { "@type": "Person", "name": "Combat by the Minute" },
+      "duration": "PT117S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -183,6 +220,34 @@ As the attacker executing Reverse X to Single Leg X Entry, your objective is to 
 **From Position**: [[Positions/X-Guard/Reverse X-Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Reverse X to Single Leg X Entry (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=EcxCadpBePk)
+
+<p class="clip-credit"><strong>Single leg X, X-guard and reverse X options</strong> — taught by Steven Kaloustian · 1:37 · <a href="https://www.youtube.com/watch?v=EcxCadpBePk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=V7ND4cpJ2_c)
+
+<p class="clip-credit"><strong>Single leg X to reverse X to kneebar</strong> — taught by Combat by the Minute · 1:57 · <a href="https://www.youtube.com/watch?v=V7ND4cpJ2_c" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

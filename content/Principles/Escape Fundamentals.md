@@ -164,6 +164,54 @@ description: "Master Escape Fundamentals in BJJ. Learn systematic framing, space
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Escape Fundamentals \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Key detail for escaping mount bottom",
+      "description": "Escape Fundamentals film study: Key detail for escaping mount bottom, taught by SBG PDX.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/g0G7LYfW9Y8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/g0G7LYfW9Y8",
+      "url": "https://www.youtube.com/watch?v=g0G7LYfW9Y8",
+      "creator": { "@type": "Person", "name": "SBG PDX" },
+      "duration": "PT118S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "The one principle behind every side control escape",
+      "description": "Escape Fundamentals film study: The one principle behind every side control escape, taught by Jon Thomas.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/JiqEETm20Wo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/JiqEETm20Wo",
+      "url": "https://www.youtube.com/watch?v=JiqEETm20Wo",
+      "creator": { "@type": "Person", "name": "Jon Thomas" },
+      "duration": "PT1287S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "The first five escapes you need to know",
+      "description": "Escape Fundamentals film study: The first five escapes you need to know, taught by Knight Jiu-Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/775gXyYzB08/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/775gXyYzB08",
+      "url": "https://www.youtube.com/watch?v=775gXyYzB08",
+      "creator": { "@type": "Person", "name": "Knight Jiu-Jitsu" },
+      "duration": "PT521S"
+    }
+  ]
+}
+</script>
+
+
 <section id="overview" class="content-section">
 
 ## What are Escape Fundamentals?
@@ -173,6 +221,42 @@ description: "Master Escape Fundamentals in BJJ. Learn systematic framing, space
 Across every defensive scenario in BJJ, escape success is not random—it follows repeatable biomechanical patterns that separate practitioners who reliably survive bad positions from those who get submitted. Unlike specific escape techniques tied to a single pin, escape fundamentals are comprehensive conceptual guidelines that apply across all defensive scenarios and determine overall defensive capability. This concept encompasses the biomechanical understanding that successful escapes follow predictable patterns: creating frames, generating space, creating angles, and transitioning to improved positions through sequential movements. Escape fundamentals serve as both an immediate survival mechanism enabling defense against submissions and a long-term strategic framework for escaping dominant positions. The ability to apply escape fundamentals consistently under pressure often determines defensive success and overall BJJ survivability, making it one of the most essential conceptual elements for practitioners at all levels.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Escape Fundamentals in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=g0G7LYfW9Y8)
+
+<p class="clip-credit"><strong>Key detail for escaping mount bottom</strong> — taught by SBG PDX · 1:58 · <a href="https://www.youtube.com/watch?v=g0G7LYfW9Y8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=JiqEETm20Wo)
+
+<p class="clip-credit"><strong>The one principle behind every side control escape</strong> — taught by Jon Thomas · 21:27 · <a href="https://www.youtube.com/watch?v=JiqEETm20Wo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=775gXyYzB08)
+
+<p class="clip-credit"><strong>The first five escapes you need to know</strong> — taught by Knight Jiu-Jitsu · 8:41 · <a href="https://www.youtube.com/watch?v=775gXyYzB08" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="building-blocks" class="content-section">
 
