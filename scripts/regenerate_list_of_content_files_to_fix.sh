@@ -31,7 +31,12 @@ echo ""
 # Build file list, shuffled so candidates are analyzed in random order.
 # (The pass/fail output files are re-sorted by name at the end.)
 TEMP_FILELIST="/tmp/filelist_$$.txt"
-find content/{Positions,Transitions,Submissions,Principles,Systems,Learning} -name "*.json" | grep -v TEMPLATE | shuf > "$TEMP_FILELIST"
+if command -v shuf >/dev/null 2>&1; then
+    find content/{Positions,Transitions,Submissions,Principles,Systems,Learning} -name "*.json" | grep -v TEMPLATE | shuf > "$TEMP_FILELIST"
+else
+    find content/{Positions,Transitions,Submissions,Principles,Systems,Learning} -name "*.json" | grep -v TEMPLATE |
+        python3 -c 'import random, sys; lines = sys.stdin.readlines(); random.shuffle(lines); sys.stdout.writelines(lines)' > "$TEMP_FILELIST"
+fi
 
 # Validate all files
 current=0

@@ -1,4 +1,10 @@
-import { defaultContext, history, lessons, tutorialSteps } from "./fixtures.js";
+import {
+  challengeTracks,
+  defaultContext,
+  history,
+  matCoins,
+  patches,
+} from "./fixtures.js";
 import { filmStrip, questionBlock } from "./components-core.js";
 import { icon } from "./icons.js";
 import { escapeHtml } from "./utils.js";
@@ -128,66 +134,171 @@ export function beltMeter({ score = 52, belt = "blue" } = {}) {
   </div>`;
 }
 
+export function gameKnowledgeHeader({ score = 52, belt = "Blue" } = {}) {
+  return `<section class="knowledge-header" aria-label="Your Game Knowledge: ${score}%, ${belt}">
+    <div><small>YOUR GAME KNOWLEDGE</small><b>${score}% <span>${belt}</span></b></div>
+    <div class="knowledge-meter" role="meter" aria-valuemin="0" aria-valuemax="100" aria-valuenow="${score}" aria-label="Game Knowledge ${score}%"><i style="--knowledge:${score}%"></i><em style="--threshold:20%"></em><em style="--threshold:40%"></em><em style="--threshold:60%"></em><em style="--threshold:70%"></em><em style="--threshold:80%"></em></div>
+    <p>Proven recall, not challenge completion.</p>
+  </section>`;
+}
+
+export function learningNav(active = "challenges") {
+  return `<nav class="learning-nav" aria-label="Learning views">
+    ${["explore", "challenges", "collection"].map((view) => `<button type="button" aria-pressed="${view === active}">${view}</button>`).join("")}
+  </nav>`;
+}
+
+export function challengeRow(
+  { title, why, done = 0, target = 1 } = {},
+) {
+  const complete = done >= target;
+  return `<article class="challenge-row" data-complete="${complete}" aria-label="${title}, ${Math.min(done, target)} of ${target}${complete ? ", complete" : ""}">
+    <span class="challenge-check" aria-hidden="true">${complete ? "OK" : ""}</span>
+    <div><b>${title}</b><p>${why}</p><small>${complete ? "Complete" : `${done} of ${target}`}</small><button type="button" class="challenge-action">Start a roll here</button></div>
+  </article>`;
+}
+
+export function trackCard(track, { selected = false, score = 52 } = {}) {
+  const complete = track.done >= track.total;
+  const advanced =
+    ["purple", "brown", "black"].includes(track.id) && score < 60;
+  return `<button type="button" class="track-card" aria-pressed="${selected}" aria-label="${track.name} content track, ${track.done} of ${track.total} complete" data-track="${track.id}" data-selected="${selected}" data-complete="${complete}" style="--track:${track.color}">
+    <span class="track-token" aria-hidden="true"></span>
+    <span><small>${track.id.toUpperCase()} CONTENT TRACK</small><b>${track.name}</b><em>${advanced ? "Advanced material - swing away." : track.suggested ? "Suggested for your Game Knowledge" : "Open from day one"}</em></span>
+    <strong>${track.done} of ${track.total}</strong>
+  </button>`;
+}
+
+export function challengesPanel({
+  state = "partial",
+  selected = "white",
+} = {}) {
+  const score = state === "empty" ? 8 : state === "above-level" ? 28 : 52;
+  const belt = score < 40 ? "White" : "Blue";
+  const tracks = challengeTracks.map((track) => ({
+    ...track,
+    done:
+      state === "empty"
+        ? 0
+        : state === "completed" && track.id === selected
+          ? track.total
+          : track.done,
+    objectives: track.objectives.map((objective) => ({
+      ...objective,
+      done:
+        state === "empty"
+          ? 0
+          : state === "completed" && track.id === selected
+            ? objective.target
+            : objective.done,
+    })),
+  }));
+  const active =
+    tracks.find((track) => track.id === selected) || tracks[0];
+  const notice =
+    state === "empty"
+      ? "Start anywhere. Every content track is open from day one."
+      : state === "offline"
+      ? "Offline - completions stay on this device and sync later."
+      : state === "signed-out"
+        ? "Playing as guest - progress is saved on this device."
+        : "Tracks label the material. Your Game Knowledge shows your proven progress.";
+  return `<aside class="side-panel side-panel--left challenge-panel" aria-label="Challenges">
+    ${gameKnowledgeHeader({ score, belt })}
+    ${learningNav("challenges")}
+    <div class="panel-body">
+      <p class="challenge-distinction">${notice}</p>
+      <section class="track-list" aria-label="Challenge tracks">${tracks.map((track) => trackCard(track, { selected: track.id === active.id, score })).join("")}</section>
+      <section class="challenge-detail" aria-label="${active.name} challenges">
+        <div class="challenge-detail-head"><div><small>${active.id.toUpperCase()} CONTENT TRACK</small><h3>${active.name}</h3></div><span>${active.done} of ${active.total}</span></div>
+        <button type="button" class="pin-track">Pin this track to my roll</button>
+        ${active.objectives.map((objective) => challengeRow(objective)).join("")}
+        <div class="challenge-group"><small>CURRICULUM GROUP</small><b>${active.id === "white" ? "Foundations and complete loops" : "Open study group"}</b><p>Lessons are open. The checkpoint still asks you to prove the material.</p></div>
+        <div class="challenge-capstone"><small>OPTIONAL CAPSTONE</small><b>${active.id === "white" ? "White Foundations roll" : `${active.name} roll`}</b><span>Earns a patch · never unlocks another track</span></div>
+      </section>
+    </div>
+  </aside>`;
+}
+
+export function patchBadge(patch, earned = patch.earned) {
+  return `<article class="patch-badge" data-earned="${earned}" aria-label="${patch.name}: ${earned ? "earned" : "available to earn"}">
+    <span aria-hidden="true">${earned ? "BJJ" : ""}</span><b>${patch.name}</b><small>${earned ? patch.detail : "Available to earn"}</small>
+  </article>`;
+}
+
+export function matCoin(coin, earned = coin.earned) {
+  return `<article class="mat-coin" data-earned="${earned}" aria-label="${coin.name}: ${earned ? "earned" : "available to earn"}">
+    <span aria-hidden="true">${coin.name.slice(0, 2).toUpperCase()}</span><div><b>${coin.name}</b><small>${earned ? coin.detail : "Available to earn"}</small></div>
+  </article>`;
+}
+
+export function collectionPanel({ state = "partial" } = {}) {
+  const earned = (item) =>
+    state === "empty" ? false : state === "complete" ? true : item.earned;
+  return `<aside class="side-panel side-panel--left collection-panel" aria-label="Collection">
+    ${gameKnowledgeHeader()}
+    ${learningNav("collection")}
+    <div class="panel-body">
+      <div class="collection-intro"><small>COLLECTION</small><h3>${state === "empty" ? "Your first patch is ahead" : "Proof from the mat"}</h3><p>Patches mark meaningful milestones. Mat Coins are just for laughs. They do not buy anything.</p></div>
+      <section class="collection-section" aria-labelledby="patches-title"><div><h4 id="patches-title">Patches</h4><span>${patches.filter(earned).length} earned</span></div><div class="patch-grid">${patches.map((patch) => patchBadge(patch, earned(patch))).join("")}</div></section>
+      <section class="collection-section" aria-labelledby="coins-title"><div><h4 id="coins-title">Mat Coins</h4><span>${matCoins.filter(earned).length} minted once</span></div><div class="coin-list">${matCoins.map((coin) => matCoin(coin, earned(coin))).join("")}</div></section>
+    </div>
+  </aside>`;
+}
+
+export function challengeCue({
+  done = 7,
+  total = 20,
+  complete = false,
+  track = "White",
+} = {}) {
+  return `<button type="button" class="challenge-cue" aria-label="Open pinned ${track} challenge" data-complete="${complete}">
+    <span class="sr-only" aria-live="polite">${complete ? `${track} challenge complete. Next: Open a move sheet.` : ""}</span>
+    <div><small>${track.toUpperCase()} CHALLENGES</small><span>${done}/${total}</span></div>
+    <b>${complete ? "Challenge complete - next up" : "Answer a landing question correctly"}</b>
+    <p>${complete ? "Open a move sheet" : "A / B / C / D"} <em>Open Challenges</em></p>
+  </button>`;
+}
+
+export function rewardToast({ type = "patch" } = {}) {
+  const coin = type === "coin";
+  return `<section class="reward-toast" role="status" aria-live="polite" data-reward="${type}">
+    ${coin ? matCoin(matCoins[0], true) : patchBadge(patches[0], true)}
+    <div><small>${coin ? "MAT COIN MINTED" : "PATCH EARNED"}</small><b>${coin ? "Houdini" : "White Foundations"}</b><button type="button" class="reward-link">View Collection</button></div>
+  </section>`;
+}
+
 export function masteryOverview(
   { mode = "category" } = {},
   context = defaultContext,
 ) {
   if (mode === "technique") {
-    return `<section class="path-proof-update" data-lesson="selected"><small>SELECTED LESSON</small><div class="path-lesson">${crownBadge({ level: 3 })}<span><b>${escapeHtml(context.name)}</b><small>${escapeHtml(context.roleLabel)} · 67% recall mastery</small></span><span>${icon("chevron-right", 13)}</span></div></section>`;
+    return `<section class="mastery-overview" data-lesson="selected" aria-label="${escapeHtml(context.name)} mastery"><small>SELECTED LESSON</small><div class="knowledge-lesson">${crownBadge({ level: 3 })}<span><b>${escapeHtml(context.name)}</b><small>${escapeHtml(context.roleLabel)} · 67% recall mastery</small></span><span>${icon("chevron-right", 13)}</span></div></section>`;
   }
-  return `<section class="path-proof-update" data-score-row><small>GAME KNOWLEDGE</small><div class="path-proof-score"><strong>38%</strong><span>White belt ${proofStripes({ filled: 2, belt: "white" })}</span></div>${progress(38)}<p>One weighted score. Lesson crowns and proof stripes use the same mastery.</p></section>`;
+  return `<section class="mastery-overview" data-score-row data-production-selector="[data-score-row]" aria-label="Game Knowledge"><small>GAME KNOWLEDGE</small><div class="knowledge-score"><strong>38%</strong><span>Tested recall</span></div>${progress(38)}<p>One evidence-based score. Challenge tracks label content difficulty.</p></section>`;
 }
 
-function lessonRow(lesson, index, { locked = false, mastered = false } = {}) {
-  const pct = mastered ? 100 : Math.round(lesson.progress * 100);
-  return `<button class="path-lesson" type="button" data-lesson="${index}" data-locked="${locked}" data-done="${pct === 100}" data-live="${lesson.live || false}">
-    ${crownBadge({ level: locked ? 0 : Math.round(pct / 25), locked })}
-    <span><b>${escapeHtml(lesson.title)}</b><small>${locked ? "Complete the previous lesson" : `${pct}% mastery`}</small></span>
-    <span>${locked ? icon("lock", 12) : icon("chevron-right", 13)}</span>
-  </button>`;
-}
-
-export function beltPath({
-  ruleset = "gi",
-  state = "progress",
-  focus = "overview",
-} = {}) {
-  const mastered = state === "mastered";
-  const demoted = state === "demoted";
-  const score = state === "new" ? 8 : mastered ? 82 : demoted ? 34 : 38;
-  return `<div class="belt-path ng-belt-path" data-production-selector="[data-score-row]" data-path-focus="${focus}">
-    ${beltMeter({ score, belt: score >= 80 ? "black" : score >= 60 ? "purple" : score >= 40 ? "blue" : "white" })}
-    <div class="path-content">
-      <button class="tutorial-path-row path-row" type="button" data-tut-row><i></i><b>Tutorial</b><small>4/20 steps</small></button>
-      <p class="tutorial-next">Read your hand — the cards below are every move you have here</p>
-      <section class="path-belt" data-belt="white" data-live="true">
-        <header class="path-row"><span class="belt-dot is-white"></span><h3>White Belt</h3>${proofStripes({ filled: mastered ? 4 : state === "new" ? 0 : demoted ? 1 : 2, belt: "white" })}<small>${mastered ? "6/6" : "0/6"} units</small></header>
-        <div class="path-unit" data-unit="1"><div class="unit-heading"><b>Mount: Escapes</b><small>${ruleset.toUpperCase()}</small></div>
-          ${lessons
-            .map((lesson, index) =>
-              lessonRow(lesson, index, {
-                locked: state === "new" && index > 0,
-                mastered,
-              }),
-            )
-            .join("")}
-          <button class="checkpoint-row" type="button" data-checkpoint data-locked="${state === "new"}"><span>◇</span><b>Checkpoint</b><strong>${state === "new" ? icon("lock", 11) : "READY"}</strong></button>
-        </div>
-        <button class="belt-test-row" type="button" data-belt-test data-locked="${!mastered}"><span>${icon("crown", 14)}</span><b>White belt test</b><small>${mastered ? "READY" : "Prove every unit first"}</small></button>
-      </section>
-      <section class="path-belt is-locked" data-belt="blue" data-locked="true"><header class="path-row"><span class="belt-dot is-blue"></span><h3>Blue Belt</h3>${proofStripes({ filled: 0, belt: "blue" })}<small>locked</small></header></section>
+export function progressPanel(
+  { mode = "overview", state = "default" } = {},
+  context = defaultContext,
+) {
+  const score = state === "demoted" ? 34 : 38;
+  return `<aside class="side-panel left side-panel--left ng-explorer progress-panel" aria-label="Game Knowledge detail">
+    ${gameKnowledgeHeader({ score, belt: score < 35 ? "White" : "Blue" })}
+    ${learningNav("challenges")}
+    <div class="panel-body ng-panel-scroll">
+      ${masteryOverview({ mode: mode === "technique" ? "technique" : "category" }, context)}
     </div>
-  </div>`;
+  </aside>`;
 }
 
 export function explorerPanel({
   mode = "tree",
   query = "",
-  pathState = "progress",
   ruleset = "gi",
-  focus = "overview",
 } = {}) {
-  const path = mode === "path" || mode === "progress";
+  if (mode === "challenges") return challengesPanel();
+  if (mode === "collection") return collectionPanel();
   const treeGroups = [
     ["Systems", ["Leg Lock System", "Back Attack System", "Pressure Passing"]],
     ["Principles", ["Frames & posture", "Base & connection", "Hip movement"]],
@@ -195,44 +306,27 @@ export function explorerPanel({
     ["Transitions", ["Knee Slice Pass", "Waiter Sweep", "Technical Stand-up"]],
     ["Submissions", ["Armbar", "Triangle Choke", "Rear Naked Choke"]],
   ];
-  return `<aside class="side-panel left side-panel--left ng-explorer" aria-label="${path ? "Belt Path pane" : "Explorer pane"}" data-production-selector=".ng-explorer" data-explorer-mode="${path ? "path" : "tree"}">
+  return `<aside class="side-panel left side-panel--left ng-explorer" aria-label="Explorer pane" data-production-selector=".ng-explorer" data-explorer-mode="tree">
     <div class="explorer-controls">
-      <div class="segmented" role="group" aria-label="Explorer mode"><button type="button" aria-pressed="${path}">PATH</button><button type="button" aria-pressed="${!path}">TREE</button></div>
+      ${learningNav("explore")}
       <div class="segmented ruleset" role="group" aria-label="Ruleset"><button type="button" aria-pressed="${ruleset === "gi"}">GI</button><button type="button" aria-pressed="${ruleset !== "gi"}">NO-GI</button></div>
     </div>
     <div class="explorer-search-row"><label class="explorer-search">${icon("search", 13)}<input data-explorer-search type="search" value="${escapeHtml(query)}" placeholder="Search techniques..." aria-label="Search graph" /></label><button type="button" aria-label="Close Explorer">${icon("close", 14)}</button></div>
-    <div class="ng-panel-scroll">${
-      path
-        ? beltPath({ ruleset, state: pathState, focus })
-        : `<div class="explorer-tree">${treeGroups
-            .map(
-              ([title, rows]) =>
-                `<section><header><span>${title}</span><small>${rows.length}</small></header>${rows
-                  .filter(
-                    (row) =>
-                      !query || row.toLowerCase().includes(query.toLowerCase()),
-                  )
-                  .map(
-                    (row, index) =>
-                      `<button type="button"><span class="tree-shape tree-shape--${title.toLowerCase()}"></span><span><b>${row}</b><small>${index + 3}</small></span>${icon("chevron-right", 12)}</button>`,
-                  )
-                  .join("")}</section>`,
+    <div class="ng-panel-scroll"><div class="explorer-tree">${treeGroups
+      .map(
+        ([title, rows]) =>
+          `<section><header><span>${title}</span><small>${rows.length}</small></header>${rows
+            .filter(
+              (row) => !query || row.toLowerCase().includes(query.toLowerCase()),
             )
-            .join("")}</div>`
-    }</div>
+            .map(
+              (row, index) =>
+                `<button type="button"><span class="tree-shape tree-shape--${title.toLowerCase()}"></span><span><b>${row}</b><small>${index + 3}</small></span>${icon("chevron-right", 12)}</button>`,
+            )
+            .join("")}</section>`,
+      )
+      .join("")}</div></div>
   </aside>`;
-}
-
-export function progressPanel(
-  { mode = "overview" } = {},
-  context = defaultContext,
-) {
-  return explorerPanel({
-    mode: "path",
-    pathState: "progress",
-    focus: mode === "technique" ? "technique" : "overview",
-    query: mode === "technique" ? context.name : "",
-  });
 }
 
 export function optionSheet(
@@ -303,7 +397,7 @@ export function settingsModal({ tab = "Flashcards" } = {}) {
     rolling: `<div class="settings-section"><b>Rolling simulation</b><p>When you pick a move, a dice-roll plays out against an AI opponent — success depends on the move’s win % and your mastery.</p><div class="setting-pills"><button type="button">Off</button><button type="button" aria-pressed="true">Normal</button><button type="button" disabled>Hard</button><button type="button" disabled>Ultra</button></div></div>
       <div class="setting-choice decision-setting" data-setting-row><b>Decision time</b><small>How long you get to read options before the roll moves on.</small><div><input type="range" min="5" max="15" value="9" aria-label="Decision time" /><strong>9s</strong></div><p class="setting-ticks"><span>Brisk</span><span>Default</span><span>Relaxed</span></p></div>
       ${settingToggle("Questions while you roll", "Each state asks one multiple-choice question. Correct answers refund clock and build momentum.")}
-      <div class="tutorial-setting" data-setting-row><span><b>Tutorial</b><small>4 of 20 steps done — each one is completed by doing it.</small></span><button type="button">Restart</button></div>
+      <div class="challenge-setting" data-setting-row><span><b>White Challenges</b><small>4 of 20 objectives done by doing them.</small></span><button type="button">Reset</button></div>
       ${settingChoices("Sound", "Synthesized feedback on every gameplay beat", ["On", "Off"])}
       ${settingChoices("Option ordering", "How move options are ranked, left to right", ["Potential", "Popularity"])}`,
     modifiers:
@@ -322,7 +416,7 @@ export function settingsModal({ tab = "Flashcards" } = {}) {
 export function authModal({ mode = "sign-in" } = {}) {
   const create = mode === "sign-up" || mode === "create";
   return `<div class="modal-layer ng-modal-layer"><section class="modal-card auth-modal" role="dialog" aria-modal="true" aria-label="${create ? "Create account" : "Sign in"}" data-auth data-auth-mode="${create ? "create" : "login"}" data-production-selector="[data-auth]">
-    <button class="modal-close" type="button" aria-label="Close account">${icon("close", 15)}</button><small>OPTIONAL ACCOUNT</small><h2>${create ? "Keep your game." : "Welcome back."}</h2><p>${create ? "Sync progress between devices. You can keep rolling as a guest." : "Restore your saved BJJGraph progress."}</p>
+    <button class="modal-close" type="button" aria-label="Close account">${icon("close", 15)}</button><small>OPTIONAL ACCOUNT</small><h2>${create ? "Keep your game." : "Welcome back."}</h2><p>${create ? "Sync Game Knowledge, Challenges, Collection, flashcards, and roll history. You can keep rolling as a guest." : "Restore your graph, Challenges, Collection, and daily queue."}</p>
     <label>Email<input type="email" value="grappler@example.com" /></label><label>Password<input type="password" value="password" /></label><button class="primary-action" type="button">${create ? "Create free account" : "Sign in"}</button><button class="auth-switch" type="button">${create ? "Already have an account? Sign in" : "New here? Create an account"}</button>
   </section></div>`;
 }
@@ -342,11 +436,6 @@ export function coach({ step = 1 } = {}) {
   return `<section class="coach-card ng-coach" data-coach="${step}" data-production-selector=".ng-coach"><small>YOUR FIRST ROLL · ${step}/3</small><h2>${copy[0]}</h2><p>${copy[1]}</p><button class="primary-action" type="button">${step === 3 ? "Start rolling" : "Next"}</button></section>`;
 }
 
-export function tutorial({ done = 4, total = 20 } = {}) {
-  const complete = done >= total;
-  return `<div class="tutorial-strip ng-tut" data-tut data-production-selector=".ng-tut"><span>${complete ? "✓" : `${done + 1}`}</span><div><small>TUTORIAL · ${Math.min(done, total)}/${total}</small><b>${complete ? "Tutorial complete" : tutorialSteps[done % tutorialSteps.length]}</b></div>${progress((Math.min(done, total) / total) * 100)}</div>`;
-}
-
 export function panicCard({ revealed = false } = {}) {
   return `<article class="panic-card" data-panic data-production-selector="[data-panic]"><small>PANIC DRILL · DEFEND IT</small><p>What must you protect before turning into the choke?</p>${revealed ? '<div><b>Answer</b><span>Win two-on-one hand control and put the choking shoulder toward the mat.</span></div><button type="button">Got it &rarr; +escape%</button>' : '<button type="button" data-panic-reveal>Reveal</button>'}</article>`;
 }
@@ -362,7 +451,7 @@ export function restartCard(
 export function progressNudge({ type = "saved" } = {}) {
   const demoted = type === "demoted";
   const score = demoted ? 34 : 38;
-  return `<section class="path-proof-update" data-score-row data-production-selector="[data-score-row]"><small>${demoted ? "TESTED FORGETTING" : "PATH UPDATE"}</small><div class="path-proof-score"><strong>${score}%</strong><span>White belt ${proofStripes({ filled: demoted ? 1 : 2, belt: "white" })}</span></div>${progress(score)}<p>${demoted ? "Review again lowered the tested score; elapsed time did not." : "Half Guard Underhooks moved to crown 3."}</p></section>`;
+  return `<section class="progress-nudge knowledge-update" role="status" data-score-row data-production-selector="[data-score-row]"><small>${demoted ? "KNOWLEDGE UPDATED" : "PROGRESS SAVED"}</small><div class="knowledge-score"><strong>${score}%</strong><span>Game Knowledge</span></div>${progress(score)}<p>${demoted ? "A missed recall lowered tested knowledge; elapsed time did not." : "Half Guard Underhooks moved to crown 3."}</p></section>`;
 }
 
 export function systemState({ type = "empty" } = {}) {

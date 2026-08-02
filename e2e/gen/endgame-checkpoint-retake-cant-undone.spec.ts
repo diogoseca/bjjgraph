@@ -1,4 +1,4 @@
-/* @hyperspace {"theme":"lifetime-journeys","L":"multi-belt-endgame","F":"checkpoint-quiz","B":"idempotence"} @invariant "Retaking and deliberately failing an already-passed checkpoint never revokes completion: after answering every retake card wrong, units['white/u1'] still records checkpoint:true, the unit row stays data-done='1', and no unit-regression beat fires." */
+/* @hyperspace {"theme":"lifetime-journeys","L":"multi-belt-endgame","F":"checkpoint-quiz","B":"idempotence"} @invariant "Retaking and deliberately failing an already-cleared Challenge checkpoint never revokes completion: after answering every retake card wrong, the checkpoint record remains true, its Challenge control remains cleared, and no regression beat fires." */
 import { test, expect } from "@playwright/test"
 import { journey } from "../dsl"
 import { multiBeltEndgame, CURRICULUM } from "./personas"
@@ -6,11 +6,11 @@ import { multiBeltEndgame, CURRICULUM } from "./personas"
 /**
  * ENDGAME CHECKPOINT RETAKE CANNOT BE UNDONE — a player with every belt won re-clicks an
  * already-passed checkpoint and deliberately bombs the whole quiz. Completion is a ratchet:
- * the fail branch must not revoke the pass, regress the unit row, or re-lock the next belt.
+ * the fail branch must not revoke the pass, regress the Challenge control, or lock content.
  *
  * Seams under test (probe-verified twice, ~3s/run, deterministic; probe file deleted):
- *   - The DONE checkpoint row STAYS clickable: renderBeltPath wires the row handler gated
- *     only on uLocked (app.src.jsx:2505) and startCheckpoint (:3456) has no already-done
+ *   - The cleared Challenge checkpoint STAYS clickable: the Challenge renderer wires its handler
+ *     directly to startCheckpoint and startCheckpoint has no already-done
  *     guard — so a retake is a REAL user path, not a synthetic one.
  *   - _checkpointAnswer's fail branch (app.src.jsx:3505-3513) emits checkpoint_failed
  *     (carrying `weakest`) and NEVER writes this.units — units[uk] keeps the seeded
@@ -32,7 +32,6 @@ const WHITE = CURRICULUM.belts[0]
 const UNIT1 = WHITE.units[0]
 const UK = `${WHITE.id}/${UNIT1.id}`
 const CP = UNIT1.checkpoint
-const BLUE = CURRICULUM.belts[1]
 
 /** deterministic rig-queue filler (LCG) — pre-sized, never Math.random */
 const seq = (seed: number, n: number): number[] => {
@@ -63,26 +62,19 @@ test("failing a retake of a passed checkpoint: pass survives, rows stay done, no
   await page.evaluate(() => (window as any).__neural.toggleExplorer())
   await expect(page.locator("[data-view]").first()).toBeVisible()
 
-  // ── pre-state: the pass is on the books, downstream belt already unlocked ──
+  // ── pre-state: the pass is on the books and the Challenge control is re-takeable ──
   expect(
-    await page.locator(`[data-unit="${UK}"]`).first().getAttribute("data-done"),
-    "unit row starts done",
-  ).toBe("1")
-  expect(
-    await page.locator(`[data-checkpoint="${UK}"]`).first().getAttribute("data-done"),
-    "checkpoint row starts done",
-  ).toBe("1")
-  expect(
-    await page.locator(`[data-belt="${BLUE.id}"]`).first().getAttribute("data-locked"),
-    "next belt starts unlocked",
-  ).toBeNull()
+   await page.locator(`[data-checkpoint="${UK}"]`).isDisabled(),
+   "cleared Challenge checkpoint stays re-takeable",
+  ).toBe(false)
   const before = await page.evaluate((uk) => {
     const u = (window as any).__neural._progressBlob().units[uk]
     return u ? { checkpoint: !!u.checkpoint, t: u.t } : null
   }, UK)
   expect(before, "persona seeded the pass record").toEqual({ checkpoint: true, t: 1 })
 
-  // ── the DONE row is still a live control: clicking it starts a real retake ──
+  // ── the cleared Challenge control is still live: clicking it starts a real retake ──
+  const beatsBeforeRetake = await j.beats()
   await page.locator(`[data-checkpoint="${UK}"]`).first().click()
   await j.advance(400)
   await j.expectBeat("checkpoint_start")
@@ -106,7 +98,7 @@ test("failing a retake of a passed checkpoint: pass survives, rows stay done, no
   }
 
   // ── beat shape of a bombed retake: all wrong, one fail, zero pass-side beats ──
-  const beats = (await j.beats()) as any[]
+  const beats = ((await j.beats()) as any[]).slice(beatsBeforeRetake.length)
   const names = beats.map((b) => b.beat)
   expect(names.filter((n) => n === "mc_shown").length, "every quiz card presented").toBe(CP.cards)
   expect(names.filter((n) => n === "mc_wrong").length, "every quiz card answered wrong").toBe(CP.cards)
@@ -146,19 +138,12 @@ test("failing a retake of a passed checkpoint: pass survives, rows stay done, no
   expect(after.stored, "persisted storage still records the pass").toEqual({ checkpoint: true, t: 1 })
   expect(after.ckptOpen, "quiz resolved and cleared — no dangling retake state").toBe(false)
 
-  // ── re-open the path: both rows still done, downstream belt still unlocked ──
+  // ── re-open Challenges: the cleared checkpoint remains a usable control ──
   await page.evaluate(() => (window as any).__neural.toggleExplorer())
   await expect(page.locator("[data-view]").first()).toBeVisible()
   expect(
-    await page.locator(`[data-unit="${UK}"]`).first().getAttribute("data-done"),
-    "unit row still done after the bombed retake",
-  ).toBe("1")
-  expect(
-    await page.locator(`[data-checkpoint="${UK}"]`).first().getAttribute("data-done"),
-    "checkpoint row still done after the bombed retake",
-  ).toBe("1")
-  expect(
-    await page.locator(`[data-belt="${BLUE.id}"]`).first().getAttribute("data-locked"),
-    "next belt never re-locks",
-  ).toBeNull()
+    await page.locator(`[data-checkpoint="${UK}"]`).isDisabled(),
+    "cleared checkpoint remains re-takeable after the bombed retake",
+  ).toBe(false)
+  expect(await page.locator(".ng-track-card").count(), "all content tracks remain browseable").toBe(CURRICULUM.belts.length)
 })

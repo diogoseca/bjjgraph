@@ -306,7 +306,7 @@ Client-side spaced repetition (SM-2) layered onto the always-on background graph
 3. **SettingsModal** — opens from the ⚙ inside DecksModal, defaults to Flashcards tab. Two tabs: Flashcards (Daily Goal, Show Flashcards on pages) / Game (Game Mode pills, Hard/Ultra locked). Stacks above DecksModal.
 4. **SessionChevrons** — fixed prev/next overlays on left/right viewport edges. Visible only when `body[data-training-active]`. Left hidden at index 0; right shows ✓ at last card (click finishes session). ArrowLeft/ArrowRight global keyboard, gated by `isTypingTarget`.
 
-> **NB — legacy variant only.** Everything in this section describes the Quartz page UI served at `?variant=legacy`. The default experience is the **Neural app** (see *Neural: pane law, landing questions, tutorial, degrees* below). `FirstLoadHint` and `bjj-onboarded` were **deleted in v1.26.2** (`0c492f0f6`) and no longer exist anywhere in source.
+> **NB — legacy variant only.** Everything in this section describes the Quartz page UI served at `?variant=legacy`. The default experience is the **Neural app** (see *Neural: pane law, landing questions, Challenges, Game Knowledge* below). `FirstLoadHint` and `bjj-onboarded` were **deleted in v1.26.2** (`0c492f0f6`) and no longer exist anywhere in source.
 
 **Carousel slide:** SPA navigation between cards in a session uses the CSS View Transitions API via `slideNavigate(url, 'forward'|'backward')` in `trainingSession.ts`. CSS keyframes drive a horizontal slide; non-supporting browsers fall back to instant swap. Graph's existing 400ms pan-to-current-node fires in parallel on every nav.
 
@@ -346,9 +346,9 @@ Client-side spaced repetition (SM-2) layered onto the always-on background graph
 
 **Cloudflare redirect:** `source/quartz/static/_redirects` has `/Training/* / 301` so old inbound links land on home.
 
-### Neural: pane law, landing questions, tutorial, degrees (v1.68.0+)
+### Neural: pane law, landing questions, Challenges, Game Knowledge (v1.68.0+)
 
-All in `neural/src/app.src.jsx` (one class; CSS in `neural/src/helmet.html`). Journeys in `e2e/journeys/`: `pane-law`, `landing-card`, `roam-stage`, `tutorial-drip`, `proof-stripes`.
+The runtime remains one imperative component in `neural/src/app.src.jsx`. Challenge definitions, pure progression, UI composition, feedback, and styling are split into `neural/src/challenge-*.src.js` and `neural/src/challenge-*.css`, then composed by `neural/build/build.mjs`. Core journeys include `pane-law`, `landing-card`, `roam-stage`, `white-challenges`, `challenge-curriculum`, `content-capstone`, `game-knowledge`, and `challenges-{engine,ui}`.
 
 **PANE LAW (v1.68.0).** The right flashcards pane is **manual-only** — nothing in the roll loop opens or closes it. It no longer opens at roll start, no longer opens as a save nudge, no longer hides at round end, and desktop graph clicks leave it alone (mobile keeps the strip-tap dismiss, since the pane covers the screen there).
 - **Open = the game stops. Close = the game resumes, but only if the pane is what stopped it.** Latched in `applyDeckVisibility()` via `_deckAutoPaused` — the same shape as `_explorerAutoPaused` / `_dossierAutoPaused`. A hand-paused roll stays paused when you close the pane.
@@ -364,9 +364,15 @@ All in `neural/src/app.src.jsx` (one class; CSS in `neural/src/helmet.html`). Jo
 
 **ROAM & STAGE (v1.68.0).** Clicking any graph node calls `stageRollAt(idx)`: fly there, land, deal the hand — **clock held**. Click elsewhere and you restage the same non-session. `_played` (set in `_tick` on the first unpaused frame with a live hand) is the seam: a roll that never played is never archived into `_pastRolls`. Tapping the node you are already on reads it (dossier) instead. `after(sec, fn, ignorePause)` exists so a staged landing still arrives while paused. Beat: `roll_staged`.
 
-**TUTORIAL DRIP (v1.68.0).** The 3-beat coach is now steps 1–3 of a **20-step checklist** (`get TUTORIAL()`), each completed by *doing* it — `fx()` feeds `noteTutorial(beat, props)`, which matches a step's `m(beat, props)` predicate. Steps may be earned in any order. Surfaces: `.ng-tut` strip (`[data-tut]`, `pointer-events:none` so the options tray stays clickable; hidden while the coach is up and on mobile) and a **Tutorial row at the head of the Belt Path** (`[data-tut-row]`). Persisted as `tut:{done:{}}` inside the **existing v2 blob** (no version bump; users with `bjj-neural-coached` are grandfathered past steps 1–3). Restart lives in Settings → Rolling. Beats: `tut_step`, `tutorial_done`. New supporting beats: `sheet_opened`, `recall_proven`.
+**CHALLENGES + COLLECTION (v1.74.0).** Challenges replace the one-time Tutorial and locked progression path. Explore, Challenges, and Collection are peer views in the left pane. Five content tracks — White Foundations, Blue Connections, Purple Patterns, Brown Pressure, and Black Breadth — are open from day one. Track colors describe material difficulty, never real-world rank or access.
+- White Foundations preserves the original 20 evidence predicates; the first-roll coach completes the first three. Legacy `tut.done` is dual-read and compatibility-written, then migrated exactly once into `challenges`.
+- Advanced tracks combine event evidence (`combo`, `escape`, `roll_end`) with snapshot evidence (lessons, checkpoints, recall, mastered decks, capstones). `fx()` is the single processing seam.
+- A pinned challenge cue stays available during rolls, can be hidden in Settings → Rolling, and never takes focus or blocks the option hand. Opening the pane temporarily removes the cue.
+- Challenge lessons are always open. A unit checkpoint requires its own live lesson evidence; an optional content capstone requires that track's unit checkpoints. Clearing a capstone records proof but never unlocks another track.
+- Collection separates patch-style badges (meaningful milestones) from mint-once Mat Coins (humorous acknowledgements). Neither is spendable and neither changes odds, score, timers, content access, or opponent behavior.
+- Reward feedback is queued, polite (`role=status`, `aria-live=polite`), focus-safe, sound-aware, and remains visible without animation under reduced motion.
 
-**DEGREES = ONE SCORE (v1.68.0), display-only.** A belt is *won* by its test; a degree is *proof*, and proof is a single number:
+**GAME KNOWLEDGE = ONE SKILL SCORE (v1.68.0), display-only.** Challenge progress and skill are deliberately separate. Game Knowledge is the only mastery metric:
 
 ```
 score = Σ (weight_i × mastery_i),   Σ weight_i = 1
@@ -375,16 +381,17 @@ score = Σ (weight_i × mastery_i),   Σ weight_i = 1
 - **`weight_i`** — how often a roll *actually* passes through technique *i*. Computed at build time by `build_technique_weights()` in `scripts/regenerate_neural_data.py`: the state machine is a Markov chain (position-role --`attemptProbability`--> technique --`outcome.probability`--> position-role), power-iterated with PageRank-style damping to a **stationary distribution**; each technique's expected visit rate is its weight. Emitted as `curriculum.weights` (`{"<name>|Attacker": w}`, 1269 entries summing to 1). Sanity check: the heaviest come out as *Side Control to Mount* (2.4%), *Knee Slice Pass*, *Underhook Sweep from Half* — a believable frequency ranking.
 - **`mastery_i`** — `deckMastery(key)` = mean of `min(cardStage,3)/3` over the deck's cards.
 - **Nothing is cut.** A rare technique still counts, proportionally to how rare it is. This replaced an earlier "drop the rare 20% tail" canon, which was arbitrary — `attempt_probability` is normalised *per position* across 10–20 options, so the distribution is flat and any mass cutoff is meaningless (80% of the mass kept 724 of 1270 techniques).
-- **Belts are thresholds on that number** (`BELT_SCORE`): white .20 · blue .40 · purple .60 · brown .70 · black .80. `gameScore()` → `{score, belt, next, stripes}`, memoised against `_stageVer` (bumped in `_bumpStage`) because a full pass is ~21k card reads.
+- **Knowledge bands are thresholds on that number** (`BELT_SCORE`): white .20 · blue .40 · purple .60 · brown .70 · black .80. `gameScore()` → `{score, belt, next, stripes}`, memoised against `_stageVer` (bumped in `_bumpStage`) because a full pass is ~21k card reads.
 - **Emergent property worth keeping:** an MC answer caps a card at stage 2 = 2/3 mastery, so pure recognition tops out at **0.667** — enough for purple, never enough for brown or black. Recall is the only route past 0.7 *by construction*, which is exactly the "white belts recognise, black belts recall" rule, with no special-casing.
 - **Effectiveness is already in there** — the chain propagates through `outcome.probability`, so a technique that works routes more traffic to its destination and lifts the weights downstream. An explicit effectiveness multiplier would double-count it.
-- Rendered as a `[data-score-row]` header ("Game knowledge · NN%") plus 4 ticks per belt row (`[data-stripes]`) showing progress through *that belt's* band. **Nothing is gated by the score** and the thresholds are provisional.
+- Rendered as the persistent `.ng-knowledge-header` and accessible `.ng-knowledge-meter` above all three left-pane views. **Nothing is gated by the score** and the thresholds are provisional.
+- Forgetting is *tested, not timed*: Review-again and trap answers can lower a card's stage and therefore the score. Do not add idle decay.
+- `crownBadge(frac, tint, false)` gives each Challenge lesson a 0–4 crown from `deckMastery(deckKey)`. Crowns visualize the same evidence as Game Knowledge; they are not a second score.
 
-**THE BELT BAR + CROWNED LESSONS (v1.69.0).** PATH view is the Duolingo surface; TREE stays the reference browser (categories live there — the curriculum's order *is* the pedagogy, so grouping the path by category would break it).
-- `buildBeltBar()` renders one vertical meter at the head of the path: the fill rises with `gameScore().score` and takes the colour of the highest belt **met**, the track outline flips to white once that belt is black, a marker sits at each threshold (`[data-belt-mark]`, gaining `data-met` when passed), and `[data-you-are-here]` is the bright line at your exact score. Handles: `[data-belt-track]` (`normal`|`black`), `[data-belt-fill]` (belt id or `none`), `[data-belt-label]`.
-- **The line can fall.** Forgetting is *tested, not timed* (owner's call): there is no idle decay, but Review-again and trap answers drop a card's stage, so the score — and the belt — genuinely demote. Do not add time decay.
-- `crownBadge(frac, tint, locked)` gives every lesson a 0–4 crown from `deckMastery(deckKey)` — a conic-gradient ring plus the level (★ at 4). **Same numbers as the belt score**, so grinding a lesson to gold is literally what moves your belt: one system, not two scoreboards.
-- Every pre-existing path handle is preserved (`[data-lesson]`, `[data-unit]`, `[data-checkpoint]`, `[data-belt]`, `data-locked`, `data-done`, `data-live`) — the redesign is styling, not restructuring.
+**CHALLENGE PERSISTENCE + MERGE.** The existing v2 progress blob adds `challenges`, `badges`, and `coins` without changing the blob version. Challenge entries are `{progress, done, t}`; collectibles are `{t, context?}`. Cloud reconciliation uses MAX for progress, OR for completion, UNION for collectibles, and the existing per-key timestamp LWW rule for settings. A fresh device must pull before its first push. Corrupt local state falls back cleanly, and snapshot-derived historical rewards persist without replaying old toasts.
+- Challenge settings: `challengeView`, `challengeSelectedTrack`, `challengePinnedTrack`, `challengeCueVisible`, `challengeMigrationSeen`.
+- Legacy `path` view migrates to `challenges`; legacy `tree` migrates to `explore`.
+- Compatibility identifiers such as `belt_test_*`, `TUTORIAL`, and `tut.done` remain internal migration rails only. Do not restore their retired UI or lock semantics.
 
 **MOMENTUM — the combo meter (v1.70.0).** Consecutive correct landing answers build an arcade combo: ×2 `DOUBLE COMBO!` · ×3 `TRIPLE` · ×4 `MEGA` · ×5 `ULTRA` · ×6 `RAMPAGE!` · ×7+ `GODLIKE` (re-stamps ×N). Owner's rules: **per roll** (fresh match starts cold — reset in `startRoll`/`rollFromPosition`); **wrong OR ignored breaks it** (`_landPending` is set when a question mounts; `enterAttempt` breaks with `reason:"ignored"` if it's still set — auto-pick counts as ignoring); a landing that asks nothing **carries** it (silence ≠ neglect).
 - **Bonus:** `momentumMod()` = +2.5%/tier, **cap +10%** at ×5 — added in `moveChance` AND `escapeChance` (momentum is morale, it defends too). `momentumSkew()` = 10%/tier, **cap 40%**: in `drawOutcome`, counter-outcome weights shrink by the skew ("too fast to counter") — favorable outcomes gain implicitly via relative weights, authored numbers untouched. Beat `outcome_skewed {skew, result}` when a non-success lands under skew.
@@ -393,7 +400,7 @@ score = Σ (weight_i × mastery_i),   Σ weight_i = 1
 
 **`pointer-events:auto` is LOAD-BEARING on every fixed overlay** (`.ng-coach`, `.ng-landcard`, …): the property is *inherited*, the overlay root disables it, and the canvas hit-tests above anything that doesn't re-enable it — option cards set it inline for exactly this reason. Missing it = mouse clicks silently fall through to the graph (the coach's Next button and the landing card's MC options were unclickable by mouse until v1.69.1; keyboard paths masked it).
 
-**Settings additions:** Rolling tab gains *Questions while you roll* (`landQuestions`, default on — gates the QUESTION only; identity+film render regardless) and *Tutorial* (progress + Restart); Flashcards tab's *Answer mode* now defaults to Classic recall. Shortcuts tab lists `A B C D`.
+**Settings additions:** Rolling tab gains *Questions while you roll* (`landQuestions`, default on — gates the QUESTION only; identity+film render regardless) and *Challenge cue* (visibility for the pinned track). Flashcards tab's *Answer mode* defaults to Classic recall. Shortcuts lists `A B C D`.
 
 ### Graph Component
 

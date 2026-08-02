@@ -58,15 +58,38 @@ const SOURCES = {
       "explorerListRef",
     ],
   },
-  path: {
-    files: ["neural/src/app.src.jsx"],
-    symbols: ["renderBeltPath", "buildBeltBar", "crownBadge", "stripeHTML"],
+  knowledge: {
+    files: ["neural/src/challenge-ui.src.js", "neural/src/app.src.jsx"],
+    symbols: ["renderKnowledgeHeader", "gameScore", "deckMastery"],
+    handles: ["knowledgeRef", "[data-score-row]", ".ng-knowledge-meter"],
+  },
+  challenges: {
+    files: [
+      "neural/src/challenge-ui.src.js",
+      "neural/src/challenge-feedback.src.js",
+      "neural/src/challenge-engine.src.js",
+      "neural/src/challenge-definitions.src.js",
+      "neural/src/app.src.jsx",
+    ],
+    symbols: [
+      "renderChallenges",
+      "renderCollection",
+      "renderChallengeCue",
+      "acknowledgeChallenge",
+      "queueChallengeReward",
+      "ngAdvanceChallenges",
+      "ngRewardChanges",
+      "ngMergeChallengeMaps",
+      "ngMergeCollectibles",
+      "NG_CHALLENGE_TRACKS",
+      "NG_BADGE_DEFINITIONS",
+      "NG_MAT_COINS",
+    ],
     handles: [
-      "[data-score-row]",
-      "[data-belt-track]",
-      "[data-lesson]",
-      "[data-checkpoint]",
-      "[data-stripes]",
+      "[data-challenge-cue]",
+      "[data-challenge-id]",
+      ".ng-challenge-row",
+      ".ng-challenge-reward",
     ],
   },
   dossier: {
@@ -92,11 +115,6 @@ const SOURCES = {
     files: ["neural/src/app.src.jsx", "neural/src/helmet.html"],
     symbols: ["renderCoach"],
     handles: [".ng-coach", "coachRef", "renderCoach"],
-  },
-  tutorial: {
-    files: ["neural/src/app.src.jsx", "neural/src/helmet.html"],
-    symbols: ["noteTutorial", "TUTORIAL"],
-    handles: [".ng-tut", "[data-tut]", "[data-tut-row]"],
   },
   defense: {
     files: ["neural/src/app.src.jsx", "neural/src/helmet.html"],
@@ -141,7 +159,7 @@ const COMPONENT_SOURCES = {
   pill: ["settings"],
   "toggle-group": ["settings"],
   "ruleset-toggle": ["explorer"],
-  "progress-bar": ["drill", "path"],
+  "progress-bar": ["drill", "knowledge"],
   "odds-meter": ["options"],
   "win-lose-bar": ["event"],
   transport: ["shell"],
@@ -164,13 +182,19 @@ const COMPONENT_SOURCES = {
   flashcard: ["drill"],
   "flashcard-mc": ["drill"],
   "drill-pane": ["drill"],
-  "lesson-row": ["path"],
-  "belt-path": ["explorer", "path"],
-  "belt-meter": ["path"],
-  "proof-stripes": ["path"],
-  "lesson-crown": ["path"],
-  "mastery-overview": ["path"],
-  "progress-pane": ["explorer", "path"],
+  "lesson-row": ["challenges"],
+  "challenge-panel": ["challenges", "knowledge"],
+  "game-knowledge-header": ["knowledge"],
+  "challenge-track-card": ["challenges"],
+  "challenge-row": ["challenges"],
+  "collection-panel": ["challenges", "knowledge"],
+  "milestone-patch": ["challenges"],
+  "mat-coin": ["challenges"],
+  "belt-meter": ["knowledge"],
+  "proof-stripes": ["knowledge"],
+  "lesson-crown": ["knowledge"],
+  "mastery-overview": ["knowledge"],
+  "progress-pane": ["knowledge"],
   "explorer-tree": ["explorer"],
   "dossier-collapsed": ["dossier"],
   "dossier-expanded": ["dossier"],
@@ -178,10 +202,11 @@ const COMPONENT_SOURCES = {
   "settings-modal": ["settings"],
   "auth-modal": ["auth"],
   "coach-card": ["coach"],
-  "tutorial-strip": ["tutorial"],
+  "challenge-cue": ["challenges"],
   "defense-panic": ["defense"],
   "restart-card": ["restart"],
-  "progress-nudge": ["path"],
+  "progress-nudge": ["knowledge"],
+  "reward-toast": ["challenges"],
   "defense-vignette": ["defense"],
   "momentum-chip": ["momentum"],
   "combo-announcer": ["momentum"],
@@ -208,21 +233,34 @@ function screenSourceKeys(id, group) {
       id.startsWith("combo") ? "momentum" : "options",
     );
   } else if (group === "Pane compositions") {
-    if (id.includes("left") || id.includes("tree")) keys.push("explorer");
-    if (id.includes("path") || id.includes("progress"))
-      keys.push("explorer", "path");
+    if (id.includes("challenges") || id.includes("collection"))
+      keys.push("challenges", "knowledge");
+    else if (id.includes("progress")) keys.push("knowledge");
+    else if (id.includes("left") || id.includes("tree"))
+      keys.push("explorer");
     if (id.includes("right") || id.includes("study")) keys.push("drill");
   } else if (group === "Restart & terminal" || group === "Roll end") {
     keys.push(id.startsWith("restart") ? "restart" : "terminal");
     if (id.includes("study")) keys.push("drill");
+    if (id.includes("challenge") || id.includes("patch"))
+      keys.push("challenges");
   } else if (group === "Progress & mastery") {
-    keys.push("explorer", "path", "event");
+    keys.push("knowledge", "event");
+    if (
+      id.includes("challenge") ||
+      id.includes("collection") ||
+      id.includes("reward") ||
+      id.includes("checkpoint")
+    )
+      keys.push("challenges");
   } else if (group === "Study") {
     keys.push("drill");
-  } else if (group === "Explorer & path") {
+  } else if (group === "Challenges & collection") {
+    keys.push("challenges", "knowledge");
+  } else if (group === "Explore & challenges") {
     if (id.startsWith("dossier")) keys.push("dossier");
-    else if (id.startsWith("path") || id.startsWith("checkpoint"))
-      keys.push("explorer", "path");
+    else if (id.startsWith("challenge") || id.startsWith("checkpoint"))
+      keys.push("challenges", "knowledge");
     else keys.push("explorer");
   } else if (group === "Settings & account") {
     keys.push(
@@ -233,7 +271,7 @@ function screenSourceKeys(id, group) {
           : "shell",
     );
   } else if (group === "Onboarding") {
-    keys.push(id.startsWith("tutorial") ? "tutorial" : "coach");
+    keys.push(id.startsWith("challenge") ? "challenges" : "coach");
   } else if (group === "Responsive stress") {
     keys.push("landing", "options", "event");
   }
