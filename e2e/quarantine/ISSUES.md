@@ -75,3 +75,34 @@ Format per entry:
   `startCheckpoint` keep the pause (transfer the explorer's auto-pause to the quiz instead of
   releasing it), or clear/park `_decision` + `_optPick` for the quiz's duration, or guard
   `_tickDecision` on `this._checkpoint`. The red spec is fix-shape-agnostic.
+
+## Q003 — Momentum sounds are inaudible: the combo two-step and break snap are ALWAYS eaten by the 40ms voice-spacing gate   [bug] [status: Open]
+- Spec: e2e/quarantine/endgame-combo-sound-ladder.spec.ts
+- Found: wave 5, multiBeltEndgame at sound
+- Expected: the sound bus mirrors the combo arc — climbing ×2→×5 voices the combo patch
+  ("combo-up", the bright two-step sound.src.js:26 documents as "for every combo") at each
+  tier, ×5 adds the distinct combo_big stab, and a wrong answer voices combo_break (the
+  "string-snap slide when the streak dies", :28). Beats and voices agree on the arc.
+- Actual: beats mirror the arc perfectly (probe: combo n=2,3,4,5 · combo_big n=5 · combo_break
+  at=5) but the voice log carries ZERO combo voices and ZERO combo_break — only combo_big
+  ("combo-stab") survives. Cause: on a landing answer, fx("mc_correct") (app.src.jsx:3646;
+  often preceded by bonus_pumped via noteCardDone :862) → onDone → `_landAnswered` (:4302) →
+  `_comboUp` → fx("combo") (:4338) all run in ONE synchronous key/click handler, so
+  performance.now() deltas are ~0ms; NGSound.beat's voice spacing (sound.src.js:94:
+  `now - _lastVoice < 40 && !patch.major → return`) drops every non-major patch after the
+  first accepted voice. mc_correct/bonus_pumped always claims the window → combo (non-major)
+  is dropped at EVERY tier. Same on the break: fx("mc_wrong") (:3663) voices buzz-muted, then
+  fx("combo_break") (:4350) lands <40ms later → dropped. combo_big is `major:1` → always
+  lands. Not a test artifact — real play has the same synchronous ordering, so the audible
+  ladder is ding … ding … STAB: the ×2/×3/×4 announcer slams and the chip-shatter break are
+  silent, and the "louder patch at ×5" contrast (:4339) never exists because the quiet patch
+  is never heard.
+- Notes: repro = boot multiBeltEndgame (decks unproven → every landing asks) → land Mount Top
+  → loop [answer landing MC right via `_mc.correct` + rig resolve/outcome 0.01 + nextHand]
+  to _combo=5 → read `sound.soundLog` → answer next question wrong. Suggested fixes (spec is
+  shape-agnostic): mark combo/combo_break `major: 1` (they are rare, tier-gated moments, not
+  spam — mirrors how combo_big already punches through); or exempt them from spacing; or emit
+  the mc ding only when no combo event fired in the same answer (the announcer replaces the
+  "Correct" toast at ×2+ visually — app.src.jsx:4308 — so the ding could defer to the combo
+  voice the same way). Beware: fixing via reorder alone (combo before mc_correct) just flips
+  which voice gets eaten.

@@ -10,7 +10,8 @@
    "resilience",
    "competitive-arc",
    "input-access",
-   "infra"
+   "infra",
+   "momentum-and-economy"
   ],
   "L": [
    "fresh-visitor",
@@ -172,6 +173,25 @@
     "Composite of already-pinned halves without new substance: migration seam = core-008; lesson rows done-from-prep-alone while units stay incomplete = gen-w1-02 via a v1 seed instead of a veteran seed.",
     "Remaining clauses ledgered elsewhere: belt-test rows locked despite done lessons = gen-w1-17; blue data-locked on an unearned profile = core-002; belt_unlocked-only-on-test-win inside core-015.",
     "The single unpinned atom (absent v1 units/belts staying {} through _loadProgress) is thin — same basis as the returner-comeback-boot rejection: changing the seed, not the invariant."
+   ]
+  },
+  {
+   "slug": "corrupt-blob-momentum-machinery-fresh",
+   "wave": 5,
+   "reasons": [
+    "Tuple collision with substance overlap: (legacy-corrupt-blob, boot-landing, error-fallback) is EXACTLY gen-w1-15's tuple, and the spec's boot phase re-asserts gen-w1-15 nearly clause-for-clause (>1000 nodes ingested, prep empty/pristine fallback, same double-boot addInitScript seeding recipe the spec itself credits to corrupt-blob-fresh-fallback-boot).",
+    "The climb phase re-runs core momentum.spec.ts's first test at a different starting point: ×1 silent (no chip), ×2 → [data-combo-pop='2'] + [data-momentum='2'] + combo beat {n:2, name:'DOUBLE COMBO!', mod:0.025} are the identical assertions already green in the core suite; 'landing asks on a fresh profile' is likewise pinned (core landing-card test 1, gen-w3-10).",
+    "The headline atom — 'the meter never reads the (garbage) blob' — is vacuous by construction: _combo is in-memory per-roll state that is absent from the persisted blob entirely (the spec's own docstring concedes 'the meter is pure in-memory per-roll state', and the sibling returner-momentum-ephemeral-knowledge-durable spec pins that absence directly). Seeding corrupt bytes therefore changes nothing the momentum machinery reads — the same numbers-that-do-not-change basis on which veteran-mastery-not-inflatable and veteran-decision-timer-refund-cap were rejected.",
+    "Rejected on novelty only: the spec itself is well-built (premise guard that CORRUPT_BLOB_RAW throws, marker-proven seeding order, pop asserted before sim pumping)."
+   ]
+  },
+  {
+   "slug": "veteran-silent-carry-applies-live",
+   "wave": 5,
+   "reasons": [
+    "Derivable composite of two pinned core invariants: momentum.spec.ts already pins (a) 'a landing that asks nothing carries it' — combo count preserved through a proof-silenced state with zero combo_break — and (b) 'momentum heats the whole hand' — moveChance carries exactly momentumMod, proven by the same _combo-toggle delta read this spec performs. momentumMod is a pure function of _combo alone (the spec's own docstring cites :4331), so 'carried implies still wired into moveChance' follows arithmetically from carry + the caps table + the moveChance term — the same derivability basis on which returner-victory-defeat-ladder-swing-symmetric ('arithmetic corollaries of core-065') and veteran-decision-timer-refund-cap ('the mechanism reads only the counter') were rejected.",
+    "The additions do not change the invariant's substance: two consecutive silent landings instead of core's one is count-scaling; the srs-veteran persona changes numbers-that-do-not-change (questionFor reads only the stage map); the ±0.025 delta read at the third state is core's test-3 measurement relocated. Even the spec concedes the carry 'is usually tested as a COUNT' and pins 'the stronger claim' — but no code seam exists where carried-but-not-live could diverge (moveChance gates momentumMod on nothing else).",
+    "Rejected on novelty only — the engineering (in-page DFS chain planning around the submission-heavy Mount pocket, exact stage-2 boundary silencing, re-plan drift insurance) is excellent and worth reusing in a future wave with a genuinely new invariant."
    ]
   }
  ],
@@ -2134,6 +2154,359 @@
    "evidence": {
     "revalidated": "pre-v1.68 spec, drift-fixed for v1.70 mechanics (landQuestions seeding / landcard clear), 3x green + red-proof 2026-08-03"
    }
+  },
+  {
+   "id": "gen-w5-01",
+   "file": "e2e/gen/holder-momentum-heats-escape-odds.spec.ts",
+   "theme": "momentum-and-economy",
+   "L": "white-belt-holder",
+   "F": "defense-panic",
+   "B": "economy-math",
+   "invariant": "escapeChance carries momentumMod exactly like moveChance does: with the same live defense, toggling _combo 0→5 raises the displayed escape odds by exactly +10 points (inside the [8,92] clamp) — momentum defends as it attacks.",
+   "origin": "auto",
+   "status": "accepted",
+   "wave": 5,
+   "evidence": {
+    "greens": 3,
+    "redProof": "Flipped line 100's core invariant toBeCloseTo(0.1, 6) -> toBeCloseTo(0.2, 6); run failed at exactly that assertion (Expected: 0.2, Received: 0.09999999999999998 — confirming the true +0.10 delta), then restored the exact original line via precise Edit (file is untracked; git checkout unavailable) and re-ran green (4.1s).",
+    "runtimeS": 6.7
+   }
+  },
+  {
+   "id": "gen-w5-02",
+   "file": "e2e/gen/holder-caught-keeps-momentum.spec.ts",
+   "theme": "momentum-and-economy",
+   "L": "white-belt-holder",
+   "F": "defense-panic",
+   "B": "guard-limit",
+   "invariant": "Dice never break the streak: a rigged catch (impact_fail → caught) and the subsequent rigged escape both leave _combo at its earned value with zero combo_break beats — only wrong and ignored break momentum.",
+   "origin": "auto",
+   "status": "accepted",
+   "wave": 5,
+   "evidence": {
+    "greens": 3,
+    "redProof": "Mutated line 147: final assertion `.toBe(earned)` → `.toBe(earned + 1)`. Run failed as expected at that exact assertion — \"combo survived the catch → panic → escape arc at its earned value: Expected 2, Received 1\" — proving _combo really holds the earned value and the assertion bites. Reverted the single line to the exact original text; restored run green (5.2s).",
+    "runtimeS": 7.3
+   }
+  },
+  {
+   "id": "gen-w5-03",
+   "file": "e2e/gen/returner-wrong-answer-poisons-attack-only.spec.ts",
+   "theme": "momentum-and-economy",
+   "L": "lapsed-returner",
+   "F": "defense-panic",
+   "B": "economy-math",
+   "invariant": "_qMod is an attack-side penalty only: after a wrong landing answer sets _qMod=-0.04, every option's moveChance drops by exactly 4 points while escapeChance for a live defense is computed without _qMod (identical before/after the penalty).",
+   "origin": "auto",
+   "status": "accepted",
+   "wave": 5,
+   "evidence": {
+    "greens": 3,
+    "redProof": "Mutated line 103's exact-arithmetic assertion from toBeCloseTo(b - 0.04, 10) to toBeCloseTo(b - 0.05, 10); the run failed exactly at that assertion (option moveChance delta did not match the corrupted expectation). Restored the original text via precise Edit revert and confirmed a green run (4.1s).",
+    "runtimeS": 10.7
+   }
+  },
+  {
+   "id": "gen-w5-04",
+   "file": "e2e/gen/mid-landing-refund-shares-window-budget.spec.ts",
+   "theme": "momentum-and-economy",
+   "L": "curriculum-mid",
+   "F": "decision-timer",
+   "B": "economy-math",
+   "invariant": "The landing answer's refundDecision(2500) and JIT-drill refunds draw the SAME 2-per-window budget: a correct landing answer consumes refund #1, the first JIT grade gets refund #2, and the second JIT grade is denied — timer_refund beats carry granted [true,true,false] across the two surfaces.",
+   "origin": "auto",
+   "status": "accepted",
+   "wave": 5,
+   "evidence": {
+    "greens": 3,
+    "redProof": "Mutated line 108: flipped the shared-budget ledger assertion .toEqual([true, true, false]) to [true, true, true]. Run failed exactly on that assertion with received [true, true, false] (the second JIT grade IS denied — the assertions bite). Restored the original text with a precise Edit revert; follow-up run green (3.6s).",
+    "runtimeS": 7
+   }
+  },
+  {
+   "id": "gen-w5-05",
+   "file": "e2e/gen/holder-defense-window-fresh-refund-budget.spec.ts",
+   "theme": "momentum-and-economy",
+   "L": "white-belt-holder",
+   "F": "decision-timer",
+   "B": "economy-math",
+   "invariant": "Refund budgets are per decision WINDOW, not per roll: after exhausting both refunds in the attack window, getting caught opens a fresh defense window whose panic-card composure refund (refundDecision(2000)) is granted (timer_refund granted:true, remaining +~2s).",
+   "origin": "auto",
+   "status": "accepted",
+   "wave": 5,
+   "evidence": {
+    "greens": 3,
+    "redProof": "Flipped line 88's expected timer_refund grants array [true,true,false,true] → [true,true,true,true]; run failed at that exact assertion (runtime observed false at index 2 — the refused third attack-window refund), proving the exhaustion assertion bites. Restored by exact inverse Edit; subsequent run green (6.7s).",
+    "runtimeS": 6.8
+   }
+  },
+  {
+   "id": "gen-w5-06",
+   "file": "e2e/gen/mid-timeout-question-costs-no-odds.spec.ts",
+   "theme": "momentum-and-economy",
+   "L": "curriculum-mid",
+   "F": "decision-timer",
+   "B": "keyboard-timing",
+   "invariant": "Timing out a pending landing question is neglect but never a wrong answer: clock expiry fires expiry_warning + auto_pick, breaks the streak with combo_break {reason:'ignored', at:1}, yet _qMod stays exactly 0 and no land_q_answered {correct:false} beat ever fires.",
+   "origin": "auto",
+   "status": "accepted",
+   "wave": 5,
+   "evidence": {
+    "greens": 3,
+    "redProof": "Mutated line 145: expect(breaks[0].reason).toBe(\"ignored\") → .toBe(\"wrong\"). Run failed at exactly that assert (Expected: \"wrong\", Received: \"ignored\"), proving the spec discriminates a timeout-neglect break from a wrong-answer break. Restored via exact revert edit; restored run green (4.6s).",
+    "runtimeS": 6.6
+   }
+  },
+  {
+   "id": "gen-w5-07",
+   "file": "e2e/gen/returner-momentum-ephemeral-knowledge-durable.spec.ts",
+   "theme": "momentum-and-economy",
+   "L": "lapsed-returner",
+   "F": "persistence-reload",
+   "B": "persistence-reload",
+   "invariant": "The meter is session-ephemeral while the knowledge it minted is durable: after building ×3, a preserveStorage reload boots with _combo 0 and zero [data-momentum] elements, yet the card-stage credits earned by those correct landing answers survive in the reloaded bjj-neural-progress blob.",
+   "origin": "auto",
+   "status": "accepted",
+   "wave": 5,
+   "evidence": {
+    "greens": 3,
+    "redProof": "Flipped line 121 post-reload assertion .toBe(0) → .toBe(3) (\"the reloaded life boots with _combo 0\"); run failed as expected with \"Expected: 3, Received: 0\" at spec:121:90 — proving the reload-boundary assertion bites. Restored the exact original line via precise Edit revert; subsequent run green.",
+    "runtimeS": 78
+   }
+  },
+  {
+   "id": "gen-w5-08",
+   "file": "e2e/gen/endgame-stage-roll-cold-not-broken.spec.ts",
+   "theme": "momentum-and-economy",
+   "L": "multi-belt-endgame",
+   "F": "graph-canvas",
+   "B": "interruption-abort",
+   "invariant": "Restaging via stageRollAt is a NEW cold match, not a punished one: staging another node while ×2 hot resets _combo to 0 and removes the heat chip while emitting zero combo_break beats — cold is not broken.",
+   "origin": "auto",
+   "status": "accepted",
+   "wave": 5,
+   "evidence": {
+    "greens": 3,
+    "redProof": "Flipped line 113's core-invariant assertion .toBe(0) → .toBe(1) on snap.breaks (zero combo_break beats); run failed exactly at that line (Expected: 1, Received: 0). Restored the original via precise Edit revert — `git diff` vs HEAD empty — and the restored run passed green (3.7s).",
+    "runtimeS": 5.7
+   }
+  },
+  {
+   "id": "gen-w5-09",
+   "file": "e2e/gen/ready-skew-success-mass-invariant.spec.ts",
+   "theme": "momentum-and-economy",
+   "L": "belt-ready",
+   "F": "graph-canvas",
+   "B": "economy-math",
+   "invariant": "Momentum skew only sheds counter weight: a dice that lands inside the success band cold lands success hot too (authored success mass is untouched), and a success draw under full skew emits zero outcome_skewed beats — the beat and the renormalization exist only for non-success results.",
+   "origin": "auto",
+   "status": "accepted",
+   "wave": 5,
+   "evidence": {
+    "greens": 3,
+    "redProof": "Mutated line 92-96 expected hot-draw array from [\"success\",\"success\",\"success\"] to [\"success\",\"counter\",\"success\"] (flipping the dice-.55 widened-band expectation). Test 1 failed as required at :92 with 'hot draws follow the widened success band — Expected \"counter\" / Received \"success\"' (exit 1), proving the live drawOutcome really widens the success band to [0,.625] under full skew and the assertion bites. Restored the original file byte-identically (cmp-verified against pre-mutation snapshot) and reran: 2/2 green in 22.3s.",
+    "runtimeS": 23.2
+   }
+  },
+  {
+   "id": "gen-w5-10",
+   "file": "e2e/gen/veteran-authored-outcomes-never-mutated.spec.ts",
+   "theme": "momentum-and-economy",
+   "L": "srs-veteran",
+   "F": "option-tray-sheet",
+   "B": "idempotence",
+   "invariant": "Skew is draw-time renormalization, never data mutation: a hot drawOutcome leaves the node's cal.outcomes array deep-equal to its pre-draw snapshot (same objects, same probabilities), so repeated hot draws on the same node stay based on authored numbers.",
+   "origin": "auto",
+   "status": "accepted",
+   "wave": 5,
+   "evidence": {
+    "greens": 3,
+    "redProof": "Flipped line 92 assertion expect(m!.skew).toBe(0.4) -> toBe(0.5); run FAILED with \"Expected: 0.5, Received: 0.4\" at spec.ts:92 (1 failed), proving the assertion bites. Restored the exact original line via precise revert and reran: green (1 passed, 4.0s wall).",
+    "runtimeS": 4
+   }
+  },
+  {
+   "id": "gen-w5-11",
+   "file": "e2e/gen/mid-landing-right-single-credit.spec.ts",
+   "theme": "momentum-and-economy",
+   "L": "curriculum-mid",
+   "F": "boot-landing",
+   "B": "economy-math",
+   "invariant": "A correct landing answer earns exactly the ordinary study credit and nothing more: at ×1 (momentumMod still 0) the option's moveChance delta equals the stateBonus delta produced by that single noteCardDone credit, and cardsToday increments by exactly 1.",
+   "origin": "auto",
+   "status": "accepted",
+   "wave": 5,
+   "evidence": {
+    "greens": 3,
+    "redProof": "Mutated the core invariant (line 145) from toBeCloseTo(dSb, 6) to toBeCloseTo(dSb + 0.01, 6); run failed at exactly that assertion (Expected 0.14, Received 0.13 — the real single-credit delta of mastery 0.03 + sharpness 0.10; difference 0.010000000000000009 > 5e-7). Restored the exact original line via precise Edit revert (file untracked, git checkout N/A) and the follow-up run was green (4.2s).",
+    "runtimeS": 4.3
+   }
+  },
+  {
+   "id": "gen-w5-12",
+   "file": "e2e/gen/returner-landq-off-freezes-meter.spec.ts",
+   "theme": "momentum-and-economy",
+   "L": "lapsed-returner",
+   "F": "settings",
+   "B": "cross-feature",
+   "invariant": "landQuestions=false removes the question surface AND freezes the momentum economy with it — across multiple hops no [data-land-q] renders, _combo stays 0 with zero combo/combo_break beats — and flipping it back on mid-session asks again at the very next arrival (the gate is read live per enterLand).",
+   "origin": "auto",
+   "status": "accepted",
+   "wave": 5,
+   "evidence": {
+    "greens": 3,
+    "redProof": "Flipped line 133 thaw assertion .toBe(1) -> .toBe(2); run failed with 'Expected: 2, Received: 1' at spec.ts:133 (the meter's real x1 thaw), proving the assertion bites. Restored the exact original line and reran: green (9.2s).",
+    "runtimeS": 9.2
+   }
+  },
+  {
+   "id": "gen-w5-13",
+   "file": "e2e/gen/endgame-spa-nav-sheds-chip.spec.ts",
+   "theme": "momentum-and-economy",
+   "L": "multi-belt-endgame",
+   "F": "spa-nav",
+   "B": "interruption-abort",
+   "invariant": "A Quartz soft navigation mid-streak tears the momentum HUD down with the app: the remounted instance has _combo 0, zero [data-momentum] and zero [data-combo-pop] elements anywhere in the document (no ghost fixed overlays from the old instance), and its beat stream contains no combo_break.",
+   "origin": "auto",
+   "status": "accepted",
+   "wave": 5,
+   "evidence": {
+    "greens": 3,
+    "redProof": "Flipped assertShed census assertion at line 158 from expect(c.chips).toBe(0) to .toBe(1) (asserting a ghost [data-momentum] chip survives the soft nav). Run failed exactly at that line on life 2: \"Expected: 1, Received: 0\" — proving the post-remount HUD census bites. File is untracked so git checkout was unavailable; reverted the exact edit (.toBe(1) → .toBe(0), byte-identical restore) and re-ran green (5.2s).",
+    "runtimeS": 7.7
+   }
+  },
+  {
+   "id": "gen-w5-14",
+   "file": "e2e/gen/holder-victory-no-break-next-roll-cold.spec.ts",
+   "theme": "momentum-and-economy",
+   "L": "white-belt-holder",
+   "F": "victory-defeat",
+   "B": "cross-feature",
+   "invariant": "Winning hot is never scored as breaking: a rigged submission win at ×2 emits finish/victory_cascade/roll_end with zero combo_break beats, and the next auto-started roll opens cold (_combo 0, chip gone) — per-roll reset flows through the victory path, not through _breakCombo.",
+   "origin": "auto",
+   "status": "accepted",
+   "wave": 5,
+   "evidence": {
+    "greens": 3,
+    "redProof": "Flipped line 126 assertion \"zero combo_break through the whole win\" from .toBe(0) to .toBe(1); run failed at exactly that line (Expected: 1, Received: 0 — assertion bites, observed break-count is genuinely 0). Restored via exact Edit revert (file untracked, no git checkout possible); restored run green in 6.1s.",
+    "runtimeS": 9.5
+   }
+  },
+  {
+   "id": "gen-w5-15",
+   "file": "e2e/gen/ready-film-not-neglect.spec.ts",
+   "theme": "momentum-and-economy",
+   "L": "belt-ready",
+   "F": "film-study",
+   "B": "interruption-abort",
+   "invariant": "Watching the landing film is an interruption that neither answers nor neglects: with a question pending, watchShort fires film_first_look (+4 on that technique) while _landPending stays true, the question stays live, _combo survives untouched, and answering right afterwards still climbs the streak.",
+   "origin": "auto",
+   "status": "accepted",
+   "wave": 5,
+   "evidence": {
+    "greens": 3,
+    "redProof": "Mutated line 159: the film first-look delta assertion .toBe(4) flipped to .toBe(5). Run failed exactly at that assertion (\"the first look mints exactly +4 — Expected: 5, Received: 4\"). File is untracked (pre-Gate) so git checkout could not restore; reverted with an exact inverse Edit (byte-identical) and re-ran green (4.2s).",
+    "runtimeS": 8.6
+   }
+  },
+  {
+   "id": "gen-w5-16",
+   "file": "e2e/gen/endgame-opponent-arrival-continues-streak.spec.ts",
+   "theme": "momentum-and-economy",
+   "L": "multi-belt-endgame",
+   "F": "opponent-turns",
+   "B": "cross-feature",
+   "invariant": "An arrival caused by the OPPONENT still runs the landing economy: after a rigged counter/opponent_move relocates the player, the new state asks its landing question and a right answer climbs the existing streak (no reset, no break) — momentum spans exchanges regardless of who moved you.",
+   "origin": "auto",
+   "status": "accepted",
+   "wave": 5,
+   "evidence": {
+    "greens": 3,
+    "redProof": "Flipped the core invariant assertion at line 133: arrived.combo expected 1 -> 0 (claiming the streak reset on the opponent-caused arrival). Run failed as required with \"Error: the streak carried through the opponent's exchange — no reset / Expected: 0 / Received: 1\" at spec line 133 — the assertion bites. Restored the original value via exact inverse edit; follow-up run green (4.4s).",
+    "runtimeS": 6.5
+   }
+  },
+  {
+   "id": "gen-w5-17",
+   "file": "e2e/gen/mid-checkpoint-immune-to-momentum.spec.ts",
+   "theme": "momentum-and-economy",
+   "L": "curriculum-mid",
+   "F": "checkpoint-quiz",
+   "B": "guard-limit",
+   "invariant": "The checkpoint quiz is MC but it is not the landing surface: right AND wrong checkpoint answers leave _combo unchanged and emit zero combo/combo_break/land_q_answered beats — _mcBlock's surface scoping keeps the momentum economy exclusive to in-roll landings.",
+   "origin": "auto",
+   "status": "accepted",
+   "wave": 5,
+   "evidence": {
+    "greens": 3,
+    "redProof": "Flipped line 138 assertion `expect(post.combo, \"_combo still ×1 — right didn't mint, wrong didn't break\").toBe(1)` to `.toBe(2)`; the run failed at exactly that assert (Expected: 2, Received: 1), proving the meter check bites. Restored via exact Edit revert (git checkout unavailable — file is untracked until the Gate stage) and re-ran green (3.2s test / 5.3s suite).",
+    "runtimeS": 25.1
+   }
+  },
+  {
+   "id": "gen-w5-18",
+   "file": "e2e/gen/returner-trap-cost-doubles-plausible.spec.ts",
+   "theme": "momentum-and-economy",
+   "L": "lapsed-returner",
+   "F": "boot-landing",
+   "B": "economy-math",
+   "invariant": "The landing wrong-answer penalty is tiered exactly 2:1 — a plausible miss sets _qMod to -0.04 and a trap miss to -0.08 (land_q_answered carries the truthful tier and qMod), each dropping a mid-band option's displayed odds by exactly 4 vs 8 points on that exchange.",
+   "origin": "auto",
+   "status": "accepted",
+   "wave": 5,
+   "evidence": {
+    "greens": 3,
+    "redProof": "Mutated the trap rung's expected cost from 0.08 to 0.09 (line 183, the miss() call). Run failed as expected at spec line 146: \"beat qMod is exactly -0.09\" — Expected -0.09, Received -0.08 (the app's real trap charge), cascading before the 2:1 ladder assertion. Restored the exact original text (git diff vs HEAD empty) and re-ran green (3.2s test / 5.3s wall).",
+    "runtimeS": 9.1
+   }
+  },
+  {
+   "id": "gen-w5-19",
+   "file": "e2e/gen/legacy-v1-asks-landing-question.spec.ts",
+   "theme": "momentum-and-economy",
+   "L": "legacy-corrupt-blob",
+   "F": "recall-gate",
+   "B": "error-fallback",
+   "invariant": "v1 migration grandfathers deck-level rec but never fabricates card-level proof: on a migrated profile whose rec was minted from prep, questionFor still finds an unproven card (cardStage<2) so the landing asks its question and the momentum economy is reachable for legacy users.",
+   "origin": "auto",
+   "status": "accepted",
+   "wave": 5,
+   "evidence": {
+    "greens": 3,
+    "redProof": "Mutated line 68: expect(mig.stageKeys, \"v1 carries no stage — migration fabricates no card-level proof\").toBe(0) → .toBe(1). Run failed exactly at that assertion (Expected: 1, Received: 0, exit 1) — proves the card-level-proof invariant assertion executes against the real migrated blob. Restored the exact original line via precise Edit revert; subsequent run green (2.0s).",
+    "runtimeS": 4.1
+   }
+  },
+  {
+   "id": "gen-w5-20",
+   "file": "e2e/gen/ready-godlike-restamp-single-chip.spec.ts",
+   "theme": "momentum-and-economy",
+   "L": "belt-ready",
+   "F": "graph-canvas",
+   "B": "idempotence",
+   "invariant": "The heat HUD is one element re-stamped, never a stack: climbing ×5→×8 re-stamps the SAME single [data-momentum] chip (count stays 1, attribute tracking _combo) and each announcer pop replaces its predecessor so [data-combo-pop] never exceeds 1 concurrently after each answer settles.",
+   "origin": "auto",
+   "status": "accepted",
+   "wave": 5,
+   "evidence": {
+    "greens": 3,
+    "redProof": "Mutated line 185: final chip-stamp assertion `expect(end.chipAttr, \"still stamped ×8\").toBe(\"8\")` flipped to `.toBe(\"7\")`. Run failed as expected at that line (Expected: \"7\", Received: \"8\"). Restored the exact original via precise revert (git diff empty), then re-ran green (17.7s).",
+    "runtimeS": 17.7
+   }
+  },
+  {
+   "id": "gen-w5-q01",
+   "file": "e2e/quarantine/endgame-combo-sound-ladder.spec.ts",
+   "theme": "sound",
+   "L": "multi-belt-endgame",
+   "F": "momentum",
+   "B": "beat-voice-parity",
+   "invariant": "The sound bus mirrors the combo arc: climbing to ×5 logs combo voices from ×2 onward plus one distinct combo_big voice at ×5, and a wrong answer then logs a combo_break voice — the beats and the voices agree on the arc.",
+   "origin": "bug",
+   "status": "quarantined-red",
+   "wave": 5,
+   "issue": "Q003 (e2e/quarantine/ISSUES.md) — combo/combo_break voices always eaten by NGSound.beat's 40ms voice-spacing gate; only combo_big (major:1) survives."
   }
  ]
 }
