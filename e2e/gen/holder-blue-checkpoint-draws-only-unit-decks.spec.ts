@@ -29,6 +29,12 @@ import { whiteBeltHolder, CURRICULUM } from "./personas"
  * keys/counts derive from the served curriculum fixture — blue u1 is
  * "blue/takedowns-and-standing" at authoring, checkpoint {cards:6, pass:5}, and its 6
  * deckKeys are disjoint from all 32 white deckKeys (asserted, so purity is non-vacuous).
+ *
+ * v1.70 re-validation: the seed sets settings.landQuestions=false (the real Settings →
+ * Rolling toggle). The v1.68 question-first landing otherwise mounts ONE landing MC at
+ * land() (surface "land", unrigged land-mc-* draws) and fires an extra mc_shown beat,
+ * inflating the strict censuses below (6 → 7). The checkpoint deal itself is unchanged:
+ * startCheckpoint still deals min(unit.checkpoint.cards, pool) = the authored 6.
  */
 
 const WHITE = CURRICULUM.belts[0]
@@ -76,6 +82,9 @@ test("blue u1 checkpoint pool is pure: every pick from u1's own decks, zero whit
     seed.prep[dk] = 3
     seed.rec[dk] = 3
   }
+  // v1.68 landing question off at the source — keeps every mc_* census below scoped to
+  // the checkpoint quiz alone (see header)
+  seed.settings.landQuestions = false
   await j.boot("/", { initialState: seed })
   await j.land("Mount Top")
 

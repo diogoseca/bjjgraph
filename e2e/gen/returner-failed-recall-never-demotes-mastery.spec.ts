@@ -43,6 +43,16 @@ import { lapsedReturner, CURRICULUM } from "./personas"
  * or answer text (MC waves rewrite copy). Deck size premise (>3) guarantees three fails cannot
  * reach the done screen, so its "Review again" homonym (:3563) can never coexist with the
  * footer button and the exact-name locator stays unique.
+ *
+ * v1.70 re-validation: settings gains landQuestions:false (no landing MC, no unrigged
+ * land-mc-* draws — "no other draws occur here" stays true), and clearLandCard() runs after
+ * land(). The v1.68 question-first landing card (.ng-landcard) renders on every landing; the
+ * DSL's hermetic font-abort makes prescript.js drop the neural stylesheet (link onerror on
+ * the aborted fonts @import), so under the harness the card renders UNSTYLED over the
+ * explorer's top rows and intercepts the [data-lesson="Mount|Bottom"] click. Probe-verified
+ * NOT user-facing: with CSS applied the card sits fixed at x 460-980 under the explorer's
+ * z-index (8 vs 5) — real users click every row. Clearing it removes the harness-only
+ * obstruction; classic-mode renderDrill still nulls _mc, so the mcNull premise is untouched.
  */
 
 const POSITION = "Mount Top"
@@ -61,9 +71,12 @@ test("returner blanks on three recalls of a proven deck: stages drop, masteredCo
   const blob: any = lapsedReturner()
   // classic recall mode: mcActive() false → every card renders the reveal/grade footer directly
   // (no MC block, no MC rigs). The ingest merges blob.settings over defaults (:1097).
-  blob.settings = { mcMode: "classic" }
+  // landQuestions:false — v1.68 landing MC off (see header).
+  blob.settings = { mcMode: "classic", landQuestions: false }
   await j.boot("/", { initialState: blob })
   await j.land(POSITION) // land() rigs ai-skill/role/max-moves itself; no other draws occur here
+  // drop the v1.68 landing card — harness-only obstruction over the top path rows (see header)
+  await page.evaluate(() => (window as any).__neural.clearLandCard())
 
   // ── PREMISE: the returner's portfolio is fully minted — N mastered decks, target deck proven. ──
   const start = await page.evaluate((k) => {

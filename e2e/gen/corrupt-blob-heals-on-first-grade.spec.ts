@@ -35,6 +35,16 @@ import { CORRUPT_BLOB_RAW, CURRICULUM } from "./personas"
  * land() rigs the intro's ambient draws (ai-skill/role/max-moves) internally; mc-pick
  * (20-deep) + mc-shuffle (8-deep) cover MC pooling, whose rejections consume extra draws.
  * Assertions are structural only (versions, key counts, deckKeys, beats) — never card text.
+ *
+ * v1.70 re-validation: v1.68 flipped the sidebar answer-mode default auto→classic (no _mc
+ * without opt-in) and added the question-first landing. The seed here IS the poison (an
+ * unparseable string), so settings cannot ride the blob — and the REAL settings path is
+ * unusable too: set() calls _saveProgress(), which would REPLACE the poison before the
+ * first grade and destroy the byte-identical quarantine premise. Hence a plain in-memory
+ * settings assignment after boot 2 (writes nothing): mcMode="auto" restores the authored-era
+ * MC surface; landQuestions=false keeps the landing card (and its unrigged land-mc-* draws)
+ * out of the poisoned life. The heal then persists these settings inside the healed v2 blob,
+ * so the preserveStorage boot 3 stays consistent with them.
  */
 
 const LESSON1: any = CURRICULUM.belts?.[0]?.units?.[0]?.lessons?.[0] ?? null
@@ -81,6 +91,13 @@ test("corrupt blob: fresh fallback, byte-identical quarantine, first grade heals
   expect(fallback.blobV, "fallback profile re-serializes as v2 in memory").toBe(2)
   expect(fallback.prepKeys, "fresh fallback: zero prep keys ingested from the poison").toBe(0)
   expect(fallback.recKeys, "fresh fallback: zero rec keys ingested from the poison").toBe(0)
+
+  // ── v1.70: authored-era study surface, IN MEMORY only — set() would _saveProgress() and
+  //    heal the poison prematurely; a plain assignment writes nothing (see header) ──
+  await page.evaluate(() => {
+    const a = (window as any).__neural
+    a.settings = Object.assign({}, a.settings, { mcMode: "auto", landQuestions: false })
+  })
 
   // ── The poisoned boot is fully playable: land, then open the lesson-1 drill ──
   await j.land("Mount Top")

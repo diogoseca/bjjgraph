@@ -26,6 +26,12 @@ import { multiBeltEndgame, CURRICULUM } from "./personas"
  * the quiz synchronously (_mcAnswer → onDone(false) → _checkpointAnswer). All keys/counts
  * derive from the served curriculum fixture — unit key is "white/mount-escapes", NOT
  * "white/u1"; checkpoint config is {cards:6, pass:5} at authoring.
+ *
+ * v1.70 re-validation: the seed sets settings.landQuestions=false (the real Settings →
+ * Rolling toggle). The v1.68 question-first landing otherwise mounts ONE landing MC at
+ * land() (surface "land") and fires an extra mc_shown beat, inflating the strict census
+ * below (6 → 7). The checkpoint deal itself is unchanged: startCheckpoint still deals
+ * min(unit.checkpoint.cards, pool) = the authored 6.
  */
 
 const WHITE = CURRICULUM.belts[0]
@@ -52,7 +58,11 @@ test("failing a retake of a passed checkpoint: pass survives, rows stay done, no
   expect(CP.pass, "pass bar achievable within the quiz").toBeLessThanOrEqual(CP.cards)
 
   const j = journey(page)
-  await j.boot("/", { initialState: multiBeltEndgame() })
+  const seed: any = multiBeltEndgame()
+  // v1.68 landing question off at the source — keeps the mc_* censuses scoped to the
+  // retake quiz alone (see header)
+  seed.settings.landQuestions = false
+  await j.boot("/", { initialState: seed })
   await j.land("Mount Top")
 
   // rig every draw the retake consumes (depth IS the determinism — see header note)

@@ -101,6 +101,12 @@ export class Journey {
       await this.page.route("**/*", (r) => {
         const u = r.request().url()
         if (/^(http:\/\/localhost|http:\/\/127\.|data:|blob:|about:)/.test(u)) return r.continue()
+        // Fonts must FULFILL (empty CSS), never abort: aborting the neural.css @import fires
+        // the <link>'s error event, prescript.js removes the WHOLE stylesheet, and the
+        // unstyled .ng-landcard then flows over the explorer's first rows — clicks on
+        // [data-lesson] rows time out on an interception no real user ever sees.
+        if (/fonts\.(googleapis|gstatic)\.com/.test(u))
+          return r.fulfill({ status: 200, contentType: "text/css", body: "" })
         return r.abort()
       })
       await this.page.route("**/technique-content.js", (r) => r.abort())

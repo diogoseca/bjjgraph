@@ -21,6 +21,15 @@ import { lapsedReturner, CURRICULUM } from "./personas"
  * first proves the returner's career actually seeded (belts.won + prep). Done lessons keep
  * their openLessonStudy handler, so lesson 1 reopens for the MC surface. land() rigs the
  * intro's ambient draws (ai-skill/role/max-moves) itself; no other RNG site is touched.
+ *
+ * v1.70 re-validation: the seed sets settings.mcMode="auto" — v1.68 flipped the sidebar
+ * answer-mode default auto→classic ("nobody meets multiple choice in the sidebar unless
+ * they opt in"), so under the new default renderDrill builds the recall footer and never
+ * sets _mc, killing the MC truth-rail leg. "auto" restores the authored-era surface (MC
+ * until a card graduates; the persona's stage map is empty, so every card presents as MC).
+ * settings.landQuestions=false keeps the v1.68 landing question (and its unrigged
+ * land-mc-* draws) out of the run — it is never answered, so the counters were safe, but
+ * off-at-the-source keeps "no other RNG site is touched" true.
  */
 
 const WHITE: any = CURRICULUM.belts[0]
@@ -28,7 +37,11 @@ const LESSON1: any = WHITE.units[0].lessons[0]
 
 test("lapsed returner: daily counter restarts clean — 0 at boot, MC correct → 1, +2 drills → 3, _days single-key throughout", async ({ page }) => {
   const j = journey(page)
-  await j.boot("/", { initialState: lapsedReturner() })
+  const blob: any = lapsedReturner()
+  // v1.70: restore the authored-era sidebar MC (default flipped auto→classic in v1.68) and
+  // turn the v1.68 landing question off at the source (see header)
+  blob.settings = { mcMode: "auto", landQuestions: false }
+  await j.boot("/", { initialState: blob })
   await j.land("Mount Top")
 
   // ── clean zero at boot, with the probe-validity guard ──

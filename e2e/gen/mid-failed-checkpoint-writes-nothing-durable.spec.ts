@@ -31,6 +31,12 @@ import { curriculumMid, CURRICULUM } from "./personas"
  * All keys/counts derive from the served curriculum fixture — unit key is
  * "white/side-control-escapes" ({cards:6, pass:5} at authoring).
  *
+ * v1.70 re-validation: the seed sets settings.landQuestions=false (the real Settings →
+ * Rolling toggle; it persists in the v2 blob, so the preserveStorage reboot keeps it). The
+ * v1.68 question-first landing otherwise mounts ONE landing MC at land() and fires an extra
+ * mc_shown beat, inflating the bombed sitting's strict census (6 → 7). The checkpoint deal
+ * itself is unchanged: startCheckpoint still deals the authored 6.
+ *
  * Distinct from core-040 (in-session fail beat only, unit 1) and gen-w1-10 / endgame-
  * checkpoint-retake-cant-undone (already-PASSED retake ratchet): this pins the fail-side
  * durable-no-write across a reload on a NEVER-passed unit, plus the study-survives flank.
@@ -67,7 +73,11 @@ test("bombed unit-2 checkpoint never reaches the ledger across a reload, while t
   const j = journey(page)
 
   // ── Boot 1: mid-curriculum persona — unit 1 passed {checkpoint:true,t:1}, unit 2 half-drilled ──
-  await j.boot("/", { initialState: curriculumMid() })
+  const seed: any = curriculumMid()
+  // v1.68 landing question off at the source — keeps every mc_* census scoped to the
+  // checkpoint sittings alone (see header)
+  seed.settings.landQuestions = false
+  await j.boot("/", { initialState: seed })
   await j.land("Mount Top")
 
   // ── STUDY: drill the complement to goal — the work that must SURVIVE the coming fail ──

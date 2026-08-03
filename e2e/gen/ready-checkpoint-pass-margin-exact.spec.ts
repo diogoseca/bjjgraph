@@ -27,6 +27,12 @@ import { beltReady, CURRICULUM } from "./personas"
  * 400/sitting is safe headroom. rig() APPENDS, so each sitting re-rigs fresh queues. All
  * keys/counts derive from the served curriculum fixture — the target is the LAST white unit
  * ("white/back-control-survival" at authoring), NOT unit 1.
+ *
+ * v1.70 re-validation: the seed sets settings.landQuestions=false (the real Settings →
+ * Rolling toggle). The v1.68 question-first landing otherwise mounts ONE landing MC at
+ * land() (surface "land") and fires an extra mc_shown beat, inflating the strict per-sitting
+ * censuses (6 → 7). The pass line itself is unchanged — the authored {cards:6, pass:5}
+ * boundary still holds, so both sittings' margins are computed from the same CP as before.
  */
 
 const WHITE = CURRICULUM.belts[0]
@@ -76,6 +82,9 @@ test("pass line is exact: pass-1 correct fails, a retake at exactly pass (wrong 
   const j = journey(page)
   const seed: any = beltReady()
   delete seed.units[UK] // lessons stay drilled to goal; ONLY the last checkpoint is unsat
+  // v1.68 landing question off at the source — keeps every mc_* census scoped to the
+  // checkpoint sittings alone (see header)
+  seed.settings.landQuestions = false
   await j.boot("/", { initialState: seed })
   await j.land("Mount Top")
 

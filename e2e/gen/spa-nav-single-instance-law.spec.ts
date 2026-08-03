@@ -24,6 +24,12 @@ import { freshVisitor, CURRICULUM } from "./personas"
  *   - coach_1/coach_done fire ONLY on life 1: dismissal persists in storage across soft
  *     navs (dismissCoach() guards on _coach), so life 3's post-land stream is exactly
  *     stakes,land,options_dealt,beacon_moved with exactly one land beat
+ *   - v1.70: life 3 gets an IN-MEMORY settings assignment before its land (freshVisitor
+ *     semantics preserved — no seed, and set() would persist): landQuestions:false keeps
+ *     the v1.68 landing-question beats (mc_shown, land_q_shown) out of the exact stream,
+ *     and mcMode:"auto" restores the authored-era sidebar MC that the keydown-law leg
+ *     grades through (the v1.68 default flip to classic renders no MC block, sets no _mc,
+ *     and answers no digit press)
  *   - keydown ledger: window.add/removeEventListener wrapped pre-boot into __kdSet; assert
  *     MEMBERSHIP by identity only — Quartz owns a second keydown listener, so size is never 1
  *   - behavioral layer: ONE digit press grades the presented MC card exactly once;
@@ -157,6 +163,13 @@ test("spa nav single-instance law: two soft navs → one root, fresh instance ea
   expect(life3.key2InLedger, "life-2 handler removed by nav 2 (no accumulation)").toBe(false)
   expect(life3.liveKeyInLedger, "exactly the live life-3 handler is registered").toBe(true)
   await page.evaluate(() => ((window as any).__neural.__probeId = 3))
+
+  // v1.70: life-3 in-memory settings — exact stream stays landing-question-free and the
+  // keydown-law leg gets its MC surface back (see header; a plain assignment persists nothing)
+  await page.evaluate(() => {
+    const a = (window as any).__neural
+    a.settings = Object.assign({}, a.settings, { mcMode: "auto", landQuestions: false })
+  })
 
   // ── LIFE 3 is first-class: land → exactly ONE land beat, NO coach re-fire ──
   await j.land("Mount Top")

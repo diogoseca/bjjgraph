@@ -30,6 +30,16 @@ import { curriculumMid, CURRICULUM } from "./personas"
  *
  * Rigs: none beyond land()'s built-ins (ai-skill/role/max-moves) — the path render draws
  * no RNG. All keys derive from the served curriculum fixture, never hardcoded.
+ *
+ * v1.70 re-validation: the seed sets settings.landQuestions=false (no unrigged land-mc-*
+ * draws), and clearLandCard() runs after land() before the explorer opens. The v1.68
+ * question-first landing card (.ng-landcard) renders on every landing; the DSL's hermetic
+ * font-abort makes prescript.js drop the neural stylesheet (link onerror on the aborted
+ * fonts @import), so under the harness the card renders UNSTYLED at the panel's top-left
+ * and its pointer-events:auto body intercepts clicks on the FIRST path rows (Mount|Bottom).
+ * Probe-verified NOT user-facing: with CSS applied the card sits fixed at x 460-980 under
+ * the explorer's z-index (8 vs 5) — real users click every row. Clearing the card here
+ * removes the harness-only obstruction without touching what the spec pins.
  */
 
 const WHITE: any = CURRICULUM.belts[0]
@@ -57,8 +67,12 @@ test("mid-curriculum: locked lesson/checkpoint/belt-test clicks are inert — lo
   expect(BLUE && BLUE.test, "blue defines a test block (the locked test row)").toBeTruthy()
 
   const j = journey(page)
-  await j.boot("/", { initialState: curriculumMid() })
+  const seed: any = curriculumMid()
+  seed.settings.landQuestions = false // v1.68 landing MC off — no unrigged draws, no land beats
+  await j.boot("/", { initialState: seed })
   await j.land("Mount Top")
+  // drop the v1.68 landing card — harness-only obstruction over the top path rows (see header)
+  await page.evaluate(() => (window as any).__neural.clearLandCard())
 
   // open the explorer's PATH view (curriculum loaded → path is the default mode);
   // openExplorer auto-pauses the game — the freeze that makes beat-count strictness safe

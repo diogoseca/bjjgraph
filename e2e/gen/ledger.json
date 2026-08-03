@@ -164,6 +164,15 @@
     "The load-bearing seam (set() stamps _settingsAt.mcMode as a number and _flushSave synchronously persists) is already pinned by core-056; the reload-survives-mcMode by gen-w1-25. Dropping the corrupt precondition changes setup, not substance.",
     "Also the file @hyperspace declares theme='lifetime-journeys' while the candidate slug is onboard-themed — a tuple mismatch. Rejected on novelty; assertions faithful but duplicate gen-w1-25 + core-056."
    ]
+  },
+  {
+   "slug": "legacy-v1-migration-mints-no-unlocks",
+   "wave": 4,
+   "reasons": [
+    "Composite of already-pinned halves without new substance: migration seam = core-008; lesson rows done-from-prep-alone while units stay incomplete = gen-w1-02 via a v1 seed instead of a veteran seed.",
+    "Remaining clauses ledgered elsewhere: belt-test rows locked despite done lessons = gen-w1-17; blue data-locked on an unearned profile = core-002; belt_unlocked-only-on-test-win inside core-015.",
+    "The single unpinned atom (absent v1 units/belts staying {} through _loadProgress) is thin — same basis as the returner-comeback-boot rejection: changing the seed, not the invariant."
+   ]
   }
  ],
  "tests": [
@@ -1854,6 +1863,276 @@
    "wave": 4,
    "evidence": {
     "promoted": "Q002 fixed in v1.67.7 (_tickDecision checkpoint guard); born-red spec green post-fix (4.2s)"
+   }
+  },
+  {
+   "id": "gen-w4-01",
+   "file": "e2e/gen/corrupt-ladder-key-falls-back-clean.spec.ts",
+   "theme": "unlock-economy",
+   "L": "legacy-corrupt-blob",
+   "F": "ladder",
+   "B": "error-fallback",
+   "invariant": "Garbage in bjj-neural-ladder degrades to a clean rank-1 start without crashing and is quarantined: the app boots and plays with rank 1, a rigged win writes a valid rank-2 record, and after a preserveStorage reload the key JSON.parses cleanly at rank 2 — the poison never resurfaces.",
+   "origin": "auto",
+   "status": "accepted",
+   "wave": 4,
+   "evidence": {
+    "revalidated": "authored pre-v1.68, re-run green on v1.70.0 (2026-08-03), meta-validated vs full ledger"
+   }
+  },
+  {
+   "id": "gen-w4-02",
+   "file": "e2e/gen/holder-film-look-mints-no-study-credit.spec.ts",
+   "theme": "unlock-economy",
+   "L": "white-belt-holder",
+   "F": "film-study",
+   "B": "economy-math",
+   "invariant": "Film study pumps odds but never the study ledger: a watchShort that fires film_first_look leaves the prep map deep-equal, cardsToday unchanged, and no lesson_done beat — the +4 lives entirely in moveChance, the film and study economies are disjoint.",
+   "origin": "auto",
+   "status": "accepted",
+   "wave": 4,
+   "evidence": {
+    "revalidated": "authored pre-v1.68, re-run green on v1.70.0 (2026-08-03), meta-validated vs full ledger"
+   }
+  },
+  {
+   "id": "gen-w4-03",
+   "file": "e2e/gen/holder-ladder-floor-never-below-rank-one.spec.ts",
+   "theme": "unlock-economy",
+   "L": "white-belt-holder",
+   "F": "ladder",
+   "B": "guard-limit",
+   "invariant": "The ladder has a floor: a rigged loss at rank 1 leaves bjj-neural-ladder at exactly rank 1 (never 0 or negative), and the loss's defeat_drain still fires while any ladder_down beat reflects the floor clamp — the down-branch mirror of gen-w1-09's ceiling clamp, which is a different code path (loss + lower bound).",
+   "origin": "auto",
+   "status": "accepted",
+   "wave": 4,
+   "evidence": {
+    "revalidated": "authored pre-v1.68, re-run green on v1.70.0 (2026-08-03), meta-validated vs full ledger"
+   }
+  },
+  {
+   "id": "gen-w4-04",
+   "file": "e2e/gen/holder-panic-grade-credits-study-ledger.spec.ts",
+   "theme": "unlock-economy",
+   "L": "white-belt-holder",
+   "F": "defense-panic",
+   "B": "cross-feature",
+   "invariant": "Panic-drill grading and lesson drilling share one prep ledger: grading the panic card during a caught defense increments prep[escape deckKey] by exactly 1 and cardsToday by exactly 1 alongside escape_odds_pumped — defense reps are real study credit, not a parallel currency.",
+   "origin": "auto",
+   "status": "accepted",
+   "wave": 4,
+   "evidence": {
+    "revalidated": "authored pre-v1.68, re-run green on v1.70.0 (2026-08-03), meta-validated vs full ledger"
+   }
+  },
+  {
+   "id": "gen-w4-05",
+   "file": "e2e/gen/holder-passive-boot-blob-fixpoint.spec.ts",
+   "theme": "unlock-economy",
+   "L": "white-belt-holder",
+   "F": "persistence-reload",
+   "B": "idempotence",
+   "invariant": "A passive boot is read-only on the unlock economy: booting a holder and doing nothing, then preserveStorage-reloading twice, leaves the parsed bjj-neural-progress blob deep-equal each time (prep/rec/units/belts/stage all unchanged) — the load-save cycle is a fixpoint with zero write churn.",
+   "origin": "auto",
+   "status": "accepted",
+   "wave": 4,
+   "evidence": {
+    "revalidated": "authored pre-v1.68, re-run green on v1.70.0 (2026-08-03), meta-validated vs full ledger"
+   }
+  },
+  {
+   "id": "gen-w4-06",
+   "file": "e2e/gen/mid-fog-set-ignores-locks.spec.ts",
+   "theme": "unlock-economy",
+   "L": "curriculum-mid",
+   "F": "graph-canvas",
+   "B": "guard-limit",
+   "invariant": "Fog-of-war encodes curriculum membership, never lock state: a locked blue-belt lesson's node index is INSIDE _curriculumIdxSet (undimmed) while a genuine non-curriculum node stays outside — locked-but-curricular content is visible on the canvas, locks live only in the path rows.",
+   "origin": "auto",
+   "status": "accepted",
+   "wave": 4,
+   "evidence": {
+    "revalidated": "authored pre-v1.68, re-run green on v1.70.0 (2026-08-03), meta-validated vs full ledger"
+   }
+  },
+  {
+   "id": "gen-w4-07",
+   "file": "e2e/gen/mid-jit-grades-feed-lesson-done-math.spec.ts",
+   "theme": "unlock-economy",
+   "L": "curriculum-mid",
+   "F": "option-tray-sheet",
+   "B": "cross-feature",
+   "invariant": "JIT sheet grades and lesson drills are the same prep ledger, and locks do not firewall the credit: three JIT grades on a technique whose deckKey is a LOCKED unit's lesson push prep[key]>=goal so that lesson row renders data-done='1' inside its still-locked unit, while the unit itself stays incomplete (no unit_done).",
+   "origin": "auto",
+   "status": "accepted",
+   "wave": 4,
+   "evidence": {
+    "revalidated": "authored pre-v1.68, re-run green on v1.70.0 (2026-08-03), meta-validated vs full ledger"
+   }
+  },
+  {
+   "id": "gen-w4-08",
+   "file": "e2e/gen/mid-lesson-goal-exact-boundary.spec.ts",
+   "theme": "unlock-economy",
+   "L": "curriculum-mid",
+   "F": "belt-path",
+   "B": "economy-math",
+   "invariant": "A lesson row completes at exactly prep===goal (min(3, deckSize)): prep=goal-1 leaves the row without data-done and zero lesson_done beats, the single crossing grade emits exactly one lesson_done, and further grades never re-emit a second one.",
+   "origin": "auto",
+   "status": "accepted",
+   "wave": 4,
+   "evidence": {
+    "revalidated": "authored pre-v1.68, re-run green on v1.70.0 (2026-08-03), meta-validated vs full ledger"
+   }
+  },
+  {
+   "id": "gen-w4-09",
+   "file": "e2e/gen/ready-lost-attempt-survives-reload.spec.ts",
+   "theme": "unlock-economy",
+   "L": "belt-ready",
+   "F": "persistence-reload",
+   "B": "persistence-reload",
+   "invariant": "A burned belt-test attempt is durable economy: after a rigged loss the attempts counter reads exactly 1 and the row shows 'retry', and both survive a preserveStorage reload with belts.won still empty — the debit persists, the loss never half-records a win.",
+   "origin": "auto",
+   "status": "accepted",
+   "wave": 4,
+   "evidence": {
+    "revalidated": "authored pre-v1.68, re-run green on v1.70.0 (2026-08-03), meta-validated vs full ledger"
+   }
+  },
+  {
+   "id": "gen-w4-10",
+   "file": "e2e/gen/ready-nogi-checkpoint-pool-excludes-gi-only.spec.ts",
+   "theme": "unlock-economy",
+   "L": "belt-ready",
+   "F": "settings",
+   "B": "guard-limit",
+   "invariant": "In nogi the checkpoint quiz never draws from a gi-only lesson deck: every quiz card's source deckKey belongs to the unit's nogi-viable lessons and zero cards come from the frames-gi-only deck — the quiz pool honors the same frame exclusion as the row's done-math.",
+   "origin": "auto",
+   "status": "accepted",
+   "wave": 4,
+   "evidence": {
+    "revalidated": "authored pre-v1.68, re-run green on v1.70.0 (2026-08-03), meta-validated vs full ledger"
+   }
+  },
+  {
+   "id": "gen-w4-11",
+   "file": "e2e/gen/ready-test-catch-escape-keeps-test-alive.spec.ts",
+   "theme": "unlock-economy",
+   "L": "belt-ready",
+   "F": "defense-panic",
+   "B": "cross-feature",
+   "invariant": "Getting caught during a belt test is survivable: a rigged catch opens the panic drill inside the live test and a rigged escape returns to the test with _beltTest intact (same beltId), zero belt_test_lost beats, and zero attempts burned — only a finished tap loses the test, not the catch itself.",
+   "origin": "auto",
+   "status": "accepted",
+   "wave": 4,
+   "evidence": {
+    "revalidated": "authored pre-v1.68, re-run green on v1.70.0 (2026-08-03), meta-validated vs full ledger"
+   }
+  },
+  {
+   "id": "gen-w4-12",
+   "file": "e2e/gen/ready-test-expiry-autopick-burns-move.spec.ts",
+   "theme": "unlock-economy",
+   "L": "belt-ready",
+   "F": "decision-timer",
+   "B": "keyboard-timing",
+   "invariant": "Inaction is not a loophole in the belt-test move economy: letting the decision window expire during a live belt test narrates expiry_warning then auto_pick AND advances the moves-used counter by exactly 1, with _beltTest still live afterward.",
+   "origin": "auto",
+   "status": "accepted",
+   "wave": 4,
+   "evidence": {
+    "revalidated": "authored pre-v1.68, re-run green on v1.70.0 (2026-08-03), meta-validated vs full ledger"
+   }
+  },
+  {
+   "id": "gen-w4-13",
+   "file": "e2e/gen/returner-nogi-unit-done-skips-gi-only-lesson.spec.ts",
+   "theme": "unlock-economy",
+   "L": "lapsed-returner",
+   "F": "settings",
+   "B": "economy-math",
+   "invariant": "Frame exclusion shrinks the unit-done denominator: in nogi, a unit containing a gi-only lesson reaches unit_done with that lesson at prep=0 (row data-live='0'), because the excluded lesson is out of the done-math — completion is achievable entirely through nogi-viable lessons plus the checkpoint.",
+   "origin": "auto",
+   "status": "accepted",
+   "wave": 4,
+   "evidence": {
+    "revalidated": "authored pre-v1.68, re-run green on v1.70.0 (2026-08-03), meta-validated vs full ledger"
+   }
+  },
+  {
+   "id": "gen-w4-14",
+   "file": "e2e/gen/holder-blue-checkpoint-draws-only-unit-decks.spec.ts",
+   "theme": "unlock-economy",
+   "L": "white-belt-holder",
+   "F": "checkpoint-quiz",
+   "B": "guard-limit",
+   "invariant": "A checkpoint quiz sources cards only from its OWN unit's lesson decks: blue unit-1's quiz presents cards whose deckKeys all belong to blue u1's lessons and zero cards from any white deck, despite the holder's full white mastery sitting in the same blob.",
+   "origin": "auto",
+   "status": "accepted",
+   "wave": 4,
+   "evidence": {
+    "revalidated": "pre-v1.68 spec, drift-fixed for v1.70 mechanics (landQuestions seeding / landcard clear), 3x green + red-proof 2026-08-03"
+   }
+  },
+  {
+   "id": "gen-w4-15",
+   "file": "e2e/gen/mid-failed-checkpoint-writes-nothing-durable.spec.ts",
+   "theme": "unlock-economy",
+   "L": "curriculum-mid",
+   "F": "persistence-reload",
+   "B": "idempotence",
+   "invariant": "A failed checkpoint is a durable no-op on the unlock ledger: after failing unit-2's quiz and a preserveStorage reload, the units map still lacks the unit-2 key and the row is un-done, while the lesson drills that preceded it DID persist — the fail writes nothing, the study that led to it stays.",
+   "origin": "auto",
+   "status": "accepted",
+   "wave": 4,
+   "evidence": {
+    "revalidated": "pre-v1.68 spec, drift-fixed for v1.70 mechanics (landQuestions seeding / landcard clear), 3x green + red-proof 2026-08-03"
+   }
+  },
+  {
+   "id": "gen-w4-16",
+   "file": "e2e/gen/ready-checkpoint-pass-margin-exact.spec.ts",
+   "theme": "unlock-economy",
+   "L": "belt-ready",
+   "F": "checkpoint-quiz",
+   "B": "economy-math",
+   "invariant": "The checkpoint pass line is exact: answering pass-1 of the authored cards correctly emits checkpoint_failed (unit not done), and a retake answering exactly pass correct emits checkpoint_passed + unit_done — the margin is the authored {cards,pass}, not all-or-nothing.",
+   "origin": "auto",
+   "status": "accepted",
+   "wave": 4,
+   "evidence": {
+    "revalidated": "pre-v1.68 spec, drift-fixed for v1.70 mechanics (landQuestions seeding / landcard clear), 3x green + red-proof 2026-08-03"
+   }
+  },
+  {
+   "id": "gen-w4-17",
+   "file": "e2e/gen/mid-locked-rows-inert.spec.ts",
+   "theme": "unlock-economy",
+   "L": "curriculum-mid",
+   "F": "belt-path",
+   "B": "guard-limit",
+   "invariant": "Locked rows are economically inert: clicking a locked lesson row opens no deck (deckOpen stays false, no _posKey change, no camera fly), clicking a locked unit's checkpoint emits no checkpoint_start, and clicking a locked belt-test row emits no belt_test_start — locks gate the ACTIONS, not just the styling.",
+   "origin": "auto",
+   "status": "accepted",
+   "wave": 4,
+   "evidence": {
+    "revalidated": "pre-v1.68 spec, drift-fixed for v1.70 mechanics (landQuestions seeding / landcard clear), 3x green + red-proof 2026-08-03"
+   }
+  },
+  {
+   "id": "gen-w4-18",
+   "file": "e2e/gen/returner-failed-recall-never-demotes-mastery.spec.ts",
+   "theme": "unlock-economy",
+   "L": "lapsed-returner",
+   "F": "recall-gate",
+   "B": "guard-limit",
+   "invariant": "Mastery is a ratchet, not a live meter: failing a recall grade (Again) on an already-proven deck leaves masteredCount() unchanged and the deck still counted as mastered — a bad day after the layoff cannot un-mint a mastery that recall already proved.",
+   "origin": "auto",
+   "status": "accepted",
+   "wave": 4,
+   "evidence": {
+    "revalidated": "pre-v1.68 spec, drift-fixed for v1.70 mechanics (landQuestions seeding / landcard clear), 3x green + red-proof 2026-08-03"
    }
   }
  ]
