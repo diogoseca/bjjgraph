@@ -303,7 +303,7 @@ Client-side spaced repetition (SM-2) layered onto the always-on background graph
    - Idle, 0 due, has SRS: `All caught up · train more`
    - No SRS cards yet: `Start training`
 2. **DecksModal** — opens when user clicks the strip label. Lean: 5 deck rows (Due / Reviewing / Mastered / Suggested / Recently Explored) + sticky bottom CTA `Train Due (N) ▶` (label adapts) + ⚙ in modal header.
-3. **SettingsModal** — opens from the ⚙ inside DecksModal, defaults to Flashcards tab. Two tabs: Flashcards (Daily Goal, Show Flashcards on pages) / Game (Game Mode pills, Hard/Ultra locked). Stacks above DecksModal.
+3. **SettingsModal** — opens from the ⚙ inside DecksModal, defaults to Flashcards tab. Two tabs: Flashcards (Daily Goal, Show Flashcards on pages) / Game (Game Mode pills, Hard/Ultra locked, Sound Effects toggle). Stacks above DecksModal.
 4. **SessionChevrons** — fixed prev/next overlays on left/right viewport edges. Visible only when `body[data-training-active]`. Left hidden at index 0; right shows ✓ at last card (click finishes session). ArrowLeft/ArrowRight global keyboard, gated by `isTypingTarget`.
 
 > **NB — legacy variant only.** Everything in this section describes the Quartz page UI served at `?variant=legacy`. The default experience is the **Neural app** (see *Neural: pane law, landing questions, Challenges, Game Knowledge* below). `FirstLoadHint` and `bjj-onboarded` were **deleted in v1.26.2** (`0c492f0f6`) and no longer exist anywhere in source.
@@ -338,6 +338,9 @@ Client-side spaced repetition (SM-2) layered onto the always-on background graph
 - `source/quartz/components/scripts/trainingSession.ts` — shared session lifecycle (buildSessionQueue, startOrResumeSession, advanceSession, reverseSession, stopSession, completeSession, slideNavigate)
 - `source/quartz/components/scripts/srs.ts` — SRS card storage, SM-2 algorithm, `bjj-srs-cards`
 - `source/quartz/components/scripts/settings.ts` — `bjj-settings`, `bjj-daily-progress`, `bjj-streak`
+- `source/quartz/components/scripts/gameAudio.ts` — legacy-variant neural/space cues, lazy Web Audio singleton, cue cooldowns
+- `neural/src/sound.src.js` — default Neural runtime engine plus canonical contextual cue catalog
+- `forward/sounds/` — `/dev/sounds/` production-engine catalog and previews; `build:forward` copies the Neural engine into this route
 - `source/quartz/components/FlashcardsHeader.tsx` + `scripts/flashcardsHeader.inline.ts` — strip UI + label state machine
 - `source/quartz/components/DecksModal.tsx` + `scripts/decksModal.inline.ts` — deck overview modal + sticky CTA
 - `source/quartz/components/SettingsModal.tsx` + `scripts/settingsModal.inline.ts` — two-tab settings modal
@@ -397,6 +400,12 @@ score = Σ (weight_i × mastery_i),   Σ weight_i = 1
 - **Bonus:** `momentumMod()` = +2.5%/tier, **cap +10%** at ×5 — added in `moveChance` AND `escapeChance` (momentum is morale, it defends too). `momentumSkew()` = 10%/tier, **cap 40%**: in `drawOutcome`, counter-outcome weights shrink by the skew ("too fast to counter") — favorable outcomes gain implicitly via relative weights, authored numbers untouched. Beat `outcome_skewed {skew, result}` when a non-success lands under skew.
 - **Surfaces:** `.ng-combo-pop` (`[data-combo-pop][data-heat 1-5]`, announcer slam, auto-removes) and the `.ng-momentum` heat chip (`[data-momentum]`, top-right, shatter animation on break). Beats: `combo {n, name, mod}`, `combo_big {n≥5}` (louder patch), `combo_break {at, reason}`. Sound patches `combo`/`combo_big`/`combo_break` in `sound.src.js`.
 - The ×2+ announcer replaces the "Correct" toast; a break folds "×N momentum gone" into the wrong-answer toast.
+
+**NEURAL AUDIO — one contextual signal catalog (v1.75.0).** `neural/src/sound.src.js` owns both `NGSound` and `NG_SOUND_CATALOG`; never maintain a second list of default-runtime sounds. Mapped `fx()` beats use filtered deterministic noise, sine/triangle foundations, spatial travel, smooth envelopes, delay, and compression. Routine events stay restrained; recall proof, checkpoints, belt tests, victory, and defeat earn progressively longer starflight signals. Test mode records `{beat, patch, volume}` without creating an `AudioContext`, and every noise/pitch draw goes through `app.rng("sfx")`.
+- **The catalog documents beats that actually fire.** Challenge rewards own the `Rewards` group (`challenge_completed`/`objective-tick`, `patch_earned`/`patch-weave`, `coin_earned`/`coin-mint`), and the retired Belt Path cues (`path_opened`, `belt_unlocked`, `stripe_earned`) are gone with their voices. Adding a mapped `fx()` beat means adding a cue; retiring one means deleting it.
+- `/dev/sounds/` lives in `forward/sounds/`, not a Quartz emitter. `build_forward_components.mjs` deletes/rebuilds `source/public/dev`, validates the catalog, then copies the production engine and emits `sound-catalog.json`.
+- The sound lab previews `NGSound` directly, documents each real trigger, is `noindex,nofollow`, and appears in every Forward route nav. Sounds is a development tool, not a fifth composition layer.
+- Keep `source/quartz/components/scripts/gameAudio.ts` for `?variant=legacy`; its setting is `BJJSettings.soundEnabled`. Neural uses its own `sound` and `soundVolume` settings.
 
 **`pointer-events:auto` is LOAD-BEARING on every fixed overlay** (`.ng-coach`, `.ng-landcard`, …): the property is *inherited*, the overlay root disables it, and the canvas hit-tests above anything that doesn't re-enable it — option cards set it inline for exactly this reason. Missing it = mouse clicks silently fall through to the graph (the coach's Next button and the landing card's MC options were unclickable by mouse until v1.69.1; keyboard paths masked it).
 

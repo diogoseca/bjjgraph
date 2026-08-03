@@ -4,5 +4,5 @@ import { screenItems } from "../shared/screen-registry.js";
 mountCatalog({
   kind: "screens",
   items: screenItems,
-  version: "1.73.0",
+  version: "1.74.0",
 });

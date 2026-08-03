@@ -1,10 +1,18 @@
 // Flashcard - Anki-style 3-button model (Again/Hard/Easy) with SRS.
 // Reads per-page graph data injected at build time (no runtime fetch).
 import { findCard, addCard, reviewCard, masterFlashcard, nextInterval, isMastered } from "./srs"
-import { incrementLearned, incrementReviewed, updateStreak, loadSettings } from "./settings"
+import {
+  claimDailyGoalAchievement,
+  incrementLearned,
+  incrementReviewed,
+  updateStreak,
+  loadSettings,
+} from "./settings"
 import { isInSession, advanceSession, getSession } from "./trainingSession"
 import { safeSetItem } from "./util"
 import { localDateKey } from "./dateUtil"
+import { playGameSound } from "./gameAudio"
+import type { GameSoundCue } from "./gameAudio"
 
 type FlashcardPageType = "transition" | "submission" | "position" | "principle" | "system"
 
@@ -344,17 +352,25 @@ document.addEventListener("nav", () => {
   // Click on the minimized "Show Answer" pill: expand to full UI AND reveal the
   // answer directly + show Again/Hard/Easy. Matches spec: one click goes from
   // question-only minimized state to full UI with answer visible.
-  function expandFromMinimized() {
+  function setExpandedAnswer(playSound: boolean) {
     container!.classList.remove("flashcard-minimized")
     if (flashcardEl) {
       flashcardEl.classList.remove("hidden")
       flashcardEl.style.display = ""
     }
     updateAddTrainingBtn()
-    revealAnswer()
+    showAnswer(playSound)
   }
 
-  function revealAnswer() {
+  function expandFromMinimized() {
+    setExpandedAnswer(true)
+  }
+
+  function autoExpandFromMinimized() {
+    setExpandedAnswer(false)
+  }
+
+  function showAnswer(playSound: boolean) {
     answerEl!.style.display = "block"
     revealBtn!.style.display = "none"
     resultBtns!.style.display = "flex"
@@ -367,6 +383,11 @@ document.addEventListener("nav", () => {
     againBtn!.textContent = "Again"
     hardBtn!.textContent = `Hard (${previews.hard})`
     easyBtn!.textContent = `Easy (${previews.easy})`
+    if (playSound) playGameSound("reveal")
+  }
+
+  function revealAnswer() {
+    showAnswer(true)
   }
 
   function handleAgain() {
@@ -375,12 +396,12 @@ document.addEventListener("nav", () => {
     // revealAnswer() clears `rated` when the user re-reveals to grade again.
     if (rated) return
     rated = true
+    let cue: GameSoundCue = "incorrect"
     // Update SRS if card exists
     const card = findCard(data!.name)
     if (card) {
       reviewCard(data!.name, "again")
-      incrementReviewed()
-      updateStreak()
+      if (recordCountedReview()) cue = "daily-goal"
     }
 
     // Show failure snackbar
@@ -391,6 +412,7 @@ document.addEventListener("nav", () => {
         message: "Keep studying! Try again.",
       })
     }
+    playGameSound(cue)
 
     // Re-show the SAME question (hide answer, show reveal button)
     // Do NOT call showQuestion() — keep the same question
@@ -399,7 +421,16 @@ document.addEventListener("nav", () => {
     resultBtns!.style.display = "none"
   }
 
-  function recordSuccessfulReview(rating: "hard" | "easy") {
+  function recordCountedReview(): boolean {
+    incrementReviewed()
+    updateStreak()
+    return claimDailyGoalAchievement()
+  }
+
+  function recordSuccessfulReview(rating: "hard" | "easy"): GameSoundCue {
+    const cardBeforeReview = isTechniqueType ? findCard(data!.name) : undefined
+    const wasMastered = !!cardBeforeReview && isMastered(cardBeforeReview)
+
     addToJourney({
       slug: currentPath,
       name: data!.name,
@@ -421,17 +452,37 @@ document.addEventListener("nav", () => {
       reviewCard(data!.name, rating)
     }
     masterFlashcard(data!.name, currentQuestionIndex)
-    incrementReviewed()
-    updateStreak()
+    const reachedDailyGoal = recordCountedReview()
 
     if (addTrainingBtn) addTrainingBtn.classList.add("hidden")
+
+    if (reachedDailyGoal) return "daily-goal"
+    const cardAfterReview = isTechniqueType ? findCard(data!.name) : undefined
+    if (!wasMastered && cardAfterReview && isMastered(cardAfterReview)) return "mastery"
+    return "correct"
+  }
+
+  function playSuccessfulReviewSound(cue: GameSoundCue) {
+    // A submission immediately opens the full victory sequence, while the last
+    // card in a session gets the stronger completion cue instead of two chimes.
+    // Starting victory on the grading gesture also satisfies autoplay policies;
+    // the game-over trigger is de-duplicated by the victory cue's cooldown.
+    if (pageType === "submission" && !isInSession()) {
+      playGameSound("victory")
+      return
+    }
+    const session = getSession()
+    const completingSession =
+      !!session && session.currentIndex >= Math.max(0, session.pages.length - 1)
+    if (completingSession && cue === "correct") return
+    playGameSound(cue)
   }
 
   function handleHard() {
     if (rated) return
     rated = true
     knownCount++
-    recordSuccessfulReview("hard")
+    playSuccessfulReviewSound(recordSuccessfulReview("hard"))
     showSavePromptIfNeeded()
     navigateAfterSuccess()
   }
@@ -440,7 +491,7 @@ document.addEventListener("nav", () => {
     if (rated) return
     rated = true
     knownCount++
-    recordSuccessfulReview("easy")
+    playSuccessfulReviewSound(recordSuccessfulReview("easy"))
     showSavePromptIfNeeded()
     navigateAfterSuccess()
   }
@@ -685,7 +736,7 @@ document.addEventListener("nav", () => {
   const sessionForAutoExpand = getSession()
   if (sessionForAutoExpand?.autoExpand) {
     primeMinimizedView()
-    expandFromMinimized()
+    autoExpandFromMinimized()
   } else {
     primeMinimizedView()
   }

@@ -269,7 +269,7 @@ test.describe("Challenges UI @curated", () => {
       () =>
         (window as any).__neural.sound.soundLog.filter(
           (entry: any) =>
-            entry.beat === "coin_earned" && entry.patch === "coin-rubber",
+            entry.beat === "coin_earned" && entry.patch === "coin-mint",
         ).length,
     );
     expect(sounds).toBe(1);

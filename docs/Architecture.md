@@ -171,12 +171,17 @@ production game runtime:
 - `/dev/user-journeys/` composes use cases into configurable end-to-end chapters. The shipped
   journeys cover a first roll, Challenge progression, defeat-and-recovery, an advanced momentum
   run, and Collection acknowledgements.
-- `/dev/` is the hierarchy hub: Components -> Screens -> Use Cases -> User Journeys. The dashed
-  use-case and user-journey routes are canonical; undashed spellings redirect for compatibility.
+- `/dev/sounds/` is a separate production-audio tool. It documents and previews the default
+  Neural runtime's canonical electrical/space cue catalog in each real gameplay context; it is
+  not a fifth composition layer.
+- `/dev/` is the hierarchy hub: Components -> Screens -> Use Cases -> User Journeys, plus the
+  separate Neural Sound Lab. The dashed use-case and user-journey routes are canonical; undashed
+  spellings redirect for compatibility.
 - All four libraries share source-controlled fixtures, renderers, and design tokens in `forward/`.
-- All four libraries use the same persistent catalog rail. Desktop keeps the full list visible;
-  constrained viewports move that list into a focus-managed drawer with Escape/backdrop close
-  behavior. Item dropdowns are not used as a substitute for browsing the library.
+- All five development routes share navigation and use the same persistent catalog-rail behavior.
+  Desktop keeps the full list visible; constrained viewports move that list into a focus-managed
+  drawer with Escape/backdrop close behavior. Item dropdowns are not used as a substitute for
+  browsing a library or sound group.
 - Viewport controls cover fluid, 320px, phone, 400x875, tablet, desktop, and short-landscape
   containers. Catalog item, viewport, variant, graph node, and player role are permalinked in
   the URL hash.
@@ -203,6 +208,10 @@ production game runtime:
   example, `dossierSheetRef`) instead of invented CSS selectors. `build_forward_components.mjs`
   rejects duplicate IDs, incomplete provenance, and missing source files before publishing
   `/dev/`.
+- `neural/src/sound.src.js` is the single source for both the production `NGSound` engine and
+  `NG_SOUND_CATALOG`. The Forward build evaluates that source in an isolated VM, rejects missing
+  metadata, duplicate beats, invalid durations, missing required outcome cues, or an absent
+  engine, then writes `sounds/sound-engine.js` and `sounds/sound-catalog.json`.
 - Forward derives the base `.ng-*` motion and responsive rules from `neural/src/helmet.html` at
   build time, then applies frame-scoped catalog layout rules. Renderers mirror the persistent
   shell in `neural/src/xdc-template.html` and the dynamic structures in
@@ -306,6 +315,42 @@ export const defaultContentPageLayout: PageLayout = {
   ],
 };
 ```
+
+---
+
+## Gameplay Audio & Terminal Effects
+
+Gameplay audio is synthesized at runtime with the Web Audio API; there are no downloaded sound
+files or audio dependencies. The default Neural runtime and the legacy Quartz variant have
+separate engines because their event and lifecycle models differ.
+
+| Concern           | Default Neural                                             | Legacy Quartz (`?variant=legacy`)                              |
+| ----------------- | ---------------------------------------------------------- | -------------------------------------------------------------- |
+| Sound engine      | `neural/src/sound.src.js` (`NGSound`)                      | `source/quartz/components/scripts/gameAudio.ts`                |
+| Catalog           | `NG_SOUND_CATALOG`, in the same production source          | `GAME_SOUND_CATALOG`                                           |
+| User control      | Neural `sound` and `soundVolume` settings                  | `BJJSettings.soundEnabled`                                     |
+| Persistence       | Neural progress/settings blob                              | Existing `bjj-settings` localStorage/cloud-sync object         |
+| Browser lifecycle | Lazy gesture-unlocked context; destroyed on app teardown   | Lazy user-activation gate; global SPA singleton                |
+| Output safety     | Compressor, six-voice cap, 40ms spacing, 100ms beat dedupe | Compressor, per-cue cooldowns, celebration overlap suppression |
+
+The default cue language is contextual rather than arcade-like: filtered current and spatial scans
+support ordinary decisions; correct moves and recall proof connect like synapses; opponent turns
+and defense use radar and shield fields; checkpoints, stripes, and belt progression use
+progressively richer constellations. Victory gets a full star-jump fanfare, while defeat uses a
+long reactor shutdown with a recoverable final harmonic. Interface cues remain near the noise
+floor, and unmapped routine beats remain silent.
+
+Neural test mode never creates an `AudioContext`; it logs the selected patch and volume to
+`soundLog`, and all synthesis variation uses deterministic `app.rng("sfx")`. The production
+context initializes only after a user gesture and closes on SPA teardown. The legacy daily-goal
+cue is claimed once per local day through `DailyProgress.goalCelebrated`; disabling legacy sound
+closes its context immediately. Browsers without Web Audio degrade without blocking gameplay.
+
+`/dev/sounds/` is a noindex Forward developer tool in `forward/sounds/`. It loads a build-copied
+version of the production Neural engine, documents every catalog cue's beat, trigger, duration,
+and sonic character, and offers isolated volume-controlled previews and a stop control. It is
+source-controlled under `forward/` because `build:forward` deliberately replaces
+`source/public/dev` after Quartz; a Quartz emitter at that path would be deleted.
 
 ---
 
