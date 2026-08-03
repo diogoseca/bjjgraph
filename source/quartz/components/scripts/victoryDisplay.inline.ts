@@ -3,6 +3,7 @@
 import { getRollParam, decodeRollUrl, clearRollUrl, clearRollHistory } from "./explorerGraphExpand"
 import { loadSettings } from "./settings"
 import { safeSetItem } from "./util"
+import { playGameSound } from "./gameAudio"
 
 interface JourneyStep {
   slug: string
@@ -155,30 +156,27 @@ function accumulateStats(journey: JourneyStep[]): LifetimeStats {
   return stats
 }
 
-function createConfetti(container: HTMLElement) {
-  const colors = ["#2e7d32", "#4caf50", "#81c784", "#ffd700", "#ffeb3b"]
+function createCosmicBurst(container: HTMLElement) {
+  container.replaceChildren()
+  if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) return
 
-  for (let i = 0; i < 50; i++) {
-    const piece = document.createElement("div")
-    piece.className = "confetti-piece"
-    piece.style.cssText = `
-      position: absolute;
-      width: ${Math.random() * 10 + 5}px;
-      height: ${Math.random() * 10 + 5}px;
-      background: ${colors[Math.floor(Math.random() * colors.length)]};
-      left: ${Math.random() * 100}%;
-      top: -20px;
-      opacity: ${Math.random() * 0.5 + 0.5};
-      border-radius: ${Math.random() > 0.5 ? "50%" : "0"};
-      animation: confetti-fall ${Math.random() * 2 + 2}s ease-out forwards;
-      animation-delay: ${Math.random() * 0.5}s;
-    `
-    container.appendChild(piece)
+  const colors = ["#d9fbff", "#8eeeff", "#80aaff", "#f5f3d0"]
+  const particleCount = 44
+
+  for (let i = 0; i < particleCount; i++) {
+    const particle = document.createElement("span")
+    const angle = (360 / particleCount) * i + (Math.random() - 0.5) * 12
+    particle.className =
+      i % 5 === 0 ? "victory-star victory-star--spark" : "victory-star victory-star--streak"
+    particle.style.setProperty("--star-angle", `${angle}deg`)
+    particle.style.setProperty("--star-distance", `${120 + Math.random() * 190}px`)
+    particle.style.setProperty("--star-delay", `${Math.random() * 0.28}s`)
+    particle.style.setProperty("--star-duration", `${0.85 + Math.random() * 0.7}s`)
+    particle.style.setProperty("--star-color", colors[Math.floor(Math.random() * colors.length)])
+    container.appendChild(particle)
   }
 
-  setTimeout(() => {
-    container.innerHTML = ""
-  }, 4000)
+  setTimeout(() => container.replaceChildren(), 2400)
 }
 
 function hideAllContent() {
@@ -404,7 +402,7 @@ document.addEventListener("nav", () => {
 
   const victoryContent = document.getElementById("victory-content")
   const victoryFallback = document.getElementById("victory-fallback")
-  const confettiContainer = document.getElementById("confetti-container")
+  const victoryEffect = document.getElementById("victory-effect")
   const victoryTitle = document.getElementById("victory-title")
   const victorySubtitle = document.getElementById("victory-subtitle")
   const statMoves = document.getElementById("stat-moves")
@@ -542,9 +540,10 @@ document.addEventListener("nav", () => {
       victoryFallback.style.display = "none"
       hideAllContent()
 
-      if (confettiContainer) {
-        createConfetti(confettiContainer)
+      if (victoryEffect) {
+        createCosmicBurst(victoryEffect)
       }
+      playGameSound("victory")
 
       // Render lifetime stats in victory view
       renderLifetimeStats(lifetimeStats, "")

@@ -22,7 +22,7 @@ const VictoryDisplay: QuartzComponent = ({ fileData, displayClass }: QuartzCompo
     >
       {/* Victory content - shown when journey data exists */}
       <div id="victory-content" class="terminal-state victory" style="display: none;">
-        <div id="confetti-container"></div>
+        <div id="victory-effect" aria-hidden="true"></div>
         <h2 id="victory-title">Victory!</h2>
         <p id="victory-subtitle" class="victory-subtitle"></p>
 

@@ -70,14 +70,17 @@ jobs:
           cp -r raw_html/* public/ || true
         working-directory: ./source
 
-      # GAMEPLAY REGRESSION GATE: the E2E journey suite plays the Neural app as a user
-      # (deterministic rails: rigged RNG + frame pump) against the freshly built site.
-      # Any red journey blocks the deploy — gameplay must never regress on dev.
-      - name: Journey gate (Playwright E2E)
+      # Quartz clears source/public, so Forward must be copied after the site build.
+      - name: Build Forward development libraries
+        run: npm run build:forward
+
+      # Fast representative gate. The complete suite runs sharded before merges to main.
+      - name: Curated journey gate (Playwright E2E)
+        timeout-minutes: 12
         run: |
           npm install
           npx playwright install --with-deps chromium
-          npm run e2e
+          npm run test:curated
 
       - name: Upload journey artifacts (on failure)
         if: failure()

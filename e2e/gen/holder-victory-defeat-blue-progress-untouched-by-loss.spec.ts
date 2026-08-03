@@ -1,4 +1,4 @@
-/* @hyperspace {"theme":"lifetime-journeys","L":"white-belt-holder","F":"victory-defeat","B":"cross-feature"} @invariant "A gameplay loss for a white-belt holder drains the ladder but never revokes the earned white belt or corrupts blue study progress: after a rigged defense-expiry loss, defeat_drain and ladder_down fire, yet belts.won[white] is intact and blue's units/lessons state is unchanged from boot — belt record and study progress are independent of roll outcomes." */
+/* @hyperspace {"theme":"lifetime-journeys","L":"white-capstone-holder","F":"victory-defeat","B":"cross-feature"} @invariant "A gameplay loss for a White-capstone holder drains the ladder but never revokes the cleared capstone or corrupts Blue study progress: after a rigged defense-expiry loss, defeat_drain and ladder_down fire, yet belts.won[white] is intact and Blue units/lessons are unchanged from boot — capstone records and study progress are independent of roll outcomes." */
 import { test, expect } from "@playwright/test"
 import { journey } from "../dsl"
 import { whiteBeltHolder, CURRICULUM } from "./personas"
@@ -10,7 +10,7 @@ import { whiteBeltHolder, CURRICULUM } from "./personas"
  * defense-expiry. The loss must debit the opponent LADDER (rank -1, defeat_drain) and touch
  * NOTHING in the durable career record: belts.won[white] stays intact, and the whole
  * units/prep/rec study-progress map is byte-identical to boot — including that blue is still
- * ABSENT (a loss must not spawn spurious blue keys). Belt record + study progress are functions
+ * ABSENT (a loss must not spawn spurious blue keys). The compatibility capstone record and study progress are functions
  * of study, never of roll outcomes.
  *
  * Distinct from its ledger neighbors on the SAME (F=victory-defeat) column:
@@ -26,7 +26,7 @@ import { whiteBeltHolder, CURRICULUM } from "./personas"
  *     _ladder.rank / rollLog / _lastOutcome / camera — NEVER belts.won or units.
  *   - The ONLY endRound branch that writes belts (:3789-3800) is guarded by `if (this._beltTest)`;
  *     a plain land("Mount Top") roll has no _beltTest, so that branch is skipped entirely. And
- *     even a belt-test LOSS writes belts.attempts (:3798), it never revokes a won belt.
+ *     even an internal capstone loss writes belts.attempts, it never revokes a cleared capstone.
  *   - _progressBlob() (:1114) serializes belts/units/prep/rec BY REFERENCE, so an untouched map
  *     round-trips byte-identical — "unchanged from boot" == deep-equal of the whole map.
  *

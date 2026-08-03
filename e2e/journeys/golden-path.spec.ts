@@ -46,7 +46,7 @@ const script = async (j: ReturnType<typeof journey>) => {
   return { options, trail: await j.rollTrail(), beats }
 }
 
-test("golden path: land → read → drill → pick → hit", async ({ page }) => {
+test("golden path: land → read → drill → pick → hit @curated", async ({ page }) => {
   const run = await script(journey(page))
   expect(run.trail.length).toBeGreaterThanOrEqual(1)
   await journey(page).keyframe("golden-path-final")
