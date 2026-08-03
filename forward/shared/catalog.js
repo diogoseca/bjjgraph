@@ -5,6 +5,7 @@ import {
 } from "./fixtures.js";
 import { initCatalogRail } from "./catalog-rail.js";
 import { icon } from "./icons.js";
+import { renderDevRoutes } from "./routes.js";
 
 export const devices = [
   { id: "responsive", label: "Fluid", width: null, height: null },
@@ -94,12 +95,7 @@ export async function mountCatalog({ kind, items, version }) {
   app.innerHTML = `<div class="catalog">
     <header class="catalog-header">
       <a class="catalog-brand" href="/dev/"><span class="catalog-mark">◈</span><span>Forward Components <small>BJJGraph</small></span></a>
-      <nav class="catalog-routes" aria-label="Forward libraries">
-        <a href="/dev/components/" ${kind === "components" ? 'aria-current="page"' : ""}>Components</a>
-        <a href="/dev/screens/" ${kind === "screens" ? 'aria-current="page"' : ""}>Screens</a>
-        <a href="/dev/use-cases/">Use cases</a>
-        <a href="/dev/user-journeys/">User journeys</a>
-      </nav>
+      <nav class="catalog-routes" aria-label="Development routes">${renderDevRoutes(kind)}</nav>
       <button class="catalog-rail-toggle" type="button" aria-label="Browse ${kind}" aria-controls="catalog-rail" aria-expanded="false">${icon("menu", 17)}<span>Browse ${kind}</span></button>
       <span class="catalog-version">v${version} · dev only</span>
     </header>

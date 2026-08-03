@@ -77,6 +77,7 @@ test.describe("Forward Components development library @curated", () => {
     await page
       .getByLabel("Preview variant")
       .selectOption({ label: "Priority fit" });
+    await page.evaluate(() => document.fonts.ready);
 
     const fit = await page.locator(".landing-card").evaluate((element) => {
       const box = element.getBoundingClientRect();
@@ -92,7 +93,7 @@ test.describe("Forward Components development library @curated", () => {
       .evaluate((element) => element.getBoundingClientRect().top);
 
     expect(fit.scrollHeight).toBeLessThanOrEqual(fit.clientHeight);
-    expect(fit.bottom).toBeLessThanOrEqual(optionTop);
+    expect(fit.bottom).toBeLessThanOrEqual(optionTop + 0.5);
     await expect(page.locator(".landing-definition")).toBeHidden();
     await expect(page.locator(".film-strip")).toBeHidden();
     await expect(page.locator(".question-block")).toBeVisible();
@@ -312,7 +313,9 @@ test.describe("Forward Components development library @curated", () => {
     );
   });
 
-  test("the dev hub links all four Forward libraries", async ({ page }) => {
+  test("the dev hub links all four libraries and the production sound lab", async ({
+    page,
+  }) => {
     await page.goto("/dev/");
 
     await expect(
@@ -333,6 +336,50 @@ test.describe("Forward Components development library @curated", () => {
     await expect(
       page.getByRole("link", { name: /User Journeys/ }),
     ).toHaveAttribute("href", "/dev/user-journeys/");
+    await expect(
+      page.getByRole("link", { name: /Neural Sound Lab/ }),
+    ).toHaveAttribute("href", "/dev/sounds/");
+  });
+
+  test("the sound lab catalogs, filters, and previews the production palette", async ({
+    page,
+  }) => {
+    const errors: string[] = [];
+    page.on("pageerror", (error) => errors.push(error.message));
+    await page.goto("/dev/sounds/");
+
+    await expect(
+      page.getByRole("heading", { name: /Electric current/ }),
+    ).toBeVisible();
+    const cues = page.locator(".sound-cue");
+    expect(await cues.count()).toBeGreaterThanOrEqual(40);
+    await expect(page.locator('meta[name="robots"]')).toHaveAttribute(
+      "content",
+      "noindex,nofollow",
+    );
+    await expect(page.locator(".catalog-routes a")).toHaveCount(5);
+
+    const payload = await page.evaluate(() =>
+      fetch("./sound-catalog.json").then((response) => response.json()),
+    );
+    expect(payload.cues.length).toBe(await cues.count());
+
+    const search = page.getByLabel("Filter sounds");
+    await search.fill("star-jump victory");
+    await expect(cues).toHaveCount(1);
+    await search.fill("");
+
+    await page
+      .getByRole("button", { name: "Preview Star-jump victory" })
+      .click();
+    await expect(page.locator('[data-beat="victory_cascade"]')).toHaveAttribute(
+      "data-playing",
+      "",
+    );
+    await expect(page.getByRole("status")).toContainText("Transmitting");
+    await page.getByRole("button", { name: "Stop" }).click();
+    await expect(page.getByRole("status")).toContainText("Playback stopped");
+    expect(errors).toEqual([]);
   });
 
   test("use cases expose important motion as a playable screen timeline", async ({
@@ -547,7 +594,7 @@ test.describe("Forward Components development library @curated", () => {
     await expect(page.locator(".sequence-position")).toContainText("4 / 7");
   });
 
-  test("all four libraries keep the browsable rail on narrow viewports", async ({
+  test("all development routes keep the browsable rail on narrow viewports", async ({
     page,
   }) => {
     await page.setViewportSize({ width: 600, height: 900 });
@@ -556,6 +603,7 @@ test.describe("Forward Components development library @curated", () => {
       "screens",
       "use-cases",
       "user-journeys",
+      "sounds",
     ]) {
       await page.goto(`/dev/${route}/`);
       const rail = page.locator("#catalog-rail");

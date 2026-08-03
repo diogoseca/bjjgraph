@@ -9,6 +9,7 @@
 import { registerEscapeHandler } from "./util"
 import { loadSettings, saveSettings } from "./settings"
 import type { GameMode } from "./settings"
+import { playGameSound, stopGameSounds } from "./gameAudio"
 
 const MODAL_ID = "settings-modal-overlay"
 
@@ -93,6 +94,18 @@ function renderTab(panel: HTMLElement, tab: Tab) {
           <button type="button" class="settings-modal-pill settings-modal-pill--locked" data-mode="ultra" title="Coming soon" disabled>Ultra &#x1F512;</button>
         </div>
       </div>
+      <div class="settings-modal-row">
+        <label for="settings-sound-effects" class="settings-modal-label">
+          Sound effects
+          <span class="settings-modal-hint">Neural, electrical feedback for rolls and milestones</span>
+        </label>
+        <input
+          type="checkbox"
+          id="settings-sound-effects"
+          class="settings-modal-toggle"
+          ${settings.soundEnabled ? "checked" : ""}
+        />
+      </div>
     `
 
     const group = document.getElementById("settings-game-mode-group")
@@ -112,6 +125,21 @@ function renderTab(panel: HTMLElement, tab: Tab) {
         })
       })
     }
+
+    const soundEffectsCheckbox = document.getElementById(
+      "settings-sound-effects",
+    ) as HTMLInputElement
+    soundEffectsCheckbox?.addEventListener("change", () => {
+      const s = loadSettings()
+      s.soundEnabled = soundEffectsCheckbox.checked
+      saveSettings(s)
+
+      if (s.soundEnabled) {
+        playGameSound("interface-on")
+      } else {
+        stopGameSounds()
+      }
+    })
   }
 }
 

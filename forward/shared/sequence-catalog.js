@@ -2,6 +2,7 @@ import { devices, loadEntities } from "./catalog.js";
 import { initCatalogRail } from "./catalog-rail.js";
 import { fallbackEntities, resolveEntityContext } from "./fixtures.js";
 import { icon } from "./icons.js";
+import { renderDevRoutes } from "./routes.js";
 import { framesFor } from "./sequence-registry.js";
 import { gameScreen } from "./screen-renderers.js";
 
@@ -26,15 +27,6 @@ function resolveFrameState(frame, context) {
     motion: frame.motion,
     motionProgress: frame.motionProgress,
   };
-}
-
-function renderRoutes(kind) {
-  return `<nav class="catalog-routes" aria-label="Forward libraries">
-    <a href="/dev/components/">Components</a>
-    <a href="/dev/screens/">Screens</a>
-    <a href="/dev/use-cases/" ${kind === "use-cases" ? 'aria-current="page"' : ""}>Use cases</a>
-    <a href="/dev/user-journeys/" ${kind === "user-journeys" ? 'aria-current="page"' : ""}>User journeys</a>
-  </nav>`;
 }
 
 export async function mountSequenceCatalog({ kind, items, version }) {
@@ -69,7 +61,7 @@ export async function mountSequenceCatalog({ kind, items, version }) {
   app.innerHTML = `<div class="sequence-catalog">
     <header class="catalog-header">
       <a class="catalog-brand" href="/dev/"><span class="catalog-mark">◈</span><span>Forward Components <small>BJJGraph</small></span></a>
-      ${renderRoutes(kind)}
+      <nav class="catalog-routes" aria-label="Development routes">${renderDevRoutes(kind === "user-journeys" ? "journeys" : kind)}</nav>
       <button class="catalog-rail-toggle" type="button" aria-label="Browse ${routeNames[kind]}" aria-controls="catalog-rail" aria-expanded="false">${icon("menu", 17)}<span>Browse ${routeNames[kind]}</span></button>
       <span class="catalog-version">v${version} · dev only</span>
     </header>

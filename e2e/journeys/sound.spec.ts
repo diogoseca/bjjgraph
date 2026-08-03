@@ -5,8 +5,8 @@ import { journey } from "../dsl";
  * PURPOSEFUL FEEDBACK SOUNDS ON THE fx() BEAT BUS.
  *
  * One WebAudio synth module (neural/src/sound.src.js, composed into the bundle) subscribes
- * to fx() — every present and future beat is audible for free; audio, journeys and animation
- * share one vocabulary. Under isTest() NO AudioContext is ever created: beats log to a ring
+ * to mapped fx() beats, so audio, journeys, and animation share one vocabulary. Under
+ * isTest() NO AudioContext is ever created: beats log to a ring
  * buffer (window.__neural.sound.soundLog) that journeys read exactly like the beats array.
  *
  * Surfaces forced into existence:
@@ -30,6 +30,70 @@ test("the ring buffer logs patches for gameplay beats", async ({ page }) => {
   expect(typeof entry.patch).toBe("string");
   expect(entry.patch.length).toBeGreaterThan(0);
 });
+
+test("the canonical palette maps every catalog cue to a synthesis voice", async ({ page }) => {
+  const j = journey(page)
+  await j.boot("/")
+
+  const palette = await page.evaluate(async () => {
+    const app = (window as any).__neural
+    const catalog = (window as any).NG_SOUND_CATALOG
+    const start = app.sound.soundLog.length
+    for (const cue of catalog) {
+      app.sound._lastVoice = -1e9
+      app.sound._lastByBeat[cue.beat] = -1e9
+      app.sound.beat(cue.beat)
+    }
+    const playScene = async (beats: string[]) => {
+      const Engine = (window as any).NGSound
+      const played: string[] = []
+      const engine = new Engine({
+        isTest: () => false,
+        get: (_key: string, fallback: string) => fallback,
+      })
+      engine._play = (patch: { id: string }) => {
+        played.push(patch.id)
+        return true
+      }
+      beats.forEach((beat) => engine.beat(beat))
+      await new Promise((resolve) => setTimeout(resolve, 70))
+      engine.destroy()
+      return played
+    }
+    return {
+      cues: catalog.length,
+      groups: new Set(catalog.map((cue: any) => cue.group)).size,
+      voices: app.sound.soundLog.slice(start).map((entry: any) => entry.patch),
+      winner: catalog.find((cue: any) => cue.beat === "victory_cascade")?.voice,
+      loser: catalog.find((cue: any) => cue.beat === "defeat_drain")?.voice,
+      scenes: {
+        bigCombo: await playScene(["combo", "combo_big"]),
+        defense: await playScene(["defend_start", "caught"]),
+        checkpoint: await playScene(["checkpoint_passed", "unit_done"]),
+        beltWin: await playScene([
+          "belt_test_won",
+          "victory_cascade",
+          "finish",
+          "roll_end",
+        ]),
+        defeat: await playScene(["defeat_drain", "roll_end"]),
+      },
+    }
+  })
+
+  expect(palette.cues).toBeGreaterThanOrEqual(40)
+  expect(palette.groups).toBeGreaterThanOrEqual(7)
+  expect(palette.voices).toHaveLength(palette.cues)
+  expect(palette.voices).not.toContain("boom")
+  expect(palette.voices).not.toContain("deal-arp")
+  expect(palette.winner).toContain("fanfare")
+  expect(palette.loser).toBe("reactor-shutdown")
+  expect(palette.scenes.bigCombo).toEqual(["momentum-supernova"])
+  expect(palette.scenes.defense).toEqual(["shield-charge"])
+  expect(palette.scenes.checkpoint).toEqual(["constellation-complete"])
+  expect(palette.scenes.beltWin).toEqual(["belt-fanfare"])
+  expect(palette.scenes.defeat).toEqual(["reactor-shutdown"])
+})
 
 test("a rigged win plays the victory fanfare", async ({ page }) => {
   const j = journey(page);
@@ -121,7 +185,7 @@ test("Challenge rewards use restrained patch and Mat Coin acknowledgements", asy
     .filter((entry: any) => entry.beat === "coin_earned")
     .pop() as any;
   expect(coin).toBeTruthy();
-  expect(coin.patch).toBe("coin-rubber");
+  expect(coin.patch).toBe("coin-mint");
   expect(
     await page.evaluate(() => !!(window as any).__neural.coins?.houdini),
   ).toBe(true);
