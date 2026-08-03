@@ -1,4 +1,4 @@
-/* @hyperspace {"theme":"unlock-economy","L":"curriculum-mid","F":"persistence-reload","B":"idempotence"} @invariant "A failed checkpoint is a durable no-op on the unlock ledger: after failing unit-2's quiz and a preserveStorage reload, the units map still lacks the unit-2 key and the row is un-done, while the lesson drills that preceded it DID persist — the fail writes nothing, the study that led to it stays." */
+/* @hyperspace {"theme":"unlock-economy","L":"curriculum-mid","F":"persistence-reload","B":"idempotence"} @invariant "A failed checkpoint is a durable no-op on the unlock ledger: after failing unit-2's quiz and a preserveStorage reload, the units map still lacks the unit-2 key and the checkpoint stays uncleared, while the lesson drills that preceded it DID persist — the fail writes nothing, the study that led to it stays and re-arms the gate." */
 import { test, expect } from "@playwright/test"
 import { journey } from "../dsl"
 import { curriculumMid, CURRICULUM } from "./personas"
@@ -8,13 +8,17 @@ import { curriculumMid, CURRICULUM } from "./personas"
  * ledger's durability story. A mid-curriculum player finishes drilling unit 2's back half
  * (real study, real lesson_done beats), sits the unit-2 checkpoint, bombs every card, and
  * reloads. The ledger must show EXACTLY the study and NONE of the fail: units never gains the
- * unit-2 key on either side of the reload, rows stay un-done, yet the drilled lessons persist
- * and re-satisfy the checkpoint gate on the next life.
+ * unit-2 key on either side of the reload, the checkpoint stays uncleared, yet the drilled
+ * lessons persist and re-satisfy the checkpoint gate on the next life.
  *
  * Mechanism under test (source-verified at authoring; probe green 2/2, ~28s/run, deleted):
- *   - startCheckpoint (app.src.jsx:3466) gates the row on EVERY live lesson lessonDone —
- *     drilling the complement is what makes the row clickable; the click fires
- *     checkpoint_start {unit, cards} synchronously and auto-closes the explorer.
+ *   - startCheckpoint gates the button on EVERY live lesson lessonDone — drilling the
+ *     complement is what flips the v1.74 checkpoint button from disabled to enabled; the
+ *     click fires checkpoint_start {unit, cards} synchronously and auto-closes the explorer.
+ *     (v1.74 Challenges UI: no data-unit/data-locked/data-done attrs — the button's
+ *     disabled state + its "Checkpoint cleared" label are the rendered ledger. Only the
+ *     first unit's <details> group is open by default, so the spec opens unit-2's group
+ *     before clicking.)
  *   - _checkpointAnswer's fail branch (app.src.jsx:3511-3520) emits checkpoint_failed
  *     {unit, firstTry, of, weakest} and NEVER writes this.units, never flushes — the no-write
  *     is asserted WITHOUT any manual _flushSave (the honest path).
@@ -100,26 +104,33 @@ test("bombed unit-2 checkpoint never reaches the ledger across a reload, while t
     expect(prepLive[i], `${COMPLEMENT[i]} drilled to goal`).toBeGreaterThanOrEqual(3)
   }
 
-  // ── pre-state: unit 2 reachable (unit 1 done) but NOT done — a never-passed unit ──
+  // ── pre-state: unit 1 cleared (seeded), unit 2's checkpoint enabled by the drills but
+  //    NOT cleared — a never-passed unit ──
+  const openGroup = (uk: string) =>
+    page
+      .locator(`.ng-challenge-group:has([data-checkpoint="${uk}"])`)
+      .first()
+      .evaluate((el) => ((el as HTMLDetailsElement).open = true))
   await page.evaluate(() => (window as any).__neural.toggleExplorer())
   await expect(page.locator("[data-view]").first()).toBeVisible()
   expect(
-    await page.locator(`[data-unit="${UK2}"]`).first().getAttribute("data-locked"),
-    "unit-2 row unlocked — unit 1 complete",
-  ).toBeNull()
+    await page.locator(`[data-checkpoint="${UK1}"]`).first().textContent(),
+    "unit-1 checkpoint cleared (seeded)",
+  ).toContain("cleared")
   expect(
-    await page.locator(`[data-unit="${UK2}"]`).first().getAttribute("data-done"),
-    "unit-2 row starts not-done",
-  ).toBeNull()
+    await page.locator(`[data-checkpoint="${UK2}"]`).first().isDisabled(),
+    "unit-2 checkpoint ENABLED — the drills satisfied the evidence gate",
+  ).toBe(false)
   expect(
-    await page.locator(`[data-checkpoint="${UK2}"]`).first().getAttribute("data-done"),
-    "checkpoint row starts not-done",
-  ).toBeNull()
+    await page.locator(`[data-checkpoint="${UK2}"]`).first().textContent(),
+    "unit-2 checkpoint starts not-cleared",
+  ).not.toContain("cleared")
 
-  // ── the drilling made the row live: startCheckpoint's every-lesson gate passes ──
+  // ── the drilling made the button live: startCheckpoint's every-lesson gate passes ──
   await j.rig("checkpoint-pick", seq(11, 10))
   await j.rig("mc-pick", seq(12, 500))
   await j.rig("mc-shuffle", seq(13, 150))
+  await openGroup(UK2) // unit 2's <details> group is collapsed by default
   await page.locator(`[data-checkpoint="${UK2}"]`).first().click()
   await j.advance(400)
   await j.expectBeat("checkpoint_start")
@@ -207,26 +218,26 @@ test("bombed unit-2 checkpoint never reaches the ledger across a reload, while t
     expect(reborn.livePrep[i], `${COMPLEMENT[i]} drill credit survived the reload`).toBeGreaterThanOrEqual(3)
   }
 
-  // ── post-reload path DOM: fail invisible, study visible ──
+  // ── post-reload challenges DOM: fail invisible, study visible ──
+  const openGroup2 = (uk: string) =>
+    page
+      .locator(`.ng-challenge-group:has([data-checkpoint="${uk}"])`)
+      .first()
+      .evaluate((el) => ((el as HTMLDetailsElement).open = true))
   await page.evaluate(() => (window as any).__neural.toggleExplorer())
   await expect(page.locator("[data-view]").first()).toBeVisible()
-  const u2row = page.locator(`[data-unit="${UK2}"]`).first()
-  expect(await u2row.getAttribute("data-done"), "unit-2 row still un-done after reload").toBeNull()
-  expect(await u2row.getAttribute("data-locked"), "unit-2 row still unlocked after reload").toBeNull()
   expect(
-    await page.locator(`[data-checkpoint="${UK2}"]`).first().getAttribute("data-done"),
-    "checkpoint row still un-done after reload",
-  ).toBeNull()
-  for (const key of COMPLEMENT) {
-    expect(
-      await page.locator(`[data-lesson="${key}"]`).first().getAttribute("data-done"),
-      `drilled lesson row ${key} shows done after reload`,
-    ).toBe("1")
-  }
+    await page.locator(`[data-checkpoint="${UK2}"]`).first().textContent(),
+    "unit-2 checkpoint still not-cleared after reload",
+  ).not.toContain("cleared")
   expect(
-    await page.locator(`[data-unit="${UK1}"]`).first().getAttribute("data-done"),
-    "unit-1 row still done after reload",
-  ).toBe("1")
+    await page.locator(`[data-checkpoint="${UK2}"]`).first().isDisabled(),
+    "unit-2 checkpoint still ENABLED after reload — the persisted drills re-satisfy the gate",
+  ).toBe(false)
+  expect(
+    await page.locator(`[data-checkpoint="${UK1}"]`).first().textContent(),
+    "unit-1 checkpoint still cleared after reload",
+  ).toContain("cleared")
 
   // ── retake proof: the gate re-passes on PERSISTED prep alone — no re-drilling needed ──
   expect(
@@ -236,6 +247,7 @@ test("bombed unit-2 checkpoint never reaches the ledger across a reload, while t
   await j.rig("checkpoint-pick", seq(41, 10))
   await j.rig("mc-pick", seq(42, 120))
   await j.rig("mc-shuffle", seq(43, 40))
+  await openGroup2(UK2)
   await page.locator(`[data-checkpoint="${UK2}"]`).first().click()
   await j.advance(400)
   const starts = (await j.beats()).filter((b: any) => b.beat === "checkpoint_start") as any[]

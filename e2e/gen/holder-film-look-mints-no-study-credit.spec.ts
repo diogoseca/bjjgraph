@@ -1,4 +1,4 @@
-/* @hyperspace {"theme":"unlock-economy","L":"white-belt-holder","F":"film-study","B":"economy-math"} @invariant "Film study pumps odds but never the study ledger: a watchShort that fires film_first_look leaves the prep map deep-equal, cardsToday unchanged, and no lesson_done beat — the +4 lives entirely in moveChance, the film and study economies are disjoint." */
+/* @hyperspace {"theme":"unlock-economy","L":"white-belt-holder","F":"film-study","B":"economy-math"} @invariant "Film study pumps odds but never the study ledger: a watchShort that fires film_first_look leaves the prep map deep-equal, cardsToday unchanged, no lesson_done beat, and the Challenges-view lesson census untouched — the +4 lives entirely in moveChance, the film and study economies are disjoint." */
 import { test, expect, type Page } from "@playwright/test"
 import { journey, type Journey } from "../dsl"
 import { whiteBeltHolder, CURRICULUM } from "./personas"
@@ -8,10 +8,11 @@ import { whiteBeltHolder, CURRICULUM } from "./personas"
  *
  * The film first-look mints +4 displayed odds, but it must mint ZERO study credit: the prep
  * map stays deep-equal, cardsToday stays 0, _days stays empty, no lesson_done fires, no
- * bonus_pumped fires, and the belt path's done-census is byte-identical to the pre-watch
- * predicate census. whiteBeltHolder is the sharpest lens for this: every white lesson is
- * seeded prep=3 (the prep map is NON-empty, so deep-equal can't pass vacuously) and every
- * white lesson row renders ✓ — a single stray credit would flip a count somewhere.
+ * bonus_pumped fires, and the Challenges view's rendered done-census is byte-identical to
+ * the pre-watch predicate census. whiteBeltHolder is the sharpest lens for this: every white
+ * lesson is seeded prep=3 (the prep map is NON-empty, so deep-equal can't pass vacuously)
+ * and every white unit summary renders "N of N lessons" — a single stray credit would flip
+ * a count somewhere.
  *
  * Source seams (verified against neural/src/app.src.jsx):
  *   - watchShort (:4095-4117) → expandClip fires short_watched {id} (:711); the first-look
@@ -21,9 +22,10 @@ import { whiteBeltHolder, CURRICULUM } from "./personas"
  *     only lesson_done emitter, :2442), _days/cardsToday (:849-853) and the bonus_pumped
  *     beat — whose ONLY emission site is noteCardDone (:853), making it a second
  *     study-credit sentinel alongside lesson_done.
- *   - belt-path rows (:2495-2508): one row per curriculum lesson ENTRY (belt/unit/lesson —
- *     NOT per unique deckKey), data-done="1" iff lessonDone(l.deckKey) (:2427, prep-driven).
- *     Units/checkpoints also carry data-done, so the census selector requires [data-lesson].
+ *   - v1.74 Challenges view: each unit's <details> summary renders "D of L lessons" with
+ *     D = live.filter(lessonDone).length — the SAME prep-driven predicate, per unit of the
+ *     SELECTED track (white by default for this persona). Summing D across the white
+ *     track's unit summaries is the rendered census; per-lesson done attributes are gone.
  *
  * Determinism (probe 3/3 green, ~2.5s each): land()'s built-in rigs (ai-skill/role/max-moves)
  * cover ALL ambient draws; optionsFor/sheet/watchShort/path render draw no RNG, and sim time
@@ -152,13 +154,30 @@ test("holder's film watch pumps odds but leaves prep, cardsToday, _days, both st
   expect(after.cardsToday, "cardsToday unchanged — a film rep is NOT a study rep").toBe(before.cardsToday)
   expect(after.days, "_days deep-equal — the daily history never heard about the watch").toEqual(before.days)
 
-  // ── the belt path agrees: the rendered done-census equals the PRE-watch predicate census.
-  //    toggleExplorer over the still-open expand sheet is fine; [data-lesson] scopes the
-  //    selector to lesson rows (units/checkpoints also carry data-done). ──
-  await page.evaluate(() => (window as any).__neural.toggleExplorer())
-  await j.expectBeat("path_opened")
-  const domCensus = await page.locator('[data-lesson][data-done="1"]').count()
-  expect(domCensus, "belt-path ✓-census identical to the pre-watch predicate census").toBe(censusBefore)
+  // ── the app predicate agrees: the post-watch census (all belts) is byte-identical ──
+  expect(await predicateCensus(page), "post-watch predicate census identical — zero stray credit").toBe(censusBefore)
 
-  expect(errors, "no pageerror across boot, landing, watch, and path open").toEqual([])
+  // ── the Challenges view agrees: the rendered white-track census (sum of each unit
+  //    summary's "D of L lessons") equals the same predicate computed over white's live
+  //    lessons. toggleExplorer over the still-open expand sheet is fine. ──
+  await page.evaluate(() => (window as any).__neural.toggleExplorer())
+  await j.expectBeat("challenges_opened")
+  const census = await page.evaluate(() => {
+    const a = (window as any).__neural
+    const white = a.curriculum.belts[0]
+    let predicate = 0
+    for (const u of white.units)
+      for (const l of u.lessons) if (a._lessonLive(l) && a.lessonDone(l.deckKey)) predicate++
+    let rendered = 0
+    document.querySelectorAll(".ng-challenge-group summary small").forEach((el) => {
+      const m = (el.textContent || "").match(/^(\d+) of \d+ lessons/)
+      if (m) rendered += parseInt(m[1], 10)
+    })
+    return { predicate, rendered, groups: document.querySelectorAll(".ng-challenge-group").length }
+  })
+  expect(census.groups, "the white track renders one group per unit").toBe(CURRICULUM.belts[0].units.length)
+  expect(census.rendered, "rendered white-track census equals the live predicate census").toBe(census.predicate)
+  expect(census.predicate, "white-track predicate untouched by the watch (persona seeds all of white)").toBeGreaterThan(0)
+
+  expect(errors, "no pageerror across boot, landing, watch, and challenges open").toEqual([])
 })

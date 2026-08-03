@@ -53,16 +53,17 @@ test("belt-ready: caught mid-test opens the panic drill, escape resumes the SAME
   await j.boot("/", { initialState: beltReady() })
   await j.land("Mount Top")
 
-  // ── Start the belt test from its READY path row (persona premise asserted first). The
-  //    roll seeder re-draws ai-skill/role/max-moves inside rollFromPosition, so re-rig them
-  //    BEFORE the click (land() only covered the intro roll's draws). ──
+  // ── Start the belt test from its READY capstone button (v1.74 UI; persona premise asserted
+  //    first). The roll seeder re-draws ai-skill/role/max-moves inside rollFromPosition, so
+  //    re-rig them BEFORE the click (land() only covered the intro roll's draws). ──
   await page.evaluate(() => (window as any).__neural.toggleExplorer())
-  const row = page.locator(`[data-belt-test="${WHITE.id}"]`).first()
-  expect(await row.getAttribute("data-test-state"), "beltReady persona: white test row is READY").toBe("ready")
+  const capBtn = page.locator(`[data-capstone="${WHITE.id}"] button`).first()
+  expect(await capBtn.isDisabled(), "beltReady persona: white capstone is OFFERED").toBe(false)
+  expect(await capBtn.textContent(), "beltReady persona: button reads Start capstone").toBe("Start capstone")
   await j.rig("ai-skill", [0.5])
   await j.rig("role", [0])
   await j.rig("max-moves", [0.5])
-  await row.click()
+  await capBtn.click()
   await j.advanceUntil("belt_test_start", 20000)
 
   const t0 = await page.evaluate((beltId: string) => {

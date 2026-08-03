@@ -1,4 +1,4 @@
-/* @hyperspace {"theme":"unlock-economy","L":"belt-ready","F":"persistence-reload","B":"persistence-reload"} @invariant "A burned belt-test attempt is durable economy: after a rigged loss the attempts counter reads exactly 1 and the row shows 'retry', and both survive a preserveStorage reload with belts.won still empty — the debit persists, the loss never half-records a win." */
+/* @hyperspace {"theme":"unlock-economy","L":"belt-ready","F":"persistence-reload","B":"persistence-reload"} @invariant "A burned capstone attempt is durable economy: after a rigged loss belts.attempts[white] reads exactly 1 and the capstone button stays offered for a retry, and both survive a preserveStorage reload with belts.won still empty — the debit persists, the loss never half-records a win." */
 import { test, expect } from "@playwright/test"
 import { journey } from "../dsl"
 import { beltReady, CURRICULUM } from "./personas"
@@ -6,11 +6,12 @@ import { beltReady, CURRICULUM } from "./personas"
 /**
  * READY → LOST → ATTEMPT SURVIVES RELOAD — the burned-attempt half of the unlock economy.
  *
- * A belt-READY player (all white units checkpointed, no belt won) starts the white belt test
- * and LOSES it by a rigged catch + defense-window expiry. The debit must be REAL and DURABLE:
- * attempts counts exactly 1 (live + in the stored blob), the path row flips ready→retry in the
- * same life, and ALL of it survives a preserveStorage reload — while belts.won stays EMPTY on
- * both sides of the reload (a loss must never half-record a win) and blue stays locked.
+ * A capstone-READY player (all white units checkpointed, nothing won) starts the white
+ * content capstone and LOSES it by a rigged catch + defense-window expiry. The debit must be
+ * REAL and DURABLE: attempts counts exactly 1 (live + in the stored blob), the capstone
+ * button stays offered for a retry in the same life, and ALL of it survives a preserveStorage
+ * reload — while belts.won stays EMPTY on both sides of the reload (a loss must never
+ * half-record a win) and blue's own capstone gate stays untouched by the white loss.
  *
  * Mechanism under test (source-verified at authoring, probe green twice — 1.2m/1.1m, zero
  * selector or rig iteration needed):
@@ -19,12 +20,14 @@ import { beltReady, CURRICULUM } from "./personas"
  *     then calls _flushSave() — the blob is already flushed synchronously at assert time.
  *   - _progressBlob() (:1114) serializes this.belts wholesale (attempts included);
  *     _loadProgress() (:1104) restores it via Object.assign of p.belts — the reload seam.
- *   - Path row state (:2521-2522): won ? "won" : !ready ? "locked" : attempts ? "retry" :
- *     "ready" — so ready→retry is a pure function of the persisted attempts counter.
+ *   - v1.74 Challenges UI: the belt-test path row (data-test-state ready/retry/locked) is
+ *     retired. The capstone button ([data-capstone] button) is the entry: disabled = !ready
+ *     || won — a LOSS changes neither, so the button stays enabled ("Start capstone") as the
+ *     retry affordance; the attempts counter itself lives only in belts.attempts.
  *
  * Novel vs core-016 (the only other attempts-burning spec): core-016 checks in-session
- * retry/attempts on the POINTS-EXPIRY branch only. The reload durability + won-stays-empty +
- * blue-still-locked postimage is unpinned by the existing corpus.
+ * attempts on the POINTS-EXPIRY branch only. The reload durability + won-stays-empty +
+ * blue-gate-untouched postimage is unpinned by the existing corpus.
  *
  * Determinism: land() rigs the intro roll's ambients; the belt-test roll seeder's ambient
  * draws (ai-skill/role/max-moves) are re-rigged before the row click — the authored budget/
@@ -34,16 +37,16 @@ import { beltReady, CURRICULUM } from "./personas"
  * No escape rig, no escape pick — the defense clock expires → tapped → endRound("lose").
  *
  * Author gotchas honored: outcome string is "lose" (not "loss"); attempts live under
- * belts.attempts (NOT top-level); the retry row's "attempt 2" label is TEXT — asserted only
- * via data-test-state + counters; the lost beat is read via beats.filter(...).pop(), and
- * indexOf ordering vs roll_end is safe (single roll_end in this journey).
+ * belts.attempts (NOT top-level); button state asserted via disabled + label, counters via
+ * app truth; the lost beat is read via beats.filter(...).pop(), and indexOf ordering vs
+ * roll_end is safe (single roll_end in this journey).
  */
 
 const WHITE = CURRICULUM.belts[0]
 const BLUE = CURRICULUM.belts[1]
 
-test("belt-ready loss burns exactly one durable attempt: retry row + attempts:1 + empty belts.won all survive a preserveStorage reload", async ({ page }) => {
-  test.skip(!BLUE, "curriculum has no second (blue) belt — the blue-still-locked postimage is gone")
+test("capstone-ready loss burns exactly one durable attempt: retry offer + attempts:1 + empty belts.won all survive a preserveStorage reload", async ({ page }) => {
+  test.skip(!BLUE, "curriculum has no second (blue) track — the blue-gate postimage is gone")
 
   const j = journey(page)
 
@@ -61,17 +64,19 @@ test("belt-ready loss burns exactly one durable attempt: retry row + attempts:1 
   expect(base.wonKeys, "persona premise: no belt won at boot").toEqual([])
   expect(base.attempts, "persona premise: zero attempts burned at boot").toBe(0)
 
-  // ── The row reads READY, then start the test (starting it closes the explorer) ──
+  // ── The capstone button reads READY (enabled + "Start capstone"), then start the test
+  //    (starting it closes the explorer) ──
   await page.evaluate(() => (window as any).__neural.toggleExplorer())
-  const row = page.locator(`[data-belt-test="${WHITE.id}"]`).first()
-  await expect(row, "white belt-test row rendered").toBeVisible()
-  expect(await row.getAttribute("data-test-state"), "row reads ready before the test").toBe("ready")
+  const capBtn = () => page.locator(`[data-capstone="${WHITE.id}"] button`).first()
+  await expect(capBtn(), "white capstone button rendered").toBeVisible()
+  expect(await capBtn().isDisabled(), "capstone offered — every unit checkpointed, nothing won").toBe(false)
+  expect(await capBtn().textContent(), "button reads Start capstone before the test").toBe("Start capstone")
 
   // belt-test roll seeder ambients (authored budget/role override them; rigging keeps zero Math.random)
   await j.rig("ai-skill", [0.5])
   await j.rig("role", [0])
   await j.rig("max-moves", [0.5])
-  await row.click()
+  await capBtn().click()
   await j.advanceUntil("belt_test_start", 20000)
   await j.nextHand(30000)
 
@@ -131,17 +136,20 @@ test("belt-ready loss burns exactly one durable attempt: retry row + attempts:1 
   expect(sameLife.storedAttempts, "stored blob already carries attempts:1 (synchronous flush)").toBe(1)
   expect(sameLife.storedWonKeys, "stored blob's belts.won still empty").toEqual([])
 
-  // ── Same life: the row flipped ready→retry (starting the test closed the panel — re-open) ──
+  // ── Same life: the capstone stays OFFERED (the retry affordance — a loss disables nothing;
+  //    starting the test closed the panel — re-open) ──
   await page.evaluate(() => (window as any).__neural.toggleExplorer())
-  await expect(row, "belt-test row rendered after the loss").toBeVisible()
-  expect(await row.getAttribute("data-test-state"), "row flips to retry in the same life").toBe("retry")
+  await expect(capBtn(), "capstone button rendered after the loss").toBeVisible()
+  expect(await capBtn().isDisabled(), "capstone still offered in the same life — the retry").toBe(false)
+  expect(await capBtn().textContent(), "the loss never minted 'Capstone cleared'").toBe("Start capstone")
 
   // ── Boot 2 (preserveStorage): the burned attempt is DURABLE economy ──
   await j.boot("/", { preserveStorage: true })
   await j.land("Mount Top")
   await page.evaluate(() => (window as any).__neural.toggleExplorer())
-  await expect(row, "belt-test row rendered after reload").toBeVisible()
-  expect(await row.getAttribute("data-test-state"), "row still reads retry after reload").toBe("retry")
+  await expect(capBtn(), "capstone button rendered after reload").toBeVisible()
+  expect(await capBtn().isDisabled(), "capstone still offered after reload").toBe(false)
+  expect(await capBtn().textContent(), "still Start capstone after reload — no half-recorded win").toBe("Start capstone")
 
   const post = await page.evaluate((whiteId) => {
     const a = (window as any).__neural
@@ -152,8 +160,11 @@ test("belt-ready loss burns exactly one durable attempt: retry row + attempts:1 
   }, WHITE.id)
   expect(post.attempts, "belts.attempts[white] still exactly 1 after reload — debited once, not re-burned, not refunded").toBe(1)
   expect(post.wonKeys, "belts.won still empty after reload — the loss never minted a belt").toEqual([])
+  // blue's own evidence gate is untouched by the white loss: its capstone still waits on
+  // ITS unit checkpoints (v1.74: tracks are open, capstones gate only on own evidence)
+  await page.locator(`.ng-track-card[data-track="${BLUE.id}"]`).click()
   expect(
-    await page.locator(`[data-belt="${BLUE.id}"]`).first().getAttribute("data-locked"),
-    "blue still locked after the lost test",
-  ).toBe("1")
+    await page.locator(`[data-capstone="${BLUE.id}"] button`).first().isDisabled(),
+    "blue capstone still gated by its own checkpoints after the white loss",
+  ).toBe(true)
 })

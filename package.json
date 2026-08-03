@@ -1,13 +1,13 @@
 {
   "name": "bjjgraph",
-  "version": "1.75.0",
+  "version": "1.75.1",
   "description": "BJJ knowledge graph and state machine",
   "scripts": {
     "postinstall": "cd source && npm install",
     "serve": "node scripts/dev-serve.mjs",
     "build:forward": "node scripts/build_forward_components.mjs",
-    "dev:neural": "node neural/build/build.mjs && python3 scripts/regenerate_neural_data.py && cp -r source/quartz/static/neural/. source/public/static/neural/ && mkdir -p source/public/static/neural/app && cp neural/dist/neural.js neural/dist/neural.css source/public/static/neural/app/ && echo 'neural refreshed (~seconds) — reload the browser'",
-    "dev:neural:app": "node neural/build/build.mjs && cp neural/dist/neural.js neural/dist/neural.css source/public/static/neural/app/ && echo 'app bundle refreshed (<1s) — reload the browser'",
+    "dev:neural": "node neural/build/build.mjs && python3 scripts/regenerate_neural_data.py && cp -r source/quartz/static/neural/. source/public/static/neural/ && mkdir -p source/public/static/neural/app && cp neural/dist/neural.js neural/dist/neural.css source/public/static/neural/app/ && echo 'neural refreshed (~seconds) \u2014 reload the browser'",
+    "dev:neural:app": "node neural/build/build.mjs && cp neural/dist/neural.js neural/dist/neural.css source/public/static/neural/app/ && echo 'app bundle refreshed (<1s) \u2014 reload the browser'",
     "dev": "npm run build && npm run serve",
     "validate:json": "python3 scripts/validate_json.py --all",
     "validate:graph": "python3 scripts/validate_graph_integrity.py",

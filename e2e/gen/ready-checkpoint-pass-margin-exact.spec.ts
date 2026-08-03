@@ -14,9 +14,10 @@ import { beltReady, CURRICULUM } from "./personas"
  *     Fail branch emits checkpoint_failed {unit, firstTry, of, weakest} and never writes
  *     this.units; pass branch writes units[uk].checkpoint, emits checkpoint_passed +
  *     unit_done, and _flushSave()s — so the storage assert below makes NO manual flush.
- *   - Seed = beltReady() minus units[UK]: lessons stay prep/rec=3 (row clickable), prior
- *     units keep checkpoint:true so uLocked=false (uLocked = belt locked || prev unit not
- *     done; unitComplete = lessons done AND units[uk].checkpoint, app.src.jsx:2429).
+ *   - Seed = beltReady() minus units[UK]: lessons stay prep/rec=3, so the v1.74 checkpoint
+ *     button is ENABLED (evidence gate satisfied) while uncleared. The target is the LAST
+ *     white unit, whose <details> group is collapsed by default — the spec opens it before
+ *     each click (only the first unit's group opens on render).
  *   - Both correct AND wrong MC answers resolve synchronously in test mode (app.src.jsx:3406
  *     `if (!this.isTest() && !this._checkpoint)` skips the 600ms setTimeout → onDone →
  *     _checkpointAnswer). Every quiz card presents as MC on this unit's decks (no
@@ -88,24 +89,26 @@ test("pass line is exact: pass-1 correct fails, a retake at exactly pass (wrong 
   await j.boot("/", { initialState: seed })
   await j.land("Mount Top")
 
-  // ── pre-state: the target unit is reachable (prior units done) but NOT done ──
+  // ── pre-state: the target checkpoint is enabled (lessons at goal) but NOT cleared ──
+  const openGroup = () =>
+    page
+      .locator(`.ng-challenge-group:has([data-checkpoint="${UK}"])`)
+      .first()
+      .evaluate((el) => ((el as HTMLDetailsElement).open = true))
   await rigSitting(j, 100)
   await page.evaluate(() => (window as any).__neural.toggleExplorer())
   await expect(page.locator("[data-view]").first()).toBeVisible()
   expect(
-    await page.locator(`[data-unit="${UK}"]`).first().getAttribute("data-done"),
-    "unit row starts not-done",
-  ).toBeNull()
+    await page.locator(`[data-checkpoint="${UK}"]`).first().textContent(),
+    "checkpoint starts not-cleared",
+  ).not.toContain("cleared")
   expect(
-    await page.locator(`[data-checkpoint="${UK}"]`).first().getAttribute("data-done"),
-    "checkpoint row starts not-done",
-  ).toBeNull()
-  expect(
-    await page.locator(`[data-unit="${UK}"]`).first().getAttribute("data-locked"),
-    "unit row unlocked — every prior unit complete",
-  ).toBeNull()
+    await page.locator(`[data-checkpoint="${UK}"]`).first().isDisabled(),
+    "checkpoint ENABLED — every lesson at goal, the evidence gate is satisfied",
+  ).toBe(false)
 
   // ── SITTING 1: one correct short of the line (pass-1 correct, the rest wrong) ──
+  await openGroup()
   await page.locator(`[data-checkpoint="${UK}"]`).first().click()
   await j.advance(400)
   await j.expectBeat("checkpoint_start")
@@ -157,13 +160,10 @@ test("pass line is exact: pass-1 correct fails, a retake at exactly pass (wrong 
   await page.evaluate(() => (window as any).__neural.toggleExplorer())
   await expect(page.locator("[data-view]").first()).toBeVisible()
   expect(
-    await page.locator(`[data-unit="${UK}"]`).first().getAttribute("data-done"),
-    "unit row still not-done after the fail",
-  ).toBeNull()
-  expect(
-    await page.locator(`[data-checkpoint="${UK}"]`).first().getAttribute("data-done"),
-    "checkpoint row still not-done after the fail",
-  ).toBeNull()
+    await page.locator(`[data-checkpoint="${UK}"]`).first().textContent(),
+    "checkpoint still not-cleared after the fail",
+  ).not.toContain("cleared")
+  await openGroup() // fresh render — the group collapsed again
   await page.locator(`[data-checkpoint="${UK}"]`).first().click()
   await j.advance(400)
   const starts = (await j.beats()).filter((b: any) => b.beat === "checkpoint_start") as any[]
@@ -208,15 +208,11 @@ test("pass line is exact: pass-1 correct fails, a retake at exactly pass (wrong 
   expect(afterPass.stored, "pass branch _flushSave persisted the pass to storage").toBe(true)
   expect(afterPass.ckptOpen, "quiz resolved and cleared — no dangling state").toBe(false)
 
-  // ── the path shows it: both rows flip to done at exactly the pass line ──
+  // ── the challenges view shows it: the button flips to cleared at exactly the pass line ──
   await page.evaluate(() => (window as any).__neural.toggleExplorer())
   await expect(page.locator("[data-view]").first()).toBeVisible()
   expect(
-    await page.locator(`[data-unit="${UK}"]`).first().getAttribute("data-done"),
-    "unit row done at exactly the pass line",
-  ).toBe("1")
-  expect(
-    await page.locator(`[data-checkpoint="${UK}"]`).first().getAttribute("data-done"),
-    "checkpoint row done at exactly the pass line",
-  ).toBe("1")
+    await page.locator(`[data-checkpoint="${UK}"]`).first().textContent(),
+    "checkpoint reads cleared at exactly the pass line",
+  ).toContain("cleared")
 })

@@ -1,4 +1,4 @@
-/* @hyperspace {"theme":"unlock-economy","L":"lapsed-returner","F":"settings","B":"economy-math"} @invariant "Frame exclusion shrinks the unit-done denominator: in nogi, a unit containing a gi-only lesson reaches unit_done with that lesson at prep=0 (row data-live='0'), because the excluded lesson is out of the done-math — completion is achievable entirely through nogi-viable lessons plus the checkpoint." */
+/* @hyperspace {"theme":"unlock-economy","L":"lapsed-returner","F":"settings","B":"economy-math"} @invariant "Frame exclusion shrinks the unit-done denominator: in nogi, a unit containing a gi-only lesson reaches unit_done with that lesson at prep=0 (it is unrendered and out of the done-math); in gi the SAME career is refused — the checkpoint button disables and a direct startCheckpoint call emits nothing, because the untouched lesson re-enters the denominator." */
 import { test, expect, type Page } from "@playwright/test"
 import { journey, Journey } from "../dsl"
 import { lapsedReturner, CURRICULUM } from "./personas"
@@ -15,17 +15,19 @@ import { lapsedReturner, CURRICULUM } from "./personas"
  *   - unitComplete (2429-2432): live = lessons.filter(_lessonLive); done = live.length>0 &&
  *     live.every(lessonDone) && units[uk].checkpoint — the gi-only lesson is OUT of the
  *     conjunction in nogi (_lessonLive 2428: (frames||[gi,nogi]).includes(giMode)).
- *   - startCheckpoint (3462-3466): re-checks the SAME live set; in gi the untouched gi-only
- *     lesson re-enters it undone → "Checkpoint locked" + return (no beat, _checkpoint stays
- *     null) — the counterfactual's teeth. On success it CLOSES the explorer (3479), so the
- *     post-pass path assertions re-toggleExplorer first.
- *   - _checkpointAnswer pass branch (3504+): firstTry >= pass → units[uk].checkpoint=true,
+ *   - startCheckpoint: re-checks the SAME live set; in gi the untouched gi-only lesson
+ *     re-enters it undone → "Checkpoint evidence needed" + return (no beat, _checkpoint
+ *     stays null) — the counterfactual's teeth. In the v1.74 UI the gi-frame button is
+ *     ALSO disabled (done < live.length), so the deep gate is probed by a direct
+ *     startCheckpoint call. On success it CLOSES the explorer, so the post-pass
+ *     assertions re-toggleExplorer first.
+ *   - _checkpointAnswer pass branch: firstTry >= pass → units[uk].checkpoint=true,
  *     checkpoint_passed + unit_done beats, _flushSave().
- *   - SEED GOTCHA: lapsedReturner() alone leaves the target belt LOCKED — renderBeltPath
- *     uLocked = !beltUnlocked(bi) || !prevUnitDone (2489) and a locked checkpoint row has a
- *     NULL click handler (2511). The seed tops up: every prior belt won, every earlier unit
- *     in the target belt fully done, ONLY the nogi-viable target lessons drilled to goal
- *     (goal = min(3, deckSize) <= 3, 2426).
+ *   - v1.74 Challenges UI: only the SELECTED track renders (select the hit belt's track
+ *     card first); gi-only lessons are UNRENDERED in nogi (the list shares _lessonLive
+ *     with the done-math); the hit unit's <details> group is collapsed by default. Locks
+ *     are retired — the seed's prior-belt victories are a harmless holdover; earlier
+ *     units in the target belt stay fully done so the career is authentic.
  *
  * Determinism: rng(tag) falls back to Math.random on a dry queue, so queue DEPTH is the
  * determinism — checkpoint-pick cards+2, mc-pick 260, mc-shuffle 80 (probe-measured
@@ -151,31 +153,36 @@ test("nogi: unit_done lands with the gi-only lesson untouched at prep=0 — it i
 
   await page.evaluate(() => (window as any).__neural.toggleExplorer())
   await expect(page.locator("[data-view]").first()).toBeVisible()
-  await j.expectBeat("path_opened")
+  await j.expectBeat("challenges_opened")
+  // only the SELECTED track renders its curriculum (v1.74) — select the hit belt's track
+  await page.locator(`.ng-track-card[data-track="${H.belt.id}"]`).click()
 
-  // ── BEFORE: the excluded lesson is dead + undone; the unit is reachable but unsat ──
-  const giRow = page.locator(`[data-lesson="${H.giOnlyKeys[0]}"]`).first()
-  expect(await giRow.getAttribute("data-live"), "gi-only row dead in nogi").toBe("0")
-  expect(await giRow.getAttribute("aria-disabled"), "gi-only row disabled in nogi").toBe("true")
-  expect(await giRow.getAttribute("data-done"), "gi-only lesson NOT done — prep=0, never drilled").toBeNull()
+  // ── BEFORE: the excluded lesson is UNRENDERED; the checkpoint is enabled but unsat ──
   expect(
-    await page.locator(`[data-lesson="${H.nogiKeys[0]}"]`).first().getAttribute("data-done"),
-    "nogi-viable sibling drilled to goal — the live half of the denominator is satisfied",
-  ).toBe("1")
+    await page.locator(`[data-lesson="${H.giOnlyKeys[0]}"]`).count(),
+    "gi-only lesson unrendered in nogi — dropped from the live list",
+  ).toBe(0)
   expect(
-    await page.locator(`[data-unit="${H.uk}"]`).first().getAttribute("data-locked"),
-    "target unit reachable — prior belts won + earlier units done",
-  ).toBeNull()
-  expect(await page.locator(`[data-unit="${H.uk}"]`).first().getAttribute("data-done"), "unit starts not-done").toBeNull()
+    await page.locator(`[data-lesson="${H.nogiKeys[0]}"]`).count(),
+    "nogi-viable sibling renders — the live half of the denominator is present",
+  ).toBe(1)
   expect(
-    await page.locator(`[data-checkpoint="${H.uk}"]`).first().getAttribute("data-done"),
-    "checkpoint starts not-done",
-  ).toBeNull()
+    await page.locator(`[data-checkpoint="${H.uk}"]`).first().isDisabled(),
+    "checkpoint ENABLED — every LIVE lesson at goal (the shrunk denominator is satisfied)",
+  ).toBe(false)
+  expect(
+    await page.locator(`[data-checkpoint="${H.uk}"]`).first().textContent(),
+    "checkpoint starts not-cleared",
+  ).not.toContain("cleared")
   const before = await unitTruth(page)
   expect(before.giPrep, "gi-only prep is 0 before the sitting").toBe(0)
   expect(before.complete, "unitComplete false while the checkpoint is unsat").toBe(false)
 
-  // ── SIT the checkpoint through the real row; picks are pre-drawn at start ──
+  // ── SIT the checkpoint through the real button; picks are pre-drawn at start ──
+  await page
+    .locator(`.ng-challenge-group:has([data-checkpoint="${H.uk}"])`)
+    .first()
+    .evaluate((el) => ((el as HTMLDetailsElement).open = true)) // hit unit's group is collapsed
   await page.locator(`[data-checkpoint="${H.uk}"]`).first().click()
   await j.advance(400)
   await j.expectBeat("checkpoint_start")
@@ -221,17 +228,18 @@ test("nogi: unit_done lands with the gi-only lesson untouched at prep=0 — it i
   expect(after.complete, "unitComplete true in nogi — the live-set conjunction is satisfied").toBe(true)
   expect(after.passRecorded && after.storedPass, "checkpoint pass recorded live + persisted").toBe(true)
 
-  // ── The path shows it (startCheckpoint closed the explorer — reopen for the re-render) ──
+  // ── The challenges view shows it (startCheckpoint closed the explorer — reopen; the
+  //    selected track persisted) ──
   await page.evaluate(() => (window as any).__neural.toggleExplorer())
   await expect(page.locator("[data-view]").first()).toBeVisible()
-  expect(await page.locator(`[data-unit="${H.uk}"]`).first().getAttribute("data-done"), "unit row done").toBe("1")
   expect(
-    await page.locator(`[data-checkpoint="${H.uk}"]`).first().getAttribute("data-done"),
-    "checkpoint row done",
-  ).toBe("1")
-  expect(await giRow.getAttribute("data-live"), "gi-only row STILL dead after unit_done").toBe("0")
-  expect(await giRow.getAttribute("aria-disabled"), "gi-only row STILL disabled").toBe("true")
-  expect(await giRow.getAttribute("data-done"), "gi-only row STILL not done — skipped, not credited").toBeNull()
+    await page.locator(`[data-checkpoint="${H.uk}"]`).first().textContent(),
+    "checkpoint reads cleared",
+  ).toContain("cleared")
+  expect(
+    await page.locator(`[data-lesson="${H.giOnlyKeys[0]}"]`).count(),
+    "gi-only lesson STILL unrendered after unit_done — skipped, not credited",
+  ).toBe(0)
 })
 
 test("gi counterfactual: the SAME career is refused at the checkpoint — the gi-only lesson re-enters the denominator", async ({ page }) => {
@@ -245,20 +253,27 @@ test("gi counterfactual: the SAME career is refused at the checkpoint — the gi
 
   await page.evaluate(() => (window as any).__neural.toggleExplorer())
   await expect(page.locator("[data-view]").first()).toBeVisible()
-  await j.expectBeat("path_opened")
+  await j.expectBeat("challenges_opened")
+  await page.locator(`.ng-track-card[data-track="${H.belt.id}"]`).click()
 
-  // In gi the gi-only row is ALIVE and undone — it re-enters the done-math as an unsat member.
-  const giRow = page.locator(`[data-lesson="${H.giOnlyKeys[0]}"]`).first()
-  expect(await giRow.getAttribute("data-live"), "gi-only row alive in gi").toBe("1")
-  expect(await giRow.getAttribute("aria-disabled"), "gi-only row enabled in gi").toBeNull()
-  expect(await giRow.getAttribute("data-done"), "gi-only lesson undone — prep=0").toBeNull()
+  // In gi the gi-only lesson RENDERS and is undone — it re-enters the done-math as an unsat
+  // member, so the checkpoint button itself disables (the v1.74 styling-level gate).
   expect(
-    await page.locator(`[data-unit="${H.uk}"]`).first().getAttribute("data-locked"),
-    "unit row reachable in gi too — the refusal is the lesson gate, not the unlock chain",
-  ).toBeNull()
+    await page.locator(`[data-lesson="${H.giOnlyKeys[0]}"]`).count(),
+    "gi-only lesson renders in gi — back in the live list",
+  ).toBe(1)
+  expect(
+    await page.locator(`[data-checkpoint="${H.uk}"]`).first().isDisabled(),
+    "checkpoint DISABLED in gi — the denominator now includes the untouched lesson",
+  ).toBe(true)
 
-  // ── CLICK: the row has a live handler, but startCheckpoint's live-set re-check refuses ──
-  await page.locator(`[data-checkpoint="${H.uk}"]`).first().click()
+  // ── THE DEEP GATE: an ungated direct startCheckpoint call is refused inside — the same
+  //    live-set re-check the button's disabled state mirrors ──
+  await page.evaluate(([beltId, unitId]) => {
+    const a = (window as any).__neural
+    const belt = a.curriculum.belts.find((b: any) => b.id === beltId)
+    a.startCheckpoint(beltId, belt.units.find((u: any) => u.id === unitId))
+  }, [H.belt.id, H.unit.id] as const)
   await j.advance(400)
   const names = ((await j.beats()) as any[]).map((b) => b.beat)
   expect(names, "no checkpoint_start — the sitting never begins in gi").not.toContain("checkpoint_start")
@@ -274,7 +289,7 @@ test("gi counterfactual: the SAME career is refused at the checkpoint — the gi
   expect(truth.complete, "unitComplete false in gi — same blob, bigger denominator").toBe(false)
   expect(truth.passRecorded || truth.storedPass, "no pass record minted live or persisted").toBe(false)
   expect(
-    await page.locator(`[data-unit="${H.uk}"]`).first().getAttribute("data-done"),
-    "unit row stays not-done in gi",
-  ).toBeNull()
+    await page.locator(`[data-checkpoint="${H.uk}"]`).first().textContent(),
+    "checkpoint stays uncleared in gi",
+  ).not.toContain("cleared")
 })

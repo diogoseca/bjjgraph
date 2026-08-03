@@ -1,4 +1,4 @@
-/* @hyperspace {"theme":"unlock-economy","L":"belt-ready","F":"settings","B":"guard-limit"} @invariant "In nogi the checkpoint quiz never draws from a gi-only lesson deck: every quiz card's source deckKey belongs to the unit's nogi-viable lessons and zero cards come from the frames-gi-only deck — the quiz pool honors the same frame exclusion as the row's done-math." */
+/* @hyperspace {"theme":"unlock-economy","L":"belt-ready","F":"settings","B":"guard-limit"} @invariant "In nogi the checkpoint quiz never draws from a gi-only lesson deck: the gi-only lesson drops out of the rendered lesson list and the quiz pool alike — every pre-drawn pick's deckKey belongs to the unit's nogi-viable lessons, zero come from the frames-gi-only deck, and the deal redistributes to the authored count." */
 import { test, expect } from "@playwright/test"
 import { journey } from "../dsl"
 import { beltReady, CURRICULUM } from "./personas"
@@ -16,10 +16,13 @@ import { beltReady, CURRICULUM } from "./personas"
  *     are PRE-DRAWN at start via rng("checkpoint-pick") into _checkpoint.picks — so the
  *     census below reads the ENTIRE queue with no answering.
  *   - _lessonLive (2428): (l.frames||["gi","nogi"]).includes(giMode) — frames:["gi"] is dead
- *     in nogi; unitComplete (2429-2432) iterates the SAME live set (the shared frame gate).
- *   - setGiMode("nogi") (2634): the settings rail; renderBeltPath (2511) wires the checkpoint
- *     row's click ONLY when !uLocked, and beltUnlocked (2434) needs the previous belt WON —
- *     hence the seed adds every prior belt's victory (authentic belt-ready-at-purple life).
+ *     in nogi; unitComplete iterates the SAME live set (the shared frame gate).
+ *   - v1.74 Challenges UI: challengeCurriculumElement renders ONLY the live lessons — a
+ *     gi-only lesson has NO button at all in nogi (the rendered list and the quiz pool
+ *     share _lessonLive). The checkpoint button is enabled because every LIVE lesson is at
+ *     goal. Tracks are open (locks retired); the prior-belt victories in the seed are a
+ *     harmless holdover. The hit unit's <details> group is collapsed by default — opened
+ *     before the click.
  *   - _checkpointShow (3492) sets _posKey = pick.key; _mcBlock (3382) emits mc_shown{deckKey}
  *     — the UI-walks-the-queue rail.
  *
@@ -105,28 +108,32 @@ test("nogi checkpoint pool draws only from nogi-viable decks — the gi-only dec
 
   await page.evaluate(() => (window as any).__neural.toggleExplorer())
   await expect(page.locator("[data-view]").first()).toBeVisible()
-  await j.expectBeat("path_opened")
+  await j.expectBeat("challenges_opened")
+  // only the SELECTED track renders its curriculum (v1.74) — select the hit belt's track
+  await page.locator(`.ng-track-card[data-track="${H.belt.id}"]`).click()
 
-  // ── Precondition: the frame gate discriminates in the PATH — gi-only rows dead, sibling alive ──
+  // ── Precondition: the frame gate discriminates in the RENDER — gi-only lessons have no
+  //    button at all in nogi, the nogi-viable sibling renders ──
   for (const k of H.giOnlyKeys) {
-    const row = page.locator(`[data-lesson="${k}"]`).first()
-    expect(await row.getAttribute("data-live"), `gi-only row ${k} dead in nogi`).toBe("0")
-    expect(await row.getAttribute("aria-disabled"), `gi-only row ${k} disabled in nogi`).toBe("true")
+    expect(
+      await page.locator(`[data-lesson="${k}"]`).count(),
+      `gi-only lesson ${k} unrendered in nogi`,
+    ).toBe(0)
   }
   expect(
-    await page.locator(`[data-lesson="${H.nogiKeys[0]}"]`).first().getAttribute("data-live"),
-    "nogi-viable sibling stays alive — the gate is per-frame, not blanket",
-  ).toBe("1")
+    await page.locator(`[data-lesson="${H.nogiKeys[0]}"]`).count(),
+    "nogi-viable sibling stays rendered — the gate is per-frame, not blanket",
+  ).toBe(1)
 
-  // ── Reachable + unsat: unit row unlocked (priors done), checkpoint not yet passed ──
+  // ── Reachable + unsat: checkpoint enabled (every LIVE lesson at goal), not yet passed ──
   expect(
-    await page.locator(`[data-unit="${H.uk}"]`).first().getAttribute("data-locked"),
-    "target unit row unlocked — belt won chain + prior units complete",
-  ).toBeNull()
+    await page.locator(`[data-checkpoint="${H.uk}"]`).first().isDisabled(),
+    "checkpoint ENABLED — the live set is fully drilled",
+  ).toBe(false)
   expect(
-    await page.locator(`[data-checkpoint="${H.uk}"]`).first().getAttribute("data-done"),
-    "checkpoint row starts not-done",
-  ).toBeNull()
+    await page.locator(`[data-checkpoint="${H.uk}"]`).first().textContent(),
+    "checkpoint starts not-cleared",
+  ).not.toContain("cleared")
 
   // ── The shared gate: app's _lessonLive set === curriculum-derived nogi-viable keys — the ──
   // ── SAME live set unitComplete's done-math iterates is what the quiz pool will filter on. ──
@@ -157,7 +164,11 @@ test("nogi checkpoint pool draws only from nogi-viable decks — the gi-only dec
   expect(pools.giOnly, "gi-only deck HAS quizzable cards — the exclusion does real work, never vacuous").toBeGreaterThan(0)
   expect(pools.nogi, "nogi-viable decks cover the authored count — the deal can redistribute, not shrink").toBeGreaterThanOrEqual(H.cp.cards)
 
-  // ── SIT: click the real checkpoint row; picks are pre-drawn at start ──
+  // ── SIT: click the real checkpoint button; picks are pre-drawn at start ──
+  await page
+    .locator(`.ng-challenge-group:has([data-checkpoint="${H.uk}"])`)
+    .first()
+    .evaluate((el) => ((el as HTMLDetailsElement).open = true)) // hit unit's group is collapsed
   await page.locator(`[data-checkpoint="${H.uk}"]`).first().click()
   await j.advance(400)
   await j.expectBeat("checkpoint_start")

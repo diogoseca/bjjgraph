@@ -58,12 +58,13 @@ test("frozen belt-test hand: expiry_warning → auto_pick narrated, exactly one 
   await j.rig("ai-skill", [0.5])
   await j.rig("role", [0])
 
-  // ── Start the test from the path row (starting it closes the explorer) ──
+  // ── Start the test from the capstone button (v1.74 UI; starting it closes the explorer) ──
   await page.evaluate(() => (window as any).__neural.toggleExplorer())
-  const row = page.locator(`[data-belt-test="${WHITE.id}"]`).first()
-  await expect(row, "white belt-test row rendered").toBeVisible()
-  expect(await row.getAttribute("data-test-state"), "persona premise: row reads ready (no win, no burn)").toBe("ready")
-  await row.click()
+  const capBtn = page.locator(`[data-capstone="${WHITE.id}"] button`).first()
+  await expect(capBtn, "white capstone button rendered").toBeVisible()
+  expect(await capBtn.isDisabled(), "persona premise: capstone offered (ready, nothing won)").toBe(false)
+  expect(await capBtn.textContent(), "persona premise: button reads Start capstone").toBe("Start capstone")
+  await capBtn.click()
   await j.advanceUntil("belt_test_start", 20000)
   const started = ((await j.beats()) as any[]).filter((b) => b.beat === "belt_test_start").pop()
   expect(started.belt, "the started test is white's").toBe(WHITE.id)

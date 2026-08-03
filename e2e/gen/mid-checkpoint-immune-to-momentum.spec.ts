@@ -89,9 +89,14 @@ test("right AND wrong checkpoint answers leave the combo meter at ×1 — zero c
   })
   expect(pre.combo, "drilling never touched the meter").toBe(1)
 
-  // ── open the path and start unit 2's checkpoint ──
+  // ── open the challenges view and start unit 2's checkpoint (its <details> group is
+  //    collapsed by default — only the first unit's group opens, v1.74) ──
   await page.evaluate(() => (window as any).__neural.toggleExplorer())
   await expect(page.locator("[data-view]").first()).toBeVisible()
+  await page
+    .locator(`.ng-challenge-group:has([data-checkpoint="${UK}"])`)
+    .first()
+    .evaluate((el) => ((el as HTMLDetailsElement).open = true))
   await page.locator(`[data-checkpoint="${UK}"]`).first().click()
   await j.advance(400)
   await j.expectBeat("checkpoint_start")

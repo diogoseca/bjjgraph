@@ -15,10 +15,11 @@ import { whiteBeltHolder, CURRICULUM } from "./personas"
  *     unit.lessons' decks (mcClip-able cards); each pick = {card, key}. There is no
  *     cross-unit or mastery-weighted source — the blob foil can only leak if that loop
  *     regresses.
- *   - lessonDone gate (:3466) bails with a "Checkpoint locked" toast unless every live
+ *   - lessonDone gate bails with a "Checkpoint evidence needed" toast unless every live
  *     u1 lesson is drilled to goal — so the seed adds prep=3 AND rec=3 for u1's 6 decks
- *     on top of whiteBeltHolder(); _deckGoal (:2426) = min(3, deckSize), so 3 always
- *     suffices.
+ *     on top of whiteBeltHolder(); _deckGoal = min(3, deckSize), so 3 always suffices.
+ *     (v1.74: the same gate renders as the checkpoint button's disabled state; blue u1 is
+ *     its track's FIRST unit, so its <details> group is open once the blue track is selected.)
  *   - _checkpointShow (:3477+) presents each pick on the drill surface with
  *     _posKey = pick.key — corroborating per card that what the USER faces is the
  *     picked deck, not just what the internal queue claims.
@@ -103,17 +104,19 @@ test("blue u1 checkpoint pool is pure: every pick from u1's own decks, zero whit
   await j.rig("mc-pick", seq(21, 220))
   await j.rig("mc-shuffle", seq(42, 60))
 
-  // ── open the path and start the quiz from the REAL checkpoint row ──
+  // ── open the challenges view, select the BLUE track (only the selected track renders its
+  //    curriculum, v1.74), and start the quiz from the REAL checkpoint button ──
   await page.evaluate(() => (window as any).__neural.toggleExplorer())
   await expect(page.locator("[data-view]").first()).toBeVisible()
+  await page.locator(`.ng-track-card[data-track="${BLUE.id}"]`).click()
   expect(
-    await page.locator(`[data-unit="${U1_KEY}"]`).first().getAttribute("data-locked"),
-    "blue u1 unlocked for a white-belt holder (precondition)",
-  ).toBeNull()
+    await page.locator(`[data-checkpoint="${U1_KEY}"]`).first().isDisabled(),
+    "blue u1 checkpoint ENABLED — the seeded drills satisfy the evidence gate (precondition)",
+  ).toBe(false)
   expect(
-    await page.locator(`[data-checkpoint="${U1_KEY}"]`).first().getAttribute("data-done"),
+    await page.locator(`[data-checkpoint="${U1_KEY}"]`).first().textContent(),
     "checkpoint not yet passed",
-  ).toBeNull()
+  ).not.toContain("cleared")
   await page.locator(`[data-checkpoint="${U1_KEY}"]`).first().click() // auto-closes the explorer
   await j.advance(400)
   await j.expectBeat("checkpoint_start")

@@ -1,11 +1,13 @@
-/* @hyperspace {"theme":"unlock-economy","L":"curriculum-mid","F":"option-tray-sheet","B":"cross-feature"} @invariant "JIT sheet grades and lesson drills are the same prep ledger, and locks do not firewall the credit: three JIT grades on a technique whose deckKey is a LOCKED unit's lesson push prep[key]>=goal so that lesson row renders data-done='1' inside its still-locked unit, while the unit itself stays incomplete (no unit_done)." */
+/* @hyperspace {"theme":"unlock-economy","L":"curriculum-mid","F":"option-tray-sheet","B":"cross-feature"} @invariant "JIT sheet grades and lesson drills are the same prep ledger: three JIT grades on a technique whose deckKey is a not-yet-studied unit's lesson push prep[key]>=goal so lessonDone crosses and exactly one lesson_done names that unit — while the unit itself stays incomplete (no unit_done, no checkpoint record, checkpoint button still evidence-gated)." */
 import { test, expect } from "@playwright/test"
 import { journey } from "../dsl"
 import { curriculumMid, CURRICULUM } from "./personas"
 
 /**
- * CROSS-FEATURE LEDGER: the in-sheet JIT micro-drill and the Belt Path lesson rows read/write
- * ONE prep ledger, and curriculum locks gate ACTIONS (row clicks), never the CREDIT.
+ * CROSS-FEATURE LEDGER: the in-sheet JIT micro-drill and the Challenges lesson buttons
+ * read/write ONE prep ledger — JIT credit crosses lessonDone, yet the unit's checkpoint
+ * evidence gate stays exactly as strict (v1.74: locks are retired; the checkpoint button's
+ * disabled state is the gate).
  *
  * Mechanism under test (neural/src/app.src.jsx):
  *   - :1561-1601 — the expand sheet's JIT block keys on the technique's OWN deck
@@ -15,46 +17,47 @@ import { curriculumMid, CURRICULUM } from "./personas"
  *   - :840-853 — noteCardDone bumps sharpness (+0.10 flat), calls _maybeLessonDone, and
  *     emits bonus_pumped {deck_key} once per DISTINCT question (cardDone dedup) — the JIT
  *     cycles _jitIdx so 3 grades = 3 distinct cards = exactly 3 beats.
- *   - :2426-2427 — lessonDone(key) = prep[key] >= _deckGoal(key) = min(3, deckSize).
- *     Prep-only and LOCK-BLIND: no lock check anywhere in the ledger math.
- *   - :2436-2443 — _maybeLessonDone fires lesson_done {deckKey, unit, belt} at the crossing —
- *     THROUGH the lock (no uLocked consult) — once per life (_lessonBeatFired).
- *   - :2495-2508 — renderBeltPath stamps lesson data-done="1" from lessonDone() regardless of
- *     uLocked; the lock only nulls the row's onClick (:2503) and stamps unit data-locked.
- *   - unit_done exists ONLY in completeCheckpoint (:2461) and checkpoint pass (:3508), so a
- *     lesson completed inside a locked unit must leave the unit row undone and the stream
+ *   - lessonDone(key) = prep[key] >= _deckGoal(key) = min(3, deckSize). Prep-only: no
+ *     progress/render check anywhere in the ledger math.
+ *   - _maybeLessonDone fires lesson_done {deckKey, unit, belt} at the crossing — once per
+ *     life (_lessonBeatFired) — regardless of where the credit came from.
+ *   - v1.74 Challenges UI: lesson buttons carry no done attribute; the unit's evidence
+ *     gate is the checkpoint button's disabled state (done < live.length) in
+ *     challengeCurriculumElement.
+ *   - unit_done exists ONLY in completeCheckpoint and the checkpoint pass branch, so a
+ *     lesson completed by JIT credit must leave the unit incomplete and the stream
  *     unit_done-free.
- * Lock lineage under curriculumMid: U0 done (checkpoint seeded), U1 the half-drilled frontier
- * (no checkpoint) → every unit at index >= 2 is sequentially locked; the unit that carries the
- * Mount-Top lesson decks sits deep in that locked tail (index 4, "mount-top") yet its technique
- * decks are exactly what the Mount Top hand deals.
+ * Seed lineage under curriculumMid: U0 done (checkpoint seeded), U1 half-drilled; every unit
+ * at index >= 2 is untouched (prep 0) — the unit that carries the Mount-Top lesson decks sits
+ * in that untouched tail (index 4, "mount-top") yet its technique decks are exactly what the
+ * Mount Top hand deals.
  * Rigs: none beyond land()'s built-ins (ai-skill/role/max-moves) — we never commit, and the
  * clock drains only 1.8s across three advance(600)s while grades refund +5s (2×2500ms, capped),
  * so no resolve/outcome/auto-pick draw ever occurs.
  */
 
 const WHITE: any = CURRICULUM.belts[0]
-// the locked unit is FOUND by content (the unit whose lessons include the Mount Top position
-// deck), never hardcoded by index — but its lock depends on it sitting past the frontier
-const LOCKED_UNIT: any = WHITE.units.find((u: any) => u.lessons.some((l: any) => l.deckKey === "Mount|Top"))
-const LOCKED_IDX = WHITE.units.indexOf(LOCKED_UNIT)
-const UK = LOCKED_UNIT ? `${WHITE.id}/${LOCKED_UNIT.id}` : ""
-const LESSON_KEYS: string[] = LOCKED_UNIT ? LOCKED_UNIT.lessons.map((l: any) => l.deckKey) : []
+// the target unit is FOUND by content (the unit whose lessons include the Mount Top position
+// deck), never hardcoded by index — its prep-0 premise depends on it sitting past the seed
+const TARGET_UNIT: any = WHITE.units.find((u: any) => u.lessons.some((l: any) => l.deckKey === "Mount|Top"))
+const TARGET_IDX = WHITE.units.indexOf(TARGET_UNIT)
+const UK = TARGET_UNIT ? `${WHITE.id}/${TARGET_UNIT.id}` : ""
+const LESSON_KEYS: string[] = TARGET_UNIT ? TARGET_UNIT.lessons.map((l: any) => l.deckKey) : []
 
-test("three JIT grades complete a LOCKED unit's lesson through the lock — unit stays locked and incomplete", async ({
+test("three JIT grades complete a not-yet-studied unit's lesson — unit stays incomplete and gated", async ({
   page,
 }) => {
   // ── curriculum facts the journey leans on — fail loudly here if the corpus shifts ──
-  expect(LOCKED_UNIT, "a white unit carries the Mount|Top lesson deck").toBeTruthy()
-  expect(LOCKED_IDX, "that unit sits past the curriculumMid frontier (U0 done, U1 current) → locked").toBeGreaterThanOrEqual(2)
-  expect(LESSON_KEYS.length, "the locked unit defines lessons").toBeGreaterThan(0)
+  expect(TARGET_UNIT, "a white unit carries the Mount|Top lesson deck").toBeTruthy()
+  expect(TARGET_IDX, "that unit sits past curriculumMid's seeded units (U0 done, U1 half) → untouched prep").toBeGreaterThanOrEqual(2)
+  expect(LESSON_KEYS.length, "the target unit defines lessons").toBeGreaterThan(0)
 
   const j = journey(page)
   await j.boot("/", { initialState: curriculumMid() })
   await j.land("Mount Top")
 
   // ── pick the target like the app would: first dealt option whose OWN deck is one of the
-  // LOCKED unit's lesson decks, drillable (>=3 cards) and untouched (prep 0 — curriculumMid
+  // target unit's lesson decks, drillable (>=3 cards) and untouched (prep 0 — curriculumMid
   // seeds only U0 + half of U1, never this unit). deckKeyFor is the app's truth, so the
   // spec never hand-derives "<name>|Attacker". Probe fact: the Mount Top hand deterministically
   // deals TWO such candidates (Americana / Armbar from Mount) — we need and guard >= 1. ──
@@ -73,7 +76,7 @@ test("three JIT grades complete a LOCKED unit's lesson through the lock — unit
     }
     return null
   }, LESSON_KEYS)
-  expect(target, "the dealt hand contains a drillable locked-unit lesson technique").toBeTruthy()
+  expect(target, "the dealt hand contains a drillable target-unit lesson technique").toBeTruthy()
   const { title, key, goal } = target!
   expect(LESSON_KEYS).toContain(key)
   expect(goal, "_deckGoal = min(3, deckSize) with deckSize >= 3").toBe(3)
@@ -124,7 +127,7 @@ test("three JIT grades complete a LOCKED unit's lesson through the lock — unit
     [key, UK] as const,
   )
   expect(ledger.prep, "three JIT grades = prep exactly at goal").toBe(3)
-  expect(ledger.lessonDone, "lessonDone(key) crossed — the ledger is lock-blind").toBe(true)
+  expect(ledger.lessonDone, "lessonDone(key) crossed — JIT credit and drills share one ledger").toBe(true)
   expect(ledger.unitComplete, "unit NOT complete (checkpoint never granted)").toBe(false)
   expect(ledger.checkpoint, "no checkpoint record materialized").toBe(false)
 
@@ -136,26 +139,26 @@ test("three JIT grades complete a LOCKED unit's lesson through the lock — unit
   const pumped = (await j.beats()).filter((b) => b.beat === "bonus_pumped" && (b as any).deck_key === key)
   expect(pumped, "three distinct cards → exactly three pumps").toHaveLength(3)
 
-  // lesson_done fired THROUGH the lock, tagged with the locked unit's lineage — and only once
+  // lesson_done fired from JIT credit alone, tagged with the target unit's lineage — only once
   const lessons = (await j.beats()).filter((b) => b.beat === "lesson_done")
   expect(lessons, "exactly one lesson_done in the whole stream").toHaveLength(1)
   expect((lessons[0] as any).deckKey).toBe(key)
-  expect((lessons[0] as any).unit, "beat names the LOCKED unit").toBe(UK)
+  expect((lessons[0] as any).unit, "beat names the target unit").toBe(UK)
   expect((lessons[0] as any).belt).toBe(WHITE.id)
 
-  // ── close the sheet like a user (Escape → closeOptionDetail) and open the Belt Path ──
+  // ── close the sheet like a user (Escape → closeOptionDetail) and open the Challenges view ──
   await page.keyboard.press("Escape")
   expect(await page.evaluate(() => !!(window as any).__neural._detailCtx), "sheet closed").toBe(false)
   await page.evaluate(() => (window as any).__neural.toggleExplorer())
   await expect(page.locator("[data-view]").first()).toBeVisible()
-  await j.expectBeat("path_opened")
+  await j.expectBeat("challenges_opened")
 
-  // ── THE RENDERED CONTRADICTION THAT ISN'T ONE: a done lesson row inside a locked unit ──
-  const attr = (sel: string, a: string) => page.locator(sel).first().getAttribute(a)
-  expect(await attr(`[data-lesson="${key}"]`, "data-done"), "lesson row done INSIDE the locked unit").toBe("1")
-  expect(await attr(`[data-unit="${UK}"]`, "data-locked"), "unit row still locked").toBe("1")
-  expect(await attr(`[data-unit="${UK}"]`, "data-done"), "unit row NOT done").toBeNull()
-  expect(await attr(`[data-checkpoint="${UK}"]`, "data-done"), "checkpoint row unpassed").toBeNull()
+  // ── THE RENDERED CONTRADICTION THAT ISN'T ONE: a JIT-completed lesson inside a unit whose
+  //    checkpoint gate is still shut (v1.74: the disabled button IS the gate — no lock attrs) ──
+  const cpBtn = page.locator(`[data-checkpoint="${UK}"]`).first()
+  expect(await page.locator(`[data-lesson="${key}"]`).count(), "the credited lesson renders its button in the white track").toBe(1)
+  expect(await cpBtn.isDisabled(), "checkpoint button still evidence-gated — one done lesson is not the unit").toBe(true)
+  expect(await cpBtn.textContent(), "checkpoint not cleared").not.toContain("cleared")
 
   // no unit-completion or checkpoint machinery ever ran — the credit crossed, the gate held
   const beats = await j.beats()

@@ -1,34 +1,37 @@
-/* @hyperspace {"theme":"unlock-economy","L":"curriculum-mid","F":"graph-canvas","B":"guard-limit"} @invariant "Fog-of-war encodes curriculum membership, never lock state: a locked blue-belt lesson's node index is INSIDE _curriculumIdxSet (undimmed) while a genuine non-curriculum node stays outside — locked-but-curricular content is visible on the canvas, locks live only in the path rows." */
+/* @hyperspace {"theme":"unlock-economy","L":"curriculum-mid","F":"graph-canvas","B":"guard-limit"} @invariant "Fog-of-war encodes curriculum membership, never progress or track selection: an unselected blue-track lesson's node index is INSIDE _curriculumIdxSet (undimmed) while a genuine non-curriculum node stays outside — membership is exactly the fixture ids, blind to completion state and to which track the Challenges view renders." */
 import { test, expect } from "@playwright/test"
 import { journey } from "../dsl"
 import { curriculumMid, CURRICULUM } from "./personas"
 
 /**
- * FOG SET IGNORES LOCKS — the canvas fog-of-war and the unlock economy are separate
- * systems that must NOT leak into each other. For a mid-curriculum white belt, ALL of
- * blue is study-locked in the path rows, yet blue's lesson nodes glow undimmed on the
- * canvas: the fog answers "is this on the curriculum?", never "may you study it yet?".
+ * FOG SET IGNORES PROGRESS AND TRACK SELECTION — the canvas fog-of-war and the study
+ * economy are separate systems that must NOT leak into each other. For a mid-curriculum
+ * white belt the Challenges view renders only the SELECTED track's lessons (white by
+ * default, v1.74 — track locks themselves are retired: every track is open), yet blue's
+ * lesson nodes glow undimmed on the canvas: the fog answers "is this on the curriculum?",
+ * never "is this rendered / studied yet?".
  *
  * Mechanism under test (neural/src/app.src.jsx):
- *   - _onCurriculum (L2388-2402) builds _curriculumIdxSet by walking EVERY belt's units
+ *   - _onCurriculum builds _curriculumIdxSet by walking EVERY belt's units
  *     (u.positionNodeId) and lessons (l.nodeId) through _idIndex.get — with zero
- *     beltUnlocked/unitComplete consultation. Membership is lock-blind by construction.
- *   - _idIndex is the Map id→idx built in ingest (L361-363): node ids resolve to the
- *     indices the fog set stores.
- *   - The canvas fog draw (L5075) reads `const fogSet = this._pathDim ?
- *     this._curriculumIdxSet : null;` — gated ONLY on _pathDim (path view open), then
- *     dims exactly the nodes OUTSIDE the set. In-set ⇒ undimmed, locked or not.
- *   - renderBeltPath (L2467+) is where locks DO live: data-locked renders on belt rows
- *     (~L2483) and unit rows (~L2494) only. Lesson rows get data-lesson but NEVER
- *     data-locked — so a locked belt's lessons still render as (dimmed-styled) rows.
+ *     progress/track-selection consultation. Membership is coverage-blind by construction.
+ *   - _idIndex is the Map id→idx built in ingest: node ids resolve to the indices the
+ *     fog set stores.
+ *   - The canvas fog draw reads `const fogSet = this._pathDim ? this._curriculumIdxSet
+ *     : null;` — _pathDim is armed by renderChallenges (v1.74: `this._pathDim =
+ *     !!this.curriculum`), then dims exactly the nodes OUTSIDE the set. In-set ⇒
+ *     undimmed, studied or not, rendered or not.
+ *   - renderChallenges renders lesson buttons ONLY for the selected track
+ *     (challengeCurriculumElement(selected.id)) — so an unselected blue lesson has NO
+ *     DOM row at all, making set membership demonstrably render-independent.
  *
  * The probe target is the first BLUE-EXCLUSIVE lesson: its nodeId appears in no white
- * unit's positionNodeId nor lesson nodeIds, so for a curriculumMid persona (zero belts
- * won → blue fully locked) its set membership can only come from the locked blue belt.
+ * unit's positionNodeId nor lesson nodeIds, so for a curriculumMid persona (white track
+ * selected by default) its set membership can only come from the unselected blue track.
  * Everything derives from the served curriculum fixture — never hard-coded.
  *
- * No gameplay draws beyond land()'s built-in rigs (ai-skill/role/max-moves): the path
- * render and the fog set construction draw no RNG.
+ * No gameplay draws beyond land()'s built-in rigs (ai-skill/role/max-moves): the
+ * challenges render and the fog set construction draw no RNG.
  */
 
 const BELTS: any[] = CURRICULUM.belts
@@ -59,7 +62,7 @@ const FIXTURE_IDS: string[] = []
 // Every lesson occurrence (cross-belt duplicates included) for the forward census
 const ALL_LESSON_IDS: string[] = BELTS.flatMap((b: any) => b.units.flatMap((u: any) => u.lessons.map((l: any) => l.nodeId)))
 
-test("curriculum-mid: locked blue lesson's node sits INSIDE the fog set; membership is exactly the fixture ids, lock-blind", async ({ page }) => {
+test("curriculum-mid: unselected blue lesson's node sits INSIDE the fog set; membership is exactly the fixture ids, selection-blind", async ({ page }) => {
   // ── curriculum facts the derivations lean on — fail loudly here if the corpus shifts ──
   expect(BELTS.length, "curriculum defines white + blue at minimum").toBeGreaterThanOrEqual(2)
   expect(blueExclusive.length, "blue-exclusive lessons exist (the probe target)").toBeGreaterThan(0)
@@ -69,36 +72,34 @@ test("curriculum-mid: locked blue lesson's node sits INSIDE the fog set; members
   await j.boot("/", { initialState: curriculumMid() })
   await j.land("Mount Top") // built-in rigs (ai-skill/role/max-moves) cover every draw; path render draws none
 
-  // open the explorer — curriculum loaded → PATH is the default face; path_opened fires
-  // synchronously inside renderBeltPath
+  // open the explorer — curriculum loaded → CHALLENGES is the default face;
+  // challenges_opened fires synchronously inside renderChallenges
   await page.evaluate(() => (window as any).__neural.toggleExplorer())
   await expect(page.locator("[data-view]").first()).toBeVisible()
-  await j.expectBeat("path_opened")
+  await j.expectBeat("challenges_opened")
 
   // ── preconditions: fog is ARMED (this is the state in which membership decides dimming) ──
   const pre = await page.evaluate(() => {
     const a = (window as any).__neural
     return { viewMode: a._viewMode, pathDim: !!a._pathDim, setSize: a._curriculumIdxSet ? a._curriculumIdxSet.size : 0 }
   })
-  expect(pre.viewMode, "explorer opens on path view").toBe("path")
-  expect(pre.pathDim, "path view arms the canvas fog gate").toBe(true)
+  expect(pre.viewMode, "explorer opens on the challenges view").toBe("challenges")
+  expect(pre.pathDim, "the challenges view arms the canvas fog gate").toBe(true)
   expect(pre.setSize, "fog set is substantial").toBeGreaterThan(50)
 
-  // ── lock evidence: blue is genuinely LOCKED in the path rows for this persona ──
+  // ── selection evidence: blue is genuinely UNSELECTED (and thus unrendered) for this persona ──
+  const blueCard = page.locator(`.ng-track-card[data-track="${BLUE.id}"]`)
+  expect(await blueCard.count(), "blue track card renders (all tracks open, v1.74)").toBe(1)
   expect(
-    await page.locator(`[data-belt="${BLUE.id}"]`).first().getAttribute("data-locked"),
-    "blue belt row is victory-locked (curriculumMid won no belts)",
-  ).toBe("1")
+    await blueCard.first().getAttribute("aria-pressed"),
+    "blue is NOT the selected track (white is the default)",
+  ).toBe("false")
+  // ...so the target blue lesson has NO DOM row at all — set membership below cannot be
+  // an artifact of the rendered view
   expect(
-    await page.locator(`[data-unit="${BLUE.id}/${TARGET.u.id}"]`).first().getAttribute("data-locked"),
-    "the unit containing the target lesson is locked",
-  ).toBe("1")
-  // ...and the locked lesson STILL renders its row — lock-free, because lesson rows
-  // never carry data-locked (locks live on belt/unit rows only)
-  const lessonRow = page.locator(`[data-lesson="${TARGET.l.deckKey}"]`)
-  expect(await lessonRow.count(), "locked blue lesson still renders its path row").toBe(1)
-  expect(await lessonRow.first().getAttribute("data-locked"), "lesson rows never carry data-locked").toBeNull()
-  expect(await page.locator("[data-lesson][data-locked]").count(), "NO lesson row anywhere carries a lock").toBe(0)
+    await page.locator(`[data-lesson="${TARGET.l.deckKey}"]`).count(),
+    "unselected blue lesson renders no row in the white-track challenges view",
+  ).toBe(0)
 
   // ── the four membership claims, read off the live instance the way the fog draw does ──
   const verdict = await page.evaluate(
@@ -141,20 +142,20 @@ test("curriculum-mid: locked blue lesson's node sits INSIDE the fog set; members
     [TARGET.l.nodeId, FIXTURE_IDS, ALL_LESSON_IDS] as const,
   )
 
-  // (1) the locked blue lesson's node index is INSIDE the fog set → drawn undimmed
+  // (1) the unselected blue lesson's node index is INSIDE the fog set → drawn undimmed
   expect(verdict.targetIdx, "target lesson node resolves via _idIndex").toBeGreaterThanOrEqual(0)
-  expect(verdict.targetInSet, "LOCKED blue lesson's node is inside _curriculumIdxSet (undimmed)").toBe(true)
+  expect(verdict.targetInSet, "UNSELECTED blue lesson's node is inside _curriculumIdxSet (undimmed)").toBe(true)
 
   // (2) a genuine non-curriculum node exists and stays OUTSIDE → the fog dims real territory
   expect(verdict.compId, "a non-curriculum node exists in the graph").not.toBeNull()
   expect(verdict.compInSet, "non-curriculum node stays outside the fog set (dimmed)").toBe(false)
 
-  // (3) census: every lesson of every belt — locked or not — resolves into the set, 0 misses
+  // (3) census: every lesson of every belt — selected track or not — resolves into the set, 0 misses
   expect(verdict.misses, `all ${ALL_LESSON_IDS.length} lesson occurrences across all belts are in the set`).toBe(0)
 
   // (4) reverse census: 0 extras — membership is EXACTLY unit positionNodeIds + lesson
-  // nodeIds, i.e. curriculum coverage, with lock state contributing nothing either way
+  // nodeIds, i.e. curriculum coverage, with progress/selection contributing nothing either way
   expect(verdict.unresolved, "every distinct fixture id resolves to a node index").toBe(0)
   expect(verdict.extras, "the set holds nothing beyond the fixture ids").toBe(0)
-  expect(verdict.setSize, "set size equals the distinct fixture-id count — lock-blind equality").toBe(verdict.expectedSize)
+  expect(verdict.setSize, "set size equals the distinct fixture-id count — coverage-exact equality").toBe(verdict.expectedSize)
 })
