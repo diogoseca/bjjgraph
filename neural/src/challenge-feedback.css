@@ -5,7 +5,10 @@
 .ng-tut.ng-challenge-cue {
   position: fixed;
   left: 16px;
-  bottom: 104px;
+  /* Q006: must clear the bottom-docked options tray entirely — at 104px the opaque
+     interactive cue covered the first two cards' centers and stole their clicks
+     (the .ng-tut corner contract: the tray must stay clickable). */
+  bottom: 188px;
   z-index: 7;
   width: 270px;
   padding: 0;

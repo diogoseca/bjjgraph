@@ -76,8 +76,8 @@ Format per entry:
   releasing it), or clear/park `_decision` + `_optPick` for the quiz's duration, or guard
   `_tickDecision` on `this._checkpoint`. The red spec is fix-shape-agnostic.
 
-## Q003 — Momentum sounds are inaudible: the combo two-step and break snap are ALWAYS eaten by the 40ms voice-spacing gate   [bug] [status: Open]
-- Spec: e2e/quarantine/endgame-combo-sound-ladder.spec.ts
+## Q003 — Momentum sounds are inaudible: the combo two-step and break snap are ALWAYS eaten by the 40ms voice-spacing gate   [bug] [status: Fixed v1.75.3]
+- Spec: e2e/gen/endgame-combo-sound-ladder.spec.ts
 - Found: wave 5, multiBeltEndgame at sound
 - Expected: the sound bus mirrors the combo arc — climbing ×2→×5 voices the combo patch
   ("combo-up", the bright two-step sound.src.js:26 documents as "for every combo") at each
@@ -107,8 +107,8 @@ Format per entry:
   voice the same way). Beware: fixing via reorder alone (combo before mc_correct) just flips
   which voice gets eaten.
 
-## Q004 — "Clean Checkpoint" patch mints on ANY checkpoint pass: its first-try predicate is vacuously true   [bug] [status: Open]
-- Spec: e2e/quarantine/mid-clean-checkpoint-patch-first-try-only.spec.ts
+## Q004 — "Clean Checkpoint" patch mints on ANY checkpoint pass: its first-try predicate is vacuously true   [bug] [status: Fixed v1.75.3]
+- Spec: e2e/gen/mid-clean-checkpoint-patch-first-try-only.spec.ts
 - Found: wave 6, curriculumMid at checkpoint-quiz
 - Expected: the patch is authored "Pass a checkpoint on the first try"
   (challenge-definitions.src.js:337) — a failed sitting mints nothing, and a later pass
@@ -142,8 +142,8 @@ Format per entry:
   flip the predicate to `p.firstTry === p.of` and reword the detail to match ("every
   card right, first time"). Owner call on which meaning "Clean Checkpoint" intends.
 
-## Q005 — Challenge objectives are silent in live play: objective-tick is the one Rewards voice without the major flag, so any completion triggered by a voiced beat is eaten by the 40ms gate   [bug] [status: Open]
-- Spec: e2e/quarantine/holder-reward-beats-carry-reward-voices.spec.ts
+## Q005 — Challenge objectives are silent in live play: objective-tick is the one Rewards voice without the major flag, so any completion triggered by a voiced beat is eaten by the 40ms gate   [bug] [status: Fixed v1.75.3]
+- Spec: e2e/gen/holder-reward-beats-carry-reward-voices.spec.ts
 - Found: wave 6, whiteBeltHolder at sound
 - Expected: the sound bus mirrors the rewards vocabulary — every live challenge_completed
   beat voices its objective-tick ("Objective logged", catalog sound.src.js:41) exactly once,
@@ -180,8 +180,8 @@ Format per entry:
   Beware the Q003 trap: reordering (tick before trigger) just flips which voice is
   eaten — the spec pins capacitor-latch to stay red under that shape.
 
-## Q006 — Challenge cue steals mouse clicks from the leftmost option cards: the whole cue panel is pointer-events:auto over the tray's load-bearing pass-through corner   [bug] [status: Open]
-- Spec: e2e/quarantine/casual-challenge-cue-steals-tray-clicks.spec.ts
+## Q006 — Challenge cue steals mouse clicks from the leftmost option cards: the whole cue panel is pointer-events:auto over the tray's load-bearing pass-through corner   [bug] [status: Fixed v1.75.3]
+- Spec: e2e/gen/casual-challenge-cue-steals-tray-clicks.spec.ts
 - Found: wave 6, casualWeek1 at challenges
 - Expected: the pass-through corner is a documented contract — helmet.html:96-97 keeps the
   base `.ng-tut` at `pointer-events:none` with the comment "the options tray can scroll
@@ -220,8 +220,8 @@ Format per entry:
   pointer-events:none and re-enable auto only on hit surfaces that don't overlap the
   tray. Cue visibility is logged, not asserted, so all three shapes go green.
 
-## Q007 — Digits 5-9 during an open checkpoint quiz open the roll's expand sheet, and Enter then commits the roll under the live quiz   [bug] [status: Open]
-- Spec: e2e/quarantine/holder-checkpoint-letters-answer-digits-stay-roll.spec.ts
+## Q007 — Digits 5-9 during an open checkpoint quiz open the roll's expand sheet, and Enter then commits the roll under the live quiz   [bug] [status: Fixed v1.75.3]
+- Spec: e2e/gen/holder-checkpoint-letters-answer-digits-stay-roll.spec.ts
 - Found: wave 6, whiteBeltHolder at checkpoint-quiz
 - Expected: an open checkpoint quiz owns the keyboard's answer surface — A-D answer the live
   MC (advancing `_checkpoint.i`), and no digit reaches the ROLL beneath: no option expand

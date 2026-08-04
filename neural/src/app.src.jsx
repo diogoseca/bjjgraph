@@ -315,7 +315,10 @@ class Component extends DCLogic {
         e.preventDefault();
         const mbtns = this.drillListRef.current ? this.drillListRef.current.querySelectorAll("[data-mc-opt]") : [];
         const mb = mbtns[parseInt(e.key) - 1]; if (mb) mb.click();
-      } else if (!typing && /^[1-9]$/.test(e.key) && this._optPick && this._optList && this.get("cardNumbers", true)) {
+      } else if (!typing && /^[1-9]$/.test(e.key) && this._optPick && this._optList && !this._checkpoint && this.get("cardNumbers", true)) {
+        // Q007: an open checkpoint quiz owns the keyboard — digits above the MC option
+        // count must never fall through to the roll's option-card openers (a '5' opened
+        // the expand sheet and Enter then COMMITTED the roll under the live quiz)
         const opt = this._optList[parseInt(e.key) - 1];
         if (opt && !(this._detailCtx && this._detailCtx.opt === opt)) { e.preventDefault(); const oc = (this._optionCards || []).find((c) => c.node === opt.node); this.expandOption(opt, this._optPick, oc && oc.card); }
       }

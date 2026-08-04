@@ -334,7 +334,7 @@ const NG_BADGE_DEFINITIONS = Object.freeze([
   { id: "purple-patterns", name: "Pattern Finder", detail: "Clear the Purple content track", sourceTrack: "purple" },
   { id: "brown-pressure", name: "Recall Under Pressure", detail: "Clear the Brown content track", sourceTrack: "brown" },
   { id: "black-breadth", name: "Broad Game", detail: "Clear the Black content track", sourceTrack: "black" },
-  { id: "clean-checkpoint", name: "Clean Checkpoint", detail: "Pass a checkpoint on the first try", event: "checkpoint_passed", when: (p) => !!p.firstTry },
+  { id: "clean-checkpoint", name: "Clean Checkpoint", detail: "Pass a checkpoint flawlessly — every card right on first presentation", event: "checkpoint_passed", when: (p) => p.of > 0 && p.firstTry === p.of },
   { id: "thirty-from-memory", name: "Thirty From Memory", detail: "Recall-prove thirty cards", sourceChallenge: "brown.recall-thirty" },
 ]);
 

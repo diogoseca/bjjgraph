@@ -89,8 +89,10 @@ test.describe("Challenge engine @curated", () => {
     const state = await page.evaluate(() => {
       const app = (window as any).__neural;
       for (let i = 0; i < 6; i += 1) app.fx("escape", { via: "Elbow Escape" });
-      app.fx("checkpoint_passed", { unit: "white/u1", firstTry: true, of: 3 });
-      app.fx("checkpoint_passed", { unit: "white/u1", firstTry: true, of: 3 });
+      // real beats carry firstTry as a COUNT; clean-checkpoint (v1.75.3) mints only on a
+      // perfect run (firstTry === of) — the second identical pass proves mint-once dedupe
+      app.fx("checkpoint_passed", { unit: "white/u1", firstTry: 3, of: 3 });
+      app.fx("checkpoint_passed", { unit: "white/u1", firstTry: 3, of: 3 });
       return {
         escape: app.challengeProgress("blue.escape-three"),
         coins: Object.keys(app.coins),
