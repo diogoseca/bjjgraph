@@ -92,6 +92,7 @@ test("mid-curriculum: shut checkpoint/capstone gates are inert to clicks AND dir
       const a = (window as any).__neural
       return {
         deckOpen: !!a.deckOpen,
+        deck: !!a.deck, // v1.76.0: deckOpen is the PANE rail; a live deck marks study takeover
         posKey: a._posKey ?? null,
         camCx: a.camTarget.cx,
         camCy: a.camTarget.cy,
@@ -104,7 +105,9 @@ test("mid-curriculum: shut checkpoint/capstone gates are inert to clicks AND dir
     })
   const base = await snap()
   expect(base.paused, "explorer auto-paused the clock — advance() can't tick the decision timer").toBe(true)
-  expect(base.deckOpen, "no deck open before the probes").toBe(false)
+  // v1.76.0: the merged pane IS open (deckOpen = the pane rail) — study takeover is the gate
+  expect(base.deckOpen, "the merged pane is open for browsing").toBe(true)
+  expect(base.deck, "no study deck open before the probes").toBe(false)
   expect(base.session, "no study session before the probes").toBe(false)
   expect(base.checkpoint, "no checkpoint quiz before the probes").toBe(false)
   expect(base.beltTest, "no belt test armed before the probes").toBe(false)
@@ -112,7 +115,7 @@ test("mid-curriculum: shut checkpoint/capstone gates are inert to clicks AND dir
 
   const expectInert = async (what: string) => {
     const post = await snap()
-    expect(post.deckOpen, `${what}: deckOpen stays false`).toBe(false)
+    expect(post.deck, `${what}: no study takeover`).toBe(false)
     expect(post.posKey, `${what}: _posKey unchanged`).toBe(base.posKey)
     expect(Math.abs(post.camCx - base.camCx), `${what}: no camera fly (cx)`).toBeLessThanOrEqual(1)
     expect(Math.abs(post.camCy - base.camCy), `${what}: no camera fly (cy)`).toBeLessThanOrEqual(1)
@@ -120,9 +123,10 @@ test("mid-curriculum: shut checkpoint/capstone gates are inert to clicks AND dir
     expect(post.checkpoint, `${what}: no checkpoint quiz`).toBe(false)
     expect(post.beltTest, `${what}: no belt test armed`).toBe(false)
     expect(post.beats, `${what}: STRICTLY zero new beats`).toBe(base.beats)
-    // every real success path here closes the explorer (openLessonStudy via locateNode,
-    // startCheckpoint, startBeltTest all do) — it staying open is itself gate-held proof
-    await expect(page.locator("[data-view]").first(), `${what}: explorer still open`).toBeVisible()
+    // every real success path either takes the pane over (openLessonStudy, startCheckpoint —
+    // study takeover hides the tab nav) or closes it (startBeltTest) — the nav staying
+    // visible is itself gate-held proof
+    await expect(page.locator("[data-view]").first(), `${what}: tab nav still visible`).toBeVisible()
   }
 
   // ── leg 1a: native click on the DISABLED U2 checkpoint button (dispatches nothing) ──
@@ -164,13 +168,14 @@ test("mid-curriculum: shut checkpoint/capstone gates are inert to clicks AND dir
   //    flips the economy — the inert legs above weren't vacuous ──
   await page.locator(`[data-lesson="${CONTROL_LESSON}"]`).first().click()
   const postA = await snap()
-  expect(postA.deckOpen, "control A: done lesson opened its deck").toBe(true)
+  expect(postA.deck, "control A: done lesson opened its deck (study takeover)").toBe(true)
   expect(postA.posKey, "control A: study jumped to the clicked deck").toBe(CONTROL_LESSON)
   expect(postA.session, "control A: study session armed").toBe(true)
 
   // ── delivery control B (the open-model inversion): an UNTOUCHED U2 lesson opens too —
   //    its unit's checkpoint is shut, yet the lesson is deliberately ungated ──
-  await page.evaluate(() => (window as any).__neural.toggleExplorer()) // control A closed it
+  // v1.76.0: control A took the pane over — return to the Challenges tab (the ‹ Back path)
+  await page.evaluate(() => (window as any).__neural.openPane("challenges"))
   await expect(page.locator("[data-view]").first()).toBeVisible()
   await page
     .locator(`.ng-challenge-group:has([data-lesson="${OPEN_LESSON}"])`)
@@ -178,7 +183,7 @@ test("mid-curriculum: shut checkpoint/capstone gates are inert to clicks AND dir
     .evaluate((el) => ((el as HTMLDetailsElement).open = true)) // U2's group is collapsed by default
   await page.locator(`[data-lesson="${OPEN_LESSON}"]`).first().click()
   const postB = await snap()
-  expect(postB.deckOpen, "control B: untouched lesson opened its deck").toBe(true)
+  expect(postB.deck, "control B: untouched lesson opened its deck (study takeover)").toBe(true)
   expect(postB.posKey, "control B: study jumped to the untouched deck").toBe(OPEN_LESSON)
   expect(postB.session, "control B: study session armed").toBe(true)
 })

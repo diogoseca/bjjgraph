@@ -15,10 +15,12 @@ test("veteran lesson evidence leaves checkpoints and content capstones unearned"
 
   await expect(page.locator('[data-view="challenges"]')).toBeVisible()
   await page.locator(`.ng-track-card[data-track="${WHITE.id}"]`).click()
+  // v1.76.0 ladder renders every track's curriculum — scope the census to white's section
+  const whiteCur = `[data-track-curriculum="${WHITE.id}"]`
   for (const lesson of SEEDED) {
-    await expect(page.locator(`.ng-challenge-lesson[data-lesson="${lesson.deckKey}"]`)).toHaveCount(1)
+    await expect(page.locator(`${whiteCur} .ng-challenge-lesson[data-lesson="${lesson.deckKey}"]`)).toHaveCount(1)
   }
-  expect(await page.locator(".ng-challenge-checkpoint").count()).toBe(WHITE.units.length)
+  expect(await page.locator(`${whiteCur} .ng-challenge-checkpoint`).count()).toBe(WHITE.units.length)
   expect(await page.locator(`[data-capstone="${WHITE.id}"] button`).isDisabled()).toBe(true)
 
   const state = await page.evaluate((trackId) => {

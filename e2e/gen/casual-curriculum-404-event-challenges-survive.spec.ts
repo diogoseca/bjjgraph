@@ -170,7 +170,7 @@ test("curriculum 404: white.commit counts a live commit and survives reload whil
     a.showExplorerList()
   })
   await expect(page.locator(".ng-track-card")).toHaveCount(5)
-  await expect(page.locator(".ng-challenge-curriculum")).toContainText(
+  await expect(page.locator(".ng-challenge-curriculum").first()).toContainText(
     "Curriculum is unavailable right now",
   )
 

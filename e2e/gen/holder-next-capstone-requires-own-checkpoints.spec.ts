@@ -21,7 +21,8 @@ test("white capstone does not gate Blue content; Blue capstone needs Blue checkp
   expect(await page.locator(`[data-capstone="${WHITE.id}"] button`).isDisabled()).toBe(true)
   await page.locator(`.ng-track-card[data-track="${BLUE.id}"]`).click()
   expect(await page.locator(`[data-capstone="${BLUE.id}"] button`).isDisabled()).toBe(true)
-  expect(await page.locator(".ng-challenge-checkpoint").count()).toBe(BLUE.units.length)
+  // v1.76.0 ladder renders every track's curriculum — scope the count to Blue's section
+  expect(await page.locator(`[data-track-curriculum="${BLUE.id}"] .ng-challenge-checkpoint`).count()).toBe(BLUE.units.length)
 
   const state = await page.evaluate((blueId) => {
     const app = (window as any).__neural

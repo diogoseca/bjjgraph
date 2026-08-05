@@ -22,11 +22,13 @@ test("veteran: open cross-track Challenges retain checkpoint-only capstone gates
 
   for (const track of [WHITE, BLUE]) {
     await page.locator(`.ng-track-card[data-track="${track.id}"]`).click()
+    // v1.76.0 ladder renders every track's curriculum — scope each census to its own section
+    const cur = `[data-track-curriculum="${track.id}"]`
     const seededHere = SEEDED.filter(({ track: owner }: any) => owner.id === track.id)
     for (const { lesson } of seededHere) {
-      await expect(page.locator(`.ng-challenge-lesson[data-lesson="${lesson.deckKey}"]`)).toHaveCount(1)
+      await expect(page.locator(`${cur} .ng-challenge-lesson[data-lesson="${lesson.deckKey}"]`)).toHaveCount(1)
     }
-    expect(await page.locator(".ng-challenge-checkpoint").count()).toBe(track.units.length)
+    expect(await page.locator(`${cur} .ng-challenge-checkpoint`).count()).toBe(track.units.length)
     expect(await page.locator(`[data-capstone="${track.id}"] button`).isDisabled()).toBe(true)
   }
 

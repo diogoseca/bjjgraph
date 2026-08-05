@@ -17,8 +17,10 @@ test("content-capstone endgame: every open track renders cleared checkpoints and
 
   for (const track of TRACKS) {
     await page.locator(`.ng-track-card[data-track="${track.id}"]`).click()
-    expect(await page.locator(".ng-challenge-group").count()).toBe(track.units.length)
-    expect(await page.locator(".ng-challenge-checkpoint").count()).toBe(track.units.length)
+    // v1.76.0 ladder renders every track's curriculum — scope each census to its own section
+    const cur = `[data-track-curriculum="${track.id}"]`
+    expect(await page.locator(`${cur} .ng-challenge-group`).count()).toBe(track.units.length)
+    expect(await page.locator(`${cur} .ng-challenge-checkpoint`).count()).toBe(track.units.length)
     expect(await page.locator(`[data-capstone="${track.id}"] button`).isDisabled()).toBe(true)
   }
 

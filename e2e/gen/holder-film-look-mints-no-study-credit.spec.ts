@@ -169,11 +169,12 @@ test("holder's film watch pumps odds but leaves prep, cardsToday, _days, both st
     for (const u of white.units)
       for (const l of u.lessons) if (a._lessonLive(l) && a.lessonDone(l.deckKey)) predicate++
     let rendered = 0
-    document.querySelectorAll(".ng-challenge-group summary small").forEach((el) => {
+    // v1.76.0 ladder renders every track's curriculum — scope the census to white's section
+    document.querySelectorAll('[data-track-curriculum="white"] .ng-challenge-group summary small').forEach((el) => {
       const m = (el.textContent || "").match(/^(\d+) of \d+ lessons/)
       if (m) rendered += parseInt(m[1], 10)
     })
-    return { predicate, rendered, groups: document.querySelectorAll(".ng-challenge-group").length }
+    return { predicate, rendered, groups: document.querySelectorAll('[data-track-curriculum="white"] .ng-challenge-group').length }
   })
   expect(census.groups, "the white track renders one group per unit").toBe(CURRICULUM.belts[0].units.length)
   expect(census.rendered, "rendered white-track census equals the live predicate census").toBe(census.predicate)

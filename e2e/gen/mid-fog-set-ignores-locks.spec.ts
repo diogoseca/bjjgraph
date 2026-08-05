@@ -94,11 +94,16 @@ test("curriculum-mid: unselected blue lesson's node sits INSIDE the fog set; mem
     await blueCard.first().getAttribute("aria-pressed"),
     "blue is NOT the selected track (white is the default)",
   ).toBe("false")
-  // ...so the target blue lesson has NO DOM row at all — set membership below cannot be
-  // an artifact of the rendered view
+  // v1.76.0 ladder: every track's curriculum renders, so the blue lesson DOES have a row —
+  // but only inside BLUE's own section. Selection still governs the objectives detail, so
+  // set membership below still cannot be an artifact of the selected view.
   expect(
-    await page.locator(`[data-lesson="${TARGET.l.deckKey}"]`).count(),
-    "unselected blue lesson renders no row in the white-track challenges view",
+    await page.locator(`[data-track-curriculum="${BLUE.id}"] [data-lesson="${TARGET.l.deckKey}"]`).count(),
+    "unselected blue lesson renders inside blue's ladder section",
+  ).toBe(1)
+  expect(
+    await page.locator(`.ng-challenge-detail [data-lesson="${TARGET.l.deckKey}"]`).count(),
+    "and not inside the selected track's objectives detail",
   ).toBe(0)
 
   // ── the four membership claims, read off the live instance the way the fog draw does ──

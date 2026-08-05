@@ -206,6 +206,7 @@ const NG_CHALLENGE_UI_METHODS = {
   challengeCurriculumElement(trackId) {
     const section = document.createElement("section");
     section.className = "ng-challenge-curriculum";
+    section.setAttribute("data-track-curriculum", trackId); // per-track scope handle (the ladder renders every track)
     const belt =
       this.curriculum &&
       this.curriculum.belts.find((item) => item.id === trackId);
