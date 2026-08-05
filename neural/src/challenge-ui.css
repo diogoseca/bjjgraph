@@ -32,6 +32,12 @@
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.035), transparent);
 }
 
+/* study takeover: the drill head becomes the pane's first visible child, so it
+   clears the absolute close button (44px at top:18/right:14) on its own */
+.ng-drill[data-pane-study] .ng-pane-drillhead {
+  padding: 20px 64px 16px 24px;
+}
+
 .ng-knowledge-line,
 .ng-challenge-detail-head,
 .ng-collection-section > div:first-child {
@@ -173,6 +179,72 @@
 .ng-coin-list {
   display: grid;
   gap: 8px;
+}
+
+/* ── the ladder (v1.76.0): one scroll over all five tracks, old-Belt-Path style ── */
+.ng-challenge-continue {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 0 0 12px;
+  padding: 12px 14px;
+  border: 1px solid var(--ng-track, #8fa9e8);
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.05);
+  color: inherit;
+  font-family: inherit;
+  text-align: left;
+  cursor: pointer;
+  animation: ngBeacon 1.5s ease-in-out infinite;
+}
+
+.ng-challenge-continue > span {
+  min-width: 0;
+  flex: 1;
+  display: grid;
+  gap: 3px;
+}
+
+.ng-challenge-continue small {
+  color: var(--ng-track, #8fa9e8);
+  font-size: 8px;
+  font-weight: 900;
+  letter-spacing: 0.11em;
+}
+
+.ng-challenge-continue b {
+  overflow: hidden;
+  color: #eef1f6;
+  font-size: 12.5px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.ng-challenge-continue > em {
+  flex: none;
+  color: var(--ng-track, #8fa9e8);
+  font-size: 15px;
+  font-style: normal;
+}
+
+/* gentle dimming — visual only, every row stays clickable; crowns/tokens keep full color */
+.ng-challenge-lesson[data-lesson-done="false"] > span:last-child {
+  opacity: 0.7;
+}
+
+.ng-challenge-row[data-complete="false"] > div {
+  opacity: 0.75;
+}
+
+/* the frontier: the pinned track's next lesson glows — the eye lands on "do this next" */
+.ng-challenge-lesson[data-frontier] {
+  border: 1px solid var(--ng-track, #8fa9e8);
+  animation: ngBeacon 1.5s ease-in-out infinite;
+}
+
+.ng-challenge-lesson[data-frontier] > span:last-child {
+  opacity: 1;
 }
 
 .ng-track-card {

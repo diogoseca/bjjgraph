@@ -11,7 +11,7 @@ import { journey } from "../dsl"
  * The law, in one line: nothing but the user opens or closes the pane; the pane being open
  * STOPS the game; closing it resumes the game ONLY if the pane is what stopped it.
  *
- * Rails: __neural.paused, .deckOpen, .deckShown, ._deckAutoPaused
+ * Rails: __neural.paused, .deckOpen, .deckShown, ._paneAutoPaused (one latch for the merged pane)
  * Beats: pane_paused, pane_resumed, save_hint
  */
 
@@ -39,7 +39,7 @@ test("opening the pane stops the game; closing it resumes the game @curated", as
   expect(t1, "decision clock frozen while the pane is open").toBe(t0)
 
   // close via the pane's ✕
-  await page.locator(".ngClose").first().click()
+  await page.locator(".ng-explorer-close").click()
   expect(await shown(page), "pane shut after ✕").toBe(false)
   expect(await paused(page), "closing the pane resumed the game").toBe(false)
   await j.expectBeat("pane_resumed")
@@ -55,7 +55,7 @@ test("closing the pane does NOT resume a roll the user paused by hand", async ({
   await page.locator(".ng-drilltab").click()
   expect(await shown(page)).toBe(true)
   expect(
-    await page.evaluate(() => !!(window as any).__neural._deckAutoPaused),
+    await page.evaluate(() => !!(window as any).__neural._paneAutoPaused),
     "pane did not claim the pause",
   ).toBe(false)
 

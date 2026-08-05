@@ -143,3 +143,37 @@ test("digits still open option sheets while a landing question is live", async (
   await page.keyboard.press("1")
   await expect(page.locator("[data-go]"), "digit 1 opened the first option's sheet").toBeVisible()
 })
+
+test("the identity chip fuses the seen-glyph with the deck's recall count and opens study", async ({
+  page,
+}) => {
+  const j = journey(page)
+  await j.boot("/")
+  await j.land("Mount Top")
+
+  // one top-right chip, not two adjacent familiarity indicators (v1.76.0 merged-glyph decision)
+  const chip = page.locator("[data-land-id] [data-land-count]")
+  await expect(chip, "the chip rides the identity row").toBeVisible()
+  const label = await chip.getAttribute("data-land-count")
+  const state = await page.evaluate(() => {
+    const a = (window as any).__neural
+    const key = a.deckKeyFor(a.nodes[a.currentPos]).key
+    const deck = a.flashcards && a.flashcards.decks ? a.flashcards.decks[key] : null
+    const total = deck && deck.cards ? deck.cards.length : 0
+    return { total, done: Math.min((a.prep && a.prep[key]) || 0, total) }
+  })
+  expect(state.total, "this landing has an authored deck").toBeGreaterThan(0)
+  expect(label, "chip carries done/total").toBe(`${state.done}/${state.total}`)
+
+  // clicking it is a manual study open — pane-law-legal, lands on the History tab's deck
+  await chip.click()
+  expect(
+    await page.evaluate(() => !!(window as any).__neural.deckShown),
+    "chip click opened the pane",
+  ).toBe(true)
+  expect(
+    await page.evaluate(() => (window as any).__neural._viewMode),
+    "on the History tab (study this state)",
+  ).toBe("history")
+  await j.expectBeat("pane_paused")
+})

@@ -33,7 +33,9 @@ class Component extends DCLogic {
   menuRef = React.createRef();
   modalRef = React.createRef();
   modalCardRef = React.createRef();
-  explorerRef = React.createRef();
+  // the merged learning pane IS the drill pane — explorerRef stays as an alias so every
+  // display-based open-check (incl. renderChallengeCue's) reads the one real element
+  explorerRef = this.drillRef;
   explorerListRef = React.createRef();
   explorerSearchRef = React.createRef();
   explorerSearchWrapRef = React.createRef();
@@ -60,6 +62,7 @@ class Component extends DCLogic {
       drillRef: this.drillRef, drillTitleRef: this.drillTitleRef, drillHeadRef: this.drillHeadRef, drillListRef: this.drillListRef, drillFootRef: this.drillFootRef, drillCountRef: this.drillCountRef,
       drillTabRef: this.drillTabRef, drillTabSubRef: this.drillTabSubRef, drillTabShortRef: this.drillTabShortRef, drillTabTitleRef: this.drillTabTitleRef, drillTabIconRef: this.drillTabIconRef,
       openDeck: () => this.openHomeToLatest(), closeDeck: () => this.setDeckOpen(false),
+      openSettings: () => this.openSettings("flashcards"),
       openTerms: () => this.openLegal("terms"), openPrivacy: () => this.openLegal("privacy"),
       statusRef: this.statusRef, legendMarkRef: this.legendMarkRef,
       accountRef: this.accountRef, acctChipRef: this.acctChipRef, acctCtaRef: this.acctCtaRef, openSignup: () => this.openAuth("create"), chipMergeClass: this.deckShown ? "ng-chip-merged" : "", transportRef: this.transportRef, playPauseRef: this.playPauseRef,
@@ -262,7 +265,7 @@ class Component extends DCLogic {
     this.resize();
     this.attachInput();
     // block pan when interacting with overlay controls
-    [this.optionsRef.current, this.drillRef.current, this.drillTabRef.current, this.accountRef.current, this.transportRef.current, this.explorerRef.current, this.optDetailRef.current].forEach((el) => {
+    [this.optionsRef.current, this.drillRef.current, this.drillTabRef.current, this.accountRef.current, this.transportRef.current, this.optDetailRef.current].forEach((el) => {
       if (el) { el.addEventListener("pointerdown", (e) => e.stopPropagation()); el.addEventListener("wheel", (e) => e.stopPropagation(), { passive: false }); }
     });
     // modal: card blocks pan + wheel; backdrop click closes
@@ -275,23 +278,20 @@ class Component extends DCLogic {
       const t = e.target, typing = t && (t.tagName === "INPUT" || t.tagName === "TEXTAREA");
       if (((e.key === "k" || e.key === "K") && (e.metaKey || e.ctrlKey)) || (e.key === "/" && !typing)) {
         e.preventDefault();
-        this.setViewMode("explore");
-        const el = this.explorerRef.current;
-        if (el && el.style.display !== "flex") this.toggleExplorer();
-        else { const inp = this.explorerSearchRef.current; if (inp) inp.focus(); }
+        this.openPane("explore");
+        setTimeout(() => { try { const inp = this.explorerSearchRef.current; if (inp) inp.focus(); } catch (err) {} }, 80);
       } else if (e.key === "Escape") {
         if (this._detailCtx) { e.preventDefault(); this.closeOptionDetail(); return; }
         if (this.closeNodeDossier()) return; // in-node dossier open (desktop) — fly back out
         const sh = this.dossierSheetRef.current;
         if (sh && sh.style.display === "block") { this.closeDossierSheet(); }
-        else {
-          const el = this.explorerRef.current;
-          if (el && el.style.display === "flex") { if (this._dossierIdx != null) this.showExplorerList(); else this.toggleExplorer(); }
-          else if (this.deckShown) { this.setDeckOpen(false); } // PANE LAW: Esc closes the pane last, once no overlay is up
+        else if (this.deckShown) {
+          if (this._dossierIdx != null) this.showExplorerList();
+          else this.setDeckOpen(false); // PANE LAW: Esc closes the pane last, once no overlay is up
         }
       } else if ((e.key === "Enter" || e.key === "x" || e.key === "X") && this._detailCtx && !typing) {
         e.preventDefault(); const ctx = this._detailCtx; this.closeOptionDetail(); ctx.onPick(ctx.opt);
-      } else if (!typing && !this._detailCtx && this.deckShown && this._drillView === "home" && (e.key === "ArrowLeft" || e.key === "ArrowRight" || e.key === "ArrowUp" || e.key === "ArrowDown")) {
+      } else if (!typing && !this._detailCtx && this.deckShown && this._viewMode === "history" && this._drillView === "home" && !this._paneStudyActive() && (e.key === "ArrowLeft" || e.key === "ArrowRight" || e.key === "ArrowUp" || e.key === "ArrowDown")) {
         e.preventDefault();
         const f = (this._rollFocus == null ? (this.rollLog ? this.rollLog.length - 1 : 0) : this._rollFocus);
         if (e.key === "ArrowUp") this.focusRollItem(f - 1);
@@ -306,7 +306,7 @@ class Component extends DCLogic {
       } else if ((e.key === " " || e.key === "p" || e.key === "P") && !typing && !this._detailCtx) {
         e.preventDefault();
         if (e.key === " " && this.isDrillOpen()) { if (!this.revealed) this.drillReveal(); else this.drillGrade(true); }
-        else if (e.key === " " && this.deckShown && this._drillView === "home" && this._focusRow && this._miniReg && this._miniReg[this._focusRow]) { this._miniReg[this._focusRow].reveal(); }
+        else if (e.key === " " && this.deckShown && this._viewMode === "history" && this._drillView === "home" && this._focusRow && this._miniReg && this._miniReg[this._focusRow]) { this._miniReg[this._focusRow].reveal(); }
         else this.setPaused(!this.paused);
       } else if (!typing && /^[a-dA-D]$/.test(e.key) && this._mc && this._mc.answer && "abcd".indexOf(e.key.toLowerCase()) < (this._mc.n || 0)) {
         e.preventDefault(); // A/B/C/D answer whichever MC block is live — digits stay the option-card openers
@@ -921,7 +921,7 @@ class Component extends DCLogic {
     const head = this.drillHeadRef.current; if (!head) return;
     head.innerHTML =
       '<div style="display:flex;align-items:center;height:40px;margin-bottom:12px;">' +
-        '<span class="ngBack" style="cursor:pointer;color:#aeb9d2;display:flex;align-items:center;gap:6px;font-size:12px;font-weight:600;white-space:nowrap;height:30px;padding:0 13px 0 10px;border-radius:9px;background:rgba(255,255,255,.05);transition:background .15s,color .15s;"><span style="font-size:14px;line-height:1;">\u2039</span>All flashcards</span>' +
+        '<span class="ngBack" data-pane-back="1" style="cursor:pointer;color:#aeb9d2;display:flex;align-items:center;gap:6px;font-size:12px;font-weight:600;white-space:nowrap;height:30px;padding:0 13px 0 10px;border-radius:9px;background:rgba(255,255,255,.05);transition:background .15s,color .15s;"><span style="font-size:14px;line-height:1;">\u2039</span>Back</span>' +
       '</div>' +
       (role ? '<div style="font-size:10px;letter-spacing:.18em;text-transform:uppercase;font-weight:700;color:' + (roleColor || "#9fb0d8") + ';margin-bottom:5px;">' + role + '</div>' : '') +
       '<div style="display:flex;align-items:flex-start;justify-content:space-between;gap:10px;">' +
@@ -929,7 +929,7 @@ class Component extends DCLogic {
         (countText ? '<span style="flex:none;margin-top:3px;font-size:11px;font-weight:700;color:#7ee0a8;letter-spacing:.02em;">' + countText + '</span>' : '') +
       '</div>' +
       (sub ? '<div style="font-size:11.5px;color:#93a0bd;margin-top:7px;line-height:1.45;">' + sub + '</div>' : '');
-    head.querySelector(".ngBack").addEventListener("click", () => { this._session = null; this.openMenu(); });
+    head.querySelector(".ngBack").addEventListener("click", () => this._exitStudyTo(this._paneReturnTab)); // ‹ Back returns to the tab the study came from
     { const b = head.querySelector(".ngBack"); if (b) { b.addEventListener("mouseenter", () => { b.style.background = "rgba(255,255,255,.09)"; b.style.color = "#eef1f6"; }); b.addEventListener("mouseleave", () => { b.style.background = "rgba(255,255,255,.05)"; b.style.color = "#aeb9d2"; }); } }
   }
   updateDrillCount() {
@@ -968,7 +968,9 @@ class Component extends DCLogic {
     this.activeDrill = 0; this.deckIdx = 0; this.revealed = false;
     this._session = null;
     this._drillView = "home";
-    if (this.deckShown) {
+    // roll advance refreshes the History body ONLY when History is the shown tab — an open
+    // Explore search or Challenges scroll must never be stomped by the roll loop
+    if (this.deckShown && this._viewMode === "history" && !this._paneStudyActive()) {
       const list = this.drillListRef.current;
       const nearBottom = list ? (list.scrollHeight - list.scrollTop - list.clientHeight < 90) : true;
       const grew = (this._lastHomeRollLen || 0) < (this.rollLog ? this.rollLog.length : 0);
@@ -998,24 +1000,86 @@ class Component extends DCLogic {
     const wasShown = this.deckShown;
     this.deckShown = open;
     // ── PANE LAW ── the pane showing STOPS the game; hiding it resumes ONLY if the pane is what
-    // stopped it (a hand-paused roll stays paused when you close it). Same latch shape as
-    // _explorerAutoPaused / _dossierAutoPaused. Latched here, not in setDeckOpen, because
-    // several study entry points (openMenu, openHomeToLatest, checkpoint) assign deckOpen directly.
+    // stopped it (a hand-paused roll stays paused when you close it). One latch for the whole
+    // merged pane (any tab, any study surface) — _dossierAutoPaused stays separate for the node
+    // dossier. Latched here, not in setDeckOpen, because several study entry points (openMenu,
+    // openHomeToLatest, checkpoint) assign deckOpen directly.
+    // _paneTransition: the open/close beats run challenge-evidence processing, whose refresh
+    // tail re-renders the pane body — mid-transition that's a double render that eats one-shot
+    // state (migration notice, shelf scroll). The flag makes the refresh skip it; the caller's
+    // own render is the one that lands.
+    this._paneTransition = true;
     if (open && !wasShown) {
-      if (!this.paused) { this.setPaused(true); this._deckAutoPaused = true; this.fx("pane_paused", {}); }
-    } else if (!open && wasShown && this._deckAutoPaused) {
-      this._deckAutoPaused = false; this.setPaused(false); this.fx("pane_resumed", {});
+      if (!this.paused) { this.setPaused(true); this._paneAutoPaused = true; this.fx("pane_paused", {}); }
+      const active = document.activeElement;
+      this._explorerReturnFocus = active && active !== document.body ? active : null;
+    } else if (!open && wasShown) {
+      if (this._paneAutoPaused) { this._paneAutoPaused = false; this.setPaused(false); this.fx("pane_resumed", {}); }
+      this._pathDim = false;
+      this._learningViewsTracked = {};
+      const fallback = this._tutEl
+        ? this._tutEl.querySelector("[data-challenge-cue-open]")
+        : this.wrapRef.current && this.wrapRef.current.querySelector(".ng-logo");
+      const restore =
+        this._explorerReturnFocus && document.documentElement.contains(this._explorerReturnFocus)
+          ? this._explorerReturnFocus
+          : fallback;
+      this._explorerReturnFocus = null;
+      setTimeout(() => { try { if (restore && restore.focus) restore.focus(); } catch (e) {} }, 0);
     }
     const hint = this.optionHintRef.current;
     if (hint && open) { hint.style.opacity = "0"; hint.style.pointerEvents = "none"; }   // hide the scroll hint immediately when the sidebar opens
     const panel = this.drillRef.current;
-    if (panel) { panel.style.opacity = open ? "1" : "0"; panel.style.pointerEvents = open ? "auto" : "none"; }
+    if (panel) { panel.style.display = open ? "flex" : "none"; panel.style.pointerEvents = open ? "auto" : "none"; }
     const tab = this.drillTabRef.current;
     if (tab) { const tv = (this.deckReady && !this.deckOpen) ? "1" : "0"; tab.style.opacity = tv; tab.style.pointerEvents = tv === "1" ? "auto" : "none"; }
     const chip = this.acctChipRef.current;
     if (chip) chip.classList.toggle("ng-chip-merged", open);
+    if (open !== wasShown && this.renderChallengeCue) this.renderChallengeCue(); // cue hides while the pane is up
+    this._layoutPane();
     this.forceUpdate();
     this.updateDrillTab();
+    this._paneTransition = false;
+  }
+  // ── merged-pane layout ── two body modes share the one pane:
+  //  · tabs mode — knowledge header + Explore|Challenges|History nav + the active tab's body
+  //  · study takeover — a live deck/session/checkpoint owns the pane; nav hides so the quiz
+  //    can't be walked away from mid-question by a stray tab click (Esc/✕/‹Back still exit)
+  _paneStudyActive() { return !!(this.deck || this._session || this._checkpoint); }
+  _layoutPane() {
+    const panel = this.drillRef.current; if (!panel) return;
+    const study = this._paneStudyActive();
+    if (study && !this._paneWasStudy) this._paneReturnTab = this._viewMode; // remember where ‹ Back goes
+    this._paneWasStudy = study;
+    if (study) panel.setAttribute("data-pane-study", "1"); else panel.removeAttribute("data-pane-study");
+    const kn = this.knowledgeRef.current; if (kn) kn.style.display = study ? "none" : "block";
+    const vt = this.viewToggleRef.current; if (vt) vt.style.display = study ? "none" : "grid";
+    const tools = this.explorerToolsRef.current;
+    if (tools) tools.style.display = (study || this._viewMode === "history") ? "none" : "flex";
+    const showEx = !study && this._viewMode !== "history";
+    const exList = this.explorerListRef.current; if (exList) exList.style.display = showEx ? "block" : "none";
+    if (!showEx) { const dos = this.dossierRef.current; if (dos) dos.style.display = "none"; }
+    const showDrill = study || this._viewMode === "history";
+    const dh = this.drillHeadRef.current; if (dh) dh.style.display = showDrill ? "block" : "none";
+    const dl = this.drillListRef.current; if (dl) dl.style.display = showDrill ? "flex" : "none";
+    const df = this.drillFootRef.current; if (df && !showDrill) df.style.display = "none";
+  }
+  // render whichever body the active tab owns (no-op while a study surface holds the pane)
+  _renderPaneBody() {
+    this._layoutPane();
+    if (!this.deckShown || this._paneStudyActive()) return;
+    if (this._viewMode === "history") { this._pathDim = false; this.renderDrillHome(); }
+    else this.renderExplorer();
+  }
+  // exit an active study surface back to tabs mode on the given (or remembered) tab
+  _exitStudyTo(view) {
+    if (this._mcAdvT) { clearTimeout(this._mcAdvT); this._mcAdvT = null; } // leaving the card view cancels the pending advance
+    if (this._checkpoint) this._cancelCheckpoint();
+    this.deck = null; this._session = null; this._sessionNodes = null; this._inSession = false;
+    this._drillView = "home";
+    const target = view || this._paneReturnTab || "history";
+    if (this._viewMode !== target) this.setViewMode(target);
+    else this._renderPaneBody();
   }
   updateDrillTab() {
     const sub = this.drillTabSubRef.current; const title = this.drillTabTitleRef.current; const icon = this.drillTabIconRef.current;
@@ -1025,22 +1089,23 @@ class Component extends DCLogic {
     const cards = e0.cards;
     const total = cards ? cards.length : 0;
     const done = Math.min((this.prep && this.prep[this._posKey]) || 0, total);
+    // slim tab: the medal icon carries the progress; the count lives on the landing card's chip
     let ic = "\u26a1", t1 = "Study this state", t2 = "Flashcards being authored", c1 = "#9ab0e0", c2 = "#c9d3e6", shortLn2 = "Study state", ln2Col = "#c9d3e6";
     const famName = (e0.info && e0.info.fam) || "";
     if (!total && famName) { t1 = famName; t2 = "Cards coming soon"; }
     if (total) {
       t1 = famName || "This position";
       if (done >= total) {
-        ic = "\uD83E\uDD47"; t2 = total + "/" + total + " Mastered"; c2 = "#7ee0a8"; shortLn2 = total + "/" + total + " Mastered"; ln2Col = "#7ee0a8";
+        ic = "\uD83E\uDD47"; t2 = "Mastered \u00b7 review"; c2 = "#7ee0a8"; shortLn2 = "Mastered"; ln2Col = "#7ee0a8";
       } else if (done === 0) {
         ic = "\u25CB";
-        t2 = "0/" + total + " Mastered \u00b7 prove it";
-        shortLn2 = "0/" + total + " Mastered";
+        t2 = "Drill to boost your odds \u2192";
+        shortLn2 = "Study";
       } else {
         const frac = done / total;
         ic = frac < 0.34 ? "\uD83E\uDD49" : (frac < 0.67 ? "\uD83E\uDD48" : "\uD83E\uDD47");
-        t2 = done + "/" + total + " Mastered";
-        shortLn2 = done + "/" + total + " Mastered";
+        t2 = "Drill to boost your odds \u2192";
+        shortLn2 = "Study";
       }
     }
     const famSize = famName.length > 18 ? 8 : (famName.length > 13 ? 8.5 : 9.5);
@@ -1081,6 +1146,9 @@ class Component extends DCLogic {
   openMenu() {
     if (this._mcAdvT) { clearTimeout(this._mcAdvT); this._mcAdvT = null; } // leaving the card view cancels the pending advance
     this._drillView = "home";
+    if (this._checkpoint) this._cancelCheckpoint(); // walking home mid-quiz abandons it (same as ✕/Esc)
+    this.deck = null; this._session = null; // home = tabs mode, not study takeover
+    if (this._viewMode !== "history") this.setViewMode("history");
     this.deckReady = true; this.deckOpen = true;
     this.applyDeckVisibility();
     this.renderDrillHome();
@@ -1089,9 +1157,12 @@ class Component extends DCLogic {
   closeMenu() { this.setDeckOpen(false); }
   _deckHasCards(key) { const d = (this.flashcards && this.flashcards.decks) ? this.flashcards.decks[key] : null; return !!(d && d.cards && d.cards.length); }
   openHomeToLatest() {
-    // "Study this state" lands in the flashcards home, focused on the CURRENT state's deck (even if its
-    // cards aren't authored yet — the row shows the scaffold). Never falls back to a previous state.
-    this._drillView = "home"; this.deck = null;
+    // "Study this state" lands in the flashcards home (History tab), focused on the CURRENT state's
+    // deck (even if its cards aren't authored yet — the row shows the scaffold). Never falls back
+    // to a previous state.
+    this._drillView = "home"; this.deck = null; this._session = null;
+    if (this._checkpoint) this._cancelCheckpoint();
+    if (this._viewMode !== "history") this.setViewMode("history");
     const rl = this.rollLog || [];
     let idx = rl.length - 1;
     this._rollFocus = idx;
@@ -1221,7 +1292,7 @@ class Component extends DCLogic {
   onFlashcardsReady() {
     try {
       if (this.currentPos != null && this.currentPos >= 0) this.buildDrillPanel(this.currentPos);
-      if (this.deckShown && this._drillView === "home") this.renderDrillHome();
+      if (this.deckShown && this._viewMode === "history" && this._drillView === "home" && !this._paneStudyActive()) this.renderDrillHome();
       this.refreshOptionOdds(); this.updateDrillTab();
       this._refreshChallengeEvidence();
     } catch (e) { /* non-fatal */ }
@@ -1243,16 +1314,7 @@ class Component extends DCLogic {
     this._seen = this._seen || {};
     (this._seen[key] = this._seen[key] || new Set()).add(idx);
   }
-  coveragePct(mastered, goal) {
-    const raw = (mastered / Math.max(1, goal)) * 100;
-    if (raw <= 0) return 0;
-    if (raw >= 100) return 100;
-    if (raw > 99) return 99;
-    return Math.max(1, Math.ceil(raw));
-  }
   iconStack(col) { return '<svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="' + (col || '#9fb0d8') + '" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2 2 7l10 5 10-5-10-5Z"></path><path d="m2 17 10 5 10-5"></path><path d="m2 12 10 5 10-5"></path></svg>'; }
-  iconGear() { return '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"></circle><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1Z"></path></svg>'; }
-  iconDrawer() { return '<svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2.5"></rect><line x1="14" y1="5" x2="14" y2="19"></line><path d="M5.6 12h5.2M8.6 9.8 6.4 12l2.2 2.2"></path></svg>'; }
 
   renderDrillHome() {
     this.settings = this.settings || {};
@@ -1263,24 +1325,15 @@ class Component extends DCLogic {
     if (!head || !list) return;
     if (foot) { foot.style.display = "none"; foot.innerHTML = ""; }
 
-    // header: FLASHCARDS + gear, then the "Your game" hero (merges mastered + cards-today + coverage)
-    const pct = this.coveragePct(mastered, goal);
+    // History head: auth CTA (guests) + the compact stat row. The knowledge header above the
+    // tabs is the ONLY progress meter — the old "Daily flashcards" hero bar is gone (v1.76.0).
     head.innerHTML =
-      '<div style="display:flex;align-items:center;gap:4px;height:34px;margin-bottom:' + (this.user ? '18px' : '14px') + ';">' +
-        '<span class="ngClose" title="Collapse panel" style="cursor:pointer;color:#aeb9d2;width:30px;height:30px;border-radius:9px;display:flex;align-items:center;justify-content:center;flex:none;transition:background .15s ease,color .15s ease;">' + this.iconDrawer() + '</span>' +
-        '<span class="ngGear" title="Settings" style="cursor:pointer;color:#9aa6bd;width:30px;height:30px;border-radius:9px;display:flex;align-items:center;justify-content:center;flex:none;transition:background .15s ease,color .15s ease;">' + this.iconGear() + '</span>' +
-      '</div>' +
       (this.user ? '' :
-        '<div class="ngHdrAuth" style="cursor:pointer;display:flex;flex-direction:column;align-items:center;gap:2px;width:100%;padding:11px;border-radius:12px;background:linear-gradient(135deg,#4a6cff,#7a4cff);box-shadow:0 5px 18px rgba(74,108,255,.4);margin-bottom:16px;transition:filter .15s ease,transform .1s ease;">' +
+        '<div class="ngHdrAuth" style="cursor:pointer;display:flex;flex-direction:column;align-items:center;gap:2px;width:100%;padding:11px;border-radius:12px;background:linear-gradient(135deg,#4a6cff,#7a4cff);box-shadow:0 5px 18px rgba(74,108,255,.4);margin-bottom:14px;transition:filter .15s ease,transform .1s ease;">' +
           '<span style="font-size:13px;font-weight:700;color:#fff;">Create account or log in</span>' +
           '<span style="font-size:10.5px;font-weight:500;color:rgba(255,255,255,.8);">Save your rolls &amp; progress</span>' +
         '</div>') +
-      '<div style="display:flex;align-items:baseline;justify-content:space-between;margin-bottom:9px;">' +
-        '<span style="font-size:11px;letter-spacing:.12em;text-transform:uppercase;font-weight:700;color:#7b8aa8;white-space:nowrap;">Daily flashcards</span>' +
-        '<span style="font-size:13px;font-weight:700;color:#9ab0e0;font-family:\'Space Grotesk\',sans-serif;">' + pct + '%</span>' +
-      '</div>' +
-      '<div style="height:7px;border-radius:4px;background:rgba(255,255,255,.06);overflow:hidden;"><div style="height:100%;width:' + pct + '%;background:linear-gradient(90deg,#4a6cff,#7ee0a8);border-radius:4px;"></div></div>' +
-      '<div style="display:flex;gap:14px;margin-top:10px;font-size:11.5px;">' +
+      '<div style="display:flex;gap:14px;font-size:11.5px;">' +
         '<span class="ngStat" data-b="mastered" style="cursor:pointer;color:#8b97b0;display:inline-flex;align-items:center;gap:4px;border-bottom:1px dashed rgba(139,151,176,.35);padding-bottom:1px;"><b style="color:#cbd4e6;font-weight:700;">' + mastered + '</b> mastered</span>' +
         '<span class="ngStat" data-b="due" style="cursor:pointer;color:#8b97b0;display:inline-flex;align-items:center;gap:4px;border-bottom:1px dashed rgba(139,151,176,.35);padding-bottom:1px;"><b style="color:#7ee0a8;font-weight:700;">' + (this.cardsToday || 0) + '</b> today</span>' +
         '<span class="ngStat" data-b="suggested" style="cursor:pointer;color:#d6a45a;display:inline-flex;align-items:center;gap:4px;border-bottom:1px dashed rgba(214,164,90,.4);padding-bottom:1px;"><b style="color:#e9bd70;font-weight:700;">' + goal + '+</b> weak spots</span>' +
@@ -1291,13 +1344,7 @@ class Component extends DCLogic {
       s.addEventListener("mouseleave", () => s.style.color = sg ? "#d6a45a" : "#8b97b0");
       s.addEventListener("click", () => { const b = s.getAttribute("data-b"); if (b === "suggested") { this.openSession("suggested", "Weak spots in your game"); } else { this.openFlashBrowser(b, b === "mastered" ? "Mastered" : "Due Today"); } });
     });
-    head.querySelectorAll(".ngGear,.ngClose").forEach((b) => {
-      b.addEventListener("mouseenter", () => { b.style.background = "rgba(255,255,255,.07)"; b.style.color = "#eef1f6"; });
-      b.addEventListener("mouseleave", () => { b.style.background = "transparent"; b.style.color = b.classList.contains("ngClose") ? "#aeb9d2" : "#9aa6bd"; });
-    });
     { const a = head.querySelector(".ngHdrAuth"); if (a) { a.addEventListener("mouseenter", () => a.style.filter = "brightness(1.08)"); a.addEventListener("mouseleave", () => a.style.filter = "none"); a.addEventListener("click", () => this.openAuth("create")); } }
-    head.querySelector(".ngGear").addEventListener("click", () => this.openSettings("flashcards"));
-    head.querySelector(".ngClose").addEventListener("click", () => this.setDeckOpen(false));
 
     list.innerHTML = "";
     this._miniReg = {};
@@ -2560,34 +2607,35 @@ class Component extends DCLogic {
     if (!stored) {
       try { stored = localStorage.getItem("bjj_view_mode"); } catch (e) {}
     }
+    // History replaced the Collection tab (v1.76.0) — stored `collection` (and legacy `path`)
+    // land on challenges; `tree` stays explore.
     const migrated =
       stored === "tree" || stored === "explore"
         ? "explore"
-        : stored === "collection"
-          ? "collection"
+        : stored === "history"
+          ? "history"
           : "challenges";
     this._viewMode = migrated;
     if (stored && currentView !== migrated) {
       this.set("challengeView", migrated);
     }
     this.styleViewToggle();
-    const list = this.explorerListRef.current;
-    if (list && this.explorerRef.current && this.explorerRef.current.style.display === "flex") this.renderExplorer();
+    if (this.deckShown) this._renderPaneBody();
     this._refreshChallengeEvidence();
   }
   setViewMode(m) {
-    if (m !== "explore" && m !== "challenges" && m !== "collection") return;
+    if (m === "collection") m = "challenges"; // retired tab — its content lives in Challenges now
+    if (m !== "explore" && m !== "challenges" && m !== "history") return;
     if (this._viewMode === m) return;
     this._viewMode = m;
     this.set("challengeView", m);
     try { localStorage.setItem("bjj_view_mode", m); } catch (e) {}
     this.styleViewToggle();
-    const el = this.explorerRef.current;
-    if (el && el.style.display === "flex") this.renderExplorer();
+    this._renderPaneBody();
   }
   styleViewToggle() {
     const vt = this.viewToggleRef.current; if (!vt) return;
-    vt.style.display = "grid";
+    vt.style.display = this._paneStudyActive() ? "none" : "grid";
     vt.querySelectorAll("[data-view]").forEach((s) => {
       const on = s.getAttribute("data-view") === this._viewMode;
       s.setAttribute("aria-pressed", on ? "true" : "false");
@@ -2595,9 +2643,9 @@ class Component extends DCLogic {
     const search = this.explorerSearchWrapRef.current;
     if (search) search.style.display = this._viewMode === "explore" ? "flex" : "none";
     const tools = this.explorerToolsRef.current;
-    if (tools) tools.style.display = this._viewMode === "collection" ? "none" : "flex";
+    if (tools) tools.style.display = this._viewMode === "history" ? "none" : "flex";
     const gi = this.giToggleRef.current;
-    if (gi) gi.style.display = this._viewMode === "collection" ? "none" : "flex";
+    if (gi) gi.style.display = this._viewMode === "history" ? "none" : "flex";
     if (this.renderKnowledgeHeader) this.renderKnowledgeHeader();
   }
   _deckGoal(key) { const d = this.flashcards && this.flashcards.decks ? this.flashcards.decks[key] : null; return Math.min(3, (d && d.cards && d.cards.length) || 3); }
@@ -2622,7 +2670,7 @@ class Component extends DCLogic {
     this._session = { keys: keys, label: unit.name, idx: Math.max(0, keys.indexOf(l.deckKey)) };
     this._sessionNodes = keys.map((k) => this.nodeForKey(k)).filter((i) => i >= 0);
     const idx = this._lessonNodeIdx(l.deckKey);
-    if (idx >= 0) this.locateNode(idx); // prezi flight; also closes the explorer
+    if (idx >= 0) this.locateNode(idx); // prezi flight (pane stays open — study takes it over next)
     this.studyFromSession(l.deckKey);
   }
   completeCheckpoint(beltId, unit) {
@@ -2722,8 +2770,7 @@ class Component extends DCLogic {
       pointsWin: (belt.test && belt.test.pointsWinDominance) || 0.35,
     };
     this.fx("belt_test_start", { belt: beltId, maxMoves: this._beltTest.maxMoves });
-    const el = this.explorerRef.current;
-    if (el && el.style.display === "flex") this.toggleExplorer();
+    if (this.deckShown) this.setDeckOpen(false);
     const posIdx = this._idIndex ? this._idIndex.get(belt.test.startNodeId) : null;
     const challengeTrack = NG_CHALLENGE_TRACKS.find((track) => track.id === beltId);
     this.showCenter("CONTENT CAPSTONE", (challengeTrack ? challengeTrack.name : belt.name) + " capstone", this._beltTest.maxMoves + " moves \u00b7 win by tap or on points", "bad", true);
@@ -2748,43 +2795,32 @@ class Component extends DCLogic {
     return this._explorer;
   }
   toggleExplorer() {
-    const el = this.explorerRef.current; if (!el) return;
-    if (el.style.display === "flex") {
-      el.style.display = "none"; this._dossierIdx = null;
-      this._pathDim = false;
-      this._learningViewsTracked = {};
-      if (this._explorerAutoPaused) { this.setPaused(false); this._explorerAutoPaused = false; }
-      if (this.renderChallengeCue) this.renderChallengeCue();
-      const fallback = this._tutEl
-        ? this._tutEl.querySelector("[data-challenge-cue-open]")
-        : this.wrapRef.current && this.wrapRef.current.querySelector(".ng-logo");
-      const restore =
-        this._explorerReturnFocus &&
-        document.documentElement.contains(this._explorerReturnFocus)
-          ? this._explorerReturnFocus
-          : fallback;
-      this._explorerReturnFocus = null;
-      setTimeout(() => { try { if (restore && restore.focus) restore.focus(); } catch (e) {} }, 0);
-    }
+    // the logo (and legacy callers) toggle the merged pane
+    if (this.deckShown) { this.setDeckOpen(false); }
     else {
-      this.openExplorer(); this.showExplorerList();
-      const inp = this.explorerSearchRef.current;
+      this.openPane();
       if (this._viewMode === "explore") {
-        setTimeout(() => { try { if (inp) inp.focus(); } catch (e) {} }, 80);
+        setTimeout(() => { try { const inp = this.explorerSearchRef.current; if (inp) inp.focus(); } catch (e) {} }, 80);
       }
     }
     this.lastInteract = this.now;
   }
-  openExplorer() {
-    const el = this.explorerRef.current; if (!el) return;
-    if (el.style.display !== "flex") {
-      const active = document.activeElement;
-      this._explorerReturnFocus =
-        active && active !== document.body ? active : null;
-      el.style.display = "flex";
-      if (!this.paused) { this.setPaused(true); this._explorerAutoPaused = true; }
-      if (this.renderChallengeCue) this.renderChallengeCue();
-    }
+  // open the merged pane in tabs mode, optionally jumping to a tab. A live study surface is
+  // exited first — browsing intent (logo, "/", cue) always lands on the tab bar.
+  openPane(view) {
+    if (this._paneStudyActive()) this._exitStudyTo(view || this._viewMode);
+    else if (view) this.setViewMode(view);
+    { const sh = this.dossierSheetRef.current; if (sh && sh.style.display === "block") this.closeDossierSheet(); } // the pane replaces the mobile sheet
+    this._wirePaneControls();
+    this._drillView = "home";
+    this.deckReady = true; this.deckOpen = true;
+    this.applyDeckVisibility();
+    this._renderPaneBody();
+    this.lastInteract = this.now;
+  }
+  // legacy name kept — challenge-ui's openLearningView calls openExplorer()+showExplorerList()
+  openExplorer() { this.openPane(); }
+  _wirePaneControls() {
     const inp = this.explorerSearchRef.current;
     if (inp && !inp._wired) {
       inp._wired = true;
@@ -2843,8 +2879,7 @@ class Component extends DCLogic {
     this.renderExplorer();
   }
   closeExplorerIfOpen() {
-    const el = this.explorerRef.current;
-    if (el && el.style.display === "flex") this.toggleExplorer();
+    if (this.deckShown) this.setDeckOpen(false);
   }
   closeDeckIfStudying() {
     // close the right sidebar when clicking the graph, but only when it's an opened study panel
@@ -2855,15 +2890,18 @@ class Component extends DCLogic {
     if (this.deckOpen && this.sbOffset() === 0) { this.setDeckOpen(false); this._session = null; this._sessionNodes = null; this._inSession = false; }
   }
   renderExplorer() {
+    // defensive: legacy callers (setGiMode, pinChallengeTrack, selectChallengeTrack) call this
+    // directly — route the History tab to its own renderer instead of the explorer list
+    if (this._viewMode === "history") {
+      if (this.renderKnowledgeHeader) this.renderKnowledgeHeader();
+      if (this.deckShown && !this._paneStudyActive()) this.renderDrillHome();
+      return;
+    }
     const list = this.explorerListRef.current; if (!list) return;
     list.innerHTML = "";
     if (this.renderKnowledgeHeader) this.renderKnowledgeHeader();
     if (this._viewMode === "challenges") {
       this.renderChallenges(list);
-      return;
-    }
-    if (this._viewMode === "collection") {
-      this.renderCollection(list);
       return;
     }
     const data = this.buildExplorer();
@@ -2937,10 +2975,11 @@ class Component extends DCLogic {
     renderCurated("Learning");
   }
   locateNode(idx) {
+    // pure camera flight — the merged pane sits on the right, the graph flies on the visible left,
+    // and every caller (session rows, lesson study) keeps the pane open for the study that follows
     const n = this.nodes[idx]; if (!n) return;
     this.camTarget = { cx: n.x, cy: n.y, vw: Math.max(this.graphW * 0.22, this.graphR * 0.5) };
     this.lastInteract = this.now; this.flare(idx);
-    this.toggleExplorer();
   }
   // ---------- dossier: the technique page, living in the left pane ----------
   isMobile() { return (this.W || window.innerWidth) <= 640; }
@@ -2964,8 +3003,7 @@ class Component extends DCLogic {
     this._dossierIdx = idx;
     if (this.isMobile()) {
       // top sheet: 70% tall, graph strip + options + win bar + drill row stay visible below
-      const ex = this.explorerRef.current;
-      if (ex && ex.style.display === "flex") { ex.style.display = "none"; if (this._explorerAutoPaused) { this.setPaused(false); this._explorerAutoPaused = false; } }
+      if (this.deckShown) this.setDeckOpen(false); // the pane covers the screen on mobile — the sheet replaces it
       const sh = this.dossierSheetRef.current;
       if (sh) {
         clearTimeout(this._shT);
@@ -2987,8 +3025,7 @@ class Component extends DCLogic {
     // and fly the camera all the way into node-mode zoom (s=1). updateNodeCard fades the
     // in-node dossier in during the flight; the reveal IS the zoom.
     {
-      const ex = this.explorerRef.current;
-      if (ex && ex.style.display === "flex") { ex.style.display = "none"; if (this._explorerAutoPaused) { this.setPaused(false); this._explorerAutoPaused = false; } }
+      if (this.deckShown) this.setDeckOpen(false); // the unified latch resumes; the dossier re-pauses below
       const dos = this.dossierRef.current; if (dos) dos.style.display = "none";
     }
     if (!this.paused) { this.setPaused(true); this._dossierAutoPaused = true; }
@@ -3685,8 +3722,6 @@ class Component extends DCLogic {
     const order = pool.slice();
     while (picks.length < want && order.length) picks.push(order.splice((this.rng("checkpoint-pick") * order.length) | 0, 1)[0]);
     this._checkpoint = { belt: beltId, unit: unit, uk: uk, picks: picks, i: 0, firstTry: 0, pass: (unit.checkpoint && unit.checkpoint.pass) || 5 };
-    const el = this.explorerRef.current;
-    if (el && el.style.display === "flex") this.toggleExplorer();
     this.fx("checkpoint_start", { unit: uk, cards: picks.length });
     this._checkpointShow();
   }
@@ -3734,7 +3769,7 @@ class Component extends DCLogic {
     if (!this.deck || !this.revealed) return;
     this.recallGrade(got); // one choke: prep+rec+stage on Got-it, stage-drop on Review-again
   }
-  isDrillOpen() { const el = this.drillRef.current; return el && el.style.opacity === "1" && !!this.deck; }
+  isDrillOpen() { return !!(this.deckShown && this.deck); }
   renderDrill() {
     const list = this.drillListRef.current;
     const entries = this.drillEntries;    if (!list || !entries || !entries.length) return;
@@ -3954,10 +3989,10 @@ class Component extends DCLogic {
       hint.style.opacity = more ? "0.5" : "0";
       hint.style.pointerEvents = more ? "auto" : "none";
     }
-    // the open sidebar owns the top-right corner — retract the account pill so it doesn't sit over the sidebar's close button
-    // the Guest pill stays put and fuses with the sidebar (like the logo with the left explorer) — never retracts
+    // the open pane owns the top-right corner — its ✕ sits exactly where the account pill lives,
+    // so the pill fades out with the shift instead of stacking two clickables
     const ac = this.accountRef.current;
-    if (ac) { ac.style.opacity = "1"; ac.style.pointerEvents = "auto"; ac.style.transform = "none"; }
+    if (ac) { ac.style.opacity = (1 - this.uiShift).toFixed(3); ac.style.pointerEvents = this.uiShift > 0.5 ? "none" : "auto"; ac.style.transform = "none"; }
   }
   clearOptions() { const el = this.optionsRef.current; if (el) { el.innerHTML = ""; el.style.pointerEvents = "none"; el.style.opacity = "1"; el.style.transform = "none"; el.style.overflowX = "auto"; el.style.overflowY = "hidden"; el.style.webkitMaskImage = ""; el.style.maskImage = ""; el.style.justifyContent = "safe center"; el.style.paddingLeft = ""; el.style.paddingRight = ""; el.scrollLeft = 0; } this._detailCtx = null; this.hideOptDetail(); this.clearLandCard(); this.optionIdxs = []; this._optionCards = []; this._optHintAt = 0; this.setBeacon(null); }
   tweenScroll(el, delta) {
@@ -4194,12 +4229,17 @@ class Component extends DCLogic {
     (this.__ngRoot || document.body).appendChild(el);
     this._landEl = el;
 
-    // 1 — identity: what it is · where you came from · which side you're playing · seen-before
+    // 1 — identity: what it is · where you came from · which side you're playing — and one
+    // top-right familiarity chip: the seen-glyph fused with the deck's recall-proven count
+    // (● 3/8). Clicking it opens this state's flashcards (a user click — pane-law-legal).
+    const deckD = (this.flashcards && this.flashcards.decks) ? this.flashcards.decks[key] : null;
+    const totalCards = deckD && deckD.cards ? deckD.cards.length : 0;
+    const doneCards = Math.min((this.prep && this.prep[key]) || 0, totalCards);
+    const chipFull = totalCards > 0 && doneCards >= totalCards;
     const head = document.createElement("div");
     head.setAttribute("data-land-id", "1");
     head.style.cssText = "display:flex;align-items:flex-start;gap:9px;";
     head.innerHTML =
-      '<span title="' + glyph[2] + '" style="flex:none;font-size:13px;line-height:1.35;color:' + glyph[1] + ';">' + glyph[0] + '</span>' +
       '<div style="flex:1;min-width:0;">' +
         '<div style="font-size:14.5px;font-weight:700;color:#eef1f6;font-family:\'Space Grotesk\',sans-serif;line-height:1.2;">' + sp.main + '</div>' +
         '<div style="font-size:10.5px;color:#8094b4;margin-top:3px;line-height:1.3;">' +
@@ -4207,7 +4247,13 @@ class Component extends DCLogic {
           (prev ? ' &middot; from ' + prev.name : '') +
           (sp.from ? ' &middot; ' + sp.from : '') +
         '</div>' +
-      '</div>';
+      '</div>' +
+      '<span data-land-count="' + (totalCards ? doneCards + "/" + totalCards : "") + '" title="' + glyph[2] + (totalCards ? " · " + doneCards + " of " + totalCards + " cards recall-proven" : "") + '" style="flex:none;margin-left:auto;display:inline-flex;align-items:center;gap:5px;' + (totalCards ? "cursor:pointer;" : "") + 'padding:3px 9px;border-radius:999px;border:1px solid rgba(150,170,210,.22);background:rgba(255,255,255,.04);font-size:10.5px;font-weight:700;font-family:\'Space Grotesk\',sans-serif;color:' + (chipFull ? "#7ee0a8" : "#9ab0e0") + ';">' +
+        '<span style="font-size:11px;line-height:1;color:' + glyph[1] + ';">' + glyph[0] + '</span>' +
+        (totalCards ? '<span>' + doneCards + "/" + totalCards + '</span>' : '') +
+      '</span>';
+    const chip = head.querySelector("[data-land-count]");
+    if (chip && totalCards) chip.addEventListener("click", (e) => { e.stopPropagation(); this.openHomeToLatest(); });
     el.appendChild(head);
 
     // 2 — the one-phrase definition, in the page's own words (absent until the dossier payload lands)
@@ -4614,12 +4660,12 @@ class Component extends DCLogic {
       this.renderTutorial();
     }
     if (this.renderChallengeCue) this.renderChallengeCue();
-    const explorer = this.explorerRef && this.explorerRef.current;
     if (
-      explorer &&
-      explorer.style.display === "flex" &&
+      this.deckShown &&
+      !this._paneTransition &&
       !this._renderingChallengeView &&
-      (this._viewMode === "challenges" || this._viewMode === "collection")
+      !this._paneStudyActive() &&
+      this._viewMode === "challenges"
     ) {
       this.renderExplorer();
     }
@@ -5498,7 +5544,7 @@ class Component extends DCLogic {
     }
     this._hover = best >= 0 ? { idx: best, t: this.now } : null;
   }
-  sbOffset() { const w = this.W || (this.wrapRef.current ? this.wrapRef.current.clientWidth : 1200); return w <= 640 ? 0 : (w <= 1023 ? 300 : 312); }
+  sbOffset() { const w = this.W || (this.wrapRef.current ? this.wrapRef.current.clientWidth : 1200); return w <= 640 ? 0 : 360; }
   attachInput() {
     const el = this.wrapRef.current;
     let dragging = false, lx = 0, ly = 0, dsx = 0, dsy = 0, moved = 0;

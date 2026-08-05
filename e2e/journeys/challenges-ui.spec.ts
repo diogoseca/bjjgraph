@@ -36,7 +36,7 @@ test.describe("Challenges UI @curated", () => {
     await expect(page.locator(".ng-learning-nav button")).toHaveText([
       "Explore",
       "Challenges",
-      "Collection",
+      "History",
     ]);
 
     const tracks = page.locator(".ng-track-card");
@@ -51,7 +51,7 @@ test.describe("Challenges UI @curated", () => {
       page.locator(".ng-challenge-checkpoint").first(),
     ).toBeDisabled();
     await expect(page.locator("[data-capstone='black'] button")).toBeDisabled();
-    await expect(page.locator(".ng-challenge-curriculum")).toContainText(
+    await expect(page.locator(".ng-challenge-curriculum").first()).toContainText(
       "Every lesson is open",
     );
   });
@@ -86,7 +86,7 @@ test.describe("Challenges UI @curated", () => {
     await expect(page.locator(".ng-pin-track")).toHaveText("Pinned to my roll");
   });
 
-  test("Collection distinguishes meaningful patches from mint-once joke coins", async ({
+  test("the rewards shelf distinguishes meaningful patches from mint-once joke coins", async ({
     page,
   }) => {
     const j = journey(page);
@@ -98,11 +98,14 @@ test.describe("Challenges UI @curated", () => {
       }),
     });
 
+    // Collection retired as a tab (v1.76.0) — the same items live on a shelf inside Challenges
     await page.locator(".ng-logo").click();
-    await page.locator("[data-view='collection']").click();
-    await expect(page.locator(".ng-collection-intro")).toContainText(
+    await page.locator("[data-view='challenges']").click();
+    const shelf = page.locator("[data-rewards-shelf]");
+    await expect(shelf.locator("summary")).toContainText(
       "Mat Coins are just for laughs. They do not buy anything.",
     );
+    await shelf.locator("summary").click();
     await expect(page.locator(".ng-patch-badge")).toHaveCount(7);
     await expect(page.locator(".ng-mat-coin")).toHaveCount(8);
     await expect(
@@ -134,8 +137,10 @@ test.describe("Challenges UI @curated", () => {
     await expect(page.locator(".ng-challenge-distinction")).toHaveText(
       "Tutorial is now White Challenges - same progress, more to collect.",
     );
+    // 7 seeded tut steps + white.pane-open: opening the merged pane IS opening the flashcards
+    // pane (pane_paused fires on every open since v1.76.0), so the count lands at 8
     await expect(page.locator("[data-track='white'] strong")).toHaveText(
-      "7 of 20",
+      "8 of 20",
     );
     await page.locator("[data-view='explore']").click();
     await page.locator("[data-view='challenges']").click();
@@ -168,13 +173,13 @@ test.describe("Challenges UI @curated", () => {
     await expect(notice).toHaveAttribute("data-challenge-state", "signed-out");
   });
 
-  test("legacy tree and path preferences migrate to Explore and Challenges", async ({
+  test("legacy tree, path, and collection preferences migrate to Explore and Challenges", async ({
     page,
   }) => {
     const j = journey(page);
     await j.boot("/", { keepTutorial: true });
 
-    const setLegacyView = async (view: "path" | "tree") => {
+    const setLegacyView = async (view: "path" | "tree" | "collection") => {
       await page.evaluate((legacyView) => {
         const app = (window as any).__neural;
         delete app.settings.challengeView;
@@ -200,9 +205,19 @@ test.describe("Challenges UI @curated", () => {
       "aria-pressed",
       "true",
     );
+
+    // the retired Collection tab lands on Challenges (its content lives on the rewards shelf)
+    await page.locator(".ng-explorer-close").click();
+    await setLegacyView("collection");
+    await j.boot("/", { keepTutorial: true, preserveStorage: true });
+    await page.locator(".ng-logo").click();
+    await expect(page.locator("[data-view='challenges']")).toHaveAttribute(
+      "aria-pressed",
+      "true",
+    );
   });
 
-  test("a Mat Coin acknowledgement links to its permanent Collection entry", async ({
+  test("a Mat Coin acknowledgement links to its permanent rewards-shelf entry", async ({
     page,
   }) => {
     const j = journey(page);
@@ -218,10 +233,11 @@ test.describe("Challenges UI @curated", () => {
     await expect(reward).toContainText("MAT COIN MINTED");
     await expect(reward).toContainText("Houdini");
     await reward.locator("[data-reward-collection]").click();
-    await expect(page.locator("[data-view='collection']")).toHaveAttribute(
+    await expect(page.locator("[data-view='challenges']")).toHaveAttribute(
       "aria-pressed",
       "true",
     );
+    await expect(page.locator("[data-rewards-shelf]")).toHaveAttribute("open", "");
     await expect(
       page
         .locator(".ng-mat-coin[data-earned='true']")

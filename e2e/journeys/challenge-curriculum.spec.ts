@@ -40,18 +40,18 @@ test.describe("Challenge curriculum @curated", () => {
       "aria-pressed",
       "true",
     );
-    await page.locator("[data-view='collection']").click();
+    await page.locator("[data-view='history']").click();
     expect(
       await page.evaluate(() => localStorage.getItem("bjj_view_mode")),
-    ).toBe("collection");
+    ).toBe("history");
 
     await j.boot("/", { preserveStorage: true });
     await page.evaluate(() => (window as any).__neural.toggleExplorer());
-    await expect(page.locator("[data-view='collection']")).toHaveAttribute(
+    await expect(page.locator("[data-view='history']")).toHaveAttribute(
       "aria-pressed",
       "true",
     );
-    await expect(page.locator(".ng-collection-intro")).toBeVisible();
+    await expect(page.locator(".ngStat[data-b='mastered']")).toBeVisible();
   });
 
   test("all content tracks and lessons are open while proof gates checkpoints and capstones", async ({
@@ -272,7 +272,7 @@ test.describe("Challenge curriculum @curated", () => {
     expect(state.curriculum).toBeNull();
     expect(state.mode).toBe("challenges");
     expect(state.nodes).toBeGreaterThan(1000);
-    await expect(page.locator(".ng-challenge-curriculum")).toContainText(
+    await expect(page.locator(".ng-challenge-curriculum").first()).toContainText(
       "Curriculum is unavailable right now",
     );
     await expect(page.locator(".ng-track-card")).toHaveCount(5);

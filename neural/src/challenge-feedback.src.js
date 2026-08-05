@@ -155,7 +155,8 @@ const NG_CHALLENGE_FEEDBACK_METHODS = {
       .querySelector("[data-reward-collection]")
       .addEventListener("click", () => {
         dismiss();
-        this.openLearningView("collection");
+        this._scrollRewardsShelf = true; // open + scroll the shelf inside Challenges
+        this.openLearningView("challenges");
       });
     el.querySelector("[data-reward-close]").addEventListener("click", dismiss);
     this._challengeRewardTimer = setTimeout(dismiss, 4800);

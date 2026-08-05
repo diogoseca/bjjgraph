@@ -111,7 +111,7 @@ test("newcomer's first session: coach → question → execute → pane → roam
     page.locator(".ng-drill [data-mc-opt]"),
     "never options in here",
   ).toHaveCount(0);
-  await page.locator(".ngClose").first().click();
+  await page.locator(".ng-explorer-close").click();
   expect(
     await page.evaluate(() => !!(window as any).__neural.paused),
     "closing resumed it",

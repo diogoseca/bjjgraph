@@ -56,11 +56,8 @@ const NG_CHALLENGE_UI_METHODS = {
         });
       }
       this.track("neural_challenges_viewed", {});
-    } else if (view === "collection") {
-      this.track("neural_collection_opened", {
-        patches: Object.keys(this.badges || {}).length,
-        coins: Object.keys(this.coins || {}).length,
-      });
+    } else if (view === "history") {
+      this.track("neural_history_viewed", {});
     }
   },
 
@@ -101,8 +98,7 @@ const NG_CHALLENGE_UI_METHODS = {
         Date.now();
     }
     this.setViewMode(view);
-    this.openExplorer();
-    this.showExplorerList();
+    this.openExplorer(); // openPane renders the active tab's body (and hides any in-pane dossier)
   },
 
   challengeAction(definition, trackId) {
@@ -190,6 +186,23 @@ const NG_CHALLENGE_UI_METHODS = {
     return article;
   },
 
+  // First unproven live lesson of a track — the "what do I do next?" answer. Purely a
+  // navigation aid: nothing about it locks or unlocks anything (canon).
+  challengeFrontier(trackId) {
+    const belt =
+      this.curriculum &&
+      this.curriculum.belts.find((item) => item.id === trackId);
+    if (!belt) return null;
+    for (const unit of belt.units) {
+      for (const lesson of unit.lessons) {
+        if (this._lessonLive(lesson) && !this.lessonDone(lesson.deckKey)) {
+          return { lesson: lesson, unit: unit, belt: belt };
+        }
+      }
+    }
+    return null;
+  },
+
   challengeCurriculumElement(trackId) {
     const section = document.createElement("section");
     section.className = "ng-challenge-curriculum";
@@ -201,6 +214,10 @@ const NG_CHALLENGE_UI_METHODS = {
         "<small>CURRICULUM PRACTICE</small><p>Curriculum is unavailable right now. Action challenges still work.</p>";
       return section;
     }
+    // the frontier lesson (pinned track only) gets the glow — everything else that's not
+    // done yet dims gently via CSS on data-lesson-done (visual only; every row stays live)
+    const pinnedId = this.get("challengePinnedTrack", "white");
+    const frontier = trackId === pinnedId ? this.challengeFrontier(trackId) : null;
     section.innerHTML =
       "<small>OPEN CURRICULUM PRACTICE</small><p>Every lesson is open. Checkpoints and the optional capstone ask for evidence first.</p>";
     for (let index = 0; index < belt.units.length; index += 1) {
@@ -215,7 +232,7 @@ const NG_CHALLENGE_UI_METHODS = {
       );
       const details = document.createElement("details");
       details.className = "ng-challenge-group";
-      if (index === 0) details.open = true;
+      details.open = true; // the ladder shows everything — the whole journey scrolls
       details.innerHTML =
         "<summary><span><b>" +
         ngChallengeHTML(unit.name) +
@@ -232,6 +249,13 @@ const NG_CHALLENGE_UI_METHODS = {
         button.type = "button";
         button.className = "ng-challenge-lesson";
         button.setAttribute("data-lesson", lesson.deckKey);
+        button.setAttribute(
+          "data-lesson-done",
+          this.lessonDone(lesson.deckKey) ? "true" : "false",
+        );
+        if (frontier && frontier.lesson.deckKey === lesson.deckKey && frontier.unit === unit) {
+          button.setAttribute("data-frontier", "1");
+        }
         button.innerHTML =
           this.crownBadge(
             this.deckMastery(lesson.deckKey),
@@ -349,9 +373,33 @@ const NG_CHALLENGE_UI_METHODS = {
         this._challengeMigrationNotice = false;
         this.set("challengeMigrationSeen", true);
       }
-      const tracks = document.createElement("section");
-      tracks.className = "ng-track-list";
-      tracks.setAttribute("aria-label", "Challenge tracks");
+      // CONTINUE — the zero-thought next step: jump straight to the pinned track's frontier
+      const pinnedId = this.get("challengePinnedTrack", "white");
+      const frontier = this.challengeFrontier(pinnedId);
+      if (frontier) {
+        const go = document.createElement("button");
+        go.type = "button";
+        go.className = "ng-challenge-continue";
+        go.setAttribute("data-challenge-continue", "1");
+        go.style.setProperty("--ng-track", NG_CHALLENGE_TRACK_COLORS[pinnedId]);
+        go.innerHTML =
+          "<span><small>CONTINUE · " +
+          pinnedId.toUpperCase() +
+          "</small><b>" +
+          ngChallengeHTML(frontier.lesson.deckKey.split("|")[0]) +
+          "</b></span><em aria-hidden=\"true\">▸</em>";
+        go.addEventListener("click", () =>
+          this.openLessonStudy(frontier.lesson, frontier.unit, frontier.belt),
+        );
+        list.appendChild(go);
+      }
+
+      // THE LADDER — all five tracks top to bottom, whole journey visible (the old Belt
+      // Path feel): belt-header rows carry selection; the selected track's objectives ride
+      // under its header; every track's curriculum is always on the ladder. No locks.
+      const ladder = document.createElement("section");
+      ladder.className = "ng-track-list ng-challenge-ladder";
+      ladder.setAttribute("aria-label", "Challenge tracks");
       for (let index = 0; index < NG_CHALLENGE_TRACKS.length; index += 1) {
         const track = NG_CHALLENGE_TRACKS[index];
         const summary = this.challengeTrackProgress(track.id);
@@ -388,45 +436,48 @@ const NG_CHALLENGE_UI_METHODS = {
         button.addEventListener("click", () =>
           this.selectChallengeTrack(track.id),
         );
-        tracks.appendChild(button);
-      }
-      list.appendChild(tracks);
+        ladder.appendChild(button);
 
-      const summary = this.challengeTrackProgress(selected.id);
-      const detail = document.createElement("section");
-      detail.className = "ng-challenge-detail";
-      detail.setAttribute(
-        "aria-label",
-        selected.name + " challenges",
-      );
-      detail.innerHTML =
-        '<div class="ng-challenge-detail-head"><div><small>' +
-        selected.id.toUpperCase() +
-        " CONTENT TRACK</small><h2>" +
-        ngChallengeHTML(selected.name) +
-        "</h2></div><span>" +
-        summary.done +
-        " of " +
-        summary.total +
-        '</span></div><button type="button" class="ng-pin-track">' +
-        (this.get("challengePinnedTrack", "white") === selected.id
-          ? "Pinned to my roll"
-          : "Pin this track to my roll") +
-        "</button>";
-      detail
-        .querySelector(".ng-pin-track")
-        .addEventListener("click", () =>
-          this.pinChallengeTrack(selected.id),
-        );
-      for (const definition of NG_CHALLENGES) {
-        if (definition.track === selected.id) {
-          detail.appendChild(
-            this.challengeObjectiveElement(definition, selected.id),
-          );
+        if (track.id === selected.id) {
+          const detail = document.createElement("section");
+          detail.className = "ng-challenge-detail";
+          detail.setAttribute("aria-label", selected.name + " challenges");
+          detail.style.setProperty("--ng-track", NG_CHALLENGE_TRACK_COLORS[track.id]);
+          detail.innerHTML =
+            '<div class="ng-challenge-detail-head"><div><small>' +
+            selected.id.toUpperCase() +
+            " CONTENT TRACK</small><h2>" +
+            ngChallengeHTML(selected.name) +
+            "</h2></div><span>" +
+            summary.done +
+            " of " +
+            summary.total +
+            '</span></div><button type="button" class="ng-pin-track">' +
+            (pinnedId === selected.id
+              ? "Pinned to my roll"
+              : "Pin this track to my roll") +
+            "</button>";
+          detail
+            .querySelector(".ng-pin-track")
+            .addEventListener("click", () =>
+              this.pinChallengeTrack(selected.id),
+            );
+          for (const definition of NG_CHALLENGES) {
+            if (definition.track === selected.id) {
+              detail.appendChild(
+                this.challengeObjectiveElement(definition, selected.id),
+              );
+            }
+          }
+          ladder.appendChild(detail);
         }
+
+        const curriculum = this.challengeCurriculumElement(track.id);
+        curriculum.style.setProperty("--ng-track", NG_CHALLENGE_TRACK_COLORS[track.id]);
+        ladder.appendChild(curriculum);
       }
-      detail.appendChild(this.challengeCurriculumElement(selected.id));
-      list.appendChild(detail);
+      list.appendChild(ladder);
+      list.appendChild(this.renderRewardsShelf());
     } finally {
       this._renderingChallengeView = false;
     }
@@ -465,42 +516,57 @@ const NG_CHALLENGE_UI_METHODS = {
     return article;
   },
 
-  renderCollection(list) {
-    this.noteLearningViewOpen("collection");
-    this._pathDim = false;
-    const intro = document.createElement("section");
-    intro.className = "ng-collection-intro";
-    const earned = Object.keys(this.badges || {}).length +
-      Object.keys(this.coins || {}).length;
-    intro.innerHTML =
-      "<small>COLLECTION</small><h2>" +
-      (earned ? "Proof from the mat" : "Your first patch is ahead") +
-      "</h2><p>Patches mark meaningful milestones. Mat Coins are just for laughs. They do not buy anything.</p>";
-    list.appendChild(intro);
+  // The Collection tab retired in v1.76.0 — its content lives here, a rewards shelf at the
+  // foot of the Challenges tab. Same items, same handles (ng-patch-badge / ng-mat-coin /
+  // data-earned); one <details> so Challenges stays scannable.
+  renderRewardsShelf() {
+    const patches = Object.keys(this.badges || {}).length;
+    const coins = Object.keys(this.coins || {}).length;
+    const shelf = document.createElement("details");
+    shelf.className = "ng-rewards-shelf";
+    shelf.setAttribute("data-rewards-shelf", "1");
+    if (this._scrollRewardsShelf) shelf.open = true;
+    const summary = document.createElement("summary");
+    summary.innerHTML =
+      "<small>REWARDS</small><b>" +
+      patches + " patch" + (patches === 1 ? "" : "es") + " · " +
+      coins + " mat coin" + (coins === 1 ? "" : "s") +
+      "</b><em>Patches mark milestones. Mat Coins are just for laughs. They do not buy anything.</em>";
+    shelf.appendChild(summary);
+    shelf.addEventListener("toggle", () => {
+      if (shelf.open) {
+        this.track("neural_collection_opened", { patches: patches, coins: coins });
+      }
+    });
     const patchSection = document.createElement("section");
     patchSection.className = "ng-collection-section";
     patchSection.innerHTML =
       "<div><h3>Patches</h3><span>" +
-      Object.keys(this.badges || {}).length +
+      patches +
       " earned</span></div><div class=\"ng-patch-grid\"></div>";
     for (const patch of NG_BADGE_DEFINITIONS) {
       patchSection
         .querySelector(".ng-patch-grid")
         .appendChild(this.collectionItem(patch, "patch"));
     }
-    list.appendChild(patchSection);
+    shelf.appendChild(patchSection);
     const coinSection = document.createElement("section");
     coinSection.className = "ng-collection-section";
     coinSection.innerHTML =
       "<div><h3>Mat Coins</h3><span>" +
-      Object.keys(this.coins || {}).length +
+      coins +
       " minted once</span></div><div class=\"ng-coin-list\"></div>";
     for (const coin of NG_MAT_COINS) {
       coinSection
         .querySelector(".ng-coin-list")
         .appendChild(this.collectionItem(coin, "coin"));
     }
-    list.appendChild(coinSection);
+    shelf.appendChild(coinSection);
+    if (this._scrollRewardsShelf) {
+      this._scrollRewardsShelf = false;
+      requestAnimationFrame(() => { try { shelf.scrollIntoView({ block: "start" }); } catch (e) {} });
+    }
+    return shelf;
   },
 };
 

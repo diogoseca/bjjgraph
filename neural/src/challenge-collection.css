@@ -3,6 +3,49 @@
   padding: 13px;
 }
 
+/* rewards shelf — the retired Collection tab's content, folded into Challenges (v1.76.0) */
+.ng-rewards-shelf {
+  margin-top: 14px;
+  border: 1px solid rgba(150, 170, 210, 0.14);
+  border-radius: 13px;
+  background: rgba(255, 255, 255, 0.02);
+}
+
+.ng-rewards-shelf > summary {
+  display: grid;
+  gap: 3px;
+  padding: 12px 13px;
+  cursor: pointer;
+  list-style: none;
+}
+
+.ng-rewards-shelf > summary::-webkit-details-marker {
+  display: none;
+}
+
+.ng-rewards-shelf > summary > small {
+  color: #8fa9e8;
+  font-size: 8.5px;
+  font-weight: 800;
+  letter-spacing: 0.13em;
+}
+
+.ng-rewards-shelf > summary > b {
+  color: #dbe2f0;
+  font-size: 12px;
+}
+
+.ng-rewards-shelf > summary > em {
+  color: #8793aa;
+  font-size: 9.5px;
+  font-style: normal;
+  line-height: 1.4;
+}
+
+.ng-rewards-shelf[open] > summary {
+  border-bottom: 1px solid rgba(150, 170, 210, 0.12);
+}
+
 .ng-collection-section {
   display: grid;
   gap: 11px;

@@ -32,7 +32,7 @@ test("the pane lists every state the roll has visited, in order", async ({ page 
   )
 
   // advance the roll and the history grows with it, keeping trail order
-  await page.locator(".ngClose").first().click() // close → the roll resumes (pane law)
+  await page.locator(".ng-explorer-close").click() // close → the roll resumes (pane law)
   const t = await page.evaluate(() => {
     const a = (window as any).__neural
     for (const i of a.optionIdxs || []) if (a.nodes[i].ty === "transitions") return a.nodes[i].t
