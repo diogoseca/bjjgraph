@@ -114,7 +114,9 @@ test("White Challenge study story: lesson → MC → recall → checkpoint → e
 
   // ── the checkpoint quiz: first-try everything via the truth rail ──
   await j.rig("checkpoint-pick", [0.1, 0.3, 0.5, 0.7, 0.9, 0.2]);
-  await page.evaluate(() => (window as any).__neural.toggleExplorer());
+  // v1.76.0: the pane is still open in study takeover here — return to the Challenges tab
+  // (the ‹ Back path) instead of toggling the pane shut
+  await page.evaluate(() => (window as any).__neural.openLearningView("challenges"));
   await page
     .locator(`[data-checkpoint="${WHITE.id}/${UNIT1.id}"]`)
     .first()

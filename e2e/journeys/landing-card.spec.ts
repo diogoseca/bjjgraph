@@ -82,7 +82,11 @@ test("a wrong answer costs THIS exchange only — the next arrival forgives it",
   const qMod = await page.evaluate(() => (window as any).__neural._qMod)
   expect(qMod, "a transient penalty, not a permanent one").toBeLessThan(0)
 
-  // play the move out and arrive somewhere new — the penalty does not follow you
+  // play the move out and arrive somewhere new — the penalty does not follow you.
+  // Rig the resolve+outcome to the success branch: the fail branch can chain into an
+  // opponent catch whose defense-expiry ride exceeds nextHand's sim-time cap.
+  await j.rig("resolve", [0.01])
+  await j.rig("outcome", [0.01])
   await j.pick(t)
   await j.nextHand()
   expect(await page.evaluate(() => (window as any).__neural._qMod), "forgiven on arrival").toBe(0)
