@@ -109,13 +109,28 @@ jobs:
       - name: Build Forward development libraries
         run: npm run build:forward
 
+      - name: Install root dependencies (Playwright test runner)
+        run: npm install
+
+      - name: Cache Playwright browsers
+        id: pw-cache
+        uses: actions/cache@0057852bfaa89a56745cba8c7296529d2fc39830 # v4
+        with:
+          path: ~/.cache/ms-playwright
+          key: ${{ runner.os }}-playwright-${{ hashFiles('package-lock.json') }}
+
+      - name: Install Playwright browser
+        if: steps.pw-cache.outputs.cache-hit != 'true'
+        run: npx playwright install --with-deps chromium
+
+      - name: Install Playwright OS deps (cache hit)
+        if: steps.pw-cache.outputs.cache-hit == 'true'
+        run: npx playwright install-deps chromium
+
       # Fast representative gate. The complete suite runs sharded before merges to main.
       - name: Curated journey gate (Playwright E2E)
         timeout-minutes: 12
-        run: |
-          npm install
-          npx playwright install --with-deps chromium
-          npm run test:curated
+        run: npm run test:curated
 
       - name: Upload journey artifacts (on failure)
         if: failure()

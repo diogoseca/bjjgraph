@@ -2,7 +2,7 @@ name: Complete Playwright E2E
 
 on:
   pull_request:
-    branches: ["main"]
+    branches: ["main", "dev"]
   schedule:
     - cron: "0 3 * * 6"
   workflow_dispatch:
@@ -90,8 +90,20 @@ jobs:
           mkdir -p source
           tar -xzf complete-e2e-site.tgz -C source
 
+      - name: Cache Playwright browsers
+        id: pw-cache
+        uses: actions/cache@0057852bfaa89a56745cba8c7296529d2fc39830 # v4
+        with:
+          path: ~/.cache/ms-playwright
+          key: ${{ runner.os }}-playwright-${{ hashFiles('package-lock.json') }}
+
       - name: Install Chromium
+        if: steps.pw-cache.outputs.cache-hit != 'true'
         run: npx playwright install --with-deps chromium
+
+      - name: Install Chromium OS deps (cache hit)
+        if: steps.pw-cache.outputs.cache-hit == 'true'
+        run: npx playwright install-deps chromium
 
       - name: Run complete E2E shard
         run: npm test -- --shard=${{ matrix.shard }}/4
