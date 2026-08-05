@@ -1031,6 +1031,11 @@ function highlightCurrentNode(slug: string) {
 
 // --- Nav event handler ---
 document.addEventListener("nav", async (e: CustomEventMap["nav"]) => {
+  // Journeys never assert this Pixi layer, and its WebGL context makes headless Chromium
+  // defer every navigation's commit while the old page's GL state tears down (8-75s per
+  // re-boot — the e2e "boot readiness" flake class). Skip under the test rails; the Neural
+  // app's own 2D canvas is untouched. Same guard as graph.inline (v1.76.4).
+  if ((window as any).__NEURAL_TEST__) return
   const slug = e.detail.url as string
   const container = document.getElementById("background-graph")
   if (!container) return

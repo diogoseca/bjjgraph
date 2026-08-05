@@ -151,6 +151,12 @@ function getHubSlug(nodeId: SimpleSlug): SimpleSlug {
 const renderGenerations: Record<string, number> = {}
 
 async function renderGraph(container: string, fullSlug: FullSlug) {
+  // Journeys never look at the Pixi sidebar graph, but its WebGL context makes headless
+  // Chromium defer every navigation's commit while the old page's GL state tears down
+  // (8-75s per re-boot, scaling with drawn frames — the e2e "boot readiness" flake class).
+  // Skip creating the context entirely under the test rails; e2e/dsl.ts also loses any
+  // stray GL context before navigating (v1.76.4).
+  if ((window as any).__NEURAL_TEST__) return
   const slug = simplifySlug(fullSlug)
   // System pages render the member constellation (incl. principles) and ring each
   // member. NOTE: kept in sync with the isSystemPage branch in renderPage.tsx.

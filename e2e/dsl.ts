@@ -69,6 +69,21 @@ export class Journey {
         } catch {}
         // engage test mode BEFORE the bundle boots: the app checks this flag at construction
         (window as any).__NEURAL_TEST__ = true;
+        // record every WebGL context at creation — boot()'s pre-navigation sweep loses them
+        // (probing canvases with getContext would CREATE contexts, paying the very SwiftShader
+        // init/teardown cost the sweep exists to avoid)
+        const origGetContext = HTMLCanvasElement.prototype.getContext;
+        (HTMLCanvasElement.prototype as any).getContext = function (
+          ...args: any[]
+        ) {
+          const ctx = (origGetContext as any).apply(this, args);
+          if (ctx && /webgl/i.test(String(args[0]))) {
+            ((window as any).__glCtxs = (window as any).__glCtxs || []).push(
+              ctx,
+            );
+          }
+          return ctx;
+        };
       });
       // initialState seeding: the blob rides the navigation's own hash, so it lands AFTER the
       // wipe above and BEFORE any page script, and a later boot can never replay a stale seed
@@ -152,6 +167,24 @@ export class Journey {
         r.fulfill({ status: 404, contentType: "application/json", body: "" }),
       );
     }
+    // ── GL teardown pre-pay ── headless Chromium (SwiftShader) defers a navigation's COMMIT
+    // while it destroys the OLD page's WebGL context: 8-75s on this suite, scaling with how
+    // much was drawn (worst right after a victory). Every CDP signal (goto resolution,
+    // frameNavigated, evaluate against the new context) waits on it together — the entire
+    // "second boot stalls / boot readiness timeout" flake class. Losing the context first
+    // makes the commit instant (measured 0.02s). graph.inline also skips Pixi entirely under
+    // __NEURAL_TEST__; this sweep is the belt for any page that still created a context.
+    await this.page
+      .evaluate(() => {
+        for (const gl of ((window as any).__glCtxs ||
+          []) as WebGLRenderingContext[]) {
+          try {
+            gl.getExtension("WEBGL_lose_context")?.loseContext();
+          } catch {}
+        }
+        (window as any).__glCtxs = [];
+      })
+      .catch(() => {});
     try {
       await this.page.goto(path, { waitUntil: "commit" });
     } catch {
