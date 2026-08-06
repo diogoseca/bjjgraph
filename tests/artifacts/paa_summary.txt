@@ -1,0 +1,69 @@
+PAA SEO Analysis Summary
+========================
+Generated: 2026-03-20
+Data source: Knowledge-based inference (live SERP/WebSearch unavailable in this environment)
+                Note: For production runs, use mcp__dataforseo__serp_organic_live_advanced
+                to fetch real-time PAA data from Google SERP.
+
+Articles Processed: 1
+  - content/Positions/Back Control.json (seed keyword: "Back Control BJJ")
+
+---
+
+TOTAL PAA QUESTIONS FOUND: 13
+
+HIGH PRIORITY (direct answers needed — featured snippet / position zero opportunities):
+  1. "What is back control in BJJ?"
+     → Hub overview answers it but needs front-loaded definition sentence.
+  2. "How do you escape back control in BJJ?"
+     → Most-searched defensive query. Hub page lacks quick-reference escape overview.
+     → Recommend dedicated FAQ section citing the 4-step sequence.
+  3. "What are the best submissions from back control?"
+     → RNC, bow and arrow, armbar from back, crucifix. Needs explicit heading on hub.
+  4. "What is the difference between hooks and body triangle in back control?"
+     → High-intent comparison query. Add comparison table or FAQ.
+  5. "How do you take someone's back in BJJ?"
+     → ZERO coverage in current JSON. Highest content gap identified.
+  6. "How do you defend against rear naked choke from back control?"
+     → Covered in bottom role errors but needs its own FAQ for direct answer eligibility.
+
+MEDIUM PRIORITY:
+  7. "What is a seatbelt grip in BJJ?"
+  8. "Why is back control the best position in BJJ?"
+  9. "What is the body triangle in BJJ back control?"
+  10. "How many points is back control worth in BJJ?"
+  11. "Can you get submitted if your opponent crosses their feet?"
+
+LOW PRIORITY:
+  12. "What is the difference between back control and back mount?"
+  13. "What is the gift wrap position in BJJ?"
+
+---
+
+CONTENT GAP ANALYSIS:
+
+Critical gaps (zero coverage):
+  - Back-take entries/pathways (turtle, mount, guard, standing) — high search volume
+  - Terminology disambiguation (back control vs back mount)
+
+Partial coverage needing surface-level exposure on hub:
+  - Hooks vs body triangle comparison — covered in variations, not as a comparison
+  - Crossed-feet footlock risk — in common_errors, not highlighted on hub
+  - Seatbelt grip definition — referenced but never defined
+
+Numeric facts to surface as featured-snippet targets:
+  - 4 IBJJF points
+  - 58% submission probability (from position_metrics)
+  - 80% retention rate (from position_metrics)
+
+---
+
+SUGGESTED NEW ARTICLES (add to suggested_new_files.csv):
+  1. content/Transitions/How to Take the Back from Turtle.md
+     — Covers the most common back-take entry; addresses "how do you take the back" PAA
+  2. content/Transitions/Back Take from Mount.md
+     — Secondary high-volume back-take entry from mount position
+  3. content/Positions/Body Triangle.md (variation hub)
+     — Separate position page for body triangle back control; referenced but no file
+  4. content/Transitions/Rear Naked Choke Defense.md
+     — Defensive guide page; "how to defend RNC" is top-5 BJJ defensive query
