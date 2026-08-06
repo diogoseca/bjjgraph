@@ -1,0 +1,121 @@
+{
+  "article_path": "content/Positions/Crab Ride/Top.md",
+  "seed_keyword": "Crab Ride Top BJJ",
+  "paa_data_source": "knowledge-based (DataForSEO unavailable)",
+  "paa_questions": [
+    {
+      "question": "What is the crab ride in BJJ?",
+      "answer_snippet": "The crab ride is an attacking position from the turtle where the practitioner controls the opponent from the side, perpendicular to their spine. One leg hooks under the opponent's near hip while upper body grips control the far side, creating a platform for back takes, the crucifix, and submissions.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "dedicated_faq"
+    },
+    {
+      "question": "How do you take the back from crab ride?",
+      "answer_snippet": "From crab ride, when the opponent maintains a strong turtle posture, systematically insert your second hook by threading it under their far thigh. Simultaneously establish a seatbelt grip (one arm over, one under). Follow their posture adjustments to secure both hooks and transition to full back control (70% success rate).",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "dedicated_faq"
+    },
+    {
+      "question": "What is the difference between crab ride and crucifix in BJJ?",
+      "answer_snippet": "Crab ride is the entry position from turtle with a side-mounted hook and far-side grips. The crucifix is an advanced positional advancement from crab ride where the opponent's arm becomes isolated between your legs, trapping it for choke and armbar finishes. Crab ride leads to crucifix when the opponent extends their far arm defensively.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "dedicated_faq"
+    },
+    {
+      "question": "What submissions are available from crab ride?",
+      "answer_snippet": "From crab ride top, available submissions include: Darce choke (when opponent drops head, ~65% success), Anaconda choke (when head drops, ~65%), Guillotine (when opponent tries to turn in, ~55%), and arm attacks via crucifix transition. The darce and anaconda are the highest-percentage finishes.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "dedicated_faq"
+    },
+    {
+      "question": "How do you escape the crab ride in BJJ?",
+      "answer_snippet": "To escape crab ride, the bottom player must keep their elbows tight, drive forward to prevent back exposure, and work to create a hip escape angle. Sitting through is possible but risky as it can expose the neck for darce/anaconda. Rolling to the back allows the top player to insert hooks more easily, so forward movement is preferred.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "dedicated_faq"
+    },
+    {
+      "question": "What is the truck position in BJJ?",
+      "answer_snippet": "The truck is an advanced leg entanglement position accessed via crab ride where the attacker isolates one of the opponent's legs between their own legs from the side-turtle position. It provides access to calf slicers, spinal locks, and back takes. Truck entry is attempted in ~12% of exchanges from crab ride top.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "add_section"
+    },
+    {
+      "question": "Is crab ride the same as dog fight position?",
+      "answer_snippet": "No — the dog fight position involves both players on all fours with the top player in a bodylock from the side. Crab ride is specifically a top-dominant control where the attacker is perpendicular to a turtled opponent with a hip hook inserted, creating a more controlling platform than the neutral dogfight.",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "dedicated_faq"
+    },
+    {
+      "question": "What is the difference between crab ride and rodeo ride?",
+      "answer_snippet": "Crab ride positions the attacker perpendicular to the opponent's spine from the turtle side. Rodeo ride is a variation where the attacker mounts directly on top of the turtle in a forward-facing position. Both are turtle attack positions, but crab ride offers better angles for back takes while rodeo ride creates different submission entries.",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "dedicated_faq"
+    },
+    {
+      "question": "How is crab ride used in MMA?",
+      "answer_snippet": "Crab ride is valuable in MMA as a transitional position to take the back (preventing ground-and-pound from guard) or to isolate the neck for chokes while avoiding the opponent's strikes. The perpendicular position allows the attacker to stay relatively safe while maintaining control.",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "add_section"
+    },
+    {
+      "question": "Who invented or popularized the crab ride in BJJ?",
+      "answer_snippet": "The crab ride and its associated system was extensively developed and popularized by Dean Lister and further refined by Eddie Bravo's 10th Planet Jiu-Jitsu system, where it connects to the truck and twister positions. It has since been adopted widely in no-gi and MMA contexts.",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "add_section"
+    },
+    {
+      "question": "What body position should you maintain in crab ride?",
+      "answer_snippet": "Keep your hips perpendicular to the opponent's spine — the characteristic sideways 'crab' orientation. Drive your chest into their shoulder blade and ribs. Your hooking leg anchors under their near hip with foot inside their legs, while your base leg maintains wide posting position for mobility.",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "improve_heading"
+    },
+    {
+      "question": "How do you enter crab ride from a failed guard pass?",
+      "answer_snippet": "When an opponent turtles to defend a guard pass, immediately move to their side and insert your near leg under their hip before they can stand or recreate guard. Establish far-side grips simultaneously to lock in crab ride before they can complete their escape.",
+      "source_url": null,
+      "priority": "low",
+      "integration_strategy": "add_section"
+    }
+  ],
+  "heading_optimizations": [
+    {
+      "current": "Key Offensive Principles",
+      "suggested": "How to Control from Crab Ride Top: Key Principles",
+      "rationale": "Conversational 'how to' format matches PAA query patterns for technique pages"
+    },
+    {
+      "current": "Decision Making from This Position",
+      "suggested": "What Should You Do from Crab Ride? Attack Flowchart",
+      "rationale": "Targets 'what to do from crab ride' queries; 'flowchart' signals structured answer for featured snippets"
+    },
+    {
+      "current": "Common Offensive Mistakes",
+      "suggested": "Why Crab Ride Fails: Common Mistakes to Avoid",
+      "rationale": "Targets 'why is my crab ride not working' / 'crab ride mistakes' query patterns"
+    },
+    {
+      "current": "Training Drills for Attacks",
+      "suggested": "How to Drill the Crab Ride: 5 Essential Exercises",
+      "rationale": "Matches 'crab ride drills' and 'how to practice crab ride' queries"
+    }
+  ],
+  "missing_content_opportunities": [
+    "Add section: 'How to enter crab ride from common positions (guard pass, turtle scramble, takedown)' — addresses high-intent 'how to get into crab ride' queries",
+    "Add FAQ block: 'Is crab ride legal in all BJJ rulesets?' — addresses white/blue belt competition concern",
+    "Add section: 'Crab ride in the truck system: connections to truck position and twister' — targets 10th Planet / no-gi audience",
+    "Add section: 'Crab ride vs. cross body ride: which is better?' — comparison content captures alternative query traffic",
+    "Add section: 'Crab ride for MMA: adjustments under striking threat'",
+    "Add section: 'Famous crab ride finishes in competition — high-profile examples'"
+  ]
+}

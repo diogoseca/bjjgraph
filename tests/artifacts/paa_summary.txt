@@ -1,0 +1,67 @@
+PAA SEO CONTEXT SUMMARY
+=======================
+Generated: 2026-03-14
+Data source: Knowledge-based (DataForSEO MCP unavailable — tool not configured in this environment)
+
+ARTICLES PROCESSED: 2
+  1. content/Positions/Butterfly Guard/Half Butterfly.json  →  seed: "Half Butterfly BJJ"
+  2. content/Positions/Crab Ride/Top.md                    →  seed: "Crab Ride Top BJJ"
+
+---
+
+TOTALS
+  Total PAA questions modeled:   24  (12 per article)
+  High-priority questions:       10  (require direct answers in content)
+  Medium-priority questions:     10  (strong signal, less urgent)
+  Low-priority questions:         4  (niche/supplementary)
+
+---
+
+HIGH-PRIORITY QUESTIONS (add dedicated FAQ or improve existing headings)
+
+HALF BUTTERFLY GUARD
+  1. What is half butterfly guard in BJJ?
+  2. What is the difference between half butterfly and butterfly guard?
+  3. What is the difference between half butterfly and deep half guard?
+  4. What sweeps work from half butterfly guard?
+  5. How do you escape half butterfly guard from the top?
+  6. How do you prevent being swept from half butterfly top?
+
+CRAB RIDE TOP
+  1. What is the crab ride in BJJ?
+  2. How do you take the back from crab ride?
+  3. What is the difference between crab ride and crucifix in BJJ?
+  4. What submissions are available from crab ride?
+  5. How do you escape the crab ride in BJJ?
+  6. What is the truck position in BJJ?
+
+---
+
+CONTENT GAP ANALYSIS
+
+HALF BUTTERFLY GUARD — missing sections:
+  - Entry paths into the position (from closed guard, scramble, open guard)
+  - Beginner suitability and learning progression
+  - Gi vs. no-gi effectiveness comparison
+  - Famous practitioners who use this position (authority signal)
+  - MMA applicability
+  - Explicit FAQ block with structured Q&A
+
+CRAB RIDE TOP — missing sections:
+  - Entry paths (from failed guard pass, takedown, turtle scramble)
+  - Legality in different rulesets (white/blue belt concern)
+  - Connection to truck/twister system (10th Planet audience)
+  - Crab ride vs. cross body ride comparison
+  - MMA adjustments under striking threat
+  - Competition highlight examples
+
+---
+
+SUGGESTED NEW ARTICLES (content_gaps → new files)
+
+  content/Positions/Crab Ride/Truck.md          — Truck position hub (connected from crab ride)
+  content/Transitions/Crab Ride to Truck.md     — Entry technique from crab ride to truck
+  content/Positions/Butterfly Guard/Half Butterfly/Bottom.md — (verify generation from JSON)
+  content/Positions/Butterfly Guard/Half Butterfly/Top.md    — (verify generation from JSON)
+
+See tests/artifacts/Crab_Ride_Top_paa.json and tests/artifacts/Half_Butterfly_paa.json for full detail.
