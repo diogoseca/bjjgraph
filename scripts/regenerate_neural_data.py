@@ -491,9 +491,18 @@ def _resolve_member(name: str, ctype: str, path: str | None, ids: set, idx: dict
 
 def _products(data: dict, sys_name: str) -> list[dict]:
     """The curated BJJFanatics entries, VERBATIM. Content authors them as
-    {title, instructor, affiliate_url}; the Neural contract wants {name, instructor, url}.
-    An entry without a real URL is dropped (a product card that links nowhere earns nothing
-    and misleads), and NOTHING here is ever synthesized — no URL, no product."""
+    {title, instructor, affiliate_url}; the Neural contract wants {name, instructor, url}
+    plus {id, vendor} for the affiliate funnel's utm_term / data-vendor.
+
+    Two ways an entry is DROPPED rather than shipped:
+      * no name or no URL — a card that links nowhere earns nothing and misleads;
+      * link_status != "live" — the URL was not opened and confirmed to resolve to that exact
+        instructional (or was confirmed DEAD). Verified 2026-08-09: two of the three authored
+        products 404. A 404 CTA earns exactly as much as no CTA and costs the reader's trust,
+        so the system degrades to its no-product surface until a human re-verifies the link.
+        Fail-safe: an entry with no link_status at all is treated as unverified.
+    NOTHING here is ever synthesized — no URL, no product.
+    """
     out = []
     for p in data.get("products") or []:
         if not isinstance(p, dict):
@@ -503,7 +512,19 @@ def _products(data: dict, sys_name: str) -> list[dict]:
         if not (name and url):
             print(f"  systems: skipped product without name+url in {sys_name}")
             continue
-        out.append({"name": name, "instructor": (p.get("instructor") or "").strip(), "url": url})
+        status = (p.get("link_status") or "unverified").strip().lower()
+        if status != "live":
+            print(f"  systems: skipped product '{name}' in {sys_name} — link_status={status!r} "
+                  f"(last checked {p.get('link_checked') or 'never'}); an unverified or dead "
+                  f"affiliate link must not render")
+            continue
+        out.append({
+            "name": name,
+            "instructor": (p.get("instructor") or "").strip(),
+            "url": url,
+            "id": (p.get("id") or "").strip(),
+            "vendor": (p.get("vendor") or "BJJFanatics").strip(),
+        })
     return out
 
 

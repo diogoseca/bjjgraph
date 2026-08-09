@@ -1,5 +1,5 @@
 import { expect, test, type Page } from "@playwright/test";
-import { readFileSync } from "node:fs";
+import { readdirSync, readFileSync } from "node:fs";
 import { resolve } from "node:path";
 import { journey } from "../dsl";
 
@@ -20,18 +20,35 @@ import { journey } from "../dsl";
  * Every expected count is read FROM that payload: a literal here would just re-encode the bug
  * (six shortcuts passes any hand-written number you pick).
  *
+ * COMPLIANCE, gated here rather than trusted: the affiliate disclosure is a legal claim (FTC 16
+ * CFR 255, UK ASA/CAP) rendered from TWO hand-maintained copies — the app shelf and the generated
+ * page — so both are compared against the single authored sentence in docs/Affiliate.md AND
+ * asserted to render ABOVE their link, in the same block, uncollapsed, on screen. Its offline
+ * twin is scripts/check_affiliate_surface.py.
+ *
+ * And only a HUMAN-VERIFIED link may render at all: content/Systems/*.json carries
+ * link_status/link_checked, only "live" survives into the payload and the page, and a system whose
+ * product is dead or unchecked degrades to the free study surface instead of a dead CTA.
+ *
  * Rails: __neural.systems, ._systemsById, ._focusIdxSet (the fog gate the draw loop reads),
  *        ._systemId, .camTarget
  * Handles: [data-system-row], [data-system-detail], [data-system-node], [data-system-back],
- *          [data-system-courses], [data-system-cta]
- * Beats (PostHog): neural_system_opened, neural_system_course_clicked
+ *          [data-system-courses], [data-system-cta], [data-affiliate-disclosure],
+ *          p.affiliate-disclosure + a[data-affiliate="true"] (page), #study-this-system
+ * Beats (PostHog): neural_system_opened, neural_system_course_clicked, affiliate_clickout
  */
 
 type SystemEntry = {
   id: string;
   name: string;
   nodes: string[];
-  products: Array<{ name: string; instructor: string; url: string }>;
+  products: Array<{
+    name: string;
+    instructor: string;
+    url: string;
+    id: string;
+    vendor: string;
+  }>;
 };
 
 // The SERVED copy is what the app fetches; the emitted copy is what the build will serve next.
@@ -58,6 +75,23 @@ const payload = () => {
   }
   return PAYLOAD;
 };
+
+/** The CANONICAL disclosure sentence, read from its single authored home. Hardcoding it here
+ *  would just add a fourth copy of a legal claim — the whole failure mode being guarded. */
+const CANONICAL_DISCLOSURE = (() => {
+  const doc = readFileSync(
+    resolve(__dirname, "../../docs/Affiliate.md"),
+    "utf8",
+  );
+  const m = doc.match(
+    /<!-- CANONICAL-DISCLOSURE:START -->([\s\S]*?)<!-- CANONICAL-DISCLOSURE:END -->/,
+  );
+  if (!m)
+    throw new Error(
+      "docs/Affiliate.md lost its CANONICAL-DISCLOSURE block — that block is the source of truth for both rendered copies",
+    );
+  return m[1].trim();
+})();
 
 /** A course link may only exist for an authored http(s) product — the app filters on exactly
  *  this, because a placeholder rendered as a CTA is a dead promise to a paying reader. */
@@ -272,6 +306,9 @@ test("a system with an authored course offers a sponsored BJJ Fanatics link that
   expect(rel, "affiliate links are disclosed to crawlers").toContain(
     "sponsored",
   );
+  expect(rel, "and are not endorsements we pass PageRank to").toContain(
+    "nofollow",
+  );
   expect(rel, "and never hand the opener to the shop").toContain("noopener");
 
   const href = (await cta.first().getAttribute("href")) || "";
@@ -284,6 +321,18 @@ test("a system with an authored course offers a sponsored BJJ Fanatics link that
   expect(url.pathname, "and is the authored product, not a guessed one").toBe(
     new URL(products[0].url).pathname,
   );
+  // UTM convention (docs/Affiliate.md §3). The app is the DEFAULT variant, so without these
+  // the majority of clicks arrive at the vendor indistinguishable from page clicks.
+  expect(
+    [...url.searchParams.entries()].filter(([k]) => k.startsWith("utm_")),
+    "the app tags its clicks with the same campaign convention as the page",
+  ).toEqual([
+    ["utm_source", "bjjgraph"],
+    ["utm_medium", "affiliate"],
+    ["utm_campaign", "systems"],
+    ["utm_content", target.id.split("/").pop()!.toLowerCase()],
+    ["utm_term", products[0].id],
+  ]);
 
   await cta.first().click();
 
@@ -303,7 +352,195 @@ test("a system with an authored course offers a sponsored BJJ Fanatics link that
     system: target.name,
     course: products[0].name,
   });
+  // FUNNEL STEP 3, from the DEFAULT variant. affiliateTracking.inline.ts delegates this on
+  // a[data-affiliate="true"] and it is the one cross-surface conversion event — until v1.83.0
+  // the app CTA carried no such attribute, so the documented funnel had no step 3 for 100% of
+  // default traffic and every conversion report was measuring the legacy page only.
+  const clickout = caps.find((c: any) => c.event === "affiliate_clickout");
+  expect(
+    clickout,
+    "the app reports the documented conversion event, not only its own beat",
+  ).toBeTruthy();
+  expect(clickout.props).toMatchObject({
+    product_id: products[0].id,
+    vendor: "bjjfanatics",
+    system_slug: `systems/${target.id.split("/").pop()!.toLowerCase()}`,
+    system_name: target.name,
+    position: 0,
+  });
   expect(errors, "no page error across the journey").toEqual([]);
+});
+
+test("the app discloses the commission immediately above the link it applies to @curated", async ({
+  page,
+  context,
+}) => {
+  // FTC 16 CFR 255 / UK ASA-CAP: clear, conspicuous, and CLOSE TO THE LINK. terms.md is the
+  // backstop, not the disclosure — so proximity is asserted in the RENDERED DOM, and the wording
+  // is compared against its single authored home (docs/Affiliate.md) so the two hand-maintained
+  // copies cannot drift apart unnoticed.
+  const errors = watchErrors(page);
+  const data = payload();
+  const target = data.systems.filter((s) => courses(s).length)[0];
+  await context.route(/bjjfanatics\.com/, (r) => r.abort());
+
+  const j = journey(page);
+  await j.boot("/");
+  await awaitSystems(page);
+  await openExplore(page);
+  await page.locator(`[data-system-row="${target.id}"]`).click();
+
+  const disc = page.locator("[data-affiliate-disclosure]");
+  await expect(disc, "exactly one disclosure on the shelf").toHaveCount(1);
+  await expect(
+    disc,
+    "and it is actually rendered, not display:none or zero-height",
+  ).toBeVisible();
+  expect(
+    (await disc.textContent())?.trim(),
+    "wording is byte-identical to docs/Affiliate.md",
+  ).toBe(CANONICAL_DISCLOSURE);
+
+  const geometry = await page.evaluate(() => {
+    const d = document.querySelector(
+      "[data-affiliate-disclosure]",
+    ) as HTMLElement;
+    const a = document.querySelector("[data-system-cta]") as HTMLElement;
+    if (!d || !a) return null;
+    const db = d.getBoundingClientRect(),
+      ab = a.getBoundingClientRect();
+    return {
+      // 4 = DOCUMENT_POSITION_FOLLOWING: the CTA comes after the disclosure in the DOM
+      discFirst: !!(d.compareDocumentPosition(a) & 4),
+      sameBlock: !!(
+        a.closest("[data-system-courses]") &&
+        a.closest("[data-system-courses]") ===
+          d.closest("[data-system-courses]")
+      ),
+      collapsed: !!d.closest("details") || !!a.closest("details"),
+      gapPx: Math.round(ab.top - db.bottom),
+      discHeight: Math.round(db.height),
+      // "conspicuous" has a legibility floor: fine print in a dimmer grey than the copy around
+      // it is the pattern regulators name. Floor, not a design opinion.
+      fontPx: parseFloat(getComputedStyle(d).fontSize),
+      opacity: parseFloat(getComputedStyle(d).opacity),
+    };
+  });
+  expect(
+    geometry,
+    "both the disclosure and a CTA are on screen",
+  ).not.toBeNull();
+  expect(
+    geometry!.discFirst,
+    "the disclosure precedes the link it covers",
+  ).toBe(true);
+  expect(geometry!.sameBlock, "and lives in the same shelf as the link").toBe(
+    true,
+  );
+  expect(
+    geometry!.collapsed,
+    "neither is inside a <details> — a disclosure the reader must expand is not conspicuous",
+  ).toBe(false);
+  expect(
+    geometry!.discHeight,
+    "the disclosure has real rendered height",
+  ).toBeGreaterThan(8);
+  expect(
+    geometry!.gapPx,
+    "and sits immediately above the link, not a scroll away",
+  ).toBeLessThan(200);
+  expect(
+    geometry!.fontPx,
+    "rendered at readable size, not shrunk into fine print",
+  ).toBeGreaterThanOrEqual(11);
+  expect(geometry!.opacity, "and not faded out").toBeGreaterThan(0.85);
+  expect(errors, "no page error across the journey").toEqual([]);
+});
+
+test("the generated system page discloses the commission above its product link @curated", async ({
+  page,
+  context,
+}) => {
+  // The same claim on the OTHER surface: crawlers and ?variant=legacy readers get this HTML, and
+  // it carries its own hand-maintained copy of the sentence.
+  const data = payload();
+  const target = data.systems.filter((s) => courses(s).length)[0];
+  // HERMETIC: the shop and the (placeholder) cover image are the only off-box requests this page
+  // makes; a suite that reaches the internet is a suite that fails when the internet does.
+  await context.route(/bjjfanatics\.com|placehold\.co/, (r) => r.abort());
+  await page.goto(`/${target.id}?variant=legacy`);
+
+  const disc = page.locator("p.affiliate-disclosure");
+  const link = page.locator('a[data-affiliate="true"]');
+  await expect(link, "the page renders the sponsored product link").toHaveCount(
+    courses(target).length,
+  );
+  await expect(disc).toHaveCount(1);
+  await expect(disc).toBeVisible();
+  expect((await disc.textContent())?.trim()).toBe(CANONICAL_DISCLOSURE);
+
+  const layout = await page.evaluate(() => {
+    const d = document.querySelector("p.affiliate-disclosure") as HTMLElement;
+    const a = document.querySelector('a[data-affiliate="true"]') as HTMLElement;
+    const db = d.getBoundingClientRect(),
+      ab = a.getBoundingClientRect();
+    return {
+      discFirst: !!(d.compareDocumentPosition(a) & 4),
+      sameSection: d.closest("section")?.id === a.closest("section")?.id,
+      collapsed: !!d.closest("details") || !!a.closest("details"),
+      gapPx: Math.round(ab.top - db.bottom),
+    };
+  });
+  expect(layout.discFirst, "disclosure first, then the link").toBe(true);
+  expect(layout.sameSection, "both inside #unlock-this-system").toBe(true);
+  expect(layout.collapsed, "not collapsed behind a <details>").toBe(false);
+  expect(
+    layout.gapPx,
+    "and within a screen of the link, never scrolled away from it",
+  ).toBeLessThan(900);
+});
+
+test("a system whose product link was never verified renders no CTA on either surface @curated", async ({
+  page,
+}) => {
+  // Verified 2026-08-09: two of the three authored products 404. Only link_status:"live"
+  // survives into the payload (regenerate_neural_data._products) and onto the page
+  // (live_products in templates/Systems.md.jinja2) — a dead CTA earns exactly what no CTA earns
+  // and costs the reader's trust, so an empty slot is the honest degradation.
+  const dir = resolve(__dirname, "../../content/Systems");
+  const unverified = readdirSync(dir)
+    .filter((f) => f.endsWith(".json"))
+    .map((f) => JSON.parse(readFileSync(resolve(dir, f), "utf8")))
+    .filter((d: any) =>
+      (d.products || []).some(
+        (p: any) => (p.link_status || "unverified") !== "live",
+      ),
+    );
+  expect(
+    unverified.length,
+    "there is at least one authored-but-unverified product to guard",
+  ).toBeGreaterThan(0);
+
+  const data = payload();
+  const bareIds: string[] = [];
+  for (const s of unverified) {
+    const entry = data.systems.find((e) => e.name === s.name);
+    expect(entry, `${s.name}: still listed in the app`).toBeTruthy();
+    expect(
+      courses(entry!).length,
+      `${s.name}: an unverified product must not reach the app payload`,
+    ).toBe(0);
+    bareIds.push(entry!.id);
+  }
+
+  // and its page shows the free study surface instead of an empty region
+  await page.goto(`/${bareIds[0]}?variant=legacy`);
+  await expect(page.locator('a[data-affiliate="true"]')).toHaveCount(0);
+  await expect(page.locator("p.affiliate-disclosure")).toHaveCount(0);
+  await expect(
+    page.locator("#study-this-system"),
+    "the slot is filled with the free next step, not left blank",
+  ).toBeVisible();
 });
 
 test("a system with no authored course offers no link at all", async ({

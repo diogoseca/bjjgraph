@@ -109,6 +109,11 @@ jobs:
           AFFILIATE_REF: ${{ secrets.AFFILIATE_REF }}
         run: python3 scripts/check_systems_payload.py
 
+      # Disclosure wording + proximity, verified-links-only, and no affiliate URL in the
+      # committed graph.json. Source-and-content only, so it is stamp-independent.
+      - name: Affiliate compliance gate (disclosure drift + unverified links)
+        run: python3 scripts/check_affiliate_surface.py
+
       - name: Install root dependencies (Playwright test runner)
         run: npm install
 

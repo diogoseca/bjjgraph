@@ -624,7 +624,13 @@ function getPageGraphData(slug: FullSlug): string | null {
         name: m.name,
         relationship: m.relationship,
       })),
-      productCount: (data.products || []).length,
+      // RENDERABLE products only — the ones whose affiliate_url a human opened and confirmed
+      // (link_status: "live"). Counting authored-but-dead entries would report a conversion
+      // surface this page does not have. graph.json deliberately carries no affiliate_url at
+      // all (docs/Affiliate.md §3), so this is a count, never a link.
+      productCount: (data.products || []).filter(
+        (p: any) => (p?.link_status ?? "unverified") === "live",
+      ).length,
     })
   }
 

@@ -173,34 +173,18 @@ Marcelo Garcia's X-Guard System represents one of the most dominant guard framew
 
 
 
-<section id="unlock-this-system" class="content-section product-cards">
 
-## Unlock This System
 
-<p class="section-subtitle">Go deeper with the instructional that built this system.</p>
 
-<!-- PROXIMATE AFFILIATE DISCLOSURE — required HERE, not only in terms.md. FTC 16 CFR Part 255
-     and the UK ASA/CAP code both require it clear, conspicuous and close to the link. Placed
-     above the cards so a reader who scans only the card still sees it. Keep the wording in sync
-     with the app CTA disclosure in neural/src/app.src.jsx. -->
-<p class="affiliate-disclosure">BJJGraph earns a commission if you buy through this link, at no extra cost to you. It never changes what the graph teaches.</p>
+<section id="study-this-system" class="content-section system-study-free">
 
-<div class="product-cards-grid">
+## How do you drill Marcelo Garcia X-Guard System?
 
-<article class="product-card" data-product-id="marcelo-garcia-x-guard-formula">
-<div class="product-card__holo" aria-hidden="true"></div>
-<div class="product-card__shine" aria-hidden="true"></div>
-<div class="product-card__cover"><img src="https://placehold.co/640x360/1e293b/ffffff?text=The+X-Guard+Formula" alt="The X-Guard Formula" loading="lazy" width="640" height="360" /><span class="product-card__vendor-badge">BJJFanatics</span></div>
-<div class="product-card__body">
-<h3 class="product-card__title">The X-Guard Formula</h3>
-<p class="product-card__instructor">with Marcelo Garcia</p>
-<span class="product-card__unlocks-badge">Unlocks 23 techniques in this system</span>
-<p class="product-card__blurb">The X-Guard from its creator — entries, sweeps, and back takes that work against bigger, stronger opponents.</p>
-</div>
-<a class="product-card__cta affiliate-link" href="https://bjjfanatics.com/products/the-x-guard-formula-by-marcelo-garcia?ref=REPLACE_ME&utm_source=bjjgraph&utm_medium=affiliate&utm_campaign=systems&utm_content=marcelo-garcia-x-guard-system&utm_term=marcelo-garcia-x-guard-formula" target="_blank" rel="sponsored nofollow noopener" data-affiliate="true" data-product-id="marcelo-garcia-x-guard-formula" data-system-slug="systems/marcelo-garcia-x-guard-system" data-system-name="Marcelo Garcia X-Guard System" data-vendor="bjjfanatics" data-position="0">Get it &middot; $87 <span class="product-card__cta-arrow" aria-hidden="true">&#8594;</span></a>
-</article>
+<p class="section-subtitle">There's no instructional attached to this system yet &mdash; and you don't need one. It's taught here, free, from the 23 techniques it strings together.</p>
 
-</div>
+- **Learn it in order** &mdash; the [implementation sequence](#implementation-sequence) is the path, not a list.
+- **Study each piece** &mdash; every technique in [this system's map](#related-content) has its own page, flashcards and film study.
+- **Then roll it** &mdash; on the [interactive graph](/) these same nodes light up as your game moves through them.
 
 </section>
 

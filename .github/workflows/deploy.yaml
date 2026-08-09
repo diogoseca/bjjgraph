@@ -125,6 +125,12 @@ jobs:
           AFFILIATE_REF: ${{ secrets.AFFILIATE_REF }}
         run: python3 scripts/check_systems_payload.py
 
+      # The disclosure is a legal claim rendered from two hand-maintained copies, and only a
+      # human-verified URL may render at all. Both are asserted here (plus: the committed
+      # graph.json carries no affiliate URL). Source-and-content only — stamp-independent.
+      - name: Affiliate compliance gate (disclosure drift + unverified links)
+        run: python3 scripts/check_affiliate_surface.py
+
       - name: Install root dependencies (Playwright test runner)
         run: npm install
 

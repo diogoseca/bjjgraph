@@ -183,34 +183,18 @@ The system's effectiveness stems from its emphasis on mechanical hierarchy over 
 
 
 
-<section id="unlock-this-system" class="content-section product-cards">
 
-## Unlock This System
 
-<p class="section-subtitle">Go deeper with the instructional that built this system.</p>
 
-<!-- PROXIMATE AFFILIATE DISCLOSURE — required HERE, not only in terms.md. FTC 16 CFR Part 255
-     and the UK ASA/CAP code both require it clear, conspicuous and close to the link. Placed
-     above the cards so a reader who scans only the card still sees it. Keep the wording in sync
-     with the app CTA disclosure in neural/src/app.src.jsx. -->
-<p class="affiliate-disclosure">BJJGraph earns a commission if you buy through this link, at no extra cost to you. It never changes what the graph teaches.</p>
+<section id="study-this-system" class="content-section system-study-free">
 
-<div class="product-cards-grid">
+## How do you drill Danaher Leg Lock System?
 
-<article class="product-card" data-product-id="danaher-leglocks-enter-the-system">
-<div class="product-card__holo" aria-hidden="true"></div>
-<div class="product-card__shine" aria-hidden="true"></div>
-<div class="product-card__cover"><img src="https://placehold.co/640x360/1e293b/ffffff?text=Enter+The+System%3A+Leglocks" alt="Enter The System: Leglocks" loading="lazy" width="640" height="360" /><span class="product-card__vendor-badge">BJJFanatics</span></div>
-<div class="product-card__body">
-<h3 class="product-card__title">Enter The System: Leglocks</h3>
-<p class="product-card__instructor">with John Danaher</p>
-<span class="product-card__unlocks-badge">Unlocks 30 techniques in this system</span>
-<p class="product-card__blurb">The complete leg-lock system that defined modern no-gi — ashi garami entries, controls, and breaking mechanics, taught step by step.</p>
-</div>
-<a class="product-card__cta affiliate-link" href="https://bjjfanatics.com/products/enter-the-system-leglocks-by-john-danaher?ref=REPLACE_ME&utm_source=bjjgraph&utm_medium=affiliate&utm_campaign=systems&utm_content=danaher-leg-lock-system&utm_term=danaher-leglocks-enter-the-system" target="_blank" rel="sponsored nofollow noopener" data-affiliate="true" data-product-id="danaher-leglocks-enter-the-system" data-system-slug="systems/danaher-leg-lock-system" data-system-name="Danaher Leg Lock System" data-vendor="bjjfanatics" data-position="0">Get it &middot; $77 <span class="product-card__cta-arrow" aria-hidden="true">&#8594;</span></a>
-</article>
+<p class="section-subtitle">There's no instructional attached to this system yet &mdash; and you don't need one. It's taught here, free, from the 30 techniques it strings together.</p>
 
-</div>
+- **Learn it in order** &mdash; the [implementation sequence](#implementation-sequence) is the path, not a list.
+- **Study each piece** &mdash; every technique in [this system's map](#related-content) has its own page, flashcards and film study.
+- **Then roll it** &mdash; on the [interactive graph](/) these same nodes light up as your game moves through them.
 
 </section>
 

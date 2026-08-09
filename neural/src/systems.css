@@ -110,9 +110,13 @@
    keeps body-text contrast rather than the muted-caption treatment used elsewhere. */
 .ng-system-disclosure {
   margin: 0 0 9px;
-  color: #aeb9d4;
-  font-size: 10.5px;
-  line-height: 1.45;
+  /* Body-text size and contrast, matching the member rows (#c4cde0 / 12px). The comment above
+     already said "not visually suppressed", but the rule shipped 10.5px in a dimmer grey than
+     the copy around it — the fine-print treatment regulators name. The e2e journey now asserts
+     a legibility FLOOR (>= 11px, opaque) so this cannot quietly shrink back. */
+  color: #c4cde0;
+  font-size: 12px;
+  line-height: 1.5;
 }
 
 /* ── the glue ── the ordered spine and each member's role. These carry the meaning of a
