@@ -613,9 +613,11 @@ Every submission MUST include:
 A System may recommend an instructional. Only the MECHANICS live in this public repo — commercial
 terms, partner strategy and the ref itself are deliberately kept out of it.
 
-**`docs/Affiliate.md` is the canonical spec** — disclosure wording, link-verification rule, funnel
-and UTM contract. `scripts/check_affiliate_surface.py` (`npm run validate:affiliate`, wired into both
-deploy workflows) + `e2e/journeys/systems-surface.spec.ts` gate all of it.
+**This section is the canonical spec** — disclosure wording, link-verification rule, funnel and UTM
+contract. There is deliberately no separate affiliate doc: this repo is public, so partner strategy
+and commercial terms are kept out of it entirely and the owner maintains those privately.
+`scripts/check_affiliate_surface.py` (`npm run validate:affiliate`, wired into both deploy workflows)
++ `e2e/journeys/systems-surface.spec.ts` gate all of it.
 
 - **Products live in content JSON** — `content/Systems/<System>.json` → `products[]`
   (`id`, `title`, `instructor`, `vendor`, `affiliate_url`, `link_status`, `link_checked`, `image`,
@@ -647,7 +649,7 @@ deploy workflows) + `e2e/journeys/systems-surface.spec.ts` gate all of it.
   (`[data-affiliate-disclosure]` in `neural/src/app.src.jsx`) and `templates/Systems.md.jinja2`,
   above the product cards. FTC 16 CFR 255 and UK ASA/CAP require it close to the link; a site-wide
   statement in `content/terms.md` is the backstop, not the disclosure. Both copies must equal the
-  canonical block in `docs/Affiliate.md` and render above the link, same block, uncollapsed — asserted
+  wording below verbatim and render above the link, same block, uncollapsed — asserted
   offline by `check_affiliate_surface.py` and in a real browser by `systems-surface.spec.ts`.
 ## 8. RESOURCES
 
@@ -684,7 +686,6 @@ deploy workflows) + `e2e/journeys/systems-surface.spec.ts` gate all of it.
 | `docs/Architecture.md` | JSON pipeline, Position model |
 | `docs/Content.md` | Full content standards, validation rules |
 | `docs/SEO.md` | Schema markup, keywords, analytics setup |
-| `docs/Affiliate.md` | Disclosure wording (canonical), link-verification rule, affiliate funnel + UTM |
 
 ### Deployment
 
