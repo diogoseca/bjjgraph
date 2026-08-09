@@ -21,6 +21,17 @@ import { journey } from "../dsl";
 const OUT = resolve(__dirname, "../../tests/artifacts/coldstart"); // JSON dumps: TRACKED evidence
 const SHOTS = resolve(__dirname, "../gallery"); // PNGs: gitignored (a 1MB canvas shot per state)
 
+/**
+ * The dumps under OUT are TRACKED, CITED evidence — the diagnosis quotes them — so they are a
+ * deliberate fixture, refreshed on request and never as a side effect. v1.82.0 wrote them on every
+ * non-CI run, which meant simply running the gate locally left `cold-start-beats.json` and
+ * `cold-start-observation.json` modified: the tree was dirty after a green test, and no later diff
+ * of that evidence could be trusted. Refresh them deliberately:
+ *
+ *     COLDSTART_CAPTURE=1 npx playwright test -c e2e/playwright.coldstart.config.ts coldstart-funnel
+ */
+const CAPTURE = !!process.env.COLDSTART_CAPTURE;
+
 // "what does the user actually see" — every visible overlay's text, plus which known surfaces
 // are mounted. Written next to a screenshot so a claim about confusion has evidence behind it.
 const seen = (page: any, label: string) =>
@@ -85,7 +96,9 @@ const seen = (page: any, label: string) =>
         a && a.decisionRemaining
           ? Math.round(a.decisionRemaining() * 10) / 10
           : null,
-      funnel: a ? (a.beats || []).filter((b: any) => b.beat === "funnel") : [],
+      funnel: a
+        ? (a.csBeats || []).filter((b: any) => b.beat === "funnel")
+        : [],
       surfaces,
       texts,
     };
@@ -99,7 +112,7 @@ test("cold start: the funnel spine emits in order, and the first question is abo
   const capture = async (label: string) => {
     const d = await seen(page, label);
     dumps.push(d);
-    if (!process.env.CI) {
+    if (CAPTURE) {
       mkdirSync(OUT, { recursive: true });
       mkdirSync(SHOTS, { recursive: true });
       await page.screenshot({
@@ -114,7 +127,12 @@ test("cold start: the funnel spine emits in order, and the first question is abo
       writeFileSync(
         resolve(OUT, "cold-start-beats.json"),
         JSON.stringify(
-          await page.evaluate(() => (window as any).__neural.beats.slice()),
+          // BOTH streams: gameplay beats, and the funnel marks that now live in their own array
+          // (the observer must not be visible in the stream it observes — see _csInit).
+          await page.evaluate(() => ({
+            beats: ((window as any).__neural.beats || []).slice(),
+            funnel: ((window as any).__neural.csBeats || []).slice(),
+          })),
           null,
           2,
         ),
@@ -152,15 +170,32 @@ test("cold start: the funnel spine emits in order, and the first question is abo
       break;
   }
 
-  // STATE 2 — the coach is talking; the decision clock is frozen behind it
+  // STATE 2 — the coach is talking; the decision clock is frozen behind it, and the landing card
+  // is up alongside. The card fades in over .28s on the WALL clock and the dump's own visibility
+  // check reads opacity, so let the entry animation finish before sampling (same reason as STATE 3).
+  await page.waitForTimeout(400);
   const s2 = await capture("first-landing-coach");
   expect(
     s2.surfaces["[data-coach]"],
     "the coach greets a first-ever visitor",
   ).toBe(true);
+  // v1.82.0 asserted the OPPOSITE here ("the coach owns the first landing — no stacked card"),
+  // which pinned the blocker in place: because a cold visitor's first landing is ALWAYS coached,
+  // suppressing the card deleted the landing question from the one decision the comprehension
+  // mechanic exists for, and the funnel then recorded hand_dealt → move_committed with the two
+  // question steps missing. The coach now docks at the top of the viewport and the card keeps its
+  // own space below, so the newcomer reads WHERE THEY ARE while the coach explains the controls.
   expect(
     s2.surfaces["[data-landcard]"],
-    "the coach owns the first landing — no stacked card",
+    "the card is up while the coach talks — the clock is frozen behind both",
+  ).toBe(true);
+  expect(
+    await page.evaluate(() => {
+      const c = document.querySelector(".ng-coach")!.getBoundingClientRect();
+      const l = document.querySelector(".ng-landcard")!.getBoundingClientRect();
+      return !(c.bottom <= l.top || l.bottom <= c.top);
+    }),
+    "and they do not overlap",
   ).toBe(false);
 
   // STATE 3 — the coach hands over: identity, definition, ONE question, the option hand.
@@ -213,20 +248,29 @@ test("cold start: the funnel spine emits in order, and the first question is abo
   await j.drill(1);
 
   const funnel = await page.evaluate(() =>
-    (window as any).__neural.beats.filter((b: any) => b.beat === "funnel"),
+    (window as any).__neural.csBeats.filter((b: any) => b.beat === "funnel"),
   );
+  // The spine is what every cold visitor must physically walk. `question_answered` is NOT on it:
+  // ignoring the question is a legitimate way to play on, so gating the funnel on it reported every
+  // such visitor as a drop-off at a step they had sailed past. It is a side mark, next to
+  // `question_ignored` — the two together say what happened at the question.
   const spine = funnel.filter((f: any) => f.spine).map((f: any) => f.step);
   expect(spine, "the spine emits once each, in order").toEqual([
     "app_ready",
     "hand_dealt",
     "question_shown",
-    "question_answered",
     "move_committed",
     "outcome_seen",
   ]);
+  expect(
+    funnel.filter((f: any) => f.out_of_order).map((f: any) => f.step),
+    "and no spine step arrived with an earlier one missing",
+  ).toEqual([]);
   const marks = funnel.map((f: any) => f.step);
   expect(marks, "the side marks are measured too").toEqual(
     expect.arrayContaining([
+      "coach_seen",
+      "question_answered",
       "unseen_question",
       "pane_opened",
       "deck_card_graded",
@@ -239,7 +283,7 @@ test("cold start: the funnel spine emits in order, and the first question is abo
   // ── abandonment: leaving mid-funnel reports the furthest spine step reached ──
   await page.evaluate(() => (window as any).__neural._csAbandon("test"));
   const bail = await page.evaluate(() =>
-    (window as any).__neural.beats
+    (window as any).__neural.csBeats
       .filter((b: any) => b.beat === "funnel_abandon")
       .pop(),
   );
@@ -248,7 +292,7 @@ test("cold start: the funnel spine emits in order, and the first question is abo
   );
   expect(bail.cold, "and attributed to a cold visitor").toBe(true);
 
-  if (!process.env.CI) {
+  if (CAPTURE) {
     mkdirSync(OUT, { recursive: true });
     writeFileSync(
       resolve(OUT, "cold-start-observation.json"),
@@ -257,7 +301,10 @@ test("cold start: the funnel spine emits in order, and the first question is abo
     writeFileSync(
       resolve(OUT, "cold-start-beats.json"),
       JSON.stringify(
-        await page.evaluate(() => (window as any).__neural.beats.slice()),
+        await page.evaluate(() => ({
+          beats: ((window as any).__neural.beats || []).slice(),
+          funnel: ((window as any).__neural.csBeats || []).slice(),
+        })),
         null,
         2,
       ),
@@ -289,7 +336,7 @@ test("cold start: ignoring the landing question is measured, not silent", async 
   await j.pick(target);
   await j.expectBeat("land_q_ignored");
   const mark = await page.evaluate(() =>
-    (window as any).__neural.beats.find(
+    (window as any).__neural.csBeats.find(
       (b: any) => b.beat === "funnel" && b.step === "question_ignored",
     ),
   );

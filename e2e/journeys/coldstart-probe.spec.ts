@@ -146,7 +146,7 @@ test("probe: the landing card before, and after, the deck payload lands", async 
         )?.getAttribute("data-land-count"),
         drilltab: (document.querySelector(".ng-drilltab") as HTMLElement)
           ?.innerText,
-        funnel: (a.beats || [])
+        funnel: (a.csBeats || [])
           .filter((b: any) => b.beat === "funnel")
           .map((b: any) => b.step),
       };
@@ -246,7 +246,7 @@ test("probe: unrigged throttled cold-load timeline", async ({
           drilltab: (
             document.querySelector(".ng-drilltab") as HTMLElement
           )?.innerText?.replace(/\n/g, " | "),
-          funnel: (a?.beats || [])
+          funnel: (a?.csBeats || [])
             .filter((b: any) => b.beat === "funnel")
             .map((b: any) => `${b.step}@${b.ms_since_nav}`),
         };

@@ -395,12 +395,10 @@ class Component extends DCLogic {
       .catch(() => { /* optional payload */ });
     if (this.loaderRef.current) this.loaderRef.current.style.display = "none";
     this._csStep("app_ready"); // graph ingested, loader down: the first frame the user can see
-    // durability: flush the debounced save if the tab is closing/backgrounding (a quick reload
-    // right after a belt-win fanfare must not lose the milestone).
-    this._onPageHide = () => { this._flushSave(); this._csAbandon("pagehide"); };
-    this._onVisHide = () => { if (document.visibilityState === "hidden") { this._flushSave(); this._csAbandon("hidden"); } };
-    window.addEventListener("pagehide", this._onPageHide);
-    document.addEventListener("visibilitychange", this._onVisHide);
+    // durability: the pagehide/visibility flush that keeps a belt win from being lost to a quick
+    // reload is armed in _csArmHide(), called from _csInit() at the TOP of boot — registering it
+    // here left the whole cold-load window (loader up, nothing playable) unmeasurable.
+    this._csArmHide();
     this.startLoop();
   }
 
@@ -1338,15 +1336,35 @@ class Component extends DCLogic {
   //   neural_coldstart_abandoned — summary emitted from the pagehide/visibility flush
   // ANALYSIS NOTE: a hide can be a tab-switch, so the report RE-ARMS whenever the spine advances.
   // Take the LAST abandoned event per session; the step events are the authoritative funnel.
-  _csSpine() { return this._csSp || (this._csSp = ["app_ready", "hand_dealt", "question_shown", "question_answered", "move_committed", "outcome_seen", "roll_ended"]); }
+  //
+  // ── THE SPINE IS DERIVED FROM THE DEFAULT PATH, NOT FROM THE IDEAL ONE ──
+  // v1.82.0 shipped a 7-step spine that included `question_answered` between the question and the
+  // commit. Measured on the DEFAULT (coached) path, the recorded order was
+  //
+  //     ["app_ready","hand_dealt","move_committed","outcome_seen"]      (indices 0,1,4,5)
+  //
+  // — an ordered PostHog funnel on that spine reports a 100% drop at `question_shown` for a
+  // visitor who played a whole exchange. Two separate errors caused it:
+  //   1. the coach suppressed the landing card, so the question was never asked (fixed: the
+  //      coached landing now carries its question — see renderLandCard/maybeStartCoach);
+  //   2. `question_answered` was a GATE when it is a BRANCH. Ignoring the question is a legitimate
+  //      way to play on; gating the funnel on it reports every such visitor as a drop-off.
+  // So `question_answered` is now a side mark alongside `question_ignored`, and the spine is the
+  // path every cold visitor must physically walk. A landing that can ask nothing at all (proven
+  // deck, no authored cards, `landQuestions` off) emits `question_skipped` WITH A REASON, so a gap
+  // in the funnel always has a named cause rather than being a phantom.
+  _csSpine() { return this._csSp || (this._csSp = ["app_ready", "hand_dealt", "question_shown", "move_committed", "outcome_seen", "roll_ended"]); }
   // beat -> mark. Cached (not a getter) so the per-beat path allocates nothing.
   _csMapOf() {
     return this._csM || (this._csM = {
       options_dealt: "hand_dealt",        // the first hand of options is the first actionable state
       land_q_shown: "question_shown",
-      land_q_answered: "question_answered",
+      land_q_answered: "question_answered", // BRANCH, not a gate — see the note above
       land_q_ignored: "question_ignored", // committing past an unanswered question
+      land_q_skipped: "question_skipped", // the landing could ask nothing; `reason` says why
       land_q_unseen: "unseen_question",   // the specific suspected confusion (see renderLandCard)
+      coach_1: "coach_seen",              // the default path's real first gate
+      coach_done: "coach_finished",
       commit: "move_committed",
       impact_success: "outcome_seen", impact_fail: "outcome_seen",
       bonus_pumped: "deck_card_graded",   // first flashcard actually graded
@@ -1357,6 +1375,30 @@ class Component extends DCLogic {
     let returning = false;
     try { returning = !!(localStorage.getItem("bjj-neural-progress") || localStorage.getItem("bjj-neural-coached")); } catch (e) { /* private mode */ }
     this._cs = { at: {}, cold: !returning, last: 0, reported: false, hides: 0 };
+    // OBSERVER MEANS OBSERVER. v1.82.0 pushed its marks into `this.beats`, the gameplay beat
+    // stream — so a freshly remounted app life no longer had an empty stream, and SEVEN gen specs
+    // that use exactly that emptiness as their "rebuilt, not resumed" proof went red. Analytics
+    // must never be visible to the thing it measures: the marks live in their own array.
+    this.csBeats = [];
+    this._csArmHide();
+  }
+  // ── ARMED FIRST, NOT LAST ── these were registered at the END of boot(), downstream of the
+  // graph ingest and the loader teardown. On the cold load this funnel exists to measure, that is
+  // seconds of dead air: a visitor who gives up while the loader is still spinning emitted
+  // NOTHING, so the abandonment the funnel was built to find was unmeasurable by construction.
+  // _csInit() is the first statement of boot(), so registering here covers the whole session.
+  // The save side keeps its own guard: _flushSave is only safe once _loadProgress has run (Q001),
+  // and _loadProgress happens later in boot — hence the _progressLoaded check, not a bare call.
+  _csArmHide() {
+    if (this._onPageHide) return;
+    // NOT a constant: true only because arming happens before app_ready is recorded. Move this call
+    // back down to the end of boot() and it flips to false, which is what the structural test pins.
+    if (this._cs) this._cs.armedBefore = this._cs.at.app_ready == null;
+    const flush = () => { try { if (this._progressLoaded) this._flushSave(); } catch (e) { /* durability is best-effort */ } };
+    this._onPageHide = () => { flush(); this._csAbandon("pagehide"); };
+    this._onVisHide = () => { if (document.visibilityState === "hidden") { flush(); this._csAbandon("hidden"); } };
+    window.addEventListener("pagehide", this._onPageHide);
+    document.addEventListener("visibilitychange", this._onVisHide);
   }
   // ms since NAVIGATION start (not since boot) — the honest number for "how long until the user
   // could do anything". NB in test mode this is wall clock; the `funnel` beat's own `t` is sim time.
@@ -1368,6 +1410,7 @@ class Component extends DCLogic {
     if (beat === "land_q_answered") extra = { correct: !!props.correct, tier: props.tier || null };
     else if (beat === "land_q_unseen") extra = { node: props.node || null, cards_authored: props.cards || 0 };
     else if (beat === "land_q_ignored") extra = { deck_key: props.deckKey || null };
+    else if (beat === "land_q_skipped") extra = { deck_key: props.deckKey || null, reason: props.reason || null };
     this._csStep(step, extra);
   }
   _csStep(step, extra) {
@@ -1375,13 +1418,25 @@ class Component extends DCLogic {
     if (!cs || cs.at[step] != null) return; // once only — this is a funnel, not a counter
     const ms = this._csNow();
     cs.at[step] = ms;
-    const spine = this._csSpine().indexOf(step);
+    const sp = this._csSpine();
+    const spine = sp.indexOf(step);
+    // SELF-DESCRIBING ORDER. An ordered funnel is only meaningful if a recorded spine step arrives
+    // with every earlier spine step already recorded. When it does not, say so IN THE EVENT rather
+    // than let the analysis infer a drop-off that never happened — this is the exact failure that
+    // made the v1.82.0 spine unusable, and stamping it here means it can never recur silently.
+    let missing = null;
+    if (spine > 0) {
+      const gaps = [];
+      for (let i = 0; i < spine; i++) if (cs.at[sp[i]] == null) gaps.push(sp[i]);
+      if (gaps.length) missing = gaps.join(",");
+    }
     const props = Object.assign({
       step: step, step_index: spine, spine: spine >= 0, cold: !!cs.cold,
       ms_since_nav: ms, ms_since_prev: ms - cs.last, coach_open: !!this._coach,
+      out_of_order: !!missing, skipped: missing,
     }, extra || {});
     if (spine >= 0) { cs.last = ms; cs.reported = false; } // re-arm the abandon report
-    (this.beats = this.beats || []).push(Object.assign({ t: this.now || 0, beat: "funnel" }, props));
+    (this.csBeats = this.csBeats || []).push(Object.assign({ t: this.now || 0, beat: "funnel" }, props));
     this.track("neural_coldstart_step", props);
   }
   _csFurthest() {
@@ -1402,7 +1457,7 @@ class Component extends DCLogic {
       reason: reason, cold: !!cs.cold, furthest_step: f >= 0 ? sp[f] : "none", furthest_index: f,
       ms_since_nav: this._csNow(), hides: cs.hides, marks: Object.keys(cs.at).join(","),
     };
-    (this.beats = this.beats || []).push(Object.assign({ t: this.now || 0, beat: "funnel_abandon" }, props));
+    (this.csBeats = this.csBeats || []).push(Object.assign({ t: this.now || 0, beat: "funnel_abandon" }, props));
     this.track("neural_coldstart_abandoned", props);
   }
   get(k, d) { const v = (this.settings || {})[k]; return v == null ? d : v; }
@@ -4541,21 +4596,30 @@ class Component extends DCLogic {
   // (measured: tests/artifacts/coldstart/probe-late-payload.json). Fill the live card IN PLACE.
   // Every guard is load-bearing:
   //   _landEl + _landMode "land" — never touch a technique card in flight (it owns answer hooks)
-  //   !_landQ  — this landing has never shown a question. A card already on the table is FROZEN:
-  //              re-mounting it would reshuffle it mid-read, and re-mounting an ANSWERED one
-  //              would hand out a second attempt at credit already scored (mastery is
-  //              recall-proven — nothing may mint a second answer). The cost is that a dossier
-  //              payload arriving after the deck payload adds no definition to that first card;
-  //              that is the cheaper of the two losses, and the next landing renders complete.
+  //   NOT ANSWERED — the one hard rule. Mastery is recall-proven and an MC answer is scored once,
+  //              so re-mounting a question the player has already answered would hand out a second
+  //              attempt at credit already banked. An UNANSWERED question, by contrast, may be
+  //              completed in place: v1.82.1 froze on "a question has MOUNTED", which is a proxy,
+  //              not the property — and it cost exactly the case that matters. The measured
+  //              production ordering is decks @25.3s then dossier content @27.0s, 1.7s apart, so
+  //              the proxy dropped the definition from the first card a visitor ever reads. The
+  //              question itself is carried across VERBATIM (same card, same option order, same
+  //              closure) rather than rebuilt, so nothing reshuffles under a player mid-read and
+  //              no second answer can be scored.
   //   _landIdx === currentPos + a live _decision — the roll has not moved on; a card whose turn
   //              is over must never be rewritten under the next state.
+  // The coach is NOT a guard. A genuinely cold visitor's first landing is ALWAYS coached, so
+  // excluding it excluded the only path this fix exists for.
   // Not a pane/roll-loop action: it re-renders one overlay in place, opens nothing, pauses nothing.
   _landBackfill() {
-    if (!this._landEl || this._landQ || this._coach) return;
+    if (!this._landEl) return;
+    if (this._landQ && this._landQ.answered) return;   // scored once, never re-asked
     if (this._landMode !== "land" || this._landIdx !== this.currentPos) return;
     if (!this._decision || !this._optPick) return;
     const pos = this.nodes && this.nodes[this.currentPos];
     if (!pos) return;
+    // carry a live, unanswered question across the re-render instead of drawing a new one
+    const reuse = this._landQ ? { q: this._landQ, el: this._landEl.querySelector("[data-land-q]"), pending: !!this._landPending } : null;
     // keyboard users: if focus was on one of the card's own handles, put it back on the new one
     const act = document.activeElement;
     const held = act && this._landEl.contains(act)
@@ -4566,15 +4630,21 @@ class Component extends DCLogic {
     // view over the sheet the player is reading
     const hidden = this._landEl.style.opacity === "0";
     this._landLate = true;                       // the beat says "this question arrived late"
-    try { this.renderLandCard(pos, "land", null); } finally { this._landLate = false; }
+    try { this.renderLandCard(pos, "land", null, reuse); } finally { this._landLate = false; }
     if (this._landEl && hidden) { this._landEl.style.opacity = "0"; this._landEl.style.pointerEvents = "none"; }
     if (held && this._landEl) { const t = this._landEl.querySelector(held); if (t && t.focus) try { t.focus(); } catch (e) {} }
   }
   // mode: "land" (a position — your options are dealt below) | "attempt" (a technique in flight —
   // the tension sweep is waiting on this answer). hooks: {onAnswer(correct), onSkip()}.
-  renderLandCard(node, mode, hooks) {
+  // reuse: {q, el, pending} — an unanswered question block carried verbatim across a backfill
+  // re-render (see _landBackfill). Absent on a normal landing.
+  renderLandCard(node, mode, hooks, reuse) {
     this.clearLandCard();
-    if (this._coach) return null;                      // the guided coach owns the first landing
+    // The coach used to return null here, on the theory that it "owns the first landing". It owns
+    // the first landing of EVERY cold visitor — so that theory silently deleted the landing
+    // question from the one decision the whole comprehension mechanic exists to serve. The coach
+    // now sits above the card (see .ng-coach in helmet.html) and the clock stays frozen behind
+    // both, which is strictly more generous: the newcomer reads and answers under no timer at all.
     const key = this.deckKeyFor(node).key;
     // the setting gates the QUESTION, not the card: identity and film are priority either way
     const card = this.get("landQuestions", true) ? this.questionFor(key) : null;
@@ -4640,7 +4710,14 @@ class Component extends DCLogic {
 
     // 4 — ONE question, always multiple choice: this is the in-play format (the sidebar is
     // where the same cards read back as classic recall)
-    if (card) {
+    // A question already on the table is re-parented, never rebuilt: same card, same option order,
+    // same `answered` closure — so a backfill completes the card around it without reshuffling it
+    // under the player and without any chance of a second scored answer.
+    if (reuse && reuse.el) {
+      el.appendChild(reuse.el);
+      this._landQ = reuse.q;
+      this._landPending = reuse.pending;
+    } else if (card) {
       const qw = document.createElement("div");
       qw.setAttribute("data-land-q", "1");
       qw.style.cssText = "margin-top:10px;padding-top:10px;border-top:1px solid rgba(150,170,210,.14);";
@@ -4652,7 +4729,7 @@ class Component extends DCLogic {
       if (block) {
         qw.appendChild(block);
         el.appendChild(qw);
-        this._landQ = { key: key, card: card, mode: mode || "land" };
+        this._landQ = { key: key, card: card, mode: mode || "land", answered: false };
         this._landPending = true; // a question is on the table — walking past it breaks momentum
         // COLD-START MEASUREMENT: is the game quizzing a state the player has never studied? The
         // glyph is the existing evidence ("○" = not one card in this deck has ever been met), so
@@ -4660,7 +4737,12 @@ class Component extends DCLogic {
         const unseen = glyph[0] === "○";
         this.fx("land_q_shown", { deckKey: key, mode: mode || "land", unseen: unseen, cards: totalCards, backfill: !!this._landLate });
         if (unseen) this.fx("land_q_unseen", { deckKey: key, node: node.t, cards: totalCards, mode: mode || "land", landing: (this.rollLog || []).length });
-      }
+      } else this._landQSkip(key, "no_distractors", mode);
+    } else if ((mode || "land") === "land") {
+      // NAME THE GAP. A landing that asks nothing is legitimate, but the cold-start funnel must not
+      // be left to infer a drop-off from its absence — an unexplained hole in an ordered funnel is
+      // exactly the phantom that made the v1.82.0 spine unusable.
+      this._landQSkip(key, !this.get("landQuestions", true) ? "setting_off" : (!totalCards ? (this.flashcards ? "no_cards_authored" : "decks_in_flight") : "deck_proven"), mode);
     }
 
     // 5 — everything else is behind one affordance
@@ -4675,8 +4757,13 @@ class Component extends DCLogic {
     el.appendChild(foot);
     return el;
   }
+  // this landing asked nothing, and `reason` says why (so the funnel gap is never a phantom)
+  _landQSkip(key, reason, mode) {
+    this.fx("land_q_skipped", { deckKey: key, reason: reason, mode: mode || "land", backfill: !!this._landLate });
+  }
   _landAnswered(correct, tier, mode, hooks) {
     this._landPending = false;
+    if (this._landQ) this._landQ.answered = true; // scored — no payload may ever re-mount this block
     if (correct) {
       const granted = this.refundDecision(2500);
       this._comboUp();
@@ -5112,8 +5199,11 @@ class Component extends DCLogic {
     try { localStorage.setItem("bjj-neural-coached", "1"); } catch (e) {}
     if (this._coachEl) { try { this._coachEl.remove(); } catch (e) {} this._coachEl = null; }
     this.fx("coach_done", {});
-    // the coach held the landing card back so the two never stack — hand over to it now
-    if (this.nodes && this.nodes[this.currentPos] && this.optionIdxs && this.optionIdxs.length) this.renderLandCard(this.nodes[this.currentPos], "land", null);
+    // NO landcard work here. The card has been on screen, with its question, the whole time the
+    // coach was talking, and a payload that landed meanwhile already reached it through
+    // _landBackfill (which no longer excludes the coached path). Re-rendering it at handover would
+    // replay the entry animation for nothing and — if the newcomer answered while the coach was up
+    // — risk re-mounting a block whose answer has already been scored.
     this.renderTutorial(); // the coach hands the drip its first visible step
   }
   renderCoach() {

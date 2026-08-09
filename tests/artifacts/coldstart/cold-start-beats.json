@@ -1,321 +1,405 @@
-[
-  {
-    "t": 0,
-    "beat": "funnel",
-    "step": "app_ready",
-    "step_index": 0,
-    "spine": true,
-    "cold": true,
-    "ms_since_nav": 516,
-    "ms_since_prev": 516,
-    "coach_open": false
-  },
-  {
-    "t": 3.233333333333329,
-    "beat": "stakes",
-    "rank": 1,
-    "opponent": "Fresh White Belt"
-  },
-  {
-    "t": 4.516666666666663,
-    "beat": "land",
-    "position": "X-Guard Top",
-    "first": true
-  },
-  {
-    "t": 4.516666666666663,
-    "beat": "options_dealt",
-    "count": 4
-  },
-  {
-    "t": 4.516666666666663,
-    "beat": "funnel",
-    "step": "hand_dealt",
-    "step_index": 1,
-    "spine": true,
-    "cold": true,
-    "ms_since_nav": 1276,
-    "ms_since_prev": 760,
-    "coach_open": false
-  },
-  {
-    "t": 4.516666666666663,
-    "beat": "beacon_moved",
-    "target": "options"
-  },
-  {
-    "t": 4.516666666666663,
-    "beat": "coach_1"
-  },
-  {
-    "t": 4.516666666666663,
-    "beat": "challenge_completed",
-    "id": "white.coach1",
-    "track": "white",
-    "progress": 1,
-    "target": 1
-  },
-  {
-    "t": 4.516666666666663,
-    "beat": "tut_step",
-    "id": "coach1",
-    "done": 1,
-    "of": 20
-  },
-  {
-    "t": 5.000000000000006,
-    "beat": "coach_done"
-  },
-  {
-    "t": 5.000000000000006,
-    "beat": "mc_shown",
-    "deckKey": "X-Guard|Top",
-    "qhash": "6ccf0ff2",
-    "opts": 4,
-    "surface": "land"
-  },
-  {
-    "t": 5.000000000000006,
-    "beat": "land_q_shown",
-    "deckKey": "X-Guard|Top",
-    "mode": "land",
-    "unseen": true,
-    "cards": 8
-  },
-  {
-    "t": 5.000000000000006,
-    "beat": "funnel",
-    "step": "question_shown",
-    "step_index": 2,
-    "spine": true,
-    "cold": true,
-    "ms_since_nav": 1626,
-    "ms_since_prev": 350,
-    "coach_open": false
-  },
-  {
-    "t": 5.000000000000006,
-    "beat": "land_q_unseen",
-    "deckKey": "X-Guard|Top",
-    "node": "X-Guard Top",
-    "cards": 8,
-    "mode": "land",
-    "landing": 1
-  },
-  {
-    "t": 5.000000000000006,
-    "beat": "funnel",
-    "step": "unseen_question",
-    "step_index": -1,
-    "spine": false,
-    "cold": true,
-    "ms_since_nav": 1626,
-    "ms_since_prev": 0,
-    "coach_open": false,
-    "node": "X-Guard Top",
-    "cards_authored": 8
-  },
-  {
-    "t": 5.000000000000006,
-    "beat": "mc_wrong",
-    "deckKey": "X-Guard|Top",
-    "qhash": "6ccf0ff2",
-    "tier": "plausible",
-    "correct": 3
-  },
-  {
-    "t": 5.000000000000006,
-    "beat": "land_q_answered",
-    "correct": false,
-    "tier": "plausible",
-    "mode": "land",
-    "qMod": -0.04,
-    "combo": 0
-  },
-  {
-    "t": 5.000000000000006,
-    "beat": "funnel",
-    "step": "question_answered",
-    "step_index": 3,
-    "spine": true,
-    "cold": true,
-    "ms_since_nav": 2438,
-    "ms_since_prev": 812,
-    "coach_open": false,
-    "correct": false,
-    "tier": "plausible"
-  },
-  {
-    "t": 5.000000000000006,
-    "beat": "sheet_opened",
-    "technique": "Tomahawk Sweep"
-  },
-  {
-    "t": 5.000000000000006,
-    "beat": "challenge_completed",
-    "id": "white.sheet",
-    "track": "white",
-    "progress": 1,
-    "target": 1
-  },
-  {
-    "t": 5.000000000000006,
-    "beat": "tut_step",
-    "id": "sheet",
-    "done": 2,
-    "of": 20
-  },
-  {
-    "t": 5.000000000000006,
-    "beat": "jit_opened",
-    "deck_key": "Tomahawk Sweep|Attacker"
-  },
-  {
-    "t": 5.000000000000006,
-    "beat": "beacon_moved",
-    "target": "jit"
-  },
-  {
-    "t": 5.000000000000006,
-    "beat": "commit",
-    "technique": "Tomahawk Sweep"
-  },
-  {
-    "t": 5.000000000000006,
-    "beat": "funnel",
-    "step": "move_committed",
-    "step_index": 4,
-    "spine": true,
-    "cold": true,
-    "ms_since_nav": 3468,
-    "ms_since_prev": 1030,
-    "coach_open": false
-  },
-  {
-    "t": 5.000000000000006,
-    "beat": "challenge_completed",
-    "id": "white.commit",
-    "track": "white",
-    "progress": 1,
-    "target": 1
-  },
-  {
-    "t": 5.000000000000006,
-    "beat": "tut_step",
-    "id": "commit",
-    "done": 3,
-    "of": 20
-  },
-  {
-    "t": 6.333333333333364,
-    "beat": "sweep_start",
-    "technique": "Tomahawk Sweep",
-    "band": 41
-  },
-  {
-    "t": 7.416666666666717,
-    "beat": "sweep_land",
-    "inBand": false,
-    "roll": 84
-  },
-  {
-    "t": 7.416666666666717,
-    "beat": "challenge_completed",
-    "id": "white.sweep",
-    "track": "white",
-    "progress": 1,
-    "target": 1
-  },
-  {
-    "t": 7.416666666666717,
-    "beat": "tut_step",
-    "id": "sweep",
-    "done": 4,
-    "of": 20
-  },
-  {
-    "t": 7.416666666666717,
-    "beat": "hit_stop",
-    "technique": "Tomahawk Sweep"
-  },
-  {
-    "t": 7.416666666666717,
-    "beat": "impact_fail",
-    "technique": "Tomahawk Sweep",
-    "counter": false
-  },
-  {
-    "t": 7.416666666666717,
-    "beat": "funnel",
-    "step": "outcome_seen",
-    "step_index": 5,
-    "spine": true,
-    "cold": true,
-    "ms_since_nav": 3650,
-    "ms_since_prev": 182,
-    "coach_open": false
-  },
-  {
-    "t": 8.68333333333338,
-    "beat": "opponent_move",
-    "technique": "Stack Pass",
-    "idx": 138
-  },
-  {
-    "t": 10.299999999999986,
-    "beat": "funnel",
-    "step": "pane_opened",
-    "step_index": -1,
-    "spine": false,
-    "cold": true,
-    "ms_since_nav": 3706,
-    "ms_since_prev": 56,
-    "coach_open": false
-  },
-  {
-    "t": 10.299999999999986,
-    "beat": "pane_paused"
-  },
-  {
-    "t": 10.299999999999986,
-    "beat": "challenge_completed",
-    "id": "white.pane-open",
-    "track": "white",
-    "progress": 1,
-    "target": 1
-  },
-  {
-    "t": 10.299999999999986,
-    "beat": "tut_step",
-    "id": "pane_open",
-    "done": 5,
-    "of": 20
-  },
-  {
-    "t": 10.299999999999986,
-    "beat": "bonus_pumped",
-    "deck_key": "X-Guard|Top"
-  },
-  {
-    "t": 10.299999999999986,
-    "beat": "funnel",
-    "step": "deck_card_graded",
-    "step_index": -1,
-    "spine": false,
-    "cold": true,
-    "ms_since_nav": 3723,
-    "ms_since_prev": 73,
-    "coach_open": false
-  },
-  {
-    "t": 10.299999999999986,
-    "beat": "funnel_abandon",
-    "reason": "test",
-    "cold": true,
-    "furthest_step": "outcome_seen",
-    "furthest_index": 5,
-    "ms_since_nav": 3765,
-    "hides": 1,
-    "marks": "app_ready,hand_dealt,question_shown,unseen_question,question_answered,move_committed,outcome_seen,pane_opened,deck_card_graded"
-  }
-]
+{
+  "beats": [
+    {
+      "t": 3.233333333333329,
+      "beat": "stakes",
+      "rank": 1,
+      "opponent": "Fresh White Belt"
+    },
+    {
+      "t": 4.516666666666663,
+      "beat": "land",
+      "position": "X-Guard Top",
+      "first": true
+    },
+    {
+      "t": 4.516666666666663,
+      "beat": "options_dealt",
+      "count": 4
+    },
+    {
+      "t": 4.516666666666663,
+      "beat": "beacon_moved",
+      "target": "options"
+    },
+    {
+      "t": 4.516666666666663,
+      "beat": "coach_1"
+    },
+    {
+      "t": 4.516666666666663,
+      "beat": "challenge_completed",
+      "id": "white.coach1",
+      "track": "white",
+      "progress": 1,
+      "target": 1
+    },
+    {
+      "t": 4.516666666666663,
+      "beat": "tut_step",
+      "id": "coach1",
+      "done": 1,
+      "of": 20
+    },
+    {
+      "t": 4.516666666666663,
+      "beat": "mc_shown",
+      "deckKey": "X-Guard|Top",
+      "qhash": "6ccf0ff2",
+      "opts": 4,
+      "surface": "land"
+    },
+    {
+      "t": 4.516666666666663,
+      "beat": "land_q_shown",
+      "deckKey": "X-Guard|Top",
+      "mode": "land",
+      "unseen": true,
+      "cards": 8,
+      "backfill": false
+    },
+    {
+      "t": 4.516666666666663,
+      "beat": "land_q_unseen",
+      "deckKey": "X-Guard|Top",
+      "node": "X-Guard Top",
+      "cards": 8,
+      "mode": "land",
+      "landing": 1
+    },
+    {
+      "t": 5.000000000000006,
+      "beat": "coach_done"
+    },
+    {
+      "t": 5.000000000000006,
+      "beat": "mc_wrong",
+      "deckKey": "X-Guard|Top",
+      "qhash": "6ccf0ff2",
+      "tier": "trap",
+      "correct": 3
+    },
+    {
+      "t": 5.000000000000006,
+      "beat": "land_q_answered",
+      "correct": false,
+      "tier": "trap",
+      "mode": "land",
+      "qMod": -0.08,
+      "combo": 0
+    },
+    {
+      "t": 5.000000000000006,
+      "beat": "sheet_opened",
+      "technique": "Tomahawk Sweep"
+    },
+    {
+      "t": 5.000000000000006,
+      "beat": "challenge_completed",
+      "id": "white.sheet",
+      "track": "white",
+      "progress": 1,
+      "target": 1
+    },
+    {
+      "t": 5.000000000000006,
+      "beat": "tut_step",
+      "id": "sheet",
+      "done": 2,
+      "of": 20
+    },
+    {
+      "t": 5.000000000000006,
+      "beat": "jit_opened",
+      "deck_key": "Tomahawk Sweep|Attacker"
+    },
+    {
+      "t": 5.000000000000006,
+      "beat": "beacon_moved",
+      "target": "jit"
+    },
+    {
+      "t": 5.000000000000006,
+      "beat": "commit",
+      "technique": "Tomahawk Sweep"
+    },
+    {
+      "t": 5.000000000000006,
+      "beat": "challenge_completed",
+      "id": "white.commit",
+      "track": "white",
+      "progress": 1,
+      "target": 1
+    },
+    {
+      "t": 5.000000000000006,
+      "beat": "tut_step",
+      "id": "commit",
+      "done": 3,
+      "of": 20
+    },
+    {
+      "t": 6.333333333333364,
+      "beat": "sweep_start",
+      "technique": "Tomahawk Sweep",
+      "band": 37
+    },
+    {
+      "t": 7.416666666666717,
+      "beat": "sweep_land",
+      "inBand": false,
+      "roll": 52
+    },
+    {
+      "t": 7.416666666666717,
+      "beat": "challenge_completed",
+      "id": "white.sweep",
+      "track": "white",
+      "progress": 1,
+      "target": 1
+    },
+    {
+      "t": 7.416666666666717,
+      "beat": "tut_step",
+      "id": "sweep",
+      "done": 4,
+      "of": 20
+    },
+    {
+      "t": 7.416666666666717,
+      "beat": "hit_stop",
+      "technique": "Tomahawk Sweep"
+    },
+    {
+      "t": 7.416666666666717,
+      "beat": "impact_fail",
+      "technique": "Tomahawk Sweep",
+      "counter": false
+    },
+    {
+      "t": 8.68333333333338,
+      "beat": "opponent_attack",
+      "technique": "Kneebar from Single Leg X-Guard",
+      "idx": 1043
+    },
+    {
+      "t": 9.983333333333333,
+      "beat": "defend_start",
+      "submission": "Kneebar from Single Leg X-Guard"
+    },
+    {
+      "t": 9.983333333333333,
+      "beat": "challenge_completed",
+      "id": "white.defend",
+      "track": "white",
+      "progress": 1,
+      "target": 1
+    },
+    {
+      "t": 9.983333333333333,
+      "beat": "tut_step",
+      "id": "defend",
+      "done": 5,
+      "of": 20
+    },
+    {
+      "t": 9.983333333333333,
+      "beat": "caught",
+      "submission": "Kneebar from Single Leg X-Guard"
+    },
+    {
+      "t": 9.983333333333333,
+      "beat": "panic_drill_opened",
+      "deck_key": "Kneebar from Single Leg X-Guard|Defender"
+    },
+    {
+      "t": 9.983333333333333,
+      "beat": "beacon_moved",
+      "target": "panic"
+    },
+    {
+      "t": 10.299999999999986,
+      "beat": "pane_paused"
+    },
+    {
+      "t": 10.299999999999986,
+      "beat": "challenge_completed",
+      "id": "white.pane-open",
+      "track": "white",
+      "progress": 1,
+      "target": 1
+    },
+    {
+      "t": 10.299999999999986,
+      "beat": "tut_step",
+      "id": "pane_open",
+      "done": 6,
+      "of": 20
+    },
+    {
+      "t": 10.299999999999986,
+      "beat": "bonus_pumped",
+      "deck_key": "X-Guard|Top"
+    }
+  ],
+  "funnel": [
+    {
+      "t": 0,
+      "beat": "funnel",
+      "step": "app_ready",
+      "step_index": 0,
+      "spine": true,
+      "cold": true,
+      "ms_since_nav": 463,
+      "ms_since_prev": 463,
+      "coach_open": false,
+      "out_of_order": false,
+      "skipped": null
+    },
+    {
+      "t": 4.516666666666663,
+      "beat": "funnel",
+      "step": "hand_dealt",
+      "step_index": 1,
+      "spine": true,
+      "cold": true,
+      "ms_since_nav": 1087,
+      "ms_since_prev": 624,
+      "coach_open": false,
+      "out_of_order": false,
+      "skipped": null
+    },
+    {
+      "t": 4.516666666666663,
+      "beat": "funnel",
+      "step": "coach_seen",
+      "step_index": -1,
+      "spine": false,
+      "cold": true,
+      "ms_since_nav": 1088,
+      "ms_since_prev": 1,
+      "coach_open": true,
+      "out_of_order": false,
+      "skipped": null
+    },
+    {
+      "t": 4.516666666666663,
+      "beat": "funnel",
+      "step": "question_shown",
+      "step_index": 2,
+      "spine": true,
+      "cold": true,
+      "ms_since_nav": 1090,
+      "ms_since_prev": 3,
+      "coach_open": true,
+      "out_of_order": false,
+      "skipped": null
+    },
+    {
+      "t": 4.516666666666663,
+      "beat": "funnel",
+      "step": "unseen_question",
+      "step_index": -1,
+      "spine": false,
+      "cold": true,
+      "ms_since_nav": 1090,
+      "ms_since_prev": 0,
+      "coach_open": true,
+      "out_of_order": false,
+      "skipped": null,
+      "node": "X-Guard Top",
+      "cards_authored": 8
+    },
+    {
+      "t": 5.000000000000006,
+      "beat": "funnel",
+      "step": "coach_finished",
+      "step_index": -1,
+      "spine": false,
+      "cold": true,
+      "ms_since_nav": 1814,
+      "ms_since_prev": 724,
+      "coach_open": false,
+      "out_of_order": false,
+      "skipped": null
+    },
+    {
+      "t": 5.000000000000006,
+      "beat": "funnel",
+      "step": "question_answered",
+      "step_index": -1,
+      "spine": false,
+      "cold": true,
+      "ms_since_nav": 2534,
+      "ms_since_prev": 1444,
+      "coach_open": false,
+      "out_of_order": false,
+      "skipped": null,
+      "correct": false,
+      "tier": "trap"
+    },
+    {
+      "t": 5.000000000000006,
+      "beat": "funnel",
+      "step": "move_committed",
+      "step_index": 3,
+      "spine": true,
+      "cold": true,
+      "ms_since_nav": 3515,
+      "ms_since_prev": 2425,
+      "coach_open": false,
+      "out_of_order": false,
+      "skipped": null
+    },
+    {
+      "t": 7.416666666666717,
+      "beat": "funnel",
+      "step": "outcome_seen",
+      "step_index": 4,
+      "spine": true,
+      "cold": true,
+      "ms_since_nav": 3636,
+      "ms_since_prev": 121,
+      "coach_open": false,
+      "out_of_order": false,
+      "skipped": null
+    },
+    {
+      "t": 10.299999999999986,
+      "beat": "funnel",
+      "step": "pane_opened",
+      "step_index": -1,
+      "spine": false,
+      "cold": true,
+      "ms_since_nav": 3680,
+      "ms_since_prev": 44,
+      "coach_open": false,
+      "out_of_order": false,
+      "skipped": null
+    },
+    {
+      "t": 10.299999999999986,
+      "beat": "funnel",
+      "step": "deck_card_graded",
+      "step_index": -1,
+      "spine": false,
+      "cold": true,
+      "ms_since_nav": 3694,
+      "ms_since_prev": 58,
+      "coach_open": false,
+      "out_of_order": false,
+      "skipped": null
+    },
+    {
+      "t": 10.299999999999986,
+      "beat": "funnel_abandon",
+      "reason": "test",
+      "cold": true,
+      "furthest_step": "outcome_seen",
+      "furthest_index": 4,
+      "ms_since_nav": 3732,
+      "hides": 1,
+      "marks": "app_ready,hand_dealt,coach_seen,question_shown,unseen_question,coach_finished,question_answered,move_committed,outcome_seen,pane_opened,deck_card_graded"
+    }
+  ]
+}

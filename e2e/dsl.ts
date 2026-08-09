@@ -54,6 +54,10 @@ export class Journey {
       noCurriculum?: boolean;
       /** keep the 20 White Challenge compatibility objectives incomplete */
       keepTutorial?: boolean;
+      /** stop waiting as soon as the app instance exists, instead of waiting for a full graph
+       *  ingest. For journeys about the PRE-PAINT window (a visitor who leaves while the loader
+       *  is still up) — the readiness gate is downstream of everything such a test observes. */
+      unready?: boolean;
     } = {},
   ) {
     if (!(this.page as any).__ngInit) {
@@ -189,6 +193,18 @@ export class Journey {
       await this.page.goto(path, { waitUntil: "commit" });
     } catch {
       await this.page.goto(path, { waitUntil: "commit" }); // one retry: teardown races are transient
+    }
+    if (opts.unready) {
+      // the app instance and its constructor-time rails exist; the graph does not. Nothing below
+      // (readiness wait, objective completion, seedRolls) can run without an ingest, so return.
+      await this.page.waitForFunction(
+        () => !!(window as W).__neural,
+        undefined,
+        {
+          timeout: 60_000,
+        },
+      );
+      return this;
     }
     const ready = () => {
       const a = (window as W).__neural;
