@@ -145,7 +145,7 @@ content/*.json  →  templates/*.md.jinja2  →  content/*.md  →  Quartz Build
 1. **JSON Source** - Structured data in `content/Positions/*.json`, `content/Transitions/*.json`, etc.
 2. **Jinja2 Templates** - In `templates/`, generate markdown + SEO schema markup
 3. **Generated Markdown** - Content pages with frontmatter in `content/*.md`
-4. **Quartz Build** - Static site with graph visualization, search, backlinks
+4. **Quartz Build** - Static site with graph visualization, search, wikilink-derived graph edges
 5. **Deploy** - Cloudflare Pages with Lighthouse CI and IndexNow
 
 ### Graph Data Model
