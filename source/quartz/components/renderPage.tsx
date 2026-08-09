@@ -118,58 +118,18 @@ function loadGraphData(): any {
 
 type RoleFilter = "attacker" | "defender" | "top" | "bottom" | null
 
-// Derive a position role's opponent moves at render time from the canonical role-split nodes
-// (the opposite POSITION role's transitions, resolved through each technique's /attacker outcomes).
-// This replaces the build-time `opponentTransitions` mirror that used to be baked onto graph.json.
-// The in-browser game consumes the identical per-page slice, so behavior is preserved — except for
-// family-hub submission targets (e.g. armbar/triangle-choke/far-side-armbar), which correctly resolve
-// to game-over here instead of the stale mid-pipeline value the old synthesis captured.
-function resolveOpponentMoves(graph: any, data: any, toUrlPath: (p: string) => string): any[] {
-  const role = data.role
-  if (role !== "top" && role !== "bottom") return []
-  const hub = data.hub
-  if (!hub) return []
-  const oppositeRole = role === "top" ? "bottom" : "top"
-  const opp = graph.positions?.[`${hub}/${oppositeRole}`]
-  if (!opp || !Array.isArray(opp.transitions)) return []
-
-  return opp.transitions.map((t: any) => {
-    const m: any = {
-      technique: t.technique || "",
-      target: t.target || "",
-      targetPath: t.targetPath || "",
-      isSubmission: t.isSubmission || false,
-      attemptProbability: t.attemptProbability ?? 0,
-      successRate: t.successRate ?? 50,
-    }
-    const targetSlug = t.target || ""
-    const attNode = graph.transitions?.[`${targetSlug}/attacker`]
-    if (attNode) {
-      const succ = (attNode.outcomes || []).find((o: any) => o.result === "success")
-      if (succ) {
-        const outcomeTo = succ.to || ""
-        m.successOutcome = outcomeTo
-        const outcomePos = outcomeTo ? outcomeTo.split("/")[0] : ""
-        if (outcomePos) {
-          if (!m.isSubmission) {
-            const hubPos = graph.positions?.[outcomePos]
-            m.successOutcomePath = hubPos?.path ? toUrlPath(hubPos.path) : outcomePos
-          } else {
-            m.successOutcomePath = ""
-          }
-        }
-      }
-    } else if (graph.submissions?.[targetSlug]) {
-      m.successOutcome = "game-over"
-      m.successOutcomePath = ""
-    }
-    // Mirror the old synthesis auto-fix: a success outcome of game-over implies a submission.
-    if (m.successOutcome === "game-over" && !m.isSubmission) {
-      m.isSubmission = true
-    }
-    return m
-  })
-}
+// NOTE — `opponentTransitions` was removed here in v1.80.2.
+//
+// This is where `resolveOpponentMoves()` lived: it derived a position role's opponent moves at
+// render time from the canonical role-split nodes and injected them into every position page's
+// #page-graph-data. Its ONE consumer was the legacy front-end's in-browser game (MoveCards /
+// moveCards.inline.ts), deleted in v1.80.0 — nothing has read the field since. It was costing
+// 661,594 bytes across 416 position pages (~1.59 KB each) of JSON that no code parsed.
+//
+// The Neural app does not need it: it owns the whole role-split graph in its own bundle
+// (source/quartz/static/neural/) and resolves the opponent's turn from there. If a future
+// consumer needs opponent moves on the static surface, derive them in that consumer rather than
+// broadcasting them onto every page — `git log -S resolveOpponentMoves` recovers the function.
 
 function getPageGraphData(slug: FullSlug): string | null {
   const graph = loadGraphData()
@@ -256,7 +216,6 @@ function getPageGraphData(slug: FullSlug): string | null {
       role: data.role || null,
       transitions: data.transitions,
       defenses: data.defenses,
-      opponentTransitions: resolveOpponentMoves(graph, data, toUrlPath),
       flashcards: data.flashcards || [],
     })
   } else if (entry.section === "transitions" || entry.section === "submissions") {
