@@ -27,6 +27,12 @@ What it measures:
   - A representative sample of page archetypes: total HTML bytes per page.
   - Aggregate emitted HTML bytes across every .html in the build (catches a regression
     that hides in the long tail rather than in the sample).
+  - THE NEURAL EAGER SET (v1.80.4): every byte under static/neural/ that is NOT inside an
+    on-demand chunk directory. This is the payload a first-time visitor pulls before they
+    can make a move, and it was 39.3MB raw / 10.1MB gzip — the whole defect. It is measured
+    as "the directory minus the chunk dirs" rather than as a hand-listed file set on
+    purpose: a list of boot files could be made green by shortening the list, whereas this
+    can only be made green by actually moving the weight behind an on-demand fetch.
 
 Usage:
   python3 scripts/check_payload_budget.py --update   # (re)seed ceilings from a build
@@ -34,9 +40,13 @@ Usage:
 
 A ceiling is a MAX, so shrinking always passes. Re-seeding with --update RAISES the
 ceilings to whatever the current build emits, so it must be a deliberate, separately
-justified commit — never a way to make a regression green.
+justified commit — never a way to make a regression green. The neural ceilings are the one
+exception to "seed from a build": they are TARGETS, set by hand from the field data
+(Cloudflare Observatory LCP P75 13,764ms) and deliberately left RED until the code meets
+them, so --update never lowers them silently — see NEURAL_TARGET below.
 """
 import argparse
+import gzip
 import json
 import sys
 from pathlib import Path
@@ -44,6 +54,20 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 PUBLIC = ROOT / "source/public"
 BUDGET = ROOT / "tests/artifacts/budget_site.json"
+
+# The Neural app's data root, and the subdirectories inside it that hold ON-DEMAND chunks
+# (fetched per deck / per node, never at boot). Everything else under NEURAL_DIR is eager.
+NEURAL_DIR = "static/neural"
+CHUNK_DIRS = ("flashcards", "content")
+
+# Hand-set TARGETS, not seeded observations (see the module docstring). "Eager" is the raw
+# and gzip weight of the boot set; a chunk ceiling keeps the on-demand path honest (a 5MB
+# "chunk" is a monolith with a new name).
+NEURAL_TARGET = {
+    "eager_raw_bytes": 2_500_000,
+    "eager_gzip_bytes": 400_000,
+    "chunk_max_bytes": 40_000,
+}
 
 # Shared bundles fetched by every page. postscript.js is the one that carried the whole
 # legacy client stack (pixi.js + d3 + tween via the two graph scripts).
@@ -71,7 +95,44 @@ PAGES = [
 # daily and legitimately adds prose) do not trip the gate. The ceiling is about
 # structural weight, not about a paragraph.
 SEED_HEADROOM = 1.10
-FORMAT = 1
+FORMAT = 2
+
+
+def measure_neural() -> dict:
+    """Split static/neural into its EAGER set (boot) and its on-demand CHUNKS."""
+    root = PUBLIC / NEURAL_DIR
+    out = {
+        "eager_raw_bytes": 0,
+        "eager_gzip_bytes": 0,
+        "eager_files": [],
+        "chunk_count": 0,
+        "chunk_raw_bytes": 0,
+        "chunk_max_bytes": 0,
+        "chunk_max_file": None,
+    }
+    if not root.exists():
+        return out
+    for f in sorted(root.rglob("*")):
+        if not f.is_file():
+            continue
+        rel = f.relative_to(root)
+        size = f.stat().st_size
+        if rel.parts and rel.parts[0] in CHUNK_DIRS and not rel.name.startswith("_"):
+            # an on-demand chunk. `_index.json` (the manifest) is EAGER even though it lives
+            # in the chunk dir — the app cannot boot without it.
+            out["chunk_count"] += 1
+            out["chunk_raw_bytes"] += size
+            if size > out["chunk_max_bytes"]:
+                out["chunk_max_bytes"] = size
+                out["chunk_max_file"] = str(rel)
+            continue
+        out["eager_raw_bytes"] += size
+        # gzip each file separately: that is how a CDN ships them (one response each), and
+        # concatenating first would overstate the compression a real visitor gets.
+        out["eager_gzip_bytes"] += len(gzip.compress(f.read_bytes(), 9))
+        out["eager_files"].append({"path": str(rel), "raw": size})
+    out["eager_files"].sort(key=lambda e: -e["raw"])
+    return out
 
 
 def measure() -> dict:
@@ -99,6 +160,7 @@ def measure() -> dict:
         count += 1
     out["html_total_bytes"] = total
     out["html_file_count"] = count
+    out["neural"] = measure_neural()
 
     if missing:
         print(f"WARNING: {len(missing)} sample path(s) not built: {missing}", file=sys.stderr)
@@ -107,6 +169,18 @@ def measure() -> dict:
 
 def fmt(n: int) -> str:
     return f"{n:,} B"
+
+
+def _neural_ceilings() -> dict:
+    """The neural ceilings to write on --update: whatever is already committed (so a
+    hand-tightened ceiling is never loosened by a re-seed), else the hand-set target."""
+    prev = {}
+    if BUDGET.exists():
+        try:
+            prev = (json.loads(BUDGET.read_text()) or {}).get("neural") or {}
+        except json.JSONDecodeError:
+            prev = {}
+    return {k: min(int(prev.get(k, v)), v) for k, v in NEURAL_TARGET.items()}
 
 
 def main() -> None:
@@ -133,6 +207,10 @@ def main() -> None:
             "bundles": {k: int(v * SEED_HEADROOM) for k, v in cur["bundles"].items()},
             "pages": {k: int(v * SEED_HEADROOM) for k, v in cur["pages"].items()},
             "html_total_bytes": int(cur["html_total_bytes"] * SEED_HEADROOM),
+            # neural ceilings are TARGETS, never observations: --update must not be able to
+            # legitimise a 39MB boot by re-seeding from a build that still ships one. An
+            # existing (possibly hand-lowered) ceiling is preserved; otherwise the target.
+            "neural": _neural_ceilings(),
             "observed": cur,
         }
         BUDGET.parent.mkdir(parents=True, exist_ok=True)
@@ -179,6 +257,33 @@ def main() -> None:
             continue
         if got > ceiling:
             failures.append(f"{route}: {fmt(got)} exceeds ceiling {fmt(ceiling)}")
+
+    # ── the neural eager set: the bytes-to-first-move payload ──
+    nb = budget.get("neural") or NEURAL_TARGET
+    nc = cur["neural"]
+    for field, label in (
+        ("eager_raw_bytes", "neural eager (raw)"),
+        ("eager_gzip_bytes", "neural eager (gzip)"),
+        ("chunk_max_bytes", "largest on-demand chunk"),
+    ):
+        ceiling, got = nb.get(field), nc.get(field, 0)
+        if ceiling is None:
+            continue
+        if got > ceiling:
+            extra = ""
+            if field == "eager_raw_bytes":
+                extra = " · heaviest: " + ", ".join(
+                    f"{e['path']} {fmt(e['raw'])}" for e in nc["eager_files"][:4]
+                )
+            elif field == "chunk_max_bytes":
+                extra = f" · {nc.get('chunk_max_file')}"
+            failures.append(f"{label}: {fmt(got)} exceeds ceiling {fmt(ceiling)}{extra}")
+        else:
+            notes.append(f"{label}: {fmt(got)} / {fmt(ceiling)}")
+    notes.append(
+        f"on-demand chunks: {nc.get('chunk_count', 0):,} files, "
+        f"{fmt(nc.get('chunk_raw_bytes', 0))} (not fetched at boot)"
+    )
 
     total_ceiling = budget.get("html_total_bytes")
     if total_ceiling is not None and cur["html_total_bytes"] > total_ceiling:

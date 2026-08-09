@@ -1,0 +1,79 @@
+{
+ "_meta": {
+  "note": "Written by e2e/journeys/payload-first-hand.spec.ts. Observed only — the ceilings live in budget_neural.json.",
+  "measured_at": "2026-08-09T19:47:43.726Z"
+ },
+ "request_count": 13,
+ "first_hand_raw_bytes": 43613581,
+ "first_hand_gzip_bytes": 13654215,
+ "charged_from_disk": [
+  "/static/neural/flashcards.json"
+ ],
+ "heaviest": [
+  {
+   "path": "/static/neural/technique-content.js",
+   "raw": 21234288,
+   "gzip": 5483091
+  },
+  {
+   "path": "/static/neural/flashcards.json",
+   "raw": 16437638,
+   "gzip": 4379543
+  },
+  {
+   "path": "/static/contentIndex.json.gz",
+   "raw": 3418423,
+   "gzip": 3419383
+  },
+  {
+   "path": "/static/neural/graph-data.json",
+   "raw": 1543773,
+   "gzip": 139648
+  },
+  {
+   "path": "/static/neural/app/neural.js",
+   "raw": 338437,
+   "gzip": 97902
+  },
+  {
+   "path": "/static/neural/systems.json",
+   "raw": 323784,
+   "gzip": 57623
+  },
+  {
+   "path": "/static/neural/curriculum.json",
+   "raw": 100134,
+   "gzip": 17416
+  },
+  {
+   "path": "/postscript.js",
+   "raw": 77843,
+   "gzip": 28555
+  },
+  {
+   "path": "/index.css",
+   "raw": 46442,
+   "gzip": 9837
+  },
+  {
+   "path": "/static/neural/app/neural.css",
+   "raw": 31810,
+   "gzip": 7573
+  },
+  {
+   "path": "/",
+   "raw": 30457,
+   "gzip": 6654
+  },
+  {
+   "path": "/__snapshot/ping",
+   "raw": 27788,
+   "gzip": 5759
+  },
+  {
+   "path": "/prescript.js",
+   "raw": 2764,
+   "gzip": 1231
+  }
+ ]
+}

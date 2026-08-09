@@ -1,0 +1,9 @@
+{
+ "_meta": {
+  "format": 1,
+  "note": "Bytes a first-time visitor requests before the first playable hand exists. Ceilings are TARGETS set from the Cloudflare Observatory field data (LCP P75 13,764ms / 80% Poor with a 39.3MB raw boot), not observations — they were committed RED and the code was made to meet them. Measured by e2e/journeys/payload-first-hand.spec.ts; the browserless companion is scripts/check_payload_budget.py (neural eager set).",
+  "raising_a_ceiling": "Shrinking always passes. Raising one means the boot payload grew: justify it in the commit body, and never do it to make a red gate green."
+ },
+ "first_hand_raw_bytes": 2500000,
+ "first_hand_gzip_bytes": 400000
+}

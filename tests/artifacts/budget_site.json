@@ -1,6 +1,7 @@
 {
  "_meta": {
-  "format": 1,
+  "format": 2,
+  "neural_note": "neural.* are hand-set TARGETS from the field data (LCP P75 13,764ms / 39.3MB raw to first move), not seeded observations. --update never raises them.",
   "note": "Ceilings are MAX emitted bytes. Shrinking passes. Raising a ceiling means the payload grew \u2014 justify it in the commit body.",
   "seed_headroom": 1.1
  },
@@ -10,6 +11,11 @@
   "prescript.js": 3055
  },
  "html_total_bytes": 453015270,
+ "neural": {
+  "chunk_max_bytes": 40000,
+  "eager_gzip_bytes": 400000,
+  "eager_raw_bytes": 2500000
+ },
  "observed": {
   "bundles": {
    "index.css": 45999,
