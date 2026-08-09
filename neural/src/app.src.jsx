@@ -374,6 +374,10 @@ class Component extends DCLogic {
     // (SEO) content, defeating the "overlay so legacy always shows" fallback contract.
     try { this.ingest(data); }
     catch (e) { console.error("[neural] ingest failed:", e); this._fallbackToLegacy(); return; }
+    // a /l/<code> arrival is decoded HERE — client-side, off the static shell, no Function
+    // needed. Synchronous (not deferred through after()) so the lit graph and the list are
+    // the first thing the recipient sees, on the first frame.
+    try { this._openSharedListFromUrl(); } catch (e) { console.warn("[neural] share link failed:", e); }
     // flashcards (13.5MB) load in the BACKGROUND — first paint doesn't wait; the drill panel
     // and odds refresh when the decks land. (fetch literal kept patchable by build.mjs.)
     fetch("flashcards.json", { cache: "no-cache" })
@@ -413,7 +417,11 @@ class Component extends DCLogic {
     const nodes = data.nodes.map((n, i) => {
       idIndex.set(n.id, i);
       const dom = (n.s && typeof n.s[0] === "number") ? n.s[0] : this.dominance(n.ty, n.t);
-      return { idx: i, id: n.id, x: n.x, y: n.y, t: n.t, ty: n.ty, s: n.s || null, dom, col: this.domColor(dom), deg: 0, lit: -99, posId: n.posId || null, fromPositionId: n.fromPositionId || null, fromRole: n.fromRole || null, cal: n.cal || null, familyHub: n.familyHub || null };
+      // `o` = this node's PERMANENT share-link ordinal (node_ordinals.json, stamped into
+      // graph-data.json by regenerate_neural_data.py). Never the array index `i`: that is
+      // filesystem-ordered and one new content file renumbers it, which would silently
+      // repoint every share link already posted in a WhatsApp group.
+      return { idx: i, id: n.id, x: n.x, y: n.y, t: n.t, ty: n.ty, s: n.s || null, dom, col: this.domColor(dom), deg: 0, lit: -99, posId: n.posId || null, fromPositionId: n.fromPositionId || null, fromRole: n.fromRole || null, cal: n.cal || null, familyHub: n.familyHub || null, o: typeof n.o === "number" ? n.o : null };
     });
     const adj = nodes.map(() => []);
     const links = [];
@@ -454,6 +462,14 @@ class Component extends DCLogic {
     let r = 0; for (const n of nodes) { if (!isFinite(n.x) || !isFinite(n.y)) continue; r = Math.max(r, Math.hypot(n.x - cx, n.y - cy)); }
 
     this.nodes = nodes; this.links = links; this.adj = adj; this._idIndex = idIndex;
+    // share-link ordinal manifest, both directions, built once per ingest
+    this._sharedIncoming = null; // "no share link on this URL" is a value, not an absence
+    this._ordById = new Map(); this._ordToId = new Map();
+    for (const n of nodes) {
+      if (typeof n.o !== "number") continue;
+      this._ordById.set(n.id, n.o);
+      if (!this._ordToId.has(n.o)) this._ordToId.set(n.o, n.id);
+    }
     // slug indices for resolving cal.outcomes[].to -> node index. Robust to the layout's
     // nested ids: cal targets use the bare state-machine slug ("rear-triangle/top",
     // "arm-triangle-from-side-control") while nested layout ids are compound
@@ -1245,6 +1261,7 @@ class Component extends DCLogic {
     this._progressLoaded = true; // ingest ran (any path) — unmount flush is now safe (Q001)
     this.rec = {}; this.stage = {}; this.units = {}; this.belts = { won: {} }; this._settingsAt = {}; this.tut = { done: {} };
     this.challenges = {}; this.badges = {}; this.coins = {}; this._challengeRuntime = {};
+    this.lists = {}; // shareable technique lists (ids of graph nodes) — see the LISTS section
     try {
       const raw = localStorage.getItem("bjj-neural-progress"); if (!raw) return;
       const p = JSON.parse(raw); if (!p || (p.v !== 1 && p.v !== 2)) return;
@@ -1265,6 +1282,10 @@ class Component extends DCLogic {
       this.challenges = Object.assign({}, p.challenges || {});
       this.badges = Object.assign({}, p.badges || {});
       this.coins = Object.assign({}, p.coins || {});
+      // lists ride the EXISTING v2 blob: a coach's class list is not worth a schema migration
+      this.lists = ngListsNormalize(p.lists);
+      this.activeListId = this.get("activeListId", null);
+      if (this.activeListId && !this.lists[this.activeListId]) this.activeListId = this.listsArray()[0] || null;
       // a user who already met the old 3-beat coach starts the drip past those three steps
       if (!p.tut) { try { if (localStorage.getItem("bjj-neural-coached")) { this.tut.done.coach1 = 1; this.tut.done.coach2 = 1; this.tut.done.coach3 = 1; } } catch (e) {} }
       this._syncWhiteChallengeCompatibility(p.updatedAt || 0);
@@ -1281,7 +1302,7 @@ class Component extends DCLogic {
     const trimmed = {};
     for (const k of Object.keys(days).sort().slice(-30)) trimmed[k] = days[k];
     this._progressAt = Date.now();
-    return { v: 2, prep: this.prep || {}, rec: this.rec || {}, stage: this.stage || {}, units: this.units || {}, belts: this.belts || { won: {} }, tut: this.tut || { done: {} }, challenges: this.challenges || {}, badges: this.badges || {}, coins: this.coins || {}, days: trimmed, settings: this.settings || {}, settingsAt: this._settingsAt || {}, updatedAt: this._progressAt };
+    return { v: 2, prep: this.prep || {}, rec: this.rec || {}, stage: this.stage || {}, units: this.units || {}, belts: this.belts || { won: {} }, tut: this.tut || { done: {} }, challenges: this.challenges || {}, badges: this.badges || {}, coins: this.coins || {}, lists: this.lists || {}, days: trimmed, settings: this.settings || {}, settingsAt: this._settingsAt || {}, updatedAt: this._progressAt };
   }
   _saveProgress() {
     clearTimeout(this._saveT);
@@ -2511,6 +2532,10 @@ class Component extends DCLogic {
           this.coins || {},
           cloud.coins || {},
         );
+        // ADD-WINS, beside the collectibles' UNION: union of lists, union of their items. A
+        // delete loses to a stale device — deliberate (see ngMergeLists).
+        this.lists = ngMergeLists(this.lists || {}, cloud.lists || {});
+        if (this.activeListId && !this.lists[this.activeListId]) this.activeListId = this.listsArray()[0] || null;
         this._syncWhiteChallengeCompatibility(cloud.updatedAt || 0);
         const localAt = this._progressAt || 0;
         if (cloud.settings) {
@@ -2975,8 +3000,16 @@ class Component extends DCLogic {
       this.renderSystemDetail(list, this._systemId, mk);
       return;
     }
+    // A list selection SURVIVES the reset below (Systems does the same via _systemId, but from
+    // its own detail view). Without this, every Explore re-render — including one keystroke in
+    // the search box — would drop the highlight a shared link just lit.
+    const keepList = this._listFocusId;
     this._pathDim = false;
     this.clearFocus();
+    if (keepList && this.listIdxs(keepList).length) {
+      this._listFocusId = keepList;
+      this.setFocusIdxSet(this.listIdxs(keepList), true);
+    }
     // search mode: flat ranked results across all nodes
     if (q) {
       const matches = this.nodes.filter((n) => n.t.toLowerCase().includes(q)).slice(0, 120);
@@ -2984,7 +3017,8 @@ class Component extends DCLogic {
       list.appendChild(mk('<span style="font-size:10.5px;letter-spacing:.12em;text-transform:uppercase;color:#7b8aa8;font-weight:700;">' + matches.length + ' result' + (matches.length === 1 ? "" : "s") + '</span>', 12));
       for (const n of matches) {
         const cat = ({ positions: "Pos", transitions: "Trans", submissions: "Sub" })[n.ty];
-        list.appendChild(mk(this.nodeGlyph(n.ty, this.hex(n.col), 9) + '<span style="font-size:13px;color:#dbe2f0;">' + this.hl(this.splitName(n.t).main, q) + (this.splitName(n.t).from ? ' <span style="color:#6b7691;font-size:11px;">' + this.splitName(n.t).from + '</span>' : "") + '</span><span style="margin-left:auto;font-size:10px;color:#7e8aa3;">' + cat + '</span>', 12, () => this.openDossier(n.idx)));
+        const hit = mk(this.nodeGlyph(n.ty, this.hex(n.col), 9) + '<span style="font-size:13px;color:#dbe2f0;">' + this.hl(this.splitName(n.t).main, q) + (this.splitName(n.t).from ? ' <span style="color:#6b7691;font-size:11px;">' + this.splitName(n.t).from + '</span>' : "") + '</span><span style="margin-left:auto;font-size:10px;color:#7e8aa3;">' + cat + '</span>', 12, () => this.openDossier(n.idx));
+        list.appendChild(this._withListAdd(hit, n, "explore"));
       }
       return;
     }
@@ -3034,13 +3068,16 @@ class Component extends DCLogic {
         if (nodes.length > 1) {
           const fk = key + "|" + fam, fOpen = this._exp.f.has(fk);
           list.appendChild(mk(this.nodeGlyph(nodes[0].ty, col, 8) + '<span style="font-size:13px;font-weight:600;color:#c4cde0;">' + fam + '</span><span style="font-size:10.5px;color:#7e8aa3;">' + nodes.length + '</span><span style="margin-left:auto;color:#5d6883;font-size:10px;">' + (fOpen ? "\u25be" : "\u25b8") + '</span>', 22, () => { if (fOpen) this._exp.f.delete(fk); else this._exp.f.add(fk); this.renderExplorer(); }));
-          if (fOpen) for (const n of nodes) list.appendChild(mk('<span style="font-size:12px;color:#9aa6bd;">' + this.splitName(n.t).main + (this.splitName(n.t).from ? ' <span style="color:#6b7691;">' + this.splitName(n.t).from + '</span>' : "") + '</span>', 38, () => this.openDossier(n.idx)));
+          if (fOpen) for (const n of nodes) list.appendChild(this._withListAdd(mk('<span style="font-size:12px;color:#9aa6bd;">' + this.splitName(n.t).main + (this.splitName(n.t).from ? ' <span style="color:#6b7691;">' + this.splitName(n.t).from + '</span>' : "") + '</span>', 38, () => this.openDossier(n.idx)), n, "explore"));
         } else {
-          list.appendChild(mk(this.nodeGlyph(nodes[0].ty, col, 8) + '<span style="font-size:13px;color:#c4cde0;">' + fam + '</span>', 22, () => this.openDossier(this.famDossierNode(nodes))));
+          const solo = this.nodes[this.famDossierNode(nodes)] || nodes[0];
+          list.appendChild(this._withListAdd(mk(this.nodeGlyph(nodes[0].ty, col, 8) + '<span style="font-size:13px;color:#c4cde0;">' + fam + '</span>', 22, () => this.openDossier(this.famDossierNode(nodes))), solo, "explore"));
         }
       }
     };
-    // order: Systems \u2192 Principles \u2192 Positions \u2192 Transitions \u2192 Submissions \u2192 Learning
+    // order: Lists \u2192 Systems \u2192 Principles \u2192 Positions \u2192 Transitions \u2192 Submissions \u2192 Learning
+    // Lists is FIRST: it is the surface the whole acquisition loop runs through.
+    this.renderLists(list);
     renderSystems();
     renderCurated("Principles");
     for (const pair of data.order) renderGraphGroup(pair);
@@ -3050,15 +3087,17 @@ class Component extends DCLogic {
   // General by design: a System lights its member techniques today, a shareable List will light
   // its own through these same two calls. The draw loop reads _focusIdxSet exactly like the
   // path-view fog (non-members drop to 30% ink) and rings the members on top.
-  setFocusIdxSet(idxs) {
+  setFocusIdxSet(idxs, noFrame) {
     const set = new Set();
     for (const i of idxs || []) if (this.nodes && this.nodes[i]) set.add(i);
     this._focusIdxSet = set.size ? set : null;
-    if (this._focusIdxSet) this.frameNodes(Array.from(this._focusIdxSet));
+    // noFrame: a re-render of the SAME selection must not yank the camera again (typing in the
+    // Explore search re-renders on every keystroke).
+    if (this._focusIdxSet && !noFrame) this.frameNodes(Array.from(this._focusIdxSet));
   }
   // drops the highlight AND the view that owns it: a lit graph with no visible selection is a
   // state the user cannot undo. Called from every _pathDim reset and on any tab change.
-  clearFocus() { this._focusIdxSet = null; this._systemId = null; }
+  clearFocus() { this._focusIdxSet = null; this._systemId = null; this._listFocusId = null; }
 
   // ---------- systems: the authored course library (systems.json, optional payload) ----------
   _onSystems() {
@@ -3092,6 +3131,418 @@ class Component extends DCLogic {
     this.showExplorerList();
   }
   closeSystem() { this.clearFocus(); this.showExplorerList(); }
+
+  // ══════════════════════════════════════════════════════════════════════════════════════
+  // SHAREABLE LISTS — the gym-WhatsApp loop
+  //
+  // A coach collects the techniques a class covered, shares ONE link into the group, and the
+  // people who open it see exactly those techniques lit on the graph and can drill them.
+  //
+  // Three rules the rest of this section exists to keep:
+  //  1. Lists STORE node ids, in the EXISTING v2 progress blob (no version bump, no
+  //     migration). Only the WIRE uses ordinals — see lists-codec.src.js.
+  //  2. The item cap is enforced HERE, at the point of adding. ngListEncodeOrdinals THROWS
+  //     above the cap (deliberately — silently truncating a coach's class is worse), so an
+  //     unguarded add would blow up at share time, i.e. in front of the whole group.
+  //  3. The link works with NO Cloudflare Function deployed: `_openSharedListFromUrl` decodes
+  //     `location.pathname` client-side off the static shell. The Function only ever adds the
+  //     social preview.
+  // ══════════════════════════════════════════════════════════════════════════════════════
+  _ordinalById() { return this._ordById || new Map(); }
+  _ordinalIndex() { return this._ordToId || new Map(); }
+  _listsMap() { this.lists = this.lists || {}; return this.lists; }
+  listsArray() {
+    const m = this._listsMap();
+    return Object.keys(m).sort((a, b) => (m[b].t || 0) - (m[a].t || 0));
+  }
+  activeList() { const m = this._listsMap(); return this.activeListId && m[this.activeListId] ? m[this.activeListId] : null; }
+  activeListHas(nodeId) { const l = this.activeList(); return !!(l && l.items.indexOf(nodeId) >= 0); }
+  newList(name) {
+    // id from the clock plus a per-session counter: no RNG (the rigged test RNG must never be
+    // spent on bookkeeping), and a same-millisecond collision across two devices is merged
+    // harmlessly by the add-wins rule anyway.
+    const id = "l" + Date.now().toString(36) + (this._listSeq = (this._listSeq || 0) + 1).toString(36);
+    this._listsMap()[id] = { name: name || ngListDefaultName(new Date()), items: [], t: Date.now() };
+    this.activeListId = id;
+    this.set("activeListId", id); // settings are LWW per key -> the active list follows the user
+    return id;
+  }
+  addToList(nodeId, listId) {
+    const i = this._idIndex ? this._idIndex.get(nodeId) : null;
+    if (i == null || !this.nodes[i]) return { added: false, reason: "unknown_node" };
+    const m = this._listsMap();
+    let id = listId || this.activeListId;
+    if (!id || !m[id]) id = this.newList();
+    const l = m[id];
+    if (l.items.indexOf(nodeId) >= 0) return { added: false, listId: id, reason: "already" };
+    if (l.items.length >= NG_LIST_ITEM_CAP) return { added: false, listId: id, reason: "full" };
+    l.items.push(nodeId); l.t = Date.now();
+    this.activeListId = id;
+    this.set("activeListId", id); // saves the blob too
+    this.fx("list_item_added", { list: id, node: nodeId, count: l.items.length });
+    return { added: true, listId: id, count: l.items.length };
+  }
+  removeFromList(nodeId, listId) {
+    const m = this._listsMap();
+    const id = listId || this.activeListId;
+    const l = id ? m[id] : null; if (!l) return false;
+    const at = l.items.indexOf(nodeId); if (at < 0) return false;
+    l.items.splice(at, 1); l.t = Date.now();
+    if (!l.items.length) { delete m[id]; if (this.activeListId === id) { this.activeListId = this.listsArray()[0] || null; this.set("activeListId", this.activeListId); } }
+    this._saveProgress();
+    if (this._listFocusId === id && !m[id]) this.clearFocus();
+    return true;
+  }
+  deleteList(id) {
+    const m = this._listsMap(); if (!m[id]) return;
+    delete m[id];
+    if (this._listFocusId === id) this.clearFocus();
+    if (this.activeListId === id) { this.activeListId = this.listsArray()[0] || null; this.set("activeListId", this.activeListId); }
+    else this._saveProgress();
+    this._refreshListSurfaces();
+  }
+  /** Graph indices of a list. "__shared" is the just-received link (not yet a list of theirs). */
+  listIdxs(listId) {
+    if (listId === "__shared") return (this._sharedIncoming && this._sharedIncoming.idxs) || [];
+    const l = this._listsMap()[listId]; if (!l) return [];
+    const out = [];
+    for (const id of l.items) { const i = this._idIndex ? this._idIndex.get(id) : null; if (i != null && this.nodes[i]) out.push(i); }
+    return out;
+  }
+  listShareCode(listId) {
+    const l = this._listsMap()[listId];
+    const ids = listId === "__shared" ? ((this._sharedIncoming && this._sharedIncoming.ids) || []) : (l ? l.items : []);
+    if (!ids.length) return "";
+    const res = ngListEncodeIds(ids, this._ordinalById());
+    if (res.missing && res.missing.length) {
+      // a node newer than this build's manifest: one technique is dropped, never the link
+      this.track("neural_share_list_missing_ordinal", { count: res.missing.length });
+    }
+    return res.code;
+  }
+  listShareUrl(listId) {
+    const code = this.listShareCode(listId);
+    if (!code) return "";
+    let origin = "";
+    try { origin = location.origin; } catch (e) { origin = ""; }
+    return ngListShareUrl(origin, code);
+  }
+  async shareList(listId) {
+    const code = this.listShareCode(listId);
+    if (!code) { this.setEvent("Nothing to share", "Add a technique to this list first", "bad"); return ""; }
+    const url = this.listShareUrl(listId);
+    const l = this._listsMap()[listId];
+    const count = l ? l.items.length : 0;
+    const shareId = ngListShareId(code);
+    this._lastShareUrl = url; this._lastShareId = shareId;
+    this.fx("list_shared", { share_id: shareId, items: count, chars: url.length });
+    // canonical encoding => the creator's share_id and every recipient's are the same string,
+    // so this joins into a real viral funnel with no server state.
+    this.track("neural_share_list_created", { share_id: shareId, items: count, url_chars: url.length });
+    const text = (l && l.name ? l.name : "Today's class") + " — " + count + " technique" + (count === 1 ? "" : "s");
+    try {
+      if (navigator.share && this.isMobile()) { await navigator.share({ title: "BJJGraph", text: text, url: url }); return url; }
+    } catch (e) { /* user dismissed the sheet — fall through to the clipboard */ }
+    try {
+      await navigator.clipboard.writeText(url);
+      this.setEvent("Link copied", count + " technique" + (count === 1 ? "" : "s") + " · paste it in the group chat", "good");
+    } catch (e) {
+      // clipboard denied (or no permission prompt available): show it, selectable, in the row
+      this._showShareFallback(listId, url);
+    }
+    return url;
+  }
+  _showShareFallback(listId, url) {
+    const row = (this.__ngRoot || document).querySelector('[data-list-row="' + listId + '"]');
+    if (!row) return;
+    let out = row.querySelector("[data-list-url]");
+    if (!out) {
+      out = document.createElement("input");
+      out.setAttribute("data-list-url", "1");
+      out.readOnly = true;
+      out.style.cssText = "width:100%;margin-top:6px;font-family:inherit;font-size:11px;color:#dbe2f0;background:rgba(255,255,255,.05);border:1px solid rgba(150,170,210,.22);border-radius:7px;padding:5px 7px;pointer-events:auto;";
+      row.appendChild(out);
+    }
+    out.value = url;
+    try { out.select(); } catch (e) { /* non-fatal */ }
+  }
+  /** Light a list on the graph (Explore owns the highlight, exactly like a System). */
+  focusList(listId) {
+    if (!this.deckShown || this._viewMode !== "explore") this.openPane("explore");
+    const idxs = this.listIdxs(listId);
+    if (!idxs.length) return;
+    this._listFocusId = listId;
+    this.setFocusIdxSet(idxs);
+    this.renderExplorer(); // keepList carries the selection through the render's own reset
+  }
+  /** A session over a list's decks — the "and drill them" half of the thesis. */
+  openListSession(listId) {
+    const idxs = this.listIdxs(listId);
+    if (!idxs.length) return;
+    const keys = [];
+    for (const i of idxs) { const k = this.deckKeyFor(this.nodes[i]).key; if (k && keys.indexOf(k) < 0) keys.push(k); }
+    if (!keys.length) return;
+    const l = this._listsMap()[listId];
+    const label = listId === "__shared" ? "Shared class" : (l && l.name) || "Class list";
+    this._session = { keys: keys, label: label, idx: 0 };
+    this._sessionNodes = idxs;
+    this.frameNodes(idxs);
+    this.renderSession();
+    this.deckReady = true; this.deckOpen = true; this.applyDeckVisibility();
+    this.track("neural_share_list_drill", { list: listId, techniques: keys.length, shared: listId === "__shared" });
+  }
+
+  // ---------- add affordance (dossier, Explore rows, landing card, challenge lesson rows) ----------
+  toggleListItem(nodeId, surface) {
+    const had = this.activeListHas(nodeId);
+    const n = this.nodes[this._idIndex ? this._idIndex.get(nodeId) : -1];
+    const name = n ? this.splitName(n.t).main : "Technique";
+    if (had) {
+      this.removeFromList(nodeId);
+      this.setEvent("Removed", name + " left today’s list", "bad");
+    } else {
+      const r = this.addToList(nodeId);
+      if (r.added) {
+        this.setEvent("Added to today’s list", r.count + " technique" + (r.count === 1 ? "" : "s") + " · share it when class ends", "good");
+        this.track("neural_list_item_added", { surface: surface || "unknown", count: r.count });
+      } else if (r.reason === "full") {
+        this.setEvent("List is full", "A share link holds " + NG_LIST_ITEM_CAP + " techniques", "bad");
+      }
+    }
+    this._refreshListSurfaces();
+  }
+  _styleListAdd(el, nodeId) {
+    const on = this.activeListHas(nodeId);
+    el.textContent = on ? "✓" : "+";
+    el.title = on ? "In today’s class list — click to remove" : "Add to today’s class list";
+    el.setAttribute("aria-pressed", on ? "true" : "false");
+    el.style.color = on ? "#7ee0a8" : "#9ab0e0";
+    el.style.borderColor = on ? "rgba(126,224,168,.45)" : "rgba(150,170,210,.28)";
+    el.style.background = on ? "rgba(126,224,168,.12)" : "rgba(255,255,255,.04)";
+  }
+  _listAddButton(nodeId, surface) {
+    const b = document.createElement("button");
+    b.type = "button";
+    b.setAttribute("data-list-add", nodeId);
+    b.setAttribute("data-list-surface", surface || "explore");
+    // pointer-events:auto INLINE — the property is inherited, fixed overlays disable it at the
+    // root and the canvas hit-tests above anything that does not re-enable it. This exact trap
+    // made the coach's Next button and the landing card's options unclickable by mouse.
+    b.style.cssText = "flex:none;pointer-events:auto;cursor:pointer;font-family:inherit;font-size:13px;font-weight:700;line-height:1;width:24px;height:24px;border-radius:7px;border:1px solid rgba(150,170,210,.28);background:rgba(255,255,255,.04);display:inline-flex;align-items:center;justify-content:center;";
+    this._styleListAdd(b, nodeId);
+    b.addEventListener("click", (e) => { e.stopPropagation(); e.preventDefault(); this.toggleListItem(nodeId, surface); });
+    return b;
+  }
+  /** Wrap an Explore row so the row keeps its click and gains a + on the right. */
+  _withListAdd(rowEl, node, surface) {
+    const wrap = document.createElement("div");
+    wrap.style.cssText = "display:flex;align-items:center;gap:4px;width:100%;";
+    rowEl.style.flex = "1"; rowEl.style.minWidth = "0";
+    wrap.appendChild(rowEl);
+    wrap.appendChild(this._listAddButton(node.id, surface));
+    return wrap;
+  }
+  /** Wire the .dsList row emitted by BOTH dossier renderers (pane/sheet and the in-node card). */
+  _wireDossierListButton(dos, n, surface) {
+    const lb = dos ? dos.querySelector(".dsList") : null; if (!lb) return;
+    lb.setAttribute("data-list-add", n.id);
+    lb.setAttribute("data-list-surface", surface || "dossier");
+    lb.style.pointerEvents = "auto"; // inherited property; the canvas hit-tests above anything that doesn't re-enable it
+    const paint = () => {
+      const on = this.activeListHas(n.id);
+      const g = lb.querySelector(".dsListGlyph"), t = lb.querySelector(".dsListTxt");
+      if (g) { g.textContent = on ? "\u2713" : "+"; g.style.color = on ? "#7ee0a8" : "#9ab0e0"; }
+      if (t) t.textContent = on ? "In today\u2019s class list" : "Add to today\u2019s class list";
+      lb.setAttribute("aria-pressed", on ? "true" : "false");
+    };
+    paint();
+    lb.addEventListener("click", (e) => { e.stopPropagation(); this.toggleListItem(n.id, surface || "dossier"); paint(); });
+  }
+  _refreshListSurfaces() {
+    const root = this.__ngRoot || document;
+    try { root.querySelectorAll("[data-list-add]").forEach((el) => this._styleListAdd(el, el.getAttribute("data-list-add"))); } catch (e) { /* non-fatal */ }
+    // re-render the Explore body so the Lists section's counts follow the model. Safe while a
+    // dossier is up: the list element is hidden behind it, and renderExplorer preserves an
+    // intentional list highlight (keepList) instead of clearing it.
+    if (this.deckShown && this._viewMode === "explore" && !this._paneStudyActive()) this.renderExplorer();
+  }
+
+  // ---------- the Lists section (top of Explore) ----------
+  renderLists(list) {
+    const sec = document.createElement("div");
+    sec.setAttribute("data-lists-section", "1");
+    sec.style.cssText = "margin:2px 0 10px;padding-bottom:10px;border-bottom:1px solid rgba(150,170,210,.12);";
+    const head = document.createElement("div");
+    head.style.cssText = "display:flex;align-items:center;gap:8px;padding:7px 12px 3px;";
+    const ids = this.listsArray();
+    head.innerHTML =
+      '<span style="font-size:14px;font-weight:700;color:#dbe2f0;">Lists</span>' +
+      '<span style="font-size:11px;color:#7e8aa3;">(' + ids.length + ')</span>' +
+      '<span style="margin-left:auto;font-size:9.5px;letter-spacing:.1em;text-transform:uppercase;color:#6b7691;">share a class</span>';
+    sec.appendChild(head);
+
+    if (this._sharedIncoming) sec.appendChild(this._sharedBlock());
+
+    if (!ids.length) {
+      const empty = document.createElement("div");
+      empty.setAttribute("data-lists-empty", "1");
+      empty.style.cssText = "font-size:11.5px;line-height:1.5;color:#7e8aa3;padding:4px 12px 2px;";
+      empty.textContent = "Tap + on any technique to start today’s class list, then share one link with the group.";
+      sec.appendChild(empty);
+      list.appendChild(sec);
+      return;
+    }
+    for (const id of ids) {
+      const l = this._listsMap()[id];
+      const row = document.createElement("div");
+      row.setAttribute("data-list-row", id);
+      const lit = this._listFocusId === id;
+      row.style.cssText = "display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin:0 6px 4px;padding:7px 8px;border-radius:9px;border:1px solid " + (lit ? "rgba(150,180,255,.45)" : "rgba(150,170,210,.14)") + ";background:" + (lit ? "rgba(58,72,118,.4)" : "rgba(255,255,255,.025)") + ";";
+      const open = document.createElement("button");
+      open.type = "button";
+      open.setAttribute("data-list-open", id);
+      open.style.cssText = "flex:1;min-width:0;pointer-events:auto;cursor:pointer;font-family:inherit;text-align:left;border:0;background:transparent;color:inherit;padding:0;";
+      open.innerHTML =
+        '<span style="display:block;font-size:13px;font-weight:600;color:#dbe2f0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;">' + this.escHTML(l.name) + '</span>' +
+        '<span data-list-count="' + l.items.length + '" style="display:block;font-size:10px;letter-spacing:.05em;text-transform:uppercase;color:#7e8aa3;margin-top:1px;">' + l.items.length + ' technique' + (l.items.length === 1 ? "" : "s") + '</span>';
+      open.addEventListener("click", () => this.focusList(id));
+      row.appendChild(open);
+
+      const drill = document.createElement("button");
+      drill.type = "button";
+      drill.setAttribute("data-list-drill", id);
+      drill.textContent = "Drill";
+      drill.style.cssText = "flex:none;pointer-events:auto;cursor:pointer;font-family:inherit;font-size:10.5px;font-weight:700;padding:5px 9px;border-radius:7px;border:1px solid rgba(150,170,210,.28);background:rgba(255,255,255,.04);color:#c4cde0;";
+      drill.addEventListener("click", () => this.openListSession(id));
+      row.appendChild(drill);
+
+      const share = document.createElement("button");
+      share.type = "button";
+      share.setAttribute("data-list-share", id);
+      share.textContent = "Share";
+      share.style.cssText = "flex:none;pointer-events:auto;cursor:pointer;font-family:inherit;font-size:10.5px;font-weight:700;padding:5px 10px;border-radius:7px;border:1px solid rgba(110,160,255,.4);background:linear-gradient(135deg,rgba(74,108,255,.3),rgba(74,108,255,.14));color:#eef1f6;";
+      share.addEventListener("click", () => { void this.shareList(id); });
+      row.appendChild(share);
+
+      const del = document.createElement("button");
+      del.type = "button";
+      del.setAttribute("data-list-delete", id);
+      del.textContent = "×";
+      del.title = "Delete this list";
+      del.style.cssText = "flex:none;pointer-events:auto;cursor:pointer;font-family:inherit;font-size:13px;line-height:1;padding:3px 6px;border-radius:6px;border:0;background:transparent;color:#6b7691;";
+      del.addEventListener("click", () => this.deleteList(id));
+      row.appendChild(del);
+      sec.appendChild(row);
+    }
+    list.appendChild(sec);
+  }
+  /** The block a RECIPIENT sees: what arrived, whether anything didn't resolve, and the two
+   *  things they can do with it. A received link is offered, never silently adopted. */
+  _sharedBlock() {
+    const inc = this._sharedIncoming;
+    const box = document.createElement("div");
+    box.setAttribute("data-shared-list", inc.code);
+    box.style.cssText = "margin:4px 6px 8px;padding:9px 10px;border-radius:10px;border:1px solid rgba(126,224,168,.35);background:linear-gradient(180deg,rgba(24,44,38,.6),rgba(17,28,26,.5));";
+    const head = document.createElement("div");
+    head.style.cssText = "font-size:11px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:#7ee0a8;";
+    head.innerHTML = 'Shared with you · <span data-shared-count="' + inc.ids.length + '">' + inc.ids.length + ' technique' + (inc.ids.length === 1 ? "" : "s") + '</span>';
+    box.appendChild(head);
+    for (const id of inc.ids) {
+      const i = this._idIndex ? this._idIndex.get(id) : null;
+      const n = i != null ? this.nodes[i] : null;
+      const item = document.createElement("div");
+      item.style.cssText = "display:flex;align-items:center;gap:6px;margin-top:5px;";
+      const nameBtn = document.createElement("button");
+      nameBtn.type = "button";
+      nameBtn.setAttribute("data-shared-item", id);
+      nameBtn.style.cssText = "flex:1;min-width:0;pointer-events:auto;cursor:pointer;font-family:inherit;text-align:left;border:0;background:transparent;padding:0;font-size:12.5px;color:#dbe2f0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;";
+      nameBtn.textContent = n ? this.splitName(n.t).main : id;
+      if (i != null) nameBtn.addEventListener("click", () => this.openDossier(i));
+      item.appendChild(nameBtn);
+      item.appendChild(this._listAddButton(id, "shared"));
+      box.appendChild(item);
+    }
+    if (inc.unknown && inc.unknown.length) {
+      const un = document.createElement("div");
+      un.setAttribute("data-shared-unresolved", String(inc.unknown.length));
+      un.style.cssText = "margin-top:7px;font-size:10.5px;line-height:1.45;color:#e8b98a;";
+      un.textContent = inc.unknown.length + " technique" + (inc.unknown.length === 1 ? "" : "s") + " in this link isn’t in this version of the graph yet.";
+      box.appendChild(un);
+    }
+    const acts = document.createElement("div");
+    acts.style.cssText = "display:flex;align-items:center;gap:6px;margin-top:9px;";
+    const drill = document.createElement("button");
+    drill.type = "button";
+    drill.setAttribute("data-shared-drill", "1");
+    drill.textContent = "Drill these";
+    drill.style.cssText = "flex:1;pointer-events:auto;cursor:pointer;font-family:inherit;font-size:11.5px;font-weight:700;padding:7px 9px;border-radius:8px;border:1px solid rgba(110,160,255,.4);background:linear-gradient(135deg,rgba(74,108,255,.32),rgba(74,108,255,.15));color:#eef1f6;";
+    drill.addEventListener("click", () => this.openListSession("__shared"));
+    acts.appendChild(drill);
+    const save = document.createElement("button");
+    save.type = "button";
+    save.setAttribute("data-shared-save", "1");
+    save.textContent = "Save";
+    save.style.cssText = "flex:none;pointer-events:auto;cursor:pointer;font-family:inherit;font-size:11.5px;font-weight:700;padding:7px 11px;border-radius:8px;border:1px solid rgba(126,224,168,.4);background:rgba(126,224,168,.12);color:#cdebd9;";
+    save.addEventListener("click", () => this.saveSharedList());
+    acts.appendChild(save);
+    const dismiss = document.createElement("button");
+    dismiss.type = "button";
+    dismiss.setAttribute("data-shared-dismiss", "1");
+    dismiss.textContent = "×";
+    dismiss.title = "Dismiss this shared list";
+    dismiss.style.cssText = "flex:none;pointer-events:auto;cursor:pointer;font-family:inherit;font-size:13px;line-height:1;padding:4px 7px;border-radius:6px;border:0;background:transparent;color:#7e8aa3;";
+    dismiss.addEventListener("click", () => this.dismissSharedList());
+    acts.appendChild(dismiss);
+    box.appendChild(acts);
+    return box;
+  }
+  saveSharedList() {
+    const inc = this._sharedIncoming; if (!inc) return "";
+    const id = this.newList("Shared · " + ngListDefaultName(new Date()).replace(/^Class · /, ""));
+    for (const nid of inc.ids) this.addToList(nid, id);
+    this._sharedIncoming = null;
+    this._listFocusId = id;
+    this._flushSave();
+    this.track("neural_share_list_saved", { share_id: inc.shareId, items: inc.ids.length });
+    this.setEvent("Saved", inc.ids.length + " technique" + (inc.ids.length === 1 ? "" : "s") + " added to your lists", "good");
+    this._refreshListSurfaces();
+    return id;
+  }
+  dismissSharedList() {
+    if (!this._sharedIncoming) return;
+    this._sharedIncoming = null;
+    this.clearFocus();
+    this._refreshListSurfaces();
+  }
+  /**
+   * RECIPIENT LANDING. Runs once per boot, right after ingest, off `location`. Works on the
+   * plain static shell — no Function, no server state, no extra request. An unparseable code
+   * is simply not a share link: the app is an ordinary app and nothing is lit.
+   */
+  _openSharedListFromUrl() {
+    let code = "";
+    try { code = ngListParseSharePath(location.pathname + location.search); } catch (e) { code = ""; }
+    if (!code) return;
+    const res = ngListDecodeIds(code, this._ordinalIndex());
+    const shareId = ngListShareId(code);
+    if (!res.ok || !res.ids.length) {
+      this._sharedIncoming = null;
+      this.track("neural_share_list_failed", { share_id: shareId, error: (res && res.error) || "unresolved" });
+      return;
+    }
+    const idxs = [];
+    for (const id of res.ids) { const i = this._idIndex ? this._idIndex.get(id) : null; if (i != null && this.nodes[i]) idxs.push(i); }
+    this._sharedIncoming = { code: code, ids: res.ids, idxs: idxs, unknown: res.unknown || [], shareId: shareId };
+    this.fx("list_opened", { share_id: shareId, items: res.ids.length, unknown: (res.unknown || []).length });
+    // canonical code => this joins the creator's share_list_created with no server state
+    this.track("neural_share_list_opened", { share_id: shareId, items: res.ids.length, unknown: (res.unknown || []).length });
+    // Arriving ON a share link is not the roll loop opening the pane (PANE LAW): the link IS
+    // the user's action. It latches _paneAutoPaused as usual, so closing the pane resumes play.
+    this.openPane("explore");
+    this._listFocusId = "__shared";
+    this.setFocusIdxSet(idxs);
+    this.renderExplorer();
+  }
   // authored copy reaches innerHTML through here
   escHTML(v) { return String(v == null ? "" : v).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;"); }
   renderSystemDetail(list, id, mk) {
@@ -3439,9 +3890,20 @@ class Component extends DCLogic {
           '<div style="display:flex;gap:.4em;flex-wrap:wrap;">' + atk3.map((k) =>
             '<span class="dsAtk" data-i="' + k + '" style="cursor:pointer;font-size:.82em;font-weight:700;color:#ff8a7e;background:rgba(242,104,95,.14);border-radius:999px;padding:.4em 1em;">' + this.splitName(this.nodes[k].t).main + pct(k) + '</span>').join("") + '</div></div>';
       }
-      c += '<div class="dsRoll" style="cursor:pointer;display:inline-flex;align-items:center;gap:.74em;background:linear-gradient(135deg,rgba(74,108,255,.2),rgba(74,108,255,.08));border:1px solid rgba(110,160,255,.35);border-radius:1em;padding:.74em 1.5em;">' +
-        '<span style="flex:none;width:2em;height:2em;border-radius:.66em;background:rgba(74,108,255,.22);color:#9ab0e0;display:flex;align-items:center;justify-content:center;"><svg width="11" height="11" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"></path></svg></span>' +
-        '<span style="font-size:1.03em;font-weight:700;color:#eef1f6;">Roll from here</span><span style="font-size:1em;color:#9ab0e0;">\u2192</span></div>';
+      // The two actions share ONE centered row. Deliberate: the in-node card is centred on the
+      // node and the transport pill is fixed at bottom-centre with a higher stacking context,
+      // so a second stacked row pushes the card's actions down INTO the pill and they stop
+      // being clickable by mouse (Playwright caught exactly that: "<button title='Restart
+      // roll'> intercepts pointer events"). One row keeps the card the height it already was,
+      // and putting the list action first parks it left of centre, clear of the pill.
+      c += '<div style="display:flex;align-items:center;justify-content:center;gap:.6em;flex-wrap:wrap;">' +
+        '<div class="dsList" style="cursor:pointer;display:inline-flex;align-items:center;gap:.6em;border:1px solid rgba(150,170,210,.24);border-radius:1em;padding:.7em 1.2em;">' +
+          '<span class="dsListGlyph" style="font-size:1.1em;font-weight:700;line-height:1;color:#9ab0e0;">+</span>' +
+          '<span class="dsListTxt" style="font-size:.95em;font-weight:700;color:#cdd5e6;">Add to today\u2019s class list</span></div>' +
+        '<div class="dsRoll" style="cursor:pointer;display:inline-flex;align-items:center;gap:.74em;background:linear-gradient(135deg,rgba(74,108,255,.2),rgba(74,108,255,.08));border:1px solid rgba(110,160,255,.35);border-radius:1em;padding:.74em 1.5em;">' +
+          '<span style="flex:none;width:2em;height:2em;border-radius:.66em;background:rgba(74,108,255,.22);color:#9ab0e0;display:flex;align-items:center;justify-content:center;"><svg width="11" height="11" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"></path></svg></span>' +
+          '<span style="font-size:1.03em;font-weight:700;color:#eef1f6;">Roll from here</span><span style="font-size:1em;color:#9ab0e0;">\u2192</span></div>' +
+      '</div>';
       // \u2715 \u2014 fly back out. Lives on the UNCLIPPED shell root (the shape's overflow/clip-path would
       let shell;
       const colCss = 'position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:.9em;text-align:center;font-size:' + rootFs + 'px;';
@@ -3472,6 +3934,7 @@ class Component extends DCLogic {
       dos.style.width = size + "px"; dos.style.height = size + "px";
       dos.innerHTML = shell;
       dos.querySelectorAll(".dsAtk").forEach((a2) => a2.addEventListener("click", () => this.openDossier(parseInt(a2.getAttribute("data-i"), 10))));
+      this._wireDossierListButton(dos, n, "dossier");
       const roll2 = dos.querySelector(".dsRoll"); if (roll2) roll2.addEventListener("click", () => { this.closeNodeDossier(); this.jumpToState(n.idx); });
       return;
     }
@@ -3536,8 +3999,13 @@ class Component extends DCLogic {
       '<span style="flex:none;width:26px;height:26px;border-radius:8px;background:rgba(74,108,255,.22);color:#9ab0e0;display:flex;align-items:center;justify-content:center;"><svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"></path></svg></span>' +
       '<div style="display:flex;flex-direction:column;gap:1px;"><span style="font-size:12.5px;font-weight:700;color:#eef1f6;">Roll from here</span><span style="font-size:10.5px;color:#9aa6bd;">make this the current state</span></div>' +
       '<span style="margin-left:auto;font-size:13px;color:#9ab0e0;">\u2192</span></div>';
+    // add-to-class-list, right where a coach is already reading about the technique
+    h += '<div class="dsList" style="cursor:pointer;display:flex;align-items:center;gap:10px;margin-top:8px;border:1px solid rgba(150,170,210,.2);border-radius:12px;padding:10px 14px;">' +
+      '<span class="dsListGlyph" style="flex:none;width:26px;height:26px;border-radius:8px;background:rgba(150,170,210,.14);color:#9ab0e0;display:flex;align-items:center;justify-content:center;font-size:15px;font-weight:700;line-height:1;">+</span>' +
+      '<div style="display:flex;flex-direction:column;gap:1px;"><span class="dsListTxt" style="font-size:12.5px;font-weight:700;color:#eef1f6;">Add to today\u2019s class list</span><span style="font-size:10.5px;color:#9aa6bd;">share the class as one link</span></div></div>';
     h += '</div>';
     dos.innerHTML = h;
+    this._wireDossierListButton(dos, n, "dossier");
     const back = dos.querySelector(".dsBack"); if (back) back.addEventListener("click", () => { if (mob) { this.closeDossierSheet(); this.openExplorer(); this.showExplorerList(); } else this.showExplorerList(); });
     const xb = dos.querySelector(".dsClose"); if (xb) xb.addEventListener("click", () => this.closeDossierSheet());
     dos.querySelectorAll(".dsAtk").forEach((el) => el.addEventListener("click", () => this.openDossier(parseInt(el.getAttribute("data-i"), 10))));
@@ -4538,6 +5006,12 @@ class Component extends DCLogic {
     more.style.cssText = "cursor:pointer;font-family:inherit;font-size:10px;font-weight:700;letter-spacing:.09em;text-transform:uppercase;color:#7e8aa3;background:none;border:none;padding:2px 0;";
     more.addEventListener("click", () => this.openDossier(node.idx));
     foot.appendChild(more);
+    // "we just drilled this" — one tap adds the state you are standing in to today's class list.
+    // pointer-events:auto is set INLINE by _listAddButton: .ng-landcard is a fixed overlay and
+    // the canvas hit-tests above anything that does not re-enable it.
+    const addBtn = this._listAddButton(node.id, "land");
+    addBtn.style.marginLeft = "auto";
+    foot.appendChild(addBtn);
     el.appendChild(foot);
     return el;
   }
@@ -5786,6 +6260,18 @@ class Component extends DCLogic {
     const dist = () => { const a = [...ptrs.values()]; return Math.hypot(a[0].x - a[1].x, a[0].y - a[1].y); };
     const mid = () => { const a = [...ptrs.values()]; return { x: (a[0].x + a[1].x) / 2, y: (a[0].y + a[1].y) / 2 }; };
     el.addEventListener("pointerdown", (e) => {
+      // ── the in-node dossier owns gestures that START inside it ──
+      // Below, pointerdown calls el.setPointerCapture(). Capture RETARGETS every later pointer
+      // event to `el`, so (a) pointerup's `inCard` guard saw the wrap div instead of the card
+      // and dismissed the dossier mid-gesture, and (b) the browser computed the click event's
+      // target from the down/up common ancestor — also the wrap div. Net effect: EVERY button
+      // inside the desktop in-node dossier ("Roll from here", the attack pills, and now "Add to
+      // today's class list") was visible, enabled, stable — and dead to the mouse. Keyboard and
+      // programmatic paths masked it, exactly like the coach button before v1.69.1. Found by
+      // Playwright: pointerdown hit .dsListTxt, mouseup and click hit a DIV.
+      // Panning the graph from inside the card was never a gesture anyone wanted.
+      const nc = this.nodeCardRef && this.nodeCardRef.current;
+      if (nc && nc.style.display !== "none" && e.target && nc.contains(e.target)) return;
       this.closeDeckIfStudying();
       ptrs.set(e.pointerId, { x: e.clientX, y: e.clientY });
       try { el.setPointerCapture(e.pointerId); } catch (err) {}

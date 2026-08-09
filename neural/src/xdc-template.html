@@ -69,7 +69,12 @@
   <canvas ref="{{ canvasRef }}" style="position:absolute;inset:0;display:block;width:100%;height:100%;"></canvas>
 
   <!-- semantic zoom: the dossier lives inside the node once you zoom close enough -->
-  <div ref="{{ nodeCardRef }}" style="display:none;position:absolute;left:0;top:0;width:560px;height:560px;z-index:3;transform-origin:50% 50%;will-change:transform,opacity;pointer-events:none;"></div>
+  <!-- in-node dossier card. z-index 5 (was 3) is LOAD-BEARING: the card is centred on the node
+       and its action row reaches the bottom-centre transport pill (z-index 4), which then
+       intercepted every mouse click on "Roll from here" / "Add to today's class list" — the
+       card was visible, enabled, stable, and dead to the mouse. Keyboard paths masked it, the
+       same way they masked the coach button before v1.69.1. -->
+  <div ref="{{ nodeCardRef }}" style="display:none;position:absolute;left:0;top:0;width:560px;height:560px;z-index:5;transform-origin:50% 50%;will-change:transform,opacity;pointer-events:none;"></div>
 
   <div ref="{{ loaderRef }}" style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;pointer-events:none;">
     <div style="width:26px;height:26px;border:2px solid rgba(255,255,255,.15);border-top-color:rgba(120,160,255,.9);border-radius:50%;animation:ngSpin .9s linear infinite;"></div>

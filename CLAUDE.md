@@ -341,6 +341,64 @@ varint(d1) …` base64url-unpadded, where ordinals are sorted-unique and `di = o
 - Lists are **STORED as node ids** (in the existing v2 progress blob, add-wins merge); only the
   WIRE uses ordinals.
 
+### Share links — the feature on top (v1.81.1)
+
+`neural/src/lists.src.js` is the DOMAIN module beside the codec: storage shape, the merge rule,
+`/l/<code>` parsing and the link-preview text. Same three-consumers contract (node --test, the
+browser IIFE via `build.mjs`, the Pages Function), same no-`import` rule — and note the two files
+share ONE scope in the bundle, so no top-level name may collide. That is why the item cap is
+`NG_LIST_ITEM_CAP` here and `NG_LIST_MAX_ITEMS` in the codec; a test pins them equal and
+`build.mjs` throws on any duplicated top-level name.
+
+**Storage.** `lists: {"<id>": {name, items:[nodeId], t}}` inside the **existing v2 blob** — no
+version bump, no migration. Cloud reconciliation is **ADD-WINS** (`ngMergeLists`, beside
+`ngMergeCollectibles`' UNION): union of lists, union of their items, name from the later `t`.
+A DELETE therefore loses to a stale device — deliberate: deleting again is trivial, losing the
+list a class was built from (already posted in a group chat) is not. The item cap is enforced at
+**add** time because `ngListEncodeOrdinals` THROWS above it rather than truncating a coach's class.
+
+**UI.** A **Lists** section at the TOP of Explore (`[data-lists-section]`, `[data-list-row]` with
+Drill / Share / ×). The `+` add affordance (`[data-list-add="<nodeId>"]` +
+`data-list-surface=explore|dossier|land|lesson|shared`) rides Explore rows, BOTH dossier
+renderers, the in-roll landing card and challenge lesson rows (as a SIBLING of the lesson
+`<button>` in `.ng-challenge-lessonrow` — a nested `<button>` would close the outer one in the
+parser). Lighting a list reuses `setFocusIdxSet` exactly like a System; `_listFocusId` survives
+each `renderExplorer` reset (which otherwise `clearFocus()`es on every keystroke) and is dropped
+by `clearFocus`, i.e. on any tab change or pane close.
+
+**Recipient path (`_openSharedListFromUrl`, called right after `ingest`).** Decodes
+`location.pathname` client-side, sets `_sharedIncoming`, opens the pane on Explore and lights the
+nodes. A received link is **offered, never adopted**: Save is one deliberate click. Unknown
+ordinals surface as `[data-shared-unresolved]` and the rest still opens. Beats: `list_item_added`,
+`list_shared`, `list_opened` (the last two have sound cues in the `Sharing` group).
+
+**Four rungs, and the one that matters.** `_redirects` carries **`/l/* /l.html 200`** — a REWRITE,
+so `/l/<code>` keeps its URL and gets the built shell. That plus client-side decode is the WHOLE
+experience with **no Function at all**; `functions/l/[[path]].js` only adds the social preview
+(og:title naming the techniques), because WhatsApp/Telegram/X fetch server-side and never run JS.
+`scripts/build_share_shell.mjs` derives `l.html` from the BUILT `index.html` (one source of truth;
+`<base href="/">` so a trailing slash can't 404 the assets; `noindex,nofollow`; `data-share-og`
+markers the Function's HTMLRewriter targets), emits `l-manifest.json` (ordinal→name, for the
+Function only) and **GATES that no `/l` URL reached sitemap.xml or llms.txt**. It is wired into
+root `build` AND explicitly into BOTH deploy workflows — deploy does not run root `npm run build`.
+
+**Two mouse-only bugs this work uncovered and fixed** (both invisible to keyboard paths, the same
+class as the coach button before v1.69.1):
+- The in-node dossier card's z-index was **3**, under the bottom-centre transport pill (4), which
+  intercepted clicks on its action row. Now **5**.
+- `attachInput`'s `pointerdown` called `el.setPointerCapture()`, which RETARGETS later pointer
+  events to the wrap — so pointerup's `inCard` guard saw the wrap, dismissed the dossier
+  mid-gesture, and the browser computed the click target from the down/up common ancestor. Every
+  button inside the desktop in-node dossier ("Roll from here", the attack pills) was dead to the
+  mouse. A gesture starting inside the card now returns early.
+
+**Tests.** `e2e/journeys/share-lists.spec.ts` (5 journeys, 4 `@curated`) runs on its OWN port via
+`e2e/playwright.share.config.ts`: the core config's `:8123` + `reuseExistingServer: true` happily
+reuses a fixture server started by ANOTHER worktree of this repo, and then you are testing someone
+else's `source/public`. The no-Function rung is tested by fulfilling `/l/*` with the bytes of
+`source/public/l.html`, with the real `_redirects` rule asserted in the same file so the emulation
+cannot drift from production.
+
 ### Training System (SRS) — embedded UX (v1.20.0+)
 
 Client-side spaced repetition (SM-2) layered onto the always-on background graph. There is **no `/Training` page** — training lives as a persistent strip + two stacked modals + carousel chevrons on every page. All state stays in localStorage (Supabase sync optional).
@@ -504,6 +562,7 @@ All commands run from the repo root (`bjjgraph/`):
 | `npm run validate:ordinals` | **Hard gate** on that lockfile: every live node minted, no duplicate/renumbered/deleted ordinal, `next_ordinal == max+1`, keys sorted, plus an append-only diff against a git baseline (`--baseline-ref HEAD^1` in CI — against `HEAD` it would compare the commit under test to itself). Wired into `ci-validate.yml` and BOTH deploy workflows' validate step. |
 | `npm run regenerate` | Full pipeline: issues → json → explode → **validate:graph** (gate) → md → hubs → votes → graph → explorer |
 | `npm run build` | Build static site (~10 min, 4287 files) |
+| `npm run build:share-shell` | Emit the share-link static shell `source/public/l.html` + `l-manifest.json` from the BUILT `index.html`, and GATE that no `/l` URL leaked into `sitemap.xml` or `llms.txt`. Part of `build` and an explicit step in BOTH deploy workflows (deploy never runs root `build`). |
 | `npm run regenerate:build` | Regenerate + build (full workflow) |
 | `npm run dev` | Build then serve locally on port 8080 |
 | `npm run proofread` | Recurring LLM audit of graph edges + probabilities via Claude CLI. Intermittent use only — one Claude call per file, ~25 hours for full corpus at default 60s interval. Not part of `regenerate`. Use `--file`, `--category`, `--max-files` to scope, or `--batch` to skip the delay. |

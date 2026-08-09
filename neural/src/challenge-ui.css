@@ -481,6 +481,20 @@
   padding: 6px 9px;
 }
 
+/* the lesson row + its "add to class list" sibling occupy ONE grid cell, so the ladder's
+   spacing is unchanged from before the affordance existed */
+.ng-challenge-lessonrow {
+  display: flex;
+  align-items: stretch;
+  gap: 4px;
+  min-width: 0;
+}
+
+.ng-challenge-lessonrow > .ng-challenge-lesson {
+  flex: 1;
+  min-width: 0;
+}
+
 .ng-challenge-lesson > span:last-child {
   display: grid;
   gap: 2px;

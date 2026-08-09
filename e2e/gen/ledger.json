@@ -11,7 +11,8 @@
    "competitive-arc",
    "input-access",
    "infra",
-   "momentum-and-economy"
+   "momentum-and-economy",
+   "acquisition"
   ],
   "L": [
    "fresh-visitor",
@@ -44,7 +45,8 @@
    "settings",
    "decision-timer",
    "opponent-turns",
-   "spa-nav"
+   "spa-nav",
+   "share-lists"
   ],
   "B": [
    "happy-path",
@@ -2873,6 +2875,66 @@
    "evidence": {
     "promoted": "bug fixed in v1.75.3; born-red spec green post-fix"
    }
+  },
+  {
+   "id": "core-070",
+   "file": "e2e/journeys/share-lists.spec.ts",
+   "title": "a coach collects today's class into a list from the surfaces they are already using",
+   "theme": "acquisition",
+   "L": "first-roll-day1",
+   "F": "share-lists",
+   "B": "happy-path",
+   "invariant": "Adding from an Explore result and from the node dossier lands BOTH techniques in ONE list (activeListId), emits list_item_added, persists under `lists` in the SAME v2 progress blob (no version bump), and survives a preserveStorage reload.",
+   "origin": "core",
+   "status": "accepted"
+  },
+  {
+   "id": "core-071",
+   "file": "e2e/journeys/share-lists.spec.ts",
+   "title": "sharing produces a canonical, WhatsApp-short link that decodes back to the same class",
+   "theme": "acquisition",
+   "L": "casual-week1",
+   "F": "share-lists",
+   "B": "economy-math",
+   "invariant": "Clicking Share emits list_shared and yields a /l/<code> URL under 70 chars whose decode returns exactly the list's node ids with nothing unknown; the same set built in reverse order encodes to the IDENTICAL string (canonical, so share_id joins creator and recipient), and the wire resolves through permanent ordinals, not array indices.",
+   "origin": "core",
+   "status": "accepted"
+  },
+  {
+   "id": "core-072",
+   "file": "e2e/journeys/share-lists.spec.ts",
+   "title": "a student opens the WhatsApp link with NO Function deployed and the graph lights up",
+   "theme": "acquisition",
+   "L": "fresh-visitor",
+   "F": "share-lists",
+   "B": "error-fallback",
+   "invariant": "Served the plain static shell for /l/<code> (the _redirects 200 rewrite, no Function in the path), a fresh visitor gets _sharedIncoming equal to the shared ids, the pane open on Explore, exactly those nodes in _focusIdxSet with a non-member dimmed and _pathDim false, every technique named in [data-shared-item], list_opened emitted, one click into a live study session, and Save persisting the list.",
+   "origin": "core",
+   "status": "accepted"
+  },
+  {
+   "id": "core-073",
+   "file": "e2e/journeys/share-lists.spec.ts",
+   "title": "a hostile or stale link degrades: nothing crashes, nothing lies",
+   "theme": "acquisition",
+   "L": "fresh-visitor",
+   "F": "share-lists",
+   "B": "guard-limit",
+   "invariant": "A code carrying an ordinal this build has never minted still opens with the techniques it can resolve and reports the rest in `unknown` plus [data-shared-unresolved]; an unparseable code leaves _sharedIncoming null, nothing lit, and no page error.",
+   "origin": "core",
+   "status": "accepted"
+  },
+  {
+   "id": "core-074",
+   "file": "e2e/journeys/share-lists.spec.ts",
+   "title": "/l leaks into NOTHING a crawler reads: not the sitemap, not llms.txt, not the index",
+   "theme": "acquisition",
+   "L": "fresh-visitor",
+   "F": "share-lists",
+   "B": "cross-feature",
+   "invariant": "The emitted _redirects carries `/l/* /l.html 200`; the served sitemap.xml (>4000 URLs) and llms.txt contain no /l URL at all; and the served shell is noindex,nofollow and canonicalises away from itself.",
+   "origin": "core",
+   "status": "accepted"
   }
  ]
 }

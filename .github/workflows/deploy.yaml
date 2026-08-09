@@ -101,6 +101,15 @@ jobs:
           python3 ../scripts/regenerate_llms_txt.py
         working-directory: ./source
 
+      # Share-link static shell (/l.html + /l-manifest.json) and its SEO gate.
+      # MUST be a step here: deploy does NOT run root `npm run build`, so anything wired only
+      # into that script runs locally and never in production. Emits the shell the /l/* -> 200
+      # rewrite serves (the no-Function rung of the share feature) plus the ordinal->name
+      # manifest the Pages Function reads for link previews, then FAILS the deploy if a /l URL
+      # leaked into sitemap.xml or llms.txt. Runs after the Quartz build (which writes both).
+      - name: Build share-link shell (/l)
+        run: node scripts/build_share_shell.mjs
+
       - name: Copy raw HTML folder
         run: |
           ls -la
