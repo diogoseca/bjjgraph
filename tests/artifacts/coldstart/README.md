@@ -31,7 +31,7 @@ build with none of this branch's instrumentation.
 | `cold-start-beats.json` | `coldstart-funnel.spec.ts` | the full `fx()` beat stream for that cold session |
 | `probe-first-roll-pool.json` | `coldstart-probe.spec.ts` | the 136-entry pool `startRoll()` draws a first-ever position from, and what each decile of the uniform draw yields |
 | `probe-chrome.json` | `coldstart-probe.spec.ts` | computed visibility + text of every chrome surface at the first landing |
-| `probe-late-payload.json` | `coldstart-probe.spec.ts` | the landing card with the deck payload missing, and again after `onFlashcardsReady()` — the card does not gain its question |
+| `probe-late-payload.json` | `coldstart-probe.spec.ts` | the landing card with the deck payload missing, and again after `onFlashcardsReady()` — the card does not gain its question. **PRE-v1.82.1 capture, kept as the proof of the bug**: re-running the probe now shows `after.hasQ: true`, because the fix landed. The fix's own gate is `e2e/journeys/coldstart-backfill.spec.ts` |
 | `probe-role-mismatch.json` | `coldstart-probe.spec.ts` | the identity line ("X-Guard Top") against the side actually being played ("Bottom") |
 | `probe-throttled-timeline.json` | `coldstart-probe.spec.ts` | an unrigged Fast-4G cold load: resource timings for the whole neural data layer against when each surface appears |
 

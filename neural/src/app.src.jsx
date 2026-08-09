@@ -1311,6 +1311,7 @@ class Component extends DCLogic {
       if (this.currentPos != null && this.currentPos >= 0) this.buildDrillPanel(this.currentPos);
       if (this.deckShown && this._viewMode === "history" && this._drillView === "home" && !this._paneStudyActive()) this.renderDrillHome();
       this.refreshOptionOdds(); this.updateDrillTab();
+      this._landBackfill(); // the state on screen right now gets the question it was owed
       this._refreshChallengeEvidence();
     } catch (e) { /* non-fatal */ }
   }
@@ -1318,6 +1319,7 @@ class Component extends DCLogic {
     try {
       if (this._nodeCardOn) { this._nodeCardIdx = null; this.updateNodeCard(this.W / this.cam.vw); }
       else if (this._dossierIdx != null && this.isMobile() && this.nodes) this.renderDossier(this.nodes[this._dossierIdx]);
+      this._landBackfill(); // definition + film for the state the player is standing on
     } catch (e) { /* non-fatal */ }
   }
   // guarded PostHog capture (the page loads posthog globally; token absent on localhost) — no PII
@@ -2035,6 +2037,11 @@ class Component extends DCLogic {
     if (this._detailSrc) { this._detailSrc.style.opacity = ""; this._detailSrc = null; }
   }
   closeOptionDetail() {
+    // the landing card comes back when the sheet leaves — here TOO, not only via hideOptDetail:
+    // the animated collapse below (the normal ✕ / back path, taken whenever _optStart is set)
+    // never called it, so peeking at an option and backing out left the card that says where you
+    // are invisible for the rest of the turn. Found by the late-payload journey.
+    if (this._landEl) { this._landEl.style.opacity = ""; this._landEl.style.pointerEvents = ""; }
     this._detailCtx = null;
     if (this._optPick && this._defendSub == null && this.optionsRef.current) this.setBeacon("options", this.optionsRef.current); // back to the hand
     this.clearClipLoops();
@@ -4522,8 +4529,46 @@ class Component extends DCLogic {
     return (node.ty === "positions" ? C[this.deckKeyFor(node).key] : C[node.t]) || null;
   }
   clearLandCard() {
-    this._landQ = null;
+    this._landQ = null; this._landIdx = null; this._landMode = null;
     if (this._landEl) { try { this._landEl.remove(); } catch (e) {} this._landEl = null; }
+  }
+  // ── LATE PAYLOAD BACKFILL ── the comprehension payloads are deferred on purpose (decks 4.3MB
+  // gz, dossier content 5.3MB gz — first paint must not wait on them) and on a measured Fast-4G
+  // cold load they land ~18s AFTER the first hand. Until this existed, the landing card that
+  // greeted a first-time visitor stayed silent for its WHOLE turn: onFlashcardsReady refreshed
+  // the drill panel, the odds and the tab, but never the card — so the question-first landing,
+  // the app's central comprehension mechanic, simply did not happen for their first decision
+  // (measured: tests/artifacts/coldstart/probe-late-payload.json). Fill the live card IN PLACE.
+  // Every guard is load-bearing:
+  //   _landEl + _landMode "land" — never touch a technique card in flight (it owns answer hooks)
+  //   !_landQ  — this landing has never shown a question. A card already on the table is FROZEN:
+  //              re-mounting it would reshuffle it mid-read, and re-mounting an ANSWERED one
+  //              would hand out a second attempt at credit already scored (mastery is
+  //              recall-proven — nothing may mint a second answer). The cost is that a dossier
+  //              payload arriving after the deck payload adds no definition to that first card;
+  //              that is the cheaper of the two losses, and the next landing renders complete.
+  //   _landIdx === currentPos + a live _decision — the roll has not moved on; a card whose turn
+  //              is over must never be rewritten under the next state.
+  // Not a pane/roll-loop action: it re-renders one overlay in place, opens nothing, pauses nothing.
+  _landBackfill() {
+    if (!this._landEl || this._landQ || this._coach) return;
+    if (this._landMode !== "land" || this._landIdx !== this.currentPos) return;
+    if (!this._decision || !this._optPick) return;
+    const pos = this.nodes && this.nodes[this.currentPos];
+    if (!pos) return;
+    // keyboard users: if focus was on one of the card's own handles, put it back on the new one
+    const act = document.activeElement;
+    const held = act && this._landEl.contains(act)
+      ? (act.hasAttribute("data-land-more") ? "[data-land-more]" : (act.hasAttribute("data-land-count") ? "[data-land-count]" : null))
+      : null;
+    // somebody is hiding the card inline (the expand sheet owns the screen while it is up, and
+    // restores these two on close) — a fresh element must inherit that, or the card pops into
+    // view over the sheet the player is reading
+    const hidden = this._landEl.style.opacity === "0";
+    this._landLate = true;                       // the beat says "this question arrived late"
+    try { this.renderLandCard(pos, "land", null); } finally { this._landLate = false; }
+    if (this._landEl && hidden) { this._landEl.style.opacity = "0"; this._landEl.style.pointerEvents = "none"; }
+    if (held && this._landEl) { const t = this._landEl.querySelector(held); if (t && t.focus) try { t.focus(); } catch (e) {} }
   }
   // mode: "land" (a position — your options are dealt below) | "attempt" (a technique in flight —
   // the tension sweep is waiting on this answer). hooks: {onAnswer(correct), onSkip()}.
@@ -4545,6 +4590,7 @@ class Component extends DCLogic {
     el.setAttribute("data-landcard", mode || "land");
     (this.__ngRoot || document.body).appendChild(el);
     this._landEl = el;
+    this._landIdx = node.idx; this._landMode = mode || "land"; // what _landBackfill is allowed to refill
 
     // 1 — identity: what it is · where you came from · which side you're playing — and one
     // top-right familiarity chip: the seen-glyph fused with the deck's recall-proven count
@@ -4612,7 +4658,7 @@ class Component extends DCLogic {
         // glyph is the existing evidence ("○" = not one card in this deck has ever been met), so
         // this asks nothing new of the data model — it just names the suspected confusion.
         const unseen = glyph[0] === "○";
-        this.fx("land_q_shown", { deckKey: key, mode: mode || "land", unseen: unseen, cards: totalCards });
+        this.fx("land_q_shown", { deckKey: key, mode: mode || "land", unseen: unseen, cards: totalCards, backfill: !!this._landLate });
         if (unseen) this.fx("land_q_unseen", { deckKey: key, node: node.t, cards: totalCards, mode: mode || "land", landing: (this.rollLog || []).length });
       }
     }
