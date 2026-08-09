@@ -1,5 +1,5 @@
 {
-  "last_updated_at": "2026-05-30T22:11:07.633013Z",
+  "last_updated_at": "2026-08-09T16:23:54.268914Z",
   "votes": {
     "100% Sweep": {
       "community": {
@@ -4469,11 +4469,11 @@
       "community": {
         "gi": {
           "success_rate": 60.0,
-          "vote_count": 30
+          "vote_count": 31
         },
         "nogi": {
           "success_rate": 60.0,
-          "vote_count": 30
+          "vote_count": 31
         }
       },
       "prior": {
