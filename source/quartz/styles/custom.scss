@@ -56,6 +56,13 @@ html {
   padding: 0 clamp(0.75rem, 3vw, 3rem);
 }
 
+// Pages that opt out of rendering their article body via `cssclasses: [hide-content]` in
+// frontmatter (content/Tree.md, content/Game Over.md). Kept when the Training Dashboard styles
+// were deleted in v1.80.0 — the class is declared by CONTENT, not by any component.
+.hide-content article {
+  display: none;
+}
+
 // ============================================================================
 // Global Dark Mode Scrollbar Styles
 // ============================================================================
