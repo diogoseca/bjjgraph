@@ -47,10 +47,45 @@ SAMPLE = [
 META_TAGS = ("description",)
 PROP_PREFIXES = ("og:", "twitter:", "article:")
 
+# ── VOLATILE FIELDS (v1.77.0) ──────────────────────────────────────────────────
+# This gate exited 1 with 28 "regressions" on an untouched tree, which made it
+# useless as a guardrail — and it is the ONLY thing protecting 4,618 indexed URLs
+# during the legacy excision. All 28 were one root cause with many faces:
+# CreatedModifiedDate derives dates from git/filesystem mtime, so they differ per
+# checkout, per worktree and per rebuild. They surfaced as `article:*_time` meta AND
+# as `ldjson changed`, because Head.tsx's enrichSchema() stamps the same dates into
+# datePublished/dateModified inside the JSON-LD.
+#
+# We still compare PRESENCE (a vanished og:title is a real regression) but replace
+# the VALUE with a sentinel so a rebuild is not a failure.
+VOLATILE_META = ("article:published_time", "article:modified_time")
+VOLATILE_JSONLD_KEYS = ("datePublished", "dateModified", "uploadDate")
+VOLATILE = "<volatile>"
+
+# The crawlable body is compared as a RATCHET, not an equality: the content bot edits
+# pages daily and legitimately changes the text, so an exact hash was a tripwire rather
+# than a guard. What must never happen is the crawlable surface COLLAPSING (which is
+# precisely the risk when deleting page components), so we assert the text does not
+# shrink below a floor and that no internal link disappears.
+CONTENT_FLOOR_RATIO = 0.85
+BASELINE_FORMAT = 2
+
 
 def _attr(tag: str, name: str):
     m = re.search(rf'{name}\s*=\s*"([^"]*)"', tag)
     return html.unescape(m.group(1)) if m else None
+
+
+def _devolatile(node):
+    """Recursively replace build-volatile date values inside a JSON-LD block."""
+    if isinstance(node, dict):
+        return {
+            k: (VOLATILE if k in VOLATILE_JSONLD_KEYS else _devolatile(v))
+            for k, v in node.items()
+        }
+    if isinstance(node, list):
+        return [_devolatile(v) for v in node]
+    return node
 
 
 def extract_seo(doc: str) -> dict:
@@ -67,7 +102,8 @@ def extract_seo(doc: str) -> dict:
         if name in META_TAGS:
             out["meta"][name] = content
         elif prop and prop.startswith(PROP_PREFIXES):
-            out["meta"][prop] = content
+            # keep the key (presence is compared) but neutralise mtime-derived values
+            out["meta"][prop] = VOLATILE if prop in VOLATILE_META else content
 
     lc = re.search(r'<link\b[^>]*rel="canonical"[^>]*>', head)
     if lc:
@@ -77,7 +113,7 @@ def extract_seo(doc: str) -> dict:
         r'<script[^>]*type="application/ld\+json"[^>]*>(.*?)</script>', doc, re.S
     ):
         try:
-            out["ldjson"].append(json.loads(block.strip()))
+            out["ldjson"].append(_devolatile(json.loads(block.strip())))
         except json.JSONDecodeError:
             out["ldjson"].append({"_unparsed": hashlib.sha256(block.encode()).hexdigest()})
     # order-independent compare of the schema blocks
@@ -113,27 +149,60 @@ def snapshot() -> dict:
     return snap
 
 
-def diff(base: dict, cur: dict) -> list:
-    problems = []
+def diff(base: dict, cur: dict) -> tuple[list, list]:
+    """Return (failures, notes).
+
+    Failures are SEO regressions: a route vanished, a head field changed, the crawlable
+    text collapsed, or an internal link disappeared. Notes are legitimate churn worth
+    printing but not blocking (content rewrites, added links) — the content bot edits
+    pages daily and must not need a baseline refresh to stay green.
+    """
+    failures: list[str] = []
+    notes: list[str] = []
     for route, b in base.items():
+        if route.startswith("_"):
+            continue
         c = cur.get(route)
         if c is None:
-            problems.append(f"{route}: MISSING from current build")
+            failures.append(f"{route}: MISSING from current build")
             continue
-        for k in ("title", "canonical", "meta", "ldjson", "content_hash", "links"):
+
+        for k in ("title", "canonical", "ldjson"):
             if b.get(k) != c.get(k):
-                if k == "content_hash":
-                    problems.append(
-                        f"{route}: crawlable content changed "
-                        f"(len {b.get('content_len')} -> {c.get('content_len')})"
-                    )
-                elif k == "meta":
-                    for mk in set(b["meta"]) | set(c["meta"]):
-                        if b["meta"].get(mk) != c["meta"].get(mk):
-                            problems.append(f"{route}: meta[{mk}] changed")
+                failures.append(f"{route}: {k} changed")
+
+        for mk in set(b["meta"]) | set(c["meta"]):
+            if b["meta"].get(mk) != c["meta"].get(mk):
+                if mk not in b["meta"]:
+                    notes.append(f"{route}: meta[{mk}] added")
+                elif mk not in c["meta"]:
+                    failures.append(f"{route}: meta[{mk}] REMOVED")
                 else:
-                    problems.append(f"{route}: {k} changed")
-    return problems
+                    failures.append(f"{route}: meta[{mk}] changed")
+
+        # crawlable text: ratchet on length, not equality
+        floor = b.get("content_floor") or int(b.get("content_len", 0) * CONTENT_FLOOR_RATIO)
+        cur_len = c.get("content_len", 0)
+        if cur_len < floor:
+            failures.append(
+                f"{route}: crawlable text COLLAPSED — {cur_len} chars is below the "
+                f"{floor} floor (baseline {b.get('content_len')})"
+            )
+        elif b.get("content_hash") != c.get("content_hash"):
+            notes.append(
+                f"{route}: content edited (len {b.get('content_len')} -> {cur_len}, above floor)"
+            )
+
+        # internal links may be added, never lost
+        lost = sorted(set(b.get("links", [])) - set(c.get("links", [])))
+        if lost:
+            failures.append(
+                f"{route}: {len(lost)} internal link(s) REMOVED, e.g. {lost[:3]}"
+            )
+        gained = len(set(c.get("links", [])) - set(b.get("links", [])))
+        if gained:
+            notes.append(f"{route}: {gained} internal link(s) added")
+    return failures, notes
 
 
 def main():
@@ -147,22 +216,50 @@ def main():
 
     cur = snapshot()
     if args.update:
+        for route, snap in cur.items():
+            snap["content_floor"] = int(snap["content_len"] * CONTENT_FLOOR_RATIO)
+        cur["_meta"] = {
+            "format": BASELINE_FORMAT,
+            "floor_ratio": CONTENT_FLOOR_RATIO,
+            "volatile_meta": list(VOLATILE_META),
+            "volatile_jsonld_keys": list(VOLATILE_JSONLD_KEYS),
+        }
         BASELINE.parent.mkdir(parents=True, exist_ok=True)
         BASELINE.write_text(json.dumps(cur, indent=1, ensure_ascii=False, sort_keys=True))
-        print(f"baseline written: {len(cur)} routes -> {BASELINE}")
+        print(f"baseline written: {len(cur) - 1} routes -> {BASELINE}")
+        print(
+            "NOTE: --update re-arms the ratchet. Commit it separately from any deletion, "
+            "and say in the commit body WHY the surface legitimately changed."
+        )
         return
 
     if not BASELINE.exists():
         print(f"ERROR: no baseline at {BASELINE}; run with --update first", file=sys.stderr)
         sys.exit(1)
     base = json.loads(BASELINE.read_text())
-    problems = diff(base, cur)
-    if problems:
-        print(f"✗ SEO PARITY FAILED — {len(problems)} regression(s):")
-        for p in problems:
+    if base.get("_meta", {}).get("format") != BASELINE_FORMAT:
+        print(
+            f"ERROR: baseline is format {base.get('_meta', {}).get('format', 1)}, this gate needs "
+            f"{BASELINE_FORMAT} (volatile dates are now neutralised and content is a floor, not a "
+            f"hash). Rebuild and re-run with --update.",
+            file=sys.stderr,
+        )
+        sys.exit(1)
+
+    failures, notes = diff(base, cur)
+    routes = len([r for r in base if not r.startswith("_")])
+    for n in notes:
+        print("  ·", n)
+    if failures:
+        print(f"✗ SEO PARITY FAILED — {len(failures)} regression(s):")
+        for p in failures:
             print("  -", p)
         sys.exit(1)
-    print(f"✓ SEO parity OK — {len(base)} routes, head/JSON-LD/crawlable content unchanged")
+    print(
+        f"✓ SEO parity OK — {routes} routes; head + JSON-LD identical, crawlable text above "
+        f"floor, zero internal links lost"
+        + (f" ({len(notes)} benign change(s) noted)" if notes else "")
+    )
 
 
 if __name__ == "__main__":

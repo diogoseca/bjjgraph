@@ -72,9 +72,22 @@ source/quartz/static/neural/
 neural/dist/
 neural/build/.tmp/
 neural-render.jpeg
-# raw Claude-Design dump is ignored; keep only the build inputs the bundle needs
+# raw Claude-Design dump is ignored; keep only the build inputs the bundle needs.
+#
+# ALLOW BY CONVENTION, NOT BY FILENAME (v1.77.0). This used to name five files
+# explicitly, which meant every NEW build input was silently ignored: the existing
+# challenge-*.src.js / challenge-*.css / sound.src.js survive only because someone
+# force-added them. A new file (e.g. neural/src/lists.src.js) would be absent from
+# CI's checkout, so `node neural/build/build.mjs` would either error or quietly ship
+# a bundle missing the feature — green locally, broken in production.
+#
+# The `.src.` infix and `.css` are the markers of a build input (build.mjs reads
+# exactly these); a raw design dump uses plain names (App.jsx, index.js) and stays
+# ignored. Verify any new file with: git check-ignore -v neural/src/<file>
 neural/src/*
-!neural/src/app.src.jsx
+!neural/src/*.src.js
+!neural/src/*.src.jsx
+!neural/src/*.css
 !neural/src/xdc-template.html
 !neural/src/helmet.html
 !neural/src/props.json

@@ -64,6 +64,9 @@ jobs:
           python3 ../scripts/regenerate_redirects.py
           python3 ../scripts/regenerate_headers.py
           python3 ../scripts/check_headers_cache.py
+          # SEO ratchet: head + JSON-LD identical, crawlable text above floor,
+          # zero internal links lost. Was referenced by NO workflow before v1.77.0.
+          python3 ../scripts/check_seo_parity.py
           # PARITY: prod runs this too. Without it the preview shipped no llms.txt,
           # so the AI-crawler surface was never actually exercised before prod.
           python3 ../scripts/regenerate_llms_txt.py
