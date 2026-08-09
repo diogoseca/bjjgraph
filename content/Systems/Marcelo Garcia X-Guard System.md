@@ -179,6 +179,12 @@ Marcelo Garcia's X-Guard System represents one of the most dominant guard framew
 
 <p class="section-subtitle">Go deeper with the instructional that built this system.</p>
 
+<!-- PROXIMATE AFFILIATE DISCLOSURE — required HERE, not only in terms.md. FTC 16 CFR Part 255
+     and the UK ASA/CAP code both require it clear, conspicuous and close to the link. Placed
+     above the cards so a reader who scans only the card still sees it. Keep the wording in sync
+     with the app CTA and docs/Affiliate.md. -->
+<p class="affiliate-disclosure">BJJGraph earns a commission if you buy through this link, at no extra cost to you. It never changes what the graph teaches.</p>
+
 <div class="product-cards-grid">
 
 <article class="product-card" data-product-id="marcelo-garcia-x-guard-formula">

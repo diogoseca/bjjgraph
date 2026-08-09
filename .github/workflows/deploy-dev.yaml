@@ -81,6 +81,23 @@ jobs:
       - name: Build Forward development libraries
         run: npm run build:forward
 
+      # PARITY with prod: the preview is publicly reachable, so its product links must
+      # be attributable too. The affiliate ref is a deployment parameter, not content —
+      # content/Systems/*.json ships `?ref=REPLACE_ME` so a fork or a local build needs
+      # no secret. Stamped into the BUILT artifacts here: after every step that writes or
+      # clears source/public, before the journey gate. Unset secret = WARNING + placeholder
+      # left in place, never a failed deploy (see docs/Affiliate.md).
+      - name: Stamp affiliate ref into build output
+        env:
+          AFFILIATE_REF: ${{ secrets.AFFILIATE_REF }}
+        run: python3 scripts/apply_affiliate_ref.py
+
+      # Must follow the stamp — see the prod workflow for why.
+      - name: Systems payload gate (dead highlights + dead affiliate links)
+        env:
+          AFFILIATE_REF: ${{ secrets.AFFILIATE_REF }}
+        run: python3 scripts/check_systems_payload.py
+
       - name: Install root dependencies (Playwright test runner)
         run: npm install
 

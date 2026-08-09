@@ -17,6 +17,12 @@ generated+committed static asset):
     (the monolith was 13.5 MB; each deck is a few KB).
   - flashcards/_index.json : manifest {_meta, decks:{"<Name>|<Role>":{file,cat,role,n}}}
     resolving each deck key -> its chunk file + card count (the "what decks exist" list).
+  - systems.json : the 47 expert Systems as the app's library + graph-highlight source
+    ({_meta, systems:[{id,name,url,summary,type,difficulty,nodes,unresolved,products}]}).
+    `nodes` are graph-data.json node ids, so selecting a System can light up exactly the
+    part of the graph it teaches; `products` carries the curated BJJFanatics affiliate
+    entries VERBATIM from content (never synthesized — a fabricated affiliate URL is a
+    broken promise to a paying customer).
 
 Deterministic (stable ordering) so re-runs diff cleanly; safe to wire into `regenerate`.
 Read-only w.r.t. all existing content/graph.
@@ -31,6 +37,7 @@ sys.path.insert(0, str(ROOT / "scripts"))
 from _slug import slugify  # canonical slugify (shared with node ids)
 LAYOUT = ROOT / "source/quartz/static/globalGraphLayout.json"
 GRAPH = ROOT / "graph.json"
+SYSTEMS_DIR = ROOT / "content/Systems"
 OUT_DIR = ROOT / "source/quartz/static/neural"
 
 SECTION_TY = {"positions": "positions", "transitions": "transitions", "submissions": "submissions"}
@@ -411,6 +418,169 @@ def build_curriculum(out_dir: Path, graph: dict) -> int:
     return len(cur["belts"])
 
 
+SUMMARY_CAP = 240  # contract: systems.json summary is at most 240 chars (card-sized)
+
+# related_content content_type -> the graph-data.json id prefix it must resolve under.
+# Types NOT in this map (Principle, System, ...) are pages, not graph nodes — they are
+# excluded from BOTH `nodes` and `unresolved` and counted in _meta.nonGraphRefs, because
+# calling the ~440 by-design cross-references "unresolved" would drown the real misses (3).
+GRAPH_REF_PREFIX = {"Position": "Positions", "Transition": "Transitions", "Submission": "Submissions"}
+
+
+def _clip(text: str, cap: int = SUMMARY_CAP) -> str:
+    """Word-boundary clip to `cap` chars INCLUDING the ellipsis (29 of 47 summaries run long)."""
+    t = " ".join((text or "").split())
+    if len(t) <= cap:
+        return t
+    cut = t[: cap - 1].rstrip()
+    sp = cut.rfind(" ")
+    return (cut[:sp].rstrip() if sp > cap // 2 else cut) + "…"
+
+
+def _node_indexes(node_ids: list[str]) -> dict:
+    """Slug lookups over the ids ACTUALLY PRESENT in graph-data.json (never guessed).
+
+    Four layers, because a content page path and a visual node id legitimately diverge:
+      flat     'Positions/Side-Control'            -> ('Positions', 'side-control')
+               'Submissions/Kimura/from-Mount'     -> ('Submissions', 'kimura-from-mount')
+      leaf     last segment only, so a nested position ('Positions/Half-Guard/Deep-Half-
+               Guard') resolves from the bare name a System actually writes ('Deep Half Guard')
+      variant  first segment only, so a family name ('Rear Naked Choke') expands to every
+               real finish node ('Submissions/Rear-Naked-Choke/from-*') — the hub is not a node
+      children page path -> the nodes nested under it (same expansion, keyed by path)
+    """
+    idx = {"flat": {}, "leaf": {}, "variant": {}, "children": {}}
+    for nid in node_ids:
+        if "/" not in nid:
+            continue
+        pre, tail = nid.split("/", 1)
+        segs = tail.split("/")
+        idx["flat"].setdefault((pre, "-".join(slugify(s) for s in segs)), []).append(nid)
+        idx["leaf"].setdefault((pre, slugify(segs[-1])), []).append(nid)
+        if len(segs) > 1:
+            idx["variant"].setdefault((pre, slugify(segs[0])), []).append(nid)
+            for depth in range(1, len(segs)):
+                idx["children"].setdefault(f"{pre}/{'/'.join(segs[:depth])}", []).append(nid)
+    return idx
+
+
+def _resolve_member(name: str, ctype: str, path: str | None, ids: set, idx: dict) -> list[str]:
+    """Map one related_content reference onto the graph node ids it lights up ([] = unresolved).
+
+    `path` is graph.json's already-resolved member page path, tried first. It is not enough on
+    its own: process_systems() drops a reference whose page was already claimed by an earlier
+    one, so a System listing both "Knee Slice Pass" and its synonym "Knee Cut Pass" has only the
+    first in members[] — hence the slug layers, plus the authored aliases[] retry below."""
+    if path:
+        if path in ids:
+            return [path]
+        kids = idx["children"].get(path)
+        if kids:
+            return sorted(set(kids))
+    slug = slugify(name)
+    candidates = [slug] + ([idx["alias"][slug]] if slug in idx["alias"] else [])
+    prefixes = [GRAPH_REF_PREFIX[ctype]] if ctype in GRAPH_REF_PREFIX else list(GRAPH_REF_PREFIX.values())
+    for cand in candidates:
+        for pre in prefixes:
+            for layer in ("flat", "variant", "leaf"):
+                hit = idx[layer].get((pre, cand))
+                if hit:
+                    return sorted(set(hit))
+    return []
+
+
+def _products(data: dict, sys_name: str) -> list[dict]:
+    """The curated BJJFanatics entries, VERBATIM. Content authors them as
+    {title, instructor, affiliate_url}; the Neural contract wants {name, instructor, url}.
+    An entry without a real URL is dropped (a product card that links nowhere earns nothing
+    and misleads), and NOTHING here is ever synthesized — no URL, no product."""
+    out = []
+    for p in data.get("products") or []:
+        if not isinstance(p, dict):
+            continue
+        name = (p.get("title") or p.get("name") or "").strip()
+        url = (p.get("affiliate_url") or p.get("url") or "").strip()
+        if not (name and url):
+            print(f"  systems: skipped product without name+url in {sys_name}")
+            continue
+        out.append({"name": name, "instructor": (p.get("instructor") or "").strip(), "url": url})
+    return out
+
+
+def build_systems(graph: dict, node_ids: list[str]) -> dict:
+    """The Systems library: one entry per content/Systems/*.json, each carrying the graph
+    nodes it teaches so the app can list all 47 AND highlight a System's members on the graph.
+
+    Membership comes from related_content (the authored edge list) resolved against the ids
+    in graph-data.json. Unresolvable graph-typed references are REPORTED per system in
+    `unresolved`, never dropped and never faked."""
+    from regenerate_graph import build_alias_maps, quartz_slug  # page path + authored synonyms
+
+    ids = set(node_ids)
+    idx = _node_indexes(node_ids)
+    # aliases[] is the authored synonym set (Knee Cut Pass -> Knee Slice Pass); without it a
+    # System that writes the synonym reports a false "unresolved" for a node it already lights.
+    pos_alias, tech_alias = build_alias_maps(ROOT / "content")
+    idx["alias"] = {**pos_alias, **{a: v["slug"] for a, v in tech_alias.items()}}
+    gsystems = graph.get("systems") or {}
+
+    systems, non_graph, n_products = [], 0, 0
+    for path in sorted(SYSTEMS_DIR.glob("*.json")):
+        data = json.loads(path.read_text())
+        # the page path (and therefore the node id) is derived from the FILE, not the JSON name
+        page = f"Systems/{quartz_slug(path.stem)}"
+        name = (data.get("name") or path.stem).strip()
+        members = {
+            (m.get("name") or "").strip().lower(): m.get("path")
+            for m in (gsystems.get(slugify(name)) or {}).get("members") or []
+        }
+
+        nodes, unresolved = [], []
+        for item in data.get("related_content") or []:
+            if not isinstance(item, dict):
+                continue
+            ref = (item.get("name") or "").strip()
+            ctype = (item.get("content_type") or "").strip()
+            if not ref:
+                continue
+            if ctype and ctype not in GRAPH_REF_PREFIX:
+                non_graph += 1
+                continue
+            hit = _resolve_member(ref, ctype, members.get(ref.lower()), ids, idx)
+            if hit:
+                nodes.extend(hit)
+            elif ref not in unresolved:
+                unresolved.append(ref)
+
+        prods = _products(data, name)
+        n_products += len(prods)
+        systems.append({
+            "id": page,
+            "name": name,
+            "url": f"/{page}",
+            "summary": _clip(data.get("summary") or data.get("description") or ""),
+            "type": (data.get("system_type") or "").strip(),
+            "difficulty": (data.get("difficulty_level") or "").strip(),
+            "nodes": sorted(set(nodes)),
+            "unresolved": unresolved,
+            "products": prods,
+        })
+
+    return {
+        "_meta": {
+            "count": len(systems),
+            "unresolved": sum(len(s["unresolved"]) for s in systems),
+            "nodes": sum(len(s["nodes"]) for s in systems),
+            "nonGraphRefs": non_graph,
+            "products": n_products,
+            "note": "Generated by scripts/regenerate_neural_data.py from content/Systems/*.json + "
+                    "graph.json membership; `nodes` are graph-data.json ids. nonGraphRefs counts "
+                    "Principle/System cross-references, which are pages and never graph nodes.",
+        },
+        "systems": systems,
+    }
+
+
 def main() -> None:
     if not LAYOUT.exists() or not GRAPH.exists():
         print(f"ERROR: need {LAYOUT} and {GRAPH} (run regenerate:graph first)", file=sys.stderr)
@@ -442,6 +612,16 @@ def main() -> None:
     n_belts = build_curriculum(OUT_DIR, graph)
     if n_belts:
         print(f"curriculum.json: {n_belts} belts emitted")
+
+    # systems.json — the 47-System library + the graph nodes each System highlights. Resolved
+    # against gd["nodes"] (the ids the app actually renders), so a highlight can never point at
+    # a node the graph does not have.
+    sysd = build_systems(graph, [n["id"] for n in gd["nodes"]])
+    (OUT_DIR / "systems.json").write_text(json.dumps(sysd, ensure_ascii=False, separators=(",", ":")))
+    sm = sysd["_meta"]
+    print(f"systems.json: {sm['count']} systems, {sm['nodes']} member nodes, "
+          f"{sm['unresolved']} unresolved refs, {sm['products']} products "
+          f"({sm['nonGraphRefs']} non-graph cross-refs skipped)")
 
     n_cal = sum(1 for n in gd["nodes"] if "cal" in n)
     print(f"graph-data.json: {len(gd['nodes'])} nodes ({n_cal} with calibrated payload), "

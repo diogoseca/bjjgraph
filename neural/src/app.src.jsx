@@ -385,6 +385,12 @@ class Component extends DCLogic {
       .then((cr) => (cr.ok ? cr.json() : null))
       .then((c) => { if (c && c.belts && c.belts.length) { this.curriculum = c; this._onCurriculum(); } })
       .catch(() => { /* optional payload */ });
+    // Systems (the authored course library) are optional too: a 404 just means the Explore tree
+    // has no Systems section — nothing else in the app reads them.
+    fetch("systems.json", { cache: "no-cache" })
+      .then((sr) => (sr.ok ? sr.json() : null))
+      .then((s) => { if (s && Array.isArray(s.systems) && s.systems.length) { this.systems = s.systems; this._onSystems(); } })
+      .catch(() => { /* optional payload */ });
     if (this.loaderRef.current) this.loaderRef.current.style.display = "none";
     // durability: flush the debounced save if the tab is closing/backgrounding (a quick reload
     // right after a belt-win fanfare must not lose the milestone).
@@ -1016,6 +1022,7 @@ class Component extends DCLogic {
     } else if (!open && wasShown) {
       if (this._paneAutoPaused) { this._paneAutoPaused = false; this.setPaused(false); this.fx("pane_resumed", {}); }
       this._pathDim = false;
+      this.clearFocus();
       this._learningViewsTracked = {};
       const fallback = this._tutEl
         ? this._tutEl.querySelector("[data-challenge-cue-open]")
@@ -1068,7 +1075,7 @@ class Component extends DCLogic {
   _renderPaneBody() {
     this._layoutPane();
     if (!this.deckShown || this._paneStudyActive()) return;
-    if (this._viewMode === "history") { this._pathDim = false; this.renderDrillHome(); }
+    if (this._viewMode === "history") { this._pathDim = false; this.clearFocus(); this.renderDrillHome(); }
     else this.renderExplorer();
   }
   // exit an active study surface back to tabs mode on the given (or remembered) tab
@@ -2044,6 +2051,17 @@ class Component extends DCLogic {
     const cat = d ? d.cat : "Position";
     return { info: { fam: fam, role: role, cat: cat, key: key }, cards: d ? d.cards.slice() : null };
   }
+  // fly the camera so a whole SET of nodes is in view — shared by session highlights and by
+  // focus sets (Systems now, shareable Lists next), so every "here is your selection" flight
+  // frames identically.
+  frameNodes(idxs) {
+    if (!idxs || !idxs.length || !this.nodes) return;
+    let minx = 1e9, miny = 1e9, maxx = -1e9, maxy = -1e9;
+    for (const i of idxs) { const n = this.nodes[i]; if (!n) continue; minx = Math.min(minx, n.x); maxx = Math.max(maxx, n.x); miny = Math.min(miny, n.y); maxy = Math.max(maxy, n.y); }
+    if (minx > maxx) return;
+    this.camTarget = { cx: (minx + maxx) / 2, cy: (miny + maxy) / 2, vw: Math.max(this.graphW * 0.4, (maxx - minx) * 2.2) };
+    this.lastInteract = 0; // let camera move
+  }
   nodeForKey(key) {
     if (!this._keyNode) {
       this._keyNode = new Map();
@@ -2056,13 +2074,7 @@ class Component extends DCLogic {
     this._session = { keys: keys, label: label, idx: 0 };
     this._sessionNodes = keys.map((k) => this.nodeForKey(k)).filter((i) => i >= 0);
     this.closeModal();
-    // frame the highlighted nodes
-    if (this._sessionNodes.length) {
-      let minx = 1e9, miny = 1e9, maxx = -1e9, maxy = -1e9;
-      for (const i of this._sessionNodes) { const n = this.nodes[i]; minx = Math.min(minx, n.x); maxx = Math.max(maxx, n.x); miny = Math.min(miny, n.y); maxy = Math.max(maxy, n.y); }
-      this.camTarget = { cx: (minx + maxx) / 2, cy: (miny + maxy) / 2, vw: Math.max(this.graphW * 0.4, (maxx - minx) * 2.2) };
-      this.lastInteract = 0; // let camera move
-    }
+    this.frameNodes(this._sessionNodes);   // frame the highlighted nodes
     this.renderSession();
     this.deckReady = true; this.deckOpen = true; this.applyDeckVisibility();
   }
@@ -2627,6 +2639,9 @@ class Component extends DCLogic {
     if (m === "collection") m = "challenges"; // retired tab — its content lives in Challenges now
     if (m !== "explore" && m !== "challenges" && m !== "history") return;
     if (this._viewMode === m) return;
+    // a focus set belongs to the tab that lit it: leaving Explore drops the highlight, so the
+    // Challenges tab's curriculum fog is never fighting a stale System selection for the graph
+    this.clearFocus();
     this._viewMode = m;
     this.set("challengeView", m);
     try { localStorage.setItem("bjj_view_mode", m); } catch (e) {}
@@ -2905,9 +2920,8 @@ class Component extends DCLogic {
       return;
     }
     const data = this.buildExplorer();
-    this._exp = this._exp || { g: new Set(["Submissions"]), f: new Set() };
+    this._exp = this._exp || { g: new Set(["Systems", "Submissions"]), f: new Set() };
     const q = (this._exQ || "").toLowerCase().trim();
-    this._pathDim = false;
     const mk = (html, pad, onClick) => {
       const d = document.createElement(onClick ? "button" : "div");
       if (onClick) d.type = "button";
@@ -2920,6 +2934,14 @@ class Component extends DCLogic {
       }
       return d;
     };
+    // a System detail view owns the list — and it owns the graph focus set, so it has to render
+    // BEFORE the reset below (which is what drops the highlight when you leave the view).
+    if (this._systemId && !q && this._systemsById && this._systemsById[this._systemId]) {
+      this.renderSystemDetail(list, this._systemId, mk);
+      return;
+    }
+    this._pathDim = false;
+    this.clearFocus();
     // search mode: flat ranked results across all nodes
     if (q) {
       const matches = this.nodes.filter((n) => n.t.toLowerCase().includes(q)).slice(0, 120);
@@ -2933,7 +2955,6 @@ class Component extends DCLogic {
     }
     // curated concept sections (authored on bjjgraph.org)
     const curatedMap = {
-      Systems: ["#a98bff", [["Leg Lock System", "ashi"], ["Back Attack System", "back"], ["Pressure Passing", "pass"], ["Guard Retention", "guard"], ["Half Guard System", "half guard"], ["Mount Attacks", "mount"]]],
       Principles: ["#66CCEE", [["Frames & posture", "guard"], ["Base & connection", "control"], ["Hip movement", "escape"], ["Grip fighting", "grip"], ["Angles", "back"], ["Pressure", "side control"]]],
       Learning: ["#7ee0a8", [["Fundamentals path", "guard"], ["Submission escapes", "escape"], ["Guard passing 101", "pass"], ["Back control & finishes", "back"]]],
     };
@@ -2947,6 +2968,22 @@ class Component extends DCLogic {
           this._exQ = term; const inp = this.explorerSearchRef.current; if (inp) inp.value = term;
           this.renderExplorer();
         }));
+      }
+    };
+    // Systems: every authored system in systems.json, alphabetical. The whole library is listed
+    // (no hand-picked shortlist) — a row lights its members on the graph and opens its page.
+    const renderSystems = () => {
+      const all = this.systems || [];
+      if (!all.length) return;   // payload absent (404) -> no section, everything else unchanged
+      const open = this._exp.g.has("Systems");
+      list.appendChild(mk('<span style="font-size:14px;font-weight:700;color:#dbe2f0;">Systems</span><span style="font-size:11px;color:#7e8aa3;">(' + all.length + ')</span><span style="margin-left:auto;color:#5d6883;font-size:11px;">' + (open ? "\u25be" : "\u25b8") + '</span>', 12, () => { if (open) this._exp.g.delete("Systems"); else this._exp.g.add("Systems"); this.renderExplorer(); }));
+      if (!open) return;
+      for (const s of all) {
+        const meta = [s.difficulty, s.type].filter(Boolean).join(" \u00b7 ");
+        const row = mk('<span style="width:7px;height:7px;border-radius:50%;background:#a98bff;flex:none;"></span><span style="font-size:13px;color:#c4cde0;">' + this.escHTML(s.name) + '</span>' + (meta ? '<span style="margin-left:auto;font-size:10px;color:#7e8aa3;white-space:nowrap;">' + this.escHTML(meta) + '</span>' : ""), 22, () => this.openSystem(s.id));
+        row.setAttribute("data-system-row", s.id);
+        row.style.pointerEvents = "auto";
+        list.appendChild(row);
       }
     };
     const renderGraphGroup = (pair) => {
@@ -2969,10 +3006,121 @@ class Component extends DCLogic {
       }
     };
     // order: Systems \u2192 Principles \u2192 Positions \u2192 Transitions \u2192 Submissions \u2192 Learning
-    renderCurated("Systems");
+    renderSystems();
     renderCurated("Principles");
     for (const pair of data.order) renderGraphGroup(pair);
     renderCurated("Learning");
+  }
+  // ---------- focus set: the node selection the graph lights up ----------
+  // General by design: a System lights its member techniques today, a shareable List will light
+  // its own through these same two calls. The draw loop reads _focusIdxSet exactly like the
+  // path-view fog (non-members drop to 30% ink) and rings the members on top.
+  setFocusIdxSet(idxs) {
+    const set = new Set();
+    for (const i of idxs || []) if (this.nodes && this.nodes[i]) set.add(i);
+    this._focusIdxSet = set.size ? set : null;
+    if (this._focusIdxSet) this.frameNodes(Array.from(this._focusIdxSet));
+  }
+  // drops the highlight AND the view that owns it: a lit graph with no visible selection is a
+  // state the user cannot undo. Called from every _pathDim reset and on any tab change.
+  clearFocus() { this._focusIdxSet = null; this._systemId = null; }
+
+  // ---------- systems: the authored course library (systems.json, optional payload) ----------
+  _onSystems() {
+    this.systems = this.systems.slice().sort((a, b) => String(a.name || "").localeCompare(String(b.name || "")));
+    this._systemsById = {};
+    for (const s of this.systems) if (s && s.id) this._systemsById[s.id] = s;
+    if (this.deckShown && this._viewMode === "explore") this._renderPaneBody(); // payload can land after the pane is already up
+  }
+  // member graph nodes, resolved once per system against the ingested id index
+  systemNodeIdxs(s) {
+    if (!s) return [];
+    if (!s._idxs) {
+      const out = [];
+      for (const id of (Array.isArray(s.nodes) ? s.nodes : [])) {
+        const i = this._idIndex ? this._idIndex.get(id) : null;
+        if (i != null && this.nodes[i] && out.indexOf(i) < 0) out.push(i);
+      }
+      s._idxs = out;
+    }
+    return s._idxs;
+  }
+  openSystem(id) {
+    const s = this._systemsById ? this._systemsById[id] : null; if (!s) return;
+    // Explore is the tab that owns the highlight. Any pane/tab transition runs clearFocus, so the
+    // transition goes FIRST and the selection is claimed after it (a row click skips this).
+    if (!this.deckShown || this._viewMode !== "explore") this.openPane("explore");
+    const idxs = this.systemNodeIdxs(s);
+    this._systemId = id;
+    this.track("neural_system_opened", { system: s.name, nodes: idxs.length, has_course: !!(s.products && s.products.length) });
+    this.setFocusIdxSet(idxs);
+    this.showExplorerList();
+  }
+  closeSystem() { this.clearFocus(); this.showExplorerList(); }
+  // authored copy reaches innerHTML through here
+  escHTML(v) { return String(v == null ? "" : v).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;"); }
+  renderSystemDetail(list, id, mk) {
+    const s = this._systemsById[id]; if (!s) return;
+    const E = (v) => this.escHTML(v);
+    const idxs = this.systemNodeIdxs(s);
+    const back = mk('<span style="color:#9ab0e0;font-size:12.5px;font-weight:600;">\u2039 All systems</span>', 12, () => this.closeSystem());
+    back.setAttribute("data-system-back", "1");
+    back.style.pointerEvents = "auto";
+    list.appendChild(back);
+    const card = document.createElement("section");
+    card.className = "ng-system-detail";
+    card.setAttribute("data-system-detail", s.id);
+    card.setAttribute("aria-label", s.name + " system");
+    const meta = [s.difficulty, s.type].filter(Boolean).map(E);
+    meta.push(idxs.length + " lit on the graph");
+    card.innerHTML = "<h2>" + E(s.name) + '</h2><div class="ng-system-meta">' + meta.join(" \u00b7 ") + "</div>" + (s.summary ? "<p>" + E(s.summary) + "</p>" : "");
+    list.appendChild(card);
+    // Course CTA, ONLY for a system that carries an authored product: a placeholder or a guessed
+    // link here would be a dead promise to a reader who trusted the recommendation.
+    const products = (Array.isArray(s.products) ? s.products : []).filter((p) => p && typeof p.url === "string" && /^https?:\/\//i.test(p.url));
+    if (products.length) {
+      const shelf = document.createElement("div");
+      shelf.className = "ng-system-courses";
+      shelf.setAttribute("data-system-courses", "1");
+      // PROXIMATE DISCLOSURE — legally required, and required HERE. FTC 16 CFR Part 255 and the
+      // UK ASA/CAP code both want it clear, conspicuous and CLOSE TO THE LINK; the site-wide
+      // statement in terms.md is the backstop, not the disclosure. It renders above the cards so
+      // someone who reads only the card still sees it, and it ships BEFORE the first real ref so
+      // a monetised link can never appear without it. Wording per docs/Affiliate.md.
+      const disc = document.createElement("p");
+      disc.className = "ng-system-disclosure";
+      disc.setAttribute("data-affiliate-disclosure", "1");
+      disc.textContent =
+        "BJJGraph earns a commission if you buy through this link, at no extra cost to you. " +
+        "It never changes what the graph teaches.";
+      shelf.appendChild(disc);
+      for (const p of products) {
+        const a = document.createElement("a");
+        a.className = "ng-system-cta";
+        a.setAttribute("data-system-cta", "1");
+        a.href = p.url;                       // authored in content/Systems/*.json, never synthesized
+        a.target = "_blank";
+        a.rel = "noopener sponsored";
+        a.style.pointerEvents = "auto";
+        a.innerHTML = "<span><small>LEARN IT FROM THE SOURCE</small><b>" + E(p.name || "See the course") + "</b>" +
+          (p.instructor ? "<em>" + E(p.instructor) + "</em>" : "") + '</span><i aria-hidden="true">\u2197</i>';
+        a.addEventListener("click", () => this.track("neural_system_course_clicked", { system: s.name, course: p.name || null, instructor: p.instructor || null }));
+        shelf.appendChild(a);
+      }
+      list.appendChild(shelf);
+    }
+    if (idxs.length) {
+      list.appendChild(mk('<span style="font-size:10.5px;letter-spacing:.12em;text-transform:uppercase;color:#7b8aa8;font-weight:700;">In this system</span>', 12));
+      for (const i of idxs) {
+        const n = this.nodes[i], sp = this.splitName(n.t);
+        const row = mk(this.nodeGlyph(n.ty, this.hex(n.col), 8) + '<span style="font-size:13px;color:#c4cde0;">' + sp.main + (sp.from ? ' <span style="color:#6b7691;font-size:11px;">' + sp.from + '</span>' : "") + '</span>', 22, () => this.openDossier(i));
+        row.setAttribute("data-system-node", n.id);
+        row.style.pointerEvents = "auto";
+        list.appendChild(row);
+      }
+    }
+    const missing = (Array.isArray(s.unresolved) ? s.unresolved : []).length;
+    if (missing) list.appendChild(mk('<span style="font-size:11px;color:#69748f;">' + missing + " more technique" + (missing === 1 ? "" : "s") + " here aren\u2019t on the map yet</span>", 22));
   }
   locateNode(idx) {
     // pure camera flight — the merged pane sits on the right, the graph flies on the visible left,
@@ -5784,6 +5932,18 @@ class Component extends DCLogic {
       }
     }
 
+    // focus rings — the members of the lit selection (a System now, a shared List later). The fog
+    // below dims everything else; these rings are the "lights up" half of the same effect.
+    if (this._focusIdxSet && this._focusIdxSet.size) {
+      const pulse = 0.5 + 0.5 * Math.sin(this.now * 2.2);
+      for (const k of this._focusIdxSet) {
+        const n = this.nodes[k]; if (!n) continue;
+        ctx.strokeStyle = this.rgba(n.col, (0.4 + 0.35 * pulse) * A);
+        ctx.lineWidth = 1.8 / scale;
+        ctx.beginPath(); ctx.arc(n.x, n.y, n.r * 2.7, 0, 6.2832); ctx.stroke();
+      }
+    }
+
     // option rings (during land)
     if (this.optionIdxs.length) {
       const pulse = 0.5 + 0.5 * Math.sin(this.now * 3);
@@ -5799,7 +5959,9 @@ class Component extends DCLogic {
     const nodeK = Math.max(0.4, Math.min(1, this.cam.vw / (this.graphW * 0.5)));
     const br = this.anim("idleBreath", 2) * 0.01;
     // (owner call: the original glyph NEVER hides — the dossier card renders on top of it)
-    const fogSet = this._pathDim ? this._curriculumIdxSet : null; // path view: non-curriculum territory dims
+    // one fog rule, two owners: an explicit focus set (a System's members, later a List's) outranks
+    // the path view's curriculum territory while it is up.
+    const fogSet = (this._focusIdxSet && this._focusIdxSet.size) ? this._focusIdxSet : (this._pathDim ? this._curriculumIdxSet : null);
     for (const n of this.nodes) {
       const bk = br ? 1 + br * Math.sin(this.now * 1.4 + n.idx * 0.83) : 1;
       const fogK = fogSet && !fogSet.has(n.idx) ? 0.3 : 1;

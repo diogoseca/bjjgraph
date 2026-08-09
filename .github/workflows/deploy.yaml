@@ -113,6 +113,26 @@ jobs:
       - name: Build Forward development libraries
         run: npm run build:forward
 
+      # The affiliate tracking id is a deployment parameter, not content: product URLs
+      # in content/Systems/*.json ship the literal `?ref=REPLACE_ME` so a fork or a
+      # local build needs no secret, and the ref never enters this public repo's git
+      # history. Stamp it into the BUILT artifacts here — after every step that writes
+      # or clears source/public, and before the journey gate, so the tests exercise the
+      # exact bytes we deploy. Unset secret = WARNING + placeholder left in place, never
+      # a failed deploy (see docs/Affiliate.md).
+      - name: Stamp affiliate ref into build output
+        env:
+          AFFILIATE_REF: ${{ secrets.AFFILIATE_REF }}
+        run: python3 scripts/apply_affiliate_ref.py
+
+      # Must follow the stamp: the gate treats a leftover REPLACE_ME as fatal only when
+      # AFFILIATE_REF is set, so running it first would fail on a placeholder that the
+      # previous step was about to replace.
+      - name: Systems payload gate (dead highlights + dead affiliate links)
+        env:
+          AFFILIATE_REF: ${{ secrets.AFFILIATE_REF }}
+        run: python3 scripts/check_systems_payload.py
+
       - name: Install root dependencies (Playwright test runner)
         run: npm install
 

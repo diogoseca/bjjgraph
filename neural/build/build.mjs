@@ -45,6 +45,7 @@ const challengeFeedbackCSS = readFileSync(
   R("src/challenge-feedback.css"),
   "utf8",
 );
+const systemsCSS = readFileSync(R("src/systems.css"), "utf8");
 let app = readFileSync(R("src/app.src.jsx"), "utf8");
 const patched = app
   .replaceAll(
@@ -58,6 +59,10 @@ const patched = app
   .replaceAll(
     'fetch("curriculum.json"',
     'fetch((window.__NEURAL_DATA_BASE||"")+"curriculum.json"',
+  )
+  .replaceAll(
+    'fetch("systems.json"',
+    'fetch((window.__NEURAL_DATA_BASE||"")+"systems.json"',
   );
 if (patched === app)
   console.warn("[build] WARNING: no fetch() patched — check app source");
@@ -217,6 +222,7 @@ writeFileSync(
     challengeCSS,
     challengeCollectionCSS,
     challengeFeedbackCSS,
+    systemsCSS,
   ].join("\n"),
 );
 
