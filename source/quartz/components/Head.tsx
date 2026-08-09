@@ -22,6 +22,22 @@ export default (() => {
     const ogImagePath = `https://${cfg.baseUrl}/static/og-image.png`
     const canonicalUrl = cfg.baseUrl ? `https://${cfg.baseUrl}/${fileData.slug}` : undefined
 
+    // Opt-out of indexing, declared per page in frontmatter (`noindex: true`).
+    //
+    // Why this exists (v1.80.2): a page can be one that MUST resolve — hundreds of internal
+    // links point at it — while having no indexable content of its own. content/Game Over.md is
+    // the case: it is frontmatter only, `cssclasses: [hide-content]`, and it existed as a mount
+    // point for the legacy VictoryDisplay, which v1.80.0 deleted. It now emits a ~26KB page whose
+    // <article> holds ZERO characters — a soft-404 Google is invited to index. The `/Tree`
+    // precedent (v1.80.1) was a 301 to `/`, but that fix does not transfer here: /Tree had ONE
+    // inbound link, /Game-Over has ~980 emitted hrefs from 681 content files, so a redirect would
+    // turn the graph's documented terminal state into a site-wide 301 hop. Tell crawlers not to
+    // index it and leave the URL alone.
+    //
+    // `noarchive` is deliberately omitted: the goal is "do not index this thin page", not
+    // "hide it". Aliases already emit their own noindex (plugins/emitters/aliases.ts).
+    const noindex = fileData.frontmatter?.noindex === true
+
     // Organization schema markup for homepage and all pages
     const organizationSchema = {
       "@context": "https://schema.org",
@@ -73,6 +89,7 @@ export default (() => {
           </>
         )}
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        {noindex && <meta name="robots" content="noindex, follow" />}
         <meta property="og:title" content={title} />
         <meta property="og:description" content={description} />
         {cfg.baseUrl && <meta property="og:image" content={ogImagePath} />}

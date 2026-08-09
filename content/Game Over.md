@@ -5,4 +5,5 @@ aliases:
   - game-over
 cssclasses:
   - hide-content
+noindex: true
 ---
