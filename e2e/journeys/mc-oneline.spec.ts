@@ -2,6 +2,7 @@ import { test, expect } from "@playwright/test"
 import { readFileSync } from "node:fs"
 import { resolve } from "node:path"
 import { journey } from "../dsl"
+import { allDecks } from "../decks"
 
 /**
  * PHASE A — one-line MC options + graded traps that actually SHIP (the audit found the P2b
@@ -14,9 +15,10 @@ import { journey } from "../dsl"
  * mc:{p:[plausible],t:[trap]} }. Correct MC option = card.a; distractors = card.mc tiers.
  */
 
-const PAYLOAD = JSON.parse(
-  readFileSync(resolve(__dirname, "../../source/public/static/neural/flashcards.json"), "utf8"),
-)
+// v1.80.4: there is no flashcards.json monolith any more — the app boots from a manifest and
+// fetches per-deck chunks. This spec is about the CORPUS (do authored tiers survive the bridge),
+// so it assembles the corpus from those chunks; allDecks() is the one loader tests share.
+const DECKS = allDecks()
 const GOLDEN_DECK = "Upa Escape|Attacker"
 const GOLDEN_Q = "Why must you trap the arm and leg on the same side rather than opposite sides?"
 const MC_LINE = 36
@@ -28,6 +30,11 @@ async function openDeck(j: any, page: any, deckKey: string) {
   await page.evaluate(() => (window as any).__neural.toggleExplorer())
   await page.locator(`[data-lesson="${deckKey}"]`).first().click()
   await j.advance(800)
+  // the deck's cards are fetched on demand (v1.80.4) — the surface rebuilds when they land
+  await j.decksSettled()
+  await page.waitForFunction(() => ((window as any).__neural.deck || []).length > 0, null, {
+    timeout: 20_000,
+  })
 }
 const presentByQ = (page: any, q: string) =>
   page.evaluate((qq) => {
@@ -35,19 +42,19 @@ const presentByQ = (page: any, q: string) =>
     const c = (a.deck || []).find((x: any) => x.q === qq)
     if (!c) return null
     a.presentCard(a.qhash(c.q))
-    return a._mc
+    return true
   }, q)
 
 test("payload wiring: graded traps + tooltip detail actually ship (were 0 before)", () => {
   let mc = 0,
     det = 0
-  for (const d of Object.values<any>(PAYLOAD.decks)) for (const c of d.cards) { if (c.mc) mc++; if (c.d) det++ }
+  for (const d of Object.values<any>(DECKS)) for (const c of d.cards) { if (c.mc) mc++; if (c.d) det++ }
   expect(mc).toBeGreaterThan(100) // the whole fix: distractors reach flashcards.json
   expect(det).toBeGreaterThan(1000) // full-answer detail carried for the "more" tooltip
 })
 
 test("golden card: one-line options + authored plausible/trap tiers, straight from the payload", async ({ page }) => {
-  const g = (PAYLOAD.decks[GOLDEN_DECK].cards as any[]).find((c) => c.q === GOLDEN_Q)
+  const g = (DECKS[GOLDEN_DECK].cards as any[]).find((c) => c.q === GOLDEN_Q)
   expect(g, "golden card in payload").toBeTruthy()
   expect(g.a.length).toBeLessThanOrEqual(MC_LINE) // one-line answer
   expect((g.mc.p.length + g.mc.t.length)).toBeGreaterThanOrEqual(3) // 2 plausible + 1 trap
@@ -57,8 +64,10 @@ test("golden card: one-line options + authored plausible/trap tiers, straight fr
   await j.boot("/")
   await j.land("Mount Top")
   await openDeck(j, page, GOLDEN_DECK)
-  const mc = await presentByQ(page, GOLDEN_Q)
-  expect(mc, "golden card presented as MC").toBeTruthy()
+  expect(await presentByQ(page, GOLDEN_Q), "golden card found in the open deck").toBeTruthy()
+  // the MC block mounts once its distractor pool is resident (v1.80.4) — truth still lives only
+  // in a._mc; this waits for it rather than reading a half-built surface
+  await page.waitForFunction(() => !!(window as any).__neural._mc, null, { timeout: 20_000 })
 
   const opts = await page.locator("[data-mc-opt]").allTextContents()
   expect(opts.length).toBe(4)

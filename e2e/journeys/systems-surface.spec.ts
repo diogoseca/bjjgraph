@@ -87,16 +87,21 @@ const watchErrors = (page: Page) => {
   return errors;
 };
 
-/** The optional payload lands after boot; a timeout here means the SERVED site is missing
- *  systems.json or is still serving a bundle that never asks for it. */
-const awaitSystems = (page: Page) =>
-  expect
+/** systems.json is a DEFERRED payload (v1.80.4): 324KB that only the Explore tab and the system
+ *  buckets read, so boot does not fetch it and there is deliberately no idle warm (an idle
+ *  callback fires before a hand exists, which put it straight back on the first-paint bill).
+ *  Asking for it here is what the first reader does. A timeout still means what it always meant:
+ *  the SERVED site is missing systems.json, or serves a bundle that never asks for it. */
+const awaitSystems = async (page: Page) => {
+  await page.evaluate(() => (window as any).__neural._ensureSystems())
+  return expect
     .poll(() => page.evaluate(() => !!(window as any).__neural.systems), {
       timeout: 20_000,
       message:
         "systems.json reached the app (needs `npm run regenerate:neural` + a build so source/public serves both the payload and a bundle that fetches it)",
     })
     .toBe(true);
+};
 
 /** Open the pane on Explore the way a reader does: the logo, then the tab. */
 const openExplore = async (page: Page) => {

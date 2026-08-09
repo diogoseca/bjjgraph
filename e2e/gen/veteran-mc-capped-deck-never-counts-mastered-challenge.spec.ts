@@ -2,6 +2,7 @@
 import { test, expect } from "@playwright/test"
 import { readFileSync } from "node:fs"
 import { resolve } from "node:path"
+import { allDecks } from "../decks"
 import { journey } from "../dsl"
 import { srsVeteran, CURRICULUM } from "./personas"
 
@@ -48,12 +49,8 @@ import { srsVeteran, CURRICULUM } from "./personas"
  * Test mode suppresses the 600ms MC auto-advance, so manual presentCard re-presents work.
  */
 
-const FLASHCARDS = JSON.parse(
-  readFileSync(
-    resolve(__dirname, "../../source/public/static/neural/flashcards.json"),
-    "utf8",
-  ),
-)
+// v1.80.4: no flashcards.json monolith — the corpus is assembled from the per-deck chunks
+const FLASHCARDS = { decks: allDecks() }
 
 const CHALLENGE = "purple.master-three"
 const SEED_DECKS = 25 // srsVeteran()'s default — the decks whose prep/rec arrive pre-seeded

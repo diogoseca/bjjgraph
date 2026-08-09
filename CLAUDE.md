@@ -346,7 +346,18 @@ no longer exists, so it has no effect. `/Training/* → / 301` stays in `_redire
 - `scripts/check_payload_budget.py` — byte ratchet vs `tests/artifacts/budget_site.json`. Run by
   `npm run validate:payload`, chained onto `npm run build`, and a step of BOTH deploy workflows,
   placed after `Copy raw HTML folder` + `Build Forward development libraries` so it measures the
-  tree we actually ship. Raising a ceiling means `--update` in its own justified commit.
+  tree we actually ship. Raising a ceiling means `--update` in its own justified commit. Since
+  v1.80.4 it also gates the **neural eager set** — everything under `static/neural/` that is not
+  an on-demand chunk and not in its short `DEFERRED` list — plus a chunk-size ceiling, so a
+  "chunk" cannot become a monolith under a new name.
+- `e2e/journeys/payload-first-hand.spec.ts` (`@curated`) — the same weight measured from a REAL
+  browser: every byte the page REQUESTS before the first hand of option cards exists, against
+  `tests/artifacts/budget_neural.json`. Requested, not finished: the app deals the hand without
+  waiting for its deck payload, so a finished-only metric would score a background download as
+  free. It also fails if a named monolith reappears on the boot path, and charges any request
+  whose body Playwright cannot return at its on-disk size (that is not paranoia — the first
+  version of the spec silently lost a 16MB file that way). The two gates cross-check each other:
+  the Python one runs without a browser, the browser one cannot be fooled by a list.
 - `scripts/check_seo_parity.py` — crawlable-surface ratchet (`npm run validate:seo`; both deploy
   workflows). Compares `<head>` + JSON-LD, crawlable text against a floor, and internal links —
   **`<article>`-scoped**, so nothing outside the article is covered.
@@ -379,6 +390,60 @@ ring, a per-member mark-known checklist, and a "Mark whole system as known" butt
   the chunking stream. Removing it means editing the template and REGENERATING `content/Systems/*.md`
   — content regeneration is owned outside this branch, so it was deliberately left in place.
   Do not hand-edit the generated `.md`.
+
+### Neural data delivery: manifest boot + on-demand chunks (v1.80.4)
+
+Field data (Cloudflare Observatory) put real-user LCP P75 at 13,764ms with 80% Poor while CLS was
+0.017 / 100% Good — a delivery problem, not a rendering one. A first visit pulled **39.3MB raw /
+10.1MB gzip** of Neural data before a single move was possible. It is now **2.4MB / 355KB**.
+
+**What the app fetches, and when:**
+
+| payload | when | notes |
+|---|---|---|
+| `graph-data.json` (1.5MB) | boot | the graph IS the game; the biggest remaining item and the next lever |
+| `app/neural.js` + `.css` | boot | the bundle |
+| `flashcards/_index.json` (155KB) | boot | the deck MANIFEST: `{deckKey: [cat, n]}` |
+| `curriculum.json` (100KB) | boot | `curriculum.weights` is what `gameScore` sums — deferring it would show a zero belt |
+| `flashcards/<hash>.json` (~6KB) | on demand | one deck's cards |
+| `content/<hash>.json` (~13KB) | on demand | one node's dossier (`window.NG_CONTENT` is the cache) |
+| `systems.json` (324KB) | first read | Explore tab + system buckets only. **No idle warm** — an idle callback fires before a hand exists, which put it straight back on the boot bill |
+
+- **Chunks are addressed by `fnv1a32(key)`** — the app's own `qhash()`, ported byte-identically in
+  `scripts/_neural_content.fnv1a32`. No filenames in the manifest (~110KB of redundancy: the key
+  already names the deck) and no collision bookkeeping: a chunk holds a `{key: value}` **map**, so
+  a hash collision shares a file instead of losing an entry.
+- **`n` (the manifest card count) is load-bearing, not decoration.** `deckMastery` computes
+  `Σ min(stage,3)/3 ÷ n` from the persisted grades when a deck's cards are absent — the SAME
+  arithmetic as the resident branch, because an ungraded card contributes 0 either way. Without it
+  a manifest boot reads every deck at 0, `gameScore` sums to ~0, the user is told they are a white
+  belt again, and the memo on `_stageVer` makes that stick. Crowns, lesson goals, seen-glyphs,
+  "mastered decks" and Challenge evidence all read the same number.
+- **Hydration invalidates.** `_bumpStageVer()` is the ONE writer of `_stageVer` (grades and
+  hydration share it, so the score memo can never go stale); `_qkDecks` is nulled on every
+  hydration; `_onDeckHydrated` + `_restudy(key)` REBUILD an open study surface's entry, because
+  `_entryForKey` takes a `.slice()` and filling `d.cards` in place is invisible to a snapshot.
+- **`_cardsOf(d)` is still the only legal way to read cards.** A manifest stub is truthy.
+- **MC distractors must not depend on residency.** Whether a deck's cards happened to arrive
+  decides whether a draw yields a distractor and therefore how many further draws happen — network
+  timing would pick the options and rigged journeys would drift. `_warmMcPool` makes residency a
+  PRECONDITION: it dry-runs the pooler inside an RNG transaction (`_rngBegin`/`_rngRollback` put
+  every drawn value back, `Math.random` ones included), hydrates what it asked for, and repeats
+  until nothing is cold; then the real call draws from an untouched stream. A consult that was not
+  warmed emits an **`mc_pool_cold`** beat — never silent. Surfaces defer their MC block by one
+  fetch rather than dealing from a partial pool.
+- **`buildDrillPanel` must not run over a live study surface** (`_paneStudyActive()`): it resets
+  `deck`/`_drillView`, so an arriving chunk used to wipe the deck the user had just opened.
+- **No `cache: "no-cache"`.** The edge serves these with Cache-Control tiers
+  (`scripts/regenerate_headers.py`); forcing revalidation threw the one free win away.
+- **One source of truth for cards.** No monolith is emitted anywhere. Tooling that needs the whole
+  corpus (the exhaustive `validate:mc` audit, tests wanting full residency) assembles it from the
+  chunks via `scripts/_neural_decks.py` / `e2e/decks.ts`.
+- **Journeys exercise the real path.** `e2e/dsl.ts` serves the manifest and chunks from per-worker
+  buffers; `j.hydrate(keys)` / `j.hydrateAll()` / `j.decksSettled()` let a test say when it wants
+  residency instead of assuming it. `scripts/triple_replay.sh` proves three consecutive runs of
+  golden-path, jit-loop, mc-flashcards and landing-card are identical, plus a full beat-stream
+  digest of one scripted roll (`e2e/journeys/replay-digest.spec.ts`).
 
 ### Neural: pane law, landing questions, Challenges, Game Knowledge (v1.68.0+)
 
@@ -485,7 +550,7 @@ All commands run from the repo root (`bjjgraph/`):
 | `npm run regenerate:graph-base` | Generate graph.json only (no layout/strength) |
 | `npm run regenerate` | Full pipeline: issues → json → explode → **validate:graph** (gate) → md → hubs → votes → graph → explorer |
 | `npm run build` | Build static site (~3-10 min, 4618 files) |
-| `python3 scripts/check_payload_budget.py` | **Payload-byte ratchet** (v1.80.0). Asserts the built site stays under the ceilings in `tests/artifacts/budget_site.json`: `postscript.js`/`prescript.js`/`index.css`, per-archetype page bytes, and total emitted HTML. Run after `npm run build`, next to `check_seo_parity.py`. Shrinking always passes; `--update` RAISES the ceilings, so it needs its own justified commit. This is what stops the deleted legacy front-end from creeping back in. |
+| `python3 scripts/check_payload_budget.py` | **Payload-byte ratchet** (v1.80.0, extended v1.80.4). Asserts the built site stays under the ceilings in `tests/artifacts/budget_site.json`: `postscript.js`/`prescript.js`/`index.css`, per-archetype page bytes, total emitted HTML, and the **neural eager set** (raw + gzip) with a per-chunk ceiling. Run after `npm run build`, next to `check_seo_parity.py`. Shrinking always passes; `--update` RAISES the ceilings, so it needs its own justified commit. This is what stops the deleted legacy front-end from creeping back in. |
 | `npm run regenerate:build` | Regenerate + build (full workflow) |
 | `npm run dev` | Build then serve locally on port 8080 |
 | `npm run proofread` | Recurring LLM audit of graph edges + probabilities via Claude CLI. Intermittent use only — one Claude call per file, ~25 hours for full corpus at default 60s interval. Not part of `regenerate`. Use `--file`, `--category`, `--max-files` to scope, or `--batch` to skip the delay. |

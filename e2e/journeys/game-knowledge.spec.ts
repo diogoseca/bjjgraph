@@ -11,8 +11,15 @@ async function openChallenges(page: any) {
   await expect(page.locator(".ng-knowledge-header")).toBeVisible();
 }
 
-const soloDeck = (page: any) =>
-  page.evaluate(() => {
+// This file's subject is the SCORE, not deck residency, so it takes full residency explicitly:
+// decks arrive on demand since v1.80.4, and picking "the first deck with >= 3 cards" out of a
+// manifest of stubs finds nothing.
+const soloDeck = async (page: any) => {
+  await page.evaluate(() => {
+    const a = (window as any).__neural;
+    return a.hydrateDecks(Object.keys((a.flashcards || {}).decks || {}));
+  });
+  return page.evaluate(() => {
     const app = (window as any).__neural;
     const key = Object.keys(app.flashcards.decks).find(
       (candidate: string) =>
@@ -29,6 +36,7 @@ const soloDeck = (page: any) =>
     const recalled = app.gameScore();
     return { key, cold, recognised, recalled };
   });
+};
 
 const setMastery = (page: any, key: string, stage: number) =>
   page.evaluate(
@@ -173,9 +181,11 @@ test.describe("Game Knowledge @curated", () => {
       "0",
     );
 
-    await page.evaluate((key) => {
+    // grade every card of that lesson's deck — which means asking for its cards first
+    await page.evaluate(async (key) => {
       const app = (window as any).__neural;
-      for (const card of app.flashcards.decks[key].cards) {
+      await app.hydrateDeck(key);
+      for (const card of app._cardsOf(app.flashcards.decks[key]) || []) {
         app._bumpStage(key, card.q, 3, 3);
       }
       app.renderExplorer();

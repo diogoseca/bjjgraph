@@ -25,6 +25,20 @@ const state = (page: any) =>
 
 /** answer the live landing question (correct or deliberately wrong) via the keyboard */
 const answer = async (page: any, correct: boolean) => {
+  // v1.80.4: the landing question mounts once this state's deck AND its distractor pool are
+  // resident — the card itself (identity + film) renders immediately, the question can be one
+  // fetch behind. Waiting for the block is not a weaker assertion: it is still "a live landing
+  // question or fail", just not "in this exact microtask".
+  await page
+    .waitForFunction(
+      () => {
+        const m = (window as any).__neural._mc
+        return !!(m && m.surface === "land")
+      },
+      null,
+      { timeout: 20_000 },
+    )
+    .catch(() => {})
   const mc = await page.evaluate(() => {
     const m = (window as any).__neural._mc
     return m && m.surface === "land" ? { correct: m.correct, n: m.n } : null
@@ -204,14 +218,17 @@ test("ignoring an asked question breaks it; a landing that asks nothing carries 
 
   await answer(page, true) // ×1
   // prove the NEXT state's whole deck before we get there, so it will ask nothing
-  const destKey = await page.evaluate(() => {
+  const destKey = await page.evaluate(async () => {
     const a = (window as any).__neural
     for (const o of a._optList || []) {
       if (o.node.ty === "transitions" && o.res >= 0) {
         const key = a.deckKeyFor(a.nodes[o.res]).key
-        const d = a.flashcards.decks[key]
-        if (d && d.cards && d.cards.length) {
-          for (const c of d.cards) a._bumpStage(key, c.q, 4)
+        // the destination's cards may not have arrived yet (on-demand residency, v1.80.4) —
+        // ask for them, since proving them all is the whole point of this step
+        await a.hydrateDeck(key)
+        const cards = a._cardsOf(a.flashcards.decks[key])
+        if (cards && cards.length) {
+          for (const c of cards) a._bumpStage(key, c.q, 4)
           return o.node.t
         }
       }

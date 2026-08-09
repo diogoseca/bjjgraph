@@ -427,16 +427,22 @@ export class Journey {
   /** Drill n cards via the same choke points the UI uses — the CURRENT position's deck by
    *  default, or an explicit deckKey (lesson drilling in Challenge journeys). */
   async drill(n: number, deckKey?: string) {
+    // v1.80.4: a deck's cards arrive on demand, and drilling IS a study action — so ask for the
+    // deck before grading it rather than requiring every caller to remember.
+    await this.page.evaluate((dk) => {
+      const a = (window as W).__neural;
+      const key = (dk as string) || a.deckKeyFor(a.nodes[a.currentPos]).key;
+      return a.hydrateDeck(key);
+    }, deckKey ?? null);
     for (let i = 0; i < n; i++) {
       await this.page.evaluate(
         ([idx, dk]) => {
           const a = (window as W).__neural;
           const key = (dk as string) || a.deckKeyFor(a.nodes[a.currentPos]).key;
           const deck = a.flashcards?.decks?.[key];
-          if (!deck || !deck.cards.length)
-            throw new Error(`no deck for ${key}`);
-          const card =
-            deck.cards[Math.min(idx as number, deck.cards.length - 1)];
+          const cards = a._cardsOf(deck);
+          if (!cards || !cards.length) throw new Error(`no deck for ${key}`);
+          const card = cards[Math.min(idx as number, cards.length - 1)];
           if (!card) throw new Error(`no card ${idx} in ${key}`);
           // drill rail: grade the card correct through the same choke the UI uses
           a.prep[key] = (a.prep[key] || 0) + 1;

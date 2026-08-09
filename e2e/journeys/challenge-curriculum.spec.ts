@@ -141,6 +141,8 @@ test.describe("Challenge curriculum @curated", () => {
     await expect(checkpoint).toBeEnabled();
     await checkpoint.click();
     await j.advance(400);
+    // the quiz pool is this unit's decks, fetched when the quiz starts (v1.80.4)
+    await j.decksSettled();
     await j.expectBeat("checkpoint_start");
     expect(
       await page.evaluate(() => !!(window as any).__neural._checkpoint),

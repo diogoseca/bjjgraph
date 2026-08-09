@@ -27,7 +27,8 @@ from claude_infer import call_claude  # noqa: E402
 from _model import model as _model_tier  # noqa: E402 — single source of truth: models.env
 
 GRAPH_DATA = ROOT / "source/quartz/static/neural/graph-data.json"
-FLASHCARDS = ROOT / "source/quartz/static/neural/flashcards.json"
+# per-deck chunks (the flashcards.json monolith was deleted in v1.80.4)
+FLASHCARDS_DIR = ROOT / "source/quartz/static/neural/flashcards"
 OUT = ROOT / "templates/curriculum.json"
 
 BELTS = [
@@ -63,7 +64,8 @@ technique graph — not a partition. Rules:
 
 def load_inventory():
     gd = json.loads(GRAPH_DATA.read_text())
-    fc = json.loads(FLASHCARDS.read_text())
+    from _neural_decks import load_decks
+    fc = {"decks": load_decks(FLASHCARDS_DIR)}
     decks = fc["decks"] if "decks" in fc else fc
     deck_sizes = {k: len(v["cards"]) for k, v in decks.items()}
 

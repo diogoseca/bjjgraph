@@ -32,7 +32,9 @@ from claude_infer import call_claude  # noqa: E402
 from _model import model as _model_tier  # noqa: E402 — single source of truth: models.env
 
 STATE_DIR = ROOT / "logs/mc_regen"
-FLASHCARDS = ROOT / "source/quartz/static/neural/flashcards.json"
+# The per-deck chunk set (the flashcards.json monolith was deleted in v1.80.4); assembled by
+# scripts/_neural_decks.load_decks, the one loader every tool shares.
+FLASHCARDS_DIR = ROOT / "source/quartz/static/neural/flashcards"
 GRAPH_DATA = ROOT / "source/quartz/static/neural/graph-data.json"
 CURRICULUM = ROOT / "source/quartz/static/neural/curriculum.json"
 
@@ -96,7 +98,8 @@ QUESTIONS MUST BE RETURNED EXACTLY AS GIVEN — byte-for-byte (progress is keyed
 
 def load_targets():
     """Re-derive failing cards from the LIVE payloads and map them to source files."""
-    fc = json.loads(FLASHCARDS.read_text())
+    from _neural_decks import load_decks
+    fc = {"decks": load_decks(FLASHCARDS_DIR)}
     decks = fc["decks"] if "decks" in fc else fc
     gd = json.loads(GRAPH_DATA.read_text())
     neighbors = build_neighbors(gd, decks)
