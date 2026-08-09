@@ -958,14 +958,14 @@ class Component extends DCLogic {
     const decks = (this.flashcards && this.flashcards.decks) || {};
     const entryFor = (node) => {
       const info = this.deckKeyFor(node);
-      const d = decks[info.key];
-      return { info: info, cards: d ? d.cards.slice() : null };
+      const c = this._cardsOf(decks[info.key]);
+      return { info: info, cards: c ? c.slice() : null };
     };
     let firstEntry;
     if (deckKeyOverride) {
       const fam = deckKeyOverride.split("|")[0], role = deckKeyOverride.split("|")[1] || "Defender";
-      const d = decks[deckKeyOverride];
-      firstEntry = { info: { fam: fam, role: role, cat: "Defense", key: deckKeyOverride }, cards: d ? d.cards.slice() : null };
+      const c = this._cardsOf(decks[deckKeyOverride]);
+      firstEntry = { info: { fam: fam, role: role, cat: "Defense", key: deckKeyOverride }, cards: c ? c.slice() : null };
     } else {
       firstEntry = entryFor(this.nodes[posIdx]);
     }
@@ -1163,6 +1163,12 @@ class Component extends DCLogic {
   }
   closeMenu() { this.setDeckOpen(false); }
   _deckHasCards(key) { const d = (this.flashcards && this.flashcards.decks) ? this.flashcards.decks[key] : null; return !!(d && d.cards && d.cards.length); }
+  // ONE accessor for a deck's cards. A deck entry can be PRESENT but not hydrated: the
+  // on-demand chunk path boots from a manifest stub ({n} with no `cards`) and fills
+  // `cards` only once that deck's chunk lands. Read cards through here, never `d.cards`
+  // directly — the stub is truthy, so it slips past every `if (d)` guard in this file and
+  // turns into a TypeError (or a silent NaN index) at the point of use.
+  _cardsOf(d) { return d && Array.isArray(d.cards) ? d.cards : null; }
   openHomeToLatest() {
     // "Study this state" lands in the flashcards home (History tab), focused on the CURRENT state's
     // deck (even if its cards aren't authored yet — the row shows the scaffold). Never falls back
@@ -1418,7 +1424,8 @@ class Component extends DCLogic {
     const isCurrent = !!opts.isCurrent;
     const dot = h.actor === "you" ? "#5b8cff" : (h.actor === "opp" ? "#d8607a" : "#7e8aa3");
     const deck = decks[h.key];
-    const ncards = deck ? deck.cards.length : 0;
+    const deckCards = this._cardsOf(deck);
+    const ncards = deckCards ? deckCards.length : 0;
     const prep = Math.min((this.prep && this.prep[h.key]) || 0, ncards);
     const r = document.createElement("div");
     // journey handles: the pane's roll history is a first-class surface (it is what the pane IS)
@@ -1487,7 +1494,7 @@ class Component extends DCLogic {
     return box;
   }
   _miniDeck(key, deck, isCurrent, rid) {
-    const cards = deck.cards, total = cards.length;
+    const cards = this._cardsOf(deck) || [], total = cards.length; // caller gates on ncards; belt AND braces
     this._deckState = this._deckState || {};
     const st = this._deckState[key] || (this._deckState[key] = { idx: 0, revealed: false });
     if (st.idx >= total) st.idx = 0;
@@ -1709,17 +1716,19 @@ class Component extends DCLogic {
     {
       const decks = (this.flashcards && this.flashcards.decks) || {};
       const tk = this.deckKeyFor(n).key;
-      const jitKey = decks[tk] && decks[tk].cards.length ? tk : (this._posKey && decks[this._posKey] && decks[this._posKey].cards.length ? this._posKey : null);
+      // _deckHasCards is stub-safe, so an unhydrated deck yields no jitKey and the whole JIT
+      // block is skipped — exactly what already happens when the deck is missing.
+      const jitKey = this._deckHasCards(tk) ? tk : (this._deckHasCards(this._posKey) ? this._posKey : null);
       if (jitKey) {
-        const jd = decks[jitKey];
+        const jc = this._cardsOf(decks[jitKey]);
         let jitGrades = 0;
         this._jitIdx = this._jitIdx || {};
         const jit = document.createElement("div");
         jit.setAttribute("data-jit", "1");
         jit.style.cssText = "margin:10px 26px 4px;padding:12px 14px;border:1px solid rgba(126,224,168,.22);border-radius:12px;background:rgba(22,38,30,.35);";
         const renderJit = () => {
-          const idx = (this._jitIdx[jitKey] || 0) % jd.cards.length;
-          const card = jd.cards[idx];
+          const idx = (this._jitIdx[jitKey] || 0) % jc.length;
+          const card = jc[idx];
           jit.innerHTML =
             '<div style="display:flex;align-items:baseline;justify-content:space-between;gap:10px;margin-bottom:7px;">' +
               '<span style="font-size:10px;letter-spacing:.12em;text-transform:uppercase;font-weight:800;color:#7ee0a8;">Drill it \u2014 earn odds & time</span>' +
@@ -2041,14 +2050,15 @@ class Component extends DCLogic {
     } else {
       list.forEach((key) => {
         const fam = key.split("|")[0], role = key.split("|")[1] || "";
-        const d = decks[key]; const cat = d ? d.cat : "Position";
+        const d = decks[key]; const cat = (d && d.cat) || "Position";
+        const dc = this._cardsOf(d); // unhydrated stub renders "soon", same as a missing deck
         const prep = (this.prep || {})[key] || 0;
         const r = document.createElement("div");
         r.style.cssText = "display:flex;align-items:center;gap:11px;padding:11px 10px;border-radius:10px;cursor:pointer;transition:background .12s;";
         r.innerHTML =
           '<span style="width:9px;height:9px;border-radius:' + (cat === "Submission" ? "2px" : cat === "Transition" ? "2px" : "50%") + ';background:' + (catCol[cat] || "#9fb0d8") + ';flex:none;"></span>' +
           '<div style="flex:1;min-width:0;"><div style="font-size:13.5px;font-weight:600;color:#eef1f6;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;">' + fam + '</div><div style="font-size:10.5px;letter-spacing:.06em;text-transform:uppercase;color:#7e8aa3;font-weight:600;margin-top:1px;">' + cat + ' \u00b7 ' + role + '</div></div>' +
-          (prep > 0 ? '<span style="font-size:11px;font-weight:700;color:#7ee0a8;">\u2713 drilled</span>' : (d ? '<span style="font-size:11px;font-weight:600;color:#9ab0e0;">' + d.cards.length + ' cards</span>' : '<span style="font-size:11px;color:#69748f;">soon</span>')) +
+          (prep > 0 ? '<span style="font-size:11px;font-weight:700;color:#7ee0a8;">\u2713 drilled</span>' : (dc ? '<span style="font-size:11px;font-weight:600;color:#9ab0e0;">' + dc.length + ' cards</span>' : '<span style="font-size:11px;color:#69748f;">soon</span>')) +
           '<span style="color:#5d6883;font-size:14px;">\u203a</span>';
         r.addEventListener("mouseenter", () => r.style.background = "rgba(255,255,255,.04)");
         r.addEventListener("mouseleave", () => r.style.background = "transparent");
@@ -2068,8 +2078,12 @@ class Component extends DCLogic {
     const decks = (this.flashcards && this.flashcards.decks) || {};
     const fam = key.split("|")[0], role = key.split("|")[1] || "Top";
     const d = decks[key];
-    const cat = d ? d.cat : "Position";
-    return { info: { fam: fam, role: role, cat: cat, key: key }, cards: d ? d.cards.slice() : null };
+    // `|| "Position"` not `d ? d.cat : …` — an unhydrated stub is truthy but may carry no `cat`,
+    // and renderDrill's no-cards branch does info.cat.toLowerCase(). Every authored deck has a
+    // cat, so this is a no-op for hydrated decks and keeps a stub on the missing-deck path.
+    const cat = (d && d.cat) || "Position";
+    const c = this._cardsOf(d);
+    return { info: { fam: fam, role: role, cat: cat, key: key }, cards: c ? c.slice() : null };
   }
   // fly the camera so a whole SET of nodes is in view — shared by session highlights and by
   // focus sets (Systems now, shareable Lists next), so every "here is your selection" flight
@@ -2111,14 +2125,15 @@ class Component extends DCLogic {
     list.appendChild(intro);
     s.keys.forEach((key, i) => {
       const fam = key.split("|")[0], role = key.split("|")[1] || "";
-      const d = decks[key]; const cat = d ? d.cat : "Position";
+      const d = decks[key]; const cat = (d && d.cat) || "Position";
+      const dc = this._cardsOf(d); // unhydrated stub renders "soon", same as a missing deck
       const done = (this.prep || {})[key] > 0;
       const r = document.createElement("div");
       r.style.cssText = "display:flex;align-items:center;gap:10px;padding:10px 11px;border-radius:10px;cursor:pointer;border:1px solid " + (i === s.idx ? "rgba(150,180,255,.5)" : "rgba(150,170,210,.12)") + ";background:" + (i === s.idx ? "rgba(58,72,118,.5)" : "rgba(255,255,255,.025)") + ";margin-bottom:7px;";
       r.innerHTML =
         '<span style="width:9px;height:9px;border-radius:' + (cat === "Position" ? "50%" : "2px") + ';background:' + (catCol[cat] || "#9fb0d8") + ';flex:none;"></span>' +
         '<div style="flex:1;min-width:0;"><div style="font-size:13px;font-weight:600;color:#eef1f6;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;">' + fam + '</div><div style="font-size:10px;letter-spacing:.06em;text-transform:uppercase;color:#7e8aa3;font-weight:600;margin-top:1px;">' + cat + ' \u00b7 ' + role + '</div></div>' +
-        (done ? '<span style="color:#7ee0a8;font-size:12px;">\u2713</span>' : (d ? '<span style="font-size:10.5px;color:#9ab0e0;">' + d.cards.length + '</span>' : '<span style="font-size:10px;color:#69748f;">soon</span>'));
+        (done ? '<span style="color:#7ee0a8;font-size:12px;">\u2713</span>' : (dc ? '<span style="font-size:10.5px;color:#9ab0e0;">' + dc.length + '</span>' : '<span style="font-size:10px;color:#69748f;">soon</span>'));
       r.addEventListener("click", () => { s.idx = i; const idx = this.nodeForKey(key); if (idx >= 0) this.locateNode(idx); this.studyFromSession(key); });
       list.appendChild(r);
     });
@@ -3640,8 +3655,9 @@ class Component extends DCLogic {
       detail.appendChild(btns);
       const desc = document.createElement("div"); desc.style.cssText = "margin-top:18px;font-size:14px;color:#c2ccde;line-height:1.65;";
       const neighbors = this.adj[n.idx].slice(0, 6).map((k) => this.splitName(this.nodes[k].t).main);
-      if (deck && deck.cards.length) {
-        desc.innerHTML = '<div style="font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:#7b8aa8;font-weight:700;margin-bottom:8px;">Key question</div><div style="font-weight:600;color:#eef1f6;margin-bottom:6px;">' + deck.cards[0].q + '</div>' + deck.cards[0].a;
+      const deckCards = this._cardsOf(deck);
+      if (deckCards && deckCards.length) {
+        desc.innerHTML = '<div style="font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:#7b8aa8;font-weight:700;margin-bottom:8px;">Key question</div><div style="font-weight:600;color:#eef1f6;margin-bottom:6px;">' + deckCards[0].q + '</div>' + deckCards[0].a;
       } else {
         desc.innerHTML = (isPos ? "A " + this.roleLabelOf(n) + " state in the graph. " : "A " + cat.toLowerCase() + " linking positions. ") +
           (neighbors.length ? 'It connects to <b style="color:#dbe2f0;">' + neighbors.join('</b>, <b style="color:#dbe2f0;">') + '</b>.' : "") +
@@ -3761,9 +3777,9 @@ class Component extends DCLogic {
       (d.t || []).forEach((x) => tryAdd(x, "trap", false));
     }
     const decks = (this.flashcards && this.flashcards.decks) || {};
-    const deck = decks[deckKey];
-    if (deck) {
-      const order = deck.cards.filter((c) => c.q !== card.q);
+    const deckCards = this._cardsOf(decks[deckKey]);
+    if (deckCards) {
+      const order = deckCards.filter((c) => c.q !== card.q);
       while (picked.length < n && order.length) tryAdd(order.splice((this.rng(tPick) * order.length) | 0, 1)[0].a, "pool", true);
     }
     if (picked.length < n) {                                  // graph-neighbor decks
@@ -3771,8 +3787,8 @@ class Component extends DCLogic {
       if (idx >= 0 && this.adj && this.adj[idx]) {
         for (const k of this.adj[idx]) {
           if (picked.length >= n) break;
-          const nd = decks[this.deckKeyFor(this.nodes[k]).key];
-          if (nd && nd.cards.length) tryAdd(nd.cards[(this.rng(tPick) * nd.cards.length) | 0].a, "pool", true);
+          const nc = this._cardsOf(decks[this.deckKeyFor(this.nodes[k]).key]);
+          if (nc && nc.length) tryAdd(nc[(this.rng(tPick) * nc.length) | 0].a, "pool", true);
         }
       }
     }
@@ -3781,8 +3797,8 @@ class Component extends DCLogic {
       let guard = 0;
       while (picked.length < n && guard++ < 60) {
         const k = keys[(this.rng(tPick) * keys.length) | 0];
-        const dd = decks[k];
-        if (dd && dd.cards.length && k !== deckKey) tryAdd(dd.cards[(this.rng(tPick) * dd.cards.length) | 0].a, "pool", true);
+        const dc = this._cardsOf(decks[k]);
+        if (dc && dc.length && k !== deckKey) tryAdd(dc[(this.rng(tPick) * dc.length) | 0].a, "pool", true);
       }
     }
     if (picked.length < 2) return null;
@@ -3931,8 +3947,8 @@ class Component extends DCLogic {
     const decks = (this.flashcards && this.flashcards.decks) || {};
     const pool = [];
     for (const l of live) {
-      const d = decks[l.deckKey];
-      if (d) for (const c of d.cards) { if (this.mcClip(c.a)) pool.push({ card: c, key: l.deckKey }); }
+      const dc = this._cardsOf(decks[l.deckKey]);
+      if (dc) for (const c of dc) { if (this.mcClip(c.a)) pool.push({ card: c, key: l.deckKey }); }
     }
     const want = Math.min((unit.checkpoint && unit.checkpoint.cards) || 6, pool.length);
     if (!want) { this.setEvent("Checkpoint unavailable", "No quizzable cards in this unit", "bad"); return; }
@@ -4683,15 +4699,15 @@ class Component extends DCLogic {
   buildPanicCard(row, sub) {
     const decks = (this.flashcards && this.flashcards.decks) || {};
     const pk = this._panicKey;
-    const jd = pk ? decks[pk] : null;
-    if (!row || !jd || !jd.cards.length) return;
+    const pc = pk ? this._cardsOf(decks[pk]) : null;
+    if (!row || !pc || !pc.length) return;
     this._jitIdx = this._jitIdx || {};
     const card = document.createElement("div");
     card.setAttribute("data-panic", "1");
     card.style.cssText = "pointer-events:auto;position:relative;flex:0 0 236px;width:236px;background:rgba(52,22,24,.85);backdrop-filter:blur(6px);border:1px solid rgba(255,110,110,.4);border-radius:11px;padding:11px 12px 12px;";
     const render = () => {
-      const idx = (this._jitIdx[pk] || 0) % jd.cards.length;
-      const fc = jd.cards[idx];
+      const idx = (this._jitIdx[pk] || 0) % pc.length;
+      const fc = pc[idx];
       card.innerHTML =
         '<div style="font-size:9.5px;letter-spacing:.14em;text-transform:uppercase;font-weight:800;color:#ff9c9c;margin-bottom:6px;">Panic drill — defend it</div>' +
         '<div style="font-size:12px;line-height:1.45;color:#f2dede;">' + fc.q + '</div>' +
@@ -5517,9 +5533,8 @@ class Component extends DCLogic {
     this.setEvent("Defend! \u00b7 escape the " + this.splitName(sub.t).main, "Pick an escape \u2014 or drill defense", "bad");
     this._defendSub = subIdx;
     // the panic drill credits the authored Defender deck when it exists, else your position deck
-    const decks = (this.flashcards && this.flashcards.decks) || {};
     const dk = this.defendKeyFor(sub);
-    this._panicKey = decks[dk] && decks[dk].cards.length ? dk : (this._posKey && decks[this._posKey] && decks[this._posKey].cards.length ? this._posKey : null);
+    this._panicKey = this._deckHasCards(dk) ? dk : (this._deckHasCards(this._posKey) ? this._posKey : null);
     this.buildDrillPanel(this.currentPos, dk); // surfaces the Defender deck via the tab; respects the user's open/closed choice (no auto-open)
     this.showVignette(); // heartbeat — you are IN TROUBLE, and the screen says so
 
