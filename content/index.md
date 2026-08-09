@@ -1,5 +1,7 @@
 ---
 title: BJJ Graph - Interactive Brazilian Jiu-Jitsu Knowledge Base
+# Quoted: the value contains ": ", which bare YAML reads as a nested mapping key.
+description: "Brazilian jiu-jitsu mapped as one interactive graph: every position, the moves worth attempting, and the odds each works, fails, or gets countered."
 ---
 
 <!-- Schema Markup for SEO -->
