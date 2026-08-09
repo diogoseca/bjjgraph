@@ -306,6 +306,27 @@ export class Journey {
     await this.hydrate(keys);
     return this;
   }
+  /** The live LANDING question's MC truth, once its block has mounted.
+   *  The landing card renders identity + film immediately and docks its question when the deck
+   *  AND its distractor pool are resident (v1.80.4) — which on a cold state is one fetch later.
+   *  Returns null if this state asks nothing (a fully proven deck legitimately does). */
+  async landQuestion(timeout = 20_000): Promise<{ correct: number; n: number } | null> {
+    await this.page
+      .waitForFunction(
+        () => {
+          const m = (window as W).__neural._mc;
+          return !!(m && m.surface === "land");
+        },
+        null,
+        { timeout },
+      )
+      .catch(() => {});
+    return this.page.evaluate(() => {
+      const m = (window as W).__neural._mc;
+      return m && m.surface === "land" ? { correct: m.correct, n: m.n } : null;
+    });
+  }
+
   /** Wait for every in-flight deck/pool fetch to settle (hydration is real async). */
   async decksSettled() {
     await this.page.evaluate(async () => {

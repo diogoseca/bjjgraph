@@ -21,11 +21,9 @@ test("A-D answer the live question; digits open option sheets", async ({ page })
   await j.boot("/")
   await j.land("Mount Top")
 
-  const mc = await page.evaluate(() => {
-    const m = (window as any).__neural._mc
-    return m ? { correct: m.correct, n: m.n, surface: m.surface } : null
-  })
-  expect(mc?.surface).toBe("land")
+  // the landing block mounts once its distractor pool is resident (v1.80.4)
+  const mc = await j.landQuestion()
+  expect(mc, "a live landing question").toBeTruthy()
 
   // a digit must NOT answer the landing question — it opens the first option's sheet
   await page.keyboard.press("1")
@@ -47,7 +45,7 @@ test("a letter beyond the option count is ignored, not a crash", async ({ page }
   await j.boot("/")
   await j.land("Mount Top")
 
-  const n = await page.evaluate(() => ((window as any).__neural._mc || {}).n || 0)
+  const n = (await j.landQuestion())?.n || 0
   expect(n).toBeGreaterThan(1)
   const beyond = "abcde"[n] // one past the last real option
   if (beyond) {

@@ -251,6 +251,19 @@ test("ignoring an asked question breaks it; a landing that asks nothing carries 
   // target (o.res is the legacy estimate — probing it boomerangs), and the question must build
   // from AUTHORED mc tiers (pool-built distractors depend on random sibling draws).
   for (let hop = 0; hop < 4; hop++) {
+    // the candidates' decks must be resident before questionFor() can judge them (v1.80.4)
+    await page.evaluate(async () => {
+      const a = (window as any).__neural
+      const keys = []
+      for (const o of a._optList || []) {
+        if (!o.node || o.node.ty !== "transitions") continue
+        const outs = (o.node.cal && o.node.cal.outcomes) || []
+        const win = outs.find((x) => x.result === "success") || outs[0]
+        const r = win && a.resolveOutcomeTo(win.to)
+        if (r && r.idx >= 0) keys.push(a.deckKeyFor(a.nodes[r.idx]).key)
+      }
+      await a.hydrateDecks(keys)
+    })
     const target = await page.evaluate(() => {
       const a = (window as any).__neural
       const destOf = (node: any) => {
@@ -281,6 +294,7 @@ test("ignoring an asked question breaks it; a landing that asks nothing carries 
     await j.rig("outcome", [0.01])
     await j.pick(target)
     await j.nextHand()
+    await j.landQuestion(4_000)   // the question can dock one fetch after the card
     if (await page.locator("[data-land-q]").count()) break
   }
   await expect(page.locator("[data-land-q]")).toBeVisible()

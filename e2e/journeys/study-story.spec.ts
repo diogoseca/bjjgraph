@@ -122,7 +122,19 @@ test("White Challenge study story: lesson → MC → recall → checkpoint → e
     .first()
     .click();
   await j.advance(400);
+  await j.decksSettled();   // the quiz pool is this unit's decks, fetched when the quiz starts
   for (let i = 0; i < UNIT1.checkpoint.cards; i++) {
+    // each question's MC block mounts once its distractor pool is resident (v1.80.4)
+    await page
+      .waitForFunction(
+        () => {
+          const a = (window as any).__neural;
+          return !!a._mc || !a._checkpoint;
+        },
+        null,
+        { timeout: 20_000 },
+      )
+      .catch(() => {});
     const t = await page.evaluate(() => (window as any).__neural._mc);
     if (!t) break;
     await page.locator("[data-mc-opt]").nth(t.correct).click();

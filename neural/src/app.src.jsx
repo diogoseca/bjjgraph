@@ -4753,14 +4753,31 @@ class Component extends DCLogic {
   }
   clearLandCard() {
     this._landQ = null;
+    // The truth for a destroyed surface must not linger: `this._mc` is what a keypress grades
+    // against, so a stale land block's answer key would let `A`-`D` grade a question that is no
+    // longer on screen. It also made "wait for the next landing question" unreliable — the old
+    // one was still there to find, which since v1.80.4 (the question docks a fetch after the
+    // card) is a window wide enough to matter.
+    if (this._mc && this._mc.surface === "land") this._mc = null;
     if (this._landEl) { try { this._landEl.remove(); } catch (e) {} this._landEl = null; }
   }
   // mode: "land" (a position — your options are dealt below) | "attempt" (a technique in flight —
   // the tension sweep is waiting on this answer). hooks: {onAnswer(correct), onSkip()}.
   renderLandCard(node, mode, hooks) {
+    const key0 = this.deckKeyFor(node).key;
+    // NEVER re-shuffle a question the player is already looking at. Every render draws a fresh
+    // shuffle, so a rebuild moves the correct answer under their cursor mid-read — and since
+    // v1.80.4 re-renders are routine (the card paints immediately and the question docks once
+    // the deck + its pool land; finishCoach hands the card over as well). Skip ONLY when the
+    // mounted question is still the one this state would ask: if the deck has since been proven,
+    // or a different card is now due, the card must genuinely re-render.
+    if (this._landQ && this._landEl && this._landQ.key === key0 && this._landQ.mode === (mode || "land")) {
+      const want = this.get("landQuestions", true) ? this.questionFor(key0) : null;
+      if (want && this._landQ.card && want.q === this._landQ.card.q) return this._landEl;
+    }
     this.clearLandCard();
     if (this._coach) return null;                      // the guided coach owns the first landing
-    const key = this.deckKeyFor(node).key;
+    const key = key0;
     // the setting gates the QUESTION, not the card: identity and film are priority either way
     const wantQ = this.get("landQuestions", true);
     let card = wantQ ? this.questionFor(key) : null;
