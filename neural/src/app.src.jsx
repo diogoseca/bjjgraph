@@ -132,6 +132,7 @@ class Component extends DCLogic {
   fx(beat, props) {
     (this.beats = this.beats || []).push(Object.assign({ t: this.now || 0, beat: beat }, props || {}));
     if (this.sound) this.sound.beat(beat, props || {});
+    if (this._cs) this._csBeat(beat, props || {}); // cold-start funnel rides the SAME beat stream
     if (this.beats.length > 4000) this.beats.splice(0, 1000);
     // Challenges are completed by doing. The guard matters because acknowledgements emit beats.
     if (!this._inChallenges) {
@@ -256,6 +257,7 @@ class Component extends DCLogic {
 
   // ---------- boot + data ----------
   async boot() {
+    this._csInit(); // cold-start funnel: armed before anything can emit a beat
     this.canvas = this.canvasRef.current;
     this.ctx = this.canvas.getContext("2d");
     this._ro = new ResizeObserver(() => this.resize());
@@ -392,10 +394,11 @@ class Component extends DCLogic {
       .then((s) => { if (s && Array.isArray(s.systems) && s.systems.length) { this.systems = s.systems; this._onSystems(); } })
       .catch(() => { /* optional payload */ });
     if (this.loaderRef.current) this.loaderRef.current.style.display = "none";
+    this._csStep("app_ready"); // graph ingested, loader down: the first frame the user can see
     // durability: flush the debounced save if the tab is closing/backgrounding (a quick reload
     // right after a belt-win fanfare must not lose the milestone).
-    this._onPageHide = () => this._flushSave();
-    this._onVisHide = () => { if (document.visibilityState === "hidden") this._flushSave(); };
+    this._onPageHide = () => { this._flushSave(); this._csAbandon("pagehide"); };
+    this._onVisHide = () => { if (document.visibilityState === "hidden") { this._flushSave(); this._csAbandon("hidden"); } };
     window.addEventListener("pagehide", this._onPageHide);
     document.addEventListener("visibilitychange", this._onVisHide);
     this.startLoop();
@@ -1016,6 +1019,7 @@ class Component extends DCLogic {
     // own render is the one that lands.
     this._paneTransition = true;
     if (open && !wasShown) {
+      this._csStep("pane_opened"); // marked HERE, not in setDeckOpen: study entry points assign deckOpen directly
       if (!this.paused) { this.setPaused(true); this._paneAutoPaused = true; this.fx("pane_paused", {}); }
       const active = document.activeElement;
       this._explorerReturnFocus = active && active !== document.body ? active : null;
@@ -1319,6 +1323,85 @@ class Component extends DCLogic {
   // guarded PostHog capture (the page loads posthog globally; token absent on localhost) — no PII
   track(event, props) {
     try { const ph = window.posthog; if (ph && ph.capture) ph.capture(event, Object.assign({ variant: "neural" }, props || {})); } catch (e) { /* analytics must never break the app */ }
+  }
+
+  // ── COLD-START FUNNEL ── the one journey with no instrumentation behind it: does a first-time
+  // visitor get from "app painted" to "roll finished"? Deliberately CHEAP — it is a beat-stream
+  // OBSERVER, not a second channel: fx() hands every beat to _csBeat, a lookup table maps the
+  // handful that matter to once-only marks, and each mark fires ONE guarded posthog.capture
+  // (no fetch, no beacon, no blocking work). Total hot-path cost is one property read per beat.
+  //
+  // Two event names, matching the existing neural_<noun>_<verb> taxonomy:
+  //   neural_coldstart_step      — one per mark; build the funnel on the `step` property
+  //   neural_coldstart_abandoned — summary emitted from the pagehide/visibility flush
+  // ANALYSIS NOTE: a hide can be a tab-switch, so the report RE-ARMS whenever the spine advances.
+  // Take the LAST abandoned event per session; the step events are the authoritative funnel.
+  _csSpine() { return this._csSp || (this._csSp = ["app_ready", "hand_dealt", "question_shown", "question_answered", "move_committed", "outcome_seen", "roll_ended"]); }
+  // beat -> mark. Cached (not a getter) so the per-beat path allocates nothing.
+  _csMapOf() {
+    return this._csM || (this._csM = {
+      options_dealt: "hand_dealt",        // the first hand of options is the first actionable state
+      land_q_shown: "question_shown",
+      land_q_answered: "question_answered",
+      land_q_ignored: "question_ignored", // committing past an unanswered question
+      land_q_unseen: "unseen_question",   // the specific suspected confusion (see renderLandCard)
+      commit: "move_committed",
+      impact_success: "outcome_seen", impact_fail: "outcome_seen",
+      bonus_pumped: "deck_card_graded",   // first flashcard actually graded
+      roll_end: "roll_ended",
+    });
+  }
+  _csInit() {
+    let returning = false;
+    try { returning = !!(localStorage.getItem("bjj-neural-progress") || localStorage.getItem("bjj-neural-coached")); } catch (e) { /* private mode */ }
+    this._cs = { at: {}, cold: !returning, last: 0, reported: false, hides: 0 };
+  }
+  // ms since NAVIGATION start (not since boot) — the honest number for "how long until the user
+  // could do anything". NB in test mode this is wall clock; the `funnel` beat's own `t` is sim time.
+  _csNow() { try { return Math.round(performance.now()); } catch (e) { return 0; } }
+  _csBeat(beat, props) {
+    const step = this._csMapOf()[beat];
+    if (!step) return;
+    let extra = null;
+    if (beat === "land_q_answered") extra = { correct: !!props.correct, tier: props.tier || null };
+    else if (beat === "land_q_unseen") extra = { node: props.node || null, cards_authored: props.cards || 0 };
+    else if (beat === "land_q_ignored") extra = { deck_key: props.deckKey || null };
+    this._csStep(step, extra);
+  }
+  _csStep(step, extra) {
+    const cs = this._cs;
+    if (!cs || cs.at[step] != null) return; // once only — this is a funnel, not a counter
+    const ms = this._csNow();
+    cs.at[step] = ms;
+    const spine = this._csSpine().indexOf(step);
+    const props = Object.assign({
+      step: step, step_index: spine, spine: spine >= 0, cold: !!cs.cold,
+      ms_since_nav: ms, ms_since_prev: ms - cs.last, coach_open: !!this._coach,
+    }, extra || {});
+    if (spine >= 0) { cs.last = ms; cs.reported = false; } // re-arm the abandon report
+    (this.beats = this.beats || []).push(Object.assign({ t: this.now || 0, beat: "funnel" }, props));
+    this.track("neural_coldstart_step", props);
+  }
+  _csFurthest() {
+    const cs = this._cs; if (!cs) return -1;
+    const sp = this._csSpine();
+    let f = -1;
+    for (let i = 0; i < sp.length; i++) if (cs.at[sp[i]] != null) f = i;
+    return f;
+  }
+  _csAbandon(reason) {
+    const cs = this._cs;
+    if (!cs || cs.reported) return;
+    const sp = this._csSpine();
+    const f = this._csFurthest();
+    if (f >= sp.length - 1) return; // finished a whole roll — there is nothing to report
+    cs.reported = true; cs.hides++;
+    const props = {
+      reason: reason, cold: !!cs.cold, furthest_step: f >= 0 ? sp[f] : "none", furthest_index: f,
+      ms_since_nav: this._csNow(), hides: cs.hides, marks: Object.keys(cs.at).join(","),
+    };
+    (this.beats = this.beats || []).push(Object.assign({ t: this.now || 0, beat: "funnel_abandon" }, props));
+    this.track("neural_coldstart_abandoned", props);
   }
   get(k, d) { const v = (this.settings || {})[k]; return v == null ? d : v; }
   masteredCount() { const r = this.rec || {}; return Object.keys(r).filter((k) => r[k] >= 3).length; } // mastery is RECALL-proven: 3 recall grades (MC can never mint it)
@@ -4525,7 +4608,12 @@ class Component extends DCLogic {
         el.appendChild(qw);
         this._landQ = { key: key, card: card, mode: mode || "land" };
         this._landPending = true; // a question is on the table — walking past it breaks momentum
-        this.fx("land_q_shown", { deckKey: key, mode: mode || "land" });
+        // COLD-START MEASUREMENT: is the game quizzing a state the player has never studied? The
+        // glyph is the existing evidence ("○" = not one card in this deck has ever been met), so
+        // this asks nothing new of the data model — it just names the suspected confusion.
+        const unseen = glyph[0] === "○";
+        this.fx("land_q_shown", { deckKey: key, mode: mode || "land", unseen: unseen, cards: totalCards });
+        if (unseen) this.fx("land_q_unseen", { deckKey: key, node: node.t, cards: totalCards, mode: mode || "land", landing: (this.rollLog || []).length });
       }
     }
 
@@ -5285,7 +5373,9 @@ class Component extends DCLogic {
   enterAttempt(opt) {
     // committing past an unanswered question is IGNORING it — momentum demands engagement
     // (owner's rule: wrong or ignored breaks; a landing that asked nothing carries)
-    if (this._landPending) this._breakCombo("ignored");
+    // the beat is emitted BEFORE the break because _breakCombo clears _landPending — and it fires
+    // even at combo 0 (where _breakCombo is a silent no-op), so an ignored question is never invisible
+    if (this._landPending) { this.fx("land_q_ignored", { deckKey: (this._landQ && this._landQ.key) || null }); this._breakCombo("ignored"); }
     const act = this.nodes[opt.idx];
     this.fx("commit", { technique: act.t });
     this.track("neural_move_picked", { technique: act.t, node_type: act.ty });

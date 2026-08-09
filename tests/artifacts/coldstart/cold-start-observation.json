@@ -1,0 +1,198 @@
+[
+  {
+    "label": "app-ready",
+    "ms_since_nav": 1048,
+    "sim_t": 0,
+    "position": null,
+    "options": [],
+    "paused": false,
+    "decision_left": 0,
+    "funnel": [
+      {
+        "t": 0,
+        "beat": "funnel",
+        "step": "app_ready",
+        "step_index": 0,
+        "spine": true,
+        "cold": true,
+        "ms_since_nav": 516,
+        "ms_since_prev": 516,
+        "coach_open": false
+      }
+    ],
+    "surfaces": {
+      ".ng-loader": false,
+      "[data-coach]": false,
+      "[data-landcard]": false,
+      "[data-land-id]": false,
+      "[data-land-def]": false,
+      "[data-land-film]": false,
+      "[data-land-q]": false,
+      "[data-land-count]": false,
+      "[data-land-more]": false,
+      ".ng-optionrow": true,
+      ".ng-drilltab": false,
+      ".ng-explorer": false,
+      ".ng-knowledge-header": false,
+      "[data-tut-copy]": false,
+      ".ng-status": false,
+      ".ng-transport": false,
+      ".ng-account": false,
+      ".ng-momentum": false
+    },
+    "texts": []
+  },
+  {
+    "label": "first-landing-coach",
+    "ms_since_nav": 1328,
+    "sim_t": 5,
+    "position": "X-Guard Top",
+    "role": "top",
+    "options": [
+      "Ankle Lock from X-Guard",
+      "Tomahawk Sweep",
+      "Smash Pass from X-Guard",
+      "Step Over from X-Guard"
+    ],
+    "paused": false,
+    "decision_left": 11.4,
+    "funnel": [
+      {
+        "t": 0,
+        "beat": "funnel",
+        "step": "app_ready",
+        "step_index": 0,
+        "spine": true,
+        "cold": true,
+        "ms_since_nav": 516,
+        "ms_since_prev": 516,
+        "coach_open": false
+      },
+      {
+        "t": 4.516666666666663,
+        "beat": "funnel",
+        "step": "hand_dealt",
+        "step_index": 1,
+        "spine": true,
+        "cold": true,
+        "ms_since_nav": 1276,
+        "ms_since_prev": 760,
+        "coach_open": false
+      }
+    ],
+    "surfaces": {
+      ".ng-loader": false,
+      "[data-coach]": true,
+      "[data-landcard]": false,
+      "[data-land-id]": false,
+      "[data-land-def]": false,
+      "[data-land-film]": false,
+      "[data-land-q]": false,
+      "[data-land-count]": false,
+      "[data-land-more]": false,
+      ".ng-optionrow": true,
+      ".ng-drilltab": true,
+      ".ng-explorer": false,
+      ".ng-knowledge-header": false,
+      "[data-tut-copy]": false,
+      ".ng-status": false,
+      ".ng-transport": false,
+      ".ng-account": false,
+      ".ng-momentum": false
+    },
+    "texts": [
+      "[ng-optionrow ng-beacon]\n1\nSUBMISSION\n+100\nAnkle Lock\nfrom X-Guard\n→ Ashi Garami Top\nSUCCESS RATE\n32%\n2\nTRANSITION\n+67\nTomahawk Sweep\n→ Mount Top\nSUCCESS RATE\n45%\n3\nTRANSITION\n-4\nSmash Pass\nfrom X-Guard\n→ Half Guard Top\nSUCCESS RATE\n42%\n4\nTRANSITION\n-4\nStep Over\nfrom X-Guard\n→ Half Guard Top\nSUCCESS RATE\n42%",
+      "[ng-drilltab]\n○\nX-Guard\nDrill to boost your odds →",
+      "[ng-coach]\nCOACH · 1/3\nYour move\nThese cards are your options from this position — each shows your live success odds. The clock is frozen while we talk.\nNext\nSkip"
+    ]
+  },
+  {
+    "label": "landing-card",
+    "ms_since_nav": 2082,
+    "sim_t": 5,
+    "position": "X-Guard Top",
+    "role": "top",
+    "options": [
+      "Ankle Lock from X-Guard",
+      "Tomahawk Sweep",
+      "Smash Pass from X-Guard",
+      "Step Over from X-Guard"
+    ],
+    "paused": false,
+    "decision_left": 11.4,
+    "funnel": [
+      {
+        "t": 0,
+        "beat": "funnel",
+        "step": "app_ready",
+        "step_index": 0,
+        "spine": true,
+        "cold": true,
+        "ms_since_nav": 516,
+        "ms_since_prev": 516,
+        "coach_open": false
+      },
+      {
+        "t": 4.516666666666663,
+        "beat": "funnel",
+        "step": "hand_dealt",
+        "step_index": 1,
+        "spine": true,
+        "cold": true,
+        "ms_since_nav": 1276,
+        "ms_since_prev": 760,
+        "coach_open": false
+      },
+      {
+        "t": 5.000000000000006,
+        "beat": "funnel",
+        "step": "question_shown",
+        "step_index": 2,
+        "spine": true,
+        "cold": true,
+        "ms_since_nav": 1626,
+        "ms_since_prev": 350,
+        "coach_open": false
+      },
+      {
+        "t": 5.000000000000006,
+        "beat": "funnel",
+        "step": "unseen_question",
+        "step_index": -1,
+        "spine": false,
+        "cold": true,
+        "ms_since_nav": 1626,
+        "ms_since_prev": 0,
+        "coach_open": false,
+        "node": "X-Guard Top",
+        "cards_authored": 8
+      }
+    ],
+    "surfaces": {
+      ".ng-loader": false,
+      "[data-coach]": false,
+      "[data-landcard]": true,
+      "[data-land-id]": true,
+      "[data-land-def]": false,
+      "[data-land-film]": false,
+      "[data-land-q]": true,
+      "[data-land-count]": true,
+      "[data-land-more]": true,
+      ".ng-optionrow": true,
+      ".ng-drilltab": true,
+      ".ng-explorer": false,
+      ".ng-knowledge-header": false,
+      "[data-tut-copy]": true,
+      ".ng-status": false,
+      ".ng-transport": false,
+      ".ng-account": false,
+      ".ng-momentum": false
+    },
+    "texts": [
+      "[ng-optionrow ng-beacon]\n1\nSUBMISSION\n+100\nAnkle Lock\nfrom X-Guard\n→ Ashi Garami Top\nSUCCESS RATE\n32%\n2\nTRANSITION\n+67\nTomahawk Sweep\n→ Mount Top\nSUCCESS RATE\n45%\n3\nTRANSITION\n-4\nSmash Pass\nfrom X-Guard\n→ Half Guard Top\nSUCCESS RATE\n42%\n4\nTRANSITION\n-4\nStep Over\nfrom X-Guard\n→ Half Guard Top\nSUCCESS RATE\n42%",
+      "[ng-drilltab]\n○\nX-Guard\nDrill to boost your odds →",
+      "[ng-landcard]\nX-Guard Top\nTop\n○\n0/8\nWhat leg configuration defines X-Guard and gives the position its name?\nAOne hook, no outside frame\nBUnhook and sit up flat to them\nCBoth feet hook both thighs\nDBoth legs cross one trapped leg\nMORE ▸",
+      "[B]\nChallenge complete - next up"
+    ]
+  }
+]

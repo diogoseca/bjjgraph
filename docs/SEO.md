@@ -133,6 +133,35 @@ If the sweep fails, you may end up in [[Positions/Half Guard/Bottom]].
 
 **Dashboard URL**: https://us.posthog.com/project/236155
 
+### Event taxonomy
+
+Neural-app events are `neural_<noun>_<verb>` in snake_case, captured through the single guarded
+seam `app.track()` in `neural/src/app.src.jsx` (it injects `variant: "neural"` and is a no-op when
+the PostHog token is absent, e.g. on localhost). Never call `posthog.capture` from the app directly.
+
+### Cold-start funnel (v1.82.0)
+
+The first-visit path is measured by an OBSERVER of the `fx()` beat stream (`_cs*` in
+`app.src.jsx`) — no second event channel, no beacon, no blocking request.
+
+| Event | When | Key properties |
+|-------|------|----------------|
+| `neural_coldstart_step` | Once per funnel mark, per session | `step`, `step_index`, `spine`, `cold`, `ms_since_nav`, `ms_since_prev` |
+| `neural_coldstart_abandoned` | On `pagehide` / tab hidden, mid-funnel | `furthest_step`, `furthest_index`, `reason`, `cold`, `marks` |
+
+**Spine** (build the funnel on the `step` property of `neural_coldstart_step`, in this order):
+`app_ready` → `hand_dealt` → `question_shown` → `question_answered` → `move_committed` →
+`outcome_seen` → `roll_ended`.
+
+**Side marks** (measured, but off the spine — `spine: false`): `unseen_question` (the landing
+question was about a node with NO study history — the suspected cold-start confusion),
+`question_ignored` (committed past an unanswered question), `pane_opened`, `deck_card_graded`.
+
+`cold: true` means the visitor arrived with no `bjj-neural-progress` and no `bjj-neural-coached`
+in localStorage. A tab-switch also fires `neural_coldstart_abandoned`, and the report re-arms
+whenever the spine advances — take the LAST abandoned event per session; the step events are the
+authoritative funnel. Gated by `e2e/journeys/coldstart-funnel.spec.ts`.
+
 ---
 
 ## Technical SEO

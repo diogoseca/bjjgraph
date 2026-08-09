@@ -1,0 +1,141 @@
+{
+  "resources": [
+    {
+      "name": "neural.css",
+      "start": 920,
+      "end": 1047,
+      "kb": 8
+    },
+    {
+      "name": "neural.js",
+      "start": 920,
+      "end": 1527,
+      "kb": 95
+    },
+    {
+      "name": "graph-data.json",
+      "start": 1721,
+      "end": 2460,
+      "kb": 138
+    },
+    {
+      "name": "curriculum.json",
+      "start": 2519,
+      "end": 2711,
+      "kb": 18
+    },
+    {
+      "name": "systems.json",
+      "start": 2519,
+      "end": 2974,
+      "kb": 55
+    },
+    {
+      "name": "flashcards.json",
+      "start": 2519,
+      "end": 25365,
+      "kb": 4306
+    },
+    {
+      "name": "technique-content.js",
+      "start": 1722,
+      "end": 27028,
+      "kb": 5293
+    }
+  ],
+  "changes": [
+    {
+      "ms": 58,
+      "app": false,
+      "nodes": 0,
+      "decks": false,
+      "content": false,
+      "pos": null,
+      "hand": 0,
+      "coach": false,
+      "landcard": false,
+      "lcText": null,
+      "q": false,
+      "def": false,
+      "film": false,
+      "funnel": []
+    },
+    {
+      "ms": 2196,
+      "app": true,
+      "nodes": 0,
+      "decks": false,
+      "content": false,
+      "pos": null,
+      "hand": 0,
+      "coach": false,
+      "landcard": false,
+      "lcText": null,
+      "q": false,
+      "def": false,
+      "film": false,
+      "drilltab": "⚡ | 5 cards to master | Drill to boost your odds →",
+      "funnel": []
+    },
+    {
+      "ms": 7413,
+      "app": true,
+      "nodes": 1467,
+      "decks": false,
+      "content": false,
+      "pos": "Half Guard Top",
+      "hand": 10,
+      "coach": true,
+      "landcard": false,
+      "lcText": null,
+      "q": false,
+      "def": false,
+      "film": false,
+      "drilltab": "⚡ | Half Guard | Cards coming soon",
+      "funnel": [
+        "app_ready@2520",
+        "hand_dealt@7067"
+      ]
+    },
+    {
+      "ms": 25655,
+      "app": true,
+      "nodes": 1467,
+      "decks": true,
+      "content": false,
+      "pos": "Half Guard Top",
+      "hand": 10,
+      "coach": true,
+      "landcard": false,
+      "lcText": null,
+      "q": false,
+      "def": false,
+      "film": false,
+      "drilltab": "○ | Half Guard | Drill to boost your odds →",
+      "funnel": [
+        "app_ready@2520",
+        "hand_dealt@7067"
+      ]
+    },
+    {
+      "ms": 27768,
+      "app": true,
+      "nodes": 1467,
+      "decks": true,
+      "content": true,
+      "pos": "Half Guard Top",
+      "hand": 10,
+      "coach": true,
+      "landcard": false,
+      "lcText": null,
+      "q": false,
+      "def": false,
+      "film": false,
+      "drilltab": "○ | Half Guard | Drill to boost your odds →",
+      "funnel": [
+        "app_ready@2520",
+        "hand_dealt@7067"
+      ]
+    }
+  ]
+}
