@@ -287,7 +287,7 @@ jobs:
 
             Begin processing. Focus on high-intent questions that match user search behavior.
           claude_args: |
-            --model claude-opus-4-8[1m]
+            --model "$(python3 scripts/_model.py --print default)"
             --effort xhigh
             --mcp-config '{"mcpServers":{"dataforseo":{"command":"npx","args":["-y","@modelcontextprotocol/server-dataforseo"],"env":{"DATAFORSEO_LOGIN":"${{ secrets.DATAFORSEO_LOGIN }}","DATAFORSEO_PASSWORD":"${{ secrets.DATAFORSEO_PASSWORD }}"}}}}'
             --allowedTools 'Read,Write,Glob,Bash(mkdir:*),Bash(ls:*),mcp__dataforseo__serp_organic_live_advanced'
@@ -462,7 +462,7 @@ jobs:
           # commit step would then push. `Edit` only touches files that already exist,
           # and the commit step is scoped to content/ + tests/artifacts/ below.
           claude_args: |
-            --model claude-opus-4-8[1m]
+            --model "$(python3 scripts/_model.py --print default)"
             --effort xhigh
             --allowedTools 'Read,Edit,Bash(date:*),Bash(cat:*)'
 

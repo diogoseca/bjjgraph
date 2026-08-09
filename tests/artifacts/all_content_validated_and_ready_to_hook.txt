@@ -1,5 +1,6 @@
 content/Learning/Asymmetric Warfare.json
 content/Learning/Committed Techniques.json
+content/Learning/Conscious Mastery.json
 content/Learning/Defend With Purpose.json
 content/Learning/Double Down on Strengths.json
 content/Learning/Economy of Motion.json
@@ -48,7 +49,6 @@ content/Positions/Closed Guard/Diamond Guard.json
 content/Positions/Collar Sleeve Guard.json
 content/Positions/Combat Base.json
 content/Positions/Crab Ride.json
-content/Positions/Crackhead Control.json
 content/Positions/Cross Body Ride.json
 content/Positions/Crucifix.json
 content/Positions/Darce Control.json
@@ -217,7 +217,6 @@ content/Principles/Transition Management.json
 content/Principles/Wedges.json
 content/Principles/Whizzer Control.json
 content/Submissions/Achilles Lock.json
-content/Submissions/Achilles Lock/from Inside Ashi-Garami.json
 content/Submissions/Americana.json
 content/Submissions/Americana/from 3-4 Mount.json
 content/Submissions/Americana/from High Mount.json
@@ -317,7 +316,6 @@ content/Submissions/Breadcutter Choke.json
 content/Submissions/Breadcutter Choke/from Kuzure Kesa-Gatame.json
 content/Submissions/Breadcutter Choke/from Side Control.json
 content/Submissions/Buggy Choke.json
-content/Submissions/Buggy Choke/from Buggy Choke.json
 content/Submissions/Buggy Choke/from Half Guard.json
 content/Submissions/Calf Slicer.json
 content/Submissions/Calf Slicer/from 50-50 Guard.json
@@ -333,7 +331,6 @@ content/Submissions/Calf Slicer/from Twister Control.json
 content/Submissions/Calf Slicer/from Twister Side Control.json
 content/Submissions/Can Opener.json
 content/Submissions/Can Opener/from Closed Guard.json
-content/Submissions/Chin Strap Guillotine.json
 content/Submissions/Chin Strap Guillotine/from Front Headlock.json
 content/Submissions/Choke from Crucifix.json
 content/Submissions/Clock Choke.json
@@ -368,11 +365,9 @@ content/Submissions/Ezekiel Choke/from Mount.json
 content/Submissions/Ezekiel Choke/from Side Control.json
 content/Submissions/Far Side Armbar.json
 content/Submissions/Far Side Armbar/from Side Control.json
-content/Submissions/Flying Armbar.json
 content/Submissions/Flying Armbar/from Closed Guard.json
 content/Submissions/Flying Kneebar.json
 content/Submissions/Flying Kneebar/from Standing Position.json
-content/Submissions/Gift Wrap Armbar.json
 content/Submissions/Gift Wrap Armbar/from Gift Wrap.json
 content/Submissions/Gogoplata.json
 content/Submissions/Gogoplata/from Gogoplata Control.json
@@ -403,7 +398,6 @@ content/Submissions/Hindulotine.json
 content/Submissions/Hindulotine/from Hindulotine.json
 content/Submissions/Inside Heel Hook.json
 content/Submissions/Inside Heel Hook/from Honey Hole.json
-content/Submissions/Inside Heel Hook/from Inside Ashi-Garami.json
 content/Submissions/Inside Heel Hook/from Inside Sankaku.json
 content/Submissions/Inside Heel Hook/from Ushiro Ashi-Garami.json
 content/Submissions/Inverted Triangle.json
@@ -433,7 +427,6 @@ content/Submissions/Kimura/from Modified Mount.json
 content/Submissions/Kimura/from Modified Scarf Hold.json
 content/Submissions/Kimura/from Mount.json
 content/Submissions/Kimura/from New York Control.json
-content/Submissions/Kimura/from North-South.json
 content/Submissions/Kimura/from Overhook Control.json
 content/Submissions/Kimura/from Quarter Guard.json
 content/Submissions/Kimura/from Reverse Kesa-Gatame.json
@@ -476,7 +469,6 @@ content/Submissions/Monoplata/from Guard.json
 content/Submissions/Monoplata/from Mount.json
 content/Submissions/Mounted Crucifix Armbar.json
 content/Submissions/Mounted Crucifix Armbar/from Mounted Crucifix.json
-content/Submissions/Neck Crank.json
 content/Submissions/Neck Crank/from Mounted Crucifix.json
 content/Submissions/Neck Crank/from Twister Control.json
 content/Submissions/North-South Choke.json
@@ -544,7 +536,6 @@ content/Submissions/Spinning Armbar.json
 content/Submissions/Spinning Armbar/from Closed Guard.json
 content/Submissions/Straight Ankle Lock.json
 content/Submissions/Straight Ankle Lock/from Straight Ankle Lock Control.json
-content/Submissions/Suloev Stretch.json
 content/Submissions/Suloev Stretch/from Half Guard.json
 content/Submissions/Tarikoplata.json
 content/Submissions/Tarikoplata/from Closed Guard.json
@@ -553,7 +544,6 @@ content/Submissions/Ten Finger Guillotine/from Front Headlock.json
 content/Submissions/Ten Finger Guillotine/from Guillotine Control.json
 content/Submissions/Toe Hold.json
 content/Submissions/Toe Hold/from 50-50.json
-content/Submissions/Toe Hold/from 50-50 Guard.json
 content/Submissions/Toe Hold/from Ashi Garami.json
 content/Submissions/Toe Hold/from Backside 50-50.json
 content/Submissions/Toe Hold/from Cross Ashi-Garami.json
@@ -566,7 +556,6 @@ content/Submissions/Toe Hold/from Leg Entanglement.json
 content/Submissions/Toe Hold/from Outside Ashi.json
 content/Submissions/Toe Hold/from Saddle.json
 content/Submissions/Toe Hold/from Toe Hold Control.json
-content/Submissions/Toe Hold/from Top.json
 content/Submissions/Toe Hold/from Ushiro Ashi-Garami.json
 content/Submissions/Triangle Choke.json
 content/Submissions/Triangle Choke Side.json
@@ -583,7 +572,6 @@ content/Submissions/Twister/from Cross Body Ride.json
 content/Submissions/Twister/from Russian Cowboy.json
 content/Submissions/Twister/from Twister Control.json
 content/Submissions/Twister/from Twister Side Control.json
-content/Submissions/Von Flue Choke.json
 content/Submissions/Von Flue Choke/from Side Control.json
 content/Submissions/Williams Shoulder Lock.json
 content/Submissions/Williams Shoulder Lock/from Williams Guard.json
@@ -674,7 +662,6 @@ content/Transitions/Arm Drag Escape.json
 content/Transitions/Arm Drag Sweep.json
 content/Transitions/Arm Drag from Clinch.json
 content/Transitions/Arm Drag from Clinch Bottom.json
-content/Transitions/Arm Drag from Standing.json
 content/Transitions/Arm Drag to Back.json
 content/Transitions/Arm Extraction.json
 content/Transitions/Arm Extraction and Pass.json
@@ -850,7 +837,6 @@ content/Transitions/Dead Orchard to Darce Switch.json
 content/Transitions/Deashi Harai.json
 content/Transitions/Deep Half Entry.json
 content/Transitions/Deep Half Entry from Flattened.json
-content/Transitions/Deep Half Entry from Half Guard.json
 content/Transitions/Deep Half Sweep.json
 content/Transitions/Deep Half to X-Guard.json
 content/Transitions/Defend Old School Sweep.json
@@ -877,7 +863,6 @@ content/Transitions/Double Sleeve to Spider.json
 content/Transitions/Double Sleeve to Spider Guard.json
 content/Transitions/Double Underhook Pass.json
 content/Transitions/Double Under Pass.json
-content/Transitions/Duck Under.json
 content/Transitions/Duck Under from Clinch.json
 content/Transitions/Elbow Escape from 3-4 Mount.json
 content/Transitions/Elbow Escape from Back.json
@@ -961,7 +946,6 @@ content/Transitions/Front Headlock to Anaconda.json
 content/Transitions/Front Headlock to Back.json
 content/Transitions/Front Headlock to Darce.json
 content/Transitions/Front Headlock to Guillotine.json
-content/Transitions/Ghost Escape.json
 content/Transitions/Ghost Escape from Side Control.json
 content/Transitions/Gift Wrap.json
 content/Transitions/Gift Wrap Arm Recovery.json
@@ -1059,7 +1043,6 @@ content/Transitions/Hip Escape to Guard.json
 content/Transitions/Hip Escape to Turtle.json
 content/Transitions/Hip Rotation Defense.json
 content/Transitions/Hip Rotation Escape from Electric Chair.json
-content/Transitions/Hitchhiker Escape.json
 content/Transitions/Hitchhiker Escape from Armbar.json
 content/Transitions/Homer Simpson Sweep.json
 content/Transitions/Honey Hole to Saddle.json
@@ -1215,7 +1198,6 @@ content/Transitions/Lumberjack Sweep.json
 content/Transitions/Matrix Back Take.json
 content/Transitions/Matrix to Back Control.json
 content/Transitions/Matrix to Side Control.json
-content/Transitions/Mat Return from Rear Clinch.json
 content/Transitions/Mat Return from Standing Rear Clinch.json
 content/Transitions/Mat Return to Back Mount.json
 content/Transitions/Meathook Entry from Rubber Guard.json
@@ -1251,7 +1233,6 @@ content/Transitions/North-South to Kimura.json
 content/Transitions/Old School Pass.json
 content/Transitions/Old School Position Sweep.json
 content/Transitions/Old School Sweep.json
-content/Transitions/Old School Sweep from Bottom.json
 content/Transitions/Old School to Half Guard.json
 content/Transitions/Omoplata Sweep.json
 content/Transitions/Omoplata from Lasso.json
@@ -1330,7 +1311,6 @@ content/Transitions/Progression to Zombie.json
 content/Transitions/Pull Guard from Combat Base.json
 content/Transitions/Pull Guard from Ground.json
 content/Transitions/Pull Guard from Standing.json
-content/Transitions/Pull guard.json
 content/Transitions/Pummeling Escape from Body Lock.json
 content/Transitions/Push Knee and Reguard from Knee on Belly.json
 content/Transitions/Push Sweep from Feet on Hips.json
@@ -1486,7 +1466,6 @@ content/Transitions/Spider Sweep.json
 content/Transitions/Spider to Lasso Guard.json
 content/Transitions/Sprawl.json
 content/Transitions/Sprawl Defense.json
-content/Transitions/Sprawl Defense from Standing.json
 content/Transitions/Sprawl and Disengage.json
 content/Transitions/Squid Guard Entry.json
 content/Transitions/Squid Guard Sweep.json
@@ -1532,7 +1511,6 @@ content/Transitions/Step Over to Mount.json
 content/Transitions/Straighten Leg Defense from Electric Chair.json
 content/Transitions/Straighten Leg Kneebar Defense.json
 content/Transitions/Straight Ankle Lock Entry.json
-content/Transitions/Straight Armbar.json
 content/Transitions/Straight Footlock.json
 content/Transitions/Strip Grip from Zombie.json
 content/Transitions/Strip Lapel from Piranha.json

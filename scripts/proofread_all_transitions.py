@@ -33,6 +33,7 @@ from claude_infer import call_claude as _infer_call_claude
 from _atomic_io import atomic_write_json
 from _prob_norm import largest_remainder_round as _largest_remainder_round
 from _ruleset import reduce_to_scalar  # collapse mirror {gi,nogi} maps at load (calibration-v2)
+from _model import model as _model_tier, effort as _model_effort  # single source of truth: models.env
 
 try:
     from tqdm import tqdm
@@ -50,10 +51,10 @@ SUBMISSIONS_PATH = CONTENT_PATH / "Submissions"
 LOGS_PATH = Path("logs/proofread")
 SUGGESTIONS_CSV = Path("tests/artifacts/suggested_new_files.csv")
 
-CLAUDE_MODEL = "claude-opus-4-8[1m]"
+CLAUDE_MODEL = _model_tier()
 # Reasoning effort (low|medium|high|xhigh|max). Bulk audit is one call per file
 # (~25h for the full corpus at xhigh); scope with --file/--category as needed.
-CLAUDE_EFFORT = "xhigh"
+CLAUDE_EFFORT = _model_effort()
 
 # =============================================================================
 # REFERENCE LIST BUILDING (matches regenerate_content_json.py pattern)

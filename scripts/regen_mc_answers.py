@@ -13,7 +13,7 @@ rules before it is written; a card that fails verification keeps its original te
 
 Usage:
   python3 scripts/regen_mc_answers.py [--max-files N] [--file content/...json]
-                                      [--model claude-fable-5] [--effort medium] [--dry-run]
+                                      [--model MODEL] [--effort medium] [--dry-run]
 Resumable: state in logs/mc_regen/state.json (gitignored).
 """
 
@@ -29,6 +29,7 @@ ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "scripts"))
 from audit_mc_viability import build_neighbors, mc_clip, micro_answer, viable_distractor  # noqa: E402
 from claude_infer import call_claude  # noqa: E402
+from _model import model as _model_tier  # noqa: E402 — single source of truth: models.env
 
 STATE_DIR = ROOT / "logs/mc_regen"
 FLASHCARDS = ROOT / "source/quartz/static/neural/flashcards.json"
@@ -208,7 +209,7 @@ def process_file(path: str, questions: list[str], failing: dict, model: str, eff
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--model", default="claude-fable-5")
+    ap.add_argument("--model", default=_model_tier("deep"))
     ap.add_argument("--effort", default="medium")
     ap.add_argument("--max-files", type=int, default=0)
     ap.add_argument("--file", action="append", default=[])

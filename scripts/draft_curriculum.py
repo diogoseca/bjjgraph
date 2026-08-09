@@ -10,7 +10,7 @@ verified against that inventory before writing — an id the graph doesn't know 
 Output is committed as PROVISIONAL (`"provisional": true`): the owner line-reviews on return;
 scripts/validate_curriculum.py is the hard gate either way.
 
-Usage: python3 scripts/draft_curriculum.py [--model claude-fable-5] [--effort high]
+Usage: python3 scripts/draft_curriculum.py [--model MODEL] [--effort high]
        [--belt white]   (draft/redraft a single belt, preserving the others)
 """
 
@@ -24,6 +24,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "scripts"))
 from claude_infer import call_claude  # noqa: E402
+from _model import model as _model_tier  # noqa: E402 — single source of truth: models.env
 
 GRAPH_DATA = ROOT / "source/quartz/static/neural/graph-data.json"
 FLASHCARDS = ROOT / "source/quartz/static/neural/flashcards.json"
@@ -231,7 +232,7 @@ def load_slim(inventory):
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--model", default="claude-fable-5")
+    ap.add_argument("--model", default=_model_tier("deep"))
     ap.add_argument("--effort", default="high")
     ap.add_argument("--belt", help="redraft one belt id, preserving the rest")
     args = ap.parse_args()

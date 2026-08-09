@@ -14,7 +14,7 @@ verbatim (restore_mc), so this is the single writer.
 
 Usage:
   python3 scripts/author_mc.py [--curriculum-only] [--max-files N] [--file PATH]
-                               [--model claude-fable-5] [--effort medium] [--dry-run]
+                               [--model MODEL] [--effort medium] [--dry-run]
 Then: validate:json → regenerate:graph-base → regenerate:neural → validate:mc → e2e → commit.
 """
 
@@ -35,6 +35,7 @@ from audit_mc_viability import (  # noqa: E402
     viable_distractor_reason,
 )
 from claude_infer import call_claude  # noqa: E402
+from _model import model as _model_tier  # noqa: E402 — single source of truth: models.env
 
 STATE_DIR = ROOT / "logs/mc_author"
 CURRICULUM = ROOT / "source/public/static/neural/curriculum.json"
@@ -209,7 +210,7 @@ def curriculum_files() -> set[str]:
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--model", default="claude-sonnet-5")
+    ap.add_argument("--model", default=_model_tier("fast"))
     ap.add_argument("--effort", default="medium")
     ap.add_argument("--curriculum-only", action="store_true")
     ap.add_argument("--max-files", type=int, default=0)

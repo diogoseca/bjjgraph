@@ -5,42 +5,34 @@ on:
     branches: ["main"]
   workflow_dispatch:
 
+# PRODUCTION deploy: serialize, but NEVER cancel. `wrangler pages deploy` uploads the
+# whole site and only then activates the deployment, and the run continues on into
+# Lighthouse, the graph.json release and the IndexNow submission. Killing a run
+# mid-flight can leave a half-uploaded deployment, a release tag with no assets, or
+# IndexNow pointing at a sitemap that was never published. A newer push therefore
+# QUEUES behind the running deploy instead of superseding it.
+concurrency:
+  group: deploy-prod-${{ github.ref }}
+  cancel-in-progress: false
+
 jobs:
-  build-and-test:
-    runs-on: ubuntu-latest
-    permissions:
-      contents: write
-    steps:
-      - uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4
-        with:
-          fetch-depth: 0
-
-      - name: Setup Node
-        uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
-        with:
-          node-version: 20
-
-      - name: Cache dependencies
-        uses: actions/cache@0057852bfaa89a56745cba8c7296529d2fc39830 # v4
-        with:
-          path: ~/.npm
-          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
-          restore-keys: |
-            ${{ runner.os }}-node-
-
-      - run: npm install
-        working-directory: ./source
-
-      - name: chmod
-        run: chmod +x ./quartz/bootstrap-cli.mjs
-        working-directory: ./source
-
-      - name: Ensure Quartz builds
-        run: npx quartz build --bundleInfo -d ../content
-        working-directory: ./source
-
+  # NB: a `build-and-test` job used to sit here, whose only substantive step was
+  # "Ensure Quartz builds" (`npx quartz build --bundleInfo -d ../content`). It was pure
+  # duplicate work and was deleted in the v1.79.x CI-hardening pass:
+  #   * it uploaded no artifact, and the `deploy` job below checks the SAME commit out on
+  #     a fresh runner and builds it again ("Build Quartz"), so nothing carried over;
+  #   * no step in between consumed its output (the deploy job has no ~/.npm cache step,
+  #     so it never even restored the cache that job populated);
+  #   * measured on run 30773349918: the job cost 4m35s (4m02s of it the build) on an
+  #     18m17s critical path — ~25% of the pipeline — to prove something the deploy job's
+  #     own build proves anyway;
+  #   * worse, it proved it WITHOUT the regenerated Neural payloads (it skipped
+  #     `regenerate:neural`), i.e. against a configuration we never ship, so a green
+  #     result there was weaker evidence than the real build and a red one could have
+  #     blocked a deploy that would have succeeded.
+  # This workflow has no `pull_request` trigger, so no job name in it can be a required
+  # PR status check; deleting the job cannot orphan a branch-protection rule.
   deploy:
-    needs: build-and-test
     env:
       POSTHOG_API_KEY: ${{ secrets.POSTHOG_API_KEY }}
       POSTHOG_API_HOST: ${{ secrets.POSTHOG_API_HOST }}
@@ -136,12 +128,43 @@ jobs:
       - name: Install root dependencies (Playwright test runner)
         run: npm install
 
+      # Key the browser cache on the PLAYWRIGHT VERSION, never on the lockfile hash.
+      # This repo bumps package.json on every commit and package-lock.json mirrors that
+      # version, so a hashFiles('package-lock.json') key changed on essentially every
+      # commit. Verified on run 31319192519: "Cache not found for input keys:
+      # Linux-playwright-f9289ead..." followed at post-job by "Sent 274155745 of
+      # 274155745" — a MISS on every run that still uploaded 261 MiB on every run, i.e.
+      # strictly worse than having no cache at all.
+      # The resolved @playwright/test version is the correct key because it is exactly
+      # what decides which browser revision `npx playwright install` expects, and it
+      # still moves when Playwright is upgraded — so an upgrade can never score an exact
+      # hit on browsers built for the old revision. A restore-keys near-miss is safe for
+      # the same reason: a prefix match leaves `cache-hit` false, so the full install
+      # step below still runs and fetches the correct revision. Do NOT "improve" those
+      # `if:` guards to use cache-matched-key — that is what would resurrect the
+      # revision-mismatch failure this repo has already been bitten by.
+      - name: Resolve Playwright version
+        id: pw-version
+        run: |
+          V="$(node -p "require('@playwright/test/package.json').version" 2>/dev/null || true)"
+          if [ -z "$V" ]; then
+            V="$(node -p "require('./package-lock.json').packages['node_modules/@playwright/test'].version" 2>/dev/null || true)"
+          fi
+          if [ -z "$V" ]; then
+            echo "::error::Could not resolve the @playwright/test version; refusing to key the browser cache on a guess."
+            exit 1
+          fi
+          echo "version=$V" >> "$GITHUB_OUTPUT"
+          echo "Playwright $V"
+
       - name: Cache Playwright browsers
         id: pw-cache
         uses: actions/cache@0057852bfaa89a56745cba8c7296529d2fc39830 # v4
         with:
           path: ~/.cache/ms-playwright
-          key: ${{ runner.os }}-playwright-${{ hashFiles('package-lock.json') }}
+          key: ${{ runner.os }}-playwright-${{ steps.pw-version.outputs.version }}
+          restore-keys: |
+            ${{ runner.os }}-playwright-
 
       - name: Install Playwright browser
         if: steps.pw-cache.outputs.cache-hit != 'true'

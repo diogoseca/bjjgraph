@@ -38,6 +38,7 @@ from _atomic_io import atomic_write_json, atomic_write_text
 from _clips import CONTENT, iter_clips_arrays
 from claude_infer import call_claude
 from peak_throttle import throttle_if_peak
+from _model import model as _model_tier  # single source of truth: models.env
 
 ROOT = Path(__file__).resolve().parent.parent
 WORKDIR = ROOT / "clips_sourcing"
@@ -45,7 +46,7 @@ AUDIT_PATH = WORKDIR / "audit.json"
 TRIAGE_PATH = WORKDIR / "triage.html"
 STATE_PATH = WORKDIR / "state.json"
 
-CLAUDE_MODEL = "claude-opus-4-8[1m]"  # matches source_clips.py
+CLAUDE_MODEL = _model_tier()  # matches source_clips.py
 DEFAULT_EFFORT = "medium"
 BATCH = 50
 
