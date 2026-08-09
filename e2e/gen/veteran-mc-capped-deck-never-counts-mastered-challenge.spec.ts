@@ -154,6 +154,11 @@ test("MC-capping every card leaves masteredDeckCount at 0 through two snapshot r
   // veteran's frontier, so the drill is opened directly on its deckKey.
   await page.evaluate((k) => (window as any).__neural.openStudy(k), TKEY)
   await j.advance(300)
+  // the deck's cards are fetched on demand (v1.80.4); the drill rebuilds when they land
+  await j.decksSettled()
+  await page.waitForFunction(() => ((window as any).__neural.deck || []).length > 0, null, {
+    timeout: 20_000,
+  })
   const qhs: number[] = await page.evaluate(() => {
     const a = (window as any).__neural
     return (a.deck || []).map((c: any) => a.qhash(c.q))
@@ -163,13 +168,26 @@ test("MC-capping every card leaves masteredDeckCount at 0 through two snapshot r
   for (let ci = 0; ci < qhs.length; ci++) {
     for (let round = 0; round < 2; round++) {
       // truth lives in a._mc (surface "deck") — the DOM never carries the correct index
-      const truth = await page.evaluate((q) => {
+      await page.evaluate((q) => (window as any).__neural.presentCard(q), qhs[ci])
+      // v1.80.4: the block mounts once its distractor pool is resident, so the truth rail and
+      // the rendered options only agree AFTER it exists — reading both in the same evaluate as
+      // presentCard could catch the previous card's block still on screen.
+      await page
+        .waitForFunction(
+          (q) => {
+            const m = (window as any).__neural._mc
+            return !!(m && m.qhash === q)
+          },
+          qhs[ci],
+          { timeout: 20_000 },
+        )
+        .catch(() => {})
+      const truth = await page.evaluate(() => {
         const a = (window as any).__neural
-        a.presentCard(q)
         return a._mc
           ? { correct: a._mc.correct, surface: a._mc.surface, qhash: a._mc.qhash }
           : null
-      }, qhs[ci])
+      })
       expect(truth, `card ${ci + 1} round ${round + 1}: presents as sidebar MC`).toBeTruthy()
       expect(truth!.surface, "the block is the deck surface, not the landing card").toBe("deck")
       expect(truth!.qhash, "the live block is the presented card").toBe(qhs[ci])

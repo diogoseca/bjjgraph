@@ -997,6 +997,7 @@ class Component extends DCLogic {
     this._posKey = this.drillEntries[0].info.key;
     this.activeDrill = 0; this.deckIdx = 0; this.revealed = false;
     this._session = null;
+    this._studyOpen = null;   // a new roll state retires any study surface (see _paneStudyActive)
     this._drillView = "home";
     // roll advance refreshes the History body ONLY when History is the shown tab — an open
     // Explore search or Challenges scroll must never be stomped by the roll loop
@@ -1076,7 +1077,11 @@ class Component extends DCLogic {
   //  · tabs mode — knowledge header + Explore|Challenges|History nav + the active tab's body
   //  · study takeover — a live deck/session/checkpoint owns the pane; nav hides so the quiz
   //    can't be walked away from mid-question by a stray tab click (Esc/✕/‹Back still exit)
-  _paneStudyActive() { return !!(this.deck || this._session || this._checkpoint); }
+  // `_studyOpen` is the seam for a study surface whose CARDS HAVE NOT ARRIVED YET (v1.80.4).
+  // Without it, an open-but-cold deck reads as "not a study surface", so the coalesced
+  // post-hydration refresh ran buildDrillPanel and stomped the very surface the user opened —
+  // the same class of bug as onFlashcardsReady's, one layer down.
+  _paneStudyActive() { return !!(this.deck || this._session || this._checkpoint || this._studyOpen); }
   _layoutPane() {
     const panel = this.drillRef.current; if (!panel) return;
     const study = this._paneStudyActive();
@@ -1106,7 +1111,7 @@ class Component extends DCLogic {
   _exitStudyTo(view) {
     if (this._mcAdvT) { clearTimeout(this._mcAdvT); this._mcAdvT = null; } // leaving the card view cancels the pending advance
     if (this._checkpoint) this._cancelCheckpoint();
-    this.deck = null; this._session = null; this._sessionNodes = null; this._inSession = false;
+    this.deck = null; this._studyOpen = null; this._session = null; this._sessionNodes = null; this._inSession = false;
     this._drillView = "home";
     const target = view || this._paneReturnTab || "history";
     if (this._viewMode !== target) this.setViewMode(target);
@@ -1178,7 +1183,7 @@ class Component extends DCLogic {
     if (this._mcAdvT) { clearTimeout(this._mcAdvT); this._mcAdvT = null; } // leaving the card view cancels the pending advance
     this._drillView = "home";
     if (this._checkpoint) this._cancelCheckpoint(); // walking home mid-quiz abandons it (same as ✕/Esc)
-    this.deck = null; this._session = null; // home = tabs mode, not study takeover
+    this.deck = null; this._studyOpen = null; this._session = null; // home = tabs mode, not study takeover
     if (this._viewMode !== "history") this.setViewMode("history");
     this.deckReady = true; this.deckOpen = true;
     this.applyDeckVisibility();
@@ -1354,7 +1359,7 @@ class Component extends DCLogic {
     // "Study this state" lands in the flashcards home (History tab), focused on the CURRENT state's
     // deck (even if its cards aren't authored yet — the row shows the scaffold). Never falls back
     // to a previous state.
-    this._drillView = "home"; this.deck = null; this._session = null;
+    this._drillView = "home"; this.deck = null; this._studyOpen = null; this._session = null;
     if (this._checkpoint) this._cancelCheckpoint();
     if (this._viewMode !== "history") this.setViewMode("history");
     const rl = this.rollLog || [];
@@ -2256,6 +2261,9 @@ class Component extends DCLogic {
   }
   openStudy(key) {
     // open the drill sidebar focused on this deck, regardless of current state
+    // (same on-demand residency rule as studyFromSession: a study surface IS its cards)
+    this._studyOpen = key;
+    if (!this._deckResident(key)) this.hydrateDeck(key).then(() => this._restudy(key));
     this.drillEntries = [this._entryForKey(key)];
     this._posKey = key; this.activeDrill = 0; this.deckIdx = 0; this.revealed = false;
     this.renderDrill(); this.deckReady = true; this.deckOpen = true; this.applyDeckVisibility();
@@ -2342,6 +2350,7 @@ class Component extends DCLogic {
     // land. This cannot be left to _onDeckHydrated: when the deck is ALREADY in flight (the
     // warm sweep started it), its hydration event fires before this entry exists, so nothing
     // would ever refresh the snapshot and the surface would sit on "being authored" for good.
+    this._studyOpen = key;
     if (!this._deckResident(key)) this.hydrateDeck(key).then(() => this._restudy(key));
     this.drillEntries = [this._entryForKey(key)];
     this._posKey = key; this.activeDrill = 0; this.deckIdx = 0; this.revealed = false;
@@ -5567,7 +5576,7 @@ class Component extends DCLogic {
       if (this.deckOpen) {
         const L = this.rollLog.length - 1;
         this._openRow = "c" + L; this._focusRow = "c" + L;
-        this._drillView = "home"; this.deck = null;
+        this._drillView = "home"; this.deck = null; this._studyOpen = null;
       }
     }
     this._openLatestOnLand = false;

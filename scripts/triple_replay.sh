@@ -26,6 +26,14 @@ for i in $(seq 1 "$RUNS"); do
   REPLAY_RUN="$i" PLAYWRIGHT_JSON_OUTPUT_NAME="$OUT/run-$i.json" \
     flock /tmp/bjj-pw.lock npx playwright test --config e2e/playwright.config.ts \
     $SPECS --reporter=json >"$OUT/raw-$i.json" 2>"$OUT/err-$i.txt" || fail=1
+  # A killed or crashed run must ABORT, never be reported as "differs": a missing report is an
+  # infrastructure fact, and calling it a determinism divergence sends the reader hunting a bug
+  # that is not there. (Seen for real: a run cut off after 3 of 27 tests.)
+  if [ ! -s "$OUT/run-$i.json" ]; then
+    echo "✗ replay $i produced NO report — the run was killed or crashed, not a divergence."
+    echo "  stdout tail:"; tail -5 "$OUT/raw-$i.json" 2>/dev/null | sed 's/^/    /'
+    exit 2
+  fi
   # normalise: keep only the test identity + outcome, drop every duration/timestamp/attachment
   python3 - "$OUT/run-$i.json" "$OUT/digest-$i.txt" <<'PY'
 import json, sys, re

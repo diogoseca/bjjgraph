@@ -211,11 +211,13 @@ test("demoting recalled decks drops score and crowns while master-three, its rat
 
   // ── DEMOTE two weighted decks card-by-card through the app's own downgrade seam. ──
   const demoted = await page.evaluate(
-    ({ keys, held }) => {
+    async ({ keys, held }) => {
       const a = (window as any).__neural
+      // the cards to demote must be resident first (on-demand residency, v1.80.4)
+      await a.hydrateDecks(keys as string[])
       const stages: number[] = []
       for (const k of keys as string[])
-        for (const c of a.flashcards.decks[k].cards) stages.push(a._bumpStage(k, c.q, -1))
+        for (const c of a._cardsOf(a.flashcards.decks[k]) || []) stages.push(a._bumpStage(k, c.q, -1))
       const snap = a._challengeSnapshot()
       return {
         stages,
