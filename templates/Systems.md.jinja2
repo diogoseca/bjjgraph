@@ -109,8 +109,15 @@ description: "{{description}}"
 
 </section>
 
-{% if products %}
 {% set member_count = (related_content | rejectattr('content_type', 'equalto', 'System') | list | length) %}
+{# Only a product whose affiliate_url was OPENED and confirmed to resolve to that exact
+   instructional may render (content/Systems/*.json → link_status: "live", link_checked: date).
+   A missing or non-"live" status renders NOTHING and falls through to the free study section
+   below: a 404 or a guessed link earns nothing and costs trust, so an empty slot is the honest
+   default. Fail-safe by construction — a new product without a verification date cannot ship a
+   CTA. See docs/Affiliate.md. #}
+{% set live_products = (products or []) | selectattr('link_status', 'defined') | selectattr('link_status', 'equalto', 'live') | list %}
+{% if live_products %}
 <section id="unlock-this-system" class="content-section product-cards">
 
 ## Unlock This System
@@ -119,12 +126,14 @@ description: "{{description}}"
 
 <!-- PROXIMATE AFFILIATE DISCLOSURE — required HERE, not only in terms.md. FTC 16 CFR Part 255
      and the UK ASA/CAP code both require it clear, conspicuous and close to the link. Placed
-     above the cards so a reader who scans only the card still sees it. Keep the wording in sync
-     with the app CTA disclosure in neural/src/app.src.jsx. -->
+     above the cards so a reader who scans only the card still sees it. CANONICAL WORDING lives
+     in docs/Affiliate.md; the app CTA in neural/src/app.src.jsx carries the same sentence, and
+     scripts/check_affiliate_surface.py fails the build if the copies drift or if a sponsored
+     link ever renders without its disclosure above it. -->
 <p class="affiliate-disclosure">BJJGraph earns a commission if you buy through this link, at no extra cost to you. It never changes what the graph teaches.</p>
 
 <div class="product-cards-grid">
-{% for p in products %}
+{% for p in live_products %}
 <article class="product-card" data-product-id="{{ p.id | default('') }}">
 <div class="product-card__holo" aria-hidden="true"></div>
 <div class="product-card__shine" aria-hidden="true"></div>
@@ -135,10 +144,29 @@ description: "{{description}}"
 <span class="product-card__unlocks-badge">Unlocks {{ member_count }} technique{{ 's' if member_count != 1 else '' }} in this system</span>
 {% if p.blurb %}<p class="product-card__blurb">{{ p.blurb }}</p>{% endif %}
 </div>
-<a class="product-card__cta affiliate-link" href="{{ p.affiliate_url | with_utm(name, p.id | default('')) }}" target="_blank" rel="sponsored nofollow noopener" data-affiliate="true" data-product-id="{{ p.id | default('') }}" data-system-slug="systems/{{ name | slugify }}" data-system-name="{{ name }}" data-vendor="{{ (p.vendor | default('bjjfanatics')) | lower }}" data-position="{{ loop.index0 }}">{% if p.price_usd %}Get it &middot; ${{ p.price_usd }}{% else %}Get the instructional{% endif %} <span class="product-card__cta-arrow" aria-hidden="true">&#8594;</span></a>
+<a class="product-card__cta affiliate-link" href="{{ p.affiliate_url | with_utm(name, p.id | default('')) }}" target="_blank" rel="sponsored nofollow noopener" data-affiliate="true" data-product-id="{{ p.id | default('') }}" data-system-slug="systems/{{ name | slugify }}" data-system-name="{{ name }}" data-vendor="{{ (p.vendor | default('bjjfanatics')) | lower }}" data-position="{{ loop.index0 }}">{# NO PRICE IN THE LABEL. price_usd is authored reference data we cannot keep fresh — every
+   value on file was wrong (by up to 3.6x) when checked against the vendor on 2026-08-09, and
+   "Get it · $97" landing on a $349 checkout is the same broken promise as a dead link. The
+   vendor's own page is the only truthful price surface. #}Get the instructional <span class="product-card__cta-arrow" aria-hidden="true">&#8594;</span></a>
 </article>
 {% endfor %}
 </div>
+
+</section>
+{% else %}
+{# NO VERIFIED PRODUCT — the common case (44 of 47 systems). The page must still look finished
+   and still teach, so the slot the product cards would have filled carries the FREE next step
+   instead of an empty region. Deliberately no outbound vendor link: a generic shop URL nobody
+   verified would be exactly the guess this pipeline forbids. #}
+<section id="study-this-system" class="content-section system-study-free">
+
+## How do you drill {{name}}?
+
+<p class="section-subtitle">There's no instructional attached to this system yet &mdash; and you don't need one. It's taught here, free, from the {{member_count}} technique{{ 's' if member_count != 1 else '' }} it strings together.</p>
+
+- **Learn it in order** &mdash; the [implementation sequence](#implementation-sequence) is the path, not a list.
+- **Study each piece** &mdash; every technique in [this system's map](#related-content) has its own page, flashcards and film study.
+- **Then roll it** &mdash; on the [interactive graph](/) these same nodes light up as your game moves through them.
 
 </section>
 {% endif %}

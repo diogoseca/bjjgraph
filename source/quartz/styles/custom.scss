@@ -4877,6 +4877,28 @@ body.graph-focused #roll-session-btn {
   }
 }
 
+// --- The no-product surface (44 of 47 systems) ---
+// Takes the slot the product cards would have filled, so a system with no VERIFIED instructional
+// still reads as finished instead of ending on a gap. Everything it offers is free and internal —
+// a generic vendor link nobody verified is exactly the guess docs/Affiliate.md forbids.
+.system-study-free {
+  border: 1px solid var(--lightgray);
+  border-left: 3px solid var(--secondary);
+  border-radius: 8px;
+  padding: 0.4rem 1.2rem 0.9rem;
+  background: var(--light);
+
+  h2 {
+    margin-top: 0.8rem;
+  }
+  ul {
+    margin-bottom: 0.2rem;
+  }
+  li + li {
+    margin-top: 0.35rem;
+  }
+}
+
 // --- Pokémon-style affiliate product cards (system pages only) ---
 .product-cards {
   .product-cards-grid {

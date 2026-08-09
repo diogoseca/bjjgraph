@@ -414,12 +414,28 @@
         "additionalProperties": false,
         "required": [
           "title",
-          "affiliate_url"
+          "affiliate_url",
+          "link_status",
+          "link_checked"
         ],
         "properties": {
           "id": {
             "type": "string",
             "description": "Stable kebab-case identifier, unique across all products"
+          },
+          "link_status": {
+            "type": "string",
+            "enum": [
+              "live",
+              "dead",
+              "unverified"
+            ],
+            "description": "Outcome of the LAST human/tooling check that this affiliate_url resolves to THIS instructional. Only 'live' is rendered — anything else degrades the system to its no-product surface, because a 404 or an unchecked guess earns nothing and costs trust. Required so a product can never ship on nobody's verification."
+          },
+          "link_checked": {
+            "type": "string",
+            "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$",
+            "description": "ISO date (YYYY-MM-DD) the affiliate_url was last opened and confirmed. Re-check periodically: vendor handles get renamed and products get retired."
           },
           "title": {
             "type": "string"
@@ -445,7 +461,8 @@
             "description": "Short 'what it unlocks' marketing line"
           },
           "price_usd": {
-            "type": "number"
+            "type": "number",
+            "description": "Reference price only — NOT rendered. Vendor prices change (and every value here was wrong by up to 3.6x when checked 2026-08-09), and a CTA that promises $97 for a $349 checkout is the same broken promise as a dead link. See docs/Affiliate.md."
           },
           "covers": {
             "type": "array",

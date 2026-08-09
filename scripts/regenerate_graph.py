@@ -977,7 +977,7 @@ def process_systems(content_dir: Path, node_index: dict | None = None) -> dict:
     `members[]` is derived from related_content (the canonical edge list): each
     Position/Transition/Submission/Principle reference is resolved to its node id so
     a System page can highlight exactly the part of the graph it teaches. `products[]`
-    is curated affiliate data passed through verbatim.
+    is curated affiliate data, passed through MINUS `affiliate_url` (see below).
     """
     systems = _process_flat_content(content_dir, 'Systems')
     if node_index is None:
@@ -1019,7 +1019,22 @@ def process_systems(content_dir: Path, node_index: dict | None = None) -> dict:
         entry['members'] = members
         products = data.get('products')
         if isinstance(products, list) and products:
-            entry['products'] = products
+            # NO AFFILIATE URL IN graph.json. Unlike every other emitted artifact, graph.json is
+            # COMMITTED and lands in a PUBLIC repo (raw.githubusercontent serves it), and no
+            # consumer reads the URL: renderPage.tsx uses len(products) only, trainingData.ts
+            # ignores products entirely, and apply_affiliate_ref.py deliberately does not target
+            # this file. So the URL here is dead weight that can only cause harm — today it
+            # publishes a `?ref=REPLACE_ME` link that would earn nothing if anyone ever wired it
+            # up, and stamping the real ref into a committed file would publish the revenue
+            # identifier into git history forever, which is the exact failure the placeholder
+            # design exists to prevent. `has_affiliate_url` keeps the fact without the payload.
+            entry['products'] = [
+                dict(
+                    {k: v for k, v in p.items() if k != 'affiliate_url'},
+                    has_affiliate_url=bool(p.get('affiliate_url')),
+                ) if isinstance(p, dict) else p
+                for p in products
+            ]
 
     return systems
 

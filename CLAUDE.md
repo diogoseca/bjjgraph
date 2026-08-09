@@ -613,12 +613,30 @@ Every submission MUST include:
 A System may recommend an instructional. Only the MECHANICS live in this public repo — commercial
 terms, partner strategy and the ref itself are deliberately kept out of it.
 
+**`docs/Affiliate.md` is the canonical spec** — disclosure wording, link-verification rule, funnel
+and UTM contract. `scripts/check_affiliate_surface.py` (`npm run validate:affiliate`, wired into both
+deploy workflows) + `e2e/journeys/systems-surface.spec.ts` gate all of it.
+
 - **Products live in content JSON** — `content/Systems/<System>.json` → `products[]`
-  (`id`, `title`, `instructor`, `vendor`, `affiliate_url`, `image`, `blurb`, `price_usd`). Rendered by
-  `templates/Systems.md.jinja2` and served to the Neural app via
+  (`id`, `title`, `instructor`, `vendor`, `affiliate_url`, `link_status`, `link_checked`, `image`,
+  `blurb`, `price_usd`). Rendered by `templates/Systems.md.jinja2` and served to the Neural app via
   `source/quartz/static/neural/systems.json` (emitted by `scripts/regenerate_neural_data.py`).
 - **Never invent a product URL.** Every `affiliate_url` is opened and confirmed to resolve to that
   instructional before being committed. A fabricated vendor link is a broken promise and earns nothing.
+- **Only a verified link renders** (v1.83.0): `link_status` (`live`/`dead`/`unverified`) +
+  `link_checked` (ISO date) are schema-REQUIRED, and only `live` survives into the page
+  (`live_products`) or the app payload (`_products`). Anything else degrades the system to
+  `#study-this-system` — a finished, free "how do you drill this" surface, which is the case for 44
+  of 47 systems. Verified 2026-08-09: 2 of the 3 authored URLs were already 404.
+- **`price_usd` is NOT rendered.** Vendor prices drift (all three on file were wrong, one by 3.6x),
+  and "Get it · $97" landing on a $349 checkout is the same broken promise as a dead link.
+- **`graph.json` never carries `affiliate_url`.** It is the one COMMITTED artifact, in a public repo,
+  and the stamp deliberately does not target it — so `regenerate_graph.py` emits products minus the
+  URL plus `has_affiliate_url`. Nothing read it (`renderPage.tsx` counts renderable products only).
+- **The funnel is one event on both surfaces:** `affiliate_clickout`, delegated on
+  `a[data-affiliate="true"]`, with the UTM convention
+  `utm_source=bjjgraph&utm_medium=affiliate&utm_campaign=systems&utm_content=<system-slug>&utm_term=<product-id>`.
+  The app carried neither until v1.83.0, so the default variant was invisible to the documented funnel.
 - **The ref is injected at deploy time, never committed.** Content carries the literal
   `?ref=REPLACE_ME`; `scripts/apply_affiliate_ref.py` substitutes `$AFFILIATE_REF` (a repo secret)
   into EMITTED artifacts only — `source/public/**` and the Neural `systems.json` — never into
@@ -628,7 +646,9 @@ terms, partner strategy and the ref itself are deliberately kept out of it.
 - **Proximate disclosure is mandatory and is rendered from two places** — the app CTA shelf
   (`[data-affiliate-disclosure]` in `neural/src/app.src.jsx`) and `templates/Systems.md.jinja2`,
   above the product cards. FTC 16 CFR 255 and UK ASA/CAP require it close to the link; a site-wide
-  statement in `content/terms.md` is the backstop, not the disclosure. Keep both copies identical.
+  statement in `content/terms.md` is the backstop, not the disclosure. Both copies must equal the
+  canonical block in `docs/Affiliate.md` and render above the link, same block, uncollapsed — asserted
+  offline by `check_affiliate_surface.py` and in a real browser by `systems-surface.spec.ts`.
 ## 8. RESOURCES
 
 ### Project Links
@@ -664,6 +684,7 @@ terms, partner strategy and the ref itself are deliberately kept out of it.
 | `docs/Architecture.md` | JSON pipeline, Position model |
 | `docs/Content.md` | Full content standards, validation rules |
 | `docs/SEO.md` | Schema markup, keywords, analytics setup |
+| `docs/Affiliate.md` | Disclosure wording (canonical), link-verification rule, affiliate funnel + UTM |
 
 ### Deployment
 

@@ -3094,6 +3094,24 @@ class Component extends DCLogic {
   closeSystem() { this.clearFocus(); this.showExplorerList(); }
   // authored copy reaches innerHTML through here
   escHTML(v) { return String(v == null ? "" : v).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;"); }
+  // "Systems/Danaher-Leg-Lock-System" -> "danaher-leg-lock-system": the same slug the generated
+  // page puts in data-system-slug / utm_content, so one campaign report covers both surfaces.
+  systemSlug(s) { return String((s && s.id) || "").split("/").pop().toLowerCase(); }
+  // The authored affiliate URL plus BJJGraph's own UTM tags — nothing else. Mirrors
+  // scripts/regenerate_md_from_json.py::_with_utm exactly (same keys, same order, same slug
+  // casing) and never touches the vendor's existing query, so the deploy-time ?ref= stamp
+  // (scripts/apply_affiliate_ref.py) still finds and rewrites the placeholder it owns.
+  affiliateHref(url, s, p) {
+    if (!url) return url;
+    const q = [
+      "utm_source=bjjgraph",
+      "utm_medium=affiliate",
+      "utm_campaign=systems",
+      "utm_content=" + encodeURIComponent(this.systemSlug(s)),
+    ];
+    if (p && p.id) q.push("utm_term=" + encodeURIComponent(p.id));
+    return url + (url.indexOf("?") >= 0 ? "&" : "?") + q.join("&");
+  }
   renderSystemDetail(list, id, mk) {
     const s = this._systemsById[id]; if (!s) return;
     const E = (v) => this.escHTML(v);
@@ -3111,7 +3129,10 @@ class Component extends DCLogic {
     card.innerHTML = "<h2>" + E(s.name) + '</h2><div class="ng-system-meta">' + meta.join(" \u00b7 ") + "</div>" + (s.summary ? "<p>" + E(s.summary) + "</p>" : "");
     list.appendChild(card);
     // Course CTA, ONLY for a system that carries an authored product: a placeholder or a guessed
-    // link here would be a dead promise to a reader who trusted the recommendation.
+    // link here would be a dead promise to a reader who trusted the recommendation. The payload
+    // itself is already filtered to products whose URL was opened and confirmed
+    // (content/Systems/*.json link_status:"live" — see regenerate_neural_data._products); this
+    // shape check is the second belt, so a malformed entry renders nothing rather than a dead CTA.
     const products = (Array.isArray(s.products) ? s.products : []).filter((p) => p && typeof p.url === "string" && /^https?:\/\//i.test(p.url));
     if (products.length) {
       const shelf = document.createElement("div");
@@ -3129,19 +3150,33 @@ class Component extends DCLogic {
         "BJJGraph earns a commission if you buy through this link, at no extra cost to you. " +
         "It never changes what the graph teaches.";
       shelf.appendChild(disc);
-      for (const p of products) {
+      // The DISCLOSURE IS APPENDED FIRST, above every anchor in this shelf, on purpose: a
+      // monetised link then structurally cannot render without it. e2e/journeys/systems-surface
+      // asserts that order in the live DOM and scripts/check_affiliate_surface.py asserts it in
+      // this source \u2014 the compliance claim is gated, not merely intended.
+      products.forEach((p, i) => {
         const a = document.createElement("a");
         a.className = "ng-system-cta";
         a.setAttribute("data-system-cta", "1");
-        a.href = p.url;                       // authored in content/Systems/*.json, never synthesized
+        // Same funnel contract as the generated page (templates/Systems.md.jinja2): the app is the
+        // DEFAULT variant, so without these it is invisible to the documented affiliate funnel \u2014
+        // data-affiliate is what affiliateTracking.inline.ts delegates `affiliate_clickout` on,
+        // and the UTM convention is what separates app clicks from legacy-page clicks vendor-side.
+        a.setAttribute("data-affiliate", "true");
+        a.setAttribute("data-product-id", p.id || "");
+        a.setAttribute("data-system-slug", "systems/" + this.systemSlug(s));
+        a.setAttribute("data-system-name", s.name || "");
+        a.setAttribute("data-vendor", String(p.vendor || "bjjfanatics").toLowerCase());
+        a.setAttribute("data-position", String(i));
+        a.href = this.affiliateHref(p.url, s, p);  // authored URL + utm only; never synthesized
         a.target = "_blank";
-        a.rel = "noopener sponsored";
+        a.rel = "sponsored nofollow noopener";     // byte-for-byte the page's rel
         a.style.pointerEvents = "auto";
         a.innerHTML = "<span><small>LEARN IT FROM THE SOURCE</small><b>" + E(p.name || "See the course") + "</b>" +
           (p.instructor ? "<em>" + E(p.instructor) + "</em>" : "") + '</span><i aria-hidden="true">\u2197</i>';
-        a.addEventListener("click", () => this.track("neural_system_course_clicked", { system: s.name, course: p.name || null, instructor: p.instructor || null }));
+        a.addEventListener("click", () => this.track("neural_system_course_clicked", { system: s.name, course: p.name || null, instructor: p.instructor || null, product_id: p.id || null, position: i }));
         shelf.appendChild(a);
-      }
+      });
       list.appendChild(shelf);
     }
     // ── THE GLUE ── A system is not a node and not merely a set of nodes: it is the set plus the

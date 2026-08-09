@@ -163,6 +163,8 @@ What distinguishes this system is its adaptability to different guard types whil
 
 
 
+
+
 <section id="unlock-this-system" class="content-section product-cards">
 
 ## Unlock This System
@@ -171,8 +173,10 @@ What distinguishes this system is its adaptability to different guard types whil
 
 <!-- PROXIMATE AFFILIATE DISCLOSURE — required HERE, not only in terms.md. FTC 16 CFR Part 255
      and the UK ASA/CAP code both require it clear, conspicuous and close to the link. Placed
-     above the cards so a reader who scans only the card still sees it. Keep the wording in sync
-     with the app CTA disclosure in neural/src/app.src.jsx. -->
+     above the cards so a reader who scans only the card still sees it. CANONICAL WORDING lives
+     in docs/Affiliate.md; the app CTA in neural/src/app.src.jsx carries the same sentence, and
+     scripts/check_affiliate_surface.py fails the build if the copies drift or if a sponsored
+     link ever renders without its disclosure above it. -->
 <p class="affiliate-disclosure">BJJGraph earns a commission if you buy through this link, at no extra cost to you. It never changes what the graph teaches.</p>
 
 <div class="product-cards-grid">
@@ -187,7 +191,7 @@ What distinguishes this system is its adaptability to different guard types whil
 <span class="product-card__unlocks-badge">Unlocks 17 techniques in this system</span>
 <p class="product-card__blurb">Gordon Ryan's complete pressure-passing blueprint — body lock passing, leg drags, and the connection-breaking concepts behind them.</p>
 </div>
-<a class="product-card__cta affiliate-link" href="https://bjjfanatics.com/products/systematically-attacking-the-guard-by-gordon-ryan?ref=REPLACE_ME&utm_source=bjjgraph&utm_medium=affiliate&utm_campaign=systems&utm_content=gordon-ryan-passing-system&utm_term=gordon-ryan-systematically-attacking-the-guard" target="_blank" rel="sponsored nofollow noopener" data-affiliate="true" data-product-id="gordon-ryan-systematically-attacking-the-guard" data-system-slug="systems/gordon-ryan-passing-system" data-system-name="Gordon Ryan Passing System" data-vendor="bjjfanatics" data-position="0">Get it &middot; $97 <span class="product-card__cta-arrow" aria-hidden="true">&#8594;</span></a>
+<a class="product-card__cta affiliate-link" href="https://bjjfanatics.com/products/systematically-attacking-the-guard-by-gordon-ryan?ref=REPLACE_ME&utm_source=bjjgraph&utm_medium=affiliate&utm_campaign=systems&utm_content=gordon-ryan-passing-system&utm_term=gordon-ryan-systematically-attacking-the-guard" target="_blank" rel="sponsored nofollow noopener" data-affiliate="true" data-product-id="gordon-ryan-systematically-attacking-the-guard" data-system-slug="systems/gordon-ryan-passing-system" data-system-name="Gordon Ryan Passing System" data-vendor="bjjfanatics" data-position="0">Get the instructional <span class="product-card__cta-arrow" aria-hidden="true">&#8594;</span></a>
 </article>
 
 </div>
