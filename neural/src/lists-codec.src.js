@@ -12,13 +12,27 @@
 //  2. Decoding is for UNTRUSTED input (a URL a stranger pasted). Nothing here throws on
 //     decode — it returns {ok:false, error}. Recipients degrade, they never crash.
 //
-// Format v1, bytes:
-//     [0x01] varint(d0) varint(d1) …            base64url, unpadded
+// Format v2 (current), bytes:
+//     [0x02] varint(n-1) varint(d0) varint(d1) … varint(d(n-1))     base64url, unpadded
 //   ordinals are sorted ascending and unique; d0 = o0, di = oi - o(i-1) - 1.
 //   The "-1" is what makes duplicates and out-of-order sets UNREPRESENTABLE, so the
 //   encoding is CANONICAL: one set of nodes has exactly one spelling, on every device.
 //   That canonicality is also what makes analytics work — creator and recipient events
 //   join on ngListShareId(code) for free, with no server round-trip.
+//
+//   `n` is the ITEM COUNT and it exists for exactly one reason: TRUNCATION MUST BE
+//   DETECTABLE. WhatsApp, Telegram and mail clients clip and re-wrap long URLs — a real
+//   event, not a theoretical one. Under v1 (no count, no checksum) a clipped code decoded
+//   perfectly cleanly into a strict PREFIX of the class: measured, 198 of 955 prefixes of
+//   real 2-13 item codes decoded silently, one of them turning a 12-technique class into a
+//   1-technique one. With the count, the payload must hold EXACTLY n deltas and end there,
+//   so every clipped code fails as `count_mismatch` / `truncated_varint` and the recipient
+//   is told the link arrived damaged. Cost: ONE byte (2 base64 chars) per link.
+//
+//   Format v1 = the same thing without the count byte. It still DECODES (a code is a
+//   permanent promise — links already pasted into group chats keep working) but is never
+//   minted. Canonicality is per-version, and only v2 is ever emitted, so every code this
+//   app produces is still the one spelling of its set.
 //
 // THREE CONSUMERS, ONE SOURCE: this file is a real ES module. `node --test` imports it
 // directly (tests/share_lists_codec.test.mjs); a Cloudflare Pages Function can import it
@@ -26,7 +40,11 @@
 // concatenates the file into the browser IIFE (it asserts the strip worked). Do not add
 // `import` statements here — the bundle path cannot resolve them.
 
-export const NG_LIST_WIRE_VERSION = 1;
+export const NG_LIST_WIRE_VERSION = 2;
+
+// Versions this build can READ. Encoding always uses NG_LIST_WIRE_VERSION; decoding accepts
+// every version ever minted, forever, for the same reason ordinals are never reused.
+export const NG_LIST_WIRE_VERSIONS_READ = [1, 2];
 
 // A gym class is 3-8 techniques. 60 is generous headroom and bounds the decoder's work.
 export const NG_LIST_MAX_ITEMS = 60;
@@ -141,6 +159,7 @@ export function ngListEncodeOrdinals(ordinals) {
     throw new Error(`ngListEncodeOrdinals: ${sorted.length} items exceeds the cap of ${NG_LIST_MAX_ITEMS}`);
   }
   const bytes = [NG_LIST_WIRE_VERSION];
+  pushVarint(bytes, sorted.length - 1); // count-1: a 0-item list is unrepresentable
   let prev = -1;
   for (const o of sorted) {
     pushVarint(bytes, o - prev - 1);
@@ -159,33 +178,53 @@ export function ngListDecodeOrdinals(code) {
   const bytes = b64urlToBytes(code);
   if (!bytes) return { ok: false, error: "not_base64url" };
   if (bytes.length < 2) return { ok: false, error: "truncated" };
-  if (bytes[0] !== NG_LIST_WIRE_VERSION) return { ok: false, error: "bad_version" };
+  const version = bytes[0];
+  if (NG_LIST_WIRE_VERSIONS_READ.indexOf(version) < 0) return { ok: false, error: "bad_version" };
 
-  const ordinals = [];
-  let prev = -1;
   let i = 1;
-  while (i < bytes.length) {
-    let delta = 0;
+  // one varint reader for the count and the deltas: the same minimality rule must apply to
+  // both, or the count byte becomes a second spelling of a set.
+  const readVarint = () => {
+    let value = 0;
     let shift = 1;
     let consumed = 0;
     for (;;) {
-      if (i >= bytes.length) return { ok: false, error: "truncated_varint" };
+      if (i >= bytes.length) return { error: consumed ? "truncated_varint" : "out_of_bytes" };
       const b = bytes[i++];
       consumed++;
-      if (consumed > 4) return { ok: false, error: "varint_overflow" };
-      delta += (b & 0x7f) * shift;
+      if (consumed > 4) return { error: "varint_overflow" };
+      value += (b & 0x7f) * shift;
       if (!(b & 0x80)) break;
       shift *= 128;
     }
-    if (consumed > 1 && bytes[i - 1] === 0) return { ok: false, error: "non_canonical_varint" };
-    const ordinal = prev + 1 + delta;
+    if (consumed > 1 && bytes[i - 1] === 0) return { error: "non_canonical_varint" };
+    return { value };
+  };
+
+  // v2 declares the item count up front — that declaration is the truncation detector.
+  let declared = null;
+  if (version >= 2) {
+    const c = readVarint();
+    if (c.error) return { ok: false, error: c.error === "out_of_bytes" ? "count_mismatch" : c.error };
+    declared = c.value + 1;
+    if (declared > NG_LIST_MAX_ITEMS) return { ok: false, error: "too_many_items" };
+  }
+
+  const ordinals = [];
+  let prev = -1;
+  while (declared == null ? i < bytes.length : ordinals.length < declared) {
+    const d = readVarint();
+    // out_of_bytes here means the wire promised N items and delivered fewer: a clipped link.
+    if (d.error) return { ok: false, error: d.error === "out_of_bytes" ? "count_mismatch" : d.error };
+    const ordinal = prev + 1 + d.value;
     if (ordinal > MAX_ORDINAL) return { ok: false, error: "ordinal_out_of_range" };
     ordinals.push(ordinal);
     prev = ordinal;
     if (ordinals.length > NG_LIST_MAX_ITEMS) return { ok: false, error: "too_many_items" };
   }
+  if (declared != null && i !== bytes.length) return { ok: false, error: "trailing_bytes" };
   if (ordinals.length === 0) return { ok: false, error: "empty_list" };
-  return { ok: true, ordinals, version: NG_LIST_WIRE_VERSION };
+  return { ok: true, ordinals, version };
 }
 
 // ---------------------------------------------------------------- ids <-> code

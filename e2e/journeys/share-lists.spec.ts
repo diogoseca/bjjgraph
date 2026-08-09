@@ -47,6 +47,26 @@ const openExplore = async (page: Page) => {
   await page.locator("[data-view='explore']").click();
 };
 
+/** Same, but tolerant of the pane ALREADY being open (the logo is a toggle, so clicking it on
+ *  an open pane closes it — and the app itself opens the pane on some share-link arrivals). */
+const ensureExplore = async (page: Page) => {
+  if (!(await page.evaluate(() => !!(window as any).__neural.deckShown)))
+    await page.locator(".ng-logo").click();
+  await page.locator("[data-view='explore']").click();
+};
+
+/** A REAL browser reload of the current URL, with storage kept.
+ *  The DSL's init script wipes localStorage on every navigation unless a one-shot
+ *  sessionStorage flag is set — so without this the "reload" would arrive as a brand-new
+ *  device and could never test whether a code is remembered. `performance` navigation type
+ *  stays "reload", which is exactly the distinction under test: a reload is the same visit. */
+const reloadKeepingStorage = async (page: Page) => {
+  await page.evaluate(() => sessionStorage.setItem("__ng_keep", "1"));
+  await page.reload();
+  await page.waitForFunction(() => !!(window as any).__neural?.nodes?.length);
+  await page.evaluate(() => (window as any).__neural.advance(1200)); // let the boot settle
+};
+
 /** Node ids of the lit set, sorted — the graph's own answer to "what is highlighted". */
 const litIds = (page: Page) =>
   page.evaluate(() => {
@@ -55,6 +75,34 @@ const litIds = (page: Page) =>
       .map((i: any) => a.nodes[i].id)
       .sort();
   });
+
+/** Techniques whose name carries a `from <position>` qualifier — in BJJ that qualifier IS the
+ *  disambiguator ("Kimura" alone is 35 different techniques in this corpus, "Americana" 16), so
+ *  a coach's list is meaningless without it. Never hard-coded: picked from the live graph. */
+const pickQualifiedNodes = (page: Page, n: number) =>
+  page.evaluate((count) => {
+    const a = (window as any).__neural;
+    const usable = a.nodes
+      .filter(
+        (x: any) =>
+          typeof x.o === "number" &&
+          (x.ty === "transitions" || x.ty === "submissions") &&
+          / from /i.test(x.t) &&
+          a.splitName(x.t).from,
+      )
+      .sort((p: any, q: any) => p.o - q.o);
+    const step = Math.max(1, Math.floor(usable.length / count));
+    const out: any[] = [];
+    for (let i = 0; out.length < count && i * step < usable.length; i++)
+      out.push(usable[i * step]);
+    return out.map((x: any) => ({
+      id: x.id,
+      name: x.t,
+      main: a.splitName(x.t).main,
+      from: a.splitName(x.t).from,
+      o: x.o,
+    }));
+  }, n);
 
 /** Pick a deterministic class-sized set of real technique nodes (never hard-coded names:
  *  content churns, and a share link must work for whatever the corpus holds today). */
@@ -184,6 +232,102 @@ test("a coach collects today's class into a list from the surfaces they are alre
     }),
     "the list is still there after a reload",
   ).toBe(2);
+});
+
+// ─────────────────────── 1b. the in-roll add, proved with a REAL MOUSE at real coordinates
+
+/**
+ * `.ng-landcard` is a FIXED overlay with `max-height:min(320px,40vh); overflow-y:auto`, and this
+ * repo's most expensive recurring bug lives in exactly that shape: `pointer-events` is
+ * inherited, the overlay root disables it, the canvas hit-tests above anything that does not
+ * re-enable it — and keyboard-driven tests mask all of it (the coach's Next button and the
+ * landing card's MC options were dead to the mouse until v1.69.1).
+ *
+ * So this test uses `page.mouse.click(x, y)` at measured coordinates, NOT locator.click():
+ * Playwright's click scrolls the element into view first, which would hide a footer clipped by
+ * the card's own overflow, and its hit-target check reports a failure that reads like flake.
+ * `document.elementFromPoint` is asserted separately so a failure names the thief.
+ */
+test("the in-roll add affordance survives a REAL mouse click on a full-height landing card @curated", async ({
+  page,
+}) => {
+  const j = journey(page);
+  await j.boot("/");
+  await j.land("Mount Top");
+
+  // Make the card as TALL as production: definition + a film row + the MC question. The DSL
+  // aborts technique-content.js (a 20MB payload no journey needs), so the dossier content is
+  // injected here — the CARD is the surface under test, not the fetch.
+  const nodeId = await page.evaluate(() => {
+    const a = (window as any).__neural;
+    const node = a.nodes[a.currentPos];
+    const key = a.deckKeyFor(node).key;
+    (window as any).NG_CONTENT = (window as any).NG_CONTENT || { decks: {} };
+    (window as any).NG_CONTENT.decks[key] = {
+      def: "A dominant top position where the hips ride above the opponent's belt line, both knees pinched to the ribs, chest low and elbows tight to the head.",
+      clips: [
+        { id: "aaaaaaaaaaa", title: "Mount control fundamentals", by: "Legend", vertical: true, start: 0, end: 42 },
+        { id: "bbbbbbbbbbb", title: "Staying heavy", by: "Legend", vertical: true, start: 0, end: 51 },
+        { id: "ccccccccccc", title: "Hip pressure", by: "Legend", vertical: false, start: 0, end: 38 },
+      ],
+    };
+    a.renderLandCard(node, "land", null); // re-render the same landing with content present
+    return node.id;
+  });
+
+  const card = page.locator(".ng-landcard");
+  await expect(card, "the landing card is up").toBeVisible();
+  const add = card.locator('[data-list-add][data-list-surface="land"]');
+  await expect(add, "…and it carries the add-to-class affordance").toHaveCount(1);
+
+  const geom = await page.evaluate(() => {
+    const c = document.querySelector(".ng-landcard") as HTMLElement;
+    const b = c.querySelector("[data-list-add]") as HTMLElement;
+    const cr = c.getBoundingClientRect();
+    const br = b.getBoundingClientRect();
+    const x = Math.round(br.x + br.width / 2);
+    const y = Math.round(br.y + br.height / 2);
+    const el = document.elementFromPoint(x, y) as HTMLElement | null;
+    return {
+      x,
+      y,
+      scrolls: c.scrollHeight > c.clientHeight + 1,
+      cardBottom: Math.round(cr.bottom),
+      btnBottom: Math.round(br.bottom),
+      belowCard: Math.round(br.bottom - cr.bottom),
+      inViewport: br.x >= 0 && br.y >= 0 && br.right <= window.innerWidth && br.bottom <= window.innerHeight,
+      pe: getComputedStyle(b).pointerEvents,
+      hit: !el ? "NOTHING (the canvas is above it)" : el === b || b.contains(el) ? "the button" : `${el.tagName}.${el.className}`,
+    };
+  });
+
+  expect(
+    geom.scrolls,
+    "premise: with film + a question the card really does overflow its 320px box — otherwise " +
+      "this test proves nothing about a clipped footer",
+  ).toBe(true);
+  expect(geom.pe, "pointer-events must be re-enabled INLINE on the button").toBe("auto");
+  expect(
+    geom.belowCard,
+    `the add button is clipped ${geom.belowCard}px below the card's own scroll box ` +
+      `(card bottom ${geom.cardBottom}, button bottom ${geom.btnBottom}) — a real mouse cannot ` +
+      `reach it without scrolling inside the card first`,
+  ).toBeLessThanOrEqual(1);
+  expect(geom.inViewport, "and it is on screen").toBe(true);
+  expect(geom.hit, `elementFromPoint(${geom.x},${geom.y}) must be the button itself`).toBe("the button");
+
+  // the proof: a real trusted mouse click at those coordinates, no scrolling, no keyboard
+  await page.mouse.click(geom.x, geom.y);
+
+  expect(
+    await page.evaluate(() => {
+      const a = (window as any).__neural;
+      const id = a.activeListId;
+      return { items: (a.lists[id] || {}).items || [] };
+    }),
+    "one mouse click on the landing card puts the state you are standing in into today's class",
+  ).toMatchObject({ items: [nodeId] });
+  await j.expectBeat("list_item_added");
 });
 
 // ────────────────────────────────────────────────────────────── 2. sharing it
@@ -393,6 +537,236 @@ test("a student opens the WhatsApp link with NO Function deployed and the graph 
   });
 });
 
+/** The creator half, factored out: build a class from `picks` and return the real share code. */
+const codeFor = (page: Page, ids: string[]) =>
+  page.evaluate((list: string[]) => {
+    const a = (window as any).__neural;
+    for (const id of list) a.addToList(id);
+    return a.listShareCode(a.activeListId);
+  }, ids);
+
+// ─────────────── 3b. what the recipient can READ, RE-LIGHT and be asked only once
+
+test("a received technique is named the way a coach named it: WITH the position it comes from @curated", async ({
+  page,
+}) => {
+  const j = journey(page);
+  await j.boot("/");
+  await j.land("Mount Top");
+  // deliberately all-qualified: "Americana" is not a technique a coach taught,
+  // "Americana from Mount" is — and this corpus holds 16 different Americanas.
+  const picks = await pickQualifiedNodes(page, 4);
+  expect(picks.length, "the corpus must contain qualified technique names").toBe(4);
+  const code = await codeFor(
+    page,
+    picks.map((p) => p.id),
+  );
+
+  await serveShellWithoutFunction(page);
+  await j.boot(`/l/${code}`);
+
+  for (const p of picks) {
+    const row = page.locator(`[data-shared-item="${p.id}"]`);
+    await expect(row).toBeVisible();
+    const text = ((await row.textContent()) || "").replace(/\s+/g, " ").trim();
+    expect(
+      text,
+      `the recipient sees "${text}" — the class drilled "${p.name}", and "${p.main}" alone ` +
+        `matches ${"many"} other techniques in the graph`,
+    ).toContain(p.from.replace(/^from /, ""));
+    expect(text, "…without losing the technique's own name").toContain(p.main);
+  }
+
+  // the same qualifier must survive into the toast a coach sees when adding/removing
+  const toast = await page.evaluate((id: string) => {
+    const a = (window as any).__neural;
+    a.toggleListItem(id, "shared");
+    const el = document.querySelector(".ng-event") || document.body;
+    return (el.textContent || "").replace(/\s+/g, " ");
+  }, picks[0].id);
+  expect(toast, `the confirmation names the technique in full (got: ${toast})`).toContain(
+    picks[0].from.replace(/^from /, ""),
+  );
+});
+
+test("the recipient can re-light the received class on the graph after the fog clears @curated", async ({
+  page,
+}) => {
+  const j = journey(page);
+  await j.boot("/");
+  await j.land("Mount Top");
+  const picks = await pickClassNodes(page, 5);
+  const want = picks.map((p) => p.id).sort();
+  const code = await codeFor(
+    page,
+    picks.map((p) => p.id),
+  );
+
+  await serveShellWithoutFunction(page);
+  await j.boot(`/l/${code}`);
+  expect(await litIds(page), "lit on arrival").toEqual(want);
+
+  // the recipient closes the pane to actually play — every focus source is cleared here
+  await page.locator(".ng-explorer-close").click();
+  expect(
+    await page.evaluate(() => {
+      const a = (window as any).__neural;
+      return !!(a._focusIdxSet && a._focusIdxSet.size);
+    }),
+    "closing the pane clears the fog (this is the existing, intended behaviour)",
+  ).toBe(false);
+
+  // …and now they want it back. Every OTHER focus source in the app can be re-lit.
+  await openExplore(page);
+  const relight = page.locator("[data-shared-relight]");
+  await expect(
+    relight,
+    "the received class — the one visual that made the link worth opening — must be re-lightable",
+  ).toBeVisible();
+  await relight.click();
+  expect(await litIds(page), "re-lit, exactly the coach's set").toEqual(want);
+
+  // and it survives an Explore re-render (a keystroke in the search box resets the fog)
+  await page.locator(".ng-explorer-search input").fill("mount");
+  expect(await litIds(page), "a search keystroke does not drop the re-lit selection").toEqual(want);
+});
+
+test("a saved or dismissed link stops asking: a reload is not a fresh offer @curated", async ({
+  page,
+}) => {
+  const j = journey(page);
+  await j.boot("/");
+  await j.land("Mount Top");
+  const picks = await pickClassNodes(page, 3);
+  const code = await codeFor(
+    page,
+    picks.map((p) => p.id),
+  );
+
+  // ── dismissed, then reloaded: the recipient said no once
+  await serveShellWithoutFunction(page);
+  await j.boot(`/l/${code}`);
+  await expect(page.locator("[data-shared-list]")).toBeVisible();
+  await page.locator("[data-shared-dismiss]").click();
+  await reloadKeepingStorage(page);
+  await ensureExplore(page);
+  await expect(
+    page.locator("[data-shared-list]"),
+    "a dismissed link does not come back on reload — that is nagging, forever",
+  ).toHaveCount(0);
+  expect(
+    await page.evaluate(() => (window as any).__neural._sharedIncoming),
+    "and it is not sitting in memory waiting for the next render either",
+  ).toBeNull();
+
+  // ── saved, then reloaded: it is already theirs; offering it again is a duplicate trap
+  await j.boot(`/l/${code}`);
+  await page.locator("[data-shared-save]").click();
+  const savedIds = await page.evaluate(() => Object.keys((window as any).__neural.lists));
+  await reloadKeepingStorage(page);
+  await ensureExplore(page);
+  await expect(
+    page.locator("[data-shared-list]"),
+    "a saved link is not re-offered — the list is already in their Lists",
+  ).toHaveCount(0);
+  expect(
+    await page.evaluate(() => Object.keys((window as any).__neural.lists).length),
+    "and reloading did not duplicate it",
+  ).toBe(savedIds.length);
+  expect(
+    await litIds(page),
+    "instead the saved list is what lights up — the link still does its visual job",
+  ).toEqual(picks.map((p) => p.id).sort());
+});
+
+test("Lists never contradicts itself in front of a first-time recipient @curated", async ({
+  page,
+}) => {
+  const j = journey(page);
+  await j.boot("/");
+  await j.land("Mount Top");
+  const picks = await pickClassNodes(page, 5);
+  const code = await codeFor(
+    page,
+    picks.map((p) => p.id),
+  );
+
+  await serveShellWithoutFunction(page);
+  await j.boot(`/l/${code}`);
+
+  const read = await page.evaluate(() => {
+    const sec = document.querySelector("[data-lists-section]") as HTMLElement;
+    const shared = sec.querySelector("[data-shared-list]") as HTMLElement;
+    const head = sec.querySelector("[data-lists-head]") as HTMLElement;
+    const order = shared && head ? shared.compareDocumentPosition(head) : 0;
+    return {
+      sharedFirst: !!(order & Node.DOCUMENT_POSITION_FOLLOWING),
+      headText: (head ? head.textContent || "" : "").replace(/\s+/g, " ").trim(),
+      emptyText: (sec.querySelector("[data-lists-empty]")?.textContent || "").replace(/\s+/g, " ").trim(),
+    };
+  });
+  expect(
+    read.sharedFirst,
+    "the thing they came for is read FIRST; their own (empty) Lists cannot be printed above it",
+  ).toBe(true);
+  expect(
+    read.headText,
+    `a first-time recipient must not read "Lists (0)" above "Shared with you · 5 techniques" ` +
+      `(got: "${read.headText}")`,
+  ).not.toMatch(/\(\s*0\s*\)/);
+});
+
+test("deleting a list asks first, and can be taken back @curated", async ({ page }) => {
+  const j = journey(page);
+  await j.boot("/");
+  await j.land("Mount Top");
+  const picks = await pickClassNodes(page, 3);
+  await codeFor(
+    page,
+    picks.map((p) => p.id),
+  );
+  await openExplore(page);
+  const listId = await page.evaluate(() => (window as any).__neural.activeListId);
+  const del = page.locator(`[data-list-row="${listId}"] [data-list-delete]`);
+  const share = page.locator(`[data-list-row="${listId}"] [data-list-share]`);
+
+  const gap = await page.evaluate(
+    ([a, b]: string[]) => {
+      const r1 = (document.querySelector(a) as HTMLElement).getBoundingClientRect();
+      const r2 = (document.querySelector(b) as HTMLElement).getBoundingClientRect();
+      return Math.round(r2.left - r1.right);
+    },
+    [`[data-list-row="${listId}"] [data-list-share]`, `[data-list-row="${listId}"] [data-list-delete]`],
+  );
+  expect(
+    gap,
+    `delete sits ${gap}px from Share — one slip destroys the class the coach just built`,
+  ).toBeGreaterThanOrEqual(10);
+
+  // first click ARMS, it does not destroy
+  await del.click();
+  expect(
+    await page.evaluate(() => Object.keys((window as any).__neural.lists).length),
+    "one click on × must not delete a coach's class outright",
+  ).toBe(1);
+  await expect(del, "…it asks").toHaveAttribute("data-list-delete-armed", "1");
+
+  // second click deletes — and leaves a way back
+  await del.click();
+  expect(await page.evaluate(() => Object.keys((window as any).__neural.lists).length)).toBe(0);
+  const undo = page.locator("[data-list-undo]");
+  await expect(undo, "a delete with no undo is a trap next to a Share button").toBeVisible();
+  await undo.click();
+  expect(
+    await page.evaluate(() => {
+      const a = (window as any).__neural;
+      const id = Object.keys(a.lists)[0];
+      return { lists: Object.keys(a.lists).length, items: (a.lists[id] || {}).items };
+    }),
+    "undo restores the list, with its techniques",
+  ).toMatchObject({ lists: 1, items: picks.map((p) => p.id) });
+});
+
 test("a hostile or stale link degrades: nothing crashes, nothing lies", async ({
   page,
 }) => {
@@ -435,6 +809,30 @@ test("a hostile or stale link degrades: nothing crashes, nothing lies", async ({
     "the recipient is told, in the UI",
   ).toBeVisible();
 
+  // a code that is PERFECTLY VALID but resolves to nothing this build knows: "the link is
+  // fine, your app is older" is a different sentence from "that is not a link", and the
+  // recipient can act on one of them (wait for the next deploy) and not the other.
+  const staleCode = await page.evaluate(() =>
+    (window as any).NGLists.ngListEncodeOrdinals([9_000_001, 9_000_002]),
+  );
+  await j.boot(`/l/${staleCode}`);
+  const stale = await page.evaluate(() => {
+    const a = (window as any).__neural;
+    return {
+      incoming: a._sharedIncoming,
+      told: !!document.querySelector("[data-shared-stale]"),
+      text: (document.querySelector("[data-shared-stale]")?.textContent || "").replace(/\s+/g, " ").trim(),
+      beat: (a.beats || []).filter((b: any) => b.beat === "list_stale").length,
+    };
+  });
+  expect(
+    stale.told,
+    "a valid code this build cannot resolve must SAY the link is fine and the app is behind",
+  ).toBe(true);
+  expect(stale.text, `and say how many (got: "${stale.text}")`).toMatch(/2/);
+  expect(stale.incoming, "there is nothing to offer, so nothing is offered").toBeNull();
+  expect(stale.beat, "and it is measurable: a stale open is not a failed open").toBe(1);
+
   // garbage: the app is a normal app, no focus set, no phantom list, no thrown error
   const errors: string[] = [];
   page.on("pageerror", (e) => errors.push(String(e)));
@@ -449,6 +847,10 @@ test("a hostile or stale link degrades: nothing crashes, nothing lies", async ({
     }),
     "an unparseable code is simply not a share link",
   ).toEqual({ incoming: null, lit: false });
+  await expect(
+    page.locator("[data-shared-stale]"),
+    "…and garbage is NOT dressed up as a stale-build message",
+  ).toHaveCount(0);
   expect(errors, "and it did not throw").toEqual([]);
 });
 
@@ -485,6 +887,25 @@ test("/l leaks into NOTHING a crawler reads: not the sitemap, not llms.txt, not 
     /\/l\.html|\]\(\/l\/|https?:\/\/[^\s)]*\/l\//.test(llms),
     "nor to an AI crawler",
   ).toBe(false);
+
+  // the edge preview names techniques from the SAME manifest, so it must carry the qualifier
+  // too: a WhatsApp preview reading "Kimura, Armbar, Sweep" names nothing at all.
+  const manifest = JSON.parse(readFileSync(resolve(PUBLIC, "l-manifest.json"), "utf8"));
+  const qualified = Object.entries(manifest.names as Record<string, string>).filter(([, n]) =>
+    / from /i.test(n),
+  );
+  expect(
+    qualified.length,
+    "the manifest holds the qualified names (648 of 1467 nodes carry a `from <position>`)",
+  ).toBeGreaterThan(500);
+  const { ogTitle } = await import("../../neural/src/lists.src.js").then((m) => ({
+    ogTitle: m.ngShareOgTitle,
+  }));
+  const sample = qualified[0][1];
+  expect(
+    ogTitle([sample], 1),
+    `the preview text keeps the position qualifier (from "${sample}")`,
+  ).toContain(sample.replace(/^.*? from /i, ""));
 
   // and the shell itself says so out loud
   const shell = await (await request.get("/l.html")).text();

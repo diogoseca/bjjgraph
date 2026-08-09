@@ -131,6 +131,74 @@ test("canonicality: share_id joins creator and recipient without a server", () =
   assert.equal(ngListShareId(undefined), "");
 });
 
+// ---------------------------------------------------------------- truncation
+//
+// THE REAL-WORLD EVENT this guards (v1.81.2): WhatsApp, Telegram and mail clients clip and
+// re-wrap long URLs. A wire with no length and no checksum decodes a clipped code CLEANLY,
+// into a strict PREFIX of the class — a coach shares 12 techniques, the group silently
+// receives 7, and nobody can tell. Detection is not optional: a link that arrives damaged
+// must SAY SO.
+
+test("truncation: every clipped prefix of a real code is DETECTED, never a smaller class", () => {
+  const all = Object.values(BY_ID);
+  const rand = lcg(81812);
+  const accepted = [];
+  let checked = 0;
+  for (let i = 0; i < 60; i++) {
+    const set = sample(rand, all, 2 + Math.floor(rand() * 11)).sort((a, b) => a - b);
+    const code = ngListEncodeOrdinals(set);
+    for (let cut = 1; cut < code.length; cut++) {
+      checked++;
+      const res = ngListDecodeOrdinals(code.slice(0, cut));
+      if (res.ok) accepted.push({ full: code, clipped: code.slice(0, cut), got: res.ordinals, want: set });
+    }
+  }
+  assert.ok(checked > 500, `expected a real sweep, only checked ${checked} prefixes`);
+  assert.deepEqual(
+    accepted.slice(0, 5),
+    [],
+    `${accepted.length}/${checked} clipped codes decoded silently — a share link truncated in ` +
+      `transit delivered a SUBSET of the class`,
+  );
+});
+
+test("truncation: dropping whole items is a count_mismatch, and appended junk is refused", () => {
+  const bytesOf = (code) => Buffer.from(code, "base64url");
+  const code = ngListEncodeOrdinals([4, 9, 300]);
+  const raw = [...bytesOf(code)];
+  // drop the last complete varint (the wire's own bytes, not a base64 accident)
+  const short = raw.slice(0, raw.length - 2);
+  assert.equal(ngListDecodeOrdinals(b64url(short)).error, "count_mismatch");
+  // and a byte glued on the end is not a second spelling of anything
+  assert.equal(ngListDecodeOrdinals(b64url([...raw, 0])).error, "trailing_bytes");
+  // the intact code is still fine (the control: the guards above are not blanket rejections)
+  assert.deepEqual(ngListDecodeOrdinals(code).ordinals, [4, 9, 300]);
+});
+
+test("truncation: the count is part of the wire and cannot disagree with the payload", () => {
+  // hand-built v2: [version, count-1, deltas…]. A payload that does not match the declared
+  // count is refused in BOTH directions — that is the whole detection mechanism.
+  assert.deepEqual(ngListDecodeOrdinals(b64url([2, 2, 0, 0, 0])).ordinals, [0, 1, 2]);
+  assert.equal(ngListDecodeOrdinals(b64url([2, 2, 0, 0])).error, "count_mismatch"); // says 3, holds 2
+  assert.equal(ngListDecodeOrdinals(b64url([2, 1, 0, 0, 0])).error, "trailing_bytes"); // says 2, holds 3
+  assert.equal(ngListDecodeOrdinals(b64url([2, 0])).error, "count_mismatch"); // says 1, holds none
+  assert.equal(ngListDecodeOrdinals(b64url([2, 0x81, 0x00, 0])).error, "non_canonical_varint"); // padded count
+  assert.equal(ngListDecodeOrdinals(b64url([2, NG_LIST_MAX_ITEMS, 0])).error, "too_many_items"); // count 61
+});
+
+test("compatibility: a v1 code minted before the length field still opens", () => {
+  // v1 = [0x01] + sorted delta varints, no count. Links already pasted into group chats must
+  // keep working forever — an ordinal is a permanent promise and so is a code.
+  const v1 = b64url([1, 4, 4, 0x81, 0x01]); // 4, then +5 => 9, then +130 => 139
+  const res = ngListDecodeOrdinals(v1);
+  assert.equal(res.ok, true, `v1 decode broke: ${res.error}`);
+  assert.deepEqual(res.ordinals, [4, 9, 139]);
+  assert.equal(res.version, 1, "the version the recipient decoded is reported honestly");
+  // and the app only ever MINTS the current version
+  assert.equal(ngListDecodeOrdinals(ngListEncodeOrdinals([4, 9, 139])).version, NG_LIST_WIRE_VERSION);
+  assert.equal(NG_LIST_WIRE_VERSION, 2, "the wire format bump that added the length field");
+});
+
 // ---------------------------------------------------------------- rejection
 
 // Each case asserts the EXACT reason. Asserting only `ok === false` let a mutant that
@@ -151,7 +219,7 @@ test("rejection: malformed, hostile and non-canonical input never throws and nev
     impossible_length: ["A", "not_base64url"], // 1 leftover char encodes no byte
     header_only: ["AQ", "truncated"], // version byte, no items
     bad_version_0: ["AAE", "bad_version"], // 0x00 0x01
-    bad_version_2: ["AgE", "bad_version"], // 0x02 0x01
+    bad_version_3: ["AwE", "bad_version"], // 0x03 0x01 — one past the live version
     bad_version_ff: ["_wE", "bad_version"], // 0xff 0x01
   };
   for (const [name, [code, want]] of Object.entries(bad)) {
@@ -188,8 +256,9 @@ test("rejection: non-zero trailing bits are a second spelling and are refused", 
   // BOTH partial-group shapes must be covered: a code whose length % 4 is 3 (one spare
   // byte) and one whose length % 4 is 2 (two spare bytes) go through DIFFERENT guards.
   // Testing only one let a mutant that deleted the other survive.
-  const codes = { rem3: ngListEncodeOrdinals([5]), rem2: ngListEncodeOrdinals([5, 200]) };
-  assert.equal(codes.rem3.length % 4, 3, "expected a 2-byte payload → 3 chars");
+  // (byte counts include v2's count byte: [version, count-1, deltas…])
+  const codes = { rem3: ngListEncodeOrdinals([5, 200]), rem2: ngListEncodeOrdinals([5, 7]) };
+  assert.equal(codes.rem3.length % 4, 3, "expected a 5-byte payload → 7 chars");
   assert.equal(codes.rem2.length % 4, 2, "expected a 4-byte payload → 6 chars");
 
   const alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789-_";

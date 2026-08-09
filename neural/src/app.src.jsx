@@ -464,6 +464,8 @@ class Component extends DCLogic {
     this.nodes = nodes; this.links = links; this.adj = adj; this._idIndex = idIndex;
     // share-link ordinal manifest, both directions, built once per ingest
     this._sharedIncoming = null; // "no share link on this URL" is a value, not an absence
+    this._sharedStale = null;    // …and "a valid link this build is too old for" is a third value
+    this._undoList = null; this._delArm = null;
     this._ordById = new Map(); this._ordToId = new Map();
     for (const n of nodes) {
       if (typeof n.o !== "number") continue;
@@ -3195,6 +3197,8 @@ class Component extends DCLogic {
   }
   deleteList(id) {
     const m = this._listsMap(); if (!m[id]) return;
+    // stash it whole so the delete is takeable-back (see _undoRow / undoDeleteList)
+    this._undoList = { id: id, list: { name: m[id].name, items: m[id].items.slice(), t: m[id].t } };
     delete m[id];
     if (this._listFocusId === id) this.clearFocus();
     if (this.activeListId === id) { this.activeListId = this.listsArray()[0] || null; this.set("activeListId", this.activeListId); }
@@ -3293,17 +3297,30 @@ class Component extends DCLogic {
   }
 
   // ---------- add affordance (dossier, Explore rows, landing card, challenge lesson rows) ----------
+  /**
+   * The name a technique must be called by ANYWHERE a list is read: the FULL authored name,
+   * qualifier included. `splitName().main` is a display shorthand for surfaces that show the
+   * `from …` line separately — on its own it is ambiguous to the point of uselessness: this
+   * corpus has 35 techniques whose main name is "Kimura" and 16 called "Americana", and 648 of
+   * 1467 nodes carry a qualifier. "Americana" is not a technique a coach taught; "Americana
+   * from Mount" is. A share link that drops the qualifier destroys its own purpose.
+   */
+  listItemName(nodeId) {
+    const i = this._idIndex ? this._idIndex.get(nodeId) : null;
+    const n = i != null ? this.nodes[i] : null;
+    return n ? n.t : nodeId;
+  }
   toggleListItem(nodeId, surface) {
     const had = this.activeListHas(nodeId);
-    const n = this.nodes[this._idIndex ? this._idIndex.get(nodeId) : -1];
-    const name = n ? this.splitName(n.t).main : "Technique";
+    // full name, not splitName().main — setEvent renders the `from …` half on its own line
+    const name = this.listItemName(nodeId);
     if (had) {
       this.removeFromList(nodeId);
-      this.setEvent("Removed", name + " left today’s list", "bad");
+      this.setEvent("Removed from today’s list", name, "bad");
     } else {
       const r = this.addToList(nodeId);
       if (r.added) {
-        this.setEvent("Added to today’s list", r.count + " technique" + (r.count === 1 ? "" : "s") + " · share it when class ends", "good");
+        this.setEvent("Added to today’s list · " + r.count + " technique" + (r.count === 1 ? "" : "s"), name, "good");
         this.track("neural_list_item_added", { surface: surface || "unknown", count: r.count });
       } else if (r.reason === "full") {
         this.setEvent("List is full", "A share link holds " + NG_LIST_ITEM_CAP + " techniques", "bad");
@@ -3372,22 +3389,32 @@ class Component extends DCLogic {
     const sec = document.createElement("div");
     sec.setAttribute("data-lists-section", "1");
     sec.style.cssText = "margin:2px 0 10px;padding-bottom:10px;border-bottom:1px solid rgba(150,170,210,.12);";
-    const head = document.createElement("div");
-    head.style.cssText = "display:flex;align-items:center;gap:8px;padding:7px 12px 3px;";
     const ids = this.listsArray();
+    // READ ORDER: what ARRIVED comes first. A first-time recipient reading "Lists (0)" above
+    // "Shared with you · 5 techniques" is being told two contradictory things about the same
+    // screen — and the count they care about is not the one about lists they have never made.
+    if (this._sharedIncoming) sec.appendChild(this._sharedBlock());
+    else if (this._sharedStale) sec.appendChild(this._staleBlock());
+    if (this._undoList) sec.appendChild(this._undoRow());
+
+    const head = document.createElement("div");
+    head.setAttribute("data-lists-head", "1");
+    head.style.cssText = "display:flex;align-items:center;gap:8px;padding:7px 12px 3px;";
     head.innerHTML =
       '<span style="font-size:14px;font-weight:700;color:#dbe2f0;">Lists</span>' +
-      '<span style="font-size:11px;color:#7e8aa3;">(' + ids.length + ')</span>' +
+      // no "(0)": a count of nothing beside a list of nothing is noise, and beside a shared
+      // block it is a contradiction
+      (ids.length ? '<span style="font-size:11px;color:#7e8aa3;">(' + ids.length + ')</span>' : "") +
       '<span style="margin-left:auto;font-size:9.5px;letter-spacing:.1em;text-transform:uppercase;color:#6b7691;">share a class</span>';
     sec.appendChild(head);
-
-    if (this._sharedIncoming) sec.appendChild(this._sharedBlock());
 
     if (!ids.length) {
       const empty = document.createElement("div");
       empty.setAttribute("data-lists-empty", "1");
       empty.style.cssText = "font-size:11.5px;line-height:1.5;color:#7e8aa3;padding:4px 12px 2px;";
-      empty.textContent = "Tap + on any technique to start today’s class list, then share one link with the group.";
+      empty.textContent = this._sharedIncoming
+        ? "Save the shared class above to keep it — or tap + on any technique to start one of your own."
+        : "Tap + on any technique to start today’s class list, then share one link with the group.";
       sec.appendChild(empty);
       list.appendChild(sec);
       return;
@@ -3424,17 +3451,62 @@ class Component extends DCLogic {
       share.addEventListener("click", () => { void this.shareList(id); });
       row.appendChild(share);
 
+      // DELETE: two steps, then undoable. It sits next to Share — the one button a coach
+      // presses in front of the class — so a single stray click may not destroy the list the
+      // whole session was spent building. `margin-left` buys the miss-distance.
+      const armed = this._delArm === id;
       const del = document.createElement("button");
       del.type = "button";
       del.setAttribute("data-list-delete", id);
-      del.textContent = "×";
-      del.title = "Delete this list";
-      del.style.cssText = "flex:none;pointer-events:auto;cursor:pointer;font-family:inherit;font-size:13px;line-height:1;padding:3px 6px;border-radius:6px;border:0;background:transparent;color:#6b7691;";
-      del.addEventListener("click", () => this.deleteList(id));
+      if (armed) del.setAttribute("data-list-delete-armed", "1");
+      del.textContent = armed ? "Delete?" : "×";
+      del.title = armed ? "Click again to delete this list" : "Delete this list";
+      del.style.cssText = "flex:none;margin-left:12px;pointer-events:auto;cursor:pointer;font-family:inherit;font-size:" + (armed ? "10.5px;font-weight:700;" : "13px;") + "line-height:1;padding:" + (armed ? "5px 8px" : "3px 6px") + ";border-radius:6px;border:" + (armed ? "1px solid rgba(242,104,95,.5)" : "0") + ";background:" + (armed ? "rgba(242,104,95,.16)" : "transparent") + ";color:" + (armed ? "#ff9c92" : "#6b7691") + ";";
+      del.addEventListener("click", () => {
+        if (this._delArm !== id) {
+          this._delArm = id;
+          if (this._delArmT) clearTimeout(this._delArmT);
+          // real setTimeout, not the sim clock: this is UI patience, not game time
+          this._delArmT = setTimeout(() => { if (this._delArm === id) { this._delArm = null; this._refreshListSurfaces(); } }, 8000);
+          this._refreshListSurfaces();
+          return;
+        }
+        this._delArm = null;
+        if (this._delArmT) { clearTimeout(this._delArmT); this._delArmT = null; }
+        this.deleteList(id);
+      });
       row.appendChild(del);
       sec.appendChild(row);
     }
     list.appendChild(sec);
+  }
+  /** The way back from a delete. One outstanding undo at a time, cleared when it is used. */
+  _undoRow() {
+    const u = this._undoList;
+    const box = document.createElement("div");
+    box.style.cssText = "display:flex;align-items:center;gap:8px;margin:0 6px 6px;padding:7px 9px;border-radius:9px;border:1px solid rgba(150,170,210,.2);background:rgba(255,255,255,.03);";
+    const txt = document.createElement("span");
+    txt.style.cssText = "flex:1;min-width:0;font-size:11.5px;color:#aeb9d4;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;";
+    txt.textContent = "Deleted “" + u.list.name + "” · " + u.list.items.length + " technique" + (u.list.items.length === 1 ? "" : "s");
+    box.appendChild(txt);
+    const undo = document.createElement("button");
+    undo.type = "button";
+    undo.setAttribute("data-list-undo", u.id);
+    undo.textContent = "Undo";
+    undo.style.cssText = "flex:none;pointer-events:auto;cursor:pointer;font-family:inherit;font-size:10.5px;font-weight:700;padding:5px 10px;border-radius:7px;border:1px solid rgba(150,170,210,.3);background:rgba(255,255,255,.05);color:#dbe2f0;";
+    undo.addEventListener("click", () => this.undoDeleteList());
+    box.appendChild(undo);
+    return box;
+  }
+  undoDeleteList() {
+    const u = this._undoList; if (!u) return false;
+    this._undoList = null;
+    this._listsMap()[u.id] = u.list;
+    this.activeListId = u.id;
+    this.set("activeListId", u.id); // saves the blob
+    this.setEvent("Restored", u.list.name, "good");
+    this._refreshListSurfaces();
+    return true;
   }
   /** The block a RECIPIENT sees: what arrived, whether anything didn't resolve, and the two
    *  things they can do with it. A received link is offered, never silently adopted. */
@@ -3456,7 +3528,17 @@ class Component extends DCLogic {
       nameBtn.type = "button";
       nameBtn.setAttribute("data-shared-item", id);
       nameBtn.style.cssText = "flex:1;min-width:0;pointer-events:auto;cursor:pointer;font-family:inherit;text-align:left;border:0;background:transparent;padding:0;font-size:12.5px;color:#dbe2f0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;";
-      nameBtn.textContent = n ? this.splitName(n.t).main : id;
+      // THE FULL, QUALIFIED NAME. The `from <position>` half is the disambiguator — see
+      // listItemName(). It renders dimmer, but it renders: a recipient has to be able to tell
+      // which of the 35 Kimuras their coach drilled.
+      if (n) {
+        const sp = this.splitName(n.t);
+        nameBtn.innerHTML = this.escHTML(sp.main) +
+          (sp.from ? ' <span style="color:#8b97b0;font-size:11px;">' + this.escHTML(sp.from) + '</span>' : "");
+        nameBtn.title = n.t;
+      } else {
+        nameBtn.textContent = id;
+      }
       if (i != null) nameBtn.addEventListener("click", () => this.openDossier(i));
       item.appendChild(nameBtn);
       item.appendChild(this._listAddButton(id, "shared"));
@@ -3470,7 +3552,19 @@ class Component extends DCLogic {
       box.appendChild(un);
     }
     const acts = document.createElement("div");
-    acts.style.cssText = "display:flex;align-items:center;gap:6px;margin-top:9px;";
+    acts.style.cssText = "display:flex;align-items:center;flex-wrap:wrap;gap:6px;margin-top:9px;";
+    // RE-LIGHT. Every other focus source in the app can be lit again (a System from its row, a
+    // list from its row); the received set had no way back, so once the fog cleared — which the
+    // pane's own close does, by design — the recipient had permanently lost the one visual that
+    // made the link worth opening. Reuses the same setFocusIdxSet path via focusList().
+    const light = document.createElement("button");
+    light.type = "button";
+    light.setAttribute("data-shared-relight", "1");
+    light.textContent = this._listFocusId === "__shared" ? "◉ On graph" : "Show on graph";
+    light.title = "Light these techniques on the graph again";
+    light.style.cssText = "flex:none;pointer-events:auto;cursor:pointer;font-family:inherit;font-size:11px;font-weight:700;padding:7px 10px;border-radius:8px;border:1px solid rgba(150,170,210," + (this._listFocusId === "__shared" ? ".5" : ".28") + ");background:rgba(255,255,255," + (this._listFocusId === "__shared" ? ".09" : ".04") + ");color:#c4cde0;";
+    light.addEventListener("click", () => this.focusList("__shared"));
+    acts.appendChild(light);
     const drill = document.createElement("button");
     drill.type = "button";
     drill.setAttribute("data-shared-drill", "1");
@@ -3496,12 +3590,41 @@ class Component extends DCLogic {
     box.appendChild(acts);
     return box;
   }
+  /** "The link is fine — this build is older." A valid code whose ordinals this build has no
+   *  nodes for is NOT garbage, and must not be answered with the same silence. */
+  _staleBlock() {
+    const st = this._sharedStale;
+    const box = document.createElement("div");
+    box.setAttribute("data-shared-stale", String(st.unknown.length));
+    box.style.cssText = "margin:4px 6px 8px;padding:9px 10px;border-radius:10px;border:1px solid rgba(232,185,138,.35);background:rgba(46,36,24,.5);";
+    box.innerHTML =
+      '<div style="font-size:11px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:#e8b98a;">Shared class · not in this version yet</div>' +
+      '<div style="margin-top:5px;font-size:11.5px;line-height:1.5;color:#cbb69c;">This link is valid, and all ' +
+      st.unknown.length + ' of its techniques are newer than the graph this page loaded. Reload in a little while — nothing is wrong with the link.</div>';
+    return box;
+  }
+  // ── has this code already been answered? ───────────────────────────────────────────────
+  // A received link is offered ONCE. Without a record, every reload at that URL re-offers a
+  // list the recipient already saved (a duplicate trap) or already dismissed (nagging, forever).
+  // Keyed by share_id, which is canonical, so the record is stable across devices too.
+  _shareSeen() { const v = this.get("shareSeen", null); return v && typeof v === "object" && !Array.isArray(v) ? v : {}; }
+  _markShareSeen(shareId, state, listId) {
+    if (!shareId) return;
+    const seen = this._shareSeen();
+    seen[shareId] = { s: state, t: Date.now(), listId: listId || null };
+    // keep the newest 24: this is a courtesy record, not an archive
+    const keys = Object.keys(seen).sort((a, b) => (seen[b].t || 0) - (seen[a].t || 0));
+    const trimmed = {};
+    for (const k of keys.slice(0, 24)) trimmed[k] = seen[k];
+    this.set("shareSeen", trimmed); // settings are LWW per key → follows the user across devices
+  }
   saveSharedList() {
     const inc = this._sharedIncoming; if (!inc) return "";
     const id = this.newList("Shared · " + ngListDefaultName(new Date()).replace(/^Class · /, ""));
     for (const nid of inc.ids) this.addToList(nid, id);
     this._sharedIncoming = null;
     this._listFocusId = id;
+    this._markShareSeen(inc.shareId, "saved", id);
     this._flushSave();
     this.track("neural_share_list_saved", { share_id: inc.shareId, items: inc.ids.length });
     this.setEvent("Saved", inc.ids.length + " technique" + (inc.ids.length === 1 ? "" : "s") + " added to your lists", "good");
@@ -3510,8 +3633,10 @@ class Component extends DCLogic {
   }
   dismissSharedList() {
     if (!this._sharedIncoming) return;
+    this._markShareSeen(this._sharedIncoming.shareId, "dismissed");
     this._sharedIncoming = null;
     this.clearFocus();
+    this._flushSave();
     this._refreshListSurfaces();
   }
   /**
@@ -3520,15 +3645,47 @@ class Component extends DCLogic {
    * is simply not a share link: the app is an ordinary app and nothing is lit.
    */
   _openSharedListFromUrl() {
+    this._sharedIncoming = null;
+    this._sharedStale = null;
     let code = "";
     try { code = ngListParseSharePath(location.pathname + location.search); } catch (e) { code = ""; }
     if (!code) return;
     const res = ngListDecodeIds(code, this._ordinalIndex());
     const shareId = ngListShareId(code);
-    if (!res.ok || !res.ids.length) {
-      this._sharedIncoming = null;
-      this.track("neural_share_list_failed", { share_id: shareId, error: (res && res.error) || "unresolved" });
+    if (!res.ok) {
+      // not a share link at all (garbage, a clipped code, a hostile URL): the app is an
+      // ordinary app. `truncated`/`count_mismatch` says so out loud — a link that arrived
+      // damaged must never be answered with a SUBSET of the class.
+      const clipped = res.error === "count_mismatch" || res.error === "truncated" || res.error === "truncated_varint" || res.error === "trailing_bytes";
+      if (clipped) this.setEvent("This link is incomplete", "It was cut short in transit — ask for it again", "bad");
+      this.track("neural_share_list_failed", { share_id: shareId, error: res.error || "unresolved", clipped: clipped });
+      this.fx("list_failed", { share_id: shareId, error: res.error || "unresolved" });
       return;
+    }
+    if (!res.ids.length) {
+      // VALID code, nothing this build can resolve — a different sentence, and an actionable
+      // one: their app is behind the link, not broken.
+      this._sharedStale = { code: code, unknown: res.unknown || [], shareId: shareId };
+      this.track("neural_share_list_stale", { share_id: shareId, unknown: (res.unknown || []).length });
+      this.fx("list_stale", { share_id: shareId, unknown: (res.unknown || []).length });
+      this.openPane("explore");
+      this.renderExplorer();
+      return;
+    }
+    // already answered? (see _markShareSeen) — a reload is the same visit, not a second offer
+    const seen = this._shareSeen()[shareId];
+    const nav = (() => { try { const e = performance.getEntriesByType("navigation")[0]; return e ? e.type : ""; } catch (e) { return ""; } })();
+    const sameVisit = nav === "reload" || nav === "back_forward";
+    if (seen && seen.s === "saved") {
+      // it is already theirs: light THEIR list instead of offering a duplicate
+      const mine = seen.listId && this._listsMap()[seen.listId] ? seen.listId : null;
+      this.track("neural_share_list_reopened", { share_id: shareId, state: "saved" });
+      if (mine) { this.openPane("explore"); this.focusList(mine); this.setEvent("Already saved", "This class is in your Lists", "good"); }
+      return;
+    }
+    if (seen && seen.s === "dismissed" && sameVisit) {
+      this.track("neural_share_list_reopened", { share_id: shareId, state: "dismissed" });
+      return; // they said no on this visit; reloading is not a new ask
     }
     const idxs = [];
     for (const id of res.ids) { const i = this._idIndex ? this._idIndex.get(id) : null; if (i != null && this.nodes[i]) idxs.push(i); }
@@ -4998,8 +5155,17 @@ class Component extends DCLogic {
     }
 
     // 5 — everything else is behind one affordance
+    // STICKY: the card is `max-height:min(320px,40vh); overflow-y:auto`, and with a definition,
+    // a film row and a 4-option question the content is routinely TALLER than that. A static
+    // footer then sits below the scroll box: present in the DOM, reported "visible" by a
+    // locator, and unreachable by a real mouse until the user scrolls INSIDE the card — which
+    // nobody does mid-roll. Sticking it to the bottom of the scrollport keeps `More ▸` and the
+    // add-to-class + on screen at every scroll offset. pointer-events is re-enabled here as
+    // well as on the button: a fixed overlay's disabled pointer-events is inherited, and this
+    // repo has paid for that twice (v1.69.1).
     const foot = document.createElement("div");
-    foot.style.cssText = "display:flex;align-items:center;gap:12px;margin-top:9px;";
+    foot.setAttribute("data-land-foot", "1");
+    foot.style.cssText = "position:sticky;bottom:0;z-index:2;pointer-events:auto;display:flex;align-items:center;gap:12px;margin-top:9px;padding:8px 0 2px;background:linear-gradient(180deg,rgba(19,22,37,0),rgba(19,22,37,.94) 45%,rgba(19,22,37,.97));";
     const more = document.createElement("button");
     more.setAttribute("data-land-more", "1");
     more.innerHTML = "More ▸";

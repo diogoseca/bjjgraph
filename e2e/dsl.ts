@@ -244,6 +244,32 @@ export class Journey {
         );
       }
     }
+    // ── LET THE DEFERRED CURRICULUM LAND BEFORE WE PLANT ANY EVIDENCE ──────────────────────
+    // `ready()` above waits for graph + flashcards, but NOT for curriculum.json, which the app
+    // fetches in the background and finishes with `_onCurriculum() -> _refreshChallengeEvidence()`
+    // — a challenge-evidence pass that CALLS `_saveProgress()` whenever it finds durable change
+    // (app.src.jsx: `if (!durableChanged) return; … this._saveProgress()`).
+    //
+    // If that pass lands AFTER the tutorial step below, it sees 20 completed White objectives
+    // and a freshly minted badge, so it saves — silently overwriting whatever the spec seeded
+    // into localStorage, on nothing but a machine-speed race. Measured (v1.81.2): with
+    // curriculum.json delayed 2s, `_refreshChallengeEvidence -> noteChallenges -> _saveProgress`
+    // wrote a 1,654-byte valid blob over a seeded corrupt one; undelayed, no write happened at
+    // all. That is the whole mechanism behind
+    // `corrupt-blob-settings-persist-cleanly-after-heal` passing alone and failing at spec #7
+    // of a 112-spec run — order-dependent on TIME, not on state.
+    //
+    // Waiting here (before the tutorial step, so the fast ordering every spec was validated
+    // under becomes the ONLY ordering) means boot() leaves no in-flight progress write behind.
+    // Bounded and swallowed: the `noCurriculum` journeys 404 on purpose and a missing payload
+    // must never hang a boot.
+    if (!opts.noCurriculum) {
+      await this.page
+        .waitForFunction(() => !!(window as W).__neural?.curriculum, undefined, {
+          timeout: 15_000,
+        })
+        .catch(() => {});
+    }
     // Most gameplay journeys are not about foundational Challenge progression, so they begin
     // with the 20 White compatibility objectives complete unless a test explicitly opts in.
     if (!opts.keepTutorial) {

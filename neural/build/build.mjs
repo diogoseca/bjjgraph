@@ -54,7 +54,7 @@ const systemsCSS = readFileSync(R("src/systems.css"), "utf8");
 // the whole app disappears — so assert it, loudly, at build time.
 const stripExports = (file) => {
   const raw = readFileSync(R("src/" + file), "utf8");
-  const out = raw.replace(/^export (function|const) /gm, "$1 ");
+  const out = raw.replace(/^export (function|const|let|var|class) /gm, "$1 ");
   if (out === raw || /^\s*(export|import)\s/m.test(out)) {
     throw new Error(
       `build.mjs: ${file} export-strip failed (no match, or an export/import survived). ` +
@@ -68,9 +68,14 @@ const listsCodec = stripExports("lists-codec.src.js");
 // a SyntaxError that deletes the whole app. Assert the collision can't creep in.
 const listsStore = stripExports("lists.src.js");
 {
+  // EVERY top-level binding form, not just function/const: two `let NGL_FOO` in one scope is
+  // the same SyntaxError, and it would delete the same whole app. (The guard used to scan
+  // function|const only, so a colliding `let`/`var`/`class` walked straight past it.)
   const names = (src) =>
     new Set(
-      [...src.matchAll(/^(?:function|const)\s+([A-Za-z_$][\w$]*)/gm)].map((m) => m[1]),
+      [...src.matchAll(/^(?:function|const|let|var|class)\s+([A-Za-z_$][\w$]*)/gm)].map(
+        (m) => m[1],
+      ),
     );
   const clash = [...names(listsCodec)].filter((n) => names(listsStore).has(n));
   if (clash.length) {

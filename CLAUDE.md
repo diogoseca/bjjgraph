@@ -320,15 +320,27 @@ A share link carries a LIST OF GRAPH NODES in its URL (the gym-WhatsApp acquisit
   payload it already needs (node coordinates) instead of adding a request to the acquisition
   path's critical fetch chain.
 
-**`neural/src/lists-codec.src.js` — the wire codec, PURE.** Format v1 = `[0x01] varint(d0)
-varint(d1) …` base64url-unpadded, where ordinals are sorted-unique and `di = oi - o(i-1) - 1`.
+**`neural/src/lists-codec.src.js` — the wire codec, PURE.** Format **v2** (current) = `[0x02]
+varint(n-1) varint(d0) … varint(d(n-1))` base64url-unpadded, where ordinals are sorted-unique and
+`di = oi - o(i-1) - 1`.
 - That `-1` makes duplicates and out-of-order sets **unrepresentable**, so the encoding is
   **canonical**: one set of nodes has exactly one spelling on every device. That is what makes
   `share_id` (first 12 chars) join creator and recipient events into a viral funnel with no
   server state. Non-canonical spellings (base64 padding, non-zero trailing bits, non-minimal
   varints) are REJECTED for that reason, not pedantry.
-- **Measured URL length** (1467 nodes, `https://bjjgraph.org/l/` + code): 5 items → **35.5
-  chars mean / 38 worst**; 12 items → **46 / 50**; the 60-item cap → 106.
+- **`n` is the ITEM COUNT and it exists so TRUNCATION IS DETECTABLE (v1.81.2).** WhatsApp and
+  mail clients clip and re-wrap long URLs. v1 had no length and no checksum, so a clipped code
+  decoded perfectly cleanly into a strict PREFIX of the class — **measured: 198 of 955 prefixes
+  of real 2-13 item codes decoded silently**, one turning a 12-technique class into a
+  1-technique one, with nobody able to tell. With the count, the payload must hold EXACTLY `n`
+  deltas and end there, so a clipped link fails as `count_mismatch` / `truncated_varint` /
+  `trailing_bytes` and the recipient is TOLD ("This link is incomplete"). Cost: 1 byte.
+- **v1 still decodes, forever** (`NG_LIST_WIRE_VERSIONS_READ = [1,2]`) — a code is a permanent
+  promise like an ordinal — but is never minted. Canonicality is therefore per-version, and only
+  v2 is ever emitted, so every code the app produces is still the one spelling of its set.
+- **Measured URL length** (1467 nodes, `https://bjjgraph.org/l/` + code): 5 items → **37.0
+  chars mean / 39 worst**; 12 items → **47.3 / 51** (v1 was 35.5/38 and 46/50 — the count byte
+  costs ~1.5 chars).
 - Decode NEVER throws — it returns `{ok:false, error}` — and caps input at 512 chars / 60 items.
   Unknown ordinals (a link from a newer build, or a retired node) are REPORTED, not fatal: the
   list still opens with what resolved.
@@ -336,8 +348,11 @@ varint(d1) …` base64url-unpadded, where ordinals are sorted-unique and `di = o
   Pages Function import the identical file; `neural/build/build.mjs` strips the `export `
   keywords when concatenating it into the IIFE and **throws if that strip stops matching** (a
   surviving `export` is a parse error that would delete the whole app). Exposed as
-  `globalThis.NGLists`. Pinned by `tests/share_lists_codec.test.mjs` (15 tests, mutation-tested:
-  every guard has a test that fails when the guard is deleted).
+  `globalThis.NGLists`. Pinned by `tests/share_lists_codec.test.mjs` (19 tests, mutation-tested:
+  every guard has a test that fails when the guard is deleted — the v2 count guards were checked
+  against 8 mutants, 8 killed). `build.mjs`'s duplicate-top-level-name guard scans
+  `function|const|let|var|class` (it used to scan only `function|const`, so a colliding `let`
+  walked past it into the same SyntaxError it exists to prevent).
 - Lists are **STORED as node ids** (in the existing v2 progress blob, add-wins merge); only the
   WIRE uses ordinals.
 
@@ -358,7 +373,13 @@ list a class was built from (already posted in a group chat) is not. The item ca
 **add** time because `ngListEncodeOrdinals` THROWS above it rather than truncating a coach's class.
 
 **UI.** A **Lists** section at the TOP of Explore (`[data-lists-section]`, `[data-list-row]` with
-Drill / Share / ×). The `+` add affordance (`[data-list-add="<nodeId>"]` +
+Drill / Share / ×). Read order inside it is **arrival first**: a `[data-shared-list]` (or
+`[data-shared-stale]`) block, then any undo row, then `[data-lists-head]` — a first-time recipient
+must never read "Lists (0)" above "Shared with you · 5 techniques", and the head prints no count
+at all when there are no lists. **Delete is two-step and undoable**: the first click arms it
+(`[data-list-delete-armed]`, label "Delete?", 8s window), the second deletes and leaves a
+`[data-list-undo]` row holding the whole list; it also sits 12px clear of Share, which is the
+button a coach presses in front of the class. The `+` add affordance (`[data-list-add="<nodeId>"]` +
 `data-list-surface=explore|dossier|land|lesson|shared`) rides Explore rows, BOTH dossier
 renderers, the in-roll landing card and challenge lesson rows (as a SIBLING of the lesson
 `<button>` in `.ng-challenge-lessonrow` — a nested `<button>` would close the outer one in the
@@ -370,12 +391,48 @@ by `clearFocus`, i.e. on any tab change or pane close.
 `location.pathname` client-side, sets `_sharedIncoming`, opens the pane on Explore and lights the
 nodes. A received link is **offered, never adopted**: Save is one deliberate click. Unknown
 ordinals surface as `[data-shared-unresolved]` and the rest still opens. Beats: `list_item_added`,
-`list_shared`, `list_opened` (the last two have sound cues in the `Sharing` group).
+`list_shared`, `list_opened` (the last two have sound cues in the `Sharing` group), plus
+`list_stale` / `list_failed`.
+
+**Four outcomes for a `/l/<code>` arrival, and they are FOUR DIFFERENT SENTENCES** (v1.81.2):
+resolvable → the offer; **valid but nothing this build knows** → `[data-shared-stale]` ("this link
+is valid, your app is older — reload in a bit"), which is actionable and must not be answered with
+the silence garbage gets; **clipped in transit** (`count_mismatch` &c.) → "This link is
+incomplete"; unparseable → nothing at all, the app is just an app.
+
+**Named the way a coach named it.** Every list surface renders the FULL authored name
+(`listItemName()`, and `splitName().main` + the dimmer `from …` in the shared block) — never
+`splitName().main` alone. 648 of 1467 nodes carry a `from <position>` qualifier and 89 main names
+are ambiguous: "Kimura" is **35** different techniques here, "Americana" **16**. The qualifier IS
+the disambiguator; dropping it destroys the point of the share. The same rule holds for the
+add/remove toasts and for `l-manifest.json` → the og preview text.
+
+**Offered once.** `shareSeen` (a settings key, so LWW per key and cross-device) records each
+`share_id` as `saved` (with its list id) or `dismissed`. A **saved** code lights THEIR list instead
+of re-offering a duplicate; a **dismissed** code is not re-offered within the same visit
+(`performance` navigation type `reload`/`back_forward`) — reloading is not a second ask. Opening
+the link afresh later is real intent and does offer again.
+
+**Re-lightable.** `[data-shared-relight]` ("Show on graph") in the shared block re-runs
+`focusList("__shared")` → the same `setFocusIdxSet` path. It exists because closing the pane
+`clearFocus()`es by design, and the received set was the ONE focus source with no way back.
 
 **Four rungs, and the one that matters.** `_redirects` carries **`/l/* /l.html 200`** — a REWRITE,
 so `/l/<code>` keeps its URL and gets the built shell. That plus client-side decode is the WHOLE
 experience with **no Function at all**; `functions/l/[[path]].js` only adds the social preview
 (og:title naming the techniques), because WhatsApp/Telegram/X fetch server-side and never run JS.
+**HEADERS FOR `/l/*` COME FROM ONE PLACE AT A TIME, AND THE TWO PLACES MUST AGREE** (v1.81.2).
+Cloudflare: *"Custom headers defined in the `_headers` file are not applied to responses generated
+by Pages Functions, even if the request URL matches a rule defined in `_headers`."* So unlike the
+comma-join trap that `check_headers_cache.py` was built for, `/l/*` has **two mutually exclusive**
+header sources — the Function when deployed, `_headers` on the rewrite rung — and the failure
+available here is them DISAGREEING, so the TTL and security posture change the day the Function
+lands. `SHARE_CACHE_CONTROL` + `SHARE_STATIC_HEADERS` in the Function are byte-identical to
+`_headers`, gated (checks 6-8 of `check_headers_cache.py`, which also derives each Function's route
+from its filename). The Function must also `delete` `content-length`/`etag`/`last-modified` before
+reusing the asset's headers: it returns an **HTMLRewriter-transformed** body, so the asset's length
+is wrong and its ETag would make two different documents share one cache validator.
+
 `scripts/build_share_shell.mjs` derives `l.html` from the BUILT `index.html` (one source of truth;
 `<base href="/">` so a trailing slash can't 404 the assets; `noindex,nofollow`; `data-share-og`
 markers the Function's HTMLRewriter targets), emits `l-manifest.json` (ordinal→name, for the
@@ -574,9 +631,9 @@ All commands run from the repo root (`bjjgraph/`):
 | Q3 occurrence calibration (no npm script — orchestrated) | **Per-ruleset attempt-probability (`occurrence`) calibration of every position role-node, v1.53.0.** Distinct from success-rate calibration: this rebuilds each position's `transitions[].attempt_probability` `{gi,nogi}` maps from a two-chamber expert panel — 10 BJJ legends vote frequencies, 4 advisors (statistician/ML/game/UX) challenge but don't vote — run as a **Hybrid Delphi**: independent per-legend ballots (Stage 1) → one 12–20-round deliberation agent per position (Stage 2) → deterministic MoE aggregation in `scripts/occurrence_moe.py` (specialty×ruleset weighted mean, modest anchor blend, **per-frame-0 only for genuine ruleset-unavailability decided from BALLOTS not the panel's `availability_rulings` field**, floor 1%, largest-remainder to 100/frame) → adversarial verify wave → `scripts/apply_occurrence_calibration.py` writes the maps into `content/Positions/*.json`. graph.json gets scalar `attemptProbability` (no-gi default frame) + `attemptProbabilityByRuleset:{gi,nogi}` — parity with successRate. Committed provenance: `occurrence_calibration.json`. Orchestration + credit-outage-resilient resume runbook live in the gitignored `occurrence_elicitation/_orchestration/`. This is the first REAL gi≠nogi divergence in **content** (v1.51.0's divergence was votes-only), so the Q3.0 pre-flight (v1.52.1) first made ~10 readers divergence-tolerant. |
 | `npm run test:units` | **Pure-unit suites** — `node --test tests/*.test.mjs`: the share-link wire codec (`tests/share_lists_codec.test.mjs`) and the neural deck-hydration contract. No browser, no build, ~1s. Runs in `ci-validate.yml`. Note the shell-glob form: `node --test tests` is broken and `"tests/*.test.mjs"` needs Node ≥ 21's internal globbing. |
 | `npm run test:curated` | **Fast deployment gate**: representative core gameplay, pane, progression, persistence, and Forward catalog journeys tagged `@curated`. Runs on every dev/prod deployment with a 12-minute hard ceiling and a sub-10-minute target. Package-manager neutral: `pnpm test:curated` invokes the same script. |
-| `npm test` | **Complete core Playwright suite** (`e2e/journeys/`, config `e2e/playwright.config.ts`) against the built site on :8123. GitHub Actions builds the site once and runs four shards for PRs targeting `main` **or `dev`** (v1.76.3), weekly, and on demand — with the Playwright browser download cached per **resolved `@playwright/test` version** (NOT per package-lock hash — this repo bumps the version every commit, so a lockfile key missed every run while still uploading 261 MiB); each shard has a **25-minute** hard ceiling and the wall-time target is 10-15 minutes. Rigged RNG + simulated-time pump via `journey()`; workers=1/shard, retries=0. `pnpm test` invokes the same script. |
+| `npm test` | **Complete core Playwright suite** (`e2e/journeys/`, config `e2e/playwright.config.ts`) against the built site on :8123. GitHub Actions builds the site once and runs four shards for PRs targeting `main` **or `dev`** (v1.76.3), weekly, and on demand — with the Playwright browser download cached per **resolved `@playwright/test` version** (NOT per package-lock hash — this repo bumps the version every commit, so a lockfile key missed every run while still uploading 261 MiB); each shard has a **25-minute** hard ceiling and the wall-time target is 10-15 minutes. Rigged RNG + simulated-time pump via `journey()`; workers=1/shard, retries=0. `pnpm test` invokes the same script. **`j.boot()` contract (v1.81.2): it returns with NO in-flight progress write.** It waits for the deferred `curriculum.json` payload BEFORE completing the 20 White compatibility objectives, because `_onCurriculum() -> _refreshChallengeEvidence()` calls `_saveProgress()` when it finds durable change — so if that payload landed after the tutorial step it would silently overwrite whatever a spec seeded into localStorage, on nothing but machine speed. That was the whole "order-dependent flake" in `corrupt-blob-settings-persist-cleanly-after-heal` (green alone, red at #7 of 112). Guarded permanently by `e2e/journeys/harness-boot-inflight-write.spec.ts`, which delays the payload 2s on purpose. |
 | `npm run e2e` | Backward-compatible local alias for the complete core Playwright suite. `pree2e` checks the RNG seam. |
-| `npm run e2e:gen` | **Generated hyperspace suite** (v1.67.0): agent-authored journeys in `e2e/gen/`, tracked in `e2e/gen/ledger.json` (theme × lifecycle × feature × behavior + one-line invariant per test; persona seed builders in `e2e/gen/personas.ts`). Lints via `scripts/check_gen_specs.sh` (Math.random ban, `@hyperspace` headers, ledger↔spec sync) then runs `e2e/playwright.gen.config.ts`. SEPARATE from the push gate. Grown by the `testgen-wave` workflow (`.claude/workflows/testgen-wave.js`): scout → probe/play → author → validate (2× green + red-proof; all Playwright serialized via `flock /tmp/bjj-pw.lock`) → adversarial meta-validation vs the full ledger. |
+| `npm run e2e:gen` | **Generated hyperspace suite** (v1.67.0): agent-authored journeys in `e2e/gen/`, tracked in `e2e/gen/ledger.json` (theme × lifecycle × feature × behavior + one-line invariant per test; persona seed builders in `e2e/gen/personas.ts`). Lints via `scripts/check_gen_specs.sh` (Math.random ban, `@hyperspace` headers, ledger↔spec sync) then runs `e2e/playwright.gen.config.ts` — **its own port :8127 with `reuseExistingServer: false`** (v1.81.2). It used to share `:8123` + `reuseExistingServer: true` with the core config, which means whichever WORKTREE started :8123 first owns it and every later run tests THAT worktree's `source/public`: measured, a run from `bjjgraph-share` was served a 343,153-byte `neural.js` from `bjjgraph-legacy` (ours was 364,190), and a sibling rebuilding `source/public` mid-run changes the bytes under a live suite. SEPARATE from the push gate. Grown by the `testgen-wave` workflow (`.claude/workflows/testgen-wave.js`): scout → probe/play → author → validate (2× green + red-proof; all Playwright serialized via `flock /tmp/bjj-pw.lock`) → adversarial meta-validation vs the full ledger. |
 | `npm run e2e:quarantine` | Known-RED specs capturing real gameplay bugs found by test-gen waves; each pairs with an entry in `e2e/quarantine/ISSUES.md`. Excluded from all gates; a spec going green here means its bug got fixed → promote to `e2e/gen/` + flip its ledger status. |
 | `npm run e2e:observe` | Watch any spec live from another machine: the browser exposes CDP :9222 + slowMo (`OBSERVE_SLOWMO=600`). Part of the **paired-debugging skill** (`.claude/skills/paired-debugging/SKILL.md`): Mode 1 drives the owner's own tab at bjjgraph:8080 through the dev-serve bridge (`node scripts/paired_session.mjs bridge start`, then `cmd`/`results`); Mode 2 shares a watchable CDP browser (`paired_session.mjs start` + `scripts/paired/driver.mjs`). Sessions journal to `e2e/paired/journals/` and are TRANSLATED (never replayed) into gen specs with owner think-time clamped. |
 
