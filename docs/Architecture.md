@@ -297,24 +297,57 @@ const config: QuartzConfig = {
 // quartz.layout.ts
 export const defaultContentPageLayout: PageLayout = {
   beforeBody: [
-    Component.Breadcrumbs(),
+    ...breadcrumbs, // gated on SHOW_BREADCRUMBS
     Component.ArticleTitle(),
-    Component.ContentMeta(),
-    Component.TagList(),
+    Component.ContentMeta({ showReadingTime: false }),
+    Component.VictoryDisplay(),
+    Component.TreeExplorer(),
+    Component.MoveCards(),
+    Component.OutcomeCards(),
+    Component.SystemProgress(),
+    Component.Flashcard(),
+    Component.Graph({
+      localGraph: { showTags: false, depth: 1 },
+      globalGraph: { showTags: false },
+    }),
   ],
-  left: [
-    Component.PageTitle(),
-    Component.Search(),
-    Component.Darkmode(),
-    Component.Explorer(),
-  ],
-  right: [
-    Component.Graph(),
-    Component.TableOfContents(),
-    Component.Backlinks(),
-  ],
+  left: [Component.DesktopOnly(Component.CategoryNav())],
+  right: [Component.DesktopOnly(Component.TableOfContents())],
 };
 ```
+
+The always-on surfaces (TopBar, AuthUI, ContentPanel, BackgroundGraph, TreeDrawer, the training
+strip + modals, Search, NeuralMount) are registered once in `sharedPageComponents.afterBody`.
+
+**Registration is the only reachability rail.** Quartz's `ComponentResources` emitter collects CSS
+and JS exclusively from the components a layout (or an emitter) actually registers, so an
+unregistered component contributes zero emitted bytes. v1.79.2 pruned the upstream components this
+fork never registered — Explorer/ExplorerNode, Darkmode, Backlinks, RecentNotes, Comments (giscus),
+PageTitle, TagList, Spacer, MobileOnly, NotDesktop — plus the unregistered transformers
+(Citations, Latex, HardLineBreaks, OxHugoFlavouredMarkdown, RoamFlavoredMarkdown), the CNAME
+emitter, the ExplicitPublish filter, 20 unused i18n locales, and the vendored upstream
+`source/docs/`. `scripts/check_build_fingerprint.py` is the proof: it compares the emitted file
+manifest and the index.css / prescript.js / postscript.js hashes against a pre-prune baseline in
+`tests/artifacts/build_fingerprint.json`. Run it in default mode after any such refactor (never
+`--strict` — `CreatedModifiedDate` makes HTML bodies differ between checkouts).
+
+**Two confounders make a stored baseline non-portable between checkouts.** Compare it against a
+baseline captured in the SAME checkout, or the gate reports failures it did not cause:
+
+- `source/quartz/static/neural/` is gitignored generated output, and the `Static` emitter copies
+  that tree wholesale. A checkout that has never run `regenerate:neural` emits ~2,932 fewer files
+  than one that has — nothing to do with the change under test.
+- `index.xml` is the "last 10 notes" RSS feed, and `generateRSSFeed` sorts by `modified` date. Every
+  `content/*.md` path is passed to git as `../content/...` relative to `source/`, which git cannot
+  resolve, so every page falls through to filesystem mtime. A fresh checkout stamps all 4,618 files
+  within the same millisecond, so the feed's membership is decided by sub-millisecond write order.
+  `index.xml` is therefore mtime-derived in exactly the way the gate exempts HTML bodies for, but
+  its size IS compared.
+
+The portable protocol, used to clear v1.79.2: build the pre-change tree and the post-change tree in
+the same checkout and diff the two manifests directly. Both produced 6,240 files with zero
+additions, zero removals, zero size differences across all 6,192 HTML pages, and byte-identical
+`index.css` (103,198 B), `prescript.js` (3,194 B) and `postscript.js` (1,457,060 B).
 
 ---
 
