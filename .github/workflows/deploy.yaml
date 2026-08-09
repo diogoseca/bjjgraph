@@ -94,6 +94,7 @@ jobs:
           npx quartz build -d ../content
           python3 ../scripts/regenerate_redirects.py
           python3 ../scripts/regenerate_headers.py
+          python3 ../scripts/check_headers_cache.py
           python3 ../scripts/regenerate_llms_txt.py
         working-directory: ./source
 

@@ -12,6 +12,88 @@
 # script-src by nonce/hash-ing Quartz's inline <script> bootstraps, then (3) rename the
 # header to "Content-Security-Policy". Google Fonts hosts are already allow-listed below
 # so the enforce flip won't break typography.
+# ── CACHE TIERS (v1.77.0) ──
+# Field data that forced this (Cloudflare Observatory, 24h to 2026-08-09):
+# cache hit ratio 6.97% CF / 93.03% origin · TTFB P75 2,461ms · LCP P75 13,764ms.
+# The zone was caching essentially nothing because this file shipped ZERO
+# Cache-Control rules and Cloudflare Pages defaults HTML to must-revalidate.
+#
+# ⚠ DISJOINTNESS IS LOAD-BEARING. Cloudflare: "An incoming request which matches
+# multiple rules' URL patterns will inherit all rules' headers" and "if a header is
+# applied twice the values are joined with a comma separator". Two matching
+# Cache-Control rules therefore yield `max-age=300, ..., max-age=14400, ...` and the
+# FIRST max-age wins — which would silently cap static assets at the HTML TTL. So:
+#   1. `/*` below MUST NOT carry Cache-Control.
+#   2. No two blocks here may match the same path. `/X` and `/X/*` are disjoint
+#      (the splat requires the slash), which is why both forms are listed.
+# Verify after deploy: curl -sI the three tiers (see the plan's verification block).
+#
+# No `immutable` anywhere: neural.js, graph-data.json, the flashcard chunks and the
+# CSS/JS bundles all change under FIXED URLs on every deploy. Content-hashed
+# filenames are the prerequisite for immutable — tracked as a follow-up.
+
+# Tier 1 — static assets incl. the 38MB Neural data layer: 4h fresh, 1d background revalidate
+/static/*
+  Cache-Control: public, max-age=14400, stale-while-revalidate=86400
+
+# Tier 1 — root-level bundles Quartz emits (postscript.js alone is 1.36MB)
+/index.css
+  Cache-Control: public, max-age=14400, stale-while-revalidate=86400
+/prescript.js
+  Cache-Control: public, max-age=14400, stale-while-revalidate=86400
+/postscript.js
+  Cache-Control: public, max-age=14400, stale-while-revalidate=86400
+
+# Tier 2 — content HTML: short freshness so a deploy propagates fast, 1h SWR so the
+# edge answers instantly and revalidates behind the request. This is the tier that
+# moves TTFB P75, since RUM TTFB measures the navigation document.
+/
+  Cache-Control: public, max-age=300, stale-while-revalidate=3600
+/Positions
+  Cache-Control: public, max-age=300, stale-while-revalidate=3600
+/Positions/*
+  Cache-Control: public, max-age=300, stale-while-revalidate=3600
+/Transitions
+  Cache-Control: public, max-age=300, stale-while-revalidate=3600
+/Transitions/*
+  Cache-Control: public, max-age=300, stale-while-revalidate=3600
+/Submissions
+  Cache-Control: public, max-age=300, stale-while-revalidate=3600
+/Submissions/*
+  Cache-Control: public, max-age=300, stale-while-revalidate=3600
+/Principles
+  Cache-Control: public, max-age=300, stale-while-revalidate=3600
+/Principles/*
+  Cache-Control: public, max-age=300, stale-while-revalidate=3600
+/Systems
+  Cache-Control: public, max-age=300, stale-while-revalidate=3600
+/Systems/*
+  Cache-Control: public, max-age=300, stale-while-revalidate=3600
+/Learning
+  Cache-Control: public, max-age=300, stale-while-revalidate=3600
+/Learning/*
+  Cache-Control: public, max-age=300, stale-while-revalidate=3600
+/tags
+  Cache-Control: public, max-age=300, stale-while-revalidate=3600
+/tags/*
+  Cache-Control: public, max-age=300, stale-while-revalidate=3600
+/Game-Over
+  Cache-Control: public, max-age=300, stale-while-revalidate=3600
+/Tree
+  Cache-Control: public, max-age=300, stale-while-revalidate=3600
+/terms
+  Cache-Control: public, max-age=300, stale-while-revalidate=3600
+/privacy
+  Cache-Control: public, max-age=300, stale-while-revalidate=3600
+
+# Tier 3 — crawler-facing indexes: 1h, no SWR (they must not lag a deploy for long)
+/sitemap.xml
+  Cache-Control: public, max-age=3600
+/index.xml
+  Cache-Control: public, max-age=3600
+/llms.txt
+  Cache-Control: public, max-age=3600
+
 /*
   X-Content-Type-Options: nosniff
   X-Frame-Options: SAMEORIGIN

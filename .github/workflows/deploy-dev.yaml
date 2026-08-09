@@ -63,6 +63,10 @@ jobs:
           npx quartz build -d ../content
           python3 ../scripts/regenerate_redirects.py
           python3 ../scripts/regenerate_headers.py
+          python3 ../scripts/check_headers_cache.py
+          # PARITY: prod runs this too. Without it the preview shipped no llms.txt,
+          # so the AI-crawler surface was never actually exercised before prod.
+          python3 ../scripts/regenerate_llms_txt.py
         working-directory: ./source
 
       - name: Copy raw HTML folder
