@@ -608,34 +608,27 @@ Every submission MUST include:
 - Release protocol
 - Safety-critical questions in assessment
 
-### Systems & Affiliate Products (the revenue surface)
+### Systems: product links (mechanics only)
 
-Systems exist to recommend the BJJFanatics instructional that teaches the system's nodes; affiliate
-commission on those links is the project's only revenue today. Full runbook: **`docs/Affiliate.md`**.
+A System may recommend an instructional. Only the MECHANICS live in this public repo — commercial
+terms, partner strategy and the ref itself are deliberately kept out of it.
 
-- **The product stays free for users.** Revenue = affiliate now, gyms later, subscriber-only
-  expensive-compute features (VLM, video) later still. Never paywall an existing feature and never
-  gate content behind an account.
 - **Products live in content JSON** — `content/Systems/<System>.json` → `products[]`
   (`id`, `title`, `instructor`, `vendor`, `affiliate_url`, `image`, `blurb`, `price_usd`). Rendered by
-  `templates/Systems.md.jinja2` (via the `with_utm` filter) and served to the Neural app in
-  `source/quartz/static/neural/systems.json`.
-- **Never invent a product URL.** Every `affiliate_url` is opened in a browser and confirmed to
-  resolve to that instructional before it is committed. A fabricated `bjjfanatics.com` link is a
-  broken promise, and it earns nothing.
-- **The ref is injected at deploy time.** Content carries the literal `?ref=REPLACE_ME`;
-  `scripts/apply_affiliate_ref.py` substitutes `$AFFILIATE_REF` (a GitHub secret) into the EMITTED
-  artifacts only — `source/public/**` and the Neural `systems.json`, never `content/Systems/*.json`.
-  This repo is public, so the ref must never be committed. No secret = WARNING, placeholder kept,
-  build still passes.
-- **Disclosure is mandatory** (FTC 16 CFR 255, ASA/CAP): a clear sentence next to every affiliate
-  link, not just in `content/terms.md`, plus `rel="sponsored nofollow noopener"`. Exact wording and
-  placement in `docs/Affiliate.md`.
-- **Backlog: 44 of 47 systems have NO product**, so 44 system pages monetise nothing. Filling them
-  with verified links is the highest-value content work available.
-
----
-
+  `templates/Systems.md.jinja2` and served to the Neural app via
+  `source/quartz/static/neural/systems.json` (emitted by `scripts/regenerate_neural_data.py`).
+- **Never invent a product URL.** Every `affiliate_url` is opened and confirmed to resolve to that
+  instructional before being committed. A fabricated vendor link is a broken promise and earns nothing.
+- **The ref is injected at deploy time, never committed.** Content carries the literal
+  `?ref=REPLACE_ME`; `scripts/apply_affiliate_ref.py` substitutes `$AFFILIATE_REF` (a repo secret)
+  into EMITTED artifacts only — `source/public/**` and the Neural `systems.json` — never into
+  `content/`. This repo is public. No secret set = WARNING, placeholder kept, exit 0, so local builds
+  and previews still work. `scripts/check_systems_payload.py` runs AFTER the stamp in both deploy
+  workflows and fails if a placeholder survives once the secret IS set.
+- **Proximate disclosure is mandatory and is rendered from two places** — the app CTA shelf
+  (`[data-affiliate-disclosure]` in `neural/src/app.src.jsx`) and `templates/Systems.md.jinja2`,
+  above the product cards. FTC 16 CFR 255 and UK ASA/CAP require it close to the link; a site-wide
+  statement in `content/terms.md` is the backstop, not the disclosure. Keep both copies identical.
 ## 8. RESOURCES
 
 ### Project Links
@@ -671,7 +664,6 @@ commission on those links is the project's only revenue today. Full runbook: **`
 | `docs/Architecture.md` | JSON pipeline, Position model |
 | `docs/Content.md` | Full content standards, validation rules |
 | `docs/SEO.md` | Schema markup, keywords, analytics setup |
-| `docs/Affiliate.md` | Systems affiliate revenue: ref secret, product URLs, disclosure |
 
 ### Deployment
 

@@ -535,7 +535,7 @@ def build_systems(graph: dict, node_ids: list[str]) -> dict:
             for m in (gsystems.get(slugify(name)) or {}).get("members") or []
         }
 
-        nodes, unresolved = [], []
+        nodes, unresolved, glue = [], [], []
         for item in data.get("related_content") or []:
             if not isinstance(item, dict):
                 continue
@@ -549,8 +549,27 @@ def build_systems(graph: dict, node_ids: list[str]) -> dict:
             hit = _resolve_member(ref, ctype, members.get(ref.lower()), ids, idx)
             if hit:
                 nodes.extend(hit)
+                # THE GLUE. A System is not a node, it is a set of nodes plus the reason they
+                # belong together — the authored `relationship` says what each one DOES in the
+                # system ("primary finishing position", "entry when they refuse the leg"). Lighting
+                # nodes up without it just shows a constellation; this is what makes it a system.
+                # One entry per authored ref (not per resolved id) so the text is never duplicated
+                # across a hub's expanded children.
+                glue.append({"ref": ref, "nodes": hit, "role": _clip(item.get("relationship") or "", 180)})
             elif ref not in unresolved:
                 unresolved.append(ref)
+
+        # The ordered spine: implementation_sequence is the system's narrative, and it is what
+        # turns a lit set into "do this, then this". Carried verbatim, clipped, phases only.
+        sequence = [
+            {
+                "n": step.get("step_number") or i + 1,
+                "phase": _clip((step.get("phase") or "").strip(), 80),
+                "detail": _clip((step.get("description") or "").strip(), 220),
+            }
+            for i, step in enumerate(data.get("implementation_sequence") or [])
+            if isinstance(step, dict) and (step.get("phase") or step.get("description"))
+        ]
 
         prods = _products(data, name)
         n_products += len(prods)
@@ -562,6 +581,8 @@ def build_systems(graph: dict, node_ids: list[str]) -> dict:
             "type": (data.get("system_type") or "").strip(),
             "difficulty": (data.get("difficulty_level") or "").strip(),
             "nodes": sorted(set(nodes)),
+            "glue": glue,
+            "sequence": sequence,
             "unresolved": unresolved,
             "products": prods,
         })

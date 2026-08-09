@@ -114,3 +114,56 @@
   font-size: 10.5px;
   line-height: 1.45;
 }
+
+/* ── the glue ── the ordered spine and each member's role. These carry the meaning of a
+   system; the lit nodes alone are just a constellation. */
+.ng-system-sequence {
+  margin: 0 0 10px;
+  padding: 0 0 0 22px;
+  display: grid;
+  gap: 7px;
+  color: #c4cde0;
+  font-size: 12px;
+}
+.ng-system-sequence > li { line-height: 1.4; }
+.ng-system-sequence b { color: #dbe2f0; font-size: 12px; }
+.ng-system-sequence span {
+  display: block;
+  margin-top: 2px;
+  color: #8b97b0;
+  font-size: 10.5px;
+  line-height: 1.45;
+}
+.ng-system-members-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 6px 12px 4px;
+}
+.ng-system-members-head .ng-system-kicker {
+  color: #7b8aa8;
+  font-size: 10.5px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+.ng-system-members-head b { color: #9ab0e0; font-size: 11px; white-space: nowrap; }
+.ng-system-role {
+  display: block;
+  margin-top: 1px;
+  color: #7f8ba4;
+  font-size: 10px;
+  line-height: 1.4;
+}
+.ng-system-drill {
+  width: calc(100% - 24px);
+  margin: 10px 12px 4px;
+  padding: 10px;
+  border: 1px solid rgba(150, 170, 210, 0.28);
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.05);
+  color: #dbe2f0;
+  font: 700 12px/1 "Plus Jakarta Sans", sans-serif;
+  cursor: pointer;
+}

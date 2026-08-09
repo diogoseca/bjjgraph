@@ -25,7 +25,7 @@ A missing ref costs attribution on one deploy; a failed build costs the deploy â
 so no AFFILIATE_REF means WARNING and exit 0. A malformed ref exits 1, because it
 would ship a broken href into every product card.
 
-Runbook (owner-facing): docs/Affiliate.md
+Commercial terms and the ref itself are intentionally NOT documented in this public repo.
 
 Usage:  AFFILIATE_REF=<ref> python3 scripts/apply_affiliate_ref.py [--dry-run]
 Exit:   0 = stamped, or nothing to do, or no ref; 1 = AFFILIATE_REF is unusable.
@@ -126,7 +126,7 @@ def main() -> None:
         print(
             f"[apply_affiliate_ref] WARNING: AFFILIATE_REF is not set â€” leaving the "
             f"{PLACEHOLDER} placeholder in place. Affiliate clicks from this build earn "
-            f"NOTHING. Set the AFFILIATE_REF secret (see docs/Affiliate.md); a local or "
+            f"NOTHING. Set the AFFILIATE_REF secret ; a local or "
             f"fork build needs no ref."
         )
         sys.exit(0)

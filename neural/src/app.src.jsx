@@ -1977,6 +1977,26 @@ class Component extends DCLogic {
     const prep = this.prep || {};
     if (bucket === "mastered") return keys.filter((k) => prep[k] > 0);
     if (bucket === "explored") return [...(this._exploredKeys || [])];
+    // "system:<Systems/Slug>" — drill exactly the lit members, in the system's own order rather
+    // than alphabetically, so the session walks the sequence the way the material teaches it.
+    if (bucket.indexOf("system:") === 0) {
+      const sys = (this.systems || []).find((x) => x.id === bucket.slice(7)); // this.systems IS the array
+      if (!sys) return [];
+      const seen = new Set();
+      const out = [];
+      const ordered = (Array.isArray(sys.glue) && sys.glue.length)
+        ? sys.glue.reduce((acc, g) => acc.concat(g.nodes || []), [])
+        : (sys.nodes || []);
+      for (const id of ordered) {
+        const i = this._idIndex ? this._idIndex.get(id) : null;
+        if (i == null) continue;
+        const k = this.deckKeyFor(this.nodes[i]).key;
+        if (!decks[k] || seen.has(k)) continue;   // skip unauthored decks, never a dead session row
+        seen.add(k);
+        out.push(k);
+      }
+      return out;
+    }
     if (bucket === "suggested") {
       // weakest-first, ONE entry per technique/position — deck keys come in Top/Bottom pairs of
       // the same base (and base positions' blended Top/Bottom decks are identical), which reads
@@ -3109,15 +3129,65 @@ class Component extends DCLogic {
       }
       list.appendChild(shelf);
     }
+    // ── THE GLUE ── A system is not a node and not merely a set of nodes: it is the set plus the
+    // reason they belong together. Two authored layers carry that and neither was ever surfaced:
+    // `sequence` (the ordered narrative — do this, then this) and each member's `role` (what that
+    // technique DOES here). Without them a selection is just a constellation lighting up.
+    const seq = Array.isArray(s.sequence) ? s.sequence : [];
+    if (seq.length) {
+      const spine = document.createElement("ol");
+      spine.className = "ng-system-sequence";
+      spine.setAttribute("data-system-sequence", String(seq.length));
+      spine.innerHTML = seq
+        .map((st) => "<li><b>" + E(st.phase || "") + "</b>" + (st.detail ? "<span>" + E(st.detail) + "</span>" : "") + "</li>")
+        .join("");
+      list.appendChild(mk('<span style="font-size:10.5px;letter-spacing:.12em;text-transform:uppercase;color:#7b8aa8;font-weight:700;">How it runs</span>', 12));
+      list.appendChild(spine);
+    }
     if (idxs.length) {
-      list.appendChild(mk('<span style="font-size:10.5px;letter-spacing:.12em;text-transform:uppercase;color:#7b8aa8;font-weight:700;">In this system</span>', 12));
+      // Derived progress, never self-reported: this app's canon is that mastery is recall-proven
+      // (MC can never mint it), so a "mark as known" button would let a claim outrank the evidence.
+      // Count members whose deck is recall-proven and offer the drill instead of the claim.
+      const proven = idxs.filter((i) => {
+        try { return (this.rec || {})[this.deckKeyFor(this.nodes[i]).key] >= 3; } catch (e) { return false; }
+      }).length;
+      const head = document.createElement("div");
+      head.className = "ng-system-members-head";
+      head.setAttribute("data-system-progress", proven + "/" + idxs.length);
+      head.innerHTML =
+        '<span class="ng-system-kicker">In this system</span><b>' + proven + "/" + idxs.length + " recall-proven</b>";
+      list.appendChild(head);
+      const roleFor = new Map();
+      for (const g of Array.isArray(s.glue) ? s.glue : []) {
+        for (const id of g.nodes || []) if (g.role && !roleFor.has(id)) roleFor.set(id, g.role);
+      }
       for (const i of idxs) {
         const n = this.nodes[i], sp = this.splitName(n.t);
-        const row = mk(this.nodeGlyph(n.ty, this.hex(n.col), 8) + '<span style="font-size:13px;color:#c4cde0;">' + sp.main + (sp.from ? ' <span style="color:#6b7691;font-size:11px;">' + sp.from + '</span>' : "") + '</span>', 22, () => this.openDossier(i));
+        const role = roleFor.get(n.id) || "";
+        const row = mk(
+          this.nodeGlyph(n.ty, this.hex(n.col), 8) +
+            '<span style="min-width:0;"><span style="font-size:13px;color:#c4cde0;">' + sp.main +
+            (sp.from ? ' <span style="color:#6b7691;font-size:11px;">' + sp.from + "</span>" : "") + "</span>" +
+            (role ? '<span class="ng-system-role">' + E(role) + "</span>" : "") + "</span>",
+          22,
+          () => this.openDossier(i),
+        );
         row.setAttribute("data-system-node", n.id);
+        if (role) row.setAttribute("data-system-role", "1");
         row.style.pointerEvents = "auto";
         list.appendChild(row);
       }
+      const drill = document.createElement("button");
+      drill.type = "button";
+      drill.className = "ng-system-drill";
+      drill.setAttribute("data-system-drill", "1");
+      drill.style.pointerEvents = "auto";
+      drill.textContent = proven >= idxs.length ? "Review this system" : "Drill this system";
+      drill.addEventListener("click", () => {
+        this.track("neural_system_drill_started", { system: s.name, nodes: idxs.length, proven: proven });
+        this.openSession("system:" + s.id, s.name);
+      });
+      list.appendChild(drill);
     }
     const missing = (Array.isArray(s.unresolved) ? s.unresolved : []).length;
     if (missing) list.appendChild(mk('<span style="font-size:11px;color:#69748f;">' + missing + " more technique" + (missing === 1 ? "" : "s") + " here aren\u2019t on the map yet</span>", 22));
