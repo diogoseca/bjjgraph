@@ -984,8 +984,8 @@
   "meta": {
    "article:modified_time": "<volatile>",
    "article:published_time": "<volatile>",
-   "description": "The whole Brazilian jiu-jitsu game, mapped as one graph Brazilian jiu-jitsu is usually taught as a list of techniques. It is actually played as a state machine: you are always in some position, you always have a handful of moves worth attempting, and each attempt has a real chance of working, failing, or being countered.",
-   "og:description": "The whole Brazilian jiu-jitsu game, mapped as one graph Brazilian jiu-jitsu is usually taught as a list of techniques. It is actually played as a state machine: you are always in some position, you always have a handful of moves worth attempting, and each attempt has a real chance of working, failing, or being countered.",
+   "description": "Brazilian jiu-jitsu mapped as one interactive graph: every position, the moves worth attempting, and the odds each works, fails, or gets countered.",
+   "og:description": "Brazilian jiu-jitsu mapped as one interactive graph: every position, the moves worth attempting, and the odds each works, fails, or gets countered.",
    "og:height": "675",
    "og:image": "https://bjjgraph.org/static/og-image.png",
    "og:locale": "en_US",
