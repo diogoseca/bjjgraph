@@ -117,7 +117,7 @@ description: "Master attacking Ashi Garami maintenance with systematic connectio
       "name": "Your opponent begins pushing your bottom knee toward the mat to open inside space - how do you adjust?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Counter the knee push by driving your inside knee back toward the opponent's centerline while simultaneously pulling their trapped leg tighter with your upper body grips. If the knee push succeeds partially, immediately re-pummel your inside knee back to the blocking position. Use hip rotation rather than pure knee strength to maintain the blocking angle against their push."
+        "text": "Counter the knee push by driving your inside knee back to their centerline while pulling their trapped leg tighter with your grips. Make the pull with your upper body grips, and if the push partially succeeds, immediately re-pummel your inside knee back to the blocking position. Use hip rotation rather than pure knee strength to maintain the blocking angle against their push."
       }
     }
   ]

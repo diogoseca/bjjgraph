@@ -85,7 +85,7 @@ description: "Execute the Posture Up from Triangle escape in BJJ. Step-by-step g
       "name": "Your opponent has a tight triangle locked and begins extending their hips for maximum pressure—should you attempt to posture up immediately?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "No. Attempting to posture against maximum hip extension and optimal angle is the lowest-percentage timing. First address the fundamentals: tuck your chin, establish a connected grip behind their hips, and work to square your shoulders to their hips to disrupt the choking angle. The optimal window for posture-up is before they achieve full angle adjustment and hip extension. If they have already achieved optimal position, consider alternative escapes like stacking or the triangle clear."
+        "text": "No—posturing up against maximum hip extension and an optimal angle is the lowest-percentage timing for the escape. First address the fundamentals: tuck your chin, establish a connected grip behind their hips, and work to square your shoulders to their hips to disrupt the choking angle. The optimal window for posture-up is before they achieve full angle adjustment and hip extension. If they have already achieved optimal position, consider alternative escapes like stacking or the triangle clear."
       }
     },
     {
@@ -109,7 +109,7 @@ description: "Execute the Posture Up from Triangle escape in BJJ. Step-by-step g
       "name": "Why is squaring your shoulders to the opponent's hips a critical step during posture recovery?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The triangle choke achieves maximum pressure when the bottom player angles their body 30-45 degrees off your centerline, creating optimal compression geometry against the carotid arteries. Squaring your shoulders directly to their hips eliminates this angular advantage, reducing the effectiveness of the choke even before you achieve full posture height. Addressing the angle is as important as addressing the height—a squared position with moderate posture may be safer than full height with the opponent maintaining optimal angle."
+        "text": "Squaring your shoulders to their hips eliminates the 30-45 degree off-angle that gives the triangle its maximum choking pressure. The choke achieves optimal compression geometry against the carotid arteries when the bottom player angles their body off your centerline, so removing that angle reduces the choke's effectiveness even before you achieve full posture height. Addressing the angle is as important as addressing the height—a squared position with moderate posture may be safer than full height with the opponent maintaining optimal angle."
       }
     },
     {

@@ -113,7 +113,7 @@ description: "How to execute Armbar from Guard in BJJ. Attacking perspective wit
       "name": "How does the leg position over opponent's head contribute to armbar control and what happens if this detail is neglected?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The leg over the head serves multiple critical functions: it prevents opponent from posturing back up, creates a base point for your rotation, helps maintain the perpendicular angle, and prevents opponent from turning into you to escape. If this leg position is not established or is lost, opponent can sit up, regain posture, turn toward you, and either escape the armbar entirely or pass to side control. This leg acts as both control and base, making it essential for successful finish."
+        "text": "The leg over the head stops the opponent posturing up or turning into you, while giving you a base point for rotation and the perpendicular angle. It acts as both control and base simultaneously, making it essential for a successful finish. If it is never established or is lost, the opponent can sit up, regain posture, turn toward you, and either escape the armbar entirely or pass to side control."
       }
     }
   ]

@@ -87,7 +87,7 @@ description: "How to execute Darce Setup in BJJ. Attacking perspective with setu
       "name": "Your opponent grabs your threading arm and prevents deep penetration — how do you adjust?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "You have several options: switch to an Anaconda setup by adjusting your grip configuration, transition to a crucifix position by controlling their defending arm, or use their grip as an opportunity to transition to back control. The key is not to fight their grip directly but rather to flow to an alternative attack that exploits their commitment to defending the Darce."
+        "text": "Don't fight the grip — flow to an alternative attack like the Anaconda, crucifix, or back take that exploits their defensive commitment. Switching to an Anaconda means adjusting your grip configuration, the crucifix comes from controlling their defending arm, and their grip on your threading arm can itself open the transition to back control. The key is never to fight their grip directly but to punish their commitment to defending the Darce."
       }
     },
     {
@@ -95,7 +95,7 @@ description: "How to execute Darce Setup in BJJ. Attacking perspective with setu
       "name": "Why is shoulder pressure important during the Darce setup sequence?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Constant shoulder pressure keeps opponent's posture broken, prevents them from regaining defensive structure, and maintains control of their head and upper body. This pressure also keeps their weight distributed poorly, making movement difficult and escape pathways limited. Without consistent pressure, opponents can create space and recover posture to stand or turn away."
+        "text": "Constant shoulder pressure keeps the opponent's posture broken and denies them the space to rebuild defensive structure. It maintains control of their head and upper body while keeping their weight distributed poorly, making movement difficult and limiting escape pathways. Without consistent pressure, opponents can create space and recover posture to stand or turn away."
       }
     },
     {

@@ -77,7 +77,7 @@ description: "How to execute Back Step Pass in BJJ. Attacking perspective with s
       "name": "What is the primary goal of the Back Step Pass?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The primary goal is to extract your leg from an impending or established leg entanglement while simultaneously creating a passing angle that allows you to advance to side control. It converts a defensive necessity into an offensive passing opportunity."
+        "text": "The primary goal is to extract your leg from a leg entanglement while creating a passing angle that advances you to side control. It works against both impending and established entanglements, and it converts a defensive necessity into an offensive passing opportunity in one motion."
       }
     },
     {
@@ -85,7 +85,7 @@ description: "How to execute Back Step Pass in BJJ. Attacking perspective with s
       "name": "What position do you start Back Step Pass from?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "This technique starts from Grasshopper Guard/Top, specifically when the bottom player's inverted posture and leg configurations are threatening to establish hooks, threads, or rotational attacks on your lower limbs."
+        "text": "The Back Step Pass starts from Grasshopper Guard/Top, when the bottom player's inverted legwork threatens your lower limbs. Specifically, it is triggered when their inverted posture and leg configurations are threatening to establish hooks, threads, or rotational attacks on your legs."
       }
     },
     {

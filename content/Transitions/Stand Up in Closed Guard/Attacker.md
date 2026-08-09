@@ -91,7 +91,7 @@ description: "Master the standing guard break from closed guard top. Step-by-ste
       "name": "Why should you stand with a staggered stance rather than both feet parallel?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "A staggered stance provides significantly better anteroposterior balance against the pulling forces your opponent generates with their locked guard and grip control. With feet parallel, a strong collar pull directly forward or a hip extension pushing you backward can easily break your balance. The staggered stance creates a triangular base of support that resists forces from multiple directions while maintaining enough mobility for weight shifting and guard-breaking hip pressure."
+        "text": "A staggered stance creates a triangular base that resists the forward and backward pulling forces of the locked guard. With feet parallel, a strong collar pull directly forward or a hip extension pushing you backward can easily break your balance, since your anteroposterior support is minimal. The staggered stance resists forces from multiple directions while maintaining enough mobility for weight shifting and guard-breaking hip pressure."
       }
     },
     {
@@ -107,7 +107,7 @@ description: "Master the standing guard break from closed guard top. Step-by-ste
       "name": "What is the critical weight distribution principle during the transition from kneeling to standing?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Keep your center of gravity positioned directly over your base of support throughout the entire transition—your hips must remain under your shoulders at all times. The most common failure occurs when practitioners lean forward over their opponent during the stand-up, which shifts their weight past their base and makes them vulnerable to sweeps that use their forward momentum. Drive upward and slightly backward during the ascent, ensuring your weight stays over your own feet rather than projecting forward over the opponent's guard."
+        "text": "Keep your hips under your shoulders so your center of gravity stays directly over your base of support throughout the entire transition. The most common failure occurs when practitioners lean forward over their opponent during the stand-up, which shifts their weight past their base and makes them vulnerable to sweeps that use their forward momentum. Drive upward and slightly backward during the ascent, ensuring your weight stays over your own feet rather than projecting forward over the opponent's guard."
       }
     },
     {

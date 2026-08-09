@@ -87,7 +87,7 @@ description: "How to execute Crossface Pass in BJJ. Attacking perspective with s
       "name": "Your opponent secures a deep underhook before you can establish the crossface - how do you adjust?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "When the opponent secures a deep underhook, the crossface pass becomes significantly harder because they can generate the rotational power to turn into you and threaten sweeps or back takes. The best adjustment is to abandon the crossface pass attempt and transition to a knee slice pass or backstep pass, which work with or around their underhook rather than requiring you to neutralize it. Alternatively, apply a strong whizzer to limit their underhook effectiveness while switching your passing angle."
+        "text": "Abandon the crossface pass and switch to a knee slice or backstep pass, which work with or around the deep underhook. A deep underhook gives the opponent the rotational power to turn into you and threaten sweeps or back takes, making the crossface pass significantly harder to complete. Alternatively, apply a strong whizzer to limit the underhook's effectiveness while switching your passing angle."
       }
     },
     {
@@ -103,7 +103,7 @@ description: "How to execute Crossface Pass in BJJ. Attacking perspective with s
       "name": "You feel your opponent beginning to insert their knee for a knee shield while you have crossface - what is your immediate response?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The moment you feel the knee shield insertion beginning, you must drive your weight forward and downward aggressively to close the space before their knee can fully enter. Use your crossface-side hip to pin their inserting knee back down while increasing shoulder pressure. If they get the knee partially in, immediately transition to a smash pass or knee cut approach rather than fighting the established knee shield. Prevention through forward pressure is always easier than passing an established knee shield."
+        "text": "Drive your weight forward and downward aggressively the instant you feel the knee shield starting, closing the space before their knee fully enters. Use your crossface-side hip to pin the inserting knee back down while increasing shoulder pressure. If the knee gets partially in, immediately transition to a smash pass or knee cut approach rather than fighting an established knee shield — prevention through forward pressure is always easier than passing the shield once it is set."
       }
     },
     {
@@ -111,7 +111,7 @@ description: "How to execute Crossface Pass in BJJ. Attacking perspective with s
       "name": "What grip configuration do you need before beginning leg extraction?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Before beginning leg extraction, you need three control points established: the crossface forearm driving across the opponent's jaw with shoulder pressure flattening them, the far arm controlled via underhook or wrist pin to prevent framing, and your head positioned on the opposite side from the trapped leg creating a structural wedge. Without all three control points, the opponent retains enough defensive capability to follow your hips during extraction or create frames that prevent the pass."
+        "text": "Leg extraction requires three control points: the crossface with shoulder pressure, far-arm control, and your head opposite the trapped leg. The crossface forearm drives across the opponent's jaw to flatten them, the far arm is controlled via underhook or wrist pin to prevent framing, and your head positioned on the side opposite the trapped leg creates a structural wedge. Without all three, the opponent retains enough defensive capability to follow your hips during extraction or build frames that prevent the pass."
       }
     }
   ]

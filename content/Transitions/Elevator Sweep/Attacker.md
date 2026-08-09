@@ -99,7 +99,7 @@ description: "How to execute the Elevator Sweep from butterfly guard in BJJ. Att
       "name": "How should you coordinate the hook lift and upper body pull during the sweep execution, and why is this coordination important?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The hook lift and upper body pull must occur simultaneously as one unified explosive movement - legs push up and extend while arms pull down and rotate in the sweep direction. This coordination is essential because each component alone is insufficient. If you only pull with arms, opponent can base with their legs. If you only lift with hooks, they can post with arms or counterbalance with upper body. The simultaneous action overwhelms their ability to defend both components at once, creating an irresistible force that completes the sweep."
+        "text": "The hook lift and arm pull must fire simultaneously as one unified explosive movement, overwhelming the opponent's ability to defend both at once. Legs push up and extend while the arms pull down and rotate in the sweep direction. This coordination is essential because each component alone is insufficient: if you only pull with the arms, the opponent can base with their legs, and if you only lift with the hooks, they can post with their arms or counterbalance with their upper body. The simultaneous action creates an irresistible force that completes the sweep."
       }
     },
     {
@@ -115,7 +115,7 @@ description: "How to execute the Elevator Sweep from butterfly guard in BJJ. Att
       "name": "What are the critical grip requirements for the elevator sweep, and how do they differ between gi and no-gi?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "In gi, the primary grip configuration is a deep overhook on one side with the hand gripping the opponent's lat or back of the gi, while the opposite hand controls their collar, sleeve, or establishes an underhook. In no-gi, the overhook is replaced by a seatbelt configuration with one arm over the shoulder and one under the armpit, hands clasped together. Both configurations serve the same purpose: controlling the opponent's upper body rotation and preventing them from creating distance or posting. The grip must be tight enough that pulling with the arms creates immediate rotational force on the opponent's torso."
+        "text": "In gi, use a deep overhook gripping the lat or back of the gi; in no-gi, replace it with a seatbelt grip, hands clasped over the shoulder and under the armpit. In gi, the opposite hand controls their collar, sleeve, or establishes an underhook. Both configurations serve the same purpose: controlling the opponent's upper body rotation and preventing them from creating distance or posting. The grip must be tight enough that pulling with the arms creates immediate rotational force on the opponent's torso."
       }
     },
     {
@@ -123,7 +123,7 @@ description: "How to execute the Elevator Sweep from butterfly guard in BJJ. Att
       "name": "Why is head position against opponent's chest critical for elevator sweep success, and what specifically does it prevent?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Tight head position against opponent's chest on the overhook side prevents them from posting with the overhooked arm, which is the most common and effective defense against this sweep. When your head creates pressure and connection, opponent cannot extend or post that arm to create base. The head position also prevents them from creating any space to generate counterforce or adjust their posture. Additionally, keeping your head tight makes it harder for them to apply a crossface or create angles for passing your guard. The ear-to-sternum connection makes your grips and hooks effective by eliminating space."
+        "text": "Pressing your head tight to the opponent's chest on the overhook side stops them posting the overhooked arm, the most common defense to this sweep. When your head creates pressure and connection, the opponent cannot extend or post that arm to create base, nor create any space to generate counterforce or adjust their posture. Keeping your head tight also makes it harder for them to apply a crossface or create angles for passing your guard. The ear-to-sternum connection makes your grips and hooks effective by eliminating space."
       }
     }
   ]

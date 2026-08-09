@@ -109,7 +109,7 @@ description: "How to execute Anaconda Setup in BJJ. Attacking perspective with s
       "name": "Explain the relationship between hip height and control during the anaconda setup, and why this matters for preventing common escapes?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Keeping your hips lower than your opponent's hips throughout the setup is essential for maintaining top pressure and preventing them from rolling through or securing leg attacks. High hips elevate your center of gravity, making you top-heavy and easier to roll or sweep. Low hips create downward pressure that pins the opponent and makes it very difficult for them to generate the momentum needed for escape attempts. The low hip position also protects against single leg attacks since your legs are positioned defensively rather than extended and vulnerable."
+        "text": "Keeping your hips lower than your opponent's throughout the setup maintains top pressure and prevents rolls and leg attacks. High hips elevate your center of gravity, making you top-heavy and easier to roll or sweep. Low hips create downward pressure that pins the opponent and makes it very difficult for them to generate the momentum needed for escape attempts. The low hip position also protects against single leg attacks since your legs are positioned defensively rather than extended and vulnerable."
       }
     },
     {
@@ -117,7 +117,7 @@ description: "How to execute Anaconda Setup in BJJ. Attacking perspective with s
       "name": "When should you consider switching from an anaconda setup to a Darce setup, and what is the primary indicator that triggers this decision?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "You should switch to a Darce setup when the opponent successfully tucks their near arm very tight to their body, making it impossible to trap that arm for the anaconda. The primary indicator is that when you attempt to thread your arm from the near side, you cannot get deep enough because their arm is glued to their ribs. In this scenario, switching to the Darce (threading from the far side to trap their far arm instead) becomes the higher percentage option. Advanced practitioners flow between both setups based on which arm the opponent exposes."
+        "text": "Switch to the Darce when the opponent tucks their near arm tight to their body, making it impossible to trap for the anaconda. The primary indicator is that when you attempt to thread your arm from the near side, you cannot get deep enough because their arm is glued to their ribs. In this scenario, switching to the Darce (threading from the far side to trap their far arm instead) becomes the higher percentage option. Advanced practitioners flow between both setups based on which arm the opponent exposes."
       }
     }
   ]

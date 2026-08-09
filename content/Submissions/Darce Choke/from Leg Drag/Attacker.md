@@ -95,7 +95,7 @@ description: "Master the Darce choke attack from leg drag control. Step-by-step 
       "name": "What control must be established before you can safely commit to the Darce entry from leg drag?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Before committing to the Darce, you must have established strong leg drag control with hip pressure pinning the opponent's lower body, preventing them from simply standing up or creating explosive distance. You need crossface or shoulder control that has forced the opponent into a defensive turning reaction toward you. The opponent's near arm must be positioned between your bodies rather than posted on the mat. Without these three elements—lower body control, forced rotation, and arm positioning—the Darce attempt will either fail or create space for the opponent to escape."
+        "text": "You need leg drag hip pressure pinning their lower body, crossface pressure forcing them to turn toward you, and their near arm trapped between your bodies. The hip pressure prevents them from simply standing up or creating explosive distance, and the crossface or shoulder control must have already forced a defensive turning reaction toward you. The near arm must be positioned between your bodies rather than posted on the mat. Without these three elements—lower body control, forced rotation, and arm positioning—the Darce attempt will either fail or create space for the opponent to escape."
       }
     },
     {
@@ -103,7 +103,7 @@ description: "Master the Darce choke attack from leg drag control. Step-by-step 
       "name": "At what point during the Darce sequence does the submission become inescapable, and what defines this threshold?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The point of no escape occurs when the figure-four grip is fully locked with the opponent's arm trapped inside the triangle and the attacker has begun sprawling their hips. Once the grip is secured and hip pressure is applied, the opponent cannot create enough space to extract their arm or relieve the carotid compression through strength alone. Before the grip locks, the opponent can still posture, frame, or fight the threading arm. The critical transition is the moment the free hand clasps the bicep and the threading hand moves behind the head—after this, the mechanical advantage overwhelmingly favors the attacker."
+        "text": "The Darce becomes inescapable once the figure-four grip fully locks with the arm trapped inside the triangle and you begin sprawling your hips. Once the grip is secured and hip pressure is applied, the opponent cannot create enough space to extract their arm or relieve the carotid compression through strength alone. Before the grip locks, the opponent can still posture, frame, or fight the threading arm. The critical transition is the moment the free hand clasps the bicep and the threading hand moves behind the head—after this, the mechanical advantage overwhelmingly favors the attacker."
       }
     },
     {
@@ -119,7 +119,7 @@ description: "Master the Darce choke attack from leg drag control. Step-by-step 
       "name": "What are the most common grip errors during the Darce finish, and how do they reduce effectiveness?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The most common grip error is locking the figure-four too loosely with the clasping hand not firmly against the bicep, allowing the opponent to create micro-space that relieves pressure. Second is placing the threading hand on top of the head rather than behind it, which pushes the opponent away instead of into the choke. Third is failing to keep elbows tight during the squeeze, dissipating force laterally. Each error reduces carotid compression and converts the choke into an uncomfortable but survivable position that the opponent can weather and eventually escape from."
+        "text": "The biggest errors are a loose figure-four off the bicep, the threading hand placed on top of the head instead of behind it, and flared elbows. Locking the figure-four too loosely, with the clasping hand not firmly against the bicep, lets the opponent create micro-space that relieves pressure. Placing the threading hand on top of the head pushes the opponent away instead of into the choke. Failing to keep the elbows tight during the squeeze dissipates force laterally. Each error reduces carotid compression and converts the choke into an uncomfortable but survivable position that the opponent can weather and eventually escape from."
       }
     }
   ]

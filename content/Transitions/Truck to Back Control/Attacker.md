@@ -91,7 +91,7 @@ description: "Execute the Truck to Back Control transition with precise hook ins
       "name": "What conditions must exist in the truck position before you should attempt this transition?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Four conditions must be present: secure seatbelt or harness grip providing reliable upper body control, stable boot pressure on the opponent's hip maintaining their orientation, the opponent's back sufficiently exposed for hook insertion pathways, and the opponent in a defensive posture rather than mid-escape. Attempting the transition without all four conditions significantly increases the risk of losing position entirely during the leg switch."
+        "text": "Four conditions must be present: a secure seatbelt grip, stable boot pressure on the hip, an exposed back for hooks, and a defensive opponent. The seatbelt or harness grip must provide reliable upper body control, the boot pressure on the opponent's hip must maintain their orientation, the opponent's back must be sufficiently exposed for hook insertion pathways, and the opponent must be in a defensive posture rather than mid-escape. Attempting the transition without all four conditions significantly increases the risk of losing position entirely during the leg switch."
       }
     },
     {
@@ -115,7 +115,7 @@ description: "Execute the Truck to Back Control transition with precise hook ins
       "name": "What grips must be maintained throughout the entire transition from truck to back control?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The seatbelt grip with one arm over the opponent's shoulder and one under their armpit, hands clasped together, must be maintained throughout the entire transition without interruption. This grip provides the only continuous control point during the leg switch phase. Additionally, chest-to-back connection must be constant, serving as both a weight distribution mechanism and a positional anchor that prevents the opponent from creating space."
+        "text": "The seatbelt grip — one arm over the shoulder, one under the armpit, hands clasped — must be maintained without interruption for the entire transition. This grip provides the only continuous control point during the leg switch phase. Additionally, chest-to-back connection must be constant, serving as both a weight distribution mechanism and a positional anchor that prevents the opponent from creating space."
       }
     },
     {
@@ -123,7 +123,7 @@ description: "Execute the Truck to Back Control transition with precise hook ins
       "name": "In which direction should your weight shift during the transition from perpendicular to parallel alignment?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Your weight should shift forward and slightly upward along the opponent's spine, sliding from the perpendicular truck angle toward a position directly behind their back. The forward pressure is critical because it pins the opponent in place during the transition and prevents them from using the alignment change to create escape angles. Shifting backward or laterally creates space that the opponent can exploit for guard recovery."
+        "text": "Your weight should shift forward and slightly upward along the opponent's spine, sliding from the perpendicular truck angle to directly behind their back. The forward pressure is critical because it pins the opponent in place during the transition and prevents them from using the alignment change to create escape angles. Shifting backward or laterally creates space that the opponent can exploit for guard recovery."
       }
     }
   ]

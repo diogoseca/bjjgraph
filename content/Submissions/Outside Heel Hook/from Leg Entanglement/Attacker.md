@@ -79,7 +79,7 @@ description: "Learn to attack with the outside heel hook from leg entanglement. 
       "name": "What anatomical structures does the outside heel hook primarily attack and how does the rotational direction determine which ligaments are stressed?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The outside heel hook primarily attacks the lateral collateral ligament (LCL), the posterolateral corner, and the anterior cruciate ligament (ACL) by applying lateral (outward) rotation on the heel while the knee is held stationary by the leg clamp. The outward rotation creates torsional stress on the lateral side of the knee. This is distinct from the inside heel hook, which rotates the heel inward and primarily attacks the medial collateral ligament (MCL). The meniscus is also at risk from both rotational directions due to the shearing forces created between the femur and tibia."
+        "text": "The outside heel hook attacks the LCL, posterolateral corner, and ACL by rotating the heel outward while the leg clamp holds the knee stationary. This lateral (outward) rotation creates torsional stress concentrated on the lateral side of the knee. It is distinct from the inside heel hook, which rotates the heel inward and primarily attacks the medial collateral ligament (MCL). The meniscus is also at risk from both rotational directions due to the shearing forces created between the femur and tibia."
       }
     },
     {
@@ -103,7 +103,7 @@ description: "Learn to attack with the outside heel hook from leg entanglement. 
       "name": "Your hips have drifted several inches away from your opponent's thigh during the finishing attempt - what is the consequence and how do you correct it?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "When your hips drift away from the opponent's thigh, you lose knee line control and create space that allows them to straighten their leg and begin extracting from the entanglement. The increased distance also reduces your rotational leverage because your body is no longer in tight mechanical connection with their trapped leg. To correct this, immediately stop applying rotation and re-close the distance by scooting your hips forward until they are pressed firmly against their thigh again. Re-establish your knee clamp and verify your hooks are deep before resuming the finishing sequence. Never try to finish from a loose position."
+        "text": "Hip drift costs you knee line control and rotational leverage, so stop rotating and scoot your hips back tight against their thigh before finishing. The space you created allows the opponent to straighten their leg and begin extracting from the entanglement, and the increased distance reduces your rotational leverage because your body is no longer in tight mechanical connection with their trapped leg. Once your hips are pressed firmly against their thigh again, re-establish your knee clamp and verify your hooks are deep before resuming the finishing sequence. Never try to finish from a loose position."
       }
     },
     {
@@ -119,7 +119,7 @@ description: "Learn to attack with the outside heel hook from leg entanglement. 
       "name": "What role does hip extension play in generating finishing force for the outside heel hook and why is arm strength alone insufficient?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Hip extension is the primary force generator for the outside heel hook because it engages the largest muscle groups in the body (glutes, hamstrings, core) to create rotational torque through the entire kinetic chain. Your arms and grip function as the structural connection between your body and the opponent's heel, but the actual rotational power comes from your hips driving forward while your torso rotates as a unit. Arm strength alone is insufficient because the forearm muscles fatigue rapidly under sustained isometric load, producing inconsistent pressure that experienced opponents can outlast. The body-rotation method also produces smoother, more controlled pressure that is safer for training partners."
+        "text": "Hip extension is the primary force generator, recruiting the glutes, hamstrings, and core to drive rotational torque through the whole kinetic chain. Your arms and grip function as the structural connection between your body and the opponent's heel, but the actual rotational power comes from your hips driving forward while your torso rotates as a unit. Arm strength alone is insufficient because the forearm muscles fatigue rapidly under sustained isometric load, producing inconsistent pressure that experienced opponents can outlast. The body-rotation method also produces smoother, more controlled pressure that is safer for training partners."
       }
     }
   ]

@@ -71,7 +71,7 @@ description: "How to execute Frame and Shrimp to Guard in BJJ. Attacking perspec
       "name": "What is the primary goal of Frame and Shrimp to Guard?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The primary goal is to create space using frames and hip escape movement to extract your trapped leg from leg drag control and re-establish an open guard position. This resets the passing exchange to neutral, forcing your opponent to restart their passing sequence."
+        "text": "The primary goal is to create space with frames and hip escapes to free your trapped leg from leg drag control and re-establish open guard. This resets the passing exchange to neutral, forcing your opponent to restart their passing sequence."
       }
     },
     {
@@ -79,7 +79,7 @@ description: "How to execute Frame and Shrimp to Guard in BJJ. Attacking perspec
       "name": "What position do you start Frame and Shrimp to Guard from?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "This technique starts from Leg Drag Control Bottom, when opponent has pulled your leg across your body and is controlling your hip but has not yet fully consolidated to side control or taken your back."
+        "text": "It starts from Leg Drag Control Bottom, before the opponent has consolidated side control or taken your back. At this point the opponent has pulled your leg across your body and is controlling your hip, but the pass is not yet complete."
       }
     },
     {
@@ -87,7 +87,7 @@ description: "How to execute Frame and Shrimp to Guard in BJJ. Attacking perspec
       "name": "What are the key frames needed for Frame and Shrimp to Guard?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Two primary frames are required: First, a shoulder frame with your near-side forearm against opponent's shoulder or bicep, elbow tight to your ribs for skeletal connection. Second, a hip frame with your far-side hand against opponent's hip or posted on the mat. Both frames work as a connected system."
+        "text": "You need two connected frames: a near-side forearm on the opponent's shoulder or bicep, and a far-side hand on their hip or posted on the mat. Keep the framing elbow tight to your ribs for skeletal connection; both frames work as a connected system rather than isolated pushes."
       }
     },
     {

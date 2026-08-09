@@ -77,7 +77,7 @@ description: "Master the half guard flattening technique to neutralize bottom pl
       "name": "What is the correct order of control points to establish when flattening your opponent from half guard top?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Secure the crossface first to turn their head away and prevent near-side arm framing, then deny the underhook by controlling their near arm with your far-side hand or whizzer, then walk your hips forward to collapse frames. The crossface comes first because it provides the most immediate structural advantage and enables everything else in the sequence."
+        "text": "Secure the crossface first, then deny the underhook, and only then walk your hips forward to collapse their frames. The crossface turns their head away and prevents near-side arm framing, and it comes first because it provides the most immediate structural advantage and enables everything else in the sequence. Deny the underhook by controlling their near arm with your far-side hand or a whizzer, then walk the hips forward to finish collapsing their frames."
       }
     },
     {
@@ -93,7 +93,7 @@ description: "Master the half guard flattening technique to neutralize bottom pl
       "name": "Why should you walk your hips forward in small increments rather than driving forward explosively?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Incremental advancement maintains stable pressure throughout the transition and prevents the bottom player from redirecting your momentum into sweeps or creating space from sudden weight shifts. Explosive lunges are telegraphed and create the exact type of momentum that skilled bottom players use to generate sweeps. Small steps compound into full flattening without creating exploitable moments."
+        "text": "Small incremental hip advances maintain constant stable pressure and deny the bottom player momentum to redirect into sweeps. Sudden weight shifts create space and explosive lunges are telegraphed, generating exactly the type of momentum that skilled bottom players use to sweep. Small steps compound into full flattening without ever creating an exploitable moment."
       }
     },
     {
@@ -101,7 +101,7 @@ description: "Master the half guard flattening technique to neutralize bottom pl
       "name": "Your opponent is fighting hard for the underhook as you attempt to flatten them. What are your two primary responses?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "First option is to apply a strong whizzer (overhook) on their underhook arm while driving the crossface harder to limit their leverage and prevent them from turning to their side. Second option is to switch to a Kimura grip on their exposed arm if they overcommit to the underhook, creating a submission threat that forces them to retract the arm and abandon the underhook battle."
+        "text": "Whizzer their underhook arm while driving the crossface harder, or switch to a Kimura grip if they overcommit the arm. The strong whizzer (overhook) combined with increased crossface pressure limits their leverage and prevents them from turning to their side. The Kimura option targets their exposed arm when they overcommit, creating a submission threat that forces them to retract the arm and abandon the underhook battle."
       }
     },
     {

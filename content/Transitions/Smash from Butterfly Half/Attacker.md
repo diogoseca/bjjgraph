@@ -99,7 +99,7 @@ description: "Master the attacker's perspective for smashing through butterfly h
       "name": "What is the critical hip movement that kills the butterfly hook during the smash pass?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The critical movement is dropping your hip bone directly downward and slightly laterally onto the butterfly hook side, driving your hip weight onto their thigh just above where their foot inserts under your leg. This eliminates the space between your body and the mat where the hook generates upward lifting force. The hip drop must be committed and heavy, using gravity and skeletal weight rather than muscular effort. A half-committed hip drop leaves enough space for the hook to continue generating pressure."
+        "text": "Drop your hip bone straight down and slightly laterally onto the hook-side thigh, crushing the space the hook needs to generate lift. Drive your hip weight onto their thigh just above where their foot inserts under your leg; this eliminates the space between your body and the mat where the hook generates upward lifting force. The hip drop must be committed and heavy, using gravity and skeletal weight rather than muscular effort. A half-committed hip drop leaves enough space for the hook to continue generating pressure."
       }
     },
     {
@@ -115,7 +115,7 @@ description: "Master the attacker's perspective for smashing through butterfly h
       "name": "What are the essential upper body controls needed to execute the smash from butterfly half guard?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The primary control is a crossface with your forearm or bicep driving across their jaw and neck, which turns their head away and prevents the hip rotation needed for sweeps. The secondary option is a deep underhook on the near side controlling their lat or back, which prevents them from establishing their own underhook and limits their ability to come up to dogfight. A collar tie on the butterfly hook side provides a third option for breaking posture in gi. At minimum, one dominant upper body control must be established before committing any downward pressure."
+        "text": "Establish at least one dominant control — a crossface across their jaw or a deep near-side underhook — before committing downward pressure. The primary control is the crossface, with your forearm or bicep driving across their jaw and neck to turn their head away and prevent the hip rotation needed for sweeps. The secondary option is a deep underhook on the near side controlling their lat or back, which prevents them from establishing their own underhook and limits their ability to come up to dogfight. In the gi, a collar tie on the butterfly hook side provides a third option for breaking posture."
       }
     },
     {
@@ -123,7 +123,7 @@ description: "Master the attacker's perspective for smashing through butterfly h
       "name": "In which direction should the primary force be applied during the smash pass?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The primary force direction is forward and downward at approximately a 45-degree angle, driven through your chest and shoulder into the bottom player's upper body while your hips drive downward onto the hook. This combined vector flattens their posture backward while simultaneously crushing the hook's lifting capacity. Straight downward force alone is insufficient because it does not address their ability to turn sideways and create sweeping angles. The forward component prevents them from maintaining any upright structure."
+        "text": "Drive forward and downward at roughly a 45-degree angle through your chest and shoulder while your hips drive down onto the hook. This combined vector flattens their posture backward while simultaneously crushing the hook's lifting capacity. Straight downward force alone is insufficient because it does not address their ability to turn sideways and create sweeping angles. The forward component prevents them from maintaining any upright structure."
       }
     }
   ]

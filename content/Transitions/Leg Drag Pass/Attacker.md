@@ -79,7 +79,7 @@ description: "How to execute Leg Drag Pass in BJJ. Attacking perspective with se
       "name": "Why is maintaining chest pressure on the trapped leg crucial throughout the entire leg drag sequence?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Chest pressure on the trapped leg serves multiple critical functions: it prevents the opponent from pulling the leg back to their centerline to recover guard, it creates a pin that makes their leg feel 'dead' or immobile, it allows the passer to use body weight rather than arm strength for control (making the pass more efficient), and it keeps the passer's base low and stable making sweeps difficult. Without consistent chest pressure, the leg drag becomes merely a temporary leg grip that can be easily escaped."
+        "text": "Chest pressure pins the trapped leg 'dead', preventing the opponent from pulling it back to their centerline to recover guard. It also serves several other critical functions: it lets the passer use body weight rather than arm strength for control (making the pass more efficient), and it keeps the passer's base low and stable, making sweeps difficult. Without consistent chest pressure, the leg drag becomes merely a temporary leg grip that can be easily escaped."
       }
     },
     {
@@ -87,7 +87,7 @@ description: "How to execute Leg Drag Pass in BJJ. Attacking perspective with se
       "name": "What should you do if your opponent establishes a strong frame on your face during the leg drag?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "There are two primary solutions: First, you can swim your head underneath their frame toward the mat while maintaining the leg drag control with your arm and chest, essentially ducking under their frame. Second, you can transition to a knee slice variation by releasing the drag position and cutting your knee across their bottom leg, using your shoulder to drive through their frame instead of your head. Both solutions maintain forward passing pressure while addressing the frame obstacle. The key is to never abandon the leg control or allow the frame to create enough space for guard recovery."
+        "text": "Either swim your head underneath the frame toward the mat, or switch to a knee slice and drive your shoulder through the frame instead. In the first solution, you duck under their frame while maintaining the leg drag control with your arm and chest. In the second, you release the drag position and cut your knee across their bottom leg, using your shoulder rather than your head to drive through. Both solutions maintain forward passing pressure while addressing the frame obstacle. The key is to never abandon the leg control or allow the frame to create enough space for guard recovery."
       }
     },
     {
@@ -95,7 +95,7 @@ description: "How to execute Leg Drag Pass in BJJ. Attacking perspective with se
       "name": "How does the leg drag differ from other guard passes in terms of weight distribution and body positioning?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Unlike stack passes or pressure passes where weight is directed straight down through the opponent's center mass, the leg drag requires an angular, circular weight distribution. The passer's chest pressure is diagonal across the trapped leg rather than directly vertical. The hips must remain mobile and capable of circling rather than being posted in a static position. This creates a dynamic pass where the passer is constantly moving around an axis (the trapped leg) rather than driving through a fixed point. The body positioning is lower and tighter to the opponent compared to long-step or toreando passes, but more mobile than smash or knee slice variations."
+        "text": "The leg drag uses angular, diagonal chest pressure across the trapped leg while the hips stay mobile to circle around it. Unlike stack passes or pressure passes where weight is directed straight down through the opponent's center mass, the passer's chest pressure is diagonal rather than directly vertical, and the hips must remain capable of circling rather than being posted in a static position. This creates a dynamic pass where the passer constantly moves around an axis (the trapped leg) rather than driving through a fixed point. The body positioning is lower and tighter to the opponent compared to long-step or toreando passes, but more mobile than smash or knee slice variations."
       }
     },
     {
@@ -111,7 +111,7 @@ description: "How to execute Leg Drag Pass in BJJ. Attacking perspective with se
       "name": "What are the most common grip configurations for initiating a leg drag, and when would you use each?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The most common configurations are: (1) Same-side pant grip at the knee with opposite hand controlling collar or sleeve - most standard for gi, provides good control of upper and lower body; (2) Two-hands-on-one-leg grip - used when opponent is strongly defending and you need maximum leg control before initiating the pass; (3) Ankle/foot grip with opposite hand framing the hip - common in no-gi where pant grips aren't available, requires faster execution; (4) Knee grip with opposite hand underhooking their same-side arm - creates upper body control that prevents sit-ups and frames. The choice depends on gi vs no-gi, opponent's guard style, and your preferred passing strategy."
+        "text": "The main grips are same-side pant at the knee, two-hands-on-one-leg, ankle grip with a hip frame, and knee grip with an underhook. In detail: (1) Same-side pant grip at the knee with the opposite hand controlling collar or sleeve — most standard for gi, provides good control of upper and lower body; (2) Two-hands-on-one-leg grip — used when the opponent is strongly defending and you need maximum leg control before initiating the pass; (3) Ankle/foot grip with the opposite hand framing the hip — common in no-gi where pant grips aren't available, requires faster execution; (4) Knee grip with the opposite hand underhooking their same-side arm — creates upper body control that prevents sit-ups and frames. The choice depends on gi vs no-gi, the opponent's guard style, and your preferred passing strategy."
       }
     }
   ]

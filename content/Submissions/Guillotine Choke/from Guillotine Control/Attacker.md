@@ -119,7 +119,7 @@ description: "Complete attacking guide for finishing the guillotine choke from e
       "name": "Your opponent begins driving forward aggressively from inside your guillotine bottom control—what adjustment prevents being stacked and passed?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Convert their forward pressure into a hip bump sweep by extending your hips upward and rolling them over your hip to mount while maintaining the guillotine grip throughout. Their committed forward drive provides the momentum for the sweep. If the sweep angle is not available, angle your hips away from their pressure direction and use butterfly hooks to redirect their weight laterally. Never fight their forward drive head-on from bottom—redirect it."
+        "text": "Convert their forward drive into a hip bump sweep, extending your hips upward and rolling them over to mount while keeping the guillotine grip. Their committed forward drive provides the momentum for the sweep. If the sweep angle is not available, angle your hips away from their pressure direction and use butterfly hooks to redirect their weight laterally. Never fight their forward drive head-on from bottom—redirect it."
       }
     }
   ]

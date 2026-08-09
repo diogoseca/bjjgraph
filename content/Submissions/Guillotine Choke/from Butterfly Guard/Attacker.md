@@ -81,7 +81,7 @@ description: "Learn to attack the Guillotine Choke from Butterfly Guard with ste
       "name": "How do you recognize when the choke has reached the point where escape becomes nearly impossible for the defender?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The point of no escape occurs when the grip is fully locked with elbows pinched, the opponent's head is pulled tight against your chest with no space, and your hooks are elevated with hips arched to create the stretching force. At this stage the opponent cannot posture, cannot strip the grip with hand fighting, and cannot stack because the hooks prevent forward drive. Their only remaining option is to tap."
+        "text": "Escape becomes nearly impossible when the grip is fully locked with elbows pinched, the head is tight to your chest, and hooks are elevated with hips arched. At this stage the opponent cannot posture, cannot strip the grip with hand fighting, and cannot stack because the elevated hooks prevent forward drive. The arched hips create the stretching force that completes the mechanics, leaving the tap as their only remaining option."
       }
     },
     {
@@ -97,7 +97,7 @@ description: "Learn to attack the Guillotine Choke from Butterfly Guard with ste
       "name": "Your opponent starts to posture up while you have a loose guillotine grip - what adjustment prevents escape?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Rather than fighting the posture with arm strength alone, immediately transition to a butterfly sweep by driving your hook on the same side as your choking arm upward while pulling the opponent's upper body across with the guillotine grip. Their posture recovery raises their center of gravity and weakens their base, making the sweep high-percentage. If the sweep fails, you can re-engage the guillotine when they return to a defensive posture."
+        "text": "When the opponent postures against a loose guillotine, immediately sweep them with the same-side butterfly hook rather than fighting posture with arm strength. Drive the hook on the same side as your choking arm upward while pulling their upper body across with the guillotine grip. Their posture recovery raises their center of gravity and weakens their base, making the sweep high-percentage, and if it fails you can re-engage the guillotine when they return to a defensive posture."
       }
     },
     {

@@ -93,7 +93,7 @@ description: "How to execute Saddle Entry from Top in BJJ. Attacking perspective
       "name": "How should you position your inside thigh relative to the opponent's leg in the final saddle configuration, and why does this positioning matter for submission effectiveness?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Your inside thigh should be positioned high on the opponent's inner thigh, as close to their hip as possible, with your legs forming a tight triangle around their leg from hip to knee. This high positioning creates maximum control over their hip rotation and prevents them from squaring their hips or clearing their knee line. When positioned too low (near their ankle), the saddle lacks mechanical advantage, allows easier foot extraction, and makes submissions extremely difficult to finish."
+        "text": "Your inside thigh should sit high on the opponent's inner thigh, as close to their hip as possible, with your legs forming a tight triangle around their leg. This high positioning creates maximum control over their hip rotation and prevents them from squaring their hips or clearing their knee line. When positioned too low (near their ankle), the saddle lacks mechanical advantage, allows easier foot extraction, and makes submissions extremely difficult to finish."
       }
     },
     {

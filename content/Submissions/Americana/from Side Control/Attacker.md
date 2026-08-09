@@ -89,7 +89,7 @@ description: "How to execute Americana from Side Control in BJJ. Attacking persp
       "name": "Why must the opponent's elbow stay in front of their shoulder line during the Americana, and what happens if it moves behind?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The elbow must stay in front of the shoulder line because this is where the shoulder joint is most vulnerable to external rotation and where the submission mechanics work properly. If the elbow moves behind the shoulder line, the angle changes and the rotation no longer targets the shoulder joint effectively. Additionally, moving the elbow too far behind the shoulder line can create dangerous leverage on the AC joint and potentially cause different types of injury that are harder to control."
+        "text": "The elbow must stay in front of the shoulder line so the rotation targets the shoulder joint where it is most vulnerable to external rotation. This is where the submission mechanics work properly. If the elbow moves behind the shoulder line, the angle changes and the rotation no longer targets the shoulder joint effectively. Additionally, moving the elbow too far behind the shoulder line can create dangerous leverage on the AC joint and potentially cause different types of injury that are harder to control."
       }
     },
     {
@@ -97,7 +97,7 @@ description: "How to execute Americana from Side Control in BJJ. Attacking persp
       "name": "What is the proper immediate response when your training partner taps to your Americana, and what are the consequences of failing to respond correctly?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The proper immediate response is to immediately stop all rotational pressure, release the wrist control, and begin moving the arm back to a neutral position slowly. You should completely release all grips and move your weight off their torso. Failing to release immediately can cause serious shoulder injuries including rotator cuff tears (6-12 month recovery), labral tears (4-6 months), or shoulder dislocation (3-6 months). Beyond the injury to your partner, continuing after a tap violates fundamental training safety, can result in legal liability, and will cause you to lose training partners."
+        "text": "When your partner taps, immediately stop all rotational pressure, release the wrist control, and slowly return the arm toward neutral. You should completely release all grips and move your weight off their torso. Failing to release immediately can cause serious shoulder injuries including rotator cuff tears (6-12 month recovery), labral tears (4-6 months), or shoulder dislocation (3-6 months). Beyond the injury to your partner, continuing after a tap violates fundamental training safety, can result in legal liability, and will cause you to lose training partners."
       }
     },
     {
@@ -105,7 +105,7 @@ description: "How to execute Americana from Side Control in BJJ. Attacking persp
       "name": "Describe the optimal 90-degree configuration for the Americana and explain how this angle maximizes submission effectiveness?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The optimal 90-degree configuration has the opponent's upper arm positioned in line with their shoulder (parallel to their body), while their forearm is perpendicular to the upper arm, creating a right angle at the elbow. The wrist should be pinned near their ribs or moving toward their hip, while the elbow stays close to and in front of their shoulder. This configuration maximizes effectiveness because it isolates the shoulder joint while preventing the opponent from straightening their arm or creating defensive angles. The rotation occurs purely at the shoulder through external rotation, which is the shoulder's weakest rotational plane."
+        "text": "The optimal configuration puts the upper arm in line with the shoulder and the forearm perpendicular to it, forming a 90-degree bend at the elbow. The upper arm sits parallel to their body, the wrist is pinned near their ribs or moving toward their hip, and the elbow stays close to and in front of their shoulder. This configuration maximizes effectiveness because it isolates the shoulder joint while preventing the opponent from straightening their arm or creating defensive angles. The rotation occurs purely at the shoulder through external rotation, which is the shoulder's weakest rotational plane."
       }
     },
     {
@@ -113,7 +113,7 @@ description: "How to execute Americana from Side Control in BJJ. Attacking persp
       "name": "What are the three most common defenses to the Americana from side control, and how should you adjust your technique to counter each one?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "First, grabbing their own belt or gi to prevent arm isolation - counter by increasing cross-face pressure to break the grip or threatening mount to force them to release. Second, straightening the arm completely to prevent the elbow bend - counter by using your body weight to collapse the straight arm or switching to a straight armbar. Third, rolling toward you to relieve shoulder pressure - counter by following their roll to mount or back control while maintaining your Americana grip, then finishing from the new position. Each defense requires you to maintain control while adapting to their movement rather than abandoning the attack."
+        "text": "The three most common defenses are grabbing their own belt or gi, straightening the arm completely, and rolling toward you to relieve shoulder pressure. Against the belt or gi grip that prevents arm isolation, counter by increasing cross-face pressure to break the grip or threatening mount to force them to release. Against the fully straightened arm that prevents the elbow bend, counter by using your body weight to collapse the straight arm or switching to a straight armbar. Against the roll toward you, counter by following their roll to mount or back control while maintaining your Americana grip, then finishing from the new position. Each defense requires you to maintain control while adapting to their movement rather than abandoning the attack."
       }
     }
   ]

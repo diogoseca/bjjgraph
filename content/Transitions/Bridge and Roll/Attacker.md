@@ -101,7 +101,7 @@ description: "How to execute the Bridge and Roll escape from mount in BJJ. Compl
       "name": "Your opponent posts with their free arm mid-bridge to prevent the roll—how do you adjust?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "If the opponent successfully posts with their free arm during your bridge, you have two primary options: First, immediately abandon the bridge and roll and transition to an elbow escape (shrimp), using the space created by their committed post. Second, explosively switch to attacking the opposite side with a bridge and roll, as their committed post on one side creates a base weakness on the opposite side. Never continue forcing a failed bridge and roll against a successful post, as this wastes energy and keeps you in inferior position. Reading their counter and flowing to the appropriate response is critical for escape success."
+        "text": "If the opponent posts with their free arm mid-bridge, either switch to an elbow escape or attack the opposite side with a new bridge and roll. The elbow escape (shrimp) uses the space created by their committed post; alternatively, their post on one side creates a base weakness on the opposite side that you can attack explosively with a bridge and roll. Never continue forcing a failed bridge and roll against a successful post, as this wastes energy and keeps you in an inferior position. Reading their counter and flowing to the appropriate response is critical for escape success."
       }
     },
     {
@@ -109,7 +109,7 @@ description: "How to execute the Bridge and Roll escape from mount in BJJ. Compl
       "name": "Why must defensive frames be established before attempting the bridge and roll escape?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Defensive frames must be established first because attempting any escape while under immediate submission threat is tactically unsound and typically results in getting submitted. Frames create the necessary space to prevent attacks like the Americana, armbar, ezekiel choke, or collar chokes that opponents frequently threaten from mount. The frames also prevent the opponent from establishing high mount or grapevining the legs, both of which make the bridge and roll significantly less effective or impossible. The principle of survival before escape is fundamental—you must neutralize immediate threats before attempting to improve position. Only when frames are established and submission threats are managed can you safely commit to the escape sequence."
+        "text": "Frames must come first because attempting any escape while under immediate submission threat is tactically unsound and typically gets you submitted. Frames create the necessary space to prevent attacks like the Americana, armbar, ezekiel choke, or collar chokes that opponents frequently threaten from mount. They also prevent the opponent from establishing high mount or grapevining the legs, both of which make the bridge and roll significantly less effective or impossible. This is the principle of survival before escape: you must neutralize immediate threats before attempting to improve position. Only when frames are established and submission threats are managed can you safely commit to the escape sequence."
       }
     },
     {

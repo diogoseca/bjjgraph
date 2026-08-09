@@ -77,7 +77,7 @@ description: "How to execute Straight Ankle Lock Entry in BJJ. Attacking perspec
       "name": "What is the optimal timing window for initiating the Straight Ankle Lock Entry from grasshopper guard?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The optimal window is when the opponent shifts their weight onto their lead foot, either by stepping forward, reaching down toward your legs, or committing to a passing attempt. This weight commitment prevents them from quickly retracting the targeted foot and gives you the critical extra time needed to complete the entry sequence. Attacking a retreating or evenly balanced opponent dramatically reduces success rates."
+        "text": "Attack when the opponent commits weight onto their lead foot — stepping forward, reaching for your legs, or starting a pass. This weight commitment prevents them from quickly retracting the targeted foot and gives you the critical extra time needed to complete the entry sequence. Attacking a retreating or evenly balanced opponent dramatically reduces success rates."
       }
     },
     {
@@ -85,7 +85,7 @@ description: "How to execute Straight Ankle Lock Entry in BJJ. Attacking perspec
       "name": "What conditions must exist in your grasshopper guard before you can attempt the ankle lock entry?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "You need three conditions: hips elevated to at least chest height with active core engagement, at least one leg maintaining contact with the opponent's lower body to prevent disengagement, and clear visual identification of which foot bears the most weight. Without hip elevation you lack the lateral reach for leg framing, without leg contact the opponent can simply walk away, and without target identification you risk attacking the wrong foot."
+        "text": "You need hips elevated to chest height, at least one leg contacting the opponent's lower body, and clear sight of their weighted foot. Active core engagement keeps the elevated position stable, and the leg contact prevents disengagement. Without hip elevation you lack the lateral reach for leg framing, without leg contact the opponent can simply walk away, and without target identification you risk attacking the wrong foot."
       }
     },
     {
@@ -109,7 +109,7 @@ description: "How to execute Straight Ankle Lock Entry in BJJ. Attacking perspec
       "name": "What grip configuration provides the strongest control on the captured ankle?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The near hand cups underneath the heel to prevent the foot from slipping downward, while the far hand wraps over the top of the foot near the toes to control dorsiflexion. Both hands pull the ankle tight against your chest with the forearm blade of your bottom arm aligned across the Achilles tendon. This two-on-one configuration controls all planes of foot movement and creates the proper lever for finishing pressure."
+        "text": "The near hand cups under the heel while the far hand wraps over the top of the foot near the toes to control dorsiflexion. Both hands pull the ankle tight against your chest with the forearm blade of your bottom arm aligned across the Achilles tendon. This two-on-one configuration controls all planes of foot movement and creates the proper lever for finishing pressure."
       }
     },
     {
@@ -117,7 +117,7 @@ description: "How to execute Straight Ankle Lock Entry in BJJ. Attacking perspec
       "name": "Your opponent begins driving forward into a stack pass as you initiate the entry - what is your best response?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Abort the ankle lock entry and use the forward pressure for a Granby roll to recover guard, or redirect their momentum into an X-Guard entry by hooking both feet into their hips. The stack pass negates your inverted base by folding your body, eliminating the hip elevation necessary for the entry. Trying to fight through a committed stack from grasshopper typically results in being flattened and passed."
+        "text": "Abort the entry and use their forward pressure to Granby roll back to guard, or redirect their momentum into an X-Guard entry. For the X-Guard option, hook both feet into their hips as they drive. The stack pass negates your inverted base by folding your body, eliminating the hip elevation necessary for the entry, and trying to fight through a committed stack from grasshopper typically results in being flattened and passed."
       }
     }
   ]

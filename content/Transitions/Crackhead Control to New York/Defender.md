@@ -67,7 +67,7 @@ description: "How to defend against Crackhead Control to New York in BJJ. Recogn
       "name": "Your opponent begins sliding their controlling leg from your neck toward your shoulder blades - should you drive forward or pull back?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Drive forward. Forward pressure compresses the space the bottom player needs to reposition their leg and disrupts the sliding motion that defines this transition. Pulling backward creates space that actually assists their leg repositioning and gives the overhook more leverage to control your posture. The forward drive also opens opportunities to flatten them before New York consolidates, and if they redirect your pressure into Carni or Chill Dog setups, you can address those threats from a more structurally sound position."
+        "text": "Drive forward, because forward pressure compresses the space their leg needs to reposition and disrupts the slide. Pulling backward creates space that actually assists their leg repositioning and gives the overhook more leverage to control your posture. The forward drive also opens opportunities to flatten them before New York consolidates, and if they redirect your pressure into Carni or Chill Dog setups, you can address those threats from a more structurally sound position."
       }
     },
     {
@@ -83,7 +83,7 @@ description: "How to defend against Crackhead Control to New York in BJJ. Recogn
       "name": "How does your defensive approach change if you recognize the transition late and the New York shin grip has already been re-established?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Once New York is consolidated, the transitional window has closed and you must now defend against a fully established position rather than a transition in progress. Shift your strategy to systematic New York escape: widen your base, begin grip fighting the shin-controlling hand to weaken the closed kinetic chain, and work toward overhook extraction through elbow retraction toward your hip. The escape becomes significantly harder and more time-consuming compared to intervention during the transition itself, which is why early recognition is critical."
+        "text": "Once New York is consolidated, shift from disrupting a transition to a systematic escape of the fully established position. The transitional window has closed, so widen your base, begin grip fighting the shin-controlling hand to weaken the closed kinetic chain, and work toward overhook extraction through elbow retraction toward your hip. The escape is significantly harder and more time-consuming than intervention during the transition itself, which is why early recognition is critical."
       }
     },
     {
@@ -91,7 +91,7 @@ description: "How to defend against Crackhead Control to New York in BJJ. Recogn
       "name": "Why is contesting the shin re-grip with your free hand a viable late-stage defense despite the risk to your base?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Without the shin grip completing the New York control structure, the bottom player's leg cannot maintain its position across your shoulder blades and will gradually slide off due to gravity and your posture recovery efforts. The shin grip is the mechanical keystone that transforms a loose leg position into a stable control platform. Even though reaching to contest the grip temporarily compromises your base, the payoff of preventing New York consolidation outweighs the sweep risk, particularly because you can immediately recover base once the grip is denied."
+        "text": "Denying the shin grip removes the keystone of New York, so the leg cannot hold across your shoulder blades and slides off. Without that grip completing the control structure, gravity and your posture recovery efforts gradually strip the leg, because the shin grip is what transforms a loose leg position into a stable control platform. Even though reaching to contest temporarily compromises your base, preventing New York consolidation outweighs the sweep risk, particularly because you can immediately recover base once the grip is denied."
       }
     }
   ]

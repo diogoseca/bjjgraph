@@ -71,7 +71,7 @@ description: "How to execute Single Leg X Recovery in BJJ. Attacking perspective
       "name": "What is the primary goal of Single Leg X Recovery?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The primary goal is to extract your trapped leg from Ushiro Ashi-Garami while simultaneously establishing Single Leg X-Guard, transforming a defensive survival position into an offensive platform with immediate sweep and submission threats against the opponent."
+        "text": "The primary goal is to extract your trapped leg from Ushiro Ashi-Garami while simultaneously establishing Single Leg X-Guard. This transforms a defensive survival position into an offensive platform, giving you immediate sweep and submission threats against the opponent rather than merely escaping the entanglement."
       }
     },
     {
@@ -79,7 +79,7 @@ description: "How to execute Single Leg X Recovery in BJJ. Attacking perspective
       "name": "Your opponent's inside leg is deeply controlling your thigh - should you attempt recovery?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "No. When inside leg control is deep, attempting Single Leg X Recovery will likely result in opponent transitioning to saddle position. Instead, accept turtle recovery or work counter-heel hooks if available. Only attempt recovery when inside leg control is shallow, below knee level."
+        "text": "No — when the inside leg control is deep, attempting recovery will likely let the opponent transition to the saddle position. Instead, accept turtle recovery or work counter-heel hooks if available. Only attempt Single Leg X Recovery when the inside leg control is shallow, below knee level."
       }
     },
     {

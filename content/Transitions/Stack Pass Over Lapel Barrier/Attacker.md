@@ -111,7 +111,7 @@ description: "How to execute Stack Pass Over Lapel Barrier in BJJ. Attacking per
       "name": "What body positioning prevents your opponent from loading a sweep as you drive the stack forward?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Keep your hips low and heavy throughout the drive, with your weight distributing through your shoulder into the opponent's legs rather than through elevated hips. Spread your base wide with your feet providing lateral stability behind you. Your center of gravity must remain below the opponent's hip line—if your hips rise above this level, they can use the elevation to create angles and load sweep mechanics beneath you. The low, wide, heavy drive makes sweeps mechanically impossible because there is no space beneath you for the opponent to generate lifting force."
+        "text": "Keep your hips low and heavy with your center of gravity below the opponent's hip line, driving weight through your shoulder into their legs. Spread your base wide with your feet providing lateral stability behind you. If your hips rise above the opponent's hip line, they can use the elevation to create angles and load sweep mechanics beneath you. The low, wide, heavy drive makes sweeps mechanically impossible because there is no space beneath you for the opponent to generate lifting force."
       }
     }
   ]

@@ -73,7 +73,7 @@ description: "Learn to attack with the Kimura from Gift Wrap. Step-by-step guide
       "name": "What anatomical structures does the Kimura from Gift Wrap primarily attack?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The Kimura primarily attacks the shoulder joint complex including the rotator cuff muscles (supraspinatus, infraspinatus, teres minor, subscapularis), the shoulder capsule, and the glenoid labrum. The forced internal rotation under load stresses these structures beyond their normal range of motion, creating the submission pressure that forces the tap."
+        "text": "The Kimura primarily attacks the shoulder joint complex — the rotator cuff, shoulder capsule, and glenoid labrum — through forced internal rotation. The rotator cuff muscles under attack are the supraspinatus, infraspinatus, teres minor, and subscapularis. Forcing internal rotation under load stresses these structures beyond their normal range of motion, creating the submission pressure that forces the tap."
       }
     },
     {
@@ -105,7 +105,7 @@ description: "Learn to attack with the Kimura from Gift Wrap. Step-by-step guide
       "name": "What indicators show you have reached the point of no escape for the defender?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The point of no escape occurs when the figure-four is locked, the elbow is pinned against your body or their torso, and rotational pressure has moved the arm past approximately 45 degrees behind the neutral shoulder position. At this point, the mechanical disadvantage becomes too great for the defender to reverse through strength alone, and the defender must tap to prevent injury."
+        "text": "Escape becomes impossible once the figure-four is locked, the elbow is pinned, and the arm has rotated past roughly 45 degrees behind neutral. The elbow must be pinned against your body or the opponent's torso for the position to be inescapable. Past that point, the mechanical disadvantage is too great for the defender to reverse through strength alone, and they must tap to prevent injury."
       }
     },
     {

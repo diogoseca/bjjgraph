@@ -87,7 +87,7 @@ description: "How to execute Sit Through Escape in BJJ. Attacking perspective wi
       "name": "What are the key structural positions needed before initiating Sit Through Escape?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "You need three structural elements established before initiating: hands planted firmly on the mat slightly wider than shoulders with bent elbows for explosive push-off capability, far-side knee loaded underneath your body to serve as the rotation pivot point, and near-side leg mobile with hip ready to drive down to create hook clearance. Without this three-point base, the rotation cannot generate sufficient momentum."
+        "text": "Before initiating, plant hands slightly wider than shoulders, load the far-side knee as a pivot, and keep the near-side leg mobile. Hands go firmly on the mat with bent elbows for explosive push-off capability, the far-side knee loads underneath your body to serve as the rotation pivot point, and the near-side hip stays ready to drive down to create hook clearance. Without this three-point base, the rotation cannot generate sufficient momentum."
       }
     },
     {
@@ -95,7 +95,7 @@ description: "How to execute Sit Through Escape in BJJ. Attacking perspective wi
       "name": "How do you counter Sit Through Escape when opponent follows your rotation?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "When the opponent follows your rotation effectively, abandon settling into guard and accelerate into a technical stand-up or immediately chain to a different escape direction. You can also use the sit through as a feint—begin the motion to draw their following response, then reverse direction into a Granby roll. The key is never settling into a static position when they have maintained connection through your movement."
+        "text": "When the opponent follows your rotation, abandon settling into guard and accelerate into a technical stand-up or chain to a different escape direction. You can also use the sit through as a feint—begin the motion to draw their following response, then reverse direction into a Granby roll. The key is never settling into a static position when they have maintained connection through your movement."
       }
     },
     {
@@ -103,7 +103,7 @@ description: "How to execute Sit Through Escape in BJJ. Attacking perspective wi
       "name": "When is the optimal timing window to attempt Sit Through Escape?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The optimal timing occurs when the opponent shifts their weight forward to attempt the second hook insertion, adjusts their upper body grips, or reaches for a new control point. These moments create brief windows where their hook connection loosens and their ability to follow rotation is compromised. Additionally, when opponent is high on your back with a shallow hook (foot not deeply crossed) presents excellent timing."
+        "text": "Attempt it when the opponent shifts weight forward for the second hook, adjusts their upper body grips, or reaches for a new control point. These moments create brief windows where their hook connection loosens and their ability to follow rotation is compromised. Additionally, when the opponent is high on your back with a shallow hook (foot not deeply crossed), that presents excellent timing."
       }
     },
     {
@@ -111,7 +111,7 @@ description: "How to execute Sit Through Escape in BJJ. Attacking perspective wi
       "name": "What hip movement direction generates the most effective rotation for Sit Through Escape?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The hip movement should initially drive DOWN toward the mat on your near side (the hooked side) to create clearance space, then explosively rotate THROUGH toward your far side as the swinging leg passes underneath. The motion is not a flat spin but rather a drop-and-rotate sequence that uses the mat as a reference point for creating the hook clearance before the rotation phase."
+        "text": "Drive your hips DOWN into the mat on the hooked near side first to create clearance, then explosively rotate THROUGH toward your far side. The swinging leg passes underneath during the rotation phase. The motion is not a flat spin but a drop-and-rotate sequence that uses the mat as a reference point for creating hook clearance before the rotation."
       }
     }
   ]

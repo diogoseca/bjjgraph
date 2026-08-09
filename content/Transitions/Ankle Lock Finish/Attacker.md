@@ -79,7 +79,7 @@ description: "How to execute Ankle Lock Finish in BJJ. Attacking perspective wit
       "name": "What position do you start the Ankle Lock Finish from and what conditions must exist?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "This technique starts from Ushiro Ashi-Garami top position, which occurs when you've maintained leg entanglement after your opponent inverted to escape a standard ashi-garami. You must have a figure-four leg configuration with your outside leg crossing over their trapped knee, and their heel must be accessible for grip establishment."
+        "text": "The Ankle Lock Finish starts from Ushiro Ashi-Garami top position with a figure-four leg configuration and the opponent's heel accessible. This position occurs when you've maintained leg entanglement after your opponent inverted to escape a standard ashi-garami. Your outside leg must cross over their trapped knee to complete the figure-four, and their heel must be exposed enough to establish your finishing grip."
       }
     },
     {
@@ -103,7 +103,7 @@ description: "How to execute Ankle Lock Finish in BJJ. Attacking perspective wit
       "name": "What breaking mechanics generate effective pressure for the finish?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Effective breaking mechanics require coordinated full-body movement: arch your back strongly while pulling the heel tight to your chest, simultaneously extend your hips upward to generate downward pressure on the ankle, and dorsiflex the ankle by driving toes toward the shin. The finish comes from hip extension and back arch working together, not arm strength alone."
+        "text": "The break comes from arching your back and extending your hips while pulling the heel tight to your chest — not from arm strength alone. Coordinate the full body: arch strongly as you pull the heel to your chest, extend your hips upward to drive downward pressure into the ankle, and dorsiflex the joint by driving their toes toward their shin. Hip extension and back arch working together produce the finishing force."
       }
     },
     {

@@ -79,7 +79,7 @@ description: "How to execute Half Guard Pass in BJJ. Attacking perspective with 
       "name": "What are the primary dangers of allowing your opponent to maintain an underhook during the half guard pass?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The underhook gives the bottom player the ability to come to their side, which is the foundation for sweeps, back takes, and even submission opportunities from half guard. With an underhook, they can drive into you, take your back by coming up behind you, or execute various half guard sweeps including the old school sweep and Homer Simpson sweep. The underhook also prevents you from flattening them with shoulder pressure, allowing them to maintain better defensive structure. This is why experienced passers treat opponent's underhook as a critical threat that must be addressed immediately."
+        "text": "The underhook lets the bottom player come up to their side, which is the foundation for sweeps, back takes, and even submissions from half guard. With an underhook they can drive into you, come up behind you to take your back, or execute various half guard sweeps including the old school sweep and Homer Simpson sweep. It also prevents you from flattening them with shoulder pressure, letting them maintain better defensive structure. This is why experienced passers treat the opponent's underhook as a critical threat that must be addressed immediately."
       }
     },
     {
@@ -87,7 +87,7 @@ description: "How to execute Half Guard Pass in BJJ. Attacking perspective with 
       "name": "How should you adapt your passing strategy when facing lockdown half guard versus traditional half guard?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Lockdown half guard requires specific counter-techniques because opponent has their legs crossed, creating a mechanical lock that prevents simple leg extraction. Against lockdown, you should focus on either breaking the lockdown by controlling their top foot and prying it away from your trapped leg, or transitioning to positions that nullify the lockdown's effectiveness such as getting the underhook and driving them to their back. You may also whip your trapped leg sharply to break the hold, or step over to headquarters position to bypass the lockdown entirely. Traditional half guard without lockdown allows more direct pressure passing, whereas lockdown demands addressing the leg configuration specifically."
+        "text": "Lockdown requires breaking or bypassing the crossed-leg lock itself, while traditional half guard allows more direct pressure passing. Because the opponent's legs are crossed into a mechanical lock, simple leg extraction is blocked: focus on breaking the lockdown by controlling their top foot and prying it away from your trapped leg, or transition to positions that nullify its effectiveness, such as getting the underhook and driving them to their back. You may also whip your trapped leg sharply to break the hold, or step over to headquarters position to bypass the lockdown entirely."
       }
     },
     {
@@ -103,7 +103,7 @@ description: "How to execute Half Guard Pass in BJJ. Attacking perspective with 
       "name": "Why is preventing deep half guard entry considered critical during the half guard passing sequence?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Deep half guard represents one of the most dangerous positions for the passer because the bottom player gets underneath your center of gravity, controls your legs from below, and has access to numerous high-percentage sweeps including the Homer Simpson, waiter sweep, and various wrestling-style dump sweeps. Once deep half is established, your passing attempt has essentially failed and you're now defending against being swept or submitted. Prevention requires keeping your hips low and forward, never allowing space underneath your torso. If opponent begins entering deep half, immediate counters are necessary such as hopping over to the other side (limp leg), establishing front headlock control, or sprawling backward."
+        "text": "Deep half guard puts the bottom player underneath your center of gravity, controlling your legs from below with access to numerous high-percentage sweeps. Those include the Homer Simpson, waiter sweep, and various wrestling-style dump sweeps; once deep half is established, your passing attempt has essentially failed and you are now defending against being swept or submitted. Prevention requires keeping your hips low and forward, never allowing space underneath your torso. If the opponent begins entering deep half, immediate counters are necessary, such as hopping over to the other side (limp leg), establishing front headlock control, or sprawling backward."
       }
     },
     {
@@ -111,7 +111,7 @@ description: "How to execute Half Guard Pass in BJJ. Attacking perspective with 
       "name": "How should you sequence your passing attempts when your initial half guard pass is defended?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Rather than remaining static and attempting to force a single passing technique against active defense, experienced passers chain multiple passing sequences together based on opponent's reactions. If traditional pressure passing is defended with strong frames, transition to knee slice or headquarters. If they defend knee slice, flow to leg drag or long step. The key is maintaining forward pressure and control while fluidly transitioning between passing angles. Each defensive response creates new opportunities - if they defend your crossface, they often weaken their leg defense; if they focus entirely on leg retention, their upper body becomes vulnerable."
+        "text": "Chain multiple passing sequences together based on the opponent's reactions rather than staying static and forcing a single technique. If traditional pressure passing is defended with strong frames, transition to the knee slice or headquarters; if they defend the knee slice, flow to the leg drag or long step. The key is maintaining forward pressure and control while fluidly transitioning between passing angles. Each defensive response creates new opportunities: if they defend your crossface, they often weaken their leg defense, and if they focus entirely on leg retention, their upper body becomes vulnerable."
       }
     }
   ]

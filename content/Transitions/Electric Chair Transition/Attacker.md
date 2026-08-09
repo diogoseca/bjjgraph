@@ -117,7 +117,7 @@ description: "How to execute Electric Chair Transition in BJJ. Attacking perspec
       "name": "What determines the correct timing to initiate the Electric Chair Transition?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Initiate when opponent's weight is committed forward (making them light for elevation), when they're distracted by defending your underhook or upper body attacks, or immediately after breaking their posture. Attempting against a well-postured opponent with good base typically fails. The transition works best when opponent is already reacting to your lockdown pressure rather than establishing defensive position."
+        "text": "Initiate when the opponent's weight is committed forward, making them light enough to elevate with the lockdown. Other prime windows are when they are distracted defending your underhook or upper-body attacks, or immediately after you break their posture. Attempting against a well-postured opponent with good base typically fails. The transition works best when the opponent is already reacting to your lockdown pressure rather than establishing defensive position."
       }
     }
   ]

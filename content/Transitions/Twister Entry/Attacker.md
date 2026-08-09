@@ -77,7 +77,7 @@ description: "How to execute Twister in BJJ. Attacking perspective with setup, e
       "name": "What is the primary goal of the Twister entry from Cross Body Ride?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The primary goal is to convert the perpendicular turtle-top control of cross body ride into Twister Control by establishing a figure-four leg entanglement around the opponent's hips and near-side thigh. This creates the platform for high-percentage submissions including the Twister, Calf Slicer, and Banana Split. The entry transitions from a positional control with multiple options to a specialized leg entanglement system with focused submission threats."
+        "text": "The primary goal is to convert cross body ride into Twister Control by locking a figure-four leg entanglement around the opponent's hips and near-side thigh. This converts the perpendicular turtle-top control into a platform for high-percentage submissions including the Twister, Calf Slicer, and Banana Split. The entry transitions from a positional control with multiple options to a specialized leg entanglement system with focused submission threats."
       }
     },
     {

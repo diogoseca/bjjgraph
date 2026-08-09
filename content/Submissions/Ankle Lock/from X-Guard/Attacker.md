@@ -109,7 +109,7 @@ description: "Learn to execute the ankle lock from X-Guard with expert technique
       "name": "Your opponent begins standing up while you hold the ankle lock — at what point is their escape no longer viable?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Once your figure-four grip is fully locked behind the Achilles and your body has achieved perpendicular alignment with elevated hips, standing up actually works against the defender. Their standing creates additional downward force on the ankle as your body weight hangs from their trapped leg through the grip. The point of no escape occurs when hip extension exceeds approximately forty-five degrees with the grip fully secured and legs controlling the hip. However, if they stand before the grip is locked, they can often retract their foot during the transition window, so grip security is the critical threshold."
+        "text": "Their standing escape stops working once your figure-four grip is fully locked behind the Achilles and your body is perpendicular with elevated hips. From that point their standing works against them: their own body weight hangs from the trapped leg through your grip, adding downward force on the ankle. The point of no escape occurs when hip extension exceeds approximately forty-five degrees with the grip fully secured and your legs controlling the hip. However, if they stand before the grip is locked, they can often retract their foot during the transition window, so grip security is the critical threshold."
       }
     },
     {
@@ -125,7 +125,7 @@ description: "Learn to execute the ankle lock from X-Guard with expert technique
       "name": "Your opponent curls their toes and points their foot to relieve Achilles pressure — how do you adjust your grip to overcome this defense?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "When the opponent points their toes, slide your wrist deeper behind the ankle so the blade contacts the Achilles at a higher point near the calf-tendon junction where toe pointing provides less protection. Simultaneously, angle your body slightly toward their toes to apply a combined dorsiflexion and compression force that toe-pointing defense cannot fully address. If these grip adjustments remain insufficient, transition to a toe hold by redirecting your grip to their rigid foot, using their pointed-toe position as leverage for the rotational toe hold attack."
+        "text": "Slide your wrist deeper behind the ankle so the blade contacts the Achilles higher, near the calf-tendon junction where toe pointing protects less. Simultaneously, angle your body slightly toward their toes to apply a combined dorsiflexion and compression force that toe-pointing defense cannot fully address. If these grip adjustments remain insufficient, transition to a toe hold by redirecting your grip to their rigid foot, using their pointed-toe position as leverage for the rotational toe hold attack."
       }
     }
   ]

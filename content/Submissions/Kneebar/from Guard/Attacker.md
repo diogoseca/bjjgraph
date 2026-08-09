@@ -73,7 +73,7 @@ description: "How to execute Kneebar from Guard in BJJ. Attacking perspective wi
       "name": "Why must you apply kneebar pressure progressively over 5-7 seconds in training rather than explosively?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Explosive application of the kneebar can cause immediate catastrophic knee injury including PCL tears, MCL ruptures, and meniscus damage before your training partner has time to recognize the danger and tap. The knee joint is extremely vulnerable to hyperextension, and unlike many other submissions, there is minimal 'safe zone' between no pressure and injury. Progressive application over 5-7 seconds allows your partner to feel the increasing danger and tap safely, preventing serious injuries that require surgery and months of recovery."
+        "text": "Progressive pressure over 5-7 seconds gives your partner time to feel the danger and tap before the knee is injured. Explosive application can cause immediate catastrophic injury — PCL tears, MCL ruptures, and meniscus damage — before your partner even recognizes the danger. The knee is extremely vulnerable to hyperextension, and unlike many other submissions there is minimal safe zone between no pressure and the injury threshold, so injuries often require surgery and months of recovery. This is especially critical from leg entanglement, where control is already established and finishing pressure can be applied very quickly."
       }
     },
     {

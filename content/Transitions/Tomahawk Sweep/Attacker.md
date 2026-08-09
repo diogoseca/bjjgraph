@@ -77,7 +77,7 @@ description: "How to execute Tomahawk Sweep in BJJ. Attacking perspective with s
       "name": "What is the primary mechanical difference between a Tomahawk Sweep and a traditional X-Guard elevation sweep?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The Tomahawk Sweep utilizes a diagonal chopping motion with the top hook creating rotational force, whereas traditional X-Guard sweeps typically use more vertical lifting mechanics. The Tomahawk's angular approach compromises opponent's base through rotation rather than pure elevation, making it more effective against opponents with strong vertical posture and wide stance. The scissoring action of both hooks working at opposing angles creates a force that cannot be resisted by a single post."
+        "text": "The Tomahawk Sweep uses a diagonal chopping motion of the top hook to create rotational force, unlike the vertical lift of traditional X-Guard sweeps. This angular approach compromises the opponent's base through rotation rather than pure elevation, making it more effective against opponents with strong vertical posture and a wide stance. The scissoring action of both hooks working at opposing angles creates a force that cannot be resisted by a single post."
       }
     },
     {
@@ -85,7 +85,7 @@ description: "How to execute Tomahawk Sweep in BJJ. Attacking perspective with s
       "name": "Why is creating a 30-45 degree angle with your hips essential before initiating the Tomahawk Sweep?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The angular hip position converts the sweep vector from vertical to diagonal, creating rotational momentum that destabilizes opponent's base more effectively than straight lifting. This angle positions your hooks to generate a scissoring action that attacks both upper and lower parts of opponent's stance simultaneously, making defensive posting much more difficult. Without this angle, the force travels straight up into the opponent's base rather than around it."
+        "text": "Angling the hips 30-45 degrees converts the sweep vector from vertical to diagonal, creating rotational momentum that destabilizes the opponent's base. This angle positions your hooks to generate a scissoring action that attacks both upper and lower parts of the opponent's stance simultaneously, making defensive posting much more difficult. Without this angle, the force travels straight up into the opponent's base rather than around it."
       }
     },
     {
@@ -109,7 +109,7 @@ description: "How to execute Tomahawk Sweep in BJJ. Attacking perspective with s
       "name": "What grip configuration provides the highest success rate for the Tomahawk Sweep, and why?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "A same-side sleeve grip on the arm corresponding to your top hook provides the highest success rate because it accomplishes three objectives simultaneously: it prevents the opponent from posting on the sweep side, it allows you to pull their weight forward to break their vertical posture, and it directs their rotation during the sweep to ensure they fall in the optimal trajectory for mount consolidation. In no-gi, a wrist control or underhook on that same side serves the equivalent function."
+        "text": "A same-side sleeve grip on the arm matching your top hook is highest-percentage: it denies posting, breaks posture, and steers the fall toward mount. It accomplishes three objectives simultaneously: preventing the opponent from posting on the sweep side, pulling their weight forward to break their vertical posture, and directing their rotation during the sweep so they fall in the optimal trajectory for mount consolidation. In no-gi, wrist control or an underhook on that same side serves the equivalent function."
       }
     },
     {
@@ -117,7 +117,7 @@ description: "How to execute Tomahawk Sweep in BJJ. Attacking perspective with s
       "name": "When is the optimal moment to release your hooks during the Tomahawk Sweep?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Hooks should be released only when opponent's backward momentum toward the mat becomes irreversible, typically when their shoulders pass the point where posting could recover their base. Releasing too early allows opponent to regain stability mid-sweep, while maintaining hooks too long prevents smooth transition to top position and may cause you to roll past the optimal consolidation point. The key indicator is observing opponent's commitment to the fall when their upper body passes perpendicular to the mat."
+        "text": "Release the hooks only when the opponent's backward fall is irreversible, once their shoulders pass the point where posting could recover their base. Releasing too early allows the opponent to regain stability mid-sweep, while maintaining the hooks too long prevents a smooth transition to top position and may roll you past the optimal consolidation point. The key indicator is the opponent's commitment to the fall as their upper body passes perpendicular to the mat."
       }
     }
   ]

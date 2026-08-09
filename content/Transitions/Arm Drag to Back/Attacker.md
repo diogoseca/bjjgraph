@@ -93,7 +93,7 @@ description: "How to execute Arm Drag to Back in BJJ. Attacking perspective with
       "name": "What is the optimal timing window for initiating the arm drag from butterfly guard?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The optimal window is when the opponent's weight shifts forward, either because they are pressuring into your guard, reaching for grips, or attempting to establish passing position. Forward weight commitment means their arms are extended and available for gripping, and their base is vulnerable to being pulled off-center. The moment just after they establish a grip on your collar or sleeve is particularly effective because their hand is occupied and they cannot retract quickly enough to defend the drag."
+        "text": "The optimal window is when the opponent's weight shifts forward, whether pressuring into your guard, reaching for grips, or setting up a pass. Forward weight commitment means their arms are extended and available for gripping, and their base is vulnerable to being pulled off-center. The moment just after they establish a grip on your collar or sleeve is particularly effective because their hand is occupied and they cannot retract quickly enough to defend the drag."
       }
     },
     {
@@ -101,7 +101,7 @@ description: "How to execute Arm Drag to Back in BJJ. Attacking perspective with
       "name": "What grip configuration must exist before you can execute the arm drag?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "You need a two-point grip system: a same-side wrist grip with your hand wrapped around their wrist in a C-grip or monkey grip, and a cross-side grip on their triceps, lat, or upper arm. The wrist grip provides directional control to pull the arm across their centerline, while the triceps grip provides the pushing force that accelerates the arm across their body. Without both grip points, the drag lacks the mechanical advantage to turn their shoulders and create the angle. In gi, the collar can substitute for the triceps grip."
+        "text": "You need a two-point grip: a same-side wrist grip in a C-grip or monkey grip, plus a cross-side grip on their triceps, lat, or upper arm. The wrist grip provides directional control to pull the arm across their centerline, while the triceps grip provides the pushing force that accelerates the arm across their body. Without both grip points, the drag lacks the mechanical advantage to turn their shoulders and create the angle. In gi, the collar can substitute for the triceps grip."
       }
     },
     {

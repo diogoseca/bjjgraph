@@ -71,7 +71,7 @@ description: "How to execute Double Leg Entry in BJJ. Attacking perspective with
       "name": "What is the correct sequence for double leg entry execution?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The correct sequence is: 1) Create setup opportunity through grip fighting or feints, 2) Execute explosive level change by dropping hips with straight back, 3) Drive forward with deep penetration step between opponent's legs, 4) Establish head position on centerline or outside while driving into opponent's midsection, 5) Secure both legs with arms wrapped behind knees/thighs and hands connected, 6) Maintain continuous forward drive to complete entry position. This sequence must flow as one continuous motion with each element triggering the next."
+        "text": "The sequence is setup, explosive level change, penetration step, head position, securing both legs, then continuous forward drive. In detail: 1) Create the setup opportunity through grip fighting or feints, 2) Execute an explosive level change by dropping the hips with a straight back, 3) Drive forward with a deep penetration step between the opponent's legs, 4) Establish head position on the centerline or outside while driving into the opponent's midsection, 5) Secure both legs with arms wrapped behind the knees/thighs and hands connected, 6) Maintain continuous forward drive to complete the entry position. This sequence must flow as one continuous motion with each element triggering the next."
       }
     },
     {
@@ -79,7 +79,7 @@ description: "How to execute Double Leg Entry in BJJ. Attacking perspective with
       "name": "Why is proper head position critical during double leg entry?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Head position serves three essential functions: First, keeping the head up with forehead driving into opponent's midsection prevents guillotine choke opportunities which occur when the head drops below the opponent's hips. Second, proper head position provides structural drive and leverage to control opponent's upper body and maintain forward pressure. Third, positioning the head on centerline or outside creates angles that make defensive sprawling less effective. Head position is often the difference between successful entry and defensive submission."
+        "text": "Proper head position prevents guillotine chokes, provides structural drive and leverage, and creates angles that weaken the sprawl. First, keeping the head up with the forehead driving into the opponent's midsection prevents guillotine choke opportunities, which occur when the head drops below the opponent's hips. Second, proper head position provides structural drive and leverage to control the opponent's upper body and maintain forward pressure. Third, positioning the head on the centerline or outside creates angles that make defensive sprawling less effective. Head position is often the difference between a successful entry and a defensive submission."
       }
     },
     {
@@ -87,7 +87,7 @@ description: "How to execute Double Leg Entry in BJJ. Attacking perspective with
       "name": "How should you respond if opponent successfully sprawls during your double leg entry?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "If opponent achieves a strong sprawl position, you have several response options depending on what control you maintained: 1) If you still have leg control, continue driving forward and circle to opponent's side to recover position, 2) If head position is good but legs are withdrawn, transition to front headlock control and look for snap down or go-behind, 3) If one leg is still available, convert to single leg finish, 4) If opponent has superior position, abandon the attack and work to return to neutral standing position or establish defensive guard. The key is recognizing early when the entry has failed and transitioning rather than committing to a lost position."
+        "text": "Match your response to the control you still have: keep driving and circle, take front headlock, convert to single leg, or abandon and reset. Specifically: 1) If you still have leg control, continue driving forward and circle to the opponent's side to recover position, 2) If head position is good but the legs are withdrawn, transition to front headlock control and look for a snap down or go-behind, 3) If one leg is still available, convert to a single leg finish, 4) If the opponent has superior position, abandon the attack and work back to neutral standing or establish defensive guard. The key is recognizing early when the entry has failed and transitioning rather than committing to a lost position."
       }
     },
     {
@@ -95,7 +95,7 @@ description: "How to execute Double Leg Entry in BJJ. Attacking perspective with
       "name": "What setup or timing creates the highest percentage double leg entry opportunity?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The highest percentage opportunity typically occurs when opponent is pressuring forward or has committed their weight forward in response to upper body attacks, grip breaks, or feints. This forward commitment compromises their ability to sprawl effectively because their weight is already moving in the direction of your attack. Other high-percentage moments include: immediately after opponent releases a grip and their hands are out of position, when opponent is circling toward your penetration side, after a collar tie snap that draws them forward, or when opponent is fatigued and maintaining less defensive vigilance. The common thread is attacking when opponent's defensive structure is temporarily compromised."
+        "text": "The highest percentage entry comes when the opponent pressures or commits their weight forward, compromising their ability to sprawl. This forward commitment — usually in response to upper body attacks, grip breaks, or feints — means their weight is already moving in the direction of your attack. Other high-percentage moments include: immediately after the opponent releases a grip and their hands are out of position, when the opponent is circling toward your penetration side, after a collar tie snap that draws them forward, or when the opponent is fatigued and maintaining less defensive vigilance. The common thread is attacking when the opponent's defensive structure is temporarily compromised."
       }
     },
     {
@@ -103,7 +103,7 @@ description: "How to execute Double Leg Entry in BJJ. Attacking perspective with
       "name": "What is the most common error that leads to guillotine exposure during double leg entries?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The most common error is dropping the head below the opponent's hips during the level change or penetration phase, combined with reaching for legs before establishing proper position. This creates a bent-over posture with the neck extended and exposed, allowing opponent to easily secure a front headlock grip and lock in the guillotine. The correction is to maintain head position up with eyes on opponent's chest/hips, drive the forehead into their midsection, and ensure the level change and penetration occur before the arms reach for leg control. The head should be the first point of contact and should remain above or at the height of the opponent's hips throughout the entry."
+        "text": "The most common error is dropping the head below the opponent's hips while reaching for the legs before establishing position. This creates a bent-over posture with the neck extended and exposed, allowing the opponent to easily secure a front headlock grip and lock in the guillotine. The correction is to keep the head up with eyes on the opponent's chest/hips, drive the forehead into their midsection, and ensure the level change and penetration occur before the arms reach for leg control. The head should be the first point of contact and should remain above or at the height of the opponent's hips throughout the entry."
       }
     },
     {

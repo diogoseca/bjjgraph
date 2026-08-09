@@ -107,7 +107,7 @@ description: "How to execute the Knee Slice Pass in BJJ. Complete attacking guid
       "name": "What combination of pressure points makes the knee slice pass most effective?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Four simultaneous pressure points create the pass: forward hip drive through your center of mass into theirs, head and shoulder crossface pressure on the far side pinning their shoulder flat, far hip control with your trailing hand preventing rotation, and the knee driving diagonally across their thighs creating a barrier. All four must work in concert."
+        "text": "Four simultaneous pressures create the pass: forward hip drive, crossface, far-hip control, and the knee slicing diagonally across the thighs. The forward hip drive sends your center of mass through theirs, while head and shoulder crossface pressure on the far side pins their shoulder flat. Your trailing hand controls the far hip to prevent rotation, and the knee driving diagonally across their thighs creates a barrier. All four must work in concert."
       }
     },
     {
@@ -115,7 +115,7 @@ description: "How to execute the Knee Slice Pass in BJJ. Complete attacking guid
       "name": "What grip configuration do you need before initiating the knee slice?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The minimum grip configuration requires three control points: lead hand on collar or crossface controlling the head and far shoulder, trailing hand on the far hip or pants controlling rotation, and your head positioned on the far side creating additional pressure. Some variations add an underhook instead of collar grip, which trades head control for superior upper body manipulation."
+        "text": "You need three controls before slicing: a lead-hand collar or crossface grip, a trailing hand on the far hip or pants, and your head on the far side. The lead hand controls the head and far shoulder, the trailing hand prevents rotation, and the head position creates additional pressure. Some variations add an underhook instead of the collar grip, which trades head control for superior upper body manipulation."
       }
     },
     {

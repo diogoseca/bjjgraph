@@ -53,7 +53,7 @@ description: "How to defend the weave from outside ashi-garami into the Leg Knot
       "name": "When is the decisive moment to defend the weave from outside ashi to the Leg Knot?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The over-step. The moment the opponent lifts their free leg up and over your far leg - before they thread the foot back underneath - is when the knot is still loose and the slack is still there. Reacting during this window lets you extract the leg or spin to single leg X; waiting until the threads cross means the slack is gone, the heel line is established, and escape becomes far harder."
+        "text": "The decisive moment is the over-step, when the opponent lifts their free leg over your far leg but has not yet threaded it back underneath. In that window the knot is still loose and the slack is still there, so reacting lets you extract the leg or spin to single leg X. Once the threads cross, the slack is gone, the heel line is established, and escape becomes far harder."
       }
     },
     {
@@ -61,7 +61,7 @@ description: "How to defend the weave from outside ashi-garami into the Leg Knot
       "name": "Why is spinning into the opponent toward single leg X the strongest counter to this entry?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Spinning into the opponent as they step over does two things at once: it keeps your heel hidden (you turn into the danger rather than exposing it) and it reverses you out of their developing knot into your own offensive single leg X entanglement. Instead of merely surviving, you escape the attack and gain an attacking position with sweep and leg-lock options, which is why it is preferred over a passive extraction."
+        "text": "Spinning into the opponent as they step over hides your heel and reverses their developing knot into your own offensive single leg X. You turn into the danger rather than exposing the heel, so instead of merely surviving you escape the attack and gain an attacking entanglement with sweep and leg-lock options. That dual payoff is why it is preferred over a passive extraction."
       }
     },
     {
@@ -69,7 +69,7 @@ description: "How to defend the weave from outside ashi-garami into the Leg Knot
       "name": "What is the worst mistake a defender can make against the weave to the Leg Knot, and what should they do instead?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The worst mistake is going passive and letting the opponent settle, remove slack, and lace the legs together unopposed - this consolidates the knot with inside heel control and collapses your escape options. Instead, stay active from outside ashi: keep the trapped leg kicking or limp-legging to deny slack, frame the over-step with your free leg, and react at the over-step so you can extract early or spin to single leg X before the knot sets."
+        "text": "The worst mistake is going passive and letting the opponent settle, remove slack, and lace the legs together unopposed. Passivity consolidates the knot with inside heel control and collapses your escape options. Instead, stay active from outside ashi: keep the trapped leg kicking or limp-legging to deny slack, frame the over-step with your free leg, and react at the over-step so you can extract early or spin to single leg X before the knot sets."
       }
     }
   ]

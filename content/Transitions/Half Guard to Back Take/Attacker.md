@@ -83,7 +83,7 @@ description: "How to execute Half Guard to Back Take in BJJ. Attacking perspecti
       "name": "What is the primary control point that enables the half guard to back take transition?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The underhook on opponent's far side is the primary control point, providing leverage for angle creation, preventing opponent's crossface pressure, and serving as the main anchor throughout the entire transition from half guard to full back control."
+        "text": "The far-side underhook is the primary control point that anchors the entire transition from half guard to back control. It provides the leverage for angle creation, prevents the opponent's crossface pressure, and remains the main anchor from the initial half guard position all the way to full back control."
       }
     },
     {
@@ -91,7 +91,7 @@ description: "How to execute Half Guard to Back Take in BJJ. Attacking perspecti
       "name": "When is the optimal timing to execute the climb to back control?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "You should climb to back control after creating a perpendicular angle with the underhook, specifically when opponent's weight commits forward and their bottom hip is blocked by your knee, preventing their defensive turn-in or base recovery."
+        "text": "Climb to back control once your underhook has created a perpendicular angle and the opponent's weight commits forward. Specifically, their bottom hip should be blocked by your knee at that moment, which prevents their defensive turn-in and stops them from recovering base as you climb."
       }
     },
     {
@@ -99,7 +99,7 @@ description: "How to execute Half Guard to Back Take in BJJ. Attacking perspecti
       "name": "What is the most common technical error when attempting this transition and how is it corrected?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The most common error is releasing the underhook too early during the transition, which results in loss of control and allows opponent to establish crossface and flatten you. The correction is to maintain underhook connection throughout the entire sequence until back control is fully established with both hooks inserted and secured."
+        "text": "The most common error is releasing the underhook too early, which loses control and lets the opponent crossface and flatten you. The correction is to maintain the underhook connection throughout the entire sequence, keeping it until back control is fully established with both hooks inserted and secured."
       }
     },
     {
@@ -107,7 +107,7 @@ description: "How to execute Half Guard to Back Take in BJJ. Attacking perspecti
       "name": "How do you effectively counter an opponent's crossface pressure when attempting the back take?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Counter crossface pressure by using your inside arm to create a defensive frame against their neck or shoulder while simultaneously using the underhook to create the perpendicular angle anyway. If crossface becomes too dominant, transition to deep half guard or lockdown positions that nullify their crossface advantage."
+        "text": "Frame against their neck or shoulder with your inside arm while the underhook still drives you to the perpendicular angle. The defensive frame blunts the crossface as you angle out anyway; if the crossface becomes too dominant, transition to deep half guard or lockdown positions that nullify their crossface advantage."
       }
     },
     {
@@ -115,7 +115,7 @@ description: "How to execute Half Guard to Back Take in BJJ. Attacking perspecti
       "name": "Why is blocking the opponent's bottom hip critical to the success of this technique?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Blocking opponent's bottom hip with your top knee is critical because it prevents them from turning into you to recover guard and maintains your perpendicular angle during the climb. Without this hip block, opponents can easily rotate toward you and nullify the back take attempt, recovering to standard half guard or even passing to top position."
+        "text": "Blocking the bottom hip with your top knee stops the opponent from turning into you to recover guard during the climb. It also maintains your perpendicular angle; without this hip block, opponents can easily rotate toward you and nullify the back take, recovering to standard half guard or even passing to top position."
       }
     },
     {

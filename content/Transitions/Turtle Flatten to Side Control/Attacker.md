@@ -77,7 +77,7 @@ description: "How to execute Turtle Flatten to Side Control in BJJ. Attacking pe
       "name": "What is the optimal angle of force application when flattening an opponent from turtle?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The optimal angle is approximately 45 degrees lateral — driving diagonally toward the mat through the opponent's near hip rather than straight down onto their back. A 45-degree lateral angle attacks the weakest structural axis of the four-point turtle base, causing it to collapse sideways. Straight downward pressure is absorbed by the base structure and rarely collapses the turtle effectively."
+        "text": "The optimal angle is approximately 45 degrees lateral, driving diagonally toward the mat through the opponent's near hip. This 45-degree lateral angle attacks the weakest structural axis of the four-point turtle base, causing it to collapse sideways, rather than driving straight down onto their back. Straight downward pressure is absorbed by the base structure and rarely collapses the turtle effectively."
       }
     },
     {
@@ -93,7 +93,7 @@ description: "How to execute Turtle Flatten to Side Control in BJJ. Attacking pe
       "name": "What grip configuration do you need before initiating the flatten?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "You need two control points established simultaneously: one on the hip line (far hip, belt, or waistband grip with your near hand) and one controlling the upper body (crossface, collar tie, seatbelt, or underhook with your far arm). The hip grip controls the direction and angle of the flatten. The upper body grip prevents the opponent from turning in, sitting through, or creating a scramble. Attempting the flatten with only one of these control points allows the opponent to escape in the direction that is uncontrolled."
+        "text": "You need two simultaneous control points: a hip-line grip with your near hand and upper-body control with your far arm. The hip grip (far hip, belt, or waistband) controls the direction and angle of the flatten, while the upper-body grip (crossface, collar tie, seatbelt, or underhook) prevents the opponent from turning in, sitting through, or creating a scramble. Attempting the flatten with only one of these control points allows the opponent to escape in the direction that is uncontrolled."
       }
     },
     {

@@ -103,7 +103,7 @@ description: "Learn to finish the rear naked choke from back control. Step-by-st
       "name": "During the choking arm insertion, your opponent tucks their chin tightly to their chest — how do you create space to thread the arm underneath?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Apply forehead pressure with the supporting hand by placing your palm on their forehead and pushing back to tilt the head, creating a gap between chin and chest. Alternatively, use a windshield-wiper pummeling motion with the choking arm to swim underneath the chin through the narrow gap. A third option is to shift your hips to one side creating an angle change that opens the far side of the neck. If the chin tuck is extremely tight, threaten an alternative attack like a collar grip or arm attack to force them to address the new threat, momentarily opening the neck."
+        "text": "Push their forehead back with your supporting palm to tilt the head and open a gap between chin and chest. Alternatively, use a windshield-wiper pummeling motion with the choking arm to swim underneath the chin through the narrow gap, or shift your hips to one side so the angle change opens the far side of the neck. If the chin tuck is extremely tight, threaten an alternative attack like a collar grip or arm attack to force them to address the new threat, momentarily opening the neck."
       }
     },
     {
@@ -111,7 +111,7 @@ description: "Learn to finish the rear naked choke from back control. Step-by-st
       "name": "What are the critical safety considerations when applying the rear naked choke in training?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Apply the choke slowly and progressively over three to five seconds minimum, allowing your partner full awareness of building pressure and clear opportunity to tap. Never snap or jerk the choke into position. Ensure the forearm is against the carotid arteries and not the trachea. Always verify your partner has at least one hand free to tap, or listen for verbal tap signals. Release immediately upon any tap signal, going limp, or distress sound. Never hold a choke past the tap regardless of circumstances. Monitor your partner after release for thirty seconds to confirm full consciousness and normal breathing."
+        "text": "Apply the choke slowly and progressively over at least three to five seconds, and release immediately at any tap, limpness, or distress signal. Never snap or jerk the choke into position, and ensure the forearm presses the carotid arteries rather than the trachea. Always verify your partner has at least one hand free to tap, or listen for verbal tap signals, and never hold a choke past the tap regardless of circumstances. Monitor your partner for thirty seconds after release to confirm full consciousness and normal breathing."
       }
     },
     {

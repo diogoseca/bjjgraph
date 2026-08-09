@@ -87,7 +87,7 @@ description: "How to execute the Sickle Sweep from De La Riva Guard in BJJ. Atta
       "name": "Your opponent posts their hand on the mat as you initiate the Sickle Sweep - how do you adjust?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "When the opponent posts their hand, immediately transition to attacking their back by following the posted arm and climbing up their body while maintaining your De La Riva hook. Alternatively, you can attack an omoplata on the posted arm or use the posting moment to transition to Single Leg X-Guard. The key is recognizing the post as an opportunity for a different attack rather than continuing to force the sweep against a stabilized base."
+        "text": "A hand post is your cue to switch attacks: follow the posted arm and climb to the back while keeping your De La Riva hook. Alternatively, attack an omoplata on the posted arm, or use the posting moment to transition to Single Leg X-Guard. The key is recognizing the post as an opportunity for a different attack rather than continuing to force the sweep against a stabilized base."
       }
     },
     {
@@ -95,7 +95,7 @@ description: "How to execute the Sickle Sweep from De La Riva Guard in BJJ. Atta
       "name": "How does the collar grip function during the Sickle Sweep execution?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The collar grip serves three critical functions: (1) it prevents the opponent from posting their hands by controlling their upper body posture and pulling it downward, (2) it creates additional sweeping force when pulled down and toward you during execution, and (3) it provides the primary grip to pull yourself up into mount or side control after the sweep completes. A deep collar grip behind the neck is most effective as it gives maximum control over their posture."
+        "text": "The collar grip breaks posture to stop hand posts, adds pulling force to the sweep, and then pulls you up into top position. Controlling their upper body and pulling it downward prevents them from posting their hands; pulling the collar down and toward you during execution creates additional sweeping force; and after the sweep it is the primary grip for pulling yourself into mount or side control. A deep collar grip behind the neck is most effective, as it gives maximum control over their posture."
       }
     },
     {
@@ -103,7 +103,7 @@ description: "How to execute the Sickle Sweep from De La Riva Guard in BJJ. Atta
       "name": "What is the optimal timing window for executing the Sickle Sweep?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The optimal timing is when the opponent shifts their weight forward onto the leg you're hooking, typically when they step forward to begin a pass or when they adjust their stance. This weight commitment makes it nearly impossible for them to step back to recover base. Additionally, the moment they lift their far leg to step is ideal as they're temporarily on one leg. Advanced practitioners can force this timing by using their grips to pull the opponent's weight forward before sweeping."
+        "text": "Sweep the instant the opponent shifts their weight forward onto the leg you are hooking, so they cannot step back to recover base. This typically happens when they step forward to begin a pass or adjust their stance, and that weight commitment makes recovery nearly impossible. The moment they lift their far leg to step is also ideal, since they are temporarily on one leg. Advanced practitioners force this timing by using their grips to pull the opponent's weight forward before sweeping."
       }
     },
     {

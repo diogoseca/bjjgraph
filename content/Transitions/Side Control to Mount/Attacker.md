@@ -79,7 +79,7 @@ description: "How to execute Side Control to Mount in BJJ. Attacking perspective
       "name": "Why is maintaining constant shoulder pressure throughout the transition critically important, and what happens if you lift your chest during the step-over?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Maintaining shoulder pressure serves multiple purposes: it prevents opponent from creating space, stops them from turning away to turtle, eliminates their ability to establish effective frames, and keeps their spine flat against the mat limiting explosive movement. If you lift your chest during the step-over, you create a gap that allows opponent to turn their shoulders and hips toward you (potentially recovering guard) or away from you (escaping to turtle). The constant pressure pins their shoulders and limits their movement options to only small bridging attempts rather than full escapes."
+        "text": "Constant shoulder pressure keeps opponent's spine flat and denies the space, frames, and turning needed for any escape. It prevents them from creating space, stops them from turning away to turtle, eliminates their ability to establish effective frames, and limits them to only small bridging attempts rather than full escapes. If you lift your chest during the step-over, the gap allows opponent to turn their shoulders and hips toward you (potentially recovering guard) or away from you (escaping to turtle)."
       }
     },
     {
@@ -95,7 +95,7 @@ description: "How to execute Side Control to Mount in BJJ. Attacking perspective
       "name": "What is the technical reason for stepping your leg in a wide arc rather than straight across opponent's chest when transitioning to mount?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "A wide arc motion (stepping toward their far shoulder rather than straight across) allows your leg to clear over any potential frames, arm defenses, or body positioning they might use to block the transition. A straight-across movement brings your leg directly through their primary defensive zone where arms and frames are most effective. The wide arc also makes it harder for opponent to catch your leg or pants, and positions your knee to land cleanly on the opposite side of their body rather than getting stuck on their torso or arm. This path of least resistance significantly increases success rate."
+        "text": "Stepping in a wide arc toward the far shoulder lets your leg clear frames and arm defenses that would block a straight-across path. A straight-across movement brings your leg directly through their primary defensive zone where arms and frames are most effective. The wide arc also makes it harder for opponent to catch your leg or pants, and positions your knee to land cleanly on the opposite side of their body rather than getting stuck on their torso or arm. This path of least resistance significantly increases success rate."
       }
     },
     {
@@ -103,7 +103,7 @@ description: "How to execute Side Control to Mount in BJJ. Attacking perspective
       "name": "Why must you bring your second leg over quickly after the first leg clears, and what specific risk exists if you pause in the partial mount position?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The partial mount position (one leg over, one leg still on original side) creates a window where opponent can insert their knee shield or hook your leg with their bottom leg, capturing you in half guard instead of allowing full mount. Their defensive priority shifts from preventing the first leg to preventing the second leg, and they will use that brief moment to recover some guard retention. The quick continuous motion of both legs gives them no time to react or establish half guard frames. Additionally, the partial mount position compromises your base and weight distribution, making you more vulnerable to being swept or losing the position entirely if you pause there."
+        "text": "Bringing the second leg over immediately denies opponent the split-second they need to hook your leg or insert a knee shield and capture half guard. In partial mount (one leg over, one still on the original side) their defensive priority shifts from preventing the first leg to preventing the second, and they will use that brief moment to recover some guard retention. Quick continuous motion of both legs gives them no time to react or establish half guard frames. Additionally, the partial mount compromises your base and weight distribution, so pausing there leaves you more vulnerable to being swept or losing the position entirely."
       }
     },
     {
@@ -111,7 +111,7 @@ description: "How to execute Side Control to Mount in BJJ. Attacking perspective
       "name": "When opponent has strong frames established on both sides and actively prevents your transition attempt, what should you do instead of forcing the mount transition?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "You should abandon the mount transition attempt and work to systematically collapse their frames first, or transition to an alternative dominant position like knee-on-belly or north-south. Forcing a transition against strong established frames wastes energy, increases risk of losing position entirely, and demonstrates poor positional awareness. Better options include using weight and pressure to collapse frames over time, switching to submissions that attack their framing arms (kimura, americana), or using their commitment to frames as an opportunity to advance to knee-on-belly where you can attack from a different angle. High-level jiu-jitsu is about taking what opponent gives you, not forcing predetermined techniques."
+        "text": "Don't force it — collapse their frames first or switch to an alternative dominant position like knee-on-belly or north-south. Forcing a transition against strong established frames wastes energy, increases the risk of losing position entirely, and demonstrates poor positional awareness. Better options include using weight and pressure to collapse the frames over time, switching to submissions that attack their framing arms (kimura, americana), or using their commitment to frames as an opportunity to advance to knee-on-belly and attack from a different angle. High-level jiu-jitsu is about taking what opponent gives you, not forcing predetermined techniques."
       }
     }
   ]

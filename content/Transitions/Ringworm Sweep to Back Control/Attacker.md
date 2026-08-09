@@ -79,7 +79,7 @@ description: "How to execute Ringworm Sweep to Back Control in BJJ. Attacking pe
       "name": "Your opponent is in a low, heavy combat base with hips glued to the mat - should you attempt the sweep?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "No. The sweep requires the opponent to have an elevated center of gravity to generate sufficient rotational momentum. When the opponent maintains a low, heavy base, the leverage created by the hip drive and lapel pull is insufficient to topple them. Instead, use secondary attacks like triangle setups or collar drags to force them to elevate their base, then capitalize on the weight shift to execute the sweep."
+        "text": "No - the sweep fails against a low, heavy base, so first force the opponent to elevate using triangle setups or collar drags. The sweep requires an elevated center of gravity to generate sufficient rotational momentum; when the opponent stays low and heavy, the leverage from the hip drive and lapel pull is insufficient to topple them. Use those secondary attacks to force them to raise their base, then capitalize on the weight shift to execute the sweep."
       }
     },
     {
@@ -103,7 +103,7 @@ description: "How to execute Ringworm Sweep to Back Control in BJJ. Attacking pe
       "name": "What grip configuration provides the highest success rate for this sweep?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The optimal configuration is the lapel tail gripped near your hip with constant tension as the primary grip, combined with a cross-collar grip on the same side as the wrapped leg as the secondary grip. The cross-collar grip provides superior rotational pull compared to sleeve grips because it connects directly to the opponent's centerline, creating more efficient torque during the sweep motion. Sleeve grip is acceptable but produces less rotational force."
+        "text": "The best configuration is the lapel tail gripped near your hip with constant tension, plus a cross-collar grip on the wrapped-leg side. The lapel tail is the primary grip and the cross-collar grip is the secondary one. The cross-collar grip provides superior rotational pull compared to sleeve grips because it connects directly to the opponent's centerline, creating more efficient torque during the sweep motion. A sleeve grip is acceptable but produces less rotational force."
       }
     },
     {

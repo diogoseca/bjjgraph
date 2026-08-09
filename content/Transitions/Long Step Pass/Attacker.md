@@ -77,7 +77,7 @@ description: "How to execute Long Step Pass in BJJ. Attacking perspective with s
       "name": "What is the primary purpose of the long step in this passing technique?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The long step serves to bypass the opponent's guard structure by placing your knee past their hip line, creating an angle that makes it extremely difficult for them to insert defensive frames or recover guard position. It commits your weight forward and establishes the passing angle that will be maintained throughout the technique."
+        "text": "The long step bypasses the opponent's guard structure by placing your knee past their hip line, creating the passing angle. That angle makes it extremely difficult for them to insert defensive frames or recover guard position. It also commits your weight forward and establishes the passing angle that will be maintained throughout the technique."
       }
     },
     {
@@ -85,7 +85,7 @@ description: "How to execute Long Step Pass in BJJ. Attacking perspective with s
       "name": "Why is crossface pressure critical to the success of the Long Step Pass?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Crossface pressure serves multiple essential functions: it controls the opponent's head and prevents them from turning into you, it creates significant discomfort that encourages defensive reactions rather than offensive guard retention, and it helps maintain your chest pressure on their chest which is crucial for preventing space creation and re-guarding attempts."
+        "text": "Crossface pressure controls the opponent's head and stops them turning into you, which shuts down guard recovery. It also creates significant discomfort that encourages defensive reactions rather than offensive guard retention. Finally, it helps maintain your chest-on-chest pressure, which is crucial for preventing space creation and re-guarding attempts."
       }
     },
     {
@@ -93,7 +93,7 @@ description: "How to execute Long Step Pass in BJJ. Attacking perspective with s
       "name": "How should you adjust the Long Step Pass when your opponent creates a knee shield?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "When the opponent establishes a knee shield, you should immediately transition to a Knee Slice Pass variation by using your underhook to flatten the opponent while driving your knee through the shield. Alternatively, you can step back and switch to a different passing approach like the Toreando Pass. The key is recognizing the knee shield early and adapting rather than forcing the original passing angle."
+        "text": "Against a knee shield, transition immediately to a Knee Slice Pass, using your underhook to flatten them while driving your knee through the shield. Alternatively, you can step back and switch to a different passing approach like the Toreando Pass. The key is recognizing the knee shield early and adapting rather than forcing the original passing angle."
       }
     },
     {
@@ -109,7 +109,7 @@ description: "How to execute Long Step Pass in BJJ. Attacking perspective with s
       "name": "How does the Long Step Pass connect to the broader pressure passing system?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The Long Step Pass is foundational to pressure passing systems because it establishes the key principles of controlling distance, maintaining forward pressure, and using strategic stepping to create passing angles. It connects seamlessly with the Knee Slice Pass, Over-Under Pass, and Smash Pass, allowing the passer to flow between techniques based on the opponent's defensive reactions. The skills developed in the Long Step Pass - particularly crossface pressure and leg control - transfer directly to all other pressure-based passing approaches."
+        "text": "The Long Step Pass is foundational to pressure passing because it teaches distance control, forward pressure, and strategic stepping to create passing angles. It connects seamlessly with the Knee Slice Pass, Over-Under Pass, and Smash Pass, allowing the passer to flow between techniques based on the opponent's defensive reactions. The skills it develops — particularly crossface pressure and leg control — transfer directly to all other pressure-based passing approaches."
       }
     },
     {

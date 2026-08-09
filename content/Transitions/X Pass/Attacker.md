@@ -103,7 +103,7 @@ description: "How to execute X Pass in BJJ. Attacking perspective with setup, ex
       "name": "Why is it critical to wait until the opponent is fully flattened before attempting to clear your trapped leg?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Attempting to clear your trapped leg before the opponent is properly flattened allows them to track your leg movement with their knees and hips, re-establishing half guard or transitioning to deep half. When the opponent is fully flattened with effective crossface and pressure, their ability to move their lower body is severely compromised. Their flattened structure prevents them from generating the hip movement necessary to follow your leg. Rushing leg extraction is the most common reason the X Pass fails against competent guard players."
+        "text": "Clearing the leg early lets the opponent track it with their knees and hips to re-establish half guard or enter deep half. When the opponent is fully flattened with effective crossface and pressure, their ability to move their lower body is severely compromised; the flattened structure prevents them from generating the hip movement needed to follow your leg. Rushing leg extraction is the most common reason the X Pass fails against competent guard players."
       }
     },
     {

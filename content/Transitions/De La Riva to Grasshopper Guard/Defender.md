@@ -67,7 +67,7 @@ description: "How to stop the De La Riva inversion to Grasshopper Guard in BJJ. 
       "name": "What opportunity does the bottom player's committed inversion create for you?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "A back take. As they granby-roll under your base, their back turns toward you and their spine is momentarily exposed. Rather than fighting the leg entanglement they are building, ride their rotation and chase an inside hook with chest connection, converting their committed inversion into back control."
+        "text": "Their committed granby-roll turns their spine toward you, letting you ride the rotation into a back take. As they invert under your base their back is momentarily exposed, so rather than fighting the leg entanglement they are building, ride their rotation and chase an inside hook with chest connection, converting their committed inversion into back control."
       }
     },
     {
@@ -75,7 +75,7 @@ description: "How to stop the De La Riva inversion to Grasshopper Guard in BJJ. 
       "name": "How can driving forward to flatten the inversion backfire, and how do you do it safely?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Driving forward heavily feeds your weight toward their legs, and if mistimed they redirect that pressure into an elevation sweep or inside ashi entry rather than being flattened. Do it safely by stacking and stepping over only when you can beat their hips to the elevation - early, before the Grasshopper platform forms - while keeping your free leg clear of their threading legs."
+        "text": "Driving forward feeds your weight into their legs, so flatten the inversion only early, before the Grasshopper platform forms. If mistimed, they redirect that forward pressure into an elevation sweep or an inside ashi entry rather than being flattened. Do it safely by stacking and stepping over only when you can beat their hips to the elevation, while keeping your free leg clear of their threading legs."
       }
     }
   ]

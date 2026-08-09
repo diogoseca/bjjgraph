@@ -85,7 +85,7 @@ description: "How to execute Underhook Pass in BJJ. Attacking perspective with s
       "name": "What is the primary purpose of controlling the opponent's near hip during the underhook pass, and what happens if this control is neglected?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Controlling the near hip prevents the opponent from using hip escape (shrimping) movements to create the angle and distance needed to recover full guard or initiate sweeps. The hip is the mobility center of the bottom player's defensive movement. Without this control, even with good underhook and crossface, the opponent can shrimp away, creating space to re-establish their guard structure or insert knee shields. The near hip control works in conjunction with the underhook to create a pinning system that immobilizes the opponent's core."
+        "text": "Controlling the near hip prevents the opponent from shrimping to create the angle and distance needed to recover guard or initiate sweeps. The hip is the mobility center of the bottom player's defensive movement. Without this control, even with a good underhook and crossface, the opponent can hip escape away, creating space to re-establish their guard structure or insert knee shields. The near hip control works in conjunction with the underhook to create a pinning system that immobilizes the opponent's core."
       }
     },
     {

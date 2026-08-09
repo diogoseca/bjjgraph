@@ -85,7 +85,7 @@ description: "How to execute Rolling Back Take in BJJ. Attacking perspective wit
       "name": "When is the optimal timing to initiate the rolling back take?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The optimal timing is when the opponent is in a static defensive turtle position with their weight neutral or slightly backward, or when they push back into your pressure. Attempting the roll when their weight is too far forward will result in them posting and defending successfully. Wait for them to settle or create the proper weight distribution with chest pressure."
+        "text": "The optimal moment is when the opponent is static in turtle with weight neutral or slightly back, or pushing back into your pressure. Attempting the roll when their weight is too far forward will result in them posting and defending successfully. Wait for them to settle or create the proper weight distribution with chest pressure."
       }
     },
     {
@@ -101,7 +101,7 @@ description: "How to execute Rolling Back Take in BJJ. Attacking perspective wit
       "name": "What is the purpose of loading your weight onto the opponent before initiating the roll?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Loading your weight serves two purposes: first, it drives the opponent's weight slightly backward, creating the ideal weight distribution for the roll; second, it creates the initial momentum and connection needed for a smooth rotation. The loaded weight also prevents the opponent from standing up and establishes the heavy chest pressure needed to maintain connection during the roll."
+        "text": "Loading your weight drives the opponent slightly backward and creates the momentum and connection needed for a smooth roll. It also prevents the opponent from standing up and establishes the heavy chest pressure needed to maintain connection during the roll."
       }
     },
     {
@@ -109,7 +109,7 @@ description: "How to execute Rolling Back Take in BJJ. Attacking perspective wit
       "name": "Why is it important to begin hooking during the landing phase rather than after you've fully landed?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Beginning to hook during the landing phase is crucial because it prevents the opponent from having any window of opportunity to turn back into you or escape to turtle. If you land first and then attempt to hook, the opponent can use that 1-2 second gap to defend, turn, or scramble. Threading the hook during landing ensures immediate control and prevents defensive reactions."
+        "text": "Hooking during the landing phase denies the opponent any window to turn back into you or escape to turtle. If you land first and then attempt to hook, the opponent can use that 1-2 second gap to defend, turn, or scramble. Threading the hook during landing ensures immediate control and prevents defensive reactions."
       }
     },
     {

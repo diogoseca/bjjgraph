@@ -77,7 +77,7 @@ description: "Complete guide to executing the Old School Sweep from half guard l
       "name": "What is the optimal timing window for initiating the Old School Sweep?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The optimal timing window is during the opponent's forward weight shift, either when they drive pressure into you or when they attempt to clear the lockdown by extending their trapped leg. In both cases, their base is temporarily compromised and their weight is committed forward, which is exactly the direction your sweep needs to send them. Initiating during backward weight shift or neutral base makes the sweep significantly harder to complete."
+        "text": "The optimal window is the opponent's forward weight shift, when they drive pressure in or try to clear the lockdown. Extending their trapped leg to escape the lockdown counts too: either way their base is temporarily compromised and their weight commits forward, exactly the direction the sweep needs to send them. Initiating during a backward weight shift or against a neutral base makes the sweep significantly harder to complete."
       }
     },
     {
@@ -85,7 +85,7 @@ description: "Complete guide to executing the Old School Sweep from half guard l
       "name": "What three controls must be simultaneously established before attempting the Old School Sweep?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The three essential controls are: lockdown figure-four on the trapped leg with active extension, deep underhook with elbow tight to ribs and hand gripping high on the opponent's back, and head control with the opposite arm wrapping behind the opponent's neck pulling their posture down. All three must work in concert—losing any single control point dramatically reduces sweep success probability because the opponent can either base, posture, or post to defend."
+        "text": "The three simultaneous controls are the lockdown on the trapped leg, a deep underhook, and head control pulling posture down. Specifically: a lockdown figure-four with active extension, an underhook with the elbow tight to your ribs and the hand gripping high on the opponent's back, and the opposite arm wrapping behind the opponent's neck to pull their posture down. All three must work in concert — losing any single control point dramatically reduces sweep success probability because the opponent can either base, posture, or post to defend."
       }
     },
     {
@@ -109,7 +109,7 @@ description: "Complete guide to executing the Old School Sweep from half guard l
       "name": "How deep should the underhook be and where should your hand grip for maximum sweep leverage?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The underhook should be threaded deep enough that your elbow is pinned tight to your own ribs while your hand reaches high on the opponent's back, ideally gripping their shoulder blade area or over their far shoulder. A shallow underhook where the hand only reaches the opponent's side provides insufficient lever arm length. The depth creates the long lever needed for rotation, and keeping the elbow tight prevents the opponent from stripping the underhook or converting it into a defensive whizzer."
+        "text": "Thread the underhook deep enough that your hand grips the shoulder blade or over the far shoulder, elbow pinned to your ribs. A shallow underhook where the hand only reaches the opponent's side provides insufficient lever arm length. The depth creates the long lever needed for rotation, and keeping the elbow tight prevents the opponent from stripping the underhook or converting it into a defensive whizzer."
       }
     },
     {
