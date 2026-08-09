@@ -17,8 +17,50 @@ html {
   border: 1px solid var(--lightgray);
 }
 
-// Constrain grid column on mobile — "auto" lets content push the page wider than
-// the viewport; "minmax(0, 1fr)" takes available space without exceeding it.
+// ── #quartz-body grid: three overrides, one job — never reserve a column nothing fills ──
+//
+// base.scss lays #quartz-body out on Quartz's stock grids from variables.scss, all of which
+// budget a 320px `grid-sidebar-left` track. THIS SITE HAS NO LEFT GRID COLUMN: the left
+// sidebar (CategoryNav) is rendered inside `#sidebar-overlay`, which renderPage.tsx emits as a
+// SIBLING of `#quartz-root` — so `.sidebar.left`'s `grid-area: grid-sidebar-left` never
+// resolves against #quartz-body and that 320px track stays permanently empty.
+//
+// Unfixed, the stock grid squeezes the article: at >1200px `320px auto 320px` inside a
+// max-width:1100px shell leaves the <article> ~450px wide with a 320px void down its left
+// side. That surface is not decoration — it is the static article a crawler, a no-JS visitor
+// and a failed bundle fetch read (scripts/check_seo_parity.py + e2e/journeys/static-article-
+// layout.spec.ts gate it). v1.80.0 deleted these three overrides along with the legacy chrome
+// they sat next to; only the mobile one was restored, so desktop and tablet regressed.
+//
+// The right sidebar (TableOfContents) IS a real grid child, but base.scss hides it at
+// `max-width: 1200px` — hence three tiers, not two.
+//
+// Desktop (>1200px): center + the 320px ToC column. No left track.
+@media (min-width: 1201px) {
+  #quartz-body {
+    grid-template-columns: auto 320px !important;
+    grid-template-areas:
+      "grid-header grid-sidebar-right"
+      "grid-center grid-sidebar-right"
+      "grid-footer grid-sidebar-right" !important;
+  }
+}
+
+// Tablet (801–1200px): the ToC is display:none here, so a single content column. Its grid area
+// is still named so the hidden element stays placeable rather than auto-flowing into the grid.
+@media (min-width: 801px) and (max-width: 1200px) {
+  #quartz-body {
+    grid-template-columns: auto !important;
+    grid-template-areas:
+      "grid-header"
+      "grid-center"
+      "grid-sidebar-right"
+      "grid-footer" !important;
+  }
+}
+
+// Mobile (≤800px): "auto" lets content push the page wider than the viewport;
+// "minmax(0, 1fr)" takes available space without exceeding it.
 @media (max-width: 800px) {
   #quartz-body {
     grid-template-columns: minmax(0, 1fr) !important;
@@ -433,6 +475,15 @@ summary::-webkit-details-marker {
 .page > #quartz-body .center article,
 .page > #quartz-body > footer {
   padding-inline: var(--content-gutter);
+  // border-box is LOAD-BEARING, not tidiness. base.scss gives `.center` and `footer`
+  // `min-width: 100%` (stock Quartz), and there is no global `* { box-sizing: border-box }` —
+  // only body/section/.sidebar get it. So on a content-box element `min-width: 100%` sizes the
+  // CONTENT box to the full grid track and this padding is then added OUTSIDE it: 2 ×
+  // --content-gutter of overflow past the track. At tablet width that is 60px past the
+  // viewport, i.e. the whole static page scrolls sideways (measured: 1043px of scrollWidth in a
+  // 1000px viewport). Caught by e2e/journeys/static-article-layout.spec.ts, which asserts
+  // scrollWidth <= viewport at 1440/1000/390.
+  box-sizing: border-box;
 }
 
 // Tables: align the table box with the article content gutter. Quartz's default
@@ -461,14 +512,20 @@ a[id] {
   }
 }
 
-// === Search button — top-level floating button, immediately right of the tree button ===
-// Tree button is at left:1rem (width 44px), so search lands at left:1rem + 44px + 5px gap.
-// Now rendered directly in renderPage.tsx as a sibling of #quartz-root (no longer
-// nested inside the sidebar), so the selector flattens to just #search-button.
+// === Search button — the only floating control on the static surface ===
+//
+// It used to sit second in a row: `left: calc(1rem + 44px + 5px)` reserved the first slot for
+// TreeDrawer's #tree-toggle at left:1rem. v1.80.0 deleted TreeDrawer, so that offset left a 44px
+// hole in the top-left corner with nothing in it. Now it takes the corner itself.
+//
+// Only ever visible on the STATIC surface: variant.inline.ts hides every `body > *` except
+// #neural-root while the app owns the screen, so this is what a no-JS visitor or a failed bundle
+// fetch sees. Rendered directly in renderPage.tsx as a sibling of #quartz-root (no longer nested
+// inside the sidebar), so the selector flattens to just #search-button.
 #search-button {
   position: fixed;
   top: 1rem;
-  left: calc(1rem + 44px + 5px);
+  left: 1rem;
   right: auto;
   z-index: 10;
   width: 44px;
