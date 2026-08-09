@@ -1,0 +1,44 @@
+{
+ "_meta": {
+  "format": 1,
+  "note": "Ceilings are MAX emitted bytes. Shrinking passes. Raising a ceiling means the payload grew \u2014 justify it in the commit body.",
+  "seed_headroom": 1.1
+ },
+ "bundles": {
+  "index.css": 113517,
+  "postscript.js": 1602766,
+  "prescript.js": 3513
+ },
+ "html_total_bytes": 905273749,
+ "observed": {
+  "bundles": {
+   "index.css": 103198,
+   "postscript.js": 1457060,
+   "prescript.js": 3194
+  },
+  "html_file_count": 6182,
+  "html_total_bytes": 822976136,
+  "pages": {
+   "Positions.html": 956110,
+   "Positions/Mount.html": 2275769,
+   "Positions/Mount/Top.html": 163794,
+   "Submissions/Rear-Naked-Choke.html": 949144,
+   "Systems.html": 198951,
+   "Transitions/Armbar-from-Back-Transition.html": 276851,
+   "Transitions/Armbar-from-Back-Transition/Attacker.html": 123238,
+   "game-over.html": 380,
+   "index.html": 31578
+  }
+ },
+ "pages": {
+  "Positions.html": 1051721,
+  "Positions/Mount.html": 2503345,
+  "Positions/Mount/Top.html": 180173,
+  "Submissions/Rear-Naked-Choke.html": 1044058,
+  "Systems.html": 218846,
+  "Transitions/Armbar-from-Back-Transition.html": 304536,
+  "Transitions/Armbar-from-Back-Transition/Attacker.html": 135561,
+  "game-over.html": 418,
+  "index.html": 34735
+ }
+}
