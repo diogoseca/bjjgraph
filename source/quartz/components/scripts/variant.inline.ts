@@ -1,74 +1,39 @@
-// Front-end variant bootstrap (Neural Graph epic, Phase 0.2; default flipped to neural in
-// v1.54.0 — Phase 2 rollout).
+// Neural app bootstrap — the loader for the site's ONE front-end.
 //
-// Resolves the active variant — URL ?variant= (sticky) → bjj-settings.variant → "neural"
-// (default; ?variant=legacy is the escape hatch) — and reflects it as <html data-variant>.
-// When "neural", it boots the Neural Graph app bundle as a FULL-SCREEN OVERLAY on top of the
-// existing static page and hides the legacy chrome CLIENT-SIDE (a head <style> keyed on
-// data-variant, so fixed-position legacy UI can't bleed through the canvas). Two SEO
-// guarantees by construction:
-//   1. The emitted static HTML is identical for both variants — this script only *adds*
-//      behavior at runtime; it never alters the head/schema/crawlable content. Crawlers and
-//      no-JS visitors never get data-variant=neural, so the hide rule never applies to them.
-//   2. Neural is an overlay over the legacy DOM, so if the bundle is absent or fails, the
-//      boot path resets data-variant to legacy — the hide rule stops matching and the full
-//      legacy page (and its crawlable content) shows — no blank screen, no SEO loss.
+// History, because the shape of this file only makes sense with it: until v1.80.0 the site
+// shipped two front-ends. Quartz rendered a full interactive page UI (in-page graphs, an SRS
+// training stack, move/outcome trays, a drawer of chrome) and this script decided which one you
+// got: `?variant=neural` (the default) booted the Neural app as a full-screen overlay and hid
+// the Quartz chrome with a client-side <style>; `?variant=legacy` left it visible. Nobody chose
+// legacy, so every visitor downloaded ~1.46MB of a UI they never saw. v1.80.0 deleted it.
 //
-// The static base for the app bundle + generated data is /static/neural/ (see
-// scripts/regenerate_neural_data.py for the data; neural/dist/ for the bundle).
+// What is left is the part that was always doing the work:
+//   1. load the Neural bundle + its data, and mount it, on first load and on every SPA soft nav;
+//   2. leave the STATIC ARTICLE in place underneath as the fallback.
+//
+// The fallback is not a courtesy, it is the SEO contract. Quartz stays the site's static-site
+// generator: the emitted HTML carries the real <article>, the <head>, and the JSON-LD for all
+// 4,600+ indexed URLs, and Neural is an overlay on top of it. So:
+//   - a crawler or a JS-less visitor never gets `data-variant`, the hide rule never applies, and
+//     they read the prose directly (see scripts/check_seo_parity.py, which gates this);
+//   - if the bundle 404s or throws, `data-variant` is cleared, the hide rule stops matching, and
+//     the article is revealed instead of a blank dark screen.
+//
+// `?variant=legacy` is now accepted-and-ignored: the second front-end it selected does not
+// exist. It is not an error (old links and bookmarks carry it), it simply has no effect.
 
-const SETTINGS_KEY = "bjj-settings"
 const DATA_BASE = "/static/neural/"
 const APP_BASE = "/static/neural/app/"
-type Variant = "legacy" | "neural"
-
-function persistVariant(v: Variant): void {
-  try {
-    const s = JSON.parse(localStorage.getItem(SETTINGS_KEY) || "{}")
-    if (s.variant !== v) {
-      s.variant = v
-      localStorage.setItem(SETTINGS_KEY, JSON.stringify(s))
-    }
-  } catch {
-    /* ignore quota/parse errors — variant still applies for this load */
-  }
-}
-
-let variantSource: "url" | "settings" | "default" = "default"
-
-function resolveVariant(): Variant {
-  try {
-    const p = new URLSearchParams(location.search).get("variant")
-    if (p === "neural" || p === "legacy") {
-      persistVariant(p) // ?variant= sticks for subsequent navigations
-      variantSource = "url"
-      return p
-    }
-  } catch {
-    /* no URLSearchParams (ancient browser) — fall through */
-  }
-  try {
-    const s = JSON.parse(localStorage.getItem(SETTINGS_KEY) || "{}")
-    if (s.variant === "neural" || s.variant === "legacy") {
-      variantSource = "settings"
-      return s.variant
-    }
-  } catch {
-    /* corrupt settings — default */
-  }
-  variantSource = "default"
-  return "neural"
-}
 
 // one exposure event per full page load (fired post-DOM so the PostHog stub queue exists)
 let exposureFired = false
-function fireExposure(v: Variant): void {
+function fireExposure(): void {
   if (exposureFired) return
   exposureFired = true
   const send = () => {
     try {
       const ph = (window as any).posthog
-      if (ph?.capture) ph.capture("neural_variant_exposure", { variant: v, source: variantSource })
+      if (ph?.capture) ph.capture("neural_variant_exposure", { variant: "neural" })
     } catch {
       /* analytics must never break the page */
     }
@@ -77,15 +42,15 @@ function fireExposure(v: Variant): void {
   else document.addEventListener("DOMContentLoaded", send, { once: true })
 }
 
-// Hide the legacy presentation while the Neural overlay owns the screen. Keyed on
-// html[data-variant="neural"] so it is self-disabling: any fallback that resets data-variant
-// to legacy (bundle missing, boot failure) instantly un-hides the full legacy page. The dark
-// body background covers the brief gap before the app's own loader paints. Client-side only —
-// the static HTML (what crawlers/no-JS get) never carries the attribute.
-// #dev-snapshot-btn is exempt: it is a dev-only overlay that must stay clickable over the
-// neural canvas (it only ever exists on localhost — see snapshotButton.inline.ts).
-const HIDE_STYLE_ID = "neural-hide-legacy"
-function setLegacyHidden(hide: boolean): void {
+// Hide the static article while the Neural overlay owns the screen. Keyed on
+// html[data-variant="neural"] so it is SELF-DISABLING: any fallback that clears the attribute
+// (bundle missing, boot failure) instantly reveals the full article. The dark body background
+// covers the brief gap before the app's own loader paints. Client-side only — the emitted HTML
+// (what crawlers and no-JS visitors get) never carries the attribute.
+// #dev-snapshot-btn is exempt: a dev-only overlay that must stay clickable over the neural
+// canvas (it only ever exists on localhost — see snapshotButton.inline.ts).
+const HIDE_STYLE_ID = "neural-hide-static"
+function setStaticHidden(hide: boolean): void {
   const existing = document.getElementById(HIDE_STYLE_ID)
   if (!hide) {
     existing?.remove()
@@ -101,14 +66,20 @@ function setLegacyHidden(hide: boolean): void {
   document.head.appendChild(st)
 }
 
-let scriptLoaded = false
+// The in-flight (or settled) bundle load. Cached as a PROMISE, not a boolean: boot() can be
+// called twice in quick succession on a cold load — once from prescript in <head> (which defers
+// its mount to DOMContentLoaded) and once from the router's "nav" event — and a boolean guard
+// would let the second caller fall straight through while the <script> was still downloading.
+// It would then see no window.__mountNeural and wrongly conclude the bundle had failed. Sharing
+// the promise means every caller awaits the real outcome, so "not a function" after the await
+// means genuinely broken rather than merely not-ready-yet.
+let bundlePromise: Promise<void> | null = null
 
 // Inject the bundle <script> exactly once per full page load. The bundle installs
 // window.__mountNeural + window.__neural (see neural/build/build.mjs). It stays resident on
 // window across SPA navs even after micromorph removes its <script> tag.
 function loadNeuralBundle(): Promise<void> {
-  if (scriptLoaded) return Promise.resolve()
-  scriptLoaded = true
+  if (bundlePromise) return bundlePromise
   ;(window as any).__NEURAL_DATA_BASE = DATA_BASE
 
   const loadScript = (src: string) =>
@@ -121,7 +92,7 @@ function loadNeuralBundle(): Promise<void> {
       document.body.appendChild(el)
     })
 
-  return (async () => {
+  bundlePromise = (async () => {
     const css = document.createElement("link")
     css.rel = "stylesheet"
     css.href = APP_BASE + "neural.css"
@@ -136,8 +107,8 @@ function loadNeuralBundle(): Promise<void> {
       el.defer = true
       el.onload = () => res()
       el.onerror = () => {
-        console.warn("[variant] neural bundle unavailable at", el.src, "— staying on legacy")
-        document.documentElement.dataset.variant = "legacy"
+        console.warn("[variant] neural bundle unavailable at", el.src, "— showing static article")
+        revealStaticArticle()
         res()
       }
       document.body.appendChild(el)
@@ -150,6 +121,14 @@ function loadNeuralBundle(): Promise<void> {
       }
     })
   })()
+  return bundlePromise
+}
+
+/** Fall back to the crawlable static page: clear the attribute the hide rule keys on, so the
+ *  <article> Quartz rendered becomes visible instead of a blank dark screen. */
+function revealStaticArticle(): void {
+  delete document.documentElement.dataset.variant
+  setStaticHidden(false)
 }
 
 // Mount (or re-mount) the overlay for the current page and register its teardown with the SPA
@@ -158,8 +137,19 @@ function loadNeuralBundle(): Promise<void> {
 async function mountAndRegisterCleanup(): Promise<void> {
   await loadNeuralBundle()
   const mount = (window as any).__mountNeural
-  if (typeof mount !== "function") return // bundle failed to load; legacy stays
-  mount() // idempotent: no-op if a live root already exists
+  if (typeof mount !== "function") {
+    // The load has SETTLED and the bundle still did not install its entry point — genuinely
+    // broken (404, parse error, truncated response). The article is the fallback.
+    revealStaticArticle()
+    return
+  }
+  try {
+    mount() // idempotent: no-op if a live root already exists
+  } catch (e) {
+    console.warn("[variant] neural mount failed:", e, "— showing static article")
+    revealStaticArticle()
+    return
+  }
   ;(window as any).addCleanup?.(() => {
     try {
       ;(window as any).__neural?.destroy?.()
@@ -169,32 +159,22 @@ async function mountAndRegisterCleanup(): Promise<void> {
   })
 }
 
-function applyVariant(): void {
-  // variant attribute + legacy-hide style need only <head>/<html>, which exist even at
-  // prescript (head) time — applying them immediately prevents any flash of legacy UI.
-  const v = resolveVariant()
-  document.documentElement.dataset.variant = v
-  fireExposure(v)
-  setLegacyHidden(v === "neural") // hide legacy chrome under the overlay (self-disabling on fallback)
-  if (v === "neural") {
-    // appending the bundle <script>s needs <body>, which does NOT exist at head time — defer
-    // just the mount (the "nav" path is always post-body, so this resolves immediately there).
-    const mount = () => void mountAndRegisterCleanup()
-    if (document.body) mount()
-    else document.addEventListener("DOMContentLoaded", mount, { once: true })
-  } else {
-    // switched to (or navigated under) legacy: tear down any live overlay.
-    try {
-      ;(window as any).__neural?.destroy?.()
-    } catch {
-      /* ignore */
-    }
-  }
+function boot(): void {
+  // The attribute + hide style need only <head>/<html>, which exist even at prescript time —
+  // applying them immediately prevents a flash of the static article before the app paints.
+  document.documentElement.dataset.variant = "neural"
+  fireExposure()
+  setStaticHidden(true)
+  // appending the bundle <script>s needs <body>, which does NOT exist at head time — defer
+  // just the mount (the "nav" path is always post-body, so it resolves immediately there).
+  const mount = () => void mountAndRegisterCleanup()
+  if (document.body) mount()
+  else document.addEventListener("DOMContentLoaded", mount, { once: true })
 }
 
 // First execution (full page load, from prescript.js in <head>) + every SPA soft-nav (this
 // inline script does not re-execute on soft nav, so react to the router's "nav" event —
 // teardown for the outgoing page has already run via addCleanup, and micromorph removed
 // #neural-root, so __mountNeural builds a fresh one).
-applyVariant()
-document.addEventListener("nav", () => applyVariant())
+boot()
+document.addEventListener("nav", () => boot())

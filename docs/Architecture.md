@@ -321,17 +321,21 @@ export const defaultContentPageLayout: PageLayout = {
 ## Gameplay Audio & Terminal Effects
 
 Gameplay audio is synthesized at runtime with the Web Audio API; there are no downloaded sound
-files or audio dependencies. The default Neural runtime and the legacy Quartz variant have
-separate engines because their event and lifecycle models differ.
+files or audio dependencies. There is ONE engine: `neural/src/sound.src.js` (`NGSound`), which
+owns both the runtime and the canonical cue catalog `NG_SOUND_CATALOG`.
 
-| Concern           | Default Neural                                             | Legacy Quartz (`?variant=legacy`)                              |
-| ----------------- | ---------------------------------------------------------- | -------------------------------------------------------------- |
-| Sound engine      | `neural/src/sound.src.js` (`NGSound`)                      | `source/quartz/components/scripts/gameAudio.ts`                |
-| Catalog           | `NG_SOUND_CATALOG`, in the same production source          | `GAME_SOUND_CATALOG`                                           |
-| User control      | Neural `sound` and `soundVolume` settings                  | `BJJSettings.soundEnabled`                                     |
-| Persistence       | Neural progress/settings blob                              | Existing `bjj-settings` localStorage/cloud-sync object         |
-| Browser lifecycle | Lazy gesture-unlocked context; destroyed on app teardown   | Lazy user-activation gate; global SPA singleton                |
-| Output safety     | Compressor, six-voice cap, 40ms spacing, 100ms beat dedupe | Compressor, per-cue cooldowns, celebration overlap suppression |
+| Concern           | Neural runtime                                             |
+| ----------------- | ---------------------------------------------------------- |
+| Sound engine      | `neural/src/sound.src.js` (`NGSound`)                      |
+| Catalog           | `NG_SOUND_CATALOG`, in the same production source          |
+| User control      | Neural `sound` and `soundVolume` settings                  |
+| Persistence       | Neural progress/settings blob                              |
+| Browser lifecycle | Lazy gesture-unlocked context; destroyed on app teardown   |
+| Output safety     | Compressor, six-voice cap, 40ms spacing, 100ms beat dedupe |
+
+The legacy Quartz variant had a second engine (`scripts/gameAudio.ts`, `GAME_SOUND_CATALOG`, gated
+on `BJJSettings.soundEnabled`). It was **deleted in v1.80.0** along with the rest of the legacy
+front-end — do not reintroduce a second catalog of default-runtime sounds.
 
 The default cue language is contextual rather than arcade-like: filtered current and spatial scans
 support ordinary decisions; correct moves and recall proof connect like synapses; opponent turns

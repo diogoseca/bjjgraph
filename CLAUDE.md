@@ -292,62 +292,60 @@ The state machine is **bipartite**: position role-nodes point to technique nodes
 - **`game-over` is the only sink** (out-degree 0). Every `outcome.to` must resolve to a **role-node**, a **real (non-family) submission**, or **`game-over`** — never a bare position hub, a family hub, or a self-loop.
 - **Only submissions reach `game-over`** — a transition pointing directly to `game-over` is a misfiled finish (it should advance to a control position).
 
-### Training System (SRS) — embedded UX (v1.20.0+)
+### ONE front-end: the legacy Quartz page UI was deleted (v1.80.0)
 
-Client-side spaced repetition (SM-2) layered onto the always-on background graph. There is **no `/Training` page** — training lives as a persistent strip + two stacked modals + carousel chevrons on every page. All state stays in localStorage (Supabase sync optional).
+The site used to ship **two** front-ends to every visitor. The default was (and is) the Neural
+app; the old Quartz page UI was opt-in via `?variant=legacy`. Nobody opted in, yet every page
+downloaded ~1.46 MB of it — the single largest lever on a real-user LCP P75 of ~13.7 s. v1.80.0
+deleted it.
 
-**Surface (registered in `sharedPageComponents.afterBody`):**
-1. **FlashcardsHeader strip** — fixed top, ~36px tall. Context-aware label + ▶ play button.
-   - Idle, due > 0: `Flashcards (N due)`
-   - Active session: `Session X/Y` (▶ swaps to ◾ stop)
-   - Idle, 0 due, has SRS: `All caught up · train more`
-   - No SRS cards yet: `Start training`
-2. **DecksModal** — opens when user clicks the strip label. Lean: 5 deck rows (Due / Reviewing / Mastered / Suggested / Recently Explored) + sticky bottom CTA `Train Due (N) ▶` (label adapts) + ⚙ in modal header.
-3. **SettingsModal** — opens from the ⚙ inside DecksModal, defaults to Flashcards tab. Two tabs: Flashcards (Daily Goal, Show Flashcards on pages) / Game (Game Mode pills, Hard/Ultra locked, Sound Effects toggle). Stacks above DecksModal.
-4. **SessionChevrons** — fixed prev/next overlays on left/right viewport edges. Visible only when `body[data-training-active]`. Left hidden at index 0; right shows ✓ at last card (click finishes session). ArrowLeft/ArrowRight global keyboard, gated by `isTypingTarget`.
+**Gone, and not coming back** (do not restore any of it; do not write prose that implies it
+exists): the embedded SRS/training UX (FlashcardsHeader strip, DecksModal, SettingsModal,
+SessionChevrons, the per-page Flashcard) and the modules behind it (`trainingSession.ts`,
+`srs.ts`, `settings.ts`, `explored.ts`, `known.ts`, `dateUtil.ts`, `gameAudio.ts`,
+`explorerGraphExpand.ts`); the two in-page graphs (`Graph.tsx`/`graph.inline.ts` and
+`BackgroundGraph.tsx`/`backgroundGraph.inline.ts`, the only importers of **pixi.js, d3 and
+@tweenjs/tween.js**); MoveCards, OutcomeCards, VictoryDisplay, TreeExplorer, TreeDrawer,
+ContentPanel, TopBar, Snackbar, RollSessionButton, SystemProgress, AffiliateTracking; the
+`TrainingData` emitter (`questionBank.json` + `graphAdjacency.json`) and the
+`window.loadQuestionBank`/`loadGraphAdjacency` injection; the `#graph-positions` per-page D3
+layout blob (42.5% of all emitted HTML bytes) and `computePageGraphLayout`; `window.__contentStats`;
+and ~4,100 lines of legacy sections in `custom.scss`.
 
-> **NB — legacy variant only.** Everything in this section describes the Quartz page UI served at `?variant=legacy`. The default experience is the **Neural app** (see *Neural: pane law, landing questions, Challenges, Game Knowledge* below). `FirstLoadHint` and `bjj-onboarded` were **deleted in v1.26.2** (`0c492f0f6`) and no longer exist anywhere in source.
+The old localStorage keys (`bjj-srs-cards`, `bjj-settings`, `bjj-daily-progress`, `bjj-streak`,
+`bjj-explored`, `bjj-banned-flashcards`, `bjj-journey`) have **no writer** any more. Neural uses
+`bjj-neural-progress`, `bjj_view_mode`, `bjj_gi_mode`. The `user_training_data` columns the legacy
+cloud sync wrote are still in Postgres — we stopped writing them, we did not drop them.
 
-**Carousel slide:** SPA navigation between cards in a session uses the CSS View Transitions API via `slideNavigate(url, 'forward'|'backward')` in `trainingSession.ts`. CSS keyframes drive a horizontal slide; non-supporting browsers fall back to instant swap. Graph's existing 400ms pan-to-current-node fires in parallel on every nav.
+**`?variant=legacy` is now accepted-and-ignored.** Old links carry it; it selects a front-end that
+no longer exists, so it has no effect. `/Training/* → / 301` stays in `_redirects`.
 
-**Active-session focus mode:** While `body[data-training-active]`, non-flashcard article content dims to 0.55 opacity and the `#flashcard-container` gets a subtle pulsing highlight ring. Flashcard reads `session.autoExpand:true` and skips the minimized step, opening directly to the expanded UI with answer revealed.
+**What survives, and why it looks deletable:**
+- **`AuthUI.tsx` + `scripts/authUI.inline.ts`** render NOTHING and must stay registered. That
+  script is the only static importer of `supabase.ts`, which installs the **`window.__bjjAuth`**
+  façade at module top-level — the seam the Neural app reaches auth and cloud sync through. It is
+  also the ONLY code that completes a Google OAuth redirect-back (`hasAuthRedirectParams()` →
+  `ensureClientInitialized()`); Neural's `_initAuth` only initializes when `isAuthenticated()` is
+  already true, which is necessarily false right after a PKCE redirect. Deleting either breaks
+  signed-in users while every headless test stays green — hence the MUTUAL-GUARD conjunction in
+  `e2e/journeys/legacy-gone.spec.ts`.
+- **`CategoryNav.tsx`** inside `#sidebar-overlay` — its six links are the homepage's entire
+  crawlable link set in the SEO baseline.
+- **Quartz as the SSG.** The emitted HTML still carries the real `<article>`, `<head>` and JSON-LD
+  for every indexed URL; Neural is an overlay on top of it (`scripts/variant.inline.ts`), and the
+  static article is the fallback for crawlers, no-JS visitors and a failed bundle fetch. `/` now
+  renders the same article shell as every other page (it used to emit a bare `#home-hero` with no
+  `<article>` at all) — see `content/index.md`, which is authored, not generated.
 
-**Terminology — Cards vs Techniques:**
-- A **technique** = one transition or submission (e.g., "Armbar from Mount"). Each has a `flashcards` array of Q&A pairs.
-- An **SRS card** = one technique. The SM-2 algorithm tracks the technique as a unit; individual flashcards within it have per-question mastery tracking.
+**Gates that keep it deleted:** `scripts/check_payload_budget.py` (byte ratchet vs
+`tests/artifacts/budget_site.json`), `scripts/check_seo_parity.py` (crawlable-surface ratchet),
+`e2e/journeys/legacy-gone.spec.ts` and `e2e/journeys/crawlable-homepage.spec.ts`.
 
-**Field name:** Source JSON uses `flashcards` across all content types. Role-nested where roles exist (`top.flashcards`, `bottom.flashcards`, `attacker.flashcards`, `defender.flashcards`). Principles and Systems have a single top-level `flashcards` array.
-
-**Daily Goal:** Single capacity number (default 30). The default `mixed` session source fills with due reviews first, then graph-derived suggestions to reach the goal.
-
-**Per-flashcard mastery:** Each SRS card has a `flashcardsMastered: number[]` field tracking which flashcard indices were answered correctly. Mastery % = `flashcardsMastered.length / flashcards.length`.
-
-**Session sources (`SessionSource` in `trainingSession.ts`):** `mixed` (default — due + suggestions to dailyGoal), `due`, `reviewing`, `mastered`, `suggested`, `explored` (ad-hoc, does NOT auto-add to SRS).
-
-**Storage keys (unchanged across the v1.20 redesign):**
-- localStorage: `bjj-srs-cards`, `bjj-settings`, `bjj-daily-progress`, `bjj-streak`, `bjj-explored`, `bjj-banned-flashcards`, `bjj-journey`
-- sessionStorage: `training-session` (now with optional `autoExpand` + `source` fields), `training-session-complete`, `snackbar`, `victory-data`
-
-**Keyboard shortcuts (active during session unless typing in an input):**
-- `Space` — Show Answer / Reveal Answer (in Flashcard component)
-- `1` `2` `3` `4` — Again / Hard / Easy / Skip
-- `←` `→` — prev / next flashcard (SessionChevrons)
-- `Esc` — close any open modal
-
-**Key files:**
-- `source/quartz/components/scripts/trainingSession.ts` — shared session lifecycle (buildSessionQueue, startOrResumeSession, advanceSession, reverseSession, stopSession, completeSession, slideNavigate)
-- `source/quartz/components/scripts/srs.ts` — SRS card storage, SM-2 algorithm, `bjj-srs-cards`
-- `source/quartz/components/scripts/settings.ts` — `bjj-settings`, `bjj-daily-progress`, `bjj-streak`
-- `source/quartz/components/scripts/gameAudio.ts` — legacy-variant neural/space cues, lazy Web Audio singleton, cue cooldowns
-- `neural/src/sound.src.js` — default Neural runtime engine plus canonical contextual cue catalog
-- `forward/sounds/` — `/dev/sounds/` production-engine catalog and previews; `build:forward` copies the Neural engine into this route
-- `source/quartz/components/FlashcardsHeader.tsx` + `scripts/flashcardsHeader.inline.ts` — strip UI + label state machine
-- `source/quartz/components/DecksModal.tsx` + `scripts/decksModal.inline.ts` — deck overview modal + sticky CTA
-- `source/quartz/components/SettingsModal.tsx` + `scripts/settingsModal.inline.ts` — two-tab settings modal
-- `source/quartz/components/SessionChevrons.tsx` + `scripts/sessionChevrons.inline.ts` — carousel prev/next + keyboard nav
-- `source/quartz/components/Flashcard.tsx` + `scripts/flashcard.inline.ts` — per-page Q&A UI (also drives session advancement on Hard/Easy)
-
-**Cloudflare redirect:** `source/quartz/static/_redirects` has `/Training/* / 301` so old inbound links land on home.
+**Known follow-up (revenue):** deleting `AffiliateTracking` removed the only emitter of the
+`affiliate_clickout` / `related_system_card_click` / `system_page_view` PostHog events. The
+affiliate links themselves are untouched and still earn; the *measurement* stopped. Re-instrument
+the funnel on Neural's `data-system-cta` anchors (which today fire only
+`neural_system_course_clicked`).
 
 ### Neural: pane law, landing questions, Challenges, Game Knowledge (v1.68.0+)
 
@@ -417,19 +415,20 @@ score = Σ (weight_i × mastery_i),   Σ weight_i = 1
 
 **Settings additions:** Rolling tab gains *Questions while you roll* (`landQuestions`, default on — gates the QUESTION only; identity+film render regardless) and *Challenge cue* (visibility for the pinned track). Flashcards tab's *Answer mode* defaults to Classic recall. Shortcuts lists `A B C D`.
 
-### Graph Component
+### Graph rendering
 
-Interactive knowledge graph visualization using PixiJS (WebGL) + D3.js force simulation.
+There is ONE graph renderer: the Neural app's own canvas, drawn inside `#neural-root` from
+`/static/neural/graph-data.json` (emitted by `scripts/regenerate_neural_data.py`).
 
-**Key behaviors:**
-- **Views**: Local (sidebar, depth-1) and global (Ctrl+G modal, all nodes) are mutually exclusive
-- **Touch**: Pinch-zoom and drag work via D3's built-in gesture handling
-- **Performance**: Default is fast settling; use `?graph=legacy` for old slow animation
-- **Cleanup**: Properly destroys WebGL context, stops simulation, and clears tweens on navigation
+The two Quartz graph components — the depth-1 sidebar graph plus its Ctrl+G global modal
+(`Graph.tsx` / `graph.inline.ts` / `styles/graph.scss`) and the full-viewport background graph
+(`BackgroundGraph.tsx` / `backgroundGraph.inline.ts`) — were **deleted in v1.80.0**. They were the
+only importers of **pixi.js, d3 and @tweenjs/tween.js** anywhere in the tree, and the only
+consumers of the per-page `#graph-positions` layout blob.
 
-**Key files:**
-- `source/quartz/components/scripts/graph.inline.ts`
-- `source/quartz/components/styles/graph.scss`
+`source/quartz/static/globalGraphLayout.json` (node2vec + UMAP, via
+`scripts/regenerate_graph_layout.py`) still exists and is still regenerated — it is an **input** to
+`regenerate_neural_data.py`, no longer a payload fetched by a page script.
 
 ---
 
@@ -452,7 +451,8 @@ All commands run from the repo root (`bjjgraph/`):
 | `npm run regenerate:graph` | Umbrella: graph-base (graph.json) → graph-layout → graph-strength |
 | `npm run regenerate:graph-base` | Generate graph.json only (no layout/strength) |
 | `npm run regenerate` | Full pipeline: issues → json → explode → **validate:graph** (gate) → md → hubs → votes → graph → explorer |
-| `npm run build` | Build static site (~10 min, 4287 files) |
+| `npm run build` | Build static site (~3-10 min, 4618 files) |
+| `python3 scripts/check_payload_budget.py` | **Payload-byte ratchet** (v1.80.0). Asserts the built site stays under the ceilings in `tests/artifacts/budget_site.json`: `postscript.js`/`prescript.js`/`index.css`, per-archetype page bytes, and total emitted HTML. Run after `npm run build`, next to `check_seo_parity.py`. Shrinking always passes; `--update` RAISES the ceilings, so it needs its own justified commit. This is what stops the deleted legacy front-end from creeping back in. |
 | `npm run regenerate:build` | Regenerate + build (full workflow) |
 | `npm run dev` | Build then serve locally on port 8080 |
 | `npm run proofread` | Recurring LLM audit of graph edges + probabilities via Claude CLI. Intermittent use only — one Claude call per file, ~25 hours for full corpus at default 60s interval. Not part of `regenerate`. Use `--file`, `--category`, `--max-files` to scope, or `--batch` to skip the delay. |

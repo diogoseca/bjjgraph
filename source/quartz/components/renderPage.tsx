@@ -20,36 +20,11 @@ import { i18n } from "../i18n"
 import { QuartzPluginData } from "../plugins/vfile"
 import fs from "fs"
 import path from "path"
-import { forceSimulation, forceManyBody, forceCenter, forceLink, forceCollide } from "d3-force"
 
 // === Build-time graph data injection ===
-// Per-page slices are inlined here (page-graph-data, roll positions, content
-// stats). Large blobs (questionBank, graphAdjacency, contentIndex, graph.json)
-// go through static emitters and are fetched lazily at runtime.
-
-// Cached content stats (computed once at build time by counting .json files)
-let _contentStatsJson: string | null = null
-
-function getContentStatsJson(): string {
-  if (_contentStatsJson !== null) return _contentStatsJson
-
-  const contentDir = path.join(process.cwd(), "..", "content")
-  const countJsonFiles = (dir: string): number => {
-    const full = path.join(contentDir, dir)
-    if (!fs.existsSync(full)) return 0
-    return fs.readdirSync(full, { recursive: true }).filter((f) => String(f).endsWith(".json"))
-      .length
-  }
-
-  _contentStatsJson = JSON.stringify({
-    positions: countJsonFiles("Positions"),
-    transitions: countJsonFiles("Transitions"),
-    submissions: countJsonFiles("Submissions"),
-    principles: countJsonFiles("Principles"),
-    systems: countJsonFiles("Systems"),
-  })
-  return _contentStatsJson
-}
+// Per-page slices are inlined here (page-graph-data, roll positions). Large blobs
+// (contentIndex, graph.json, the Neural payloads) go through static emitters and are
+// fetched lazily at runtime.
 
 // Cached roll positions JSON (computed once across all pages at build time)
 let _rollPositionsJson: string | null = null
@@ -73,282 +48,16 @@ function getRollPositionsJson(allFiles: QuartzPluginData[]): string {
   return _rollPositionsJson
 }
 
-// === Build-time graph layout pre-computation ===
-// Pre-compute D3 force layouts for all pages so the client renders instantly
-// without running D3 force simulation at all.
-
-// Global graph data (computed once from allFiles)
-let _allSimpleSlugs: Set<string> | null = null
-// Adjacency index for fast BFS: slug → set of connected slugs
-let _adjacency: Map<string, Set<string>> | null = null
-
-// Title lookup: slug → display title (computed once)
-let _titleIndex: Map<string, string> | null = null
-// Tags lookup: slug → tags array (computed once)
-let _tagsIndex: Map<string, string[]> | null = null
-
-function ensureGlobalGraphData(allFiles: QuartzPluginData[]) {
-  if (_allSimpleSlugs !== null) return
-
-  _allSimpleSlugs = new Set<string>()
-  _titleIndex = new Map()
-  _tagsIndex = new Map()
-  for (const f of allFiles) {
-    const slug = simplifySlug((f.slug ?? "") as FullSlug)
-    _allSimpleSlugs.add(slug)
-    const title = (f.frontmatter?.title as string) ?? slug.split("/").pop() ?? slug
-    _titleIndex.set(slug, title.split(" | ")[0])
-    _tagsIndex.set(slug, (f.frontmatter?.tags as string[]) ?? [])
-  }
-
-  _adjacency = new Map()
-  for (const f of allFiles) {
-    const source = simplifySlug((f.slug ?? "") as FullSlug)
-    const outgoing = (f.links ?? []) as SimpleSlug[]
-    for (const target of outgoing) {
-      if (_allSimpleSlugs.has(target)) {
-        if (!_adjacency.has(source)) _adjacency.set(source, new Set())
-        if (!_adjacency.has(target)) _adjacency.set(target, new Set())
-        _adjacency.get(source)!.add(target)
-        _adjacency.get(target)!.add(source)
-      }
-    }
-  }
-}
-
-// Hub slug helper (mirrors client-side getHubSlug — only bottom/top)
-function getHubSlug(nodeId: string): string {
-  const lower = nodeId.toLowerCase()
-  if (
-    lower.endsWith("/bottom") ||
-    lower.endsWith("/top") ||
-    lower.endsWith("/attacker") ||
-    lower.endsWith("/defender")
-  ) {
-    return nodeId.split("/").slice(0, -1).join("/")
-  }
-  return nodeId
-}
-
-const categoryHubSet = new Set([
-  "positions",
-  "transitions",
-  "submissions",
-  "systems",
-  "principles",
-  "learning",
-])
-
-// Cache per-page: slug → JSON string or null
-const _pageGraphPositionsCache: Record<string, string | null> = {}
-
-// Member node ids (e.g. "Positions/Ashi-Garami") a System teaches, from graph.json.
-// Drives the system-page graph so it highlights the part of the graph the system
-// covers instead of drawing the system as a single node.
-function getSystemMemberPaths(slug: FullSlug): string[] {
-  const graph = loadGraphData()
-  if (!graph?.systems) return []
-  const key = simplifySlug(slug)
-    .toLowerCase()
-    .replace(/^systems\//, "")
-    .replace(/\/$/, "")
-  const sys = (graph.systems as Record<string, any>)[key]
-  if (!sys || !Array.isArray(sys.members)) return []
-  return sys.members.map((m: any) => m.path).filter(Boolean)
-}
-
-function computePageGraphLayout(allFiles: QuartzPluginData[], slug: FullSlug): string | null {
-  const simpleSlug = simplifySlug(slug).replace(/\/$/, "")
-  if (simpleSlug in _pageGraphPositionsCache) {
-    return _pageGraphPositionsCache[simpleSlug]
-  }
-
-  ensureGlobalGraphData(allFiles)
-  const allSlugs = _allSimpleSlugs!
-
-  const slugLower = simpleSlug.toLowerCase()
-  const isHomepage = simpleSlug === "index"
-  const isCategoryHub = categoryHubSet.has(slugLower)
-  // System pages render their member constellation, not a single system node.
-  // NOTE: kept in sync with the system-page branch in graph.inline.ts (renderGraph).
-  const isSystemPage = slugLower.startsWith("systems/")
-
-  // Build neighbourhood (mirrors client-side logic in graph.inline.ts)
-  const neighbourhood = new Set<string>()
-
-  if (isSystemPage) {
-    for (const p of getSystemMemberPaths(slug)) {
-      if (allSlugs.has(p)) {
-        neighbourhood.add(p)
-      } else {
-        const lower = p.toLowerCase()
-        for (const ns of allSlugs) {
-          if (ns.toLowerCase() === lower) {
-            neighbourhood.add(ns)
-            break
-          }
-        }
-      }
-    }
-  } else if (isHomepage) {
-    for (const hub of categoryHubSet) {
-      for (const nodeSlug of allSlugs) {
-        if (nodeSlug.toLowerCase() === hub) {
-          neighbourhood.add(nodeSlug)
-          break
-        }
-      }
-    }
-  } else if (isCategoryHub) {
-    neighbourhood.add(simpleSlug)
-    const prefix = slugLower + "/"
-    for (const nodeSlug of allSlugs) {
-      const lower = nodeSlug.toLowerCase()
-      if (
-        lower.startsWith(prefix) &&
-        !lower.endsWith("/bottom") &&
-        !lower.endsWith("/top") &&
-        !lower.endsWith("/attacker") &&
-        !lower.endsWith("/defender")
-      ) {
-        neighbourhood.add(nodeSlug)
-      }
-    }
-  } else {
-    // Depth-1 BFS
-    const wl: (string | "__SENTINEL")[] = [simpleSlug, "__SENTINEL"]
-    let depth = 1
-
-    // For hub pages, also seed BFS with their role pages to aggregate links
-    const isPositionHub =
-      slugLower.startsWith("positions/") &&
-      !slugLower.endsWith("/bottom") &&
-      !slugLower.endsWith("/top")
-    const isTransitionOrSubmissionHub =
-      (slugLower.startsWith("transitions/") || slugLower.startsWith("submissions/")) &&
-      !slugLower.endsWith("/attacker") &&
-      !slugLower.endsWith("/defender")
-
-    const roleSuffixes: string[] = []
-    if (isPositionHub) {
-      roleSuffixes.push("/bottom", "/top")
-    } else if (isTransitionOrSubmissionHub) {
-      roleSuffixes.push("/attacker", "/defender")
-    }
-
-    if (roleSuffixes.length > 0) {
-      const rolePagesToAdd: string[] = []
-      const roleSlugsToFind = roleSuffixes.map((s) => slugLower + s)
-      for (const nodeSlug of allSlugs) {
-        const lower = nodeSlug.toLowerCase()
-        if (roleSlugsToFind.includes(lower)) {
-          rolePagesToAdd.push(nodeSlug)
-        }
-      }
-      const sentinelIdx = wl.indexOf("__SENTINEL")
-      wl.splice(sentinelIdx, 0, ...rolePagesToAdd)
-    }
-
-    while (depth >= 0 && wl.length > 0) {
-      const cur = wl.shift()!
-      if (cur === "__SENTINEL") {
-        depth--
-        wl.push("__SENTINEL")
-      } else {
-        neighbourhood.add(cur)
-        const neighbours = _adjacency!.get(cur)
-        if (neighbours) {
-          for (const n of neighbours) wl.push(n)
-        }
-      }
-    }
-
-    // Remove category hub pages from regular page neighbourhoods
-    for (const hub of categoryHubSet) {
-      neighbourhood.delete(hub)
-    }
-  }
-
-  // Filter out role pages from final nodes (mirrors client-side)
-  const nodeIds: string[] = []
-  for (const url of neighbourhood) {
-    const lower = url.toLowerCase()
-    if (
-      !lower.endsWith("/bottom") &&
-      !lower.endsWith("/top") &&
-      !lower.endsWith("/attacker") &&
-      !lower.endsWith("/defender")
-    ) {
-      nodeIds.push(url)
-    }
-  }
-
-  if (nodeIds.length === 0) {
-    _pageGraphPositionsCache[simpleSlug] = null
-    return null
-  }
-
-  // Build links with hub slug redirection (mirrors client-side)
-  const nodeIdSet = new Set(nodeIds)
-  const linkSet = new Set<string>()
-  type LinkDatum = { source: string; target: string }
-  const graphLinks: LinkDatum[] = []
-
-  // Only scan links originating from neighbourhood members (via adjacency)
-  for (const source of neighbourhood) {
-    const neighbours = _adjacency!.get(source)
-    if (!neighbours) continue
-    for (const target of neighbours) {
-      if (!neighbourhood.has(target)) continue
-      const actualSource = getHubSlug(source)
-      const actualTarget = getHubSlug(target)
-      if (!nodeIdSet.has(actualSource) || !nodeIdSet.has(actualTarget)) continue
-      if (actualSource === actualTarget) continue
-      const key = `${actualSource}|${actualTarget}`
-      if (!linkSet.has(key)) {
-        linkSet.add(key)
-        graphLinks.push({ source: actualSource, target: actualTarget })
-      }
-    }
-  }
-
-  // Run D3 force simulation synchronously
-  type NodeDatum = { id: string; x?: number; y?: number; index?: number }
-  const nodes: NodeDatum[] = nodeIds.map((id) => ({ id }))
-  const sim = forceSimulation(nodes)
-    .force("charge", forceManyBody().strength(-100).distanceMax(200))
-    .force("center", forceCenter())
-    .force(
-      "link",
-      forceLink(graphLinks)
-        .id((d: any) => d.id)
-        .distance(30),
-    )
-    .force("collide", forceCollide(4).iterations(1))
-    .stop()
-
-  sim.tick(300)
-  sim.stop()
-
-  const result = JSON.stringify({
-    nodes: nodes.map((n) => ({
-      id: n.id,
-      x: Math.round((n.x ?? 0) * 10) / 10,
-      y: Math.round((n.y ?? 0) * 10) / 10,
-      t: _titleIndex!.get(n.id) || n.id.split("/").pop() || n.id,
-      tags: _tagsIndex!.get(n.id) || [],
-    })),
-    links: graphLinks,
-  })
-
-  _pageGraphPositionsCache[simpleSlug] = result
-  return result
-}
-
-// Note: Global graph layout (background graph node positions) is now computed by
-// scripts/regenerate_graph_layout.py via node2vec + UMAP. The output file at
-// source/quartz/static/globalGraphLayout.json is copied through the build to
-// public/static/ and fetched at runtime by backgroundGraph.inline.ts.
+// NOTE: v1.80.0 removed the build-time per-page D3 force layout (computePageGraphLayout and
+// its #graph-positions <script> emit). It pre-solved a force simulation for every page so the
+// legacy sidebar graph could render without running D3 in the browser — 349,759,020 bytes
+// across the site, 42.5% of every HTML byte emitted, for a single consumer
+// (scripts/graph.inline.ts) that was display:none for 100% of real traffic and is now deleted.
+// The Neural app draws its own graph from /static/neural/graph-data.json.
+//
+// The global (background) graph layout still lives in source/quartz/static/globalGraphLayout.json,
+// computed by scripts/regenerate_graph_layout.py — it is an INPUT to
+// scripts/regenerate_neural_data.py, not a page payload.
 
 // Cached graph.json data and lookup index (read once at build time)
 let _graphJson: any = null
@@ -649,11 +358,6 @@ export function pageResources(
 ): StaticResources {
   const contentIndexPath = joinSegments(baseDir, "static/contentIndex.json")
   const contentIndexGzPath = joinSegments(baseDir, "static/contentIndex.json.gz")
-  const questionBankPath = joinSegments(baseDir, "static/questionBank.json")
-  const questionBankGzPath = joinSegments(baseDir, "static/questionBank.json.gz")
-  const graphAdjacencyPath = joinSegments(baseDir, "static/graphAdjacency.json")
-  const graphAdjacencyGzPath = joinSegments(baseDir, "static/graphAdjacency.json.gz")
-
   // Lazy content index: only fetched when search opens, global graph opens, or 404 page loads
   const contentIndexScript = `
     let __contentIndexPromise = null;
@@ -679,37 +383,6 @@ export function pageResources(
       return __contentIndexPromise;
     }`
 
-  // Lazy training data: question bank + graph adjacency. Only fetched when the
-  // user starts a training session or opens DecksModal.
-  const trainingDataScript = `
-    let __questionBankPromise = null;
-    let __graphAdjacencyPromise = null;
-    async function __fetchLazyJson(gzPath, plainPath) {
-      try {
-        const gzResponse = await fetch(gzPath);
-        if (gzResponse.ok) {
-          const compressed = await gzResponse.arrayBuffer();
-          const ds = new DecompressionStream('gzip');
-          const decompressedStream = new Response(compressed).body.pipeThrough(ds);
-          const decompressed = await new Response(decompressedStream).text();
-          return JSON.parse(decompressed);
-        }
-      } catch (e) {
-        console.warn('Failed to load compressed lazy JSON, falling back:', e);
-      }
-      return fetch(plainPath).then(r => r.json());
-    }
-    window.loadQuestionBank = function() {
-      if (__questionBankPromise) return __questionBankPromise;
-      __questionBankPromise = __fetchLazyJson("${questionBankGzPath}", "${questionBankPath}");
-      return __questionBankPromise;
-    }
-    window.loadGraphAdjacency = function() {
-      if (__graphAdjacencyPromise) return __graphAdjacencyPromise;
-      __graphAdjacencyPromise = __fetchLazyJson("${graphAdjacencyGzPath}", "${graphAdjacencyPath}");
-      return __graphAdjacencyPromise;
-    }`
-
   return {
     css: [joinSegments(baseDir, "index.css"), ...staticResources.css],
     js: [
@@ -723,12 +396,6 @@ export function pageResources(
         contentType: "inline",
         spaPreserve: true,
         script: contentIndexScript,
-      },
-      {
-        loadTime: "beforeDOMReady",
-        contentType: "inline",
-        spaPreserve: true,
-        script: trainingDataScript,
       },
       ...staticResources.js,
       {
@@ -755,17 +422,6 @@ export function renderPage(
     contentType: "inline",
     spaPreserve: true,
     script: `window.__rollPositions=${escapeScriptContent(rollData)}`,
-  })
-
-  // Inject content stats on every page (build-time counts of .json files per
-  // category). Populates `[data-folder-count]` spans next to top-level Explorer
-  // folder titles (Positions / Transitions / Submissions / Principles / Systems).
-  const stats = getContentStatsJson()
-  pageResources.js.push({
-    loadTime: "beforeDOMReady",
-    contentType: "inline",
-    spaPreserve: true,
-    script: `window.__contentStats=${escapeScriptContent(stats)};document.addEventListener("nav",()=>{const s=window.__contentStats;if(!s)return;document.querySelectorAll("[data-folder-count]").forEach(el=>{const k=el.getAttribute("data-folder-count");if(k&&s[k]!=null)el.textContent=String(s[k])})})`,
   })
 
   // Only deep-clone the tree if transclusions exist (saves ~1-15ms per page)
@@ -939,9 +595,6 @@ export function renderPage(
   // Build-time per-page graph data (transitions, flashcard questions, etc.)
   const pageGraphDataJson = getPageGraphData(slug)
 
-  // Build-time pre-computed graph layout (avoids D3 simulation at runtime)
-  const graphPositionsJson = computePageGraphLayout(componentData.allFiles, slug)
-
   const lang = componentData.fileData.frontmatter?.lang ?? cfg.locale?.split("-")[0] ?? "en"
   // Viewer's role drives the graph's per-role strength colouring (red↔blue).
   // Role pages carry it in the URL suffix; hub pages default to "top".
@@ -964,83 +617,6 @@ export function renderPage(
             dangerouslySetInnerHTML={{ __html: escapeScriptContent(pageGraphDataJson) }}
           />
         )}
-        {graphPositionsJson && (
-          <script
-            type="application/json"
-            id="graph-positions"
-            dangerouslySetInnerHTML={{ __html: escapeScriptContent(graphPositionsJson) }}
-          />
-        )}
-        <div id="background-graph" data-persist></div>
-        <div id="graph-overlay" data-persist></div>
-        <button id="panel-toggle" data-persist aria-label="Reveal graph">
-          {/* Content mode: wide chevron up — "swipe/scroll up to reveal graph" */}
-          <svg
-            class="toggle-icon-up"
-            xmlns="http://www.w3.org/2000/svg"
-            width="22"
-            height="22"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2.5"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-          >
-            <polyline points="3 16 12 7 21 16"></polyline>
-          </svg>
-          {/* Graph mode: wide chevron down — "swipe/scroll down to bring back content" */}
-          <svg
-            class="toggle-icon-down"
-            xmlns="http://www.w3.org/2000/svg"
-            width="22"
-            height="22"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2.5"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-          >
-            <polyline points="3 8 12 17 21 8"></polyline>
-          </svg>
-        </button>
-        <button id="fit-all-btn" data-persist aria-label="Fit entire graph in view">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="20"
-            height="20"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-          >
-            <polyline points="4 14 4 20 10 20"></polyline>
-            <polyline points="20 10 20 4 14 4"></polyline>
-            <line x1="14" y1="10" x2="21" y2="3"></line>
-            <line x1="3" y1="21" x2="10" y2="14"></line>
-          </svg>
-        </button>
-        <button id="tree-toggle" data-persist aria-label="Toggle explorer">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="22"
-            height="22"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-          >
-            <path d="M3 3h6l2 2h10v4"></path>
-            <path d="M3 7v12h18v-8"></path>
-            <line x1="9" y1="13" x2="17" y2="13"></line>
-            <line x1="9" y1="17" x2="13" y2="17"></line>
-          </svg>
-        </button>
         {/* Search trigger + fullscreen modal — wrapped in .search so the
             existing search.scss styles apply (modal positioning, hidden state).
             Our custom.scss #search-button rule overrides the button's position
@@ -1077,128 +653,39 @@ export function renderPage(
         <div id="sidebar-overlay" data-persist>
           {LeftComponent}
         </div>
-        {/* Top-row buttons hoisted out of `.page` so they don't slide with the
-            content card's transform when entering graph mode. */}
-        <div id="flashcards-header" class="flashcards-header" data-persist>
-          <button
-            type="button"
-            class="flashcards-header-label"
-            id="flashcards-header-label"
-            aria-label="Open flashcard decks"
-          >
-            <span class="flashcards-header-icon" aria-hidden="true">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              >
-                <polygon points="12 2 2 7 12 12 22 7 12 2" />
-                <polyline points="2 17 12 22 22 17" />
-                <polyline points="2 12 12 17 22 12" />
-              </svg>
-            </span>
-            <span class="flashcards-header-text">Flashcards</span>
-            <span class="flashcards-header-badge" aria-hidden="true"></span>
-          </button>
-        </div>
-        <div id="topbar-auth" data-persist aria-label="Account"></div>
-        <button
-          id="roll-session-btn"
-          data-persist
-          type="button"
-          aria-label="Start a roll — simulate a journey through positions"
-          title="Roll — start a session"
-        >
-          {/* Outline play triangle */}
-          <svg
-            class="roll-session-icon-play"
-            xmlns="http://www.w3.org/2000/svg"
-            width="20"
-            height="20"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            aria-hidden="true"
-          >
-            <polygon points="6 4 20 12 6 20"></polygon>
-          </svg>
-          {/* Outline stop square (active session) */}
-          <svg
-            class="roll-session-icon-stop"
-            xmlns="http://www.w3.org/2000/svg"
-            width="18"
-            height="18"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            aria-hidden="true"
-          >
-            <rect x="6" y="6" width="12" height="12" rx="1"></rect>
-          </svg>
-        </button>
-        {slug === ("index" as FullSlug) && (
-          <button
-            id="home-roll-fab"
-            class="roll-trigger"
-            data-persist
-            aria-label="Roll — find a random position"
-          >
-            <img src="/static/dice-icon.svg" alt="" class="home-roll-fab-icon" />
-            <span class="home-roll-fab-label">Roll a position</span>
-          </button>
-        )}
-        {slug === ("index" as FullSlug) ? (
-          <div id="home-hero" class="home-hero">
-            <h1 class="article-title homepage-title">
-              BJJ Graph<span class="title-tld">.org</span>
-            </h1>
-            <p class="tagline">
-              <span class="tagline-line tagline-line-1">BJJ game, mapped.</span>
-              <span class="tagline-line tagline-line-2">Find a position, or try random roll.</span>
-            </p>
-          </div>
-        ) : (
-          <>
-            <div id="scroll-runway" aria-hidden="true" role="presentation"></div>
-            <div id="quartz-root" class="page">
-              <Body {...componentData}>
-                <div class="center">
-                  <div class="page-header">
-                    <Header {...componentData}>
-                      {header.map((HeaderComponent) => (
-                        <HeaderComponent {...componentData} />
-                      ))}
-                    </Header>
-                    <div class="popover-hint">
-                      {beforeBody.map((BodyComponent) => (
-                        <BodyComponent {...componentData} />
-                      ))}
-                    </div>
-                  </div>
-                  <Content {...componentData} />
-                  <hr />
-                  <div class="page-footer">
-                    {afterBody.map((BodyComponent) => (
-                      <BodyComponent {...componentData} />
-                    ))}
-                  </div>
+        {/* Every page — including `/` — renders the article shell. The homepage used to
+            branch to a bare #home-hero with no <article>, which left the site root with ~172
+            characters of crawlable text; with the legacy chrome deleted that would have been an
+            empty body on the most valuable route of a 4,600-URL site. The Neural app overlays
+            this shell client-side (see scripts/variant.inline.ts), so humans still land in the
+            app while crawlers and no-JS visitors get real prose. */}
+        <div id="quartz-root" class="page">
+          <Body {...componentData}>
+            <div class="center">
+              <div class="page-header">
+                <Header {...componentData}>
+                  {header.map((HeaderComponent) => (
+                    <HeaderComponent {...componentData} />
+                  ))}
+                </Header>
+                <div class="popover-hint">
+                  {beforeBody.map((BodyComponent) => (
+                    <BodyComponent {...componentData} />
+                  ))}
                 </div>
-                {RightComponent}
-                <Footer {...componentData} />
-              </Body>
+              </div>
+              <Content {...componentData} />
+              <hr />
+              <div class="page-footer">
+                {afterBody.map((BodyComponent) => (
+                  <BodyComponent {...componentData} />
+                ))}
+              </div>
             </div>
-          </>
-        )}
+            {RightComponent}
+            <Footer {...componentData} />
+          </Body>
+        </div>
       </body>
       {pageResources.js
         .filter((resource) => resource.loadTime === "afterDOMReady")
