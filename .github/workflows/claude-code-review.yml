@@ -10,6 +10,13 @@ on:
     #   - "src/**/*.js"
     #   - "src/**/*.jsx"
 
+# `synchronize` means every push to a PR branch starts another review, so a rapid series
+# of pushes used to run several reviews of superseded diffs in parallel — each one burning
+# Claude quota to comment on code that no longer exists. Keep only the newest per PR.
+concurrency:
+  group: claude-code-review-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
+
 jobs:
   claude-review:
     # SECURITY: only run on same-repo PRs. Fork PRs don't receive secrets anyway

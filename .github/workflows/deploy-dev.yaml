@@ -5,6 +5,17 @@ on:
     branches: ["dev"]
   workflow_dispatch:
 
+# dev is the hot branch, so an in-flight preview deploy is made obsolete by the very next
+# push — cancel it rather than paying for a preview nobody will look at. Cancelling is
+# safe HERE in a way it is deliberately not safe for production (see deploy.yaml): this
+# workflow only ever publishes to the `dev` preview alias, and `wrangler pages deploy`
+# activates a deployment only once its upload has completed, so a cancelled run leaves
+# the previous preview serving rather than a half-published one. The production alias is
+# never touched by this workflow.
+concurrency:
+  group: deploy-dev-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
   deploy-preview:
     runs-on: ubuntu-latest
@@ -101,12 +112,43 @@ jobs:
       - name: Install root dependencies (Playwright test runner)
         run: npm install
 
+      # Key the browser cache on the PLAYWRIGHT VERSION, never on the lockfile hash.
+      # This repo bumps package.json on every commit and package-lock.json mirrors that
+      # version, so a hashFiles('package-lock.json') key changed on essentially every
+      # commit. Verified on run 31319192519: "Cache not found for input keys:
+      # Linux-playwright-f9289ead..." followed at post-job by "Sent 274155745 of
+      # 274155745" — a MISS on every run that still uploaded 261 MiB on every run, i.e.
+      # strictly worse than having no cache at all.
+      # The resolved @playwright/test version is the correct key because it is exactly
+      # what decides which browser revision `npx playwright install` expects, and it
+      # still moves when Playwright is upgraded — so an upgrade can never score an exact
+      # hit on browsers built for the old revision. A restore-keys near-miss is safe for
+      # the same reason: a prefix match leaves `cache-hit` false, so the full install
+      # step below still runs and fetches the correct revision. Do NOT "improve" those
+      # `if:` guards to use cache-matched-key — that is what would resurrect the
+      # revision-mismatch failure this repo has already been bitten by.
+      - name: Resolve Playwright version
+        id: pw-version
+        run: |
+          V="$(node -p "require('@playwright/test/package.json').version" 2>/dev/null || true)"
+          if [ -z "$V" ]; then
+            V="$(node -p "require('./package-lock.json').packages['node_modules/@playwright/test'].version" 2>/dev/null || true)"
+          fi
+          if [ -z "$V" ]; then
+            echo "::error::Could not resolve the @playwright/test version; refusing to key the browser cache on a guess."
+            exit 1
+          fi
+          echo "version=$V" >> "$GITHUB_OUTPUT"
+          echo "Playwright $V"
+
       - name: Cache Playwright browsers
         id: pw-cache
         uses: actions/cache@0057852bfaa89a56745cba8c7296529d2fc39830 # v4
         with:
           path: ~/.cache/ms-playwright
-          key: ${{ runner.os }}-playwright-${{ hashFiles('package-lock.json') }}
+          key: ${{ runner.os }}-playwright-${{ steps.pw-version.outputs.version }}
+          restore-keys: |
+            ${{ runner.os }}-playwright-
 
       - name: Install Playwright browser
         if: steps.pw-cache.outputs.cache-hit != 'true'
