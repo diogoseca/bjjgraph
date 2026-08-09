@@ -30,9 +30,11 @@ What it measures:
   - THE NEURAL EAGER SET (v1.80.4): every byte under static/neural/ that is NOT inside an
     on-demand chunk directory. This is the payload a first-time visitor pulls before they
     can make a move, and it was 39.3MB raw / 10.1MB gzip — the whole defect. It is measured
-    as "the directory minus the chunk dirs" rather than as a hand-listed file set on
-    purpose: a list of boot files could be made green by shortening the list, whereas this
-    can only be made green by actually moving the weight behind an on-demand fetch.
+    as "the directory minus the chunk dirs (and the few declared DEFERRED)" rather than as
+    a hand-listed set of boot files on purpose: a list of boot files could be made green by
+    shortening the list, whereas this can only be made green by actually moving weight
+    behind an on-demand fetch. The deferred set is small, named, separately capped, and
+    cross-checked by the browser gate — see DEFERRED.
 
 Usage:
   python3 scripts/check_payload_budget.py --update   # (re)seed ceilings from a build
@@ -60,6 +62,19 @@ BUDGET = ROOT / "tests/artifacts/budget_site.json"
 NEURAL_DIR = "static/neural"
 CHUNK_DIRS = ("flashcards", "content")
 
+# Top-level payloads the app deliberately does NOT fetch at boot. Kept as an explicit, tiny list
+# because the alternative — silently scoring them as eager — makes this gate measure something
+# that is not true, and a wrong gate gets worked around rather than obeyed.
+#
+# The obvious objection is that a list of exclusions is a loophole (add a file, weight vanishes).
+# What closes it: e2e/journeys/payload-first-hand.spec.ts measures the SAME weight from a real
+# browser, counting whatever the page actually requests. A file wrongly declared deferred here
+# still shows up there. The two gates cross-check each other, and the deferred set has its own
+# ceiling below so it cannot grow unbounded either.
+#   · systems.json — the authored course library (v1.80.4): read only by the Explore tab and the
+#     system buckets, fetched at idle or on first read, never on the roll path.
+DEFERRED = ("systems.json",)
+
 # Hand-set TARGETS, not seeded observations (see the module docstring). "Eager" is the raw
 # and gzip weight of the boot set; a chunk ceiling keeps the on-demand path honest (a 5MB
 # "chunk" is a monolith with a new name).
@@ -67,6 +82,7 @@ NEURAL_TARGET = {
     "eager_raw_bytes": 2_500_000,
     "eager_gzip_bytes": 400_000,
     "chunk_max_bytes": 40_000,
+    "deferred_raw_bytes": 500_000,
 }
 
 # Shared bundles fetched by every page. postscript.js is the one that carried the whole
@@ -105,6 +121,8 @@ def measure_neural() -> dict:
         "eager_raw_bytes": 0,
         "eager_gzip_bytes": 0,
         "eager_files": [],
+        "deferred_raw_bytes": 0,
+        "deferred_files": [],
         "chunk_count": 0,
         "chunk_raw_bytes": 0,
         "chunk_max_bytes": 0,
@@ -125,6 +143,10 @@ def measure_neural() -> dict:
             if size > out["chunk_max_bytes"]:
                 out["chunk_max_bytes"] = size
                 out["chunk_max_file"] = str(rel)
+            continue
+        if str(rel) in DEFERRED:
+            out["deferred_raw_bytes"] += size
+            out["deferred_files"].append({"path": str(rel), "raw": size})
             continue
         out["eager_raw_bytes"] += size
         # gzip each file separately: that is how a CDN ships them (one response each), and
@@ -265,6 +287,7 @@ def main() -> None:
         ("eager_raw_bytes", "neural eager (raw)"),
         ("eager_gzip_bytes", "neural eager (gzip)"),
         ("chunk_max_bytes", "largest on-demand chunk"),
+        ("deferred_raw_bytes", "deferred payloads (raw)"),
     ):
         ceiling, got = nb.get(field), nc.get(field, 0)
         if ceiling is None:

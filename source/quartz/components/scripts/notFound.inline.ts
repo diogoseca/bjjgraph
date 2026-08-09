@@ -140,6 +140,12 @@ function ensureBaseTag() {
 }
 
 function initNotFoundPage() {
+  // 404 ONLY. This ran on every page in the site: ensureBaseTag was slug-gated but nothing else
+  // was, so findBestMatch() below fetched static/contentIndex.json.gz — 3.4MB, the search index —
+  // on every single page load, to power a "did you mean" line that only the 404 page renders.
+  // It was the second-heaviest item in the first-paint payload after the Neural dossier bundle
+  // (measured by e2e/journeys/payload-first-hand.spec.ts, v1.80.4).
+  if (document.body?.dataset.slug !== "404") return
   ensureBaseTag()
   const pathname = window.location.pathname
   const titleEl = document.getElementById("not-found-title")

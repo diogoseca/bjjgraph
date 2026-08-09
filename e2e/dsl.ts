@@ -133,13 +133,30 @@ export class Journey {
           return r.fulfill({ status: 200, contentType: "text/css", body: "" });
         return r.abort();
       });
-      await this.page.route("**/technique-content.js", (r) => r.abort());
-      await this.page.route("**/flashcards.json", (r) =>
+      // Per-node dossier chunks (v1.80.4, replacing the aborted 21MB technique-content.js):
+      // journeys run WITHOUT authored dossier content, exactly as they did when the monolith was
+      // aborted — an empty map makes the app negative-cache that node and render its fallbacks.
+      // A journey that wants real dossier content routes this itself.
+      await this.page.route("**/static/neural/content/*.json", (r) =>
+        r.fulfill({ body: "{}", contentType: "application/json" }),
+      );
+      // Deck manifest + per-deck chunks, from the same per-worker buffers as graph-data. This is
+      // the app's REAL on-demand residency path, not a monolith stand-in, so journeys exercise
+      // what ships: a deck exists as a stub first and its cards arrive after a fetch.
+      await this.page.route("**/flashcards/_index.json", (r) =>
         r.fulfill({
-          body: payload("flashcards.json"),
+          body: payload("flashcards/_index.json"),
           contentType: "application/json",
         }),
       );
+      await this.page.route("**/flashcards/*.json", (r) => {
+        const name = new URL(r.request().url()).pathname.split("/").pop()!;
+        try {
+          r.fulfill({ body: payload("flashcards/" + name), contentType: "application/json" });
+        } catch {
+          r.fulfill({ status: 404, contentType: "application/json", body: "" });
+        }
+      });
       await this.page.route("**/graph-data.json", (r) =>
         r.fulfill({
           body: payload("graph-data.json"),
@@ -263,6 +280,38 @@ export class Journey {
       for (const [tag, values] of Object.entries(opts.seedRolls))
         await this.rig(tag, values);
     }
+    return this;
+  }
+
+  /**
+   * DECK RESIDENCY (v1.80.4). The app boots from a manifest of deck STUBS and fetches a deck's
+   * cards on demand, so `flashcards.decks[key].cards` is absent until something asks for that
+   * deck. The app asks for what it needs (the state it lands on, each dealt option, a study
+   * surface, a checkpoint's unit) — but a journey that reaches into an ARBITRARY deck must say
+   * so, which is what these are for. They drive the real fill seam (`hydrateDeck`), so nothing
+   * here fakes residency; they only decide WHEN.
+   */
+  async hydrate(keys: string[]) {
+    await this.page.evaluate(
+      (ks) => (window as W).__neural.hydrateDecks(ks as string[]),
+      keys as unknown as string[],
+    );
+    return this;
+  }
+  /** Full residency, for journeys whose subject is not residency (a deck scan, a corpus pick). */
+  async hydrateAll() {
+    const keys = await this.page.evaluate(() =>
+      Object.keys(((window as W).__neural.flashcards || {}).decks || {}),
+    );
+    await this.hydrate(keys);
+    return this;
+  }
+  /** Wait for every in-flight deck/pool fetch to settle (hydration is real async). */
+  async decksSettled() {
+    await this.page.evaluate(async () => {
+      const a = (window as W).__neural;
+      for (let i = 0; i < 8; i++) await Promise.all(Object.values(a._deckWaits || {}));
+    });
     return this;
   }
 

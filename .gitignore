@@ -106,6 +106,10 @@ e2e/paired/
 # Dev snapshot captures (written by scripts/dev-serve.mjs; see CLAUDE.md "Dev Snapshots").
 # Only this subdir — the rest of tests/artifacts/ is tracked.
 tests/artifacts/snapshots/
+# Replay artifacts: run outputs of scripts/triple_replay.sh + the replay-digest spec. Regenerable,
+# per-run, and only meaningful compared against each other within one invocation.
+tests/artifacts/triple_replay/
+tests/artifacts/replay/
 node_modules/
 
 # Transient local-agent coordination notes (this checkout only; repo is public)

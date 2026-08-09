@@ -340,8 +340,40 @@ def build_ng_content(graph) -> dict:
     return decks
 
 
-def write_ng_content(graph, out_path: Path) -> int:
+def fnv1a32(s: str) -> str:
+    """FNV-1a over UTF-16 code units — byte-identical to qhash() in neural/src/app.src.jsx.
+
+    The app addresses a node's dossier chunk by hashing its key, so this MUST agree with the JS
+    exactly. JS iterates charCodeAt (UTF-16 code units), so we do too rather than hashing bytes.
+    """
+    h = 0x811C9DC5
+    units = s.encode("utf-16-le")
+    for i in range(0, len(units), 2):
+        h ^= units[i] | (units[i + 1] << 8)
+        h = (h * 0x01000193) & 0xFFFFFFFF
+    return f"{h:08x}"
+
+
+def write_ng_chunks(graph, out_dir: Path) -> tuple[int, int, int]:
+    """Write ONE dossier chunk per node, addressed by fnv1a32(key).
+
+    Replaces the 21.2MB technique-content.js (window.NG_CONTENT for every node in the graph,
+    shipped to every visitor to render at most one node at a time). Each chunk holds a
+    {key: dossier} MAP rather than a bare dossier, so a hash collision merely puts two dossiers
+    in one file instead of losing one — the app looks up by key after fetching.
+
+    Returns (nodes, files, collisions).
+    """
     decks = build_ng_content(graph)
-    payload = "window.NG_CONTENT = " + json.dumps({"decks": decks}, ensure_ascii=False, separators=(",", ":")) + ";\n"
-    out_path.write_text(payload, encoding="utf-8")
-    return len(decks)
+    if out_dir.exists():
+        for old in out_dir.glob("*.json"):
+            old.unlink()
+    out_dir.mkdir(parents=True, exist_ok=True)
+    buckets: dict[str, dict] = {}
+    for key in sorted(decks):
+        buckets.setdefault(fnv1a32(key), {})[key] = decks[key]
+    for h, payload in buckets.items():
+        (out_dir / f"{h}.json").write_text(
+            json.dumps(payload, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
+    collisions = sum(len(v) - 1 for v in buckets.values())
+    return len(decks), len(buckets), collisions

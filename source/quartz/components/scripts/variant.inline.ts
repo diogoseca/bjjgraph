@@ -82,16 +82,6 @@ function loadNeuralBundle(): Promise<void> {
   if (bundlePromise) return bundlePromise
   ;(window as any).__NEURAL_DATA_BASE = DATA_BASE
 
-  const loadScript = (src: string) =>
-    new Promise<void>((res) => {
-      const el = document.createElement("script")
-      el.src = src
-      el.defer = true
-      el.onload = () => res()
-      el.onerror = () => res() // non-fatal
-      document.body.appendChild(el)
-    })
-
   bundlePromise = (async () => {
     const css = document.createElement("link")
     css.rel = "stylesheet"
@@ -99,8 +89,11 @@ function loadNeuralBundle(): Promise<void> {
     css.onerror = () => css.remove()
     css.setAttribute("spa-preserve", "") // survive head-patching across navs
     document.head.appendChild(css)
-    // app bundle FIRST — the ~20MB NG_CONTENT dossier payload is deferred off the critical
-    // path (the app renders graceful fallbacks until it lands, then onContentReady refreshes).
+    // The ~21MB NG_CONTENT dossier payload used to be loaded here as a second <script>, deferred
+    // off the critical path but still pulled in full on every first visit — 5.5MB gzipped for
+    // content the app renders one node at a time. v1.80.4 replaced it with one ~6KB chunk per
+    // node, fetched by the app itself when a surface asks (see _hydrateContent in app.src.jsx),
+    // so this loader has nothing left to do but the bundle.
     await new Promise<void>((res) => {
       const el = document.createElement("script")
       el.src = APP_BASE + "neural.js"
@@ -112,13 +105,6 @@ function loadNeuralBundle(): Promise<void> {
         res()
       }
       document.body.appendChild(el)
-    })
-    void loadScript(DATA_BASE + "technique-content.js").then(() => {
-      try {
-        ;(window as any).__neural?.onContentReady?.()
-      } catch {
-        /* app not mounted yet — it reads window.NG_CONTENT lazily anyway */
-      }
     })
   })()
   return bundlePromise

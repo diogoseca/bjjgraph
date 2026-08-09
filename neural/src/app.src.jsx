@@ -122,7 +122,20 @@ class Component extends DCLogic {
     const q = this._rig && this._rig[tag];
     const v = q && q.length ? q.shift() : Math.random();
     if (this._rec) this._rec.draws.push({ tag: tag, v: v });
+    if (this._rngTx) (this._rngTx[tag] = this._rngTx[tag] || []).push(v);
     return v;
+  }
+  // ── RNG transaction: draw, then put it back ──
+  // Used by _warmMcPool to run the distractor pooler as a DRY PASS (to discover which deck
+  // chunks it wants) without consuming the stream. Rollback unshifts the drawn values back onto
+  // the rigged queue in order, so the real pass that follows sees exactly the same numbers —
+  // including the Math.random ones, which is the point: a replay must see what the probe saw.
+  _rngBegin() { this._rngTx = {}; }
+  _rngRollback() {
+    const tx = this._rngTx; this._rngTx = null;
+    if (!tx) return;
+    this._rig = this._rig || {};
+    for (const tag in tx) this._rig[tag] = tx[tag].concat(this._rig[tag] || []);
   }
   rig(tag, values) { this._rig = this._rig || {}; (this._rig[tag] = this._rig[tag] || []).push(...(values || [])); }
   rigStart(idx) { this._rigStart = idx; }
@@ -363,7 +376,11 @@ class Component extends DCLogic {
     let data = null;
     for (let attempt = 0; attempt < 5 && !data; attempt++) {
       try {
-        const r = await fetch("graph-data.json", { cache: "no-cache" });
+        // no `cache: "no-cache"`: these files are content-stable between deploys and the edge
+        // serves them with a Cache-Control tier (see scripts/regenerate_headers.py). Forcing a
+        // revalidation on every boot threw away the one free win available — a returning
+        // visitor re-downloaded the entire payload.
+        const r = await fetch("graph-data.json");
         if (r.ok) data = await r.json();
       } catch (e) { /* retry */ }
       if (!data) await new Promise((res) => setTimeout(res, 400));
@@ -374,23 +391,28 @@ class Component extends DCLogic {
     // (SEO) content, defeating the "overlay so legacy always shows" fallback contract.
     try { this.ingest(data); }
     catch (e) { console.error("[neural] ingest failed:", e); this._fallbackToLegacy(); return; }
-    // flashcards (13.5MB) load in the BACKGROUND — first paint doesn't wait; the drill panel
-    // and odds refresh when the decks land. (fetch literal kept patchable by build.mjs.)
-    fetch("flashcards.json", { cache: "no-cache" })
+    // DECKS: boot from the MANIFEST, fetch each deck on demand (v1.80.4). The monolith was
+    // 16.4MB raw / 4.4MB gzip of flashcards — every card for all 2,924 decks — pulled before
+    // the visitor could make one move. The manifest names every deck with its card count and
+    // chunk file; a deck's ~6KB chunk lands when something actually needs its cards.
+    // The card COUNT is the load-bearing part: it keeps mastery, crowns, goals and the belt
+    // score exact while the cards themselves are still absent (see deckMastery).
+    fetch(this._dataBase() + "flashcards/_index.json")
       .then((fr) => (fr.ok ? fr.json() : null))
-      .then((j) => { if (j) { this.flashcards = j; this.onFlashcardsReady(); } })
+      .then((j) => { if (j) { this._ingestDeckManifest(j); this.onFlashcardsReady(); } })
       .catch(() => { /* optional payload */ });
     // Challenge curriculum is tiny and optional; action objectives still work if it is absent.
-    fetch("curriculum.json", { cache: "no-cache" })
+    // It stays EAGER: curriculum.weights is what gameScore sums, so deferring it would show
+    // every visitor a zero belt for as long as it took to arrive.
+    fetch("curriculum.json")
       .then((cr) => (cr.ok ? cr.json() : null))
       .then((c) => { if (c && c.belts && c.belts.length) { this.curriculum = c; this._onCurriculum(); } })
       .catch(() => { /* optional payload */ });
-    // Systems (the authored course library) are optional too: a 404 just means the Explore tree
-    // has no Systems section — nothing else in the app reads them.
-    fetch("systems.json", { cache: "no-cache" })
-      .then((sr) => (sr.ok ? sr.json() : null))
-      .then((s) => { if (s && Array.isArray(s.systems) && s.systems.length) { this.systems = s.systems; this._onSystems(); } })
-      .catch(() => { /* optional payload */ });
+    // Systems (the authored course library) are DEFERRED: nothing on the roll path reads them —
+    // only the Explore tab and the system buckets do — so 324KB has no business being on the
+    // critical path. _ensureSystems() is called from those read sites, and warmed at idle only
+    // AFTER the first hand is dealt (see the options_dealt path): an idle callback fires long
+    // before a hand exists, so warming here would have put all 324KB back on the boot bill.
     if (this.loaderRef.current) this.loaderRef.current.style.display = "none";
     // durability: flush the debounced save if the tab is closing/backgrounding (a quick reload
     // right after a belt-win fanfare must not lose the milestone).
@@ -624,8 +646,7 @@ class Component extends DCLogic {
   // ---------- drill deck (flashcards) + dominance flash ----------
   deckCat(node) { return node.ty === "positions" ? "Position" : (node.ty === "submissions" ? "Submission" : "Transition"); }
   richContentFor(n) {
-    const C = (window.NG_CONTENT && window.NG_CONTENT.decks) || {};
-    const rc = C[n.t];
+    const rc = this._ngc(n.t);
     return (rc && rc.perspectives) ? rc : null;
   }
   splitTo(t) {
@@ -642,10 +663,9 @@ class Component extends DCLogic {
   detailHTML(n, cat, neighbors, persp) {
     const rc = this.richContentFor(n);
     if (rc) return this.richDetailHTML(n, cat, rc, persp || "attacker");
-    const C = (window.NG_CONTENT && window.NG_CONTENT.decks) || {};
     // positions are keyed "<fam>|<Role>" (deckKeyFor); techniques are keyed bare "<name>" in
     // NG_CONTENT, so fall back on the full title, not the "<name>|Attacker" deck key.
-    const c = n.ty === "positions" ? C[this.deckKeyFor(n).key] : C[n.t];
+    const c = this._ngc(n.ty === "positions" ? this.deckKeyFor(n).key : n.t);
     this._curClips = null;
     const sec = (label) => '<div style="font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:#7b8aa8;font-weight:700;margin:16px 0 9px;">' + label + '</div>';
     const lead = (t) => '<div style="font-size:13.5px;color:#c2ccde;line-height:1.6;">' + t + '</div>';
@@ -903,11 +923,15 @@ class Component extends DCLogic {
       this.track("neural_card_answered", { deck_key: key, cards_today: this.cardsToday });
       this.fx("bonus_pumped", { deck_key: key });
     }
-    if (!this._qkDecks) {                      // lazy one-time index: question -> deck keys carrying it
+    // question -> deck keys carrying it. Built lazily and INVALIDATED on every deck hydration
+    // (_onDeckHydrated nulls it): it can only see cards that are resident, so a one-time index
+    // built at boot would permanently omit every deck that arrived later — the shared-question
+    // credit would silently stop working for exactly the decks the user went on to study.
+    if (!this._qkDecks) {
       this._qkDecks = new Map();
       const decks = (this.flashcards && this.flashcards.decks) || {};
       for (const k of Object.keys(decks)) {
-        for (const c of decks[k].cards || []) {
+        for (const c of this._cardsOf(decks[k]) || []) {
           const arr = this._qkDecks.get(c.q);
           if (arr) arr.push(k); else this._qkDecks.set(c.q, [k]);
         }
@@ -919,7 +943,7 @@ class Component extends DCLogic {
     this.prep = this.prep || {};
     for (const k of shared) {
       if (k === key) continue;                 // the local deck's own paths already counted it
-      const cap = decks[k] && decks[k].cards ? decks[k].cards.length : 0;
+      const cap = this._deckCardCount(decks[k]);   // manifest count when the cards are absent
       this.prep[k] = Math.min(cap, (this.prep[k] || 0) + 1);
     }
   }
@@ -1169,6 +1193,163 @@ class Component extends DCLogic {
   // directly — the stub is truthy, so it slips past every `if (d)` guard in this file and
   // turns into a TypeError (or a silent NaN index) at the point of use.
   _cardsOf(d) { return d && Array.isArray(d.cards) ? d.cards : null; }
+
+  // ─────────────────────────── ON-DEMAND DECK RESIDENCY (v1.80.4) ───────────────────────────
+  // The deck payload is no longer one 16.4MB file. Boot reads flashcards/_index.json (a
+  // manifest: every deck key -> [chunk file, category, card count]) and each deck's cards
+  // arrive when something needs them. Three rules make that safe:
+  //
+  //   1. A stub is a deck we KNOW about but whose cards are absent. `_cardsOf` is the only
+  //      legal way to read cards (a stub is truthy and sails past `if (d)`).
+  //   2. `n` is authoritative. Card counts, lesson goals, seen-glyphs and — above all —
+  //      deckMastery/gameScore are computed from `n` plus the persisted grades, so a manifest
+  //      boot shows the user the SAME belt as a fully-loaded one. Nothing regresses while
+  //      chunks are in flight.
+  //   3. Hydration FILLS IN PLACE (`d.cards = …` on the very object the manifest created), so
+  //      any surface holding the deck object sees the cards appear. Surfaces that snapshotted
+  //      `_cardsOf(d).slice()` are re-rendered by _onDeckHydrated.
+  _dataBase() { return (typeof window !== "undefined" && window.__NEURAL_DATA_BASE) || ""; }
+  _ingestDeckManifest(j) {
+    const src = (j && j.decks) || {};
+    const decks = {};
+    for (const k in src) {
+      const e = src[k];
+      // Formats, oldest to newest — a stale manifest on a CDN edge must never break a fresh
+      // bundle: {file,cat,role,n} (1) · [file,cat,n] (2) · [cat,n] (3, the address is derived).
+      decks[k] = Array.isArray(e)
+        ? (e.length >= 3 ? { file: e[0], cat: e[1], n: e[2] || 0 } : { cat: e[0], n: e[1] || 0 })
+        : { file: e.file, cat: e.cat, n: e.n || 0 };
+    }
+    this.flashcards = { decks: decks, manifest: true };
+    this._deckWaits = {};
+    this._qkDecks = null;
+    this._bumpStageVer();
+  }
+  /** Is every deck's cards present? (A monolith/test boot has no manifest flag.) */
+  _deckResident(key) { return !!this._cardsOf(((this.flashcards && this.flashcards.decks) || {})[key]); }
+  /** Fetch one deck's chunk. Idempotent, coalesced, and safe to call on a resident deck. */
+  hydrateDeck(key) {
+    const decks = (this.flashcards && this.flashcards.decks) || {};
+    const d = decks[key];
+    if (!d) return Promise.resolve(null);
+    if (this._cardsOf(d)) return Promise.resolve(d);
+    const waits = (this._deckWaits = this._deckWaits || {});
+    if (waits[key]) return waits[key];
+    // the chunk address is DERIVED from the key (fnv1a32 == qhash), so the manifest carries no
+    // filenames at all; `file` is only read when an older manifest supplies one.
+    const file = d.file || this.qhash(key) + ".json";
+    const p = fetch(this._dataBase() + "flashcards/" + file)
+      .then((r) => (r.ok ? r.json() : null))
+      .catch(() => null)
+      .then((j) => {
+        // a chunk is a {deckKey: deck} MAP (collision-safe); older chunks were a bare deck
+        const got = j && (j.cards ? j : j[key]) ;
+        // fill IN PLACE — never `decks[key] = {…}`: open surfaces hold this object
+        d.cards = got && Array.isArray(got.cards) ? got.cards : [];
+        if (got && got.cat) d.cat = got.cat;
+        if (got && got.role) d.role = got.role;
+        this._onDeckHydrated(key);
+        return d;
+      });
+    waits[key] = p;
+    return p;
+  }
+  /** Hydrate several decks; resolves when all have landed (or failed). */
+  hydrateDecks(keys) { return Promise.all((keys || []).map((k) => this.hydrateDeck(k))); }
+  /** A deck the MC pooler wanted but did not have resident. */
+  _mcCold(key) {
+    if (this._mcNeed) { if (this._mcNeed.indexOf(key) < 0) this._mcNeed.push(key); return; }
+    // Outside a warm pass this is a bug, not a condition: some surface rendered an MC block
+    // without warming its pool. Say so — journeys assert this beat never fires.
+    this.fx("mc_pool_cold", { deckKey: key });
+  }
+  /**
+   * Make every deck the MC pooler will touch resident BEFORE it draws, so residency can never
+   * move the RNG stream. Runs the pooler as a dry pass inside an RNG transaction, hydrates
+   * whatever it asked for, and repeats until a pass consults nothing cold. Each pass is rolled
+   * back, so the caller's own mcDistractors() call draws from an untouched stream.
+   *
+   * 98% of cards are satisfied by authored tiers + their own deck (measured over the corpus:
+   * 85.5% authored-only, 12.0% + own deck, 0.5% + neighbours, 2.0% reach the global tier), so
+   * this normally costs one dry pass and one chunk fetch.
+   */
+  _mcWarmKey(key, card) { return key + "|" + this.qhash(card && card.q); }
+  /** Is this card's distractor pool already resident? (Always true on a monolith/test boot.) */
+  mcPoolWarm(key, card) {
+    if (!this.flashcards || !this.flashcards.manifest) return true;
+    return !!(this._mcWarmed && this._mcWarmed[this._mcWarmKey(key, card)]);
+  }
+  async _warmMcPool(card, deckKey, tag) {
+    if (!card || !this.flashcards || !this.flashcards.manifest) return;   // monolith boot: nothing to warm
+    const wk = this._mcWarmKey(deckKey, card);
+    if (this._mcWarmed && this._mcWarmed[wk]) return;
+    await this.hydrateDecks(this.mcPoolKeys(deckKey));
+    for (let pass = 0; pass < 6; pass++) {
+      this._mcNeed = [];
+      this._rngBegin();
+      try { this.mcDistractors(card, deckKey, 3, tag); }
+      catch (e) { /* a dry pass must never break the surface it is warming */ }
+      finally { this._rngRollback(); }
+      const need = this._mcNeed; this._mcNeed = null;
+      if (!need.length) break;
+      await this.hydrateDecks(need);
+    }
+    (this._mcWarmed = this._mcWarmed || {})[wk] = 1;
+  }
+  /** Every deck the MC pooler may consult for `key`: the deck itself + its graph neighbours. */
+  mcPoolKeys(key) {
+    const out = [key];
+    const idx = this.nodeForKey(key);
+    if (idx >= 0 && this.adj && this.adj[idx]) {
+      for (const j of this.adj[idx]) {
+        const n = this.nodes[j];
+        if (n) out.push(this.deckKeyFor(n).key);
+      }
+    }
+    return out;
+  }
+  _onDeckHydrated(key) {
+    this._qkDecks = null;      // the cross-deck credit index is built from cards — rebuild it
+    this._bumpStageVer();      // mastery/crowns/belt read cards now; drop the memo
+    (this._justHydrated = this._justHydrated || new Set()).add(key);
+    // Re-render whatever is open, coalesced: a warm sweep can land a dozen chunks in a frame
+    // and buildDrillPanel + renderDrillHome are not free.
+    if (this._hydrateRefresh) return;
+    this._hydrateRefresh = setTimeout(() => {
+      this._hydrateRefresh = null;
+      const fresh = this._justHydrated || new Set();
+      this._justHydrated = null;
+      // An OPEN study surface holds a snapshot (`_entryForKey` does `.slice()`), so filling
+      // `d.cards` in place is not enough for it — it has to be rebuilt. Only when this exact
+      // deck landed, and never over a live answer (a revealed card or an armed MC block).
+      const e = this.drillEntries && this.drillEntries[this.activeDrill];
+      if (e && fresh.has(e.info.key) && !e.cards && !this.revealed && !this._mc) {
+        // REBUILD THE ENTRY, not just the DOM. `_entryForKey` takes a `.slice()` of the cards,
+        // so the open surface holds a SNAPSHOT taken when the deck was still a stub — filling
+        // `d.cards` in place is invisible to it. Re-rendering without this repaints the same
+        // "being authored" placeholder forever.
+        this.drillEntries[this.activeDrill] = this._entryForKey(e.info.key);
+        this.renderDrill();
+      }
+      this.onFlashcardsReady();
+    }, 0);
+  }
+  // ── deferred Systems payload (324KB, read only by Explore + the system buckets) ──
+  _ensureSystems() {
+    if (this._systemsWait) return this._systemsWait;
+    this._systemsWait = fetch(this._dataBase() + "systems.json")
+      .then((sr) => (sr.ok ? sr.json() : null))
+      .catch(() => null)
+      .then((s) => {
+        if (s && Array.isArray(s.systems) && s.systems.length) { this.systems = s.systems; this._onSystems(); }
+        return this.systems || [];
+      });
+    return this._systemsWait;
+  }
+  // Deliberately NO speculative warm for systems.json. An idle callback fires long before a
+  // hand exists on a cold boot, so "warm it at idle" simply put all 324KB back on the
+  // bytes-to-first-hand bill (measured: it did). The read sites fetch it, and the Explore tab
+  // re-renders when it lands — one click's worth of latency, once.
   openHomeToLatest() {
     // "Study this state" lands in the flashcards home (History tab), focused on the CURRENT state's
     // deck (even if its cards aren't authored yet — the row shows the scaffold). Never falls back
@@ -1304,7 +1485,12 @@ class Component extends DCLogic {
   // deferred-payload hooks: refresh whatever is open when the heavy files land post-boot
   onFlashcardsReady() {
     try {
-      if (this.currentPos != null && this.currentPos >= 0) this.buildDrillPanel(this.currentPos);
+      // NEVER rebuild the roll panel over a live study surface. buildDrillPanel resets
+      // `deck`/`_drillView` (it is the roll-advance entry point), so when this hook fired once
+      // — the monolith landing — that was harmless. Now a deck chunk landing calls it, and
+      // without this guard an arriving chunk wiped the very deck the user had just opened:
+      // the card stayed on screen but `deck` went null, so grading and keyboard nav went dead.
+      if (this.currentPos != null && this.currentPos >= 0 && !this._paneStudyActive()) this.buildDrillPanel(this.currentPos);
       if (this.deckShown && this._viewMode === "history" && this._drillView === "home" && !this._paneStudyActive()) this.renderDrillHome();
       this.refreshOptionOdds(); this.updateDrillTab();
       this._refreshChallengeEvidence();
@@ -1990,7 +2176,7 @@ class Component extends DCLogic {
     // than alphabetically, so the session walks the sequence the way the material teaches it.
     if (bucket.indexOf("system:") === 0) {
       const sys = (this.systems || []).find((x) => x.id === bucket.slice(7)); // this.systems IS the array
-      if (!sys) return [];
+      if (!sys) { this._ensureSystems(); return []; }   // deferred payload — fetch and try again
       const seen = new Set();
       const out = [];
       const ordered = (Array.isArray(sys.glue) && sys.glue.length)
@@ -2074,6 +2260,13 @@ class Component extends DCLogic {
     this._posKey = key; this.activeDrill = 0; this.deckIdx = 0; this.revealed = false;
     this.renderDrill(); this.deckReady = true; this.deckOpen = true; this.applyDeckVisibility();
   }
+  /** Re-take the open study surface's card snapshot once `key`'s chunk has landed. */
+  _restudy(key) {
+    const e = this.drillEntries && this.drillEntries[this.activeDrill];
+    if (!e || e.info.key !== key || e.cards || this.revealed) return;
+    this.drillEntries[this.activeDrill] = this._entryForKey(key);
+    this.renderDrill();
+  }
   _entryForKey(key) {
     const decks = (this.flashcards && this.flashcards.decks) || {};
     const fam = key.split("|")[0], role = key.split("|")[1] || "Top";
@@ -2105,6 +2298,7 @@ class Component extends DCLogic {
   }
   openSession(bucket, label) {
     const keys = this.bucketTechniques(bucket);
+    this.hydrateDecks(keys);   // a session is a queue of decks the user has already committed to
     this._session = { keys: keys, label: label, idx: 0 };
     this._sessionNodes = keys.map((k) => this.nodeForKey(k)).filter((i) => i >= 0);
     this.closeModal();
@@ -2144,6 +2338,11 @@ class Component extends DCLogic {
     list.appendChild(play);
   }
   studyFromSession(key) {
+    // A study surface IS its cards, so if they are not here yet, fetch and rebuild when they
+    // land. This cannot be left to _onDeckHydrated: when the deck is ALREADY in flight (the
+    // warm sweep started it), its hydration event fires before this entry exists, so nothing
+    // would ever refresh the snapshot and the surface would sit on "being authored" for good.
+    if (!this._deckResident(key)) this.hydrateDeck(key).then(() => this._restudy(key));
     this.drillEntries = [this._entryForKey(key)];
     this._posKey = key; this.activeDrill = 0; this.deckIdx = 0; this.revealed = false;
     this._inSession = true;
@@ -2698,7 +2897,12 @@ class Component extends DCLogic {
     if (gi) gi.style.display = this._viewMode === "history" ? "none" : "flex";
     if (this.renderKnowledgeHeader) this.renderKnowledgeHeader();
   }
-  _deckGoal(key) { const d = this.flashcards && this.flashcards.decks ? this.flashcards.decks[key] : null; return Math.min(3, (d && d.cards && d.cards.length) || 3); }
+  // A deck's lesson goal is min(3, its card count) — and the manifest's `n` is that count even
+  // before the cards land, so a 1-card deck never asks for 3 answers just because it is still
+  // in flight (which is what made lessonDone, and every crown downstream of it, flicker).
+  _deckGoal(key) { const d = this.flashcards && this.flashcards.decks ? this.flashcards.decks[key] : null; return Math.min(3, this._deckCardCount(d) || 3); }
+  /** How many cards this deck HAS — from the cards if resident, else the manifest count. */
+  _deckCardCount(d) { const c = this._cardsOf(d); return c ? c.length : ((d && d.n) || 0); }
   lessonDone(key) { return ((this.prep && this.prep[key]) || 0) >= this._deckGoal(key); }
   _lessonLive(l) { const fr = l.frames || ["gi", "nogi"]; return fr.indexOf(this._giMode === "nogi" ? "nogi" : "gi") >= 0; }
   unitComplete(beltId, unit) {
@@ -2756,10 +2960,33 @@ class Component extends DCLogic {
   get BELT_SCORE() { return [["white", 0.2], ["blue", 0.4], ["purple", 0.6], ["brown", 0.7], ["black", 0.8]]; }
   deckMastery(key) {
     const d = (this.flashcards && this.flashcards.decks) ? this.flashcards.decks[key] : null;
-    if (!d || !d.cards || !d.cards.length) return 0;
-    let s = 0;
-    for (const c of d.cards) s += Math.min(3, this.cardStage(key, c.q)) / 3;
-    return s / d.cards.length;
+    if (!d) return 0;
+    const cards = this._cardsOf(d);
+    if (cards && cards.length) {
+      let s = 0;
+      for (const c of cards) s += Math.min(3, this.cardStage(key, c.q)) / 3;
+      return s / cards.length;
+    }
+    // UNHYDRATED, but not unknown. Every grade the user has ever made is persisted per
+    // (deck, question-hash) in this.stage, and the manifest carries the deck's card count, so:
+    //
+    //     mastery = Σ min(stage,3)/3  over the graded cards      ÷  n
+    //
+    // which is the SAME arithmetic as the hydrated branch — an ungraded card contributes 0 to
+    // the mean either way. The cards are only needed to enumerate the zeroes.
+    //
+    // This is the difference between a correct belt and a lie. Without it, a manifest boot
+    // reads every deck at 0 mastery, gameScore sums to ~0, the user is told they are a white
+    // belt again — and because the score is memoised on _stageVer (bumped only by a card
+    // grade), that lie STICKS until they answer a card. Crowns and "mastered decks" hang off
+    // the same number, so Challenge evidence would appear to regress too.
+    const n = d.n || 0;
+    if (!n) return 0;
+    const s = this.stage && this.stage[key];
+    if (!s) return 0;
+    let sum = 0;
+    for (const qh in s) sum += Math.min(3, s[qh]) / 3;
+    return Math.min(1, sum / n);   // clamp: a stale grade for a retired card must not exceed 1
   }
   gameScore() {
     const ver = this._stageVer || 0;
@@ -3009,7 +3236,9 @@ class Component extends DCLogic {
     // (no hand-picked shortlist) — a row lights its members on the graph and opens its page.
     const renderSystems = () => {
       const all = this.systems || [];
-      if (!all.length) return;   // payload absent (404) -> no section, everything else unchanged
+      // Systems are a DEFERRED payload (v1.80.4): 324KB nothing on the roll path reads. Ask for
+      // it here, at the first read; _onSystems re-renders Explore when it lands.
+      if (!all.length) { this._ensureSystems(); return; }   // absent (or 404) -> no section yet
       const open = this._exp.g.has("Systems");
       list.appendChild(mk('<span style="font-size:14px;font-weight:700;color:#dbe2f0;">Systems</span><span style="font-size:11px;color:#7e8aa3;">(' + all.length + ')</span><span style="margin-left:auto;color:#5d6883;font-size:11px;">' + (open ? "\u25be" : "\u25b8") + '</span>', 12, () => { if (open) this._exp.g.delete("Systems"); else this._exp.g.add("Systems"); this.renderExplorer(); }));
       if (!open) return;
@@ -3218,12 +3447,11 @@ class Component extends DCLogic {
   isMobile() { return (this.W || window.innerWidth) <= 640; }
   famDossierNode(nodes) {
     // prefer the side the authored deck is written for (e.g. Closed Guard|Bottom -> the Bottom node)
-    const C = (window.NG_CONTENT && window.NG_CONTENT.decks) || {};
     const real = nodes.map((w) => this.nodes[w.idx]).filter(Boolean);
     if (!real.length) return nodes[0].idx;
     const fam = this.posFamily(real[0].t);
     for (const side of ["Bottom", "Top"]) {
-      if (C[fam + "|" + side]) {
+      if (this._ngc(fam + "|" + side)) {
         const m = real.find((n) => this.roleLabelOf(n) === side.toLowerCase());
         if (m) return m.idx;
       }
@@ -3352,13 +3580,13 @@ class Component extends DCLogic {
     const mob = !nodeMode && this.isMobile();
     const dos = targetEl || (mob ? this.dossierSheetRef.current : this.dossierRef.current); if (!dos) return;
     const sp = this.splitName(n.t), cat = this.deckCat(n), col = this.hex(n.col);
-    const C = (window.NG_CONTENT && window.NG_CONTENT.decks) || {};
     const rc = this.richContentFor(n);
     // authored decks are keyed "Name|Role" — fall back across role variants so content always surfaces
     const fam = n.ty === "positions" ? this.posFamily(n.t) : sp.main;
     let legacy = null, legacyKey = "";
     for (const k of [this.deckKeyFor(n).key, fam + "|Bottom", fam + "|Top", fam + "|Attacker", fam + "|Defender", fam, sp.main]) {
-      if (C[k]) { legacy = C[k]; legacyKey = k; break; }
+      const cand = this._ngc(k);
+      if (cand) { legacy = cand; legacyKey = k; break; }
     }
     const persp = rc ? rc.perspectives.attacker : null;
     const isCur = n.idx === this.currentPos;
@@ -3732,10 +3960,16 @@ class Component extends DCLogic {
     const qh = this.qhash(q);
     const s = (this.stage[key] = this.stage[key] || {});
     s[qh] = Math.max(0, Math.min(cap == null ? 4 : cap, (s[qh] || 0) + d));
-    this._stageVer = (this._stageVer || 0) + 1; // invalidates the gameScore memo
+    this._bumpStageVer();
     this._saveProgress();
-    if (this.renderKnowledgeHeader) this.renderKnowledgeHeader();
     return s[qh];
+  }
+  // The ONE seam that invalidates the gameScore memo. It is not only card grades that move the
+  // score: a deck landing can change what deckMastery can see, and gameScore memoises on
+  // _stageVer, so hydration MUST come through here or a stale score sticks for the session.
+  _bumpStageVer() {
+    this._stageVer = (this._stageVer || 0) + 1;
+    if (this.renderKnowledgeHeader) this.renderKnowledgeHeader();
   }
   // first sentence, ≤160 chars — applied to the CORRECT answer too (no length tell).
   // null = this text cannot be an MC option (the card falls back to classic recall).
@@ -3777,7 +4011,22 @@ class Component extends DCLogic {
       (d.t || []).forEach((x) => tryAdd(x, "trap", false));
     }
     const decks = (this.flashcards && this.flashcards.decks) || {};
-    const deckCards = this._cardsOf(decks[deckKey]);
+    // RESIDENCY DISCIPLINE (v1.80.4). Every deck this pooler consults must already be resident,
+    // because whether a deck's cards happen to have arrived decides whether a draw contributes
+    // a distractor — and therefore how many further draws the loops make. If residency could
+    // shift the draw count, the RNG stream would depend on network timing: rigged journeys
+    // would replay differently run to run, and the shuffle below would deal different options
+    // for the same card. `_mcCold` records every deck we wanted but did not have, so
+    // _warmMcPool() can fetch them and re-run from the SAME stream position (it rolls the draws
+    // back), and so a cold consult is loud instead of silent (beat: mc_pool_cold).
+    const consult = (k) => {
+      const d = decks[k];
+      const c = this._cardsOf(d);
+      if (c) return c;
+      if (d) this._mcCold(k);
+      return null;
+    };
+    const deckCards = consult(deckKey);
     if (deckCards) {
       const order = deckCards.filter((c) => c.q !== card.q);
       while (picked.length < n && order.length) tryAdd(order.splice((this.rng(tPick) * order.length) | 0, 1)[0].a, "pool", true);
@@ -3787,17 +4036,19 @@ class Component extends DCLogic {
       if (idx >= 0 && this.adj && this.adj[idx]) {
         for (const k of this.adj[idx]) {
           if (picked.length >= n) break;
-          const nc = this._cardsOf(decks[this.deckKeyFor(this.nodes[k]).key]);
+          const nc = consult(this.deckKeyFor(this.nodes[k]).key);
           if (nc && nc.length) tryAdd(nc[(this.rng(tPick) * nc.length) | 0].a, "pool", true);
         }
       }
     }
     if (picked.length < n) {                                  // same-category anywhere (bounded)
+      // `keys` is the MANIFEST key list, identical whether or not any deck is resident — so the
+      // key draw itself never moves. Only the card draw can, and consult() makes that loud.
       const keys = Object.keys(decks);
       let guard = 0;
       while (picked.length < n && guard++ < 60) {
         const k = keys[(this.rng(tPick) * keys.length) | 0];
-        const dc = this._cardsOf(decks[k]);
+        const dc = consult(k);
         if (dc && dc.length && k !== deckKey) tryAdd(dc[(this.rng(tPick) * dc.length) | 0].a, "pool", true);
       }
     }
@@ -3944,6 +4195,12 @@ class Component extends DCLogic {
     const uk = beltId + "/" + unit.id;
     const live = unit.lessons.filter((l) => this._lessonLive(l));
     if (!live.every((l) => this.lessonDone(l.deckKey))) { this.setEvent("Checkpoint evidence needed", "Finish this unit's lessons first", "bad"); return; }
+    // The quiz pool IS this unit's cards, so they must be resident before we draw. Without this
+    // a manifest boot reported "No quizzable cards in this unit" for a unit the user had just
+    // finished. Nothing has been drawn yet, so re-entering consumes no RNG (checkpoint-pick
+    // rigging is untouched) and the evidence check above already passed on manifest counts.
+    const cold = live.map((l) => l.deckKey).filter((k) => !this._deckResident(k));
+    if (cold.length) { this.hydrateDecks(cold).then(() => this.startCheckpoint(beltId, unit)); return; }
     const decks = (this.flashcards && this.flashcards.decks) || {};
     const pool = [];
     for (const l of live) {
@@ -4025,7 +4282,9 @@ class Component extends DCLogic {
       ph.innerHTML =
         '<div style="margin-bottom:12px;">' + chipLabel + '</div>' +
         '<div style="font-size:13.5px;font-weight:600;color:#cdd5e6;line-height:1.45;margin-bottom:8px;">Flashcards for this ' + info.cat.toLowerCase() + ' are being authored.</div>' +
-        (function (D) { const nd = Object.keys(D).length; let nc = 0; for (const k in D) nc += (D[k].cards ? D[k].cards.length : 0); return '<div style="font-size:11.5px;color:#8b97b0;line-height:1.5;">Cards are baked per role from the BJJ Graph guide — <b style="color:#a9b6cf;">' + nd.toLocaleString() + ' decks</b> · <b style="color:#a9b6cf;">' + nc.toLocaleString() + ' cards</b> and counting.</div>'; })((this.flashcards && this.flashcards.decks) || {});
+        // card total reads the manifest count for decks whose cards have not landed — the line
+        // is a claim about the corpus, not about this session's downloads.
+        ((D) => { const nd = Object.keys(D).length; let nc = 0; for (const k in D) nc += this._deckCardCount(D[k]); return '<div style="font-size:11.5px;color:#8b97b0;line-height:1.5;">Cards are baked per role from the BJJ Graph guide — <b style="color:#a9b6cf;">' + nd.toLocaleString() + ' decks</b> · <b style="color:#a9b6cf;">' + nc.toLocaleString() + ' cards</b> and counting.</div>'; })((this.flashcards && this.flashcards.decks) || {});
       list.appendChild(ph);
       return;
     }
@@ -4106,7 +4365,17 @@ class Component extends DCLogic {
 
     // MC stage: fresh cards answer as seeded multiple-choice, graduating to recall at stage 2
     this._mc = null;
-    if (!this.revealed && this.flashcards && this.mcActive(info.key, card)) {
+    if (!this.revealed && this.flashcards && this.mcActive(info.key, card) && !this.mcPoolWarm(info.key, card)) {
+      // The distractor pool is not resident yet (manifest boot). Fetch it and re-render this
+      // same card, rather than dealing options from whatever happens to have arrived — that
+      // would make the option set a function of network timing. Falling back to classic reveal
+      // instead is not an option either: it would hand the answer to a card meant to be tested.
+      const want = { key: info.key, q: card.q, idx: this.deckIdx };
+      this._warmMcPool(card, info.key, null).then(() => {
+        const e = this.drillEntries && this.drillEntries[this.activeDrill];
+        if (e && e.info.key === want.key && this.deckIdx === want.idx && !this.revealed) this.renderDrill();
+      });
+    } else if (!this.revealed && this.flashcards && this.mcActive(info.key, card)) {
       const onDone = this._checkpoint
         ? (ok) => this._checkpointAnswer(ok)
         : () => {
@@ -4418,25 +4687,69 @@ class Component extends DCLogic {
   // the one card this state still owes you: its first unproven (stage < 2) card. A proven deck
   // asks nothing, and the card degrades to identity + film.
   questionFor(key) {
-    const d = (this.flashcards && this.flashcards.decks) ? this.flashcards.decks[key] : null;
-    if (!d || !d.cards || !d.cards.length) return null;
-    for (const c of d.cards) if (this.cardStage(key, c.q) < 2) return c;
+    const cards = this._cardsOf(((this.flashcards && this.flashcards.decks) || {})[key]);
+    if (!cards || !cards.length) return null;
+    for (const c of cards) if (this.cardStage(key, c.q) < 2) return c;
     return null;
   }
   // ○ new to you · ◐ met some · ● recall-proven — the "have you done this" marker
   seenGlyph(key) {
     const d = (this.flashcards && this.flashcards.decks) ? this.flashcards.decks[key] : null;
-    const cards = (d && d.cards) || [];
-    if (!cards.length) return ["○", "#7e8aa3", "no cards authored yet"];
+    const cards = this._cardsOf(d);
+    const total = this._deckCardCount(d);
+    // total comes from the manifest when the cards are still in flight, so an unhydrated deck
+    // reports "new to you" (or the user's real progress) instead of the flatly wrong "no cards
+    // authored yet" — the glyph told returning users their decks did not exist.
+    if (!total) return ["○", "#7e8aa3", "no cards authored yet"];
     let proven = 0, met = 0;
-    for (const c of cards) { const s = this.cardStage(key, c.q); if (s >= 3) proven++; if (s >= 1) met++; }
-    if (proven >= cards.length) return ["●", "#7ee0a8", "recall-proven"];
-    if (met) return ["◐", "#cbd24e", met + " of " + cards.length + " met"];
+    if (cards && cards.length) {
+      for (const c of cards) { const s = this.cardStage(key, c.q); if (s >= 3) proven++; if (s >= 1) met++; }
+    } else {
+      const st = (this.stage && this.stage[key]) || {};
+      for (const qh in st) { if (st[qh] >= 3) proven++; if (st[qh] >= 1) met++; }
+      proven = Math.min(proven, total); met = Math.min(met, total);
+    }
+    if (proven >= total) return ["●", "#7ee0a8", "recall-proven"];
+    if (met) return ["◐", "#cbd24e", met + " of " + total + " met"];
     return ["○", "#7e8aa3", "new to you"];
   }
   ngContentFor(node) {
+    return this._ngc(node.ty === "positions" ? this.deckKeyFor(node).key : node.t);
+  }
+  // ───────────────────── ON-DEMAND NODE DOSSIERS (v1.80.4) ─────────────────────
+  // window.NG_CONTENT used to arrive as a 21.2MB <script> (5.5MB gzip) holding the dossier for
+  // every node in the graph — the single heaviest thing the site shipped, for content that is
+  // only ever read one node at a time. It is now one ~6KB chunk per node, fetched when a
+  // surface asks, and window.NG_CONTENT stays as the in-memory cache so every existing reader
+  // is unchanged. Chunks are addressed by fnv1a32(key) (the same hash as qhash) and hold a
+  // {key: dossier} MAP, so a hash collision merely shares a file instead of losing a dossier.
+  //
+  // Every reader already tolerates null (the payload used to land after first paint, hence
+  // onContentReady), so a miss is a graceful degradation and not a hole.
+  _ngc(key) {
+    if (!key) return null;
     const C = (window.NG_CONTENT && window.NG_CONTENT.decks) || {};
-    return (node.ty === "positions" ? C[this.deckKeyFor(node).key] : C[node.t]) || null;
+    if (Object.prototype.hasOwnProperty.call(C, key)) return C[key] || null;
+    this._hydrateContent(key);
+    return null;
+  }
+  _hydrateContent(key) {
+    const waits = (this._contentWaits = this._contentWaits || {});
+    if (waits[key]) return waits[key];
+    const p = fetch(this._dataBase() + "content/" + this.qhash(key) + ".json")
+      .then((r) => (r.ok ? r.json() : null))
+      .catch(() => null)
+      .then((j) => {
+        const C = (window.NG_CONTENT = window.NG_CONTENT || {});
+        C.decks = C.decks || {};
+        if (j && typeof j === "object") for (const k in j) C.decks[k] = j[k];
+        // negative cache: a node with no authored dossier must not refetch on every hover
+        if (!Object.prototype.hasOwnProperty.call(C.decks, key)) C.decks[key] = null;
+        this.onContentReady();
+        return C.decks[key];
+      });
+    waits[key] = p;
+    return p;
   }
   clearLandCard() {
     this._landQ = null;
@@ -4449,7 +4762,25 @@ class Component extends DCLogic {
     if (this._coach) return null;                      // the guided coach owns the first landing
     const key = this.deckKeyFor(node).key;
     // the setting gates the QUESTION, not the card: identity and film are priority either way
-    const card = this.get("landQuestions", true) ? this.questionFor(key) : null;
+    const wantQ = this.get("landQuestions", true);
+    let card = wantQ ? this.questionFor(key) : null;
+    // ── deck residency (v1.80.4) ──────────────────────────────────────────────────────────
+    // On a manifest boot this state's cards may not be here yet. The card renders NOW either
+    // way (identity + film are the priority order, and the hand below it must not wait on a
+    // fetch), and `warm` re-renders it once the question can be asked honestly:
+    //   · cards absent            -> hydrate this deck
+    //   · cards here, MC in play  -> warm the distractor pool first, so the options are not a
+    //                                function of which neighbour chunks happened to arrive
+    let warm = null;
+    if (wantQ && !card && !this._deckResident(key)) warm = () => this.hydrateDeck(key);
+    // NB: no mcActive() check — the LANDING question is multiple choice by design, whatever
+    // mcMode says (that setting governs the sidebar). Gating the warm on mcActive left the
+    // in-play question, the one surface that is always MC, drawing from a cold pool.
+    else if (card && !this.mcPoolWarm(key, card)) {
+      const c0 = card;
+      warm = () => this._warmMcPool(c0, key, "land");
+      card = null;                                     // ask nothing until the pool is resident
+    }
     const info = this.ngContentFor(node);
     const sp = this.splitName(node.t);
     const glyph = this.seenGlyph(key);
@@ -4467,7 +4798,7 @@ class Component extends DCLogic {
     // top-right familiarity chip: the seen-glyph fused with the deck's recall-proven count
     // (● 3/8). Clicking it opens this state's flashcards (a user click — pane-law-legal).
     const deckD = (this.flashcards && this.flashcards.decks) ? this.flashcards.decks[key] : null;
-    const totalCards = deckD && deckD.cards ? deckD.cards.length : 0;
+    const totalCards = this._deckCardCount(deckD);   // manifest `n` until the chunk lands
     const doneCards = Math.min((this.prep && this.prep[key]) || 0, totalCards);
     const chipFull = totalCards > 0 && doneCards >= totalCards;
     const head = document.createElement("div");
@@ -4539,6 +4870,10 @@ class Component extends DCLogic {
     more.addEventListener("click", () => this.openDossier(node.idx));
     foot.appendChild(more);
     el.appendChild(foot);
+    // deck/pool still landing: come back once, for THIS card only (`_landEl === el` proves the
+    // player has not moved on), and never loop — after the warm, questionFor either has a card
+    // or the deck genuinely has none.
+    if (warm) warm().then(() => { if (this._landEl === el) this.renderLandCard(node, mode, hooks); }).catch(() => {});
     return el;
   }
   _landAnswered(correct, tier, mode, hooks) {
@@ -5225,6 +5560,18 @@ class Component extends DCLogic {
     if (!opts.length) { this.after(1.0, () => this.startRoll()); return; }
     this.optionIdxs = opts.map((o) => o.idx);
     this.fx("options_dealt", { count: opts.length });
+    // WARM THE NEIGHBOURHOOD (v1.80.4) — one macrotask LATER, so it cannot compete with drawing
+    // the hand. These are the decks the player is about to need: this state's own, and one per
+    // option card (the JIT drill behind each option, and the landing question wherever they go
+    // next), ~6KB each. Deferring by a tick is not cosmetic: fired inline, these fetches were on
+    // the bytes-to-first-hand bill and delayed the very cards they exist to support.
+    setTimeout(() => {
+      this.hydrateDecks(
+        [this.deckKeyFor(this.nodes[this.currentPos]).key].concat(
+          opts.map((o) => (o.node ? this.deckKeyFor(o.node).key : null)).filter(Boolean),
+        ),
+      );
+    }, 0);
     this.startLandRipple(this.currentPos, this.optionIdxs);
     // base reading time (seconds, user-set) plus a little for more options to weigh
     const base = this.get("decisionSec", 9);
