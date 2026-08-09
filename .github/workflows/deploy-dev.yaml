@@ -92,6 +92,16 @@ jobs:
       - name: Build Forward development libraries
         run: npm run build:forward
 
+      # PAYLOAD RATCHET (gate) — PARITY with prod, and the earlier of the two places it runs,
+      # so a byte regression is caught on the preview rather than on bjjgraph.org. Compares the
+      # built site against the ceilings in tests/artifacts/budget_site.json (shared bundles,
+      # nine page archetypes, aggregate emitted HTML bytes) and fails when the payload grows.
+      # Must run AFTER `Copy raw HTML folder` + `Build Forward development libraries`: those
+      # write into source/public and the committed ceilings were seeded from a tree containing
+      # them. Raising a ceiling requires `--update` in a deliberate, justified commit.
+      - name: Payload budget (gate)
+        run: npm run validate:payload
+
       # PARITY with prod: the preview is publicly reachable, so its product links must
       # be attributable too. The affiliate ref is a deployment parameter, not content —
       # content/Systems/*.json ships `?ref=REPLACE_ME` so a fork or a local build needs

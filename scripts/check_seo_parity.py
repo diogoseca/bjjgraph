@@ -41,8 +41,22 @@ SAMPLE = [
     "Transitions/Armbar-from-Back-Transition/Attacker.html",
     "Submissions/Rear-Naked-Choke.html",
     "Systems.html",
+    # CAVEAT (documented v1.80.2): this is the 380-byte ALIAS stub emitted by
+    # plugins/emitters/aliases.ts, NOT the terminal-state page. The real page is
+    # `Game-Over.html` (~26KB, from content/Game Over.md) and it is NOT in this sample — which
+    # is why nothing here noticed that it emitted a ZERO-character <article> after v1.80.0
+    # deleted the VictoryDisplay it existed to host. It is `noindex` now (frontmatter). Adding
+    # it to this sample would not help: `content_floor` derives from `content_len`, so a
+    # zero-length article ratchets against zero. Do not assume this route covers /Game-Over.
     "game-over.html",
 ]
+
+# Scope note, since two findings have now hidden in it: `_extract()` narrows to the <article>
+# when there is one, so ANYTHING outside it is invisible to this gate — including
+# `#sidebar-overlay` (CategoryNav's six category links) and every other `body >` sibling of
+# `#quartz-root`. The homepage's baseline links come from authored prose in content/index.md,
+# not from CategoryNav. Layout is likewise out of scope; e2e/journeys/static-article-layout.spec.ts
+# measures that.
 
 META_TAGS = ("description",)
 PROP_PREFIXES = ("og:", "twitter:", "article:")

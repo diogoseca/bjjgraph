@@ -9,8 +9,18 @@ the single largest lever on a real-user LCP P75 of ~13.7s.
 Deleting weight once is easy; keeping it deleted is the hard part. This gate is a
 RATCHET on emitted bytes: it measures the built site against ceilings committed in
 tests/artifacts/budget_site.json and fails when the payload grows past them. It is
-deliberately stdlib-only and takes no arguments beyond --update, so it can run in CI
-right after `npm run build` next to check_seo_parity.py.
+deliberately stdlib-only and takes no arguments beyond --update.
+
+WHERE IT RUNS (wired in v1.80.2 — it shipped in v1.80.0 with no caller at all, and an
+unwired ratchet is not a ratchet):
+  - `npm run validate:payload`             — the direct entry point.
+  - `npm run build`                        — chained on the end, so every local build gates.
+  - .github/workflows/deploy.yaml          — step "Payload budget (gate)".
+  - .github/workflows/deploy-dev.yaml      — step "Payload budget (gate)".
+The workflows do NOT invoke root `npm run build` (they re-list the build steps inline), so
+the step is placed there explicitly — AFTER "Copy raw HTML folder" and "Build Forward
+development libraries", both of which write into source/public. Measuring before them would
+compare a smaller tree than we actually ship.
 
 What it measures:
   - postscript.js / prescript.js / index.css — the shared bundles every page loads.
