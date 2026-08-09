@@ -17,6 +17,12 @@
     "Omo Plata",
     "Coil Lock"
   ],
+  "disambiguations": [
+    {
+      "name": "Monoplata",
+      "reason": "The Monoplata isolates the arm with a single leg in a figure-four and finishes where a defended Omoplata leaves the arm, whereas the Omoplata swings both legs over the back to lever the shoulder"
+    }
+  ],
   "is_family": true,
   "submission_category": "Joint Lock",
   "submission_type": "Shoulder Lock",

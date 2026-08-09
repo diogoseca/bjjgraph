@@ -123,6 +123,9 @@ description: "Master the Tarikoplata shoulder lock in BJJ. Advanced guard submis
 > [!danger] Safety
 > Tarikoplata targets the Shoulder joint and rotator cuff. Primary risk: Rotator cuff tear (supraspinatus, infraspinatus, teres minor). Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
+<aside class="entity-relations">
+<p class="often-confused-with"><em>Often confused with</em> <strong>[[Submissions/Monoplata|Monoplata]]</strong> — The Monoplata isolates the arm with a leg figure-four alone, whereas the Tarikoplata adds a wrist-control lever to omoplata mechanics</p>
+</aside>
 <section id="overview" class="content-section">
 
 Named after its innovator Tarik Hopstock, who showcased it across modern no-gi competition, the Tarikoplata evolved from the traditional omoplata by adding a second lever through wrist manipulation. The submission works by trapping the opponent's arm in an omoplata configuration while simultaneously controlling and twisting their wrist, creating a compound lock that attacks both the shoulder joint and rotator cuff. This technique is particularly effective when the opponent attempts to defend the traditional omoplata by posturing or rolling, as the added wrist control prevents these common escape routes. The Tarikoplata has gained significant traction in modern no-gi grappling and is a staple of innovative guard systems, particularly within the 10th Planet Jiu-Jitsu methodology. The submission requires excellent hip mobility, precise timing, and thorough understanding of omoplata mechanics before attempting the wrist control variation.

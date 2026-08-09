@@ -134,9 +134,18 @@ description: "Master the Monoplata submission in BJJ. Complete guide covering se
 > [!danger] Safety
 > Monoplata targets the Shoulder joint and rotator cuff. Primary risk: Shoulder dislocation or subluxation. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
+<aside class="entity-relations">
+<p class="often-confused-with"><em>Often confused with</em> <strong>[[Submissions/Omoplata|Omoplata]]</strong> — The Omoplata swings both legs over the opponent&#39;s back to lever the shoulder, while the Monoplata isolates the arm with a single leg in a figure-four and finishes where a defended Omoplata leaves the arm</p>
+<p class="often-confused-with"><em>Often confused with</em> <strong>[[Submissions/Baratoplata|Baratoplata]]</strong> — The Baratoplata weaves the attacker&#39;s arm through the trapped arm to lever the shoulder, whereas the Monoplata isolates the same arm with a single-leg figure-four</p>
+<p class="often-confused-with"><em>Often confused with</em> <strong>[[Submissions/Tarikoplata|Tarikoplata]]</strong> — The Tarikoplata adds a wrist-control lever to omoplata mechanics, whereas the Monoplata isolates the arm with a leg figure-four alone</p>
+</aside>
 <section id="overview" class="content-section">
 
-The Monoplata is an advanced shoulder lock submission that combines elements of the omoplata with unique figure-four leg control. Executed primarily from guard positions, particularly the rubber guard and mission control, this technique applies rotational pressure to the shoulder joint through a distinctive leg configuration that traps the opponent's arm while controlling their posture. The monoplata represents a sophisticated evolution of traditional shoulder attacks, offering practitioners a powerful finishing option when conventional submissions are defended. Unlike the traditional omoplata which uses both legs to isolate the arm, the monoplata employs a figure-four leg entanglement that creates exceptional control while maintaining offensive options. This submission has gained prominence in modern no-gi grappling due to its effectiveness against defensive posturing and its integration within systematic guard attack sequences.
+Where the omoplata swings both legs over the opponent's back to lever the shoulder, the monoplata isolates the arm with a single leg drawn across it in a figure-four, tilting the shoulder into a rotational lock. It is best understood as the finish waiting on the other side of a defended omoplata: when the opponent flattens their posture or hides the trapped arm to kill the omoplata, that same defensive shape often feeds the monoplata's figure-four. The technique is executed primarily from guard and rose to prominence in no-gi and rubber-guard play, where deep shoulder-lock chains are relied on heavily.
+
+The defining feature is the figure-four leg entanglement around the isolated arm, which pins the elbow and forearm while the hips rotate the shoulder past its range. Because only one leg is committed to the arm, the attacker keeps the other leg free to manage the opponent's posture, block escapes, or bail out to a sweep, giving the monoplata more control options than a standard omoplata. Angle is everything: the attacker must scoot to roughly perpendicular to the trapped arm so the rotation loads the shoulder capsule rather than merely hyperextending the elbow.
+
+In practice the monoplata lives inside a web of guard attacks rather than standing alone. It chains cleanly with the triangle, omoplata, and armbar — a defended triangle often leaves the arm perfectly placed for the figure-four — and sits comfortably inside the rubber-guard and mission-control systems. Learners frequently mislabel it, since the omoplata, baratoplata, and tarikoplata all share the '-plata' shoulder-lock lineage but differ in which limb isolates the arm and how the shoulder is turned.
 
 </section>
 

@@ -11,6 +11,12 @@
     "10th-planet",
     "omoplata-variation"
   ],
+  "disambiguations": [
+    {
+      "name": "Monoplata",
+      "reason": "The Monoplata isolates the arm with a leg figure-four alone, whereas the Tarikoplata adds a wrist-control lever to omoplata mechanics"
+    }
+  ],
   "is_family": true,
   "submission_category": "Joint Lock",
   "submission_type": "Shoulder Lock",

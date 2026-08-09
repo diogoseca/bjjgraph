@@ -123,6 +123,10 @@ description: "Master the Baratoplata shoulder lock in BJJ. Advanced submission f
 > [!danger] Safety
 > Baratoplata targets the Shoulder joint and rotator cuff. Primary risk: Rotator cuff tear or strain. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
+<aside class="entity-relations">
+<p class="often-confused-with"><em>Often confused with</em> <strong>[[Submissions/Monoplata|Monoplata]]</strong> — The Monoplata isolates the arm with a single-leg figure-four, whereas the Baratoplata weaves the attacker&#39;s arm through the trapped arm to lever the shoulder</p>
+<p class="often-confused-with"><em>Often confused with</em> <strong>[[Transitions/Gogoplata|Gogoplata]]</strong> — The Gogoplata presses the shin across the throat to choke, whereas the Baratoplata uses the shin to lock the shoulder joint — both come from rubber guard</p>
+</aside>
 <section id="overview" class="content-section">
 
 The Baratoplata is an advanced shoulder lock submission that originated from the 10th Planet Jiu-Jitsu system, combining elements of the omoplata with unique arm isolation mechanics. This technique is typically initiated from rubber guard positions, particularly Mission Control or New York, and represents a sophisticated understanding of shoulder manipulation and control. The submission works by trapping the opponent's arm while rotating their shoulder beyond its natural range of motion, creating intense pressure on the rotator cuff and shoulder capsule. Unlike traditional omoplatas that focus primarily on forward shoulder rotation, the Baratoplata incorporates a unique arm weave that increases the mechanical advantage and makes escape more difficult.

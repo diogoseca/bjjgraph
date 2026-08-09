@@ -11,6 +11,12 @@
     "10th-planet",
     "lockdown"
   ],
+  "disambiguations": [
+    {
+      "name": "Electric Chair",
+      "reason": "The Electric Chair hyperabducts one lockdown-trapped leg to attack a single hip and groin, whereas the Banana Split pries both legs apart to over-stretch both adductors at once"
+    }
+  ],
   "is_family": true,
   "submission_category": "Compression",
   "submission_type": "Groin Stretch",

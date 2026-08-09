@@ -137,6 +137,7 @@ description: "Master the Omoplata shoulder lock in BJJ. Complete guide covering 
 
 <aside class="entity-relations">
 <p class="also-known-as"><em>Also known as:</em> <strong>Omo Plata</strong>, <strong>Coil Lock</strong></p>
+<p class="often-confused-with"><em>Often confused with</em> <strong>[[Submissions/Monoplata|Monoplata]]</strong> — The Monoplata isolates the arm with a single leg in a figure-four and finishes where a defended Omoplata leaves the arm, whereas the Omoplata swings both legs over the back to lever the shoulder</p>
 </aside>
 <section id="overview" class="content-section">
 

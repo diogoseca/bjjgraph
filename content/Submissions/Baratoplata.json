@@ -11,6 +11,16 @@
     "joint-lock",
     "finishing-guide"
   ],
+  "disambiguations": [
+    {
+      "name": "Monoplata",
+      "reason": "The Monoplata isolates the arm with a single-leg figure-four, whereas the Baratoplata weaves the attacker's arm through the trapped arm to lever the shoulder"
+    },
+    {
+      "name": "Gogoplata",
+      "reason": "The Gogoplata presses the shin across the throat to choke, whereas the Baratoplata uses the shin to lock the shoulder joint — both come from rubber guard"
+    }
+  ],
   "is_family": true,
   "submission_category": "Joint Lock",
   "submission_type": "Shoulder Lock",

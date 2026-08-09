@@ -10,6 +10,24 @@
     "rubber-guard",
     "advanced-technique"
   ],
+  "disambiguations": [
+    {
+      "name": "Omoplata",
+      "reason": "The Omoplata swings both legs over the opponent's back to lever the shoulder, while the Monoplata isolates the arm with a single leg in a figure-four and finishes where a defended Omoplata leaves the arm"
+    },
+    {
+      "name": "Baratoplata",
+      "reason": "The Baratoplata weaves the attacker's arm through the trapped arm to lever the shoulder, whereas the Monoplata isolates the same arm with a single-leg figure-four"
+    },
+    {
+      "name": "Tarikoplata",
+      "reason": "The Tarikoplata adds a wrist-control lever to omoplata mechanics, whereas the Monoplata isolates the arm with a leg figure-four alone"
+    }
+  ],
+  "bot_metadata": {
+    "last_improved": "2026-08-09",
+    "last_improved_by": "analytics-bot"
+  },
   "is_family": true,
   "submission_category": "Joint Lock",
   "submission_type": "Shoulder Lock",
@@ -21,7 +39,7 @@
     "nogi": 45
   },
   "variant_uniqueness": "Figure-four leg entanglement creates unique shoulder isolation unavailable from standard omoplata",
-  "overview": "The Monoplata is an advanced shoulder lock submission that combines elements of the omoplata with unique figure-four leg control. Executed primarily from guard positions, particularly the rubber guard and mission control, this technique applies rotational pressure to the shoulder joint through a distinctive leg configuration that traps the opponent's arm while controlling their posture. The monoplata represents a sophisticated evolution of traditional shoulder attacks, offering practitioners a powerful finishing option when conventional submissions are defended. Unlike the traditional omoplata which uses both legs to isolate the arm, the monoplata employs a figure-four leg entanglement that creates exceptional control while maintaining offensive options. This submission has gained prominence in modern no-gi grappling due to its effectiveness against defensive posturing and its integration within systematic guard attack sequences.",
+  "overview": "Where the omoplata swings both legs over the opponent's back to lever the shoulder, the monoplata isolates the arm with a single leg drawn across it in a figure-four, tilting the shoulder into a rotational lock. It is best understood as the finish waiting on the other side of a defended omoplata: when the opponent flattens their posture or hides the trapped arm to kill the omoplata, that same defensive shape often feeds the monoplata's figure-four. The technique is executed primarily from guard and rose to prominence in no-gi and rubber-guard play, where deep shoulder-lock chains are relied on heavily.\n\nThe defining feature is the figure-four leg entanglement around the isolated arm, which pins the elbow and forearm while the hips rotate the shoulder past its range. Because only one leg is committed to the arm, the attacker keeps the other leg free to manage the opponent's posture, block escapes, or bail out to a sweep, giving the monoplata more control options than a standard omoplata. Angle is everything: the attacker must scoot to roughly perpendicular to the trapped arm so the rotation loads the shoulder capsule rather than merely hyperextending the elbow.\n\nIn practice the monoplata lives inside a web of guard attacks rather than standing alone. It chains cleanly with the triangle, omoplata, and armbar — a defended triangle often leaves the arm perfectly placed for the figure-four — and sits comfortably inside the rubber-guard and mission-control systems. Learners frequently mislabel it, since the omoplata, baratoplata, and tarikoplata all share the '-plata' shoulder-lock lineage but differ in which limb isolates the arm and how the shoulder is turned.",
   "safety_considerations": {
     "injury_risks": [
       {
@@ -71,11 +89,13 @@
   "variations": [
     {
       "name": "from Guard",
-      "slug": "from-guard"
+      "slug": "from-guard",
+      "description": "The standard entry: a figure-four shoulder lock built from a guard-based arm isolation"
     },
     {
       "name": "from Mount",
-      "slug": "from-mount"
+      "slug": "from-mount",
+      "description": "Top-position variation that traps and figure-fours an arm the opponent frames out from under mount"
     }
   ],
   "from_positions": [
