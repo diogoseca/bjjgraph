@@ -65,6 +65,14 @@ jobs:
           pip install jsonschema
           python3 scripts/validate_json.py --all
           python3 scripts/validate_graph_integrity.py
+          # Share-link ordinal lockfile (node_ordinals.json): every live graph node must
+          # already own a PERMANENT ordinal, and no committed ordinal may have been
+          # renumbered or reused. A share link posted in a gym WhatsApp group encodes
+          # ordinals; renumber one and every link already in the wild silently starts
+          # pointing at different techniques. Hard gate, no ratchet.
+          # HEAD^1, not HEAD: in CI the checked-out HEAD *is* the commit under test, so a
+          # HEAD baseline would compare it to itself and prove nothing.
+          python3 scripts/regenerate_node_ordinals.py --check --baseline-ref HEAD^1
 
       # The Neural app bundle + its data payloads live under source/quartz/static/neural/,
       # which is GITIGNORED (build artifacts, 13.5MB+ payloads). Without this step the built

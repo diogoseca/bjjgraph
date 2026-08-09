@@ -1,6 +1,6 @@
 {
   "name": "bjjgraph",
-  "version": "1.79.7",
+  "version": "1.81.0",
   "description": "BJJ knowledge graph and state machine",
   "scripts": {
     "postinstall": "cd source && npm install",
@@ -12,6 +12,7 @@
     "validate:json": "python3 scripts/validate_json.py --all",
     "validate:headers": "python3 scripts/check_headers_cache.py",
     "validate:graph": "python3 scripts/validate_graph_integrity.py",
+    "validate:ordinals": "python3 scripts/regenerate_node_ordinals.py --check",
     "validate:curriculum": "python3 scripts/validate_curriculum.py",
     "validate:mc": "python3 scripts/audit_mc_viability.py --gate",
     "audit:from-position": "python3 scripts/audit_from_position.py",
@@ -26,7 +27,8 @@
     "regenerate:graph-base": "python3 scripts/regenerate_graph.py",
     "regenerate:graph-layout": "python3 scripts/regenerate_graph_layout.py",
     "regenerate:graph-strength": "python3 scripts/enrich_graph_strength.py",
-    "regenerate:graph": "npm run regenerate:graph-base && npm run regenerate:graph-layout && npm run regenerate:graph-strength",
+    "regenerate:ordinals": "python3 scripts/regenerate_node_ordinals.py",
+    "regenerate:graph": "npm run regenerate:graph-base && npm run regenerate:graph-layout && npm run regenerate:ordinals && npm run regenerate:graph-strength",
     "regenerate:votes": "python3 scripts/regenerate_votes.py",
     "regenerate:explorer": "python3 scripts/regenerate_explorer_tree.py",
     "regenerate:neural": "node neural/build/build.mjs && python3 scripts/regenerate_neural_data.py && mkdir -p source/quartz/static/neural/app && cp neural/dist/* source/quartz/static/neural/app/",
@@ -45,6 +47,7 @@
     "regenerate:build": "npm run regenerate && npm run build",
     "test": "bash scripts/check_no_raw_random.sh && playwright test -c e2e/playwright.config.ts",
     "test:curated": "bash scripts/check_no_raw_random.sh && playwright test -c e2e/playwright.config.ts --grep @curated",
+    "test:units": "node --test tests/*.test.mjs",
     "e2e": "playwright test -c e2e/playwright.config.ts",
     "e2e:headed": "playwright test -c e2e/playwright.config.ts --headed",
     "e2e:gen": "bash scripts/check_gen_specs.sh && playwright test -c e2e/playwright.gen.config.ts --pass-with-no-tests",

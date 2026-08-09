@@ -292,6 +292,55 @@ The state machine is **bipartite**: position role-nodes point to technique nodes
 - **`game-over` is the only sink** (out-degree 0). Every `outcome.to` must resolve to a **role-node**, a **real (non-family) submission**, or **`game-over`** — never a bare position hub, a family hub, or a self-loop.
 - **Only submissions reach `game-over`** — a transition pointing directly to `game-over` is a misfiled finish (it should advance to a control position).
 
+### Share links — node ordinals + wire codec (v1.81.0, foundation)
+
+A share link carries a LIST OF GRAPH NODES in its URL (the gym-WhatsApp acquisition path:
+"these are the techniques we learned in today's class"). Two artifacts underpin it.
+
+**`node_ordinals.json` (repo root, COMMITTED, APPEND-ONLY).** `{id -> ordinal}` for every
+`globalGraphLayout.json` node, plus a `retired` map.
+- **A node's array index can NEVER go in a URL.** `regenerate_graph.py` builds graph.json from
+  an unsorted `rglob('*.json')` and `regenerate_graph_layout.py` derives its node list from
+  `adjacency` DICT INSERTION order seeded by that iteration — so adding one content file
+  renumbers pre-existing entries (measured: +1 file in a 7-file dir moved 2 of the 7). An
+  index-encoded link would silently open a DIFFERENT set of techniques, with no error anywhere.
+  Live proof: `graph-data.json` node[0] is `Positions/Gogoplata-Control`, ordinal **42**.
+- Ordinals are assigned once and are **permanent**: never renumbered, never reused, and a
+  deleted node's entry is **retired, not removed** (so its ordinal can never be handed to
+  another node). New nodes append at `next_ordinal` in **sorted-id order**, so the minting
+  itself does not inherit filesystem order either.
+- `npm run regenerate:ordinals` mints/appends (wired into the `regenerate:graph` umbrella,
+  after graph-layout). `npm run validate:ordinals` is a HARD gate (`ci-validate.yml` + both
+  deploy workflows). The generator self-gates: it refuses to write a lockfile that would fail
+  `--check`.
+- The browser gets it via **`o` on every `graph-data.json` node**, stamped by
+  `regenerate_neural_data.py` — a step deploy actually runs. (`npm run build` and
+  `regenerate:graph` do NOT run in deploy; the workflows re-list steps inline.) Cost: **+4.6 KB
+  gzip**, deliberately paid inline so the `/l/<code>` recipient path resolves ordinals from a
+  payload it already needs (node coordinates) instead of adding a request to the acquisition
+  path's critical fetch chain.
+
+**`neural/src/lists-codec.src.js` — the wire codec, PURE.** Format v1 = `[0x01] varint(d0)
+varint(d1) …` base64url-unpadded, where ordinals are sorted-unique and `di = oi - o(i-1) - 1`.
+- That `-1` makes duplicates and out-of-order sets **unrepresentable**, so the encoding is
+  **canonical**: one set of nodes has exactly one spelling on every device. That is what makes
+  `share_id` (first 12 chars) join creator and recipient events into a viral funnel with no
+  server state. Non-canonical spellings (base64 padding, non-zero trailing bits, non-minimal
+  varints) are REJECTED for that reason, not pedantry.
+- **Measured URL length** (1467 nodes, `https://bjjgraph.org/l/` + code): 5 items → **35.5
+  chars mean / 38 worst**; 12 items → **46 / 50**; the 60-item cap → 106.
+- Decode NEVER throws — it returns `{ok:false, error}` — and caps input at 512 chars / 60 items.
+  Unknown ordinals (a link from a newer build, or a retired node) are REPORTED, not fatal: the
+  list still opens with what resolved.
+- **One source, three consumers.** It is a real ES module so `node --test` and a Cloudflare
+  Pages Function import the identical file; `neural/build/build.mjs` strips the `export `
+  keywords when concatenating it into the IIFE and **throws if that strip stops matching** (a
+  surviving `export` is a parse error that would delete the whole app). Exposed as
+  `globalThis.NGLists`. Pinned by `tests/share_lists_codec.test.mjs` (15 tests, mutation-tested:
+  every guard has a test that fails when the guard is deleted).
+- Lists are **STORED as node ids** (in the existing v2 progress blob, add-wins merge); only the
+  WIRE uses ordinals.
+
 ### Training System (SRS) — embedded UX (v1.20.0+)
 
 Client-side spaced repetition (SM-2) layered onto the always-on background graph. There is **no `/Training` page** — training lives as a persistent strip + two stacked modals + carousel chevrons on every page. All state stays in localStorage (Supabase sync optional).
@@ -449,8 +498,10 @@ All commands run from the repo root (`bjjgraph/`):
 | `npm run regenerate:md` | Regenerate markdown from JSON |
 | `npm run regenerate:hubs` | Generate category hub pages |
 | `npm run regenerate:votes` | Generate community voting data |
-| `npm run regenerate:graph` | Umbrella: graph-base (graph.json) → graph-layout → graph-strength |
+| `npm run regenerate:graph` | Umbrella: graph-base (graph.json) → graph-layout → **ordinals** → graph-strength |
 | `npm run regenerate:graph-base` | Generate graph.json only (no layout/strength) |
+| `npm run regenerate:ordinals` | **Mint/append the share-link ordinal lockfile** (`node_ordinals.json`, committed). Assigns each layout node id a PERMANENT ordinal — append-only, never renumbered, never reused, retired-not-deleted. Must run after `regenerate:graph-layout` (the layout defines the live node set). See §Share links. |
+| `npm run validate:ordinals` | **Hard gate** on that lockfile: every live node minted, no duplicate/renumbered/deleted ordinal, `next_ordinal == max+1`, keys sorted, plus an append-only diff against a git baseline (`--baseline-ref HEAD^1` in CI — against `HEAD` it would compare the commit under test to itself). Wired into `ci-validate.yml` and BOTH deploy workflows' validate step. |
 | `npm run regenerate` | Full pipeline: issues → json → explode → **validate:graph** (gate) → md → hubs → votes → graph → explorer |
 | `npm run build` | Build static site (~10 min, 4287 files) |
 | `npm run regenerate:build` | Regenerate + build (full workflow) |
@@ -462,6 +513,7 @@ All commands run from the repo root (`bjjgraph/`):
 | `npm run clips:source` | **Curated YouTube film-study clips pipeline (v1.54.4, `scripts/source_clips.py`).** Fills role-nested `clips` arrays in content JSON for every slot (position top/bottom + hub overview, technique attacker/defender, principle; submission family hubs derive the union of child clips). Staged + resumable (state in gitignored `clips_sourcing/`): LLM plans the legend instructor + search queries per slot → yt-dlp runs REAL YouTube searches (IDs can't be hallucinated; per-video metadata fetches are bot-checked from datacenter IPs, so provenance comes from search results) → LLM curates 1-3 picks from real results only (Shorts ≤75s preferred) → machine verification (oEmbed 200/401/404 for embeddability; `i.ytimg.com/vi/<id>/oardefault.jpg` exists ONLY for Shorts = verticality; the `/shorts/` redirect trick does NOT work) → apply → `clips_sourcing/review.html` thumbnail grid for in-place pruning. Scope with `--stage/--category/--file/--max-slots`. Clips are curation-safe: stripped from the `regenerate:json` AI contract and re-merged verbatim (like Systems `products`). Neural app already renders them (film-study strip); `_neural_content.py` strips provenance fields from the bundle. |
 | `npm run clips:verify` | Re-verify every applied clip against YouTube (rot check: deleted/private/embed-disabled). Refreshes `verified` dates; `--prune` removes dead clips; `--max-age-days N` limits to stale ones. Exit 1 on failures without `--prune` (CI-friendly). |
 | Q3 occurrence calibration (no npm script — orchestrated) | **Per-ruleset attempt-probability (`occurrence`) calibration of every position role-node, v1.53.0.** Distinct from success-rate calibration: this rebuilds each position's `transitions[].attempt_probability` `{gi,nogi}` maps from a two-chamber expert panel — 10 BJJ legends vote frequencies, 4 advisors (statistician/ML/game/UX) challenge but don't vote — run as a **Hybrid Delphi**: independent per-legend ballots (Stage 1) → one 12–20-round deliberation agent per position (Stage 2) → deterministic MoE aggregation in `scripts/occurrence_moe.py` (specialty×ruleset weighted mean, modest anchor blend, **per-frame-0 only for genuine ruleset-unavailability decided from BALLOTS not the panel's `availability_rulings` field**, floor 1%, largest-remainder to 100/frame) → adversarial verify wave → `scripts/apply_occurrence_calibration.py` writes the maps into `content/Positions/*.json`. graph.json gets scalar `attemptProbability` (no-gi default frame) + `attemptProbabilityByRuleset:{gi,nogi}` — parity with successRate. Committed provenance: `occurrence_calibration.json`. Orchestration + credit-outage-resilient resume runbook live in the gitignored `occurrence_elicitation/_orchestration/`. This is the first REAL gi≠nogi divergence in **content** (v1.51.0's divergence was votes-only), so the Q3.0 pre-flight (v1.52.1) first made ~10 readers divergence-tolerant. |
+| `npm run test:units` | **Pure-unit suites** — `node --test tests/*.test.mjs`: the share-link wire codec (`tests/share_lists_codec.test.mjs`) and the neural deck-hydration contract. No browser, no build, ~1s. Runs in `ci-validate.yml`. Note the shell-glob form: `node --test tests` is broken and `"tests/*.test.mjs"` needs Node ≥ 21's internal globbing. |
 | `npm run test:curated` | **Fast deployment gate**: representative core gameplay, pane, progression, persistence, and Forward catalog journeys tagged `@curated`. Runs on every dev/prod deployment with a 12-minute hard ceiling and a sub-10-minute target. Package-manager neutral: `pnpm test:curated` invokes the same script. |
 | `npm test` | **Complete core Playwright suite** (`e2e/journeys/`, config `e2e/playwright.config.ts`) against the built site on :8123. GitHub Actions builds the site once and runs four shards for PRs targeting `main` **or `dev`** (v1.76.3), weekly, and on demand — with the Playwright browser download cached per **resolved `@playwright/test` version** (NOT per package-lock hash — this repo bumps the version every commit, so a lockfile key missed every run while still uploading 261 MiB); each shard has a **25-minute** hard ceiling and the wall-time target is 10-15 minutes. Rigged RNG + simulated-time pump via `journey()`; workers=1/shard, retries=0. `pnpm test` invokes the same script. |
 | `npm run e2e` | Backward-compatible local alias for the complete core Playwright suite. `pree2e` checks the RNG seam. |

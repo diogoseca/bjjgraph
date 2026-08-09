@@ -46,6 +46,21 @@ const challengeFeedbackCSS = readFileSync(
   "utf8",
 );
 const systemsCSS = readFileSync(R("src/systems.css"), "utf8");
+
+// lists-codec.src.js is a REAL ES module (so `node --test` and a Cloudflare Pages Function
+// can import the identical source — one codec, never a second implementation to drift).
+// This entry is concatenated text, not a module graph, so the `export ` keywords are
+// stripped here. If that ever silently stops matching, the bundle breaks at parse time and
+// the whole app disappears — so assert it, loudly, at build time.
+const listsCodecRaw = readFileSync(R("src/lists-codec.src.js"), "utf8");
+const listsCodec = listsCodecRaw.replace(/^export (function|const) /gm, "$1 ");
+if (listsCodec === listsCodecRaw || /^\s*(export|import)\s/m.test(listsCodec)) {
+  throw new Error(
+    "build.mjs: lists-codec.src.js export-strip failed (no match, or an export/import " +
+      "survived). Fix the strip regex or the file — pinned by tests/share_lists_codec.test.mjs.",
+  );
+}
+
 let app = readFileSync(R("src/app.src.jsx"), "utf8");
 const patched = app
   .replaceAll(
@@ -103,6 +118,25 @@ class DCLogic {
 /* ---- begin sound.src.js ---- */
 ${sound}
 /* ---- end sound.src.js ---- */
+
+/* ---- begin share-link list codec (pure; ordinals <-> URL code) ---- */
+${listsCodec}
+// Reachable, greppable, and safe from tree-shaking: the codec is pure and stateless, so
+// exposing it costs nothing and lets the list UI, the /l recipient path and a paired
+// debugging session all use the SAME functions the unit suite pins.
+;(globalThis).NGLists = {
+  version: NG_LIST_WIRE_VERSION,
+  maxItems: NG_LIST_MAX_ITEMS,
+  maxCodeChars: NG_LIST_MAX_CODE_CHARS,
+  encodeOrdinals: ngListEncodeOrdinals,
+  decodeOrdinals: ngListDecodeOrdinals,
+  normalizeOrdinals: ngListNormalizeOrdinals,
+  encodeIds: ngListEncodeIds,
+  decodeIds: ngListDecodeIds,
+  ordinalIndex: ngListOrdinalIndex,
+  shareId: ngListShareId,
+}
+/* ---- end share-link list codec ---- */
 
 /* ---- begin challenge definitions + pure engine ---- */
 ${challengeDefinitions}
