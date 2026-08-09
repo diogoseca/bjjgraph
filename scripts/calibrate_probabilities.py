@@ -70,6 +70,7 @@ from _prob_norm import largest_remainder_round  # int distribution summing to 10
 from _atomic_io import atomic_write_json  # crash-safe writes
 from _ruleset import reduce_to_scalar, RULESETS  # {gi,nogi} contract (calibration-v2)
 from validate_graph_integrity import classify_technique  # shared success_type classifier (per-type de-bias)
+from _model import model as _model_tier, effort as _model_effort  # single source of truth: models.env
 
 # --------------------------------------------------------------------------- #
 # Paths & constants
@@ -84,8 +85,8 @@ DEFAULT_RESULTS = os.path.join(_REPO_ROOT, "calibration_results.json")
 DEFAULT_PROPOSALS = os.path.join(_REPO_ROOT, "calibration_proposals.json")
 DEFAULT_PARTIAL = os.path.join(_REPO_ROOT, "calibration_results.partial.json")
 
-CLAUDE_MODEL = "claude-opus-4-8[1m]"  # matches regenerate_content_json.py:69
-CLAUDE_EFFORT = "xhigh"               # matches regenerate_content_json.py:72
+CLAUDE_MODEL = _model_tier()
+CLAUDE_EFFORT = _model_effort()
 
 PRIOR_VOTE_COUNT = 30  # mirror regenerate_votes.py:27 — the pure-seed sentinel
 

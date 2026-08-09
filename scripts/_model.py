@@ -18,9 +18,19 @@ That order is what makes a one-off free: `BJJ_CLAUDE_MODEL=claude-fable-5 npm
 run regenerate:json` overrides for one run without touching a tracked file, and
 CI can override per-job the same way.
 
-Usage (Python) — same repo-root import style as the other `_`-prefixed seams
-(`_votes`, `_slug`, `_ruleset`, `_neural_content`):
+Usage (Python) — match whichever sys.path your script already sets up, because
+the two conventions in this repo are not interchangeable:
+
+    # scripts that put the REPO ROOT on sys.path (regenerate_content_json.py):
     from scripts._model import model as _model_tier, effort as _model_effort
+
+    # scripts that put scripts/ ITSELF on sys.path — the majority, and the same
+    # bare form they already use for `_ruleset`, `_atomic_io`, `claude_infer`:
+    from _model import model as _model_tier, effort as _model_effort
+
+Using the `scripts.` prefix in the second kind raises ModuleNotFoundError at
+import time; py_compile will not catch it, so run the script once after wiring.
+
     CLAUDE_MODEL = _model_tier()          # default tier
     CLAUDE_MODEL = _model_tier("deep")    # hardest-reasoning tier
     CLAUDE_EFFORT = _model_effort()

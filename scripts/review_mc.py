@@ -14,7 +14,7 @@ for the Phase-3 residual table. Reviews are BATCHED for throughput; fixes are pe
 Target (high-stakes first): curriculum decks ∪ Submissions/** ∪ every file with a safety card.
 
 Usage:
-  python3 scripts/review_mc.py [--model claude-opus-4-8] [--effort high] [--batch-size 6]
+  python3 scripts/review_mc.py [--model MODEL] [--effort high] [--batch-size 6]
                                [--num-shards N --shard I] [--max-files N] [--file P] [--dry-run]
 """
 
@@ -32,6 +32,7 @@ sys.path.insert(0, str(ROOT / "scripts"))
 from author_mc import curriculum_files, iter_flashcard_holders, verify_reason  # noqa: E402
 from claude_infer import call_claude  # noqa: E402
 from salvage_mc import categorize, is_safety, salvage_card  # noqa: E402
+from _model import model as _model_tier  # noqa: E402 — single source of truth: models.env
 
 STATE_DIR = ROOT / "logs/mc_review"
 
@@ -255,7 +256,7 @@ def build_worklist() -> list:
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--model", default="claude-opus-5")
+    ap.add_argument("--model", default=_model_tier())
     ap.add_argument("--effort", default="high")
     ap.add_argument("--batch-size", type=int, default=6)
     ap.add_argument("--max-files", type=int, default=0)
