@@ -60,6 +60,11 @@ test.describe("Forward Components development library @curated", () => {
     const errors: string[] = [];
     page.on("pageerror", (error) => errors.push(error.message));
 
+    // Reduced motion BEFORE navigation: the catalog scrolls the preview into view with
+    // scrollIntoView({behavior:"smooth"}), and this test used to read the card's bottom
+    // and the hand's top in TWO round-trips — straddling that live scroll. One CI run
+    // failed by exactly 11.0000px (an integer scrollTop) for that reason alone.
+    await page.emulateMedia({ reducedMotion: "reduce" });
     await page.goto("/dev/screens/");
     await expect(page.locator(".catalog-item")).toHaveCount(113);
 
@@ -74,26 +79,61 @@ test.describe("Forward Components development library @curated", () => {
       .getByLabel("Preview variant")
       .selectOption({ label: "Full detail" });
     await expect(page.locator(".landing-definition")).toBeVisible();
+    // The fit POLICY is only meaningfully tested if the full variant actually overflows:
+    // both geometry edges are CSS constants shared by both variants and the card is
+    // bottom-anchored, so `scrollHeight <= clientHeight` is the one assertion below that
+    // can tell them apart. Measured here: 425 vs 295 (overflows) -> 241 vs 241 (fits).
+    const full = await page
+      .locator(".landing-card")
+      .evaluate((el) => ({ s: el.scrollHeight, c: el.clientHeight }));
+    expect(
+      full.s,
+      "Full detail must overflow, else the Priority fit assertion proves nothing",
+    ).toBeGreaterThan(full.c);
     await page
       .getByLabel("Preview variant")
       .selectOption({ label: "Priority fit" });
     await page.evaluate(() => document.fonts.ready);
 
-    const fit = await page.locator(".landing-card").evaluate((element) => {
-      const box = element.getBoundingClientRect();
+    // ONE round-trip => ONE layout flush. Page scroll, the device-frame scale() and any
+    // sizeFrame() rAF are common-mode to all three rects and cancel in the difference.
+    // The gap is reported in AUTHORED CSS px (frame scale divided out) so the threshold
+    // is a design number, not a viewport artefact.
+    //
+    // Wait for the elements AND the frame transform first: a raw page.evaluate has none of
+    // a locator's implicit auto-waiting, and reading pre-transform yields nonsense.
+    await expect(page.locator(".landing-card")).toBeVisible();
+    await expect(page.locator(".option-card").first()).toBeVisible();
+    await expect
+      .poll(() =>
+        page.evaluate(() => {
+          const el = document.querySelector(".game-stage") as HTMLElement | null;
+          return el ? el.getBoundingClientRect().height / el.offsetHeight : 0;
+        }),
+      )
+      .toBeLessThan(1);
+    const geo = await page.evaluate(() => {
+      const stage = document.querySelector(".game-stage") as HTMLElement;
+      const card = document.querySelector(".landing-card") as HTMLElement;
+      const opt = document.querySelector(".option-card") as HTMLElement;
+      const s = stage.getBoundingClientRect();
+      const c = card.getBoundingClientRect();
+      const o = opt.getBoundingClientRect();
+      const scale = s.height / stage.offsetHeight; // device-frame scale(): 680/875
       return {
-        scrollHeight: element.scrollHeight,
-        clientHeight: element.clientHeight,
-        bottom: box.bottom,
+        scale,
+        scrollHeight: card.scrollHeight,
+        clientHeight: card.clientHeight,
+        gapCss: (o.top - c.bottom) / scale,
       };
     });
-    const optionTop = await page
-      .locator(".option-card")
-      .first()
-      .evaluate((element) => element.getBoundingClientRect().top);
-
-    expect(fit.scrollHeight).toBeLessThanOrEqual(fit.clientHeight);
-    expect(fit.bottom).toBeLessThanOrEqual(optionTop + 0.5);
+    expect(geo.scrollHeight).toBeLessThanOrEqual(geo.clientHeight);
+    // The hand must keep real slack, not merely touch. --ng-hand-gap is the design
+    // margin; fail if a regression erodes it past 8 authored px.
+    expect(
+      geo.gapCss,
+      `landing card vs option hand gap in authored CSS px (frame scale ${geo.scale.toFixed(4)})`,
+    ).toBeGreaterThanOrEqual(8);
     await expect(page.locator(".landing-definition")).toBeHidden();
     await expect(page.locator(".film-strip")).toBeHidden();
     await expect(page.locator(".question-block")).toBeVisible();
@@ -285,14 +325,40 @@ test.describe("Forward Components development library @curated", () => {
       "/dev/screens/#item=challenge-mobile-collision&viewport=compact&variant=Default",
     );
 
-    const cueBottom = await page
-      .locator(".challenge-cue")
-      .evaluate((element) => element.getBoundingClientRect().bottom);
-    const optionTop = await page
-      .locator(".option-card")
-      .first()
-      .evaluate((element) => element.getBoundingClientRect().top);
-    expect(cueBottom).toBeLessThanOrEqual(optionTop);
+    // Same bug class as the landing-card gap above: two rects read in two round-trips can
+    // straddle a layout change, and this one has NO tolerance at all. It has never flaked
+    // only because it navigates by URL hash (no scrollIntoView runs). Measure atomically
+    // and normalise out the device-frame scale so the threshold is authored CSS px.
+    //
+    // The visibility waits are load-bearing: a raw page.evaluate has none of the implicit
+    // auto-waiting a locator gives, so without them the read can land before sizeFrame()
+    // has applied the frame transform — observed as scale=1.0 and a -100px "gap".
+    await expect(page.locator(".challenge-cue")).toBeVisible();
+    await expect(page.locator(".option-card").first()).toBeVisible();
+    await expect
+      .poll(() =>
+        page.evaluate(() => {
+          const el = document.querySelector(".game-stage") as HTMLElement | null;
+          return el ? el.getBoundingClientRect().height / el.offsetHeight : 0;
+        }),
+      )
+      .toBeLessThan(1); // frame transform applied
+    const cue = await page.evaluate(() => {
+      const stage = document.querySelector(".game-stage") as HTMLElement;
+      const cueEl = document.querySelector(".challenge-cue") as HTMLElement;
+      const opt = document.querySelector(".option-card") as HTMLElement;
+      const s = stage.getBoundingClientRect();
+      const scale = s.height / stage.offsetHeight;
+      return {
+        scale,
+        gapCss:
+          (opt.getBoundingClientRect().top - cueEl.getBoundingClientRect().bottom) / scale,
+      };
+    });
+    expect(
+      cue.gapCss,
+      `challenge cue vs option hand gap in authored CSS px (frame scale ${cue.scale.toFixed(4)})`,
+    ).toBeGreaterThanOrEqual(0);
 
     await page.emulateMedia({ reducedMotion: "reduce" });
     await page
