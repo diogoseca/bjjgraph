@@ -285,7 +285,7 @@ The state machine is **bipartite**: position role-nodes point to technique nodes
 1. `Position/Role —attempt_probability→ Transition | Submission` (from each role's `transitions[]`; weights sum to 100/role).
 2. `Transition —probability, result→ Position/Role | Submission | game-over` (from `outcomes[]`; sum to 100; `result ∈ success|failure|counter`).
 3. `Submission —success→ game-over` (the sink).
-- `from_position` (surfaced as `fromPosition`/`fromPositionId`/`fromRole`) is the single **origin metadata**, not a second edge. `endingPosition` is a derived copy of the first `success` outcome. `opponentTransitions` (the opposite position role's moves, consumed by the in-browser game's opponent turn) are **derived at render time** in `renderPage.tsx` (`resolveOpponentMoves`) from the canonical role-split nodes — they are **not persisted** in `graph.json` (the build-time mirror was removed in Stage 6, v1.48.2+).
+- `from_position` (surfaced as `fromPosition`/`fromPositionId`/`fromRole`) is the single **origin metadata**, not a second edge. `endingPosition` is a derived copy of the first `success` outcome. **`opponentTransitions` no longer exists anywhere** — the build-time mirror on `graph.json` went in Stage 6 (v1.48.2+), and the render-time replacement (`resolveOpponentMoves` in `renderPage.tsx`, injected into every position page's `#page-graph-data`) went in **v1.80.2**: its only consumer was the legacy in-browser game deleted in v1.80.0, so it was 661,594 dead bytes across 416 pages. The opponent's turn is now resolved solely by the Neural app from the role-split graph in its own bundle. Do not reintroduce a per-page mirror; derive in the consumer.
 
 **Invariants (checked by `validate_graph_integrity.py` + the topology audit):**
 - A transition has **one canonical origin** and **3–5 outcomes**; a submission's success → `game-over`.
@@ -329,23 +329,56 @@ no longer exists, so it has no effect. `/Training/* → / 301` stays in `_redire
   already true, which is necessarily false right after a PKCE redirect. Deleting either breaks
   signed-in users while every headless test stays green — hence the MUTUAL-GUARD conjunction in
   `e2e/journeys/legacy-gone.spec.ts`.
-- **`CategoryNav.tsx`** inside `#sidebar-overlay` — its six links are the homepage's entire
-  crawlable link set in the SEO baseline.
+- **`CategoryNav.tsx`** inside `#sidebar-overlay` — the six category links are the site's only
+  persistent nav on the static surface, and the thing that replaced the Explorer's ~4,600
+  per-page links. **No gate guards them.** `check_seo_parity.py` extracts its link set from the
+  `<article>` only (see the `region` it derives), and `#sidebar-overlay` is a SIBLING of
+  `#quartz-root`, i.e. outside the article — so the baseline's homepage links all come from
+  authored prose in `content/index.md`, which merely happens to link the same six hubs. Delete
+  CategoryNav and every gate stays green. Treat it as unguarded.
 - **Quartz as the SSG.** The emitted HTML still carries the real `<article>`, `<head>` and JSON-LD
   for every indexed URL; Neural is an overlay on top of it (`scripts/variant.inline.ts`), and the
   static article is the fallback for crawlers, no-JS visitors and a failed bundle fetch. `/` now
   renders the same article shell as every other page (it used to emit a bare `#home-hero` with no
   `<article>` at all) — see `content/index.md`, which is authored, not generated.
 
-**Gates that keep it deleted:** `scripts/check_payload_budget.py` (byte ratchet vs
-`tests/artifacts/budget_site.json`), `scripts/check_seo_parity.py` (crawlable-surface ratchet),
-`e2e/journeys/legacy-gone.spec.ts` and `e2e/journeys/crawlable-homepage.spec.ts`.
+**Gates that keep it deleted:**
+- `scripts/check_payload_budget.py` — byte ratchet vs `tests/artifacts/budget_site.json`. Run by
+  `npm run validate:payload`, chained onto `npm run build`, and a step of BOTH deploy workflows,
+  placed after `Copy raw HTML folder` + `Build Forward development libraries` so it measures the
+  tree we actually ship. Raising a ceiling means `--update` in its own justified commit.
+- `scripts/check_seo_parity.py` — crawlable-surface ratchet (`npm run validate:seo`; both deploy
+  workflows). Compares `<head>` + JSON-LD, crawlable text against a floor, and internal links —
+  **`<article>`-scoped**, so nothing outside the article is covered.
+- `e2e/journeys/legacy-gone.spec.ts` (absence ∧ the surviving auth seam),
+  `e2e/journeys/crawlable-homepage.spec.ts` (the root carries real copy), and
+  `e2e/journeys/static-article-layout.spec.ts` (the fallback LAYS OUT — it measures article
+  geometry with JS disabled and with the bundle blocked, because "the prose is present" is
+  satisfiable by a page rendering into a 450px gutter, which is exactly how v1.80.0 shipped).
 
 **Known follow-up (revenue):** deleting `AffiliateTracking` removed the only emitter of the
 `affiliate_clickout` / `related_system_card_click` / `system_page_view` PostHog events. The
 affiliate links themselves are untouched and still earn; the *measurement* stopped. Re-instrument
 the funnel on Neural's `data-system-cta` anchors (which today fire only
 `neural_system_course_clicked`).
+
+**Known follow-up (feature loss, disclosed v1.80.2):** deleting `SystemProgress` removed the
+**"Unlock this part of the graph"** UX from all 48 `/Systems/*` pages — an honour-system progress
+ring, a per-member mark-known checklist, and a "Mark whole system as known" button, backed by
+`known.ts` (`bjj-known`, also deleted). Two consequences, neither of which any gate reports:
+- **Analytics:** it was the only emitter of `system_node_marked_known`, `system_node_unmarked`
+  and `system_marked_complete`. Those events stop. No Neural equivalent exists — Neural tracks
+  mastery through SRS card stages, not an honour-system per-system "known" set — so this is a
+  capability *lost*, not merely moved. Any per-system completion figure in PostHog dashboards
+  goes flat from the deploy date; do not read that as a usage collapse.
+- **Dead markup still ships:** the shell is emitted by `templates/Systems.md.jinja2`
+  (`#unlock-graph`, `[data-system-progress]`, `[data-system-members]`), NOT by the component, so
+  it survives the deletion — as does its `.system-progress*` CSS in `custom.scss`. It is inert
+  rather than broken: the `<section>` is authored `hidden` and only the deleted script ever
+  removed that attribute, so users see nothing. It is ~600 B × 48 pages of payload waiting for
+  the chunking stream. Removing it means editing the template and REGENERATING `content/Systems/*.md`
+  — content regeneration is owned outside this branch, so it was deliberately left in place.
+  Do not hand-edit the generated `.md`.
 
 ### Neural: pane law, landing questions, Challenges, Game Knowledge (v1.68.0+)
 
@@ -409,7 +442,7 @@ score = Σ (weight_i × mastery_i),   Σ weight_i = 1
 - **The catalog documents beats that actually fire.** Challenge rewards own the `Rewards` group (`challenge_completed`/`objective-tick`, `patch_earned`/`patch-weave`, `coin_earned`/`coin-mint`), and the retired Belt Path cues (`path_opened`, `belt_unlocked`, `stripe_earned`) are gone with their voices. Adding a mapped `fx()` beat means adding a cue; retiring one means deleting it.
 - `/dev/sounds/` lives in `forward/sounds/`, not a Quartz emitter. `build_forward_components.mjs` deletes/rebuilds `source/public/dev`, validates the catalog, then copies the production engine and emits `sound-catalog.json`.
 - The sound lab previews `NGSound` directly, documents each real trigger, is `noindex,nofollow`, and appears in every Forward route nav. Sounds is a development tool, not a fifth composition layer.
-- Keep `source/quartz/components/scripts/gameAudio.ts` for `?variant=legacy`; its setting is `BJJSettings.soundEnabled`. Neural uses its own `sound` and `soundVolume` settings.
+- **There is ONE audio engine.** `source/quartz/components/scripts/gameAudio.ts` (the legacy variant's second engine, `GAME_SOUND_CATALOG`, gated on `BJJSettings.soundEnabled`) was **deleted in v1.80.0** with the rest of the legacy front-end — the file does not exist and `?variant=legacy` selects nothing. Neural's settings are `sound` and `soundVolume`. Do not reintroduce a second catalog of default-runtime sounds.
 
 **`pointer-events:auto` is LOAD-BEARING on every fixed overlay** (`.ng-coach`, `.ng-landcard`, …): the property is *inherited*, the overlay root disables it, and the canvas hit-tests above anything that doesn't re-enable it — option cards set it inline for exactly this reason. Missing it = mouse clicks silently fall through to the graph (the coach's Next button and the landing card's MC options were unclickable by mouse until v1.69.1; keyboard paths masked it).
 
