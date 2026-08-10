@@ -157,6 +157,7 @@ ${listsStore}
   maxItems: NG_LIST_MAX_ITEMS,
   maxCodeChars: NG_LIST_MAX_CODE_CHARS,
   nameMax: NG_LIST_NAME_MAX,
+  clipErrors: NG_LIST_CLIP_ERRORS,
   encodeOrdinals: ngListEncodeOrdinals,
   decodeOrdinals: ngListDecodeOrdinals,
   normalizeOrdinals: ngListNormalizeOrdinals,

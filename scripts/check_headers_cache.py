@@ -249,6 +249,19 @@ def check_functions(headers_path: Path) -> list[str]:
             for h in hs
             if h.lower().startswith("cache-control:") and matches(p, probe)
         ]
+        # (6a) OMISSION, not just drift. The loop below compares the values a Function DOES set;
+        # if a Function stops setting Cache-Control at all, `resolved` is empty and the loop body
+        # never runs — so deleting the line was invisible while changing it was caught. That is
+        # backwards: `_headers` does not apply to a Function response, so an omitted Cache-Control
+        # means this path silently loses its whole tier the day the Function deploys, which is the
+        # exact hazard this gate exists for. A path with a tier in `_headers` must have one here.
+        if rules and not resolved:
+            errors.append(
+                f"{fnlabel}: sets NO Cache-Control for {route}, but {label} gives {probe} "
+                f"{rules[0]!r}. `_headers` does not apply to Function responses, so this path "
+                f"would ship with whatever the CDN defaults to the moment the Function deploys. "
+                f"Set it here too, byte-identical."
+            )
         for value in resolved:
             if not rules:
                 errors.append(
@@ -264,9 +277,12 @@ def check_functions(headers_path: Path) -> list[str]:
                     f"byte-identical."
                 )
 
-        # (7) a transformed body must not inherit the asset's entity headers
+        # (7) a transformed body must not inherit the asset's entity headers.
+        # last-modified is a VALIDATOR exactly like etag (a conditional request can be answered
+        # from it), and content-encoding describes bytes that ASSETS.fetch already decoded — a
+        # surviving `gzip` makes the browser fail to decode the page at all.
         if "HTMLRewriter" in src:
-            for entity in ("content-length", "etag"):
+            for entity in ("content-length", "etag", "last-modified", "content-encoding"):
                 if not re.search(r'headers\.delete\(\s*"' + entity + r'"\s*\)', src, re.I):
                     errors.append(
                         f"{fnlabel}: transforms the body with HTMLRewriter but never "
@@ -287,6 +303,22 @@ def check_functions(headers_path: Path) -> list[str]:
                 f"site-wide security headers."
             )
         elif star and declared is not None:
+            # (8a) DECLARED IS NOT APPLIED. A perfectly correct SHARE_STATIC_HEADERS object that
+            # nothing ever writes into the response passes every value comparison below while
+            # shipping none of the headers. Omitting the apply is far likelier than drifting a
+            # value (a refactor of withHeaders(), a lost loop), so require the identifier to be
+            # USED somewhere other than its own declaration, next to a headers.set.
+            uses = [
+                m.start()
+                for m in re.finditer(r"\bSHARE_STATIC_HEADERS\b", src)
+                if not re.search(r"const\s+$", src[max(0, m.start() - 12) : m.start()])
+            ]
+            if not any(re.search(r"headers\.set\(", src[u : u + 240]) for u in uses):
+                errors.append(
+                    f"{fnlabel}: SHARE_STATIC_HEADERS is declared but never written into the "
+                    f"response (no headers.set near any use). The object being correct is not the "
+                    f"same as the headers being sent."
+                )
             lower = {k.lower(): v for k, v in declared.items()}
             for key, (orig, value) in star.items():
                 if key not in lower:
@@ -311,7 +343,16 @@ def main() -> None:
     errors: list[str] = []
     for target in targets:
         errors.extend(check(target))
-    errors.extend(check_functions(targets[0]))
+        # …and the Function checks against EVERY _headers we have, not just the canonical one.
+        # Cloudflare reads the EMITTED source/public/_headers; the canonical
+        # source/quartz/static/_headers is only its input. regenerate_headers.py sits between
+        # them and can add, drop or reorder rules, so a Function/`_headers` disagreement can
+        # exist in the file that actually ships while the canonical pair agrees perfectly.
+        errors.extend(check_functions(target))
+
+    # the Function checks now run once per _headers file, and findings that name no file (the
+    # Function-internal ones) come out identical twice — report each distinct finding once
+    errors = list(dict.fromkeys(errors))
 
     if errors:
         print("[check_headers_cache] FAIL", file=sys.stderr)

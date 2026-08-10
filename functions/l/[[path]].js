@@ -76,6 +76,11 @@ class OgMeta {
   }
 }
 
+/** The document title. Selected by its MARKER (`title[data-share-title]`, written by
+ *  scripts/build_share_shell.mjs), never by bare `title`: HTMLRewriter matches by element name,
+ *  and this shell holds a second one — `<title>Search</title>` inside the search button's inline
+ *  SVG. A bare `title` selector rewrote that too, replacing the accessible name of a control with
+ *  the shared class's technique list. Same contract shape as `meta[data-share-og]`. */
 class TitleText {
   constructor(title) {
     this.title = title;
@@ -143,7 +148,7 @@ export async function onRequest(context) {
   };
   const out = new HTMLRewriter()
     .on("html", new HtmlMarker())
-    .on("title", new TitleText(values.title))
+    .on("title[data-share-title]", new TitleText(values.title))
     .on("meta[data-share-og]", new OgMeta(values))
     .transform(shell);
   return withHeaders(out, "ok", resolved.length);

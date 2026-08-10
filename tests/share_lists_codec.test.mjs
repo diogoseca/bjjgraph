@@ -15,6 +15,7 @@ import {
   NG_LIST_WIRE_VERSION,
   NG_LIST_MAX_ITEMS,
   NG_LIST_MAX_CODE_CHARS,
+  NG_LIST_CLIP_ERRORS,
   ngListEncodeOrdinals,
   ngListDecodeOrdinals,
   ngListNormalizeOrdinals,
@@ -162,6 +163,50 @@ test("truncation: every clipped prefix of a real code is DETECTED, never a small
   );
 });
 
+test("truncation: EVERY clipped prefix lands in NG_LIST_CLIP_ERRORS, so the recipient can be told", () => {
+  // Detecting a clip is only half the job — the caller has to be able to RECOGNISE one to say
+  // "this link arrived cut short". So the error a cut produces must be in the clip set, always.
+  // The distribution is the interesting part and the reason this test exists: the base64 layer
+  // refuses FIRST whenever a cut lands mid-quantum (length % 4 == 1) or on non-zero trailing
+  // bits, so `not_base64url` — not the count byte — is what MOST real cuts look like. Keying a
+  // user-facing message off count_mismatch/truncated alone left the majority of real clip
+  // positions silent, which is exactly the bug this pins shut.
+  const all = Object.values(BY_ID);
+  const rand = lcg(818130);
+  const tally = {};
+  const strays = [];
+  let checked = 0;
+  for (let i = 0; i < 60; i++) {
+    const set = sample(rand, all, 2 + Math.floor(rand() * 11)).sort((a, b) => a - b);
+    const code = ngListEncodeOrdinals(set);
+    for (let cut = 1; cut < code.length; cut++) {
+      checked++;
+      const res = ngListDecodeOrdinals(code.slice(0, cut));
+      if (res.ok) continue; // covered by the sweep above (and asserted impossible there)
+      tally[res.error] = (tally[res.error] || 0) + 1;
+      if (!NG_LIST_CLIP_ERRORS.includes(res.error))
+        strays.push({ cut, code, error: res.error });
+    }
+  }
+  assert.ok(checked > 500, `expected a real sweep, only checked ${checked} prefixes`);
+  assert.deepEqual(
+    strays.slice(0, 5),
+    [],
+    `a clipped code produced an error outside NG_LIST_CLIP_ERRORS, so the recipient would be ` +
+      `told nothing. Mix: ${JSON.stringify(tally)}`,
+  );
+  assert.ok(
+    (tally.not_base64url || 0) > (tally.count_mismatch || 0),
+    `the premise of including not_base64url in the clip set: it should dominate. ` +
+      `Mix: ${JSON.stringify(tally)}`,
+  );
+  // and the set stays HONEST: errors a cut cannot produce are deliberately excluded, because
+  // "cut short in transit" is the wrong sentence for a mistyped or hostile code.
+  for (const notAClip of ["bad_version", "too_many_items", "non_canonical_varint", "too_long", "empty"])
+    assert.ok(!NG_LIST_CLIP_ERRORS.includes(notAClip), `${notAClip} is not a truncation`);
+  console.log("\n  CLIP-ERROR MIX over " + checked + " prefixes: " + JSON.stringify(tally) + "\n");
+});
+
 test("truncation: dropping whole items is a count_mismatch, and appended junk is refused", () => {
   const bytesOf = (code) => Buffer.from(code, "base64url");
   const code = ngListEncodeOrdinals([4, 9, 300]);
@@ -184,6 +229,24 @@ test("truncation: the count is part of the wire and cannot disagree with the pay
   assert.equal(ngListDecodeOrdinals(b64url([2, 0])).error, "count_mismatch"); // says 1, holds none
   assert.equal(ngListDecodeOrdinals(b64url([2, 0x81, 0x00, 0])).error, "non_canonical_varint"); // padded count
   assert.equal(ngListDecodeOrdinals(b64url([2, NG_LIST_MAX_ITEMS, 0])).error, "too_many_items"); // count 61
+});
+
+test("analytics: a v1 and a v2 spelling of the same class are DIFFERENT, non-colliding join keys", () => {
+  // Canonicality is per-version, so the same set has two ids. The documented rule (see
+  // ngListShareId) is that v1 is never minted, so a v1 id can only ever appear on the recipient
+  // side and is reported as an unattributed legacy open — never re-keyed. What must hold
+  // mechanically is that the two ids cannot be CONFUSED: different, and never equal.
+  const v1 = b64url([1, 4, 4, 0x81, 0x01]);          // v1 spelling of {4, 9, 139}
+  const v2 = ngListEncodeOrdinals([4, 9, 139]);      // the only spelling this build mints
+  assert.deepEqual(ngListDecodeOrdinals(v1).ordinals, ngListDecodeOrdinals(v2).ordinals);
+  assert.notEqual(ngListShareId(v1), ngListShareId(v2), "two spellings, two join keys");
+  assert.equal(ngListDecodeOrdinals(v1).version, 1, "and the version is reported, so the funnel can label the tail");
+  assert.equal(ngListDecodeOrdinals(v2).version, NG_LIST_WIRE_VERSION);
+  // The version byte LEADS the wire, and base64 packs 3 bytes into 4 chars, so the version's
+  // low bits land in the SECOND character (both start "A" — 0x01 and 0x02 share their top 6
+  // bits). The ids therefore diverge within the first two characters, which is close enough to
+  // the front that no prefix-truncated analytics key can ever conflate the two spellings.
+  assert.notEqual(ngListShareId(v1).slice(0, 2), ngListShareId(v2).slice(0, 2));
 });
 
 test("compatibility: a v1 code minted before the length field still opens", () => {
@@ -371,31 +434,52 @@ test("ids: a stale manifest costs one technique, never the whole link", () => {
 
 // ---------------------------------------------------------------- measured URL length
 
-test("measured: real 5- and 12-item codes fit a WhatsApp message comfortably", () => {
+test("measured: real class-sized codes stay under a hard, paste-friendly URL ceiling", () => {
+  // The point of this test is the CEILING, not the printout. It used to measure the lengths,
+  // print them, and then assert only against NG_LIST_MAX_CODE_CHARS (512) — a bound ~13x looser
+  // than any real code, so the assertion could not fail for the thing the test is named after.
+  // A 3x regression in code length would have printed happily and passed.
+  //
+  // The ceilings below are the measured worst case (1467 live ordinals, 2000 deterministic
+  // samples per size) plus a deliberate ~25% headroom for corpus growth: ordinals are appended
+  // forever, so deltas widen slowly and a real regression (a wider varint, a lost delta
+  // encoding, an extra header byte) shows up as a step change, not creep. Raise them ONLY with
+  // a printout that justifies it.
+  const CEILING = { 5: 20, 8: 29, 12: 38, [NG_LIST_MAX_ITEMS]: 108 };
+  // WhatsApp shows ~120 chars of a URL before it elides the middle; anything under that stays
+  // readable in the group chat, which is what "paste it in the group" actually requires.
+  const URL_CEILING = 120;
   const all = Object.values(BY_ID);
   const rand = lcg(4242);
   const base = "https://bjjgraph.org/l/";
   const report = [];
-  for (const n of [5, 12]) {
+  for (const n of [5, 8, 12, NG_LIST_MAX_ITEMS]) {
+    const iters = n > 20 ? 300 : 2000;
     let sum = 0;
     let max = 0;
-    for (let i = 0; i < 2000; i++) {
+    for (let i = 0; i < iters; i++) {
       const len = ngListEncodeOrdinals(sample(rand, all, n)).length;
       sum += len;
       if (len > max) max = len;
     }
-    const mean = sum / 2000;
+    const mean = sum / iters;
     report.push(
       `${String(n).padStart(2)} items: code mean ${mean.toFixed(1)} / worst ${max} chars` +
-        `  →  URL mean ${(base.length + mean).toFixed(1)} / worst ${base.length + max}`,
+        `  →  URL worst ${base.length + max} (ceiling ${CEILING[n]} / ${URL_CEILING})`,
+    );
+    assert.ok(
+      max <= CEILING[n],
+      `a ${n}-technique code is ${max} chars, over the ${CEILING[n]}-char ceiling — the wire got ` +
+        `bigger. Mean ${mean.toFixed(1)}. If this is intended, re-measure and raise the ceiling.`,
+    );
+    assert.ok(
+      base.length + max <= URL_CEILING,
+      `a ${n}-technique share URL is ${base.length + max} chars — over ${URL_CEILING}, chat ` +
+        `clients start eliding the middle of it`,
     );
     assert.ok(max <= NG_LIST_MAX_CODE_CHARS, "a realistic list must never approach the decoder's cap");
   }
-  // the densest legal list is still a short URL
-  const worst = ngListEncodeOrdinals(sample(rand, all, NG_LIST_MAX_ITEMS)).length;
-  report.push(`${NG_LIST_MAX_ITEMS} items (the cap): ${worst} chars → URL ${base.length + worst}`);
-  console.log("\n  MEASURED SHARE-LINK LENGTHS (1467 live nodes, ordinals 0-1466)\n  " + report.join("\n  ") + "\n");
-  assert.ok(worst < NG_LIST_MAX_CODE_CHARS);
+  console.log("\n  MEASURED SHARE-LINK LENGTHS (" + Object.keys(BY_ID).length + " live nodes)\n  " + report.join("\n  ") + "\n");
 });
 
 // ---------------------------------------------------------------- bundle safety

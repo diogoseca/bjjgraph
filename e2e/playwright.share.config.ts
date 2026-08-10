@@ -13,7 +13,9 @@ import { defineConfig } from "@playwright/test";
 // retries=0 — a deterministic journey must not be retried into passing).
 export default defineConfig({
   testDir: "./journeys",
-  testMatch: /share-lists\.spec\.ts/,
+  // share-lists (the desktop/logic half) + share-mobile (390x844, where this feature actually
+  // ships). Kept as two files because the mobile half needs its own `test.use` viewport.
+  testMatch: /share-(lists|mobile)\.spec\.ts/,
   timeout: 240_000,
   retries: 0,
   workers: 1,

@@ -1040,7 +1040,15 @@ class Component extends DCLogic {
     } else if (!open && wasShown) {
       if (this._paneAutoPaused) { this._paneAutoPaused = false; this.setPaused(false); this.fx("pane_resumed", {}); }
       this._pathDim = false;
+      // ── ON A PHONE, CLOSING THE DRAWER IS HOW YOU LOOK AT THE GRAPH ──────────────────────
+      // The pane is 88vw here: it IS the screen. So a close is "let me see the graph", not
+      // "throw the selection away" — and a shared class that vanished the moment the drawer
+      // was dismissed made the link's whole promise unreachable on the only device it ships
+      // to. A LIST selection therefore survives a mobile close (desktop keeps the original
+      // clear-on-close: there the pane never covered the graph, so nothing was hidden).
+      const keepList = this.isMobile() && this._listFocusId && this.listIdxs(this._listFocusId).length ? this._listFocusId : null;
       this.clearFocus();
+      if (keepList) { this._listFocusId = keepList; this.setFocusIdxSet(this.listIdxs(keepList), true); }
       this._learningViewsTracked = {};
       const fallback = this._tutEl
         ? this._tutEl.querySelector("[data-challenge-cue-open]")
@@ -1057,7 +1065,10 @@ class Component extends DCLogic {
     const panel = this.drillRef.current;
     if (panel) { panel.style.display = open ? "flex" : "none"; panel.style.pointerEvents = open ? "auto" : "none"; }
     const tab = this.drillTabRef.current;
-    if (tab) { const tv = (this.deckReady && !this.deckOpen) ? "1" : "0"; tab.style.opacity = tv; tab.style.pointerEvents = tv === "1" ? "auto" : "none"; }
+    // a live share cue makes the pill available immediately: on a phone the pill is the ONLY
+    // surface a recipient has before the first landing, and it is where the re-light lives.
+    if (tab) { const tv = ((this.deckReady || this._shareCue) && !this.deckOpen) ? "1" : "0"; tab.style.opacity = tv; tab.style.pointerEvents = tv === "1" ? "auto" : "none"; }
+    this._renderShareCue();
     const chip = this.acctChipRef.current;
     if (chip) chip.classList.toggle("ng-chip-merged", open);
     if (open !== wasShown && this.renderChallengeCue) this.renderChallengeCue(); // cue hides while the pane is up
@@ -1802,6 +1813,11 @@ class Component extends DCLogic {
     go.setAttribute("data-go", "1"); // journey tests confirm the commit via this button
     go.innerHTML = (cat === "Submission" ? "Go for the " + sp.main : "Execute this move") + ' <kbd style="font-family:inherit;font-size:10px;font-weight:700;opacity:.7;margin-left:7px;border:1px solid rgba(255,255,255,.5);border-radius:4px;padding:0 5px;">\u23ce</kbd>';
     go.style.cssText = "flex:1;cursor:pointer;font-family:inherit;font-size:13.5px;font-weight:700;padding:12px;border-radius:11px;border:none;background:linear-gradient(135deg,#4a6cff,#6a5cff);color:#fff;box-shadow:0 4px 16px rgba(74,108,255,.35);display:flex;align-items:center;justify-content:center;";
+    // the same capture, with room for a label: this sheet is what a coach reads BEFORE committing,
+    // and on a phone it is a full-width surface where a 44px target actually fits.
+    const capture = this._listAddButton(n.id, "sheet");
+    capture.style.width = "auto"; capture.style.height = "auto"; capture.style.minWidth = "44px"; capture.style.minHeight = "44px";
+    capture.style.padding = "12px 14px"; capture.style.borderRadius = "11px"; capture.style.fontSize = "15px";
     back.addEventListener("click", () => this.closeOptionDetail());
     head.querySelector(".x").addEventListener("click", () => this.closeOptionDetail());
     // perspective tab — re-render the body for attacker / defender and restyle the segmented control
@@ -1819,7 +1835,7 @@ class Component extends DCLogic {
       if (bdn) bdn.addEventListener("click", (e) => { e.stopPropagation(); this.bumpCardSuccess(n, -1); bupd(); });
       if (bup) bup.addEventListener("click", (e) => { e.stopPropagation(); this.bumpCardSuccess(n, 1); bupd(); }); }
     go.addEventListener("click", () => { this._detailCtx = null; this.hideOptDetail(); this.setPaused(false); onPick(opt); });
-    foot.appendChild(back); foot.appendChild(go);
+    foot.appendChild(capture); foot.appendChild(back); foot.appendChild(go);
     panel.appendChild(foot);
     // beat beacon hands into the sheet: the drill first (odds are pumpable) — else straight to Execute
     { const jitEl = panel.querySelector("[data-jit]"); this.setBeacon(jitEl ? "jit" : "execute", jitEl || go); }
@@ -3197,8 +3213,12 @@ class Component extends DCLogic {
   }
   deleteList(id) {
     const m = this._listsMap(); if (!m[id]) return;
-    // stash it whole so the delete is takeable-back (see _undoRow / undoDeleteList)
-    this._undoList = { id: id, list: { name: m[id].name, items: m[id].items.slice(), t: m[id].t } };
+    // stash it whole so the delete is takeable-back (see _undoRowLive / undoDeleteList). `t` is
+    // when the OFFER was made — it expires (an undo row is a reaction, not a permanent record).
+    this._undoList = { id: id, t: Date.now(), list: { name: m[id].name, items: m[id].items.slice(), t: m[id].t } };
+    if (this._undoT) clearTimeout(this._undoT);
+    // real setTimeout, not the sim clock: this is UI patience, not game time
+    this._undoT = setTimeout(() => { if (this._undoList && this._undoList.id === id) { this._undoList = null; this._refreshListSurfaces(); } }, 90000);
     delete m[id];
     if (this._listFocusId === id) this.clearFocus();
     if (this.activeListId === id) { this.activeListId = this.listsArray()[0] || null; this.set("activeListId", this.activeListId); }
@@ -3278,6 +3298,92 @@ class Component extends DCLogic {
     this._listFocusId = listId;
     this.setFocusIdxSet(idxs);
     this.renderExplorer(); // keepList carries the selection through the render's own reset
+  }
+  // ══════════════════════════════════════════════════════════════════════════════════════
+  // THE SHARE CUE — the only share control that lives OUTSIDE the pane
+  //
+  // On a 390x844 phone `.ng-drill` is an 88vw drawer: it IS the screen. Two consequences:
+  //  1. A shared-link landing must NOT end inside that drawer. The lit graph is the entire
+  //     promise of the link ("open it and see exactly what we drilled") and a drawer over it
+  //     delivers none of it. So on a narrow viewport the arrival lights the graph and STOPS —
+  //     which serves PANE LAW better, not worse: nothing but the user opens the pane.
+  //  2. The control that lights the class again therefore cannot live in the drawer either, or
+  //     it is unreachable in the exact state you want it. It rides the collapsed `.ng-drilltab`
+  //     pill: already fixed, already outside the pane, already the app's one collapsed
+  //     affordance (and its neighbour, the graph strip, is already the mobile dismiss target).
+  //
+  // Two zones because they are two different intentions: ◉ lights the class WITHOUT covering
+  // it, and "Class ▸" opens the pane to read / save / drill it.
+  // ══════════════════════════════════════════════════════════════════════════════════════
+  _setShareCue(cue) { this._shareCue = cue || null; this._renderShareCue(); }
+  _renderShareCue() {
+    const tab = this.drillTabRef.current; if (!tab) return;
+    try { tab.querySelectorAll("[data-share-cue],[data-share-open]").forEach((el) => el.remove()); } catch (e) { /* non-fatal */ }
+    const cue = this._shareCue;
+    if (!cue) { if (!this.deckReady || this.deckOpen) { tab.style.opacity = "0"; tab.style.pointerEvents = "none"; } return; }
+    // a class cue whose list no longer resolves (deleted, merged away) is not a cue: dropping it
+    // here means the pill can never offer to light a set that does not exist
+    // (re-entering with a null cue takes the branch above, which also puts the pill back to
+    // whatever the pane state says it should be — one level, no recursion)
+    if (cue.kind === "class" && !this.listIdxs(cue.target).length) { this._shareCue = null; return this._renderShareCue(); }
+    // BOTH are <button>s and BOTH are APPENDED LAST, deliberately: the mobile rules hide
+    // `.ng-drilltab > span:first-child` and `.ng-drilltab > div`, so a span/div here would be
+    // invisible on a phone, and inserting first would unhide the pill's own icon instead.
+    const mk = (attr, label, title, tint, onClick) => {
+      const b = document.createElement("button");
+      b.type = "button";
+      b.setAttribute(attr, cue.kind);
+      b.title = title;
+      b.innerHTML = label;
+      // pointer-events:auto INLINE — the property is inherited, the overlay root disables it and
+      // the canvas hit-tests above anything that does not re-enable it (this repo has paid for
+      // that twice: v1.69.1, v1.81.2).
+      b.style.cssText = "flex:none;pointer-events:auto;cursor:pointer;font-family:inherit;font-size:11px;font-weight:700;line-height:1;min-height:30px;min-width:34px;padding:8px 11px;margin-left:9px;border-radius:9px;border:1px solid " + tint[0] + ";background:" + tint[1] + ";color:" + tint[2] + ";white-space:nowrap;";
+      b.addEventListener("click", (e) => { e.stopPropagation(); e.preventDefault(); onClick(); });
+      tab.appendChild(b);
+      return b;
+    };
+    const green = ["rgba(126,224,168,.45)", "rgba(126,224,168,.15)", "#cdebd9"];
+    const amber = ["rgba(232,185,138,.45)", "rgba(232,185,138,.15)", "#f0d5b4"];
+    if (cue.kind === "class") {
+      const lit = this._listFocusId === cue.target && this._focusIdxSet && this._focusIdxSet.size;
+      mk("data-share-cue", (lit ? "◉" : "◎") + " " + cue.n, "Light this class on the graph again", green, () => this.relightShare());
+      mk("data-share-open", "Class ▸", "Read, save or drill the shared class", green, () => this.openShareCue());
+    } else {
+      const label = cue.kind === "stale" ? "Newer link ▸" : "Link incomplete ▸";
+      mk("data-share-open", label, "What happened to this shared link", amber, () => this.openShareCue());
+    }
+    // SHOW THE PILL. `pointer-events:auto` is set INLINE on these buttons (it must be — see the
+    // note in mk()), and that beats the tab's inherited `none`: without this line the cue was
+    // fully CLICKABLE while the pill was still at opacity 0, because the tab only becomes
+    // visible on the first landing and a share arrival is decoded before the first roll starts.
+    // A control you can hit but cannot see is worse than one that is merely late.
+    if (!this.deckOpen) { tab.style.opacity = "1"; tab.style.pointerEvents = "auto"; }
+  }
+  /** Light the shared class again WITHOUT covering it — the mobile answer to "where did it go". */
+  relightShare() {
+    const cue = this._shareCue; if (!cue || !cue.target) return false;
+    const idxs = this.listIdxs(cue.target);
+    if (!idxs.length) return false;
+    this._listFocusId = cue.target;
+    this.setFocusIdxSet(idxs); // frames the class too: the camera goes back to what the link was for
+    this.fx("list_relit", { list: cue.target, items: idxs.length, shared: cue.target === "__shared" });
+    this.track("neural_share_list_relit", { items: idxs.length, shared: cue.target === "__shared" });
+    this.setEvent("On the graph", idxs.length + " technique" + (idxs.length === 1 ? "" : "s") + " from this class", "good");
+    if (this.deckShown && this._viewMode === "explore" && !this._paneStudyActive()) this.renderExplorer();
+    this._renderShareCue();
+    return true;
+  }
+  /** The recipient's deliberate "let me read it": the pane, on Explore, with the class kept lit. */
+  openShareCue() {
+    const cue = this._shareCue;
+    this.openPane("explore");
+    if (cue && cue.target && this.listIdxs(cue.target).length) {
+      this._listFocusId = cue.target;
+      this.setFocusIdxSet(this.listIdxs(cue.target), true);
+      this.renderExplorer();
+    }
+    this.track("neural_share_cue_opened", { kind: cue ? cue.kind : "none" });
   }
   /** A session over a list's decks — the "and drill them" half of the thesis. */
   openListSession(listId) {
@@ -3395,7 +3501,8 @@ class Component extends DCLogic {
     // screen — and the count they care about is not the one about lists they have never made.
     if (this._sharedIncoming) sec.appendChild(this._sharedBlock());
     else if (this._sharedStale) sec.appendChild(this._staleBlock());
-    if (this._undoList) sec.appendChild(this._undoRow());
+    else if (this._sharedBroken) sec.appendChild(this._brokenBlock());
+    if (this._undoRowLive()) sec.appendChild(this._undoRow());
 
     const head = document.createElement("div");
     head.setAttribute("data-lists-head", "1");
@@ -3480,6 +3587,18 @@ class Component extends DCLogic {
     }
     list.appendChild(sec);
   }
+  /**
+   * Is the undo offer still live? An undo is a REACTION, not a record: the old version only ever
+   * cleared `_undoList` when the undo was USED, so a delete left "Deleted “X” · 3 techniques ·
+   * Undo" pinned to the top of Lists — above the recipient's own lists and above a shared class —
+   * for the rest of the session. 90s is generous for "oh no, put it back" and short enough that
+   * it is gone by the next time the pane is opened.
+   */
+  _undoRowLive() {
+    const u = this._undoList; if (!u) return false;
+    if (Date.now() - (u.t || 0) > 90000) { this._undoList = null; return false; }
+    return true;
+  }
   /** The way back from a delete. One outstanding undo at a time, cleared when it is used. */
   _undoRow() {
     const u = this._undoList;
@@ -3548,7 +3667,11 @@ class Component extends DCLogic {
       const un = document.createElement("div");
       un.setAttribute("data-shared-unresolved", String(inc.unknown.length));
       un.style.cssText = "margin-top:7px;font-size:10.5px;line-height:1.45;color:#e8b98a;";
-      un.textContent = inc.unknown.length + " technique" + (inc.unknown.length === 1 ? "" : "s") + " in this link isn’t in this version of the graph yet.";
+      // the verb has to agree with the noun it was just given: "2 techniques … isn't" read like
+      // a bug in the app to anybody who noticed it, on the one surface that has to look trustworthy
+      const many = inc.unknown.length !== 1;
+      un.textContent = inc.unknown.length + (many ? " techniques" : " technique") + " in this link " +
+        (many ? "aren’t" : "isn’t") + " in this version of the graph yet.";
       box.appendChild(un);
     }
     const acts = document.createElement("div");
@@ -3579,15 +3702,40 @@ class Component extends DCLogic {
     save.style.cssText = "flex:none;pointer-events:auto;cursor:pointer;font-family:inherit;font-size:11.5px;font-weight:700;padding:7px 11px;border-radius:8px;border:1px solid rgba(126,224,168,.4);background:rgba(126,224,168,.12);color:#cdebd9;";
     save.addEventListener("click", () => this.saveSharedList());
     acts.appendChild(save);
+    box.appendChild(acts);
+    // DISMISS SITS ON ITS OWN ROW, WELL AWAY FROM SAVE. It used to be the next flex child after
+    // Save, 6px from it: on a phone that is inside one thumb's contact patch, and a mis-tap does
+    // not merely close a card — it discards the class AND records the code `dismissed`, so the
+    // link can never offer it again. Own row, real 32px target, and worded as the action it is
+    // instead of an anonymous ×, which is also what stops it reading as a second Save.
+    const dismissRow = document.createElement("div");
+    dismissRow.style.cssText = "display:flex;justify-content:flex-end;margin-top:26px;";
     const dismiss = document.createElement("button");
     dismiss.type = "button";
     dismiss.setAttribute("data-shared-dismiss", "1");
-    dismiss.textContent = "×";
+    dismiss.textContent = "Not for me";
     dismiss.title = "Dismiss this shared list";
-    dismiss.style.cssText = "flex:none;pointer-events:auto;cursor:pointer;font-family:inherit;font-size:13px;line-height:1;padding:4px 7px;border-radius:6px;border:0;background:transparent;color:#7e8aa3;";
+    dismiss.style.cssText = "flex:none;pointer-events:auto;cursor:pointer;font-family:inherit;font-size:11px;font-weight:600;line-height:1;min-height:32px;padding:9px 12px;border-radius:8px;border:1px solid rgba(150,170,210,.2);background:transparent;color:#8b97b0;";
     dismiss.addEventListener("click", () => this.dismissSharedList());
-    acts.appendChild(dismiss);
-    box.appendChild(acts);
+    dismissRow.appendChild(dismiss);
+    box.appendChild(dismissRow);
+    return box;
+  }
+  /** "This link arrived damaged." A code-shaped string that will not decode does not deserve
+   *  silence: the recipient can act on "ask for it again" and cannot act on nothing at all.
+   *  DURABLE, because the toast carrying the same sentence is overwritten by the roll in seconds. */
+  _brokenBlock() {
+    const b = this._sharedBroken;
+    const box = document.createElement("div");
+    box.setAttribute("data-shared-broken", b.error);
+    box.style.cssText = "margin:4px 6px 8px;padding:9px 10px;border-radius:10px;border:1px solid rgba(232,185,138,.35);background:rgba(46,36,24,.5);";
+    box.innerHTML =
+      '<div style="font-size:11px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:#e8b98a;">Shared class · this link is incomplete</div>' +
+      '<div style="margin-top:5px;font-size:11.5px;line-height:1.5;color:#cbb69c;">' +
+      (b.clipped
+        ? "It was cut short in transit — chat apps and mail clients re-wrap long links. Nothing is wrong with the class itself; ask for the link again."
+        : "This link could not be read — a character is missing or was changed on the way here. Ask for it again.") +
+      "</div>";
     return box;
   }
   /** "The link is fine — this build is older." A valid code whose ordinals this build has no
@@ -3626,6 +3774,8 @@ class Component extends DCLogic {
     this._listFocusId = id;
     this._markShareSeen(inc.shareId, "saved", id);
     this._flushSave();
+    // the cue follows the class into its new home, so ◉ keeps working after Save
+    this._setShareCue({ kind: "class", n: inc.ids.length, target: id });
     this.track("neural_share_list_saved", { share_id: inc.shareId, items: inc.ids.length });
     this.setEvent("Saved", inc.ids.length + " technique" + (inc.ids.length === 1 ? "" : "s") + " added to your lists", "good");
     this._refreshListSurfaces();
@@ -3635,6 +3785,7 @@ class Component extends DCLogic {
     if (!this._sharedIncoming) return;
     this._markShareSeen(this._sharedIncoming.shareId, "dismissed");
     this._sharedIncoming = null;
+    this._setShareCue(null); // they said no: the pill stops offering it too
     this.clearFocus();
     this._flushSave();
     this._refreshListSurfaces();
@@ -3647,19 +3798,29 @@ class Component extends DCLogic {
   _openSharedListFromUrl() {
     this._sharedIncoming = null;
     this._sharedStale = null;
+    this._sharedBroken = null;
     let code = "";
     try { code = ngListParseSharePath(location.pathname + location.search); } catch (e) { code = ""; }
-    if (!code) return;
+    if (!code) return; // not code-shaped at all (`/l/not!a!code`): this is an ordinary app visit
     const res = ngListDecodeIds(code, this._ordinalIndex());
     const shareId = ngListShareId(code);
     if (!res.ok) {
-      // not a share link at all (garbage, a clipped code, a hostile URL): the app is an
-      // ordinary app. `truncated`/`count_mismatch` says so out loud — a link that arrived
-      // damaged must never be answered with a SUBSET of the class.
-      const clipped = res.error === "count_mismatch" || res.error === "truncated" || res.error === "truncated_varint" || res.error === "trailing_bytes";
-      if (clipped) this.setEvent("This link is incomplete", "It was cut short in transit — ask for it again", "bad");
+      // A CODE-SHAPED STRING THAT WILL NOT DECODE IS A DAMAGED LINK, AND THE RECIPIENT IS TOLD.
+      // Measured on a real 8-technique code (23 chars, 22 prefixes): 10 of the 22 clip
+      // positions fail as `not_base64url` (a cut that lands mid-quantum, or on non-zero
+      // trailing bits) — the MAJORITY — and only 12 as count_mismatch/truncated*. Keying the
+      // message off the count-byte errors alone therefore answered most real clips with total
+      // silence. Anything that got past ngListParseSharePath is code-shaped, so every failure
+      // here is a link that arrived damaged; say so.
+      const clipped = NG_LIST_CLIP_ERRORS.indexOf(res.error) >= 0;
+      this._sharedBroken = { code: code, error: res.error || "unresolved", clipped: clipped, shareId: shareId };
+      // the toast is best-effort ONLY: the roll loop overwrites it within a couple of seconds
+      // (`setEvent` has one slot). The durable telling is _brokenBlock(), plus the pill cue.
+      this.setEvent(clipped ? "This link is incomplete" : "This link didn’t work",
+        clipped ? "It was cut short in transit — ask for it again" : "Ask for the link again", "bad");
       this.track("neural_share_list_failed", { share_id: shareId, error: res.error || "unresolved", clipped: clipped });
-      this.fx("list_failed", { share_id: shareId, error: res.error || "unresolved" });
+      this.fx("list_failed", { share_id: shareId, error: res.error || "unresolved", clipped: clipped });
+      this._offerShare({ kind: "broken" });
       return;
     }
     if (!res.ids.length) {
@@ -3668,22 +3829,30 @@ class Component extends DCLogic {
       this._sharedStale = { code: code, unknown: res.unknown || [], shareId: shareId };
       this.track("neural_share_list_stale", { share_id: shareId, unknown: (res.unknown || []).length });
       this.fx("list_stale", { share_id: shareId, unknown: (res.unknown || []).length });
-      this.openPane("explore");
-      this.renderExplorer();
+      this._offerShare({ kind: "stale" });
       return;
     }
     // already answered? (see _markShareSeen) — a reload is the same visit, not a second offer
     const seen = this._shareSeen()[shareId];
     const nav = (() => { try { const e = performance.getEntriesByType("navigation")[0]; return e ? e.type : ""; } catch (e) { return ""; } })();
     const sameVisit = nav === "reload" || nav === "back_forward";
+    // RECONCILE THE RECORD AGAINST REALITY. "saved" is a claim about a list that may no longer
+    // exist — the recipient can delete it, a merge can drop it, a blob can be rewritten. When
+    // the list is gone the old code answered with perfect silence: nothing lit, no offer, no
+    // message, on a URL whose entire job is to show a class. The record loses to the list set.
     if (seen && seen.s === "saved") {
-      // it is already theirs: light THEIR list instead of offering a duplicate
-      const mine = seen.listId && this._listsMap()[seen.listId] ? seen.listId : null;
-      this.track("neural_share_list_reopened", { share_id: shareId, state: "saved" });
-      if (mine) { this.openPane("explore"); this.focusList(mine); this.setEvent("Already saved", "This class is in your Lists", "good"); }
-      return;
-    }
-    if (seen && seen.s === "dismissed" && sameVisit) {
+      const mine = seen.listId && this._listsMap()[seen.listId] && this._listsMap()[seen.listId].items.length ? seen.listId : null;
+      if (mine) {
+        this.track("neural_share_list_reopened", { share_id: shareId, state: "saved" });
+        this._listFocusId = mine;
+        this.setFocusIdxSet(this.listIdxs(mine));
+        this.setEvent("Already saved", "This class is in your Lists", "good");
+        this._offerShare({ kind: "class", n: this._listsMap()[mine].items.length, target: mine });
+        return;
+      }
+      this.track("neural_share_list_reoffered", { share_id: shareId, reason: "saved_list_missing" });
+      // fall through and OFFER it again — exactly as if it had never been saved
+    } else if (seen && seen.s === "dismissed" && sameVisit) {
       this.track("neural_share_list_reopened", { share_id: shareId, state: "dismissed" });
       return; // they said no on this visit; reloading is not a new ask
     }
@@ -3693,12 +3862,38 @@ class Component extends DCLogic {
     this.fx("list_opened", { share_id: shareId, items: res.ids.length, unknown: (res.unknown || []).length });
     // canonical code => this joins the creator's share_list_created with no server state
     this.track("neural_share_list_opened", { share_id: shareId, items: res.ids.length, unknown: (res.unknown || []).length });
-    // Arriving ON a share link is not the roll loop opening the pane (PANE LAW): the link IS
-    // the user's action. It latches _paneAutoPaused as usual, so closing the pane resumes play.
-    this.openPane("explore");
     this._listFocusId = "__shared";
     this.setFocusIdxSet(idxs);
-    this.renderExplorer();
+    this._offerShare({ kind: "class", n: res.ids.length, target: "__shared" });
+  }
+  /**
+   * Present an arrival. THE VIEWPORT DECIDES THE TERMINAL STATE, and it is the one design rule
+   * in this whole feature that a desktop reviewer cannot see:
+   *   · wide  — open the pane on Explore (it sits beside the graph; nothing is hidden, and the
+   *             list is read first). Latches _paneAutoPaused as usual, so closing it resumes.
+   *   · phone — the pane is 88vw. Opening it would bury the lit class under a drawer, so the
+   *             landing ENDS on the lit graph and the pill cue carries the offer instead. One
+   *             tap on "Class ▸" reads it; one tap on ◉ lights it again. Nothing auto-opens.
+   * Either way the arrival is the USER's action (they tapped a link), never the roll loop's, so
+   * PANE LAW holds — and on the phone path nothing opens the pane at all.
+   */
+  _offerShare(cue) {
+    this._setShareCue(cue);
+    if (this.isMobile()) {
+      if (cue.kind === "class") {
+        this.setEvent(cue.target === "__shared" ? "Shared with you" : "Already saved",
+          cue.n + " technique" + (cue.n === 1 ? "" : "s") + " lit on the graph · tap Class to read them", "good");
+      }
+      this.forceUpdate();
+      return;
+    }
+    // openPane -> setViewMode("explore") clears the focus set by design (a focus belongs to the
+    // tab that lit it), so the class is re-applied AFTER the pane is up. noFrame: the camera was
+    // already flown to the class above and must not be yanked a second time.
+    const keep = this._listFocusId;
+    this.openPane("explore");
+    if (keep && this.listIdxs(keep).length) { this._listFocusId = keep; this.setFocusIdxSet(this.listIdxs(keep), true); }
+    this._renderPaneBody();
   }
   // authored copy reaches innerHTML through here
   escHTML(v) { return String(v == null ? "" : v).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;"); }
@@ -4997,7 +5192,7 @@ class Component extends DCLogic {
     const pct = Math.round((isEsc ? this.escapeChance(opt) : this.moveChance(n)) * 100);
     const oddsCol = pct >= 60 ? "#7ee0a8" : pct >= 38 ? "#cbd24e" : "#e8956b";
     const pot = Math.round(this.movePotential(opt) * 100);
-    const bottomRow = '<div style="margin-top:8px;padding-top:8px;border-top:1px solid rgba(150,170,210,.1);display:flex;align-items:baseline;justify-content:space-between;gap:8px;">' +
+    const bottomRow = '<div class="ngbotrow" style="margin-top:8px;padding-top:8px;border-top:1px solid rgba(150,170,210,.1);display:flex;align-items:center;justify-content:space-between;gap:6px;">' +
       '<div style="font-size:8px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:#8094b4;">Success rate</div>' +
       '<span class="ngodds" style="font-size:15px;font-weight:700;color:' + oddsCol + ';">' + pct + '%</span>' +
       '</div>';
@@ -5012,6 +5207,15 @@ class Component extends DCLogic {
       '<div style="font-size:11px;color:#93a0bd;line-height:1.3;">' + (isEsc ? "escape route" : "&rarr; " + this.splitName(resName).main) + '</div>' +
       bottomRow +
       '<div class="ngbar" style="position:absolute;left:0;bottom:0;height:3px;width:100%;background:' + col + ';transform-origin:left;transform:scaleX(1);"></div>';
+    // ── CAPTURE THE TECHNIQUE, NOT THE POSITION ──────────────────────────────────────────────
+    // "These are the techniques we learned in today's class" means TRANSITIONS AND SUBMISSIONS.
+    // The landing card's + adds the position you happen to be standing in — legitimate ("we
+    // worked from half guard"), but not what the feature is for. The hand IS the techniques, so
+    // the hand is where a coach captures one: one tap, no commit, the roll carries on.
+    // Bottom-right of the card, beside the odds: the header row's 150px is already glyph +
+    // category + potential, and a 24px target crammed in there is not a thumb target.
+    const capRow = card.querySelector(".ngbotrow");
+    if (capRow) capRow.appendChild(this._listAddButton(n.id, "option"));
     card.addEventListener("mouseenter", () => { card.style.borderColor = "rgba(150,180,255,.55)"; card.style.background = "rgba(40,48,76,.9)"; card.style.transform = "translateY(-2px)"; });
     card.addEventListener("mouseleave", () => { card.style.borderColor = "rgba(150,170,210,.18)"; card.style.background = "rgba(28,32,52,.78)"; card.style.transform = "translateY(0)"; });
     card.addEventListener("click", () => { if (isEsc) onPick(opt); else this.expandOption(opt, onPick, card); });
@@ -5179,7 +5383,34 @@ class Component extends DCLogic {
     addBtn.style.marginLeft = "auto";
     foot.appendChild(addBtn);
     el.appendChild(foot);
+    this._dockLandCard(el);
     return el;
+  }
+  /**
+   * Dock the landing card ABOVE the options tray on a narrow viewport.
+   *
+   * The tray is `position:absolute; bottom:84px` with NO height, so it grows UPWARD as its cards
+   * grow; the landing card's `bottom` is a CSS constant (206px on a phone) that was tuned against
+   * a shorter tray. Measured at 390x844: tray top 583, landing-card bottom 646 — a 63px overlap,
+   * and the card is z-index 5 over the tray's 4, so it covered the top of every option card: the
+   * category, the potential and the technique NAME you are choosing between. (The overlap
+   * pre-dates the capture `+`, which widened it by ~9px; a constant cannot track a tray whose
+   * height depends on how many lines a technique's name wraps to.)
+   *
+   * So dock off the tray's MEASURED top instead. Mobile only: on desktop the tray is one row of
+   * cards well below the card and the authored constant is right.
+   */
+  _dockLandCard(el) {
+    if (!el || !this.isMobile()) return;
+    const row = this.optionsRef.current; if (!row) return;
+    const h = row.getBoundingClientRect().height;
+    if (!(h > 0)) return; // no hand dealt yet — the CSS constant is as good a guess as any
+    const TRAY_BOTTOM = 84; // matches .ng-optionrow's own `bottom` in xdc-template.html
+    // `!important` is REQUIRED, not cargo cult: the mobile rule is
+    // `@media (max-width:640px){.ng-landcard{bottom:206px!important}}`, and a plain inline style
+    // loses to an !important declaration in a stylesheet. Setting `el.style.bottom` moved the card
+    // by 2px (646 → 644) and looked like the measurement was wrong rather than the cascade.
+    el.style.setProperty("bottom", Math.round(TRAY_BOTTOM + h + 8) + "px", "important");
   }
   _landAnswered(correct, tier, mode, hooks) {
     this._landPending = false;

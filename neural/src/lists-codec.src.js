@@ -53,6 +53,26 @@ export const NG_LIST_MAX_ITEMS = 60;
 // legitimate 60-item code, and well inside every proxy/browser URL limit.
 export const NG_LIST_MAX_CODE_CHARS = 512;
 
+// ── WHAT A CLIPPED LINK LOOKS LIKE FROM THE OUTSIDE ─────────────────────────────────────────
+// Detecting truncation is only half the job: the recipient has to be TOLD, and the caller can
+// only tell them if it can recognise the shape. Chopping a code does NOT reliably produce a
+// count error — measured over every prefix of a real 8-item code (23 chars, 22 prefixes):
+//     not_base64url 10 · truncated_varint 7 · count_mismatch 4 · truncated 1
+// The base64 layer refuses first the moment a cut lands mid-quantum (length % 4 == 1) or on
+// non-zero trailing bits, and that is the MAJORITY of real clip positions. So `not_base64url`
+// belongs in this set: it is what most cut links actually look like. Errors that a cut cannot
+// produce (bad_version, too_long, too_many_items, non_canonical_varint, ordinal_out_of_range)
+// stay out — those are a mistyped or hostile code, a different sentence to the user.
+// Pinned by tests/share_lists_codec.test.mjs, which walks every prefix of real codes and
+// asserts each failure lands in one bucket or the other.
+export const NG_LIST_CLIP_ERRORS = [
+  "count_mismatch",
+  "truncated",
+  "truncated_varint",
+  "trailing_bytes",
+  "not_base64url",
+];
+
 // Ordinals are minted 0,1,2,… and appended forever; 2^28 is ~180,000 years of content
 // growth at this repo's rate, and it caps a varint at 4 bytes.
 const MAX_ORDINAL = 0x0fffffff;
@@ -298,6 +318,24 @@ export function ngListOrdinalIndex(byId) {
  * The analytics join key: first 12 chars of the code. Because the encoding is canonical,
  * the creator's share_id and every recipient's share_id are the same string for the same
  * set of techniques — a real viral funnel with no server state.
+ *
+ * CANONICALITY IS PER-VERSION, so one set of techniques has a v1 spelling and a v2 spelling and
+ * therefore TWO share_ids. How the funnel handles that, stated once so nobody has to guess:
+ *
+ *   · v1 is never MINTED (see NG_LIST_WIRE_VERSION) — it only ever decodes. So no new link, and
+ *     no `neural_share_list_created` event, can carry a v1 id. Every creator↔recipient join
+ *     from here on is within v2, and joins exactly.
+ *   · A v1 code can therefore only appear on the RECIPIENT side, from a link pasted into a group
+ *     chat before the format bump. Those `neural_share_list_opened` rows join to no creator row
+ *     and are counted as what they are: an unattributed open of a legacy link. They are NOT
+ *     re-keyed to the v2 id — deriving one would mean re-encoding a stranger's ordinals and
+ *     asserting the two ids are the same event, which is a guess dressed as data.
+ *   · The two ids never COLLIDE: the version byte LEADS the wire, so the ids diverge within
+ *     their first two characters (base64 packs 3 bytes into 4 chars, so 0x01 and 0x02 share the
+ *     first char and differ in the second). A legacy open can never be conflated with a v2 one.
+ *   · Consequence to expect in the dashboard: a small, decaying tail of creator-less opens. If
+ *     that tail is ever big enough to matter, the fix is a `wire_version` property on the event
+ *     (already available as `ngListDecodeOrdinals().version`), not a synthetic join.
  */
 export function ngListShareId(code) {
   return typeof code === "string" ? code.slice(0, 12) : "";

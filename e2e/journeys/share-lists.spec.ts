@@ -765,6 +765,28 @@ test("deleting a list asks first, and can be taken back @curated", async ({ page
     }),
     "undo restores the list, with its techniques",
   ).toMatchObject({ lists: 1, items: picks.map((p) => p.id) });
+
+  // …AND THE OFFER EXPIRES. An undo is a reaction ("oh no, put it back"), not a record: it used to
+  // be cleared only by being USED, so one delete pinned `Deleted "X" · 3 techniques · Undo` to the
+  // top of Lists — above the user's own lists, above a shared class — for the whole session. The
+  // window is 90s of real time; the predicate is what is asserted here (a test that sleeps 90
+  // seconds is a test nobody runs).
+  await del.click();
+  await del.click();
+  await expect(page.locator("[data-list-undo]"), "offered right after the delete").toBeVisible();
+  await page.evaluate(() => {
+    const a = (window as any).__neural;
+    a._undoList.t = Date.now() - 91_000; // one second past the window
+    a._refreshListSurfaces();
+  });
+  await expect(
+    page.locator("[data-list-undo]"),
+    "a stale undo row is gone from Lists, not pinned there for the session",
+  ).toHaveCount(0);
+  expect(
+    await page.evaluate(() => (window as any).__neural._undoList),
+    "…and the stashed list is released, not just hidden",
+  ).toBeNull();
 });
 
 test("a hostile or stale link degrades: nothing crashes, nothing lies", async ({
@@ -906,6 +928,32 @@ test("/l leaks into NOTHING a crawler reads: not the sitemap, not llms.txt, not 
     ogTitle([sample], 1),
     `the preview text keeps the position qualifier (from "${sample}")`,
   ).toContain(sample.replace(/^.*? from /i, ""));
+
+  // THE TITLE THE FUNCTION REWRITES IS THE MARKED ONE, and it has to be: this shell carries a
+  // SECOND <title> — `<title>Search</title>` inside the search button's inline SVG — and
+  // HTMLRewriter selects by element name, so a bare `title` selector replaces the accessible
+  // name of a control with the shared class's technique list. Asserted from the served bytes AND
+  // the Function source, because only the pair proves the scoping.
+  const servedShell = await (await request.get("/l.html")).text();
+  const allTitles = servedShell.match(/<title[\s>]/g) || [];
+  expect(
+    allTitles.length,
+    "premise: the shell really does contain more than one <title> element",
+  ).toBeGreaterThan(1);
+  expect(
+    (servedShell.match(/data-share-title="1"/g) || []).length,
+    "exactly one title carries the rewrite marker",
+  ).toBe(1);
+  expect(
+    servedShell,
+    "…and it is the document title in <head>, not the SVG one",
+  ).toMatch(/<head><title data-share-title="1">/);
+  const fnSrc = readFileSync(resolve(__dirname, "../../functions/l/[[path]].js"), "utf8");
+  expect(
+    fnSrc,
+    "the Function scopes its title rewrite to the marker — a bare .on(\"title\") hits the SVG one",
+  ).toContain('.on("title[data-share-title]"');
+  expect(fnSrc, "and never selects bare `title`").not.toMatch(/\.on\(\s*"title"\s*,/);
 
   // and the shell itself says so out loud
   const shell = await (await request.get("/l.html")).text();

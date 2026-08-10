@@ -59,9 +59,30 @@ html = html.replace(
 );
 
 // ── 2. identity: this is not a page, it is a link target ───────────────────────────────────
+// `data-share-title` is a CONTRACT, exactly like data-share-og on the meta tags: the Function
+// rewrites `title[data-share-title]`, never bare `title`. It must not be bare, because this
+// shell contains a SECOND <title> — `<title>Search</title>` inside the search button's inline
+// SVG (SVG has its own <title> element, and HTMLRewriter's `title` selector matches by element
+// name, not by position). Rewriting that one replaces the accessible name of the search control
+// with the shared class's technique list.
 const TITLE = "Shared technique list · BJJGraph";
 if (!/<title>[^<]*<\/title>/.test(html)) die("index.html has no <title>.");
-html = html.replace(/<title>[^<]*<\/title>/, `<title>${TITLE}</title>`);
+html = html.replace(
+  /<title>[^<]*<\/title>/,
+  `<title data-share-title="1">${TITLE}</title>`,
+);
+const titles = (html.match(/<title[\s>]/g) || []).length;
+const marked = (html.match(/data-share-title="1"/g) || []).length;
+if (marked !== 1)
+  die(
+    `the shell must carry exactly ONE data-share-title marker (found ${marked}).`,
+  );
+if (titles > 1)
+  console.log(
+    `[share-shell] note: ${titles} <title> elements in the shell (the extra one(s) are inside ` +
+      `inline SVG) — the Function rewrites only title[data-share-title], which is why the ` +
+      `marker exists.`,
+  );
 
 // (noindex,nofollow went in beside <base> above — a share URL is not content. It is asserted
 // from the SERVED bytes by the e2e SEO journey, so losing it goes red.)
