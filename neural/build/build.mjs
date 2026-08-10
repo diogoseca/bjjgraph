@@ -46,6 +46,47 @@ const challengeFeedbackCSS = readFileSync(
   "utf8",
 );
 const systemsCSS = readFileSync(R("src/systems.css"), "utf8");
+
+// lists-codec.src.js is a REAL ES module (so `node --test` and a Cloudflare Pages Function
+// can import the identical source — one codec, never a second implementation to drift).
+// This entry is concatenated text, not a module graph, so the `export ` keywords are
+// stripped here. If that ever silently stops matching, the bundle breaks at parse time and
+// the whole app disappears — so assert it, loudly, at build time.
+const stripExports = (file) => {
+  const raw = readFileSync(R("src/" + file), "utf8");
+  const out = raw.replace(/^export (function|const|let|var|class) /gm, "$1 ");
+  if (out === raw || /^\s*(export|import)\s/m.test(out)) {
+    throw new Error(
+      `build.mjs: ${file} export-strip failed (no match, or an export/import survived). ` +
+        "Fix the strip regex or the file — pinned by tests/share_lists_*.test.mjs.",
+    );
+  }
+  return out;
+};
+const listsCodec = stripExports("lists-codec.src.js");
+// lists.src.js shares ONE scope with the codec here, so a duplicated top-level name would be
+// a SyntaxError that deletes the whole app. Assert the collision can't creep in.
+const listsStore = stripExports("lists.src.js");
+{
+  // EVERY top-level binding form, not just function/const: two `let NGL_FOO` in one scope is
+  // the same SyntaxError, and it would delete the same whole app. (The guard used to scan
+  // function|const only, so a colliding `let`/`var`/`class` walked straight past it.)
+  const names = (src) =>
+    new Set(
+      [...src.matchAll(/^(?:function|const|let|var|class)\s+([A-Za-z_$][\w$]*)/gm)].map(
+        (m) => m[1],
+      ),
+    );
+  const clash = [...names(listsCodec)].filter((n) => names(listsStore).has(n));
+  if (clash.length) {
+    throw new Error(
+      "build.mjs: lists-codec.src.js and lists.src.js declare the same top-level name(s) " +
+        `[${clash.join(", ")}] — in the concatenated bundle that is a SyntaxError and the app ` +
+        "disappears. Rename one side (see the scope note at the top of lists.src.js).",
+    );
+  }
+}
+
 let app = readFileSync(R("src/app.src.jsx"), "utf8");
 const patched = app
   .replaceAll(
@@ -103,6 +144,43 @@ class DCLogic {
 /* ---- begin sound.src.js ---- */
 ${sound}
 /* ---- end sound.src.js ---- */
+
+/* ---- begin share-link list codec + store (pure; ordinals <-> URL code, lists, og text) ---- */
+${listsCodec}
+${listsStore}
+// Reachable, greppable, and safe from tree-shaking: both files are pure and stateless, so
+// exposing them costs nothing and lets the list UI, the /l recipient path, the unit suite and
+// a paired debugging session all use the SAME functions. Both naming styles are published:
+// the short one reads well at a call site, the ng* one matches the module + the unit tests.
+;(globalThis).NGLists = {
+  version: NG_LIST_WIRE_VERSION,
+  maxItems: NG_LIST_MAX_ITEMS,
+  maxCodeChars: NG_LIST_MAX_CODE_CHARS,
+  nameMax: NG_LIST_NAME_MAX,
+  clipErrors: NG_LIST_CLIP_ERRORS,
+  classifyFailure: ngListClassifyFailure,
+  looksLikeOurCode: ngListLooksLikeOurCode,
+  wireVersionOf: ngListWireVersionOf,
+  encodeOrdinals: ngListEncodeOrdinals,
+  decodeOrdinals: ngListDecodeOrdinals,
+  normalizeOrdinals: ngListNormalizeOrdinals,
+  encodeIds: ngListEncodeIds,
+  decodeIds: ngListDecodeIds,
+  ordinalIndex: ngListOrdinalIndex,
+  shareId: ngListShareId,
+  normalizeLists: ngListsNormalize,
+  mergeLists: ngMergeLists,
+  defaultName: ngListDefaultName,
+  parseSharePath: ngListParseSharePath,
+  shareUrl: ngListShareUrl,
+  ogTitle: ngShareOgTitle,
+  ogDescription: ngShareOgDescription,
+  ngListEncodeOrdinals, ngListDecodeOrdinals, ngListNormalizeOrdinals,
+  ngListEncodeIds, ngListDecodeIds, ngListOrdinalIndex, ngListShareId,
+  ngListsNormalize, ngMergeLists, ngListDefaultName, ngListParseSharePath,
+  ngListShareUrl, ngShareOgTitle, ngShareOgDescription,
+}
+/* ---- end share-link list codec + store ---- */
 
 /* ---- begin challenge definitions + pure engine ---- */
 ${challengeDefinitions}

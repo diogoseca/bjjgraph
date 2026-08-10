@@ -16,6 +16,9 @@ on:
       - "scripts/**"
       - "graph.json"
       - "tests/artifacts/graph_validation_baseline.json"
+      - "node_ordinals.json"
+      - "neural/src/lists-codec.src.js"
+      - "tests/*.test.mjs"
       - ".github/workflows/ci-validate.yml"
   push:
     branches: [dev]
@@ -34,17 +37,39 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4
+        with:
+          # 2 commits so the ordinal gate can diff against HEAD^1 — on a PR that first
+          # parent is the base-branch tip, which is exactly the baseline we must prove
+          # append-only against.
+          fetch-depth: 2
 
       - name: Setup Python
         uses: actions/setup-python@7f4fc3e22c37d6ff65e88745f38bd3157c663f7c # v4
         with:
           python-version: "3.11"
 
+      - name: Setup Node
+        uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
+        with:
+          node-version: "22"
+
       - name: Install Python dependencies
         run: pip install jsonschema
 
       - name: Schema validation (hard gate)
         run: python3 scripts/validate_json.py --all
+
+      # Pure-unit suites (node --test, no browser, no build, ~1s): the share-link wire codec
+      # and the neural deck-hydration contract. Separate from the Playwright gates.
+      - name: Pure unit suites
+        run: node --test tests/*.test.mjs
+
+      # Share-link ordinal lockfile: HARD gate (no ratchet). Every live graph node must own
+      # a permanent ordinal, and no committed ordinal may be renumbered, reused or deleted —
+      # share links already posted in gym WhatsApp groups encode ordinals, so a renumber
+      # silently changes which techniques those links open.
+      - name: Share ordinal lockfile (append-only, hard gate)
+        run: python3 scripts/regenerate_node_ordinals.py --check --baseline-ref HEAD^1
 
       - name: Graph integrity (ratchet against baseline)
         run: |

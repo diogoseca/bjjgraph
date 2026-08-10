@@ -36,6 +36,9 @@ class Component extends DCLogic {
   // the merged learning pane IS the drill pane — explorerRef stays as an alias so every
   // display-based open-check (incl. renderChallengeCue's) reads the one real element
   explorerRef = this.drillRef;
+  // how long a focus flight OWNS the camera (see holdCamera). Long enough to read a lit class on
+  // a phone, short enough that the roll's follow-cam is never held hostage.
+  camHoldSec = 7;
   explorerListRef = React.createRef();
   explorerSearchRef = React.createRef();
   explorerSearchWrapRef = React.createRef();
@@ -376,6 +379,10 @@ class Component extends DCLogic {
     // (SEO) content, defeating the "overlay so legacy always shows" fallback contract.
     try { this.ingest(data); }
     catch (e) { console.error("[neural] ingest failed:", e); this._fallbackToLegacy(); return; }
+    // a /l/<code> arrival is decoded HERE — client-side, off the static shell, no Function
+    // needed. Synchronous (not deferred through after()) so the lit graph and the list are
+    // the first thing the recipient sees, on the first frame.
+    try { this._openSharedListFromUrl(); } catch (e) { console.warn("[neural] share link failed:", e); }
     // flashcards (13.5MB) load in the BACKGROUND — first paint doesn't wait; the drill panel
     // and odds refresh when the decks land. (fetch literal kept patchable by build.mjs.)
     fetch("flashcards.json", { cache: "no-cache" })
@@ -414,7 +421,11 @@ class Component extends DCLogic {
     const nodes = data.nodes.map((n, i) => {
       idIndex.set(n.id, i);
       const dom = (n.s && typeof n.s[0] === "number") ? n.s[0] : this.dominance(n.ty, n.t);
-      return { idx: i, id: n.id, x: n.x, y: n.y, t: n.t, ty: n.ty, s: n.s || null, dom, col: this.domColor(dom), deg: 0, lit: -99, posId: n.posId || null, fromPositionId: n.fromPositionId || null, fromRole: n.fromRole || null, cal: n.cal || null, familyHub: n.familyHub || null };
+      // `o` = this node's PERMANENT share-link ordinal (node_ordinals.json, stamped into
+      // graph-data.json by regenerate_neural_data.py). Never the array index `i`: that is
+      // filesystem-ordered and one new content file renumbers it, which would silently
+      // repoint every share link already posted in a WhatsApp group.
+      return { idx: i, id: n.id, x: n.x, y: n.y, t: n.t, ty: n.ty, s: n.s || null, dom, col: this.domColor(dom), deg: 0, lit: -99, posId: n.posId || null, fromPositionId: n.fromPositionId || null, fromRole: n.fromRole || null, cal: n.cal || null, familyHub: n.familyHub || null, o: typeof n.o === "number" ? n.o : null };
     });
     const adj = nodes.map(() => []);
     const links = [];
@@ -455,6 +466,16 @@ class Component extends DCLogic {
     let r = 0; for (const n of nodes) { if (!isFinite(n.x) || !isFinite(n.y)) continue; r = Math.max(r, Math.hypot(n.x - cx, n.y - cy)); }
 
     this.nodes = nodes; this.links = links; this.adj = adj; this._idIndex = idIndex;
+    // share-link ordinal manifest, both directions, built once per ingest
+    this._sharedIncoming = null; // "no share link on this URL" is a value, not an absence
+    this._sharedStale = null;    // …and "a valid link this build is too old for" is a third value
+    this._undoList = null; this._delArm = null;
+    this._ordById = new Map(); this._ordToId = new Map();
+    for (const n of nodes) {
+      if (typeof n.o !== "number") continue;
+      this._ordById.set(n.id, n.o);
+      if (!this._ordToId.has(n.o)) this._ordToId.set(n.o, n.id);
+    }
     // slug indices for resolving cal.outcomes[].to -> node index. Robust to the layout's
     // nested ids: cal targets use the bare state-machine slug ("rear-triangle/top",
     // "arm-triangle-from-side-control") while nested layout ids are compound
@@ -1042,7 +1063,15 @@ class Component extends DCLogic {
     } else if (!open && wasShown) {
       if (this._paneAutoPaused) { this._paneAutoPaused = false; this.setPaused(false); this.fx("pane_resumed", {}); }
       this._pathDim = false;
+      // ── ON A PHONE, CLOSING THE DRAWER IS HOW YOU LOOK AT THE GRAPH ──────────────────────
+      // The pane is 88vw here: it IS the screen. So a close is "let me see the graph", not
+      // "throw the selection away" — and a shared class that vanished the moment the drawer
+      // was dismissed made the link's whole promise unreachable on the only device it ships
+      // to. A LIST selection therefore survives a mobile close (desktop keeps the original
+      // clear-on-close: there the pane never covered the graph, so nothing was hidden).
+      const keepList = this.isMobile() && this._listFocusId && this.listIdxs(this._listFocusId).length ? this._listFocusId : null;
       this.clearFocus();
+      if (keepList) { this._listFocusId = keepList; this.setFocusIdxSet(this.listIdxs(keepList), true); }
       this._learningViewsTracked = {};
       const fallback = this._tutEl
         ? this._tutEl.querySelector("[data-challenge-cue-open]")
@@ -1059,7 +1088,10 @@ class Component extends DCLogic {
     const panel = this.drillRef.current;
     if (panel) { panel.style.display = open ? "flex" : "none"; panel.style.pointerEvents = open ? "auto" : "none"; }
     const tab = this.drillTabRef.current;
-    if (tab) { const tv = (this.deckReady && !this.deckOpen) ? "1" : "0"; tab.style.opacity = tv; tab.style.pointerEvents = tv === "1" ? "auto" : "none"; }
+    // a live share cue makes the pill available immediately: on a phone the pill is the ONLY
+    // surface a recipient has before the first landing, and it is where the re-light lives.
+    if (tab) { const tv = ((this.deckReady || this._shareCue) && !this.deckOpen) ? "1" : "0"; tab.style.opacity = tv; tab.style.pointerEvents = tv === "1" ? "auto" : "none"; }
+    this._renderShareCue();
     const chip = this.acctChipRef.current;
     if (chip) chip.classList.toggle("ng-chip-merged", open);
     if (open !== wasShown && this.renderChallengeCue) this.renderChallengeCue(); // cue hides while the pane is up
@@ -1265,6 +1297,7 @@ class Component extends DCLogic {
     this._progressLoaded = true; // ingest ran (any path) — unmount flush is now safe (Q001)
     this.rec = {}; this.stage = {}; this.units = {}; this.belts = { won: {} }; this._settingsAt = {}; this.tut = { done: {} };
     this.challenges = {}; this.badges = {}; this.coins = {}; this._challengeRuntime = {};
+    this.lists = {}; // shareable technique lists (ids of graph nodes) — see the LISTS section
     try {
       const raw = localStorage.getItem("bjj-neural-progress"); if (!raw) return;
       const p = JSON.parse(raw); if (!p || (p.v !== 1 && p.v !== 2)) return;
@@ -1285,6 +1318,10 @@ class Component extends DCLogic {
       this.challenges = Object.assign({}, p.challenges || {});
       this.badges = Object.assign({}, p.badges || {});
       this.coins = Object.assign({}, p.coins || {});
+      // lists ride the EXISTING v2 blob: a coach's class list is not worth a schema migration
+      this.lists = ngListsNormalize(p.lists);
+      this.activeListId = this.get("activeListId", null);
+      if (this.activeListId && !this.lists[this.activeListId]) this.activeListId = this.listsArray()[0] || null;
       // a user who already met the old 3-beat coach starts the drip past those three steps
       if (!p.tut) { try { if (localStorage.getItem("bjj-neural-coached")) { this.tut.done.coach1 = 1; this.tut.done.coach2 = 1; this.tut.done.coach3 = 1; } } catch (e) {} }
       this._syncWhiteChallengeCompatibility(p.updatedAt || 0);
@@ -1301,7 +1338,7 @@ class Component extends DCLogic {
     const trimmed = {};
     for (const k of Object.keys(days).sort().slice(-30)) trimmed[k] = days[k];
     this._progressAt = Date.now();
-    return { v: 2, prep: this.prep || {}, rec: this.rec || {}, stage: this.stage || {}, units: this.units || {}, belts: this.belts || { won: {} }, tut: this.tut || { done: {} }, challenges: this.challenges || {}, badges: this.badges || {}, coins: this.coins || {}, days: trimmed, settings: this.settings || {}, settingsAt: this._settingsAt || {}, updatedAt: this._progressAt };
+    return { v: 2, prep: this.prep || {}, rec: this.rec || {}, stage: this.stage || {}, units: this.units || {}, belts: this.belts || { won: {} }, tut: this.tut || { done: {} }, challenges: this.challenges || {}, badges: this.badges || {}, coins: this.coins || {}, lists: this.lists || {}, days: trimmed, settings: this.settings || {}, settingsAt: this._settingsAt || {}, updatedAt: this._progressAt };
   }
   _saveProgress() {
     clearTimeout(this._saveT);
@@ -1974,6 +2011,13 @@ class Component extends DCLogic {
     go.setAttribute("data-go", "1"); // journey tests confirm the commit via this button
     go.innerHTML = (cat === "Submission" ? "Go for the " + sp.main : "Execute this move") + ' <kbd style="font-family:inherit;font-size:10px;font-weight:700;opacity:.7;margin-left:7px;border:1px solid rgba(255,255,255,.5);border-radius:4px;padding:0 5px;">\u23ce</kbd>';
     go.style.cssText = "flex:1;cursor:pointer;font-family:inherit;font-size:13.5px;font-weight:700;padding:12px;border-radius:11px;border:none;background:linear-gradient(135deg,#4a6cff,#6a5cff);color:#fff;box-shadow:0 4px 16px rgba(74,108,255,.35);display:flex;align-items:center;justify-content:center;";
+    // the same capture, with room for a label: this sheet is what a coach reads BEFORE committing,
+    // and on a phone it is a full-width surface where a 44px target actually fits.
+    const capture = this._listAddButton(n.id, "sheet");
+    capture.setAttribute("data-list-label", "1"); // room for words here — and _styleListAdd writes them
+    capture.style.width = "auto"; capture.style.height = "auto"; capture.style.minWidth = "44px"; capture.style.minHeight = "44px";
+    capture.style.padding = "12px 14px"; capture.style.borderRadius = "11px"; capture.style.fontSize = "14px";
+    this._styleListAdd(capture, n.id); // re-paint now that it is marked labelled
     back.addEventListener("click", () => this.closeOptionDetail());
     head.querySelector(".x").addEventListener("click", () => this.closeOptionDetail());
     // perspective tab — re-render the body for attacker / defender and restyle the segmented control
@@ -1991,7 +2035,7 @@ class Component extends DCLogic {
       if (bdn) bdn.addEventListener("click", (e) => { e.stopPropagation(); this.bumpCardSuccess(n, -1); bupd(); });
       if (bup) bup.addEventListener("click", (e) => { e.stopPropagation(); this.bumpCardSuccess(n, 1); bupd(); }); }
     go.addEventListener("click", () => { this._detailCtx = null; this.hideOptDetail(); this.setPaused(false); onPick(opt); });
-    foot.appendChild(back); foot.appendChild(go);
+    foot.appendChild(capture); foot.appendChild(back); foot.appendChild(go);
     panel.appendChild(foot);
     // beat beacon hands into the sheet: the drill first (odds are pumpable) — else straight to Execute
     { const jitEl = panel.querySelector("[data-jit]"); this.setBeacon(jitEl ? "jit" : "execute", jitEl || go); }
@@ -2293,9 +2337,62 @@ class Component extends DCLogic {
     let minx = 1e9, miny = 1e9, maxx = -1e9, maxy = -1e9;
     for (const i of idxs) { const n = this.nodes[i]; if (!n) continue; minx = Math.min(minx, n.x); maxx = Math.max(maxx, n.x); miny = Math.min(miny, n.y); maxy = Math.max(maxy, n.y); }
     if (minx > maxx) return;
-    this.camTarget = { cx: (minx + maxx) / 2, cy: (miny + maxy) / 2, vw: Math.max(this.graphW * 0.4, (maxx - minx) * 2.2) };
-    this.lastInteract = 0; // let camera move
+    // FIT BOTH AXES. `vw` is the visible WIDTH; the visible height is vw * H/W. A phone is 390x844,
+    // so a selection that is tall and narrow was framed on its width and hung off the top and
+    // bottom of the screen — the same margin has to be asked for vertically or "framed" is a claim
+    // about one axis only.
+    const aspect = (this.H || 1) / (this.W || 1);
+    const need = Math.max((maxx - minx) * 2.2, aspect > 0 ? ((maxy - miny) * 2.2) / aspect : 0);
+    this.camTarget = { cx: (minx + maxx) / 2, cy: (miny + maxy) / 2, vw: Math.max(this.graphW * 0.4, need) };
+    // …and TAKE THE CAMERA, or the flight above is a wish. See holdCamera().
+    this.holdCamera();
   }
+  // ══════════════════════════════════════════════════════════════════════════════════════
+  // CAMERA OWNERSHIP — a focus flight gets a short LEASE on the camera.
+  //
+  // frameNodes() only ever wrote `camTarget`. It does not move anything: the render loop eases
+  // the camera toward camTarget, and updateCamera()'s follow-cam REWRITES camTarget at the
+  // current roll node on EVERY FRAME. So every "here is your selection" flight — a shared class
+  // lighting up, a System lighting its members — was overwritten within one frame whenever a
+  // roll was live. (It also set `lastInteract = 0` "to let the camera move", which did the
+  // opposite: `userActiveNow()` is the ONE condition that suppresses the follow-cam, so zeroing
+  // it handed the camera straight back to the roll.)
+  //
+  // Nobody saw it because on a desktop the arrival opened the pane, and an open pane pauses the
+  // roll, and a paused roll suppresses the auto-retarget. The moment a phone arrival stopped
+  // opening the pane (v1.81.3 — the terminal state on a phone is the LIT GRAPH) the follow-cam
+  // won every time, and both the arrival flight and every later ◉ re-light died a beat after
+  // they started.
+  //
+  // The lease, therefore, and its three rules:
+  //   · IT EXPIRES (CAM_HOLD_SEC). The roll must get its camera back; a frozen camera is a worse
+  //     bug than the one this fixes, and the 400ms pan-to-current-node behaviour has to survive.
+  //   · A REAL PAN OR PINCH CANCELS IT. If the user takes the camera, we do not fight them.
+  //   · IT IS RE-TAKEN, not queued: a second ◉ tap starts a fresh lease.
+  // The roll's automatic camera writers yield while it is live; the roll's USER-driven ones
+  // (roam to a node, "roll from here", opening a dossier) release it instead — asking to go
+  // somewhere else is not a collision, it is a decision.
+  // ══════════════════════════════════════════════════════════════════════════════════════
+  holdCamera(sec) {
+    // PENDING (-1) when the frame clock does not exist yet. A share arrival is decoded during
+    // ingest, which can be before the first frame — and `this.now` is not a page-relative zero in
+    // production (it is the rAF timestamp), so "0 + 7" could be a deadline already in the past on
+    // a slow phone. Starting the lease on the first frame instead has no such origin to get wrong.
+    const t = typeof this.now === "number" && isFinite(this.now) ? this.now : null;
+    this._camHoldUntil = t == null ? -1 : t + (sec || this.camHoldSec);
+    this._camHoldSecs = sec || this.camHoldSec;
+    // remembered so an intro that is still flying can hand the flight over when it finishes,
+    // instead of eating it (a share link is decoded at t=0, mid-intro, every time)
+    const c = this.camTarget;
+    this._camHoldTarget = c ? { cx: c.cx, cy: c.cy, vw: c.vw } : null;
+  }
+  camHeld() {
+    if (this._camHoldUntil == null) return false;
+    if (this._camHoldUntil === -1) return true; // taken before the clock existed; armed on the next frame
+    return (this.now || 0) < this._camHoldUntil;
+  }
+  /** The user took the camera (pan/pinch/wheel) or asked to go elsewhere: drop the lease. */
+  releaseCamera() { this._camHoldUntil = null; this._camHoldTarget = null; }
   // deck key -> the node that key belongs to. Built ONCE and cached, so it must not depend on live
   // state: a position collapses to a single node that answers to BOTH of its role keys, and both are
   // registered here rather than whichever side `deckKeyFor` reports for the state currently in play.
@@ -2722,6 +2819,10 @@ class Component extends DCLogic {
           this.coins || {},
           cloud.coins || {},
         );
+        // ADD-WINS, beside the collectibles' UNION: union of lists, union of their items. A
+        // delete loses to a stale device — deliberate (see ngMergeLists).
+        this.lists = ngMergeLists(this.lists || {}, cloud.lists || {});
+        if (this.activeListId && !this.lists[this.activeListId]) this.activeListId = this.listsArray()[0] || null;
         this._syncWhiteChallengeCompatibility(cloud.updatedAt || 0);
         const localAt = this._progressAt || 0;
         if (cloud.settings) {
@@ -3186,8 +3287,16 @@ class Component extends DCLogic {
       this.renderSystemDetail(list, this._systemId, mk);
       return;
     }
+    // A list selection SURVIVES the reset below (Systems does the same via _systemId, but from
+    // its own detail view). Without this, every Explore re-render — including one keystroke in
+    // the search box — would drop the highlight a shared link just lit.
+    const keepList = this._listFocusId;
     this._pathDim = false;
     this.clearFocus();
+    if (keepList && this.listIdxs(keepList).length) {
+      this._listFocusId = keepList;
+      this.setFocusIdxSet(this.listIdxs(keepList), true);
+    }
     // search mode: flat ranked results across all nodes
     if (q) {
       const matches = this.nodes.filter((n) => n.t.toLowerCase().includes(q)).slice(0, 120);
@@ -3195,7 +3304,8 @@ class Component extends DCLogic {
       list.appendChild(mk('<span style="font-size:10.5px;letter-spacing:.12em;text-transform:uppercase;color:#7b8aa8;font-weight:700;">' + matches.length + ' result' + (matches.length === 1 ? "" : "s") + '</span>', 12));
       for (const n of matches) {
         const cat = ({ positions: "Pos", transitions: "Trans", submissions: "Sub" })[n.ty];
-        list.appendChild(mk(this.nodeGlyph(n.ty, this.hex(n.col), 9) + '<span style="font-size:13px;color:#dbe2f0;">' + this.hl(this.splitName(n.t).main, q) + (this.splitName(n.t).from ? ' <span style="color:#6b7691;font-size:11px;">' + this.splitName(n.t).from + '</span>' : "") + '</span><span style="margin-left:auto;font-size:10px;color:#7e8aa3;">' + cat + '</span>', 12, () => this.openDossier(n.idx)));
+        const hit = mk(this.nodeGlyph(n.ty, this.hex(n.col), 9) + '<span style="font-size:13px;color:#dbe2f0;">' + this.hl(this.splitName(n.t).main, q) + (this.splitName(n.t).from ? ' <span style="color:#6b7691;font-size:11px;">' + this.splitName(n.t).from + '</span>' : "") + '</span><span style="margin-left:auto;font-size:10px;color:#7e8aa3;">' + cat + '</span>', 12, () => this.openDossier(n.idx));
+        list.appendChild(this._withListAdd(hit, n, "explore"));
       }
       return;
     }
@@ -3245,13 +3355,16 @@ class Component extends DCLogic {
         if (nodes.length > 1) {
           const fk = key + "|" + fam, fOpen = this._exp.f.has(fk);
           list.appendChild(mk(this.nodeGlyph(nodes[0].ty, col, 8) + '<span style="font-size:13px;font-weight:600;color:#c4cde0;">' + fam + '</span><span style="font-size:10.5px;color:#7e8aa3;">' + nodes.length + '</span><span style="margin-left:auto;color:#5d6883;font-size:10px;">' + (fOpen ? "\u25be" : "\u25b8") + '</span>', 22, () => { if (fOpen) this._exp.f.delete(fk); else this._exp.f.add(fk); this.renderExplorer(); }));
-          if (fOpen) for (const n of nodes) list.appendChild(mk('<span style="font-size:12px;color:#9aa6bd;">' + this.splitName(n.t).main + (this.splitName(n.t).from ? ' <span style="color:#6b7691;">' + this.splitName(n.t).from + '</span>' : "") + '</span>', 38, () => this.openDossier(n.idx)));
+          if (fOpen) for (const n of nodes) list.appendChild(this._withListAdd(mk('<span style="font-size:12px;color:#9aa6bd;">' + this.splitName(n.t).main + (this.splitName(n.t).from ? ' <span style="color:#6b7691;">' + this.splitName(n.t).from + '</span>' : "") + '</span>', 38, () => this.openDossier(n.idx)), n, "explore"));
         } else {
-          list.appendChild(mk(this.nodeGlyph(nodes[0].ty, col, 8) + '<span style="font-size:13px;color:#c4cde0;">' + fam + '</span>', 22, () => this.openDossier(this.famDossierNode(nodes))));
+          const solo = this.nodes[this.famDossierNode(nodes)] || nodes[0];
+          list.appendChild(this._withListAdd(mk(this.nodeGlyph(nodes[0].ty, col, 8) + '<span style="font-size:13px;color:#c4cde0;">' + fam + '</span>', 22, () => this.openDossier(this.famDossierNode(nodes))), solo, "explore"));
         }
       }
     };
-    // order: Systems \u2192 Principles \u2192 Positions \u2192 Transitions \u2192 Submissions \u2192 Learning
+    // order: Lists \u2192 Systems \u2192 Principles \u2192 Positions \u2192 Transitions \u2192 Submissions \u2192 Learning
+    // Lists is FIRST: it is the surface the whole acquisition loop runs through.
+    this.renderLists(list);
     renderSystems();
     renderCurated("Principles");
     for (const pair of data.order) renderGraphGroup(pair);
@@ -3261,15 +3374,17 @@ class Component extends DCLogic {
   // General by design: a System lights its member techniques today, a shareable List will light
   // its own through these same two calls. The draw loop reads _focusIdxSet exactly like the
   // path-view fog (non-members drop to 30% ink) and rings the members on top.
-  setFocusIdxSet(idxs) {
+  setFocusIdxSet(idxs, noFrame) {
     const set = new Set();
     for (const i of idxs || []) if (this.nodes && this.nodes[i]) set.add(i);
     this._focusIdxSet = set.size ? set : null;
-    if (this._focusIdxSet) this.frameNodes(Array.from(this._focusIdxSet));
+    // noFrame: a re-render of the SAME selection must not yank the camera again (typing in the
+    // Explore search re-renders on every keystroke).
+    if (this._focusIdxSet && !noFrame) this.frameNodes(Array.from(this._focusIdxSet));
   }
   // drops the highlight AND the view that owns it: a lit graph with no visible selection is a
   // state the user cannot undo. Called from every _pathDim reset and on any tab change.
-  clearFocus() { this._focusIdxSet = null; this._systemId = null; }
+  clearFocus() { this._focusIdxSet = null; this._systemId = null; this._listFocusId = null; }
 
   // ---------- systems: the authored course library (systems.json, optional payload) ----------
   _onSystems() {
@@ -3303,6 +3418,833 @@ class Component extends DCLogic {
     this.showExplorerList();
   }
   closeSystem() { this.clearFocus(); this.showExplorerList(); }
+
+  // ══════════════════════════════════════════════════════════════════════════════════════
+  // SHAREABLE LISTS — the gym-WhatsApp loop
+  //
+  // A coach collects the techniques a class covered, shares ONE link into the group, and the
+  // people who open it see exactly those techniques lit on the graph and can drill them.
+  //
+  // Three rules the rest of this section exists to keep:
+  //  1. Lists STORE node ids, in the EXISTING v2 progress blob (no version bump, no
+  //     migration). Only the WIRE uses ordinals — see lists-codec.src.js.
+  //  2. The item cap is enforced HERE, at the point of adding. ngListEncodeOrdinals THROWS
+  //     above the cap (deliberately — silently truncating a coach's class is worse), so an
+  //     unguarded add would blow up at share time, i.e. in front of the whole group.
+  //  3. The link works with NO Cloudflare Function deployed: `_openSharedListFromUrl` decodes
+  //     `location.pathname` client-side off the static shell. The Function only ever adds the
+  //     social preview.
+  // ══════════════════════════════════════════════════════════════════════════════════════
+  _ordinalById() { return this._ordById || new Map(); }
+  _ordinalIndex() { return this._ordToId || new Map(); }
+  _listsMap() { this.lists = this.lists || {}; return this.lists; }
+  listsArray() {
+    const m = this._listsMap();
+    return Object.keys(m).sort((a, b) => (m[b].t || 0) - (m[a].t || 0));
+  }
+  activeList() { const m = this._listsMap(); return this.activeListId && m[this.activeListId] ? m[this.activeListId] : null; }
+  activeListHas(nodeId) { const l = this.activeList(); return !!(l && l.items.indexOf(nodeId) >= 0); }
+  newList(name) {
+    // id from the clock plus a per-session counter: no RNG (the rigged test RNG must never be
+    // spent on bookkeeping), and a same-millisecond collision across two devices is merged
+    // harmlessly by the add-wins rule anyway.
+    const id = "l" + Date.now().toString(36) + (this._listSeq = (this._listSeq || 0) + 1).toString(36);
+    this._listsMap()[id] = { name: name || ngListDefaultName(new Date()), items: [], t: Date.now() };
+    this.activeListId = id;
+    this.set("activeListId", id); // settings are LWW per key -> the active list follows the user
+    return id;
+  }
+  addToList(nodeId, listId) {
+    const i = this._idIndex ? this._idIndex.get(nodeId) : null;
+    if (i == null || !this.nodes[i]) return { added: false, reason: "unknown_node" };
+    const m = this._listsMap();
+    let id = listId || this.activeListId;
+    if (!id || !m[id]) id = this.newList();
+    const l = m[id];
+    if (l.items.indexOf(nodeId) >= 0) return { added: false, listId: id, reason: "already" };
+    if (l.items.length >= NG_LIST_ITEM_CAP) return { added: false, listId: id, reason: "full" };
+    l.items.push(nodeId); l.t = Date.now();
+    this.activeListId = id;
+    this.set("activeListId", id); // saves the blob too
+    this.fx("list_item_added", { list: id, node: nodeId, count: l.items.length });
+    return { added: true, listId: id, count: l.items.length };
+  }
+  removeFromList(nodeId, listId) {
+    const m = this._listsMap();
+    const id = listId || this.activeListId;
+    const l = id ? m[id] : null; if (!l) return false;
+    const at = l.items.indexOf(nodeId); if (at < 0) return false;
+    l.items.splice(at, 1); l.t = Date.now();
+    if (!l.items.length) { delete m[id]; if (this.activeListId === id) { this.activeListId = this.listsArray()[0] || null; this.set("activeListId", this.activeListId); } }
+    this._saveProgress();
+    if (this._listFocusId === id && !m[id]) this.clearFocus();
+    return true;
+  }
+  deleteList(id) {
+    const m = this._listsMap(); if (!m[id]) return;
+    // stash it whole so the delete is takeable-back (see _undoRowLive / undoDeleteList). `t` is
+    // when the OFFER was made — it expires (an undo row is a reaction, not a permanent record).
+    this._undoList = { id: id, t: Date.now(), list: { name: m[id].name, items: m[id].items.slice(), t: m[id].t } };
+    if (this._undoT) clearTimeout(this._undoT);
+    // real setTimeout, not the sim clock: this is UI patience, not game time
+    this._undoT = setTimeout(() => { if (this._undoList && this._undoList.id === id) { this._undoList = null; this._refreshListSurfaces(); } }, 90000);
+    delete m[id];
+    if (this._listFocusId === id) this.clearFocus();
+    if (this.activeListId === id) { this.activeListId = this.listsArray()[0] || null; this.set("activeListId", this.activeListId); }
+    else this._saveProgress();
+    this._refreshListSurfaces();
+  }
+  /** Graph indices of a list. "__shared" is the just-received link (not yet a list of theirs). */
+  listIdxs(listId) {
+    if (listId === "__shared") return (this._sharedIncoming && this._sharedIncoming.idxs) || [];
+    const l = this._listsMap()[listId]; if (!l) return [];
+    const out = [];
+    for (const id of l.items) { const i = this._idIndex ? this._idIndex.get(id) : null; if (i != null && this.nodes[i]) out.push(i); }
+    return out;
+  }
+  listShareCode(listId) {
+    const l = this._listsMap()[listId];
+    const ids = listId === "__shared" ? ((this._sharedIncoming && this._sharedIncoming.ids) || []) : (l ? l.items : []);
+    if (!ids.length) return "";
+    const res = ngListEncodeIds(ids, this._ordinalById());
+    if (res.missing && res.missing.length) {
+      // a node newer than this build's manifest: one technique is dropped, never the link
+      this.track("neural_share_list_missing_ordinal", { count: res.missing.length });
+    }
+    return res.code;
+  }
+  listShareUrl(listId) {
+    const code = this.listShareCode(listId);
+    if (!code) return "";
+    let origin = "";
+    try { origin = location.origin; } catch (e) { origin = ""; }
+    return ngListShareUrl(origin, code);
+  }
+  async shareList(listId) {
+    const code = this.listShareCode(listId);
+    if (!code) { this.setEvent("Nothing to share", "Add a technique to this list first", "bad"); return ""; }
+    const url = this.listShareUrl(listId);
+    const l = this._listsMap()[listId];
+    const count = l ? l.items.length : 0;
+    const shareId = ngListShareId(code);
+    this._lastShareUrl = url; this._lastShareId = shareId;
+    this.fx("list_shared", { share_id: shareId, items: count, chars: url.length });
+    // canonical encoding => the creator's share_id and every recipient's are the same string,
+    // so this joins into a real viral funnel with no server state.
+    this.track("neural_share_list_created", { share_id: shareId, items: count, url_chars: url.length });
+    const text = (l && l.name ? l.name : "Today's class") + " — " + count + " technique" + (count === 1 ? "" : "s");
+    try {
+      if (navigator.share && this.isMobile()) { await navigator.share({ title: "BJJGraph", text: text, url: url }); return url; }
+    } catch (e) { /* user dismissed the sheet — fall through to the clipboard */ }
+    try {
+      await navigator.clipboard.writeText(url);
+      this.setEvent("Link copied", count + " technique" + (count === 1 ? "" : "s") + " · paste it in the group chat", "good");
+    } catch (e) {
+      // clipboard denied (or no permission prompt available): show it, selectable, in the row
+      this._showShareFallback(listId, url);
+    }
+    return url;
+  }
+  _showShareFallback(listId, url) {
+    const row = (this.__ngRoot || document).querySelector('[data-list-row="' + listId + '"]');
+    if (!row) return;
+    let out = row.querySelector("[data-list-url]");
+    if (!out) {
+      out = document.createElement("input");
+      out.setAttribute("data-list-url", "1");
+      out.readOnly = true;
+      out.style.cssText = "width:100%;margin-top:6px;font-family:inherit;font-size:11px;color:#dbe2f0;background:rgba(255,255,255,.05);border:1px solid rgba(150,170,210,.22);border-radius:7px;padding:5px 7px;pointer-events:auto;";
+      row.appendChild(out);
+    }
+    out.value = url;
+    try { out.select(); } catch (e) { /* non-fatal */ }
+  }
+  /** Light a list on the graph (Explore owns the highlight, exactly like a System). */
+  focusList(listId) {
+    if (!this.deckShown || this._viewMode !== "explore") this.openPane("explore");
+    const idxs = this.listIdxs(listId);
+    if (!idxs.length) return;
+    this._listFocusId = listId;
+    this.setFocusIdxSet(idxs);
+    this.renderExplorer(); // keepList carries the selection through the render's own reset
+  }
+  // ══════════════════════════════════════════════════════════════════════════════════════
+  // THE SHARE CUE — the only share control that lives OUTSIDE the pane
+  //
+  // On a 390x844 phone `.ng-drill` is an 88vw drawer: it IS the screen. Two consequences:
+  //  1. A shared-link landing must NOT end inside that drawer. The lit graph is the entire
+  //     promise of the link ("open it and see exactly what we drilled") and a drawer over it
+  //     delivers none of it. So on a narrow viewport the arrival lights the graph and STOPS —
+  //     which serves PANE LAW better, not worse: nothing but the user opens the pane.
+  //  2. The control that lights the class again therefore cannot live in the drawer either, or
+  //     it is unreachable in the exact state you want it. It rides the collapsed `.ng-drilltab`
+  //     pill: already fixed, already outside the pane, already the app's one collapsed
+  //     affordance (and its neighbour, the graph strip, is already the mobile dismiss target).
+  //
+  // Two zones because they are two different intentions: ◉ lights the class WITHOUT covering
+  // it, and "Class ▸" opens the pane to read / save / drill it.
+  // ══════════════════════════════════════════════════════════════════════════════════════
+  _setShareCue(cue) { this._shareCue = cue || null; this._renderShareCue(); }
+  /**
+   * One flag on <body> so the bottom thumb band can lay itself out in CSS (see helmet.html): with
+   * a cue up, the transport steps aside, the pill tightens and drops its own label, and neither
+   * can cover the other.
+   *
+   * NAMED `data-share-band`, NOT `data-share-cue`: the cue BUTTON already carries
+   * `data-share-cue`, so a body flag of the same name makes `document.querySelector(
+   * "[data-share-cue]")` return the whole document body — every measurement of "where is the cue"
+   * silently became "the entire 390x844 viewport", and every tap aimed at its centre landed in the
+   * middle of the screen. Three share journeys caught it; one attribute name away from shipping a
+   * re-light control that could not be tapped at all.
+   */
+  _markShareCueLayout() {
+    try {
+      const b = document.body; if (!b) return;
+      if (this._shareCue) b.setAttribute("data-share-band", this._shareCue.kind || "1");
+      else b.removeAttribute("data-share-band");
+    } catch (e) { /* non-fatal */ }
+  }
+  _renderShareCue() {
+    const tab = this.drillTabRef.current; if (!tab) return;
+    try { tab.querySelectorAll("[data-share-cue],[data-share-open]").forEach((el) => el.remove()); } catch (e) { /* non-fatal */ }
+    const cue = this._shareCue;
+    this._markShareCueLayout();
+    if (!cue) { if (!this.deckReady || this.deckOpen) { tab.style.opacity = "0"; tab.style.pointerEvents = "none"; } return; }
+    // a class cue whose list no longer resolves (deleted, merged away) is not a cue: dropping it
+    // here means the pill can never offer to light a set that does not exist
+    // (re-entering with a null cue takes the branch above, which also puts the pill back to
+    // whatever the pane state says it should be — one level, no recursion)
+    if (cue.kind === "class" && !this.listIdxs(cue.target).length) { this._shareCue = null; return this._renderShareCue(); }
+    // BOTH are <button>s and BOTH are APPENDED LAST, deliberately: the mobile rules hide
+    // `.ng-drilltab > span:first-child` and `.ng-drilltab > div`, so a span/div here would be
+    // invisible on a phone, and inserting first would unhide the pill's own icon instead.
+    const mk = (attr, label, title, tint, onClick) => {
+      const b = document.createElement("button");
+      b.type = "button";
+      b.setAttribute(attr, cue.kind);
+      b.title = title;
+      b.innerHTML = label;
+      // pointer-events:auto INLINE — the property is inherited, the overlay root disables it and
+      // the canvas hit-tests above anything that does not re-enable it (this repo has paid for
+      // that twice: v1.69.1, v1.81.2).
+      b.style.cssText = "flex:none;pointer-events:auto;cursor:pointer;font-family:inherit;font-size:11px;font-weight:700;line-height:1;min-height:30px;min-width:34px;padding:8px 11px;margin-left:9px;border-radius:9px;border:1px solid " + tint[0] + ";background:" + tint[1] + ";color:" + tint[2] + ";white-space:nowrap;";
+      b.addEventListener("click", (e) => { e.stopPropagation(); e.preventDefault(); onClick(); });
+      tab.appendChild(b);
+      return b;
+    };
+    const green = ["rgba(126,224,168,.45)", "rgba(126,224,168,.15)", "#cdebd9"];
+    const amber = ["rgba(232,185,138,.45)", "rgba(232,185,138,.15)", "#f0d5b4"];
+    if (cue.kind === "class") {
+      const lit = this._listFocusId === cue.target && this._focusIdxSet && this._focusIdxSet.size;
+      mk("data-share-cue", (lit ? "◉" : "◎") + " " + cue.n, "Light this class on the graph again", green, () => this.relightShare());
+      mk("data-share-open", "Class ▸", "Read, save or drill the shared class", green, () => this.openShareCue());
+    } else {
+      // the pill says exactly what the panel says (see _brokenCopy): a cue that contradicts the
+      // explanation it opens is worse than no cue
+      const label = cue.kind === "stale" ? "Newer link ▸" : this._brokenCopy().pill;
+      mk("data-share-open", label, "What happened to this shared link", amber, () => this.openShareCue());
+    }
+    // SHOW THE PILL. `pointer-events:auto` is set INLINE on these buttons (it must be — see the
+    // note in mk()), and that beats the tab's inherited `none`: without this line the cue was
+    // fully CLICKABLE while the pill was still at opacity 0, because the tab only becomes
+    // visible on the first landing and a share arrival is decoded before the first roll starts.
+    // A control you can hit but cannot see is worse than one that is merely late.
+    if (!this.deckOpen) { tab.style.opacity = "1"; tab.style.pointerEvents = "auto"; }
+  }
+  /** Light the shared class again WITHOUT covering it — the mobile answer to "where did it go". */
+  relightShare() {
+    const cue = this._shareCue; if (!cue || !cue.target) return false;
+    const idxs = this.listIdxs(cue.target);
+    if (!idxs.length) return false;
+    this._listFocusId = cue.target;
+    this.setFocusIdxSet(idxs); // frames the class too: the camera goes back to what the link was for
+    this.fx("list_relit", { list: cue.target, items: idxs.length, shared: cue.target === "__shared" });
+    this.track("neural_share_list_relit", { items: idxs.length, shared: cue.target === "__shared" });
+    this.setEvent("On the graph", idxs.length + " technique" + (idxs.length === 1 ? "" : "s") + " from this class", "good");
+    if (this.deckShown && this._viewMode === "explore" && !this._paneStudyActive()) this.renderExplorer();
+    this._renderShareCue();
+    return true;
+  }
+  /** The recipient's deliberate "let me read it": the pane, on Explore, with the class kept lit. */
+  openShareCue() {
+    const cue = this._shareCue;
+    this.openPane("explore");
+    if (cue && cue.target && this.listIdxs(cue.target).length) {
+      this._listFocusId = cue.target;
+      this.setFocusIdxSet(this.listIdxs(cue.target), true);
+      this.renderExplorer();
+    }
+    this.track("neural_share_cue_opened", { kind: cue ? cue.kind : "none" });
+  }
+  /** A session over a list's decks — the "and drill them" half of the thesis. */
+  openListSession(listId) {
+    const idxs = this.listIdxs(listId);
+    if (!idxs.length) return;
+    const keys = [];
+    for (const i of idxs) { const k = this.deckKeyFor(this.nodes[i]).key; if (k && keys.indexOf(k) < 0) keys.push(k); }
+    if (!keys.length) return;
+    const l = this._listsMap()[listId];
+    const label = listId === "__shared" ? "Shared class" : (l && l.name) || "Class list";
+    this._session = { keys: keys, label: label, idx: 0 };
+    this._sessionNodes = idxs;
+    this.frameNodes(idxs);
+    this.renderSession();
+    this.deckReady = true; this.deckOpen = true; this.applyDeckVisibility();
+    this.track("neural_share_list_drill", { list: listId, techniques: keys.length, shared: listId === "__shared" });
+  }
+
+  // ---------- add affordance (dossier, Explore rows, landing card, challenge lesson rows) ----------
+  /**
+   * The name a technique must be called by ANYWHERE a list is read: the FULL authored name,
+   * qualifier included. `splitName().main` is a display shorthand for surfaces that show the
+   * `from …` line separately — on its own it is ambiguous to the point of uselessness: this
+   * corpus has 35 techniques whose main name is "Kimura" and 16 called "Americana", and 648 of
+   * 1467 nodes carry a qualifier. "Americana" is not a technique a coach taught; "Americana
+   * from Mount" is. A share link that drops the qualifier destroys its own purpose.
+   */
+  listItemName(nodeId) {
+    const i = this._idIndex ? this._idIndex.get(nodeId) : null;
+    const n = i != null ? this.nodes[i] : null;
+    return n ? n.t : nodeId;
+  }
+  toggleListItem(nodeId, surface) {
+    const had = this.activeListHas(nodeId);
+    // full name, not splitName().main — setEvent renders the `from …` half on its own line
+    const name = this.listItemName(nodeId);
+    if (had) {
+      this.removeFromList(nodeId);
+      this.setEvent("Removed from today’s list", name, "bad");
+    } else {
+      const r = this.addToList(nodeId);
+      if (r.added) {
+        this.setEvent("Added to today’s list · " + r.count + " technique" + (r.count === 1 ? "" : "s"), name, "good");
+        this.track("neural_list_item_added", { surface: surface || "unknown", count: r.count });
+      } else if (r.reason === "full") {
+        this.setEvent("List is full", "A share link holds " + NG_LIST_ITEM_CAP + " techniques", "bad");
+      }
+    }
+    this._refreshListSurfaces();
+  }
+  _styleListAdd(el, nodeId) {
+    const on = this.activeListHas(nodeId);
+    // A GLYPH IS NOT A LABEL. The sheet's capture was described as "a 44px labelled target" while
+    // its whole text was "+" and its only words were in a `title` — invisible on a phone, where
+    // there is no hover. Surfaces with room (data-list-label) say it in words; the cramped ones
+    // keep the glyph but carry a real accessible name, which a `title` is not.
+    const labelled = el.getAttribute("data-list-label") === "1";
+    el.textContent = labelled ? (on ? "✓ In class" : "+ Add to class") : (on ? "✓" : "+");
+    el.title = on ? "In today’s class list — click to remove" : "Add to today’s class list";
+    el.setAttribute("aria-label", on ? "In today’s class list — remove it" : "Add to today’s class list");
+    el.setAttribute("aria-pressed", on ? "true" : "false");
+    el.style.color = on ? "#7ee0a8" : "#9ab0e0";
+    el.style.borderColor = on ? "rgba(126,224,168,.45)" : "rgba(150,170,210,.28)";
+    el.style.background = on ? "rgba(126,224,168,.12)" : "rgba(255,255,255,.04)";
+  }
+  _listAddButton(nodeId, surface) {
+    const b = document.createElement("button");
+    b.type = "button";
+    b.setAttribute("data-list-add", nodeId);
+    b.setAttribute("data-list-surface", surface || "explore");
+    // THUMB SIZE, ON THE SURFACES A THUMB USES. The in-roll surfaces — the option hand, the escape
+    // hand (same card builder) and the landing card — are hit mid-roll, one-handed, on a moving
+    // screen: 24x24 there was about half the 44px minimum this feature applies to its own sheet,
+    // for the hardest tap of the three. The pane's list rows keep the compact glyph: the ROW is
+    // the target there and the + sits beside it.
+    const thumb = this.isMobile() && (surface === "option" || surface === "land");
+    const size = thumb ? 44 : 24;
+    // pointer-events:auto INLINE — the property is inherited, fixed overlays disable it at the
+    // root and the canvas hit-tests above anything that does not re-enable it. This exact trap
+    // made the coach's Next button and the landing card's options unclickable by mouse.
+    b.style.cssText = "flex:none;pointer-events:auto;cursor:pointer;font-family:inherit;font-size:" + (thumb ? "17px" : "13px") + ";font-weight:700;line-height:1;width:" + size + "px;height:" + size + "px;border-radius:" + (thumb ? 11 : 7) + "px;border:1px solid rgba(150,170,210,.28);background:rgba(255,255,255,.04);display:inline-flex;align-items:center;justify-content:center;";
+    this._styleListAdd(b, nodeId);
+    b.addEventListener("click", (e) => { e.stopPropagation(); e.preventDefault(); this.toggleListItem(nodeId, surface); });
+    return b;
+  }
+  /** Wrap an Explore row so the row keeps its click and gains a + on the right. */
+  _withListAdd(rowEl, node, surface) {
+    const wrap = document.createElement("div");
+    wrap.style.cssText = "display:flex;align-items:center;gap:4px;width:100%;";
+    rowEl.style.flex = "1"; rowEl.style.minWidth = "0";
+    wrap.appendChild(rowEl);
+    wrap.appendChild(this._listAddButton(node.id, surface));
+    return wrap;
+  }
+  /** Wire the .dsList row emitted by BOTH dossier renderers (pane/sheet and the in-node card). */
+  _wireDossierListButton(dos, n, surface) {
+    const lb = dos ? dos.querySelector(".dsList") : null; if (!lb) return;
+    lb.setAttribute("data-list-add", n.id);
+    lb.setAttribute("data-list-surface", surface || "dossier");
+    lb.style.pointerEvents = "auto"; // inherited property; the canvas hit-tests above anything that doesn't re-enable it
+    const paint = () => {
+      const on = this.activeListHas(n.id);
+      const g = lb.querySelector(".dsListGlyph"), t = lb.querySelector(".dsListTxt");
+      if (g) { g.textContent = on ? "\u2713" : "+"; g.style.color = on ? "#7ee0a8" : "#9ab0e0"; }
+      if (t) t.textContent = on ? "In today\u2019s class list" : "Add to today\u2019s class list";
+      lb.setAttribute("aria-pressed", on ? "true" : "false");
+    };
+    paint();
+    lb.addEventListener("click", (e) => { e.stopPropagation(); this.toggleListItem(n.id, surface || "dossier"); paint(); });
+  }
+  _refreshListSurfaces() {
+    const root = this.__ngRoot || document;
+    try { root.querySelectorAll("[data-list-add]").forEach((el) => this._styleListAdd(el, el.getAttribute("data-list-add"))); } catch (e) { /* non-fatal */ }
+    // re-render the Explore body so the Lists section's counts follow the model. Safe while a
+    // dossier is up: the list element is hidden behind it, and renderExplorer preserves an
+    // intentional list highlight (keepList) instead of clearing it.
+    if (this.deckShown && this._viewMode === "explore" && !this._paneStudyActive()) this.renderExplorer();
+  }
+
+  // ---------- the Lists section (top of Explore) ----------
+  renderLists(list) {
+    const sec = document.createElement("div");
+    sec.setAttribute("data-lists-section", "1");
+    sec.style.cssText = "margin:2px 0 10px;padding-bottom:10px;border-bottom:1px solid rgba(150,170,210,.12);";
+    const ids = this.listsArray();
+    // READ ORDER: what ARRIVED comes first. A first-time recipient reading "Lists (0)" above
+    // "Shared with you · 5 techniques" is being told two contradictory things about the same
+    // screen — and the count they care about is not the one about lists they have never made.
+    if (this._sharedIncoming) sec.appendChild(this._sharedBlock());
+    else if (this._sharedStale) sec.appendChild(this._staleBlock());
+    else if (this._sharedBroken) sec.appendChild(this._brokenBlock());
+    if (this._undoRowLive()) sec.appendChild(this._undoRow());
+
+    const head = document.createElement("div");
+    head.setAttribute("data-lists-head", "1");
+    head.style.cssText = "display:flex;align-items:center;gap:8px;padding:7px 12px 3px;";
+    head.innerHTML =
+      '<span style="font-size:14px;font-weight:700;color:#dbe2f0;">Lists</span>' +
+      // no "(0)": a count of nothing beside a list of nothing is noise, and beside a shared
+      // block it is a contradiction
+      (ids.length ? '<span style="font-size:11px;color:#7e8aa3;">(' + ids.length + ')</span>' : "") +
+      '<span style="margin-left:auto;font-size:9.5px;letter-spacing:.1em;text-transform:uppercase;color:#6b7691;">share a class</span>';
+    sec.appendChild(head);
+
+    if (!ids.length) {
+      const empty = document.createElement("div");
+      empty.setAttribute("data-lists-empty", "1");
+      empty.style.cssText = "font-size:11.5px;line-height:1.5;color:#7e8aa3;padding:4px 12px 2px;";
+      empty.textContent = this._sharedIncoming
+        ? "Save the shared class above to keep it — or tap + on any technique to start one of your own."
+        : "Tap + on any technique to start today’s class list, then share one link with the group.";
+      sec.appendChild(empty);
+      list.appendChild(sec);
+      return;
+    }
+    for (const id of ids) {
+      const l = this._listsMap()[id];
+      const row = document.createElement("div");
+      row.setAttribute("data-list-row", id);
+      const lit = this._listFocusId === id;
+      row.style.cssText = "display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin:0 6px 4px;padding:7px 8px;border-radius:9px;border:1px solid " + (lit ? "rgba(150,180,255,.45)" : "rgba(150,170,210,.14)") + ";background:" + (lit ? "rgba(58,72,118,.4)" : "rgba(255,255,255,.025)") + ";";
+      const open = document.createElement("button");
+      open.type = "button";
+      open.setAttribute("data-list-open", id);
+      open.style.cssText = "flex:1;min-width:0;pointer-events:auto;cursor:pointer;font-family:inherit;text-align:left;border:0;background:transparent;color:inherit;padding:0;";
+      open.innerHTML =
+        '<span style="display:block;font-size:13px;font-weight:600;color:#dbe2f0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;">' + this.escHTML(l.name) + '</span>' +
+        '<span data-list-count="' + l.items.length + '" style="display:block;font-size:10px;letter-spacing:.05em;text-transform:uppercase;color:#7e8aa3;margin-top:1px;">' + l.items.length + ' technique' + (l.items.length === 1 ? "" : "s") + '</span>';
+      open.addEventListener("click", () => this.focusList(id));
+      row.appendChild(open);
+
+      const drill = document.createElement("button");
+      drill.type = "button";
+      drill.setAttribute("data-list-drill", id);
+      drill.textContent = "Drill";
+      drill.style.cssText = "flex:none;pointer-events:auto;cursor:pointer;font-family:inherit;font-size:10.5px;font-weight:700;padding:5px 9px;border-radius:7px;border:1px solid rgba(150,170,210,.28);background:rgba(255,255,255,.04);color:#c4cde0;";
+      drill.addEventListener("click", () => this.openListSession(id));
+      row.appendChild(drill);
+
+      const share = document.createElement("button");
+      share.type = "button";
+      share.setAttribute("data-list-share", id);
+      share.textContent = "Share";
+      share.style.cssText = "flex:none;pointer-events:auto;cursor:pointer;font-family:inherit;font-size:10.5px;font-weight:700;padding:5px 10px;border-radius:7px;border:1px solid rgba(110,160,255,.4);background:linear-gradient(135deg,rgba(74,108,255,.3),rgba(74,108,255,.14));color:#eef1f6;";
+      share.addEventListener("click", () => { void this.shareList(id); });
+      row.appendChild(share);
+
+      // DELETE: two steps, then undoable. It sits next to Share — the one button a coach
+      // presses in front of the class — so a single stray click may not destroy the list the
+      // whole session was spent building. `margin-left` buys the miss-distance.
+      const armed = this._delArm === id;
+      const del = document.createElement("button");
+      del.type = "button";
+      del.setAttribute("data-list-delete", id);
+      if (armed) del.setAttribute("data-list-delete-armed", "1");
+      del.textContent = armed ? "Delete?" : "×";
+      del.title = armed ? "Click again to delete this list" : "Delete this list";
+      del.style.cssText = "flex:none;margin-left:12px;pointer-events:auto;cursor:pointer;font-family:inherit;font-size:" + (armed ? "10.5px;font-weight:700;" : "13px;") + "line-height:1;padding:" + (armed ? "5px 8px" : "3px 6px") + ";border-radius:6px;border:" + (armed ? "1px solid rgba(242,104,95,.5)" : "0") + ";background:" + (armed ? "rgba(242,104,95,.16)" : "transparent") + ";color:" + (armed ? "#ff9c92" : "#6b7691") + ";";
+      del.addEventListener("click", () => {
+        if (this._delArm !== id) {
+          this._delArm = id;
+          if (this._delArmT) clearTimeout(this._delArmT);
+          // real setTimeout, not the sim clock: this is UI patience, not game time
+          this._delArmT = setTimeout(() => { if (this._delArm === id) { this._delArm = null; this._refreshListSurfaces(); } }, 8000);
+          this._refreshListSurfaces();
+          return;
+        }
+        this._delArm = null;
+        if (this._delArmT) { clearTimeout(this._delArmT); this._delArmT = null; }
+        this.deleteList(id);
+      });
+      row.appendChild(del);
+      sec.appendChild(row);
+    }
+    list.appendChild(sec);
+  }
+  /**
+   * Is the undo offer still live? An undo is a REACTION, not a record: the old version only ever
+   * cleared `_undoList` when the undo was USED, so a delete left "Deleted “X” · 3 techniques ·
+   * Undo" pinned to the top of Lists — above the recipient's own lists and above a shared class —
+   * for the rest of the session. 90s is generous for "oh no, put it back" and short enough that
+   * it is gone by the next time the pane is opened.
+   */
+  _undoRowLive() {
+    const u = this._undoList; if (!u) return false;
+    if (Date.now() - (u.t || 0) > 90000) { this._undoList = null; return false; }
+    return true;
+  }
+  /** The way back from a delete. One outstanding undo at a time, cleared when it is used. */
+  _undoRow() {
+    const u = this._undoList;
+    const box = document.createElement("div");
+    box.style.cssText = "display:flex;align-items:center;gap:8px;margin:0 6px 6px;padding:7px 9px;border-radius:9px;border:1px solid rgba(150,170,210,.2);background:rgba(255,255,255,.03);";
+    const txt = document.createElement("span");
+    txt.style.cssText = "flex:1;min-width:0;font-size:11.5px;color:#aeb9d4;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;";
+    txt.textContent = "Deleted “" + u.list.name + "” · " + u.list.items.length + " technique" + (u.list.items.length === 1 ? "" : "s");
+    box.appendChild(txt);
+    const undo = document.createElement("button");
+    undo.type = "button";
+    undo.setAttribute("data-list-undo", u.id);
+    undo.textContent = "Undo";
+    undo.style.cssText = "flex:none;pointer-events:auto;cursor:pointer;font-family:inherit;font-size:10.5px;font-weight:700;padding:5px 10px;border-radius:7px;border:1px solid rgba(150,170,210,.3);background:rgba(255,255,255,.05);color:#dbe2f0;";
+    undo.addEventListener("click", () => this.undoDeleteList());
+    box.appendChild(undo);
+    return box;
+  }
+  undoDeleteList() {
+    const u = this._undoList; if (!u) return false;
+    this._undoList = null;
+    this._listsMap()[u.id] = u.list;
+    this.activeListId = u.id;
+    this.set("activeListId", u.id); // saves the blob
+    this.setEvent("Restored", u.list.name, "good");
+    this._refreshListSurfaces();
+    return true;
+  }
+  /** The block a RECIPIENT sees: what arrived, whether anything didn't resolve, and the two
+   *  things they can do with it. A received link is offered, never silently adopted. */
+  _sharedBlock() {
+    const inc = this._sharedIncoming;
+    const box = document.createElement("div");
+    box.setAttribute("data-shared-list", inc.code);
+    box.style.cssText = "margin:4px 6px 8px;padding:9px 10px;border-radius:10px;border:1px solid rgba(126,224,168,.35);background:linear-gradient(180deg,rgba(24,44,38,.6),rgba(17,28,26,.5));";
+    const head = document.createElement("div");
+    head.style.cssText = "font-size:11px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:#7ee0a8;";
+    head.innerHTML = 'Shared with you · <span data-shared-count="' + inc.ids.length + '">' + inc.ids.length + ' technique' + (inc.ids.length === 1 ? "" : "s") + '</span>';
+    box.appendChild(head);
+    for (const id of inc.ids) {
+      const i = this._idIndex ? this._idIndex.get(id) : null;
+      const n = i != null ? this.nodes[i] : null;
+      const item = document.createElement("div");
+      item.style.cssText = "display:flex;align-items:center;gap:6px;margin-top:5px;";
+      const nameBtn = document.createElement("button");
+      nameBtn.type = "button";
+      nameBtn.setAttribute("data-shared-item", id);
+      nameBtn.style.cssText = "flex:1;min-width:0;pointer-events:auto;cursor:pointer;font-family:inherit;text-align:left;border:0;background:transparent;padding:0;font-size:12.5px;color:#dbe2f0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;";
+      // THE FULL, QUALIFIED NAME. The `from <position>` half is the disambiguator — see
+      // listItemName(). It renders dimmer, but it renders: a recipient has to be able to tell
+      // which of the 35 Kimuras their coach drilled.
+      if (n) {
+        const sp = this.splitName(n.t);
+        nameBtn.innerHTML = this.escHTML(sp.main) +
+          (sp.from ? ' <span style="color:#8b97b0;font-size:11px;">' + this.escHTML(sp.from) + '</span>' : "");
+        nameBtn.title = n.t;
+      } else {
+        nameBtn.textContent = id;
+      }
+      if (i != null) nameBtn.addEventListener("click", () => this.openDossier(i));
+      item.appendChild(nameBtn);
+      item.appendChild(this._listAddButton(id, "shared"));
+      box.appendChild(item);
+    }
+    if (inc.unknown && inc.unknown.length) {
+      const un = document.createElement("div");
+      un.setAttribute("data-shared-unresolved", String(inc.unknown.length));
+      un.style.cssText = "margin-top:7px;font-size:10.5px;line-height:1.45;color:#e8b98a;";
+      // the verb has to agree with the noun it was just given: "2 techniques … isn't" read like
+      // a bug in the app to anybody who noticed it, on the one surface that has to look trustworthy
+      const many = inc.unknown.length !== 1;
+      un.textContent = inc.unknown.length + (many ? " techniques" : " technique") + " in this link " +
+        (many ? "aren’t" : "isn’t") + " in this version of the graph yet.";
+      box.appendChild(un);
+    }
+    const acts = document.createElement("div");
+    acts.style.cssText = "display:flex;align-items:center;flex-wrap:wrap;gap:6px;margin-top:9px;";
+    // RE-LIGHT. Every other focus source in the app can be lit again (a System from its row, a
+    // list from its row); the received set had no way back, so once the fog cleared — which the
+    // pane's own close does, by design — the recipient had permanently lost the one visual that
+    // made the link worth opening. Reuses the same setFocusIdxSet path via focusList().
+    const light = document.createElement("button");
+    light.type = "button";
+    light.setAttribute("data-shared-relight", "1");
+    light.textContent = this._listFocusId === "__shared" ? "◉ On graph" : "Show on graph";
+    light.title = "Light these techniques on the graph again";
+    light.style.cssText = "flex:none;pointer-events:auto;cursor:pointer;font-family:inherit;font-size:11px;font-weight:700;padding:7px 10px;border-radius:8px;border:1px solid rgba(150,170,210," + (this._listFocusId === "__shared" ? ".5" : ".28") + ");background:rgba(255,255,255," + (this._listFocusId === "__shared" ? ".09" : ".04") + ");color:#c4cde0;";
+    light.addEventListener("click", () => this.focusList("__shared"));
+    acts.appendChild(light);
+    const drill = document.createElement("button");
+    drill.type = "button";
+    drill.setAttribute("data-shared-drill", "1");
+    drill.textContent = "Drill these";
+    drill.style.cssText = "flex:1;pointer-events:auto;cursor:pointer;font-family:inherit;font-size:11.5px;font-weight:700;padding:7px 9px;border-radius:8px;border:1px solid rgba(110,160,255,.4);background:linear-gradient(135deg,rgba(74,108,255,.32),rgba(74,108,255,.15));color:#eef1f6;";
+    drill.addEventListener("click", () => this.openListSession("__shared"));
+    acts.appendChild(drill);
+    const save = document.createElement("button");
+    save.type = "button";
+    save.setAttribute("data-shared-save", "1");
+    save.textContent = "Save";
+    save.style.cssText = "flex:none;pointer-events:auto;cursor:pointer;font-family:inherit;font-size:11.5px;font-weight:700;padding:7px 11px;border-radius:8px;border:1px solid rgba(126,224,168,.4);background:rgba(126,224,168,.12);color:#cdebd9;";
+    save.addEventListener("click", () => this.saveSharedList());
+    acts.appendChild(save);
+    box.appendChild(acts);
+    // DISMISS SITS ON ITS OWN ROW, WELL AWAY FROM SAVE. It used to be the next flex child after
+    // Save, 6px from it: on a phone that is inside one thumb's contact patch, and a mis-tap does
+    // not merely close a card — it discards the class AND records the code `dismissed`, so the
+    // link can never offer it again. Own row, real 32px target, and worded as the action it is
+    // instead of an anonymous ×, which is also what stops it reading as a second Save.
+    const dismissRow = document.createElement("div");
+    dismissRow.style.cssText = "display:flex;justify-content:flex-end;margin-top:26px;";
+    const dismiss = document.createElement("button");
+    dismiss.type = "button";
+    dismiss.setAttribute("data-shared-dismiss", "1");
+    dismiss.textContent = "Not for me";
+    dismiss.title = "Dismiss this shared list";
+    dismiss.style.cssText = "flex:none;pointer-events:auto;cursor:pointer;font-family:inherit;font-size:11px;font-weight:600;line-height:1;min-height:32px;padding:9px 12px;border-radius:8px;border:1px solid rgba(150,170,210,.2);background:transparent;color:#8b97b0;";
+    dismiss.addEventListener("click", () => this.dismissSharedList());
+    dismissRow.appendChild(dismiss);
+    box.appendChild(dismissRow);
+    return box;
+  }
+  /**
+   * ONE set of words for a damaged link, read by all three surfaces that mention it: the pill
+   * cue, this panel and the arrival toast. They used to disagree — the pill said "Link
+   * incomplete" about every non-stale failure while the panel said the opposite for the
+   * not-clipped case — and a recipient who reads both learns only that the app is guessing.
+   */
+  _brokenCopy() {
+    const b = this._sharedBroken;
+    if (b && b.clipped)
+      return {
+        pill: "Link incomplete ▸",
+        kicker: "Shared class · this link is incomplete",
+        toast: ["This link is incomplete", "It was cut short in transit — ask for it again"],
+        body: "It was cut short in transit — chat apps and mail clients re-wrap long links. Nothing is wrong with the class itself; ask for the link again.",
+      };
+    return {
+      pill: "Link unreadable ▸",
+      kicker: "Shared class · this link can’t be read",
+      toast: ["This link didn’t work", "Check the whole link was copied"],
+      // NOT "it was cut short": we do not know that. This branch is reached by anything that is
+      // code-shaped but does not start with one of our wire versions — a stranger's typo, a
+      // pasted fragment of something else entirely — and telling that person their coach's link
+      // was truncated is a confident answer to a question nobody asked.
+      body: "This doesn’t look like one of our class links — a character may be missing or changed, or it may not be a class link at all. Check the whole link was copied, or ask for it again.",
+    };
+  }
+  /** "This link arrived damaged." A code-shaped string that will not decode does not deserve
+   *  silence: the recipient can act on "ask for it again" and cannot act on nothing at all.
+   *  DURABLE, because the toast carrying the same sentence is overwritten by the roll in seconds. */
+  _brokenBlock() {
+    const b = this._sharedBroken;
+    const copy = this._brokenCopy();
+    const box = document.createElement("div");
+    box.setAttribute("data-shared-broken", b.error);
+    box.setAttribute("data-shared-broken-kind", b.clipped ? "clipped" : "unreadable");
+    box.style.cssText = "margin:4px 6px 8px;padding:9px 10px;border-radius:10px;border:1px solid rgba(232,185,138,.35);background:rgba(46,36,24,.5);";
+    box.innerHTML =
+      '<div style="font-size:11px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:#e8b98a;">' + this.escHTML(copy.kicker) + '</div>' +
+      '<div style="margin-top:5px;font-size:11.5px;line-height:1.5;color:#cbb69c;">' + this.escHTML(copy.body) + "</div>";
+    return box;
+  }
+  /** "The link is fine — this build is older." A valid code whose ordinals this build has no
+   *  nodes for is NOT garbage, and must not be answered with the same silence. */
+  _staleBlock() {
+    const st = this._sharedStale;
+    const box = document.createElement("div");
+    box.setAttribute("data-shared-stale", String(st.unknown.length));
+    box.style.cssText = "margin:4px 6px 8px;padding:9px 10px;border-radius:10px;border:1px solid rgba(232,185,138,.35);background:rgba(46,36,24,.5);";
+    box.innerHTML =
+      '<div style="font-size:11px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:#e8b98a;">Shared class · not in this version yet</div>' +
+      '<div style="margin-top:5px;font-size:11.5px;line-height:1.5;color:#cbb69c;">This link is valid, and all ' +
+      st.unknown.length + ' of its techniques are newer than the graph this page loaded. Reload in a little while — nothing is wrong with the link.</div>';
+    return box;
+  }
+  // ── has this code already been answered? ───────────────────────────────────────────────
+  // A received link is offered ONCE. Without a record, every reload at that URL re-offers a
+  // list the recipient already saved (a duplicate trap) or already dismissed (nagging, forever).
+  // Keyed by share_id, which is canonical, so the record is stable across devices too.
+  _shareSeen() { const v = this.get("shareSeen", null); return v && typeof v === "object" && !Array.isArray(v) ? v : {}; }
+  _markShareSeen(shareId, state, listId) {
+    if (!shareId) return;
+    const seen = this._shareSeen();
+    seen[shareId] = { s: state, t: Date.now(), listId: listId || null };
+    // keep the newest 24: this is a courtesy record, not an archive
+    const keys = Object.keys(seen).sort((a, b) => (seen[b].t || 0) - (seen[a].t || 0));
+    const trimmed = {};
+    for (const k of keys.slice(0, 24)) trimmed[k] = seen[k];
+    this.set("shareSeen", trimmed); // settings are LWW per key → follows the user across devices
+  }
+  saveSharedList() {
+    const inc = this._sharedIncoming; if (!inc) return "";
+    const id = this.newList("Shared · " + ngListDefaultName(new Date()).replace(/^Class · /, ""));
+    for (const nid of inc.ids) this.addToList(nid, id);
+    this._sharedIncoming = null;
+    this._listFocusId = id;
+    this._markShareSeen(inc.shareId, "saved", id);
+    this._flushSave();
+    // the cue follows the class into its new home, so ◉ keeps working after Save
+    this._setShareCue({ kind: "class", n: inc.ids.length, target: id });
+    this.track("neural_share_list_saved", { share_id: inc.shareId, items: inc.ids.length });
+    this._arrivalSay = null; // "Saved" is the current truth; don't let the arrival line land on top of it
+    this.setEvent("Saved", inc.ids.length + " technique" + (inc.ids.length === 1 ? "" : "s") + " added to your lists", "good");
+    this._refreshListSurfaces();
+    return id;
+  }
+  dismissSharedList() {
+    if (!this._sharedIncoming) return;
+    this._arrivalSay = null; // they answered the offer; a held sentence about it is now stale
+    this._markShareSeen(this._sharedIncoming.shareId, "dismissed");
+    this._sharedIncoming = null;
+    this._setShareCue(null); // they said no: the pill stops offering it too
+    this.clearFocus();
+    this._flushSave();
+    this._refreshListSurfaces();
+  }
+  /**
+   * RECIPIENT LANDING. Runs once per boot, right after ingest, off `location`. Works on the
+   * plain static shell — no Function, no server state, no extra request. An unparseable code
+   * is simply not a share link: the app is an ordinary app and nothing is lit.
+   */
+  _openSharedListFromUrl() {
+    this._sharedIncoming = null;
+    this._sharedStale = null;
+    this._sharedBroken = null;
+    let code = "";
+    try { code = ngListParseSharePath(location.pathname + location.search); } catch (e) { code = ""; }
+    if (!code) return; // not code-shaped at all (`/l/not!a!code`): this is an ordinary app visit
+    const res = ngListDecodeIds(code, this._ordinalIndex());
+    const shareId = ngListShareId(code);
+    if (!res.ok) {
+      // A CODE-SHAPED STRING THAT WILL NOT DECODE IS A DAMAGED LINK, AND THE RECIPIENT IS TOLD.
+      // Measured on a real 8-technique code (23 chars, 22 prefixes): 10 of the 22 clip
+      // positions fail as `not_base64url` (a cut that lands mid-quantum, or on non-zero
+      // trailing bits) — the MAJORITY — and only 12 as count_mismatch/truncated*. Keying the
+      // message off the count-byte errors alone therefore answered most real clips with total
+      // silence. Anything that got past ngListParseSharePath is code-shaped, so every failure
+      // here is a link that arrived damaged; say so.
+      // WHICH sentence: the error says what failed, the classifier says whose code it was.
+      // `not_base64url` is both "a real code cut mid-quantum" (the majority of clips) and "a
+      // random pasted word", and only the leading wire-version byte tells them apart.
+      const clipped = ngListClassifyFailure(code, res.error) === "clipped";
+      this._sharedBroken = { code: code, error: res.error || "unresolved", clipped: clipped, shareId: shareId };
+      // the toast is best-effort ONLY: the roll loop overwrites the single `setEvent` slot within
+      // a couple of seconds. The durable telling is _brokenBlock(), plus the pill cue.
+      { const t = this._brokenCopy().toast; this._announceArrival(t[0], t[1], "bad"); }
+      this.track("neural_share_list_failed", { share_id: shareId, error: res.error || "unresolved", clipped: clipped });
+      this.fx("list_failed", { share_id: shareId, error: res.error || "unresolved", clipped: clipped });
+      this._offerShare({ kind: "broken" });
+      return;
+    }
+    if (!res.ids.length) {
+      // VALID code, nothing this build can resolve — a different sentence, and an actionable
+      // one: their app is behind the link, not broken.
+      this._sharedStale = { code: code, unknown: res.unknown || [], shareId: shareId };
+      this.track("neural_share_list_stale", { share_id: shareId, unknown: (res.unknown || []).length });
+      this.fx("list_stale", { share_id: shareId, unknown: (res.unknown || []).length });
+      this._offerShare({ kind: "stale" });
+      return;
+    }
+    // already answered? (see _markShareSeen) — a reload is the same visit, not a second offer
+    const seen = this._shareSeen()[shareId];
+    const nav = (() => { try { const e = performance.getEntriesByType("navigation")[0]; return e ? e.type : ""; } catch (e) { return ""; } })();
+    const sameVisit = nav === "reload" || nav === "back_forward";
+    // RECONCILE THE RECORD AGAINST REALITY. "saved" is a claim about a list that may no longer
+    // exist — the recipient can delete it, a merge can drop it, a blob can be rewritten. When
+    // the list is gone the old code answered with perfect silence: nothing lit, no offer, no
+    // message, on a URL whose entire job is to show a class. The record loses to the list set.
+    if (seen && seen.s === "saved") {
+      const mine = seen.listId && this._listsMap()[seen.listId] && this._listsMap()[seen.listId].items.length ? seen.listId : null;
+      if (mine) {
+        this.track("neural_share_list_reopened", { share_id: shareId, state: "saved" });
+        this._listFocusId = mine;
+        this.setFocusIdxSet(this.listIdxs(mine));
+        this.setEvent("Already saved", "This class is in your Lists", "good");
+        this._offerShare({ kind: "class", n: this._listsMap()[mine].items.length, target: mine });
+        return;
+      }
+      this.track("neural_share_list_reoffered", { share_id: shareId, reason: "saved_list_missing" });
+      // fall through and OFFER it again — exactly as if it had never been saved
+    } else if (seen && seen.s === "dismissed" && sameVisit) {
+      this.track("neural_share_list_reopened", { share_id: shareId, state: "dismissed" });
+      return; // they said no on this visit; reloading is not a new ask
+    }
+    const idxs = [];
+    for (const id of res.ids) { const i = this._idIndex ? this._idIndex.get(id) : null; if (i != null && this.nodes[i]) idxs.push(i); }
+    this._sharedIncoming = { code: code, ids: res.ids, idxs: idxs, unknown: res.unknown || [], shareId: shareId };
+    this.fx("list_opened", { share_id: shareId, items: res.ids.length, unknown: (res.unknown || []).length });
+    // canonical code => this joins the creator's share_list_created with no server state
+    this.track("neural_share_list_opened", { share_id: shareId, items: res.ids.length, unknown: (res.unknown || []).length });
+    this._listFocusId = "__shared";
+    this.setFocusIdxSet(idxs);
+    this._offerShare({ kind: "class", n: res.ids.length, target: "__shared" });
+  }
+  /**
+   * THE ONE SENTENCE THAT EXPLAINS AN ARRIVAL — held back until it can actually be read.
+   *
+   * A share arrival is decoded at ingest, t=0: the intro is still flying the camera in, and the
+   * toast is a SINGLE slot that the roll's first landing overwrites a second or two later. On a
+   * phone that made the sentence a formality — on screen while the graph was still assembling,
+   * gone before it settled. So the arrival is announced on the FIRST LANDING instead: intro over,
+   * hand dealt, and the slot free for the length of a decision window.
+   *
+   * A timer cannot do this job: `startRoll()` calls `clearTimers()` at the end of the intro, so
+   * an `after()` scheduled at t=0 for t=5 is dropped at t=3.2 without ever firing.
+   */
+  _announceArrival(kicker, text, tone) { this._arrivalSay = { k: kicker, t: text, tone: tone }; }
+  _sayArrivalIfPending() {
+    const s = this._arrivalSay; if (!s) return;
+    this._arrivalSay = null;
+    this.setEvent(s.k, s.t, s.tone);
+  }
+  /**
+   * Present an arrival. THE VIEWPORT DECIDES THE TERMINAL STATE, and it is the one design rule
+   * in this whole feature that a desktop reviewer cannot see:
+   *   · wide  — open the pane on Explore (it sits beside the graph; nothing is hidden, and the
+   *             list is read first). Latches _paneAutoPaused as usual, so closing it resumes.
+   *   · phone — the pane is 88vw. Opening it would bury the lit class under a drawer, so the
+   *             landing ENDS on the lit graph and the pill cue carries the offer instead. One
+   *             tap on "Class ▸" reads it; one tap on ◉ lights it again. Nothing auto-opens.
+   * Either way the arrival is the USER's action (they tapped a link), never the roll loop's, so
+   * PANE LAW holds — and on the phone path nothing opens the pane at all.
+   */
+  _offerShare(cue) {
+    this._setShareCue(cue);
+    if (this.isMobile()) {
+      if (cue.kind === "class") {
+        this._announceArrival(cue.target === "__shared" ? "Shared with you" : "Already saved",
+          cue.n + " technique" + (cue.n === 1 ? "" : "s") + " lit on the graph · tap Class to read them", "good");
+      }
+      this.forceUpdate();
+      return;
+    }
+    // openPane -> setViewMode("explore") clears the focus set by design (a focus belongs to the
+    // tab that lit it), so the class is re-applied AFTER the pane is up. noFrame: the camera was
+    // already flown to the class above and must not be yanked a second time.
+    const keep = this._listFocusId;
+    this.openPane("explore");
+    if (keep && this.listIdxs(keep).length) { this._listFocusId = keep; this.setFocusIdxSet(this.listIdxs(keep), true); }
+    this._renderPaneBody();
+  }
   // authored copy reaches innerHTML through here
   escHTML(v) { return String(v == null ? "" : v).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;"); }
   // "Systems/Danaher-Leg-Lock-System" -> "danaher-leg-lock-system": the same slug the generated
@@ -3457,6 +4399,7 @@ class Component extends DCLogic {
     // pure camera flight — the merged pane sits on the right, the graph flies on the visible left,
     // and every caller (session rows, lesson study) keeps the pane open for the study that follows
     const n = this.nodes[idx]; if (!n) return;
+    this.releaseCamera(); // a row click asks to go somewhere ELSE: end any focus lease, don't fight it
     this.camTarget = { cx: n.x, cy: n.y, vw: Math.max(this.graphW * 0.22, this.graphR * 0.5) };
     this.lastInteract = this.now; this.flare(idx);
   }
@@ -3479,6 +4422,7 @@ class Component extends DCLogic {
   openDossier(idx, skipCam) {
     const n = this.nodes && this.nodes[idx]; if (!n) return;
     this.track("neural_dossier_opened", { node: n.t, node_type: n.ty, mode: this.isMobile() ? "sheet" : "node" });
+    this.releaseCamera(); // reading a node is a camera decision of its own
     this._dossierIdx = idx;
     if (this.isMobile()) {
       // top sheet: 70% tall, graph strip + options + win bar + drill row stay visible below
@@ -3519,6 +4463,7 @@ class Component extends DCLogic {
     if (this._dossierIdx == null || this.isMobile()) return false;
     this._dossierIdx = null;
     const cb = this._camBefore; this._camBefore = null;
+    this.releaseCamera();
     this.camTarget = cb || { cx: this.gcx, cy: this.gcy, vw: this.graphW * 0.42 };
     if (this._dossierAutoPaused) { this.setPaused(false); this._dossierAutoPaused = false; }
     this.lastInteract = this.now;
@@ -3694,9 +4639,20 @@ class Component extends DCLogic {
           '<div style="display:flex;gap:.4em;flex-wrap:wrap;">' + atk3.map((k) =>
             '<span class="dsAtk" data-i="' + k + '" style="cursor:pointer;font-size:.82em;font-weight:700;color:#ff8a7e;background:rgba(242,104,95,.14);border-radius:999px;padding:.4em 1em;">' + this.splitName(this.nodes[k].t).main + pct(k) + '</span>').join("") + '</div></div>';
       }
-      c += '<div class="dsRoll" style="cursor:pointer;display:inline-flex;align-items:center;gap:.74em;background:linear-gradient(135deg,rgba(74,108,255,.2),rgba(74,108,255,.08));border:1px solid rgba(110,160,255,.35);border-radius:1em;padding:.74em 1.5em;">' +
-        '<span style="flex:none;width:2em;height:2em;border-radius:.66em;background:rgba(74,108,255,.22);color:#9ab0e0;display:flex;align-items:center;justify-content:center;"><svg width="11" height="11" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"></path></svg></span>' +
-        '<span style="font-size:1.03em;font-weight:700;color:#eef1f6;">Roll from here</span><span style="font-size:1em;color:#9ab0e0;">\u2192</span></div>';
+      // The two actions share ONE centered row. Deliberate: the in-node card is centred on the
+      // node and the transport pill is fixed at bottom-centre with a higher stacking context,
+      // so a second stacked row pushes the card's actions down INTO the pill and they stop
+      // being clickable by mouse (Playwright caught exactly that: "<button title='Restart
+      // roll'> intercepts pointer events"). One row keeps the card the height it already was,
+      // and putting the list action first parks it left of centre, clear of the pill.
+      c += '<div style="display:flex;align-items:center;justify-content:center;gap:.6em;flex-wrap:wrap;">' +
+        '<div class="dsList" style="cursor:pointer;display:inline-flex;align-items:center;gap:.6em;border:1px solid rgba(150,170,210,.24);border-radius:1em;padding:.7em 1.2em;">' +
+          '<span class="dsListGlyph" style="font-size:1.1em;font-weight:700;line-height:1;color:#9ab0e0;">+</span>' +
+          '<span class="dsListTxt" style="font-size:.95em;font-weight:700;color:#cdd5e6;">Add to today\u2019s class list</span></div>' +
+        '<div class="dsRoll" style="cursor:pointer;display:inline-flex;align-items:center;gap:.74em;background:linear-gradient(135deg,rgba(74,108,255,.2),rgba(74,108,255,.08));border:1px solid rgba(110,160,255,.35);border-radius:1em;padding:.74em 1.5em;">' +
+          '<span style="flex:none;width:2em;height:2em;border-radius:.66em;background:rgba(74,108,255,.22);color:#9ab0e0;display:flex;align-items:center;justify-content:center;"><svg width="11" height="11" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"></path></svg></span>' +
+          '<span style="font-size:1.03em;font-weight:700;color:#eef1f6;">Roll from here</span><span style="font-size:1em;color:#9ab0e0;">\u2192</span></div>' +
+      '</div>';
       // \u2715 \u2014 fly back out. Lives on the UNCLIPPED shell root (the shape's overflow/clip-path would
       let shell;
       const colCss = 'position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:.9em;text-align:center;font-size:' + rootFs + 'px;';
@@ -3727,6 +4683,7 @@ class Component extends DCLogic {
       dos.style.width = size + "px"; dos.style.height = size + "px";
       dos.innerHTML = shell;
       dos.querySelectorAll(".dsAtk").forEach((a2) => a2.addEventListener("click", () => this.openDossier(parseInt(a2.getAttribute("data-i"), 10))));
+      this._wireDossierListButton(dos, n, "dossier");
       const roll2 = dos.querySelector(".dsRoll"); if (roll2) roll2.addEventListener("click", () => { this.closeNodeDossier(); this.jumpToState(n.idx); });
       return;
     }
@@ -3791,8 +4748,13 @@ class Component extends DCLogic {
       '<span style="flex:none;width:26px;height:26px;border-radius:8px;background:rgba(74,108,255,.22);color:#9ab0e0;display:flex;align-items:center;justify-content:center;"><svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"></path></svg></span>' +
       '<div style="display:flex;flex-direction:column;gap:1px;"><span style="font-size:12.5px;font-weight:700;color:#eef1f6;">Roll from here</span><span style="font-size:10.5px;color:#9aa6bd;">make this the current state</span></div>' +
       '<span style="margin-left:auto;font-size:13px;color:#9ab0e0;">\u2192</span></div>';
+    // add-to-class-list, right where a coach is already reading about the technique
+    h += '<div class="dsList" style="cursor:pointer;display:flex;align-items:center;gap:10px;margin-top:8px;border:1px solid rgba(150,170,210,.2);border-radius:12px;padding:10px 14px;">' +
+      '<span class="dsListGlyph" style="flex:none;width:26px;height:26px;border-radius:8px;background:rgba(150,170,210,.14);color:#9ab0e0;display:flex;align-items:center;justify-content:center;font-size:15px;font-weight:700;line-height:1;">+</span>' +
+      '<div style="display:flex;flex-direction:column;gap:1px;"><span class="dsListTxt" style="font-size:12.5px;font-weight:700;color:#eef1f6;">Add to today\u2019s class list</span><span style="font-size:10.5px;color:#9aa6bd;">share the class as one link</span></div></div>';
     h += '</div>';
     dos.innerHTML = h;
+    this._wireDossierListButton(dos, n, "dossier");
     const back = dos.querySelector(".dsBack"); if (back) back.addEventListener("click", () => { if (mob) { this.closeDossierSheet(); this.openExplorer(); this.showExplorerList(); } else this.showExplorerList(); });
     const xb = dos.querySelector(".dsClose"); if (xb) xb.addEventListener("click", () => this.closeDossierSheet());
     dos.querySelectorAll(".dsAtk").forEach((el) => el.addEventListener("click", () => this.openDossier(parseInt(el.getAttribute("data-i"), 10))));
@@ -3820,6 +4782,7 @@ class Component extends DCLogic {
     this.aiSkill = this.get("difficulty", "normal") === "off" ? 0 : 0.06 + this.rng("ai-skill") * 0.14;
     this.moveCount = 0; this.maxMoves = 9 + ((this.rng("max-moves") * 4) | 0);
     this.currentPos = idx; this.focusIdx = idx; this.pulse = null; this.activeMove = null;
+    this.releaseCamera(); // "play from here" IS a camera request; the old focus lease is over
     this.camTarget = { cx: this.nodes[idx].x, cy: this.nodes[idx].y, vw: this.graphW * 0.42 };
     this.camFocus = { x: this.nodes[idx].x, y: this.nodes[idx].y };
     this.flare(idx);
@@ -4627,8 +5590,11 @@ class Component extends DCLogic {
     const pct = Math.round((isEsc ? this.escapeChance(opt) : this.moveChance(n)) * 100);
     const oddsCol = pct >= 60 ? "#7ee0a8" : pct >= 38 ? "#cbd24e" : "#e8956b";
     const pot = Math.round(this.movePotential(opt) * 100);
-    const bottomRow = '<div style="margin-top:8px;padding-top:8px;border-top:1px solid rgba(150,170,210,.1);display:flex;align-items:baseline;justify-content:space-between;gap:8px;">' +
-      '<div style="font-size:8px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:#8094b4;">Success rate</div>' +
+    // the 44px capture target (below) needs the width the "SUCCESS RATE" caption was using: on a
+    // 150px card at 390px there is no slack, and a coloured percentage is legible without a caption
+    const rateCaption = this.isMobile() ? "Odds" : "Success rate";
+    const bottomRow = '<div class="ngbotrow" style="margin-top:8px;padding-top:8px;border-top:1px solid rgba(150,170,210,.1);display:flex;align-items:center;justify-content:space-between;gap:6px;">' +
+      '<div style="font-size:8px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:#8094b4;">' + rateCaption + '</div>' +
       '<span class="ngodds" style="font-size:15px;font-weight:700;color:' + oddsCol + ';">' + pct + '%</span>' +
       '</div>';
     card.innerHTML =
@@ -4642,6 +5608,15 @@ class Component extends DCLogic {
       '<div style="font-size:11px;color:#93a0bd;line-height:1.3;">' + (isEsc ? "escape route" : "&rarr; " + this.splitName(resName).main) + '</div>' +
       bottomRow +
       '<div class="ngbar" style="position:absolute;left:0;bottom:0;height:3px;width:100%;background:' + col + ';transform-origin:left;transform:scaleX(1);"></div>';
+    // ── CAPTURE THE TECHNIQUE, NOT THE POSITION ──────────────────────────────────────────────
+    // "These are the techniques we learned in today's class" means TRANSITIONS AND SUBMISSIONS.
+    // The landing card's + adds the position you happen to be standing in — legitimate ("we
+    // worked from half guard"), but not what the feature is for. The hand IS the techniques, so
+    // the hand is where a coach captures one: one tap, no commit, the roll carries on.
+    // Bottom-right of the card, beside the odds: the header row's 150px is already glyph +
+    // category + potential, and a 24px target crammed in there is not a thumb target.
+    const capRow = card.querySelector(".ngbotrow");
+    if (capRow) capRow.appendChild(this._listAddButton(n.id, "option"));
     card.addEventListener("mouseenter", () => { card.style.borderColor = "rgba(150,180,255,.55)"; card.style.background = "rgba(40,48,76,.9)"; card.style.transform = "translateY(-2px)"; });
     card.addEventListener("mouseleave", () => { card.style.borderColor = "rgba(150,170,210,.18)"; card.style.background = "rgba(28,32,52,.78)"; card.style.transform = "translateY(0)"; });
     card.addEventListener("click", () => { if (isEsc) onPick(opt); else this.expandOption(opt, onPick, card); });
@@ -4863,20 +5838,62 @@ class Component extends DCLogic {
     }
 
     // 5 — everything else is behind one affordance
+    // STICKY: the card is `max-height:min(320px,40vh); overflow-y:auto`, and with a definition,
+    // a film row and a 4-option question the content is routinely TALLER than that. A static
+    // footer then sits below the scroll box: present in the DOM, reported "visible" by a
+    // locator, and unreachable by a real mouse until the user scrolls INSIDE the card — which
+    // nobody does mid-roll. Sticking it to the bottom of the scrollport keeps `More ▸` and the
+    // add-to-class + on screen at every scroll offset. pointer-events is re-enabled here as
+    // well as on the button: a fixed overlay's disabled pointer-events is inherited, and this
+    // repo has paid for that twice (v1.69.1).
     const foot = document.createElement("div");
-    foot.style.cssText = "display:flex;align-items:center;gap:12px;margin-top:9px;";
+    foot.setAttribute("data-land-foot", "1");
+    foot.style.cssText = "position:sticky;bottom:0;z-index:2;pointer-events:auto;display:flex;align-items:center;gap:12px;margin-top:9px;padding:8px 0 2px;background:linear-gradient(180deg,rgba(19,22,37,0),rgba(19,22,37,.94) 45%,rgba(19,22,37,.97));";
     const more = document.createElement("button");
     more.setAttribute("data-land-more", "1");
     more.innerHTML = "More ▸";
     more.style.cssText = "cursor:pointer;font-family:inherit;font-size:10px;font-weight:700;letter-spacing:.09em;text-transform:uppercase;color:#7e8aa3;background:none;border:none;padding:2px 0;";
     more.addEventListener("click", () => this.openDossier(node.idx));
     foot.appendChild(more);
+    // "we just drilled this" — one tap adds the state you are standing in to today's class list.
+    // pointer-events:auto is set INLINE by _listAddButton: .ng-landcard is a fixed overlay and
+    // the canvas hit-tests above anything that does not re-enable it.
+    const addBtn = this._listAddButton(node.id, "land");
+    addBtn.style.marginLeft = "auto";
+    foot.appendChild(addBtn);
     el.appendChild(foot);
+    this._dockLandCard(el);
     return el;
   }
   // this landing asked nothing, and `reason` says why (so the funnel gap is never a phantom)
   _landQSkip(key, reason, mode) {
     this.fx("land_q_skipped", { deckKey: key, reason: reason, mode: mode || "land", backfill: !!this._landLate });
+  }
+  /**
+   * Dock the landing card ABOVE the options tray on a narrow viewport.
+   *
+   * The tray is `position:absolute; bottom:84px` with NO height, so it grows UPWARD as its cards
+   * grow; the landing card's `bottom` is a CSS constant (206px on a phone) that was tuned against
+   * a shorter tray. Measured at 390x844: tray top 583, landing-card bottom 646 — a 63px overlap,
+   * and the card is z-index 5 over the tray's 4, so it covered the top of every option card: the
+   * category, the potential and the technique NAME you are choosing between. (The overlap
+   * pre-dates the capture `+`, which widened it by ~9px; a constant cannot track a tray whose
+   * height depends on how many lines a technique's name wraps to.)
+   *
+   * So dock off the tray's MEASURED top instead. Mobile only: on desktop the tray is one row of
+   * cards well below the card and the authored constant is right.
+   */
+  _dockLandCard(el) {
+    if (!el || !this.isMobile()) return;
+    const row = this.optionsRef.current; if (!row) return;
+    const h = row.getBoundingClientRect().height;
+    if (!(h > 0)) return; // no hand dealt yet — the CSS constant is as good a guess as any
+    const TRAY_BOTTOM = 84; // matches .ng-optionrow's own `bottom` in xdc-template.html
+    // `!important` is REQUIRED, not cargo cult: the mobile rule is
+    // `@media (max-width:640px){.ng-landcard{bottom:206px!important}}`, and a plain inline style
+    // loses to an !important declaration in a stylesheet. Setting `el.style.bottom` moved the card
+    // by 2px (646 → 644) and looked like the measurement was wrong rather than the cascade.
+    el.style.setProperty("bottom", Math.round(TRAY_BOTTOM + h + 8) + "px", "important");
   }
   _landAnswered(correct, tier, mode, hooks) {
     this._landPending = false;
@@ -5432,6 +6449,7 @@ class Component extends DCLogic {
     this.playerRole = /\bbottom\b/i.test(t) ? "bottom" : (/\btop\b/i.test(t) ? "top" : (this.rng("role") < 0.5 ? "top" : "bottom"));
     this.currentPos = posIdx; this.focusIdx = posIdx; this.pulse = null; this.activeMove = null;
     this.camFocus = { x: this.nodes[posIdx].x, y: this.nodes[posIdx].y };
+    this.releaseCamera(); // roaming/staging elsewhere ends the focus lease (the user chose a node)
     this.camTarget = { cx: this.nodes[posIdx].x, cy: this.nodes[posIdx].y, vw: this.graphW * 0.42 };
     this.prevPosVal = this.myVal(this.nodes[posIdx]);
     this._played = false;                        // nothing counts until it runs unpaused
@@ -5669,6 +6687,7 @@ class Component extends DCLogic {
     if (first) this.maybeStartCoach(); // guided first roll (frozen clock) for first-ever visitors
     this.renderLandCard(pos, "land", null); // identity → film → ONE question, above the hand
     this.renderTutorial();
+    this._sayArrivalIfPending(); // the shared-link sentence, now that there is a screen to read it on
   }
 
   decisionRemaining() { return this._decision ? Math.max(0, this._decision.remaining / 1000) : 0; }
@@ -6065,10 +7084,28 @@ class Component extends DCLogic {
   userActiveNow() { return this.now - (this.lastInteract || -99) < 4; }
   updateCamera(dt) {
     const el = this.now - this.startTime;
+    // a lease taken before there was a clock starts counting now (see holdCamera)
+    if (this._camHoldUntil === -1) this._camHoldUntil = this.now + (this._camHoldSecs || this.camHoldSec);
     let tgt = null;
     if (!this.introDone) {
       if (el < 1.6) tgt = { cx: this.gcx, cy: this.gcy, vw: this.graphW * 2.3 - this.graphW * 0.3 * (el / 1.6) };
-      else { tgt = { cx: this.gcx, cy: this.gcy, vw: this.graphW * 1.0 }; if (el > 3.2) { this.introDone = true; this.startRoll(); } }
+      else {
+        tgt = { cx: this.gcx, cy: this.gcy, vw: this.graphW * 1.0 };
+        if (el > 3.2) {
+          this.introDone = true;
+          // HAND THE INTRO'S CAMERA TO A FLIGHT THAT WAS ASKED FOR DURING IT. A share link is
+          // decoded at ingest — t=0, 3.2 seconds before this line — so its frameNodes() ran while
+          // the intro owned the camera and was simply lost. Re-assert it here, with a fresh lease,
+          // and let it fly instead of the intro's parting overview.
+          if (this.camHeld() && this._camHoldTarget) {
+            const h = this._camHoldTarget;
+            this.camTarget = { cx: h.cx, cy: h.cy, vw: h.vw };
+            this._camHoldUntil = this.now + this.camHoldSec;
+            tgt = null;
+          }
+          this.startRoll();
+        }
+      }
     } else if (this.userActiveNow()) {
       tgt = null;
     } else if (this.endZoom) {
@@ -6091,6 +7128,11 @@ class Component extends DCLogic {
     // itself keeps flying toward whatever camTarget was set (Follow/Overview must not yank the
     // camera away mid-read, but manual prezi targets still animate).
     if (this.introDone && (this.paused || this._dossierIdx != null)) tgt = null;
+    // …and a live focus lease outranks every AUTOMATIC retarget there is — follow, overview, the
+    // end-of-round zoom. This is the line the whole camera-ownership fix comes down to: without
+    // it the follow-cam re-aims camTarget at the current roll node on the very next frame and the
+    // flight the user asked for never happens. See holdCamera().
+    if (this.introDone && this.camHeld()) tgt = null;
     if (tgt) { this.camTarget.cx = tgt.cx; this.camTarget.cy = tgt.cy; this.camTarget.vw = tgt.vw; }
     // dossier flight: CENTER faster than the zoom dives (prezi-style) — otherwise at deep zoom the
     // viewport shrinks quicker than the target centers and mid-flight shows empty space instead of
@@ -6213,6 +7255,18 @@ class Component extends DCLogic {
     const dist = () => { const a = [...ptrs.values()]; return Math.hypot(a[0].x - a[1].x, a[0].y - a[1].y); };
     const mid = () => { const a = [...ptrs.values()]; return { x: (a[0].x + a[1].x) / 2, y: (a[0].y + a[1].y) / 2 }; };
     el.addEventListener("pointerdown", (e) => {
+      // ── the in-node dossier owns gestures that START inside it ──
+      // Below, pointerdown calls el.setPointerCapture(). Capture RETARGETS every later pointer
+      // event to `el`, so (a) pointerup's `inCard` guard saw the wrap div instead of the card
+      // and dismissed the dossier mid-gesture, and (b) the browser computed the click event's
+      // target from the down/up common ancestor — also the wrap div. Net effect: EVERY button
+      // inside the desktop in-node dossier ("Roll from here", the attack pills, and now "Add to
+      // today's class list") was visible, enabled, stable — and dead to the mouse. Keyboard and
+      // programmatic paths masked it, exactly like the coach button before v1.69.1. Found by
+      // Playwright: pointerdown hit .dsListTxt, mouseup and click hit a DIV.
+      // Panning the graph from inside the card was never a gesture anyone wanted.
+      const nc = this.nodeCardRef && this.nodeCardRef.current;
+      if (nc && nc.style.display !== "none" && e.target && nc.contains(e.target)) return;
       this.closeDeckIfStudying();
       ptrs.set(e.pointerId, { x: e.clientX, y: e.clientY });
       try { el.setPointerCapture(e.pointerId); } catch (err) {}
@@ -6237,6 +7291,7 @@ class Component extends DCLogic {
         const sa = this.W / vw;
         this.cam.cx = wx - (sx - this.W / 2) / sa; this.cam.cy = wy - (sy - this.H / 2) / sa;
         this.camTarget.cx = this.cam.cx; this.camTarget.cy = this.cam.cy; this.camTarget.vw = vw;
+        this.releaseCamera(); // a pinch is the user taking the camera; never fight a live gesture
         this.lastInteract = this.now; return;
       }
       if (!dragging || !this.cam) { this._updateHover(e); return; }
@@ -6244,6 +7299,7 @@ class Component extends DCLogic {
       const scale = this.W / this.cam.vw;
       this.cam.cx -= (e.clientX - lx) / scale; this.cam.cy -= (e.clientY - ly) / scale;
       this.camTarget.cx = this.cam.cx; this.camTarget.cy = this.cam.cy;
+      if (moved > 6) this.releaseCamera(); // a real pan (not tap jitter) ends any focus lease
       lx = e.clientX; ly = e.clientY; this.lastInteract = this.now;
     });
     const end = (e) => {
@@ -6276,6 +7332,7 @@ class Component extends DCLogic {
       const sa = this.W / vw;
       this.cam.cx = wx - (sx - this.W / 2) / sa; this.cam.cy = wy - (sy - this.H / 2) / sa;
       this.camTarget.cx = this.cam.cx; this.camTarget.cy = this.cam.cy; this.camTarget.vw = vw;
+      this.releaseCamera(); // wheel-zoom is the desktop equivalent of a pinch
       this.lastInteract = this.now;
     }, { passive: false });
   }

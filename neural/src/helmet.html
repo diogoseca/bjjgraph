@@ -62,6 +62,29 @@
     .ng-winbar{width:104px!important;}
     .ng-legend{left:14px!important;bottom:27px!important;gap:0!important;}
     .ng-landcard{bottom:206px!important;width:calc(100vw - 20px)!important;max-height:34vh!important;padding:11px 12px 10px!important;}
+    /* ── THE BOTTOM THUMB BAND HAS THREE TENANTS ──────────────────────────────────────────
+       legend (left:14), transport (centred), drill pill (right:14) — all anchored at 28px.
+       The share cue's two buttons widen the pill LEFTWARD until, at 390px, it sat on top of
+       the transport: the pill's z-index is 6 and the transport's is 4, so the play/pause and
+       restart buttons were simply gone (measured: elementFromPoint over play returned the
+       pill). A control that hides the play button is a net loss, so while a cue is up the
+       transport steps aside and the pill gives up its own label — and share-camera.spec.ts
+       asserts the geometry (transport, cue AND legend) at 390x844 rather than trusting this. */
+    /* `!important` is load-bearing here: the transport carries `transform:translateX(-50%)` as an
+       INLINE style (xdc-template.html), and only an !important stylesheet declaration outranks an
+       inline one — the same cascade fact `_dockLandCard` is commented for. */
+    body[data-share-band] .ng-transport{transform:translateX(calc(-50% - 16px))!important;}
+    /* the cue already names the class; the pill's own line is what it displaces, not the
+       transport. (Deliberately NOT a max-width on the pill: a capped right-anchored flex row
+       does not shrink its buttons, it pushes the last one off the right edge of the screen —
+       trading a covered play button for an unreachable cue.) */
+    body[data-share-band] .ng-drilltab .ng-dt-short{display:none!important;}
+    /* …and the pill tightens, because the band is a ZERO-SLACK row at 390px: measured, legend
+       14–118, transport 151–239, cue pill 220–376. A big transport shift only moves the
+       collision onto the legend (measured: 84–174 vs 14–118), so the pill gives up padding and
+       button margins and the transport steps aside just far enough. */
+    body[data-share-band] .ng-drilltab{padding:8px 10px!important;}
+    body[data-share-band] .ng-drilltab > button{margin-left:7px!important;}
   }
 
   /* \u2500\u2500 P2: beat beacon / defense vignette / coach / film shimmer \u2500\u2500 */

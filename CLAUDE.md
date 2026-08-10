@@ -292,6 +292,256 @@ The state machine is **bipartite**: position role-nodes point to technique nodes
 - **`game-over` is the only sink** (out-degree 0). Every `outcome.to` must resolve to a **role-node**, a **real (non-family) submission**, or **`game-over`** — never a bare position hub, a family hub, or a self-loop.
 - **Only submissions reach `game-over`** — a transition pointing directly to `game-over` is a misfiled finish (it should advance to a control position).
 
+### Share links — node ordinals + wire codec (v1.81.0, foundation)
+
+A share link carries a LIST OF GRAPH NODES in its URL (the gym-WhatsApp acquisition path:
+"these are the techniques we learned in today's class"). Two artifacts underpin it.
+
+**`node_ordinals.json` (repo root, COMMITTED, APPEND-ONLY).** `{id -> ordinal}` for every
+`globalGraphLayout.json` node, plus a `retired` map.
+- **A node's array index can NEVER go in a URL.** `regenerate_graph.py` builds graph.json from
+  an unsorted `rglob('*.json')` and `regenerate_graph_layout.py` derives its node list from
+  `adjacency` DICT INSERTION order seeded by that iteration — so adding one content file
+  renumbers pre-existing entries (measured: +1 file in a 7-file dir moved 2 of the 7). An
+  index-encoded link would silently open a DIFFERENT set of techniques, with no error anywhere.
+  Live proof: `graph-data.json` node[0] is `Positions/Gogoplata-Control`, ordinal **42**.
+- Ordinals are assigned once and are **permanent**: never renumbered, never reused, and a
+  deleted node's entry is **retired, not removed** (so its ordinal can never be handed to
+  another node). New nodes append at `next_ordinal` in **sorted-id order**, so the minting
+  itself does not inherit filesystem order either.
+- `npm run regenerate:ordinals` mints/appends (wired into the `regenerate:graph` umbrella,
+  after graph-layout). `npm run validate:ordinals` is a HARD gate (`ci-validate.yml` + both
+  deploy workflows). The generator self-gates: it refuses to write a lockfile that would fail
+  `--check`.
+- The browser gets it via **`o` on every `graph-data.json` node**, stamped by
+  `regenerate_neural_data.py` — a step deploy actually runs. (`npm run build` and
+  `regenerate:graph` do NOT run in deploy; the workflows re-list steps inline.) Cost: **+4.6 KB
+  gzip**, deliberately paid inline so the `/l/<code>` recipient path resolves ordinals from a
+  payload it already needs (node coordinates) instead of adding a request to the acquisition
+  path's critical fetch chain.
+
+**`neural/src/lists-codec.src.js` — the wire codec, PURE.** Format **v2** (current) = `[0x02]
+varint(n-1) varint(d0) … varint(d(n-1))` base64url-unpadded, where ordinals are sorted-unique and
+`di = oi - o(i-1) - 1`.
+- That `-1` makes duplicates and out-of-order sets **unrepresentable**, so the encoding is
+  **canonical**: one set of nodes has exactly one spelling on every device. That is what makes
+  `share_id` (first 12 chars) join creator and recipient events into a viral funnel with no
+  server state. Non-canonical spellings (base64 padding, non-zero trailing bits, non-minimal
+  varints) are REJECTED for that reason, not pedantry.
+- **`n` is the ITEM COUNT and it exists so TRUNCATION IS DETECTABLE (v1.81.2).** WhatsApp and
+  mail clients clip and re-wrap long URLs. v1 had no length and no checksum, so a clipped code
+  decoded perfectly cleanly into a strict PREFIX of the class — **measured: 198 of 955 prefixes
+  of real 2-13 item codes decoded silently**, one turning a 12-technique class into a
+  1-technique one, with nobody able to tell. With the count, the payload must hold EXACTLY `n`
+  deltas and end there, so a clipped link fails as `count_mismatch` / `truncated_varint` /
+  `trailing_bytes` and the recipient is TOLD ("This link is incomplete"). Cost: 1 byte.
+- **v1 still decodes, forever** (`NG_LIST_WIRE_VERSIONS_READ = [1,2]`) — a code is a permanent
+  promise like an ordinal — but is never minted. Canonicality is therefore per-version, and only
+  v2 is ever emitted, so every code the app produces is still the one spelling of its set.
+- **Measured URL length** (1467 nodes, `https://bjjgraph.org/l/` + code): 5 items → **37.0
+  chars mean / 39 worst**; 12 items → **47.3 / 51** (v1 was 35.5/38 and 46/50 — the count byte
+  costs ~1.5 chars).
+- Decode NEVER throws — it returns `{ok:false, error}` — and caps input at 512 chars / 60 items.
+  Unknown ordinals (a link from a newer build, or a retired node) are REPORTED, not fatal: the
+  list still opens with what resolved.
+- **One source, three consumers.** It is a real ES module so `node --test` and a Cloudflare
+  Pages Function import the identical file; `neural/build/build.mjs` strips the `export `
+  keywords when concatenating it into the IIFE and **throws if that strip stops matching** (a
+  surviving `export` is a parse error that would delete the whole app). Exposed as
+  `globalThis.NGLists`. Pinned by `tests/share_lists_codec.test.mjs` (19 tests, mutation-tested:
+  every guard has a test that fails when the guard is deleted — the v2 count guards were checked
+  against 8 mutants, 8 killed). `build.mjs`'s duplicate-top-level-name guard scans
+  `function|const|let|var|class` (it used to scan only `function|const`, so a colliding `let`
+  walked past it into the same SyntaxError it exists to prevent).
+- Lists are **STORED as node ids** (in the existing v2 progress blob, add-wins merge); only the
+  WIRE uses ordinals.
+
+### Share links — the feature on top (v1.81.1)
+
+`neural/src/lists.src.js` is the DOMAIN module beside the codec: storage shape, the merge rule,
+`/l/<code>` parsing and the link-preview text. Same three-consumers contract (node --test, the
+browser IIFE via `build.mjs`, the Pages Function), same no-`import` rule — and note the two files
+share ONE scope in the bundle, so no top-level name may collide. That is why the item cap is
+`NG_LIST_ITEM_CAP` here and `NG_LIST_MAX_ITEMS` in the codec; a test pins them equal and
+`build.mjs` throws on any duplicated top-level name.
+
+**Storage.** `lists: {"<id>": {name, items:[nodeId], t}}` inside the **existing v2 blob** — no
+version bump, no migration. Cloud reconciliation is **ADD-WINS** (`ngMergeLists`, beside
+`ngMergeCollectibles`' UNION): union of lists, union of their items, name from the later `t`.
+A DELETE therefore loses to a stale device — deliberate: deleting again is trivial, losing the
+list a class was built from (already posted in a group chat) is not. The item cap is enforced at
+**add** time because `ngListEncodeOrdinals` THROWS above it rather than truncating a coach's class.
+
+**UI.** A **Lists** section at the TOP of Explore (`[data-lists-section]`, `[data-list-row]` with
+Drill / Share / ×). Read order inside it is **arrival first**: a `[data-shared-list]` (or
+`[data-shared-stale]`) block, then any undo row, then `[data-lists-head]` — a first-time recipient
+must never read "Lists (0)" above "Shared with you · 5 techniques", and the head prints no count
+at all when there are no lists. **Delete is two-step and undoable**: the first click arms it
+(`[data-list-delete-armed]`, label "Delete?", 8s window), the second deletes and leaves a
+`[data-list-undo]` row holding the whole list; it also sits 12px clear of Share, which is the
+button a coach presses in front of the class. The `+` add affordance (`[data-list-add="<nodeId>"]` +
+`data-list-surface=explore|dossier|land|lesson|shared`) rides Explore rows, BOTH dossier
+renderers, the in-roll landing card and challenge lesson rows (as a SIBLING of the lesson
+`<button>` in `.ng-challenge-lessonrow` — a nested `<button>` would close the outer one in the
+parser). Lighting a list reuses `setFocusIdxSet` exactly like a System; `_listFocusId` survives
+each `renderExplorer` reset (which otherwise `clearFocus()`es on every keystroke) and is dropped
+by `clearFocus`, i.e. on any tab change or pane close.
+
+**Recipient path (`_openSharedListFromUrl`, called right after `ingest`).** Decodes
+`location.pathname` client-side, sets `_sharedIncoming`, opens the pane on Explore and lights the
+nodes. A received link is **offered, never adopted**: Save is one deliberate click. Unknown
+ordinals surface as `[data-shared-unresolved]` and the rest still opens. Beats: `list_item_added`,
+`list_shared`, `list_opened` (the last two have sound cues in the `Sharing` group), plus
+`list_stale` / `list_failed`.
+
+**Four outcomes for a `/l/<code>` arrival, and they are FOUR DIFFERENT SENTENCES** (v1.81.2):
+resolvable → the offer; **valid but nothing this build knows** → `[data-shared-stale]` ("this link
+is valid, your app is older — reload in a bit"), which is actionable and must not be answered with
+the silence garbage gets; **damaged** → `[data-shared-broken]` ("this link is incomplete");
+**not code-shaped** (`/l/not!a!code` — fails `ngListParseSharePath`) → nothing at all, the app is
+just an app.
+
+**THE PHONE IS THE PRODUCT SURFACE, AND IT DECIDES THE TERMINAL STATE** (v1.81.3). A gym WhatsApp
+link is opened one-handed in a changing room, and on a 390x844 phone `.ng-drill` is an **88vw
+drawer** — it IS the screen. So `_offerShare()` forks on `isMobile()`:
+- **wide** → `openPane("explore")` as before (the pane sits beside the graph; nothing is hidden).
+- **phone** → **nothing opens.** The class is lit, the camera framed on it, and the offer arrives
+  on the collapsed **`.ng-drilltab` pill** instead: `[data-share-cue]` (`◉ N`, re-lights WITHOUT
+  covering the graph, beat `list_relit`) + `[data-share-open]` (`Class ▸`, the deliberate "let me
+  read it" → pane on Explore). This serves PANE LAW *better*, not worse: on the phone path nothing
+  but the user ever opens the pane.
+- **A LIST focus now SURVIVES a mobile pane close** (`applyDeckVisibility`): there, closing the
+  drawer is how you look at the graph, not how you discard the class. Desktop keeps the original
+  clear-on-close — the pane never covered anything there.
+- Both cue buttons are `<button>`s **appended LAST** to the pill: the mobile rules hide
+  `.ng-drilltab > span:first-child` and `> div`, and inserting first would unhide the pill's own
+  icon. `_renderShareCue()` also **shows the pill itself** — `pointer-events:auto` is inline on
+  those buttons (it must be), which beats the tab's inherited `none`, so the first draft was fully
+  CLICKABLE at `opacity:0` (the pill only appears on the first landing, and a share arrival is
+  decoded before the first roll starts). A control you can hit but cannot see is worse than a late
+  one. `reach()` in the mobile spec asserts effective opacity up the ancestor chain for this reason.
+
+**THE LANDING CARD DOCKS OFF THE TRAY'S MEASURED TOP ON MOBILE** (`_dockLandCard`, v1.81.3). The
+options tray is `position:absolute; bottom:84px` with NO height, so it grows UPWARD as its cards
+grow, while `.ng-landcard`'s mobile `bottom` was a CSS constant tuned against a shorter tray.
+Measured at 390x844: tray top **583**, landing-card bottom **646** — a 63px overlap, card at z-index
+5 over the tray's 4, so it covered the top of every option card: the category, the potential and the
+technique NAME you are choosing between. The overlap PRE-DATES the capture `+` (which widened it by
+~9px), and no constant can track a tray whose height depends on how many lines a name wraps to.
+`el.style.setProperty("bottom", …, "important")` is required, not cargo cult — the mobile rule is
+`!important`, and a plain inline style moved the card 2px and looked like a bad measurement.
+
+**CAPTURE THE TECHNIQUE, NOT JUST THE POSITION** (v1.81.3). "The techniques we learned in today's
+class" means TRANSITIONS AND SUBMISSIONS. The landing card's `+` adds the *position you are
+standing in* — legitimate ("we worked from half guard"), but not what the feature is for. The hand
+IS the techniques, so `+` now rides **every option card** (`data-list-surface="option"`, in the
+`.ngbotrow` beside the odds — the 150px header row is already glyph + category + potential) and the
+**technique sheet's footer** (`data-list-surface="sheet"`, a 44px labelled target, which is the
+mobile path since a card tap opens the sheet). Capturing never commits the move and never stops the
+clock. Proven by `page.mouse.click` / `page.touchscreen.tap` at MEASURED coordinates on 390x844 —
+never `locator.click()`, which scrolls into view and hid the landing-card clipping bug for a pass.
+
+**Named the way a coach named it.** Every list surface renders the FULL authored name
+(`listItemName()`, and `splitName().main` + the dimmer `from …` in the shared block) — never
+`splitName().main` alone. 648 of 1467 nodes carry a `from <position>` qualifier and 89 main names
+are ambiguous: "Kimura" is **35** different techniques here, "Americana" **16**. The qualifier IS
+the disambiguator; dropping it destroys the point of the share. The same rule holds for the
+add/remove toasts and for `l-manifest.json` → the og preview text.
+
+**Offered once — but THE RECORD LOSES TO THE LIST SET** (reconciled v1.81.3). `shareSeen` (a
+settings key, so LWW per key and cross-device) records each `share_id` as `saved` (with its list id)
+or `dismissed`. A **saved** code lights THEIR list instead of re-offering a duplicate; a
+**dismissed** code is not re-offered within the same visit (`performance` navigation type
+`reload`/`back_forward`) — reloading is not a second ask. `saved` is a *claim about a list that may
+no longer exist* (deleted, merged away, blob rewritten), and when it doesn't the old code answered
+with perfect silence — nothing lit, no offer, no message, on a URL whose only job is to show a
+class. `_openSharedListFromUrl` now checks the list is still there **and non-empty**, and falls
+through to offering it again (`neural_share_list_reoffered`) when it is not.
+
+**Re-lightable, from inside AND outside the pane.** `[data-shared-relight]` ("Show on graph") in the
+shared block and `[data-share-cue]` (`◉ N`) on the pill both re-run the same `setFocusIdxSet` path.
+It exists because closing the pane `clearFocus()`es by design (on desktop), and the received set was
+the ONE focus source with no way back. The cue is the mobile answer: the in-pane control is
+unreachable in exactly the state you want it, since the pane is the screen there.
+
+**A DAMAGED LINK IS TOLD DURABLY, NOT IN A TOAST** (v1.81.3). Two separate defects were behind
+"detected but silent": (1) `setEvent` has ONE slot and the roll overwrites it within a couple of
+seconds, so the toast alone never reached a real recipient — hence `[data-shared-broken]`, plus the
+pill cue that survives; (2) the clip classifier only listened for the count-byte errors. Measured
+over every prefix of real codes (908 prefixes): **`not_base64url` 478 · `truncated_varint` 191 ·
+`count_mismatch` 179 · `truncated` 60** — the base64 layer refuses FIRST whenever a cut lands
+mid-quantum (`len % 4 == 1`) or on non-zero trailing bits, so **the majority of real cuts are
+`not_base64url`** and were answered with silence. `NG_LIST_CLIP_ERRORS` (in the codec, beside the
+wire that defines them) is now the single classifier; errors a cut cannot produce (`bad_version`,
+`too_many_items`, `non_canonical_varint`, `too_long`) stay out, because "cut short in transit" is
+the wrong sentence for a mistyped code. Anything code-shaped that will not decode says *something*.
+
+**The analytics join across a wire-version bump** is documented once, on `ngListShareId`:
+canonicality is per-version, so one set has a v1 and a v2 spelling and two ids. v1 is never minted,
+so a v1 id can only appear on the RECIPIENT side (a link pasted before the bump) and is counted as
+an unattributed legacy open — never re-keyed to a synthetic v2 id. The ids diverge inside their
+first two characters, so the two spellings can never be conflated.
+
+**Four rungs, and the one that matters.** `_redirects` carries **`/l/* /l.html 200`** — a REWRITE,
+so `/l/<code>` keeps its URL and gets the built shell. That plus client-side decode is the WHOLE
+experience with **no Function at all**; `functions/l/[[path]].js` only adds the social preview
+(og:title naming the techniques), because WhatsApp/Telegram/X fetch server-side and never run JS.
+**HEADERS FOR `/l/*` COME FROM ONE PLACE AT A TIME, AND THE TWO PLACES MUST AGREE** (v1.81.2).
+Cloudflare: *"Custom headers defined in the `_headers` file are not applied to responses generated
+by Pages Functions, even if the request URL matches a rule defined in `_headers`."* So unlike the
+comma-join trap that `check_headers_cache.py` was built for, `/l/*` has **two mutually exclusive**
+header sources — the Function when deployed, `_headers` on the rewrite rung — and the failure
+available here is them DISAGREEING, so the TTL and security posture change the day the Function
+lands. `SHARE_CACHE_CONTROL` + `SHARE_STATIC_HEADERS` in the Function are byte-identical to
+`_headers`, gated (checks 6-8 of `check_headers_cache.py`, which also derives each Function's route
+from its filename). The Function must also `delete` `content-length`/`etag`/`last-modified`/
+`content-encoding` before reusing the asset's headers: it returns an **HTMLRewriter-transformed**
+body, so the asset's length is wrong, its ETag/Last-Modified would make two different documents
+share one cache validator, and a surviving `content-encoding` describes bytes `ASSETS.fetch` already
+decoded.
+
+**The gate checks OMISSION, not only drift** (v1.81.3) — omission is the likelier regression and
+reproduces the very hazard: a Function that stops setting `Cache-Control` altogether used to pass
+(the comparison loop had nothing to iterate), and a `SHARE_STATIC_HEADERS` block that is declared but
+never written into the response passed every value comparison while shipping none of the headers.
+`main()` now also runs the Function checks against the **emitted** `source/public/_headers` — the file
+Cloudflare actually reads — not only the canonical `source/quartz/static/_headers`, which is merely
+its input (`regenerate_headers.py` sits between them). All three new checks are red-proven by
+deleting the line and watching the gate fail.
+
+**`HTMLRewriter` selectors must be SCOPED** (v1.81.3): `.on("title", …)` matches by element NAME, and
+the shell carries a second `<title>` — `<title>Search</title>` inside the search button's inline SVG.
+The Function targets `title[data-share-title]`, a marker `build_share_shell.mjs` writes and asserts
+exactly once, same contract shape as `meta[data-share-og]`. The pair (served bytes + Function source)
+is asserted in the SEO journey.
+
+`scripts/build_share_shell.mjs` derives `l.html` from the BUILT `index.html` (one source of truth;
+`<base href="/">` so a trailing slash can't 404 the assets; `noindex,nofollow`; `data-share-og`
+markers the Function's HTMLRewriter targets), emits `l-manifest.json` (ordinal→name, for the
+Function only) and **GATES that no `/l` URL reached sitemap.xml or llms.txt**. It is wired into
+root `build` AND explicitly into BOTH deploy workflows — deploy does not run root `npm run build`.
+
+**Two mouse-only bugs this work uncovered and fixed** (both invisible to keyboard paths, the same
+class as the coach button before v1.69.1):
+- The in-node dossier card's z-index was **3**, under the bottom-centre transport pill (4), which
+  intercepted clicks on its action row. Now **5**.
+- `attachInput`'s `pointerdown` called `el.setPointerCapture()`, which RETARGETS later pointer
+  events to the wrap — so pointerup's `inCard` guard saw the wrap, dismissed the dossier
+  mid-gesture, and the browser computed the click target from the down/up common ancestor. Every
+  button inside the desktop in-node dossier ("Roll from here", the attack pills) was dead to the
+  mouse. A gesture starting inside the card now returns early.
+
+**Tests.** `npm run e2e:share` → `e2e/playwright.share.config.ts` (own port :8129,
+`reuseExistingServer:false`) runs BOTH halves: `e2e/journeys/share-lists.spec.ts` (11 journeys, the
+desktop/logic half) and `e2e/journeys/share-mobile.spec.ts` (7 journeys, `test.use` **390x844 +
+hasTouch** — the device this feature ships to). They are two files because only a spec file can set
+its own viewport. The no-Function rung is tested by fulfilling `/l/*` with the bytes of
+`source/public/l.html`, with the real `_redirects` rule asserted in the same file so the emulation
+cannot drift from production. **Every port is dedicated now** (core :8133, gen :8127, share :8129,
+all `reuseExistingServer:false`; observe/quarantine keep :8123 deliberately) — a config that reuses
+a server started by ANOTHER worktree tests someone else's `source/public`, which makes any result
+from it unreportable.
+
 ### Training System (SRS) — embedded UX (v1.20.0+)
 
 Client-side spaced repetition (SM-2) layered onto the always-on background graph. There is **no `/Training` page** — training lives as a persistent strip + two stacked modals + carousel chevrons on every page. All state stays in localStorage (Supabase sync optional).
@@ -377,6 +627,21 @@ The runtime remains one imperative component in `neural/src/app.src.jsx`. Challe
 
 **ROAM & STAGE (v1.68.0).** Clicking any graph node calls `stageRollAt(idx)`: fly there, land, deal the hand — **clock held**. Click elsewhere and you restage the same non-session. `_played` (set in `_tick` on the first unpaused frame with a live hand) is the seam: a roll that never played is never archived into `_pastRolls`. Tapping the node you are already on reads it (dossier) instead. `after(sec, fn, ignorePause)` exists so a staged landing still arrives while paused. Beat: `roll_staged`.
 
+**CAMERA OWNERSHIP — a focus flight holds a LEASE (v1.81.4).** `frameNodes()` does not move the camera. It writes `camTarget`; the render loop eases toward it, and **`updateCamera()`'s follow-cam rewrites `camTarget` at the current roll node on every frame**. So every "here is your selection" flight (a shared class lighting up, a System lighting its members) used to be overwritten within one frame of a live roll — invisible on desktop only because the arrival opened the pane and an open pane pauses the roll. `frameNodes` therefore calls **`holdCamera()`**: `camHoldSec = 7`, checked by `camHeld()`, cleared by `releaseCamera()`.
+- While the lease is live, **every automatic retarget yields** (`if (this.introDone && this.camHeld()) tgt = null` — follow, Overview and the end-of-round zoom alike). It **expires**, so the 400ms pan-to-current-node behaviour returns on its own.
+- **A real pan, pinch or wheel releases it** (never fight a user's camera); so do the user's own "go somewhere else" paths — `locateNode`, `openDossier`, `playFrom`, `rollFromPosition`. A re-light (`relightShare`) takes a **fresh** lease.
+- An intro still flying **hands the camera over** when it finishes: a share link is decoded at t=0, 3.2s before `introDone`, and its flight used to be eaten by the intro.
+- `frameNodes` fits **both axes** (`vw` is a width; the visible height is `vw * H/W`), or a tall selection hangs off a 390x844 phone.
+- **Never assert camera behaviour by reading `camTarget`** — that is exactly how this bug survived three reviews. Project the node through `draw()`'s transform and assert it is inside the viewport rect: `e2e/journeys/share-camera.spec.ts`.
+
+**THE BOTTOM THUMB BAND (v1.81.4).** Three fixed tenants at `bottom:28px` on a phone: legend (left), `.ng-transport` (centred), `.ng-drilltab` (right, z-index 6 — *above* the transport's 4). The share cue's buttons widen the pill leftward until it covers play/pause + restart, so `_renderShareCue()` stamps **`body[data-share-band]`** and the mobile CSS steps the transport aside and tightens the pill (padding + button margins), dropping the pill's own short label. Final measured band at 390px: legend 14–118 · transport 134–224 · cue 234–376, with `elementFromPoint` naming play, restart and the cue individually.
+
+> Two values were tried, rejected, and must not come back. **`body[data-share-cue]`** collides with the cue BUTTON's own attribute, so `document.querySelector("[data-share-cue]")` returns `<body>` — every "where is the cue" measurement silently becomes the whole 390x844 viewport and every tap aimed at its centre lands mid-screen (three share journeys went red on it). And a **66px** transport shift merely relocates the collision onto the band's third tenant, the legend. Deliberately **not** a `max-width` on the pill: a capped right-anchored flex row pushes its last button off the right edge instead of shrinking. Asserted geometrically (transport, cue, legend) at 390x844.
+
+**ARRIVAL COPY IS HELD, NOT FIRED AT t=0 (v1.81.4).** `setEvent` is ONE slot. A share arrival is decoded at ingest, mid-intro, and the roll's first landing overwrites it seconds later, so `_announceArrival()` stores the sentence and `enterLand()` says it (`_sayArrivalIfPending`) once the graph has settled. A timer cannot do this: `startRoll()` calls `clearTimers()` at the end of the intro. `saveSharedList`/`dismissSharedList` drop a held sentence — the user already answered.
+
+**A DAMAGED SHARE LINK: TWO SENTENCES, ONE SOURCE (v1.81.4).** `ngListClassifyFailure(code, error)` decides between **`clipped`** ("one of ours, cut short in transit") and **`unreadable`** ("not one of our codes"), because `not_base64url` — the majority of real clip positions — is *also* what a pasted random word looks like. The tell is the leading wire-version byte (`ngListWireVersionOf`, two base64url chars). `_brokenCopy()` is the single seam for the pill label, the panel (`[data-shared-broken-kind]`) and the toast, so they can no longer contradict each other.
+
 **CHALLENGES (v1.74.0, laddered v1.76.0).** Challenges replace the one-time Tutorial and locked progression path. Five content tracks — White Foundations, Blue Connections, Purple Patterns, Brown Pressure, and Black Breadth — are open from day one. Track colors describe material difficulty, never real-world rank or access.
 - **The tab renders as ONE scrollable ladder** (`.ng-challenge-ladder`, old-Belt-Path feel): belt-header rows (still class `ng-track-card`, `data-track`, `aria-pressed`) over an **always-visible curriculum for every track**; the selected track's objectives block (`.ng-challenge-detail`, unique) rides under its header. A pinned **`Continue`** button (`[data-challenge-continue]`) at the top jumps to the **frontier** — `challengeFrontier(trackId)`, the pinned track's first unproven live lesson, which also glows (`data-frontier`). Not-done rows dim **visually only** (`data-lesson-done`, opacity on the text span — crowns keep full color; nothing re-locks, per canon).
 - White Foundations preserves the original 20 evidence predicates; the first-roll coach completes the first three. Legacy `tut.done` is dual-read and compatibility-written, then migrated exactly once into `challenges`.
@@ -454,10 +719,13 @@ All commands run from the repo root (`bjjgraph/`):
 | `npm run regenerate:md` | Regenerate markdown from JSON |
 | `npm run regenerate:hubs` | Generate category hub pages |
 | `npm run regenerate:votes` | Generate community voting data |
-| `npm run regenerate:graph` | Umbrella: graph-base (graph.json) → graph-layout → graph-strength |
+| `npm run regenerate:graph` | Umbrella: graph-base (graph.json) → graph-layout → **ordinals** → graph-strength |
 | `npm run regenerate:graph-base` | Generate graph.json only (no layout/strength) |
+| `npm run regenerate:ordinals` | **Mint/append the share-link ordinal lockfile** (`node_ordinals.json`, committed). Assigns each layout node id a PERMANENT ordinal — append-only, never renumbered, never reused, retired-not-deleted. Must run after `regenerate:graph-layout` (the layout defines the live node set). See §Share links. |
+| `npm run validate:ordinals` | **Hard gate** on that lockfile: every live node minted, no duplicate/renumbered/deleted ordinal, `next_ordinal == max+1`, keys sorted, plus an append-only diff against a git baseline (`--baseline-ref HEAD^1` in CI — against `HEAD` it would compare the commit under test to itself). Wired into `ci-validate.yml` and BOTH deploy workflows' validate step. |
 | `npm run regenerate` | Full pipeline: issues → json → explode → **validate:graph** (gate) → md → hubs → votes → graph → explorer |
 | `npm run build` | Build static site (~10 min, 4287 files) |
+| `npm run build:share-shell` | Emit the share-link static shell `source/public/l.html` + `l-manifest.json` from the BUILT `index.html`, and GATE that no `/l` URL leaked into `sitemap.xml` or `llms.txt`. Part of `build` and an explicit step in BOTH deploy workflows (deploy never runs root `build`). |
 | `npm run regenerate:build` | Regenerate + build (full workflow) |
 | `npm run dev` | Build then serve locally on port 8080 |
 | `npm run proofread` | Recurring LLM audit of graph edges + probabilities via Claude CLI. Intermittent use only — one Claude call per file, ~25 hours for full corpus at default 60s interval. Not part of `regenerate`. Use `--file`, `--category`, `--max-files` to scope, or `--batch` to skip the delay. |
@@ -467,10 +735,12 @@ All commands run from the repo root (`bjjgraph/`):
 | `npm run clips:source` | **Curated YouTube film-study clips pipeline (v1.54.4, `scripts/source_clips.py`).** Fills role-nested `clips` arrays in content JSON for every slot (position top/bottom + hub overview, technique attacker/defender, principle; submission family hubs derive the union of child clips). Staged + resumable (state in gitignored `clips_sourcing/`): LLM plans the legend instructor + search queries per slot → yt-dlp runs REAL YouTube searches (IDs can't be hallucinated; per-video metadata fetches are bot-checked from datacenter IPs, so provenance comes from search results) → LLM curates 1-3 picks from real results only (Shorts ≤75s preferred) → machine verification (oEmbed 200/401/404 for embeddability; `i.ytimg.com/vi/<id>/oardefault.jpg` exists ONLY for Shorts = verticality; the `/shorts/` redirect trick does NOT work) → apply → `clips_sourcing/review.html` thumbnail grid for in-place pruning. Scope with `--stage/--category/--file/--max-slots`. Clips are curation-safe: stripped from the `regenerate:json` AI contract and re-merged verbatim (like Systems `products`). Neural app already renders them (film-study strip); `_neural_content.py` strips provenance fields from the bundle. |
 | `npm run clips:verify` | Re-verify every applied clip against YouTube (rot check: deleted/private/embed-disabled). Refreshes `verified` dates; `--prune` removes dead clips; `--max-age-days N` limits to stale ones. Exit 1 on failures without `--prune` (CI-friendly). |
 | Q3 occurrence calibration (no npm script — orchestrated) | **Per-ruleset attempt-probability (`occurrence`) calibration of every position role-node, v1.53.0.** Distinct from success-rate calibration: this rebuilds each position's `transitions[].attempt_probability` `{gi,nogi}` maps from a two-chamber expert panel — 10 BJJ legends vote frequencies, 4 advisors (statistician/ML/game/UX) challenge but don't vote — run as a **Hybrid Delphi**: independent per-legend ballots (Stage 1) → one 12–20-round deliberation agent per position (Stage 2) → deterministic MoE aggregation in `scripts/occurrence_moe.py` (specialty×ruleset weighted mean, modest anchor blend, **per-frame-0 only for genuine ruleset-unavailability decided from BALLOTS not the panel's `availability_rulings` field**, floor 1%, largest-remainder to 100/frame) → adversarial verify wave → `scripts/apply_occurrence_calibration.py` writes the maps into `content/Positions/*.json`. graph.json gets scalar `attemptProbability` (no-gi default frame) + `attemptProbabilityByRuleset:{gi,nogi}` — parity with successRate. Committed provenance: `occurrence_calibration.json`. Orchestration + credit-outage-resilient resume runbook live in the gitignored `occurrence_elicitation/_orchestration/`. This is the first REAL gi≠nogi divergence in **content** (v1.51.0's divergence was votes-only), so the Q3.0 pre-flight (v1.52.1) first made ~10 readers divergence-tolerant. |
-| `npm run test:curated` | **Fast deployment gate**: representative core gameplay, pane, progression, persistence, and Forward catalog journeys tagged `@curated`. Runs on every dev/prod deployment with a 12-minute hard ceiling and a sub-10-minute target. Package-manager neutral: `pnpm test:curated` invokes the same script. |
-| `npm test` | **Complete core Playwright suite** (`e2e/journeys/`, config `e2e/playwright.config.ts`) against the built site on :8123. GitHub Actions builds the site once and runs four shards for PRs targeting `main` **or `dev`** (v1.76.3), weekly, and on demand — with the Playwright browser download cached per **resolved `@playwright/test` version** (NOT per package-lock hash — this repo bumps the version every commit, so a lockfile key missed every run while still uploading 261 MiB); each shard has a **25-minute** hard ceiling and the wall-time target is 10-15 minutes. Rigged RNG + simulated-time pump via `journey()`; workers=1/shard, retries=0. **`j.clickByMouse(sel)`** is the only way to claim a surface is reachable by mouse: it measures the centre, refuses to scroll, refuses an off-screen centre, and fails if `elementFromPoint` is anything but the target or a DESCENDANT of it — an intercepting ANCESTOR (the `pointer-events:none`-inside-`auto` shape) is a failure, not a pass. **Late payloads (v1.82.4, corrected v1.82.5):** `boot(path, { payloads: { "flashcards.json": { afterSim: 25 } } })` makes a named payload land N SIMULATED seconds **after BOOT** (`afterSim` — so the 18s skew between the hand @7.0s and the decks @25.3s is `25`, not `18`), N real ms (`afterMs`) or never (`never`, a stalled connection — not a 404). `j.releasePayload(pattern)` lands **only the held payloads its pattern names** (bare = everything); rules belong to the boot that declared them (boot() clears the table); `j.payloadTimeline()` is the evidence. Anything asserting the SKEW measures `releasedAtSim` minus the sim clock at the hand and pumps in small steps, or it measures the pump size. Patterns are globs over the request URL, so per-deck chunks work too. The rule is armed BEFORE the first navigation (a delay layer registered LAST above every serving handler, `fallback()`ing to it), and declaring flashcards.json late relaxes boot()'s readiness gate — otherwise no cold-start spec can see the 18s skew between the first playable hand and the comprehension payloads, which is what made two rounds of green cold-start tests meaningless. `pnpm test` invokes the same script. |
+| `npm run test:units` | **Pure-unit suites** — `node --test tests/*.test.mjs`: the share-link wire codec (`tests/share_lists_codec.test.mjs`) and the neural deck-hydration contract. No browser, no build, ~1s. Runs in `ci-validate.yml`. Note the shell-glob form: `node --test tests` is broken and `"tests/*.test.mjs"` needs Node ≥ 21's internal globbing. |
+| `npm run test:curated` | **Fast deployment gate**: representative core gameplay, pane, progression, persistence, and Forward catalog journeys tagged `@curated`. Runs on every dev/prod deployment with a 12-minute hard ceiling and a sub-10-minute target. **One `@curated` test = one representative case.** An exhaustive walk belongs in the full suite: the every-clip-offset share test boots the app 22 times in a single test and was tagged `@curated` for one release (v1.81.3) — a 240s worst case inside a 12-minute gate. Package-manager neutral: `pnpm test:curated` invokes the same script. |
+| `npm test` | **Complete core Playwright suite** (`e2e/journeys/`, config `e2e/playwright.config.ts`) against the built site on **:8133 with `reuseExistingServer: false`** (v1.81.3 — the last gate still exposed to cross-worktree server reuse; see the config header). GitHub Actions builds the site once and runs four shards for PRs targeting `main` **or `dev`** (v1.76.3), weekly, and on demand — with the Playwright browser download cached per **resolved `@playwright/test` version** (NOT per package-lock hash — this repo bumps the version every commit, so a lockfile key missed every run while still uploading 261 MiB); each shard has a **25-minute** hard ceiling and the wall-time target is 10-15 minutes. Rigged RNG + simulated-time pump via `journey()`; workers=1/shard, retries=0. **`j.clickByMouse(sel)`** is the only way to claim a surface is reachable by mouse: it measures the centre, refuses to scroll, refuses an off-screen centre, and fails if `elementFromPoint` is anything but the target or a DESCENDANT of it — an intercepting ANCESTOR (the `pointer-events:none`-inside-`auto` shape) is a failure, not a pass. **Late payloads (v1.82.4, corrected v1.82.5):** `boot(path, { payloads: { "flashcards.json": { afterSim: 25 } } })` makes a named payload land N SIMULATED seconds **after BOOT** (`afterSim` — so the 18s skew between the hand @7.0s and the decks @25.3s is `25`, not `18`), N real ms (`afterMs`) or never (`never`, a stalled connection — not a 404). `j.releasePayload(pattern)` lands **only the held payloads its pattern names** (bare = everything); rules belong to the boot that declared them (boot() clears the table); `j.payloadTimeline()` is the evidence. Anything asserting the SKEW measures `releasedAtSim` minus the sim clock at the hand and pumps in small steps, or it measures the pump size. Patterns are globs over the request URL, so per-deck chunks work too. The rule is armed BEFORE the first navigation (a delay layer registered LAST above every serving handler, `fallback()`ing to it), and declaring flashcards.json late relaxes boot()'s readiness gate — otherwise no cold-start spec can see the 18s skew between the first playable hand and the comprehension payloads, which is what made two rounds of green cold-start tests meaningless. `pnpm test` invokes the same script. **`j.boot()` contract (v1.81.2): it returns with NO in-flight progress write.** It waits for the deferred `curriculum.json` payload BEFORE completing the 20 White compatibility objectives, because `_onCurriculum() -> _refreshChallengeEvidence()` calls `_saveProgress()` when it finds durable change — so if that payload landed after the tutorial step it would silently overwrite whatever a spec seeded into localStorage, on nothing but machine speed. That was the whole "order-dependent flake" in `corrupt-blob-settings-persist-cleanly-after-heal` (green alone, red at #7 of 112). Guarded permanently by `e2e/journeys/harness-boot-inflight-write.spec.ts`, which delays the payload 2s on purpose. |
 | `npm run e2e` | Backward-compatible local alias for the complete core Playwright suite. `pree2e` checks the RNG seam. |
-| `npm run e2e:gen` | **Generated hyperspace suite** (v1.67.0): agent-authored journeys in `e2e/gen/`, tracked in `e2e/gen/ledger.json` (theme × lifecycle × feature × behavior + one-line invariant per test; persona seed builders in `e2e/gen/personas.ts`). Lints via `scripts/check_gen_specs.sh` (Math.random ban, `@hyperspace` headers, ledger↔spec sync) then runs `e2e/playwright.gen.config.ts`. SEPARATE from the push gate. Grown by the `testgen-wave` workflow (`.claude/workflows/testgen-wave.js`): scout → probe/play → author → validate (2× green + red-proof; all Playwright serialized via `flock /tmp/bjj-pw.lock`) → adversarial meta-validation vs the full ledger. |
+| `npm run e2e:gen` | **Generated hyperspace suite** (v1.67.0): agent-authored journeys in `e2e/gen/`, tracked in `e2e/gen/ledger.json` (theme × lifecycle × feature × behavior + one-line invariant per test; persona seed builders in `e2e/gen/personas.ts`). Lints via `scripts/check_gen_specs.sh` (Math.random ban, `@hyperspace` headers, ledger↔spec sync) then runs `e2e/playwright.gen.config.ts` — **its own port :8127 with `reuseExistingServer: false`** (v1.81.2). It used to share `:8123` + `reuseExistingServer: true` with the core config, which means whichever WORKTREE started :8123 first owns it and every later run tests THAT worktree's `source/public`: measured, a run from `bjjgraph-share` was served a 343,153-byte `neural.js` from `bjjgraph-legacy` (ours was 364,190), and a sibling rebuilding `source/public` mid-run changes the bytes under a live suite. SEPARATE from the push gate. Grown by the `testgen-wave` workflow (`.claude/workflows/testgen-wave.js`): scout → probe/play → author → validate (2× green + red-proof; all Playwright serialized via `flock /tmp/bjj-pw.lock`) → adversarial meta-validation vs the full ledger. |
+| `npm run e2e:share` | **The gym-WhatsApp share-link suite**, on its own port :8129 (`reuseExistingServer:false`): `e2e/journeys/share-lists.spec.ts` (desktop/logic) + `e2e/journeys/share-mobile.spec.ts` (`test.use` 390x844 + hasTouch — the device this feature actually ships to). Both files also run inside `npm test`. Mobile assertions use `page.mouse.click`/`touchscreen.tap` at MEASURED coordinates plus `elementFromPoint` and an effective-opacity walk, never `locator.click()`. |
 | `npm run e2e:quarantine` | Known-RED specs capturing real gameplay bugs found by test-gen waves; each pairs with an entry in `e2e/quarantine/ISSUES.md`. Excluded from all gates; a spec going green here means its bug got fixed → promote to `e2e/gen/` + flip its ledger status. |
 | `npm run e2e:observe` | Watch any spec live from another machine: the browser exposes CDP :9222 + slowMo (`OBSERVE_SLOWMO=600`). Part of the **paired-debugging skill** (`.claude/skills/paired-debugging/SKILL.md`): Mode 1 drives the owner's own tab at bjjgraph:8080 through the dev-serve bridge (`node scripts/paired_session.mjs bridge start`, then `cmd`/`results`); Mode 2 shares a watchable CDP browser (`paired_session.mjs start` + `scripts/paired/driver.mjs`). Sessions journal to `e2e/paired/journals/` and are TRANSLATED (never replayed) into gen specs with owner think-time clamped. |
 

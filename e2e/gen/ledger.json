@@ -11,7 +11,8 @@
    "competitive-arc",
    "input-access",
    "infra",
-   "momentum-and-economy"
+   "momentum-and-economy",
+   "acquisition"
   ],
   "L": [
    "fresh-visitor",
@@ -44,7 +45,8 @@
    "settings",
    "decision-timer",
    "opponent-turns",
-   "spa-nav"
+   "spa-nav",
+   "share-lists"
   ],
   "B": [
    "happy-path",
@@ -2873,6 +2875,150 @@
    "evidence": {
     "promoted": "bug fixed in v1.75.3; born-red spec green post-fix"
    }
+  },
+  {
+   "id": "core-070",
+   "file": "e2e/journeys/share-lists.spec.ts",
+   "title": "a coach collects today's class into a list from the surfaces they are already using",
+   "theme": "acquisition",
+   "L": "first-roll-day1",
+   "F": "share-lists",
+   "B": "happy-path",
+   "invariant": "Adding from an Explore result and from the node dossier lands BOTH techniques in ONE list (activeListId), emits list_item_added, persists under `lists` in the SAME v2 progress blob (no version bump), and survives a preserveStorage reload.",
+   "origin": "core",
+   "status": "accepted"
+  },
+  {
+   "id": "core-071",
+   "file": "e2e/journeys/share-lists.spec.ts",
+   "title": "sharing produces a canonical, WhatsApp-short link that decodes back to the same class",
+   "theme": "acquisition",
+   "L": "casual-week1",
+   "F": "share-lists",
+   "B": "economy-math",
+   "invariant": "Clicking Share emits list_shared and yields a /l/<code> URL under 70 chars whose decode returns exactly the list's node ids with nothing unknown; the same set built in reverse order encodes to the IDENTICAL string (canonical, so share_id joins creator and recipient), and the wire resolves through permanent ordinals, not array indices.",
+   "origin": "core",
+   "status": "accepted"
+  },
+  {
+   "id": "core-072",
+   "file": "e2e/journeys/share-lists.spec.ts",
+   "title": "a student opens the WhatsApp link with NO Function deployed and the graph lights up",
+   "theme": "acquisition",
+   "L": "fresh-visitor",
+   "F": "share-lists",
+   "B": "error-fallback",
+   "invariant": "Served the plain static shell for /l/<code> (the _redirects 200 rewrite, no Function in the path), a fresh visitor gets _sharedIncoming equal to the shared ids, the pane open on Explore, exactly those nodes in _focusIdxSet with a non-member dimmed and _pathDim false, every technique named in [data-shared-item], list_opened emitted, one click into a live study session, and Save persisting the list.",
+   "origin": "core",
+   "status": "accepted"
+  },
+  {
+   "id": "core-073",
+   "file": "e2e/journeys/share-lists.spec.ts",
+   "title": "a hostile or stale link degrades: nothing crashes, nothing lies",
+   "theme": "acquisition",
+   "L": "fresh-visitor",
+   "F": "share-lists",
+   "B": "guard-limit",
+   "invariant": "A code carrying an ordinal this build has never minted still opens with the techniques it can resolve and reports the rest in `unknown` plus [data-shared-unresolved]; an unparseable code leaves _sharedIncoming null, nothing lit, and no page error.",
+   "origin": "core",
+   "status": "accepted"
+  },
+  {
+   "id": "core-074",
+   "file": "e2e/journeys/share-lists.spec.ts",
+   "title": "/l leaks into NOTHING a crawler reads: not the sitemap, not llms.txt, not the index",
+   "theme": "acquisition",
+   "L": "fresh-visitor",
+   "F": "share-lists",
+   "B": "cross-feature",
+   "invariant": "The emitted _redirects carries `/l/* /l.html 200`; the served sitemap.xml (>4000 URLs) and llms.txt contain no /l URL at all; and the served shell is noindex,nofollow and canonicalises away from itself.",
+   "origin": "core",
+   "status": "accepted"
+  },
+  {
+   "id": "core-075",
+   "file": "e2e/journeys/share-lists.spec.ts",
+   "title": "the in-roll add affordance survives a REAL mouse click on a full-height landing card",
+   "theme": "acquisition",
+   "L": "first-roll-day1",
+   "F": "share-lists",
+   "B": "guard-limit",
+   "invariant": "With a definition, a film row and an MC question mounted, the landing card's [data-list-add] stays INSIDE the card's own 320px scroll box (belowCard <= 1px), is the topmost elementFromPoint hit at its centre, has computed pointer-events:auto, and a page.mouse.click at those raw coordinates (no scrollIntoView, no keyboard) adds that node — the mouse-only failure class that hid until v1.69.1.",
+   "origin": "core",
+   "status": "accepted"
+  },
+  {
+   "id": "core-076",
+   "file": "e2e/journeys/share-lists.spec.ts",
+   "title": "a received technique is named the way a coach named it: WITH the position it comes from",
+   "theme": "acquisition",
+   "L": "fresh-visitor",
+   "F": "share-lists",
+   "B": "cross-feature",
+   "invariant": "Every [data-shared-item] renders the FULL authored name — main name AND the `from <position>` qualifier — and so does the add/remove toast; splitName().main alone is ambiguous across 89 names (35 Kimuras, 16 Americanas) and would make the share unreadable.",
+   "origin": "core",
+   "status": "accepted"
+  },
+  {
+   "id": "core-077",
+   "file": "e2e/journeys/share-lists.spec.ts",
+   "title": "the recipient can re-light the received class on the graph after the fog clears",
+   "theme": "acquisition",
+   "L": "fresh-visitor",
+   "F": "share-lists",
+   "B": "cross-feature",
+   "invariant": "After the pane close that clearFocus()es by design, [data-shared-relight] re-lights exactly the received set through focusList('__shared') -> setFocusIdxSet, and the selection survives a renderExplorer reset triggered by a search keystroke.",
+   "origin": "core",
+   "status": "accepted"
+  },
+  {
+   "id": "core-078",
+   "file": "e2e/journeys/share-lists.spec.ts",
+   "title": "a saved or dismissed link stops asking: a reload is not a fresh offer",
+   "theme": "acquisition",
+   "L": "lapsed-returner",
+   "F": "share-lists",
+   "B": "persistence-reload",
+   "invariant": "shareSeen records a code as saved or dismissed; a storage-preserving RELOAD of the same /l URL re-offers neither ([data-shared-list] count 0, _sharedIncoming null), does not duplicate the saved list, and lights the saved list instead.",
+   "origin": "core",
+   "status": "accepted"
+  },
+  {
+   "id": "core-079",
+   "file": "e2e/journeys/share-lists.spec.ts",
+   "title": "Lists never contradicts itself in front of a first-time recipient",
+   "theme": "acquisition",
+   "L": "fresh-visitor",
+   "F": "share-lists",
+   "B": "happy-path",
+   "invariant": "On a share arrival with zero lists of their own, [data-shared-list] precedes [data-lists-head] in document order and the head prints no '(0)' count — the recipient never reads 'Lists (0)' above 'Shared with you - 5 techniques'.",
+   "origin": "core",
+   "status": "accepted"
+  },
+  {
+   "id": "core-080",
+   "file": "e2e/journeys/share-lists.spec.ts",
+   "title": "deleting a list asks first, and can be taken back",
+   "theme": "acquisition",
+   "L": "casual-week1",
+   "F": "share-lists",
+   "B": "guard-limit",
+   "invariant": "Delete sits >=10px clear of Share; the first click only arms it ([data-list-delete-armed], list intact); the second deletes and leaves [data-list-undo] which restores the list with its exact items.",
+   "origin": "core",
+   "status": "accepted"
+  },
+  {
+   "id": "core-081",
+   "file": "e2e/journeys/harness-boot-inflight-write.spec.ts",
+   "title": "boot() leaves no in-flight progress write, even when curriculum.json lands late",
+   "theme": "spa-nav",
+   "L": "legacy-corrupt-blob",
+   "F": "settings",
+   "B": "persistence-reload",
+   "invariant": "With curriculum.json delayed 2s (the ordering a contended run produces by itself), j.boot() returns only after the payload landed and performs ZERO writes to bjj-neural-progress: a seeded blob is byte-identical after boot and through 1.5s of real idle. Guards the fix for _onCurriculum -> _refreshChallengeEvidence -> _saveProgress overwriting seeded storage, which made corrupt-blob-settings-persist-cleanly-after-heal pass alone and fail at #7 of 112.",
+   "origin": "core",
+   "status": "accepted"
   }
  ]
 }

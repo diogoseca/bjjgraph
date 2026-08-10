@@ -37,6 +37,7 @@ sys.path.insert(0, str(ROOT / "scripts"))
 from _slug import slugify  # canonical slugify (shared with node ids)
 LAYOUT = ROOT / "source/quartz/static/globalGraphLayout.json"
 GRAPH = ROOT / "graph.json"
+ORDINALS = ROOT / "node_ordinals.json"
 SYSTEMS_DIR = ROOT / "content/Systems"
 OUT_DIR = ROOT / "source/quartz/static/neural"
 
@@ -50,7 +51,26 @@ def _slug_from_id(node_id: str) -> str:
     return tail.lower()
 
 
-def build_graph_data(layout: dict, graph: dict) -> dict:
+def load_ordinals() -> dict:
+    """node_ordinals.json's id -> permanent ordinal map (the share-link identity space).
+
+    HARD requirement, not best-effort: a share link encodes ordinals, so a node shipped to
+    the browser WITHOUT one can never appear in a shared class list. The lockfile is
+    committed, so the only way to get here is a layout regenerated without
+    `npm run regenerate:ordinals` — fail loudly rather than silently ship holes.
+    """
+    if not ORDINALS.exists():
+        print(f"ERROR: {ORDINALS} missing — run `npm run regenerate:ordinals`", file=sys.stderr)
+        sys.exit(1)
+    lock = json.loads(ORDINALS.read_text())
+    ords = lock.get("ordinals") or {}
+    if not ords:
+        print(f"ERROR: {ORDINALS} has no ordinals", file=sys.stderr)
+        sys.exit(1)
+    return ords
+
+
+def build_graph_data(layout: dict, graph: dict, ordinals: dict) -> dict:
     """Reshape globalGraphLayout nodes/links into the Neural graph-data.json shape,
     enriching each node with its calibrated numbers from graph.json."""
     # index graph.json role-nodes by their display id used in the layout:
@@ -144,6 +164,10 @@ def build_graph_data(layout: dict, graph: dict) -> dict:
             "fromPositionId": n.get("fromPositionId"),
             "fromRole": n.get("fromRole"),
             "posId": pos_id,
+            # `o` = this node's PERMANENT share-link ordinal (node_ordinals.json). The wire
+            # format for a shared list encodes ordinals, never this array's index — the
+            # array is filesystem-ordered and one new content file renumbers it.
+            "o": ordinals[n["id"]],
         }
         cal = enrich(n["id"], ty)
         if cal:
@@ -629,9 +653,19 @@ def main() -> None:
         sys.exit(1)
     layout = json.loads(LAYOUT.read_text())
     graph = json.loads(GRAPH.read_text())
+    ordinals = load_ordinals()
+    unminted = sorted({n["id"] for n in layout.get("nodes", [])} - set(ordinals))
+    if unminted:
+        print(
+            f"ERROR: {len(unminted)} layout node(s) have no share-link ordinal "
+            f"(first few: {unminted[:5]}). Run `npm run regenerate:ordinals` and commit "
+            "node_ordinals.json.",
+            file=sys.stderr,
+        )
+        sys.exit(1)
 
     OUT_DIR.mkdir(parents=True, exist_ok=True)
-    gd = build_graph_data(layout, graph)
+    gd = build_graph_data(layout, graph, ordinals)
     (OUT_DIR / "graph-data.json").write_text(json.dumps(gd, ensure_ascii=False, separators=(",", ":")))
 
     decks = build_flashcards(graph)
@@ -666,7 +700,8 @@ def main() -> None:
           f"({sm['nonGraphRefs']} non-graph cross-refs skipped)")
 
     n_cal = sum(1 for n in gd["nodes"] if "cal" in n)
-    print(f"graph-data.json: {len(gd['nodes'])} nodes ({n_cal} with calibrated payload), "
+    print(f"graph-data.json: {len(gd['nodes'])} nodes ({n_cal} with calibrated payload, "
+          f"all carrying share ordinals 0-{max(ordinals.values())}), "
           f"{len(gd['links'])} links")
     print(f"flashcards/: {n_decks} per-deck chunks + _index.json manifest, {n_cards} cards")
     print(f"-> {OUT_DIR}")

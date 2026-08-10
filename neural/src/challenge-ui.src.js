@@ -271,7 +271,20 @@ const NG_CHALLENGE_UI_METHODS = {
         button.addEventListener("click", () =>
           this.openLessonStudy(lesson, unit, belt),
         );
-        lessons.appendChild(button);
+        // A lesson row is also a technique a coach may have covered in class, so it carries the
+        // same + affordance as Explore/dossier/landing. The button must be a SIBLING: a nested
+        // <button> closes the outer one in the HTML parser and would break the row entirely.
+        const lessonIdx = this._lessonNodeIdx ? this._lessonNodeIdx(lesson.deckKey) : -1;
+        const lessonNode = lessonIdx >= 0 && this.nodes ? this.nodes[lessonIdx] : null;
+        if (lessonNode) {
+          const lessonRow = document.createElement("div");
+          lessonRow.className = "ng-challenge-lessonrow";
+          lessonRow.appendChild(button);
+          lessonRow.appendChild(this._listAddButton(lessonNode.id, "lesson"));
+          lessons.appendChild(lessonRow);
+        } else {
+          lessons.appendChild(button);
+        }
       }
       const checkpoint = document.createElement("button");
       checkpoint.type = "button";

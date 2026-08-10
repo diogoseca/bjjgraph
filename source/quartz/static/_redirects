@@ -10,3 +10,12 @@
 # canonical page is the Rubber Guard variant. Keep old inbound links working.
 /Positions/Crackhead-Control/* /Positions/Rubber-Guard/Crackhead-Control/:splat 301
 /Positions/Crackhead-Control /Positions/Rubber-Guard/Crackhead-Control 301
+
+# Shareable technique lists (the gym-WhatsApp acquisition link, v1.81.x).
+# A 200 is a REWRITE, not a redirect: /l/<code> keeps its URL in the browser (the app decodes
+# the code from location.pathname) and serves the built static shell. This one line is what
+# makes the feature work with NO Cloudflare Function deployed — if functions/l/[[path]].js is
+# ever absent or fails to build, the recipient still gets the full focused experience and only
+# the social link preview degrades to generic text. Asserted from the EMITTED _redirects by
+# e2e/journeys/share-lists.spec.ts.
+/l/* /l.html 200
