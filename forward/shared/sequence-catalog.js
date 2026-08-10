@@ -213,9 +213,8 @@ export async function mountSequenceCatalog({ kind, items, version }) {
         </button>`,
       )
       .join("");
-    refs.nav
-      .querySelector(`[data-id="${state.itemId}"]`)
-      ?.scrollIntoView({ block: "nearest" });
+    // container-scoped for the same reason as the timeline: never move the page
+    scrollWithin(refs.nav, refs.nav.querySelector(`[data-id="${state.itemId}"]`));
   }
 
   function renderViewport() {
@@ -296,14 +295,27 @@ export async function mountSequenceCatalog({ kind, items, version }) {
     renderChapters(activeFrames);
     writeHash();
     if (scroll) {
-      refs.timeline
-        .querySelector(`.sequence-frame[data-step="${state.step}"]`)
-        ?.scrollIntoView({
-          behavior: "smooth",
-          inline: "center",
-          block: "nearest",
-        });
+      // Scroll ONLY the timeline strip. scrollIntoView walks every scrollable ancestor —
+      // including the window — so each autoplay step yanked the page down to the timeline
+      // and the reader could never stay on the stage to watch the motion. scrollWithin()
+      // moves the one container that should move and leaves the page where the reader put it.
+      scrollWithin(
+        refs.timeline,
+        refs.timeline.querySelector(`.sequence-frame[data-step="${state.step}"]`),
+      );
     }
+  }
+
+  /** Centre `el` inside `container` without touching any ancestor's scroll (the page's included). */
+  function scrollWithin(container, el) {
+    if (!container || !el) return;
+    const cr = container.getBoundingClientRect();
+    const er = el.getBoundingClientRect();
+    container.scrollTo({
+      left: container.scrollLeft + (er.left - cr.left) - (cr.width - er.width) / 2,
+      top: container.scrollTop + (er.top - cr.top) - (cr.height - er.height) / 2,
+      behavior: "smooth",
+    });
   }
 
   function renderSelection() {
@@ -338,11 +350,15 @@ export async function mountSequenceCatalog({ kind, items, version }) {
     const current = frames()[state.step];
     const next = frames()[state.step + 1];
     const delta = Math.max(240, next.at - current.at);
+    // BASE_PACE doubles every authored gap: at the authored timestamps 1x was only watchable
+    // at the 0.5x setting (owner-reported), so 1x now IS that pace and the multipliers follow
+    // (2x ≈ the old 1x). The select's values and the #speed= hash param keep their meaning.
+    const BASE_PACE = 2;
     playTimer = setTimeout(() => {
       state.step += 1;
       renderStep({ scroll: true });
       advancePlayback();
-    }, delta / state.speed);
+    }, (delta * BASE_PACE) / state.speed);
   }
 
   refs.search.addEventListener("input", (event) =>
