@@ -77,9 +77,13 @@ test("tutorial challenge cue never captures clicks aimed at live option cards", 
     "every on-viewport option card's center must hit the card itself — a fixed overlay capturing it makes the move mouse-unclickable and misdirects the click",
   ).toEqual([])
 
-  // and the leftmost card behaves like a card: click → its move sheet, not the Challenges view
-  const first = page.locator(`[data-tech="${titles[0]}"]`).first()
-  await first.click({ timeout: 5000 })
+  // and the leftmost card behaves like a card: click → its move sheet, not the Challenges view.
+  // BY MOUSE, at measured coordinates: this is a mouse-clickability invariant, and `locator.click()`
+  // cannot support it — it scrolls the element into view first and retries through interception, the
+  // two behaviours a real mouse does not have. `clickByMouse` refuses to scroll, refuses an
+  // off-screen centre, and fails naming whatever `document.elementFromPoint` really has under the
+  // cursor (an intercepting ANCESTOR included), which is exactly this bug's shape.
+  await j.clickByMouse(`[data-tech="${titles[0]}"]`, "the leftmost option card")
   await expect(page.locator("[data-go]").first(), "expand sheet opened for the clicked move").toBeVisible()
   await expect(page.locator(".ng-explorer"), "no teleport into the Challenges explorer").not.toBeVisible()
 })

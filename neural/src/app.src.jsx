@@ -132,6 +132,7 @@ class Component extends DCLogic {
   fx(beat, props) {
     (this.beats = this.beats || []).push(Object.assign({ t: this.now || 0, beat: beat }, props || {}));
     if (this.sound) this.sound.beat(beat, props || {});
+    if (this._cs) this._csBeat(beat, props || {}); // cold-start funnel rides the SAME beat stream
     if (this.beats.length > 4000) this.beats.splice(0, 1000);
     // Challenges are completed by doing. The guard matters because acknowledgements emit beats.
     if (!this._inChallenges) {
@@ -256,6 +257,7 @@ class Component extends DCLogic {
 
   // ---------- boot + data ----------
   async boot() {
+    this._csInit(); // cold-start funnel: armed before anything can emit a beat
     this.canvas = this.canvasRef.current;
     this.ctx = this.canvas.getContext("2d");
     this._ro = new ResizeObserver(() => this.resize());
@@ -392,12 +394,11 @@ class Component extends DCLogic {
       .then((s) => { if (s && Array.isArray(s.systems) && s.systems.length) { this.systems = s.systems; this._onSystems(); } })
       .catch(() => { /* optional payload */ });
     if (this.loaderRef.current) this.loaderRef.current.style.display = "none";
-    // durability: flush the debounced save if the tab is closing/backgrounding (a quick reload
-    // right after a belt-win fanfare must not lose the milestone).
-    this._onPageHide = () => this._flushSave();
-    this._onVisHide = () => { if (document.visibilityState === "hidden") this._flushSave(); };
-    window.addEventListener("pagehide", this._onPageHide);
-    document.addEventListener("visibilitychange", this._onVisHide);
+    this._csStep("app_ready"); // graph ingested, loader down: the first frame the user can see
+    // durability: the pagehide/visibility flush that keeps a belt win from being lost to a quick
+    // reload is armed in _csArmHide(), called from _csInit() at the TOP of boot — registering it
+    // here left the whole cold-load window (loader up, nothing playable) unmeasurable.
+    this._csArmHide();
     this.startLoop();
   }
 
@@ -838,11 +839,29 @@ class Component extends DCLogic {
       card.addEventListener("click", () => this.expandClip(card, clips[+card.getAttribute("data-i")]));
     });
   }
+  // ── WHICH SIDE IS IN PLAY AT THIS NODE ── the ONE seam every side-aware read goes through.
+  //
+  // The visual layer collapses each position into a single hub node, and graph-data.json titles all
+  // 136 of them "… Top". So a title suffix is a RENDERING ARTIFACT, not evidence of a side, and the
+  // title-first derivation this replaces was a constant: it returned "Top" for every position node
+  // in the graph, INCLUDING the one you are standing on while playing bottom. The `playerRole`
+  // fallback beneath it could never run. Everything keyed off it therefore described the other
+  // side's deck on half of all rolls — the landing card's question and familiarity chip, `_posKey`
+  // and its odds bonus, the roll-log row, `_exploredKeys`, and `_maybeLessonDone` (13 curriculum
+  // lessons are authored against a `|Bottom` deck key, so playing bottom could never complete one).
+  //
+  // The truth for the node you are STANDING ON is `playerRole` — the same value the option hand is
+  // filtered by (`myVal`/`oppVal` via `roleIdx`) and the same value the identity card prints. For any
+  // OTHER node there is no side in play, and the (constant) title is all there is; those reads are
+  // side-agnostic lookups — content fallback, the key→node index — and are left exactly as they were.
+  playedRole(node) {
+    if (!node || node.ty !== "positions") return null;
+    if (this.currentPos != null && node.idx === this.currentPos && this.playerRole) return this.roleLabel();
+    const rm = (node.t || "").match(/\s+(Top|Bottom)\s*$/i);
+    return rm ? (rm[1][0].toUpperCase() + rm[1].slice(1).toLowerCase()) : this.roleLabel();
+  }
   deckRole(node) {
-    if (node.ty === "positions") {
-      const rm = (node.t || "").match(/\s+(Top|Bottom)\s*$/i);
-      return rm ? (rm[1][0].toUpperCase() + rm[1].slice(1).toLowerCase()) : (this.playerRole === "bottom" ? "Bottom" : "Top");
-    }
+    if (node.ty === "positions") return this.playedRole(node);
     return "Attacker"; // you drilling a move = learning to execute it
   }
   deckKeyFor(node) {
@@ -1016,6 +1035,7 @@ class Component extends DCLogic {
     // own render is the one that lands.
     this._paneTransition = true;
     if (open && !wasShown) {
+      this._csStep("pane_opened"); // marked HERE, not in setDeckOpen: study entry points assign deckOpen directly
       if (!this.paused) { this.setPaused(true); this._paneAutoPaused = true; this.fx("pane_paused", {}); }
       const active = document.activeElement;
       this._explorerReturnFocus = active && active !== document.body ? active : null;
@@ -1307,6 +1327,7 @@ class Component extends DCLogic {
       if (this.currentPos != null && this.currentPos >= 0) this.buildDrillPanel(this.currentPos);
       if (this.deckShown && this._viewMode === "history" && this._drillView === "home" && !this._paneStudyActive()) this.renderDrillHome();
       this.refreshOptionOdds(); this.updateDrillTab();
+      this._landBackfill(); // the state on screen right now gets the question it was owed
       this._refreshChallengeEvidence();
     } catch (e) { /* non-fatal */ }
   }
@@ -1314,11 +1335,185 @@ class Component extends DCLogic {
     try {
       if (this._nodeCardOn) { this._nodeCardIdx = null; this.updateNodeCard(this.W / this.cam.vw); }
       else if (this._dossierIdx != null && this.isMobile() && this.nodes) this.renderDossier(this.nodes[this._dossierIdx]);
+      this._landBackfill(); // definition + film for the state the player is standing on
     } catch (e) { /* non-fatal */ }
   }
   // guarded PostHog capture (the page loads posthog globally; token absent on localhost) — no PII
   track(event, props) {
     try { const ph = window.posthog; if (ph && ph.capture) ph.capture(event, Object.assign({ variant: "neural" }, props || {})); } catch (e) { /* analytics must never break the app */ }
+  }
+
+  // ── COLD-START FUNNEL ── the one journey with no instrumentation behind it: does a first-time
+  // visitor get from "app painted" to "roll finished"? Deliberately CHEAP — it is a beat-stream
+  // OBSERVER, not a second channel: fx() hands every beat to _csBeat, a lookup table maps the
+  // handful that matter to once-only marks, and each mark fires ONE guarded posthog.capture
+  // (no fetch, no beacon, no blocking work). Total hot-path cost is one property read per beat.
+  //
+  // Two event names, matching the existing neural_<noun>_<verb> taxonomy:
+  //   neural_coldstart_step      — one per mark; build the funnel on the `step` property
+  //   neural_coldstart_abandoned — summary emitted from the pagehide/visibility flush
+  // ANALYSIS NOTE: a hide can be a tab-switch, so the report RE-ARMS whenever the spine advances.
+  // Take the LAST abandoned event per session; the step events are the authoritative funnel.
+  //
+  // ── THE SPINE IS DERIVED FROM THE DEFAULT PATH, NOT FROM THE IDEAL ONE ──
+  // v1.82.0 shipped a 7-step spine that included `question_answered` between the question and the
+  // commit. Measured on the DEFAULT (coached) path, the recorded order was
+  //
+  //     ["app_ready","hand_dealt","move_committed","outcome_seen"]      (indices 0,1,4,5)
+  //
+  // — an ordered PostHog funnel on that spine reports a 100% drop at `question_shown` for a
+  // visitor who played a whole exchange. Two separate errors caused it:
+  //   1. the coach suppressed the landing card, so the question was never asked (fixed: the
+  //      coached landing now carries its question — see renderLandCard/maybeStartCoach);
+  //   2. `question_answered` was a GATE when it is a BRANCH. Ignoring the question is a legitimate
+  //      way to play on; gating the funnel on it reports every such visitor as a drop-off.
+  // So `question_answered` is now a side mark alongside `question_ignored`, and the spine is the
+  // path every cold visitor must physically walk. A landing that can ask nothing at all (proven
+  // deck, no authored cards, `landQuestions` off) emits `question_skipped` WITH A REASON, so a gap
+  // in the funnel always has a named cause rather than being a phantom.
+  _csSpine() { return this._csSp || (this._csSp = ["app_ready", "hand_dealt", "question_shown", "move_committed", "outcome_seen", "roll_ended"]); }
+  // beat -> mark. Cached (not a getter) so the per-beat path allocates nothing.
+  _csMapOf() {
+    return this._csM || (this._csM = {
+      options_dealt: "hand_dealt",        // the first hand of options is the first actionable state
+      land_q_shown: "question_shown",
+      land_q_answered: "question_answered", // BRANCH, not a gate — see the note above
+      land_q_ignored: "question_ignored", // committing past an unanswered question
+      land_q_skipped: "question_skipped", // the landing could ask nothing; `reason` says why
+      land_q_unseen: "unseen_question",   // the specific suspected confusion (see renderLandCard)
+      coach_1: "coach_seen",              // the default path's real first gate
+      coach_done: "coach_finished",
+      commit: "move_committed",
+      impact_success: "outcome_seen", impact_fail: "outcome_seen",
+      bonus_pumped: "deck_card_graded",   // first flashcard actually graded
+      roll_end: "roll_ended",
+    });
+  }
+  // ONE definition of "has this person been here before", decided once per app life. The cold-start
+  // funnel's cold/warm split and the first-impression draw must never disagree about it — and the
+  // answer has to be latched, because the very act of starting that first roll writes a marker.
+  // Storage unreadable (private mode) → NOT returning: a browser that keeps no history has none, so
+  // every visit genuinely is a first impression. Same default the funnel already used.
+  _returningVisitor() {
+    if (this._returning != null) return this._returning;
+    let r = false;
+    try { r = !!(localStorage.getItem("bjj-neural-progress") || localStorage.getItem("bjj-neural-coached") || localStorage.getItem("bjj-neural-firstroll") === "1"); } catch (e) { /* private mode */ }
+    return (this._returning = r);
+  }
+  // ── IS THE FIRST IMPRESSION STILL OWED? ── latched once per app life, like _returningVisitor.
+  //
+  // `bjj-neural-firstroll` carries three states: ABSENT (never drawn), "owed" (drawn, but the traffic
+  // weights had not landed, so the biased opening WIN 1 exists for was never actually GIVEN) and "1"
+  // (given). Only "1" is evidence of a first impression, and "owed" outranks every other marker.
+  //
+  // It has to, because the other two markers `_returningVisitor` reads are written by ordinary play
+  // inside the very visit whose draw degraded: `bjj-neural-coached` when the newcomer finishes the
+  // 3-panel coach, `bjj-neural-progress` on the first save (grading one card is enough). Neither is
+  // evidence that an opening was given, but both persist — so treating them as proof spent an
+  // impression that was never made, and spent it FOR EVER: the newcomer with the worst connection,
+  // the one the bias helps most, kept the ~95%-unnameable opening on every future visit. Within a
+  // session this was already safe (_returningVisitor is latched), which is exactly why it hid.
+  _firstImpressionOwed() {
+    if (this._owedFirst != null) return this._owedFirst;
+    let v = null;
+    try { v = localStorage.getItem("bjj-neural-firstroll"); } catch (e) { /* private mode */ }
+    return (this._owedFirst = !!v && v !== "1");
+  }
+  _csInit() {
+    this._cs = { at: {}, cold: !this._returningVisitor(), last: 0, reported: false, hides: 0 };
+    // OBSERVER MEANS OBSERVER. v1.82.0 pushed its marks into `this.beats`, the gameplay beat
+    // stream — so a freshly remounted app life no longer had an empty stream, and SEVEN gen specs
+    // that use exactly that emptiness as their "rebuilt, not resumed" proof went red. Analytics
+    // must never be visible to the thing it measures: the marks live in their own array.
+    this.csBeats = [];
+    this._csArmHide();
+  }
+  // ── ARMED FIRST, NOT LAST ── these were registered at the END of boot(), downstream of the
+  // graph ingest and the loader teardown. On the cold load this funnel exists to measure, that is
+  // seconds of dead air: a visitor who gives up while the loader is still spinning emitted
+  // NOTHING, so the abandonment the funnel was built to find was unmeasurable by construction.
+  // _csInit() is the first statement of boot(), so registering here covers the whole session.
+  // The save side keeps its own guard: _flushSave is only safe once _loadProgress has run (Q001),
+  // and _loadProgress happens later in boot — hence the _progressLoaded check, not a bare call.
+  _csArmHide() {
+    if (this._onPageHide) return;
+    // NOT a constant: true only because arming happens before app_ready is recorded. Move this call
+    // back down to the end of boot() and it flips to false, which is what the structural test pins.
+    if (this._cs) this._cs.armedBefore = this._cs.at.app_ready == null;
+    const flush = () => { try { if (this._progressLoaded) this._flushSave(); } catch (e) { /* durability is best-effort */ } };
+    this._onPageHide = () => { flush(); this._csAbandon("pagehide"); };
+    this._onVisHide = () => { if (document.visibilityState === "hidden") { flush(); this._csAbandon("hidden"); } };
+    window.addEventListener("pagehide", this._onPageHide);
+    document.addEventListener("visibilitychange", this._onVisHide);
+  }
+  // ms since NAVIGATION start (not since boot) — the honest number for "how long until the user
+  // could do anything". NB in test mode this is wall clock; the `funnel` beat's own `t` is sim time.
+  _csNow() { try { return Math.round(performance.now()); } catch (e) { return 0; } }
+  _csBeat(beat, props) {
+    const step = this._csMapOf()[beat];
+    if (!step) return;
+    let extra = null;
+    if (beat === "land_q_answered") extra = { correct: !!props.correct, tier: props.tier || null };
+    else if (beat === "land_q_unseen") extra = { node: props.node || null, cards_authored: props.cards || 0 };
+    else if (beat === "land_q_ignored") extra = { deck_key: props.deckKey || null };
+    else if (beat === "land_q_skipped") extra = { deck_key: props.deckKey || null, reason: props.reason || null };
+    this._csStep(step, extra);
+  }
+  _csStep(step, extra) {
+    const cs = this._cs;
+    if (!cs || cs.at[step] != null) return; // once only — this is a funnel, not a counter
+    const ms = this._csNow();
+    cs.at[step] = ms;
+    const sp = this._csSpine();
+    const spine = sp.indexOf(step);
+    // SELF-DESCRIBING ORDER. An ordered funnel is only meaningful if a recorded spine step arrives
+    // with every earlier spine step already recorded. When it does not, say so IN THE EVENT rather
+    // than let the analysis infer a drop-off that never happened — this is the exact failure that
+    // made the v1.82.0 spine unusable, and stamping it here means it can never recur silently.
+    // BOTH DIRECTIONS. Scanning only EARLIER steps for absence catches a step that arrives too LATE
+    // and misses one that arrives too EARLY — and the cold path produces exactly the second shape:
+    // when the deck payload lands mid-turn, `question_shown` (spine 2) is backfilled with
+    // `move_committed` (3) and `outcome_seen` (4) ALREADY recorded. Every earlier step is present, so
+    // a one-way check calls that clean while an ordered funnel built on it silently reads a
+    // 2-after-4 arrival as a fresh visitor entering at step 2. `skipped` names earlier steps still
+    // missing, `late_after` names later steps already recorded; either sets `out_of_order`.
+    let missing = null, ahead = null;
+    if (spine >= 0) {
+      const gaps = [], past = [];
+      for (let i = 0; i < spine; i++) if (cs.at[sp[i]] == null) gaps.push(sp[i]);
+      for (let i = spine + 1; i < sp.length; i++) if (cs.at[sp[i]] != null) past.push(sp[i]);
+      if (gaps.length) missing = gaps.join(",");
+      if (past.length) ahead = past.join(",");
+    }
+    const props = Object.assign({
+      step: step, step_index: spine, spine: spine >= 0, cold: !!cs.cold,
+      ms_since_nav: ms, ms_since_prev: ms - cs.last, coach_open: !!this._coach,
+      out_of_order: !!(missing || ahead), skipped: missing, late_after: ahead,
+    }, extra || {});
+    if (spine >= 0) { cs.last = ms; cs.reported = false; } // re-arm the abandon report
+    (this.csBeats = this.csBeats || []).push(Object.assign({ t: this.now || 0, beat: "funnel" }, props));
+    this.track("neural_coldstart_step", props);
+  }
+  _csFurthest() {
+    const cs = this._cs; if (!cs) return -1;
+    const sp = this._csSpine();
+    let f = -1;
+    for (let i = 0; i < sp.length; i++) if (cs.at[sp[i]] != null) f = i;
+    return f;
+  }
+  _csAbandon(reason) {
+    const cs = this._cs;
+    if (!cs || cs.reported) return;
+    const sp = this._csSpine();
+    const f = this._csFurthest();
+    if (f >= sp.length - 1) return; // finished a whole roll — there is nothing to report
+    cs.reported = true; cs.hides++;
+    const props = {
+      reason: reason, cold: !!cs.cold, furthest_step: f >= 0 ? sp[f] : "none", furthest_index: f,
+      ms_since_nav: this._csNow(), hides: cs.hides, marks: Object.keys(cs.at).join(","),
+    };
+    (this.csBeats = this.csBeats || []).push(Object.assign({ t: this.now || 0, beat: "funnel_abandon" }, props));
+    this.track("neural_coldstart_abandoned", props);
   }
   get(k, d) { const v = (this.settings || {})[k]; return v == null ? d : v; }
   masteredCount() { const r = this.rec || {}; return Object.keys(r).filter((k) => r[k] >= 3).length; } // mastery is RECALL-proven: 3 recall grades (MC can never mint it)
@@ -1952,6 +2147,11 @@ class Component extends DCLogic {
     if (this._detailSrc) { this._detailSrc.style.opacity = ""; this._detailSrc = null; }
   }
   closeOptionDetail() {
+    // the landing card comes back when the sheet leaves — here TOO, not only via hideOptDetail:
+    // the animated collapse below (the normal ✕ / back path, taken whenever _optStart is set)
+    // never called it, so peeking at an option and backing out left the card that says where you
+    // are invisible for the rest of the turn. Found by the late-payload journey.
+    if (this._landEl) { this._landEl.style.opacity = ""; this._landEl.style.pointerEvents = ""; }
     this._detailCtx = null;
     if (this._optPick && this._defendSub == null && this.optionsRef.current) this.setBeacon("options", this.optionsRef.current); // back to the hand
     this.clearClipLoops();
@@ -2096,10 +2296,21 @@ class Component extends DCLogic {
     this.camTarget = { cx: (minx + maxx) / 2, cy: (miny + maxy) / 2, vw: Math.max(this.graphW * 0.4, (maxx - minx) * 2.2) };
     this.lastInteract = 0; // let camera move
   }
+  // deck key -> the node that key belongs to. Built ONCE and cached, so it must not depend on live
+  // state: a position collapses to a single node that answers to BOTH of its role keys, and both are
+  // registered here rather than whichever side `deckKeyFor` reports for the state currently in play.
+  // (Before v1.82.4 that reported "Top" for every position, so a `|Bottom` lesson key — 13 of them in
+  // the curriculum — could never resolve to a node at all.)
   nodeForKey(key) {
     if (!this._keyNode) {
       this._keyNode = new Map();
-      for (const n of this.nodes) { const k = this.deckKeyFor(n).key; if (!this._keyNode.has(k)) this._keyNode.set(k, n.idx); }
+      const put = (k, i) => { if (k && !this._keyNode.has(k)) this._keyNode.set(k, i); };
+      for (const n of this.nodes) {
+        if (n.ty === "positions") {
+          const fam = this.posFamily(n.t);
+          put(fam + "|Top", n.idx); put(fam + "|Bottom", n.idx);
+        } else put(this.deckKeyFor(n).key, n.idx);
+      }
     }
     return this._keyNode.has(key) ? this._keyNode.get(key) : -1;
   }
@@ -3371,7 +3582,7 @@ class Component extends DCLogic {
     const c = b.tone === "ahead" ? ["#7fb4ff", "rgba(90,155,240,.13)", "rgba(90,155,240,.34)"]
       : b.tone === "behind" ? ["#ff9a8f", "rgba(242,104,95,.13)", "rgba(242,104,95,.34)"]
       : ["#cfd6e4", "rgba(150,170,210,.12)", "rgba(150,170,210,.3)"];
-    return '<span title="blue = you\u2019re ahead \u00b7 red = you\u2019re behind" style="font-size:' + fs + 'px;font-weight:800;letter-spacing:.07em;text-transform:uppercase;color:' + c[0] + ';background:' + c[1] + ';border:1px solid ' + c[2] + ';border-radius:999px;padding:' + pad + ';">' + b.label + '</span>';
+    return '<span data-dossier-badge title="blue = you\u2019re ahead \u00b7 red = you\u2019re behind" style="font-size:' + fs + 'px;font-weight:800;letter-spacing:.07em;text-transform:uppercase;color:' + c[0] + ';background:' + c[1] + ';border:1px solid ' + c[2] + ';border-radius:999px;padding:' + pad + ';">' + b.label + '</span>';
   }
   _zoomOpenCheck(vw) {
     if (!this.isMobile() || !this.nodes || !this.cam) return;
@@ -3397,11 +3608,20 @@ class Component extends DCLogic {
     }
     const persp = rc ? rc.perspectives.attacker : null;
     const isCur = n.idx === this.currentPos;
-    let role = n.ty === "positions" ? (this.roleLabelOf(n) === "bottom" ? "Bottom" : "Top") : null;
+    // the dossier is the landing card's `More ▸`, so it must not name the other side either: for the
+    // state in play `playedRole` is the true side, and for anything else the title is all there is
+    let role = this.playedRole(n);
     // authored copy is side-specific; if it came from the other side, don't contradict it with a badge
     const lm = legacyKey.match(/\|(Top|Bottom)$/i);
     if (role && lm && lm[1].toLowerCase() !== role.toLowerCase()) role = null;
-    const title = role ? sp.main.replace(new RegExp("\\s+" + role + "\\s*$", "i"), "") : sp.main;
+    // THE HEADLINE IS A NAME, never a statement about the side. Every one of the 136 collapsed
+    // position hubs is titled "… Top" by graph-data.json, so that suffix is a rendering artifact and
+    // comes off for EVERY position, whichever side is in play — naming the side is the badge's job.
+    // Stripping `role` instead coupled the two, and it only looked right while `role` was the (always
+    // "Top") title suffix: once it became the side actually being played, `\s+Bottom\s*$` could not
+    // match "Mount Top", so a bottom landing's dossier read "Mount Top" next to a "Bottom" badge —
+    // and the same hole opened whenever the badge was suppressed for other-side authored copy.
+    const title = n.ty === "positions" ? this.posFamily(sp.main) : sp.main;
     const dom0 = n.dom || 0;
     const badge = n.ty === "positions"
       ? (role ? { label: role, tone: dom0 >= 0.18 ? "ahead" : dom0 <= -0.18 ? "behind" : "even" } : null)
@@ -3448,7 +3668,7 @@ class Component extends DCLogic {
         : '<span style="font-size:.82em;letter-spacing:.16em;text-transform:uppercase;font-weight:800;color:' + col + ';">' + cat + '</span>';
       let c = '<div style="display:flex;align-items:center;justify-content:center;gap:.66em;">' + kick + this.badgePill(badge, 10, "3px 12px") + '</div>';
       // diamond/tri narrow sharply toward the title's height — keep the headline inside the shape
-      c += '<div style="font-family:\'Space Grotesk\',sans-serif;font-size:' + (shape === "circle" ? "2.05em" : "1.7em") + ';font-weight:600;letter-spacing:-.01em;line-height:1.12;color:#eef1f6;max-width:' + (shape === "circle" ? "15em" : "11em") + ';">' + title + '</div>';
+      c += '<div data-dossier-title style="font-family:\'Space Grotesk\',sans-serif;font-size:' + (shape === "circle" ? "2.05em" : "1.7em") + ';font-weight:600;letter-spacing:-.01em;line-height:1.12;color:#eef1f6;max-width:' + (shape === "circle" ? "15em" : "11em") + ';">' + title + '</div>';
       if (sp.from && (!role || sp.from.toLowerCase() !== role.toLowerCase())) c += '<div style="font-size:.94em;color:#8b97b0;margin-top:-.3em;">' + sp.from + '</div>';
       if (ovN) c += '<p style="margin:0;max-width:' + (shape === "circle" ? "27em" : "22em") + ';font-size:1em;line-height:1.5;color:#9aa6bd;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;">' + ovN + '</p>';
       if (nClips.length) {
@@ -3521,7 +3741,7 @@ class Component extends DCLogic {
         : this.nodeGlyph(n.ty, col, 9) + '<span style="font-size:9px;letter-spacing:.16em;text-transform:uppercase;font-weight:800;color:#9fb0d8;">' + cat + '</span>') +
       '</div>';
     h += '<div style="display:flex;align-items:center;gap:9px;flex-wrap:wrap;margin-top:7px;">' +
-      '<span style="font-family:\'Space Grotesk\',sans-serif;font-size:22px;font-weight:600;letter-spacing:-.01em;line-height:1.1;color:#eef1f6;">' + title + '</span>' +
+      '<span data-dossier-title style="font-family:\'Space Grotesk\',sans-serif;font-size:22px;font-weight:600;letter-spacing:-.01em;line-height:1.1;color:#eef1f6;">' + title + '</span>' +
       this.badgePill(badge, 9.5, "2.5px 10px") +
       '</div>';
     if (sp.from && (!role || sp.from.toLowerCase() !== role.toLowerCase())) h += '<div style="font-size:12px;color:#8b97b0;margin-top:3px;">' + sp.from + '</div>';
@@ -4474,14 +4694,67 @@ class Component extends DCLogic {
     return (node.ty === "positions" ? C[this.deckKeyFor(node).key] : C[node.t]) || null;
   }
   clearLandCard() {
-    this._landQ = null;
+    this._landQ = null; this._landIdx = null; this._landMode = null;
     if (this._landEl) { try { this._landEl.remove(); } catch (e) {} this._landEl = null; }
+  }
+  // ── LATE PAYLOAD BACKFILL ── the comprehension payloads are deferred on purpose (decks 4.3MB
+  // gz, dossier content 5.3MB gz — first paint must not wait on them) and on a measured Fast-4G
+  // cold load they land ~18s AFTER the first hand. Until this existed, the landing card that
+  // greeted a first-time visitor stayed silent for its WHOLE turn: onFlashcardsReady refreshed
+  // the drill panel, the odds and the tab, but never the card — so the question-first landing,
+  // the app's central comprehension mechanic, simply did not happen for their first decision
+  // (measured: tests/artifacts/coldstart/probe-late-payload.json). Fill the live card IN PLACE.
+  // Every guard is load-bearing:
+  //   _landEl + _landMode "land" — never touch a technique card in flight (it owns answer hooks)
+  //   NOT ANSWERED — the one hard rule. Mastery is recall-proven and an MC answer is scored once,
+  //              so re-mounting a question the player has already answered would hand out a second
+  //              attempt at credit already banked. An UNANSWERED question, by contrast, may be
+  //              completed in place: v1.82.1 froze on "a question has MOUNTED", which is a proxy,
+  //              not the property — and it cost exactly the case that matters. The measured
+  //              production ordering is decks @25.3s then dossier content @27.0s, 1.7s apart, so
+  //              the proxy dropped the definition from the first card a visitor ever reads. The
+  //              question itself is carried across VERBATIM (same card, same option order, same
+  //              closure) rather than rebuilt, so nothing reshuffles under a player mid-read and
+  //              no second answer can be scored.
+  //   _landIdx === currentPos + a live _decision — the roll has not moved on; a card whose turn
+  //              is over must never be rewritten under the next state.
+  // The coach is NOT a guard. A genuinely cold visitor's first landing is ALWAYS coached, so
+  // excluding it excluded the only path this fix exists for.
+  // Not a pane/roll-loop action: it re-renders one overlay in place, opens nothing, pauses nothing.
+  _landBackfill() {
+    if (!this._landEl) return;
+    if (this._landQ && this._landQ.answered) return;   // scored once, never re-asked
+    if (this._landMode !== "land" || this._landIdx !== this.currentPos) return;
+    if (!this._decision || !this._optPick) return;
+    const pos = this.nodes && this.nodes[this.currentPos];
+    if (!pos) return;
+    // carry a live, unanswered question across the re-render instead of drawing a new one
+    const reuse = this._landQ ? { q: this._landQ, el: this._landEl.querySelector("[data-land-q]"), pending: !!this._landPending } : null;
+    // keyboard users: if focus was on one of the card's own handles, put it back on the new one
+    const act = document.activeElement;
+    const held = act && this._landEl.contains(act)
+      ? (act.hasAttribute("data-land-more") ? "[data-land-more]" : (act.hasAttribute("data-land-count") ? "[data-land-count]" : null))
+      : null;
+    // somebody is hiding the card inline (the expand sheet owns the screen while it is up, and
+    // restores these two on close) — a fresh element must inherit that, or the card pops into
+    // view over the sheet the player is reading
+    const hidden = this._landEl.style.opacity === "0";
+    this._landLate = true;                       // the beat says "this question arrived late"
+    try { this.renderLandCard(pos, "land", null, reuse); } finally { this._landLate = false; }
+    if (this._landEl && hidden) { this._landEl.style.opacity = "0"; this._landEl.style.pointerEvents = "none"; }
+    if (held && this._landEl) { const t = this._landEl.querySelector(held); if (t && t.focus) try { t.focus(); } catch (e) {} }
   }
   // mode: "land" (a position — your options are dealt below) | "attempt" (a technique in flight —
   // the tension sweep is waiting on this answer). hooks: {onAnswer(correct), onSkip()}.
-  renderLandCard(node, mode, hooks) {
+  // reuse: {q, el, pending} — an unanswered question block carried verbatim across a backfill
+  // re-render (see _landBackfill). Absent on a normal landing.
+  renderLandCard(node, mode, hooks, reuse) {
     this.clearLandCard();
-    if (this._coach) return null;                      // the guided coach owns the first landing
+    // The coach used to return null here, on the theory that it "owns the first landing". It owns
+    // the first landing of EVERY cold visitor — so that theory silently deleted the landing
+    // question from the one decision the whole comprehension mechanic exists to serve. The coach
+    // now sits above the card (see .ng-coach in helmet.html) and the clock stays frozen behind
+    // both, which is strictly more generous: the newcomer reads and answers under no timer at all.
     const key = this.deckKeyFor(node).key;
     // the setting gates the QUESTION, not the card: identity and film are priority either way
     const card = this.get("landQuestions", true) ? this.questionFor(key) : null;
@@ -4491,12 +4764,20 @@ class Component extends DCLogic {
     const log = this.rollLog || [];
     const prev = log[log.length - 2];
     const roleTxt = node.ty === "positions" ? this.roleLabel() : "Attacking";
+    // ── ONE ROLE CLAIM, AND IT IS THE TRUE ONE ── the visual graph collapses a position to a
+    // single hub node, and graph-data.json labels every one of those 136 hubs "… Top". The side
+    // you actually play is decided independently (startRoll's coin flip, playFrom's explicit
+    // choice), so pasting the raw title above the role line made HALF of all cold starts open a
+    // card reading "X-Guard Top" over "Bottom" — above the bottom player's hand. The name line
+    // carries the state's name; `roleTxt` is the only place a side is named.
+    const nameTxt = node.ty === "positions" ? this.posFamily(node.t) : sp.main;
 
     const el = document.createElement("div");
     el.className = "ng-landcard";
     el.setAttribute("data-landcard", mode || "land");
     (this.__ngRoot || document.body).appendChild(el);
     this._landEl = el;
+    this._landIdx = node.idx; this._landMode = mode || "land"; // what _landBackfill is allowed to refill
 
     // 1 — identity: what it is · where you came from · which side you're playing — and one
     // top-right familiarity chip: the seen-glyph fused with the deck's recall-proven count
@@ -4510,7 +4791,7 @@ class Component extends DCLogic {
     head.style.cssText = "display:flex;align-items:flex-start;gap:9px;";
     head.innerHTML =
       '<div style="flex:1;min-width:0;">' +
-        '<div style="font-size:14.5px;font-weight:700;color:#eef1f6;font-family:\'Space Grotesk\',sans-serif;line-height:1.2;">' + sp.main + '</div>' +
+        '<div style="font-size:14.5px;font-weight:700;color:#eef1f6;font-family:\'Space Grotesk\',sans-serif;line-height:1.2;">' + nameTxt + '</div>' +
         '<div style="font-size:10.5px;color:#8094b4;margin-top:3px;line-height:1.3;">' +
           '<b style="color:#9ab0e0;font-weight:700;">' + roleTxt + '</b>' +
           (prev ? ' &middot; from ' + prev.name : '') +
@@ -4546,7 +4827,14 @@ class Component extends DCLogic {
 
     // 4 — ONE question, always multiple choice: this is the in-play format (the sidebar is
     // where the same cards read back as classic recall)
-    if (card) {
+    // A question already on the table is re-parented, never rebuilt: same card, same option order,
+    // same `answered` closure — so a backfill completes the card around it without reshuffling it
+    // under the player and without any chance of a second scored answer.
+    if (reuse && reuse.el) {
+      el.appendChild(reuse.el);
+      this._landQ = reuse.q;
+      this._landPending = reuse.pending;
+    } else if (card) {
       const qw = document.createElement("div");
       qw.setAttribute("data-land-q", "1");
       qw.style.cssText = "margin-top:10px;padding-top:10px;border-top:1px solid rgba(150,170,210,.14);";
@@ -4558,10 +4846,20 @@ class Component extends DCLogic {
       if (block) {
         qw.appendChild(block);
         el.appendChild(qw);
-        this._landQ = { key: key, card: card, mode: mode || "land" };
+        this._landQ = { key: key, card: card, mode: mode || "land", answered: false };
         this._landPending = true; // a question is on the table — walking past it breaks momentum
-        this.fx("land_q_shown", { deckKey: key, mode: mode || "land" });
-      }
+        // COLD-START MEASUREMENT: is the game quizzing a state the player has never studied? The
+        // glyph is the existing evidence ("○" = not one card in this deck has ever been met), so
+        // this asks nothing new of the data model — it just names the suspected confusion.
+        const unseen = glyph[0] === "○";
+        this.fx("land_q_shown", { deckKey: key, mode: mode || "land", unseen: unseen, cards: totalCards, backfill: !!this._landLate });
+        if (unseen) this.fx("land_q_unseen", { deckKey: key, node: node.t, cards: totalCards, mode: mode || "land", landing: (this.rollLog || []).length });
+      } else this._landQSkip(key, "no_distractors", mode);
+    } else if ((mode || "land") === "land") {
+      // NAME THE GAP. A landing that asks nothing is legitimate, but the cold-start funnel must not
+      // be left to infer a drop-off from its absence — an unexplained hole in an ordered funnel is
+      // exactly the phantom that made the v1.82.0 spine unusable.
+      this._landQSkip(key, !this.get("landQuestions", true) ? "setting_off" : (!totalCards ? (this.flashcards ? "no_cards_authored" : "decks_in_flight") : "deck_proven"), mode);
     }
 
     // 5 — everything else is behind one affordance
@@ -4576,8 +4874,13 @@ class Component extends DCLogic {
     el.appendChild(foot);
     return el;
   }
+  // this landing asked nothing, and `reason` says why (so the funnel gap is never a phantom)
+  _landQSkip(key, reason, mode) {
+    this.fx("land_q_skipped", { deckKey: key, reason: reason, mode: mode || "land", backfill: !!this._landLate });
+  }
   _landAnswered(correct, tier, mode, hooks) {
     this._landPending = false;
+    if (this._landQ) this._landQ.answered = true; // scored — no payload may ever re-mount this block
     if (correct) {
       const granted = this.refundDecision(2500);
       this._comboUp();
@@ -5013,8 +5316,11 @@ class Component extends DCLogic {
     try { localStorage.setItem("bjj-neural-coached", "1"); } catch (e) {}
     if (this._coachEl) { try { this._coachEl.remove(); } catch (e) {} this._coachEl = null; }
     this.fx("coach_done", {});
-    // the coach held the landing card back so the two never stack — hand over to it now
-    if (this.nodes && this.nodes[this.currentPos] && this.optionIdxs && this.optionIdxs.length) this.renderLandCard(this.nodes[this.currentPos], "land", null);
+    // NO landcard work here. The card has been on screen, with its question, the whole time the
+    // coach was talking, and a payload that landed meanwhile already reached it through
+    // _landBackfill (which no longer excludes the coached path). Re-rendering it at handover would
+    // replay the entry animation for nothing and — if the newcomer answered while the coach was up
+    // — risk re-mounting a block whose answer has already been scored.
     this.renderTutorial(); // the coach hands the drip its first visible step
   }
   renderCoach() {
@@ -5142,6 +5448,65 @@ class Component extends DCLogic {
     this._staged = this.currentPos;
     this.fx("roll_staged", { position: this.nodes[this.currentPos] ? this.nodes[this.currentPos].t : null });
   }
+  // ── FIRST IMPRESSION: REAL TRAFFIC, NOT A UNIFORM LOTTERY ──
+  // Share of real roll traffic per playable position, read off the SAME stationary distribution
+  // Game Knowledge is built on. `curriculum.weights` is keyed "<technique>|Attacker" (exactly the
+  // deck key `nodeForKey` resolves), each technique node carries exactly ONE canonical origin
+  // (`fromPositionId`), and a position's attempt probabilities sum to 100 — so summing a
+  // position's techniques recovers that position's own visit mass. Result: 136 entries summing to
+  // 1, heaviest Side Control .115 / Half Guard .105 / Closed Guard .084 / Mount .059.
+  //
+  // NB there are TWO position-traffic distributions in this repo and they are NOT the same number.
+  // `graphAdjacency v2` (trainingData.ts, for the legacy trainer) prints closed-guard .196 /
+  // standing .152 / side-control .109 — that is 85% stationary with a RESTART_ANCHORS teleport into
+  // standing + closed guard, blended 15% with a hand-authored FUNDAMENTALS table. It concentrates
+  // harder, and it is the distribution the cold-start diagnosis quoted. We use `curriculum.weights`
+  // because it is ALREADY on the Neural payload path (curriculum.json, loaded anyway) — reaching for
+  // graphAdjacency would mean either a new cold-path fetch on the very journey that is trying to
+  // shed bytes, or re-implementing that editorial table in Python. START_BIAS.gamma closes the gap:
+  // the measured six-hub share lands ~.66, i.e. graphAdjacency's own .672, from the leaner input.
+  startPosTraffic() {
+    if (this._posTraffic) return this._posTraffic;
+    const w = (this.curriculum && this.curriculum.weights) || null;
+    const out = {};
+    if (w && this.nodes && this._posSlugIndex) {
+      for (const k in w) {
+        const ti = this.nodeForKey(k); if (ti < 0) continue;
+        const pid = this.nodes[ti].fromPositionId; if (!pid) continue;
+        const pi = this._posSlugIndex.get(String(pid).toLowerCase());
+        if (pi == null) continue;
+        out[pi] = (out[pi] || 0) + w[k];
+      }
+    }
+    // Do NOT memoise an empty table. curriculum.json is a separate fetch, and on the slow cold
+    // load this exists for it could still be in flight at the first draw — caching {} there would
+    // pin the uniform fallback for the whole session, silently reinstating the bug on exactly the
+    // connections that suffer from it most.
+    for (const k in out) return (this._posTraffic = out);
+    return out;
+  }
+  // gamma SHARPENS that distribution, because the goal is not to reproduce mid-roll traffic — it
+  // is to open on a state the newcomer can NAME. At 1.5, ~2/3 of first impressions land on the six
+  // hubs (closed guard / standing / side control / half guard / open guard / mount) and ~90% inside
+  // the twenty most-travelled, while ~17 states stay genuinely likely. `floor` mixes uniform back
+  // in so all 136 keep a real chance: the draw is BIASED, never NARROWED, and never repetitive.
+  get START_BIAS() { return { gamma: 1.5, floor: 0.02 }; }
+  // Returns {idx, weighted} — `weighted:false` means the traffic table was not there yet and this is
+  // the historical uniform pick. The CALLER needs to know, because a degraded draw must not be
+  // allowed to spend the once-per-visitor first impression (see startRoll).
+  _weightedStart(pool, u) {
+    const tw = this.startPosTraffic(), B = this.START_BIAS;
+    const p = new Array(pool.length); let total = 0;
+    for (let i = 0; i < pool.length; i++) { const v = Math.pow(Math.max(0, tw[pool[i]] || 0), B.gamma); p[i] = v; total += v; }
+    if (!(total > 0)) return { idx: pool[(u * pool.length) | 0], weighted: false }; // no curriculum payload → historical uniform draw
+    const flat = B.floor / pool.length;
+    let acc = 0;
+    for (let i = 0; i < pool.length; i++) {
+      acc += (1 - B.floor) * (p[i] / total) + flat;
+      if (u < acc) return { idx: pool[i], weighted: true };
+    }
+    return { idx: pool[pool.length - 1], weighted: true }; // float slack at u→1
+  }
   startRoll() {
     this.clearTimers(); this.clearOptions(); this.clearEngagement();
     this._beltTest = null; // a fresh normal roll is never a belt test (manual reset = clean cancel, no attempt burned)
@@ -5167,11 +5532,36 @@ class Component extends DCLogic {
     if (this._rigStart != null && this.nodes[this._rigStart]) { // test rail: deterministic start
       this.currentPos = this._rigStart; this._rigStart = null; this._firstRollDone = true;
     } else
-    // first roll: start on a position that has a seeded deck so the example shows immediately
+    // FIRST-EVER ROLL: bias the opening state toward one a newcomer might have a NAME for.
+    // The `withDeck` filter this replaces was meant to do that and was a NO-OP — all 136 playable
+    // positions carry a deck — so the opening was drawn uniformly and ~95% of first impressions
+    // opened on Gogoplata Control / Estima Lock Control / Hindulotine / Shoulder of Justice, under
+    // a running clock, with the heavy content payloads still ~20s out. ONE draw off the SAME rng
+    // tag, so rigged replays are structurally untouched; only a fresh profile takes this branch, and
+    // it takes it once a weighted draw has actually been GIVEN (see the marker note below).
     if (!this._firstRollDone) {
-      this._firstRollDone = true;
-      const withDeck = positions.filter((i) => this.flashcards && this.flashcards.decks && this.flashcards.decks[this.deckKeyFor(this.nodes[i]).key]);
-      this.currentPos = withDeck.length ? withDeck[(this.rng("start-pos") * withDeck.length) | 0] : positions[(this.rng("start-pos") * positions.length) | 0];
+      const u = this.rng("start-pos");
+      // owed OUTRANKS the other markers: coach-finished and progress-saved are written by ordinary
+      // play in the same visit as a degraded draw, and neither is evidence of an opening given.
+      const fresh = this._firstImpressionOwed() || !this._returningVisitor();
+      let weighted = false;
+      if (fresh) { const d = this._weightedStart(positions, u); this.currentPos = d.idx; weighted = d.weighted; }
+      else this.currentPos = positions[(u * positions.length) | 0];
+      // ── A FIRST IMPRESSION IS ONLY SPENT WHEN IT WAS ACTUALLY GIVEN ──
+      // curriculum.json is a separate background fetch, so on the slow connection this bias exists FOR
+      // it can still be in flight at this very draw, and `_weightedStart` then correctly degrades to
+      // the historical uniform pick. Marking the visitor as having had their first roll THERE latched
+      // that degradation for ever: the newcomer with the worst link — the one the bias helps most —
+      // would get the old ~95%-unnameable opening on this visit and on every visit after it, because
+      // `bjj-neural-firstroll` makes them a returning player. So "given" is written only when a
+      // weighted draw really happened, and the branch stays ARMED in-session otherwise: the next roll
+      // after curriculum.json lands takes the biased draw. Either way exactly ONE `start-pos` value is
+      // consumed, so rigged replays are structurally identical.
+      // A degraded draw writes "owed" INSTEAD — durably, because the visitor may not come back in this
+      // session, and by then the coach and the first save have made them look like a returning player
+      // (see _firstImpressionOwed). "owed" is what makes the debt survive that.
+      this._firstRollDone = !fresh || weighted;
+      if (fresh) { try { localStorage.setItem("bjj-neural-firstroll", weighted ? "1" : "owed"); } catch (e) { /* private mode */ } }
     } else {
       this.currentPos = positions[(this.rng("start-pos") * positions.length) | 0];
     }
@@ -5320,7 +5710,9 @@ class Component extends DCLogic {
   enterAttempt(opt) {
     // committing past an unanswered question is IGNORING it — momentum demands engagement
     // (owner's rule: wrong or ignored breaks; a landing that asked nothing carries)
-    if (this._landPending) this._breakCombo("ignored");
+    // the beat is emitted BEFORE the break because _breakCombo clears _landPending — and it fires
+    // even at combo 0 (where _breakCombo is a silent no-op), so an ignored question is never invisible
+    if (this._landPending) { this.fx("land_q_ignored", { deckKey: (this._landQ && this._landQ.key) || null }); this._breakCombo("ignored"); }
     const act = this.nodes[opt.idx];
     this.fx("commit", { technique: act.t });
     this.track("neural_move_picked", { technique: act.t, node_type: act.ty });

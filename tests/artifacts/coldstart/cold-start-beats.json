@@ -1,0 +1,429 @@
+{
+  "beats": [
+    {
+      "t": 3.233333333333329,
+      "beat": "stakes",
+      "rank": 1,
+      "opponent": "Fresh White Belt"
+    },
+    {
+      "t": 4.516666666666663,
+      "beat": "land",
+      "position": "Closed Guard Top",
+      "first": true
+    },
+    {
+      "t": 4.516666666666663,
+      "beat": "options_dealt",
+      "count": 10
+    },
+    {
+      "t": 4.516666666666663,
+      "beat": "beacon_moved",
+      "target": "options"
+    },
+    {
+      "t": 4.516666666666663,
+      "beat": "coach_1"
+    },
+    {
+      "t": 4.516666666666663,
+      "beat": "challenge_completed",
+      "id": "white.coach1",
+      "track": "white",
+      "progress": 1,
+      "target": 1
+    },
+    {
+      "t": 4.516666666666663,
+      "beat": "tut_step",
+      "id": "coach1",
+      "done": 1,
+      "of": 20
+    },
+    {
+      "t": 4.516666666666663,
+      "beat": "mc_shown",
+      "deckKey": "Closed Guard|Top",
+      "qhash": "6de5eeb5",
+      "opts": 4,
+      "surface": "land"
+    },
+    {
+      "t": 4.516666666666663,
+      "beat": "land_q_shown",
+      "deckKey": "Closed Guard|Top",
+      "mode": "land",
+      "unseen": true,
+      "cards": 8,
+      "backfill": false
+    },
+    {
+      "t": 4.516666666666663,
+      "beat": "land_q_unseen",
+      "deckKey": "Closed Guard|Top",
+      "node": "Closed Guard Top",
+      "cards": 8,
+      "mode": "land",
+      "landing": 1
+    },
+    {
+      "t": 5.000000000000006,
+      "beat": "coach_done"
+    },
+    {
+      "t": 5.000000000000006,
+      "beat": "mc_wrong",
+      "deckKey": "Closed Guard|Top",
+      "qhash": "6de5eeb5",
+      "tier": "trap",
+      "correct": 3
+    },
+    {
+      "t": 5.000000000000006,
+      "beat": "land_q_answered",
+      "correct": false,
+      "tier": "trap",
+      "mode": "land",
+      "qMod": -0.08,
+      "combo": 0
+    },
+    {
+      "t": 5.000000000000006,
+      "beat": "sheet_opened",
+      "technique": "Armbar from Guard"
+    },
+    {
+      "t": 5.000000000000006,
+      "beat": "challenge_completed",
+      "id": "white.sheet",
+      "track": "white",
+      "progress": 1,
+      "target": 1
+    },
+    {
+      "t": 5.000000000000006,
+      "beat": "tut_step",
+      "id": "sheet",
+      "done": 2,
+      "of": 20
+    },
+    {
+      "t": 5.000000000000006,
+      "beat": "jit_opened",
+      "deck_key": "Armbar from Guard|Attacker"
+    },
+    {
+      "t": 5.000000000000006,
+      "beat": "beacon_moved",
+      "target": "jit"
+    },
+    {
+      "t": 5.000000000000006,
+      "beat": "commit",
+      "technique": "Armbar from Guard"
+    },
+    {
+      "t": 5.000000000000006,
+      "beat": "challenge_completed",
+      "id": "white.commit",
+      "track": "white",
+      "progress": 1,
+      "target": 1
+    },
+    {
+      "t": 5.000000000000006,
+      "beat": "tut_step",
+      "id": "commit",
+      "done": 3,
+      "of": 20
+    },
+    {
+      "t": 6.816666666666706,
+      "beat": "sweep_start",
+      "technique": "Armbar from Guard",
+      "band": 25
+    },
+    {
+      "t": 7.900000000000059,
+      "beat": "sweep_land",
+      "inBand": true,
+      "roll": 1
+    },
+    {
+      "t": 7.900000000000059,
+      "beat": "challenge_completed",
+      "id": "white.sweep",
+      "track": "white",
+      "progress": 1,
+      "target": 1
+    },
+    {
+      "t": 7.900000000000059,
+      "beat": "tut_step",
+      "id": "sweep",
+      "done": 4,
+      "of": 20
+    },
+    {
+      "t": 7.900000000000059,
+      "beat": "detonation",
+      "technique": "Armbar from Guard"
+    },
+    {
+      "t": 7.900000000000059,
+      "beat": "impact_success",
+      "technique": "Armbar from Guard"
+    },
+    {
+      "t": 7.900000000000059,
+      "beat": "challenge_completed",
+      "id": "white.win1",
+      "track": "white",
+      "progress": 1,
+      "target": 1
+    },
+    {
+      "t": 7.900000000000059,
+      "beat": "tut_step",
+      "id": "win1",
+      "done": 5,
+      "of": 20
+    },
+    {
+      "t": 7.900000000000059,
+      "beat": "victory_cascade",
+      "hops": 1,
+      "durMs": 110
+    },
+    {
+      "t": 7.900000000000059,
+      "beat": "ladder_up",
+      "rank": 2,
+      "capped": false
+    },
+    {
+      "t": 7.900000000000059,
+      "beat": "finish",
+      "technique": "Armbar from Guard"
+    },
+    {
+      "t": 7.900000000000059,
+      "beat": "roll_end",
+      "outcome": "win",
+      "moves": 0
+    },
+    {
+      "t": 7.900000000000059,
+      "beat": "challenge_completed",
+      "id": "white.roll",
+      "track": "white",
+      "progress": 1,
+      "target": 1
+    },
+    {
+      "t": 7.900000000000059,
+      "beat": "tut_step",
+      "id": "roll",
+      "done": 6,
+      "of": 20
+    },
+    {
+      "t": 10.699999999999973,
+      "beat": "pane_paused"
+    },
+    {
+      "t": 10.699999999999973,
+      "beat": "challenge_completed",
+      "id": "white.pane-open",
+      "track": "white",
+      "progress": 1,
+      "target": 1
+    },
+    {
+      "t": 10.699999999999973,
+      "beat": "tut_step",
+      "id": "pane_open",
+      "done": 7,
+      "of": 20
+    },
+    {
+      "t": 10.699999999999973,
+      "beat": "bonus_pumped",
+      "deck_key": "Closed Guard|Top"
+    }
+  ],
+  "funnel": [
+    {
+      "t": 0,
+      "beat": "funnel",
+      "step": "app_ready",
+      "step_index": 0,
+      "spine": true,
+      "cold": true,
+      "ms_since_nav": 801,
+      "ms_since_prev": 801,
+      "coach_open": false,
+      "out_of_order": false,
+      "skipped": null
+    },
+    {
+      "t": 4.516666666666663,
+      "beat": "funnel",
+      "step": "hand_dealt",
+      "step_index": 1,
+      "spine": true,
+      "cold": true,
+      "ms_since_nav": 1814,
+      "ms_since_prev": 1013,
+      "coach_open": false,
+      "out_of_order": false,
+      "skipped": null
+    },
+    {
+      "t": 4.516666666666663,
+      "beat": "funnel",
+      "step": "coach_seen",
+      "step_index": -1,
+      "spine": false,
+      "cold": true,
+      "ms_since_nav": 1816,
+      "ms_since_prev": 2,
+      "coach_open": true,
+      "out_of_order": false,
+      "skipped": null
+    },
+    {
+      "t": 4.516666666666663,
+      "beat": "funnel",
+      "step": "question_shown",
+      "step_index": 2,
+      "spine": true,
+      "cold": true,
+      "ms_since_nav": 1818,
+      "ms_since_prev": 4,
+      "coach_open": true,
+      "out_of_order": false,
+      "skipped": null
+    },
+    {
+      "t": 4.516666666666663,
+      "beat": "funnel",
+      "step": "unseen_question",
+      "step_index": -1,
+      "spine": false,
+      "cold": true,
+      "ms_since_nav": 1818,
+      "ms_since_prev": 0,
+      "coach_open": true,
+      "out_of_order": false,
+      "skipped": null,
+      "node": "Closed Guard Top",
+      "cards_authored": 8
+    },
+    {
+      "t": 5.000000000000006,
+      "beat": "funnel",
+      "step": "coach_finished",
+      "step_index": -1,
+      "spine": false,
+      "cold": true,
+      "ms_since_nav": 2647,
+      "ms_since_prev": 829,
+      "coach_open": false,
+      "out_of_order": false,
+      "skipped": null
+    },
+    {
+      "t": 5.000000000000006,
+      "beat": "funnel",
+      "step": "question_answered",
+      "step_index": -1,
+      "spine": false,
+      "cold": true,
+      "ms_since_nav": 3471,
+      "ms_since_prev": 1653,
+      "coach_open": false,
+      "out_of_order": false,
+      "skipped": null,
+      "correct": false,
+      "tier": "trap"
+    },
+    {
+      "t": 5.000000000000006,
+      "beat": "funnel_abandon",
+      "reason": "test-midfunnel",
+      "cold": true,
+      "furthest_step": "question_shown",
+      "furthest_index": 2,
+      "ms_since_nav": 3480,
+      "hides": 1,
+      "marks": "app_ready,hand_dealt,coach_seen,question_shown,unseen_question,coach_finished,question_answered"
+    },
+    {
+      "t": 5.000000000000006,
+      "beat": "funnel",
+      "step": "move_committed",
+      "step_index": 3,
+      "spine": true,
+      "cold": true,
+      "ms_since_nav": 3584,
+      "ms_since_prev": 1766,
+      "coach_open": false,
+      "out_of_order": false,
+      "skipped": null
+    },
+    {
+      "t": 7.900000000000059,
+      "beat": "funnel",
+      "step": "outcome_seen",
+      "step_index": 4,
+      "spine": true,
+      "cold": true,
+      "ms_since_nav": 3813,
+      "ms_since_prev": 229,
+      "coach_open": false,
+      "out_of_order": false,
+      "skipped": null
+    },
+    {
+      "t": 7.900000000000059,
+      "beat": "funnel",
+      "step": "roll_ended",
+      "step_index": 5,
+      "spine": true,
+      "cold": true,
+      "ms_since_nav": 3814,
+      "ms_since_prev": 1,
+      "coach_open": false,
+      "out_of_order": false,
+      "skipped": null
+    },
+    {
+      "t": 10.699999999999973,
+      "beat": "funnel",
+      "step": "pane_opened",
+      "step_index": -1,
+      "spine": false,
+      "cold": true,
+      "ms_since_nav": 3872,
+      "ms_since_prev": 58,
+      "coach_open": false,
+      "out_of_order": false,
+      "skipped": null
+    },
+    {
+      "t": 10.699999999999973,
+      "beat": "funnel",
+      "step": "deck_card_graded",
+      "step_index": -1,
+      "spine": false,
+      "cold": true,
+      "ms_since_nav": 3876,
+      "ms_since_prev": 62,
+      "coach_open": false,
+      "out_of_order": false,
+      "skipped": null
+    }
+  ]
+}

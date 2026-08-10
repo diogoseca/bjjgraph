@@ -1,0 +1,26 @@
+{
+  "before": {
+    "text": "X-Guard Top\nTop\n○\nMORE ▸",
+    "hasQ": false,
+    "hasDef": false,
+    "hasFilm": false,
+    "chip": "",
+    "drilltab": "⚡\nX-Guard\nCards coming soon",
+    "funnel": [
+      "app_ready",
+      "hand_dealt"
+    ]
+  },
+  "after": {
+    "text": "X-Guard Top\nTop\n○\nMORE ▸",
+    "hasQ": false,
+    "hasDef": false,
+    "hasFilm": false,
+    "chip": "",
+    "drilltab": "○\nX-Guard\nDrill to boost your odds →",
+    "funnel": [
+      "app_ready",
+      "hand_dealt"
+    ]
+  }
+}

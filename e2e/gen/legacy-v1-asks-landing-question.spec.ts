@@ -16,7 +16,9 @@ import { legacyV1, CURRICULUM } from "./personas"
  *
  * Persona seam: legacyV1() seeds white unit-1 lesson deckKeys (Mount|Bottom + four Attacker
  * decks) — but positions canonicalize to ONE "<X> Top" node (zero "* Bottom" titles), so a
- * Mount landing always keys deck "Mount|Top" (deckRole: title suffix wins, app.src.jsx ~800).
+ * Mount landing keys deck "Mount|Top" because land() rigs the role draw to top and the deck role
+ * follows the side actually in play (playedRole, app.src.jsx ~842). Until v1.82.4 it followed the
+ * node TITLE instead, which is "… Top" for all 136 collapsed hubs — so it was "Top" either way.
  * Non-vacuous seed: add prep["Mount|Top"] = 3 — the shape of a real v1 user who also drilled
  * Mount top — so the LIVE landing deck is itself a migrated, rec-minted deck. v1 carries no
  * rec and no stage; both facts are asserted, not assumed.
@@ -83,7 +85,7 @@ test("migrated v1 rec looks proven at deck level, yet the landing still asks and
       combo: a._combo || 0,
     }
   })
-  expect(live.key, "positions canonicalize to the Top node — the landing keys Mount|Top").toBe("Mount|Top")
+  expect(live.key, "the side in play is top, so the landing keys Mount|Top").toBe("Mount|Top")
   expect(live.rec, "deck level says recall-proven (the grandfathered mint)").toBe(3)
   expect(live.hasQ, "card level disagrees — an unproven card is still owed").toBe(true)
   expect(live.qStage!, "cardStage < 2 gates the ask").toBeLessThan(2)

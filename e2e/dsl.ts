@@ -35,9 +35,108 @@ const payload = (rel: string) => {
 
 type W = Window & { __neural?: any; NG_CONTENT?: any };
 
+/**
+ * ── LATE PAYLOADS ── how a spec says "this file does not arrive yet".
+ *
+ * The whole cold-start journey is about a SKEW: on a Fast-4G load of the real build the first
+ * playable hand is dealt at 7.0s and the comprehension payloads land at 25.3s / 27.0s
+ * (tests/artifacts/coldstart/probe-throttled-timeline.json). Every spec here served those payloads
+ * from an in-memory buffer, instantly — so the 18-second window that IS the subject was invisible
+ * to the harness, and two rounds of green tests said nothing about it. A test that cannot express
+ * the defect cannot defend the fix.
+ *
+ *   afterSim  release once N SIMULATED seconds have been pumped through advance() SINCE THIS BOOT.
+ *             This is the honest unit: in test mode the roll loop runs on the advance() pump, so a
+ *             payload arrival is a statement about sim time and stays deterministic on any machine.
+ *             MIND THE ORIGIN — it is boot, the same origin the measured timeline uses, NOT the first
+ *             hand. On Fast-4G the hand is dealt at ~7.0s and the decks land at 25.3s, so the
+ *             18-second skew between them is `afterSim: 25`; `afterSim: 18` would model ~11s of it.
+ *   afterMs   release N real milliseconds after the request. For things measured on the wall clock
+ *             (CSS entry animations, `setTimeout` retries) rather than the roll loop.
+ *   never     never release: the request stays open for the whole test, exactly like a stalled
+ *             connection. NOT the same as a 404 — an aborted fetch takes the app's `.catch()`
+ *             branch, which is a different (and much better tested) story than silence.
+ *
+ * The rule is armed BEFORE the navigation that requests the payload, so it covers the very first
+ * boot; `releasePayload(pattern)` lands the held ones it NAMES early (and only those — a bare
+ * `releasePayload()` means everything). Rules belong to the boot that declared them: boot() clears
+ * the table, so a `never` in one boot cannot silently govern the next.
+ */
+export type PayloadRule = {
+  afterSim?: number;
+  afterMs?: number;
+  never?: boolean;
+};
+
+type PayloadEvent = {
+  /** the rule's own pattern, so a timeline row names what the spec asked for */
+  pattern: string;
+  url: string;
+  rule: PayloadRule;
+  /** sim ms pumped / real ms elapsed since boot when the app ASKED for it */
+  requestedAtSim: number;
+  requestedAtMs: number;
+  /** ...and when the harness let it through (null = still held when the test ended) */
+  releasedAtSim: number | null;
+  releasedAtMs: number | null;
+};
+
+/** "flashcards.json", "**\/decks/*.json", "curriculum" — a glob over the request URL. A bare
+ *  filename matches anywhere in the URL, so specs need not spell out the origin. */
+const globToRe = (pattern: string) => {
+  const esc = pattern.replace(/[.+^${}()|[\]\\]/g, "\\$&");
+  // `**` spans path separators, `*` does not — expanded via a sentinel so the `[^/]*` produced by
+  // the single-star pass is never re-scanned by the double-star one.
+  const body = esc
+    .replace(/\*\*/g, "\u0001")
+    .replace(/\*/g, "[^/]*")
+    .replace(/\u0001/g, ".*");
+  return new RegExp(pattern.includes("*") ? `^.*${body}$` : body);
+};
+
+/** Harness state that belongs to the PAGE, not to a `journey(page)` wrapper. Several specs build two
+ *  or more wrappers over the same page (golden-path's determinism replay, the Challenge journeys) and
+ *  the routes are registered once per page — so a rule armed through one wrapper must be visible to
+ *  the handler and to every other wrapper, and `simMs` must be ONE clock however many wrappers pump
+ *  it. `bootSeq` moved here for the same class of bug: two wrappers each counting from zero mint the
+ *  SAME boot nonce, and with an `initialState` hash that makes the second boot a same-document
+ *  navigation — no reload, no storage wipe, silently. */
+type PageState = {
+  bootSeq: number;
+  /** simulated ms pumped through advance() since the last boot — the clock afterSim is measured on */
+  simMs: number;
+  wallT0: number;
+  rules: Array<{ pattern: string; re: RegExp; rule: PayloadRule }>;
+  log: PayloadEvent[];
+  /** every held request's escape hatch (true = serve it now, false = the test is over), REMEMBERING
+   *  which rule armed it and which URL it is holding — `releasePayload(pattern)` must land only the
+   *  payloads it names, and a gate that has forgotten its own identity cannot be selected. */
+  gates: Set<{
+    pattern: string;
+    url: string;
+    done: (serve: boolean) => void;
+  }>;
+  disposed: boolean;
+  noCurriculum: boolean;
+};
+
 export class Journey {
   constructor(private page: Page) {}
-  private bootSeq = 0;
+  private get st(): PageState {
+    const p = this.page as any;
+    return (p.__ngState =
+      p.__ngState ||
+      ({
+        bootSeq: 0,
+        simMs: 0,
+        wallT0: Date.now(),
+        rules: [],
+        log: [],
+        gates: new Set(),
+        disposed: false,
+        noCurriculum: false,
+      } as PageState));
+  }
 
   /** Boot the app fresh on a route with the deterministic rails engaged.
    *  preserveStorage skips the localStorage wipe for THIS boot — for persistence journeys
@@ -52,8 +151,17 @@ export class Journey {
       initialState?: Record<string, unknown>;
       /** force the curriculum fetch to 404 (fallback-path journeys) */
       noCurriculum?: boolean;
+      /** payloads that land LATE (or never) on THIS boot — see PayloadRule. Armed before the
+       *  navigation, so it covers the app's own first fetch of each file. Declaring flashcards.json
+       *  late also relaxes the readiness gate below, which would otherwise wait for the very decks
+       *  the spec is holding back. */
+      payloads?: Record<string, PayloadRule>;
       /** keep the 20 White Challenge compatibility objectives incomplete */
       keepTutorial?: boolean;
+      /** stop waiting as soon as the app instance exists, instead of waiting for a full graph
+       *  ingest. For journeys about the PRE-PAINT window (a visitor who leaves while the loader
+       *  is still up) — the readiness gate is downstream of everything such a test observes. */
+      unready?: boolean;
     } = {},
   ) {
     if (!(this.page as any).__ngInit) {
@@ -107,9 +215,18 @@ export class Journey {
         .evaluate(() => sessionStorage.setItem("__ng_keep", "1"))
         .catch(() => {});
     }
+    // Rules belong to THIS boot, as PayloadRule says: a `never` declared for one boot must not
+    // silently govern the next (afterSim/afterMs are already re-based per boot below — the table was
+    // the one piece of the declaration that outlived it). Any request still held from the previous
+    // boot is released here too, so nothing is left waiting on a rule that no longer exists.
+    if (this.st.rules.length) this.releasePayload();
+    if (opts.payloads)
+      for (const [pattern, rule] of Object.entries(opts.payloads))
+        this.delayPayload(pattern, rule);
+    if (opts.noCurriculum) this.st.noCurriculum = true; // latches, as the old second route did
     // unique URL per boot: a hash-only (or identical-URL) goto is a SAME-DOCUMENT navigation —
     // no reload, no init scripts, no wipe/seed. The nonce forces a real navigation every time.
-    path += (path.includes("?") ? "&" : "?") + "ngb=" + ++this.bootSeq;
+    path += (path.includes("?") ? "&" : "?") + "ngb=" + ++this.st.bootSeq;
     if (opts.initialState) {
       path += `#ngseed=${encodeURIComponent(JSON.stringify(opts.initialState))}`;
     }
@@ -147,8 +264,16 @@ export class Journey {
         }),
       );
       // hermetic curriculum: the emitted file when present (Phase 1+), a clean 404 before —
-      // never aborted by the catch-all, never streamed off-box
+      // never aborted by the catch-all, never streamed off-box. `noCurriculum` is a FLAG read here
+      // rather than a second route: a route registered later would sit ABOVE the delay layer below
+      // (Playwright matches last-first) and a curriculum-late journey would silently lose its delay.
       await this.page.route("**/curriculum.json", (r) => {
+        if (this.st.noCurriculum)
+          return r.fulfill({
+            status: 404,
+            contentType: "application/json",
+            body: "",
+          });
         try {
           r.fulfill({
             body: payload("curriculum.json"),
@@ -158,14 +283,42 @@ export class Journey {
           r.fulfill({ status: 404, contentType: "application/json", body: "" });
         }
       });
+      // ── THE DELAY LAYER ── registered LAST, so it sees every request first (Playwright matches
+      // last-first) and `fallback()`s to whichever handler above would have served it. That
+      // separation is the point: WHEN a payload lands is orthogonal to WHAT its body is, so the
+      // same rule works for flashcards.json, graph-data.json, curriculum.json and any
+      // not-yet-existing per-deck chunk served straight off the fixture server. It also removes the
+      // reason coldstart-spine needed a throwaway boot: the rules live in a table this handler
+      // reads at request time, so a spec can arm one before its FIRST navigation.
+      await this.page.route("**/*", async (r) => {
+        const url = r.request().url();
+        const hit = this.ruleFor(url);
+        if (!hit) return r.fallback();
+        const ev: PayloadEvent = {
+          pattern: hit.pattern,
+          url,
+          rule: hit.rule,
+          requestedAtSim: this.st.simMs,
+          requestedAtMs: Date.now() - this.st.wallT0,
+          releasedAtSim: null,
+          releasedAtMs: null,
+        };
+        this.st.log.push(ev);
+        if (!(await this.holdFor(hit.rule, hit.pattern, url))) {
+          // still held when the page went away: leave the request as it is (a stalled connection
+          // never answers). abort() would hand the app its `.catch()` branch, a different story.
+          return;
+        }
+        ev.releasedAtSim = this.st.simMs;
+        ev.releasedAtMs = Date.now() - this.st.wallT0;
+        try {
+          return await r.fallback();
+        } catch {
+          return; // the page navigated away while this was held — nothing to serve it to
+        }
+      });
+      this.page.on("close", () => this.dispose());
       (this.page as any).__ngRouted = true;
-    }
-    if (opts.noCurriculum && !(this.page as any).__ngNoCurriculum) {
-      // registered AFTER the default handler → matches first (Playwright routes are last-first)
-      (this.page as any).__ngNoCurriculum = true;
-      await this.page.route("**/curriculum.json", (r) =>
-        r.fulfill({ status: 404, contentType: "application/json", body: "" }),
-      );
     }
     // ── GL teardown pre-pay ── headless Chromium (SwiftShader) defers a navigation's COMMIT
     // while it destroys the OLD page's WebGL context: 8-75s on this suite, scaling with how
@@ -185,20 +338,39 @@ export class Journey {
         (window as any).__glCtxs = [];
       })
       .catch(() => {});
+    // afterSim/afterMs are measured from THIS boot, so a second boot's late payload is late by the
+    // same amount again rather than arriving instantly on the previous boot's accumulated clock.
+    this.st.simMs = 0;
+    this.st.wallT0 = Date.now();
     try {
       await this.page.goto(path, { waitUntil: "commit" });
     } catch {
       await this.page.goto(path, { waitUntil: "commit" }); // one retry: teardown races are transient
     }
-    const ready = () => {
+    if (opts.unready) {
+      // the app instance and its constructor-time rails exist; the graph does not. Nothing below
+      // (readiness wait, objective completion, seedRolls) can run without an ingest, so return.
+      await this.page.waitForFunction(
+        () => !!(window as W).__neural,
+        undefined,
+        {
+          timeout: 60_000,
+        },
+      );
+      return this;
+    }
+    // A spec that holds flashcards.json back cannot ALSO be made to wait for it: the app's own boot
+    // does not (the fetch is fire-and-forget, app_ready fires right after the graph ingest), and the
+    // whole point of the delay is to play the first hand without decks, exactly as a 4G visitor does.
+    const needDecks = !this.delayedNow("flashcards.json");
+    const ready = (want: boolean) => {
       const a = (window as W).__neural;
       return !!(
         a &&
         a.nodes &&
         a.nodes.length &&
         typeof a.advance === "function" &&
-        a.flashcards &&
-        a.flashcards.decks
+        (!want || (a.flashcards && a.flashcards.decks))
       );
     };
     const snapshot = async () =>
@@ -219,7 +391,9 @@ export class Journey {
         new Promise((res) => setTimeout(() => res("diag-evaluate-hung"), 5000)),
       ]).catch((x) => String(x));
     try {
-      await this.page.waitForFunction(ready, undefined, { timeout: 120_000 });
+      await this.page.waitForFunction(ready, needDecks, {
+        timeout: 120_000,
+      });
     } catch {
       // BOOT-SCOPED RETRY: a readiness timeout is INFRA (CPU starvation on a contended 2-core
       // CI runner — the page load itself stalls: readyState "interactive", nothing pending,
@@ -234,7 +408,9 @@ export class Journey {
             .catch(() => {});
         }
         await this.page.reload({ waitUntil: "commit" });
-        await this.page.waitForFunction(ready, undefined, { timeout: 120_000 });
+        await this.page.waitForFunction(ready, needDecks, {
+          timeout: 120_000,
+        });
       } catch {
         // still stuck after a reload — this is no longer plausibly a transient flake; fail
         // for real, carrying BOTH snapshots so the log shows whether the reload changed anything
@@ -278,6 +454,165 @@ export class Journey {
   /** Pump simulated time through the app in fixed ticks. */
   async advance(ms: number) {
     await this.page.evaluate((m) => (window as W).__neural.advance(m), ms);
+    this.st.simMs += ms; // the clock a late payload's afterSim is measured against
+    return this;
+  }
+
+  // ─────────────────────────── LATE PAYLOADS (see PayloadRule) ───────────────────────────
+
+  /** Declare that a payload lands late, or never. Safe to call before the first boot(); the last
+   *  matching rule wins, so a later call overrides an earlier one for the same URL. */
+  delayPayload(pattern: string, rule: PayloadRule) {
+    this.st.rules.push({ pattern, re: globToRe(pattern), rule });
+    return this;
+  }
+
+  /** Land a held payload NOW, whatever its rule said — "the connection finally came back".
+   *
+   *  SCOPED TO THE PATTERN. The pattern is matched against each held request's URL and against the
+   *  rule pattern that armed it, so `releasePayload("flashcards.json")` lands the decks and leaves
+   *  every other held payload exactly where it was. (It used to resolve EVERY gate: two payloads
+   *  held, one released, both landed — which silently voided any claim about the ORDER of two late
+   *  payloads, including the per-deck-chunk rules the chunking work needs.) A bare
+   *  `releasePayload()` still means everything, which is what teardown uses. */
+  releasePayload(pattern?: string) {
+    const re = pattern ? globToRe(pattern) : null;
+    // a gate is named either by its live URL ("flashcards.json" matches the request) or by the rule
+    // pattern that armed it (so a spec can release exactly what it declared, however it spelled it)
+    const named = (g: { pattern: string; url: string }) =>
+      !re || re.test(g.url) || re.test(g.pattern);
+    if (re) this.st.rules = this.st.rules.filter((r) => !re.test(r.pattern));
+    else this.st.rules = [];
+    for (const g of Array.from(this.st.gates)) if (named(g)) g.done(true); // this one falls through and is served
+    return this;
+  }
+
+  /** What the harness actually did, per request: when the app asked and when it was let through,
+   *  in BOTH clocks. This is the evidence a cold-start claim rests on — assert on it. */
+  payloadTimeline(): PayloadEvent[] {
+    return this.st.log.map((e) => ({ ...e }));
+  }
+
+  /** Simulated ms pumped since this boot. */
+  simElapsed() {
+    return this.st.simMs;
+  }
+
+  private ruleFor(url: string) {
+    for (let i = this.st.rules.length - 1; i >= 0; i--)
+      if (this.st.rules[i].re.test(url)) return this.st.rules[i];
+    return null;
+  }
+
+  /** Is this payload under a rule that has NOT been satisfied yet? Used to relax boot()'s
+   *  readiness gate — a spec cannot hold flashcards.json back and also be made to wait for it. */
+  private delayedNow(name: string) {
+    const hit = this.ruleFor(`http://localhost/static/neural/${name}`);
+    if (!hit) return false;
+    if (hit.rule.never) return true;
+    if (hit.rule.afterMs != null) return hit.rule.afterMs > 0;
+    return (hit.rule.afterSim || 0) * 1000 > this.st.simMs;
+  }
+
+  /** Resolve true when the rule says "land it now", false if the test ended first. Polling in real
+   *  time is what lets the spec's own advance() calls (which run on the SAME event loop) move the
+   *  simulated clock while a request sits held. */
+  private holdFor(
+    rule: PayloadRule,
+    pattern: string,
+    url: string,
+  ): Promise<boolean> {
+    if (this.st.disposed) return Promise.resolve(false);
+    return new Promise<boolean>((res) => {
+      let timer: ReturnType<typeof setTimeout> | null = null;
+      const gate = {
+        pattern,
+        url,
+        // `gate` is referenced from its own method: the closure only runs when the gate is resolved,
+        // long after the object exists, and holding the reference is what lets it de-register itself.
+        done: (v: boolean) => {
+          if (timer) clearTimeout(timer);
+          this.st.gates.delete(gate);
+          res(v);
+        },
+      };
+      const done = gate.done;
+      this.st.gates.add(gate);
+      if (rule.never) return; // only releasePayload() or the page closing ends this one
+      const started = Date.now();
+      const need = (rule.afterSim || 0) * 1000;
+      const poll = () => {
+        if (this.st.disposed) return done(false);
+        if (rule.afterMs != null) {
+          if (Date.now() - started >= rule.afterMs) return done(true);
+        } else if (this.st.simMs >= need) return done(true);
+        timer = setTimeout(poll, 15);
+      };
+      poll();
+    });
+  }
+
+  private dispose() {
+    this.st.disposed = true;
+    for (const g of Array.from(this.st.gates)) g.done(false);
+    this.st.gates.clear();
+  }
+
+  /** Click at MEASURED COORDINATES, like a mouse. `locator.click()` scroll-into-views first, so it
+   *  passes on a control that is off-screen where the user sits — and on a canvas app whose fixed
+   *  overlays must each re-enable `pointer-events`, it also retries through interception. Both
+   *  turned "proven clickable by mouse" into a claim the assertion did not make. This one refuses to
+   *  scroll, and names the element that is actually under the cursor when something else is. */
+  async clickByMouse(selector: string, what?: string) {
+    const label = what || selector;
+    const hit = await this.page.evaluate((sel) => {
+      const out = { ok: false, x: 0, y: 0, why: "" };
+      const el = document.querySelector(sel) as HTMLElement | null;
+      if (!el) {
+        out.why = "no element matches";
+        return out;
+      }
+      const r = el.getBoundingClientRect();
+      out.x = r.left + r.width / 2;
+      out.y = r.top + r.height / 2;
+      const vw = window.innerWidth,
+        vh = window.innerHeight;
+      if (r.width < 1 || r.height < 1) {
+        out.why = `zero-sized box ${JSON.stringify(r)}`;
+        return out;
+      }
+      // NO SCROLLING. `locator.click()` scrolls the element into view before clicking, which is
+      // exactly how "clickable by mouse" got claimed for a control sitting below the fold.
+      if (out.x < 0 || out.y < 0 || out.x > vw || out.y > vh) {
+        out.why = `centre (${Math.round(out.x)},${Math.round(out.y)}) is OUTSIDE the ${vw}x${vh} viewport — a real mouse cannot reach it without scrolling`;
+        return out;
+      }
+      const top = document.elementFromPoint(out.x, out.y) as HTMLElement | null;
+      // The target itself, or a DESCENDANT of it (the point is inside the target — a child label,
+      // an icon span — so the click lands in the target and bubbles to it). Nothing else counts.
+      //
+      // `top.contains(el)` used to be accepted too, and it is the exact interception this helper
+      // exists to catch: an ANCESTOR overlay owning the point means the click is delivered to the
+      // overlay, the target never sees it, and (commonest shape of all) a `pointer-events:none`
+      // control inside a `pointer-events:auto` panel passed as "reachable by mouse".
+      out.ok = !!top && (top === el || el.contains(top));
+      if (!out.ok) {
+        const who = top
+          ? `<${top.tagName.toLowerCase()}${top.id ? " id=" + JSON.stringify(top.id) : ""}${top.className ? " class=" + JSON.stringify(String(top.className)) : ""}>`
+          : "nothing";
+        out.why =
+          `elementFromPoint(${Math.round(out.x)},${Math.round(out.y)}) is ${who} — ` +
+          (top && top.contains(el)
+            ? "an ANCESTOR of the target that owns the point, so the click is captured by IT and the target never sees it"
+            : "the click would land on THAT");
+      }
+      return out;
+    }, selector);
+    expect(
+      hit.ok,
+      `${label} is reachable by mouse where it sits: ${hit.why}`,
+    ).toBe(true);
+    await this.page.mouse.click(hit.x, hit.y);
     return this;
   }
 

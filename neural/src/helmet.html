@@ -17,6 +17,10 @@
   @keyframes ngSpin{to{transform:rotate(360deg);}}
   @keyframes ngCount{from{transform:scaleX(1);}to{transform:scaleX(0);}}
   @keyframes ngCardIn{from{opacity:0;transform:translateY(8px);}to{opacity:1;transform:translateY(0);}}
+  /* ngCardIn overrides `transform` outright, which silently drops the translateX(-50%) that
+     horizontally centres a left:50% overlay: the card enters half its own width to the right and
+     snaps into place when the animation ends. Anything centred that way needs this variant. */
+  @keyframes ngCardInX{from{opacity:0;transform:translate(-50%,8px);}to{opacity:1;transform:translate(-50%,0);}}
   @keyframes ngNudge{0%,100%{transform:translateX(0);}50%{transform:translateX(5px);}}
   @keyframes ngDeckExpire{0%{filter:grayscale(0) brightness(1);opacity:1;}55%{filter:grayscale(.35) brightness(.92);opacity:.92;}100%{filter:grayscale(1) brightness(.5);opacity:.34;}}
   @keyframes ngPulseChip{0%,100%{box-shadow:0 0 0 0 rgba(120,170,255,.5);}50%{box-shadow:0 0 0 6px rgba(120,170,255,0);}}
@@ -68,10 +72,15 @@
   /* pointer-events:auto is LOAD-BEARING on every fixed overlay: the property is inherited and
      the canvas hit-tests above anything that doesn't re-enable it (the option cards set it
      inline for the same reason). Without it, mouse clicks fall through to the graph. */
-  .ng-coach{pointer-events:auto;position:fixed;left:50%;bottom:218px;transform:translateX(-50%);z-index:70;width:min(340px,calc(100vw - 40px));background:rgba(15,19,30,.97);border:1px solid rgba(126,224,168,.35);border-radius:14px;padding:14px 16px;box-shadow:0 14px 44px rgba(0,0,0,.55);}
+  /* TOP-centre, not bottom: the coach used to sit at bottom:218px, straddling the .ng-landcard
+     dock at bottom:236px — narrower and at z-index 70, so it buried the landing question behind
+     its own copy. That overlap is why the coach suppressed the card entirely, which in turn deleted
+     the landing question from every cold visitor's first decision. Docking the coach above the
+     graph leaves the card its own space and both stay fully clickable. */
+  .ng-coach{pointer-events:auto;position:fixed;left:50%;top:92px;transform:translateX(-50%);z-index:70;width:min(340px,calc(100vw - 40px));background:rgba(15,19,30,.97);border:1px solid rgba(126,224,168,.35);border-radius:14px;padding:14px 16px;box-shadow:0 14px 44px rgba(0,0,0,.55);}
   /* P1b: the question-first landing card — docked directly above the options tray, so the
      read order is identity -> film -> question -> your hand, top to bottom. */
-  .ng-landcard{pointer-events:auto;position:fixed;left:50%;bottom:236px;transform:translateX(-50%);z-index:5;width:min(520px,calc(100vw - 32px));max-height:min(320px,40vh);overflow-y:auto;background:linear-gradient(180deg,rgba(24,28,46,.97),rgba(17,20,34,.97));border:1px solid rgba(130,150,190,.24);border-radius:15px;padding:13px 15px 12px;box-shadow:0 14px 44px rgba(0,0,0,.5);animation:ngCardIn .28s cubic-bezier(.2,.7,.2,1);}
+  .ng-landcard{pointer-events:auto;position:fixed;left:50%;bottom:236px;transform:translateX(-50%);z-index:5;width:min(520px,calc(100vw - 32px));max-height:min(320px,40vh);overflow-y:auto;background:linear-gradient(180deg,rgba(24,28,46,.97),rgba(17,20,34,.97));border:1px solid rgba(130,150,190,.24);border-radius:15px;padding:13px 15px 12px;box-shadow:0 14px 44px rgba(0,0,0,.5);animation:ngCardInX .28s cubic-bezier(.2,.7,.2,1);}
   .ng-landcard[data-landcard="attempt"]{border-color:rgba(126,160,255,.4);}
   /* ── MOMENTUM: the arcade announcer + the heat chip. Heat 1→5 = ×2→×6+. ── */
   .ng-combo-pop{position:fixed;left:50%;top:31%;transform:translate(-50%,-50%);z-index:72;pointer-events:none;text-align:center;font-family:'Space Grotesk',sans-serif;animation:ngComboPop 1.15s cubic-bezier(.2,.7,.2,1) both;}
