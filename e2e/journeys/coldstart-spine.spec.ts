@@ -127,18 +127,19 @@ test("cold start: a newcomer who obeys the coach still gets asked the landing qu
   const committedAt = m.findIndex((x) => x.step === "move_committed");
   expect(committedAt, "the move was committed").toBeGreaterThanOrEqual(0);
   const before = m.slice(0, committedAt).map((x) => x.step);
+  // STRICT under this condition, and that strictness is the point. The decks are CACHED here
+  // (asserted in coldFirstHand), so there is no legitimate reason for the question not to be
+  // asked — accepting `question_skipped` as well would make this test unable to fail for the very
+  // thing its name claims ("still gets asked the landing question"). The shown-or-explained
+  // DISJUNCTION belongs only on the decks-in-flight walk below, where a skip is honest.
   expect(
     before,
-    "the funnel accounts for the question before the first commit: either it was shown, or a mark names why it was not",
-  ).toEqual(
-    expect.arrayContaining([
-      expect.stringMatching(/^question_(shown|skipped)$/),
-    ]),
-  );
-
-  // and if it was skipped, the mark carries the REASON — an unexplained gap is the phantom
-  const skipped = m.find((x) => x.step === "question_skipped");
-  if (skipped) expect(skipped.reason, "the skip names its cause").toBeTruthy();
+    "with the decks already cached the question must be SHOWN before the first commit — no skip is legitimate here",
+  ).toEqual(expect.arrayContaining(["question_shown"]));
+  expect(
+    m.find((x) => x.step === "question_skipped"),
+    "nothing may be skipped on the cached path",
+  ).toBeUndefined();
 });
 
 /** every recorded spine mark that did not arrive in its own position, and whether it says so */
