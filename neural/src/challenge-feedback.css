@@ -233,7 +233,8 @@
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .ng-knowledge-meter > i,
+  .ng-knowledge-meter,
+  .ng-belt-bar > b,
   .ng-challenge-reward {
     transition: none;
     animation: none;

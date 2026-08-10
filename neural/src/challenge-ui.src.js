@@ -31,18 +31,58 @@ const NG_CHALLENGE_UI_METHODS = {
       "aria-label",
       "Your Game Knowledge: " + score.toFixed(1) + " percent, " + belt,
     );
+    // The meter IS a belt (v1.90.0) — woven strap, rank bar, tape stripes. Display-only by
+    // canon: it reads gameScore() and nothing reads it back. Black wears the red bar and no
+    // stripe ladder (the stripe system ends at black — owner's rule).
+    const B = this.BELT_SCORE;
+    let lo = 0;
+    let hi = B[0][1];
+    for (let i = 0; i < B.length; i++)
+      if (game.belt === B[i][0]) {
+        lo = B[i][1];
+        hi = i + 1 < B.length ? B[i + 1][1] : 1;
+      }
+    const pct = Math.max(
+      0,
+      Math.min(100, Math.round(((game.score - lo) / (hi - lo)) * 100)),
+    );
+    const black = game.belt === "black";
+    const stripes = black ? 0 : game.stripes;
+    const next = game.next || (game.belt ? null : "white");
+    const road = next ? pct + "% to " + next : "";
+    const label = black
+      ? "Black belt"
+      : (game.belt
+          ? belt + " belt, " + stripes + (stripes === 1 ? " stripe" : " stripes")
+          : belt) + (road ? " — " + road : "");
+    // a stripe EARNED on the same belt gets the tape-wrap animation (data-new)
+    const prev = this._beltShown;
+    const fresh =
+      prev && prev.belt === game.belt && stripes > prev.stripes
+        ? prev.stripes
+        : stripes;
+    this._beltShown = { belt: game.belt, stripes: stripes };
+    let tape = "";
+    for (let i = 0; i < stripes; i++)
+      tape += i >= fresh ? "<b data-new></b>" : "<b></b>";
     el.innerHTML =
       '<div class="ng-knowledge-line"><span>YOUR GAME KNOWLEDGE</span><b>' +
       score.toFixed(1) +
       '% <em>' +
       ngChallengeHTML(belt) +
       "</em></b></div>" +
-      '<div class="ng-knowledge-meter" role="meter" aria-label="Game Knowledge" aria-valuemin="0" aria-valuemax="100" aria-valuenow="' +
+      '<div class="ng-knowledge-meter ng-belt" role="meter" data-belt="' +
+      (game.belt || "none") +
+      '" aria-label="' +
+      ngChallengeHTML(label) +
+      '" aria-valuemin="0" aria-valuemax="100" aria-valuenow="' +
       score.toFixed(1) +
-      '"><i style="width:' +
-      score.toFixed(1) +
-      '%"></i><em style="left:20%"></em><em style="left:40%"></em><em style="left:60%"></em><em style="left:70%"></em><em style="left:80%"></em></div>' +
-      "<p>Proven recall, not challenge completion.</p>";
+      '"><i class="ng-belt-bar" aria-hidden="true">' +
+      tape +
+      "</i></div>" +
+      "<p>Proven recall, not challenge completion." +
+      (road ? " " + road + " belt." : "") +
+      "</p>";
   },
 
   noteLearningViewOpen(view) {
