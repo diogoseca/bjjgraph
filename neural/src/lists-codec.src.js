@@ -65,6 +65,12 @@ export const NG_LIST_MAX_CODE_CHARS = 512;
 // stay out — those are a mistyped or hostile code, a different sentence to the user.
 // Pinned by tests/share_lists_codec.test.mjs, which walks every prefix of real codes and
 // asserts each failure lands in one bucket or the other.
+//
+// AN ERROR CODE IS NOT ENOUGH ON ITS OWN (v1.81.4). `not_base64url` is also what a random
+// pasted word looks like, so keying "this link was cut short" off the error alone told someone
+// who pasted garbage that their coach's link arrived damaged — a confident sentence about
+// something we cannot know. So the error narrows WHAT failed, and `ngListClassifyFailure`
+// below decides WHOSE code it was, from the wire-version byte the string actually starts with.
 export const NG_LIST_CLIP_ERRORS = [
   "count_mismatch",
   "truncated",
@@ -140,6 +146,48 @@ function b64urlToBytes(code) {
     bytes[bi++] = ((b << 4) | (c >>> 2)) & 255;
   }
   return bytes;
+}
+
+// ---------------------------------------------------------------- whose code is this?
+
+/**
+ * The wire-version byte a string STARTS with, read leniently — or null if it cannot be read.
+ *
+ * `b64urlToBytes` is all-or-nothing by design (one set == one string), so a code cut mid-quantum
+ * yields no bytes at all and the caller learns nothing about what it was holding. But byte 0 of
+ * every code we have ever minted is the wire version, and TWO base64url characters are enough to
+ * spell it. Reading just those two tells us whether a failed string was ever one of ours:
+ * a truncated real code still begins `A…`/`Ag…` (version 1/2); "hello" begins with byte 133.
+ *
+ * Deliberately weak evidence, deliberately used only to choose a SENTENCE: ~2 in 256 foreign
+ * strings will collide with a valid version byte and get the clipped wording. Being occasionally
+ * too generous about a stranger's typo is nothing like telling every stranger their coach's link
+ * was cut.
+ */
+export function ngListWireVersionOf(code) {
+  if (typeof code !== "string" || code.length < 2) return null;
+  const c0 = code.charCodeAt(0), c1 = code.charCodeAt(1);
+  const a = c0 < 128 ? B64URL_INV[c0] : -1;
+  const b = c1 < 128 ? B64URL_INV[c1] : -1;
+  if (a < 0 || b < 0) return null;
+  return ((a << 2) | (b >>> 4)) & 255;
+}
+
+/** Is this string shaped like one of OUR share codes (whatever else is wrong with it)? */
+export function ngListLooksLikeOurCode(code) {
+  const v = ngListWireVersionOf(code);
+  return v != null && NG_LIST_WIRE_VERSIONS_READ.indexOf(v) >= 0;
+}
+
+/**
+ * Why a code-shaped string would not decode, in the two words a recipient can act on:
+ *   "clipped"    — one of ours, cut short in transit → ask for the link again.
+ *   "unreadable" — not one of ours (or altered past recognition) → check what you pasted.
+ * The single seam both the app copy and the pill label read, so they cannot disagree.
+ */
+export function ngListClassifyFailure(code, error) {
+  if (NG_LIST_CLIP_ERRORS.indexOf(error) < 0) return "unreadable";
+  return ngListLooksLikeOurCode(code) ? "clipped" : "unreadable";
 }
 
 // ---------------------------------------------------------------- varint (LEB128)

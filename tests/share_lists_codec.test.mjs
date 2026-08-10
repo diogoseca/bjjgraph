@@ -23,6 +23,9 @@ import {
   ngListDecodeIds,
   ngListOrdinalIndex,
   ngListShareId,
+  ngListClassifyFailure,
+  ngListLooksLikeOurCode,
+  ngListWireVersionOf,
 } from "../neural/src/lists-codec.src.js";
 
 const HERE = dirname(fileURLToPath(import.meta.url));
@@ -205,6 +208,58 @@ test("truncation: EVERY clipped prefix lands in NG_LIST_CLIP_ERRORS, so the reci
   for (const notAClip of ["bad_version", "too_many_items", "non_canonical_varint", "too_long", "empty"])
     assert.ok(!NG_LIST_CLIP_ERRORS.includes(notAClip), `${notAClip} is not a truncation`);
   console.log("\n  CLIP-ERROR MIX over " + checked + " prefixes: " + JSON.stringify(tally) + "\n");
+});
+
+test("classification: a clip is OURS-and-cut; a stranger's string is not blamed on the coach", () => {
+  // The error says WHAT failed. It cannot say WHOSE code it was — `not_base64url` is both "a real
+  // code cut mid-quantum" (the majority of clips) and "a random word someone pasted". Answering
+  // the second with "your link was cut short in transit" is a confident claim about something we
+  // do not know, so the classifier reads the leading wire-version byte as well.
+  const all = Object.values(BY_ID);
+  const rand = lcg(4242);
+  let clips = 0;
+  const misread = [];
+  for (let i = 0; i < 40; i++) {
+    const set = sample(rand, all, 2 + Math.floor(rand() * 9)).sort((a, b) => a - b);
+    const code = ngListEncodeOrdinals(set);
+    for (let cut = 2; cut < code.length; cut++) {
+      const clipped = code.slice(0, cut);
+      const res = ngListDecodeOrdinals(clipped);
+      if (res.ok) continue;
+      clips++;
+      if (ngListClassifyFailure(clipped, res.error) !== "clipped")
+        misread.push({ cut, clipped, error: res.error });
+    }
+  }
+  assert.ok(clips > 300, `expected a real sweep, only saw ${clips} clips`);
+  assert.deepEqual(
+    misread.slice(0, 5),
+    [],
+    `a genuine prefix of one of our codes must still classify as "clipped" — ${misread.length} did not`,
+  );
+
+  // …and the other direction: strings that were never ours must NOT be reported as truncated.
+  // (Every one of these fails with an error that IS in NG_LIST_CLIP_ERRORS — that is the point.)
+  for (const foreign of ["hello", "hello-there-friend", "zzzz", "wat", "totally_not_a_code", "xyzzy"]) {
+    const res = ngListDecodeOrdinals(foreign);
+    assert.ok(!res.ok, `${foreign} should not decode`);
+    assert.equal(
+      ngListClassifyFailure(foreign, res.error),
+      "unreadable",
+      `"${foreign}" fails as ${res.error} — the same error most real clips give — but it does not ` +
+        `start with one of our wire versions, so it is not a truncated share link`,
+    );
+    assert.equal(ngListLooksLikeOurCode(foreign), false);
+  }
+
+  // the seam itself: byte 0 of every code we mint is the wire version, and two chars spell it
+  const real = ngListEncodeOrdinals([3, 8, 21]);
+  assert.equal(ngListWireVersionOf(real), NG_LIST_WIRE_VERSION);
+  assert.equal(ngListLooksLikeOurCode(real.slice(0, 2)), true, "two chars are enough to recognise ours");
+  assert.equal(ngListWireVersionOf("A"), null, "one char spells no byte at all");
+  assert.equal(ngListWireVersionOf("!!"), null, "non-base64url chars spell no byte at all");
+  // a non-clip error stays unreadable whoever it came from: "cut short" is the wrong sentence
+  assert.equal(ngListClassifyFailure(real, "bad_version"), "unreadable");
 });
 
 test("truncation: dropping whole items is a count_mismatch, and appended junk is refused", () => {

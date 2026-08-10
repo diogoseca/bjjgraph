@@ -44,7 +44,12 @@ invisible in review. So this gate also asserts, for every Pages Function route:
      re-using the upstream asset's headers (a copied Content-Length is a wrong
      length and a copied ETag makes two different bodies share a cache key);
   8. the Function re-applies the site-wide `/*` security headers verbatim, since
-     `_headers` will not do it for a Function response.
+     `_headers` will not do it for a Function response. Missing keys and drifted
+     VALUES are hard errors (text can answer "are these two strings equal?").
+     Whether the declared object is actually WRITTEN into the response is only a
+     WARNING: that question needs a JS semantics, not a regex, and this script runs
+     inside `npm run build` — a false positive there would take the build down for a
+     Function that was correct all along.
 
 Checks the CANONICAL source (source/quartz/static/_headers) and, when present, the
 emitted deploy-root copy (source/public/_headers) that regenerate_headers.py writes.
@@ -204,8 +209,11 @@ def js_object(src: str, name: str) -> dict[str, str] | None:
         return None
 
 
-def check_functions(headers_path: Path) -> list[str]:
+def check_functions(headers_path: Path, warnings: list[str] | None = None) -> list[str]:
+    """Hard errors are returned; advisory findings are appended to `warnings` (see 8a)."""
     errors: list[str] = []
+    if warnings is None:
+        warnings = []
     if not FUNCTIONS.is_dir():
         return errors
     blocks = parse(headers_path)
@@ -303,21 +311,38 @@ def check_functions(headers_path: Path) -> list[str]:
                 f"site-wide security headers."
             )
         elif star and declared is not None:
-            # (8a) DECLARED IS NOT APPLIED. A perfectly correct SHARE_STATIC_HEADERS object that
-            # nothing ever writes into the response passes every value comparison below while
-            # shipping none of the headers. Omitting the apply is far likelier than drifting a
-            # value (a refactor of withHeaders(), a lost loop), so require the identifier to be
-            # USED somewhere other than its own declaration, next to a headers.set.
+            # (8a) DECLARED IS NOT APPLIED — A WARNING, DELIBERATELY, NOT A GATE.
+            # A correct SHARE_STATIC_HEADERS object that nothing writes into the response passes
+            # every value comparison below while shipping none of the headers, so it is worth
+            # saying something about. But "is it applied?" cannot be answered by reading text: the
+            # first version of this check required a literal `headers.set(` within 240 characters
+            # of a use, which is satisfied by luck and broken by any legitimate refactor — a helper
+            # in another module, a `new Headers({...SHARE_STATIC_HEADERS})`, an `Object.entries`
+            # loop, or simply more than 240 characters of code. And this script runs INSIDE
+            # `npm run build`, so a false positive there does not flag a header: it takes the whole
+            # build down for a Function that was right all along. A gate with false positives on
+            # the build path is worse than no gate, so this reports and the build continues; the
+            # DRIFT and OMISSION checks around it stay hard errors because they compare values,
+            # which text can actually answer.
             uses = [
                 m.start()
                 for m in re.finditer(r"\bSHARE_STATIC_HEADERS\b", src)
                 if not re.search(r"const\s+$", src[max(0, m.start() - 12) : m.start()])
             ]
-            if not any(re.search(r"headers\.set\(", src[u : u + 240]) for u in uses):
-                errors.append(
-                    f"{fnlabel}: SHARE_STATIC_HEADERS is declared but never written into the "
-                    f"response (no headers.set near any use). The object being correct is not the "
-                    f"same as the headers being sent."
+            applied = re.compile(
+                r"headers\.set\(|new\s+Headers\s*\(|Object\.(entries|keys|assign)\s*\(|"
+                r"\.\.\.SHARE_STATIC_HEADERS|for\s*\(|\.forEach\s*\(|withHeaders\s*\("
+            )
+            if not uses:
+                warnings.append(
+                    f"{fnlabel}: SHARE_STATIC_HEADERS is declared and never referenced again — "
+                    f"nothing can be writing it into the response."
+                )
+            elif not any(applied.search(src[max(0, u - 120) : u + 400]) for u in uses):
+                warnings.append(
+                    f"{fnlabel}: could not see SHARE_STATIC_HEADERS being written into a response "
+                    f"near any of its {len(uses)} use(s). If it IS applied (a helper, a spread, a "
+                    f"loop), ignore this line — it is a text search, not a proof."
                 )
             lower = {k.lower(): v for k, v in declared.items()}
             for key, (orig, value) in star.items():
@@ -341,6 +366,7 @@ def main() -> None:
         sys.exit(1)
 
     errors: list[str] = []
+    warnings: list[str] = []
     for target in targets:
         errors.extend(check(target))
         # …and the Function checks against EVERY _headers we have, not just the canonical one.
@@ -348,11 +374,14 @@ def main() -> None:
         # source/quartz/static/_headers is only its input. regenerate_headers.py sits between
         # them and can add, drop or reorder rules, so a Function/`_headers` disagreement can
         # exist in the file that actually ships while the canonical pair agrees perfectly.
-        errors.extend(check_functions(target))
+        errors.extend(check_functions(target, warnings))
 
     # the Function checks now run once per _headers file, and findings that name no file (the
     # Function-internal ones) come out identical twice — report each distinct finding once
     errors = list(dict.fromkeys(errors))
+    warnings = list(dict.fromkeys(warnings))
+    for warn in warnings:
+        print(f"[check_headers_cache] WARNING: {warn}", file=sys.stderr)
 
     if errors:
         print("[check_headers_cache] FAIL", file=sys.stderr)

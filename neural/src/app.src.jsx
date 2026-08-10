@@ -36,6 +36,9 @@ class Component extends DCLogic {
   // the merged learning pane IS the drill pane — explorerRef stays as an alias so every
   // display-based open-check (incl. renderChallengeCue's) reads the one real element
   explorerRef = this.drillRef;
+  // how long a focus flight OWNS the camera (see holdCamera). Long enough to read a lit class on
+  // a phone, short enough that the roll's follow-cam is never held hostage.
+  camHoldSec = 7;
   explorerListRef = React.createRef();
   explorerSearchRef = React.createRef();
   explorerSearchWrapRef = React.createRef();
@@ -1816,8 +1819,10 @@ class Component extends DCLogic {
     // the same capture, with room for a label: this sheet is what a coach reads BEFORE committing,
     // and on a phone it is a full-width surface where a 44px target actually fits.
     const capture = this._listAddButton(n.id, "sheet");
+    capture.setAttribute("data-list-label", "1"); // room for words here — and _styleListAdd writes them
     capture.style.width = "auto"; capture.style.height = "auto"; capture.style.minWidth = "44px"; capture.style.minHeight = "44px";
-    capture.style.padding = "12px 14px"; capture.style.borderRadius = "11px"; capture.style.fontSize = "15px";
+    capture.style.padding = "12px 14px"; capture.style.borderRadius = "11px"; capture.style.fontSize = "14px";
+    this._styleListAdd(capture, n.id); // re-paint now that it is marked labelled
     back.addEventListener("click", () => this.closeOptionDetail());
     head.querySelector(".x").addEventListener("click", () => this.closeOptionDetail());
     // perspective tab — re-render the body for attacker / defender and restyle the segmented control
@@ -2132,9 +2137,62 @@ class Component extends DCLogic {
     let minx = 1e9, miny = 1e9, maxx = -1e9, maxy = -1e9;
     for (const i of idxs) { const n = this.nodes[i]; if (!n) continue; minx = Math.min(minx, n.x); maxx = Math.max(maxx, n.x); miny = Math.min(miny, n.y); maxy = Math.max(maxy, n.y); }
     if (minx > maxx) return;
-    this.camTarget = { cx: (minx + maxx) / 2, cy: (miny + maxy) / 2, vw: Math.max(this.graphW * 0.4, (maxx - minx) * 2.2) };
-    this.lastInteract = 0; // let camera move
+    // FIT BOTH AXES. `vw` is the visible WIDTH; the visible height is vw * H/W. A phone is 390x844,
+    // so a selection that is tall and narrow was framed on its width and hung off the top and
+    // bottom of the screen — the same margin has to be asked for vertically or "framed" is a claim
+    // about one axis only.
+    const aspect = (this.H || 1) / (this.W || 1);
+    const need = Math.max((maxx - minx) * 2.2, aspect > 0 ? ((maxy - miny) * 2.2) / aspect : 0);
+    this.camTarget = { cx: (minx + maxx) / 2, cy: (miny + maxy) / 2, vw: Math.max(this.graphW * 0.4, need) };
+    // …and TAKE THE CAMERA, or the flight above is a wish. See holdCamera().
+    this.holdCamera();
   }
+  // ══════════════════════════════════════════════════════════════════════════════════════
+  // CAMERA OWNERSHIP — a focus flight gets a short LEASE on the camera.
+  //
+  // frameNodes() only ever wrote `camTarget`. It does not move anything: the render loop eases
+  // the camera toward camTarget, and updateCamera()'s follow-cam REWRITES camTarget at the
+  // current roll node on EVERY FRAME. So every "here is your selection" flight — a shared class
+  // lighting up, a System lighting its members — was overwritten within one frame whenever a
+  // roll was live. (It also set `lastInteract = 0` "to let the camera move", which did the
+  // opposite: `userActiveNow()` is the ONE condition that suppresses the follow-cam, so zeroing
+  // it handed the camera straight back to the roll.)
+  //
+  // Nobody saw it because on a desktop the arrival opened the pane, and an open pane pauses the
+  // roll, and a paused roll suppresses the auto-retarget. The moment a phone arrival stopped
+  // opening the pane (v1.81.3 — the terminal state on a phone is the LIT GRAPH) the follow-cam
+  // won every time, and both the arrival flight and every later ◉ re-light died a beat after
+  // they started.
+  //
+  // The lease, therefore, and its three rules:
+  //   · IT EXPIRES (CAM_HOLD_SEC). The roll must get its camera back; a frozen camera is a worse
+  //     bug than the one this fixes, and the 400ms pan-to-current-node behaviour has to survive.
+  //   · A REAL PAN OR PINCH CANCELS IT. If the user takes the camera, we do not fight them.
+  //   · IT IS RE-TAKEN, not queued: a second ◉ tap starts a fresh lease.
+  // The roll's automatic camera writers yield while it is live; the roll's USER-driven ones
+  // (roam to a node, "roll from here", opening a dossier) release it instead — asking to go
+  // somewhere else is not a collision, it is a decision.
+  // ══════════════════════════════════════════════════════════════════════════════════════
+  holdCamera(sec) {
+    // PENDING (-1) when the frame clock does not exist yet. A share arrival is decoded during
+    // ingest, which can be before the first frame — and `this.now` is not a page-relative zero in
+    // production (it is the rAF timestamp), so "0 + 7" could be a deadline already in the past on
+    // a slow phone. Starting the lease on the first frame instead has no such origin to get wrong.
+    const t = typeof this.now === "number" && isFinite(this.now) ? this.now : null;
+    this._camHoldUntil = t == null ? -1 : t + (sec || this.camHoldSec);
+    this._camHoldSecs = sec || this.camHoldSec;
+    // remembered so an intro that is still flying can hand the flight over when it finishes,
+    // instead of eating it (a share link is decoded at t=0, mid-intro, every time)
+    const c = this.camTarget;
+    this._camHoldTarget = c ? { cx: c.cx, cy: c.cy, vw: c.vw } : null;
+  }
+  camHeld() {
+    if (this._camHoldUntil == null) return false;
+    if (this._camHoldUntil === -1) return true; // taken before the clock existed; armed on the next frame
+    return (this.now || 0) < this._camHoldUntil;
+  }
+  /** The user took the camera (pan/pinch/wheel) or asked to go elsewhere: drop the lease. */
+  releaseCamera() { this._camHoldUntil = null; this._camHoldTarget = null; }
   nodeForKey(key) {
     if (!this._keyNode) {
       this._keyNode = new Map();
@@ -3316,10 +3374,30 @@ class Component extends DCLogic {
   // it, and "Class ▸" opens the pane to read / save / drill it.
   // ══════════════════════════════════════════════════════════════════════════════════════
   _setShareCue(cue) { this._shareCue = cue || null; this._renderShareCue(); }
+  /**
+   * One flag on <body> so the bottom thumb band can lay itself out in CSS (see helmet.html): with
+   * a cue up, the transport steps aside, the pill tightens and drops its own label, and neither
+   * can cover the other.
+   *
+   * NAMED `data-share-band`, NOT `data-share-cue`: the cue BUTTON already carries
+   * `data-share-cue`, so a body flag of the same name makes `document.querySelector(
+   * "[data-share-cue]")` return the whole document body — every measurement of "where is the cue"
+   * silently became "the entire 390x844 viewport", and every tap aimed at its centre landed in the
+   * middle of the screen. Three share journeys caught it; one attribute name away from shipping a
+   * re-light control that could not be tapped at all.
+   */
+  _markShareCueLayout() {
+    try {
+      const b = document.body; if (!b) return;
+      if (this._shareCue) b.setAttribute("data-share-band", this._shareCue.kind || "1");
+      else b.removeAttribute("data-share-band");
+    } catch (e) { /* non-fatal */ }
+  }
   _renderShareCue() {
     const tab = this.drillTabRef.current; if (!tab) return;
     try { tab.querySelectorAll("[data-share-cue],[data-share-open]").forEach((el) => el.remove()); } catch (e) { /* non-fatal */ }
     const cue = this._shareCue;
+    this._markShareCueLayout();
     if (!cue) { if (!this.deckReady || this.deckOpen) { tab.style.opacity = "0"; tab.style.pointerEvents = "none"; } return; }
     // a class cue whose list no longer resolves (deleted, merged away) is not a cue: dropping it
     // here means the pill can never offer to light a set that does not exist
@@ -3350,7 +3428,9 @@ class Component extends DCLogic {
       mk("data-share-cue", (lit ? "◉" : "◎") + " " + cue.n, "Light this class on the graph again", green, () => this.relightShare());
       mk("data-share-open", "Class ▸", "Read, save or drill the shared class", green, () => this.openShareCue());
     } else {
-      const label = cue.kind === "stale" ? "Newer link ▸" : "Link incomplete ▸";
+      // the pill says exactly what the panel says (see _brokenCopy): a cue that contradicts the
+      // explanation it opens is worse than no cue
+      const label = cue.kind === "stale" ? "Newer link ▸" : this._brokenCopy().pill;
       mk("data-share-open", label, "What happened to this shared link", amber, () => this.openShareCue());
     }
     // SHOW THE PILL. `pointer-events:auto` is set INLINE on these buttons (it must be — see the
@@ -3436,8 +3516,14 @@ class Component extends DCLogic {
   }
   _styleListAdd(el, nodeId) {
     const on = this.activeListHas(nodeId);
-    el.textContent = on ? "✓" : "+";
+    // A GLYPH IS NOT A LABEL. The sheet's capture was described as "a 44px labelled target" while
+    // its whole text was "+" and its only words were in a `title` — invisible on a phone, where
+    // there is no hover. Surfaces with room (data-list-label) say it in words; the cramped ones
+    // keep the glyph but carry a real accessible name, which a `title` is not.
+    const labelled = el.getAttribute("data-list-label") === "1";
+    el.textContent = labelled ? (on ? "✓ In class" : "+ Add to class") : (on ? "✓" : "+");
     el.title = on ? "In today’s class list — click to remove" : "Add to today’s class list";
+    el.setAttribute("aria-label", on ? "In today’s class list — remove it" : "Add to today’s class list");
     el.setAttribute("aria-pressed", on ? "true" : "false");
     el.style.color = on ? "#7ee0a8" : "#9ab0e0";
     el.style.borderColor = on ? "rgba(126,224,168,.45)" : "rgba(150,170,210,.28)";
@@ -3448,10 +3534,17 @@ class Component extends DCLogic {
     b.type = "button";
     b.setAttribute("data-list-add", nodeId);
     b.setAttribute("data-list-surface", surface || "explore");
+    // THUMB SIZE, ON THE SURFACES A THUMB USES. The in-roll surfaces — the option hand, the escape
+    // hand (same card builder) and the landing card — are hit mid-roll, one-handed, on a moving
+    // screen: 24x24 there was about half the 44px minimum this feature applies to its own sheet,
+    // for the hardest tap of the three. The pane's list rows keep the compact glyph: the ROW is
+    // the target there and the + sits beside it.
+    const thumb = this.isMobile() && (surface === "option" || surface === "land");
+    const size = thumb ? 44 : 24;
     // pointer-events:auto INLINE — the property is inherited, fixed overlays disable it at the
     // root and the canvas hit-tests above anything that does not re-enable it. This exact trap
     // made the coach's Next button and the landing card's options unclickable by mouse.
-    b.style.cssText = "flex:none;pointer-events:auto;cursor:pointer;font-family:inherit;font-size:13px;font-weight:700;line-height:1;width:24px;height:24px;border-radius:7px;border:1px solid rgba(150,170,210,.28);background:rgba(255,255,255,.04);display:inline-flex;align-items:center;justify-content:center;";
+    b.style.cssText = "flex:none;pointer-events:auto;cursor:pointer;font-family:inherit;font-size:" + (thumb ? "17px" : "13px") + ";font-weight:700;line-height:1;width:" + size + "px;height:" + size + "px;border-radius:" + (thumb ? 11 : 7) + "px;border:1px solid rgba(150,170,210,.28);background:rgba(255,255,255,.04);display:inline-flex;align-items:center;justify-content:center;";
     this._styleListAdd(b, nodeId);
     b.addEventListener("click", (e) => { e.stopPropagation(); e.preventDefault(); this.toggleListItem(nodeId, surface); });
     return b;
@@ -3721,21 +3814,45 @@ class Component extends DCLogic {
     box.appendChild(dismissRow);
     return box;
   }
+  /**
+   * ONE set of words for a damaged link, read by all three surfaces that mention it: the pill
+   * cue, this panel and the arrival toast. They used to disagree — the pill said "Link
+   * incomplete" about every non-stale failure while the panel said the opposite for the
+   * not-clipped case — and a recipient who reads both learns only that the app is guessing.
+   */
+  _brokenCopy() {
+    const b = this._sharedBroken;
+    if (b && b.clipped)
+      return {
+        pill: "Link incomplete ▸",
+        kicker: "Shared class · this link is incomplete",
+        toast: ["This link is incomplete", "It was cut short in transit — ask for it again"],
+        body: "It was cut short in transit — chat apps and mail clients re-wrap long links. Nothing is wrong with the class itself; ask for the link again.",
+      };
+    return {
+      pill: "Link unreadable ▸",
+      kicker: "Shared class · this link can’t be read",
+      toast: ["This link didn’t work", "Check the whole link was copied"],
+      // NOT "it was cut short": we do not know that. This branch is reached by anything that is
+      // code-shaped but does not start with one of our wire versions — a stranger's typo, a
+      // pasted fragment of something else entirely — and telling that person their coach's link
+      // was truncated is a confident answer to a question nobody asked.
+      body: "This doesn’t look like one of our class links — a character may be missing or changed, or it may not be a class link at all. Check the whole link was copied, or ask for it again.",
+    };
+  }
   /** "This link arrived damaged." A code-shaped string that will not decode does not deserve
    *  silence: the recipient can act on "ask for it again" and cannot act on nothing at all.
    *  DURABLE, because the toast carrying the same sentence is overwritten by the roll in seconds. */
   _brokenBlock() {
     const b = this._sharedBroken;
+    const copy = this._brokenCopy();
     const box = document.createElement("div");
     box.setAttribute("data-shared-broken", b.error);
+    box.setAttribute("data-shared-broken-kind", b.clipped ? "clipped" : "unreadable");
     box.style.cssText = "margin:4px 6px 8px;padding:9px 10px;border-radius:10px;border:1px solid rgba(232,185,138,.35);background:rgba(46,36,24,.5);";
     box.innerHTML =
-      '<div style="font-size:11px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:#e8b98a;">Shared class · this link is incomplete</div>' +
-      '<div style="margin-top:5px;font-size:11.5px;line-height:1.5;color:#cbb69c;">' +
-      (b.clipped
-        ? "It was cut short in transit — chat apps and mail clients re-wrap long links. Nothing is wrong with the class itself; ask for the link again."
-        : "This link could not be read — a character is missing or was changed on the way here. Ask for it again.") +
-      "</div>";
+      '<div style="font-size:11px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:#e8b98a;">' + this.escHTML(copy.kicker) + '</div>' +
+      '<div style="margin-top:5px;font-size:11.5px;line-height:1.5;color:#cbb69c;">' + this.escHTML(copy.body) + "</div>";
     return box;
   }
   /** "The link is fine — this build is older." A valid code whose ordinals this build has no
@@ -3777,12 +3894,14 @@ class Component extends DCLogic {
     // the cue follows the class into its new home, so ◉ keeps working after Save
     this._setShareCue({ kind: "class", n: inc.ids.length, target: id });
     this.track("neural_share_list_saved", { share_id: inc.shareId, items: inc.ids.length });
+    this._arrivalSay = null; // "Saved" is the current truth; don't let the arrival line land on top of it
     this.setEvent("Saved", inc.ids.length + " technique" + (inc.ids.length === 1 ? "" : "s") + " added to your lists", "good");
     this._refreshListSurfaces();
     return id;
   }
   dismissSharedList() {
     if (!this._sharedIncoming) return;
+    this._arrivalSay = null; // they answered the offer; a held sentence about it is now stale
     this._markShareSeen(this._sharedIncoming.shareId, "dismissed");
     this._sharedIncoming = null;
     this._setShareCue(null); // they said no: the pill stops offering it too
@@ -3812,12 +3931,14 @@ class Component extends DCLogic {
       // message off the count-byte errors alone therefore answered most real clips with total
       // silence. Anything that got past ngListParseSharePath is code-shaped, so every failure
       // here is a link that arrived damaged; say so.
-      const clipped = NG_LIST_CLIP_ERRORS.indexOf(res.error) >= 0;
+      // WHICH sentence: the error says what failed, the classifier says whose code it was.
+      // `not_base64url` is both "a real code cut mid-quantum" (the majority of clips) and "a
+      // random pasted word", and only the leading wire-version byte tells them apart.
+      const clipped = ngListClassifyFailure(code, res.error) === "clipped";
       this._sharedBroken = { code: code, error: res.error || "unresolved", clipped: clipped, shareId: shareId };
-      // the toast is best-effort ONLY: the roll loop overwrites it within a couple of seconds
-      // (`setEvent` has one slot). The durable telling is _brokenBlock(), plus the pill cue.
-      this.setEvent(clipped ? "This link is incomplete" : "This link didn’t work",
-        clipped ? "It was cut short in transit — ask for it again" : "Ask for the link again", "bad");
+      // the toast is best-effort ONLY: the roll loop overwrites the single `setEvent` slot within
+      // a couple of seconds. The durable telling is _brokenBlock(), plus the pill cue.
+      { const t = this._brokenCopy().toast; this._announceArrival(t[0], t[1], "bad"); }
       this.track("neural_share_list_failed", { share_id: shareId, error: res.error || "unresolved", clipped: clipped });
       this.fx("list_failed", { share_id: shareId, error: res.error || "unresolved", clipped: clipped });
       this._offerShare({ kind: "broken" });
@@ -3867,6 +3988,24 @@ class Component extends DCLogic {
     this._offerShare({ kind: "class", n: res.ids.length, target: "__shared" });
   }
   /**
+   * THE ONE SENTENCE THAT EXPLAINS AN ARRIVAL — held back until it can actually be read.
+   *
+   * A share arrival is decoded at ingest, t=0: the intro is still flying the camera in, and the
+   * toast is a SINGLE slot that the roll's first landing overwrites a second or two later. On a
+   * phone that made the sentence a formality — on screen while the graph was still assembling,
+   * gone before it settled. So the arrival is announced on the FIRST LANDING instead: intro over,
+   * hand dealt, and the slot free for the length of a decision window.
+   *
+   * A timer cannot do this job: `startRoll()` calls `clearTimers()` at the end of the intro, so
+   * an `after()` scheduled at t=0 for t=5 is dropped at t=3.2 without ever firing.
+   */
+  _announceArrival(kicker, text, tone) { this._arrivalSay = { k: kicker, t: text, tone: tone }; }
+  _sayArrivalIfPending() {
+    const s = this._arrivalSay; if (!s) return;
+    this._arrivalSay = null;
+    this.setEvent(s.k, s.t, s.tone);
+  }
+  /**
    * Present an arrival. THE VIEWPORT DECIDES THE TERMINAL STATE, and it is the one design rule
    * in this whole feature that a desktop reviewer cannot see:
    *   · wide  — open the pane on Explore (it sits beside the graph; nothing is hidden, and the
@@ -3881,7 +4020,7 @@ class Component extends DCLogic {
     this._setShareCue(cue);
     if (this.isMobile()) {
       if (cue.kind === "class") {
-        this.setEvent(cue.target === "__shared" ? "Shared with you" : "Already saved",
+        this._announceArrival(cue.target === "__shared" ? "Shared with you" : "Already saved",
           cue.n + " technique" + (cue.n === 1 ? "" : "s") + " lit on the graph · tap Class to read them", "good");
       }
       this.forceUpdate();
@@ -4014,6 +4153,7 @@ class Component extends DCLogic {
     // pure camera flight — the merged pane sits on the right, the graph flies on the visible left,
     // and every caller (session rows, lesson study) keeps the pane open for the study that follows
     const n = this.nodes[idx]; if (!n) return;
+    this.releaseCamera(); // a row click asks to go somewhere ELSE: end any focus lease, don't fight it
     this.camTarget = { cx: n.x, cy: n.y, vw: Math.max(this.graphW * 0.22, this.graphR * 0.5) };
     this.lastInteract = this.now; this.flare(idx);
   }
@@ -4036,6 +4176,7 @@ class Component extends DCLogic {
   openDossier(idx, skipCam) {
     const n = this.nodes && this.nodes[idx]; if (!n) return;
     this.track("neural_dossier_opened", { node: n.t, node_type: n.ty, mode: this.isMobile() ? "sheet" : "node" });
+    this.releaseCamera(); // reading a node is a camera decision of its own
     this._dossierIdx = idx;
     if (this.isMobile()) {
       // top sheet: 70% tall, graph strip + options + win bar + drill row stay visible below
@@ -4076,6 +4217,7 @@ class Component extends DCLogic {
     if (this._dossierIdx == null || this.isMobile()) return false;
     this._dossierIdx = null;
     const cb = this._camBefore; this._camBefore = null;
+    this.releaseCamera();
     this.camTarget = cb || { cx: this.gcx, cy: this.gcy, vw: this.graphW * 0.42 };
     if (this._dossierAutoPaused) { this.setPaused(false); this._dossierAutoPaused = false; }
     this.lastInteract = this.now;
@@ -4385,6 +4527,7 @@ class Component extends DCLogic {
     this.aiSkill = this.get("difficulty", "normal") === "off" ? 0 : 0.06 + this.rng("ai-skill") * 0.14;
     this.moveCount = 0; this.maxMoves = 9 + ((this.rng("max-moves") * 4) | 0);
     this.currentPos = idx; this.focusIdx = idx; this.pulse = null; this.activeMove = null;
+    this.releaseCamera(); // "play from here" IS a camera request; the old focus lease is over
     this.camTarget = { cx: this.nodes[idx].x, cy: this.nodes[idx].y, vw: this.graphW * 0.42 };
     this.camFocus = { x: this.nodes[idx].x, y: this.nodes[idx].y };
     this.flare(idx);
@@ -5192,8 +5335,11 @@ class Component extends DCLogic {
     const pct = Math.round((isEsc ? this.escapeChance(opt) : this.moveChance(n)) * 100);
     const oddsCol = pct >= 60 ? "#7ee0a8" : pct >= 38 ? "#cbd24e" : "#e8956b";
     const pot = Math.round(this.movePotential(opt) * 100);
+    // the 44px capture target (below) needs the width the "SUCCESS RATE" caption was using: on a
+    // 150px card at 390px there is no slack, and a coloured percentage is legible without a caption
+    const rateCaption = this.isMobile() ? "Odds" : "Success rate";
     const bottomRow = '<div class="ngbotrow" style="margin-top:8px;padding-top:8px;border-top:1px solid rgba(150,170,210,.1);display:flex;align-items:center;justify-content:space-between;gap:6px;">' +
-      '<div style="font-size:8px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:#8094b4;">Success rate</div>' +
+      '<div style="font-size:8px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:#8094b4;">' + rateCaption + '</div>' +
       '<span class="ngodds" style="font-size:15px;font-weight:700;color:' + oddsCol + ';">' + pct + '%</span>' +
       '</div>';
     card.innerHTML =
@@ -5962,6 +6108,7 @@ class Component extends DCLogic {
     this.playerRole = /\bbottom\b/i.test(t) ? "bottom" : (/\btop\b/i.test(t) ? "top" : (this.rng("role") < 0.5 ? "top" : "bottom"));
     this.currentPos = posIdx; this.focusIdx = posIdx; this.pulse = null; this.activeMove = null;
     this.camFocus = { x: this.nodes[posIdx].x, y: this.nodes[posIdx].y };
+    this.releaseCamera(); // roaming/staging elsewhere ends the focus lease (the user chose a node)
     this.camTarget = { cx: this.nodes[posIdx].x, cy: this.nodes[posIdx].y, vw: this.graphW * 0.42 };
     this.prevPosVal = this.myVal(this.nodes[posIdx]);
     this._played = false;                        // nothing counts until it runs unpaused
@@ -6115,6 +6262,7 @@ class Component extends DCLogic {
     if (first) this.maybeStartCoach(); // guided first roll (frozen clock) for first-ever visitors
     this.renderLandCard(pos, "land", null); // identity → film → ONE question, above the hand
     this.renderTutorial();
+    this._sayArrivalIfPending(); // the shared-link sentence, now that there is a screen to read it on
   }
 
   decisionRemaining() { return this._decision ? Math.max(0, this._decision.remaining / 1000) : 0; }
@@ -6509,10 +6657,28 @@ class Component extends DCLogic {
   userActiveNow() { return this.now - (this.lastInteract || -99) < 4; }
   updateCamera(dt) {
     const el = this.now - this.startTime;
+    // a lease taken before there was a clock starts counting now (see holdCamera)
+    if (this._camHoldUntil === -1) this._camHoldUntil = this.now + (this._camHoldSecs || this.camHoldSec);
     let tgt = null;
     if (!this.introDone) {
       if (el < 1.6) tgt = { cx: this.gcx, cy: this.gcy, vw: this.graphW * 2.3 - this.graphW * 0.3 * (el / 1.6) };
-      else { tgt = { cx: this.gcx, cy: this.gcy, vw: this.graphW * 1.0 }; if (el > 3.2) { this.introDone = true; this.startRoll(); } }
+      else {
+        tgt = { cx: this.gcx, cy: this.gcy, vw: this.graphW * 1.0 };
+        if (el > 3.2) {
+          this.introDone = true;
+          // HAND THE INTRO'S CAMERA TO A FLIGHT THAT WAS ASKED FOR DURING IT. A share link is
+          // decoded at ingest — t=0, 3.2 seconds before this line — so its frameNodes() ran while
+          // the intro owned the camera and was simply lost. Re-assert it here, with a fresh lease,
+          // and let it fly instead of the intro's parting overview.
+          if (this.camHeld() && this._camHoldTarget) {
+            const h = this._camHoldTarget;
+            this.camTarget = { cx: h.cx, cy: h.cy, vw: h.vw };
+            this._camHoldUntil = this.now + this.camHoldSec;
+            tgt = null;
+          }
+          this.startRoll();
+        }
+      }
     } else if (this.userActiveNow()) {
       tgt = null;
     } else if (this.endZoom) {
@@ -6535,6 +6701,11 @@ class Component extends DCLogic {
     // itself keeps flying toward whatever camTarget was set (Follow/Overview must not yank the
     // camera away mid-read, but manual prezi targets still animate).
     if (this.introDone && (this.paused || this._dossierIdx != null)) tgt = null;
+    // …and a live focus lease outranks every AUTOMATIC retarget there is — follow, overview, the
+    // end-of-round zoom. This is the line the whole camera-ownership fix comes down to: without
+    // it the follow-cam re-aims camTarget at the current roll node on the very next frame and the
+    // flight the user asked for never happens. See holdCamera().
+    if (this.introDone && this.camHeld()) tgt = null;
     if (tgt) { this.camTarget.cx = tgt.cx; this.camTarget.cy = tgt.cy; this.camTarget.vw = tgt.vw; }
     // dossier flight: CENTER faster than the zoom dives (prezi-style) — otherwise at deep zoom the
     // viewport shrinks quicker than the target centers and mid-flight shows empty space instead of
@@ -6693,6 +6864,7 @@ class Component extends DCLogic {
         const sa = this.W / vw;
         this.cam.cx = wx - (sx - this.W / 2) / sa; this.cam.cy = wy - (sy - this.H / 2) / sa;
         this.camTarget.cx = this.cam.cx; this.camTarget.cy = this.cam.cy; this.camTarget.vw = vw;
+        this.releaseCamera(); // a pinch is the user taking the camera; never fight a live gesture
         this.lastInteract = this.now; return;
       }
       if (!dragging || !this.cam) { this._updateHover(e); return; }
@@ -6700,6 +6872,7 @@ class Component extends DCLogic {
       const scale = this.W / this.cam.vw;
       this.cam.cx -= (e.clientX - lx) / scale; this.cam.cy -= (e.clientY - ly) / scale;
       this.camTarget.cx = this.cam.cx; this.camTarget.cy = this.cam.cy;
+      if (moved > 6) this.releaseCamera(); // a real pan (not tap jitter) ends any focus lease
       lx = e.clientX; ly = e.clientY; this.lastInteract = this.now;
     });
     const end = (e) => {
@@ -6732,6 +6905,7 @@ class Component extends DCLogic {
       const sa = this.W / vw;
       this.cam.cx = wx - (sx - this.W / 2) / sa; this.cam.cy = wy - (sy - this.H / 2) / sa;
       this.camTarget.cx = this.cam.cx; this.camTarget.cy = this.cam.cy; this.camTarget.vw = vw;
+      this.releaseCamera(); // wheel-zoom is the desktop equivalent of a pinch
       this.lastInteract = this.now;
     }, { passive: false });
   }

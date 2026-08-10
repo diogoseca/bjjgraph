@@ -108,9 +108,9 @@
   </button>
 
   <!-- transport controls (bottom center) -->
-  <div ref="{{ transportRef }}" style="position:absolute;bottom:28px;left:50%;transform:translateX(-50%);z-index:4;pointer-events:auto;display:flex;align-items:center;gap:6px;background:rgba(24,28,48,.66);backdrop-filter:blur(8px);border:1px solid rgba(150,170,210,.16);border-radius:999px;padding:5px 7px;">
-    <button ref="{{ playPauseRef }}" onClick="{{ togglePause }}" title="Pause" style="cursor:pointer;width:34px;height:34px;border:none;border-radius:50%;background:rgba(255,255,255,.08);color:#eef1f6;display:flex;align-items:center;justify-content:center;padding:0;"></button>
-    <button onClick="{{ resetRoll }}" title="Restart roll" style="cursor:pointer;width:34px;height:34px;border:none;border-radius:50%;background:transparent;color:#aeb6c8;display:flex;align-items:center;justify-content:center;padding:0;"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12a9 9 0 1 0 3-6.7L3 8"></path><path d="M3 3v5h5"></path></svg></button>
+  <div ref="{{ transportRef }}" class="ng-transport" data-transport="1" style="position:absolute;bottom:28px;left:50%;transform:translateX(-50%);z-index:4;pointer-events:auto;display:flex;align-items:center;gap:6px;background:rgba(24,28,48,.66);backdrop-filter:blur(8px);border:1px solid rgba(150,170,210,.16);border-radius:999px;padding:5px 7px;">
+    <button ref="{{ playPauseRef }}" data-transport-play="1" aria-label="Play or pause the roll" onClick="{{ togglePause }}" title="Pause" style="cursor:pointer;width:34px;height:34px;border:none;border-radius:50%;background:rgba(255,255,255,.08);color:#eef1f6;display:flex;align-items:center;justify-content:center;padding:0;"></button>
+    <button onClick="{{ resetRoll }}" data-transport-restart="1" aria-label="Restart the roll" title="Restart roll" style="cursor:pointer;width:34px;height:34px;border:none;border-radius:50%;background:transparent;color:#aeb6c8;display:flex;align-items:center;justify-content:center;padding:0;"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12a9 9 0 1 0 3-6.7L3 8"></path><path d="M3 3v5h5"></path></svg></button>
   </div>
 
   <!-- persistent status HUD (top-left, after intro) -->

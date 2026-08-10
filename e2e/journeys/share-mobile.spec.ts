@@ -254,6 +254,61 @@ test("dismissing the drawer on a phone leaves the class lit, and re-lighting nev
   await j.expectBeat("list_relit");
 });
 
+// ══════════════════════════════════════════════════ 1b. the sentence has to be READABLE
+
+test("the sentence explaining the arrival waits until there is a settled screen to read it on @curated", async ({
+  page,
+}) => {
+  const j = journey(page);
+  await j.boot("/");
+  await j.land("Mount Top");
+  const picks = await pickClassNodes(page, 5);
+  const code = await codeFor(
+    page,
+    picks.map((p) => p.id),
+  );
+  await serveShellWithoutFunction(page);
+  await j.boot(`/l/${code}`);
+
+  const toast = () =>
+    page.evaluate(() => {
+      const el = document.querySelector(".ng-evtoast") as HTMLElement | null;
+      let opacity = 1;
+      for (let p: HTMLElement | null = el; p; p = p.parentElement)
+        opacity *= Number(getComputedStyle(p).opacity);
+      return {
+        text: (el ? el.textContent || "" : "").replace(/\s+/g, " ").trim(),
+        opacity: Math.round(opacity * 100) / 100,
+        t: Math.round(((window as any).__neural.now || 0) * 10) / 10,
+      };
+    });
+
+  // t=0 is mid-intro: the graph is still flying in and the roll's own first landing overwrites
+  // the single toast slot a second later. A sentence delivered here is a sentence nobody reads.
+  const atZero = await toast();
+  expect(
+    atZero.opacity < 0.5 || !/technique/i.test(atZero.text),
+    `the arrival sentence must not be spent during the intro (got "${atZero.text}" at ` +
+      `opacity ${atZero.opacity}, t=${atZero.t}s)`,
+  ).toBe(true);
+
+  // …and it arrives on the first landing: intro over, hand dealt, graph settled.
+  await j.advance(6000);
+  // the toast fades in over `transition:opacity .45s` — CSS transitions run on the REAL clock,
+  // and pumped sim time passes none of it, so read the computed opacity after a real beat
+  await page.waitForTimeout(600);
+  const landed = await toast();
+  expect(
+    landed.text,
+    `the recipient is told what arrived once there is a screen to read it on (t=${landed.t}s)`,
+  ).toMatch(/Shared with you[\s\S]*5 techniques/i);
+  expect(landed.opacity, "and it is visible, not merely present").toBeGreaterThan(0.5);
+
+  // it stays up long enough to be read (the roll's next event is several seconds out)
+  await j.advance(1500);
+  expect((await toast()).text, "it lingers rather than flashing").toMatch(/Shared with you/i);
+});
+
 // ══════════════════════════════════════════════════ 2. THE MAJOR: capture a TECHNIQUE, mid-roll
 
 test("a coach captures a TECHNIQUE from the live hand with a real tap at real coordinates @curated", async ({
@@ -296,8 +351,10 @@ test("a coach captures a TECHNIQUE from the live hand with a real tap at real co
   expect(box.hit, `elementFromPoint(${box.x},${box.y}) must be the + itself`).toBe("the control");
   expect(
     Math.min(box.w, box.h),
-    `a thumb target on a phone (got ${box.w}x${box.h})`,
-  ).toBeGreaterThanOrEqual(24);
+    `a thumb target on a phone (got ${box.w}x${box.h}) — the SAME 44px minimum this feature ` +
+      `applies to its own technique sheet, for the harder tap of the two: this one happens ` +
+      `mid-roll, one-handed, on a tray that is scrolling`,
+  ).toBeGreaterThanOrEqual(44);
 
   // THE + MADE EVERY CARD TALLER, and the tray is `position:absolute; bottom:84px` with no
   // height — so it grows UPWARD, straight into the landing card docked above it (bottom:206px on
@@ -410,6 +467,18 @@ test("a coach captures a TECHNIQUE from the live hand with a real tap at real co
     Math.min(sheetAdd.w, sheetAdd.h),
     `a full-width sheet has room for a real thumb target (got ${sheetAdd.w}x${sheetAdd.h})`,
   ).toBeGreaterThanOrEqual(44);
+  // …and it is LABELLED, which was claimed of it while its entire text was "+" and its only
+  // words lived in a `title` attribute — a tooltip, on a device with no hover.
+  const sheetText = (
+    (await page.locator('[data-list-add][data-list-surface="sheet"]').textContent()) || ""
+  ).replace(/\s+/g, " ").trim();
+  expect(sheetText, `the sheet's capture says what it does in words (got "${sheetText}")`).toMatch(
+    /class/i,
+  );
+  expect(
+    await page.locator('[data-list-add][data-list-surface="sheet"]').getAttribute("aria-label"),
+    "and every capture carries a real accessible name, not a title attribute",
+  ).toMatch(/class/i);
 });
 
 // ══════════════════════════════════════════════════ 3. a saved link whose list is gone
@@ -475,9 +544,78 @@ test("a saved class the recipient later DELETED is offered again, not answered w
   expect(await litIds(page)).toEqual(want);
 });
 
-// ══════════════════════════════════════════════════ 4. a clipped link SAYS SO, at every offset
+// ══════════════════════════════════════════════════ 4. a clipped link SAYS SO — and only a clip
 
-test("a link clipped anywhere in transit tells the recipient it is incomplete @curated", async ({
+/** THE CURATED REPRESENTATIVE. The exhaustive every-offset walk below boots the app 22 times in
+ *  one test; that belongs in the full suite, not in a 12-minute deployment gate. This is the same
+ *  contract in two boots: a real code cut in half says "incomplete", and a string that was never
+ *  one of our codes is NOT blamed on the coach. */
+test("a clipped link says it is incomplete; a string that was never our link says something else @curated", async ({
+  page,
+}) => {
+  const j = journey(page);
+  await j.boot("/");
+  await j.land("Mount Top");
+  const picks = await pickClassNodes(page, 5);
+  const code = await codeFor(
+    page,
+    picks.map((p) => p.id),
+  );
+  await serveShellWithoutFunction(page);
+
+  await j.boot(`/l/${code.slice(0, Math.floor(code.length / 2))}`);
+  const clip = await page.evaluate(() => {
+    const a = (window as any).__neural;
+    const beat = (a.beats || []).filter((b: any) => b.beat === "list_failed").pop();
+    const pill = document.querySelector("[data-share-open]") as HTMLElement | null;
+    return {
+      clipped: beat ? !!beat.clipped : false,
+      error: beat ? beat.error : null,
+      pillText: (pill ? pill.textContent || "" : "").replace(/\s+/g, " ").trim(),
+    };
+  });
+  expect(clip.clipped, `a real code cut in half is a clip (error ${clip.error})`).toBe(true);
+  expect(clip.pillText, "and the pill says so").toMatch(/incomplete/i);
+  const cutCue = await reach(page, "[data-share-open]");
+  await page.touchscreen.tap(cutCue.x, cutCue.y);
+  await expect(page.locator('[data-shared-broken-kind="clipped"]')).toBeVisible();
+  expect(
+    ((await page.locator("[data-shared-broken]").textContent()) || "").replace(/\s+/g, " "),
+    "…in the same words the pill used",
+  ).toMatch(/incomplete[\s\S]*cut short/i);
+
+  // NOT OUR CODE AT ALL. `not_base64url` is also what a random pasted word looks like, so the
+  // error alone cannot carry "your coach's link was cut short" — that would be a confident claim
+  // about a stranger's typo. The leading wire-version byte is what tells them apart.
+  await j.boot("/l/hello-there-friend");
+  const foreign = await page.evaluate(() => {
+    const a = (window as any).__neural;
+    const beat = (a.beats || []).filter((b: any) => b.beat === "list_failed").pop();
+    const pill = document.querySelector("[data-share-open]") as HTMLElement | null;
+    return {
+      clipped: beat ? !!beat.clipped : false,
+      error: beat ? beat.error : null,
+      pillText: (pill ? pill.textContent || "" : "").replace(/\s+/g, " ").trim(),
+    };
+  });
+  expect(
+    foreign.clipped,
+    `"hello-there-friend" fails as ${foreign.error} — the same error most real clips produce — ` +
+      `but it is not one of our codes, so it must NOT be reported as a truncated share link`,
+  ).toBe(false);
+  expect(foreign.pillText, "the pill says the link is unreadable, not incomplete").toMatch(
+    /unreadable/i,
+  );
+  const badCue = await reach(page, "[data-share-open]");
+  await page.touchscreen.tap(badCue.x, badCue.y);
+  await expect(page.locator('[data-shared-broken-kind="unreadable"]')).toBeVisible();
+  expect(
+    ((await page.locator("[data-shared-broken]").textContent()) || "").replace(/\s+/g, " "),
+    "…and the panel agrees with the pill (they used to contradict each other outright)",
+  ).toMatch(/doesn.t look like one of our class links/i);
+});
+
+test("a link clipped anywhere in transit tells the recipient it is incomplete", async ({
   page,
 }) => {
   const j = journey(page);
