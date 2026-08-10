@@ -22,7 +22,7 @@ import { journey } from "../dsl";
  *
  * COMPLIANCE, gated here rather than trusted: the affiliate disclosure is a legal claim (FTC 16
  * CFR 255, UK ASA/CAP) rendered from TWO hand-maintained copies — the app shelf and the generated
- * page — so both are compared against the single authored sentence in docs/Affiliate.md AND
+ * page — so both are compared against the single authored sentence in CLAUDE.md section 7 AND
  * asserted to render ABOVE their link, in the same block, uncollapsed, on screen. Its offline
  * twin is scripts/check_affiliate_surface.py.
  *
@@ -80,7 +80,7 @@ const payload = () => {
  *  would just add a fourth copy of a legal claim — the whole failure mode being guarded. */
 const CANONICAL_DISCLOSURE = (() => {
   const doc = readFileSync(
-    resolve(__dirname, "../../docs/Affiliate.md"),
+    resolve(__dirname, "../../CLAUDE.md"),
     "utf8",
   );
   const m = doc.match(
@@ -88,7 +88,7 @@ const CANONICAL_DISCLOSURE = (() => {
   );
   if (!m)
     throw new Error(
-      "docs/Affiliate.md lost its CANONICAL-DISCLOSURE block — that block is the source of truth for both rendered copies",
+      "CLAUDE.md lost its CANONICAL-DISCLOSURE block (section 7 — the owner deleted docs/Affiliate.md deliberately: public repo) — that block is the source of truth for both rendered copies",
     );
   return m[1].trim();
 })();
@@ -326,7 +326,7 @@ test("a system with an authored course offers a sponsored BJJ Fanatics link that
   expect(url.pathname, "and is the authored product, not a guessed one").toBe(
     new URL(products[0].url).pathname,
   );
-  // UTM convention (docs/Affiliate.md §3). The app is the DEFAULT variant, so without these
+  // UTM convention (CLAUDE.md section 7). The app is the DEFAULT variant, so without these
   // the majority of clicks arrive at the vendor indistinguishable from page clicks.
   expect(
     [...url.searchParams.entries()].filter(([k]) => k.startsWith("utm_")),
@@ -382,7 +382,7 @@ test("the app discloses the commission immediately above the link it applies to 
 }) => {
   // FTC 16 CFR 255 / UK ASA-CAP: clear, conspicuous, and CLOSE TO THE LINK. terms.md is the
   // backstop, not the disclosure — so proximity is asserted in the RENDERED DOM, and the wording
-  // is compared against its single authored home (docs/Affiliate.md) so the two hand-maintained
+  // is compared against its single authored home (CLAUDE.md section 7) so the two hand-maintained
   // copies cannot drift apart unnoticed.
   const errors = watchErrors(page);
   const data = payload();
@@ -403,7 +403,7 @@ test("the app discloses the commission immediately above the link it applies to 
   ).toBeVisible();
   expect(
     (await disc.textContent())?.trim(),
-    "wording is byte-identical to docs/Affiliate.md",
+    "wording is byte-identical to CLAUDE.md",
   ).toBe(CANONICAL_DISCLOSURE);
 
   const geometry = await page.evaluate(() => {
