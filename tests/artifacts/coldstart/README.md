@@ -26,8 +26,14 @@ as a drop-off at a step they had sailed past. Answering is a branch; being asked
 
 **A gap in the funnel always has a named cause.** If a landing can ask nothing at all — proven deck,
 no authored cards, decks still in flight, `landQuestions` off — `question_skipped` fires with a
-`reason`, and any spine mark that arrives with an earlier one missing carries `out_of_order: true`
-plus a `skipped` list. So the analysis never has to infer a drop-off from an absence.
+`reason`. So the analysis never has to infer a drop-off from an absence.
+
+**Out-of-order detection is BIDIRECTIONAL (v1.82.4).** A spine mark carries `out_of_order: true` with
+`skipped` naming earlier steps still missing, OR `late_after` naming later steps already recorded. The
+one-way version (earlier-only) called the cold path clean: with the decks 18s late, `question_shown`
+(spine 2) is backfilled AFTER `move_committed` (3) and `outcome_seen` (4), every earlier step present,
+and an ordered funnel then reads that arrival as a fresh visitor entering at step 2. Pinned by
+`coldstart-late-payload.spec.ts`.
 
 **The marks are NOT in `window.__neural.beats`.** They live in `window.__neural.csBeats`. The funnel
 is an observer, and an observer that mutates the gameplay beat stream is visible to the thing it
@@ -58,15 +64,76 @@ The brief proposed deriving `playerRole` from the node title, the way `rollFromP
 is not available: a title-derived role is a CONSTANT ("top") across all 136, so it would delete
 bottom play from the game — which is also why `rollFromPosition` and every staged/roamed roll can
 only ever deal a top hand, and why `playFrom(idx, role)` has to set the role itself. Pinned by
-`first-impression.spec.ts`'s last test.
+`first-impression.spec.ts`.
+
+**And the DECK behind the card had the same bug, one layer down (v1.82.4).** `deckRole()` read the
+side off the node title first and only fell back to `playerRole` — and since all 136 titles end in
+"Top", that fallback was dead code. So on every bottom landing the card's question and familiarity
+chip, `_posKey` (and its odds bonus), the roll-log row, `_exploredKeys` and `_maybeLessonDone` all
+described the TOP deck; 13 curriculum lessons are authored against a `|Bottom` deck key, so playing
+bottom could never complete one. There is now ONE seam, `playedRole(node)`: for the node you are
+standing on the answer is `playerRole` (the same value the hand is filtered by and the card prints);
+for any other node there is no side in play and the constant title is all there is, so side-agnostic
+lookups are unchanged. The dossier's role badge goes through it too. WIN 2 is now a PROPERTY over all
+272 (136 positions x 2 sides) rather than the one hand-picked X-Guard case.
+
+**WHAT IS STILL WRONG, AND IS NOT A COLD-START BUG — for the owner (v1.82.4).** The label and the deck
+now agree about your side. The CONTENT of the hand does not, and WIN 1 made that matter more because it
+sends newcomers to exactly the states where it is worst. `optionsFor` decides "is this move mine?" from
+the strength pair `n.s` (`myVal >= oppVal - 0.05`) — whether the move's OUTCOME favours me — while the
+authored truth about whose move it is lives in `fromRole`. Measured on the emitted `graph-data.json`:
+
+| state, side you play | role-filtered candidates | authored for the OTHER side | submissions |
+|---|---|---|---|
+| Closed Guard, TOP | 22 | 19 (`fromRole: bottom`) | 14 |
+| Half Guard, BOTTOM | 22 | 14 (`fromRole: top`) | 0 |
+| Half Guard, TOP | 15 | 6 | 6 |
+| Mount, BOTTOM | 7 | 2 | 0 |
+| Side Control, TOP | 23 | 0 | 16 |
+
+So the friendliest opening WIN 1 can give a newcomer — Closed Guard, playing top — deals a hand that
+is mostly the guard player's finishes. Side Control/top is coherent, which is why the original probe,
+which happened to look there, saw nothing. Related hole, same root: **54 of the 136 positions carry NO
+adjacent technique whose canonical origin (`fromPositionId`) is that position**, so for **109 of the
+272** position x side combos the contextual+role filter empties and `optionsFor` falls through to its
+documented unfiltered escape ("safety: if role-filtering left nothing"). That escape count is asserted
+as a non-growing ceiling in `first-impression.spec.ts`.
+
+This is game-wide, pre-existing content/graph coherence (`project_graph_coherence_invariant`), NOT a
+cold-start defect, and it is deliberately NOT fixed inside journey 3 — fixing it means deciding whether
+the graph's origin roles are wrong or whether `optionsFor` should filter on `fromRole` (in which case
+every position's authored `attempt_probability` map has to cover both sides). Reproduced and parked as
+**Q008** — `e2e/quarantine/side-named-hand-authored-for-other-side.spec.ts` + `e2e/quarantine/ISSUES.md`.
 
 ## How to regenerate
 
 The gates (deterministic, hermetic, in the push suite) — these write NOTHING:
 
 ```bash
-npx playwright test -c e2e/playwright.coldstart.config.ts coldstart-funnel coldstart-backfill coldstart-spine first-impression
+npx playwright test -c e2e/playwright.coldstart.config.ts coldstart-funnel coldstart-backfill coldstart-spine coldstart-late-payload first-impression
 ```
+
+## Making the skew visible to a test (v1.82.4)
+
+Every spec above used to serve `flashcards.json` and `curriculum.json` from an in-memory buffer,
+instantly — so the 18-second window between the first playable hand (7.0s) and the comprehension
+payloads (25.3s / 27.0s) did not exist inside the harness, and no cold-start claim could be checked
+against the case it was about. The DSL now takes a late-payload declaration:
+
+```ts
+await j.boot("/", { payloads: { "flashcards.json": { afterSim: 18 } } })  // N SIMULATED seconds
+await j.boot("/", { payloads: { "curriculum.json": { never: true } } })   // a stalled connection
+j.releasePayload("flashcards.json")   // land a held one early
+j.payloadTimeline()                   // when each was asked for and served, in both clocks
+```
+
+`afterMs` is the wall-clock variant. `never` is deliberately NOT a 404: an aborted fetch takes the
+app's `.catch()` branch, a stalled one leaves the promise pending, and only the second is what a
+mobile radio does. Patterns are globs over the request URL, so per-deck chunks work without touching
+the DSL. The rule is armed before the first navigation (the delay layer is registered LAST, above
+every serving handler, and `fallback()`s to it), which is also what removed `coldstart-spine`'s
+throwaway boot; declaring `flashcards.json` late relaxes `boot()`'s readiness gate, since the app's
+own boot does not wait for the decks either.
 
 The JSON fixtures below are TRACKED, CITED evidence, so they are refreshed **deliberately**, never
 as a side effect of a test run. v1.82.0 wrote them on every non-CI run, which left the tree dirty

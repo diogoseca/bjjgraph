@@ -21,8 +21,15 @@ import { journey } from "../dsl";
  * `onFlashcardsReady()`, `hasQ:false`.
  *
  * These are gate-quality tests: deterministic, hermetic, no throttling, no timing assertions.
- * The payload is stashed and handed back through the SAME hook production's `fetch().then()`
- * calls, because the harness cannot boot without decks (`boot()` waits for them).
+ *
+ * THE TWO FLAGSHIP CLAIMS ARE NOW MADE AGAINST A REALLY-LATE PAYLOAD. They used to stash
+ * `a.flashcards` and hand it back by calling `onFlashcardsReady()` directly, because `boot()` waited
+ * for the decks and the DSL served them instantly — so the assertion was about a hook, not about a
+ * cold start. The DSL can now hold a named payload back (`boot({ payloads: … })`, see PayloadRule),
+ * which means the app's OWN `fetch().then()` delivers the decks mid-turn and nothing is stubbed. The
+ * remaining tests keep the stash: they are about re-render mechanics (the sheet's hide, the freeze
+ * guard, the entry animation) where the arrival mechanism is beside the point.
+ * See also coldstart-late-payload.spec.ts for the skew measured end to end.
  */
 
 type Read = {
@@ -69,12 +76,30 @@ const decksArrive = (page: any) =>
     a.onFlashcardsReady();
   });
 
+/** The deck payload is genuinely in flight — held by the harness, never stubbed on the app — and
+ *  lands through the app's own `fetch().then()` when the spec lets it through. */
+const decksLandFor = async (j: any, page: any) => {
+  j.releasePayload("flashcards.json");
+  await page.waitForFunction(
+    () => !!(window as any).__neural.flashcards,
+    null,
+    {
+      timeout: 30_000,
+    },
+  );
+  await j.advance(200); // one pump so the backfilled render is on the page
+};
+
 test("cold start: the deck payload landing mid-turn gives the CURRENT state its question", async ({
   page,
 }) => {
   const j = journey(page);
-  await j.boot("/", { keepTutorial: true }); // genuinely fresh profile: no progress, no objectives
-  await withoutDecks(page);
+  // genuinely fresh profile AND a genuinely outstanding payload: no progress, no objectives, and
+  // flashcards.json still on the wire, exactly as a 4G visitor's first turn is played
+  await j.boot("/", {
+    keepTutorial: true,
+    payloads: { "flashcards.json": { never: true } },
+  });
   await j.land("Mount Top"); // first roll, coach read and dismissed — the hand is on the table
 
   const before = await read(page);
@@ -92,7 +117,7 @@ test("cold start: the deck payload landing mid-turn gives the CURRENT state its 
   ).not.toContain("question_shown");
 
   // ── the payload arrives while they are still reading the same hand ──
-  await decksArrive(page);
+  await decksLandFor(j, page);
 
   const after = await read(page);
   expect(after.pos, "still the same state — the roll has not moved on").toBe(
@@ -113,10 +138,17 @@ test("cold start: the deck payload landing mid-turn gives the CURRENT state its 
   );
   expect(shown.backfill, "the beat marks it as a late arrival").toBe(true);
 
-  // it is a REAL surface, clicked by mouse: Playwright hit-tests, so this also pins the
-  // pointer-events:auto trap (a fixed overlay that does not re-enable it is unclickable —
-  // the canvas hit-tests above it — and keyboard-only tests mask that entirely)
-  await page.locator("[data-land-mc-opt]").first().click();
+  // it is a REAL surface, clicked at MEASURED COORDINATES. `locator.click()` was used here and it
+  // does not support this claim: it scrolls the element into view first, so it passes on a card whose
+  // answers sit below the fold where the visitor actually is, and it retries through interception.
+  // `clickByMouse` refuses to scroll, refuses an off-screen centre, and names whatever
+  // `document.elementFromPoint` says is really under the cursor — which is what pins the
+  // pointer-events:auto trap (a fixed overlay that does not re-enable it is unclickable, because the
+  // canvas hit-tests above it, and a keyboard-driven assertion masks that entirely).
+  await j.clickByMouse(
+    "[data-land-mc-opt]",
+    "the backfilled question's first MC option",
+  );
   await j.expectBeat("land_q_answered");
   expect(
     (await read(page)).funnel,
@@ -216,8 +248,10 @@ test("cold start: the coached first landing carries its question, and a late pay
   // and Execute from inside it; a newcomer who obeys never reaches `finishCoach`, so the landing
   // card (and its question) was never rendered AT ALL before their first commit.
   const j = journey(page);
-  await j.boot("/", { keepTutorial: true });
-  await withoutDecks(page);
+  await j.boot("/", {
+    keepTutorial: true,
+    payloads: { "flashcards.json": { never: true } }, // really in flight, not stubbed away
+  });
   await j.land("Mount Top", { keepCoach: true }); // the coach stays up — this is the default
 
   expect(
@@ -234,7 +268,7 @@ test("cold start: the coached first landing carries its question, and a late pay
   ).toBe(false);
 
   // the deck payload lands while the coach is still up — the case v1.82.1 could not serve
-  await decksArrive(page);
+  await decksLandFor(j, page);
   const after = await read(page);
   expect(
     after.hasQ,
@@ -251,11 +285,15 @@ test("cold start: the coached first landing carries its question, and a late pay
   });
   expect(overlap, "the coach does not cover the landing card").toBe(false);
 
-  // BY MOUSE. Both are fixed overlays over a hit-testing canvas, so `pointer-events:auto` has to
-  // be live on each: a keyboard-driven assertion would pass on an unclickable surface.
-  await page.locator("[data-land-mc-opt]").first().click();
+  // BY MOUSE, at measured coordinates. Both are fixed overlays over a hit-testing canvas, so
+  // `pointer-events:auto` has to be live on each — and each has to be where the visitor can reach it
+  // WITHOUT scrolling, which is exactly the part `locator.click()` cannot say (it scrolls first).
+  await j.clickByMouse(
+    "[data-land-mc-opt]",
+    "the coached landing's first MC option",
+  );
   await j.expectBeat("land_q_answered");
-  await page.locator("[data-coach-next]").click();
+  await j.clickByMouse("[data-coach-next]", "the coach's Next button");
   expect(
     await page.evaluate(() => (window as any).__neural._coach),
     "and the coach's own button still advances it",
@@ -313,8 +351,11 @@ test("cold start: the dossier payload backfills a definition onto a question not
     "and the same options in the same order — nothing reshuffled mid-read",
   ).toEqual(before.opts);
   expect(after.shown, "so it was never re-asked").toBe(before.shown);
-  // still answerable BY MOUSE after the in-place completion
-  await page.locator("[data-land-mc-opt]").first().click();
+  // still answerable BY MOUSE, where it sits, after the in-place completion
+  await j.clickByMouse(
+    "[data-land-mc-opt]",
+    "the carried-over question's first MC option",
+  );
   await j.expectBeat("land_q_answered");
   expect(
     await page.evaluate(

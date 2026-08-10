@@ -321,6 +321,180 @@ for (const [roleDraw, side, other] of [
   });
 }
 
+/**
+ * WIN 2 AS A PROPERTY, not an anecdote.
+ *
+ * The two tests above prove the rule for X-Guard — the node the original probe happened to use, and
+ * the one whose two sides separate most cleanly. That is one hand-picked sample out of 272
+ * (136 positions x 2 sides), and a reviewer hit a real cold start where the card said "Bottom" and
+ * the surfaces under it disagreed. So this sweeps the WHOLE pool a fresh profile can draw, both
+ * sides, and checks three things that must agree about one fact:
+ *
+ *   1. the identity block names the side being played, and never the other one — anywhere in it,
+ *      including the familiarity chip's tooltip;
+ *   2. the DECK the card is built from (question, chip count, `_posKey` odds bonus, roll-log row)
+ *      is that side's deck — this is the seam `deckRole()` broke: it read the side off the node
+ *      TITLE, and all 136 collapsed hub titles end in "Top", so the fallback to `playerRole` was
+ *      dead code and every bottom landing was described by the top deck;
+ *   3. the dealt hand is the hand for that side — every option passes the app's own role filter
+ *      (`myVal >= oppVal - 0.05`, the exact test in optionsFor) under the side named, WHENEVER that
+ *      filter produced a hand at all.
+ *
+ * That last qualifier is not a hedge, it is a measured pre-existing hole and the test reports it:
+ * `optionsFor` has a documented escape — "safety: if role-filtering left nothing, fall back to the
+ * best-for-me handful" — which deals WITHOUT the role filter. It fires for 109 of the 272 combos,
+ * because 54 of the 136 positions have no adjacent technique whose canonical origin
+ * (`fromPositionId`) is that position, so the contextual filter empties the candidate set for both
+ * sides. That is graph-data coherence, game-wide, and out of this journey's scope (same family as the
+ * Closed Guard finding in tests/artifacts/coldstart/README.md and e2e/quarantine Q008); the count is
+ * asserted as a CEILING so it can never quietly grow, and the role property is asserted strictly
+ * everywhere the app actually chose a side's hand.
+ *
+ * `enterLand(false)` is used as the driving choke: it is the function that deals the hand and mounts
+ * the card, in that order, and it is the only way to walk 272 landings in one test. The two tests
+ * above already walk the full startRoll -> intro -> coach path end to end.
+ */
+test("WIN 2 as a property: every first-roll state, both sides, agrees about which side you are on", async ({
+  page,
+}) => {
+  const j = journey(page);
+  await j.boot("/", { keepTutorial: true });
+
+  const audit = await page.evaluate(() => {
+    const a = (window as any).__neural;
+    const pool = a.nodes.filter(
+      (nd: any) =>
+        nd.ty === "positions" &&
+        a.adj[nd.idx].some((k: number) => a.nodes[k].ty !== "positions"),
+    );
+    const rows: any[] = [];
+    for (const nd of pool) {
+      for (const role of ["top", "bottom"]) {
+        a.playerRole = role;
+        a.currentPos = nd.idx;
+        a.rollLog = []; // no "from X" tail: this is a first landing
+        a._landQ = null;
+        a.enterLand(false);
+        const idEl = document.querySelector("[data-land-id]");
+        const chip = document.querySelector("[data-land-count]");
+        // everything the identity block says, tooltip included
+        const idText = [
+          idEl ? (idEl as HTMLElement).innerText : "",
+          chip ? chip.getAttribute("title") || "" : "",
+        ]
+          .join(" ")
+          .replace(/\s+/g, " ")
+          .trim();
+        const other = role === "top" ? "bottom" : "top";
+        const hand = (a.optionIdxs || []).map((i: number) => a.nodes[i]);
+        // did optionsFor have a role-filtered hand to deal, or did it take its documented
+        // no-candidates escape? Recomputed with the app's own two predicates, so this is the
+        // branch the app took, not a guess about it.
+        const hereId = nd.posId || null;
+        const seenT = new Set<string>();
+        let filtered = 0;
+        for (const k of a.adj[nd.idx]) {
+          const n = a.nodes[k];
+          if (n.ty === "positions" || seenT.has(n.t)) continue;
+          seenT.add(n.t);
+          if (a.myVal(n) < a.oppVal(n) - 0.05) continue;
+          if (n.fromPositionId && hereId && n.fromPositionId !== hereId)
+            continue;
+          filtered++;
+        }
+        rows.push({
+          node: nd.t,
+          role,
+          idText,
+          namesOther: new RegExp(`\\b${other}\\b`, "i").test(idText),
+          namesOwn: new RegExp(`\\b${role}\\b`, "i").test(idText),
+          deckKey: a.deckKeyFor(nd).key,
+          posKey: a._posKey,
+          wantKey:
+            a.posFamily(nd.t) + "|" + (role === "bottom" ? "Bottom" : "Top"),
+          hand: hand.map((n: any) => n.t),
+          roleFiltered: filtered > 0,
+          // the key->node index is built ONCE and cached, so it must not depend on which side
+          // happens to be in play when it is first built: a collapsed position answers to BOTH of
+          // its role keys. (Before the fix it answered only to "|Top", so the 13 curriculum lessons
+          // authored against a "|Bottom" deck key could not resolve to a node at all.)
+          keyResolves:
+            a.nodeForKey(
+              a.posFamily(nd.t) + "|" + (role === "bottom" ? "Bottom" : "Top"),
+            ) === nd.idx,
+          // the app's OWN membership test, evaluated under the side the card names
+          wrongSide: hand
+            .filter((n: any) => a.myVal(n) < a.oppVal(n) - 0.05)
+            .map((n: any) => n.t),
+        });
+      }
+    }
+    return rows;
+  });
+
+  const brief = (rs: any[]) =>
+    JSON.stringify(
+      rs.slice(0, 6).map((r) => ({
+        node: r.node,
+        role: r.role,
+        idText: r.idText,
+        deckKey: r.deckKey,
+        wantKey: r.wantKey,
+        wrongSide: r.wrongSide,
+      })),
+      null,
+      1,
+    );
+
+  expect(audit.length, "the whole pool, both sides").toBe(272);
+
+  const contradicts = audit.filter((r) => r.namesOther);
+  expect(
+    contradicts.length,
+    `${contradicts.length}/272 identity blocks name the side NOT being played: ${brief(contradicts)}`,
+  ).toBe(0);
+  const silent = audit.filter((r) => !r.namesOwn);
+  expect(
+    silent.length,
+    `${silent.length}/272 identity blocks never say which side you are on: ${brief(silent)}`,
+  ).toBe(0);
+
+  const wrongDeck = audit.filter((r) => r.deckKey !== r.wantKey);
+  expect(
+    wrongDeck.length,
+    `${wrongDeck.length}/272 landings are described by the OTHER side's deck: ${brief(wrongDeck)}`,
+  ).toBe(0);
+  const wrongPosKey = audit.filter((r) => r.posKey !== r.wantKey);
+  expect(
+    wrongPosKey.length,
+    `${wrongPosKey.length}/272 drill panels opened the other side's deck: ${brief(wrongPosKey)}`,
+  ).toBe(0);
+  const unresolvable = audit.filter((r) => !r.keyResolves);
+  expect(
+    unresolvable.length,
+    `${unresolvable.length}/272 deck keys do not resolve back to their own node: ${brief(unresolvable)}`,
+  ).toBe(0);
+
+  // where the app DID choose a side's hand, every card in it belongs to that side
+  const chose = audit.filter((r) => r.roleFiltered);
+  const wrongHand = chose.filter((r) => r.wrongSide.length);
+  expect(
+    wrongHand.length,
+    `${wrongHand.length}/${chose.length} role-filtered hands contain a move dealt to the OTHER side: ${brief(wrongHand)}`,
+  ).toBe(0);
+
+  // ...and the pre-existing hole is REPORTED, with a ceiling, never hidden. See the header: these
+  // combos deal from optionsFor's no-candidates escape, which has no role filter at all.
+  const escaped = audit.filter((r) => !r.roleFiltered);
+  expect(
+    escaped.length,
+    `${escaped.length}/272 combos have NO role-filtered candidate at all and deal from optionsFor's ` +
+      `unfiltered escape (54 of 136 positions carry no technique whose canonical origin is that ` +
+      `position). Graph-data coherence, out of scope here — but this ceiling must not grow. ` +
+      `Examples: ${JSON.stringify(escaped.slice(0, 5).map((r) => r.node + "/" + r.role))}`,
+  ).toBeLessThanOrEqual(109);
+});
+
 test("the role cannot be read off the node title — every pool entry is titled Top", async ({
   page,
 }) => {

@@ -183,19 +183,17 @@ test("cold start: leaving while the loader is still up is recorded", async ({
   // funnel built to find it. Here the graph payload is held open so the app is mid-boot, exactly
   // as a slow link leaves it, and the tab goes away.
   const j = journey(page);
-  // One throwaway boot installs the DSL's hermetic routes. Playwright matches routes LAST-FIRST
-  // and the DSL registers its graph-data handler exactly once, so a handler added now takes
-  // precedence on the NEXT navigation — which is the only way to hold the ingest open at all.
-  await j.boot("/", { keepTutorial: true });
-  let release: () => void = () => {};
-  const held = new Promise<void>((res) => (release = res));
-  await page.route("**/graph-data.json", async (r) => {
-    await held; // the ingest never completes while the visitor is looking at a spinner
-    await r.fallback();
+  // The graph payload never answers, so the app sits mid-boot exactly as a stalled link leaves it.
+  // This used to need a THROWAWAY BOOT: the DSL registered its graph-data handler once, Playwright
+  // matches routes last-first, so the only way to get above it was to let one boot install the
+  // routes and register a competing handler afterwards. The DSL now owns a delay layer above every
+  // handler (see PayloadRule), so the FIRST navigation can already be held. `unready` returns as
+  // soon as the app instance exists — boot()'s readiness gate is downstream of everything here.
+  await j.boot("/", {
+    keepTutorial: true,
+    unready: true,
+    payloads: { "graph-data.json": { never: true } },
   });
-  // boot() wipes storage, so this second visitor is cold again. `unready` returns as soon as the
-  // app instance exists: boot()'s readiness gate is downstream of everything under test here.
-  await j.boot("/", { keepTutorial: true, unready: true });
   expect(
     await page.evaluate(() => !!(window as any).__neural?._cs),
     "the funnel is armed while the app is still booting",
@@ -231,7 +229,14 @@ test("cold start: leaving while the loader is still up is recorded", async ({
     bail.furthest_step,
     "who got nowhere at all, and the event says exactly that",
   ).toBe("none");
-  release();
+  // the graph payload was still in flight the whole time — the harness says so, not the narrative
+  const held = j.payloadTimeline().filter((p) => /graph-data/.test(p.url));
+  expect(held.length, "the graph payload was requested").toBeGreaterThan(0);
+  expect(
+    held[held.length - 1].releasedAtMs,
+    "and never answered while the visitor was staring at the loader",
+  ).toBe(null);
+  j.releasePayload("graph-data.json"); // let the boot finish so teardown is clean
 });
 
 test("cold start: the abandon listeners are armed before the graph is ingested", async ({

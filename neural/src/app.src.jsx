@@ -839,11 +839,29 @@ class Component extends DCLogic {
       card.addEventListener("click", () => this.expandClip(card, clips[+card.getAttribute("data-i")]));
     });
   }
+  // ── WHICH SIDE IS IN PLAY AT THIS NODE ── the ONE seam every side-aware read goes through.
+  //
+  // The visual layer collapses each position into a single hub node, and graph-data.json titles all
+  // 136 of them "… Top". So a title suffix is a RENDERING ARTIFACT, not evidence of a side, and the
+  // title-first derivation this replaces was a constant: it returned "Top" for every position node
+  // in the graph, INCLUDING the one you are standing on while playing bottom. The `playerRole`
+  // fallback beneath it could never run. Everything keyed off it therefore described the other
+  // side's deck on half of all rolls — the landing card's question and familiarity chip, `_posKey`
+  // and its odds bonus, the roll-log row, `_exploredKeys`, and `_maybeLessonDone` (13 curriculum
+  // lessons are authored against a `|Bottom` deck key, so playing bottom could never complete one).
+  //
+  // The truth for the node you are STANDING ON is `playerRole` — the same value the option hand is
+  // filtered by (`myVal`/`oppVal` via `roleIdx`) and the same value the identity card prints. For any
+  // OTHER node there is no side in play, and the (constant) title is all there is; those reads are
+  // side-agnostic lookups — content fallback, the key→node index — and are left exactly as they were.
+  playedRole(node) {
+    if (!node || node.ty !== "positions") return null;
+    if (this.currentPos != null && node.idx === this.currentPos && this.playerRole) return this.roleLabel();
+    const rm = (node.t || "").match(/\s+(Top|Bottom)\s*$/i);
+    return rm ? (rm[1][0].toUpperCase() + rm[1].slice(1).toLowerCase()) : this.roleLabel();
+  }
   deckRole(node) {
-    if (node.ty === "positions") {
-      const rm = (node.t || "").match(/\s+(Top|Bottom)\s*$/i);
-      return rm ? (rm[1][0].toUpperCase() + rm[1].slice(1).toLowerCase()) : (this.playerRole === "bottom" ? "Bottom" : "Top");
-    }
+    if (node.ty === "positions") return this.playedRole(node);
     return "Attacker"; // you drilling a move = learning to execute it
   }
   deckKeyFor(node) {
@@ -1433,16 +1451,25 @@ class Component extends DCLogic {
     // with every earlier spine step already recorded. When it does not, say so IN THE EVENT rather
     // than let the analysis infer a drop-off that never happened — this is the exact failure that
     // made the v1.82.0 spine unusable, and stamping it here means it can never recur silently.
-    let missing = null;
-    if (spine > 0) {
-      const gaps = [];
+    // BOTH DIRECTIONS. Scanning only EARLIER steps for absence catches a step that arrives too LATE
+    // and misses one that arrives too EARLY — and the cold path produces exactly the second shape:
+    // when the deck payload lands mid-turn, `question_shown` (spine 2) is backfilled with
+    // `move_committed` (3) and `outcome_seen` (4) ALREADY recorded. Every earlier step is present, so
+    // a one-way check calls that clean while an ordered funnel built on it silently reads a
+    // 2-after-4 arrival as a fresh visitor entering at step 2. `skipped` names earlier steps still
+    // missing, `late_after` names later steps already recorded; either sets `out_of_order`.
+    let missing = null, ahead = null;
+    if (spine >= 0) {
+      const gaps = [], past = [];
       for (let i = 0; i < spine; i++) if (cs.at[sp[i]] == null) gaps.push(sp[i]);
+      for (let i = spine + 1; i < sp.length; i++) if (cs.at[sp[i]] != null) past.push(sp[i]);
       if (gaps.length) missing = gaps.join(",");
+      if (past.length) ahead = past.join(",");
     }
     const props = Object.assign({
       step: step, step_index: spine, spine: spine >= 0, cold: !!cs.cold,
       ms_since_nav: ms, ms_since_prev: ms - cs.last, coach_open: !!this._coach,
-      out_of_order: !!missing, skipped: missing,
+      out_of_order: !!(missing || ahead), skipped: missing, late_after: ahead,
     }, extra || {});
     if (spine >= 0) { cs.last = ms; cs.reported = false; } // re-arm the abandon report
     (this.csBeats = this.csBeats || []).push(Object.assign({ t: this.now || 0, beat: "funnel" }, props));
@@ -2250,10 +2277,21 @@ class Component extends DCLogic {
     this.camTarget = { cx: (minx + maxx) / 2, cy: (miny + maxy) / 2, vw: Math.max(this.graphW * 0.4, (maxx - minx) * 2.2) };
     this.lastInteract = 0; // let camera move
   }
+  // deck key -> the node that key belongs to. Built ONCE and cached, so it must not depend on live
+  // state: a position collapses to a single node that answers to BOTH of its role keys, and both are
+  // registered here rather than whichever side `deckKeyFor` reports for the state currently in play.
+  // (Before v1.82.4 that reported "Top" for every position, so a `|Bottom` lesson key — 13 of them in
+  // the curriculum — could never resolve to a node at all.)
   nodeForKey(key) {
     if (!this._keyNode) {
       this._keyNode = new Map();
-      for (const n of this.nodes) { const k = this.deckKeyFor(n).key; if (!this._keyNode.has(k)) this._keyNode.set(k, n.idx); }
+      const put = (k, i) => { if (k && !this._keyNode.has(k)) this._keyNode.set(k, i); };
+      for (const n of this.nodes) {
+        if (n.ty === "positions") {
+          const fam = this.posFamily(n.t);
+          put(fam + "|Top", n.idx); put(fam + "|Bottom", n.idx);
+        } else put(this.deckKeyFor(n).key, n.idx);
+      }
     }
     return this._keyNode.has(key) ? this._keyNode.get(key) : -1;
   }
@@ -3516,7 +3554,9 @@ class Component extends DCLogic {
     }
     const persp = rc ? rc.perspectives.attacker : null;
     const isCur = n.idx === this.currentPos;
-    let role = n.ty === "positions" ? (this.roleLabelOf(n) === "bottom" ? "Bottom" : "Top") : null;
+    // the dossier is the landing card's `More ▸`, so it must not name the other side either: for the
+    // state in play `playedRole` is the true side, and for anything else the title is all there is
+    let role = this.playedRole(n);
     // authored copy is side-specific; if it came from the other side, don't contradict it with a badge
     const lm = legacyKey.match(/\|(Top|Bottom)$/i);
     if (role && lm && lm[1].toLowerCase() !== role.toLowerCase()) role = null;
@@ -5390,18 +5430,21 @@ class Component extends DCLogic {
   // the twenty most-travelled, while ~17 states stay genuinely likely. `floor` mixes uniform back
   // in so all 136 keep a real chance: the draw is BIASED, never NARROWED, and never repetitive.
   get START_BIAS() { return { gamma: 1.5, floor: 0.02 }; }
+  // Returns {idx, weighted} — `weighted:false` means the traffic table was not there yet and this is
+  // the historical uniform pick. The CALLER needs to know, because a degraded draw must not be
+  // allowed to spend the once-per-visitor first impression (see startRoll).
   _weightedStart(pool, u) {
     const tw = this.startPosTraffic(), B = this.START_BIAS;
     const p = new Array(pool.length); let total = 0;
     for (let i = 0; i < pool.length; i++) { const v = Math.pow(Math.max(0, tw[pool[i]] || 0), B.gamma); p[i] = v; total += v; }
-    if (!(total > 0)) return pool[(u * pool.length) | 0]; // no curriculum payload → historical uniform draw
+    if (!(total > 0)) return { idx: pool[(u * pool.length) | 0], weighted: false }; // no curriculum payload → historical uniform draw
     const flat = B.floor / pool.length;
     let acc = 0;
     for (let i = 0; i < pool.length; i++) {
       acc += (1 - B.floor) * (p[i] / total) + flat;
-      if (u < acc) return pool[i];
+      if (u < acc) return { idx: pool[i], weighted: true };
     }
-    return pool[pool.length - 1]; // float slack at u→1
+    return { idx: pool[pool.length - 1], weighted: true }; // float slack at u→1
   }
   startRoll() {
     this.clearTimers(); this.clearOptions(); this.clearEngagement();
@@ -5433,14 +5476,26 @@ class Component extends DCLogic {
     // positions carry a deck — so the opening was drawn uniformly and ~95% of first impressions
     // opened on Gogoplata Control / Estima Lock Control / Hindulotine / Shoulder of Justice, under
     // a running clock, with the heavy content payloads still ~20s out. ONE draw off the SAME rng
-    // tag, so rigged replays are structurally untouched; only a fresh profile takes this branch,
-    // and it takes it exactly once (the marker below, plus _firstRollDone within the session).
+    // tag, so rigged replays are structurally untouched; only a fresh profile takes this branch, and
+    // it takes it once a weighted draw has actually been GIVEN (see the marker note below).
     if (!this._firstRollDone) {
-      this._firstRollDone = true;
       const u = this.rng("start-pos");
       const fresh = !this._returningVisitor();
-      this.currentPos = fresh ? this._weightedStart(positions, u) : positions[(u * positions.length) | 0];
-      if (fresh) { try { localStorage.setItem("bjj-neural-firstroll", "1"); } catch (e) { /* private mode */ } }
+      let weighted = false;
+      if (fresh) { const d = this._weightedStart(positions, u); this.currentPos = d.idx; weighted = d.weighted; }
+      else this.currentPos = positions[(u * positions.length) | 0];
+      // ── A FIRST IMPRESSION IS ONLY SPENT WHEN IT WAS ACTUALLY GIVEN ──
+      // curriculum.json is a separate background fetch, so on the slow connection this bias exists FOR
+      // it can still be in flight at this very draw, and `_weightedStart` then correctly degrades to
+      // the historical uniform pick. Marking the visitor as having had their first roll THERE latched
+      // that degradation for ever: the newcomer with the worst link — the one the bias helps most —
+      // would get the old ~95%-unnameable opening on this visit and on every visit after it, because
+      // `bjj-neural-firstroll` makes them a returning player. So the marker is written only when a
+      // weighted draw really happened, and the branch stays ARMED in-session otherwise: the next roll
+      // after curriculum.json lands takes the biased draw. Either way exactly ONE `start-pos` value is
+      // consumed, so rigged replays are structurally identical.
+      this._firstRollDone = !fresh || weighted;
+      if (fresh && weighted) { try { localStorage.setItem("bjj-neural-firstroll", "1"); } catch (e) { /* private mode */ } }
     } else {
       this.currentPos = positions[(this.rng("start-pos") * positions.length) | 0];
     }

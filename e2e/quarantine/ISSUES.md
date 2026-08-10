@@ -256,3 +256,29 @@ Format per entry:
   green, letter-half included): guard the [1-9] opener branch on `!this._checkpoint`, or
   park/clear `_optPick`/`_optList` for the quiz's duration (Q002's notes already suggested
   this shape), or guard `expandOption` itself.
+
+## Q008 — The card names your side; most of the hand under it is AUTHORED for the other side   [bug] [status: Open]
+- Spec: e2e/quarantine/side-named-hand-authored-for-other-side.spec.ts
+- Found: journey 3 pass 3 (cold-start review), on the WIN 1 first-impression path
+- Expected: the identity card says which side you are playing, and every option dealt beneath it is a
+  move that side actually performs.
+- Actual: the LABEL half is fixed (v1.82.4: `playedRole` makes the card, the deck key, `_posKey`, the
+  roll-log row and the dossier badge agree on the played side). The hand's CONTENT still does not.
+  `optionsFor` decides "is this move mine?" from the strength pair `n.s` (`myVal >= oppVal - 0.05`) —
+  i.e. whether the move's OUTCOME favours me — while the authored truth about whose move it is lives
+  in `fromRole`. Measured on the emitted graph-data.json:
+    * Half Guard, playing BOTTOM  — 22 role-filtered candidates, 14 authored `fromRole: "top"`
+    * Closed Guard, playing TOP   — 22 role-filtered candidates, 19 authored `fromRole: "bottom"`,
+      14 of those submissions (so the friendliest opening deals a hand of the other side's finishes)
+    * Side Control, playing TOP   — 23 candidates, 23 authored top: coherent, which is why this node
+      is the one the original probe happened to look at
+- Notes: game-wide and pre-existing (`project_graph_coherence_invariant`), NOT a cold-start defect —
+  parked here on purpose so journey 3 does not silently redefine what "the hand for a side" means.
+  It matters more now only because WIN 1 sends newcomers to Closed Guard / Half Guard / Side Control
+  most often. Related hole, same root: 54 of the 136 positions carry NO adjacent technique whose
+  canonical origin (`fromPositionId`) is that position, so for 109 of the 272 position x side combos
+  the contextual+role filter empties and `optionsFor` deals from its documented unfiltered escape
+  ("safety: if role-filtering left nothing"). That escape count is asserted as a non-growing ceiling
+  in e2e/journeys/first-impression.spec.ts. Fixing this is a content/`fromRole` question for the
+  owner: either the graph's origin roles are wrong, or `optionsFor` should filter on `fromRole` and
+  the authored `attempt_probability` maps must then cover both sides of every position.
