@@ -306,21 +306,32 @@ export class Journey {
     await this.hydrate(keys);
     return this;
   }
-  /** The live LANDING question's MC truth, once its block has mounted.
-   *  The landing card renders identity + film immediately and docks its question when the deck
-   *  AND its distractor pool are resident (v1.80.4) — which on a cold state is one fetch later.
+  /**
+   * Wait until the LANDING QUESTION HAS STOPPED MOVING — mounted, or definitively not coming.
+   *
+   * Since the payload was chunked (v1.80.4) the landing card paints identity + film immediately
+   * and docks its question one fetch later (the deck chunk, then its distractor pool). A spec
+   * that reads `__neural._mc` / `[data-land-q]` the instant a hand exists is racing the network,
+   * and the race is SILENT: it reads null and goes on to assert something else.
+   *
+   * The app publishes the signal — `landSettled()` chases the whole chain (v1.80.5) — so the wait
+   * lives HERE, in the choke points every journey already goes through (`land`, `nextHand`),
+   * instead of being sprinkled through 140 spec files. This replaced a 20s `waitForFunction` poll
+   * for `_mc`, which could not tell "not here yet" from "this state asks nothing" and so paid the
+   * full timeout on every proven deck.
+   */
+  async landSettled() {
+    await this.page.evaluate(async () => {
+      const a = (window as W).__neural;
+      if (a && typeof a.landSettled === "function") await a.landSettled();
+    });
+    return this;
+  }
+
+  /** The live LANDING question's MC truth, once its block has settled (see landSettled).
    *  Returns null if this state asks nothing (a fully proven deck legitimately does). */
-  async landQuestion(timeout = 20_000): Promise<{ correct: number; n: number } | null> {
-    await this.page
-      .waitForFunction(
-        () => {
-          const m = (window as W).__neural._mc;
-          return !!(m && m.surface === "land");
-        },
-        null,
-        { timeout },
-      )
-      .catch(() => {});
+  async landQuestion(): Promise<{ correct: number; n: number } | null> {
+    await this.landSettled();
     return this.page.evaluate(() => {
       const m = (window as W).__neural._mc;
       return m && m.surface === "land" ? { correct: m.correct, n: m.n } : null;
@@ -378,6 +389,9 @@ export class Journey {
     }
     if (!opts.keepCoach)
       await this.page.evaluate(() => (window as W).__neural?.dismissCoach?.());
+    // the coach hands the landing card over on dismissal, so settle AFTER it: from here on, the
+    // landing question either exists or this state does not ask one
+    await this.landQuestion();
     return this;
   }
 
@@ -397,7 +411,7 @@ export class Journey {
       const n = await this.page.evaluate(
         () => (((window as W).__neural || {}).optionIdxs || []).length,
       );
-      if (dealt > dealt0 && n > 0) return this;
+      if (dealt > dealt0 && n > 0) return this.landQuestion();
     }
     throw new Error(`next hand not dealt within ${capMs}ms of sim time`);
   }

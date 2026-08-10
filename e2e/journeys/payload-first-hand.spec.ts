@@ -25,6 +25,14 @@ import { resolve } from "node:path"
  * deliberate, separately justified commit. The companion browserless ratchet is
  * scripts/check_payload_budget.py ("neural eager set"), which measures the same weight off the
  * built tree so CI gates without a browser.
+ *
+ * PINNED, NOT RIGGED (v1.80.5). Everything about the DELIVERY stays real — real network, real
+ * chunk fetches, no test mode, no fulfilled buffers. The only thing pinned is the app's first
+ * random draws, via the production pre-boot rig hook (`window.__NEURAL_RIG`, see boot()): the
+ * starting position decides which per-node chunks the boot pulls, so an unpinned draw made this
+ * gate a dice roll against a ~4% margin — it would have flaked long before it caught a
+ * regression. With the draw pinned the measurement repeats to the byte, and the margin in
+ * budget_neural.json covers build-to-build content drift instead of paying for run-to-run noise.
  */
 
 const BUDGET = resolve(__dirname, "../../tests/artifacts/budget_neural.json")
@@ -42,6 +50,17 @@ test("@curated a first-time visitor reaches a playable hand inside the payload b
   const requested = new Set<string>()
   const bodies: Promise<Rec | null>[] = []
   let frozen = false
+
+  // pin the first roll's draws (see the header): index 0 of the deck-bearing positions, top,
+  // fixed clock and opponent skill. Nothing about the network is faked by this.
+  await page.addInitScript(() => {
+    ;(window as any).__NEURAL_RIG = {
+      "start-pos": [0],
+      role: [0],
+      "ai-skill": [0.5],
+      "max-moves": [0.5],
+    }
+  })
 
   // hermetic, and honest about it: only localhost bytes are counted, so blocking third parties
   // (PostHog/Supabase/Google Fonts are baked into CI builds) cannot flatter the number. Fonts
@@ -73,6 +92,12 @@ test("@curated a first-time visitor reaches a playable hand inside the payload b
   // presence IS "playable" — the user can now make a move.
   await page.locator("[data-tech]").first().waitFor({ state: "attached", timeout: 180_000 })
   frozen = true
+  // which state the pinned draw landed on — recorded so a moved number can be explained rather
+  // than guessed at (a content pass that reorders the position list changes the pinned start)
+  const startPosition = await page.evaluate(() => {
+    const a = (window as any).__neural
+    return a && a.nodes && a.nodes[a.currentPos] ? a.nodes[a.currentPos].t : null
+  })
 
   // let the in-flight bodies (counted above) resolve before we add them up
   await page.waitForTimeout(2_000)
@@ -119,6 +144,7 @@ test("@curated a first-time visitor reaches a playable hand inside the payload b
         request_count: rows.length,
         first_hand_raw_bytes: raw,
         first_hand_gzip_bytes: gzip,
+        start_position: startPosition,
         charged_from_disk: estimated,
         heaviest: rows.slice(0, 15).map((r) => ({ path: path(r.url), raw: r.raw, gzip: r.gzip })),
       },
@@ -132,7 +158,7 @@ test("@curated a first-time visitor reaches a playable hand inside the payload b
     .map((r) => `${path(r.url)} ${r.raw.toLocaleString()}B`)
     .join(", ")
   console.log(
-    `[first-hand] ${rows.length} requests · raw ${raw.toLocaleString()} B · gzip ${gzip.toLocaleString()} B\n` +
+    `[first-hand] start "${startPosition}" · ${rows.length} requests · raw ${raw.toLocaleString()} B · gzip ${gzip.toLocaleString()} B\n` +
       `[first-hand] heaviest: ${heaviest}` +
       (estimated.length ? `\n[first-hand] charged from disk: ${estimated.join(", ")}` : ""),
   )

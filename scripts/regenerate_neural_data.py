@@ -15,8 +15,11 @@ generated+committed static asset):
   - flashcards/<slug>.json : one file PER DECK ({cat,role,cards:[{q,a}]}) — the full
     calibrated decks from graph.json, chunked so the app fetches only the deck it opens
     (the monolith was 13.5 MB; each deck is a few KB).
-  - flashcards/_index.json : manifest {_meta, decks:{"<Name>|<Role>":{file,cat,role,n}}}
-    resolving each deck key -> its chunk file + card count (the "what decks exist" list).
+  - flashcards/_index.json : manifest {_meta, decks:{"<Name>|<Role>": [cat, n]}, shared}
+    resolving each deck key -> its card count (the "what decks exist" list; the chunk address is
+    derived from the key). `shared` maps fnv1a32(question) -> the deck indexes carrying that
+    question, for the 451 questions the blended hierarchy duplicates across decks, so the app's
+    cross-deck credit does not depend on which chunks have landed.
   - systems.json : the 47 expert Systems as the app's library + graph-highlight source
     ({_meta, systems:[{id,name,url,summary,type,difficulty,nodes,unresolved,products}]}).
     `nodes` are graph-data.json node ids, so selecting a System can light up exactly the
@@ -296,6 +299,24 @@ def write_flashcards(decks: dict, out_dir: Path) -> tuple[int, int]:
             json.dumps(payload, ensure_ascii=False, separators=(",", ":")))
     collisions = sum(len(v) - 1 for v in buckets.values())
 
+    # SHARED-QUESTION INDEX. The blended hierarchy duplicates one position/family card into every
+    # variant deck, and answering it anywhere credits all of them (noteCardDone). The app used to
+    # discover that by scanning the decks it happened to have RESIDENT, so the same answer paid
+    # different credit depending on load order. The corpus knows the answer, so ship it: only
+    # questions carried by 2+ decks are listed, addressed by fnv1a32(question) -> deck INDEXES
+    # into the ordered `decks` map below (451 of 21,334 questions — ~10.6KB raw / 4.3KB gzip,
+    # which is what makes it affordable on the eager path).
+    order = {k: i for i, k in enumerate(sorted(manifest))}
+    q_decks: dict[str, list[int]] = {}
+    for key in sorted(decks):
+        for card in decks[key]["cards"]:
+            q_decks.setdefault(card["q"], []).append(order[key])
+    shared: dict[str, list[int]] = {}
+    for q, idxs in q_decks.items():
+        if len(idxs) > 1:
+            shared.setdefault(fnv1a32(q), []).extend(idxs)
+    shared = {h: sorted(set(v)) for h, v in shared.items()}
+
     (fc_dir / "_index.json").write_text(json.dumps({
         "_meta": {
             "status": "generated",
@@ -307,8 +328,12 @@ def write_flashcards(decks: dict, out_dir: Path) -> tuple[int, int]:
             "keyFormat": "<Name>|<Role>  (Top|Bottom for positions, Attacker|Defender for techniques)",
             "entry": "[cat, n] — category, card count",
             "cardShape": {"q": "question", "a": "answer"},
+            "shared": "fnv1a32(question) -> indexes into `decks` (in this file's order) for every "
+                      "question carried by 2+ decks — the blended hierarchy's shared cards. Makes "
+                      "cross-deck credit residency-independent (see noteCardDone).",
         },
         "decks": {k: manifest[k] for k in sorted(manifest)},
+        "shared": {h: shared[h] for h in sorted(shared)},
     }, ensure_ascii=False, separators=(",", ":")))
     if collisions:
         print(f"flashcards/: {collisions} deck(s) sharing a hashed chunk file")

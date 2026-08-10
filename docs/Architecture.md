@@ -294,30 +294,36 @@ const config: QuartzConfig = {
 ### Layout Zones
 
 ```typescript
-// quartz.layout.ts
+// quartz.layout.ts — post-excision (v1.80.0). The page is SEO/crawler surface; the app is Neural.
+export const sharedPageComponents: SharedLayout = {
+  head: Component.Head(),
+  header: [],
+  afterBody: [
+    Component.AuthUI(), // load-bearing: installs the window.__bjjAuth seam
+    Component.Search(),
+    Component.NeuralMount(), // boots the Neural app bundle
+    Component.SnapshotButton(), // localhost-only dev camera
+  ],
+  footer: Component.Footer({ links: {} }),
+};
+
 export const defaultContentPageLayout: PageLayout = {
   beforeBody: [
     ...breadcrumbs, // gated on SHOW_BREADCRUMBS
     Component.ArticleTitle(),
     Component.ContentMeta({ showReadingTime: false }),
-    Component.VictoryDisplay(),
-    Component.TreeExplorer(),
-    Component.MoveCards(),
-    Component.OutcomeCards(),
-    Component.SystemProgress(),
-    Component.Flashcard(),
-    Component.Graph({
-      localGraph: { showTags: false, depth: 1 },
-      globalGraph: { showTags: false },
-    }),
   ],
   left: [Component.DesktopOnly(Component.CategoryNav())],
   right: [Component.DesktopOnly(Component.TableOfContents())],
 };
 ```
 
-The always-on surfaces (TopBar, AuthUI, ContentPanel, BackgroundGraph, TreeDrawer, the training
-strip + modals, Search, NeuralMount) are registered once in `sharedPageComponents.afterBody`.
+The v1.80.0 legacy excision deleted the whole legacy page UI — `VictoryDisplay`, `TreeExplorer`,
+`TreeDrawer`, `MoveCards`, `OutcomeCards`, `SystemProgress`, `Flashcard`, the `Graph` /
+`BackgroundGraph` PixiJS components, the training strip + its two modals, `TopBar`, `ContentPanel`
+and `?variant=legacy` itself. Do not restore them from an older revision of this document: four
+components in `afterBody` is the whole always-on surface, and gameplay, training and the graph all
+live in the Neural bundle (`neural/src/`). `e2e/journeys/legacy-gone.spec.ts` is the gate.
 
 **Registration is the only reachability rail.** Quartz's `ComponentResources` emitter collects CSS
 and JS exclusively from the components a layout (or an emitter) actually registers, so an
@@ -361,7 +367,7 @@ P75 of 13,764ms with 80% Poor while CLS sat at 0.017/100% Good. It is now **2.4M
 | file | role | fetched |
 |---|---|---|
 | `graph-data.json` | the state machine the game runs on | boot |
-| `flashcards/_index.json` | deck manifest: `{"<Name>\|<Role>": [cat, n]}` | boot |
+| `flashcards/_index.json` | deck manifest: `{"<Name>\|<Role>": [cat, n]}` + `shared` (see below) | boot |
 | `flashcards/<fnv1a32(deckKey)>.json` | `{deckKey: {cat, role, cards}}` — one deck | on demand |
 | `content/<fnv1a32(key)>.json` | `{key: dossier}` — one node's dossier (`window.NG_CONTENT` is the cache) | on demand |
 | `curriculum.json` | belts/units/lessons + `weights` (what `gameScore` sums) | boot |
@@ -400,6 +406,29 @@ entries share a file and both still resolve.
    decide how many draws happen. It is made a precondition instead — a dry pass inside an RNG
    transaction (`_rngBegin`/`_rngRollback`), hydrate what it asked for, repeat, then draw for real.
    An unwarmed consult emits an `mc_pool_cold` beat.
+
+**Four rules the lazy path must not break (v1.80.5, all covered by
+`tests/neural_residency_contract.test.mjs`):**
+
+- **The warm pass is lazy, and it aborts at the first cold deck.** It used to pre-fetch the
+  landing deck *and every graph neighbour* before its first dry pass — an unbounded fan-out paid on
+  every landing for a pool 85.5% of cards never consult. The dry pass names what it actually
+  reached (`_mcCold` records it and throws), so a card with authored distractors costs zero
+  fetches, and the global tier's walk over 2,924 keys can no longer become dozens of them.
+- **A failed chunk is a condition, not a verdict.** `hydrateDeck` never caches a failure as
+  success: the stub survives, `n` keeps its authority, `deck_fetch_failed` fires, and the next
+  reader retries (3 consecutive failures → 20s cooldown). `deckStatus(key)` distinguishes
+  `pending` / `loading` / `failed` / `empty` / `ready` / `missing`, and the surfaces say which.
+- **Credit is residency-independent.** The manifest ships `shared`: `fnv1a32(question)` → deck
+  indexes, for every question carried by 2+ decks (451 of 21,334 — 10.6KB raw / 4.3KB gzip). The
+  blended hierarchy's cross-deck credit (`noteCardDone` → `_sharedDecksFor`) therefore pays the
+  same however the chunks happen to have landed. The old resident-scan (`_qkDecks`) remains only
+  as the fallback for a boot with no index.
+- **Counts come from `n`.** Every deck row reads `_deckCountLabel(key)`; `_histRow`,
+  `updateDrillTab` and the landing chip read `_deckCardCount`. A cold visitor is shown the real
+  size of the corpus, not the size of their download. `_pruneStaleGrades` drops grades for
+  questions a landed chunk does not carry (guarded on `cards.length === n`), so the two branches of
+  `deckMastery` converge on one definition instead of disagreeing about retired cards.
 
 ## Gameplay Audio & Terminal Effects
 

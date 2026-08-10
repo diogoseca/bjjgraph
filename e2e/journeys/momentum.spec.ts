@@ -294,7 +294,7 @@ test("ignoring an asked question breaks it; a landing that asks nothing carries 
     await j.rig("outcome", [0.01])
     await j.pick(target)
     await j.nextHand()
-    await j.landQuestion(4_000)   // the question can dock one fetch after the card
+    await j.landSettled()   // the question docks one fetch after the card (v1.80.5 signal)
     if (await page.locator("[data-land-q]").count()) break
   }
   await expect(page.locator("[data-land-q]")).toBeVisible()

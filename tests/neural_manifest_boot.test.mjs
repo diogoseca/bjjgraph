@@ -152,12 +152,17 @@ test("hydrateDeck fills IN PLACE and is coalesced", async () => {
   assert.equal(calls, 1);
 });
 
-test("a failed chunk leaves an empty resident deck, not a permanent retry loop", async () => {
+test("a failed chunk asks nothing and stays retryable (it is NOT an empty deck)", async () => {
+  // v1.80.5 corrected this contract: caching the failure as `cards = []` meant one dropped
+  // request emptied that deck for the whole session and killed the authority of its `n`. The
+  // full retry/backoff/status contract lives in tests/neural_residency_contract.test.mjs.
   const a = app({ "Mount|Top": { cat: "Position", n: 3, file: "m.json" } });
-  globalThis.fetch = async () => ({ ok: false, json: async () => null });
+  globalThis.fetch = async () => ({ ok: false, status: 503, json: async () => null });
   await a.hydrateDeck("Mount|Top");
-  assert.deepEqual(a._cardsOf(a.flashcards.decks["Mount|Top"]), [], "resident and empty");
-  assert.equal(a.questionFor("Mount|Top"), null, "asks nothing");
+  assert.equal(a._cardsOf(a.flashcards.decks["Mount|Top"]), null, "no cards — and no fake empty deck");
+  assert.equal(a.questionFor("Mount|Top"), null, "asks nothing while it has nothing");
+  assert.equal(a._deckCardCount(a.flashcards.decks["Mount|Top"]), 3, "`n` still speaks for it");
+  assert.equal(a.deckStatus("Mount|Top"), "failed");
 });
 
 test("the cross-deck question index is rebuilt after a late deck lands", async () => {
@@ -308,11 +313,6 @@ test("an unwarmed cold consult is LOUD (a beat), never silent", () => {
   f.a.mcDistractors(f.card, "Mount|Top", 3, null);   // deliberately skipping the warm
   const cold = f.a.beats.filter((b) => b.beat === "mc_pool_cold");
   assert.ok(cold.length > 0, "the pooler reached a deck it did not have and said so");
-});
-
-test("mcPoolKeys is the deck plus its graph neighbours", () => {
-  const f = mcFixture(["Mount|Top"]);
-  assert.deepEqual(f.a.mcPoolKeys("Mount|Top").sort(), ["Mount|Top", "N1|Top", "N2|Top"]);
 });
 
 test("mcPoolWarm is always true on a non-manifest boot (nothing to warm)", () => {
