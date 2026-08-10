@@ -19,3 +19,10 @@
 # the social link preview degrades to generic text. Asserted from the EMITTED _redirects by
 # e2e/journeys/share-lists.spec.ts.
 /l/* /l.html 200
+
+# /Tree was a mount point for the interactive TreeExplorer, deleted with the rest of the
+# legacy front-end in v1.80.0. The page's frontmatter sets hide-content, so what remains
+# emits an empty <article> — a soft-404 waiting to be indexed. Deep navigation now lives in
+# the Neural app's Explore tab, Search and the category hubs.
+/Tree/* / 301
+/Tree / 301

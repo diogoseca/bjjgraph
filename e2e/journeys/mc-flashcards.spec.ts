@@ -51,12 +51,38 @@ async function openLessonDrill(
   await page.evaluate(() => (window as any).__neural.toggleExplorer());
   await page.locator(`[data-lesson="${LESSON1.deckKey}"]`).first().click();
   await j.advance(800);
+  // v1.80.4: a deck's cards are fetched on demand, so opening a lesson starts a real fetch.
+  // Wait for it — the study surface re-renders itself when the chunk lands.
+  await j.decksSettled();
+  await page.waitForFunction(
+    () => ((window as any).__neural.deck || []).length > 0,
+    null,
+    { timeout: 20_000 },
+  );
 }
+
+/** The MC block mounts once its distractor POOL is resident, which on a manifest boot can be one
+ *  fetch later than the card itself: renderDrill deliberately defers rather than dealing options
+ *  out of whatever chunks happened to have arrived (that would make the option set a function of
+ *  network timing — see _warmMcPool). Truth still lives only in a._mc; this only waits for it. */
+const awaitMc = (page: any) =>
+  page.waitForFunction(() => !!(window as any).__neural._mc, null, { timeout: 20_000 });
+
+/** Inside a checkpoint loop: wait for the next question's block, or for the quiz to be over. */
+const awaitMcOrQuizEnd = (page: any) =>
+  page.waitForFunction(
+    () => {
+      const a = (window as any).__neural;
+      return !!a._mc || !a._checkpoint;
+    },
+    null,
+    { timeout: 20_000 },
+  );
 
 /** navigate the open drill to its first MC-able card (unclippable answers legitimately
  *  fall back to recall — the spec must not assume card 0 is quizzable). Probes with
  *  mcClip ONLY: a mcDistractors probe would consume the rig queues and poison determinism. */
-const presentMcCard = (page: any) =>
+const presentMcCardRaw = (page: any) =>
   page.evaluate(() => {
     const a = (window as any).__neural;
     for (const c of a.deck || []) {
@@ -68,6 +94,14 @@ const presentMcCard = (page: any) =>
     }
     return null;
   });
+
+/** present a quizzable card and (unless the test is about the classic fallback) wait for its
+ *  MC block to mount. */
+const presentMcCard = async (page: any, expectMc = true) => {
+  const qh = await presentMcCardRaw(page);
+  if (qh && expectMc) await awaitMc(page);
+  return qh;
+};
 
 const mcState = (page: any) =>
   page.evaluate(() => {
@@ -279,6 +313,8 @@ test("graded tiers: plausible = no credit + close feedback, trap = stage penalty
   const j = journey(page);
   await j.boot("/");
   await j.land("Mount Top");
+  // the cards have to BE here before a fixture can be injected onto one (on-demand residency)
+  await j.hydrate([LESSON1.deckKey]);
   // inject an authored-tier fixture onto the first MC-ABLE card (schema lands corpus-side
   // in P2b; the renderer's graded path is testable today)
   await page.evaluate((dk) => {
@@ -340,10 +376,12 @@ test("graded tiers: plausible = no credit + close feedback, trap = stage penalty
 
   // build a stage first (one correct), then a trap pick knocks it back down
   await page.evaluate((q) => (window as any).__neural.presentCard(q), qh);
+  await awaitMc(page);
   let t = await mcState(page);
   await page.locator("[data-mc-opt]").nth(t!.correct).click();
   await j.advance(700);
   await page.evaluate((q) => (window as any).__neural.presentCard(q), qh);
+  await awaitMc(page);
   t = await mcState(page);
   const tiers2 = await page.evaluate(() => (window as any).__neural._mc.tiers);
   await page.locator("[data-mc-opt]").nth(tiers2.indexOf("trap")).click();
@@ -372,7 +410,7 @@ test("mcMode setting: classic kills MC; mc still caps the stage at 2", async ({
     const a = (window as any).__neural;
     a.stage[a._posKey] = a.stage[a._posKey] || {};
   });
-  const capped = await page.evaluate((dk) => {
+  await page.evaluate((dk) => {
     const a = (window as any).__neural;
     const card = a.flashcards.decks[dk].cards.find(
       (c) => a.mcClip(c.a) && a.mcDistractors(c, dk),
@@ -380,10 +418,12 @@ test("mcMode setting: classic kills MC; mc still caps the stage at 2", async ({
     const qh = a.qhash(card.q);
     (a.stage[dk] = a.stage[dk] || {})[qh] = 2;
     a.presentCard(qh);
-    // forced-mc mode may PRESENT graduated cards as MC, but grading must still cap at 2
-    return { mcVisible: !!a._mc };
   }, LESSON1.deckKey);
-  expect(capped.mcVisible).toBe(true);
+  // forced-mc mode may PRESENT graduated cards as MC, but grading must still cap at 2. The
+  // block mounts once the pool is resident, so read the rail after it exists, not inside the
+  // same evaluate that asked for the card.
+  await awaitMc(page);
+  expect(await page.evaluate(() => !!(window as any).__neural._mc)).toBe(true);
   const t = await mcState(page);
   await page.locator("[data-mc-opt]").nth(t!.correct).click();
   const stage = await page.evaluate(
@@ -452,6 +492,8 @@ test("recall fallback: a card with <2 viable distractors renders classic recall"
   const j = journey(page);
   await j.boot("/");
   await j.land("Mount Top");
+  // the cards have to BE here before they can be poisoned (on-demand residency, v1.80.4)
+  await j.hydrate([LESSON1.deckKey]);
   // poison the deck so pooling cannot find 2 viable distractors for card 0: make every other
   // answer a near-duplicate of the correct one (the near-dupe guard rejects them all)
   await page.evaluate((dk) => {
@@ -498,9 +540,12 @@ test("checkpoint is now a real MC quiz: pass marks the unit", async ({
     .first()
     .click();
   await j2.advance(500);
+  await j2.decksSettled();
+  await awaitMc(page);   // the quiz pool is this unit's decks — fetched when the quiz starts
 
   // answer every quiz card correctly via the truth rail
   for (let i = 0; i < UNIT1.checkpoint.cards; i++) {
+    await awaitMcOrQuizEnd(page);
     const t = await mcState(page);
     if (!t) break;
     await page.locator("[data-mc-opt]").nth(t.correct).click();
@@ -539,9 +584,12 @@ test("checkpoint fail links the weakest lesson", async ({ page }) => {
     .first()
     .click();
   await j.advance(500);
+  await j.decksSettled();
+  await awaitMc(page);   // the quiz pool is this unit's decks — fetched when the quiz starts
 
   // answer everything WRONG → fail
   for (let i = 0; i < UNIT1.checkpoint.cards; i++) {
+    await awaitMcOrQuizEnd(page);
     const t = await mcState(page);
     if (!t) break;
     await page

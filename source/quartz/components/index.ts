@@ -1,3 +1,11 @@
+// Quartz component barrel.
+//
+// v1.80.0 deleted the legacy Quartz page UI (the `?variant=legacy` front-end). Anything it
+// owned — the in-page graphs, the SRS/training stack, the move/outcome trays, the legacy
+// chrome — is gone; the default Neural app owns the screen. Do NOT re-add a component here
+// without also registering it in quartz.layout.ts: registration, not export, is what makes
+// componentResources bundle its script into postscript.js.
+
 import Content from "./pages/Content"
 import TagContent from "./pages/TagContent"
 import FolderContent from "./pages/FolderContent"
@@ -6,30 +14,12 @@ import ArticleTitle from "./ArticleTitle"
 import Head from "./Head"
 import ContentMeta from "./ContentMeta"
 import TableOfContents from "./TableOfContents"
-import Graph from "./Graph"
 import Search from "./Search"
 import Footer from "./Footer"
 import DesktopOnly from "./DesktopOnly"
 import Breadcrumbs from "./Breadcrumbs"
-import MoveCards from "./MoveCards"
-import OutcomeCards from "./OutcomeCards"
-import Snackbar from "./Snackbar"
-import Flashcard from "./Flashcard"
-import VictoryDisplay from "./VictoryDisplay"
-import TreeExplorer from "./TreeExplorer"
 import CategoryNav from "./CategoryNav"
-import TopBar from "./TopBar"
 import AuthUI from "./AuthUI"
-import ContentPanel from "./ContentPanel"
-import BackgroundGraph from "./BackgroundGraph"
-import TreeDrawer from "./TreeDrawer"
-import FlashcardsHeader from "./FlashcardsHeader"
-import DecksModal from "./DecksModal"
-import SettingsModal from "./SettingsModal"
-import SessionChevrons from "./SessionChevrons"
-import RollSessionButton from "./RollSessionButton"
-import SystemProgress from "./SystemProgress"
-import AffiliateTracking from "./AffiliateTracking"
 import NeuralMount from "./NeuralMount"
 import SnapshotButton from "./SnapshotButton"
 
@@ -41,31 +31,13 @@ export {
   Head,
   ContentMeta,
   TableOfContents,
-  Graph,
   Search,
   Footer,
   DesktopOnly,
   NotFound,
   Breadcrumbs,
-  MoveCards,
-  OutcomeCards,
-  Snackbar,
-  Flashcard,
-  VictoryDisplay,
-  TreeExplorer,
   CategoryNav,
-  TopBar,
   AuthUI,
-  ContentPanel,
-  BackgroundGraph,
-  TreeDrawer,
-  FlashcardsHeader,
-  DecksModal,
-  SettingsModal,
-  SessionChevrons,
-  RollSessionButton,
-  SystemProgress,
-  AffiliateTracking,
   NeuralMount,
   SnapshotButton,
 }

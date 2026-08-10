@@ -122,6 +122,21 @@ jobs:
       - name: Build Forward development libraries
         run: npm run build:forward
 
+      # PAYLOAD RATCHET (gate). Real-user LCP P75 was ~13.7s because every visitor pulled two
+      # front-ends; v1.80.0 deleted one. Deleting weight once is easy — keeping it deleted is
+      # the hard part, so this compares the built site against the ceilings committed in
+      # tests/artifacts/budget_site.json (shared bundles, nine page archetypes, and aggregate
+      # HTML bytes across every emitted .html) and fails when the payload grows past them.
+      #
+      # Placement is load-bearing: it must run AFTER `Copy raw HTML folder` and
+      # `Build Forward development libraries`, because those write into source/public and the
+      # committed ceilings were seeded from a tree that includes them. Running it earlier would
+      # measure a smaller site than we ship and let a Forward regression through.
+      #
+      # Raising a ceiling requires `--update` in a deliberate, separately justified commit.
+      - name: Payload budget (gate)
+        run: npm run validate:payload
+
       # The affiliate tracking id is a deployment parameter, not content: product URLs
       # in content/Systems/*.json ship the literal `?ref=REPLACE_ME` so a fork or a
       # local build needs no secret, and the ref never enters this public repo's git

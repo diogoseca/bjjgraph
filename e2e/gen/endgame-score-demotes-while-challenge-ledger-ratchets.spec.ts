@@ -2,6 +2,7 @@
 import { test, expect } from "@playwright/test"
 import { readFileSync } from "node:fs"
 import { resolve } from "node:path"
+import { allDecks } from "../decks"
 import { journey } from "../dsl"
 import { multiBeltEndgame, CURRICULUM } from "./personas"
 
@@ -48,9 +49,8 @@ import { multiBeltEndgame, CURRICULUM } from "./personas"
  * data-crown levels — never card/answer text (MC waves rewrite copy).
  */
 
-const FLASH = JSON.parse(
-  readFileSync(resolve(__dirname, "../../source/public/static/neural/flashcards.json"), "utf8"),
-)
+// v1.80.4: no flashcards.json monolith — the corpus is assembled from the per-deck chunks
+const FLASH = { decks: allDecks() }
 // byte-for-byte replica of app.src.jsx:3450 qhash — FNV-1a over the question text
 const qhash = (q: string) => {
   let h = 0x811c9dc5
@@ -211,11 +211,13 @@ test("demoting recalled decks drops score and crowns while master-three, its rat
 
   // ── DEMOTE two weighted decks card-by-card through the app's own downgrade seam. ──
   const demoted = await page.evaluate(
-    ({ keys, held }) => {
+    async ({ keys, held }) => {
       const a = (window as any).__neural
+      // the cards to demote must be resident first (on-demand residency, v1.80.4)
+      await a.hydrateDecks(keys as string[])
       const stages: number[] = []
       for (const k of keys as string[])
-        for (const c of a.flashcards.decks[k].cards) stages.push(a._bumpStage(k, c.q, -1))
+        for (const c of a._cardsOf(a.flashcards.decks[k]) || []) stages.push(a._bumpStage(k, c.q, -1))
       const snap = a._challengeSnapshot()
       return {
         stages,

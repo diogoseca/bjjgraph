@@ -960,26 +960,32 @@
  },
  "index.html": {
   "canonical": "https://bjjgraph.org/index",
-  "content_floor": 146,
-  "content_hash": "261cbf5ed4cfdbd7fc2080712b643e6bb967b90a5fe4dfc60a74542d39c2793d",
-  "content_len": 172,
+  "content_floor": 1147,
+  "content_hash": "bbf6655b4f837297c31adb44d191344700d18b9cc9c076886c33717d506063d5",
+  "content_len": 1350,
   "ldjson": [
    "{\"@context\": \"https://schema.org\", \"@type\": \"Organization\", \"description\": \"Comprehensive Brazilian Jiu-Jitsu knowledge graph and state machine covering 90+ positions, 70+ transitions, and 50+ submissions\", \"logo\": \"https://bjjgraph.org/static/icon.png\", \"name\": \"BJJ Graph\", \"sameAs\": [\"https://github.com/diogoseca/bjjgraph\"], \"url\": \"https://bjjgraph.org\"}",
    "{\"@context\": \"https://schema.org\", \"@type\": \"WebSite\", \"description\": \"Interactive knowledge graph for Brazilian Jiu-Jitsu covering positions, transitions, submissions, and strategic concepts\", \"name\": \"BJJ Graph\", \"publisher\": {\"@type\": \"Organization\", \"name\": \"BJJ Graph\", \"url\": \"https://bjjgraph.org\"}, \"url\": \"https://bjjgraph.org\"}"
   ],
   "links": [
-   "../Learning/",
-   "../Positions/",
-   "../Principles/",
-   "../Submissions/",
-   "../Systems/",
-   "../Transitions/"
+   "#the-whole-brazilian-jiu-jitsu-game-mapped-as-one-graph",
+   "../Learning",
+   "../Positions",
+   "../Positions/Back-Control",
+   "../Positions/Closed-Guard",
+   "../Positions/Mount",
+   "../Principles",
+   "../Submissions",
+   "../Submissions/Rear-Naked-Choke",
+   "../Systems",
+   "../Transitions",
+   "../Transitions/Knee-Slice-Pass"
   ],
   "meta": {
    "article:modified_time": "<volatile>",
    "article:published_time": "<volatile>",
-   "description": ".",
-   "og:description": ".",
+   "description": "Brazilian jiu-jitsu mapped as one interactive graph: every position, the moves worth attempting, and the odds each works, fails, or gets countered.",
+   "og:description": "Brazilian jiu-jitsu mapped as one interactive graph: every position, the moves worth attempting, and the odds each works, fails, or gets countered.",
    "og:height": "675",
    "og:image": "https://bjjgraph.org/static/og-image.png",
    "og:locale": "en_US",

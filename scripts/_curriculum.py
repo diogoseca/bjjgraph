@@ -13,7 +13,9 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 CURRICULUM = ROOT / "templates/curriculum.json"
 GRAPH_DATA = ROOT / "source/quartz/static/neural/graph-data.json"
-FLASHCARDS = ROOT / "source/quartz/static/neural/flashcards.json"
+# Deck SIZES only — read straight from the boot manifest, so this needs no chunk reads at all.
+# (flashcards.json, the 16.4MB monolith, was deleted in v1.80.4.)
+FLASHCARDS_DIR = ROOT / "source/quartz/static/neural/flashcards"
 
 
 def load_curriculum() -> dict:
@@ -24,11 +26,11 @@ def load_graph_index():
     """id -> node, plus deck sizes. graph-data position nodes are HUB-COLLAPSED
     (one node carries cal.moves for both roles; the ' Top' in the title is display)."""
     gd = json.loads(GRAPH_DATA.read_text())
-    fc = json.loads(FLASHCARDS.read_text())
-    decks = fc["decks"] if "decks" in fc else fc
+    import sys
+    sys.path.insert(0, str(ROOT / "scripts"))
+    from _neural_decks import manifest_counts
     nodes = {n["id"]: n for n in gd["nodes"]}
-    deck_sizes = {k: len(v["cards"]) for k, v in decks.items()}
-    return nodes, deck_sizes
+    return nodes, manifest_counts(FLASHCARDS_DIR)
 
 
 def pos_base(node: dict) -> str:

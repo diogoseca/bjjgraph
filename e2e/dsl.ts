@@ -250,13 +250,30 @@ export class Journey {
           return r.fulfill({ status: 200, contentType: "text/css", body: "" });
         return r.abort();
       });
-      await this.page.route("**/technique-content.js", (r) => r.abort());
-      await this.page.route("**/flashcards.json", (r) =>
+      // Per-node dossier chunks (v1.80.4, replacing the aborted 21MB technique-content.js):
+      // journeys run WITHOUT authored dossier content, exactly as they did when the monolith was
+      // aborted — an empty map makes the app negative-cache that node and render its fallbacks.
+      // A journey that wants real dossier content routes this itself.
+      await this.page.route("**/static/neural/content/*.json", (r) =>
+        r.fulfill({ body: "{}", contentType: "application/json" }),
+      );
+      // Deck manifest + per-deck chunks, from the same per-worker buffers as graph-data. This is
+      // the app's REAL on-demand residency path, not a monolith stand-in, so journeys exercise
+      // what ships: a deck exists as a stub first and its cards arrive after a fetch.
+      await this.page.route("**/flashcards/_index.json", (r) =>
         r.fulfill({
-          body: payload("flashcards.json"),
+          body: payload("flashcards/_index.json"),
           contentType: "application/json",
         }),
       );
+      await this.page.route("**/flashcards/*.json", (r) => {
+        const name = new URL(r.request().url()).pathname.split("/").pop()!;
+        try {
+          r.fulfill({ body: payload("flashcards/" + name), contentType: "application/json" });
+        } catch {
+          r.fulfill({ status: 404, contentType: "application/json", body: "" });
+        }
+      });
       await this.page.route("**/graph-data.json", (r) =>
         r.fulfill({
           body: payload("graph-data.json"),
@@ -468,6 +485,70 @@ export class Journey {
     return this;
   }
 
+  /**
+   * DECK RESIDENCY (v1.80.4). The app boots from a manifest of deck STUBS and fetches a deck's
+   * cards on demand, so `flashcards.decks[key].cards` is absent until something asks for that
+   * deck. The app asks for what it needs (the state it lands on, each dealt option, a study
+   * surface, a checkpoint's unit) — but a journey that reaches into an ARBITRARY deck must say
+   * so, which is what these are for. They drive the real fill seam (`hydrateDeck`), so nothing
+   * here fakes residency; they only decide WHEN.
+   */
+  async hydrate(keys: string[]) {
+    await this.page.evaluate(
+      (ks) => (window as W).__neural.hydrateDecks(ks as string[]),
+      keys as unknown as string[],
+    );
+    return this;
+  }
+  /** Full residency, for journeys whose subject is not residency (a deck scan, a corpus pick). */
+  async hydrateAll() {
+    const keys = await this.page.evaluate(() =>
+      Object.keys(((window as W).__neural.flashcards || {}).decks || {}),
+    );
+    await this.hydrate(keys);
+    return this;
+  }
+  /**
+   * Wait until the LANDING QUESTION HAS STOPPED MOVING — mounted, or definitively not coming.
+   *
+   * Since the payload was chunked (v1.80.4) the landing card paints identity + film immediately
+   * and docks its question one fetch later (the deck chunk, then its distractor pool). A spec
+   * that reads `__neural._mc` / `[data-land-q]` the instant a hand exists is racing the network,
+   * and the race is SILENT: it reads null and goes on to assert something else.
+   *
+   * The app publishes the signal — `landSettled()` chases the whole chain (v1.80.5) — so the wait
+   * lives HERE, in the choke points every journey already goes through (`land`, `nextHand`),
+   * instead of being sprinkled through 140 spec files. This replaced a 20s `waitForFunction` poll
+   * for `_mc`, which could not tell "not here yet" from "this state asks nothing" and so paid the
+   * full timeout on every proven deck.
+   */
+  async landSettled() {
+    await this.page.evaluate(async () => {
+      const a = (window as W).__neural;
+      if (a && typeof a.landSettled === "function") await a.landSettled();
+    });
+    return this;
+  }
+
+  /** The live LANDING question's MC truth, once its block has settled (see landSettled).
+   *  Returns null if this state asks nothing (a fully proven deck legitimately does). */
+  async landQuestion(): Promise<{ correct: number; n: number } | null> {
+    await this.landSettled();
+    return this.page.evaluate(() => {
+      const m = (window as W).__neural._mc;
+      return m && m.surface === "land" ? { correct: m.correct, n: m.n } : null;
+    });
+  }
+
+  /** Wait for every in-flight deck/pool fetch to settle (hydration is real async). */
+  async decksSettled() {
+    await this.page.evaluate(async () => {
+      const a = (window as W).__neural;
+      for (let i = 0; i < 8; i++) await Promise.all(Object.values(a._deckWaits || {}));
+    });
+    return this;
+  }
+
   /** Queue deterministic values for a tagged RNG site. */
   async rig(tag: string, values: number[]) {
     await this.page.evaluate(
@@ -669,6 +750,9 @@ export class Journey {
     }
     if (!opts.keepCoach)
       await this.page.evaluate(() => (window as W).__neural?.dismissCoach?.());
+    // the coach hands the landing card over on dismissal, so settle AFTER it: from here on, the
+    // landing question either exists or this state does not ask one
+    await this.landQuestion();
     return this;
   }
 
@@ -688,7 +772,7 @@ export class Journey {
       const n = await this.page.evaluate(
         () => (((window as W).__neural || {}).optionIdxs || []).length,
       );
-      if (dealt > dealt0 && n > 0) return this;
+      if (dealt > dealt0 && n > 0) return this.landQuestion();
     }
     throw new Error(`next hand not dealt within ${capMs}ms of sim time`);
   }
@@ -739,16 +823,22 @@ export class Journey {
   /** Drill n cards via the same choke points the UI uses — the CURRENT position's deck by
    *  default, or an explicit deckKey (lesson drilling in Challenge journeys). */
   async drill(n: number, deckKey?: string) {
+    // v1.80.4: a deck's cards arrive on demand, and drilling IS a study action — so ask for the
+    // deck before grading it rather than requiring every caller to remember.
+    await this.page.evaluate((dk) => {
+      const a = (window as W).__neural;
+      const key = (dk as string) || a.deckKeyFor(a.nodes[a.currentPos]).key;
+      return a.hydrateDeck(key);
+    }, deckKey ?? null);
     for (let i = 0; i < n; i++) {
       await this.page.evaluate(
         ([idx, dk]) => {
           const a = (window as W).__neural;
           const key = (dk as string) || a.deckKeyFor(a.nodes[a.currentPos]).key;
           const deck = a.flashcards?.decks?.[key];
-          if (!deck || !deck.cards.length)
-            throw new Error(`no deck for ${key}`);
-          const card =
-            deck.cards[Math.min(idx as number, deck.cards.length - 1)];
+          const cards = a._cardsOf(deck);
+          if (!cards || !cards.length) throw new Error(`no deck for ${key}`);
+          const card = cards[Math.min(idx as number, cards.length - 1)];
           if (!card) throw new Error(`no card ${idx} in ${key}`);
           // drill rail: grade the card correct through the same choke the UI uses
           a.prep[key] = (a.prep[key] || 0) + 1;

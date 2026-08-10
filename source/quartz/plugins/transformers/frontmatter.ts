@@ -93,6 +93,10 @@ declare module "vfile" {
         lang: string
         enableToc: string
         cssclasses: string[]
+        // Opt a route out of search indexing (Head.tsx emits <meta name="robots">). For pages
+        // that must stay REACHABLE — internal links point at them — but carry no indexable
+        // content of their own. See content/Game Over.md.
+        noindex: boolean
       }>
   }
 }
