@@ -25,6 +25,9 @@ type Mark = {
   ms_since_nav: number;
   coach_open: boolean;
   reason?: string;
+  out_of_order: boolean;
+  skipped: string | null;
+  late_after: string | null;
 };
 
 const marks = (page: any): Promise<Mark[]> =>
@@ -38,15 +41,27 @@ const marks = (page: any): Promise<Mark[]> =>
         ms_since_nav: b.ms_since_nav,
         coach_open: b.coach_open,
         reason: b.reason,
+        out_of_order: b.out_of_order,
+        skipped: b.skipped,
+        late_after: b.late_after,
       })),
   );
 
 const spineOf = (m: Mark[]) => m.filter((x) => x.spine).map((x) => x.step);
 
-/** the app's own first hand, coach intact — only the ambient draws are pinned */
-async function coldFirstHand(page: any) {
+/** the app's own first hand, coach intact — only the ambient draws are pinned.
+ *
+ *  `payloads` is how a test STATES THE CONDITION IT HOLDS UNDER. Every assertion in this file used to
+ *  be written as if the funnel's shape were unconditional, when in fact it rested entirely on the
+ *  harness serving flashcards.json out of an in-memory buffer, instantly — the one thing a Fast-4G
+ *  cold start does not do (hand @7.0s, decks @25.3s). An unconditional claim that only holds with
+ *  instant payloads is worse than no claim, so the condition is now declared AND asserted below. */
+async function coldFirstHand(
+  page: any,
+  payloads?: Record<string, { afterSim?: number; never?: boolean }>,
+) {
   const j = journey(page);
-  await j.boot("/", { keepTutorial: true });
+  await j.boot("/", { keepTutorial: true, ...(payloads ? { payloads } : {}) });
   expect(
     await page.evaluate(() => (window as any).__neural._cs.cold),
     "the app classifies this visitor as cold",
@@ -68,17 +83,21 @@ async function coldFirstHand(page: any) {
     await page.evaluate(() => !!(window as any).__neural._coach),
     "the coach owns the first landing (this IS the default path)",
   ).toBe(true);
+  // THE CONDITION, on the record: whether the comprehension payload is on the table when the first
+  // decision is taken is the entire difference between the two funnel shapes asserted below.
+  expect(
+    await page.evaluate(() => !!(window as any).__neural.flashcards),
+    payloads
+      ? "the decks are STILL IN FLIGHT for this walk (the 4G cold start)"
+      : "the decks are already cached for this walk (a warm reload / a fast link)",
+  ).toBe(!payloads);
   return j;
 }
 
-test("cold start: a newcomer who obeys the coach still gets asked the landing question", async ({
-  page,
-}) => {
-  const j = await coldFirstHand(page);
-
-  // ── do EXACTLY what the coach says. Panel 2: "Tap a card to open its sheet". Panel 3: "Inside
-  // the sheet, grade a flashcard... Then Execute." No Next, no Skip — the copy never says to
-  // dismiss anything, and a first-timer following instructions has no reason to. ──
+/** the coached newcomer's own first commit: obey panel 2 (open a sheet), panel 3 (grade, Execute).
+ *  `grade` is false when the decks are still in flight — panel 3 asks for something that does not
+ *  exist yet, which is itself part of the cold story. */
+async function obeyTheCoach(j: any, page: any, grade = true) {
   const target = await page.evaluate(() => {
     const a = (window as any).__neural;
     for (const i of a.optionIdxs || [])
@@ -87,8 +106,20 @@ test("cold start: a newcomer who obeys the coach still gets asked the landing qu
   });
   await page.locator(`[data-tech="${target}"]`).first().click(); // panel 2
   await expect(page.locator("[data-go]").first()).toBeVisible();
-  await j.drill(1); // panel 3, first half: grade a flashcard in the sheet
+  if (grade) await j.drill(1); // panel 3, first half: grade a flashcard in the sheet
   await page.locator("[data-go]").first().click(); // panel 3, second half: Execute
+  return j;
+}
+
+test("cold start: a newcomer who obeys the coach still gets asked the landing question — decks already cached", async ({
+  page,
+}) => {
+  const j = await coldFirstHand(page);
+
+  // ── do EXACTLY what the coach says. Panel 2: "Tap a card to open its sheet". Panel 3: "Inside
+  // the sheet, grade a flashcard... Then Execute." No Next, no Skip — the copy never says to
+  // dismiss anything, and a first-timer following instructions has no reason to. ──
+  await obeyTheCoach(j, page);
 
   // the landing question is the app's central comprehension mechanic. On the DEFAULT path it must
   // reach the visitor before they commit — or, if it genuinely cannot, the funnel must SAY SO.
@@ -110,20 +141,30 @@ test("cold start: a newcomer who obeys the coach still gets asked the landing qu
   if (skipped) expect(skipped.reason, "the skip names its cause").toBeTruthy();
 });
 
-test("cold start: the recorded spine is monotonic, so an ordered funnel cannot lie", async ({
+/** every recorded spine mark that did not arrive in its own position, and whether it says so */
+const outOfPlace = (m: Mark[]) => {
+  const sp = m.filter((x) => x.spine);
+  return sp
+    .map((x, i) => ({
+      step: x.step,
+      at: x.step_index,
+      recordedAt: i,
+      stamped: !!x.out_of_order,
+      cause: (x as any).skipped || (x as any).late_after || null,
+    }))
+    .filter((r) => r.at !== r.recordedAt);
+};
+
+test("cold start: the recorded spine is contiguous — WHEN the comprehension payloads are already cached", async ({
   page,
 }) => {
+  // The condition is in the name and asserted in coldFirstHand, because it is doing all the work:
+  // with flashcards.json in the harness's buffer the question is on the card before the first
+  // decision, so the spine really is app_ready -> hand_dealt -> question_shown -> commit -> outcome.
+  // Stated unconditionally (as this test was), it claimed a property of the app that only the
+  // harness provided — see the companion test below for what the real cold path records.
   const j = await coldFirstHand(page);
-  const target = await page.evaluate(() => {
-    const a = (window as any).__neural;
-    for (const i of a.optionIdxs || [])
-      if (a.nodes[i].ty === "transitions") return a.nodes[i].t;
-    return a.nodes[(a.optionIdxs || [])[0]].t;
-  });
-  await page.locator(`[data-tech="${target}"]`).first().click();
-  await expect(page.locator("[data-go]").first()).toBeVisible();
-  await j.drill(1);
-  await page.locator("[data-go]").first().click();
+  await obeyTheCoach(j, page);
   await j.advanceUntil("sweep_land", 20000);
   await j.advance(2500);
 
@@ -132,14 +173,73 @@ test("cold start: the recorded spine is monotonic, so an ordered funnel cannot l
   // spine mark that IS recorded must arrive with no earlier spine mark still missing — otherwise
   // the funnel reports a drop at a step the visitor sailed past.
   const sp = spineOf(m);
-  const idx = m.filter((x) => x.spine).map((x) => x.step_index);
-  const gaps: string[] = [];
-  for (let i = 0; i < idx.length; i++)
-    if (idx[i] !== i)
-      gaps.push(`${sp[i]}@index${idx[i]}(recorded position ${i})`);
   expect(
-    gaps,
-    `spine recorded as ${JSON.stringify(sp)} — every recorded spine step must be contiguous from app_ready`,
+    outOfPlace(m),
+    `spine recorded as ${JSON.stringify(sp)} — with the decks cached, every recorded spine step must be contiguous from app_ready`,
+  ).toEqual([]);
+});
+
+test("cold start: with the decks 25s out the spine is NOT contiguous — and every out-of-place mark says so", async ({
+  page,
+}) => {
+  // THE SAME WALK ON THE REAL COLD PATH. Fast-4G: hand @7.0s, decks @25.3s. The question cannot be
+  // asked before the first commit, so contiguity is physically unavailable — and asserting it (which
+  // is what the unqualified version of the test above did) would only ever be green on a harness that
+  // pretends the payload is instant. What IS unconditional, and what an ordered funnel actually needs,
+  // is that a gap is never SILENT: every mark that arrives out of position carries `out_of_order` and
+  // names its cause (`skipped` for a step still missing behind it, `late_after` for steps already
+  // past), and a landing that could ask nothing emits `question_skipped` with a reason.
+  const j = await coldFirstHand(page, { "flashcards.json": { afterSim: 25 } });
+  await obeyTheCoach(j, page, false); // panel 3 asks for a flashcard that does not exist yet
+  await j.advanceUntil("sweep_land", 20000);
+
+  const mid = await marks(page);
+  expect(
+    spineOf(mid),
+    "the visitor committed and saw the outcome with no question in between",
+  ).toEqual(expect.arrayContaining(["move_committed", "outcome_seen"]));
+  expect(
+    spineOf(mid),
+    "which is a real hole in the ordered funnel",
+  ).not.toContain("question_shown");
+  const skip = await page.evaluate(() =>
+    (window as any).__neural.csBeats
+      .filter((b: any) => b.beat === "funnel" && b.step === "question_skipped")
+      .pop(),
+  );
+  expect(
+    skip && skip.reason,
+    "and the hole has a NAMED cause, not a phantom drop-off",
+  ).toBe("decks_in_flight");
+
+  // ...then the payload lands (afterSim: 25, the measured arrival) and the question is backfilled
+  // onto the state being played — arriving after the commit it belongs in front of.
+  await j.advance(26000);
+  await page.waitForFunction(
+    () => !!(window as any).__neural.flashcards,
+    null,
+    {
+      timeout: 30_000,
+    },
+  );
+  await j.advance(600);
+
+  const m = await marks(page);
+  const off = outOfPlace(m);
+  // RECORDED RED (v1.82.5): the previous version of this file asserted `outOfPlace(m) == []` with no
+  // condition attached. Evaluated here, on the path it was silently excluding, it fails with
+  //   spine ["app_ready","hand_dealt","move_committed","outcome_seen","roll_ended","question_shown"]
+  // and four out-of-place marks (move_committed/outcome_seen/roll_ended each skipped:"question_shown";
+  // question_shown late_after:"move_committed,outcome_seen,roll_ended"). All four stamped — which is
+  // the property that IS unconditional, asserted below.
+  expect(
+    off.length,
+    `the cold path really does record the spine out of order: ${JSON.stringify(spineOf(m))}`,
+  ).toBeGreaterThan(0);
+  const silent = off.filter((r) => !r.stamped || !r.cause);
+  expect(
+    silent,
+    `every out-of-place spine mark must stamp itself and name a cause — these did not: ${JSON.stringify(silent)}`,
   ).toEqual([]);
 });
 

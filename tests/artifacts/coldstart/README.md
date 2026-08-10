@@ -35,6 +35,17 @@ one-way version (earlier-only) called the cold path clean: with the decks 18s la
 and an ordered funnel then reads that arrival as a fresh visitor entering at step 2. Pinned by
 `coldstart-late-payload.spec.ts`.
 
+**CONTIGUITY IS CONDITIONAL, and the tests now say so (v1.82.5).** `coldstart-spine.spec.ts` asserted
+"the recorded spine is monotonic" with no condition attached — while resting entirely on the harness
+serving `flashcards.json` instantly. On the real cold path the recorded spine is
+`["app_ready","hand_dealt","move_committed","outcome_seen","roll_ended","question_shown"]`: four marks
+out of position. So contiguity is now asserted only under its stated condition ("WHEN the comprehension
+payloads are already cached", asserted in the helper), and the UNCONDITIONAL property — the one an
+ordered funnel actually needs — is asserted on both paths: every out-of-position mark stamps itself
+`out_of_order` AND names a cause (`skipped` / `late_after`), and a landing that can ask nothing emits
+`question_skipped` with a `reason`. An unconditional assertion that only holds with instant payloads is
+worse than no assertion.
+
 **The marks are NOT in `window.__neural.beats`.** They live in `window.__neural.csBeats`. The funnel
 is an observer, and an observer that mutates the gameplay beat stream is visible to the thing it
 measures — it broke seven `e2e/gen` specs that use a fresh life's empty beat stream as their
@@ -77,6 +88,26 @@ for any other node there is no side in play and the constant title is all there 
 lookups are unchanged. The dossier's role badge goes through it too. WIN 2 is now a PROPERTY over all
 272 (136 positions x 2 sides) rather than the one hand-picked X-Guard case.
 
+**A FIRST IMPRESSION IS ONLY SPENT WHEN IT WAS GIVEN — all three markers (v1.82.5).** v1.82.4 stopped
+writing `bjj-neural-firstroll` when the draw could not be weighted (curriculum.json still in flight), but
+that is one of the THREE markers `_returningVisitor()` reads, and the other two are written by ordinary
+play in the very same visit: `bjj-neural-coached` when the newcomer finishes the coach, and
+`bjj-neural-progress` on the first save (grading one card). In-session this was safe — `_returningVisitor`
+is latched once per app life, which is exactly why it hid — but on the next load the profile said "been
+here before" and the biased opening they were owed was gone for ever. `bjj-neural-firstroll` now carries
+three states: absent, `"owed"` (drawn without weights) and `"1"` (given). Only `"1"` counts as returning
+evidence, and `"owed"` outranks the other two markers (`_firstImpressionOwed()`, latched per app life
+like its sibling). Pinned per marker in `coldstart-late-payload.spec.ts`.
+
+**The dossier headline is a NAME, not a side (v1.82.5).** The played-side seam had a regression on the
+surface it fixed: the dossier stripped the role word it was about to PRINT out of the title
+(`sp.main.replace("\\s+" + role + "$")`). That was self-consistent only while `role` was the (constant)
+title suffix — with `role` the side actually being played, `\\s+Bottom$` cannot match "Mount Top", so a
+bottom landing's dossier read "Mount Top" beside a "Bottom" badge, and the same hole opened whenever the
+badge was suppressed for other-side authored copy. Positions now strip the collapsed hub's suffix
+unconditionally (`posFamily`); techniques are untouched. Both render modes (panel and in-node card) and
+both sides are asserted in `first-impression.spec.ts`.
+
 **WHAT IS STILL WRONG, AND IS NOT A COLD-START BUG — for the owner (v1.82.4).** The label and the deck
 now agree about your side. The CONTENT of the hand does not, and WIN 1 made that matter more because it
 sends newcomers to exactly the states where it is worst. `optionsFor` decides "is this move mine?" from
@@ -99,6 +130,12 @@ adjacent technique whose canonical origin (`fromPositionId`) is that position**,
 documented unfiltered escape ("safety: if role-filtering left nothing"). That escape count is asserted
 as a non-growing ceiling in `first-impression.spec.ts`.
 
+WIN 2's third clause used to "check" the dealt hand by re-running optionsFor's own predicate over the
+hand that predicate had produced — a TAUTOLOGY, and a test that cannot fail is a false green. It now
+measures the independent fact (the authored `fromRole`): **116 of the 163 role-filtered combos** deal at
+least one move authored for the other side, asserted as a non-growing ceiling with the count in the
+message, and the test no longer claims the hand agrees.
+
 This is game-wide, pre-existing content/graph coherence (`project_graph_coherence_invariant`), NOT a
 cold-start defect, and it is deliberately NOT fixed inside journey 3 — fixing it means deciding whether
 the graph's origin roles are wrong or whether `optionsFor` should filter on `fromRole` (in which case
@@ -110,7 +147,7 @@ every position's authored `attempt_probability` map has to cover both sides). Re
 The gates (deterministic, hermetic, in the push suite) — these write NOTHING:
 
 ```bash
-npx playwright test -c e2e/playwright.coldstart.config.ts coldstart-funnel coldstart-backfill coldstart-spine coldstart-late-payload first-impression
+npx playwright test -c e2e/playwright.coldstart.config.ts coldstart-funnel coldstart-backfill coldstart-spine coldstart-late-payload first-impression harness-contract
 ```
 
 ## Making the skew visible to a test (v1.82.4)
@@ -121,11 +158,18 @@ payloads (25.3s / 27.0s) did not exist inside the harness, and no cold-start cla
 against the case it was about. The DSL now takes a late-payload declaration:
 
 ```ts
-await j.boot("/", { payloads: { "flashcards.json": { afterSim: 18 } } })  // N SIMULATED seconds
+await j.boot("/", { payloads: { "flashcards.json": { afterSim: 25 } } })  // N SIMULATED seconds
 await j.boot("/", { payloads: { "curriculum.json": { never: true } } })   // a stalled connection
-j.releasePayload("flashcards.json")   // land a held one early
+j.releasePayload("flashcards.json")   // land THAT held payload early — nothing else
 j.payloadTimeline()                   // when each was asked for and served, in both clocks
 ```
+
+**`afterSim` counts from BOOT, not from the first hand (corrected v1.82.5).** Same origin as the
+timeline at the top of this file, so the eighteen-second silence between the hand and the decks is
+`afterSim: 25` — declared as `18` the flagship example modelled 13 of the 18 seconds it quoted (the
+harness deals that hand at sim 5.0s). Anything asserting the SKEW measures `releasedAtSim` minus the
+sim clock at the hand, and pumps in small steps: the delay layer polls between `advance()` calls, so
+one giant advance makes the observed arrival a function of the pump size instead of the rule.
 
 `afterMs` is the wall-clock variant. `never` is deliberately NOT a 404: an aborted fetch takes the
 app's `.catch()` branch, a stalled one leaves the promise pending, and only the second is what a
@@ -134,6 +178,45 @@ the DSL. The rule is armed before the first navigation (the delay layer is regis
 every serving handler, and `fallback()`s to it), which is also what removed `coldstart-spine`'s
 throwaway boot; declaring `flashcards.json` late relaxes `boot()`'s readiness gate, since the app's
 own boot does not wait for the decks either.
+
+## The harness's own contract (v1.82.5)
+
+Two of the DSL's promises were not kept, and both failed in the direction that manufactures green. A
+harness bug cannot be caught by the tests that USE the harness, so they are pinned directly, in the
+units the DSL claims, by `e2e/journeys/harness-contract.spec.ts`.
+
+**`releasePayload(pattern)` ignored its pattern.** It resolved EVERY held gate, so a spec holding two
+payloads and landing one landed both — and any claim about the ORDER of two late payloads (decks
+@25.3s then dossier @27.0s; the per-deck chunks the chunking stream will hold back) was meaningless
+while still passing. Gates now remember the rule that armed them and the URL they hold; a release lands
+only what its pattern names. Bare `releasePayload()` still means everything (teardown uses it).
+
+**`clickByMouse` accepted an interception.** Its hit test allowed `top.contains(el)` — an ANCESTOR
+overlay that merely contains the target — which is the commonest shape of the exact bug the helper
+exists to catch: a `pointer-events:none` control inside a `pointer-events:auto` panel. The click lands
+on the panel, the target never sees it, and the assertion said "reachable by mouse". Now only the
+target itself or a DESCENDANT of it counts, and the failure names the relationship. All five call sites
+were re-run under the strict rule and all five still pass — no app interception was hiding behind it.
+
+**Payload rules belong to the boot that declared them.** `PayloadRule` and `boot()` both said "THIS
+boot" while the table was never cleared, so a `never` silently governed every later boot of the same
+page. `boot()` now releases anything still held and clears the table before arming the new declaration.
+
+## Mouse-reachability claims: the exhaustive sweep (v1.82.5)
+
+Every spec that says a surface is clickable BY MOUSE must click it by mouse — `locator.click()` scrolls
+the element into view first and retries through interception, so it cannot support the claim. The whole
+suite was swept for reachability language (`pointer-events`, `reachable`, `clickable`, `intercept`,
+`elementFromPoint`, `mouse`, `overlap`), and these are all the sites that make such a claim:
+
+| site | verdict |
+|---|---|
+| `journeys/coldstart-backfill.spec.ts` (4 clicks: 3× `[data-land-mc-opt]`, 1× `[data-coach-next]`) | `j.clickByMouse` (v1.82.4) |
+| `gen/casual-challenge-cue-steals-tray-clicks.spec.ts` (leftmost option card) | `j.clickByMouse` (v1.82.5) — the site the v1.82.4 sweep missed; its invariant is literally "stays mouse-clickable" |
+| `gen/casual-curriculum-404-event-challenges-survive.spec.ts` | no change needed: it picks the first card whose own centre hit-tests to itself, in-page, before clicking — the claim is carried by that measurement |
+| `gen/holder-reward-beats-carry-reward-voices.spec.ts` | no claim: measures a boundingBox to pick a card clear of the cue |
+| `gen/mid-locked-rows-inert.spec.ts`, `gen/returner-failed-recall-never-demotes-mastery.spec.ts`, `gen/ready-capstone-win-feeds-two-challenge-consumers-once.spec.ts` | no claim: overlay notes are harness gotchas; the assertions are about inertness / recall / awards |
+| `journeys/challenges-ui.spec.ts`, `journeys/coldstart-funnel.spec.ts` | geometry-only non-overlap assertions, no click |
 
 The JSON fixtures below are TRACKED, CITED evidence, so they are refreshed **deliberately**, never
 as a side effect of a test run. v1.82.0 wrote them on every non-CI run, which left the tree dirty

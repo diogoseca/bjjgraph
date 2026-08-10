@@ -45,10 +45,12 @@ type W = Window & { __neural?: any; NG_CONTENT?: any };
  * to the harness, and two rounds of green tests said nothing about it. A test that cannot express
  * the defect cannot defend the fix.
  *
- *   afterSim  release once N SIMULATED seconds have been pumped through advance() since boot.
- *             This is the honest unit: in test mode the roll loop runs on the advance() pump, so
- *             "the decks land 18s after the hand" is a statement about sim time, and it stays
- *             deterministic on any machine.
+ *   afterSim  release once N SIMULATED seconds have been pumped through advance() SINCE THIS BOOT.
+ *             This is the honest unit: in test mode the roll loop runs on the advance() pump, so a
+ *             payload arrival is a statement about sim time and stays deterministic on any machine.
+ *             MIND THE ORIGIN — it is boot, the same origin the measured timeline uses, NOT the first
+ *             hand. On Fast-4G the hand is dealt at ~7.0s and the decks land at 25.3s, so the
+ *             18-second skew between them is `afterSim: 25`; `afterSim: 18` would model ~11s of it.
  *   afterMs   release N real milliseconds after the request. For things measured on the wall clock
  *             (CSS entry animations, `setTimeout` retries) rather than the roll loop.
  *   never     never release: the request stays open for the whole test, exactly like a stalled
@@ -56,7 +58,9 @@ type W = Window & { __neural?: any; NG_CONTENT?: any };
  *             branch, which is a different (and much better tested) story than silence.
  *
  * The rule is armed BEFORE the navigation that requests the payload, so it covers the very first
- * boot; `releasePayload()` lands a held one early.
+ * boot; `releasePayload(pattern)` lands the held ones it NAMES early (and only those — a bare
+ * `releasePayload()` means everything). Rules belong to the boot that declared them: boot() clears
+ * the table, so a `never` in one boot cannot silently govern the next.
  */
 export type PayloadRule = {
   afterSim?: number;
@@ -104,8 +108,14 @@ type PageState = {
   wallT0: number;
   rules: Array<{ pattern: string; re: RegExp; rule: PayloadRule }>;
   log: PayloadEvent[];
-  /** every held request's escape hatch (true = serve it now, false = the test is over) */
-  gates: Set<(serve: boolean) => void>;
+  /** every held request's escape hatch (true = serve it now, false = the test is over), REMEMBERING
+   *  which rule armed it and which URL it is holding — `releasePayload(pattern)` must land only the
+   *  payloads it names, and a gate that has forgotten its own identity cannot be selected. */
+  gates: Set<{
+    pattern: string;
+    url: string;
+    done: (serve: boolean) => void;
+  }>;
   disposed: boolean;
   noCurriculum: boolean;
 };
@@ -205,6 +215,11 @@ export class Journey {
         .evaluate(() => sessionStorage.setItem("__ng_keep", "1"))
         .catch(() => {});
     }
+    // Rules belong to THIS boot, as PayloadRule says: a `never` declared for one boot must not
+    // silently govern the next (afterSim/afterMs are already re-based per boot below — the table was
+    // the one piece of the declaration that outlived it). Any request still held from the previous
+    // boot is released here too, so nothing is left waiting on a rule that no longer exists.
+    if (this.st.rules.length) this.releasePayload();
     if (opts.payloads)
       for (const [pattern, rule] of Object.entries(opts.payloads))
         this.delayPayload(pattern, rule);
@@ -289,7 +304,7 @@ export class Journey {
           releasedAtMs: null,
         };
         this.st.log.push(ev);
-        if (!(await this.holdFor(hit.rule))) {
+        if (!(await this.holdFor(hit.rule, hit.pattern, url))) {
           // still held when the page went away: leave the request as it is (a stalled connection
           // never answers). abort() would hand the app its `.catch()` branch, a different story.
           return;
@@ -452,12 +467,23 @@ export class Journey {
     return this;
   }
 
-  /** Land a held payload NOW, whatever its rule said — "the connection finally came back". */
+  /** Land a held payload NOW, whatever its rule said — "the connection finally came back".
+   *
+   *  SCOPED TO THE PATTERN. The pattern is matched against each held request's URL and against the
+   *  rule pattern that armed it, so `releasePayload("flashcards.json")` lands the decks and leaves
+   *  every other held payload exactly where it was. (It used to resolve EVERY gate: two payloads
+   *  held, one released, both landed — which silently voided any claim about the ORDER of two late
+   *  payloads, including the per-deck-chunk rules the chunking work needs.) A bare
+   *  `releasePayload()` still means everything, which is what teardown uses. */
   releasePayload(pattern?: string) {
     const re = pattern ? globToRe(pattern) : null;
+    // a gate is named either by its live URL ("flashcards.json" matches the request) or by the rule
+    // pattern that armed it (so a spec can release exactly what it declared, however it spelled it)
+    const named = (g: { pattern: string; url: string }) =>
+      !re || re.test(g.url) || re.test(g.pattern);
     if (re) this.st.rules = this.st.rules.filter((r) => !re.test(r.pattern));
     else this.st.rules = [];
-    for (const g of Array.from(this.st.gates)) g(true); // held requests fall through and are served
+    for (const g of Array.from(this.st.gates)) if (named(g)) g.done(true); // this one falls through and is served
     return this;
   }
 
@@ -491,16 +517,27 @@ export class Journey {
   /** Resolve true when the rule says "land it now", false if the test ended first. Polling in real
    *  time is what lets the spec's own advance() calls (which run on the SAME event loop) move the
    *  simulated clock while a request sits held. */
-  private holdFor(rule: PayloadRule): Promise<boolean> {
+  private holdFor(
+    rule: PayloadRule,
+    pattern: string,
+    url: string,
+  ): Promise<boolean> {
     if (this.st.disposed) return Promise.resolve(false);
     return new Promise<boolean>((res) => {
       let timer: ReturnType<typeof setTimeout> | null = null;
-      const done = (v: boolean) => {
-        if (timer) clearTimeout(timer);
-        this.st.gates.delete(done);
-        res(v);
+      const gate = {
+        pattern,
+        url,
+        // `gate` is referenced from its own method: the closure only runs when the gate is resolved,
+        // long after the object exists, and holding the reference is what lets it de-register itself.
+        done: (v: boolean) => {
+          if (timer) clearTimeout(timer);
+          this.st.gates.delete(gate);
+          res(v);
+        },
       };
-      this.st.gates.add(done);
+      const done = gate.done;
+      this.st.gates.add(gate);
       if (rule.never) return; // only releasePayload() or the page closing ends this one
       const started = Date.now();
       const need = (rule.afterSim || 0) * 1000;
@@ -517,7 +554,7 @@ export class Journey {
 
   private dispose() {
     this.st.disposed = true;
-    for (const g of Array.from(this.st.gates)) g(false);
+    for (const g of Array.from(this.st.gates)) g.done(false);
     this.st.gates.clear();
   }
 
@@ -551,9 +588,24 @@ export class Journey {
         return out;
       }
       const top = document.elementFromPoint(out.x, out.y) as HTMLElement | null;
-      out.ok = !!top && (top === el || el.contains(top) || top.contains(el));
-      if (!out.ok)
-        out.why = `elementFromPoint(${Math.round(out.x)},${Math.round(out.y)}) is <${top ? top.tagName.toLowerCase() : "null"}${top && top.className ? " class=" + JSON.stringify(String(top.className)) : ""}> — the click would land on THAT`;
+      // The target itself, or a DESCENDANT of it (the point is inside the target — a child label,
+      // an icon span — so the click lands in the target and bubbles to it). Nothing else counts.
+      //
+      // `top.contains(el)` used to be accepted too, and it is the exact interception this helper
+      // exists to catch: an ANCESTOR overlay owning the point means the click is delivered to the
+      // overlay, the target never sees it, and (commonest shape of all) a `pointer-events:none`
+      // control inside a `pointer-events:auto` panel passed as "reachable by mouse".
+      out.ok = !!top && (top === el || el.contains(top));
+      if (!out.ok) {
+        const who = top
+          ? `<${top.tagName.toLowerCase()}${top.id ? " id=" + JSON.stringify(top.id) : ""}${top.className ? " class=" + JSON.stringify(String(top.className)) : ""}>`
+          : "nothing";
+        out.why =
+          `elementFromPoint(${Math.round(out.x)},${Math.round(out.y)}) is ${who} — ` +
+          (top && top.contains(el)
+            ? "an ANCESTOR of the target that owns the point, so the click is captured by IT and the target never sees it"
+            : "the click would land on THAT");
+      }
       return out;
     }, selector);
     expect(

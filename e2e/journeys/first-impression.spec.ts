@@ -336,11 +336,16 @@ for (const [roleDraw, side, other] of [
  *      is that side's deck — this is the seam `deckRole()` broke: it read the side off the node
  *      TITLE, and all 136 collapsed hub titles end in "Top", so the fallback to `playerRole` was
  *      dead code and every bottom landing was described by the top deck;
- *   3. the dealt hand is the hand for that side — every option passes the app's own role filter
- *      (`myVal >= oppVal - 0.05`, the exact test in optionsFor) under the side named, WHENEVER that
- *      filter produced a hand at all.
+ *   3. and the dealt hand is MEASURED, not claimed. This clause used to re-run optionsFor's own
+ *      predicate (`myVal >= oppVal - 0.05`) over the hand that predicate had just produced, so it was
+ *      a TAUTOLOGY — it could not fail, which makes it a false green whatever it reads. It now checks
+ *      the independent fact: the AUTHORED origin role (`fromRole`, hand-written in the content JSON).
+ *      That disagrees with the dealt hand for 116 of the 163 role-filtered combos, which is the
+ *      game-wide coherence gap reproduced as quarantine Q008 and deliberately NOT fixed here — so it
+ *      is asserted as a non-growing ceiling with the count in the failure message.
  *
- * That last qualifier is not a hedge, it is a measured pre-existing hole and the test reports it:
+ * The escape-hatch qualifier below is not a hedge either; it is a measured pre-existing hole and the
+ * test reports it:
  * `optionsFor` has a documented escape — "safety: if role-filtering left nothing, fall back to the
  * best-for-me handful" — which deals WITHOUT the role filter. It fires for 109 of the 272 combos,
  * because 54 of the 136 positions have no adjacent technique whose canonical origin
@@ -354,7 +359,7 @@ for (const [roleDraw, side, other] of [
  * the card, in that order, and it is the only way to walk 272 landings in one test. The two tests
  * above already walk the full startRoll -> intro -> coach path end to end.
  */
-test("WIN 2 as a property: every first-roll state, both sides, agrees about which side you are on", async ({
+test("WIN 2 as a property: on every first-roll state, both sides, the card and its deck name the side you are playing (the dealt hand is measured, not claimed)", async ({
   page,
 }) => {
   const j = journey(page);
@@ -422,10 +427,18 @@ test("WIN 2 as a property: every first-roll state, both sides, agrees about whic
             a.nodeForKey(
               a.posFamily(nd.t) + "|" + (role === "bottom" ? "Bottom" : "Top"),
             ) === nd.idx,
-          // the app's OWN membership test, evaluated under the side the card names
-          wrongSide: hand
-            .filter((n: any) => a.myVal(n) < a.oppVal(n) - 0.05)
-            .map((n: any) => n.t),
+          // THE AUTHORED ORIGIN of each dealt move, which is independent of the filter that dealt it.
+          // (This clause used to re-run `myVal < oppVal - 0.05` over the hand that predicate had just
+          // produced — a tautology: it could not fail, and a test that cannot fail is a false green.
+          // `fromRole` is content, written by hand in content/Transitions/*.json, and it is the only
+          // statement in the data about whose move this is.)
+          authoredOther: hand
+            .filter(
+              (n: any) =>
+                n.fromRole && String(n.fromRole).toLowerCase() !== role,
+            )
+            .map((n: any) => n.t + " [" + n.fromRole + "]"),
+          authoredKnown: hand.filter((n: any) => !!n.fromRole).length,
         });
       }
     }
@@ -440,7 +453,7 @@ test("WIN 2 as a property: every first-roll state, both sides, agrees about whic
         idText: r.idText,
         deckKey: r.deckKey,
         wantKey: r.wantKey,
-        wrongSide: r.wrongSide,
+        authoredOther: r.authoredOther,
       })),
       null,
       1,
@@ -475,13 +488,20 @@ test("WIN 2 as a property: every first-roll state, both sides, agrees about whic
     `${unresolvable.length}/272 deck keys do not resolve back to their own node: ${brief(unresolvable)}`,
   ).toBe(0);
 
-  // where the app DID choose a side's hand, every card in it belongs to that side
+  // ── the dealt hand, measured against the AUTHORED origin role (not against the predicate that
+  // dealt it). This is the game-wide coherence gap reproduced as quarantine Q008: `optionsFor`
+  // decides "is this move mine?" from the strength pair `n.s`, while the content says whose move it
+  // is in `fromRole`. Asserted as a NON-GROWING CEILING, with the count in the message, because
+  // fixing it is a content/graph job and this journey is not its home — but it must never grow, and
+  // (unlike the tautology this replaces) it CAN fail.
   const chose = audit.filter((r) => r.roleFiltered);
-  const wrongHand = chose.filter((r) => r.wrongSide.length);
+  const authoredOther = chose.filter((r) => r.authoredOther.length);
   expect(
-    wrongHand.length,
-    `${wrongHand.length}/${chose.length} role-filtered hands contain a move dealt to the OTHER side: ${brief(wrongHand)}`,
-  ).toBe(0);
+    authoredOther.length,
+    `${authoredOther.length}/${chose.length} role-filtered hands contain a move whose AUTHORED origin ` +
+      `role is the other side (see e2e/quarantine Q008 — optionsFor filters on the strength pair, ` +
+      `not on fromRole). Ceiling only; do not let it grow. Examples: ${brief(authoredOther)}`,
+  ).toBeLessThanOrEqual(116);
 
   // ...and the pre-existing hole is REPORTED, with a ceiling, never hidden. See the header: these
   // combos deal from optionsFor's no-candidates escape, which has no role filter at all.
@@ -493,6 +513,96 @@ test("WIN 2 as a property: every first-roll state, both sides, agrees about whic
       `position). Graph-data coherence, out of scope here — but this ceiling must not grow. ` +
       `Examples: ${JSON.stringify(escaped.slice(0, 5).map((r) => r.node + "/" + r.role))}`,
   ).toBeLessThanOrEqual(109);
+});
+
+/**
+ * THE DOSSIER TITLE, ON BOTH SIDES.
+ *
+ * The dossier is the landing card's `More ▸`, so it inherits the same rule: name the side being
+ * played, once, and never contradict it. Its headline is built by STRIPPING the role word out of the
+ * node title — and the strip was written against the role it was about to print:
+ *
+ *     const title = role ? sp.main.replace(new RegExp("\\s+" + role + "\\s*$", "i"), "") : sp.main
+ *
+ * While `role` came off the (constant) title that was self-consistent: role was always "Top", every
+ * position title ends in " Top", so the suffix always came off and the headline read "Mount". Making
+ * `role` the side actually in play broke exactly that coupling: on a bottom landing role is "Bottom",
+ * `\s+Bottom$` cannot match "Mount Top", so nothing is stripped and the headline reads "Mount Top"
+ * with a "Bottom" badge beside it — the very contradiction the played-side work exists to remove,
+ * reintroduced one surface over. The same hole opens whenever the badge is suppressed because the
+ * authored copy came from the other side (`role = null`).
+ *
+ * The title is a NAME. It never depended on which side is in play, and it must not: strip the
+ * collapsed hub's rendering artifact unconditionally for positions, leave technique titles alone.
+ */
+test("the dossier headline is the position's name on both sides, never the other side's suffix", async ({
+  page,
+}) => {
+  const j = journey(page);
+  await j.boot("/", { keepTutorial: true });
+
+  const read = await page.evaluate(() => {
+    const a = (window as any).__neural;
+    const pos = a.nodes.findIndex(
+      (n: any) => n.ty === "positions" && n.t === "Mount Top",
+    );
+    // any technique reachable from here — the point is that its headline is side-agnostic
+    const tech = (a.adj[pos] || []).find(
+      (k: number) => a.nodes[k].ty !== "positions",
+    );
+    const out: any = { sides: {}, techTitle: null, techWanted: null };
+    const panel = () => {
+      const el = document.querySelector("[data-dossier-title]");
+      const badge = document.querySelector("[data-dossier-badge]");
+      return {
+        title: el ? (el.textContent || "").trim() : null,
+        badge: badge ? (badge.textContent || "").trim() : null,
+      };
+    };
+    for (const role of ["top", "bottom"]) {
+      a.playerRole = role;
+      a.currentPos = pos;
+      // both render modes: the panel (`More ▸`) and the in-node card share one title computation
+      a.renderDossier(a.nodes[pos]);
+      const p = panel();
+      const nodeEl = document.createElement("div");
+      a.renderDossier(a.nodes[pos], nodeEl);
+      const nt = nodeEl.querySelector("[data-dossier-title]");
+      out.sides[role] = {
+        panelTitle: p.title,
+        panelBadge: p.badge,
+        nodeTitle: nt ? (nt.textContent || "").trim() : null,
+      };
+    }
+    // a technique node has no side in play and no role suffix — its title must be untouched
+    a.renderDossier(a.nodes[tech]);
+    out.techTitle = panel().title;
+    out.techWanted = a.splitName(a.nodes[tech].t).main;
+    return out;
+  });
+
+  for (const [role, want] of [
+    ["top", "Top"],
+    ["bottom", "Bottom"],
+  ] as const) {
+    const r = read.sides[role];
+    expect(
+      r.panelTitle,
+      `playing ${role}, the dossier headline is the position's NAME (got ${JSON.stringify(r.panelTitle)}, badge ${JSON.stringify(r.panelBadge)})`,
+    ).toBe("Mount");
+    expect(
+      r.nodeTitle,
+      `and the in-node card says the same thing (got ${JSON.stringify(r.nodeTitle)})`,
+    ).toBe("Mount");
+    expect(
+      r.panelBadge,
+      `with the side being played on the badge, not in the headline`,
+    ).toBe(want.toUpperCase() === "TOP" ? "Top" : "Bottom");
+  }
+  expect(
+    read.techTitle,
+    "and a technique's headline is untouched by any of this",
+  ).toBe(read.techWanted);
 });
 
 test("the role cannot be read off the node title — every pool entry is titled Top", async ({

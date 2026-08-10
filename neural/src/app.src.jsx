@@ -1397,8 +1397,27 @@ class Component extends DCLogic {
   _returningVisitor() {
     if (this._returning != null) return this._returning;
     let r = false;
-    try { r = !!(localStorage.getItem("bjj-neural-progress") || localStorage.getItem("bjj-neural-coached") || localStorage.getItem("bjj-neural-firstroll")); } catch (e) { /* private mode */ }
+    try { r = !!(localStorage.getItem("bjj-neural-progress") || localStorage.getItem("bjj-neural-coached") || localStorage.getItem("bjj-neural-firstroll") === "1"); } catch (e) { /* private mode */ }
     return (this._returning = r);
+  }
+  // ── IS THE FIRST IMPRESSION STILL OWED? ── latched once per app life, like _returningVisitor.
+  //
+  // `bjj-neural-firstroll` carries three states: ABSENT (never drawn), "owed" (drawn, but the traffic
+  // weights had not landed, so the biased opening WIN 1 exists for was never actually GIVEN) and "1"
+  // (given). Only "1" is evidence of a first impression, and "owed" outranks every other marker.
+  //
+  // It has to, because the other two markers `_returningVisitor` reads are written by ordinary play
+  // inside the very visit whose draw degraded: `bjj-neural-coached` when the newcomer finishes the
+  // 3-panel coach, `bjj-neural-progress` on the first save (grading one card is enough). Neither is
+  // evidence that an opening was given, but both persist — so treating them as proof spent an
+  // impression that was never made, and spent it FOR EVER: the newcomer with the worst connection,
+  // the one the bias helps most, kept the ~95%-unnameable opening on every future visit. Within a
+  // session this was already safe (_returningVisitor is latched), which is exactly why it hid.
+  _firstImpressionOwed() {
+    if (this._owedFirst != null) return this._owedFirst;
+    let v = null;
+    try { v = localStorage.getItem("bjj-neural-firstroll"); } catch (e) { /* private mode */ }
+    return (this._owedFirst = !!v && v !== "1");
   }
   _csInit() {
     this._cs = { at: {}, cold: !this._returningVisitor(), last: 0, reported: false, hides: 0 };
@@ -3528,7 +3547,7 @@ class Component extends DCLogic {
     const c = b.tone === "ahead" ? ["#7fb4ff", "rgba(90,155,240,.13)", "rgba(90,155,240,.34)"]
       : b.tone === "behind" ? ["#ff9a8f", "rgba(242,104,95,.13)", "rgba(242,104,95,.34)"]
       : ["#cfd6e4", "rgba(150,170,210,.12)", "rgba(150,170,210,.3)"];
-    return '<span title="blue = you\u2019re ahead \u00b7 red = you\u2019re behind" style="font-size:' + fs + 'px;font-weight:800;letter-spacing:.07em;text-transform:uppercase;color:' + c[0] + ';background:' + c[1] + ';border:1px solid ' + c[2] + ';border-radius:999px;padding:' + pad + ';">' + b.label + '</span>';
+    return '<span data-dossier-badge title="blue = you\u2019re ahead \u00b7 red = you\u2019re behind" style="font-size:' + fs + 'px;font-weight:800;letter-spacing:.07em;text-transform:uppercase;color:' + c[0] + ';background:' + c[1] + ';border:1px solid ' + c[2] + ';border-radius:999px;padding:' + pad + ';">' + b.label + '</span>';
   }
   _zoomOpenCheck(vw) {
     if (!this.isMobile() || !this.nodes || !this.cam) return;
@@ -3560,7 +3579,14 @@ class Component extends DCLogic {
     // authored copy is side-specific; if it came from the other side, don't contradict it with a badge
     const lm = legacyKey.match(/\|(Top|Bottom)$/i);
     if (role && lm && lm[1].toLowerCase() !== role.toLowerCase()) role = null;
-    const title = role ? sp.main.replace(new RegExp("\\s+" + role + "\\s*$", "i"), "") : sp.main;
+    // THE HEADLINE IS A NAME, never a statement about the side. Every one of the 136 collapsed
+    // position hubs is titled "… Top" by graph-data.json, so that suffix is a rendering artifact and
+    // comes off for EVERY position, whichever side is in play — naming the side is the badge's job.
+    // Stripping `role` instead coupled the two, and it only looked right while `role` was the (always
+    // "Top") title suffix: once it became the side actually being played, `\s+Bottom\s*$` could not
+    // match "Mount Top", so a bottom landing's dossier read "Mount Top" next to a "Bottom" badge —
+    // and the same hole opened whenever the badge was suppressed for other-side authored copy.
+    const title = n.ty === "positions" ? this.posFamily(sp.main) : sp.main;
     const dom0 = n.dom || 0;
     const badge = n.ty === "positions"
       ? (role ? { label: role, tone: dom0 >= 0.18 ? "ahead" : dom0 <= -0.18 ? "behind" : "even" } : null)
@@ -3607,7 +3633,7 @@ class Component extends DCLogic {
         : '<span style="font-size:.82em;letter-spacing:.16em;text-transform:uppercase;font-weight:800;color:' + col + ';">' + cat + '</span>';
       let c = '<div style="display:flex;align-items:center;justify-content:center;gap:.66em;">' + kick + this.badgePill(badge, 10, "3px 12px") + '</div>';
       // diamond/tri narrow sharply toward the title's height — keep the headline inside the shape
-      c += '<div style="font-family:\'Space Grotesk\',sans-serif;font-size:' + (shape === "circle" ? "2.05em" : "1.7em") + ';font-weight:600;letter-spacing:-.01em;line-height:1.12;color:#eef1f6;max-width:' + (shape === "circle" ? "15em" : "11em") + ';">' + title + '</div>';
+      c += '<div data-dossier-title style="font-family:\'Space Grotesk\',sans-serif;font-size:' + (shape === "circle" ? "2.05em" : "1.7em") + ';font-weight:600;letter-spacing:-.01em;line-height:1.12;color:#eef1f6;max-width:' + (shape === "circle" ? "15em" : "11em") + ';">' + title + '</div>';
       if (sp.from && (!role || sp.from.toLowerCase() !== role.toLowerCase())) c += '<div style="font-size:.94em;color:#8b97b0;margin-top:-.3em;">' + sp.from + '</div>';
       if (ovN) c += '<p style="margin:0;max-width:' + (shape === "circle" ? "27em" : "22em") + ';font-size:1em;line-height:1.5;color:#9aa6bd;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;">' + ovN + '</p>';
       if (nClips.length) {
@@ -3680,7 +3706,7 @@ class Component extends DCLogic {
         : this.nodeGlyph(n.ty, col, 9) + '<span style="font-size:9px;letter-spacing:.16em;text-transform:uppercase;font-weight:800;color:#9fb0d8;">' + cat + '</span>') +
       '</div>';
     h += '<div style="display:flex;align-items:center;gap:9px;flex-wrap:wrap;margin-top:7px;">' +
-      '<span style="font-family:\'Space Grotesk\',sans-serif;font-size:22px;font-weight:600;letter-spacing:-.01em;line-height:1.1;color:#eef1f6;">' + title + '</span>' +
+      '<span data-dossier-title style="font-family:\'Space Grotesk\',sans-serif;font-size:22px;font-weight:600;letter-spacing:-.01em;line-height:1.1;color:#eef1f6;">' + title + '</span>' +
       this.badgePill(badge, 9.5, "2.5px 10px") +
       '</div>';
     if (sp.from && (!role || sp.from.toLowerCase() !== role.toLowerCase())) h += '<div style="font-size:12px;color:#8b97b0;margin-top:3px;">' + sp.from + '</div>';
@@ -5480,7 +5506,9 @@ class Component extends DCLogic {
     // it takes it once a weighted draw has actually been GIVEN (see the marker note below).
     if (!this._firstRollDone) {
       const u = this.rng("start-pos");
-      const fresh = !this._returningVisitor();
+      // owed OUTRANKS the other markers: coach-finished and progress-saved are written by ordinary
+      // play in the same visit as a degraded draw, and neither is evidence of an opening given.
+      const fresh = this._firstImpressionOwed() || !this._returningVisitor();
       let weighted = false;
       if (fresh) { const d = this._weightedStart(positions, u); this.currentPos = d.idx; weighted = d.weighted; }
       else this.currentPos = positions[(u * positions.length) | 0];
@@ -5490,12 +5518,15 @@ class Component extends DCLogic {
       // the historical uniform pick. Marking the visitor as having had their first roll THERE latched
       // that degradation for ever: the newcomer with the worst link — the one the bias helps most —
       // would get the old ~95%-unnameable opening on this visit and on every visit after it, because
-      // `bjj-neural-firstroll` makes them a returning player. So the marker is written only when a
+      // `bjj-neural-firstroll` makes them a returning player. So "given" is written only when a
       // weighted draw really happened, and the branch stays ARMED in-session otherwise: the next roll
       // after curriculum.json lands takes the biased draw. Either way exactly ONE `start-pos` value is
       // consumed, so rigged replays are structurally identical.
+      // A degraded draw writes "owed" INSTEAD — durably, because the visitor may not come back in this
+      // session, and by then the coach and the first save have made them look like a returning player
+      // (see _firstImpressionOwed). "owed" is what makes the debt survive that.
       this._firstRollDone = !fresh || weighted;
-      if (fresh && weighted) { try { localStorage.setItem("bjj-neural-firstroll", "1"); } catch (e) { /* private mode */ } }
+      if (fresh) { try { localStorage.setItem("bjj-neural-firstroll", weighted ? "1" : "owed"); } catch (e) { /* private mode */ } }
     } else {
       this.currentPos = positions[(this.rng("start-pos") * positions.length) | 0];
     }

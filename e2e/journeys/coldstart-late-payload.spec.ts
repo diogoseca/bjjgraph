@@ -16,9 +16,14 @@ import { journey } from "../dsl";
  * against it can only ever confirm the fast path. Two rounds of green tests said nothing about the
  * slow one, which is why every cold-start claim had to be taken on faith.
  *
- * These tests declare the skew (`boot({ payloads: { "flashcards.json": { afterSim: 18 } } })`, see
+ * These tests declare the skew (`boot({ payloads: { "flashcards.json": { afterSim: 25 } } })`, see
  * PayloadRule in ../dsl) and then read the app's own instrumentation across it. No throttling, no
  * wall-clock assertions: sim time is pumped by the spec, so the ordering is exact on any machine.
+ *
+ * MIND THE ORIGIN. `afterSim` counts from BOOT, the same origin as the timeline above — so the
+ * EIGHTEEN-second silence between the hand and the decks is `afterSim: 25`, and the assertion that
+ * pins it measures `releasedAtSim - (sim clock when the hand was dealt)`, not lateness from boot.
+ * Declared as 18 and measured from boot, this spec modelled 13 of the 18 seconds it quoted.
  */
 
 type Mark = {
@@ -76,9 +81,13 @@ test("cold start: the harness can hold a payload back, and the app plays its fir
   // THE CAPABILITY, USED. This is the state a 4G visitor's opening decision is actually taken in,
   // reached without stubbing anything on the app: the real fetch is simply still in flight.
   const j = journey(page);
+  // afterSim is measured from BOOT, the same origin as the measured timeline — so the production skew
+  // (hand @7.0s, decks @25.3s: eighteen seconds of silence between them) is `afterSim: 25`, not 18.
+  // Declared as 18, with the harness dealing this hand at sim 5.0s, it modelled 13 of those 18
+  // seconds — which is why the assertion at the bottom measures the gap FROM THE HAND, not from boot.
   await j.boot("/", {
     keepTutorial: true,
-    payloads: { "flashcards.json": { afterSim: 18 } },
+    payloads: { "flashcards.json": { afterSim: 25 } },
   });
   expect(
     await page.evaluate(() => !!(window as any).__neural.flashcards),
@@ -86,6 +95,7 @@ test("cold start: the harness can hold a payload back, and the app plays its fir
   ).toBe(false);
 
   await firstHand(j, page);
+  const handAtSim = j.simElapsed(); // when the visitor's opening decision was actually put to them
   const atHand = await page.evaluate(() => ({
     options: ((window as any).__neural.optionIdxs || []).length,
     decks: !!(window as any).__neural.flashcards,
@@ -113,7 +123,13 @@ test("cold start: the harness can hold a payload back, and the app plays its fir
   ).toBe("decks_in_flight");
 
   // ── the payload lands, for real, through the app's own fetch().then() ──
-  await j.advance(20000);
+  // Pumped in SMALL steps on purpose: the delay layer polls the sim clock between advance() calls, so
+  // one giant advance() would have the harness notice the release 27 seconds late and any measurement
+  // of WHEN it landed would be an artefact of the pump size rather than the declared rule.
+  for (let spent = 0; spent < 40000; spent += 500) {
+    await j.advance(500);
+    if (await page.evaluate(() => !!(window as any).__neural.flashcards)) break;
+  }
   await page.waitForFunction(
     () => !!(window as any).__neural.flashcards,
     null,
@@ -134,9 +150,13 @@ test("cold start: the harness can hold a payload back, and the app plays its fir
     tl[0].requestedAtSim,
     "asked for during boot, before any sim time was pumped",
   ).toBe(0);
+  // THE SKEW IS A GAP BETWEEN TWO EVENTS, so it is measured between them. Asserting only
+  // `releasedAtSim >= 18000` measured lateness from BOOT and quietly counted the ~7 seconds the
+  // visitor spent waiting for the hand as part of the silence they endured WITH it.
   expect(
-    tl[0].releasedAtSim,
-    `served after the declared skew (${JSON.stringify(tl[0])})`,
+    tl[0].releasedAtSim! - handAtSim,
+    `the decks land at least 18 simulated seconds AFTER the hand was dealt — the production skew ` +
+      `(hand @7.0s, decks @25.3s). hand at ${handAtSim}ms, payload ${JSON.stringify(tl[0])}`,
   ).toBeGreaterThanOrEqual(18000);
 });
 
@@ -238,15 +258,15 @@ test("cold start: a slow link does not latch the newcomer into the uniform lotte
     a.startRoll();
     return {
       pos: a.nodes[a.currentPos].t,
-      marked: !!localStorage.getItem("bjj-neural-firstroll"),
+      marked: localStorage.getItem("bjj-neural-firstroll"),
       firstRollDone: !!a._firstRollDone,
       returning: a._returningVisitor(),
     };
   });
   expect(
     degraded.marked,
-    `a draw that could not be weighted must not spend the first impression (opened on ${degraded.pos})`,
-  ).toBe(false);
+    `a draw that could not be weighted must not spend the first impression — the marker may record that one is still OWED, never that it was given (opened on ${degraded.pos})`,
+  ).not.toBe("1");
   expect(
     degraded.firstRollDone,
     "and the first-ever branch stays armed, so it can still be given",
@@ -280,7 +300,7 @@ test("cold start: a slow link does not latch the newcomer into the uniform lotte
     }
     return {
       share: nameable / N,
-      marked: !!localStorage.getItem("bjj-neural-firstroll"),
+      marked: localStorage.getItem("bjj-neural-firstroll"),
     };
   });
   expect(
@@ -289,9 +309,121 @@ test("cold start: a slow link does not latch the newcomer into the uniform lotte
   ).toBeGreaterThan(0.4);
   expect(
     recovered.marked,
-    "and NOW the first impression is recorded as spent",
-  ).toBe(true);
+    "and NOW the first impression is recorded as GIVEN, not merely owed",
+  ).toBe("1");
 });
+
+/**
+ * ...AND THE OTHER TWO WAYS THE SAME IMPRESSION WAS SPENT.
+ *
+ * `bjj-neural-firstroll` is now withheld when the draw could not be weighted. But it is only ONE of
+ * the three markers `_returningVisitor()` reads, and the other two are written by ordinary play in
+ * the very visit whose draw degraded: `bjj-neural-coached` when the newcomer finishes the 3-panel
+ * coach, and `bjj-neural-progress` on the first save (grading a card is enough). Within the session
+ * that is harmless — `_returningVisitor` is latched once per app life — but the visitor RELOADS, or
+ * comes back tomorrow, and now the profile says "been here before" while the biased opening they were
+ * owed has never been given. The newcomer on the worst connection keeps the ~95%-unnameable opening
+ * for ever: exactly the defect the firstroll fix was for, reached by a different door.
+ *
+ * So the rule is the rule, whichever marker is involved: a first impression that could not be made
+ * properly has not been spent. The degraded draw records that it is still OWED, durably, and that
+ * outranks any evidence of ordinary play.
+ */
+for (const [what, spend] of [
+  [
+    "finishing the coach",
+    () => {
+      const a = (window as any).__neural;
+      a.finishCoach(); // writes bjj-neural-coached
+    },
+  ],
+  [
+    "the first progress save",
+    () => {
+      const a = (window as any).__neural;
+      a.prep = a.prep || {};
+      a.prep["Mount|Top"] = 1;
+      a._flushSave(); // writes bjj-neural-progress
+    },
+  ],
+] as const) {
+  test(`cold start: ${what} does not spend a first impression that was never given`, async ({
+    page,
+  }) => {
+    const j = journey(page);
+    await j.boot("/", {
+      keepTutorial: true,
+      payloads: { "curriculum.json": { never: true } },
+    });
+
+    // the degraded first draw: the weights are not there, so the opening is the old uniform pick
+    const degraded = await page.evaluate(() => {
+      const a = (window as any).__neural;
+      a.rig("start-pos", [0.42]);
+      a.rig("role", [0]);
+      a.startRoll();
+      return {
+        weights: !!a.curriculum,
+        marker: localStorage.getItem("bjj-neural-firstroll"),
+      };
+    });
+    expect(degraded.weights, "the traffic weights never landed").toBe(false);
+    expect(
+      degraded.marker,
+      "so the impression is not recorded as GIVEN (v1.82.4 already fixed that much)",
+    ).not.toBe("1");
+
+    // ...and now the visitor does the most ordinary thing there is, which writes the other marker
+    await page.evaluate(spend);
+
+    // they come back. The connection is fine this time, so the bias is available — the only question
+    // is whether the app still believes it owes them an opening.
+    await j.boot("/", { keepTutorial: true, preserveStorage: true });
+    expect(
+      await page.evaluate(() => !!(window as any).__neural.curriculum),
+      "the weights are there on this visit",
+    ).toBe(true);
+
+    const NAMES = [
+      "Closed Guard Top",
+      "Standing Position Top",
+      "Side Control Top",
+      "Half Guard Top",
+      "Open Guard Top",
+      "Mount Top",
+    ];
+    const now = await page.evaluate((names) => {
+      const a = (window as any).__neural;
+      let nameable = 0;
+      const N = 200;
+      const seen: Record<string, number> = {};
+      for (let i = 0; i < N; i++) {
+        a._firstRollDone = false; // re-arm the first-ever branch, as the sweeps above do
+        a.rig("start-pos", [(i + 0.5) / N]);
+        a.startRoll();
+        const t = a.nodes[a.currentPos].t;
+        seen[t] = (seen[t] || 0) + 1;
+        if ((names as string[]).indexOf(t) >= 0) nameable++;
+      }
+      return {
+        share: nameable / N,
+        marker: localStorage.getItem("bjj-neural-firstroll"),
+        top: Object.entries(seen)
+          .sort((x, y) => (y[1] as number) - (x[1] as number))
+          .slice(0, 4),
+      };
+    }, NAMES);
+
+    expect(
+      now.share,
+      `the opening they were owed is finally given (uniform would be 0.044); got ${now.share.toFixed(3)} — top: ${JSON.stringify(now.top)}`,
+    ).toBeGreaterThan(0.4);
+    expect(
+      now.marker,
+      "and NOW it is recorded as spent, so it happens exactly once",
+    ).toBe("1");
+  });
+}
 
 test("cold start: a payload that never arrives leaves a playable app, not a broken one", async ({
   page,
