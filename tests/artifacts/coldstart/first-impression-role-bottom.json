@@ -1,0 +1,16 @@
+{
+  "what": "the identity card's two lines against the side actually being played, and the hand dealt under it",
+  "nodeTitle": "X-Guard Top",
+  "role": "bottom",
+  "node": "X-Guard Top",
+  "name": "X-Guard",
+  "sideLine": "Bottom",
+  "hand": [
+    "X-Guard to Ashi Garami",
+    "Knee Pin from X-Guard",
+    "Standing Escape from X-Guard",
+    "X-Guard Technical Stand Up",
+    "X-Guard to Single Leg X",
+    "X-Guard Sweep"
+  ]
+}

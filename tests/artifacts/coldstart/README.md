@@ -34,12 +34,38 @@ is an observer, and an observer that mutates the gameplay beat stream is visible
 measures — it broke seven `e2e/gen` specs that use a fresh life's empty beat stream as their
 "rebuilt, not resumed" proof.
 
+## The first impression (v1.82.3)
+
+Two things about the very first screen a cold visitor plays, both fixed test-first in
+`e2e/journeys/first-impression.spec.ts`.
+
+**WHERE they open.** `startRoll()` drew the opening state uniformly from all 136 playable position
+role-nodes. The `withDeck` filter that was supposed to bias it is a no-op — all 136 carry a deck —
+so ~95% of first impressions opened somewhere a beginner has no name for (Gogoplata Control, Estima
+Lock Control, Hindulotine, Shoulder of Justice). A fresh profile's ONE first roll is now drawn from
+real roll traffic instead: `curriculum.weights` (the graph's stationary distribution, the same number
+Game Knowledge is built on) summed per position via each technique's single canonical origin,
+sharpened by `START_BIAS.gamma` and mixed with 2% uniform so all 136 keep a real chance. Measured:
+the six nameable hubs go from 4.4% of first impressions to ~66%. **Returning players are untouched**
+— same tag, same single draw, the historical uniform mapping, asserted `u`-by-`u`.
+
+**What the card CALLS it.** Every one of those 136 hub titles ends in "Top" (the visual graph
+collapses a position to one node and labels it with the top role), while the side you play is an
+independent coin flip — so half of all cold starts read "X-Guard Top" over "Bottom", above the bottom
+player's hand. The name line is now role-free and `roleTxt` is the only place a side is named.
+
+The brief proposed deriving `playerRole` from the node title, the way `rollFromPosition()` does. That
+is not available: a title-derived role is a CONSTANT ("top") across all 136, so it would delete
+bottom play from the game — which is also why `rollFromPosition` and every staged/roamed roll can
+only ever deal a top hand, and why `playFrom(idx, role)` has to set the role itself. Pinned by
+`first-impression.spec.ts`'s last test.
+
 ## How to regenerate
 
 The gates (deterministic, hermetic, in the push suite) — these write NOTHING:
 
 ```bash
-npx playwright test -c e2e/playwright.coldstart.config.ts coldstart-funnel coldstart-backfill coldstart-spine
+npx playwright test -c e2e/playwright.coldstart.config.ts coldstart-funnel coldstart-backfill coldstart-spine first-impression
 ```
 
 The JSON fixtures below are TRACKED, CITED evidence, so they are refreshed **deliberately**, never
@@ -47,7 +73,7 @@ as a side effect of a test run. v1.82.0 wrote them on every non-CI run, which le
 after a green test and made any later diff of the evidence untrustworthy:
 
 ```bash
-COLDSTART_CAPTURE=1 npx playwright test -c e2e/playwright.coldstart.config.ts coldstart-funnel
+COLDSTART_CAPTURE=1 npx playwright test -c e2e/playwright.coldstart.config.ts coldstart-funnel first-impression
 ```
 
 The probes (opt-in, NOT in any gate — one of them loads ~10MB over a throttled link):
@@ -67,11 +93,13 @@ grade a DIFFERENT worktree's `source/public`. That happened twice during this in
 |------|-----------|---------------|
 | `cold-start-observation.json` | `coldstart-funnel.spec.ts` | the first three states a fresh visitor sees: every visible overlay's text, which surfaces are mounted, the funnel marks so far |
 | `cold-start-beats.json` | `coldstart-funnel.spec.ts` | `{beats, funnel}` — the gameplay `fx()` stream and the cold-start marks, for that cold session |
-| `probe-first-roll-pool.json` | `coldstart-probe.spec.ts` | the 136-entry pool `startRoll()` draws a first-ever position from, and what each decile of the uniform draw yields |
+| `probe-first-roll-pool.json` | `coldstart-probe.spec.ts` | the 136-entry pool `startRoll()` draws a first-ever position from, and what each decile of the uniform draw yields. **PRE-v1.82.3 capture, kept as the proof of WIN 1** — the `withDeck` filter it shows as a no-op (136 of 136) is exactly the bug. After: `first-impression-draw.json` |
 | `probe-chrome.json` | `coldstart-probe.spec.ts` | computed visibility + text of every chrome surface at the first landing |
 | `probe-late-payload.json` | `coldstart-probe.spec.ts` | the landing card with the deck payload missing, and again after `onFlashcardsReady()`. **PRE-v1.82.1 capture, kept as the proof of the bug** — re-running the probe now shows `after.hasQ: true`. Gate: `e2e/journeys/coldstart-backfill.spec.ts` |
-| `probe-role-mismatch.json` | `coldstart-probe.spec.ts` | the identity line ("X-Guard Top") against the side actually being played ("Bottom") — still OPEN, this is WIN 2 |
+| `probe-role-mismatch.json` | `coldstart-probe.spec.ts` | the identity line ("X-Guard Top") against the side actually being played ("Bottom"). **PRE-v1.82.3 capture, kept as the proof of WIN 2.** After: `first-impression-role-*.json`. Gate: `e2e/journeys/first-impression.spec.ts` |
 | `probe-throttled-timeline.json` | `coldstart-probe.spec.ts` | an unrigged Fast-4G cold load: resource timings for the whole neural data layer against when each surface appears |
+| `first-impression-draw.json` | `first-impression.spec.ts` | WIN 1 after-state: the whole first-ever `start-pos` draw swept, and where the mass lands (uniform baseline 6/136 = .044) |
+| `first-impression-role-top.json`, `first-impression-role-bottom.json` | `first-impression.spec.ts` | WIN 2 after-state: the identity card's two lines against the side actually played, and the hand dealt under it, for BOTH role outcomes |
 
 Screenshots of the three states go to `e2e/gallery/coldstart-*.png` (gitignored — each is ~1MB of
 WebGL canvas), and only under `COLDSTART_CAPTURE=1`.

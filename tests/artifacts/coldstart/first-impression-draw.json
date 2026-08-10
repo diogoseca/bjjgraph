@@ -1,0 +1,322 @@
+{
+  "what": "where a fresh profile's first-ever roll opens, swept across the whole start-pos draw",
+  "uniformBaseline": 0.04411764705882353,
+  "poolSize": 136,
+  "samples": 500,
+  "distinct": 69,
+  "distinctOutsideNameable": 63,
+  "nameableShare": 0.656,
+  "top8": [
+    [
+      "Side Control Top",
+      103
+    ],
+    [
+      "Half Guard Top",
+      90
+    ],
+    [
+      "Closed Guard Top",
+      64
+    ],
+    [
+      "Mount Top",
+      38
+    ],
+    [
+      "Open Guard Top",
+      26
+    ],
+    [
+      "Back Control Top",
+      21
+    ],
+    [
+      "Turtle Top",
+      15
+    ],
+    [
+      "Gift Wrap Top",
+      13
+    ]
+  ],
+  "rank": [
+    [
+      "Side Control Top",
+      103
+    ],
+    [
+      "Half Guard Top",
+      90
+    ],
+    [
+      "Closed Guard Top",
+      64
+    ],
+    [
+      "Mount Top",
+      38
+    ],
+    [
+      "Open Guard Top",
+      26
+    ],
+    [
+      "Back Control Top",
+      21
+    ],
+    [
+      "Turtle Top",
+      15
+    ],
+    [
+      "Gift Wrap Top",
+      13
+    ],
+    [
+      "Butterfly Guard Top",
+      12
+    ],
+    [
+      "Buggy Choke Top",
+      10
+    ],
+    [
+      "Front Headlock Top",
+      7
+    ],
+    [
+      "Standing Position Top",
+      7
+    ],
+    [
+      "Seated Guard Top",
+      7
+    ],
+    [
+      "Leg Drag Control Top",
+      6
+    ],
+    [
+      "Headquarters Position Top",
+      4
+    ],
+    [
+      "Modified Mount Top",
+      4
+    ],
+    [
+      "Old School Top",
+      3
+    ],
+    [
+      "Knee Shield Half Guard Top",
+      3
+    ],
+    [
+      "Inside Ashi-Garami Top",
+      3
+    ],
+    [
+      "Clinch Top",
+      2
+    ],
+    [
+      "Triangle Control Top",
+      2
+    ],
+    [
+      "Combat Base Top",
+      2
+    ],
+    [
+      "Armbar Control Top",
+      2
+    ],
+    [
+      "Darce Control Top",
+      2
+    ],
+    [
+      "X-Guard Top",
+      2
+    ],
+    [
+      "De La Riva Guard Top",
+      2
+    ],
+    [
+      "North-South Top",
+      2
+    ],
+    [
+      "Grasshopper Guard Top",
+      2
+    ],
+    [
+      "Leg Weave Top",
+      2
+    ],
+    [
+      "Single Leg X-Guard Top",
+      2
+    ],
+    [
+      "Invisible Collar Top",
+      2
+    ],
+    [
+      "Crackhead Control Top",
+      2
+    ],
+    [
+      "50-50 Guard Top",
+      2
+    ],
+    [
+      "Reverse Mount Top",
+      1
+    ],
+    [
+      "Ashi Garami Top",
+      1
+    ],
+    [
+      "Omoplata Control Top",
+      1
+    ],
+    [
+      "Kneebar Control Top",
+      1
+    ],
+    [
+      "Spider Guard Top",
+      1
+    ],
+    [
+      "Anaconda Control Top",
+      1
+    ],
+    [
+      "Harness Top",
+      1
+    ],
+    [
+      "Leg Hook Top",
+      1
+    ],
+    [
+      "Overhook Guard Top",
+      1
+    ],
+    [
+      "Overhook Control Top",
+      1
+    ],
+    [
+      "Leg Knot Top",
+      1
+    ],
+    [
+      "Guillotine Control Top",
+      1
+    ],
+    [
+      "Standing Rear Clinch Top",
+      1
+    ],
+    [
+      "Knee on Belly Top",
+      1
+    ],
+    [
+      "Standing Guard Top",
+      1
+    ],
+    [
+      "Hindulotine Top",
+      1
+    ],
+    [
+      "Kimura Trap Top",
+      1
+    ],
+    [
+      "Dogfight Position Top",
+      1
+    ],
+    [
+      "Twister Control Top",
+      1
+    ],
+    [
+      "Rear Triangle Top",
+      1
+    ],
+    [
+      "Reverse Half Guard Top",
+      1
+    ],
+    [
+      "Lockdown Top",
+      1
+    ],
+    [
+      "Deep Half Guard Top",
+      1
+    ],
+    [
+      "Pocket Half Guard Top",
+      1
+    ],
+    [
+      "Technical Mount Top",
+      1
+    ],
+    [
+      "Mounted Crucifix Top",
+      1
+    ],
+    [
+      "S Mount Top",
+      1
+    ],
+    [
+      "High Mount Top",
+      1
+    ],
+    [
+      "Reverse De La Riva Guard Top",
+      1
+    ],
+    [
+      "Body Triangle Top",
+      1
+    ],
+    [
+      "Standing Back Control Top",
+      1
+    ],
+    [
+      "Ushiro Ashi-Garami Top",
+      1
+    ],
+    [
+      "Saddle Top",
+      1
+    ],
+    [
+      "Outside Ashi-Garami Top",
+      1
+    ],
+    [
+      "Reverse Kesa-Gatame Top",
+      1
+    ],
+    [
+      "Kuzure Kesa-Gatame Top",
+      1
+    ]
+  ],
+  "allInPool": true
+}

@@ -1371,10 +1371,19 @@ class Component extends DCLogic {
       roll_end: "roll_ended",
     });
   }
+  // ONE definition of "has this person been here before", decided once per app life. The cold-start
+  // funnel's cold/warm split and the first-impression draw must never disagree about it — and the
+  // answer has to be latched, because the very act of starting that first roll writes a marker.
+  // Storage unreadable (private mode) → NOT returning: a browser that keeps no history has none, so
+  // every visit genuinely is a first impression. Same default the funnel already used.
+  _returningVisitor() {
+    if (this._returning != null) return this._returning;
+    let r = false;
+    try { r = !!(localStorage.getItem("bjj-neural-progress") || localStorage.getItem("bjj-neural-coached") || localStorage.getItem("bjj-neural-firstroll")); } catch (e) { /* private mode */ }
+    return (this._returning = r);
+  }
   _csInit() {
-    let returning = false;
-    try { returning = !!(localStorage.getItem("bjj-neural-progress") || localStorage.getItem("bjj-neural-coached")); } catch (e) { /* private mode */ }
-    this._cs = { at: {}, cold: !returning, last: 0, reported: false, hides: 0 };
+    this._cs = { at: {}, cold: !this._returningVisitor(), last: 0, reported: false, hides: 0 };
     // OBSERVER MEANS OBSERVER. v1.82.0 pushed its marks into `this.beats`, the gameplay beat
     // stream — so a freshly remounted app life no longer had an empty stream, and SEVEN gen specs
     // that use exactly that emptiness as their "rebuilt, not resumed" proof went red. Analytics
@@ -4654,6 +4663,13 @@ class Component extends DCLogic {
     const log = this.rollLog || [];
     const prev = log[log.length - 2];
     const roleTxt = node.ty === "positions" ? this.roleLabel() : "Attacking";
+    // ── ONE ROLE CLAIM, AND IT IS THE TRUE ONE ── the visual graph collapses a position to a
+    // single hub node, and graph-data.json labels every one of those 136 hubs "… Top". The side
+    // you actually play is decided independently (startRoll's coin flip, playFrom's explicit
+    // choice), so pasting the raw title above the role line made HALF of all cold starts open a
+    // card reading "X-Guard Top" over "Bottom" — above the bottom player's hand. The name line
+    // carries the state's name; `roleTxt` is the only place a side is named.
+    const nameTxt = node.ty === "positions" ? this.posFamily(node.t) : sp.main;
 
     const el = document.createElement("div");
     el.className = "ng-landcard";
@@ -4674,7 +4690,7 @@ class Component extends DCLogic {
     head.style.cssText = "display:flex;align-items:flex-start;gap:9px;";
     head.innerHTML =
       '<div style="flex:1;min-width:0;">' +
-        '<div style="font-size:14.5px;font-weight:700;color:#eef1f6;font-family:\'Space Grotesk\',sans-serif;line-height:1.2;">' + sp.main + '</div>' +
+        '<div style="font-size:14.5px;font-weight:700;color:#eef1f6;font-family:\'Space Grotesk\',sans-serif;line-height:1.2;">' + nameTxt + '</div>' +
         '<div style="font-size:10.5px;color:#8094b4;margin-top:3px;line-height:1.3;">' +
           '<b style="color:#9ab0e0;font-weight:700;">' + roleTxt + '</b>' +
           (prev ? ' &middot; from ' + prev.name : '') +
@@ -5331,6 +5347,62 @@ class Component extends DCLogic {
     this._staged = this.currentPos;
     this.fx("roll_staged", { position: this.nodes[this.currentPos] ? this.nodes[this.currentPos].t : null });
   }
+  // ── FIRST IMPRESSION: REAL TRAFFIC, NOT A UNIFORM LOTTERY ──
+  // Share of real roll traffic per playable position, read off the SAME stationary distribution
+  // Game Knowledge is built on. `curriculum.weights` is keyed "<technique>|Attacker" (exactly the
+  // deck key `nodeForKey` resolves), each technique node carries exactly ONE canonical origin
+  // (`fromPositionId`), and a position's attempt probabilities sum to 100 — so summing a
+  // position's techniques recovers that position's own visit mass. Result: 136 entries summing to
+  // 1, heaviest Side Control .115 / Half Guard .105 / Closed Guard .084 / Mount .059.
+  //
+  // NB there are TWO position-traffic distributions in this repo and they are NOT the same number.
+  // `graphAdjacency v2` (trainingData.ts, for the legacy trainer) prints closed-guard .196 /
+  // standing .152 / side-control .109 — that is 85% stationary with a RESTART_ANCHORS teleport into
+  // standing + closed guard, blended 15% with a hand-authored FUNDAMENTALS table. It concentrates
+  // harder, and it is the distribution the cold-start diagnosis quoted. We use `curriculum.weights`
+  // because it is ALREADY on the Neural payload path (curriculum.json, loaded anyway) — reaching for
+  // graphAdjacency would mean either a new cold-path fetch on the very journey that is trying to
+  // shed bytes, or re-implementing that editorial table in Python. START_BIAS.gamma closes the gap:
+  // the measured six-hub share lands ~.66, i.e. graphAdjacency's own .672, from the leaner input.
+  startPosTraffic() {
+    if (this._posTraffic) return this._posTraffic;
+    const w = (this.curriculum && this.curriculum.weights) || null;
+    const out = {};
+    if (w && this.nodes && this._posSlugIndex) {
+      for (const k in w) {
+        const ti = this.nodeForKey(k); if (ti < 0) continue;
+        const pid = this.nodes[ti].fromPositionId; if (!pid) continue;
+        const pi = this._posSlugIndex.get(String(pid).toLowerCase());
+        if (pi == null) continue;
+        out[pi] = (out[pi] || 0) + w[k];
+      }
+    }
+    // Do NOT memoise an empty table. curriculum.json is a separate fetch, and on the slow cold
+    // load this exists for it could still be in flight at the first draw — caching {} there would
+    // pin the uniform fallback for the whole session, silently reinstating the bug on exactly the
+    // connections that suffer from it most.
+    for (const k in out) return (this._posTraffic = out);
+    return out;
+  }
+  // gamma SHARPENS that distribution, because the goal is not to reproduce mid-roll traffic — it
+  // is to open on a state the newcomer can NAME. At 1.5, ~2/3 of first impressions land on the six
+  // hubs (closed guard / standing / side control / half guard / open guard / mount) and ~90% inside
+  // the twenty most-travelled, while ~17 states stay genuinely likely. `floor` mixes uniform back
+  // in so all 136 keep a real chance: the draw is BIASED, never NARROWED, and never repetitive.
+  get START_BIAS() { return { gamma: 1.5, floor: 0.02 }; }
+  _weightedStart(pool, u) {
+    const tw = this.startPosTraffic(), B = this.START_BIAS;
+    const p = new Array(pool.length); let total = 0;
+    for (let i = 0; i < pool.length; i++) { const v = Math.pow(Math.max(0, tw[pool[i]] || 0), B.gamma); p[i] = v; total += v; }
+    if (!(total > 0)) return pool[(u * pool.length) | 0]; // no curriculum payload → historical uniform draw
+    const flat = B.floor / pool.length;
+    let acc = 0;
+    for (let i = 0; i < pool.length; i++) {
+      acc += (1 - B.floor) * (p[i] / total) + flat;
+      if (u < acc) return pool[i];
+    }
+    return pool[pool.length - 1]; // float slack at u→1
+  }
   startRoll() {
     this.clearTimers(); this.clearOptions(); this.clearEngagement();
     this._beltTest = null; // a fresh normal roll is never a belt test (manual reset = clean cancel, no attempt burned)
@@ -5356,11 +5428,19 @@ class Component extends DCLogic {
     if (this._rigStart != null && this.nodes[this._rigStart]) { // test rail: deterministic start
       this.currentPos = this._rigStart; this._rigStart = null; this._firstRollDone = true;
     } else
-    // first roll: start on a position that has a seeded deck so the example shows immediately
+    // FIRST-EVER ROLL: bias the opening state toward one a newcomer might have a NAME for.
+    // The `withDeck` filter this replaces was meant to do that and was a NO-OP — all 136 playable
+    // positions carry a deck — so the opening was drawn uniformly and ~95% of first impressions
+    // opened on Gogoplata Control / Estima Lock Control / Hindulotine / Shoulder of Justice, under
+    // a running clock, with the heavy content payloads still ~20s out. ONE draw off the SAME rng
+    // tag, so rigged replays are structurally untouched; only a fresh profile takes this branch,
+    // and it takes it exactly once (the marker below, plus _firstRollDone within the session).
     if (!this._firstRollDone) {
       this._firstRollDone = true;
-      const withDeck = positions.filter((i) => this.flashcards && this.flashcards.decks && this.flashcards.decks[this.deckKeyFor(this.nodes[i]).key]);
-      this.currentPos = withDeck.length ? withDeck[(this.rng("start-pos") * withDeck.length) | 0] : positions[(this.rng("start-pos") * positions.length) | 0];
+      const u = this.rng("start-pos");
+      const fresh = !this._returningVisitor();
+      this.currentPos = fresh ? this._weightedStart(positions, u) : positions[(u * positions.length) | 0];
+      if (fresh) { try { localStorage.setItem("bjj-neural-firstroll", "1"); } catch (e) { /* private mode */ } }
     } else {
       this.currentPos = positions[(this.rng("start-pos") * positions.length) | 0];
     }

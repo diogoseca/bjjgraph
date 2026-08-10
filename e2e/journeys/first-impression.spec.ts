@@ -1,0 +1,347 @@
+import { test, expect } from "@playwright/test";
+import { writeFileSync, mkdirSync } from "node:fs";
+import { resolve } from "node:path";
+import { journey } from "../dsl";
+
+/**
+ * FIRST IMPRESSION — the two cheapest high-impact wins from the cold-start diagnosis.
+ *
+ * WIN 1  Where a first-ever visitor opens. startRoll() drew the opening state UNIFORMLY from all
+ *        136 playable position role-nodes: the `withDeck` filter that was meant to bias it is a
+ *        no-op, because all 136 carry a deck. Only 6 of 136 (4.4%) are hubs a newcomer could name,
+ *        so ~95% of first impressions opened on Gogoplata Control / Estima Lock Control /
+ *        Hindulotine / Russian Leg Lasso / Shoulder of Justice. The build already computes the
+ *        authoritative real-traffic distribution (curriculum.weights — the graph's stationary
+ *        distribution, summing to 1.0), so the draw can be biased toward states a beginner has a
+ *        name for WITHOUT narrowing the pool.
+ *
+ * WIN 2  What the card CALLS that state. Every one of the 136 pool entries is titled "… Top"
+ *        (graph-data.json collapses a position to one hub node and labels it with the top role),
+ *        while the side you play is an independent coin flip. So half of all cold starts opened a
+ *        card reading "X-Guard Top" on line one and "Bottom" on line two — over the bottom
+ *        player's hand.
+ *
+ * Both tests drive the REAL draw (`startRoll`) and read the REAL card. Neither adds a rail.
+ *
+ * NB on WIN 2's shape: the brief proposed deriving playerRole from the node title, the way
+ * rollFromPosition() does. That is not fixable that way — see the third test, which pins WHY: all
+ * 136 titles end in "Top", so a title-derived role can only ever be "top", which would delete
+ * bottom play from the game (and there would be no "both role outcomes" left to agree about).
+ * The label is what is wrong, so the label is what is derived from the truth.
+ */
+
+// the six hubs a beginner plausibly has a name for, and which carry the bulk of real roll traffic
+const NAMEABLE = [
+  "Closed Guard Top",
+  "Standing Position Top",
+  "Side Control Top",
+  "Half Guard Top",
+  "Open Guard Top",
+  "Mount Top",
+];
+const UNIFORM = 6 / 136; // 0.044 — what a uniform draw gives the nameable six
+
+/** Evidence, written ONLY on request. `tests/artifacts/coldstart/` is tracked and cited, so a plain
+ *  local run must leave it byte-identical (see that directory's README):
+ *    COLDSTART_CAPTURE=1 npx playwright test -c e2e/playwright.coldstart.config.ts first-impression */
+const CAPTURE = !!process.env.COLDSTART_CAPTURE;
+const OUT = resolve(__dirname, "../../tests/artifacts/coldstart");
+const capture = (name: string, data: unknown) => {
+  if (!CAPTURE) return;
+  mkdirSync(OUT, { recursive: true });
+  writeFileSync(resolve(OUT, name), JSON.stringify(data, null, 2));
+};
+
+/** Sweep the app's OWN first-ever start-position draw across the unit interval and report where
+ *  the mass lands. One page.evaluate: `startRoll` is re-armed per sample (`_firstRollDone` reset)
+ *  and its landing timer is cleared by the next call, so nothing else in the roll loop runs. */
+async function sweepFirstStart(
+  page: import("@playwright/test").Page,
+  samples: number,
+  nameable: string[],
+) {
+  return page.evaluate(
+    ([n, names]) => {
+      const a = (window as any).__neural;
+      const pool = a.nodes
+        .filter(
+          (nd: any) =>
+            nd.ty === "positions" &&
+            a.adj[nd.idx].some((k: number) => a.nodes[k].ty !== "positions"),
+        )
+        .map((nd: any) => nd.idx);
+      const hits: Record<string, number> = {};
+      const N = n as number;
+      for (let i = 0; i < N; i++) {
+        const u = (i + 0.5) / N;
+        a._firstRollDone = false; // re-arm the first-ever branch
+        a.rig("start-pos", [u]);
+        a.startRoll();
+        const t = a.nodes[a.currentPos].t;
+        hits[t] = (hits[t] || 0) + 1;
+        // uniform mapping for the same u, for a side-by-side of what changed
+      }
+      const total = Object.values(hits).reduce((s: number, v: any) => s + v, 0);
+      const rank = Object.entries(hits).sort(
+        (x, y) => (y[1] as number) - (x[1] as number),
+      );
+      const nameableHits = (names as string[]).reduce(
+        (s, t) => s + (hits[t] || 0),
+        0,
+      );
+      return {
+        poolSize: pool.length,
+        samples: total,
+        distinct: rank.length,
+        // distinct states drawn that are NOT one of the six: proof the pool was biased, not cut
+        distinctOutsideNameable: rank.filter(
+          (r) => (names as string[]).indexOf(r[0]) < 0,
+        ).length,
+        nameableShare: nameableHits / total,
+        top8: rank.slice(0, 8),
+        rank,
+        // every drawn index must still come out of the untouched pool
+        allInPool: Object.keys(hits).every((t) =>
+          pool.some((i: number) => a.nodes[i].t === t),
+        ),
+      };
+    },
+    [samples, nameable] as const,
+  );
+}
+
+test("a first-ever visitor opens on a position they might have a name for", async ({
+  page,
+}) => {
+  const j = journey(page);
+  await j.boot("/", { keepTutorial: true }); // fresh profile: boot() wipes storage
+
+  const s = await sweepFirstStart(page, 500, NAMEABLE);
+  capture("first-impression-draw.json", {
+    what: "where a fresh profile's first-ever roll opens, swept across the whole start-pos draw",
+    uniformBaseline: UNIFORM,
+    ...s,
+  });
+
+  expect(
+    s.poolSize,
+    "the playable pool itself is untouched — 136 role-nodes",
+  ).toBe(136);
+  expect(s.allInPool, "every draw still comes out of that same pool").toBe(
+    true,
+  );
+  expect(
+    s.nameableShare,
+    `first impressions landing on one of the six nameable hubs (uniform draw = ${UNIFORM.toFixed(3)}); got ${s.nameableShare.toFixed(3)} — top: ${JSON.stringify(s.top8)}`,
+  ).toBeGreaterThan(0.4);
+  // biased, not narrowed: the tail is still reachable and the opening is not repetitive
+  expect(
+    s.distinct,
+    "distinct opening states across the sweep",
+  ).toBeGreaterThanOrEqual(15);
+  expect(
+    s.distinctOutsideNameable,
+    `states outside the six are still drawn (${s.distinct} distinct in total)`,
+  ).toBeGreaterThanOrEqual(10);
+});
+
+test("a returning player's opening draw is untouched — uniform over the whole pool", async ({
+  page,
+}) => {
+  const j = journey(page);
+  // any prior progress makes this a returning profile
+  await j.boot("/", {
+    keepTutorial: true,
+    initialState: { v: 2, prep: { "Mount|Top": 1 } },
+  });
+
+  const same = await page.evaluate(() => {
+    const a = (window as any).__neural;
+    const pool = a.nodes
+      .filter(
+        (nd: any) =>
+          nd.ty === "positions" &&
+          a.adj[nd.idx].some((k: number) => a.nodes[k].ty !== "positions"),
+      )
+      .map((nd: any) => nd.idx);
+    const mismatch: string[] = [];
+    let nameable = 0;
+    const NAMES = [
+      "Closed Guard Top",
+      "Standing Position Top",
+      "Side Control Top",
+      "Half Guard Top",
+      "Open Guard Top",
+      "Mount Top",
+    ];
+    // 4 samples per pool slot exactly (136 * 4), so the measured share IS 6/136 with no
+    // quantisation slack to hide behind
+    const N = pool.length * 4;
+    for (let i = 0; i < N; i++) {
+      const u = (i + 0.5) / N;
+      a._firstRollDone = false;
+      a.rig("start-pos", [u]);
+      a.startRoll();
+      const got = a.currentPos;
+      const want = pool[(u * pool.length) | 0]; // the historical uniform mapping, verbatim
+      if (got !== want)
+        mismatch.push(
+          `u=${u.toFixed(4)} got ${a.nodes[got].t} want ${a.nodes[want].t}`,
+        );
+      if (NAMES.indexOf(a.nodes[got].t) >= 0) nameable++;
+    }
+    return {
+      returning: !!localStorage.getItem("bjj-neural-progress"),
+      mismatch: mismatch.slice(0, 5),
+      mismatches: mismatch.length,
+      nameableShare: nameable / N,
+    };
+  });
+
+  expect(same.returning, "the profile really does carry prior progress").toBe(
+    true,
+  );
+  expect(
+    same.mismatches,
+    `a returning player's draw must map u -> position exactly as it always did: ${JSON.stringify(same.mismatch)}`,
+  ).toBe(0);
+  expect(same.nameableShare, "and therefore stays uniform (6/136)").toBeCloseTo(
+    UNIFORM,
+    2,
+  );
+});
+
+/** Land a first roll on a named position with the side rigged, keeping the real code path
+ *  (rigStart pins the state; startRoll's own coin flip picks the side from the rigged draw). */
+async function landAs(
+  j: any,
+  page: import("@playwright/test").Page,
+  position: string,
+  roleDraw: number,
+) {
+  await j.rig("role", [roleDraw]);
+  await j.rig("ai-skill", [0.5]);
+  await j.rig("max-moves", [0.5]);
+  await page.evaluate((pos) => {
+    const a = (window as any).__neural;
+    const idx = a.nodes.findIndex(
+      (n: any) => n.ty === "positions" && n.t === pos,
+    );
+    if (idx < 0) throw new Error(`position not found: ${pos}`);
+    a.rigStart(idx);
+  }, position);
+  for (let i = 0; i < 12; i++) {
+    await j.advance(1000);
+    if (
+      (await page.evaluate(
+        () => ((window as any).__neural.optionIdxs || []).length,
+      )) > 0
+    )
+      break;
+  }
+  await page.evaluate(() => (window as any).__neural?.dismissCoach?.());
+  await page.waitForTimeout(150);
+  return page.evaluate(() => {
+    const a = (window as any).__neural;
+    const id = document.querySelector("[data-land-id]");
+    // the identity block is two lines: the NAME of the state, then the side you are playing
+    const lines = Array.from(
+      id?.querySelectorAll(":scope > div > div") || [],
+    ).map((e) => (e.textContent || "").trim());
+    return {
+      role: a.playerRole,
+      node: a.nodes[a.currentPos].t,
+      name: lines[0] || "",
+      sideLine: lines[1] || "",
+      hand: (a.optionIdxs || []).map((i: number) => a.nodes[i].t),
+    };
+  });
+}
+
+for (const [roleDraw, side, other] of [
+  [0, "top", "bottom"],
+  [0.9, "bottom", "top"],
+] as const) {
+  test(`the card names the side you are actually playing — ${side}`, async ({
+    page,
+  }) => {
+    const j = journey(page);
+    await j.boot("/", { keepTutorial: true });
+    const s = await landAs(j, page, "X-Guard Top", roleDraw);
+    capture(`first-impression-role-${side}.json`, {
+      what: "the identity card's two lines against the side actually being played, and the hand dealt under it",
+      nodeTitle: s.node,
+      ...s,
+    });
+
+    expect(s.role, "the rigged coin flip picked this side").toBe(side);
+
+    // the card states the side exactly ONCE, on the side line, and it is the side being played
+    expect(
+      new RegExp(`^${side}\\b`, "i").test(s.sideLine),
+      `the side line must name the side being played (${side}); it reads ${JSON.stringify(s.sideLine)}`,
+    ).toBe(true);
+    const nameSays = (w: string) => new RegExp(`\\b${w}\\b`, "i").test(s.name);
+    expect(
+      nameSays(other),
+      `the name line must not contradict it with "${other}"; it reads ${JSON.stringify(s.name)} (node title: ${s.node})`,
+    ).toBe(false);
+    expect(
+      nameSays(side),
+      `and must not restate the side either — the side line owns that; name reads ${JSON.stringify(s.name)}`,
+    ).toBe(false);
+
+    // ...and the hand under that label really is that side's hand. X-Guard is the case the probe
+    // caught: the X-guard player works from underneath, so the sweep and the technical stand up
+    // are dealt to bottom only, and the smash pass to top only.
+    const has = (t: string) => s.hand.indexOf(t) >= 0;
+    if (side === "bottom") {
+      expect(
+        has("X-Guard Sweep"),
+        `bottom's hand: ${JSON.stringify(s.hand)}`,
+      ).toBe(true);
+      expect(
+        has("X-Guard Technical Stand Up"),
+        `bottom's hand: ${JSON.stringify(s.hand)}`,
+      ).toBe(true);
+      expect(
+        has("Smash Pass from X-Guard"),
+        "the passer's move is not dealt to the guard",
+      ).toBe(false);
+    } else {
+      expect(
+        has("Smash Pass from X-Guard"),
+        `top's hand: ${JSON.stringify(s.hand)}`,
+      ).toBe(true);
+      expect(
+        has("X-Guard Sweep"),
+        "the guard's sweep is not dealt to the passer",
+      ).toBe(false);
+    }
+  });
+}
+
+test("the role cannot be read off the node title — every pool entry is titled Top", async ({
+  page,
+}) => {
+  const j = journey(page);
+  await j.boot("/", { keepTutorial: true });
+  const t = await page.evaluate(() => {
+    const a = (window as any).__neural;
+    const pool = a.nodes.filter(
+      (nd: any) =>
+        nd.ty === "positions" &&
+        a.adj[nd.idx].some((k: number) => a.nodes[k].ty !== "positions"),
+    );
+    return {
+      total: pool.length,
+      endsTop: pool.filter((n: any) => /\btop\s*$/i.test(n.t)).length,
+      endsBottom: pool.filter((n: any) => /\bbottom\s*$/i.test(n.t)).length,
+    };
+  });
+  expect(t.endsTop, "all 136 hub titles end in Top").toBe(t.total);
+  expect(
+    t.endsBottom,
+    "so a title-derived role is a constant, and deriving it would delete bottom play",
+  ).toBe(0);
+});

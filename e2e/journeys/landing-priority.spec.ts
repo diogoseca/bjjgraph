@@ -1,5 +1,5 @@
-import { test, expect } from "@playwright/test"
-import { journey } from "../dsl"
+import { test, expect } from "@playwright/test";
+import { journey } from "../dsl";
 
 /**
  * THE LANDING CARD'S PRIORITY LAW.
@@ -21,12 +21,12 @@ import { journey } from "../dsl"
 test("the landing card shows identity, then film, then the question — in that order @curated", async ({
   page,
 }) => {
-  const j = journey(page)
-  await j.boot("/")
-  await j.land("Mount Top")
+  const j = journey(page);
+  await j.boot("/");
+  await j.land("Mount Top");
 
-  const card = page.locator("[data-landcard]")
-  await expect(card).toBeVisible()
+  const card = page.locator("[data-landcard]");
+  await expect(card).toBeVisible();
 
   // DOM order IS the read order the owner specified
   const order = await card.evaluate((el) =>
@@ -41,46 +41,63 @@ test("the landing card shows identity, then film, then the question — in that 
               ? "q"
               : "foot",
     ),
-  )
-  expect(order[0], "identity first").toBe("id")
-  expect(order[order.length - 1], "More last").toBe("foot")
-  const qi = order.indexOf("q")
-  expect(qi, "the question is present").toBeGreaterThan(0)
+  );
+  expect(order[0], "identity first").toBe("id");
+  expect(order[order.length - 1], "More last").toBe("foot");
+  const qi = order.indexOf("q");
+  expect(qi, "the question is present").toBeGreaterThan(0);
   for (const earlier of ["def", "film"]) {
-    const i = order.indexOf(earlier)
-    if (i >= 0) expect(i, `${earlier} comes before the question`).toBeLessThan(qi)
+    const i = order.indexOf(earlier);
+    if (i >= 0)
+      expect(i, `${earlier} comes before the question`).toBeLessThan(qi);
   }
-})
+});
 
 test("identity names the state, where you came from, your role, and whether you have met it", async ({
   page,
 }) => {
-  const j = journey(page)
-  await j.boot("/")
-  await j.land("Mount Top")
+  const j = journey(page);
+  await j.boot("/");
+  await j.land("Mount Top");
 
-  const id = page.locator("[data-land-id]")
-  await expect(id).toBeVisible()
-  const txt = (await id.textContent()) || ""
+  const id = page.locator("[data-land-id]");
+  await expect(id).toBeVisible();
+  const txt = (await id.textContent()) || "";
 
   const expected = await page.evaluate(() => {
-    const a = (window as any).__neural
-    return { main: a.splitName(a.nodes[a.currentPos].t).main, role: a.roleLabel() }
-  })
-  expect(txt, "the state's name").toContain(expected.main)
-  expect(txt.toLowerCase(), "which side you are playing").toContain(expected.role.toLowerCase())
+    const a = (window as any).__neural;
+    const t = a.nodes[a.currentPos].t;
+    // posFamily, NOT splitName: the visual graph collapses a position to one hub node titled
+    // "… Top", and this spec used to assert that stale suffix appeared on the card — which is
+    // exactly the self-contradiction WIN 2 removed ("Mount Top" over "Bottom"). The state's name
+    // is role-free; the side is named once, on the line below it.
+    return {
+      main: a.posFamily(t),
+      title: t,
+      role: a.roleLabel(),
+      other: a.playerRole === "bottom" ? "top" : "bottom",
+    };
+  });
+  expect(txt, "the state's name").toContain(expected.main);
+  expect(txt.toLowerCase(), "which side you are playing").toContain(
+    expected.role.toLowerCase(),
+  );
+  expect(
+    txt.replace(expected.role, ""),
+    `and the other side is named nowhere on the card (title is ${expected.title})`,
+  ).not.toMatch(new RegExp(expected.other, "i"));
   // the seen marker is one of the three glyphs, and on a fresh boot it is "new"
-  expect(txt, "a have-you-met-it marker").toMatch(/[○◐●]/)
-  expect(txt, "fresh player has met nothing").toContain("○")
-})
+  expect(txt, "a have-you-met-it marker").toMatch(/[○◐●]/);
+  expect(txt, "fresh player has met nothing").toContain("○");
+});
 
 test("everything that is NOT priority stays behind More", async ({ page }) => {
-  const j = journey(page)
-  await j.boot("/")
-  await j.land("Mount Top")
+  const j = journey(page);
+  await j.boot("/");
+  await j.land("Mount Top");
 
-  const card = page.locator("[data-landcard]")
-  const body = ((await card.textContent()) || "").toLowerCase()
+  const card = page.locator("[data-landcard]");
+  const body = ((await card.textContent()) || "").toLowerCase();
   // the dossier's deep sections must not leak onto the landing
   for (const deep of [
     "decision tree",
@@ -89,62 +106,84 @@ test("everything that is NOT priority stays behind More", async ({ page }) => {
     "if it stalls",
     "numbers",
   ]) {
-    expect(body, `"${deep}" is not on the landing card`).not.toContain(deep)
+    expect(body, `"${deep}" is not on the landing card`).not.toContain(deep);
   }
 
-  await expect(page.locator("[data-land-more]"), "one affordance for the rest").toBeVisible()
+  await expect(
+    page.locator("[data-land-more]"),
+    "one affordance for the rest",
+  ).toBeVisible();
   expect(
     await page.evaluate(() => (window as any).__neural._dossierIdx != null),
     "and the dossier is shut until it is used",
-  ).toBe(false)
+  ).toBe(false);
 
-  await page.locator("[data-land-more]").click()
+  await page.locator("[data-land-more]").click();
   expect(
     await page.evaluate(() => (window as any).__neural._dossierIdx != null),
     "More opens the node's full dossier",
-  ).toBe(true)
+  ).toBe(true);
   expect(
     await page.evaluate(() => !!(window as any).__neural.paused),
     "which stops the game while you read, like every other reading surface",
-  ).toBe(true)
-})
+  ).toBe(true);
+});
 
-test("turning questions off leaves the identity card but asks nothing", async ({ page }) => {
-  const j = journey(page)
-  await j.boot("/")
-  await j.land("Mount Top")
-  await expect(page.locator("[data-land-q]"), "on by default").toBeVisible()
-
-  await page.evaluate(() => {
-    const a = (window as any).__neural
-    a.set("landQuestions", false)
-    a.renderLandCard(a.nodes[a.currentPos], "land", null)
-  })
-  await expect(page.locator("[data-land-q]"), "the question is gone").toHaveCount(0)
-  await expect(page.locator("[data-land-id]"), "but identity is priority either way").toBeVisible()
+test("turning questions off leaves the identity card but asks nothing", async ({
+  page,
+}) => {
+  const j = journey(page);
+  await j.boot("/");
+  await j.land("Mount Top");
+  await expect(page.locator("[data-land-q]"), "on by default").toBeVisible();
 
   await page.evaluate(() => {
-    const a = (window as any).__neural
-    a.set("landQuestions", true)
-    a.renderLandCard(a.nodes[a.currentPos], "land", null)
-  })
-  await expect(page.locator("[data-land-q]"), "and back on when re-enabled").toBeVisible()
-})
-
-test("a state you have proven greets you without a question", async ({ page }) => {
-  const j = journey(page)
-  await j.boot("/")
-  await j.land("Mount Top")
+    const a = (window as any).__neural;
+    a.set("landQuestions", false);
+    a.renderLandCard(a.nodes[a.currentPos], "land", null);
+  });
+  await expect(
+    page.locator("[data-land-q]"),
+    "the question is gone",
+  ).toHaveCount(0);
+  await expect(
+    page.locator("[data-land-id]"),
+    "but identity is priority either way",
+  ).toBeVisible();
 
   await page.evaluate(() => {
-    const a = (window as any).__neural
-    const key = a.deckKeyFor(a.nodes[a.currentPos]).key
-    for (const c of a.flashcards.decks[key].cards) a._bumpStage(key, c.q, 4)
-    a.renderLandCard(a.nodes[a.currentPos], "land", null)
-  })
+    const a = (window as any).__neural;
+    a.set("landQuestions", true);
+    a.renderLandCard(a.nodes[a.currentPos], "land", null);
+  });
+  await expect(
+    page.locator("[data-land-q]"),
+    "and back on when re-enabled",
+  ).toBeVisible();
+});
 
-  await expect(page.locator("[data-land-q]"), "nothing left to ask").toHaveCount(0)
-  await expect(page.locator("[data-land-id]"), "but it still introduces itself").toBeVisible()
-  const txt = (await page.locator("[data-land-id]").textContent()) || ""
-  expect(txt, "and says you have proven it").toContain("●")
-})
+test("a state you have proven greets you without a question", async ({
+  page,
+}) => {
+  const j = journey(page);
+  await j.boot("/");
+  await j.land("Mount Top");
+
+  await page.evaluate(() => {
+    const a = (window as any).__neural;
+    const key = a.deckKeyFor(a.nodes[a.currentPos]).key;
+    for (const c of a.flashcards.decks[key].cards) a._bumpStage(key, c.q, 4);
+    a.renderLandCard(a.nodes[a.currentPos], "land", null);
+  });
+
+  await expect(
+    page.locator("[data-land-q]"),
+    "nothing left to ask",
+  ).toHaveCount(0);
+  await expect(
+    page.locator("[data-land-id]"),
+    "but it still introduces itself",
+  ).toBeVisible();
+  const txt = (await page.locator("[data-land-id]").textContent()) || "";
+  expect(txt, "and says you have proven it").toContain("●");
+});

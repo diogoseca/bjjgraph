@@ -232,6 +232,23 @@ test("cold start: the funnel spine emits in order, and the first question is abo
   await opts.first().click();
   await j.expectBeat("land_q_answered");
 
+  // ── abandonment, measured where a real one happens: answer the question, then leave without
+  // ever committing. This used to be asserted at the END of the journey, which made it depend on
+  // whether the single committed move happened to FINISH the roll — and a finished roll correctly
+  // reports nothing (see _csAbandon). Both halves of that rule are now pinned, here and below. ──
+  await page.evaluate(() =>
+    (window as any).__neural._csAbandon("test-midfunnel"),
+  );
+  const midBail = await page.evaluate(() =>
+    (window as any).__neural.csBeats
+      .filter((b: any) => b.beat === "funnel_abandon")
+      .pop(),
+  );
+  expect(midBail?.furthest_step, "the drop-off point is named").toBe(
+    "question_shown",
+  );
+  expect(midBail?.cold, "and attributed to a cold visitor").toBe(true);
+
   // ── committing to a move, and the needle resolving it ──
   const target = await page.evaluate(() => {
     const a = (window as any).__neural;
@@ -239,6 +256,14 @@ test("cold start: the funnel spine emits in order, and the first question is abo
       if (a.nodes[i].ty === "transitions") return a.nodes[i].t;
     return a.nodes[(a.optionIdxs || [])[0]].t;
   });
+  // Pin the exchange. `resolve`/`outcome` were left to Math.random, so whether this one move
+  // FINISHED the roll was a coin flip — and a finished roll changes two things this journey
+  // asserts: `roll_ended` joins the spine (step 5), and `_csAbandon` correctly reports nothing
+  // (a visitor who completed the roll did not abandon). Success into the first outcome bucket of a
+  // TRANSITION can never end a roll — only submissions reach `game-over` — so this both keeps the
+  // journey walking the real cold path and makes its two end assertions deterministic.
+  await j.rig("resolve", [0.01]); // < moveChance ⇒ success
+  await j.rig("outcome", [0.01]); // first bucket = the success target
   await j.pick(target);
   await j.advanceUntil("sweep_land", 20000);
   await j.advance(2500);
@@ -255,13 +280,28 @@ test("cold start: the funnel spine emits in order, and the first question is abo
   // such visitor as a drop-off at a step they had sailed past. It is a side mark, next to
   // `question_ignored` — the two together say what happened at the question.
   const spine = funnel.filter((f: any) => f.spine).map((f: any) => f.step);
-  expect(spine, "the spine emits once each, in order").toEqual([
+  // Once each, in order, CONTIGUOUS FROM THE START — the funnel contract, asserted as a prefix of
+  // the documented spine rather than a fixed list. `resolve`/`outcome` are deliberately left to the
+  // app (this journey walks the real cold path, only the ambient draws are pinned), so whether the
+  // exchange happens to finish the roll inside the journey is not fixed — and `roll_ended` is spine
+  // step 5. Pinning the exact five made this assertion a coin flip on that; it only ever passed
+  // because the state the old uniform draw landed on had no roll-ending outcome within one move.
+  const SPINE = [
     "app_ready",
     "hand_dealt",
     "question_shown",
     "move_committed",
     "outcome_seen",
-  ]);
+    "roll_ended",
+  ];
+  expect(
+    spine,
+    "the spine emits once each, in order, contiguous from app_ready",
+  ).toEqual(SPINE.slice(0, spine.length));
+  expect(
+    spine.length,
+    "and the journey physically walked it as far as the outcome",
+  ).toBeGreaterThanOrEqual(5);
   expect(
     funnel.filter((f: any) => f.out_of_order).map((f: any) => f.step),
     "and no spine step arrived with an earlier one missing",
@@ -280,17 +320,29 @@ test("cold start: the funnel spine emits in order, and the first question is abo
   for (const f of funnel)
     expect(typeof f.ms_since_nav, `${f.step} is timed`).toBe("number");
 
-  // ── abandonment: leaving mid-funnel reports the furthest spine step reached ──
-  await page.evaluate(() => (window as any).__neural._csAbandon("test"));
-  const bail = await page.evaluate(() =>
-    (window as any).__neural.csBeats
-      .filter((b: any) => b.beat === "funnel_abandon")
-      .pop(),
+  // ── and the other half of the rule: someone who walked the WHOLE spine did not abandon, so
+  // leaving now reports nothing new (the rigged success above finishes the roll deterministically) ──
+  const bailsBefore = await page.evaluate(
+    () =>
+      (window as any).__neural.csBeats.filter(
+        (b: any) => b.beat === "funnel_abandon",
+      ).length,
   );
-  expect(bail.furthest_step, "the drop-off point is named").toBe(
-    "outcome_seen",
+  await page.evaluate(() =>
+    (window as any).__neural._csAbandon("test-complete"),
   );
-  expect(bail.cold, "and attributed to a cold visitor").toBe(true);
+  const bailsAfter = await page.evaluate(
+    () =>
+      (window as any).__neural.csBeats.filter(
+        (b: any) => b.beat === "funnel_abandon",
+      ).length,
+  );
+  expect(spine[spine.length - 1], "the journey did walk the whole spine").toBe(
+    "roll_ended",
+  );
+  expect(bailsAfter, "a completed roll is not an abandonment").toBe(
+    bailsBefore,
+  );
 
   if (CAPTURE) {
     mkdirSync(OUT, { recursive: true });

@@ -9,13 +9,13 @@
     {
       "t": 4.516666666666663,
       "beat": "land",
-      "position": "X-Guard Top",
+      "position": "Closed Guard Top",
       "first": true
     },
     {
       "t": 4.516666666666663,
       "beat": "options_dealt",
-      "count": 4
+      "count": 10
     },
     {
       "t": 4.516666666666663,
@@ -44,15 +44,15 @@
     {
       "t": 4.516666666666663,
       "beat": "mc_shown",
-      "deckKey": "X-Guard|Top",
-      "qhash": "6ccf0ff2",
+      "deckKey": "Closed Guard|Top",
+      "qhash": "6de5eeb5",
       "opts": 4,
       "surface": "land"
     },
     {
       "t": 4.516666666666663,
       "beat": "land_q_shown",
-      "deckKey": "X-Guard|Top",
+      "deckKey": "Closed Guard|Top",
       "mode": "land",
       "unseen": true,
       "cards": 8,
@@ -61,8 +61,8 @@
     {
       "t": 4.516666666666663,
       "beat": "land_q_unseen",
-      "deckKey": "X-Guard|Top",
-      "node": "X-Guard Top",
+      "deckKey": "Closed Guard|Top",
+      "node": "Closed Guard Top",
       "cards": 8,
       "mode": "land",
       "landing": 1
@@ -74,8 +74,8 @@
     {
       "t": 5.000000000000006,
       "beat": "mc_wrong",
-      "deckKey": "X-Guard|Top",
-      "qhash": "6ccf0ff2",
+      "deckKey": "Closed Guard|Top",
+      "qhash": "6de5eeb5",
       "tier": "trap",
       "correct": 3
     },
@@ -91,7 +91,7 @@
     {
       "t": 5.000000000000006,
       "beat": "sheet_opened",
-      "technique": "Tomahawk Sweep"
+      "technique": "Armbar from Guard"
     },
     {
       "t": 5.000000000000006,
@@ -111,7 +111,7 @@
     {
       "t": 5.000000000000006,
       "beat": "jit_opened",
-      "deck_key": "Tomahawk Sweep|Attacker"
+      "deck_key": "Armbar from Guard|Attacker"
     },
     {
       "t": 5.000000000000006,
@@ -121,7 +121,7 @@
     {
       "t": 5.000000000000006,
       "beat": "commit",
-      "technique": "Tomahawk Sweep"
+      "technique": "Armbar from Guard"
     },
     {
       "t": 5.000000000000006,
@@ -139,19 +139,19 @@
       "of": 20
     },
     {
-      "t": 6.333333333333364,
+      "t": 6.816666666666706,
       "beat": "sweep_start",
-      "technique": "Tomahawk Sweep",
-      "band": 37
+      "technique": "Armbar from Guard",
+      "band": 25
     },
     {
-      "t": 7.416666666666717,
+      "t": 7.900000000000059,
       "beat": "sweep_land",
-      "inBand": false,
-      "roll": 52
+      "inBand": true,
+      "roll": 1
     },
     {
-      "t": 7.416666666666717,
+      "t": 7.900000000000059,
       "beat": "challenge_completed",
       "id": "white.sweep",
       "track": "white",
@@ -159,70 +159,81 @@
       "target": 1
     },
     {
-      "t": 7.416666666666717,
+      "t": 7.900000000000059,
       "beat": "tut_step",
       "id": "sweep",
       "done": 4,
       "of": 20
     },
     {
-      "t": 7.416666666666717,
-      "beat": "hit_stop",
-      "technique": "Tomahawk Sweep"
+      "t": 7.900000000000059,
+      "beat": "detonation",
+      "technique": "Armbar from Guard"
     },
     {
-      "t": 7.416666666666717,
-      "beat": "impact_fail",
-      "technique": "Tomahawk Sweep",
-      "counter": false
+      "t": 7.900000000000059,
+      "beat": "impact_success",
+      "technique": "Armbar from Guard"
     },
     {
-      "t": 8.68333333333338,
-      "beat": "opponent_attack",
-      "technique": "Kneebar from Single Leg X-Guard",
-      "idx": 1043
-    },
-    {
-      "t": 9.983333333333333,
-      "beat": "defend_start",
-      "submission": "Kneebar from Single Leg X-Guard"
-    },
-    {
-      "t": 9.983333333333333,
+      "t": 7.900000000000059,
       "beat": "challenge_completed",
-      "id": "white.defend",
+      "id": "white.win1",
       "track": "white",
       "progress": 1,
       "target": 1
     },
     {
-      "t": 9.983333333333333,
+      "t": 7.900000000000059,
       "beat": "tut_step",
-      "id": "defend",
+      "id": "win1",
       "done": 5,
       "of": 20
     },
     {
-      "t": 9.983333333333333,
-      "beat": "caught",
-      "submission": "Kneebar from Single Leg X-Guard"
+      "t": 7.900000000000059,
+      "beat": "victory_cascade",
+      "hops": 1,
+      "durMs": 110
     },
     {
-      "t": 9.983333333333333,
-      "beat": "panic_drill_opened",
-      "deck_key": "Kneebar from Single Leg X-Guard|Defender"
+      "t": 7.900000000000059,
+      "beat": "ladder_up",
+      "rank": 2,
+      "capped": false
     },
     {
-      "t": 9.983333333333333,
-      "beat": "beacon_moved",
-      "target": "panic"
+      "t": 7.900000000000059,
+      "beat": "finish",
+      "technique": "Armbar from Guard"
     },
     {
-      "t": 10.299999999999986,
+      "t": 7.900000000000059,
+      "beat": "roll_end",
+      "outcome": "win",
+      "moves": 0
+    },
+    {
+      "t": 7.900000000000059,
+      "beat": "challenge_completed",
+      "id": "white.roll",
+      "track": "white",
+      "progress": 1,
+      "target": 1
+    },
+    {
+      "t": 7.900000000000059,
+      "beat": "tut_step",
+      "id": "roll",
+      "done": 6,
+      "of": 20
+    },
+    {
+      "t": 10.699999999999973,
       "beat": "pane_paused"
     },
     {
-      "t": 10.299999999999986,
+      "t": 10.699999999999973,
       "beat": "challenge_completed",
       "id": "white.pane-open",
       "track": "white",
@@ -230,16 +241,16 @@
       "target": 1
     },
     {
-      "t": 10.299999999999986,
+      "t": 10.699999999999973,
       "beat": "tut_step",
       "id": "pane_open",
-      "done": 6,
+      "done": 7,
       "of": 20
     },
     {
-      "t": 10.299999999999986,
+      "t": 10.699999999999973,
       "beat": "bonus_pumped",
-      "deck_key": "X-Guard|Top"
+      "deck_key": "Closed Guard|Top"
     }
   ],
   "funnel": [
@@ -250,8 +261,8 @@
       "step_index": 0,
       "spine": true,
       "cold": true,
-      "ms_since_nav": 463,
-      "ms_since_prev": 463,
+      "ms_since_nav": 801,
+      "ms_since_prev": 801,
       "coach_open": false,
       "out_of_order": false,
       "skipped": null
@@ -263,8 +274,8 @@
       "step_index": 1,
       "spine": true,
       "cold": true,
-      "ms_since_nav": 1087,
-      "ms_since_prev": 624,
+      "ms_since_nav": 1814,
+      "ms_since_prev": 1013,
       "coach_open": false,
       "out_of_order": false,
       "skipped": null
@@ -276,8 +287,8 @@
       "step_index": -1,
       "spine": false,
       "cold": true,
-      "ms_since_nav": 1088,
-      "ms_since_prev": 1,
+      "ms_since_nav": 1816,
+      "ms_since_prev": 2,
       "coach_open": true,
       "out_of_order": false,
       "skipped": null
@@ -289,8 +300,8 @@
       "step_index": 2,
       "spine": true,
       "cold": true,
-      "ms_since_nav": 1090,
-      "ms_since_prev": 3,
+      "ms_since_nav": 1818,
+      "ms_since_prev": 4,
       "coach_open": true,
       "out_of_order": false,
       "skipped": null
@@ -302,12 +313,12 @@
       "step_index": -1,
       "spine": false,
       "cold": true,
-      "ms_since_nav": 1090,
+      "ms_since_nav": 1818,
       "ms_since_prev": 0,
       "coach_open": true,
       "out_of_order": false,
       "skipped": null,
-      "node": "X-Guard Top",
+      "node": "Closed Guard Top",
       "cards_authored": 8
     },
     {
@@ -317,8 +328,8 @@
       "step_index": -1,
       "spine": false,
       "cold": true,
-      "ms_since_nav": 1814,
-      "ms_since_prev": 724,
+      "ms_since_nav": 2647,
+      "ms_since_prev": 829,
       "coach_open": false,
       "out_of_order": false,
       "skipped": null
@@ -330,8 +341,8 @@
       "step_index": -1,
       "spine": false,
       "cold": true,
-      "ms_since_nav": 2534,
-      "ms_since_prev": 1444,
+      "ms_since_nav": 3471,
+      "ms_since_prev": 1653,
       "coach_open": false,
       "out_of_order": false,
       "skipped": null,
@@ -340,66 +351,79 @@
     },
     {
       "t": 5.000000000000006,
+      "beat": "funnel_abandon",
+      "reason": "test-midfunnel",
+      "cold": true,
+      "furthest_step": "question_shown",
+      "furthest_index": 2,
+      "ms_since_nav": 3480,
+      "hides": 1,
+      "marks": "app_ready,hand_dealt,coach_seen,question_shown,unseen_question,coach_finished,question_answered"
+    },
+    {
+      "t": 5.000000000000006,
       "beat": "funnel",
       "step": "move_committed",
       "step_index": 3,
       "spine": true,
       "cold": true,
-      "ms_since_nav": 3515,
-      "ms_since_prev": 2425,
+      "ms_since_nav": 3584,
+      "ms_since_prev": 1766,
       "coach_open": false,
       "out_of_order": false,
       "skipped": null
     },
     {
-      "t": 7.416666666666717,
+      "t": 7.900000000000059,
       "beat": "funnel",
       "step": "outcome_seen",
       "step_index": 4,
       "spine": true,
       "cold": true,
-      "ms_since_nav": 3636,
-      "ms_since_prev": 121,
+      "ms_since_nav": 3813,
+      "ms_since_prev": 229,
       "coach_open": false,
       "out_of_order": false,
       "skipped": null
     },
     {
-      "t": 10.299999999999986,
+      "t": 7.900000000000059,
+      "beat": "funnel",
+      "step": "roll_ended",
+      "step_index": 5,
+      "spine": true,
+      "cold": true,
+      "ms_since_nav": 3814,
+      "ms_since_prev": 1,
+      "coach_open": false,
+      "out_of_order": false,
+      "skipped": null
+    },
+    {
+      "t": 10.699999999999973,
       "beat": "funnel",
       "step": "pane_opened",
       "step_index": -1,
       "spine": false,
       "cold": true,
-      "ms_since_nav": 3680,
-      "ms_since_prev": 44,
-      "coach_open": false,
-      "out_of_order": false,
-      "skipped": null
-    },
-    {
-      "t": 10.299999999999986,
-      "beat": "funnel",
-      "step": "deck_card_graded",
-      "step_index": -1,
-      "spine": false,
-      "cold": true,
-      "ms_since_nav": 3694,
+      "ms_since_nav": 3872,
       "ms_since_prev": 58,
       "coach_open": false,
       "out_of_order": false,
       "skipped": null
     },
     {
-      "t": 10.299999999999986,
-      "beat": "funnel_abandon",
-      "reason": "test",
+      "t": 10.699999999999973,
+      "beat": "funnel",
+      "step": "deck_card_graded",
+      "step_index": -1,
+      "spine": false,
       "cold": true,
-      "furthest_step": "outcome_seen",
-      "furthest_index": 4,
-      "ms_since_nav": 3732,
-      "hides": 1,
-      "marks": "app_ready,hand_dealt,coach_seen,question_shown,unseen_question,coach_finished,question_answered,move_committed,outcome_seen,pane_opened,deck_card_graded"
+      "ms_since_nav": 3876,
+      "ms_since_prev": 62,
+      "coach_open": false,
+      "out_of_order": false,
+      "skipped": null
     }
   ]
 }
