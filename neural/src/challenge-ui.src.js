@@ -114,10 +114,11 @@ const NG_CHALLENGE_UI_METHODS = {
   },
 
   // ── tab subtitles (v1.95.0) ── each pane tab is a title over one plain second line:
-  //  · Explore — the Game Knowledge score as "N% mastered" (same number as the belt above);
+  //  · Explore — the Game Knowledge score as "Mastered N%" (same number as the belt);
   //  · Challenges — a miniature belt in the PINNED track's color wearing 0-4 stripes from
-  //    that track's completed-challenges fraction (challengeTrackProgress). Deliberately NOT
-  //    gameScore().stripes: the knowledge header's belt is the SCORE's belt; the Challenges
+  //    that track's PROVEN-UNITS fraction (unitComplete: lessons done + checkpoint —
+  //    v1.95.3; objectives were too generous, a guest wore unearned stripes). Deliberately
+  //    NOT gameScore().stripes: the knowledge belt is the SCORE's belt; the Challenges
   //    tab's stripes are LADDER progress. Two meters, two meanings — documented in CLAUDE.md.
   //  · Last rolls — static copy from the template ("History reads as the history of BJJ",
   //    owner). The internal view id and settings keys stay `history`.
@@ -131,9 +132,23 @@ const NG_CHALLENGE_UI_METHODS = {
     const ch = vt.querySelector('[data-tab-sub="challenges"]');
     if (ch) {
       const pinned = this.get("challengePinnedTrack", "white");
-      const prog = this.challengeTrackProgress(pinned);
-      const frac = prog.total ? prog.done / prog.total : 0;
-      const stripes = Math.max(0, Math.min(4, Math.floor(frac * 4)));
+      // stripes = the pinned track's PROVEN UNITS (all live lessons done + checkpoint
+      // passed) over its unit count → 0-4. NOT the objectives fraction (v1.95.3): the
+      // first-roll coach auto-ticks objectives and incidental evidence completes more
+      // through normal play, so a casual guest wore stripes he never deliberately earned
+      // (owner: a guest must be 0). Units only move through deliberate challenge work.
+      const belt =
+        this.curriculum && this.curriculum.belts
+          ? this.curriculum.belts.find((b) => b.id === pinned)
+          : null;
+      const total = belt ? belt.units.length : 0;
+      let done = 0;
+      if (belt)
+        for (const unit of belt.units)
+          if (this.unitComplete(belt.id, unit)) done += 1;
+      const stripes = total
+        ? Math.max(0, Math.min(4, Math.floor((done / total) * 4)))
+        : 0;
       let tape = "";
       for (let i = 0; i < stripes; i++) tape += "<b></b>";
       ch.innerHTML =
@@ -149,10 +164,10 @@ const NG_CHALLENGE_UI_METHODS = {
         btn.setAttribute(
           "aria-label",
           "Challenges: " +
-            prog.done +
+            done +
             " of " +
-            prog.total +
-            " done on the " +
+            total +
+            " units proven on the " +
             pinned +
             " track, " +
             stripes +

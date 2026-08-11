@@ -146,11 +146,12 @@ test("tabs carry a title over a plain subtitle: mastered %, ladder belt, Last ro
   await expect(nav.locator('[data-view="challenges"] > b')).toHaveText("Challenges")
   const tabBelt = nav.locator('[data-view="challenges"] .ng-tab-belt')
   await expect(tabBelt, "Challenges' second line is a belt").toBeVisible()
-  // the journey boot completes the white (pinned) track's challenges to skip the first-roll
-  // coach — 20 of 20 done IS full ladder progress, so the tab belt wears all four stripes
-  await expect(tabBelt, "ladder complete = four stripes").toHaveAttribute(
+  // v1.95.3: stripes are the pinned track's PROVEN UNITS (lessons + checkpoint), not
+  // objectives — the boot's auto-completed white objectives (tutorial skip; the same
+  // auto-ticks a real guest accrues) earn NO stripes. A guest wears 0.
+  await expect(tabBelt, "objectives alone earn no stripes").toHaveAttribute(
     "data-tab-stripes",
-    "4",
+    "0",
   )
   // "History can be confused with the history of BJJ" — the label is Last rolls now
   // (internal ids and settings keys stay `history`)
@@ -160,10 +161,9 @@ test("tabs carry a title over a plain subtitle: mastered %, ladder belt, Last ro
   )
   expect(await nav.innerText(), "the old tab label is gone").not.toContain("History")
 
-  // THE TWO BELTS ARE DIFFERENT METERS: the tab belt is LADDER progress (challenges
-  // completed on the pinned track), NOT gameScore().stripes. Seed a purple score — the
-  // header belt turns purple and the Explore subtitle follows it, but the tab belt's
-  // stripes do not move (no challenge completion changed).
+  // THE TWO BELTS ARE DIFFERENT METERS: the tab belt is LADDER progress (proven units of
+  // the pinned track), NOT gameScore().stripes. Seed a purple score — the knowledge belt
+  // turns purple and the Explore subtitle follows it, but the tab belt does not move.
   await page.evaluate(() => {
     const a = (window as any).__neural
     a._scoreCache = {
@@ -174,17 +174,55 @@ test("tabs carry a title over a plain subtitle: mastered %, ladder belt, Last ro
   })
   await expect(page.locator(".ng-knowledge-meter")).toHaveAttribute("data-belt", "purple")
   await expect(nav.locator('[data-view="explore"] [data-tab-sub]')).toHaveText("Mastered 65%")
-  await expect(tabBelt, "score moved, ladder did not").toHaveAttribute("data-tab-stripes", "4")
+  await expect(tabBelt, "score moved, ladder did not").toHaveAttribute("data-tab-stripes", "0")
 
-  // and the converse: wipe the challenge ledger — the ladder empties to 0 stripes while
-  // the seeded score (and the Explore subtitle reading it) is untouched
+  // and the converse: prove every white unit (lessons done + checkpoint) — the belt fills
+  // to 4 stripes while the seeded score (and the subtitle reading it) is untouched
+  await expect
+    .poll(() => page.evaluate(() => !!(window as any).__neural.curriculum))
+    .toBe(true)
   await page.evaluate(() => {
     const a = (window as any).__neural
-    a.challenges = {}
+    const belt = a.curriculum.belts.find((b: any) => b.id === "white")
+    a.units = a.units || {}
+    a.prep = a.prep || {}
+    for (const u of belt.units) {
+      for (const l of u.lessons) a.prep[l.deckKey] = 3
+      a.units["white/" + u.id] = { checkpoint: true, t: Date.now() }
+    }
+    a.renderTabSubtitles()
+  })
+  await expect(tabBelt, "proven units = stripes").toHaveAttribute("data-tab-stripes", "4")
+  await page.evaluate(() => {
+    const a = (window as any).__neural
+    a.units = {}
     a.renderTabSubtitles()
   })
   await expect(tabBelt, "ladder moved, score did not").toHaveAttribute("data-tab-stripes", "0")
   await expect(nav.locator('[data-view="explore"] [data-tab-sub]')).toHaveText("Mastered 65%")
+})
+
+test("the GI/NO-GI choice lives in Settings → Rolling and nowhere else", async ({ page }) => {
+  const j = journey(page)
+  await j.boot("/")
+  await j.land("Mount Top")
+  await openViaPill(page, j)
+
+  // v1.95.3, owner: the pill rendered on BOTH Explore and Challenges (`.ng-explorer-tools`,
+  // hidden only on History) — one fact, one home. The pane carries no pill on any tab.
+  await expect(page.locator(".ng-gi-toggle"), "no pill on History").toHaveCount(0)
+  await j.clickByMouse('.ng-learning-nav [data-view="challenges"]', "the Challenges tab")
+  await expect(page.locator(".ng-gi-toggle"), "no pill on Challenges").toHaveCount(0)
+  await j.clickByMouse('.ng-learning-nav [data-view="explore"]', "the Explore tab")
+  await expect(page.locator(".ng-gi-toggle"), "no pill on Explore").toHaveCount(0)
+
+  await j.clickByMouse('.ng-drill [title="Settings"]', "the pane footer gear")
+  await j.clickByMouse(".t-rl", "the Rolling tab")
+  const gi = page.locator("[data-settings-gi]")
+  await expect(gi, "the one home: Settings → Rolling").toBeVisible()
+  // placement only — the same behavior seam still flips the whole app's frame
+  await gi.locator("button", { hasText: "No-gi" }).click()
+  expect(await page.evaluate(() => (window as any).__neural._giMode)).toBe("nogi")
 })
 
 test("a study takeover hides the anchor; leaving the study restores it", async ({ page }) => {

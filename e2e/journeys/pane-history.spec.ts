@@ -108,3 +108,28 @@ test("the history survives the round ending", async ({ page }) => {
   expect(await page.locator("[data-hist]").count(), "rows still there").toBe(before)
   await expect(page.locator("[data-mini-deck]").first(), "and still readable").toBeVisible()
 })
+
+test("Last rolls carries the roll rows — and explains itself when nothing rolled yet", async ({
+  page,
+}) => {
+  const j = journey(page)
+  await j.boot("/")
+
+  // BEFORE any roll this session: the tab must explain the void, not render a bare body.
+  // Roll history has NEVER persisted across reloads (rollLog/_pastRolls are in-memory) —
+  // after the v1.95 stats move stripped the tab's other furniture, that unexplained void
+  // read as "my history got deleted" (owner, v1.95.3).
+  await page.evaluate(() => (window as any).__neural.openPane("history"))
+  await expect(page.locator("[data-hist-empty]"), "the empty case names itself").toBeVisible()
+  await expect(page.locator("[data-hist-empty]")).toContainText("No rolls yet")
+  await expect(page.locator("[data-hist]")).toHaveCount(0)
+  await page.evaluate(() => (window as any).__neural.setDeckOpen(false))
+
+  // WITH a played roll: rows render exactly as History always did — the "Last rolls"
+  // rename is display-only (regression proof for the owner's report)
+  await j.land("Mount Top")
+  await openPane(page)
+  expect(await page.locator("[data-hist]").count(), "one row per visited state").toBeGreaterThanOrEqual(1)
+  await expect(page.locator("[data-hist-current]"), "the LATEST row is marked").toHaveCount(1)
+  await expect(page.locator("[data-hist-empty]"), "and the empty line is gone").toHaveCount(0)
+})

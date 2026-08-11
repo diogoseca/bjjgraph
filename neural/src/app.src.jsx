@@ -45,7 +45,6 @@ class Component extends DCLogic {
   explorerToolsRef = React.createRef();
   dossierRef = React.createRef();
   dossierSheetRef = React.createRef();
-  giToggleRef = React.createRef();
   viewToggleRef = React.createRef();
   knowledgeRef = React.createRef();
   paneAnchorRef = React.createRef();
@@ -71,7 +70,7 @@ class Component extends DCLogic {
       statusRef: this.statusRef, legendMarkRef: this.legendMarkRef,
       accountRef: this.accountRef, acctChipRef: this.acctChipRef, acctMenuRef: this.acctMenuRef, toggleAccountMenu: () => this.toggleAccountMenu(), transportRef: this.transportRef, playPauseRef: this.playPauseRef,
       modalRef: this.modalRef, modalCardRef: this.modalCardRef,
-      explorerRef: this.explorerRef, explorerListRef: this.explorerListRef, explorerSearchRef: this.explorerSearchRef, explorerSearchWrapRef: this.explorerSearchWrapRef, explorerToolsRef: this.explorerToolsRef, dossierRef: this.dossierRef, dossierSheetRef: this.dossierSheetRef, nodeCardRef: this.nodeCardRef, giToggleRef: this.giToggleRef, viewToggleRef: this.viewToggleRef, knowledgeRef: this.knowledgeRef, paneAnchorRef: this.paneAnchorRef,
+      explorerRef: this.explorerRef, explorerListRef: this.explorerListRef, explorerSearchRef: this.explorerSearchRef, explorerSearchWrapRef: this.explorerSearchWrapRef, explorerToolsRef: this.explorerToolsRef, dossierRef: this.dossierRef, dossierSheetRef: this.dossierSheetRef, nodeCardRef: this.nodeCardRef, viewToggleRef: this.viewToggleRef, knowledgeRef: this.knowledgeRef, paneAnchorRef: this.paneAnchorRef,
       toggleExplorer: () => this.toggleExplorer(), openSearch: () => this.openSearch(),
       legendPointRef: this.legendPointRef, legendRef: this.legendRef, optionHintRef: this.optionHintRef, optDetailRef: this.optDetailRef, brandFontRef: this.brandFontRef,
       scrollOptions: () => { const op = this.optionsRef.current; if (op) this.tweenScroll(op, Math.round(op.clientWidth * 0.62)); },
@@ -1188,7 +1187,7 @@ class Component extends DCLogic {
     const kn = this.knowledgeRef.current; if (kn) kn.style.display = study ? "none" : "block";
     const vt = this.viewToggleRef.current; if (vt) vt.style.display = study ? "none" : "grid";
     const tools = this.explorerToolsRef.current;
-    if (tools) tools.style.display = (study || this._viewMode === "history") ? "none" : "flex";
+    if (tools) tools.style.display = (study || this._viewMode !== "explore") ? "none" : "flex";
     const showEx = !study && this._viewMode !== "history";
     const exList = this.explorerListRef.current; if (exList) exList.style.display = showEx ? "block" : "none";
     if (!showEx) { const dos = this.dossierRef.current; if (dos) dos.style.display = "none"; }
@@ -2224,7 +2223,17 @@ class Component extends DCLogic {
     }
     if (box.children.length) {
       list.appendChild(box);
+      return;
     }
+    // Nothing rolled yet THIS SESSION (rollLog/_pastRolls are in-memory — roll history has
+    // never persisted across reloads). A bare void here read as "my history got deleted"
+    // after the v1.95 stats move stripped the tab's only other furniture (owner) — so the
+    // empty case explains itself.
+    const empty = document.createElement("div");
+    empty.setAttribute("data-hist-empty", "1");
+    empty.style.cssText = "padding:18px 8px;font-size:12.5px;line-height:1.55;color:#7e8aa3;";
+    empty.textContent = "No rolls yet — press play and your roll shows up here, state by state.";
+    list.appendChild(empty);
   }
   openModal() { const m = this.modalRef.current; if (m) m.style.display = "flex"; this.lastInteract = this.now; }
   openLegal(kind) {
@@ -2941,6 +2950,20 @@ class Component extends DCLogic {
       seg.appendChild(this.segBtn("Hard", false, true));
       seg.appendChild(this.segBtn("Ultra", false, true));
       body.appendChild(seg);
+      // uniform — the GI/NO-GI choice lives HERE and only here (v1.95.3, owner: the pane
+      // tabs each carried a duplicate pill). Placement only: setGiMode is unchanged and
+      // still re-filters techniques, lessons, checkpoints and odds everywhere.
+      const gv = document.createElement("div");
+      gv.style.cssText = "border-top:1px solid rgba(150,170,210,.12);padding-top:16px;margin-bottom:18px;";
+      gv.innerHTML = '<div style="font-size:14px;font-weight:600;color:#eef1f6;">Uniform</div><div style="font-size:12.5px;color:#93a0bd;margin-top:4px;line-height:1.5;">Gi or no-gi. Filters which techniques, lessons and odds the whole app uses.</div>';
+      const gseg = document.createElement("div");
+      gseg.style.cssText = "display:flex;gap:9px;margin-top:12px;";
+      gseg.setAttribute("data-settings-gi", "1");
+      const giCur = this._giMode || "gi";
+      gseg.appendChild(this.segBtn("Gi", giCur === "gi", false, () => { this.setGiMode("gi"); this.renderSettings(); }));
+      gseg.appendChild(this.segBtn("No-gi", giCur === "nogi", false, () => { this.setGiMode("nogi"); this.renderSettings(); }));
+      gv.appendChild(gseg);
+      body.appendChild(gv);
       // decision time pace
       const dt = document.createElement("div");
       dt.style.cssText = "border-top:1px solid rgba(150,170,210,.12);padding-top:16px;margin-bottom:18px;";
@@ -3532,10 +3555,9 @@ class Component extends DCLogic {
     });
     const search = this.explorerSearchWrapRef.current;
     if (search) search.style.display = this._viewMode === "explore" ? "flex" : "none";
+    // tools = the search row only since the GI pill moved to Settings (v1.95.3) — Explore only
     const tools = this.explorerToolsRef.current;
-    if (tools) tools.style.display = this._viewMode === "history" ? "none" : "flex";
-    const gi = this.giToggleRef.current;
-    if (gi) gi.style.display = this._viewMode === "history" ? "none" : "flex";
+    if (tools) tools.style.display = this._viewMode === "explore" ? "flex" : "none";
     if (this.renderKnowledgeHeader) this.renderKnowledgeHeader();
   }
   // A deck's lesson goal is min(3, its card count) — and the manifest's `n` is that count even
@@ -3765,14 +3787,9 @@ class Component extends DCLogic {
       inp.addEventListener("input", () => { this._exQ = inp.value; this.showExplorerList(); });
       inp.addEventListener("pointerdown", (e) => e.stopPropagation());
     }
+    // the GI/NO-GI pill left the pane for Settings → Rolling (v1.95.3) — only the stored
+    // preference is loaded here; setGiMode stays the one behavior seam
     if (this._giMode == null) { try { this._giMode = localStorage.getItem("bjj_gi_mode") === "nogi" ? "nogi" : "gi"; } catch (e) { this._giMode = "gi"; } }
-    const gt = this.giToggleRef.current;
-    if (gt && !gt._wired) {
-      gt._wired = true;
-      gt.addEventListener("pointerdown", (e) => e.stopPropagation());
-      gt.querySelectorAll("[data-gi]").forEach((s) => s.addEventListener("click", () => this.setGiMode(s.getAttribute("data-gi"))));
-    }
-    this.styleGiToggle();
     const vt = this.viewToggleRef.current;
     if (vt && !vt._wired) {
       vt._wired = true;
@@ -3786,17 +3803,8 @@ class Component extends DCLogic {
     this._giMode = m;
     try { localStorage.setItem("bjj_gi_mode", m); } catch (e) {}
     this._explorer = null;
-    this.styleGiToggle();
     const list = this.explorerListRef.current;
     if (list && list.style.display !== "none") this.renderExplorer();
-  }
-  styleGiToggle() {
-    const gt = this.giToggleRef.current; if (!gt) return;
-    gt.querySelectorAll("[data-gi]").forEach((s) => {
-      const on = s.getAttribute("data-gi") === (this._giMode || "gi");
-      s.style.background = on ? "#9fb0d8" : "transparent";
-      s.style.color = on ? "#0e1630" : "#8b97b0";
-    });
   }
   giAllows(n) {
     // data-driven: a node's cal.avail.{gi,nogi} is derived from Q3's per-frame attempt

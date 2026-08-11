@@ -282,13 +282,15 @@
 }
 
 /* the Challenges tab's miniature belt — the PINNED track's color (--tb) with a dark rank
-   sleeve wearing 0-4 tape stripes from that track's completed-challenges fraction. This is
-   LADDER progress; the woven knowledge belt above the tabs is the SCORE. Two meters. */
+   sleeve wearing 0-4 tape stripes from that track's PROVEN UNITS fraction (v1.95.3 —
+   checkpoint-passed units, not objectives: a casual guest wears 0). This is LADDER
+   progress; the woven knowledge belt is the SCORE. Two meters. Width is deliberately
+   generous (owner: "a lot wider") — 76px still fits a ~103px tab column at 390px. */
 .ng-tab-belt {
   display: inline-flex;
   justify-content: flex-end;
-  width: 36px;
-  height: 8px;
+  width: 76px;
+  height: 9px;
   overflow: hidden;
   border-radius: 2px;
   background: var(--tb, #d8dde8);
@@ -300,15 +302,15 @@
 .ng-tab-belt > span {
   display: flex;
   justify-content: center;
-  gap: 2px;
-  width: 16px;
-  margin-right: 4px;
+  gap: 3px;
+  width: 30px;
+  margin-right: 7px;
   background: #17171b;
 }
 
 .ng-tab-belt > span > b {
   flex: none;
-  width: 2px;
+  width: 3px;
   background: linear-gradient(180deg, #f6f3ea, #bdb6a4);
 }
 

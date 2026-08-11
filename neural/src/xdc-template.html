@@ -169,14 +169,11 @@
       <button type="button" data-view="challenges" aria-pressed="true"><b>Challenges</b><small data-tab-sub="challenges"></small></button>
       <button type="button" data-view="history" aria-pressed="false"><b>Last rolls</b><small data-tab-sub="history">Your last rolls</small></button>
     </nav>
+    <!-- the GI/NO-GI pill moved to Settings -> Rolling (v1.95.3, owner: one home only) -->
     <div ref="{{ explorerToolsRef }}" class="ng-explorer-tools">
       <div ref="{{ explorerSearchWrapRef }}" class="ng-explorer-search">
         <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#8b97b0" stroke-width="2.2" stroke-linecap="round"><circle cx="11" cy="11" r="7"></circle><path d="m21 21-4.3-4.3"></path></svg>
         <input ref="{{ explorerSearchRef }}" placeholder="Search techniques&hellip;" style="flex:1;min-width:0;font-family:inherit;font-size:13px;color:#eef1f6;background:transparent;border:none;outline:none;">
-      </div>
-      <div ref="{{ giToggleRef }}" class="ng-gi-toggle" aria-label="Uniform ruleset">
-        <button type="button" data-gi="gi">GI</button>
-        <button type="button" data-gi="nogi">NO-GI</button>
       </div>
     </div>
     <div ref="{{ explorerListRef }}" class="ng-learning-list" style="flex:1;overflow-y:auto;padding:4px 12px 24px;"></div>
