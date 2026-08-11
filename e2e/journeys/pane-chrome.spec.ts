@@ -8,11 +8,16 @@ import { journey } from "../dsl"
  *      today the drill pill; formerly the account chip) used to open a pane whose
  *      Explore/Challenges buttons were dead — wiring lived only in openPane(). It now
  *      lives at the choke point (applyDeckVisibility).
- *   2. The stat row + the guest save nudge are ONE block at the pane's BOTTOM, visible on
- *      all three tabs, next to Settings/Terms/Privacy — not mid-History-content.
+ *   2. The guest save nudge is ONE block at the pane's BOTTOM, visible on all three tabs,
+ *      next to Settings/Terms/Privacy. The stat row (mastered/today/weak spots) moved to
+ *      the TOP of Explore in v1.95.0 — the weak-spots count is Explore's call to action.
  *   3. The knowledge header shows no pedagogical filler ("Building foundations" is gone);
- *      the woven belt gains a quiet band line — white→blue→purple→brown→black on the score
- *      axis with your position dotted — and the sub-line is a plain "N% to blue".
+ *      the woven belt gains a quiet band line — the five bands on the score axis with your
+ *      position dotted — and the sub-line is a plain "N% to blue". White is the FLOOR
+ *      (v1.95.0): the cold state wears the white belt and roads to blue, never "to white".
+ *   3b. Tabs are two-line (v1.95.0): Explore over "N% mastered", Challenges over a mini
+ *      belt striped by LADDER progress (not the score), and History is labeled "Last
+ *      rolls" (internal ids unchanged).
  *   4. v1.94.0 RETIRES the "no account menu" canon: the chip now opens `.ng-account-menu`
  *      (account-menu.spec.ts owns that contract) and the PANE opener is the top-left logo.
  *   5. Settings carries Terms · Privacy links (the "Learn More" submenu that never was).
@@ -59,7 +64,7 @@ test("the pill opens History with LIVE tabs — every open path wires the pane",
   ).toBeVisible()
 })
 
-test("stats + save nudge are ONE bottom-anchor block, visible on all three tabs", async ({
+test("the anchor keeps the guest save nudge; the stat row lives at the top of Explore", async ({
   page,
 }) => {
   const j = journey(page)
@@ -69,7 +74,6 @@ test("stats + save nudge are ONE bottom-anchor block, visible on all three tabs"
 
   const anchor = page.locator(".ng-pane-anchor")
   await expect(anchor).toBeVisible()
-  await expect(anchor.locator(".ngStat"), "the stat row moved into the anchor").toHaveCount(3)
   await expect(
     anchor.locator("[data-anchor-auth]"),
     "the guest nudge, in the owner's words",
@@ -77,12 +81,15 @@ test("stats + save nudge are ONE bottom-anchor block, visible on all three tabs"
   await expect(anchor.locator("[data-anchor-login]"), "with a quieter log in").toContainText(
     "or log in",
   )
+  // v1.95.0: the stat row moved OUT of the anchor and into Explore's body top — the
+  // weak-spots count is a call to action for browsing, not chrome for every tab
+  await expect(anchor.locator(".ngStat"), "no stats in the anchor").toHaveCount(0)
   await expect(
     page.locator(".ng-pane-drillhead .ngStat"),
-    "and History's head no longer carries stats",
+    "and History's head still carries none",
   ).toHaveCount(0)
 
-  // geometry: the block sits at the pane's BOTTOM, above the Settings/Terms/Privacy row
+  // geometry: the nudge still hugs the pane's BOTTOM, above the Settings/Terms/Privacy row
   const g = await page.evaluate(() => {
     const a = document.querySelector(".ng-pane-anchor")!.getBoundingClientRect()
     const nav = document.querySelector(".ng-learning-nav")!.getBoundingClientRect()
@@ -91,16 +98,87 @@ test("stats + save nudge are ONE bottom-anchor block, visible on all three tabs"
   expect(g.anchorTop, "below the tab bar, not mid-content").toBeGreaterThan(g.navBottom + 100)
   expect(g.vh - g.anchorBottom, "hugging the pane's foot").toBeLessThan(90)
 
-  // it supersedes tabs: same block on Challenges and Explore
+  // the nudge survives tab switches: same block on Challenges and Explore
   await j.clickByMouse('.ng-learning-nav [data-view="challenges"]', "the Challenges tab")
   await expect(anchor, "anchor on Challenges").toBeVisible()
   await expect(anchor.locator("[data-anchor-auth]")).toBeVisible()
+  await expect(page.locator("[data-explore-stats]"), "no stats row on Challenges").toHaveCount(0)
+
+  // THE STATS ROW RIDES THE TOP OF EXPLORE — "the 30 weak spots are the call to action"
   await j.clickByMouse('.ng-learning-nav [data-view="explore"]', "the Explore tab")
   await expect(anchor, "anchor on Explore").toBeVisible()
+  const stats = page.locator("[data-explore-stats]")
+  await expect(stats).toBeVisible()
+  await expect(stats.locator(".ngStat")).toHaveCount(3)
+  await expect(stats).toContainText("weak spots")
+  const s = await page.evaluate(() => {
+    const r = document.querySelector("[data-explore-stats]")!.getBoundingClientRect()
+    const nav = document.querySelector(".ng-learning-nav")!.getBoundingClientRect()
+    return { top: r.top, navBottom: nav.bottom }
+  })
+  expect(s.top, "at the top of Explore's body, not the foot").toBeLessThan(s.navBottom + 180)
 
   // the quiet line is a real login path
   await j.clickByMouse("[data-anchor-login]", "the or-log-in line")
   await expect(page.locator("body"), "log-in mode, not sign-up").toContainText("Welcome back")
+})
+
+test("tabs carry a title over a plain subtitle: mastered %, ladder belt, Last rolls", async ({
+  page,
+}) => {
+  const j = journey(page)
+  await j.boot("/")
+  await j.land("Mount Top")
+  await openViaPill(page, j)
+
+  const nav = page.locator(".ng-learning-nav")
+  await expect(nav.locator('[data-view="explore"] > b')).toHaveText("Explore")
+  await expect(
+    nav.locator('[data-view="explore"] [data-tab-sub]'),
+    "Explore's second line is the game knowledge, plainly",
+  ).toContainText("% mastered")
+  await expect(nav.locator('[data-view="challenges"] > b')).toHaveText("Challenges")
+  const tabBelt = nav.locator('[data-view="challenges"] .ng-tab-belt')
+  await expect(tabBelt, "Challenges' second line is a belt").toBeVisible()
+  // the journey boot completes the white (pinned) track's challenges to skip the first-roll
+  // coach — 20 of 20 done IS full ladder progress, so the tab belt wears all four stripes
+  await expect(tabBelt, "ladder complete = four stripes").toHaveAttribute(
+    "data-tab-stripes",
+    "4",
+  )
+  // "History can be confused with the history of BJJ" — the label is Last rolls now
+  // (internal ids and settings keys stay `history`)
+  await expect(nav.locator('[data-view="history"] > b')).toHaveText("Last rolls")
+  await expect(nav.locator('[data-view="history"] [data-tab-sub]')).toHaveText(
+    "Your last rolls",
+  )
+  expect(await nav.innerText(), "the old tab label is gone").not.toContain("History")
+
+  // THE TWO BELTS ARE DIFFERENT METERS: the tab belt is LADDER progress (challenges
+  // completed on the pinned track), NOT gameScore().stripes. Seed a purple score — the
+  // header belt turns purple and the Explore subtitle follows it, but the tab belt's
+  // stripes do not move (no challenge completion changed).
+  await page.evaluate(() => {
+    const a = (window as any).__neural
+    a._scoreCache = {
+      v: a._stageVer || 0,
+      out: { score: 0.65, belt: "purple", next: "brown", stripes: 2 },
+    }
+    a.renderKnowledgeHeader()
+  })
+  await expect(page.locator(".ng-knowledge-meter")).toHaveAttribute("data-belt", "purple")
+  await expect(nav.locator('[data-view="explore"] [data-tab-sub]')).toHaveText("65% mastered")
+  await expect(tabBelt, "score moved, ladder did not").toHaveAttribute("data-tab-stripes", "4")
+
+  // and the converse: wipe the challenge ledger — the ladder empties to 0 stripes while
+  // the seeded score (and the Explore subtitle reading it) is untouched
+  await page.evaluate(() => {
+    const a = (window as any).__neural
+    a.challenges = {}
+    a.renderTabSubtitles()
+  })
+  await expect(tabBelt, "ladder moved, score did not").toHaveAttribute("data-tab-stripes", "0")
+  await expect(nav.locator('[data-view="explore"] [data-tab-sub]')).toHaveText("65% mastered")
 })
 
 test("a study takeover hides the anchor; leaving the study restores it", async ({ page }) => {
@@ -136,10 +214,12 @@ test("knowledge header: no pedagogy — a belt road with five bands and your dot
   await expect(header, "the meter-philosophy line is dead too").not.toContainText(
     "Proven recall",
   )
-  await expect(header, "plain road wording").toContainText("% to white")
+  // v1.95.0, owner's rule: everybody starts as white — the cold road leads to BLUE
+  await expect(header, "plain road wording").toContainText("% to blue")
+  await expect(header, "white is the floor, never a target").not.toContainText("to white")
 
-  // the band line: pre-white lead-in + the five belt bands, dot at the score
-  await expect(page.locator(".ng-belt-road > span")).toHaveCount(6)
+  // the band line: five belt bands (white owns 0→40 — no pre-white lead-in), dot at the score
+  await expect(page.locator(".ng-belt-road > span")).toHaveCount(5)
   const fresh = await page.evaluate(() => ({
     left: (document.querySelector(".ng-belt-you") as HTMLElement).style.left,
     now: document.querySelector(".ng-knowledge-meter")!.getAttribute("aria-valuenow"),

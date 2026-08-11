@@ -186,8 +186,9 @@
 }
 
 /* ── the band line (v1.93.0) — the belt's quiet companion. One 3px road on the score axis:
-   the five bands white→blue→purple→brown→black sit exactly where BELT_SCORE earns them
-   (20/40/60/70/80); the dot is where you are. Static, aria-hidden, no numbers of its own. */
+   white is the FLOOR and owns 0→40 (v1.95.0 — everybody starts as white, so there is no
+   pre-white lead-in); blue→purple→brown→black sit exactly where BELT_SCORE earns them
+   (40/60/70/80); the dot is where you are. Static, aria-hidden, no numbers of its own. */
 .ng-belt-road {
   position: relative;
   display: flex;
@@ -236,8 +237,16 @@
   padding: 10px 12px 6px;
 }
 
+/* two-line tabs (v1.95.0): <b> title over one <small> subtitle — Explore carries the
+   score ("N% mastered"), Challenges a mini ladder belt, Last rolls its plain line */
 .ng-learning-nav > button {
   min-height: 44px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3px;
+  padding: 5px 2px;
   border: 1px solid transparent;
   border-radius: 9px;
   background: transparent;
@@ -248,10 +257,59 @@
   cursor: pointer;
 }
 
+.ng-learning-nav > button > b {
+  font: inherit; /* the title keeps the tab's uppercase voice */
+}
+
+.ng-learning-nav > button > small {
+  min-height: 10px;
+  display: flex;
+  align-items: center;
+  color: #6b7691;
+  font: 600 8px/1.2 "Plus Jakarta Sans", sans-serif;
+  letter-spacing: 0.02em;
+  text-transform: none;
+}
+
 .ng-learning-nav > button[aria-pressed="true"] {
   border-color: rgba(150, 170, 210, 0.2);
   background: rgba(255, 255, 255, 0.055);
   color: #eef1f6;
+}
+
+.ng-learning-nav > button[aria-pressed="true"] > small {
+  color: #93a0ba;
+}
+
+/* the Challenges tab's miniature belt — the PINNED track's color (--tb) with a dark rank
+   sleeve wearing 0-4 tape stripes from that track's completed-challenges fraction. This is
+   LADDER progress; the woven knowledge belt above the tabs is the SCORE. Two meters. */
+.ng-tab-belt {
+  display: inline-flex;
+  justify-content: flex-end;
+  width: 36px;
+  height: 8px;
+  overflow: hidden;
+  border-radius: 2px;
+  background: var(--tb, #d8dde8);
+  box-shadow:
+    inset 0 0 0 1px rgba(0, 0, 0, 0.38),
+    inset 0 1px 1px -1px rgba(255, 255, 255, 0.5);
+}
+
+.ng-tab-belt > span {
+  display: flex;
+  justify-content: center;
+  gap: 2px;
+  width: 16px;
+  margin-right: 4px;
+  background: #17171b;
+}
+
+.ng-tab-belt > span > b {
+  flex: none;
+  width: 2px;
+  background: linear-gradient(180deg, #f6f3ea, #bdb6a4);
 }
 
 .ng-explorer-tools {

@@ -6,7 +6,13 @@ import { journey } from "../dsl";
 //
 // Display-only, by canon: the belt READS gameScore() and nothing reads the belt. These
 // journeys pin the contract:
-//   · the tape stripes on the rank bar are gameScore().stripes, exactly — no more, no less;
+//   · WHITE IS THE FLOOR, NOT A TARGET (v1.95.0, owner's rule): "everybody starts as
+//     white — there is never 0% to white. It's always 0% to blue." gameScore() still
+//     reports belt:null below the first threshold (its math is untouched); the DISPLAY
+//     wears the white belt from score 0 and its road spans the whole 0 → blue stretch.
+//     White's tape stripes are quarter-marks of that displayed road (gameScore's internal
+//     pre-white/white split would reset the tape count mid-road);
+//   · held belts from blue up wear gameScore().stripes, exactly — no re-derivation;
 //   · a black belt wears the RED rank bar and the 0-4 stripe ladder does not exist for it
 //     (the owner is explicit: stripes end at black);
 //   · reduced motion serves the static state — no tape-wrap animation, no hover transition;
@@ -47,26 +53,42 @@ const stripesRendered = (page: Page) =>
   page.locator(".ng-knowledge-meter .ng-belt-bar > b").count();
 
 test.describe("Belt meter @curated", () => {
-  test("tape stripes are gameScore().stripes across seeded belts", async ({
+  test("held belts wear gameScore().stripes; the white floor derives quarter-marks of its road", async ({
     page,
   }) => {
     const j = journey(page);
     await j.boot("/");
     await openPane(page);
 
-    const profiles: Score[] = [
-      { score: 0.21, belt: "white", next: "blue", stripes: 0 },
-      { score: 0.5, belt: "blue", next: "purple", stripes: 2 },
-      { score: 0.79, belt: "brown", next: "black", stripes: 4 },
+    const profiles: Array<{ seed: Score; rendered: number; why: string }> = [
+      {
+        // white floor: displayed road is 0→0.4, so tape = floor(0.21 / 0.4 * 4) = 2 —
+        // NOT the seeded gameScore().stripes (which counts the internal 0.2→0.4 band)
+        seed: { score: 0.21, belt: "white", next: "blue", stripes: 0 },
+        rendered: 2,
+        why: "white derives its tape from the displayed 0→blue road",
+      },
+      {
+        seed: { score: 0.5, belt: "blue", next: "purple", stripes: 2 },
+        rendered: 2,
+        why: "held belts wear gameScore().stripes",
+      },
+      {
+        // stripes:4 while score-derivation would say floor((0.79-0.7)/0.1*4)=3 — held
+        // belts honor gameScore().stripes exactly, they never re-derive from the score
+        seed: { score: 0.79, belt: "brown", next: "black", stripes: 4 },
+        rendered: 4,
+        why: "held belts honor gameScore().stripes even against the arithmetic",
+      },
     ];
     for (const profile of profiles) {
-      const game = await seatBelt(page, profile);
-      expect(game.stripes).toBe(profile.stripes);
+      const game = await seatBelt(page, profile.seed);
+      expect(game.stripes).toBe(profile.seed.stripes);
       await expect(page.locator(".ng-knowledge-meter")).toHaveAttribute(
         "data-belt",
-        profile.belt!,
+        profile.seed.belt!,
       );
-      expect(await stripesRendered(page)).toBe(profile.stripes);
+      expect(await stripesRendered(page), profile.why).toBe(profile.rendered);
     }
   });
 
@@ -102,6 +124,48 @@ test.describe("Belt meter @curated", () => {
       "aria-label",
       "Brown belt, 0 stripes — 20% to black",
     );
+
+    // the floor: no band earned yet (gameScore says belt:null, next:"white") — the display
+    // wears white and roads to BLUE. Seeded stripes:2 is gameScore's internal 0→0.2 count;
+    // the display derives 1 from the 0→0.4 road (floor(0.1/0.4*4)) — never "to white".
+    await seatBelt(page, { score: 0.1, belt: null, next: "white", stripes: 2 });
+    await expect(page.locator(".ng-knowledge-meter")).toHaveAttribute(
+      "aria-label",
+      "White belt, 1 stripe — 25% to blue",
+    );
+  });
+
+  test("a cold start wears the white belt on the road to blue — 0% to white never exists", async ({
+    page,
+  }) => {
+    const j = journey(page);
+    await j.boot("/");
+    await openPane(page);
+
+    // no seeded cache: this is the real fresh-boot gameScore (score 0, belt null)
+    const header = page.locator(".ng-knowledge-header");
+    await expect(page.locator(".ng-knowledge-meter")).toHaveAttribute(
+      "data-belt",
+      "white",
+    );
+    await expect(page.locator(".ng-knowledge-meter")).toHaveAttribute(
+      "aria-label",
+      "White belt, 0 stripes — 0% to blue",
+    );
+    await expect(header).toContainText("% to blue");
+    await expect(header, "white is the floor, never a target").not.toContainText(
+      "to white",
+    );
+    await expect(header, "the belt name renders from day one").toContainText("White");
+    // the band road: white owns the whole first 40% of the score axis (no pre-white
+    // lead-in segment), then blue/purple/brown/black as BELT_SCORE earns them
+    await expect(page.locator(".ng-belt-road > span")).toHaveCount(5);
+    const first = await page
+      .locator(".ng-belt-road > span")
+      .first()
+      .getAttribute("style");
+    expect(first, "the first band is white and spans 0→40").toContain("40%");
+    expect(first).toContain("#d8dde8");
   });
 
   test("black belt wears the red rank bar and no stripe ladder exists for it", async ({
@@ -142,9 +206,15 @@ test.describe("Belt meter @curated", () => {
     const game = await page.evaluate(() =>
       (window as any).__neural.gameScore(),
     );
-    expect(await stripesRendered(page)).toBe(
-      game.belt === "black" ? 0 : game.stripes,
-    );
+    // display rule: black no ladder; the white floor derives from the 0→blue road;
+    // held belts wear gameScore().stripes
+    const expected =
+      game.belt === "black"
+        ? 0
+        : !game.belt || game.belt === "white"
+          ? Math.max(0, Math.min(4, Math.floor((game.score / 0.4) * 4)))
+          : game.stripes;
+    expect(await stripesRendered(page)).toBe(expected);
   });
 
   test("earning a stripe wraps the tape on; reduced motion serves it static", async ({

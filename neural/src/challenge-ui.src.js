@@ -24,24 +24,25 @@ const NG_CHALLENGE_UI_METHODS = {
     if (!el) return;
     const game = this.gameScore();
     const score = Math.max(0, Math.min(100, game.score * 100));
-    // No pedagogical filler (v1.93.0): pre-belt shows the score alone — never "Building
-    // foundations". The belt NAME still renders once a band is actually held (that is rank,
-    // not pedagogy).
-    const belt = game.belt
-      ? game.belt.charAt(0).toUpperCase() + game.belt.slice(1)
-      : "";
+    // WHITE IS THE FLOOR, NOT A TARGET (v1.95.0, owner's rule): "everybody starts as white —
+    // there is never 0% to white. It's always 0% to blue." gameScore() still reports
+    // belt:null below the first threshold (its math is untouched, per the same rule); the
+    // DISPLAY maps that floor onto the white belt, whose road spans the whole 0 → blue
+    // stretch. Held belts from blue up keep their BELT_SCORE band exactly as earned.
+    const dispBelt = game.belt || "white";
+    const belt = dispBelt.charAt(0).toUpperCase() + dispBelt.slice(1);
     el.setAttribute(
       "aria-label",
-      "Your Game Knowledge: " + score.toFixed(1) + " percent" + (belt ? ", " + belt : ""),
+      "Your Game Knowledge: " + score.toFixed(1) + " percent, " + belt,
     );
     // The meter IS a belt (v1.90.0) — woven strap, rank bar, tape stripes. Display-only by
     // canon: it reads gameScore() and nothing reads it back. Black wears the red bar and no
     // stripe ladder (the stripe system ends at black — owner's rule).
     const B = this.BELT_SCORE;
     let lo = 0;
-    let hi = B[0][1];
-    for (let i = 0; i < B.length; i++)
-      if (game.belt === B[i][0]) {
+    let hi = B[1][1]; // white (floor or held) spans 0 → the blue threshold
+    for (let i = 1; i < B.length; i++)
+      if (dispBelt === B[i][0]) {
         lo = B[i][1];
         hi = i + 1 < B.length ? B[i + 1][1] : 1;
       }
@@ -49,32 +50,41 @@ const NG_CHALLENGE_UI_METHODS = {
       0,
       Math.min(100, Math.round(((game.score - lo) / (hi - lo)) * 100)),
     );
-    const black = game.belt === "black";
-    const stripes = black ? 0 : game.stripes;
-    const next = game.next || (game.belt ? null : "white");
+    const black = dispBelt === "black";
+    // stripes: held belts wear gameScore().stripes exactly; the white floor derives its
+    // quarter-marks from the displayed 0→blue road (gameScore's internal pre-white/white
+    // split would reset the tape count mid-road, which reads as regression).
+    const stripes = black
+      ? 0
+      : dispBelt === "white"
+        ? Math.max(0, Math.min(4, Math.floor(((game.score - lo) / (hi - lo)) * 4)))
+        : game.stripes;
+    const next = black ? null : dispBelt === "white" ? "blue" : game.next;
     const road = next ? pct + "% to " + next : "";
     const label = black
       ? "Black belt"
-      : (game.belt
-          ? belt + " belt, " + stripes + (stripes === 1 ? " stripe" : " stripes")
-          : score.toFixed(1) + "%") + (road ? " — " + road : "");
+      : belt +
+        " belt, " +
+        stripes +
+        (stripes === 1 ? " stripe" : " stripes") +
+        (road ? " — " + road : "");
     // a stripe EARNED on the same belt gets the tape-wrap animation (data-new)
     const prev = this._beltShown;
     const fresh =
-      prev && prev.belt === game.belt && stripes > prev.stripes
+      prev && prev.belt === dispBelt && stripes > prev.stripes
         ? prev.stripes
         : stripes;
-    this._beltShown = { belt: game.belt, stripes: stripes };
+    this._beltShown = { belt: dispBelt, stripes: stripes };
     let tape = "";
     for (let i = 0; i < stripes; i++)
       tape += i >= fresh ? "<b data-new></b>" : "<b></b>";
-    // THE BAND LINE (v1.93.0) — the woven belt's quiet companion: one horizontal road, the five
-    // bands white→blue→purple→brown→black laid out on the score axis exactly as BELT_SCORE
-    // earns them (20/40/60/70/80), your position marked on it. Decorative (aria-hidden) — the
-    // meter's aria-label already speaks belt, stripes and road.
+    // THE BAND LINE (v1.93.0) — the woven belt's quiet companion: one horizontal road, the
+    // five bands laid out on the score axis, your position marked on it. White owns 0→40
+    // (the floor — no pre-white lead-in, v1.95.0); blue/purple/brown/black sit exactly where
+    // BELT_SCORE earns them (40/60/70/80). Decorative (aria-hidden) — the meter's aria-label
+    // already speaks belt, stripes and road.
     const segs = [
-      ["rgba(150,170,210,.16)", 20], // pre-white lead-in
-      ["#d8dde8", 20],               // white held: 20–40
+      ["#d8dde8", 40],               // white — the floor: held from 0 all the way to blue
       ["#78a2f5", 20],               // blue held: 40–60
       ["#b38bdd", 10],               // purple held: 60–70
       ["#bd8a68", 10],               // brown held: 70–80
@@ -87,10 +97,10 @@ const NG_CHALLENGE_UI_METHODS = {
       '<div class="ng-knowledge-line"><span>YOUR GAME KNOWLEDGE</span><b>' +
       score.toFixed(1) +
       "%" +
-      (belt ? " <em>" + ngChallengeHTML(belt) + "</em>" : "") +
+      " <em>" + ngChallengeHTML(belt) + "</em>" +
       "</b></div>" +
       '<div class="ng-knowledge-meter ng-belt" role="meter" data-belt="' +
-      (game.belt || "none") +
+      dispBelt +
       '" aria-label="' +
       ngChallengeHTML(label) +
       '" aria-valuemin="0" aria-valuemax="100" aria-valuenow="' +
@@ -99,7 +109,55 @@ const NG_CHALLENGE_UI_METHODS = {
       tape +
       "</i></div>" +
       roadHtml +
-      (road ? "<p>" + ngChallengeHTML(road) + "</p>" : black ? "<p>Black belt</p>" : "");
+      (road ? "<p>" + ngChallengeHTML(road) + "</p>" : "<p>Black belt</p>");
+    this.renderTabSubtitles(); // the Explore subtitle carries the same score — keep them in step
+  },
+
+  // ── tab subtitles (v1.95.0) ── each pane tab is a title over one plain second line:
+  //  · Explore — the Game Knowledge score as "N% mastered" (same number as the belt above);
+  //  · Challenges — a miniature belt in the PINNED track's color wearing 0-4 stripes from
+  //    that track's completed-challenges fraction (challengeTrackProgress). Deliberately NOT
+  //    gameScore().stripes: the knowledge header's belt is the SCORE's belt; the Challenges
+  //    tab's stripes are LADDER progress. Two meters, two meanings — documented in CLAUDE.md.
+  //  · Last rolls — static copy from the template ("History reads as the history of BJJ",
+  //    owner). The internal view id and settings keys stay `history`.
+  renderTabSubtitles() {
+    const vt = this.viewToggleRef && this.viewToggleRef.current;
+    if (!vt) return;
+    const ex = vt.querySelector('[data-tab-sub="explore"]');
+    if (ex)
+      ex.textContent = Math.round(this.gameScore().score * 100) + "% mastered";
+    const ch = vt.querySelector('[data-tab-sub="challenges"]');
+    if (ch) {
+      const pinned = this.get("challengePinnedTrack", "white");
+      const prog = this.challengeTrackProgress(pinned);
+      const frac = prog.total ? prog.done / prog.total : 0;
+      const stripes = Math.max(0, Math.min(4, Math.floor(frac * 4)));
+      let tape = "";
+      for (let i = 0; i < stripes; i++) tape += "<b></b>";
+      ch.innerHTML =
+        '<i class="ng-tab-belt" data-tab-stripes="' +
+        stripes +
+        '" style="--tb:' +
+        (NG_CHALLENGE_TRACK_COLORS[pinned] || NG_CHALLENGE_TRACK_COLORS.white) +
+        ';" aria-hidden="true"><span>' +
+        tape +
+        "</span></i>";
+      const btn = ch.closest("button");
+      if (btn)
+        btn.setAttribute(
+          "aria-label",
+          "Challenges: " +
+            prog.done +
+            " of " +
+            prog.total +
+            " done on the " +
+            pinned +
+            " track, " +
+            stripes +
+            (stripes === 1 ? " stripe" : " stripes"),
+        );
+    }
   },
 
   noteLearningViewOpen(view) {

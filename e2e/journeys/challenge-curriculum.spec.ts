@@ -51,6 +51,10 @@ test.describe("Challenge curriculum @curated", () => {
       "aria-pressed",
       "true",
     );
+    // the stat row lives at the top of Explore since v1.95.0 (weak spots = Explore's
+    // call to action) — switch tabs to see it; the restored History tab has none
+    await expect(page.locator(".ngStat[data-b='mastered']")).toHaveCount(0);
+    await page.locator("[data-view='explore']").click();
     await expect(page.locator(".ngStat[data-b='mastered']")).toBeVisible();
   });
 

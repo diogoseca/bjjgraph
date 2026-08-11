@@ -153,13 +153,16 @@
        logo's side): Explore | Challenges | History — the single side pane.
        Carries BOTH classes: .ng-drill (pane rails + drilltab specs) and .ng-explorer
        (learning-panel visibility specs). Visibility is display-based (flex/none). -->
-  <div ref="{{ drillRef }}" class="ng-drill ng-explorer" role="complementary" aria-label="Explore, Challenges, and History" style="display:none;position:absolute;top:0;left:0;bottom:0;width:360px;z-index:8;background:linear-gradient(180deg,rgba(18,21,38,.985),rgba(13,15,28,.985));border-right:1px solid rgba(130,150,190,.16);box-shadow:14px 0 44px rgba(0,0,0,.5);flex-direction:column;pointer-events:auto;">
+  <div ref="{{ drillRef }}" class="ng-drill ng-explorer" role="complementary" aria-label="Explore, Challenges, and Last rolls" style="display:none;position:absolute;top:0;left:0;bottom:0;width:360px;z-index:8;background:linear-gradient(180deg,rgba(18,21,38,.985),rgba(13,15,28,.985));border-right:1px solid rgba(130,150,190,.16);box-shadow:14px 0 44px rgba(0,0,0,.5);flex-direction:column;pointer-events:auto;">
     <button onClick="{{ closeDeck }}" class="ng-explorer-close" type="button" title="Close panel" aria-label="Close panel">&times;</button>
     <section ref="{{ knowledgeRef }}" class="ng-knowledge-header"></section>
+    <!-- two-line tabs (v1.95.0): title <b> + subtitle <small> (filled by renderTabSubtitles;
+         the history line is static). "Last rolls" is DISPLAY only — the view id, settings
+         keys and every internal seam stay `history` (migration cost not worth it). -->
     <nav ref="{{ viewToggleRef }}" class="ng-learning-nav" aria-label="Learning views">
-      <button type="button" data-view="explore" aria-pressed="false">Explore</button>
-      <button type="button" data-view="challenges" aria-pressed="true">Challenges</button>
-      <button type="button" data-view="history" aria-pressed="false">History</button>
+      <button type="button" data-view="explore" aria-pressed="false"><b>Explore</b><small data-tab-sub="explore"></small></button>
+      <button type="button" data-view="challenges" aria-pressed="true"><b>Challenges</b><small data-tab-sub="challenges"></small></button>
+      <button type="button" data-view="history" aria-pressed="false"><b>Last rolls</b><small data-tab-sub="history">Your last rolls</small></button>
     </nav>
     <div ref="{{ explorerToolsRef }}" class="ng-explorer-tools">
       <div ref="{{ explorerSearchWrapRef }}" class="ng-explorer-search">

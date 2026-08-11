@@ -33,10 +33,12 @@ test.describe("Challenges UI @curated", () => {
     await expect(page.locator(".ng-knowledge-header")).toContainText(
       "YOUR GAME KNOWLEDGE",
     );
-    await expect(page.locator(".ng-learning-nav button")).toHaveText([
+    // tab titles live in each button's <b>; the second line is a subtitle (v1.95.0 —
+    // History is displayed as "Last rolls"; the internal view id stays `history`)
+    await expect(page.locator(".ng-learning-nav button b")).toHaveText([
       "Explore",
       "Challenges",
-      "History",
+      "Last rolls",
     ]);
 
     const tracks = page.locator(".ng-track-card");

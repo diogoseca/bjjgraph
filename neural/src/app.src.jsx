@@ -1190,8 +1190,10 @@ class Component extends DCLogic {
     const dh = this.drillHeadRef.current; if (dh) dh.style.display = study ? "block" : "none";
     const dl = this.drillListRef.current; if (dl) dl.style.display = showDrill ? "flex" : "none";
     const df = this.drillFootRef.current; if (df && !showDrill) df.style.display = "none";
-    // the bottom anchor supersedes tabs (all three see it); only a study takeover hides it
-    const pa = this.paneAnchorRef.current; if (pa) pa.style.display = study ? "none" : "flex";
+    // the bottom anchor supersedes tabs (all three see it); a study takeover hides it, and an
+    // EMPTY anchor stays collapsed (signed-in users have no save nudge — v1.95.0, the stat
+    // row lives in Explore now, so the anchor can be legitimately contentless)
+    const pa = this.paneAnchorRef.current; if (pa) pa.style.display = study || !pa.childElementCount ? "none" : "flex";
   }
   // render whichever body the active tab owns (no-op while a study surface holds the pane)
   _renderPaneBody() {
@@ -1875,35 +1877,47 @@ class Component extends DCLogic {
   }
   iconStack(col) { return '<svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="' + (col || '#9fb0d8') + '" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2 2 7l10 5 10-5-10-5Z"></path><path d="m2 17 10 5 10-5"></path><path d="m2 12 10 5 10-5"></path></svg>'; }
 
-  // ── pane bottom anchor (v1.93.0): ONE block at the pane's foot, on every tab ──
-  // stat row (mastered / today / weak spots — same .ngStat handles it always had) + the guest
-  // save nudge ("Create an account to save your progress" over a quieter "or log in"). It sits
-  // directly above the Settings/Terms/Privacy row; a study takeover hides it (_layoutPane) so a
-  // quiz keeps its room. Signed-in users get the stat row alone — their session CTA and Log out
-  // live in the History foot as before.
+  // ── pane bottom anchor: the guest save nudge, ONE block at the pane's foot, every tab ──
+  // v1.95.0: the stat row (mastered / today / weak spots) moved OUT of the anchor to the top
+  // of Explore — "the 30 weak spots are the call to action" there (owner). The anchor keeps
+  // exactly one job: "Create an account to save your progress" over a quieter "or log in",
+  // directly above the Settings/Terms/Privacy row. A study takeover hides it (_layoutPane);
+  // signed-in users have nothing here, so the block collapses entirely (their session CTA
+  // and Log out live in the Last rolls foot as before).
   renderPaneAnchor() {
     const el = this.paneAnchorRef.current; if (!el) return;
+    if (this.user) { el.innerHTML = ""; el.style.display = "none"; return; }
+    el.innerHTML =
+      '<button type="button" class="ngHdrAuth" data-anchor-auth="1" style="cursor:pointer;font-family:inherit;border:none;display:flex;flex-direction:column;align-items:center;gap:1px;width:100%;min-height:44px;justify-content:center;padding:8px 11px;border-radius:12px;background:linear-gradient(135deg,#4a6cff,#7a4cff);box-shadow:0 5px 18px rgba(74,108,255,.4);transition:filter .15s ease;">' +
+        '<span style="font-size:12.5px;font-weight:700;color:#fff;">Create an account to save your progress</span>' +
+      '</button>' +
+      '<button type="button" data-anchor-login="1" style="cursor:pointer;font-family:inherit;border:none;background:transparent;width:100%;min-height:44px;padding:6px;font-size:11px;font-weight:600;color:#7e8aa3;">or log in</button>';
+    el.style.display = this._paneStudyActive() ? "none" : "flex";
+    { const a = el.querySelector("[data-anchor-auth]"); if (a) { a.addEventListener("mouseenter", () => a.style.filter = "brightness(1.08)"); a.addEventListener("mouseleave", () => a.style.filter = "none"); a.addEventListener("click", () => this.openAuth("create")); } }
+    { const l = el.querySelector("[data-anchor-login]"); if (l) { l.addEventListener("mouseenter", () => l.style.color = "#cbd4e6"); l.addEventListener("mouseleave", () => l.style.color = "#7e8aa3"); l.addEventListener("click", () => this.openAuth("login")); } }
+  }
+
+  // ── the stat row (v1.95.0): mastered / today / weak spots, at the TOP of Explore ──
+  // Same .ngStat handles and click-throughs it has carried since v1.7 — only its home moved
+  // (History head → pane anchor → Explore body top). The weak-spots count is the browse
+  // surface's call to action; the other two open their flashcard lists.
+  _exploreStatsRow() {
     const mastered = this.masteredCount();
     const goal = this.get("dailyGoal", 30);
-    el.innerHTML =
-      '<div style="display:flex;gap:14px;font-size:11.5px;align-items:center;min-height:30px;">' +
-        '<span class="ngStat" data-b="mastered" style="cursor:pointer;color:#8b97b0;display:inline-flex;align-items:center;gap:4px;border-bottom:1px dashed rgba(139,151,176,.35);padding-bottom:1px;"><b style="color:#cbd4e6;font-weight:700;">' + mastered + '</b> mastered</span>' +
-        '<span class="ngStat" data-b="due" style="cursor:pointer;color:#8b97b0;display:inline-flex;align-items:center;gap:4px;border-bottom:1px dashed rgba(139,151,176,.35);padding-bottom:1px;"><b style="color:#7ee0a8;font-weight:700;">' + (this.cardsToday || 0) + '</b> today</span>' +
-        '<span class="ngStat" data-b="suggested" style="cursor:pointer;color:#d6a45a;display:inline-flex;align-items:center;gap:4px;border-bottom:1px dashed rgba(214,164,90,.4);padding-bottom:1px;"><b style="color:#e9bd70;font-weight:700;">' + goal + '+</b> weak spots</span>' +
-      '</div>' +
-      (this.user ? '' :
-        '<button type="button" class="ngHdrAuth" data-anchor-auth="1" style="cursor:pointer;font-family:inherit;border:none;display:flex;flex-direction:column;align-items:center;gap:1px;width:100%;min-height:44px;justify-content:center;padding:8px 11px;border-radius:12px;background:linear-gradient(135deg,#4a6cff,#7a4cff);box-shadow:0 5px 18px rgba(74,108,255,.4);margin-top:8px;transition:filter .15s ease;">' +
-          '<span style="font-size:12.5px;font-weight:700;color:#fff;">Create an account to save your progress</span>' +
-        '</button>' +
-        '<button type="button" data-anchor-login="1" style="cursor:pointer;font-family:inherit;border:none;background:transparent;width:100%;min-height:44px;padding:6px;font-size:11px;font-weight:600;color:#7e8aa3;">or log in</button>');
-    el.querySelectorAll(".ngStat").forEach((s) => {
+    const row = document.createElement("div");
+    row.setAttribute("data-explore-stats", "1");
+    row.style.cssText = "display:flex;gap:14px;font-size:11.5px;align-items:center;min-height:30px;padding:6px 12px 10px;margin-bottom:6px;border-bottom:1px solid rgba(150,170,210,.1);";
+    row.innerHTML =
+      '<span class="ngStat" data-b="mastered" style="cursor:pointer;color:#8b97b0;display:inline-flex;align-items:center;gap:4px;border-bottom:1px dashed rgba(139,151,176,.35);padding-bottom:1px;"><b style="color:#cbd4e6;font-weight:700;">' + mastered + '</b> mastered</span>' +
+      '<span class="ngStat" data-b="due" style="cursor:pointer;color:#8b97b0;display:inline-flex;align-items:center;gap:4px;border-bottom:1px dashed rgba(139,151,176,.35);padding-bottom:1px;"><b style="color:#7ee0a8;font-weight:700;">' + (this.cardsToday || 0) + '</b> today</span>' +
+      '<span class="ngStat" data-b="suggested" style="cursor:pointer;color:#d6a45a;display:inline-flex;align-items:center;gap:4px;border-bottom:1px dashed rgba(214,164,90,.4);padding-bottom:1px;"><b style="color:#e9bd70;font-weight:700;">' + goal + '+</b> weak spots</span>';
+    row.querySelectorAll(".ngStat").forEach((s) => {
       const sg = s.getAttribute("data-b") === "suggested";
       s.addEventListener("mouseenter", () => s.style.color = sg ? "#f0cf8e" : "#cbd4e6");
       s.addEventListener("mouseleave", () => s.style.color = sg ? "#d6a45a" : "#8b97b0");
       s.addEventListener("click", () => { const b = s.getAttribute("data-b"); if (b === "suggested") { this.openSession("suggested", "Weak spots in your game"); } else { this.openFlashBrowser(b, b === "mastered" ? "Mastered" : "Due Today"); } });
     });
-    { const a = el.querySelector("[data-anchor-auth]"); if (a) { a.addEventListener("mouseenter", () => a.style.filter = "brightness(1.08)"); a.addEventListener("mouseleave", () => a.style.filter = "none"); a.addEventListener("click", () => this.openAuth("create")); } }
-    { const l = el.querySelector("[data-anchor-login]"); if (l) { l.addEventListener("mouseenter", () => l.style.color = "#cbd4e6"); l.addEventListener("mouseleave", () => l.style.color = "#7e8aa3"); l.addEventListener("click", () => this.openAuth("login")); } }
+    return row;
   }
 
   renderDrillHome() {
@@ -3905,8 +3919,10 @@ class Component extends DCLogic {
         }
       }
     };
-    // order: Lists \u2192 Systems \u2192 Principles \u2192 Positions \u2192 Transitions \u2192 Submissions \u2192 Learning
-    // Lists is FIRST: it is the surface the whole acquisition loop runs through.
+    // order: stats \u2192 Lists \u2192 Systems \u2192 Principles \u2192 Positions \u2192 Transitions \u2192 Submissions \u2192 Learning
+    // The stat row leads (v1.95.0 \u2014 the weak-spots count is Explore's call to action, owner);
+    // Lists heads the sections: it is the surface the whole acquisition loop runs through.
+    list.appendChild(this._exploreStatsRow());
     this.renderLists(list);
     renderSystems();
     renderCurated("Principles");
@@ -4355,10 +4371,11 @@ class Component extends DCLogic {
     head.setAttribute("data-lists-head", "1");
     head.style.cssText = "display:flex;align-items:center;gap:8px;padding:7px 12px 3px;";
     head.innerHTML =
-      '<span style="font-size:14px;font-weight:700;color:#dbe2f0;">Lists</span>' +
-      // no "(0)": a count of nothing beside a list of nothing is noise, and beside a shared
-      // block it is a contradiction
-      (ids.length ? '<span style="font-size:11px;color:#7e8aa3;">(' + ids.length + ')</span>' : "") +
+      // "Your lists (0)" — the count is explicit even at zero (owner's call, v1.95.0), and
+      // "Your" scopes it so it no longer contradicts an incoming shared block above: the
+      // shared class is theirs to save, the zero is about lists of your own.
+      '<span style="font-size:14px;font-weight:700;color:#dbe2f0;">Your lists</span>' +
+      '<span style="font-size:11px;color:#7e8aa3;">(' + ids.length + ')</span>' +
       '<span style="margin-left:auto;font-size:9.5px;letter-spacing:.1em;text-transform:uppercase;color:#6b7691;">share a class</span>';
     sec.appendChild(head);
 

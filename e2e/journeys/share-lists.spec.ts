@@ -136,12 +136,16 @@ test("a coach collects today's class into a list from the surfaces they are alre
   await openExplore(page);
   await expect(
     page.locator("[data-lists-section]"),
-    "Lists is the FIRST thing in Explore — it is what the acquisition loop is built on",
+    "Lists leads Explore's sections (under the stats row) — the acquisition loop runs through it",
   ).toBeVisible();
   await expect(
     page.locator("[data-lists-empty]"),
-    "an empty state, not a phantom list",
+    "an explicit empty state, not a bare header",
   ).toBeVisible();
+  await expect(
+    page.locator("[data-lists-head]"),
+    "the header owns its count even at zero — 'Your lists (0)' (owner's call, v1.95.0)",
+  ).toContainText(/Your lists\s*\(0\)/);
 
   // add from an Explore row: search, then the row's + affordance
   const picks = await pickClassNodes(page, 2);
@@ -709,11 +713,14 @@ test("Lists never contradicts itself in front of a first-time recipient @curated
     read.sharedFirst,
     "the thing they came for is read FIRST; their own (empty) Lists cannot be printed above it",
   ).toBe(true);
+  // v1.95.0, owner's call: the count is explicit even at zero — "Your lists (0)". The old
+  // contradiction ("Lists (0)" over "Shared with you · 5 techniques") is resolved by
+  // SCOPE, not omission: "Your" makes clear whose zero it is, and the shared block still
+  // reads first.
   expect(
     read.headText,
-    `a first-time recipient must not read "Lists (0)" above "Shared with you · 5 techniques" ` +
-      `(got: "${read.headText}")`,
-  ).not.toMatch(/\(\s*0\s*\)/);
+    `the head is scoped and counted — "Your lists (0)" (got: "${read.headText}")`,
+  ).toMatch(/Your lists\s*\(0\)/);
 });
 
 test("deleting a list asks first, and can be taken back @curated", async ({ page }) => {
