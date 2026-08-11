@@ -103,7 +103,12 @@ test.describe("White Challenges @curated", () => {
       "aria-pressed",
       "true",
     );
+    // the twenty objectives ARE the Getting started section (v1.96.0) — they ride above
+    // the belt corridor, and no legacy Tutorial row exists anywhere
     await expect(page.locator(".ng-challenge-row")).toHaveCount(20);
+    await expect(
+      page.locator("[data-tutorial] .ng-challenge-row"),
+    ).toHaveCount(20);
     await expect(page.locator("[data-tut-row]")).toHaveCount(0);
     await expect(page.locator(".ng-challenge-detail h2")).toHaveText(
       "White Foundations",

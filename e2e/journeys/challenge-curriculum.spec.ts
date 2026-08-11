@@ -259,6 +259,122 @@ test.describe("Challenge curriculum @curated", () => {
     expect(focus!.focusActive).toBe(true);
   });
 
+  test("the ladder explains itself once, not once per belt", async ({ page }) => {
+    const j = journey(page);
+    await j.boot("/");
+    await openChallenges(page);
+
+    // ONE plain line for the whole ladder; the per-track prose block is display-retired
+    await expect(page.locator(".ng-ladder-note")).toHaveCount(1);
+    await expect(page.locator(".ng-ladder-note")).toContainText(
+      "Every lesson is open",
+    );
+    await expect(
+      page
+        .locator(".ng-challenge-curriculum")
+        .filter({ hasText: "OPEN CURRICULUM PRACTICE" }),
+    ).toHaveCount(0);
+  });
+
+  test("a finished lesson wears an edge check and its deck opens inline on the ladder", async ({
+    page,
+  }) => {
+    const j = journey(page);
+    await j.boot("/", { initialState: unit1DoneBlob() });
+    await openChallenges(page);
+
+    const doneKey = UNIT1.lessons[0].deckKey;
+    const done = page.locator(`.ng-challenge-lesson[data-lesson="${doneKey}"]`);
+    await expect(done.locator(".ng-lesson-check")).toBeVisible();
+
+    // a lesson without evidence wears no check
+    const fresh = CURRICULUM.belts[0].units[1].lessons[0].deckKey;
+    await expect(
+      page
+        .locator(`.ng-challenge-lesson[data-lesson="${fresh}"]`)
+        .locator(".ng-lesson-check"),
+    ).toHaveCount(0);
+
+    // the row's disclosure reveals the mini deck INLINE — the ladder stays put (no takeover)
+    await page.locator(`[data-lesson-deck-toggle="${doneKey}"]`).click();
+    await expect(
+      page.locator(`.ng-challenge-lessons [data-mini-deck="${doneKey}"]`),
+    ).toBeVisible();
+    await expect(page.locator(".ng-track-card").first()).toBeVisible();
+    expect(
+      await page.evaluate(() => !!(window as any).__neural._paneStudyActive()),
+    ).toBe(false);
+  });
+
+  test("technique lesson rows carry their category tint", async ({ page }) => {
+    const j = journey(page);
+    await j.boot("/");
+    await openChallenges(page);
+
+    // every lesson row declares its category; a position row and a technique row differ
+    const cats = await page.evaluate(() => {
+      const rows = Array.from(
+        document.querySelectorAll(
+          "[data-track-curriculum='white'] .ng-challenge-lesson[data-cat]",
+        ),
+      );
+      return {
+        total: document.querySelectorAll(
+          "[data-track-curriculum='white'] .ng-challenge-lesson",
+        ).length,
+        tagged: rows.length,
+        kinds: Array.from(
+          new Set(rows.map((r) => r.getAttribute("data-cat"))),
+        ).sort(),
+        borders: Array.from(
+          new Set(rows.map((r) => getComputedStyle(r).borderLeftColor)),
+        ).length,
+      };
+    });
+    expect(cats.tagged).toBe(cats.total);
+    expect(cats.kinds.length).toBeGreaterThan(1);
+    expect(cats.borders).toBeGreaterThan(1);
+  });
+
+  test("a belt renders its principles group only when curriculum data provides one", async ({
+    page,
+  }) => {
+    const j = journey(page);
+    await j.boot("/");
+    await openChallenges(page);
+
+    // no curriculum data ships principles yet — the slot stays silent
+    await expect(page.locator("[data-principles]")).toHaveCount(0);
+
+    // the moment a belt carries a principles array, the group renders ahead of its units
+    await page.evaluate(() => {
+      const app = (window as any).__neural;
+      app.curriculum.belts[0].principles = [
+        { name: "Base", blurb: "Stay heavy through your hips." },
+        { name: "Frames" },
+      ];
+      app.renderExplorer();
+    });
+    const group = page.locator("[data-principles='white']");
+    await expect(group).toBeVisible();
+    await expect(group).toContainText("Principles of this level");
+    await expect(group.locator(".ng-principle-row")).toHaveCount(2);
+    await expect(group).toContainText("Stay heavy through your hips.");
+    expect(
+      await page.evaluate(() => {
+        const g = document.querySelector("[data-principles='white']");
+        const u = document.querySelector(
+          "[data-track-curriculum='white'] .ng-challenge-group",
+        );
+        return !!(
+          g &&
+          u &&
+          g.compareDocumentPosition(u) & Node.DOCUMENT_POSITION_FOLLOWING
+        );
+      }),
+    ).toBe(true);
+  });
+
   test("missing curriculum keeps action Challenges usable and reports the unavailable practice", async ({
     page,
   }) => {

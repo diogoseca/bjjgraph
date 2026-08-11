@@ -43,8 +43,11 @@ test.describe("Challenges UI @curated", () => {
 
     const tracks = page.locator(".ng-track-card");
     await expect(tracks).toHaveCount(5);
-    await expect(tracks.filter({ hasText: "Black Breadth" })).toBeEnabled();
-    await tracks.filter({ hasText: "Black Breadth" }).click();
+    // headers speak plain belts (v1.96.0); the track NAME lives on the selected detail
+    const black = page.locator(".ng-track-card[data-track='black']");
+    await expect(black).toHaveText(/^Black belt0 of \d+$/);
+    await expect(black).toBeEnabled();
+    await black.click();
     await expect(page.locator(".ng-challenge-detail h2")).toHaveText(
       "Black Breadth",
     );
@@ -53,7 +56,8 @@ test.describe("Challenges UI @curated", () => {
       page.locator(".ng-challenge-checkpoint").first(),
     ).toBeDisabled();
     await expect(page.locator("[data-capstone='black'] button")).toBeDisabled();
-    await expect(page.locator(".ng-challenge-curriculum").first()).toContainText(
+    // the corridor explains itself once — one plain line above the belts (v1.96.0)
+    await expect(page.locator(".ng-ladder-note")).toContainText(
       "Every lesson is open",
     );
   });
@@ -140,10 +144,10 @@ test.describe("Challenges UI @curated", () => {
       "Tutorial is now White Challenges - same progress, more to collect.",
     );
     // 7 seeded tut steps + white.pane-open: opening the merged pane IS opening the flashcards
-    // pane (pane_paused fires on every open since v1.76.0), so the count lands at 8
-    await expect(page.locator("[data-track='white'] strong")).toHaveText(
-      "8 of 20",
-    );
+    // pane (pane_paused fires on every open since v1.76.0), so the count lands at 8.
+    // The objective count lives on the Getting started section now (v1.96.0) — the White
+    // belt header counts lessons instead.
+    await expect(page.locator("[data-tutorial] strong")).toHaveText("8 of 20");
     await page.locator("[data-view='explore']").click();
     await page.locator("[data-view='challenges']").click();
     await expect(page.locator(".ng-challenge-distinction")).not.toContainText(
@@ -311,6 +315,162 @@ test.describe("Challenges UI @curated", () => {
         reward.evaluate((element) => getComputedStyle(element).animationName),
       )
       .toBe("none");
+  });
+
+  test("belt headers read as plain belts riding one corridor with a knot at each boundary", async ({
+    page,
+  }) => {
+    const j = journey(page);
+    await j.boot("/", { keepTutorial: true });
+    await expect
+      .poll(() => page.evaluate(() => !!(window as any).__neural.curriculum))
+      .toBe(true);
+    await page.locator(".ng-logo").click();
+
+    // the verbose "White Foundations · WHITE CONTENT TRACK" phrasing is display-retired:
+    // ladder headers are the belts themselves (track ids and data names unchanged)
+    await expect(page.locator(".ng-track-card b")).toHaveText([
+      "White belt",
+      "Blue belt",
+      "Purple belt",
+      "Brown belt",
+      "Black belt",
+    ]);
+    await expect(
+      page.locator(".ng-track-card").filter({ hasText: "CONTENT TRACK" }),
+    ).toHaveCount(0);
+
+    // the corridor: one woven rail per belt section; a knot marks every belt boundary,
+    // so there are exactly four — and none before White, which opens the corridor
+    await expect(page.locator(".ng-belt-section .ng-corridor-rail")).toHaveCount(5);
+    await expect(page.locator(".ng-corridor-knot")).toHaveCount(4);
+    await expect(
+      page.locator(".ng-belt-section[data-belt='white'] .ng-corridor-knot"),
+    ).toHaveCount(0);
+  });
+
+  test("the getting-started tutorial is its own section above the belts", async ({
+    page,
+  }) => {
+    const j = journey(page);
+    await j.boot("/", { keepTutorial: true });
+    await expect
+      .poll(() => page.evaluate(() => !!(window as any).__neural.curriculum))
+      .toBe(true);
+    await page.locator(".ng-logo").click();
+
+    const tutorial = page.locator("[data-tutorial]");
+    await expect(tutorial).toBeVisible();
+    await expect(tutorial).toContainText("Getting started");
+    // the twenty White evidence objectives live HERE now, not on the belt ladder
+    await expect(tutorial.locator(".ng-challenge-row")).toHaveCount(20);
+    await expect(
+      page.locator(".ng-challenge-ladder .ng-challenge-row"),
+    ).toHaveCount(0);
+    // and the tutorial precedes the ladder in reading order
+    expect(
+      await page.evaluate(() => {
+        const t = document.querySelector("[data-tutorial]");
+        const l = document.querySelector(".ng-challenge-ladder");
+        return !!(
+          t &&
+          l &&
+          t.compareDocumentPosition(l) & Node.DOCUMENT_POSITION_FOLLOWING
+        );
+      }),
+    ).toBe(true);
+  });
+
+  test("a largely-done tutorial folds down to a compact remainder", async ({
+    page,
+  }) => {
+    const j = journey(page);
+    // 14 seeds INCLUDING the two that auto-complete the moment the pane opens
+    // (pane_paused -> white.pane-open, challenges_opened -> white.challenges), so the
+    // observed count stays exactly 14 of 20
+    const doneIds = [
+      "white.coach1",
+      "white.coach2",
+      "white.coach3",
+      "white.answer",
+      "white.sheet",
+      "white.commit",
+      "white.sweep",
+      "white.win1",
+      "white.refund",
+      "white.defend",
+      "white.escape",
+      "white.roll",
+      "white.pane-open",
+      "white.challenges",
+    ];
+    await j.boot("/", {
+      keepTutorial: true,
+      initialState: progressBlob({
+        challenges: Object.fromEntries(
+          doneIds.map((id) => [id, { progress: 1, done: true, t: 100 }]),
+        ),
+      }),
+    });
+    await expect
+      .poll(() => page.evaluate(() => !!(window as any).__neural.curriculum))
+      .toBe(true);
+    await page.locator(".ng-logo").click();
+
+    // 14 of 20 done — the tutorial renders collapsed, rows in DOM but folded away
+    const tutorial = page.locator("[data-tutorial]");
+    await expect(tutorial).toHaveAttribute("data-collapsed", "true");
+    await expect(tutorial).toContainText("14 of 20");
+    await expect(tutorial.locator(".ng-challenge-row")).toHaveCount(20);
+    await expect(tutorial.locator(".ng-challenge-row").first()).toBeHidden();
+    // ...and what he HASN'T seen shows compactly without expanding
+    const remainder = tutorial.locator("[data-tutorial-remainder]");
+    await expect(remainder).toBeVisible();
+    await expect(remainder).toContainText("Watch a film-study Short");
+  });
+
+  test("belt sections collapse independently and the choice survives a reload", async ({
+    page,
+  }) => {
+    const j = journey(page);
+    await j.boot("/", { keepTutorial: true });
+    await expect
+      .poll(() => page.evaluate(() => !!(window as any).__neural.curriculum))
+      .toBe(true);
+    await page.locator(".ng-logo").click();
+
+    // defaults: the pinned belt (white) rides open, the rest fold — the ladder stays short
+    const white = page.locator(".ng-belt-section[data-belt='white']");
+    const black = page.locator(".ng-belt-section[data-belt='black']");
+    await expect(white).toHaveAttribute("data-collapsed", "false");
+    await expect(black).toHaveAttribute("data-collapsed", "true");
+
+    // clicking a folded belt header selects AND opens it
+    await page.locator(".ng-track-card[data-track='black']").click();
+    await expect(black).toHaveAttribute("data-collapsed", "false");
+
+    // the chevron folds it back without stealing selection (nothing re-locks — fold is display only)
+    await page.locator("[data-belt-toggle='black']").click();
+    await expect(black).toHaveAttribute("data-collapsed", "true");
+    await expect(
+      page.locator(".ng-track-card[data-track='black']"),
+    ).toHaveAttribute("aria-pressed", "true");
+    await expect(black.locator(".ng-challenge-group")).toHaveCount(6);
+
+    // fold white too, reload: both choices persist per track
+    await page.locator("[data-belt-toggle='white']").click();
+    await expect(white).toHaveAttribute("data-collapsed", "true");
+    await j.boot("/", { preserveStorage: true, keepTutorial: true });
+    await expect
+      .poll(() => page.evaluate(() => !!(window as any).__neural.curriculum))
+      .toBe(true);
+    await page.locator(".ng-logo").click();
+    await expect(
+      page.locator(".ng-belt-section[data-belt='white']"),
+    ).toHaveAttribute("data-collapsed", "true");
+    await expect(
+      page.locator(".ng-belt-section[data-belt='black']"),
+    ).toHaveAttribute("data-collapsed", "true");
   });
 
   test("the mobile cue stays clear of the option hand and transport", async ({

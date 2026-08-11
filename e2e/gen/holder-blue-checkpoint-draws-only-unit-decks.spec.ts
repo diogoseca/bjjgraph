@@ -119,6 +119,7 @@ test("blue u1 checkpoint pool is pure: every pick from u1's own decks, zero whit
   ).not.toContain("cleared")
   await page.locator(`[data-checkpoint="${U1_KEY}"]`).first().click() // auto-closes the explorer
   await j.advance(400)
+  await j.decksSettled() // quiz pool decks hydrate async (v1.80.4) - settle before the one-shot beat check
   await j.expectBeat("checkpoint_start")
   const start = ((await j.beats()) as any[]).filter((b) => b.beat === "checkpoint_start").pop() as any
   expect(start.unit, "quiz targets blue u1").toBe(U1_KEY)

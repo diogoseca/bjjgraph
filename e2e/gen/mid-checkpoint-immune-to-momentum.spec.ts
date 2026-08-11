@@ -99,6 +99,7 @@ test("right AND wrong checkpoint answers leave the combo meter at ×1 — zero c
     .evaluate((el) => ((el as HTMLDetailsElement).open = true))
   await page.locator(`[data-checkpoint="${UK}"]`).first().click()
   await j.advance(400)
+  await j.decksSettled() // quiz pool decks hydrate async (v1.80.4) - settle before the one-shot beat check
   await j.expectBeat("checkpoint_start")
 
   // truth rail: the quiz block is surface "deck" — NOT the landing surface

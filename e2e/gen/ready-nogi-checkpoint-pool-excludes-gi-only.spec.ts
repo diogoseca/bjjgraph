@@ -171,6 +171,7 @@ test("nogi checkpoint pool draws only from nogi-viable decks — the gi-only dec
     .evaluate((el) => ((el as HTMLDetailsElement).open = true)) // hit unit's group is collapsed
   await page.locator(`[data-checkpoint="${H.uk}"]`).first().click()
   await j.advance(400)
+  await j.decksSettled() // quiz pool decks hydrate async (v1.80.4) - settle before the one-shot beat check
   await j.expectBeat("checkpoint_start")
   const start = (await j.beats()).filter((b: any) => b.beat === "checkpoint_start").pop() as any
   expect(start.unit, "quiz targets the discovered unit").toBe(H.uk)

@@ -107,6 +107,7 @@ test("checkpoint quiz is untimed: 45s pump fires no expiry beats, i moves only o
     [WHITE.id, U2.id] as const,
   );
   await j.advance(400);
+  await j.decksSettled(); // quiz pool decks hydrate async (v1.80.4) - settle before the one-shot beat check
   await j.expectBeat("checkpoint_start");
   const start = (await j.beats())
     .filter((b: any) => b.beat === "checkpoint_start")

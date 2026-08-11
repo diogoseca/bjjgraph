@@ -90,6 +90,7 @@ test("a post-fail, non-perfect retake pass never mints the Clean Checkpoint patc
     await openGroup()
     await page.locator(`[data-checkpoint="${UK2}"]`).first().click()
     await j.advance(400)
+    await j.decksSettled() // quiz pool decks hydrate async (v1.80.4) - settle before the one-shot beat check
   }
   /** answer the live quiz card via the real MC buttons — correct or deliberately wrong */
   const answerCard = async (label: string, correct: boolean) => {

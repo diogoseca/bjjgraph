@@ -133,6 +133,7 @@ test("bombed unit-2 checkpoint never reaches the ledger across a reload, while t
   await openGroup(UK2) // unit 2's <details> group is collapsed by default
   await page.locator(`[data-checkpoint="${UK2}"]`).first().click()
   await j.advance(400)
+  await j.decksSettled() // quiz pool decks hydrate async (v1.80.4) - settle before the one-shot beat check
   await j.expectBeat("checkpoint_start")
   const start = (await j.beats()).filter((b: any) => b.beat === "checkpoint_start").pop() as any
   expect(start.unit, "quiz targets unit 2").toBe(UK2)

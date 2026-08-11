@@ -111,6 +111,7 @@ test("pass line is exact: pass-1 correct fails, a retake at exactly pass (wrong 
   await openGroup()
   await page.locator(`[data-checkpoint="${UK}"]`).first().click()
   await j.advance(400)
+  await j.decksSettled() // quiz pool decks hydrate async (v1.80.4) - settle before the one-shot beat check
   await j.expectBeat("checkpoint_start")
   const start1 = (await j.beats()).filter((b: any) => b.beat === "checkpoint_start").pop() as any
   expect(start1.unit, "quiz targets the last white unit").toBe(UK)

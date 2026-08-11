@@ -388,8 +388,9 @@
   font-style: normal;
 }
 
-/* gentle dimming — visual only, every row stays clickable; crowns/tokens keep full color */
-.ng-challenge-lesson[data-lesson-done="false"] > span:last-child {
+/* gentle dimming — visual only, every row stays clickable; crowns/tokens keep full color
+   (span:last-of-type, not :last-child — a done row's check <i> sits after the name span) */
+.ng-challenge-lesson[data-lesson-done="false"] > span:last-of-type {
   opacity: 0.7;
 }
 
@@ -403,21 +404,138 @@
   animation: ngBeacon 1.5s ease-in-out infinite;
 }
 
-.ng-challenge-lesson[data-frontier] > span:last-child {
+.ng-challenge-lesson[data-frontier] > span:last-of-type {
   opacity: 1;
 }
 
+/* ── THE BELT CORRIDOR (v1.96.0) — one continuous woven belt down the ladder's left,
+   white flowing through blue, purple, brown, black; a knot tied at every boundary. The
+   weave is the knowledge belt's craft (sheen → stitch rows → twill → dye) turned vertical.
+   Sections fold via their chevron — display only, nothing re-locks. */
+.ng-challenge-ladder.ng-corridor {
+  gap: 0; /* the corridor must run unbroken from section to section */
+}
+
+.ng-belt-section {
+  --dye: #b6bac2;
+  --wv: #ffffff12;
+  --wd: #00000017;
+  --st: #0003;
+  --hl: #ffffff0f;
+  position: relative;
+  padding: 0 0 18px 28px;
+}
+
+.ng-belt-section[data-collapsed="true"] {
+  padding-bottom: 8px;
+}
+
+.ng-belt-section[data-belt="white"] {
+  --dye: #ddd7c8;
+  --wv: #ffffff59;
+  --wd: #60564224;
+  --st: #60564238;
+  --hl: #ffffff4c;
+}
+
+.ng-belt-section[data-belt="blue"] {
+  --dye: #2c5299;
+}
+
+.ng-belt-section[data-belt="purple"] {
+  --dye: #59396f;
+}
+
+.ng-belt-section[data-belt="brown"] {
+  --dye: #6b4a2e;
+}
+
+.ng-belt-section[data-belt="black"] {
+  --dye: #1e1e23;
+  --wv: #ffffff0d;
+  --wd: #00000059;
+  --st: #0006;
+  --hl: #ffffff0d;
+}
+
+/* the corridor itself: a vertical woven strap — cylindrical sheen across the width,
+   longitudinal stitch rows, twill crosshatch, the dye (same layers as .ng-knowledge-meter,
+   axis flipped) */
+.ng-corridor-rail {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 16px;
+  background:
+    linear-gradient(90deg, #ffffff2e, rgba(255, 255, 255, 0) 32%, rgba(0, 0, 0, 0) 60%, #00000042),
+    repeating-linear-gradient(90deg, var(--st) 0 1px, var(--hl) 1px 2px, transparent 2px 5px),
+    repeating-linear-gradient(153deg, var(--wv) 0 1px, transparent 1px 3px),
+    repeating-linear-gradient(27deg, var(--wd) 0 1px, transparent 1px 3px),
+    var(--dye);
+  box-shadow:
+    inset 2px 0 1px -1px #ffffff40,
+    inset -2px 0 1px -1px #0006,
+    inset 0 0 0 1px #00000047;
+}
+
+/* the knot — a simple tie where one belt ends and the next begins: two wrap bands of the
+   incoming belt's dye crossing over the corridor, straddling the boundary */
+.ng-corridor-knot {
+  position: absolute;
+  top: -13px;
+  left: -4px;
+  width: 24px;
+  height: 26px;
+  z-index: 1;
+  pointer-events: none;
+}
+
+.ng-corridor-knot > b {
+  position: absolute;
+  left: -2px;
+  right: -2px;
+  top: 4px;
+  height: 9px;
+  border-radius: 2px;
+  transform: rotate(-22deg);
+  background:
+    linear-gradient(180deg, #ffffff30, rgba(255, 255, 255, 0) 40%, #00000042),
+    repeating-linear-gradient(0deg, var(--st) 0 1px, var(--hl) 1px 2px, transparent 2px 5px),
+    var(--dye);
+  box-shadow:
+    0 1px 2px #000000b3,
+    inset 0 0 0 1px #00000047;
+}
+
+.ng-corridor-knot > b:last-child {
+  top: 12px;
+  transform: rotate(22deg);
+}
+
+.ng-belt-head {
+  display: flex;
+  align-items: stretch;
+  gap: 6px;
+  padding: 12px 0 8px;
+}
+
 .ng-track-card {
-  width: 100%;
-  min-height: 68px;
-  display: grid;
-  grid-template-columns: 14px minmax(0, 1fr) auto;
+  flex: 1;
+  min-width: 0;
+  min-height: 44px;
+  display: flex;
   align-items: center;
+  justify-content: space-between;
   gap: 10px;
-  padding: 10px 11px;
+  padding: 10px 12px;
   border: 1px solid rgba(150, 170, 210, 0.18);
   border-radius: 11px;
-  background: rgba(255, 255, 255, 0.025);
+  background: linear-gradient(
+    90deg,
+    var(--ng-track-soft, rgba(255, 255, 255, 0.03)),
+    rgba(255, 255, 255, 0.02) 72%
+  );
   color: inherit;
   font-family: inherit;
   text-align: left;
@@ -426,24 +544,8 @@
 
 .ng-track-card[aria-pressed="true"] {
   border-color: var(--ng-track);
-  background: rgba(255, 255, 255, 0.055);
 }
 
-.ng-track-token {
-  width: 12px;
-  height: 30px;
-  border: 2px solid var(--ng-track);
-  border-radius: 4px;
-  opacity: 0.88;
-}
-
-.ng-track-card > span:nth-child(2) {
-  min-width: 0;
-  display: grid;
-  gap: 3px;
-}
-
-.ng-track-card small,
 .ng-challenge-detail-head small,
 .ng-challenge-curriculum > small,
 .ng-challenge-capstone > small,
@@ -455,15 +557,10 @@
 }
 
 .ng-track-card b {
-  color: #dbe2f0;
-  font-size: 11px;
-}
-
-.ng-track-card em {
   overflow: hidden;
-  color: #7f8ba4;
-  font-size: 8.5px;
-  font-style: normal;
+  color: #eef1f6;
+  font: 750 14px/1.15 "Space Grotesk", sans-serif;
+  letter-spacing: 0.01em;
   text-overflow: ellipsis;
   white-space: nowrap;
 }
@@ -471,7 +568,177 @@
 .ng-track-card strong {
   color: #aeb9d2;
   font-size: 9.5px;
+  font-weight: 600;
   white-space: nowrap;
+}
+
+.ng-belt-toggle {
+  flex: none;
+  width: 44px;
+  border: 1px solid rgba(150, 170, 210, 0.18);
+  border-radius: 11px;
+  background: rgba(255, 255, 255, 0.03);
+  color: #9ba8c1;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.ng-belt-body {
+  display: grid;
+  gap: 8px;
+}
+
+.ng-belt-section[data-collapsed="true"] .ng-belt-body {
+  display: none; /* presentation only — every row stays in the DOM, nothing re-locks */
+}
+
+/* ── Getting started — the tutorial as its own card ABOVE the corridor ── */
+.ng-tutorial-section {
+  margin: 0 0 14px;
+  padding: 4px 10px 10px;
+  border: 1px solid rgba(150, 170, 210, 0.18);
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.02);
+}
+
+.ng-tutorial-section[data-collapsed="true"] {
+  padding-bottom: 4px;
+}
+
+.ng-tutorial-head {
+  width: 100%;
+  min-height: 48px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 8px 2px;
+  border: 0;
+  background: transparent;
+  color: inherit;
+  font-family: inherit;
+  text-align: left;
+  cursor: pointer;
+}
+
+.ng-tutorial-head > span {
+  flex: 1;
+  min-width: 0;
+  display: grid;
+  gap: 3px;
+}
+
+.ng-tutorial-head small {
+  color: #8fa9e8;
+  font-size: 8px;
+  font-weight: 900;
+  letter-spacing: 0.11em;
+}
+
+.ng-tutorial-head b {
+  color: #eef1f6;
+  font: 750 14px/1.15 "Space Grotesk", sans-serif;
+}
+
+.ng-tutorial-head strong {
+  color: #aeb9d2;
+  font-size: 9.5px;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.ng-tutorial-head em {
+  color: #7f8ba4;
+  font-size: 12px;
+  font-style: normal;
+}
+
+.ng-tutorial-body {
+  display: grid;
+  gap: 8px;
+  padding: 2px 0 4px;
+}
+
+.ng-tutorial-section[data-collapsed="true"] .ng-tutorial-body {
+  display: none;
+}
+
+/* folded-but-unfinished: what he hasn't seen, compactly */
+.ng-tutorial-remainder {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 5px;
+  padding: 0 2px 8px;
+}
+
+.ng-tutorial-remainder small {
+  flex-basis: 100%;
+  margin-bottom: 2px;
+  color: #7f8ba4;
+  font-size: 8px;
+  font-weight: 800;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.ng-tutorial-remainder span {
+  padding: 3px 8px;
+  border: 1px solid rgba(150, 170, 210, 0.2);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.03);
+  color: #aab4c8;
+  font-size: 9px;
+}
+
+.ng-tutorial-remainder .ng-tutorial-more {
+  border-style: dashed;
+  color: #7f8ba4;
+}
+
+/* the ladder explains itself ONCE (the per-track prose block is display-retired) */
+.ng-ladder-note {
+  margin: 0 3px 10px;
+  color: #7f8ba4;
+  font-size: 9.5px;
+  line-height: 1.5;
+}
+
+.ng-detail-up {
+  margin: 0;
+  color: #8793aa;
+  font-size: 9px;
+  line-height: 1.45;
+}
+
+/* ── principles slot — rendered only when curriculum data provides a belt's list ── */
+.ng-principles-group {
+  display: grid;
+  gap: 6px;
+  padding: 11px;
+  border: 1px solid rgba(150, 170, 210, 0.18);
+  border-radius: 11px;
+  background: rgba(255, 255, 255, 0.025);
+}
+
+.ng-principles-group > small {
+  color: var(--ng-track, #8fa9e8);
+  font-size: 8px;
+  font-weight: 900;
+  letter-spacing: 0.11em;
+  text-transform: uppercase;
+}
+
+.ng-principle-row b {
+  display: block;
+  color: #dbe2f0;
+  font-size: 10.5px;
+}
+
+.ng-principle-row p {
+  margin: 3px 0 0;
+  color: #8793aa;
+  font-size: 9px;
+  line-height: 1.45;
 }
 
 .ng-challenge-detail {
@@ -655,7 +922,9 @@
   min-width: 0;
 }
 
-.ng-challenge-lesson > span:last-child {
+.ng-challenge-lesson > span:last-of-type {
+  min-width: 0;
+  flex: 1;
   display: grid;
   gap: 2px;
   font-size: 9.5px;
@@ -665,6 +934,38 @@
   color: #6f7b94;
   font-size: 8px;
   text-transform: uppercase;
+}
+
+/* a finished lesson wears its check on the row edge — clearer than dimming alone */
+.ng-lesson-check {
+  flex: none;
+  margin-left: auto;
+  color: #7ee0a8;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 900;
+}
+
+/* inline mini deck (the History pattern on the ladder): the chevron column reveals the
+   deck in place; the row itself still opens the full study takeover */
+.ng-lesson-decktoggle {
+  flex: none;
+  width: 34px;
+  border: 0;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.035);
+  color: #8b97b0;
+  font-size: 11px;
+  cursor: pointer;
+}
+
+.ng-lesson-decktoggle[aria-expanded="true"] {
+  background: rgba(74, 108, 255, 0.18);
+  color: #dbe6ff;
+}
+
+.ng-lesson-deckbox {
+  min-width: 0;
 }
 
 .ng-challenge-checkpoint,

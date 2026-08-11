@@ -18,6 +18,29 @@ function ngTrackName(track) {
   return track ? track.name : "White Foundations";
 }
 
+// hex -> rgba() — belt tints for corridor headers and lesson-row category edges
+function ngChallengeTint(hex, alpha) {
+  const h = String(hex || "").replace("#", "");
+  const r = parseInt(h.slice(0, 2), 16) || 0;
+  const g = parseInt(h.slice(2, 4), 16) || 0;
+  const b = parseInt(h.slice(4, 6), 16) || 0;
+  return "rgba(" + r + "," + g + "," + b + "," + alpha + ")";
+}
+
+// ladder headers speak plain belts (owner, v1.96.0): "White belt", never
+// "White Foundations · WHITE CONTENT TRACK". Track ids and data names are unchanged.
+function ngBeltDisplayName(trackId) {
+  return trackId.charAt(0).toUpperCase() + trackId.slice(1) + " belt";
+}
+
+// lesson-row category palette — the same Position/Transition/Submission colors the
+// Explore list and the dossier already speak
+const NG_LESSON_CAT_COLORS = Object.freeze({
+  position: "#c9d2e3",
+  transition: "#9fb0d8",
+  submission: "#e8956b",
+});
+
 const NG_CHALLENGE_UI_METHODS = {
   // ── THE KNOWLEDGE BELT (relocated v1.96.0): the `.ng-knowledge-header` section above the
   // tabs is GONE — after the tab subtitles it triple-stated the same fact (owner: one home
@@ -215,11 +238,152 @@ const NG_CHALLENGE_UI_METHODS = {
 
   selectChallengeTrack(trackId) {
     if (!NG_CHALLENGE_TRACKS.some((track) => track.id === trackId)) return;
+    // selecting a folded belt opens it — collapse is presentation only, never a lock
+    if (!this._beltSectionOpen(trackId)) this._setBeltSectionOpen(trackId, true);
     if (this.selectedChallengeTrack() !== trackId) {
       this.set("challengeSelectedTrack", trackId);
       this.track("neural_challenge_track_viewed", { track_id: trackId });
     }
     this.renderExplorer();
+  },
+
+  // ── corridor sections (v1.96.0): collapse is presentation ONLY (nothing re-locks; every
+  // row stays in the DOM). Open/closed is remembered per section in ONE settings map.
+  // Defaults: the pinned belt rides open, the rest fold; the tutorial folds itself once
+  // largely done (owner: at 14 of 20, show the remainder compactly instead).
+  _beltSectionOpen(id) {
+    const map = this.get("challengeOpenSections", null);
+    if (
+      map &&
+      typeof map === "object" &&
+      Object.prototype.hasOwnProperty.call(map, id)
+    ) {
+      return !!map[id];
+    }
+    if (id === "tutorial") return this.challengeTrackProgress("white").done < 14;
+    return id === this.get("challengePinnedTrack", "white");
+  },
+
+  _setBeltSectionOpen(id, open) {
+    const current = this.get("challengeOpenSections", null);
+    const map = Object.assign(
+      {},
+      current && typeof current === "object" ? current : {},
+    );
+    map[id] = !!open;
+    this.set("challengeOpenSections", map);
+  },
+
+  // done / total LIVE lessons of one belt — what the belt header counts (the objective
+  // count moved to the Getting started section along with the objectives themselves)
+  _beltLessonSummary(trackId) {
+    const belt =
+      this.curriculum &&
+      this.curriculum.belts.find((item) => item.id === trackId);
+    if (!belt) return null;
+    let done = 0;
+    let total = 0;
+    for (const unit of belt.units) {
+      for (const lesson of unit.lessons) {
+        if (!this._lessonLive(lesson)) continue;
+        total += 1;
+        if (this.lessonDone(lesson.deckKey)) done += 1;
+      }
+    }
+    return { done: done, total: total };
+  },
+
+  // GETTING STARTED — the twenty White evidence objectives the coach feeds, as their OWN
+  // section ABOVE the belt corridor (owner: "the tutorial should be separate from the open
+  // curriculum practice"). Mostly-collapsed once largely done; the folded card still shows
+  // what he hasn't seen, compactly.
+  renderTutorialSection() {
+    const prog = this.challengeTrackProgress("white");
+    const open = this._beltSectionOpen("tutorial");
+    const section = document.createElement("section");
+    section.className = "ng-tutorial-section";
+    section.setAttribute("data-tutorial", "1");
+    section.setAttribute("data-collapsed", open ? "false" : "true");
+    const head = document.createElement("button");
+    head.type = "button";
+    head.className = "ng-tutorial-head";
+    head.setAttribute("data-tutorial-toggle", "1");
+    head.setAttribute("aria-expanded", open ? "true" : "false");
+    head.innerHTML =
+      "<span><small>TUTORIAL</small><b>Getting started</b></span><strong>" +
+      prog.done +
+      " of " +
+      prog.total +
+      '</strong><em aria-hidden="true">' +
+      (open ? "▾" : "▸") +
+      "</em>";
+    head.addEventListener("click", () => {
+      this._setBeltSectionOpen("tutorial", !this._beltSectionOpen("tutorial"));
+      this.renderExplorer();
+    });
+    section.appendChild(head);
+    const body = document.createElement("div");
+    body.className = "ng-tutorial-body";
+    for (const definition of NG_CHALLENGES) {
+      if (definition.track === "white") {
+        body.appendChild(this.challengeObjectiveElement(definition, "white"));
+      }
+    }
+    section.appendChild(body);
+    if (!open && prog.done < prog.total) {
+      const left = [];
+      for (const definition of NG_CHALLENGES) {
+        if (
+          definition.track === "white" &&
+          !this.challengeProgress(definition.id).done
+        ) {
+          left.push(definition.title);
+        }
+      }
+      const remainder = document.createElement("div");
+      remainder.className = "ng-tutorial-remainder";
+      remainder.setAttribute("data-tutorial-remainder", "1");
+      const shown = left.slice(0, 6);
+      remainder.innerHTML =
+        "<small>Still to see</small>" +
+        shown.map((title) => "<span>" + ngChallengeHTML(title) + "</span>").join("") +
+        (left.length > shown.length
+          ? '<span class="ng-tutorial-more">+' +
+            (left.length - shown.length) +
+            " more</span>"
+          : "");
+      section.appendChild(remainder);
+    }
+    return section;
+  },
+
+  // PRINCIPLES OF THIS LEVEL — a data slot, deliberately unfilled: a belt section renders
+  // this group only when curriculum data ships `belt.principles` (name + optional blurb).
+  // Distributing the actual Principles content across belts is curriculum authoring —
+  // owner-gated, never invented here.
+  renderBeltPrinciples(trackId) {
+    const belt =
+      this.curriculum &&
+      this.curriculum.belts.find((item) => item.id === trackId);
+    const entries = belt && Array.isArray(belt.principles) ? belt.principles : null;
+    if (!entries || !entries.length) return null;
+    const group = document.createElement("div");
+    group.className = "ng-principles-group";
+    group.setAttribute("data-principles", trackId);
+    group.innerHTML = "<small>Principles of this level</small>";
+    for (const entry of entries) {
+      const item =
+        entry && typeof entry === "object" ? entry : { name: String(entry) };
+      const row = document.createElement("div");
+      row.className = "ng-principle-row";
+      row.innerHTML =
+        "<b>" +
+        ngChallengeHTML(item.name || "") +
+        "</b>" +
+        (item.blurb ? "<p>" + ngChallengeHTML(item.blurb) + "</p>" : "");
+      group.appendChild(row);
+    }
+    return group;
   },
 
   pinChallengeTrack(trackId) {
@@ -361,8 +525,7 @@ const NG_CHALLENGE_UI_METHODS = {
     // done yet dims gently via CSS on data-lesson-done (visual only; every row stays live)
     const pinnedId = this.get("challengePinnedTrack", "white");
     const frontier = trackId === pinnedId ? this.challengeFrontier(trackId) : null;
-    section.innerHTML =
-      "<small>OPEN CURRICULUM PRACTICE</small><p>Every lesson is open. Checkpoints and the optional capstone ask for evidence first.</p>";
+    // no per-track prose here — the whole corridor explains itself ONCE (.ng-ladder-note)
     for (let index = 0; index < belt.units.length; index += 1) {
       const unit = belt.units[index];
       const live = unit.lessons.filter((lesson) => this._lessonLive(lesson));
@@ -399,6 +562,7 @@ const NG_CHALLENGE_UI_METHODS = {
         if (frontier && frontier.lesson.deckKey === lesson.deckKey && frontier.unit === unit) {
           button.setAttribute("data-frontier", "1");
         }
+        const lessonComplete = this.lessonDone(lesson.deckKey);
         button.innerHTML =
           this.crownBadge(
             this.deckMastery(lesson.deckKey),
@@ -409,7 +573,11 @@ const NG_CHALLENGE_UI_METHODS = {
           ngChallengeHTML(lesson.deckKey.split("|")[0]) +
           "<small>" +
           ngChallengeHTML(lesson.deckKey.split("|")[1] || "") +
-          "</small></span>";
+          "</small></span>" +
+          // done rows wear a clear check on the row edge (dimming alone was too quiet)
+          (lessonComplete
+            ? '<i class="ng-lesson-check" aria-hidden="true">✓</i>'
+            : "");
         button.addEventListener("click", () =>
           this.openLessonStudy(lesson, unit, belt),
         );
@@ -418,15 +586,102 @@ const NG_CHALLENGE_UI_METHODS = {
         // <button> closes the outer one in the HTML parser and would break the row entirely.
         const lessonIdx = this._lessonNodeIdx ? this._lessonNodeIdx(lesson.deckKey) : -1;
         const lessonNode = lessonIdx >= 0 && this.nodes ? this.nodes[lessonIdx] : null;
+        // category tint: the row leans toward its node's palette color (position /
+        // transition / submission — the same colors Explore speaks)
         if (lessonNode) {
-          const lessonRow = document.createElement("div");
-          lessonRow.className = "ng-challenge-lessonrow";
-          lessonRow.appendChild(button);
-          lessonRow.appendChild(this._listAddButton(lessonNode.id, "lesson"));
-          lessons.appendChild(lessonRow);
-        } else {
-          lessons.appendChild(button);
+          const cat =
+            lessonNode.ty === "positions"
+              ? "position"
+              : lessonNode.ty === "submissions"
+                ? "submission"
+                : "transition";
+          const cc = NG_LESSON_CAT_COLORS[cat];
+          button.setAttribute("data-cat", cat);
+          button.style.borderLeft = "2px solid " + ngChallengeTint(cc, 0.45);
+          button.style.background =
+            "linear-gradient(90deg," +
+            ngChallengeTint(cc, 0.07) +
+            ",rgba(255,255,255,.035) 55%)";
         }
+        const lessonRow = document.createElement("div");
+        lessonRow.className = "ng-challenge-lessonrow";
+        lessonRow.appendChild(button);
+        // inline mini deck — the History pattern on the ladder: the disclosure reveals the
+        // deck IN PLACE (no study takeover); the row itself still opens the full study
+        const deckBox = document.createElement("div");
+        deckBox.className = "ng-lesson-deckbox";
+        deckBox.style.display = "none";
+        const toggle = document.createElement("button");
+        toggle.type = "button";
+        toggle.className = "ng-lesson-decktoggle";
+        toggle.setAttribute("data-lesson-deck-toggle", lesson.deckKey);
+        toggle.setAttribute("aria-expanded", "false");
+        toggle.setAttribute(
+          "aria-label",
+          "Show this lesson's cards inline",
+        );
+        toggle.innerHTML = '<span aria-hidden="true">▸</span>';
+        const rid = "lesson:" + lesson.deckKey;
+        const closeSelf = () => {
+          deckBox.style.display = "none";
+          toggle.setAttribute("aria-expanded", "false");
+          toggle.querySelector("span").textContent = "▸";
+          if (this._openLessonMini && this._openLessonMini.rid === rid) {
+            this._openLessonMini = null;
+          }
+        };
+        let built = false;
+        toggle.addEventListener("click", () => {
+          if (deckBox.style.display !== "none") {
+            closeSelf();
+            return;
+          }
+          if (this._openLessonMini && this._openLessonMini.rid !== rid) {
+            this._openLessonMini.close(); // accordion — one inline deck at a time
+          }
+          const decks = (this.flashcards && this.flashcards.decks) || {};
+          const deck = decks[lesson.deckKey];
+          const ncards = this._deckCardCount(deck);
+          const resident = !!this._cardsOf(deck);
+          if (!built) {
+            built = true;
+            deckBox.appendChild(
+              ncards && resident
+                ? this._miniDeck(lesson.deckKey, deck, false, rid)
+                : this._miniDeckEmpty({ key: lesson.deckKey }),
+            );
+            // authored but not here yet: this click IS the request for it
+            if (ncards && !resident) {
+              this.hydrateDeck(lesson.deckKey).then(() => {
+                if (
+                  !this._cardsOf(this.flashcards.decks[lesson.deckKey]) ||
+                  deckBox.style.display === "none"
+                ) {
+                  return;
+                }
+                deckBox.innerHTML = "";
+                deckBox.appendChild(
+                  this._miniDeck(
+                    lesson.deckKey,
+                    this.flashcards.decks[lesson.deckKey],
+                    false,
+                    rid,
+                  ),
+                );
+              });
+            }
+          }
+          deckBox.style.display = "block";
+          toggle.setAttribute("aria-expanded", "true");
+          toggle.querySelector("span").textContent = "▾";
+          this._openLessonMini = { rid: rid, close: closeSelf };
+        });
+        lessonRow.appendChild(toggle);
+        if (lessonNode) {
+          lessonRow.appendChild(this._listAddButton(lessonNode.id, "lesson"));
+        }
+        lessons.appendChild(lessonRow);
+        lessons.appendChild(deckBox);
       }
       const checkpoint = document.createElement("button");
       checkpoint.type = "button";
@@ -503,11 +758,6 @@ const NG_CHALLENGE_UI_METHODS = {
       const selected =
         NG_CHALLENGE_TRACKS.find((track) => track.id === selectedId) ||
         NG_CHALLENGE_TRACKS[0];
-      const game = this.gameScore();
-      const suggested = game.belt || "white";
-      const suggestedIndex = NG_CHALLENGE_TRACKS.findIndex(
-        (track) => track.id === suggested,
-      );
       const intro = document.createElement("p");
       intro.className = "ng-challenge-distinction";
       const migrated = !!this._challengeMigrationNotice;
@@ -550,15 +800,53 @@ const NG_CHALLENGE_UI_METHODS = {
         list.appendChild(go);
       }
 
-      // THE LADDER — all five tracks top to bottom, whole journey visible (the old Belt
-      // Path feel): belt-header rows carry selection; the selected track's objectives ride
-      // under its header; every track's curriculum is always on the ladder. No locks.
+      // GETTING STARTED — the tutorial rides ABOVE the belts, separate from the curriculum
+      list.appendChild(this.renderTutorialSection());
+
+      // ONE explainer line for the whole corridor (was a prose block per track)
+      const note = document.createElement("p");
+      note.className = "ng-ladder-note";
+      note.textContent =
+        "Every lesson is open. Checkpoints and the optional capstones just ask for proof first.";
+      list.appendChild(note);
+
+      // THE BELT CORRIDOR (v1.96.0) — one continuous woven belt runs down the left, white
+      // through black, a knot tied at every boundary; lesson rows hang off it. Belt headers
+      // carry selection (still .ng-track-card / data-track / aria-pressed); each section
+      // folds via its chevron — display only, nothing re-locks, every row stays in the DOM.
       const ladder = document.createElement("section");
-      ladder.className = "ng-track-list ng-challenge-ladder";
-      ladder.setAttribute("aria-label", "Challenge tracks");
+      ladder.className = "ng-track-list ng-challenge-ladder ng-corridor";
+      ladder.setAttribute("aria-label", "Belt corridor");
       for (let index = 0; index < NG_CHALLENGE_TRACKS.length; index += 1) {
         const track = NG_CHALLENGE_TRACKS[index];
+        const color = NG_CHALLENGE_TRACK_COLORS[track.id];
         const summary = this.challengeTrackProgress(track.id);
+        const lessons = this._beltLessonSummary(track.id);
+        const count = lessons || summary;
+        const open = this._beltSectionOpen(track.id);
+        const beltSection = document.createElement("section");
+        beltSection.className = "ng-belt-section";
+        beltSection.setAttribute("data-belt", track.id);
+        beltSection.setAttribute("data-collapsed", open ? "false" : "true");
+        beltSection.style.setProperty("--ng-track", color);
+        beltSection.style.setProperty(
+          "--ng-track-soft",
+          ngChallengeTint(color, 0.17),
+        );
+        const rail = document.createElement("i");
+        rail.className = "ng-corridor-rail";
+        rail.setAttribute("aria-hidden", "true");
+        beltSection.appendChild(rail);
+        if (index > 0) {
+          // the knot: a simple tie marking where one belt ends and the next begins
+          const knot = document.createElement("i");
+          knot.className = "ng-corridor-knot";
+          knot.setAttribute("aria-hidden", "true");
+          knot.innerHTML = "<b></b><b></b>";
+          beltSection.appendChild(knot);
+        }
+        const head = document.createElement("div");
+        head.className = "ng-belt-head";
         const button = document.createElement("button");
         button.type = "button";
         button.className = "ng-track-card";
@@ -567,42 +855,60 @@ const NG_CHALLENGE_UI_METHODS = {
           "aria-pressed",
           track.id === selected.id ? "true" : "false",
         );
-        button.style.setProperty(
-          "--ng-track",
-          NG_CHALLENGE_TRACK_COLORS[track.id],
+        button.setAttribute(
+          "aria-label",
+          ngBeltDisplayName(track.id) +
+            ": " +
+            count.done +
+            " of " +
+            count.total +
+            (lessons ? " lessons" : " challenges") +
+            " done",
         );
-        const advice =
-          index > Math.max(0, suggestedIndex)
-            ? "Advanced material - swing away."
-            : track.id === suggested
-              ? "Suggested for your Game Knowledge"
-              : "Open from day one";
         button.innerHTML =
-          '<span class="ng-track-token" aria-hidden="true"></span><span><small>' +
-          track.id.toUpperCase() +
-          " CONTENT TRACK</small><b>" +
-          ngChallengeHTML(track.name) +
-          "</b><em>" +
-          advice +
-          "</em></span><strong>" +
-          summary.done +
+          "<b>" +
+          ngBeltDisplayName(track.id) +
+          "</b><strong>" +
+          count.done +
           " of " +
-          summary.total +
+          count.total +
           "</strong>";
         button.addEventListener("click", () =>
           this.selectChallengeTrack(track.id),
         );
-        ladder.appendChild(button);
+        head.appendChild(button);
+        const fold = document.createElement("button");
+        fold.type = "button";
+        fold.className = "ng-belt-toggle";
+        fold.setAttribute("data-belt-toggle", track.id);
+        fold.setAttribute("aria-expanded", open ? "true" : "false");
+        fold.setAttribute(
+          "aria-label",
+          (open ? "Collapse " : "Expand ") + ngBeltDisplayName(track.id),
+        );
+        fold.innerHTML =
+          '<span aria-hidden="true">' + (open ? "▾" : "▸") + "</span>";
+        fold.addEventListener("click", () => {
+          this._setBeltSectionOpen(track.id, !this._beltSectionOpen(track.id));
+          this.renderExplorer();
+        });
+        head.appendChild(fold);
+        beltSection.appendChild(head);
+
+        const body = document.createElement("div");
+        body.className = "ng-belt-body";
+
+        // principles slot — renders only when curriculum data provides this belt's list
+        const principles = this.renderBeltPrinciples(track.id);
+        if (principles) body.appendChild(principles);
 
         if (track.id === selected.id) {
           const detail = document.createElement("section");
           detail.className = "ng-challenge-detail";
           detail.setAttribute("aria-label", selected.name + " challenges");
-          detail.style.setProperty("--ng-track", NG_CHALLENGE_TRACK_COLORS[track.id]);
+          detail.style.setProperty("--ng-track", color);
           detail.innerHTML =
-            '<div class="ng-challenge-detail-head"><div><small>' +
-            selected.id.toUpperCase() +
-            " CONTENT TRACK</small><h2>" +
+            '<div class="ng-challenge-detail-head"><div><small>CHALLENGES</small><h2>' +
             ngChallengeHTML(selected.name) +
             "</h2></div><span>" +
             summary.done +
@@ -618,19 +924,30 @@ const NG_CHALLENGE_UI_METHODS = {
             .addEventListener("click", () =>
               this.pinChallengeTrack(selected.id),
             );
-          for (const definition of NG_CHALLENGES) {
-            if (definition.track === selected.id) {
-              detail.appendChild(
-                this.challengeObjectiveElement(definition, selected.id),
-              );
+          if (selected.id === "white") {
+            // White's twenty objectives ARE the tutorial — they live at the top of the tab
+            const up = document.createElement("p");
+            up.className = "ng-detail-up";
+            up.textContent =
+              "The twenty getting-started objectives live at the top of this tab.";
+            detail.appendChild(up);
+          } else {
+            for (const definition of NG_CHALLENGES) {
+              if (definition.track === selected.id) {
+                detail.appendChild(
+                  this.challengeObjectiveElement(definition, selected.id),
+                );
+              }
             }
           }
-          ladder.appendChild(detail);
+          body.appendChild(detail);
         }
 
         const curriculum = this.challengeCurriculumElement(track.id);
-        curriculum.style.setProperty("--ng-track", NG_CHALLENGE_TRACK_COLORS[track.id]);
-        ladder.appendChild(curriculum);
+        curriculum.style.setProperty("--ng-track", color);
+        body.appendChild(curriculum);
+        beltSection.appendChild(body);
+        ladder.appendChild(beltSection);
       }
       list.appendChild(ladder);
       list.appendChild(this.renderRewardsShelf());

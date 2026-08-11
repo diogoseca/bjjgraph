@@ -106,6 +106,7 @@ test("digits during an open checkpoint quiz never open a sheet or commit the rol
   await page.locator(`.ng-track-card[data-track="${BLUE.id}"]`).click()
   await page.locator(`[data-checkpoint="${U1_KEY}"]`).first().click()
   await j.advance(400)
+  await j.decksSettled() // quiz pool decks hydrate async (v1.80.4) - settle before the one-shot beat check
   await j.expectBeat("checkpoint_start")
 
   const s0 = await census(page)

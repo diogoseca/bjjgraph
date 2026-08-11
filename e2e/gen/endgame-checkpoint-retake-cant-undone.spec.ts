@@ -87,6 +87,7 @@ test("failing a retake of a passed checkpoint: pass survives, rows stay done, no
   const beatsBeforeRetake = await j.beats()
   await page.locator(`[data-checkpoint="${UK}"]`).first().click()
   await j.advance(400)
+  await j.decksSettled() // quiz pool decks hydrate async (v1.80.4) - settle before the one-shot beat check
   await j.expectBeat("checkpoint_start")
   const start = (await j.beats()).filter((b: any) => b.beat === "checkpoint_start").pop() as any
   expect(start.unit, "retake targets the passed unit").toBe(UK)
