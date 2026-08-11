@@ -46,7 +46,6 @@ class Component extends DCLogic {
   dossierRef = React.createRef();
   dossierSheetRef = React.createRef();
   viewToggleRef = React.createRef();
-  knowledgeRef = React.createRef();
   paneAnchorRef = React.createRef();
   _viewMode = "challenges";
   nodeCardRef = React.createRef();
@@ -70,7 +69,7 @@ class Component extends DCLogic {
       statusRef: this.statusRef, legendMarkRef: this.legendMarkRef,
       accountRef: this.accountRef, acctChipRef: this.acctChipRef, acctMenuRef: this.acctMenuRef, toggleAccountMenu: () => this.toggleAccountMenu(), transportRef: this.transportRef, playPauseRef: this.playPauseRef,
       modalRef: this.modalRef, modalCardRef: this.modalCardRef,
-      explorerRef: this.explorerRef, explorerListRef: this.explorerListRef, explorerSearchRef: this.explorerSearchRef, explorerSearchWrapRef: this.explorerSearchWrapRef, explorerToolsRef: this.explorerToolsRef, dossierRef: this.dossierRef, dossierSheetRef: this.dossierSheetRef, nodeCardRef: this.nodeCardRef, viewToggleRef: this.viewToggleRef, knowledgeRef: this.knowledgeRef, paneAnchorRef: this.paneAnchorRef,
+      explorerRef: this.explorerRef, explorerListRef: this.explorerListRef, explorerSearchRef: this.explorerSearchRef, explorerSearchWrapRef: this.explorerSearchWrapRef, explorerToolsRef: this.explorerToolsRef, dossierRef: this.dossierRef, dossierSheetRef: this.dossierSheetRef, nodeCardRef: this.nodeCardRef, viewToggleRef: this.viewToggleRef, paneAnchorRef: this.paneAnchorRef,
       toggleExplorer: () => this.toggleExplorer(), openSearch: () => this.openSearch(),
       legendPointRef: this.legendPointRef, legendRef: this.legendRef, optionHintRef: this.optionHintRef, optDetailRef: this.optDetailRef, brandFontRef: this.brandFontRef,
       scrollOptions: () => { const op = this.optionsRef.current; if (op) this.tweenScroll(op, Math.round(op.clientWidth * 0.62)); },
@@ -1184,7 +1183,6 @@ class Component extends DCLogic {
     if (study && !this._paneWasStudy) this._paneReturnTab = this._viewMode; // remember where ‹ Back goes
     this._paneWasStudy = study;
     if (study) panel.setAttribute("data-pane-study", "1"); else panel.removeAttribute("data-pane-study");
-    const kn = this.knowledgeRef.current; if (kn) kn.style.display = study ? "none" : "block";
     const vt = this.viewToggleRef.current; if (vt) vt.style.display = study ? "none" : "grid";
     const tools = this.explorerToolsRef.current;
     if (tools) tools.style.display = (study || this._viewMode !== "explore") ? "none" : "flex";
@@ -3948,9 +3946,11 @@ class Component extends DCLogic {
         }
       }
     };
-    // order: stats \u2192 Lists \u2192 Systems \u2192 Principles \u2192 Positions \u2192 Transitions \u2192 Submissions \u2192 Learning
-    // The stat row leads (v1.95.0 \u2014 the weak-spots count is Explore's call to action, owner);
-    // Lists heads the sections: it is the surface the whole acquisition loop runs through.
+    // order: knowledge belt \u2192 stats \u2192 Lists \u2192 Systems \u2192 Principles \u2192 Positions \u2192
+    // Transitions \u2192 Submissions \u2192 Learning. Explore = game knowledge (v1.96.0): the woven
+    // belt block leads, the stat row under it (the weak-spots count is Explore's call to
+    // action, owner); Lists heads the sections \u2014 the acquisition loop runs through it.
+    list.appendChild(this._knowledgeBlock());
     list.appendChild(this._exploreStatsRow());
     this.renderLists(list);
     renderSystems();

@@ -78,7 +78,7 @@ test("probe: first-roll position pool + the chrome a newcomer sees", async ({
       ".ng-status",
       ".ng-transport",
       ".ng-account",
-      ".ng-knowledge-header",
+      "[data-knowledge]", // the Explore-mounted knowledge belt (v1.96.0; header gone)
       ".ng-legend",
       ".ng-logo",
       ".ng-drilltab",

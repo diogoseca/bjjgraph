@@ -19,9 +19,14 @@ function ngTrackName(track) {
 }
 
 const NG_CHALLENGE_UI_METHODS = {
-  renderKnowledgeHeader() {
-    const el = this.knowledgeRef && this.knowledgeRef.current;
-    if (!el) return;
+  // ── THE KNOWLEDGE BELT (relocated v1.96.0): the `.ng-knowledge-header` section above the
+  // tabs is GONE — after the tab subtitles it triple-stated the same fact (owner: one home
+  // per fact). Explore = game knowledge: this block mounts at the TOP OF EXPLORE'S BODY,
+  // merged with the stats row (order: woven belt → band road → "N% to blue" → stats). The
+  // meter keeps role=meter + the full aria (rank, stripes, road) — accessibility loses
+  // nothing; the "YOUR GAME KNOWLEDGE" kicker and big % are simply not restated (the
+  // Explore tab subtitle carries "Mastered N%").
+  _knowledgeBlock() {
     const game = this.gameScore();
     const score = Math.max(0, Math.min(100, game.score * 100));
     // WHITE IS THE FLOOR, NOT A TARGET (v1.95.0, owner's rule): "everybody starts as white —
@@ -31,10 +36,6 @@ const NG_CHALLENGE_UI_METHODS = {
     // stretch. Held belts from blue up keep their BELT_SCORE band exactly as earned.
     const dispBelt = game.belt || "white";
     const belt = dispBelt.charAt(0).toUpperCase() + dispBelt.slice(1);
-    el.setAttribute(
-      "aria-label",
-      "Your Game Knowledge: " + score.toFixed(1) + " percent, " + belt,
-    );
     // The meter IS a belt (v1.90.0) — woven strap, rank bar, tape stripes. Display-only by
     // canon: it reads gameScore() and nothing reads it back. Black wears the red bar and no
     // stripe ladder (the stripe system ends at black — owner's rule).
@@ -93,12 +94,10 @@ const NG_CHALLENGE_UI_METHODS = {
     let roadHtml = '<div class="ng-belt-road" aria-hidden="true">';
     for (const s of segs) roadHtml += '<span style="flex:0 0 ' + s[1] + '%;background:' + s[0] + ';"></span>';
     roadHtml += '<i class="ng-belt-you" style="left:' + score.toFixed(1) + '%"></i></div>';
+    const el = document.createElement("div");
+    el.setAttribute("data-knowledge", "1");
+    el.style.cssText = "padding:6px 12px 0;";
     el.innerHTML =
-      '<div class="ng-knowledge-line"><span>YOUR GAME KNOWLEDGE</span><b>' +
-      score.toFixed(1) +
-      "%" +
-      " <em>" + ngChallengeHTML(belt) + "</em>" +
-      "</b></div>" +
       '<div class="ng-knowledge-meter ng-belt" role="meter" data-belt="' +
       dispBelt +
       '" aria-label="' +
@@ -109,8 +108,20 @@ const NG_CHALLENGE_UI_METHODS = {
       tape +
       "</i></div>" +
       roadHtml +
-      (road ? "<p>" + ngChallengeHTML(road) + "</p>" : "<p>Black belt</p>");
-    this.renderTabSubtitles(); // the Explore subtitle carries the same score — keep them in step
+      '<p style="margin:7px 0 0;color:#7f8ba4;font-size:9.5px;line-height:1.45;">' +
+      ngChallengeHTML(road || "Black belt") +
+      "</p>";
+    return el;
+  },
+
+  // Name kept as the ONE refresh seam (styleViewToggle + spec seeds call it): re-renders
+  // the Explore-mounted knowledge belt in place (no-op when Explore isn't up) and keeps
+  // the tab subtitles in step with the score.
+  renderKnowledgeHeader() {
+    const list = this.explorerListRef && this.explorerListRef.current;
+    const cur = list ? list.querySelector("[data-knowledge]") : null;
+    if (cur) cur.replaceWith(this._knowledgeBlock());
+    this.renderTabSubtitles();
   },
 
   // ── tab subtitles (v1.95.0) ── each pane tab is a title over one plain second line:

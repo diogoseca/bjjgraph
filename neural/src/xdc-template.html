@@ -160,7 +160,9 @@
        (learning-panel visibility specs). Visibility is display-based (flex/none). -->
   <div ref="{{ drillRef }}" class="ng-drill ng-explorer" role="complementary" aria-label="Explore, Challenges, and Last rolls" style="display:none;position:absolute;top:0;left:0;bottom:0;width:360px;z-index:8;background:linear-gradient(180deg,rgba(18,21,38,.985),rgba(13,15,28,.985));border-right:1px solid rgba(130,150,190,.16);box-shadow:14px 0 44px rgba(0,0,0,.5);flex-direction:column;pointer-events:auto;">
     <button onClick="{{ closeDeck }}" class="ng-explorer-close" type="button" title="Close panel" aria-label="Close panel">&times;</button>
-    <section ref="{{ knowledgeRef }}" class="ng-knowledge-header"></section>
+    <!-- the knowledge header is GONE (v1.96.0): the woven belt + road + "N% to blue" live at
+         the top of Explore's body (_knowledgeBlock), merged with the stats row — the tab
+         subtitles made a header above the tabs a triple statement of the same fact. -->
     <!-- two-line tabs (v1.95.0): title <b> + subtitle <small> (filled by renderTabSubtitles;
          the history line is static). "Last rolls" is DISPLAY only — the view id, settings
          keys and every internal seam stay `history` (migration cost not worth it). -->

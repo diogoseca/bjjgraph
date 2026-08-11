@@ -8,7 +8,7 @@ async function openChallenges(page: any) {
     app.openExplorer();
     app.showExplorerList();
   });
-  await expect(page.locator(".ng-knowledge-header")).toBeVisible();
+  await expect(page.locator(".ng-learning-nav")).toBeVisible();
 }
 
 // This file's subject is the SCORE, not deck residency, so it takes full residency explicitly:
@@ -131,14 +131,21 @@ test.describe("Game Knowledge @curated", () => {
     const game = await setMastery(page, key, 2);
     await openChallenges(page);
 
-    await expect(page.locator(".ng-knowledge-header")).toContainText(
-      "YOUR GAME KNOWLEDGE",
-    );
+    // the belt block lives at the top of Explore since v1.96.0 (the header is gone);
+    // rank speaks through the meter's role=meter aria
+    await page.evaluate(() => {
+      const a = (window as any).__neural;
+      a.setViewMode("explore");
+    });
+    await expect(page.locator("[data-knowledge]")).toBeVisible();
     await expect(page.locator(".ng-knowledge-meter")).toHaveAttribute(
       "aria-valuenow",
       (game.score * 100).toFixed(1),
     );
-    await expect(page.locator(".ng-knowledge-header")).toContainText("Purple");
+    await expect(page.locator(".ng-knowledge-meter")).toHaveAttribute(
+      "aria-label",
+      /Purple belt/,
+    );
   });
 
   test("forgetting lowers the meter without taking content away", async ({
@@ -159,11 +166,14 @@ test.describe("Game Knowledge @curated", () => {
     expect(lower.score).toBeLessThan(peak.score);
 
     await openChallenges(page);
+    await expect(page.locator(".ng-track-card")).toHaveCount(5);
+    // the meter lives at the top of Explore since v1.96.0 — content (the ladder above)
+    // stayed open; the lower score shows on the Explore-mounted belt
+    await page.evaluate(() => (window as any).__neural.setViewMode("explore"));
     await expect(page.locator(".ng-knowledge-meter")).toHaveAttribute(
       "aria-valuenow",
       (lower.score * 100).toFixed(1),
     );
-    await expect(page.locator(".ng-track-card")).toHaveCount(5);
   });
 
   test("lesson crowns visualize the same deck mastery used by Game Knowledge", async ({

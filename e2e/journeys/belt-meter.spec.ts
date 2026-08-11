@@ -30,13 +30,15 @@ type Score = {
   stripes: number;
 };
 
+// the belt lives at the top of EXPLORE since v1.96.0 ([data-knowledge]) — the
+// .ng-knowledge-header section above the tabs is gone (owner: one home per fact)
 const openPane = async (page: Page) => {
   await page.evaluate(() => {
     const app = (window as any).__neural;
-    app.setViewMode("challenges");
+    app.setViewMode("explore");
     app.openExplorer();
   });
-  await expect(page.locator(".ng-knowledge-header")).toBeVisible();
+  await expect(page.locator("[data-knowledge]")).toBeVisible();
 };
 
 // Seed the exact score the renderer will read: gameScore() returns the memoised out while
@@ -110,7 +112,7 @@ test.describe("Belt meter @curated", () => {
       "Blue belt, 2 stripes — 50% to purple",
     );
     // the quiet text version of the same road, outside the belt itself
-    await expect(page.locator(".ng-knowledge-header")).toContainText(
+    await expect(page.locator("[data-knowledge]")).toContainText(
       "50% to purple",
     );
 
@@ -143,20 +145,25 @@ test.describe("Belt meter @curated", () => {
     await openPane(page);
 
     // no seeded cache: this is the real fresh-boot gameScore (score 0, belt null)
-    const header = page.locator(".ng-knowledge-header");
+    const block = page.locator("[data-knowledge]");
+    await expect(
+      page.locator(".ng-knowledge-header"),
+      "the old header section no longer exists anywhere (v1.96.0)",
+    ).toHaveCount(0);
     await expect(page.locator(".ng-knowledge-meter")).toHaveAttribute(
       "data-belt",
       "white",
     );
+    // the belt name lives in the meter's aria (rank, stripes, road) — the kicker line is
+    // gone, so the block's TEXT is just the road
     await expect(page.locator(".ng-knowledge-meter")).toHaveAttribute(
       "aria-label",
       "White belt, 0 stripes — 0% to blue",
     );
-    await expect(header).toContainText("% to blue");
-    await expect(header, "white is the floor, never a target").not.toContainText(
+    await expect(block).toContainText("% to blue");
+    await expect(block, "white is the floor, never a target").not.toContainText(
       "to white",
     );
-    await expect(header, "the belt name renders from day one").toContainText("White");
     // the band road: white owns the whole first 40% of the score axis (no pre-white
     // lead-in segment), then blue/purple/brown/black as BELT_SCORE earns them
     await expect(page.locator(".ng-belt-road > span")).toHaveCount(5);

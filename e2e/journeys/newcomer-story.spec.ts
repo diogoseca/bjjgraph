@@ -160,7 +160,7 @@ test("newcomer's first session: coach → question → execute → pane → roam
     a.openExplorer();
     a.showExplorerList();
   });
-  await expect(page.locator(".ng-knowledge-header")).toBeVisible();
+  await expect(page.locator(".ng-learning-nav")).toBeVisible(); // the knowledge belt lives in Explore since v1.96.0
   await expect(page.locator(".ng-track-card")).toHaveCount(5);
   const challengeDone = await page.evaluate(
     () => (window as any).__neural.challengeTrackProgress("white").done,

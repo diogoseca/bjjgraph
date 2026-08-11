@@ -11,10 +11,11 @@ import { journey } from "../dsl"
  *   2. The guest save nudge is ONE block at the pane's BOTTOM, visible on all three tabs,
  *      next to Settings/Terms/Privacy. The stat row (mastered/today/weak spots) moved to
  *      the TOP of Explore in v1.95.0 — the weak-spots count is Explore's call to action.
- *   3. The knowledge header shows no pedagogical filler ("Building foundations" is gone);
- *      the woven belt gains a quiet band line — the five bands on the score axis with your
- *      position dotted — and the sub-line is a plain "N% to blue". White is the FLOOR
- *      (v1.95.0): the cold state wears the white belt and roads to blue, never "to white".
+ *   3. The knowledge header is GONE (v1.96.0 — the tab subtitles made it a triple
+ *      statement): the woven belt + band road + plain "N% to blue" live at the TOP of
+ *      Explore's body ([data-knowledge]), above the stats row. No pedagogical filler;
+ *      role=meter aria carries rank/stripes/road. White is the FLOOR (v1.95.0): the cold
+ *      state wears the white belt and roads to blue, never "to white".
  *   3b. Tabs are two-line (v1.95.0): Explore over "Mastered N%" (word first, integer
  *      percent — owner, v1.95.2), Challenges over a mini belt striped by LADDER progress
  *      (not the score), and History is labeled "Last rolls" (internal ids unchanged).
@@ -163,7 +164,10 @@ test("tabs carry a title over a plain subtitle: mastered %, ladder belt, Last ro
 
   // THE TWO BELTS ARE DIFFERENT METERS: the tab belt is LADDER progress (proven units of
   // the pinned track), NOT gameScore().stripes. Seed a purple score — the knowledge belt
-  // turns purple and the Explore subtitle follows it, but the tab belt does not move.
+  // (top of Explore since v1.96.0) turns purple and the Explore subtitle follows it, but
+  // the tab belt does not move.
+  await j.clickByMouse('.ng-learning-nav [data-view="explore"]', "the Explore tab")
+  await expect(page.locator("[data-knowledge]")).toBeVisible()
   await page.evaluate(() => {
     const a = (window as any).__neural
     a._scoreCache = {
@@ -244,7 +248,7 @@ test("a study takeover hides the anchor; leaving the study restores it", async (
   await expect(page.locator(".ng-pane-anchor"), "tabs mode returns the anchor").toBeVisible()
 })
 
-test("knowledge header: no pedagogy — a belt road with five bands and your dot", async ({
+test("the knowledge belt lives at the top of Explore — no header, no pedagogy, five bands and your dot", async ({
   page,
 }) => {
   const j = journey(page)
@@ -252,8 +256,20 @@ test("knowledge header: no pedagogy — a belt road with five bands and your dot
   await j.land("Mount Top")
   await openViaPill(page, j)
 
-  const header = page.locator(".ng-knowledge-header")
+  // v1.96.0: the .ng-knowledge-header section is GONE (the tab subtitles made it a triple
+  // statement); the belt block mounts at the top of Explore's body
+  await expect(page.locator(".ng-knowledge-header"), "the header is gone").toHaveCount(0)
+  await j.clickByMouse('.ng-learning-nav [data-view="explore"]', "the Explore tab")
+  const header = page.locator("[data-knowledge]")
   await expect(header).toBeVisible()
+  const g = await page.evaluate(() => {
+    const k = document.querySelector("[data-knowledge]")!.getBoundingClientRect()
+    const s = document.querySelector("[data-explore-stats]")!.getBoundingClientRect()
+    const nav = document.querySelector(".ng-learning-nav")!.getBoundingClientRect()
+    return { belt: k.top, stats: s.top, navBottom: nav.bottom }
+  })
+  expect(g.belt, "belt block right under the tab bar").toBeLessThan(g.navBottom + 120)
+  expect(g.stats, "stats ride directly under the belt").toBeGreaterThan(g.belt)
   await expect(header, "the filler label is dead").not.toContainText("Building foundations")
   await expect(header, "the meter-philosophy line is dead too").not.toContainText(
     "Proven recall",
@@ -283,7 +299,11 @@ test("knowledge header: no pedagogy — a belt road with five bands and your dot
     }
     a.renderKnowledgeHeader()
   })
-  await expect(header).toContainText("Blue")
+  // rank speaks through the meter's aria (the kicker line is gone with the header)
+  await expect(page.locator(".ng-knowledge-meter")).toHaveAttribute(
+    "aria-label",
+    "Blue belt, 2 stripes — 50% to purple",
+  )
   await expect(header).toContainText("50% to purple")
   expect(
     await page.evaluate(

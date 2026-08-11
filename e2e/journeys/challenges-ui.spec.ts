@@ -30,9 +30,9 @@ test.describe("Challenges UI @curated", () => {
       .toBe(true);
 
     await page.locator(".ng-logo").click();
-    await expect(page.locator(".ng-knowledge-header")).toContainText(
-      "YOUR GAME KNOWLEDGE",
-    );
+    // the knowledge header is gone (v1.96.0 — the belt lives at the top of Explore)
+    await expect(page.locator(".ng-learning-nav")).toBeVisible();
+    await expect(page.locator(".ng-knowledge-header")).toHaveCount(0);
     // tab titles live in each button's <b>; the second line is a subtitle (v1.95.0 —
     // History is displayed as "Last rolls"; the internal view id stays `history`)
     await expect(page.locator(".ng-learning-nav button b")).toHaveText([
