@@ -93,8 +93,13 @@
     </div>
   </div>
 
-  <!-- modal overlay (settings / auth) -->
-  <div ref="{{ modalRef }}" style="display:none;position:absolute;inset:0;z-index:9;background:rgba(8,9,16,.6);backdrop-filter:blur(3px);align-items:center;justify-content:center;pointer-events:auto;">
+  <!-- modal overlay (settings / legal / auth / search). Z LADDER (see helmet.html): a
+       DELIBERATE screen at 95, top of the root overlay plane. Rendered here for the refs but
+       PORTALED to the app root at boot — the fixed wrap is its own stacking context, so a
+       modal left inside it loses to every root-level ambient overlay (the landing card at z:5
+       painted over this very element when it wore z:9 in here). The scrim is inset:0 +
+       pointer-events:auto, so while it is up no click reaches the gameplay overlays below. -->
+  <div ref="{{ modalRef }}" class="ng-modal" style="display:none;position:fixed;inset:0;z-index:95;background:rgba(8,9,16,.6);backdrop-filter:blur(3px);align-items:center;justify-content:center;pointer-events:auto;">
     <div ref="{{ modalCardRef }}" style="width:min(440px,90vw);background:linear-gradient(180deg,rgba(26,30,52,.99),rgba(18,21,38,.99));border:1px solid rgba(130,150,190,.2);border-radius:18px;box-shadow:0 24px 70px rgba(0,0,0,.65);overflow:hidden;animation:ngCardIn .28s ease both;"></div>
   </div>
 

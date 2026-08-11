@@ -787,6 +787,8 @@ score = Σ (weight_i × mastery_i),   Σ weight_i = 1
 
 **`pointer-events:auto` is LOAD-BEARING on every fixed overlay** (`.ng-coach`, `.ng-landcard`, …): the property is *inherited*, the overlay root disables it, and the canvas hit-tests above anything that doesn't re-enable it — option cards set it inline for exactly this reason. Missing it = mouse clicks silently fall through to the graph (the coach's Next button and the landing card's MC options were unclickable by mouse until v1.69.1; keyboard paths masked it).
 
+**THE Z LADDER (v1.95.1, documented in `neural/src/helmet.html`):** the root overlay plane (direct children of `#neural-root`) is banded — 1-9 ambient state chrome (landcard 5, momentum 6, tut/cue 7) · 10-49 ambient fx (toast 14, vignette 44) · 50-79 coaching (coach 70, combo pop 72) · **90-99 DELIBERATE temporary screens** (account menu 90, `.ng-modal` settings/legal/auth/search + roll-from confirm 95). The app wrap is `position:fixed` = its own stacking context, so any z inside it is trapped at plane level 0 — a deliberate screen must live on the root plane (the modal **portals out at boot**; the account menu portals on open). A screen the user asked for is never underdrawn by ambient gameplay overlays; the modal scrim takes the input; **Esc walks the ladder top-down** (modal → menu → sheet/dossier → pane last, per pane law). New overlay = pick a band, never a loose number.
+
 **Settings additions:** Rolling tab gains *Questions while you roll* (`landQuestions`, default on — gates the QUESTION only; identity+film render regardless) and *Challenge cue* (visibility for the pinned track). Flashcards tab's *Answer mode* defaults to Classic recall. Shortcuts lists `A B C D`.
 
 ### Graph rendering

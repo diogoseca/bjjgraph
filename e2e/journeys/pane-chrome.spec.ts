@@ -26,6 +26,12 @@ import { journey } from "../dsl"
  *   7. The pane anchors the LEFT edge (v1.94.0 — it opens from the top-left logo, so it
  *      lives on the logo's side). The account chip stays bottom-right and, on desktop, no
  *      longer fades under a pane that no longer covers it; the phone drawer still does.
+ *   8. THE Z LADDER (v1.95.1): DELIBERATE temporary screens (the settings/legal/auth modal,
+ *      the account menu) always render above AMBIENT gameplay overlays (landing card,
+ *      coach, combo pop, toasts). The modal portals to the app root at z:95 — the fixed
+ *      wrap is its own stacking context, so anything left inside it loses to every
+ *      root-level overlay regardless of z. Its scrim takes the input; Esc closes the
+ *      topmost deliberate screen first.
  *
  * Mouse claims go through clickByMouse (no scroll-into-view, no interception amnesty).
  */
@@ -364,4 +370,86 @@ test("phone: chip above the thumb-band pill; drawer opens from the LEFT and fade
   }
   expect(faded.o, "chip fades under the phone drawer").toBeLessThanOrEqual(0.05)
   expect(faded.pe, "and stops taking clicks").toBe("none")
+})
+
+// ─────────────────────────────────────────────────────────────────────────────────────
+// THE Z LADDER (v1.95.1). Deliberate temporary screens (settings/legal/auth modal,
+// account menu) always render above ambient gameplay overlays (landing card, coach,
+// combo pop, toasts). Third stacking bug of this family: the modal lived INSIDE the
+// fixed wrap — its own stacking context — so the landing card (a root-level overlay at
+// z:5) painted over the modal's z:9 and ate its clicks. The fix is structural, not a
+// number bump: the modal portals to the app root and takes the deliberate band (95).
+// ─────────────────────────────────────────────────────────────────────────────────────
+
+test.describe("deliberate screens outrank ambient overlays", () => {
+  const hitReport = (page: Page) =>
+    page.evaluate(() => {
+      const c = document.querySelector(".ng-landcard") as HTMLElement
+      const r = c.getBoundingClientRect()
+      const el = document.elementFromPoint(
+        r.left + r.width / 2,
+        r.top + r.height / 2,
+      ) as HTMLElement | null
+      return {
+        inModal: !!(el && el.closest(".ng-modal")),
+        inLandcard: !!(el && el.closest(".ng-landcard")),
+        who: el ? `${el.tagName}.${el.className}` : "nothing",
+      }
+    })
+
+  test("Settings covers the landing card: the card is not hit-testable, the modal is — same for Terms", async ({
+    page,
+  }) => {
+    const j = journey(page)
+    await j.boot("/")
+    await j.land("Mount Top")
+    await expect(page.locator(".ng-landcard"), "an ambient overlay is up").toBeVisible()
+
+    // the user's own path: account chip → menu → Settings
+    await j.clickByMouse(".ngAcctChip", "the account chip")
+    await j.clickByMouse("[data-menu-settings]", "the Settings row")
+    await expect(page.locator(".ng-modal"), "the modal is up").toBeVisible()
+
+    let hit = await hitReport(page)
+    expect(
+      hit.inLandcard,
+      `the landing card must not be hit-testable under Settings (elementFromPoint says: ${hit.who})`,
+    ).toBe(false)
+    expect(hit.inModal, "the point over the card belongs to the modal/scrim").toBe(true)
+
+    // the modal's own controls take the mouse (clickByMouse refuses intercepted clicks)
+    await j.clickByMouse('[data-settings-legal] [data-legal="terms"]', "Terms inside Settings")
+    await expect(page.locator("body")).toContainText("Terms of Use")
+    hit = await hitReport(page)
+    expect(hit.inLandcard, "same rule under the Terms screen").toBe(false)
+    expect(hit.inModal).toBe(true)
+  })
+
+  test("Esc closes the modal first; the pane and its pause latch stay as they were", async ({
+    page,
+  }) => {
+    const j = journey(page)
+    await j.boot("/")
+    await j.land("Mount Top")
+    await openViaPill(page, j)
+    await expect(page.locator(".ng-drill")).toBeVisible()
+    expect(
+      await page.evaluate(() => (window as any).__neural.paused),
+      "pane law: open = the game stops",
+    ).toBe(true)
+
+    await j.clickByMouse('.ng-drill [title="Settings"]', "the pane footer gear")
+    await expect(page.locator(".ng-modal")).toBeVisible()
+
+    await page.keyboard.press("Escape")
+    await expect(page.locator(".ng-modal"), "Esc takes the topmost screen").toBeHidden()
+    await expect(page.locator(".ng-drill"), "the pane under it survives").toBeVisible()
+    expect(
+      await page.evaluate(() => (window as any).__neural.paused),
+      "closing a modal ABOVE the pane must not resume the game the pane stopped",
+    ).toBe(true)
+
+    await page.keyboard.press("Escape")
+    await expect(page.locator(".ng-drill"), "the next Esc closes the pane (law unchanged)").toBeHidden()
+  })
 })

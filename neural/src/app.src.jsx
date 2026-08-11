@@ -299,6 +299,11 @@ class Component extends DCLogic {
     // modal: card blocks pan + wheel; backdrop click closes
     if (this.modalCardRef.current) { this.modalCardRef.current.addEventListener("pointerdown", (e) => e.stopPropagation()); this.modalCardRef.current.addEventListener("wheel", (e) => e.stopPropagation(), { passive: false }); }
     if (this.modalRef.current) this.modalRef.current.addEventListener("pointerdown", (e) => { e.stopPropagation(); this._detailCtx = null; this.setPaused(false); this.closeModal(); });
+    // Z LADDER (v1.95.1, see helmet.html): the modal is a DELIBERATE screen — portal it out
+    // of the wrap (whose stacking context traps any z it wears) onto the root overlay plane,
+    // where its 95 outranks every ambient overlay (landcard 5, coach 70, combo pop 72).
+    // Listeners above survive the move; the account menu portals the same way when opened.
+    if (this.modalRef.current && this.__ngRoot && this.modalRef.current.parentElement !== this.__ngRoot) this.__ngRoot.appendChild(this.modalRef.current);
     const logoEl = this.wrapRef.current.querySelector(".ng-logo");
     if (logoEl) logoEl.addEventListener("pointerdown", (e) => e.stopPropagation());
     // keyboard: "/" or Cmd/Ctrl+K focuses search in the explorer
@@ -309,7 +314,10 @@ class Component extends DCLogic {
         this.openPane("explore");
         setTimeout(() => { try { const inp = this.explorerSearchRef.current; if (inp) inp.focus(); } catch (err) {} }, 80);
       } else if (e.key === "Escape") {
-        if (this.closeAccountMenu()) return; // topmost chrome goes first — before any gameplay overlay
+        // Esc walks the Z LADDER top-down: deliberate screens first (modal 95, menu 90),
+        // then gameplay overlays, then the pane last (pane law)
+        if (this.closeModalIfOpen()) return;
+        if (this.closeAccountMenu()) return;
         if (this._detailCtx) { e.preventDefault(); this.closeOptionDetail(); return; }
         if (this.closeNodeDossier()) return; // in-node dossier open (desktop) — fly back out
         const sh = this.dossierSheetRef.current;
@@ -2250,6 +2258,16 @@ class Component extends DCLogic {
     this.openModal();
   }
   closeModal() { const m = this.modalRef.current; if (m) m.style.display = "none"; }
+  // Esc seam (v1.95.1): close the topmost deliberate screen and report. Pause state is
+  // deliberately NOT touched here — if the pane (or the user's hand) froze the clock,
+  // dismissing a modal ABOVE it must not resume anything (the backdrop-click path keeps
+  // its legacy resume; Esc is the pane-law-safe close).
+  closeModalIfOpen() {
+    const m = this.modalRef.current;
+    if (!m || m.style.display !== "flex") return false;
+    this.closeModal();
+    return true;
+  }
 
   expandOption(opt, onPick, srcCard) {
     const n = opt.node;
@@ -3312,7 +3330,7 @@ class Component extends DCLogic {
     m.style.left = "auto"; m.style.top = "auto";
     m.style.right = (r ? Math.max(8, window.innerWidth - r.right) : 24) + "px";
     m.style.bottom = ((r ? window.innerHeight - r.top : 64) + 10) + "px";
-    m.style.zIndex = "46"; // over the landcard/tut/vignette band, under the coach (70)
+    m.style.zIndex = "90"; // Z LADDER (helmet.html): deliberate band — above coach 70 / combo 72, under the modal 95
     m.style.display = "flex";
     m.setAttribute("data-open", "1");
     if (chip) chip.setAttribute("aria-expanded", "true");
@@ -5365,9 +5383,12 @@ class Component extends DCLogic {
     const baseRole = (n.fromRole || this.roleLabelOf(this.nodes[seedIdx]) || "top").toLowerCase();
     const role = persp === "defender" ? (baseRole === "top" ? "bottom" : "top") : baseRole;
     const roleLabel = persp === "defender" ? "defending" : "attacking";
-    const host = this.wrapRef.current; if (!host) { this._detailCtx = null; this.hideOptDetail(); this.playFrom(seedIdx, role); return; }
+    // Z LADDER (helmet.html): a confirm is a DELIBERATE screen — host it on the root overlay
+    // plane at the modal band (95), not inside the wrap where the landing card (z:5, root
+    // plane) would paint over it and its z:40 could never win.
+    const host = this.__ngRoot || this.wrapRef.current; if (!host) { this._detailCtx = null; this.hideOptDetail(); this.playFrom(seedIdx, role); return; }
     const ov = document.createElement("div");
-    ov.style.cssText = "position:absolute;inset:0;z-index:40;display:flex;align-items:center;justify-content:center;background:rgba(8,11,18,.62);backdrop-filter:blur(3px);";
+    ov.style.cssText = "position:fixed;inset:0;z-index:95;display:flex;align-items:center;justify-content:center;background:rgba(8,11,18,.62);backdrop-filter:blur(3px);pointer-events:auto;";
     const close = () => { ov.style.opacity = "0"; setTimeout(() => ov.remove(), 160); };
     ov.innerHTML =
       '<div style="width:min(380px,90vw);background:linear-gradient(180deg,#161b27,#11151e);border:1px solid rgba(150,170,210,.18);border-radius:18px;box-shadow:0 24px 60px rgba(0,0,0,.5);padding:22px 22px 18px;font-family:inherit;">' +

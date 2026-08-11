@@ -93,6 +93,22 @@
   @keyframes ngBeacon{0%,100%{box-shadow:0 0 0 0 rgba(126,224,168,0),0 0 10px 1px rgba(126,224,168,.28)}50%{box-shadow:0 0 0 3px rgba(126,224,168,.22),0 0 22px 5px rgba(126,224,168,.5)}}
   .ng-vignette{position:fixed;inset:0;pointer-events:none;z-index:44;background:radial-gradient(ellipse at center,transparent 52%,rgba(226,58,48,.3) 100%);animation:ngHeartbeat 1s ease-in-out infinite;}
   @keyframes ngHeartbeat{0%,100%{opacity:.5}12%{opacity:1}24%{opacity:.55}34%{opacity:.9}48%{opacity:.5}}
+  /* ══ THE Z LADDER (v1.95.1) — root overlay plane: direct children of #neural-root. ══
+     The app wrap is position:fixed = its OWN stacking context, so its internal z values
+     (pane 8, tray 4, dossier 5 …) never compete out here; the wrap paints at level 0 and
+     any root-level sibling with z ≥ 1 covers ALL of it. Bands, bottom to top:
+        1-9    ambient state chrome beside gameplay   — landcard 5 · momentum 6 · tut/cue 7
+        10-49  ambient attention fx                   — reward toast 14 · vignette 44
+        50-79  coaching                               — coach 70 · combo pop 72
+        90-99  DELIBERATE temporary screens           — account menu 90 · modal (settings/
+               legal/auth/search) + roll-from confirm 95
+     Principle (third stacking bug of this family — menu-under-landcard, coach-over-card,
+     landcard-over-Settings): a screen the user asked for must NEVER be underdrawn by an
+     ambient gameplay overlay, and a deliberate screen's scrim takes the input. Anything
+     that must sit on the root plane picks a BAND here — never invent a loose number, and
+     never leave a deliberate screen inside the wrap (its z is trapped there; the modal
+     PORTALS out at boot for exactly this reason). Esc closes the topmost deliberate
+     screen first. */
   /* pointer-events:auto is LOAD-BEARING on every fixed overlay: the property is inherited and
      the canvas hit-tests above anything that doesn't re-enable it (the option cards set it
      inline for the same reason). Without it, mouse clicks fall through to the graph. */
