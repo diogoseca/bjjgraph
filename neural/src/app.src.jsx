@@ -14,7 +14,6 @@ class Component extends DCLogic {
   drillFootRef = React.createRef();
   drillCountRef = React.createRef();
   drillTabRef = React.createRef();
-  drillTabSubRef = React.createRef();
   drillTabShortRef = React.createRef();
   // (short label is single-line; see updateDrillTab)
   drillTabTitleRef = React.createRef();
@@ -48,6 +47,7 @@ class Component extends DCLogic {
   giToggleRef = React.createRef();
   viewToggleRef = React.createRef();
   knowledgeRef = React.createRef();
+  paneAnchorRef = React.createRef();
   _viewMode = "challenges";
   nodeCardRef = React.createRef();
   transportRef = React.createRef();
@@ -63,14 +63,14 @@ class Component extends DCLogic {
       evRef: this.evRef, evKickerRef: this.evKickerRef, evTextRef: this.evTextRef,
       optionsRef: this.optionsRef, fxRef: this.fxRef,
       drillRef: this.drillRef, drillTitleRef: this.drillTitleRef, drillHeadRef: this.drillHeadRef, drillListRef: this.drillListRef, drillFootRef: this.drillFootRef, drillCountRef: this.drillCountRef,
-      drillTabRef: this.drillTabRef, drillTabSubRef: this.drillTabSubRef, drillTabShortRef: this.drillTabShortRef, drillTabTitleRef: this.drillTabTitleRef, drillTabIconRef: this.drillTabIconRef,
+      drillTabRef: this.drillTabRef, drillTabShortRef: this.drillTabShortRef, drillTabTitleRef: this.drillTabTitleRef, drillTabIconRef: this.drillTabIconRef,
       openDeck: () => this.openHomeToLatest(), closeDeck: () => this.setDeckOpen(false),
       openSettings: () => this.openSettings("flashcards"),
       openTerms: () => this.openLegal("terms"), openPrivacy: () => this.openLegal("privacy"),
       statusRef: this.statusRef, legendMarkRef: this.legendMarkRef,
       accountRef: this.accountRef, acctChipRef: this.acctChipRef, acctCtaRef: this.acctCtaRef, openSignup: () => this.openAuth("create"), chipMergeClass: this.deckShown ? "ng-chip-merged" : "", transportRef: this.transportRef, playPauseRef: this.playPauseRef,
       modalRef: this.modalRef, modalCardRef: this.modalCardRef,
-      explorerRef: this.explorerRef, explorerListRef: this.explorerListRef, explorerSearchRef: this.explorerSearchRef, explorerSearchWrapRef: this.explorerSearchWrapRef, explorerToolsRef: this.explorerToolsRef, dossierRef: this.dossierRef, dossierSheetRef: this.dossierSheetRef, nodeCardRef: this.nodeCardRef, giToggleRef: this.giToggleRef, viewToggleRef: this.viewToggleRef, knowledgeRef: this.knowledgeRef,
+      explorerRef: this.explorerRef, explorerListRef: this.explorerListRef, explorerSearchRef: this.explorerSearchRef, explorerSearchWrapRef: this.explorerSearchWrapRef, explorerToolsRef: this.explorerToolsRef, dossierRef: this.dossierRef, dossierSheetRef: this.dossierSheetRef, nodeCardRef: this.nodeCardRef, giToggleRef: this.giToggleRef, viewToggleRef: this.viewToggleRef, knowledgeRef: this.knowledgeRef, paneAnchorRef: this.paneAnchorRef,
       toggleExplorer: () => this.toggleExplorer(), openSearch: () => this.openSearch(),
       legendPointRef: this.legendPointRef, legendRef: this.legendRef, optionHintRef: this.optionHintRef, optDetailRef: this.optDetailRef, brandFontRef: this.brandFontRef,
       scrollOptions: () => { const op = this.optionsRef.current; if (op) this.tweenScroll(op, Math.round(op.clientWidth * 0.62)); },
@@ -1106,6 +1106,13 @@ class Component extends DCLogic {
     this._paneTransition = true;
     if (open && !wasShown) {
       this._csStep("pane_opened"); // marked HERE, not in setDeckOpen: study entry points assign deckOpen directly
+      // EVERY open path wires the pane's static controls exactly once (v1.93.0). The tab bar,
+      // search and gi-toggle used to be wired only by openPane(); a session whose FIRST open came
+      // through openHomeToLatest / openMenu / openStudy (account chip, drill pill, landing chip,
+      // challenge fallback) got a pane whose Explore/Challenges tabs were dead buttons. This is
+      // the same choke point that latches the pane law, so no open path can miss it; the _wired
+      // flags inside make repeat calls no-ops.
+      this._wirePaneControls();
       if (!this.paused) { this.setPaused(true); this._paneAutoPaused = true; this.fx("pane_paused", {}); }
       const active = document.activeElement;
       this._explorerReturnFocus = active && active !== document.body ? active : null;
@@ -1144,6 +1151,7 @@ class Component extends DCLogic {
     const chip = this.acctChipRef.current;
     if (chip) chip.classList.toggle("ng-chip-merged", open);
     if (open !== wasShown && this.renderChallengeCue) this.renderChallengeCue(); // cue hides while the pane is up
+    if (open) this.renderPaneAnchor(); // bottom anchor: stats + guest save nudge, fresh on every apply
     this._layoutPane();
     this.forceUpdate();
     this.updateDrillTab();
@@ -1172,14 +1180,19 @@ class Component extends DCLogic {
     const exList = this.explorerListRef.current; if (exList) exList.style.display = showEx ? "block" : "none";
     if (!showEx) { const dos = this.dossierRef.current; if (dos) dos.style.display = "none"; }
     const showDrill = study || this._viewMode === "history";
-    const dh = this.drillHeadRef.current; if (dh) dh.style.display = showDrill ? "block" : "none";
+    // the drill head is a STUDY surface now (setDrillHeader's ‹ Back + title) — History home
+    // renders no head since the stat row + save nudge moved to the bottom anchor (v1.93.0)
+    const dh = this.drillHeadRef.current; if (dh) dh.style.display = study ? "block" : "none";
     const dl = this.drillListRef.current; if (dl) dl.style.display = showDrill ? "flex" : "none";
     const df = this.drillFootRef.current; if (df && !showDrill) df.style.display = "none";
+    // the bottom anchor supersedes tabs (all three see it); only a study takeover hides it
+    const pa = this.paneAnchorRef.current; if (pa) pa.style.display = study ? "none" : "flex";
   }
   // render whichever body the active tab owns (no-op while a study surface holds the pane)
   _renderPaneBody() {
     this._layoutPane();
     if (!this.deckShown || this._paneStudyActive()) return;
+    this.renderPaneAnchor(); // exiting a study surface re-shows the anchor with fresh counts
     if (this._viewMode === "history") { this._pathDim = false; this.clearFocus(); this.renderDrillHome(); }
     else this.renderExplorer();
   }
@@ -1194,40 +1207,31 @@ class Component extends DCLogic {
     else this._renderPaneBody();
   }
   updateDrillTab() {
-    const sub = this.drillTabSubRef.current; const title = this.drillTabTitleRef.current; const icon = this.drillTabIconRef.current;
+    // QUIET PILL (v1.93.0). The flashing "Drill to boost your odds \u2192" invite is gone \u2014 the
+    // landing card already asks this state's question, so the pill stopped selling and now just
+    // names where the tap goes: [medal] + family name (desktop), family + Study/Mastered verb
+    // (mobile thumb band). The medal icon still tiers with progress; the share cue buttons are
+    // appended by _renderShareCue and untouched here.
+    const title = this.drillTabTitleRef.current; const icon = this.drillTabIconRef.current;
     const e0 = this.drillEntries && this.drillEntries[0];
-    if (!sub || !e0) return;
-    const bonus = Math.round(this.stateBonus(this._posKey) * 100);
-    // manifest `n` while the chunk is in flight: the tab said "Flashcards being authored" about
-    // decks that have had cards for months, purely because they had not landed yet
+    if (!e0) return;
+    // manifest `n` while the chunk is in flight: the tab used to misread in-flight decks as
+    // unauthored purely because their cards had not landed yet
     const total = this._deckCardCount(((this.flashcards && this.flashcards.decks) || {})[this._posKey]);
     const done = Math.min((this.prep && this.prep[this._posKey]) || 0, total);
-    // slim tab: the medal icon carries the progress; the count lives on the landing card's chip
-    let ic = "\u26a1", t1 = "Study this state", t2 = "Flashcards being authored", c1 = "#9ab0e0", c2 = "#c9d3e6", shortLn2 = "Study state", ln2Col = "#c9d3e6";
     const famName = (e0.info && e0.info.fam) || "";
-    if (!total && famName) { t1 = famName; t2 = "Cards coming soon"; }
+    let ic = "\u26a1", shortLn2 = "Study", ln2Col = "#c9d3e6";
     if (total) {
-      t1 = famName || "This position";
-      if (done >= total) {
-        ic = "\uD83E\uDD47"; t2 = "Mastered \u00b7 review"; c2 = "#7ee0a8"; shortLn2 = "Mastered"; ln2Col = "#7ee0a8";
-      } else if (done === 0) {
-        ic = "\u25CB";
-        t2 = "Drill to boost your odds \u2192";
-        shortLn2 = "Study";
-      } else {
-        const frac = done / total;
-        ic = frac < 0.34 ? "\uD83E\uDD49" : (frac < 0.67 ? "\uD83E\uDD48" : "\uD83E\uDD47");
-        t2 = "Drill to boost your odds \u2192";
-        shortLn2 = "Study";
-      }
+      if (done >= total) { ic = "\uD83E\uDD47"; shortLn2 = "Mastered"; ln2Col = "#7ee0a8"; }
+      else if (done === 0) { ic = "\u25CB"; }
+      else { const frac = done / total; ic = frac < 0.34 ? "\uD83E\uDD49" : (frac < 0.67 ? "\uD83E\uDD48" : "\uD83E\uDD47"); }
     }
     const famSize = famName.length > 18 ? 8 : (famName.length > 13 ? 8.5 : 9.5);
     const short = '<span style="display:block;font-size:' + famSize + 'px;font-weight:600;color:#9ab0e0;letter-spacing:.03em;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:118px;line-height:1.25;">' + famName + '</span>' +
       '<span style="display:block;font-size:12.5px;font-weight:800;color:' + ln2Col + ';line-height:1.2;">' + shortLn2 + '</span>';
     if (icon) { icon.textContent = ic; icon.style.opacity = (total && done === 0) ? "0.45" : "1"; icon.style.filter = done >= total && total ? "drop-shadow(0 0 6px rgba(126,224,168,.7))" : "drop-shadow(0 0 5px rgba(120,160,255,.6))"; }
-    if (title) { title.textContent = t1; title.style.color = c1; title.style.fontSize = "11px"; title.style.fontWeight = "600"; }
+    if (title) { title.textContent = famName || "Flashcards"; }
     const shortEl = this.drillTabShortRef.current; if (shortEl) shortEl.innerHTML = short;
-    sub.textContent = t2; sub.style.color = c2; sub.style.fontSize = "13px"; sub.style.fontWeight = "800";
   }
 
   // ---------- progress / save hint ----------
@@ -1247,8 +1251,9 @@ class Component extends DCLogic {
     this.fx("save_hint", { reason: reason });
     const tab = this.drillTabRef.current;
     if (tab && !this.deckShown) {
+      // one nudge + a FINITE pulse — the pill must never flash indefinitely (v1.93.0)
       tab.style.animation = "ngNudge .45s ease-in-out 3";
-      this.after(1.5, () => { if (tab) tab.style.animation = "ngTabPulse 2.4s ease infinite"; });
+      this.after(1.5, () => { if (tab) { tab.style.animation = "ngTabPulse 2.4s ease 2"; this.after(5, () => { if (tab) tab.style.animation = ""; }); } });
     }
     this.setEvent("Save your progress", "Open flashcards to keep it", "muted");
   }
@@ -1867,35 +1872,49 @@ class Component extends DCLogic {
   }
   iconStack(col) { return '<svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="' + (col || '#9fb0d8') + '" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2 2 7l10 5 10-5-10-5Z"></path><path d="m2 17 10 5 10-5"></path><path d="m2 12 10 5 10-5"></path></svg>'; }
 
-  renderDrillHome() {
-    this.settings = this.settings || {};
+  // ── pane bottom anchor (v1.93.0): ONE block at the pane's foot, on every tab ──
+  // stat row (mastered / today / weak spots — same .ngStat handles it always had) + the guest
+  // save nudge ("Create an account to save your progress" over a quieter "or log in"). It sits
+  // directly above the Settings/Terms/Privacy row; a study takeover hides it (_layoutPane) so a
+  // quiz keeps its room. Signed-in users get the stat row alone — their session CTA and Log out
+  // live in the History foot as before.
+  renderPaneAnchor() {
+    const el = this.paneAnchorRef.current; if (!el) return;
     const mastered = this.masteredCount();
-    const explored = (this.exploredSet ? this.exploredSet.size : 0);
     const goal = this.get("dailyGoal", 30);
-    const head = this.drillHeadRef.current, list = this.drillListRef.current, foot = this.drillFootRef.current;
-    if (!head || !list) return;
-    if (foot) { foot.style.display = "none"; foot.innerHTML = ""; }
-
-    // History head: auth CTA (guests) + the compact stat row. The knowledge header above the
-    // tabs is the ONLY progress meter — the old "Daily flashcards" hero bar is gone (v1.76.0).
-    head.innerHTML =
-      (this.user ? '' :
-        '<div class="ngHdrAuth" style="cursor:pointer;display:flex;flex-direction:column;align-items:center;gap:2px;width:100%;padding:11px;border-radius:12px;background:linear-gradient(135deg,#4a6cff,#7a4cff);box-shadow:0 5px 18px rgba(74,108,255,.4);margin-bottom:14px;transition:filter .15s ease,transform .1s ease;">' +
-          '<span style="font-size:13px;font-weight:700;color:#fff;">Create account or log in</span>' +
-          '<span style="font-size:10.5px;font-weight:500;color:rgba(255,255,255,.8);">Save your rolls &amp; progress</span>' +
-        '</div>') +
-      '<div style="display:flex;gap:14px;font-size:11.5px;">' +
+    el.innerHTML =
+      '<div style="display:flex;gap:14px;font-size:11.5px;align-items:center;min-height:30px;">' +
         '<span class="ngStat" data-b="mastered" style="cursor:pointer;color:#8b97b0;display:inline-flex;align-items:center;gap:4px;border-bottom:1px dashed rgba(139,151,176,.35);padding-bottom:1px;"><b style="color:#cbd4e6;font-weight:700;">' + mastered + '</b> mastered</span>' +
         '<span class="ngStat" data-b="due" style="cursor:pointer;color:#8b97b0;display:inline-flex;align-items:center;gap:4px;border-bottom:1px dashed rgba(139,151,176,.35);padding-bottom:1px;"><b style="color:#7ee0a8;font-weight:700;">' + (this.cardsToday || 0) + '</b> today</span>' +
         '<span class="ngStat" data-b="suggested" style="cursor:pointer;color:#d6a45a;display:inline-flex;align-items:center;gap:4px;border-bottom:1px dashed rgba(214,164,90,.4);padding-bottom:1px;"><b style="color:#e9bd70;font-weight:700;">' + goal + '+</b> weak spots</span>' +
-      '</div>';
-    head.querySelectorAll(".ngStat").forEach((s) => {
+      '</div>' +
+      (this.user ? '' :
+        '<button type="button" class="ngHdrAuth" data-anchor-auth="1" style="cursor:pointer;font-family:inherit;border:none;display:flex;flex-direction:column;align-items:center;gap:1px;width:100%;min-height:44px;justify-content:center;padding:8px 11px;border-radius:12px;background:linear-gradient(135deg,#4a6cff,#7a4cff);box-shadow:0 5px 18px rgba(74,108,255,.4);margin-top:8px;transition:filter .15s ease;">' +
+          '<span style="font-size:12.5px;font-weight:700;color:#fff;">Create an account to save your progress</span>' +
+        '</button>' +
+        '<button type="button" data-anchor-login="1" style="cursor:pointer;font-family:inherit;border:none;background:transparent;width:100%;min-height:44px;padding:6px;font-size:11px;font-weight:600;color:#7e8aa3;">or log in</button>');
+    el.querySelectorAll(".ngStat").forEach((s) => {
       const sg = s.getAttribute("data-b") === "suggested";
       s.addEventListener("mouseenter", () => s.style.color = sg ? "#f0cf8e" : "#cbd4e6");
       s.addEventListener("mouseleave", () => s.style.color = sg ? "#d6a45a" : "#8b97b0");
       s.addEventListener("click", () => { const b = s.getAttribute("data-b"); if (b === "suggested") { this.openSession("suggested", "Weak spots in your game"); } else { this.openFlashBrowser(b, b === "mastered" ? "Mastered" : "Due Today"); } });
     });
-    { const a = head.querySelector(".ngHdrAuth"); if (a) { a.addEventListener("mouseenter", () => a.style.filter = "brightness(1.08)"); a.addEventListener("mouseleave", () => a.style.filter = "none"); a.addEventListener("click", () => this.openAuth("create")); } }
+    { const a = el.querySelector("[data-anchor-auth]"); if (a) { a.addEventListener("mouseenter", () => a.style.filter = "brightness(1.08)"); a.addEventListener("mouseleave", () => a.style.filter = "none"); a.addEventListener("click", () => this.openAuth("create")); } }
+    { const l = el.querySelector("[data-anchor-login]"); if (l) { l.addEventListener("mouseenter", () => l.style.color = "#cbd4e6"); l.addEventListener("mouseleave", () => l.style.color = "#7e8aa3"); l.addEventListener("click", () => this.openAuth("login")); } }
+  }
+
+  renderDrillHome() {
+    this.settings = this.settings || {};
+    const goal = this.get("dailyGoal", 30);
+    const head = this.drillHeadRef.current, list = this.drillListRef.current, foot = this.drillFootRef.current;
+    if (!head || !list) return;
+    if (foot) { foot.style.display = "none"; foot.innerHTML = ""; }
+
+    // The History head is empty since v1.93.0: the guest save nudge + the compact stat row moved
+    // to the pane's bottom anchor (renderPaneAnchor), one block above Settings/Terms/Privacy,
+    // visible on all three tabs. The knowledge header above the tabs stays the ONLY progress
+    // meter (v1.76.0 canon). _layoutPane shows the head only for study takeover now.
+    head.innerHTML = "";
 
     list.innerHTML = "";
     this._miniReg = {};
@@ -1917,7 +1936,8 @@ class Component extends DCLogic {
     // grouped roll history — the current roll's CURRENT row expands to an inline flashcard deck
     this.renderRollHistory(list);
 
-    // hero CTA pinned in the footer — only for signed-in users (guests get the auth CTA up in the header)
+    // hero CTA pinned in the footer — only for signed-in users (guests get the save nudge in the
+    // pane's bottom anchor, renderPaneAnchor)
     if (foot) {
       foot.innerHTML = "";
       if (!this.user) {
@@ -2968,6 +2988,28 @@ class Component extends DCLogic {
       body.appendChild(wrap);
     }
     card.appendChild(body);
+    // legal links live HERE too (v1.93.0): the first Settings overlay carries Terms · Privacy,
+    // so the account surface never needs a "Learn More" submenu (Shortcuts is already a tab).
+    const legal = document.createElement("div");
+    legal.setAttribute("data-settings-legal", "1");
+    legal.style.cssText = "display:flex;justify-content:center;align-items:center;gap:14px;padding:10px 22px 14px;border-top:1px solid rgba(150,170,210,.1);";
+    const mkLegal = (label, kind) => {
+      const a = document.createElement("button");
+      a.type = "button";
+      a.setAttribute("data-legal", kind);
+      a.textContent = label;
+      a.style.cssText = "cursor:pointer;font-family:inherit;border:none;background:transparent;font-size:10.5px;color:#5d6883;letter-spacing:.02em;padding:8px 6px;min-height:32px;";
+      a.addEventListener("mouseenter", () => a.style.color = "#9aa6bd");
+      a.addEventListener("mouseleave", () => a.style.color = "#5d6883");
+      a.addEventListener("click", () => this.openLegal(kind));
+      return a;
+    };
+    legal.appendChild(mkLegal("Terms", "terms"));
+    const dot = document.createElement("span");
+    dot.style.cssText = "width:3px;height:3px;border-radius:50%;background:#3c4358;";
+    legal.appendChild(dot);
+    legal.appendChild(mkLegal("Privacy", "privacy"));
+    card.appendChild(legal);
   }
   ensureMods() {
     // no demo seeds — modifiers exist only when the user creates them (odds must not lie)
@@ -3219,6 +3261,7 @@ class Component extends DCLogic {
       chip.children[1].textContent = "G";
       if (cta) cta.style.display = "";
     }
+    if (this.deckShown) this.renderPaneAnchor(); // auth state flips the anchor's save nudge
     const explorer = this.explorerRef.current;
     if (
       this._viewMode === "challenges" &&
@@ -3576,7 +3619,7 @@ class Component extends DCLogic {
     if (this._paneStudyActive()) this._exitStudyTo(view || this._viewMode);
     else if (view) this.setViewMode(view);
     { const sh = this.dossierSheetRef.current; if (sh && sh.style.display === "block") this.closeDossierSheet(); } // the pane replaces the mobile sheet
-    this._wirePaneControls();
+    // no _wirePaneControls here: applyDeckVisibility is the one wiring seam for every open path
     this._drillView = "home";
     this.deckReady = true; this.deckOpen = true;
     this.applyDeckVisibility();
@@ -5886,8 +5929,10 @@ class Component extends DCLogic {
       hint.style.opacity = more ? "0.5" : "0";
       hint.style.pointerEvents = more ? "auto" : "none";
     }
-    // the open pane owns the top-right corner — its ✕ sits exactly where the account pill lives,
-    // so the pill fades out with the shift instead of stacking two clickables
+    // the open pane owns the RIGHT EDGE — the chip lives bottom-right (v1.93.0) and the pane
+    // covers that corner on desktop (360px rail) and phone (88vw drawer) alike, so the chip
+    // fades with the shift instead of glowing through / stacking under the pane's own controls.
+    // The rule predates the move (it guarded the ✕ collision top-right) and still holds here.
     const ac = this.accountRef.current;
     if (ac) { ac.style.opacity = (1 - this.uiShift).toFixed(3); ac.style.pointerEvents = this.uiShift > 0.5 ? "none" : "auto"; ac.style.transform = "none"; }
   }

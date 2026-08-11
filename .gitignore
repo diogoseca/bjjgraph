@@ -112,6 +112,8 @@ tests/artifacts/triple_replay/
 tests/artifacts/replay/
 # Belt-meter design iteration screenshots (regenerable from any build via the belt-meter spec)
 tests/artifacts/belt/
+# Pane-and-chrome polish screenshots + red-run log (regenerable via the pane-chrome spec)
+tests/artifacts/chrome/
 node_modules/
 
 # Transient local-agent coordination notes (this checkout only; repo is public)

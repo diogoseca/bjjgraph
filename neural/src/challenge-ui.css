@@ -180,6 +180,44 @@
   }
 }
 
+/* ── the band line (v1.93.0) — the belt's quiet companion. One 3px road on the score axis:
+   the five bands white→blue→purple→brown→black sit exactly where BELT_SCORE earns them
+   (20/40/60/70/80); the dot is where you are. Static, aria-hidden, no numbers of its own. */
+.ng-belt-road {
+  position: relative;
+  display: flex;
+  height: 3px;
+  margin-top: 8px;
+  border-radius: 2px;
+  overflow: visible;
+}
+
+.ng-belt-road > span {
+  height: 100%;
+  opacity: 0.55;
+}
+
+.ng-belt-road > span:first-child {
+  border-radius: 2px 0 0 2px;
+}
+
+.ng-belt-road > span:last-child {
+  border-radius: 0 2px 2px 0;
+}
+
+.ng-belt-you {
+  position: absolute;
+  top: 50%;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  background: #eef1f6;
+  box-shadow:
+    0 0 0 2px rgba(15, 17, 30, 0.9),
+    0 0 6px rgba(238, 241, 246, 0.55);
+}
+
 @media (prefers-reduced-motion: reduce) {
   .ng-knowledge-meter {
     transition: none;

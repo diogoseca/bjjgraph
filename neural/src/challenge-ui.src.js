@@ -24,12 +24,15 @@ const NG_CHALLENGE_UI_METHODS = {
     if (!el) return;
     const game = this.gameScore();
     const score = Math.max(0, Math.min(100, game.score * 100));
+    // No pedagogical filler (v1.93.0): pre-belt shows the score alone — never "Building
+    // foundations". The belt NAME still renders once a band is actually held (that is rank,
+    // not pedagogy).
     const belt = game.belt
       ? game.belt.charAt(0).toUpperCase() + game.belt.slice(1)
-      : "Building foundations";
+      : "";
     el.setAttribute(
       "aria-label",
-      "Your Game Knowledge: " + score.toFixed(1) + " percent, " + belt,
+      "Your Game Knowledge: " + score.toFixed(1) + " percent" + (belt ? ", " + belt : ""),
     );
     // The meter IS a belt (v1.90.0) — woven strap, rank bar, tape stripes. Display-only by
     // canon: it reads gameScore() and nothing reads it back. Black wears the red bar and no
@@ -54,7 +57,7 @@ const NG_CHALLENGE_UI_METHODS = {
       ? "Black belt"
       : (game.belt
           ? belt + " belt, " + stripes + (stripes === 1 ? " stripe" : " stripes")
-          : belt) + (road ? " — " + road : "");
+          : score.toFixed(1) + "%") + (road ? " — " + road : "");
     // a stripe EARNED on the same belt gets the tape-wrap animation (data-new)
     const prev = this._beltShown;
     const fresh =
@@ -65,12 +68,27 @@ const NG_CHALLENGE_UI_METHODS = {
     let tape = "";
     for (let i = 0; i < stripes; i++)
       tape += i >= fresh ? "<b data-new></b>" : "<b></b>";
+    // THE BAND LINE (v1.93.0) — the woven belt's quiet companion: one horizontal road, the five
+    // bands white→blue→purple→brown→black laid out on the score axis exactly as BELT_SCORE
+    // earns them (20/40/60/70/80), your position marked on it. Decorative (aria-hidden) — the
+    // meter's aria-label already speaks belt, stripes and road.
+    const segs = [
+      ["rgba(150,170,210,.16)", 20], // pre-white lead-in
+      ["#d8dde8", 20],               // white held: 20–40
+      ["#78a2f5", 20],               // blue held: 40–60
+      ["#b38bdd", 10],               // purple held: 60–70
+      ["#bd8a68", 10],               // brown held: 70–80
+      ["#8d929f", 20],               // black held: 80–100
+    ];
+    let roadHtml = '<div class="ng-belt-road" aria-hidden="true">';
+    for (const s of segs) roadHtml += '<span style="flex:0 0 ' + s[1] + '%;background:' + s[0] + ';"></span>';
+    roadHtml += '<i class="ng-belt-you" style="left:' + score.toFixed(1) + '%"></i></div>';
     el.innerHTML =
       '<div class="ng-knowledge-line"><span>YOUR GAME KNOWLEDGE</span><b>' +
       score.toFixed(1) +
-      '% <em>' +
-      ngChallengeHTML(belt) +
-      "</em></b></div>" +
+      "%" +
+      (belt ? " <em>" + ngChallengeHTML(belt) + "</em>" : "") +
+      "</b></div>" +
       '<div class="ng-knowledge-meter ng-belt" role="meter" data-belt="' +
       (game.belt || "none") +
       '" aria-label="' +
@@ -80,9 +98,8 @@ const NG_CHALLENGE_UI_METHODS = {
       '"><i class="ng-belt-bar" aria-hidden="true">' +
       tape +
       "</i></div>" +
-      "<p>Proven recall, not challenge completion." +
-      (road ? " " + road + " belt." : "") +
-      "</p>";
+      roadHtml +
+      (road ? "<p>" + ngChallengeHTML(road) + "</p>" : black ? "<p>Black belt</p>" : "");
   },
 
   noteLearningViewOpen(view) {

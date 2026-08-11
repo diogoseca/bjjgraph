@@ -41,7 +41,7 @@
   }
   @media (max-width:640px){
     .ng-logo{top:22px!important;left:18px!important;gap:0!important;}
-    .ng-acctwrap{top:18px!important;right:18px!important;}
+    .ng-acctwrap{top:auto!important;bottom:86px!important;right:14px!important;}
     .ngAcctChip{padding:0!important;}
     .ng-logo .ng-word,.ng-logo .ng-kbd{display:none!important;}
     .ng-intro{top:54px!important;left:16px!important;}
@@ -50,7 +50,7 @@
     .ng-drill{width:88vw!important;}
     .ng-drilltab{top:auto!important;bottom:28px!important;right:14px!important;left:auto!important;transform:none!important;width:auto!important;min-height:46px!important;box-sizing:border-box!important;flex-direction:row!important;align-items:center!important;border-radius:23px!important;border-right:1px solid rgba(130,160,255,.32)!important;padding:8px 15px!important;gap:0!important;}
     .ng-drilltab>span:first-child{display:none!important;}
-    .ng-drilltab .ng-dttitle,.ng-drilltab .ng-dtsub{display:none!important;}
+    .ng-drilltab .ng-dttitle{display:none!important;}
     .ng-drilltab>div{display:none!important;}
     .ng-drilltab .ng-dt-short{display:block!important;text-align:center!important;}
     .ngAcctChip>span:first-child{display:none!important;}
@@ -83,8 +83,8 @@
   <!-- dominance flash overlay -->
   <div ref="{{ fxRef }}" style="position:absolute;inset:0;pointer-events:none;opacity:0;"></div>
 
-  <!-- account + config menu (top-right) -->
-  <div ref="{{ accountRef }}" class="ng-acctwrap" style="position:absolute;top:26px;right:24px;pointer-events:auto;z-index:6;transition:opacity .25s ease;">
+  <!-- account chip (bottom-right, v1.93.0 — the top-right corner belongs to the pane's ✕) -->
+  <div ref="{{ accountRef }}" class="ng-acctwrap" style="position:absolute;bottom:24px;right:24px;pointer-events:auto;z-index:6;transition:opacity .25s ease;">
     <div ref="{{ acctChipRef }}" class="ngAcctChip {{ chipMergeClass }}" onClick="{{ toggleMenu }}" style="cursor:pointer;display:flex;align-items:center;gap:10px;padding:5px 7px 5px 14px;">
       <span style="font-size:12px;font-weight:600;color:#cbd4e6;letter-spacing:.01em;">Guest</span>
       <span style="width:30px;height:30px;border-radius:50%;background:linear-gradient(135deg,#4a6cff,#9a5cff);display:flex;align-items:center;justify-content:center;font-size:13px;font-weight:700;color:#fff;box-shadow:0 2px 10px rgba(74,108,255,.4);">G</span>
@@ -130,17 +130,19 @@
 
   <!-- options tray (bottom of play area) -->
   <div ref="{{ optionsRef }}" class="ng-optionrow" style="position:absolute;bottom:84px;left:0;right:0;z-index:4;pointer-events:none;display:flex;gap:12px;align-items:flex-end;justify-content:safe center;flex-wrap:nowrap;overflow-x:auto;overflow-y:hidden;padding:14px 24px 8px;scroll-snap-type:x proximity;-webkit-overflow-scrolling:touch;"></div>
-  <div ref="{{ optionHintRef }}" class="ng-seemore" onClick="{{ scrollOptions }}" style="position:absolute;bottom:60px;right:24px;z-index:3;pointer-events:none;cursor:pointer;opacity:0;transition:opacity .55s cubic-bezier(.4,0,.2,1),color .15s;display:flex;align-items:center;gap:5px;font-size:9.5px;font-weight:600;letter-spacing:.08em;color:#7e8aa8;text-transform:uppercase;">see more<span style="font-size:11px;display:inline-block;">&rarr;</span></div>
+  <div ref="{{ optionHintRef }}" class="ng-seemore" onClick="{{ scrollOptions }}" style="position:absolute;bottom:68px;right:24px;z-index:3;pointer-events:none;cursor:pointer;opacity:0;transition:opacity .55s cubic-bezier(.4,0,.2,1),color .15s;display:flex;align-items:center;gap:5px;font-size:9.5px;font-weight:600;letter-spacing:.08em;color:#7e8aa8;text-transform:uppercase;">see more<span style="font-size:11px;display:inline-block;">&rarr;</span></div>
 
   <!-- option detail: a bottom sheet that expands in place (no dimming overlay) -->
   <div ref="{{ optDetailRef }}" style="position:absolute;left:0;right:0;bottom:0;margin:0 auto;width:min(660px,94vw);height:340px;z-index:6;opacity:0;pointer-events:none;transition:opacity .26s cubic-bezier(.2,.7,.2,1),transform .34s cubic-bezier(.2,.7,.2,1),height .34s cubic-bezier(.2,.7,.2,1);display:flex;flex-direction:column;background:linear-gradient(180deg,rgba(27,31,53,.995),rgba(17,20,36,.995));border:1px solid rgba(130,150,190,.22);border-bottom:none;border-top-left-radius:20px;border-top-right-radius:20px;box-shadow:0 -16px 60px rgba(0,0,0,.55);overflow:hidden;"></div>
 
-  <!-- drill open tab (right edge, when a deck is available but closed) -->
-  <div ref="{{ drillTabRef }}" class="ng-drilltab" onClick="{{ openDeck }}" style="position:absolute;top:50%;right:0;transform:translateY(-50%);pointer-events:auto;cursor:pointer;opacity:0;display:flex;align-items:center;gap:11px;padding:15px 18px 15px 17px;background:linear-gradient(90deg,rgba(36,42,70,.92),rgba(26,30,52,.95));border:1px solid rgba(130,160,255,.32);border-right:none;border-radius:13px 0 0 13px;box-shadow:0 6px 26px rgba(0,0,0,.4);animation:ngTabPulse 2.4s ease infinite;z-index:6;">
-    <span ref="{{ drillTabIconRef }}" style="font-size:17px;line-height:1;filter:drop-shadow(0 0 5px rgba(120,160,255,.6));">&#9889;</span>
+  <!-- drill open tab (right edge, when a deck is available but closed). QUIET by design
+       (v1.93.0): no pulse animation, no drill-prompt copy — the landing card already asks the
+       question. The pill keeps its other jobs: medal tier icon, share cue ◉/Class ▸ buttons
+       (appended by _renderShareCue), and the mobile thumb-band geometry (v1.81.4). -->
+  <div ref="{{ drillTabRef }}" class="ng-drilltab" onClick="{{ openDeck }}" style="position:absolute;top:50%;right:0;transform:translateY(-50%);pointer-events:auto;cursor:pointer;opacity:0;display:flex;align-items:center;gap:9px;padding:11px 15px 11px 14px;background:linear-gradient(90deg,rgba(36,42,70,.92),rgba(26,30,52,.95));border:1px solid rgba(130,160,255,.32);border-right:none;border-radius:13px 0 0 13px;box-shadow:0 6px 26px rgba(0,0,0,.4);z-index:6;">
+    <span ref="{{ drillTabIconRef }}" style="font-size:16px;line-height:1;filter:drop-shadow(0 0 5px rgba(120,160,255,.6));">&#9889;</span>
     <div style="display:flex;flex-direction:column;gap:2px;">
-      <span ref="{{ drillTabTitleRef }}" class="ng-dttitle" style="font-size:12.5px;font-weight:700;color:#eef1f6;letter-spacing:.01em;line-height:1.1;">5 cards to master</span>
-      <span ref="{{ drillTabSubRef }}" class="ng-dtsub" style="font-size:10.5px;font-weight:500;color:#9ab0e0;letter-spacing:.02em;">Drill to boost your odds &rarr;</span>
+      <span ref="{{ drillTabTitleRef }}" class="ng-dttitle" style="font-size:12px;font-weight:700;color:#c9d3e6;letter-spacing:.01em;line-height:1.15;">Flashcards</span>
     </div>
     <span ref="{{ drillTabShortRef }}" class="ng-dt-short" style="display:none;font-size:11px;font-weight:600;color:#c9d3e6;line-height:1.2;text-align:center;"></span>
   </div>
@@ -171,7 +173,10 @@
     <div ref="{{ drillHeadRef }}" class="ng-pane-drillhead" style="display:none;padding:14px 24px 16px;border-bottom:1px solid rgba(150,170,210,.1);flex:none;"></div>
     <div ref="{{ drillListRef }}" style="display:none;flex:1;overflow-y:auto;padding:14px 24px 14px;flex-direction:column;gap:10px;"></div>
     <div ref="{{ drillFootRef }}" style="display:none;flex:none;padding:12px 24px 16px;border-top:1px solid rgba(150,170,210,.1);background:rgba(15,17,30,.55);flex-direction:column;gap:9px;"></div>
-    <div style="flex:none;display:flex;justify-content:center;align-items:center;gap:14px;padding:14px 24px 14px;">
+    <!-- pane anchor (v1.93.0): stats row + guest save nudge, ONE block at the pane's bottom,
+         visible on all three tabs (hidden only while a study surface owns the pane). -->
+    <div ref="{{ paneAnchorRef }}" class="ng-pane-anchor" style="flex:none;display:flex;flex-direction:column;gap:2px;padding:12px 24px 0;border-top:1px solid rgba(150,170,210,.1);background:rgba(15,17,30,.35);"></div>
+    <div style="flex:none;display:flex;justify-content:center;align-items:center;gap:14px;padding:12px 24px 14px;background:rgba(15,17,30,.35);">
       <span onClick="{{ openSettings }}" title="Settings" style="cursor:pointer;color:#5d6883;display:flex;align-items:center;" style-hover="color:#9aa6bd;"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"></circle><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1Z"></path></svg></span>
       <span style="width:3px;height:3px;border-radius:50%;background:#3c4358;"></span>
       <span onClick="{{ openTerms }}" style="cursor:pointer;font-size:10.5px;color:#5d6883;letter-spacing:.02em;" style-hover="color:#9aa6bd;">Terms</span>
