@@ -971,3 +971,70 @@ test("/l leaks into NOTHING a crawler reads: not the sitemap, not llms.txt, not 
     /rel=["']canonical["'][^>]*\/l\.html/i,
   );
 });
+
+// ────────────────────────────────────────────── the header + : how a list is born (v1.97.0)
+
+test("the + beside Your lists creates a class list — the one deliberate creation control @curated", async ({
+  page,
+}) => {
+  const j = journey(page);
+  await j.boot("/");
+  await j.land("Mount Top");
+  await openExplore(page);
+
+  const head = page.locator("[data-lists-head]");
+  await expect(head).toContainText(/Your lists\s*\(0\)/);
+  await expect(
+    head,
+    "the old static 'share a class' caption is gone — the + replaced it",
+  ).not.toContainText(/share a class/i);
+  await expect(
+    page.locator("[data-lists-empty]"),
+    "the empty line points at the +",
+  ).toContainText("tap + to start one");
+
+  const plus = page.locator("[data-lists-new]");
+  await expect(plus).toHaveAttribute("aria-label", "New list");
+  const box = (await plus.boundingBox())!;
+  expect(box.width, "44px target").toBeGreaterThanOrEqual(44);
+  expect(box.height, "44px target").toBeGreaterThanOrEqual(44);
+
+  await j.clickByMouse("[data-lists-new]", "the New list +");
+  await expect(head).toContainText(/Your lists\s*\(1\)/);
+  const row = page.locator("[data-list-row]");
+  await expect(row).toHaveCount(1);
+  await expect(row, "the established default name").toContainText(/Class · /);
+
+  // "ready for adding": newList() (the SAME function every implicit path uses) makes the
+  // newborn the active add target, and its row reads as selected
+  const state = await page.evaluate(() => {
+    const a = (window as any).__neural;
+    const id = a.activeListId;
+    const l = a._listsMap()[id];
+    return {
+      empty: !!l && l.items.length === 0,
+      name: l && l.name,
+      focused: a._listFocusId === id,
+    };
+  });
+  expect(state.empty, "newborn list is the active add target").toBe(true);
+  expect(state.name).toMatch(/^Class · /);
+  expect(state.focused, "and its row is the selected one").toBe(true);
+
+  // per-list sharing is untouched: the newborn row still carries its Share button
+  await expect(row.locator("[data-list-share]")).toBeVisible();
+});
+
+test("the + works at 390px inside the drawer", async ({ page }) => {
+  await page.setViewportSize({ width: 390, height: 844 });
+  const j = journey(page);
+  await j.boot("/");
+  await j.land("Mount Top");
+  await page.locator(".ng-drilltab").click(); // the phone pane opener
+  await expect(page.locator(".ng-drill")).toBeVisible();
+  await page.locator('.ng-learning-nav [data-view="explore"]').click();
+  await expect(page.locator("[data-lists-new]")).toBeVisible();
+  await j.clickByMouse("[data-lists-new]", "the New list + in the drawer");
+  await expect(page.locator("[data-lists-head]")).toContainText(/Your lists\s*\(1\)/);
+  await expect(page.locator("[data-list-row]")).toHaveCount(1);
+});

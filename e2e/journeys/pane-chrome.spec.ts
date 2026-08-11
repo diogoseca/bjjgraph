@@ -81,13 +81,26 @@ test("the anchor keeps the guest save nudge; the stat row lives at the top of Ex
 
   const anchor = page.locator(".ng-pane-anchor")
   await expect(anchor).toBeVisible()
-  await expect(
-    anchor.locator("[data-anchor-auth]"),
-    "the guest nudge, in the owner's words",
-  ).toContainText("Create an account to save your progress")
-  await expect(anchor.locator("[data-anchor-login]"), "with a quieter log in").toContainText(
-    "or log in",
+  // v1.97.1: ONE dense line — plain clause, primary pill, quiet link (the stacked
+  // two-row nudge wasted the pane's sparsest real estate)
+  const authRow = anchor.locator("[data-anchor-authrow]")
+  await expect(authRow).toContainText("Save your progress")
+  await expect(anchor.locator("[data-anchor-auth]"), "the primary pill").toHaveText(
+    "Create account",
   )
+  await expect(anchor.locator("[data-anchor-login]"), "with a quieter log in").toHaveText(
+    "Log in",
+  )
+  const oneLine = await page.evaluate(() => {
+    const row = document.querySelector("[data-anchor-authrow]")!.getBoundingClientRect()
+    const a = document.querySelector("[data-anchor-auth]")!.getBoundingClientRect()
+    const l = document.querySelector("[data-anchor-login]")!.getBoundingClientRect()
+    return { rowH: row.height, sameLine: Math.abs((a.top + a.height / 2) - (l.top + l.height / 2)) < 2, aH: a.height, lH: l.height }
+  })
+  expect(oneLine.rowH, "one line, no wrap").toBeLessThanOrEqual(48)
+  expect(oneLine.sameLine, "pill and link share the line").toBe(true)
+  expect(oneLine.aH, "44px hit area kept").toBeGreaterThanOrEqual(44)
+  expect(oneLine.lH).toBeGreaterThanOrEqual(44)
   // v1.95.0: the stat row moved OUT of the anchor and into Explore's body top — the
   // weak-spots count is a call to action for browsing, not chrome for every tab
   await expect(anchor.locator(".ngStat"), "no stats in the anchor").toHaveCount(0)
@@ -126,7 +139,7 @@ test("the anchor keeps the guest save nudge; the stat row lives at the top of Ex
   expect(s.top, "at the top of Explore's body, not the foot").toBeLessThan(s.navBottom + 180)
 
   // the quiet line is a real login path
-  await j.clickByMouse("[data-anchor-login]", "the or-log-in line")
+  await j.clickByMouse("[data-anchor-login]", "the quiet Log in link")
   await expect(page.locator("body"), "log-in mode, not sign-up").toContainText("Welcome back")
 })
 

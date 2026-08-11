@@ -1161,6 +1161,15 @@ class Component extends DCLogic {
     // share a corner, so the chip keeps its normal look. On a phone the drawer takes the screen
     // and the chip fades (updateUiShift) — close its menu so it can't linger over the drawer.
     if (open && !wasShown && this.isMobile()) this.closeAccountMenu();
+    // ── ON A PHONE THE DRAWER OWNS THE SCREEN (v1.97.0) ── the landing card is a root-plane
+    // overlay (z ladder: ambient 5) and the pane lives INSIDE the wrap, so at 88vw the card
+    // painted OVER the drawer and stole its clicks (the Lists + was unreachable at 390px).
+    // Same treatment the option sheet gives it: hide while the drawer is up, restore on close.
+    // Desktop is untouched — there the card sits beside the left pane by design.
+    if (this.isMobile() && this._landEl) {
+      if (open) { this._landEl.style.opacity = "0"; this._landEl.style.pointerEvents = "none"; this._landPaneHid = true; }
+      else if (this._landPaneHid) { this._landEl.style.opacity = ""; this._landEl.style.pointerEvents = ""; this._landPaneHid = false; }
+    }
     if (open !== wasShown && this.renderChallengeCue) this.renderChallengeCue(); // cue hides while the pane is up
     if (open) this.renderPaneAnchor(); // bottom anchor: stats + guest save nudge, fresh on every apply
     this._layoutPane();
@@ -1892,11 +1901,17 @@ class Component extends DCLogic {
   renderPaneAnchor() {
     const el = this.paneAnchorRef.current; if (!el) return;
     if (this.user) { el.innerHTML = ""; el.style.display = "none"; return; }
+    // ONE dense line (v1.97.1, owner — the stacked nudge wasted two sparse rows):
+    // plain framing clause · Create account as the primary pill · quiet Log in link.
+    // nowrap by construction at the 360px rail (~282px of content in ~312px); both
+    // controls keep 44px hit areas via min-height on a centered 44px row.
     el.innerHTML =
-      '<button type="button" class="ngHdrAuth" data-anchor-auth="1" style="cursor:pointer;font-family:inherit;border:none;display:flex;flex-direction:column;align-items:center;gap:1px;width:100%;min-height:44px;justify-content:center;padding:8px 11px;border-radius:12px;background:linear-gradient(135deg,#4a6cff,#7a4cff);box-shadow:0 5px 18px rgba(74,108,255,.4);transition:filter .15s ease;">' +
-        '<span style="font-size:12.5px;font-weight:700;color:#fff;">Create an account to save your progress</span>' +
-      '</button>' +
-      '<button type="button" data-anchor-login="1" style="cursor:pointer;font-family:inherit;border:none;background:transparent;width:100%;min-height:44px;padding:6px;font-size:11px;font-weight:600;color:#7e8aa3;">or log in</button>';
+      '<div data-anchor-authrow="1" style="display:flex;align-items:center;justify-content:center;gap:7px;min-height:44px;white-space:nowrap;">' +
+        '<span style="flex:none;font-size:11px;color:#8b97b0;">Save your progress —</span>' +
+        '<button type="button" class="ngHdrAuth" data-anchor-auth="1" style="flex:none;cursor:pointer;font-family:inherit;border:none;min-height:44px;padding:0 13px;border-radius:999px;background:linear-gradient(135deg,#4a6cff,#7a4cff);box-shadow:0 3px 12px rgba(74,108,255,.35);font-size:12px;font-weight:800;color:#fff;transition:filter .15s ease;">Create account</button>' +
+        '<span style="flex:none;width:3px;height:3px;border-radius:50%;background:#3c4358;"></span>' +
+        '<button type="button" data-anchor-login="1" style="flex:none;cursor:pointer;font-family:inherit;border:none;background:transparent;min-height:44px;padding:0 4px;font-size:11.5px;font-weight:600;color:#7e8aa3;">Log in</button>' +
+      '</div>';
     el.style.display = this._paneStudyActive() ? "none" : "flex";
     { const a = el.querySelector("[data-anchor-auth]"); if (a) { a.addEventListener("mouseenter", () => a.style.filter = "brightness(1.08)"); a.addEventListener("mouseleave", () => a.style.filter = "none"); a.addEventListener("click", () => this.openAuth("create")); } }
     { const l = el.querySelector("[data-anchor-login]"); if (l) { l.addEventListener("mouseenter", () => l.style.color = "#cbd4e6"); l.addEventListener("mouseleave", () => l.style.color = "#7e8aa3"); l.addEventListener("click", () => this.openAuth("login")); } }
@@ -3875,9 +3890,15 @@ class Component extends DCLogic {
     const keepList = this._listFocusId;
     this._pathDim = false;
     this.clearFocus();
-    if (keepList && this.listIdxs(keepList).length) {
+    // a still-EXISTING selection survives the reset even when the list is empty (a newborn
+    // list from the header + has no members yet — its row must still read as selected).
+    // Two legitimate shapes: an OWNED list (in _listsMap, possibly empty) and the "__shared"
+    // incoming preview (never in the map — listIdxs resolves it). The graph focus set only
+    // lights when there is something to light.
+    if (keepList && (this._listsMap()[keepList] || this.listIdxs(keepList).length)) {
       this._listFocusId = keepList;
-      this.setFocusIdxSet(this.listIdxs(keepList), true);
+      const ki = this.listIdxs(keepList);
+      if (ki.length) this.setFocusIdxSet(ki, true);
     }
     // search mode: flat ranked results across all nodes
     if (q) {
@@ -4398,14 +4419,35 @@ class Component extends DCLogic {
 
     const head = document.createElement("div");
     head.setAttribute("data-lists-head", "1");
-    head.style.cssText = "display:flex;align-items:center;gap:8px;padding:7px 12px 3px;";
+    head.style.cssText = "display:flex;align-items:center;gap:8px;padding:0 6px 0 12px;min-height:44px;";
     head.innerHTML =
       // "Your lists (0)" — the count is explicit even at zero (owner's call, v1.95.0), and
       // "Your" scopes it so it no longer contradicts an incoming shared block above: the
       // shared class is theirs to save, the zero is about lists of your own.
       '<span style="font-size:14px;font-weight:700;color:#dbe2f0;">Your lists</span>' +
-      '<span style="font-size:11px;color:#7e8aa3;">(' + ids.length + ')</span>' +
-      '<span style="margin-left:auto;font-size:9.5px;letter-spacing:.1em;text-transform:uppercase;color:#6b7691;">share a class</span>';
+      '<span style="font-size:11px;color:#7e8aa3;">(' + ids.length + ')</span>';
+    // THE + IS HOW A LIST IS BORN (v1.97.0, owner). It replaced the "share a class" caption
+    // — which was a static label, not a control (creation only happened implicitly through
+    // a technique's +). Reuses newList(): the SAME function the implicit add path and the
+    // shared-class save use — the new list carries the established default name
+    // ("Class · <date>"), becomes the active add target immediately, and its row highlights.
+    // Per-list Share buttons are untouched.
+    const plus = document.createElement("button");
+    plus.type = "button";
+    plus.setAttribute("data-lists-new", "1");
+    plus.setAttribute("aria-label", "New list");
+    plus.title = "New list";
+    plus.textContent = "+";
+    plus.style.cssText = "margin-left:auto;flex:none;min-width:44px;min-height:44px;pointer-events:auto;cursor:pointer;font-family:inherit;font-size:20px;font-weight:600;line-height:1;color:#c4cde0;background:rgba(255,255,255,.04);border:1px solid rgba(150,170,210,.28);border-radius:10px;";
+    plus.addEventListener("mouseenter", () => plus.style.background = "rgba(255,255,255,.09)");
+    plus.addEventListener("mouseleave", () => plus.style.background = "rgba(255,255,255,.04)");
+    plus.addEventListener("click", () => {
+      const id = this.newList();
+      this._listFocusId = id; // highlight the newborn row (no graph set yet — it is empty)
+      this.track("neural_list_created", { surface: "lists-head" });
+      this.renderExplorer();
+    });
+    head.appendChild(plus);
     sec.appendChild(head);
 
     if (!ids.length) {
@@ -4413,8 +4455,8 @@ class Component extends DCLogic {
       empty.setAttribute("data-lists-empty", "1");
       empty.style.cssText = "font-size:11.5px;line-height:1.5;color:#7e8aa3;padding:4px 12px 2px;";
       empty.textContent = this._sharedIncoming
-        ? "Save the shared class above to keep it — or tap + on any technique to start one of your own."
-        : "Tap + on any technique to start today’s class list, then share one link with the group.";
+        ? "Save the shared class above to keep it — or tap + to start your own."
+        : "No lists yet — tap + to start one.";
       sec.appendChild(empty);
       list.appendChild(sec);
       return;
