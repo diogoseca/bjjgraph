@@ -24,9 +24,10 @@
   @keyframes ngNudge{0%,100%{transform:translateX(0);}50%{transform:translateX(5px);}}
   @keyframes ngDeckExpire{0%{filter:grayscale(0) brightness(1);opacity:1;}55%{filter:grayscale(.35) brightness(.92);opacity:.92;}100%{filter:grayscale(1) brightness(.5);opacity:.34;}}
   @keyframes ngPulseChip{0%,100%{box-shadow:0 0 0 0 rgba(120,170,255,.5);}50%{box-shadow:0 0 0 6px rgba(120,170,255,0);}}
-  .ng-chip-merged{background:transparent!important;border-color:transparent!important;backdrop-filter:none!important;}
   .ngAcctChip{background:rgba(26,30,52,.66);backdrop-filter:blur(8px);border:1px solid rgba(150,170,210,.2);border-radius:999px;transition:background .2s ease,border-color .2s ease,backdrop-filter .2s ease;}
-  .ngAcctChip.ng-chip-merged{background:transparent;border-color:transparent;backdrop-filter:none;}
+  /* the compact account menu (v1.94.0), anchored above the chip inside .ng-acctwrap.
+     display:none/flex is inline-managed by open/closeAccountMenu. */
+  .ng-account-menu{position:absolute;right:0;bottom:calc(100% + 10px);width:224px;flex-direction:column;background:linear-gradient(180deg,rgba(26,30,52,.99),rgba(18,21,38,.99));border:1px solid rgba(130,150,190,.22);border-radius:14px;box-shadow:0 14px 44px rgba(0,0,0,.55);padding:5px;animation:ngCardIn .18s ease both;}
   .ngSignupCta{cursor:pointer;font-size:11.5px;font-weight:700;color:#fff;background:linear-gradient(135deg,#4a6cff,#6a5cff);border-radius:999px;padding:8px 14px;box-shadow:0 3px 14px rgba(74,108,255,.42);white-space:nowrap;letter-spacing:.01em;transition:filter .15s ease,transform .15s ease,box-shadow .15s ease;}
   .ngSignupCta:hover{filter:brightness(1.08);transform:translateY(-1px);box-shadow:0 5px 18px rgba(74,108,255,.5);}
   *{scrollbar-width:thin;scrollbar-color:rgba(120,150,210,.32) transparent;}
@@ -42,7 +43,7 @@
   @media (max-width:640px){
     .ng-logo{top:22px!important;left:18px!important;gap:0!important;}
     .ng-acctwrap{top:auto!important;bottom:86px!important;right:14px!important;}
-    .ngAcctChip{padding:0!important;}
+    .ngAcctChip{padding:7px!important;} /* avatar-only chip still makes a 44px touch target */
     .ng-logo .ng-word,.ng-logo .ng-kbd{display:none!important;}
     .ng-intro{top:54px!important;left:16px!important;}
     .ng-intro>div:first-child{font-size:21px!important;}
@@ -129,6 +130,6 @@
   .ng-clip{isolation:isolate;}
   .ng-clip::after{content:"";position:absolute;inset:0;z-index:1;background:linear-gradient(105deg,transparent 42%,rgba(255,255,255,.13) 50%,transparent 58%);background-size:230% 100%;background-position:120% 0;animation:ngShimmer 2.2s ease-out .4s 2;pointer-events:none;}
   @keyframes ngShimmer{to{background-position:-130% 0}}
-  @media (prefers-reduced-motion: reduce){.ng-beacon,.ng-vignette,.ng-clip::after,.ng-landcard,.ng-combo-pop,.ng-momentum,.ng-challenge-continue,.ng-challenge-lesson[data-frontier],.ng-belt-bar>b,.ng-belt-bar>b[data-new]{animation:none!important}}
+  @media (prefers-reduced-motion: reduce){.ng-beacon,.ng-vignette,.ng-clip::after,.ng-landcard,.ng-combo-pop,.ng-momentum,.ng-challenge-continue,.ng-challenge-lesson[data-frontier],.ng-belt-bar>b,.ng-belt-bar>b[data-new],.ng-account-menu{animation:none!important}}
 </style>
 <script src="technique-content.js"></script>

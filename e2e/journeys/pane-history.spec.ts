@@ -4,7 +4,7 @@ import { journey } from "../dsl"
 /**
  * THE PANE IS A HISTORY YOU CAN WALK, IN Q&A.
  *
- * Owner's description of what the right pane is FOR: "show history that the user can go through,
+ * Owner's description of what the pane (left since v1.94.0) is FOR: "show history that the user can go through,
  * and it shows a question-and-answer format. It doesn't show multiple choice." So this asserts the
  * pane's identity, not just its pause behaviour (pane-law.spec.ts covers that):
  *

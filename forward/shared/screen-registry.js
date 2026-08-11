@@ -990,10 +990,17 @@ export const screenItems = [
   ),
   make(
     "account-menu",
-    "Account · Flashcards home",
+    "Account · menu (guest)",
     "Settings & account",
-    "The account chip opens Flashcards home; settings and authentication start there.",
-    { rightPanel: "drill", panelState: "home", paused: true },
+    "The account chip opens a compact menu: create account, log in, settings, keyboard shortcuts, terms and privacy. The menu is chrome — the roll keeps playing.",
+    { accountOpen: true },
+  ),
+  make(
+    "account-menu-signed-in",
+    "Account · menu (signed in)",
+    "Settings & account",
+    "Signed in, the menu leads with the account email and log out.",
+    { accountOpen: true, signedIn: true },
   ),
   make(
     "auth-sign-in",

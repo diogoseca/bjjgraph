@@ -4,7 +4,7 @@ import { journey } from "../dsl"
 /**
  * P0 — THE PANE LAW.
  *
- * The right pane (flashcards sidebar) is MANUAL-ONLY. Before this phase it opened itself at
+ * The pane (flashcards sidebar — LEFT since v1.94.0) is MANUAL-ONLY. Before this phase it opened itself at
  * the start of a seeded roll, opened itself as a "save your progress" nudge, hid itself at
  * round end, and closed itself on assorted graph clicks — while never touching the clock.
  *

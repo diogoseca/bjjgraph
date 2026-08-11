@@ -32,10 +32,15 @@
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.035), transparent);
 }
 
-/* study takeover: the drill head becomes the pane's first visible child, so it
-   clears the absolute close button (44px at top:18/right:14) on its own */
+/* study takeover: the drill head becomes the pane's first visible child, so it clears the
+   absolute close button (44px at top:18/right:14) on its own — and, since the pane anchors
+   LEFT (v1.94.0), the top-left LOGO too (z9, above the pane, bottom edge ~55px): without the
+   64px top pad the study header's ‹ Back sat exactly under the logo and mouse clicks landed
+   on the wordmark instead. `!important` is load-bearing: the head carries a padding INLINE
+   style (xdc-template.html, kept equal), and only an !important stylesheet declaration
+   outranks an inline one — the same cascade fact _dockLandCard is commented for. */
 .ng-drill[data-pane-study] .ng-pane-drillhead {
-  padding: 20px 64px 16px 24px;
+  padding: 64px 64px 16px 24px !important;
 }
 
 .ng-knowledge-line,

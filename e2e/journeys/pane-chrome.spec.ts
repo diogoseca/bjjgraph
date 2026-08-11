@@ -2,45 +2,50 @@ import { test, expect, type Page } from "@playwright/test"
 import { journey } from "../dsl"
 
 /**
- * PANE & CHROME POLISH (v1.93.0) — seven owner calls, one contract each:
+ * PANE & CHROME POLISH (v1.93.0, re-pinned for the v1.94.0 chrome):
  *
- *   1. EVERY pane-open path wires the tabs. The account chip (and any openHomeToLatest
- *      caller) used to open a pane whose Explore/Challenges buttons were dead — wiring
- *      lived only in openPane(). It now lives at the choke point (applyDeckVisibility).
+ *   1. EVERY pane-open path wires the tabs. The direct-assign openers (openHomeToLatest —
+ *      today the drill pill; formerly the account chip) used to open a pane whose
+ *      Explore/Challenges buttons were dead — wiring lived only in openPane(). It now
+ *      lives at the choke point (applyDeckVisibility).
  *   2. The stat row + the guest save nudge are ONE block at the pane's BOTTOM, visible on
  *      all three tabs, next to Settings/Terms/Privacy — not mid-History-content.
  *   3. The knowledge header shows no pedagogical filler ("Building foundations" is gone);
  *      the woven belt gains a quiet band line — white→blue→purple→brown→black on the score
  *      axis with your position dotted — and the sub-line is a plain "N% to blue".
- *   4. There is NO account menu, by canon (forward catalog pins .ng-account-menu count 0):
- *      the chip opens the pane, whose bottom block + footer are the whole account surface.
+ *   4. v1.94.0 RETIRES the "no account menu" canon: the chip now opens `.ng-account-menu`
+ *      (account-menu.spec.ts owns that contract) and the PANE opener is the top-left logo.
  *   5. Settings carries Terms · Privacy links (the "Learn More" submenu that never was).
  *   6. The drill pill is QUIET: no infinite pulse, no "Drill to boost your odds" — the
  *      landing card already asks the question. Medal tier + share cue jobs remain.
- *   7. The account chip lives BOTTOM-RIGHT, and still fades under the open pane.
+ *   7. The pane anchors the LEFT edge (v1.94.0 — it opens from the top-left logo, so it
+ *      lives on the logo's side). The account chip stays bottom-right and, on desktop, no
+ *      longer fades under a pane that no longer covers it; the phone drawer still does.
  *
  * Mouse claims go through clickByMouse (no scroll-into-view, no interception amnesty).
  */
 
-const openViaChip = async (page: Page, j: ReturnType<typeof journey>) => {
-  await j.clickByMouse(".ngAcctChip", "the account chip")
+// the direct-assign open path (openHomeToLatest → History): today that is the drill pill
+const openViaPill = async (page: Page, j: ReturnType<typeof journey>) => {
+  await j.clickByMouse(".ng-drilltab", "the drill pill")
   await expect(page.locator(".ng-drill")).toBeVisible()
 }
 
-test("the account chip opens History with LIVE tabs — every open path wires the pane", async ({
+test("the pill opens History with LIVE tabs — every open path wires the pane", async ({
   page,
 }) => {
   const j = journey(page)
   await j.boot("/")
   await j.land("Mount Top")
-  await openViaChip(page, j)
+  await openViaPill(page, j)
 
   await expect(
     page.locator('.ng-learning-nav [data-view="history"]'),
-    "the chip lands on History",
+    "the pill lands on History",
   ).toHaveAttribute("aria-pressed", "true")
 
-  // the bug: these two clicks did nothing when the pane's FIRST open came through the chip
+  // the bug: these two clicks did nothing when the pane's FIRST open came through a
+  // direct-assign opener (deckOpen set without openPane)
   await j.clickByMouse('.ng-learning-nav [data-view="challenges"]', "the Challenges tab")
   await expect(page.locator(".ng-challenge-ladder"), "Challenges renders").toBeVisible()
   await expect(
@@ -60,7 +65,7 @@ test("stats + save nudge are ONE bottom-anchor block, visible on all three tabs"
   const j = journey(page)
   await j.boot("/")
   await j.land("Mount Top")
-  await openViaChip(page, j)
+  await openViaPill(page, j)
 
   const anchor = page.locator(".ng-pane-anchor")
   await expect(anchor).toBeVisible()
@@ -102,7 +107,7 @@ test("a study takeover hides the anchor; leaving the study restores it", async (
   const j = journey(page)
   await j.boot("/")
   await j.land("Mount Top")
-  await openViaChip(page, j)
+  await openViaPill(page, j)
   await expect(page.locator(".ng-pane-anchor")).toBeVisible()
 
   // a direct-assign study entry (openStudy) — the same family of paths the wiring fix covers
@@ -123,7 +128,7 @@ test("knowledge header: no pedagogy — a belt road with five bands and your dot
   const j = journey(page)
   await j.boot("/")
   await j.land("Mount Top")
-  await openViaChip(page, j)
+  await openViaPill(page, j)
 
   const header = page.locator(".ng-knowledge-header")
   await expect(header).toBeVisible()
@@ -169,7 +174,7 @@ test("settings carries Terms · Privacy — the Learn More submenu that never wa
   const j = journey(page)
   await j.boot("/")
   await j.land("Mount Top")
-  await openViaChip(page, j)
+  await openViaPill(page, j)
 
   await j.clickByMouse('.ng-drill [title="Settings"]', "the pane footer gear")
   await expect(page.locator("[data-settings-legal]"), "legal links in the first overlay").toBeVisible()
@@ -201,32 +206,47 @@ test("the drill pill is quiet: no infinite pulse, no drill prompt — medal + na
   await expect(page.locator(".ng-drill")).toBeVisible()
 })
 
-test("the account chip sits bottom-right and yields to the open pane", async ({ page }) => {
+test("the pane anchors LEFT; the chip stays bottom-right and no longer fades on desktop", async ({
+  page,
+}) => {
   const j = journey(page)
   await j.boot("/")
   await j.land("Mount Top")
 
   const box = (await page.locator(".ng-acctwrap").boundingBox())!
   const vp = page.viewportSize()!
-  expect(box.y + box.height / 2, "bottom half of the screen").toBeGreaterThan(vp.height * 0.8)
-  expect(vp.width - (box.x + box.width), "hugging the right edge").toBeLessThan(60)
+  expect(box.y + box.height / 2, "chip in the bottom half of the screen").toBeGreaterThan(
+    vp.height * 0.8,
+  )
+  expect(vp.width - (box.x + box.width), "chip hugging the right edge").toBeLessThan(60)
 
-  await openViaChip(page, j)
-  // the fade eases on the app's own clock — pump sim time until the shift completes
-  let faded = { o: 1, pe: "auto" }
+  await j.clickByMouse(".ng-logo", "the logo — the pane opener")
+  const pane = (await page.locator(".ng-drill").boundingBox())!
+  expect(pane.x, "the pane anchors the LEFT edge").toBeLessThan(2)
+  expect(pane.width, "desktop rail").toBeGreaterThanOrEqual(340)
+  expect(pane.width).toBeLessThanOrEqual(380)
+
+  // the option tray yields LEFTWARD now — cards keep clear of the pane's side
+  let padLeft = 0
   for (let i = 0; i < 30; i++) {
     await j.advance(1000)
-    faded = await page.evaluate(() => {
-      const el = document.querySelector(".ng-acctwrap") as HTMLElement
-      return { o: parseFloat(el.style.opacity || "1"), pe: el.style.pointerEvents }
-    })
-    if (faded.o <= 0.05 && faded.pe === "none") break
+    padLeft = await page.evaluate(() =>
+      parseFloat((document.querySelector(".ng-optionrow") as HTMLElement).style.paddingLeft || "0"),
+    )
+    if (padLeft > 300) break
   }
-  expect(faded.o, "the chip fades under the pane it sits beneath").toBeLessThanOrEqual(0.05)
-  expect(faded.pe, "and stops taking clicks").toBe("none")
+  expect(padLeft, "options padding shifted left of the pane").toBeGreaterThan(300)
+
+  // and the chip does NOT fade: the pane no longer covers its corner on desktop
+  const chip = await page.evaluate(() => {
+    const el = document.querySelector(".ng-acctwrap") as HTMLElement
+    return { o: parseFloat(el.style.opacity || "1"), pe: el.style.pointerEvents }
+  })
+  expect(chip.o, "chip stays visible beside the left pane").toBeGreaterThan(0.9)
+  expect(chip.pe, "and keeps taking clicks").not.toBe("none")
 })
 
-test("phone: the chip stacks above the thumb-band pill; both reachable by mouse", async ({
+test("phone: chip above the thumb-band pill; drawer opens from the LEFT and fades the chip", async ({
   page,
 }) => {
   await page.setViewportSize({ width: 390, height: 844 })
@@ -243,7 +263,25 @@ test("phone: the chip stacks above the thumb-band pill; both reachable by mouse"
   expect(chip.y + chip.height, "chip clears the pill").toBeLessThanOrEqual(pill.y + 1)
   expect(390 - (chip.x + chip.width), "chip on the right edge").toBeLessThan(40)
 
-  await j.clickByMouse(".ngAcctChip", "the phone account chip")
+  // the pill (not the chip — that opens the account menu now) opens the drawer, from the LEFT
+  await j.clickByMouse(".ng-drilltab", "the phone drill pill")
   await expect(page.locator(".ng-drill")).toBeVisible()
+  const drawer = (await page.locator(".ng-drill").boundingBox())!
+  expect(drawer.x, "drawer slides from the LEFT edge").toBeLessThan(2)
+  expect(drawer.width, "88vw drawer").toBeGreaterThan(390 * 0.8)
+  expect(drawer.width).toBeLessThan(390)
   await expect(page.locator(".ng-pane-anchor [data-anchor-auth]")).toBeVisible()
+
+  // the drawer owns the screen — the chip fades so the dismiss strip stays tappable
+  let faded = { o: 1, pe: "auto" }
+  for (let i = 0; i < 30; i++) {
+    await j.advance(1000)
+    faded = await page.evaluate(() => {
+      const el = document.querySelector(".ng-acctwrap") as HTMLElement
+      return { o: parseFloat(el.style.opacity || "1"), pe: el.style.pointerEvents }
+    })
+    if (faded.o <= 0.05 && faded.pe === "none") break
+  }
+  expect(faded.o, "chip fades under the phone drawer").toBeLessThanOrEqual(0.05)
+  expect(faded.pe, "and stops taking clicks").toBe("none")
 })

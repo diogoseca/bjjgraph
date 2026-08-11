@@ -26,6 +26,7 @@ class Component extends DCLogic {
   brandFontRef = React.createRef();
   accountRef = React.createRef();
   acctChipRef = React.createRef();
+  acctMenuRef = React.createRef();
   acctCtaRef = React.createRef();
   acctCloseRef = React.createRef();
   acctSpacerRef = React.createRef();
@@ -68,13 +69,13 @@ class Component extends DCLogic {
       openSettings: () => this.openSettings("flashcards"),
       openTerms: () => this.openLegal("terms"), openPrivacy: () => this.openLegal("privacy"),
       statusRef: this.statusRef, legendMarkRef: this.legendMarkRef,
-      accountRef: this.accountRef, acctChipRef: this.acctChipRef, acctCtaRef: this.acctCtaRef, openSignup: () => this.openAuth("create"), chipMergeClass: this.deckShown ? "ng-chip-merged" : "", transportRef: this.transportRef, playPauseRef: this.playPauseRef,
+      accountRef: this.accountRef, acctChipRef: this.acctChipRef, acctMenuRef: this.acctMenuRef, toggleAccountMenu: () => this.toggleAccountMenu(), transportRef: this.transportRef, playPauseRef: this.playPauseRef,
       modalRef: this.modalRef, modalCardRef: this.modalCardRef,
       explorerRef: this.explorerRef, explorerListRef: this.explorerListRef, explorerSearchRef: this.explorerSearchRef, explorerSearchWrapRef: this.explorerSearchWrapRef, explorerToolsRef: this.explorerToolsRef, dossierRef: this.dossierRef, dossierSheetRef: this.dossierSheetRef, nodeCardRef: this.nodeCardRef, giToggleRef: this.giToggleRef, viewToggleRef: this.viewToggleRef, knowledgeRef: this.knowledgeRef, paneAnchorRef: this.paneAnchorRef,
       toggleExplorer: () => this.toggleExplorer(), openSearch: () => this.openSearch(),
       legendPointRef: this.legendPointRef, legendRef: this.legendRef, optionHintRef: this.optionHintRef, optDetailRef: this.optDetailRef, brandFontRef: this.brandFontRef,
       scrollOptions: () => { const op = this.optionsRef.current; if (op) this.tweenScroll(op, Math.round(op.clientWidth * 0.62)); },
-      toggleMenu: () => this.toggleMenu(), togglePause: () => this.setPaused(!this.paused), resetRoll: () => this.resetRoll(),
+      togglePause: () => this.setPaused(!this.paused), resetRoll: () => this.resetRoll(),
       evCenterRef: this.evCenterRef, evcKickerRef: this.evcKickerRef, evcTextRef: this.evcTextRef, evcSubRef: this.evcSubRef,
     };
   }
@@ -86,6 +87,7 @@ class Component extends DCLogic {
     // _flushSave also clears _saveT, killing that late writer. Guarded so a (hypothetical)
     // pre-ingest unmount can never overwrite real storage with empty state.
     try { if (this._progressLoaded) this._flushSave(); } catch (e) {}
+    try { this.closeAccountMenu(); } catch (e) {} // drops the capture-phase outside-tap listener
     try { this.clearClipLoops(); } catch (e) {}
     try { if (this.sound && this.sound.destroy) this.sound.destroy(); } catch (e) {} // close AudioContext, stop voices, drop listeners
     clearTimeout(this._challengeCueTimer);
@@ -307,6 +309,7 @@ class Component extends DCLogic {
         this.openPane("explore");
         setTimeout(() => { try { const inp = this.explorerSearchRef.current; if (inp) inp.focus(); } catch (err) {} }, 80);
       } else if (e.key === "Escape") {
+        if (this.closeAccountMenu()) return; // topmost chrome goes first — before any gameplay overlay
         if (this._detailCtx) { e.preventDefault(); this.closeOptionDetail(); return; }
         if (this.closeNodeDossier()) return; // in-node dossier open (desktop) — fly back out
         const sh = this.dossierSheetRef.current;
@@ -1148,8 +1151,10 @@ class Component extends DCLogic {
     // surface a recipient has before the first landing, and it is where the re-light lives.
     if (tab) { const tv = ((this.deckReady || this._shareCue) && !this.deckOpen) ? "1" : "0"; tab.style.opacity = tv; tab.style.pointerEvents = tv === "1" ? "auto" : "none"; }
     this._renderShareCue();
-    const chip = this.acctChipRef.current;
-    if (chip) chip.classList.toggle("ng-chip-merged", open);
+    // the pane lives LEFT now (v1.94.0): on desktop the bottom-right chip and the pane no longer
+    // share a corner, so the chip keeps its normal look. On a phone the drawer takes the screen
+    // and the chip fades (updateUiShift) — close its menu so it can't linger over the drawer.
+    if (open && !wasShown && this.isMobile()) this.closeAccountMenu();
     if (open !== wasShown && this.renderChallengeCue) this.renderChallengeCue(); // cue hides while the pane is up
     if (open) this.renderPaneAnchor(); // bottom anchor: stats + guest save nudge, fresh on every apply
     this._layoutPane();
@@ -1257,10 +1262,8 @@ class Component extends DCLogic {
     }
     this.setEvent("Save your progress", "Open flashcards to keep it", "muted");
   }
-  toggleMenu() {
-    if (this.deckShown) { this.setDeckOpen(false); return; }
-    this.openHomeToLatest();   // open the panel AND the current position's flashcard box
-  }
+  // (v1.94.0) the chip's old toggleMenu — open the pane / close the pane — is gone: the chip
+  // opens the ACCOUNT MENU now (toggleAccountMenu), and the pane opener is the top-left logo.
   openMenu() {
     if (this._mcAdvT) { clearTimeout(this._mcAdvT); this._mcAdvT = null; } // leaving the card view cancels the pending advance
     this._drillView = "home";
@@ -2424,9 +2427,9 @@ class Component extends DCLogic {
       const W = Math.min(660, Math.round(window.innerWidth * 0.94));
       const offParent = panel.offsetParent || this.wrapRef.current;
       const opr = offParent.getBoundingClientRect();
-      const sbW = (this.uiShift || 0) * this.sbOffset();            // open sidebar overlays the graph from the right
-      const pcx = opr.left + (opr.width - sbW) / 2;       // centre of the VISIBLE graph, not the full play area
-      const centerLeft = Math.round((opr.width - sbW - W) / 2);
+      const sbW = (this.uiShift || 0) * this.sbOffset();            // open sidebar overlays the graph from the LEFT (v1.94.0)
+      const pcx = opr.left + sbW + (opr.width - sbW) / 2;       // centre of the VISIBLE graph, not the full play area
+      const centerLeft = Math.round(sbW + (opr.width - sbW - W) / 2);
       const savedTransform = row.style.transform;
       // freeze everything for hidden synchronous measurement (no paint until handler returns)
       row.style.transition = "none"; prevCard.style.transition = "none"; srcCard.style.transition = "none";
@@ -2487,9 +2490,9 @@ class Component extends DCLogic {
     const offParent = panel.offsetParent || this.wrapRef.current;
     const opr = offParent.getBoundingClientRect();
     const W = Math.min(660, Math.round(window.innerWidth * 0.94));
-    const sbW = (this.uiShift || 0) * this.sbOffset();                    // open sidebar overlays the graph from the right
-    const pcx = opr.left + (opr.width - sbW) / 2;            // centre of the VISIBLE graph (shifts left when sidebar open)
-    const centerLeft = Math.round((opr.width - sbW - W) / 2);
+    const sbW = (this.uiShift || 0) * this.sbOffset();                    // open sidebar overlays the graph from the LEFT (v1.94.0)
+    const pcx = opr.left + sbW + (opr.width - sbW) / 2;            // centre of the VISIBLE graph (shifts right when sidebar open)
+    const centerLeft = Math.round(sbW + (opr.width - sbW - W) / 2);
     // Now force a deterministic, left-anchored, unclipped layout (flex-start + overflow:visible).
     // This is count-agnostic: it changes where the card sits (centring offset for few cards, scroll
     // reset for many) — so we re-measure and compensate by the delta, rather than reasoning about S/C.
@@ -3173,7 +3176,7 @@ class Component extends DCLogic {
   _applyUser(u) {
     const email = u.email || "";
     const name = (u.user_metadata && (u.user_metadata.full_name || u.user_metadata.name)) || (email ? email.split("@")[0] : "You");
-    this.user = { name: name, initial: (name[0] || "Y").toUpperCase() };
+    this.user = { name: name, initial: (name[0] || "Y").toUpperCase(), email: email }; // email feeds the account menu's identity row
     this.updateAccountUI();
   }
   // merge-on-pull: per-key max for prep/days (monotonic counters), settings LWW by updatedAt.
@@ -3262,6 +3265,7 @@ class Component extends DCLogic {
       if (cta) cta.style.display = "";
     }
     if (this.deckShown) this.renderPaneAnchor(); // auth state flips the anchor's save nudge
+    if (this._acctMenuOpen) this.renderAccountMenu(); // …and the menu's auth rows, if it's up
     const explorer = this.explorerRef.current;
     if (
       this._viewMode === "challenges" &&
@@ -3271,6 +3275,97 @@ class Component extends DCLogic {
     ) {
       this.renderExplorer();
     }
+  }
+  // ── account menu (v1.94.0) ── compact chrome anchored above the bottom-right chip. It is
+  // CHROME, not gameplay: opening it never opens/closes the pane, never touches the pause
+  // latch, never freezes the roll clock. Esc closes it FIRST (before any gameplay overlay),
+  // and any outside tap closes it — the closer is a CAPTURE-phase pointerdown, so surfaces
+  // that stop propagation (the pane, the option cards, the logo) still count as "outside".
+  toggleAccountMenu() { if (this._acctMenuOpen) this.closeAccountMenu(); else this.openAccountMenu(); }
+  openAccountMenu() {
+    const m = this.acctMenuRef.current; if (!m || this._acctMenuOpen) return;
+    this._acctMenuOpen = true;
+    this.renderAccountMenu();
+    // PORTAL to the app root: the fixed wrap div is its own stacking context, so root-level
+    // overlays (the landing card at z5, the coach at z70) paint over ANYTHING inside it —
+    // measured on the phone, the landing card buried the menu's rows. The menu joins the
+    // root-level overlay family while open, fixed-anchored to the chip's measured corner.
+    const root = this.__ngRoot || document.body;
+    if (m.parentElement !== root) root.appendChild(m);
+    const chip = this.acctChipRef.current;
+    const r = chip ? chip.getBoundingClientRect() : null;
+    m.style.position = "fixed";
+    m.style.left = "auto"; m.style.top = "auto";
+    m.style.right = (r ? Math.max(8, window.innerWidth - r.right) : 24) + "px";
+    m.style.bottom = ((r ? window.innerHeight - r.top : 64) + 10) + "px";
+    m.style.zIndex = "46"; // over the landcard/tut/vignette band, under the coach (70)
+    m.style.display = "flex";
+    m.setAttribute("data-open", "1");
+    if (chip) chip.setAttribute("aria-expanded", "true");
+    this._acctMenuAway = (e) => {
+      const wrap = this.accountRef.current;
+      if ((wrap && wrap.contains(e.target)) || m.contains(e.target)) return;
+      this.closeAccountMenu();
+    };
+    document.addEventListener("pointerdown", this._acctMenuAway, true);
+    this.track("neural_account_menu_opened", { signed_in: !!this.user });
+  }
+  // returns true when it actually closed something — the Esc handler uses that to stop there
+  closeAccountMenu() {
+    if (!this._acctMenuOpen) return false;
+    this._acctMenuOpen = false;
+    const m = this.acctMenuRef.current;
+    if (m) { m.style.display = "none"; m.removeAttribute("data-open"); }
+    const chip = this.acctChipRef.current; if (chip) chip.setAttribute("aria-expanded", "false");
+    if (this._acctMenuAway) { document.removeEventListener("pointerdown", this._acctMenuAway, true); this._acctMenuAway = null; }
+    return true;
+  }
+  renderAccountMenu() {
+    const m = this.acctMenuRef.current; if (!m) return;
+    m.innerHTML = "";
+    const row = (attr, label, fn) => {
+      const b = document.createElement("button");
+      b.type = "button"; b.setAttribute("role", "menuitem"); b.setAttribute(attr, "1");
+      b.textContent = label;
+      b.style.cssText = "cursor:pointer;font-family:inherit;border:none;background:transparent;width:100%;min-height:44px;padding:0 13px;border-radius:9px;text-align:left;font-size:13px;font-weight:600;color:#cbd4e6;";
+      b.addEventListener("mouseenter", () => b.style.background = "rgba(255,255,255,.05)");
+      b.addEventListener("mouseleave", () => b.style.background = "transparent");
+      b.addEventListener("click", () => { this.closeAccountMenu(); fn(); });
+      return b;
+    };
+    if (this.user) {
+      // the signed-in identity, readable but not a control
+      const em = document.createElement("div");
+      em.setAttribute("data-menu-email", "1");
+      em.textContent = this.user.email || this.user.name;
+      em.title = this.user.email || this.user.name;
+      em.style.cssText = "min-height:44px;display:flex;align-items:center;padding:0 13px;font-size:12px;font-weight:600;color:#8b97b0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;cursor:default;";
+      m.appendChild(em);
+      m.appendChild(row("data-menu-logout", "Log out", () => {
+        const A = this._auth(); if (A && A.signOut) { try { A.signOut(); } catch (e) {} }
+        this.user = null; this._pulled = false; this.updateAccountUI();
+        if (this.deckShown && this._viewMode === "history" && !this._paneStudyActive()) this.renderDrillHome();
+      }));
+    } else {
+      m.appendChild(row("data-menu-create", "Create account", () => this.openAuth("create")));
+      m.appendChild(row("data-menu-login", "Log in", () => this.openAuth("login")));
+    }
+    // ONE separator between the auth rows and the rest — nothing else, per the owner
+    const sep = document.createElement("div");
+    sep.setAttribute("data-menu-sep", "1");
+    sep.style.cssText = "flex:none;height:1px;margin:5px 4px;background:rgba(150,170,210,.14);";
+    m.appendChild(sep);
+    m.appendChild(row("data-menu-settings", "Settings", () => this.openSettings()));
+    m.appendChild(row("data-menu-shortcuts", "Keyboard shortcuts", () => this.openSettings("shortcuts")));
+    const legal = document.createElement("div");
+    legal.style.cssText = "display:flex;align-items:center;";
+    const lb = (attr, label, kind) => { const b = row(attr, label, () => this.openLegal(kind)); b.style.width = "auto"; return b; };
+    legal.appendChild(lb("data-menu-terms", "Terms", "terms"));
+    const dot = document.createElement("span");
+    dot.style.cssText = "flex:none;width:3px;height:3px;border-radius:50%;background:#3c4358;";
+    legal.appendChild(dot);
+    legal.appendChild(lb("data-menu-privacy", "Privacy", "privacy"));
+    m.appendChild(legal);
   }
   renderAuth() {
     const card = this.modalCardRef.current; if (!card) return;
@@ -3690,7 +3785,7 @@ class Component extends DCLogic {
     if (this.deckShown) this.setDeckOpen(false);
   }
   closeDeckIfStudying() {
-    // close the right sidebar when clicking the graph, but only when it's an opened study panel
+    // close the side pane when clicking the graph, but only when it's an opened study panel
     // (not the live in-roll drill that should stay docked during a decision)
     // PANE LAW: on desktop a graph click NEVER closes the pane — the tab, the ✕ and Esc do.
     // Mobile keeps exactly one dismissal: the pane covers the screen there, so tapping the
@@ -5497,7 +5592,7 @@ class Component extends DCLogic {
     }
     return { options: opts, correctIdx: opts.findIndex((o) => o.tier === "correct") };
   }
-  // MC is the IN-PLAY format (the landing card asks it under a clock); the right pane is the
+  // MC is the IN-PLAY format (the landing card asks it under a clock); the side pane is the
   // study surface and reads back as classic Q&A unless the user opts in. Hence the default flip
   // auto -> classic: nobody meets multiple choice in the sidebar by accident.
   mcActive(key, card) {
@@ -5911,7 +6006,8 @@ class Component extends DCLogic {
     this.uiShift += (tgt - this.uiShift) * (1 - Math.exp(-dt / 0.4));
     if (Math.abs(tgt - this.uiShift) < 0.001) this.uiShift = tgt;
     const op = this.optionsRef.current;
-    if (op) op.style.paddingRight = (24 + this.uiShift * this.sbOffset()).toFixed(1) + "px";
+    // the pane anchors LEFT (v1.94.0), so the cards yield leftward padding, not rightward
+    if (op) op.style.paddingLeft = (24 + this.uiShift * this.sbOffset()).toFixed(1) + "px";
     // fade the legend out only while option cards actually overlap it; fade back in otherwise
     const leg = this.legendRef.current;
     if (leg && op) {
@@ -5929,12 +6025,13 @@ class Component extends DCLogic {
       hint.style.opacity = more ? "0.5" : "0";
       hint.style.pointerEvents = more ? "auto" : "none";
     }
-    // the open pane owns the RIGHT EDGE — the chip lives bottom-right (v1.93.0) and the pane
-    // covers that corner on desktop (360px rail) and phone (88vw drawer) alike, so the chip
-    // fades with the shift instead of glowing through / stacking under the pane's own controls.
-    // The rule predates the move (it guarded the ✕ collision top-right) and still holds here.
+    // the pane moved LEFT (v1.94.0): on desktop it no longer shares a corner with the
+    // bottom-right chip, so the chip stays put and stays clickable while the pane is open.
+    // On a PHONE the fade stays: the 88vw drawer owns the screen and the exposed right strip
+    // is the tap-to-dismiss surface — a live chip there would eat the dismiss tap (its
+    // pointerdown stops propagation) and float over the drawer's edge.
     const ac = this.accountRef.current;
-    if (ac) { ac.style.opacity = (1 - this.uiShift).toFixed(3); ac.style.pointerEvents = this.uiShift > 0.5 ? "none" : "auto"; ac.style.transform = "none"; }
+    if (ac) { const cover = this.isMobile() ? this.uiShift : 0; ac.style.opacity = (1 - cover).toFixed(3); ac.style.pointerEvents = cover > 0.5 ? "none" : "auto"; ac.style.transform = "none"; }
   }
   clearOptions() { const el = this.optionsRef.current; if (el) { el.innerHTML = ""; el.style.pointerEvents = "none"; el.style.opacity = "1"; el.style.transform = "none"; el.style.overflowX = "auto"; el.style.overflowY = "hidden"; el.style.webkitMaskImage = ""; el.style.maskImage = ""; el.style.justifyContent = "safe center"; el.style.paddingLeft = ""; el.style.paddingRight = ""; el.scrollLeft = 0; } this._detailCtx = null; this.hideOptDetail(); this.clearLandCard(); this.optionIdxs = []; this._optionCards = []; this._optHintAt = 0; this.setBeacon(null); }
   tweenScroll(el, delta) {
@@ -7730,9 +7827,9 @@ class Component extends DCLogic {
         const f = this.camFocus;
         const wide = this.pulse ? this.graphW * 0.3 : this.graphW * 0.42;
         const vw = Math.max(wide, this.graphR * 0.7);
-        // shift focus left so it isn't hidden under the right sidebar
+        // shift focus RIGHT of centre so it isn't hidden under the LEFT pane (v1.94.0 flip)
         const offset = (156 * vw) / this.W;
-        tgt = { cx: f.x + offset, cy: f.y, vw: vw };
+        tgt = { cx: f.x - offset, cy: f.y, vw: vw };
       }
     }
     // while paused or reading an in-node dossier, suppress only the AUTO-retarget — the tween

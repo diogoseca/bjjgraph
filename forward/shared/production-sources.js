@@ -2,7 +2,7 @@ const SOURCES = {
   shell: {
     files: ["neural/src/xdc-template.html", "neural/src/app.src.jsx"],
     symbols: ["Neural shell", "render"],
-    handles: [".ng-logo", ".ng-acctwrap", "transportRef"],
+    handles: [".ng-logo", ".ng-acctwrap", ".ng-account-menu", "transportRef"],
   },
   graph: {
     files: [

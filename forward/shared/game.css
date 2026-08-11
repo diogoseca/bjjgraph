@@ -134,21 +134,85 @@
 }
 
 .account-bubble {
+  /* bottom-right since v1.93.0; the wrap is a column so the v1.94.0 menu docks above the chip */
   position: absolute;
-  top: 22px;
+  bottom: 24px;
   right: 22px;
   z-index: 8;
   display: flex;
-  align-items: center;
-  gap: 9px;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 10px;
+  color: var(--fc-text-soft);
+  font-size: 11px;
+  font-weight: 700;
+}
+
+.account-bubble .ng-account-chip {
   padding: 5px 6px 5px 13px;
   border: 1px solid var(--fc-border);
   border-radius: 999px;
-  color: var(--fc-text-soft);
   background: rgba(26, 30, 52, 0.72);
-  font-size: 11px;
-  font-weight: 700;
   box-shadow: 0 5px 20px rgba(0, 0, 0, 0.24);
+  font-size: 11px;
+}
+
+.account-menu {
+  display: flex;
+  flex-direction: column;
+  width: 224px;
+  padding: 5px;
+  border: 1px solid var(--fc-border);
+  border-radius: 14px;
+  background: linear-gradient(180deg, rgba(26, 30, 52, 0.99), rgba(18, 21, 38, 0.99));
+  box-shadow: 0 14px 44px rgba(0, 0, 0, 0.55);
+}
+
+.account-menu .menu-row {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  min-height: 44px;
+  padding: 0 13px;
+  border: 0;
+  border-radius: 9px;
+  background: transparent;
+  color: #cbd4e6;
+  font: 600 13px/1.2 var(--fc-font);
+  text-align: left;
+  cursor: pointer;
+}
+
+.account-menu .menu-row:hover {
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.account-menu .menu-row--static {
+  color: #8b97b0;
+  font-size: 12px;
+  cursor: default;
+}
+
+.account-menu .menu-sep {
+  height: 1px;
+  margin: 5px 4px;
+  background: rgba(150, 170, 210, 0.14);
+}
+
+.account-menu .menu-legal {
+  display: flex;
+  align-items: center;
+}
+
+.account-menu .menu-legal .menu-row {
+  width: auto;
+}
+
+.account-menu .menu-legal i {
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  background: #3c4358;
 }
 
 .account-avatar {
@@ -811,14 +875,15 @@
   }
 
   .account-bubble {
-    top: 16px;
-    right: 16px;
-    padding: 0;
-    border: 0;
-    background: transparent;
+    bottom: 86px;
+    right: 14px;
   }
 
-  .account-bubble > span:first-child {
+  .account-bubble .ng-account-chip {
+    padding: 7px; /* avatar-only chip still makes a 44px touch target */
+  }
+
+  .account-bubble .ng-account-chip > span:first-child {
     display: none;
   }
 

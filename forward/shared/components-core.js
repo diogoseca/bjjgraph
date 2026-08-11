@@ -78,8 +78,25 @@ export function brand({ compact = false } = {}) {
 }
 
 export function accountBubble({ signedIn = false, open = false } = {}) {
+  // v1.94.0: the chip opens a compact account menu (auth rows │ settings · shortcuts · legal —
+  // one separator, no filler). The pane opener is the top-left logo, not this chip.
+  const authRows = signedIn
+    ? `<div class="menu-row menu-row--static" data-menu-email>diogo@bjjgraph.org</div>
+      <button class="menu-row" type="button" data-menu-logout>Log out</button>`
+    : `<button class="menu-row" type="button" data-menu-create>Create account</button>
+      <button class="menu-row" type="button" data-menu-login>Log in</button>`;
+  const menu = open
+    ? `<div class="account-menu ng-account-menu" role="menu" aria-label="Account" data-production-selector=".ng-account-menu">
+      ${authRows}
+      <div class="menu-sep" data-menu-sep></div>
+      <button class="menu-row" type="button" data-menu-settings>Settings</button>
+      <button class="menu-row" type="button" data-menu-shortcuts>Keyboard shortcuts</button>
+      <div class="menu-legal"><button class="menu-row" type="button" data-menu-terms>Terms</button><i></i><button class="menu-row" type="button" data-menu-privacy>Privacy</button></div>
+    </div>`
+    : "";
   return `<div class="account-bubble ng-acctwrap ${open ? "is-open" : ""}" data-production-selector=".ng-acctwrap">
-    <button class="ng-account-chip ngAcctChip" type="button" aria-expanded="${open}">
+    ${menu}
+    <button class="ng-account-chip ngAcctChip" type="button" aria-haspopup="menu" aria-expanded="${open}">
       <span>${signedIn ? "Diogo" : "Guest"}</span>
       <span class="account-avatar">${signedIn ? "DS" : "G"}</span>
     </button>

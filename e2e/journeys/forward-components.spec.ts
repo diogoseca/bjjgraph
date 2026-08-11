@@ -66,7 +66,7 @@ test.describe("Forward Components development library @curated", () => {
     // failed by exactly 11.0000px (an integer scrollTop) for that reason alone.
     await page.emulateMedia({ reducedMotion: "reduce" });
     await page.goto("/dev/screens/");
-    await expect(page.locator(".catalog-item")).toHaveCount(113);
+    await expect(page.locator(".catalog-item")).toHaveCount(114); // +1: Account · menu (signed in), v1.94.0
 
     await page
       .getByRole("button", { name: "Stress · screenshot recreation" })
@@ -242,11 +242,52 @@ test.describe("Forward Components development library @curated", () => {
     ).toHaveCount(1);
     await expect(page.locator(".track-card:disabled")).toHaveCount(0);
 
+    // v1.94.0 retired the "no account menu" canon: the chip opens a compact menu now.
+    // Guest: create/login above ONE separator; settings, shortcuts, legal below — no filler.
+    await page.getByRole("button", { name: "Account · menu (guest)" }).click();
+    await expect(page.locator(".ng-account-menu")).toHaveCount(1);
+    await expect(page.locator(".ngAcctChip")).toHaveAttribute(
+      "aria-expanded",
+      "true",
+    );
+    await expect(
+      page.locator(".ng-account-menu [data-menu-create]"),
+    ).toContainText("Create account");
+    await expect(
+      page.locator(".ng-account-menu [data-menu-login]"),
+    ).toContainText("Log in");
+    await expect(page.locator(".ng-account-menu [data-menu-sep]")).toHaveCount(
+      1,
+    );
+    await expect(
+      page.locator(".ng-account-menu [data-menu-shortcuts]"),
+    ).toContainText("Keyboard shortcuts");
+    await expect(
+      page.locator(".ng-account-menu [data-menu-privacy]"),
+    ).toContainText("Privacy");
+    await expect(
+      page.locator(".ng-account-menu [data-menu-email]"),
+      "guest menu carries no identity row",
+    ).toHaveCount(0);
+    // the menu is chrome: the mock roll is NOT paused under it
+    await expect(page.locator(".paused-chip")).toHaveCount(0);
+
+    // Signed in: the auth rows become email (non-interactive) + Log out.
     await page
-      .getByRole("button", { name: "Account · Flashcards home" })
+      .getByRole("button", { name: "Account · menu (signed in)" })
       .click();
-    await expect(page.getByLabel("Flashcards pane")).toBeVisible();
-    await expect(page.locator(".ng-account-menu")).toHaveCount(0);
+    await expect(
+      page.locator(".ng-account-menu [data-menu-email]"),
+    ).toBeVisible();
+    await expect(
+      page.locator(".ng-account-menu [data-menu-logout]"),
+    ).toContainText("Log out");
+    await expect(
+      page.locator(".ng-account-menu [data-menu-create]"),
+    ).toHaveCount(0);
+    await expect(page.locator(".ng-account-menu [data-menu-sep]")).toHaveCount(
+      1,
+    );
 
     await page
       .getByRole("button", { name: "Progress · tested demotion" })
@@ -638,10 +679,11 @@ test.describe("Forward Components development library @curated", () => {
 
     await search.blur();
     await page.getByRole("button", { name: /Play timeline/ }).click();
-    await expect(
-      page.getByRole("button", { name: /Pause timeline/ }),
-    ).toBeVisible();
 
+    // Measure the playing step's animation IMMEDIATELY after Play: the heartbeat step lasts
+    // (240*2)/0.5 = 960ms of playback, and a polling expect in between (Pause-button, below)
+    // can eat that whole window on a loaded runner — the timeline advances to "card-enter"
+    // and the vignette honestly reports animation "none". Same assertions, race removed.
     const motion = await page
       .locator(".sequence-focus .vignette")
       .evaluate((element) => ({
@@ -649,6 +691,9 @@ test.describe("Forward Components development library @curated", () => {
         name: getComputedStyle(element).animationName,
         reduced: matchMedia("(prefers-reduced-motion: reduce)").matches,
       }));
+    await expect(
+      page.getByRole("button", { name: /Pause timeline/ }),
+    ).toBeVisible();
     expect(motion.reduced).toBe(true);
     expect(motion.name).toBe("sequence-heartbeat");
     expect(parseFloat(motion.duration)).toBeLessThanOrEqual(0.001);

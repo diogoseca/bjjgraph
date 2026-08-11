@@ -606,6 +606,20 @@
   animation: sequence-heartbeat 0.8s ease-in-out infinite;
 }
 
+/* Reduced motion: tokens.css zeroes every animation globally (0.01ms, one iteration) — that
+   is the catalog's "static but named" contract. neural-production.css (the production helmet
+   copied verbatim) ALSO carries `.ng-vignette{animation:none!important}`, and the mock
+   vignette wears that production class for parity — which erased the animation NAME and with
+   it the timeline's motion identity. Re-assert the name for the playing heartbeat step only;
+   the duration stays zeroed by the cascade, so nothing actually moves. */
+@media (prefers-reduced-motion: reduce) {
+  .sequence-focus[data-playing="true"]
+    .game-stage[data-motion="heartbeat"]
+    .vignette {
+    animation-name: sequence-heartbeat !important;
+  }
+}
+
 .sequence-focus[data-playing="true"]
   .game-stage[data-motion="tab-pulse"]
   .drill-tab {
