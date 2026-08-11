@@ -15,9 +15,9 @@ import { journey } from "../dsl"
  *      the woven belt gains a quiet band line — the five bands on the score axis with your
  *      position dotted — and the sub-line is a plain "N% to blue". White is the FLOOR
  *      (v1.95.0): the cold state wears the white belt and roads to blue, never "to white".
- *   3b. Tabs are two-line (v1.95.0): Explore over "N% mastered", Challenges over a mini
- *      belt striped by LADDER progress (not the score), and History is labeled "Last
- *      rolls" (internal ids unchanged).
+ *   3b. Tabs are two-line (v1.95.0): Explore over "Mastered N%" (word first, integer
+ *      percent — owner, v1.95.2), Challenges over a mini belt striped by LADDER progress
+ *      (not the score), and History is labeled "Last rolls" (internal ids unchanged).
  *   4. v1.94.0 RETIRES the "no account menu" canon: the chip now opens `.ng-account-menu`
  *      (account-menu.spec.ts owns that contract) and the PANE opener is the top-left logo.
  *   5. Settings carries Terms · Privacy links (the "Learn More" submenu that never was).
@@ -142,7 +142,7 @@ test("tabs carry a title over a plain subtitle: mastered %, ladder belt, Last ro
   await expect(
     nav.locator('[data-view="explore"] [data-tab-sub]'),
     "Explore's second line is the game knowledge, plainly",
-  ).toContainText("% mastered")
+  ).toContainText(/Mastered \d+%/)
   await expect(nav.locator('[data-view="challenges"] > b')).toHaveText("Challenges")
   const tabBelt = nav.locator('[data-view="challenges"] .ng-tab-belt')
   await expect(tabBelt, "Challenges' second line is a belt").toBeVisible()
@@ -173,7 +173,7 @@ test("tabs carry a title over a plain subtitle: mastered %, ladder belt, Last ro
     a.renderKnowledgeHeader()
   })
   await expect(page.locator(".ng-knowledge-meter")).toHaveAttribute("data-belt", "purple")
-  await expect(nav.locator('[data-view="explore"] [data-tab-sub]')).toHaveText("65% mastered")
+  await expect(nav.locator('[data-view="explore"] [data-tab-sub]')).toHaveText("Mastered 65%")
   await expect(tabBelt, "score moved, ladder did not").toHaveAttribute("data-tab-stripes", "4")
 
   // and the converse: wipe the challenge ledger — the ladder empties to 0 stripes while
@@ -184,7 +184,7 @@ test("tabs carry a title over a plain subtitle: mastered %, ladder belt, Last ro
     a.renderTabSubtitles()
   })
   await expect(tabBelt, "ladder moved, score did not").toHaveAttribute("data-tab-stripes", "0")
-  await expect(nav.locator('[data-view="explore"] [data-tab-sub]')).toHaveText("65% mastered")
+  await expect(nav.locator('[data-view="explore"] [data-tab-sub]')).toHaveText("Mastered 65%")
 })
 
 test("a study takeover hides the anchor; leaving the study restores it", async ({ page }) => {

@@ -126,7 +126,8 @@ const NG_CHALLENGE_UI_METHODS = {
     if (!vt) return;
     const ex = vt.querySelector('[data-tab-sub="explore"]');
     if (ex)
-      ex.textContent = Math.round(this.gameScore().score * 100) + "% mastered";
+      // word first, integer percent (owner, v1.95.2): "Mastered 0%", never "0.0% mastered"
+      ex.textContent = "Mastered " + Math.round(this.gameScore().score * 100) + "%";
     const ch = vt.querySelector('[data-tab-sub="challenges"]');
     if (ch) {
       const pinned = this.get("challengePinnedTrack", "white");

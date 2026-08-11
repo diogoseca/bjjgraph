@@ -1916,7 +1916,10 @@ class Component extends DCLogic {
     row.setAttribute("data-explore-stats", "1");
     row.style.cssText = "display:flex;gap:14px;font-size:11.5px;align-items:center;min-height:30px;padding:6px 12px 10px;margin-bottom:6px;border-bottom:1px solid rgba(150,170,210,.1);";
     row.innerHTML =
-      '<span class="ngStat" data-b="mastered" style="cursor:pointer;color:#8b97b0;display:inline-flex;align-items:center;gap:4px;border-bottom:1px dashed rgba(139,151,176,.35);padding-bottom:1px;"><b style="color:#cbd4e6;font-weight:700;">' + mastered + '</b> mastered</span>' +
+      // word first (owner, v1.95.2): "Mastered 3" — NB this figure is the recall-proven
+      // technique COUNT (masteredCount), not a percent; the percent lives in the Explore
+      // tab subtitle ("Mastered N%"). Its siblings keep their number-first shapes.
+      '<span class="ngStat" data-b="mastered" style="cursor:pointer;color:#8b97b0;display:inline-flex;align-items:center;gap:4px;border-bottom:1px dashed rgba(139,151,176,.35);padding-bottom:1px;">Mastered <b style="color:#cbd4e6;font-weight:700;">' + mastered + '</b></span>' +
       '<span class="ngStat" data-b="due" style="cursor:pointer;color:#8b97b0;display:inline-flex;align-items:center;gap:4px;border-bottom:1px dashed rgba(139,151,176,.35);padding-bottom:1px;"><b style="color:#7ee0a8;font-weight:700;">' + (this.cardsToday || 0) + '</b> today</span>' +
       '<span class="ngStat" data-b="suggested" style="cursor:pointer;color:#d6a45a;display:inline-flex;align-items:center;gap:4px;border-bottom:1px dashed rgba(214,164,90,.4);padding-bottom:1px;"><b style="color:#e9bd70;font-weight:700;">' + goal + '+</b> weak spots</span>';
     row.querySelectorAll(".ngStat").forEach((s) => {
