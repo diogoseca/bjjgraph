@@ -127,10 +127,19 @@ test.describe("Challenges UI @curated", () => {
     expect(box.height).toBeGreaterThanOrEqual(44);
   });
 
-  test("the rewards shelf distinguishes meaningful patches from mint-once joke coins", async ({
+  test("the rewards shelf shows only what is earned — and does not exist before that", async ({
     page,
   }) => {
     const j = journey(page);
+    // v1.99.1 (owner: "I don't see the point" of the zero-state): a fresh player sees NO
+    // shelf — no "0 patches · 0 mat coins", no placeholder grid spoiling the joke coins
+    await j.boot("/", { keepTutorial: true });
+    await page.locator(".ng-logo").click();
+    await expect(page.locator(".ng-challenge-ladder")).toBeVisible();
+    await expect(page.locator("[data-rewards-shelf]")).toHaveCount(0);
+    await expect(page.locator(".ng-drill")).not.toContainText("Available to earn");
+
+    // with something earned the shelf appears, carrying ONLY the earned items
     await j.boot("/", {
       keepTutorial: true,
       initialState: progressBlob({
@@ -138,26 +147,21 @@ test.describe("Challenges UI @curated", () => {
         coins: { houdini: { t: 100 } },
       }),
     });
-
-    // Collection retired as a tab (v1.76.0) — the same items live on a shelf inside Challenges
     await page.locator(".ng-logo").click();
-    await page.locator("[data-view='challenges']").click();
     const shelf = page.locator("[data-rewards-shelf]");
+    await expect(shelf.locator("summary")).toContainText("1 patch · 1 mat coin");
     await expect(shelf.locator("summary")).toContainText(
       "Mat Coins are just for laughs. They do not buy anything.",
     );
     await shelf.locator("summary").click();
-    await expect(page.locator(".ng-patch-badge")).toHaveCount(7);
-    await expect(page.locator(".ng-mat-coin")).toHaveCount(8);
-    await expect(
-      page.locator(".ng-patch-badge[data-earned='true']"),
-    ).toHaveCount(1);
-    await expect(page.locator(".ng-mat-coin[data-earned='true']")).toHaveCount(
-      1,
+    await expect(page.locator(".ng-patch-badge")).toHaveCount(1);
+    await expect(page.locator(".ng-mat-coin")).toHaveCount(1);
+    await expect(page.locator(".ng-patch-badge")).toHaveAttribute(
+      "data-earned",
+      "true",
     );
-    await expect(
-      page.locator(".ng-patch-badge[data-earned='false']").first(),
-    ).toContainText("Available to earn");
+    await expect(page.locator(".ng-mat-coin")).toContainText("Houdini");
+    await expect(shelf).not.toContainText("Available to earn");
   });
 
   test("legacy progress receives one quiet migration explanation", async ({

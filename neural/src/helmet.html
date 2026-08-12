@@ -30,6 +30,18 @@
   .ng-account-menu{position:absolute;right:0;bottom:calc(100% + 10px);width:224px;flex-direction:column;background:linear-gradient(180deg,rgba(26,30,52,.99),rgba(18,21,38,.99));border:1px solid rgba(130,150,190,.22);border-radius:14px;box-shadow:0 14px 44px rgba(0,0,0,.55);padding:5px;animation:ngCardIn .18s ease both;}
   .ngSignupCta{cursor:pointer;font-size:11.5px;font-weight:700;color:#fff;background:linear-gradient(135deg,#4a6cff,#6a5cff);border-radius:999px;padding:8px 14px;box-shadow:0 3px 14px rgba(74,108,255,.42);white-space:nowrap;letter-spacing:.01em;transition:filter .15s ease,transform .15s ease,box-shadow .15s ease;}
   .ngSignupCta:hover{filter:brightness(1.08);transform:translateY(-1px);box-shadow:0 5px 18px rgba(74,108,255,.5);}
+  /* ---------- pane bottom anchor: the guest save stack (v1.99.1) ----------
+     three levels reading as ONE unit — kicker caption, the full-width primary (the block's
+     one visual anchor, with real hover/press/focus states), a quiet centered escape line */
+  .ng-anchor-caption{text-align:center;font:800 9px/1.4 "Plus Jakarta Sans",sans-serif;letter-spacing:.12em;text-transform:uppercase;color:#7e8aa3;}
+  .ng-anchor-cta{cursor:pointer;font-family:inherit;border:none;width:100%;min-height:44px;margin-top:7px;padding:0 13px;border-radius:12px;background:linear-gradient(135deg,#4a6cff,#7a4cff);box-shadow:inset 0 1px 0 rgba(255,255,255,.22),0 4px 18px rgba(88,108,255,.32);font-size:13px;font-weight:800;letter-spacing:.01em;color:#fff;transition:filter .15s ease,transform .1s ease,box-shadow .15s ease;}
+  .ng-anchor-cta:hover{filter:brightness(1.09);box-shadow:inset 0 1px 0 rgba(255,255,255,.26),0 6px 22px rgba(88,108,255,.45);}
+  .ng-anchor-cta:active{transform:translateY(1px);filter:brightness(.97);}
+  .ng-anchor-cta:focus-visible{outline:2px solid rgba(160,185,255,.85);outline-offset:2px;}
+  .ng-anchor-alt{display:flex;align-items:center;justify-content:center;gap:2px;font-size:11px;color:#7e8aa3;}
+  .ng-anchor-login{cursor:pointer;font-family:inherit;border:none;background:transparent;min-height:44px;padding:0 7px;font-size:11px;font-weight:700;color:#9db4ff;border-radius:8px;transition:color .15s ease;}
+  .ng-anchor-login:hover{color:#c4d4ff;text-decoration:underline;text-underline-offset:2px;}
+  .ng-anchor-login:focus-visible{outline:2px solid rgba(160,185,255,.85);outline-offset:-2px;}
   *{scrollbar-width:thin;scrollbar-color:rgba(120,150,210,.32) transparent;}
   ::-webkit-scrollbar{width:9px;height:9px;}
   ::-webkit-scrollbar-track{background:transparent;}

@@ -837,7 +837,8 @@ const NG_CHALLENGE_UI_METHODS = {
         ladder.appendChild(beltSection);
       }
       list.appendChild(ladder);
-      list.appendChild(this.renderRewardsShelf());
+      const shelf = this.renderRewardsShelf();
+      if (shelf) list.appendChild(shelf); // null until something is earned (v1.99.1)
       // ── ARRIVAL POSITIONING (v1.98.1, replaces the Continue button) ── opening the tab
       // lands the corridor where the person is: the pinned belt's header at the top of the
       // view, its frontier row (already glow-marked) in sight. INSTANT, on OPEN only —
@@ -873,25 +874,20 @@ const NG_CHALLENGE_UI_METHODS = {
     }
   },
 
+  // earned items only since v1.99.1 — the "Available to earn" placeholder branch is dead
+  // (the shelf renders nothing it cannot show off)
   collectionItem(definition, kind) {
-    const earnedMap = kind === "patch" ? this.badges || {} : this.coins || {};
-    const earned = earnedMap[definition.id];
     const article = document.createElement("article");
     article.className =
       kind === "patch" ? "ng-patch-badge" : "ng-mat-coin";
-    article.setAttribute("data-earned", earned ? "true" : "false");
-    article.setAttribute(
-      "aria-label",
-      definition.name + ": " + (earned ? "earned" : "available to earn"),
-    );
+    article.setAttribute("data-earned", "true");
+    article.setAttribute("aria-label", definition.name + ": earned");
     if (kind === "patch") {
       article.innerHTML =
-        '<span aria-hidden="true">' +
-        (earned ? "BJJ" : "") +
-        "</span><b>" +
+        '<span aria-hidden="true">BJJ</span><b>' +
         ngChallengeHTML(definition.name) +
         "</b><small>" +
-        (earned ? ngChallengeHTML(definition.detail) : "Available to earn") +
+        ngChallengeHTML(definition.detail) +
         "</small>";
     } else {
       article.innerHTML =
@@ -900,18 +896,27 @@ const NG_CHALLENGE_UI_METHODS = {
         "</span><div><b>" +
         ngChallengeHTML(definition.name) +
         "</b><small>" +
-        (earned ? ngChallengeHTML(definition.detail) : "Available to earn") +
+        ngChallengeHTML(definition.detail) +
         "</small></div>";
     }
     return article;
   },
 
   // The Collection tab retired in v1.76.0 — its content lives here, a rewards shelf at the
-  // foot of the Challenges tab. Same items, same handles (ng-patch-badge / ng-mat-coin /
-  // data-earned); one <details> so Challenges stays scannable.
+  // foot of the Challenges tab. Same handles (ng-patch-badge / ng-mat-coin / data-earned);
+  // one <details> so Challenges stays scannable.
+  // v1.99.1 (owner: "I don't see the point" of the zero-state): the shelf EARNS its place.
+  // No rewards = no shelf at all, and the "Available to earn" placeholder grid is gone for
+  // good — the ladder's capstones already name the milestones ("Earns a patch"), and Mat
+  // Coins are jokes that spoil if listed upfront. Only what IS earned renders.
   renderRewardsShelf() {
-    const patches = Object.keys(this.badges || {}).length;
-    const coins = Object.keys(this.coins || {}).length;
+    const badgeMap = this.badges || {};
+    const coinMap = this.coins || {};
+    const earnedPatches = NG_BADGE_DEFINITIONS.filter((d) => badgeMap[d.id]);
+    const earnedCoins = NG_MAT_COINS.filter((d) => coinMap[d.id]);
+    const patches = earnedPatches.length;
+    const coins = earnedCoins.length;
+    if (!patches && !coins) return null;
     const shelf = document.createElement("details");
     shelf.className = "ng-rewards-shelf";
     shelf.setAttribute("data-rewards-shelf", "1");
@@ -928,30 +933,35 @@ const NG_CHALLENGE_UI_METHODS = {
         this.track("neural_collection_opened", { patches: patches, coins: coins });
       }
     });
-    const patchSection = document.createElement("section");
-    patchSection.className = "ng-collection-section";
-    patchSection.innerHTML =
-      "<div><h3>Patches</h3><span>" +
-      patches +
-      " earned</span></div><div class=\"ng-patch-grid\"></div>";
-    for (const patch of NG_BADGE_DEFINITIONS) {
-      patchSection
-        .querySelector(".ng-patch-grid")
-        .appendChild(this.collectionItem(patch, "patch"));
+    // earned-only sections; a section with nothing earned does not render
+    if (patches) {
+      const patchSection = document.createElement("section");
+      patchSection.className = "ng-collection-section";
+      patchSection.innerHTML =
+        "<div><h3>Patches</h3><span>" +
+        patches +
+        " earned</span></div><div class=\"ng-patch-grid\"></div>";
+      for (const patch of earnedPatches) {
+        patchSection
+          .querySelector(".ng-patch-grid")
+          .appendChild(this.collectionItem(patch, "patch"));
+      }
+      shelf.appendChild(patchSection);
     }
-    shelf.appendChild(patchSection);
-    const coinSection = document.createElement("section");
-    coinSection.className = "ng-collection-section";
-    coinSection.innerHTML =
-      "<div><h3>Mat Coins</h3><span>" +
-      coins +
-      " minted once</span></div><div class=\"ng-coin-list\"></div>";
-    for (const coin of NG_MAT_COINS) {
-      coinSection
-        .querySelector(".ng-coin-list")
-        .appendChild(this.collectionItem(coin, "coin"));
+    if (coins) {
+      const coinSection = document.createElement("section");
+      coinSection.className = "ng-collection-section";
+      coinSection.innerHTML =
+        "<div><h3>Mat Coins</h3><span>" +
+        coins +
+        " minted once</span></div><div class=\"ng-coin-list\"></div>";
+      for (const coin of earnedCoins) {
+        coinSection
+          .querySelector(".ng-coin-list")
+          .appendChild(this.collectionItem(coin, "coin"));
+      }
+      shelf.appendChild(coinSection);
     }
-    shelf.appendChild(coinSection);
     if (this._scrollRewardsShelf) {
       this._scrollRewardsShelf = false;
       requestAnimationFrame(() => { try { shelf.scrollIntoView({ block: "start" }); } catch (e) {} });

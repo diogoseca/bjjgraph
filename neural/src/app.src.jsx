@@ -1867,10 +1867,12 @@ class Component extends DCLogic {
     // three levels reading as ONE unit — a small muted caption (the why), the full-width
     // primary button (the block's one visual anchor), and a centered quiet escape line.
     // Tight vertical rhythm; guest-only; drawer + desktop alike.
+    // styled via .ng-anchor-* classes (helmet.html) — hover/active/focus-visible states
+    // need real CSS, and the block should read as one designed unit (owner, v1.99.1)
     el.innerHTML =
-      '<div data-anchor-caption="1" style="text-align:center;font-size:10.5px;font-weight:600;letter-spacing:.02em;color:#8b97b0;">Save your progress</div>' +
-      '<button type="button" class="ngHdrAuth" data-anchor-auth="1" style="cursor:pointer;font-family:inherit;border:none;width:100%;min-height:44px;margin-top:6px;padding:0 13px;border-radius:12px;background:linear-gradient(135deg,#4a6cff,#7a4cff);box-shadow:0 4px 16px rgba(74,108,255,.38);font-size:13px;font-weight:800;color:#fff;transition:filter .15s ease;">Create account</button>' +
-      '<div data-anchor-alt="1" style="display:flex;align-items:center;justify-content:center;gap:5px;font-size:11px;color:#7e8aa3;"><span>Already have one?</span><button type="button" data-anchor-login="1" style="cursor:pointer;font-family:inherit;border:none;background:transparent;min-height:44px;padding:0 6px;font-size:11px;font-weight:700;color:#9db4ff;">Log in</button></div>';
+      '<div class="ng-anchor-caption" data-anchor-caption="1">Save your progress</div>' +
+      '<button type="button" class="ngHdrAuth ng-anchor-cta" data-anchor-auth="1">Create account</button>' +
+      '<div class="ng-anchor-alt" data-anchor-alt="1"><span>Already have one?</span><button type="button" class="ng-anchor-login" data-anchor-login="1">Log in</button></div>';
     el.style.display = this._paneStudyActive() ? "none" : "flex";
     { const a = el.querySelector("[data-anchor-auth]"); if (a) { a.addEventListener("mouseenter", () => a.style.filter = "brightness(1.08)"); a.addEventListener("mouseleave", () => a.style.filter = "none"); a.addEventListener("click", () => this.openAuth("create")); } }
     { const l = el.querySelector("[data-anchor-login]"); if (l) { l.addEventListener("mouseenter", () => l.style.color = "#cbd4e6"); l.addEventListener("mouseleave", () => l.style.color = "#7e8aa3"); l.addEventListener("click", () => this.openAuth("login")); } }
