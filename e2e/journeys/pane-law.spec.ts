@@ -26,8 +26,8 @@ test("opening the pane stops the game; closing it resumes the game @curated", as
   expect(await paused(page), "roll is live after landing").toBe(false)
   expect(await shown(page), "pane starts shut").toBe(false)
 
-  // open it the way the user does: the collapsed tab on the right edge
-  await page.locator(".ng-drilltab").click()
+  // open it the way the user does: the top-left logo (the one pane opener — v1.99.0)
+  await page.locator(".ng-logo").click()
   expect(await shown(page), "pane open after tab click").toBe(true)
   expect(await paused(page), "opening the pane stopped the game").toBe(true)
   await j.expectBeat("pane_paused")
@@ -52,7 +52,7 @@ test("closing the pane does NOT resume a roll the user paused by hand", async ({
 
   // hand-pause FIRST (transport button seam), then open the pane on top of it
   await page.evaluate(() => (window as any).__neural.setPaused(true))
-  await page.locator(".ng-drilltab").click()
+  await page.locator(".ng-logo").click()
   expect(await shown(page)).toBe(true)
   expect(
     await page.evaluate(() => !!(window as any).__neural._paneAutoPaused),
@@ -67,7 +67,7 @@ test("a round ending never hides the pane", async ({ page }) => {
   const j = journey(page)
   await j.boot("/")
   await j.land("Mount Top")
-  await page.locator(".ng-drilltab").click()
+  await page.locator(".ng-logo").click()
   expect(await shown(page)).toBe(true)
 
   // endRound is normally reached by the resolve path — which needs time, and time is frozen
@@ -130,7 +130,7 @@ test("a graph click does not close the pane on desktop", async ({ page }) => {
   const j = journey(page)
   await j.boot("/")
   await j.land("Mount Top")
-  await page.locator(".ng-drilltab").click()
+  await page.locator(".ng-logo").click()
   expect(await shown(page)).toBe(true)
 
   // closeDeckIfStudying is the canvas-click seam (canvas hit-testing has no DOM to click)
@@ -143,7 +143,7 @@ test("Esc closes the pane once no overlay is up", async ({ page }) => {
   const j = journey(page)
   await j.boot("/")
   await j.land("Mount Top")
-  await page.locator(".ng-drilltab").click()
+  await page.locator(".ng-logo").click()
   expect(await shown(page)).toBe(true)
 
   await page.keyboard.press("Escape")

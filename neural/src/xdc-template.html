@@ -11,7 +11,6 @@
   @keyframes ngFadeUp{from{opacity:0;transform:translateY(10px);}to{opacity:1;transform:translateY(0);}}
   @keyframes ngHintFade{0%{opacity:0;}12%,68%{opacity:.5;}100%{opacity:0;}}
   @keyframes ngIntroLife{0%{opacity:0;transform:translateY(10px);}20%{opacity:1;transform:translateY(0);}77%{opacity:1;transform:translateY(0);}100%{opacity:0;transform:translateY(0);}}
-  @keyframes ngTabPulse{0%,100%{box-shadow:0 6px 26px rgba(0,0,0,.4),0 0 0 0 rgba(120,160,255,.34);}50%{box-shadow:0 6px 26px rgba(0,0,0,.4),0 0 0 7px rgba(120,160,255,0);}}
   .ng-optionrow{-ms-overflow-style:none;scrollbar-width:none;mask-image:linear-gradient(90deg,transparent 0,#000 36px,#000 calc(100% - 36px),transparent 100%);-webkit-mask-image:linear-gradient(90deg,transparent 0,#000 36px,#000 calc(100% - 36px),transparent 100%);scroll-padding:0 28px;}
   .ng-optionrow::-webkit-scrollbar{height:0;display:none;}
   .ng-optionrow > *{scroll-snap-align:center;}
@@ -21,7 +20,6 @@
   @keyframes ngSpin{to{transform:rotate(360deg);}}
   @keyframes ngCount{from{transform:scaleX(1);}to{transform:scaleX(0);}}
   @keyframes ngCardIn{from{opacity:0;transform:translateY(8px);}to{opacity:1;transform:translateY(0);}}
-  @keyframes ngNudge{0%,100%{transform:translateX(0);}50%{transform:translateX(5px);}}
   @keyframes ngDeckExpire{0%{filter:grayscale(0) brightness(1);opacity:1;}55%{filter:grayscale(.35) brightness(.92);opacity:.92;}100%{filter:grayscale(1) brightness(.5);opacity:.34;}}
   @keyframes ngPulseChip{0%,100%{box-shadow:0 0 0 0 rgba(120,170,255,.5);}50%{box-shadow:0 0 0 6px rgba(120,170,255,0);}}
   .ngAcctChip{background:rgba(26,30,52,.66);backdrop-filter:blur(8px);border:1px solid rgba(150,170,210,.2);border-radius:999px;transition:background .2s ease,border-color .2s ease,backdrop-filter .2s ease;}
@@ -40,18 +38,13 @@
   }
   @media (max-width:640px){
     .ng-logo{top:22px!important;left:18px!important;gap:0!important;}
-    .ng-acctwrap{top:auto!important;bottom:86px!important;right:14px!important;}
+    .ng-acctwrap{top:auto!important;bottom:28px!important;right:14px!important;} /* the pill's old band seat (v1.99.0) */
     .ngAcctChip{padding:7px!important;} /* avatar-only chip still makes a 44px touch target */
     .ng-logo .ng-word,.ng-logo .ng-kbd{display:none!important;}
     .ng-intro{top:54px!important;left:16px!important;}
     .ng-intro>div:first-child{font-size:21px!important;}
     .ng-intro>div:last-child{font-size:12px!important;max-width:228px!important;margin-top:8px!important;}
     .ng-drill{width:88vw!important;}
-    .ng-drilltab{top:auto!important;bottom:28px!important;right:14px!important;left:auto!important;transform:none!important;width:auto!important;min-height:46px!important;box-sizing:border-box!important;flex-direction:row!important;align-items:center!important;border-radius:23px!important;border-right:1px solid rgba(130,160,255,.32)!important;padding:8px 15px!important;gap:0!important;}
-    .ng-drilltab>span:first-child{display:none!important;}
-    .ng-drilltab .ng-dttitle{display:none!important;}
-    .ng-drilltab>div{display:none!important;}
-    .ng-drilltab .ng-dt-short{display:block!important;text-align:center!important;}
     .ngAcctChip>span:first-child{display:none!important;}
     .ngSignupCta{display:none!important;}
     .ng-evtoast{width:86vw!important;}
@@ -142,16 +135,14 @@
   <!-- option detail: a bottom sheet that expands in place (no dimming overlay) -->
   <div ref="{{ optDetailRef }}" style="position:absolute;left:0;right:0;bottom:0;margin:0 auto;width:min(660px,94vw);height:340px;z-index:6;opacity:0;pointer-events:none;transition:opacity .26s cubic-bezier(.2,.7,.2,1),transform .34s cubic-bezier(.2,.7,.2,1),height .34s cubic-bezier(.2,.7,.2,1);display:flex;flex-direction:column;background:linear-gradient(180deg,rgba(27,31,53,.995),rgba(17,20,36,.995));border:1px solid rgba(130,150,190,.22);border-bottom:none;border-top-left-radius:20px;border-top-right-radius:20px;box-shadow:0 -16px 60px rgba(0,0,0,.55);overflow:hidden;"></div>
 
-  <!-- drill open tab (right edge, when a deck is available but closed). QUIET by design
-       (v1.93.0): no pulse animation, no drill-prompt copy — the landing card already asks the
-       question. The pill keeps its other jobs: medal tier icon, share cue ◉/Class ▸ buttons
-       (appended by _renderShareCue), and the mobile thumb-band geometry (v1.81.4). -->
-  <div ref="{{ drillTabRef }}" class="ng-drilltab" onClick="{{ openDeck }}" style="position:absolute;top:50%;right:0;transform:translateY(-50%);pointer-events:auto;cursor:pointer;opacity:0;display:flex;align-items:center;gap:9px;padding:11px 15px 11px 14px;background:linear-gradient(90deg,rgba(36,42,70,.92),rgba(26,30,52,.95));border:1px solid rgba(130,160,255,.32);border-right:none;border-radius:13px 0 0 13px;box-shadow:0 6px 26px rgba(0,0,0,.4);z-index:6;">
-    <span ref="{{ drillTabIconRef }}" style="font-size:16px;line-height:1;filter:drop-shadow(0 0 5px rgba(120,160,255,.6));">&#9889;</span>
-    <div style="display:flex;flex-direction:column;gap:2px;">
-      <span ref="{{ drillTabTitleRef }}" class="ng-dttitle" style="font-size:12px;font-weight:700;color:#c9d3e6;letter-spacing:.01em;line-height:1.15;">Flashcards</span>
-    </div>
-    <span ref="{{ drillTabShortRef }}" class="ng-dt-short" style="display:none;font-size:11px;font-weight:600;color:#c9d3e6;line-height:1.2;text-align:center;"></span>
+  <!-- SHARE CUE (v1.99.0) — a standalone conditional control in the thumb band. The
+       .ng-drilltab pill that used to host it is DELETED (owner: it must not appear on any
+       form factor); the pane opener is the LOGO alone, and the account chip holds the
+       bottom-right corner on every viewport. Rendered ONLY while a share cue exists
+       (_renderShareCue): the ◉ re-light + "Class ▸" pair, or the stale/broken opener.
+       Sits ABOVE the chip so neither covers the other; pointer-events:auto inline (fixed
+       overlay canon); hidden while the pane is open (the drawer owns that corner). -->
+  <div ref="{{ shareCueRef }}" class="ng-sharecue" style="display:none;position:absolute;bottom:76px;right:24px;z-index:6;pointer-events:auto;align-items:center;">
   </div>
 
   <!-- learning pane (LEFT, v1.94.0 — it opens from the top-left logo, so it lives on the

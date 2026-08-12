@@ -59,7 +59,7 @@ const seen = (page: any, label: string) =>
       "[data-land-count]",
       "[data-land-more]",
       ".ng-optionrow",
-      ".ng-drilltab",
+      ".ng-sharecue",
       ".ng-explorer",
       "[data-tut-copy]",
       ".ng-status",
@@ -74,7 +74,7 @@ const seen = (page: any, label: string) =>
     const texts: string[] = [];
     document
       .querySelectorAll(
-        ".ng-coach,.ng-landcard,.ng-optionrow,.ng-drilltab,.ng-status,.ng-ev,.ng-evcenter,[data-tut-copy]",
+        ".ng-coach,.ng-landcard,.ng-optionrow,.ng-sharecue,.ng-status,.ng-ev,.ng-evcenter,[data-tut-copy]",
       )
       .forEach((el) => {
         if (!vis(el)) return;

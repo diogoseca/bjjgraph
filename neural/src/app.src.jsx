@@ -13,11 +13,7 @@ class Component extends DCLogic {
   drillListRef = React.createRef();
   drillFootRef = React.createRef();
   drillCountRef = React.createRef();
-  drillTabRef = React.createRef();
-  drillTabShortRef = React.createRef();
-  // (short label is single-line; see updateDrillTab)
-  drillTabTitleRef = React.createRef();
-  drillTabIconRef = React.createRef();
+  shareCueRef = React.createRef(); // the standalone share-cue control (v1.99.0 — the pill is gone)
   legendMarkRef = React.createRef();
   legendPointRef = React.createRef();
   legendRef = React.createRef();
@@ -62,8 +58,8 @@ class Component extends DCLogic {
       evRef: this.evRef, evKickerRef: this.evKickerRef, evTextRef: this.evTextRef,
       optionsRef: this.optionsRef, fxRef: this.fxRef,
       drillRef: this.drillRef, drillTitleRef: this.drillTitleRef, drillHeadRef: this.drillHeadRef, drillListRef: this.drillListRef, drillFootRef: this.drillFootRef, drillCountRef: this.drillCountRef,
-      drillTabRef: this.drillTabRef, drillTabShortRef: this.drillTabShortRef, drillTabTitleRef: this.drillTabTitleRef, drillTabIconRef: this.drillTabIconRef,
-      openDeck: () => this.openHomeToLatest(), closeDeck: () => this.setDeckOpen(false),
+      shareCueRef: this.shareCueRef,
+      closeDeck: () => this.setDeckOpen(false),
       openSettings: () => this.openSettings("flashcards"),
       openTerms: () => this.openLegal("terms"), openPrivacy: () => this.openLegal("privacy"),
       statusRef: this.statusRef, legendMarkRef: this.legendMarkRef,
@@ -291,7 +287,7 @@ class Component extends DCLogic {
     this.resize();
     this.attachInput();
     // block pan when interacting with overlay controls
-    [this.optionsRef.current, this.drillRef.current, this.drillTabRef.current, this.accountRef.current, this.transportRef.current, this.optDetailRef.current].forEach((el) => {
+    [this.optionsRef.current, this.drillRef.current, this.shareCueRef.current, this.accountRef.current, this.transportRef.current, this.optDetailRef.current].forEach((el) => {
       if (el) { el.addEventListener("pointerdown", (e) => e.stopPropagation()); el.addEventListener("wheel", (e) => e.stopPropagation(), { passive: false }); }
     });
     // modal: card blocks pan + wheel; backdrop click closes
@@ -1040,7 +1036,6 @@ class Component extends DCLogic {
     const e = this.drillEntries && this.drillEntries[this.activeDrill];
     const bonus = e ? Math.round(this.stateBonus(e.info.key) * 100) : 0;
     if (el) el.textContent = bonus > 0 ? "+" + bonus + "% odds" : "";
-    this.updateDrillTab();
   }
   drillBtn(label, primary) {
     const b = document.createElement("button");
@@ -1083,7 +1078,6 @@ class Component extends DCLogic {
     }
     this._lastHomeRollLen = this.rollLog ? this.rollLog.length : 0;
     this.deckReady = true;
-    this.updateDrillTab();
     this.applyDeckVisibility(); // hidden by default; tab invites the user to open it
   }
 
@@ -1155,10 +1149,8 @@ class Component extends DCLogic {
     if (hint && open) { hint.style.opacity = "0"; hint.style.pointerEvents = "none"; }   // hide the scroll hint immediately when the sidebar opens
     const panel = this.drillRef.current;
     if (panel) { panel.style.display = open ? "flex" : "none"; panel.style.pointerEvents = open ? "auto" : "none"; }
-    const tab = this.drillTabRef.current;
-    // a live share cue makes the pill available immediately: on a phone the pill is the ONLY
-    // surface a recipient has before the first landing, and it is where the re-light lives.
-    if (tab) { const tv = ((this.deckReady || this._shareCue) && !this.deckOpen) ? "1" : "0"; tab.style.opacity = tv; tab.style.pointerEvents = tv === "1" ? "auto" : "none"; }
+    // the drill pill is DELETED (v1.99.0) — the share cue is a standalone conditional
+    // control; every apply re-renders it (it hides while the pane owns its corner)
     this._renderShareCue();
     // the pane lives LEFT now (v1.94.0): on desktop the bottom-right chip and the pane no longer
     // share a corner, so the chip keeps its normal look. On a phone the drawer takes the screen
@@ -1177,7 +1169,6 @@ class Component extends DCLogic {
     if (open) this.renderPaneAnchor(); // bottom anchor: stats + guest save nudge, fresh on every apply
     this._layoutPane();
     this.forceUpdate();
-    this.updateDrillTab();
     this._paneTransition = false;
   }
   // ── merged-pane layout ── two body modes share the one pane:
@@ -1230,33 +1221,6 @@ class Component extends DCLogic {
     if (this._viewMode !== target) this.setViewMode(target);
     else this._renderPaneBody();
   }
-  updateDrillTab() {
-    // QUIET PILL (v1.93.0). The flashing "Drill to boost your odds \u2192" invite is gone \u2014 the
-    // landing card already asks this state's question, so the pill stopped selling and now just
-    // names where the tap goes: [medal] + family name (desktop), family + Study/Mastered verb
-    // (mobile thumb band). The medal icon still tiers with progress; the share cue buttons are
-    // appended by _renderShareCue and untouched here.
-    const title = this.drillTabTitleRef.current; const icon = this.drillTabIconRef.current;
-    const e0 = this.drillEntries && this.drillEntries[0];
-    if (!e0) return;
-    // manifest `n` while the chunk is in flight: the tab used to misread in-flight decks as
-    // unauthored purely because their cards had not landed yet
-    const total = this._deckCardCount(((this.flashcards && this.flashcards.decks) || {})[this._posKey]);
-    const done = Math.min((this.prep && this.prep[this._posKey]) || 0, total);
-    const famName = (e0.info && e0.info.fam) || "";
-    let ic = "\u26a1", shortLn2 = "Study", ln2Col = "#c9d3e6";
-    if (total) {
-      if (done >= total) { ic = "\uD83E\uDD47"; shortLn2 = "Mastered"; ln2Col = "#7ee0a8"; }
-      else if (done === 0) { ic = "\u25CB"; }
-      else { const frac = done / total; ic = frac < 0.34 ? "\uD83E\uDD49" : (frac < 0.67 ? "\uD83E\uDD48" : "\uD83E\uDD47"); }
-    }
-    const famSize = famName.length > 18 ? 8 : (famName.length > 13 ? 8.5 : 9.5);
-    const short = '<span style="display:block;font-size:' + famSize + 'px;font-weight:600;color:#9ab0e0;letter-spacing:.03em;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:118px;line-height:1.25;">' + famName + '</span>' +
-      '<span style="display:block;font-size:12.5px;font-weight:800;color:' + ln2Col + ';line-height:1.2;">' + shortLn2 + '</span>';
-    if (icon) { icon.textContent = ic; icon.style.opacity = (total && done === 0) ? "0.45" : "1"; icon.style.filter = done >= total && total ? "drop-shadow(0 0 6px rgba(126,224,168,.7))" : "drop-shadow(0 0 5px rgba(120,160,255,.6))"; }
-    if (title) { title.textContent = famName || "Flashcards"; }
-    const shortEl = this.drillTabShortRef.current; if (shortEl) shortEl.innerHTML = short;
-  }
 
   // ---------- progress / save hint ----------
   bumpBounce() {
@@ -1267,19 +1231,14 @@ class Component extends DCLogic {
     this.cardsAnswered = (this.cardsAnswered || 0) + 1;
     if (this.cardsAnswered >= 2) this.maybeShowSaveHint("cards");
   }
-  // PANE LAW: never force the pane open. Nudge the collapsed tab once and toast; the save CTA
-  // still renders inside the pane whenever the user opens it by hand (_menuNudge).
+  // PANE LAW: never force the pane open. One quiet toast; the save CTA still renders
+  // inside the pane whenever the user opens it by hand (_menuNudge). The pill this used
+  // to shake is deleted (v1.99.0).
   maybeShowSaveHint(reason) {
     if (this.saveDismissed || this.saveShown) return;
     this.saveShown = true; this._menuNudge = true;
     this.fx("save_hint", { reason: reason });
-    const tab = this.drillTabRef.current;
-    if (tab && !this.deckShown) {
-      // one nudge + a FINITE pulse — the pill must never flash indefinitely (v1.93.0)
-      tab.style.animation = "ngNudge .45s ease-in-out 3";
-      this.after(1.5, () => { if (tab) { tab.style.animation = "ngTabPulse 2.4s ease 2"; this.after(5, () => { if (tab) tab.style.animation = ""; }); } });
-    }
-    this.setEvent("Save your progress", "Open flashcards to keep it", "muted");
+    this.setEvent("Save your progress", "Open the panel to keep it", "muted");
   }
   // (v1.94.0) the chip's old toggleMenu — open the pane / close the pane — is gone: the chip
   // opens the ACCOUNT MENU now (toggleAccountMenu), and the pane opener is the top-left logo.
@@ -1696,7 +1655,7 @@ class Component extends DCLogic {
       // the card stayed on screen but `deck` went null, so grading and keyboard nav went dead.
       if (this.currentPos != null && this.currentPos >= 0 && !this._paneStudyActive()) this.buildDrillPanel(this.currentPos);
       if (this.deckShown && this._viewMode === "history" && this._drillView === "home" && !this._paneStudyActive()) this.renderDrillHome();
-      this.refreshOptionOdds(); this.updateDrillTab();
+      this.refreshOptionOdds();
       this._landBackfill(); // the state on screen right now gets the question it was owed
       this._refreshChallengeEvidence();
     } catch (e) { /* non-fatal */ }
@@ -3313,8 +3272,7 @@ class Component extends DCLogic {
       }
       this._pulled = true;          // a fresh device must pull before it may push (no cloud clobber)
       this._saveProgress();         // persist merged state + push it back
-      this.updateDrillTab();
-    } catch (e) { /* keep local on any failure */ }
+      } catch (e) { /* keep local on any failure */ }
   }
   _pushCloud() {
     const A = this._auth(); if (!A || !A.pushNeural || !this._pulled) return;
@@ -3555,6 +3513,10 @@ class Component extends DCLogic {
     this.clearFocus();
     this._viewMode = m;
     if (m === "challenges") this._challengeScrollPending = true; // arrival positioning on tab open (v1.98.1)
+    // a TAB SWITCH starts the incoming body at its top — without this, Explore inherits
+    // the corridor's deep arrival scroll and its Lists head renders buried under the nav
+    // (in-tab re-renders never come through here, so browsing/search scroll is untouched)
+    { const l = this.explorerListRef.current; if (l) l.scrollTop = 0; }
     this.set("challengeView", m);
     try { localStorage.setItem("bjj_view_mode", m); } catch (e) {}
     this.styleViewToggle();
@@ -4192,18 +4154,17 @@ class Component extends DCLogic {
   //     delivers none of it. So on a narrow viewport the arrival lights the graph and STOPS —
   //     which serves PANE LAW better, not worse: nothing but the user opens the pane.
   //  2. The control that lights the class again therefore cannot live in the drawer either, or
-  //     it is unreachable in the exact state you want it. It rides the collapsed `.ng-drilltab`
-  //     pill: already fixed, already outside the pane, already the app's one collapsed
-  //     affordance (and its neighbour, the graph strip, is already the mobile dismiss target).
+  //     it is unreachable in the exact state you want it. It is a STANDALONE band control
+  //     since v1.99.0 (.ng-sharecue, above the account chip — the drill pill that used to
+  //     host it is deleted): fixed, outside the pane, conditional on a live cue.
   //
   // Two zones because they are two different intentions: ◉ lights the class WITHOUT covering
   // it, and "Class ▸" opens the pane to read / save / drill it.
   // ══════════════════════════════════════════════════════════════════════════════════════
   _setShareCue(cue) { this._shareCue = cue || null; this._renderShareCue(); }
   /**
-   * One flag on <body> so the bottom thumb band can lay itself out in CSS (see helmet.html): with
-   * a cue up, the transport steps aside, the pill tightens and drops its own label, and neither
-   * can cover the other.
+   * One flag on <body> naming the live cue kind — a layout/diagnostic hook for the thumb
+   * band (the pill-era CSS that consumed it is gone; specs and snapshots still read it).
    *
    * NAMED `data-share-band`, NOT `data-share-cue`: the cue BUTTON already carries
    * `data-share-cue`, so a body flag of the same name makes `document.querySelector(
@@ -4220,19 +4181,18 @@ class Component extends DCLogic {
     } catch (e) { /* non-fatal */ }
   }
   _renderShareCue() {
-    const tab = this.drillTabRef.current; if (!tab) return;
-    try { tab.querySelectorAll("[data-share-cue],[data-share-open]").forEach((el) => el.remove()); } catch (e) { /* non-fatal */ }
+    // STANDALONE since v1.99.0 — the drill pill that used to host these buttons is deleted.
+    // The cue is a conditional control in the thumb band (above the account chip): rendered
+    // ONLY while a cue exists, hidden while the pane owns its corner, gone otherwise.
+    const host = this.shareCueRef.current; if (!host) return;
+    try { host.querySelectorAll("[data-share-cue],[data-share-open]").forEach((el) => el.remove()); } catch (e) { /* non-fatal */ }
     const cue = this._shareCue;
     this._markShareCueLayout();
-    if (!cue) { if (!this.deckReady || this.deckOpen) { tab.style.opacity = "0"; tab.style.pointerEvents = "none"; } return; }
+    if (!cue || this.deckOpen) { host.style.display = "none"; return; }
     // a class cue whose list no longer resolves (deleted, merged away) is not a cue: dropping it
-    // here means the pill can never offer to light a set that does not exist
-    // (re-entering with a null cue takes the branch above, which also puts the pill back to
-    // whatever the pane state says it should be — one level, no recursion)
+    // here means the control can never offer to light a set that does not exist
+    // (re-entering with a null cue takes the branch above — one level, no recursion)
     if (cue.kind === "class" && !this.listIdxs(cue.target).length) { this._shareCue = null; return this._renderShareCue(); }
-    // BOTH are <button>s and BOTH are APPENDED LAST, deliberately: the mobile rules hide
-    // `.ng-drilltab > span:first-child` and `.ng-drilltab > div`, so a span/div here would be
-    // invisible on a phone, and inserting first would unhide the pill's own icon instead.
     const mk = (attr, label, title, tint, onClick) => {
       const b = document.createElement("button");
       b.type = "button";
@@ -4241,10 +4201,10 @@ class Component extends DCLogic {
       b.innerHTML = label;
       // pointer-events:auto INLINE — the property is inherited, the overlay root disables it and
       // the canvas hit-tests above anything that does not re-enable it (this repo has paid for
-      // that twice: v1.69.1, v1.81.2).
-      b.style.cssText = "flex:none;pointer-events:auto;cursor:pointer;font-family:inherit;font-size:11px;font-weight:700;line-height:1;min-height:30px;min-width:34px;padding:8px 11px;margin-left:9px;border-radius:9px;border:1px solid " + tint[0] + ";background:" + tint[1] + ";color:" + tint[2] + ";white-space:nowrap;";
+      // that twice: v1.69.1, v1.81.2). 44px targets (v1.99.0).
+      b.style.cssText = "flex:none;pointer-events:auto;cursor:pointer;font-family:inherit;font-size:11px;font-weight:700;line-height:1;min-height:44px;min-width:44px;padding:8px 12px;margin-left:8px;border-radius:11px;border:1px solid " + tint[0] + ";background:" + tint[1] + ";color:" + tint[2] + ";white-space:nowrap;box-shadow:0 6px 22px rgba(0,0,0,.4);";
       b.addEventListener("click", (e) => { e.stopPropagation(); e.preventDefault(); onClick(); });
-      tab.appendChild(b);
+      host.appendChild(b);
       return b;
     };
     const green = ["rgba(126,224,168,.45)", "rgba(126,224,168,.15)", "#cdebd9"];
@@ -4254,17 +4214,12 @@ class Component extends DCLogic {
       mk("data-share-cue", (lit ? "◉" : "◎") + " " + cue.n, "Light this class on the graph again", green, () => this.relightShare());
       mk("data-share-open", "Class ▸", "Read, save or drill the shared class", green, () => this.openShareCue());
     } else {
-      // the pill says exactly what the panel says (see _brokenCopy): a cue that contradicts the
-      // explanation it opens is worse than no cue
+      // the cue says exactly what the panel says (see _brokenCopy): a cue that contradicts
+      // the explanation it opens is worse than no cue
       const label = cue.kind === "stale" ? "Newer link ▸" : this._brokenCopy().pill;
       mk("data-share-open", label, "What happened to this shared link", amber, () => this.openShareCue());
     }
-    // SHOW THE PILL. `pointer-events:auto` is set INLINE on these buttons (it must be — see the
-    // note in mk()), and that beats the tab's inherited `none`: without this line the cue was
-    // fully CLICKABLE while the pill was still at opacity 0, because the tab only becomes
-    // visible on the first landing and a share arrival is decoded before the first roll starts.
-    // A control you can hit but cannot see is worse than one that is merely late.
-    if (!this.deckOpen) { tab.style.opacity = "1"; tab.style.pointerEvents = "auto"; }
+    host.style.display = "flex";
   }
   /** Light the shared class again WITHOUT covering it — the mobile answer to "where did it go". */
   relightShare() {

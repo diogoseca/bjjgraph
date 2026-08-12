@@ -40,20 +40,17 @@
   @media (max-width:1023px){
     .ng-drill{width:min(360px,88vw)!important;}
   }
+  /* the share cue rides above the chip on every viewport (v1.99.0 — the pill is gone) */
   @media (max-width:640px){
+    .ng-sharecue{bottom:84px!important;right:14px!important;}
     .ng-logo{top:22px!important;left:18px!important;gap:0!important;}
-    .ng-acctwrap{top:auto!important;bottom:86px!important;right:14px!important;}
+    .ng-acctwrap{top:auto!important;bottom:28px!important;right:14px!important;} /* the pill's old band seat (v1.99.0) */
     .ngAcctChip{padding:7px!important;} /* avatar-only chip still makes a 44px touch target */
     .ng-logo .ng-word,.ng-logo .ng-kbd{display:none!important;}
     .ng-intro{top:54px!important;left:16px!important;}
     .ng-intro>div:first-child{font-size:21px!important;}
     .ng-intro>div:last-child{font-size:12px!important;max-width:228px!important;margin-top:8px!important;}
     .ng-drill{width:88vw!important;}
-    .ng-drilltab{top:auto!important;bottom:28px!important;right:14px!important;left:auto!important;transform:none!important;width:auto!important;min-height:46px!important;box-sizing:border-box!important;flex-direction:row!important;align-items:center!important;border-radius:23px!important;border-right:1px solid rgba(130,160,255,.32)!important;padding:8px 15px!important;gap:0!important;}
-    .ng-drilltab>span:first-child{display:none!important;}
-    .ng-drilltab .ng-dttitle{display:none!important;}
-    .ng-drilltab>div{display:none!important;}
-    .ng-drilltab .ng-dt-short{display:block!important;text-align:center!important;}
     .ngAcctChip>span:first-child{display:none!important;}
     .ngSignupCta{display:none!important;}
     .ng-evtoast{width:86vw!important;}
@@ -74,18 +71,14 @@
     /* `!important` is load-bearing here: the transport carries `transform:translateX(-50%)` as an
        INLINE style (xdc-template.html), and only an !important stylesheet declaration outranks an
        inline one — the same cascade fact `_dockLandCard` is commented for. */
-    body[data-share-band] .ng-transport{transform:translateX(calc(-50% - 16px))!important;}
     /* the cue already names the class; the pill's own line is what it displaces, not the
        transport. (Deliberately NOT a max-width on the pill: a capped right-anchored flex row
        does not shrink its buttons, it pushes the last one off the right edge of the screen —
        trading a covered play button for an unreachable cue.) */
-    body[data-share-band] .ng-drilltab .ng-dt-short{display:none!important;}
     /* …and the pill tightens, because the band is a ZERO-SLACK row at 390px: measured, legend
        14–118, transport 151–239, cue pill 220–376. A big transport shift only moves the
        collision onto the legend (measured: 84–174 vs 14–118), so the pill gives up padding and
        button margins and the transport steps aside just far enough. */
-    body[data-share-band] .ng-drilltab{padding:8px 10px!important;}
-    body[data-share-band] .ng-drilltab > button{margin-left:7px!important;}
   }
 
   /* \u2500\u2500 P2: beat beacon / defense vignette / coach / film shimmer \u2500\u2500 */

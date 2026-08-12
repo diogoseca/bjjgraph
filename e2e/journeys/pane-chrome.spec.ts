@@ -5,9 +5,9 @@ import { journey } from "../dsl"
  * PANE & CHROME POLISH (v1.93.0, re-pinned for the v1.94.0 chrome):
  *
  *   1. EVERY pane-open path wires the tabs. The direct-assign openers (openHomeToLatest —
- *      today the drill pill; formerly the account chip) used to open a pane whose
- *      Explore/Challenges buttons were dead — wiring lived only in openPane(). It now
- *      lives at the choke point (applyDeckVisibility).
+ *      today the landing card's familiarity chip; formerly the drill pill and the account
+ *      chip) used to open a pane whose Explore/Challenges buttons were dead — wiring lived
+ *      only in openPane(). It now lives at the choke point (applyDeckVisibility).
  *   2. The guest save nudge is ONE block at the pane's BOTTOM, visible on all three tabs,
  *      next to Settings/Terms/Privacy. The stat row (mastered/today/weak spots) moved to
  *      the TOP of Explore in v1.95.0 — the weak-spots count is Explore's call to action.
@@ -21,8 +21,9 @@ import { journey } from "../dsl"
  *   4. v1.94.0 RETIRES the "no account menu" canon: the chip now opens `.ng-account-menu`
  *      (account-menu.spec.ts owns that contract) and the PANE opener is the top-left logo.
  *   5. Settings carries Terms · Privacy links (the "Learn More" submenu that never was).
- *   6. The drill pill is QUIET: no infinite pulse, no "Drill to boost your odds" — the
- *      landing card already asks the question. Medal tier + share cue jobs remain.
+ *   6. The drill pill is DELETED (v1.99.0, owner): no pill on any form factor. The share
+ *      cue is a standalone conditional band control (.ng-sharecue, above the chip); the
+ *      chip holds the phone's bottom-right band seat; the logo is the one pane opener.
  *   7. The pane anchors the LEFT edge (v1.94.0 — it opens from the top-left logo, so it
  *      lives on the logo's side). The account chip stays bottom-right and, on desktop, no
  *      longer fades under a pane that no longer covers it; the phone drawer still does.
@@ -36,9 +37,10 @@ import { journey } from "../dsl"
  * Mouse claims go through clickByMouse (no scroll-into-view, no interception amnesty).
  */
 
-// the direct-assign open path (openHomeToLatest → History): today that is the drill pill
+// the direct-assign open path (openHomeToLatest → History): since the pill's deletion
+// (v1.99.0) that is the landing card's familiarity chip — "study this state"
 const openViaPill = async (page: Page, j: ReturnType<typeof journey>) => {
-  await j.clickByMouse(".ng-drilltab", "the drill pill")
+  await j.clickByMouse("[data-land-count]", "the landing card's familiarity chip")
   await expect(page.locator(".ng-drill")).toBeVisible()
 }
 
@@ -52,7 +54,7 @@ test("the pill opens History with LIVE tabs — every open path wires the pane",
 
   await expect(
     page.locator('.ng-learning-nav [data-view="history"]'),
-    "the pill lands on History",
+    "the chip's study-this-state lands on History",
   ).toHaveAttribute("aria-pressed", "true")
 
   // the bug: these two clicks did nothing when the pane's FIRST open came through a
@@ -315,27 +317,47 @@ test("settings carries Terms · Privacy — the Learn More submenu that never wa
   await expect(page.locator("body"), "the real terms, not a stub").toContainText("Safety first")
 })
 
-test("the drill pill is quiet: no infinite pulse, no drill prompt — medal + name only", async ({
+test("the drill pill is GONE on every form factor; the share cue renders only with a cue", async ({
   page,
 }) => {
   const j = journey(page)
   await j.boot("/")
   await j.land("Mount Top")
 
-  const pill = page.locator(".ng-drilltab")
-  await expect(pill).toBeVisible()
-  expect(
-    await pill.evaluate((el) => getComputedStyle(el).animationName),
-    "no infinite pulse on the pill",
-  ).toBe("none")
-  await expect(pill, "no drill-prompt copy").not.toContainText("Drill to boost your odds")
-  await expect(pill).not.toContainText("cards to master")
-  const txt = (await pill.innerText()).trim()
-  expect(txt.length, "it still names the state (medal + family)").toBeGreaterThan(0)
+  // v1.99.0 (owner): the pill must not appear anywhere — desktop…
+  await expect(page.locator(".ng-drilltab")).toHaveCount(0)
+  // …and its old right-edge seat is live graph, not a dead overlay
+  const hit = await page.evaluate(() => {
+    const el = document.elementFromPoint(innerWidth - 8, Math.round(innerHeight / 2))
+    return el ? el.tagName : "none"
+  })
+  expect(hit, "the pill's old seat hit-tests to the canvas").toBe("CANVAS")
+  // the share cue is CONDITIONAL: no cue, no control
+  await expect(page.locator(".ng-sharecue")).toBeHidden()
+  await expect(page.locator("[data-share-open]")).toHaveCount(0)
+  await expect(page.locator("[data-share-cue]")).toHaveCount(0)
 
-  // and it still opens the pane (its one remaining tap job on desktop)
-  await j.clickByMouse(".ng-drilltab", "the quiet pill")
-  await expect(page.locator(".ng-drill")).toBeVisible()
+  // …and with a cue, the standalone band control renders at 44px and works by mouse
+  await page.evaluate(() => {
+    const a = (window as any).__neural
+    const id = a.newList()
+    a.addToList(a.nodes[a.currentPos].id, id)
+    a._setShareCue({ kind: "class", target: id, n: 1 })
+  })
+  await expect(page.locator(".ng-sharecue")).toBeVisible()
+  const cue = (await page.locator("[data-share-cue]").boundingBox())!
+  expect(cue.height, "44px re-light").toBeGreaterThanOrEqual(44)
+  const open = (await page.locator("[data-share-open]").boundingBox())!
+  expect(open.height, "44px opener").toBeGreaterThanOrEqual(44)
+  await j.clickByMouse("[data-share-open]", "the standalone Class ▸")
+  await expect(page.locator(".ng-drill"), "it opens the pane on the class").toBeVisible()
+  // pane open = the cue yields its corner
+  await expect(page.locator(".ng-sharecue")).toBeHidden()
+  // clearing the cue removes the control entirely
+  await page.evaluate(() => (window as any).__neural.setDeckOpen(false))
+  await page.evaluate(() => (window as any).__neural._setShareCue(null))
+  await expect(page.locator(".ng-sharecue")).toBeHidden()
+  await expect(page.locator("[data-share-open]")).toHaveCount(0)
 })
 
 test("the pane anchors LEFT; the chip stays bottom-right and no longer fades on desktop", async ({
@@ -378,7 +400,7 @@ test("the pane anchors LEFT; the chip stays bottom-right and no longer fades on 
   expect(chip.pe, "and keeps taking clicks").not.toBe("none")
 })
 
-test("phone: chip above the thumb-band pill; drawer opens from the LEFT and fades the chip", async ({
+test("phone: the chip holds the pill's old band seat; drawer via the logo fades it", async ({
   page,
 }) => {
   await page.setViewportSize({ width: 390, height: 844 })
@@ -386,17 +408,15 @@ test("phone: chip above the thumb-band pill; drawer opens from the LEFT and fade
   await j.boot("/")
   await j.land("Mount Top")
 
+  // v1.99.0: the pill is gone on the phone too — the account chip takes its seat in the
+  // thumb band (bottom-right, exactly like desktop's corner ownership)
+  await expect(page.locator(".ng-drilltab")).toHaveCount(0)
   const chip = (await page.locator(".ng-acctwrap").boundingBox())!
-  const pill = (await page.locator(".ng-drilltab").boundingBox())!
-  // v1.81.4 thumb band intact: the pill anchors the band's right seat
-  expect(Math.round(844 - (pill.y + pill.height)), "pill bottom gap").toBe(28)
-  expect(Math.round(390 - (pill.x + pill.width)), "pill right gap").toBe(14)
-  // the chip rides ABOVE the pill, right-aligned, no overlap
-  expect(chip.y + chip.height, "chip clears the pill").toBeLessThanOrEqual(pill.y + 1)
-  expect(390 - (chip.x + chip.width), "chip on the right edge").toBeLessThan(40)
+  expect(Math.round(844 - (chip.y + chip.height)), "chip bottom gap = the pill's old 28").toBe(28)
+  expect(Math.round(390 - (chip.x + chip.width)), "chip right gap").toBe(14)
 
-  // the pill (not the chip — that opens the account menu now) opens the drawer, from the LEFT
-  await j.clickByMouse(".ng-drilltab", "the phone drill pill")
+  // the LOGO opens the drawer (the one pane opener), from the LEFT
+  await j.clickByMouse(".ng-logo", "the logo")
   await expect(page.locator(".ng-drill")).toBeVisible()
   const drawer = (await page.locator(".ng-drill").boundingBox())!
   expect(drawer.x, "drawer slides from the LEFT edge").toBeLessThan(2)

@@ -93,7 +93,9 @@ test("newcomer's first session: coach → question → execute → pane → roam
     await page.evaluate(() => !!(window as any).__neural.paused),
     "roll live",
   ).toBe(false);
-  await page.locator(".ng-drilltab").click();
+  // the pill is deleted (v1.99.0): "study this state" lives on the landing card's chip,
+  // which opens the pane straight onto Last rolls with the current row's deck open
+  await page.locator("[data-land-count]").click();
   expect(
     await page.evaluate(() => !!(window as any).__neural.paused),
     "the pane stopped it",

@@ -124,7 +124,8 @@ test("the sidebar reads back as classic recall — multiple choice is the in-rol
 
   // open the sidebar: its cards must reveal, not offer options. Scoped to the pane — the
   // LANDING card legitimately has [data-mc-opt] buttons of its own, which is the whole point.
-  await page.locator(".ng-drilltab").click()
+  await page.locator(".ng-logo").click()
+  await page.locator('.ng-learning-nav [data-view="history"]').click()
   await expect(
     page.locator(".ng-drill [data-mc-opt]"),
     "no multiple choice in the study pane",

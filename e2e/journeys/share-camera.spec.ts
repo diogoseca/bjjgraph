@@ -334,7 +334,6 @@ test("the share cue never covers the transport at 390x844 @curated", async ({ pa
   const restart = await reach(page, "[data-transport-restart]");
   const cue = await reach(page, "[data-share-cue]");
   const open = await reach(page, "[data-share-open]");
-  const pill = await reach(page, ".ng-drilltab");
   const bar = await reach(page, "[data-transport]");
 
   for (const [name, box] of [
@@ -355,11 +354,12 @@ test("the share cue never covers the transport at 390x844 @curated", async ({ pa
 
   const hits = (a: any, b: any) =>
     a.left < b.right && b.left < a.right && a.top < b.bottom && b.top < a.bottom;
+  // the pill is deleted (v1.99.0) — the standalone cue is the band tenant to check
   expect(
-    hits(pill, bar),
-    `the cue pill (${pill.left}–${pill.right} x ${pill.top}–${pill.bottom}) overlaps the ` +
-      `transport (${bar.left}–${bar.right} x ${bar.top}–${bar.bottom}) — geometry, not just ` +
-      `hit-testing: the two must not share the thumb band at all`,
+    hits(cue, bar) || hits(open, bar),
+    `the share cue (${cue.left}–${cue.right} / ${open.left}–${open.right}) overlaps the ` +
+      `transport (${bar.left}–${bar.right}) — geometry, not just hit-testing: they must ` +
+      `not share the thumb band at all`,
   ).toBe(false);
 
   // and the fix did not simply push the collision one tenant along: the band's third occupant
@@ -374,7 +374,7 @@ test("the share cue never covers the transport at 390x844 @curated", async ({ pa
 
   console.log(
     `[on-screen] band at 390x844 — legend ${legend.left}–${legend.right} · transport ` +
-      `${bar.left}–${bar.right} · cue pill ${pill.left}–${pill.right}; play hit=${play.hit}, ` +
+      `${bar.left}–${bar.right} · cue ${cue.left}–${cue.right}; play hit=${play.hit}, ` +
       `restart hit=${restart.hit}, cue hit=${cue.hit}`,
   );
 

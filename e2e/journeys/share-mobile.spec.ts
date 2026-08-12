@@ -14,7 +14,8 @@ import { journey } from "../dsl";
  *     A drawer that covers the screen is the WRONG terminal state for a link whose whole promise
  *     is "open it and see exactly what we drilled" — and a re-light control living inside that
  *     drawer is unreachable in the one state where you want it. So: the landing ends on the LIT
- *     GRAPH, and the re-light control lives on the collapsed `.ng-drilltab` pill, OUTSIDE the
+ *     GRAPH, and the re-light control is the standalone `.ng-sharecue` band control (v1.99.0 —
+ *     the pill that used to host it is deleted), OUTSIDE the
  *     drawer. Pane law is untouched: nothing in the roll loop opens or closes the pane, and the
  *     arrival no longer opens it here at all.
  *  2. A 150px option card in a horizontally-scrolling tray, on a 390px screen, is where a

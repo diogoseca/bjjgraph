@@ -80,7 +80,7 @@ test("probe: first-roll position pool + the chrome a newcomer sees", async ({
       ".ng-account",
       ".ng-legend",
       ".ng-logo",
-      ".ng-drilltab",
+      ".ng-sharecue", // standalone share cue (v1.99.0; the drill pill is deleted)
       "[data-tut-copy]",
       ".ng-optionrow",
     ]) {
@@ -143,7 +143,7 @@ test("probe: the landing card before, and after, the deck payload lands", async 
         chip: (
           document.querySelector("[data-land-count]") as HTMLElement
         )?.getAttribute("data-land-count"),
-        drilltab: (document.querySelector(".ng-drilltab") as HTMLElement)
+        drilltab: (document.querySelector(".ng-sharecue") as HTMLElement)
           ?.innerText,
         funnel: (a.csBeats || [])
           .filter((b: any) => b.beat === "funnel")
@@ -243,7 +243,7 @@ test("probe: unrigged throttled cold-load timeline", async ({
           def: !!document.querySelector("[data-land-def]"),
           film: !!document.querySelector("[data-land-film]"),
           drilltab: (
-            document.querySelector(".ng-drilltab") as HTMLElement
+            document.querySelector(".ng-sharecue") as HTMLElement
           )?.innerText?.replace(/\n/g, " | "),
           funnel: (a?.csBeats || [])
             .filter((b: any) => b.beat === "funnel")

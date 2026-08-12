@@ -73,7 +73,7 @@ test("Space toggles the roll; Esc unwinds one layer at a time", async ({ page })
   expect(await paused(page), "Space resumed").toBe(false)
 
   // Esc cascade: option sheet first, then the pane — never both at once
-  await page.locator(".ng-drilltab").click()
+  await page.locator(".ng-logo").click()
   await page.keyboard.press("1")
   await expect(page.locator("[data-go]")).toBeVisible()
   await page.keyboard.press("Escape")

@@ -17,7 +17,9 @@ import { journey } from "../dsl"
  *           [data-mini-q] [data-mini-reveal] [data-mini-a]
  */
 
-const openPane = (page: any) => page.locator(".ng-drilltab").click()
+// the pill is deleted (v1.99.0) — "study this state" (openHomeToLatest, which lands on
+// History with the current row's deck open) survives on the landing card's familiarity chip
+const openPane = (page: any) => page.locator("[data-land-count]").click()
 
 test("the pane lists every state the roll has visited, in order", async ({ page }) => {
   const j = journey(page)
