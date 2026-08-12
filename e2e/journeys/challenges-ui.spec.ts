@@ -43,15 +43,33 @@ test.describe("Challenges UI @curated", () => {
 
     const tracks = page.locator(".ng-track-card");
     await expect(tracks).toHaveCount(5);
-    // headers speak plain belts (v1.96.0); the track NAME lives on the selected detail
+    // headers speak plain belts (v1.96.0); the double title is GONE (v1.98.1) — no
+    // "CHALLENGES / <track name> / N of M" head under the belt header, for ANY belt
     const black = page.locator(".ng-track-card[data-track='black']");
     await expect(black).toHaveText(/^Black belt0 of \d+$/);
     await expect(black).toBeEnabled();
     await black.click();
-    await expect(page.locator(".ng-challenge-detail h2")).toHaveText(
-      "Black Breadth",
-    );
+    await expect(page.locator(".ng-challenge-detail-head")).toHaveCount(0);
+    await expect(page.locator(".ng-challenge-detail h2")).toHaveCount(0);
+    await expect(page.locator(".ng-detail-up")).toHaveCount(0);
+    // the selected advanced belt still shows its objectives — headless
+    await expect(
+      page.locator(".ng-belt-section[data-belt='black'] .ng-challenge-row").first(),
+    ).toBeVisible();
     await expect(page.locator(".ng-challenge-lesson").first()).toBeEnabled();
+    // and no separator rides between a belt header and its first content row (v1.98.1)
+    const seams = await page.evaluate(() => {
+      const out: string[] = [];
+      for (const sel of [".ng-challenge-detail", ".ng-challenge-curriculum"]) {
+        document.querySelectorAll(sel).forEach((el) => {
+          const s = getComputedStyle(el);
+          if (s.borderTopStyle !== "none" && parseFloat(s.borderTopWidth) > 0)
+            out.push(sel);
+        });
+      }
+      return out;
+    });
+    expect(seams, "no intra-section divider lines").toEqual([]);
     await expect(
       page.locator(".ng-challenge-checkpoint").first(),
     ).toBeDisabled();
@@ -73,7 +91,10 @@ test.describe("Challenges UI @curated", () => {
 
     await page.locator(".ng-logo").click();
     await page.locator("[data-track='purple']").click();
-    await page.locator(".ng-pin-track").click();
+    // pinning folded into the belt HEADER row (v1.98.1): a compact 44px pin toggle
+    const pin = page.locator("[data-belt-pin='purple']");
+    await expect(pin).toHaveAttribute("aria-pressed", "false");
+    await pin.click();
     await expect(page.locator("[data-challenge-cue]")).toHaveCount(0);
     await page.locator(".ng-explorer-close").click();
     await expect(page.locator("[data-challenge-cue]")).toContainText(
@@ -89,7 +110,21 @@ test.describe("Challenges UI @curated", () => {
       "aria-pressed",
       "true",
     );
-    await expect(page.locator(".ng-pin-track")).toHaveText("Pinned to my roll");
+    // pinned state visibly distinct + spoken: aria-pressed true, and the white pin is not
+    await expect(page.locator("[data-belt-pin='purple']")).toHaveAttribute(
+      "aria-pressed",
+      "true",
+    );
+    await expect(page.locator("[data-belt-pin='white']")).toHaveAttribute(
+      "aria-pressed",
+      "false",
+    );
+    // the old detail-block pin button is gone with the detail head
+    await expect(page.locator(".ng-pin-track")).toHaveCount(0);
+    // 44px affordance
+    const box = (await page.locator("[data-belt-pin='purple']").boundingBox())!;
+    expect(box.width).toBeGreaterThanOrEqual(40);
+    expect(box.height).toBeGreaterThanOrEqual(44);
   });
 
   test("the rewards shelf distinguishes meaningful patches from mint-once joke coins", async ({
@@ -361,7 +396,9 @@ test.describe("Challenges UI @curated", () => {
 
     const tutorial = page.locator("[data-tutorial]");
     await expect(tutorial).toBeVisible();
-    await expect(tutorial).toContainText("Getting started");
+    // renamed "Getting started" → "Tutorial" (v1.98.1), belt-header typography
+    await expect(tutorial.locator(".ng-tutorial-head b")).toHaveText("Tutorial");
+    await expect(tutorial).not.toContainText("Getting started");
     // the twenty White evidence objectives live HERE now, not on the belt ladder
     await expect(tutorial.locator(".ng-challenge-row")).toHaveCount(20);
     await expect(
@@ -417,16 +454,121 @@ test.describe("Challenges UI @curated", () => {
       .toBe(true);
     await page.locator(".ng-logo").click();
 
-    // 14 of 20 done — the tutorial renders collapsed, rows in DOM but folded away
+    // FOLDED BY DEFAULT AT ANY PROGRESS (v1.98.1 — the ≥14 threshold is dead): 14 of 20
+    // renders collapsed, rows in DOM but folded away
     const tutorial = page.locator("[data-tutorial]");
     await expect(tutorial).toHaveAttribute("data-collapsed", "true");
     await expect(tutorial).toContainText("14 of 20");
     await expect(tutorial.locator(".ng-challenge-row")).toHaveCount(20);
     await expect(tutorial.locator(".ng-challenge-row").first()).toBeHidden();
-    // ...and what he HASN'T seen shows compactly without expanding
+    // ...and what he HASN'T seen shows compactly WITHOUT expanding — chips to the RIGHT of
+    // the title, ON THE SAME ROW (v1.98.1)
     const remainder = tutorial.locator("[data-tutorial-remainder]");
     await expect(remainder).toBeVisible();
     await expect(remainder).toContainText("Watch a film-study Short");
+    const geo = await page.evaluate(() => {
+      const b = document.querySelector(".ng-tutorial-head b")!.getBoundingClientRect();
+      const r = document.querySelector("[data-tutorial-remainder]")!.getBoundingClientRect();
+      const pane = document.querySelector(".ng-drill")!.getBoundingClientRect();
+      return {
+        sameRow: Math.abs(b.top + b.height / 2 - (r.top + r.height / 2)) < 10,
+        rightOfTitle: r.left >= b.right,
+        contained: r.right <= pane.right + 1,
+      };
+    });
+    expect(geo.sameRow, "chips share the title's row").toBe(true);
+    expect(geo.rightOfTitle, "chips sit to the right of the title").toBe(true);
+    expect(geo.contained, "and truncate inside the pane instead of overflowing").toBe(true);
+  });
+
+  test("the tutorial defaults folded even on a fresh boot — no progress threshold", async ({
+    page,
+  }) => {
+    const j = journey(page);
+    await j.boot("/", { keepTutorial: true });
+    await expect
+      .poll(() => page.evaluate(() => !!(window as any).__neural.curriculum))
+      .toBe(true);
+    await page.locator(".ng-logo").click();
+
+    // v1.98.1 (owner at 11/20 saw it expanded): collapsed regardless of progress
+    const tutorial = page.locator("[data-tutorial]");
+    await expect(tutorial).toHaveAttribute("data-collapsed", "true");
+    // the user's own expansion persists via the existing settings map
+    await page.locator("[data-tutorial-toggle]").click();
+    await expect(tutorial).toHaveAttribute("data-collapsed", "false");
+    await j.boot("/", { preserveStorage: true, keepTutorial: true });
+    await expect
+      .poll(() => page.evaluate(() => !!(window as any).__neural.curriculum))
+      .toBe(true);
+    await page.locator(".ng-logo").click();
+    await expect(page.locator("[data-tutorial]")).toHaveAttribute(
+      "data-collapsed",
+      "false",
+    );
+  });
+
+  test("Continue is gone; opening Challenges lands on the frontier's belt section", async ({
+    page,
+  }) => {
+    const j = journey(page);
+    await j.boot("/", { keepTutorial: true });
+    await expect
+      .poll(() => page.evaluate(() => !!(window as any).__neural.curriculum))
+      .toBe(true);
+
+    // pin BLACK so the frontier lives far down the corridor — the scroll must be earned
+    await page.evaluate(() => (window as any).__neural.pinChallengeTrack("black"));
+    await page.locator(".ng-logo").click();
+    await expect(page.locator(".ng-challenge-ladder")).toBeVisible();
+
+    // the button is dead (v1.98.1) — arrival positioning replaced it
+    await expect(page.locator("[data-challenge-continue]")).toHaveCount(0);
+
+    const arrived = await page.evaluate(() => {
+      const list = document.querySelector(".ng-learning-list") as HTMLElement;
+      const sec = document.querySelector(
+        ".ng-belt-section[data-belt='black']",
+      ) as HTMLElement;
+      const lr = list.getBoundingClientRect();
+      const sr = sec.getBoundingClientRect();
+      return {
+        scrollTop: list.scrollTop,
+        headOffset: sr.top - lr.top,
+        secBottom: sr.bottom - lr.top,
+      };
+    });
+    expect(arrived.scrollTop, "the tab opened scrolled, not at the top").toBeGreaterThan(100);
+    // the header rides AT the top — or above it only by what the frontier row needs
+    // (black's section opens with a principles group taller than one viewport, so header
+    // and frontier cannot always share the screen; the row wins, minimally). Never below.
+    expect(
+      arrived.headOffset,
+      "landed inside the pinned belt's section, at or past its header",
+    ).toBeLessThanOrEqual(2);
+    expect(arrived.secBottom, "and not scrolled past the section").toBeGreaterThan(0);
+    // the frontier row is marked (the existing glow) and FULLY in view
+    const frontier = page.locator(".ng-challenge-lesson[data-frontier]");
+    await expect(frontier).toHaveCount(1);
+    expect(
+      await frontier.evaluate((el) => {
+        const list = document.querySelector(".ng-learning-list")!.getBoundingClientRect();
+        const r = el.getBoundingClientRect();
+        return r.top >= list.top - 2 && r.bottom <= list.bottom + 2;
+      }),
+      "the frontier row is fully inside the viewport",
+    ).toBe(true);
+
+    // a re-render (roll beats, evidence refresh) must NOT yank the scroll while reading
+    await page.evaluate(() => {
+      const list = document.querySelector(".ng-learning-list") as HTMLElement;
+      list.scrollTop = list.scrollTop + 120; // the user read further down
+      (window as any).__neural.renderExplorer();
+    });
+    const after = await page.evaluate(
+      () => (document.querySelector(".ng-learning-list") as HTMLElement).scrollTop,
+    );
+    expect(after, "re-renders preserve the reading position").toBeGreaterThan(arrived.scrollTop + 80);
   });
 
   test("belt sections collapse independently and the choice survives a reload", async ({

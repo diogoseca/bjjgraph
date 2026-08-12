@@ -131,20 +131,11 @@ test.describe("Game Knowledge @curated", () => {
     const game = await setMastery(page, key, 2);
     await openChallenges(page);
 
-    // the belt block lives at the top of Explore since v1.96.0 (the header is gone);
-    // rank speaks through the meter's role=meter aria
-    await page.evaluate(() => {
-      const a = (window as any).__neural;
-      a.setViewMode("explore");
-    });
-    await expect(page.locator("[data-knowledge]")).toBeVisible();
-    await expect(page.locator(".ng-knowledge-meter")).toHaveAttribute(
-      "aria-valuenow",
-      (game.score * 100).toFixed(1),
-    );
-    await expect(page.locator(".ng-knowledge-meter")).toHaveAttribute(
-      "aria-label",
-      /Purple belt/,
+    // the score belt visual is retired (v1.98.1) — the score's one exposure is the
+    // Explore tab subtitle, and it reads the SAME gameScore()
+    await expect(page.locator(".ng-knowledge-meter")).toHaveCount(0);
+    await expect(page.locator('[data-tab-sub="explore"]')).toHaveText(
+      "Mastered " + Math.round(game.score * 100) + "%",
     );
   });
 
@@ -167,12 +158,9 @@ test.describe("Game Knowledge @curated", () => {
 
     await openChallenges(page);
     await expect(page.locator(".ng-track-card")).toHaveCount(5);
-    // the meter lives at the top of Explore since v1.96.0 — content (the ladder above)
-    // stayed open; the lower score shows on the Explore-mounted belt
-    await page.evaluate(() => (window as any).__neural.setViewMode("explore"));
-    await expect(page.locator(".ng-knowledge-meter")).toHaveAttribute(
-      "aria-valuenow",
-      (lower.score * 100).toFixed(1),
+    // no meter visual anymore (v1.98.1) — the subtitle reads the lowered score
+    await expect(page.locator('[data-tab-sub="explore"]')).toHaveText(
+      "Mastered " + Math.round(lower.score * 100) + "%",
     );
   });
 

@@ -87,7 +87,8 @@ test.describe("White Challenges @curated", () => {
     await expect(page.locator("[data-challenge-cue]")).toHaveCount(0);
     await page.locator(".ng-logo").click();
     await page.locator("[data-track='white']").click();
-    await page.locator(".ng-pin-track").click();
+    // the pin lives on the belt header row since v1.98.1 (the detail head is gone)
+    await page.locator("[data-belt-pin='white']").click();
     await page.locator(".ng-explorer-close").click();
     await expect(page.locator("[data-challenge-cue]")).toBeVisible();
   });
@@ -103,16 +104,17 @@ test.describe("White Challenges @curated", () => {
       "aria-pressed",
       "true",
     );
-    // the twenty objectives ARE the Getting started section (v1.96.0) — they ride above
+    // the twenty objectives ARE the Tutorial section (renamed v1.98.1) — they ride above
     // the belt corridor, and no legacy Tutorial row exists anywhere
     await expect(page.locator(".ng-challenge-row")).toHaveCount(20);
     await expect(
       page.locator("[data-tutorial] .ng-challenge-row"),
     ).toHaveCount(20);
     await expect(page.locator("[data-tut-row]")).toHaveCount(0);
-    await expect(page.locator(".ng-challenge-detail h2")).toHaveText(
-      "White Foundations",
-    );
+    // the detail head died in v1.98.1 (the double title) — White renders no detail at all;
+    // its section head reads "Tutorial" in the belt headers' lettering
+    await expect(page.locator(".ng-challenge-detail h2")).toHaveCount(0);
+    await expect(page.locator(".ng-tutorial-head b")).toHaveText("Tutorial");
   });
 
   test("the Journey DSL can pre-complete foundational objectives without changing Game Knowledge", async ({

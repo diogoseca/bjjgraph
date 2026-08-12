@@ -61,7 +61,6 @@ const seen = (page: any, label: string) =>
       ".ng-optionrow",
       ".ng-drilltab",
       ".ng-explorer",
-      "[data-knowledge]", // the Explore-mounted knowledge belt (v1.96.0; header gone)
       "[data-tut-copy]",
       ".ng-status",
       ".ng-transport",

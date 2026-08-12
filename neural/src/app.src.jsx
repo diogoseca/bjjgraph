@@ -1122,6 +1122,9 @@ class Component extends DCLogic {
       // the same choke point that latches the pane law, so no open path can miss it; the _wired
       // flags inside make repeat calls no-ops.
       this._wirePaneControls();
+      // arrival positioning (v1.98.1): opening the pane onto Challenges lands the corridor
+      // where the person is — renderChallenges consumes this once, instantly
+      if (this._viewMode === "challenges") this._challengeScrollPending = true;
       if (!this.paused) { this.setPaused(true); this._paneAutoPaused = true; this.fx("pane_paused", {}); }
       const active = document.activeElement;
       this._explorerReturnFocus = active && active !== document.body ? active : null;
@@ -1901,17 +1904,14 @@ class Component extends DCLogic {
   renderPaneAnchor() {
     const el = this.paneAnchorRef.current; if (!el) return;
     if (this.user) { el.innerHTML = ""; el.style.display = "none"; return; }
-    // ONE dense line (v1.97.1, owner — the stacked nudge wasted two sparse rows):
-    // plain framing clause · Create account as the primary pill · quiet Log in link.
-    // nowrap by construction at the 360px rail (~282px of content in ~312px); both
-    // controls keep 44px hit areas via min-height on a centered 44px row.
+    // THE CLASSIC STACK (v1.98.1, owner's final design — supersedes the v1.97 one-liner):
+    // three levels reading as ONE unit — a small muted caption (the why), the full-width
+    // primary button (the block's one visual anchor), and a centered quiet escape line.
+    // Tight vertical rhythm; guest-only; drawer + desktop alike.
     el.innerHTML =
-      '<div data-anchor-authrow="1" style="display:flex;align-items:center;justify-content:center;gap:7px;min-height:44px;white-space:nowrap;">' +
-        '<span style="flex:none;font-size:11px;color:#8b97b0;">Save your progress —</span>' +
-        '<button type="button" class="ngHdrAuth" data-anchor-auth="1" style="flex:none;cursor:pointer;font-family:inherit;border:none;min-height:44px;padding:0 13px;border-radius:999px;background:linear-gradient(135deg,#4a6cff,#7a4cff);box-shadow:0 3px 12px rgba(74,108,255,.35);font-size:12px;font-weight:800;color:#fff;transition:filter .15s ease;">Create account</button>' +
-        '<span style="flex:none;width:3px;height:3px;border-radius:50%;background:#3c4358;"></span>' +
-        '<button type="button" data-anchor-login="1" style="flex:none;cursor:pointer;font-family:inherit;border:none;background:transparent;min-height:44px;padding:0 4px;font-size:11.5px;font-weight:600;color:#7e8aa3;">Log in</button>' +
-      '</div>';
+      '<div data-anchor-caption="1" style="text-align:center;font-size:10.5px;font-weight:600;letter-spacing:.02em;color:#8b97b0;">Save your progress</div>' +
+      '<button type="button" class="ngHdrAuth" data-anchor-auth="1" style="cursor:pointer;font-family:inherit;border:none;width:100%;min-height:44px;margin-top:6px;padding:0 13px;border-radius:12px;background:linear-gradient(135deg,#4a6cff,#7a4cff);box-shadow:0 4px 16px rgba(74,108,255,.38);font-size:13px;font-weight:800;color:#fff;transition:filter .15s ease;">Create account</button>' +
+      '<div data-anchor-alt="1" style="display:flex;align-items:center;justify-content:center;gap:5px;font-size:11px;color:#7e8aa3;"><span>Already have one?</span><button type="button" data-anchor-login="1" style="cursor:pointer;font-family:inherit;border:none;background:transparent;min-height:44px;padding:0 6px;font-size:11px;font-weight:700;color:#9db4ff;">Log in</button></div>';
     el.style.display = this._paneStudyActive() ? "none" : "flex";
     { const a = el.querySelector("[data-anchor-auth]"); if (a) { a.addEventListener("mouseenter", () => a.style.filter = "brightness(1.08)"); a.addEventListener("mouseleave", () => a.style.filter = "none"); a.addEventListener("click", () => this.openAuth("create")); } }
     { const l = el.querySelector("[data-anchor-login]"); if (l) { l.addEventListener("mouseenter", () => l.style.color = "#cbd4e6"); l.addEventListener("mouseleave", () => l.style.color = "#7e8aa3"); l.addEventListener("click", () => this.openAuth("login")); } }
@@ -3554,6 +3554,7 @@ class Component extends DCLogic {
     // Challenges tab's curriculum fog is never fighting a stale System selection for the graph
     this.clearFocus();
     this._viewMode = m;
+    if (m === "challenges") this._challengeScrollPending = true; // arrival positioning on tab open (v1.98.1)
     this.set("challengeView", m);
     try { localStorage.setItem("bjj_view_mode", m); } catch (e) {}
     this.styleViewToggle();
@@ -3571,7 +3572,7 @@ class Component extends DCLogic {
     // tools = the search row only since the GI pill moved to Settings (v1.95.3) — Explore only
     const tools = this.explorerToolsRef.current;
     if (tools) tools.style.display = this._viewMode === "explore" ? "flex" : "none";
-    if (this.renderKnowledgeHeader) this.renderKnowledgeHeader();
+    if (this.renderTabSubtitles) this.renderTabSubtitles(); // the Explore subtitle is the score's one exposure (v1.98.1)
   }
   // A deck's lesson goal is min(3, its card count) — and the manifest's `n` is that count even
   // before the cards land, so a 1-card deck never asks for 3 answers just because it is still
@@ -3852,15 +3853,21 @@ class Component extends DCLogic {
     // defensive: legacy callers (setGiMode, pinChallengeTrack, selectChallengeTrack) call this
     // directly — route the History tab to its own renderer instead of the explorer list
     if (this._viewMode === "history") {
-      if (this.renderKnowledgeHeader) this.renderKnowledgeHeader();
+      if (this.renderTabSubtitles) this.renderTabSubtitles();
       if (this.deckShown && !this._paneStudyActive()) this.renderDrillHome();
       return;
     }
     const list = this.explorerListRef.current; if (!list) return;
+    // corridor re-renders (evidence beats, pin/select/fold clicks) must not yank the
+    // scroll while the user reads (the History-body gate precedent) — keep it unless an
+    // arrival reposition is pending (v1.98.1)
+    const keepScroll =
+      this._viewMode === "challenges" && !this._challengeScrollPending ? list.scrollTop : null;
     list.innerHTML = "";
-    if (this.renderKnowledgeHeader) this.renderKnowledgeHeader();
+    if (this.renderTabSubtitles) this.renderTabSubtitles();
     if (this._viewMode === "challenges") {
       this.renderChallenges(list);
+      if (keepScroll != null) list.scrollTop = keepScroll;
       return;
     }
     const data = this.buildExplorer();
@@ -3967,11 +3974,10 @@ class Component extends DCLogic {
         }
       }
     };
-    // order: knowledge belt \u2192 stats \u2192 Lists \u2192 Systems \u2192 Principles \u2192 Positions \u2192
-    // Transitions \u2192 Submissions \u2192 Learning. Explore = game knowledge (v1.96.0): the woven
-    // belt block leads, the stat row under it (the weak-spots count is Explore's call to
-    // action, owner); Lists heads the sections \u2014 the acquisition loop runs through it.
-    list.appendChild(this._knowledgeBlock());
+    // order: stats \u2192 Lists \u2192 Systems \u2192 Principles \u2192 Positions \u2192 Transitions \u2192
+    // Submissions \u2192 Learning. The score-belt block is GONE (v1.98.1, owner: "we should no
+    // longer see this") \u2014 the score lives in the Explore tab subtitle; the stat row leads
+    // (the weak-spots count is Explore's call to action); Lists heads the sections.
     list.appendChild(this._exploreStatsRow());
     this.renderLists(list);
     renderSystems();
@@ -5592,7 +5598,7 @@ class Component extends DCLogic {
   // _stageVer, so hydration MUST come through here or a stale score sticks for the session.
   _bumpStageVer() {
     this._stageVer = (this._stageVer || 0) + 1;
-    if (this.renderKnowledgeHeader) this.renderKnowledgeHeader();
+    if (this.renderTabSubtitles) this.renderTabSubtitles(); // keep the Explore subtitle live with the score
   }
   // first sentence, ≤160 chars — applied to the CORRECT answer too (no length tell).
   // null = this text cannot be an MC option (the card falls back to classic recall).

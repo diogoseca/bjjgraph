@@ -36,7 +36,6 @@
   padding: 64px 64px 16px 24px !important;
 }
 
-.ng-challenge-detail-head,
 .ng-collection-section > div:first-child {
   display: flex;
   align-items: baseline;
@@ -44,158 +43,10 @@
   gap: 10px;
 }
 
-/* ── the belt (v1.90.0; mounted at the top of Explore since v1.96.0, [data-knowledge]) —
-   the Game Knowledge meter as a miniature BJJ belt, CSS-only.
-   Layers, top-down: cylindrical sheen → longitudinal stitch rows (shadow+thread highlight,
-   real belts carry 4-8) → twill crosshatch (two faint 1px diagonals) → the dye. The rank
-   bar is the sleeve near the tip; tape stripes are its <b> children. Black wears the red
-   bar and NO stripe ladder. Display-only: it reads gameScore(), nothing reads it back. */
-.ng-knowledge-meter {
-  --dye: #b6bac2;
-  --wv: #ffffff12;
-  --wd: #00000017;
-  --st: #0003;
-  --hl: #ffffff0f;
-  --bar: #17171b;
-  position: relative;
-  height: 22px;
-  margin-top: 10px;
-  overflow: hidden;
-  border-radius: 2px;
-  background:
-    linear-gradient(180deg, #ffffff2e, rgba(255, 255, 255, 0) 32%, rgba(0, 0, 0, 0) 60%, #00000042),
-    repeating-linear-gradient(0deg, var(--st) 0 1px, var(--hl) 1px 2px, transparent 2px 5px),
-    repeating-linear-gradient(63deg, var(--wv) 0 1px, transparent 1px 3px),
-    repeating-linear-gradient(-63deg, var(--wd) 0 1px, transparent 1px 3px),
-    var(--dye);
-  box-shadow:
-    inset 0 2px 1px -1px #ffffff40,
-    inset 0 -2px 1px -1px #0006,
-    inset 0 0 0 1px #00000047;
-  transition: filter 0.3s;
-}
+/* the woven score-belt CSS (meter, rank bar, tape, band road) left with its renderer
+   (v1.98.1) — see git history at v1.96.0. The corridor rails and .ng-tab-belt carry the
+   belt craft now. */
 
-.ng-knowledge-meter:hover {
-  filter: brightness(1.05);
-}
-
-.ng-knowledge-meter[data-belt="none"],
-.ng-knowledge-meter[data-belt="white"] {
-  --dye: #ddd7c8;
-  --wv: #ffffff59;
-  --wd: #60564224;
-  --st: #60564238;
-  --hl: #ffffff4c;
-}
-
-.ng-knowledge-meter[data-belt="blue"] {
-  --dye: #2c5299;
-}
-
-.ng-knowledge-meter[data-belt="purple"] {
-  --dye: #59396f;
-}
-
-.ng-knowledge-meter[data-belt="brown"] {
-  --dye: #6b4a2e;
-}
-
-.ng-knowledge-meter[data-belt="black"] {
-  --dye: #1e1e23;
-  --wv: #ffffff0d;
-  --wd: #00000059;
-  --st: #0006;
-  --hl: #ffffff0d;
-  --bar: #8e2622;
-}
-
-.ng-belt-bar {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  right: 9%;
-  width: 24%;
-  display: flex;
-  justify-content: center;
-  gap: 4px;
-  background:
-    linear-gradient(180deg, #ffffff1f, rgba(255, 255, 255, 0) 32%, rgba(0, 0, 0, 0) 60%, #0000003d),
-    repeating-linear-gradient(0deg, #00000047 0 1px, #ffffff0a 1px 2px, transparent 2px 5px),
-    repeating-linear-gradient(63deg, #ffffff0d 0 1px, transparent 1px 3px),
-    repeating-linear-gradient(-63deg, #0003 0 1px, transparent 1px 3px),
-    var(--bar);
-  box-shadow:
-    inset 2px 0 1px -1px #00000073,
-    inset -2px 0 1px -1px #00000073;
-}
-
-.ng-belt-bar > b {
-  flex: none;
-  width: 5px;
-  background: linear-gradient(180deg, #f6f3ea, #ddd8ca 52%, #bdb6a4);
-  box-shadow: 0 0 3px #0000008c;
-}
-
-.ng-belt-bar > b[data-new] {
-  animation: ngTape 0.55s cubic-bezier(0.2, 1.3, 0.4, 1);
-}
-
-@keyframes ngTape {
-  0% {
-    transform: translateY(-105%);
-  }
-  65% {
-    transform: translateY(6%);
-  }
-  100% {
-    transform: none;
-  }
-}
-
-/* ── the band line (v1.93.0) — the belt's quiet companion. One 3px road on the score axis:
-   white is the FLOOR and owns 0→40 (v1.95.0 — everybody starts as white, so there is no
-   pre-white lead-in); blue→purple→brown→black sit exactly where BELT_SCORE earns them
-   (40/60/70/80); the dot is where you are. Static, aria-hidden, no numbers of its own. */
-.ng-belt-road {
-  position: relative;
-  display: flex;
-  height: 3px;
-  margin-top: 8px;
-  border-radius: 2px;
-  overflow: visible;
-}
-
-.ng-belt-road > span {
-  height: 100%;
-  opacity: 0.55;
-}
-
-.ng-belt-road > span:first-child {
-  border-radius: 2px 0 0 2px;
-}
-
-.ng-belt-road > span:last-child {
-  border-radius: 0 2px 2px 0;
-}
-
-.ng-belt-you {
-  position: absolute;
-  top: 50%;
-  width: 7px;
-  height: 7px;
-  border-radius: 50%;
-  transform: translate(-50%, -50%);
-  background: #eef1f6;
-  box-shadow:
-    0 0 0 2px rgba(15, 17, 30, 0.9),
-    0 0 6px rgba(238, 241, 246, 0.55);
-}
-
-@media (prefers-reduced-motion: reduce) {
-  .ng-knowledge-meter {
-    transition: none;
-  }
-}
 
 .ng-learning-nav {
   display: grid;
@@ -341,52 +192,7 @@
   gap: 8px;
 }
 
-/* ── the ladder (v1.76.0): one scroll over all five tracks, old-Belt-Path style ── */
-.ng-challenge-continue {
-  width: 100%;
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  margin: 0 0 12px;
-  padding: 12px 14px;
-  border: 1px solid var(--ng-track, #8fa9e8);
-  border-radius: 12px;
-  background: rgba(255, 255, 255, 0.05);
-  color: inherit;
-  font-family: inherit;
-  text-align: left;
-  cursor: pointer;
-  animation: ngBeacon 1.5s ease-in-out infinite;
-}
-
-.ng-challenge-continue > span {
-  min-width: 0;
-  flex: 1;
-  display: grid;
-  gap: 3px;
-}
-
-.ng-challenge-continue small {
-  color: var(--ng-track, #8fa9e8);
-  font-size: 8px;
-  font-weight: 900;
-  letter-spacing: 0.11em;
-}
-
-.ng-challenge-continue b {
-  overflow: hidden;
-  color: #eef1f6;
-  font-size: 12.5px;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-}
-
-.ng-challenge-continue > em {
-  flex: none;
-  color: var(--ng-track, #8fa9e8);
-  font-size: 15px;
-  font-style: normal;
-}
+/* the Continue button died in v1.98.1 — arrival positioning (renderChallenges) replaced it */
 
 /* gentle dimming — visual only, every row stays clickable; crowns/tokens keep full color
    (span:last-of-type, not :last-child — a done row's check <i> sits after the name span) */
@@ -402,6 +208,12 @@
 .ng-challenge-lesson[data-frontier] {
   border: 1px solid var(--ng-track, #8fa9e8);
   animation: ngBeacon 1.5s ease-in-out infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .ng-challenge-lesson[data-frontier] {
+    animation: none;
+  }
 }
 
 .ng-challenge-lesson[data-frontier] > span:last-of-type {
@@ -546,7 +358,6 @@
   border-color: var(--ng-track);
 }
 
-.ng-challenge-detail-head small,
 .ng-challenge-curriculum > small,
 .ng-challenge-capstone > small,
 .ng-collection-intro > small {
@@ -570,6 +381,24 @@
   font-size: 9.5px;
   font-weight: 600;
   white-space: nowrap;
+}
+
+/* the pin: "Pinned to my roll" folded onto the header row (v1.98.1) — compact, 44px,
+   visibly distinct when pinned (filled glyph, track tint) */
+.ng-belt-pin {
+  flex: none;
+  width: 44px;
+  border: 1px solid rgba(150, 170, 210, 0.18);
+  border-radius: 11px;
+  background: rgba(255, 255, 255, 0.03);
+  color: #9ba8c1;
+  cursor: pointer;
+}
+
+.ng-belt-pin[aria-pressed="true"] {
+  border-color: var(--ng-track);
+  background: var(--ng-track-soft, rgba(255, 255, 255, 0.08));
+  color: #eef1f6;
 }
 
 .ng-belt-toggle {
@@ -620,23 +449,35 @@
   cursor: pointer;
 }
 
-.ng-tutorial-head > span {
+.ng-tutorial-head b {
+  flex: none;
+  color: #eef1f6;
+  font: 750 14px/1.15 "Space Grotesk", sans-serif; /* the belt headers' own lettering */
+}
+
+/* still-to-see chips on the SAME ROW as the title (v1.98.1): one line, right of the
+   title, clipped with a fade — never wrapping, never overflowing the pane */
+.ng-tutorial-chips {
   flex: 1;
   min-width: 0;
-  display: grid;
-  gap: 3px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  overflow: hidden;
+  white-space: nowrap;
+  mask-image: linear-gradient(90deg, #000 82%, transparent 100%);
+  -webkit-mask-image: linear-gradient(90deg, #000 82%, transparent 100%);
 }
 
-.ng-tutorial-head small {
-  color: #8fa9e8;
-  font-size: 8px;
-  font-weight: 900;
-  letter-spacing: 0.11em;
-}
-
-.ng-tutorial-head b {
-  color: #eef1f6;
-  font: 750 14px/1.15 "Space Grotesk", sans-serif;
+.ng-tutorial-chips > i {
+  flex: none;
+  padding: 3px 8px;
+  border: 1px solid rgba(150, 170, 210, 0.2);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.03);
+  color: #aab4c8;
+  font-size: 9px;
+  font-style: normal;
 }
 
 .ng-tutorial-head strong {
@@ -662,38 +503,6 @@
   display: none;
 }
 
-/* folded-but-unfinished: what he hasn't seen, compactly */
-.ng-tutorial-remainder {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  gap: 5px;
-  padding: 0 2px 8px;
-}
-
-.ng-tutorial-remainder small {
-  flex-basis: 100%;
-  margin-bottom: 2px;
-  color: #7f8ba4;
-  font-size: 8px;
-  font-weight: 800;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-}
-
-.ng-tutorial-remainder span {
-  padding: 3px 8px;
-  border: 1px solid rgba(150, 170, 210, 0.2);
-  border-radius: 999px;
-  background: rgba(255, 255, 255, 0.03);
-  color: #aab4c8;
-  font-size: 9px;
-}
-
-.ng-tutorial-remainder .ng-tutorial-more {
-  border-style: dashed;
-  color: #7f8ba4;
-}
 
 /* the ladder explains itself ONCE (the per-track prose block is display-retired) */
 .ng-ladder-note {
@@ -703,11 +512,18 @@
   line-height: 1.5;
 }
 
-.ng-detail-up {
-  margin: 0;
-  color: #8793aa;
-  font-size: 9px;
-  line-height: 1.45;
+.ng-challenge-curriculum {
+  display: grid;
+  gap: 8px;
+  margin-top: 2px;
+}
+
+/* headless objectives block (the detail head + pin left for the belt header, v1.98.1);
+   NO top border — the corridor + section spacing does the structure (owner) */
+.ng-challenge-detail {
+  display: grid;
+  gap: 9px;
+  margin-top: 2px;
 }
 
 /* ── principles slot — rendered only when curriculum data provides a belt's list ── */
@@ -741,15 +557,8 @@
   line-height: 1.45;
 }
 
-.ng-challenge-detail {
-  display: grid;
-  gap: 9px;
-  margin-top: 16px;
-  padding-top: 15px;
-  border-top: 1px solid rgba(150, 170, 210, 0.15);
-}
 
-.ng-challenge-detail-head h2,
+
 .ng-collection-intro h2,
 .ng-collection-section h3 {
   margin: 3px 0 0;
@@ -757,20 +566,6 @@
   font: 750 17px/1.15 "Space Grotesk", sans-serif;
 }
 
-.ng-challenge-detail-head > span {
-  color: #aeb9d2;
-  font-size: 9.5px;
-}
-
-.ng-pin-track {
-  min-height: 44px;
-  border: 1px solid rgba(120, 159, 255, 0.45);
-  border-radius: 9px;
-  background: rgba(120, 159, 255, 0.12);
-  color: #e7ecf7;
-  font: 750 10px/1 "Plus Jakarta Sans", sans-serif;
-  cursor: pointer;
-}
 
 .ng-challenge-row {
   display: grid;
@@ -832,13 +627,7 @@
   cursor: pointer;
 }
 
-.ng-challenge-curriculum {
-  display: grid;
-  gap: 8px;
-  margin-top: 4px;
-  padding-top: 14px;
-  border-top: 1px solid rgba(150, 170, 210, 0.13);
-}
+
 
 .ng-challenge-group,
 .ng-challenge-capstone,

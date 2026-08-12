@@ -42,110 +42,11 @@ const NG_LESSON_CAT_COLORS = Object.freeze({
 });
 
 const NG_CHALLENGE_UI_METHODS = {
-  // ── THE KNOWLEDGE BELT (relocated v1.96.0): the `.ng-knowledge-header` section above the
-  // tabs is GONE — after the tab subtitles it triple-stated the same fact (owner: one home
-  // per fact). Explore = game knowledge: this block mounts at the TOP OF EXPLORE'S BODY,
-  // merged with the stats row (order: woven belt → band road → "N% to blue" → stats). The
-  // meter keeps role=meter + the full aria (rank, stripes, road) — accessibility loses
-  // nothing; the "YOUR GAME KNOWLEDGE" kicker and big % are simply not restated (the
-  // Explore tab subtitle carries "Mastered N%").
-  _knowledgeBlock() {
-    const game = this.gameScore();
-    const score = Math.max(0, Math.min(100, game.score * 100));
-    // WHITE IS THE FLOOR, NOT A TARGET (v1.95.0, owner's rule): "everybody starts as white —
-    // there is never 0% to white. It's always 0% to blue." gameScore() still reports
-    // belt:null below the first threshold (its math is untouched, per the same rule); the
-    // DISPLAY maps that floor onto the white belt, whose road spans the whole 0 → blue
-    // stretch. Held belts from blue up keep their BELT_SCORE band exactly as earned.
-    const dispBelt = game.belt || "white";
-    const belt = dispBelt.charAt(0).toUpperCase() + dispBelt.slice(1);
-    // The meter IS a belt (v1.90.0) — woven strap, rank bar, tape stripes. Display-only by
-    // canon: it reads gameScore() and nothing reads it back. Black wears the red bar and no
-    // stripe ladder (the stripe system ends at black — owner's rule).
-    const B = this.BELT_SCORE;
-    let lo = 0;
-    let hi = B[1][1]; // white (floor or held) spans 0 → the blue threshold
-    for (let i = 1; i < B.length; i++)
-      if (dispBelt === B[i][0]) {
-        lo = B[i][1];
-        hi = i + 1 < B.length ? B[i + 1][1] : 1;
-      }
-    const pct = Math.max(
-      0,
-      Math.min(100, Math.round(((game.score - lo) / (hi - lo)) * 100)),
-    );
-    const black = dispBelt === "black";
-    // stripes: held belts wear gameScore().stripes exactly; the white floor derives its
-    // quarter-marks from the displayed 0→blue road (gameScore's internal pre-white/white
-    // split would reset the tape count mid-road, which reads as regression).
-    const stripes = black
-      ? 0
-      : dispBelt === "white"
-        ? Math.max(0, Math.min(4, Math.floor(((game.score - lo) / (hi - lo)) * 4)))
-        : game.stripes;
-    const next = black ? null : dispBelt === "white" ? "blue" : game.next;
-    const road = next ? pct + "% to " + next : "";
-    const label = black
-      ? "Black belt"
-      : belt +
-        " belt, " +
-        stripes +
-        (stripes === 1 ? " stripe" : " stripes") +
-        (road ? " — " + road : "");
-    // a stripe EARNED on the same belt gets the tape-wrap animation (data-new)
-    const prev = this._beltShown;
-    const fresh =
-      prev && prev.belt === dispBelt && stripes > prev.stripes
-        ? prev.stripes
-        : stripes;
-    this._beltShown = { belt: dispBelt, stripes: stripes };
-    let tape = "";
-    for (let i = 0; i < stripes; i++)
-      tape += i >= fresh ? "<b data-new></b>" : "<b></b>";
-    // THE BAND LINE (v1.93.0) — the woven belt's quiet companion: one horizontal road, the
-    // five bands laid out on the score axis, your position marked on it. White owns 0→40
-    // (the floor — no pre-white lead-in, v1.95.0); blue/purple/brown/black sit exactly where
-    // BELT_SCORE earns them (40/60/70/80). Decorative (aria-hidden) — the meter's aria-label
-    // already speaks belt, stripes and road.
-    const segs = [
-      ["#d8dde8", 40],               // white — the floor: held from 0 all the way to blue
-      ["#78a2f5", 20],               // blue held: 40–60
-      ["#b38bdd", 10],               // purple held: 60–70
-      ["#bd8a68", 10],               // brown held: 70–80
-      ["#8d929f", 20],               // black held: 80–100
-    ];
-    let roadHtml = '<div class="ng-belt-road" aria-hidden="true">';
-    for (const s of segs) roadHtml += '<span style="flex:0 0 ' + s[1] + '%;background:' + s[0] + ';"></span>';
-    roadHtml += '<i class="ng-belt-you" style="left:' + score.toFixed(1) + '%"></i></div>';
-    const el = document.createElement("div");
-    el.setAttribute("data-knowledge", "1");
-    el.style.cssText = "padding:6px 12px 0;";
-    el.innerHTML =
-      '<div class="ng-knowledge-meter ng-belt" role="meter" data-belt="' +
-      dispBelt +
-      '" aria-label="' +
-      ngChallengeHTML(label) +
-      '" aria-valuemin="0" aria-valuemax="100" aria-valuenow="' +
-      score.toFixed(1) +
-      '"><i class="ng-belt-bar" aria-hidden="true">' +
-      tape +
-      "</i></div>" +
-      roadHtml +
-      '<p style="margin:7px 0 0;color:#7f8ba4;font-size:9.5px;line-height:1.45;">' +
-      ngChallengeHTML(road || "Black belt") +
-      "</p>";
-    return el;
-  },
-
-  // Name kept as the ONE refresh seam (styleViewToggle + spec seeds call it): re-renders
-  // the Explore-mounted knowledge belt in place (no-op when Explore isn't up) and keeps
-  // the tab subtitles in step with the score.
-  renderKnowledgeHeader() {
-    const list = this.explorerListRef && this.explorerListRef.current;
-    const cur = list ? list.querySelector("[data-knowledge]") : null;
-    if (cur) cur.replaceWith(this._knowledgeBlock());
-    this.renderTabSubtitles();
-  },
+  // ── the score belt as a VISUAL is retired (v1.98.1, owner: "we should no longer see
+  // this") — the header mount died in v1.96.0, the Explore mount died here. The renderer
+  // (_knowledgeBlock: woven meter, band road, white-floor display) lives in git history at
+  // v1.96.0 if a home is ever wanted again. gameScore() and the Challenges tab belt are
+  // untouched; the score's one exposure is the Explore tab subtitle below.
 
   // ── tab subtitles (v1.95.0) ── each pane tab is a title over one plain second line:
   //  · Explore — the Game Knowledge score as "Mastered N%" (same number as the belt);
@@ -260,7 +161,9 @@ const NG_CHALLENGE_UI_METHODS = {
     ) {
       return !!map[id];
     }
-    if (id === "tutorial") return this.challengeTrackProgress("white").done < 14;
+    // the tutorial defaults FOLDED at any progress (v1.98.1 — the ≥14 threshold is
+    // dead; the owner at 11/20 met a wall of done rows). Expansion persists in the map.
+    if (id === "tutorial") return false;
     return id === this.get("challengePinnedTrack", "white");
   },
 
@@ -293,10 +196,10 @@ const NG_CHALLENGE_UI_METHODS = {
     return { done: done, total: total };
   },
 
-  // GETTING STARTED — the twenty White evidence objectives the coach feeds, as their OWN
-  // section ABOVE the belt corridor (owner: "the tutorial should be separate from the open
-  // curriculum practice"). Mostly-collapsed once largely done; the folded card still shows
-  // what he hasn't seen, compactly.
+  // TUTORIAL — the twenty White evidence objectives the coach feeds, as their OWN section
+  // ABOVE the belt corridor (owner: "the tutorial should be separate from the open
+  // curriculum practice"). FOLDED by default at any progress (v1.98.1); the folded head
+  // still shows what he hasn't seen as chips on the title row.
   renderTutorialSection() {
     const prog = this.challengeTrackProgress("white");
     const open = this._beltSectionOpen("tutorial");
@@ -309,8 +212,31 @@ const NG_CHALLENGE_UI_METHODS = {
     head.className = "ng-tutorial-head";
     head.setAttribute("data-tutorial-toggle", "1");
     head.setAttribute("aria-expanded", open ? "true" : "false");
+    // v1.98.1: titled "Tutorial" in the belt headers' own lettering; when folded and
+    // unfinished, the still-to-see chips ride the SAME ROW, right of the title, clipping
+    // gracefully at the pane's width (360 rail / 390 drawer).
+    let chips = "";
+    if (!open && prog.done < prog.total) {
+      const left = [];
+      for (const definition of NG_CHALLENGES) {
+        if (
+          definition.track === "white" &&
+          !this.challengeProgress(definition.id).done
+        ) {
+          left.push(definition.title);
+        }
+      }
+      chips =
+        '<span class="ng-tutorial-chips" data-tutorial-remainder="1" aria-label="Still to see: ' +
+        ngChallengeHTML(left.join(", ")) +
+        '">' +
+        left.map((title) => "<i>" + ngChallengeHTML(title) + "</i>").join("") +
+        "</span>";
+    }
     head.innerHTML =
-      "<span><small>TUTORIAL</small><b>Getting started</b></span><strong>" +
+      "<b>Tutorial</b>" +
+      chips +
+      "<strong>" +
       prog.done +
       " of " +
       prog.total +
@@ -330,30 +256,6 @@ const NG_CHALLENGE_UI_METHODS = {
       }
     }
     section.appendChild(body);
-    if (!open && prog.done < prog.total) {
-      const left = [];
-      for (const definition of NG_CHALLENGES) {
-        if (
-          definition.track === "white" &&
-          !this.challengeProgress(definition.id).done
-        ) {
-          left.push(definition.title);
-        }
-      }
-      const remainder = document.createElement("div");
-      remainder.className = "ng-tutorial-remainder";
-      remainder.setAttribute("data-tutorial-remainder", "1");
-      const shown = left.slice(0, 6);
-      remainder.innerHTML =
-        "<small>Still to see</small>" +
-        shown.map((title) => "<span>" + ngChallengeHTML(title) + "</span>").join("") +
-        (left.length > shown.length
-          ? '<span class="ng-tutorial-more">+' +
-            (left.length - shown.length) +
-            " more</span>"
-          : "");
-      section.appendChild(remainder);
-    }
     return section;
   },
 
@@ -779,28 +681,13 @@ const NG_CHALLENGE_UI_METHODS = {
         this._challengeMigrationNotice = false;
         this.set("challengeMigrationSeen", true);
       }
-      // CONTINUE — the zero-thought next step: jump straight to the pinned track's frontier
+      // The CONTINUE button is dead (v1.98.1, owner) — arrival positioning replaced it:
+      // opening the tab scrolls the corridor to the pinned belt's frontier (below, after
+      // the ladder mounts). The frontier glow already marks "do this next".
       const pinnedId = this.get("challengePinnedTrack", "white");
-      const frontier = this.challengeFrontier(pinnedId);
-      if (frontier) {
-        const go = document.createElement("button");
-        go.type = "button";
-        go.className = "ng-challenge-continue";
-        go.setAttribute("data-challenge-continue", "1");
-        go.style.setProperty("--ng-track", NG_CHALLENGE_TRACK_COLORS[pinnedId]);
-        go.innerHTML =
-          "<span><small>CONTINUE · " +
-          pinnedId.toUpperCase() +
-          "</small><b>" +
-          ngChallengeHTML(frontier.lesson.deckKey.split("|")[0]) +
-          "</b></span><em aria-hidden=\"true\">▸</em>";
-        go.addEventListener("click", () =>
-          this.openLessonStudy(frontier.lesson, frontier.unit, frontier.belt),
-        );
-        list.appendChild(go);
-      }
 
-      // GETTING STARTED — the tutorial rides ABOVE the belts, separate from the curriculum
+      // TUTORIAL — rides ABOVE the belts, separate from the curriculum; scrolling up to
+      // it is the user's choice
       list.appendChild(this.renderTutorialSection());
 
       // ONE explainer line for the whole corridor (was a prose block per track)
@@ -877,6 +764,28 @@ const NG_CHALLENGE_UI_METHODS = {
           this.selectChallengeTrack(track.id),
         );
         head.appendChild(button);
+        // PIN ON THE HEADER (v1.98.1) — the "Pinned to my roll" button left the deleted
+        // detail head and became this compact toggle. Pinned state is visibly distinct
+        // (filled, track-tinted) and spoken (aria-pressed + label).
+        const pinned = pinnedId === track.id;
+        const pin = document.createElement("button");
+        pin.type = "button";
+        pin.className = "ng-belt-pin";
+        pin.setAttribute("data-belt-pin", track.id);
+        pin.setAttribute("aria-pressed", pinned ? "true" : "false");
+        pin.setAttribute(
+          "aria-label",
+          pinned
+            ? ngBeltDisplayName(track.id) + " is pinned to my roll"
+            : "Pin " + ngBeltDisplayName(track.id) + " to my roll",
+        );
+        pin.title = pinned ? "Pinned to my roll" : "Pin to my roll";
+        pin.innerHTML =
+          '<svg width="13" height="13" viewBox="0 0 24 24" fill="' +
+          (pinned ? "currentColor" : "none") +
+          '" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 17v5"></path><path d="M9 3h6l1 7 2.5 2.5a1 1 0 0 1-.7 1.7H5.2a1 1 0 0 1-.7-1.7L7 10z"></path></svg>';
+        pin.addEventListener("click", () => this.pinChallengeTrack(track.id));
+        head.appendChild(pin);
         const fold = document.createElement("button");
         fold.type = "button";
         fold.className = "ng-belt-toggle";
@@ -902,42 +811,20 @@ const NG_CHALLENGE_UI_METHODS = {
         const principles = this.renderBeltPrinciples(track.id);
         if (principles) body.appendChild(principles);
 
-        if (track.id === selected.id) {
+        // v1.98.1: the detail HEAD is gone (it restated the belt header's name and count —
+        // the double title the owner flagged) and the pin lives on the header row above.
+        // What remains of the detail is the selected ADVANCED belt's objectives; White's
+        // twenty ARE the Tutorial section at the top of the tab, so it renders nothing.
+        if (track.id === selected.id && track.id !== "white") {
           const detail = document.createElement("section");
           detail.className = "ng-challenge-detail";
           detail.setAttribute("aria-label", selected.name + " challenges");
           detail.style.setProperty("--ng-track", color);
-          detail.innerHTML =
-            '<div class="ng-challenge-detail-head"><div><small>CHALLENGES</small><h2>' +
-            ngChallengeHTML(selected.name) +
-            "</h2></div><span>" +
-            summary.done +
-            " of " +
-            summary.total +
-            '</span></div><button type="button" class="ng-pin-track">' +
-            (pinnedId === selected.id
-              ? "Pinned to my roll"
-              : "Pin this track to my roll") +
-            "</button>";
-          detail
-            .querySelector(".ng-pin-track")
-            .addEventListener("click", () =>
-              this.pinChallengeTrack(selected.id),
-            );
-          if (selected.id === "white") {
-            // White's twenty objectives ARE the tutorial — they live at the top of the tab
-            const up = document.createElement("p");
-            up.className = "ng-detail-up";
-            up.textContent =
-              "The twenty getting-started objectives live at the top of this tab.";
-            detail.appendChild(up);
-          } else {
-            for (const definition of NG_CHALLENGES) {
-              if (definition.track === selected.id) {
-                detail.appendChild(
-                  this.challengeObjectiveElement(definition, selected.id),
-                );
-              }
+          for (const definition of NG_CHALLENGES) {
+            if (definition.track === selected.id) {
+              detail.appendChild(
+                this.challengeObjectiveElement(definition, selected.id),
+              );
             }
           }
           body.appendChild(detail);
@@ -951,6 +838,36 @@ const NG_CHALLENGE_UI_METHODS = {
       }
       list.appendChild(ladder);
       list.appendChild(this.renderRewardsShelf());
+      // ── ARRIVAL POSITIONING (v1.98.1, replaces the Continue button) ── opening the tab
+      // lands the corridor where the person is: the pinned belt's header at the top of the
+      // view, its frontier row (already glow-marked) in sight. INSTANT, on OPEN only —
+      // reduced-motion identical; re-renders never touch the scroll (renderExplorer
+      // preserves it, the History-body gate precedent). No frontier (everything proven) =
+      // the pinned belt's top. The Tutorial sits above; scrolling up to it is a choice.
+      if (this._challengeScrollPending) {
+        this._challengeScrollPending = false;
+        const sec = ladder.querySelector(
+          '.ng-belt-section[data-belt="' + pinnedId + '"]',
+        );
+        if (sec) {
+          const lr = list.getBoundingClientRect();
+          if (lr.height > 0) {
+            list.scrollTop += sec.getBoundingClientRect().top - lr.top;
+            const row = ladder.querySelector(
+              ".ng-challenge-lesson[data-frontier]",
+            );
+            if (row) {
+              // keep the frontier row in view with the MINIMUM extra motion: when the
+              // section opens with more content (principles, units) than one viewport
+              // holds above the frontier, the header cedes only what the row needs
+              const lr2 = list.getBoundingClientRect();
+              const rr = row.getBoundingClientRect();
+              if (rr.bottom > lr2.bottom)
+                list.scrollTop += rr.bottom - lr2.bottom + 20;
+            }
+          }
+        }
+      }
     } finally {
       this._renderingChallengeView = false;
     }
