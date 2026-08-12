@@ -67,7 +67,7 @@ test.describe("White Challenges @curated", () => {
     ).toBe(true);
   });
 
-  test("the cue can be hidden persistently and restored by pinning a track", async ({
+  test("the cue can be hidden persistently and restored from Settings", async ({
     page,
   }) => {
     const j = journey(page);
@@ -85,11 +85,13 @@ test.describe("White Challenges @curated", () => {
 
     await j.boot("/", { preserveStorage: true, keepTutorial: true });
     await expect(page.locator("[data-challenge-cue]")).toHaveCount(0);
-    await page.locator(".ng-logo").click();
-    await page.locator("[data-track='white']").click();
-    // the pin lives on the belt header row since v1.98.1 (the detail head is gone)
-    await page.locator("[data-belt-pin='white']").click();
-    await page.locator(".ng-explorer-close").click();
+    // pinning is gone (v1.99.2) — Settings → Rolling → Challenge cue is the restore path
+    await page.locator(".ngAcctChip").click();
+    await page.locator("[data-menu-settings]").click();
+    await page.evaluate(() => (window as any).__neural.openSettings("rolling"));
+    await page.locator("[data-challenge-cue-toggle]").click();
+    await expect(page.locator("[data-challenge-cue-toggle]")).toHaveText("Hide");
+    await page.evaluate(() => (window as any).__neural.closeModal());
     await expect(page.locator("[data-challenge-cue]")).toBeVisible();
   });
 

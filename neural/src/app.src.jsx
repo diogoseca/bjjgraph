@@ -2968,10 +2968,10 @@ class Component extends DCLogic {
       // pinned challenge cue
       const tu = document.createElement("div");
       tu.style.cssText = "display:flex;align-items:center;justify-content:space-between;gap:16px;border-top:1px solid rgba(150,170,210,.12);padding-top:16px;";
-      const pinnedTrack = this.get("challengePinnedTrack", "white");
-      const pinnedSummary = this.challengeTrackProgress(pinnedTrack);
+      const frontierBelt = this._frontierBeltId(); // pinning retired (v1.99.2): the cue tracks the corridor's frontier belt
+      const frontierSummary = this.challengeTrackProgress(frontierBelt);
       const cueVisible = this.get("challengeCueVisible", true) && !this.tutHidden;
-      tu.innerHTML = '<div><div style="font-size:14px;font-weight:600;color:#eef1f6;">Challenge cue</div><div style="font-size:12.5px;color:#93a0bd;margin-top:4px;line-height:1.5;">' + pinnedTrack.charAt(0).toUpperCase() + pinnedTrack.slice(1) + ' content track · ' + pinnedSummary.done + ' of ' + pinnedSummary.total + ' complete</div></div>';
+      tu.innerHTML = '<div><div style="font-size:14px;font-weight:600;color:#eef1f6;">Challenge cue</div><div style="font-size:12.5px;color:#93a0bd;margin-top:4px;line-height:1.5;">' + frontierBelt.charAt(0).toUpperCase() + frontierBelt.slice(1) + ' content track · ' + frontierSummary.done + ' of ' + frontierSummary.total + ' complete</div></div>';
       const tb = document.createElement("button");
       tb.setAttribute("data-challenge-cue-toggle", "1");
       tb.textContent = cueVisible ? "Hide" : "Show";
@@ -2980,7 +2980,7 @@ class Component extends DCLogic {
         const next = !cueVisible;
         this.tutHidden = !next;
         this.set("challengeCueVisible", next);
-        this.track(next ? "neural_challenge_cue_restored" : "neural_challenge_cue_hidden", { track_id: pinnedTrack });
+        this.track(next ? "neural_challenge_cue_restored" : "neural_challenge_cue_hidden", { track_id: frontierBelt });
         this.renderChallengeCue();
         this.renderSettings();
       });
@@ -3814,7 +3814,7 @@ class Component extends DCLogic {
     if (this.deckOpen && this.sbOffset() === 0) { this.setDeckOpen(false); this._session = null; this._sessionNodes = null; this._inSession = false; }
   }
   renderExplorer() {
-    // defensive: legacy callers (setGiMode, pinChallengeTrack, selectChallengeTrack) call this
+    // defensive: legacy callers (setGiMode, selectChallengeTrack) call this
     // directly — route the History tab to its own renderer instead of the explorer list
     if (this._viewMode === "history") {
       if (this.renderTabSubtitles) this.renderTabSubtitles();

@@ -66,7 +66,7 @@ const NG_CHALLENGE_UI_METHODS = {
       ex.textContent = "Mastered " + Math.round(this.gameScore().score * 100) + "%";
     const ch = vt.querySelector('[data-tab-sub="challenges"]');
     if (ch) {
-      const pinned = this.get("challengePinnedTrack", "white");
+      const pinned = this._frontierBeltId(); // the frontier belt (pinning retired v1.99.2)
       // stripes = the pinned track's PROVEN UNITS (all live lessons done + checkpoint
       // passed) over its unit count → 0-4. NOT the objectives fraction (v1.95.3): the
       // first-roll coach auto-ticks objectives and incidental evidence completes more
@@ -130,7 +130,7 @@ const NG_CHALLENGE_UI_METHODS = {
   selectedChallengeTrack() {
     const requested = this.get(
       "challengeSelectedTrack",
-      this.get("challengePinnedTrack", "white"),
+      this._frontierBeltId(),
     );
     return NG_CHALLENGE_TRACKS.some((track) => track.id === requested)
       ? requested
@@ -164,7 +164,22 @@ const NG_CHALLENGE_UI_METHODS = {
     // the tutorial defaults FOLDED at any progress (v1.98.1 — the ≥14 threshold is
     // dead; the owner at 11/20 met a wall of done rows). Expansion persists in the map.
     if (id === "tutorial") return false;
-    return id === this.get("challengePinnedTrack", "white");
+    return id === this._frontierBeltId();
+  },
+
+  // THE FRONTIER BELT (v1.99.2, owner: "what's that pinning about? show the belt open on
+  // the topmost section still left to complete") — the first belt, in corridor order,
+  // whose live lessons are not all done. It replaces the pinned track everywhere the UI
+  // used one: default-open section, arrival scroll, frontier glow, tab belt, challenge
+  // cue, selected-track fallback. `challengePinnedTrack` is DORMANT: still merged in
+  // progress blobs for compatibility, read by nothing.
+  _frontierBeltId() {
+    const belts = (this.curriculum && this.curriculum.belts) || [];
+    for (const belt of belts) {
+      const summary = this._beltLessonSummary(belt.id);
+      if (summary && summary.total && summary.done < summary.total) return belt.id;
+    }
+    return belts.length ? belts[0].id : "white"; // everything proven -> the corridor's top
   },
 
   _setBeltSectionOpen(id, open) {
@@ -233,6 +248,8 @@ const NG_CHALLENGE_UI_METHODS = {
         left.map((title) => "<i>" + ngChallengeHTML(title) + "</i>").join("") +
         "</span>";
     }
+    const tutComplete = !!prog.total && prog.done >= prog.total;
+    if (tutComplete) section.setAttribute("data-tutorial-complete", "1");
     head.innerHTML =
       "<b>Tutorial</b>" +
       chips +
@@ -240,7 +257,9 @@ const NG_CHALLENGE_UI_METHODS = {
       prog.done +
       " of " +
       prog.total +
-      '</strong><em aria-hidden="true">' +
+      "</strong>" +
+      (tutComplete ? '<i class="ng-belt-stamp" aria-hidden="true">✓</i>' : "") +
+      '<em aria-hidden="true">' +
       (open ? "▾" : "▸") +
       "</em>";
     head.addEventListener("click", () => {
@@ -288,15 +307,6 @@ const NG_CHALLENGE_UI_METHODS = {
     return group;
   },
 
-  pinChallengeTrack(trackId) {
-    if (!NG_CHALLENGE_TRACKS.some((track) => track.id === trackId)) return;
-    this.set("challengePinnedTrack", trackId);
-    this.set("challengeCueVisible", true);
-    this.tutHidden = false;
-    this.track("neural_challenge_pinned", { track_id: trackId });
-    this.renderExplorer();
-    this.renderChallengeCue();
-  },
 
   openLearningView(view, trackId) {
     if (trackId) {
@@ -423,10 +433,10 @@ const NG_CHALLENGE_UI_METHODS = {
         "<small>CURRICULUM PRACTICE</small><p>Curriculum is unavailable right now. Action challenges still work.</p>";
       return section;
     }
-    // the frontier lesson (pinned track only) gets the glow — everything else that's not
+    // the frontier lesson (frontier belt only) gets the glow — everything else that's not
     // done yet dims gently via CSS on data-lesson-done (visual only; every row stays live)
-    const pinnedId = this.get("challengePinnedTrack", "white");
-    const frontier = trackId === pinnedId ? this.challengeFrontier(trackId) : null;
+    const frontier =
+      trackId === this._frontierBeltId() ? this.challengeFrontier(trackId) : null;
     // no per-track prose here — the whole corridor explains itself ONCE (.ng-ladder-note)
     for (let index = 0; index < belt.units.length; index += 1) {
       const unit = belt.units[index];
@@ -682,9 +692,9 @@ const NG_CHALLENGE_UI_METHODS = {
         this.set("challengeMigrationSeen", true);
       }
       // The CONTINUE button is dead (v1.98.1, owner) — arrival positioning replaced it:
-      // opening the tab scrolls the corridor to the pinned belt's frontier (below, after
-      // the ladder mounts). The frontier glow already marks "do this next".
-      const pinnedId = this.get("challengePinnedTrack", "white");
+      // opening the tab scrolls the corridor to the frontier belt (the topmost belt still
+      // left to complete; below, after the ladder mounts). The glow marks "do this next".
+      const pinnedId = this._frontierBeltId();
 
       // TUTORIAL — rides ABOVE the belts, separate from the curriculum; scrolling up to
       // it is the user's choice
@@ -716,9 +726,19 @@ const NG_CHALLENGE_UI_METHODS = {
         beltSection.setAttribute("data-belt", track.id);
         beltSection.setAttribute("data-collapsed", open ? "false" : "true");
         beltSection.style.setProperty("--ng-track", color);
+        // pronounced dye (v1.99.2, owner: "the white in white belt card bg ... should be
+        // more pronounced"): the card wears its belt's color plainly, not as a hint
         beltSection.style.setProperty(
           "--ng-track-soft",
-          ngChallengeTint(color, 0.17),
+          ngChallengeTint(color, 0.34),
+        );
+        beltSection.style.setProperty(
+          "--ng-track-faint",
+          ngChallengeTint(color, 0.1),
+        );
+        beltSection.style.setProperty(
+          "--ng-track-line",
+          ngChallengeTint(color, 0.42),
         );
         const rail = document.createElement("i");
         rail.className = "ng-corridor-rail";
@@ -742,6 +762,8 @@ const NG_CHALLENGE_UI_METHODS = {
           "aria-pressed",
           track.id === selected.id ? "true" : "false",
         );
+        const beltComplete = !!count.total && count.done >= count.total;
+        if (beltComplete) beltSection.setAttribute("data-belt-complete", "1");
         button.setAttribute(
           "aria-label",
           ngBeltDisplayName(track.id) +
@@ -750,8 +772,12 @@ const NG_CHALLENGE_UI_METHODS = {
             " of " +
             count.total +
             (lessons ? " lessons" : " challenges") +
-            " done",
+            " done" +
+            (beltComplete ? ", complete" : ""),
         );
+        // the completion stamp (v1.99.2, owner): a subtle gray boxed-check watermark
+        // INSIDE the header card once the belt is complete — behind the text (z:-1
+        // against the card's own stacking context), never a layout participant
         button.innerHTML =
           "<b>" +
           ngBeltDisplayName(track.id) +
@@ -759,33 +785,16 @@ const NG_CHALLENGE_UI_METHODS = {
           count.done +
           " of " +
           count.total +
-          "</strong>";
+          "</strong>" +
+          (beltComplete
+            ? '<i class="ng-belt-stamp" aria-hidden="true">✓</i>'
+            : "");
         button.addEventListener("click", () =>
           this.selectChallengeTrack(track.id),
         );
         head.appendChild(button);
-        // PIN ON THE HEADER (v1.98.1) — the "Pinned to my roll" button left the deleted
-        // detail head and became this compact toggle. Pinned state is visibly distinct
-        // (filled, track-tinted) and spoken (aria-pressed + label).
-        const pinned = pinnedId === track.id;
-        const pin = document.createElement("button");
-        pin.type = "button";
-        pin.className = "ng-belt-pin";
-        pin.setAttribute("data-belt-pin", track.id);
-        pin.setAttribute("aria-pressed", pinned ? "true" : "false");
-        pin.setAttribute(
-          "aria-label",
-          pinned
-            ? ngBeltDisplayName(track.id) + " is pinned to my roll"
-            : "Pin " + ngBeltDisplayName(track.id) + " to my roll",
-        );
-        pin.title = pinned ? "Pinned to my roll" : "Pin to my roll";
-        pin.innerHTML =
-          '<svg width="13" height="13" viewBox="0 0 24 24" fill="' +
-          (pinned ? "currentColor" : "none") +
-          '" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 17v5"></path><path d="M9 3h6l1 7 2.5 2.5a1 1 0 0 1-.7 1.7H5.2a1 1 0 0 1-.7-1.7L7 10z"></path></svg>';
-        pin.addEventListener("click", () => this.pinChallengeTrack(track.id));
-        head.appendChild(pin);
+        // (the header pin died in v1.99.2 — the corridor derives its target from
+        // _frontierBeltId; there is nothing to pin)
         const fold = document.createElement("button");
         fold.type = "button";
         fold.className = "ng-belt-toggle";

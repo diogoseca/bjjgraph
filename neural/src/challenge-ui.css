@@ -340,18 +340,43 @@
   align-items: center;
   justify-content: space-between;
   gap: 10px;
+  position: relative; /* stamp anchor */
+  z-index: 0; /* own stacking context so the stamp can sit BEHIND the text (z:-1) */
   padding: 10px 12px;
-  border: 1px solid rgba(150, 170, 210, 0.18);
+  border: 1px solid var(--ng-track-line, rgba(150, 170, 210, 0.18));
   border-radius: 11px;
+  /* v1.99.2 (owner): the belt's dye is PRONOUNCED — it owns the card, not a left hint */
   background: linear-gradient(
     90deg,
     var(--ng-track-soft, rgba(255, 255, 255, 0.03)),
-    rgba(255, 255, 255, 0.02) 72%
+    var(--ng-track-faint, rgba(255, 255, 255, 0.02)) 100%
   );
   color: inherit;
   font-family: inherit;
   text-align: left;
   cursor: pointer;
+}
+
+/* the completion stamp: a gray boxed-check watermark inside a finished header card —
+   behind the text, above the dye, never a layout participant */
+.ng-belt-stamp {
+  position: absolute;
+  top: 50%;
+  right: 64px;
+  z-index: -1;
+  transform: translateY(-50%) rotate(-11deg);
+  width: 26px;
+  height: 26px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid rgba(201, 211, 230, 0.22);
+  border-radius: 7px;
+  color: rgba(201, 211, 230, 0.26);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 900;
+  pointer-events: none;
 }
 
 .ng-track-card[aria-pressed="true"] {
@@ -381,24 +406,6 @@
   font-size: 9.5px;
   font-weight: 600;
   white-space: nowrap;
-}
-
-/* the pin: "Pinned to my roll" folded onto the header row (v1.98.1) — compact, 44px,
-   visibly distinct when pinned (filled glyph, track tint) */
-.ng-belt-pin {
-  flex: none;
-  width: 44px;
-  border: 1px solid rgba(150, 170, 210, 0.18);
-  border-radius: 11px;
-  background: rgba(255, 255, 255, 0.03);
-  color: #9ba8c1;
-  cursor: pointer;
-}
-
-.ng-belt-pin[aria-pressed="true"] {
-  border-color: var(--ng-track);
-  background: var(--ng-track-soft, rgba(255, 255, 255, 0.08));
-  color: #eef1f6;
 }
 
 .ng-belt-toggle {
@@ -435,6 +442,8 @@
 }
 
 .ng-tutorial-head {
+  position: relative;
+  z-index: 0;
   width: 100%;
   min-height: 48px;
   display: flex;
@@ -491,6 +500,10 @@
   color: #7f8ba4;
   font-size: 12px;
   font-style: normal;
+}
+
+.ng-tutorial-head .ng-belt-stamp {
+  right: 84px; /* clear of the count + chevron */
 }
 
 .ng-tutorial-body {

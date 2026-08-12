@@ -202,29 +202,50 @@ test("tabs carry a title over a plain subtitle: mastered %, ladder belt, Last ro
   await expect(nav.locator('[data-view="explore"] [data-tab-sub]')).toHaveText("Mastered 65%")
   await expect(tabBelt, "score moved, ladder did not").toHaveAttribute("data-tab-stripes", "0")
 
-  // and the converse: prove every white unit (lessons done + checkpoint) — the belt fills
-  // to 4 stripes while the seeded score (and the subtitle reading it) is untouched
+  // and the converse: prove white units (lessons + checkpoints) SHORT of the whole belt —
+  // stripes fill while white stays the corridor's frontier; the seeded score is untouched
   await expect
     .poll(() => page.evaluate(() => !!(window as any).__neural.curriculum))
     .toBe(true)
-  await page.evaluate(() => {
+  const seeded = await page.evaluate(() => {
     const a = (window as any).__neural
     const belt = a.curriculum.belts.find((b: any) => b.id === "white")
     a.units = a.units || {}
     a.prep = a.prep || {}
+    const provable = belt.units.slice(0, belt.units.length - 1) // the last unit stays open
+    for (const u of provable) {
+      for (const l of u.lessons) a.prep[l.deckKey] = 3
+      a.units["white/" + u.id] = { checkpoint: true, t: Date.now() }
+    }
+    a.renderTabSubtitles()
+    return {
+      expected: Math.max(
+        0,
+        Math.min(4, Math.floor((provable.length / belt.units.length) * 4)),
+      ),
+    }
+  })
+  await expect(tabBelt, "proven units = stripes").toHaveAttribute(
+    "data-tab-stripes",
+    String(seeded.expected),
+  )
+  // completing the WHOLE belt advances the corridor (v1.99.2: the tab belt tracks the
+  // frontier belt, not a pin): a fresh blue belt, zero stripes, blue dye
+  await page.evaluate(() => {
+    const a = (window as any).__neural
+    const belt = a.curriculum.belts.find((b: any) => b.id === "white")
     for (const u of belt.units) {
       for (const l of u.lessons) a.prep[l.deckKey] = 3
       a.units["white/" + u.id] = { checkpoint: true, t: Date.now() }
     }
     a.renderTabSubtitles()
   })
-  await expect(tabBelt, "proven units = stripes").toHaveAttribute("data-tab-stripes", "4")
-  await page.evaluate(() => {
-    const a = (window as any).__neural
-    a.units = {}
-    a.renderTabSubtitles()
-  })
-  await expect(tabBelt, "ladder moved, score did not").toHaveAttribute("data-tab-stripes", "0")
+  await expect(tabBelt, "new belt, no stripes yet").toHaveAttribute("data-tab-stripes", "0")
+  expect(
+    await tabBelt.evaluate((el) => (el as HTMLElement).style.getPropertyValue("--tb")),
+    "the tab belt wears blue now",
+  ).toBe("#78a2f5")
+  // and the score (and the subtitle reading it) never moved through any of it
   await expect(nav.locator('[data-view="explore"] [data-tab-sub]')).toHaveText("Mastered 65%")
 })
 

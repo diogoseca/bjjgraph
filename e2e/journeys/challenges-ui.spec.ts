@@ -80,7 +80,7 @@ test.describe("Challenges UI @curated", () => {
     );
   });
 
-  test("pinning an advanced track updates the persistent cue and reopens its detail", async ({
+  test("pinning is gone: the corridor opens itself at the topmost incomplete belt", async ({
     page,
   }) => {
     const j = journey(page);
@@ -88,43 +88,60 @@ test.describe("Challenges UI @curated", () => {
     await expect
       .poll(() => page.evaluate(() => !!(window as any).__neural.curriculum))
       .toBe(true);
-
     await page.locator(".ng-logo").click();
-    await page.locator("[data-track='purple']").click();
-    // pinning folded into the belt HEADER row (v1.98.1): a compact 44px pin toggle
-    const pin = page.locator("[data-belt-pin='purple']");
-    await expect(pin).toHaveAttribute("aria-pressed", "false");
-    await pin.click();
-    await expect(page.locator("[data-challenge-cue]")).toHaveCount(0);
-    await page.locator(".ng-explorer-close").click();
-    await expect(page.locator("[data-challenge-cue]")).toContainText(
-      "PURPLE CHALLENGES",
-    );
-    await page.locator("[data-challenge-cue-open]").click();
 
-    await expect(page.locator("[data-view='challenges']")).toHaveAttribute(
-      "aria-pressed",
-      "true",
-    );
-    await expect(page.locator("[data-track='purple']")).toHaveAttribute(
-      "aria-pressed",
-      "true",
-    );
-    // pinned state visibly distinct + spoken: aria-pressed true, and the white pin is not
-    await expect(page.locator("[data-belt-pin='purple']")).toHaveAttribute(
-      "aria-pressed",
-      "true",
-    );
-    await expect(page.locator("[data-belt-pin='white']")).toHaveAttribute(
-      "aria-pressed",
-      "false",
-    );
-    // the old detail-block pin button is gone with the detail head
+    // v1.99.2 (owner: "what's that pinning about?") — no pin affordance anywhere; the
+    // corridor derives its one target from progress instead
+    await expect(page.locator("[data-belt-pin]")).toHaveCount(0);
     await expect(page.locator(".ng-pin-track")).toHaveCount(0);
-    // 44px affordance
-    const box = (await page.locator("[data-belt-pin='purple']").boundingBox())!;
-    expect(box.width).toBeGreaterThanOrEqual(40);
-    expect(box.height).toBeGreaterThanOrEqual(44);
+
+    // fresh: white is the topmost incomplete belt — it rides open, wears no stamp
+    const white = page.locator(".ng-belt-section[data-belt='white']");
+    const blue = page.locator(".ng-belt-section[data-belt='blue']");
+    await expect(white).toHaveAttribute("data-collapsed", "false");
+    await expect(blue).toHaveAttribute("data-collapsed", "true");
+    await expect(white.locator(".ng-belt-stamp")).toHaveCount(0);
+
+    // the dye is PRONOUNCED (owner): each card's tint carries real alpha, not a hint
+    const tint = await page.evaluate(() => {
+      const sec = document.querySelector(
+        ".ng-belt-section[data-belt='blue']",
+      ) as HTMLElement;
+      const soft = sec.style.getPropertyValue("--ng-track-soft");
+      const m = soft.match(/,\s*([\d.]+)\)/);
+      return m ? parseFloat(m[1]) : 0;
+    });
+    expect(tint, "belt color owns the card").toBeGreaterThanOrEqual(0.3);
+
+    // complete White -> on the next open, BLUE is the corridor's target: open, glowing,
+    // and White wears the subtle completion stamp and folds away
+    await page.evaluate(() => {
+      const a = (window as any).__neural;
+      a.prep = a.prep || {};
+      const beltDef = a.curriculum.belts.find((b: any) => b.id === "white");
+      for (const unit of beltDef.units)
+        for (const lesson of unit.lessons) a.prep[lesson.deckKey] = 99;
+    });
+    await page.locator(".ng-explorer-close").click();
+    // the cue follows the frontier belt too
+    await expect(page.locator("[data-challenge-cue]")).toContainText(/BLUE/);
+    await page.locator(".ng-logo").click();
+    await expect(white).toHaveAttribute("data-collapsed", "true");
+    await expect(blue).toHaveAttribute("data-collapsed", "false");
+    await expect(
+      blue.locator(".ng-challenge-lesson[data-frontier]"),
+      "the glow moved into blue",
+    ).toHaveCount(1);
+    // the stamp: a gray boxed check INSIDE the white header card, watermark-subtle
+    await expect(white).toHaveAttribute("data-belt-complete", "1");
+    const stamp = white.locator(".ng-track-card .ng-belt-stamp");
+    await expect(stamp).toHaveCount(1);
+    const subtle = await stamp.evaluate((el) => {
+      const m = getComputedStyle(el).color.match(/,\s*([\d.]+)\)/);
+      return m ? parseFloat(m[1]) : 1;
+    });
+    expect(subtle, "a watermark, not a badge").toBeLessThanOrEqual(0.4);
+    await expect(blue.locator(".ng-belt-stamp"), "incomplete belts wear none").toHaveCount(0);
   });
 
   test("the rewards shelf shows only what is earned — and does not exist before that", async ({
@@ -521,8 +538,17 @@ test.describe("Challenges UI @curated", () => {
       .poll(() => page.evaluate(() => !!(window as any).__neural.curriculum))
       .toBe(true);
 
-    // pin BLACK so the frontier lives far down the corridor — the scroll must be earned
-    await page.evaluate(() => (window as any).__neural.pinChallengeTrack("black"));
+    // complete everything above BLACK so the frontier lives far down the corridor —
+    // the scroll must be earned (pinning is gone, v1.99.2: progress IS the target)
+    await page.evaluate(() => {
+      const a = (window as any).__neural;
+      a.prep = a.prep || {};
+      for (const belt of a.curriculum.belts) {
+        if (belt.id === "black") continue;
+        for (const unit of belt.units)
+          for (const lesson of unit.lessons) a.prep[lesson.deckKey] = 99;
+      }
+    });
     await page.locator(".ng-logo").click();
     await expect(page.locator(".ng-challenge-ladder")).toBeVisible();
 
@@ -585,7 +611,7 @@ test.describe("Challenges UI @curated", () => {
       .toBe(true);
     await page.locator(".ng-logo").click();
 
-    // defaults: the pinned belt (white) rides open, the rest fold — the ladder stays short
+    // defaults: the frontier belt (white, topmost incomplete) rides open, the rest fold
     const white = page.locator(".ng-belt-section[data-belt='white']");
     const black = page.locator(".ng-belt-section[data-belt='black']");
     await expect(white).toHaveAttribute("data-collapsed", "false");

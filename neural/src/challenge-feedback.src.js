@@ -20,7 +20,7 @@ const NG_CHALLENGE_FEEDBACK_METHODS = {
       remove();
       return;
     }
-    const trackId = this.get("challengePinnedTrack", "white");
+    const trackId = this._frontierBeltId(); // the cue follows the corridor (pinning retired v1.99.2)
     const track =
       NG_CHALLENGE_TRACKS.find((item) => item.id === trackId) ||
       NG_CHALLENGE_TRACKS[0];
@@ -90,7 +90,7 @@ const NG_CHALLENGE_FEEDBACK_METHODS = {
     if (
       !definition ||
       definition.hidden ||
-      definition.track !== this.get("challengePinnedTrack", "white")
+      definition.track !== this._frontierBeltId()
     ) {
       this.renderChallengeCue();
       return;
