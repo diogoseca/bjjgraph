@@ -45,9 +45,11 @@ test("newcomer's first session: coach → question → execute → pane → roam
 
   // ── 2. the state introduces itself and asks exactly one question ──
   await expect(page.locator("[data-landcard]"), "identity card").toBeVisible();
-  await expect(page.locator("[data-land-id]")).toBeVisible();
+  // v1.101.1: a landing card has no header block — the name and the side are on the graph, and
+  // the familiarity marker rides the foot beside `More` and the capture `+`.
+  await expect(page.locator("[data-land-id]")).toHaveCount(0);
   await expect(page.locator("[data-land-q]"), "one question").toHaveCount(1);
-  const idText = (await page.locator("[data-land-id]").textContent()) || "";
+  const idText = (await page.locator("[data-land-foot]").textContent()) || "";
   expect(idText, "marked as new to them").toContain("○");
 
   // ── 3. answering right raises the odds and buys clock ──

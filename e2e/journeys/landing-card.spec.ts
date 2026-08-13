@@ -15,7 +15,7 @@ import { journey } from "../dsl"
  * Keys: A/B/C/D answer the live MC block; digits stay the option-card openers.
  * The right sidebar is the STUDY surface and now reads back as classic recall by default.
  *
- * Surfaces: [data-landcard] [data-land-id] [data-land-q] [data-land-more]
+ * Surfaces: [data-landcard] [data-land-count] [data-land-q] [data-land-more] [data-land-close]
  * Beats: land_q_shown, land_q_answered {correct, tier, qMod}
  */
 
@@ -46,7 +46,9 @@ test("landing asks one question; a right answer pumps the odds and refunds the c
   await j.land("Mount Top")
 
   await expect(page.locator("[data-landcard]"), "landing card docked above the hand").toBeVisible()
-  await expect(page.locator("[data-land-id]"), "identity header").toBeVisible()
+  await expect(page.locator("[data-landcard]"), "the card is up").toBeVisible()
+  // v1.101.1: no header block on a landing — the counter is the card's meta, in the foot
+  await expect(page.locator("[data-land-foot] [data-land-count]"), "counter in the foot").toHaveCount(1)
   await expect(page.locator("[data-land-q]"), "one question").toBeVisible()
   await j.expectBeat("land_q_shown")
 
@@ -107,7 +109,7 @@ test("a proven deck asks nothing — the card degrades to identity", async ({ pa
 
   await expect(page.locator("[data-land-q]"), "nothing left to ask").toHaveCount(0)
   await expect(page.locator("[data-landcard]"), "identity still lands").toBeVisible()
-  await expect(page.locator("[data-land-id]")).toBeVisible()
+  await expect(page.locator("[data-landcard]")).toBeVisible()
 })
 
 test("the sidebar reads back as classic recall — multiple choice is the in-roll format", async ({
@@ -157,7 +159,7 @@ test("the identity chip fuses the seen-glyph with the deck's recall count and op
   await j.land("Mount Top")
 
   // one top-right chip, not two adjacent familiarity indicators (v1.76.0 merged-glyph decision)
-  const chip = page.locator("[data-land-id] [data-land-count]")
+  const chip = page.locator("[data-land-foot] [data-land-count]")
   await expect(chip, "the chip rides the identity row").toBeVisible()
   const label = await chip.getAttribute("data-land-count")
   const state = await page.evaluate(() => {

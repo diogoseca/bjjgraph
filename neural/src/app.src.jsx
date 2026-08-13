@@ -855,7 +855,31 @@ class Component extends DCLogic {
     muteBtn.addEventListener("mouseleave", () => { muteBtn.style.background = "rgba(8,10,16,.72)"; });
     muteBtn.addEventListener("click", (e) => { e.preventDefault(); e.stopPropagation(); const pl = card._player; if (!pl) return; cmuted = !cmuted; if (cmuted) { try { pl.mute(); } catch (x) {} muteBtn.innerHTML = mutedIcon; muteBtn.title = "Unmute"; } else { try { pl.unMute(); pl.setVolume(80); } catch (x) {} muteBtn.innerHTML = onIcon; muteBtn.title = "Mute"; } });
     card.appendChild(muteBtn);
-    if (row) { requestAnimationFrame(() => { const target = card.offsetLeft - Math.max(0, (row.clientWidth - card.offsetWidth) / 2); this.tweenScroll(row, Math.round(target - row.scrollLeft)); }); }
+    // ── THE WAY OUT OF A PLAYING CLIP (v1.101.1) ──
+    // Owner: "clicking outside the currently viewed video should close it, but there should also
+    // be a closing x button top right of it". Two ways out, both ending in the same collapse.
+    const xb = document.createElement("button");
+    xb.className = "ngClipX";
+    xb.type = "button";
+    xb.setAttribute("aria-label", "Close video");
+    xb.title = "Close video";
+    xb.innerHTML = "✕";
+    xb.style.cssText = "position:absolute;top:9px;right:9px;z-index:7;width:28px;height:28px;border-radius:9px;background:rgba(8,10,16,.78);backdrop-filter:blur(4px);border:1px solid rgba(255,255,255,.22);color:#eef1f6;font-family:inherit;font-size:12px;line-height:1;cursor:pointer;display:flex;align-items:center;justify-content:center;padding:0;transition:background .18s ease;";
+    xb.addEventListener("mouseenter", () => { xb.style.background = "rgba(224,88,79,.9)"; });
+    xb.addEventListener("mouseleave", () => { xb.style.background = "rgba(8,10,16,.78)"; });
+    xb.addEventListener("click", (e) => { e.preventDefault(); e.stopPropagation(); this.collapseClip(card); });
+    card.appendChild(xb);
+    // capture phase, so a surface that stops propagation cannot keep the player alive behind it.
+    // Registered DURING the click that expanded this card, which has already dispatched its own
+    // pointerdown — so it cannot close what it just opened.
+    card._outside = (e) => { if (!card._expanded) return; if (e.target && card.contains(e.target)) return; this.collapseClip(card); };
+    document.addEventListener("pointerdown", card._outside, true);
+    // TOP-CENTRE. Two axes, and they were both wrong for the same reason: the clip grew inside a
+    // horizontal scroller and nothing re-placed the strip afterwards. `tweenScroll` centres the
+    // card WITHIN the row; `_dockLandFilm` re-anchors the row itself now that it is 92px taller,
+    // and because that anchor is a BOTTOM the growth goes upward — which is what puts a playing
+    // clip at the top of the screen instead of halfway down it.
+    if (row) { requestAnimationFrame(() => { const target = card.offsetLeft - Math.max(0, (row.clientWidth - card.offsetWidth) / 2); this.tweenScroll(row, Math.round(target - row.scrollLeft)); this._dockLandFilm(); }); }
     const fail = () => { window.open("https://www.youtube.com/watch?v=" + clip.id + (start ? "&t=" + start + "s" : ""), "_blank", "noopener"); this.collapseClip(card); };
     this.ytApiReady().then((YT) => {
       if (!card._expanded) return;
@@ -881,11 +905,15 @@ class Component extends DCLogic {
     if (card._player) { try { card._player.destroy(); } catch (e) {} card._player = null; }
     const ph = card.querySelector(".ngPlayerHost"); if (ph) ph.remove();
     const mb = card.querySelector(".ngMuteBtn"); if (mb) mb.remove();
+    const cx = card.querySelector(".ngClipX"); if (cx) cx.remove();
+    if (card._outside) { document.removeEventListener("pointerdown", card._outside, true); card._outside = null; }
     const glyph = card.querySelector(".ngPlay"); if (glyph) glyph.style.display = "";
     if (card._bw) { card.style.setProperty("width", card._bw + "px", "important"); card.style.setProperty("height", card._bh + "px", "important"); }
     card.style.cursor = "pointer";
     card._expanded = false;
     if (this._expandedClip === card) this._expandedClip = null;
+    // the strip just shrank back — re-anchor it, or it stays parked where the player left it
+    if (this._landFilmEl && this._landFilmEl.contains(card)) requestAnimationFrame(() => this._dockLandFilm());
   }
   ytApiReady() {
     if (this._ytPromise) return this._ytPromise;
@@ -5850,8 +5878,11 @@ class Component extends DCLogic {
     // 120s of retries). `visibility` is inherited too, but nothing here sets `visible` to
     // escape it, and it removes the subtree from hit-testing outright. `!important` for the
     // same reason as the opacity above: a running entry animation outranks a plain declaration.
-    if (hide) { el.style.setProperty("opacity", "0", "important"); el.style.pointerEvents = "none"; el.style.setProperty("visibility", "hidden", "important"); }
-    else { el.style.removeProperty("opacity"); el.style.pointerEvents = ""; el.style.removeProperty("visibility"); }
+    for (const t of [el, this._landFilmEl]) {
+      if (!t) continue;
+      if (hide) { t.style.setProperty("opacity", "0", "important"); t.style.pointerEvents = "none"; t.style.setProperty("visibility", "hidden", "important"); }
+      else { t.style.removeProperty("opacity"); t.style.pointerEvents = ""; t.style.removeProperty("visibility"); }
+    }
   }
   // role badge colored by the advantage the seat gives you (app's dominance model): blue = ahead, red = behind
   badgePill(b, fs, pad) {
@@ -6967,9 +6998,15 @@ class Component extends DCLogic {
         '<span style="font-size:9.5px;letter-spacing:.16em;text-transform:uppercase;color:#8094b4;font-weight:700;flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">' + (n.ty === "positions" ? "Position" : n.ty === "submissions" ? "Submission" : "Transition") + '</span>' +
         '<span style="flex:none;font-size:13px;font-weight:700;color:' + this.potColor(pot) + ';">' + (pot > 0 ? "+" : "") + pot + '</span>' +
       '</div>' +
-      '<div style="font-size:13.5px;font-weight:600;color:#eef1f6;line-height:1.22;margin-bottom:3px;">' + this.splitName(n.t).main + '</div>' +
-      (this.splitName(n.t).from ? '<div style="font-size:10.5px;color:#8094b4;margin-bottom:5px;">' + this.splitName(n.t).from + '</div>' : '') +
-      '<div style="font-size:11px;color:#93a0bd;line-height:1.3;">' + (isEsc ? "escape route" : "&rarr; " + this.splitName(resName).main) + '</div>' +
+      // ── THE CARD IS A CHOICE, NOT A DOSSIER (v1.101.1) ──────────────────────────────────
+      // The `from <origin>` line and the `→ <destination>` line came off at the owner's call
+      // ("it can be removed to make for smaller option cards"). Both were restating what the
+      // hand already tells you: every option in a hand shares the state you are standing in, so
+      // `from X` is the same word on all of them, and where a move LEADS is what the sheet is
+      // for — this card's job is name, category, potential and odds, at a glance, on a clock.
+      // An ESCAPE hand keeps its one word, because "escape route" is not a restatement.
+      '<div style="font-size:13.5px;font-weight:600;color:#eef1f6;line-height:1.22;">' + this.splitName(n.t).main + '</div>' +
+      (isEsc ? '<div style="font-size:11px;color:#93a0bd;line-height:1.3;margin-top:3px;">escape route</div>' : '') +
       bottomRow +
       '<div class="ngbar" style="position:absolute;left:0;bottom:0;height:3px;width:100%;background:' + col + ';transform-origin:left;transform:scaleX(1);"></div>';
     // ── CAPTURE THE TECHNIQUE, NOT THE POSITION ──────────────────────────────────────────────
@@ -6977,10 +7014,12 @@ class Component extends DCLogic {
     // The landing card's + adds the position you happen to be standing in — legitimate ("we
     // worked from half guard"), but not what the feature is for. The hand IS the techniques, so
     // the hand is where a coach captures one: one tap, no commit, the roll carries on.
-    // Bottom-right of the card, beside the odds: the header row's 150px is already glyph +
-    // category + potential, and a 24px target crammed in there is not a thumb target.
-    const capRow = card.querySelector(".ngbotrow");
-    if (capRow) capRow.appendChild(this._listAddButton(n.id, "option"));
+    // ...AND IT IS NOT ON THE CARD ANY MORE (v1.101.1). Owner: "the + on those small options
+    // cards can also be removed. the + should only show top right next to the x close icon when
+    // the card is open". A 150px card on a running clock is a CHOICE; capture belongs on the
+    // surface you opened to read, where you already stopped. The option-detail sheet
+    // (`expandOption`) and the landing card both carry it, so nothing is lost — only the
+    // per-card clutter, which is 8 copies of the same control across one hand.
     card.addEventListener("mouseenter", () => { card.style.borderColor = "rgba(150,180,255,.55)"; card.style.background = "rgba(40,48,76,.9)"; card.style.transform = "translateY(-2px)"; });
     card.addEventListener("mouseleave", () => { card.style.borderColor = "rgba(150,170,210,.18)"; card.style.background = "rgba(28,32,52,.78)"; card.style.transform = "translateY(0)"; });
     card.addEventListener("click", () => { if (isEsc) onPick(opt); else this.expandOption(opt, onPick, card); });
@@ -7301,6 +7340,8 @@ class Component extends DCLogic {
     // card) is a window wide enough to matter.
     if (this._mc && this._mc.surface === "land") this._mc = null;
     if (this._landEl) { try { this._landEl.remove(); } catch (e) {} this._landEl = null; }
+    // the film strip is a SIBLING now, so it does not go away with the card on its own
+    if (this._landFilmEl) { this.clearClipLoops(); try { this._landFilmEl.remove(); } catch (e) {} this._landFilmEl = null; }
   }
   // ── LATE PAYLOAD BACKFILL ── the comprehension payloads are deferred on purpose (decks 4.3MB
   // gz, dossier content 5.3MB gz — first paint must not wait on them) and on a measured Fast-4G
@@ -7417,37 +7458,35 @@ class Component extends DCLogic {
     this._landEl = el;
     this._landIdx = node.idx; this._landMode = mode || "land"; // what _landBackfill is allowed to refill
 
-    // 1 — identity: what it is · where you came from · which side you're playing — and one
-    // top-right familiarity chip: the seen-glyph fused with the deck's recall-proven count
-    // (● 3/8). Clicking it opens this state's flashcards (a user click — pane-law-legal).
+    // 1 — THE LANDING CARD HAS NO HEADER AT ALL (v1.101.1).
+    // v1.101.0 cut the name and the side out of it, because the roll now settles at ROLL_ZOOM
+    // and the graph draws both inside the node — leaving a thin "from <previous>" line with the
+    // familiarity chip parked opposite it. The owner's read on that leftover: the chip "should
+    // show bottom right same row as More instead of top right in its own row", and the block it
+    // was in "shouldn't show". Both are right: one line and one chip do not earn a row above the
+    // question, and the chip is a footer control (it opens this state's flashcards) sitting in a
+    // header's slot. So a LANDING opens on its question, and the counter rides the foot beside
+    // `More ▸` and the capture `+`, which are the card's other two controls.
+    //
+    // An ATTEMPT card keeps its headline: it names the technique the question is ABOUT, and the
+    // graph only labels that one while the sweep is animating.
     const famChip = this.familiarityChip(key, "data-land-count", { clickable: true, style: "margin-left:auto;" });
     const totalCards = famChip.total;   // manifest `n` until the chunk lands
-    // ── THE CARD NO LONGER REPEATS THE GRAPH (v1.101.0) ────────────────────────────────────
-    // Owner, looking at a landing on The Chill Dog: «the "The Chill Dog" and "Bottom" is
-    // repeated info». It is — the roll now settles at ROLL_ZOOM, close enough that the canvas
-    // draws this state's name inside its own node and `richLabel()` prints the side beside it.
-    // So a LANDING card opens on a thin meta line (where you came from, and how well you know
-    // this state) and gets straight to the question. An ATTEMPT card keeps its headline: it
-    // names the technique the question is ABOUT, and the graph only labels that one while the
-    // sweep is animating.
     const attemptMode = (mode || "land") === "attempt";
-    const head = document.createElement("div");
-    head.setAttribute("data-land-id", "1");
-    head.style.cssText = "display:flex;align-items:" + (attemptMode ? "flex-start" : "center") + ";gap:9px;";
-    head.innerHTML = attemptMode
-      ? '<div style="flex:1;min-width:0;">' +
+    if (attemptMode) {
+      const head = document.createElement("div");
+      head.setAttribute("data-land-id", "1");
+      head.style.cssText = "display:flex;align-items:flex-start;gap:9px;";
+      head.innerHTML =
+        '<div style="flex:1;min-width:0;">' +
           '<div style="font-size:14.5px;font-weight:700;color:#eef1f6;font-family:\'Space Grotesk\',sans-serif;line-height:1.2;">' + nameTxt + '</div>' +
           '<div style="font-size:10.5px;color:#8094b4;margin-top:3px;line-height:1.3;">' +
             '<b style="color:#9ab0e0;font-weight:700;">' + roleTxt + '</b>' +
             (sp.from ? ' &middot; ' + sp.from : '') +
           '</div>' +
-        '</div>' + famChip.html
-      : '<div style="flex:1;min-width:0;font-size:10.5px;color:#8094b4;line-height:1.3;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">' +
-          (prev ? 'from ' + prev.name : (sp.from ? sp.from : '')) +
-        '</div>' + famChip.html;
-    const chip = head.querySelector("[data-land-count]");
-    if (chip && totalCards) chip.addEventListener("click", (e) => { e.stopPropagation(); this.openHomeToLatest(); });
-    el.appendChild(head);
+        '</div>';
+      el.appendChild(head);
+    }
 
     // 2 — the one-phrase definition MOVED BEHIND `More` (v1.101.0). Owner, reading "Master Deep
     // Half Guard Top with defensive counters, pressure maintenance, and systematic passing
@@ -7456,13 +7495,20 @@ class Component extends DCLogic {
     // page; the roll wants film and a question. It is not deleted, because the static article is
     // where the SEO value actually lives — it is one fold lower, in `_landMore`.
 
-    // 3 — film, before the question
+    // 3 — FILM RIDES ITS OWN STRIP, OUTSIDE THE CARD (v1.101.1, owner: "place the film study row
+    // aka the videos outside the ng-landcard ... should be outside, immediately above it").
+    // It is a row of thumbnails that GROWS when one is played, and growing it inside a card with
+    // `max-height` + `overflow-y:auto` meant the player was clipped and had to be scrolled to.
+    // As a sibling anchored above the card it grows UPWARD into empty screen, which is also what
+    // makes an expanded clip land top-centre.
     if (info && info.clips && info.clips.length) {
       const film = document.createElement("div");
+      film.className = "ng-landfilm";
       film.setAttribute("data-land-film", "1");
-      film.style.cssText = "margin-top:2px;";
+      film.style.cssText = "position:fixed;left:50%;transform:translateX(-50%);z-index:5;width:min(520px,calc(100vw - 32px));pointer-events:auto;";
       film.innerHTML = this.filmStudyHTML(info.clips, true);
-      el.appendChild(film);
+      (this.__ngRoot || document.body).appendChild(film);
+      this._landFilmEl = film;
       this.wireClips(film, info.clips);
     }
 
@@ -7478,7 +7524,10 @@ class Component extends DCLogic {
     } else if (card) {
       const qw = document.createElement("div");
       qw.setAttribute("data-land-q", "1");
-      qw.style.cssText = "margin-top:10px;padding-top:10px;border-top:1px solid rgba(150,170,210,.14);";
+      // no top border and no top margin (v1.101.1): with the header gone and film lifted out to
+      // its own strip, the question IS the first thing in the card and that rule divided it from
+      // nothing. padding-right keeps the first line clear of the ✕ in the corner.
+      qw.style.cssText = "padding-right:54px;";
       const qt = document.createElement("div");
       qt.style.cssText = "font-size:12.5px;font-weight:600;color:#dbe2f0;line-height:1.35;margin-bottom:8px;";
       qt.textContent = card.q;
@@ -7533,13 +7582,50 @@ class Component extends DCLogic {
     more.style.cssText = "cursor:pointer;font-family:inherit;font-size:10px;font-weight:700;letter-spacing:.09em;text-transform:uppercase;color:#7e8aa3;background:none;border:none;padding:2px 0;display:inline-flex;align-items:center;gap:5px;transition:color .16s;";
     more.addEventListener("click", () => this.expandLandCard());
     foot.appendChild(more);
-    // "we just drilled this" — one tap adds the state you are standing in to today's class list.
+    // THE COUNTER LIVES HERE NOW (v1.101.1), between `More ▸` and the capture `+`: it is a
+    // control (it opens this state's flashcards), not a header ornament, and the owner asked for
+    // it "bottom right same row as More". `margin-left:auto` on the chip is what pushes the pair
+    // to the right edge, so the + no longer needs its own.
+    const chip = document.createElement("span");
+    chip.innerHTML = famChip.html;
+    const chipEl = chip.firstChild;
+    if (chipEl) {
+      if (totalCards) chipEl.addEventListener("click", (e) => { e.stopPropagation(); this.openHomeToLatest(); });
+      foot.appendChild(chipEl);
+    }
+    el.appendChild(foot);
+    // ── THE CARD'S TWO CORNER CONTROLS, TOP-RIGHT (v1.101.1) ──
+    // Owner: "the + should only show top right next of the x close icon when the card is open".
+    // Capture and dismiss are the same KIND of thing — chrome you reach for deliberately, about
+    // the card as a whole — so they sit together in the corner, absolutely positioned so they
+    // cost the card NO vertical space. That is the whole point of this pass: the question shows
+    // the moment the card does. Dismiss clears this landing's card only; the next landing renders
+    // a fresh one, and `_landBackfill` returns early on a null `_landEl`, so a late payload can
+    // never resurrect a card the player put away.
+    const corner = document.createElement("div");
+    corner.setAttribute("data-land-corner", "1");
+    corner.style.cssText = "position:absolute;top:4px;right:5px;z-index:3;pointer-events:auto;display:flex;align-items:center;gap:3px;";
     // pointer-events:auto is set INLINE by _listAddButton: .ng-landcard is a fixed overlay and
     // the canvas hit-tests above anything that does not re-enable it.
     const addBtn = this._listAddButton(node.id, "land");
-    addBtn.style.marginLeft = "auto";
-    foot.appendChild(addBtn);
-    el.appendChild(foot);
+    // quieter than every other surface's copy of it: two bordered boxes in a corner read as a
+    // toolbar. The HIT AREA is untouched (24px desktop / 44px thumb) — only the paint is.
+    addBtn.style.border = "none";
+    addBtn.style.background = "none";
+    addBtn.style.fontSize = "15px";
+    corner.appendChild(addBtn);
+    const xb = document.createElement("button");
+    xb.type = "button";
+    xb.setAttribute("data-land-close", "1");
+    xb.setAttribute("aria-label", "Hide this card");
+    xb.title = "Hide this card";
+    xb.textContent = "✕";
+    xb.style.cssText = "flex:none;pointer-events:auto;cursor:pointer;font-family:inherit;width:24px;height:24px;border:none;border-radius:7px;background:none;color:#8b97b0;font-size:12px;line-height:1;display:flex;align-items:center;justify-content:center;transition:color .15s,background .15s;";
+    xb.addEventListener("mouseenter", () => { xb.style.color = "#dbe2f0"; xb.style.background = "rgba(255,255,255,.08)"; });
+    xb.addEventListener("mouseleave", () => { xb.style.color = "#8b97b0"; xb.style.background = "none"; });
+    xb.addEventListener("click", (e) => { e.stopPropagation(); this.fx("land_dismissed", { node: node.t, answered: !!(this._landQ && this._landQ.answered) }); this.clearLandCard(); });
+    corner.appendChild(xb);
+    el.appendChild(corner);
     // deck/pool still landing: come back once, for THIS card only (`_landEl === el` proves the
     // player has not moved on), and never loop — after the warm, questionFor either has a card
     // or the deck genuinely has none.
@@ -7688,7 +7774,23 @@ class Component extends DCLogic {
    * So dock off the tray's MEASURED top instead. Mobile only: on desktop the tray is one row of
    * cards well below the card and the authored constant is right.
    */
+  /**
+   * The film strip is anchored to the TOP EDGE OF THE CARD, whatever height the card has taken —
+   * and it grows upward, so an expanded clip climbs into empty screen instead of being clipped
+   * inside a scrollport. If it would climb off the top it pins to a 16px inset instead.
+   */
+  _dockLandFilm() {
+    const f = this._landFilmEl; if (!f) return;
+    const H = window.innerHeight || 800;
+    const c = this._landEl;
+    const cardTop = c ? c.getBoundingClientRect().top : H - 236;
+    const h = f.offsetHeight || 0;
+    let bottom = Math.round(H - cardTop + 8);
+    if (H - bottom - h < 16) bottom = Math.max(8, H - 16 - h);
+    f.style.bottom = bottom + "px";
+  }
   _dockLandCard(el) {
+    if (this._landFilmEl) requestAnimationFrame(() => this._dockLandFilm());
     if (!el || !this.isMobile()) return;
     const row = this.optionsRef.current; if (!row) return;
     const h = row.getBoundingClientRect().height;
@@ -8947,8 +9049,16 @@ class Component extends DCLogic {
         const vw = this.pulse
           ? Math.max(this.graphW * 0.3, this.graphR * 0.7)
           : this.graphW * this.ROLL_ZOOM;
-        // shift focus RIGHT of centre so it isn't hidden under the LEFT pane (v1.94.0 flip)
-        const offset = (156 * vw) / this.W;
+        // HORIZONTAL: CENTRE, BIASED SLIGHTLY LEFT (v1.101.1). It used to sit 156px RIGHT of
+        // centre, to clear the left pane — but the pane is manual-only and closed for almost the
+        // whole roll, so the permanent cost was paid for a rare state. Owner: "the selected node
+        // should also be center middle, or even center left (as text on it reads left to right)
+        // but usually it's just center right (which causes text to be mostly displayed on the
+        // right, sometimes cutoff)". Both names hanging off a node run LEFT-TO-RIGHT from it —
+        // the in-node lines wrap around its centre and `richLabel()` starts at its right edge —
+        // so the room a node needs is on its right. Parking it at ~44% of the width gives it
+        // that room instead of pushing it into the edge it would be clipped by.
+        const offset = -0.06 * vw;
         // ...AND UP, INTO THE ONLY CLEAR BAND ON THE SCREEN. Measured at 1440x900: the focus node
         // centred at y=450 with the landing card occupying y=362..900 and the option tray below
         // it — so the state you are playing sat squarely BEHIND the card that talks about it, at

@@ -71,9 +71,20 @@ test("the landing card does not repeat what the graph already says", async ({ pa
   await j.land("Mount Top")
   await j.advance(1200)
 
-  const id = page.locator("[data-land-id]")
-  await expect(id, "the card still has its meta line").toHaveCount(1)
-  const txt = ((await id.textContent()) || "").trim()
+  // v1.101.1: a LANDING card has no header block at all — the question is the first thing in it
+  await expect(
+    page.locator("[data-land-id]"),
+    "no meta row above the question on a landing",
+  ).toHaveCount(0)
+  // the card's CHROME, with the question's own words excluded: a flashcard is allowed to say
+  // "the Mount position" — that is the question, not the card repeating the graph.
+  const txt = await page.evaluate(() => {
+    const c = document.querySelector("[data-landcard]") as HTMLElement
+    if (!c) return ""
+    const clone = c.cloneNode(true) as HTMLElement
+    clone.querySelectorAll("[data-land-q]").forEach((q) => q.remove())
+    return (clone.textContent || "").trim()
+  })
 
   const name = await page.evaluate(() => {
     const a = (window as Any).__neural
@@ -88,8 +99,17 @@ test("the landing card does not repeat what the graph already says", async ({ pa
     /\b(top|bottom|attacking|defending)\b/i.test(txt),
     `nor the side (meta line was "${txt}")`,
   ).toBe(false)
-  // what it DOES carry is how well you know this state
+  // what it DOES carry is how well you know this state — in the FOOT, beside More and the +
   await expect(page.locator("[data-land-count]"), "the familiarity counter stays").toHaveCount(1)
+  expect(
+    await page.evaluate(() => {
+      const f = document.querySelector("[data-land-foot]")
+      const c = document.querySelector("[data-land-count]")
+      return !!(f && c && f.contains(c))
+    }),
+    "and it rides the foot row, not a header of its own",
+  ).toBe(true)
+  await expect(page.locator("[data-land-close]"), "a small way out, top right").toHaveCount(1)
 })
 
 test("More unfolds the card in place — it does not open another container", async ({ page }) => {
@@ -171,16 +191,19 @@ test("the film row rides the game card", async ({ page }) => {
   await j.land("Mount Top")
   await j.advance(2000)
 
-  // the row is the SAME renderer the reading surface uses, in its compact variant
+  // the row is the SAME renderer the reading surface uses, in its compact variant — and since
+  // v1.101.1 it is its OWN strip, docked immediately above the card rather than scrolling inside it
   const film = await page.evaluate(() => {
     const a = (window as Any).__neural
-    const f = a._landEl ? a._landEl.querySelector("[data-land-film]") : null
+    const f = a._landFilmEl
     const q = a._landEl ? a._landEl.querySelector("[data-land-q]") : null
     if (!f) return null
     const fr = f.getBoundingClientRect(), qr = q ? q.getBoundingClientRect() : null
-    return { clips: f.querySelectorAll(".ng-clip").length, h: fr.height, filmTop: fr.top, qTop: qr ? qr.top : null }
+    return { clips: f.querySelectorAll(".ng-clip").length, h: fr.height, filmTop: fr.top, qTop: qr ? qr.top : null,
+             inCard: !!(a._landEl && a._landEl.contains(f)) }
   })
-  expect(film, "the film row is on the card").not.toBeNull()
+  expect(film, "the film row is up").not.toBeNull()
+  expect(film!.inCard, "outside the card, immediately above it").toBe(false)
   expect(film!.clips, "with the authored clip").toBeGreaterThan(0)
   // COMPACT ON PURPOSE: the full-size strip is ~210px and pushed the question below the fold of
   // a card that is 420px tall, under the sticky footer.
@@ -255,7 +278,10 @@ test("the reading sheet's capture row really is clickable, by mouse", async ({ p
   const id = await page.evaluate(() => {
     const a = (window as Any).__neural
     const n = a.nodes.find((x: Any) => x.idx !== a.currentPos && (x.ty === "transitions" || x.ty === "submissions"))
-    a.newList() // one list exists, so a capture is one tap and not a picker
+    // EXACTLY one list, so a capture is one tap and not the destination picker (which is what
+    // `captureNode` shows at two or more) — earlier journeys in this file may have left their own
+    a.lists = {}
+    a.newList()
     a.openDossier(n.idx)
     return n.id
   })

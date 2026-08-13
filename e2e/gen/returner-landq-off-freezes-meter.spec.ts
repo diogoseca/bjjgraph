@@ -51,7 +51,7 @@ test("landQuestions off freezes surface + meter across hops; flipping back on as
 
   // ── the off-phase contract, checked at every arrival: card without question, cold meter ──
   const frozen = async (label: string) => {
-    await expect(page.locator("[data-land-id]"), `${label}: identity renders regardless of the gate`).toBeVisible()
+    await expect(page.locator("[data-landcard]"), `${label}: the card renders regardless of the gate`).toBeVisible()
     await expect(page.locator("[data-land-q]"), `${label}: no question surface`).toHaveCount(0)
     await expect(page.locator("[data-momentum]"), `${label}: no heat chip`).toHaveCount(0)
     const s = await page.evaluate(() => {

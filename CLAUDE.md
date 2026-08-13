@@ -840,10 +840,47 @@ and a stale `_nodeCardOn` would keep the tray faded and the canvas glyph crossfa
   node (`POSITION · TOP`), the name uses `posFamily()` for positions (every hub is titled "… Top" in
   `graph-data.json` — a reading artifact that would contradict a "· BOTTOM" kicker), the focus's rich
   label is SKIPPED once the node is big enough to carry its own text (it was printing the name twice),
-  and in-node type is no longer capped at 15px. A LANDING card opens on a thin meta line ("from
-  <previous>" + the familiarity chip) and goes straight to the question; an ATTEMPT card keeps its
+  and in-node type is no longer capped at 15px.
+  **A LANDING CARD HAS NO HEADER AT ALL (v1.101.1)** — v1.101.0 left a thin "from <previous>" line
+  with the counter opposite it, and the owner's read on that leftover was that the chip "should
+  show bottom right same row as More instead of top right in its own row" and the block it sat in
+  "shouldn't show". So the card opens on its content, and its three controls live where controls
+  belong: `More ▸` at the foot-left, the familiarity chip and the capture `+` at the foot-right
+  (the `+` keeps its 24/44px hit area and loses its box), and a 22px `[data-land-close]` **✕
+  absolutely positioned top-right**, so the way out costs the card no vertical space. Dismissing
+  clears the card for that landing only — the next one renders fresh, and `_landBackfill` returns
+  early on a null `_landEl`, so no late payload can resurrect it. An ATTEMPT card keeps its
   headline, because it names the technique the question is about and the graph only labels that one
   while the sweep animates.
+- **THE FILM STRIP IS ITS OWN SURFACE (v1.101.1).** Owner: "place the film study row aka the videos
+  outside the ng-landcard ... immediately above it". `.ng-landfilm` / `[data-land-film]` is a fixed
+  sibling on the root plane, docked by `_dockLandFilm()` to the card's measured top and anchored by
+  its BOTTOM — so when a clip expands the strip grows UPWARD into empty screen instead of being
+  clipped inside a `max-height` scrollport, which is also what lands a playing clip top-centre. It
+  is cleared, suppressed and re-docked with the card (`clearLandCard`, `_suppressLand`,
+  `_dockLandCard`), and `collapseClip` re-docks on the way back down.
+- **A PLAYING CLIP HAS TWO WAYS OUT (v1.101.1).** A `.ngClipX` ✕ top-right of the player, and a
+  capture-phase `pointerdown` outside it — registered during the click that expanded it, which has
+  already dispatched, so it cannot close what it just opened. Both end in `collapseClip`.
+- **THE CARD'S TWO CORNER CONTROLS (v1.101.1).** Owner: "the + should only show top right next of
+  the x close icon". Capture and dismiss are the same kind of thing — chrome about the card as a
+  whole — so `[data-land-corner]` holds both, absolutely positioned, costing the card no vertical
+  space. The question carries `padding-right:54px` to clear them, and no top border or margin: with
+  the header gone and film lifted out, it divided the card from nothing.
+- **AN OPTION CARD IS A CHOICE, NOT A DOSSIER (v1.101.1).** The `from <origin>` line, the
+  `→ <destination>` line and the per-card `+` are gone (owner: "it can be removed to make for
+  smaller option cards ... the + on those small options cards can also be removed"). `from X` is the
+  same word on every card in a hand — they all share the state you are standing in — and where a
+  move LEADS is what the option-detail sheet is for. Capture stays on the surfaces you opened to
+  read (the sheet, the landing card's corner), not eight times over a running clock. An ESCAPE hand
+  keeps its "escape route" line, which is not a restatement.
+- **HORIZONTALLY THE NODE IS CENTRE, BIASED LEFT (v1.101.1).** The follow-cam parked the focus 156px
+  RIGHT of centre to clear the left pane — but the pane is manual-only and shut for almost the whole
+  roll, so that cost was permanent and its reason was rare. Owner: "the selected node should also be
+  center middle, or even center left (as text on it reads left to right) but usually it's just
+  center right (which causes text to be mostly displayed on the right, sometimes cutoff)". Every
+  name hanging off a node runs left-to-right FROM it, so the room a node needs is on its right:
+  `offset = -0.06 * vw` parks it at ~44% of the width.
 - **`More ▸` unfolds the card in place** (`expandLandCard`, `[data-land-more-body]`, aria-expanded +
   a rotating chevron, label flips to `Less`). It carries what the retired container carried —
   Essential principles, Where it leads, What beats it, Attacks from here — built lazily on first open,

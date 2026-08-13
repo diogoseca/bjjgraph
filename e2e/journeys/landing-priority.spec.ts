@@ -14,7 +14,7 @@ import { journey } from "../dsl";
  * So this spec is a NEGATIVE test as much as a positive one: the deep content the dossier holds
  * (decision trees, principles, common mistakes, metrics) must NOT be on screen until More is used.
  *
- * Surfaces: [data-landcard] [data-land-id] [data-land-def] [data-land-film] [data-land-q]
+ * Surfaces: [data-landcard] [data-land-count] [data-land-film] [data-land-q] [data-land-more-body]
  *           [data-land-more] · setting: landQuestions
  */
 
@@ -28,29 +28,48 @@ test("the landing card shows identity, then film, then the question — in that 
   const card = page.locator("[data-landcard]");
   await expect(card).toBeVisible();
 
-  // DOM order IS the read order the owner specified
+  // DOM order IS the read order — and since v1.101.1 it opens on the CONTENT, not on a header:
+  // the name and the side are on the graph, the definition is behind `More`, and the counter
+  // sits in the foot. What is left above the question is film, which is comprehension support
+  // for it. (The ✕ is a child too, but it is absolutely positioned and reads as chrome.)
   const order = await card.evaluate((el) =>
-    Array.from(el.children).map((c) =>
-      c.hasAttribute("data-land-id")
-        ? "id"
-        : c.hasAttribute("data-land-def")
-          ? "def"
-          : c.hasAttribute("data-land-film")
-            ? "film"
-            : c.hasAttribute("data-land-q")
-              ? "q"
-              : "foot",
-    ),
+    Array.from(el.children)
+      .filter((c) => !c.hasAttribute("data-land-corner"))
+      .map((c) =>
+        c.hasAttribute("data-land-film")
+          ? "film"
+          : c.hasAttribute("data-land-q")
+            ? "q"
+            : c.hasAttribute("data-land-more-body")
+              ? "more"
+              : c.hasAttribute("data-land-foot")
+                ? "foot"
+                : "other",
+      ),
   );
-  expect(order[0], "identity first").toBe("id");
+  expect(order.indexOf("other"), "nothing unaccounted for above the question").toBe(-1);
   expect(order[order.length - 1], "More last").toBe("foot");
   const qi = order.indexOf("q");
-  expect(qi, "the question is present").toBeGreaterThan(0);
-  for (const earlier of ["def", "film"]) {
-    const i = order.indexOf(earlier);
-    if (i >= 0)
-      expect(i, `${earlier} comes before the question`).toBeLessThan(qi);
+  expect(qi, "the question is present, and it is at the top or just under the film").toBeGreaterThanOrEqual(0);
+  // v1.101.1: film is no longer a CHILD of the card — it is its own strip docked immediately
+  // above it, so "before the question" is a geometry claim now, not a DOM-order one.
+  expect(order.indexOf("film"), "the film row is not inside the card any more").toBe(-1);
+  const filmGeom = await page.evaluate(() => {
+    const a = (window as any).__neural;
+    const f = a._landFilmEl, c = a._landEl;
+    if (!f || !c) return null;
+    const fr = f.getBoundingClientRect(), cr = c.getBoundingClientRect();
+    return { inside: c.contains(f), filmBottom: Math.round(fr.bottom), cardTop: Math.round(cr.top) };
+  });
+  if (filmGeom) {
+    expect(filmGeom.inside, "the film strip is a sibling of the card, not a child").toBe(false);
+    expect(
+      filmGeom.filmBottom,
+      "and it sits immediately above it",
+    ).toBeLessThanOrEqual(filmGeom.cardTop + 1);
   }
+  const mi = order.indexOf("more");
+  if (mi >= 0) expect(mi, "the unfoldable rest comes after it").toBeGreaterThan(qi);
 });
 
 test("identity names the state, where you came from, your role, and whether you have met it", async ({
@@ -60,9 +79,16 @@ test("identity names the state, where you came from, your role, and whether you 
   await j.boot("/");
   await j.land("Mount Top");
 
-  const id = page.locator("[data-land-id]");
-  await expect(id).toBeVisible();
-  const txt = (await id.textContent()) || "";
+  // v1.101.1: the landing card has NO header block — the question shows the moment it does.
+  await expect(page.locator("[data-land-id]")).toHaveCount(0);
+  // the card minus the question: a flashcard may legitimately name the state it is asking about
+  const txt = await page.evaluate(() => {
+    const c = document.querySelector("[data-landcard]") as HTMLElement;
+    if (!c) return "";
+    const clone = c.cloneNode(true) as HTMLElement;
+    clone.querySelectorAll("[data-land-q]").forEach((q) => q.remove());
+    return clone.textContent || "";
+  });
 
   const expected = await page.evaluate(() => {
     const a = (window as any).__neural;
@@ -156,7 +182,7 @@ test("turning questions off leaves the identity card but asks nothing", async ({
     "the question is gone",
   ).toHaveCount(0);
   await expect(
-    page.locator("[data-land-id]"),
+    page.locator("[data-landcard]"),
     "but identity is priority either way",
   ).toBeVisible();
 
@@ -190,9 +216,9 @@ test("a state you have proven greets you without a question", async ({
     "nothing left to ask",
   ).toHaveCount(0);
   await expect(
-    page.locator("[data-land-id]"),
+    page.locator("[data-landcard]"),
     "but it still introduces itself",
   ).toBeVisible();
-  const txt = (await page.locator("[data-land-id]").textContent()) || "";
+  const txt = (await page.locator("[data-landcard]").textContent()) || "";
   expect(txt, "and says you have proven it").toContain("●");
 });
