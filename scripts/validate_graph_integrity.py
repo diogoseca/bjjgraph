@@ -676,6 +676,8 @@ def check_from_position_bidirectional(position_names):
         if not actual_from:
             continue
 
+        actual_role = actual_from.rsplit("/", 1)[-1].strip().lower() if "/" in actual_from else ""
+
         for ref in refs:
             expected = ref["expected_from"]
             if actual_from.strip().lower() == expected.strip().lower():
@@ -687,6 +689,41 @@ def check_from_position_bidirectional(position_names):
             # Check if a position-specific variant exists
             variant_name = f"{tech_name} from {ref['position']}"
             has_variant = variant_name in all_tech_names
+
+            # ── A ROLE DISAGREEMENT IS NEVER "ACCEPTABLE GENERICITY" ────────────────────────
+            # The multi-ref escape below was written for POSITION genericity: one technique
+            # reachable from several positions is normal, so its single `from_position` cannot
+            # name them all. It also silently excused ROLE disagreement, which is a different
+            # thing entirely — a technique has exactly one performer, so a position that offers
+            # it to the OTHER side is claiming something the technique itself denies.
+            #
+            # That hole is not theoretical. `optionsFor()` keeps only moves that favour the side
+            # playing them ("the beneficiary is the performer"), and the strength pair the app
+            # filters on is derived from this very field — so a wrong role does not merely mislabel
+            # the move, it DELETES it from that side's hand. Measured on 2026-08-13: 44 role
+            # contradictions across the corpus, 7 of them submissions, every one of them invisible
+            # here because the technique happened to be referenced by more than one position.
+            # The reported case was Triangle Control/bottom, whose triangle finish is authored
+            # `Triangle Control/Top` — so the player holding the triangle was offered transitions
+            # and no submissions at all.
+            if actual_role and actual_role != ref["role"].strip().lower():
+                issues.append({
+                    "type": "from_position_role_mismatch",
+                    # WARNING, not error, on purpose: `validate:graph` is a halting gate in
+                    # `npm run regenerate`, and turning 44 pre-existing contradictions into a hard
+                    # stop would block content work rather than inform it. Promote to "error" once
+                    # the corpus is clean.
+                    "severity": "warning",
+                    "name": tech_name,
+                    "file": tech_from[tech_name]["file"],
+                    "expected_from": expected,
+                    "actual_from": actual_from,
+                    "referencing_position": ref["file"],
+                    "message": (f"Role contradiction: {ref['position']}/{ref['role']} offers "
+                                f"'{tech_name}', but it is authored from '{actual_from}' — one of "
+                                f"the two is wrong, and the app will drop it from that hand"),
+                })
+                continue
 
             if is_single_ref:
                 severity = "error"
