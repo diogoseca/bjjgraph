@@ -286,17 +286,150 @@ test("the node card names the state above the shape, with the familiarity counte
   expect(geometry.title, "the header names the state").toBeTruthy()
 
   const count = page.locator("[data-node-count]")
-  await expect(count, "the familiarity counter rides the header").toHaveCount(1)
+  await expect(count, "the familiarity counter is on the card").toHaveCount(1)
   expect(
     ((await count.textContent()) || "").replace(/\s+/g, ""),
     "the seen-glyph fused with the deck's proven count",
   ).toMatch(/^[○◐●]\d+\/\d+$/)
 
-  // and the side being played is named exactly once, on the badge
+  // and the side being played is named exactly once, in the label
   await expect(
     page.locator("[data-node-head] [data-dossier-badge]"),
-    "the role rides the header beside the name",
+    "the role rides the label beside the name",
   ).toHaveCount(1)
+})
+
+/**
+ * THE LABEL IS A LABEL. The owner's words on the first build of this header: "It shouldn't be
+ * this rectangle dialog above the node. It should rather be like the title showing up as a
+ * label... Not a fucking box looming over it." So the block above the shape carries the two
+ * things a label owes you — TITLE and ROLE — with no card chrome behind them, and every control
+ * that used to ride it (the counter, the ✕, capture) moved INSIDE the node. This test is the
+ * difference between those two designs: it fails on a plate, and it fails if a control drifts
+ * back out onto the label.
+ */
+test("the block above the node is a label, not a card — and holds no controls", async ({
+  page,
+}) => {
+  const j = journey(page)
+  await j.boot("/")
+  await j.land("Mount Top")
+
+  const target = await deckNode(page)
+  await j.hydrate([target.key])
+  await openNodeCard(j, page, target.idx)
+
+  const label = await page.evaluate(() => {
+    const a = (window as Any).__neural
+    const card = a.nodeCardRef.current
+    const head = card.querySelector("[data-node-head]")
+    const hit = card.querySelector(".ndHit")
+    const cs = getComputedStyle(head)
+    const inside = (sel: string) => {
+      const el = card.querySelector(sel)
+      return { onCard: !!el, inHit: !!(el && hit && hit.contains(el)), inHead: !!(el && head.contains(el)) }
+    }
+    return {
+      // a plate is a fill + a border + a shadow; a label is none of the three
+      bg: cs.backgroundColor,
+      bgImage: cs.backgroundImage,
+      borderTop: cs.borderTopWidth,
+      borderLeft: cs.borderLeftWidth,
+      shadow: cs.boxShadow,
+      // ...and it is lifted off the canvas by type, not by a box
+      textShadow: cs.textShadow,
+      pointerEvents: cs.pointerEvents,
+      buttonsInHead: head.querySelectorAll("button,a,[role=button]").length,
+      close: inside("[data-node-close]"),
+      count: inside("[data-node-count]"),
+      capture: inside(".dsList"),
+    }
+  })
+
+  const transparent = (c: string) => /rgba\(\s*\d+,\s*\d+,\s*\d+,\s*0\s*\)/.test(c) || c === "transparent"
+  expect(transparent(label.bg), `no fill behind the title (got ${label.bg})`).toBe(true)
+  expect(label.bgImage, "no gradient plate either").toBe("none")
+  expect(label.borderTop, "no border").toBe("0px")
+  expect(label.borderLeft, "no border").toBe("0px")
+  expect(label.shadow, "no drop shadow — that is what made it a box").toBe("none")
+  expect(label.textShadow, "legibility comes from the type, like the canvas labels").not.toBe("none")
+
+  // NOTHING PRESSABLE ON THE LABEL. It is a wide transparent block over the canvas; arming it
+  // would eat pans and node clicks aimed past the top of the shape.
+  expect(label.pointerEvents, "the label never takes a pointer").toBe("none")
+  expect(label.buttonsInHead, "and carries no controls at all").toBe(0)
+
+  // every control the plate used to carry now lives in the node's own shape
+  expect(label.close, "the ✕ is inside the node").toEqual({ onCard: true, inHit: true, inHead: false })
+  expect(label.count, "so is the familiarity counter").toEqual({ onCard: true, inHit: true, inHead: false })
+  expect(label.capture, "so is the capture button").toEqual({ onCard: true, inHit: true, inHead: false })
+
+  // and it is still the way out, by mouse, from where it now sits
+  await j.clickByMouse("[data-node-close]", "the ✕ inside the node")
+  await j.advance(400)
+  expect((await cardOpen(page)).on, "the ✕ inside the shape still closes the card").toBe(false)
+})
+
+/**
+ * A SUPPRESSED LANDING CARD MUST BE INERT, NOT MERELY TRANSPARENT. `_suppressLand` set opacity 0
+ * and pointer-events:none on the ROOT — but pointer-events is inherited, and `[data-land-foot]`
+ * re-enables it inline on purpose (it holds `More ▸` and the capture +). Hit-testing ignores
+ * opacity, so the "hidden" card kept a fully INVISIBLE sticky footer strip live across its box,
+ * and whatever the node card put under it was dead to the mouse — measured with elementFromPoint
+ * returning `<div data-land-foot="1">` at the centre of the in-node capture button. The card is
+ * centred on its node, so which controls land in that band is a function of where the node sits;
+ * this pins the rule instead of one node's geometry.
+ */
+test("nothing invisible eats a click on the in-node card", async ({ page }) => {
+  const j = journey(page)
+  await j.boot("/")
+  await j.land("Mount Top")
+
+  // the same node the share-lists coach journey captures from — its card lands squarely in the
+  // landing card's footer band at 1440x900
+  const id = await page.evaluate(() => {
+    const a = (window as Any).__neural
+    const usable = a.nodes
+      .filter((x: Any) => typeof x.o === "number" && (x.ty === "transitions" || x.ty === "submissions"))
+      .sort((p: Any, q: Any) => p.o - q.o)
+    return usable[Math.max(1, Math.floor(usable.length / 2))].id
+  })
+  await page.evaluate((nid: string) => {
+    const a = (window as Any).__neural
+    a.openDossier(a._idIndex.get(nid))
+  }, id)
+  for (let i = 0; i < 30; i++) {
+    await j.advance(400)
+    if ((await cardOpen(page)).on && (await page.locator(".dsList").count())) break
+  }
+
+  const state = await page.evaluate(() => {
+    const a = (window as Any).__neural
+    const le = a._landEl
+    const cs = le ? getComputedStyle(le) : null
+    const btn = document.querySelector('.dsList[data-list-surface="dossier"]') as HTMLElement
+    const b = btn ? btn.getBoundingClientRect() : null
+    const at = b ? document.elementFromPoint(b.x + b.width / 2, b.y + b.height / 2) : null
+    return {
+      landVisibility: cs ? cs.visibility : null,
+      landOpacity: cs ? cs.opacity : null,
+      // is the thing under the mouse the capture button (or part of it)?
+      hitIsButton: !!(at && btn && (at === btn || btn.contains(at))),
+      hitLandFoot: !!(at && (at as HTMLElement).closest && (at as HTMLElement).closest("[data-land-foot]")),
+    }
+  })
+
+  expect(Number(state.landOpacity), "the landing card is out of the way").toBeLessThan(0.05)
+  expect(
+    state.landVisibility,
+    "and it is INERT, not just transparent — opacity alone leaves it hit-testable",
+  ).toBe("hidden")
+  expect(state.hitLandFoot, "its footer is not lurking over the node card").toBe(false)
+  expect(state.hitIsButton, "the capture button is what the mouse finds at its own centre").toBe(true)
+
+  // ...and the click really lands, by real mouse, with no scrolling and no ancestor interception
+  await j.clickByMouse('.dsList[data-list-surface="dossier"]', "the in-node capture button")
+  await j.expectBeat("list_item_added")
 })
 
 test("a state with nothing left to ask says so instead of showing an empty section", async ({

@@ -818,16 +818,38 @@ dossier panel: `openDossier` flies the camera into the node (`vw = graphW*0.0085
 the camera, crossfading the canvas glyph out (`_nodeCardO`) and fading the options tray + the
 landing card under it (`_suppressTray`/`_suppressLand`). One object, one gesture. Its read order is
 the owner's: **title + role above the node → film → the question, inside the node's own shape.**
-- **The header is a PLATE on the unclipped shell root** (`[data-node-head]`, `bottom:100%`), not a
-  line in the content stack: the diamond's top corner and the triangle's apex narrow to nothing at
-  exactly headline height, so the one line naming the state was the line most at risk of being
-  clipped. It carries the kicker, `[data-dossier-title]`, the role badge, the `from …` qualifier,
-  the familiarity counter and the **✕** (44px). Because the plate reaches ABOVE the shape, the
-  card's reach from the node is `boxH/2 + headH` — so `updateNodeCard` caps the applied scale to
-  `H / (boxH + 2*headH + 24)`. Without that a triangle at the wheel's inner limit pushed its own
-  title off the top of the screen. Box sizes GREW for the question (560→700 / 600→760 / 680→780)
-  while the root em stayed pinned to the old size: growing both buys no room, only a bigger picture
-  of the same crowding.
+- **The block above the node is a LABEL, not a plate (v1.100.2).** It lives on the unclipped shell
+  root (`[data-node-head]`, `bottom:100%`) rather than in the content stack — the diamond's top
+  corner and the triangle's apex narrow to nothing at exactly headline height, so the one line
+  naming the state was the line most at risk of being clipped. What it is *made of* is the owner's
+  call: *"It shouldn't be this rectangle dialog above the node. It should rather be like the title
+  showing up as a label... Not a fucking box looming over it."* So it is the graph's own label for
+  that node — the same object `richLabel()` draws on the canvas, a 1.05em uppercase kicker
+  (`CATEGORY · ROLE`, the role on `[data-dossier-badge]`) over a 1.85em Space Grotesk name, lifted
+  by a text shadow — carried past the zoom where the canvas hands the node to this card. **No fill,
+  no border, no drop shadow, and `pointer-events:none` at every zoom** (a ~20em transparent block
+  over the canvas would eat pans and node clicks aimed past the shape). It carries **title, role
+  and the `from …` qualifier and nothing else**: the familiarity counter, the **✕** and the capture
+  button all sit INSIDE the shape, at the top of the content stack, in em units like everything
+  else there. Pinned by `node-card.spec.ts` ("the block above the node is a label, not a card"),
+  which fails on a plate *and* on a control drifting back out onto it. Because the label still
+  reaches ABOVE the shape, the card's reach from the node is `boxH/2 + headH` — so `updateNodeCard`
+  caps the applied scale to `H / (boxH + 2*headH + 24)`. Without that a triangle at the wheel's
+  inner limit pushed its own title off the top of the screen. Box sizes GREW for the question
+  (560→700 / 600→760 / 680→780) while the root em stayed pinned to the old size: growing both buys
+  no room, only a bigger picture of the same crowding.
+- **A SUPPRESSED LANDING CARD MUST BE INERT, NOT MERELY TRANSPARENT (v1.100.2).** `_suppressLand`
+  set `opacity:0` + `pointer-events:none` on the `.ng-landcard` root. Both are inherited — and
+  `[data-land-foot]` re-enables pointer-events INLINE on purpose (it holds `More ▸` and the capture
+  `+`, and a fixed overlay's disabled pointer-events is inherited). Hit-testing ignores opacity, so
+  a "hidden" landing card kept a fully **INVISIBLE** sticky footer strip live across its box and
+  whatever the node card put under it was dead to the mouse — measured with `elementFromPoint`
+  returning `<div data-land-foot="1">` at the centre of the in-node capture button. The suppression
+  now also sets **`visibility:hidden !important`**, which is inherited, which nothing here escapes
+  with `visible`, and which removes the subtree from hit-testing outright. Fifth instance of this
+  repo's recurring bug class; guarded by `node-card.spec.ts` ("nothing invisible eats a click").
+  The three sibling hide-sites that write opacity/pointer-events directly (the option-detail sheet
+  pair, the mobile-pane pair) were NOT changed and share the shape of the hole — unverified.
 - **The question** (`[data-node-q]`, `_renderNodeQuestion`) sits at the MIDDLE of the content stack —
   the stack is vertically centred, so the middle is the widest band on all three geometries.
   `nodeQuestionFor(key, skip)` asks to the **recall gate (stage 3)**, not the landing card's

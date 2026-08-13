@@ -5784,9 +5784,9 @@ class Component extends DCLogic {
     this._nodeCardO = cardO; // draw() crossfades the canvas glyph out as the card fades in
     el.style.opacity = cardO.toFixed(3);
     this._suppressTray(cardO > 0.5);
-    // FIT CAP. The card is centred on the node and the header plate reaches ABOVE it, so the
+    // FIT CAP. The card is centred on the node and the title label reaches ABOVE it, so the
     // object's reach from the node is boxH/2 + headH — bigger than half the box. Cap the scale so
-    // the whole thing (plate included) stays inside the viewport at any zoom the user can reach;
+    // the whole thing (label included) stays inside the viewport at any zoom the user can reach;
     // without it a triangle at the wheel's inner limit pushes its own title off the top edge.
     // Still capped at 1.12 for the old reason: a slight upscale past s=1 beats letting the canvas
     // glyph outgrow a hard-capped card.
@@ -5804,8 +5804,10 @@ class Component extends DCLogic {
     const live = cardO >= 1 ? "auto" : "none";
     const hit = el.querySelector(".ndHit");
     if (hit) hit.style.pointerEvents = live;
-    const hd = el.querySelector("[data-node-head]");
-    if (hd) hd.style.pointerEvents = live;
+    // The label above the node is deliberately NOT armed with them. It is text with no controls
+    // on it, and it is a ~20em-wide transparent block sitting over the canvas — arming it would
+    // eat every pan and every node click aimed past the top of the shape. Everything you can
+    // press (the counter, the ✕, capture, roll-from-here, the question) is inside .ndHit.
   }
   // keep the in-node dossier readable: fade the options tray under it while the card is up
   _suppressTray(hide) {
@@ -5838,8 +5840,19 @@ class Component extends DCLogic {
     // element (fresh animation) at exactly the moment a reader is opening a dossier. Measured:
     // inline opacity "0", computed 0.99, card fully painted over the node. `!important` outranks
     // an animation; `style.opacity` still reads "0", which is what _landBackfill detects.
-    if (hide) { el.style.setProperty("opacity", "0", "important"); el.style.pointerEvents = "none"; }
-    else { el.style.removeProperty("opacity"); el.style.pointerEvents = ""; }
+    // ...AND `visibility`, WHICH IS THE ONLY ONE OF THE THREE THAT ACTUALLY DISARMS THE CARD.
+    // `pointer-events` on the root is INHERITED, so a child that re-enables it inline wins for
+    // itself — and `[data-land-foot]` does exactly that, deliberately (a fixed overlay's
+    // disabled pointer-events is inherited, and the footer holds `More ▸` and the capture +).
+    // Hit-testing ignores `opacity`. So a "hidden" landing card left a fully INVISIBLE sticky
+    // footer strip live across the bottom of its box, and whatever sat under it was dead to the
+    // mouse: measured with elementFromPoint returning `<div data-land-foot="1">` at the centre
+    // of the in-node dossier's capture button (Playwright: "subtree intercepts pointer events",
+    // 120s of retries). `visibility` is inherited too, but nothing here sets `visible` to
+    // escape it, and it removes the subtree from hit-testing outright. `!important` for the
+    // same reason as the opacity above: a running entry animation outranks a plain declaration.
+    if (hide) { el.style.setProperty("opacity", "0", "important"); el.style.pointerEvents = "none"; el.style.setProperty("visibility", "hidden", "important"); }
+    else { el.style.removeProperty("opacity"); el.style.pointerEvents = ""; el.style.removeProperty("visibility"); }
   }
   // role badge colored by the advantage the seat gives you (app's dominance model): blue = ahead, red = behind
   badgePill(b, fs, pad) {
@@ -5932,32 +5945,51 @@ class Component extends DCLogic {
       const bloom = '0 0 90px ' + this.rgba(n.col, 0.10) + ',0 24px 70px rgba(0,0,0,.45)';
       const nClips = clips.slice(0, shape === "circle" ? 3 : 2);
       const nPrin = principles.slice(0, shape === "circle" ? 2 : 1);
+      // kicker at 1.05em against a 1.85em title — the same ratio `richLabel()` draws on the canvas
+      // (11px over 18px). At .82em it was 5px of low-contrast type on screen at the zoom the card
+      // first becomes readable, which is a kicker nobody can read.
       const kick = isCur
-        ? '<span style="width:.58em;height:.58em;border-radius:50%;background:#5a9bf0;box-shadow:0 0 .66em rgba(90,155,240,.7);"></span><span style="font-size:.82em;letter-spacing:.16em;text-transform:uppercase;font-weight:800;color:#7fb4ff;">Your current position</span>'
-        : '<span style="font-size:.82em;letter-spacing:.16em;text-transform:uppercase;font-weight:800;color:' + col + ';">' + cat + '</span>';
-      // ── THE HEADER IS NOT INSIDE THE SHAPE ─────────────────────────────────────────────────
+        ? '<span style="width:.58em;height:.58em;border-radius:50%;background:#5a9bf0;box-shadow:0 0 .66em rgba(90,155,240,.7);"></span><span style="font-size:1.05em;letter-spacing:.16em;text-transform:uppercase;font-weight:800;color:#7fb4ff;">Your current position</span>'
+        : '<span style="font-size:1.05em;letter-spacing:.16em;text-transform:uppercase;font-weight:800;color:' + col + ';">' + cat + '</span>';
+      // ── THE TITLE IS A LABEL, NOT A PLATE ──────────────────────────────────────────────────
       // The title used to live in the content stack, where the diamond's top corner and the
       // triangle's apex narrow to nothing exactly at headline height — so the ONE line that says
-      // what you are looking at was the line most at risk of being clipped, and it was capped at
-      // 11em on those two shapes to survive. It is now a plate on the UNCLIPPED shell root,
-      // floating above the node like a map label: name, side, and the familiarity counter, with
-      // no clip-path anywhere near it. Read order is then exactly what the owner asked for —
-      // title + role above the node, film, then the question inside the node's own format.
-      let head = '<div data-node-head style="position:absolute;left:50%;bottom:100%;transform:translateX(-50%);margin-bottom:.7em;display:flex;flex-direction:column;align-items:center;gap:.34em;text-align:center;padding:.7em 3.4em .8em 1.4em;border-radius:1.1em;background:linear-gradient(180deg,rgba(23,26,48,.96),rgba(16,18,35,.96));border:1px solid ' + ringOut + ';box-shadow:0 14px 40px rgba(0,0,0,.5);font-size:' + rootFs + 'px;pointer-events:none;">';
-      head += '<div style="display:flex;align-items:center;justify-content:center;gap:.66em;">' + kick + '</div>';
-      head += '<div data-dossier-title style="font-family:\'Space Grotesk\',sans-serif;font-size:1.85em;font-weight:600;letter-spacing:-.01em;line-height:1.12;color:#eef1f6;max-width:16em;">' + title + '</div>';
-      head += '<div style="display:flex;align-items:center;justify-content:center;gap:.6em;flex-wrap:wrap;max-width:20em;">' +
-        this.badgePill(badge, 10, "3px 12px") +
-        (sp.from && (!role || sp.from.toLowerCase() !== role.toLowerCase()) ? '<span style="font-size:.9em;color:#8b97b0;">' + sp.from + '</span>' : '') +
-        this.familiarityChip(this.deckKeyFor(n).key, "data-node-count", { fs: ".82em", gs: ".9em" }).html +
-      '</div>';
-      // ✕ — fly back out. It lives on the plate (never inside a clip-path, which would eat a
-      // corner control) and is deliberately 44px: the one control whose whole job is "let me
-      // out". pointer-events is NOT set here — updateNodeCard arms the plate as a whole at the
-      // same zoom it arms .ndHit, so the card can never be clickable while it is still fading in.
-      head += '<button data-node-close type="button" aria-label="Close" title="Close (Esc)" style="position:absolute;top:.5em;right:.5em;cursor:pointer;font-family:inherit;width:44px;height:44px;border-radius:12px;border:1px solid rgba(150,170,210,.22);background:rgba(255,255,255,.04);color:#9aa6bd;font-size:18px;line-height:1;display:flex;align-items:center;justify-content:center;">✕</button>';
+      // what you are looking at was the line most at risk of being clipped. It is now on the
+      // UNCLIPPED shell root above the shape, and it is the graph's OWN label for this node: the
+      // same object `richLabel()` draws on the canvas — a small uppercase kicker over a Space
+      // Grotesk name, lifted off the background by a text shadow — carried on past the zoom where
+      // the canvas hands the node over to this card. That continuity is the whole point of it.
+      // It says TITLE and ROLE and nothing else. A filled, bordered, drop-shadowed plate does not
+      // name a node, it looms over it as a second window, and it is why the familiarity counter,
+      // the ✕ and the capture button now live INSIDE the shape where the node's own content is.
+      // Nothing here is interactive at any zoom (pointer-events stays none): a wide transparent
+      // text block floating over the canvas would eat pans and clicks aimed past the shape.
+      const roleKick = badge
+        ? '<span style="opacity:.5;color:#8b97b0;">·</span><span data-dossier-badge title="blue = you’re ahead · red = you’re behind" style="font-size:1.05em;letter-spacing:.16em;text-transform:uppercase;font-weight:800;color:' + (badge.tone === "ahead" ? "#7fb4ff" : badge.tone === "behind" ? "#ff9a8f" : "#cfd6e4") + ';">' + badge.label + '</span>'
+        : '';
+      let head = '<div data-node-head style="position:absolute;left:50%;bottom:100%;transform:translateX(-50%);margin-bottom:.5em;display:flex;flex-direction:column;align-items:center;gap:.16em;text-align:center;font-size:' + rootFs + 'px;pointer-events:none;text-shadow:0 2px 12px rgba(0,0,0,.95),0 1px 4px rgba(0,0,0,.9);">';
+      head += '<div style="display:flex;align-items:center;justify-content:center;gap:.5em;">' + kick + roleKick + '</div>';
+      head += '<div data-dossier-title style="font-family:\'Space Grotesk\',sans-serif;font-size:1.85em;font-weight:600;letter-spacing:-.01em;line-height:1.14;color:#eef1f6;max-width:18em;">' + title + '</div>';
+      if (sp.from && (!role || sp.from.toLowerCase() !== role.toLowerCase()))
+        head += '<div style="font-size:1em;color:#b9c2d6;max-width:20em;">' + sp.from + '</div>';
       head += '</div>';
       let c = "";
+      // ── THE NODE'S OWN STATE, AND THE WAY OUT, INSIDE THE SHAPE ──
+      // The counter and the ✕ used to ride the plate above the node. They are this node's status
+      // and this node's control, so they belong in the node — and now that the title above is a
+      // bare label that never takes a pointer, inside is the only place a control CAN live. Top
+      // of the content stack: what you have proven here, then the way out, then the content.
+      // Sized in em like everything else in the shape (2.6em of a 1.5em font ≈ 44px at the
+      // circle's root size), so the row reflows with the card instead of blowing out at the
+      // triangle's narrow top. The ✕ keeps that target but drops its box: a bordered, filled
+      // 44px square beside a 10px chip read as a stray dialog button parked inside the node,
+      // which is the same "chrome where type belongs" the label above just lost. pointer-events
+      // is NOT set on it — updateNodeCard arms .ndHit as a whole at the zoom the card reaches
+      // full opacity, so nothing here can be clickable while it is still fading in.
+      c += '<div style="display:flex;align-items:center;justify-content:center;gap:1.2em;">' +
+        this.familiarityChip(this.deckKeyFor(n).key, "data-node-count", { fs: "1em", gs: "1.05em" }).html +
+        '<button data-node-close type="button" aria-label="Close" title="Close (Esc)" style="flex:none;cursor:pointer;font-family:inherit;width:2.6em;height:2.6em;padding:0;border-radius:50%;border:0;background:transparent;color:#96a3bf;font-size:1.5em;line-height:1;display:flex;align-items:center;justify-content:center;">✕</button>' +
+      '</div>';
       if (nClips.length) {
         c += '<div style="display:flex;gap:.5em;justify-content:center;">' + nClips.map((cl) =>
           '<a href="https://www.youtube.com/watch?v=' + cl.id + (cl.start ? '&t=' + cl.start + 's' : '') + '" target="_blank" rel="noopener" title="' + (cl.title || "") + '" style="position:relative;width:' + (shape === "circle" ? "8.5em" : "9.2em") + ';aspect-ratio:16/10;border-radius:.66em;overflow:hidden;border:1px solid rgba(150,170,210,.18);background:linear-gradient(135deg,#2b2336,#1b1b30);display:block;">' +
@@ -6026,7 +6058,7 @@ class Component extends DCLogic {
       } else {
         const clip = 'polygon(50% 2%,98% 92%,2% 92%)';
         // triangle: the content band sits LOW (26%..8%), where the silhouette is wide — with the
-        // title lifted onto the plate there is nothing left that has to survive the apex.
+        // title lifted out onto the label there is nothing left that has to survive the apex.
         shell = '<div style="position:absolute;inset:0;filter:drop-shadow(0 0 44px ' + this.rgba(n.col, 0.16) + ') drop-shadow(0 22px 46px rgba(0,0,0,.42));"><div style="position:absolute;inset:0;clip-path:' + clip + ';background:' + fill + ';"></div></div>' + ringLayers(false, clip) +
           '<div class="ndHit" style="position:absolute;inset:14px;clip-path:' + clip + ';background:' + fill + ';pointer-events:none;font-size:' + rootFs + 'px;"><div style="position:absolute;left:0;right:0;top:26%;bottom:8%;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:.8em;text-align:center;font-size:1em;">' + c + '</div></div>';
       }
