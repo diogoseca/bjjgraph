@@ -7526,10 +7526,15 @@ class Component extends DCLogic {
       qw.setAttribute("data-land-q", "1");
       // no top border and no top margin (v1.101.1): with the header gone and film lifted out to
       // its own strip, the question IS the first thing in the card and that rule divided it from
-      // nothing. padding-right keeps the first line clear of the ✕ in the corner.
-      qw.style.cssText = "padding-right:54px;";
+      // nothing.
+      qw.style.cssText = "";
       const qt = document.createElement("div");
-      qt.style.cssText = "font-size:12.5px;font-weight:600;color:#dbe2f0;line-height:1.35;margin-bottom:8px;";
+      // THE CORNER CLEARANCE BELONGS TO THE QUESTION, NOT THE BLOCK (v1.101.3). It was on the
+      // wrapper, so all four answers were inset 54px as well — they start below the corner
+      // controls and have nothing to clear, and every one of them is `white-space:nowrap` +
+      // ellipsis, so the padding was spending width that answer text needed. Only the line that
+      // actually runs under the `+` and the ✕ pays for them.
+      qt.style.cssText = "padding-right:54px;font-size:12.5px;font-weight:600;color:#dbe2f0;line-height:1.35;margin-bottom:8px;";
       qt.textContent = card.q;
       qw.appendChild(qt);
       const block = this._mcBlock(card, key, (correct, tier) => this._landAnswered(correct, tier, mode, hooks), "land");

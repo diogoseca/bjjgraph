@@ -305,3 +305,51 @@ test("the reading sheet's capture row really is clickable, by mouse", async ({ p
   ).toBe(true)
   await j.expectBeat("list_item_added")
 })
+
+/**
+ * THE CORNER CLEARANCE IS THE QUESTION'S, NOT THE BLOCK'S. `[data-land-q]` wraps the question
+ * line AND the four answers; putting the `padding-right` that clears the `+`/✕ on the wrapper
+ * inset the answers too — and they are `white-space:nowrap` with an ellipsis, so 54px of padding
+ * is 54px of answer text that stops being readable. Only the line that actually runs under the
+ * corner controls pays for them.
+ */
+test("only the question line clears the corner controls — the answers get their width back", async ({
+  page,
+}) => {
+  const j = journey(page)
+  await j.boot("/")
+  await j.land("Mount Top")
+  await j.advance(1500)
+
+  const m = await page.evaluate(() => {
+    const wrap = document.querySelector("[data-land-q]") as HTMLElement
+    if (!wrap) return null
+    const qt = wrap.firstElementChild as HTMLElement
+    const opt = wrap.querySelector("[data-land-mc-opt]") as HTMLElement
+    const corner = document.querySelector("[data-land-corner]") as HTMLElement
+    if (!opt || !corner) return null
+    // where the question's TEXT ends, not where its box does — padding is inside the rect
+    const range = document.createRange()
+    range.selectNodeContents(qt)
+    return {
+      wrapPad: getComputedStyle(wrap).paddingRight,
+      qtPad: getComputedStyle(qt).paddingRight,
+      optWidth: Math.round(opt.getBoundingClientRect().width),
+      wrapWidth: Math.round(wrap.getBoundingClientRect().width),
+      textRight: Math.round(range.getBoundingClientRect().right),
+      cornerLeft: Math.round(corner.getBoundingClientRect().left),
+    }
+  })
+  expect(m, "a multiple-choice question is on the card").not.toBeNull()
+
+  expect(m!.wrapPad, "the block does not inset the answers").toBe("0px")
+  expect(
+    m!.optWidth,
+    `an answer spans the card's full width (${m!.optWidth} of ${m!.wrapWidth})`,
+  ).toBe(m!.wrapWidth)
+  expect(m!.qtPad, "the question line carries the clearance instead").toBe("54px")
+  expect(
+    m!.textRight,
+    `and its text really stops before the corner (text ends ${m!.textRight}, corner starts ${m!.cornerLeft})`,
+  ).toBeLessThanOrEqual(m!.cornerLeft)
+})

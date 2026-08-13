@@ -865,8 +865,11 @@ and a stale `_nodeCardOn` would keep the tray faded and the canvas glyph crossfa
 - **THE CARD'S TWO CORNER CONTROLS (v1.101.1).** Owner: "the + should only show top right next of
   the x close icon". Capture and dismiss are the same kind of thing — chrome about the card as a
   whole — so `[data-land-corner]` holds both, absolutely positioned, costing the card no vertical
-  space. The question carries `padding-right:54px` to clear them, and no top border or margin: with
-  the header gone and film lifted out, it divided the card from nothing.
+  space. The QUESTION LINE carries `padding-right:54px` to clear them — not the `[data-land-q]` block,
+  which also holds the four answers: they start below the corner, have nothing to clear, and
+  are `white-space:nowrap` + ellipsis, so insetting them spent 54px of answer text (v1.101.3).
+  The block also has no top border or margin: with the header gone and film lifted out, it
+  divided the card from nothing.
 - **AN OPTION CARD IS A CHOICE, NOT A DOSSIER (v1.101.1).** The `from <origin>` line, the
   `→ <destination>` line and the per-card `+` are gone (owner: "it can be removed to make for
   smaller option cards ... the + on those small options cards can also be removed"). `from X` is the
