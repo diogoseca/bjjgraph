@@ -322,9 +322,11 @@ test("the picker never stops the clock, and never sits over the option hand past
   await openExplore(page);
   await page.locator(".ng-explorer-close").click(); // back to the roll, pane shut
 
-  // the in-roll capture surface: an option card's +
-  const optAdd = page.locator('[data-list-add][data-list-surface="option"]').first();
-  await expect(optAdd, "the hand carries capture affordances").toBeVisible();
+  // THE in-roll capture surface (v1.101.1): the landing card's corner +. Option cards lost their
+  // own copy — a 150px card on a running clock is a choice, and capture belongs on a surface you
+  // opened to read. This is still the anchor with the least room around it while a hand is dealt.
+  const optAdd = page.locator('[data-list-add][data-list-surface="land"]').first();
+  await expect(optAdd, "the roll carries a capture affordance").toBeVisible();
 
   const before = await page.evaluate(() => {
     const a = (window as any).__neural;
@@ -414,9 +416,10 @@ test.describe("in the 390px drawer", () => {
     await j.land("Mount Top");
     await seedTwoLists(page);
 
-    // the hardest anchor on the hardest device: an option card at the bottom of the tray, with
-    // the thumb band below it. An un-clamped drop-down would land under both.
-    const optAdd = page.locator('[data-list-add][data-list-surface="option"]').first();
+    // the hardest anchor on the hardest device: the landing card's corner +, docked just above a
+    // full option tray with the thumb band below that. An un-clamped drop-down lands under both.
+    // (Option cards lost their own + in v1.101.1.)
+    const optAdd = page.locator('[data-list-add][data-list-surface="land"]').first();
     await expect(optAdd).toBeVisible();
     const ab = (await optAdd.boundingBox())!;
     await page.touchscreen.tap(ab.x + ab.width / 2, ab.y + ab.height / 2);

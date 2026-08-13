@@ -335,133 +335,29 @@ test("a coach captures a TECHNIQUE from the live hand with a real tap at real co
     `the hand is techniques, not positions (${JSON.stringify(hand.map((h: any) => h.ty))})`,
   ).toBe(true);
 
-  // EVERY technique in the hand, not just one — asserted against the hand's own length, because
-  // `.first()).toHaveCount(1)` would pass on a single stray button and claim otherwise.
+  // ── WHERE THE CAPTURE LIVES NOW (v1.101.1) ──────────────────────────────────────────────────
+  // Option cards lost their own `+`: a 150px card on a running clock is a CHOICE, and eight
+  // copies of one control is clutter the owner asked to be rid of. The capability this journey
+  // guards is unchanged — a coach takes a note on a TECHNIQUE, mid-roll, with a real tap, and it
+  // must not commit the move — but the surface is the sheet a card tap already opens, which is
+  // the phone's reading surface anyway.
   await expect(
     page.locator('[data-list-add][data-list-surface="option"]'),
-    `every one of the ${hand.length} techniques in the hand carries an add-to-class affordance`,
-  ).toHaveCount(hand.length);
+    "no per-card capture on the hand any more",
+  ).toHaveCount(0);
 
-  // wait out the cards' entrance transform, then measure where the button REALLY is
-  let box = await reach(page, '[data-list-add][data-list-surface="option"]');
-  for (let i = 0; i < 20 && !(box.inViewport && box.hit === "the control"); i++) {
-    await page.waitForTimeout(100);
-    box = await reach(page, '[data-list-add][data-list-surface="option"]');
-  }
-  expect(box.inViewport, `the + is on a 390x844 screen (${JSON.stringify(box)})`).toBe(true);
-  expect(box.hit, `elementFromPoint(${box.x},${box.y}) must be the + itself`).toBe("the control");
-  expect(
-    Math.min(box.w, box.h),
-    `a thumb target on a phone (got ${box.w}x${box.h}) — the SAME 44px minimum this feature ` +
-      `applies to its own technique sheet, for the harder tap of the two: this one happens ` +
-      `mid-roll, one-handed, on a tray that is scrolling`,
-  ).toBeGreaterThanOrEqual(44);
+  // tap the CARD (a real tap, at measured coordinates) — that opens the sheet
+  const cardBox = await page.locator(`[data-tech="${hand[0].name}"]`).first().boundingBox();
+  expect(cardBox, "the first technique's card is on a 390x844 screen").not.toBeNull();
+  await page.touchscreen.tap(cardBox!.x + cardBox!.width / 2, cardBox!.y + 24);
 
-  // THE + MADE EVERY CARD TALLER, and the tray is `position:absolute; bottom:84px` with no
-  // height — so it grows UPWARD, straight into the landing card docked above it (bottom:206px on
-  // a phone). On a 390px screen there is no slack to spend, so the stack is asserted, not assumed.
-  const stack = await page.evaluate(() => {
-    const row = document.querySelector(".ng-optionrow") as HTMLElement;
-    const land = document.querySelector(".ng-landcard") as HTMLElement | null;
-    const r = row.getBoundingClientRect();
-    return {
-      rowTop: Math.round(r.top),
-      rowHeight: Math.round(r.height),
-      landBottom: land ? Math.round(land.getBoundingClientRect().bottom) : null,
-      cardHeight: Math.round(
-        (document.querySelector("[data-tech]") as HTMLElement).getBoundingClientRect().height,
-      ),
-    };
-  });
-  expect(
-    stack.landBottom === null || stack.landBottom <= stack.rowTop,
-    `the option tray (top ${stack.rowTop}, height ${stack.rowHeight}, cards ${stack.cardHeight}px) ` +
-      `overlaps the landing card (bottom ${stack.landBottom}) — the capture + grew the cards into it`,
-  ).toBe(true);
-
-  const targetId = await page.evaluate(
-    () =>
-      (
-        document.querySelector(
-          '[data-list-add][data-list-surface="option"]',
-        ) as HTMLElement
-      ).getAttribute("data-list-add")!,
-  );
-
-  // THE PROOF: a real trusted mouse click at those coordinates. No locator.click (it scrolls
-  // into view first), no window.__neural.
-  await page.mouse.click(box.x, box.y);
-
-  const after = await page.evaluate(() => {
-    const a = (window as any).__neural;
-    const id = a.activeListId;
-    const items = ((a.lists[id] || {}).items || []) as string[];
-    return {
-      items,
-      types: items.map((nid) => a.nodes[a._idIndex.get(nid)].ty),
-      committed: (a.beats || []).filter((b: any) => b.beat === "commit").length,
-      stillDealing: (a.optionIdxs || []).length > 0,
-    };
-  });
-  expect(after.items, "one tap on the hand captures the TECHNIQUE").toEqual([targetId]);
-  expect(
-    after.types,
-    `…and what got captured is a TECHNIQUE, not the position the coach happened to be in ` +
-      `(got ${JSON.stringify(after.types)})`,
-  ).toEqual([expect.stringMatching(/^(transitions|submissions)$/)]);
-  expect(
-    after.committed,
-    "capturing a technique must NOT commit the move — a coach is taking a note, not playing it",
-  ).toBe(0);
-  expect(after.stillDealing, "…and the hand is still live").toBe(true);
-  await j.expectBeat("list_item_added");
-
-  // and a real TOUCH tap works too, on a second technique
-  const second = await page.evaluate(() => {
-    const els = Array.from(
-      document.querySelectorAll('[data-list-add][data-list-surface="option"]'),
-    ) as HTMLElement[];
-    for (const el of els) {
-      const r = el.getBoundingClientRect();
-      const at = document.elementFromPoint(
-        Math.round(r.x + r.width / 2),
-        Math.round(r.y + r.height / 2),
-      );
-      if (
-        r.right <= window.innerWidth &&
-        r.x >= 0 &&
-        (at === el || el.contains(at as Node)) &&
-        el.getAttribute("data-list-add") !== els[0].getAttribute("data-list-add")
-      )
-        return {
-          id: el.getAttribute("data-list-add"),
-          x: Math.round(r.x + r.width / 2),
-          y: Math.round(r.y + r.height / 2),
-        };
-    }
-    return null;
-  });
-  expect(second, "at least two techniques of the hand are reachable on a 390px screen").not.toBeNull();
-  await page.touchscreen.tap(second!.x, second!.y);
-  expect(
-    await page.evaluate(() => {
-      const a = (window as any).__neural;
-      return ((a.lists[a.activeListId] || {}).items || []).length;
-    }),
-    "a thumb tap captures the second technique too",
-  ).toBe(2);
-
-  // the sheet a coach reads before committing carries the same affordance, with room for a
-  // 44px target (the sheet animates open over ~420ms — poll, don't guess)
-  await page.locator(`[data-tech="${hand[0].name}"]`).first().click();
+  // the sheet animates open over ~420ms — poll for the control, don't guess
   let sheetAdd = await reach(page, '[data-list-add][data-list-surface="sheet"]');
-  for (let i = 0; i < 20 && !(sheetAdd.inViewport && sheetAdd.hit === "the control"); i++) {
+  for (let i = 0; i < 25 && !(sheetAdd.inViewport && sheetAdd.hit === "the control"); i++) {
     await page.waitForTimeout(100);
     sheetAdd = await reach(page, '[data-list-add][data-list-surface="sheet"]');
   }
-  expect(sheetAdd.found, "the technique sheet can capture the technique it is describing").toBe(
-    true,
-  );
+  expect(sheetAdd.found, "the technique sheet can capture the technique it is describing").toBe(true);
   expect(sheetAdd.inViewport, `and it is reachable (${JSON.stringify(sheetAdd)})`).toBe(true);
   expect(sheetAdd.hit, "with nothing on top of it").toBe("the control");
   expect(
@@ -480,6 +376,39 @@ test("a coach captures a TECHNIQUE from the live hand with a real tap at real co
     await page.locator('[data-list-add][data-list-surface="sheet"]').getAttribute("aria-label"),
     "and every capture carries a real accessible name, not a title attribute",
   ).toMatch(/class/i);
+
+  const targetId = await page.evaluate(
+    () =>
+      (
+        document.querySelector('[data-list-add][data-list-surface="sheet"]') as HTMLElement
+      ).getAttribute("data-list-add")!,
+  );
+
+  // THE PROOF: a real trusted touch tap at those coordinates. No locator.click (it scrolls into
+  // view first), no window.__neural.
+  await page.touchscreen.tap(sheetAdd.x, sheetAdd.y);
+
+  const after = await page.evaluate(() => {
+    const a = (window as any).__neural;
+    const id = a.activeListId;
+    const items = ((a.lists[id] || {}).items || []) as string[];
+    return {
+      items,
+      types: items.map((nid) => a.nodes[a._idIndex.get(nid)].ty),
+      committed: (a.beats || []).filter((b: any) => b.beat === "commit").length,
+    };
+  });
+  expect(after.items, "one tap captures the TECHNIQUE the sheet is about").toEqual([targetId]);
+  expect(
+    after.types,
+    `…and what got captured is a TECHNIQUE, not the position the coach happened to be in ` +
+      `(got ${JSON.stringify(after.types)})`,
+  ).toEqual([expect.stringMatching(/^(transitions|submissions)$/)]);
+  expect(
+    after.committed,
+    "capturing a technique must NOT commit the move — a coach is taking a note, not playing it",
+  ).toBe(0);
+  await j.expectBeat("list_item_added");
 });
 
 // ══════════════════════════════════════════════════ 3. a saved link whose list is gone
