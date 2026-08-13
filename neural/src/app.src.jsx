@@ -4508,7 +4508,12 @@ class Component extends DCLogic {
       const c = this._captureCopy(n.id), on = c.on;
       const g = lb.querySelector(".dsListGlyph"), t = lb.querySelector(".dsListTxt");
       if (g) { g.textContent = on ? "\u2713" : "+"; g.style.color = on ? "#7ee0a8" : "#9ab0e0"; }
-      if (t) t.textContent = c.label;
+      // the VISIBLE words stay short and fixed-width. The destination goes in the accessible
+      // name, not into this row's text: the in-node dossier card is laid out at the node's own
+      // screen point, and a longer label grew it far enough to slide this control under the
+      // landing card's MC options — measured, and it cost the dossier capture entirely. The
+      // "Adding to <list>" line in the Lists head is where the destination is READ.
+      if (t) t.textContent = on ? "In today\u2019s class list" : "Add to today\u2019s class list";
       lb.title = c.label;
       lb.setAttribute("aria-label", c.label);
       lb.setAttribute("aria-pressed", on ? "true" : "false");
