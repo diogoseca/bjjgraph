@@ -137,10 +137,15 @@ const awaitSystems = async (page: Page) => {
     .toBe(true);
 };
 
-/** Open the pane on Explore the way a reader does: the logo, then the tab. */
+/** Open the pane on Explore the way a reader does: the logo, then the tab — then expand
+ *  the Systems section, which (like every Explore section) defaults COLLAPSED since
+ *  v1.99.3 (explore-sections.spec.ts owns that contract). */
 const openExplore = async (page: Page) => {
   await page.locator(".ng-logo").click();
   await page.locator("[data-view='explore']").click();
+  const hdr = page.locator('[data-explore-section="Systems"]');
+  await expect(hdr).toBeVisible();
+  if ((await hdr.getAttribute("aria-expanded")) !== "true") await hdr.click();
 };
 
 test("Explore lists every authored system and selecting one lights its members @curated", async ({

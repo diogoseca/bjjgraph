@@ -3732,6 +3732,26 @@ class Component extends DCLogic {
     this._explorer = { order: [["Positions", "positions"], ["Transitions", "transitions"], ["Submissions", "submissions"]], groups: groups };
     return this._explorer;
   }
+  // ── Explore sections (v1.99.3, owner: "showing all categories should be collapsed") ──
+  // EVERY top-level section — Systems, Principles, Positions, Transitions, Submissions,
+  // Learning — defaults COLLAPSED; expanding (or re-folding) persists per section in ONE
+  // settings map, `exploreOpenSections` (the challengeOpenSections pattern: per-key LWW,
+  // cross-device). Collapse is presentation only — nothing locks. Search is untouched by
+  // design: a query renders FLAT ranked results before any section exists, so a match
+  // inside a folded group is never hidden. Family sub-folds (_exp.f) stay session-local —
+  // they live inside an already-deliberate expansion.
+  _exploreSectionOpen(label) {
+    const map = this.get("exploreOpenSections", null);
+    if (map && typeof map === "object" && Object.prototype.hasOwnProperty.call(map, label)) return !!map[label];
+    return false;
+  }
+  _toggleExploreSection(label) {
+    const cur = this.get("exploreOpenSections", null);
+    const map = Object.assign({}, cur && typeof cur === "object" ? cur : {});
+    map[label] = !this._exploreSectionOpen(label);
+    this.set("exploreOpenSections", map);
+    this.renderExplorer();
+  }
   toggleExplorer() {
     // the logo (and legacy callers) toggle the merged pane
     if (this.deckShown) { this.setDeckOpen(false); }
@@ -3835,7 +3855,10 @@ class Component extends DCLogic {
       return;
     }
     const data = this.buildExplorer();
-    this._exp = this._exp || { g: new Set(["Systems", "Submissions"]), f: new Set() };
+    // v1.99.3: `g` (the section-open set, which pre-opened Systems + Submissions) is gone —
+    // section folds live in the persisted `exploreOpenSections` settings map, all-collapsed
+    // by default. Only the session-local family sub-folds remain here.
+    this._exp = this._exp || { f: new Set() };
     const q = (this._exQ || "").toLowerCase().trim();
     const mk = (html, pad, onClick) => {
       const d = document.createElement(onClick ? "button" : "div");
@@ -3890,8 +3913,11 @@ class Component extends DCLogic {
     };
     const renderCurated = (label) => {
       const entry = curatedMap[label], col = entry[0], items = entry[1];
-      const open = this._exp.g.has(label);
-      list.appendChild(mk('<span style="font-size:14px;font-weight:700;color:#dbe2f0;">' + label + '</span><span style="font-size:11px;color:#7e8aa3;">(' + items.length + ')</span><span style="margin-left:auto;color:#5d6883;font-size:11px;">' + (open ? "\u25be" : "\u25b8") + '</span>', 12, () => { if (open) this._exp.g.delete(label); else this._exp.g.add(label); this.renderExplorer(); }));
+      const open = this._exploreSectionOpen(label);
+      const hdr = mk('<span style="font-size:14px;font-weight:700;color:#dbe2f0;">' + label + '</span><span style="font-size:11px;color:#7e8aa3;">(' + items.length + ')</span><span style="margin-left:auto;color:#5d6883;font-size:11px;">' + (open ? "\u25be" : "\u25b8") + '</span>', 12, () => this._toggleExploreSection(label));
+      hdr.setAttribute("data-explore-section", label);
+      hdr.setAttribute("aria-expanded", open ? "true" : "false");
+      list.appendChild(hdr);
       if (!open) return;
       for (const [name, term] of items) {
         list.appendChild(mk('<span style="width:7px;height:7px;border-radius:50%;background:' + col + ';flex:none;"></span><span style="font-size:13px;color:#c4cde0;">' + name + '</span>', 22, () => {
@@ -3907,8 +3933,11 @@ class Component extends DCLogic {
       // Systems are a DEFERRED payload (v1.80.4): 324KB nothing on the roll path reads. Ask for
       // it here, at the first read; _onSystems re-renders Explore when it lands.
       if (!all.length) { this._ensureSystems(); return; }   // absent (or 404) -> no section yet
-      const open = this._exp.g.has("Systems");
-      list.appendChild(mk('<span style="font-size:14px;font-weight:700;color:#dbe2f0;">Systems</span><span style="font-size:11px;color:#7e8aa3;">(' + all.length + ')</span><span style="margin-left:auto;color:#5d6883;font-size:11px;">' + (open ? "\u25be" : "\u25b8") + '</span>', 12, () => { if (open) this._exp.g.delete("Systems"); else this._exp.g.add("Systems"); this.renderExplorer(); }));
+      const open = this._exploreSectionOpen("Systems");
+      const hdr = mk('<span style="font-size:14px;font-weight:700;color:#dbe2f0;">Systems</span><span style="font-size:11px;color:#7e8aa3;">(' + all.length + ')</span><span style="margin-left:auto;color:#5d6883;font-size:11px;">' + (open ? "\u25be" : "\u25b8") + '</span>', 12, () => this._toggleExploreSection("Systems"));
+      hdr.setAttribute("data-explore-section", "Systems");
+      hdr.setAttribute("aria-expanded", open ? "true" : "false");
+      list.appendChild(hdr);
       if (!open) return;
       for (const s of all) {
         const meta = [s.difficulty, s.type].filter(Boolean).join(" \u00b7 ");
@@ -3923,8 +3952,11 @@ class Component extends DCLogic {
       const fams = data.groups[key];
       const famNames = Object.keys(fams).sort((a, b) => a.localeCompare(b));
       const count = famNames.reduce((a, f) => a + fams[f].length, 0);
-      const gOpen = this._exp.g.has(label);
-      list.appendChild(mk('<span style="font-size:14px;font-weight:700;color:#dbe2f0;">' + label + '</span><span style="font-size:11px;color:#7e8aa3;">(' + count + ')</span><span style="margin-left:auto;color:#5d6883;font-size:11px;">' + (gOpen ? "\u25be" : "\u25b8") + '</span>', 12, () => { if (gOpen) this._exp.g.delete(label); else this._exp.g.add(label); this.renderExplorer(); }));
+      const gOpen = this._exploreSectionOpen(label);
+      const hdr = mk('<span style="font-size:14px;font-weight:700;color:#dbe2f0;">' + label + '</span><span style="font-size:11px;color:#7e8aa3;">(' + count + ')</span><span style="margin-left:auto;color:#5d6883;font-size:11px;">' + (gOpen ? "\u25be" : "\u25b8") + '</span>', 12, () => this._toggleExploreSection(label));
+      hdr.setAttribute("data-explore-section", label);
+      hdr.setAttribute("aria-expanded", gOpen ? "true" : "false");
+      list.appendChild(hdr);
       if (!gOpen) return;
       for (const fam of famNames) {
         const nodes = fams[fam], col = this.hex(nodes[0].col);
@@ -4069,9 +4101,35 @@ class Component extends DCLogic {
     this._undoT = setTimeout(() => { if (this._undoList && this._undoList.id === id) { this._undoList = null; this._refreshListSurfaces(); } }, 90000);
     delete m[id];
     if (this._listFocusId === id) this.clearFocus();
+    if (this._listEditId === id) this._listEditId = null; // a dead list has no editor
     if (this.activeListId === id) { this.activeListId = this.listsArray()[0] || null; this.set("activeListId", this.activeListId); }
     else this._saveProgress();
     this._refreshListSurfaces();
+  }
+  /** Open the inline name editor on a list's row (v1.99.3 — clicking the NAME gets here). */
+  startListRename(id) {
+    if (!this._listsMap()[id]) return;
+    this._listEditId = id;
+    this._listEditDraft = null;
+    this._listEditFocusPending = true;
+    this.renderExplorer();
+  }
+  /**
+   * Commit a rename. Empty (or whitespace) reverts, unchanged is a no-op; a REAL rename
+   * bumps `t`, because the cloud merge's rule is name-from-later-t (ngMergeLists) — that
+   * bump is what carries the new name across the owner's other devices instead of losing
+   * it to a stale copy. Bumping `t` also re-sorts the list to the top of listsArray(),
+   * which is the same freshness rule every other list touch follows.
+   */
+  renameList(id, name) {
+    const m = this._listsMap(); const l = m[id]; if (!l) return false;
+    const nm = String(name == null ? "" : name).replace(/\s+/g, " ").trim();
+    if (!nm || nm === l.name) return false;
+    l.name = nm;
+    l.t = Date.now();
+    this._saveProgress();
+    this.track("neural_list_renamed", { chars: nm.length });
+    return true;
   }
   /** Graph indices of a list. "__shared" is the just-received link (not yet a list of theirs). */
   listIdxs(listId) {
@@ -4395,18 +4453,26 @@ class Component extends DCLogic {
     // shared-class save use — the new list carries the established default name
     // ("Class · <date>"), becomes the active add target immediately, and its row highlights.
     // Per-list Share buttons are untouched.
+    // Design pass v1.99.3 (owner: "looks ugly as fuck"): the visual is a compact
+    // .ng-lists-new-chip inside the 44px hit target, with CSS hover/press/focus states in
+    // helmet.html (the .ng-anchor-* house pass) — no JS hover painting.
     const plus = document.createElement("button");
     plus.type = "button";
+    plus.className = "ng-lists-new";
     plus.setAttribute("data-lists-new", "1");
     plus.setAttribute("aria-label", "New list");
     plus.title = "New list";
-    plus.textContent = "+";
-    plus.style.cssText = "margin-left:auto;flex:none;min-width:44px;min-height:44px;pointer-events:auto;cursor:pointer;font-family:inherit;font-size:20px;font-weight:600;line-height:1;color:#c4cde0;background:rgba(255,255,255,.04);border:1px solid rgba(150,170,210,.28);border-radius:10px;";
-    plus.addEventListener("mouseenter", () => plus.style.background = "rgba(255,255,255,.09)");
-    plus.addEventListener("mouseleave", () => plus.style.background = "rgba(255,255,255,.04)");
+    plus.style.pointerEvents = "auto"; // inherited property — re-enabled inline like every pane control
+    plus.innerHTML = '<span class="ng-lists-new-chip" aria-hidden="true">+</span>';
     plus.addEventListener("click", () => {
       const id = this.newList();
       this._listFocusId = id; // highlight the newborn row (no graph set yet — it is empty)
+      // "+ then rename" (v1.99.3): the newborn opens straight into its name field. The
+      // default name rides along as the prefilled, selected value — Enter/blur/Esc all
+      // keep it, so naming is offered, never demanded.
+      this._listEditId = id;
+      this._listEditDraft = null;
+      this._listEditFocusPending = true;
       this.track("neural_list_created", { surface: "lists-head" });
       this.renderExplorer();
     });
@@ -4429,16 +4495,84 @@ class Component extends DCLogic {
       const row = document.createElement("div");
       row.setAttribute("data-list-row", id);
       const lit = this._listFocusId === id;
-      row.style.cssText = "display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin:0 6px 4px;padding:7px 8px;border-radius:9px;border:1px solid " + (lit ? "rgba(150,180,255,.45)" : "rgba(150,170,210,.14)") + ";background:" + (lit ? "rgba(58,72,118,.4)" : "rgba(255,255,255,.025)") + ";";
-      const open = document.createElement("button");
-      open.type = "button";
-      open.setAttribute("data-list-open", id);
-      open.style.cssText = "flex:1;min-width:0;pointer-events:auto;cursor:pointer;font-family:inherit;text-align:left;border:0;background:transparent;color:inherit;padding:0;";
-      open.innerHTML =
-        '<span style="display:block;font-size:13px;font-weight:600;color:#dbe2f0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;">' + this.escHTML(l.name) + '</span>' +
-        '<span data-list-count="' + l.items.length + '" style="display:block;font-size:10px;letter-spacing:.05em;text-transform:uppercase;color:#7e8aa3;margin-top:1px;">' + l.items.length + ' technique' + (l.items.length === 1 ? "" : "s") + '</span>';
-      open.addEventListener("click", () => this.focusList(id));
-      row.appendChild(open);
+      row.style.cssText = "display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin:0 6px 4px;padding:7px 8px;border-radius:9px;cursor:pointer;border:1px solid " + (lit ? "rgba(150,180,255,.45)" : "rgba(150,170,210,.14)") + ";background:" + (lit ? "rgba(58,72,118,.4)" : "rgba(255,255,255,.025)") + ";";
+      // THE ROW lights the list; THE NAME renames it (v1.99.3, owner: "I can't seem to
+      // click to rename my lists"). Controls own their clicks (the closest() guard), and a
+      // click that lands while — or just after — the editor is open must NOT light: blur
+      // fires before click, so by click time the editor is already committed and gone, and
+      // without the closed-at latch the same click would light the list under the caret.
+      row.addEventListener("click", (e) => {
+        const t = e.target;
+        if (t && t.closest && t.closest("button,input")) return;
+        if (this._listEditId === id) return;
+        if (Date.now() - (this._listEditClosedAt || 0) < 400) return;
+        this.focusList(id);
+      });
+      const main = document.createElement("div");
+      main.style.cssText = "flex:1;min-width:0;display:flex;flex-direction:column;";
+      if (this._listEditId === id) {
+        // ── INLINE RENAME: Enter/blur commits, Esc cancels, empty reverts ──
+        const inp = document.createElement("input");
+        inp.setAttribute("data-list-rename", id);
+        inp.setAttribute("aria-label", "List name");
+        inp.maxLength = 60;
+        // the draft survives unrelated re-renders: a deferred payload landing (systems.json
+        // re-renders the whole Explore body) rebuilds this input mid-edit, and without the
+        // draft the user's half-typed name would silently reset to the stored one
+        inp.value = this._listEditDraft != null ? this._listEditDraft : l.name;
+        inp.style.cssText = "width:100%;min-width:0;pointer-events:auto;font-family:inherit;font-size:13px;font-weight:600;color:#eef1f6;background:rgba(255,255,255,.06);border:1px solid rgba(150,180,255,.55);border-radius:7px;padding:4px 7px;outline:none;";
+        let done = false, cancelled = false;
+        const finish = (commit) => {
+          if (done) return;
+          done = true;
+          this._listEditId = null;
+          this._listEditDraft = null;
+          this._listEditClosedAt = Date.now();
+          if (commit) this.renameList(id, inp.value); // empty/unchanged = no-op revert
+          this._refreshListSurfaces();
+        };
+        inp.addEventListener("input", () => { this._listEditDraft = inp.value; });
+        inp.addEventListener("keydown", (e) => {
+          // the editor owns the keyboard: stopPropagation keeps A/B/C/D, digits and —
+          // critically — Escape (the pane's Esc ladder) out of the global handler
+          e.stopPropagation();
+          if (e.key === "Enter") { e.preventDefault(); finish(true); }
+          else if (e.key === "Escape") { e.preventDefault(); cancelled = true; finish(false); }
+        });
+        inp.addEventListener("blur", () => {
+          // A blur from DETACH is not a decision. An unrelated re-render (the deferred
+          // systems.json arrival re-renders the whole Explore body ~a second into a fresh
+          // profile's first edit) wipes the list via innerHTML="" — and Chrome dispatches
+          // that blur BEFORE the disconnect lands, so `inp.isConnected` still reads TRUE
+          // inside the handler (measured; a synchronous guard shipped and failed). Defer
+          // the decision one tick: by then a detached input reads disconnected and is
+          // skipped (the rebuilt editor carries the draft on), while a genuine user blur
+          // — the input still in the document — commits. Real timeout, not the sim clock:
+          // UI patience, same as the delete-arm timer.
+          setTimeout(() => { if (!cancelled && !done && inp.isConnected) finish(true); }, 0);
+        });
+        inp.addEventListener("pointerdown", (e) => e.stopPropagation());
+        main.appendChild(inp);
+      } else {
+        const nameBtn = document.createElement("button");
+        nameBtn.type = "button";
+        nameBtn.setAttribute("data-list-name", id);
+        nameBtn.title = "Rename this list";
+        nameBtn.setAttribute("aria-label", "Rename “" + l.name + "”");
+        nameBtn.style.cssText = "display:block;width:100%;min-width:0;pointer-events:auto;cursor:text;font-family:inherit;text-align:left;border:0;background:transparent;padding:0;font-size:13px;font-weight:600;color:#dbe2f0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;";
+        nameBtn.textContent = l.name;
+        nameBtn.addEventListener("click", () => this.startListRename(id));
+        main.appendChild(nameBtn);
+        const open = document.createElement("button");
+        open.type = "button";
+        open.setAttribute("data-list-open", id);
+        open.title = "Show this list on the graph";
+        open.style.cssText = "display:block;width:100%;min-width:0;pointer-events:auto;cursor:pointer;font-family:inherit;text-align:left;border:0;background:transparent;color:inherit;padding:0;margin-top:1px;";
+        open.innerHTML = '<span data-list-count="' + l.items.length + '" style="display:block;font-size:10px;letter-spacing:.05em;text-transform:uppercase;color:#7e8aa3;">' + l.items.length + ' technique' + (l.items.length === 1 ? "" : "s") + '</span>';
+        open.addEventListener("click", () => this.focusList(id));
+        main.appendChild(open);
+      }
+      row.appendChild(main);
 
       const drill = document.createElement("button");
       drill.type = "button";
@@ -4484,6 +4618,25 @@ class Component extends DCLogic {
       sec.appendChild(row);
     }
     list.appendChild(sec);
+    // focus the rename editor exactly once per startListRename/+ — NOT on every re-render
+    // (an unrelated _refreshListSurfaces while editing must never yank the caret from a
+    // control the user deliberately moved to)
+    if (this._listEditId) {
+      const inp = sec.querySelector("[data-list-rename]");
+      if (inp && this._listEditFocusPending) {
+        this._listEditFocusPending = false;
+        try { inp.focus(); inp.select(); } catch (e) { /* non-fatal */ }
+      } else if (inp && (!document.activeElement || document.activeElement === document.body)) {
+        // the editor lost focus to a DOM rebuild (detach), not to the user — restore the
+        // state it was in: an UNTOUCHED editor (no draft yet) gets its select-all back, so
+        // typing still replaces the old name; a mid-edit draft gets the caret at its end
+        try {
+          inp.focus();
+          if (this._listEditDraft == null) inp.select();
+          else inp.setSelectionRange(inp.value.length, inp.value.length);
+        } catch (e) { /* non-fatal */ }
+      }
+    }
   }
   /**
    * Is the undo offer still live? An undo is a REACTION, not a record: the old version only ever

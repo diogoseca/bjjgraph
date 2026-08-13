@@ -1003,6 +1003,12 @@ test("the + beside Your lists creates a class list — the one deliberate creati
   await expect(head).toContainText(/Your lists\s*\(1\)/);
   const row = page.locator("[data-list-row]");
   await expect(row).toHaveCount(1);
+  // v1.99.3: the newborn opens straight into its name field ("+ then rename"), prefilled
+  // with the established default name — Enter keeps it (naming is offered, never demanded)
+  const born = page.locator("[data-list-rename]");
+  await expect(born, "the newborn arrives editing").toBeVisible();
+  await expect(born).toHaveValue(/^Class · /);
+  await page.keyboard.press("Enter");
   await expect(row, "the established default name").toContainText(/Class · /);
 
   // "ready for adding": newList() (the SAME function every implicit path uses) makes the

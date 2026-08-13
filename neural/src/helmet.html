@@ -42,6 +42,18 @@
   .ng-anchor-login{cursor:pointer;font-family:inherit;border:none;background:transparent;min-height:44px;padding:0 7px;font-size:11px;font-weight:700;color:#9db4ff;border-radius:8px;transition:color .15s ease;}
   .ng-anchor-login:hover{color:#c4d4ff;text-decoration:underline;text-underline-offset:2px;}
   .ng-anchor-login:focus-visible{outline:2px solid rgba(160,185,255,.85);outline-offset:-2px;}
+  /* ---------- Explore "Your lists" header + (v1.99.3) ----------
+     the deliberate list-creation control: a 44px hit target wrapped around a COMPACT chip
+     drawn in the pane's own token family (segBtn / list-row palette), proportionate to the
+     14px header text beside it — the bare 20px glyph in a 44px outline read as unfinished.
+     States follow the .ng-anchor-* house pass: hover brighten, 1px active press, visible
+     keyboard focus ring. The hit area is the button; the chip is only the visual. */
+  .ng-lists-new{margin-left:auto;flex:none;display:inline-flex;align-items:center;justify-content:center;min-width:44px;min-height:44px;padding:0;cursor:pointer;font-family:inherit;background:transparent;border:none;border-radius:12px;}
+  .ng-lists-new-chip{display:inline-flex;align-items:center;justify-content:center;width:28px;height:28px;border-radius:9px;border:1px solid rgba(150,170,210,.28);background:rgba(255,255,255,.05);color:#aeb6c8;font-size:15px;font-weight:600;line-height:1;transition:background .15s ease,border-color .15s ease,color .15s ease,transform .1s ease;}
+  .ng-lists-new:hover .ng-lists-new-chip{background:rgba(255,255,255,.1);border-color:rgba(150,180,255,.5);color:#dbe2f0;}
+  .ng-lists-new:active .ng-lists-new-chip{transform:translateY(1px);background:rgba(255,255,255,.07);}
+  .ng-lists-new:focus-visible{outline:none;}
+  .ng-lists-new:focus-visible .ng-lists-new-chip{outline:2px solid rgba(160,185,255,.85);outline-offset:2px;}
   *{scrollbar-width:thin;scrollbar-color:rgba(120,150,210,.32) transparent;}
   ::-webkit-scrollbar{width:9px;height:9px;}
   ::-webkit-scrollbar-track{background:transparent;}
