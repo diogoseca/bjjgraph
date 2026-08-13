@@ -799,7 +799,7 @@ The runtime remains one imperative component in `neural/src/app.src.jsx`. Challe
 - **Open = the game stops. Close = the game resumes, but only if the pane is what stopped it.** Latched in `applyDeckVisibility()` via **`_paneAutoPaused`** — one latch for the whole merged pane (any tab, any study surface); `_dossierAutoPaused` stays separate for the node dossier. A hand-paused roll stays paused when you close the pane.
 - Latched in `applyDeckVisibility`, not `setDeckOpen`, because several study entry points assign `deckOpen` directly. Beats: `pane_paused` / `pane_resumed`. Esc closes the pane last, once no overlay is up.
 
-**QUESTION-FIRST LANDING (v1.68.0).** The flashcard is no longer a place you go — it is what the game asks on arrival. `renderLandCard(node, mode, hooks)` docks `.ng-landcard` above the options tray in fixed read order: **identity** (`[data-land-id]`: name · where you came from · Top/Bottom or Attacking, with ONE top-right familiarity chip `[data-land-count]` — the ○/◐/● seen-glyph fused with the deck's recall-proven count, e.g. `● 3/8`; glyph-only when no deck is authored; clicking it opens this state's flashcards, v1.76.0) → one-line definition → **film** → **ONE multiple-choice question** (`[data-land-q]`) → your options → **`More ▸`** (`[data-land-more]`, opens the dossier — everything else lives there). The `.ng-drilltab` pill is fully DELETED (v1.99.0 — quieted in v1.93.0, gone now): the landing chip opens "study this state", the logo opens the pane, and the save hint is a toast + the in-pane CTA (no shake target).
+**QUESTION-FIRST LANDING (v1.68.0).** The flashcard is no longer a place you go — it is what the game asks on arrival. `renderLandCard(node, mode, hooks)` docks `.ng-landcard` above the options tray in fixed read order: **identity** (`[data-land-id]`: name · where you came from · Top/Bottom or Attacking, with ONE top-right familiarity chip `[data-land-count]` — the ○/◐/● seen-glyph fused with the deck's recall-proven count, e.g. `● 3/8`; glyph-only when no deck is authored; clicking it opens this state's flashcards, v1.76.0) → one-line definition → **film** → **ONE multiple-choice question** (`[data-land-q]`) → your options → **`More ▸`** (`[data-land-more]`, which since v1.101.0 UNFOLDS THIS CARD rather than opening a dossier — see ONE CONTAINER below, where the identity block's fate is also recorded: a landing card no longer prints the name or the side, because the graph does). The `.ng-drilltab` pill is fully DELETED (v1.99.0 — quieted in v1.93.0, gone now): the landing chip opens "study this state", the logo opens the pane, and the save hint is a toast + the in-pane CTA (no shake target).
 - There is deliberately **no second question** at the technique node between commit and sweep. It was built and cut: gating the sweep on a 4s window added that delay to every move (and broke `golden-path` / `jit-loop` on tempo). The landing question already moves the odds of the very transition or submission you are about to attempt, and the sheet's JIT drill covers buying odds right before committing.
 - **Economy, one rule on both surfaces:** right → the ordinary credit path (`noteCardDone`: mastery + sharpness already move the odds — no second bonus) plus `refundDecision(2500)`; wrong → `_qMod` −0.04 (plausible) / −0.08 (trap), folded into `moveChance` and **cleared on the next `enterLand`**. Timing out costs nothing.
 - `questionFor(key)` picks the deck's first unproven card (`cardStage < 2`); a proven deck asks nothing.
@@ -812,91 +812,75 @@ The runtime remains one imperative component in `neural/src/app.src.jsx`. Challe
 - **A fresh profile's first-ever roll is drawn from REAL TRAFFIC, not uniformly.** `startPosTraffic()` sums `curriculum.weights` (the stationary distribution Game Knowledge already uses) per position through each technique's single canonical origin (`fromPositionId` → `_posSlugIndex`), giving 136 entries summing to 1. `_weightedStart(pool, u)` inverse-CDF-samples `w^START_BIAS.gamma` (1.5) mixed with `START_BIAS.floor` (2%) uniform. Effect: the six hubs a beginner can name go from **4.4% → ~66%** of first impressions, ~17 states stay genuinely likely, and **all 136 keep a real chance — the draw is biased, never narrowed**. It replaced a `withDeck` filter that was a **no-op** (all 136 carry a deck). ONE draw off the SAME `rng("start-pos")` tag, so rigged replays are structurally untouched; a **returning** profile keeps the historical uniform mapping exactly (`_returningVisitor()` — one latched definition, shared with the cold-start funnel's `cold` flag, marker `bjj-neural-firstroll`).
 - **The card names ONE side, and it is `playerRole`.** All 136 position hub titles in `graph-data.json` end in "… Top" (the visual layer collapses Top/Bottom into one node), so the raw title is not a role claim. `renderLandCard` shows `posFamily(node.t)` for positions; `roleTxt` is the only place a side is named. **Do not "derive the role from the node title"** the way `rollFromPosition()` does — that derivation is a constant (`top`) across the whole pool, which is why every staged/roamed roll deals a top hand and why `playFrom(idx, role)` has to set the role itself.
 
-**THE IN-NODE CARD IS THE DOSSIER, AND THE DOSSIER IS THE ZOOM (v1.100.0).** On desktop there is no
-dossier panel: `openDossier` flies the camera into the node (`vw = graphW*0.0085`) and
-`updateNodeCard` renders `renderDossier(n, targetEl)` INTO a node-positioned card that scales with
-the camera, crossfading the canvas glyph out (`_nodeCardO`) and fading the options tray + the
-landing card under it (`_suppressTray`/`_suppressLand`). One object, one gesture. Its read order is
-the owner's: **title + role above the node → film → the question, inside the node's own shape.**
-- **The block above the node is a LABEL, not a plate (v1.100.2).** It lives on the unclipped shell
-  root (`[data-node-head]`, `bottom:100%`) rather than in the content stack — the diamond's top
-  corner and the triangle's apex narrow to nothing at exactly headline height, so the one line
-  naming the state was the line most at risk of being clipped. What it is *made of* is the owner's
-  call: *"It shouldn't be this rectangle dialog above the node. It should rather be like the title
-  showing up as a label... Not a fucking box looming over it."* So it is the graph's own label for
-  that node — the same object `richLabel()` draws on the canvas, a 1.05em uppercase kicker
-  (`CATEGORY · ROLE`, the role on `[data-dossier-badge]`) over a 1.85em Space Grotesk name, lifted
-  by a text shadow — carried past the zoom where the canvas hands the node to this card. **No fill,
-  no border, no drop shadow, and `pointer-events:none` at every zoom** (a ~20em transparent block
-  over the canvas would eat pans and node clicks aimed past the shape). It carries **title, role
-  and the `from …` qualifier and nothing else**: the familiarity counter, the **✕** and the capture
-  button all sit INSIDE the shape, at the top of the content stack, in em units like everything
-  else there. Pinned by `node-card.spec.ts` ("the block above the node is a label, not a card"),
-  which fails on a plate *and* on a control drifting back out onto it. Because the label still
-  reaches ABOVE the shape, the card's reach from the node is `boxH/2 + headH` — so `updateNodeCard`
-  caps the applied scale to `H / (boxH + 2*headH + 24)`. Without that a triangle at the wheel's
-  inner limit pushed its own title off the top of the screen. Box sizes GREW for the question
-  (560→700 / 600→760 / 680→780) while the root em stayed pinned to the old size: growing both buys
-  no room, only a bigger picture of the same crowding.
+**ONE CONTAINER: THE GAME'S OWN CARD (v1.101.0).** v1.100.0 made the node itself the dossier —
+`openDossier` flew the camera into the node and mounted the whole reading surface inside its shape.
+The owner retired it after living with it: *"the other fuller container should no longer show, and
+instead the normal game container should be the default. upon clicking more all of the other
+sections that were present in the fuller container would show there now."* The in-node renderer,
+its shell/clip geometry and its own question are **deleted** (162 lines); `updateNodeCard()` remains
+only as the one place that guarantees the element stays down, because `draw()` calls it every frame
+and a stale `_nodeCardOn` would keep the tray faded and the canvas glyph crossfaded out.
+- **The roll settles ON the node.** `ROLL_ZOOM = 0.085` of `graphW` — a tenth of the deepest read
+  zoom (`graphW * 0.0085`), which is the owner's "zoomed in but like 1/10th of the max zoom". Travel
+  (`pulse`) still pulls back so a move reads as a move. The old `graphR * 0.7` floor is gone from the
+  settled case: it is a whole-graph measure that dominated the number beside it, so leaving it in
+  would have made `ROLL_ZOOM` change nothing.
+- **...and UP, into the only clear band on the screen.** Measured at 1440x900: the focus node sat at
+  y=450 with the landing card occupying y=362..900 — the state you are playing was BEHIND the card
+  that talks about it, at every zoom. `lift = 0.34 * H * vw / W` parks it at ~16% of viewport height.
+  The desktop card's ceiling moved with it (`max-height: min(420px,50vh)`) so all four options
+  clear the sticky footer. **The PHONE override stays at 34vh** — 40vh was tried and reverted: on a
+  390x844 screen it pushed the card's top edge from y=351 to y=301 and swallowed the band the graph
+  is panned in, which `share-camera`'s pan journey caught (measured: `elementFromPoint` at the pan
+  origin returned `DIV.ng-landcard`, the drag never reached the canvas, and the focus lease it
+  exists to release survived).
+- **The graph names the state, so the card stopped repeating it.** Owner, on a landing at The Chill
+  Dog: *«the "The Chill Dog" and "Bottom" is repeated info»*. At `ROLL_ZOOM` the node is ~166px across
+  and the canvas draws its name inside it, so: the in-node kicker now carries the ROLE for the current
+  node (`POSITION · TOP`), the name uses `posFamily()` for positions (every hub is titled "… Top" in
+  `graph-data.json` — a reading artifact that would contradict a "· BOTTOM" kicker), the focus's rich
+  label is SKIPPED once the node is big enough to carry its own text (it was printing the name twice),
+  and in-node type is no longer capped at 15px. A LANDING card opens on a thin meta line ("from
+  <previous>" + the familiarity chip) and goes straight to the question; an ATTEMPT card keeps its
+  headline, because it names the technique the question is about and the graph only labels that one
+  while the sweep animates.
+- **`More ▸` unfolds the card in place** (`expandLandCard`, `[data-land-more-body]`, aria-expanded +
+  a rotating chevron, label flips to `Less`). It carries what the retired container carried —
+  Essential principles, Where it leads, What beats it, Attacks from here — built lazily on first open,
+  and never silently empty (`[data-land-more-empty]`). Unfolding **auto-pauses on its own latch**
+  (`_landAutoPaused`), so folding can only give back a clock it took; a hand-paused roll stays paused.
+  An unfolded card **survives a payload backfill** (`_landOpen`), and a NEW landing starts folded.
+- **Film rides the game card, compactly and unlabelled.** `filmStudyHTML(clips, compact)` — the full
+  strip is ~210px under a 20px-margined header, which pushed the question below the fold of a 420px
+  card and under the sticky footer. Same row, same wiring, same expand-to-play, roughly half the
+  height, and **no "FILM STUDY" caption** (owner: "unnecessary" — a row of thumbnails with play
+  buttons on them does not need to be told what it is). The reading sheet keeps its heading, because
+  there it sits among other headed sections.
+- **The one-line definition moved behind `More`.** Owner, reading "Master Deep Half Guard Top with
+  defensive counters, pressure maintenance, and systematic passing strategies" above their hand:
+  "unnecessary — please remove those, or push the intro if SEO needs it to the content after
+  clicking More". It is marketing prose written for the static page; the roll wants film and a
+  question. `[data-land-def]` still exists, one fold lower, in `_landMore` — deleting it outright
+  would lose copy the static article actually earns with.
+- **A node you are NOT standing on opens the reading SHEET**, on every form factor (a top sheet on a
+  phone, a right-docked column on desktop) — and it now renders `[data-node-q]` on desktop too, which
+  was mobile-only while the desktop read happened inside the node. `dossierRef` is deliberately NOT
+  used: it is a child of the explorer pane, which pane law says only the user may open. The camera
+  flies TO the node at `ROLL_ZOOM`, not INTO it at `0.0085`.
 - **A SUPPRESSED LANDING CARD MUST BE INERT, NOT MERELY TRANSPARENT (v1.100.2).** `_suppressLand`
-  set `opacity:0` + `pointer-events:none` on the `.ng-landcard` root. Both are inherited — and
-  `[data-land-foot]` re-enables pointer-events INLINE on purpose (it holds `More ▸` and the capture
-  `+`, and a fixed overlay's disabled pointer-events is inherited). Hit-testing ignores opacity, so
-  a "hidden" landing card kept a fully **INVISIBLE** sticky footer strip live across its box and
-  whatever the node card put under it was dead to the mouse — measured with `elementFromPoint`
-  returning `<div data-land-foot="1">` at the centre of the in-node capture button. The suppression
-  now also sets **`visibility:hidden !important`**, which is inherited, which nothing here escapes
-  with `visible`, and which removes the subtree from hit-testing outright. Fifth instance of this
-  repo's recurring bug class; guarded by `node-card.spec.ts` ("nothing invisible eats a click").
-  The three sibling hide-sites that write opacity/pointer-events directly (the option-detail sheet
-  pair, the mobile-pane pair) were NOT changed and share the shape of the hole — unverified.
-- **The question** (`[data-node-q]`, `_renderNodeQuestion`) sits at the MIDDLE of the content stack —
-  the stack is vertically centred, so the middle is the widest band on all three geometries.
-  `nodeQuestionFor(key, skip)` asks to the **recall gate (stage 3)**, not the landing card's
-  recognition gate (stage 2): that difference IS the ladder, and `askFormat(key, card)` states it
-  (`mc` below stage 2, `recall` at or above). MC that cannot build options **falls back to recall**
-  rather than falling silent, and a state with nothing to ask says so in words
-  (`[data-node-q-empty]` + a `node_q_skipped` reason) — never an empty box.
-- **Its economy is study-only.** Answering mints the ORDINARY card credit (`_bumpStage`, `prep`,
-  sharpness, cross-deck credit, the daily counter — through the shared `_mcAnswer` / `gradeRecall`)
-  and **none of the roll's bonuses**: no `refundDecision` (the dossier paused the clock), no
-  `_comboUp` (momentum is a roll mechanic and a paused screen would farm it), no `_qMod` (that
-  penalty prices an exchange nobody is taking). Those three are the LANDING question's own
-  `_landAnswered`; this surface simply does not wire them.
-- **`landQuestions` does not gate it.** That setting is "Questions while you roll" — it gates the
-  question that interrupts a TIMED decision. A dossier is a surface the reader opened; silencing it
-  would delete a feature nobody turned off.
-- **Surface tags are load-bearing, twice.** `_mcBlock(card, key, onDone, "node")` scopes the RNG to
-  `node-mc-pick`/`node-mc-shuffle` (a new surface that forgot its tag would eat the `mc-*` queues
-  rigged replays depend on) and names the option handle `[data-node-mc-opt]` (a shared selector
-  would match the landing card's block, which is on screen behind it). `_recallBlock` follows the
-  same rule (`[data-node-recall]`/`-reveal`/`-got`/`-again`). `_clearNodeQ` hands the A-D keyboard
-  back to the still-live landing block instead of nulling `_mc` outright.
-- **A question on the table is RE-PARENTED, never rebuilt** — the landing card's `reuse` rule.
-  `onContentReady` forces a full card re-render when a dossier chunk lands, and treating that as "a
-  new node" wiped an ANSWERED question and mounted a fresh block over it: a second free attempt at
-  credit already given, triggered by nothing but a payload. `updateNodeCard` now clears `_nodeQ`
-  only when the node genuinely changes.
-- **Deck timing:** the card paints immediately and the question docks a fetch later.
-  `nodeQuestionReady()` / `await nodeSettled()` are the deterministic signals (the `_landWarmP` /
-  `landSettled()` pattern), so a journey never races the network.
-- **Getting out, from every entry and every zoom:** the plate's ✕, a click on empty canvas (a PAN is
-  not a click — `moved < 5`), and Esc, which reaches it after the modal and the account menu and
-  before the pane. `closeNodeDossier()` now also handles the **zoom-only** card (no `_dossierIdx`),
-  backing the camera out past the mount threshold; before that the ✕, Esc and outside-click all did
-  nothing to a card the reader had merely pinched into.
-- **ONE pointer gate, and it is the OPACITY.** `.ndHit` and the plate are armed together at
-  `cardO >= 1`. The old `s > 0.75` threshold left the card fully drawn and dead to the mouse for the
-  whole stretch `s ∈ [0.52, 0.75]` (measured: a ✕ at (815,127) with `elementFromPoint` returning the
-  canvas). Nothing inside sets `pointer-events:auto` of its own — an inline `auto` on a child beats
-  a `none` on its parent and would arm it mid-fade.
-- **The phone reads a node in the SHEET, not in the node** (`openDossier` forks on `isMobile()`).
-  The card is 700-780 CSS px of shape; the fit cap would squeeze it under half size on a 390px
-  screen and turn 12px option rows into 5px ones. The sheet renders the same `[data-node-q]`, same
-  builder, same economy, at full text size in something that scrolls.
-- `familiarityChip(key, attr, opts)` is the ONE implementation of the ○/◐/● + `n/m` chip, shared by
-  the landing card (`[data-land-count]`) and the plate (`[data-node-count]`).
-- Tests: `e2e/journeys/node-card.spec.ts` (11 journeys, incl. a 390x844 `test.describe`).
+  set `opacity:0` + `pointer-events:none` on the root. Both are inherited — and `[data-land-foot]`
+  re-enables pointer-events INLINE on purpose (it holds `More ▸` and the capture `+`). Hit-testing
+  ignores opacity, so a "hidden" landing card kept a fully **INVISIBLE** sticky footer strip live
+  across its box and whatever sat under it was dead to the mouse (measured: `elementFromPoint`
+  returning `<div data-land-foot="1">` at the centre of a capture button, 120s of Playwright
+  retries). It now also sets **`visibility:hidden !important`**, which is inherited, which nothing
+  here escapes with `visible`, and which removes the subtree from hit-testing outright. Fifth
+  instance of this repo's recurring bug class. The three sibling hide-sites that write
+  opacity/pointer-events directly (the option-detail sheet pair, the mobile-pane pair) share the
+  shape of the hole and were NOT changed — unverified.
+- Tests: `e2e/journeys/roll-card.spec.ts` (5 journeys). `node-card.spec.ts` is deleted with its
+  subject; the label/plate journeys it held describe a surface that no longer exists.
+
 
 **ROAM & STAGE (v1.68.0).** Clicking any graph node calls `stageRollAt(idx)`: fly there, land, deal the hand — **clock held**. Click elsewhere and you restage the same non-session. `_played` (set in `_tick` on the first unpaused frame with a live hand) is the seam: a roll that never played is never archived into `_pastRolls`. Tapping the node you are already on reads it (dossier) instead. `after(sec, fn, ignorePause)` exists so a staged landing still arrives while paused. Beat: `roll_staged`.
 

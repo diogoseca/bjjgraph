@@ -307,7 +307,8 @@ test("the in-roll add affordance survives a REAL mouse click on a full-height la
 
   expect(
     geom.scrolls,
-    "premise: with film + a question the card really does overflow its 320px box — otherwise " +
+    "premise: with film + a question the card really does overflow its box (min(420px,50vh) since " +
+      "v1.101.0) — otherwise " +
       "this test proves nothing about a clipped footer",
   ).toBe(true);
   expect(geom.pe, "pointer-events must be re-enabled INLINE on the button").toBe("auto");

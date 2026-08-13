@@ -243,16 +243,19 @@ async function landAs(
   await page.waitForTimeout(150);
   return page.evaluate(() => {
     const a = (window as any).__neural;
+    // WIN 2 IS UNCHANGED; ITS SURFACE MOVED (v1.101.0). The roll now settles at ROLL_ZOOM, close
+    // enough that the canvas draws the state's own name and role INSIDE its node — so the landing
+    // card stopped repeating them (owner: «the "The Chill Dog" and "Bottom" is repeated info»).
+    // The invariant this test exists for is the same one: whatever names the side must name the
+    // side actually being DEALT. These two fields are exactly what draw() prints in the node —
+    // `posFamily(t)` for the name, `roleLabel()` appended to the kicker for the side.
     const id = document.querySelector("[data-land-id]");
-    // the identity block is two lines: the NAME of the state, then the side you are playing
-    const lines = Array.from(
-      id?.querySelectorAll(":scope > div > div") || [],
-    ).map((e) => (e.textContent || "").trim());
     return {
       role: a.playerRole,
       node: a.nodes[a.currentPos].t,
-      name: lines[0] || "",
-      sideLine: lines[1] || "",
+      name: a.posFamily(a.nodes[a.currentPos].t),
+      sideLine: a.roleLabel(),
+      cardText: (id ? (id as HTMLElement).innerText : "").replace(/\s+/g, " ").trim(),
       hand: (a.optionIdxs || []).map((i: number) => a.nodes[i].t),
     };
   });
@@ -289,6 +292,12 @@ for (const [roleDraw, side, other] of [
     expect(
       nameSays(side),
       `and must not restate the side either — the side line owns that; name reads ${JSON.stringify(s.name)}`,
+    ).toBe(false);
+
+    // ...and the CARD says neither, because the graph is now saying both (v1.101.0)
+    expect(
+      new RegExp(`\\b(${side}|${other})\\b`, "i").test(s.cardText),
+      `the landing card no longer names a side; it reads ${JSON.stringify(s.cardText)}`,
     ).toBe(false);
 
     // ...and the hand under that label really is that side's hand. X-Guard is the case the probe
@@ -380,16 +389,9 @@ test("WIN 2 as a property: on every first-roll state, both sides, the card and i
         a.rollLog = []; // no "from X" tail: this is a first landing
         a._landQ = null;
         a.enterLand(false);
-        const idEl = document.querySelector("[data-land-id]");
-        const chip = document.querySelector("[data-land-count]");
-        // everything the identity block says, tooltip included
-        const idText = [
-          idEl ? (idEl as HTMLElement).innerText : "",
-          chip ? chip.getAttribute("title") || "" : "",
-        ]
-          .join(" ")
-          .replace(/\s+/g, " ")
-          .trim();
+        // WHAT THE GRAPH PRINTS, which since v1.101.0 is the only place the side is named:
+        // draw() writes `<CATEGORY> · <ROLE>` as the in-node kicker over `posFamily(t)`.
+        const idText = (a.posFamily(nd.t) + " \u00b7 " + a.roleLabel()).replace(/\s+/g, " ").trim();
         const other = role === "top" ? "bottom" : "top";
         const hand = (a.optionIdxs || []).map((i: number) => a.nodes[i]);
         // did optionsFor have a role-filtered hand to deal, or did it take its documented
@@ -563,15 +565,14 @@ test("the dossier headline is the position's name on both sides, never the other
       a.playerRole = role;
       a.currentPos = pos;
       // both render modes: the panel (`More ▸`) and the in-node card share one title computation
+      // ONE renderer since v1.101.0: the in-node card is retired, so `renderDossier` no longer
+      // takes a target element and the reading sheet is the only surface it draws.
       a.renderDossier(a.nodes[pos]);
       const p = panel();
-      const nodeEl = document.createElement("div");
-      a.renderDossier(a.nodes[pos], nodeEl);
-      const nt = nodeEl.querySelector("[data-dossier-title]");
       out.sides[role] = {
         panelTitle: p.title,
         panelBadge: p.badge,
-        nodeTitle: nt ? (nt.textContent || "").trim() : null,
+        nodeTitle: p.title,
       };
     }
     // a technique node has no side in play and no role suffix — its title must be untouched

@@ -35,6 +35,11 @@ class Component extends DCLogic {
   // how long a focus flight OWNS the camera (see holdCamera). Long enough to read a lit class on
   // a phone, short enough that the roll's follow-cam is never held hostage.
   camHoldSec = 7;
+  // THE ROLL'S SETTLED ZOOM, as a fraction of graphW (v1.101.0). `graphW * 0.0085` is the
+  // deepest read zoom the app ever asked for, so this is "a tenth of the max zoom" — close
+  // enough that the canvas draws the state's own name and role INSIDE the node, which is
+  // exactly why the landing card stopped repeating them. One number, tune it here.
+  ROLL_ZOOM = 0.085;
   explorerListRef = React.createRef();
   explorerSearchRef = React.createRef();
   explorerSearchWrapRef = React.createRef();
@@ -791,19 +796,28 @@ class Component extends DCLogic {
     return h;
   }
   fmtDur(s) { s = Math.max(0, Math.round(s)); return Math.floor(s / 60) + ":" + String(s % 60).padStart(2, "0"); }
-  filmStudyHTML(clips) {
+  /**
+   * `compact` is the landing card's variant (v1.101.0). The full strip is 170px of thumbnail
+   * under a 20px-margined header — ~210px inside a card whose whole height is 380, which pushed
+   * the QUESTION, the thing the roll is actually asking, below the fold and under the sticky
+   * footer. Same row, same wiring, same expand-to-play; roughly half the height.
+   */
+  filmStudyHTML(clips, compact) {
     if (!clips || !clips.length) return "";
-    let h = '<div style="font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:#7b8aa8;font-weight:700;margin:20px 0 11px;display:flex;align-items:center;gap:8px;"><svg width="13" height="13" viewBox="0 0 24 24" fill="#e0584f"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>Film study</div>';
-    h += '<div class="ng-cliprow" style="display:flex;gap:11px;overflow-x:auto;padding-bottom:6px;">';
+    // NO CAPTION IN THE COMPACT VARIANT (v1.101.0, owner: "unnecessary"). A row of video
+    // thumbnails with play buttons on them does not need a label reading "Film study"; the
+    // reading sheet keeps its heading because there it sits among other headed sections.
+    let h = compact ? '' : '<div style="font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:#7b8aa8;font-weight:700;margin:20px 0 11px;display:flex;align-items:center;gap:8px;"><svg width="13" height="13" viewBox="0 0 24 24" fill="#e0584f"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>Film study</div>';
+    h += '<div class="ng-cliprow" style="display:flex;gap:' + (compact ? 8 : 11) + 'px;overflow-x:auto;padding-bottom:6px;">';
     clips.forEach((c, i) => {
-      const w = c.vertical ? 126 : 210, ht = 170;
+      const w = compact ? (c.vertical ? 62 : 148) : (c.vertical ? 126 : 210), ht = compact ? 92 : 170;
       const dur = (c.end != null && c.start != null) ? this.fmtDur(c.end - c.start) + " \u00b7 loop" : "clip";
       h += '<button class="ng-clip" data-i="' + i + '" style="scroll-snap-align:start;flex:none;position:relative;width:' + w + 'px;height:' + ht + 'px;border-radius:13px;overflow:hidden;border:1px solid rgba(150,170,210,.16);background:#0c0f17;cursor:pointer;padding:0;display:block;transition:width .34s cubic-bezier(.4,0,.2,1),height .34s cubic-bezier(.4,0,.2,1);">' +
         '<img src="https://i.ytimg.com/vi/' + c.id + '/hqdefault.jpg" loading="lazy" referrerpolicy="no-referrer" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:.92;transition:transform .4s ease,opacity .3s ease;">' +
         '<span style="position:absolute;inset:0;background:linear-gradient(180deg,rgba(8,10,16,0) 38%,rgba(8,10,16,.88) 100%);"></span>' +
-        '<span class="ngPlay" style="position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:44px;height:44px;border-radius:50%;background:rgba(12,14,22,.6);backdrop-filter:blur(3px);border:1.5px solid rgba(255,255,255,.9);display:flex;align-items:center;justify-content:center;transition:transform .2s ease,background .2s ease;"><svg width="15" height="15" viewBox="0 0 24 24" fill="#fff" style="margin-left:2px;"><polygon points="6 4 20 12 6 20 6 4"></polygon></svg></span>' +
+        '<span class="ngPlay" style="position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:' + (compact ? 30 : 44) + 'px;height:' + (compact ? 30 : 44) + 'px;border-radius:50%;background:rgba(12,14,22,.6);backdrop-filter:blur(3px);border:1.5px solid rgba(255,255,255,.9);display:flex;align-items:center;justify-content:center;transition:transform .2s ease,background .2s ease;"><svg width="15" height="15" viewBox="0 0 24 24" fill="#fff" style="margin-left:2px;"><polygon points="6 4 20 12 6 20 6 4"></polygon></svg></span>' +
         '<span style="position:absolute;top:8px;right:8px;font-size:9px;font-weight:700;color:#eef1f6;background:rgba(8,10,16,.72);border-radius:6px;padding:2px 6px;letter-spacing:.02em;">' + dur + '</span>' +
-        '<span style="position:absolute;left:10px;right:10px;bottom:9px;text-align:left;"><span style="display:block;font-size:11.5px;font-weight:700;color:#fff;line-height:1.25;text-shadow:0 1px 6px rgba(0,0,0,.65);">' + c.title + '</span>' + (c.by ? '<span style="display:block;font-size:10px;color:#c3cce0;margin-top:2px;text-shadow:0 1px 5px rgba(0,0,0,.6);">' + c.by + '</span>' : '') + '</span>' +
+        '<span style="position:absolute;left:10px;right:10px;bottom:9px;text-align:left;"><span style="display:block;font-size:' + (compact ? 10 : 11.5) + 'px;font-weight:700;color:#fff;line-height:1.25;text-shadow:0 1px 6px rgba(0,0,0,.65);">' + c.title + '</span>' + (c.by ? '<span style="display:block;font-size:10px;color:#c3cce0;margin-top:2px;text-shadow:0 1px 5px rgba(0,0,0,.6);">' + c.by + '</span>' : '') + '</span>' +
         '</button>';
     });
     h += '</div>';
@@ -5687,6 +5701,10 @@ class Component extends DCLogic {
       this._suppressLand(true);
       const sh = this.dossierSheetRef.current;
       if (sh) {
+        // ONE element serves both form factors, and the desktop branch below overrides its box.
+        // isMobile() flips on resize within a single page load, so the phone must restate its own
+        // geometry rather than inherit a 430px right-docked column from a wider moment.
+        sh.style.left = "0"; sh.style.right = "0"; sh.style.width = ""; sh.style.height = "70%"; sh.style.maxHeight = "";
         clearTimeout(this._shT);
         if (sh.style.display !== "block") { sh.style.display = "block"; sh.style.transform = "translateY(-102%)"; void sh.offsetHeight; }
         sh.style.transform = "translateY(0)";
@@ -5702,38 +5720,59 @@ class Component extends DCLogic {
       this.renderDossier(n);
       return;
     }
-    // desktop: unified prezi reveal — no side panel. Close the explorer, auto-pause the roll,
-    // and fly the camera all the way into node-mode zoom (s=1). updateNodeCard fades the
-    // in-node dossier in during the flight; the reveal IS the zoom.
-    {
-      if (this.deckShown) this.setDeckOpen(false); // the unified latch resumes; the dossier re-pauses below
-      const dos = this.dossierRef.current; if (dos) dos.style.display = "none";
+    // ── DESKTOP (v1.101.0): THE GAME'S OWN CARD IS THE DEFAULT CONTAINER ──────────────────────
+    // The in-node "fuller container" is retired. The state you are STANDING IN unfolds in place,
+    // inside the landing card you are already reading — `More ▸` grows it rather than throwing
+    // you into a second surface at a zoom you did not ask for. Any OTHER node still needs a
+    // reading surface, and it is the dossier sheet: pane-independent (so pane law is untouched),
+    // already carrying the same content and the same question, and — unlike the old desktop
+    // panel at `dossierRef` — not a child of the explorer, which cannot be shown without
+    // opening the pane.
+    if (idx === this.currentPos && this._landEl) {
+      this._dossierIdx = null;                 // nothing "opened"; the game card simply grew
+      this.expandLandCard(true);
+      this.lastInteract = this.now; this.flare(idx);
+      return;
     }
+    if (this.deckShown) this.setDeckOpen(false);
     if (!this.paused) { this.setPaused(true); this._dossierAutoPaused = true; }
+    const sh = this.dossierSheetRef.current;
+    if (sh) {
+      // desktop geometry: a reading column docked to the RIGHT, clear of the left pane and of
+      // the option tray. Only the slide is a transform, so overriding the box cannot fight it.
+      sh.style.left = "auto"; sh.style.right = "24px";
+      sh.style.width = "min(430px,34vw)"; sh.style.height = "auto"; sh.style.maxHeight = "76%";
+      sh.style.borderRadius = "0 0 20px 20px";
+      clearTimeout(this._shT);
+      if (sh.style.display !== "block") { sh.style.display = "block"; sh.style.transform = "translateY(-102%)"; void sh.offsetHeight; }
+      sh.style.transform = "translateY(0)";
+      sh.scrollTop = 0;
+    }
     if (!skipCam) {
       if (!this._camBefore) this._camBefore = { cx: this.camTarget.cx, cy: this.camTarget.cy, vw: this.camTarget.vw };
-      this.camTarget = { cx: n.x, cy: n.y, vw: this.graphW * 0.0085 };
+      // fly TO the node, not INTO it: close enough to see which one you are reading, wide enough
+      // to keep its neighbourhood on screen.
+      this.camTarget = { cx: n.x, cy: n.y, vw: this.graphW * this.ROLL_ZOOM };
     }
     this.lastInteract = this.now; this.flare(idx);
+    this.renderDossier(n);
   }
-  // leave the in-node dossier: restore the pre-open camera, resume the roll if we auto-paused it.
+  /**
+   * Leave the desktop reading sheet: restore the camera it interrupted and resume the roll if
+   * opening it is what paused us. Since v1.101.0 there is no in-node card to dismiss, so this is
+   * simply "put the reading surface away" — but it keeps its name and its return value because
+   * the Esc ladder, the ✕ and the empty-canvas click all read it to decide whether they consumed
+   * the gesture.
+   */
   closeNodeDossier() {
     if (this.isMobile()) return false;
-    // THE CARD IS THE ZOOM, so closing it is a camera move — and it must work however the card
-    // got here. An explicit open (`_dossierIdx`) restores the view it interrupted; a card the
-    // reader simply zoomed into has no such memory, so back out just past the threshold that
-    // mounts it and leave them looking at the same place. Without this second case the ✕, Esc
-    // and a click on empty space all did nothing to a card that was up purely because of zoom —
-    // the state a reader reaches by pinching in, which is the entry the owner asked about.
-    const pinned = this._dossierIdx != null;
-    if (!pinned && !this._nodeCardOn) return false;
+    if (this._dossierIdx == null) return false;
     this._dossierIdx = null;
     this._clearNodeQ();
+    this.closeDossierSheet();
     const cb = this._camBefore; this._camBefore = null;
     this.releaseCamera();
-    this.camTarget = cb || (pinned || !this.cam
-      ? { cx: this.gcx, cy: this.gcy, vw: this.graphW * 0.42 }
-      : { cx: this.cam.cx, cy: this.cam.cy, vw: this.graphW * 0.06 });
+    if (cb) this.camTarget = cb;
     if (this._dossierAutoPaused) { this.setPaused(false); this._dossierAutoPaused = false; }
     this.lastInteract = this.now;
     return true;
@@ -5752,63 +5791,23 @@ class Component extends DCLogic {
       this._shT = setTimeout(() => { if (this._dossierIdx == null) sh.style.display = "none"; }, 360);
     }
   }
-  // semantic zoom: pin the full dossier card to the node nearest screen center, scaling with zoom.
-  // sc hits 1 (side-panel text size) at vw = graphW*0.0085; min zoom (0.006) leaves headroom past that.
-  updateNodeCard(scale) {
-    const el = this.nodeCardRef && this.nodeCardRef.current; if (!el) return;
-    const W = this.W, H = this.H;
-    const s = scale / (W / (this.graphW * 0.0085));
-    const off = () => { if (el.style.display !== "none") el.style.display = "none"; this._nodeCardIdx = null; this._nodeCardOn = false; this._nodeCardO = 0; this._suppressTray(false); this._clearNodeQ(); };
-    if (s < 0.32 || !this.nodes || !this.nodes.length || !this.cam) { off(); return; }
-    let best = -1, bd = 1e9;
-    if (this._dossierIdx != null && this.nodes[this._dossierIdx]) {
-      best = this._dossierIdx; // an explicit open pins the card — no other node's card mid-flight
-    } else {
-      for (const n of this.nodes) { const d = Math.hypot(n.x - this.cam.cx, n.y - this.cam.cy); if (d < bd) { bd = d; best = n.idx; } }
+  /**
+   * RETIRED (v1.101.0): the in-node "fuller container". Zooming into a node used to mount the
+   * whole dossier inside the node's own shape; the owner's call is that the game's normal card
+   * is the container and `More ▸` unfolds it there, so this surface no longer exists. The method
+   * stays as the ONE place that guarantees it stays down — `draw()` calls it every frame, and a
+   * hidden element with a stale `_nodeCardOn` would keep the options tray faded and the canvas
+   * glyph crossfaded out with nothing drawn in their place.
+   */
+  updateNodeCard() {
+    const el = this.nodeCardRef && this.nodeCardRef.current;
+    if (el && el.style.display !== "none") { el.style.display = "none"; el.innerHTML = ""; }
+    if (this._nodeCardOn || this._nodeCardIdx != null || this._nodeCardO) {
+      this._nodeCardOn = false; this._nodeCardIdx = null; this._nodeCardO = 0;
+      this._suppressTray(false);
     }
-    if (best < 0) { off(); return; }
-    const n = this.nodes[best];
-    const sx = (n.x - this.cam.cx) * scale + W / 2, sy = (n.y - this.cam.cy) * scale + H / 2;
-    el.style.display = "block";   // BEFORE the render: the header's offsetHeight is 0 while hidden
-    if (this._nodeCardIdx !== best) {
-      // Forget the question only when the NODE changes. `_nodeCardIdx = null` is also how
-      // onContentReady forces a re-render of the card already up (a dossier chunk landing), and
-      // treating that as "a new node" wiped the answered question and mounted a fresh block over
-      // it — a second free attempt at credit already given, triggered by nothing but a payload.
-      if (this._nodeQ && this._nodeQ.idx !== best) this._clearNodeQ();
-      this._nodeCardIdx = best;
-      this.renderDossier(n, el);
-    }
-    this._nodeCardOn = true;
-    const cardO = Math.min(1, (s - 0.32) / 0.2);
-    this._nodeCardO = cardO; // draw() crossfades the canvas glyph out as the card fades in
-    el.style.opacity = cardO.toFixed(3);
-    this._suppressTray(cardO > 0.5);
-    // FIT CAP. The card is centred on the node and the title label reaches ABOVE it, so the
-    // object's reach from the node is boxH/2 + headH — bigger than half the box. Cap the scale so
-    // the whole thing (label included) stays inside the viewport at any zoom the user can reach;
-    // without it a triangle at the wheel's inner limit pushes its own title off the top edge.
-    // Still capped at 1.12 for the old reason: a slight upscale past s=1 beats letting the canvas
-    // glyph outgrow a hard-capped card.
-    const need = (this._nodeBoxH || 560) + 2 * (this._nodeHeadH || 0) + 24;
-    const fit = H > 0 ? H / need : 1;
-    el.style.transform = "translate(" + sx.toFixed(1) + "px," + sy.toFixed(1) + "px) translate(-50%,-50%) scale(" + Math.min(1.12, s, fit).toFixed(4) + ")";
-    // ONE pointer gate for the whole card, AND IT IS THE OPACITY, not a second threshold.
-    // A control you can hit but cannot see is worse than a late one — but the inverse is also a
-    // bug this repo has paid for (v1.69.1): the gate used to be `s > 0.75` while the card reaches
-    // FULL opacity at s = 0.52, so for that whole stretch the card was solid on screen and dead to
-    // the mouse. Measured: a ✕ at (815,127) with elementFromPoint returning the canvas. Fully
-    // drawn ⇒ fully clickable is the only contract a reader can predict. It is also why neither
-    // the ✕ nor the MC options set pointer-events:auto of their own — an inline `auto` on a child
-    // beats a `none` on its parent and would arm them while the card is still fading in.
-    const live = cardO >= 1 ? "auto" : "none";
-    const hit = el.querySelector(".ndHit");
-    if (hit) hit.style.pointerEvents = live;
-    // The label above the node is deliberately NOT armed with them. It is text with no controls
-    // on it, and it is a ~20em-wide transparent block sitting over the canvas — arming it would
-    // eat every pan and every node click aimed past the top of the shape. Everything you can
-    // press (the counter, the ✕, capture, roll-from-here, the question) is inside .ndHit.
   }
+
   // keep the in-node dossier readable: fade the options tray under it while the card is up
   _suppressTray(hide) {
     if (this._traySup === hide) return;
@@ -5871,10 +5870,15 @@ class Component extends DCLogic {
     for (const n of this.nodes) { const d = Math.hypot(n.x - this.cam.cx, n.y - this.cam.cy); if (d < bd) { bd = d; best = n.idx; } }
     if (best >= 0 && bd * (this.W / vw) < this.W * 0.5) { this._zoomArmed = false; this.openDossier(best, true); }
   }
-  renderDossier(n, targetEl) {
-    const nodeMode = !!targetEl;
-    const mob = !nodeMode && this.isMobile();
-    const dos = targetEl || (mob ? this.dossierSheetRef.current : this.dossierRef.current); if (!dos) return;
+  /**
+   * The reading surface for a node that is NOT the one you are standing in. Since v1.101.0 it is
+   * the dossier SHEET on every form factor (a top sheet on a phone, a right-docked reading column
+   * on a desktop) — the in-node container is retired, and `dossierRef` cannot be used because it
+   * is a child of the explorer pane, which pane law says only the user may open.
+   */
+  renderDossier(n) {
+    const mob = this.isMobile();
+    const dos = this.dossierSheetRef.current; if (!dos) return;
     const sp = this.splitName(n.t), cat = this.deckCat(n), col = this.hex(n.col);
     const rc = this.richContentFor(n);
     // authored decks are keyed "Name|Role" — fall back across role variants so content always surfaces
@@ -5916,171 +5920,10 @@ class Component extends DCLogic {
     const bullet = (txt, dot) => '<div style="display:flex;gap:8px;align-items:flex-start;font-size:12px;line-height:1.45;color:#c4cde0;margin-bottom:6px;"><span style="flex:none;width:5px;height:5px;border-radius:50%;background:' + dot + ';margin-top:6px;"></span><span>' + txt + '</span></div>';
     const pct = (k) => { try { const nd = this.nodes[k]; const cs = this.calSuccess(nd); const p = cs != null ? Math.round(cs * 100) : Math.round(this.moveChance(nd) * 100); return isFinite(p) && p > 0 && p < 100 ? " \u00b7 " + p + "%" : ""; } catch (e) { return ""; } };
 
-    // ── node mode: the node IS the dossier — content lives inside the node's own shape ──
-    if (nodeMode) {
-      let ovN = overview;
-      if (!ovN) {
-        if (sp.from && !role) ovN = 'A ' + cat.toLowerCase() + ' from ' + sp.from.replace(/^from\s+/i, '') + '.';
-        else {
-          const na = attacks.length, np = relPos.length, parts = [];
-          if (na) parts.push(na + ' attack' + (na > 1 ? 's' : ''));
-          if (np) parts.push(np + ' connected position' + (np > 1 ? 's' : ''));
-          ovN = parts.length ? 'Links to ' + parts.join(' and ') + ' on the map.' : '';
-        }
-      }
-      const shape = n.ty === "positions" ? "circle" : n.ty === "submissions" ? "tri" : "diamond";
-      // em-based reflow: ONE root font-size drives every dimension inside the card, so the
-      // content scales as a unit instead of fixed-px text cramping inside a scaled shape.
-      // The BOX grows for the question while `base` (and therefore the root em) does NOT — that
-      // is the whole point: growing both would buy no room at all, only a bigger picture of the
-      // same crowding. A question is 4 option rows in a shape that narrows toward its ends.
-      const base = shape === "circle" ? 560 : shape === "tri" ? 680 : 600;
-      const size = shape === "circle" ? 700 : shape === "tri" ? 780 : 760;
-      const rootFs = (base / 46).toFixed(2);
-      // two-layer ring echoing the canvas node stroke (thin bright inner + faint outer, gap of
-      // background between) + top-lit fill in the canvas hue family + colored bloom instead of
-      // a flat drop-shadow \u2014 the DOM card reads as the same object the canvas draws.
-      const ringIn = this.rgba(n.col, 0.75), ringOut = this.rgba(n.col, 0.35);
-      const fill = 'radial-gradient(140% 100% at 50% 0%,' + this.rgba(n.col, 0.16) + ',rgba(16,18,35,0) 52%),linear-gradient(180deg,#171a30,#101223)';
-      const bloom = '0 0 90px ' + this.rgba(n.col, 0.10) + ',0 24px 70px rgba(0,0,0,.45)';
-      const nClips = clips.slice(0, shape === "circle" ? 3 : 2);
-      const nPrin = principles.slice(0, shape === "circle" ? 2 : 1);
-      // kicker at 1.05em against a 1.85em title — the same ratio `richLabel()` draws on the canvas
-      // (11px over 18px). At .82em it was 5px of low-contrast type on screen at the zoom the card
-      // first becomes readable, which is a kicker nobody can read.
-      const kick = isCur
-        ? '<span style="width:.58em;height:.58em;border-radius:50%;background:#5a9bf0;box-shadow:0 0 .66em rgba(90,155,240,.7);"></span><span style="font-size:1.05em;letter-spacing:.16em;text-transform:uppercase;font-weight:800;color:#7fb4ff;">Your current position</span>'
-        : '<span style="font-size:1.05em;letter-spacing:.16em;text-transform:uppercase;font-weight:800;color:' + col + ';">' + cat + '</span>';
-      // ── THE TITLE IS A LABEL, NOT A PLATE ──────────────────────────────────────────────────
-      // The title used to live in the content stack, where the diamond's top corner and the
-      // triangle's apex narrow to nothing exactly at headline height — so the ONE line that says
-      // what you are looking at was the line most at risk of being clipped. It is now on the
-      // UNCLIPPED shell root above the shape, and it is the graph's OWN label for this node: the
-      // same object `richLabel()` draws on the canvas — a small uppercase kicker over a Space
-      // Grotesk name, lifted off the background by a text shadow — carried on past the zoom where
-      // the canvas hands the node over to this card. That continuity is the whole point of it.
-      // It says TITLE and ROLE and nothing else. A filled, bordered, drop-shadowed plate does not
-      // name a node, it looms over it as a second window, and it is why the familiarity counter,
-      // the ✕ and the capture button now live INSIDE the shape where the node's own content is.
-      // Nothing here is interactive at any zoom (pointer-events stays none): a wide transparent
-      // text block floating over the canvas would eat pans and clicks aimed past the shape.
-      const roleKick = badge
-        ? '<span style="opacity:.5;color:#8b97b0;">·</span><span data-dossier-badge title="blue = you’re ahead · red = you’re behind" style="font-size:1.05em;letter-spacing:.16em;text-transform:uppercase;font-weight:800;color:' + (badge.tone === "ahead" ? "#7fb4ff" : badge.tone === "behind" ? "#ff9a8f" : "#cfd6e4") + ';">' + badge.label + '</span>'
-        : '';
-      let head = '<div data-node-head style="position:absolute;left:50%;bottom:100%;transform:translateX(-50%);margin-bottom:.5em;display:flex;flex-direction:column;align-items:center;gap:.16em;text-align:center;font-size:' + rootFs + 'px;pointer-events:none;text-shadow:0 2px 12px rgba(0,0,0,.95),0 1px 4px rgba(0,0,0,.9);">';
-      head += '<div style="display:flex;align-items:center;justify-content:center;gap:.5em;">' + kick + roleKick + '</div>';
-      head += '<div data-dossier-title style="font-family:\'Space Grotesk\',sans-serif;font-size:1.85em;font-weight:600;letter-spacing:-.01em;line-height:1.14;color:#eef1f6;max-width:18em;">' + title + '</div>';
-      if (sp.from && (!role || sp.from.toLowerCase() !== role.toLowerCase()))
-        head += '<div style="font-size:1em;color:#b9c2d6;max-width:20em;">' + sp.from + '</div>';
-      head += '</div>';
-      let c = "";
-      // ── THE NODE'S OWN STATE, AND THE WAY OUT, INSIDE THE SHAPE ──
-      // The counter and the ✕ used to ride the plate above the node. They are this node's status
-      // and this node's control, so they belong in the node — and now that the title above is a
-      // bare label that never takes a pointer, inside is the only place a control CAN live. Top
-      // of the content stack: what you have proven here, then the way out, then the content.
-      // Sized in em like everything else in the shape (2.6em of a 1.5em font ≈ 44px at the
-      // circle's root size), so the row reflows with the card instead of blowing out at the
-      // triangle's narrow top. The ✕ keeps that target but drops its box: a bordered, filled
-      // 44px square beside a 10px chip read as a stray dialog button parked inside the node,
-      // which is the same "chrome where type belongs" the label above just lost. pointer-events
-      // is NOT set on it — updateNodeCard arms .ndHit as a whole at the zoom the card reaches
-      // full opacity, so nothing here can be clickable while it is still fading in.
-      c += '<div style="display:flex;align-items:center;justify-content:center;gap:1.2em;">' +
-        this.familiarityChip(this.deckKeyFor(n).key, "data-node-count", { fs: "1em", gs: "1.05em" }).html +
-        '<button data-node-close type="button" aria-label="Close" title="Close (Esc)" style="flex:none;cursor:pointer;font-family:inherit;width:2.6em;height:2.6em;padding:0;border-radius:50%;border:0;background:transparent;color:#96a3bf;font-size:1.5em;line-height:1;display:flex;align-items:center;justify-content:center;">✕</button>' +
-      '</div>';
-      if (nClips.length) {
-        c += '<div style="display:flex;gap:.5em;justify-content:center;">' + nClips.map((cl) =>
-          '<a href="https://www.youtube.com/watch?v=' + cl.id + (cl.start ? '&t=' + cl.start + 's' : '') + '" target="_blank" rel="noopener" title="' + (cl.title || "") + '" style="position:relative;width:' + (shape === "circle" ? "8.5em" : "9.2em") + ';aspect-ratio:16/10;border-radius:.66em;overflow:hidden;border:1px solid rgba(150,170,210,.18);background:linear-gradient(135deg,#2b2336,#1b1b30);display:block;">' +
-            '<img src="https://i.ytimg.com/vi/' + cl.id + '/hqdefault.jpg" alt="" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:.85;">' +
-            '<span style="position:absolute;top:50%;left:50%;transform:translate(-45%,-50%);width:0;height:0;border-left:.74em solid rgba(255,255,255,.9);border-top:.45em solid transparent;border-bottom:.45em solid transparent;filter:drop-shadow(0 1px 3px rgba(0,0,0,.6));"></span>' +
-          '</a>').join("") + '</div>';
-      }
-      // ── THE QUESTION, IN THE NODE'S OWN FORMAT ──
-      // It sits at the MIDDLE of the content stack on purpose: the stack is vertically centred,
-      // so the middle is the shape's widest band on all three geometries — the diamond's waist,
-      // the triangle's belly, the circle's diameter. Film reads above it, actions below.
-      // The one-line definition follows the question rather than preceding it: it is supporting
-      // prose, and prose above a flashcard is prose that can answer it for you.
-      c += '<div data-node-q style="width:' + (shape === "circle" ? "25em" : shape === "tri" ? "21em" : "20em") + ';text-align:left;"></div>';
-      if (ovN) c += '<p style="margin:0;max-width:' + (shape === "circle" ? "26em" : "20em") + ';font-size:.95em;line-height:1.5;color:#9aa6bd;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;">' + ovN + '</p>';
-      if (nPrin.length) c += '<div style="width:' + (shape === "circle" ? "25em" : shape === "tri" ? "21em" : "20em") + ';text-align:left;">' + secHead("Essential principles") + nPrin.map((p) => bullet(p, "#96a3bf")).join("") + '</div>';
-      // techniques: where it leads \u2014 top outcomes with calibrated %s (positions get attack pills below)
-      if (shape !== "circle" && rc && Array.isArray(rc.outcomes) && rc.outcomes.length) {
-        const toneCol = { good: "#7ee0a8", bad: "#e8956b", mid: "#cbd24e" };
-        c += '<div style="width:' + (shape === "tri" ? "24em" : "23em") + ';text-align:left;">' + secHead("Where it leads") +
-          rc.outcomes.slice(0, 2).map((o) =>
-            '<div style="display:flex;align-items:center;gap:.6em;margin-bottom:.4em;"><span style="flex:1;font-size:1em;color:#cdd5e6;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;">' + (o.result || "") + ' \u2192 ' + (o.position || "") + '</span><span style="font-size:.95em;font-weight:700;color:' + (toneCol[o.tone] || "#cfd6e4") + ';">' + (o.prob != null ? o.prob + '%' : '') + '</span></div>').join("") + '</div>';
-      }
-      if (shape === "circle" && attacks.length) {
-        // dedupe by display label — adjacent variants often collapse to the same short name
-        const seenLbl = new Set();
-        const atk3 = attacks.filter((k) => { const l = this.splitName(this.nodes[k].t).main; if (seenLbl.has(l)) return false; seenLbl.add(l); return true; }).slice(0, 3);
-        c += '<div style="width:26em;text-align:left;">' + secHead("Attacks from here", "#ff8a7e") +
-          '<div style="display:flex;gap:.4em;flex-wrap:wrap;">' + atk3.map((k) =>
-            '<span class="dsAtk" data-i="' + k + '" style="cursor:pointer;font-size:.82em;font-weight:700;color:#ff8a7e;background:rgba(242,104,95,.14);border-radius:999px;padding:.4em 1em;">' + this.splitName(this.nodes[k].t).main + pct(k) + '</span>').join("") + '</div></div>';
-      }
-      // The two actions share ONE centered row. Deliberate: the in-node card is centred on the
-      // node and the transport pill is fixed at bottom-centre with a higher stacking context,
-      // so a second stacked row pushes the card's actions down INTO the pill and they stop
-      // being clickable by mouse (Playwright caught exactly that: "<button title='Restart
-      // roll'> intercepts pointer events"). One row keeps the card the height it already was,
-      // and putting the list action first parks it left of centre, clear of the pill.
-      c += '<div style="display:flex;align-items:center;justify-content:center;gap:.6em;flex-wrap:wrap;">' +
-        '<div class="dsList" style="cursor:pointer;display:inline-flex;align-items:center;gap:.6em;border:1px solid rgba(150,170,210,.24);border-radius:1em;padding:.7em 1.2em;">' +
-          '<span class="dsListGlyph" style="font-size:1.1em;font-weight:700;line-height:1;color:#9ab0e0;">+</span>' +
-          '<span class="dsListTxt" style="font-size:.95em;font-weight:700;color:#cdd5e6;">Add to today\u2019s class list</span></div>' +
-        '<div class="dsRoll" style="cursor:pointer;display:inline-flex;align-items:center;gap:.74em;background:linear-gradient(135deg,rgba(74,108,255,.2),rgba(74,108,255,.08));border:1px solid rgba(110,160,255,.35);border-radius:1em;padding:.74em 1.5em;">' +
-          '<span style="flex:none;width:2em;height:2em;border-radius:.66em;background:rgba(74,108,255,.22);color:#9ab0e0;display:flex;align-items:center;justify-content:center;"><svg width="11" height="11" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"></path></svg></span>' +
-          '<span style="font-size:1.03em;font-weight:700;color:#eef1f6;">Roll from here</span><span style="font-size:1em;color:#9ab0e0;">\u2192</span></div>' +
-      '</div>';
-      let shell;
-      const colCss = 'position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:.9em;text-align:center;font-size:' + rootFs + 'px;';
-      // ring layers: outer faint 1px + gap + inner bright 3px (inset), matching canvas stroke style
-      const ringLayers = (radiusCss, clip) => {
-        if (radiusCss) return '<div style="position:absolute;inset:0;border-radius:50%;border:1px solid ' + ringOut + ';"></div>' +
-          '<div style="position:absolute;inset:8px;border-radius:50%;border:3px solid ' + ringIn + ';"></div>';
-        return '<div style="position:absolute;inset:0;clip-path:' + clip + ';background:' + ringOut + ';"></div>' +
-          '<div style="position:absolute;inset:2px;clip-path:' + clip + ';background:#0b0e1a;"></div>' +
-          '<div style="position:absolute;inset:8px;clip-path:' + clip + ';background:' + ringIn + ';"></div>' +
-          '<div style="position:absolute;inset:12px;clip-path:' + clip + ';background:#0b0e1a;"></div>';
-      };
-      if (shape === "circle") {
-        shell = '<div style="position:absolute;inset:0;border-radius:50%;background:' + fill + ';box-shadow:' + bloom + ';"></div>' + ringLayers(true) +
-          '<div class="ndHit" style="position:absolute;inset:14px;border-radius:50%;overflow:hidden;pointer-events:none;font-size:' + rootFs + 'px;"><div style="' + colCss + '">' + c + '</div></div>';
-      } else if (shape === "diamond") {
-        const clip = 'polygon(50% 0%,100% 50%,50% 100%,0% 50%)';
-        // content lives in the diamond's wide middle band — the top/bottom quarters are too narrow.
-        // glow via drop-shadow on the CLIPPED layer so it follows the diamond, not a circle.
-        shell = '<div style="position:absolute;inset:0;filter:drop-shadow(0 0 44px ' + this.rgba(n.col, 0.16) + ') drop-shadow(0 22px 46px rgba(0,0,0,.42));"><div style="position:absolute;inset:0;clip-path:' + clip + ';background:' + fill + ';"></div></div>' + ringLayers(false, clip) +
-          '<div class="ndHit" style="position:absolute;inset:14px;clip-path:' + clip + ';background:' + fill + ';pointer-events:none;font-size:' + rootFs + 'px;"><div style="position:absolute;left:0;right:0;top:14%;bottom:14%;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:.9em;text-align:center;font-size:1em;">' + c + '</div></div>';
-      } else {
-        const clip = 'polygon(50% 2%,98% 92%,2% 92%)';
-        // triangle: the content band sits LOW (26%..8%), where the silhouette is wide — with the
-        // title lifted out onto the label there is nothing left that has to survive the apex.
-        shell = '<div style="position:absolute;inset:0;filter:drop-shadow(0 0 44px ' + this.rgba(n.col, 0.16) + ') drop-shadow(0 22px 46px rgba(0,0,0,.42));"><div style="position:absolute;inset:0;clip-path:' + clip + ';background:' + fill + ';"></div></div>' + ringLayers(false, clip) +
-          '<div class="ndHit" style="position:absolute;inset:14px;clip-path:' + clip + ';background:' + fill + ';pointer-events:none;font-size:' + rootFs + 'px;"><div style="position:absolute;left:0;right:0;top:26%;bottom:8%;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:.8em;text-align:center;font-size:1em;">' + c + '</div></div>';
-      }
-      dos.style.width = size + "px"; dos.style.height = size + "px";
-      dos.innerHTML = shell + head;
-      dos.querySelectorAll(".dsAtk").forEach((a2) => a2.addEventListener("click", () => this.openDossier(parseInt(a2.getAttribute("data-i"), 10))));
-      this._wireDossierListButton(dos, n, "dossier");
-      const roll2 = dos.querySelector(".dsRoll"); if (roll2) roll2.addEventListener("click", () => { this.closeNodeDossier(); this.jumpToState(n.idx); });
-      const xb2 = dos.querySelector("[data-node-close]"); if (xb2) xb2.addEventListener("click", (e) => { e.stopPropagation(); this.closeNodeDossier(); });
-      this._renderNodeQuestion(n, dos.querySelector("[data-node-q]"));
-      // updateNodeCard caps the card's scale so the plate (which reaches ABOVE the shape) can
-      // never leave the viewport — it needs both measurements, and offsetHeight is layout, so it
-      // is immune to the transform the card is about to be given.
-      this._nodeBoxH = size;
-      const hEl = dos.querySelector("[data-node-head]");
-      this._nodeHeadH = hEl ? hEl.offsetHeight : 0;
-      return;
-    }
-
-    let h = nodeMode ? '' : mob
-      ? '<div style="display:flex;align-items:center;padding:6px 16px 8px;"><span class="dsBack" style="cursor:pointer;font-size:12px;font-weight:600;color:#8b97b0;padding:6px 0;">\u2039 All techniques</span><span class="dsClose" style="cursor:pointer;margin-left:auto;width:32px;height:32px;border-radius:10px;border:1px solid rgba(150,170,210,.2);background:rgba(255,255,255,.04);color:#8b97b0;font-size:16px;display:flex;align-items:center;justify-content:center;">\u00d7</span></div>'
-      : '<div class="dsBack" style="cursor:pointer;display:flex;align-items:center;gap:7px;padding:10px 18px 8px;font-size:12px;font-weight:600;color:#8b97b0;">\u2039 All techniques</div>';
+    // the sheet is the reading surface on BOTH form factors now, so it always carries a way out
+    let h = '<div style="display:flex;align-items:center;padding:6px 16px 8px;">' +
+      (mob ? '<span class="dsBack" style="cursor:pointer;font-size:12px;font-weight:600;color:#8b97b0;padding:6px 0;">\u2039 All techniques</span>' : '') +
+      '<span class="dsClose" style="cursor:pointer;margin-left:auto;width:32px;height:32px;border-radius:10px;border:1px solid rgba(150,170,210,.2);background:rgba(255,255,255,.04);color:#8b97b0;font-size:16px;display:flex;align-items:center;justify-content:center;">\u00d7</span></div>';
     h += '<div style="padding:2px 18px 22px;">';
     h += '<div style="display:flex;align-items:center;gap:7px;">' +
       (isCur
@@ -6125,7 +5968,8 @@ class Component extends DCLogic {
     // card is a desktop object — 700-780 CSS px of shape, which the fit cap would squeeze to ~0.45
     // on a 390x844 screen, turning 12px option rows into 5px ones. So the sheet carries it: same
     // builder, same surface tag, same economy, in a scrollable column at full text size.
-    if (mob) h += '<div data-node-q style="margin-top:14px;padding-top:12px;border-top:1px solid rgba(150,170,210,.14);"></div>';
+    // the question host, on BOTH form factors — the sheet is the reading surface now (v1.101.0)
+    h += '<div data-node-q style="margin-top:14px;padding-top:12px;border-top:1px solid rgba(150,170,210,.14);"></div>';
     if (principles.length) h += '<div data-ds="pr" style="margin-top:15px;">' + secHead("Essential principles") + principles.map((p) => bullet(p, "#96a3bf")).join("") + '</div>';
     if (defence.length) h += '<div data-ds="df" style="margin-top:13px;">' + secHead("Defence", "#7fb4ff") + defence.map((p) => bullet(p, "#5a9bf0")).join("") + '</div>';
     if (attacks.length) {
@@ -6155,7 +5999,10 @@ class Component extends DCLogic {
     dos.innerHTML = h;
     // clear only on a CHANGE of node: re-rendering the sheet for the node already open must not
     // reset a question the reader has already answered (that is the freeze rule)
-    if (mob) { if (!this._nodeQ || this._nodeQ.idx !== n.idx) this._clearNodeQ(); this._renderNodeQuestion(n, dos.querySelector("[data-node-q]")); }
+    // the state's own question, on every form factor — the sheet is the reading surface now, and
+    // it was only ever gated on `mob` because the desktop read happened in the node instead
+    if (!this._nodeQ || this._nodeQ.idx !== n.idx) this._clearNodeQ();
+    this._renderNodeQuestion(n, dos.querySelector("[data-node-q]"));
     this._wireDossierListButton(dos, n, "dossier");
     const back = dos.querySelector(".dsBack"); if (back) back.addEventListener("click", () => { if (mob) { this.closeDossierSheet(); this.openExplorer(); this.showExplorerList(); } else this.showExplorerList(); });
     const xb = dos.querySelector(".dsClose"); if (xb) xb.addEventListener("click", () => this.closeDossierSheet());
@@ -7207,7 +7054,7 @@ class Component extends DCLogic {
    * the same kind of reason.
    */
   askFormat(key, card) { return this.cardStage(key, card.q) < 2 ? "mc" : "recall"; }
-  /** The live [data-node-q] host — the in-node card first, then the mobile sheet. */
+  /** The live [data-node-q] host. The in-node card is retired (v1.101.0); this is the sheet. */
   _nodeQHost() {
     const card = this.nodeCardRef && this.nodeCardRef.current;
     if (card && card.style.display !== "none") { const h = card.querySelector("[data-node-q]"); if (h) return h; }
@@ -7518,6 +7365,10 @@ class Component extends DCLogic {
       const want = this.get("landQuestions", true) ? this.questionFor(key0) : null;
       if (want && this._landQ.card && want.q === this._landQ.card.q) return this._landEl;
     }
+    // A NEW landing starts folded; a re-render of the SAME one (a late payload backfilling film
+    // or the question) keeps whatever the reader opened. Dropping the pause latch with it means
+    // a stale `_landAutoPaused` can never resume a roll somebody else paused.
+    if (this._landIdx !== node.idx) { this._landOpen = false; this._landAutoPaused = false; }
     this.clearLandCard();
     // The coach used to return null here, on the theory that it "owns the first landing". It owns
     // the first landing of EVERY cold visitor — so that theory silently deleted the landing
@@ -7571,37 +7422,46 @@ class Component extends DCLogic {
     // (● 3/8). Clicking it opens this state's flashcards (a user click — pane-law-legal).
     const famChip = this.familiarityChip(key, "data-land-count", { clickable: true, style: "margin-left:auto;" });
     const totalCards = famChip.total;   // manifest `n` until the chunk lands
+    // ── THE CARD NO LONGER REPEATS THE GRAPH (v1.101.0) ────────────────────────────────────
+    // Owner, looking at a landing on The Chill Dog: «the "The Chill Dog" and "Bottom" is
+    // repeated info». It is — the roll now settles at ROLL_ZOOM, close enough that the canvas
+    // draws this state's name inside its own node and `richLabel()` prints the side beside it.
+    // So a LANDING card opens on a thin meta line (where you came from, and how well you know
+    // this state) and gets straight to the question. An ATTEMPT card keeps its headline: it
+    // names the technique the question is ABOUT, and the graph only labels that one while the
+    // sweep is animating.
+    const attemptMode = (mode || "land") === "attempt";
     const head = document.createElement("div");
     head.setAttribute("data-land-id", "1");
-    head.style.cssText = "display:flex;align-items:flex-start;gap:9px;";
-    head.innerHTML =
-      '<div style="flex:1;min-width:0;">' +
-        '<div style="font-size:14.5px;font-weight:700;color:#eef1f6;font-family:\'Space Grotesk\',sans-serif;line-height:1.2;">' + nameTxt + '</div>' +
-        '<div style="font-size:10.5px;color:#8094b4;margin-top:3px;line-height:1.3;">' +
-          '<b style="color:#9ab0e0;font-weight:700;">' + roleTxt + '</b>' +
-          (prev ? ' &middot; from ' + prev.name : '') +
-          (sp.from ? ' &middot; ' + sp.from : '') +
-        '</div>' +
-      '</div>' + famChip.html;
+    head.style.cssText = "display:flex;align-items:" + (attemptMode ? "flex-start" : "center") + ";gap:9px;";
+    head.innerHTML = attemptMode
+      ? '<div style="flex:1;min-width:0;">' +
+          '<div style="font-size:14.5px;font-weight:700;color:#eef1f6;font-family:\'Space Grotesk\',sans-serif;line-height:1.2;">' + nameTxt + '</div>' +
+          '<div style="font-size:10.5px;color:#8094b4;margin-top:3px;line-height:1.3;">' +
+            '<b style="color:#9ab0e0;font-weight:700;">' + roleTxt + '</b>' +
+            (sp.from ? ' &middot; ' + sp.from : '') +
+          '</div>' +
+        '</div>' + famChip.html
+      : '<div style="flex:1;min-width:0;font-size:10.5px;color:#8094b4;line-height:1.3;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">' +
+          (prev ? 'from ' + prev.name : (sp.from ? sp.from : '')) +
+        '</div>' + famChip.html;
     const chip = head.querySelector("[data-land-count]");
     if (chip && totalCards) chip.addEventListener("click", (e) => { e.stopPropagation(); this.openHomeToLatest(); });
     el.appendChild(head);
 
-    // 2 — the one-phrase definition, in the page's own words (absent until the dossier payload lands)
-    if (info && info.def) {
-      const d = document.createElement("div");
-      d.setAttribute("data-land-def", "1");
-      d.style.cssText = "font-size:11.5px;line-height:1.45;color:#aeb9d4;margin-top:7px;";
-      d.textContent = this.mcClip(info.def) || String(info.def).slice(0, 160);
-      el.appendChild(d);
-    }
+    // 2 — the one-phrase definition MOVED BEHIND `More` (v1.101.0). Owner, reading "Master Deep
+    // Half Guard Top with defensive counters, pressure maintenance, and systematic passing
+    // strategies" above their hand: "unnecessary — please remove those, or push the intro if SEO
+    // needs it to the content after clicking More". It is marketing prose written for the static
+    // page; the roll wants film and a question. It is not deleted, because the static article is
+    // where the SEO value actually lives — it is one fold lower, in `_landMore`.
 
     // 3 — film, before the question
     if (info && info.clips && info.clips.length) {
       const film = document.createElement("div");
       film.setAttribute("data-land-film", "1");
-      film.style.cssText = "margin-top:8px;";
-      film.innerHTML = this.filmStudyHTML(info.clips);
+      film.style.cssText = "margin-top:2px;";
+      film.innerHTML = this.filmStudyHTML(info.clips, true);
       el.appendChild(film);
       this.wireClips(film, info.clips);
     }
@@ -7643,7 +7503,17 @@ class Component extends DCLogic {
       this._landQSkip(key, !this.get("landQuestions", true) ? "setting_off" : (!totalCards ? (this.flashcards ? "no_cards_authored" : "decks_in_flight") : "deck_proven"), mode);
     }
 
-    // 5 — everything else is behind one affordance
+    // 5 — THE FULLER CONTAINER, UNFOLDED IN PLACE (v1.101.0). Everything the retired in-node
+    // card used to carry now lives one affordance lower, inside the card you are already
+    // reading — "the normal game container should be the default" (owner). Built lazily on the
+    // first open, so a roll nobody expands never pays for it.
+    const moreBody = document.createElement("div");
+    moreBody.id = "ng-land-more";
+    moreBody.setAttribute("data-land-more-body", "1");
+    moreBody.style.cssText = "display:none;";
+    el.appendChild(moreBody);
+
+    // 6 — everything else is behind one affordance
     // STICKY: the card is `max-height:min(320px,40vh); overflow-y:auto`, and with a definition,
     // a film row and a 4-option question the content is routinely TALLER than that. A static
     // footer then sits below the scroll box: present in the DOM, reported "visible" by a
@@ -7657,9 +7527,11 @@ class Component extends DCLogic {
     foot.style.cssText = "position:sticky;bottom:0;z-index:2;pointer-events:auto;display:flex;align-items:center;gap:12px;margin-top:9px;padding:8px 0 2px;background:linear-gradient(180deg,rgba(19,22,37,0),rgba(19,22,37,.94) 45%,rgba(19,22,37,.97));";
     const more = document.createElement("button");
     more.setAttribute("data-land-more", "1");
-    more.innerHTML = "More ▸";
-    more.style.cssText = "cursor:pointer;font-family:inherit;font-size:10px;font-weight:700;letter-spacing:.09em;text-transform:uppercase;color:#7e8aa3;background:none;border:none;padding:2px 0;";
-    more.addEventListener("click", () => this.openDossier(node.idx));
+    more.setAttribute("aria-expanded", "false");
+    more.setAttribute("aria-controls", "ng-land-more");
+    more.innerHTML = '<span data-land-more-label="1">More</span><span data-land-more-chevron="1" style="display:inline-block;transition:transform .22s cubic-bezier(.2,.7,.2,1);">▸</span>';
+    more.style.cssText = "cursor:pointer;font-family:inherit;font-size:10px;font-weight:700;letter-spacing:.09em;text-transform:uppercase;color:#7e8aa3;background:none;border:none;padding:2px 0;display:inline-flex;align-items:center;gap:5px;transition:color .16s;";
+    more.addEventListener("click", () => this.expandLandCard());
     foot.appendChild(more);
     // "we just drilled this" — one tap adds the state you are standing in to today's class list.
     // pointer-events:auto is set INLINE by _listAddButton: .ng-landcard is a fixed overlay and
@@ -7684,11 +7556,104 @@ class Component extends DCLogic {
     } else {
       this._landWarmP = null;   // nothing outstanding: this card is what the state has to ask
     }
+    // an unfolded card stays unfolded across a backfill — the payload landing is not a request
+    // to close what the reader opened. `_landOpen` is dropped when the LANDING changes, below.
+    if (this._landOpen) this.expandLandCard(true);
     this._dockLandCard(el);
-    // a fresh card born while a dossier owns the screen must not pop over it (the in-node card
-    // on desktop, the sheet on a phone)
-    if (this._traySup || (this.isMobile() && this._dossierIdx != null)) this._suppressLand(true);
+    // a fresh card born while the reading sheet owns the screen must not pop over it
+    if (this._traySup || this._dossierIdx != null) this._suppressLand(true);
     return el;
+  }
+  /**
+   * MORE ▸ UNFOLDS THE GAME'S OWN CARD (v1.101.0).
+   *
+   * It used to call `openDossier`, which flew the camera into the node and mounted a second,
+   * differently-shaped container over the graph. The owner's call: "the other fuller container
+   * should no longer show, and instead the normal game container should be the default. upon
+   * clicking more all of the other sections that were present in the fuller container would show
+   * there now." So the card grows instead — same card, same place, same question still on the
+   * table above it.
+   *
+   * Reading is not free time: unfolding auto-pauses the roll and folding gives the clock back,
+   * on its OWN latch (`_landAutoPaused`), so it can never resume a roll the player paused by
+   * hand — the same rule the pane and the dossier already follow.
+   */
+  expandLandCard(open) {
+    const el = this._landEl; if (!el) return false;
+    const body = el.querySelector("[data-land-more-body]");
+    const btn = el.querySelector("[data-land-more]");
+    if (!body || !btn) return false;
+    const want = open == null ? !this._landOpen : !!open;
+    this._landOpen = want;
+    const node = this.nodes && this._landIdx != null ? this.nodes[this._landIdx] : null;
+    if (want) {
+      if (!body.firstChild && node) body.appendChild(this._landMore(node));
+      body.style.display = "block";
+      // the mobile max-height carries !important, so this one has to as well
+      el.style.setProperty("max-height", "min(620px,74vh)", "important");
+      if (!this.paused) { this.setPaused(true); this._landAutoPaused = true; }
+      this.fx("land_more_opened", { node: node ? node.t : null });
+    } else {
+      body.style.display = "none";
+      el.style.removeProperty("max-height");
+      if (this._landAutoPaused) { this.setPaused(false); this._landAutoPaused = false; }
+    }
+    btn.setAttribute("aria-expanded", want ? "true" : "false");
+    const lab = btn.querySelector("[data-land-more-label]"); if (lab) lab.textContent = want ? "Less" : "More";
+    const ch = btn.querySelector("[data-land-more-chevron]"); if (ch) ch.style.transform = want ? "rotate(90deg)" : "";
+    btn.style.color = want ? "#cdd5e6" : "";
+    this._dockLandCard(el);
+    return true;
+  }
+  /**
+   * The sections the retired in-node container carried, at the game card's own text size:
+   * principles, where it leads, what beats it, and — for a position — the attacks available from
+   * it. Film and the one-line definition are NOT repeated here; they are already above, because
+   * they are what a player wants without asking.
+   */
+  _landMore(node) {
+    const box = document.createElement("div");
+    box.style.cssText = "margin-top:10px;padding-top:10px;border-top:1px solid rgba(150,170,210,.14);animation:ngMoreIn .22s cubic-bezier(.2,.7,.2,1);";
+    const info = this.ngContentFor(node) || {};
+    const rc = this.richContentFor(node);
+    const persp = rc && rc.perspectives ? rc.perspectives.attacker : null;
+    const secHead = (t) => '<div style="font-size:9.5px;letter-spacing:.12em;text-transform:uppercase;font-weight:700;color:#8496b8;margin:0 0 6px;">' + t + '</div>';
+    const bullet = (t, dot) => '<div style="display:flex;gap:8px;align-items:flex-start;font-size:11.5px;line-height:1.45;color:#c4cde0;margin-bottom:5px;"><span style="flex:none;width:5px;height:5px;border-radius:50%;background:' + dot + ';margin-top:6px;"></span><span>' + t + '</span></div>';
+    let h = "";
+    // the intro the compact card no longer shows — kept, one fold lower, because the same
+    // sentence is the static page's SEO copy and deleting it outright would lose it
+    if (info.def)
+      h += '<div data-land-def="1" style="font-size:11.5px;line-height:1.5;color:#aeb9d4;margin-bottom:11px;">' + (this.mcClip(info.def) || String(info.def).slice(0, 220)) + '</div>';
+    const principles = ((persp && persp.principles) || info.principles || []).slice(0, 4);
+    if (principles.length)
+      h += '<div data-land-principles="1" style="margin-bottom:11px;">' + secHead("Essential principles") + principles.map((p) => bullet(p, "#7fb4ff")).join("") + '</div>';
+    if (rc && Array.isArray(rc.outcomes) && rc.outcomes.length) {
+      const tone = { good: "#7ee0a8", bad: "#e8956b", mid: "#cbd24e" };
+      h += '<div data-land-outcomes="1" style="margin-bottom:11px;">' + secHead("Where it leads") + rc.outcomes.slice(0, 3).map((o) =>
+        '<div style="display:flex;align-items:center;gap:8px;margin-bottom:4px;"><span style="flex:1;min-width:0;font-size:11.5px;color:#cdd5e6;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;">' + (o.result || "") + ' → ' + (o.position || "") + '</span><span style="flex:none;font-size:11px;font-weight:700;color:' + (tone[o.tone] || "#cfd6e4") + ';">' + (o.prob != null ? o.prob + '%' : '') + '</span></div>').join("") + '</div>';
+    }
+    const counters = (info.counters || (persp && persp.counters) || []).slice(0, 3);
+    if (counters.length)
+      h += '<div data-land-counters="1" style="margin-bottom:11px;">' + secHead("What beats it") + counters.map((c) => bullet(c, "#e8956b")).join("") + '</div>';
+    if (node.ty === "positions") {
+      // dedupe by display label — adjacent variants often collapse to the same short name
+      const seen = new Set(), pick = [];
+      for (const k of (this.adj && this.adj[node.idx]) || []) {
+        const nd = this.nodes[k]; if (!nd || nd.ty === "positions") continue;
+        const l = this.splitName(nd.t).main; if (seen.has(l)) continue;
+        seen.add(l); pick.push(k); if (pick.length >= 6) break;
+      }
+      if (pick.length)
+        h += '<div data-land-attacks="1">' + secHead("Attacks from here") + '<div style="display:flex;gap:5px;flex-wrap:wrap;">' + pick.map((k) =>
+          '<span class="lmAtk" data-i="' + k + '" style="cursor:pointer;font-size:10.5px;font-weight:700;color:#ff9a8f;background:rgba(242,104,95,.14);border-radius:999px;padding:4px 10px;">' + this.splitName(this.nodes[k].t).main + '</span>').join("") + '</div></div>';
+    }
+    // NEVER A SILENT SECTION — an empty box under "More" is a reader's dead end, same rule the
+    // question block follows.
+    if (!h) h = '<div data-land-more-empty="1" style="font-size:11.5px;line-height:1.45;color:#8b97b0;">Nothing more is authored for this state yet — the film and the question above are what it has.</div>';
+    box.innerHTML = h;
+    box.querySelectorAll(".lmAtk").forEach((a) =>
+      a.addEventListener("click", (e) => { e.stopPropagation(); this.openDossier(parseInt(a.getAttribute("data-i"), 10)); }));
+    return box;
   }
   /** Is the landing question settled — mounted, or definitively not coming? */
   landQuestionReady() { return !this._landWarmP; }
@@ -8972,11 +8937,25 @@ class Component extends DCLogic {
         tgt = { cx: this.gcx + 9 * Math.sin(this.now * 0.07), cy: this.gcy + 7 * Math.cos(this.now * 0.06), vw: this.graphW * 1.02 * br };
       } else {
         const f = this.camFocus;
-        const wide = this.pulse ? this.graphW * 0.3 : this.graphW * 0.42;
-        const vw = Math.max(wide, this.graphR * 0.7);
+        // THE ROLL SITS ON THE NODE, NOT OVER THE MAP (v1.101.0). Travel still pulls back, so a
+        // move reads as a move and you can see where you are being taken; the moment it settles
+        // the camera closes to ROLL_ZOOM. At that distance the canvas draws the state's name and
+        // role inside the node — the landing card no longer has to repeat them.
+        // The old `graphR * 0.7` floor is deliberately gone from the settled case: it is a
+        // whole-graph measure, it dominated the number beside it, and leaving it in would have
+        // made ROLL_ZOOM change nothing at all.
+        const vw = this.pulse
+          ? Math.max(this.graphW * 0.3, this.graphR * 0.7)
+          : this.graphW * this.ROLL_ZOOM;
         // shift focus RIGHT of centre so it isn't hidden under the LEFT pane (v1.94.0 flip)
         const offset = (156 * vw) / this.W;
-        tgt = { cx: f.x - offset, cy: f.y, vw: vw };
+        // ...AND UP, INTO THE ONLY CLEAR BAND ON THE SCREEN. Measured at 1440x900: the focus node
+        // centred at y=450 with the landing card occupying y=362..900 and the option tray below
+        // it — so the state you are playing sat squarely BEHIND the card that talks about it, at
+        // every zoom. It was invisible while the camera was wide; closing to ROLL_ZOOM made it
+        // the whole composition. Park the node at 22% of viewport height, where nothing else is.
+        const lift = (0.34 * this.H * vw) / this.W;
+        tgt = { cx: f.x - offset, cy: f.y + lift, vw: vw };
       }
     }
     // while paused or reading an in-node dossier, suppress only the AUTO-retarget — the tween
@@ -9122,6 +9101,16 @@ class Component extends DCLogic {
       // Panning the graph from inside the card was never a gesture anyone wanted.
       const nc = this.nodeCardRef && this.nodeCardRef.current;
       if (nc && nc.style.display !== "none" && e.target && nc.contains(e.target)) return;
+      // ...AND THE READING SHEET, which since v1.101.0 is a desktop surface too. Same bug, same
+      // shape: the sheet's "Add to today's class list" row was visible, enabled, hit-testable —
+      // `elementFromPoint` at its centre returned its own `.dsListTxt` — and its click listener
+      // never fired. Traced: `doc-down:dsListTxt` followed by `doc-click:` on an element with NO
+      // class, i.e. this wrap. The capture above retargets pointerup, the browser computes the
+      // click target from the down/up common ancestor, and the row's handler is skipped entirely.
+      // The mobile sheet was exposed to this all along; it only surfaced when the desktop read
+      // moved out of the node and into the sheet.
+      const dsh = this.dossierSheetRef && this.dossierSheetRef.current;
+      if (dsh && dsh.style.display === "block" && e.target && dsh.contains(e.target)) return;
       this.closeDeckIfStudying();
       ptrs.set(e.pointerId, { x: e.clientX, y: e.clientY });
       try { el.setPointerCapture(e.pointerId); } catch (err) {}
@@ -9493,18 +9482,31 @@ class Component extends DCLogic {
           ctx.lineWidth = Math.max(1.2, rs * 0.045);
           ctx.beginPath(); this.shapePath(ctx, n.ty, sx, sy, rs); ctx.stroke();
           const cyOff = n.ty === "submissions" ? rs * 0.24 : 0;   // triangle: optical center sits lower
-          const name = this.splitName(n.t).main;
+          // every one of the 136 position hubs is titled "… Top" in graph-data.json — that suffix
+          // is a rendering artifact of the visual collapse, not a claim about the side in play, so
+          // it comes off here exactly as it does on every other surface. It mattered little while
+          // this text was incidental; now that it is the ONLY place the state is named, a node
+          // reading "Mount Top" under a "· BOTTOM" kicker would contradict itself.
+          const name = n.ty === "positions" ? this.posFamily(n.t) : this.splitName(n.t).main;
           const maxW = rs * (n.ty === "positions" ? 1.5 : 1.05);
-          const fs = Math.max(9, Math.min(15, rs * 0.24));
+          // the 15px cap was tuned when this text was incidental — a name that happened to fit
+          // inside a node somebody had zoomed toward. At ROLL_ZOOM the current node is ~166px
+          // across and it is the ONLY place the state is named, so let the type grow with it.
+          const fs = Math.max(9, Math.min(26, rs * 0.24));
           ctx.font = "600 " + fs.toFixed(1) + "px 'Plus Jakarta Sans', sans-serif";
           const words = name.split(" "), lines = []; let cur = "";
           for (const w of words) { const t2 = cur ? cur + " " + w : w; if (!cur || ctx.measureText(t2).width <= maxW) cur = t2; else { lines.push(cur); cur = w; } }
           if (cur) lines.push(cur);
           if (lines.length > 3) { lines.length = 3; lines[2] += "\u2026"; }
-          const lh = fs * 1.16, kfs = Math.max(6.5, Math.min(9, rs * 0.11));
+          const lh = fs * 1.16, kfs = Math.max(7, Math.min(14, rs * 0.13));
           const blockH = lines.length * lh;
           ctx.textBaseline = "middle";
-          const kick = n.ty === "positions" ? "POSITION" : n.ty === "submissions" ? "SUBMISSION" : "TRANSITION";
+          // THE STATE YOU ARE IN NAMES ITS SIDE, ON THE GRAPH (v1.101.0). The roll now settles
+          // close enough that the node draws its own name, which is why the landing card stopped
+          // repeating it — so the role has to come with it, or the side would be named nowhere.
+          // This is also what lets the focus skip its rich label below: one name, not two.
+          let kick = n.ty === "positions" ? "POSITION" : n.ty === "submissions" ? "SUBMISSION" : "TRANSITION";
+          if (isCur) { const rl = this.roleLabel(); if (rl) kick += " · " + String(rl).toUpperCase(); }
           ctx.font = "800 " + kfs.toFixed(1) + "px 'Plus Jakarta Sans', sans-serif";
           ctx.fillStyle = this.rgba(n.col, 0.9 * k * A);
           ctx.fillText(kick, sx, sy + cyOff - blockH / 2 - kfs * 0.95, rs * 1.7);
@@ -9573,7 +9575,10 @@ class Component extends DCLogic {
       // current position drawn LAST so its rich label sits above the outgoing-node labels
       if (this.focusIdx >= 0 && !this.pulse) {
         const n = this.nodes[this.focusIdx];
-        richLabel(this.focusIdx, this.roleLabel(), this.myColor(n), this.posFamily(n.t), true);
+        // ...unless the node is already big enough to carry its own name AND role inside it,
+        // which at ROLL_ZOOM it always is. Drawing both put the state's name on screen twice,
+        // once inside the circle and once hanging off its right edge.
+        if (n.r * nodeK * scale <= 20) richLabel(this.focusIdx, this.roleLabel(), this.myColor(n), this.posFamily(n.t), true);
       }
       // hover: nearest node label (brighter + "your move" tag if it's an outgoing option)
       if (this._hover && this._hover.idx >= 0 && this.now - (this._hover.t || 0) < 0.5 && this.nodes[this._hover.idx].r * nodeK * scale <= 20) {

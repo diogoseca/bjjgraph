@@ -78,14 +78,14 @@ test("identity names the state, where you came from, your role, and whether you 
       other: a.playerRole === "bottom" ? "top" : "bottom",
     };
   });
-  expect(txt, "the state's name").toContain(expected.main);
-  expect(txt.toLowerCase(), "which side you are playing").toContain(
-    expected.role.toLowerCase(),
-  );
+  // v1.101.0 MOVED the name and the side onto the GRAPH — the roll settles close enough that the
+  // node draws both, and repeating them here was the owner's complaint. What the card keeps is the
+  // part the graph cannot say: where you came from, and how well you know this state.
+  expect(txt, "the state's name is the graph's job now").not.toContain(expected.main);
   expect(
-    txt.replace(expected.role, ""),
-    `and the other side is named nowhere on the card (title is ${expected.title})`,
-  ).not.toMatch(new RegExp(expected.other, "i"));
+    txt,
+    `nor either side (title is ${expected.title})`,
+  ).not.toMatch(new RegExp(`\\b(${expected.role}|${expected.other})\\b`, "i"));
   // the seen marker is one of the three glyphs, and on a fresh boot it is "new"
   expect(txt, "a have-you-met-it marker").toMatch(/[○◐●]/);
   expect(txt, "fresh player has met nothing").toContain("○");
@@ -119,10 +119,19 @@ test("everything that is NOT priority stays behind More", async ({ page }) => {
   ).toBe(false);
 
   await page.locator("[data-land-more]").click();
+  // v1.101.0: More UNFOLDS THIS CARD. It does not open a dossier — there is no second container
+  // to open — so the thing to assert is that the rest arrived, in place.
+  expect(
+    await page.evaluate(() => {
+      const b = (window as any).__neural._landEl.querySelector("[data-land-more-body]");
+      return !!b && b.style.display === "block" && (b.textContent || "").trim().length > 0;
+    }),
+    "More unfolds the rest into the card you are already reading",
+  ).toBe(true);
   expect(
     await page.evaluate(() => (window as any).__neural._dossierIdx != null),
-    "More opens the node's full dossier",
-  ).toBe(true);
+    "and still opens no separate reading surface",
+  ).toBe(false);
   expect(
     await page.evaluate(() => !!(window as any).__neural.paused),
     "which stops the game while you read, like every other reading surface",
