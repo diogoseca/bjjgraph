@@ -425,6 +425,51 @@ the dimmer `from <position>` half, same rule and same shape as `[data-shared-ite
 - An empty list says so and says how (`[data-list-empty="<listId>"]`), naming only surfaces that
   really carry `[data-list-add]`: an option card, a technique's dossier, an Explore row.
 
+**"HOW DOES IT KNOW WHAT LIST?" — THE CAPTURE PICKER (v1.99.5).** `addToList(nodeId)` defaults to
+the single persisted `activeListId`, and `_listAddButton` toggled against `activeListHas()` — so
+with two lists **every `+` filed into whichever was last created or touched**, destination
+invisible and unchosen. Silent misfiling: nothing looks wrong until a coach shares the wrong
+class. `captureNode(nodeId, surface, anchor)` is now the ONE seam every surface's `+` and both
+dossier renderers route through, and the matrix is:
+
+| state | behaviour |
+|---|---|
+| 0 lists, not captured | create `Class · <date>` + add. **One tap.** |
+| 1 list, not captured | add to it. **One tap** — there is no second destination |
+| ≥2 lists, not captured | **PICKER** (`openListPicker`) — the choice is real, so it is asked |
+| already in any list | **PICKER**, at any count |
+
+- **Why not always, when the owner named YouTube's "Save to playlist".** Canon: capture "never
+  commits the move and never stops the clock" — the `+` is pressed mid-roll on an option card
+  with the decision window draining, and taxing every capture with a chooser to fix a problem
+  single-list users do not have is the wrong trade. The create-inline row stays reachable
+  everywhere anyway, because pressing `+` on an **already-captured** technique opens the picker
+  on ANY surface: "put this in a new list" is one tap from a ✓, at every list count. This also
+  fixed a second misfiling — the old ✓ removed from the ACTIVE list, which with two lists could
+  be a list the technique was never in.
+- **THE CLOCK KEEPS RUNNING.** The picker is anchored chrome, not a screen: no pause latch, no
+  pane interaction. It **closes on pick** rather than staying open YouTube-style — a menu left
+  over the option tray is exactly what "never blocks the option hand" forbids — and
+  `enterAttempt`, `openDossier` and `applyDeckVisibility` each close it so it can never outlive
+  the surface it hangs off.
+- **Placement is MEASURED, never CSS.** `_placeListPicker` reads the anchor rect, prefers above,
+  flips below, and clamps both axes to an 8px inset: the anchor can be an option card at the
+  bottom of a 390px phone, inside an 88vw drawer, above the thumb band. Portalled to the app
+  root at **z:90** (the deliberate-screen band, beside the account menu) — inside the fixed wrap
+  it would be underdrawn by the landing card at z:5. Esc closes it FIRST, before the account
+  menu; a capture-phase outside `pointerdown` closes it too.
+- Handles: `[data-list-picker="<nodeId>"]`, `[data-list-pick="<listId>"]` (`role=menuitemcheckbox`,
+  `aria-checked` = real membership, `[data-picker-default]` on the destination, ordered
+  default-first), `[data-list-pick-new]` → `[data-list-pick-newname]` + `[data-list-pick-create]`
+  (Enter commits; `createListWith` names AND files in one action).
+- **The destination is legible without opening anything:** `[data-lists-target]` — a permanent
+  "Adding to **<name>**" line under the Lists head (owner: "be visible up top") — plus every
+  capture control's own `aria-label`/`title` (`_captureCopy`), which names the target list, or
+  the lists it is already in. The ✓ glyph now means **in ANY list** (`nodeInAnyList`), not "in
+  the active one". `[data-lists-target]` is a STATUS, not a control: the way to change the
+  destination is to pick one (or create one), and a second silent re-targeting control would
+  recreate the ambiguity it exists to remove.
+
 **Recipient path (`_openSharedListFromUrl`, called right after `ingest`).** Decodes
 `location.pathname` client-side, sets `_sharedIncoming`, opens the pane on Explore and lights the
 nodes. A received link is **offered, never adopted**: Save is one deliberate click. Unknown
@@ -766,6 +811,70 @@ The runtime remains one imperative component in `neural/src/app.src.jsx`. Challe
 **FIRST IMPRESSION (v1.82.3).** Two rules about the opening screen, both gated by `e2e/journeys/first-impression.spec.ts`.
 - **A fresh profile's first-ever roll is drawn from REAL TRAFFIC, not uniformly.** `startPosTraffic()` sums `curriculum.weights` (the stationary distribution Game Knowledge already uses) per position through each technique's single canonical origin (`fromPositionId` → `_posSlugIndex`), giving 136 entries summing to 1. `_weightedStart(pool, u)` inverse-CDF-samples `w^START_BIAS.gamma` (1.5) mixed with `START_BIAS.floor` (2%) uniform. Effect: the six hubs a beginner can name go from **4.4% → ~66%** of first impressions, ~17 states stay genuinely likely, and **all 136 keep a real chance — the draw is biased, never narrowed**. It replaced a `withDeck` filter that was a **no-op** (all 136 carry a deck). ONE draw off the SAME `rng("start-pos")` tag, so rigged replays are structurally untouched; a **returning** profile keeps the historical uniform mapping exactly (`_returningVisitor()` — one latched definition, shared with the cold-start funnel's `cold` flag, marker `bjj-neural-firstroll`).
 - **The card names ONE side, and it is `playerRole`.** All 136 position hub titles in `graph-data.json` end in "… Top" (the visual layer collapses Top/Bottom into one node), so the raw title is not a role claim. `renderLandCard` shows `posFamily(node.t)` for positions; `roleTxt` is the only place a side is named. **Do not "derive the role from the node title"** the way `rollFromPosition()` does — that derivation is a constant (`top`) across the whole pool, which is why every staged/roamed roll deals a top hand and why `playFrom(idx, role)` has to set the role itself.
+
+**THE IN-NODE CARD IS THE DOSSIER, AND THE DOSSIER IS THE ZOOM (v1.100.0).** On desktop there is no
+dossier panel: `openDossier` flies the camera into the node (`vw = graphW*0.0085`) and
+`updateNodeCard` renders `renderDossier(n, targetEl)` INTO a node-positioned card that scales with
+the camera, crossfading the canvas glyph out (`_nodeCardO`) and fading the options tray + the
+landing card under it (`_suppressTray`/`_suppressLand`). One object, one gesture. Its read order is
+the owner's: **title + role above the node → film → the question, inside the node's own shape.**
+- **The header is a PLATE on the unclipped shell root** (`[data-node-head]`, `bottom:100%`), not a
+  line in the content stack: the diamond's top corner and the triangle's apex narrow to nothing at
+  exactly headline height, so the one line naming the state was the line most at risk of being
+  clipped. It carries the kicker, `[data-dossier-title]`, the role badge, the `from …` qualifier,
+  the familiarity counter and the **✕** (44px). Because the plate reaches ABOVE the shape, the
+  card's reach from the node is `boxH/2 + headH` — so `updateNodeCard` caps the applied scale to
+  `H / (boxH + 2*headH + 24)`. Without that a triangle at the wheel's inner limit pushed its own
+  title off the top of the screen. Box sizes GREW for the question (560→700 / 600→760 / 680→780)
+  while the root em stayed pinned to the old size: growing both buys no room, only a bigger picture
+  of the same crowding.
+- **The question** (`[data-node-q]`, `_renderNodeQuestion`) sits at the MIDDLE of the content stack —
+  the stack is vertically centred, so the middle is the widest band on all three geometries.
+  `nodeQuestionFor(key, skip)` asks to the **recall gate (stage 3)**, not the landing card's
+  recognition gate (stage 2): that difference IS the ladder, and `askFormat(key, card)` states it
+  (`mc` below stage 2, `recall` at or above). MC that cannot build options **falls back to recall**
+  rather than falling silent, and a state with nothing to ask says so in words
+  (`[data-node-q-empty]` + a `node_q_skipped` reason) — never an empty box.
+- **Its economy is study-only.** Answering mints the ORDINARY card credit (`_bumpStage`, `prep`,
+  sharpness, cross-deck credit, the daily counter — through the shared `_mcAnswer` / `gradeRecall`)
+  and **none of the roll's bonuses**: no `refundDecision` (the dossier paused the clock), no
+  `_comboUp` (momentum is a roll mechanic and a paused screen would farm it), no `_qMod` (that
+  penalty prices an exchange nobody is taking). Those three are the LANDING question's own
+  `_landAnswered`; this surface simply does not wire them.
+- **`landQuestions` does not gate it.** That setting is "Questions while you roll" — it gates the
+  question that interrupts a TIMED decision. A dossier is a surface the reader opened; silencing it
+  would delete a feature nobody turned off.
+- **Surface tags are load-bearing, twice.** `_mcBlock(card, key, onDone, "node")` scopes the RNG to
+  `node-mc-pick`/`node-mc-shuffle` (a new surface that forgot its tag would eat the `mc-*` queues
+  rigged replays depend on) and names the option handle `[data-node-mc-opt]` (a shared selector
+  would match the landing card's block, which is on screen behind it). `_recallBlock` follows the
+  same rule (`[data-node-recall]`/`-reveal`/`-got`/`-again`). `_clearNodeQ` hands the A-D keyboard
+  back to the still-live landing block instead of nulling `_mc` outright.
+- **A question on the table is RE-PARENTED, never rebuilt** — the landing card's `reuse` rule.
+  `onContentReady` forces a full card re-render when a dossier chunk lands, and treating that as "a
+  new node" wiped an ANSWERED question and mounted a fresh block over it: a second free attempt at
+  credit already given, triggered by nothing but a payload. `updateNodeCard` now clears `_nodeQ`
+  only when the node genuinely changes.
+- **Deck timing:** the card paints immediately and the question docks a fetch later.
+  `nodeQuestionReady()` / `await nodeSettled()` are the deterministic signals (the `_landWarmP` /
+  `landSettled()` pattern), so a journey never races the network.
+- **Getting out, from every entry and every zoom:** the plate's ✕, a click on empty canvas (a PAN is
+  not a click — `moved < 5`), and Esc, which reaches it after the modal and the account menu and
+  before the pane. `closeNodeDossier()` now also handles the **zoom-only** card (no `_dossierIdx`),
+  backing the camera out past the mount threshold; before that the ✕, Esc and outside-click all did
+  nothing to a card the reader had merely pinched into.
+- **ONE pointer gate, and it is the OPACITY.** `.ndHit` and the plate are armed together at
+  `cardO >= 1`. The old `s > 0.75` threshold left the card fully drawn and dead to the mouse for the
+  whole stretch `s ∈ [0.52, 0.75]` (measured: a ✕ at (815,127) with `elementFromPoint` returning the
+  canvas). Nothing inside sets `pointer-events:auto` of its own — an inline `auto` on a child beats
+  a `none` on its parent and would arm it mid-fade.
+- **The phone reads a node in the SHEET, not in the node** (`openDossier` forks on `isMobile()`).
+  The card is 700-780 CSS px of shape; the fit cap would squeeze it under half size on a 390px
+  screen and turn 12px option rows into 5px ones. The sheet renders the same `[data-node-q]`, same
+  builder, same economy, at full text size in something that scrolls.
+- `familiarityChip(key, attr, opts)` is the ONE implementation of the ○/◐/● + `n/m` chip, shared by
+  the landing card (`[data-land-count]`) and the plate (`[data-node-count]`).
+- Tests: `e2e/journeys/node-card.spec.ts` (11 journeys, incl. a 390x844 `test.describe`).
 
 **ROAM & STAGE (v1.68.0).** Clicking any graph node calls `stageRollAt(idx)`: fly there, land, deal the hand — **clock held**. Click elsewhere and you restage the same non-session. `_played` (set in `_tick` on the first unpaused frame with a live hand) is the seam: a roll that never played is never archived into `_pastRolls`. Tapping the node you are already on reads it (dossier) instead. `after(sec, fn, ignorePause)` exists so a staged landing still arrives while paused. Beat: `roll_staged`.
 

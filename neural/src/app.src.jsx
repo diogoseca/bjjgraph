@@ -311,6 +311,7 @@ class Component extends DCLogic {
         // Esc walks the Z LADDER top-down: deliberate screens first (modal 95, menu 90),
         // then gameplay overlays, then the pane last (pane law)
         if (this.closeModalIfOpen()) return;
+        if (this.closeListPicker()) return; // anchored chooser, same deliberate band as the menu
         if (this.closeAccountMenu()) return;
         if (this._detailCtx) { e.preventDefault(); this.closeOptionDetail(); return; }
         if (this.closeNodeDossier()) return; // in-node dossier open (desktop) — fly back out
@@ -1094,6 +1095,8 @@ class Component extends DCLogic {
     this.lastInteract = this.now;
   }
   applyDeckVisibility() {
+    // an anchored chooser cannot outlive the surface it hangs off (v1.99.5)
+    if (this._pickEl) this.closeListPicker();
     const open = this.deckReady && this.deckOpen;
     const wasShown = this.deckShown;
     this.deckShown = open;
@@ -4431,16 +4434,34 @@ class Component extends DCLogic {
     this._refreshListSurfaces();
     return true;
   }
+  /**
+   * The words on a capture control. Two things changed in v1.99.5:
+   *  · the ✓ now means "in ANY of your lists", not "in the ACTIVE one" — with two lists the old
+   *    glyph told you a technique was uncaptured while it sat in the other list;
+   *  · the control NAMES ITS DESTINATION. That is the whole answer to "how does it know what
+   *    list?" on the one-tap path, and it has to be a real accessible name, not a `title`:
+   *    a phone has no hover.
+   */
+  _captureCopy(nodeId) {
+    const on = this.nodeInAnyList(nodeId);
+    const m = this._listsMap();
+    if (on) {
+      const names = this.listsWith(nodeId).map((k) => "“" + m[k].name + "”");
+      return { on: true, label: "In your class list" + (names.length > 1 ? "s " : " ") + names.join(", ") + " — choose where it goes" };
+    }
+    const t = this.targetList();
+    return { on: false, label: t ? "Add to class list “" + m[t].name + "”" : "Add to a class list" };
+  }
   _styleListAdd(el, nodeId) {
-    const on = this.activeListHas(nodeId);
+    const c = this._captureCopy(nodeId), on = c.on;
     // A GLYPH IS NOT A LABEL. The sheet's capture was described as "a 44px labelled target" while
     // its whole text was "+" and its only words were in a `title` — invisible on a phone, where
     // there is no hover. Surfaces with room (data-list-label) say it in words; the cramped ones
     // keep the glyph but carry a real accessible name, which a `title` is not.
     const labelled = el.getAttribute("data-list-label") === "1";
     el.textContent = labelled ? (on ? "✓ In class" : "+ Add to class") : (on ? "✓" : "+");
-    el.title = on ? "In today’s class list — click to remove" : "Add to today’s class list";
-    el.setAttribute("aria-label", on ? "In today’s class list — remove it" : "Add to today’s class list");
+    el.title = c.label;
+    el.setAttribute("aria-label", c.label);
     el.setAttribute("aria-pressed", on ? "true" : "false");
     el.style.color = on ? "#7ee0a8" : "#9ab0e0";
     el.style.borderColor = on ? "rgba(126,224,168,.45)" : "rgba(150,170,210,.28)";
@@ -4463,7 +4484,9 @@ class Component extends DCLogic {
     // made the coach's Next button and the landing card's options unclickable by mouse.
     b.style.cssText = "flex:none;pointer-events:auto;cursor:pointer;font-family:inherit;font-size:" + (thumb ? "17px" : "13px") + ";font-weight:700;line-height:1;width:" + size + "px;height:" + size + "px;border-radius:" + (thumb ? 11 : 7) + "px;border:1px solid rgba(150,170,210,.28);background:rgba(255,255,255,.04);display:inline-flex;align-items:center;justify-content:center;";
     this._styleListAdd(b, nodeId);
-    b.addEventListener("click", (e) => { e.stopPropagation(); e.preventDefault(); this.toggleListItem(nodeId, surface); });
+    // captureNode is the ONE seam: one tap while there is nothing to choose, the picker the
+    // moment there is (see the picker's header comment for the matrix and its reasoning).
+    b.addEventListener("click", (e) => { e.stopPropagation(); e.preventDefault(); this.captureNode(nodeId, surface, b); });
     return b;
   }
   /** Wrap an Explore row so the row keeps its click and gains a + on the right. */
@@ -4482,22 +4505,321 @@ class Component extends DCLogic {
     lb.setAttribute("data-list-surface", surface || "dossier");
     lb.style.pointerEvents = "auto"; // inherited property; the canvas hit-tests above anything that doesn't re-enable it
     const paint = () => {
-      const on = this.activeListHas(n.id);
+      const c = this._captureCopy(n.id), on = c.on;
       const g = lb.querySelector(".dsListGlyph"), t = lb.querySelector(".dsListTxt");
       if (g) { g.textContent = on ? "\u2713" : "+"; g.style.color = on ? "#7ee0a8" : "#9ab0e0"; }
-      if (t) t.textContent = on ? "In today\u2019s class list" : "Add to today\u2019s class list";
+      if (t) t.textContent = c.label;
+      lb.title = c.label;
+      lb.setAttribute("aria-label", c.label);
       lb.setAttribute("aria-pressed", on ? "true" : "false");
     };
     paint();
-    lb.addEventListener("click", (e) => { e.stopPropagation(); this.toggleListItem(n.id, surface || "dossier"); paint(); });
+    lb._ngPaint = paint; // the picker's refresh repaints this row too
+    lb.addEventListener("click", (e) => { e.stopPropagation(); this.captureNode(n.id, surface || "dossier", lb); });
   }
   _refreshListSurfaces() {
     const root = this.__ngRoot || document;
-    try { root.querySelectorAll("[data-list-add]").forEach((el) => this._styleListAdd(el, el.getAttribute("data-list-add"))); } catch (e) { /* non-fatal */ }
+    try {
+      root.querySelectorAll("[data-list-add]").forEach((el) => {
+        // the dossier's .dsList row has its own painter (glyph + words in child spans); the
+        // plain buttons take _styleListAdd. One loop, so no surface can be left stale.
+        if (el._ngPaint) el._ngPaint(); else this._styleListAdd(el, el.getAttribute("data-list-add"));
+      });
+    } catch (e) { /* non-fatal */ }
     // re-render the Explore body so the Lists section's counts follow the model. Safe while a
     // dossier is up: the list element is hidden behind it, and renderExplorer preserves an
     // intentional list highlight (keepList) instead of clearing it.
     if (this.deckShown && this._viewMode === "explore" && !this._paneStudyActive()) this.renderExplorer();
+  }
+
+  // ══════════════════════════════════════════════════════════════════════════════════════
+  // THE LIST PICKER (v1.99.5) — "how does it know what list?"
+  //
+  // THE BUG: `addToList(nodeId)` defaults to `activeListId`, and `_listAddButton` toggled
+  // against `activeListHas()`. With two lists every + filed into whichever was last created
+  // or touched, with the destination invisible and unchosen — silent misfiling, the worst kind
+  // of data bug, because nothing looks wrong until a coach shares the wrong class.
+  //
+  // WHEN THE PICKER OPENS, AND WHY NOT ALWAYS (decision, v1.99.5):
+  //   0 lists, not captured  → create "Class · <date>" and add. ONE tap.
+  //   1 list,  not captured  → add to it. ONE tap. There is no second destination to choose.
+  //   ≥2 lists, not captured → PICKER. The choice is real, so it is asked.
+  //   already in a list      → PICKER, at any count. (This is also a fix: the ✓ used to remove
+  //                            from the ACTIVE list, which with two lists could be a list the
+  //                            technique was never in.)
+  // The reference the owner named is YouTube's "Save to playlist", where the sheet opens every
+  // time. It opens here only where selection MEANS something, for two reasons. First, canon:
+  // capture "never commits the move and never stops the clock" — the + is pressed mid-roll, on
+  // an option card, with the decision window draining, and taxing every capture with a chooser
+  // to solve a problem single-list users do not have is the wrong trade. Second, the create-
+  // inline affordance stays reachable everywhere anyway: pressing + on an already-captured
+  // technique opens the picker on ANY surface, so "put this in a new list" is one tap from a ✓,
+  // at every list count. And the destination is never a mystery even on the one-tap path — the
+  // button's own title/aria names it ("Add to “Monday fundamentals”"), and the Lists head
+  // carries a persistent [data-lists-target] line saying where captures are going.
+  //
+  // THE CLOCK KEEPS RUNNING. The picker is anchored chrome, not a screen: it never pauses, it
+  // closes on the first outside pointerdown or Esc, and it CLOSES ON PICK rather than staying
+  // open YouTube-style — a menu left open over the option tray is exactly what "never blocks
+  // the option hand" forbids. Capturing into a second list costs a second press of the +.
+  // ══════════════════════════════════════════════════════════════════════════════════════
+  /** Is this technique in ANY list? The + glyph answers that, not "is it in the active one". */
+  nodeInAnyList(nodeId) {
+    const m = this._listsMap();
+    for (const k of Object.keys(m)) if (m[k].items.indexOf(nodeId) >= 0) return true;
+    return false;
+  }
+  /** Every list holding this technique, for the button's title and the picker's checks. */
+  listsWith(nodeId) {
+    const m = this._listsMap();
+    return Object.keys(m).filter((k) => m[k].items.indexOf(nodeId) >= 0);
+  }
+  /** The list a one-tap capture would land in — the thing "[data-lists-target]" prints. */
+  targetList() {
+    const m = this._listsMap();
+    if (this.activeListId && m[this.activeListId]) return this.activeListId;
+    return this.listsArray()[0] || null;
+  }
+  /** Picker order: the default destination first, then most-recently-touched. */
+  _pickerOrder() {
+    const t = this.targetList();
+    const rest = this.listsArray().filter((k) => k !== t);
+    return t ? [t].concat(rest) : rest;
+  }
+  closeListPicker() {
+    if (!this._pickEl) return false;
+    try { this._pickEl.remove(); } catch (e) { /* non-fatal */ }
+    this._pickEl = null;
+    if (this._pickAway) { document.removeEventListener("pointerdown", this._pickAway, true); this._pickAway = null; }
+    if (this._pickHidLand) {
+      this._pickHidLand = false;
+      const lc = this._landEl;
+      if (lc && this._dossierIdx == null) {
+        try { lc.style.removeProperty("opacity"); lc.style.pointerEvents = ""; } catch (e) { /* non-fatal */ }
+      }
+    }
+    const a = this._pickAnchor; this._pickAnchor = null; this._pickNode = null;
+    if (a) { try { a.setAttribute("aria-expanded", "false"); a.focus(); } catch (e) { /* non-fatal */ } }
+    return true;
+  }
+  /**
+   * Anchor the menu to the button that opened it, CLAMPED to the viewport. On a 390px phone the
+   * + is pressed on an option card sitting in a tray at the bottom of the screen, inside an 88vw
+   * drawer, above a thumb band — an un-clamped drop-down would land under all three. So: measured
+   * anchor rect, prefer above, flip below when there is no room above, clamp both axes to an 8px
+   * inset. Fixed positioning + the root portal keep it out of every local stacking context.
+   */
+  _placeListPicker(el, anchor) {
+    const vw = window.innerWidth, vh = window.innerHeight;
+    const r = anchor ? anchor.getBoundingClientRect() : { left: vw / 2, right: vw / 2, top: vh / 2, bottom: vh / 2 };
+    const w = Math.min(272, vw - 16);
+    el.style.width = w + "px";
+    const h = el.offsetHeight || 220;
+    let left = Math.round(r.left + r.width / 2 - w / 2);
+    left = Math.max(8, Math.min(left, vw - w - 8));
+    let top = Math.round(r.top - h - 8);           // prefer ABOVE: the + often sits low on screen
+    if (top < 8) top = Math.round(r.bottom + 8);   // no room -> below
+    // IT MUST NOT COVER THE OPTION HAND. The + it hangs off is often ON an option card, and a
+    // menu over the tray does not merely look wrong: at z:90 it OWNS those taps, so the card the
+    // user reaches for next delivers its click to a "New list" row instead. (Caught by
+    // lists-picker's clock journey, where committing the move became impossible.) The tray's
+    // measured top is the ceiling; only a viewport with no room above it gives way.
+    const tray = this.optionsRef && this.optionsRef.current;
+    if (tray) {
+      const tr = tray.getBoundingClientRect();
+      if (tr.height > 0 && top + h > tr.top - 8) {
+        const above = Math.round(tr.top - h - 8);
+        if (above >= 8) top = above;
+      }
+    }
+    top = Math.max(8, Math.min(top, vh - h - 8));
+    el.style.left = left + "px";
+    el.style.top = top + "px";
+  }
+  openListPicker(nodeId, surface, anchor) {
+    this.closeListPicker();
+    this.closeAccountMenu();
+    const root = this.__ngRoot || document.body;
+    const el = document.createElement("div");
+    el.className = "ng-listpicker";
+    el.setAttribute("data-list-picker", nodeId);
+    el.setAttribute("data-list-surface", surface || "unknown");
+    el.setAttribute("role", "menu");
+    el.setAttribute("aria-label", "Add to list");
+    // Z LADDER (helmet.html): 90-99 is the deliberate-temporary-screen band. The picker is a
+    // screen the user asked for, so it must not be underdrawn by the landing card (5), the
+    // option sheet or the coach (70); it sits with the account menu at 90, under the modal 95.
+    el.style.cssText = "position:fixed;z-index:90;pointer-events:auto;display:flex;flex-direction:column;";
+    root.appendChild(el);
+    this._pickEl = el; this._pickNode = nodeId; this._pickAnchor = anchor || null;
+    this._pickNewOpen = !this.listsArray().length; // no lists -> the create row IS the picker
+    // THE LANDING CARD GETS OUT OF THE WAY. On a phone the picker's band (the strip clear of the
+    // option tray) is exactly where `.ng-landcard` lives, and measured there the card painted over
+    // the menu — a control you can hit but cannot see is worse than a late one (v1.99.0). The card
+    // is the roll's ambient chrome; the picker is a screen the user asked for, so the card yields.
+    //
+    // `!important` is REQUIRED, not defensive: `.ng-landcard` carries `animation:ngCardInX .28s`,
+    // and a running CSS animation outranks a plain inline declaration — a bare `style.opacity="0"`
+    // is simply ignored while it plays, and _landBackfill builds a FRESH card (new animation)
+    // whenever a deck chunk lands. Only OUR hide is undone on close.
+    if (this._landEl && this._dossierIdx == null) {
+      try {
+        this._landEl.style.setProperty("opacity", "0", "important");
+        this._landEl.style.pointerEvents = "none";
+      } catch (e) { /* non-fatal */ }
+      this._pickHidLand = true;
+    }
+    if (anchor) anchor.setAttribute("aria-expanded", "true");
+    this.renderListPicker();
+    this._placeListPicker(el, anchor);
+    this._pickAway = (e) => {
+      if (el.contains(e.target) || (anchor && anchor.contains(e.target))) return;
+      this.closeListPicker();
+    };
+    document.addEventListener("pointerdown", this._pickAway, true);
+    this.track("neural_list_picker_opened", { surface: surface || "unknown", lists: this.listsArray().length });
+    return el;
+  }
+  renderListPicker() {
+    const el = this._pickEl; if (!el) return;
+    const nodeId = this._pickNode;
+    const m = this._listsMap();
+    el.innerHTML = "";
+    const head = document.createElement("div");
+    head.setAttribute("data-picker-head", "1");
+    head.className = "ng-listpicker-head";
+    // the technique being filed, named in FULL — the picker is where a mis-file is prevented,
+    // so it cannot be vague about which of the 35 Kimuras is going where
+    head.innerHTML = '<b>Add to list</b><small>' + this.escHTML(this.listItemName(nodeId)) + '</small>';
+    el.appendChild(head);
+    const body = document.createElement("div");
+    body.className = "ng-listpicker-body";
+    el.appendChild(body);
+    for (const id of this._pickerOrder()) {
+      const l = m[id]; if (!l) continue;
+      const on = l.items.indexOf(nodeId) >= 0;
+      const isTarget = id === this.targetList();
+      const b = document.createElement("button");
+      b.type = "button";
+      b.setAttribute("role", "menuitemcheckbox");
+      b.setAttribute("data-list-pick", id);
+      b.setAttribute("aria-checked", on ? "true" : "false");
+      if (isTarget) b.setAttribute("data-picker-default", "1");
+      b.className = "ng-listpicker-row";
+      b.setAttribute("aria-label", (on ? "Remove from " : "Add to ") + l.name);
+      b.innerHTML =
+        '<span class="ng-listpicker-box" data-picker-check="' + (on ? "1" : "0") + '" aria-hidden="true">' + (on ? "✓" : "") + '</span>' +
+        '<span class="ng-listpicker-name">' + this.escHTML(l.name) + '</span>' +
+        '<span class="ng-listpicker-n">' + l.items.length + '</span>';
+      b.addEventListener("click", (e) => {
+        e.stopPropagation(); e.preventDefault();
+        this.pickList(id, nodeId);
+      });
+      body.appendChild(b);
+    }
+    // ── inline create, the YouTube "New playlist" row: name it and file it in one action ──
+    if (this._pickNewOpen) {
+      const wrap = document.createElement("div");
+      wrap.className = "ng-listpicker-new";
+      const inp = document.createElement("input");
+      inp.setAttribute("data-list-pick-newname", "1");
+      inp.setAttribute("aria-label", "New list name");
+      inp.maxLength = 60;
+      inp.value = ngListDefaultName(new Date()); // offered, never demanded — Enter keeps it
+      inp.className = "ng-listpicker-input";
+      let done = false;
+      const commit = () => {
+        if (done) return; done = true;
+        this.createListWith(inp.value, nodeId);
+      };
+      inp.addEventListener("keydown", (e) => {
+        e.stopPropagation(); // the editor owns the keyboard: A/B/C/D, digits, and Esc
+        if (e.key === "Enter") { e.preventDefault(); commit(); }
+        else if (e.key === "Escape") { e.preventDefault(); done = true; this.closeListPicker(); }
+      });
+      inp.addEventListener("pointerdown", (e) => e.stopPropagation());
+      wrap.appendChild(inp);
+      const go = document.createElement("button");
+      go.type = "button";
+      go.setAttribute("data-list-pick-create", "1");
+      go.className = "ng-listpicker-go";
+      go.textContent = "Create";
+      go.addEventListener("click", (e) => { e.stopPropagation(); e.preventDefault(); commit(); });
+      wrap.appendChild(go);
+      el.appendChild(wrap);
+      setTimeout(() => { try { inp.focus(); inp.select(); } catch (e) { /* non-fatal */ } }, 0);
+    } else {
+      const nb = document.createElement("button");
+      nb.type = "button";
+      nb.setAttribute("role", "menuitem");
+      nb.setAttribute("data-list-pick-new", "1");
+      nb.className = "ng-listpicker-row ng-listpicker-newrow";
+      nb.innerHTML = '<span class="ng-listpicker-box" aria-hidden="true">+</span><span class="ng-listpicker-name">New list</span>';
+      nb.addEventListener("click", (e) => {
+        e.stopPropagation(); e.preventDefault();
+        this._pickNewOpen = true;
+        this.renderListPicker();
+        this._placeListPicker(el, this._pickAnchor); // the menu just grew — re-clamp it
+      });
+      el.appendChild(nb);
+    }
+  }
+  /** A row in the picker: toggle THIS node's membership of THAT list, then get out of the way. */
+  pickList(listId, nodeId) {
+    const l = this._listsMap()[listId]; if (!l) return false;
+    const on = l.items.indexOf(nodeId) >= 0;
+    const anchor = this._pickAnchor;
+    const surface = this._pickEl ? this._pickEl.getAttribute("data-list-surface") : "picker";
+    this.closeListPicker(); // decisive: the option hand must not sit under an open menu
+    if (on) { this.removeListItem(nodeId, listId); return true; }
+    const r = this.addToList(nodeId, listId);
+    if (r.added) {
+      this.setEvent("Added to “" + l.name + "” · " + r.count + " technique" + (r.count === 1 ? "" : "s"), this.listItemName(nodeId), "good");
+      this.track("neural_list_item_added", { surface: surface || "picker", count: r.count, via: "picker" });
+    } else if (r.reason === "full") {
+      this.setEvent("List is full", "A share link holds " + NG_LIST_ITEM_CAP + " techniques", "bad");
+    }
+    this._refreshListSurfaces();
+    if (anchor) { try { anchor.focus(); } catch (e) { /* non-fatal */ } }
+    return true;
+  }
+  /** The inline-create commit: one action makes the list AND files the technique into it. */
+  createListWith(name, nodeId) {
+    const anchor = this._pickAnchor;
+    this.closeListPicker();
+    const id = this.newList(String(name == null ? "" : name).replace(/\s+/g, " ").trim() || undefined);
+    this.track("neural_list_created", { surface: "picker" });
+    const r = this.addToList(nodeId, id);
+    const l = this._listsMap()[id];
+    if (r.added) {
+      this.setEvent("Added to “" + l.name + "” · " + r.count + " technique" + (r.count === 1 ? "" : "s"), this.listItemName(nodeId), "good");
+      this.track("neural_list_item_added", { surface: "picker", count: r.count, via: "picker_new" });
+    }
+    this._refreshListSurfaces();
+    if (anchor) { try { anchor.focus(); } catch (e) { /* non-fatal */ } }
+    return id;
+  }
+  /**
+   * What a press of + does. The matrix is documented on the picker above; this is the seam
+   * every surface's + and both dossier renderers route through, so no surface can drift.
+   */
+  captureNode(nodeId, surface, anchor) {
+    const n = this.listsArray().length;
+    if (!this.nodeInAnyList(nodeId) && n <= 1) {
+      // unambiguous: one destination (or none yet, which newList() supplies). One tap.
+      const r = this.addToList(nodeId);
+      const l = r.listId ? this._listsMap()[r.listId] : null;
+      if (r.added) {
+        this.setEvent("Added to “" + (l ? l.name : "today’s list") + "” · " + r.count + " technique" + (r.count === 1 ? "" : "s"), this.listItemName(nodeId), "good");
+        this.track("neural_list_item_added", { surface: surface || "unknown", count: r.count, via: "direct" });
+      } else if (r.reason === "full") {
+        this.setEvent("List is full", "A share link holds " + NG_LIST_ITEM_CAP + " techniques", "bad");
+      }
+      this._refreshListSurfaces();
+      return "added";
+    }
+    this.openListPicker(nodeId, surface, anchor);
+    return "picker";
   }
 
   /**
@@ -4602,6 +4924,22 @@ class Component extends DCLogic {
     });
     head.appendChild(plus);
     sec.appendChild(head);
+
+    // "AND BE VISIBLE UP TOP" (owner, v1.99.5). With one list the + files in one tap and never
+    // opens the picker, so the destination has to be legible SOMEWHERE that is not a tooltip.
+    // This is that place: a permanent line under the head naming where captures land. It is a
+    // STATUS, not a control — the way to change the destination is to choose one in the picker
+    // (or to make a new list, which becomes the target), and a second control that silently
+    // re-targeted captures would recreate the very ambiguity this line exists to remove.
+    const tgt = this.targetList();
+    if (tgt) {
+      const tl = document.createElement("div");
+      tl.setAttribute("data-lists-target", tgt);
+      tl.style.cssText = "font-size:10.5px;line-height:1.4;color:#7e8aa3;padding:0 12px 6px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;";
+      tl.innerHTML = 'Adding to <b style="color:#aeb9d4;font-weight:700;">' + this.escHTML(this._listsMap()[tgt].name) + '</b>';
+      tl.title = "New captures go here unless you pick another list";
+      sec.appendChild(tl);
+    }
 
     if (!ids.length) {
       const empty = document.createElement("div");
@@ -5332,12 +5670,16 @@ class Component extends DCLogic {
   }
   openDossier(idx, skipCam) {
     const n = this.nodes && this.nodes[idx]; if (!n) return;
+    if (this._pickEl) this.closeListPicker(); // the chooser's anchor is about to be re-rendered away
     this.track("neural_dossier_opened", { node: n.t, node_type: n.ty, mode: this.isMobile() ? "sheet" : "node" });
     this.releaseCamera(); // reading a node is a camera decision of its own
     this._dossierIdx = idx;
     if (this.isMobile()) {
       // top sheet: 70% tall, graph strip + options + win bar + drill row stay visible below
       if (this.deckShown) this.setDeckOpen(false); // the pane covers the screen on mobile — the sheet replaces it
+      // the sheet owns the screen while it is up, and it now carries the state's QUESTION — the
+      // landing card sits at bottom:206px and overlapped it squarely (measured at 390x844)
+      this._suppressLand(true);
       const sh = this.dossierSheetRef.current;
       if (sh) {
         clearTimeout(this._shT);
@@ -5371,11 +5713,22 @@ class Component extends DCLogic {
   }
   // leave the in-node dossier: restore the pre-open camera, resume the roll if we auto-paused it.
   closeNodeDossier() {
-    if (this._dossierIdx == null || this.isMobile()) return false;
+    if (this.isMobile()) return false;
+    // THE CARD IS THE ZOOM, so closing it is a camera move — and it must work however the card
+    // got here. An explicit open (`_dossierIdx`) restores the view it interrupted; a card the
+    // reader simply zoomed into has no such memory, so back out just past the threshold that
+    // mounts it and leave them looking at the same place. Without this second case the ✕, Esc
+    // and a click on empty space all did nothing to a card that was up purely because of zoom —
+    // the state a reader reaches by pinching in, which is the entry the owner asked about.
+    const pinned = this._dossierIdx != null;
+    if (!pinned && !this._nodeCardOn) return false;
     this._dossierIdx = null;
+    this._clearNodeQ();
     const cb = this._camBefore; this._camBefore = null;
     this.releaseCamera();
-    this.camTarget = cb || { cx: this.gcx, cy: this.gcy, vw: this.graphW * 0.42 };
+    this.camTarget = cb || (pinned || !this.cam
+      ? { cx: this.gcx, cy: this.gcy, vw: this.graphW * 0.42 }
+      : { cx: this.cam.cx, cy: this.cam.cy, vw: this.graphW * 0.06 });
     if (this._dossierAutoPaused) { this.setPaused(false); this._dossierAutoPaused = false; }
     this.lastInteract = this.now;
     return true;
@@ -5383,6 +5736,11 @@ class Component extends DCLogic {
   closeDossierSheet() {
     const sh = this.dossierSheetRef.current;
     this._dossierIdx = null;
+    this._clearNodeQ();
+    // ...and the landing card comes back with it — unless the in-node card is what owns the
+    // screen (`_traySup`), which happens on the desktop empty-canvas path where this runs
+    // alongside closeNodeDossier and would otherwise pop the card back over a still-visible node.
+    if (!this._traySup) this._suppressLand(false);
     if (sh && sh.style.display === "block") {
       sh.style.transform = "translateY(-102%)";
       clearTimeout(this._shT);
@@ -5395,7 +5753,7 @@ class Component extends DCLogic {
     const el = this.nodeCardRef && this.nodeCardRef.current; if (!el) return;
     const W = this.W, H = this.H;
     const s = scale / (W / (this.graphW * 0.0085));
-    const off = () => { if (el.style.display !== "none") el.style.display = "none"; this._nodeCardIdx = null; this._nodeCardOn = false; this._nodeCardO = 0; this._suppressTray(false); };
+    const off = () => { if (el.style.display !== "none") el.style.display = "none"; this._nodeCardIdx = null; this._nodeCardOn = false; this._nodeCardO = 0; this._suppressTray(false); this._clearNodeQ(); };
     if (s < 0.32 || !this.nodes || !this.nodes.length || !this.cam) { off(); return; }
     let best = -1, bd = 1e9;
     if (this._dossierIdx != null && this.nodes[this._dossierIdx]) {
@@ -5406,20 +5764,43 @@ class Component extends DCLogic {
     if (best < 0) { off(); return; }
     const n = this.nodes[best];
     const sx = (n.x - this.cam.cx) * scale + W / 2, sy = (n.y - this.cam.cy) * scale + H / 2;
+    el.style.display = "block";   // BEFORE the render: the header's offsetHeight is 0 while hidden
     if (this._nodeCardIdx !== best) {
+      // Forget the question only when the NODE changes. `_nodeCardIdx = null` is also how
+      // onContentReady forces a re-render of the card already up (a dossier chunk landing), and
+      // treating that as "a new node" wiped the answered question and mounted a fresh block over
+      // it — a second free attempt at credit already given, triggered by nothing but a payload.
+      if (this._nodeQ && this._nodeQ.idx !== best) this._clearNodeQ();
       this._nodeCardIdx = best;
       this.renderDossier(n, el);
     }
     this._nodeCardOn = true;
-    el.style.display = "block";
     const cardO = Math.min(1, (s - 0.32) / 0.2);
     this._nodeCardO = cardO; // draw() crossfades the canvas glyph out as the card fades in
     el.style.opacity = cardO.toFixed(3);
     this._suppressTray(cardO > 0.5);
-    // slight upscale past s=1 instead of letting the canvas glyph outgrow a hard-capped card
-    el.style.transform = "translate(" + sx.toFixed(1) + "px," + sy.toFixed(1) + "px) translate(-50%,-50%) scale(" + Math.min(1.12, s).toFixed(4) + ")";
+    // FIT CAP. The card is centred on the node and the header plate reaches ABOVE it, so the
+    // object's reach from the node is boxH/2 + headH — bigger than half the box. Cap the scale so
+    // the whole thing (plate included) stays inside the viewport at any zoom the user can reach;
+    // without it a triangle at the wheel's inner limit pushes its own title off the top edge.
+    // Still capped at 1.12 for the old reason: a slight upscale past s=1 beats letting the canvas
+    // glyph outgrow a hard-capped card.
+    const need = (this._nodeBoxH || 560) + 2 * (this._nodeHeadH || 0) + 24;
+    const fit = H > 0 ? H / need : 1;
+    el.style.transform = "translate(" + sx.toFixed(1) + "px," + sy.toFixed(1) + "px) translate(-50%,-50%) scale(" + Math.min(1.12, s, fit).toFixed(4) + ")";
+    // ONE pointer gate for the whole card, AND IT IS THE OPACITY, not a second threshold.
+    // A control you can hit but cannot see is worse than a late one — but the inverse is also a
+    // bug this repo has paid for (v1.69.1): the gate used to be `s > 0.75` while the card reaches
+    // FULL opacity at s = 0.52, so for that whole stretch the card was solid on screen and dead to
+    // the mouse. Measured: a ✕ at (815,127) with elementFromPoint returning the canvas. Fully
+    // drawn ⇒ fully clickable is the only contract a reader can predict. It is also why neither
+    // the ✕ nor the MC options set pointer-events:auto of their own — an inline `auto` on a child
+    // beats a `none` on its parent and would arm them while the card is still fading in.
+    const live = cardO >= 1 ? "auto" : "none";
     const hit = el.querySelector(".ndHit");
-    if (hit) hit.style.pointerEvents = s > 0.75 ? "auto" : "none";
+    if (hit) hit.style.pointerEvents = live;
+    const hd = el.querySelector("[data-node-head]");
+    if (hd) hd.style.pointerEvents = live;
   }
   // keep the in-node dossier readable: fade the options tray under it while the card is up
   _suppressTray(hide) {
@@ -5431,6 +5812,29 @@ class Component extends DCLogic {
       if (hide) { op.style.opacity = "0.1"; op.style.pointerEvents = "none"; }
       else { op.style.opacity = ""; op.style.pointerEvents = ""; }
     }
+    this._suppressLand(hide);
+  }
+  /**
+   * ...AND THE LANDING CARD, which is the surface that actually covered the node.
+   *
+   * `.ng-landcard` is root-plane z:5 and the in-node card is z:5 in the wrap, so the landing card
+   * paints ON TOP — measured at 1440x900 it sat squarely over the middle of every node card,
+   * which is exactly where the question now lives. The tray was already faded for this reason;
+   * the landing card belongs to the roll the dossier has just paused, so it goes with it.
+   * Same treatment (inline opacity + pointer-events) the option-detail sheet uses, and
+   * _landBackfill already knows to preserve an inline hide across a re-render.
+   */
+  _suppressLand(hide) {
+    const el = this._landEl; if (!el) return;
+    // `!important` is REQUIRED, not defensive. `.ng-landcard` carries `animation:ngCardInX .28s`,
+    // and a running CSS animation outranks a plain inline declaration — so a plain
+    // `style.opacity = "0"` is simply ignored while it plays. That window is not theoretical here:
+    // a deck chunk landing fires onFlashcardsReady -> _landBackfill, which builds a NEW card
+    // element (fresh animation) at exactly the moment a reader is opening a dossier. Measured:
+    // inline opacity "0", computed 0.99, card fully painted over the node. `!important` outranks
+    // an animation; `style.opacity` still reads "0", which is what _landBackfill detects.
+    if (hide) { el.style.setProperty("opacity", "0", "important"); el.style.pointerEvents = "none"; }
+    else { el.style.removeProperty("opacity"); el.style.pointerEvents = ""; }
   }
   // role badge colored by the advantage the seat gives you (app's dominance model): blue = ahead, red = behind
   badgePill(b, fs, pad) {
@@ -5507,10 +5911,14 @@ class Component extends DCLogic {
         }
       }
       const shape = n.ty === "positions" ? "circle" : n.ty === "submissions" ? "tri" : "diamond";
-      const size = shape === "circle" ? 560 : shape === "tri" ? 680 : 600;
       // em-based reflow: ONE root font-size drives every dimension inside the card, so the
       // content scales as a unit instead of fixed-px text cramping inside a scaled shape.
-      const rootFs = (size / 46).toFixed(2);
+      // The BOX grows for the question while `base` (and therefore the root em) does NOT — that
+      // is the whole point: growing both would buy no room at all, only a bigger picture of the
+      // same crowding. A question is 4 option rows in a shape that narrows toward its ends.
+      const base = shape === "circle" ? 560 : shape === "tri" ? 680 : 600;
+      const size = shape === "circle" ? 700 : shape === "tri" ? 780 : 760;
+      const rootFs = (base / 46).toFixed(2);
       // two-layer ring echoing the canvas node stroke (thin bright inner + faint outer, gap of
       // background between) + top-lit fill in the canvas hue family + colored bloom instead of
       // a flat drop-shadow \u2014 the DOM card reads as the same object the canvas draws.
@@ -5518,15 +5926,33 @@ class Component extends DCLogic {
       const fill = 'radial-gradient(140% 100% at 50% 0%,' + this.rgba(n.col, 0.16) + ',rgba(16,18,35,0) 52%),linear-gradient(180deg,#171a30,#101223)';
       const bloom = '0 0 90px ' + this.rgba(n.col, 0.10) + ',0 24px 70px rgba(0,0,0,.45)';
       const nClips = clips.slice(0, shape === "circle" ? 3 : 2);
-      const nPrin = principles.slice(0, shape === "circle" ? 3 : 2);
+      const nPrin = principles.slice(0, shape === "circle" ? 2 : 1);
       const kick = isCur
         ? '<span style="width:.58em;height:.58em;border-radius:50%;background:#5a9bf0;box-shadow:0 0 .66em rgba(90,155,240,.7);"></span><span style="font-size:.82em;letter-spacing:.16em;text-transform:uppercase;font-weight:800;color:#7fb4ff;">Your current position</span>'
         : '<span style="font-size:.82em;letter-spacing:.16em;text-transform:uppercase;font-weight:800;color:' + col + ';">' + cat + '</span>';
-      let c = '<div style="display:flex;align-items:center;justify-content:center;gap:.66em;">' + kick + this.badgePill(badge, 10, "3px 12px") + '</div>';
-      // diamond/tri narrow sharply toward the title's height — keep the headline inside the shape
-      c += '<div data-dossier-title style="font-family:\'Space Grotesk\',sans-serif;font-size:' + (shape === "circle" ? "2.05em" : "1.7em") + ';font-weight:600;letter-spacing:-.01em;line-height:1.12;color:#eef1f6;max-width:' + (shape === "circle" ? "15em" : "11em") + ';">' + title + '</div>';
-      if (sp.from && (!role || sp.from.toLowerCase() !== role.toLowerCase())) c += '<div style="font-size:.94em;color:#8b97b0;margin-top:-.3em;">' + sp.from + '</div>';
-      if (ovN) c += '<p style="margin:0;max-width:' + (shape === "circle" ? "27em" : "22em") + ';font-size:1em;line-height:1.5;color:#9aa6bd;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;">' + ovN + '</p>';
+      // ── THE HEADER IS NOT INSIDE THE SHAPE ─────────────────────────────────────────────────
+      // The title used to live in the content stack, where the diamond's top corner and the
+      // triangle's apex narrow to nothing exactly at headline height — so the ONE line that says
+      // what you are looking at was the line most at risk of being clipped, and it was capped at
+      // 11em on those two shapes to survive. It is now a plate on the UNCLIPPED shell root,
+      // floating above the node like a map label: name, side, and the familiarity counter, with
+      // no clip-path anywhere near it. Read order is then exactly what the owner asked for —
+      // title + role above the node, film, then the question inside the node's own format.
+      let head = '<div data-node-head style="position:absolute;left:50%;bottom:100%;transform:translateX(-50%);margin-bottom:.7em;display:flex;flex-direction:column;align-items:center;gap:.34em;text-align:center;padding:.7em 3.4em .8em 1.4em;border-radius:1.1em;background:linear-gradient(180deg,rgba(23,26,48,.96),rgba(16,18,35,.96));border:1px solid ' + ringOut + ';box-shadow:0 14px 40px rgba(0,0,0,.5);font-size:' + rootFs + 'px;pointer-events:none;">';
+      head += '<div style="display:flex;align-items:center;justify-content:center;gap:.66em;">' + kick + '</div>';
+      head += '<div data-dossier-title style="font-family:\'Space Grotesk\',sans-serif;font-size:1.85em;font-weight:600;letter-spacing:-.01em;line-height:1.12;color:#eef1f6;max-width:16em;">' + title + '</div>';
+      head += '<div style="display:flex;align-items:center;justify-content:center;gap:.6em;flex-wrap:wrap;max-width:20em;">' +
+        this.badgePill(badge, 10, "3px 12px") +
+        (sp.from && (!role || sp.from.toLowerCase() !== role.toLowerCase()) ? '<span style="font-size:.9em;color:#8b97b0;">' + sp.from + '</span>' : '') +
+        this.familiarityChip(this.deckKeyFor(n).key, "data-node-count", { fs: ".82em", gs: ".9em" }).html +
+      '</div>';
+      // ✕ — fly back out. It lives on the plate (never inside a clip-path, which would eat a
+      // corner control) and is deliberately 44px: the one control whose whole job is "let me
+      // out". pointer-events is NOT set here — updateNodeCard arms the plate as a whole at the
+      // same zoom it arms .ndHit, so the card can never be clickable while it is still fading in.
+      head += '<button data-node-close type="button" aria-label="Close" title="Close (Esc)" style="position:absolute;top:.5em;right:.5em;cursor:pointer;font-family:inherit;width:44px;height:44px;border-radius:12px;border:1px solid rgba(150,170,210,.22);background:rgba(255,255,255,.04);color:#9aa6bd;font-size:18px;line-height:1;display:flex;align-items:center;justify-content:center;">✕</button>';
+      head += '</div>';
+      let c = "";
       if (nClips.length) {
         c += '<div style="display:flex;gap:.5em;justify-content:center;">' + nClips.map((cl) =>
           '<a href="https://www.youtube.com/watch?v=' + cl.id + (cl.start ? '&t=' + cl.start + 's' : '') + '" target="_blank" rel="noopener" title="' + (cl.title || "") + '" style="position:relative;width:' + (shape === "circle" ? "8.5em" : "9.2em") + ';aspect-ratio:16/10;border-radius:.66em;overflow:hidden;border:1px solid rgba(150,170,210,.18);background:linear-gradient(135deg,#2b2336,#1b1b30);display:block;">' +
@@ -5534,7 +5960,15 @@ class Component extends DCLogic {
             '<span style="position:absolute;top:50%;left:50%;transform:translate(-45%,-50%);width:0;height:0;border-left:.74em solid rgba(255,255,255,.9);border-top:.45em solid transparent;border-bottom:.45em solid transparent;filter:drop-shadow(0 1px 3px rgba(0,0,0,.6));"></span>' +
           '</a>').join("") + '</div>';
       }
-      if (nPrin.length) c += '<div style="width:' + (shape === "circle" ? "26em" : shape === "tri" ? "24em" : "23em") + ';text-align:left;">' + secHead("Essential principles") + nPrin.map((p) => bullet(p, "#96a3bf")).join("") + '</div>';
+      // ── THE QUESTION, IN THE NODE'S OWN FORMAT ──
+      // It sits at the MIDDLE of the content stack on purpose: the stack is vertically centred,
+      // so the middle is the shape's widest band on all three geometries — the diamond's waist,
+      // the triangle's belly, the circle's diameter. Film reads above it, actions below.
+      // The one-line definition follows the question rather than preceding it: it is supporting
+      // prose, and prose above a flashcard is prose that can answer it for you.
+      c += '<div data-node-q style="width:' + (shape === "circle" ? "25em" : shape === "tri" ? "21em" : "20em") + ';text-align:left;"></div>';
+      if (ovN) c += '<p style="margin:0;max-width:' + (shape === "circle" ? "26em" : "20em") + ';font-size:.95em;line-height:1.5;color:#9aa6bd;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;">' + ovN + '</p>';
+      if (nPrin.length) c += '<div style="width:' + (shape === "circle" ? "25em" : shape === "tri" ? "21em" : "20em") + ';text-align:left;">' + secHead("Essential principles") + nPrin.map((p) => bullet(p, "#96a3bf")).join("") + '</div>';
       // techniques: where it leads \u2014 top outcomes with calibrated %s (positions get attack pills below)
       if (shape !== "circle" && rc && Array.isArray(rc.outcomes) && rc.outcomes.length) {
         const toneCol = { good: "#7ee0a8", bad: "#e8956b", mid: "#cbd24e" };
@@ -5564,7 +5998,6 @@ class Component extends DCLogic {
           '<span style="flex:none;width:2em;height:2em;border-radius:.66em;background:rgba(74,108,255,.22);color:#9ab0e0;display:flex;align-items:center;justify-content:center;"><svg width="11" height="11" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"></path></svg></span>' +
           '<span style="font-size:1.03em;font-weight:700;color:#eef1f6;">Roll from here</span><span style="font-size:1em;color:#9ab0e0;">\u2192</span></div>' +
       '</div>';
-      // \u2715 \u2014 fly back out. Lives on the UNCLIPPED shell root (the shape's overflow/clip-path would
       let shell;
       const colCss = 'position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:.9em;text-align:center;font-size:' + rootFs + 'px;';
       // ring layers: outer faint 1px + gap + inner bright 3px (inset), matching canvas stroke style
@@ -5587,15 +6020,24 @@ class Component extends DCLogic {
           '<div class="ndHit" style="position:absolute;inset:14px;clip-path:' + clip + ';background:' + fill + ';pointer-events:none;font-size:' + rootFs + 'px;"><div style="position:absolute;left:0;right:0;top:14%;bottom:14%;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:.9em;text-align:center;font-size:1em;">' + c + '</div></div>';
       } else {
         const clip = 'polygon(50% 2%,98% 92%,2% 92%)';
-        // triangle: content centered in the incircle; glow follows the triangle silhouette
+        // triangle: the content band sits LOW (26%..8%), where the silhouette is wide — with the
+        // title lifted onto the plate there is nothing left that has to survive the apex.
         shell = '<div style="position:absolute;inset:0;filter:drop-shadow(0 0 44px ' + this.rgba(n.col, 0.16) + ') drop-shadow(0 22px 46px rgba(0,0,0,.42));"><div style="position:absolute;inset:0;clip-path:' + clip + ';background:' + fill + ';"></div></div>' + ringLayers(false, clip) +
-          '<div class="ndHit" style="position:absolute;inset:14px;clip-path:' + clip + ';background:' + fill + ';pointer-events:none;font-size:' + rootFs + 'px;"><div style="position:absolute;left:0;right:0;top:22%;bottom:10%;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:.8em;text-align:center;font-size:1em;">' + c + '</div></div>';
+          '<div class="ndHit" style="position:absolute;inset:14px;clip-path:' + clip + ';background:' + fill + ';pointer-events:none;font-size:' + rootFs + 'px;"><div style="position:absolute;left:0;right:0;top:26%;bottom:8%;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:.8em;text-align:center;font-size:1em;">' + c + '</div></div>';
       }
       dos.style.width = size + "px"; dos.style.height = size + "px";
-      dos.innerHTML = shell;
+      dos.innerHTML = shell + head;
       dos.querySelectorAll(".dsAtk").forEach((a2) => a2.addEventListener("click", () => this.openDossier(parseInt(a2.getAttribute("data-i"), 10))));
       this._wireDossierListButton(dos, n, "dossier");
       const roll2 = dos.querySelector(".dsRoll"); if (roll2) roll2.addEventListener("click", () => { this.closeNodeDossier(); this.jumpToState(n.idx); });
+      const xb2 = dos.querySelector("[data-node-close]"); if (xb2) xb2.addEventListener("click", (e) => { e.stopPropagation(); this.closeNodeDossier(); });
+      this._renderNodeQuestion(n, dos.querySelector("[data-node-q]"));
+      // updateNodeCard caps the card's scale so the plate (which reaches ABOVE the shape) can
+      // never leave the viewport — it needs both measurements, and offsetHeight is layout, so it
+      // is immune to the transform the card is about to be given.
+      this._nodeBoxH = size;
+      const hEl = dos.querySelector("[data-node-head]");
+      this._nodeHeadH = hEl ? hEl.offsetHeight : 0;
       return;
     }
 
@@ -5611,6 +6053,9 @@ class Component extends DCLogic {
     h += '<div style="display:flex;align-items:center;gap:9px;flex-wrap:wrap;margin-top:7px;">' +
       '<span data-dossier-title style="font-family:\'Space Grotesk\',sans-serif;font-size:22px;font-weight:600;letter-spacing:-.01em;line-height:1.1;color:#eef1f6;">' + title + '</span>' +
       this.badgePill(badge, 9.5, "2.5px 10px") +
+      // the phone reads a node here, so the familiarity counter belongs here too — same chip,
+      // same handle as the in-node card's plate (the two are never on screen together)
+      (mob ? this.familiarityChip(this.deckKeyFor(n).key, "data-node-count", { style: "margin-left:auto;" }).html : "") +
       '</div>';
     if (sp.from && (!role || sp.from.toLowerCase() !== role.toLowerCase())) h += '<div style="font-size:12px;color:#8b97b0;margin-top:3px;">' + sp.from + '</div>';
     const pills = [["Overview", "ov"]];
@@ -5638,6 +6083,12 @@ class Component extends DCLogic {
           '<span style="position:absolute;top:50%;left:50%;transform:translate(-45%,-50%);width:0;height:0;border-left:8px solid rgba(255,255,255,.9);border-top:5px solid transparent;border-bottom:5px solid transparent;filter:drop-shadow(0 1px 3px rgba(0,0,0,.6));"></span>' +
         '</a>').join("") + '</div>';
     }
+    // ── THE PHONE GETS THE QUESTION ON THE SHEET, NOT IN THE NODE ──
+    // openDossier forks on isMobile(): a phone reads a node in the 70%-tall sheet, and the in-node
+    // card is a desktop object — 700-780 CSS px of shape, which the fit cap would squeeze to ~0.45
+    // on a 390x844 screen, turning 12px option rows into 5px ones. So the sheet carries it: same
+    // builder, same surface tag, same economy, in a scrollable column at full text size.
+    if (mob) h += '<div data-node-q style="margin-top:14px;padding-top:12px;border-top:1px solid rgba(150,170,210,.14);"></div>';
     if (principles.length) h += '<div data-ds="pr" style="margin-top:15px;">' + secHead("Essential principles") + principles.map((p) => bullet(p, "#96a3bf")).join("") + '</div>';
     if (defence.length) h += '<div data-ds="df" style="margin-top:13px;">' + secHead("Defence", "#7fb4ff") + defence.map((p) => bullet(p, "#5a9bf0")).join("") + '</div>';
     if (attacks.length) {
@@ -5665,6 +6116,9 @@ class Component extends DCLogic {
       '<div style="display:flex;flex-direction:column;gap:1px;"><span class="dsListTxt" style="font-size:12.5px;font-weight:700;color:#eef1f6;">Add to today\u2019s class list</span><span style="font-size:10.5px;color:#9aa6bd;">share the class as one link</span></div></div>';
     h += '</div>';
     dos.innerHTML = h;
+    // clear only on a CHANGE of node: re-rendering the sheet for the node already open must not
+    // reset a question the reader has already answered (that is the freeze rule)
+    if (mob) { if (!this._nodeQ || this._nodeQ.idx !== n.idx) this._clearNodeQ(); this._renderNodeQuestion(n, dos.querySelector("[data-node-q]")); }
     this._wireDossierListButton(dos, n, "dossier");
     const back = dos.querySelector(".dsBack"); if (back) back.addEventListener("click", () => { if (mob) { this.closeDossierSheet(); this.openExplorer(); this.showExplorerList(); } else this.showExplorerList(); });
     const xb = dos.querySelector(".dsClose"); if (xb) xb.addEventListener("click", () => this.closeDossierSheet());
@@ -5980,13 +6434,18 @@ class Component extends DCLogic {
   // `surface` names the block ("land" | "deck" | "checkpoint") so two live blocks can't read
   // each other's truth: the landing question and an open sidebar card coexist.
   _mcBlock(card, key, onDone, surface) {
-    const mc = this.mcDistractors(card, key, 3, surface === "land" ? "land" : null);
+    // RNG SCOPE. `tag` is what keeps one surface out of another's rigged queue: the landing card
+    // draws on land-mc-*, the node card on node-mc-*, and the sidebar/checkpoint keep the bare
+    // mc-* stream journeys rig by name. A new surface that forgot its tag would eat those values
+    // and every frame-exact replay would drift.
+    const mc = this.mcDistractors(card, key, 3, surface === "land" || surface === "node" ? surface : null);
     // a surface that cannot build options must not disarm another surface's live block
     if (!mc) { if (!this._mc || this._mc.surface === (surface || "deck")) this._mc = null; return null; }
     const qh = this.qhash(card.q);
     const truth = { key: key, qhash: qh, correct: mc.correctIdx, tiers: mc.options.map((o) => o.tier), n: mc.options.length, surface: surface || "deck" };
     this._mc = truth;                                         // the keyboard drives the newest block
     const wrap = document.createElement("div");
+    wrap.__ngMc = truth;   // so a surface that took the keyboard can hand it back (see _clearNodeQ)
     wrap.setAttribute("role", "radiogroup");
     wrap.setAttribute("aria-label", "Answer options");
     wrap.style.cssText = "position:relative;display:flex;flex-direction:column;gap:7px;";
@@ -5998,7 +6457,7 @@ class Component extends DCLogic {
     // Each surface gets its OWN option handle. The landing card and an open sidebar card are on
     // screen at the same time, so a bare [data-mc-opt] selector would silently match both — the
     // split keeps every "the sidebar shows N options" assertion meaning what it says.
-    const OPT = truth.surface === "land" ? "data-land-mc-opt" : "data-mc-opt";
+    const OPT = truth.surface === "land" ? "data-land-mc-opt" : truth.surface === "node" ? "data-node-mc-opt" : "data-mc-opt";
     let answered = false;
     const answer = (i) => { if (answered) return; answered = true; this._mcAnswer(i, card, key, wrap, live, onDone, truth); };
     truth.answer = answer;                                    // the A/B/C/D keyboard seam
@@ -6019,7 +6478,7 @@ class Component extends DCLogic {
     const mc = truth || this._mc; if (!mc) return;
     const correct = i === mc.correct;
     const tier = mc.tiers[i];
-    const btns = wrap.querySelectorAll("[data-mc-opt],[data-land-mc-opt]");
+    const btns = wrap.querySelectorAll("[data-mc-opt],[data-land-mc-opt],[data-node-mc-opt]");
     btns.forEach((b) => { b.style.cursor = "default"; b.setAttribute("aria-disabled", "true"); });
     const cbtn = btns[mc.correct];
     if (cbtn) {
@@ -6071,8 +6530,17 @@ class Component extends DCLogic {
   // ONLY path that mints rec — MC can never reach it (mastered means recall-proven).
   recallGrade(got) {
     if (!this.deck || !this._deckInfo) return;
-    const key = this._deckInfo.key;
-    const card = this.deck[this.deckIdx];
+    this.gradeRecall(this._deckInfo.key, this.deck[this.deckIdx], got);
+    this.deckIdx++; this.revealed = false; this.renderDrill();
+  }
+  /**
+   * THE recall grade — extracted from recallGrade so a second surface can mint the same proof
+   * instead of forking it. The sidebar's own recall UI is welded into renderDrill (question in
+   * the card, buttons in the pane's pinned footer) and cannot be lifted out; the ARITHMETIC can,
+   * and must be, or "recall-proven" would mean two different things depending on where you were
+   * standing when you proved it. Card may be absent (an empty deck's footer still grades).
+   */
+  gradeRecall(key, card, got) {
     if (got) {
       this.prep[key] = (this.prep[key] || 0) + 1;
       if (card) {
@@ -6089,7 +6557,60 @@ class Component extends DCLogic {
     } else if (card) {
       this._bumpStage(key, card.q, -1);                       // Review-again drops a stage
     }
-    this.deckIdx++; this.revealed = false; this.renderDrill();
+  }
+  /**
+   * A self-contained recall block: think → Show answer → Got it / Review again.
+   *
+   * `surface` names the block's DOM handles ("node" → [data-node-recall] / [data-node-reveal] /
+   * [data-node-got] / [data-node-again]), the same split _mcBlock uses for its options, so two
+   * live surfaces can never answer to one selector. Grading goes through gradeRecall — this
+   * renders, it does not decide what a grade is worth.
+   */
+  _recallBlock(card, key, onDone, surface) {
+    const p = "data-" + (surface || "deck");
+    const wrap = document.createElement("div");
+    wrap.setAttribute(p + "-recall", "1");
+    wrap.style.cssText = "display:flex;flex-direction:column;gap:.6em;";
+    const live = document.createElement("div");
+    live.setAttribute("aria-live", "polite");
+    live.style.cssText = "position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);";
+    wrap.appendChild(live);
+    const ans = document.createElement("div");
+    ans.setAttribute(p + "-answer", "1");
+    ans.style.cssText = "display:none;font-size:1em;line-height:1.5;color:#c8d2e4;padding:.6em .8em;border-radius:.6em;border:1px solid rgba(126,224,168,.28);background:rgba(126,224,168,.07);";
+    ans.textContent = card.a || "";
+    const row = document.createElement("div");
+    row.style.cssText = "display:flex;gap:.5em;";
+    const btn = (label, attr, primary) => {
+      const b = document.createElement("button");
+      b.type = "button";
+      b.setAttribute(attr, "1");
+      b.style.cssText = "flex:1;cursor:pointer;font-family:inherit;font-size:.95em;font-weight:700;padding:.7em .9em;min-height:2.6em;border-radius:.66em;border:1px solid " + (primary ? "rgba(110,160,255,.4)" : "rgba(150,170,210,.24)") + ";background:" + (primary ? "rgba(74,108,255,.18)" : "rgba(255,255,255,.04)") + ";color:" + (primary ? "#eef1f6" : "#c8d2e4") + ";";
+      b.textContent = label;
+      return b;
+    };
+    const reveal = btn("Show answer", p + "-reveal", true);
+    let graded = false;
+    reveal.addEventListener("click", () => {
+      ans.style.display = "block";
+      live.textContent = "Answer revealed.";
+      row.innerHTML = "";
+      const again = btn("Review again", p + "-again", false);
+      const got = btn("Got it", p + "-got", true);
+      const grade = (ok) => {
+        if (graded) return; graded = true;
+        this.gradeRecall(key, card, ok);
+        row.querySelectorAll("button").forEach((b) => { b.setAttribute("aria-disabled", "true"); b.style.cursor = "default"; });
+        live.textContent = ok ? "Marked as recalled." : "Marked for review.";
+        if (onDone) onDone(!!ok, ok ? "recalled" : "review");
+      };
+      again.addEventListener("click", () => grade(false));
+      got.addEventListener("click", () => grade(true));
+      row.appendChild(again); row.appendChild(got);
+    });
+    row.appendChild(reveal);
+    wrap.appendChild(ans); wrap.appendChild(row);
+    return wrap;
   }
 
   // ═══ P2: checkpoint quiz (replaces the P1 placeholder behind the same handle + beats) ═══
@@ -6612,6 +7133,198 @@ class Component extends DCLogic {
     for (const c of cards) if (this.cardStage(key, c.q) < 2) return c;
     return null;
   }
+  // ═══════════════ THE NODE DOSSIER'S QUESTION (v1.100.0) ═══════════════
+  //
+  // The dossier is a state you WALKED INTO — on desktop by flying the camera into the node
+  // itself, on a phone by the sheet. So it asks. Three rules make it a study surface rather than
+  // a second landing card:
+  //
+  //  · IT KEEPS ASKING TO THE RECALL GATE. questionFor() stops at stage 2 because the landing
+  //    question is the in-play format and MC caps there. Here the ladder is the point: a card met
+  //    by recognition comes back as recall, which is the only route past 0.667 mastery.
+  //  · ITS ECONOMY IS STUDY-ONLY. See _renderNodeQuestion.
+  //  · IT IS NOT GATED BY `landQuestions`. That setting is "Questions while you roll" — it gates
+  //    the question that interrupts a TIMED decision. Opening a dossier stops the clock
+  //    (openDossier -> setPaused + _dossierAutoPaused); there is no decision to interrupt, and
+  //    silencing the surface a reader deliberately opened would delete a feature nobody
+  //    turned off.
+  //
+  // `skip` holds the qhashes already asked in THIS visit, so "Next card" advances instead of
+  // re-serving the card whose stage just moved from 0 to 1 (still under the gate, still first).
+  nodeQuestionFor(key, skip) {
+    const cards = this._cardsOf(((this.flashcards && this.flashcards.decks) || {})[key]);
+    if (!cards || !cards.length) return null;
+    for (const c of cards) {
+      if (skip && skip.has(this.qhash(c.q))) continue;
+      if (this.cardStage(key, c.q) < 3) return c;
+    }
+    return null;
+  }
+  /**
+   * Recognition below the gate, recall at or above it.
+   *
+   * This is mcActive()'s `auto` branch stated explicitly, because the node card is deliberately
+   * NOT governed by `mcMode`: that setting chooses how the SIDEBAR reads a card back (default
+   * classic), and honouring it here would mean a default-settings user never meets a multiple
+   * choice on the one surface built to teach the ladder. The checkpoint quiz is MC always for
+   * the same kind of reason.
+   */
+  askFormat(key, card) { return this.cardStage(key, card.q) < 2 ? "mc" : "recall"; }
+  /** The live [data-node-q] host — the in-node card first, then the mobile sheet. */
+  _nodeQHost() {
+    const card = this.nodeCardRef && this.nodeCardRef.current;
+    if (card && card.style.display !== "none") { const h = card.querySelector("[data-node-q]"); if (h) return h; }
+    const sh = this.dossierSheetRef && this.dossierSheetRef.current;
+    return sh && sh.style.display === "block" ? sh.querySelector("[data-node-q]") : null;
+  }
+  /** A payload this question needs is in flight — dock the question when it lands, once. */
+  _nodeWarm(n, fn) {
+    const idx = n.idx;
+    const p = Promise.resolve()
+      .then(fn)
+      .then(() => {
+        if (!this._nodeQ || this._nodeQ.idx !== idx || this._nodeQ.answered) return;
+        const host = this._nodeQHost();
+        if (host) this._renderNodeQuestion(this.nodes[idx], host);
+      })
+      .catch(() => {});
+    this._nodeWarmP = p;
+    p.then(() => { if (this._nodeWarmP === p) this._nodeWarmP = null; });
+  }
+  /** Is the node card's question settled — mounted, or definitively not coming? */
+  nodeQuestionReady() { return !this._nodeWarmP; }
+  /** Resolves once it is. Chases the chain (deck chunk → distractor pool → render). */
+  async nodeSettled() {
+    for (let i = 0; i < 8; i++) {
+      const p = this._nodeWarmP;
+      if (!p) return;
+      await p.catch(() => {});
+      if (this._nodeWarmP === p) return;
+    }
+  }
+  /** Forget this visit's question — a different node, or the card going away. */
+  _clearNodeQ() {
+    this._nodeQ = null; this._nodeAsked = null; this._nodeWarmP = null;
+    // `this._mc` is what A-D grades against, and the newest block owns it. A dossier visit is
+    // short and the LANDING question outlives it, so hand the keys back to the block still on
+    // screen instead of leaving them pointed at one that no longer exists (nulling outright made
+    // A-D dead for the rest of the exchange).
+    if (this._mc && this._mc.surface === "node") {
+      const opt = this._landEl ? this._landEl.querySelector("[data-land-mc-opt]") : null;
+      const back = opt && opt.parentNode ? opt.parentNode.__ngMc : null;
+      this._mc = back && !(this._landQ && this._landQ.answered) ? back : null;
+    }
+  }
+  /**
+   * Fill the dossier's question section.
+   *
+   * ECONOMY — deliberately NARROWER than the landing card's. Answering here mints the ORDINARY
+   * card credit and nothing else: stage (_bumpStage, MC capped at the recall gate), prep,
+   * sharpness, cross-deck credit and the daily counter, all via the shared _mcAnswer/gradeRecall
+   * paths. It does NOT call refundDecision (there is no clock — the dossier paused it),
+   * _comboUp (momentum is a roll mechanic, and a paused screen would farm it) or touch _qMod
+   * (that penalty prices an exchange that is not being taken). Those three are the landing
+   * question's own onDone (_landAnswered); this surface simply does not wire them.
+   *
+   * A SCORED QUESTION IS FROZEN. Re-mounting one would reshuffle it under the reader and hand out
+   * a second attempt at credit already given — so an answered card is restated read-only if the
+   * card around it is ever rebuilt, and never re-blocked.
+   */
+  _renderNodeQuestion(n, host) {
+    if (!host) return;
+    const key = this.deckKeyFor(n).key;
+    const qHead = (txt) => '<div data-node-qtext="1" style="font-size:1em;font-weight:600;color:#dbe2f0;line-height:1.35;margin-bottom:.6em;">' + txt + '</div>';
+    // A QUESTION ALREADY ON THE TABLE IS RE-PARENTED, NEVER REBUILT — the landing card's `reuse`
+    // rule, and for the same two reasons. Every render draws a fresh shuffle, so rebuilding moves
+    // the correct answer under the reader's cursor mid-read; and rebuilding a SCORED block hands
+    // out a second attempt at credit already given. The same element, the same closure, moved.
+    const prior = this._nodeQ;
+    if (prior && prior.idx === n.idx && prior.card && prior.el) {
+      if (host.contains(prior.el)) return;                    // still on screen — leave it alone
+      host.innerHTML = qHead(prior.card.q);
+      host.appendChild(prior.el);
+      if (prior.el.__ngMc && !prior.answered) this._mc = prior.el.__ngMc;   // A-D still grades it
+      return;
+    }
+    const say = (reason, txt) => {
+      host.innerHTML = '<div data-node-q-empty="' + reason + '" style="font-size:.95em;line-height:1.45;color:#8b97b0;">' + txt + '</div>';
+      this._nodeQ = { idx: n.idx, key: key, card: null, answered: false, format: null, reason: reason, el: null };
+      this.fx("node_q_skipped", { deckKey: key, reason: reason, node: n.t });
+    };
+    const wait = (txt) => {
+      host.innerHTML = '<div data-node-q-empty="loading" style="font-size:.95em;line-height:1.45;color:#8b97b0;">' + txt + '</div>';
+      this._nodeQ = { idx: n.idx, key: key, card: null, answered: false, format: null, reason: "loading", el: null };
+    };
+    const status = this.deckStatus(key);
+    // NAME THE GAP. A dossier that asks nothing is legitimate; a dossier that shows an empty
+    // section is a bug the reader has to guess at.
+    if (status === "missing" || status === "empty") return say("no_cards_authored", "No flashcards are written for this state yet.");
+    if (status === "failed") return say("deck_unavailable", "These cards could not be loaded — close and reopen to try again.");
+    if (status === "pending" || status === "loading") { wait("Loading this state’s cards…"); this._nodeWarm(n, () => this.hydrateDeck(key)); return; }
+    const card = this.nodeQuestionFor(key, this._nodeAsked);
+    if (!card) return say(this._nodeAsked && this._nodeAsked.size ? "visit_complete" : "deck_proven",
+      this._nodeAsked && this._nodeAsked.size ? "That’s every card this state still owed you." : "Every card here is recall-proven.");
+    const format = this.askFormat(key, card);
+    // MC RESIDENCY (v1.80.4 rule): the distractor pool must be resident before we draw, or which
+    // neighbour chunks happened to arrive would decide the options — and therefore the RNG stream.
+    if (format === "mc" && !this.mcPoolWarm(key, card)) { wait("Loading this state’s cards…"); this._nodeWarm(n, () => this._warmMcPool(card, key, "node")); return; }
+    host.innerHTML = qHead(card.q);
+    const done = (correct, tier) => {
+      const q = this._nodeQ;
+      if (q) q.answered = true;
+      (this._nodeAsked = this._nodeAsked || new Set()).add(this.qhash(card.q));
+      this.fx("node_q_answered", { deckKey: key, node: n.t, format: fmt, correct: !!correct, tier: tier || null });
+      this._refreshNodeCount();
+      // one deliberate step onward — the counter just moved, and a dead card is a dead surface
+      if (this.nodeQuestionFor(key, this._nodeAsked)) {
+        const nx = document.createElement("button");
+        nx.type = "button";
+        nx.setAttribute("data-node-next", "1");
+        nx.style.cssText = "align-self:center;margin-top:.7em;cursor:pointer;font-family:inherit;font-size:.9em;font-weight:700;letter-spacing:.06em;text-transform:uppercase;padding:.6em 1.2em;min-height:2.8em;border-radius:.66em;border:1px solid rgba(150,170,210,.26);background:rgba(255,255,255,.04);color:#9ab0e0;";
+        nx.textContent = "Next card ▸";
+        nx.addEventListener("click", () => { this._nodeQ = null; this._renderNodeQuestion(n, host); });
+        host.appendChild(nx);
+      }
+    };
+    // FALL BACK TO RECALL, DO NOT FALL SILENT. mcDistractors returns null when fewer than two
+    // usable distractors survive its length/similarity filters — routine for a long or unusual
+    // answer, and measured here on a submission node. The landing card can only skip in that case
+    // (multiple choice IS the in-play format), but recall is this surface's other native format
+    // and works for any card at all, so a state that cannot be recognised is still studied.
+    let fmt = format;
+    let block = fmt === "mc" ? this._mcBlock(card, key, done, "node") : null;
+    if (!block) { fmt = "recall"; block = this._recallBlock(card, key, done, "node"); }
+    if (!block) return say("no_question", "This card cannot be asked here yet.");
+    this._styleNodeBlock(block);
+    host.appendChild(block);
+    this._nodeQ = { idx: n.idx, key: key, card: card, answered: false, format: fmt, reason: null, el: block };
+    this.fx("node_q_shown", { deckKey: key, node: n.t, format: fmt, asked: format, stage: this.cardStage(key, card.q) });
+  }
+  /**
+   * _mcBlock styles its options in fixed px (it was written for the pane, which has one text
+   * size). The node card is em-driven — ONE root font-size scales every dimension with the shape
+   * — so a 12px option inside a triangle whose root em is 14.8px reads as fine print. Re-express
+   * the block's own sizes in em; nothing about its behaviour is touched.
+   */
+  _styleNodeBlock(block) {
+    block.style.gap = ".5em";
+    block.querySelectorAll("button").forEach((b) => {
+      b.style.fontSize = "1em";
+      b.style.lineHeight = "1.4";
+      if (b.hasAttribute("data-node-mc-opt")) { b.style.padding = ".6em .75em"; b.style.borderRadius = ".6em"; b.style.minHeight = "2.4em"; }
+    });
+  }
+  /** Repaint the header's familiarity chip in place — the count is what an answer just moved. */
+  _refreshNodeCount() {
+    const host = this.nodeCardRef && this.nodeCardRef.current;
+    const chip = host ? host.querySelector("[data-node-count]") : null;
+    if (!chip || this._nodeCardIdx == null || !this.nodes[this._nodeCardIdx]) return;
+    const key = this.deckKeyFor(this.nodes[this._nodeCardIdx]).key;
+    const box = document.createElement("div");
+    box.innerHTML = this.familiarityChip(key, "data-node-count", { fs: ".82em", gs: ".9em" }).html;
+    const fresh = box.firstChild;
+    if (fresh && chip.parentNode) chip.parentNode.replaceChild(fresh, chip);
+  }
   // ○ new to you · ◐ met some · ● recall-proven — the "have you done this" marker
   seenGlyph(key) {
     const d = (this.flashcards && this.flashcards.decks) ? this.flashcards.decks[key] : null;
@@ -6632,6 +7345,30 @@ class Component extends DCLogic {
     if (proven >= total) return ["●", "#7ee0a8", "recall-proven"];
     if (met) return ["◐", "#cbd24e", met + " of " + total + " met"];
     return ["○", "#7e8aa3", "new to you"];
+  }
+  /**
+   * THE FAMILIARITY CHIP — the seen-glyph fused with the deck's answered count ("● 3/8").
+   *
+   * ONE implementation for every surface that wears it: the landing card's identity header and
+   * the in-node card's header plate. `attr` is the SURFACE'S OWN HANDLE — a shared selector would
+   * silently match both when they are on screen together (the landing card is up behind the node
+   * card whenever a reader opens one mid-roll), exactly the trap the MC option split exists for.
+   * Glyph-only when nothing is authored yet; `total` reads the manifest `n` until the chunk lands,
+   * so an unhydrated deck reports the user's real progress instead of "no cards".
+   */
+  familiarityChip(key, attr, opts) {
+    const o = opts || {};
+    const glyph = this.seenGlyph(key);
+    const deckD = (this.flashcards && this.flashcards.decks) ? this.flashcards.decks[key] : null;
+    const total = this._deckCardCount(deckD);
+    const done = Math.min((this.prep && this.prep[key]) || 0, total);
+    const full = total > 0 && done >= total;
+    const title = glyph[2] + (total ? " · " + done + " of " + total + " cards recall-proven" : "");
+    const html = '<span ' + attr + '="' + (total ? done + "/" + total : "") + '" title="' + title + '" style="flex:none;' + (o.style || "") + 'display:inline-flex;align-items:center;gap:5px;' + (total && o.clickable ? "cursor:pointer;" : "") + 'padding:3px 9px;border-radius:999px;border:1px solid rgba(150,170,210,.22);background:rgba(255,255,255,.04);font-size:' + (o.fs || "10.5px") + ';font-weight:700;font-family:\'Space Grotesk\',sans-serif;color:' + (full ? "#7ee0a8" : "#9ab0e0") + ';">' +
+      '<span style="font-size:' + (o.gs || "11px") + ';line-height:1;color:' + glyph[1] + ';">' + glyph[0] + '</span>' +
+      (total ? '<span>' + done + "/" + total + '</span>' : '') +
+    '</span>';
+    return { html: html, total: total, done: done, glyph: glyph, full: full };
   }
   ngContentFor(node) {
     return this._ngc(node.ty === "positions" ? this.deckKeyFor(node).key : node.t);
@@ -6725,7 +7462,7 @@ class Component extends DCLogic {
     const hidden = this._landEl.style.opacity === "0";
     this._landLate = true;                       // the beat says "this question arrived late"
     try { this.renderLandCard(pos, "land", null, reuse); } finally { this._landLate = false; }
-    if (this._landEl && hidden) { this._landEl.style.opacity = "0"; this._landEl.style.pointerEvents = "none"; }
+    if (this._landEl && hidden) this._suppressLand(true);   // one seam, and it survives the entry animation
     if (held && this._landEl) { const t = this._landEl.querySelector(held); if (t && t.focus) try { t.focus(); } catch (e) {} }
   }
   // mode: "land" (a position — your options are dealt below) | "attempt" (a technique in flight —
@@ -6795,10 +7532,8 @@ class Component extends DCLogic {
     // 1 — identity: what it is · where you came from · which side you're playing — and one
     // top-right familiarity chip: the seen-glyph fused with the deck's recall-proven count
     // (● 3/8). Clicking it opens this state's flashcards (a user click — pane-law-legal).
-    const deckD = (this.flashcards && this.flashcards.decks) ? this.flashcards.decks[key] : null;
-    const totalCards = this._deckCardCount(deckD);   // manifest `n` until the chunk lands
-    const doneCards = Math.min((this.prep && this.prep[key]) || 0, totalCards);
-    const chipFull = totalCards > 0 && doneCards >= totalCards;
+    const famChip = this.familiarityChip(key, "data-land-count", { clickable: true, style: "margin-left:auto;" });
+    const totalCards = famChip.total;   // manifest `n` until the chunk lands
     const head = document.createElement("div");
     head.setAttribute("data-land-id", "1");
     head.style.cssText = "display:flex;align-items:flex-start;gap:9px;";
@@ -6810,11 +7545,7 @@ class Component extends DCLogic {
           (prev ? ' &middot; from ' + prev.name : '') +
           (sp.from ? ' &middot; ' + sp.from : '') +
         '</div>' +
-      '</div>' +
-      '<span data-land-count="' + (totalCards ? doneCards + "/" + totalCards : "") + '" title="' + glyph[2] + (totalCards ? " · " + doneCards + " of " + totalCards + " cards recall-proven" : "") + '" style="flex:none;margin-left:auto;display:inline-flex;align-items:center;gap:5px;' + (totalCards ? "cursor:pointer;" : "") + 'padding:3px 9px;border-radius:999px;border:1px solid rgba(150,170,210,.22);background:rgba(255,255,255,.04);font-size:10.5px;font-weight:700;font-family:\'Space Grotesk\',sans-serif;color:' + (chipFull ? "#7ee0a8" : "#9ab0e0") + ';">' +
-        '<span style="font-size:11px;line-height:1;color:' + glyph[1] + ';">' + glyph[0] + '</span>' +
-        (totalCards ? '<span>' + doneCards + "/" + totalCards + '</span>' : '') +
-      '</span>';
+      '</div>' + famChip.html;
     const chip = head.querySelector("[data-land-count]");
     if (chip && totalCards) chip.addEventListener("click", (e) => { e.stopPropagation(); this.openHomeToLatest(); });
     el.appendChild(head);
@@ -6917,6 +7648,9 @@ class Component extends DCLogic {
       this._landWarmP = null;   // nothing outstanding: this card is what the state has to ask
     }
     this._dockLandCard(el);
+    // a fresh card born while a dossier owns the screen must not pop over it (the in-node card
+    // on desktop, the sheet on a phone)
+    if (this._traySup || (this.isMobile() && this._dossierIdx != null)) this._suppressLand(true);
     return el;
   }
   /** Is the landing question settled — mounted, or definitively not coming? */
@@ -7807,6 +8541,10 @@ class Component extends DCLogic {
   }
 
   enterAttempt(opt) {
+    // THE OPTION HAND IS NEVER UNDER AN OPEN MENU (v1.99.5). Capture never stops the clock, so
+    // a picker opened from an option card can still be up when the decision resolves — and at
+    // z:90 it would sit over the tray that is about to be re-dealt.
+    if (this._pickEl) this.closeListPicker();
     // committing past an unanswered question is IGNORING it — momentum demands engagement
     // (owner's rule: wrong or ignored breaks; a landing that asked nothing carries)
     // the beat is emitted BEFORE the break because _breakCombo clears _landPending — and it fires

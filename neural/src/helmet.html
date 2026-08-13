@@ -160,6 +160,35 @@
   /* pointer-events:none — the options tray can scroll under this corner and must stay clickable */
   .ng-tut{position:fixed;left:16px;bottom:104px;z-index:7;width:238px;pointer-events:none;background:rgba(15,19,30,.96);border:1px solid rgba(126,224,168,.28);border-radius:12px;padding:10px 12px;box-shadow:0 10px 34px rgba(0,0,0,.5);}
   .ng-tut [data-tut-hide]{pointer-events:auto;}
+  /* ---------- the list picker (v1.99.5) ----------
+     "how does it know what list?" (owner). An anchored chooser, portalled to the app root and
+     placed at MEASURED coordinates by _placeListPicker — never a drop-down positioned by CSS,
+     because the + it hangs off can sit on an option card at the bottom of a 390px phone, inside
+     an 88vw drawer, above the thumb band. It lives in the z 90-99 deliberate-screen band with
+     the account menu; it is chrome, so it never pauses the roll. */
+  /* the background is an OPAQUE COLOR with the gradient on top of it, not a gradient alone: the
+     picker's band on a phone is exactly where .ng-landcard sits, and a translucent menu over a
+     dark card reads as a rendering fault even when the stacking is correct */
+  .ng-listpicker{width:272px;max-width:calc(100vw - 16px);opacity:1;background-color:#161a2c;background-image:linear-gradient(180deg,rgba(26,30,52,1),rgba(18,21,38,1));border:1px solid rgba(130,150,190,.24);border-radius:14px;box-shadow:0 16px 46px rgba(0,0,0,.58);padding:6px;}
+  .ng-listpicker-head{padding:7px 9px 8px;border-bottom:1px solid rgba(150,170,210,.13);margin-bottom:4px;}
+  .ng-listpicker-head b{display:block;font-size:9px;font-weight:800;letter-spacing:.12em;text-transform:uppercase;color:#7e8aa3;}
+  .ng-listpicker-head small{display:block;margin-top:3px;font-size:12px;font-weight:600;color:#dbe2f0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+  .ng-listpicker-body{display:flex;flex-direction:column;max-height:min(46vh,300px);overflow-y:auto;}
+  .ng-listpicker-row{display:flex;align-items:center;gap:9px;width:100%;min-height:44px;padding:0 9px;cursor:pointer;font-family:inherit;text-align:left;border:none;background:transparent;border-radius:9px;color:#cbd4e6;}
+  .ng-listpicker-row:hover{background:rgba(255,255,255,.055);}
+  .ng-listpicker-row:active{transform:translateY(1px);}
+  .ng-listpicker-row:focus-visible{outline:2px solid rgba(160,185,255,.85);outline-offset:-2px;}
+  .ng-listpicker-box{flex:none;display:inline-flex;align-items:center;justify-content:center;width:19px;height:19px;border-radius:6px;border:1px solid rgba(150,170,210,.36);font-size:12px;font-weight:800;color:#0f1320;}
+  .ng-listpicker-row[aria-checked="true"] .ng-listpicker-box{background:#7ee0a8;border-color:#7ee0a8;}
+  .ng-listpicker-name{flex:1;min-width:0;font-size:13px;font-weight:600;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+  .ng-listpicker-n{flex:none;font-size:10.5px;font-weight:700;color:#7e8aa3;}
+  .ng-listpicker-row[data-picker-default="1"] .ng-listpicker-name::after{content:"default";margin-left:7px;font-size:8.5px;font-weight:800;letter-spacing:.1em;text-transform:uppercase;color:#7e8aa3;}
+  .ng-listpicker-newrow{margin-top:2px;border-top:1px solid rgba(150,170,210,.13);border-radius:0 0 9px 9px;color:#9db4ff;}
+  .ng-listpicker-newrow .ng-listpicker-box{border-style:dashed;color:#9db4ff;}
+  .ng-listpicker-new{display:flex;align-items:center;gap:6px;margin-top:4px;padding-top:6px;border-top:1px solid rgba(150,170,210,.13);}
+  .ng-listpicker-input{flex:1;min-width:0;min-height:40px;pointer-events:auto;font-family:inherit;font-size:12.5px;font-weight:600;color:#eef1f6;background:rgba(255,255,255,.06);border:1px solid rgba(150,180,255,.55);border-radius:9px;padding:0 9px;outline:none;}
+  .ng-listpicker-go{flex:none;min-height:40px;padding:0 12px;cursor:pointer;font-family:inherit;font-size:11.5px;font-weight:800;color:#fff;border:none;border-radius:9px;background:linear-gradient(135deg,#4a6cff,#7a4cff);}
+  .ng-listpicker-go:focus-visible{outline:2px solid rgba(160,185,255,.85);outline-offset:2px;}
   .ng-clip{isolation:isolate;}
   .ng-clip::after{content:"";position:absolute;inset:0;z-index:1;background:linear-gradient(105deg,transparent 42%,rgba(255,255,255,.13) 50%,transparent 58%);background-size:230% 100%;background-position:120% 0;animation:ngShimmer 2.2s ease-out .4s 2;pointer-events:none;}
   @keyframes ngShimmer{to{background-position:-130% 0}}
