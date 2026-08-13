@@ -388,6 +388,43 @@ parser). Lighting a list reuses `setFocusIdxSet` exactly like a System; `_listFo
 each `renderExplorer` reset (which otherwise `clearFocus()`es on every keystroke) and is dropped
 by `clearFocus`, i.e. on any tab change or pane close.
 
+**YOUR OWN LIST IS AS LEGIBLE AS A RECEIVED ONE (v1.99.4).** Until then the asymmetry was the
+bug: `_sharedBlock` named every technique in a class a teammate sent you, while your own list
+printed a name, a count and three buttons — a coach could not check their class before posting
+it. Each `[data-list-row]` now carries an **inline disclosure** (the History / challenge-lesson
+idiom): the **count line IS the toggle** (`[data-list-open]`, chevron `[data-list-chevron]`,
+`aria-expanded` + `aria-controls`, a 44px band; it used to be a duplicate of the row's own
+"light this list" click, which the row still does). Open reveals `[data-list-items]` →
+`[data-list-item="<nodeId>"]` rows carrying the **FULL authored name** — `splitName().main` plus
+the dimmer `from <position>` half, same rule and same shape as `[data-shared-item]`, because
+"Kimura" is 35 techniques here — clicking one `openDossier`s it.
+- **Removal is an explicit `×` (`[data-list-item-remove]` + `data-list-of`), never the
+  `_listAddButton`.** That button's ✓/+ is defined against the ACTIVE list (`activeListHas` /
+  `addToList` with no id): inside a list's own disclosure the technique is a member of THAT list
+  by construction, so a toggle there would mislabel at best and, on any non-active list, would
+  silently ADD it to a DIFFERENT list instead of removing it. `removeListItem(nodeId, listId)`
+  is now **the** remove path — `toggleListItem`'s ✓ delegates to it — so the toast (which names
+  the list and the qualified technique), the persist, the undo offer and the graph re-light can
+  never diverge. A removal on the lit list re-lights the REDUCED set with `noFrame` (a removal
+  is not a request to be flown somewhere).
+- **Emptying a list still deletes it** (`removeFromList`'s long-standing rule) — but that
+  deletion now arms the SAME `[data-list-undo]` row the two-step delete uses, via the shared
+  `_armListUndo` seam. Before v1.99.4 it destroyed a named list silently, and the per-item × put
+  that one click away from a list you are reading.
+- **Auto-expand is the feature** ("see the listed techniques AFTER ADDING", owner): `newList`,
+  `addToList` and `undoDeleteList` all expand their list, so a `+` pressed with the pane open
+  lands somewhere the eye can follow.
+- **Expansion is SESSION state — a `Set` (`_listExpand`), deliberately NOT a settings map.**
+  `exploreOpenSections` persists because its keys are a fixed vocabulary of six section labels;
+  list ids are minted per device from `Date.now()` and die with the list, so a persisted map
+  would grow an unbounded tail of keys naming lists that no longer exist and sync that tail
+  everywhere through per-key LWW. It is also derived, not chosen.
+- `_toggleListExpand` **restores focus** to the rebuilt toggle (`_listOpenFocusPending`): a
+  toggle re-renders the whole Explore body, so without it one Enter opens the list and the next
+  goes to `<body>` — invisible by mouse, a dead end by keyboard.
+- An empty list says so and says how (`[data-list-empty="<listId>"]`), naming only surfaces that
+  really carry `[data-list-add]`: an option card, a technique's dossier, an Explore row.
+
 **Recipient path (`_openSharedListFromUrl`, called right after `ingest`).** Decodes
 `location.pathname` client-side, sets `_sharedIncoming`, opens the pane on Explore and lights the
 nodes. A received link is **offered, never adopted**: Save is one deliberate click. Unknown

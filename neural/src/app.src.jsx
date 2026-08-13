@@ -4063,7 +4063,38 @@ class Component extends DCLogic {
     this._listsMap()[id] = { name: name || ngListDefaultName(new Date()), items: [], t: Date.now() };
     this.activeListId = id;
     this.set("activeListId", id); // settings are LWW per key -> the active list follows the user
+    this._expandList(id); // a list you just made is a list you are about to fill — show its inside
     return id;
+  }
+  // ── the per-list disclosure (v1.99.4) ────────────────────────────────────────────────
+  // "I should be able to see the listed techniques after adding under Your lists" (owner). A
+  // received class was legible (_sharedBlock names every technique); your OWN list printed a
+  // name and a count and nothing else.
+  //
+  // THE EXPANSION IS SESSION STATE, ON PURPOSE — a Set, not a settings map. Explore's section
+  // folds persist (`exploreOpenSections`) because their keys are a FIXED vocabulary of six
+  // section labels: the map is bounded and every key still means something next week. List ids
+  // are minted per device from `Date.now()` and die with the list, so a persisted map would grow
+  // an unbounded tail of keys naming lists that no longer exist (and, through the per-key LWW
+  // settings merge, would sync that tail to every other device). Expansion is also DERIVED here
+  // rather than chosen: the list you just created, and any list you just added to, opens itself —
+  // a posture that follows what you are doing, not a preference worth carrying across days.
+  _listExpand() { return this._listExpandSet || (this._listExpandSet = new Set()); }
+  _listExpanded(id) { return this._listExpand().has(id); }
+  _expandList(id) { if (id) this._listExpand().add(id); }
+  _toggleListExpand(id) {
+    const s = this._listExpand();
+    if (s.has(id)) s.delete(id); else s.add(id);
+    // KEYBOARD CONTINUITY. Toggling re-renders the ENTIRE Explore body, so the button that was
+    // just pressed is destroyed and rebuilt — and focus lands back on <body>. By mouse that is
+    // invisible; by keyboard it means one Enter opens the list and the next one does nothing,
+    // with a Tab walk back through every control to reach the same button. Same class of defect
+    // the rename editor's _listEditFocusPending exists for; same shape of fix.
+    try {
+      const ae = document.activeElement;
+      if (ae && ae.getAttribute && ae.getAttribute("data-list-open") === id) this._listOpenFocusPending = id;
+    } catch (e) { /* non-fatal */ }
+    this._refreshListSurfaces();
   }
   addToList(nodeId, listId) {
     const i = this._idIndex ? this._idIndex.get(nodeId) : null;
@@ -4077,6 +4108,10 @@ class Component extends DCLogic {
     l.items.push(nodeId); l.t = Date.now();
     this.activeListId = id;
     this.set("activeListId", id); // saves the blob too
+    // AUTO-EXPAND THE LIST YOU JUST ADDED TO. The owner's ask is literally "see the listed
+    // techniques AFTER ADDING": a + pressed while the pane is open has to land somewhere the
+    // eye can follow it, not just tick a counter.
+    this._expandList(id);
     this.fx("list_item_added", { list: id, node: nodeId, count: l.items.length });
     return { added: true, listId: id, count: l.items.length };
   }
@@ -4091,14 +4126,23 @@ class Component extends DCLogic {
     if (this._listFocusId === id && !m[id]) this.clearFocus();
     return true;
   }
-  deleteList(id) {
-    const m = this._listsMap(); if (!m[id]) return;
-    // stash it whole so the delete is takeable-back (see _undoRowLive / undoDeleteList). `t` is
-    // when the OFFER was made — it expires (an undo row is a reaction, not a permanent record).
-    this._undoList = { id: id, t: Date.now(), list: { name: m[id].name, items: m[id].items.slice(), t: m[id].t } };
+  /**
+   * Arm the "Undo" offer for a list that is about to stop existing. ONE seam, two callers:
+   * the explicit two-step delete, and the removal that empties a list (removeFromList drops a
+   * list the moment its last item goes — which used to destroy a NAMED list silently, and the
+   * v1.99.4 per-item × puts that one click from a list you are reading). `t` is when the OFFER
+   * was made — it expires (an undo row is a reaction, not a permanent record).
+   */
+  _armListUndo(id, snapshot) {
+    this._undoList = { id: id, t: Date.now(), list: { name: snapshot.name, items: snapshot.items.slice(), t: snapshot.t } };
     if (this._undoT) clearTimeout(this._undoT);
     // real setTimeout, not the sim clock: this is UI patience, not game time
     this._undoT = setTimeout(() => { if (this._undoList && this._undoList.id === id) { this._undoList = null; this._refreshListSurfaces(); } }, 90000);
+  }
+  deleteList(id) {
+    const m = this._listsMap(); if (!m[id]) return;
+    // stash it whole so the delete is takeable-back (see _undoRowLive / undoDeleteList)
+    this._armListUndo(id, m[id]);
     delete m[id];
     if (this._listFocusId === id) this.clearFocus();
     if (this._listEditId === id) this._listEditId = null; // a dead list has no editor
@@ -4341,19 +4385,51 @@ class Component extends DCLogic {
     const had = this.activeListHas(nodeId);
     // full name, not splitName().main — setEvent renders the `from …` half on its own line
     const name = this.listItemName(nodeId);
-    if (had) {
-      this.removeFromList(nodeId);
-      this.setEvent("Removed from today’s list", name, "bad");
-    } else {
-      const r = this.addToList(nodeId);
-      if (r.added) {
-        this.setEvent("Added to today’s list · " + r.count + " technique" + (r.count === 1 ? "" : "s"), name, "good");
-        this.track("neural_list_item_added", { surface: surface || "unknown", count: r.count });
-      } else if (r.reason === "full") {
-        this.setEvent("List is full", "A share link holds " + NG_LIST_ITEM_CAP + " techniques", "bad");
-      }
+    // ONE remove path (v1.99.4): the ✓ toggle and the expanded list's × are the same call, so
+    // the toast, the persist, the undo offer and the graph re-light can never diverge.
+    if (had) return void this.removeListItem(nodeId, this.activeListId);
+    const r = this.addToList(nodeId);
+    if (r.added) {
+      this.setEvent("Added to today’s list · " + r.count + " technique" + (r.count === 1 ? "" : "s"), name, "good");
+      this.track("neural_list_item_added", { surface: surface || "unknown", count: r.count });
+    } else if (r.reason === "full") {
+      this.setEvent("List is full", "A share link holds " + NG_LIST_ITEM_CAP + " techniques", "bad");
     }
     this._refreshListSurfaces();
+  }
+  /**
+   * THE remove path for one technique, from any surface — the ✓ toggle (active list) and the
+   * expanded row's × (that row's list, whichever it is).
+   *
+   * It is NOT the _listAddButton: that button's ✓/+ is defined against the ACTIVE list
+   * (activeListHas / addToList with no id). Inside a list's own disclosure the technique is a
+   * member of THAT list by construction, so a toggle there would be a mislabel at best and, on
+   * any list that is not the active one, would silently ADD the technique to a DIFFERENT list
+   * instead of removing it from the one being read. An explicit × addressed to `listId` is the
+   * only affordance that says what it does.
+   */
+  removeListItem(nodeId, listId) {
+    const m = this._listsMap();
+    const id = listId || this.activeListId;
+    const l = id ? m[id] : null;
+    if (!l || l.items.indexOf(nodeId) < 0) return false;
+    const name = this.listItemName(nodeId); // FULL qualified name — 35 techniques are "Kimura"
+    const where = l.name ? "“" + l.name + "”" : "today’s list";
+    // removeFromList DELETES a list whose last item just left; snapshot first so that deletion
+    // is takeable back through the same undo row the two-step delete uses
+    const snapshot = l.items.length === 1 ? { name: l.name, items: l.items.slice(), t: l.t } : null;
+    if (!this.removeFromList(nodeId, id)) return false;
+    if (snapshot && !m[id]) this._armListUndo(id, snapshot);
+    this.setEvent("Removed from " + where, name, "bad");
+    // the lit graph follows the list it is lighting. noFrame: a removal must not fly the camera
+    // — the user is reading a row, not asking to be taken somewhere. (removeFromList already
+    // clearFocus()es when the list itself is gone.)
+    if (this._listFocusId === id && m[id]) {
+      const ki = this.listIdxs(id);
+      if (ki.length) this.setFocusIdxSet(ki, true); else this.clearFocus();
+    }
+    this._refreshListSurfaces();
+    return true;
   }
   _styleListAdd(el, nodeId) {
     const on = this.activeListHas(nodeId);
@@ -4422,6 +4498,54 @@ class Component extends DCLogic {
     // dossier is up: the list element is hidden behind it, and renderExplorer preserves an
     // intentional list highlight (keepList) instead of clearing it.
     if (this.deckShown && this._viewMode === "explore" && !this._paneStudyActive()) this.renderExplorer();
+  }
+
+  /**
+   * ONE technique inside an expanded list — deliberately the SAME shape as _sharedBlock's
+   * item (name button → openDossier, control on the right), because the asymmetry between the
+   * two was the bug: a class a teammate sent you named every technique, your own named none.
+   *
+   * THE NAME IS THE FULL AUTHORED NAME: splitName().main plus the dimmer `from <position>`
+   * qualifier. Non-negotiable — 648 of 1467 nodes carry a qualifier, "Kimura" alone is 35
+   * different techniques here and "Americana" 16, so main-only would make your own class as
+   * unreadable as a share link that dropped the qualifier.
+   */
+  _listItemRow(nodeId, listId) {
+    const i = this._idIndex ? this._idIndex.get(nodeId) : null;
+    const n = i != null ? this.nodes[i] : null;
+    const item = document.createElement("div");
+    item.setAttribute("data-list-itemrow", nodeId);
+    item.style.cssText = "display:flex;align-items:center;gap:4px;min-width:0;";
+    const nameBtn = document.createElement("button");
+    nameBtn.type = "button";
+    nameBtn.setAttribute("data-list-item", nodeId);
+    nameBtn.setAttribute("data-list-of", listId);
+    // pointer-events:auto INLINE — inherited property, the overlay root disables it and the
+    // canvas hit-tests above anything that does not re-enable it (v1.69.1 / v1.81.2).
+    nameBtn.style.cssText = "flex:1;min-width:0;min-height:44px;pointer-events:auto;cursor:pointer;font-family:inherit;text-align:left;border:0;background:transparent;padding:0 2px;font-size:12.5px;color:#dbe2f0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;";
+    if (n) {
+      const sp = this.splitName(n.t);
+      nameBtn.innerHTML = this.escHTML(sp.main) +
+        (sp.from ? ' <span style="color:#8b97b0;font-size:11px;">' + this.escHTML(sp.from) + '</span>' : "");
+      nameBtn.title = n.t; // the full name survives the ellipsis on a 390px drawer
+      nameBtn.setAttribute("aria-label", n.t);
+    } else {
+      // an id this build cannot resolve (a list synced from a newer build): name it, don't hide it
+      nameBtn.textContent = nodeId;
+    }
+    if (i != null) nameBtn.addEventListener("click", (e) => { e.stopPropagation(); this.openDossier(i); });
+    item.appendChild(nameBtn);
+    const rm = document.createElement("button");
+    rm.type = "button";
+    rm.setAttribute("data-list-item-remove", nodeId);
+    rm.setAttribute("data-list-of", listId);
+    rm.textContent = "×";
+    rm.title = "Remove from this list";
+    rm.setAttribute("aria-label", "Remove " + (n ? n.t : nodeId) + " from this list");
+    rm.style.cssText = "flex:none;width:44px;height:44px;pointer-events:auto;cursor:pointer;font-family:inherit;font-size:14px;line-height:1;border:0;border-radius:8px;background:transparent;color:#6b7691;display:inline-flex;align-items:center;justify-content:center;";
+    rm.addEventListener("click", (e) => { e.stopPropagation(); e.preventDefault(); this.removeListItem(nodeId, listId); });
+    item.appendChild(rm);
+    return item;
   }
 
   // ---------- the Lists section (top of Explore) ----------
@@ -4495,6 +4619,8 @@ class Component extends DCLogic {
       const row = document.createElement("div");
       row.setAttribute("data-list-row", id);
       const lit = this._listFocusId === id;
+      const expanded = this._listExpanded(id);
+      const itemsId = "ng-list-items-" + id;
       row.style.cssText = "display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin:0 6px 4px;padding:7px 8px;border-radius:9px;cursor:pointer;border:1px solid " + (lit ? "rgba(150,180,255,.45)" : "rgba(150,170,210,.14)") + ";background:" + (lit ? "rgba(58,72,118,.4)" : "rgba(255,255,255,.025)") + ";";
       // THE ROW lights the list; THE NAME renames it (v1.99.3, owner: "I can't seem to
       // click to rename my lists"). Controls own their clicks (the closest() guard), and a
@@ -4563,13 +4689,21 @@ class Component extends DCLogic {
         nameBtn.textContent = l.name;
         nameBtn.addEventListener("click", () => this.startListRename(id));
         main.appendChild(nameBtn);
+        // THE COUNT LINE IS THE DISCLOSURE (v1.99.4). It used to be a second way to light the
+        // list — a duplicate of the row's own click, which is still there. "3 techniques" is
+        // the natural place to ask *which* three, so it now opens the list in place: chevron,
+        // aria-expanded, aria-controls, and a real 44px band to press.
         const open = document.createElement("button");
         open.type = "button";
         open.setAttribute("data-list-open", id);
-        open.title = "Show this list on the graph";
-        open.style.cssText = "display:block;width:100%;min-width:0;pointer-events:auto;cursor:pointer;font-family:inherit;text-align:left;border:0;background:transparent;color:inherit;padding:0;margin-top:1px;";
-        open.innerHTML = '<span data-list-count="' + l.items.length + '" style="display:block;font-size:10px;letter-spacing:.05em;text-transform:uppercase;color:#7e8aa3;">' + l.items.length + ' technique' + (l.items.length === 1 ? "" : "s") + '</span>';
-        open.addEventListener("click", () => this.focusList(id));
+        open.setAttribute("aria-expanded", expanded ? "true" : "false");
+        open.setAttribute("aria-controls", itemsId);
+        open.setAttribute("aria-label", (expanded ? "Hide" : "Show") + " the techniques in “" + l.name + "”");
+        open.title = expanded ? "Hide these techniques" : "Show these techniques";
+        open.style.cssText = "display:flex;align-items:center;gap:7px;width:100%;min-width:0;min-height:44px;pointer-events:auto;cursor:pointer;font-family:inherit;text-align:left;border:0;background:transparent;color:inherit;padding:0;";
+        open.innerHTML = '<span data-list-chevron="1" aria-hidden="true" style="flex:none;font-size:11px;line-height:1;color:#5d6883;">' + (expanded ? "▾" : "▸") + '</span>' +
+          '<span data-list-count="' + l.items.length + '" style="font-size:10px;letter-spacing:.05em;text-transform:uppercase;color:#7e8aa3;">' + l.items.length + ' technique' + (l.items.length === 1 ? "" : "s") + '</span>';
+        open.addEventListener("click", () => this._toggleListExpand(id));
         main.appendChild(open);
       }
       row.appendChild(main);
@@ -4615,9 +4749,39 @@ class Component extends DCLogic {
         this.deleteList(id);
       });
       row.appendChild(del);
+      // ── the disclosure body: the techniques themselves ──
+      // A CHILD of the row (which is flex-wrap), not a sibling, so the list reads as one card
+      // and Drill / Share / × keep their own line above it. No overflow of its own: the pane
+      // scrolls, a row inside a scroller that scrolls too is a trap on a 390px drawer.
+      if (expanded) {
+        const items = document.createElement("div");
+        items.id = itemsId;
+        items.setAttribute("data-list-items", id);
+        items.style.cssText = "flex-basis:100%;width:100%;min-width:0;margin-top:3px;padding-top:4px;border-top:1px solid rgba(150,170,210,.13);";
+        if (!l.items.length) {
+          const em = document.createElement("div");
+          em.setAttribute("data-list-empty", id);
+          em.style.cssText = "font-size:11px;line-height:1.5;color:#7e8aa3;padding:6px 2px 4px;";
+          // the three surfaces that actually carry [data-list-add] where a technique is named:
+          // the in-roll option cards (data-list-surface="option"), both dossier renderers
+          // ("dossier"/"sheet") and Explore's own leaf rows ("explore").
+          em.textContent = "No techniques yet — tap + on an option card while you roll, on a technique’s dossier, or on any Explore row.";
+          items.appendChild(em);
+        } else {
+          for (const nodeId of l.items) items.appendChild(this._listItemRow(nodeId, id));
+        }
+        row.appendChild(items);
+      }
       sec.appendChild(row);
     }
     list.appendChild(sec);
+    // give the disclosure toggle its focus back after the re-render it caused (keyboard only —
+    // the flag is set only when the toggle actually held focus at the time)
+    if (this._listOpenFocusPending) {
+      const back = sec.querySelector('[data-list-open="' + this._listOpenFocusPending + '"]');
+      this._listOpenFocusPending = null;
+      if (back) { try { back.focus(); } catch (e) { /* non-fatal */ } }
+    }
     // focus the rename editor exactly once per startListRename/+ — NOT on every re-render
     // (an unrelated _refreshListSurfaces while editing must never yank the caret from a
     // control the user deliberately moved to)
@@ -4672,6 +4836,7 @@ class Component extends DCLogic {
     const u = this._undoList; if (!u) return false;
     this._undoList = null;
     this._listsMap()[u.id] = u.list;
+    this._expandList(u.id); // it came back — show what came back with it
     this.activeListId = u.id;
     this.set("activeListId", u.id); // saves the blob
     this.setEvent("Restored", u.list.name, "good");
