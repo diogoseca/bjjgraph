@@ -405,3 +405,48 @@ test("only the question line clears the corner controls — the answers get thei
     `and its text really stops before the corner (text ends ${m!.textRight}, corner starts ${m!.cornerLeft})`,
   ).toBeLessThanOrEqual(m!.cornerLeft)
 })
+
+/**
+ * AN UNFOLDED CARD MUST FIT THE SCREEN IT IS ON.
+ *
+ * The card is anchored by its BOTTOM (236px desktop, 206px phone, and `_dockLandCard` overrides
+ * that again), so a constant expanded ceiling grows it UPWARD off the top of a short viewport —
+ * measured at 1440x720 the top was -28 with scrollHeight == clientHeight, i.e. no internal scroll
+ * to recover it either. Owner: "I can't scroll up". The ceiling is now the card's own measured
+ * bottom less an inset, so whatever does not fit becomes scrollable instead of unreachable.
+ */
+for (const height of [900, 720]) {
+  test(`the unfolded card stays on screen and scrolls at ${height}px tall`, async ({ page }) => {
+    await page.setViewportSize({ width: 1440, height })
+    const j = journey(page)
+    await j.boot("/")
+    await j.land("Mount Top")
+    await j.advance(1500)
+    await seedDossier(page)
+    await page.waitForTimeout(400)
+
+    await page.locator("[data-land-more]").click()
+    await page.waitForTimeout(400)
+
+    const m = await page.evaluate(() => {
+      const a = (window as Any).__neural
+      const el = a._landEl as HTMLElement
+      const r = el.getBoundingClientRect()
+      return {
+        top: Math.round(r.top),
+        bottom: Math.round(r.bottom),
+        scrollH: el.scrollHeight,
+        clientH: el.clientHeight,
+        vh: window.innerHeight,
+      }
+    })
+
+    expect(m.top, `the card's top is on screen (got ${m.top} of ${m.vh})`).toBeGreaterThanOrEqual(0)
+    expect(m.bottom, "and its bottom has not left it either").toBeLessThanOrEqual(m.vh)
+    // whatever did not fit is REACHABLE: either it all fits, or the card scrolls
+    expect(
+      m.scrollH <= m.clientH + 1 || m.clientH > 0,
+      "content that overflows is scrollable, not clipped away",
+    ).toBe(true)
+  })
+}

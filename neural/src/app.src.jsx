@@ -7811,8 +7811,16 @@ class Component extends DCLogic {
         body.appendChild(box);
       }
       body.style.display = "block";
-      // the mobile max-height carries !important, so this one has to as well
-      el.style.setProperty("max-height", "min(620px,74vh)", "important");
+      // BOUND IT BY THE SPACE THAT ACTUALLY EXISTS, not by a constant. The card is anchored by its
+      // BOTTOM (bottom:236px desktop, 206px phone, and _dockLandCard overrides that again), so a
+      // fixed "min(620px,74vh)" grows it upward past the top of the viewport on any short screen —
+      // measured at 1440x720 the expanded card's top was -28 with scrollHeight == clientHeight, so
+      // there was no internal scroll to recover it either. The owner: "I can't scroll up".
+      // Its own measured bottom is the honest ceiling: everything above it, less a 12px inset.
+      // (`!important` for the same reason as the mobile rule it has to outrank.)
+      const r = el.getBoundingClientRect();
+      const avail = Math.max(220, Math.round(r.bottom) - 12);
+      el.style.setProperty("max-height", Math.min(620, avail) + "px", "important");
       if (!this.paused) { this.setPaused(true); this._landAutoPaused = true; }
       this.fx("land_more_opened", { node: node ? node.t : null });
     } else {
@@ -7841,6 +7849,25 @@ class Component extends DCLogic {
    * ONE function for the predicate and the content, so the button and the panel can never
    * disagree about whether there is anything behind it.
    */
+  /**
+   * The DEFINITION, with the page-title sentence taken off the front.
+   *
+   * 1144 of the 1598 authored `def` strings (72%) open with "Master <thing> in BJJ." — an SEO
+   * lead-in for the static page — and `mcClip` clips to the FIRST SENTENCE, so the reader was
+   * shown the marketing line and denied the definition behind it. In every one of those 1144 there
+   * IS content after it ("Deep underhook half guard variant with excellent sweeping and back-take
+   * options…"). Owner, on seeing "Master the Estima Lock Bottom Position in BJJ." under More:
+   * "this is kinda pointless info". It was — but the fix is to skip the lead-in, not to drop the
+   * field: the useful half was one sentence away the whole time.
+   */
+  definitionOf(raw) {
+    let t = String(raw == null ? "" : raw).trim();
+    if (!t) return "";
+    t = t.replace(/^\s*(?:master|learn|discover)\b[^.!?]{0,90}?\bin (?:bjj|brazilian jiu-?jitsu)\b[.!?]\s*/i, "");
+    t = t.trim();
+    if (!t) return "";                       // it was ONLY the lead-in: say nothing
+    return this.mcClip(t) || t.slice(0, 220);
+  }
   _landMoreHTML(node) {
     const info = this.ngContentFor(node) || {};
     const rc = this.richContentFor(node);
@@ -7850,8 +7877,9 @@ class Component extends DCLogic {
     let h = "";
     // the intro the compact card no longer shows — kept, one fold lower, because the same
     // sentence is the static page's SEO copy and deleting it outright would lose it
-    if (info.def)
-      h += '<div data-land-def="1" style="font-size:11.5px;line-height:1.5;color:#aeb9d4;margin-bottom:11px;">' + (this.mcClip(info.def) || String(info.def).slice(0, 220)) + '</div>';
+    const def = this.definitionOf(info.def);
+    if (def)
+      h += '<div data-land-def="1" style="font-size:11.5px;line-height:1.5;color:#aeb9d4;margin-bottom:11px;">' + def + '</div>';
     const principles = ((persp && persp.principles) || info.principles || []).slice(0, 4);
     if (principles.length)
       h += '<div data-land-principles="1" style="margin-bottom:11px;">' + secHead("Essential principles") + principles.map((p) => bullet(p, "#7fb4ff")).join("") + '</div>';

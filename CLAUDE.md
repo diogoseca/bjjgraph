@@ -1081,6 +1081,23 @@ score = Σ (weight_i × mastery_i),   Σ weight_i = 1
 
 **Settings additions:** Rolling tab gains *Questions while you roll* (`landQuestions`, default on — gates the QUESTION only; identity+film render regardless) and *Challenge cue* (visibility; it tracks the frontier belt). Flashcards tab's *Answer mode* defaults to Classic recall. Shortcuts lists `A B C D`.
 
+**THE UNFOLDED CARD, TWO FIXES (v1.103.1).**
+- **The definition was the SEO lead-in, not the definition.** 1144 of the 1598 authored `def`
+  strings (72%) open with "Master <thing> in BJJ." — copy for the static page — and `mcClip` clips
+  to the FIRST SENTENCE, so the reader got the marketing line and lost the definition behind it. In
+  every one of those 1144 there IS content after it. Owner, on "Master the Estima Lock Bottom
+  Position in BJJ.": "this is kinda pointless info". It was — but the fix is `definitionOf()`,
+  which skips the lead-in and clips what follows, not dropping the field: the useful half was one
+  sentence away. A def that is ONLY the lead-in renders nothing.
+- **An unfolded card must fit the screen it is on.** `.ng-landcard` is anchored by its BOTTOM
+  (236px desktop, 206px phone, `_dockLandCard` overriding again), so the constant
+  `max-height:min(620px,74vh)` grew it UPWARD off the top of short viewports: measured at 1440x720
+  the expanded top was **-28** with `scrollHeight == clientHeight`, so there was no internal scroll
+  to recover it either — "I can't scroll up". `expandLandCard` now derives the ceiling from the
+  card's own measured bottom less a 12px inset, so anything that does not fit becomes scrollable
+  rather than unreachable (720px: top -28 → +12, scrollH 510 > clientH 470). Pinned at 900 and 720
+  by `roll-card.spec.ts`.
+
 **ROLE CORRECTNESS: WHO MAY PERFORM A MOVE (v1.103.0).** The owner, mid-roll: "I thought our last
 position was Bottom Rear Triangle ... you're open to being finished from Triangle, not finishing
 anybody, so they shouldn't be available to me right?" Right — and chasing it found three defects.
