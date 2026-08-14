@@ -99,6 +99,11 @@ e2e/report-gen/
 e2e/test-results/
 test-results/
 e2e/gallery/
+# ...and the same artifacts written to a DOUBLED path when Playwright is run with cwd=e2e
+# (the config's output paths are repo-root-relative). 9.4MB of screenshots reached a commit
+# that way; the rule is cheaper than remembering.
+e2e/e2e/
+e2e/tests/
 
 # Paired-debugging sessions (journals + shared-browser profile/pids are per-session scratch)
 e2e/paired/
