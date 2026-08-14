@@ -1205,10 +1205,21 @@ class Component extends DCLogic {
     // overlay (z ladder: ambient 5) and the pane lives INSIDE the wrap, so at 88vw the card
     // painted OVER the drawer and stole its clicks (the Lists + was unreachable at 390px).
     // Same treatment the option sheet gives it: hide while the drawer is up, restore on close.
-    // Desktop is untouched — there the card sits beside the left pane by design.
-    if (this.isMobile() && this._landEl) {
-      if (open) { this._landEl.style.opacity = "0"; this._landEl.style.pointerEvents = "none"; this._landPaneHid = true; }
-      else if (this._landPaneHid) { this._landEl.style.opacity = ""; this._landEl.style.pointerEvents = ""; this._landPaneHid = false; }
+    // ── EVERY WIDTH, NOT JUST THE PHONE (v1.101.7) ──────────────────────────────────────────
+    // "Desktop is untouched — there the card sits beside the left pane by design" was true at
+    // 1440 and false everywhere narrower: the card is `min(520px, 100vw-32px)` and CENTRED, so
+    // at 1024 it spans 252..772 against a pane at 0..360 — 108px of overlap, painted the wrong
+    // way round for exactly the reason the phone rule exists. The pane's own `z-index:8` cannot
+    // win: it lives inside the `position:fixed` app wrap, which is its own stacking context, so
+    // it is trapped at plane level 0 while the card is a root-plane child at z:5.
+    // Owner: "the left side pane should always appear in front of the current node's dialog, not
+    // hidden behind it — the game pauses when the left pane is open". That second clause is the
+    // argument: nothing is lost by standing the card down, because nothing is running. It comes
+    // back, unchanged, on close. `_suppressLand` is the seam (it also takes the film strip, and
+    // sets `visibility:hidden` so no invisible child keeps eating clicks — see v1.100.2).
+    if (this._landEl || this._landFilmEl) {
+      if (open) { this._suppressLand(true); this._landPaneHid = true; }
+      else if (this._landPaneHid) { this._suppressLand(false); this._landPaneHid = false; }
     }
     if (open !== wasShown && this.renderChallengeCue) this.renderChallengeCue(); // cue hides while the pane is up
     if (open) this.renderPaneAnchor(); // bottom anchor: stats + guest save nudge, fresh on every apply

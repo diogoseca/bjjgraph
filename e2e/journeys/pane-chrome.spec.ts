@@ -540,3 +540,73 @@ test.describe("deliberate screens outrank ambient overlays", () => {
     await expect(page.locator(".ng-drill"), "the next Esc closes the pane (law unchanged)").toBeHidden()
   })
 })
+
+/**
+ * THE PANE IS IN FRONT OF THE GAME CARD, AT EVERY WIDTH.
+ *
+ * The card is `min(520px, 100vw - 32px)` and CENTRED; the pane is 360px on the left. At 1440
+ * they miss each other, at 1024 they overlap by 108px — and the card wins, because the pane's
+ * own `z-index:8` is trapped inside the `position:fixed` app wrap (its own stacking context)
+ * while the card is a root-plane child at z:5. Owner: "the left side pane should always appear
+ * in front of the current node's dialog, not hidden behind it — the game pauses when the left
+ * pane is open." That second clause is the argument: nothing is running, so nothing is lost by
+ * standing the card down until the pane closes.
+ */
+for (const width of [1440, 1024]) {
+  test(`the pane paints over the game card at ${width}px, and the roll is paused behind it`, async ({
+    page,
+  }) => {
+    await page.setViewportSize({ width, height: 800 });
+    const j = journey(page);
+    await j.boot("/");
+    await j.land("Mount Top");
+    await j.advance(1200);
+
+    const card = await page.evaluate(() => {
+      const a = (window as any).__neural;
+      const r = a._landEl ? a._landEl.getBoundingClientRect() : null;
+      return { left: r ? Math.round(r.left) : null, right: r ? Math.round(r.right) : null, paused: a.paused };
+    });
+    expect(card.left, "premise: the game card is up").not.toBeNull();
+    expect(card.paused, "premise: the roll is running").toBe(false);
+
+    await page.evaluate(() => (window as any).__neural.openPane("explore"));
+    await j.advance(600);
+
+    const st = await page.evaluate(() => {
+      const a = (window as any).__neural;
+      const pane = a.drillRef.current as HTMLElement;
+      const pr = pane.getBoundingClientRect();
+      // the pane's own middle: whatever is there is what a click reaches
+      const at = document.elementFromPoint(
+        Math.round(pr.left + pr.width / 2),
+        Math.round(pr.top + pr.height / 2),
+      );
+      const cs = a._landEl ? getComputedStyle(a._landEl) : null;
+      const fs = a._landFilmEl ? getComputedStyle(a._landFilmEl) : null;
+      return {
+        overlap: Math.max(0, Math.round(pr.right) - (a._landEl ? Math.round(a._landEl.getBoundingClientRect().left) : 1e9)),
+        hitInPane: !!(at && pane.contains(at)),
+        cardVisibility: cs ? cs.visibility : null,
+        filmVisibility: fs ? fs.visibility : null,
+        paused: a.paused,
+      };
+    });
+
+    expect(st.hitInPane, "the pane owns its own middle").toBe(true);
+    expect(st.cardVisibility, "the card stands down while the pane is up").toBe("hidden");
+    if (st.filmVisibility) expect(st.filmVisibility, "and so does its film strip").toBe("hidden");
+    expect(st.paused, "pane law: open = paused").toBe(true);
+
+    // ...and it comes back, unchanged, on close
+    await page.evaluate(() => (window as any).__neural.setDeckOpen(false));
+    await j.advance(600);
+    const back = await page.evaluate(() => {
+      const a = (window as any).__neural;
+      const cs = a._landEl ? getComputedStyle(a._landEl) : null;
+      return { visibility: cs ? cs.visibility : null, paused: a.paused };
+    });
+    expect(back.visibility, "the card returns when the pane closes").toBe("visible");
+    expect(back.paused, "and the roll resumes with it").toBe(false);
+  });
+}

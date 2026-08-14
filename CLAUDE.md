@@ -926,6 +926,18 @@ and a stale `_nodeCardOn` would keep the tray faded and the canvas glyph crossfa
   `data-list-surface="dossier"` capture are unreachable from the app (only `first-impression`
   calls `renderDossier` directly). Deleting them removes the **stage-3 recall** question that
   surface carried, which needs a home on the game card first.
+- **THE PANE PAINTS OVER THE GAME CARD, AT EVERY WIDTH (v1.101.7).** The card is
+  `min(520px, 100vw - 32px)` and CENTRED; the pane is 360px on the left. They miss each other at
+  1440 and overlap by **108px at 1024** — and the card won, because the pane's `z-index:8` is
+  trapped inside the `position:fixed` app wrap (its own stacking context) while the card is a
+  root-plane child at z:5. The phone rule ("hide the card while the drawer is up") was written as
+  mobile-only on the reasoning that "desktop is untouched — there the card sits beside the left
+  pane by design", which was true at one width and false below it. Owner: *"the left side pane
+  should always appear in front of the current node's dialog, not hidden behind it — the game
+  pauses when the left pane is open"*. That second clause is the argument: nothing is running, so
+  standing the card down costs nothing, and it returns unchanged on close. `_suppressLand` is the
+  seam (it takes the film strip too, and sets `visibility:hidden`, so no invisible child keeps
+  eating clicks). Pinned at 1440 AND 1024 by `pane-chrome.spec.ts`.
 - **`attachInput` MUST NAME EVERY FIXED OVERLAY THAT OWNS CONTROLS (v1.101.5).** Its pointerdown
   calls `setPointerCapture` on the wrap, which retargets pointerup, so the browser resolves the
   click to the down/up common ancestor and a listener inside an overlay never fires. Fourth

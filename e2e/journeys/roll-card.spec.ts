@@ -299,6 +299,9 @@ test("the card's corner capture really is clickable, by mouse", async ({ page })
     return n.id
   })
   await j.advance(900)
+  // the card enters on a REAL-time CSS animation (ngCardInX, .28s) and `advance` pumps the
+  // SIMULATED clock — so a click dispatched immediately lands on a card still fading in
+  await page.waitForTimeout(400)
 
   const sel = `[data-list-add="${id}"][data-list-surface="land"]`
   await j.clickByMouse(sel, "the card's corner capture")
