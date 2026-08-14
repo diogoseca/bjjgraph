@@ -264,7 +264,7 @@ test("New list names and files in one action — the YouTube 'new playlist' row 
 
 // ─────────────────────────────────────── 4. zero and one list stay one tap
 
-test("with nothing to choose the + stays ONE tap — and the create row is one tap from the ✓ @curated", async ({
+test("the + ALWAYS asks — nothing is filed into a list the reader did not choose @curated", async ({
   page,
 }) => {
   const j = journey(page);
@@ -273,13 +273,35 @@ test("with nothing to choose the + stays ONE tap — and the create row is one t
   const [tech, other] = await pickNodes(page, 2);
   await openExplore(page);
 
-  // ZERO lists: no empty picker, no naming ceremony — capture, then tell them where it went
+  // v1.101.9 overturns the old "one destination, one tap" shortcut. Owner: "list of lists should
+  // show before adding anything, instead of showing it already green and saying 'added to list
+  // whatever was being added last' — rather let the user select which list to add to. dont
+  // assume." One list is only unambiguous the FIRST time; after that `activeListId` is whichever
+  // list was last created or touched, which nobody picked.
+  //
+  // ZERO lists: it still asks — and opens straight into the name field, so the first capture is
+  // one decision rather than one tap plus a surprise.
   const add = await exploreAddFor(page, tech);
   await add.click();
   await expect(
     page.locator("[data-list-picker]"),
-    "an empty picker asks a question with one possible answer",
-  ).toHaveCount(0);
+    "the + asks even with nothing to choose from",
+  ).toBeVisible();
+  await expect(
+    page.locator("[data-list-pick-newname]"),
+    "…by offering the name field, not an empty menu",
+  ).toBeVisible();
+  expect(
+    await page.evaluate(() => {
+      const a = (window as any).__neural;
+      return Object.values(a.lists || {}).some((l: any) => (l.items || []).length);
+    }),
+    "and files NOTHING before a destination exists",
+  ).toBe(false);
+
+  // name it and commit: that is the first capture, explicitly
+  await page.locator("[data-list-pick-newname]").fill("Tuesday");
+  await page.locator("[data-list-pick-newname]").press("Enter");
   const first = await page.evaluate(() => {
     const a = (window as any).__neural;
     return { n: Object.keys(a.lists).length, items: a.lists[a.activeListId].items };
@@ -287,10 +309,15 @@ test("with nothing to choose the + stays ONE tap — and the create row is one t
   expect(first.n).toBe(1);
   expect(first.items).toEqual([tech.id]);
 
-  // ONE list: still one tap for a NEW technique — there is exactly one destination
+  // ONE list: it asks again. "The only list you have" is a destination worth confirming, not one
+  // worth assuming — and the same menu is where a second list gets created.
   const add2 = await exploreAddFor(page, other);
   await add2.click();
-  await expect(page.locator("[data-list-picker]")).toHaveCount(0);
+  await expect(page.locator("[data-list-picker]"), "one list still asks").toBeVisible();
+  const rows = page.locator("[data-list-pick]");
+  await expect(rows, "with the one list on offer").toHaveCount(1);
+  await expect(page.locator("[data-list-pick-new]"), "…and a way to make another").toBeVisible();
+  await rows.first().click();
   expect(
     await page.evaluate(() => {
       const a = (window as any).__neural;
@@ -298,8 +325,8 @@ test("with nothing to choose the + stays ONE tap — and the create row is one t
     }),
   ).toBe(2);
 
-  // …but pressing + on an ALREADY-captured technique opens the picker at any list count, so
-  // "put this in a new list" is one tap from a ✓ on every surface
+  // and pressing + on an ALREADY-captured technique asks too, so "put this in a new list" is
+  // always one tap from a ✓
   const again = await exploreAddFor(page, other);
   await expect(again).toHaveAttribute("aria-pressed", "true");
   await again.click();

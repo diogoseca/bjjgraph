@@ -18,6 +18,27 @@ type Any = any
  * in place instead of opening anything.
  */
 
+
+/** Give the CURRENT state an authored dossier, so it actually has a `More` to open.
+ *  The DSL serves `{}` for content chunks by design, and since v1.101.9 a state with nothing
+ *  behind `More` renders no `More` at all — so a journey about the fold has to author one. */
+const seedDossier = async (page: Any) => {
+  await page.evaluate(() => {
+    const a = (window as Any).__neural
+    const key = a.deckKeyFor(a.nodes[a.currentPos]).key
+    const w = window as Any
+    w.NG_CONTENT = w.NG_CONTENT || {}
+    w.NG_CONTENT.decks = w.NG_CONTENT.decks || {}
+    w.NG_CONTENT.decks[key] = {
+      def: "A seeded one-line definition for this state.",
+      principles: ["Seeded principle one", "Seeded principle two"],
+      counters: ["Seeded counter"],
+    }
+    a._landQ = null
+    a.renderLandCard(a.nodes[a.currentPos], "land", null)
+  })
+}
+
 const landed = (page: Any) =>
   page.evaluate(() => {
     const a = (window as Any).__neural
@@ -117,6 +138,7 @@ test("More unfolds the card in place — it does not open another container", as
   await j.boot("/")
   await j.land("Mount Top")
   await j.advance(1200)
+  await seedDossier(page)
 
   const body = page.locator("[data-land-more-body]")
   await expect(body, "the fold exists from the first render").toHaveCount(1)
@@ -226,6 +248,10 @@ test("a node you are NOT standing on still opens the GAME CARD, never a second s
   const tech = await page.evaluate(() => {
     const a = (window as Any).__neural
     const n = a.nodes.find((x: Any) => x.idx !== a.currentPos && x.ty === "transitions")
+    // author something behind `More`, or v1.101.9 renders no `More` and nothing to unfold
+    const w = window as Any
+    w.NG_CONTENT = w.NG_CONTENT || {}; w.NG_CONTENT.decks = w.NG_CONTENT.decks || {}
+    w.NG_CONTENT.decks[n.t] = { def: "Seeded.", principles: ["Seeded principle"] }
     a.openDossier(n.idx)
     return { id: n.id, t: n.t }
   })
@@ -258,6 +284,11 @@ test("a node you are NOT standing on still opens the GAME CARD, never a second s
   // That fallthrough is exactly how the sheet appeared over "Your current position".
   await page.evaluate(() => {
     const a = (window as Any).__neural
+    // author something for THIS state too, so "unfolded" is a claim that can be made at all
+    const key = a.deckKeyFor(a.nodes[a.currentPos]).key
+    const w = window as Any
+    w.NG_CONTENT = w.NG_CONTENT || {}; w.NG_CONTENT.decks = w.NG_CONTENT.decks || {}
+    w.NG_CONTENT.decks[key] = { def: "Seeded.", principles: ["Seeded principle"] }
     a.clearLandCard()
     a.openDossier(a.currentPos)
   })
@@ -305,6 +336,17 @@ test("the card's corner capture really is clickable, by mouse", async ({ page })
 
   const sel = `[data-list-add="${id}"][data-list-surface="land"]`
   await j.clickByMouse(sel, "the card's corner capture")
+  await j.advance(200)
+  // v1.101.9: the `+` NEVER files on its own — it asks. One list still asks, because "the last
+  // list you touched" is not a destination the user chose.
+  await expect(page.locator("[data-list-picker]"), "the + asks where it goes").toHaveCount(1)
+  expect(
+    await page.evaluate(() =>
+      Object.values((window as Any).__neural.lists || {}).some((l: Any) => (l.items || []).length),
+    ),
+    "and files nothing until a list is picked",
+  ).toBe(false)
+  await j.clickByMouse("[data-list-pick]", "the destination the reader chose")
   await j.advance(300)
   expect(
     await page.evaluate((nid: string) => {

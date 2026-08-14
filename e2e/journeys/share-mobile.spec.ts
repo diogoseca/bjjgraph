@@ -388,6 +388,18 @@ test("a coach captures a TECHNIQUE from the live hand with a real tap at real co
   // view first), no window.__neural.
   await page.touchscreen.tap(sheetAdd.x, sheetAdd.y);
 
+  // v1.101.9: the capture ASKS — it never files into a list the coach did not choose. On a fresh
+  // profile there is no list yet, so the picker opens straight into the name field; naming it is
+  // what commits. Still one decision, just an explicit one.
+  await expect(page.locator("[data-list-picker]"), "the + asks where it goes").toBeVisible();
+  const nameField = page.locator("[data-list-pick-newname]");
+  if (await nameField.count()) {
+    await nameField.fill("Tuesday");
+    await nameField.press("Enter");
+  } else {
+    await page.locator("[data-list-pick]").first().click();
+  }
+
   const after = await page.evaluate(() => {
     const a = (window as any).__neural;
     const id = a.activeListId;
@@ -398,7 +410,7 @@ test("a coach captures a TECHNIQUE from the live hand with a real tap at real co
       committed: (a.beats || []).filter((b: any) => b.beat === "commit").length,
     };
   });
-  expect(after.items, "one tap captures the TECHNIQUE the sheet is about").toEqual([targetId]);
+  expect(after.items, "the picked list holds the TECHNIQUE the sheet is about").toEqual([targetId]);
   expect(
     after.types,
     `…and what got captured is a TECHNIQUE, not the position the coach happened to be in ` +

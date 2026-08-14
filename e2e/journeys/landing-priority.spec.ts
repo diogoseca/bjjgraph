@@ -122,6 +122,19 @@ test("everything that is NOT priority stays behind More", async ({ page }) => {
   await j.boot("/");
   await j.land("Mount Top");
 
+  // v1.101.9: a state with nothing behind `More` renders no `More`. Author one, so this journey
+  // is about what stays BEHIND the fold rather than about whether the fold exists.
+  await page.evaluate(() => {
+    const a = (window as any).__neural;
+    const key = a.deckKeyFor(a.nodes[a.currentPos]).key;
+    const w = window as any;
+    w.NG_CONTENT = w.NG_CONTENT || {};
+    w.NG_CONTENT.decks = w.NG_CONTENT.decks || {};
+    w.NG_CONTENT.decks[key] = { def: "Seeded.", principles: ["Seeded principle"] };
+    a._landQ = null;
+    a.renderLandCard(a.nodes[a.currentPos], "land", null);
+  });
+
   const card = page.locator("[data-landcard]");
   const body = ((await card.textContent()) || "").toLowerCase();
   // the dossier's deep sections must not leak onto the landing
@@ -175,6 +188,7 @@ test("turning questions off leaves the identity card but asks nothing", async ({
   await page.evaluate(() => {
     const a = (window as any).__neural;
     a.set("landQuestions", false);
+    a._landQ = null;
     a.renderLandCard(a.nodes[a.currentPos], "land", null);
   });
   await expect(
@@ -189,6 +203,7 @@ test("turning questions off leaves the identity card but asks nothing", async ({
   await page.evaluate(() => {
     const a = (window as any).__neural;
     a.set("landQuestions", true);
+    a._landQ = null;
     a.renderLandCard(a.nodes[a.currentPos], "land", null);
   });
   await expect(
@@ -208,6 +223,7 @@ test("a state you have proven greets you without a question", async ({
     const a = (window as any).__neural;
     const key = a.deckKeyFor(a.nodes[a.currentPos]).key;
     for (const c of a.flashcards.decks[key].cards) a._bumpStage(key, c.q, 4);
+    a._landQ = null;
     a.renderLandCard(a.nodes[a.currentPos], "land", null);
   });
 

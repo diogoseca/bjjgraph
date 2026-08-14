@@ -156,6 +156,11 @@ test("a coach collects today's class into a list from the surfaces they are alre
     "every Explore result carries an add affordance",
   ).toBeVisible();
   await row.click();
+  // v1.101.9: the + ALWAYS asks. With no list yet the picker opens straight into the name
+  // field, so a first capture is one explicit decision rather than a silent filing.
+  await expect(page.locator("[data-list-pick-newname]"), "it asks where it goes").toBeVisible();
+  await page.locator("[data-list-pick-newname]").fill("Class");
+  await page.locator("[data-list-pick-newname]").press("Enter");
 
   expect(
     await page.evaluate(() => {
@@ -163,7 +168,7 @@ test("a coach collects today's class into a list from the surfaces they are alre
       const id = a.activeListId;
       return { id, items: (a.lists[id] || {}).items };
     }),
-    "the first add creates today's list and puts the technique in it",
+    "naming the list is what creates it and puts the technique in it",
   ).toMatchObject({ items: [picks[0].id] });
   await j.expectBeat("list_item_added");
 
@@ -199,6 +204,9 @@ test("a coach collects today's class into a list from the surfaces they are alre
     "the opened technique's capture lands on screen after the flight",
   ).toBe(true);
   await dossierAdd.click();
+  // ...and the second asks too, with the one list on offer
+  await expect(page.locator("[data-list-picker]"), "the + asks again").toBeVisible();
+  await page.locator("[data-list-pick]").first().click();
 
   const stored = await page.evaluate(() => {
     const a = (window as any).__neural;

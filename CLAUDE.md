@@ -926,6 +926,39 @@ and a stale `_nodeCardOn` would keep the tray faded and the canvas glyph crossfa
   `data-list-surface="dossier"` capture are unreachable from the app (only `first-impression`
   calls `renderDossier` directly). Deleting them removes the **stage-3 recall** question that
   surface carried, which needs a home on the game card first.
+- **NO "ATTACKS FROM HERE" BEHIND `More` (v1.102.0).** The owner asked whether it was repeated
+  content, "since we anyway show options for the user to select (which are attacks / transitions /
+  edges out of this state)". It was worse than repetition. That block was RAW ADJACENCY — first
+  six neighbours, deduped by short name, with **no role filter and no origin filter** — while
+  `optionsFor()` builds the hand from the same adjacency and then keeps only what favours the side
+  you are playing and what actually originates here. Measured across all 272 position-role hands
+  (1,632 pills): **42.3%** originated at a DIFFERENT position, **35.4%** were the opponent's move
+  *and* from elsewhere, **10.8%** were the opponent's move, and only **11.5%** were legitimately
+  yours. It also overlapped the dealt hand by just 12.9%, so it did not even read as a summary of
+  the tray below it. **All 188 of the legitimate pills were already in the choices — 100%** — so
+  nothing was lost by deleting it. Zero SEO exposure: the string lived only in `neural.js` (and
+  still does, in the dead `renderDossier`), never in emitted HTML; a generated position page's
+  `<article>` never carried it.
+- **`More ▸` IS ONLY RENDERED WHEN THERE IS MORE (v1.102.0).** Owner: "if there is nothing to show
+  by clicking More then don't show the More". `_landMoreHTML(node)` returns the sections as a
+  string, or `""` — and `""` is the point: the foot draws no button, the body is not created, and
+  the old "Nothing more is authored for this state yet" placeholder is gone. ONE function serves
+  as both the predicate and the content, so the button and the panel can never disagree. It is
+  computed at render time (a few cache reads and a string), because the foot has to know before it
+  draws. NB journeys about the fold must AUTHOR content — the DSL serves `{}` for dossier chunks,
+  so most states legitimately have no `More` under test.
+- **THE CAPTURE PICKER ALWAYS OPENS — NOTHING IS ASSUMED (v1.102.0).** v1.99.5 took a shortcut:
+  zero or one list and not-yet-captured filed straight into `activeListId`. Owner: *"list of lists
+  should show before adding anything, instead of showing it already green and saying 'added to list
+  whatever was being added last' — rather let the user select which list to add to. dont assume."*
+  Right on both counts: "one list" is only unambiguous the FIRST time, and from the second onward
+  `activeListId` is whichever list was last created or touched — not a destination anyone chose —
+  while the ✓ that followed announced a filing they never made. `captureNode` is now just
+  `openListPicker`. The label lost its presumed destination too ("Add to a class list…", never
+  "Add to class list *Class · Aug 12*"). The canon this overturns — "do not tax capture with a
+  chooser, the option hand is on a clock" — was written when every option card carried its own
+  `+`; those went in v1.101.1, and what is left are surfaces you are already reading. Zero lists
+  opens straight into the name field, so a first capture is still one decision.
 - **THE PANE PAINTS OVER THE GAME CARD, AT EVERY WIDTH (v1.101.7).** The card is
   `min(520px, 100vw - 32px)` and CENTRED; the pane is 360px on the left. They miss each other at
   1440 and overlap by **108px at 1024** — and the card won, because the pane's `z-index:8` is

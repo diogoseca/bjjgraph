@@ -4502,8 +4502,9 @@ class Component extends DCLogic {
       const names = this.listsWith(nodeId).map((k) => "“" + m[k].name + "”");
       return { on: true, label: "In your class list" + (names.length > 1 ? "s " : " ") + names.join(", ") + " — choose where it goes" };
     }
-    const t = this.targetList();
-    return { on: false, label: t ? "Add to class list “" + m[t].name + "”" : "Add to a class list" };
+    // NO DESTINATION IN THE LABEL (v1.101.9). It used to read "Add to class list “Class · Aug 12”"
+    // — naming a list the user never picked, on a control that now always asks.
+    return { on: false, label: "Add to a class list…" };
   }
   _styleListAdd(el, nodeId) {
     const c = this._captureCopy(nodeId), on = c.on;
@@ -4653,7 +4654,7 @@ class Component extends DCLogic {
       this._pickHidLand = false;
       const lc = this._landEl;
       if (lc && this._dossierIdx == null) {
-        try { lc.style.removeProperty("opacity"); lc.style.pointerEvents = ""; } catch (e) { /* non-fatal */ }
+        try { lc.style.removeProperty("opacity"); lc.style.pointerEvents = ""; lc.style.removeProperty("visibility"); } catch (e) { /* non-fatal */ }
       }
     }
     const a = this._pickAnchor; this._pickAnchor = null; this._pickNode = null;
@@ -4724,6 +4725,12 @@ class Component extends DCLogic {
       try {
         this._landEl.style.setProperty("opacity", "0", "important");
         this._landEl.style.pointerEvents = "none";
+        // ...and `visibility`, which is the only one of the three that actually disarms it:
+        // pointer-events is inherited, and `[data-land-corner]` / `[data-land-foot]` re-enable it
+        // INLINE (they must — a fixed overlay's disabled pointer-events is inherited). Hit-testing
+        // ignores opacity, so without this the "hidden" card kept an invisible corner and footer
+        // live under the picker. Same fix, same reason, as v1.100.2.
+        this._landEl.style.setProperty("visibility", "hidden", "important");
       } catch (e) { /* non-fatal */ }
       this._pickHidLand = true;
     }
@@ -4861,21 +4868,26 @@ class Component extends DCLogic {
    * What a press of + does. The matrix is documented on the picker above; this is the seam
    * every surface's + and both dossier renderers route through, so no surface can drift.
    */
+  /**
+   * THE PICKER ALWAYS OPENS — NOTHING IS EVER ASSUMED (v1.101.9).
+   *
+   * v1.99.5 took a shortcut: with zero or one list and the technique not yet captured, the `+`
+   * filed it straight into `activeListId` — "unambiguous: one destination". Owner: "list of
+   * lists should show before adding anything, instead of showing it already green and saying
+   * 'added to list whatever was being added last' — rather let the user select which list to
+   * add to. dont assume." They are right on both counts. "One list" is only unambiguous the
+   * first time; from the second onward `activeListId` is whichever list was last created or
+   * touched, which is not a destination the user chose, and the ✓ that followed announced a
+   * filing they never made.
+   *
+   * The canon this overturns — "capture never blocks the option hand, so do not tax it with a
+   * chooser" — was written when every option card in the dealt hand carried its own `+`, mid-roll
+   * with the decision window draining. Those went in v1.101.1. What is left is the landing card's
+   * corner and the technique sheet: surfaces you are already reading, where a two-tap choice is
+   * a choice, not a tax. The picker's own create-inline row covers the zero-list case, so a first
+   * capture is still one decision — it is just an EXPLICIT one.
+   */
   captureNode(nodeId, surface, anchor) {
-    const n = this.listsArray().length;
-    if (!this.nodeInAnyList(nodeId) && n <= 1) {
-      // unambiguous: one destination (or none yet, which newList() supplies). One tap.
-      const r = this.addToList(nodeId);
-      const l = r.listId ? this._listsMap()[r.listId] : null;
-      if (r.added) {
-        this.setEvent("Added to “" + (l ? l.name : "today’s list") + "” · " + r.count + " technique" + (r.count === 1 ? "" : "s"), this.listItemName(nodeId), "good");
-        this.track("neural_list_item_added", { surface: surface || "unknown", count: r.count, via: "direct" });
-      } else if (r.reason === "full") {
-        this.setEvent("List is full", "A share link holds " + NG_LIST_ITEM_CAP + " techniques", "bad");
-      }
-      this._refreshListSurfaces();
-      return "added";
-    }
     this.openListPicker(nodeId, surface, anchor);
     return "picker";
   }
@@ -7554,11 +7566,18 @@ class Component extends DCLogic {
     // card used to carry now lives one affordance lower, inside the card you are already
     // reading — "the normal game container should be the default" (owner). Built lazily on the
     // first open, so a roll nobody expands never pays for it.
-    const moreBody = document.createElement("div");
-    moreBody.id = "ng-land-more";
-    moreBody.setAttribute("data-land-more-body", "1");
-    moreBody.style.cssText = "display:none;";
-    el.appendChild(moreBody);
+    // Computed at render time, not on first open: the FOOT has to know whether a `More` is
+    // warranted before it draws one. It is a few cache reads and a string, no DOM.
+    const moreHTML = this._landMoreHTML(node);
+    let moreBody = null;
+    if (moreHTML) {
+      moreBody = document.createElement("div");
+      moreBody.id = "ng-land-more";
+      moreBody.setAttribute("data-land-more-body", "1");
+      moreBody.style.cssText = "display:none;";
+      moreBody._ngMoreHTML = moreHTML;
+      el.appendChild(moreBody);
+    }
 
     // 6 — everything else is behind one affordance
     // STICKY: the card is `max-height:min(320px,40vh); overflow-y:auto`, and with a definition,
@@ -7572,14 +7591,16 @@ class Component extends DCLogic {
     const foot = document.createElement("div");
     foot.setAttribute("data-land-foot", "1");
     foot.style.cssText = "position:sticky;bottom:0;z-index:2;pointer-events:auto;display:flex;align-items:center;gap:12px;margin-top:9px;padding:8px 0 2px;background:linear-gradient(180deg,rgba(19,22,37,0),rgba(19,22,37,.94) 45%,rgba(19,22,37,.97));";
-    const more = document.createElement("button");
-    more.setAttribute("data-land-more", "1");
-    more.setAttribute("aria-expanded", "false");
-    more.setAttribute("aria-controls", "ng-land-more");
-    more.innerHTML = '<span data-land-more-label="1">More</span><span data-land-more-chevron="1" style="display:inline-block;transition:transform .22s cubic-bezier(.2,.7,.2,1);">▸</span>';
-    more.style.cssText = "cursor:pointer;font-family:inherit;font-size:10px;font-weight:700;letter-spacing:.09em;text-transform:uppercase;color:#7e8aa3;background:none;border:none;padding:2px 0;display:inline-flex;align-items:center;gap:5px;transition:color .16s;";
-    more.addEventListener("click", () => this.expandLandCard());
-    foot.appendChild(more);
+    if (moreBody) {
+      const more = document.createElement("button");
+      more.setAttribute("data-land-more", "1");
+      more.setAttribute("aria-expanded", "false");
+      more.setAttribute("aria-controls", "ng-land-more");
+      more.innerHTML = '<span data-land-more-label="1">More</span><span data-land-more-chevron="1" style="display:inline-block;transition:transform .22s cubic-bezier(.2,.7,.2,1);">▸</span>';
+      more.style.cssText = "cursor:pointer;font-family:inherit;font-size:10px;font-weight:700;letter-spacing:.09em;text-transform:uppercase;color:#7e8aa3;background:none;border:none;padding:2px 0;display:inline-flex;align-items:center;gap:5px;transition:color .16s;";
+      more.addEventListener("click", () => this.expandLandCard());
+      foot.appendChild(more);
+    }
     // THE COUNTER LIVES HERE NOW (v1.101.1), between `More ▸` and the capture `+`: it is a
     // control (it opens this state's flashcards), not a header ornament, and the owner asked for
     // it "bottom right same row as More". `margin-left:auto` on the chip is what pushes the pair
@@ -7671,7 +7692,12 @@ class Component extends DCLogic {
     this._landOpen = want;
     const node = this.nodes && this._landIdx != null ? this.nodes[this._landIdx] : null;
     if (want) {
-      if (!body.firstChild && node) body.appendChild(this._landMore(node));
+      if (!body.firstChild && body._ngMoreHTML) {
+        const box = document.createElement("div");
+        box.style.cssText = "margin-top:10px;padding-top:10px;border-top:1px solid rgba(150,170,210,.14);animation:ngMoreIn .22s cubic-bezier(.2,.7,.2,1);";
+        box.innerHTML = body._ngMoreHTML;
+        body.appendChild(box);
+      }
       body.style.display = "block";
       // the mobile max-height carries !important, so this one has to as well
       el.style.setProperty("max-height", "min(620px,74vh)", "important");
@@ -7695,9 +7721,15 @@ class Component extends DCLogic {
    * it. Film and the one-line definition are NOT repeated here; they are already above, because
    * they are what a player wants without asking.
    */
-  _landMore(node) {
-    const box = document.createElement("div");
-    box.style.cssText = "margin-top:10px;padding-top:10px;border-top:1px solid rgba(150,170,210,.14);animation:ngMoreIn .22s cubic-bezier(.2,.7,.2,1);";
+  /**
+   * The fuller sections as HTML, or "" when this state has none — and "" is the whole point:
+   * `More ▸` is only rendered when this returns something. Owner: "if there is nothing to show
+   * by clicking More then don't show the More". A control that opens onto "nothing more is
+   * authored for this state yet" is a dead affordance; the card should just be the card.
+   * ONE function for the predicate and the content, so the button and the panel can never
+   * disagree about whether there is anything behind it.
+   */
+  _landMoreHTML(node) {
     const info = this.ngContentFor(node) || {};
     const rc = this.richContentFor(node);
     const persp = rc && rc.perspectives ? rc.perspectives.attacker : null;
@@ -7719,25 +7751,22 @@ class Component extends DCLogic {
     const counters = (info.counters || (persp && persp.counters) || []).slice(0, 3);
     if (counters.length)
       h += '<div data-land-counters="1" style="margin-bottom:11px;">' + secHead("What beats it") + counters.map((c) => bullet(c, "#e8956b")).join("") + '</div>';
-    if (node.ty === "positions") {
-      // dedupe by display label — adjacent variants often collapse to the same short name
-      const seen = new Set(), pick = [];
-      for (const k of (this.adj && this.adj[node.idx]) || []) {
-        const nd = this.nodes[k]; if (!nd || nd.ty === "positions") continue;
-        const l = this.splitName(nd.t).main; if (seen.has(l)) continue;
-        seen.add(l); pick.push(k); if (pick.length >= 6) break;
-      }
-      if (pick.length)
-        h += '<div data-land-attacks="1">' + secHead("Attacks from here") + '<div style="display:flex;gap:5px;flex-wrap:wrap;">' + pick.map((k) =>
-          '<span class="lmAtk" data-i="' + k + '" style="cursor:pointer;font-size:10.5px;font-weight:700;color:#ff9a8f;background:rgba(242,104,95,.14);border-radius:999px;padding:4px 10px;">' + this.splitName(this.nodes[k].t).main + '</span>').join("") + '</div></div>';
-    }
-    // NEVER A SILENT SECTION — an empty box under "More" is a reader's dead end, same rule the
-    // question block follows.
-    if (!h) h = '<div data-land-more-empty="1" style="font-size:11.5px;line-height:1.45;color:#8b97b0;">Nothing more is authored for this state yet — the film and the question above are what it has.</div>';
-    box.innerHTML = h;
-    box.querySelectorAll(".lmAtk").forEach((a) =>
-      a.addEventListener("click", (e) => { e.stopPropagation(); this.openDossier(parseInt(a.getAttribute("data-i"), 10)); }));
-    return box;
+    // ── NO "ATTACKS FROM HERE" (v1.101.8) ───────────────────────────────────────────────────
+    // The owner asked whether it was repeated content, "since we anyway show options for the
+    // user to select (which are attacks / transitions / edges out of this state)". It was worse
+    // than repetition. That block was raw adjacency — first six neighbours, deduped by short
+    // name, with NO role filter and NO origin filter — while `optionsFor()` builds the hand from
+    // the same adjacency and then keeps only what favours the side you are playing and what
+    // actually originates here. Measured across all 272 position-role hands, 1,632 pills:
+    //   · 42.3%  originate at a DIFFERENT position
+    //   · 35.4%  the opponent's move, and from elsewhere
+    //   · 10.8%  the opponent's move
+    //   ·  11.5% legitimately yours from here
+    // So 88.5% of it told the reader they could do things they cannot, under a heading that
+    // said otherwise — and it overlapped the dealt hand by only 12.9%, so it did not even read
+    // as a summary of the tray below it. The hand IS the answer to "what can I do from here":
+    // role-correct, origin-correct, ordered, and already on screen.
+    return h;   // "" means: this state has nothing more, so it gets no `More` at all
   }
   /** Is the landing question settled — mounted, or definitively not coming? */
   landQuestionReady() { return !this._landWarmP; }
