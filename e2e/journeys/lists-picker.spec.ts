@@ -503,13 +503,16 @@ test.describe("in the 390px drawer", () => {
       `the picker owns its own centre (found ${stack.topWas}; picker z=${stack.pickerZ}, landcard z=${stack.landZ}, overlapping=${stack.overlapsLand})`,
     ).toBe(true);
     expect(Number(stack.pickerZ), "…from the deliberate-screen band").toBeGreaterThanOrEqual(90);
-    // …and the ambient card it shares that band with is OUT OF THE WAY. Owning the input is not
-    // enough: a control you can hit but cannot see is worse than a late one (v1.99.0). The
-    // landing card is the roll's chrome; the picker is a screen the user asked for.
+    // …and the card it shares that band with STAYS VISIBLE (v1.103.2). It used to be suppressed,
+    // on the reasoning that the picker's band is exactly where the card lives on a phone. Owner:
+    // the + "should show the list of lists to choose from without hiding ng-landcard" — and the
+    // z ladder already settles it, 90 over 5. Hiding what you were reading in order to answer a
+    // question ABOUT it is the wrong trade; owning the INPUT is what matters, and that is
+    // asserted above by `topIsPicker`.
     expect(
-      stack.landOpacity,
-      "the landing card is suppressed while the picker is up (the _suppressLand remedy)",
-    ).toBe("0");
+      Number(stack.landOpacity),
+      "the landing card is still readable behind the picker",
+    ).toBeGreaterThan(0.5);
 
     await page.screenshot({ path: resolve(SHOTS, "picker-390-option-card.png") });
 

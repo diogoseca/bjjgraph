@@ -1081,6 +1081,28 @@ score = Σ (weight_i × mastery_i),   Σ weight_i = 1
 
 **Settings additions:** Rolling tab gains *Questions while you roll* (`landQuestions`, default on — gates the QUESTION only; identity+film render regardless) and *Challenge cue* (visibility; it tracks the frontier belt). Flashcards tab's *Answer mode* defaults to Classic recall. Shortcuts lists `A B C D`.
 
+**THE PICKER NO LONGER HIDES WHAT YOU WERE READING (v1.103.2).** `openListPicker` used to suppress
+`.ng-landcard` while it was up, on the reasoning that on a phone the picker's band is exactly where
+the card sits. Owner: the `+` "should show the list of lists to choose from without hiding
+ng-landcard". The z ladder already settles it — the picker portals to the root plane at **90**, the
+card is **5** — so it owns the INPUT without taking the view. Hiding the thing you are reading in
+order to answer a question about it is the wrong trade. `lists-picker.spec.ts` asserts the card is
+still readable behind it AND that `elementFromPoint` at the picker's centre is the picker.
+
+**ONE CAMERA FRAMING, AIMED AT THE LABEL, IN THE MEASURED BAND (v1.103.2).** `rollFromPosition`
+hard-coded its own `vw: graphW * 0.42` with no offset and no lift, so clicking a node to navigate
+landed on a completely different composition from the one the roll settles into — the owner: "on
+random / auto roll it works well... almost". `rollCamTarget(f, moving)` is now the single seam both
+use.
+- **Vertically it centres the node's LABEL in the band that is actually free** — below the announce
+  block (`evRef`, when visible), above the film strip (or the card, when there is no film). MEASURED,
+  not a constant: the `0.34 * H` it replaces was tuned at 1440x900 and wrong at every other height.
+  And it aims at the LABEL, not the node's centre — `draw()` writes a submission's text `rs * 0.24`
+  below centre, so a triangle's label sat low by exactly that much. A degenerate band (< 80px)
+  falls back to the top band rather than producing nonsense.
+- **Horizontally, ~44% of the width**, unchanged from v1.101.1 and for the same reason: every name
+  hanging off a node runs left-to-right FROM it, so the room it needs is on its right.
+
 **THE UNFOLDED CARD, TWO FIXES (v1.103.1).**
 - **The definition was the SEO lead-in, not the definition.** 1144 of the 1598 authored `def`
   strings (72%) open with "Master <thing> in BJJ." — copy for the static page — and `mcClip` clips

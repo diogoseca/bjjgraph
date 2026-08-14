@@ -4752,13 +4752,6 @@ class Component extends DCLogic {
     try { this._pickEl.remove(); } catch (e) { /* non-fatal */ }
     this._pickEl = null;
     if (this._pickAway) { document.removeEventListener("pointerdown", this._pickAway, true); this._pickAway = null; }
-    if (this._pickHidLand) {
-      this._pickHidLand = false;
-      const lc = this._landEl;
-      if (lc && this._dossierIdx == null) {
-        try { lc.style.removeProperty("opacity"); lc.style.pointerEvents = ""; lc.style.removeProperty("visibility"); } catch (e) { /* non-fatal */ }
-      }
-    }
     const a = this._pickAnchor; this._pickAnchor = null; this._pickNode = null;
     if (a) { try { a.setAttribute("aria-expanded", "false"); a.focus(); } catch (e) { /* non-fatal */ } }
     return true;
@@ -4814,28 +4807,11 @@ class Component extends DCLogic {
     root.appendChild(el);
     this._pickEl = el; this._pickNode = nodeId; this._pickAnchor = anchor || null;
     this._pickNewOpen = !this.listsArray().length; // no lists -> the create row IS the picker
-    // THE LANDING CARD GETS OUT OF THE WAY. On a phone the picker's band (the strip clear of the
-    // option tray) is exactly where `.ng-landcard` lives, and measured there the card painted over
-    // the menu — a control you can hit but cannot see is worse than a late one (v1.99.0). The card
-    // is the roll's ambient chrome; the picker is a screen the user asked for, so the card yields.
-    //
-    // `!important` is REQUIRED, not defensive: `.ng-landcard` carries `animation:ngCardInX .28s`,
-    // and a running CSS animation outranks a plain inline declaration — a bare `style.opacity="0"`
-    // is simply ignored while it plays, and _landBackfill builds a FRESH card (new animation)
-    // whenever a deck chunk lands. Only OUR hide is undone on close.
-    if (this._landEl && this._dossierIdx == null) {
-      try {
-        this._landEl.style.setProperty("opacity", "0", "important");
-        this._landEl.style.pointerEvents = "none";
-        // ...and `visibility`, which is the only one of the three that actually disarms it:
-        // pointer-events is inherited, and `[data-land-corner]` / `[data-land-foot]` re-enable it
-        // INLINE (they must — a fixed overlay's disabled pointer-events is inherited). Hit-testing
-        // ignores opacity, so without this the "hidden" card kept an invisible corner and footer
-        // live under the picker. Same fix, same reason, as v1.100.2.
-        this._landEl.style.setProperty("visibility", "hidden", "important");
-      } catch (e) { /* non-fatal */ }
-      this._pickHidLand = true;
-    }
+    // THE LANDING CARD STAYS PUT (v1.103.2). It used to be hidden while the picker was up, on the
+    // reasoning that on a phone the picker's band is exactly where the card lives. Owner: the +
+    // "should show the list of lists to choose from without hiding ng-landcard". Right — the
+    // picker is z:90 on the root plane and the card is z:5, so it already paints above it; hiding
+    // the thing you were reading in order to answer a question ABOUT it is the wrong trade.
     if (anchor) anchor.setAttribute("aria-expanded", "true");
     this.renderListPicker();
     this._placeListPicker(el, anchor);
@@ -8523,7 +8499,9 @@ class Component extends DCLogic {
     this.currentPos = posIdx; this.focusIdx = posIdx; this.pulse = null; this.activeMove = null;
     this.camFocus = { x: this.nodes[posIdx].x, y: this.nodes[posIdx].y };
     this.releaseCamera(); // roaming/staging elsewhere ends the focus lease (the user chose a node)
-    this.camTarget = { cx: this.nodes[posIdx].x, cy: this.nodes[posIdx].y, vw: this.graphW * 0.42 };
+    // the SAME framing the settled follow-cam uses — a click that navigates must not land on a
+    // different composition than the roll does (v1.103.2)
+    this.camTarget = this.rollCamTarget({ x: this.nodes[posIdx].x, y: this.nodes[posIdx].y }, false);
     this.prevPosVal = this.myVal(this.nodes[posIdx]);
     this._played = false;                        // nothing counts until it runs unpaused
     this.hideCenter(); this.setPaused(!!staged); // staged: land here, but hold the clock
@@ -9171,6 +9149,52 @@ class Component extends DCLogic {
 
   // ---------- camera ----------
   userActiveNow() { return this.now - (this.lastInteract || -99) < 4; }
+  /**
+   * WHERE THE CAMERA PUTS THE STATE YOU ARE PLAYING (v1.103.2) — ONE function, so a click that
+   * navigates and the settled follow-cam cannot land on different compositions.
+   *
+   * Travel pulls back so a move reads as a move; settled, it closes to ROLL_ZOOM, where the canvas
+   * draws the state's own name and role inside the node (which is why the landing card stopped
+   * repeating them). Horizontally it sits slightly LEFT of centre: every name hanging off a node
+   * runs left-to-right FROM it, so the room a node needs is on its right.
+   *
+   * Vertically it centres the node's LABEL in the band that is actually free — below the announce
+   * block, above the film strip (or the card, when there is no film). That band is MEASURED. The
+   * constant it replaces (`0.34 * H`) was right at 1440x900 and wrong everywhere else, and it
+   * aimed at the node's centre while the eye reads the label: `draw()` writes a submission's text
+   * `rs * 0.24` below centre, so a triangle's label sat low by exactly that much.
+   */
+  rollCamTarget(f, moving) {
+    const vw = moving
+      ? Math.max(this.graphW * 0.3, this.graphR * 0.7)
+      : this.graphW * this.ROLL_ZOOM;
+    const H = this.H || 800, W = this.W || 1200;
+    let top = 16;
+    const ev = this.evRef && this.evRef.current;
+    if (ev) {
+      try {
+        const r = ev.getBoundingClientRect();
+        if (r.height > 0 && getComputedStyle(ev).opacity !== "0") top = Math.max(top, r.bottom + 12);
+      } catch (e) { /* non-fatal */ }
+    }
+    let bot = H - 240;
+    for (const el of [this._landFilmEl, this._landEl]) {
+      if (!el) continue;
+      try {
+        const r = el.getBoundingClientRect();
+        if (r.height > 0) { bot = Math.min(bot, r.top - 12); break; }
+      } catch (e) { /* non-fatal */ }
+    }
+    if (bot - top < 80) { top = 16; bot = Math.max(120, H * 0.42); }   // no room: use the top band
+    const wantY = (top + bot) / 2;
+    const scale = W / vw;
+    const n = this.nodes && this.focusIdx >= 0 ? this.nodes[this.focusIdx] : null;
+    const nodeK = Math.max(0.4, Math.min(1, vw / (this.graphW * 0.5)));
+    const labelOff = n && n.ty === "submissions" ? n.r * nodeK * scale * 0.24 : 0;
+    // screen y = (n.y - cy) * scale + H/2  =>  cy = n.y - (wantY - H/2)/scale
+    const cy = f.y + labelOff / scale - (wantY - H / 2) / scale;
+    return { cx: f.x + 0.06 * vw, cy: cy, vw: vw };
+  }
   updateCamera(dt) {
     const el = this.now - this.startTime;
     // a lease taken before there was a clock starts counting now (see holdCamera)
@@ -9205,34 +9229,8 @@ class Component extends DCLogic {
         const br = 1 + 0.03 * Math.sin(this.now * 0.22);
         tgt = { cx: this.gcx + 9 * Math.sin(this.now * 0.07), cy: this.gcy + 7 * Math.cos(this.now * 0.06), vw: this.graphW * 1.02 * br };
       } else {
-        const f = this.camFocus;
-        // THE ROLL SITS ON THE NODE, NOT OVER THE MAP (v1.101.0). Travel still pulls back, so a
-        // move reads as a move and you can see where you are being taken; the moment it settles
-        // the camera closes to ROLL_ZOOM. At that distance the canvas draws the state's name and
-        // role inside the node — the landing card no longer has to repeat them.
-        // The old `graphR * 0.7` floor is deliberately gone from the settled case: it is a
-        // whole-graph measure, it dominated the number beside it, and leaving it in would have
-        // made ROLL_ZOOM change nothing at all.
-        const vw = this.pulse
-          ? Math.max(this.graphW * 0.3, this.graphR * 0.7)
-          : this.graphW * this.ROLL_ZOOM;
-        // HORIZONTAL: CENTRE, BIASED SLIGHTLY LEFT (v1.101.1). It used to sit 156px RIGHT of
-        // centre, to clear the left pane — but the pane is manual-only and closed for almost the
-        // whole roll, so the permanent cost was paid for a rare state. Owner: "the selected node
-        // should also be center middle, or even center left (as text on it reads left to right)
-        // but usually it's just center right (which causes text to be mostly displayed on the
-        // right, sometimes cutoff)". Both names hanging off a node run LEFT-TO-RIGHT from it —
-        // the in-node lines wrap around its centre and `richLabel()` starts at its right edge —
-        // so the room a node needs is on its right. Parking it at ~44% of the width gives it
-        // that room instead of pushing it into the edge it would be clipped by.
-        const offset = -0.06 * vw;
-        // ...AND UP, INTO THE ONLY CLEAR BAND ON THE SCREEN. Measured at 1440x900: the focus node
-        // centred at y=450 with the landing card occupying y=362..900 and the option tray below
-        // it — so the state you are playing sat squarely BEHIND the card that talks about it, at
-        // every zoom. It was invisible while the camera was wide; closing to ROLL_ZOOM made it
-        // the whole composition. Park the node at 22% of viewport height, where nothing else is.
-        const lift = (0.34 * this.H * vw) / this.W;
-        tgt = { cx: f.x - offset, cy: f.y + lift, vw: vw };
+        // ONE framing function, so a click and the follow-cam cannot disagree (v1.103.2).
+        tgt = this.rollCamTarget(this.camFocus, !!this.pulse);
       }
     }
     // while paused or reading an in-node dossier, suppress only the AUTO-retarget — the tween
