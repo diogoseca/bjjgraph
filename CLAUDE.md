@@ -926,6 +926,29 @@ and a stale `_nodeCardOn` would keep the tray faded and the canvas glyph crossfa
   `data-list-surface="dossier"` capture are unreachable from the app (only `first-impression`
   calls `renderDossier` directly). Deleting them removes the **stage-3 recall** question that
   surface carried, which needs a home on the game card first.
+- **THE OPTION-DETAIL SHEET GETS ITS DESIGN PASS (v1.102.1).** Owner, opening a technique from the
+  hand: "it's very ugly! this should rather match the same design as in small, except with more
+  detail but very properly well designed, right now it looks just like a prototype". Four things
+  were wrong and all four were measurable:
+  · **Prose collapsed into a wall.** Authored copy carries real paragraph breaks — **939 of the 997**
+    entries that have both a summary and a context do (94%) — and dropping it into `innerHTML`
+    collapsed every one, so three paragraphs arrived as one run-on with sentences colliding at the
+    joins ("…over the shoulder.Strategically, the Triangle from Back is…"). `proseHTML()` splits on
+    newlines and emits real `<p>`s. That single missing split was most of the "prototype" feel.
+  · **The overview printed TWICE.** `rc.context` is a near-duplicate of the attacker summary —
+    **205 of 997 (21%)** are >80% the same text, and for the reported node it was 92.2% similar with
+    a 1,534-character identical run. `_echoesSummary()` suppresses the tail when it merely repeats
+    what is already at the top. The static page keeps its copy either way; this is the app surface.
+  · **The head is now the OPTION CARD, enlarged** — the card's exact three-part anatomy (glyph +
+    CATEGORY with the potential opposite it, the name, then a bordered success row), so the card you
+    pressed grows into this instead of becoming a different object. Owner: "improve visual continuity
+    and coherence".
+  · **Chrome moved to where the game card keeps it.** The labelled "+ Add to class" footer button is
+    gone; capture is the compact glyph beside the ✕ in the corner (`[data-sheet-corner]`), with a
+    44px hit area on mobile (`"sheet"` joins `_listAddButton`'s thumb list). The perspective toggle
+    and "Play from here" left the header for the footer — "play from here (as attacker / as
+    defender) should show not on top" — because a sheet whose first row is a pair of controls reads
+    as a toolbar, and one whose first row is a name reads as a technique.
 - **NO "ATTACKS FROM HERE" BEHIND `More` (v1.102.0).** The owner asked whether it was repeated
   content, "since we anyway show options for the user to select (which are attacks / transitions /
   edges out of this state)". It was worse than repetition. That block was RAW ADJACENCY — first

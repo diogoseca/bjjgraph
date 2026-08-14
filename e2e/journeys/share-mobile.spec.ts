@@ -364,14 +364,9 @@ test("a coach captures a TECHNIQUE from the live hand with a real tap at real co
     Math.min(sheetAdd.w, sheetAdd.h),
     `a full-width sheet has room for a real thumb target (got ${sheetAdd.w}x${sheetAdd.h})`,
   ).toBeGreaterThanOrEqual(44);
-  // …and it is LABELLED, which was claimed of it while its entire text was "+" and its only
-  // words lived in a `title` attribute — a tooltip, on a device with no hover.
-  const sheetText = (
-    (await page.locator('[data-list-add][data-list-surface="sheet"]').textContent()) || ""
-  ).replace(/\s+/g, " ").trim();
-  expect(sheetText, `the sheet's capture says what it does in words (got "${sheetText}")`).toMatch(
-    /class/i,
-  );
+  // v1.102.1: the capture is the compact corner glyph beside the ✕, not a labelled footer button
+  // (owner's call) — so the WORDS live in the accessible name, which is the thing a screen reader
+  // and a long-press actually read. A `title` alone would not do: this is a device with no hover.
   expect(
     await page.locator('[data-list-add][data-list-surface="sheet"]').getAttribute("aria-label"),
     "and every capture carries a real accessible name, not a title attribute",
@@ -386,7 +381,13 @@ test("a coach captures a TECHNIQUE from the live hand with a real tap at real co
 
   // THE PROOF: a real trusted touch tap at those coordinates. No locator.click (it scrolls into
   // view first), no window.__neural.
-  await page.touchscreen.tap(sheetAdd.x, sheetAdd.y);
+  // RE-MEASURE immediately before the tap. The capture moved into the sheet's header corner in
+  // v1.102.1, and the sheet slides on a real-time transition — coordinates taken while it was
+  // still settling point at where the control WAS.
+  await page.waitForTimeout(400);
+  const finalAim = await reach(page, '[data-list-add][data-list-surface="sheet"]');
+  expect(finalAim.hit, "the corner capture is what a thumb finds there").toBe("the control");
+  await page.touchscreen.tap(finalAim.x, finalAim.y);
 
   // v1.101.9: the capture ASKS — it never files into a list the coach did not choose. On a fresh
   // profile there is no list yet, so the picker opens straight into the name field; naming it is
