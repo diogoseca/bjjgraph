@@ -1081,6 +1081,51 @@ score = Σ (weight_i × mastery_i),   Σ weight_i = 1
 
 **Settings additions:** Rolling tab gains *Questions while you roll* (`landQuestions`, default on — gates the QUESTION only; identity+film render regardless) and *Challenge cue* (visibility; it tracks the frontier belt). Flashcards tab's *Answer mode* defaults to Classic recall. Shortcuts lists `A B C D`.
 
+**ROLE CORRECTNESS: WHO MAY PERFORM A MOVE (v1.103.0).** The owner, mid-roll: "I thought our last
+position was Bottom Rear Triangle ... you're open to being finished from Triangle, not finishing
+anybody, so they shouldn't be available to me right?" Right — and chasing it found three defects.
+
+- **`s` IS TWO DIFFERENT PAIRS.** A POSITION carries `[top, bottom]`; a TECHNIQUE carries
+  `[attacker, defender]` and is always antisymmetric (verified: 0 of 1328 asymmetric;
+  `scripts/enrich_graph_strength.py:18` states it). `roleIdx()` indexed BOTH with a top/bottom
+  index, so every bottom-performed technique was read as its opponent's value. Measured: **a bottom
+  player was shown ZERO of the 297 submission nodes** (every submission scores ≈ +0.90 for its
+  attacker), and 144 of the 596 bottom-authored techniques — the 60 submissions + 84 sweeps that are
+  EV-positive — were exactly what got discarded. `valIdx(node)` now picks the slot by PERFORMER for
+  techniques and by side for positions.
+- **THE PERFORMER IS READ, NOT INFERRED.** `optionsFor` used `myVal < oppVal - 0.05` ("the
+  beneficiary is the performer"). That is a heuristic over a score; the data states the performer
+  outright in every technique's `fromRole`. It now reads it — and so does the no-candidates
+  fallback, which relaxes ORIGIN but must never relax ROLE. A wrong role is now a content bug, and
+  `validate_graph_integrity`'s `from_position_role_mismatch` names all 65.
+- **40% OF POSITIONS SHIPPED THEIR PARENT'S STRENGTH.** `enrich_graph_strength.py` globbed
+  `content/Positions/*.json` NON-recursively, so the 54 nested files never loaded and inherited
+  their hub via the parent fallback — whose own comment said variations "carry only
+  name/slug/description, no metrics of their own", **false for all 54 of 54**. Both globs are
+  recursive now (`score_graph_nodes.py` too, or `--dump` disagrees with what ships), and a nested
+  position resolves by its own leaf slug before the parent fallback is consulted.
+  `Triangle Control/Rear Triangle` inherited the closed-guard triangle's opposite polarity:
+  `[-0.366, +0.204]` → its own `[+0.645, -0.444]`. 475 nodes moved (95 positions, 380 techniques).
+- **`posId` WAS A PATH WHERE `fromPositionId` IS A SLUG.** Nested positions emitted
+  `"triangle-control/rear-triangle"` while their own techniques say `"rear-triangle"`, so
+  `optionsFor`'s origin filter rejected EVERYTHING: **54 of 136 positions had an empty hand** and ran
+  entirely on the fallback. Fixed in `regenerate_neural_data.py` (leaf for positions only — a
+  submission id's leaf, `from-mount`, is not a slug). Now 0/136 empty, and 136/136 carry a
+  calibrated payload (the same mismatch was starving that join).
+- **THE AUTHORED WORD DECIDES DOMINANCE (`score_graph_nodes.position_role_strength`).**
+  `state_properties.position_type` sets the SIGN, the weighted formula only the magnitude. In BJJ
+  the dominance axis is not top/bottom — the IBJJF ladder scores positions achieved, a sweep FROM
+  the bottom scores, and the player holding a triangle is usually underneath; the literature names
+  the axis attacking/defending, which is the word already in this field. Positions authoring no
+  `position_type` keep the old behaviour exactly. `check_position_type_vs_score` reports any
+  disagreement as a warning (currently 0 across all 272 position-roles — the word and the
+  arithmetic agree; Rear Triangle was never a conflict, its file simply never loaded).
+- **QUALIFIED NAMES WHEN AMBIGUOUS (`displayName`).** "Triangle" is not a technique here, it is
+  several — the owner was offered "Triangle", opened it, and read "Harness → rear-triangle". 648 of
+  1467 nodes carry a `from <position>` qualifier and 89 short names are shared, so the short name is
+  used only when it is unique. Applied at the OPTION CARD and the GRAPH's in-node label; the share
+  surfaces, lists and dossier already render full authored names by canon.
+
 ### Graph rendering
 
 There is ONE graph renderer: the Neural app's own canvas, drawn inside `#neural-root` from

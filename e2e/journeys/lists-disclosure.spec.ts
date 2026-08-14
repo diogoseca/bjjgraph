@@ -227,18 +227,33 @@ test("clicking a listed technique opens its dossier — the same move as a share
     picks[1].id,
   );
   expect(
-    await page.evaluate(() => (window as any).__neural._dossierIdx),
-    "premise: this node's dossier is not already open",
+    await page.evaluate(() => (window as any).__neural.currentPos),
+    "premise: we are not already standing on this node",
   ).not.toBe(want);
 
   await j.clickByMouse(
     `[data-list-items="${id}"] [data-list-item="${picks[1].id}"]`,
     "a listed technique",
   );
+  // v1.101.5: there is no second reading surface any more. Opening a TECHNIQUE renders the game
+  // card for it, unfolded — `_dossierIdx` stays null because nothing was "opened", the card grew.
   expect(
-    await page.evaluate(() => (window as any).__neural._dossierIdx),
-    "the item opens the node it names",
-  ).toBe(want);
+    await page.evaluate(() => (window as any).__neural._dossierIdx ?? null),
+    "no separate dossier surface is opened",
+  ).toBeNull();
+  expect(
+    await page.evaluate(() => {
+      const a = (window as any).__neural;
+      const el = a._landEl;
+      const body = el ? el.querySelector("[data-land-more-body]") : null;
+      return {
+        card: !!el,
+        idx: a._landIdx,
+        unfolded: body ? body.style.display : null,
+      };
+    }),
+    "the item opens the node it names, in the game's own card",
+  ).toMatchObject({ card: true, idx: want });
 });
 
 // ─────────────────────────────────────────────── 4. removing one
@@ -333,6 +348,8 @@ test("the list you just made, and the list you just added to, are already open @
   const leaf = page.locator('[data-list-add][data-list-surface="explore"]').first();
   const nodeId = (await leaf.getAttribute("data-list-add"))!;
   await leaf.click();
+  // v1.102.0: the + always asks where it goes — nothing is filed into a list nobody picked
+  await page.locator(`[data-list-pick="${id}"]`).click();
 
   await expect(
     page.locator(`[data-list-items="${id}"] [data-list-item="${nodeId}"]`),

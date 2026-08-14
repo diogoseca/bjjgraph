@@ -155,7 +155,16 @@ def build_graph_data(layout: dict, graph: dict, ordinals: dict) -> dict:
     nodes = []
     for n in layout["nodes"]:
         ty = SECTION_TY.get(n["id"].split("/", 1)[0].lower(), "positions")
-        pos_id = n.get("fromPositionId") if ty != "positions" else _slug_from_id(n["id"])
+        # NESTED POSITIONS ARE KEYED BY THEIR OWN SLUG, NOT THEIR PATH. `_slug_from_id` keeps the
+        # whole tail, so `Positions/Triangle-Control/Rear-Triangle` became the path
+        # "triangle-control/rear-triangle" — while every technique authored from it carries
+        # `fromPositionId: "rear-triangle"` (the position's own `slug`). `optionsFor`'s origin
+        # filter compares those two and rejects EVERYTHING: measured, 54 of 136 positions had an
+        # empty hand and were running entirely on the no-candidates fallback, which relaxes origin.
+        # The app already indexes nested positions by their bare leaf (app.src.jsx:544-548); this
+        # makes the emitted value agree with it. Leaf ONLY for positions — a technique id like
+        # `Submissions/Kimura/from-Mount` has a leaf ("from-mount") that is not a slug at all.
+        pos_id = n.get("fromPositionId") if ty != "positions" else _slug_from_id(n["id"]).rsplit("/", 1)[-1]
         node = {
             "id": n["id"],
             "x": n.get("x"),

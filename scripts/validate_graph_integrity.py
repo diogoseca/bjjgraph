@@ -624,6 +624,68 @@ def check_from_position_validity(position_names):
     return issues
 
 
+def check_position_type_vs_score():
+    """Does the authored dominance word agree with the arithmetic that scores it?
+
+    `state_properties.position_type` is where a human wrote "Offensive/Controlling" or
+    "Defensive". Since v1.103.0 that word DECIDES the sign of the position's strength and the
+    weighted formula only supplies the magnitude — so a disagreement is no longer silently
+    resolved in the formula's favour, but it is still worth naming: it means either the word or
+    the metrics behind it are wrong, and the metrics are what feed the odds a player sees.
+    """
+    issues = []
+    try:
+        sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+        import score_graph_nodes as sgn
+    except Exception:
+        return issues
+
+    for path in sorted(POSITIONS_PATH.rglob("*.json")):
+        data = load_json(path)
+        if not data:
+            continue
+        for role in ("top", "bottom"):
+            rd = data.get(role)
+            if not isinstance(rd, dict):
+                continue
+            sp = rd.get("state_properties") or {}
+            kind = str(sp.get("position_type") or "").strip()
+            if not kind:
+                continue
+            k = kind.lower()
+            wants_pos = ("offensive" in k or "controlling" in k or "dominant" in k)
+            wants_neg = ("defensive" in k or "inferior" in k)
+            if not (wants_pos or wants_neg):
+                continue
+            # the magnitude the formula would have produced, unsigned by the word
+            try:
+                raw = sgn.position_role_strength(rd)
+            except Exception:
+                continue
+            # re-derive the pre-sign value: position_role_strength already applied the word, so
+            # recompute the bare arithmetic to see whether the two ever pointed different ways
+            bare = sgn.clamp_strength(
+                sgn.W_POINT * sgn.normalize(sp.get("point_value", 0) or 0, -4, 4)
+                + sgn.W_SUBMISSION * sgn.normalize(sgn._metric_value(rd.get("position_metrics") or {}, "submission_probability"), 0, 100)
+                + sgn.W_RETENTION * sgn.normalize(sgn._metric_value(rd.get("position_metrics") or {}, "retention_rate"), 0, 100)
+                + sgn.W_ADVANCEMENT * sgn.normalize(sgn._metric_value(rd.get("position_metrics") or {}, "advancement_probability"), 0, 100)
+                - sgn.W_RISK * sgn.risk_penalty(sp.get("risk_level"))
+            )
+            if abs(bare) < 0.02:
+                continue  # too close to zero to call a disagreement
+            if (bare > 0) != wants_pos:
+                issues.append({
+                    "type": "position_type_score_disagreement",
+                    "severity": "warning",
+                    "name": rd.get("name", path.stem),
+                    "file": str(path),
+                    "message": (f"{rd.get('name', path.stem)}: authored position_type '{kind}' but its "
+                                f"metrics score {bare:+.3f} — the word now wins, so check whether the "
+                                f"point_value / risk / submission-retention-advancement numbers are right"),
+                })
+    return issues
+
+
 def check_from_position_bidirectional(position_names):
     """Validate bidirectional consistency between position refs and technique from_position.
 
@@ -1089,6 +1151,7 @@ def main():
     # Step 12: Bidirectional from_position consistency
     print(f"[12/{total_steps}] Checking bidirectional from_position consistency...")
     bidir_issues = check_from_position_bidirectional(position_names)
+    bidir_issues += check_position_type_vs_score()
     bidir_errors = [i for i in bidir_issues if i["severity"] == "error"]
     bidir_warnings = [i for i in bidir_issues if i["severity"] == "warning"]
     print(f"  Errors: {len(bidir_errors)}, Warnings: {len(bidir_warnings)}")

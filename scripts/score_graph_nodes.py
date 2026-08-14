@@ -103,6 +103,22 @@ def position_role_strength(role_data: dict) -> float:
         + W_ADVANCEMENT * normalize(advancement, 0, 100)
         - W_RISK * risk_penalty(sp.get("risk_level"))
     )
+
+    # THE AUTHORED WORD DECIDES WHICH SIDE IS DOMINANT; THE ARITHMETIC DECIDES BY HOW MUCH.
+    # `position_type` is where a human already wrote "Offensive/Controlling" or "Defensive", and
+    # until now nothing read it — dominance was inferred from the weighted score above, so a
+    # hand-stated dominant side could be flipped by an arithmetic accident. In BJJ the dominance
+    # axis is NOT top/bottom (the IBJJF ladder scores positions achieved: a sweep FROM the bottom
+    # scores, and the player holding a triangle is usually underneath); the literature names it
+    # attacking/defending, which is exactly the word in this field. So the sign comes from the
+    # word and the magnitude from the formula. Positions that author no `position_type` keep the
+    # old behaviour exactly, so nothing regresses on them.
+    kind = str(sp.get("position_type") or "").strip().lower()
+    if kind:
+        if "offensive" in kind or "controlling" in kind or "dominant" in kind:
+            raw = abs(raw)
+        elif "defensive" in kind or "inferior" in kind:
+            raw = -abs(raw)
     return clamp_strength(raw)
 
 
@@ -120,8 +136,11 @@ def submission_strength(success_rate: float) -> tuple[float, float]:
 
 def _load_dir(category: str) -> list[tuple[str, dict]]:
     out = []
-    pat = os.path.join(_REPO_ROOT, "content", category, "*.json")
-    for path in sorted(glob.glob(pat)):
+    # recursive: nested position variations (content/Positions/<hub>/<variation>.json) carry their
+    # own metrics and must be scored from them, not inherited. --dump/--diagnose were blind to the
+    # same 54 files as enrich_graph_strength, so the two would disagree about what the graph holds.
+    pat = os.path.join(_REPO_ROOT, "content", category, "**", "*.json")
+    for path in sorted(glob.glob(pat, recursive=True)):
         try:
             with open(path, encoding="utf-8") as fh:
                 out.append((os.path.basename(path)[:-5], reduce_to_scalar(json.load(fh), frame="nogi")))

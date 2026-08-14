@@ -507,6 +507,16 @@ class Component extends DCLogic {
     let r = 0; for (const n of nodes) { if (!isFinite(n.x) || !isFinite(n.y)) continue; r = Math.max(r, Math.hypot(n.x - cx, n.y - cy)); }
 
     this.nodes = nodes; this.links = links; this.adj = adj; this._idIndex = idIndex;
+    // AMBIGUITY SET (v1.103.0) — how many nodes share each short name. "Triangle" is not a
+    // technique here, it is several: the owner was offered "Triangle" from Harness, opened it, and
+    // read "Harness → rear-triangle" with no idea which triangle it was. 648 of 1467 nodes carry a
+    // `from <position>` qualifier and 89 short names are shared, so dropping the qualifier is only
+    // safe where the short name is unique. One pass over titles, no payload change.
+    this._ambig = new Map();
+    for (const n of nodes) {
+      const m = this.splitName(n.t).main;
+      this._ambig.set(m, (this._ambig.get(m) || 0) + 1);
+    }
     // share-link ordinal manifest, both directions, built once per ingest
     this._sharedIncoming = null; // "no share link on this URL" is a value, not an absence
     this._sharedStale = null;    // …and "a valid link this build is too old for" is a third value
@@ -630,11 +640,30 @@ class Component extends DCLogic {
   }
 
   // ---------- narrative helpers ----------
-  // ---------- player perspective (role = which side YOU play; data stores one canonical node per position with s=[topValue, bottomValue]) ----------
+  // ---------- player perspective ----------
+  // `s` IS TWO DIFFERENT PAIRS AND THE SLOT DEPENDS ON THE NODE KIND (v1.103.0):
+  //   · a POSITION carries [topValue, bottomValue]        -> the slot is the side you play
+  //   · a TECHNIQUE carries [attackerValue, defenderValue] -> the slot is whether you PERFORM it
+  // (`scripts/enrich_graph_strength.py:18` states the split; every technique pair is exactly
+  // antisymmetric, verified 0 of 1328 asymmetric, which is the fingerprint of an attacker/defender
+  // pair rather than a top/bottom one.)
+  //
+  // Indexing BOTH with roleIdx() was the bug behind "why do I only get transitions, no
+  // submissions?". Every submission scores ≈ +0.90 for its attacker, so a BOTTOM attacker read
+  // their opponent's −0.90 and `optionsFor`'s old filter dropped it: measured, a bottom player was
+  // shown ZERO of the 297 submission nodes, and 144 of the 596 bottom-authored techniques (the
+  // 60 submissions + 84 sweeps that are EV-positive) were exactly the ones discarded.
   roleIdx() { return this.playerRole === "bottom" ? 1 : 0; }
+  /** Which slot of `node.s` is MINE — see the note above. */
+  valIdx(node) {
+    if (node && node.ty !== "positions" && node.fromRole)
+      return node.fromRole === this.playerRole ? 0 : 1;   // performer / opponent
+    return this.roleIdx();                                 // top / bottom
+  }
   myVal(node) {
     const s = node.s;
-    if (Array.isArray(s) && s.length >= 2 && typeof s[this.roleIdx()] === "number") return s[this.roleIdx()];
+    const i = this.valIdx(node);
+    if (Array.isArray(s) && s.length >= 2 && typeof s[i] === "number") return s[i];
     return this.playerRole === "bottom" ? -(node.dom || 0) : (node.dom || 0);
   }
   myColor(node) { return this.domColor(this.myVal(node)); }
@@ -672,6 +701,14 @@ class Component extends DCLogic {
   splitName(t) {
     const m = (t || "").match(/^(.*?)\s+[Ff]rom\s+(.+)$/);
     return m ? { main: m[1].trim(), from: "from " + m[2].trim() } : { main: t || "", from: "" };  }
+  /** The shortest name that is still unambiguous: "Triangle from Back" when "Triangle" is shared
+   *  by more than one node, plain "Gogoplata" when it is not. Compact surfaces only — the share
+   *  surfaces, lists and dossier always render the FULL authored name by canon. */
+  displayName(n) {
+    if (!n) return "";
+    const sp = this.splitName(n.t);
+    return this._ambig && (this._ambig.get(sp.main) || 0) > 1 ? n.t : sp.main;
+  }
   posFamily(t) { return (t || "").replace(/\s+(Top|Bottom)\s*$/i, "").trim(); }
   setEvent(kicker, text, tone) {
     const k = this.evKickerRef.current, t = this.evTextRef.current, box = this.evRef.current;
@@ -7004,8 +7041,15 @@ class Component extends DCLogic {
       const n = this.nodes[k];
       if (n.ty === "positions") continue;
       if (seen.has(n.t)) continue; seen.add(n.t);
-      // only moves YOUR role performs: the action must favor your side (the beneficiary is the performer)
-      if (this.myVal(n) < this.oppVal(n) - 0.05) continue;
+      // ONLY MOVES YOUR ROLE PERFORMS — READ, NOT INFERRED (v1.103.0). This used to be
+      // `myVal(n) < oppVal(n) - 0.05`: "the beneficiary is the performer". That is a heuristic over
+      // a strength score, and the data states the performer outright — every technique node carries
+      // `fromRole` from its authored `from_position`. The heuristic mis-indexed the pair (see
+      // valIdx) AND could invert on its own whenever a position's score disagreed with the side
+      // that actually holds it, which is how a bottom player ended up with no submissions at all.
+      // The authored role cannot invert; if it is WRONG that is a content bug, and
+      // validate_graph_integrity's `from_position_role_mismatch` names all 65 of them.
+      if (n.fromRole && n.fromRole !== this.playerRole) continue;
       // contextual: exact canonical origin match (data now provides fromPositionId)
       if (n.fromPositionId && hereId && n.fromPositionId !== hereId) continue;
       const res = this.resultPos(k, posIdx);
@@ -7015,6 +7059,9 @@ class Component extends DCLogic {
     if (!out.length) {
       for (const k of this.adj[posIdx]) {
         const n = this.nodes[k]; if (n.ty === "positions") continue; if (seen.has(n.t + "_fb")) continue; seen.add(n.t + "_fb");
+        // the fallback relaxes ORIGIN, never ROLE: dealing the opponent's moves is not a
+        // safety net, it is the bug this filter exists to prevent
+        if (n.fromRole && n.fromRole !== this.playerRole) continue;
         out.push({ idx: k, node: n, res: this.resultPos(k, posIdx) });
       }
       out.sort((a, b) => this.myVal(b.node) - this.myVal(a.node));
@@ -7074,7 +7121,7 @@ class Component extends DCLogic {
       // `from X` is the same word on all of them, and where a move LEADS is what the sheet is
       // for — this card's job is name, category, potential and odds, at a glance, on a clock.
       // An ESCAPE hand keeps its one word, because "escape route" is not a restatement.
-      '<div style="font-size:13.5px;font-weight:600;color:#eef1f6;line-height:1.22;">' + this.splitName(n.t).main + '</div>' +
+      '<div style="font-size:13.5px;font-weight:600;color:#eef1f6;line-height:1.22;">' + this.displayName(n) + '</div>' +
       (isEsc ? '<div style="font-size:11px;color:#93a0bd;line-height:1.3;margin-top:3px;">escape route</div>' : '') +
       bottomRow +
       '<div class="ngbar" style="position:absolute;left:0;bottom:0;height:3px;width:100%;background:' + col + ';transform-origin:left;transform:scaleX(1);"></div>';
@@ -9033,7 +9080,7 @@ class Component extends DCLogic {
   }
   oppVal(node) {
     const s = node.s;
-    if (Array.isArray(s) && s.length >= 2) return s[this.roleIdx() === 0 ? 1 : 0];
+    if (Array.isArray(s) && s.length >= 2) return s[this.valIdx(node) === 0 ? 1 : 0];
     return -(node.dom || 0);
   }
   opponentDefend() {
@@ -9702,7 +9749,7 @@ class Component extends DCLogic {
           // it comes off here exactly as it does on every other surface. It mattered little while
           // this text was incidental; now that it is the ONLY place the state is named, a node
           // reading "Mount Top" under a "· BOTTOM" kicker would contradict itself.
-          const name = n.ty === "positions" ? this.posFamily(n.t) : this.splitName(n.t).main;
+          const name = n.ty === "positions" ? this.posFamily(n.t) : this.displayName(n);
           const maxW = rs * (n.ty === "positions" ? 1.5 : 1.05);
           // the 15px cap was tuned when this text was incidental — a name that happened to fit
           // inside a node somebody had zoomed toward. At ROLL_ZOOM the current node is ~166px
