@@ -212,17 +212,22 @@ test("the film row rides the game card", async ({ page }) => {
     expect(film!.filmTop, "film reads before the question, as it always has").toBeLessThan(film!.qTop!)
 })
 
-test("a node you are NOT standing on opens the reading sheet, never the node", async ({ page }) => {
+test("a node you are NOT standing on still opens the GAME CARD, never a second surface", async ({
+  page,
+}) => {
   const j = journey(page)
   await j.boot("/")
   await j.land("Mount Top")
   await j.advance(1200)
 
-  const other = await page.evaluate(() => {
+  // a TECHNIQUE — what a coach taps in their class list. It reads as ITSELF: staging would hop
+  // to its origin position (rollFromPosition does that on purpose) and the card, and the + in
+  // its corner, would then be about the position instead of the technique they tapped.
+  const tech = await page.evaluate(() => {
     const a = (window as Any).__neural
     const n = a.nodes.find((x: Any) => x.idx !== a.currentPos && x.ty === "transitions")
     a.openDossier(n.idx)
-    return n.idx
+    return { id: n.id, t: n.t }
   })
   await j.advance(900)
 
@@ -230,34 +235,42 @@ test("a node you are NOT standing on opens the reading sheet, never the node", a
     const a = (window as Any).__neural
     const nc = a.nodeCardRef && a.nodeCardRef.current
     const sh = a.dossierSheetRef && a.dossierSheetRef.current
+    const body = a._landEl ? a._landEl.querySelector("[data-land-more-body]") : null
+    const add = a._landEl ? a._landEl.querySelector("[data-list-add]") : null
     return {
       nodeCard: nc ? nc.style.display : null,
       sheet: sh ? sh.style.display : null,
-      sheetText: sh ? (sh.textContent || "").trim().length : 0,
-      question: !!document.querySelector("[data-node-q]"),
-      dossierIdx: a._dossierIdx ?? null,
+      card: !!a._landEl,
+      unfolded: body ? body.style.display : null,
+      capture: add ? add.getAttribute("data-list-add") : null,
       zoom: a.cam.vw / a.graphW,
     }
   })
   expect(st.nodeCard, "the in-node container is gone for good").toBe("none")
-  expect(st.sheet, "the reading sheet is what opens").toBe("block")
-  expect(st.sheetText, "and it has the node's dossier in it").toBeGreaterThan(0)
-  expect(st.question, "including the state's own question — no longer mobile-only").toBe(true)
-  expect(st.dossierIdx, "it knows which node it is reading").toBe(other)
+  expect(st.sheet, "and so is the reading sheet — one surface now").not.toBe("block")
+  expect(st.card, "the game card is what opens").toBe(true)
+  expect(st.unfolded, "opened to be READ, so it arrives unfolded").toBe("block")
+  expect(st.capture, "and its corner + captures the TECHNIQUE, not its origin position").toBe(tech.id)
   // flown TO the node, not INTO it: the old path drove the camera to graphW*0.0085
   expect(st.zoom, "the camera stops at reading distance, not inside the node").toBeGreaterThan(0.02)
 
-  // Esc puts it away and gives the clock back
-  await page.keyboard.press("Escape")
-  await j.advance(600)
-  const after = await page.evaluate(() => {
+  // ...and your OWN node, with the card dismissed, rebuilds it rather than reaching for a sheet.
+  // That fallthrough is exactly how the sheet appeared over "Your current position".
+  await page.evaluate(() => {
     const a = (window as Any).__neural
-    const sh = a.dossierSheetRef.current
-    return { transform: sh.style.transform, idx: a._dossierIdx, paused: a.paused }
+    a.clearLandCard()
+    a.openDossier(a.currentPos)
   })
-  expect(after.idx, "nothing is being read any more").toBeNull()
-  expect(after.transform, "the sheet slid away").toContain("-102%")
-  expect(after.paused, "and the roll resumes").toBe(false)
+  await j.advance(400)
+  const self = await page.evaluate(() => {
+    const a = (window as Any).__neural
+    const sh = a.dossierSheetRef && a.dossierSheetRef.current
+    const body = a._landEl ? a._landEl.querySelector("[data-land-more-body]") : null
+    return { sheet: sh ? sh.style.display : null, card: !!a._landEl, unfolded: body ? body.style.display : null }
+  })
+  expect(self.sheet, "no sheet for the node you are standing on").not.toBe("block")
+  expect(self.card, "a dismissed card is rebuilt, not replaced").toBe(true)
+  expect(self.unfolded, "and unfolded, because you asked to read it").toBe("block")
 })
 
 /**
@@ -270,31 +283,25 @@ test("a node you are NOT standing on opens the reading sheet, never the node", a
  * exposed it a third time: "Add to today's class list" was visible, enabled, hit-testable — and
  * dead. Traced as `doc-down:dsListTxt` then `doc-click:` on an element with no class at all.
  */
-test("the reading sheet's capture row really is clickable, by mouse", async ({ page }) => {
+test("the card's corner capture really is clickable, by mouse", async ({ page }) => {
   const j = journey(page)
   await j.boot("/")
   await j.land("Mount Top")
+  await j.advance(1200)
 
   const id = await page.evaluate(() => {
     const a = (window as Any).__neural
     const n = a.nodes.find((x: Any) => x.idx !== a.currentPos && (x.ty === "transitions" || x.ty === "submissions"))
-    // EXACTLY one list, so a capture is one tap and not the destination picker (which is what
-    // `captureNode` shows at two or more) — earlier journeys in this file may have left their own
+    // EXACTLY one list, so a capture is one tap and not the destination picker
     a.lists = {}
     a.newList()
     a.openDossier(n.idx)
     return n.id
   })
+  await j.advance(900)
 
-  const sel = `[data-list-add="${id}"][data-list-surface="dossier"]`
-  // the sheet slides in on a REAL-time CSS transition; wait for it to be where a mouse can reach
-  for (let i = 0; i < 30; i++) {
-    await j.advance(400)
-    const b = await page.locator(sel).boundingBox().catch(() => null)
-    if (b && b.x >= 0 && b.y >= 0 && b.x + b.width <= 1440 && b.y + b.height <= 900) break
-  }
-
-  await j.clickByMouse(sel, "the sheet's add-to-class row")
+  const sel = `[data-list-add="${id}"][data-list-surface="land"]`
+  await j.clickByMouse(sel, "the card's corner capture")
   await j.advance(300)
   expect(
     await page.evaluate((nid: string) => {

@@ -907,6 +907,32 @@ and a stale `_nodeCardOn` would keep the tray faded and the canvas glyph crossfa
   was mobile-only while the desktop read happened inside the node. `dossierRef` is deliberately NOT
   used: it is a child of the explorer pane, which pane law says only the user may open. The camera
   flies TO the node at `ROLL_ZOOM`, not INTO it at `0.0085`.
+- **THE READING SHEET IS RETIRED TOO — ONE SURFACE, BOTH FORM FACTORS (v1.101.5).** v1.101.0 sent
+  the state you are STANDING IN to the game card but left every other node opening a right-docked
+  sheet. Owner, looking at that sheet over their own position: *"when i click on a node in the
+  graph, [it] shouldnt appear anymore, the node dialog we just practiced now should show instead"*.
+  `openDossier` now has three branches and none of them is a second surface:
+  a **technique** renders the game card in `"attempt"` mode (it names the technique and its `+`
+  captures THAT technique — staging would hop to its origin position, since `rollFromPosition`
+  does that on purpose, and the corner `+` would then capture a position the coach never tapped);
+  **another position** stages the roll there (fly, land, deal, clock held); **your own node**
+  rebuilds its card if it was dismissed. All three unfold — you opened it to read it — carried
+  through the staged landing by the one-shot `_landOpenNext`, because that card is built later,
+  when the flight lands. **The `_landEl` guard used to sit on the first branch, and that is how a
+  sheet appeared over "Your current position" at all:** the ✕ (v1.101.1) nulls `_landEl`, so the
+  next click on your own node fell straight through. A dismissed card is a card to REBUILD.
+  DEAD NOW, disclosed rather than deleted at the end of a long pass: `renderDossier`, the
+  `dossierSheetRef` element, `_renderNodeQuestion` / `nodeQuestionFor` / `askFormat` and the
+  `data-list-surface="dossier"` capture are unreachable from the app (only `first-impression`
+  calls `renderDossier` directly). Deleting them removes the **stage-3 recall** question that
+  surface carried, which needs a home on the game card first.
+- **`attachInput` MUST NAME EVERY FIXED OVERLAY THAT OWNS CONTROLS (v1.101.5).** Its pointerdown
+  calls `setPointerCapture` on the wrap, which retargets pointerup, so the browser resolves the
+  click to the down/up common ancestor and a listener inside an overlay never fires. Fourth
+  instance: the game card's own corner `+`. It measured the button, hit-tested to the button,
+  took a real mouse click on the button — and captured nothing; `locator.click()` (which
+  dispatches on the element) masked it completely. `.ng-landcard` and `.ng-landfilm` join the
+  node card and the sheet in the early-return. Any new fixed overlay with controls goes here too.
 - **A SUPPRESSED LANDING CARD MUST BE INERT, NOT MERELY TRANSPARENT (v1.100.2).** `_suppressLand`
   set `opacity:0` + `pointer-events:none` on the root. Both are inherited — and `[data-land-foot]`
   re-enables pointer-events INLINE on purpose (it holds `More ▸` and the capture `+`). Hit-testing

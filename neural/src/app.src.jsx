@@ -5718,72 +5718,53 @@ class Component extends DCLogic {
   openDossier(idx, skipCam) {
     const n = this.nodes && this.nodes[idx]; if (!n) return;
     if (this._pickEl) this.closeListPicker(); // the chooser's anchor is about to be re-rendered away
-    this.track("neural_dossier_opened", { node: n.t, node_type: n.ty, mode: this.isMobile() ? "sheet" : "node" });
+    this.track("neural_dossier_opened", { node: n.t, node_type: n.ty, mode: "card" });
     this.releaseCamera(); // reading a node is a camera decision of its own
-    this._dossierIdx = idx;
-    if (this.isMobile()) {
-      // top sheet: 70% tall, graph strip + options + win bar + drill row stay visible below
-      if (this.deckShown) this.setDeckOpen(false); // the pane covers the screen on mobile — the sheet replaces it
-      // the sheet owns the screen while it is up, and it now carries the state's QUESTION — the
-      // landing card sits at bottom:206px and overlapped it squarely (measured at 390x844)
-      this._suppressLand(true);
-      const sh = this.dossierSheetRef.current;
-      if (sh) {
-        // ONE element serves both form factors, and the desktop branch below overrides its box.
-        // isMobile() flips on resize within a single page load, so the phone must restate its own
-        // geometry rather than inherit a 430px right-docked column from a wider moment.
-        sh.style.left = "0"; sh.style.right = "0"; sh.style.width = ""; sh.style.height = "70%"; sh.style.maxHeight = "";
-        clearTimeout(this._shT);
-        if (sh.style.display !== "block") { sh.style.display = "block"; sh.style.transform = "translateY(-102%)"; void sh.offsetHeight; }
-        sh.style.transform = "translateY(0)";
-        sh.scrollTop = 0;
-      }
-      if (!skipCam && this.cam) {
-        const W = this.W || 400, H = this.H || 800;
-        const vw = Math.max(this.graphW * 0.12, Math.min(this.graphW * 0.42, this.cam.vw));
-        const bandY = (H * 0.70 + (H - 190)) / 2;   // midpoint between sheet bottom and options tray
-        this.camTarget = { cx: n.x, cy: n.y - (bandY - H / 2) * vw / W, vw: vw };
-      }
-      this.lastInteract = this.now; this.flare(idx);
-      this.renderDossier(n);
-      return;
+    // the phone used to get a 70%-tall top sheet here and the desktop a right-docked column.
+    // Both are retired (v1.101.5) — one surface, both form factors. The camera still flies to
+    // the node; the card that lands is the one the player already knows.
+    if (!skipCam && this.cam) this.camTarget = { cx: n.x, cy: n.y, vw: this.graphW * this.ROLL_ZOOM };
+    // ── ONE SURFACE: THE GAME'S OWN CARD (v1.101.5) ─────────────────────────────────────────
+    // v1.101.0 retired the in-node container and sent the state you are STANDING IN to the
+    // landing card, but left every OTHER node opening a right-docked reading sheet. The owner,
+    // looking at that sheet: "when i click on a node in the graph, [it] shouldnt appear anymore,
+    // the node dialog we just practiced now should show instead". So the sheet never opens, on
+    // any form factor, and `openDossier` has exactly two jobs:
+    //
+    //   · the node you are on   -> make sure its card is there, and unfold it
+    //   · any other node        -> STAGE the roll there (fly, land, deal, clock held) and unfold
+    //     the card that lands. This is already what tapping a node on the graph does, and
+    //     `rollFromPosition` hops a technique to its adjacent position, so it is safe for both
+    //     node kinds. NB it archives a roll that has actually been PLAYED (`_played`); a staged
+    //     roll nobody played is never recorded.
+    //
+    // The `_landEl` guard used to sit on the first branch, which is how the sheet appeared for
+    // "Your current position" at all: dismissing the card with its ✕ (v1.101.1) nulls `_landEl`,
+    // so the next click on your own node fell straight through to the sheet. A dismissed card is
+    // a card to REBUILD, not a reason to open a different surface.
+    if (n.ty !== "positions") {
+      // A TECHNIQUE READS AS ITSELF. Staging would hop to its origin POSITION
+      // (`rollFromPosition` does that deliberately), and then the card on screen — and the `+`
+      // in its corner — would be about the position, not the technique a coach just tapped in
+      // their class list. "attempt" mode is the card that names a technique and asks its
+      // question; `hooks` is optional (only `onAnswer` is ever read) and the roll is untouched.
+      this._landOpenNext = true;
+      this.renderLandCard(n, "attempt", null);
+    } else if (idx !== this.currentPos) {
+      // the card for a staged node is built LATER, when the flight lands and `enterLand` runs —
+      // so the intent ("I opened this to read it") is carried forward rather than applied to a
+      // card that does not exist yet. One shot: `renderLandCard` consumes it after the
+      // node-change reset that would otherwise wipe a plain `_landOpen`.
+      this._landOpenNext = true;
+      this.stageRollAt(idx);
+    } else if (!this._landEl) {
+      this.renderLandCard(n, "land", null);
     }
-    // ── DESKTOP (v1.101.0): THE GAME'S OWN CARD IS THE DEFAULT CONTAINER ──────────────────────
-    // The in-node "fuller container" is retired. The state you are STANDING IN unfolds in place,
-    // inside the landing card you are already reading — `More ▸` grows it rather than throwing
-    // you into a second surface at a zoom you did not ask for. Any OTHER node still needs a
-    // reading surface, and it is the dossier sheet: pane-independent (so pane law is untouched),
-    // already carrying the same content and the same question, and — unlike the old desktop
-    // panel at `dossierRef` — not a child of the explorer, which cannot be shown without
-    // opening the pane.
-    if (idx === this.currentPos && this._landEl) {
-      this._dossierIdx = null;                 // nothing "opened"; the game card simply grew
-      this.expandLandCard(true);
-      this.lastInteract = this.now; this.flare(idx);
-      return;
-    }
+    this._dossierIdx = null;                   // nothing "opened"; the game card simply grew
     if (this.deckShown) this.setDeckOpen(false);
     if (!this.paused) { this.setPaused(true); this._dossierAutoPaused = true; }
-    const sh = this.dossierSheetRef.current;
-    if (sh) {
-      // desktop geometry: a reading column docked to the RIGHT, clear of the left pane and of
-      // the option tray. Only the slide is a transform, so overriding the box cannot fight it.
-      sh.style.left = "auto"; sh.style.right = "24px";
-      sh.style.width = "min(430px,34vw)"; sh.style.height = "auto"; sh.style.maxHeight = "76%";
-      sh.style.borderRadius = "0 0 20px 20px";
-      clearTimeout(this._shT);
-      if (sh.style.display !== "block") { sh.style.display = "block"; sh.style.transform = "translateY(-102%)"; void sh.offsetHeight; }
-      sh.style.transform = "translateY(0)";
-      sh.scrollTop = 0;
-    }
-    if (!skipCam) {
-      if (!this._camBefore) this._camBefore = { cx: this.camTarget.cx, cy: this.camTarget.cy, vw: this.camTarget.vw };
-      // fly TO the node, not INTO it: close enough to see which one you are reading, wide enough
-      // to keep its neighbourhood on screen.
-      this.camTarget = { cx: n.x, cy: n.y, vw: this.graphW * this.ROLL_ZOOM };
-    }
+    this.expandLandCard(true);
     this.lastInteract = this.now; this.flare(idx);
-    this.renderDossier(n);
   }
   /**
    * Leave the desktop reading sheet: restore the camera it interrupted and resume the roll if
@@ -7410,6 +7391,7 @@ class Component extends DCLogic {
     // or the question) keeps whatever the reader opened. Dropping the pause latch with it means
     // a stale `_landAutoPaused` can never resume a roll somebody else paused.
     if (this._landIdx !== node.idx) { this._landOpen = false; this._landAutoPaused = false; }
+    if (this._landOpenNext) { this._landOpen = true; this._landOpenNext = false; } // opened to be read
     this.clearLandCard();
     // The coach used to return null here, on the theory that it "owns the first landing". It owns
     // the first landing of EVERY cold visitor — so that theory silently deleted the landing
@@ -9226,6 +9208,16 @@ class Component extends DCLogic {
       // moved out of the node and into the sheet.
       const dsh = this.dossierSheetRef && this.dossierSheetRef.current;
       if (dsh && dsh.style.display === "block" && e.target && dsh.contains(e.target)) return;
+      // ...AND THE GAME CARD ITSELF, plus its film strip. Fourth surface, same bug: `clickByMouse`
+      // on the card's corner `+` measured the button, hit-tested to the button, dispatched a real
+      // mouse click on the button — and the capture never happened, because the capture below
+      // retargets pointerup to this wrap and the browser resolves the click to their common
+      // ancestor. `locator.click()` (which dispatches on the element) masked it completely.
+      // Every fixed overlay that owns its own controls needs to be named here; the alternative is
+      // finding it once per surface, by hand, forever.
+      for (const ov of [this._landEl, this._landFilmEl]) {
+        if (ov && e.target && ov.contains(e.target)) return;
+      }
       this.closeDeckIfStudying();
       ptrs.set(e.pointerId, { x: e.clientX, y: e.clientY });
       try { el.setPointerCapture(e.pointerId); } catch (err) {}

@@ -167,15 +167,15 @@ test("a coach collects today's class into a list from the surfaces they are alre
   ).toMatchObject({ items: [picks[0].id] });
   await j.expectBeat("list_item_added");
 
-  // add the second from the node dossier ("More ▸" is how a reader gets there mid-roll).
-  // On desktop the dossier is not a panel — it is a camera FLIGHT into the in-node card
-  // (openDossier -> updateNodeCard), so the card only exists once the flight lands: pump.
+  // add the second by OPENING that technique — which since v1.101.5 is the game card itself,
+  // unfolded, with the technique's own `+` in its corner. There is no second reading surface any
+  // more: no in-node container (v1.101.0) and no dossier sheet (v1.101.5).
   await page.evaluate((id: string) => {
     const a = (window as any).__neural;
     a.openDossier(a._idIndex.get(id));
   }, picks[1].id);
   const dossierAdd = page.locator(
-    `[data-list-add="${picks[1].id}"][data-list-surface="dossier"]`,
+    `[data-list-add="${picks[1].id}"][data-list-surface="land"]`,
   );
   // Pump until the card is not just PRESENT but on screen. The card is positioned at the
   // node's screen point from the first frame of the flight, so it exists (and reports itself
@@ -196,7 +196,7 @@ test("a coach collects today's class into a list from the surfaces they are alre
   for (let i = 0; i < 30 && !(await onScreen()); i++) await j.advance(400);
   expect(
     await onScreen(),
-    "the dossier's add affordance lands on screen after the flight",
+    "the opened technique's capture lands on screen after the flight",
   ).toBe(true);
   await dossierAdd.click();
 
