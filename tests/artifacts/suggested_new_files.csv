@@ -169,3 +169,6 @@ validate_graph_integrity,Transitions,Belly Down Armbar from Kesa Gatame,Missing 
 validate_graph_integrity,Transitions,Williams Shoulder Lock from Williams Guard,Missing transition: 'Williams Shoulder Lock from Williams Guard' (referenced but no file)
 validate_graph_integrity,Transitions,Williams Shoulder Lock from Williams Guard,Missing transition: 'Williams Shoulder Lock from Williams Guard' (referenced but no file)
 validate_graph_integrity,Transitions,Williams Shoulder Lock from Williams Guard,Missing transition: 'Williams Shoulder Lock from Williams Guard' (referenced but no file)
+paa_content_gap,Transitions,Gift Wrap Back Take from Mount,"PAA gap for 'gift wrap from mount'; film clips show mount to gift wrap back-take; document as transition feeding Gift Wrap/Top"
+paa_content_gap,Learning,Heel Hook Legality by Ruleset,"High-intent PAA 'is the heel hook legal'; map heel hook/toe hold/ankle lock legality across IBJJF gi, IBJJF no-gi, ADCC, belt/age tiers; explains gi=0 heel-hook attempt data on leg-entanglement pages"
+paa_content_gap,Learning,Leg Entanglement Positions Compared,"PAA comparison cluster (cross ashi vs inside ashi vs saddle/honey hole vs 50-50 vs single leg X); pillar article to consolidate comparison queries and distribute internal links"

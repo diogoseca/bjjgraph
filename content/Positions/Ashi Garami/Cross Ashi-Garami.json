@@ -1,6 +1,10 @@
 {
   "name": "Cross Ashi-Garami",
   "slug": "cross-ashi-garami",
+  "bot_metadata": {
+    "last_improved": "2026-08-15",
+    "optimization_pass": "ai_seo_v1"
+  },
   "description": "Master Cross Ashi-Garami position in BJJ. Strategic guide covering crossed leg entanglement mechanics, defensive escapes, and offensive attacks with complete perspective analysis.",
   "variant_uniqueness": "Crossed legs trade mobility for heel exposure",
   "summary": "Cross Ashi-Garami is a crossed-leg entanglement where the top player's legs cross over the opponent's trapped leg, forming a figure-four wedge that maximizes rotational control for heel hooks while sharply limiting the bottom player's escape options.",

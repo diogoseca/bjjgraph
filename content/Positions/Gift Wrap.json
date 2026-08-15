@@ -1,6 +1,10 @@
 {
   "name": "Gift Wrap",
   "slug": "gift-wrap",
+  "bot_metadata": {
+    "last_improved": "2026-08-15",
+    "optimization_pass": "ai_seo_v1"
+  },
   "description": "Master Gift Wrap position in BJJ - a dominant back control variation where one arm is trapped. Complete guide covering control mechanics, submission attacks, and defensive escapes.",
   "variant_uniqueness": "Arm trap removes half of defensive capability",
   "summary": "Gift Wrap is a dominant back-control variation in BJJ where the attacker threads one arm under the defender's armpit and pins it high across their chest, stripping away half of their defensive capability.",
@@ -390,7 +394,7 @@
         "relationship": "Primary submission attack from Gift Wrap position"
       },
       {
-        "name": "Armbar from Back",
+        "name": "Armbar on Free Arm",
         "relationship": "Secondary submission targeting the free arm"
       },
       {
@@ -848,7 +852,7 @@
         "relationship": "Broader escape system that includes Gift Wrap defense"
       },
       {
-        "name": "RNC Defense",
+        "name": "Back Defense Protocol",
         "relationship": "Critical defensive principle while trapped in Gift Wrap"
       },
       {
