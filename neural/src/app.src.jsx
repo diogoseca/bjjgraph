@@ -5274,15 +5274,13 @@ class Component extends DCLogic {
         b.addEventListener("mouseleave", () => { b.style.background = "transparent"; b.style.color = tint; });
         return b;
       };
-      // NOT ▶ (v1.103.6). This opens a FLASHCARD SESSION over the list's cards — it never
-      // touched the roll — so it wore the wrong verb: ▶ now means "make this the current state
-      // and roll", which is meaningless for a collection. Stacked cards say what it does. The
-      // action itself is untouched (`openListSession`), and it is the only way to drill a class
-      // somebody sent you, so it keeps its seat rather than being deleted with the glyph.
-      const drill = icon("data-list-drill", '<svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="7" width="13" height="14" rx="2"></rect><path d="M8 4h11a2 2 0 0 1 2 2v11"></path></svg>',
-        "Drill “" + l.name + "”", "#9ab0e0");
-      drill.addEventListener("click", () => this.openListSession(id));
-      row.appendChild(drill);
+      // NO DRILL CONTROL ON A LIST ROW (v1.103.7, owner). v1.103.6 kept the action and only
+      // changed its glyph off ▶; the owner then deleted the button outright. A list row is now
+      // exactly three things — light it (the row), read it (the count line), share it — plus
+      // the ×. Every technique inside it carries its own ▶ and its own ✕, which is where the
+      // per-item verbs belong. `openListSession` is NOT dead: `[data-shared-drill]` ("Drill
+      // these") still runs it on a RECEIVED class, which is the case that needs a one-press
+      // study path before the list has even been saved.
 
       const share = icon("data-list-share", '<svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12v7a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1v-7"></path><path d="M12 16V3"></path><path d="M8 7l4-4 4 4"></path></svg>',
         "Share “" + l.name + "” as a link", "#9ab0e0");

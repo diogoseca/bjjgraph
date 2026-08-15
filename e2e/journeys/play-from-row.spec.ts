@@ -9,8 +9,10 @@ import { journey } from "../dsl";
  *
  * ▶ means "make this the current state and roll". You can do that to a position or a technique;
  * you cannot do it to a list, any more than to a System. The list's old ▶ opened a FLASHCARD
- * session and never touched the roll, so it wore the wrong verb — it keeps the action under a
- * stacked-cards glyph, which is the only way to drill a class somebody sent you.
+ * session and never touched the roll, so it wore the wrong verb — v1.103.6 moved it to a
+ * stacked-cards glyph and v1.103.7 removed the control entirely (owner). A list row is now
+ * light-it / read-it / share-it / ×, and every verb that acts on ONE technique lives on the
+ * item that carries it.
  *
  * The second half is the category SHAPE. `nodeGlyph` and the canvas `draw()` share one
  * vocabulary — circle = position, triangle = submission, diamond = transition — and the rows
@@ -59,23 +61,21 @@ test("▶ rides every technique row — and never the list itself @curated", asy
   await expect(page.locator("[data-list-itemrow]")).toHaveCount(3);
   await expect(page.locator("[data-list-itemrow] [data-play-from]")).toHaveCount(3);
 
-  // ...and the LIST row has none. It keeps drill + share + ×.
+  // ...and the LIST row has none.
   expect(
     await page.evaluate(() => document.querySelectorAll("[data-list-row] > [data-play-from]").length),
     "a list is a collection — it is not a state you can roll from",
   ).toBe(0);
-  await expect(page.locator("[data-list-drill]")).toHaveCount(1);
+  // NO DRILL CONTROL EITHER (v1.103.7, owner). The row is light-it / read-it / share-it / ×;
+  // the per-item verbs live on the items. `openListSession` stays reachable from a RECEIVED
+  // class's "Drill these", which is the case that needs a study path before anything is saved.
+  await expect(page.locator("[data-list-drill]")).toHaveCount(0);
   await expect(page.locator("[data-list-share]")).toHaveCount(1);
-
-  // the drill action survived the glyph change — this is the only way to study a received class
+  await expect(page.locator("[data-list-delete]")).toHaveCount(1);
   expect(
     await page.evaluate(() => typeof (window as any).__neural.openListSession === "function"),
+    "the received-class drill path must not have been deleted with the button",
   ).toBe(true);
-  // and it is no longer a ▶: the play triangle path must be gone from that button
-  expect(
-    await page.evaluate(() => document.querySelector("[data-list-drill]")!.innerHTML.includes("M8 5v14l11-7z")),
-    "drill must not wear the play glyph",
-  ).toBe(false);
 
   // every play button names its technique for a screen reader (a title is not an accessible name)
   for (const l of await page.locator("[data-list-itemrow] [data-play-from]").all())
