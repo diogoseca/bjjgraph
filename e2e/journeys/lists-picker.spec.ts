@@ -23,14 +23,14 @@ import { journey } from "../dsl";
  *     one tap, and the create affordance is one further tap away from the resulting ✓.
  *  5. THE CLOCK KEEPS RUNNING while the picker is open, and the picker never covers the option
  *     hand past a decision (canon: capture never commits the move and never stops the clock).
- *  6. The destination is legible without opening anything: [data-lists-target] up top, and the
+ *  6. The destination is CHOSEN, never assumed: the likeliest is offered first and marked, and
  *     capture control's own accessible name.
  *  7. 390px: reachable, clamped inside the viewport, 44px rows.
  *
  * Rails: __neural.captureNode, .openListPicker, .pickList, .createListWith, .targetList(),
  *        .nodeInAnyList(), .paused, .lists
  * Handles: [data-list-picker], [data-list-pick="<listId>"], [data-list-pick-new],
- *          [data-list-pick-newname], [data-list-pick-create], [data-lists-target],
+ *          [data-list-pick-newname], [data-list-pick-create], [data-picker-default],
  *          [data-picker-default], [data-picker-check]
  */
 
@@ -400,9 +400,9 @@ test("the picker never stops the clock, and never sits over the option hand past
   ).toHaveCount(0);
 });
 
-// ─────────────────────────────────────── 6. the destination, visible up top
+// ─────────────────────────────────────── 6. the destination, chosen not assumed
 
-test("the destination is legible before you press anything: 'Adding to <list>' up top @curated", async ({
+test("the picker offers a default FIRST, but files nothing until it is picked @curated", async ({
   page,
 }) => {
   const j = journey(page);
@@ -411,24 +411,44 @@ test("the destination is legible before you press anything: 'Adding to <list>' u
   const { newer } = await seedTwoLists(page);
   await openExplore(page);
 
-  const target = page.locator("[data-lists-target]");
-  await expect(target, "the head says where a capture lands").toBeVisible();
-  await expect(target).toContainText("Adding to");
-  await expect(target).toContainText("Tuesday takedowns");
-  await expect(target).toHaveAttribute("data-lists-target", newer);
+  // v1.103.3 retired the persistent "Adding to <list>" line: it existed to make v1.99.5's SILENT
+  // default legible, and v1.102.0 removed the silent default — the picker always asks, so there is
+  // no destination left for a status line to name. Owner: it "shouldnt exist". What survives is
+  // the picker's own ordering: the would-be default is offered first and marked.
+  await expect(page.locator("[data-lists-target]"), "no standing destination line").toHaveCount(0);
 
-  // it FOLLOWS the choice: filing into the other list makes that one the destination
   const [tech] = await pickNodes(page, 1);
   const add = await exploreAddFor(page, tech);
   await add.click();
+
+  const rows = page.locator("[data-list-pick]");
+  await expect(rows.first(), "the likeliest destination is offered first").toHaveAttribute(
+    "data-list-pick",
+    newer,
+  );
+  await expect(page.locator("[data-picker-default]"), "…and marked as the default").toHaveCount(1);
+  expect(
+    await page.evaluate(() =>
+      Object.values((window as any).__neural.lists || {}).some((l: any) => (l.items || []).length),
+    ),
+    "but nothing is filed until a row is chosen",
+  ).toBe(false);
+
+  // choosing the OTHER one files it there — the default is an offer, not a decision
   const older = await page.evaluate(
     (n: string) => Object.keys((window as any).__neural.lists).find((k) => k !== n)!,
     newer,
   );
   await j.clickByMouse(`[data-list-pick="${older}"]`, "the other list");
-  await page.locator(".ng-explorer-search input").fill("");
-  await expect(page.locator("[data-lists-target]")).toContainText("Monday fundamentals");
+  expect(
+    await page.evaluate(
+      (o: string) => ((window as any).__neural.lists[o].items || []).length,
+      older,
+    ),
+    "the technique lands in the list the reader picked",
+  ).toBe(1);
 });
+
 
 // ─────────────────────────────────────── 7. the phone
 

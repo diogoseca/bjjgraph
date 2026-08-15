@@ -4717,7 +4717,7 @@ class Component extends DCLogic {
   // technique opens the picker on ANY surface, so "put this in a new list" is one tap from a ✓,
   // at every list count. And the destination is never a mystery even on the one-tap path — the
   // button's own title/aria names it ("Add to “Monday fundamentals”"), and the Lists head
-  // carries a persistent [data-lists-target] line saying where captures are going.
+  // named the destination in a persistent line under the head (retired in v1.103.3).
   //
   // THE CLOCK KEEPS RUNNING. The picker is anchored chrome, not a screen: it never pauses, it
   // closes on the first outside pointerdown or Esc, and it CLOSES ON PICK rather than staying
@@ -4735,7 +4735,8 @@ class Component extends DCLogic {
     const m = this._listsMap();
     return Object.keys(m).filter((k) => m[k].items.indexOf(nodeId) >= 0);
   }
-  /** The list a one-tap capture would land in — the thing "[data-lists-target]" prints. */
+  /** The list the picker offers FIRST — its `[data-picker-default]` row. Not a silent
+   *  destination any more: since v1.102.0 nothing files without a pick. */
   targetList() {
     const m = this._listsMap();
     if (this.activeListId && m[this.activeListId]) return this.activeListId;
@@ -5075,19 +5076,11 @@ class Component extends DCLogic {
 
     // "AND BE VISIBLE UP TOP" (owner, v1.99.5). With one list the + files in one tap and never
     // opens the picker, so the destination has to be legible SOMEWHERE that is not a tooltip.
-    // This is that place: a permanent line under the head naming where captures land. It is a
-    // STATUS, not a control — the way to change the destination is to choose one in the picker
-    // (or to make a new list, which becomes the target), and a second control that silently
-    // re-targeted captures would recreate the very ambiguity this line exists to remove.
-    const tgt = this.targetList();
-    if (tgt) {
-      const tl = document.createElement("div");
-      tl.setAttribute("data-lists-target", tgt);
-      tl.style.cssText = "font-size:10.5px;line-height:1.4;color:#7e8aa3;padding:0 12px 6px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;";
-      tl.innerHTML = 'Adding to <b style="color:#aeb9d4;font-weight:700;">' + this.escHTML(this._listsMap()[tgt].name) + '</b>';
-      tl.title = "New captures go here unless you pick another list";
-      sec.appendChild(tl);
-    }
+     // NO "ADDING TO <LIST>" LINE (v1.103.3). It existed because v1.99.5 gave capture a DEFAULT
+    // destination — `activeListId` — and a silent default has to be legible or it misfiles. The
+    // picker now always asks (v1.102.0), so there is no default left for this line to name: it
+    // was stating a fact that had stopped being true. Owner: it "shouldnt exist". `targetList()`
+    // survives because the picker still uses it to mark and order its own default row.
 
     if (!ids.length) {
       const empty = document.createElement("div");
