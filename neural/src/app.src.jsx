@@ -4118,7 +4118,11 @@ class Component extends DCLogic {
         if (nodes.length > 1) {
           const fk = key + "|" + fam, fOpen = this._exp.f.has(fk);
           list.appendChild(mk(this.nodeGlyph(nodes[0].ty, col, 8) + '<span style="font-size:13px;font-weight:600;color:#c4cde0;">' + fam + '</span><span style="font-size:10.5px;color:#7e8aa3;">' + nodes.length + '</span><span style="margin-left:auto;color:#5d6883;font-size:10px;">' + (fOpen ? "\u25be" : "\u25b8") + '</span>', 22, () => { if (fOpen) this._exp.f.delete(fk); else this._exp.f.add(fk); this.renderExplorer(); }));
-          if (fOpen) for (const n of nodes) list.appendChild(this._withListAdd(mk('<span style="font-size:12px;color:#9aa6bd;">' + this.splitName(n.t).main + (this.splitName(n.t).from ? ' <span style="color:#6b7691;">' + this.splitName(n.t).from + '</span>' : "") + '</span>', 38, () => this.openDossier(n.idx)), n, "explore"));
+          // THE CATEGORY SHAPE RIDES EVERY TECHNIQUE ROW (v1.103.6). These leaf rows carried no
+          // glyph at all, so a technique inside a family fold was the one place in Explore that
+          // did not say what it was. `nodeGlyph` is the same vocabulary `draw()` puts on the
+          // canvas — circle = position, triangle = submission, diamond = transition (:9516-9518).
+          if (fOpen) for (const n of nodes) list.appendChild(this._withListAdd(mk(this.nodeGlyph(n.ty, col, 7) + '<span style="font-size:12px;color:#9aa6bd;">' + this.splitName(n.t).main + (this.splitName(n.t).from ? ' <span style="color:#6b7691;">' + this.splitName(n.t).from + '</span>' : "") + '</span>', 38, () => this.openDossier(n.idx)), n, "explore"));
         } else {
           const solo = this.nodes[this.famDossierNode(nodes)] || nodes[0];
           list.appendChild(this._withListAdd(mk(this.nodeGlyph(nodes[0].ty, col, 8) + '<span style="font-size:13px;color:#c4cde0;">' + fam + '</span>', 22, () => this.openDossier(this.famDossierNode(nodes))), solo, "explore"));
@@ -4645,12 +4649,40 @@ class Component extends DCLogic {
     b.addEventListener("click", (e) => { e.stopPropagation(); e.preventDefault(); this.captureNode(nodeId, surface, b); });
     return b;
   }
+  /**
+   * ▶ PLAY BELONGS TO A TECHNIQUE, NOT TO A COLLECTION (v1.103.6, owner: "that play button
+   * should be reserved for techniques inside lists and outside of it, meaning positions,
+   * transitions, and submissions"). ▶ means "make this the current state and roll", which is
+   * a thing you can do to a position or a technique and NOT to a list — a list is a collection,
+   * like a System. `confirmPlayFrom` is the seam because it already handles every node type
+   * (a position seeds at itself, a technique at its origin position) AND it confirms first:
+   * pressing play in the pane mid-roll discards the roll you are in, so it must ask.
+   */
+  _playButton(node) {
+    const b = document.createElement("button");
+    b.type = "button";
+    b.setAttribute("data-play-from", node.id);
+    const nm = this.displayName ? this.displayName(node) : this.splitName(node.t).main;
+    b.setAttribute("aria-label", "Play from " + nm);   // a title is not an accessible name
+    b.title = "Play from here";
+    // the pane's 24px control figure (see _listAddButton) — never the in-roll 44
+    b.style.cssText = "flex:none;pointer-events:auto;cursor:pointer;font-family:inherit;width:24px;height:24px;padding:0;border:0;border-radius:7px;background:transparent;color:#8c9ab5;display:inline-flex;align-items:center;justify-content:center;transition:background .15s,color .15s;";
+    b.innerHTML = '<svg width="11" height="11" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"></path></svg>';
+    b.addEventListener("mouseenter", () => { b.style.background = "rgba(255,255,255,.08)"; b.style.color = "#bcd0ff"; });
+    b.addEventListener("mouseleave", () => { b.style.background = "transparent"; b.style.color = "#8c9ab5"; });
+    b.addEventListener("click", (e) => { e.stopPropagation(); e.preventDefault(); this.confirmPlayFrom(node); });
+    return b;
+  }
   /** Wrap an Explore row so the row keeps its click and gains a + on the right. */
   _withListAdd(rowEl, node, surface) {
     const wrap = document.createElement("div");
     wrap.style.cssText = "display:flex;align-items:center;gap:4px;width:100%;";
     rowEl.style.flex = "1"; rowEl.style.minWidth = "0";
     wrap.appendChild(rowEl);
+    // ▶ then + : play is the primary verb on a technique row, capture the secondary one.
+    // Only reached from renderGraphGroup (Positions/Transitions/Submissions) and a list's own
+    // items — Systems, Principles and Learning use different builders and stay play-less.
+    wrap.appendChild(this._playButton(node));
     wrap.appendChild(this._listAddButton(node.id, surface));
     return wrap;
   }
@@ -4991,6 +5023,8 @@ class Component extends DCLogic {
     item.style.cssText = "display:flex;align-items:center;gap:8px;min-width:0;padding:7px 12px 7px 38px;border-radius:7px;";
     item.addEventListener("mouseenter", () => item.style.background = "rgba(255,255,255,.045)");
     item.addEventListener("mouseleave", () => item.style.background = "transparent");
+    // the category shape, same vocabulary as the canvas and as Explore's own rows
+    if (n) { const g = document.createElement("span"); g.style.cssText = "flex:none;display:inline-flex;align-items:center;"; g.innerHTML = this.nodeGlyph(n.ty, this.hex(n.col), 7); item.appendChild(g); }
     const nameBtn = document.createElement("button");
     nameBtn.type = "button";
     nameBtn.setAttribute("data-list-item", nodeId);
@@ -5011,6 +5045,7 @@ class Component extends DCLogic {
     }
     if (i != null) nameBtn.addEventListener("click", (e) => { e.stopPropagation(); this.openDossier(i); });
     item.appendChild(nameBtn);
+    if (n) item.appendChild(this._playButton(n));   // ▶ is the technique's, on every surface
     const rm = document.createElement("button");
     rm.type = "button";
     rm.setAttribute("data-list-item-remove", nodeId);
@@ -5239,7 +5274,12 @@ class Component extends DCLogic {
         b.addEventListener("mouseleave", () => { b.style.background = "transparent"; b.style.color = tint; });
         return b;
       };
-      const drill = icon("data-list-drill", '<svg width="11" height="11" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"></path></svg>',
+      // NOT ▶ (v1.103.6). This opens a FLASHCARD SESSION over the list's cards — it never
+      // touched the roll — so it wore the wrong verb: ▶ now means "make this the current state
+      // and roll", which is meaningless for a collection. Stacked cards say what it does. The
+      // action itself is untouched (`openListSession`), and it is the only way to drill a class
+      // somebody sent you, so it keeps its seat rather than being deleted with the glyph.
+      const drill = icon("data-list-drill", '<svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="7" width="13" height="14" rx="2"></rect><path d="M8 4h11a2 2 0 0 1 2 2v11"></path></svg>',
         "Drill “" + l.name + "”", "#9ab0e0");
       drill.addEventListener("click", () => this.openListSession(id));
       row.appendChild(drill);
@@ -5405,6 +5445,7 @@ class Component extends DCLogic {
       }
       if (i != null) nameBtn.addEventListener("click", () => this.openDossier(i));
       item.appendChild(nameBtn);
+      if (n) item.appendChild(this._playButton(n));   // a received technique plays like any other
       item.appendChild(this._listAddButton(id, "shared"));
       box.appendChild(item);
     }
