@@ -4988,7 +4988,7 @@ class Component extends DCLogic {
     item.setAttribute("data-list-itemrow", nodeId);
     // EXPLORE'S ITEM ROW (v1.103.4): the same 22px indent, 8px gap and hover wash its sections
     // give a position or a technique — because that is exactly what these are.
-    item.style.cssText = "display:flex;align-items:center;gap:8px;min-width:0;padding:0 12px 0 22px;border-radius:7px;";
+    item.style.cssText = "display:flex;align-items:center;gap:8px;min-width:0;padding:7px 12px 7px 38px;border-radius:7px;";
     item.addEventListener("mouseenter", () => item.style.background = "rgba(255,255,255,.045)");
     item.addEventListener("mouseleave", () => item.style.background = "transparent");
     const nameBtn = document.createElement("button");
@@ -4997,13 +4997,12 @@ class Component extends DCLogic {
     nameBtn.setAttribute("data-list-of", listId);
     // pointer-events:auto INLINE — inherited property, the overlay root disables it and the
     // canvas hit-tests above anything that does not re-enable it (v1.69.1 / v1.81.2).
-    nameBtn.style.cssText = "flex:1;min-width:0;min-height:44px;pointer-events:auto;cursor:pointer;font-family:inherit;text-align:left;border:0;background:transparent;padding:0;display:flex;align-items:center;gap:8px;font-size:13px;color:#c4cde0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;";
+    // 12px #9aa6bd with the qualifier in #6b7691 — byte for byte what Explore's leaf rows use
+    nameBtn.style.cssText = "flex:1;min-width:0;pointer-events:auto;cursor:pointer;font-family:inherit;text-align:left;border:0;background:transparent;padding:0;font-size:12px;color:#9aa6bd;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;";
     if (n) {
       const sp = this.splitName(n.t);
-      // the category glyph Explore puts in front of every technique it lists
-      nameBtn.innerHTML = this.nodeGlyph(n.ty, this.hex(n.col), 9) +
-        this.escHTML(sp.main) +
-        (sp.from ? ' <span style="color:#8b97b0;font-size:11px;">' + this.escHTML(sp.from) + '</span>' : "");
+      nameBtn.innerHTML = this.escHTML(sp.main) +
+        (sp.from ? ' <span style="color:#6b7691;">' + this.escHTML(sp.from) + '</span>' : "");
       nameBtn.title = n.t; // the full name survives the ellipsis on a 390px drawer
       nameBtn.setAttribute("aria-label", n.t);
     } else {
@@ -5019,7 +5018,11 @@ class Component extends DCLogic {
     rm.textContent = "×";
     rm.title = "Remove from this list";
     rm.setAttribute("aria-label", "Remove " + (n ? n.t : nodeId) + " from this list");
-    rm.style.cssText = "flex:none;width:44px;height:44px;pointer-events:auto;cursor:pointer;font-family:inherit;font-size:14px;line-height:1;border:0;border-radius:8px;background:transparent;color:#6b7691;display:inline-flex;align-items:center;justify-content:center;";
+    // 22px, not 44 — a 44px control inside a 30px row IS the row's height, which is what made
+    // these read as cards among Explore's rows. The pane is a scroller, not a thumb band.
+    rm.style.cssText = "flex:none;width:24px;height:24px;pointer-events:auto;cursor:pointer;font-family:inherit;font-size:13px;line-height:1;border:0;border-radius:7px;background:transparent;color:#6b7691;display:inline-flex;align-items:center;justify-content:center;";
+    rm.addEventListener("mouseenter", () => { rm.style.background = "rgba(255,255,255,.08)"; rm.style.color = "#dbe2f0"; });
+    rm.addEventListener("mouseleave", () => { rm.style.background = "transparent"; rm.style.color = "#6b7691"; });
     rm.addEventListener("click", (e) => { e.stopPropagation(); e.preventDefault(); this.removeListItem(nodeId, listId); });
     item.appendChild(rm);
     return item;
@@ -5041,7 +5044,7 @@ class Component extends DCLogic {
 
     const head = document.createElement("div");
     head.setAttribute("data-lists-head", "1");
-    head.style.cssText = "display:flex;align-items:center;gap:8px;padding:0 6px 0 12px;min-height:44px;";
+    head.style.cssText = "display:flex;align-items:center;gap:8px;padding:0 6px 0 12px;min-height:36px;";
     head.innerHTML =
       // "Your lists (0)" — the count is explicit even at zero (owner's call, v1.95.0), and
       // "Your" scopes it so it no longer contradicts an incoming shared block above: the
@@ -5091,7 +5094,7 @@ class Component extends DCLogic {
     if (!ids.length) {
       const empty = document.createElement("div");
       empty.setAttribute("data-lists-empty", "1");
-      empty.style.cssText = "font-size:11.5px;line-height:1.5;color:#7e8aa3;padding:4px 12px 2px;";
+      empty.style.cssText = "font-size:11.5px;line-height:1.5;color:#7e8aa3;padding:4px 12px 6px 22px;";
       empty.textContent = this._sharedIncoming
         ? "Save the shared class above to keep it — or tap + to start your own."
         : "No lists yet — tap + to start one.";
@@ -5114,7 +5117,15 @@ class Component extends DCLogic {
       // at 22px. No card, no border box: the boxed pill made a list look like a different KIND of
       // thing from everything else in this pane, which it is not. A LIT list keeps a wash, because
       // "these are on the graph right now" is real state, not decoration.
-      row.style.cssText = "display:flex;align-items:center;gap:8px;flex-wrap:wrap;padding:7px 12px;border-radius:7px;cursor:pointer;border:0;background:" + (lit ? "rgba(58,72,118,.45)" : "transparent") + ";";
+      // ONE LEVEL IN, AND ON EXPLORE'S EXACT LADDER (v1.103.5). Owner: "they must go one to the
+      // right i mean inline and the spacing between items is off, the style doesn't feel like the
+      // Positions category". It didn't: Explore nests header(12) → family(22) → leaf(38), every
+      // row `padding:7px <pad>px` via mk(). "Your lists" is the header, so a LIST is a family row
+      // at 22 and its techniques are leaf rows at 38 — the same indents, the same 7px rhythm, the
+      // same type ramp (14/700 → 13/600 #c4cde0 → 12 #9aa6bd). The 44px min-heights that used to
+      // sit on these buttons are what made the spacing feel foreign: nothing else in this pane is
+      // 44px tall, and the pane is a scroller, not a thumb band.
+      row.style.cssText = "display:flex;align-items:center;gap:8px;flex-wrap:wrap;padding:7px 22px;border-radius:7px;cursor:pointer;border:0;background:" + (lit ? "rgba(58,72,118,.45)" : "transparent") + ";";
       if (!lit) {
         row.addEventListener("mouseenter", () => { if (this._listFocusId !== id) row.style.background = "rgba(255,255,255,.045)"; });
         row.addEventListener("mouseleave", () => { if (this._listFocusId !== id) row.style.background = "transparent"; });
@@ -5182,15 +5193,15 @@ class Component extends DCLogic {
         nameBtn.setAttribute("data-list-name", id);
         nameBtn.title = "Rename this list";
         nameBtn.setAttribute("aria-label", "Rename “" + l.name + "”");
-        // 14px/700 #dbe2f0 — the exact weight Explore gives "Systems", "Positions", "Learning"
-        nameBtn.style.cssText = "display:block;min-width:0;pointer-events:auto;cursor:text;font-family:inherit;text-align:left;border:0;background:transparent;padding:0;font-size:14px;font-weight:700;color:#dbe2f0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;";
+        // 13px/600 #c4cde0 — the weight Explore gives a FAMILY row ("Armbar", "Half Guard")
+        nameBtn.style.cssText = "display:block;min-width:0;pointer-events:auto;cursor:text;font-family:inherit;text-align:left;border:0;background:transparent;padding:0;font-size:13px;font-weight:600;color:#c4cde0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;";
         nameBtn.textContent = l.name;
         nameBtn.addEventListener("click", () => this.startListRename(id));
         main.appendChild(nameBtn);
         // THE COUNT LINE IS THE DISCLOSURE (v1.99.4). It used to be a second way to light the
         // list — a duplicate of the row's own click, which is still there. "3 techniques" is
         // the natural place to ask *which* three, so it now opens the list in place: chevron,
-        // aria-expanded, aria-controls, and a real 44px band to press.
+        // aria-expanded, aria-controls, and a real band to press.
         const open = document.createElement("button");
         open.type = "button";
         open.setAttribute("data-list-open", id);
@@ -5199,9 +5210,14 @@ class Component extends DCLogic {
         open.setAttribute("aria-label", (expanded ? "Hide" : "Show") + " the techniques in “" + l.name + "”");
         open.title = expanded ? "Hide these techniques" : "Show these techniques";
         // the count reads like Explore's "(6)", and the chevron sits where its sections put it
-        open.style.cssText = "display:flex;align-items:center;gap:7px;flex:none;min-height:44px;pointer-events:auto;cursor:pointer;font-family:inherit;text-align:left;border:0;background:transparent;color:inherit;padding:0;";
-        open.innerHTML = '<span data-list-count="' + l.items.length + '" style="font-size:11px;color:#7e8aa3;">(' + l.items.length + ')</span>' +
-          '<span data-list-chevron="1" aria-hidden="true" style="flex:none;font-size:11px;line-height:1;color:#5d6883;">' + (expanded ? "▾" : "▸") + '</span>';
+        // a family row prints its count bare (10.5px) and puts the chevron last, at 10px.
+        // THE GLYPHS STAY SMALL, THE HIT AREA GROWS (`.ng-lists-new`'s pattern): 10.5px text and
+        // a 10px chevron are an 18x12 target if you let them size the button, which is under the
+        // pane's own 24px figure and under WCAG 2.2 AA. The padding buys the target without
+        // touching the type, and costs the row nothing — its 24px controls already set 38px.
+        open.style.cssText = "display:flex;align-items:center;gap:7px;flex:none;pointer-events:auto;cursor:pointer;font-family:inherit;text-align:left;border:0;background:transparent;color:inherit;padding:6px 5px;margin:-6px -5px;border-radius:7px;";
+        open.innerHTML = '<span data-list-count="' + l.items.length + '" style="font-size:10.5px;color:#7e8aa3;">' + l.items.length + '</span>' +
+          '<span data-list-chevron="1" aria-hidden="true" style="flex:none;font-size:10px;line-height:1;color:#5d6883;">' + (expanded ? "▾" : "▸") + '</span>';
         open.addEventListener("click", () => this._toggleListExpand(id));
         main.appendChild(open);
       }
@@ -5218,7 +5234,7 @@ class Component extends DCLogic {
         b.setAttribute("aria-label", label);
         b.title = label;
         b.innerHTML = glyph;
-        b.style.cssText = "flex:none;pointer-events:auto;cursor:pointer;font-family:inherit;width:26px;height:26px;padding:0;border:0;border-radius:7px;background:transparent;color:" + tint + ";display:inline-flex;align-items:center;justify-content:center;font-size:12px;line-height:1;transition:background .15s,color .15s;";
+        b.style.cssText = "flex:none;pointer-events:auto;cursor:pointer;font-family:inherit;width:24px;height:24px;padding:0;border:0;border-radius:7px;background:transparent;color:" + tint + ";display:inline-flex;align-items:center;justify-content:center;font-size:12px;line-height:1;transition:background .15s,color .15s;";
         b.addEventListener("mouseenter", () => { b.style.background = "rgba(255,255,255,.08)"; b.style.color = "#eef1f6"; });
         b.addEventListener("mouseleave", () => { b.style.background = "transparent"; b.style.color = tint; });
         return b;
@@ -5246,7 +5262,7 @@ class Component extends DCLogic {
       del.setAttribute("aria-label", armed ? "Confirm deleting “" + l.name + "”" : "Delete “" + l.name + "”");
       // still 12px clear of Share — the button a coach presses in front of the class — so a stray
       // click cannot destroy the list the session was spent building (the two-step is unchanged)
-      del.style.cssText = "flex:none;margin-left:12px;pointer-events:auto;cursor:pointer;font-family:inherit;font-size:" + (armed ? "10.5px;font-weight:700;" : "13px;") + "line-height:1;" + (armed ? "padding:5px 8px;width:auto;height:auto;" : "padding:0;width:26px;height:26px;display:inline-flex;align-items:center;justify-content:center;") + "border-radius:7px;border:" + (armed ? "1px solid rgba(242,104,95,.5)" : "0") + ";background:" + (armed ? "rgba(242,104,95,.16)" : "transparent") + ";color:" + (armed ? "#ff9c92" : "#6b7691") + ";";
+      del.style.cssText = "flex:none;margin-left:12px;pointer-events:auto;cursor:pointer;font-family:inherit;font-size:" + (armed ? "10.5px;font-weight:700;" : "13px;") + "line-height:1;" + (armed ? "padding:5px 8px;width:auto;height:auto;" : "padding:0;width:24px;height:24px;display:inline-flex;align-items:center;justify-content:center;") + "border-radius:7px;border:" + (armed ? "1px solid rgba(242,104,95,.5)" : "0") + ";background:" + (armed ? "rgba(242,104,95,.16)" : "transparent") + ";color:" + (armed ? "#ff9c92" : "#6b7691") + ";";
       del.addEventListener("click", () => {
         if (this._delArm !== id) {
           this._delArm = id;
@@ -5274,7 +5290,7 @@ class Component extends DCLogic {
         if (!l.items.length) {
           const em = document.createElement("div");
           em.setAttribute("data-list-empty", id);
-          em.style.cssText = "font-size:11px;line-height:1.5;color:#7e8aa3;padding:6px 2px 4px;";
+          em.style.cssText = "font-size:11px;line-height:1.5;color:#7e8aa3;padding:5px 12px 5px 38px;";
           // the three surfaces that actually carry [data-list-add] where a technique is named:
           // the in-roll option cards (data-list-surface="option"), both dossier renderers
           // ("dossier"/"sheet") and Explore's own leaf rows ("explore").

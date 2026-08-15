@@ -16,7 +16,7 @@ import { journey } from "../dsl";
  * The contract, one test each:
  *
  *  1. DISCLOSURE. The count line ("3 techniques") is the control: chevron, aria-expanded,
- *     aria-controls, a 44px band, keyboard-operable. Collapsed means the items are not in the
+ *     aria-controls, a real band, keyboard-operable. Collapsed means the items are not in the
  *     DOM at all, not merely hidden.
  *  2. THE QUALIFIED NAME. main + the dimmer `from <position>` half, exactly like the shared
  *     block — 648 of 1467 nodes carry a qualifier, "Kimura" alone is 35 techniques here.
@@ -140,9 +140,15 @@ test("a list's techniques live behind its count line — the chevron opens them 
   await expect(items).toHaveCount(1);
   await expect(page.locator(`[data-list-items="${id}"] [data-list-item]`)).toHaveCount(3);
 
-  // it is a real 44px control, and it names what it does for a screen reader
+  // 24px, NOT 44 — the pane's own figure. `_listAddButton` states the policy these rows live
+  // under: thumb size (44) on the IN-ROLL surfaces (option hand, escape hand, landing card),
+  // hit one-handed on a moving screen; the compact glyph (24) in the pane, which is a scroller
+  // you read with your eyes and hit at leisure. Explore's `+` is 24 on all 136 Positions rows
+  // one row below these. Pinning 44 here made the Lists section the ONE part of the pane on a
+  // different rhythm, which is exactly what the owner saw. 24 is also WCAG 2.2 AA (2.5.8).
+  // and it names what it does for a screen reader
   const box = (await toggle.boundingBox())!;
-  expect(box.height, "44px target").toBeGreaterThanOrEqual(44);
+  expect(box.height, "pane-sized target").toBeGreaterThanOrEqual(24);
   await expect(toggle).toHaveAttribute("aria-label", /Hide the techniques in “Monday fundamentals”/);
   expect(
     await page.evaluate(
@@ -274,9 +280,9 @@ test("× removes that technique from THAT list: count, storage and the lit graph
 
   const victim = picks[1];
   const rm = `[data-list-items="${id}"] [data-list-item-remove="${victim.id}"]`;
-  const rmBox = (await page.locator(rm).boundingBox())!;
-  expect(rmBox.width, "44px target").toBeGreaterThanOrEqual(44);
-  expect(rmBox.height, "44px target").toBeGreaterThanOrEqual(44);
+  const rmBox = (await page.locator(rm).boundingBox())!;   // pane figure, see the note above
+  expect(rmBox.width, "pane-sized target").toBeGreaterThanOrEqual(24);
+  expect(rmBox.height, "pane-sized target").toBeGreaterThanOrEqual(24);
   await expect(page.locator(rm)).toHaveAttribute("aria-label", `Remove ${victim.name} from this list`);
 
   await j.clickByMouse(rm, "the item's ×");
@@ -461,18 +467,20 @@ test.describe("in the 390px drawer", () => {
     geo.truncated.some(Boolean),
     "the longest names really do truncate here (otherwise this test proves nothing)",
   ).toBe(true);
+  // the drawer does NOT get its own figure: the pane is the same scroller on both form factors,
+  // and Explore's rows sit at 24 right beside these. The 44 rule is for surfaces hit MID-ROLL.
   for (const b of geo.rm) {
-    expect(b.w, "thumb-sized ×").toBeGreaterThanOrEqual(44);
-    expect(b.h, "thumb-sized ×").toBeGreaterThanOrEqual(44);
+    expect(b.w, "pane-sized ×").toBeGreaterThanOrEqual(24);
+    expect(b.h, "pane-sized ×").toBeGreaterThanOrEqual(24);
   }
   // NOT A SCROLL TRAP: a scroller inside the pane's scroller eats the drawer's own gesture
   expect(geo.overflowX).toBe("visible");
   expect(geo.overflowY).toBe("visible");
   expect(geo.scrolls, "the items region never becomes its own scroll box").toBe(false);
 
-  // the toggle stays a thumb target in the drawer too
+  // the toggle stays a real target in the drawer too (pane figure, not the in-roll one)
   const tb = (await page.locator(`[data-list-open="${id}"]`).boundingBox())!;
-  expect(tb.height).toBeGreaterThanOrEqual(44);
+  expect(tb.height).toBeGreaterThanOrEqual(24);
 
   // and a real touch on the × removes, at MEASURED coordinates (never locator.click())
   const rb = (await page
