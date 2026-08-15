@@ -1081,6 +1081,18 @@ score = Σ (weight_i × mastery_i),   Σ weight_i = 1
 
 **Settings additions:** Rolling tab gains *Questions while you roll* (`landQuestions`, default on — gates the QUESTION only; identity+film render regardless) and *Challenge cue* (visibility; it tracks the frontier belt). Flashcards tab's *Answer mode* defaults to Classic recall. Shortcuts lists `A B C D`.
 
+**LISTS READ AS EXPLORE SECTIONS (v1.103.4).** Owner: "the listings of the lists design look very
+ugly, instead ... the lists and items like categories / items in the explore tab, except they are
+lists ... with a play + share icon + close icon on the right of it". A list row is now the SAME
+object Explore gives "Systems" or "Positions" — full-width, 7px/12px padding, 14px/700 name,
+`(n)` count, chevron, hover wash, no card and no border box — and its techniques are that section's
+ITEMS at a 22px indent with the category glyph Explore puts in front of every technique. The three
+controls are glyphs on the right: ▶ drill, share, ×. A LIT list keeps its wash, because "these are
+on the graph right now" is state, not decoration. Every handle survives the restyle
+(`data-list-row/-name/-open/-chevron/-count/-drill/-share/-delete/-items/-item/-item-remove`), as
+does the two-step armed delete and its 12px miss-distance from Share; each glyph carries a real
+`aria-label` naming its list, since a `title` is not an accessible name.
+
 **`[data-lists-target]` IS RETIRED (v1.103.3).** it existed to make v1.99.5's silent default destination legible, and v1.102.0 removed the silent default, so it was naming a fact that had stopped being true (owner: it "shouldnt exist"). `targetList()` survives as the picker's `[data-picker-default]` ordering, which is an OFFER, not a decision.
 
 **THE PICKER NO LONGER HIDES WHAT YOU WERE READING (v1.103.2).** `openListPicker` used to suppress

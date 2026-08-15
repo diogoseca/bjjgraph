@@ -4986,17 +4986,23 @@ class Component extends DCLogic {
     const n = i != null ? this.nodes[i] : null;
     const item = document.createElement("div");
     item.setAttribute("data-list-itemrow", nodeId);
-    item.style.cssText = "display:flex;align-items:center;gap:4px;min-width:0;";
+    // EXPLORE'S ITEM ROW (v1.103.4): the same 22px indent, 8px gap and hover wash its sections
+    // give a position or a technique — because that is exactly what these are.
+    item.style.cssText = "display:flex;align-items:center;gap:8px;min-width:0;padding:0 12px 0 22px;border-radius:7px;";
+    item.addEventListener("mouseenter", () => item.style.background = "rgba(255,255,255,.045)");
+    item.addEventListener("mouseleave", () => item.style.background = "transparent");
     const nameBtn = document.createElement("button");
     nameBtn.type = "button";
     nameBtn.setAttribute("data-list-item", nodeId);
     nameBtn.setAttribute("data-list-of", listId);
     // pointer-events:auto INLINE — inherited property, the overlay root disables it and the
     // canvas hit-tests above anything that does not re-enable it (v1.69.1 / v1.81.2).
-    nameBtn.style.cssText = "flex:1;min-width:0;min-height:44px;pointer-events:auto;cursor:pointer;font-family:inherit;text-align:left;border:0;background:transparent;padding:0 2px;font-size:12.5px;color:#dbe2f0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;";
+    nameBtn.style.cssText = "flex:1;min-width:0;min-height:44px;pointer-events:auto;cursor:pointer;font-family:inherit;text-align:left;border:0;background:transparent;padding:0;display:flex;align-items:center;gap:8px;font-size:13px;color:#c4cde0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;";
     if (n) {
       const sp = this.splitName(n.t);
-      nameBtn.innerHTML = this.escHTML(sp.main) +
+      // the category glyph Explore puts in front of every technique it lists
+      nameBtn.innerHTML = this.nodeGlyph(n.ty, this.hex(n.col), 9) +
+        this.escHTML(sp.main) +
         (sp.from ? ' <span style="color:#8b97b0;font-size:11px;">' + this.escHTML(sp.from) + '</span>' : "");
       nameBtn.title = n.t; // the full name survives the ellipsis on a 390px drawer
       nameBtn.setAttribute("aria-label", n.t);
@@ -5100,7 +5106,19 @@ class Component extends DCLogic {
       const lit = this._listFocusId === id;
       const expanded = this._listExpanded(id);
       const itemsId = "ng-list-items-" + id;
-      row.style.cssText = "display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin:0 6px 4px;padding:7px 8px;border-radius:9px;cursor:pointer;border:1px solid " + (lit ? "rgba(150,180,255,.45)" : "rgba(150,170,210,.14)") + ";background:" + (lit ? "rgba(58,72,118,.4)" : "rgba(255,255,255,.025)") + ";";
+      // EXPLORE'S OWN IDIOM (v1.103.4). Owner: "the listings of the lists design look very ugly,
+      // instead ... the lists and items like categories / items in the explore tab, except they
+      // are lists ... with a play + share icon + close icon on the right of it". So a list reads
+      // as a SECTION HEADER — the same full-width row, 7px/12px padding, hover wash and chevron
+      // that Systems/Positions/Transitions use — and its techniques read as that section's ITEMS
+      // at 22px. No card, no border box: the boxed pill made a list look like a different KIND of
+      // thing from everything else in this pane, which it is not. A LIT list keeps a wash, because
+      // "these are on the graph right now" is real state, not decoration.
+      row.style.cssText = "display:flex;align-items:center;gap:8px;flex-wrap:wrap;padding:7px 12px;border-radius:7px;cursor:pointer;border:0;background:" + (lit ? "rgba(58,72,118,.45)" : "transparent") + ";";
+      if (!lit) {
+        row.addEventListener("mouseenter", () => { if (this._listFocusId !== id) row.style.background = "rgba(255,255,255,.045)"; });
+        row.addEventListener("mouseleave", () => { if (this._listFocusId !== id) row.style.background = "transparent"; });
+      }
       // THE ROW lights the list; THE NAME renames it (v1.99.3, owner: "I can't seem to
       // click to rename my lists"). Controls own their clicks (the closest() guard), and a
       // click that lands while — or just after — the editor is open must NOT light: blur
@@ -5114,7 +5132,7 @@ class Component extends DCLogic {
         this.focusList(id);
       });
       const main = document.createElement("div");
-      main.style.cssText = "flex:1;min-width:0;display:flex;flex-direction:column;";
+      main.style.cssText = "flex:1;min-width:0;display:flex;align-items:center;gap:8px;";
       if (this._listEditId === id) {
         // ── INLINE RENAME: Enter/blur commits, Esc cancels, empty reverts ──
         const inp = document.createElement("input");
@@ -5164,7 +5182,8 @@ class Component extends DCLogic {
         nameBtn.setAttribute("data-list-name", id);
         nameBtn.title = "Rename this list";
         nameBtn.setAttribute("aria-label", "Rename “" + l.name + "”");
-        nameBtn.style.cssText = "display:block;width:100%;min-width:0;pointer-events:auto;cursor:text;font-family:inherit;text-align:left;border:0;background:transparent;padding:0;font-size:13px;font-weight:600;color:#dbe2f0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;";
+        // 14px/700 #dbe2f0 — the exact weight Explore gives "Systems", "Positions", "Learning"
+        nameBtn.style.cssText = "display:block;min-width:0;pointer-events:auto;cursor:text;font-family:inherit;text-align:left;border:0;background:transparent;padding:0;font-size:14px;font-weight:700;color:#dbe2f0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;";
         nameBtn.textContent = l.name;
         nameBtn.addEventListener("click", () => this.startListRename(id));
         main.appendChild(nameBtn);
@@ -5179,27 +5198,38 @@ class Component extends DCLogic {
         open.setAttribute("aria-controls", itemsId);
         open.setAttribute("aria-label", (expanded ? "Hide" : "Show") + " the techniques in “" + l.name + "”");
         open.title = expanded ? "Hide these techniques" : "Show these techniques";
-        open.style.cssText = "display:flex;align-items:center;gap:7px;width:100%;min-width:0;min-height:44px;pointer-events:auto;cursor:pointer;font-family:inherit;text-align:left;border:0;background:transparent;color:inherit;padding:0;";
-        open.innerHTML = '<span data-list-chevron="1" aria-hidden="true" style="flex:none;font-size:11px;line-height:1;color:#5d6883;">' + (expanded ? "▾" : "▸") + '</span>' +
-          '<span data-list-count="' + l.items.length + '" style="font-size:10px;letter-spacing:.05em;text-transform:uppercase;color:#7e8aa3;">' + l.items.length + ' technique' + (l.items.length === 1 ? "" : "s") + '</span>';
+        // the count reads like Explore's "(6)", and the chevron sits where its sections put it
+        open.style.cssText = "display:flex;align-items:center;gap:7px;flex:none;min-height:44px;pointer-events:auto;cursor:pointer;font-family:inherit;text-align:left;border:0;background:transparent;color:inherit;padding:0;";
+        open.innerHTML = '<span data-list-count="' + l.items.length + '" style="font-size:11px;color:#7e8aa3;">(' + l.items.length + ')</span>' +
+          '<span data-list-chevron="1" aria-hidden="true" style="flex:none;font-size:11px;line-height:1;color:#5d6883;">' + (expanded ? "▾" : "▸") + '</span>';
         open.addEventListener("click", () => this._toggleListExpand(id));
         main.appendChild(open);
       }
       row.appendChild(main);
 
-      const drill = document.createElement("button");
-      drill.type = "button";
-      drill.setAttribute("data-list-drill", id);
-      drill.textContent = "Drill";
-      drill.style.cssText = "flex:none;pointer-events:auto;cursor:pointer;font-family:inherit;font-size:10.5px;font-weight:700;padding:5px 9px;border-radius:7px;border:1px solid rgba(150,170,210,.28);background:rgba(255,255,255,.04);color:#c4cde0;";
+      // ── THREE ICONS ON THE RIGHT (v1.103.4) ────────────────────────────────────────────────
+      // Owner: "a play + share icon + close icon on the right of it". Two word-buttons made every
+      // list row a toolbar; a section header carries glyphs. Same handles, same actions, same
+      // accessible names — a `title` is not a name, so each carries a real `aria-label`.
+      const icon = (attr, glyph, label, tint) => {
+        const b = document.createElement("button");
+        b.type = "button";
+        b.setAttribute(attr, id);
+        b.setAttribute("aria-label", label);
+        b.title = label;
+        b.innerHTML = glyph;
+        b.style.cssText = "flex:none;pointer-events:auto;cursor:pointer;font-family:inherit;width:26px;height:26px;padding:0;border:0;border-radius:7px;background:transparent;color:" + tint + ";display:inline-flex;align-items:center;justify-content:center;font-size:12px;line-height:1;transition:background .15s,color .15s;";
+        b.addEventListener("mouseenter", () => { b.style.background = "rgba(255,255,255,.08)"; b.style.color = "#eef1f6"; });
+        b.addEventListener("mouseleave", () => { b.style.background = "transparent"; b.style.color = tint; });
+        return b;
+      };
+      const drill = icon("data-list-drill", '<svg width="11" height="11" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"></path></svg>',
+        "Drill “" + l.name + "”", "#9ab0e0");
       drill.addEventListener("click", () => this.openListSession(id));
       row.appendChild(drill);
 
-      const share = document.createElement("button");
-      share.type = "button";
-      share.setAttribute("data-list-share", id);
-      share.textContent = "Share";
-      share.style.cssText = "flex:none;pointer-events:auto;cursor:pointer;font-family:inherit;font-size:10.5px;font-weight:700;padding:5px 10px;border-radius:7px;border:1px solid rgba(110,160,255,.4);background:linear-gradient(135deg,rgba(74,108,255,.3),rgba(74,108,255,.14));color:#eef1f6;";
+      const share = icon("data-list-share", '<svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12v7a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1v-7"></path><path d="M12 16V3"></path><path d="M8 7l4-4 4 4"></path></svg>',
+        "Share “" + l.name + "” as a link", "#9ab0e0");
       share.addEventListener("click", () => { void this.shareList(id); });
       row.appendChild(share);
 
@@ -5213,7 +5243,10 @@ class Component extends DCLogic {
       if (armed) del.setAttribute("data-list-delete-armed", "1");
       del.textContent = armed ? "Delete?" : "×";
       del.title = armed ? "Click again to delete this list" : "Delete this list";
-      del.style.cssText = "flex:none;margin-left:12px;pointer-events:auto;cursor:pointer;font-family:inherit;font-size:" + (armed ? "10.5px;font-weight:700;" : "13px;") + "line-height:1;padding:" + (armed ? "5px 8px" : "3px 6px") + ";border-radius:6px;border:" + (armed ? "1px solid rgba(242,104,95,.5)" : "0") + ";background:" + (armed ? "rgba(242,104,95,.16)" : "transparent") + ";color:" + (armed ? "#ff9c92" : "#6b7691") + ";";
+      del.setAttribute("aria-label", armed ? "Confirm deleting “" + l.name + "”" : "Delete “" + l.name + "”");
+      // still 12px clear of Share — the button a coach presses in front of the class — so a stray
+      // click cannot destroy the list the session was spent building (the two-step is unchanged)
+      del.style.cssText = "flex:none;margin-left:12px;pointer-events:auto;cursor:pointer;font-family:inherit;font-size:" + (armed ? "10.5px;font-weight:700;" : "13px;") + "line-height:1;" + (armed ? "padding:5px 8px;width:auto;height:auto;" : "padding:0;width:26px;height:26px;display:inline-flex;align-items:center;justify-content:center;") + "border-radius:7px;border:" + (armed ? "1px solid rgba(242,104,95,.5)" : "0") + ";background:" + (armed ? "rgba(242,104,95,.16)" : "transparent") + ";color:" + (armed ? "#ff9c92" : "#6b7691") + ";";
       del.addEventListener("click", () => {
         if (this._delArm !== id) {
           this._delArm = id;
@@ -5236,7 +5269,8 @@ class Component extends DCLogic {
         const items = document.createElement("div");
         items.id = itemsId;
         items.setAttribute("data-list-items", id);
-        items.style.cssText = "flex-basis:100%;width:100%;min-width:0;margin-top:3px;padding-top:4px;border-top:1px solid rgba(150,170,210,.13);";
+        // no rule, no inset card: Explore's own sections just list their children underneath
+        items.style.cssText = "flex-basis:100%;width:100%;min-width:0;margin-top:2px;";
         if (!l.items.length) {
           const em = document.createElement("div");
           em.setAttribute("data-list-empty", id);
