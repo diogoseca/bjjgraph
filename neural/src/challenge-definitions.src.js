@@ -336,6 +336,10 @@ const NG_BADGE_DEFINITIONS = Object.freeze([
   { id: "black-breadth", name: "Broad Game", detail: "Clear the Black content track", sourceTrack: "black" },
   { id: "clean-checkpoint", name: "Clean Checkpoint", detail: "Pass a checkpoint flawlessly — every card right on first presentation", event: "checkpoint_passed", when: (p) => p.of > 0 && p.firstTry === p.of },
   { id: "thirty-from-memory", name: "Thirty From Memory", detail: "Recall-prove thirty cards", sourceChallenge: "brown.recall-thirty" },
+  // THE BLACK-BELT REWARD (v1.105.1, owner): reaching the black knowledge band unlocks Recall
+  // mode in play — proven cards stop being multiple choice mid-roll. The beat fires from
+  // noteCardAnswered while black-and-unminted; `when` reads the belt off the props.
+  { id: "recall-in-play", name: "Recall Mode", detail: "Reach black-belt Game Knowledge \u2014 in play, proven cards become pure recall", event: "belt_reached", when: (p) => p.belt === "black" },
 ]);
 
 const NG_MAT_COINS = Object.freeze([

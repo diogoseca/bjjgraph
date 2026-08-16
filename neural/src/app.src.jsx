@@ -1388,6 +1388,17 @@ class Component extends DCLogic {
   noteCardAnswered() {
     this.cardsAnswered = (this.cardsAnswered || 0) + 1;
     if (this.cardsAnswered >= 2) this.maybeShowSaveHint("cards");
+    // THE BLACK-BELT CROSSING (v1.105.1). Post-grade by construction (both chokes bump
+    // _stageVer before landing here, so gameScore() is fresh) — NOT in _bumpStageVer, which
+    // hydration also calls: a badge minted by a payload arriving would be a badge for nothing.
+    // Fires while black AND unminted — unconditional-at-black rather than edge-triggered, so a
+    // user who was ALREADY black before v1.105.1 is grandfathered on their next answer; goes
+    // quiet forever once the badge exists (replay noise, and the mint loop is idempotent anyway).
+    try {
+      if (!(this.badges && this.badges["recall-in-play"]) && this.gameScore().belt === "black") {
+        this.fx("belt_reached", { belt: "black" });
+      }
+    } catch (e) { /* score not ready at boot — the next answer retries */ }
   }
   // PANE LAW: never force the pane open. One quiet toast; the save CTA still renders
   // inside the pane whenever the user opens it by hand (_menuNudge). The pill this used
@@ -3152,6 +3163,24 @@ class Component extends DCLogic {
       // study order
       body.appendChild(this.settingRow("Answer mode", "How cards read back HERE. Questions asked in-roll are always multiple choice \u2014 this sidebar is the study surface, so it reads back as recall unless you say otherwise.",
         [["Classic recall", "classic"], ["Auto", "auto"], ["Multiple choice", "mc"]], "mcMode", "classic"));
+      // RECALL MODE — the black-belt badge's toggle (v1.105.1). LOCKED until the knowledge band
+      // reaches black; auto-flipped ON when the badge mints; freely flippable back. When on, a
+      // stage-2+ card in PLAY renders as reveal/self-grade instead of multiple choice.
+      {
+        const isBlack = (() => { try { return this.gameScore().belt === "black"; } catch (e) { return false; } })();
+        const hasBadge = !!(this.badges && this.badges["recall-in-play"]);
+        if (isBlack || hasBadge) {
+          body.appendChild(this.settingRow("Recall mode (in play)", "The black-belt reward: proven cards stop being multiple choice mid-roll \u2014 question, reveal, self-grade.",
+            [["On", true], ["Off", false]], "recallInPlay", false));
+        } else {
+          const locked = document.createElement("div");
+          locked.setAttribute("data-recall-locked", "1");
+          locked.style.cssText = "opacity:.55;padding:12px 0;border-top:1px solid rgba(150,170,210,.1);";
+          locked.innerHTML = '<div style="font-size:13px;font-weight:600;color:#c3cde0;display:flex;align-items:center;gap:7px;">Recall mode (in play) <span style="font-size:9px;letter-spacing:.12em;text-transform:uppercase;font-weight:800;color:#8b97b0;border:1px solid rgba(150,170,210,.3);border-radius:5px;padding:2px 6px;">Locked</span></div>' +
+            '<div style="font-size:11px;color:#7e8aa3;margin-top:3px;line-height:1.5;">Unlocks at black belt \u2014 the elite format: no options, just the question and your memory.</div>';
+          body.appendChild(locked);
+        }
+      }
       // (the dead "Study order" setting row was deleted in v1.105.0 — `studyOrder` was written but read nowhere; due-first is now BEHAVIOUR, not a preference)
       // focus
       body.appendChild(this.settingRow("Focus", "Shore up weaknesses, or sharpen strengths",
@@ -7879,12 +7908,18 @@ class Component extends DCLogic {
     //   · cards absent            -> hydrate this deck
     //   · cards here, MC in play  -> warm the distractor pool first, so the options are not a
     //                                function of which neighbour chunks happened to arrive
+    // THE IN-PLAY FORMAT (v1.105.1). MC by design, whatever mcMode says (that setting governs
+    // the sidebar) — EXCEPT under the black-belt badge: `recallInPlay` (a reward toggle, locked
+    // until the knowledge band reaches black) renders a stage-2+ card as the classic
+    // reveal/self-grade block instead. Per-card, exactly as the owner specified: "after the
+    // player gets the multiple choice right, the second time we show the card... Q and A, and we
+    // hide the answer." A stage-0/1 card stays MC even with the badge on — recognition first.
+    const landRecall = !!(card && this.get("recallInPlay", false) && this.cardStage(key, card.q) >= 2);
     let warm = null;
     if (wantQ && !card && !this._deckResident(key)) warm = () => this.hydrateDeck(key);
-    // NB: no mcActive() check — the LANDING question is multiple choice by design, whatever
-    // mcMode says (that setting governs the sidebar). Gating the warm on mcActive left the
-    // in-play question, the one surface that is always MC, drawing from a cold pool.
-    else if (card && !this.mcPoolWarm(key, card)) {
+    // the warm gate is FORMAT-AWARE: a recall block needs no distractor pool, and holding its
+    // card hostage to one would delay the question behind a fetch it will never use.
+    else if (card && !landRecall && !this.mcPoolWarm(key, card)) {
       const c0 = card;
       warm = () => this._warmMcPool(c0, key, "land");
       card = null;                                     // ask nothing until the pool is resident
@@ -7991,7 +8026,9 @@ class Component extends DCLogic {
       qt.style.cssText = "padding-right:54px;font-size:12.5px;font-weight:600;color:#dbe2f0;line-height:1.35;margin-bottom:8px;";
       qt.textContent = card.q;
       qw.appendChild(qt);
-      const block = this._mcBlock(card, key, (correct, tier) => this._landAnswered(correct, tier, mode, hooks), "land");
+      const block = landRecall
+        ? this._recallBlock(card, key, (ok, tier) => this._landAnswered(ok, tier, mode, hooks, "recall"), "land")
+        : this._mcBlock(card, key, (correct, tier) => this._landAnswered(correct, tier, mode, hooks), "land");
       if (block) {
         qw.appendChild(block);
         el.appendChild(qw);
@@ -8367,12 +8404,18 @@ class Component extends DCLogic {
     // loses to an !important declaration in a stylesheet. Setting `el.style.bottom` moved the card
     // by 2px (646 → 644) and looked like the measurement was wrong rather than the cascade.
     el.style.setProperty("bottom", Math.round(TRAY_BOTTOM + h + 8) + "px", "important");  }
-  _landAnswered(correct, tier, mode, hooks) {
+  _landAnswered(correct, tier, mode, hooks, format) {
     this._landPending = false;
     if (this._landQ) this._landQ.answered = true; // scored — no payload may ever re-mount this block
     if (correct) {
-      const granted = this.refundDecision(2500);
-      this._comboUp();
+      // SELF-GRADED RECALL EARNS ODDS, NEVER CLOCK OR COMBO (v1.105.1). "Show answer → Got it"
+      // is an unverifiable claim; under MC the +2.5s refund and the combo tick are unforgeable,
+      // under recall they would be a free-time button on every landing. The mastery/odds credit
+      // (gradeRecall → noteCardDone) still flows — recall is worth MORE proof, just not more
+      // clock.
+      const selfGraded = format === "recall";
+      const granted = selfGraded ? false : this.refundDecision(2500);
+      if (!selfGraded) this._comboUp();
       // ×2+ gets the announcer pop — a toast underneath it would just mumble
       if ((this._combo || 0) < 2) this.setEvent("Correct", granted ? "Odds up · +2.5s on the clock" : "Odds up on this exchange", "good");
     } else {
@@ -8725,6 +8768,10 @@ class Component extends DCLogic {
         if (trackId === "white") this.fx("tutorial_done", {});
       }
       for (const id of rewards.newBadges) {
+        // THE AUTO-FLIP LIVES HERE AND NOWHERE ELSE (v1.105.1): flipping on the MINT (a
+        // once-per-account event) means turning the toggle off later STICKS — a flip driven by
+        // "belt is black" would re-enable recall on every device forever through settings LWW.
+        if (id === "recall-in-play") this.set("recallInPlay", true);
         this.fx("patch_earned", { id });
         this.track("neural_patch_earned", { patch_id: id });
         if (this.queueChallengeReward) this.queueChallengeReward("patch", id);
