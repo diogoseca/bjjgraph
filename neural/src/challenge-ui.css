@@ -154,26 +154,7 @@
   background: rgba(255, 255, 255, 0.05);
 }
 
-.ng-gi-toggle {
-  min-height: 44px;
-  display: flex;
-  align-items: stretch;
-  margin-left: auto;
-  overflow: hidden;
-  border: 1px solid rgba(150, 170, 210, 0.2);
-  border-radius: 10px;
-  background: rgba(255, 255, 255, 0.03);
-}
 
-.ng-gi-toggle > button {
-  min-width: 44px;
-  border: 0;
-  background: transparent;
-  color: #8b97b0;
-  font: 800 9px/1 "Plus Jakarta Sans", sans-serif;
-  letter-spacing: 0.05em;
-  cursor: pointer;
-}
 
 .ng-learning-list {
   font-family: "Plus Jakarta Sans", sans-serif;

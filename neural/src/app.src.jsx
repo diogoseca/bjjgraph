@@ -5973,7 +5973,12 @@ class Component extends DCLogic {
     // the phone used to get a 70%-tall top sheet here and the desktop a right-docked column.
     // Both are retired (v1.101.5) — one surface, both form factors. The camera still flies to
     // the node; the card that lands is the one the player already knows.
-    if (!skipCam && this.cam) this.camTarget = { cx: n.x, cy: n.y, vw: this.graphW * this.ROLL_ZOOM };
+    // THE SAME FRAMING A ROLL SETTLES INTO (v1.104.6). This had the right ZOOM but nothing else:
+    // no lift into the free band between the announce block and the film strip, no aim at the
+    // node's LABEL, no horizontal bias — so clicking a node to read it composed differently from
+    // arriving at the same node by rolling, which is the divergence `rollCamTarget` exists to end
+    // (v1.103.2) and the one playFrom was carrying until v1.104.5.
+    if (!skipCam && this.cam) this.camTarget = this.rollCamTarget({ x: n.x, y: n.y }, false, n.idx);
     // ── ONE SURFACE: THE GAME'S OWN CARD (v1.101.5) ─────────────────────────────────────────
     // v1.101.0 retired the in-node container and sent the state you are STANDING IN to the
     // landing card, but left every OTHER node opening a right-docked reading sheet. The owner,
@@ -9414,7 +9419,10 @@ class Component extends DCLogic {
    * aimed at the node's centre while the eye reads the label: `draw()` writes a submission's text
    * `rs * 0.24` below centre, so a triangle's label sat low by exactly that much.
    */
-  rollCamTarget(f, moving) {
+  /** `nodeIdx` names the node being framed. It defaults to `focusIdx` because the follow-cam's
+   *  focus IS the node — but a reader (openDossier) frames a node it has not focused yet, and the
+   *  submission label offset below would otherwise be computed from whatever was focused before. */
+  rollCamTarget(f, moving, nodeIdx) {
     const vw = moving
       ? Math.max(this.graphW * 0.3, this.graphR * 0.7)
       : this.graphW * this.ROLL_ZOOM;
@@ -9438,7 +9446,8 @@ class Component extends DCLogic {
     if (bot - top < 80) { top = 16; bot = Math.max(120, H * 0.42); }   // no room: use the top band
     const wantY = (top + bot) / 2;
     const scale = W / vw;
-    const n = this.nodes && this.focusIdx >= 0 ? this.nodes[this.focusIdx] : null;
+    const ni = nodeIdx == null ? this.focusIdx : nodeIdx;
+    const n = this.nodes && ni >= 0 ? this.nodes[ni] : null;
     const nodeK = Math.max(0.4, Math.min(1, vw / (this.graphW * 0.5)));
     const labelOff = n && n.ty === "submissions" ? n.r * nodeK * scale * 0.24 : 0;
     // screen y = (n.y - cy) * scale + H/2  =>  cy = n.y - (wantY - H/2)/scale
