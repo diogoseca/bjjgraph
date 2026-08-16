@@ -70,7 +70,7 @@ test("probe: first-roll position pool + the chrome a newcomer sees", async ({
     )
       break;
   }
-  await page.evaluate(() => (window as any).__neural.dismissCoach());
+  await page.evaluate(() => (window as any).__neural?.dismissCoach?.());
   await page.waitForTimeout(400);
   const chrome = await page.evaluate(() => {
     const out: any = {};
@@ -129,7 +129,7 @@ test("probe: the landing card before, and after, the deck payload lands", async 
     )
       break;
   }
-  await page.evaluate(() => (window as any).__neural.dismissCoach());
+  await page.evaluate(() => (window as any).__neural?.dismissCoach?.());
   await page.waitForTimeout(400);
   const read = () =>
     page.evaluate(() => {
@@ -181,7 +181,7 @@ test("probe: first-roll role vs the position node's own side", async ({
     )
       break;
   }
-  await page.evaluate(() => (window as any).__neural.dismissCoach());
+  await page.evaluate(() => (window as any).__neural?.dismissCoach?.());
   await page.waitForTimeout(400);
   const r = await page.evaluate(() => {
     const a = (window as any).__neural;

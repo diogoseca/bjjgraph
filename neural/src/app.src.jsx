@@ -53,6 +53,7 @@ class Component extends DCLogic {
   dossierSheetRef = React.createRef();
   viewToggleRef = React.createRef();
   paneAnchorRef = React.createRef();
+  paneStatsRef = React.createRef();
   _viewMode = "challenges";
   nodeCardRef = React.createRef();
   transportRef = React.createRef();
@@ -75,7 +76,7 @@ class Component extends DCLogic {
       statusRef: this.statusRef, legendMarkRef: this.legendMarkRef,
       accountRef: this.accountRef, acctChipRef: this.acctChipRef, acctMenuRef: this.acctMenuRef, toggleAccountMenu: () => this.toggleAccountMenu(), transportRef: this.transportRef, playPauseRef: this.playPauseRef,
       modalRef: this.modalRef, modalCardRef: this.modalCardRef,
-      explorerRef: this.explorerRef, explorerListRef: this.explorerListRef, explorerSearchRef: this.explorerSearchRef, explorerSearchWrapRef: this.explorerSearchWrapRef, explorerToolsRef: this.explorerToolsRef, dossierRef: this.dossierRef, dossierSheetRef: this.dossierSheetRef, nodeCardRef: this.nodeCardRef, viewToggleRef: this.viewToggleRef, paneAnchorRef: this.paneAnchorRef,
+      explorerRef: this.explorerRef, explorerListRef: this.explorerListRef, explorerSearchRef: this.explorerSearchRef, explorerSearchWrapRef: this.explorerSearchWrapRef, explorerToolsRef: this.explorerToolsRef, dossierRef: this.dossierRef, dossierSheetRef: this.dossierSheetRef, nodeCardRef: this.nodeCardRef, viewToggleRef: this.viewToggleRef, paneAnchorRef: this.paneAnchorRef, paneStatsRef: this.paneStatsRef,
       toggleExplorer: () => this.toggleExplorer(), openSearch: () => this.openSearch(),
       legendPointRef: this.legendPointRef, legendRef: this.legendRef, optionHintRef: this.optionHintRef, optDetailRef: this.optDetailRef, brandFontRef: this.brandFontRef,
       scrollOptions: () => { const op = this.optionsRef.current; if (op) this.tweenScroll(op, Math.round(op.clientWidth * 0.62)); },
@@ -424,6 +425,14 @@ class Component extends DCLogic {
     // needed. Synchronous (not deferred through after()) so the lit graph and the list are
     // the first thing the recipient sees, on the first frame.
     try { this._openSharedListFromUrl(); } catch (e) { console.warn("[neural] share link failed:", e); }
+    // arriving on a node's own page rolls there; Back/Forward walk the nodes you chose.
+    try { this._urlSeeded = this._seedFromUrl(); } catch (e) { console.warn("[neural] url seed failed:", e); }
+    try {
+      window.addEventListener("popstate", () => {
+        const i = this._nodeForPath(location.pathname);
+        if (i >= 0 && i !== this.currentPos) this.rollFromPosition(i, true);
+      });
+    } catch (e) { /* non-fatal */ }
     // DECKS: boot from the MANIFEST, fetch each deck on demand (v1.80.4). The monolith was
     // 16.4MB raw / 4.4MB gzip of flashcards — every card for all 2,924 decks — pulled before
     // the visitor could make one move. The manifest names every deck with its card count and
@@ -1335,6 +1344,15 @@ class Component extends DCLogic {
     // EMPTY anchor stays collapsed (signed-in users have no save nudge — v1.95.0, the stat
     // row lives in Explore now, so the anchor can be legitimately contentless)
     const pa = this.paneAnchorRef.current; if (pa) pa.style.display = study || !pa.childElementCount ? "none" : "flex";
+    // THE STAT BAND SITS AT THE PANE'S FOOT (v1.104.5, owner: "I would prefer to be closer to the
+    // bottom"). It is its OWN element above `.ng-pane-anchor` rather than inside it, because the
+    // anchor collapses entirely for a signed-in user and these three numbers must not vanish with
+    // the save nudge. Hidden during a study takeover, like everything else in the foot.
+    const ps = this.paneStatsRef.current;
+    if (ps) {
+      if (study) ps.style.display = "none";
+      else { ps.innerHTML = ""; ps.appendChild(this._exploreStatsRow()); ps.style.display = "block"; }
+    }
   }
   // render whichever body the active tab owns (no-op while a study surface holds the pane)
   _renderPaneBody() {
@@ -2013,19 +2031,52 @@ class Component extends DCLogic {
   // Same .ngStat handles and click-throughs it has carried since v1.7 — only its home moved
   // (History head → pane anchor → Explore body top). The weak-spots count is the browse
   // surface's call to action; the other two open their flashcard lists.
+  /**
+   * THE WEAK-SPOT FIGURE WAS THE DAILY GOAL (v1.104.5). `_exploreStatsRow` printed
+   * `get("dailyGoal", 30) + "+"`, so it read "30+" for a player with 3 gaps and for one with 700,
+   * and never moved as they closed them. The real pool is `bucketTechniques("suggested")` BEFORE
+   * its `.slice(0, dailyGoal)` — and that pool is already ranked in three tiers, which is exactly
+   * the "degrees of gaps" the owner asked for:
+   *   rolled through but never drilled -> VERY WEAK (you have been here and cannot recall it)
+   *   never touched                    -> WEAK
+   *   started, under 3 recall reps     -> SHAKY
+   * The stat names the worst tier that still has anything in it, and counts THAT tier — so the
+   * number falls as you close them and the word tells you what kind of gap is left.
+   */
+  weakSpots() {
+    const decks = (this.flashcards && this.flashcards.decks) || {};
+    const keys = Object.keys(decks);
+    const prep = this.prep || {};
+    const seen = new Set();
+    const uniq = (arr) => arr.filter((k) => { const f = k.split("|")[0]; if (seen.has(f)) return false; seen.add(f); return true; });
+    const explored = this._exploredKeys ? [...this._exploredKeys] : [];
+    const veryWeak = uniq(explored.filter((k) => decks[k] && !prep[k]));
+    const weak = uniq(keys.filter((k) => !prep[k]));
+    const shaky = uniq(keys.filter((k) => prep[k] > 0 && prep[k] < 3));
+    if (veryWeak.length) return { n: veryWeak.length, word: "very weak", total: veryWeak.length + weak.length + shaky.length };
+    if (weak.length) return { n: weak.length, word: "weak", total: weak.length + shaky.length };
+    return { n: shaky.length, word: shaky.length ? "shaky" : "weak", total: shaky.length };
+  }
   _exploreStatsRow() {
     const mastered = this.masteredCount();
-    const goal = this.get("dailyGoal", 30);
+    const gs = this.gameScore();
+    const pctMastered = Math.round((gs && gs.score ? gs.score : 0) * 100);
+    const weak = this.weakSpots();
     const row = document.createElement("div");
     row.setAttribute("data-explore-stats", "1");
-    row.style.cssText = "display:flex;gap:14px;font-size:11.5px;align-items:center;min-height:30px;padding:6px 12px 10px;margin-bottom:6px;border-bottom:1px solid rgba(150,170,210,.1);";
+    // DISTRIBUTED, NOT CLUMPED (v1.104.5, owner: it "still looks left aligned instead of neatly
+    // designed and distributed"). `display:flex;gap:14px` packs three stats against the left edge
+    // of a 360px pane and leaves the right third empty. A 3-column grid gives each stat an equal
+    // share and lets the outer two hug the edges, so the row reads as a designed band.
+    row.style.cssText = "display:grid;grid-template-columns:repeat(3,1fr);align-items:center;font-size:11.5px;min-height:34px;padding:8px 12px 10px;gap:8px;";
     row.innerHTML =
       // word first (owner, v1.95.2): "Mastered 3" — NB this figure is the recall-proven
       // technique COUNT (masteredCount), not a percent; the percent lives in the Explore
       // tab subtitle ("Mastered N%"). Its siblings keep their number-first shapes.
-      '<span class="ngStat" data-b="mastered" style="cursor:pointer;color:#8b97b0;display:inline-flex;align-items:center;gap:4px;border-bottom:1px dashed rgba(139,151,176,.35);padding-bottom:1px;">Mastered <b style="color:#cbd4e6;font-weight:700;">' + mastered + '</b></span>' +
-      '<span class="ngStat" data-b="due" style="cursor:pointer;color:#8b97b0;display:inline-flex;align-items:center;gap:4px;border-bottom:1px dashed rgba(139,151,176,.35);padding-bottom:1px;"><b style="color:#7ee0a8;font-weight:700;">' + (this.cardsToday || 0) + '</b> today</span>' +
-      '<span class="ngStat" data-b="suggested" style="cursor:pointer;color:#d6a45a;display:inline-flex;align-items:center;gap:4px;border-bottom:1px dashed rgba(214,164,90,.4);padding-bottom:1px;"><b style="color:#e9bd70;font-weight:700;">' + goal + '+</b> weak spots</span>';
+      // each cell is its own column: left / centre / right, so the three share the width
+      '<span class="ngStat" data-b="mastered" style="grid-column:1;justify-self:start;cursor:pointer;color:#8b97b0;display:inline-flex;align-items:baseline;gap:4px;border-bottom:1px dashed rgba(139,151,176,.35);padding-bottom:1px;">Mastered <b style="color:#cbd4e6;font-weight:700;">' + mastered + '</b><span style="color:#7e8aa3;font-size:10.5px;">(' + pctMastered + '%)</span></span>' +
+      '<span class="ngStat" data-b="due" style="grid-column:2;justify-self:center;cursor:pointer;color:#8b97b0;display:inline-flex;align-items:baseline;gap:4px;border-bottom:1px dashed rgba(139,151,176,.35);padding-bottom:1px;"><b style="color:#7ee0a8;font-weight:700;">' + (this.cardsToday || 0) + '</b> today</span>' +
+      '<span class="ngStat" data-b="suggested" data-weak="' + weak.n + '" style="grid-column:3;justify-self:end;text-align:right;cursor:pointer;color:#d6a45a;display:inline-flex;align-items:baseline;gap:4px;border-bottom:1px dashed rgba(214,164,90,.4);padding-bottom:1px;"><b style="color:#e9bd70;font-weight:700;">' + weak.n + '</b> ' + weak.word + ' spots</span>';
     row.querySelectorAll(".ngStat").forEach((s) => {
       const sg = s.getAttribute("data-b") === "suggested";
       s.addEventListener("mouseenter", () => s.style.color = sg ? "#f0cf8e" : "#cbd4e6");
@@ -2189,6 +2240,13 @@ class Component extends DCLogic {
         this._openLatestOnLand = true;
         const ni = this.nodeForKey(h.key);
         this.rollFromPosition(ni >= 0 ? ni : this.currentPos);
+        // AND GET OUT OF THE WAY (v1.104.5, owner: pressing this "didnt open the MC nor position
+        // the graph"). It did both — behind the pane. An open pane pauses the roll (pane law) and
+        // since v1.101.7 stands the landing card down at EVERY width, so the card, its question
+        // and the film strip were built, framed and immediately hidden by the surface the button
+        // lives on. Pane law forbids the ROLL LOOP opening or closing the pane; this is the USER
+        // pressing play, which is precisely the "close = the game resumes" half of the same law.
+        this.setDeckOpen(false);
       });
       if (this._openRow === rid) openD();
     }
@@ -4143,7 +4201,6 @@ class Component extends DCLogic {
     // Submissions \u2192 Learning. The score-belt block is GONE (v1.98.1, owner: "we should no
     // longer see this") \u2014 the score lives in the Explore tab subtitle; the stat row leads
     // (the weak-spots count is Explore's call to action); Lists heads the sections.
-    list.appendChild(this._exploreStatsRow());
     this.renderLists(list);
     renderSystems();
     renderCurated("Principles");
@@ -6229,18 +6286,69 @@ class Component extends DCLogic {
     return text.slice(0, i) + '<span style="background:rgba(120,160,255,.32);border-radius:3px;padding:0 1px;">' + text.slice(i, i + q.length) + '</span>' + text.slice(i + q.length);
   }
   openSearch() { this._searchQ = ""; this._searchSel = null; this.openModal(); this.renderSearch(); }
+  // ── ONE "START A ROLL HERE" (v1.104.5, owner: "why wasn't this calling the same method as
+  // when navigation happens? or wtv. i thought this had been streamlined") ──
+  //
+  // playFrom used to be a SECOND, STALE implementation of rollFromPosition, and it had drifted:
+  //   · `camTarget = { cx, cy, vw: this.graphW * 0.42 }` — the exact hard-coded framing v1.103.2
+  //     replaced everywhere else with `rollCamTarget()`. So a roll started from the search modal
+  //     or the "Roll from here" confirm landed on a DIFFERENT composition (5x zoomed out, no
+  //     vertical lift into the free band, not aimed at the node's label, no horizontal bias)
+  //     than the identical action taken by clicking the node.
+  //   · it never archived the roll it replaced into `_pastRolls`, never reset `rollLog` /
+  //     `_lastActor` / `_currentDeckKey` / session state, never reset `_played` or `prevPosVal`,
+  //     and never called `hideCenter()`.
+  //   · it landed via `enterLand(false)` — `first=false` — so the new roll's opening state was
+  //     not marked as a start in the log.
+  // Every one of those is what `rollFromPosition` already does correctly. The ONLY thing playFrom
+  // legitimately added is a caller-chosen role, which is now a parameter.
   playFrom(idx, role) {
-    this.clearTimers(); this.clearOptions(); this.clearEngagement(); this.closeModal(); this.setPaused(false);
-    this._combo = 0; this._landPending = false; this._updateComboChip(); // "play from here" is a new match — cold momentum
-    this.playerRole = role;
-    this.aiSkill = this.get("difficulty", "normal") === "off" ? 0 : 0.06 + this.rng("ai-skill") * 0.14;
-    this.moveCount = 0; this.maxMoves = 9 + ((this.rng("max-moves") * 4) | 0);
-    this.currentPos = idx; this.focusIdx = idx; this.pulse = null; this.activeMove = null;
-    this.releaseCamera(); // "play from here" IS a camera request; the old focus lease is over
-    this.camTarget = { cx: this.nodes[idx].x, cy: this.nodes[idx].y, vw: this.graphW * 0.42 };
-    this.camFocus = { x: this.nodes[idx].x, y: this.nodes[idx].y };
-    this.flare(idx);
-    this.after(0.4, () => this.enterLand(false));
+    this.closeModal();
+    this.rollFromPosition(idx, false, role);
+  }
+  // ── THE URL FOLLOWS DELIBERATE NAVIGATION (v1.104.5, owner: "make sure every roll from here
+  // does navigation (including in the url)") ──
+  //
+  // Every graph node id IS a real page path: 1466 of the 1467 ids resolve to a built page (the
+  // one miss is `Transitions/100%-Sweep`, whose `%` cannot survive a filename), because both the
+  // layout and Quartz derive them from the same content files. So a node's canonical URL needs no
+  // mapping table and cannot drift from the site.
+  //
+  // ONLY on DELIBERATE navigation — `rollFromPosition`, i.e. a node the USER chose. A roll's own
+  // moves never touch the URL: they are gameplay, not browsing, and the site's PostHog snippet
+  // captures `$pageview` on history changes (Quartz's own SPA router navigates by pushState too),
+  // so syncing every auto-advance would multiply pageviews by the length of a roll.
+  //
+  // A `/l/<code>` arrival owns its URL — the recipient path parses `location.pathname`, and the
+  // rewrite rung depends on it — so it is never rewritten out from under itself.
+  _nodeUrlPath(idx) {
+    const n = this.nodes && this.nodes[idx];
+    return n && n.id ? "/" + n.id : null;
+  }
+  _syncUrl(idx) {
+    try {
+      if (/^\/l\//.test(location.pathname)) return;
+      const path = this._nodeUrlPath(idx); if (!path) return;
+      if (location.pathname === path) return;
+      history.pushState({ ngNode: this.nodes[idx].id }, "", path + location.search);
+    } catch (e) { /* history unavailable (sandboxed iframe) — navigation is not load-bearing */ }
+  }
+  /** the node a path names, or -1. Used by boot-seeding and by Back/Forward. */
+  _nodeForPath(path) {
+    if (!path || !this._idIndex) return -1;
+    const id = decodeURIComponent(String(path).replace(/^\/+/, "").replace(/\/+$/, ""));
+    if (!id) return -1;
+    const i = this._idIndex.get(id);
+    return i == null ? -1 : i;
+  }
+  /** Arriving ON a node's page starts the roll there. `/` is untouched, so the first-impression
+   *  weighted draw (v1.82.3) still owns the front door. */
+  _seedFromUrl() {
+    if (/^\/l\//.test(location.pathname)) return false;
+    const i = this._nodeForPath(location.pathname);
+    if (i < 0) return false;
+    this.rollFromPosition(i, true);   // staged: land there, hold the clock until they press play
+    return true;
   }
   roleLabelOf(n) { const rm = (n.t || "").match(/\s+(Top|Bottom)\s*$/i); return rm ? rm[1].toLowerCase() : (n.dom >= 0 ? "top" : "bottom"); }
   posNodeForId(posId) {
@@ -8601,7 +8709,7 @@ class Component extends DCLogic {
   }
 
   // ---------- roll state machine ----------
-  rollFromPosition(nodeIdx, staged) {
+  rollFromPosition(nodeIdx, staged, roleOverride) {
     // start a NEW roll seeded at a chosen position; the current roll is archived into Previous rolls
     this.clearTimers(); this.clearOptions(); this.clearEngagement(); this._cancelCheckpoint();
     this._combo = 0; this._landPending = false; this._updateComboChip(); // fresh match, cold momentum
@@ -8621,8 +8729,12 @@ class Component extends DCLogic {
     this._sessionNodes = null; this._session = null; this._inSession = false;
     this.moveCount = 0; this.maxMoves = 9 + ((this.rng("max-moves") * 4) | 0);
     this.aiSkill = this.get("difficulty", "normal") === "off" ? 0 : 0.06 + this.rng("ai-skill") * 0.14;
+    // ROLE: an explicit request wins. Deriving from the title is a CONSTANT for positions — the
+    // visual layer titles all 136 of them "… Top" — which is exactly why playFrom had to set the
+    // role itself, and why merging the two paths needs this parameter rather than a heuristic.
     const t = (this.nodes[posIdx].t || "");
-    this.playerRole = /\bbottom\b/i.test(t) ? "bottom" : (/\btop\b/i.test(t) ? "top" : (this.rng("role") < 0.5 ? "top" : "bottom"));
+    this.playerRole = roleOverride
+      || (/\bbottom\b/i.test(t) ? "bottom" : (/\btop\b/i.test(t) ? "top" : (this.rng("role") < 0.5 ? "top" : "bottom")));
     this.currentPos = posIdx; this.focusIdx = posIdx; this.pulse = null; this.activeMove = null;
     this.camFocus = { x: this.nodes[posIdx].x, y: this.nodes[posIdx].y };
     this.releaseCamera(); // roaming/staging elsewhere ends the focus lease (the user chose a node)
@@ -8630,6 +8742,7 @@ class Component extends DCLogic {
     // different composition than the roll does (v1.103.2)
     this.camTarget = this.rollCamTarget({ x: this.nodes[posIdx].x, y: this.nodes[posIdx].y }, false);
     this.prevPosVal = this.myVal(this.nodes[posIdx]);
+    this._syncUrl(posIdx);                       // the address bar follows a chosen node
     this._played = false;                        // nothing counts until it runs unpaused
     this.hideCenter(); this.setPaused(!!staged); // staged: land here, but hold the clock
     this.flare(posIdx);

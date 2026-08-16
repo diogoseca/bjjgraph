@@ -51,9 +51,15 @@ test.describe("Challenge curriculum @curated", () => {
       "aria-pressed",
       "true",
     );
-    // the stat row lives at the top of Explore since v1.95.0 (weak spots = Explore's
-    // call to action) — switch tabs to see it; the restored History tab has none
-    await expect(page.locator(".ngStat[data-b='mastered']")).toHaveCount(0);
+    // THE STAT BAND MOVED TO THE PANE FOOT (v1.104.5, owner: "I would prefer to be closer to the
+    // bottom"). It was Explore-only at the top of that tab's body from v1.95.0; it is now its own
+    // element above the save nudge, so it is visible on EVERY tab — including the restored
+    // History one — and it must not vanish for a signed-in user the way the nudge does.
+    await expect(page.locator(".ngStat[data-b='mastered']")).toBeVisible();
+    expect(
+      await page.evaluate(() => !!document.querySelector(".ng-pane-stats [data-explore-stats]")),
+      "it lives in the foot band, not in a tab body",
+    ).toBe(true);
     await page.locator("[data-view='explore']").click();
     await expect(page.locator(".ngStat[data-b='mastered']")).toBeVisible();
   });

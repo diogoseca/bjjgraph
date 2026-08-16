@@ -200,7 +200,9 @@ test("cold start: the funnel spine emits in order, and the first question is abo
   // STATE 3 — the coach hands over: identity, definition, ONE question, the option hand.
   // NB the harness ABORTS technique-content.js (the 21MB dossier payload), so [data-land-def]
   // and [data-land-film] are absent here BY CONSTRUCTION — that is the harness, not a finding.
-  await page.evaluate(() => (window as any).__neural.dismissCoach());
+  // v1.104.0: the coach is deleted, so there is nothing to dismiss. Left as a no-op rather than
+  // removed so the step order this funnel asserts stays byte-comparable with its recorded shape.
+  await page.evaluate(() => (window as any).__neural?.dismissCoach?.());
   await expect(page.locator("[data-landcard]")).toBeVisible();
   // the card fades in over the graph (.28s ngCardIn, opacity 0 -> 1 on WALL clock, not sim time),
   // and the dump's own visibility check reads opacity — so let the entry animation finish

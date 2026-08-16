@@ -329,14 +329,11 @@ test("cold start: a slow link does not latch the newcomer into the uniform lotte
  * properly has not been spent. The degraded draw records that it is still OWED, durably, and that
  * outranks any evidence of ordinary play.
  */
+// v1.104.0: the "finishing the coach" case is GONE with the coach — finishCoach() no longer
+// exists and `bjj-neural-coached` has no writer. The RULE it exercised is unchanged and is still
+// covered by the progress-save case below: a marker written by ordinary play must not be read as
+// evidence that a first impression was given. If a third marker is ever added, it belongs here.
 for (const [what, spend] of [
-  [
-    "finishing the coach",
-    () => {
-      const a = (window as any).__neural;
-      a.finishCoach(); // writes bjj-neural-coached
-    },
-  ],
   [
     "the first progress save",
     () => {

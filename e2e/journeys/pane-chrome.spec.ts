@@ -113,9 +113,10 @@ test("the anchor keeps the guest save nudge; the stat row lives at the top of Ex
   expect(stack.loginH, "44px hit area on the link").toBeGreaterThanOrEqual(40)
   expect(stack.centered, "escape line centered").toBe(true)
   expect(stack.tight, "reads as one unit, not three strays").toBe(true)
-  // v1.95.0: the stat row moved OUT of the anchor and into Explore's body top — the
-  // weak-spots count is a call to action for browsing, not chrome for every tab
-  await expect(anchor.locator(".ngStat"), "no stats in the anchor").toHaveCount(0)
+  // v1.104.5: the stat band sits at the pane FOOT (owner), but as its OWN element ABOVE the
+  // anchor — never INSIDE it, because the anchor collapses entirely for a signed-in user and
+  // three progress numbers must not disappear along with a save nudge.
+  await expect(anchor.locator(".ngStat"), "not inside the anchor").toHaveCount(0)
   await expect(
     page.locator(".ng-pane-drillhead .ngStat"),
     "and History's head still carries none",
@@ -134,21 +135,40 @@ test("the anchor keeps the guest save nudge; the stat row lives at the top of Ex
   await j.clickByMouse('.ng-learning-nav [data-view="challenges"]', "the Challenges tab")
   await expect(anchor, "anchor on Challenges").toBeVisible()
   await expect(anchor.locator("[data-anchor-auth]")).toBeVisible()
-  await expect(page.locator("[data-explore-stats]"), "no stats row on Challenges").toHaveCount(0)
+  // THE BAND IS FOOT CHROME NOW: it rides EVERY tab, Challenges included.
+  await expect(page.locator("[data-explore-stats]"), "the band rides Challenges too").toBeVisible()
 
-  // THE STATS ROW RIDES THE TOP OF EXPLORE — "the 30 weak spots are the call to action"
   await j.clickByMouse('.ng-learning-nav [data-view="explore"]', "the Explore tab")
   await expect(anchor, "anchor on Explore").toBeVisible()
   const stats = page.locator("[data-explore-stats]")
   await expect(stats).toBeVisible()
   await expect(stats.locator(".ngStat")).toHaveCount(3)
   await expect(stats).toContainText("weak spots")
+  // DISTRIBUTED, NOT CLUMPED (owner: it "still looks left aligned instead of neatly designed and
+  // distributed") — three equal columns, the outer two hugging the edges.
   const s = await page.evaluate(() => {
-    const r = document.querySelector("[data-explore-stats]")!.getBoundingClientRect()
+    const r = document.querySelector("[data-explore-stats]") as HTMLElement
+    const rb = r.getBoundingClientRect()
     const nav = document.querySelector(".ng-learning-nav")!.getBoundingClientRect()
-    return { top: r.top, navBottom: nav.bottom }
+    const anc = document.querySelector(".ng-pane-anchor")!.getBoundingClientRect()
+    const cells = [...r.querySelectorAll(".ngStat")].map((c) => c.getBoundingClientRect())
+    return {
+      top: rb.top, navBottom: nav.bottom, anchorTop: anc.top, bottom: rb.bottom,
+      display: getComputedStyle(r).display,
+      leftGap: Math.round(cells[0].left - rb.left),
+      rightGap: Math.round(rb.right - cells[2].right),
+      spread: Math.round(cells[2].right - cells[0].left),
+      width: Math.round(rb.width),
+      inFoot: !!r.closest(".ng-pane-stats"),
+    }
   })
-  expect(s.top, "at the top of Explore's body, not the foot").toBeLessThan(s.navBottom + 180)
+  expect(s.inFoot, "it lives in the foot band").toBe(true)
+  expect(s.top, "at the FOOT, far below the tab bar").toBeGreaterThan(s.navBottom + 200)
+  expect(Math.round(s.bottom), "directly above the save nudge").toBeLessThanOrEqual(Math.round(s.anchorTop) + 2)
+  expect(s.display, "a distributed grid, not a left-packed flex row").toBe("grid")
+  // the three together must cover most of the band — the old flex row left the right third empty
+  expect(s.spread / s.width, "the three stats span the band").toBeGreaterThan(0.85)
+  expect(Math.abs(s.leftGap - s.rightGap), "and sit symmetrically in it").toBeLessThanOrEqual(4)
 
   // the quiet line is a real login path
   await j.clickByMouse("[data-anchor-login]", "the quiet Log in link")
@@ -307,15 +327,15 @@ test("no score belt anywhere: Explore is subtitle + stats + lists, nothing else 
   await expect(page.locator("[data-knowledge]"), "the Explore block is gone").toHaveCount(0)
   await expect(page.locator(".ng-knowledge-meter"), "no woven meter anywhere").toHaveCount(0)
   await expect(page.locator(".ng-belt-road"), "no band road anywhere").toHaveCount(0)
-  // Explore's body opens with the stats row, then Lists
+  // Explore's body now opens with Lists; the stat band is foot chrome below everything (v1.104.5)
   const g = await page.evaluate(() => {
     const s = document.querySelector("[data-explore-stats]")!.getBoundingClientRect()
     const l = document.querySelector("[data-lists-section]")!.getBoundingClientRect()
     const nav = document.querySelector(".ng-learning-nav")!.getBoundingClientRect()
     return { stats: s.top, lists: l.top, navBottom: nav.bottom }
   })
-  expect(g.stats, "stats right under the tab bar / search").toBeLessThan(g.navBottom + 130)
-  expect(g.lists, "then Lists").toBeGreaterThan(g.stats)
+  expect(g.lists, "Lists leads the body, right under the tab bar / search").toBeLessThan(g.navBottom + 190)
+  expect(g.stats, "and the stat band is below it, at the foot").toBeGreaterThan(g.lists)
 
   // the score stays exposed, in one place: the tab subtitle
   const sub = await page.locator('[data-tab-sub="explore"]').innerText()
