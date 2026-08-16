@@ -300,7 +300,7 @@ class Component extends DCLogic {
     if (this.modalRef.current) this.modalRef.current.addEventListener("pointerdown", (e) => { e.stopPropagation(); this._detailCtx = null; this.setPaused(false); this.closeModal(); });
     // Z LADDER (v1.95.1, see helmet.html): the modal is a DELIBERATE screen — portal it out
     // of the wrap (whose stacking context traps any z it wears) onto the root overlay plane,
-    // where its 95 outranks every ambient overlay (landcard 5, coach 70, combo pop 72).
+    // where its 95 outranks every ambient overlay (landcard 5, combo pop 72).
     // Listeners above survive the move; the account menu portals the same way when opened.
     if (this.modalRef.current && this.__ngRoot && this.modalRef.current.parentElement !== this.__ngRoot) this.__ngRoot.appendChild(this.modalRef.current);
     const logoEl = this.wrapRef.current.querySelector(".ng-logo");
@@ -1813,8 +1813,8 @@ class Component extends DCLogic {
   //
   // — an ordered PostHog funnel on that spine reports a 100% drop at `question_shown` for a
   // visitor who played a whole exchange. Two separate errors caused it:
-  //   1. the coach suppressed the landing card, so the question was never asked (fixed: the
-  //      coached landing now carries its question — see renderLandCard/maybeStartCoach);
+  //   1. the coach suppressed the landing card, so the question was never asked (fixed in v1.82.x
+  //      by letting the coached landing carry its question; the coach itself went in v1.104.0);
   //   2. `question_answered` was a GATE when it is a BRANCH. Ignoring the question is a legitimate
   //      way to play on; gating the funnel on it reports every such visitor as a drop-off.
   // So `question_answered` is now a side mark alongside `question_ignored`, and the spine is the
@@ -1831,8 +1831,6 @@ class Component extends DCLogic {
       land_q_ignored: "question_ignored", // committing past an unanswered question
       land_q_skipped: "question_skipped", // the landing could ask nothing; `reason` says why
       land_q_unseen: "unseen_question",   // the specific suspected confusion (see renderLandCard)
-      coach_1: "coach_seen",              // the default path's real first gate
-      coach_done: "coach_finished",
       commit: "move_committed",
       impact_success: "outcome_seen", impact_fail: "outcome_seen",
       bonus_pumped: "deck_card_graded",   // first flashcard actually graded
@@ -1937,7 +1935,7 @@ class Component extends DCLogic {
     }
     const props = Object.assign({
       step: step, step_index: spine, spine: spine >= 0, cold: !!cs.cold,
-      ms_since_nav: ms, ms_since_prev: ms - cs.last, coach_open: !!this._coach,
+      ms_since_nav: ms, ms_since_prev: ms - cs.last,
       out_of_order: !!(missing || ahead), skipped: missing, late_after: ahead,
     }, extra || {});
     if (spine >= 0) { cs.last = ms; cs.reported = false; } // re-arm the abandon report
@@ -3473,7 +3471,7 @@ class Component extends DCLogic {
     this._acctMenuOpen = true;
     this.renderAccountMenu();
     // PORTAL to the app root: the fixed wrap div is its own stacking context, so root-level
-    // overlays (the landing card at z5, the coach at z70) paint over ANYTHING inside it —
+    // overlays (the landing card at z5, the combo pop at z72) paint over ANYTHING inside it —
     // measured on the phone, the landing card buried the menu's rows. The menu joins the
     // root-level overlay family while open, fixed-anchored to the chip's measured corner.
     const root = this.__ngRoot || document.body;
@@ -3484,7 +3482,7 @@ class Component extends DCLogic {
     m.style.left = "auto"; m.style.top = "auto";
     m.style.right = (r ? Math.max(8, window.innerWidth - r.right) : 24) + "px";
     m.style.bottom = ((r ? window.innerHeight - r.top : 64) + 10) + "px";
-    m.style.zIndex = "90"; // Z LADDER (helmet.html): deliberate band — above coach 70 / combo 72, under the modal 95
+    m.style.zIndex = "90"; // Z LADDER (helmet.html): deliberate band — above combo 72, under the modal 95
     m.style.display = "flex";
     m.setAttribute("data-open", "1");
     if (chip) chip.setAttribute("aria-expanded", "true");
@@ -4641,7 +4639,7 @@ class Component extends DCLogic {
     const size = thumb ? 44 : 24;
     // pointer-events:auto INLINE — the property is inherited, fixed overlays disable it at the
     // root and the canvas hit-tests above anything that does not re-enable it. This exact trap
-    // made the coach's Next button and the landing card's options unclickable by mouse.
+    // made the landing card's options (and the retired coach's Next) unclickable by mouse.
     b.style.cssText = "flex:none;pointer-events:auto;cursor:pointer;font-family:inherit;font-size:" + (thumb ? "17px" : "13px") + ";font-weight:700;line-height:1;width:" + size + "px;height:" + size + "px;border-radius:" + (thumb ? 11 : 7) + "px;border:1px solid rgba(150,170,210,.28);background:rgba(255,255,255,.04);display:inline-flex;align-items:center;justify-content:center;";
     this._styleListAdd(b, nodeId);
     // captureNode is the ONE seam: one tap while there is nothing to choose, the picker the
@@ -4835,7 +4833,7 @@ class Component extends DCLogic {
     el.setAttribute("aria-label", "Add to list");
     // Z LADDER (helmet.html): 90-99 is the deliberate-temporary-screen band. The picker is a
     // screen the user asked for, so it must not be underdrawn by the landing card (5), the
-    // option sheet or the coach (70); it sits with the account menu at 90, under the modal 95.
+    // option sheet; it sits with the account menu at 90, under the modal 95.
     el.style.cssText = "position:fixed;z-index:90;pointer-events:auto;display:flex;flex-direction:column;";
     root.appendChild(el);
     this._pickEl = el; this._pickNode = nodeId; this._pickAnchor = anchor || null;
@@ -7538,8 +7536,6 @@ class Component extends DCLogic {
   //              no second answer can be scored.
   //   _landIdx === currentPos + a live _decision — the roll has not moved on; a card whose turn
   //              is over must never be rewritten under the next state.
-  // The coach is NOT a guard. A genuinely cold visitor's first landing is ALWAYS coached, so
-  // excluding it excluded the only path this fix exists for.
   // Not a pane/roll-loop action: it re-renders one overlay in place, opens nothing, pauses nothing.
   _landBackfill() {
     if (!this._landEl) return;
@@ -7586,11 +7582,9 @@ class Component extends DCLogic {
     if (this._landIdx !== node.idx) { this._landOpen = false; this._landAutoPaused = false; }
     if (this._landOpenNext) { this._landOpen = true; this._landOpenNext = false; } // opened to be read
     this.clearLandCard();
-    // The coach used to return null here, on the theory that it "owns the first landing". It owns
-    // the first landing of EVERY cold visitor — so that theory silently deleted the landing
-    // question from the one decision the whole comprehension mechanic exists to serve. The coach
-    // now sits above the card (see .ng-coach in helmet.html) and the clock stays frozen behind
-    // both, which is strictly more generous: the newcomer reads and answers under no timer at all.
+    // A cold visitor's FIRST landing carries its question like every other one. This used to
+    // return null when the coach owned the first landing — which was every cold visitor, i.e. it
+    // silently deleted the question from the one decision the comprehension mechanic exists for.
     const key = key0;
     // the setting gates the QUESTION, not the card: identity and film are priority either way
     const wantQ = this.get("landQuestions", true);
@@ -8405,15 +8399,14 @@ class Component extends DCLogic {
     this.tut = { done: {} };
     this.challenges = ngResetWhiteChallenges(this.challenges);
     this.tutHidden = false;
-    this._coachDone = false;
-    try { localStorage.removeItem("bjj-neural-coached"); } catch (e) {}
+    try { localStorage.removeItem("bjj-neural-coached"); } catch (e) {} // the coach is gone; still clear its legacy marker
     this._saveProgress();
     this.renderTutorial();
   }
   renderTutorial() {
     const cur = this.tutCurrent();
     const drop = () => { if (this._tutEl) { try { this._tutEl.remove(); } catch (e) {} this._tutEl = null; } };
-    if (!cur || this.tutHidden || this._coach) { drop(); return; } // the coach card speaks for steps 1–3
+    if (!cur || this.tutHidden) { drop(); return; }
     let el = this._tutEl;
     if (!el) {
       el = document.createElement("div");
@@ -8435,72 +8428,29 @@ class Component extends DCLogic {
     el.querySelector("[data-tut-hide]").addEventListener("click", () => { this.tutHidden = true; this.renderTutorial(); });
   }
 
-  // ── GUIDED FIRST ROLL: a 3-beat coach on the first-ever landing. The decision clock is
-  // FROZEN (see _tickDecision) until coach_done — nobody reads new UI under a timer. ──
-  maybeStartCoach() {
-    if (this._coach || this._coachDone) return;
-    let seen = null; try { seen = localStorage.getItem("bjj-neural-coached"); } catch (e) {}
-    if (seen) { this._coachDone = true; return; }
-    this._coach = 1;
-    this._setBarsPaused(true); // the CSS countdown bars run on wall clock — freeze them with the clock
-    this.renderCoach();
-    this.fx("coach_1", {});
-  }
-  advanceCoach() {
-    if (!this._coach) return;
-    if (this._coach >= 3) { this.finishCoach(); return; }
-    this._coach++;
-    this.fx("coach_" + this._coach, {});
-    this.renderCoach();
-  }
-  dismissCoach() { if (this._coach) this.finishCoach(); }
-  _setBarsPaused(p) {
-    const el = this.optionsRef.current; if (!el) return;
-    el.querySelectorAll(".ngbar").forEach((b) => { b.style.animationPlayState = p ? "paused" : "running"; });
-  }
-  finishCoach() {
-    this._coach = null; this._coachDone = true;
-    this._setBarsPaused(this.paused); // resume unless the game itself is paused
-    try { localStorage.setItem("bjj-neural-coached", "1"); } catch (e) {}
-    if (this._coachEl) { try { this._coachEl.remove(); } catch (e) {} this._coachEl = null; }
-    this.fx("coach_done", {});
-    // NO landcard work here. The card has been on screen, with its question, the whole time the
-    // coach was talking, and a payload that landed meanwhile already reached it through
-    // _landBackfill (which no longer excludes the coached path). Re-rendering it at handover would
-    // replay the entry animation for nothing and — if the newcomer answered while the coach was up
-    // — risk re-mounting a block whose answer has already been scored.
-    this.renderTutorial(); // the coach hands the drip its first visible step
-  }
-  renderCoach() {
-    const COPY = [
-      ["Your move", "These cards are your options from this position &mdash; each shows your live success odds. The clock is frozen while we talk."],
-      ["Peek before you leap", "Tap a card to open its sheet: film-study Shorts, the details, and what it wins you. Peeking pauses the clock too."],
-      ["Drill = odds + time", "Inside the sheet, grade a flashcard: every card you get right pumps that move's odds and refunds decision time. Then Execute."],
-    ];
-    let el = this._coachEl;
-    if (!el) {
-      el = document.createElement("div");
-      el.className = "ng-coach";
-      el.setAttribute("data-coach", "1");
-      (this.__ngRoot || document.body).appendChild(el);
-      this._coachEl = el;
-    }
-    const step = this._coach || 1;
-    const c = COPY[step - 1];
-    el.innerHTML =
-      '<div style="display:flex;align-items:center;gap:7px;margin-bottom:6px;">' +
-        [1, 2, 3].map((i) => '<span style="width:6px;height:6px;border-radius:50%;background:' + (i <= step ? "#7ee0a8" : "rgba(150,170,210,.3)") + ';"></span>').join("") +
-        '<span style="font-size:10px;letter-spacing:.12em;text-transform:uppercase;font-weight:800;color:#7ee0a8;margin-left:4px;">Coach &middot; ' + step + '/3</span></div>' +
-      '<div style="font-size:14px;font-weight:700;color:#eef1f6;margin-bottom:4px;font-family:\'Space Grotesk\',sans-serif;">' + c[0] + '</div>' +
-      '<div style="font-size:12px;line-height:1.5;color:#aeb9d4;">' + c[1] + '</div>' +
-      '<div style="display:flex;gap:9px;margin-top:10px;align-items:center;">' +
-        '<button data-coach-next style="flex:1;cursor:pointer;font-family:inherit;font-size:12.5px;font-weight:700;padding:9px;border-radius:9px;border:none;background:linear-gradient(135deg,#2f9e6a,#207a55);color:#eafff3;">' + (step >= 3 ? "Got it &mdash; roll" : "Next") + '</button>' +
-        '<button data-coach-skip style="cursor:pointer;font-family:inherit;font-size:11px;font-weight:600;padding:9px 6px;border:none;background:none;color:#7e8aa3;">Skip</button>' +
-      '</div>';
-    el.querySelector("[data-coach-next]").addEventListener("click", () => this.advanceCoach());
-    el.querySelector("[data-coach-skip]").addEventListener("click", () => this.dismissCoach());
-  }
-
+  // ── THE FIRST-ROLL COACH IS DELETED (v1.104.0, owner) ──
+  // A 3-panel card at top-centre (z:70) that opened over the first-ever landing. The owner, on
+  // meeting it: it "shows on top and is really nasty, grabbing the attention", and step 1 said
+  // "these cards are your options from this position" while pointing at nothing in particular —
+  // it was a FIXED overlay at `top:92px`, not anchored to the tray it was describing. Step 2
+  // ("Peek before you leap") read as being about the film-study Shorts. On a screen that already
+  // carries a graph, a landing card, a question and a hand of options, a floating explainer of
+  // that hand is one more thing to read, in the worst place, at the worst moment.
+  //
+  // Its one true claim IS verified and is worth recording: the decision clock really was frozen
+  // (measured — `remaining` unchanged at 13,800ms across 12 simulated seconds, all seven `.ngbar`
+  // countdowns `paused`, no auto-pick, resuming on dismiss). `_tickDecision` still freezes for
+  // `_checkpoint`, which is the same rule for the same reason.
+  //
+  // Its three White objectives were NOT deleted with it — they were re-keyed to the actions they
+  // are named for (`options_dealt`, `sheet_opened`, `land_q_shown`), so White stays at 20 and
+  // "Preview a move" now needs a move actually previewed instead of a Next button pressed.
+  // See challenge-definitions.src.js.
+  //
+  // GONE WITH IT: `_setBarsPaused`, the only thing that ever froze the CSS countdown bars. NB
+  // those bars run on wall clock, so during a checkpoint quiz or a paused pane they keep draining
+  // while the clock is stopped — a pre-existing desync the coach happened to be immune to. Not
+  // fixed here, disclosed rather than silently inherited.
   // ── programmatic film-study open (journey rail + the sheet's auto-expand seam): expand clip
   // i of the open sheet. In test mode with no clips loaded (journeys abort the dossier payload),
   // a stub clip + synthetic card exercise the full player pipeline against the page's YT stub. ──
@@ -8829,7 +8779,6 @@ class Component extends DCLogic {
     // expiry + a visible auto-pick pop — never a silent teleport. Drilling refunds time (cap 2).
     this._decision = { remaining: dsec * 1000, total: dsec * 1000, refunds: 0, warned: 0, pick: pick, opts: opts };
     this.setBeacon("options", el); // beat beacon: your move — read the hand
-    if (first) this.maybeStartCoach(); // guided first roll (frozen clock) for first-ever visitors
     this.renderLandCard(pos, "land", null); // identity → film → ONE question, above the hand
     this.renderTutorial();
     this._sayArrivalIfPending(); // the shared-link sentence, now that there is a screen to read it on
@@ -8846,7 +8795,7 @@ class Component extends DCLogic {
   }
   _tickDecision(gdt) {
     const d = this._decision;
-    if (!d || !this._optPick || this._coach || this._checkpoint) return; // the coach freezes the clock — nobody reads UI under a timer they don't understand yet. Q002: the checkpoint quiz is untimed for the same reason — without this guard the roll auto-played UNDER the open quiz and clobbered it
+    if (!d || !this._optPick || this._checkpoint) return; // Q002: the checkpoint quiz is untimed — nobody reads new UI under a timer they don't understand yet; without this guard the roll auto-played UNDER the open quiz and clobbered it
     d.remaining -= gdt * 1000;
     if (this._vignetteEl && d.total) { // defense heartbeat: 60 → 100bpm as the window drains
       const f = Math.max(0, Math.min(1, d.remaining / d.total));
@@ -9453,7 +9402,7 @@ class Component extends DCLogic {
       // target from the down/up common ancestor — also the wrap div. Net effect: EVERY button
       // inside the desktop in-node dossier ("Roll from here", the attack pills, and now "Add to
       // today's class list") was visible, enabled, stable — and dead to the mouse. Keyboard and
-      // programmatic paths masked it, exactly like the coach button before v1.69.1. Found by
+      // programmatic paths masked it, exactly like the retired coach's button in v1.69.1. Found by
       // Playwright: pointerdown hit .dsListTxt, mouseup and click hit a DIV.
       // Panning the graph from inside the card was never a gesture anyone wanted.
       const nc = this.nodeCardRef && this.nodeCardRef.current;

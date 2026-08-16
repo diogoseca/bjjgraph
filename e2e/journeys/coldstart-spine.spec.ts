@@ -8,11 +8,10 @@ import { journey } from "../dsl";
  * worse than no instrumentation: an ordered PostHog funnel built on the documented order would
  * report a drop-off that never happened, and hide the one that did.
  *
- * The default path is COACHED. Every genuinely cold visitor gets the 3-panel coach on their first
- * landing (maybeStartCoach fires from enterLand(first) unless `bjj-neural-coached` is set), the
- * coach suppresses the landing card entirely (`renderLandCard` returns null while `_coach`), and
- * coach panels 2 and 3 tell the newcomer, in words, to open an option sheet, grade a flashcard
- * inside it, and Execute. A newcomer who does exactly what the coach says therefore commits their
+ * v1.104.0: the 3-panel first-roll coach is DELETED (owner), so the default path is now simply
+ * the landing card + the hand. What this file measures is unchanged and was never really about
+ * the coach: a curious newcomer opens an option sheet, grades a flashcard inside it, and Executes.
+ * Such a visitor commits their
  * first move having never been shown the landing question at all.
  *
  * These tests assert the RECORDED order, not the intended one.
@@ -23,7 +22,6 @@ type Mark = {
   step_index: number;
   spine: boolean;
   ms_since_nav: number;
-  coach_open: boolean;
   reason?: string;
   out_of_order: boolean;
   skipped: string | null;
@@ -39,7 +37,6 @@ const marks = (page: any): Promise<Mark[]> =>
         step_index: b.step_index,
         spine: b.spine,
         ms_since_nav: b.ms_since_nav,
-        coach_open: b.coach_open,
         reason: b.reason,
         out_of_order: b.out_of_order,
         skipped: b.skipped,
@@ -49,7 +46,7 @@ const marks = (page: any): Promise<Mark[]> =>
 
 const spineOf = (m: Mark[]) => m.filter((x) => x.spine).map((x) => x.step);
 
-/** the app's own first hand, coach intact — only the ambient draws are pinned.
+/** the app's own first hand — only the ambient draws are pinned.
  *
  *  `payloads` is how a test STATES THE CONDITION IT HOLDS UNDER. Every assertion in this file used to
  *  be written as if the funnel's shape were unconditional, when in fact it rested entirely on the
@@ -79,10 +76,7 @@ async function coldFirstHand(
     )
       break;
   }
-  expect(
-    await page.evaluate(() => !!(window as any).__neural._coach),
-    "the coach owns the first landing (this IS the default path)",
-  ).toBe(true);
+  // (the coach assertion that used to sit here died with the coach in v1.104.0)
   // THE CONDITION, on the record: whether the comprehension payload is on the table when the first
   // decision is taken is the entire difference between the two funnel shapes asserted below.
   expect(
@@ -94,10 +88,10 @@ async function coldFirstHand(
   return j;
 }
 
-/** the coached newcomer's own first commit: obey panel 2 (open a sheet), panel 3 (grade, Execute).
- *  `grade` is false when the decks are still in flight — panel 3 asks for something that does not
- *  exist yet, which is itself part of the cold story. */
-async function obeyTheCoach(j: any, page: any, grade = true) {
+/** the curious newcomer's own first commit: open a sheet, grade a flashcard in it, Execute.
+ *  `grade` is false when the decks are still in flight — the card does not exist yet, which is
+ *  itself part of the cold story. */
+async function exploreThenCommit(j: any, page: any, grade = true) {
   const target = await page.evaluate(() => {
     const a = (window as any).__neural;
     for (const i of a.optionIdxs || [])
@@ -111,15 +105,13 @@ async function obeyTheCoach(j: any, page: any, grade = true) {
   return j;
 }
 
-test("cold start: a newcomer who obeys the coach still gets asked the landing question — decks already cached", async ({
+test("cold start: a newcomer who explores a sheet first still gets asked the landing question — decks already cached", async ({
   page,
 }) => {
   const j = await coldFirstHand(page);
 
-  // ── do EXACTLY what the coach says. Panel 2: "Tap a card to open its sheet". Panel 3: "Inside
-  // the sheet, grade a flashcard... Then Execute." No Next, no Skip — the copy never says to
-  // dismiss anything, and a first-timer following instructions has no reason to. ──
-  await obeyTheCoach(j, page);
+  // ── the curious path: tap a card to open its sheet, grade a flashcard inside it, Execute. ──
+  await exploreThenCommit(j, page);
 
   // the landing question is the app's central comprehension mechanic. On the DEFAULT path it must
   // reach the visitor before they commit — or, if it genuinely cannot, the funnel must SAY SO.
@@ -165,7 +157,7 @@ test("cold start: the recorded spine is contiguous — WHEN the comprehension pa
   // Stated unconditionally (as this test was), it claimed a property of the app that only the
   // harness provided — see the companion test below for what the real cold path records.
   const j = await coldFirstHand(page);
-  await obeyTheCoach(j, page);
+  await exploreThenCommit(j, page);
   await j.advanceUntil("sweep_land", 20000);
   await j.advance(2500);
 
@@ -191,7 +183,7 @@ test("cold start: with the decks 25s out the spine is NOT contiguous — and eve
   // names its cause (`skipped` for a step still missing behind it, `late_after` for steps already
   // past), and a landing that could ask nothing emits `question_skipped` with a reason.
   const j = await coldFirstHand(page, { "flashcards.json": { afterSim: 25 } });
-  await obeyTheCoach(j, page, false); // panel 3 asks for a flashcard that does not exist yet
+  await exploreThenCommit(j, page, false); // panel 3 asks for a flashcard that does not exist yet
   await j.advanceUntil("sweep_land", 20000);
 
   const mid = await marks(page);
@@ -248,7 +240,7 @@ test("cold start: an early bounce is recorded — the confusion window is covere
   page,
 }) => {
   // The funnel exists to find the visitor who leaves confused. That happens EARLY: before the
-  // first hand, during the coach, staring at a jargon option under a clock. v1.82.0 registered
+  // first hand, staring at a jargon option under a clock. v1.82.0 registered
   // pagehide/visibilitychange at the very end of boot(), after the graph ingest and the loader
   // teardown — so the whole pre-hand window emitted nothing at all when the tab went away.
   const j = journey(page);

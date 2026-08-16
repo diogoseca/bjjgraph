@@ -32,7 +32,7 @@ const NG_WHITE_CHALLENGES = [
     {
       legacyId: "coach1",
       copy: "Read your hand - the cards below are every move you have here",
-      event: "coach_1",
+      event: "options_dealt", // v1.104.0: was "coach_1" — a hand of options is on the table
     },
   ),
   ngChallenge(
@@ -45,7 +45,7 @@ const NG_WHITE_CHALLENGES = [
     {
       legacyId: "coach2",
       copy: "Peek a move's sheet before you commit to it",
-      event: "coach_2",
+      event: "sheet_opened", // v1.104.0: was "coach_2" — a move sheet was actually opened — a REAL action now, where the coach ticked this for pressing Next
     },
   ),
   ngChallenge(
@@ -58,7 +58,7 @@ const NG_WHITE_CHALLENGES = [
     {
       legacyId: "coach3",
       copy: "Every state you land on asks you one question",
-      event: "coach_3",
+      event: "land_q_shown", // v1.104.0: was "coach_3" — a landing asked its question
     },
   ),
   ngChallenge(

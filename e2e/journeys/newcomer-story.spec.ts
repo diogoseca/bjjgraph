@@ -7,7 +7,7 @@ import { journey } from "../dsl";
  * Everything a brand-new player meets, in the order they meet it, as one story rather than as
  * isolated assertions. If this passes, the front door works:
  *
- *   fresh boot → the coach greets them with the clock frozen → the landing state introduces
+ *   fresh boot → the landing state introduces
  *   itself and asks ONE question → they answer it with a letter → the odds visibly rise and the
  *   clock is refunded → they peek a move's sheet → they execute → the needle decides it →
  *   they open the flashcards pane and the GAME STOPS → the pane is a history in Q&A →
@@ -19,29 +19,18 @@ import { journey } from "../dsl";
  * the UI uses, to stay well inside the 240s ceiling.
  */
 
-test("newcomer's first session: coach → question → execute → pane → roam → Challenges → persists", async ({
+test("newcomer's first session: question → execute → pane → roam → Challenges → persists", async ({
   page,
 }) => {
   const j = journey(page);
   await j.boot("/", { keepTutorial: true });
 
-  // ── 1. the coach greets them, and the clock does not run while they read ──
-  await j.land("Mount Top", { keepCoach: true });
-  await expect(page.locator("[data-coach]"), "a first-run coach").toBeVisible();
-  const clock0 = await page.evaluate(() =>
-    (window as any).__neural.decisionRemaining(),
-  );
-  await j.advance(3000);
-  expect(
-    Math.abs(
-      (await page.evaluate(() =>
-        (window as any).__neural.decisionRemaining(),
-      )) - clock0,
-    ),
-    "frozen while the coach talks",
-  ).toBeLessThan(0.5);
-  await page.evaluate(() => (window as any).__neural.dismissCoach());
-  await j.expectBeat("coach_done");
+  // ── 1. they land ──
+  // v1.104.0: the 3-panel coach that used to greet them here is DELETED (owner). What it
+  // guarded — a frozen clock while a newcomer reads — was real and was measured true on the way
+  // out; it just cost the first screen a floating explainer nobody asked for. The first landing
+  // now opens straight on the card, its question, and the hand.
+  await j.land("Mount Top");
 
   // ── 2. the state introduces itself and asks exactly one question ──
   await expect(page.locator("[data-landcard]"), "identity card").toBeVisible();
@@ -199,15 +188,16 @@ test("newcomer's first session: coach → question → execute → pane → roam
     return {
       whiteChallenges: a.challengeTrackProgress("white").done,
       score: a.gameScore().score,
-      coached: !!localStorage.getItem("bjj-neural-coached"),
     };
   });
   expect(back.whiteChallenges, "Challenge progress persisted").toBe(
     snapshot.whiteChallenges,
   );
   expect(back.score, "score persisted").toBeCloseTo(snapshot.score, 6);
-  expect(back.coached, "and they are not coached at again").toBe(true);
-  await expect(page.locator("[data-coach]"), "no second first-run").toHaveCount(
+  // v1.104.0: `bjj-neural-coached` has no writer any more (the coach is deleted), so "were they
+  // coached" is not a question a returning visitor can answer. What still matters is that the
+  // explainer never appears — on ANY visit, first or fifth.
+  await expect(page.locator("[data-coach]"), "the coach is gone for good").toHaveCount(
     0,
   );
   await j.keyframe("capstone-c-newcomer");

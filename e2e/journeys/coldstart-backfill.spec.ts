@@ -239,7 +239,7 @@ test("cold start: a payload arriving behind the expand sheet stays behind it", a
   );
 });
 
-test("cold start: the coached first landing carries its question, and a late payload reaches it", async ({
+test("cold start: the FIRST landing carries its question, and a late payload reaches it", async ({
   page,
 }) => {
   // THE ONLY PATH THAT MATTERS. A genuinely cold visitor's first landing is ALWAYS coached, and

@@ -724,10 +724,8 @@ export class Journey {
   }
 
   /** Land the roll at a named position (rigged start), completing the intro.
-   *  The guided first-roll coach fires on every fresh boot (storage is cleared), freezing the
-   *  decision clock — most journeys test post-onboarding play, so the DSL dismisses it unless
-   *  a test opts in with keepCoach. */
-  async land(position: string, opts: { keepCoach?: boolean } = {}) {
+   *  (v1.104.0: the first-roll coach is deleted, so there is nothing to dismiss here.) */
+  async land(position: string, opts: { keepCoach?: boolean } = {}) {   // keepCoach: accepted-and-ignored since v1.104.0
     // rig the intro roll's ambient draws too — ai-skill/role/max-moves must not flake across runs
     await this.rig("ai-skill", [0.5]);
     await this.rig("role", [0]);
@@ -748,9 +746,7 @@ export class Journey {
       );
       if (n > 0) break;
     }
-    if (!opts.keepCoach)
-      await this.page.evaluate(() => (window as W).__neural?.dismissCoach?.());
-    // the coach hands the landing card over on dismissal, so settle AFTER it: from here on, the
+    // settle before returning: from here on, the
     // landing question either exists or this state does not ask one
     await this.landQuestion();
     return this;

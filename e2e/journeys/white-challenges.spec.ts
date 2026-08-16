@@ -5,31 +5,52 @@ const whiteProgress = (page: any) =>
   page.evaluate(() => (window as any).__neural.challengeTrackProgress("white"));
 
 test.describe("White Challenges @curated", () => {
-  test("the first-roll coach feeds the permanent White Challenge cue", async ({
+  // v1.104.0: the 3-panel first-roll coach is DELETED (owner). Its three White objectives were
+  // not deleted with it — they were re-keyed to the actions they are NAMED for, so White stays at
+  // 20 and the evidence got stricter: "Preview a move" now needs a move sheet actually opened,
+  // where the coach ticked it for pressing Next on a tooltip.
+  test("the first roll feeds the permanent White Challenge cue — on real actions now", async ({
     page,
   }) => {
     const j = journey(page);
     await j.boot("/", { keepTutorial: true });
-    await j.land("Mount Top", { keepCoach: true });
+    await j.land("Mount Top");
 
-    await expect(page.locator("[data-coach]")).toBeVisible();
-    await expect(page.locator("[data-challenge-cue]")).toHaveCount(0);
-    expect((await whiteProgress(page)).done).toBeGreaterThanOrEqual(1);
+    // the coach card is gone from the DOM entirely
+    await expect(page.locator("[data-coach]")).toHaveCount(0);
+
+    // landing alone proves two of them: a hand was dealt (options_dealt) and the state asked
+    // its question (land_q_shown).
+    expect(
+      await page.evaluate(() => (window as any).__neural.challengeProgress("white.coach1").done),
+      "Read your hand — a hand of options is on the table",
+    ).toBe(true);
+    expect(
+      await page.evaluate(() => (window as any).__neural.challengeProgress("white.coach3").done),
+      "Read a landing question — the landing asked one",
+    ).toBe(true);
     await j.expectBeat("challenge_completed");
 
-    await page.evaluate(() => (window as any).__neural.advanceCoach());
-    await page.evaluate(() => (window as any).__neural.advanceCoach());
-    await page.evaluate(() => (window as any).__neural.advanceCoach());
-    await j.expectBeat("coach_done");
+    // ...and the third is NOT free: it needs a move sheet actually opened.
+    expect(
+      await page.evaluate(() => (window as any).__neural.challengeProgress("white.coach2").done),
+      "Preview a move must not tick until a sheet is opened",
+    ).toBe(false);
+
+    // open a real move sheet: the option cards are the hand, and the sheet is what a card opens
+    await page.locator("[data-tech]").first().click();
+    await page.waitForTimeout(250);
+    await j.expectBeat("sheet_opened");
+    expect(
+      await page.evaluate(() => (window as any).__neural.challengeProgress("white.coach2").done),
+      "opening the sheet is the evidence",
+    ).toBe(true);
 
     const progress = await whiteProgress(page);
-    expect(progress.done).toBe(3);
+    expect(progress.done).toBeGreaterThanOrEqual(3);
     expect(progress.total).toBe(20);
     await expect(page.locator("[data-challenge-cue]")).toBeVisible();
-    await expect(page.locator("[data-challenge-cue]")).toContainText(
-      "WHITE CHALLENGES",
-    );
-    await expect(page.locator("[data-tut-count]")).toHaveText("3/20");
+    await expect(page.locator("[data-challenge-cue]")).toContainText("WHITE CHALLENGES");
   });
 
   test("doing an objective records durable Challenge progress", async ({
