@@ -129,10 +129,14 @@ test("content capstone story: evidence → roll → tap → acknowledgement → 
     .locator(`.ng-challenge-lesson[data-lesson="${blueLesson.deckKey}"]`)
     .click();
   await j.advance(1000);
-  expect(await page.evaluate(() => !!(window as any).__neural.deckOpen)).toBe(
-    true,
-  );
-  expect(await page.evaluate(() => (window as any).__neural._posKey)).toBe(
-    blueLesson.deckKey,
-  );
+  // v1.105.2: the row click reads INLINE now (no takeover) — this stays a REAL click because it
+  // is the final proof the Blue row does something; the evidence is the inline deck + no takeover.
+  expect(
+    await page.evaluate((dk: string) => !!document.querySelector(`[data-mini-deck="${dk}"], [data-mini-deck-state]`), blueLesson.deckKey),
+    "the inline Q&A opened",
+  ).toBe(true);
+  expect(
+    await page.evaluate(() => (window as any).__neural._paneStudyActive()),
+    "and the pane was not taken over",
+  ).toBe(false);
 });

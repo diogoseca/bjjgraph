@@ -42,9 +42,11 @@ test("White Challenge study story: lesson → MC → recall → checkpoint → e
   const firstLesson = UNIT1.lessons[0];
 
   // ── open lesson 1: camera flies, the unit becomes the study session ──
-  await page
-    .locator(`.ng-challenge-lesson[data-lesson="${firstLesson.deckKey}"]`)
-    .click();
+  await page.evaluate((dk) => {
+    const a = (window as any).__neural;
+    const e = a._lessonIndex[dk];
+    a.openLessonStudy({ deckKey: dk, nodeId: e.nodeId }, { name: e.unit, lessons: [{ deckKey: dk, nodeId: e.nodeId }] }, { id: e.belt }); // v1.105.2: the row reads inline now; study opens via the seam
+  }, firstLesson.deckKey);
   await j.advance(1000);
   expect(await page.evaluate(() => !!(window as any).__neural.deckOpen)).toBe(
     true,

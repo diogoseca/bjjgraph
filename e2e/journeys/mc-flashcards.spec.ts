@@ -49,7 +49,16 @@ async function openLessonDrill(
       mcMode,
     );
   await page.evaluate(() => (window as any).__neural.toggleExplorer());
-  await page.locator(`[data-lesson="${LESSON1.deckKey}"]`).first().click();
+  // v1.105.2: the row click reads INLINE now — the full study surface (this spec's subject)
+  // opens through openLessonStudy, the seam sessions/checkpoints use.
+  await page.evaluate((dk) => {
+    const a = (window as any).__neural;
+    const e = a._lessonIndex && a._lessonIndex[dk];
+    const belt = { id: e.belt };
+    const unit = { name: e.unit, lessons: [{ deckKey: dk, nodeId: e.nodeId }] };
+    a._lessonLive = a._lessonLive || (() => true);
+    a.openLessonStudy({ deckKey: dk, nodeId: e.nodeId }, unit, belt);
+  }, LESSON1.deckKey);
   await j.advance(800);
   // v1.80.4: a deck's cards are fetched on demand, so opening a lesson starts a real fetch.
   // Wait for it — the study surface re-renders itself when the chunk lands.

@@ -56,7 +56,11 @@ test("abandoned checkpoint does not contaminate the next deck or auto-pass the u
   // open a normal lesson deck and answer its MC cards — the abandoned unit must NOT complete
   const beatsBefore = (await j.beats()).length
   await page.evaluate(() => (window as any).__neural.toggleExplorer())
-  await page.locator(`[data-lesson="${UNIT1.lessons[0].deckKey}"]`).first().click()
+  await page.evaluate((dk) => {
+    const a = (window as any).__neural;
+    const e = a._lessonIndex[dk];
+    a.openLessonStudy({ deckKey: dk, nodeId: e.nodeId }, { name: e.unit, lessons: [{ deckKey: dk, nodeId: e.nodeId }] }, { id: e.belt }); // v1.105.2: the row reads inline now; study opens via the seam
+  }, UNIT1.lessons[0].deckKey)
   await j.advance(600)
   for (let i = 0; i < 4; i++) {
     const mc = await page.evaluate(() => {
@@ -126,8 +130,14 @@ test("mastered is not inflatable: rec counts DISTINCT cards proven by recall", a
   await j.boot("/")
   await j.land("Mount Top")
   await page.evaluate(() => (window as any).__neural.toggleExplorer())
-  await page.locator(`[data-lesson="${UNIT1.lessons[0].deckKey}"]`).first().click()
+  await page.evaluate((dk) => {
+    const a = (window as any).__neural;
+    const e = a._lessonIndex[dk];
+    a.openLessonStudy({ deckKey: dk, nodeId: e.nodeId }, { name: e.unit, lessons: [{ deckKey: dk, nodeId: e.nodeId }] }, { id: e.belt }); // v1.105.2: the row reads inline now; study opens via the seam
+  }, UNIT1.lessons[0].deckKey)
   await j.advance(600)
+  await j.decksSettled()   // the deck chunk is a real fetch; the old row-click path waited too
+  await page.waitForFunction(() => (((window as any).__neural || {}).deck || []).length > 0, null, { timeout: 20000 })
   const key = UNIT1.lessons[0].deckKey
 
   // re-grade ONE card's recall 5× → rec climbs by AT MOST 1 (deduped on the recall-proven cross)
