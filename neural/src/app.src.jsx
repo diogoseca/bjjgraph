@@ -1,3 +1,8 @@
+// Resting colour of the landing card's More/Less toggle. ONE source, because the two sites that
+// write it (the button's own cssText, and expandLandCard restoring it on collapse) drifted apart
+// once already — see v1.104.2. NB `build.mjs` throws on duplicated top-level names.
+const NG_LAND_MORE_COL = "#7e8aa3";
+
 class Component extends DCLogic {
   canvasRef = React.createRef();
   wrapRef = React.createRef();
@@ -878,9 +883,9 @@ class Component extends DCLogic {
       const w = compact ? (c.vertical ? 62 : 148) : (c.vertical ? 126 : 210), ht = compact ? 92 : 170;
       const dur = (c.end != null && c.start != null) ? this.fmtDur(c.end - c.start) + " \u00b7 loop" : "clip";
       h += '<button class="ng-clip" data-i="' + i + '" style="scroll-snap-align:start;flex:none;position:relative;width:' + w + 'px;height:' + ht + 'px;border-radius:13px;overflow:hidden;border:1px solid rgba(150,170,210,.16);background:#0c0f17;cursor:pointer;padding:0;display:block;transition:width .34s cubic-bezier(.4,0,.2,1),height .34s cubic-bezier(.4,0,.2,1);">' +
-        '<img src="https://i.ytimg.com/vi/' + c.id + '/hqdefault.jpg" loading="lazy" referrerpolicy="no-referrer" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:.92;transition:transform .4s ease,opacity .3s ease;">' +
+        '<img src="https://i.ytimg.com/vi/' + c.id + '/hqdefault.jpg" loading="lazy" referrerpolicy="no-referrer" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:.92;transition:transform .18s ease,opacity .3s ease;">' +
         '<span style="position:absolute;inset:0;background:linear-gradient(180deg,rgba(8,10,16,0) 38%,rgba(8,10,16,.88) 100%);"></span>' +
-        '<span class="ngPlay" style="position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:' + (compact ? 30 : 44) + 'px;height:' + (compact ? 30 : 44) + 'px;border-radius:50%;background:rgba(12,14,22,.6);backdrop-filter:blur(3px);border:1.5px solid rgba(255,255,255,.9);display:flex;align-items:center;justify-content:center;transition:transform .2s ease,background .2s ease;"><svg width="15" height="15" viewBox="0 0 24 24" fill="#fff" style="margin-left:2px;"><polygon points="6 4 20 12 6 20 6 4"></polygon></svg></span>' +
+        '<span class="ngPlay" style="position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:' + (compact ? 30 : 44) + 'px;height:' + (compact ? 30 : 44) + 'px;border-radius:50%;background:rgba(12,14,22,.6);backdrop-filter:blur(3px);border:1.5px solid rgba(255,255,255,.9);display:flex;align-items:center;justify-content:center;transition:transform .16s ease,background .16s ease;"><svg width="15" height="15" viewBox="0 0 24 24" fill="#fff" style="margin-left:2px;"><polygon points="6 4 20 12 6 20 6 4"></polygon></svg></span>' +
         '<span style="position:absolute;top:8px;right:8px;font-size:9px;font-weight:700;color:#eef1f6;background:rgba(8,10,16,.72);border-radius:6px;padding:2px 6px;letter-spacing:.02em;">' + dur + '</span>' +
         '<span style="position:absolute;left:10px;right:10px;bottom:9px;text-align:left;"><span style="display:block;font-size:' + (compact ? 10 : 11.5) + 'px;font-weight:700;color:#fff;line-height:1.25;text-shadow:0 1px 6px rgba(0,0,0,.65);">' + c.title + '</span>' + (c.by ? '<span style="display:block;font-size:10px;color:#c3cce0;margin-top:2px;text-shadow:0 1px 5px rgba(0,0,0,.6);">' + c.by + '</span>' : '') + '</span>' +
         '</button>';
@@ -996,7 +1001,14 @@ class Component extends DCLogic {
     if (!clips) return;
     body.querySelectorAll(".ng-clip").forEach((card) => {
       const glyph = card.querySelector(".ngPlay"), img = card.querySelector("img");
-      card.addEventListener("mouseenter", () => { if (card._expanded) return; if (img) img.style.transform = "scale(1.05)"; if (glyph) { glyph.style.transform = "translate(-50%,-50%) scale(1.08)"; glyph.style.background = "rgba(224,88,79,.92)"; } });
+      // A HINT, NOT A FLASH (v1.104.2, owner: the hover is "too long and too shiny and should be
+      // just minor (almost unnoticeable) very subtle just to give the same idea but not attention
+      // grabbing"). It zoomed the still 5% over 400ms and flipped the play glyph to BRAND RED at
+      // 108% — a colour change is the loudest signal a hover can make, and this strip sits
+      // directly above the question the player is meant to be reading. Now a 2% zoom and a
+      // slightly more solid disc: same affordance, no announcement. (The click-to-expand morph is
+      // untouched — the owner signed that one off in v1.102.1.)
+      card.addEventListener("mouseenter", () => { if (card._expanded) return; if (img) img.style.transform = "scale(1.02)"; if (glyph) { glyph.style.transform = "translate(-50%,-50%) scale(1.03)"; glyph.style.background = "rgba(16,19,30,.8)"; } });
       card.addEventListener("mouseleave", () => { if (img) img.style.transform = "scale(1)"; if (glyph) { glyph.style.transform = "translate(-50%,-50%) scale(1)"; glyph.style.background = "rgba(12,14,22,.6)"; } });
       card.addEventListener("click", () => this.expandClip(card, clips[+card.getAttribute("data-i")]));
     });
@@ -7674,7 +7686,9 @@ class Component extends DCLogic {
       const film = document.createElement("div");
       film.className = "ng-landfilm";
       film.setAttribute("data-land-film", "1");
-      film.style.cssText = "position:fixed;left:50%;transform:translateX(-50%);z-index:5;width:min(520px,calc(100vw - 32px));pointer-events:auto;";
+      // width/padding are a FIRST-FRAME GUESS only — _dockLandFilm immediately overwrites both
+      // from the card's measured box, which is the one source of truth (see it for why).
+      film.style.cssText = "position:fixed;left:50%;transform:translateX(-50%);z-index:5;width:min(520px,calc(100vw - 32px));padding:0 15px;pointer-events:auto;";
       film.innerHTML = this.filmStudyHTML(info.clips, true);
       (this.__ngRoot || document.body).appendChild(film);
       this._landFilmEl = film;
@@ -7761,7 +7775,7 @@ class Component extends DCLogic {
       more.setAttribute("aria-expanded", "false");
       more.setAttribute("aria-controls", "ng-land-more");
       more.innerHTML = '<span data-land-more-label="1">More</span><span data-land-more-chevron="1" style="display:inline-block;transition:transform .22s cubic-bezier(.2,.7,.2,1);">▸</span>';
-      more.style.cssText = "cursor:pointer;font-family:inherit;font-size:10px;font-weight:700;letter-spacing:.09em;text-transform:uppercase;color:#7e8aa3;background:none;border:none;padding:2px 0;display:inline-flex;align-items:center;gap:5px;transition:color .16s;";
+      more.style.cssText = "cursor:pointer;font-family:inherit;font-size:10px;font-weight:700;letter-spacing:.09em;text-transform:uppercase;color:" + NG_LAND_MORE_COL + ";background:none;border:none;padding:2px 0;display:inline-flex;align-items:center;gap:5px;transition:color .16s;";
       more.addEventListener("click", () => this.expandLandCard());
       foot.appendChild(more);
     }
@@ -7787,7 +7801,11 @@ class Component extends DCLogic {
     // never resurrect a card the player put away.
     const corner = document.createElement("div");
     corner.setAttribute("data-land-corner", "1");
-    corner.style.cssText = "position:absolute;top:4px;right:5px;z-index:3;pointer-events:auto;display:flex;align-items:center;gap:3px;";
+    // 5px from the top AND 5px from the right — the owner asked for the pair to sit "a bit
+    // closer and a bit closer to the top (symmetric to how the x close button is close to the
+    // right edge)". The symmetry only works once the row's height is the 24px ✕ and not the
+    // 44px thumb + (see below), or align-items:center pushes BOTH glyphs 10px down.
+    corner.style.cssText = "position:absolute;top:5px;right:5px;z-index:3;pointer-events:auto;display:flex;align-items:center;gap:2px;";
     // pointer-events:auto is set INLINE by _listAddButton: .ng-landcard is a fixed overlay and
     // the canvas hit-tests above anything that does not re-enable it.
     const addBtn = this._listAddButton(node.id, "land");
@@ -7796,6 +7814,13 @@ class Component extends DCLogic {
     addBtn.style.border = "none";
     addBtn.style.background = "none";
     addBtn.style.fontSize = "15px";
+    // THE 44px THUMB TARGET MUST NOT SET THE CORNER'S GEOMETRY (v1.104.2). On a phone
+    // `_listAddButton` returns a 44x44 box; beside a 24x24 ✕ under align-items:center that makes
+    // the row 44 tall, so both glyphs sat 10px lower than the 5px inset implies and 20px apart.
+    // A -10px margin shrinks its LAYOUT box to 24x24 while the button still renders — and still
+    // takes a thumb — at 44. Same trick as `.ng-lists-new`: the glyph is small, the hit area is
+    // not. The ✕ is painted after it, so it wins hit-testing where the boxes overlap.
+    if (addBtn.style.width === "44px") addBtn.style.margin = "-10px";
     corner.appendChild(addBtn);
     const xb = document.createElement("button");
     xb.type = "button";
@@ -7883,7 +7908,12 @@ class Component extends DCLogic {
     btn.setAttribute("aria-expanded", want ? "true" : "false");
     const lab = btn.querySelector("[data-land-more-label]"); if (lab) lab.textContent = want ? "Less" : "More";
     const ch = btn.querySelector("[data-land-more-chevron]"); if (ch) ch.style.transform = want ? "rotate(90deg)" : "";
-    btn.style.color = want ? "#cdd5e6" : "";
+    // "#7e8aa3", NOT "" (v1.104.2, owner: after More -> Less it "is black over a dark
+    // background, so it's poorly readable"). The resting colour is declared in the button's
+    // OWN cssText, and `style.color = ""` REMOVES that inline declaration rather than restoring
+    // it — so a collapsed card inherited from a parent that sets no colour and fell back to the
+    // UA default, black, on a #131625 card. Restore the value; never clear it.
+    btn.style.color = want ? "#cdd5e6" : NG_LAND_MORE_COL;
     this._dockLandCard(el);
     return true;
   }
@@ -8002,6 +8032,21 @@ class Component extends DCLogic {
     const f = this._landFilmEl; if (!f) return;
     const H = window.innerHeight || 800;
     const c = this._landEl;
+    // THE STRIP TAKES ITS WIDTH FROM THE CARD IT SITS ON, MEASURED (v1.104.2, owner: "the span
+    // of the videos row should perhaps be the same width as the ng-landcard?"). It used to
+    // duplicate the card's DESKTOP rule as a constant — and the card has a mobile override
+    // (`width:calc(100vw - 20px)!important; padding:11px 12px`), so at 390x844 the two boxes
+    // measured [16,374] against [10,380] and their content edges were 9px apart on each side.
+    // Copying the padding too is what lines the THUMBNAILS up with the text above them; both
+    // boxes are left:50% + translateX(-50%), so equal widths centre identically.
+    if (c) {
+      const cb = c.getBoundingClientRect(), cs = getComputedStyle(c);
+      if (cb.width > 0) {
+        f.style.width = Math.round(cb.width) + "px";
+        f.style.paddingLeft = cs.paddingLeft;
+        f.style.paddingRight = cs.paddingRight;
+      }
+    }
     const cardTop = c ? c.getBoundingClientRect().top : H - 236;
     const h = f.offsetHeight || 0;
     let bottom = Math.round(H - cardTop + 8);
