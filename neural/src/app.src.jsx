@@ -2,6 +2,9 @@
 // write it (the button's own cssText, and expandLandCard restoring it on collapse) drifted apart
 // once already — see v1.104.2. NB `build.mjs` throws on duplicated top-level names.
 const NG_LAND_MORE_COL = "#7e8aa3";
+// How long a landing question may be "still settling" before readers stop waiting on it. A stalled
+// deck fetch must not make the app look hung; the fetch itself is never cancelled. See v1.104.8.
+const NG_LAND_WARM_CEILING_MS = 8000;
 
 class Component extends DCLogic {
   canvasRef = React.createRef();
@@ -7972,8 +7975,26 @@ class Component extends DCLogic {
       // deterministic way to know it has stopped moving, or it races the network. `_landWarmP`
       // is that: the promise of the CURRENT landing's outstanding work, replaced (not cleared)
       // when the re-render itself needs another fetch, so landSettled() can chase the chain.
+      // ── AND IT IS BOUNDED (v1.104.8) ──
+      // `warm()` awaits deck fetches. A STALLED connection never settles them, so `p` never
+      // settled, so `_landWarmP` never cleared and `landSettled()` awaited it forever — the app
+      // was left permanently "still settling" on exactly the connection the cold-start journeys
+      // exist to describe. It went unnoticed for months because the harness rule meant to
+      // reproduce that connection named a URL the app never fetches (v1.104.6), so the case was
+      // never actually exercised.
+      // The SIGNAL is bounded; the WORK is not. `p` still re-renders the card if the payload
+      // ever lands (and `_landBackfill` covers it too), so a slow-but-working network is
+      // unchanged — only the promise that readers await stops being unbounded. Wall clock, not
+      // the sim clock: a stalled socket stalls in real time.
       this._landWarmP = p;
       p.then(() => { if (this._landWarmP === p) this._landWarmP = null; });
+      const giveUp = setTimeout(() => {
+        if (this._landWarmP === p) {
+          this._landWarmP = null;
+          this.fx("land_warm_stalled", { node: node ? node.t : null });
+        }
+      }, NG_LAND_WARM_CEILING_MS);
+      p.then(() => clearTimeout(giveUp), () => clearTimeout(giveUp));
     } else {
       this._landWarmP = null;   // nothing outstanding: this card is what the state has to ask
     }

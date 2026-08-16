@@ -85,6 +85,10 @@ test("▶ rides every technique row — and never the list itself @curated", asy
 test("▶ asks before it discards the roll you are in @curated", async ({ page }) => {
   const j = await journey(page, { seed: 7 });
   await j.boot("/");
+  // LAND FIRST — there has to BE a roll for "leaves the roll alone" to mean anything. Without
+  // this the test booted, never rolled, and compared one absent state to another; the premise
+  // assertion below is what caught it.
+  await j.land("Mount Top");
   await seedList(page);
   await page.waitForTimeout(500);
 
