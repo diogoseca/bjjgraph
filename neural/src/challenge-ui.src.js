@@ -680,6 +680,24 @@ const NG_CHALLENGE_UI_METHODS = {
       const selected =
         NG_CHALLENGE_TRACKS.find((track) => track.id === selectedId) ||
         NG_CHALLENGE_TRACKS[0];
+      // MAINTENANCE FIRST (v1.105.0, owner: "maintenance should come first before learning new
+      // techniques"). When cards are due, the corridor opens with the daily dosage — one press
+      // starts the due session. Rendered ONLY while something is owed: a permanent zero-count
+      // band would be one more thing to read on a tab that already explains itself once.
+      if (typeof this.dueCount === "function" && this.dueCount() > 0) {
+        const maint = document.createElement("button");
+        maint.type = "button";
+        maint.className = "ng-maint-band";
+        maint.setAttribute("data-maintenance", "1");
+        const n = this.dueCount();
+        maint.innerHTML =
+          '<span style="font-size:10px;letter-spacing:.14em;text-transform:uppercase;font-weight:800;color:#e9bd70;">Maintenance first</span>' +
+          '<span style="font-size:12.5px;color:#d9cdb4;">' + n + ' card' + (n === 1 ? '' : 's') + ' due \u00b7 keep what you\u2019ve earned</span>' +
+          '<span style="margin-left:auto;font-size:12px;font-weight:700;color:#eef1f6;border:1px solid rgba(214,164,90,.45);background:rgba(214,164,90,.14);border-radius:9px;padding:7px 13px;">Start</span>';
+        maint.style.cssText = "pointer-events:auto;cursor:pointer;font-family:inherit;display:flex;align-items:center;gap:10px;width:100%;text-align:left;margin:0 0 12px;padding:11px 13px;border-radius:12px;border:1px solid rgba(214,164,90,.35);background:linear-gradient(180deg,rgba(64,50,26,.5),rgba(40,32,18,.5));";
+        maint.addEventListener("click", () => this.openSession("due", "Due today \u2014 maintenance"));
+        list.appendChild(maint);
+      }
       const intro = document.createElement("p");
       intro.className = "ng-challenge-distinction";
       const migrated = !!this._challengeMigrationNotice;

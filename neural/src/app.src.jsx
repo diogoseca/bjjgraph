@@ -2,6 +2,10 @@
 // write it (the button's own cssText, and expandLandCard restoring it on collapse) drifted apart
 // once already — see v1.104.2. NB `build.mjs` throws on duplicated top-level names.
 const NG_LAND_MORE_COL = "#7e8aa3";
+// SPACED-REPETITION INTERVAL LADDER (v1.105.0, owner directive — reverses the old "forgetting is
+// tested, not timed" canon). No ease factor: fewer fields, fewer merge cases. A success climbs one
+// rung; any failure resets to rung 0 (1 day).
+const NG_SRS_IVLS = [1, 3, 7, 14, 30, 60, 120];
 // How long a landing question may be "still settling" before readers stop waiting on it. A stalled
 // deck fetch must not make the app look hung; the fetch itself is never cancelled. See v1.104.8.
 const NG_LAND_WARM_CEILING_MS = 8000;
@@ -1640,7 +1644,7 @@ class Component extends DCLogic {
         // so the open surface holds a SNAPSHOT taken when the deck was still a stub — filling
         // `d.cards` in place is invisible to it. Re-rendering without this repaints the same
         // "being authored" placeholder forever.
-        this.drillEntries[this.activeDrill] = this._entryForKey(e.info.key);
+        this.drillEntries[this.activeDrill] = this._entryForKey(e.info.key, e.info.filter); // re-apply the session filter (see _entryForKey)
         this.renderDrill();
       }
       this.onFlashcardsReady();
@@ -1736,7 +1740,7 @@ class Component extends DCLogic {
   }
   _loadProgress() {
     this._progressLoaded = true; // ingest ran (any path) — unmount flush is now safe (Q001)
-    this.rec = {}; this.stage = {}; this.units = {}; this.belts = { won: {} }; this._settingsAt = {}; this.tut = { done: {} };
+    this.rec = {}; this.stage = {}; this.srs = {}; this.units = {}; this.belts = { won: {} }; this._settingsAt = {}; this.tut = { done: {} };
     this.challenges = {}; this.badges = {}; this.coins = {}; this._challengeRuntime = {};
     this.lists = {}; // shareable technique lists (ids of graph nodes) — see the LISTS section
     try {
@@ -1749,6 +1753,9 @@ class Component extends DCLogic {
       // v1 -> v2 migration: recall history didn't exist — grandfather rec = prep so nobody's
       // mastery collapses on upgrade (Phase 2 gates NEW mastery on real recall grades).
       this.rec = Object.assign({}, p.v === 2 ? (p.rec || {}) : (p.prep || {}));
+      // per-card review schedule (v1.105.0): {deckKey: {qhash: [due, ivl, last]}} in epoch DAYS.
+      // Rides the v2 blob without a version bump (the `lists` precedent); absent on old blobs.
+      this.srs = Object.assign({}, p.srs || {});
       this.stage = Object.assign({}, p.stage || {});
       this.units = Object.assign({}, p.units || {});
       this.belts = Object.assign({ won: {} }, p.belts || {});
@@ -1779,7 +1786,7 @@ class Component extends DCLogic {
     const trimmed = {};
     for (const k of Object.keys(days).sort().slice(-30)) trimmed[k] = days[k];
     this._progressAt = Date.now();
-    return { v: 2, prep: this.prep || {}, rec: this.rec || {}, stage: this.stage || {}, units: this.units || {}, belts: this.belts || { won: {} }, tut: this.tut || { done: {} }, challenges: this.challenges || {}, badges: this.badges || {}, coins: this.coins || {}, lists: this.lists || {}, days: trimmed, settings: this.settings || {}, settingsAt: this._settingsAt || {}, updatedAt: this._progressAt };
+    return { v: 2, prep: this.prep || {}, rec: this.rec || {}, stage: this.stage || {}, srs: this.srs || {}, units: this.units || {}, belts: this.belts || { won: {} }, tut: this.tut || { done: {} }, challenges: this.challenges || {}, badges: this.badges || {}, coins: this.coins || {}, lists: this.lists || {}, days: trimmed, settings: this.settings || {}, settingsAt: this._settingsAt || {}, updatedAt: this._progressAt };
   }
   _saveProgress() {
     clearTimeout(this._saveT);
@@ -2065,6 +2072,7 @@ class Component extends DCLogic {
     const gs = this.gameScore();
     const pctMastered = Math.round((gs && gs.score ? gs.score : 0) * 100);
     const weak = this.weakSpots();
+    const due = this.dueCount();
     const row = document.createElement("div");
     row.setAttribute("data-explore-stats", "1");
     // DISTRIBUTED, NOT CLUMPED (v1.104.5, owner: it "still looks left aligned instead of neatly
@@ -2078,13 +2086,16 @@ class Component extends DCLogic {
       // tab subtitle ("Mastered N%"). Its siblings keep their number-first shapes.
       // each cell is its own column: left / centre / right, so the three share the width
       '<span class="ngStat" data-b="mastered" style="grid-column:1;justify-self:start;cursor:pointer;color:#8b97b0;display:inline-flex;align-items:baseline;gap:4px;border-bottom:1px dashed rgba(139,151,176,.35);padding-bottom:1px;">Mastered <b style="color:#cbd4e6;font-weight:700;">' + mastered + '</b><span style="color:#7e8aa3;font-size:10.5px;">(' + pctMastered + '%)</span></span>' +
-      '<span class="ngStat" data-b="due" style="grid-column:2;justify-self:center;cursor:pointer;color:#8b97b0;display:inline-flex;align-items:baseline;gap:4px;border-bottom:1px dashed rgba(139,151,176,.35);padding-bottom:1px;"><b style="color:#7ee0a8;font-weight:700;">' + (this.cardsToday || 0) + '</b> today</span>' +
+      // MAINTENANCE FIRST (v1.105.0, owner): the middle cell is the daily dosage — the honest
+      // due count (deduped by FACT, not deck), amber while anything is owed. "N today" moves to
+      // the title/aria; one press opens the due SESSION, not the browse modal.
+      '<span class="ngStat" data-b="due" title="' + (this.cardsToday || 0) + ' answered today" aria-label="' + due + ' cards due \u00b7 ' + (this.cardsToday || 0) + ' answered today" style="grid-column:2;justify-self:center;cursor:pointer;color:' + (due > 0 ? "#d6a45a" : "#8b97b0") + ';display:inline-flex;align-items:baseline;gap:4px;border-bottom:1px dashed rgba(139,151,176,.35);padding-bottom:1px;"><b style="color:' + (due > 0 ? "#e9bd70" : "#7ee0a8") + ';font-weight:700;">' + due + '</b> due</span>' +
       '<span class="ngStat" data-b="suggested" data-weak="' + weak.n + '" style="grid-column:3;justify-self:end;text-align:right;cursor:pointer;color:#d6a45a;display:inline-flex;align-items:baseline;gap:4px;border-bottom:1px dashed rgba(214,164,90,.4);padding-bottom:1px;"><b style="color:#e9bd70;font-weight:700;">' + weak.n + '</b> ' + weak.word + ' spots</span>';
     row.querySelectorAll(".ngStat").forEach((s) => {
       const sg = s.getAttribute("data-b") === "suggested";
       s.addEventListener("mouseenter", () => s.style.color = sg ? "#f0cf8e" : "#cbd4e6");
       s.addEventListener("mouseleave", () => s.style.color = sg ? "#d6a45a" : "#8b97b0");
-      s.addEventListener("click", () => { const b = s.getAttribute("data-b"); if (b === "suggested") { this.openSession("suggested", "Weak spots in your game"); } else { this.openFlashBrowser(b, b === "mastered" ? "Mastered" : "Due Today"); } });
+      s.addEventListener("click", () => { const b = s.getAttribute("data-b"); if (b === "suggested") { this.openSession("suggested", "Weak spots in your game"); } else if (b === "due") { if (this.dueCount() > 0) this.openSession("due", "Due today \u2014 maintenance"); else this.openFlashBrowser("due", "Due Today"); } else { this.openFlashBrowser(b, "Mastered"); } });
     });
     return row;
   }
@@ -2869,7 +2880,19 @@ class Component extends DCLogic {
       return uniq(undoneExplored.concat(undone, lowReps)).slice(0, this.get("dailyGoal", 30));
     }
     if (bucket === "reviewing") return keys.filter((k) => prep[k] > 0 && prep[k] < 3);
-    if (bucket === "due") return keys.filter((k) => prep[k] > 0).slice(0, 0); // none scheduled in guest mode
+    if (bucket === "due") {
+      // REAL now (v1.105.0). Deck keys holding >=1 due-and-unreviewed card, most overdue first.
+      // Guests keep local schedules — the "once you have an account" promise in the old empty
+      // copy was never a mechanism, and the schedule lives in the same local blob as everything.
+      const today = this._epochDay();
+      const over = new Map();
+      for (const e of this.duePool()) {
+        const m = this.srs[e.key][e.qh];
+        const od = today - m[0];
+        if (!over.has(e.key) || od > over.get(e.key)) over.set(e.key, od);
+      }
+      return [...over.keys()].filter((k) => decks[k]).sort((a, b) => over.get(b) - over.get(a));
+    }
     return keys;
   }
   openFlashBrowser(bucket, label) {
@@ -2893,7 +2916,7 @@ class Component extends DCLogic {
     body.style.cssText = "padding:10px 14px 16px;max-height:54vh;overflow-y:auto;";
     if (!list.length) {
       body.innerHTML = '<div style="padding:34px 16px;text-align:center;color:#7e8aa3;font-size:13px;line-height:1.6;">' +
-        (this._fbBucket === "due" ? "Nothing due right now. Drill cards and they\u2019ll resurface here on a spaced-repetition schedule once you have an account." :
+        (this._fbBucket === "due" ? "Nothing due right now. Answer cards anywhere \u2014 in a roll or a session \u2014 and they\u2019ll come back here on a spaced-repetition schedule when it\u2019s time to prove you still know them." :
          this._fbBucket === "explored" ? "States you land in during a roll show up here. Start rolling to populate it." :
          "Nothing here yet \u2014 drill some cards to fill this list.") + '</div>';
     } else {
@@ -2922,7 +2945,7 @@ class Component extends DCLogic {
     // (same on-demand residency rule as studyFromSession: a study surface IS its cards)
     this._studyOpen = key;
     if (!this._deckResident(key)) this.hydrateDeck(key).then(() => this._restudy(key));
-    this.drillEntries = [this._entryForKey(key)];
+    this.drillEntries = [this._entryForKey(key, this._session && this._session.filter)];
     this._posKey = key; this.activeDrill = 0; this.deckIdx = 0; this.revealed = false;
     this.renderDrill(); this.deckReady = true; this.deckOpen = true; this.applyDeckVisibility();
   }
@@ -2930,10 +2953,10 @@ class Component extends DCLogic {
   _restudy(key) {
     const e = this.drillEntries && this.drillEntries[this.activeDrill];
     if (!e || e.info.key !== key || e.cards || this.revealed) return;
-    this.drillEntries[this.activeDrill] = this._entryForKey(key);
+    this.drillEntries[this.activeDrill] = this._entryForKey(key, e.info.filter); // keep the session filter
     this.renderDrill();
   }
-  _entryForKey(key) {
+  _entryForKey(key, filter) {
     const decks = (this.flashcards && this.flashcards.decks) || {};
     const fam = key.split("|")[0], role = key.split("|")[1] || "Top";
     const d = decks[key];
@@ -2941,8 +2964,15 @@ class Component extends DCLogic {
     // and renderDrill's no-cards branch does info.cat.toLowerCase(). Every authored deck has a
     // cat, so this is a no-op for hydrated decks and keeps a stub on the missing-deck path.
     const cat = (d && d.cat) || "Position";
-    const c = this._cardsOf(d);
-    return { info: { fam: fam, role: role, cat: cat, key: key }, cards: c ? c.slice() : null };
+    let c = this._cardsOf(d);
+    // `filter` (v1.105.0): "due" narrows a session to the cards past due — maintenance sessions
+    // show due cards ONLY. It is stored ON the entry (info.filter) because two sites rebuild an
+    // open entry from nothing but the key when a chunk hydrates (:1647, _restudy) — without the
+    // stored filter, a due-only session silently became a whole-deck session the moment its
+    // payload landed, which is the NORMAL case since openSession hydrates on the way in.
+    // Falls back to the whole deck if the filter empties (mid-session grades drain it).
+    if (c && filter === "due") { const f = c.filter((x) => this._cardDue(key, x.q)); if (f.length) c = f; }
+    return { info: { fam: fam, role: role, cat: cat, key: key, filter: filter || null }, cards: c ? c.slice() : null };
   }
   // fly the camera so a whole SET of nodes is in view — shared by session highlights and by
   // focus sets (Systems now, shareable Lists next), so every "here is your selection" flight
@@ -3029,7 +3059,8 @@ class Component extends DCLogic {
   openSession(bucket, label) {
     const keys = this.bucketTechniques(bucket);
     this.hydrateDecks(keys);   // a session is a queue of decks the user has already committed to
-    this._session = { keys: keys, label: label, idx: 0 };
+    // "due" sessions narrow every deck to its due cards (see _entryForKey); others are whole-deck
+    this._session = { keys: keys, label: label, idx: 0, filter: bucket === "due" ? "due" : null };
     this._sessionNodes = keys.map((k) => this.nodeForKey(k)).filter((i) => i >= 0);
     this.closeModal();
     this.frameNodes(this._sessionNodes);   // frame the highlighted nodes
@@ -3074,7 +3105,7 @@ class Component extends DCLogic {
     // would ever refresh the snapshot and the surface would sit on "being authored" for good.
     this._studyOpen = key;
     if (!this._deckResident(key)) this.hydrateDeck(key).then(() => this._restudy(key));
-    this.drillEntries = [this._entryForKey(key)];
+    this.drillEntries = [this._entryForKey(key, this._session && this._session.filter)]; // due sessions stay due-only
     this._posKey = key; this.activeDrill = 0; this.deckIdx = 0; this.revealed = false;
     this._inSession = true;
     this.renderDrill(); this.deckReady = true; this.deckOpen = true; this.applyDeckVisibility();
@@ -3121,8 +3152,7 @@ class Component extends DCLogic {
       // study order
       body.appendChild(this.settingRow("Answer mode", "How cards read back HERE. Questions asked in-roll are always multiple choice \u2014 this sidebar is the study surface, so it reads back as recall unless you say otherwise.",
         [["Classic recall", "classic"], ["Auto", "auto"], ["Multiple choice", "mc"]], "mcMode", "classic"));
-      body.appendChild(this.settingRow("Study order", "Which cards to surface first",
-        [["Weakest spots", "weakest"], ["Newest", "new"], ["Due first", "due"]], "studyOrder", "weakest"));
+      // (the dead "Study order" setting row was deleted in v1.105.0 — `studyOrder` was written but read nowhere; due-first is now BEHAVIOUR, not a preference)
       // focus
       body.appendChild(this.settingRow("Focus", "Shore up weaknesses, or sharpen strengths",
         [["Antifragile", "antifragile"], ["Converge", "converge"]], "focus", "antifragile",
@@ -3452,6 +3482,37 @@ class Component extends DCLogic {
         const cRec = cloud.v === 2 ? (cloud.rec || {}) : (cloud.prep || {}); // v1 cloud grandfathers
         for (const k in cRec) rec[k] = Math.max(rec[k] || 0, cRec[k] || 0);
         for (const dk in (cloud.stage || {})) { const s = (stage[dk] = stage[dk] || {}); const cs = cloud.stage[dk] || {}; for (const qh in cs) s[qh] = Math.max(s[qh] || 0, cs[qh] || 0); }
+        // srs merge (v1.105.0): per-card, the LATER review wins its schedule — the freshest grade
+        // knows the memory best. Ties are the COMMON case (`last` is a day; two devices studying
+        // the same day tie constantly), so the tie rule IS the rule: the SMALLER interval wins —
+        // showing a card early is cheap, hiding a demonstrably-forgotten card for 30 days is not.
+        // When the winner was a SUCCESS (ivl > 1; failures always write ivl 1) it keeps the larger
+        // of the two intervals, which heals the grade-before-pull race (a fresh device's 1→3 would
+        // otherwise erase a mature cloud schedule through nothing but recency). Ingested `last` is
+        // clamped to today so a fast clock cannot win merges forever. NB `stage` merges MAX while
+        // this merges by recency — post-merge they can disagree (proven stage, relearn schedule);
+        // benign and deliberate: stage is proof, srs is memory freshness.
+        {
+          const srs = (this.srs = this.srs || {});
+          const today = this._epochDay();
+          for (const dk in (cloud.srs || {})) {
+            const l = (srs[dk] = srs[dk] || {});
+            const cs = cloud.srs[dk] || {};
+            for (const qh in cs) {
+              const c = cs[qh], m = l[qh];
+              if (!Array.isArray(c) || c.length < 3) continue;
+              const cc = [c[0] | 0, c[1] | 0, Math.min(today, c[2] | 0)];
+              if (!m) { l[qh] = cc; continue; }
+              let w, o;
+              if (cc[2] > m[2]) { w = cc; o = m; }
+              else if (m[2] > cc[2]) { w = m; o = cc; }
+              else if (cc[1] < m[1]) { w = cc; o = m; }
+              else { w = m; o = cc; }
+              if (w[1] > 1 && o[1] > w[1]) w = [w[2] + o[1], o[1], w[2]];
+              l[qh] = w;
+            }
+          }
+        }
         this.rec = rec; this.stage = stage;
         this.units = Object.assign({}, cloud.units || {}, this.units || {});
         const won = Object.assign({}, (cloud.belts || {}).won || {}, (this.belts || {}).won || {});
@@ -6519,10 +6580,79 @@ class Component extends DCLogic {
     return ("0000000" + h.toString(16)).slice(-8);
   }
   cardStage(key, q) { const s = this.stage && this.stage[key]; return (s && s[this.qhash(q)]) || 0; }
+  /** LOCAL calendar day as an integer. Local, not UTC, because `_dayKey()` (the "N today"
+   *  counter) is local — two cells on one band must roll over at the same midnight. Overridable
+   *  for tests via `window.__NG_EPOCH_DAY__`; most specs simply seed past-due blobs instead. */
+  _epochDay() {
+    try { if (typeof window !== "undefined" && typeof window.__NG_EPOCH_DAY__ === "number") return window.__NG_EPOCH_DAY__; } catch (e) { /* non-browser */ }
+    const d = new Date();
+    return Math.floor((d.getTime() - d.getTimezoneOffset() * 60000) / 86400000);
+  }
+  /**
+   * THE ONE SCHEDULE WRITER (v1.105.0). Called from BOTH grade chokes (`gradeRecall`,
+   * `_mcAnswer`) — scheduling is about MEMORY, not format, so an MC answer moves the clock even
+   * though it cannot move the stage past 2. Success climbs one rung of NG_SRS_IVLS; ANY failure
+   * resets to rung 0 (due again, but not before tomorrow — see duePool's `last < today`, which is
+   * what lets the pool DRAIN on a failure instead of re-serving the card all day).
+   * Mirrors `noteCardDone`'s cross-deck credit: the same question text in N decks is ONE fact,
+   * so it carries ONE schedule — without this, a family card duplicated into 6 variant decks
+   * would go due six times and the maintenance count would read 47 when there are 12 facts.
+   * Deliberately emits NO fx beat (replay-digest safety) and deliberately NOT in noteCardDone:
+   * the harness's drill rail writes prep directly and must keep an empty srs.
+   */
+  _schedule(key, q, ok) {
+    const today = this._epochDay();
+    const write = (dk) => {
+      const m = (this.srs[dk] = this.srs[dk] || {});
+      const qh = this.qhash(q);
+      const cur = m[qh];
+      let ivl;
+      if (!ok) ivl = NG_SRS_IVLS[0];
+      else {
+        const at = cur ? NG_SRS_IVLS.indexOf(cur[1]) : -1;
+        ivl = NG_SRS_IVLS[Math.min(NG_SRS_IVLS.length - 1, at + 1)];
+      }
+      m[qh] = [today + ivl, ivl, today];
+    };
+    write(key);
+    // NB _sharedDecksFor returns null when unshared, and the list INCLUDES the origin deck —
+    // noteCardDone's loop has the same skip. Without it every grade wrote twice and climbed
+    // two rungs (1→3 on a first answer), which the srs-due spec caught on its first run.
+    const shared = this._sharedDecksFor(q, key);
+    if (shared) for (const k of shared) { if (k !== key) write(k); }
+    // no _saveProgress here: both callers already save via _bumpStage/noteCardDone
+  }
+  /** Cards past due and NOT yet reviewed today — `last < today` is what lets a failed card leave
+   *  the pool until tomorrow. Returns [{key, qh}]; `dueCount()` dedupes by qhash (one FACT due
+   *  once, however many decks carry it). */
+  duePool() {
+    const today = this._epochDay();
+    const out = [];
+    for (const dk in this.srs || {}) {
+      const m = this.srs[dk];
+      for (const qh in m) { const e = m[qh]; if (e && e[0] <= today && e[2] < today) out.push({ key: dk, qh: qh }); }
+    }
+    return out;
+  }
+  dueCount() { const seen = new Set(); for (const e of this.duePool()) seen.add(e.qh); return seen.size; }
+  /** is THIS card due (and unreviewed today)? */
+  _cardDue(key, q) {
+    const m = this.srs && this.srs[key]; if (!m) return false;
+    const e = m[this.qhash(q)]; if (!e) return false;
+    const today = this._epochDay();
+    return e[0] <= today && e[2] < today;
+  }
   _bumpStage(key, q, d, cap) {
     const qh = this.qhash(q);
     const s = (this.stage[key] = this.stage[key] || {});
-    s[qh] = Math.max(0, Math.min(cap == null ? 4 : cap, (s[qh] || 0) + d));
+    // THE CAP IS A CEILING ON GROWTH, NEVER A DEMOTION (v1.105.0). The absolute clamp meant a
+    // correct MC answer (cap 2) on a recall-proven card wrote min(2, 3+1) = 2 — the belt DROPPED
+    // on a right answer, and gradeRecall's `wasProven` guard then re-minted `rec` for the same
+    // card. Latent while the landing only asked stage<2 cards; due-first selection asks any
+    // stage, so maintenance answers would have fired it constantly.
+    const cur = s[qh] || 0;
+    const lim = cap == null ? 4 : cap;
+    s[qh] = d > 0 ? Math.max(cur, Math.min(lim, cur + d)) : Math.max(0, Math.min(lim, cur + d));
     this._bumpStageVer();
     this._saveProgress();
     return s[qh];
@@ -6692,7 +6822,8 @@ class Component extends DCLogic {
     }
     if (correct) {
       btns[i].setAttribute("aria-checked", "true");
-      const stage = this._bumpStage(key, card.q, 1, 2);       // MC caps at the recall gate
+      const stage = this._bumpStage(key, card.q, 1, 2);       // MC caps at the recall gate (growth-only — see _bumpStage)
+      this._schedule(key, card.q, true);                       // memory reviewed — move its clock
       this.prep[key] = (this.prep[key] || 0) + 1;             // MC is honest work: feeds odds/JIT
       this.noteCardDone(card, key);
       this.noteCardAnswered();
@@ -6713,7 +6844,8 @@ class Component extends DCLogic {
       btns[i].setAttribute("data-mc-result", btier);
       btns[i].style.borderColor = btier === "trap" ? "rgba(255,80,80,.6)" : "rgba(255,150,110,.5)";
       btns[i].style.background = "rgba(255,110,110,.07)";
-      if (btier === "trap") this._bumpStage(key, card.q, -1); // the trap costs a stage
+      if (btier === "trap") this._bumpStage(key, card.q, -1);
+      this._schedule(key, card.q, false);                      // any wrong answer resets the schedule // the trap costs a stage
       this.fx("mc_wrong", { deckKey: key, qhash: mc.qhash, tier: btier, correct: mc.correct });
       live.textContent = btier === "plausible"
         ? "Close \u2014 compare your pick with the highlighted answer."
@@ -6751,6 +6883,7 @@ class Component extends DCLogic {
       if (card) {
         const wasProven = this.cardStage(key, card.q) >= 3;
         this._bumpStage(key, card.q, 1);                     // toward mastered (cap 4)
+        this._schedule(key, card.q, true);                   // memory reviewed — move its clock
         // rec = DISTINCT cards proven by recall (stage>=3): count each card ONCE, the first
         // time it crosses. Re-grading a mastered card no longer inflates the deck's mastered
         // status; MC caps stage at 2, so only recall can mint rec.
@@ -6761,6 +6894,7 @@ class Component extends DCLogic {
       this.refreshOptionOdds();
     } else if (card) {
       this._bumpStage(key, card.q, -1);                       // Review-again drops a stage
+      this._schedule(key, card.q, false);                     // failure: schedule resets to 1 day
     }
   }
   /**
@@ -7367,6 +7501,9 @@ class Component extends DCLogic {
   questionFor(key) {
     const cards = this._cardsOf(((this.flashcards && this.flashcards.decks) || {})[key]);
     if (!cards || !cards.length) return null;
+    // DUE FIRST (v1.105.0, owner: "when you're in a particular state, it should prioritize due
+    // cards before new cards"). A due card is asked at ANY stage — maintenance before learning.
+    for (const c of cards) if (this._cardDue(key, c.q)) return c;
     for (const c of cards) if (this.cardStage(key, c.q) < 2) return c;
     return null;
   }
@@ -7391,6 +7528,10 @@ class Component extends DCLogic {
   nodeQuestionFor(key, skip) {
     const cards = this._cardsOf(((this.flashcards && this.flashcards.decks) || {})[key]);
     if (!cards || !cards.length) return null;
+    for (const c of cards) {
+      if (skip && skip.has(this.qhash(c.q))) continue;
+      if (this._cardDue(key, c.q)) return c;               // due first (v1.105.0)
+    }
     for (const c of cards) {
       if (skip && skip.has(this.qhash(c.q))) continue;
       if (this.cardStage(key, c.q) < 3) return c;

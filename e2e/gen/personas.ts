@@ -31,6 +31,7 @@ function emptyV2(): any {
     prep: {},
     rec: {},
     stage: {},
+    srs: {},
     units: {},
     belts: { won: {} },
     tut: { done: {} },
