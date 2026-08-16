@@ -23,8 +23,13 @@
     "nogi": 62
   },
   "variant_uniqueness": "Scissoring collar-and-forearm blood choke from top control",
+  "bot_metadata": {
+    "last_improved": "2026-08-16",
+    "last_improved_by": "analytics-bot",
+    "optimization_pass": "search-entry-thin-content"
+  },
   "summary": "The Paper Cutter Choke is a gi blood choke from side control and other top pins, where the attacker feeds a deep cross-collar grip and saws the forearm across the far carotid to force the tap.",
-  "overview": "The Paper Cutter Choke is a highly effective blood choke executed primarily from side control, though it can also be applied from various transitional positions including north-south and turtle. The technique derives its name from the cutting motion of the choking arm across the opponent's neck, similar to how paper is cut with a blade. This submission targets both carotid arteries simultaneously through a combination of the gi collar and the attacker's forearm, creating a powerful constriction that leads to rapid unconsciousness if not defended. The Paper Cutter Choke is particularly dangerous because it can be applied with relatively little warning and often catches opponents by surprise during position transitions. The technique is valued for its mechanical efficiency—once the grip is secured and the angle is correct, very little strength is required to finish. This makes it an excellent submission for practitioners of all sizes and is especially effective against larger, stronger opponents who might resist other collar chokes. The choke is frequently taught as part of side control attack sequences and integrates seamlessly with other submissions like the cross collar choke and arm triangle.",
+  "overview": "The Paper Cutter Choke takes its name from the guillotine-like shearing action of the finish: a deep cross-collar grip supplies one blade while the attacker's forearm and downward weight supply the other, scissoring the far side of the neck. It is a fundamentally gi-dependent attack — the collar is the anchor that makes the forearm pressure bite — which places it among the highest-value top-position chokes in the gi and leaves it largely absent from no-gi.\n\nThe choke is applied from heavy top pins, most commonly Side Control, but it transfers cleanly to North-South, Knee on Belly, Kesa Gatame, Modified Scarf Hold, and the back of a turtled opponent. The attacker feeds the choking hand deep into the far collar, thumb inside, then drops that same-side forearm across the far carotid and drives chest and shoulder weight down through the neck. Because the constriction is produced by bone and collar rather than a muscular squeeze, very little strength is required once grip depth and forearm angle are correct — the mechanical efficiency that makes it effective for smaller practitioners against larger, stronger opponents who shrug off other collar chokes.\n\nIts real danger lies in how quietly it arrives. The grip is often set during a transition or while the opponent is preoccupied escaping the pin, so the tap can come with little warning. Strong Paper Cutter players weaponize this by hunting the choke inside a web of side-control attacks — the Cross Collar Choke, Arm Triangle, and Kimura share the same real estate, so each defense feeds the next. Defensively the priorities are to deny the deep collar grip early, keep the near elbow tight so the forearm cannot cross, protect the neck line, and turn in toward the attacker rather than away, since turning away lengthens the neck and completes the choke for them.",
   "safety_considerations": {
     "injury_risks": [
       {
@@ -71,7 +76,8 @@
   "variations": [
     {
       "name": "from Kuzure Kesa-Gatame",
-      "slug": "from-kuzure-kesa-gatame"
+      "slug": "from-kuzure-kesa-gatame",
+      "description": "Collar-and-forearm blood choke from the broken scarf-hold pin"
     }
   ],
   "from_positions": [

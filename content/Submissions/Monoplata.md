@@ -136,7 +136,11 @@ description: "Master the Monoplata submission in BJJ. Complete guide covering se
 
 <section id="overview" class="content-section">
 
-The Monoplata is an advanced shoulder lock submission that combines elements of the omoplata with unique figure-four leg control. Executed primarily from guard positions, particularly the rubber guard and mission control, this technique applies rotational pressure to the shoulder joint through a distinctive leg configuration that traps the opponent's arm while controlling their posture. The monoplata represents a sophisticated evolution of traditional shoulder attacks, offering practitioners a powerful finishing option when conventional submissions are defended. Unlike the traditional omoplata which uses both legs to isolate the arm, the monoplata employs a figure-four leg entanglement that creates exceptional control while maintaining offensive options. This submission has gained prominence in modern no-gi grappling due to its effectiveness against defensive posturing and its integration within systematic guard attack sequences.
+Named for its single-leg action — *mono*, one — the Monoplata grew out of the rubber guard and 10th Planet traditions as a direct answer to opponents who successfully defend the classical omoplata. Where the omoplata commits both legs to trap the shoulder, the Monoplata frees one leg entirely, threading a single shin behind the opponent's trapped arm to build a figure-four against your own leg. That freed leg becomes a posting and steering limb, letting the attacker chase the finish, off-balance the opponent for a sweep, or switch to an armbar without ever surrendering the shoulder.
+
+Mechanically the submission attacks the shoulder through internal rotation and extension: the figure-four winds the trapped arm behind the opponent's back while your hips and upper-body control drive the shoulder past its safe range. Because the leg entanglement pins the arm independent of grip strength, the Monoplata holds even when the opponent frees their hand or posts to stand — the exact moment where a standard omoplata usually fails. The finish rewards precise angle and hip pressure over muscle, which is why smaller grapplers favor it against stronger, more flexible opponents who can otherwise ride out conventional shoulder locks.
+
+In practice the Monoplata lives inside a guard attack system rather than as an isolated trick. It is most often reached from Rubber Guard and Mission Control, from a stuffed Omoplata when the opponent pulls their arm across the body, or from a defended Triangle. Its greatest strategic value is as the second half of a dilemma: the sweep, the armbar, and the shoulder finish all share one entry, so committing to defend any single threat opens the others. Grapplers building a systematic bottom game treat the Monoplata as the finishing layer that punishes the very reactions their omoplata and triangle threats are designed to provoke.
 
 </section>
 
@@ -225,6 +229,7 @@ The Monoplata is an advanced shoulder lock submission that combines elements of 
 - [[Submissions/Tarikoplata]] - Shoulder lock chain option when opponent defends initial monoplata setup by posturing
 - [[Submissions/Far Side Armbar]] - Alternative arm attack available when monoplata figure-four cannot be fully established
 - [[Submissions/High Elbow Guillotine]] - Complementary choke attack from guard when opponent defends shoulder lock threats
+- [[Submissions/Armbar]] - Common transition when the monoplata leg configuration loosens — the freed leg lets the attacker switch straight to an armbar
 - [[Submissions/Belly Down Armbar]] - Backup arm attack when opponent rolls to escape monoplata shoulder pressure
 - [[Positions/Rubber Guard]] - Primary setup position providing control structure for monoplata entry
 - [[Positions/Rubber Guard/Mission Control]] - High-control rubber guard variation offering optimal monoplata setup angle
