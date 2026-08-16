@@ -61,6 +61,7 @@ class Component extends DCLogic {
   viewToggleRef = React.createRef();
   paneAnchorRef = React.createRef();
   paneStatsRef = React.createRef();
+  ghChipRef = React.createRef();
   _viewMode = "challenges";
   nodeCardRef = React.createRef();
   transportRef = React.createRef();
@@ -78,12 +79,12 @@ class Component extends DCLogic {
       drillRef: this.drillRef, drillTitleRef: this.drillTitleRef, drillHeadRef: this.drillHeadRef, drillListRef: this.drillListRef, drillFootRef: this.drillFootRef, drillCountRef: this.drillCountRef,
       shareCueRef: this.shareCueRef,
       closeDeck: () => this.setDeckOpen(false),
-      openSettings: () => this.openSettings("flashcards"),
+      openSettings: () => this.openSettings("flashcards"), openFeedbackTechnique: () => this.openFeedback("technique"), openFeedbackIssue: () => this.openFeedback("issue"),
       openTerms: () => this.openLegal("terms"), openPrivacy: () => this.openLegal("privacy"),
       statusRef: this.statusRef, legendMarkRef: this.legendMarkRef,
       accountRef: this.accountRef, acctChipRef: this.acctChipRef, acctMenuRef: this.acctMenuRef, toggleAccountMenu: () => this.toggleAccountMenu(), transportRef: this.transportRef, playPauseRef: this.playPauseRef,
       modalRef: this.modalRef, modalCardRef: this.modalCardRef,
-      explorerRef: this.explorerRef, explorerListRef: this.explorerListRef, explorerSearchRef: this.explorerSearchRef, explorerSearchWrapRef: this.explorerSearchWrapRef, explorerToolsRef: this.explorerToolsRef, dossierRef: this.dossierRef, dossierSheetRef: this.dossierSheetRef, nodeCardRef: this.nodeCardRef, viewToggleRef: this.viewToggleRef, paneAnchorRef: this.paneAnchorRef, paneStatsRef: this.paneStatsRef,
+      explorerRef: this.explorerRef, explorerListRef: this.explorerListRef, explorerSearchRef: this.explorerSearchRef, explorerSearchWrapRef: this.explorerSearchWrapRef, explorerToolsRef: this.explorerToolsRef, dossierRef: this.dossierRef, dossierSheetRef: this.dossierSheetRef, nodeCardRef: this.nodeCardRef, viewToggleRef: this.viewToggleRef, paneAnchorRef: this.paneAnchorRef, paneStatsRef: this.paneStatsRef, ghChipRef: this.ghChipRef,
       toggleExplorer: () => this.toggleExplorer(), openSearch: () => this.openSearch(),
       legendPointRef: this.legendPointRef, legendRef: this.legendRef, optionHintRef: this.optionHintRef, optDetailRef: this.optDetailRef, brandFontRef: this.brandFontRef,
       scrollOptions: () => { const op = this.optionsRef.current; if (op) this.tweenScroll(op, Math.round(op.clientWidth * 0.62)); },
@@ -1254,6 +1255,7 @@ class Component extends DCLogic {
       // the same choke point that latches the pane law, so no open path can miss it; the _wired
       // flags inside make repeat calls no-ops.
       this._wirePaneControls();
+      this._refreshGhChip();   // lazy star count: first pane open, never the boot path (v1.105.5)
       // arrival positioning (v1.98.1): opening the pane onto Challenges lands the corridor
       // where the person is — renderChallenges consumes this once, instantly
       if (this._viewMode === "challenges") this._challengeScrollPending = true;
@@ -2444,6 +2446,84 @@ class Component extends DCLogic {
     list.appendChild(empty);
   }
   openModal() { const m = this.modalRef.current; if (m) m.style.display = "flex"; this.lastInteract = this.now; }
+  /**
+   * FEEDBACK GOES TO POSTHOG (v1.105.5, owner: "using post hoc. It should not be done using
+   * GitHub"). One small modal for both kinds; submit is a plain `track()` capture with the text
+   * as a property — PostHog-native collection, no new backend. The auth form is the styling
+   * prior art. A quiet "no personal info" hint keeps track()'s no-PII convention honest.
+   */
+  openFeedback(kind) {
+    const card = this.modalCardRef.current; if (!card) return;
+    card.style.width = "min(440px,92vw)";
+    card.innerHTML = "";
+    const isTech = kind === "technique";
+    const head = document.createElement("div");
+    head.style.cssText = "display:flex;align-items:center;justify-content:space-between;padding:16px 20px 0;";
+    head.innerHTML = '<div style="font-size:16px;font-weight:700;color:#eef1f6;font-family:\'Space Grotesk\',sans-serif;">' + (isTech ? "Request a technique" : "Report an issue") + '</div><span class="x" style="cursor:pointer;color:#8b97b0;font-size:21px;line-height:1;">\u00d7</span>';
+    head.querySelector(".x").addEventListener("click", () => this.closeModal());
+    card.appendChild(head);
+    const body = document.createElement("div");
+    body.style.cssText = "padding:12px 20px 20px;display:flex;flex-direction:column;gap:10px;";
+    const ta = document.createElement("textarea");
+    ta.setAttribute("data-feedback-text", "1");
+    ta.maxLength = 500;
+    ta.placeholder = isTech ? "Which technique is missing? A name is enough \u2014 a position it starts from helps." : "What went wrong, and where were you when it did?";
+    ta.style.cssText = "width:100%;min-height:110px;resize:vertical;font-family:inherit;font-size:14px;line-height:1.5;color:#eef1f6;background:rgba(255,255,255,.04);border:1px solid rgba(150,170,210,.25);border-radius:11px;padding:12px 14px;box-sizing:border-box;outline:none;";
+    body.appendChild(ta);
+    // context rides along unless removed — names the state the report is about
+    const node = this.nodes && this.nodes[this.currentPos];
+    let ctxOn = !!node;
+    if (node) {
+      const ctx = document.createElement("label");
+      ctx.style.cssText = "display:flex;align-items:center;gap:7px;font-size:11px;color:#8b97b0;cursor:pointer;";
+      ctx.innerHTML = '<input type="checkbox" checked data-feedback-ctx="1" style="accent-color:#4a6cff;"> about: ' + this.splitName(node.t).main;
+      ctx.querySelector("input").addEventListener("change", (e) => { ctxOn = e.target.checked; });
+      body.appendChild(ctx);
+    }
+    const hint = document.createElement("div");
+    hint.style.cssText = "font-size:10px;color:#5d6883;";
+    hint.textContent = "Please don\u2019t include personal information.";
+    body.appendChild(hint);
+    const btn = document.createElement("button");
+    btn.setAttribute("data-feedback-send", "1");
+    btn.textContent = "Send";
+    btn.style.cssText = "cursor:pointer;font-family:inherit;font-size:13px;font-weight:700;padding:12px;border-radius:11px;border:none;background:linear-gradient(135deg,#4a6cff,#6a5cff);color:#fff;";
+    btn.addEventListener("click", () => {
+      const text = (ta.value || "").trim();
+      if (!text) { ta.focus(); return; }
+      this.track(isTech ? "neural_technique_requested" : "neural_issue_reported", {
+        text: text.slice(0, 500),
+        node: ctxOn && node ? node.id : null,
+        app_version: (typeof NG_APP_VERSION !== "undefined" ? NG_APP_VERSION : null),
+      });
+      this.closeModal();
+      this.setEvent("Sent \u2014 thank you", isTech ? "We read every request" : "We read every report", "good");
+    });
+    body.appendChild(btn);
+    card.appendChild(body);
+    this.openModal();
+    ta.focus();
+  }
+  /** GitHub star chip: lazy (first pane open, never boot), day-cached, and NEVER throwing —
+   *  the harness aborts non-localhost fetches and at least one spec collects pageerror. */
+  _refreshGhChip() {
+    const el = this.ghChipRef.current; if (!el || this._ghTried) return;
+    this._ghTried = true;
+    let cached = null;
+    try { cached = JSON.parse(localStorage.getItem("gh-stars") || "null"); } catch (e) { /* fine */ }
+    const paint = (n) => { const l = el.querySelector("[data-gh-label]"); if (l && typeof n === "number") l.textContent = "\u2605 " + (n >= 1000 ? (n / 1000).toFixed(1) + "k" : n); };
+    if (cached && Date.now() - cached.at < 86400000) { paint(cached.n); return; }
+    try {
+      fetch("https://api.github.com/repos/diogoseca/bjjgraph")
+        .then((r) => (r.ok ? r.json() : null))
+        .then((j) => {
+          if (!j || typeof j.stargazers_count !== "number") return;
+          paint(j.stargazers_count);
+          try { localStorage.setItem("gh-stars", JSON.stringify({ n: j.stargazers_count, at: Date.now() })); } catch (e) { /* fine */ }
+        })
+        .catch(() => { /* plain link is the fallback state */ });
+    } catch (e) { /* fetch unavailable — plain link */ }
+  }
   openLegal(kind) {
     const card = this.modalCardRef.current; if (!card) return;
     card.style.width = "min(520px,92vw)";
