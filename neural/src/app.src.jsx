@@ -8834,8 +8834,13 @@ class Component extends DCLogic {
     this.fx("commit", { technique: act.t });
     this.track("neural_move_picked", { technique: act.t, node_type: act.ty });
     this._pendingIntent = { actor: "you", idx: opt.res >= 0 ? opt.res : opt.idx };
-    const verb = act.ty === "submissions" ? "Going for the submission" : "Attempting the transition";
-    this.setEvent(verb, act.t, "info");
+    // ONE SUBJECT PER LABEL (v1.104.1, owner). The announcer names WHO IS INITIATING; the graph
+    // verb names YOUR posture toward that move. They used to have different subjects and
+    // contradict each other on screen — "OPPONENT DEFENDS Crucifix Maintenance" over a graph
+    // reading "DEFENDING Crucifix Maintenance", for a move the opponent was going FOR.
+    //   opponent acts -> "Opponent goes for X"  + graph "DEFENDING X"
+    //   you act       -> "You go for Y"         + graph "ATTACKING Y"
+    this.setEvent("You go for", act.t, "info");
     this.activeMove = { idx: opt.idx, verb: "Attacking", col: { r: 94, g: 149, b: 255 } };
     this.startTravel([this.currentPos, opt.idx], () => {
       this.after(0.35, () => this.tensionSweep(opt));
@@ -9143,8 +9148,10 @@ class Component extends DCLogic {
       const def = subs[(this.rng("opp-sub-pick") * subs.length) | 0];
       this.fx("opponent_attack", { technique: this.nodes[def].t, idx: def }); // belt-pool journeys assert on this
       this.flare(def);
-      this.setEvent("Opponent attacks", this.nodes[def].t, "bad");
-      this.activeMove = { idx: def, verb: "Attacking", col: { r: 255, g: 110, b: 110 } };
+      this.setEvent("Opponent goes for", this.nodes[def].t, "bad");
+      // "Defending", not "Attacking": the verb is YOURS, and the opponent is the one attacking.
+      // This branch and the positional one below disagreed with each other.
+      this.activeMove = { idx: def, verb: "Defending", col: { r: 255, g: 110, b: 110 } };
       this.startTravel([this.currentPos, def], () => this.after(0.3, () => this.enterDefense(def)));
       return;
     }
@@ -9163,8 +9170,12 @@ class Component extends DCLogic {
     if (intendDest < 0) intendDest = this.currentPos;
     const actualDest = intendDest; // the weighted draw already models "doesn't always land clean" — no extra random slip
     this._pendingIntent = { actor: "opp", idx: intendDest };
-    const offensive = this.performerRole(defNode.t, defNode.ty) === "top";
-    this.setEvent(offensive ? "Opponent counters" : "Opponent defends", defNode.t, "bad");
+    // `performerRole(...) === "top"` used to pick between "Opponent counters" and "Opponent
+    // defends" here — a TOP/BOTTOM test standing in for an OFFENCE/DEFENCE one, the same defect
+    // class as roleIdx-vs-valIdx (v1.103.0). In BJJ the dominance axis is not top/bottom, so a
+    // bottom-authored attack (the reported crucifix) announced itself as the opponent DEFENDING.
+    // Naming the actor needs no such guess.
+    this.setEvent("Opponent goes for", defNode.t, "bad");
     this.activeMove = { idx: def, verb: "Defending", col: { r: 255, g: 140, b: 100 } };
     const path = actualDest !== this.currentPos ? [this.currentPos, def, actualDest] : [this.currentPos, def];
     this.startTravel(path, () => {
