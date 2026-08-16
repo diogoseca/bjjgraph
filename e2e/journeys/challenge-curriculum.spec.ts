@@ -87,11 +87,18 @@ test.describe("Challenge curriculum @curated", () => {
     }
   });
 
-  test("a lesson opens its deck session and moves the camera to its graph node", async ({
+  test("a lesson row reads INLINE and locates its node — it never takes the pane over", async ({
     page,
   }) => {
+    // v1.105.2 (owner): "we don't want content that opens in the sidebar and takes over the
+    // whole sidebar, nor do we want the sidebar to close" — the row click is now the ▸'s inline
+    // Q&A plus a PANE-AWARE camera flight. This test used to assert the takeover (deckOpen +
+    // _session) and read camTarget±60 — the exact assertion style share-camera canon forbids.
+    // It now PROJECTS the node through the draw transform and asserts it landed in the VISIBLE
+    // region (right of the 360px pane), which is what "navigate but keep the sidebar open" means.
     const j = journey(page);
     await j.boot("/");
+    await j.hydrateAll();
     await j.land("Mount Top");
     await openChallenges(page);
 
@@ -99,25 +106,36 @@ test.describe("Challenge curriculum @curated", () => {
     await page
       .locator(`.ng-challenge-lesson[data-lesson="${lesson.deckKey}"]`)
       .click();
-    await j.advance(1500);
+    await j.advance(2500); // let the camera converge on its target
+
     const state = await page.evaluate((deckKey) => {
       const app = (window as any).__neural;
       const node = app.nodes[app._lessonNodeIdx(deckKey)];
+      const cam = app.cam;
+      const W = app.W || 1200;
+      const scale = W / cam.vw;
+      const sx = (node.x - cam.cx) * scale + W / 2;
+      const sy = (node.y - cam.cy) * scale + (app.H || 800) / 2;
       return {
-        cam: app.camTarget
-          ? { x: app.camTarget.cx, y: app.camTarget.cy }
-          : null,
-        node: node ? { x: node.x, y: node.y } : null,
-        deckOpen: !!app.deckOpen,
-        session: (app._session?.keys || []).slice(),
+        sx, sy, W, H: app.H || 800,
+        paneOpen: !!app.deckShown,
+        takeover: !!app._paneStudyActive(),
+        miniOpen: !!document.querySelector(`[data-mini-deck="${deckKey}"]`),
+        navVisible: !!(app.viewToggleRef.current && app.viewToggleRef.current.style.display !== "none"),
       };
     }, lesson.deckKey);
 
-    expect(state.node).toBeTruthy();
-    expect(Math.abs(state.cam!.x - state.node!.x)).toBeLessThan(60);
-    expect(Math.abs(state.cam!.y - state.node!.y)).toBeLessThan(60);
-    expect(state.deckOpen).toBe(true);
-    expect(state.session).toContain(lesson.deckKey);
+    expect(state.paneOpen, "the pane STAYS open").toBe(true);
+    expect(state.takeover, "and is never taken over by the row click").toBe(false);
+    expect(state.navVisible, "the tab nav survives — you can still see where you are").toBe(true);
+    expect(state.miniOpen, "the inline Q&A opened in place").toBe(true);
+    // the node is in the VISIBLE region: right of the pane, inside the viewport, roughly centred
+    expect(state.sx, "right of the 360px pane").toBeGreaterThan(360);
+    expect(state.sx).toBeLessThan(state.W);
+    expect(state.sy).toBeGreaterThan(0);
+    expect(state.sy).toBeLessThan(state.H);
+    const visCentre = 360 + (state.W - 360) / 2;
+    expect(Math.abs(state.sx - visCentre), "centred in the VISIBLE half, not the viewport").toBeLessThan(120);
   });
 
   test("finishing a lesson records Challenge evidence without locking other lessons", async ({

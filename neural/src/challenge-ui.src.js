@@ -500,9 +500,16 @@ const NG_CHALLENGE_UI_METHODS = {
           (lessonComplete
             ? '<i class="ng-lesson-check" aria-hidden="true">✓</i>'
             : "");
-        button.addEventListener("click", () =>
-          this.openLessonStudy(lesson, unit, belt),
-        );
+        // THE ROW READS AND LOCATES; IT NEVER TAKES THE PANE OVER (v1.105.2, owner: clicking the
+        // technique "opens the technique in the left sidebar, which is really weird"). The name
+        // click = the ▸'s inline Q&A + a pane-aware camera flight to the lesson's node — ladder
+        // visible, progress visible, graph showing where you are. `openLessonStudy` (the full
+        // takeover) survives for sessions/checkpoints; it is no longer the row's verb.
+        button.addEventListener("click", () => {
+          if (deckBox.style.display === "none") openMini();
+          const ni = this._lessonNodeIdx(lesson.deckKey);
+          if (ni >= 0) this.locateNode(ni);
+        });
         // A lesson row is also a technique a coach may have covered in class, so it carries the
         // same + affordance as Explore/dossier/landing. The button must be a SIBLING: a nested
         // <button> closes the outer one in the HTML parser and would break the row entirely.
@@ -553,11 +560,12 @@ const NG_CHALLENGE_UI_METHODS = {
           }
         };
         let built = false;
-        toggle.addEventListener("click", () => {
-          if (deckBox.style.display !== "none") {
-            closeSelf();
-            return;
-          }
+        // openMini: the ▸ body, hoisted so the ROW's own click can share it (v1.105.2). The
+        // owner's law for lesson rows: no pane takeover and no leaving the pane — "we want to
+        // see the inline question and answer... if you went to the actual technique but kept the
+        // sidebar open". `toggleMini` keeps the ▸'s open/close semantics; the row click is
+        // open-or-focus (clicking the name of an already-open lesson does not slam it shut).
+        const openMini = () => {
           if (this._openLessonMini && this._openLessonMini.rid !== rid) {
             this._openLessonMini.close(); // accordion — one inline deck at a time
           }
@@ -597,7 +605,10 @@ const NG_CHALLENGE_UI_METHODS = {
           toggle.setAttribute("aria-expanded", "true");
           toggle.querySelector("span").textContent = "▾";
           this._openLessonMini = { rid: rid, close: closeSelf };
-        });
+        };
+        const toggleMini = () => { if (deckBox.style.display !== "none") closeSelf(); else openMini(); };
+        toggle.addEventListener("click", toggleMini);
+
         lessonRow.appendChild(toggle);
         if (lessonNode) {
           lessonRow.appendChild(this._listAddButton(lessonNode.id, "lesson"));

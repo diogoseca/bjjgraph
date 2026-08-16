@@ -2287,6 +2287,10 @@ class Component extends DCLogic {
     if (st.idx >= total) st.idx = 0;
     this._answered = this._answered || {};
     const ansSet = this._answered[key] || (this._answered[key] = new Set());
+    // per-card GRADED latch (session-scoped, like ansSet): render() rebuilds innerHTML wholesale,
+    // so without it the grade buttons would be re-clickable — six Got-its = six interval rungs.
+    this._miniGraded = this._miniGraded || {};
+    const gradedSet = this._miniGraded[key] || (this._miniGraded[key] = new Set());
     this.prep = this.prep || {};
     const wrap = document.createElement("div");
     if (isCurrent) wrap.className = "ngCurExpire";
@@ -2308,7 +2312,7 @@ class Component extends DCLogic {
         return '<span class="mt" data-i="' + i + '" style="height:4px;width:' + (active ? "22px" : "8px") + ';border-radius:2px;background:' + bg + ';cursor:pointer;transition:width .22s,background .22s;"></span>';
       }).join("");
       wrap.innerHTML =
-        '<div style="display:flex;gap:4px;align-items:center;margin:0 0 8px 3px;">' + tabs + '</div>' +
+        '<div style="display:flex;flex-wrap:wrap;gap:4px;align-items:center;margin:0 0 8px 3px;">' + tabs + '</div>' +
         '<div style="border:1px solid rgba(120,150,255,.2);border-radius:11px;background:linear-gradient(160deg,rgba(32,40,68,.55),rgba(13,16,30,.6));padding:14px 15px 13px;box-shadow:0 6px 18px rgba(0,0,0,.2);">' +
           // scope chip: only on higher-tier (general) cards blended in — names the position/family
           // the card is about, so it reads as a concept rather than a state:role-specific detail.
@@ -2316,6 +2320,9 @@ class Component extends DCLogic {
           '<div data-mini-q="1" style="font-size:13px;line-height:1.5;color:#e3e9f4;font-weight:500;">' + (card.q || card.front || "") + '</div>' +
         '</div>' +
         (st.revealed ? '<div data-mini-a="1" style="margin-top:8px;border:1px solid rgba(110,214,160,.28);border-radius:11px;background:rgba(20,38,30,.42);padding:13px 15px;font-size:12.5px;line-height:1.6;color:#bfe6cf;animation:ngCardIn .22s ease both;">' + (card.a || card.back || "") + '</div>' : '') +
+        (st.revealed && !gradedSet.has(st.idx)
+          ? '<div style="display:flex;gap:7px;margin-top:8px;"><button data-mini-again="1" style="flex:1;cursor:pointer;font-family:inherit;font-size:11.5px;font-weight:700;padding:9px;border-radius:9px;border:1px solid rgba(232,150,107,.4);background:rgba(232,150,107,.12);color:#f0c4ad;">Review again</button><button data-mini-got="1" style="flex:1;cursor:pointer;font-family:inherit;font-size:11.5px;font-weight:700;padding:9px;border-radius:9px;border:1px solid rgba(110,214,160,.4);background:rgba(110,214,160,.13);color:#bfe6cf;">Got it</button></div>'
+          : (st.revealed ? '<div data-mini-graded="1" style="margin-top:8px;font-size:10.5px;color:#7e8aa3;text-align:center;">Graded \u2014 next card \u2192</div>' : '')) +
         '<div style="display:flex;gap:7px;margin-top:9px;">' +
           navBtn("mp", "M15 18l-6-6 6-6") +
           '<button class="mr" data-mini-reveal="1" style="flex:1;cursor:pointer;border:1px solid rgba(120,150,255,.4);border-radius:9px;background:rgba(74,108,255,.16);color:#dbe6ff;font-family:inherit;font-size:12px;font-weight:700;display:flex;align-items:center;justify-content:center;gap:7px;transition:background .12s;">' + (st.revealed ? "Hide answer" : "Reveal") + '<kbd style="font-family:inherit;font-size:9px;font-weight:700;opacity:.55;border:1px solid currentColor;border-radius:4px;padding:1px 6px;letter-spacing:.04em;">space</kbd></button>' +
@@ -2328,6 +2335,19 @@ class Component extends DCLogic {
       mr.onmouseenter = () => mr.style.background = "rgba(74,108,255,.28)";
       mr.onmouseleave = () => mr.style.background = "rgba(74,108,255,.16)";
       mp.onclick = doPrev; mn.onclick = doNext; mr.onclick = doReveal;
+      // GRADING IN PLACE (v1.105.2): reveal stays SEEN-only; these are the credit, through the
+      // same gradeRecall choke as every surface — lesson evidence, prep, stage and the SRS
+      // schedule all flow. One grade per card per session (the latch above).
+      const gb = wrap.querySelector("[data-mini-got]"), ab = wrap.querySelector("[data-mini-again]");
+      const gradeMini = (ok) => {
+        if (gradedSet.has(st.idx)) return;
+        gradedSet.add(st.idx);
+        ansSet.add(st.idx);
+        this.gradeRecall(key, cards[st.idx], ok);
+        if (ok) doNext(); else render();               // a miss stays put for a re-read
+      };
+      if (gb) gb.onclick = () => gradeMini(true);
+      if (ab) ab.onclick = () => gradeMini(false);
       wrap.querySelectorAll(".mt").forEach((t) => t.onclick = () => { st.idx = parseInt(t.dataset.i, 10); st.revealed = false; render(); });
     };
     this._miniReg = this._miniReg || {};
@@ -6036,11 +6056,20 @@ class Component extends DCLogic {
     if (missing) list.appendChild(mk('<span style="font-size:11px;color:#69748f;">' + missing + " more technique" + (missing === 1 ? "" : "s") + " here aren\u2019t on the map yet</span>", 22));
   }
   locateNode(idx) {
-    // pure camera flight — the merged pane sits on the right, the graph flies on the visible left,
-    // and every caller (session rows, lesson study) keeps the pane open for the study that follows
+    // pure camera flight — the pane sits on the LEFT (v1.94.0; this comment used to say right),
+    // and every caller (session rows, lesson study) keeps the pane open for the study that follows.
     const n = this.nodes[idx]; if (!n) return;
     this.releaseCamera(); // a row click asks to go somewhere ELSE: end any focus lease, don't fight it
-    this.camTarget = { cx: n.x, cy: n.y, vw: Math.max(this.graphW * 0.22, this.graphR * 0.5) };
+    const vw = Math.max(this.graphW * 0.22, this.graphR * 0.5);
+    // PANE-AWARE (v1.105.2, owner: keep the sidebar open "so we know where we are"). Centre the
+    // node in the VISIBLE region, not the viewport: with the 360px pane up, viewport-centre puts
+    // the node half behind it. TARGET values on both axes of the correction — `deckShown ? 1 : 0`
+    // (uiShift eases over 0.4s, and camTarget is written ONCE; a click mid-open would bake a
+    // fractional offset in forever) and THIS vw (mid-flight cam.vw can be 10x larger and would
+    // blow the node off-screen). sbOffset() is 0 on a phone, so mobile is a free no-op.
+    const sbW = (this.deckShown ? 1 : 0) * this.sbOffset();
+    const W = this.W || 1200;
+    this.camTarget = { cx: n.x - (sbW / 2) * (vw / W), cy: n.y, vw: vw };
     this.lastInteract = this.now; this.flare(idx);
   }
   // ---------- dossier: the technique page, living in the left pane ----------
