@@ -142,6 +142,8 @@
      read order is identity -> film -> question -> your hand, top to bottom. */
   .ng-landcard{pointer-events:auto;position:fixed;left:50%;bottom:236px;transform:translateX(-50%);z-index:5;width:min(520px,calc(100vw - 32px));max-height:min(420px,50vh);overflow-y:auto;background:linear-gradient(180deg,rgba(24,28,46,.97),rgba(17,20,34,.97));border:1px solid rgba(130,150,190,.24);border-radius:15px;padding:13px 15px 12px;box-shadow:0 14px 44px rgba(0,0,0,.5);animation:ngCardInX .28s cubic-bezier(.2,.7,.2,1);}
   .ng-landcard[data-landcard="attempt"]{border-color:rgba(126,160,255,.4);}
+  /* the panic drill wears the danger skin, but is a landing card in every other respect */
+  .ng-landcard[data-landcard="defense"]{border-color:rgba(255,110,110,.42);background:linear-gradient(180deg,rgba(52,22,24,.97),rgba(38,16,18,.97));}
   /* ── MOMENTUM: the arcade announcer + the heat chip. Heat 1→5 = ×2→×6+. ── */
   .ng-combo-pop{position:fixed;left:50%;top:31%;transform:translate(-50%,-50%);z-index:72;pointer-events:none;text-align:center;font-family:'Space Grotesk',sans-serif;animation:ngComboPop 1.15s cubic-bezier(.2,.7,.2,1) both;}
   .ng-combo-pop .ng-combo-x{font-size:12px;font-weight:800;letter-spacing:.34em;text-transform:uppercase;color:#9ab0e0;margin-bottom:4px;}

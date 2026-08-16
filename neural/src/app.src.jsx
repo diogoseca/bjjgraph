@@ -8069,11 +8069,24 @@ class Component extends DCLogic {
   }
   _dockLandCard(el) {
     if (this._landFilmEl) requestAnimationFrame(() => this._dockLandFilm());
-    if (!el || !this.isMobile()) return;
+    if (!el) return;
     const row = this.optionsRef.current; if (!row) return;
     const h = row.getBoundingClientRect().height;
     if (!(h > 0)) return; // no hand dealt yet — the CSS constant is as good a guess as any
     const TRAY_BOTTOM = 84; // matches .ng-optionrow's own `bottom` in xdc-template.html
+    // DESKTOP DOCKS ONLY WHEN IT MUST (v1.104.4). This was mobile-only because the desktop
+    // constant (`bottom:236px`) clears an ordinary option tray. An ESCAPE tray is taller — its
+    // cards carry the extra "escape route" line — and measured at 1440x900 the card's bottom
+    // landed at 664 against a tray top of 657: a 7px overlap on the one screen where you are
+    // under a 4-9s clock. So desktop now measures, and moves the card ONLY if it would actually
+    // collide; with no overlap the CSS constant is left exactly as it was, so nothing that
+    // looked right before can move.
+    if (!this.isMobile()) {
+      const rb = row.getBoundingClientRect(), cb = el.getBoundingClientRect();
+      if (cb.bottom <= rb.top - 8) { el.style.removeProperty("bottom"); return; }
+      el.style.setProperty("bottom", Math.round(TRAY_BOTTOM + h + 12) + "px", "important");
+      return;
+    }
     // `!important` is REQUIRED, not cargo cult: the mobile rule is
     // `@media (max-width:640px){.ng-landcard{bottom:206px!important}}`, and a plain inline style
     // loses to an !important declaration in a stylesheet. Setting `el.style.bottom` moved the card
@@ -8233,30 +8246,49 @@ class Component extends DCLogic {
     setTimeout(() => { try { v.remove(); } catch (e) {} }, relief ? 200 : 520);
   }
 
-  // ── PANIC DRILL: one defender micro-card inline with the escape options. Grading it pumps
-  // every escape's odds live (+6% stateBonus) and refunds clock (+2s) — composure under fire. ──
+  // ── PANIC DRILL: THE DEFENCE QUESTION IS A LANDING CARD (v1.104.4, owner: it "should show
+  // alike the ng-landcard, in fact it should be a ng-landcard i think. it should never be in the
+  // options row lol wtf"). It used to be a 236px flex item INSERTED AS THE FIRST CHILD OF THE
+  // ESCAPE TRAY — so the question you must read sat in the row of things you must choose between,
+  // shifting every escape card one slot right and competing with them for the same glance under a
+  // 4-9s clock. Everywhere else in the app a question is asked ABOVE the hand; this was the one
+  // place it was asked INSIDE it.
+  //
+  // It is not merely STYLED like a landing card, it IS one: the element goes in `_landEl`, so
+  // every piece of landing-card machinery applies for free and cannot drift — `_dockLandCard`
+  // (which keeps it clear of a tray whose height depends on how many lines a name wraps to),
+  // `_suppressLand` (the pane and the option sheet stand it down), `attachInput`'s
+  // pointer-capture early-return, and `clearLandCard` for teardown.
+  //
+  // Grading it still pumps every escape's odds live (+6% stateBonus) and refunds clock (+2s).
   buildPanicCard(row, sub) {
     const decks = (this.flashcards && this.flashcards.decks) || {};
     const pk = this._panicKey;
     const pc = pk ? this._cardsOf(decks[pk]) : null;
-    if (!row || !pc || !pc.length) return;
+    if (!pc || !pc.length) return;
     this._jitIdx = this._jitIdx || {};
+    this.clearLandCard();               // one card slot; never two stacked
     const card = document.createElement("div");
+    card.className = "ng-landcard";     // position, width, dock, animation — all inherited
+    card.setAttribute("data-landcard", "defense");
     card.setAttribute("data-panic", "1");
-    card.style.cssText = "pointer-events:auto;position:relative;flex:0 0 236px;width:236px;background:rgba(52,22,24,.85);backdrop-filter:blur(6px);border:1px solid rgba(255,110,110,.4);border-radius:11px;padding:11px 12px 12px;";
+    // pointer-events:auto is LOAD-BEARING on every fixed overlay (inherited property; the canvas
+    // hit-tests above anything that does not re-enable it). The palette is the only thing this
+    // overrides — `.ng-landcard[data-landcard="defense"]` in helmet.html carries the danger skin.
+    card.style.pointerEvents = "auto";
     const render = () => {
       const idx = (this._jitIdx[pk] || 0) % pc.length;
       const fc = pc[idx];
       card.innerHTML =
-        '<div style="font-size:9.5px;letter-spacing:.14em;text-transform:uppercase;font-weight:800;color:#ff9c9c;margin-bottom:6px;">Panic drill — defend it</div>' +
-        '<div style="font-size:12px;line-height:1.45;color:#f2dede;">' + fc.q + '</div>' +
-        '<div class="pAns" style="display:none;margin-top:7px;font-size:11.5px;line-height:1.5;color:#e8b8b8;border-top:1px solid rgba(255,110,110,.22);padding-top:7px;">' + fc.a + '</div>' +
-        '<div style="display:flex;gap:7px;margin-top:9px;">' +
-          '<button data-panic-reveal style="flex:1;cursor:pointer;font-family:inherit;font-size:11px;font-weight:700;padding:8px;border-radius:8px;border:1px solid rgba(255,110,110,.45);background:rgba(255,110,110,.14);color:#ffc9c9;">Reveal</button>' +
-          '<button data-panic-got style="display:none;flex:1;cursor:pointer;font-family:inherit;font-size:11px;font-weight:700;padding:8px;border-radius:8px;border:none;background:linear-gradient(135deg,#b8434a,#8f2f38);color:#ffecec;">Got it &rarr; +escape%</button>' +
+        '<div style="font-size:9.5px;letter-spacing:.14em;text-transform:uppercase;font-weight:800;color:#ff9c9c;margin-bottom:6px;">Panic drill &mdash; defend it</div>' +
+        '<div style="font-size:13.5px;line-height:1.45;color:#f6e6e6;">' + fc.q + '</div>' +
+        '<div class="pAns" style="display:none;margin-top:8px;font-size:12.5px;line-height:1.5;color:#e8b8b8;border-top:1px solid rgba(255,110,110,.22);padding-top:8px;">' + fc.a + '</div>' +
+        '<div style="display:flex;gap:8px;margin-top:10px;">' +
+          '<button data-panic-reveal style="flex:1;cursor:pointer;font-family:inherit;font-size:12px;font-weight:700;padding:9px;border-radius:9px;border:1px solid rgba(255,110,110,.45);background:rgba(255,110,110,.14);color:#ffc9c9;">Reveal</button>' +
+          '<button data-panic-got style="display:none;flex:1;cursor:pointer;font-family:inherit;font-size:12px;font-weight:700;padding:9px;border-radius:9px;border:none;background:linear-gradient(135deg,#b8434a,#8f2f38);color:#ffecec;">Got it &rarr; +escape%</button>' +
         '</div>';
       const rv = card.querySelector("[data-panic-reveal]"), gt = card.querySelector("[data-panic-got]");
-      rv.addEventListener("click", (ev) => { ev.stopPropagation(); card.querySelector(".pAns").style.display = "block"; rv.style.display = "none"; gt.style.display = "block"; });
+      rv.addEventListener("click", (ev) => { ev.stopPropagation(); card.querySelector(".pAns").style.display = "block"; rv.style.display = "none"; gt.style.display = "block"; this._dockLandCard(card); });
       gt.addEventListener("click", (ev) => {
         ev.stopPropagation();
         this.prep[pk] = (this.prep[pk] || 0) + 1;
@@ -8266,11 +8298,15 @@ class Component extends DCLogic {
         this.fx("escape_odds_pumped", { deck_key: pk });
         this._jitIdx[pk] = idx + 1;
         render();
-        this.setBeacon("escape", row);  // drilled — now TAKE the escape
+        this._dockLandCard(card);
+        if (row) this.setBeacon("escape", row);  // drilled — now TAKE the escape
       });
     };
     render();
-    row.insertBefore(card, row.firstChild);
+    (this.__ngRoot || document.body).appendChild(card);
+    this._landEl = card;
+    this._landMode = "defense";
+    this._dockLandCard(card);
     this.fx("panic_drill_opened", { deck_key: pk });
     this.setBeacon("panic", card);
   }
@@ -9148,13 +9184,13 @@ class Component extends DCLogic {
 
     const el = this.optionsRef.current; if (el) el.innerHTML = "";
     let picked = false;
-    const finish = () => { picked = true; this._optPick = null; this._optList = null; this._decision = null; this.clearTimers(); this.clearOptions(); this._defendSub = null; this._panicKey = null; this.killVignette(false);
+    const finish = () => { picked = true; this._optPick = null; this._optList = null; this._decision = null; this.clearTimers(); this.clearOptions(); this.clearLandCard(); this._defendSub = null; this._panicKey = null; this.killVignette(false);
       this.activeMove = null; this.flare(subIdx); this.setEvent("Tapped", this.splitName(sub.t).main, "bad");
       this.after(0.5, () => this.endRound("lose", sub.t)); };
     const pick = (opt) => {
       if (picked) return; picked = true;
       const chance = this.escapeChance(opt); // computed BEFORE teardown (needs _defendSub/_panicKey)
-      this._optPick = null; this._optList = null; this._decision = null; this.clearTimers(); this.clearOptions();
+      this._optPick = null; this._optList = null; this._decision = null; this.clearTimers(); this.clearOptions(); this.clearLandCard();
       this.setEvent("Escaping", opt.node.t, "info");
       this.activeMove = { idx: opt.idx, verb: "Escaping", col: { r: 126, g: 224, b: 168 } };
       this.startTravel([subIdx, opt.idx], () => {
