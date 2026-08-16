@@ -44,7 +44,11 @@ jobs:
           POSTHOG_PROJECT_ID: "236155"
         run: |
           python3 scripts/regenerate_votes.py
-          python3 scripts/regenerate_graph.py
+          # regenerate_graph.py ALONE emits graph.json WITHOUT the strength pass, which strips
+          # `strength` from 4,464 of its 4,465 nodes — every consumer of node strength then reads
+          # a hole. The umbrella script is the whole chain (graph-base -> graph-layout -> ordinals
+          # -> graph-strength) and is what a human runs; CI must not run a subset of it.
+          npm run regenerate:graph
 
       - name: Detect changes
         id: changes

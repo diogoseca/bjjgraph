@@ -95,12 +95,20 @@ test("▶ asks before it discards the roll you are in @curated", async ({ page }
   await page.waitForTimeout(400);
   expect(await page.evaluate(() => /Start a fresh roll/i.test(document.body.innerText))).toBe(true);
 
-  // Cancel leaves the roll alone
-  const before = await page.evaluate(() => (window as any).__neural.cur);
+  // Cancel leaves the roll alone. NB `__neural.cur` does NOT exist — reading it compared undefined
+  // to undefined and could never fail. The state is `currentPos`, and "the roll you are in" is the
+  // session as well as the node, so the log length rides along.
+  const snap = () =>
+    page.evaluate(() => {
+      const a: any = (window as any).__neural;
+      return { pos: a.currentPos, moves: (a.rollLog || []).length };
+    });
+  const before = await snap();
+  expect(before.pos, "premise: there IS a roll to preserve").toBeGreaterThanOrEqual(0);
   await page.evaluate(() => (document.querySelector(".ng-cf-no") as HTMLElement).click());
   await page.waitForTimeout(300);
   expect(await page.evaluate(() => /Start a fresh roll/i.test(document.body.innerText))).toBe(false);
-  expect(await page.evaluate(() => (window as any).__neural.cur)).toBe(before);
+  expect(await snap()).toEqual(before);
 });
 
 test("an Explore technique row plays too, by real mouse", async ({ page }) => {

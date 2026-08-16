@@ -25,7 +25,7 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
         with:
-          node-version: 20
+          node-version: "22"
           cache: npm
 
       - name: Setup Python
@@ -43,14 +43,15 @@ jobs:
         run: npm run build
 
       - name: Package tested site
-        run: |
-          tar -czf complete-e2e-site.tgz -C source \
-            public/index.html \
-            public/index.css \
-            public/prescript.js \
-            public/postscript.js \
-            public/static \
-            public/dev
+        # THE WHOLE TREE, NOT AN ALLOW-LIST (v1.104.6). The list below used to name six paths, and
+        # it predated every spec that reads a seventh: share-camera/share-lists/share-mobile
+        # readFileSync `public/l.html`, `_redirects` and `l-manifest.json`; legacy-gone and
+        # static-article-layout `goto("/Positions/Mount/Top")`; systems-surface goes to
+        # `/Systems/*`; the SEO journey fetches `/sitemap.xml` and `/llms.txt`. None were packaged,
+        # so the full sharded suite — the PR gate for BOTH main and dev — could not pass, and
+        # nothing reported the drift because an allow-list rots silently. If size ever bites, use
+        # --exclude: a new emitted path must be packaged by DEFAULT.
+        run: tar -czf complete-e2e-site.tgz -C source public
 
       - name: Upload tested site
         uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
@@ -91,7 +92,7 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
         with:
-          node-version: 20
+          node-version: "22"
           cache: npm
 
       - name: Install test dependencies

@@ -79,7 +79,7 @@ const decksArrive = (page: any) =>
 /** The deck payload is genuinely in flight — held by the harness, never stubbed on the app — and
  *  lands through the app's own `fetch().then()` when the spec lets it through. */
 const decksLandFor = async (j: any, page: any) => {
-  j.releasePayload("flashcards.json");
+  j.releasePayload("flashcards/_index.json");
   await page.waitForFunction(
     () => !!(window as any).__neural.flashcards,
     null,
@@ -98,7 +98,7 @@ test("cold start: the deck payload landing mid-turn gives the CURRENT state its 
   // flashcards.json still on the wire, exactly as a 4G visitor's first turn is played
   await j.boot("/", {
     keepTutorial: true,
-    payloads: { "flashcards.json": { never: true } },
+    payloads: { "flashcards/_index.json": { never: true } },
   });
   await j.land("Mount Top"); // first roll, coach read and dismissed — the hand is on the table
 
@@ -250,7 +250,7 @@ test("cold start: the FIRST landing carries its question, and a late payload rea
   const j = journey(page);
   await j.boot("/", {
     keepTutorial: true,
-    payloads: { "flashcards.json": { never: true } }, // really in flight, not stubbed away
+    payloads: { "flashcards/_index.json": { never: true } }, // really in flight, not stubbed away
   });
   await j.land("Mount Top", { keepCoach: true }); // the coach stays up — this is the default
 

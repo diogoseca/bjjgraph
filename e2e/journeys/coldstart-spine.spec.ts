@@ -182,7 +182,7 @@ test("cold start: with the decks 25s out the spine is NOT contiguous — and eve
   // is that a gap is never SILENT: every mark that arrives out of position carries `out_of_order` and
   // names its cause (`skipped` for a step still missing behind it, `late_after` for steps already
   // past), and a landing that could ask nothing emits `question_skipped` with a reason.
-  const j = await coldFirstHand(page, { "flashcards.json": { afterSim: 25 } });
+  const j = await coldFirstHand(page, { "flashcards/_index.json": { afterSim: 25 } });
   await exploreThenCommit(j, page, false); // panel 3 asks for a flashcard that does not exist yet
   await j.advanceUntil("sweep_land", 20000);
 

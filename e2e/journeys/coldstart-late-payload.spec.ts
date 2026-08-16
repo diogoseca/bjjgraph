@@ -16,7 +16,7 @@ import { journey } from "../dsl";
  * against it can only ever confirm the fast path. Two rounds of green tests said nothing about the
  * slow one, which is why every cold-start claim had to be taken on faith.
  *
- * These tests declare the skew (`boot({ payloads: { "flashcards.json": { afterSim: 25 } } })`, see
+ * These tests declare the skew (`boot({ payloads: { "flashcards/_index.json": { afterSim: 25 } } })`, see
  * PayloadRule in ../dsl) and then read the app's own instrumentation across it. No throttling, no
  * wall-clock assertions: sim time is pumped by the spec, so the ordering is exact on any machine.
  *
@@ -87,7 +87,7 @@ test("cold start: the harness can hold a payload back, and the app plays its fir
   // seconds — which is why the assertion at the bottom measures the gap FROM THE HAND, not from boot.
   await j.boot("/", {
     keepTutorial: true,
-    payloads: { "flashcards.json": { afterSim: 25 } },
+    payloads: { "flashcards/_index.json": { afterSim: 25 } },
   });
   expect(
     await page.evaluate(() => !!(window as any).__neural.flashcards),
@@ -144,7 +144,7 @@ test("cold start: the harness can hold a payload back, and the app plays its fir
   ).toBe(1);
 
   // the timeline is the evidence: requested near sim-zero, served ~18 simulated seconds later
-  const tl = j.payloadTimeline().filter((p) => /flashcards\.json/.test(p.url));
+  const tl = j.payloadTimeline().filter((p) => /flashcards\/_index\.json/.test(p.url));
   expect(tl.length, "the deck payload was requested exactly once").toBe(1);
   expect(
     tl[0].requestedAtSim,
@@ -175,7 +175,7 @@ test("cold start: a spine step that arrives too EARLY is stamped out of order", 
   const j = journey(page);
   await j.boot("/", {
     keepTutorial: true,
-    payloads: { "flashcards.json": { never: true } },
+    payloads: { "flashcards/_index.json": { never: true } },
   });
   await firstHand(j, page);
 
@@ -205,7 +205,7 @@ test("cold start: a spine step that arrives too EARLY is stamped out of order", 
   ).not.toContain("question_shown");
 
   // ...and NOW the decks land, so the question is asked for the first time, out of turn
-  j.releasePayload("flashcards.json");
+  j.releasePayload("flashcards/_index.json");
   await page.waitForFunction(
     () => !!(window as any).__neural.flashcards,
     null,
@@ -431,7 +431,7 @@ test("cold start: a payload that never arrives leaves a playable app, not a brok
   const j = journey(page);
   await j.boot("/", {
     keepTutorial: true,
-    payloads: { "flashcards.json": { never: true } },
+    payloads: { "flashcards/_index.json": { never: true } },
   });
   await firstHand(j, page);
   await j.rig("resolve", [0.01]);
@@ -467,7 +467,7 @@ test("cold start: a payload that never arrives leaves a playable app, not a brok
     new Set(skips),
     "and every silent landing is accounted for by name, not by absence",
   ).toEqual(new Set(["decks_in_flight"]));
-  const tl = j.payloadTimeline().filter((p) => /flashcards\.json/.test(p.url));
+  const tl = j.payloadTimeline().filter((p) => /flashcards\/_index\.json/.test(p.url));
   expect(tl[0].releasedAtSim, "the request was still open at the end").toBe(
     null,
   );

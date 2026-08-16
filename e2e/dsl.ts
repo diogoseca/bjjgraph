@@ -81,7 +81,7 @@ type PayloadEvent = {
   releasedAtMs: number | null;
 };
 
-/** "flashcards.json", "**\/decks/*.json", "curriculum" — a glob over the request URL. A bare
+/** "flashcards/_index.json", "**\/decks/*.json", "curriculum" — a glob over the request URL. A bare
  *  filename matches anywhere in the URL, so specs need not spell out the origin. */
 const globToRe = (pattern: string) => {
   const esc = pattern.replace(/[.+^${}()|[\]\\]/g, "\\$&");
@@ -379,7 +379,7 @@ export class Journey {
     // A spec that holds flashcards.json back cannot ALSO be made to wait for it: the app's own boot
     // does not (the fetch is fire-and-forget, app_ready fires right after the graph ingest), and the
     // whole point of the delay is to play the first hand without decks, exactly as a 4G visitor does.
-    const needDecks = !this.delayedNow("flashcards.json");
+    const needDecks = !this.delayedNow("flashcards/_index.json");
     const ready = (want: boolean) => {
       const a = (window as W).__neural;
       return !!(

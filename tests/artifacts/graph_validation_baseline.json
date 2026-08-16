@@ -1,5 +1,5 @@
 {
-  "max_errors": 76,
-  "note": "Ratchet baseline for the ci-validate workflow. CI fails if validate_graph_integrity.py's error-severity count exceeds max_errors. This tolerates the existing backlog but blocks any NEW errors. As the validation-fixer bot (plan §A.3) drains the backlog, lower this number so the gate ratchets down and the debt cannot return.",
-  "captured": "2026-05-31 (v1.28.0): total_issues 651, errors 76, warnings 9, info 566; outcome_errors 70, orphaned_submissions 126, attempt_outliers 440"
+  "max_errors": 0,
+  "note": "Ratchet baseline for ci-validate. CI fails if validate_graph_integrity.py's error-severity count exceeds max_errors. Set to 0 on 2026-08-16 (v1.104.6): the backlog is drained (actual errors = 0) and BOTH deploy workflows already hard-fail on the first error, so 76 of slack meant the PR gate was strictly weaker than the gate it exists to protect \u2014 a PR could land 76 errors and still deploy-fail.",
+  "captured": "2026-08-16 (v1.104.6): errors 0. Previous baseline 76, captured 2026-05-31 (v1.28.0)."
 }

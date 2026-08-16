@@ -131,7 +131,7 @@ test("harness: releasePayload lands ONLY the payload it names", async ({
   await j.boot("/", {
     keepTutorial: true,
     payloads: {
-      "flashcards.json": { never: true },
+      "flashcards/_index.json": { never: true },
       "curriculum.json": { never: true },
     },
   });
@@ -145,7 +145,7 @@ test("harness: releasePayload lands ONLY the payload it names", async ({
     curriculum: false,
   });
 
-  j.releasePayload("flashcards.json");
+  j.releasePayload("flashcards/_index.json");
   await page.waitForFunction(
     () => !!(window as any).__neural.flashcards,
     null,
@@ -161,7 +161,7 @@ test("harness: releasePayload lands ONLY the payload it names", async ({
   ).toBe(false);
 
   const tl = j.payloadTimeline();
-  const deck = tl.find((p) => /flashcards\.json/.test(p.url))!;
+  const deck = tl.find((p) => /flashcards\/_index\.json/.test(p.url))!;
   const cur = tl.find((p) => /curriculum\.json/.test(p.url))!;
   expect(deck.releasedAtMs, "the timeline agrees: decks served").not.toBe(null);
   expect(cur.releasedAtMs, "curriculum never served").toBe(null);
@@ -185,7 +185,7 @@ test("harness: a payload rule belongs to the boot that declared it", async ({
   const j = journey(page);
   await j.boot("/", {
     keepTutorial: true,
-    payloads: { "flashcards.json": { never: true } },
+    payloads: { "flashcards/_index.json": { never: true } },
   });
   expect(
     await page.evaluate(() => !!(window as any).__neural.flashcards),

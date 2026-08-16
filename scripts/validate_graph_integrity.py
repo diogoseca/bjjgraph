@@ -22,6 +22,7 @@ Usage:
 
 import argparse
 import json
+import os
 import sys
 from pathlib import Path
 from collections import defaultdict
@@ -634,10 +635,15 @@ def check_position_type_vs_score():
     the metrics behind it are wrong, and the metrics are what feed the odds a player sees.
     """
     issues = []
+    # NB `import os` was MISSING until v1.104.6, so `os.path.dirname` raised NameError, this bare
+    # except swallowed it, and the check returned an empty list on every run since v1.103.0 — which
+    # is what "0 disagreements across all 272 position-roles" actually meant. A guard that reports
+    # clean because it never executed is worse than no guard, so the failure is now named.
     try:
         sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
         import score_graph_nodes as sgn
-    except Exception:
+    except Exception as e:
+        print("  [position_type] SKIPPED — could not load score_graph_nodes: %r" % (e,))
         return issues
 
     for path in sorted(POSITIONS_PATH.rglob("*.json")):

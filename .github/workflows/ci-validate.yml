@@ -17,6 +17,11 @@ on:
       - "graph.json"
       - "tests/artifacts/graph_validation_baseline.json"
       - "node_ordinals.json"
+      # the ordinal gate's INPUT is the layout: a node added there without a mint is exactly what
+      # validate:ordinals exists to catch, and the filter used to let that PR through untested.
+      - "source/quartz/static/globalGraphLayout.json"
+      # test:units pins the neural sources, not just the codec file
+      - "neural/src/**"
       - "neural/src/lists-codec.src.js"
       - "tests/*.test.mjs"
       - ".github/workflows/ci-validate.yml"

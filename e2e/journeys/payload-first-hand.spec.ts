@@ -41,6 +41,9 @@ const budget = JSON.parse(readFileSync(BUDGET, "utf8"))
 
 // Payloads that must NEVER be on the boot path again. The ceilings alone are not enough of a
 // guard: they are numbers and numbers drift, whereas "the 16MB monolith is back" is a fact.
+// NB `flashcards.json` has not existed since v1.80.4 — the ban is on the MONOLITH ever
+// coming back under any name, so it lists the retired filename AND the shape that would
+// replace it. A pattern that can never match is not a gate.
 const BANNED_ON_BOOT = [/\/flashcards\.json(\?|$)/, /\/technique-content\.js(\?|$)/]
 
 test("@curated a first-time visitor reaches a playable hand inside the payload budget", async ({

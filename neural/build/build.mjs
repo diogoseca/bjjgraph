@@ -88,25 +88,26 @@ const listsStore = stripExports("lists.src.js");
 }
 
 let app = readFileSync(R("src/app.src.jsx"), "utf8");
-const patched = app
-  .replaceAll(
-    'fetch("graph-data.json"',
-    'fetch((window.__NEURAL_DATA_BASE||"")+"graph-data.json"',
-  )
-  .replaceAll(
-    'fetch("flashcards.json"',
-    'fetch((window.__NEURAL_DATA_BASE||"")+"flashcards.json"',
-  )
-  .replaceAll(
-    'fetch("curriculum.json"',
-    'fetch((window.__NEURAL_DATA_BASE||"")+"curriculum.json"',
-  )
-  .replaceAll(
-    'fetch("systems.json"',
-    'fetch((window.__NEURAL_DATA_BASE||"")+"systems.json"',
-  );
-if (patched === app)
-  console.warn("[build] WARNING: no fetch() patched — check app source");
+// PER-RULE, AND IT THROWS (v1.104.6). Two of the four rewrites were DEAD — the app has fetched
+// `flashcards/_index.json` (via `_dataBase()`) since v1.80.4 and `systems.json` the same way, so
+// `fetch("flashcards.json"` and `fetch("systems.json"` matched nothing. The old guard only warned
+// when EVERY rule missed, so a rule going stale was invisible: it took a 15-test cold-start
+// failure and an audit to find. A rewrite that cannot fire is a lie about what the bundle does.
+const FETCH_REWRITES = [
+  ['fetch("graph-data.json"', 'fetch((window.__NEURAL_DATA_BASE||"")+"graph-data.json"'],
+  ['fetch("curriculum.json"', 'fetch((window.__NEURAL_DATA_BASE||"")+"curriculum.json"'],
+];
+for (const [from] of FETCH_REWRITES) {
+  if (!app.includes(from))
+    throw new Error(
+      `[build] fetch rewrite is DEAD: ${from} appears nowhere in app.src.jsx. Either the call was ` +
+        "renamed (update this list) or it now builds its own URL through _dataBase() (drop the rule). " +
+        "A rule that never fires silently stops prefixing __NEURAL_DATA_BASE, which is how the e2e " +
+        "harness serves its fixtures.",
+    );
+}
+let patched = app;
+for (const [from, to] of FETCH_REWRITES) patched = patched.replaceAll(from, to);
 app = patched;
 
 // 2) template skeleton (strip the <helmet> — its <style>/fonts go to neural.css)
