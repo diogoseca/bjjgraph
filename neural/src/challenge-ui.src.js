@@ -459,7 +459,17 @@ const NG_CHALLENGE_UI_METHODS = {
         " of " +
         live.length +
         " lessons</small></span><em>" +
-        (checkpointDone ? "Checkpoint cleared" : "Open group") +
+        // NOT "Open group" (v1.104.9, owner: "it then says 'Open group', which makes no sense
+        // because the group is already open"). `details.open = true` two lines up, unconditionally
+        // and forever — this <em> was never a toggle, it is a STATUS field that was wearing an
+        // imperative. It now reports what it actually knows: the checkpoint, or how far in you are.
+        (checkpointDone
+          ? "Checkpoint cleared"
+          : done === 0
+            ? "Not started"
+            : done >= live.length
+              ? "All lessons done"
+              : done + "/" + live.length + " done") +
         "</em></summary><div class=\"ng-challenge-lessons\"></div>";
       const lessons = details.querySelector(".ng-challenge-lessons");
       for (const lesson of live) {
