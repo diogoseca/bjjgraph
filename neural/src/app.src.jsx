@@ -2392,7 +2392,7 @@ class Component extends DCLogic {
     this.setPaused(true);           // freeze time while the player reads/confirms
     this.fx("sheet_opened", { technique: (opt && opt.node && opt.node.t) || null });
     if (this._landEl) { this._landEl.style.opacity = "0"; this._landEl.style.pointerEvents = "none"; } // the sheet owns the screen while it is up
-    const col = this.hex(n.col), cat = this.deckCat(n);
+    const col = this.hex(this.myColor(n)), cat = this.deckCat(n); // role-correct, see buildOptionCard
     const pct = Math.round(this.moveChance(n) * 100);
     const oddsCol = pct >= 60 ? "#7ee0a8" : pct >= 38 ? "#cbd24e" : "#e8956b";
     const resName = opt.res >= 0 ? this.splitName(this.nodes[opt.res].t).main : "\u2014";
@@ -7164,7 +7164,21 @@ class Component extends DCLogic {
     const card = document.createElement("div");
     card.setAttribute("data-tech", n.t); // journey tests click option cards by technique title
     card.style.cssText = "pointer-events:auto;cursor:pointer;position:relative;overflow:hidden;flex:0 0 150px;width:150px;background:rgba(28,32,52,.78);backdrop-filter:blur(6px);border:1px solid rgba(150,170,210,.18);border-radius:11px;padding:11px 12px 13px;opacity:1;transform:translateY(10px);transition:transform .34s cubic-bezier(.2,.7,.2,1),border-color .15s,background .15s;";
-    const col = this.hex(n.col);
+    // DERIVED, NOT COINCIDENTAL (v1.104.3). `n.col` is `domColor(n.s[0])` frozen at INGEST, and
+    // `s[0]` is ATTACKER for a technique — a role-BLIND read of a role-typed pair. On THIS
+    // surface it happens to be right, and the audit says so: 0 of 1203 cards across all 136
+    // positions x both roles differ from the role-correct value, because `optionsFor` only ever
+    // deals moves YOU perform (the fromRole filter, v1.103.0), so you are always the attacker of
+    // your own hand. `myColor` states that instead of relying on it.
+    //
+    // NB the owner's question this came from — "+13 in blue but the icon seems gray reddish" —
+    // is NOT a colour bug. The two marks measure different things: the GLYPH is the technique's
+    // own strength (is this a strong move?) and the +13 is `movePotential`, the value of where it
+    // LANDS you. `Open Guard to Double Unders` scores -0.113 for its attacker yet arrives
+    // somewhere good, which is a real and common shape: a mediocre technique into a strong
+    // position. They share one palette and say so nowhere — that is a LABELLING gap, not a maths
+    // one, and it is the owner's call whether to close it.
+    const col = this.hex(this.myColor(n));
     const resName = opt.res >= 0 ? this.nodes[opt.res].t : "\u2014";
     const pct = Math.round((isEsc ? this.escapeChance(opt) : this.moveChance(n)) * 100);
     const oddsCol = pct >= 60 ? "#7ee0a8" : pct >= 38 ? "#cbd24e" : "#e8956b";
