@@ -21,7 +21,7 @@ import { freshVisitor, CURRICULUM } from "./personas";
  *   - each life tagged __probeId=n; remount awaited via __probeId !== n + nodes ingested
  *     (+ flashcards.decks + curriculum before the drilling leg)
  *   - beats array FULLY EMPTY right after remount (test mode freezes the loop — safe pre-pump)
- *   - coach_1/coach_done fire ONLY on life 1: dismissal persists in storage across soft
+ *   - (v1.104.0: the coach is deleted; the life-1 marker is the dealt hand) across soft
  *     navs (dismissCoach() guards on _coach), so life 3's post-land stream is exactly
  *     stakes,land,options_dealt,beacon_moved with exactly one land beat
  *   - v1.70: life 3 gets an IN-MEMORY settings assignment before its land (freshVisitor
@@ -101,8 +101,7 @@ test("spa nav single-instance law: two soft navs → one root, fresh instance ea
   // ── LIFE 1: a real, played life — the fresh visitor lands, the first-roll coach fires ──
   await j.land("Mount Top");
   await j.expectBeat("land");
-  await j.expectBeat("coach_1"); // fresh-visitor onboarding: the life-1-ONLY beats
-  await j.expectBeat("coach_done");
+  await j.expectBeat("options_dealt"); // v1.104.0: the coach is deleted; the dealt hand marks a real played life
   expect(await rootCount(), "exactly one #neural-root on life 1").toBe(1);
   expect(
     (await j.beats()).length,
@@ -246,8 +245,17 @@ test("spa nav single-instance law: two soft navs → one root, fresh instance ea
   await j.rig("mc-shuffle", [0.21, 0.62, 0.34, 0.88, 0.14, 0.52, 0.76, 0.28]);
   await page.evaluate(() => (window as any).__neural.set("mcMode", "mc"));
   await page.evaluate(() => (window as any).__neural.toggleExplorer());
-  await page.locator(`[data-lesson="${LESSON1.deckKey}"]`).first().click(); // auto-presents a first card (own mc_shown)
+  await page.evaluate((dk) => {
+    const a = (window as any).__neural;
+    const e = a._lessonIndex[dk];
+    a.openLessonStudy({ deckKey: dk, nodeId: e.nodeId }, { name: e.unit, lessons: [{ deckKey: dk, nodeId: e.nodeId }] }, { id: e.belt }); // v1.105.3: the row reads inline; study opens via the seam
+  }, LESSON1.deckKey); // auto-presents a first card (own mc_shown)
   await j.advance(800);
+  // settle the deck fetch BEFORE the baseline: hydration re-renders the drill and emits its own
+  // mc_shown — a baseline taken mid-flight under-counts and the delta reads +2 instead of +1.
+  await j.decksSettled();
+  await page.waitForFunction(() => (((window as any).__neural || {}).deck || []).length > 0, null, { timeout: 20000 });
+  await j.advance(300);
 
   const shown0 = await beatCount("mc_shown");
   const qh = await page.evaluate(() => {

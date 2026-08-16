@@ -90,9 +90,15 @@ test("returner blanks on three recalls of a proven deck: stages drop, masteredCo
   // studyFromSession :1957). toggleExplorer is the DSL-sanctioned internal for a canvas-adjacent
   // overlay; the lesson ROW click is the real user surface. advance(800) settles the prezi flight. ──
   await page.evaluate(() => (window as any).__neural.toggleExplorer())
-  const row = page.locator(`[data-lesson="${KEY}"]`)
-  await expect(row, "the first lesson's explorer row is visible").toBeVisible()
-  await row.click()
+  // v1.105.3: entry routes through openLessonStudy (the row reads inline now); the row-visibility
+  // gate belonged to the click path and the pane opens on Explore, where lesson rows do not live.
+  await page.evaluate((dk) => {
+    const a = (window as any).__neural;
+    const e = a._lessonIndex[dk];
+    a.openLessonStudy({ deckKey: dk, nodeId: e.nodeId }, { name: e.unit, lessons: [{ deckKey: dk, nodeId: e.nodeId }] }, { id: e.belt }); // v1.105.3: the row reads inline; study opens via the seam
+  }, KEY)
+  await j.decksSettled()
+  await page.waitForFunction(() => (((window as any).__neural || {}).deck || []).length > 0, null, { timeout: 20000 })
   await j.advance(800)
 
   const entry = await page.evaluate(() => {

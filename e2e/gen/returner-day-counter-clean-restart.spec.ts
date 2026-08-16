@@ -77,7 +77,13 @@ test("lapsed returner: daily counter restarts clean — 0 at boot, study grade �
 
   // ── first graded card of the comeback, through the classic recall study surface ──
   await page.evaluate(() => (window as any).__neural.toggleExplorer());
-  await page.locator(`[data-lesson="${LESSON1.deckKey}"]`).first().click();
+  await page.evaluate((dk) => {
+    const a = (window as any).__neural;
+    const e = a._lessonIndex[dk];
+    a.openLessonStudy({ deckKey: dk, nodeId: e.nodeId }, { name: e.unit, lessons: [{ deckKey: dk, nodeId: e.nodeId }] }, { id: e.belt }); // v1.105.3: the row reads inline; study opens via the seam
+  }, LESSON1.deckKey)
+  await j.decksSettled()
+  await page.waitForFunction(() => (((window as any).__neural || {}).deck || []).length > 0, null, { timeout: 20000 })
   await j.advance(1000);
   expect(
     await page.evaluate(() => !!(window as any).__neural.deckOpen),

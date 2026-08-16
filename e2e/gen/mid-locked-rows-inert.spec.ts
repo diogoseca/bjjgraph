@@ -1,4 +1,4 @@
-/* @hyperspace {"theme":"unlock-economy","L":"curriculum-mid","F":"belt-path","B":"guard-limit"} @invariant "Evidence gates are enforced on ACTIONS, not styling: an unsatisfied unit's checkpoint button is disabled and a direct startCheckpoint call is economically inert (no checkpoint_start, no quiz, zero new beats), the unready capstone button is disabled and a direct startBeltTest call arms nothing (no belt_test_start, no _beltTest) — while lesson buttons are deliberately ungated and always open study." */
+/* @hyperspace {"theme":"unlock-economy","L":"curriculum-mid","F":"belt-path","B":"guard-limit"} @invariant "Evidence gates are enforced on ACTIONS, not styling: an unsatisfied unit's checkpoint button is disabled and a direct startCheckpoint call is economically inert (no checkpoint_start, no quiz, zero new beats), the unready capstone button is disabled and a direct startBeltTest call arms nothing (no belt_test_start, no _beltTest) — while lesson buttons are deliberately ungated and always open their INLINE study (v1.105.2: read-in-place + pane-aware locate — never a pane takeover)." */
 import { test, expect } from "@playwright/test"
 import { journey } from "../dsl"
 import { curriculumMid, CURRICULUM } from "./personas"
@@ -165,25 +165,29 @@ test("mid-curriculum: shut checkpoint/capstone gates are inert to clicks AND dir
   expect(beats.filter((b) => b.beat === "belt_test_start"), "no belt_test_start ever").toHaveLength(0)
 
   // ── delivery control A (red-proof in green): the done U0 lesson's SAME click machinery
-  //    flips the economy — the inert legs above weren't vacuous ──
+  //    is ALIVE — the inert legs above weren't vacuous. v1.105.2: the row's verb is INLINE
+  //    read + pane-aware locate now (no takeover), so "alive" means the mini-deck opened. ──
   await page.locator(`[data-lesson="${CONTROL_LESSON}"]`).first().click()
-  const postA = await snap()
-  expect(postA.deck, "control A: done lesson opened its deck (study takeover)").toBe(true)
-  expect(postA.posKey, "control A: study jumped to the clicked deck").toBe(CONTROL_LESSON)
-  expect(postA.session, "control A: study session armed").toBe(true)
+  await j.advance(400)
+  expect(
+    await page.evaluate((dk) => !!document.querySelector(`[data-mini-deck="${dk}"], [data-mini-deck-state]`), CONTROL_LESSON),
+    "control A: done lesson opened its inline Q&A",
+  ).toBe(true)
+  expect(
+    await page.evaluate(() => (window as any).__neural._paneStudyActive()),
+    "control A: and never took the pane over",
+  ).toBe(false)
 
   // ── delivery control B (the open-model inversion): an UNTOUCHED U2 lesson opens too —
   //    its unit's checkpoint is shut, yet the lesson is deliberately ungated ──
-  // v1.76.0: control A took the pane over — return to the Challenges tab (the ‹ Back path)
-  await page.evaluate(() => (window as any).__neural.openPane("challenges"))
-  await expect(page.locator("[data-view]").first()).toBeVisible()
   await page
     .locator(`.ng-challenge-group:has([data-lesson="${OPEN_LESSON}"])`)
     .first()
     .evaluate((el) => ((el as HTMLDetailsElement).open = true)) // U2's group is collapsed by default
   await page.locator(`[data-lesson="${OPEN_LESSON}"]`).first().click()
-  const postB = await snap()
-  expect(postB.deck, "control B: untouched lesson opened its deck (study takeover)").toBe(true)
-  expect(postB.posKey, "control B: study jumped to the untouched deck").toBe(OPEN_LESSON)
-  expect(postB.session, "control B: study session armed").toBe(true)
+  await j.advance(400)
+  expect(
+    await page.evaluate((dk) => !!document.querySelector(`[data-mini-deck="${dk}"], [data-mini-deck-state]`), OPEN_LESSON),
+    "control B: untouched lesson opened its inline Q&A too",
+  ).toBe(true)
 })

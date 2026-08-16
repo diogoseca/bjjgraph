@@ -89,7 +89,13 @@ test("grandfathered v1 rec boots blue.recall-five at 0/5; five live card-proofs 
   await page.evaluate(() => (window as any).__neural.toggleExplorer())
   const row = page.locator(`[data-lesson="${L0}"]`).first()
   await expect(row, "the first white lesson row renders in the challenges view").toBeVisible()
-  await row.click() // openLessonStudy → prezi flight + drill open
+  await page.evaluate((dk) => {
+    const a = (window as any).__neural;
+    const e = a._lessonIndex[dk];
+    a.openLessonStudy({ deckKey: dk, nodeId: e.nodeId }, { name: e.unit, lessons: [{ deckKey: dk, nodeId: e.nodeId }] }, { id: e.belt }); // v1.105.3: the row reads inline; study opens via the seam
+  }, L0)
+  await j.decksSettled()
+  await page.waitForFunction(() => (((window as any).__neural || {}).deck || []).length > 0, null, { timeout: 20000 })
   await j.advance(800)
   const drill = await page.evaluate(() => {
     const a = (window as any).__neural

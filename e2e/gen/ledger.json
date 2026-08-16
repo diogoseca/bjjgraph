@@ -240,7 +240,7 @@
       "L": "fresh-visitor",
       "F": "challenges",
       "B": "happy-path",
-      "invariant": "Clicking a Challenge lesson moves camTarget to within 60px of the lesson node's x/y, sets deckOpen true, and the study session's key list contains that lesson's deckKey.",
+      "invariant": "Clicking a Challenge lesson opens its INLINE Q&A in place (data-mini-deck) and flies a pane-aware locateNode to the lesson's node \u2014 the pane stays open and is never taken over (v1.105.2; the old takeover contract \u2014 camTarget within 60 units + deckOpen + session \u2014 is retired).",
       "origin": "core",
       "status": "accepted"
     },
@@ -1946,7 +1946,7 @@
       "L": "curriculum-mid",
       "F": "belt-path",
       "B": "guard-limit",
-      "invariant": "Evidence gates are enforced on ACTIONS, not styling: an unsatisfied unit's checkpoint button is disabled and a direct startCheckpoint call is economically inert (no checkpoint_start, no quiz, zero new beats), the unready capstone button is disabled and a direct startBeltTest call arms nothing (no belt_test_start, no _beltTest) \u2014 while lesson buttons are deliberately ungated and always open study.",
+      "invariant": "Evidence gates are enforced on ACTIONS, not styling: an unsatisfied unit's checkpoint button is disabled and a direct startCheckpoint call is economically inert (no checkpoint_start, no quiz, zero new beats), the unready capstone button is disabled and a direct startBeltTest call arms nothing (no belt_test_start, no _beltTest) \u2014 while lesson buttons are deliberately ungated and always open their inline study (v1.105.2: read-in-place, no takeover).",
       "origin": "auto",
       "status": "accepted",
       "wave": 4,
