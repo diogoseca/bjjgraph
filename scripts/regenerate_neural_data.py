@@ -7,11 +7,13 @@ Outputs (into source/quartz/static/neural/, mirroring how globalGraphLayout.json
 generated+committed static asset):
   - graph-data.json : {nodes, links} — a reshape of source/quartz/static/globalGraphLayout
     .json (the visual projection) into the Neural app's node shape
-    {id,x,y,t,ty,s,fromPosition,fromPositionId,fromRole,posId}. Each node is additionally
-    enriched (coherence-ready) with the calibrated numbers from graph.json:
-    successRate/successRateByRuleset/outcomes for technique nodes, attemptProbability
-    distribution for position nodes. (The current prototype reads only `s`; the enriched
-    fields are what Phase 1 wires the gameplay onto — see project_neural_graph_migration.)
+    {id,x,y,t,ty,s,fromPositionId,fromRole,posId?,o,cal?} with null keys omitted. Each node
+    is additionally enriched with the calibrated numbers from graph.json: for technique
+    nodes successRate + successRateByRuleset (differing frames only) + outcomes as
+    [to, probability, s|f|c] tuples + avail; for position nodes `ew` (precomputed
+    [nodeIdx, weight*10000] edge-lighting pairs, replacing the raw per-move tables) + avail.
+    Links are [sourceIdx, targetIdx] pairs. This is the largest BOOT payload; the wire is
+    compact and app.src.jsx ingest() expands it back into the legacy shapes (v1.107.0).
   - flashcards/<slug>.json : one file PER DECK ({cat,role,cards:[{q,a}]}) — the full
     calibrated decks from graph.json, chunked so the app fetches only the deck it opens
     (the monolith was 13.5 MB; each deck is a few KB).
@@ -113,11 +115,26 @@ def build_graph_data(layout: dict, graph: dict, ordinals: dict) -> dict:
                 return nn
         return None
 
+    # ── WIRE COMPACTION (v1.107.0) ──────────────────────────────────────────────────────────
+    # graph-data.json is the largest BOOT payload (was 1.55MB raw / 144KB gzip), and 46% of it
+    # was `cal`. The wire is now compact and `ingest()` (app.src.jsx) EXPANDS it back into the
+    # exact legacy shapes, so every downstream reader (drawOutcome, resolve, calSuccess,
+    # giAllows, _edgeW) is untouched and no RNG draw can move. What changed on the wire:
+    #   · technique `outcomes` -> [to, probability, resultCode] tuples (s/f/c),
+    #   · `successRateByRuleset` -> only frames that DIFFER from the scalar `successRate`
+    #     (calSuccess already falls back per-frame, so semantics are identical),
+    #   · `endingPosition` -> DROPPED (zero consumers anywhere — app, scripts, e2e),
+    #   · position `moves` -> `ew`, the precomputed [nodeIdx, weight*10000] edge-weight list
+    #     (see below): the app only ever read moves to derive these exact products.
+    _RESULT_CODE = {"success": "s", "failure": "f", "counter": "c"}
+
     def enrich(node_id: str, ty: str) -> dict:
         """Pull calibrated fields for a layout node from graph.json (best-effort join)."""
         slug = _slug_from_id(node_id)
         if ty == "positions":
-            # a hub layout node collapses top+bottom; carry both role distributions
+            # a hub layout node collapses top+bottom; both role distributions feed `ew`+avail.
+            # The raw per-move table is NOT emitted (it was 336KB and its only app consumer
+            # was the ingest edge-weight pass) — `_moves_stash` carries it to the ew pass.
             out = {}
             avail = {"gi": False, "nogi": False}
             for role in ("top", "bottom"):
@@ -127,7 +144,6 @@ def build_graph_data(layout: dict, graph: dict, ordinals: dict) -> dict:
                         {
                             "technique": t.get("technique"),
                             "attemptProbability": t.get("attemptProbability"),
-                            "attemptProbabilityByRuleset": t.get("attemptProbabilityByRuleset"),
                             "successRate": t.get("successRate"),
                         }
                         for t in n["transitions"]
@@ -138,15 +154,24 @@ def build_graph_data(layout: dict, graph: dict, ordinals: dict) -> dict:
                                 avail[fr] = True
             if not out:
                 return {}
-            return {"moves": out, "avail": avail}
+            return {"_moves_stash": out, "avail": avail}
         else:  # technique: attacker role-node carries the authored outcomes/success
             n = graph[ty].get(f"{slug}/attacker") or graph[ty].get(slug)
             if not n:
                 return {}
             e = {}
-            for k in ("successRate", "successRateByRuleset", "outcomes", "endingPosition"):
-                if n.get(k) is not None:
-                    e[k] = n[k]
+            if n.get("successRate") is not None:
+                e["successRate"] = n["successRate"]
+            br = n.get("successRateByRuleset")
+            if isinstance(br, dict):
+                trimmed = {fr: v for fr, v in br.items() if v is not None and v != n.get("successRate")}
+                if trimmed:
+                    e["successRateByRuleset"] = trimmed
+            if n.get("outcomes") is not None:
+                e["outcomes"] = [
+                    [o.get("to"), o.get("probability"), _RESULT_CODE.get(o.get("result"), o.get("result"))]
+                    for o in n["outcomes"]
+                ]
             av = tech_avail.get(slug)
             if av:
                 e["avail"] = av
@@ -164,7 +189,6 @@ def build_graph_data(layout: dict, graph: dict, ordinals: dict) -> dict:
         # The app already indexes nested positions by their bare leaf (app.src.jsx:544-548); this
         # makes the emitted value agree with it. Leaf ONLY for positions — a technique id like
         # `Submissions/Kimura/from-Mount` has a leaf ("from-mount") that is not a slug at all.
-        pos_id = n.get("fromPositionId") if ty != "positions" else _slug_from_id(n["id"]).rsplit("/", 1)[-1]
         node = {
             "id": n["id"],
             "x": n.get("x"),
@@ -172,15 +196,21 @@ def build_graph_data(layout: dict, graph: dict, ordinals: dict) -> dict:
             "t": n.get("t"),
             "ty": ty,
             "s": n.get("s"),
-            "fromPosition": n.get("fromPosition"),
             "fromPositionId": n.get("fromPositionId"),
             "fromRole": n.get("fromRole"),
-            "posId": pos_id,
+            # `posId` is emitted for POSITIONS only (their leaf slug). A technique's posId is
+            # fromPositionId by construction, so `ingest()` reconstructs it there instead of
+            # the wire carrying the same string twice per node (~30KB).
+            "posId": _slug_from_id(n["id"]).rsplit("/", 1)[-1] if ty == "positions" else None,
             # `o` = this node's PERMANENT share-link ordinal (node_ordinals.json). The wire
             # format for a shared list encodes ordinals, never this array's index — the
             # array is filesystem-ordered and one new content file renumbers it.
             "o": ordinals[n["id"]],
         }
+        # null-valued keys are OMITTED: ingest() reads every one of them with `|| null`, and
+        # `"fromPositionId":null` on 136 position hubs is pure wire weight. (`fromPosition`
+        # is gone entirely — ingest never copied it and no graph-data consumer reads it.)
+        node = {k: v for k, v in node.items() if v is not None}
         cal = enrich(n["id"], ty)
         if cal:
             node["cal"] = cal  # calibrated payload (Phase 1 gameplay reads this)
@@ -191,7 +221,47 @@ def build_graph_data(layout: dict, graph: dict, ordinals: dict) -> dict:
                 node["familyHub"] = rn["familyHub"]
         nodes.append(node)
 
-    links = [{"source": l["source"], "target": l["target"]} for l in layout.get("links", [])]
+    # ── position `ew` = the precomputed edge-weight list (replaces `cal.moves` on the wire).
+    # This is EXACTLY the arithmetic ingest()'s edge-weight pass used to run over cal.moves:
+    #   byName  : technique title -> FIRST non-position node (array order), same as the app's
+    #   weight  : attemptProbability/100 x successRate/100, MAX across roles/duplicate titles
+    # emitted as [nodeIdx, round(w*10000)] pairs (the consumer divides by 10000; the value
+    # only scales edge lighting alpha/width, where 1e-4 is far below one alpha step).
+    by_name = {}
+    for i, nd in enumerate(nodes):
+        if nd["ty"] != "positions" and nd["t"] not in by_name:
+            by_name[nd["t"]] = i
+    for nd in nodes:
+        cal = nd.get("cal")
+        if not cal or "_moves_stash" not in cal:
+            continue
+        moves = cal.pop("_moves_stash")
+        best = {}
+        for role in ("top", "bottom"):
+            for m in moves.get(role) or []:
+                ti = by_name.get(m.get("technique"))
+                if ti is None:
+                    continue
+                w = max(0.0, (m.get("attemptProbability") or 0) / 100.0) * max(0.0, (m.get("successRate") or 0) / 100.0)
+                if w > best.get(ti, 0.0):
+                    best[ti] = w
+        ew = [[ti, round(w * 10000)] for ti, w in sorted(best.items()) if round(w * 10000) > 0]
+        if ew:
+            cal["ew"] = ew
+        if not cal.get("ew") and not cal.get("avail"):
+            nd.pop("cal", None)
+
+    # links ride as [sourceIdx, targetIdx] pairs into THIS file's nodes array (self-consistent:
+    # both halves are regenerated together; array indices never leave the file — share links
+    # use the permanent ordinals, never these). Unresolvable ids and self-loops are dropped
+    # here exactly as ingest() dropped them client-side.
+    id_idx = {nd["id"]: i for i, nd in enumerate(nodes)}
+    links = []
+    for l in layout.get("links", []):
+        a, b = id_idx.get(l["source"]), id_idx.get(l["target"])
+        if a is None or b is None or a == b:
+            continue
+        links.append([a, b])
     return {"nodes": nodes, "links": links}
 
 

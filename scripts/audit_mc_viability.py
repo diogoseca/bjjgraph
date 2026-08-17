@@ -149,7 +149,12 @@ def build_neighbors(gd: dict, decks: dict) -> dict:
     id2idx = {n["id"]: i for i, n in enumerate(gd["nodes"])}
     adj = defaultdict(set)
     for l in gd["links"]:
-        a, b = id2idx.get(l["source"]), id2idx.get(l["target"])
+        # wire v2 (v1.107.0): links are [sourceIdx, targetIdx] pairs; the legacy object
+        # spelling still parses so an old fixture keeps working.
+        if isinstance(l, list):
+            a, b = l[0], l[1]
+        else:
+            a, b = id2idx.get(l["source"]), id2idx.get(l["target"])
         if a is None or b is None:
             continue
         adj[a].add(b)

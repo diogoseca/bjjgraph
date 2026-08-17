@@ -726,13 +726,15 @@ ring, a per-member mark-known checklist, and a "Mark whole system as known" butt
 
 Field data (Cloudflare Observatory) put real-user LCP P75 at 13,764ms with 80% Poor while CLS was
 0.017 / 100% Good — a delivery problem, not a rendering one. A first visit pulled **39.3MB raw /
-10.1MB gzip** of Neural data before a single move was possible. It is now **2.4MB / 355KB**.
+10.1MB gzip** of Neural data before a single move was possible. v1.80.4 made it **2.4MB / 355KB**;
+the graph-data wire compaction (v1.107.0, below) makes it **~1.3MB / 271KB** (browser-measured
+bytes-to-first-hand: 1.57MB raw / 349KB gzip, `payload-first-hand`).
 
 **What the app fetches, and when:**
 
 | payload | when | notes |
 |---|---|---|
-| `graph-data.json` (1.5MB) | boot | the graph IS the game; the biggest remaining item and the next lever |
+| `graph-data.json` (547KB raw / 91KB gz) | boot | the graph IS the game. **COMPACT WIRE since v1.107.0** (was 1.55MB/144KB) — see the wire note below |
 | `app/neural.js` + `.css` | boot | the bundle |
 | `flashcards/_index.json` (155KB) | boot | the deck MANIFEST: `{deckKey: [cat, n]}` |
 | `curriculum.json` (100KB) | boot | `curriculum.weights` is what `gameScore` sums — deferring it would show a zero belt |
@@ -740,6 +742,31 @@ Field data (Cloudflare Observatory) put real-user LCP P75 at 13,764ms with 80% P
 | `content/<hash>.json` (~13KB) | on demand | one node's dossier (`window.NG_CONTENT` is the cache) |
 | `systems.json` (324KB) | first read | Explore tab + system buckets only. **No idle warm** — an idle callback fires before a hand exists, which put it straight back on the boot bill |
 
+- **THE GRAPH-DATA WIRE IS COMPACT, AND `ingest()` EXPANDS IT (v1.107.0).** Measured per-field,
+  `cal` was 45.8% of the old file (708KB) and `links`-as-id-objects another 30% (469KB) — but the
+  roll-critical part of `cal` is small, so nothing gameplay-facing is deferred; the bytes
+  themselves shrank (1,545,389 → 546,836 raw · 143,992 → 90,679 gzip -9). What changed on the wire,
+  all expanded back to the legacy shapes at the top of `ingest()` so drawOutcome / resolve /
+  calSuccess / giAllows / the edge-weight pass are untouched:
+  · position `cal.moves` (336KB, the single biggest item) → **`cal.ew`**, precomputed
+    `[nodeIdx, w*10000]` edge-lighting pairs. Its ONLY app consumer was ingest's `_edgeW`
+    arithmetic (`attemptProbability × successRate`, max across roles, byName join) — the emitter
+    now runs that exact join at build time; nothing else ever read the per-move tables.
+  · technique `outcomes` → `[to, probability, s|f|c]` tuples; `successRateByRuleset` → only frames
+    that differ from the scalar `successRate` (`calSuccess` already falls back per-frame);
+    `endingPosition` → **dropped** (zero consumers anywhere — app, scripts, e2e).
+  · `links` → `[sourceIdx, targetIdx]` pairs into the SAME file's nodes array (self-consistent,
+    regenerated together; indices never leave the file — share links still ride the permanent `o`
+    ordinals, which are unchanged and still on every node).
+  · null keys omitted; a technique's `posId` is reconstructed as `posId || fromPositionId` (they
+    were equal by construction); `fromPosition` is gone (ingest never copied it).
+  Equivalence was PROVEN, not assumed: `tests/artifacts/_verify_wire_equiv.py` rebuilds the old
+  emitter from git and asserts every app-visible read identical (1467 nodes, 5371 link pairs,
+  3255 outcome tuples exact, 2490 ew edges within the 1e-4 quantum — which only scales edge
+  lighting), and `replay-digest` produces the byte-identical beat digest on BOTH wires. Build-side
+  readers of the old shapes were repointed: `draft_curriculum.py` takes move tables from
+  `graph.json`, `audit_mc_viability.py` reads pair links (legacy object links still parse
+  everywhere, so old spec fixtures keep working).
 - **Chunks are addressed by `fnv1a32(key)`** — the app's own `qhash()`, ported byte-identically in
   `scripts/_neural_content.fnv1a32`. No filenames in the manifest (~110KB of redundancy: the key
   already names the deck) and no collision bookkeeping: a chunk holds a `{key: value}` **map**, so

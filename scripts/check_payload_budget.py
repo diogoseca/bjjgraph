@@ -78,9 +78,12 @@ DEFERRED = ("systems.json",)
 # Hand-set TARGETS, not seeded observations (see the module docstring). "Eager" is the raw
 # and gzip weight of the boot set; a chunk ceiling keeps the on-demand path honest (a 5MB
 # "chunk" is a monolith with a new name).
+# Ratcheted DOWN in v1.107.1 after the graph-data wire compaction (v1.107.0) landed the eager
+# set at 1,302,636 raw / 271,124 gzip: the new ceilings hold ~20% headroom for content growth
+# while making a return of the fat wire (or any new eager payload of that class) a hard red.
 NEURAL_TARGET = {
-    "eager_raw_bytes": 2_500_000,
-    "eager_gzip_bytes": 400_000,
+    "eager_raw_bytes": 1_600_000,
+    "eager_gzip_bytes": 330_000,
     "chunk_max_bytes": 40_000,
     "deferred_raw_bytes": 500_000,
 }
