@@ -123,6 +123,11 @@ test("cold start: the harness can hold a payload back, and the app plays its fir
   ).toBe("decks_in_flight");
 
   // ── the payload lands, for real, through the app's own fetch().then() ──
+  // THE FIRST LANDING MUST STILL BE LIVE when it does — the claim below is "the card the visitor
+  // is STILL looking at". The 25s release sits past the decision window, so unpaused, auto-pick
+  // plays on and roughly 1 run in 15 the roll ENDS before the release, leaving no landing to
+  // backfill. Pausing is the visitor waiting, deterministically.
+  await page.evaluate(() => (window as any).__neural.setPaused(true));
   // Pumped in SMALL steps on purpose: the delay layer polls the sim clock between advance() calls, so
   // one giant advance() would have the harness notice the release 27 seconds late and any measurement
   // of WHEN it landed would be an artefact of the pump size rather than the declared rule.
