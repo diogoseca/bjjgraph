@@ -180,7 +180,7 @@ The position's reputation is divided: traditionalists view it as a stalling posi
 
 | &nbsp; | Bottom | Top |
 |--------|--------|-----|
-| **Position Type** | Defensive | Offensive |
+| **Position Type** | Neutral | Neutral |
 | **Risk Level** | High | Medium to High |
 | **Energy Cost** | High | Medium |
 | **Time** | Short to Medium | Medium |

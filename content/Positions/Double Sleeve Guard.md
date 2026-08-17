@@ -180,7 +180,7 @@ Double Sleeve Guard is characterized by its emphasis on grip fighting dominance 
 
 | &nbsp; | Bottom | Top |
 |--------|--------|-----|
-| **Position Type** | Defensive with offensive options | Offensive |
+| **Position Type** | Defensive with offensive options | Neutral |
 | **Risk Level** | Low to Medium | Medium |
 | **Energy Cost** | Medium | Medium |
 | **Time** | Medium to Long | Medium to Long |

@@ -115,9 +115,14 @@ def position_role_strength(role_data: dict) -> float:
     # old behaviour exactly, so nothing regresses on them.
     kind = str(sp.get("position_type") or "").strip().lower()
     if kind:
-        if "offensive" in kind or "controlling" in kind or "dominant" in kind:
+        # THE LEADING WORD DECIDES (v1.106.3). Compound labels exist — "Defensive with offensive
+        # options" — and a bare substring test read them as offense-wanting, flipping a
+        # defensive-leaning position POSITIVE at runtime. The head of the phrase is the claim;
+        # the tail is nuance.
+        head = kind.split()[0]
+        if head.startswith(("offensive", "controlling", "dominant")):
             raw = abs(raw)
-        elif "defensive" in kind or "inferior" in kind:
+        elif head.startswith(("defensive", "inferior")):
             raw = -abs(raw)
     return clamp_strength(raw)
 

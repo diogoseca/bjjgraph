@@ -65,7 +65,7 @@
     "state_properties": {
       "point_value": 0,
       "position_type": "Offensive",
-      "risk_level": "Medium",
+      "risk_level": "Low to Medium",
       "energy_cost": "Medium",
       "time_sustainability": "Medium"
     },
@@ -286,7 +286,7 @@
         "value": 75
       },
       "advancement_probability": {
-        "value": 58
+        "value": 68
       },
       "submission_probability": {
         "value": 12

@@ -404,7 +404,7 @@ Bottom player attempts specific escapes (knee shield recovery, deep half entry, 
 | Metric | Rate |
 |--------|------|
 | Retention Rate | 70% |
-| Advancement Probability | 62% |
+| Advancement Probability | 72% |
 | Submission Probability | 12% |
 
 **Average Time in Position**: 30-60 seconds for pass completion at advanced level

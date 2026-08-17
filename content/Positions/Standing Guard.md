@@ -164,7 +164,7 @@ Modern BJJ competition has elevated the importance of Standing Guard mastery, as
 | &nbsp; | Bottom | Top |
 |--------|--------|-----|
 | **Position Type** | Defensive with offensive options | Offensive |
-| **Risk Level** | Medium | Medium |
+| **Risk Level** | Medium | Low to Medium |
 | **Energy Cost** | Medium | Medium |
 | **Time** | Short to Medium | Medium |
 

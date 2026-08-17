@@ -298,21 +298,19 @@ Leg Entanglement represents a comprehensive positional system in modern Brazilia
 
 - **[[Kneebar from Leg Entanglement/Attacker|Kneebar from Leg Entanglement]]** (6% of attempts)
 
-- **[[Outside Heel Hook from Leg Entanglement/Attacker|Outside Heel Hook from Leg Entanglement]]** (16% of attempts)
+- **[[Outside Heel Hook from Leg Entanglement/Attacker|Outside Heel Hook from Leg Entanglement]]** (17% of attempts)
 
-- **[[Transitions/Ankle Lock Finish/Attacker|Ankle Lock Finish]]** (9% of attempts)
+- **[[Transitions/Ankle Lock Finish/Attacker|Ankle Lock Finish]]** (10% of attempts)
 
-- **[[Transitions/Outside Ashi Entry/Attacker|Outside Ashi Entry]]** (10% of attempts)
+- **[[Transitions/Outside Ashi Entry/Attacker|Outside Ashi Entry]]** (11% of attempts)
 
-- **[[Toe Hold from Leg Entanglement/Attacker|Toe Hold from Leg Entanglement]]** (7% of attempts)
+- **[[Toe Hold from Leg Entanglement/Attacker|Toe Hold from Leg Entanglement]]** (8% of attempts)
 
-- **[[Transitions/Saddle Entry from Top/Attacker|Saddle Entry from Top]]** (11% of attempts)
+- **[[Transitions/Saddle Entry from Top/Attacker|Saddle Entry from Top]]** (12% of attempts)
 
 - **[[Transitions/Back Take from Ashi/Attacker|Back Take from Ashi]]** (6% of attempts)
 
-- **[[Transitions/50-50 Entry/Attacker|50-50 Entry]]** (6% of attempts)
-
-- **[[Transitions/Ashi Entry from Leg Entanglement/Attacker|Ashi Entry from Leg Entanglement]]** (8% of attempts)
+- **[[Transitions/Ashi Entry from Leg Entanglement/Attacker|Ashi Entry from Leg Entanglement]]** (9% of attempts)
 
 - **[[Transitions/Leg Extraction Pass/Attacker|Leg Extraction Pass]]** (6% of attempts)
 

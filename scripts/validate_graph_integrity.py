@@ -669,8 +669,11 @@ def check_position_type_vs_score():
             if not kind:
                 continue
             k = kind.lower()
-            wants_pos = ("offensive" in k or "controlling" in k or "dominant" in k)
-            wants_neg = ("defensive" in k or "inferior" in k)
+            # leading word decides, mirroring score_graph_nodes (v1.106.3): "Defensive with
+            # offensive options" is a DEFENSIVE-leaning claim, not an offensive one.
+            _head = k.split()[0] if k.split() else ""
+            wants_pos = _head.startswith(("offensive", "controlling", "dominant"))
+            wants_neg = _head.startswith(("defensive", "inferior"))
             if not (wants_pos or wants_neg):
                 continue
             # the magnitude the formula would have produced, unsigned by the word
