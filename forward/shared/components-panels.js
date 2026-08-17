@@ -142,9 +142,19 @@ export function gameKnowledgeHeader({ score = 52, belt = "Blue" } = {}) {
   </section>`;
 }
 
+// THE THIRD TAB IS `history`, NOT `collection` (v1.76.0 merged the rails; v1.95.0 renamed
+// the tab's LABEL to "Last rolls" while every view id, settings key and internal seam stayed
+// `history`). Collection was retired in v1.99.1 into an earned-only rewards shelf at the foot
+// of Challenges — so no pane tab points at it any more.
+export const LEARNING_VIEWS = [
+  ["explore", "Explore"],
+  ["challenges", "Challenges"],
+  ["history", "Last rolls"],
+];
+
 export function learningNav(active = "challenges") {
   return `<nav class="learning-nav" aria-label="Learning views">
-    ${["explore", "challenges", "collection"].map((view) => `<button type="button" aria-pressed="${view === active}">${view}</button>`).join("")}
+    ${LEARNING_VIEWS.map(([view, label]) => `<button type="button" data-view="${view}" aria-pressed="${view === active}">${label}</button>`).join("")}
   </nav>`;
 }
 
@@ -235,9 +245,12 @@ export function matCoin(coin, earned = coin.earned) {
 export function collectionPanel({ state = "partial" } = {}) {
   const earned = (item) =>
     state === "empty" ? false : state === "complete" ? true : item.earned;
-  return `<aside class="side-panel side-panel--left collection-panel" aria-label="Collection">
+  // RETIRED SURFACE, kept only so the historical screens still render (v1.99.1 replaced it
+  // with `rewardsShelf()` — earned-only, a <details> at the foot of Challenges). Its nav
+  // therefore presses Challenges: that is where these acknowledgements live now.
+  return `<aside class="side-panel side-panel--left collection-panel" data-retired="v1.99.1" aria-label="Collection">
     ${gameKnowledgeHeader()}
-    ${learningNav("collection")}
+    ${learningNav("challenges")}
     <div class="panel-body">
       <div class="collection-intro"><small>COLLECTION</small><h3>${state === "empty" ? "Your first patch is ahead" : "Proof from the mat"}</h3><p>Patches mark meaningful milestones. Mat Coins are just for laughs. They do not buy anything.</p></div>
       <section class="collection-section" aria-labelledby="patches-title"><div><h4 id="patches-title">Patches</h4><span>${patches.filter(earned).length} earned</span></div><div class="patch-grid">${patches.map((patch) => patchBadge(patch, earned(patch))).join("")}</div></section>
@@ -335,12 +348,18 @@ export function optionSheet(
 ) {
   const open = expanded || state !== "collapsed";
   const confirm = state === "confirm";
+  // v1.102.1 design pass. THE HEAD IS THE OPTION CARD, ENLARGED — the card you pressed grows
+  // into this instead of becoming a different object. Chrome moved to where the game card keeps
+  // it: capture is a glyph in the corner beside the close, and the perspective toggle and
+  // "Play from here" left the header for the footer, because a sheet whose first row is a pair
+  // of controls reads as a toolbar and one whose first row is a name reads as a technique.
   return `<section class="option-sheet ng-optdetail" data-production-selector=".ng-optdetail" data-sheet-state="${state}">
     <div class="sheet-grabber"></div>
-    <header><div><small>${escapeHtml(context.type)} · ${escapeHtml(context.origin)}</small><h2>${escapeHtml(context.name)}</h2></div><button type="button" aria-label="Close technique detail">${icon("close", 14)}</button></header>
-    <div class="sheet-role-tabs" role="tablist"><button type="button" role="tab" aria-selected="true" data-detail-role="attacker">Attacker</button><button type="button" role="tab" aria-selected="false" data-detail-role="defender">Defend</button></div>
-    <div class="sheet-stats"><div><span>Edge</span><b>+18</b></div><div><span>Success</span><b>${context.successRate || 46}%</b></div><button class="primary-action" type="button" data-play-here>${icon("play", 13)} Play from here</button></div>
-    ${open ? `<div class="sheet-body"><p>${escapeHtml(context.definition)}</p>${filmStrip({ compact: true, clips: context.clips })}<section class="jit-drill"><small>${drilling ? "JIT DRILL ACTIVE" : "BUY BETTER ODDS"}</small><b>${escapeHtml(context.question.prompt)}</b><button type="button">${drilling ? "Reveal answer" : "Drill before committing"}</button></section><div class="sheet-principles">${context.principles.map((item) => `<span>${escapeHtml(item)}</span>`).join("")}</div></div>` : ""}
+    <span class="sheet-corner" data-sheet-corner><button type="button" data-list-add data-list-surface="sheet" aria-label="Add to a class list…">+</button><button type="button" aria-label="Close technique detail">${icon("close", 14)}</button></span>
+    <header><div><small>${escapeHtml(context.type)} · ${escapeHtml(context.origin)}</small><h2>${escapeHtml(context.name)}</h2></div></header>
+    <div class="sheet-stats"><div><span>Edge</span><b>+18</b></div><div><span>Success</span><b>${context.successRate || 46}%</b></div></div>
+    ${open ? `<div class="sheet-body"><p>${escapeHtml(context.definition)}</p>${filmStrip({ compact: true, clips: context.clips })}<section class="jit-drill" ${drilling ? 'data-jit="1"' : ""}><small>${drilling ? "JIT DRILL ACTIVE" : "BUY BETTER ODDS"}</small><b>${escapeHtml(context.question.prompt)}</b><button type="button">${drilling ? "Reveal answer" : "Drill before committing"}</button></section><div class="sheet-principles">${context.principles.map((item) => `<span>${escapeHtml(item)}</span>`).join("")}</div></div>` : ""}
+    <div class="sheet-actions" data-sheet-actions><div class="sheet-role-tabs" role="tablist"><button type="button" role="tab" aria-selected="true" data-detail-role="attacker">Attacker</button><button type="button" role="tab" aria-selected="false" data-detail-role="defender">Defend</button></div><button class="pill" type="button" data-play-here>${icon("play", 12)} Play from here</button></div>
     <footer><button type="button">${confirm ? "Commit this move" : open ? "Commit" : "Open move sheet"}</button></footer>
   </section>`;
 }

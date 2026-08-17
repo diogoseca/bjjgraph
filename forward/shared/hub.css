@@ -192,6 +192,64 @@
   line-height: 1.5;
 }
 
+.hub-scope {
+  margin-top: 56px;
+  display: grid;
+  grid-template-columns: minmax(240px, 0.7fr) minmax(400px, 1.3fr);
+  gap: clamp(20px, 4vw, 56px);
+  align-items: start;
+}
+
+.hub-scope-copy h2 {
+  margin: 8px 0 10px;
+  font: 700 clamp(20px, 2.4vw, 30px) / 1.15 var(--fc-display);
+}
+
+.hub-scope-copy p {
+  max-width: 40ch;
+  color: var(--fc-faint);
+  font-size: 12px;
+  line-height: 1.65;
+}
+
+.hub-scope-list {
+  display: grid;
+  gap: 9px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.hub-scope-list li {
+  padding: 11px 14px;
+  border: 1px solid var(--fc-border);
+  border-radius: 11px;
+  background: rgba(255, 255, 255, 0.02);
+  color: var(--fc-faint);
+  font-size: 11.5px;
+  line-height: 1.6;
+}
+
+.hub-scope-list b {
+  color: var(--fc-text);
+  font-weight: 700;
+}
+
+.hub-scope-list em {
+  color: #e9bd70;
+  font-style: normal;
+}
+
+.hub-scope-list a {
+  color: #9ab0e0;
+}
+
+@media (max-width: 860px) {
+  .hub-scope {
+    grid-template-columns: 1fr;
+  }
+}
+
 .hub-tools {
   margin-top: 64px;
   display: grid;

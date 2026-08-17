@@ -29,6 +29,10 @@
 .ng-event span,.ng-evtoast span{color: #dce4f4;font-size: 11px;}
 .ng-event.tone-success b,.ng-event.tone-good b,.ng-evtoast.tone-success b,.ng-evtoast.tone-good b{color: var(--ng-good);}
 .ng-event.tone-danger b,.ng-event.tone-bad b,.ng-evtoast.tone-danger b,.ng-evtoast.tone-bad b{color: var(--ng-bad);}
+/* "muted" is a real production tone (setEvent's fourth value): a notification that must be
+   seen without competing with the roll. It dims the kicker rather than colouring it. */
+.ng-event.tone-muted b,.ng-evtoast.tone-muted b{color: #6b7691;}
+.ng-event.tone-muted span,.ng-evtoast.tone-muted span{color: #aab4c8;}
 .ng-transport{position: absolute;bottom: 18px;left: 50%;z-index: 13;display: flex;gap: 6px;transform: translateX(-50%);padding: 5px;border: 1px solid var(--ng-line);border-radius: 999px;background: rgba(17,20,35,0.84);backdrop-filter: blur(10px);}
 .ng-transport button{display: grid;place-items: center;width: 34px;height: 34px;padding: 0;border: 0;border-radius: 50%;background: transparent;cursor: pointer;}
 .ng-transport .transport-main{color: #11172d;background: #a5b8e9;}

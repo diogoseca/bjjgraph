@@ -120,11 +120,11 @@ export const componentItems = [
   ),
   item(
     "learning-view-toggle",
-    "Explore / Challenges / Collection",
+    "Explore / Challenges / Last rolls",
     "Primitives",
-    "Peer view selector used in the persistent left learning rail.",
-    ["Explore", "Challenges", "Collection"],
-    (v) => stack(learningNav(v.toLowerCase())),
+    "Peer view selector for the one left pane. The third tab reads Last rolls; its view id stays history.",
+    ["Explore", "Challenges", "Last rolls"],
+    (v) => stack(learningNav(v === "Last rolls" ? "history" : v.toLowerCase())),
   ),
   item(
     "ruleset-toggle",
@@ -671,6 +671,7 @@ export const componentItems = [
     "First-run instruction that points at the current task.",
     ["Step 1", "Step 2", "Step 3"],
     (v) => stage(coach({ step: Number(v.slice(-1)) }), true),
+    { behavior: "RETIRED IN PRODUCTION (v1.104.0): the first-roll coach was deleted by the owner — a fixed overlay that opened over the first-ever landing and froze the decision clock. Its three White objectives were re-keyed to the actions they name (options_dealt, sheet_opened, land_q_shown), not deleted. Kept here as a record of a surface that shipped; nothing new is authored against it." },
   ),
   item(
     "challenge-cue",
