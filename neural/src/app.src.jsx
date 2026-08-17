@@ -480,6 +480,21 @@ class Component extends DCLogic {
   }
 
   ingest(data) {
+    // ── WIRE EXPANSION (v1.107.0). graph-data.json ships COMPACT (it is the largest boot
+    // payload) and is expanded HERE into the exact legacy shapes, so every downstream reader
+    // (drawOutcome, resolve, calSuccess, giAllows, the edge-weight pass below) is untouched
+    // and no RNG draw can move. The wire: technique outcomes are [to, probability, s|f|c]
+    // tuples; a technique's posId is not carried (it equals fromPositionId by construction);
+    // links are [sourceIdx, targetIdx] pairs. The legacy object spellings still expand
+    // correctly (Array.isArray forks per item), so a spec-authored old-shape fixture keeps
+    // working.
+    const RESULT_WORD = { s: "success", f: "failure", c: "counter" };
+    for (const n of data.nodes) {
+      const c = n.cal;
+      if (c && Array.isArray(c.outcomes)) {
+        c.outcomes = c.outcomes.map((o) => Array.isArray(o) ? { to: o[0], probability: o[1], result: RESULT_WORD[o[2]] || o[2] } : o);
+      }
+    }
     const idIndex = new Map();
     const nodes = data.nodes.map((n, i) => {
       idIndex.set(n.id, i);
@@ -488,13 +503,13 @@ class Component extends DCLogic {
       // graph-data.json by regenerate_neural_data.py). Never the array index `i`: that is
       // filesystem-ordered and one new content file renumbers it, which would silently
       // repoint every share link already posted in a WhatsApp group.
-      return { idx: i, id: n.id, x: n.x, y: n.y, t: n.t, ty: n.ty, s: n.s || null, dom, col: this.domColor(dom), deg: 0, lit: -99, posId: n.posId || null, fromPositionId: n.fromPositionId || null, fromRole: n.fromRole || null, cal: n.cal || null, familyHub: n.familyHub || null, o: typeof n.o === "number" ? n.o : null };
+      return { idx: i, id: n.id, x: n.x, y: n.y, t: n.t, ty: n.ty, s: n.s || null, dom, col: this.domColor(dom), deg: 0, lit: -99, posId: n.posId || n.fromPositionId || null, fromPositionId: n.fromPositionId || null, fromRole: n.fromRole || null, cal: n.cal || null, familyHub: n.familyHub || null, o: typeof n.o === "number" ? n.o : null };
     });
     const adj = nodes.map(() => []);
     const links = [];
     for (const l of data.links) {
-      const a = idIndex.get(l.source), b = idIndex.get(l.target);
-      if (a == null || b == null || a === b) continue;
+      const a = Array.isArray(l) ? l[0] : idIndex.get(l.source), b = Array.isArray(l) ? l[1] : idIndex.get(l.target);
+      if (a == null || b == null || a === b || !nodes[a] || !nodes[b]) continue;
       links.push([a, b]); adj[a].push(b); adj[b].push(a); nodes[a].deg++; nodes[b].deg++;
     }
     for (const n of nodes) n.r = 2.0 + Math.min(5.5, Math.sqrt(n.deg) * 0.62);
@@ -584,7 +599,15 @@ class Component extends DCLogic {
       for (const n of nodes) {
         const cal = n.cal;
         if (!cal) continue;
-        if (n.ty === "positions" && cal.moves) {
+        if (n.ty === "positions" && Array.isArray(cal.ew)) {
+          // the wire's precomputed [nodeIdx, w*10000] pairs — regenerate_neural_data.py ran
+          // the exact byName x attemptProbability x successRate arithmetic below at build time
+          for (const e of cal.ew) {
+            const k = n.idx * NN + e[0];
+            const w = e[1] / 10000;
+            if (w > (edgeW.get(k) || 0)) edgeW.set(k, w);
+          }
+        } else if (n.ty === "positions" && cal.moves) {
           for (const role of ["top", "bottom"]) {
             for (const m of (cal.moves[role] || [])) {
               const ti = byName.get(m.technique); if (ti == null) continue;

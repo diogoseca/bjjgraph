@@ -27,6 +27,10 @@ from claude_infer import call_claude  # noqa: E402
 from _model import model as _model_tier  # noqa: E402 — single source of truth: models.env
 
 GRAPH_DATA = ROOT / "source/quartz/static/neural/graph-data.json"
+# graph.json carries the per-role move tables; graph-data.json stopped shipping `cal.moves`
+# on the wire in v1.107.0 (its only runtime consumer was the edge-lighting pass, now
+# precomputed as `cal.ew`), so this build-side tool reads the tables from the source graph.
+GRAPH = ROOT / "graph.json"
 # per-deck chunks (the flashcards.json monolith was deleted in v1.80.4)
 FLASHCARDS_DIR = ROOT / "source/quartz/static/neural/flashcards"
 OUT = ROOT / "templates/curriculum.json"
@@ -62,8 +66,21 @@ technique graph — not a partition. Rules:
   advanced/expert systems tying earlier belts together."""
 
 
+def _pos_moves(graph: dict, node_id: str, role: str) -> list:
+    """graph.json's transitions[] for a layout position's role-node — the same join
+    regenerate_neural_data.enrich uses (nested layout slugs are compound, graph.json keys
+    the bare child slug)."""
+    slug = node_id.split("/", 1)[1].lower() if "/" in node_id else node_id.lower()
+    for c in ([slug, slug.rsplit("/", 1)[-1]] if "/" in slug else [slug]):
+        n = graph.get("positions", {}).get(f"{c}/{role}")
+        if n and n.get("transitions"):
+            return n["transitions"]
+    return []
+
+
 def load_inventory():
     gd = json.loads(GRAPH_DATA.read_text())
+    graph = json.loads(GRAPH.read_text())
     from _neural_decks import load_decks
     fc = {"decks": load_decks(FLASHCARDS_DIR)}
     decks = fc["decks"] if "decks" in fc else fc
@@ -79,14 +96,14 @@ def load_inventory():
     for n in gd["nodes"]:
         if n.get("ty") != "positions" or not n.get("cal"):
             continue
-        # graph-data nodes are HUB-COLLAPSED: one node carries cal.moves for BOTH roles
-        # (the " Top" in the title is display only) — emit an inventory entry per live role
+        # graph-data nodes are HUB-COLLAPSED: one entry per live role, move tables from
+        # graph.json (see _pos_moves)
         base = n["t"].rsplit(" ", 1)[0] if n["t"].endswith((" Top", " Bottom")) else n["t"]
         for role in ("Top", "Bottom"):
             deck_key = f"{base}|{role}"
             if deck_sizes.get(deck_key, 0) < 3:
                 continue
-            moves = (n["cal"].get("moves") or {}).get(role.lower()) or []
+            moves = _pos_moves(graph, n["id"], role.lower())
             menu = []
             for m in sorted(moves, key=lambda m: -(m.get("occurrence") or m.get("attemptProbability") or 0))[:10]:
                 t = m.get("technique")
