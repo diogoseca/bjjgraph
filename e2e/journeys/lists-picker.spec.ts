@@ -503,6 +503,10 @@ test.describe("in the 390px drawer", () => {
     // deliberate screen is never underdrawn by ambient gameplay chrome, so the assertion is on
     // the PICKER'S OWN centre, not just its rows: a card painting over it would be invisible to
     // a rows-only hit test if the rows happened to sit clear.
+    // The card fades in over .28s on the WALL clock, and a late-payload backfill re-render
+    // restarts that entry animation — sample after it settles (the house idiom), or the
+    // "readable" read catches a card mid-arrival at 0.2 opacity and calls it suppressed.
+    await page.waitForTimeout(450);
     const stack = await page.evaluate(() => {
       const p = document.querySelector("[data-list-picker]") as HTMLElement;
       const r = p.getBoundingClientRect();

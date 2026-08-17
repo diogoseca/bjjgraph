@@ -28,7 +28,17 @@ async function openDeck(j: any, page: any, deckKey: string) {
   // options themselves, so it opts in.
   await page.evaluate(() => (window as any).__neural.set("mcMode", "auto"))
   await page.evaluate(() => (window as any).__neural.toggleExplorer())
-  await page.locator(`[data-lesson="${deckKey}"]`).first().click()
+  // v1.105.2: the row click reads INLINE now — the full study surface (this spec's subject)
+  // opens through openLessonStudy, the seam sessions/checkpoints use (mc-flashcards' pattern).
+  await page.evaluate((dk) => {
+    const a = (window as any).__neural
+    const e = a._lessonIndex && a._lessonIndex[dk]
+    a.openLessonStudy(
+      { deckKey: dk, nodeId: e && e.nodeId },
+      { name: (e && e.unit) || "Study", lessons: [{ deckKey: dk, nodeId: e && e.nodeId }] },
+      { id: (e && e.belt) || "white" },
+    )
+  }, deckKey)
   await j.advance(800)
   // the deck's cards are fetched on demand (v1.80.4) — the surface rebuilds when they land
   await j.decksSettled()

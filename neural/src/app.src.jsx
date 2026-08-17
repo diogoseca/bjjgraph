@@ -8041,7 +8041,12 @@ class Component extends DCLogic {
     const pos = this.nodes && this.nodes[this.currentPos];
     if (!pos) return;
     // carry a live, unanswered question across the re-render instead of drawing a new one
-    const reuse = this._landQ ? { q: this._landQ, el: this._landEl.querySelector("[data-land-q]"), pending: !!this._landPending } : null;
+    // …including the KEYBOARD's truth (v1.106.10): clearLandCard nulls this._mc for the land
+    // surface, and a re-parented block is never re-created — so without carrying it, a backfill
+    // over a mounted question left A-D dead and truth() empty while the mouse (whose listeners
+    // ride the surviving DOM nodes) kept working. The exact bug class j.clickByMouse exists for,
+    // inverted.
+    const reuse = this._landQ ? { q: this._landQ, el: this._landEl.querySelector("[data-land-q]"), pending: !!this._landPending, mc: (this._mc && this._mc.surface === "land") ? this._mc : null } : null;
     // keyboard users: if focus was on one of the card's own handles, put it back on the new one
     const act = document.activeElement;
     const held = act && this._landEl.contains(act)
@@ -8199,6 +8204,7 @@ class Component extends DCLogic {
       el.appendChild(reuse.el);
       this._landQ = reuse.q;
       this._landPending = reuse.pending;
+      if (reuse.mc) this._mc = reuse.mc; // the keyboard's truth survives the re-parent (v1.106.10)
     } else if (card) {
       const qw = document.createElement("div");
       qw.setAttribute("data-land-q", "1");
