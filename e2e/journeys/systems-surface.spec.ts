@@ -471,14 +471,18 @@ test("the generated system page discloses the commission above its product link 
   page,
   context,
 }) => {
-  // The same claim on the OTHER surface: crawlers and ?variant=legacy readers get this HTML, and
-  // it carries its own hand-maintained copy of the sentence.
+  // The same claim on the OTHER surface: CRAWLERS and no-JS readers get this HTML, and it
+  // carries its own hand-maintained copy of the sentence. (?variant=legacy is accepted-and-
+  // ignored since v1.80.0, so the way to read the static article is the static-article-layout
+  // pattern: block the bundle — otherwise the overlay boots and hides the article, and this
+  // test only ever passed against a serve root whose bundle failed to boot.)
   const data = payload();
   const target = data.systems.filter((s) => courses(s).length)[0];
   // HERMETIC: the shop and the (placeholder) cover image are the only off-box requests this page
   // makes; a suite that reaches the internet is a suite that fails when the internet does.
   await context.route(/bjjfanatics\.com|placehold\.co/, (r) => r.abort());
-  await page.goto(`/${target.id}?variant=legacy`);
+  await context.route("**/static/neural/app/neural.js", (r) => r.abort());
+  await page.goto(`/${target.id}`);
 
   const disc = page.locator("p.affiliate-disclosure");
   const link = page.locator('a[data-affiliate="true"]');
@@ -512,6 +516,7 @@ test("the generated system page discloses the commission above its product link 
 
 test("a system whose product link was never verified renders no CTA on either surface @curated", async ({
   page,
+  context,
 }) => {
   // Verified 2026-08-09: two of the three authored products 404. Only link_status:"live"
   // survives into the payload (regenerate_neural_data._products) and onto the page
@@ -544,7 +549,8 @@ test("a system whose product link was never verified renders no CTA on either su
   }
 
   // and its page shows the free study surface instead of an empty region
-  await page.goto(`/${bareIds[0]}?variant=legacy`);
+  await context.route("**/static/neural/app/neural.js", (r) => r.abort()); // static surface = bundle blocked (see above)
+  await page.goto(`/${bareIds[0]}`);
   await expect(page.locator('a[data-affiliate="true"]')).toHaveCount(0);
   await expect(page.locator("p.affiliate-disclosure")).toHaveCount(0);
   await expect(

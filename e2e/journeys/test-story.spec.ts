@@ -87,6 +87,10 @@ test("content capstone story: evidence → roll → tap → acknowledgement → 
 
   // ── the available capstone is the invitation ──
   await page.evaluate(() => (window as any).__neural.toggleExplorer());
+  // THE CORRIDOR FOLDS COMPLETED BELTS (v1.98.0/v1.99.2): with White done, the frontier is Blue,
+  // so White's section body — and the capstone button in it — is display:none until its header
+  // is clicked ("clicking a folded header selects AND opens"). The invitation is one unfold away.
+  await page.locator(`.ng-track-card[data-track="${WHITE.id}"]`).click();
   const capstone = page.locator(`[data-capstone="${WHITE.id}"] button`);
   await expect(capstone).toBeEnabled();
   await capstone.click();
@@ -117,6 +121,7 @@ test("content capstone story: evidence → roll → tap → acknowledgement → 
   await j.boot("/", { preserveStorage: true });
   await j.land("Mount Top");
   await page.evaluate(() => (window as any).__neural.toggleExplorer());
+  await page.locator(`.ng-track-card[data-track="${WHITE.id}"]`).click(); // unfold (see above)
   await expect(page.locator(`[data-capstone="${WHITE.id}"] button`)).toHaveText(
     "Capstone cleared",
   );
