@@ -5,7 +5,7 @@ import { journey } from "../dsl"
 import { whiteBeltHolder } from "../gen/personas"
 
 /**
- * QUARANTINED RED — Q005.
+ * PROMOTED — Q005 is FIXED (ledger: accepted); the prose below documents the bug as born.
  *
  * The Rewards group's design pattern is that acknowledgements punch through NGSound's 40ms
  * wall-clock voice-spacing gate (sound.src.js:267): patch-weave and coin-mint both carry

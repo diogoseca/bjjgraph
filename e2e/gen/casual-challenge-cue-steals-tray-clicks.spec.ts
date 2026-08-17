@@ -5,7 +5,7 @@ import { journey } from "../dsl"
 import { casualWeek1 } from "../gen/personas"
 
 /**
- * QUARANTINED RED — Q006.
+ * PROMOTED — Q006 is FIXED (ledger: accepted); the prose below documents the bug as born.
  *
  * The tray's pass-through corner is a documented contract: helmet.html:96-97 keeps the
  * base `.ng-tut` at `pointer-events:none` with the comment "the options tray can scroll

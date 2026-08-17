@@ -4,7 +4,7 @@ import { journey } from "../dsl";
 import { curriculumMid, CURRICULUM } from "../gen/personas";
 
 /**
- * QUARANTINED RED SPEC — Q002 (see ISSUES.md). Goes GREEN when the checkpoint quiz stops the
+ * PROMOTED — Q002 is FIXED (ledger: accepted). Born red; went green when the checkpoint quiz stopped the
  * roll's decision clock; then promote to e2e/gen/.
  *
  * THE BUG: every reading surface freezes the decision clock (expand sheet pauses :1497,

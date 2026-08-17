@@ -5,7 +5,7 @@ import { journey } from "../dsl"
 import { multiBeltEndgame } from "../gen/personas"
 
 /**
- * QUARANTINED RED — Q003.
+ * PROMOTED — Q003 is FIXED (ledger: accepted); the prose below documents the bug as born.
  *
  * The v1.70.0 momentum patches exist in the synth (sound.src.js: combo "a bright two-step
  * for every combo", combo_break "a string-snap slide when the streak dies") but are

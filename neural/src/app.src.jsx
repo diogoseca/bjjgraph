@@ -406,6 +406,25 @@ class Component extends DCLogic {
     };
     window.addEventListener("online", this._onChallengeConnectivity);
     window.addEventListener("offline", this._onChallengeConnectivity);
+    // THE AFFILIATE FUNNEL'S ONE EVENT, RE-EMITTED (v1.106.7). `affiliateTracking.inline.ts` —
+    // the only `affiliate_clickout` delegate — died with the legacy front-end in v1.80.0, and
+    // v1.83.0 restored the ATTRIBUTES but not the listener, so the documented funnel (CLAUDE.md
+    // §7: "one event on both surfaces, delegated on a[data-affiliate=true]") had ZERO emitters
+    // and every conversion report was dark. One document-level delegate covers both surfaces;
+    // the per-anchor data-* props carry the taxonomy the dashboards already expect.
+    document.addEventListener("click", (e) => {
+      const t = e.target;
+      const a = t && t.closest ? t.closest('a[data-affiliate="true"]') : null;
+      if (!a) return;
+      this.track("affiliate_clickout", {
+        url: a.href || null,
+        product_id: a.getAttribute("data-product-id") || null,
+        system_slug: a.getAttribute("data-system-slug") || null,
+        system_name: a.getAttribute("data-system-name") || null,
+        vendor: a.getAttribute("data-vendor") || null,
+        position: a.hasAttribute("data-position") ? Number(a.getAttribute("data-position")) : null,
+      });
+    });
     try { if (typeof NGSound !== "undefined") this.sound = new NGSound(this); } catch (e) { /* silent app */ }
     this._initAuth();     // signed-in? real identity + merge-on-pull cloud sync (facade-gated)
     this.paused = false;

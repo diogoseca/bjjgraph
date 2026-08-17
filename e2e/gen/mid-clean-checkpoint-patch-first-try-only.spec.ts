@@ -5,7 +5,7 @@ import { journey } from "../dsl"
 import { curriculumMid, CURRICULUM } from "../gen/personas"
 
 /**
- * QUARANTINED RED — Q004.
+ * PROMOTED — Q004 is FIXED (ledger: accepted); the prose below documents the bug as born.
  *
  * The clean-checkpoint patch is authored as "Pass a checkpoint on the first try"
  * (challenge-definitions.src.js:337) but its when-predicate `(p) => !!p.firstTry` is

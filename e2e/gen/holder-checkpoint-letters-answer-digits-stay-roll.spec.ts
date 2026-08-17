@@ -5,7 +5,7 @@ import { journey } from "../dsl"
 import { whiteBeltHolder, CURRICULUM } from "../gen/personas"
 
 /**
- * QUARANTINED RED — Q007.
+ * PROMOTED — Q007 is FIXED (ledger: accepted); the prose below documents the bug as born.
  *
  * The keyboard's option-card opener branch (app.src.jsx:318-320,
  * `/^[1-9]$/ … this._optPick && this._optList`) has NO `_checkpoint` guard, and neither

@@ -257,8 +257,14 @@ Format per entry:
   park/clear `_optPick`/`_optList` for the quiz's duration (Q002's notes already suggested
   this shape), or guard `expandOption` itself.
 
-## Q008 — The card names your side; most of the hand under it is AUTHORED for the other side   [bug] [status: Open]
-- Spec: e2e/quarantine/side-named-hand-authored-for-other-side.spec.ts
+## Q008 — The card names your side; most of the hand under it is AUTHORED for the other side   [bug] [status: Fixed]
+- Spec: promoted to e2e/gen/side-named-hand-authored-for-other-side.spec.ts (ledger gen-w6-q008)
+- Fixed: v1.103.0 role correctness — `optionsFor` reads `fromRole` outright (hard filter in the
+  main loop AND the no-candidates fallback, which relaxes origin but never role), and the leaf-slug
+  `posId` fix un-starved the origin join (54/136 empty hands -> 0/136). The quarantine spec could
+  never report the fix: its identity half read `[data-land-id]`, deleted in v1.101.1, so it crashed
+  before the hand audit — that half was already pinned in first-impression.spec.ts; the hand half
+  is what got promoted.
 - Found: journey 3 pass 3 (cold-start review), on the WIN 1 first-impression path
 - Expected: the identity card says which side you are playing, and every option dealt beneath it is a
   move that side actually performs.

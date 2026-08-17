@@ -100,8 +100,16 @@ async function clipFor(deckKey) {
       const clips = entry && entry.clips;
       if (Array.isArray(clips) && clips.length) {
         const c = clips[0];
-        if (c && c.id && (c.who || c.title))
-          return { id: c.id, title: c.title || "", who: c.who || "", dur: c.dur || c.duration || null };
+        // the emitted clip shape carries `by` (instructor attribution) and has NO duration
+        // field — real keys are by/id/title/vertical ± start/end. `start`/`end` give a length
+        // when both exist; anything else and the duration is simply omitted.
+        if (c && c.id && (c.by || c.title)) {
+          const dur =
+            typeof c.start === "number" && typeof c.end === "number" && c.end > c.start
+              ? Math.round(c.end - c.start) + "s"
+              : null;
+          return { id: c.id, title: c.title || "", who: c.by || "", dur: dur };
+        }
       }
     } catch (e) {
       /* content chunk miss — the magazine section degrades to text */
