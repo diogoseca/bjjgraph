@@ -1,312 +1,337 @@
 {
- "note": "Positions whose authored position_type was RULED CORRECT by the 2026-08-17 black-belt adjudication panel (2 independent experts per change; word_right = the word stands, the metrics merely disagree and the word wins at runtime). check_position_type_vs_score consults this list and reports these as info, not warnings. Remove an entry to re-open it.",
- "reviewed": {
-  "Backside 50-50 Top": {
-   "ruling": "word_right",
-   "reasoning": "Unlike standard 50-50, the back-facing orientation genuinely breaks symmetry: the chest-to-back player has pressure that pins the hips, full visual access to the entanglement, and the dual threat of heel hooks or abandoning legs for back control/saddle. The role's transitions are all attacks and advancement (toe hold, kneebar, back take, saddle entry, outside heel hook at 23% no-gi, pass). This is exactly how Craig Jones/Lachlan Giles-school material treats backside 50-50 for the player behind. 'Offensive/Controlling' is correct; the -0.056 score is an artifact of both roles sharing identical position_metrics."
-  },
-  "Backside 50-50 Bottom": {
-   "ruling": "word_right",
-   "reasoning": "The back-exposed player is defending first — the role's dominant transitions are stand up (24% gi), ashi escape, counter-entangle to 50-50, and hip escape to guard — but because the legs remain in the mirrored 50-50 lock, the counter heel hook and ankle lock threats are real, not decorative (counter heel hook 11% no-gi, outside heel hook 10%). 'Defensive with offensive options' is precisely the right BJJ description of that state. Note the word's negative sign actually agrees with the -0.056 metric; the flag looks like the composite phrase failing the checker's vocabulary parse rather than a substantive disagreement — if the pipeline ever needs a vocabulary-normalized word, 'Defensive' is the closest, but the authored phrase is correct."
-  },
-  "Inside Ashi-Garami Top": {
-   "ruling": "word_right",
-   "reasoning": "As authored, the top role is the entangling player — inside leg across the near hip, outside leg hooked behind the knee, C-grip on the heel — which is the standard ashi/SLX attacking platform of every modern leg-lock system. Its transitions are all attacks and advancement (heel hook 25% no-gi, toe hold, honey hole progression, saddle, back take), while the bottom role is authored Defensive with survival/extraction transitions. The counter-exposure inherent to ashi positions does not make the entangler a defender; 'Offensive' is correct BJJ and the metrics' -0.056 is the shared-metrics artifact."
-  },
-  "Outside Ashi-Garami Bottom": {
-   "ruling": "word_right",
-   "reasoning": "This file assigns roles by elevation, and the BOTTOM player is the entangler — the hub overview states it outright: 'Outside Ashi-Garami exists as both an offensive attacking position (bottom perspective) and a defensive survival position (top perspective)'. The bottom player holds the figure-four from the outside angle and threatens outside heel hooks, ankle locks, and advancement to inside ashi/saddle, while the top role (authored Defensive, correctly) works extraction. This is precisely the case the house rules exist for — the attacking player is underneath — so 'Offensive' is right and the negative metric score must not flip it."
-  },
-  "Ushiro Ashi-Garami Top": {
-   "ruling": "word_right",
-   "reasoning": "The top role is the attacker who maintained the entanglement through the opponent's inversion escape: the overview frames it as 'maintaining offensive pressure throughout the opponent's defensive movements', with heel hook finishes, saddle transitions, and back-control follow-ups as the role's content, while the bottom role's stated priority is clearing the legs entirely. The reversed configuration weakens finishing leverage relative to standard ashi (which is why the score drifts to -0.065), and one could argue 'Transitional', but on the attacking/defending axis the role is attacking. 'Offensive' is correct."
-  },
-  "Ashi Garami Bottom": {
-   "ruling": "word_right",
-   "reasoning": "The hub's bottom role is the player running the ashi garami — 'offensive leg entanglement opportunities where you control your opponent's leg(s)' — with a hand of inside ashi entry, heel hook, straight ankle, toe hold, kneebar setup, 50-50 entry, back take, and Aoki lock, while the top role (authored Defensive) holds the trapped leg and works escapes. The player laying back with the opponent's leg captured is the attacker regardless of being 'bottom'; this is the textbook non-top/bottom dominance case. 'Offensive' is correct BJJ."
-  },
-  "Butterfly Hook Control Top": {
-   "ruling": "word_right",
-   "reasoning": "This position names the state where both butterfly hooks are engaged under the thighs — the seated player's established attacking cycle — and against live hooks the top player's first-order job is defensive: kill elevation, deny underhooks, control posture, because every pass in their 13-pass hand runs through first neutralizing the hooks (the Danaher-school 'you cannot pass butterfly until you deal with the hooks'). 'Defensive with offensive options' captures exactly that, is consistent with the parent Butterfly Guard authoring top as 'Defensive', and its negative sign agrees with the -0.150 metric — the strongest hint that this flag is the composite phrase failing to parse, not a BJJ error. Contrast Half Butterfly Top (correctly 'Offensive'), where one side is already cleared and initiative has flipped to the passer."
-  },
-  "Butterfly Hook Control Bottom": {
-   "ruling": "word_right",
-   "reasoning": "Butterfly with engaged hooks is one of the sport's clearest attacking guards: the insteps own the kuzushi, and the role's transitions are sweeps in every direction, arm drags to the back, guillotines, and X-guard/SLX entries — no survival moves at all. The literature is unanimous that the seated hook player holds the initiative here. 'Offensive' is correct; the negative metric score is arithmetic noise against a correctly authored word."
-  },
-  "Half Butterfly Top": {
-   "ruling": "word_right",
-   "reasoning": "As authored, this is the mid-pass juncture — the top player has already passed one side and is killing the last hook, with a hand that is entirely passes (knee slice, smash, underhook, body lock, leg weave). On the advancement-vs-survival axis the role is executing positional offense with the initiative, consistent with the corpus authoring Half Guard/DLR/X-Guard tops as 'Offensive'. One could quibble toward 'Transitional', but 'Offensive' does not misclassify; the -0.094 score should not flip it."
-  },
-  "Half Butterfly Bottom": {
-   "ruling": "word_right",
-   "reasoning": "Half butterfly is the modern attacking half guard: the hook restores elevation kuzushi that flat half guard lacks, and the role's transitions are sweeps and advancement throughout (butterfly/old school/hook/underhook sweeps, dogfight, rolling back take, X-guard entry). The file itself draws the contrast — 'unlike traditional half guard which can be more defensive'. Both roles being Offensive is fine here; a hybrid guard with a live hook is a mutual-offense exchange, and the literature (the Lachlan/Danaher half-butterfly systems) treats the bottom player as attacking. 'Offensive' is correct."
-  },
-  "Butterfly Guard Bottom": {
-   "ruling": "word_right",
-   "reasoning": "Butterfly bottom is the canonical attacking seated guard: elevation hooks under the opponent's center of mass drive butterfly/elevator sweeps, arm drags to the back, X-guard and SLX entries, plus guillotine and kimura threats — its transitions[] is almost entirely sweeps, back-takes, and submissions. The top player is the one managing base and defending elevation. On the literature's attacking/defending axis this role is unambiguously the attacker; the -0.090 metric is small noise from the 0 point_value and medium risk, not a signal."
-  },
-  "Diamond Guard Bottom": {
-   "ruling": "word_right",
-   "reasoning": "Diamond guard bottom is a closed-guard overhook-plus-head-control configuration: the bottom player owns the posture break and chains triangle, omoplata, kimura, and hip-bump/scissor sweeps — its transitions[] is all submissions and sweeps. Like rubber guard or high guard, this is the attacking-and-controlling role in the exchange; the top player is defending posture and hunting an overhook strip. 'Offensive/Controlling' is exactly right, and the -0.030 score is essentially zero anyway."
-  },
-  "Closed Guard Bottom": {
-   "ruling": "word_right",
-   "reasoning": "Closed guard bottom is the textbook case the house rule was written for: the bottom player wraps and controls the torso, breaks posture, and attacks with a 30+ item arsenal of sweeps and submissions (armbar, triangle, kimura, hip bump, scissor), while the top player is locked in, cannot pass without first opening the guard, and defends. The literature is unanimous that the guard player is the attacker here despite being underneath. The -0.028 metric disagreement is noise from point_value 0."
-  },
-  "Reverse De La Riva Guard Top": {
-   "ruling": "word_right",
-   "reasoning": "The RDLR top player is a standing passer with both hands free and the tempo initiative: all ten of its transitions are passes (knee slice, leg drag, smash, backstep counter), i.e. positional advancement, which the literature's axis counts as attacking. The bottom's berimbolo/kiss-of-the-dragon threats are real, but they are reactive to the passer's motion — this is a mutually offensive open-guard exchange, not a trapped-defender scenario like closed or clamp guard top. 'Offensive' is defensible BJJ and the -0.086 metric is near-neutral noise."
-  },
-  "Reverse De La Riva Guard Bottom": {
-   "ruling": "word_right",
-   "reasoning": "RDLR bottom is one of the premier modern attacking guards: the inverted hook generates rotational kuzushi feeding berimbolo and kiss-of-the-dragon back-takes, waiter sweeps, and X-guard/SLX entries — its transitions[] is entirely sweeps, back-takes, and guard upgrades, with authored advancement 65 and submission 42. This is the attacking role by any competition-meta reading. The word is right; the -0.046 score is noise."
-  },
-  "De La Riva Guard Top": {
-   "ruling": "word_right",
-   "reasoning": "The DLR top player stands with free hands and drives the passing exchange — all thirteen transitions are passes (toreando, leg drag, knee slice, backstep), and modern passing meta treats the standing passer as dictating tempo against DLR. Positional advancement is offense on the literature's axis, distinguishing this from trapped guard-tops (closed, clamp) that are genuinely defending. 'Offensive' is a fair call for a near-neutral, mutually offensive exchange; -0.070 is noise from point_value 0."
-  },
-  "De La Riva Guard Bottom": {
-   "ruling": "word_right",
-   "reasoning": "DLR bottom is a famous attacking guard: the outside hook off-balances the lead leg into DLR sweeps, berimbolo back-takes, X-guard/SLX entries, tripod/sickle/balloon sweeps, and triangle/omoplata threats — the entire transitions[] is offense. Since De La Riva and the berimbolo era it has been the definitive example of a bottom player who attacks. The word is right; the -0.126 score reflects the point_value/risk arithmetic, not the position's character."
-  },
-  "Double Jump Top": {
-   "ruling": "word_right",
-   "reasoning": "This role is a crab-ride/rodeo-ride style attack on turtle: bilateral leg hooks inside the thighs with every transition an advancement — Turtle to Back Control, Crab Ride to Back, Truck, Rolling Back Take, Mount, Side Control. The riding player controls the turtled opponent's hips and forces back-take dilemmas; the file itself calls it 'an advanced attacking position.' 'Offensive/Controlling' is correct; the -0.158 score is an artifact of point_value 0 and medium risk."
-  },
-  "Double Sleeve Guard Bottom": {
-   "ruling": "word_right",
-   "reasoning": "This is a gi grip-and-distance management guard: the bottom player has won the grip exchange and holds real sweep options (tripod, sickle, flower, pendulum) plus triangle/omoplata entries once posture breaks, but the position's primary job is denying the passer's grips and feeding into spider/lasso/DLR. Its transitions list is sweeps plus guard recovery, not immediate submission threats — the corpus's own sibling Feet on Hips Bottom carries the same word for the same reason. 'Defensive with offensive options' is correct BJJ for a retention-first platform with genuine attacking options; the -0.106 metric merely undercounts the grip-fighting initiative."
-  },
-  "Estima Lock Control Top": {
-   "ruling": "word_right",
-   "reasoning": "The top player here IS the attacker: figure-four grip on the inverted foot, hip pressure against the calf as the finishing fulcrum, and a transitions list that is entirely attacks (Estima Lock at 36% gi attempt, toe hold, kneebar, saddle/ashi conversions) with submission_probability 42. The bottom role is correctly authored 'Defensive' and its page describes a submission crisis requiring escape protocols. 'Offensive/Controlling' is exactly what a consolidated footlock entanglement is for the controlling player; the -0.086 score is the arithmetic being wrong, not the word."
-  },
-  "Feet on Hips Guard Top": {
-   "ruling": "word_right",
-   "reasoning": "Feet-on-hips is a basic distance-management frame guard, not a dangerous attacking guard — the top player facing it holds the passing initiative, and every transition in the role's list is a pass (toreando, knee slice, leg drag, long step, X pass, body lock). In the literature's sense the passer is the advancing/attacking party here (passing scores, the guard player is denying), and the bottom role is correctly the defensive-leaning side. 'Offensive' is right BJJ for the passer against this guard; the -0.124 metric is the suspect number."
-  },
-  "Feet on Hips Guard Bottom": {
-   "ruling": "word_right",
-   "reasoning": "The file itself states the correct BJJ repeatedly: leg frames provide 'immediate defensive structure', it is a retention/distance-management hub that 'eventually succumbs to persistent pressure' if held statically, with real sweep offense (tripod, sickle, SLX) as the options. That is the textbook 'Defensive with offensive options' guard — deny the pass first, attack off the reactions. The -0.024 score is essentially zero, i.e. near-neutral, which is consistent with a frame guard; no edit needed."
-  },
-  "Gogoplata Control Bottom": {
-   "ruling": "word_right",
-   "reasoning": "This is the canonical case the house rule exists for: the bottom player has a shin across the opponent's throat with the foot hooked behind the head — a live choke plus a closed control loop where escape attempts tighten the submission. Submission probability 45, advancement 68, and the top role is correctly authored 'Defensive' with escape-only transitions. The bottom player is unambiguously the attacker; 'Offensive/Controlling' is correct BJJ and the -0.034 score is a bottom-position bias in the arithmetic."
-  },
-  "Grasshopper Guard Top": {
-   "ruling": "word_right",
-   "reasoning": "Against an inverted guard the top player dictates the engagement: they can disengage at will (Sprawl and Disengage is in the list), the inverted player has surrendered frame strength and back exposure, and the top's retention is 80 vs the bottom's 55 — the top holds this exchange well while pressing eleven passing options. The attacking sign is right BJJ; the '/Controlling' half mildly overclaims (nothing is pinned or gripped), and plain 'Offensive' would match the corpus's other guard-passing tops, but that nuance does not change the dominance axis, so no edit is needed. The counter-leg-lock duty is real but is risk flavor, already carried by risk_level, not the position's sign."
-  },
-  "Grasshopper Guard Bottom": {
-   "ruling": "word_right",
-   "reasoning": "The inverted grasshopper player is a leg-attack specialist: the transitions list is almost entirely offense — kneebar, straight ankle, rolling kneebar, heel hook, SLX/inside-ashi/50-50 entries, elevation sweeps, berimbolo — with submission probability 45. Inversion costs safety (back exposure, being flattened), but that is risk, correctly authored 'Medium to High', not the attacking/defending axis. This player is hunting; 'Offensive' is right BJJ and the -0.040 metric disagrees wrongly."
-  },
-  "Butterfly Half Guard Top": {
-   "ruling": "word_right",
-   "reasoning": "The top player in butterfly half has not passed and is inside a live elevation-sweep system (100% sweep, old school, waiter, deep half entries) — the initiative belongs to the bottom, which is why people play this guard. The top's game is defend-first (kill the hook, flatten, whizzer/crossface) with passing as the offensive option, which is precisely what 'Defensive with offensive options' says. Mirrors the corpus's own coherent pairing with the 'Offensive' bottom role; the flagged disagreement is a scoring artifact, not a wrong word."
-  },
-  "Butterfly Half Guard Bottom": {
-   "ruling": "word_right",
-   "reasoning": "Butterfly half bottom is one of the most offensive modern guards: underhook plus butterfly hook elevation feeding 100% sweep, old school, waiter, kimura sweep, back takes, deep half and X-guard entries — retention 72 and advancement 68 back it up. On the attacking/defending axis this player is unambiguously the attacker in the exchange; sweeps are the offense even at submission probability 32. 'Offensive' is correct BJJ and the -0.074 score is the bottom-position bias."
-  },
-  "Deep Half Guard Top": {
-   "ruling": "word_right",
-   "reasoning": "The file's own read is the correct one: you are 'technically on top' but the opponent has burrowed under your hips with your far leg controlled, and the position is deceptive because the sweep danger is constant. The top player's first job is killing the underhook/leg control (whizzer, crossface, backstep) — defense — before any pass, which is exactly 'Defensive with offensive options'. That is the standard analysis of deep half in the literature, so the word stands and the metrics merely agree-in-magnitude with the defensive lean."
-  },
-  "Jailbreak Top": {
-   "ruling": "word_right",
-   "reasoning": "The top player here is the passer: transitions are all passes (Leg Weave, Smash, Knee Slice, Underhook) plus Darce Setup and Front Headlock to Back, with advancement 72% and retention 78%. The bottom player is explicitly escaping crushing pressure; the top player holds the positional and submission initiative. 'Offensive' is the correct sign — the slightly negative metric just reflects the position's instability, not who is attacking."
-  },
-  "Jailbreak Bottom": {
-   "ruling": "word_right",
-   "reasoning": "This role is an escape state by definition — explosive inversion off an underhook to reach turtle, guard recovery, or a back take when the opponent follows the roll. Its transitions are dominated by recovery (Guard Recovery 20-22%, Lockdown Recovery, Jailbreak to Turtle) with genuine counter-offense (Old School Sweep, back-take chains). 'Defensive with offensive options' is exactly what the literature would call a compromised-half-guard escape platform."
-  },
-  "Kneebar Control Bottom": {
-   "ruling": "word_right",
-   "reasoning": "This is the canonical 'bottom player is the attacker' case the house rules name: the bottom practitioner has isolated the opponent's leg in an ashi configuration with hips aligned against the knee, and their transitions are Kneebar Finish, Heel Hook, Toe Hold, Ankle Lock, and further entanglement entries. Submission-threat initiative is entirely theirs; the Medium-to-High risk reflects mutual leg-entanglement exposure, not a defensive posture. 'Offensive' is correct; the negative metric is exactly the top/bottom-vs-attacking/defending confusion the authored word exists to override."
-  },
-  "Inverted Lasso Guard Top": {
-   "ruling": "word_right",
-   "reasoning": "The top player is facing an inverting berimbolo threat — the overview calls it 'one of the most challenging defensive positions in modern sport jiu-jitsu', submission probability is just 22%, and the bottom role (authored 'Offensive') holds the sweep and back-take initiative. The top player's offense is real but reactive counter-passing (stack, cartwheel) against the inversion. 'Defensive with offensive options' captures that exactly."
-  },
-  "Lasso Guard Bottom": {
-   "ruling": "word_right",
-   "reasoning": "Gi lasso guard is a classic attacking guard: the shin-on-tricep lever removes the trapped arm from the passer's base and feeds directly into sickle sweeps, triangles, omoplatas, and berimbolo — exactly this role's transition list, with retention 68% and submission probability 38%. The guard player holds the sweep and submission initiative; the top role is correctly authored 'Defensive'. The -0.056 metric is arithmetic noise against a clearly correct word."
-  },
-  "Leg Hook Top": {
-   "ruling": "word_right",
-   "reasoning": "Per this corpus's definition, Leg Hook Top is a passer who has already hooked the defending leg mid-pass — 'a powerful mechanical advantage for completing the pass', retention 75%, advancement 70%, and a transition list that is passes end to end. That is a controlling, advancing role, matching the corpus's use of 'Offensive/Controlling' for passing platforms like Leg Weave Top. The word is right BJJ."
-  },
-  "Leg Hook Bottom": {
-   "ruling": "word_right",
-   "reasoning": "The bottom player is fighting off a pass in progress, using leg hooks to slow the passer's base while working recoveries — Deep Half Entry, Frame and Shrimp, Half Guard Recovery — with sweep options (Old School, Underhook Sweep) as the counter-offense. Survival and guard recovery dominate the role; the offense is conditional. 'Defensive with offensive options' is the accurate word."
-  },
-  "Leg Weave Top": {
-   "ruling": "word_right",
-   "reasoning": "The leg weave is a dominant smash-passing control: the top player has pinned the half-guard player flat, neutralized the knee shield, and is choosing among knee-slice, leg-drag, and smash finishes — and the bottom role's own metrics (retention 42%, advancement 38%, risk High, authored 'Defensive') confirm who is winning this exchange. 'Offensive/Controlling' is unambiguously correct; -0.232 is the clearest case in the batch of the arithmetic being wrong, not the word."
-  },
-  "Matrix Bottom": {
-   "ruling": "word_right",
-   "reasoning": "The Matrix is by definition an attacking movement — an inverted rolling back take launched from turtle and bottom scrambles, which the file calls 'one of the most effective offensive weapons available from seemingly defensive positions'. Its primary transitions are Matrix Back Take, Arm Drag to Back, and Berimbolo Entry, and the Top role is coherently authored 'Defensive' (defending the back take). The bottom player holds the initiative here, so 'Offensive' is right despite the seemingly-defensive turtle context."
-  },
-  "Flattened Half Guard Top": {
-   "ruling": "word_right",
-   "reasoning": "The top player here has won the upper-body war: chest-to-chest pin, crossface, opponent's breathing compromised, 68% advancement to the pass plus kimura/arm-triangle/darce threats, while the file authors the bottom role as pure survival and frame recovery. That is the attacking-and-controlling side in exactly the literature's sense. The negative bare score is a formula artifact (point_value 0 and the risk penalty outweighing the sub/advancement terms on every 0-point guard position), not bad authoring."
-  },
-  "Knee Shield Half Guard Top": {
-   "ruling": "word_right",
-   "reasoning": "This role is the passer holding the initiative — every authored transition is a pass (knee slice, smash, long step, body lock) with 58% advancement and a 25% submission metric, and the opposing role's own text names retention as its first job. The shield slows the pass but does not make the passer the defending party; he is the one attacking the frame. The word is right; the metrics' negative sign is the 0-point formula artifact."
-  },
-  "Knee Shield Half Guard Bottom": {
-   "ruling": "word_right",
-   "reasoning": "The role is defending-first (retention, distance management via the shin frame) with genuine counters — old school/underhook sweeps, kimura, back take — which is exactly what 'Defensive with offensive options' says, and that plain meaning AGREES with the negative metric sign. The flag is manufactured: position_role_strength (scripts/score_graph_nodes.py:118) matches the substring 'offensive' inside 'offensive options' before the elif 'defensive', so all 40 corpus roles authored with this phrase compute as POSITIVE at runtime, inverting the author's intent. Fix the parser precedence (test the leading word, or let 'defensive' win when both substrings appear), not the content."
-  },
-  "Old School Top": {
-   "ruling": "word_right",
-   "reasoning": "Being on top of a locked-in Old School — opponent owns the lockdown, a deep underhook and head control — is a defensive assignment: whizzer, base, kill the underhook, and the file's own overview calls it 'a defensive counter-position used when caught in an opponent's lockdown'. The bottom player is the one attacking the sweep and Electric Chair, so the authored word is correct BJJ and actually agrees with the negative arithmetic. The disagreement exists only because the 'offensive'-substring parse in score_graph_nodes.py reads the phrase as attacking — the same precedence bug as the other 'Defensive with offensive options' roles."
-  },
-  "Old School Bottom": {
-   "ruling": "word_right",
-   "reasoning": "Lockdown plus deep underhook plus head control is the canonical bottom-player attack in the sport: Old School sweep to mount, Electric Chair, back takes, with 68% advancement and a 38% submission metric authored in this very file. The underhook/lockdown player controls the kuzushi in this exchange — 'Offensive' is precisely the literature's word for a sweep-first attacking guard, and the -0.032 bare score is noise from the 0-point formula. This is the clearest case in the batch that the attacking/defending axis is not top/bottom."
-  },
-  "Pocket Half Guard Top": {
-   "ruling": "word_right",
-   "reasoning": "As authored, this top role has already won the exchange: the opponent is flattened, chest pressure and crossface established, passing at 68% advancement with darce setups on the menu — offensive and controlling by any reading. The word is right and the -0.044 bare score is the same 0-point formula artifact. Separate content nit worth noting: the hub's two role overviews disagree about who owns the pocket underhook (the summary says the bottom, the top overview says the top), but the top role as written is unambiguously the dominant passer."
-  },
-  "Reverse Half Guard Top": {
-   "ruling": "word_right",
-   "reasoning": "The passer has circled behind the half guard and trapped the leg from a back-exposed angle: 78% advancement, crab-ride and back-take threats, 42% submission metric, while the bottom role's transition list is recovery/escape/invert-heavy. That is an attacking role on the literature's axis, full stop. Word right; the -0.020 bare score is the formula artifact on a 0-point position."
-  },
-  "Reverse Half Guard Bottom": {
-   "ruling": "word_right",
-   "reasoning": "Facing away with your back toward the opponent's chest is a compromised, explicitly transitional spot (15-30 seconds authored) — the transitions are recovery, escape and inversion first, with opportunistic sweeps and back takes off the scramble, which is precisely 'defensive with offensive options' and agrees with the negative metric sign. The flag comes solely from the substring parse in score_graph_nodes.py treating the phrase as offensive at runtime. Same precedence bug; keep the word, fix the code."
-  },
-  "Z-Lock Half Guard Top": {
-   "ruling": "word_right",
-   "reasoning": "As authored, this role has neutralized the lockdown, blocked the hip, and holds an 80% retention metric while chaining knee slice/smash/underhook passes plus a darce — dominant control graduating into passing offense, which is what 'Offensive/Controlling' names. The negative bare score is the recurring 0-point-plus-risk formula artifact, not a content error."
-  },
-  "Z-Lock Half Guard Bottom": {
-   "ruling": "word_right",
-   "reasoning": "Lockdown-plus-butterfly-hook is a real attacking platform (Old School sweep, Electric Chair, butterfly sweep), but the role as authored is still a guard fighting off a passer — retention plus counters, i.e. the compound word's plain meaning, which matches the negative metric sign. Of the compound cases this sits closest to neutral since 10th Planet players run it offense-first, but 'Defensive with offensive options' is defensible BJJ. The flagged disagreement is again the 'offensive'-substring precedence bug in score_graph_nodes.py, not the authoring."
-  },
-  "Half Guard Top": {
-   "ruling": "word_right",
-   "reasoning": "Half guard top is the advancing side of the exchange: the entire authored transition list is passes plus real submission offense (darce entries via combat base, loop choke, Suloev stretch), and the corpus authors the opposing hub role plain 'Defensive'. Modern half guard bottom is dangerous, but on the attacking/defending axis the passer holds the initiative and the positional threat — one pass from side control, scoring on the IBJJF ladder. Word right; the -0.046 is the 0-point formula artifact."
-  },
-  "Inverted Guard Bottom": {
-   "ruling": "word_right",
-   "reasoning": "Inversion serves both retention (spinning under to deny the pass) and attack (berimbolo, rolling back take, leg-entanglement entries), but the file authors it as a 5-15 second transitional posture where static holding loses — 'defensive with offensive options' is a fair call and agrees with the mildly negative metrics ('Transitional' would also be defensible, but the current word is not wrong BJJ). The flag exists only because the substring parse in score_graph_nodes.py reads 'offensive options' as an offensive classification at runtime — the same precedence bug affecting all 40 roles authored with this phrase."
-  },
-  "Crackhead Control Bottom": {
-   "ruling": "word_right",
-   "reasoning": "This is the submission-hunting role of the whole position: deep overhook anchoring a gogoplata/omoplata/triangle chain, sub probability 45, advancement 65, and every transition is an attack or sweep. The file itself defines the position as trading back exposure for submission access — the bottom player is unambiguously the attacker in the Danaher sense (his grips and leg lever dictate the exchange). The negative metric score is an arithmetic artifact of the High risk_level penalty, not a claim about who is attacking. 'Offensive' is correct BJJ."
-  },
-  "Zombie Top": {
-   "ruling": "word_right",
-   "reasoning": "The top player has already passed the initial guard frames (per prerequisites), holds crossface/whizzer and top pressure, and his entire transition set is passes, back takes, and front-headlock chokes off the opponent's turtle — positional advancement, the literature's definition of attacking. The lockdown restricts one leg but the upper-body controls that dictate the exchange are his; the bottom player is the one in survival mode. Lachlan Giles frames this exact scenario as the passer solving a puzzle, not surviving one. 'Offensive/Controlling' is correct BJJ."
-  },
-  "Rubber Guard Bottom": {
-   "ruling": "word_right",
-   "reasoning": "Rubber guard is 10th Planet's signature offensive control system from the bottom: the high leg breaks posture and traps an arm, opening triangles, omoplatas, and gogoplatas — sub probability 45 and a transition list that is nearly all attacks and control entries (Mission Control, New York, Crackhead). The bottom player's mission-control grip is what dictates the top player's posture, which is exactly the attacking/controlling role the literature describes; the corpus correctly pairs it with a 'Defensive' top. The -0.035 score is noise from the risk term. 'Offensive/Controlling' is correct BJJ."
-  },
-  "Seated Guard Top": {
-   "ruling": "word_right",
-   "reasoning": "This is the free-agent passer standing over a seated opponent: no grips are established on him by definition, all nine transitions are passes, and he chooses when and how to engage. Passing is positional advancement — the attacking half of the guard exchange in both IBJJF scoring and the literature's attacking/defending axis. Unlike spider or squid top, nothing here has him caught in the guard's control web. 'Offensive' is correct BJJ; the -0.112 is driven by a low top-side submission number, which does not make a passer a defender."
-  },
-  "Seated Guard Bottom": {
-   "ruling": "word_right",
-   "reasoning": "The seated guard player both manages the pass threat and generates offense — butterfly/scissor/tripod sweeps, SLX entries, wrestle-ups — which is precisely what the hedged phrase describes, and it is the standard way to characterize an intact guard whose offense requires grips to come online first. At runtime the phrase signs positive (attacking), which matches the honest read: with sub 42 and advancement 60 the seated player is the one initiating entanglements in the modern meta. Word stands; no edit needed."
-  },
-  "Shin-to-Shin Guard Bottom": {
-   "ruling": "word_right",
-   "reasoning": "Shin-to-shin is an entry guard: the perpendicular shin lever is an already-established offensive connection used to off-balance and feed Single Leg X, X-guard, and leg entanglements, and the transition list is entirely sweeps and entries. The hedged phrase is a fair description of a guard that still has to manage a passer, and its runtime positive sign matches the honest read — the bottom player's lever is what dictates the top player's base. Word stands."
-  },
-  "Spider Guard Bottom": {
-   "ruling": "word_right",
-   "reasoning": "If anything the phrase understates this role — spider guard with double sleeve control and feet on the biceps is a classic offense-first gi guard (triangles, omoplatas, balloon sweep, armbar setups, sub 42) whose grips own the opponent's posture. The runtime reading of the phrase is attacking-signed, which is the correct BJJ sign for this player, so the word already produces the right result and the hedge remains a defensible description of a guard that also retains. No edit needed."
-  },
-  "Squid Guard Bottom": {
-   "ruling": "word_right",
-   "reasoning": "Squid guard is a Keenan-school lapel guard built to attack: the threaded leg plus lapel control off-balances the passer, and the transition list is berimbolo entries, X-guard and SLX sweeps, and omoplata-to-back — sweep and back-take threats with sub 40. The bottom player's lapel grip is the control that dictates the top player's posture, which is the attacking role. The -0.066 is arithmetic noise; 'Offensive' is correct BJJ."
-  },
-  "Standing Guard Top": {
-   "ruling": "word_right",
-   "reasoning": "Despite the hub's neutral standup framing, this role page is explicitly the standing passer over an established open guard: retention 75, every transition a pass (plus a takedown), no grips established on him by definition. He holds the initiative — he chooses the engagement and his whole game is positional advancement, the attacking half of the exchange. The -0.225 comes from the low top-side submission number (12), which is normal for passers and says nothing about who is attacking. 'Offensive' is correct BJJ."
-  },
-  "Open Guard Top": {
-   "ruling": "word_right",
-   "reasoning": "The passer in a generic, unestablished open guard is the attacking player of the passing exchange: the role authors 12 passes (toreando, knee slice, leg drag, stack...) and its whole project is positional advancement, which the IBJJF ladder scores as offense. He is not trapped the way Closed Guard Top (corpus: Defensive) is — legs are open, hips free, engagement is his to initiate — so the positive sign is right BJJ and coherent with the corpus gradient (open the closed guard and you become the attacker). The metric's -0.315 comes from submission_probability=5 underweighting positional offense; the word wins correctly."
-  },
-  "Open Guard Bottom": {
-   "ruling": "word_right",
-   "reasoning": "The open guard player is an attacking player in the Danaher sense — the role authors 20 moves that are nearly all offense: butterfly/DLR/scissor/tripod sweeps, arm drags to the back, triangle and belly-down armbar, entries to attacking guards. 'Defensive with offensive options' parses positive at runtime, which is the correct sign: guard prevents the pass while generating sweep and submission threats. Both open-guard roles being mildly positive matches the corpus's mutual-offense treatment of DLR/X-Guard/Worm. No edit needed."
-  },
-  "Overhook Control Bottom": {
-   "ruling": "word_right",
-   "reasoning": "A bottom overhook (whizzer from guard) kills the opponent's posting arm and posture — the role authors triangle setup, omoplata, arm drag to back, and five sweeps, with submission_probability 42, which is genuine attacking control from guard. The positive sign the word produces at runtime is right BJJ; the -0.059 is arithmetic noise from the risk penalty. The word already wins correctly."
-  },
-  "Overhook Guard Top": {
-   "ruling": "word_right",
-   "reasoning": "The file's invariants explicitly author this as the TOP player having secured the overhook on the bottom player's frame arm — 'eliminating bottom player's ability to frame on that side', chest-to-chest pressure, bottom flattened with one arm trapped. A passer who has removed a frame arm and flattened the guard player is attacking AND controlling (metrics agree: retention 73, advancement 66, risk Low-Medium; smash/knee-slice/over-under passes authored). 'Offensive/Controlling' is right for the state as authored; the -0.089 is a small arithmetic accident."
-  },
-  "Piranha Guard Bottom": {
-   "ruling": "word_right",
-   "reasoning": "The piranha player is the attacker of the exchange: the fed lapel anchors the passer while the role authors pendulum/flower sweeps, collar drags, berimbolo entries, arm drag to back, and triangle setups, with submission_probability 42. This is worm-family lapel guard offense — the literature treats the locked-in passer as the defending player. Positive sign is right BJJ; the -0.028 is noise. Word wins correctly."
-  },
-  "Quarter Guard Top": {
-   "ruling": "word_right",
-   "reasoning": "Quarter guard top is a pass three-quarters completed — knee past the hip line, only a shin/foot caught — with crossface and underhook control authored, advancement_probability 78, and live kimura/darce threats (submission 38). The top player is unambiguously the advancing, controlling player one step from side control; 'Offensive/Controlling' is exactly right and the -0.024 is arithmetic noise, not a signal."
-  },
-  "Ringworm Guard Bottom": {
-   "ruling": "word_right",
-   "reasoning": "The ringworm (worm-guard family) player is the attacker: the lapel wrap immobilizes the top player while the role authors Ringworm Sweep to Back Control, Lapel Sweep to Back, berimbolo, triangle, and omoplata (submission 38, retention 68), and the corpus consistently authors this file's top role as Defensive. The positive sign the word produces at runtime is right BJJ — Keenan-system lapel guards are bottom-dominant once established. No edit needed."
-  },
-  "Rodeo Ride Top": {
-   "ruling": "word_right",
-   "reasoning": "Riding a turtled opponent is a dominant attacking position: the role authors back takes, crucifix, clock choke, bow-and-arrow, RNC, and calf slicer, with retention 72 and advancement 68 — the turtled player underneath is purely surviving. 'Offensive/Controlling' is textbook-correct for a wrestling ride over turtle; the -0.032 is arithmetic noise from the risk penalty. Word wins correctly."
-  },
-  "Chill Dog Top": {
-   "ruling": "word_right",
-   "reasoning": "As this file authors it, Chill Dog is a compact defensive turtle shell and the top player is the one attacking it — back control entries, crucifix, darce/anaconda/guillotine setups, truck entry, with submission_probability 42 — while the bottom role is authored Defensive with 'survival and escape' as its stated objective. Plain 'Offensive' is even the precisely right token, since the compact shell denies established control. Positive sign correct; -0.028 is noise."
-  },
-  "Standing Guard Bottom": {
-   "ruling": "word_right",
-   "reasoning": "This is essentially a neutral standing exchange: the role's transitions are guard pulls, arm drags to the back, ankle picks, double/single entries and snap downs — real initiative, not survival. The player is reactive in the grip fight (preventing grips, managing distance) but holds live counters, which is exactly what 'Defensive with offensive options' describes, and it mirrors the corpus's Open Guard bottom convention. The metric disagreement is -0.078 — noise around zero — so the word's runtime-positive sign misleads nobody."
-  },
-  "Worm Guard Bottom": {
-   "ruling": "word_right",
-   "reasoning": "Worm guard bottom is the whole point of Keenan's system: the lapel controls the passer's leg and posture, and the role's transitions are all attacks — omoplata sweep, triangle setup, omoplata to back, elevator and bolo sweeps, collar drags. The bottom player controls the exchange in the gi; 'Offensive' is exactly the literature's read. The -0.056 metric is an arithmetic accident, not a positional truth."
-  },
-  "Reverse X-Guard Bottom": {
-   "ruling": "word_right",
-   "reasoning": "Reverse X bottom controls the opponent's leg and base with both hooks and the transitions are all offense: reverse X sweep, elevation sweep to mount, back take, and entries to SLX and Ashi Garami. The bottom player initiates and dictates the exchange — 'Offensive' is the correct call for this X-guard-family sweeping platform. The -0.056 metric is noise, same failure shape as X-Guard bottom's."
-  },
-  "X-Guard Bottom": {
-   "ruling": "word_right",
-   "reasoning": "X-guard bottom is Marcelo Garcia's signature sweeping platform — both legs wedged in an X on one leg, the top player's base structurally broken, and the transitions list is all initiative: X-guard sweep, tomahawk, SLX/Ashi entries, ankle lock, technical stand-up to single leg. The bottom player controls the exchange; 'Offensive' is unambiguously the literature's classification. The -0.056 score is the metrics being wrong, not the word."
-  },
-  "Z-Guard Top": {
-   "ruling": "word_right",
-   "reasoning": "Z-guard is a half-guard variation and the corpus's Half Guard authors top=Offensive; the z-guard bottom's own overview describes framing against 'the top player's pressure' — the top is the pressuring, advancing party. This role's transitions are entirely passes (knee slice x3, smash, long step, underhook, backstep): the passer holds the initiative and the knee shield is a delaying frame, not a control that reverses the exchange. The -0.217 metric is the arithmetic to distrust here, not the word."
-  },
-  "Z-Guard Bottom": {
-   "ruling": "word_right",
-   "reasoning": "'Defensive with offensive options' is the textbook description of knee shield half guard: the shield is fundamentally a frame against pressure, yet the position carries a real attacking game (old school, underhook sweep, X-guard entries, back takes, electric chair — and specialists like Craig Jones run their offense from here). The authored phrase captures exactly that dual nature and matches how the corpus words comparable hybrid guards. The runtime-positive sign at a mere 0.076 magnitude is defensible for a modern meta guard players choose deliberately."
-  },
-  "Guillotine Control Bottom": {
-   "ruling": "word_corrected",
-   "new_word": "Offensive/Controlling",
-   "reasoning": "The bottom player here has a clasped-hands guillotine locked around the opponent's neck — the file's own overview says it 'transforms defensive bottom play into an immediate offensive threat', submission probability is 52, and the transitions are guillotine finishes, high-elbow variations, and sweeps off the choke reaction. The opponent is the one defending (their listed outs are Von Flue and posture escapes — the classic counters to a bottom guillotine). This is a submission-control state for the bottom player, exactly like Triangle or Gogoplata Control: 'Defensive with offensive options' misclassifies the attacker as the defender. It should carry the same 'Offensive/Controlling' the Top role already wears."
-  },
-  "Deep Half Guard Bottom": {
-   "ruling": "word_corrected",
-   "new_word": "Offensive",
-   "reasoning": "Deep half is a position you dive into to attack, not one you survive in: the entire transitions list is offense — waiter, old school, Homer Simpson, back takes, electric chair, X-guard and SLX entries — with zero escape or recovery entries, and the literature (Faria's and Glover's whole games) treats it as a sweeping offense platform that weaponizes the top player's own weight. The corpus's own sibling pattern proves the point: Butterfly Half is authored top 'Defensive with offensive options' / bottom 'Offensive', and deep half bottom is at least as offensive as butterfly half bottom. 'Defensive with offensive options' misclassifies the attacking side of this exchange; it should be 'Offensive'."
-  },
-  "K-Guard Bottom": {
-   "ruling": "word_corrected",
-   "new_word": "Offensive",
-   "reasoning": "K-guard is not a retention guard you survive in — it is an entry system you choose in order to attack: this role's transitions are almost entirely sweeps and attacking entries (X-Guard Sweep, Single Leg X, Deep Half, Old School, Waiter, Back Take, 50-50 Entry) with only one recovery move listed. The K-guard player holds the initiative in the exchange — the top player's trapped leg and split base are the position's whole mechanism. 'Defensive with offensive options' is the word for jailbreak-style escape states and undersells this; the literature treats K-guard as an offensive guard, so 'Offensive' is correct — and it coheres with correcting the Top role to Defensive."
+  "note": "Positions whose authored position_type was RULED CORRECT by the 2026-08-17 black-belt adjudication panel (2 independent experts per change; word_right = the word stands, the metrics merely disagree and the word wins at runtime). check_position_type_vs_score consults this list and reports these as info, not warnings. Remove an entry to re-open it.",
+  "reviewed": {
+    "Backside 50-50 Top": {
+      "ruling": "word_right",
+      "reasoning": "Unlike standard 50-50, the back-facing orientation genuinely breaks symmetry: the chest-to-back player has pressure that pins the hips, full visual access to the entanglement, and the dual threat of heel hooks or abandoning legs for back control/saddle. The role's transitions are all attacks and advancement (toe hold, kneebar, back take, saddle entry, outside heel hook at 23% no-gi, pass). This is exactly how Craig Jones/Lachlan Giles-school material treats backside 50-50 for the player behind. 'Offensive/Controlling' is correct; the -0.056 score is an artifact of both roles sharing identical position_metrics."
+    },
+    "Backside 50-50 Bottom": {
+      "ruling": "word_right",
+      "reasoning": "The back-exposed player is defending first — the role's dominant transitions are stand up (24% gi), ashi escape, counter-entangle to 50-50, and hip escape to guard — but because the legs remain in the mirrored 50-50 lock, the counter heel hook and ankle lock threats are real, not decorative (counter heel hook 11% no-gi, outside heel hook 10%). 'Defensive with offensive options' is precisely the right BJJ description of that state. Note the word's negative sign actually agrees with the -0.056 metric; the flag looks like the composite phrase failing the checker's vocabulary parse rather than a substantive disagreement — if the pipeline ever needs a vocabulary-normalized word, 'Defensive' is the closest, but the authored phrase is correct."
+    },
+    "Inside Ashi-Garami Top": {
+      "ruling": "word_right",
+      "reasoning": "As authored, the top role is the entangling player — inside leg across the near hip, outside leg hooked behind the knee, C-grip on the heel — which is the standard ashi/SLX attacking platform of every modern leg-lock system. Its transitions are all attacks and advancement (heel hook 25% no-gi, toe hold, honey hole progression, saddle, back take), while the bottom role is authored Defensive with survival/extraction transitions. The counter-exposure inherent to ashi positions does not make the entangler a defender; 'Offensive' is correct BJJ and the metrics' -0.056 is the shared-metrics artifact."
+    },
+    "Outside Ashi-Garami Bottom": {
+      "ruling": "word_right",
+      "reasoning": "This file assigns roles by elevation, and the BOTTOM player is the entangler — the hub overview states it outright: 'Outside Ashi-Garami exists as both an offensive attacking position (bottom perspective) and a defensive survival position (top perspective)'. The bottom player holds the figure-four from the outside angle and threatens outside heel hooks, ankle locks, and advancement to inside ashi/saddle, while the top role (authored Defensive, correctly) works extraction. This is precisely the case the house rules exist for — the attacking player is underneath — so 'Offensive' is right and the negative metric score must not flip it."
+    },
+    "Ushiro Ashi-Garami Top": {
+      "ruling": "word_right",
+      "reasoning": "The top role is the attacker who maintained the entanglement through the opponent's inversion escape: the overview frames it as 'maintaining offensive pressure throughout the opponent's defensive movements', with heel hook finishes, saddle transitions, and back-control follow-ups as the role's content, while the bottom role's stated priority is clearing the legs entirely. The reversed configuration weakens finishing leverage relative to standard ashi (which is why the score drifts to -0.065), and one could argue 'Transitional', but on the attacking/defending axis the role is attacking. 'Offensive' is correct."
+    },
+    "Ashi Garami Bottom": {
+      "ruling": "word_right",
+      "reasoning": "The hub's bottom role is the player running the ashi garami — 'offensive leg entanglement opportunities where you control your opponent's leg(s)' — with a hand of inside ashi entry, heel hook, straight ankle, toe hold, kneebar setup, 50-50 entry, back take, and Aoki lock, while the top role (authored Defensive) holds the trapped leg and works escapes. The player laying back with the opponent's leg captured is the attacker regardless of being 'bottom'; this is the textbook non-top/bottom dominance case. 'Offensive' is correct BJJ."
+    },
+    "Butterfly Hook Control Top": {
+      "ruling": "word_right",
+      "reasoning": "This position names the state where both butterfly hooks are engaged under the thighs — the seated player's established attacking cycle — and against live hooks the top player's first-order job is defensive: kill elevation, deny underhooks, control posture, because every pass in their 13-pass hand runs through first neutralizing the hooks (the Danaher-school 'you cannot pass butterfly until you deal with the hooks'). 'Defensive with offensive options' captures exactly that, is consistent with the parent Butterfly Guard authoring top as 'Defensive', and its negative sign agrees with the -0.150 metric — the strongest hint that this flag is the composite phrase failing to parse, not a BJJ error. Contrast Half Butterfly Top (correctly 'Offensive'), where one side is already cleared and initiative has flipped to the passer."
+    },
+    "Butterfly Hook Control Bottom": {
+      "ruling": "word_right",
+      "reasoning": "Butterfly with engaged hooks is one of the sport's clearest attacking guards: the insteps own the kuzushi, and the role's transitions are sweeps in every direction, arm drags to the back, guillotines, and X-guard/SLX entries — no survival moves at all. The literature is unanimous that the seated hook player holds the initiative here. 'Offensive' is correct; the negative metric score is arithmetic noise against a correctly authored word."
+    },
+    "Half Butterfly Top": {
+      "ruling": "word_right",
+      "reasoning": "As authored, this is the mid-pass juncture — the top player has already passed one side and is killing the last hook, with a hand that is entirely passes (knee slice, smash, underhook, body lock, leg weave). On the advancement-vs-survival axis the role is executing positional offense with the initiative, consistent with the corpus authoring Half Guard/DLR/X-Guard tops as 'Offensive'. One could quibble toward 'Transitional', but 'Offensive' does not misclassify; the -0.094 score should not flip it."
+    },
+    "Half Butterfly Bottom": {
+      "ruling": "word_right",
+      "reasoning": "Half butterfly is the modern attacking half guard: the hook restores elevation kuzushi that flat half guard lacks, and the role's transitions are sweeps and advancement throughout (butterfly/old school/hook/underhook sweeps, dogfight, rolling back take, X-guard entry). The file itself draws the contrast — 'unlike traditional half guard which can be more defensive'. Both roles being Offensive is fine here; a hybrid guard with a live hook is a mutual-offense exchange, and the literature (the Lachlan/Danaher half-butterfly systems) treats the bottom player as attacking. 'Offensive' is correct."
+    },
+    "Butterfly Guard Bottom": {
+      "ruling": "word_right",
+      "reasoning": "Butterfly bottom is the canonical attacking seated guard: elevation hooks under the opponent's center of mass drive butterfly/elevator sweeps, arm drags to the back, X-guard and SLX entries, plus guillotine and kimura threats — its transitions[] is almost entirely sweeps, back-takes, and submissions. The top player is the one managing base and defending elevation. On the literature's attacking/defending axis this role is unambiguously the attacker; the -0.090 metric is small noise from the 0 point_value and medium risk, not a signal."
+    },
+    "Diamond Guard Bottom": {
+      "ruling": "word_right",
+      "reasoning": "Diamond guard bottom is a closed-guard overhook-plus-head-control configuration: the bottom player owns the posture break and chains triangle, omoplata, kimura, and hip-bump/scissor sweeps — its transitions[] is all submissions and sweeps. Like rubber guard or high guard, this is the attacking-and-controlling role in the exchange; the top player is defending posture and hunting an overhook strip. 'Offensive/Controlling' is exactly right, and the -0.030 score is essentially zero anyway."
+    },
+    "Closed Guard Bottom": {
+      "ruling": "word_right",
+      "reasoning": "Closed guard bottom is the textbook case the house rule was written for: the bottom player wraps and controls the torso, breaks posture, and attacks with a 30+ item arsenal of sweeps and submissions (armbar, triangle, kimura, hip bump, scissor), while the top player is locked in, cannot pass without first opening the guard, and defends. The literature is unanimous that the guard player is the attacker here despite being underneath. The -0.028 metric disagreement is noise from point_value 0."
+    },
+    "Reverse De La Riva Guard Top": {
+      "ruling": "word_right",
+      "reasoning": "The RDLR top player is a standing passer with both hands free and the tempo initiative: all ten of its transitions are passes (knee slice, leg drag, smash, backstep counter), i.e. positional advancement, which the literature's axis counts as attacking. The bottom's berimbolo/kiss-of-the-dragon threats are real, but they are reactive to the passer's motion — this is a mutually offensive open-guard exchange, not a trapped-defender scenario like closed or clamp guard top. 'Offensive' is defensible BJJ and the -0.086 metric is near-neutral noise."
+    },
+    "Reverse De La Riva Guard Bottom": {
+      "ruling": "word_right",
+      "reasoning": "RDLR bottom is one of the premier modern attacking guards: the inverted hook generates rotational kuzushi feeding berimbolo and kiss-of-the-dragon back-takes, waiter sweeps, and X-guard/SLX entries — its transitions[] is entirely sweeps, back-takes, and guard upgrades, with authored advancement 65 and submission 42. This is the attacking role by any competition-meta reading. The word is right; the -0.046 score is noise."
+    },
+    "De La Riva Guard Top": {
+      "ruling": "word_right",
+      "reasoning": "The DLR top player stands with free hands and drives the passing exchange — all thirteen transitions are passes (toreando, leg drag, knee slice, backstep), and modern passing meta treats the standing passer as dictating tempo against DLR. Positional advancement is offense on the literature's axis, distinguishing this from trapped guard-tops (closed, clamp) that are genuinely defending. 'Offensive' is a fair call for a near-neutral, mutually offensive exchange; -0.070 is noise from point_value 0."
+    },
+    "De La Riva Guard Bottom": {
+      "ruling": "word_right",
+      "reasoning": "DLR bottom is a famous attacking guard: the outside hook off-balances the lead leg into DLR sweeps, berimbolo back-takes, X-guard/SLX entries, tripod/sickle/balloon sweeps, and triangle/omoplata threats — the entire transitions[] is offense. Since De La Riva and the berimbolo era it has been the definitive example of a bottom player who attacks. The word is right; the -0.126 score reflects the point_value/risk arithmetic, not the position's character."
+    },
+    "Double Jump Top": {
+      "ruling": "word_right",
+      "reasoning": "This role is a crab-ride/rodeo-ride style attack on turtle: bilateral leg hooks inside the thighs with every transition an advancement — Turtle to Back Control, Crab Ride to Back, Truck, Rolling Back Take, Mount, Side Control. The riding player controls the turtled opponent's hips and forces back-take dilemmas; the file itself calls it 'an advanced attacking position.' 'Offensive/Controlling' is correct; the -0.158 score is an artifact of point_value 0 and medium risk."
+    },
+    "Double Sleeve Guard Bottom": {
+      "ruling": "word_right",
+      "reasoning": "This is a gi grip-and-distance management guard: the bottom player has won the grip exchange and holds real sweep options (tripod, sickle, flower, pendulum) plus triangle/omoplata entries once posture breaks, but the position's primary job is denying the passer's grips and feeding into spider/lasso/DLR. Its transitions list is sweeps plus guard recovery, not immediate submission threats — the corpus's own sibling Feet on Hips Bottom carries the same word for the same reason. 'Defensive with offensive options' is correct BJJ for a retention-first platform with genuine attacking options; the -0.106 metric merely undercounts the grip-fighting initiative."
+    },
+    "Estima Lock Control Top": {
+      "ruling": "word_right",
+      "reasoning": "The top player here IS the attacker: figure-four grip on the inverted foot, hip pressure against the calf as the finishing fulcrum, and a transitions list that is entirely attacks (Estima Lock at 36% gi attempt, toe hold, kneebar, saddle/ashi conversions) with submission_probability 42. The bottom role is correctly authored 'Defensive' and its page describes a submission crisis requiring escape protocols. 'Offensive/Controlling' is exactly what a consolidated footlock entanglement is for the controlling player; the -0.086 score is the arithmetic being wrong, not the word."
+    },
+    "Feet on Hips Guard Top": {
+      "ruling": "word_right",
+      "reasoning": "Feet-on-hips is a basic distance-management frame guard, not a dangerous attacking guard — the top player facing it holds the passing initiative, and every transition in the role's list is a pass (toreando, knee slice, leg drag, long step, X pass, body lock). In the literature's sense the passer is the advancing/attacking party here (passing scores, the guard player is denying), and the bottom role is correctly the defensive-leaning side. 'Offensive' is right BJJ for the passer against this guard; the -0.124 metric is the suspect number."
+    },
+    "Feet on Hips Guard Bottom": {
+      "ruling": "word_right",
+      "reasoning": "The file itself states the correct BJJ repeatedly: leg frames provide 'immediate defensive structure', it is a retention/distance-management hub that 'eventually succumbs to persistent pressure' if held statically, with real sweep offense (tripod, sickle, SLX) as the options. That is the textbook 'Defensive with offensive options' guard — deny the pass first, attack off the reactions. The -0.024 score is essentially zero, i.e. near-neutral, which is consistent with a frame guard; no edit needed."
+    },
+    "Gogoplata Control Bottom": {
+      "ruling": "word_right",
+      "reasoning": "This is the canonical case the house rule exists for: the bottom player has a shin across the opponent's throat with the foot hooked behind the head — a live choke plus a closed control loop where escape attempts tighten the submission. Submission probability 45, advancement 68, and the top role is correctly authored 'Defensive' with escape-only transitions. The bottom player is unambiguously the attacker; 'Offensive/Controlling' is correct BJJ and the -0.034 score is a bottom-position bias in the arithmetic."
+    },
+    "Grasshopper Guard Top": {
+      "ruling": "word_right",
+      "reasoning": "Against an inverted guard the top player dictates the engagement: they can disengage at will (Sprawl and Disengage is in the list), the inverted player has surrendered frame strength and back exposure, and the top's retention is 80 vs the bottom's 55 — the top holds this exchange well while pressing eleven passing options. The attacking sign is right BJJ; the '/Controlling' half mildly overclaims (nothing is pinned or gripped), and plain 'Offensive' would match the corpus's other guard-passing tops, but that nuance does not change the dominance axis, so no edit is needed. The counter-leg-lock duty is real but is risk flavor, already carried by risk_level, not the position's sign."
+    },
+    "Grasshopper Guard Bottom": {
+      "ruling": "word_right",
+      "reasoning": "The inverted grasshopper player is a leg-attack specialist: the transitions list is almost entirely offense — kneebar, straight ankle, rolling kneebar, heel hook, SLX/inside-ashi/50-50 entries, elevation sweeps, berimbolo — with submission probability 45. Inversion costs safety (back exposure, being flattened), but that is risk, correctly authored 'Medium to High', not the attacking/defending axis. This player is hunting; 'Offensive' is right BJJ and the -0.040 metric disagrees wrongly."
+    },
+    "Butterfly Half Guard Top": {
+      "ruling": "word_right",
+      "reasoning": "The top player in butterfly half has not passed and is inside a live elevation-sweep system (100% sweep, old school, waiter, deep half entries) — the initiative belongs to the bottom, which is why people play this guard. The top's game is defend-first (kill the hook, flatten, whizzer/crossface) with passing as the offensive option, which is precisely what 'Defensive with offensive options' says. Mirrors the corpus's own coherent pairing with the 'Offensive' bottom role; the flagged disagreement is a scoring artifact, not a wrong word."
+    },
+    "Butterfly Half Guard Bottom": {
+      "ruling": "word_right",
+      "reasoning": "Butterfly half bottom is one of the most offensive modern guards: underhook plus butterfly hook elevation feeding 100% sweep, old school, waiter, kimura sweep, back takes, deep half and X-guard entries — retention 72 and advancement 68 back it up. On the attacking/defending axis this player is unambiguously the attacker in the exchange; sweeps are the offense even at submission probability 32. 'Offensive' is correct BJJ and the -0.074 score is the bottom-position bias."
+    },
+    "Deep Half Guard Top": {
+      "ruling": "word_right",
+      "reasoning": "The file's own read is the correct one: you are 'technically on top' but the opponent has burrowed under your hips with your far leg controlled, and the position is deceptive because the sweep danger is constant. The top player's first job is killing the underhook/leg control (whizzer, crossface, backstep) — defense — before any pass, which is exactly 'Defensive with offensive options'. That is the standard analysis of deep half in the literature, so the word stands and the metrics merely agree-in-magnitude with the defensive lean."
+    },
+    "Jailbreak Top": {
+      "ruling": "word_right",
+      "reasoning": "The top player here is the passer: transitions are all passes (Leg Weave, Smash, Knee Slice, Underhook) plus Darce Setup and Front Headlock to Back, with advancement 72% and retention 78%. The bottom player is explicitly escaping crushing pressure; the top player holds the positional and submission initiative. 'Offensive' is the correct sign — the slightly negative metric just reflects the position's instability, not who is attacking."
+    },
+    "Jailbreak Bottom": {
+      "ruling": "word_right",
+      "reasoning": "This role is an escape state by definition — explosive inversion off an underhook to reach turtle, guard recovery, or a back take when the opponent follows the roll. Its transitions are dominated by recovery (Guard Recovery 20-22%, Lockdown Recovery, Jailbreak to Turtle) with genuine counter-offense (Old School Sweep, back-take chains). 'Defensive with offensive options' is exactly what the literature would call a compromised-half-guard escape platform."
+    },
+    "Kneebar Control Bottom": {
+      "ruling": "word_right",
+      "reasoning": "This is the canonical 'bottom player is the attacker' case the house rules name: the bottom practitioner has isolated the opponent's leg in an ashi configuration with hips aligned against the knee, and their transitions are Kneebar Finish, Heel Hook, Toe Hold, Ankle Lock, and further entanglement entries. Submission-threat initiative is entirely theirs; the Medium-to-High risk reflects mutual leg-entanglement exposure, not a defensive posture. 'Offensive' is correct; the negative metric is exactly the top/bottom-vs-attacking/defending confusion the authored word exists to override."
+    },
+    "Inverted Lasso Guard Top": {
+      "ruling": "word_right",
+      "reasoning": "The top player is facing an inverting berimbolo threat — the overview calls it 'one of the most challenging defensive positions in modern sport jiu-jitsu', submission probability is just 22%, and the bottom role (authored 'Offensive') holds the sweep and back-take initiative. The top player's offense is real but reactive counter-passing (stack, cartwheel) against the inversion. 'Defensive with offensive options' captures that exactly."
+    },
+    "Lasso Guard Bottom": {
+      "ruling": "word_right",
+      "reasoning": "Gi lasso guard is a classic attacking guard: the shin-on-tricep lever removes the trapped arm from the passer's base and feeds directly into sickle sweeps, triangles, omoplatas, and berimbolo — exactly this role's transition list, with retention 68% and submission probability 38%. The guard player holds the sweep and submission initiative; the top role is correctly authored 'Defensive'. The -0.056 metric is arithmetic noise against a clearly correct word."
+    },
+    "Leg Hook Top": {
+      "ruling": "word_right",
+      "reasoning": "Per this corpus's definition, Leg Hook Top is a passer who has already hooked the defending leg mid-pass — 'a powerful mechanical advantage for completing the pass', retention 75%, advancement 70%, and a transition list that is passes end to end. That is a controlling, advancing role, matching the corpus's use of 'Offensive/Controlling' for passing platforms like Leg Weave Top. The word is right BJJ."
+    },
+    "Leg Hook Bottom": {
+      "ruling": "word_right",
+      "reasoning": "The bottom player is fighting off a pass in progress, using leg hooks to slow the passer's base while working recoveries — Deep Half Entry, Frame and Shrimp, Half Guard Recovery — with sweep options (Old School, Underhook Sweep) as the counter-offense. Survival and guard recovery dominate the role; the offense is conditional. 'Defensive with offensive options' is the accurate word."
+    },
+    "Leg Weave Top": {
+      "ruling": "word_right",
+      "reasoning": "The leg weave is a dominant smash-passing control: the top player has pinned the half-guard player flat, neutralized the knee shield, and is choosing among knee-slice, leg-drag, and smash finishes — and the bottom role's own metrics (retention 42%, advancement 38%, risk High, authored 'Defensive') confirm who is winning this exchange. 'Offensive/Controlling' is unambiguously correct; -0.232 is the clearest case in the batch of the arithmetic being wrong, not the word."
+    },
+    "Matrix Bottom": {
+      "ruling": "word_right",
+      "reasoning": "The Matrix is by definition an attacking movement — an inverted rolling back take launched from turtle and bottom scrambles, which the file calls 'one of the most effective offensive weapons available from seemingly defensive positions'. Its primary transitions are Matrix Back Take, Arm Drag to Back, and Berimbolo Entry, and the Top role is coherently authored 'Defensive' (defending the back take). The bottom player holds the initiative here, so 'Offensive' is right despite the seemingly-defensive turtle context."
+    },
+    "Flattened Half Guard Top": {
+      "ruling": "word_right",
+      "reasoning": "The top player here has won the upper-body war: chest-to-chest pin, crossface, opponent's breathing compromised, 68% advancement to the pass plus kimura/arm-triangle/darce threats, while the file authors the bottom role as pure survival and frame recovery. That is the attacking-and-controlling side in exactly the literature's sense. The negative bare score is a formula artifact (point_value 0 and the risk penalty outweighing the sub/advancement terms on every 0-point guard position), not bad authoring."
+    },
+    "Knee Shield Half Guard Top": {
+      "ruling": "word_right",
+      "reasoning": "This role is the passer holding the initiative — every authored transition is a pass (knee slice, smash, long step, body lock) with 58% advancement and a 25% submission metric, and the opposing role's own text names retention as its first job. The shield slows the pass but does not make the passer the defending party; he is the one attacking the frame. The word is right; the metrics' negative sign is the 0-point formula artifact."
+    },
+    "Knee Shield Half Guard Bottom": {
+      "ruling": "word_right",
+      "reasoning": "The role is defending-first (retention, distance management via the shin frame) with genuine counters — old school/underhook sweeps, kimura, back take — which is exactly what 'Defensive with offensive options' says, and that plain meaning AGREES with the negative metric sign. The flag is manufactured: position_role_strength (scripts/score_graph_nodes.py:118) matches the substring 'offensive' inside 'offensive options' before the elif 'defensive', so all 40 corpus roles authored with this phrase compute as POSITIVE at runtime, inverting the author's intent. Fix the parser precedence (test the leading word, or let 'defensive' win when both substrings appear), not the content."
+    },
+    "Old School Top": {
+      "ruling": "word_right",
+      "reasoning": "Being on top of a locked-in Old School — opponent owns the lockdown, a deep underhook and head control — is a defensive assignment: whizzer, base, kill the underhook, and the file's own overview calls it 'a defensive counter-position used when caught in an opponent's lockdown'. The bottom player is the one attacking the sweep and Electric Chair, so the authored word is correct BJJ and actually agrees with the negative arithmetic. The disagreement exists only because the 'offensive'-substring parse in score_graph_nodes.py reads the phrase as attacking — the same precedence bug as the other 'Defensive with offensive options' roles."
+    },
+    "Old School Bottom": {
+      "ruling": "word_right",
+      "reasoning": "Lockdown plus deep underhook plus head control is the canonical bottom-player attack in the sport: Old School sweep to mount, Electric Chair, back takes, with 68% advancement and a 38% submission metric authored in this very file. The underhook/lockdown player controls the kuzushi in this exchange — 'Offensive' is precisely the literature's word for a sweep-first attacking guard, and the -0.032 bare score is noise from the 0-point formula. This is the clearest case in the batch that the attacking/defending axis is not top/bottom."
+    },
+    "Pocket Half Guard Top": {
+      "ruling": "word_right",
+      "reasoning": "As authored, this top role has already won the exchange: the opponent is flattened, chest pressure and crossface established, passing at 68% advancement with darce setups on the menu — offensive and controlling by any reading. The word is right and the -0.044 bare score is the same 0-point formula artifact. Separate content nit worth noting: the hub's two role overviews disagree about who owns the pocket underhook (the summary says the bottom, the top overview says the top), but the top role as written is unambiguously the dominant passer."
+    },
+    "Reverse Half Guard Top": {
+      "ruling": "word_right",
+      "reasoning": "The passer has circled behind the half guard and trapped the leg from a back-exposed angle: 78% advancement, crab-ride and back-take threats, 42% submission metric, while the bottom role's transition list is recovery/escape/invert-heavy. That is an attacking role on the literature's axis, full stop. Word right; the -0.020 bare score is the formula artifact on a 0-point position."
+    },
+    "Reverse Half Guard Bottom": {
+      "ruling": "word_right",
+      "reasoning": "Facing away with your back toward the opponent's chest is a compromised, explicitly transitional spot (15-30 seconds authored) — the transitions are recovery, escape and inversion first, with opportunistic sweeps and back takes off the scramble, which is precisely 'defensive with offensive options' and agrees with the negative metric sign. The flag comes solely from the substring parse in score_graph_nodes.py treating the phrase as offensive at runtime. Same precedence bug; keep the word, fix the code."
+    },
+    "Z-Lock Half Guard Top": {
+      "ruling": "word_right",
+      "reasoning": "As authored, this role has neutralized the lockdown, blocked the hip, and holds an 80% retention metric while chaining knee slice/smash/underhook passes plus a darce — dominant control graduating into passing offense, which is what 'Offensive/Controlling' names. The negative bare score is the recurring 0-point-plus-risk formula artifact, not a content error."
+    },
+    "Z-Lock Half Guard Bottom": {
+      "ruling": "word_right",
+      "reasoning": "Lockdown-plus-butterfly-hook is a real attacking platform (Old School sweep, Electric Chair, butterfly sweep), but the role as authored is still a guard fighting off a passer — retention plus counters, i.e. the compound word's plain meaning, which matches the negative metric sign. Of the compound cases this sits closest to neutral since 10th Planet players run it offense-first, but 'Defensive with offensive options' is defensible BJJ. The flagged disagreement is again the 'offensive'-substring precedence bug in score_graph_nodes.py, not the authoring."
+    },
+    "Half Guard Top": {
+      "ruling": "word_right",
+      "reasoning": "Half guard top is the advancing side of the exchange: the entire authored transition list is passes plus real submission offense (darce entries via combat base, loop choke, Suloev stretch), and the corpus authors the opposing hub role plain 'Defensive'. Modern half guard bottom is dangerous, but on the attacking/defending axis the passer holds the initiative and the positional threat — one pass from side control, scoring on the IBJJF ladder. Word right; the -0.046 is the 0-point formula artifact."
+    },
+    "Inverted Guard Bottom": {
+      "ruling": "word_right",
+      "reasoning": "Inversion serves both retention (spinning under to deny the pass) and attack (berimbolo, rolling back take, leg-entanglement entries), but the file authors it as a 5-15 second transitional posture where static holding loses — 'defensive with offensive options' is a fair call and agrees with the mildly negative metrics ('Transitional' would also be defensible, but the current word is not wrong BJJ). The flag exists only because the substring parse in score_graph_nodes.py reads 'offensive options' as an offensive classification at runtime — the same precedence bug affecting all 40 roles authored with this phrase."
+    },
+    "Crackhead Control Bottom": {
+      "ruling": "word_right",
+      "reasoning": "This is the submission-hunting role of the whole position: deep overhook anchoring a gogoplata/omoplata/triangle chain, sub probability 45, advancement 65, and every transition is an attack or sweep. The file itself defines the position as trading back exposure for submission access — the bottom player is unambiguously the attacker in the Danaher sense (his grips and leg lever dictate the exchange). The negative metric score is an arithmetic artifact of the High risk_level penalty, not a claim about who is attacking. 'Offensive' is correct BJJ."
+    },
+    "Zombie Top": {
+      "ruling": "word_right",
+      "reasoning": "The top player has already passed the initial guard frames (per prerequisites), holds crossface/whizzer and top pressure, and his entire transition set is passes, back takes, and front-headlock chokes off the opponent's turtle — positional advancement, the literature's definition of attacking. The lockdown restricts one leg but the upper-body controls that dictate the exchange are his; the bottom player is the one in survival mode. Lachlan Giles frames this exact scenario as the passer solving a puzzle, not surviving one. 'Offensive/Controlling' is correct BJJ."
+    },
+    "Rubber Guard Bottom": {
+      "ruling": "word_right",
+      "reasoning": "Rubber guard is 10th Planet's signature offensive control system from the bottom: the high leg breaks posture and traps an arm, opening triangles, omoplatas, and gogoplatas — sub probability 45 and a transition list that is nearly all attacks and control entries (Mission Control, New York, Crackhead). The bottom player's mission-control grip is what dictates the top player's posture, which is exactly the attacking/controlling role the literature describes; the corpus correctly pairs it with a 'Defensive' top. The -0.035 score is noise from the risk term. 'Offensive/Controlling' is correct BJJ."
+    },
+    "Seated Guard Top": {
+      "ruling": "word_right",
+      "reasoning": "This is the free-agent passer standing over a seated opponent: no grips are established on him by definition, all nine transitions are passes, and he chooses when and how to engage. Passing is positional advancement — the attacking half of the guard exchange in both IBJJF scoring and the literature's attacking/defending axis. Unlike spider or squid top, nothing here has him caught in the guard's control web. 'Offensive' is correct BJJ; the -0.112 is driven by a low top-side submission number, which does not make a passer a defender."
+    },
+    "Seated Guard Bottom": {
+      "ruling": "word_right",
+      "reasoning": "The seated guard player both manages the pass threat and generates offense — butterfly/scissor/tripod sweeps, SLX entries, wrestle-ups — which is precisely what the hedged phrase describes, and it is the standard way to characterize an intact guard whose offense requires grips to come online first. At runtime the phrase signs positive (attacking), which matches the honest read: with sub 42 and advancement 60 the seated player is the one initiating entanglements in the modern meta. Word stands; no edit needed."
+    },
+    "Shin-to-Shin Guard Bottom": {
+      "ruling": "word_right",
+      "reasoning": "Shin-to-shin is an entry guard: the perpendicular shin lever is an already-established offensive connection used to off-balance and feed Single Leg X, X-guard, and leg entanglements, and the transition list is entirely sweeps and entries. The hedged phrase is a fair description of a guard that still has to manage a passer, and its runtime positive sign matches the honest read — the bottom player's lever is what dictates the top player's base. Word stands."
+    },
+    "Spider Guard Bottom": {
+      "ruling": "word_right",
+      "reasoning": "If anything the phrase understates this role — spider guard with double sleeve control and feet on the biceps is a classic offense-first gi guard (triangles, omoplatas, balloon sweep, armbar setups, sub 42) whose grips own the opponent's posture. The runtime reading of the phrase is attacking-signed, which is the correct BJJ sign for this player, so the word already produces the right result and the hedge remains a defensible description of a guard that also retains. No edit needed."
+    },
+    "Squid Guard Bottom": {
+      "ruling": "word_right",
+      "reasoning": "Squid guard is a Keenan-school lapel guard built to attack: the threaded leg plus lapel control off-balances the passer, and the transition list is berimbolo entries, X-guard and SLX sweeps, and omoplata-to-back — sweep and back-take threats with sub 40. The bottom player's lapel grip is the control that dictates the top player's posture, which is the attacking role. The -0.066 is arithmetic noise; 'Offensive' is correct BJJ."
+    },
+    "Standing Guard Top": {
+      "ruling": "word_right",
+      "reasoning": "Despite the hub's neutral standup framing, this role page is explicitly the standing passer over an established open guard: retention 75, every transition a pass (plus a takedown), no grips established on him by definition. He holds the initiative — he chooses the engagement and his whole game is positional advancement, the attacking half of the exchange. The -0.225 comes from the low top-side submission number (12), which is normal for passers and says nothing about who is attacking. 'Offensive' is correct BJJ."
+    },
+    "Open Guard Top": {
+      "ruling": "word_right",
+      "reasoning": "The passer in a generic, unestablished open guard is the attacking player of the passing exchange: the role authors 12 passes (toreando, knee slice, leg drag, stack...) and its whole project is positional advancement, which the IBJJF ladder scores as offense. He is not trapped the way Closed Guard Top (corpus: Defensive) is — legs are open, hips free, engagement is his to initiate — so the positive sign is right BJJ and coherent with the corpus gradient (open the closed guard and you become the attacker). The metric's -0.315 comes from submission_probability=5 underweighting positional offense; the word wins correctly."
+    },
+    "Open Guard Bottom": {
+      "ruling": "word_right",
+      "reasoning": "The open guard player is an attacking player in the Danaher sense — the role authors 20 moves that are nearly all offense: butterfly/DLR/scissor/tripod sweeps, arm drags to the back, triangle and belly-down armbar, entries to attacking guards. 'Defensive with offensive options' parses positive at runtime, which is the correct sign: guard prevents the pass while generating sweep and submission threats. Both open-guard roles being mildly positive matches the corpus's mutual-offense treatment of DLR/X-Guard/Worm. No edit needed."
+    },
+    "Overhook Control Bottom": {
+      "ruling": "word_right",
+      "reasoning": "A bottom overhook (whizzer from guard) kills the opponent's posting arm and posture — the role authors triangle setup, omoplata, arm drag to back, and five sweeps, with submission_probability 42, which is genuine attacking control from guard. The positive sign the word produces at runtime is right BJJ; the -0.059 is arithmetic noise from the risk penalty. The word already wins correctly."
+    },
+    "Overhook Guard Top": {
+      "ruling": "word_right",
+      "reasoning": "The file's invariants explicitly author this as the TOP player having secured the overhook on the bottom player's frame arm — 'eliminating bottom player's ability to frame on that side', chest-to-chest pressure, bottom flattened with one arm trapped. A passer who has removed a frame arm and flattened the guard player is attacking AND controlling (metrics agree: retention 73, advancement 66, risk Low-Medium; smash/knee-slice/over-under passes authored). 'Offensive/Controlling' is right for the state as authored; the -0.089 is a small arithmetic accident."
+    },
+    "Piranha Guard Bottom": {
+      "ruling": "word_right",
+      "reasoning": "The piranha player is the attacker of the exchange: the fed lapel anchors the passer while the role authors pendulum/flower sweeps, collar drags, berimbolo entries, arm drag to back, and triangle setups, with submission_probability 42. This is worm-family lapel guard offense — the literature treats the locked-in passer as the defending player. Positive sign is right BJJ; the -0.028 is noise. Word wins correctly."
+    },
+    "Quarter Guard Top": {
+      "ruling": "word_right",
+      "reasoning": "Quarter guard top is a pass three-quarters completed — knee past the hip line, only a shin/foot caught — with crossface and underhook control authored, advancement_probability 78, and live kimura/darce threats (submission 38). The top player is unambiguously the advancing, controlling player one step from side control; 'Offensive/Controlling' is exactly right and the -0.024 is arithmetic noise, not a signal."
+    },
+    "Ringworm Guard Bottom": {
+      "ruling": "word_right",
+      "reasoning": "The ringworm (worm-guard family) player is the attacker: the lapel wrap immobilizes the top player while the role authors Ringworm Sweep to Back Control, Lapel Sweep to Back, berimbolo, triangle, and omoplata (submission 38, retention 68), and the corpus consistently authors this file's top role as Defensive. The positive sign the word produces at runtime is right BJJ — Keenan-system lapel guards are bottom-dominant once established. No edit needed."
+    },
+    "Rodeo Ride Top": {
+      "ruling": "word_right",
+      "reasoning": "Riding a turtled opponent is a dominant attacking position: the role authors back takes, crucifix, clock choke, bow-and-arrow, RNC, and calf slicer, with retention 72 and advancement 68 — the turtled player underneath is purely surviving. 'Offensive/Controlling' is textbook-correct for a wrestling ride over turtle; the -0.032 is arithmetic noise from the risk penalty. Word wins correctly."
+    },
+    "Chill Dog Top": {
+      "ruling": "word_right",
+      "reasoning": "As this file authors it, Chill Dog is a compact defensive turtle shell and the top player is the one attacking it — back control entries, crucifix, darce/anaconda/guillotine setups, truck entry, with submission_probability 42 — while the bottom role is authored Defensive with 'survival and escape' as its stated objective. Plain 'Offensive' is even the precisely right token, since the compact shell denies established control. Positive sign correct; -0.028 is noise."
+    },
+    "Standing Guard Bottom": {
+      "ruling": "word_right",
+      "reasoning": "This is essentially a neutral standing exchange: the role's transitions are guard pulls, arm drags to the back, ankle picks, double/single entries and snap downs — real initiative, not survival. The player is reactive in the grip fight (preventing grips, managing distance) but holds live counters, which is exactly what 'Defensive with offensive options' describes, and it mirrors the corpus's Open Guard bottom convention. The metric disagreement is -0.078 — noise around zero — so the word's runtime-positive sign misleads nobody."
+    },
+    "Worm Guard Bottom": {
+      "ruling": "word_right",
+      "reasoning": "Worm guard bottom is the whole point of Keenan's system: the lapel controls the passer's leg and posture, and the role's transitions are all attacks — omoplata sweep, triangle setup, omoplata to back, elevator and bolo sweeps, collar drags. The bottom player controls the exchange in the gi; 'Offensive' is exactly the literature's read. The -0.056 metric is an arithmetic accident, not a positional truth."
+    },
+    "Reverse X-Guard Bottom": {
+      "ruling": "word_right",
+      "reasoning": "Reverse X bottom controls the opponent's leg and base with both hooks and the transitions are all offense: reverse X sweep, elevation sweep to mount, back take, and entries to SLX and Ashi Garami. The bottom player initiates and dictates the exchange — 'Offensive' is the correct call for this X-guard-family sweeping platform. The -0.056 metric is noise, same failure shape as X-Guard bottom's."
+    },
+    "X-Guard Bottom": {
+      "ruling": "word_right",
+      "reasoning": "X-guard bottom is Marcelo Garcia's signature sweeping platform — both legs wedged in an X on one leg, the top player's base structurally broken, and the transitions list is all initiative: X-guard sweep, tomahawk, SLX/Ashi entries, ankle lock, technical stand-up to single leg. The bottom player controls the exchange; 'Offensive' is unambiguously the literature's classification. The -0.056 score is the metrics being wrong, not the word."
+    },
+    "Z-Guard Top": {
+      "ruling": "word_right",
+      "reasoning": "Z-guard is a half-guard variation and the corpus's Half Guard authors top=Offensive; the z-guard bottom's own overview describes framing against 'the top player's pressure' — the top is the pressuring, advancing party. This role's transitions are entirely passes (knee slice x3, smash, long step, underhook, backstep): the passer holds the initiative and the knee shield is a delaying frame, not a control that reverses the exchange. The -0.217 metric is the arithmetic to distrust here, not the word."
+    },
+    "Z-Guard Bottom": {
+      "ruling": "word_right",
+      "reasoning": "'Defensive with offensive options' is the textbook description of knee shield half guard: the shield is fundamentally a frame against pressure, yet the position carries a real attacking game (old school, underhook sweep, X-guard entries, back takes, electric chair — and specialists like Craig Jones run their offense from here). The authored phrase captures exactly that dual nature and matches how the corpus words comparable hybrid guards. The runtime-positive sign at a mere 0.076 magnitude is defensible for a modern meta guard players choose deliberately."
+    },
+    "Guillotine Control Bottom": {
+      "ruling": "word_corrected",
+      "new_word": "Offensive/Controlling",
+      "reasoning": "The bottom player here has a clasped-hands guillotine locked around the opponent's neck — the file's own overview says it 'transforms defensive bottom play into an immediate offensive threat', submission probability is 52, and the transitions are guillotine finishes, high-elbow variations, and sweeps off the choke reaction. The opponent is the one defending (their listed outs are Von Flue and posture escapes — the classic counters to a bottom guillotine). This is a submission-control state for the bottom player, exactly like Triangle or Gogoplata Control: 'Defensive with offensive options' misclassifies the attacker as the defender. It should carry the same 'Offensive/Controlling' the Top role already wears."
+    },
+    "Deep Half Guard Bottom": {
+      "ruling": "word_corrected",
+      "new_word": "Offensive",
+      "reasoning": "Deep half is a position you dive into to attack, not one you survive in: the entire transitions list is offense — waiter, old school, Homer Simpson, back takes, electric chair, X-guard and SLX entries — with zero escape or recovery entries, and the literature (Faria's and Glover's whole games) treats it as a sweeping offense platform that weaponizes the top player's own weight. The corpus's own sibling pattern proves the point: Butterfly Half is authored top 'Defensive with offensive options' / bottom 'Offensive', and deep half bottom is at least as offensive as butterfly half bottom. 'Defensive with offensive options' misclassifies the attacking side of this exchange; it should be 'Offensive'."
+    },
+    "K-Guard Bottom": {
+      "ruling": "word_corrected",
+      "new_word": "Offensive",
+      "reasoning": "K-guard is not a retention guard you survive in — it is an entry system you choose in order to attack: this role's transitions are almost entirely sweeps and attacking entries (X-Guard Sweep, Single Leg X, Deep Half, Old School, Waiter, Back Take, 50-50 Entry) with only one recovery move listed. The K-guard player holds the initiative in the exchange — the top player's trapped leg and split base are the position's whole mechanism. 'Defensive with offensive options' is the word for jailbreak-style escape states and undersells this; the literature treats K-guard as an offensive guard, so 'Offensive' is correct — and it coheres with correcting the Top role to Defensive."
+    },
+    "50-50 Guard Top": {
+      "ruling": "owner_decision",
+      "new_word": "Neutral",
+      "reasoning": "Owner (2026-08-17): 50-50 is the symmetric position — 'like standing at distance, there really is no top and no bottom' — so both roles read Neutral. The panel had flagged it as the sport's canonical contested case."
+    },
+    "50-50 Guard Bottom": {
+      "ruling": "owner_decision",
+      "new_word": "Neutral",
+      "reasoning": "Symmetry with the Top ruling — one decision covers both faces of a mirrored position."
+    },
+    "Honey Hole Top": {
+      "ruling": "delegated_deciding_vote",
+      "new_word": null,
+      "reasoning": "DECIDING VOTE: both experts agree the authored 'Offensive' is CORRECT — the inside sankaku is the corpus's most asymmetric entanglement; the 'contest' was a mislabeled verdict field. No file change."
+    },
+    "Double Jump Bottom": {
+      "ruling": "delegated_deciding_vote",
+      "new_word": "Neutral",
+      "reasoning": "DECIDING VOTE: both experts agree the word was wrong (an explosive airborne entry state, resolved in seconds); 'Neutral' over 'Transitional' because it is the schema-legal, in-corpus word (11 uses) with the identical runtime effect."
+    },
+    "Double Sleeve Guard Top": {
+      "ruling": "delegated_deciding_vote",
+      "new_word": "Neutral",
+      "reasoning": "DECIDING VOTE: both experts agree the word was wrong (the passer's hands are neutralized by construction); 'Neutral' over 'Defensive' on the Collar Sleeve Guard Top precedent — the corpus's nearest mechanical cousin."
+    }
   }
- }
 }

@@ -113,7 +113,7 @@
       {
         "transition": "Kneebar from Leg Entanglement",
         "attempt_probability": {
-          "gi": 8,
+          "gi": 9,
           "nogi": 6
         }
       },
@@ -121,69 +121,62 @@
         "transition": "Outside Heel Hook from Leg Entanglement",
         "attempt_probability": {
           "gi": 1,
-          "nogi": 16
+          "nogi": 17
         }
       },
       {
         "transition": "Ankle Lock Finish",
         "attempt_probability": {
-          "gi": 15,
-          "nogi": 9
+          "gi": 16,
+          "nogi": 10
         }
       },
       {
         "transition": "Outside Ashi Entry",
         "attempt_probability": {
-          "gi": 12,
-          "nogi": 10
+          "gi": 13,
+          "nogi": 11
         }
       },
       {
         "transition": "Toe Hold from Leg Entanglement",
         "attempt_probability": {
-          "gi": 9,
-          "nogi": 7
+          "gi": 10,
+          "nogi": 8
         }
       },
       {
         "transition": "Saddle Entry from Top",
         "attempt_probability": {
           "gi": 4,
-          "nogi": 11
+          "nogi": 12
         }
       },
       {
         "transition": "Back Take from Ashi",
         "attempt_probability": {
-          "gi": 6,
-          "nogi": 6
-        }
-      },
-      {
-        "transition": "50-50 Entry",
-        "attempt_probability": {
-          "gi": 9,
+          "gi": 7,
           "nogi": 6
         }
       },
       {
         "transition": "Ashi Entry from Leg Entanglement",
         "attempt_probability": {
-          "gi": 11,
-          "nogi": 8
+          "gi": 12,
+          "nogi": 9
         }
       },
       {
         "transition": "Leg Extraction Pass",
         "attempt_probability": {
-          "gi": 10,
+          "gi": 11,
           "nogi": 6
         }
       },
       {
         "transition": "Guard Pass from Leg Entanglement",
         "attempt_probability": {
-          "gi": 9,
+          "gi": 10,
           "nogi": 4
         }
       },
@@ -197,7 +190,7 @@
       {
         "transition": "Kneebar from Ushiro",
         "attempt_probability": {
-          "gi": 5,
+          "gi": 6,
           "nogi": 4
         }
       }

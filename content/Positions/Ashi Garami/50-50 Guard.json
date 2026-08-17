@@ -61,7 +61,7 @@
     "overview": "50-50 Guard Top is a leg entanglement position where both practitioners have their legs entwined in a mirror configuration, with you achieving top position through superior hip pressure and inside control. Despite being scored as neutral (0 points) in most rulesets, the top position provides significant advantages for leg lock attacks and transitions to dominant positions. The position is named 50-50 because both fighters theoretically have equal access to each other's legs, though top position breaks this parity.\n\nFrom this position, you have multiple high-percentage submission opportunities, primarily the heel hook, along with alternative attacks including kneebar, ankle lock, and calf slicer. The top position also enables strong transitions to back control or passing to side control when submissions are defended. The leg entanglement creates a complex tactical situation where inside position control, grip fighting, and submission chains determine success.\n\nThe 50-50 Guard Top is particularly effective in no-gi competition where heel hooks are legal, and against opponents with limited leg lock experience. However, it carries significant risk as the position can quickly reverse, and both practitioners are vulnerable to leg attacks. Energy management is important as maintaining grip control and hip pressure over time requires sustained effort.",
     "state_properties": {
       "point_value": 0,
-      "position_type": "Offensive",
+      "position_type": "Neutral",
       "risk_level": "Medium to High",
       "energy_cost": "Medium",
       "time_sustainability": "Medium"
@@ -484,7 +484,7 @@
     "overview": "50-50 Guard Bottom is a defensive leg entanglement position where both practitioners have their legs entwined in a mirror configuration, with you on bottom being controlled by your opponent's top position and hip pressure. Despite being scored as neutral (0 points) in most rulesets, the bottom position places you at significant tactical disadvantage with high submission risk, particularly from heel hooks and other leg locks. The position name reflects the theoretically equal leg entanglement, though top position breaks this parity in favor of your opponent.\n\nFrom this position, you face multiple submission threats, primarily heel hook, along with kneebar, ankle lock, and calf slicer attacks from your opponent on top. Your primary objectives are defending your heel, matching opponent's inside position control, and either reversing to top position or extracting your legs to escape to standing. The position requires excellent defensive technique, leg lock knowledge, and strategic decision-making about when to fight for reversal versus when to extract and disengage.\n\n50-50 Guard Bottom is particularly dangerous against opponents with strong leg lock skills and in no-gi competition where heel hooks are legal. The position demands constant defensive attention and is not sustainable for extended periods. Energy management and strategic choice between reversal and escape are critical for survival and success from this disadvantageous position.",
     "state_properties": {
       "point_value": 0,
-      "position_type": "Defensive",
+      "position_type": "Neutral",
       "risk_level": "High",
       "energy_cost": "High",
       "time_sustainability": "Short to Medium"

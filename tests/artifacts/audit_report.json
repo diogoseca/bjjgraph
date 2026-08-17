@@ -3,10 +3,10 @@
     "transition_files": 1034,
     "submission_files": 360,
     "position_files": 136,
-    "total_issues": 395,
+    "total_issues": 391,
     "errors": 0,
-    "warnings": 22,
-    "info": 373,
+    "warnings": 17,
+    "info": 374,
     "orphaned_transitions": 0,
     "orphaned_submissions": 2,
     "missing_transitions": 0,
@@ -40,23 +40,6 @@
       "message": "Orphaned submission: 'Kneebar from Backside 50-50' (from: Backside 50-50/Top)"
     },
     {
-      "type": "from_position_role_mismatch",
-      "severity": "warning",
-      "name": "50-50 Entry",
-      "file": "content/Transitions/50-50 Entry.json",
-      "expected_from": "Leg Entanglement/Top",
-      "actual_from": "Inverted Guard/Bottom",
-      "referencing_position": "content/Positions/Leg Entanglement.json",
-      "message": "Role contradiction: Leg Entanglement/top offers '50-50 Entry', but it is authored from 'Inverted Guard/Bottom' — one of the two is wrong, and the app will drop it from that hand"
-    },
-    {
-      "type": "position_type_score_disagreement",
-      "severity": "warning",
-      "name": "50-50 Guard Top",
-      "file": "content/Positions/Ashi Garami/50-50 Guard.json",
-      "message": "50-50 Guard Top: authored position_type 'Offensive' but its metrics score -0.056 — the word now wins, so check whether the point_value / risk / submission-retention-advancement numbers are right"
-    },
-    {
       "type": "position_type_score_disagreement",
       "severity": "info",
       "name": "Backside 50-50 Top",
@@ -72,7 +55,7 @@
     },
     {
       "type": "position_type_score_disagreement",
-      "severity": "warning",
+      "severity": "info",
       "name": "Honey Hole Top",
       "file": "content/Positions/Ashi Garami/Honey Hole.json",
       "message": "Honey Hole Top: authored position_type 'Offensive' but its metrics score -0.056 — the word now wins, so check whether the point_value / risk / submission-retention-advancement numbers are right"
@@ -188,20 +171,6 @@
       "name": "Double Jump Top",
       "file": "content/Positions/Double Jump.json",
       "message": "Double Jump Top: authored position_type 'Offensive/Controlling' but its metrics score -0.158 — the word now wins, so check whether the point_value / risk / submission-retention-advancement numbers are right"
-    },
-    {
-      "type": "position_type_score_disagreement",
-      "severity": "warning",
-      "name": "Double Jump Bottom",
-      "file": "content/Positions/Double Jump.json",
-      "message": "Double Jump Bottom: authored position_type 'Defensive with offensive options' but its metrics score -0.034 — the word now wins, so check whether the point_value / risk / submission-retention-advancement numbers are right"
-    },
-    {
-      "type": "position_type_score_disagreement",
-      "severity": "warning",
-      "name": "Double Sleeve Guard Top",
-      "file": "content/Positions/Double Sleeve Guard.json",
-      "message": "Double Sleeve Guard Top: authored position_type 'Offensive' but its metrics score -0.264 — the word now wins, so check whether the point_value / risk / submission-retention-advancement numbers are right"
     },
     {
       "type": "position_type_score_disagreement",
