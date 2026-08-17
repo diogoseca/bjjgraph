@@ -1,6 +1,6 @@
 {
   "name": "bjjgraph",
-  "version": "1.108.0",
+  "version": "1.109.0",
   "description": "BJJ knowledge graph and state machine",
   "scripts": {
     "postinstall": "cd source && npm install",
@@ -59,7 +59,8 @@
     "regenerate:ordinals": "python3 scripts/regenerate_node_ordinals.py",
     "build:share-shell": "node scripts/build_share_shell.mjs",
     "test:units": "node --test tests/*.test.mjs",
-    "e2e:share": "playwright test -c e2e/playwright.share.config.ts"
+    "e2e:share": "playwright test -c e2e/playwright.share.config.ts",
+    "e2e:replay": "playwright test -c e2e/playwright.replay.config.ts"
   },
   "devDependencies": {
     "@playwright/test": "^1.61.1",

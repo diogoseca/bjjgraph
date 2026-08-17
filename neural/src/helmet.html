@@ -58,6 +58,18 @@
   .ng-lists-new:active .ng-lists-new-chip{transform:translateY(1px);background:rgba(255,255,255,.07);}
   .ng-lists-new:focus-visible{outline:none;}
   .ng-lists-new:focus-visible .ng-lists-new-chip{outline:2px solid rgba(160,185,255,.85);outline-offset:2px;}
+  /* ---------- Last rolls: a row's quiet controls (v1.106.5) ----------
+     ▶ roll from here · ⟲ replay. 24px is the PANE's control figure (WCAG 2.2 AA 2.5.8; the 44px
+     thumb figure belongs to the option hand and the landing card, which are hit one-handed on a
+     moving screen) — so the glyph stays small and the HIT AREA grows past it with padding plus a
+     matching negative margin, exactly the `.ng-lists-new` trade, and the row does not get taller
+     for it. States live here and not in a `mouseenter` handler: JS hover painting cannot express
+     `:focus-visible`, which is the only thing a keyboard user ever sees. */
+  .ng-histctl{flex:none;display:inline-flex;align-items:center;justify-content:center;width:24px;height:24px;padding:4px;margin:-4px;box-sizing:content-box;cursor:pointer;font-family:inherit;border:none;border-radius:7px;background:transparent;color:#8c9ab5;transition:background .15s ease,color .15s ease,transform .1s ease;}
+  .ng-histctl:hover{background:rgba(255,255,255,.08);color:#bcd0ff;}
+  .ng-histctl:active{transform:translateY(1px);}
+  .ng-histctl:focus-visible{outline:2px solid rgba(160,185,255,.85);outline-offset:-2px;}
+  .ng-histctl[data-replaying]{background:rgba(126,224,168,.16);color:#9fe8c0;}
   *{scrollbar-width:thin;scrollbar-color:rgba(120,150,210,.32) transparent;}
   ::-webkit-scrollbar{width:9px;height:9px;}
   ::-webkit-scrollbar-track{background:transparent;}
@@ -88,6 +100,8 @@
     .ng-winbar{width:104px!important;}
     .ng-legend{left:14px!important;bottom:27px!important;gap:0!important;}
     .ng-landcard{bottom:206px!important;width:calc(100vw - 20px)!important;max-height:34vh!important;padding:11px 12px 10px!important;}
+    /* the replay bar shares the card's dock, at every width — see its rule above */
+    .ng-replaybar{bottom:206px!important;width:calc(100vw - 20px)!important;padding:8px 10px!important;}
     /* ── THE BOTTOM THUMB BAND HAS THREE TENANTS ──────────────────────────────────────────
        legend (left:14), transport (centred), drill pill (right:14) — all anchored at 28px.
        The share cue's two buttons widen the pill LEFTWARD until, at 390px, it sat on top of
@@ -118,7 +132,8 @@
      The app wrap is position:fixed = its OWN stacking context, so its internal z values
      (pane 8, tray 4, dossier 5 …) never compete out here; the wrap paints at level 0 and
      any root-level sibling with z ≥ 1 covers ALL of it. Bands, bottom to top:
-        1-9    ambient state chrome beside gameplay   — landcard 5 · momentum 6 · tut/cue 7
+        1-9    ambient state chrome beside gameplay   — landcard 5 · momentum 6 · tut/cue 7 ·
+                                                        replay bar 8
         10-49  ambient attention fx                   — reward toast 14 · vignette 44
         50-79  coaching                               — coach 70 · combo pop 72
         90-99  DELIBERATE temporary screens           — account menu 90 · modal (settings/
@@ -142,6 +157,26 @@
      read order is identity -> film -> question -> your hand, top to bottom. */
   .ng-landcard{pointer-events:auto;position:fixed;left:50%;bottom:236px;transform:translateX(-50%);z-index:5;width:min(520px,calc(100vw - 32px));max-height:min(420px,50vh);overflow-y:auto;background:linear-gradient(180deg,rgba(24,28,46,.97),rgba(17,20,34,.97));border:1px solid rgba(130,150,190,.24);border-radius:15px;padding:13px 15px 12px;box-shadow:0 14px 44px rgba(0,0,0,.5);animation:ngCardInX .28s cubic-bezier(.2,.7,.2,1);}
   .ng-landcard[data-landcard="attempt"]{border-color:rgba(126,160,255,.4);}
+  /* ── REPLAY: the film's own chrome (v1.106.5) ──────────────────────────────────────────────
+     It DOCKS WHERE THE LANDING CARD DOCKS — same bottom constants, same `_dockLandCard` tray
+     measurement — because that is precisely the surface it stands in for: while a film runs, the
+     card that names the state you are STANDING IN is down, and this names the roll you are
+     WATCHING instead. z:8 is the ambient-state band (see the ladder above), never the 90-99
+     deliberate-screen band: a replay is a state you are in, not a screen you asked for, so it must
+     not take the input a modal scrim takes. `pointer-events:auto` is load-bearing on every fixed
+     overlay here (the property is inherited and the canvas hit-tests above anything that does not
+     re-enable it) — without it the ✕ is visible and dead. */
+  .ng-replaybar{pointer-events:auto;position:fixed;left:50%;bottom:236px;transform:translateX(-50%);z-index:8;display:flex;align-items:center;gap:11px;width:min(520px,calc(100vw - 32px));background:linear-gradient(180deg,rgba(24,28,46,.97),rgba(17,20,34,.97));border:1px solid rgba(130,150,190,.24);border-left:3px solid #7ee0a8;border-radius:13px;padding:9px 12px;box-shadow:0 14px 44px rgba(0,0,0,.5);animation:ngCardInX .24s cubic-bezier(.2,.7,.2,1);}
+  .ng-replaybar .ng-replay-dot{flex:none;width:8px;height:8px;border-radius:50%;background:#7ee0a8;box-shadow:0 0 8px rgba(126,224,168,.7);animation:ngReplayPulse 1.6s ease-in-out infinite;}
+  @keyframes ngReplayPulse{0%,100%{opacity:1;}50%{opacity:.35;}}
+  .ng-replaybar .ng-replay-txt{flex:1;min-width:0;display:flex;flex-direction:column;gap:2px;}
+  .ng-replaybar .ng-replay-txt b{font-size:9px;font-weight:800;letter-spacing:.16em;text-transform:uppercase;color:#7ee0a8;}
+  .ng-replaybar .ng-replay-txt small{font-size:12px;font-weight:600;color:#dbe2f0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+  /* the ✕ is the ONE control here, and it is a thumb target: the film is watched with the phone in
+     one hand, so this is the 44px figure, not the pane's 24 */
+  .ng-replaybar .ng-replay-stop{pointer-events:auto;flex:none;display:inline-flex;align-items:center;justify-content:center;width:44px;height:44px;margin:-10px -6px -10px 0;cursor:pointer;font-family:inherit;font-size:16px;line-height:1;border:none;border-radius:11px;background:transparent;color:#8c9ab5;transition:background .15s ease,color .15s ease;}
+  .ng-replaybar .ng-replay-stop:hover{background:rgba(255,255,255,.08);color:#eef1f6;}
+  .ng-replaybar .ng-replay-stop:focus-visible{outline:2px solid rgba(160,185,255,.85);outline-offset:-3px;}
   /* the panic drill wears the danger skin, but is a landing card in every other respect */
   .ng-landcard[data-landcard="defense"]{border-color:rgba(255,110,110,.42);background:linear-gradient(180deg,rgba(52,22,24,.97),rgba(38,16,18,.97));}
   /* ── MOMENTUM: the arcade announcer + the heat chip. Heat 1→5 = ×2→×6+. ── */
@@ -197,6 +232,6 @@
   .ng-clip{isolation:isolate;}
   .ng-clip::after{content:"";position:absolute;inset:0;z-index:1;background:linear-gradient(105deg,transparent 42%,rgba(255,255,255,.13) 50%,transparent 58%);background-size:230% 100%;background-position:120% 0;animation:ngShimmer 2.2s ease-out .4s 2;pointer-events:none;}
   @keyframes ngShimmer{to{background-position:-130% 0}}
-  @media (prefers-reduced-motion: reduce){.ng-beacon,.ng-vignette,.ng-clip::after,.ng-landcard,.ng-combo-pop,.ng-momentum,.ng-challenge-continue,.ng-challenge-lesson[data-frontier],.ng-belt-bar>b,.ng-belt-bar>b[data-new],.ng-account-menu{animation:none!important}}
+  @media (prefers-reduced-motion: reduce){.ng-beacon,.ng-vignette,.ng-clip::after,.ng-landcard,.ng-combo-pop,.ng-momentum,.ng-challenge-continue,.ng-challenge-lesson[data-frontier],.ng-belt-bar>b,.ng-belt-bar>b[data-new],.ng-account-menu,.ng-replaybar,.ng-replaybar .ng-replay-dot{animation:none!important}}
 </style>
 <script src="technique-content.js"></script>
