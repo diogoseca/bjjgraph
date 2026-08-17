@@ -78,6 +78,12 @@ Positions/
 
 See CLAUDE.md → "Graph Topology — canonical model & invariants" for the full edge/direction/sink contract.
 
+**Prototype (owner judgment pending):** the visual hub-collapse is slated to be replaced by
+**dual close pairs** — every dual state as TWO adjacent visual nodes (Top/Bottom,
+Attacker/Defender). Prototype renders behind `?dual=fixed|force`; the cutover plan (ordinal
+migration for split nodes, payload impact, camera/focus implications, open design questions)
+lives in [DualPairMigration.md](DualPairMigration.md).
+
 ---
 
 ## Transition & Submission "Playing As" Model

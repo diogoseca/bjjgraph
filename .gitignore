@@ -119,6 +119,9 @@ tests/artifacts/replay/
 tests/artifacts/belt/
 # Pane-and-chrome polish screenshots + red-run log (regenerable via the pane-chrome spec)
 tests/artifacts/chrome/
+# Dual close-pair prototype payloads (regenerable via scripts/prototype_dual_pair_layout.py;
+# 2.2MB each, served only from the private .privserve root — the PNGs beside them ARE tracked)
+tests/artifacts/dualpair/payloads/
 node_modules/
 
 # Transient local-agent coordination notes (this checkout only; repo is public)

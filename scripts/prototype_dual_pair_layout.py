@@ -18,8 +18,11 @@ preserve-coords — the beloved global shape is kept), graph.json (role truth),
 node_ordinals.json (hub ordinals; members carry o=null — share identity for role
 nodes is exactly what the migration plan mints later, NOT this prototype).
 
-Output: source/quartz/static/neural/graph-data-dual-{fixed,force}.json (gitignored,
-like every other emitted neural payload).
+Output: tests/artifacts/dualpair/payloads/graph-data-dual-{fixed,force}.json (gitignored).
+DELIBERATELY NOT under source/quartz/static/neural/: check_payload_budget.py scores that whole
+directory (eager set 2.5MB raw / deferred cap 500KB), and these two 2.2MB opt-in payloads are
+prototype-only — they are copied into the PRIVATE serve root (.privserve/public/static/neural/)
+by the screenshot run, never into the shipped tree. The production build stays byte-identical.
 
 Edges are ROLE-CORRECT, from graph.json rather than the hub-collapsed links:
   position member (its role)  -> technique ATTACKER member   (attempt edges)
@@ -45,7 +48,7 @@ from _slug import slugify  # canonical slugify (shared with node ids)
 LAYOUT = ROOT / "source/quartz/static/globalGraphLayout.json"
 GRAPH = ROOT / "graph.json"
 ORDINALS = ROOT / "node_ordinals.json"
-OUT_DIR = ROOT / "source/quartz/static/neural"
+OUT_DIR = ROOT / "tests/artifacts/dualpair/payloads"
 
 # Pair geometry. Center-to-center distance between the two members of a pair, in layout
 # units (the app's ingest de-overlap enforces ~r_a+r_b+3.5 ≈ 9-12 between STRANGERS and
@@ -194,13 +197,18 @@ def build(strategy: str) -> dict:
         if ty is None:
             continue
         slug = _slug_from_id(hub["id"])
+        # posId is the LEAF slug for positions (v1.103.0 convention, mirrors
+        # regenerate_neural_data.py): techniques author `fromPositionId` as the position's own
+        # bare slug ("rear-triangle"), so a compound path here would starve optionsFor's origin
+        # filter exactly the way the 54 nested positions were starved before v1.103.0.
+        pos_leaf = slug.rsplit("/", 1)[-1]
         if ty == "positions":
             has = [r for r in ("top", "bottom") if pos_role_entry(graph, slug, r)]
             if len(has) == 2:
                 a = base_member(hub, ty, "top", "Top", 0)
                 b = base_member(hub, ty, "bottom", "Bottom", 1)
                 for m, other in ((a, b), (b, a)):
-                    m["posId"] = slug
+                    m["posId"] = pos_leaf
                     m["pairId"] = other["id"]
                     cal = pos_cal(slug, [m["role"]])
                     if cal:
@@ -214,7 +222,7 @@ def build(strategy: str) -> dict:
                 n_pairs += 1
             else:  # neutral / single-role position stays ONE node
                 m = base_member(hub, ty, None, "", 0)
-                m["posId"] = slug
+                m["posId"] = pos_leaf
                 m["s"] = hub.get("s")
                 cal = pos_cal(slug, ["top", "bottom"])
                 if cal:
