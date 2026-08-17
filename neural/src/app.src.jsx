@@ -1572,6 +1572,17 @@ class Component extends DCLogic {
   }
   /** Hydrate several decks; resolves when all have landed (or failed). */
   hydrateDecks(keys) { return Promise.all((keys || []).map((k) => this.hydrateDeck(k))); }
+  /** THE LANDING'S QUESTION NEEDS ITS DECK, AND THE FLIGHT IS FREE RUNWAY (v1.106.6). The moment
+   *  a roll knows WHERE it will land (startRoll's draw, rollFromPosition's stage, an outcome's
+   *  destination) there are 0.6-1.3s of travel before renderLandCard runs — exactly the window a
+   *  cached chunk resolves in. Prefetching here is what makes the funnel honest: a skip recorded
+   *  at render time now really means the payload is in flight (4G), not that nobody asked early
+   *  enough. hydrateDeck is idempotent, coalesced, and a no-op before the manifest lands — the
+   *  manifest-arrival backfill re-requests in that case. Fire-and-forget on purpose. */
+  _prefetchLandDeck(idx) {
+    const n = this.nodes && this.nodes[idx]; if (!n) return;
+    const k = this.deckKeyFor(n); if (k && k.key) this.hydrateDeck(k.key);
+  }
   /**
    * ONE definition of mastery, resident or not.
    *
@@ -8003,6 +8014,16 @@ class Component extends DCLogic {
   //   _landIdx === currentPos + a live _decision — the roll has not moved on; a card whose turn
   //              is over must never be rewritten under the next state.
   // Not a pane/roll-loop action: it re-renders one overlay in place, opens nothing, pauses nothing.
+  /** The deferred skip verdict comes due (v1.106.6): a landing whose deck was still in flight
+   *  armed `_landSkipDebt` instead of recording a skip that might un-happen. If the question
+   *  never docked — the warm failed, or the landing is ending (a commit, the next arrival) —
+   *  the skip is real and is recorded NOW, with the reason that was true all along. */
+  _flushLandSkipDebt() {
+    const d = this._landSkipDebt;
+    if (!d) return;
+    this._landSkipDebt = null;
+    this._landQSkip(d.key, "decks_in_flight", d.mode);
+  }
   _landBackfill() {
     if (!this._landEl) return;
     if (this._landQ && this._landQ.answered) return;   // scored once, never re-asked
@@ -8038,7 +8059,11 @@ class Component extends DCLogic {
     // the deck + its pool land; finishCoach hands the card over as well). Skip ONLY when the
     // mounted question is still the one this state would ask: if the deck has since been proven,
     // or a different card is now due, the card must genuinely re-render.
-    if (this._landQ && this._landEl && this._landQ.key === key0 && this._landQ.mode === (mode || "land")) {
+    // …but NEVER when the caller passes `reuse` (v1.106.6): a backfill re-render carries the
+    // mounted question across verbatim BY CONSTRUCTION, and its whole point is to complete the
+    // card AROUND it — the More affordance, film, definition — which this early return threw
+    // away. With reuse in hand there is no reshuffle to prevent.
+    if (!reuse && this._landQ && this._landEl && this._landQ.key === key0 && this._landQ.mode === (mode || "land")) {
       const want = this.get("landQuestions", true) ? this.questionFor(key0) : null;
       if (want && this._landQ.card && want.q === this._landQ.card.q) return this._landEl;
     }
@@ -8069,14 +8094,15 @@ class Component extends DCLogic {
     // player gets the multiple choice right, the second time we show the card... Q and A, and we
     // hide the answer." A stage-0/1 card stays MC even with the badge on — recognition first.
     const landRecall = !!(card && this.get("recallInPlay", false) && this.cardStage(key, card.q) >= 2);
-    let warm = null;
-    if (wantQ && !card && !this._deckResident(key)) warm = () => this.hydrateDeck(key);
+    let warm = null, warmKind = null;
+    if (wantQ && !card && !this._deckResident(key)) { warm = () => this.hydrateDeck(key); warmKind = "deck"; }
     // the warm gate is FORMAT-AWARE: a recall block needs no distractor pool, and holding its
     // card hostage to one would delay the question behind a fetch it will never use.
     else if (card && !landRecall && !this.mcPoolWarm(key, card)) {
       const c0 = card;
       warm = () => this._warmMcPool(c0, key, "land");
       card = null;                                     // ask nothing until the pool is resident
+      warmKind = "pool";                               // the card EXISTS — this is pending, not skipped
     }
     const info = this.ngContentFor(node);
     const sp = this.splitName(node.t);
@@ -8192,6 +8218,7 @@ class Component extends DCLogic {
         // glyph is the existing evidence ("○" = not one card in this deck has ever been met), so
         // this asks nothing new of the data model — it just names the suspected confusion.
         const unseen = glyph[0] === "○";
+        this._landSkipDebt = null; // the question showed — any deferred skip verdict is void
         this.fx("land_q_shown", { deckKey: key, mode: mode || "land", unseen: unseen, cards: totalCards, backfill: !!this._landLate });
         if (unseen) this.fx("land_q_unseen", { deckKey: key, node: node.t, cards: totalCards, mode: mode || "land", landing: (this.rollLog || []).length });
       } else this._landQSkip(key, "no_distractors", mode);
@@ -8199,7 +8226,26 @@ class Component extends DCLogic {
       // NAME THE GAP. A landing that asks nothing is legitimate, but the cold-start funnel must not
       // be left to infer a drop-off from its absence — an unexplained hole in an ordered funnel is
       // exactly the phantom that made the v1.82.0 spine unusable.
-      this._landQSkip(key, !this.get("landQuestions", true) ? "setting_off" : (!totalCards ? (this.flashcards ? "no_cards_authored" : "decks_in_flight") : "deck_proven"), mode);
+      // THE REASON MUST BE TRUE (v1.106.6). `totalCards` is the manifest `n` until the chunk
+      // lands, so the old chain called an in-flight deck "deck_proven" — a fresh profile's first
+      // landing, rendered a beat before its (prefetched) chunk resolved, was recorded as a skip
+      // that never happened. In-flight is judged by RESIDENCY, not by the manifest's count.
+      // And a card WAITING ON ITS DISTRACTOR POOL (warmKind "pool") is not skipped at all: the
+      // card exists, the question docks on this same landing when the pool warms, and
+      // `mc_pool_cold` already names the wait — a funnel skip here would be a false drop-off.
+      const reason = !this.get("landQuestions", true) ? "setting_off"
+        : (!this.flashcards || (totalCards > 0 && !this._deckResident(key))) ? "decks_in_flight"
+        : (!totalCards ? "no_cards_authored" : "deck_proven");
+      // A CHUNK ALREADY REQUESTED IS A VERDICT NOT YET IN (v1.106.6): the prefetch asked for
+      // this deck when the flight began, and from HTTP cache it resolves within this same
+      // landing — a skip recorded now is a drop-off that un-happens moments later. Defer to the
+      // resolution: dock → land_q_shown; failure or landing over → the skip, then (see the warm
+      // .then and _flushLandSkipDebt). A missing MANIFEST stays an immediate skip: nothing is
+      // even requestable, and the funnel must name that silence while it lasts.
+      if (warmKind === "pool") { /* pending, never skipped — mc_pool_cold names the wait */ }
+      else if (reason === "decks_in_flight" && this.flashcards && this._deckWaits && this._deckWaits[key])
+        this._landSkipDebt = { key: key, mode: mode };
+      else this._landQSkip(key, reason, mode);
     }
 
     // 5 — THE FULLER CONTAINER, UNFOLDED IN PLACE (v1.101.0). Everything the retired in-node
@@ -8312,7 +8358,11 @@ class Component extends DCLogic {
       const p = warm().then(() => {
         if (this._landEl !== el) return;
         const progressed = this._deckResident(key) || (c1 && this.mcPoolWarm(key, c1));
-        if (progressed) this.renderLandCard(node, mode, hooks);
+        // a question docking on the warm re-render IS a late arrival — the initial render asked
+        // nothing, which is why the warm existed. Same stamp `_landBackfill` wears (v1.106.6).
+        if (progressed) { this._landLate = true; try { this.renderLandCard(node, mode, hooks); } finally { this._landLate = false; } }
+        // the deferred verdict comes in: the warm could not produce this deck — the skip is real
+        else this._flushLandSkipDebt();
       }).catch(() => {});
       // ── THE "QUESTION IS SETTLED" SIGNAL (v1.80.5) ──
       // Since the payload was chunked, the question docks ONE FETCH after the card paints. Any
@@ -9125,6 +9175,7 @@ class Component extends DCLogic {
     this.prevPosVal = this.myVal(this.nodes[posIdx]);
     this._syncUrl(posIdx);                       // the address bar follows a chosen node
     this._played = false;                        // nothing counts until it runs unpaused
+    this._prefetchLandDeck(posIdx);              // the flight is the deck's runway (v1.106.6)
     this.hideCenter(); this.setPaused(!!staged); // staged: land here, but hold the clock
     this.flare(posIdx);
     this.after(0.6, () => this.enterLand(true), true);
@@ -9255,6 +9306,7 @@ class Component extends DCLogic {
     } else {
       this.currentPos = positions[(this.rng("start-pos") * positions.length) | 0];
     }
+    this._prefetchLandDeck(this.currentPos); // the intro is the deck's runway (v1.106.6)
     const lad = this.ladderState();
     this.fx("stakes", { rank: lad.rank, opponent: lad.opponent });
     this.showCenter("Restarting the roll", this.posFamily(this.nodes[this.currentPos].t), this.roleLabel() + " \u00b7 vs " + lad.opponent, "muted", true);
@@ -9287,6 +9339,8 @@ class Component extends DCLogic {
   }
   enterLand(first) {
     const pos = this.nodes[this.currentPos];
+    this._flushLandSkipDebt(); // a new arrival settles the previous landing's deferred verdict
+    this._prefetchLandDeck(this.currentPos); // idempotent; covers outcome landings' render window
     this._qMod = 0; // a new arrival forgives the last exchange's wrong answer
     this.fx("land", { position: pos ? pos.t : null, first: !!first });
     if (!first) this.decaySharp(); // sharpness fades as the roll moves on
@@ -9414,6 +9468,7 @@ class Component extends DCLogic {
     // a picker opened from an option card can still be up when the decision resolves — and at
     // z:90 it would sit over the tray that is about to be re-dealt.
     if (this._pickEl) this.closeListPicker();
+    this._flushLandSkipDebt(); // committing ends the landing — an unasked question is a real skip now
     // committing past an unanswered question is IGNORING it — momentum demands engagement
     // (owner's rule: wrong or ignored breaks; a landing that asked nothing carries)
     // the beat is emitted BEFORE the break because _breakCombo clears _landPending — and it fires

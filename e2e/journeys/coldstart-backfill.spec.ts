@@ -88,6 +88,14 @@ const decksLandFor = async (j: any, page: any) => {
     },
   );
   await j.advance(200); // one pump so the backfilled render is on the page
+  // The manifest is only the FIRST hop: the chain is manifest → this deck's chunk → the MC
+  // distractor pool (neighbour chunks), each a real fetch resolving on the WALL clock, no sim
+  // timers involved. The claim under test is "the payload landing mid-turn gives THIS landing
+  // its question" — not "within one 200ms pump" — so wait for the dock, bounded; the .catch
+  // leaves the reporting to the assertions that follow, which still make the claim.
+  await page
+    .waitForFunction(() => !!document.querySelector("[data-land-q]"), null, { timeout: 15_000 })
+    .catch(() => {});
 };
 
 test("cold start: the deck payload landing mid-turn gives the CURRENT state its question", async ({
@@ -178,6 +186,14 @@ test("cold start: the dossier payload landing mid-turn gives the current state i
     a.onContentReady();
   });
 
+  // v1.101.x: the definition lives BEHIND `More ▸` (owner: "push the intro… to the content after
+  // clicking More"), built lazily on first open. The backfilled render's job is to make `More`
+  // APPEAR (the card had nothing to unfold before the payload); the definition is inside it.
+  await expect(
+    page.locator("[data-land-more]"),
+    "the backfill gives the card its More affordance",
+  ).toHaveCount(1);
+  await page.evaluate(() => (window as any).__neural.expandLandCard());
   const after = await read(page);
   expect(after.hasDef, "the definition backfills onto the live card").toBe(
     true,
@@ -242,62 +258,44 @@ test("cold start: a payload arriving behind the expand sheet stays behind it", a
 test("cold start: the FIRST landing carries its question, and a late payload reaches it", async ({
   page,
 }) => {
-  // THE ONLY PATH THAT MATTERS. A genuinely cold visitor's first landing is ALWAYS coached, and
-  // v1.82.1's backfill returned early on `this._coach` — so on the default path it delivered
-  // nothing. Worse, coach panels 2 and 3 instruct the newcomer, in words, to open an option sheet
-  // and Execute from inside it; a newcomer who obeys never reaches `finishCoach`, so the landing
-  // card (and its question) was never rendered AT ALL before their first commit.
+  // THE ONLY PATH THAT MATTERS — v1.104.0 form. The 3-panel first-roll coach is DELETED (owner),
+  // so a cold visitor's default first landing is simply the card + the hand. What survives from
+  // the v1.82.x adjudication is the substance: the FIRST landing a visitor ever sees must gain
+  // its question when the deck payload lands mid-turn, and that question must be answerable BY
+  // MOUSE at measured coordinates (the card is a fixed overlay over a hit-testing canvas).
   const j = journey(page);
   await j.boot("/", {
     keepTutorial: true,
     payloads: { "flashcards/_index.json": { never: true } }, // really in flight, not stubbed away
   });
-  await j.land("Mount Top", { keepCoach: true }); // the coach stays up — this is the default
+  await j.land("Mount Top");
 
   expect(
-    await page.evaluate(() => !!(window as any).__neural._coach),
-    "the coach is talking (the default first landing)",
-  ).toBe(true);
-  expect(
     await page.locator("[data-landcard]").count(),
-    "and the visitor can still see WHERE THEY ARE while it talks",
+    "the card is up — the visitor can see the landing surface",
   ).toBe(1);
   expect(
     (await read(page)).hasQ,
     "no deck payload yet, so no question yet",
   ).toBe(false);
 
-  // the deck payload lands while the coach is still up — the case v1.82.1 could not serve
+  // the deck payload lands while the first landing is still the live one
   await decksLandFor(j, page);
   const after = await read(page);
   expect(
     after.hasQ,
-    "the coached landing gains its question, so the first decision is a comprehension moment",
+    "the first landing gains its question, so the first decision is a comprehension moment",
   ).toBe(true);
   expect(after.funnel, "and the funnel records it").toContain("question_shown");
 
-  // the coach and the card must not fight for the same pixels: two stacked fixed overlays where
-  // the higher z-index one is NARROWER would bury the question behind the coach copy
-  const overlap = await page.evaluate(() => {
-    const c = document.querySelector(".ng-coach")!.getBoundingClientRect();
-    const l = document.querySelector(".ng-landcard")!.getBoundingClientRect();
-    return !(c.bottom <= l.top || l.bottom <= c.top);
-  });
-  expect(overlap, "the coach does not cover the landing card").toBe(false);
-
-  // BY MOUSE, at measured coordinates. Both are fixed overlays over a hit-testing canvas, so
-  // `pointer-events:auto` has to be live on each — and each has to be where the visitor can reach it
-  // WITHOUT scrolling, which is exactly the part `locator.click()` cannot say (it scrolls first).
+  // BY MOUSE, at measured coordinates: `pointer-events:auto` has to be live on the card, and the
+  // option has to be where the visitor can reach it WITHOUT scrolling — exactly the part
+  // `locator.click()` cannot say (it scrolls first).
   await j.clickByMouse(
     "[data-land-mc-opt]",
-    "the coached landing's first MC option",
+    "the first landing's first MC option",
   );
   await j.expectBeat("land_q_answered");
-  await j.clickByMouse("[data-coach-next]", "the coach's Next button");
-  expect(
-    await page.evaluate(() => (window as any).__neural._coach),
-    "and the coach's own button still advances it",
-  ).toBe(2);
 });
 
 test("cold start: the dossier payload backfills a definition onto a question not yet answered", async ({
@@ -332,6 +330,13 @@ test("cold start: the dossier payload backfills a definition onto a question not
     a.onContentReady();
   });
 
+  // v1.101.x: the definition unfolds behind `More ▸` — the backfill's visible effect on the card
+  // face is the More affordance appearing; the words are one deliberate click lower.
+  await expect(
+    page.locator("[data-land-more]"),
+    "the second payload gives the card its More affordance",
+  ).toHaveCount(1);
+  await page.evaluate(() => (window as any).__neural.expandLandCard());
   expect(
     (await read(page)).hasDef,
     "the definition arrives on the card being read",

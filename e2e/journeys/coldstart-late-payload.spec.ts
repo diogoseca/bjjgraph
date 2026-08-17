@@ -138,6 +138,11 @@ test("cold start: the harness can hold a payload back, and the app plays its fir
     },
   );
   await j.advance(200); // one pump so the backfill's render is on the page
+  // manifest → chunk → distractor pool is a WALL-clock fetch chain (no sim timers) — wait for
+  // the dock, bounded; the assertion below still makes the claim.
+  await page
+    .waitForFunction(() => !!document.querySelector("[data-land-q]"), null, { timeout: 15_000 })
+    .catch(() => {});
   expect(
     await page.locator("[data-land-q]").count(),
     "the card the visitor is STILL looking at gains its question",
@@ -214,6 +219,18 @@ test("cold start: a spine step that arrives too EARLY is stamped out of order", 
     },
   );
   await j.advance(400);
+  // same wall-clock chain as above: manifest landed, but the chunk + pool hops resolve on real
+  // time — wait for the shown mark, bounded, then assert.
+  await page
+    .waitForFunction(
+      () =>
+        ((window as any).__neural.csBeats || []).some(
+          (b: any) => b.beat === "funnel" && b.step === "question_shown",
+        ),
+      null,
+      { timeout: 15_000 },
+    )
+    .catch(() => {});
 
   const m = await marks(page);
   const q = m.find((x) => x.step === "question_shown");
@@ -454,9 +471,12 @@ test("cold start: a payload that never arrives leaves a playable app, not a brok
   ).toEqual(
     expect.arrayContaining(["hand_dealt", "move_committed", "outcome_seen"]),
   );
+  // v1.101.1: the identity block left the card — the roll settles at ROLL_ZOOM and the GRAPH
+  // names the state inside the node itself. The DOM-visible half of "they know where they are"
+  // is the landing card being up at all.
   expect(
-    await page.locator("[data-land-id]").count(),
-    "every landing still tells them where they are",
+    await page.locator("[data-landcard]").count(),
+    "every landing still puts its card up",
   ).toBe(1);
   const skips = await page.evaluate(() =>
     (window as any).__neural.beats

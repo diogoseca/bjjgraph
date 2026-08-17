@@ -169,33 +169,17 @@ test("cold start: the funnel spine emits in order, and the first question is abo
       break;
   }
 
-  // STATE 2 — the coach is talking; the decision clock is frozen behind it, and the landing card
-  // is up alongside. The card fades in over .28s on the WALL clock and the dump's own visibility
-  // check reads opacity, so let the entry animation finish before sampling (same reason as STATE 3).
+  // STATE 2 — the first landing. v1.104.0 DELETED the 3-panel coach (owner), so what greets a
+  // first-ever visitor is the game itself: the landing card over the dealt hand. (v1.82.0's
+  // coach-vs-card adjudication is history now — its substance, "the card is up on the very first
+  // landing", is what survives as the assertion.) The card fades in over .28s on the WALL clock
+  // and the dump's own visibility check reads opacity, so let the entry animation finish first.
   await page.waitForTimeout(400);
-  const s2 = await capture("first-landing-coach");
-  expect(
-    s2.surfaces["[data-coach]"],
-    "the coach greets a first-ever visitor",
-  ).toBe(true);
-  // v1.82.0 asserted the OPPOSITE here ("the coach owns the first landing — no stacked card"),
-  // which pinned the blocker in place: because a cold visitor's first landing is ALWAYS coached,
-  // suppressing the card deleted the landing question from the one decision the comprehension
-  // mechanic exists for, and the funnel then recorded hand_dealt → move_committed with the two
-  // question steps missing. The coach now docks at the top of the viewport and the card keeps its
-  // own space below, so the newcomer reads WHERE THEY ARE while the coach explains the controls.
+  const s2 = await capture("first-landing");
   expect(
     s2.surfaces["[data-landcard]"],
-    "the card is up while the coach talks — the clock is frozen behind both",
+    "the landing card greets a first-ever visitor",
   ).toBe(true);
-  expect(
-    await page.evaluate(() => {
-      const c = document.querySelector(".ng-coach")!.getBoundingClientRect();
-      const l = document.querySelector(".ng-landcard")!.getBoundingClientRect();
-      return !(c.bottom <= l.top || l.bottom <= c.top);
-    }),
-    "and they do not overlap",
-  ).toBe(false);
 
   // STATE 3 — the coach hands over: identity, definition, ONE question, the option hand.
   // NB the harness ABORTS technique-content.js (the 21MB dossier payload), so [data-land-def]
@@ -265,9 +249,18 @@ test("cold start: the funnel spine emits in order, and the first question is abo
   // journey walking the real cold path and makes its two end assertions deterministic.
   await j.rig("resolve", [0.01]); // < moveChance ⇒ success
   await j.rig("outcome", [0.01]); // first bucket = the success target
+  // …and the roll must END on this exchange for the spine's last step to be pinnable: success
+  // into a transition's first bucket never reaches game-over, so the MOVE BUDGET is the honest
+  // deterministic ending — this commit is the roll's last move.
+  await page.evaluate(() => {
+    const a = (window as any).__neural;
+    a.moveCount = a.maxMoves - 1;
+  });
   await j.pick(target);
   await j.advanceUntil("sweep_land", 20000);
-  await j.advance(2500);
+  // the budget end sits behind the TRAVEL leg + 0.8s (`after(0.8, endRound)`), and the pane
+  // open below PAUSES that timer — so wait for the beat, not a fixed pump.
+  await j.advanceUntil("roll_end", 20000);
 
   // ── the pane (manual-only) and a graded card ──
   await page.evaluate(() => (window as any).__neural.setDeckOpen(true));
@@ -308,9 +301,9 @@ test("cold start: the funnel spine emits in order, and the first question is abo
     "and no spine step arrived with an earlier one missing",
   ).toEqual([]);
   const marks = funnel.map((f: any) => f.step);
+  // ("coach_seen" left this list with the coach itself — deleted v1.104.0)
   expect(marks, "the side marks are measured too").toEqual(
     expect.arrayContaining([
-      "coach_seen",
       "question_answered",
       "unseen_question",
       "pane_opened",
