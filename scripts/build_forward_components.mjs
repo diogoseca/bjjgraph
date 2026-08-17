@@ -165,6 +165,21 @@ for (const requiredBeat of [
     );
   }
 }
+// The Experiments page shows the dual close-pair prototype's committed evidence PNGs. They live
+// once, in tests/artifacts/dualpair/ (beside the change log that produced them), and are copied
+// into the emitted page at build time — LOUDLY missing rather than silently absent, because a
+// /dev page whose images 404 reads as a broken build, not a decision aid.
+for (const shot of [
+  "fixed-1-overview.png", "fixed-2-mid.png", "fixed-3-rollzoom.png",
+  "force-1-overview.png", "force-2-mid.png", "force-3-rollzoom.png",
+]) {
+  const src = resolve(root, "tests/artifacts/dualpair", shot);
+  try {
+    await copyFile(src, resolve(output, "experiments", shot));
+  } catch (e) {
+    throw new Error(`[forward] experiments page is missing its evidence image: ${src}`);
+  }
+}
 await copyFile(soundSourcePath, resolve(output, "sounds/sound-engine.js"));
 await writeFile(
   resolve(output, "sounds/sound-catalog.json"),

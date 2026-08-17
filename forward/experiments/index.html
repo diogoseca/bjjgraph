@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="noindex,nofollow" />
+    <title>Experiments · BJJGraph /dev</title>
+    <link rel="stylesheet" href="../shared/tokens.css" />
+    <style>
+      body { margin: 0; background: #0d1220; color: #dbe2f0; font: 15px/1.55 "Plus Jakarta Sans", system-ui, sans-serif; }
+      .wrap { max-width: 1100px; margin: 0 auto; padding: 28px 20px 80px; }
+      a { color: #7fa8ff; }
+      .crumb { font-size: 13px; color: #8a94ab; margin-bottom: 18px; }
+      h1 { font-family: "Space Grotesk", sans-serif; font-size: 28px; margin: 0 0 4px; }
+      .flag { display: inline-block; vertical-align: middle; margin-left: 10px; padding: 3px 10px; border-radius: 999px; font-size: 11px; font-weight: 800; letter-spacing: 0.12em; background: rgba(255, 176, 32, 0.16); color: #ffb020; border: 1px solid rgba(255, 176, 32, 0.45); }
+      .sub { color: #9aa6bd; margin: 0 0 26px; max-width: 72ch; }
+      h2 { font-family: "Space Grotesk", sans-serif; font-size: 19px; margin: 34px 0 10px; }
+      .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+      @media (max-width: 760px) { .grid { grid-template-columns: 1fr; } }
+      figure { margin: 0; background: #131a2c; border: 1px solid rgba(150, 170, 210, 0.18); border-radius: 10px; padding: 10px; }
+      figure img { width: 100%; display: block; border-radius: 6px; }
+      figcaption { font-size: 12.5px; color: #9aa6bd; padding: 8px 2px 2px; }
+      figcaption b { color: #dbe2f0; }
+      ol.q { padding-left: 20px; max-width: 78ch; }
+      ol.q li { margin: 9px 0; }
+      ol.q b { color: #eef2fb; }
+      code { background: #1a2338; border-radius: 4px; padding: 1px 6px; font-size: 13px; }
+      .note { background: #131a2c; border: 1px solid rgba(150, 170, 210, 0.18); border-left: 3px solid #ffb020; border-radius: 8px; padding: 12px 16px; max-width: 78ch; }
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <p class="crumb"><a href="/dev/">/dev</a> · Experiments</p>
+      <h1>Dual close-pair graph <span class="flag">EXPERIMENT — NOT DEPLOYED</span></h1>
+      <p class="sub">
+        The visual layer today collapses every dual state (Top/Bottom, Attacker/Defender) into one
+        hub node. This prototype splits them into <b>adjacent node pairs</b> — 2,637 nodes: 1,170
+        tight pairs + 297 singles — so the side you are playing is a real, visible place on the map.
+        It ships <b>inert</b>: the code rides the bundle behind <code>?dual=fixed</code> /
+        <code>?dual=force</code>, no flag means a byte-identical default, and nothing here changes
+        the live product until the owner signs it off.
+      </p>
+
+      <div class="note">
+        <b>Viewing it live</b> needs the prototype layout payloads, which are regenerable and
+        deliberately not shipped: run <code>python3 scripts/prototype_dual_pair_layout.py</code>,
+        then <code>npm run dev</code> and open <code>http://localhost:8080/?dual=fixed</code> or
+        <code>?dual=force</code>. Full plan (ordinal successors map, payload trade, camera notes):
+        <code>docs/DualPairMigration.md</code>.
+      </div>
+
+      <h2>The two strategies, three zooms each</h2>
+      <p class="sub">
+        <b>fixed</b> = uniform 25° grain, perfectly regular 8.0u pair spacing. <b>force</b> =
+        organic 6.1–11.7u, each pair finds its own axis. This is decision Q4 — the pictures are the
+        evidence.
+      </p>
+      <div class="grid">
+        <figure><img src="./fixed-1-overview.png" alt="fixed strategy, overview zoom" loading="lazy" /><figcaption><b>fixed</b> · overview — the uniform grain</figcaption></figure>
+        <figure><img src="./force-1-overview.png" alt="force strategy, overview zoom" loading="lazy" /><figcaption><b>force</b> · overview — organic per-pair axes</figcaption></figure>
+        <figure><img src="./fixed-2-mid.png" alt="fixed strategy, mid zoom" loading="lazy" /><figcaption><b>fixed</b> · mid — pair anatomy, closed-guard neighbourhood</figcaption></figure>
+        <figure><img src="./force-2-mid.png" alt="force strategy, mid zoom" loading="lazy" /><figcaption><b>force</b> · mid — same neighbourhood</figcaption></figure>
+        <figure><img src="./fixed-3-rollzoom.png" alt="fixed strategy, roll zoom" loading="lazy" /><figcaption><b>fixed</b> · roll zoom — the real landing frame, staged at Mount/Top</figcaption></figure>
+        <figure><img src="./force-3-rollzoom.png" alt="force strategy, roll zoom" loading="lazy" /><figcaption><b>force</b> · roll zoom — same landing</figcaption></figure>
+      </div>
+
+      <h2>The ten open design questions</h2>
+      <p class="sub">Surfaced by the prototype, decided by nobody yet — these gate the cutover.</p>
+      <ol class="q">
+        <li><b>Q1 — Old share links:</b> a retired hub ordinal arrives in a code. Light BOTH members, or only the primary (top/attacker)? Same for stored lists holding hub ids.</li>
+        <li><b>Q2 — Defender edges:</b> defender/bottom members carry only the pair tie (mirror edges would double every edge on screen). Keep them edge-light, or draw a subset?</li>
+        <li><b>Q3 — Pair tie styling:</b> ordinary link line today. Shorter/heavier/no line and rely on proximity?</li>
+        <li><b>Q4 — Strategy:</b> fixed vs force — the six images above.</li>
+        <li><b>Q5 — Partner under focus:</b> the focus halo currently swallows the twin at mid zooms. Co-lit dimmer, a side kicker label, or excluded from the halo?</li>
+        <li><b>Q6 — Symmetric techniques:</b> 297 singles have no role split. Single node right, or should symmetric techniques pair too?</li>
+        <li><b>Q7 — Focus sets:</b> should lighting a System/list co-light partners, or exactly the captured side?</li>
+        <li><b>Q8 — Payload:</b> compact pair encoding (engineering time) vs an accepted +47KB gzip boot cost.</li>
+        <li><b>Q9 — First impression:</b> should the weighted start draw a SIDE instead of always landing top?</li>
+        <li><b>Q10 — Capture semantics:</b> after cutover the coach's <code>+</code> captures a member. Is a class list of SIDES the product, or does capture normalize to the pair?</li>
+      </ol>
+    </div>
+  </body>
+</html>

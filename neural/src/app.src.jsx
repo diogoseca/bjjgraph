@@ -449,7 +449,10 @@ class Component extends DCLogic {
         // serves them with a Cache-Control tier (see scripts/regenerate_headers.py). Forcing a
         // revalidation on every boot threw away the one free win available — a returning
         // visitor re-downloaded the entire payload.
-        const r = await fetch("graph-data.json");
+        // PROTOTYPE (dual close-pair graph): ?dual=fixed|force loads a role-pair variant of the
+        // layout (scripts/prototype_dual_pair_layout.py) — every dual state as TWO close nodes.
+        const dv = this._dualVariant();
+        const r = dv ? await fetch(this._dataBase() + "graph-data-dual-" + dv + ".json") : await fetch("graph-data.json");
         if (r.ok) data = await r.json();
       } catch (e) { /* retry */ }
       if (!data) await new Promise((res) => setTimeout(res, 400));
@@ -529,12 +532,14 @@ class Component extends DCLogic {
     const idIndex = new Map();
     const nodes = data.nodes.map((n, i) => {
       idIndex.set(n.id, i);
-      const dom = (n.s && typeof n.s[0] === "number") ? n.s[0] : this.dominance(n.ty, n.t);
+      // dual close-pair prototype: `sv` = this MEMBER's own side's strength — colors the pair
+      // members truthfully apart. `s` stays the full pair so myVal()'s role-indexing is unchanged.
+      const dom = (typeof n.sv === "number") ? n.sv : (n.s && typeof n.s[0] === "number") ? n.s[0] : this.dominance(n.ty, n.t);
       // `o` = this node's PERMANENT share-link ordinal (node_ordinals.json, stamped into
       // graph-data.json by regenerate_neural_data.py). Never the array index `i`: that is
       // filesystem-ordered and one new content file renumbers it, which would silently
       // repoint every share link already posted in a WhatsApp group.
-      return { idx: i, id: n.id, x: n.x, y: n.y, t: n.t, ty: n.ty, s: n.s || null, dom, col: this.domColor(dom), deg: 0, lit: -99, posId: n.posId || n.fromPositionId || null, fromPositionId: n.fromPositionId || null, fromRole: n.fromRole || null, cal: n.cal || null, familyHub: n.familyHub || null, o: typeof n.o === "number" ? n.o : null };
+      return { idx: i, id: n.id, x: n.x, y: n.y, t: n.t, ty: n.ty, s: n.s || null, dom, col: this.domColor(dom), deg: 0, lit: -99, posId: n.posId || n.fromPositionId || null, fromPositionId: n.fromPositionId || null, fromRole: n.fromRole || null, cal: n.cal || null, familyHub: n.familyHub || null, o: typeof n.o === "number" ? n.o : null, role: n.role || null, pairId: n.pairId || null };
     });
     const adj = nodes.map(() => []);
     const links = [];
@@ -555,6 +560,8 @@ class Component extends DCLogic {
         for (let jj = ii + 1; jj < order.length; jj++) {
           const b = nodes[order[jj]];
           if (b.x - a.x > 26) break;
+          // dual close-pair prototype: partners are PLACED deliberately tight — never push them
+          if (a.pairId && (a.pairId === b.id || b.pairId === a.id)) continue;
           let dx = b.x - a.x, dy = b.y - a.y;
           if (dy > 26 || dy < -26) continue;
           const g = a.r + b.r + 3.5;
@@ -602,9 +609,24 @@ class Component extends DCLogic {
     const posSlugIndex = new Map(), techSlugIndex = new Map();
     const setTech = (k, i, ty) => { if (k && (!techSlugIndex.has(k) || ty === "submissions")) techSlugIndex.set(k, i); };
     for (const n of nodes) {
-      if (n.ty === "positions") { if (n.posId) posSlugIndex.set(String(n.posId).toLowerCase(), n.idx); }
-      else {
-        const tail = (n.id.includes("/") ? n.id.slice(n.id.indexOf("/") + 1) : n.id).toLowerCase();
+      if (n.ty === "positions") {
+        if (n.posId) {
+          const pid = String(n.posId).toLowerCase();
+          // dual close-pair prototype: role members index under "<pos>/<role>"; the TOP member
+          // also owns the bare slug (compat for role-less lookups). Single nodes: unchanged.
+          if (n.role && n.pairId) {
+            posSlugIndex.set(pid + "/" + n.role, n.idx);
+            if (n.role === "top" || !posSlugIndex.has(pid)) posSlugIndex.set(pid, n.idx);
+          } else posSlugIndex.set(pid, n.idx);
+        }
+      } else {
+        let tail = (n.id.includes("/") ? n.id.slice(n.id.indexOf("/") + 1) : n.id).toLowerCase();
+        // dual close-pair prototype: the ATTACKER member owns the pair's bare technique slug;
+        // the defender member is reachable only under its own suffixed key.
+        if (n.role && n.pairId) {
+          if (n.role === "attacker" && tail.endsWith("/attacker")) tail = tail.slice(0, -9);
+          else { setTech(tail, n.idx, n.ty); continue; }
+        }
         setTech(tail, n.idx, n.ty);
         if (tail.includes("/")) setTech(tail.replace(/\//g, "-"), n.idx, n.ty); // hyphenated full-name form (graph.json slug)
       }
@@ -614,7 +636,19 @@ class Component extends DCLogic {
     for (const n of nodes) {
       if (n.ty === "positions" && n.posId) {
         const pid = String(n.posId).toLowerCase();
-        if (pid.includes("/")) { const bare = pid.slice(pid.lastIndexOf("/") + 1); if (!posSlugIndex.has(bare)) posSlugIndex.set(bare, n.idx); }
+        if (pid.includes("/")) {
+          const bare = pid.slice(pid.lastIndexOf("/") + 1);
+          if (n.role && n.pairId && !posSlugIndex.has(bare + "/" + n.role)) posSlugIndex.set(bare + "/" + n.role, n.idx);
+          if (!posSlugIndex.has(bare)) posSlugIndex.set(bare, n.idx);
+        }
+      }
+    }
+    // dual close-pair prototype: alias each retired HUB id -> its primary member (top/attacker),
+    // so id-keyed consumers (systems lighting, curriculum fog, lists) still resolve.
+    for (const n of nodes) {
+      if (n.pairId && (n.role === "top" || n.role === "attacker")) {
+        const hid = n.id.slice(0, n.id.lastIndexOf("/"));
+        if (hid && !idIndex.has(hid)) idIndex.set(hid, n.idx);
       }
     }
     this._posSlugIndex = posSlugIndex; this._techSlugIndex = techSlugIndex;
@@ -1529,6 +1563,11 @@ class Component extends DCLogic {
   //      any surface holding the deck object sees the cards appear. Surfaces that snapshotted
   //      `_cardsOf(d).slice()` are re-rendered by _onDeckHydrated.
   _dataBase() { return (typeof window !== "undefined" && window.__NEURAL_DATA_BASE) || ""; }
+  // PROTOTYPE (dual close-pair graph): opt-in variant selector. null = production layout.
+  _dualVariant() {
+    try { const v = new URLSearchParams(location.search).get("dual"); return v === "fixed" || v === "force" ? v : null; }
+    catch (e) { return null; }
+  }
   _ingestDeckManifest(j) {
     const src = (j && j.decks) || {};
     const decks = {};
@@ -9339,6 +9378,10 @@ class Component extends DCLogic {
     const t = (this.nodes[posIdx].t || "");
     this.playerRole = roleOverride
       || (/\bbottom\b/i.test(t) ? "bottom" : (/\btop\b/i.test(t) ? "top" : (this.rng("role") < 0.5 ? "top" : "bottom")));
+    // dual close-pair prototype: a role MEMBER node IS a side — landing on it means playing it.
+    // An explicit roleOverride still wins (the comment above); member role beats title-derivation.
+    // Inert on the production layout: no default graph-data node carries `role`.
+    if (!roleOverride && (this.nodes[posIdx].role === "top" || this.nodes[posIdx].role === "bottom")) this.playerRole = this.nodes[posIdx].role;
     this.currentPos = posIdx; this.focusIdx = posIdx; this.pulse = null; this.activeMove = null;
     this.camFocus = { x: this.nodes[posIdx].x, y: this.nodes[posIdx].y };
     this.releaseCamera(); // roaming/staging elsewhere ends the focus lease (the user chose a node)
@@ -10074,7 +10117,13 @@ class Component extends DCLogic {
     const t = to.trim().toLowerCase();
     if (t === "game-over") return { idx: -1, terminal: true };
     const m = t.match(/^(.*)\/(top|bottom)$/);
-    if (m) { const i = this._posSlugIndex && this._posSlugIndex.get(m[1]); return { idx: i == null ? -1 : i, terminal: false, role: m[2] }; }
+    if (m) {
+      // dual close-pair prototype: prefer the ROLE MEMBER node ("mount/top") when the pair
+      // layout is live; falls back to the bare slug (the hub node) on the production layout.
+      let i = this._posSlugIndex && this._posSlugIndex.get(m[1] + "/" + m[2]);
+      if (i == null) i = this._posSlugIndex && this._posSlugIndex.get(m[1]);
+      return { idx: i == null ? -1 : i, terminal: false, role: m[2] };
+    }
     let i = this._techSlugIndex && this._techSlugIndex.get(t);
     if (i != null) return { idx: i, terminal: false };
     i = this._posSlugIndex && this._posSlugIndex.get(t);
