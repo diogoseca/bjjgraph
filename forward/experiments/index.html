@@ -23,6 +23,7 @@
       h1 { font-family: "Space Grotesk", sans-serif; font-size: 34px; letter-spacing: -0.01em; margin: 0 0 6px; text-wrap: balance; }
       h2 { font-family: "Space Grotesk", sans-serif; font-size: 20px; margin: 44px 0 12px; }
       .flag { display: inline-block; vertical-align: 6px; margin-left: 12px; padding: 3px 10px; border-radius: 999px; font-size: 11px; font-weight: 800; letter-spacing: 0.12em; background: rgba(255, 176, 32, 0.14); color: var(--flag); border: 1px solid rgba(255, 176, 32, 0.4); }
+      .chosen { display: inline-block; vertical-align: 6px; margin-left: 8px; padding: 3px 10px; border-radius: 999px; font-size: 11px; font-weight: 800; letter-spacing: 0.12em; background: rgba(110, 168, 255, 0.13); color: var(--top); border: 1px solid rgba(110, 168, 255, 0.4); }
       .lede { font-size: 17px; color: var(--ink); max-width: 74ch; margin: 0 0 10px; }
       .sub { color: var(--dim); max-width: 76ch; margin: 0 0 8px; }
       .lineage { display: flex; flex-wrap: wrap; gap: 8px; margin: 18px 0 6px; }
@@ -33,7 +34,7 @@
       .hero { background: radial-gradient(120% 140% at 50% -20%, #16203a 0%, #0d1220 60%); border: 1px solid var(--line); border-radius: 14px; margin: 26px 0 8px; padding: 10px 6px 2px; }
       .hero svg { width: 100%; height: auto; display: block; }
       .hero figcaption { font-size: 13px; color: var(--dim); padding: 6px 16px 14px; }
-      .pairGlow { animation: breathe 5s ease-in-out infinite; transform-origin: 430px 158px; }
+      .pairGlow { animation: breathe 5s ease-in-out infinite; }
       @keyframes breathe { 0%, 100% { opacity: 0.75; } 50% { opacity: 1; } }
       @media (prefers-reduced-motion: reduce) { .pairGlow { animation: none; } }
 
@@ -63,6 +64,7 @@
       .chip { font-size: 10px; font-weight: 800; letter-spacing: 0.12em; border-radius: 999px; padding: 3px 9px; white-space: nowrap; }
       .chip.dissolved { background: rgba(143, 208, 168, 0.14); color: var(--mid); border: 1px solid rgba(143, 208, 168, 0.4); }
       .chip.rec { background: rgba(110, 168, 255, 0.13); color: var(--top); border: 1px solid rgba(110, 168, 255, 0.4); }
+      .chip.owner { background: rgba(255, 176, 32, 0.13); color: var(--flag); border: 1px solid rgba(255, 176, 32, 0.4); }
       .q .verdict { margin: 0 0 8px; font-size: 14.5px; }
       .q .verdict b { color: #eef2fb; }
       .q details { border-top: 1px solid var(--line); margin-top: 6px; padding-top: 8px; }
@@ -80,203 +82,214 @@
 
       .note { background: var(--card); border: 1px solid var(--line); border-left: 3px solid var(--flag); border-radius: 8px; padding: 12px 16px; max-width: 80ch; font-size: 14px; color: var(--dim); }
       code { background: #1a2338; border-radius: 4px; padding: 1px 6px; font-size: 13px; color: var(--ink); white-space: nowrap; }
+      .matrix { font: 13px/1.7 "SF Mono", Consolas, monospace; background: #1a2338; border-radius: 8px; padding: 10px 16px; display: inline-block; color: var(--ink); }
     </style>
   </head>
   <body>
     <div class="wrap">
-      <p class="crumb"><a href="/dev/">/dev</a> · Experiments · Dual close-pair graph</p>
-      <h1>The 2.5D graph <span class="flag">EXPERIMENT — NOT DEPLOYED</span></h1>
+      <p class="crumb"><a href="/dev/">/dev</a> · Experiments · The 2.5D graph</p>
+      <h1>The 2.5D graph <span class="chosen">PROJECTION C — TRUE ISOMETRIC, CHOSEN</span><span class="flag">NOT DEPLOYED</span></h1>
       <p class="lede">
-        One map, two floors. Every dual state — Mount Top over Mount Bottom, every attacker over its
-        defender — becomes a pair of nodes at the <b>same equidistant vertical offset, everywhere</b>.
-        Stand on any technique and you already know where its other half lives: a few pixels straight
-        down. The graph stays flat, and reads deep.
+        The map's x, y is the <b>ground plane</b>. z is the <b>player axis</b> — top above, bottom
+        below, straight up off the ground. The world is viewed in <b>true isometric</b>: all three
+        axes at 120° on screen, x running toward the lower-right corner, y toward the lower-left,
+        z pointing up. The owner's call, rendered below over the real 2,637 nodes.
       </p>
       <div class="lineage">
         <i>Flat worlds that read as deep —</i>
         <span>Civilization</span><span>Age of Empires II</span><span>StarCraft</span><span>Dungeon Keeper</span>
       </div>
       <p class="sub">
-        Those games never rendered 3D; they rendered <b>rhythm</b> — a uniform projection the eye
-        learns once and then stops seeing. That is the whole trick here: because the offset never
-        varies, the two layers stop being 1,170 pairs to decode and become one rule. The current
-        feel — planets, neurons, the glow — carries over untouched; the layers live inside it.
+        Orthographic, like all of them: nothing shrinks with distance, so world→screen is one fixed
+        matrix — not a 3D engine. Baked once at emit time, which is why the camera, hit-testing and
+        every renderer downstream run unchanged:
       </p>
+      <p><span class="matrix">sx&nbsp;=&nbsp;(x&nbsp;−&nbsp;y)&nbsp;·&nbsp;cos&nbsp;30°&nbsp;&nbsp;&nbsp;&nbsp;sy&nbsp;=&nbsp;(x&nbsp;+&nbsp;y)&nbsp;·&nbsp;sin&nbsp;30°&nbsp;−&nbsp;z·H</span></p>
 
       <figure class="hero">
-        <svg viewBox="0 0 860 320" role="img" aria-label="Two node layers: the top/attacker layer above, the bottom/defender layer below, one pair site highlighted with a shared glow; a midline carries neutral single nodes.">
+        <svg viewBox="0 0 860 360" role="img" aria-label="A true-isometric ground plane drawn as a diamond grid; single nodes sit on the ground; one pair site shows the top orb lifted above its ground shadow and the bottom orb sunk below the plane; axes x, y toward the lower corners and z straight up, 120 degrees apart.">
           <defs>
             <radialGradient id="gTop" cx="50%" cy="45%" r="60%">
               <stop offset="0%" stop-color="#bcd6ff" /><stop offset="45%" stop-color="#6ea8ff" /><stop offset="100%" stop-color="#1c3a74" />
             </radialGradient>
             <radialGradient id="gBot" cx="50%" cy="45%" r="60%">
-              <stop offset="0%" stop-color="#ffd9bd" /><stop offset="45%" stop-color="#ff9d66" /><stop offset="100%" stop-color="#6e3517" />
-            </radialGradient>
-            <radialGradient id="gSite" cx="50%" cy="50%" r="50%">
-              <stop offset="0%" stop-color="rgba(126,168,255,0.28)" /><stop offset="60%" stop-color="rgba(126,168,255,0.10)" /><stop offset="100%" stop-color="rgba(126,168,255,0)" />
+              <stop offset="0%" stop-color="#c98a5c" /><stop offset="45%" stop-color="#a5642f" /><stop offset="100%" stop-color="#4a2410" />
             </radialGradient>
             <radialGradient id="gMid" cx="50%" cy="45%" r="60%">
               <stop offset="0%" stop-color="#d6f2e2" /><stop offset="45%" stop-color="#8fd0a8" /><stop offset="100%" stop-color="#2c5b40" />
             </radialGradient>
+            <linearGradient id="shaft" x1="0" y1="0" x2="0" y2="1">
+              <stop offset="0%" stop-color="rgba(110,168,255,0.16)" /><stop offset="100%" stop-color="rgba(110,168,255,0)" />
+            </linearGradient>
           </defs>
 
-          <!-- ambient link hints -->
-          <g stroke="rgba(126,150,200,0.10)" stroke-width="1">
-            <path d="M90 96 L200 88 L330 100 L430 92 L560 104 L680 90 L790 100" fill="none" />
-            <path d="M90 236 L200 228 L330 240 L430 232 L560 244 L680 230 L790 240" fill="none" />
+          <!-- ── the ground plane: iso diamond grid (x toward lower-right, y toward lower-left) ── -->
+          <g stroke="rgba(126,150,200,0.13)" stroke-width="1" fill="none">
+            <path d="M 250 120 L 610 328" /><path d="M 330 96  L 690 304" /><path d="M 410 72  L 770 280" />
+            <path d="M 170 144 L 530 352" /><path d="M 490 48  L 850 256" />
+            <path d="M 610 120 L 250 328" /><path d="M 530 96  L 170 304" /><path d="M 450 72  L 90 280" />
+            <path d="M 690 144 L 330 352" /><path d="M 370 48  L 10 256" />
           </g>
 
-          <!-- the pair site: one shared glow, no tie line -->
+          <!-- axes -->
+          <g font-family="Plus Jakarta Sans" font-size="11" letter-spacing="1.5">
+            <path d="M 430 200 L 545 266" stroke="rgba(219,226,240,0.5)" stroke-width="1.4" />
+            <text x="552" y="278" fill="#9aa6bd">x</text>
+            <path d="M 430 200 L 315 266" stroke="rgba(219,226,240,0.5)" stroke-width="1.4" />
+            <text x="298" y="278" fill="#9aa6bd">y</text>
+            <path d="M 430 200 L 430 74" stroke="rgba(219,226,240,0.6)" stroke-width="1.4" />
+            <text x="438" y="72" fill="#dbe2f0">z</text>
+            <text x="236" y="120" fill="#5d6a85" font-size="10">120° between every pair of axes</text>
+          </g>
+
+          <!-- singles ON the ground -->
+          <circle cx="253" cy="188" r="6" fill="url(#gMid)" opacity="0.85" />
+          <circle cx="622" cy="230" r="7" fill="url(#gMid)" opacity="0.85" />
+          <text x="640" y="234" font-family="Plus Jakarta Sans" font-size="10.5" fill="#8fd0a8">Standing · neutral sits ON the ground</text>
+
+          <!-- ambient neighbour sites -->
+          <g opacity="0.55">
+            <ellipse cx="200" cy="252" rx="12" ry="4.5" fill="rgba(126,150,200,0.14)" />
+            <circle cx="200" cy="224" r="6" fill="#31405f" /><circle cx="200" cy="278" r="5" fill="#463427" />
+            <ellipse cx="700" cy="150" rx="12" ry="4.5" fill="rgba(126,150,200,0.14)" />
+            <circle cx="700" cy="122" r="6" fill="#31405f" /><circle cx="700" cy="176" r="5" fill="#463427" />
+          </g>
+
+          <!-- THE SITE: shaft, ground shadow, top orb above, bottom orb below the plane -->
           <g class="pairGlow">
-            <ellipse cx="430" cy="162" rx="64" ry="98" fill="url(#gSite)" />
-            <ellipse cx="430" cy="268" rx="46" ry="10" fill="rgba(126,168,255,0.10)" />
+            <rect x="411" y="120" width="38" height="150" fill="url(#shaft)" rx="19" />
+            <ellipse cx="430" cy="200" rx="26" ry="9" fill="rgba(110,168,255,0.22)" />
+            <ellipse cx="430" cy="200" rx="13" ry="4.5" fill="rgba(13,18,32,0.85)" />
           </g>
+          <circle cx="430" cy="140" r="15" fill="url(#gTop)" />
+          <text x="452" y="136" font-family="Space Grotesk" font-size="13" font-weight="700" fill="#dbe2f0">Mount</text>
+          <text x="452" y="151" font-family="Plus Jakarta Sans" font-size="10" letter-spacing="1.5" fill="#6ea8ff">TOP · z = +1</text>
+          <circle cx="430" cy="260" r="13" fill="url(#gBot)" />
+          <text x="450" y="258" font-family="Plus Jakarta Sans" font-size="10" letter-spacing="1.5" fill="#ff9d66">BOTTOM · z = −1</text>
+          <text x="450" y="272" font-family="Plus Jakarta Sans" font-size="10" fill="#6b7691">the dungeon under the surface</text>
 
-          <!-- top / attacker layer -->
-          <g>
-            <circle cx="90" cy="96" r="6" fill="#31405f" /><circle cx="200" cy="88" r="8" fill="#31405f" />
-            <circle cx="330" cy="100" r="5" fill="#31405f" /><circle cx="560" cy="104" r="7" fill="#31405f" />
-            <circle cx="680" cy="90" r="5" fill="#31405f" /><circle cx="790" cy="100" r="7" fill="#31405f" />
-            <circle cx="430" cy="92" r="15" fill="url(#gTop)" />
-            <text x="454" y="88" font-family="Space Grotesk" font-size="13" font-weight="700" fill="#dbe2f0">Mount</text>
-            <text x="454" y="103" font-family="Plus Jakarta Sans" font-size="10" letter-spacing="1.5" fill="#6ea8ff">TOP</text>
-          </g>
-
-          <!-- midline: neutral & symmetric singles -->
-          <g>
-            <line x1="40" y1="166" x2="820" y2="166" stroke="rgba(143,208,168,0.18)" stroke-dasharray="2 7" />
-            <circle cx="150" cy="166" r="6" fill="url(#gMid)" opacity="0.8" />
-            <circle cx="640" cy="166" r="7" fill="url(#gMid)" opacity="0.8" />
-            <text x="662" y="170" font-family="Plus Jakarta Sans" font-size="10.5" fill="#8fd0a8">Standing · neutral, one floor</text>
-          </g>
-
-          <!-- bottom / defender layer -->
-          <g>
-            <circle cx="90" cy="236" r="6" fill="#463427" /><circle cx="200" cy="228" r="8" fill="#463427" />
-            <circle cx="330" cy="240" r="5" fill="#463427" /><circle cx="560" cy="244" r="7" fill="#463427" />
-            <circle cx="680" cy="230" r="5" fill="#463427" /><circle cx="790" cy="240" r="7" fill="#463427" />
-            <circle cx="430" cy="232" r="13" fill="url(#gBot)" />
-            <text x="452" y="230" font-family="Plus Jakarta Sans" font-size="10" letter-spacing="1.5" fill="#ff9d66">BOTTOM</text>
-            <text x="452" y="244" font-family="Plus Jakarta Sans" font-size="10" fill="#6b7691">same place, one floor down</text>
-          </g>
-
-          <!-- layer captions -->
-          <text x="40" y="66" font-family="Plus Jakarta Sans" font-size="10.5" letter-spacing="2" fill="#5d6a85">TOP / ATTACKER LAYER — slot 0, the side with initiative</text>
-          <text x="40" y="292" font-family="Plus Jakarta Sans" font-size="10.5" letter-spacing="2" fill="#5d6a85">BOTTOM / DEFENDER LAYER — slot 1, always the same few pixels below</text>
+          <text x="26" y="338" font-family="Plus Jakarta Sans" font-size="10.5" letter-spacing="2" fill="#5d6a85">THE GROUND PLANE (z = 0) — the map you already know, seen at the isometric angle</text>
         </svg>
         <figcaption>
-          The site is one place holding two orbs. No line ties them — the uniform offset and the
-          shared glow are the tie, the way Civ never draws a rope from a hilltop to its foot.
+          One site: the top orb floats over its ground shadow; the bottom orb hangs beneath the
+          plane — Dungeon Keeper's underworld, which is exactly where the bottom player's game
+          lives. The shadow at z=0 is the tie; no line is ever drawn.
         </figcaption>
       </figure>
 
       <div class="rules">
-        <div class="rule"><small>RULE 1</small><b>One map, two layers, equidistant.</b>
-          <p>The offset is global and vertical. Learn it once at any node, and you know it at all 1,170 pairs. Any per-pair variation breaks the projection — that is why the organic layout below is rejected.</p></div>
-        <div class="rule"><small>RULE 2</small><b>Slot 0 is the upper layer.</b>
-          <p>The data has known its layers all along: every strength pair stores top/attacker first. Upper = the side with initiative; each orb wears its own side's color (<code>sv</code>), already computed by the calibration work.</p></div>
-        <div class="rule"><small>RULE 3</small><b>Neutral lives on the midline.</b>
-          <p>Standing, Clinch, and the 297 symmetric singles sit between the layers. Their neutrality stops being a footnote and becomes visible geography.</p></div>
+        <div class="rule"><small>RULE 1</small><b>One ground plane. z is the player axis.</b>
+          <p>The offset is global: +H up for slot 0, −H down for slot 1, everywhere. Learn it once at any node and you know it at all 1,170 pairs — the uniformity IS the projection.</p></div>
+        <div class="rule"><small>RULE 2</small><b>Slot 0 is the sky side.</b>
+          <p>The data has known its layers all along: every strength pair stores top/attacker first. Above the ground = the side with initiative; each orb wears its own side's color (<code>sv</code>), and the underworld runs a shade darker.</p></div>
+        <div class="rule"><small>RULE 3</small><b>Neutral sits on the ground.</b>
+          <p>Standing, Clinch, and the 297 symmetric singles live at z=0, on the plane itself. Their neutrality stops being a footnote and becomes terrain.</p></div>
       </div>
 
-      <h2>Evidence</h2>
+      <h2>Projection C, rendered over the real graph</h2>
       <p class="sub">
-        The <b>fixed</b> prototype is the ancestor of the paradigm: uniform offset, wrong angle.
-        Rotate its 25° grain to vertical and the two layers appear. These are real renders of the
-        2,637-node build (1,170 pairs + 297 singles), live behind <code>?dual=fixed</code>.
+        These are real frames of the 2,637-node build (1,170 pairs + 297 singles) through the iso
+        matrix, live behind <code>?dual=iso</code>. Pairs stack vertically — in the mid frame,
+        Closed Guard reads as two orbs, the upper one red because being on top inside someone's
+        closed guard is genuinely a bad place to be. Ground grid, shadows and underworld tone are
+        the next step (the site-rendering pass); this is the geometry, honest.
       </p>
       <div class="shots">
-        <figure class="shot"><img src="./fixed-1-overview.png" alt="fixed strategy, overview zoom" loading="lazy" /><figcaption><b>overview</b> — the uniform grain the eye learns once</figcaption></figure>
-        <figure class="shot"><img src="./fixed-2-mid.png" alt="fixed strategy, mid zoom" loading="lazy" /><figcaption><b>mid</b> — pair anatomy, closed-guard neighbourhood</figcaption></figure>
-        <figure class="shot"><img src="./fixed-3-rollzoom.png" alt="fixed strategy, roll zoom" loading="lazy" /><figcaption><b>roll zoom</b> — the real landing frame, staged at Mount/Top</figcaption></figure>
+        <figure class="shot"><img src="./iso-1-overview.png" alt="projection C, overview zoom" loading="lazy" /><figcaption><b>overview</b> — the map gains a horizon</figcaption></figure>
+        <figure class="shot"><img src="./iso-2-mid.png" alt="projection C, mid zoom" loading="lazy" /><figcaption><b>mid</b> — Closed Guard as a vertical pair, colors role-truthful</figcaption></figure>
+        <figure class="shot"><img src="./iso-3-rollzoom.png" alt="projection C, roll zoom" loading="lazy" /><figcaption><b>roll zoom</b> — the real landing frame</figcaption></figure>
       </div>
       <details class="rejected">
-        <summary>The rejected alternative: <b>force</b> (organic per-pair axes) — kept for the record</summary>
-        <p>Each pair finding its own axis reads beautifully in isolation and destroys the layer
-        illusion in aggregate: 1,170 orientations is 1,170 things to decode, where 2.5D's whole
-        power is decoding one.</p>
+        <summary>For the record: the paths not taken — flat-era strategies and projections A/B</summary>
+        <p><b>Projection A</b> (tilt-only, no rotation) kept the learned geography exactly but
+        reads as a squashed version of today, not a new world — safe, and rejected for it.
+        <b>Projection B</b> (classic 2:1) is the same rotation family as C with a harder squash;
+        C's 120° symmetry is cleaner. The two <b>flat-era strategies</b> below predate the
+        paradigm: <i>fixed</i> (25° screen offset) was its ancestor; <i>force</i> (organic
+        per-pair axes) dies by Rule 1 — 1,170 orientations is 1,170 things to decode, where 2.5D's
+        whole power is decoding one.</p>
         <div class="shots">
-          <figure class="shot"><img src="./force-1-overview.png" alt="force strategy, overview zoom" loading="lazy" /><figcaption>force · overview</figcaption></figure>
-          <figure class="shot"><img src="./force-2-mid.png" alt="force strategy, mid zoom" loading="lazy" /><figcaption>force · mid</figcaption></figure>
-          <figure class="shot"><img src="./force-3-rollzoom.png" alt="force strategy, roll zoom" loading="lazy" /><figcaption>force · roll zoom</figcaption></figure>
+          <figure class="shot"><img src="./fixed-2-mid.png" alt="flat-era fixed strategy, mid zoom" loading="lazy" /><figcaption>flat era · fixed · mid</figcaption></figure>
+          <figure class="shot"><img src="./force-2-mid.png" alt="flat-era force strategy, mid zoom" loading="lazy" /><figcaption>flat era · force · mid</figcaption></figure>
+          <figure class="shot"><img src="./force-1-overview.png" alt="flat-era force strategy, overview" loading="lazy" /><figcaption>flat era · force · overview</figcaption></figure>
         </div>
       </details>
 
-      <h2>The ten questions, re-answered by the paradigm</h2>
+      <h2>The ten questions, answered under the paradigm</h2>
       <p class="sub">
-        Three dissolve outright; the rest get a recommendation stated first, with the alternatives
-        and their costs one click below. Every verdict follows from the three rules above.
+        Three dissolve; the rest carry a recommendation stated first, alternatives one click below.
+        Every verdict follows from the three rules.
       </p>
       <div class="qgrid">
         <div class="q">
           <div class="head"><b>Q4 · Layout strategy</b><span class="chip dissolved">DISSOLVED</span></div>
-          <p class="verdict"><b>Fixed, rotated vertical.</b> "Equidistant" is the paradigm — there is nothing left to choose.</p>
-          <p class="why">Force dies by Rule 1. The one refinement over the prototype: the offset axis becomes 90° (screen-down = the bottom player, a pun the sport hands us for free), and the bottom layer takes a subtle depth cue — see N1.</p>
+          <p class="verdict"><b>Projection C — chosen by the owner.</b> Ground plane through the iso matrix, pairs split ±H along z. Nothing left to choose.</p>
+          <p class="why">One consequence to hold: the learned map rotates 45° and compresses. That is the deliberate price of a new world — the overview above shows what it buys.</p>
         </div>
         <div class="q">
           <div class="head"><b>Q3 · Pair tie styling</b><span class="chip dissolved">DISSOLVED</span></div>
-          <p class="verdict"><b>No line. Verticality is the tie.</b> A shared elliptical site-glow holds the two orbs as one place.</p>
+          <p class="verdict"><b>No line. The ground shadow at z=0 is the tie.</b> A floating orb over its shadow is the universal height cue.</p>
           <details><summary>alternatives considered</summary>
-            <ul><li><b>Ordinary link line</b> (today): reads as a playable edge — a lie; you cannot "transition" from Mount Top to Mount Bottom by drawing on the map.</li>
-            <li><b>Heavier/shorter tie:</b> still a line, still a claimed edge, plus 1,170 new strokes of clutter.</li>
-            <li><b>Chosen — site-glow:</b> zero new lines, keeps the planet/neuron feel (a nebula holding two bodies), brightens on focus.</li></ul>
+            <ul><li><b>Ordinary link line</b> (flat era): reads as a playable edge — a lie; you cannot "transition" from Mount Top to Mount Bottom by drawing on the map.</li>
+            <li><b>Heavier/shorter tie:</b> still a claimed edge, plus 1,170 strokes of clutter.</li>
+            <li><b>Chosen — shadow + shaft:</b> the shared shadow ellipse on the plane, a faint vertical shimmer on focus. Civ never draws a rope from a hilltop to its foot.</li></ul>
           </details>
         </div>
         <div class="q">
           <div class="head"><b>Q6 · Symmetric techniques</b><span class="chip dissolved">DISSOLVED</span></div>
-          <p class="verdict"><b>Singles stay single, on the midline.</b> The layer geometry gives "no role split" a place instead of a footnote.</p>
+          <p class="verdict"><b>Singles stay single, ON the ground.</b> z=0 gives "no role split" a place instead of a footnote.</p>
           <details><summary>alternatives considered</summary>
-            <ul><li><b>Fabricate mirror pairs:</b> claims a role split the data does not author — the exact sin the role-correctness work spent v1.103.0 undoing.</li>
-            <li><b>Chosen — midline placement:</b> neutral positions (Standing, Clinch) already behave this way as single nodes; the 297 symmetric techniques join them and the map becomes self-explaining.</li></ul>
+            <ul><li><b>Fabricate mirror pairs:</b> claims a role split the data does not author — the sin the role-correctness work spent v1.103.0 undoing.</li>
+            <li><b>Chosen — ground placement:</b> neutral positions already behave this way; the 297 symmetric techniques join them and the terrain explains itself.</li></ul>
           </details>
         </div>
         <div class="q">
           <div class="head"><b>Q1 · Old share links &amp; stored lists</b><span class="chip rec">RECOMMENDED</span></div>
-          <p class="verdict"><b>A hub ordinal lights the whole site — both orbs — anchored on the upper.</b></p>
+          <p class="verdict"><b>A hub ordinal lights the whole site — both orbs — anchored on the sky side.</b></p>
           <details><summary>why, and the alternative</summary>
-            <p>An old link meant "this technique, as a place." Under 2.5D the place is the pair; lighting one floor of it would silently reinterpret a coach's class. Primary-only was the alternative — rejected because the sender never chose a side, and fidelity to what was shared is the share system's first law. New captures are side-precise (Q10), so ambiguity ends with the legacy codes. The successors map ships hub → {upper, lower} and the camera frames the site.</p>
+            <p>An old link meant "this technique, as a place." Under 2.5D the place is the site; lighting one floor would silently reinterpret a coach's class. Primary-only was rejected because the sender never chose a side, and fidelity to what was shared is the share system's first law. New captures are side-precise (Q10), so the ambiguity ends with the legacy codes. The successors map ships hub → {upper, lower}.</p>
           </details>
         </div>
         <div class="q">
           <div class="head"><b>Q2 · Defender edges</b><span class="chip rec">RECOMMENDED</span></div>
-          <p class="verdict"><b>The static web belongs to the upper layer. The lower layer borrows edges only when you stand on it.</b></p>
+          <p class="verdict"><b>The static web is drawn at ground level, owned by the sky side. The underworld borrows edges only when you stand in it.</b></p>
           <details><summary>why, and the alternatives</summary>
-            <p>2.5D games draw the roads once — units at different heights share them. Mirroring every edge doubles the web and buries both layers. Fully edge-light forever (today's prototype) makes the bottom layer feel dead. The middle path: at rest the lower orbs ride their sites quietly; when a bottom node takes focus, its real options — escapes, sweeps, the dealt hand — light from it, which is exactly when a player needs them and never sooner.</p>
+            <p>Iso games draw the roads once — units at different heights share them. Mirroring every edge doubles the web and buries both layers. Permanently edge-light (the flat prototype) makes the underworld feel dead. The middle path: at rest the lower orbs ride their sites quietly; when a bottom node takes focus, its real options — escapes, sweeps, the dealt hand — light from it, exactly when a player needs them and never sooner.</p>
           </details>
         </div>
         <div class="q">
           <div class="head"><b>Q5 · Partner under focus</b><span class="chip rec">RECOMMENDED</span></div>
-          <p class="verdict"><b>The halo encloses the site; the partner stays co-lit and dimmer, wearing a side kicker (TOP / BOTTOM), never a repeated name.</b></p>
+          <p class="verdict"><b>The halo holds the whole site; the partner stays co-lit and dimmer, wearing a side kicker (TOP / BOTTOM), never a repeated name.</b></p>
           <details><summary>why, and the alternatives</summary>
-            <p>Excluding the partner from the halo hides the floor below you — the one thing 2.5D exists to show. Full co-light blurs which side you are on. Dim co-presence is the basement with its light on: visible, unambiguous, and clicking it becomes the most natural perspective-flip control the app has ever had (see N2). The halo grows taller, not rounder — it holds a site now, not a dot.</p>
+            <p>Excluding the partner hides the floor 2.5D exists to show. Full co-light blurs which side you are on. Dim co-presence is the basement with its light on — and clicking it is the most natural side-switch the app has ever had (N2). The halo grows taller, not rounder: it holds a site now, not a dot.</p>
           </details>
         </div>
         <div class="q">
           <div class="head"><b>Q7 · Focus sets — Systems &amp; lists</b><span class="chip rec">RECOMMENDED</span></div>
-          <p class="verdict"><b>Light exactly the captured sides.</b> The site-glow already shows the geography without diluting the selection.</p>
+          <p class="verdict"><b>Light exactly the captured sides.</b> The site's shadow already shows the geography without diluting the selection.</p>
           <details><summary>why</summary>
-            <p>A System teaches techniques from a side; a coach's class is sides. Co-lighting partners would answer "where is this" at the cost of "what did the coach pick" — and the share system's canon (qualified names, exact fidelity) has always chosen the second. The unlit partner inside a lit site is not a gap; it is information.</p>
+            <p>A System teaches techniques from a side; a coach's class is sides. Co-lighting partners answers "where is this" at the cost of "what did the coach pick" — and the share canon (qualified names, exact fidelity) has always chosen the second. The unlit twin inside a lit site is not a gap; it is information.</p>
           </details>
         </div>
         <div class="q">
           <div class="head"><b>Q8 · Payload</b><span class="chip rec">RECOMMENDED</span></div>
-          <p class="verdict"><b>Compact pair encoding — a lower orb is derivable, so it is never shipped whole.</b> Target ≤ 15KB gzip added, not +47.</p>
+          <p class="verdict"><b>Compact pair wire — a lower orb is derivable, so it is never shipped whole.</b> Target ≤ 15KB gzip added, not +47.</p>
           <details><summary>why this is now cheap</summary>
-            <p>Under Rule 1 a lower member is its twin plus a constant: same position + the global offset, role-flipped strength (<code>sv</code> is the other slot of a pair the wire already carries), id derivable by suffix. The v1.108.0 wire diet built exactly this muscle — compact on the wire, expanded at the top of <code>ingest()</code> — so pairs ride the same pattern. The naive +47KB was the cost of pretending each floor is a stranger.</p>
+            <p>Under Rule 1 a lower member is its twin plus constants: the same ground point through the same matrix, −2H on screen-y, role-flipped strength (<code>sv</code> is the other slot of a pair the wire already carries), id by suffix. The v1.108.0 wire diet built exactly this muscle — compact on the wire, expanded at the top of <code>ingest()</code> — so pairs ride the same pattern.</p>
           </details>
         </div>
         <div class="q">
           <div class="head"><b>Q9 · First impression</b><span class="chip rec">RECOMMENDED</span></div>
-          <p class="verdict"><b>Keep the draw math untouched; land the camera on the drawn floor.</b></p>
+          <p class="verdict"><b>Draw math untouched; the camera lands on the drawn floor.</b></p>
           <details><summary>why</summary>
-            <p>The weighted start already picks a position by real traffic and a side by coin flip — one RNG draw each, and every rigged replay depends on that shape. The paradigm needs no new math: the same coin flip now has an address, and the opening flight descending onto the upper or lower orb makes the side you were dealt legible for the first time. Zero replay risk, pure gain.</p>
+            <p>The weighted start already picks a position by real traffic and a side by coin flip — one RNG draw each, and every rigged replay depends on that shape. The paradigm needs no new math: the same coin flip now has an address, and the opening flight descending onto the sky orb or down through the plane to the underworld makes the dealt side legible for the first time. Zero replay risk, pure gain.</p>
           </details>
         </div>
         <div class="q">
           <div class="head"><b>Q10 · Capture semantics</b><span class="chip rec">RECOMMENDED</span></div>
           <p class="verdict"><b>Capture the side. Never normalize to the pair.</b></p>
           <details><summary>why</summary>
-            <p>"We worked half guard <i>bottom</i>" is the class. Normalizing a coach's <code>+</code> to the pair would destroy precisely what the qualified-names canon protects — what was actually taught. The recipient still sees the geography: their teammate's side arrives lit inside its site, partner dim beside it. Legacy pair-level ids keep resolving per Q1.</p>
+            <p>"We worked half guard <i>bottom</i>" is the class. Normalizing a coach's <code>+</code> to the site would destroy precisely what the qualified-names canon protects — what was actually taught. The recipient still sees the geography: the taught side arrives lit inside its site, twin dim beside it. Legacy pair-level ids keep resolving per Q1.</p>
           </details>
         </div>
       </div>
@@ -284,31 +297,30 @@
       <h2>What the paradigm newly asks — two small calls, answered</h2>
       <div class="qgrid">
         <div class="q">
-          <div class="head"><b>N1 · How strong is the depth cue?</b><span class="chip rec">RECOMMENDED</span></div>
-          <p class="verdict"><b>Barely there: lower orbs at ~0.95 scale and one shade dimmer. The "half" in 2.5D is a whisper.</b></p>
-          <p class="why">AoE2's far tiles are not small — they are <i>slightly</i> small. Anything stronger reads as importance ranking ("bottom players matter less"), which the sport — where sweeps and half of all submissions live underneath — flatly contradicts.</p>
+          <div class="head"><b>N1 · The underworld's tone</b><span class="chip rec">RECOMMENDED</span></div>
+          <p class="verdict"><b>Below z=0 runs one shade darker and slightly cooler — never smaller.</b></p>
+          <p class="why">Dungeon Keeper's underground is a place, not a lesser copy. Scale attenuation would read as importance ranking ("bottom players matter less"), which the sport — where sweeps and half of all submissions live underneath — flatly contradicts. Tone says <i>beneath</i>; size says <i>worse</i>. We want beneath.</p>
         </div>
         <div class="q">
           <div class="head"><b>N2 · Clicking the partner</b><span class="chip rec">RECOMMENDED</span></div>
           <p class="verdict"><b>It switches sides — the same confirmed roll-from-here flow, seeded on the twin.</b></p>
-          <p class="why">The most requested mental move in the sport is "now think of it from the bottom." Under 2.5D that is one click, one floor down, through a seam that already exists (<code>confirmPlayFrom</code> asks first, so a live roll is never discarded by accident).</p>
+          <p class="why">The most requested mental move in the sport is "now think of it from the bottom." Under 2.5D that is one click, straight down through the plane, via a seam that already exists (<code>confirmPlayFrom</code> asks first, so a live roll is never discarded by accident).</p>
         </div>
       </div>
 
-      <h2>The build sequence, if this is approved</h2>
+      <h2>The build sequence</h2>
       <ol class="seq">
-        <li><b>Rotate the layout.</b><p>Re-emit the pair layout with the vertical offset + midline singles; re-shoot the three zooms so this page shows the paradigm, not its ancestor.</p></li>
-        <li><b>Compact pair wire.</b><p>Emit upper members + derivation constants; synthesize lower orbs at ingest (the v1.108.0 pattern). Measure against the ≤15KB gzip target.</p></li>
-        <li><b>Site rendering.</b><p>Shared glow, depth cue, side kickers, halo-encloses-site, partner click = side switch.</p></li>
-        <li><b>Ordinal cutover.</b><p>Mint member ordinals, retire hub ordinals with the committed successors map — every WhatsApp link ever posted keeps resolving (Q1 behavior).</p></li>
-        <li><b>Sign-off gate.</b><p>Everything stays behind <code>?dual</code> until the owner plays it and calls it. Then the flag flips to default and the old single-node layout retires.</p></li>
+        <li><b>Geometry — DONE.</b><p>The iso variant is emitted (<code>scripts/prototype_dual_pair_layout.py</code>) and rendered above; <code>?dual=iso</code> is live in the prototype build.</p></li>
+        <li><b>Site rendering.</b><p>Ground shadows, the faint iso grid, underworld tone below z=0, side kickers, halo-holds-the-site, partner click = side switch, starfield parallax (background only — node layers never shear).</p></li>
+        <li><b>Compact pair wire.</b><p>Emit sky members + derivation constants; synthesize the underworld at ingest (the v1.108.0 pattern). Measure against the ≤15KB gzip target.</p></li>
+        <li><b>Ordinal cutover.</b><p>Mint member ordinals, retire hub ordinals behind the committed successors map — every WhatsApp link ever posted keeps resolving (Q1 behavior).</p></li>
+        <li><b>Sign-off gate.</b><p>Everything stays behind <code>?dual</code> until the owner plays it and calls it. Then the flag flips to default and the flat layout retires.</p></li>
       </ol>
 
       <div class="note" style="margin-top: 26px;">
-        <b>Viewing the current prototype live:</b> run
-        <code>python3 scripts/prototype_dual_pair_layout.py</code>, then <code>npm run dev</code> and
-        open <code>http://localhost:8080/?dual=fixed</code>. The vertical-offset build (step 1) will
-        replace it here when it lands. Full engineering plan: <code>docs/DualPairMigration.md</code> §9.
+        <b>Playing it now:</b> run <code>python3 scripts/prototype_dual_pair_layout.py</code>, then
+        <code>npm run dev</code> and open <code>http://localhost:8080/?dual=iso</code>.
+        Engineering record: <code>docs/DualPairMigration.md</code> §9–10.
       </div>
     </div>
   </body>

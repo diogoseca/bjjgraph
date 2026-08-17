@@ -5,7 +5,7 @@ import { resolve } from "node:path";
 /**
  * DUAL CLOSE-PAIR PROTOTYPE — screenshot driver (supersedes scripts/prototype_dual_shoot.mjs).
  *
- * Captures the two pair-placement strategies (?dual=fixed | ?dual=force) at three zooms —
+ * Captures the pair-placement strategies (?dual=fixed | ?dual=force | ?dual=iso — projection C) at three zooms —
  * overview / mid / roll (the real ROLL_ZOOM landing frame) — into tests/artifacts/dualpair/,
  * for the owner to judge "healthy, great-looking, representative of the truth"
  * (feedback-graph-dual-close-pairs).
@@ -54,7 +54,7 @@ async function holdCam(page: Page, cx: number, cy: number, vw: number, ms = 1400
   await page.waitForTimeout(ms - 300);
 }
 
-for (const variant of ["fixed", "force"] as const) {
+for (const variant of ["fixed", "force", "iso"] as const) {
   test(`dual pair shoot — ${variant} strategy, 3 zooms`, async ({ page }) => {
     test.setTimeout(180_000);
     page.on("pageerror", (e) => console.log(`[${variant}] pageerror:`, String(e).slice(0, 300)));

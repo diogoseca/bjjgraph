@@ -212,3 +212,30 @@ Build sequence if approved: (1) re-emit the layout vertical + midline and re-sho
 (2) compact pair wire, (3) site rendering (glow, depth cue, kickers, partner click), (4) ordinal
 cutover with the successors map, (5) everything behind `?dual` until the owner plays it and calls
 it.
+
+## 10. Projection C chosen (owner, 2026-08-17: "i want C") — true isometric
+
+§9's "vertical offset on the flat map" reading is SUPERSEDED. The graph's (x, y) is the GROUND
+PLANE; z is the PLAYER AXIS; the world is viewed in TRUE ISOMETRIC — all three axes at 120° on
+screen (x toward the lower-right corner, y toward the lower-left, z up). Orthographic, so
+world→screen is one fixed affine map, baked at emit time:
+
+    sx = (x − y) · cos30°
+    sy = (x + y) · sin30° − z·H        (canvas y grows downward; H = PAIR_DIST/2 = 4.0)
+
+z ∈ {+1 sky side (slot 0 — top/attacker), −1 underworld, 0 singles ON the ground}. Because the
+camera never rotates, projecting at emit means the renderer, camera, hit-testing and de-overlap
+all run unchanged on projected coordinates — no 3D anywhere downstream.
+
+Implemented: `scripts/prototype_dual_pair_layout.py` emits `graph-data-dual-iso.json` (2,637
+nodes) and `?dual=iso` is allow-listed; renders committed as tests/artifacts/dualpair/iso-*.png
+and shown at /dev/experiments/. Verdict deltas vs §9: Q3's tie is the GROUND SHADOW at z=0 (+ a
+focus shaft), not a glow band; Rule 3's midline becomes the ground plane; N1's depth cue is
+UNDERWORLD TONE (one shade darker/cooler below z=0, never smaller). A/B projections rejected for
+the record: A (tilt-only) kept the learned geography but reads as squashed-today, not a new
+world; B (2:1) is C's rotation family with a harder squash and less symmetry. Known cost,
+accepted: the learned map rotates 45° and compresses — the price of the new world.
+
+Build sequence: geometry DONE → site rendering (shadows, iso grid, underworld tone, kickers,
+halo-holds-site, partner-click side switch, background-only starfield parallax) → compact pair
+wire (≤15KB gzip target) → ordinal cutover with successors → sign-off behind `?dual`.

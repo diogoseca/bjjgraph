@@ -1565,7 +1565,7 @@ class Component extends DCLogic {
   _dataBase() { return (typeof window !== "undefined" && window.__NEURAL_DATA_BASE) || ""; }
   // PROTOTYPE (dual close-pair graph): opt-in variant selector. null = production layout.
   _dualVariant() {
-    try { const v = new URLSearchParams(location.search).get("dual"); return v === "fixed" || v === "force" ? v : null; }
+    try { const v = new URLSearchParams(location.search).get("dual"); return v === "fixed" || v === "force" || v === "iso" ? v : null; } // iso = projection C, the chosen 2.5D paradigm
     catch (e) { return null; }
   }
   _ingestDeckManifest(j) {

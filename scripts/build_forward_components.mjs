@@ -170,6 +170,7 @@ for (const requiredBeat of [
 // into the emitted page at build time — LOUDLY missing rather than silently absent, because a
 // /dev page whose images 404 reads as a broken build, not a decision aid.
 for (const shot of [
+  "iso-1-overview.png", "iso-2-mid.png", "iso-3-rollzoom.png",
   "fixed-1-overview.png", "fixed-2-mid.png", "fixed-3-rollzoom.png",
   "force-1-overview.png", "force-2-mid.png", "force-3-rollzoom.png",
 ]) {

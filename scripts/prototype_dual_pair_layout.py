@@ -4,7 +4,7 @@
 Owner decision (feedback-graph-dual-close-pairs): every dual state becomes TWO visual
 nodes — position Top/Bottom, technique Attacker/Defender — "not exactly the same point,
 but very close together". This script emits TWO candidate graph-data variants for the
-Neural app to render behind `?dual=fixed` / `?dual=force`, so the owner can judge
+Neural app to render behind `?dual=fixed` / `?dual=force` / `?dual=iso` (projection C, the chosen paradigm), so the owner can judge
 "healthy, great-looking, representative of the truth" from screenshots.
 
   - graph-data-dual-fixed.json : each pair split a small FIXED distance along one
@@ -58,6 +58,22 @@ PAIR_DIST = 8.0
 # fixed-strategy axis: one consistent direction for the whole graph. 25° keeps the pair
 # mostly horizontal (labels don't stack) while clearly not axis-aligned with the grid.
 AXIS_DEG = 25.0
+
+# ── THE 2.5D PARADIGM, projection C — TRUE ISOMETRIC (owner rulings 2026-08-17: "i want C") ──
+# The layout's (x, y) becomes the GROUND PLANE; z is the PLAYER AXIS. True iso puts all three
+# world axes at 120° on screen: ground-x toward the lower-right corner, ground-y toward the
+# lower-left, z straight up. World -> screen (canvas y grows downward):
+#     sx = (x − y) · cos30°          (cos30 ≈ 0.8660)
+#     sy = (x + y) · sin30° − z·H    (sin30 = 0.5)
+# Baked at EMIT time on purpose: the projection is a fixed affine map and the camera never
+# rotates, so projecting once here means the renderer, camera, hit-testing and de-overlap all
+# work unchanged on projected coordinates — no 3D anywhere downstream.
+# z ∈ {+1 upper (slot 0 — top/attacker, the side with initiative), −1 lower, 0 singles ON the
+# ground}. H = PAIR_DIST/2 keeps the pair's screen separation at the proven 8u while the iso
+# squash roughly halves stranger spacing vertically — the pair-vs-stranger contrast SHARPENS.
+ISO_COS = math.cos(math.radians(30.0))
+ISO_SIN = math.sin(math.radians(30.0))
+ISO_H = PAIR_DIST / 2.0
 
 SECTION_TY = {"positions": "positions", "transitions": "transitions", "submissions": "submissions"}
 
@@ -371,6 +387,18 @@ def build(strategy: str) -> dict:
             sgn = 1.0 if up else -1.0
             n["x"] = round(n["x"] + sgn * ux * h, 1)
             n["y"] = round(n["y"] - sgn * uy * h, 1)  # screen y grows downward
+    elif strategy == "iso":
+        # projection C: every node's GROUND point goes through the true-iso matrix, then the
+        # pair members lift/sink along screen-vertical z. Singles stay ON the ground (z=0).
+        for n in nodes_out:
+            gx, gy = float(n["x"]), float(n["y"])
+            sx = (gx - gy) * ISO_COS
+            sy = (gx + gy) * ISO_SIN
+            z = 0.0
+            if n.get("pairId"):
+                z = 1.0 if n["role"] in ("top", "attacker") else -1.0
+            n["x"] = round(sx, 1)
+            n["y"] = round(sy - z * ISO_H, 1)
     else:  # force: local relaxation, pairs place themselves; singles stay put
         relax_pairs(nodes_out, radius)
 
@@ -451,7 +479,7 @@ def relax_pairs(nodes: list[dict], radius, iters: int = 250):
 
 def main():
     OUT_DIR.mkdir(parents=True, exist_ok=True)
-    for strategy in ("fixed", "force"):
+    for strategy in ("fixed", "force", "iso"):
         data = build(strategy)
         out = OUT_DIR / f"graph-data-dual-{strategy}.json"
         out.write_text(json.dumps(data, separators=(",", ":")))
