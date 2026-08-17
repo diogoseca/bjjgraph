@@ -406,8 +406,8 @@ Start from established Estima Lock Top Position. Bottom player works to escape u
 | Metric | Rate |
 |--------|------|
 | Retention Rate | 58% |
-| Advancement Probability | 48% |
-| Submission Probability | 42% |
+| Advancement Probability | 64% |
+| Submission Probability | 56% |
 
 **Average Time in Position**: 30-60 seconds
 

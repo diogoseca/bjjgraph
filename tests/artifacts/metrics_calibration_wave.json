@@ -1,0 +1,1188 @@
+{
+  "wave": "position metrics calibration",
+  "date": "2026-08-17",
+  "version": "1.107.0",
+  "mandate": "Owner ruling after the 2026-08-17 black-belt adjudication panel: 'spot fix the 10 worst offenders and defer four or five hours to fix everything else with a calibration wave.' This is that wave. position_type WORDS were settled by the panel and were not touched; attempt_probability maps (Q3 occurrence calibration) and outcome probabilities (success-rate calibration) are owned elsewhere and were not touched.",
+  "scope": {
+    "word_right_metrics_wrong": 63,
+    "note_on_exclusions": "the 10 owner-approved spot fixes of v1.106.3 were excluded as instructed",
+    "open_warnings_carried_in": [
+      "Kimura Trap Bottom",
+      "Williams Guard Bottom"
+    ],
+    "roles_examined": 65,
+    "roles_changed": 20,
+    "fields_changed": 39,
+    "roles_examined_and_deliberately_left_alone": 47
+  },
+  "method": {
+    "principle": "Case by case, as a black belt would: each role was read against its own authored word, description, state invariants and — decisively — its own transition list, then placed against the SETTLED corpus rather than against an invented scale.",
+    "house_scale_derived_from_the_corpus": {
+      "submission_probability_by_attack_share": {
+        "definition": "attack share = the fraction of a role's own attempt weight that is a direct submission attempt, plus (x0.7) chains landing on a submission-control platform. Passes into a pin deliberately do NOT count: the corpus prices submission_probability as the threat FROM this position, which is why every settled passing top authors 5-20.",
+        "settled_bands_p10_median_p90": {
+          "0 (no finish in the hand)": [
+            5,
+            15,
+            42
+          ],
+          "1-14": [
+            22,
+            34,
+            48
+          ],
+          "15-29": [
+            42,
+            55,
+            68
+          ],
+          "30-49": [
+            45,
+            56,
+            72
+          ],
+          "50+": [
+            48,
+            60,
+            70
+          ]
+        },
+        "correlation_with_authored_values": "+0.59 over 272 role-nodes"
+      },
+      "retention_and_advancement_by_word_polarity": {
+        "offensively_worded_roles": {
+          "retention_p10_median_p90": [
+            60,
+            72,
+            80
+          ],
+          "advancement_p10_median_p90": [
+            60,
+            68,
+            78
+          ]
+        },
+        "defensively_worded_roles": {
+          "retention_p10_median_p90": [
+            32,
+            52,
+            68
+          ],
+          "advancement_p10_median_p90": [
+            35,
+            48,
+            60
+          ]
+        }
+      },
+      "asymmetric_file_gap": "In the 71 settled files that word one role offensive and the other defensive, the offensive side leads by a median of +36 submission / +26 retention / +26 advancement, and trails on any of the three in only 2-4 files. Several files in scope ran that gap at exactly 0/0/0 — the same numbers on both sides of an asymmetric position."
+    },
+    "what_was_deliberately_not_done": [
+      "No mass rescaling. 45 of the 65 roles examined were left untouched because their numbers sit inside the corpus's own bands and their small strength is a property of the FORMULA, not of broken data.",
+      "The gate was never the target. Metrics were not nudged to flip a sign: Williams Guard Bottom keeps correct metrics and stays a live warning precisely because the honest answer there is a word question."
+    ]
+  },
+  "headline_measurement": {
+    "statement": "The defect the panel named is measurable: the 65 roles in scope carried a median |strength| of 0.056 against 0.244 for the settled corpus — 4.4x flatter. Whatever their real character (a heel-hook platform, a submission control, a scrambly guard) they all read as mush.",
+    "cause": "A handful of stock triplets were copy-pasted across unrelated files: 42/60/60 appears on 11 role-nodes (8 of them in scope, all leg entanglements), 38/68/62 on 5, 42/68/62 on 3.",
+    "after": "median |strength| of the 20 recalibrated roles: 0.056 -> 0.086; whole corpus 0.156 -> 0.172. The wave was NOT a rescaling: 45 of the 65 roles examined were left exactly as authored."
+  },
+  "changes": [
+    {
+      "file": "content/Positions/Ashi Garami/Backside 50-50.json",
+      "role": "top",
+      "name": "Backside 50-50 Top",
+      "field": "position_metrics.submission_probability.value",
+      "old": 42,
+      "new": 56,
+      "sibling_coherence": false,
+      "reason": "Its own metric descriptions already say 'strong submission rate from heel hooks, toe holds and ankle locks due to pressure advantage' and 'high advancement potential through back control or saddle', but the numbers were the leg-entanglement family's stock 42/60/60 - byte-identical to the BOTTOM role this file words as the defending side. 49% of this role's attempt weight is a direct leg finish (outside heel hook alone 25%) and a further 39% chains to back control, saddle or honey hole. Settled family peers: Saddle Top 70/78/75, Cross Ashi-Garami Top 60/72/62, Toe Hold Control Top 58/68/62. Retention raised on the file's own invariant - chest stays in contact with the opponent's back, pinning the hips."
+    },
+    {
+      "file": "content/Positions/Ashi Garami/Backside 50-50.json",
+      "role": "top",
+      "name": "Backside 50-50 Top",
+      "field": "position_metrics.retention_rate.value",
+      "old": 60,
+      "new": 68,
+      "sibling_coherence": false,
+      "reason": "Its own metric descriptions already say 'strong submission rate from heel hooks, toe holds and ankle locks due to pressure advantage' and 'high advancement potential through back control or saddle', but the numbers were the leg-entanglement family's stock 42/60/60 - byte-identical to the BOTTOM role this file words as the defending side. 49% of this role's attempt weight is a direct leg finish (outside heel hook alone 25%) and a further 39% chains to back control, saddle or honey hole. Settled family peers: Saddle Top 70/78/75, Cross Ashi-Garami Top 60/72/62, Toe Hold Control Top 58/68/62. Retention raised on the file's own invariant - chest stays in contact with the opponent's back, pinning the hips."
+    },
+    {
+      "file": "content/Positions/Ashi Garami/Backside 50-50.json",
+      "role": "top",
+      "name": "Backside 50-50 Top",
+      "field": "position_metrics.advancement_probability.value",
+      "old": 60,
+      "new": 66,
+      "sibling_coherence": false,
+      "reason": "Its own metric descriptions already say 'strong submission rate from heel hooks, toe holds and ankle locks due to pressure advantage' and 'high advancement potential through back control or saddle', but the numbers were the leg-entanglement family's stock 42/60/60 - byte-identical to the BOTTOM role this file words as the defending side. 49% of this role's attempt weight is a direct leg finish (outside heel hook alone 25%) and a further 39% chains to back control, saddle or honey hole. Settled family peers: Saddle Top 70/78/75, Cross Ashi-Garami Top 60/72/62, Toe Hold Control Top 58/68/62. Retention raised on the file's own invariant - chest stays in contact with the opponent's back, pinning the hips."
+    },
+    {
+      "file": "content/Positions/Ashi Garami/Backside 50-50.json",
+      "role": "bottom",
+      "name": "Backside 50-50 Bottom",
+      "field": "position_metrics.submission_probability.value",
+      "old": 42,
+      "new": 34,
+      "sibling_coherence": false,
+      "reason": "Carried metrics byte-identical to the top role while the file words one side controlling and the other defending; in the settled corpus an asymmetric file runs offence-minus-defence at a median of +36/+26/+26 and this one ran 0/0/0. This is the back-exposed player: 62% of its hand is stand-up, counter-entangle or hip escape and only 29% is a counter heel hook or ankle lock. Counter-attacks stay real (34, above the no-finish band median of 15) because the mirrored lock genuinely threatens back."
+    },
+    {
+      "file": "content/Positions/Ashi Garami/Backside 50-50.json",
+      "role": "bottom",
+      "name": "Backside 50-50 Bottom",
+      "field": "position_metrics.retention_rate.value",
+      "old": 60,
+      "new": 50,
+      "sibling_coherence": false,
+      "reason": "Carried metrics byte-identical to the top role while the file words one side controlling and the other defending; in the settled corpus an asymmetric file runs offence-minus-defence at a median of +36/+26/+26 and this one ran 0/0/0. This is the back-exposed player: 62% of its hand is stand-up, counter-entangle or hip escape and only 29% is a counter heel hook or ankle lock. Counter-attacks stay real (34, above the no-finish band median of 15) because the mirrored lock genuinely threatens back."
+    },
+    {
+      "file": "content/Positions/Ashi Garami/Backside 50-50.json",
+      "role": "bottom",
+      "name": "Backside 50-50 Bottom",
+      "field": "position_metrics.advancement_probability.value",
+      "old": 60,
+      "new": 50,
+      "sibling_coherence": false,
+      "reason": "Carried metrics byte-identical to the top role while the file words one side controlling and the other defending; in the settled corpus an asymmetric file runs offence-minus-defence at a median of +36/+26/+26 and this one ran 0/0/0. This is the back-exposed player: 62% of its hand is stand-up, counter-entangle or hip escape and only 29% is a counter heel hook or ankle lock. Counter-attacks stay real (34, above the no-finish band median of 15) because the mirrored lock genuinely threatens back."
+    },
+    {
+      "file": "content/Positions/Ashi Garami/Inside Ashi-Garami.json",
+      "role": "top",
+      "name": "Inside Ashi-Garami Top",
+      "field": "position_metrics.submission_probability.value",
+      "old": 42,
+      "new": 54,
+      "sibling_coherence": false,
+      "reason": "Single Leg X is the foundational finishing platform of every modern leg-lock system and this role IS the entangler: 38% of its attempt weight is a direct finish (heel hook 25%, toe hold, kneebar) and 30% chains upward to honey hole, saddle, cross ashi or the back. It shipped the family's stock 42/60/60. Placed below its settled tighter cousins (Cross Ashi-Garami Top 60/72/62, Saddle Top 70/78/75) and above outside ashi, preserving the control hierarchy."
+    },
+    {
+      "file": "content/Positions/Ashi Garami/Inside Ashi-Garami.json",
+      "role": "top",
+      "name": "Inside Ashi-Garami Top",
+      "field": "position_metrics.retention_rate.value",
+      "old": 60,
+      "new": 66,
+      "sibling_coherence": false,
+      "reason": "Single Leg X is the foundational finishing platform of every modern leg-lock system and this role IS the entangler: 38% of its attempt weight is a direct finish (heel hook 25%, toe hold, kneebar) and 30% chains upward to honey hole, saddle, cross ashi or the back. It shipped the family's stock 42/60/60. Placed below its settled tighter cousins (Cross Ashi-Garami Top 60/72/62, Saddle Top 70/78/75) and above outside ashi, preserving the control hierarchy."
+    },
+    {
+      "file": "content/Positions/Ashi Garami/Inside Ashi-Garami.json",
+      "role": "top",
+      "name": "Inside Ashi-Garami Top",
+      "field": "position_metrics.advancement_probability.value",
+      "old": 60,
+      "new": 64,
+      "sibling_coherence": false,
+      "reason": "Single Leg X is the foundational finishing platform of every modern leg-lock system and this role IS the entangler: 38% of its attempt weight is a direct finish (heel hook 25%, toe hold, kneebar) and 30% chains upward to honey hole, saddle, cross ashi or the back. It shipped the family's stock 42/60/60. Placed below its settled tighter cousins (Cross Ashi-Garami Top 60/72/62, Saddle Top 70/78/75) and above outside ashi, preserving the control hierarchy."
+    },
+    {
+      "file": "content/Positions/Ashi Garami/Outside Ashi-Garami.json",
+      "role": "bottom",
+      "name": "Outside Ashi-Garami Bottom",
+      "field": "position_metrics.submission_probability.value",
+      "old": 42,
+      "new": 48,
+      "sibling_coherence": false,
+      "reason": "In this file the BOTTOM player is the entangler (the hub says so outright) and 38% of its hand is a direct outside heel hook or ankle lock, yet it carried the same 42/60/60 as the trapped player above it. Raised modestly, not to inside-ashi levels: outside ashi is the weakest rung of the hierarchy because the opponent can rotate out of it."
+    },
+    {
+      "file": "content/Positions/Ashi Garami/Outside Ashi-Garami.json",
+      "role": "bottom",
+      "name": "Outside Ashi-Garami Bottom",
+      "field": "position_metrics.retention_rate.value",
+      "old": 60,
+      "new": 64,
+      "sibling_coherence": false,
+      "reason": "In this file the BOTTOM player is the entangler (the hub says so outright) and 38% of its hand is a direct outside heel hook or ankle lock, yet it carried the same 42/60/60 as the trapped player above it. Raised modestly, not to inside-ashi levels: outside ashi is the weakest rung of the hierarchy because the opponent can rotate out of it."
+    },
+    {
+      "file": "content/Positions/Ashi Garami/Outside Ashi-Garami.json",
+      "role": "bottom",
+      "name": "Outside Ashi-Garami Bottom",
+      "field": "position_metrics.advancement_probability.value",
+      "old": 60,
+      "new": 62,
+      "sibling_coherence": false,
+      "reason": "In this file the BOTTOM player is the entangler (the hub says so outright) and 38% of its hand is a direct outside heel hook or ankle lock, yet it carried the same 42/60/60 as the trapped player above it. Raised modestly, not to inside-ashi levels: outside ashi is the weakest rung of the hierarchy because the opponent can rotate out of it."
+    },
+    {
+      "file": "content/Positions/Ashi Garami/Outside Ashi-Garami.json",
+      "role": "top",
+      "name": "Outside Ashi-Garami Top",
+      "field": "position_metrics.submission_probability.value",
+      "old": 42,
+      "new": 18,
+      "sibling_coherence": true,
+      "reason": "SIBLING COHERENCE: this role is the player whose leg is caught, worded Defensive, and its content is extraction - but it carried the entangler's exact numbers. Anchored to the settled equivalent, Inside Ashi-Garami Bottom 8/30/45, one notch less dire because outside ashi is the escapable rung."
+    },
+    {
+      "file": "content/Positions/Ashi Garami/Outside Ashi-Garami.json",
+      "role": "top",
+      "name": "Outside Ashi-Garami Top",
+      "field": "position_metrics.retention_rate.value",
+      "old": 60,
+      "new": 42,
+      "sibling_coherence": true,
+      "reason": "SIBLING COHERENCE: this role is the player whose leg is caught, worded Defensive, and its content is extraction - but it carried the entangler's exact numbers. Anchored to the settled equivalent, Inside Ashi-Garami Bottom 8/30/45, one notch less dire because outside ashi is the escapable rung."
+    },
+    {
+      "file": "content/Positions/Ashi Garami/Outside Ashi-Garami.json",
+      "role": "top",
+      "name": "Outside Ashi-Garami Top",
+      "field": "position_metrics.advancement_probability.value",
+      "old": 62,
+      "new": 48,
+      "sibling_coherence": true,
+      "reason": "SIBLING COHERENCE: this role is the player whose leg is caught, worded Defensive, and its content is extraction - but it carried the entangler's exact numbers. Anchored to the settled equivalent, Inside Ashi-Garami Bottom 8/30/45, one notch less dire because outside ashi is the escapable rung."
+    },
+    {
+      "file": "content/Positions/Estima Lock Control.json",
+      "role": "top",
+      "name": "Estima Lock Control Top",
+      "field": "position_metrics.submission_probability.value",
+      "old": 42,
+      "new": 56,
+      "sibling_coherence": false,
+      "reason": "The file contradicted itself: its own metric descriptions read 'high submission rate when lock is fully consolidated' and 'strong transition options to saddle, ashi garami, or toe hold' while authoring 42 and 48. 45% of the hand is the Estima lock finish itself and 71% chains to saddle / ashi / toe hold / kneebar. Retention deliberately LEFT at 58 - its own description names the mechanism (the opponent's free leg provides escape leverage)."
+    },
+    {
+      "file": "content/Positions/Estima Lock Control.json",
+      "role": "top",
+      "name": "Estima Lock Control Top",
+      "field": "position_metrics.advancement_probability.value",
+      "old": 48,
+      "new": 64,
+      "sibling_coherence": false,
+      "reason": "The file contradicted itself: its own metric descriptions read 'high submission rate when lock is fully consolidated' and 'strong transition options to saddle, ashi garami, or toe hold' while authoring 42 and 48. 45% of the hand is the Estima lock finish itself and 71% chains to saddle / ashi / toe hold / kneebar. Retention deliberately LEFT at 58 - its own description names the mechanism (the opponent's free leg provides escape leverage)."
+    },
+    {
+      "file": "content/Positions/Gogoplata Control.json",
+      "role": "bottom",
+      "name": "Gogoplata Control Bottom",
+      "field": "position_metrics.retention_rate.value",
+      "old": 55,
+      "new": 64,
+      "sibling_coherence": false,
+      "reason": "Minimal single-field fix. A shin locked across the throat with the foot behind the head is a control position, and 55 sat below the p10 (60) of every offensively-worded role in the corpus; settled peers Omoplata Control Top 62/72/68, Aoki Lock Control Top 68/78/72. submission_probability LEFT at 45 - the gogoplata is famously hard to finish, and 43% of the hand being the finish attempt does not make it a high-percentage one."
+    },
+    {
+      "file": "content/Positions/Kneebar Control.json",
+      "role": "bottom",
+      "name": "Kneebar Control Bottom",
+      "field": "position_metrics.submission_probability.value",
+      "old": 40,
+      "new": 48,
+      "sibling_coherence": false,
+      "reason": "Minimal single-field fix: 48% of this role's attempt weight is a direct finish (Kneebar Finish 24%, Heel Hook from Kneebar Control 24%), which puts it below the p10 (45) of the settled band for its attack share. Retention 58 and advancement 62 LEFT alone - a quarter of its own hand is defensive, so the bottom kneebar really is escapable."
+    },
+    {
+      "file": "content/Positions/Ashi Garami.json",
+      "role": "bottom",
+      "name": "Ashi Garami Bottom",
+      "field": "position_metrics.advancement_probability.value",
+      "old": 55,
+      "new": 64,
+      "sibling_coherence": false,
+      "reason": "Minimal single-field fix. The hub's own overview states the thesis - Ashi Garami from bottom 'prioritizes leg control advancement through the positional hierarchy' - and 41% of its hand is exactly that climb (Inside Ashi Entry 20%, 50-50 Entry 9%, Single Leg X 8%, Kneebar Setup 4%), yet advancement was authored below the offensive-role p10 of 60."
+    },
+    {
+      "file": "content/Positions/Kimura Trap.json",
+      "role": "bottom",
+      "name": "Kimura Trap Bottom",
+      "field": "position_metrics.submission_probability.value",
+      "old": 48,
+      "new": 38,
+      "sibling_coherence": false,
+      "reason": "OPEN WARNING RESOLVED AS A METRICS FIX. Not one of this role's ten transitions is a direct submission attempt (they are sweeps, back takes and recoveries), yet it claimed 48 - a higher direct-finish probability than Closed Guard Bottom (42), which authors real armbars, triangles and kimuras. Retention 75 exceeded the closed guard (68), the most retentive guard in the corpus, for a half-guard-based trap. The kimura grip is a genuine threat, so it lands at 38, above Butterfly Guard Bottom (36) and below closed guard. Advancement LEFT at 68 - sweeps and back takes are the whole point of the position and the file claims 65% sweep success."
+    },
+    {
+      "file": "content/Positions/Kimura Trap.json",
+      "role": "bottom",
+      "name": "Kimura Trap Bottom",
+      "field": "position_metrics.retention_rate.value",
+      "old": 75,
+      "new": 68,
+      "sibling_coherence": false,
+      "reason": "OPEN WARNING RESOLVED AS A METRICS FIX. Not one of this role's ten transitions is a direct submission attempt (they are sweeps, back takes and recoveries), yet it claimed 48 - a higher direct-finish probability than Closed Guard Bottom (42), which authors real armbars, triangles and kimuras. Retention 75 exceeded the closed guard (68), the most retentive guard in the corpus, for a half-guard-based trap. The kimura grip is a genuine threat, so it lands at 38, above Butterfly Guard Bottom (36) and below closed guard. Advancement LEFT at 68 - sweeps and back takes are the whole point of the position and the file claims 65% sweep success."
+    },
+    {
+      "file": "content/Positions/Closed Guard/Diamond Guard.json",
+      "role": "bottom",
+      "name": "Diamond Guard Bottom",
+      "field": "position_metrics.retention_rate.value",
+      "old": 65,
+      "new": 70,
+      "sibling_coherence": false,
+      "reason": "The file's own advancement description says 'high probability of achieving a sweep or submission entry from diamond guard due to multiple chain options' while authoring 55, below the offensive-role p10 of 60; 72% of the hand is a triangle, omoplata or kimura chain. submission_probability LEFT at 45."
+    },
+    {
+      "file": "content/Positions/Closed Guard/Diamond Guard.json",
+      "role": "bottom",
+      "name": "Diamond Guard Bottom",
+      "field": "position_metrics.advancement_probability.value",
+      "old": 55,
+      "new": 65,
+      "sibling_coherence": false,
+      "reason": "The file's own advancement description says 'high probability of achieving a sweep or submission entry from diamond guard due to multiple chain options' while authoring 55, below the offensive-role p10 of 60; 72% of the hand is a triangle, omoplata or kimura chain. submission_probability LEFT at 45."
+    },
+    {
+      "file": "content/Positions/Closed Guard/Diamond Guard.json",
+      "role": "top",
+      "name": "Diamond Guard Top",
+      "field": "position_metrics.submission_probability.value",
+      "old": 45,
+      "new": 14,
+      "sibling_coherence": true,
+      "reason": "SIBLING COHERENCE: one of only six files in the corpus whose two roles carried identical metric values, and the only one where those roles are worded Offensive/Controlling against Defensive. This role is the player whose arm is overhooked and whose head is controlled inside the diamond frame; it cannot carry the guard player's submission probability. Anchored to Closed Guard Top 15/60/60, worse on retention and advancement because the diamond frame is a posture-breaking upgrade on plain closed guard."
+    },
+    {
+      "file": "content/Positions/Closed Guard/Diamond Guard.json",
+      "role": "top",
+      "name": "Diamond Guard Top",
+      "field": "position_metrics.retention_rate.value",
+      "old": 65,
+      "new": 45,
+      "sibling_coherence": true,
+      "reason": "SIBLING COHERENCE: one of only six files in the corpus whose two roles carried identical metric values, and the only one where those roles are worded Offensive/Controlling against Defensive. This role is the player whose arm is overhooked and whose head is controlled inside the diamond frame; it cannot carry the guard player's submission probability. Anchored to Closed Guard Top 15/60/60, worse on retention and advancement because the diamond frame is a posture-breaking upgrade on plain closed guard."
+    },
+    {
+      "file": "content/Positions/Closed Guard/Diamond Guard.json",
+      "role": "top",
+      "name": "Diamond Guard Top",
+      "field": "position_metrics.advancement_probability.value",
+      "old": 55,
+      "new": 42,
+      "sibling_coherence": true,
+      "reason": "SIBLING COHERENCE: one of only six files in the corpus whose two roles carried identical metric values, and the only one where those roles are worded Offensive/Controlling against Defensive. This role is the player whose arm is overhooked and whose head is controlled inside the diamond frame; it cannot carry the guard player's submission probability. Anchored to Closed Guard Top 15/60/60, worse on retention and advancement because the diamond frame is a posture-breaking upgrade on plain closed guard."
+    },
+    {
+      "file": "content/Positions/Half Guard/Reverse Half Guard.json",
+      "role": "top",
+      "name": "Reverse Half Guard Top",
+      "field": "position_metrics.submission_probability.value",
+      "old": 42,
+      "new": 18,
+      "sibling_coherence": false,
+      "reason": "All nine of this role's transitions are passes, back-steps or back-takes - not one submission - yet it claimed the same 42 as the bottom player it is passing. Settled passing tops author 5-20 (Open Guard Top 5, Spider Guard Top 10, Butterfly Guard Top 20). Advancement LEFT at 78, which its own claim of 85% advanced pass success supports."
+    },
+    {
+      "file": "content/Positions/Half Guard/Reverse Half Guard.json",
+      "role": "bottom",
+      "name": "Reverse Half Guard Bottom",
+      "field": "position_metrics.submission_probability.value",
+      "old": 42,
+      "new": 28,
+      "sibling_coherence": false,
+      "reason": "No direct finish anywhere in its hand (sweeps, recoveries and escapes), and it carried the identical 42 of the top role. Anchored to Half Guard Bottom 28, the settled parent of this variation."
+    },
+    {
+      "file": "content/Positions/Seated Guard.json",
+      "role": "bottom",
+      "name": "Seated Guard Bottom",
+      "field": "position_metrics.submission_probability.value",
+      "old": 42,
+      "new": 32,
+      "sibling_coherence": false,
+      "reason": "Ten transitions, all sweeps or technical stand-ups, no submission at all; the file's own headline is '75% technical standup success'. 42 was the top of the settled band for a role with no authored finish; 32 places it between Half Guard Bottom (28) and Butterfly Guard Bottom (36)."
+    },
+    {
+      "file": "content/Positions/Feet on Hips Guard.json",
+      "role": "bottom",
+      "name": "Feet on Hips Guard Bottom",
+      "field": "position_metrics.submission_probability.value",
+      "old": 42,
+      "new": 32,
+      "sibling_coherence": false,
+      "reason": "Thirteen transitions, thirteen sweeps, no submission; the role describes itself as 'distance management, sweep mechanics, and guard retention'. Its offensive option is the sweep, not the finish. Retention LEFT at 72 - the file claims a 65% retention rate and distance guards genuinely retain well."
+    },
+    {
+      "file": "content/Positions/Half Guard/Deep Half Guard.json",
+      "role": "top",
+      "name": "Deep Half Guard Top",
+      "field": "position_metrics.submission_probability.value",
+      "old": 42,
+      "new": 20,
+      "sibling_coherence": false,
+      "reason": "Nine transitions, every one a pass, back-step or whizzer - no finish - and yet this role out-ranked the deep-half guard player (30) it is trying to escape on submission probability. Anchored to the settled defending tops of a guard: Butterfly Guard Top 20, Closed Guard Top 15."
+    },
+    {
+      "file": "content/Positions/Half Guard.json",
+      "role": "top",
+      "name": "Half Guard Top",
+      "field": "position_metrics.submission_probability.value",
+      "old": 40,
+      "new": 28,
+      "sibling_coherence": false,
+      "reason": "96% of the authored hand is passing; the only two attacks in nineteen transitions are a loop choke at 0% and a Suloev stretch at 2%. At 40 the hub outranked every one of its own variations - Flattened Half Guard Top 25, Knee Shield Half Guard Top 25, Pocket Half Guard Top 30, Z-Lock Half Guard Top 30 - so it is brought into line with its own family at 28."
+    },
+    {
+      "file": "content/Positions/Worm Guard.json",
+      "role": "bottom",
+      "name": "Worm Guard Bottom",
+      "field": "position_metrics.retention_rate.value",
+      "old": 60,
+      "new": 68,
+      "sibling_coherence": false,
+      "reason": "Minimal single-field fix, and it follows this file's own v1.106.4 ruling: the top role was re-worded Defensive because 'the lapel web restricts the top player'. A guard that restricts the passer that thoroughly does not retain worse than its peers - Spider, Lasso, X-Guard and De La Riva bottoms all author 68."
+    },
+    {
+      "file": "content/Positions/De La Riva Guard.json",
+      "role": "top",
+      "name": "De La Riva Guard Top",
+      "field": "position_metrics.submission_probability.value",
+      "old": 40,
+      "new": 20,
+      "sibling_coherence": false,
+      "reason": "Thirteen transitions, all of them passes, zero submissions - yet this was tied for the highest submission probability of any passing role in the corpus. Settled passers: Open Guard Top 5, Spider Guard Top 10, Butterfly Guard Top 20, Reverse De La Riva Guard Top 32."
+    },
+    {
+      "file": "content/Positions/Ashi Garami/Outside Ashi-Garami.json",
+      "role": "bottom",
+      "name": "Outside Ashi-Garami Bottom",
+      "field": "position_metrics.submission_probability.value",
+      "old": 48,
+      "new": 52,
+      "sibling_coherence": false,
+      "reason": "Second pass. Because the authored word sets the sign, the shipped strength is |bare| — so a role whose arithmetic was negative passes through a TROUGH at zero as its metrics improve. 48/64/62 put this entangler at +0.002, i.e. read as a position with no character at all, while 38% of its hand is a direct heel hook or ankle lock. 52/68/62 (+0.042) keeps it below Inside Ashi-Garami Top (+0.054) and well below settled Cross Ashi-Garami Top (+0.110), preserving the control hierarchy."
+    },
+    {
+      "file": "content/Positions/Ashi Garami/Outside Ashi-Garami.json",
+      "role": "bottom",
+      "name": "Outside Ashi-Garami Bottom",
+      "field": "position_metrics.retention_rate.value",
+      "old": 64,
+      "new": 68,
+      "sibling_coherence": false,
+      "reason": "Second pass. Because the authored word sets the sign, the shipped strength is |bare| — so a role whose arithmetic was negative passes through a TROUGH at zero as its metrics improve. 48/64/62 put this entangler at +0.002, i.e. read as a position with no character at all, while 38% of its hand is a direct heel hook or ankle lock. 52/68/62 (+0.042) keeps it below Inside Ashi-Garami Top (+0.054) and well below settled Cross Ashi-Garami Top (+0.110), preserving the control hierarchy."
+    },
+    {
+      "file": "content/Positions/Closed Guard/Diamond Guard.json",
+      "role": "bottom",
+      "name": "Diamond Guard Bottom",
+      "field": "position_metrics.submission_probability.value",
+      "old": 45,
+      "new": 50,
+      "sibling_coherence": false,
+      "reason": "Second pass, ordering violation. At 45/70/65 this shipped +0.005 — BELOW the settled Closed Guard Bottom (+0.028), when Diamond Guard is a closed-guard upgrade whose whole thesis is amplified posture-breaking and submission chains (72% of the hand). 50 is mid-band for its attack share (settled p10 45 / median 56) and its own description already claims triangle, omoplata and kimura are all accessible; it now ships +0.052, above plain closed guard as it should be."
+    },
+    {
+      "file": "content/Positions/Closed Guard/Diamond Guard.json",
+      "role": "bottom",
+      "name": "Diamond Guard Bottom",
+      "field": "position_metrics.retention_rate.value",
+      "old": 70,
+      "new": 72,
+      "sibling_coherence": false,
+      "reason": "Second pass, ordering violation. At 45/70/65 this shipped +0.005 — BELOW the settled Closed Guard Bottom (+0.028), when Diamond Guard is a closed-guard upgrade whose whole thesis is amplified posture-breaking and submission chains (72% of the hand). 50 is mid-band for its attack share (settled p10 45 / median 56) and its own description already claims triangle, omoplata and kimura are all accessible; it now ships +0.052, above plain closed guard as it should be."
+    },
+    {
+      "file": "content/Positions/Closed Guard/Diamond Guard.json",
+      "role": "top",
+      "name": "Diamond Guard Top",
+      "field": "position_metrics.*.description",
+      "old": "(the guard player's prose, copy-pasted onto the trapped role)",
+      "new": "(prose rewritten for the player caught in the diamond frame)",
+      "sibling_coherence": true,
+      "reason": "All three metric descriptions on this role described the BOTTOM player's game ('multiple submission chains available — triangle, omoplata, kimura all accessible') while sitting on the top role. With the values corrected they would have read as a flat contradiction, so the prose was rewritten to describe the trapped player."
+    }
+  ],
+  "roles_examined_and_left_unchanged": [
+    {
+      "name": "Ushiro Ashi-Garami Top",
+      "word": "Offensive",
+      "metrics": [
+        45.0,
+        50.0,
+        60.0
+      ],
+      "risk": "Medium",
+      "attack_share": 38.7,
+      "strength_before": 0.065
+    },
+    {
+      "name": "Butterfly Hook Control Bottom",
+      "word": "Offensive",
+      "metrics": [
+        38.0,
+        68.0,
+        62.0
+      ],
+      "risk": "Medium",
+      "attack_share": 5.0,
+      "strength_before": 0.056
+    },
+    {
+      "name": "Half Butterfly Top",
+      "word": "Offensive",
+      "metrics": [
+        30.0,
+        70.0,
+        68.0
+      ],
+      "risk": "Medium",
+      "attack_share": 0.0,
+      "strength_before": 0.094
+    },
+    {
+      "name": "Half Butterfly Bottom",
+      "word": "Offensive",
+      "metrics": [
+        30.0,
+        68.0,
+        58.0
+      ],
+      "risk": "Medium",
+      "attack_share": 0.0,
+      "strength_before": 0.12
+    },
+    {
+      "name": "Butterfly Guard Bottom",
+      "word": "Offensive",
+      "metrics": [
+        36.0,
+        60.0,
+        64.0
+      ],
+      "risk": "Medium",
+      "attack_share": 12.0,
+      "strength_before": 0.09
+    },
+    {
+      "name": "Closed Guard Bottom",
+      "word": "Offensive",
+      "metrics": [
+        42.0,
+        68.0,
+        62.0
+      ],
+      "risk": "Medium",
+      "attack_share": 42.0,
+      "strength_before": 0.028
+    },
+    {
+      "name": "Reverse De La Riva Guard Top",
+      "word": "Offensive",
+      "metrics": [
+        32.0,
+        72.0,
+        62.0
+      ],
+      "risk": "Medium",
+      "attack_share": 0.0,
+      "strength_before": 0.086
+    },
+    {
+      "name": "Reverse De La Riva Guard Bottom",
+      "word": "Offensive",
+      "metrics": [
+        42.0,
+        60.0,
+        65.0
+      ],
+      "risk": "Medium",
+      "attack_share": 0.0,
+      "strength_before": 0.046
+    },
+    {
+      "name": "De La Riva Guard Bottom",
+      "word": "Offensive",
+      "metrics": [
+        28.0,
+        68.0,
+        62.0
+      ],
+      "risk": "Medium",
+      "attack_share": 9.5,
+      "strength_before": 0.126
+    },
+    {
+      "name": "Double Sleeve Guard Bottom",
+      "word": "Defensive with offensive options",
+      "metrics": [
+        32.0,
+        72.0,
+        52.0
+      ],
+      "risk": "Low to Medium",
+      "attack_share": 15.6,
+      "strength_before": -0.106
+    },
+    {
+      "name": "Feet on Hips Guard Top",
+      "word": "Offensive",
+      "metrics": [
+        32.0,
+        62.0,
+        58.0
+      ],
+      "risk": "Medium",
+      "attack_share": 0.0,
+      "strength_before": 0.124
+    },
+    {
+      "name": "Grasshopper Guard Top",
+      "word": "Offensive/Controlling",
+      "metrics": [
+        32.0,
+        80.0,
+        68.0
+      ],
+      "risk": "Medium",
+      "attack_share": 0.0,
+      "strength_before": 0.05
+    },
+    {
+      "name": "Grasshopper Guard Bottom",
+      "word": "Offensive",
+      "metrics": [
+        45.0,
+        55.0,
+        65.0
+      ],
+      "risk": "Medium to High",
+      "attack_share": 7.0,
+      "strength_before": 0.04
+    },
+    {
+      "name": "Butterfly Half Guard Bottom",
+      "word": "Offensive",
+      "metrics": [
+        32.0,
+        72.0,
+        68.0
+      ],
+      "risk": "Medium",
+      "attack_share": 0.0,
+      "strength_before": 0.074
+    },
+    {
+      "name": "Jailbreak Top",
+      "word": "Offensive",
+      "metrics": [
+        30.0,
+        78.0,
+        72.0
+      ],
+      "risk": "Medium",
+      "attack_share": 0.0,
+      "strength_before": 0.062
+    },
+    {
+      "name": "Jailbreak Bottom",
+      "word": "Defensive with offensive options",
+      "metrics": [
+        32.0,
+        68.0,
+        60.0
+      ],
+      "risk": "Medium to High",
+      "attack_share": 0.0,
+      "strength_before": -0.102
+    },
+    {
+      "name": "Lasso Guard Bottom",
+      "word": "Offensive",
+      "metrics": [
+        38.0,
+        68.0,
+        62.0
+      ],
+      "risk": "Medium",
+      "attack_share": 13.2,
+      "strength_before": 0.056
+    },
+    {
+      "name": "Leg Hook Top",
+      "word": "Offensive/Controlling",
+      "metrics": [
+        30.0,
+        75.0,
+        70.0
+      ],
+      "risk": "Medium",
+      "attack_share": 0.0,
+      "strength_before": 0.075
+    },
+    {
+      "name": "Leg Hook Bottom",
+      "word": "Defensive with offensive options",
+      "metrics": [
+        32.0,
+        68.0,
+        58.0
+      ],
+      "risk": "Medium",
+      "attack_share": 0.0,
+      "strength_before": -0.106
+    },
+    {
+      "name": "Matrix Bottom",
+      "word": "Offensive",
+      "metrics": [
+        40.0,
+        60.0,
+        55.0
+      ],
+      "risk": "Medium to High",
+      "attack_share": 0.0,
+      "strength_before": 0.08
+    },
+    {
+      "name": "Flattened Half Guard Top",
+      "word": "Offensive/Controlling",
+      "metrics": [
+        25.0,
+        78.0,
+        68.0
+      ],
+      "risk": "Low to Medium",
+      "attack_share": 5.0,
+      "strength_before": 0.105
+    },
+    {
+      "name": "Knee Shield Half Guard Bottom",
+      "word": "Defensive with offensive options",
+      "metrics": [
+        28.0,
+        72.0,
+        48.0
+      ],
+      "risk": "Low to Medium",
+      "attack_share": 7.0,
+      "strength_before": -0.142
+    },
+    {
+      "name": "Old School Top",
+      "word": "Defensive with offensive options",
+      "metrics": [
+        30.0,
+        68.0,
+        52.0
+      ],
+      "risk": "Medium",
+      "attack_share": 0.0,
+      "strength_before": -0.132
+    },
+    {
+      "name": "Old School Bottom",
+      "word": "Offensive",
+      "metrics": [
+        38.0,
+        72.0,
+        68.0
+      ],
+      "risk": "Medium",
+      "attack_share": 0.0,
+      "strength_before": 0.032
+    },
+    {
+      "name": "Pocket Half Guard Top",
+      "word": "Offensive/Controlling",
+      "metrics": [
+        30.0,
+        70.0,
+        68.0
+      ],
+      "risk": "Low",
+      "attack_share": 0.0,
+      "strength_before": 0.044
+    },
+    {
+      "name": "Z-Lock Half Guard Top",
+      "word": "Offensive/Controlling",
+      "metrics": [
+        30.0,
+        80.0,
+        62.0
+      ],
+      "risk": "Low to Medium",
+      "attack_share": 0.0,
+      "strength_before": 0.076
+    },
+    {
+      "name": "Z-Lock Half Guard Bottom",
+      "word": "Defensive with offensive options",
+      "metrics": [
+        35.0,
+        72.0,
+        58.0
+      ],
+      "risk": "Medium",
+      "attack_share": 0.0,
+      "strength_before": -0.073
+    },
+    {
+      "name": "Inverted Guard Bottom",
+      "word": "Defensive with offensive options",
+      "metrics": [
+        40.0,
+        60.0,
+        60.0
+      ],
+      "risk": "Medium",
+      "attack_share": 3.0,
+      "strength_before": -0.07
+    },
+    {
+      "name": "Crackhead Control Bottom",
+      "word": "Offensive",
+      "metrics": [
+        45.0,
+        55.0,
+        65.0
+      ],
+      "risk": "High",
+      "attack_share": 44.7,
+      "strength_before": 0.09
+    },
+    {
+      "name": "Zombie Top",
+      "word": "Offensive/Controlling",
+      "metrics": [
+        32.0,
+        77.0,
+        58.0
+      ],
+      "risk": "Medium",
+      "attack_share": 0.0,
+      "strength_before": 0.079
+    },
+    {
+      "name": "Rubber Guard Bottom",
+      "word": "Offensive/Controlling",
+      "metrics": [
+        45.0,
+        60.0,
+        60.0
+      ],
+      "risk": "Medium",
+      "attack_share": 21.8,
+      "strength_before": 0.035
+    },
+    {
+      "name": "Seated Guard Top",
+      "word": "Offensive",
+      "metrics": [
+        30.0,
+        68.0,
+        62.0
+      ],
+      "risk": "Medium",
+      "attack_share": 0.0,
+      "strength_before": 0.112
+    },
+    {
+      "name": "Shin-to-Shin Guard Bottom",
+      "word": "Defensive with offensive options",
+      "metrics": [
+        38.0,
+        68.0,
+        62.0
+      ],
+      "risk": "Medium",
+      "attack_share": 0.0,
+      "strength_before": -0.056
+    },
+    {
+      "name": "Spider Guard Bottom",
+      "word": "Defensive with offensive options",
+      "metrics": [
+        42.0,
+        68.0,
+        52.0
+      ],
+      "risk": "Low to Medium",
+      "attack_share": 36.4,
+      "strength_before": -0.048
+    },
+    {
+      "name": "Squid Guard Bottom",
+      "word": "Offensive",
+      "metrics": [
+        40.0,
+        60.0,
+        62.0
+      ],
+      "risk": "Medium",
+      "attack_share": 7.0,
+      "strength_before": 0.066
+    },
+    {
+      "name": "Overhook Control Bottom",
+      "word": "Defensive with offensive options",
+      "metrics": [
+        42.0,
+        61.0,
+        57.0
+      ],
+      "risk": "Medium",
+      "attack_share": 8.4,
+      "strength_before": -0.059
+    },
+    {
+      "name": "Overhook Guard Top",
+      "word": "Offensive/Controlling",
+      "metrics": [
+        30.0,
+        73.0,
+        66.0
+      ],
+      "risk": "Low to Medium",
+      "attack_share": 0.0,
+      "strength_before": 0.089
+    },
+    {
+      "name": "Piranha Guard Bottom",
+      "word": "Offensive",
+      "metrics": [
+        42.0,
+        68.0,
+        62.0
+      ],
+      "risk": "Medium",
+      "attack_share": 16.1,
+      "strength_before": 0.028
+    },
+    {
+      "name": "Quarter Guard Top",
+      "word": "Offensive/Controlling",
+      "metrics": [
+        38.0,
+        68.0,
+        78.0
+      ],
+      "risk": "Low to Medium",
+      "attack_share": 6.0,
+      "strength_before": 0.024
+    },
+    {
+      "name": "Ringworm Guard Bottom",
+      "word": "Defensive with offensive options",
+      "metrics": [
+        38.0,
+        68.0,
+        58.0
+      ],
+      "risk": "Medium",
+      "attack_share": 23.8,
+      "strength_before": -0.064
+    },
+    {
+      "name": "Rodeo Ride Top",
+      "word": "Offensive/Controlling",
+      "metrics": [
+        38.0,
+        72.0,
+        68.0
+      ],
+      "risk": "Medium",
+      "attack_share": 17.5,
+      "strength_before": 0.032
+    },
+    {
+      "name": "Chill Dog Top",
+      "word": "Offensive",
+      "metrics": [
+        42.0,
+        68.0,
+        62.0
+      ],
+      "risk": "Low to Medium",
+      "attack_share": 10.5,
+      "strength_before": 0.028
+    },
+    {
+      "name": "Standing Guard Bottom",
+      "word": "Defensive with offensive options",
+      "metrics": [
+        32.0,
+        68.0,
+        72.0
+      ],
+      "risk": "Medium",
+      "attack_share": 0.0,
+      "strength_before": -0.078
+    },
+    {
+      "name": "Reverse X-Guard Bottom",
+      "word": "Offensive",
+      "metrics": [
+        38.0,
+        68.0,
+        62.0
+      ],
+      "risk": "Medium",
+      "attack_share": 0.0,
+      "strength_before": 0.056
+    },
+    {
+      "name": "X-Guard Bottom",
+      "word": "Offensive",
+      "metrics": [
+        38.0,
+        68.0,
+        62.0
+      ],
+      "risk": "Medium",
+      "attack_share": 7.0,
+      "strength_before": 0.056
+    },
+    {
+      "name": "Z-Guard Bottom",
+      "word": "Defensive with offensive options",
+      "metrics": [
+        32.0,
+        78.0,
+        58.0
+      ],
+      "risk": "Medium",
+      "attack_share": 0.0,
+      "strength_before": -0.076
+    },
+    {
+      "name": "Williams Guard Bottom",
+      "word": "Defensive with offensive options",
+      "metrics": [
+        52.0,
+        70.0,
+        58.0
+      ],
+      "risk": "Medium",
+      "attack_share": 49.2,
+      "strength_before": -0.04
+    }
+  ],
+  "open_for_owner": [
+    {
+      "item": "Williams Guard Bottom — the one remaining position_type warning",
+      "finding": "Its metrics are right and its WORD is the open question, so nothing was changed. Every one of its six transitions is an attack (Williams shoulder lock 20%, triangle setup 26%, belly-down armbar 11%, omoplata sweep, back take, sweep), 31% of its hand is a direct finish, and its own invariants describe holding the opponent's arm in a shoulder lock creating 'constant submission threat'. submission_probability 52 sits mid-band for that attack share. Yet the file words BOTH roles defensively — bottom 'Defensive with offensive options', top 'Defensive' — so it claims nobody is attacking, and the bottom's honest numbers therefore disagree with its own label.",
+      "recommendation": "Owner call: re-word Williams Guard Bottom to 'Offensive' or 'Offensive/Controlling'. NOT changed here — words are the panel's and the owner's.",
+      "if_accepted": "the warning clears with no metric change at all."
+    },
+    {
+      "item": "Two of the ten v1.106.3 spot fixes silently did nothing",
+      "finding": "Open Guard Top and Standing Guard Top were changed from risk_level 'Medium' to 'Low to Medium' to drop risk one notch. score_graph_nodes.risk_penalty() only knows low/medium/high/none and maps anything else to the medium default of 0.25 — so 'Low to Medium' scores identically to 'Medium' and neither position moved. 71 of 272 role-nodes (26%) use such compound risk strings ('Low to Medium' 47, 'Medium to High' 24), so a quarter of the corpus cannot express risk at all.",
+      "recommendation": "Either teach risk_penalty the compound vocabulary (blast radius: 71 role-nodes change strength at once) or normalise the content to the four canonical words. Not done here — both touch positions outside this wave's scope."
+    },
+    {
+      "item": "Magnitude is bounded by point_value, which guards can never carry",
+      "finding": "point_value is IBJJF scoring: 241 of 272 role-nodes author 0, and only pins (mount/back +/-4, side control +/-3, knee-on-belly 2) carry anything. At point_value 0 with Medium risk the formula's reach is about -0.30..+0.22, so a fully-calibrated leg entanglement still reads weaker than a mediocre pin. Backside 50-50 Top, recalibrated here to 56/68/66, reaches only +0.078. Content calibration cannot fix this.",
+      "recommendation": "If the owner wants submission platforms to read as strong as pins, that is a scoring change (a submission-platform term, or letting risk_level 'Low' do more work), not a content change. Flagged, not attempted."
+    },
+    {
+      "item": "The same stock-triplet defect exists outside this wave's scope",
+      "finding": "Honey Hole Top — the saddle, the strongest leg entanglement in the game — carries the stock 42/60/60 while 72% of its hand is a direct finish, and the corpus's own Saddle Top authors 70/78/75 for the same position. It was not in the panel's 73 and so was not touched. Reverse Scarf Hold Top (42/60/60, 44% direct finishes) and 50-50 Guard Top (owner-ruled Neutral) share the fingerprint.",
+      "recommendation": "A short follow-up pass on the ~8 platforms carrying stock triplets outside the adjudicated list."
+    }
+  ],
+  "shipped_strength": {
+    "Ashi Garami Bottom": {
+      "word": "Offensive",
+      "before": 0.056,
+      "after": 0.038
+    },
+    "Backside 50-50 Bottom": {
+      "word": "Defensive with offensive options",
+      "before": -0.056,
+      "after": -0.162
+    },
+    "Backside 50-50 Top": {
+      "word": "Offensive/Controlling",
+      "before": 0.056,
+      "after": 0.078
+    },
+    "De La Riva Guard Top": {
+      "word": "Offensive",
+      "before": 0.07,
+      "after": 0.21
+    },
+    "Deep Half Guard Top": {
+      "word": "Defensive with offensive options",
+      "before": -0.056,
+      "after": -0.21
+    },
+    "Diamond Guard Bottom": {
+      "word": "Offensive/Controlling",
+      "before": 0.03,
+      "after": 0.046
+    },
+    "Diamond Guard Top": {
+      "word": "Defensive",
+      "before": -0.03,
+      "after": -0.333
+    },
+    "Estima Lock Control Top": {
+      "word": "Offensive/Controlling",
+      "before": 0.086,
+      "after": 0.044
+    },
+    "Feet on Hips Guard Bottom": {
+      "word": "Defensive with offensive options",
+      "before": -0.024,
+      "after": -0.094
+    },
+    "Gogoplata Control Bottom": {
+      "word": "Offensive/Controlling",
+      "before": 0.034,
+      "after": 0.007
+    },
+    "Half Guard Top": {
+      "word": "Offensive",
+      "before": 0.046,
+      "after": 0.13
+    },
+    "Inside Ashi-Garami Top": {
+      "word": "Offensive",
+      "before": 0.056,
+      "after": 0.054
+    },
+    "Kimura Trap Bottom": {
+      "word": "Defensive with offensive options",
+      "before": -0.047,
+      "after": -0.044
+    },
+    "Kneebar Control Bottom": {
+      "word": "Offensive",
+      "before": 0.072,
+      "after": 0.016
+    },
+    "Outside Ashi-Garami Bottom": {
+      "word": "Offensive",
+      "before": 0.056,
+      "after": 0.042
+    },
+    "Outside Ashi-Garami Top": {
+      "word": "Defensive",
+      "before": -0.102,
+      "after": -0.352
+    },
+    "Reverse Half Guard Bottom": {
+      "word": "Defensive with offensive options",
+      "before": -0.056,
+      "after": -0.154
+    },
+    "Reverse Half Guard Top": {
+      "word": "Offensive",
+      "before": 0.02,
+      "after": 0.188
+    },
+    "Seated Guard Bottom": {
+      "word": "Defensive with offensive options",
+      "before": -0.056,
+      "after": -0.126
+    },
+    "Worm Guard Bottom": {
+      "word": "Offensive",
+      "before": 0.056,
+      "after": 0.032
+    }
+  },
+  "what_this_wave_learned": {
+    "the trough": "THE DISPLAYED STRENGTH IS |bare|, SO IMPROVING A METRIC CAN MAKE A POSITION READ WEAKER. Since v1.103.0 the authored word sets the sign and the formula supplies only the magnitude, so for an offensively-worded role whose arithmetic is NEGATIVE, raising its metrics walks the score toward zero before it climbs again — a V, not a ramp. Two roles landed in that trough on the first pass and were caught by a second: Outside Ashi-Garami Bottom shipped +0.002 (a heel-hook platform reading as a position with no character) and Diamond Guard Bottom +0.005, BELOW the plain Closed Guard Bottom it is an upgrade on. Anyone calibrating these numbers must check the shipped strength, not just the authored value — and must check ORDER against settled peers, which is what caught both.",
+    "ordering is the real contract": "score_graph_nodes' own acceptance test is a list of ORDERING invariants, not magnitudes, and that is the right frame at point_value 0. Ten BJJ orderings were asserted after this wave (leg-entanglement hierarchy outside < inside < cross < saddle; the trapped side of inside ashi worse than outside ashi; diamond guard better than closed guard for the guard player and worse for the trapped one; both 50-50 sides now asymmetric; deep half top below deep half bottom) and all hold, as do the six invariants shipped in the scorer.",
+    "stock triplets are the fingerprint": "The fastest way to find a broken position is not the score — it is a metric triplet that appears verbatim on unrelated files. 42/60/60 on 11 role-nodes, 38/68/62 on 5, 42/68/62 on 3. Six files in the whole corpus carry IDENTICAL values on both of their roles; four are legitimately symmetric (Clinch, Dogfight, Standing, Leg Entanglement — all worded Neutral) and the two that were not (Backside 50-50, Diamond Guard) are both fixed here."
+  }
+}

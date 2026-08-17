@@ -399,9 +399,9 @@ Both partners in backside 50-50 (alternating top/bottom) practice attacking and 
 
 | Metric | Rate |
 |--------|------|
-| Retention Rate | 60% |
-| Advancement Probability | 60% |
-| Submission Probability | 42% |
+| Retention Rate | 50% |
+| Advancement Probability | 50% |
+| Submission Probability | 34% |
 
 **Average Time in Position**: 30-60 seconds
 

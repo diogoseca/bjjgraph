@@ -682,7 +682,7 @@
         "description": "Percentage of time practitioner maintains Ashi Garami control without opponent escaping to standing or neutral"
       },
       "advancement_probability": {
-        "value": 55,
+        "value": 64,
         "description": "Likelihood of advancing up positional hierarchy from current Ashi variation to more dominant position"
       },
       "submission_probability": {

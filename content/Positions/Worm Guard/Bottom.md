@@ -410,7 +410,7 @@ Start in neutral open guard. Both partners grip fight—you attempt to establish
 
 | Metric | Rate |
 |--------|------|
-| Retention Rate | 60% |
+| Retention Rate | 68% |
 | Advancement Probability | 60% |
 | Submission Probability | 42% |
 

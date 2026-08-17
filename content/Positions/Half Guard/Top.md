@@ -421,7 +421,7 @@ Partner cycles through different half guard variations (Knee Shield, Lockdown, D
 |--------|------|
 | Retention Rate | 68% |
 | Advancement Probability | 60% |
-| Submission Probability | 40% |
+| Submission Probability | 28% |
 
 **Average Time in Position**: 1-3 minutes depending on opponent's defensive sophistication and top player's passing acumen
 

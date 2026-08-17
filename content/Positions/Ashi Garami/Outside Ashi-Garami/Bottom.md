@@ -405,9 +405,9 @@ Start in established outside ashi garami, bottom player works to maintain positi
 
 | Metric | Rate |
 |--------|------|
-| Retention Rate | 60% |
-| Advancement Probability | 60% |
-| Submission Probability | 42% |
+| Retention Rate | 68% |
+| Advancement Probability | 62% |
+| Submission Probability | 52% |
 
 **Average Time in Position**: 30-60 seconds before transition or escape
 

@@ -412,9 +412,9 @@ Start in Kimura Trap Bottom. Partner cycles through four defensive reactions: (1
 
 | Metric | Rate |
 |--------|------|
-| Retention Rate | 75% |
+| Retention Rate | 68% |
 | Advancement Probability | 68% |
-| Submission Probability | 48% |
+| Submission Probability | 38% |
 
 **Average Time in Position**: 45-90 seconds before sweep or submission attempt
 

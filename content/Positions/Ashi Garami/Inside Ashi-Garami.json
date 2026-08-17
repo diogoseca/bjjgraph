@@ -376,13 +376,13 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "value": 60
+        "value": 66
       },
       "advancement_probability": {
-        "value": 60
+        "value": 64
       },
       "submission_probability": {
-        "value": 42
+        "value": 54
       },
       "average_time": "30-90 seconds before submission attempt or advancement"
     },

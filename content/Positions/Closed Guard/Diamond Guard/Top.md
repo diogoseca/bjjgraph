@@ -384,9 +384,9 @@ Practice escaping diamond guard from the top. Partner establishes diamond with p
 
 | Metric | Rate |
 |--------|------|
-| Retention Rate | 65% |
-| Advancement Probability | 55% |
-| Submission Probability | 45% |
+| Retention Rate | 45% |
+| Advancement Probability | 42% |
+| Submission Probability | 14% |
 
 **Average Time in Position**: 30 seconds to 2 minutes before submission attempt or position change
 

@@ -409,7 +409,7 @@ Top partner starts with one ankle controlled. Bottom player must recover feet-on
 |--------|------|
 | Retention Rate | 72% |
 | Advancement Probability | 58% |
-| Submission Probability | 42% |
+| Submission Probability | 32% |
 
 **Average Time in Position**: 30-90 seconds before transition or pass attempt
 

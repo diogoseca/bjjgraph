@@ -349,7 +349,7 @@
         "value": 78
       },
       "submission_probability": {
-        "value": 42
+        "value": 18
       },
       "average_time": "10-20 seconds"
     },
@@ -766,7 +766,7 @@
         "value": 60
       },
       "submission_probability": {
-        "value": 42
+        "value": 28
       },
       "average_time": "15-30 seconds (transitional position)"
     },

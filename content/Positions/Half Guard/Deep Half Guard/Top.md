@@ -399,7 +399,7 @@ Positional sparring starting in deep half guard top. You work to pass while part
 |--------|------|
 | Retention Rate | 60% |
 | Advancement Probability | 60% |
-| Submission Probability | 42% |
+| Submission Probability | 20% |
 
 **Average Time in Position**: 30-90 seconds
 

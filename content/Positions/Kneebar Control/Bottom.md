@@ -426,7 +426,7 @@ Start with practitioner in bottom kneebar control against defending partner. Pra
 |--------|------|
 | Retention Rate | 58% |
 | Advancement Probability | 62% |
-| Submission Probability | 40% |
+| Submission Probability | 48% |
 
 **Average Time in Position**: 15-45 seconds before finish or transition required
 

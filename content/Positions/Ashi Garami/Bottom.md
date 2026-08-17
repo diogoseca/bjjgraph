@@ -429,7 +429,7 @@ Partner aggressively attempts leg extraction from your Outside or Inside Ashi co
 | Metric | Rate |
 |--------|------|
 | Retention Rate | 68% |
-| Advancement Probability | 55% |
+| Advancement Probability | 64% |
 | Submission Probability | 40% |
 
 **Average Time in Position**: 45-90 seconds before position resolution through escape, submission, or hierarchy advancement

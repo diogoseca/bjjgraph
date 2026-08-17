@@ -762,7 +762,7 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "value": 55,
+        "value": 64,
         "description": "Ability to maintain gogoplata control once established"
       },
       "advancement_probability": {
