@@ -122,6 +122,22 @@ async function hmacToken(env, userId) {
   return [...new Uint8Array(sig)].map((b) => b.toString(16).padStart(2, "0")).join("").slice(0, 32);
 }
 
+function renderText(d) {
+  const eta = d.eta && d.eta.days ? "At this pace: " + d.eta.belt.toUpperCase() + " BELT in ~" + d.eta.days + " days\n" : "";
+  const weak = d.weakTop.length
+    ? "\nWeak spot: " + prettyKey(d.weakTop[0]) +
+      (d.clip ? "\n  A great video from " + (d.clip.who || "a top instructor") + ": https://www.youtube.com/watch?v=" + d.clip.id : "") +
+      (d.weakTop[1] ? "\n  And one for the road: " + prettyKey(d.weakTop[1]) : "") + "\n"
+    : "";
+  return "TODAY AT BJJGRAPH\n" +
+    d.count + " cards · " + d.techniques.length + " techniques\n" +
+    "Game Knowledge: " + d.score + "%" + (d.delta != null ? " (" + (d.delta >= 0 ? "+" : "") + d.delta + "% today)" : "") + "\n" +
+    eta + (d.streak > 1 ? d.streak + " training days in a row\n" : "") +
+    "\nWhat you reviewed:\n" + d.techniques.slice(0, 10).map((t) => "  · " + prettyKey(t)).join("\n") +
+    (d.techniques.length > 10 ? "\n  · …and " + (d.techniques.length - 10) + " more" : "") +
+    weak + "\n" + SITE + "\n\nUnsubscribe: " + d.unsubUrl + "\n";
+}
+
 function renderHtml(d) {
   const esc = (t) => String(t).replace(/[<>&]/g, (c) => ({ "<": "&lt;", ">": "&gt;", "&": "&amp;" }[c]));
   const li = d.techniques.slice(0, 10).map((t) => "<li>" + esc(prettyKey(t)) + "</li>").join("");
@@ -211,22 +227,22 @@ async function runDigest(env) {
         unsubUrl: SITE + "/unsubscribe?u=" + row.user_id + "&t=" + (await hmacToken(env, row.user_id)),
       };
 
-      // 5. send — Cloudflare Email binding. LOUD on absence: this is the runbook's one gate.
+      // 5. send — the Email Service binding's simple-options API (verified against the owner's
+      // dashboard snippet, 2026-08-17: `env.EMAIL.send({to, from, subject, html, text})` returns
+      // {messageId}; no API token, no raw MIME). LOUD on absence: the runbook's one gate.
+      // Replies go to coach@bjjgraph.org, which Email Routing forwards to the owner's inbox —
+      // deliberately human-read, no processing worker. The unsubscribe link lives in the body;
+      // when the simple API grows a headers field, add List-Unsubscribe one-click there too.
       if (!env.EMAIL || typeof env.EMAIL.send !== "function")
-        throw new Error("EMAIL binding missing — enable Cloudflare Email Sending and bind it (see RUNBOOK.md)");
-      const { EmailMessage } = await import("cloudflare:email");
-      const raw = [
-        "From: BJJGraph <coach@bjjgraph.org>",
-        "To: " + email,
-        "Subject: Today at BJJGraph: " + digest.techniques.length + " techniques, " + digest.score + "%",
-        "List-Unsubscribe: <" + digest.unsubUrl + ">",
-        'List-Unsubscribe-Post: List-Unsubscribe=One-Click',
-        "MIME-Version: 1.0",
-        'Content-Type: text/html; charset="utf-8"',
-        "",
-        renderHtml(digest),
-      ].join("\r\n");
-      await env.EMAIL.send(new EmailMessage("coach@bjjgraph.org", email, raw));
+        throw new Error("EMAIL binding missing — connect Email Service and copy the binding stanza from the dashboard's wrangler tab (see RUNBOOK.md)");
+      const sent1 = await env.EMAIL.send({
+        to: email,
+        from: "coach@bjjgraph.org",
+        subject: "Today at BJJGraph: " + digest.techniques.length + " technique" + (digest.techniques.length === 1 ? "" : "s") + ", " + digest.score + "%",
+        html: renderHtml(digest),
+        text: renderText(digest),
+      });
+      if (!sent1 || !sent1.messageId) throw new Error("send returned no messageId");
 
       await sb(env, "/rest/v1/digest_sent", {
         method: "POST",

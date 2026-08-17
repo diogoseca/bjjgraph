@@ -234,6 +234,34 @@ jobs:
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           command: pages deploy source/public --project-name=bjjgraph
 
+      # ── Training-day digest (v1.105.7): the Worker + its secrets, and the unsubscribe
+      #    Function's Pages secrets — ALL flowing from GitHub secrets, so there is exactly one
+      #    place a credential lives. Skips loudly (never fails the deploy) until the owner adds
+      #    SUPABASE_SERVICE_ROLE_KEY; UNSUB_HMAC_SECRET was generated and set 2026-08-17.
+      - name: Deploy digest Worker + sync secrets
+        if: always()
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+          UNSUB_HMAC_SECRET: ${{ secrets.UNSUB_HMAC_SECRET }}
+        run: |
+          if [ -z "$SUPABASE_SERVICE_ROLE_KEY" ] || [ -z "$UNSUB_HMAC_SECRET" ]; then
+            echo "::notice::digest Worker NOT deployed — add SUPABASE_SERVICE_ROLE_KEY (and UNSUB_HMAC_SECRET) to repo secrets to enable"
+            exit 0
+          fi
+          cd workers/digest
+          npx wrangler deploy
+          printf '%s' "$SUPABASE_URL"              | npx wrangler secret put SUPABASE_URL
+          printf '%s' "$SUPABASE_SERVICE_ROLE_KEY" | npx wrangler secret put SUPABASE_SERVICE_ROLE_KEY
+          printf '%s' "$UNSUB_HMAC_SECRET"         | npx wrangler secret put UNSUB_HMAC_SECRET
+          cd ../..
+          # the unsubscribe Pages Function reads the SAME three from the Pages project
+          printf '%s' "$SUPABASE_URL"              | npx wrangler pages secret put SUPABASE_URL --project-name=bjjgraph
+          printf '%s' "$SUPABASE_SERVICE_ROLE_KEY" | npx wrangler pages secret put SUPABASE_SERVICE_ROLE_KEY --project-name=bjjgraph
+          printf '%s' "$UNSUB_HMAC_SECRET"         | npx wrangler pages secret put UNSUB_HMAC_SECRET --project-name=bjjgraph
+
   lighthouse-ci:
     needs: deploy
     runs-on: ubuntu-latest

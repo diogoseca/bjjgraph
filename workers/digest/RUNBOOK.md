@@ -1,41 +1,37 @@
 # Training-day digest — owner runbook (v1.105.7)
 
 Everything code-side is committed. These are the steps only you can do, in order.
-Total time ≈ 20 minutes. Nothing sends until step 6, and nothing sends to anyone
+Total time ≈ 10 minutes (step 1 already done). Nothing sends until step 6, and nothing sends to anyone
 who has not flipped the Beta toggle in Settings.
 
-## 1. THE GATE: Cloudflare Email Sending availability
-Dashboard → your account → **Email** → look for **Email Sending** (the 2025-beta
-service for sending to arbitrary recipients — NOT classic "Email Routing", which
-only forwards inbound). If it exists:
-- Add sender domain `bjjgraph.org`, verify (it adds DKIM/SPF DNS records — your
-  DNS is already on Cloudflare, so it's one click each).
-- Create sender address `coach@bjjgraph.org`.
+## 1. ~~THE GATE~~ — DONE (owner, 2026-08-17)
+Email Service is enabled; any from-address on the verified domain may send (no
+per-address creation needed). `coach@bjjgraph.org` is set to FORWARD inbound to
+the owner's personal inbox — replies are human-read by design, no processing
+worker. The Worker sends via the simple binding API
+(`env.EMAIL.send({to, from, subject, html, text})` → `{messageId}`).
 
-**If Email Sending is NOT available on the account yet**: stop here and tell me —
-that is the fallback decision you kept for yourself (a third-party provider or
-waiting for the rollout). The Worker fails loudly, never silently, until then.
+ONE CHECK at deploy: if `wrangler deploy` rejects the `send_email` binding
+stanza in wrangler.toml, copy the exact binding block from the dashboard's
+"Connect to Email Service → Workers → wrangler" tab over it — the dashboard's
+snippet is authoritative for the binding key's current spelling.
 
 ## 2. Supabase tables (2 min)
 Supabase dashboard → SQL editor → paste and run `supabase/digest_v1.sql`
 (creates `digest_sent` + `digest_suppress`, service-role-only).
 
-## 3. Deploy the Worker (3 min)
+## 3+4. Worker deploy + ALL secrets — AUTOMATED (2026-08-17)
+One GitHub secret is the whole remaining setup:
 ```
-cd workers/digest
-npx wrangler deploy
-npx wrangler secret put SUPABASE_URL                 # https://<project>.supabase.co
-npx wrangler secret put SUPABASE_SERVICE_ROLE_KEY    # Supabase → Settings → API → service_role
-npx wrangler secret put UNSUB_HMAC_SECRET            # any long random string, e.g. `openssl rand -hex 32`
+gh secret set SUPABASE_SERVICE_ROLE_KEY    # paste from Supabase → Settings → API → service_role
 ```
-The cron (04:00 UTC daily) is in wrangler.toml. If `wrangler deploy` rejects the
-`send_email` binding, that's the step-1 gate again.
-
-## 4. Unsubscribe Function env vars (2 min)
-Cloudflare dashboard → Pages → bjjgraph → Settings → Environment variables →
-add the SAME three values (`SUPABASE_URL`, `SUPABASE_SERVICE_ROLE_KEY`,
-`UNSUB_HMAC_SECRET`) for Production. The function is `functions/unsubscribe.js`,
-already in the repo, deployed with the next Pages deploy.
+(`UNSUB_HMAC_SECRET` was generated and set on 2026-08-17; `SUPABASE_URL` was
+already there.) The next prod deploy then does everything: deploys the Worker,
+pushes its three secrets, and syncs the same three into the Pages project for
+the unsubscribe Function. Until the key exists the step SKIPS with a loud
+notice and never fails the deploy. If wrangler rejects the `send_email` binding
+stanza, copy the block from the dashboard's "Connect to Email Service" wrangler
+tab — its spelling is authoritative.
 
 ## 5. Dry-run before the cron ever fires
 ```

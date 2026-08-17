@@ -1110,6 +1110,21 @@ class Component extends DCLogic {
     { // honest daily counter — cardsToday was read everywhere but never written
       const dk = this._dayKey(); this._days = this._days || {};
       this._days[dk] = (this._days[dk] || 0) + 1; this.cardsToday = this._days[dk];
+      // THE DIGEST'S RAW MATERIAL (v1.105.7): a tiny per-day record — techniques touched, a
+      // Game Knowledge snapshot, the top weak spots — synced in the blob so the email Worker
+      // reads YOUR day from the same store everything else uses. Trimmed with `days` (30 keys);
+      // merged per-day (union of keys, MAX count, latest score). Written only when the digest
+      // is opted in: no consent, no data.
+      if (this.get("emailDigest", false)) {
+        try {
+          this.dayLog = this.dayLog || {};
+          const e = (this.dayLog[dk] = this.dayLog[dk] || { s: 0, k: [] });
+          if (key && e.k.indexOf(key) < 0 && e.k.length < 40) e.k.push(key);
+          e.s = Math.round((this.gameScore().score || 0) * 1000) / 10;
+          const w = this.weakSpots ? this.weakSpots() : null;
+          if (w) e.w = [w.n, w.word].concat(w.top || []);   // count, degree, then the top-2 names for the magazine section
+        } catch (err) { /* the digest must never break a grade */ }
+      }
       this.track("neural_card_answered", { deck_key: key, cards_today: this.cardsToday });
       this.fx("bonus_pumped", { deck_key: key });
     }
@@ -1761,6 +1776,7 @@ class Component extends DCLogic {
       const p = JSON.parse(raw); if (!p || (p.v !== 1 && p.v !== 2)) return;
       this.prep = Object.assign({}, p.prep || {});
       this._days = Object.assign({}, p.days || {});
+      this.dayLog = Object.assign({}, p.dayLog || {});
       if (p.settings) this.settings = Object.assign({}, this.settings || {}, p.settings);
       this._settingsAt = Object.assign({}, p.settingsAt || {});
       // v1 -> v2 migration: recall history didn't exist — grandfather rec = prep so nobody's
@@ -1793,13 +1809,15 @@ class Component extends DCLogic {
       this.cardsToday = this._days[this._dayKey()] || 0;
     } catch (e) { /* corrupt/absent — start fresh */ }
   }
+  /** last-30-keys trim, shared by `days` and `dayLog` */
+  _trimDays(m) { const out = {}; for (const k of Object.keys(m).sort().slice(-30)) out[k] = m[k]; return out; }
   _progressBlob() {
     this._syncWhiteChallengeCompatibility(this._progressAt || Date.now());
     const days = this._days || {};
     const trimmed = {};
     for (const k of Object.keys(days).sort().slice(-30)) trimmed[k] = days[k];
     this._progressAt = Date.now();
-    return { v: 2, prep: this.prep || {}, rec: this.rec || {}, stage: this.stage || {}, srs: this.srs || {}, units: this.units || {}, belts: this.belts || { won: {} }, tut: this.tut || { done: {} }, challenges: this.challenges || {}, badges: this.badges || {}, coins: this.coins || {}, lists: this.lists || {}, days: trimmed, settings: this.settings || {}, settingsAt: this._settingsAt || {}, updatedAt: this._progressAt };
+    return { v: 2, prep: this.prep || {}, rec: this.rec || {}, stage: this.stage || {}, srs: this.srs || {}, dayLog: this._trimDays(this.dayLog || {}), units: this.units || {}, belts: this.belts || { won: {} }, tut: this.tut || { done: {} }, challenges: this.challenges || {}, badges: this.badges || {}, coins: this.coins || {}, lists: this.lists || {}, days: trimmed, settings: this.settings || {}, settingsAt: this._settingsAt || {}, updatedAt: this._progressAt };
   }
   _saveProgress() {
     clearTimeout(this._saveT);
@@ -2076,9 +2094,10 @@ class Component extends DCLogic {
     const veryWeak = uniq(explored.filter((k) => decks[k] && !prep[k]));
     const weak = uniq(keys.filter((k) => !prep[k]));
     const shaky = uniq(keys.filter((k) => prep[k] > 0 && prep[k] < 3));
-    if (veryWeak.length) return { n: veryWeak.length, word: "very weak", total: veryWeak.length + weak.length + shaky.length };
-    if (weak.length) return { n: weak.length, word: "weak", total: weak.length + shaky.length };
-    return { n: shaky.length, word: shaky.length ? "shaky" : "weak", total: shaky.length };
+    // `top` (v1.105.7): the two worst offenders by name — the digest's magazine section
+    if (veryWeak.length) return { n: veryWeak.length, word: "very weak", total: veryWeak.length + weak.length + shaky.length, top: veryWeak.slice(0, 2) };
+    if (weak.length) return { n: weak.length, word: "weak", total: weak.length + shaky.length, top: weak.slice(0, 2) };
+    return { n: shaky.length, word: shaky.length ? "shaky" : "weak", total: shaky.length, top: shaky.slice(0, 2) };
   }
   _exploreStatsRow() {
     const mastered = this.masteredCount();
@@ -3263,6 +3282,21 @@ class Component extends DCLogic {
       // study order
       body.appendChild(this.settingRow("Answer mode", "How cards read back HERE. Questions asked in-roll are always multiple choice \u2014 this sidebar is the study surface, so it reads back as recall unless you say otherwise.",
         [["Classic recall", "classic"], ["Auto", "auto"], ["Multiple choice", "mc"]], "mcMode", "classic"));
+      // TRAINING-DAY DIGEST (v1.105.7, Beta) — the opt-in that makes the email Worker see you.
+      // Signed-in only: a digest without an address has nowhere to go. Default OFF; flipping it
+      // on starts recording the per-day dayLog (see noteCardDone) which syncs in the blob.
+      if (this.user) {
+        const wrap = document.createElement("div");
+        wrap.setAttribute("data-digest-setting", "1");
+        wrap.appendChild(this.settingRow("Training-day email", "After a day you reviewed something: your techniques, your Game Knowledge, your streak \u2014 mailed to " + (this.user.email || "your account email") + ".",
+          [["On", true], ["Off", false]], "emailDigest", false));
+        const beta = document.createElement("span");
+        beta.textContent = "Beta";
+        beta.style.cssText = "position:relative;top:-44px;left:150px;font-size:8.5px;letter-spacing:.12em;text-transform:uppercase;font-weight:800;color:#9ab0e0;border:1px solid rgba(120,150,255,.35);border-radius:5px;padding:1px 6px;pointer-events:none;";
+        wrap.style.position = "relative";
+        wrap.appendChild(beta);
+        body.appendChild(wrap);
+      }
       // RECALL MODE — the black-belt badge's toggle (v1.105.1). LOCKED until the knowledge band
       // reaches black; auto-flipped ON when the badge mints; freely flippable back. When on, a
       // stage-2+ card in PLAY renders as reveal/self-grade instead of multiple choice.
@@ -3640,6 +3674,17 @@ class Component extends DCLogic {
               if (w[1] > 1 && o[1] > w[1]) w = [w[2] + o[1], o[1], w[2]];
               l[qh] = w;
             }
+          }
+        }
+        // dayLog merge (v1.105.7): per-day, union of technique keys, latest score snapshot
+        {
+          const dl = (this.dayLog = this.dayLog || {});
+          for (const day in (cloud.dayLog || {})) {
+            const c = cloud.dayLog[day] || {}; const m = dl[day];
+            if (!m) { dl[day] = { s: c.s || 0, k: (c.k || []).slice(0, 40), w: c.w }; continue; }
+            for (const k of c.k || []) if (m.k.indexOf(k) < 0 && m.k.length < 40) m.k.push(k);
+            if ((c.s || 0) > (m.s || 0)) m.s = c.s;   // the higher snapshot is the later one — score is monotonic-ish within a day
+            if (!m.w && c.w) m.w = c.w;
           }
         }
         this.rec = rec; this.stage = stage;
@@ -8255,7 +8300,20 @@ class Component extends DCLogic {
     // player has not moved on), and never loop — after the warm, questionFor either has a card
     // or the deck genuinely has none.
     if (warm) {
-      const p = warm().then(() => { if (this._landEl === el) this.renderLandCard(node, mode, hooks); }).catch(() => {});
+      // RE-RENDER ONLY ON PROGRESS (v1.105.6). With the deck payload HELD (a stalled manifest),
+      // hydrateDeck cannot progress and resolves INSTANTLY — and an unconditional .then re-render
+      // re-armed the same no-op warm, forever: an infinite MICROTASK chain that starves the event
+      // loop. The page hard-froze (this is the 2.2m cold-start hang the fixed harness glob
+      // exposed), and no setTimeout watchdog can fire under a spinning microtask queue — which is
+      // why v1.104.8's wall-clock bound never helped. The guard: re-render only if the wait
+      // actually produced something (the deck arrived, or the MC pool warmed). When nothing
+      // changed, stop — `_landBackfill` re-renders on the payload-arrival hooks anyway.
+      const c1 = card;
+      const p = warm().then(() => {
+        if (this._landEl !== el) return;
+        const progressed = this._deckResident(key) || (c1 && this.mcPoolWarm(key, c1));
+        if (progressed) this.renderLandCard(node, mode, hooks);
+      }).catch(() => {});
       // ── THE "QUESTION IS SETTLED" SIGNAL (v1.80.5) ──
       // Since the payload was chunked, the question docks ONE FETCH after the card paints. Any
       // reader that wants the question — a journey pressing A-D, a screen reader, us — needs a
