@@ -496,7 +496,11 @@ test.describe("Forward Components development library @curated", () => {
     page.on("pageerror", (error) => errors.push(error.message));
     await page.goto("/dev/use-cases/");
 
-    await expect(page.locator(".sequence-nav .catalog-item")).toHaveCount(23);
+    // +15 (v1.106): the cold start, the one pane and its tabs/study takeover, the
+    // opponent turn, the JIT drill, the knowledge arc, MC-to-recall, the ignored
+    // question, advanced browsing, the returner, the keyboard, gi/no-gi, guest-to-
+    // account, and the three sharing use cases.
+    await expect(page.locator(".sequence-nav .catalog-item")).toHaveCount(38);
     await page
       .getByRole("button", { name: /Gameplay animation timepoints/ })
       .click();
@@ -577,8 +581,12 @@ test.describe("Forward Components development library @curated", () => {
     page.on("pageerror", (error) => errors.push(error.message));
     await page.goto("/dev/user-journeys/");
 
-    await expect(page.locator(".sequence-nav .catalog-item")).toHaveCount(5);
-    await expect(page.locator(".sequence-chapters button")).toHaveCount(5);
+    // +14 (v1.106): the approved catalog expansion — A1-A9, B1, B2, B3, B5, B6, B7.
+    // B4 (Systems to affiliate purchase) is owner-deferred, not dropped.
+    await expect(page.locator(".sequence-nav .catalog-item")).toHaveCount(19);
+    // first-roll gained the opponent-turn chapter (J1 repair): it was "two moves and
+    // a win", with no opponent ever taking a turn in it.
+    await expect(page.locator(".sequence-chapters button")).toHaveCount(6);
     expect(await page.locator(".sequence-frame").count()).toBeGreaterThan(25);
 
     await page

@@ -154,7 +154,7 @@ export function gameScreen(options = {}, context = defaultContext) {
     ${showIntro ? intro({ firstRun }) : ""}
     ${toast ? eventToast(toast) : ""}
     ${landing ? landingCard(landing, context) : ""}
-    ${tray ? optionTray({ ...tray, context }) : ""}
+    ${tray ? optionTray({ ...tray, ruleset: tray.ruleset || options.ruleset || null, context }) : ""}
     ${showLegend ? legend() : ""}
     ${showWinBar ? winLose({ value: 100 - (options.lose ?? 42) }) : ""}
     ${showTransport ? transport({ paused: paused || staged }) : ""}
@@ -167,7 +167,7 @@ export function gameScreen(options = {}, context = defaultContext) {
     ${paneState ? pane(paneState, context) : ""}
     ${share ? shareCue(share) : ""}
     ${picker ? listPicker(picker) : ""}
-    ${sheet ? optionSheet({ state: sheet }, context) : ""}
+    ${sheet ? optionSheet({ state: sheet === "drilling" ? "expanded" : sheet, drilling: sheet === "drilling" }, context) : ""}
     ${detail ? dossier({ variant: detail, mobile: options.mobileDetail }, context) : ""}
     ${modal ? (modal === "auth" ? authModal({ mode: options.authMode }) : settingsModal({ tab: modal })) : ""}
     ${coachStep ? coach({ step: coachStep }) : ""}

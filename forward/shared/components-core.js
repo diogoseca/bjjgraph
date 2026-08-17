@@ -1,4 +1,4 @@
-import { defaultContext } from "./fixtures.js";
+import { defaultContext, giTechniques } from "./fixtures.js";
 import { icon } from "./icons.js";
 import { escapeHtml } from "./utils.js";
 
@@ -219,11 +219,22 @@ export function optionTray({
   selected = -1,
   expired = false,
   mode = "normal",
+  ruleset = null,
   context = defaultContext,
 } = {}) {
-  const source = context.techniques?.length
+  const authored = context.techniques?.length
     ? context.techniques
     : defaultContext.techniques;
+  // GI/NO-GI is the first real divergence in CONTENT, not just in votes (v1.53.0): the gi
+  // frame carries collar and lapel material the no-gi frame simply does not have, and both
+  // frames carry their own attempt and success priors. Only frames that ask for a ruleset
+  // see this, so no existing screen moves.
+  const source =
+    ruleset === "gi"
+      ? [...giTechniques, ...authored]
+      : ruleset === "nogi"
+        ? authored.filter((technique) => !technique.gi)
+        : authored;
   const cards = Array.from(
     { length: Math.min(count, Math.max(1, source.length)) },
     (_, index) => source[index % source.length],
