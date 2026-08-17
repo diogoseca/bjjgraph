@@ -133,6 +133,13 @@ class Component extends DCLogic {
 
   // ---------- timers (pause-aware) ----------
   clearTimers() { (this._timers || []).forEach((t) => { if (t.id) clearTimeout(t.id); }); this._timers = []; }
+  /** Cancel ONE timer handed back by `after()` — the replay steps its own film and must be able to
+   *  stop it without `clearTimers()`, which would also disarm the paused roll waiting underneath. */
+  _cancelTimer(it) {
+    if (!it) return;
+    if (it.id) clearTimeout(it.id);
+    this._timers = (this._timers || []).filter((x) => x !== it);
+  }
   // ---------- deterministic test rails (P0) ----------
   // Every random draw in the app goes through rng(tag); journeys queue values per tag via rig()
   // so a full roll replays frame-exact. In production (no rig) this is Math.random passthrough.
@@ -223,6 +230,10 @@ class Component extends DCLogic {
   }
   setPaused(p) {
     if (this.paused === p) return;
+    // PRESSING PLAY ENDS THE FILM. A replay holds the clock on purpose; resuming the roll under it
+    // would leave two things moving the same camera and the same pulse. `stopReplay` nulls
+    // `_replay` before it can call back in here, so this cannot recurse.
+    if (p === false && this._replay) { this._replayAutoPaused = false; this.stopReplay("resumed"); }
     this.paused = p;
     if (p) this.pauseTimers(); else this.resumeTimers();
     // freeze/resume the option countdown bars
@@ -334,6 +345,7 @@ class Component extends DCLogic {
         if (this.closeAccountMenu()) return;
         if (this._detailCtx) { e.preventDefault(); this.closeOptionDetail(); return; }
         if (this.closeNodeDossier()) return; // in-node dossier open (desktop) — fly back out
+        if (this.stopReplay("esc")) return;  // a film is ambient chrome: it stops before the pane closes
         const sh = this.dossierSheetRef.current;
         if (sh && sh.style.display === "block") { this.closeDossierSheet(); }
         else if (this.deckShown) {
@@ -1278,6 +1290,13 @@ class Component extends DCLogic {
       const active = document.activeElement;
       this._explorerReturnFocus = active && active !== document.body ? active : null;
     } else if (!open && wasShown) {
+      // ── CLOSING THE PANE WHILE A FILM IS RUNNING HANDS THE CLOCK OVER, IT DOES NOT RESUME ──
+      // On a phone the 88vw drawer IS the screen, so closing it is how you WATCH the replay you
+      // just started — and resuming the roll there would cancel the film with the very gesture
+      // that exists to see it (`setPaused(false)` stops a replay, by design). The pause is simply
+      // re-latched onto the film, which gives it back when it ends or is stopped. Desktop takes
+      // the same branch and reads the same way: the film keeps holding the clock it was given.
+      if (this._paneAutoPaused && this._replay) { this._paneAutoPaused = false; this._replayAutoPaused = true; }
       if (this._paneAutoPaused) { this._paneAutoPaused = false; this.setPaused(false); this.fx("pane_resumed", {}); }
       this._pathDim = false;
       // ── ON A PHONE, CLOSING THE DRAWER IS HOW YOU LOOK AT THE GRAPH ──────────────────────
@@ -1329,7 +1348,12 @@ class Component extends DCLogic {
     // sets `visibility:hidden` so no invisible child keeps eating clicks — see v1.100.2).
     if (this._landEl || this._landFilmEl) {
       if (open) { this._suppressLand(true); this._landPaneHid = true; }
-      else if (this._landPaneHid) { this._suppressLand(false); this._landPaneHid = false; }
+      // ...but only the LAST holder may lift it. `_traySup` is the other holder (an in-node read,
+      // and since v1.106.5 a running replay, which stands the card down for the same reason the
+      // pane does: it talks about a state you are not looking at). Without this, closing the
+      // drawer to watch a film put the card back on top of the film.
+      else if (this._landPaneHid && !this._traySup) { this._suppressLand(false); this._landPaneHid = false; }
+      else if (this._landPaneHid && this._traySup) { this._landPaneHid = false; }
     }
     if (open !== wasShown && this.renderChallengeCue) this.renderChallengeCue(); // cue hides while the pane is up
     if (open) this.renderPaneAnchor(); // bottom anchor: stats + guest save nudge, fresh on every apply
@@ -2273,7 +2297,9 @@ class Component extends DCLogic {
         const playing = isCurrent && !this.paused;
         const p = play.querySelector("svg path");
         if (p) p.setAttribute("d", playing ? "M6 5h4v14H6zM14 5h4v14h-4z" : "M7 5v14l12-7z");
-        play.title = isCurrent ? (this.paused ? "Resume roll" : "Pause roll") : "Roll from this position";
+        const lbl = isCurrent ? (this.paused ? "Resume roll" : "Pause roll") : ("Roll from " + (h.name || "this position") + ", " + ((h.role || "Top").toLowerCase()));
+        play.title = lbl;
+        play.setAttribute("aria-label", lbl);   // a title is not an accessible name (v1.106.5)
       };
       setIcon();
       if (isCurrent) this._curSetIcon = setIcon;
@@ -2285,7 +2311,11 @@ class Component extends DCLogic {
         // any other row = start another roll from this position (current roll archived into Previous rolls)
         this._openLatestOnLand = true;
         const ni = this.nodeForKey(h.key);
-        this.rollFromPosition(ni >= 0 ? ni : this.currentPos);
+        // ...ON THE SIDE THIS ROW WAS PLAYED FROM (v1.106.5). Without the override
+        // `rollFromPosition` derives the role from the node TITLE, and every position hub is
+        // titled "… Top" in the visual layer — so rolling from a Bottom row put you on top, in
+        // the one place in the app that knows exactly which side you were on.
+        this.rollFromPosition(ni >= 0 ? ni : this.currentPos, false, (h.role || "").toLowerCase() === "bottom" ? "bottom" : "top");
         // AND GET OUT OF THE WAY (v1.104.5, owner: pressing this "didnt open the MC nor position
         // the graph"). It did both — behind the pane. An open pane pauses the roll (pane law) and
         // since v1.101.7 stands the landing card down at EVERY width, so the card, its question
@@ -2405,6 +2435,24 @@ class Component extends DCLogic {
       '</div>';
     return wrap;
   }
+  /**
+   * A PANE CONTROL: 24px glyph, grown hit area, states in CSS (v1.106.5). The house pattern is
+   * `.ng-lists-new`'s \u2014 the glyph is small because the pane's control figure is 24 (WCAG 2.2 AA
+   * 2.5.8; 44 is the thumb figure and belongs to the surfaces you hit mid-roll) and the hit area
+   * grows past it with padding + a matching negative margin, so a row does not get taller. Hover /
+   * active / focus-visible live in `helmet.html` beside `.ng-anchor-*`, never as JS hover painting:
+   * a `mouseenter` handler cannot express `:focus-visible` and leaves keyboard users unlit.
+   */
+  _histCtl(glyph, label, onClick) {
+    const b = document.createElement("button");
+    b.type = "button";
+    b.className = "ng-histctl";
+    b.setAttribute("aria-label", label);   // a title is not an accessible name
+    b.title = label;
+    b.innerHTML = glyph;
+    b.addEventListener("click", (e) => { e.stopPropagation(); e.preventDefault(); onClick(); });
+    return b;
+  }
   _pastRollRow(roll, decks) {
     const log = roll.log || [];
     const start = log[0], end = log[log.length - 1];
@@ -2412,14 +2460,72 @@ class Component extends DCLogic {
     const box = document.createElement("div");
     box.style.cssText = "margin:0 -8px;";
     const r = document.createElement("div");
+    r.setAttribute("data-past-roll", String(roll.ts));
     r.style.cssText = "display:flex;align-items:center;gap:10px;padding:9px 8px;border-radius:8px;cursor:pointer;transition:background .12s;";
+    const label = this.replayLabel(roll);
     r.innerHTML =
       '<span style="flex:none;width:8px;height:8px;border-radius:50%;background:' + oc.c + ';box-shadow:0 0 6px ' + oc.c + '55;"></span>' +
       '<div style="flex:1;min-width:0;">' +
         '<div style="font-size:12.5px;font-weight:600;color:#c2cce0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;">' + (start ? start.name : "?") + ' <span style="color:#5d6883;">\u2192</span> ' + (end ? end.name : "?") + '</div>' +
         '<div style="font-size:9.5px;color:#6b7691;font-weight:600;letter-spacing:.02em;">' + log.length + ' states \u00b7 ' + oc.t + ' \u00b7 ' + this._agoLabel(roll.ts) + '</div>' +
-      '</div>' +
-      '<span class="pchev" style="flex:none;color:#5d6883;font-size:14px;transition:transform .18s;">\u203a</span>';
+      '</div>';
+    // \u2500\u2500 THE ROW'S TWO QUIET CONTROLS (v1.106.5, owner: "a play from here and a replay button") \u2500\u2500
+    // They are 12px apart, the same miss-distance a list row keeps between Share and Delete: these
+    // two do DIFFERENT things to the same roll (one starts a NEW roll and archives the one you are
+    // in, the other only shows you a recording) and a mis-tap between them is the one mistake this
+    // row can make. \u25b6 first, because it is the verb every other row in the app already carries.
+    const ctls = document.createElement("div");
+    // 20, to buy 12. A `.ng-histctl` paints a 32px hit box and pulls it back to a 24px layout box
+    // with `margin:-4px`, and flex `gap` measures between MARGIN boxes — so a 12px gap here would
+    // leave the two hit areas 4px apart, which is not the miss-distance that was asked for. What
+    // matters is the distance between the things a thumb can actually hit.
+    ctls.style.cssText = "flex:none;display:flex;align-items:center;gap:20px;";
+    const startIdx = start && start.idx != null ? start.idx : -1;
+    let playBtn = null;
+    if (startIdx >= 0 && this.nodes[startIdx]) {
+      // Roll from where this roll STARTED \u2014 with the side you actually played it from. Every
+      // position hub is titled "\u2026 Top" in the visual layer, so a role derived from the title is
+      // the constant `top`; the log recorded the real one (v1.82.3's rule, and why playFrom takes
+      // a role at all). `confirmPlayFrom` asks first \u2014 pressing this discards the roll you are in.
+      const role = (start.role || "").toLowerCase() === "bottom" ? "bottom" : "top";
+      playBtn = this._histCtl(
+        '<svg width="11" height="11" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"></path></svg>',
+        "Roll from " + (start.name || "this position") + ", " + role,
+        () => this.confirmPlayFrom(this.nodes[startIdx], {
+          role: role,
+          staged: true,   // ROAM & STAGE: land there, deal the hand, HOLD the clock
+          go: (idx, r) => {
+            this._openLatestOnLand = true;
+            this.rollFromPosition(idx, true, r);
+            this._staged = this.currentPos;
+            this.fx("roll_staged", { position: this.nodes[this.currentPos] ? this.nodes[this.currentPos].t : null });
+            // ...AND GET OUT OF THE WAY, exactly like the per-state ▶ below (v1.104.5): the pane
+            // stands the landing card down at every width, so setting a board the user cannot see
+            // is the same defect that button was fixed for. Pane law forbids the ROLL LOOP closing
+            // the pane; this is the USER pressing play.
+            this.setDeckOpen(false);
+          },
+        }),
+      );
+      playBtn.setAttribute("data-roll-from", String(roll.ts));
+      ctls.appendChild(playBtn);
+    }
+    const playing = !!(this._replay && this._replay.id === roll.ts);
+    const rep = this._histCtl(
+      '<svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 12a9 9 0 1 0 3-6.7"></path><path d="M3 4v5h5"></path></svg>',
+      playing ? "Stop replaying " + label : "Replay " + label,
+      () => { if (this._replay && this._replay.id === roll.ts) this.stopReplay("stopped"); else this.startReplay(roll); },
+    );
+    rep.setAttribute("data-replay-roll", String(roll.ts));
+    rep.setAttribute("aria-pressed", playing ? "true" : "false");
+    if (playing) rep.setAttribute("data-replaying", "1");
+    ctls.appendChild(rep);
+    r.appendChild(ctls);
+    const chev = document.createElement("span");
+    chev.className = "pchev";
+    chev.style.cssText = "flex:none;color:#5d6883;font-size:14px;margin-left:10px;transition:transform .18s;";
+    chev.textContent = "\u203a";
+    r.appendChild(chev);
     const detail = document.createElement("div");
     detail.style.cssText = "display:none;flex-direction:column;padding-left:6px;margin-top:2px;";
     let built = false;
@@ -6608,7 +6714,14 @@ class Component extends DCLogic {
     for (let i = 0; i < this.nodes.length; i++) { if (this.nodes[i].ty === "positions" && this.nodes[i].posId === posId) return i; }
     return -1;
   }
-  confirmPlayFrom(n) {
+  /**
+   * `opts.role` (v1.106.5) is for a caller that KNOWS the side, where this function can only
+   * derive it: a Last-rolls row recorded the role you actually played, and every position hub is
+   * titled "… Top" in the visual layer, so `roleLabelOf` returns the constant `top` for all 136 of
+   * them (the same reason `playFrom` takes a role at all — v1.82.3). Callers that pass nothing are
+   * unchanged.
+   */
+  confirmPlayFrom(n, opts) {
     const persp = this._perspective || "attacker";
     // every state (position / transition / submission) is a node you can roll from.
     // positions seed at themselves; transitions & submissions seed at their origin position.
@@ -6617,9 +6730,11 @@ class Component extends DCLogic {
       const fp = this.posNodeForId(n.fromPositionId);
       if (fp >= 0) { seedIdx = fp; seedName = this.splitName(this.nodes[fp].t).main; }
     }
+    const given = opts && opts.role ? String(opts.role).toLowerCase() : null;
+    const staged = !!(opts && opts.staged);
     const baseRole = (n.fromRole || this.roleLabelOf(this.nodes[seedIdx]) || "top").toLowerCase();
-    const role = persp === "defender" ? (baseRole === "top" ? "bottom" : "top") : baseRole;
-    const roleLabel = persp === "defender" ? "defending" : "attacking";
+    const role = given || (persp === "defender" ? (baseRole === "top" ? "bottom" : "top") : baseRole);
+    const roleLabel = given ? ("on the " + role) : (persp === "defender" ? "defending" : "attacking");
     // Z LADDER (helmet.html): a confirm is a DELIBERATE screen — host it on the root overlay
     // plane at the modal band (95), not inside the wrap where the landing card (z:5, root
     // plane) would paint over it and its z:40 could never win.
@@ -6629,12 +6744,12 @@ class Component extends DCLogic {
     const close = () => { ov.style.opacity = "0"; setTimeout(() => ov.remove(), 160); };
     ov.innerHTML =
       '<div style="width:min(380px,90vw);background:linear-gradient(180deg,#161b27,#11151e);border:1px solid rgba(150,170,210,.18);border-radius:18px;box-shadow:0 24px 60px rgba(0,0,0,.5);padding:22px 22px 18px;font-family:inherit;">' +
-        '<div style="font-size:10.5px;letter-spacing:.16em;text-transform:uppercase;font-weight:700;color:#7c9cff;">Start a fresh roll</div>' +
+        '<div style="font-size:10.5px;letter-spacing:.16em;text-transform:uppercase;font-weight:700;color:#7c9cff;">' + (staged ? "Set the board here" : "Start a fresh roll") + '</div>' +
         '<div style="font-size:18px;font-weight:700;color:#eef1f6;margin-top:7px;line-height:1.25;font-family:\'Space Grotesk\',sans-serif;">Roll from <span style="color:#bcd0ff;">' + seedName + '</span>, ' + roleLabel + '?</div>' +
-        '<div style="font-size:12.5px;color:#93a0bd;margin-top:9px;line-height:1.55;">Your current roll will be archived to <b style="color:#c3cde0;font-weight:600;">Previous rolls</b>. A new roll begins here with you on the <b style="color:#c3cde0;font-weight:600;">' + role + '</b>.</div>' +
+        '<div style="font-size:12.5px;color:#93a0bd;margin-top:9px;line-height:1.55;">Your current roll will be archived to <b style="color:#c3cde0;font-weight:600;">Previous rolls</b>. ' + (staged ? 'The board is set here with you on the <b style="color:#c3cde0;font-weight:600;">' + role + '</b> and the clock held \u2014 press play when you are ready.' : 'A new roll begins here with you on the <b style="color:#c3cde0;font-weight:600;">' + role + '</b>.') + '</div>' +
         '<div style="display:flex;gap:10px;margin-top:18px;">' +
           '<button class="ng-cf-no" style="cursor:pointer;font-family:inherit;font-size:13px;font-weight:600;padding:11px 16px;border-radius:11px;border:1px solid rgba(150,170,210,.25);background:rgba(255,255,255,.04);color:#c3cde0;">Cancel</button>' +
-          '<button class="ng-cf-yes" style="flex:1;cursor:pointer;font-family:inherit;font-size:13px;font-weight:700;padding:11px;border-radius:11px;border:none;background:linear-gradient(135deg,#4a6cff,#6a5cff);color:#fff;box-shadow:0 4px 16px rgba(74,108,255,.35);display:flex;align-items:center;justify-content:center;gap:7px;"><svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"></path></svg>Start roll</button>' +
+          '<button class="ng-cf-yes" style="flex:1;cursor:pointer;font-family:inherit;font-size:13px;font-weight:700;padding:11px;border-radius:11px;border:none;background:linear-gradient(135deg,#4a6cff,#6a5cff);color:#fff;box-shadow:0 4px 16px rgba(74,108,255,.35);display:flex;align-items:center;justify-content:center;gap:7px;"><svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"></path></svg>' + (staged ? "Set it up" : "Start roll") + '</button>' +
         '</div>' +
       '</div>';
     host.appendChild(ov);
@@ -6644,6 +6759,11 @@ class Component extends DCLogic {
       close();
       this._detailCtx = null; this.hideOptDetail();
       this._openSidebarOnLand = true;     // land back in the flashcards home on the seeded state
+      // THE ACTION IS THE CALLER'S WHEN IT NEEDS ITS OWN (v1.106.5): the SCREEN is shared — one
+      // copy of the wording, one z:95 host, one place that asks before a live roll is discarded —
+      // but Last rolls STAGES (clock held, per ROAM & STAGE) and gets out of the pane's way, and
+      // that is not the same action as an Explore row's "start rolling now".
+      if (opts && typeof opts.go === "function") { opts.go(seedIdx, role); return; }
       this.playFrom(seedIdx, role);
     });
   }
@@ -7475,8 +7595,18 @@ class Component extends DCLogic {
   }
   hideCenter() { const box = this.evCenterRef.current; if (box) box.style.opacity = "0"; }
 
-  endRound(kind, name) {
+  /**
+   * `nodeIdx` (v1.106.5) names the node the round ENDED on — the submission you finished with, or
+   * the one you were caught in. A finish never produces a landing (the roll log's last row is the
+   * position you attacked FROM), so without it the film of a won roll would simply stop one beat
+   * short of the finish, which is the beat the whole roll was for. Display-only, in memory, and
+   * carried onto the archived roll record beside `outcome`.
+   */
+  endRound(kind, name, nodeIdx) {
     this.clearTimers(); this.clearOptions();
+    this._lastFinish = (name || nodeIdx != null)
+      ? { name: name || null, idx: (nodeIdx != null && this.nodes[nodeIdx]) ? nodeIdx : null }
+      : null;
     // ── belt test verdict FIRST (belt_test_won/lost must precede the generic beats; the
     // generic win/lose paths still run after — the ladder rides along, dual-track) ──
     if (this._beltTest) {
@@ -9092,6 +9222,11 @@ class Component extends DCLogic {
   // ---------- roll state machine ----------
   rollFromPosition(nodeIdx, staged, roleOverride) {
     // start a NEW roll seeded at a chosen position; the current roll is archived into Previous rolls
+    // A NEW ROLL ENDS THE FILM, FIRST (v1.106.5) — before `clearTimers()` takes its step timer and
+    // before this function writes the camera. `setPaused` also stops a replay, but it is called at
+    // the END of this function, by which point `stopReplay`'s restore would put the PREVIOUS roll's
+    // focus and camTarget back over the roll being started.
+    this.stopReplay("roll");
     this.clearTimers(); this.clearOptions(); this.clearEngagement(); this._cancelCheckpoint();
     this._combo = 0; this._landPending = false; this._updateComboChip(); // fresh match, cold momentum
     let posIdx = nodeIdx;
@@ -9102,10 +9237,10 @@ class Component extends DCLogic {
     // a roll that never played is not a roll: restaging over it archives nothing (see _played)
     if (this._played && this.rollLog && this.rollLog.length > 1) {
       this._pastRolls = this._pastRolls || [];
-      this._pastRolls.unshift({ log: this.rollLog.slice(), outcome: this._lastOutcome || "reset", ts: Date.now() });
+      this._pastRolls.unshift({ log: this.rollLog.slice(), outcome: this._lastOutcome || "reset", ts: Date.now(), finish: this._lastFinish || null });
       if (this._pastRolls.length > 40) this._pastRolls.pop();
     }
-    this._lastOutcome = null;
+    this._lastOutcome = null; this._lastFinish = null;
     this.rollLog = []; this._lastActor = null; this._currentDeckKey = null;
     this._sessionNodes = null; this._session = null; this._inSession = false;
     this.moveCount = 0; this.maxMoves = 9 + ((this.rng("max-moves") * 4) | 0);
@@ -9137,6 +9272,304 @@ class Component extends DCLogic {
     this.rollFromPosition(nodeIdx, true);
     this._staged = this.currentPos;
     this.fx("roll_staged", { position: this.nodes[this.currentPos] ? this.nodes[this.currentPos].t : null });
+  }
+
+  // ══════════════════════════════════════════════════════════════════════════════════════
+  // REPLAY — THE FILM OF A ROLL YOU ALREADY ROLLED (v1.106.5)
+  //
+  // Owner: "History should have a play from here and a replay button indeed." The camera walks
+  // the archived exchanges in order — fly to a state, sweep the edge to the technique and on to
+  // where it landed you, announcer line per beat — which is what watching film of your own roll
+  // looks like. Four rules make it a FILM rather than a second way to play:
+  //
+  //   1. IT CREDITS NOTHING. No grade, no stage, no srs, no score, no combo, no challenge
+  //      evidence — its beats deliberately bypass `fx()` (see `_replayBeat`). Watching is not
+  //      doing, and a progress number that moved because you watched a recording would be a lie.
+  //   2. THE CLOCK IS HELD THROUGHOUT, on its own latch (`_replayAutoPaused`, the pane/dossier/
+  //      More pattern) — so stopping the film gives back only a pause the film itself took.
+  //   3. ANY REAL INPUT CANCELS IT. Pan, pinch, wheel, a tap on the graph, Esc, or pressing play:
+  //      never fight the user's camera, and never make them wait out a recording.
+  //   4. IT NEVER TOUCHES THE PANE (pane law). On a phone the drawer IS the screen, so closing it
+  //      is how you watch — and closing it hands the pause latch over instead of resuming, the
+  //      same way a mobile share arrival keeps its lit class when the drawer goes away.
+  //
+  // Everything it borrows from the live roll — pulse, trail, activeMove, focusIdx, camFocus,
+  // camTarget, the one announcer slot — is snapshotted at the start and handed back on stop.
+  // It replays ONLY what is already in the in-memory roll log; nothing is persisted for it.
+  // ══════════════════════════════════════════════════════════════════════════════════════
+  _reducedMotion() {
+    try { return !!(window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches); }
+    catch (e) { return false; }
+  }
+  /** The one announcer slot, saved and put back — a film borrows it, it does not own it. */
+  _evSnapshot() {
+    const k = this.evKickerRef.current, t = this.evTextRef.current, box = this.evRef.current;
+    return { k: k ? k.textContent : "", col: k ? k.style.color : "", html: t ? t.innerHTML : "", op: box ? box.style.opacity : "" };
+  }
+  _restoreEvent(s) {
+    if (!s) return;
+    const k = this.evKickerRef.current, t = this.evTextRef.current, box = this.evRef.current;
+    if (k) { k.textContent = s.k; k.style.color = s.col; }
+    if (t) t.innerHTML = s.html;
+    if (box) box.style.opacity = s.op;
+  }
+  /**
+   * A film's beats are OBSERVABLE but they are not `fx()`. `fx()` is the challenge-evidence seam
+   * (and the sound catalog's): every beat through it is offered to `noteChallenges`, which is
+   * exactly what a replay must never reach. So this pushes onto the same `this.beats` stream every
+   * journey reads and stops there. Analytics — which is allowed to know a film was watched — is
+   * one `track()` at the start.
+   */
+  _replayBeat(beat, props) {
+    (this.beats = this.beats || []).push(Object.assign({ t: this.now || 0, beat: beat }, props || {}));
+    if (this.beats.length > 4000) this.beats.splice(0, 1000);
+  }
+  replayLabel(roll) {
+    const log = (roll && roll.log) || [];
+    const a = log[0], b = log[log.length - 1];
+    return (a ? a.name : "?") + " → " + (b ? b.name : "?");
+  }
+  /**
+   * PURE: an archived roll -> the ordered beats of its film. One `land` per state, one `sweep` per
+   * exchange that recorded its edge (`via`, written by enterLand), and a closing `finish` when the
+   * roll ended on a technique — a finish produces no landing, so without that step the film of a
+   * won roll would stop one beat short of the thing the roll was for.
+   */
+  replaySteps(roll) {
+    const log = (roll && roll.log) || [];
+    const steps = [];
+    for (let i = 0; i < log.length; i++) {
+      const h = log[i];
+      if (h.idx == null || !this.nodes[h.idx]) continue;
+      if (i > 0 && h.via && h.via.idx != null && this.nodes[h.via.idx]) {
+        const prev = (h.from != null && this.nodes[h.from]) ? h.from : log[i - 1].idx;
+        if (prev != null && this.nodes[prev]) {
+          steps.push({
+            kind: "sweep", from: prev, via: h.via.idx, to: h.idx,
+            actor: h.via.actor || "you", escape: h.via.kind === "escape",
+            name: h.via.name || this.nodes[h.via.idx].t,
+          });
+        }
+      }
+      steps.push({ kind: "land", to: h.idx, name: h.name, role: h.role, first: i === 0 });
+    }
+    const fin = roll && roll.finish;
+    if (fin && fin.idx != null && this.nodes[fin.idx]) {
+      const last = log.length ? log[log.length - 1].idx : null;
+      if (last != null && this.nodes[last]) {
+        steps.push({ kind: "finish", from: last, via: fin.idx, name: fin.name || this.nodes[fin.idx].t, outcome: roll.outcome || null });
+      }
+    }
+    // THE ESTABLISHING SHOT IS A STEP, NOT A FLOURISH BEFORE ONE. The film opens on the WHOLE roll
+    // — every state and technique it passed through, framed at once — and then walks it: film
+    // language, and load-bearing. The camera starts wherever the paused roll left it, at ROLL_ZOOM,
+    // which can be the far side of the graph, and it EASES (tau ~0.5s). Aiming wide and stepping in
+    // the same tick simply overwrites the wide target, so the opening beat spent its whole second
+    // flying with its own state off screen — measured, intermittently, before this was a step with
+    // a duration of its own. A wide frame contains the first state by construction.
+    if (steps.length) {
+      const all = [];
+      for (const st of steps) for (const k of [st.from, st.via, st.to]) if (k != null && all.indexOf(k) < 0) all.push(k);
+      if (all.length) steps.unshift({ kind: "wide", nodes: all, name: this.replayLabel(roll) });
+    }
+    return steps;
+  }
+  /**
+   * How long `updateTravel` will take over this path — the SAME arithmetic, because the film's
+   * step timer is what advances to the next beat and a step that fires early would cut its own
+   * sweep in half. (Travel is driven by the render loop; the timer only decides when to move on.)
+   */
+  _travelDur(path) {
+    const speedMul = this.cfg().signalSpeed || 1;
+    const speed = 175 * speedMul, minSeg = 0.6 / speedMul;
+    let t = this.anim("edgeAnticipation", true) ? 0.38 : 0;
+    for (let i = 0; i + 1 < path.length; i++) {
+      const a = this.nodes[path[i]], b = this.nodes[path[i + 1]];
+      if (!a || !b) continue;
+      const len = Math.hypot(b.x - a.x, b.y - a.y) || 1;
+      t += Math.max(minSeg, len / speed);
+    }
+    return t;
+  }
+  /**
+   * Frame one beat. A single node gets the composition the roll itself settles into
+   * (`rollCamTarget` — label centred in the free band); an exchange gets all of its nodes fitted
+   * on BOTH axes, `frameNodes`' rule, or a tall sweep hangs off a 390x844 phone. Both are then
+   * shifted for an OPEN pane exactly like `locateNode`: on desktop the film plays beside a pane
+   * the user may legitimately have left open, and the visible region is not the viewport.
+   */
+  _replayFrame(idxs) {
+    const ns = (idxs || []).map((i) => this.nodes[i]).filter(Boolean);
+    if (!ns.length) return null;
+    const W = this.W || 1200;
+    const sbW = (this.deckShown ? 1 : 0) * this.sbOffset();
+    if (ns.length === 1) {
+      const t = this.rollCamTarget({ x: ns[0].x, y: ns[0].y }, false, ns[0].idx);
+      return { cx: t.cx - (sbW / 2) * (t.vw / W), cy: t.cy, vw: t.vw };
+    }
+    let minx = 1e9, miny = 1e9, maxx = -1e9, maxy = -1e9;
+    for (const n of ns) { minx = Math.min(minx, n.x); maxx = Math.max(maxx, n.x); miny = Math.min(miny, n.y); maxy = Math.max(maxy, n.y); }
+    const aspect = (this.H || 1) / W;
+    const need = Math.max((maxx - minx) * 2.4, aspect > 0 ? ((maxy - miny) * 2.4) / aspect : 0);
+    const vw = Math.max(this.graphW * 0.16, need);
+    return { cx: (minx + maxx) / 2 - (sbW / 2) * (vw / W), cy: (miny + maxy) / 2, vw: vw };
+  }
+  /** Point the camera at a beat and TAKE the lease for its duration (never longer — the roll must
+   *  get its camera back the moment the film is over). Under reduced motion the camera SNAPS. */
+  _replayAim(idxs, sec) {
+    const t = this._replayFrame(idxs); if (!t || !this.cam) return;
+    this.camTarget = { cx: t.cx, cy: t.cy, vw: t.vw };
+    this.holdCamera(Math.max(1, (sec || 1) + 0.5));
+    if (this._replay && this._replay.reduced) {
+      this.cam.cx = t.cx; this.cam.cy = t.cy; this.cam.vw = t.vw; this.cam.lvw = Math.log(t.vw);
+    }
+  }
+  startReplay(roll, opts) {
+    if (!roll || !this.nodes) return false;
+    const steps = this.replaySteps(roll);
+    if (!steps.length) return false;
+    this.stopReplay("restart");                       // one film at a time
+    const reduced = this._reducedMotion();
+    this._replay = {
+      roll: roll, steps: steps, i: -1, done: false, timer: null, reduced: reduced,
+      id: (opts && opts.id) || roll.ts || Date.now(),
+      label: (opts && opts.label) || this.replayLabel(roll),
+      keep: {
+        pulse: this.pulse, activeMove: this.activeMove, trail: (this.trail || []).slice(),
+        focusIdx: this.focusIdx,
+        camFocus: this.camFocus ? { x: this.camFocus.x, y: this.camFocus.y } : null,
+        camTarget: this.camTarget ? { cx: this.camTarget.cx, cy: this.camTarget.cy, vw: this.camTarget.vw } : null,
+        ev: this._evSnapshot(),
+      },
+    };
+    if (!this.paused) { this._replayAutoPaused = true; this.setPaused(true); }
+    this.pulse = null; this.activeMove = null;        // the live roll's own travel is parked, not advanced
+    this._suppressTray(true);                          // a hand you are not playing, and a card about a state you are not in
+    this.track("neural_roll_replayed", { states: ((roll.log || []).length), steps: steps.length, outcome: roll.outcome || null });
+    this._replayBeat("roll_replay_start", { states: ((roll.log || []).length), steps: steps.length, outcome: roll.outcome || null, reduced: reduced });
+    this._renderReplayBar();
+    this._replayRefreshRows();
+    this._replayStep();
+    return true;
+  }
+  _replayStep() {
+    const R = this._replay; if (!R) return;
+    R.i++;
+    if (R.i >= R.steps.length) {
+      R.done = true;
+      this._renderReplayBar();
+      R.timer = this.after(1.6, () => this.stopReplay("ended"), true);   // hold the last frame, then hand back
+      return;
+    }
+    const s = R.steps[R.i];
+    let dur;
+    if (s.kind === "wide") {
+      dur = R.reduced ? 0.8 : 1.4;
+      this._replayAim(s.nodes, dur);
+      this.setEvent("Replay", s.name, "info");
+      for (const k of s.nodes) this.flare(k);
+    } else if (s.kind === "land") {
+      dur = R.reduced ? 0.85 : 1.15;
+      this.focusIdx = s.to;
+      const n = this.nodes[s.to];
+      this.camFocus = { x: n.x, y: n.y };
+      this.flare(s.to);
+      this._replayAim([s.to], dur);
+      // the announcer names the beat in the PAST tense — this already happened, you are watching it
+      this.setEvent((s.first ? "Roll opened · " : "Landed · ") + (s.role || ""), s.name || n.t, "info");
+    } else {
+      const path = s.kind === "finish" ? [s.from, s.via] : [s.from, s.via, s.to];
+      const you = s.actor !== "opp";
+      // ONE SUBJECT PER LABEL (v1.104.1): the announcer names WHO INITIATED, the graph verb names
+      // YOUR posture toward that move. A film must not invent a third voice.
+      const kicker = s.kind === "finish"
+        ? (s.outcome === "win" ? "Finished with" : "Tapped to")
+        : (s.escape ? "You escaped" : (you ? "You went for" : "Opponent went for"));
+      const verb = s.escape ? "Escaping" : (you ? "Attacking" : "Defending");
+      const col = s.escape ? { r: 126, g: 224, b: 168 } : (you ? { r: 94, g: 149, b: 255 } : { r: 255, g: 140, b: 100 });
+      this.setEvent(kicker, s.name, s.kind === "finish" ? (s.outcome === "win" ? "good" : "bad") : (you ? "info" : "bad"));
+      this.activeMove = { idx: s.via, verb: verb, col: col };
+      this.focusIdx = s.via;
+      if (R.reduced) {
+        // DISCRETE, per prefers-reduced-motion: no travel, no easing — the beat simply IS the
+        // next state, lit, with its line said.
+        dur = 1.0;
+        this.flare(s.via); if (s.to != null) this.flare(s.to);
+        const nv = this.nodes[s.to != null ? s.to : s.via];
+        if (nv) this.camFocus = { x: nv.x, y: nv.y };
+        this._replayAim(path.concat(s.to != null ? [s.to] : []), dur);
+      } else {
+        dur = this._travelDur(path) + 0.45;
+        this._replayAim(path, dur);
+        this.startTravel(path);                        // no onArrive: the film's own timer advances it
+      }
+    }
+    this._renderReplayBar();
+    R.timer = this.after(dur, () => this._replayStep(), true);   // ignorePause: the clock is held BY the film
+  }
+  stopReplay(reason) {
+    const R = this._replay; if (!R) return false;
+    this._replay = null;
+    this._cancelTimer(R.timer);
+    this.pulse = R.keep.pulse; this.activeMove = R.keep.activeMove;
+    this.trail = R.keep.trail; this.focusIdx = R.keep.focusIdx;
+    if (R.keep.camFocus) this.camFocus = R.keep.camFocus;
+    this.releaseCamera();                              // the film's lease dies with the film
+    if (R.keep.camTarget && this.camTarget) { this.camTarget.cx = R.keep.camTarget.cx; this.camTarget.cy = R.keep.camTarget.cy; this.camTarget.vw = R.keep.camTarget.vw; }
+    this._restoreEvent(R.keep.ev);
+    this._suppressTray(false);
+    // `_suppressTray(false)` un-hides the landing card too — but the PANE's own suppression is not
+    // ours to lift: on desktop the pane can be open behind the film, and it stands the card down
+    // by its own rule (v1.101.7).
+    if (this._landPaneHid) this._suppressLand(true);
+    this._clearReplayBar();
+    if (this._replayAutoPaused) { this._replayAutoPaused = false; this.setPaused(false); }
+    this._replayBeat("roll_replay_end", { reason: reason || "stopped", step: Math.max(0, R.i), steps: R.steps.length });
+    this._replayRefreshRows();
+    return true;
+  }
+  /** The History rows show which roll is playing, so the ⟲ that started it can offer to stop it. */
+  _replayRefreshRows() {
+    if (this.deckShown && this._viewMode === "history" && this._drillView === "home" && !this._paneStudyActive()) this.renderDrillHome();
+  }
+  /**
+   * THE FILM'S OWN CHROME — z:8, the AMBIENT STATE band of the Z LADDER (helmet.html), beside the
+   * landing card (5) and the momentum chip (6) it plays over, and deliberately NOT in the 90-99
+   * deliberate-screen band: a replay is a state you are in, not a screen you asked for, and it
+   * must never take the input the way a modal scrim does.
+   *
+   * It docks where the LANDING CARD docks — via `_dockLandCard`, the same measured tray clearance —
+   * because that is exactly the surface it stands in for: the card that names the state you are
+   * standing in, replaced for the duration by the strip that names the roll you are watching.
+   */
+  _renderReplayBar() {
+    const R = this._replay;
+    if (!R) { this._clearReplayBar(); return; }
+    let el = this._replayEl;
+    if (!el) {
+      el = document.createElement("div");
+      el.className = "ng-replaybar";
+      el.setAttribute("data-replay-bar", "1");
+      el.setAttribute("role", "status");
+      el.setAttribute("aria-live", "polite");
+      el.innerHTML =
+        '<span class="ng-replay-dot" aria-hidden="true"></span>' +
+        '<span class="ng-replay-txt"><b>REPLAY</b><small data-replay-label></small></span>' +
+        '<button type="button" class="ng-replay-stop" data-replay-stop="1" aria-label="Stop replay">✕</button>';
+      (this.__ngRoot || document.body).appendChild(el);
+      el.querySelector("[data-replay-stop]").addEventListener("click", (e) => { e.stopPropagation(); e.preventDefault(); this.stopReplay("stopped"); });
+      this._replayEl = el;
+    }
+    const lab = el.querySelector("[data-replay-label]");
+    const n = R.steps.length, at = Math.min(n, Math.max(1, R.i + 1));
+    if (lab) lab.textContent = R.label + (R.done ? " · end" : " · " + at + "/" + n);
+    el.setAttribute("data-replay-step", String(at));
+    requestAnimationFrame(() => { if (this._replayEl) this._dockLandCard(this._replayEl); });
+  }
+  _clearReplayBar() {
+    if (!this._replayEl) return;
+    try { this._replayEl.remove(); } catch (e) { /* noop */ }
+    this._replayEl = null;
   }
   // ── FIRST IMPRESSION: REAL TRAFFIC, NOT A UNIFORM LOTTERY ──
   // Share of real roll traffic per playable position, read off the SAME stationary distribution
@@ -9198,6 +9631,7 @@ class Component extends DCLogic {
     return { idx: pool[pool.length - 1], weighted: true }; // float slack at u→1
   }
   startRoll() {
+    this.stopReplay("roll");   // a new roll ends the film first (see rollFromPosition)
     this.clearTimers(); this.clearOptions(); this.clearEngagement();
     this._beltTest = null; // a fresh normal roll is never a belt test (manual reset = clean cancel, no attempt burned)
     this._cancelCheckpoint(); // and never a stale checkpoint quiz
@@ -9207,10 +9641,10 @@ class Component extends DCLogic {
     // — but only if it ever actually played (a staged roam is not a roll; see _played)
     if (this._played && this.rollLog && this.rollLog.length > 1) {
       this._pastRolls = this._pastRolls || [];
-      this._pastRolls.unshift({ log: this.rollLog.slice(), outcome: this._lastOutcome || "reset", ts: Date.now() });
+      this._pastRolls.unshift({ log: this.rollLog.slice(), outcome: this._lastOutcome || "reset", ts: Date.now(), finish: this._lastFinish || null });
       if (this._pastRolls.length > 40) this._pastRolls.pop();
     }
-    this._lastOutcome = null;
+    this._lastOutcome = null; this._lastFinish = null;
     this.rollLog = []; this._lastActor = null;
     this._sessionNodes = null; this._session = null; this._inSession = false;
     this.moveCount = 0; this.maxMoves = 9 + ((this.rng("max-moves") * 4) | 0);
@@ -9317,7 +9751,14 @@ class Component extends DCLogic {
         const inode = this.nodes[intent.idx];
         intendInfo = { name: this.posFamily(inode.t), val: this.signedVal(inode) };
       }
-      this.rollLog.push({ key: hkey, name: this.posFamily(pos.t), role: this.roleLabel(), idx: this.currentPos, actor: first ? "start" : (this._lastActor || "you"), val: this.signedVal(pos), intend: intendInfo });
+      // the EDGE that produced this landing (v1.106.5) — the technique node the exchange
+      // travelled over, plus who performed it. The replay walks these; nothing else reads them.
+      let viaInfo = null;
+      if (intent && intent.via != null && this.nodes[intent.via]) {
+        const vnode = this.nodes[intent.via];
+        viaInfo = { idx: intent.via, name: vnode.t, ty: vnode.ty, actor: intent.actor || "you", kind: intent.kind || null };
+      }
+      this.rollLog.push({ key: hkey, name: this.posFamily(pos.t), role: this.roleLabel(), idx: this.currentPos, actor: first ? "start" : (this._lastActor || "you"), val: this.signedVal(pos), intend: intendInfo, via: viaInfo, from: prevLatest >= 0 ? this.rollLog[prevLatest].idx : null });
       if (this.rollLog.length > 24) this.rollLog.shift();
 
     }
@@ -9422,7 +9863,13 @@ class Component extends DCLogic {
     const act = this.nodes[opt.idx];
     this.fx("commit", { technique: act.t });
     this.track("neural_move_picked", { technique: act.t, node_type: act.ty });
-    this._pendingIntent = { actor: "you", idx: opt.res >= 0 ? opt.res : opt.idx };
+    // `via` IS THE EDGE, AND A REPLAY CANNOT BE RECONSTRUCTED WITHOUT IT (v1.106.5). The roll log
+    // records the STATES you passed through; a film of the roll has to show HOW — which technique
+    // node the exchange travelled over. That fact exists only here, at the moment of the commit,
+    // so it rides the pending-intent seam the "you aimed for" line already uses and `enterLand`
+    // copies it onto the landing it produces. In-memory only: `rollLog` has never persisted
+    // across a reload and this does not change that.
+    this._pendingIntent = { actor: "you", idx: opt.res >= 0 ? opt.res : opt.idx, via: opt.idx };
     // ONE SUBJECT PER LABEL (v1.104.1, owner). The announcer names WHO IS INITIATING; the graph
     // verb names YOUR posture toward that move. They used to have different subjects and
     // contradict each other on screen — "OPPONENT DEFENDS Crucifix Maintenance" over a graph
@@ -9595,7 +10042,7 @@ class Component extends DCLogic {
     const dest = opt.res >= 0 ? opt.res : this.currentPos;
     if (act.ty === "submissions") {
       this.flare(opt.idx);
-      this.endRound("win", act.t);
+      this.endRound("win", act.t, opt.idx);   // the finishing node, for the film (see endRound)
       return;
     }
     this.setEvent("Transition lands", act.t, "good");
@@ -9621,7 +10068,7 @@ class Component extends DCLogic {
     const act = this.nodes[opt.idx];
     this.fx("impact_success", { technique: act.t, to: out && out.to });
     const r = this.resolveOutcomeTo(out.to);
-    if (act.ty === "submissions" || r.terminal) { this.flare(opt.idx); this.endRound("win", act.t); return; }
+    if (act.ty === "submissions" || r.terminal) { this.flare(opt.idx); this.endRound("win", act.t, opt.idx); return; }
     const dest = r.idx >= 0 ? r.idx : (opt.res >= 0 ? opt.res : this.currentPos);
     this.setEvent("Transition lands", act.t, "good");
     this.startTravel([opt.idx, dest], () => {
@@ -9680,7 +10127,7 @@ class Component extends DCLogic {
     let picked = false;
     const finish = () => { picked = true; this._optPick = null; this._optList = null; this._decision = null; this.clearTimers(); this.clearOptions(); this.clearLandCard(); this._defendSub = null; this._panicKey = null; this.killVignette(false);
       this.activeMove = null; this.flare(subIdx); this.setEvent("Tapped", this.splitName(sub.t).main, "bad");
-      this.after(0.5, () => this.endRound("lose", sub.t)); };
+      this.after(0.5, () => this.endRound("lose", sub.t, subIdx)); };
     const pick = (opt) => {
       if (picked) return; picked = true;
       const chance = this.escapeChance(opt); // computed BEFORE teardown (needs _defendSub/_panicKey)
@@ -9697,6 +10144,11 @@ class Component extends DCLogic {
           this.currentPos = opt.idx; this.moveCount++; this.bumpBounce(); this._lastActor = "you";
           this.killVignette(true); // 180ms snap-off — the relief IS the reward
           this.fx("relief", {});
+          // the escape's EDGE is the submission you got out of (see enterAttempt's `via` note).
+          // `idx` is the position you land on, so enterLand's own guard (`intent.idx !==
+          // currentPos`) still renders no "you aimed for" line here — this adds the film's edge,
+          // not a new sentence in the history row.
+          this._pendingIntent = { actor: "you", idx: opt.idx, via: subIdx, kind: "escape" };
           this.setEvent("Escaped!", opt.node.t, "good");
           this.after(0.7, () => this.enterLand(false));
         } else { finish(); }
@@ -9758,7 +10210,7 @@ class Component extends DCLogic {
     else { intendDest = this.resultPos(def, this.currentPos); }
     if (intendDest < 0) intendDest = this.currentPos;
     const actualDest = intendDest; // the weighted draw already models "doesn't always land clean" — no extra random slip
-    this._pendingIntent = { actor: "opp", idx: intendDest };
+    this._pendingIntent = { actor: "opp", idx: intendDest, via: def };  // `via`: the edge, for the film (see enterAttempt)
     // `performerRole(...) === "top"` used to pick between "Opponent counters" and "Opponent
     // defends" here — a TOP/BOTTOM test standing in for an OFFENCE/DEFENCE one, the same defect
     // class as roleIdx-vs-valIdx (v1.103.0). In BJJ the dominance axis is not top/bottom, so a
@@ -9930,7 +10382,12 @@ class Component extends DCLogic {
         // roam can be restaged freely and costs nothing
         if (gdt > 0 && this.optionIdxs && this.optionIdxs.length) this._played = true;
         if (this._hitStop) { if (this.now - this._hitStop < 0.09) gdt = 0; else this._hitStop = null; } // 90ms hit-stop
-        this.updateTravel(gdt);
+        // A REPLAY RUNS WITH THE GAME CLOCK HELD, and its sweeps are the whole point of it. Travel
+        // is a DISPLAY primitive (like the camera two lines below, which has always run on the real
+        // clock so a paused prezi flight still flies), so while a film owns the screen it steps on
+        // the real frame delta. The live roll's own pulse was parked at `startReplay` and is handed
+        // back on stop, so nothing of the roll advances here.
+        this.updateTravel(this._replay ? dt : gdt);
         this._tickDecision(gdt);
         this.updateFlash();
         this.updateRipples();
@@ -10035,6 +10492,10 @@ class Component extends DCLogic {
         if (ov && e.target && ov.contains(e.target)) return;
       }
       this.closeDeckIfStudying();
+      // A HAND ON THE GRAPH ENDS THE FILM (v1.106.5). This covers pan, pinch and tap in one place —
+      // the overlays that own controls have already returned above, and the replay bar is a
+      // root-plane sibling of this wrap, so its own ✕ never reaches here.
+      if (this._replay) this.stopReplay("input");
       ptrs.set(e.pointerId, { x: e.clientX, y: e.clientY });
       try { el.setPointerCapture(e.pointerId); } catch (err) {}
       if (ptrs.size === 2) {
@@ -10100,6 +10561,7 @@ class Component extends DCLogic {
       this.cam.cx = wx - (sx - this.W / 2) / sa; this.cam.cy = wy - (sy - this.H / 2) / sa;
       this.camTarget.cx = this.cam.cx; this.camTarget.cy = this.cam.cy; this.camTarget.vw = vw;
       this.releaseCamera(); // wheel-zoom is the desktop equivalent of a pinch
+      if (this._replay) this.stopReplay("input");   // ...and so it ends a film, for the same reason
       this.lastInteract = this.now;
     }, { passive: false });
   }
