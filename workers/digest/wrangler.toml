@@ -1,0 +1,22 @@
+# The training-day digest Worker (v1.105.7). Deployed SEPARATELY from Pages:
+#   cd workers/digest && npx wrangler deploy
+# Secrets (never in the repo):
+#   npx wrangler secret put SUPABASE_URL
+#   npx wrangler secret put SUPABASE_SERVICE_ROLE_KEY
+#   npx wrangler secret put UNSUB_HMAC_SECRET        # any long random string
+name = "bjjgraph-digest"
+main = "index.js"
+compatibility_date = "2026-08-01"
+
+[triggers]
+# daily, 04:00 UTC — the client writes LOCAL day keys, and the worker only mails days strictly
+# before today's UTC date, so every player's local midnight has passed by send time.
+crons = ["0 4 * * *"]
+
+# Cloudflare Email Sending binding. This is the ONE thing that may not exist yet on the account:
+# it is the new Email Service (arbitrary-recipient sending), not classic Email Routing. If the
+# dashboard has no "Email > Sending" (or wrangler rejects this binding), STOP — the fallback
+# provider decision goes back to the owner; do not substitute silently.
+send_email = [
+  { name = "EMAIL" }
+]
