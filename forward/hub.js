@@ -91,7 +91,7 @@ document.querySelector("#app").innerHTML = `<div class="hub">
       <div><span>PRODUCTION AUDIO</span><h3>Neural Sound Lab</h3><p>Context, trigger, duration, and live synthesis for every mapped signal.</p><b>Open sound lab →</b></div>
     </a>
     <a class="hub-tool-card" href="/dev/experiments/">
-      <div><span>EXPERIMENT — NOT DEPLOYED</span><h3>Dual close-pair graph</h3><p>Every dual state as an adjacent Top/Bottom node pair. Two layout strategies at three zooms, and the ten design questions that gate the cutover. Inert behind ?dual= until the owner signs off.</p><b>View the prototype →</b></div>
+      <div><span>EXPERIMENT — NOT DEPLOYED</span><h3>The 2.5D graph</h3><p>One map, two equidistant layers: every dual state as a Top orb over its Bottom twin, Civ-style. The ten design questions, re-answered by the paradigm, with a recommendation on each. Inert behind ?dual= until the owner signs off.</p><b>View the design →</b></div>
     </a>
   </section>
 </div>`;

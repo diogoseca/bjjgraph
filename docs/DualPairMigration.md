@@ -181,3 +181,34 @@ grows +43% raw/+32% gzip unless pairs are emitted compactly; cameras need no rew
 halo/partner treatment and set-lighting semantics are owner calls; coloring stays static
 per-member (`sv` = own side's strength — no win/lose recolor). Ten design questions above are
 the owner's to answer before any cutover step runs.
+
+## 9. The 2.5D paradigm (owner directive, 2026-08-17) — the questions, re-answered
+
+The owner's call, and it reframes everything above: the dual graph is **2.5D** in the lineage of
+Civ / AoE2 / StarCraft / Dungeon Keeper — one map, **two layers, equidistant**. Every pair sits at
+the same global VERTICAL offset (upper = slot 0 = top/attacker, the side with initiative; lower =
+bottom/defender, "a few pixels below"); neutral and symmetric singles sit on the midline. The
+projection is uniform so the eye learns it once — that uniformity is the entire trick, and it is
+why the current feel (planets, neurons, glow) carries over unchanged.
+
+Verdicts (presented with full reasoning at /dev/experiments/):
+
+| Q | Verdict | Ruling |
+|---|---|---|
+| Q4 layout | **DISSOLVED** | `fixed`, rotated to vertical. `force` dies by uniformity. |
+| Q3 pair tie | **DISSOLVED** | No line ever — verticality is the tie; a shared elliptical site-glow holds the pair. |
+| Q6 symmetric | **DISSOLVED** | Singles stay single, ON THE MIDLINE. Never fabricate mirror pairs. |
+| Q1 old links/lists | Recommended | A hub ordinal lights the WHOLE site (both members), camera anchored on the upper; successors map ships hub → {upper, lower}. |
+| Q2 defender edges | Recommended | Static web = upper layer only; a lower node lights its real options only while focused/played. |
+| Q5 partner under focus | Recommended | Halo encloses the SITE; partner co-lit dimmer with a side kicker (TOP/BOTTOM), never a repeated name. |
+| Q7 focus sets | Recommended | Systems/lists light EXACTLY the captured sides; the site-glow supplies geography. |
+| Q8 payload | Recommended | Compact pair wire: lower members DERIVED at ingest (twin + global offset + sv role-flip), v1.108.0 pattern; target ≤ 15KB gzip added. |
+| Q9 first impression | Recommended | Draw math untouched (replay safety); the camera lands on the drawn FLOOR. |
+| Q10 capture | Recommended | Capture the SIDE, never normalize to the pair; legacy pair ids resolve per Q1. |
+| N1 depth cue (new) | Recommended | Lower layer ~0.95 scale, one shade dimmer — a whisper, never a ranking. |
+| N2 partner click (new) | Recommended | Side switch via the existing confirmed roll-from-here seam, seeded on the twin. |
+
+Build sequence if approved: (1) re-emit the layout vertical + midline and re-shoot the evidence,
+(2) compact pair wire, (3) site rendering (glow, depth cue, kickers, partner click), (4) ordinal
+cutover with the successors map, (5) everything behind `?dual` until the owner plays it and calls
+it.
