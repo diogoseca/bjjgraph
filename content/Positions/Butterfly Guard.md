@@ -199,19 +199,17 @@ Modern butterfly guard has evolved significantly, particularly in no-gi grapplin
 ### Available Transitions
 
 
-- **[[Transitions/Butterfly Sweep/Attacker|Butterfly Sweep]]** (20% of attempts)
+- **[[Transitions/Butterfly Sweep/Attacker|Butterfly Sweep]]** (22% of attempts)
 
-- **[[Transitions/Elevator Sweep/Attacker|Elevator Sweep]]** (9% of attempts)
+- **[[Transitions/Elevator Sweep/Attacker|Elevator Sweep]]** (11% of attempts)
 
-- **[[Transitions/Arm Drag to Back/Attacker|Arm Drag to Back]]** (11% of attempts)
+- **[[Transitions/Arm Drag to Back/Attacker|Arm Drag to Back]]** (13% of attempts)
 
-- **[[Transitions/Butterfly Guard to X-Guard/Attacker|Butterfly Guard to X-Guard]]** (9% of attempts)
+- **[[Transitions/Butterfly Guard to X-Guard/Attacker|Butterfly Guard to X-Guard]]** (11% of attempts)
 
 - **[[Guillotine Choke from Butterfly Guard/Attacker|Guillotine Choke from Butterfly Guard]]** (7% of attempts)
 
-- **[[Transitions/Sumi Gaeshi/Attacker|Sumi Gaeshi]]** (4% of attempts)
-
-- **[[Transitions/Single Leg X Entry/Attacker|Single Leg X Entry]]** (9% of attempts)
+- **[[Transitions/Single Leg X Entry/Attacker|Single Leg X Entry]]** (10% of attempts)
 
 - **[[Transitions/Butterfly Guard to Butterfly Hook Control/Attacker|Butterfly Guard to Butterfly Hook Control]]** (6% of attempts)
 
@@ -220,8 +218,6 @@ Modern butterfly guard has evolved significantly, particularly in no-gi grapplin
 - **[[Transitions/Underhook Sweep/Attacker|Underhook Sweep]]** (5% of attempts)
 
 - **[[Kimura from Butterfly Guard/Attacker|Kimura from Butterfly Guard]]** (4% of attempts)
-
-- **[[Transitions/Snap Down to Front Headlock/Attacker|Snap Down to Front Headlock]]** (5% of attempts)
 
 - **[[Omoplata from Butterfly Guard/Attacker|Omoplata from Butterfly Guard]]** (1% of attempts)
 

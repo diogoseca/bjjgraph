@@ -103,7 +103,7 @@ The De La Riva Sweep works by creating a powerful lever system using the De La R
 This technique represents a cornerstone of modern sport jiu-jitsu, particularly in IBJJF competition formats where the De La Riva guard is extensively used. Mastering the De La Riva Sweep requires understanding timing, grip fighting, hip movement, and the ability to chain multiple attacks together. The sweep becomes increasingly effective as practitioners develop sensitivity to weight distribution and learn to capitalize on their opponent's forward pressure or attempts to pass the guard.
 
 **From Position**: [[Positions/De La Riva Guard]] (Bottom)
-**Success Rate**: 25%
+**Success Rate**: 29%
 
 </section>
 

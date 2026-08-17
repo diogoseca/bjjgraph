@@ -234,7 +234,7 @@ Within the context of the 50-50 Guard, the toe hold offers a strategic advantage
 
 The toe hold from 50-50 has gained significant prominence in modern no-gi competition, especially in submission-only formats where time limits necessitate aggressive finishing attempts. Understanding this submission is essential for any practitioner studying leg locks, as it forms a critical part of the leg entanglement ecosystem and creates powerful dilemmas when combined with other leg attacks. The technique requires precise control, patient setup, and careful application to avoid injury while maximizing effectiveness.
 
-**From Position**: [[Positions/Ashi Garami/50-50 Guard]] (Bottom)
+**From Position**: [[Positions/Ashi Garami/50-50 Guard]] (Top)
 
 
 </section>

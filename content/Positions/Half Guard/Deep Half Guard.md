@@ -182,7 +182,7 @@ From the top perspective, deep half guard presents a deceptive challenge - while
 
 | &nbsp; | Bottom | Top |
 |--------|--------|-----|
-| **Position Type** | Defensive with offensive options | Defensive with offensive options |
+| **Position Type** | Offensive | Defensive with offensive options |
 | **Risk Level** | Medium | Medium |
 | **Energy Cost** | Medium | Medium |
 | **Time** | Medium | Medium |

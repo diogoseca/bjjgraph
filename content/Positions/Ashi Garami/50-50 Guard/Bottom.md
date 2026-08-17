@@ -21,37 +21,37 @@ description: "Master 50-50 Guard Bottom defensive strategies. Learn heel protect
     {
       "@type": "HowToStep",
       "name": "Execute Position reversal sweep to top",
-      "text": "From this position, attempt Position reversal sweep to top. This technique is attempted in 18% of exchanges from this position.",
+      "text": "From this position, attempt Position reversal sweep to top. This technique is attempted in 22% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Counter heel hook",
-      "text": "From this position, attempt Counter heel hook. This technique is attempted in 21% of exchanges from this position.",
+      "text": "From this position, attempt Counter heel hook. This technique is attempted in 26% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute 50-50 Guard to Single Leg X-Guard",
-      "text": "From this position, attempt 50-50 Guard to Single Leg X-Guard. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt 50-50 Guard to Single Leg X-Guard. This technique is attempted in 14% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Extract legs and stand up",
-      "text": "From this position, attempt Extract legs and stand up. This technique is attempted in 14% of exchanges from this position.",
+      "text": "From this position, attempt Extract legs and stand up. This technique is attempted in 17% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Straight Ankle Lock Entry",
-      "text": "From this position, attempt Straight Ankle Lock Entry. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Straight Ankle Lock Entry. This technique is attempted in 16% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Kneebar entry",
-      "text": "From this position, attempt Kneebar entry. This technique is attempted in 8% of exchanges from this position.",
+      "name": "Execute Counter-entangle to 50-50 Guard",
+      "text": "From this position, attempt Counter-entangle to 50-50 Guard. This technique is attempted in 5% of exchanges from this position.",
       "position": 6
     }
   ],

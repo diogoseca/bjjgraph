@@ -21,37 +21,37 @@ description: "Master Leg Entanglement positions in BJJ. Complete guide to ashi g
     {
       "@type": "HowToStep",
       "name": "Execute Leg Extraction Escape from Entanglement",
-      "text": "From this position, attempt Leg Extraction Escape from Entanglement. This technique is attempted in 20% of exchanges from this position.",
+      "text": "From this position, attempt Leg Extraction Escape from Entanglement. This technique is attempted in 25% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Guard Recovery from Leg Entanglement",
-      "text": "From this position, attempt Guard Recovery from Leg Entanglement. This technique is attempted in 17% of exchanges from this position.",
+      "text": "From this position, attempt Guard Recovery from Leg Entanglement. This technique is attempted in 21% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Counter Sweep from Leg Entanglement",
-      "text": "From this position, attempt Counter Sweep from Leg Entanglement. This technique is attempted in 8% of exchanges from this position.",
+      "text": "From this position, attempt Counter Sweep from Leg Entanglement. This technique is attempted in 10% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Inversion Escape from Leg Entanglement",
-      "text": "From this position, attempt Inversion Escape from Leg Entanglement. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Inversion Escape from Leg Entanglement. This technique is attempted in 13% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Counter Leg Attack",
-      "text": "From this position, attempt Counter Leg Attack. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Counter Leg Attack. This technique is attempted in 15% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Counter-entangle to 50-50 Guard",
-      "text": "From this position, attempt Counter-entangle to 50-50 Guard. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Counter-entangle to 50-50 Guard. This technique is attempted in 16% of exchanges from this position.",
       "position": 6
     }
   ],

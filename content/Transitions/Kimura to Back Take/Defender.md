@@ -206,7 +206,7 @@ Successful defense begins before the transition starts, at the Kimura grip itsel
 
 The defender must also recognize that panic rolling or explosive uncontrolled movement is the attacker's ideal scenario. Measured, deliberate defensive actions that address each control point systematically yield far better results than desperate attempts to rip free of the grip.
 
-**Opponent's Starting Position**: [[Positions/Kimura Trap]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Kimura Trap]] (Top)
 
 </section>
 

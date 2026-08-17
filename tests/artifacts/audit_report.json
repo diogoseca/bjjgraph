@@ -3,10 +3,10 @@
     "transition_files": 1034,
     "submission_files": 360,
     "position_files": 136,
-    "total_issues": 472,
+    "total_issues": 395,
     "errors": 0,
-    "warnings": 166,
-    "info": 306,
+    "warnings": 22,
+    "info": 373,
     "orphaned_transitions": 0,
     "orphaned_submissions": 2,
     "missing_transitions": 0,
@@ -16,7 +16,7 @@
     "invalid_from_positions": 0,
     "outcome_errors": 0,
     "outcome_warnings": 6,
-    "attempt_outliers": 304,
+    "attempt_outliers": 295,
     "coherence_violations": 0,
     "successrate_incoherent": 0,
     "defender_not_complement": 0,
@@ -42,652 +42,12 @@
     {
       "type": "from_position_role_mismatch",
       "severity": "warning",
-      "name": "Kneebar entry",
-      "file": "content/Transitions/Kneebar entry.json",
-      "expected_from": "50-50 Guard/Bottom",
-      "actual_from": "50-50 Guard/Top",
-      "referencing_position": "content/Positions/Ashi Garami/50-50 Guard.json",
-      "message": "Role contradiction: 50-50 Guard/bottom offers 'Kneebar entry', but it is authored from '50-50 Guard/Top' — one of the two is wrong, and the app will drop it from that hand"
-    },
-    {
-      "type": "from_position_role_mismatch",
-      "severity": "warning",
-      "name": "Back Take from 50-50",
-      "file": "content/Transitions/Back Take from 50-50.json",
-      "expected_from": "Backside 50-50/Bottom",
-      "actual_from": "50-50 Guard/Top",
-      "referencing_position": "content/Positions/Ashi Garami/Backside 50-50.json",
-      "message": "Role contradiction: Backside 50-50/bottom offers 'Back Take from 50-50', but it is authored from '50-50 Guard/Top' — one of the two is wrong, and the app will drop it from that hand"
-    },
-    {
-      "type": "from_position_role_mismatch",
-      "severity": "warning",
-      "name": "Toe Hold from 50-50",
-      "file": "content/Submissions/Toe Hold/from 50-50.json",
-      "expected_from": "50-50 Guard/Top",
-      "actual_from": "50-50 Guard/Bottom",
-      "referencing_position": "content/Positions/Ashi Garami/50-50 Guard.json",
-      "message": "Role contradiction: 50-50 Guard/top offers 'Toe Hold from 50-50', but it is authored from '50-50 Guard/Bottom' — one of the two is wrong, and the app will drop it from that hand"
-    },
-    {
-      "type": "from_position_role_mismatch",
-      "severity": "warning",
-      "name": "Counter heel hook",
-      "file": "content/Transitions/Counter heel hook.json",
-      "expected_from": "Backside 50-50/Top",
-      "actual_from": "50-50 Guard/Bottom",
-      "referencing_position": "content/Positions/Ashi Garami/Backside 50-50.json",
-      "message": "Role contradiction: Backside 50-50/top offers 'Counter heel hook', but it is authored from '50-50 Guard/Bottom' — one of the two is wrong, and the app will drop it from that hand"
-    },
-    {
-      "type": "from_position_role_mismatch",
-      "severity": "warning",
-      "name": "Counter heel hook",
-      "file": "content/Transitions/Counter heel hook.json",
-      "expected_from": "Outside Ashi-Garami/Top",
-      "actual_from": "50-50 Guard/Bottom",
-      "referencing_position": "content/Positions/Ashi Garami/Outside Ashi-Garami.json",
-      "message": "Role contradiction: Outside Ashi-Garami/top offers 'Counter heel hook', but it is authored from '50-50 Guard/Bottom' — one of the two is wrong, and the app will drop it from that hand"
-    },
-    {
-      "type": "from_position_role_mismatch",
-      "severity": "warning",
-      "name": "Counter-entangle to 50-50 Guard",
-      "file": "content/Transitions/Counter-entangle to 50-50 Guard.json",
-      "expected_from": "Straight Ankle Lock Control/Top",
-      "actual_from": "Leg Knot/Bottom",
-      "referencing_position": "content/Positions/Straight Ankle Lock Control.json",
-      "message": "Role contradiction: Straight Ankle Lock Control/top offers 'Counter-entangle to 50-50 Guard', but it is authored from 'Leg Knot/Bottom' — one of the two is wrong, and the app will drop it from that hand"
-    },
-    {
-      "type": "from_position_role_mismatch",
-      "severity": "warning",
-      "name": "Outside Heel Hook from Backside 50-50",
-      "file": "content/Submissions/Outside Heel Hook/from Backside 50-50.json",
-      "expected_from": "Backside 50-50/Bottom",
-      "actual_from": "Backside 50-50/Top",
-      "referencing_position": "content/Positions/Ashi Garami/Backside 50-50.json",
-      "message": "Role contradiction: Backside 50-50/bottom offers 'Outside Heel Hook from Backside 50-50', but it is authored from 'Backside 50-50/Top' — one of the two is wrong, and the app will drop it from that hand"
-    },
-    {
-      "type": "from_position_role_mismatch",
-      "severity": "warning",
-      "name": "Ashi Garami Escape",
-      "file": "content/Transitions/Ashi Garami Escape.json",
-      "expected_from": "Backside 50-50/Bottom",
-      "actual_from": "Ashi Garami/Top",
-      "referencing_position": "content/Positions/Ashi Garami/Backside 50-50.json",
-      "message": "Role contradiction: Backside 50-50/bottom offers 'Ashi Garami Escape', but it is authored from 'Ashi Garami/Top' — one of the two is wrong, and the app will drop it from that hand"
-    },
-    {
-      "type": "from_position_role_mismatch",
-      "severity": "warning",
-      "name": "Ashi Garami Escape",
-      "file": "content/Transitions/Ashi Garami Escape.json",
-      "expected_from": "Cross Ashi-Garami/Bottom",
-      "actual_from": "Ashi Garami/Top",
-      "referencing_position": "content/Positions/Ashi Garami/Cross Ashi-Garami.json",
-      "message": "Role contradiction: Cross Ashi-Garami/bottom offers 'Ashi Garami Escape', but it is authored from 'Ashi Garami/Top' — one of the two is wrong, and the app will drop it from that hand"
-    },
-    {
-      "type": "from_position_role_mismatch",
-      "severity": "warning",
-      "name": "Ashi Garami Escape",
-      "file": "content/Transitions/Ashi Garami Escape.json",
-      "expected_from": "Inside Ashi-Garami/Bottom",
-      "actual_from": "Ashi Garami/Top",
-      "referencing_position": "content/Positions/Ashi Garami/Inside Ashi-Garami.json",
-      "message": "Role contradiction: Inside Ashi-Garami/bottom offers 'Ashi Garami Escape', but it is authored from 'Ashi Garami/Top' — one of the two is wrong, and the app will drop it from that hand"
-    },
-    {
-      "type": "from_position_role_mismatch",
-      "severity": "warning",
-      "name": "Ashi Garami Escape",
-      "file": "content/Transitions/Ashi Garami Escape.json",
-      "expected_from": "Estima Lock Control/Bottom",
-      "actual_from": "Ashi Garami/Top",
-      "referencing_position": "content/Positions/Estima Lock Control.json",
-      "message": "Role contradiction: Estima Lock Control/bottom offers 'Ashi Garami Escape', but it is authored from 'Ashi Garami/Top' — one of the two is wrong, and the app will drop it from that hand"
-    },
-    {
-      "type": "from_position_role_mismatch",
-      "severity": "warning",
-      "name": "Ashi Garami Escape",
-      "file": "content/Transitions/Ashi Garami Escape.json",
-      "expected_from": "Kneebar Control/Bottom",
-      "actual_from": "Ashi Garami/Top",
-      "referencing_position": "content/Positions/Kneebar Control.json",
-      "message": "Role contradiction: Kneebar Control/bottom offers 'Ashi Garami Escape', but it is authored from 'Ashi Garami/Top' — one of the two is wrong, and the app will drop it from that hand"
-    },
-    {
-      "type": "from_position_role_mismatch",
-      "severity": "warning",
-      "name": "Backside 50-50 Entry from Ashi",
-      "file": "content/Transitions/Backside 50-50 Entry from Ashi.json",
-      "expected_from": "Cross Ashi-Garami/Bottom",
-      "actual_from": "Inside Ashi-Garami/Top",
-      "referencing_position": "content/Positions/Ashi Garami/Cross Ashi-Garami.json",
-      "message": "Role contradiction: Cross Ashi-Garami/bottom offers 'Backside 50-50 Entry from Ashi', but it is authored from 'Inside Ashi-Garami/Top' — one of the two is wrong, and the app will drop it from that hand"
-    },
-    {
-      "type": "from_position_role_mismatch",
-      "severity": "warning",
-      "name": "Backside 50-50 Entry from Ashi",
-      "file": "content/Transitions/Backside 50-50 Entry from Ashi.json",
-      "expected_from": "Ashi Garami/Bottom",
-      "actual_from": "Inside Ashi-Garami/Top",
-      "referencing_position": "content/Positions/Ashi Garami.json",
-      "message": "Role contradiction: Ashi Garami/bottom offers 'Backside 50-50 Entry from Ashi', but it is authored from 'Inside Ashi-Garami/Top' — one of the two is wrong, and the app will drop it from that hand"
-    },
-    {
-      "type": "from_position_role_mismatch",
-      "severity": "warning",
-      "name": "Backside 50-50 Entry from Ashi",
-      "file": "content/Transitions/Backside 50-50 Entry from Ashi.json",
-      "expected_from": "Kneebar Control/Bottom",
-      "actual_from": "Inside Ashi-Garami/Top",
-      "referencing_position": "content/Positions/Kneebar Control.json",
-      "message": "Role contradiction: Kneebar Control/bottom offers 'Backside 50-50 Entry from Ashi', but it is authored from 'Inside Ashi-Garami/Top' — one of the two is wrong, and the app will drop it from that hand"
-    },
-    {
-      "type": "from_position_role_mismatch",
-      "severity": "warning",
-      "name": "Cross Ashi Transition",
-      "file": "content/Transitions/Cross Ashi Transition.json",
-      "expected_from": "Outside Ashi-Garami/Bottom",
-      "actual_from": "Ushiro Ashi-Garami/Top",
-      "referencing_position": "content/Positions/Ashi Garami/Outside Ashi-Garami.json",
-      "message": "Role contradiction: Outside Ashi-Garami/bottom offers 'Cross Ashi Transition', but it is authored from 'Ushiro Ashi-Garami/Top' — one of the two is wrong, and the app will drop it from that hand"
-    },
-    {
-      "type": "from_position_role_mismatch",
-      "severity": "warning",
-      "name": "Cross Ashi Transition",
-      "file": "content/Transitions/Cross Ashi Transition.json",
-      "expected_from": "Ashi Garami/Bottom",
-      "actual_from": "Ushiro Ashi-Garami/Top",
-      "referencing_position": "content/Positions/Ashi Garami.json",
-      "message": "Role contradiction: Ashi Garami/bottom offers 'Cross Ashi Transition', but it is authored from 'Ushiro Ashi-Garami/Top' — one of the two is wrong, and the app will drop it from that hand"
-    },
-    {
-      "type": "from_position_role_mismatch",
-      "severity": "warning",
-      "name": "Back Take from Ashi",
-      "file": "content/Transitions/Back Take from Ashi.json",
-      "expected_from": "Ashi Garami/Bottom",
-      "actual_from": "Inside Ashi-Garami/Top",
-      "referencing_position": "content/Positions/Ashi Garami.json",
-      "message": "Role contradiction: Ashi Garami/bottom offers 'Back Take from Ashi', but it is authored from 'Inside Ashi-Garami/Top' — one of the two is wrong, and the app will drop it from that hand"
-    },
-    {
-      "type": "from_position_role_mismatch",
-      "severity": "warning",
-      "name": "Kneebar Setup",
-      "file": "content/Transitions/Kneebar Setup.json",
-      "expected_from": "Outside Ashi-Garami/Bottom",
-      "actual_from": "Outside Ashi-Garami/Top",
-      "referencing_position": "content/Positions/Ashi Garami/Outside Ashi-Garami.json",
-      "message": "Role contradiction: Outside Ashi-Garami/bottom offers 'Kneebar Setup', but it is authored from 'Outside Ashi-Garami/Top' — one of the two is wrong, and the app will drop it from that hand"
-    },
-    {
-      "type": "from_position_role_mismatch",
-      "severity": "warning",
-      "name": "Kneebar Setup",
-      "file": "content/Transitions/Kneebar Setup.json",
-      "expected_from": "Ashi Garami/Bottom",
-      "actual_from": "Outside Ashi-Garami/Top",
-      "referencing_position": "content/Positions/Ashi Garami.json",
-      "message": "Role contradiction: Ashi Garami/bottom offers 'Kneebar Setup', but it is authored from 'Outside Ashi-Garami/Top' — one of the two is wrong, and the app will drop it from that hand"
-    },
-    {
-      "type": "from_position_role_mismatch",
-      "severity": "warning",
-      "name": "Saddle Entry from Outside Ashi",
-      "file": "content/Transitions/Saddle Entry from Outside Ashi.json",
-      "expected_from": "Outside Ashi-Garami/Bottom",
-      "actual_from": "Outside Ashi-Garami/Top",
-      "referencing_position": "content/Positions/Ashi Garami/Outside Ashi-Garami.json",
-      "message": "Role contradiction: Outside Ashi-Garami/bottom offers 'Saddle Entry from Outside Ashi', but it is authored from 'Outside Ashi-Garami/Top' — one of the two is wrong, and the app will drop it from that hand"
-    },
-    {
-      "type": "from_position_role_mismatch",
-      "severity": "warning",
-      "name": "Inside Heel Hook from Ushiro",
-      "file": "content/Transitions/Inside Heel Hook from Ushiro.json",
-      "expected_from": "Leg Entanglement/Bottom",
-      "actual_from": "Ushiro Ashi-Garami/Top",
-      "referencing_position": "content/Positions/Leg Entanglement.json",
-      "message": "Role contradiction: Leg Entanglement/bottom offers 'Inside Heel Hook from Ushiro', but it is authored from 'Ushiro Ashi-Garami/Top' — one of the two is wrong, and the app will drop it from that hand"
-    },
-    {
-      "type": "from_position_role_mismatch",
-      "severity": "warning",
-      "name": "Ankle Lock Finish",
-      "file": "content/Transitions/Ankle Lock Finish.json",
-      "expected_from": "Kneebar Control/Bottom",
-      "actual_from": "Ushiro Ashi-Garami/Top",
-      "referencing_position": "content/Positions/Kneebar Control.json",
-      "message": "Role contradiction: Kneebar Control/bottom offers 'Ankle Lock Finish', but it is authored from 'Ushiro Ashi-Garami/Top' — one of the two is wrong, and the app will drop it from that hand"
-    },
-    {
-      "type": "from_position_role_mismatch",
-      "severity": "warning",
-      "name": "Ankle Lock Finish",
-      "file": "content/Transitions/Ankle Lock Finish.json",
-      "expected_from": "Leg Entanglement/Bottom",
-      "actual_from": "Ushiro Ashi-Garami/Top",
-      "referencing_position": "content/Positions/Leg Entanglement.json",
-      "message": "Role contradiction: Leg Entanglement/bottom offers 'Ankle Lock Finish', but it is authored from 'Ushiro Ashi-Garami/Top' — one of the two is wrong, and the app will drop it from that hand"
-    },
-    {
-      "type": "from_position_role_mismatch",
-      "severity": "warning",
-      "name": "Kneebar from Ushiro",
-      "file": "content/Transitions/Kneebar from Ushiro.json",
-      "expected_from": "Leg Entanglement/Bottom",
-      "actual_from": "Ushiro Ashi-Garami/Top",
-      "referencing_position": "content/Positions/Leg Entanglement.json",
-      "message": "Role contradiction: Leg Entanglement/bottom offers 'Kneebar from Ushiro', but it is authored from 'Ushiro Ashi-Garami/Top' — one of the two is wrong, and the app will drop it from that hand"
-    },
-    {
-      "type": "from_position_role_mismatch",
-      "severity": "warning",
-      "name": "Ashi Garami Maintenance",
-      "file": "content/Transitions/Ashi Garami Maintenance.json",
-      "expected_from": "Ushiro Ashi-Garami/Top",
-      "actual_from": "Ashi Garami/Bottom",
-      "referencing_position": "content/Positions/Ashi Garami/Ushiro Ashi-Garami.json",
-      "message": "Role contradiction: Ushiro Ashi-Garami/top offers 'Ashi Garami Maintenance', but it is authored from 'Ashi Garami/Bottom' — one of the two is wrong, and the app will drop it from that hand"
-    },
-    {
-      "type": "from_position_role_mismatch",
-      "severity": "warning",
-      "name": "Guillotine Setup",
-      "file": "content/Transitions/Guillotine Setup.json",
-      "expected_from": "Closed Guard/Bottom",
-      "actual_from": "Front Headlock/Top",
-      "referencing_position": "content/Positions/Closed Guard.json",
-      "message": "Role contradiction: Closed Guard/bottom offers 'Guillotine Setup', but it is authored from 'Front Headlock/Top' — one of the two is wrong, and the app will drop it from that hand"
-    },
-    {
-      "type": "from_position_role_mismatch",
-      "severity": "warning",
-      "name": "Toe Hold from Ashi Garami",
-      "file": "content/Submissions/Toe Hold/from Ashi Garami.json",
-      "expected_from": "Ashi Garami/Bottom",
-      "actual_from": "Ashi Garami/Top",
-      "referencing_position": "content/Positions/Ashi Garami.json",
-      "message": "Role contradiction: Ashi Garami/bottom offers 'Toe Hold from Ashi Garami', but it is authored from 'Ashi Garami/Top' — one of the two is wrong, and the app will drop it from that hand"
-    },
-    {
-      "type": "from_position_role_mismatch",
-      "severity": "warning",
       "name": "50-50 Entry",
       "file": "content/Transitions/50-50 Entry.json",
       "expected_from": "Leg Entanglement/Top",
       "actual_from": "Inverted Guard/Bottom",
       "referencing_position": "content/Positions/Leg Entanglement.json",
       "message": "Role contradiction: Leg Entanglement/top offers '50-50 Entry', but it is authored from 'Inverted Guard/Bottom' — one of the two is wrong, and the app will drop it from that hand"
-    },
-    {
-      "type": "from_position_role_mismatch",
-      "severity": "warning",
-      "name": "Roll to Truck",
-      "file": "content/Transitions/Roll to Truck.json",
-      "expected_from": "Lockdown/Bottom",
-      "actual_from": "Buggy Choke/Top",
-      "referencing_position": "content/Positions/Half Guard/Lockdown.json",
-      "message": "Role contradiction: Lockdown/bottom offers 'Roll to Truck', but it is authored from 'Buggy Choke/Top' — one of the two is wrong, and the app will drop it from that hand"
-    },
-    {
-      "type": "from_position_role_mismatch",
-      "severity": "warning",
-      "name": "Roll to Truck",
-      "file": "content/Transitions/Roll to Truck.json",
-      "expected_from": "Pocket Half Guard/Bottom",
-      "actual_from": "Buggy Choke/Top",
-      "referencing_position": "content/Positions/Half Guard/Pocket Half Guard.json",
-      "message": "Role contradiction: Pocket Half Guard/bottom offers 'Roll to Truck', but it is authored from 'Buggy Choke/Top' — one of the two is wrong, and the app will drop it from that hand"
-    },
-    {
-      "type": "from_position_role_mismatch",
-      "severity": "warning",
-      "name": "Roll to Truck",
-      "file": "content/Transitions/Roll to Truck.json",
-      "expected_from": "Inverted Guard/Bottom",
-      "actual_from": "Buggy Choke/Top",
-      "referencing_position": "content/Positions/Inverted Guard.json",
-      "message": "Role contradiction: Inverted Guard/bottom offers 'Roll to Truck', but it is authored from 'Buggy Choke/Top' — one of the two is wrong, and the app will drop it from that hand"
-    },
-    {
-      "type": "from_position_role_mismatch",
-      "severity": "warning",
-      "name": "Roll to Truck",
-      "file": "content/Transitions/Roll to Truck.json",
-      "expected_from": "Zombie/Bottom",
-      "actual_from": "Buggy Choke/Top",
-      "referencing_position": "content/Positions/Rubber Guard/Zombie.json",
-      "message": "Role contradiction: Zombie/bottom offers 'Roll to Truck', but it is authored from 'Buggy Choke/Top' — one of the two is wrong, and the app will drop it from that hand"
-    },
-    {
-      "type": "from_position_role_mismatch",
-      "severity": "warning",
-      "name": "Triangle Clear to Side",
-      "file": "content/Transitions/Triangle Clear to Side.json",
-      "expected_from": "Triangle Control/Top",
-      "actual_from": "Body Triangle/Bottom",
-      "referencing_position": "content/Positions/Triangle Control.json",
-      "message": "Role contradiction: Triangle Control/top offers 'Triangle Clear to Side', but it is authored from 'Body Triangle/Bottom' — one of the two is wrong, and the app will drop it from that hand"
-    },
-    {
-      "type": "from_position_role_mismatch",
-      "severity": "warning",
-      "name": "Snap Down to Front Headlock",
-      "file": "content/Transitions/Snap Down to Front Headlock.json",
-      "expected_from": "Butterfly Guard/Bottom",
-      "actual_from": "Clinch/Top",
-      "referencing_position": "content/Positions/Butterfly Guard.json",
-      "message": "Role contradiction: Butterfly Guard/bottom offers 'Snap Down to Front Headlock', but it is authored from 'Clinch/Top' — one of the two is wrong, and the app will drop it from that hand"
-    },
-    {
-      "type": "from_position_role_mismatch",
-      "severity": "warning",
-      "name": "Snap Down to Front Headlock",
-      "file": "content/Transitions/Snap Down to Front Headlock.json",
-      "expected_from": "Standing Guard/Bottom",
-      "actual_from": "Clinch/Top",
-      "referencing_position": "content/Positions/Standing Guard.json",
-      "message": "Role contradiction: Standing Guard/bottom offers 'Snap Down to Front Headlock', but it is authored from 'Clinch/Top' — one of the two is wrong, and the app will drop it from that hand"
-    },
-    {
-      "type": "from_position_role_mismatch",
-      "severity": "warning",
-      "name": "Sitting Guard Pull",
-      "file": "content/Transitions/Sitting Guard Pull.json",
-      "expected_from": "Body Lock/Bottom",
-      "actual_from": "Standing Position/Top",
-      "referencing_position": "content/Positions/Body Lock.json",
-      "message": "Role contradiction: Body Lock/bottom offers 'Sitting Guard Pull', but it is authored from 'Standing Position/Top' — one of the two is wrong, and the app will drop it from that hand"
-    },
-    {
-      "type": "from_position_role_mismatch",
-      "severity": "warning",
-      "name": "Sitting Guard Pull",
-      "file": "content/Transitions/Sitting Guard Pull.json",
-      "expected_from": "Standing Guard/Bottom",
-      "actual_from": "Standing Position/Top",
-      "referencing_position": "content/Positions/Standing Guard.json",
-      "message": "Role contradiction: Standing Guard/bottom offers 'Sitting Guard Pull', but it is authored from 'Standing Position/Top' — one of the two is wrong, and the app will drop it from that hand"
-    },
-    {
-      "type": "from_position_role_mismatch",
-      "severity": "warning",
-      "name": "Whizzer",
-      "file": "content/Transitions/Whizzer.json",
-      "expected_from": "Body Lock/Bottom",
-      "actual_from": "Overhook Control/Top",
-      "referencing_position": "content/Positions/Body Lock.json",
-      "message": "Role contradiction: Body Lock/bottom offers 'Whizzer', but it is authored from 'Overhook Control/Top' — one of the two is wrong, and the app will drop it from that hand"
-    },
-    {
-      "type": "from_position_role_mismatch",
-      "severity": "warning",
-      "name": "Sumi Gaeshi",
-      "file": "content/Transitions/Sumi Gaeshi.json",
-      "expected_from": "Butterfly Hook Control/Bottom",
-      "actual_from": "Standing Position/Top",
-      "referencing_position": "content/Positions/Butterfly Guard/Butterfly Hook Control.json",
-      "message": "Role contradiction: Butterfly Hook Control/bottom offers 'Sumi Gaeshi', but it is authored from 'Standing Position/Top' — one of the two is wrong, and the app will drop it from that hand"
-    },
-    {
-      "type": "from_position_role_mismatch",
-      "severity": "warning",
-      "name": "Sumi Gaeshi",
-      "file": "content/Transitions/Sumi Gaeshi.json",
-      "expected_from": "Butterfly Guard/Bottom",
-      "actual_from": "Standing Position/Top",
-      "referencing_position": "content/Positions/Butterfly Guard.json",
-      "message": "Role contradiction: Butterfly Guard/bottom offers 'Sumi Gaeshi', but it is authored from 'Standing Position/Top' — one of the two is wrong, and the app will drop it from that hand"
-    },
-    {
-      "type": "from_position_role_mismatch",
-      "severity": "warning",
-      "name": "Triangle Setup",
-      "file": "content/Transitions/Triangle Setup.json",
-      "expected_from": "Omoplata Control/Top",
-      "actual_from": "Closed Guard/Bottom",
-      "referencing_position": "content/Positions/Omoplata Control.json",
-      "message": "Role contradiction: Omoplata Control/top offers 'Triangle Setup', but it is authored from 'Closed Guard/Bottom' — one of the two is wrong, and the app will drop it from that hand"
-    },
-    {
-      "type": "from_position_role_mismatch",
-      "severity": "warning",
-      "name": "Double Leg Entry",
-      "file": "content/Transitions/Double Leg Entry.json",
-      "expected_from": "Standing Guard/Bottom",
-      "actual_from": "Standing Position/Top",
-      "referencing_position": "content/Positions/Standing Guard.json",
-      "message": "Role contradiction: Standing Guard/bottom offers 'Double Leg Entry', but it is authored from 'Standing Position/Top' — one of the two is wrong, and the app will drop it from that hand"
-    },
-    {
-      "type": "from_position_role_mismatch",
-      "severity": "warning",
-      "name": "Duck Under from Clinch",
-      "file": "content/Transitions/Duck Under from Clinch.json",
-      "expected_from": "Clinch/Top",
-      "actual_from": "Clinch/Bottom",
-      "referencing_position": "content/Positions/Clinch.json",
-      "message": "Role contradiction: Clinch/top offers 'Duck Under from Clinch', but it is authored from 'Clinch/Bottom' — one of the two is wrong, and the app will drop it from that hand"
-    },
-    {
-      "type": "from_position_role_mismatch",
-      "severity": "warning",
-      "name": "Arm Drag from Clinch",
-      "file": "content/Transitions/Arm Drag from Clinch.json",
-      "expected_from": "Clinch/Top",
-      "actual_from": "Clinch/Bottom",
-      "referencing_position": "content/Positions/Clinch.json",
-      "message": "Role contradiction: Clinch/top offers 'Arm Drag from Clinch', but it is authored from 'Clinch/Bottom' — one of the two is wrong, and the app will drop it from that hand"
-    },
-    {
-      "type": "from_position_role_mismatch",
-      "severity": "warning",
-      "name": "Ankle Pick",
-      "file": "content/Transitions/Ankle Pick.json",
-      "expected_from": "Standing Guard/Bottom",
-      "actual_from": "Standing Position/Top",
-      "referencing_position": "content/Positions/Standing Guard.json",
-      "message": "Role contradiction: Standing Guard/bottom offers 'Ankle Pick', but it is authored from 'Standing Position/Top' — one of the two is wrong, and the app will drop it from that hand"
-    },
-    {
-      "type": "from_position_role_mismatch",
-      "severity": "warning",
-      "name": "Kimura to Back Take",
-      "file": "content/Transitions/Kimura to Back Take.json",
-      "expected_from": "Kimura Trap/Top",
-      "actual_from": "Kimura Trap/Bottom",
-      "referencing_position": "content/Positions/Kimura Trap.json",
-      "message": "Role contradiction: Kimura Trap/top offers 'Kimura to Back Take', but it is authored from 'Kimura Trap/Bottom' — one of the two is wrong, and the app will drop it from that hand"
-    },
-    {
-      "type": "from_position_role_mismatch",
-      "severity": "warning",
-      "name": "Kimura to Back Take",
-      "file": "content/Transitions/Kimura to Back Take.json",
-      "expected_from": "Mounted Triangle/Top",
-      "actual_from": "Kimura Trap/Bottom",
-      "referencing_position": "content/Positions/Mount/Mounted Triangle.json",
-      "message": "Role contradiction: Mounted Triangle/top offers 'Kimura to Back Take', but it is authored from 'Kimura Trap/Bottom' — one of the two is wrong, and the app will drop it from that hand"
-    },
-    {
-      "type": "from_position_role_mismatch",
-      "severity": "warning",
-      "name": "Omoplata Sweep",
-      "file": "content/Transitions/Omoplata Sweep.json",
-      "expected_from": "Omoplata Control/Top",
-      "actual_from": "Closed Guard/Bottom",
-      "referencing_position": "content/Positions/Omoplata Control.json",
-      "message": "Role contradiction: Omoplata Control/top offers 'Omoplata Sweep', but it is authored from 'Closed Guard/Bottom' — one of the two is wrong, and the app will drop it from that hand"
-    },
-    {
-      "type": "from_position_role_mismatch",
-      "severity": "warning",
-      "name": "Omoplata to Back",
-      "file": "content/Transitions/Omoplata to Back.json",
-      "expected_from": "Omoplata Control/Top",
-      "actual_from": "Omoplata Control/Bottom",
-      "referencing_position": "content/Positions/Omoplata Control.json",
-      "message": "Role contradiction: Omoplata Control/top offers 'Omoplata to Back', but it is authored from 'Omoplata Control/Bottom' — one of the two is wrong, and the app will drop it from that hand"
-    },
-    {
-      "type": "from_position_role_mismatch",
-      "severity": "warning",
-      "name": "Rolling Back Take",
-      "file": "content/Transitions/Rolling Back Take.json",
-      "expected_from": "Inverted Guard/Bottom",
-      "actual_from": "Turtle/Top",
-      "referencing_position": "content/Positions/Inverted Guard.json",
-      "message": "Role contradiction: Inverted Guard/bottom offers 'Rolling Back Take', but it is authored from 'Turtle/Top' — one of the two is wrong, and the app will drop it from that hand"
-    },
-    {
-      "type": "from_position_role_mismatch",
-      "severity": "warning",
-      "name": "Roll to Turtle",
-      "file": "content/Transitions/Roll to Turtle.json",
-      "expected_from": "Gogoplata Control/Top",
-      "actual_from": "Side Control/Bottom",
-      "referencing_position": "content/Positions/Gogoplata Control.json",
-      "message": "Role contradiction: Gogoplata Control/top offers 'Roll to Turtle', but it is authored from 'Side Control/Bottom' — one of the two is wrong, and the app will drop it from that hand"
-    },
-    {
-      "type": "from_position_role_mismatch",
-      "severity": "warning",
-      "name": "Tomoe Nage",
-      "file": "content/Transitions/Tomoe Nage.json",
-      "expected_from": "Feet on Hips Guard/Bottom",
-      "actual_from": "Standing Position/Top",
-      "referencing_position": "content/Positions/Feet on Hips Guard.json",
-      "message": "Role contradiction: Feet on Hips Guard/bottom offers 'Tomoe Nage', but it is authored from 'Standing Position/Top' — one of the two is wrong, and the app will drop it from that hand"
-    },
-    {
-      "type": "from_position_role_mismatch",
-      "severity": "warning",
-      "name": "Gogoplata from Gogoplata Control",
-      "file": "content/Submissions/Gogoplata/from Gogoplata Control.json",
-      "expected_from": "Gogoplata Control/Bottom",
-      "actual_from": "Gogoplata Control/Top",
-      "referencing_position": "content/Positions/Gogoplata Control.json",
-      "message": "Role contradiction: Gogoplata Control/bottom offers 'Gogoplata from Gogoplata Control', but it is authored from 'Gogoplata Control/Top' — one of the two is wrong, and the app will drop it from that hand"
-    },
-    {
-      "type": "from_position_role_mismatch",
-      "severity": "warning",
-      "name": "Guillotine Choke from Guillotine Control",
-      "file": "content/Submissions/Guillotine Choke/from Guillotine Control.json",
-      "expected_from": "Guillotine Control/Bottom",
-      "actual_from": "Guillotine Control/Top",
-      "referencing_position": "content/Positions/Guillotine Control.json",
-      "message": "Role contradiction: Guillotine Control/bottom offers 'Guillotine Choke from Guillotine Control', but it is authored from 'Guillotine Control/Top' — one of the two is wrong, and the app will drop it from that hand"
-    },
-    {
-      "type": "from_position_role_mismatch",
-      "severity": "warning",
-      "name": "Guillotine Choke from Hindulotine",
-      "file": "content/Submissions/Guillotine Choke/from Hindulotine.json",
-      "expected_from": "Hindulotine/Bottom",
-      "actual_from": "Hindulotine/Top",
-      "referencing_position": "content/Positions/Hindulotine.json",
-      "message": "Role contradiction: Hindulotine/bottom offers 'Guillotine Choke from Hindulotine', but it is authored from 'Hindulotine/Top' — one of the two is wrong, and the app will drop it from that hand"
-    },
-    {
-      "type": "from_position_role_mismatch",
-      "severity": "warning",
-      "name": "Toe Hold from Kneebar Control",
-      "file": "content/Submissions/Toe Hold/from Kneebar Control.json",
-      "expected_from": "Kneebar Control/Bottom",
-      "actual_from": "Kneebar Control/Top",
-      "referencing_position": "content/Positions/Kneebar Control.json",
-      "message": "Role contradiction: Kneebar Control/bottom offers 'Toe Hold from Kneebar Control', but it is authored from 'Kneebar Control/Top' — one of the two is wrong, and the app will drop it from that hand"
-    },
-    {
-      "type": "from_position_role_mismatch",
-      "severity": "warning",
-      "name": "Mounted Triangle",
-      "file": "content/Transitions/Mounted Triangle.json",
-      "expected_from": "Triangle Control/Bottom",
-      "actual_from": "Modified Mount/Top",
-      "referencing_position": "content/Positions/Triangle Control.json",
-      "message": "Role contradiction: Triangle Control/bottom offers 'Mounted Triangle', but it is authored from 'Modified Mount/Top' — one of the two is wrong, and the app will drop it from that hand"
-    },
-    {
-      "type": "from_position_role_mismatch",
-      "severity": "warning",
-      "name": "Triangle to Armbar",
-      "file": "content/Transitions/Triangle to Armbar.json",
-      "expected_from": "Mounted Triangle/Top",
-      "actual_from": "Triangle Control/Bottom",
-      "referencing_position": "content/Positions/Mount/Mounted Triangle.json",
-      "message": "Role contradiction: Mounted Triangle/top offers 'Triangle to Armbar', but it is authored from 'Triangle Control/Bottom' — one of the two is wrong, and the app will drop it from that hand"
-    },
-    {
-      "type": "from_position_role_mismatch",
-      "severity": "warning",
-      "name": "Triangle to Back",
-      "file": "content/Transitions/Triangle to Back.json",
-      "expected_from": "Mounted Triangle/Top",
-      "actual_from": "Triangle Control/Bottom",
-      "referencing_position": "content/Positions/Mount/Mounted Triangle.json",
-      "message": "Role contradiction: Mounted Triangle/top offers 'Triangle to Back', but it is authored from 'Triangle Control/Bottom' — one of the two is wrong, and the app will drop it from that hand"
-    },
-    {
-      "type": "from_position_role_mismatch",
-      "severity": "warning",
-      "name": "Single Leg Entry",
-      "file": "content/Transitions/Single Leg Entry.json",
-      "expected_from": "Standing Guard/Bottom",
-      "actual_from": "Standing Position/Top",
-      "referencing_position": "content/Positions/Standing Guard.json",
-      "message": "Role contradiction: Standing Guard/bottom offers 'Single Leg Entry', but it is authored from 'Standing Position/Top' — one of the two is wrong, and the app will drop it from that hand"
-    },
-    {
-      "type": "from_position_role_mismatch",
-      "severity": "warning",
-      "name": "Arm Drag",
-      "file": "content/Transitions/Arm Drag.json",
-      "expected_from": "Standing Position/Bottom",
-      "actual_from": "Standing Position/Top",
-      "referencing_position": "content/Positions/Standing Position.json",
-      "message": "Role contradiction: Standing Position/bottom offers 'Arm Drag', but it is authored from 'Standing Position/Top' — one of the two is wrong, and the app will drop it from that hand"
-    },
-    {
-      "type": "from_position_role_mismatch",
-      "severity": "warning",
-      "name": "50-50 Entry from Standing",
-      "file": "content/Transitions/50-50 Entry from Standing.json",
-      "expected_from": "Straight Ankle Lock Control/Bottom",
-      "actual_from": "Standing Position/Top",
-      "referencing_position": "content/Positions/Straight Ankle Lock Control.json",
-      "message": "Role contradiction: Straight Ankle Lock Control/bottom offers '50-50 Entry from Standing', but it is authored from 'Standing Position/Top' — one of the two is wrong, and the app will drop it from that hand"
-    },
-    {
-      "type": "from_position_role_mismatch",
-      "severity": "warning",
-      "name": "Triangle Choke from Triangle Control",
-      "file": "content/Submissions/Triangle Choke/from Triangle Control.json",
-      "expected_from": "Triangle Control/Bottom",
-      "actual_from": "Triangle Control/Top",
-      "referencing_position": "content/Positions/Triangle Control.json",
-      "message": "Role contradiction: Triangle Control/bottom offers 'Triangle Choke from Triangle Control', but it is authored from 'Triangle Control/Top' — one of the two is wrong, and the app will drop it from that hand"
-    },
-    {
-      "type": "from_position_role_mismatch",
-      "severity": "warning",
-      "name": "Triangle Choke from Triangle Control",
-      "file": "content/Submissions/Triangle Choke/from Triangle Control.json",
-      "expected_from": "Triangle Escape Position/Bottom",
-      "actual_from": "Triangle Control/Top",
-      "referencing_position": "content/Positions/Triangle Escape Position.json",
-      "message": "Role contradiction: Triangle Escape Position/bottom offers 'Triangle Choke from Triangle Control', but it is authored from 'Triangle Control/Top' — one of the two is wrong, and the app will drop it from that hand"
     },
     {
       "type": "position_type_score_disagreement",
@@ -698,14 +58,14 @@
     },
     {
       "type": "position_type_score_disagreement",
-      "severity": "warning",
+      "severity": "info",
       "name": "Backside 50-50 Top",
       "file": "content/Positions/Ashi Garami/Backside 50-50.json",
       "message": "Backside 50-50 Top: authored position_type 'Offensive/Controlling' but its metrics score -0.056 — the word now wins, so check whether the point_value / risk / submission-retention-advancement numbers are right"
     },
     {
       "type": "position_type_score_disagreement",
-      "severity": "warning",
+      "severity": "info",
       "name": "Backside 50-50 Bottom",
       "file": "content/Positions/Ashi Garami/Backside 50-50.json",
       "message": "Backside 50-50 Bottom: authored position_type 'Defensive with offensive options' but its metrics score -0.056 — the word now wins, so check whether the point_value / risk / submission-retention-advancement numbers are right"
@@ -719,126 +79,112 @@
     },
     {
       "type": "position_type_score_disagreement",
-      "severity": "warning",
+      "severity": "info",
       "name": "Inside Ashi-Garami Top",
       "file": "content/Positions/Ashi Garami/Inside Ashi-Garami.json",
       "message": "Inside Ashi-Garami Top: authored position_type 'Offensive' but its metrics score -0.056 — the word now wins, so check whether the point_value / risk / submission-retention-advancement numbers are right"
     },
     {
       "type": "position_type_score_disagreement",
-      "severity": "warning",
+      "severity": "info",
       "name": "Outside Ashi-Garami Bottom",
       "file": "content/Positions/Ashi Garami/Outside Ashi-Garami.json",
       "message": "Outside Ashi-Garami Bottom: authored position_type 'Offensive' but its metrics score -0.056 — the word now wins, so check whether the point_value / risk / submission-retention-advancement numbers are right"
     },
     {
       "type": "position_type_score_disagreement",
-      "severity": "warning",
+      "severity": "info",
       "name": "Ushiro Ashi-Garami Top",
       "file": "content/Positions/Ashi Garami/Ushiro Ashi-Garami.json",
       "message": "Ushiro Ashi-Garami Top: authored position_type 'Offensive' but its metrics score -0.065 — the word now wins, so check whether the point_value / risk / submission-retention-advancement numbers are right"
     },
     {
       "type": "position_type_score_disagreement",
-      "severity": "warning",
+      "severity": "info",
       "name": "Ashi Garami Bottom",
       "file": "content/Positions/Ashi Garami.json",
       "message": "Ashi Garami Bottom: authored position_type 'Offensive' but its metrics score -0.056 — the word now wins, so check whether the point_value / risk / submission-retention-advancement numbers are right"
     },
     {
       "type": "position_type_score_disagreement",
-      "severity": "warning",
+      "severity": "info",
       "name": "Butterfly Hook Control Top",
       "file": "content/Positions/Butterfly Guard/Butterfly Hook Control.json",
       "message": "Butterfly Hook Control Top: authored position_type 'Defensive with offensive options' but its metrics score -0.150 — the word now wins, so check whether the point_value / risk / submission-retention-advancement numbers are right"
     },
     {
       "type": "position_type_score_disagreement",
-      "severity": "warning",
+      "severity": "info",
       "name": "Butterfly Hook Control Bottom",
       "file": "content/Positions/Butterfly Guard/Butterfly Hook Control.json",
       "message": "Butterfly Hook Control Bottom: authored position_type 'Offensive' but its metrics score -0.056 — the word now wins, so check whether the point_value / risk / submission-retention-advancement numbers are right"
     },
     {
       "type": "position_type_score_disagreement",
-      "severity": "warning",
+      "severity": "info",
       "name": "Half Butterfly Top",
       "file": "content/Positions/Butterfly Guard/Half Butterfly.json",
       "message": "Half Butterfly Top: authored position_type 'Offensive' but its metrics score -0.094 — the word now wins, so check whether the point_value / risk / submission-retention-advancement numbers are right"
     },
     {
       "type": "position_type_score_disagreement",
-      "severity": "warning",
+      "severity": "info",
       "name": "Half Butterfly Bottom",
       "file": "content/Positions/Butterfly Guard/Half Butterfly.json",
       "message": "Half Butterfly Bottom: authored position_type 'Offensive' but its metrics score -0.120 — the word now wins, so check whether the point_value / risk / submission-retention-advancement numbers are right"
     },
     {
       "type": "position_type_score_disagreement",
-      "severity": "warning",
+      "severity": "info",
       "name": "Butterfly Guard Bottom",
       "file": "content/Positions/Butterfly Guard.json",
       "message": "Butterfly Guard Bottom: authored position_type 'Offensive' but its metrics score -0.090 — the word now wins, so check whether the point_value / risk / submission-retention-advancement numbers are right"
     },
     {
       "type": "position_type_score_disagreement",
-      "severity": "warning",
-      "name": "Clamp Guard Top",
-      "file": "content/Positions/Clamp Guard.json",
-      "message": "Clamp Guard Top: authored position_type 'Defensive with offensive options' but its metrics score -0.385 — the word now wins, so check whether the point_value / risk / submission-retention-advancement numbers are right"
-    },
-    {
-      "type": "position_type_score_disagreement",
-      "severity": "warning",
+      "severity": "info",
       "name": "Diamond Guard Bottom",
       "file": "content/Positions/Closed Guard/Diamond Guard.json",
       "message": "Diamond Guard Bottom: authored position_type 'Offensive/Controlling' but its metrics score -0.030 — the word now wins, so check whether the point_value / risk / submission-retention-advancement numbers are right"
     },
     {
       "type": "position_type_score_disagreement",
-      "severity": "warning",
+      "severity": "info",
       "name": "Closed Guard Bottom",
       "file": "content/Positions/Closed Guard.json",
       "message": "Closed Guard Bottom: authored position_type 'Offensive' but its metrics score -0.028 — the word now wins, so check whether the point_value / risk / submission-retention-advancement numbers are right"
     },
     {
       "type": "position_type_score_disagreement",
-      "severity": "warning",
-      "name": "Combat Base Bottom",
-      "file": "content/Positions/Combat Base.json",
-      "message": "Combat Base Bottom: authored position_type 'Defensive with offensive options' but its metrics score -0.391 — the word now wins, so check whether the point_value / risk / submission-retention-advancement numbers are right"
-    },
-    {
-      "type": "position_type_score_disagreement",
-      "severity": "warning",
+      "severity": "info",
       "name": "Reverse De La Riva Guard Top",
       "file": "content/Positions/De La Riva Guard/Reverse De La Riva Guard.json",
       "message": "Reverse De La Riva Guard Top: authored position_type 'Offensive' but its metrics score -0.086 — the word now wins, so check whether the point_value / risk / submission-retention-advancement numbers are right"
     },
     {
       "type": "position_type_score_disagreement",
-      "severity": "warning",
+      "severity": "info",
       "name": "Reverse De La Riva Guard Bottom",
       "file": "content/Positions/De La Riva Guard/Reverse De La Riva Guard.json",
       "message": "Reverse De La Riva Guard Bottom: authored position_type 'Offensive' but its metrics score -0.046 — the word now wins, so check whether the point_value / risk / submission-retention-advancement numbers are right"
     },
     {
       "type": "position_type_score_disagreement",
-      "severity": "warning",
+      "severity": "info",
       "name": "De La Riva Guard Top",
       "file": "content/Positions/De La Riva Guard.json",
       "message": "De La Riva Guard Top: authored position_type 'Offensive' but its metrics score -0.070 — the word now wins, so check whether the point_value / risk / submission-retention-advancement numbers are right"
     },
     {
       "type": "position_type_score_disagreement",
-      "severity": "warning",
+      "severity": "info",
       "name": "De La Riva Guard Bottom",
       "file": "content/Positions/De La Riva Guard.json",
       "message": "De La Riva Guard Bottom: authored position_type 'Offensive' but its metrics score -0.126 — the word now wins, so check whether the point_value / risk / submission-retention-advancement numbers are right"
     },
     {
       "type": "position_type_score_disagreement",
-      "severity": "warning",
+      "severity": "info",
       "name": "Double Jump Top",
       "file": "content/Positions/Double Jump.json",
       "message": "Double Jump Top: authored position_type 'Offensive/Controlling' but its metrics score -0.158 — the word now wins, so check whether the point_value / risk / submission-retention-advancement numbers are right"
@@ -859,280 +205,266 @@
     },
     {
       "type": "position_type_score_disagreement",
-      "severity": "warning",
+      "severity": "info",
       "name": "Double Sleeve Guard Bottom",
       "file": "content/Positions/Double Sleeve Guard.json",
       "message": "Double Sleeve Guard Bottom: authored position_type 'Defensive with offensive options' but its metrics score -0.106 — the word now wins, so check whether the point_value / risk / submission-retention-advancement numbers are right"
     },
     {
       "type": "position_type_score_disagreement",
-      "severity": "warning",
+      "severity": "info",
       "name": "Estima Lock Control Top",
       "file": "content/Positions/Estima Lock Control.json",
       "message": "Estima Lock Control Top: authored position_type 'Offensive/Controlling' but its metrics score -0.086 — the word now wins, so check whether the point_value / risk / submission-retention-advancement numbers are right"
     },
     {
       "type": "position_type_score_disagreement",
-      "severity": "warning",
+      "severity": "info",
       "name": "Feet on Hips Guard Top",
       "file": "content/Positions/Feet on Hips Guard.json",
       "message": "Feet on Hips Guard Top: authored position_type 'Offensive' but its metrics score -0.124 — the word now wins, so check whether the point_value / risk / submission-retention-advancement numbers are right"
     },
     {
       "type": "position_type_score_disagreement",
-      "severity": "warning",
+      "severity": "info",
       "name": "Feet on Hips Guard Bottom",
       "file": "content/Positions/Feet on Hips Guard.json",
       "message": "Feet on Hips Guard Bottom: authored position_type 'Defensive with offensive options' but its metrics score -0.024 — the word now wins, so check whether the point_value / risk / submission-retention-advancement numbers are right"
     },
     {
       "type": "position_type_score_disagreement",
-      "severity": "warning",
+      "severity": "info",
       "name": "Gogoplata Control Bottom",
       "file": "content/Positions/Gogoplata Control.json",
       "message": "Gogoplata Control Bottom: authored position_type 'Offensive/Controlling' but its metrics score -0.034 — the word now wins, so check whether the point_value / risk / submission-retention-advancement numbers are right"
     },
     {
       "type": "position_type_score_disagreement",
-      "severity": "warning",
+      "severity": "info",
       "name": "Grasshopper Guard Top",
       "file": "content/Positions/Grasshopper Guard.json",
       "message": "Grasshopper Guard Top: authored position_type 'Offensive/Controlling' but its metrics score -0.050 — the word now wins, so check whether the point_value / risk / submission-retention-advancement numbers are right"
     },
     {
       "type": "position_type_score_disagreement",
-      "severity": "warning",
+      "severity": "info",
       "name": "Grasshopper Guard Bottom",
       "file": "content/Positions/Grasshopper Guard.json",
       "message": "Grasshopper Guard Bottom: authored position_type 'Offensive' but its metrics score -0.040 — the word now wins, so check whether the point_value / risk / submission-retention-advancement numbers are right"
     },
     {
       "type": "position_type_score_disagreement",
-      "severity": "warning",
+      "severity": "info",
       "name": "Guillotine Control Bottom",
       "file": "content/Positions/Guillotine Control.json",
-      "message": "Guillotine Control Bottom: authored position_type 'Defensive with offensive options' but its metrics score -0.040 — the word now wins, so check whether the point_value / risk / submission-retention-advancement numbers are right"
+      "message": "Guillotine Control Bottom: authored position_type 'Offensive/Controlling' but its metrics score -0.040 — the word now wins, so check whether the point_value / risk / submission-retention-advancement numbers are right"
     },
     {
       "type": "position_type_score_disagreement",
-      "severity": "warning",
+      "severity": "info",
       "name": "Butterfly Half Guard Top",
       "file": "content/Positions/Half Guard/Butterfly Half Guard.json",
       "message": "Butterfly Half Guard Top: authored position_type 'Defensive with offensive options' but its metrics score -0.173 — the word now wins, so check whether the point_value / risk / submission-retention-advancement numbers are right"
     },
     {
       "type": "position_type_score_disagreement",
-      "severity": "warning",
+      "severity": "info",
       "name": "Butterfly Half Guard Bottom",
       "file": "content/Positions/Half Guard/Butterfly Half Guard.json",
       "message": "Butterfly Half Guard Bottom: authored position_type 'Offensive' but its metrics score -0.074 — the word now wins, so check whether the point_value / risk / submission-retention-advancement numbers are right"
     },
     {
       "type": "position_type_score_disagreement",
-      "severity": "warning",
+      "severity": "info",
       "name": "Deep Half Guard Top",
       "file": "content/Positions/Half Guard/Deep Half Guard.json",
       "message": "Deep Half Guard Top: authored position_type 'Defensive with offensive options' but its metrics score -0.056 — the word now wins, so check whether the point_value / risk / submission-retention-advancement numbers are right"
     },
     {
       "type": "position_type_score_disagreement",
-      "severity": "warning",
+      "severity": "info",
       "name": "Deep Half Guard Bottom",
       "file": "content/Positions/Half Guard/Deep Half Guard.json",
-      "message": "Deep Half Guard Bottom: authored position_type 'Defensive with offensive options' but its metrics score -0.120 — the word now wins, so check whether the point_value / risk / submission-retention-advancement numbers are right"
+      "message": "Deep Half Guard Bottom: authored position_type 'Offensive' but its metrics score -0.120 — the word now wins, so check whether the point_value / risk / submission-retention-advancement numbers are right"
     },
     {
       "type": "position_type_score_disagreement",
-      "severity": "warning",
+      "severity": "info",
       "name": "Flattened Half Guard Top",
       "file": "content/Positions/Half Guard/Flattened Half Guard.json",
       "message": "Flattened Half Guard Top: authored position_type 'Offensive/Controlling' but its metrics score -0.105 — the word now wins, so check whether the point_value / risk / submission-retention-advancement numbers are right"
     },
     {
       "type": "position_type_score_disagreement",
-      "severity": "warning",
+      "severity": "info",
       "name": "Knee Shield Half Guard Top",
       "file": "content/Positions/Half Guard/Knee Shield Half Guard.json",
       "message": "Knee Shield Half Guard Top: authored position_type 'Offensive' but its metrics score -0.149 — the word now wins, so check whether the point_value / risk / submission-retention-advancement numbers are right"
     },
     {
       "type": "position_type_score_disagreement",
-      "severity": "warning",
+      "severity": "info",
       "name": "Knee Shield Half Guard Bottom",
       "file": "content/Positions/Half Guard/Knee Shield Half Guard.json",
       "message": "Knee Shield Half Guard Bottom: authored position_type 'Defensive with offensive options' but its metrics score -0.142 — the word now wins, so check whether the point_value / risk / submission-retention-advancement numbers are right"
     },
     {
       "type": "position_type_score_disagreement",
-      "severity": "warning",
+      "severity": "info",
       "name": "Old School Top",
       "file": "content/Positions/Half Guard/Old School.json",
       "message": "Old School Top: authored position_type 'Defensive with offensive options' but its metrics score -0.132 — the word now wins, so check whether the point_value / risk / submission-retention-advancement numbers are right"
     },
     {
       "type": "position_type_score_disagreement",
-      "severity": "warning",
+      "severity": "info",
       "name": "Old School Bottom",
       "file": "content/Positions/Half Guard/Old School.json",
       "message": "Old School Bottom: authored position_type 'Offensive' but its metrics score -0.032 — the word now wins, so check whether the point_value / risk / submission-retention-advancement numbers are right"
     },
     {
       "type": "position_type_score_disagreement",
-      "severity": "warning",
+      "severity": "info",
       "name": "Pocket Half Guard Top",
       "file": "content/Positions/Half Guard/Pocket Half Guard.json",
       "message": "Pocket Half Guard Top: authored position_type 'Offensive/Controlling' but its metrics score -0.044 — the word now wins, so check whether the point_value / risk / submission-retention-advancement numbers are right"
     },
     {
       "type": "position_type_score_disagreement",
-      "severity": "warning",
+      "severity": "info",
       "name": "Reverse Half Guard Top",
       "file": "content/Positions/Half Guard/Reverse Half Guard.json",
       "message": "Reverse Half Guard Top: authored position_type 'Offensive' but its metrics score -0.020 — the word now wins, so check whether the point_value / risk / submission-retention-advancement numbers are right"
     },
     {
       "type": "position_type_score_disagreement",
-      "severity": "warning",
+      "severity": "info",
       "name": "Reverse Half Guard Bottom",
       "file": "content/Positions/Half Guard/Reverse Half Guard.json",
       "message": "Reverse Half Guard Bottom: authored position_type 'Defensive with offensive options' but its metrics score -0.056 — the word now wins, so check whether the point_value / risk / submission-retention-advancement numbers are right"
     },
     {
       "type": "position_type_score_disagreement",
-      "severity": "warning",
+      "severity": "info",
       "name": "Z-Lock Half Guard Top",
       "file": "content/Positions/Half Guard/Z-Lock Half Guard.json",
       "message": "Z-Lock Half Guard Top: authored position_type 'Offensive/Controlling' but its metrics score -0.076 — the word now wins, so check whether the point_value / risk / submission-retention-advancement numbers are right"
     },
     {
       "type": "position_type_score_disagreement",
-      "severity": "warning",
+      "severity": "info",
       "name": "Z-Lock Half Guard Bottom",
       "file": "content/Positions/Half Guard/Z-Lock Half Guard.json",
       "message": "Z-Lock Half Guard Bottom: authored position_type 'Defensive with offensive options' but its metrics score -0.073 — the word now wins, so check whether the point_value / risk / submission-retention-advancement numbers are right"
     },
     {
       "type": "position_type_score_disagreement",
-      "severity": "warning",
+      "severity": "info",
       "name": "Half Guard Top",
       "file": "content/Positions/Half Guard.json",
       "message": "Half Guard Top: authored position_type 'Offensive' but its metrics score -0.046 — the word now wins, so check whether the point_value / risk / submission-retention-advancement numbers are right"
     },
     {
       "type": "position_type_score_disagreement",
-      "severity": "warning",
+      "severity": "info",
       "name": "Inverted Guard Bottom",
       "file": "content/Positions/Inverted Guard.json",
       "message": "Inverted Guard Bottom: authored position_type 'Defensive with offensive options' but its metrics score -0.070 — the word now wins, so check whether the point_value / risk / submission-retention-advancement numbers are right"
     },
     {
       "type": "position_type_score_disagreement",
-      "severity": "warning",
+      "severity": "info",
       "name": "Jailbreak Top",
       "file": "content/Positions/Jailbreak.json",
       "message": "Jailbreak Top: authored position_type 'Offensive' but its metrics score -0.062 — the word now wins, so check whether the point_value / risk / submission-retention-advancement numbers are right"
     },
     {
       "type": "position_type_score_disagreement",
-      "severity": "warning",
+      "severity": "info",
       "name": "Jailbreak Bottom",
       "file": "content/Positions/Jailbreak.json",
       "message": "Jailbreak Bottom: authored position_type 'Defensive with offensive options' but its metrics score -0.102 — the word now wins, so check whether the point_value / risk / submission-retention-advancement numbers are right"
     },
     {
       "type": "position_type_score_disagreement",
-      "severity": "warning",
-      "name": "K-Guard Top",
-      "file": "content/Positions/K-Guard.json",
-      "message": "K-Guard Top: authored position_type 'Offensive/Controlling' but its metrics score -0.100 — the word now wins, so check whether the point_value / risk / submission-retention-advancement numbers are right"
-    },
-    {
-      "type": "position_type_score_disagreement",
-      "severity": "warning",
+      "severity": "info",
       "name": "K-Guard Bottom",
       "file": "content/Positions/K-Guard.json",
-      "message": "K-Guard Bottom: authored position_type 'Defensive with offensive options' but its metrics score -0.106 — the word now wins, so check whether the point_value / risk / submission-retention-advancement numbers are right"
+      "message": "K-Guard Bottom: authored position_type 'Offensive' but its metrics score -0.106 — the word now wins, so check whether the point_value / risk / submission-retention-advancement numbers are right"
     },
     {
       "type": "position_type_score_disagreement",
-      "severity": "warning",
+      "severity": "info",
       "name": "Kneebar Control Bottom",
       "file": "content/Positions/Kneebar Control.json",
       "message": "Kneebar Control Bottom: authored position_type 'Offensive' but its metrics score -0.072 — the word now wins, so check whether the point_value / risk / submission-retention-advancement numbers are right"
     },
     {
       "type": "position_type_score_disagreement",
-      "severity": "warning",
+      "severity": "info",
       "name": "Inverted Lasso Guard Top",
       "file": "content/Positions/Lasso Guard/Inverted Lasso Guard.json",
       "message": "Inverted Lasso Guard Top: authored position_type 'Defensive with offensive options' but its metrics score -0.172 — the word now wins, so check whether the point_value / risk / submission-retention-advancement numbers are right"
     },
     {
       "type": "position_type_score_disagreement",
-      "severity": "warning",
-      "name": "Russian Leg Lasso Top",
-      "file": "content/Positions/Lasso Guard/Russian Leg Lasso.json",
-      "message": "Russian Leg Lasso Top: authored position_type 'Offensive' but its metrics score -0.150 — the word now wins, so check whether the point_value / risk / submission-retention-advancement numbers are right"
-    },
-    {
-      "type": "position_type_score_disagreement",
-      "severity": "warning",
+      "severity": "info",
       "name": "Lasso Guard Bottom",
       "file": "content/Positions/Lasso Guard.json",
       "message": "Lasso Guard Bottom: authored position_type 'Offensive' but its metrics score -0.056 — the word now wins, so check whether the point_value / risk / submission-retention-advancement numbers are right"
     },
     {
       "type": "position_type_score_disagreement",
-      "severity": "warning",
+      "severity": "info",
       "name": "Leg Hook Top",
       "file": "content/Positions/Leg Hook.json",
       "message": "Leg Hook Top: authored position_type 'Offensive/Controlling' but its metrics score -0.075 — the word now wins, so check whether the point_value / risk / submission-retention-advancement numbers are right"
     },
     {
       "type": "position_type_score_disagreement",
-      "severity": "warning",
+      "severity": "info",
       "name": "Leg Hook Bottom",
       "file": "content/Positions/Leg Hook.json",
       "message": "Leg Hook Bottom: authored position_type 'Defensive with offensive options' but its metrics score -0.106 — the word now wins, so check whether the point_value / risk / submission-retention-advancement numbers are right"
     },
     {
       "type": "position_type_score_disagreement",
-      "severity": "warning",
+      "severity": "info",
       "name": "Leg Weave Top",
       "file": "content/Positions/Leg Weave.json",
       "message": "Leg Weave Top: authored position_type 'Offensive/Controlling' but its metrics score -0.232 — the word now wins, so check whether the point_value / risk / submission-retention-advancement numbers are right"
     },
     {
       "type": "position_type_score_disagreement",
-      "severity": "warning",
+      "severity": "info",
       "name": "Matrix Bottom",
       "file": "content/Positions/Matrix.json",
       "message": "Matrix Bottom: authored position_type 'Offensive' but its metrics score -0.080 — the word now wins, so check whether the point_value / risk / submission-retention-advancement numbers are right"
     },
     {
       "type": "position_type_score_disagreement",
-      "severity": "warning",
+      "severity": "info",
       "name": "Open Guard Top",
       "file": "content/Positions/Open Guard.json",
       "message": "Open Guard Top: authored position_type 'Offensive/Controlling' but its metrics score -0.315 — the word now wins, so check whether the point_value / risk / submission-retention-advancement numbers are right"
     },
     {
       "type": "position_type_score_disagreement",
-      "severity": "warning",
+      "severity": "info",
       "name": "Open Guard Bottom",
       "file": "content/Positions/Open Guard.json",
       "message": "Open Guard Bottom: authored position_type 'Defensive with offensive options' but its metrics score -0.175 — the word now wins, so check whether the point_value / risk / submission-retention-advancement numbers are right"
     },
     {
       "type": "position_type_score_disagreement",
-      "severity": "warning",
+      "severity": "info",
       "name": "Overhook Control Bottom",
       "file": "content/Positions/Overhook Control.json",
       "message": "Overhook Control Bottom: authored position_type 'Defensive with offensive options' but its metrics score -0.059 — the word now wins, so check whether the point_value / risk / submission-retention-advancement numbers are right"
     },
     {
       "type": "position_type_score_disagreement",
-      "severity": "warning",
+      "severity": "info",
       "name": "Overhook Guard Top",
       "file": "content/Positions/Overhook Guard.json",
       "message": "Overhook Guard Top: authored position_type 'Offensive/Controlling' but its metrics score -0.089 — the word now wins, so check whether the point_value / risk / submission-retention-advancement numbers are right"
@@ -1146,14 +478,14 @@
     },
     {
       "type": "position_type_score_disagreement",
-      "severity": "warning",
+      "severity": "info",
       "name": "Piranha Guard Bottom",
       "file": "content/Positions/Piranha Guard.json",
       "message": "Piranha Guard Bottom: authored position_type 'Offensive' but its metrics score -0.028 — the word now wins, so check whether the point_value / risk / submission-retention-advancement numbers are right"
     },
     {
       "type": "position_type_score_disagreement",
-      "severity": "warning",
+      "severity": "info",
       "name": "Quarter Guard Top",
       "file": "content/Positions/Quarter Guard.json",
       "message": "Quarter Guard Top: authored position_type 'Offensive/Controlling' but its metrics score -0.024 — the word now wins, so check whether the point_value / risk / submission-retention-advancement numbers are right"
@@ -1167,21 +499,21 @@
     },
     {
       "type": "position_type_score_disagreement",
-      "severity": "warning",
+      "severity": "info",
       "name": "Ringworm Guard Bottom",
       "file": "content/Positions/Ringworm Guard.json",
       "message": "Ringworm Guard Bottom: authored position_type 'Defensive with offensive options' but its metrics score -0.064 — the word now wins, so check whether the point_value / risk / submission-retention-advancement numbers are right"
     },
     {
       "type": "position_type_score_disagreement",
-      "severity": "warning",
+      "severity": "info",
       "name": "Rodeo Ride Top",
       "file": "content/Positions/Rodeo Ride.json",
       "message": "Rodeo Ride Top: authored position_type 'Offensive/Controlling' but its metrics score -0.032 — the word now wins, so check whether the point_value / risk / submission-retention-advancement numbers are right"
     },
     {
       "type": "position_type_score_disagreement",
-      "severity": "warning",
+      "severity": "info",
       "name": "Chill Dog Top",
       "file": "content/Positions/Rubber Guard/Chill Dog.json",
       "message": "Chill Dog Top: authored position_type 'Offensive' but its metrics score -0.028 — the word now wins, so check whether the point_value / risk / submission-retention-advancement numbers are right"
@@ -1195,14 +527,14 @@
     },
     {
       "type": "position_type_score_disagreement",
-      "severity": "warning",
+      "severity": "info",
       "name": "Crackhead Control Bottom",
       "file": "content/Positions/Rubber Guard/Crackhead Control.json",
       "message": "Crackhead Control Bottom: authored position_type 'Offensive' but its metrics score -0.090 — the word now wins, so check whether the point_value / risk / submission-retention-advancement numbers are right"
     },
     {
       "type": "position_type_score_disagreement",
-      "severity": "warning",
+      "severity": "info",
       "name": "Zombie Top",
       "file": "content/Positions/Rubber Guard/Zombie.json",
       "message": "Zombie Top: authored position_type 'Offensive/Controlling' but its metrics score -0.079 — the word now wins, so check whether the point_value / risk / submission-retention-advancement numbers are right"
@@ -1216,28 +548,28 @@
     },
     {
       "type": "position_type_score_disagreement",
-      "severity": "warning",
+      "severity": "info",
       "name": "Rubber Guard Bottom",
       "file": "content/Positions/Rubber Guard.json",
       "message": "Rubber Guard Bottom: authored position_type 'Offensive/Controlling' but its metrics score -0.035 — the word now wins, so check whether the point_value / risk / submission-retention-advancement numbers are right"
     },
     {
       "type": "position_type_score_disagreement",
-      "severity": "warning",
+      "severity": "info",
       "name": "Seated Guard Top",
       "file": "content/Positions/Seated Guard.json",
       "message": "Seated Guard Top: authored position_type 'Offensive' but its metrics score -0.112 — the word now wins, so check whether the point_value / risk / submission-retention-advancement numbers are right"
     },
     {
       "type": "position_type_score_disagreement",
-      "severity": "warning",
+      "severity": "info",
       "name": "Seated Guard Bottom",
       "file": "content/Positions/Seated Guard.json",
       "message": "Seated Guard Bottom: authored position_type 'Defensive with offensive options' but its metrics score -0.056 — the word now wins, so check whether the point_value / risk / submission-retention-advancement numbers are right"
     },
     {
       "type": "position_type_score_disagreement",
-      "severity": "warning",
+      "severity": "info",
       "name": "Shin-to-Shin Guard Bottom",
       "file": "content/Positions/Shin-to-Shin Guard.json",
       "message": "Shin-to-Shin Guard Bottom: authored position_type 'Defensive with offensive options' but its metrics score -0.056 — the word now wins, so check whether the point_value / risk / submission-retention-advancement numbers are right"
@@ -1251,7 +583,7 @@
     },
     {
       "type": "position_type_score_disagreement",
-      "severity": "warning",
+      "severity": "info",
       "name": "Spider Guard Bottom",
       "file": "content/Positions/Spider Guard.json",
       "message": "Spider Guard Bottom: authored position_type 'Defensive with offensive options' but its metrics score -0.048 — the word now wins, so check whether the point_value / risk / submission-retention-advancement numbers are right"
@@ -1265,21 +597,21 @@
     },
     {
       "type": "position_type_score_disagreement",
-      "severity": "warning",
+      "severity": "info",
       "name": "Squid Guard Bottom",
       "file": "content/Positions/Squid Guard.json",
       "message": "Squid Guard Bottom: authored position_type 'Offensive' but its metrics score -0.066 — the word now wins, so check whether the point_value / risk / submission-retention-advancement numbers are right"
     },
     {
       "type": "position_type_score_disagreement",
-      "severity": "warning",
+      "severity": "info",
       "name": "Standing Guard Top",
       "file": "content/Positions/Standing Guard.json",
       "message": "Standing Guard Top: authored position_type 'Offensive' but its metrics score -0.225 — the word now wins, so check whether the point_value / risk / submission-retention-advancement numbers are right"
     },
     {
       "type": "position_type_score_disagreement",
-      "severity": "warning",
+      "severity": "info",
       "name": "Standing Guard Bottom",
       "file": "content/Positions/Standing Guard.json",
       "message": "Standing Guard Bottom: authored position_type 'Defensive with offensive options' but its metrics score -0.078 — the word now wins, so check whether the point_value / risk / submission-retention-advancement numbers are right"
@@ -1307,7 +639,7 @@
     },
     {
       "type": "position_type_score_disagreement",
-      "severity": "warning",
+      "severity": "info",
       "name": "Worm Guard Bottom",
       "file": "content/Positions/Worm Guard.json",
       "message": "Worm Guard Bottom: authored position_type 'Offensive' but its metrics score -0.056 — the word now wins, so check whether the point_value / risk / submission-retention-advancement numbers are right"
@@ -1321,7 +653,7 @@
     },
     {
       "type": "position_type_score_disagreement",
-      "severity": "warning",
+      "severity": "info",
       "name": "Reverse X-Guard Bottom",
       "file": "content/Positions/X-Guard/Reverse X-Guard.json",
       "message": "Reverse X-Guard Bottom: authored position_type 'Offensive' but its metrics score -0.056 — the word now wins, so check whether the point_value / risk / submission-retention-advancement numbers are right"
@@ -1335,21 +667,21 @@
     },
     {
       "type": "position_type_score_disagreement",
-      "severity": "warning",
+      "severity": "info",
       "name": "X-Guard Bottom",
       "file": "content/Positions/X-Guard.json",
       "message": "X-Guard Bottom: authored position_type 'Offensive' but its metrics score -0.056 — the word now wins, so check whether the point_value / risk / submission-retention-advancement numbers are right"
     },
     {
       "type": "position_type_score_disagreement",
-      "severity": "warning",
+      "severity": "info",
       "name": "Z-Guard Top",
       "file": "content/Positions/Z-Guard.json",
       "message": "Z-Guard Top: authored position_type 'Offensive' but its metrics score -0.217 — the word now wins, so check whether the point_value / risk / submission-retention-advancement numbers are right"
     },
     {
       "type": "position_type_score_disagreement",
-      "severity": "warning",
+      "severity": "info",
       "name": "Z-Guard Bottom",
       "file": "content/Positions/Z-Guard.json",
       "message": "Z-Guard Bottom: authored position_type 'Defensive with offensive options' but its metrics score -0.076 — the word now wins, so check whether the point_value / risk / submission-retention-advancement numbers are right"
@@ -1451,40 +783,10 @@
       "position": "Backside 50-50",
       "role": "top[gi]",
       "type": "attempt_negligible",
-      "message": "top[gi]: 'Counter heel hook' has only 2% attempt probability",
-      "severity": "info",
-      "transition": "Counter heel hook",
-      "current": 2
-    },
-    {
-      "file": "content/Positions/Ashi Garami/Backside 50-50.json",
-      "position": "Backside 50-50",
-      "role": "top[gi]",
-      "type": "attempt_negligible",
       "message": "top[gi]: 'Outside Heel Hook from Backside 50-50' has only 1% attempt probability",
       "severity": "info",
       "transition": "Outside Heel Hook from Backside 50-50",
       "current": 1
-    },
-    {
-      "file": "content/Positions/Ashi Garami/Backside 50-50.json",
-      "position": "Backside 50-50",
-      "role": "bottom[gi]",
-      "type": "attempt_negligible",
-      "message": "bottom[gi]: 'Counter heel hook' has only 2% attempt probability",
-      "severity": "info",
-      "transition": "Counter heel hook",
-      "current": 2
-    },
-    {
-      "file": "content/Positions/Ashi Garami/Cross Ashi-Garami.json",
-      "position": "Cross Ashi-Garami",
-      "role": "bottom[gi]",
-      "type": "attempt_negligible",
-      "message": "bottom[gi]: 'X-Guard to Ashi Garami' has only 2% attempt probability",
-      "severity": "info",
-      "transition": "X-Guard to Ashi Garami",
-      "current": 2
     },
     {
       "file": "content/Positions/Ashi Garami/Cross Ashi-Garami.json",
@@ -1494,16 +796,6 @@
       "message": "bottom[nogi]: 'X-Guard to Ashi Garami' has only 2% attempt probability",
       "severity": "info",
       "transition": "X-Guard to Ashi Garami",
-      "current": 2
-    },
-    {
-      "file": "content/Positions/Ashi Garami/Cross Ashi-Garami.json",
-      "position": "Cross Ashi-Garami",
-      "role": "bottom[gi]",
-      "type": "attempt_negligible",
-      "message": "bottom[gi]: 'Backside 50-50 Entry from Ashi' has only 2% attempt probability",
-      "severity": "info",
-      "transition": "Backside 50-50 Entry from Ashi",
       "current": 2
     },
     {
@@ -1532,16 +824,6 @@
       "role": "bottom[gi]",
       "type": "attempt_negligible",
       "message": "bottom[gi]: 'Counter heel hook' has only 2% attempt probability",
-      "severity": "info",
-      "transition": "Counter heel hook",
-      "current": 2
-    },
-    {
-      "file": "content/Positions/Ashi Garami/Outside Ashi-Garami.json",
-      "position": "Outside Ashi-Garami",
-      "role": "top[gi]",
-      "type": "attempt_negligible",
-      "message": "top[gi]: 'Counter heel hook' has only 2% attempt probability",
       "severity": "info",
       "transition": "Counter heel hook",
       "current": 2
@@ -2141,16 +1423,6 @@
       "position": "Closed Guard",
       "role": "bottom[gi]",
       "type": "attempt_negligible",
-      "message": "bottom[gi]: 'Kimura to Back Take' has only 2% attempt probability",
-      "severity": "info",
-      "transition": "Kimura to Back Take",
-      "current": 2
-    },
-    {
-      "file": "content/Positions/Closed Guard.json",
-      "position": "Closed Guard",
-      "role": "bottom[gi]",
-      "type": "attempt_negligible",
       "message": "bottom[gi]: 'Elevator Sweep' has only 2% attempt probability",
       "severity": "info",
       "transition": "Elevator Sweep",
@@ -2245,26 +1517,6 @@
       "severity": "info",
       "transition": "Closed Guard to Omoplata",
       "current": 2
-    },
-    {
-      "file": "content/Positions/Closed Guard.json",
-      "position": "Closed Guard",
-      "role": "bottom[gi]",
-      "type": "attempt_negligible",
-      "message": "bottom[gi]: 'Omoplata to Back' has only 1% attempt probability",
-      "severity": "info",
-      "transition": "Omoplata to Back",
-      "current": 1
-    },
-    {
-      "file": "content/Positions/Closed Guard.json",
-      "position": "Closed Guard",
-      "role": "bottom[nogi]",
-      "type": "attempt_negligible",
-      "message": "bottom[nogi]: 'Omoplata to Back' has only 1% attempt probability",
-      "severity": "info",
-      "transition": "Omoplata to Back",
-      "current": 1
     },
     {
       "file": "content/Positions/Closed Guard.json",
@@ -2771,10 +2023,10 @@
       "position": "Guillotine Control",
       "role": "bottom[gi]",
       "type": "attempt_negligible",
-      "message": "bottom[gi]: 'Guillotine Escape to Von Flue' has only 1% attempt probability",
+      "message": "bottom[gi]: 'Guillotine Escape to Von Flue' has only 2% attempt probability",
       "severity": "info",
       "transition": "Guillotine Escape to Von Flue",
-      "current": 1
+      "current": 2
     },
     {
       "file": "content/Positions/Guillotine Control.json",
@@ -2791,10 +2043,10 @@
       "position": "Guillotine Control",
       "role": "bottom[gi]",
       "type": "attempt_negligible",
-      "message": "bottom[gi]: 'Guillotine Escape via Posture' has only 1% attempt probability",
+      "message": "bottom[gi]: 'Guillotine Escape via Posture' has only 2% attempt probability",
       "severity": "info",
       "transition": "Guillotine Escape via Posture",
-      "current": 1
+      "current": 2
     },
     {
       "file": "content/Positions/Guillotine Control.json",
@@ -3167,16 +2419,6 @@
       "current": 1
     },
     {
-      "file": "content/Positions/Inverted Guard.json",
-      "position": "Inverted Guard",
-      "role": "bottom[gi]",
-      "type": "attempt_negligible",
-      "message": "bottom[gi]: 'Roll to Truck' has only 2% attempt probability",
-      "severity": "info",
-      "transition": "Roll to Truck",
-      "current": 2
-    },
-    {
       "file": "content/Positions/Lapel Guard.json",
       "position": "Lapel Guard",
       "role": "top[nogi]",
@@ -3249,9 +2491,9 @@
     {
       "file": "content/Positions/Leg Entanglement.json",
       "position": "Leg Entanglement",
-      "role": "bottom[gi]",
+      "role": "top[gi]",
       "type": "attempt_negligible",
-      "message": "bottom[gi]: 'Inside Heel Hook from Ushiro' has only 1% attempt probability",
+      "message": "top[gi]: 'Inside Heel Hook from Ushiro' has only 1% attempt probability",
       "severity": "info",
       "transition": "Inside Heel Hook from Ushiro",
       "current": 1

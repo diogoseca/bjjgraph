@@ -296,13 +296,13 @@ The dual nature of overhook control makes it equally valuable as both an offensi
 ### Available Transitions
 
 
-- **[[Kimura from Overhook Control/Attacker|Kimura from Overhook Control]]** (15% of attempts)
+- **[[Kimura from Overhook Control/Attacker|Kimura from Overhook Control]]** (14% of attempts)
 
-- **[[Darce Choke from Overhook Control/Attacker|Darce Choke from Overhook Control]]** (16% of attempts)
+- **[[Darce Choke from Overhook Control/Attacker|Darce Choke from Overhook Control]]** (15% of attempts)
 
 - **[[Transitions/Anaconda Choke/Attacker|Anaconda Choke]]** (11% of attempts)
 
-- **[[Transitions/Two-on-One to Back Take/Attacker|Two-on-One to Back Take]]** (13% of attempts)
+- **[[Transitions/Two-on-One to Back Take/Attacker|Two-on-One to Back Take]]** (12% of attempts)
 
 - **[[Transitions/Snap Down to Front Headlock/Attacker|Snap Down to Front Headlock]]** (12% of attempts)
 
@@ -313,6 +313,8 @@ The dual nature of overhook control makes it equally valuable as both an offensi
 - **[[Transitions/Side Control to Mount/Attacker|Side Control to Mount]]** (7% of attempts)
 
 - **[[Transitions/Overhook Pass to Side Control/Attacker|Overhook Pass to Side Control]]** (11% of attempts)
+
+- **[[Transitions/Whizzer/Attacker|Whizzer]]** (3% of attempts)
 
 
 ### Common Mistakes

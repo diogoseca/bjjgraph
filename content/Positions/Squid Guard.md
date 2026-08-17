@@ -221,21 +221,19 @@ While Squid Guard is primarily used in gi grappling due to its reliance on lapel
 ### Available Transitions
 
 
-- **[[Transitions/X-Guard Sweep/Attacker|X-Guard Sweep]]** (19% of attempts)
+- **[[Transitions/X-Guard Sweep/Attacker|X-Guard Sweep]]** (20% of attempts)
 
-- **[[Transitions/Single Leg X Sweep/Attacker|Single Leg X Sweep]]** (20% of attempts)
+- **[[Transitions/Single Leg X Sweep/Attacker|Single Leg X Sweep]]** (21% of attempts)
 
 - **[[Transitions/Berimbolo Entry/Attacker|Berimbolo Entry]]** (5% of attempts)
 
-- **[[Transitions/De La Riva Sweep/Attacker|De La Riva Sweep]]** (9% of attempts)
+- **[[Transitions/De La Riva Sweep/Attacker|De La Riva Sweep]]** (10% of attempts)
 
-- **[[Transitions/Guard Recovery from Squid Guard/Attacker|Guard Recovery from Squid Guard]]** (23% of attempts)
+- **[[Transitions/Guard Recovery from Squid Guard/Attacker|Guard Recovery from Squid Guard]]** (24% of attempts)
 
-- **[[Transitions/Omoplata Sweep/Attacker|Omoplata Sweep]]** (9% of attempts)
+- **[[Transitions/Omoplata Sweep/Attacker|Omoplata Sweep]]** (10% of attempts)
 
-- **[[Transitions/Triangle Setup/Attacker|Triangle Setup]]** (9% of attempts)
-
-- **[[Transitions/Omoplata to Back/Attacker|Omoplata to Back]]** (6% of attempts)
+- **[[Transitions/Triangle Setup/Attacker|Triangle Setup]]** (10% of attempts)
 
 - **[[Transitions/Squid Guard Sweep/Attacker|Squid Guard Sweep]]** (0% of attempts)
 

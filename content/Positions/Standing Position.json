@@ -107,7 +107,7 @@
       {
         "transition": "Guard Pull",
         "attempt_probability": {
-          "gi": 17,
+          "gi": 16,
           "nogi": 7
         }
       },
@@ -121,15 +121,15 @@
       {
         "transition": "Single Leg Entry",
         "attempt_probability": {
-          "gi": 7,
-          "nogi": 10
+          "gi": 6,
+          "nogi": 9
         }
       },
       {
         "transition": "Double Leg Setup",
         "attempt_probability": {
-          "gi": 5,
-          "nogi": 8
+          "gi": 4,
+          "nogi": 7
         }
       },
       {
@@ -157,7 +157,7 @@
         "transition": "Snap Down to Front Headlock",
         "attempt_probability": {
           "gi": 3,
-          "nogi": 7
+          "nogi": 6
         }
       },
       {
@@ -346,6 +346,13 @@
         "transition": "Standing to Single Leg X",
         "attempt_probability": {
           "gi": 2,
+          "nogi": 3
+        }
+      },
+      {
+        "transition": "Sitting Guard Pull",
+        "attempt_probability": {
+          "gi": 3,
           "nogi": 3
         }
       }
@@ -768,50 +775,43 @@
       {
         "transition": "Pull Guard from Standing",
         "attempt_probability": {
-          "gi": 29,
-          "nogi": 16
+          "gi": 33,
+          "nogi": 19
         }
       },
       {
         "transition": "Standing Guard Pull",
         "attempt_probability": {
-          "gi": 19,
-          "nogi": 14
+          "gi": 21,
+          "nogi": 17
         }
       },
       {
         "transition": "Butterfly Guard Pull",
         "attempt_probability": {
-          "gi": 14,
-          "nogi": 14
-        }
-      },
-      {
-        "transition": "Arm Drag",
-        "attempt_probability": {
-          "gi": 11,
-          "nogi": 15
+          "gi": 16,
+          "nogi": 16
         }
       },
       {
         "transition": "Level Change Takedown",
         "attempt_probability": {
-          "gi": 9,
-          "nogi": 15
+          "gi": 10,
+          "nogi": 18
         }
       },
       {
         "transition": "Takedown from Bottom",
         "attempt_probability": {
-          "gi": 9,
-          "nogi": 14
+          "gi": 10,
+          "nogi": 16
         }
       },
       {
         "transition": "Snap Down from Standing",
         "attempt_probability": {
-          "gi": 9,
-          "nogi": 12
+          "gi": 10,
+          "nogi": 14
         }
       }
     ],

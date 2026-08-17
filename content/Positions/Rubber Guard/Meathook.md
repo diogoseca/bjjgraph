@@ -229,25 +229,23 @@ Understanding Meathook requires grasping its place in the larger Rubber Guard ec
 ### Available Transitions
 
 
-- **[[Transitions/Meathook to Gogoplata Control/Attacker|Meathook to Gogoplata Control]]** (21% of attempts)
+- **[[Transitions/Meathook to Gogoplata Control/Attacker|Meathook to Gogoplata Control]]** (22% of attempts)
 
-- **[[Transitions/Triangle Setup/Attacker|Triangle Setup]]** (14% of attempts)
+- **[[Transitions/Triangle Setup/Attacker|Triangle Setup]]** (15% of attempts)
 
-- **[[Transitions/Closed Guard to Omoplata/Attacker|Closed Guard to Omoplata]]** (11% of attempts)
+- **[[Transitions/Closed Guard to Omoplata/Attacker|Closed Guard to Omoplata]]** (12% of attempts)
 
 - **[[Transitions/Crackhead Control to Carni/Attacker|Crackhead Control to Carni]]** (7% of attempts)
 
-- **[[Transitions/Armbar from New York/Attacker|Armbar from New York]]** (8% of attempts)
+- **[[Transitions/Armbar from New York/Attacker|Armbar from New York]]** (9% of attempts)
 
-- **[[Transitions/Omoplata to Back/Attacker|Omoplata to Back]]** (6% of attempts)
-
-- **[[Transitions/Crackhead Control to Mission Control/Attacker|Crackhead Control to Mission Control]]** (14% of attempts)
+- **[[Transitions/Crackhead Control to Mission Control/Attacker|Crackhead Control to Mission Control]]** (15% of attempts)
 
 - **[[Transitions/Baratoplata Setup/Attacker|Baratoplata Setup]]** (4% of attempts)
 
 - **[[Transitions/Tarikoplata Setup/Attacker|Tarikoplata Setup]]** (4% of attempts)
 
-- **[[Transitions/Sweep from Meathook/Attacker|Sweep from Meathook]]** (11% of attempts)
+- **[[Transitions/Sweep from Meathook/Attacker|Sweep from Meathook]]** (12% of attempts)
 
 
 ### Common Mistakes

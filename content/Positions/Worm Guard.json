@@ -800,27 +800,20 @@
         "transition": "Omoplata Sweep",
         "attempt_probability": {
           "gi": 8,
-          "nogi": 19
+          "nogi": 21
         }
       },
       {
         "transition": "Triangle Setup",
         "attempt_probability": {
           "gi": 5,
-          "nogi": 17
-        }
-      },
-      {
-        "transition": "Omoplata to Back",
-        "attempt_probability": {
-          "gi": 5,
-          "nogi": 11
+          "nogi": 19
         }
       },
       {
         "transition": "Lapel Elevator Sweep",
         "attempt_probability": {
-          "gi": 11,
+          "gi": 12,
           "nogi": 0
         }
       },
@@ -828,21 +821,21 @@
         "transition": "X-Guard Sweep",
         "attempt_probability": {
           "gi": 7,
-          "nogi": 29
+          "nogi": 33
         }
       },
       {
         "transition": "De La Riva Sweep",
         "attempt_probability": {
           "gi": 6,
-          "nogi": 18
+          "nogi": 20
         }
       },
       {
         "transition": "Bolo Sweep",
         "attempt_probability": {
-          "gi": 12,
-          "nogi": 6
+          "gi": 13,
+          "nogi": 7
         }
       },
       {
@@ -855,14 +848,14 @@
       {
         "transition": "Worm Guard Sweep",
         "attempt_probability": {
-          "gi": 28,
+          "gi": 30,
           "nogi": 0
         }
       },
       {
         "transition": "Worm to Squid Guard",
         "attempt_probability": {
-          "gi": 11,
+          "gi": 12,
           "nogi": 0
         }
       }

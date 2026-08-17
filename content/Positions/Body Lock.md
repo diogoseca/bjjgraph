@@ -221,23 +221,19 @@ The position is inherently transitional and requires immediate attack execution.
 ### Available Transitions
 
 
-- **[[Transitions/Grip Break/Attacker|Grip Break]]** (17% of attempts)
+- **[[Transitions/Grip Break/Attacker|Grip Break]]** (22% of attempts)
 
-- **[[Transitions/Sitting Guard Pull/Attacker|Sitting Guard Pull]]** (15% of attempts)
+- **[[Transitions/Rolling to Guard/Attacker|Rolling to Guard]]** (12% of attempts)
 
-- **[[Transitions/Rolling to Guard/Attacker|Rolling to Guard]]** (9% of attempts)
+- **[[Transitions/Turn In and Face/Attacker|Turn In and Face]]** (18% of attempts)
 
-- **[[Transitions/Whizzer/Attacker|Whizzer]]** (9% of attempts)
+- **[[Transitions/Standing up in Base/Attacker|Standing up in Base]]** (10% of attempts)
 
-- **[[Transitions/Turn In and Face/Attacker|Turn In and Face]]** (14% of attempts)
+- **[[Transitions/Escape Body Lock/Attacker|Escape Body Lock]]** (14% of attempts)
 
-- **[[Transitions/Standing up in Base/Attacker|Standing up in Base]]** (8% of attempts)
+- **[[Transitions/Pummeling Escape from Body Lock/Attacker|Pummeling Escape from Body Lock]]** (16% of attempts)
 
-- **[[Transitions/Escape Body Lock/Attacker|Escape Body Lock]]** (10% of attempts)
-
-- **[[Transitions/Pummeling Escape from Body Lock/Attacker|Pummeling Escape from Body Lock]]** (12% of attempts)
-
-- **[[Transitions/Reversal from Body Lock/Attacker|Reversal from Body Lock]]** (6% of attempts)
+- **[[Transitions/Reversal from Body Lock/Attacker|Reversal from Body Lock]]** (8% of attempts)
 
 
 ### Common Mistakes

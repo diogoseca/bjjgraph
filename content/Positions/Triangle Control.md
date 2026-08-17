@@ -196,19 +196,17 @@ The triangle choke has evolved significantly since its popularization in competi
 ### Available Transitions
 
 
-- **[[Triangle Choke from Triangle Control/Attacker|Triangle Choke from Triangle Control]]** (38% of attempts)
+- **[[Triangle Choke from Triangle Control/Attacker|Triangle Choke from Triangle Control]]** (42% of attempts)
 
-- **[[Transitions/Triangle to Armbar/Attacker|Triangle to Armbar]]** (18% of attempts)
+- **[[Transitions/Triangle to Armbar/Attacker|Triangle to Armbar]]** (20% of attempts)
 
-- **[[Transitions/Triangle to Omoplata/Attacker|Triangle to Omoplata]]** (10% of attempts)
+- **[[Transitions/Triangle to Omoplata/Attacker|Triangle to Omoplata]]** (11% of attempts)
 
-- **[[Transitions/Triangle to Back/Attacker|Triangle to Back]]** (11% of attempts)
+- **[[Transitions/Triangle to Back/Attacker|Triangle to Back]]** (12% of attempts)
 
-- **[[Positions/Mount/Mounted Triangle/Attacker|Mounted Triangle]]** (10% of attempts)
+- **[[Transitions/Closed Guard to Omoplata/Attacker|Closed Guard to Omoplata]]** (6% of attempts)
 
-- **[[Transitions/Closed Guard to Omoplata/Attacker|Closed Guard to Omoplata]]** (5% of attempts)
-
-- **[[Inverted Triangle from Triangle Control/Attacker|Inverted Triangle from Triangle Control]]** (8% of attempts)
+- **[[Inverted Triangle from Triangle Control/Attacker|Inverted Triangle from Triangle Control]]** (9% of attempts)
 
 
 ### Common Mistakes
@@ -267,17 +265,15 @@ The triangle choke has evolved significantly since its popularization in competi
 ### Available Transitions
 
 
-- **[[Transitions/Triangle Escape/Attacker|Triangle Escape]]** (19% of attempts)
+- **[[Transitions/Triangle Escape/Attacker|Triangle Escape]]** (23% of attempts)
 
-- **[[Transitions/Posture Recovery/Attacker|Posture Recovery]]** (21% of attempts)
+- **[[Transitions/Posture Recovery/Attacker|Posture Recovery]]** (25% of attempts)
 
-- **[[Transitions/Guard Recovery from Triangle Control/Attacker|Guard Recovery from Triangle Control]]** (12% of attempts)
+- **[[Transitions/Guard Recovery from Triangle Control/Attacker|Guard Recovery from Triangle Control]]** (14% of attempts)
 
-- **[[Transitions/Triangle Clear to Side/Attacker|Triangle Clear to Side]]** (16% of attempts)
+- **[[Transitions/Posture Up from Triangle/Attacker|Posture Up from Triangle]]** (23% of attempts)
 
-- **[[Transitions/Posture Up from Triangle/Attacker|Posture Up from Triangle]]** (19% of attempts)
-
-- **[[Transitions/Stack Escape from Triangle/Attacker|Stack Escape from Triangle]]** (13% of attempts)
+- **[[Transitions/Stack Escape from Triangle/Attacker|Stack Escape from Triangle]]** (15% of attempts)
 
 
 ### Common Mistakes

@@ -20,38 +20,38 @@ description: "Master Guillotine Control Bottom in BJJ. Complete guide covering s
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Execute Guillotine Choke from Guillotine Control",
-      "text": "From this position, attempt Guillotine Choke from Guillotine Control. This technique is attempted in 29% of exchanges from this position.",
+      "name": "Execute High Elbow Guillotine Variation",
+      "text": "From this position, attempt High Elbow Guillotine Variation. This technique is attempted in 21% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute High Elbow Guillotine Variation",
-      "text": "From this position, attempt High Elbow Guillotine Variation. This technique is attempted in 15% of exchanges from this position.",
+      "name": "Execute Hip Bump Sweep",
+      "text": "From this position, attempt Hip Bump Sweep. This technique is attempted in 16% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Hip Bump Sweep",
-      "text": "From this position, attempt Hip Bump Sweep. This technique is attempted in 11% of exchanges from this position.",
+      "name": "Execute Closed Guard to Omoplata",
+      "text": "From this position, attempt Closed Guard to Omoplata. This technique is attempted in 7% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Closed Guard to Omoplata",
-      "text": "From this position, attempt Closed Guard to Omoplata. This technique is attempted in 5% of exchanges from this position.",
+      "name": "Execute Closed Guard to Triangle",
+      "text": "From this position, attempt Closed Guard to Triangle. This technique is attempted in 14% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Closed Guard to Triangle",
-      "text": "From this position, attempt Closed Guard to Triangle. This technique is attempted in 10% of exchanges from this position.",
+      "name": "Execute Guard Recovery from Guillotine Control",
+      "text": "From this position, attempt Guard Recovery from Guillotine Control. This technique is attempted in 17% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Guard Recovery from Guillotine Control",
-      "text": "From this position, attempt Guard Recovery from Guillotine Control. This technique is attempted in 12% of exchanges from this position.",
+      "name": "Execute Butterfly Sweep with Guillotine",
+      "text": "From this position, attempt Butterfly Sweep with Guillotine. This technique is attempted in 23% of exchanges from this position.",
       "position": 6
     }
   ],

@@ -380,50 +380,43 @@
       {
         "transition": "Head Extraction to Posture",
         "attempt_probability": {
-          "gi": 17,
-          "nogi": 16
+          "gi": 19,
+          "nogi": 18
         }
       },
       {
         "transition": "Shin Removal to Pass",
+        "attempt_probability": {
+          "gi": 13,
+          "nogi": 13
+        }
+      },
+      {
+        "transition": "Leg Extraction Escape",
         "attempt_probability": {
           "gi": 12,
           "nogi": 12
         }
       },
       {
-        "transition": "Leg Extraction Escape",
-        "attempt_probability": {
-          "gi": 11,
-          "nogi": 11
-        }
-      },
-      {
         "transition": "Angle Change Escape",
         "attempt_probability": {
-          "gi": 8,
-          "nogi": 10
+          "gi": 9,
+          "nogi": 11
         }
       },
       {
         "transition": "Hand Control to Extract",
         "attempt_probability": {
-          "gi": 14,
-          "nogi": 14
-        }
-      },
-      {
-        "transition": "Roll to Turtle",
-        "attempt_probability": {
-          "gi": 7,
-          "nogi": 7
+          "gi": 16,
+          "nogi": 16
         }
       },
       {
         "transition": "Posture Recovery",
         "attempt_probability": {
-          "gi": 14,
-          "nogi": 14
+          "gi": 16,
+          "nogi": 16
         }
       },
       {
@@ -436,15 +429,8 @@
       {
         "transition": "Posture Up from Gogoplata",
         "attempt_probability": {
-          "gi": 10,
-          "nogi": 9
-        }
-      },
-      {
-        "transition": "Gogoplata from Gogoplata Control",
-        "attempt_probability": {
-          "gi": 3,
-          "nogi": 3
+          "gi": 11,
+          "nogi": 10
         }
       }
     ],

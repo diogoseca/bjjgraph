@@ -202,27 +202,23 @@ The closed guard's versatility across gi and no-gi competition, its effectivenes
 ### Available Transitions
 
 
-- **[[Transitions/Hip Bump Sweep/Attacker|Hip Bump Sweep]]** (9% of attempts)
+- **[[Transitions/Hip Bump Sweep/Attacker|Hip Bump Sweep]]** (11% of attempts)
 
 - **[[Submissions/Wrist Lock/Attacker|Wrist Lock]]** (1% of attempts)
 
-- **[[Transitions/Scissor Sweep/Attacker|Scissor Sweep]]** (6% of attempts)
+- **[[Transitions/Scissor Sweep/Attacker|Scissor Sweep]]** (8% of attempts)
 
-- **[[Transitions/Triangle Setup/Attacker|Triangle Setup]]** (10% of attempts)
+- **[[Transitions/Triangle Setup/Attacker|Triangle Setup]]** (13% of attempts)
 
 - **[[Cross Collar Choke from Closed Guard/Attacker|Cross Collar Choke from Closed Guard]]** (0% of attempts)
 
-- **[[Transitions/Pendulum Sweep/Attacker|Pendulum Sweep]]** (5% of attempts)
+- **[[Transitions/Pendulum Sweep/Attacker|Pendulum Sweep]]** (6% of attempts)
 
-- **[[Transitions/Guillotine Setup/Attacker|Guillotine Setup]]** (10% of attempts)
-
-- **[[Transitions/Kimura Sweep/Attacker|Kimura Sweep]]** (4% of attempts)
+- **[[Transitions/Kimura Sweep/Attacker|Kimura Sweep]]** (5% of attempts)
 
 - **[[Submissions/Armbar/Rolling Armbar from Closed Guard/Attacker|Rolling Armbar from Closed Guard]]** (1% of attempts)
 
 - **[[Transitions/Flower Sweep/Attacker|Flower Sweep]]** (2% of attempts)
-
-- **[[Transitions/Kimura to Back Take/Attacker|Kimura to Back Take]]** (3% of attempts)
 
 - **[[Transitions/Elevator Sweep/Attacker|Elevator Sweep]]** (2% of attempts)
 
@@ -230,7 +226,7 @@ The closed guard's versatility across gi and no-gi competition, its effectivenes
 
 - **[[Transitions/Omoplata Sweep/Attacker|Omoplata Sweep]]** (1% of attempts)
 
-- **[[Transitions/Closed Guard to Triangle/Attacker|Closed Guard to Triangle]]** (4% of attempts)
+- **[[Transitions/Closed Guard to Triangle/Attacker|Closed Guard to Triangle]]** (5% of attempts)
 
 - **[[Monoplata from Guard/Attacker|Monoplata from Guard]]** (1% of attempts)
 
@@ -238,21 +234,19 @@ The closed guard's versatility across gi and no-gi competition, its effectivenes
 
 - **[[Transitions/Closed Guard to Omoplata/Attacker|Closed Guard to Omoplata]]** (2% of attempts)
 
-- **[[Transitions/Omoplata to Back/Attacker|Omoplata to Back]]** (1% of attempts)
-
 - **[[Transitions/Muscle Sweep/Attacker|Muscle Sweep]]** (1% of attempts)
 
-- **[[Transitions/Closed Guard to Overhook Guard/Attacker|Closed Guard to Overhook Guard]]** (4% of attempts)
+- **[[Transitions/Closed Guard to Overhook Guard/Attacker|Closed Guard to Overhook Guard]]** (5% of attempts)
 
 - **[[Transitions/High Guard to Rubber Guard/Attacker|High Guard to Rubber Guard]]** (3% of attempts)
 
 - **[[Transitions/Transition to Diamond Guard/Attacker|Transition to Diamond Guard]]** (1% of attempts)
 
-- **[[Armbar from Guard/Attacker|Armbar from Guard]]** (5% of attempts)
+- **[[Armbar from Guard/Attacker|Armbar from Guard]]** (6% of attempts)
 
 - **[[Flying Armbar from Closed Guard/Attacker|Flying Armbar from Closed Guard]]** (1% of attempts)
 
-- **[[Kimura from Guard/Attacker|Kimura from Guard]]** (6% of attempts)
+- **[[Kimura from Guard/Attacker|Kimura from Guard]]** (7% of attempts)
 
 - **[[Kneebar from Guard/Attacker|Kneebar from Guard]]** (2% of attempts)
 
@@ -262,7 +256,7 @@ The closed guard's versatility across gi and no-gi competition, its effectivenes
 
 - **[[Tarikoplata from Closed Guard/Attacker|Tarikoplata from Closed Guard]]** (1% of attempts)
 
-- **[[Triangle Choke from Closed Guard/Attacker|Triangle Choke from Closed Guard]]** (6% of attempts)
+- **[[Triangle Choke from Closed Guard/Attacker|Triangle Choke from Closed Guard]]** (7% of attempts)
 
 - **[[Transitions/Closed Guard to Hindulotine/Attacker|Closed Guard to Hindulotine]]** (1% of attempts)
 

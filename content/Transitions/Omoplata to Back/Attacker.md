@@ -16,7 +16,7 @@ description: "How to execute the Omoplata to Back transition in BJJ. Step-by-ste
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Omoplata to Back in BJJ",
-  "description": "Step-by-step guide for executing Omoplata to Back from Omoplata Control/Bottom.",
+  "description": "Step-by-step guide for executing Omoplata to Back from Omoplata Control/Top.",
   "step": [
     {
       "@type": "HowToStep",
@@ -223,7 +223,7 @@ description: "How to execute the Omoplata to Back transition in BJJ. Step-by-ste
 
 The Omoplata to Back transition converts your opponent's forward roll escape into dominant back control. When you have the omoplata locked and your opponent commits to rolling over their trapped shoulder, you follow their momentum while maintaining your leg across their shoulder girdle, then immediately establish hooks and seatbelt as they complete the rotation. The technique requires reading the roll initiation early, maintaining unbroken hip-to-shoulder connection throughout the entire rotation, and threading your first hook the moment their hips become accessible. Speed of seatbelt establishment after the roll determines whether you consolidate back control or lose the position as they turn to face you. This is one of the highest-percentage back takes available from guard because the opponent's own escape momentum carries them directly into your control.
 
-**From Position**: [[Positions/Omoplata Control]] (Bottom)
+**From Position**: [[Positions/Omoplata Control]] (Top)
 
 </section>
 

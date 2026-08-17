@@ -21,13 +21,13 @@ description: "Attacking perspective in reversed leg entanglement. Master control
     {
       "@type": "HowToStep",
       "name": "Execute Inside Heel Hook from Ushiro",
-      "text": "From this position, attempt Inside Heel Hook from Ushiro. This technique is attempted in 8% of exchanges from this position.",
+      "text": "From this position, attempt Inside Heel Hook from Ushiro. This technique is attempted in 9% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Follow to Back Control",
-      "text": "From this position, attempt Follow to Back Control. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Follow to Back Control. This technique is attempted in 13% of exchanges from this position.",
       "position": 2
     },
     {
@@ -39,19 +39,19 @@ description: "Attacking perspective in reversed leg entanglement. Master control
     {
       "@type": "HowToStep",
       "name": "Execute Cross Ashi Transition",
-      "text": "From this position, attempt Cross Ashi Transition. This technique is attempted in 7% of exchanges from this position.",
+      "text": "From this position, attempt Cross Ashi Transition. This technique is attempted in 8% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Outside Heel Hook Adjustment",
-      "text": "From this position, attempt Outside Heel Hook Adjustment. This technique is attempted in 8% of exchanges from this position.",
+      "text": "From this position, attempt Outside Heel Hook Adjustment. This technique is attempted in 9% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Return to Outside Ashi",
-      "text": "From this position, attempt Return to Outside Ashi. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Return to Outside Ashi. This technique is attempted in 11% of exchanges from this position.",
       "position": 6
     }
   ],

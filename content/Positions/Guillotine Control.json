@@ -535,7 +535,7 @@
     "overview": "Guillotine Control Bottom represents a critical attacking position where the bottom practitioner has secured a guillotine choke grip while maintaining guard or attempting to close guard. This position transforms defensive bottom play into an immediate offensive threat, creating a powerful submission opportunity from what would otherwise be a neutral or disadvantageous position. The position is characterized by the bottom player controlling the opponent's head and neck with a front headlock grip, typically with the choking arm wrapped around the opponent's neck and the hands clasped together, while using the legs to control distance and prevent the opponent from escaping or advancing position.\n\nThe strategic value of Guillotine Control Bottom lies in its ability to threaten immediate submission while simultaneously creating opportunities for sweeps and guard retention. The position forces the opponent into a defensive posture, preventing them from executing their preferred passing game or establishing dominant control. Successful execution requires precise understanding of choking mechanics, proper hand placement, and the ability to coordinate upper body control with lower body positioning. The bottom player must balance the urgency of finishing the submission with the patience required to maintain control and prevent escape.\n\nFrom a positional hierarchy perspective, Guillotine Control Bottom represents a high-risk, high-reward position that can quickly transition to either submission victory or positional disadvantage if the opponent successfully defends. The position demands technical precision in grip management, hip positioning, and understanding of multiple finishing variations including arm-in guillotine, high elbow guillotine, and ten-finger variations. Modern guillotine systems emphasize the importance of guard retention and the ability to transition between different guillotine variations based on opponent reactions.",
     "state_properties": {
       "point_value": 0,
-      "position_type": "Defensive with offensive options",
+      "position_type": "Offensive/Controlling",
       "risk_level": "High",
       "energy_cost": "High",
       "time_sustainability": "Short to Medium"
@@ -874,65 +874,58 @@
     },
     "transitions": [
       {
-        "transition": "Guillotine Choke from Guillotine Control",
-        "attempt_probability": {
-          "gi": 29,
-          "nogi": 29
-        }
-      },
-      {
         "transition": "High Elbow Guillotine Variation",
         "attempt_probability": {
-          "gi": 13,
-          "nogi": 15
+          "gi": 18,
+          "nogi": 21
         }
       },
       {
         "transition": "Hip Bump Sweep",
         "attempt_probability": {
-          "gi": 13,
-          "nogi": 11
+          "gi": 18,
+          "nogi": 16
         }
       },
       {
         "transition": "Closed Guard to Omoplata",
         "attempt_probability": {
-          "gi": 7,
-          "nogi": 5
+          "gi": 10,
+          "nogi": 7
         }
       },
       {
         "transition": "Closed Guard to Triangle",
         "attempt_probability": {
-          "gi": 10,
-          "nogi": 10
+          "gi": 14,
+          "nogi": 14
         }
       },
       {
         "transition": "Guard Recovery from Guillotine Control",
         "attempt_probability": {
-          "gi": 13,
-          "nogi": 12
+          "gi": 18,
+          "nogi": 17
         }
       },
       {
         "transition": "Butterfly Sweep with Guillotine",
         "attempt_probability": {
-          "gi": 13,
-          "nogi": 16
+          "gi": 18,
+          "nogi": 23
         }
       },
       {
         "transition": "Guillotine Escape to Von Flue",
         "attempt_probability": {
-          "gi": 1,
+          "gi": 2,
           "nogi": 1
         }
       },
       {
         "transition": "Guillotine Escape via Posture",
         "attempt_probability": {
-          "gi": 1,
+          "gi": 2,
           "nogi": 1
         }
       }

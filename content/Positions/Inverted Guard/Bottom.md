@@ -21,37 +21,37 @@ description: "Master inverted guard from bottom perspective. Dynamic defensive p
     {
       "@type": "HowToStep",
       "name": "Execute Berimbolo Entry",
-      "text": "From this position, attempt Berimbolo Entry. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Berimbolo Entry. This technique is attempted in 14% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Rolling Back Take",
-      "text": "From this position, attempt Rolling Back Take. This technique is attempted in 14% of exchanges from this position.",
+      "name": "Execute Single Leg X Entry",
+      "text": "From this position, attempt Single Leg X Entry. This technique is attempted in 19% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Single Leg X Entry",
-      "text": "From this position, attempt Single Leg X Entry. This technique is attempted in 15% of exchanges from this position.",
+      "name": "Execute X-Guard Sweep",
+      "text": "From this position, attempt X-Guard Sweep. This technique is attempted in 12% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute X-Guard Sweep",
-      "text": "From this position, attempt X-Guard Sweep. This technique is attempted in 10% of exchanges from this position.",
-      "position": 4
-    },
-    {
-      "@type": "HowToStep",
       "name": "Execute Granby Roll to Guard",
-      "text": "From this position, attempt Granby Roll to Guard. This technique is attempted in 14% of exchanges from this position.",
-      "position": 5
+      "text": "From this position, attempt Granby Roll to Guard. This technique is attempted in 18% of exchanges from this position.",
+      "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Omoplata from Inverted Guard",
       "text": "From this position, attempt Omoplata from Inverted Guard. This technique is attempted in 3% of exchanges from this position.",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Reverse X-Guard Entry",
+      "text": "From this position, attempt Reverse X-Guard Entry. This technique is attempted in 8% of exchanges from this position.",
       "position": 6
     }
   ],

@@ -204,25 +204,23 @@ The strategic value of the Hindulotine lies in its ability to force defensive re
 ### Available Transitions
 
 
-- **[[Guillotine Choke from Hindulotine/Attacker|Guillotine Choke from Hindulotine]]** (24% of attempts)
+- **[[Transitions/Hindulotine to Darce Choke/Attacker|Hindulotine to Darce Choke]]** (13% of attempts)
 
-- **[[Transitions/Hindulotine to Darce Choke/Attacker|Hindulotine to Darce Choke]]** (10% of attempts)
+- **[[Transitions/Hindulotine to Anaconda Choke/Attacker|Hindulotine to Anaconda Choke]]** (7% of attempts)
 
-- **[[Transitions/Hindulotine to Anaconda Choke/Attacker|Hindulotine to Anaconda Choke]]** (5% of attempts)
+- **[[Transitions/Back Take from Bottom/Attacker|Back Take from Bottom]]** (9% of attempts)
 
-- **[[Transitions/Back Take from Bottom/Attacker|Back Take from Bottom]]** (7% of attempts)
+- **[[Transitions/High Elbow Guillotine Variation/Attacker|High Elbow Guillotine Variation]]** (17% of attempts)
 
-- **[[Transitions/High Elbow Guillotine Variation/Attacker|High Elbow Guillotine Variation]]** (13% of attempts)
+- **[[Transitions/Butterfly Sweep with Guillotine/Attacker|Butterfly Sweep with Guillotine]]** (18% of attempts)
 
-- **[[Transitions/Butterfly Sweep with Guillotine/Attacker|Butterfly Sweep with Guillotine]]** (14% of attempts)
+- **[[Transitions/Guard Recovery from Hindulotine/Attacker|Guard Recovery from Hindulotine]]** (12% of attempts)
 
-- **[[Transitions/Guard Recovery from Hindulotine/Attacker|Guard Recovery from Hindulotine]]** (9% of attempts)
+- **[[Transitions/Arm Triangle Transition/Attacker|Arm Triangle Transition]]** (5% of attempts)
 
-- **[[Transitions/Arm Triangle Transition/Attacker|Arm Triangle Transition]]** (4% of attempts)
+- **[[Transitions/Sweep to Mount/Attacker|Sweep to Mount]]** (8% of attempts)
 
-- **[[Transitions/Sweep to Mount/Attacker|Sweep to Mount]]** (6% of attempts)
-
-- **[[High Elbow Guillotine from Hindulotine/Attacker|High Elbow Guillotine from Hindulotine]]** (8% of attempts)
+- **[[High Elbow Guillotine from Hindulotine/Attacker|High Elbow Guillotine from Hindulotine]]** (11% of attempts)
 
 
 ### Common Mistakes

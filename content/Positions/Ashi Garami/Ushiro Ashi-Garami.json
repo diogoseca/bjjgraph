@@ -378,70 +378,63 @@
         "transition": "Inside Heel Hook from Ushiro",
         "attempt_probability": {
           "gi": 1,
-          "nogi": 8
+          "nogi": 9
         }
       },
       {
         "transition": "Follow to Back Control",
         "attempt_probability": {
-          "gi": 21,
-          "nogi": 12
+          "gi": 24,
+          "nogi": 13
         }
       },
       {
         "transition": "Ankle Lock Finish",
         "attempt_probability": {
-          "gi": 16,
+          "gi": 18,
           "nogi": 6
         }
       },
       {
         "transition": "Cross Ashi Transition",
         "attempt_probability": {
-          "gi": 7,
-          "nogi": 7
+          "gi": 8,
+          "nogi": 8
         }
       },
       {
         "transition": "Outside Heel Hook Adjustment",
         "attempt_probability": {
           "gi": 0,
-          "nogi": 8
+          "nogi": 9
         }
       },
       {
         "transition": "Return to Outside Ashi",
         "attempt_probability": {
-          "gi": 16,
-          "nogi": 10
+          "gi": 18,
+          "nogi": 11
         }
       },
       {
         "transition": "Kneebar from Ushiro",
         "attempt_probability": {
-          "gi": 12,
-          "nogi": 7
+          "gi": 14,
+          "nogi": 8
         }
       },
       {
         "transition": "Saddle Entry from Top",
         "attempt_probability": {
-          "gi": 4,
-          "nogi": 11
+          "gi": 5,
+          "nogi": 12
         }
       },
       {
         "transition": "Toe Hold from Ushiro Ashi-Garami",
         "attempt_probability": {
-          "gi": 10,
+          "gi": 12,
           "nogi": 5
-        }
-      },
-      {
-        "transition": "Ashi Garami Maintenance",
-        "attempt_probability": {
-          "gi": 13,
-          "nogi": 8
         }
       },
       {
@@ -455,7 +448,7 @@
         "transition": "Inside Heel Hook from Ushiro Ashi-Garami",
         "attempt_probability": {
           "gi": 0,
-          "nogi": 7
+          "nogi": 8
         }
       },
       {

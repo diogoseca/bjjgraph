@@ -781,64 +781,29 @@
       {
         "transition": "Pull Guard from Ground",
         "attempt_probability": {
-          "gi": 21,
-          "nogi": 12
-        }
-      },
-      {
-        "transition": "Sitting Guard Pull",
-        "attempt_probability": {
-          "gi": 16,
-          "nogi": 12
-        }
-      },
-      {
-        "transition": "Ankle Pick",
-        "attempt_probability": {
-          "gi": 11,
-          "nogi": 12
+          "gi": 44,
+          "nogi": 31
         }
       },
       {
         "transition": "Arm Drag to Back",
         "attempt_probability": {
-          "gi": 9,
-          "nogi": 12
+          "gi": 20,
+          "nogi": 30
         }
       },
       {
         "transition": "Rolling Guard Pull",
         "attempt_probability": {
-          "gi": 7,
-          "nogi": 5
-        }
-      },
-      {
-        "transition": "Double Leg Entry",
-        "attempt_probability": {
-          "gi": 8,
-          "nogi": 12
-        }
-      },
-      {
-        "transition": "Single Leg Entry",
-        "attempt_probability": {
-          "gi": 10,
+          "gi": 13,
           "nogi": 13
-        }
-      },
-      {
-        "transition": "Snap Down to Front Headlock",
-        "attempt_probability": {
-          "gi": 7,
-          "nogi": 11
         }
       },
       {
         "transition": "Sweep from Standing Guard",
         "attempt_probability": {
-          "gi": 11,
-          "nogi": 11
+          "gi": 23,
+          "nogi": 26
         }
       }
     ],

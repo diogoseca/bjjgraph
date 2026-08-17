@@ -195,7 +195,7 @@ Defending the gogoplata requires immediate recognition and decisive action, as t
 
 The most effective gogoplata defense operates on a timeline: early recognition when the attacker begins threading their leg provides the highest-percentage escape window, while late-stage defense against a fully locked position requires careful execution to avoid tracheal damage. Understanding the mechanical requirements of the gogoplata - broken posture, shin across throat, head pulled forward - reveals that disrupting any single element can prevent the finish. The defender must prioritize posture recovery above all else, as maintaining any degree of upright positioning makes it physically impossible for the attacker to complete the shin placement and generate sufficient choking pressure.
 
-**Opponent's Starting Position**: [[Positions/Gogoplata Control]] (Top)
+**Opponent's Starting Position**: [[Positions/Gogoplata Control]] (Bottom)
 
 
 </section>

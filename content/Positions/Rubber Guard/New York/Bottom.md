@@ -21,19 +21,19 @@ description: "Establish New York control from bottom position with overhook and 
     {
       "@type": "HowToStep",
       "name": "Execute New York to Invisible Collar",
-      "text": "From this position, attempt New York to Invisible Collar. This technique is attempted in 14% of exchanges from this position.",
+      "text": "From this position, attempt New York to Invisible Collar. This technique is attempted in 15% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Progression to Zombie",
-      "text": "From this position, attempt Progression to Zombie. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Progression to Zombie. This technique is attempted in 12% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Advance to Chill Dog",
-      "text": "From this position, attempt Advance to Chill Dog. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt Advance to Chill Dog. This technique is attempted in 16% of exchanges from this position.",
       "position": 3
     },
     {
@@ -45,13 +45,13 @@ description: "Establish New York control from bottom position with overhook and 
     {
       "@type": "HowToStep",
       "name": "Execute Triangle Setup",
-      "text": "From this position, attempt Triangle Setup. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Triangle Setup. This technique is attempted in 14% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Omoplata Sweep",
-      "text": "From this position, attempt Omoplata Sweep. This technique is attempted in 8% of exchanges from this position.",
+      "text": "From this position, attempt Omoplata Sweep. This technique is attempted in 9% of exchanges from this position.",
       "position": 6
     }
   ],

@@ -114,42 +114,42 @@
         "transition": "Kneebar from Leg Entanglement",
         "attempt_probability": {
           "gi": 8,
-          "nogi": 7
+          "nogi": 6
         }
       },
       {
         "transition": "Outside Heel Hook from Leg Entanglement",
         "attempt_probability": {
           "gi": 1,
-          "nogi": 18
+          "nogi": 16
         }
       },
       {
         "transition": "Ankle Lock Finish",
         "attempt_probability": {
-          "gi": 17,
-          "nogi": 10
+          "gi": 15,
+          "nogi": 9
         }
       },
       {
         "transition": "Outside Ashi Entry",
         "attempt_probability": {
-          "gi": 13,
-          "nogi": 12
+          "gi": 12,
+          "nogi": 10
         }
       },
       {
         "transition": "Toe Hold from Leg Entanglement",
         "attempt_probability": {
           "gi": 9,
-          "nogi": 8
+          "nogi": 7
         }
       },
       {
         "transition": "Saddle Entry from Top",
         "attempt_probability": {
           "gi": 4,
-          "nogi": 13
+          "nogi": 11
         }
       },
       {
@@ -162,21 +162,21 @@
       {
         "transition": "50-50 Entry",
         "attempt_probability": {
-          "gi": 10,
+          "gi": 9,
           "nogi": 6
         }
       },
       {
         "transition": "Ashi Entry from Leg Entanglement",
         "attempt_probability": {
-          "gi": 12,
-          "nogi": 10
+          "gi": 11,
+          "nogi": 8
         }
       },
       {
         "transition": "Leg Extraction Pass",
         "attempt_probability": {
-          "gi": 11,
+          "gi": 10,
           "nogi": 6
         }
       },
@@ -184,6 +184,20 @@
         "transition": "Guard Pass from Leg Entanglement",
         "attempt_probability": {
           "gi": 9,
+          "nogi": 4
+        }
+      },
+      {
+        "transition": "Inside Heel Hook from Ushiro",
+        "attempt_probability": {
+          "gi": 1,
+          "nogi": 7
+        }
+      },
+      {
+        "transition": "Kneebar from Ushiro",
+        "attempt_probability": {
+          "gi": 5,
           "nogi": 4
         }
       }
@@ -598,64 +612,43 @@
       {
         "transition": "Leg Extraction Escape from Entanglement",
         "attempt_probability": {
-          "gi": 24,
-          "nogi": 20
+          "gi": 28,
+          "nogi": 25
         }
       },
       {
         "transition": "Guard Recovery from Leg Entanglement",
         "attempt_probability": {
-          "gi": 20,
-          "nogi": 17
+          "gi": 23,
+          "nogi": 21
         }
       },
       {
         "transition": "Counter Sweep from Leg Entanglement",
         "attempt_probability": {
-          "gi": 9,
-          "nogi": 8
+          "gi": 11,
+          "nogi": 10
         }
       },
       {
         "transition": "Inversion Escape from Leg Entanglement",
         "attempt_probability": {
-          "gi": 10,
-          "nogi": 11
+          "gi": 12,
+          "nogi": 13
         }
       },
       {
         "transition": "Counter Leg Attack",
         "attempt_probability": {
-          "gi": 9,
-          "nogi": 12
+          "gi": 10,
+          "nogi": 15
         }
       },
       {
         "transition": "Counter-entangle to 50-50 Guard",
         "attempt_probability": {
-          "gi": 14,
-          "nogi": 13
-        }
-      },
-      {
-        "transition": "Inside Heel Hook from Ushiro",
-        "attempt_probability": {
-          "gi": 1,
-          "nogi": 8
-        }
-      },
-      {
-        "transition": "Kneebar from Ushiro",
-        "attempt_probability": {
-          "gi": 5,
-          "nogi": 4
-        }
-      },
-      {
-        "transition": "Ankle Lock Finish",
-        "attempt_probability": {
-          "gi": 8,
-          "nogi": 7
+          "gi": 16,
+          "nogi": 16
         }
       }
     ],

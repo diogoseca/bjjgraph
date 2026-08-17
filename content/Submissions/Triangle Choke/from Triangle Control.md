@@ -123,7 +123,7 @@ From a strategic standpoint, the triangle choke finish from triangle control ope
 
 The finish timeline is surprisingly short once mechanics are correct. A properly locked and angled triangle can produce unconsciousness in 4-8 seconds of sustained arterial compression, making this both a highly effective and potentially dangerous technique that demands respect in training. The attacker must develop sensitivity to the opponent's defensive reactions—posturing attempts open armbar transitions, stacking opens omoplata paths, and arm extraction creates back take opportunities. This means the triangle finish is not a static hold but a dynamic interaction where the attacker constantly adjusts to maintain optimal finishing position while the defender cycles through increasingly desperate escape attempts.
 
-**Starting Position**: [[Positions/Triangle Control]] · **From**: [[Positions/Triangle Control]] (Top)
+**Starting Position**: [[Positions/Triangle Control]] · **From**: [[Positions/Triangle Control]] (Bottom)
 
 </section>
 

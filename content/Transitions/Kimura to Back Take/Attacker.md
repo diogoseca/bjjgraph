@@ -16,7 +16,7 @@ description: "How to execute Kimura to Back Take in BJJ. Attacking perspective w
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Kimura to Back Take in BJJ",
-  "description": "Step-by-step guide for executing Kimura to Back Take from Kimura Trap/Bottom.",
+  "description": "Step-by-step guide for executing Kimura to Back Take from Kimura Trap/Top.",
   "step": [
     {
       "@type": "HowToStep",
@@ -222,7 +222,7 @@ description: "How to execute Kimura to Back Take in BJJ. Attacking perspective w
 
 The Kimura to Back Take from the attacker's perspective is about converting an established grip control system into the most dominant position in grappling. The attacker uses progressive Kimura pressure to force a predictable defensive rolling motion, then follows that motion while maintaining the figure-four grip as both anchor and steering mechanism. The transition requires patience to create genuine submission threat, sensitivity to read when the opponent commits to their defensive roll, and disciplined sequencing to establish hooks before releasing the Kimura grip for seat belt control. Mastery of this transition transforms the Kimura from a single submission attempt into a complete positional control system where the opponent's logical defensive choices consistently lead to worse positions.
 
-**From Position**: [[Positions/Kimura Trap]] (Bottom)
+**From Position**: [[Positions/Kimura Trap]] (Top)
 
 </section>
 

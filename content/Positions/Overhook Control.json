@@ -399,15 +399,15 @@
       {
         "transition": "Kimura from Overhook Control",
         "attempt_probability": {
-          "gi": 17,
-          "nogi": 15
+          "gi": 16,
+          "nogi": 14
         }
       },
       {
         "transition": "Darce Choke from Overhook Control",
         "attempt_probability": {
           "gi": 13,
-          "nogi": 16
+          "nogi": 15
         }
       },
       {
@@ -420,8 +420,8 @@
       {
         "transition": "Two-on-One to Back Take",
         "attempt_probability": {
-          "gi": 13,
-          "nogi": 13
+          "gi": 12,
+          "nogi": 12
         }
       },
       {
@@ -455,8 +455,15 @@
       {
         "transition": "Overhook Pass to Side Control",
         "attempt_probability": {
-          "gi": 13,
+          "gi": 12,
           "nogi": 11
+        }
+      },
+      {
+        "transition": "Whizzer",
+        "attempt_probability": {
+          "gi": 3,
+          "nogi": 3
         }
       }
     ],

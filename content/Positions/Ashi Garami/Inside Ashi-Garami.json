@@ -841,45 +841,38 @@
     },
     "transitions": [
       {
-        "transition": "Ashi Garami Escape",
-        "attempt_probability": {
-          "gi": 25,
-          "nogi": 18
-        }
-      },
-      {
         "transition": "Guard Recovery from Inside Ashi-Garami",
         "attempt_probability": {
-          "gi": 21,
-          "nogi": 17
+          "gi": 28,
+          "nogi": 21
         }
       },
       {
         "transition": "Standing Up from Inside Ashi",
         "attempt_probability": {
-          "gi": 18,
-          "nogi": 16
+          "gi": 24,
+          "nogi": 20
         }
       },
       {
         "transition": "Leg Extraction from Inside Ashi",
         "attempt_probability": {
-          "gi": 21,
-          "nogi": 18
+          "gi": 28,
+          "nogi": 22
         }
       },
       {
         "transition": "Counter Entangle to 50-50 from Ashi",
         "attempt_probability": {
-          "gi": 12,
-          "nogi": 16
+          "gi": 16,
+          "nogi": 19
         }
       },
       {
         "transition": "Counter heel hook",
         "attempt_probability": {
-          "gi": 3,
-          "nogi": 15
+          "gi": 4,
+          "nogi": 18
         }
       }
     ],

@@ -294,33 +294,29 @@ In modern Brazilian Jiu-Jitsu, the clinch has evolved beyond simple takedown set
 ### Available Transitions
 
 
-- **[[Transitions/Double Leg Entry/Attacker|Double Leg Entry]]** (15% of attempts)
+- **[[Transitions/Double Leg Entry/Attacker|Double Leg Entry]]** (17% of attempts)
 
-- **[[Transitions/Single Leg Takedown/Attacker|Single Leg Takedown]]** (14% of attempts)
+- **[[Transitions/Single Leg Takedown/Attacker|Single Leg Takedown]]** (16% of attempts)
 
-- **[[Transitions/Snap Down to Front Headlock/Attacker|Snap Down to Front Headlock]]** (12% of attempts)
+- **[[Transitions/Snap Down to Front Headlock/Attacker|Snap Down to Front Headlock]]** (14% of attempts)
 
-- **[[Transitions/Duck Under from Clinch/Attacker|Duck Under from Clinch]]** (8% of attempts)
-
-- **[[Transitions/Fireman's Carry/Attacker|Fireman's Carry]]** (5% of attempts)
+- **[[Transitions/Fireman's Carry/Attacker|Fireman's Carry]]** (7% of attempts)
 
 - **[[Transitions/Kouchi Gari/Attacker|Kouchi Gari]]** (4% of attempts)
 
 - **[[Transitions/Uchi Mata/Attacker|Uchi Mata]]** (3% of attempts)
 
-- **[[Transitions/Arm Drag from Clinch/Attacker|Arm Drag from Clinch]]** (6% of attempts)
-
 - **[[Transitions/Body Lock Pass/Attacker|Body Lock Pass]]** (3% of attempts)
 
-- **[[Transitions/High Crotch/Attacker|High Crotch]]** (6% of attempts)
+- **[[Transitions/High Crotch/Attacker|High Crotch]]** (8% of attempts)
 
 - **[[Transitions/Ankle Pick/Attacker|Ankle Pick]]** (5% of attempts)
 
-- **[[Transitions/Body Lock Takedown from Clinch/Attacker|Body Lock Takedown from Clinch]]** (8% of attempts)
+- **[[Transitions/Body Lock Takedown from Clinch/Attacker|Body Lock Takedown from Clinch]]** (10% of attempts)
 
 - **[[Transitions/Two-on-One to Back Take/Attacker|Two-on-One to Back Take]]** (5% of attempts)
 
-- **[[Guillotine Choke from Clinch/Attacker|Guillotine Choke from Clinch]]** (6% of attempts)
+- **[[Guillotine Choke from Clinch/Attacker|Guillotine Choke from Clinch]]** (8% of attempts)
 
 
 ### Common Mistakes

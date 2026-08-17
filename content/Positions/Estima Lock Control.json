@@ -665,45 +665,38 @@
     ],
     "transitions": [
       {
-        "transition": "Ashi Garami Escape",
-        "attempt_probability": {
-          "gi": 17,
-          "nogi": 17
-        }
-      },
-      {
         "transition": "Leg Extraction",
         "attempt_probability": {
-          "gi": 24,
-          "nogi": 25
+          "gi": 29,
+          "nogi": 30
         }
       },
       {
         "transition": "Standing Escape",
         "attempt_probability": {
-          "gi": 14,
-          "nogi": 16
+          "gi": 17,
+          "nogi": 19
         }
       },
       {
         "transition": "50-50 Entry",
         "attempt_probability": {
-          "gi": 12,
-          "nogi": 11
+          "gi": 14,
+          "nogi": 13
         }
       },
       {
         "transition": "Estima Lock Counter Roll",
         "attempt_probability": {
-          "gi": 11,
-          "nogi": 12
+          "gi": 13,
+          "nogi": 15
         }
       },
       {
         "transition": "Counter from Estima Lock",
         "attempt_probability": {
-          "gi": 22,
-          "nogi": 19
+          "gi": 27,
+          "nogi": 23
         }
       }
     ],

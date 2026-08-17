@@ -186,7 +186,7 @@ Strategically, K-Guard represents a transitional hub position where the bottom p
 
 | &nbsp; | Bottom | Top |
 |--------|--------|-----|
-| **Position Type** | Defensive with offensive options | Offensive/Controlling |
+| **Position Type** | Offensive | Defensive |
 | **Risk Level** | Medium | Medium |
 | **Energy Cost** | Medium | Medium |
 | **Time** | Medium to Long | Medium to Long |

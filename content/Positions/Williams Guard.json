@@ -789,57 +789,43 @@
       {
         "transition": "Williams Shoulder Lock from Williams Guard",
         "attempt_probability": {
-          "gi": 16,
-          "nogi": 16
+          "gi": 19,
+          "nogi": 20
         }
       },
       {
         "transition": "Omoplata Sweep",
         "attempt_probability": {
-          "gi": 11,
-          "nogi": 9
+          "gi": 13,
+          "nogi": 11
         }
       },
       {
         "transition": "Triangle Setup",
         "attempt_probability": {
-          "gi": 20,
-          "nogi": 21
-        }
-      },
-      {
-        "transition": "Omoplata to Back",
-        "attempt_probability": {
-          "gi": 8,
-          "nogi": 9
+          "gi": 24,
+          "nogi": 26
         }
       },
       {
         "transition": "Back Take from Bottom",
         "attempt_probability": {
-          "gi": 8,
-          "nogi": 9
-        }
-      },
-      {
-        "transition": "Kimura to Back Take",
-        "attempt_probability": {
-          "gi": 9,
-          "nogi": 10
+          "gi": 10,
+          "nogi": 11
         }
       },
       {
         "transition": "Williams Guard Sweep",
         "attempt_probability": {
-          "gi": 18,
-          "nogi": 17
+          "gi": 22,
+          "nogi": 21
         }
       },
       {
         "transition": "Belly Down Armbar from Williams Guard",
         "attempt_probability": {
-          "gi": 10,
-          "nogi": 9
+          "gi": 12,
+          "nogi": 11
         }
       }
     ],

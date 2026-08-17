@@ -206,27 +206,25 @@ Strategically, the Kimura Trap excels at creating dilemmas where opponents must 
 ### Available Transitions
 
 
-- **[[Transitions/Old School Sweep/Attacker|Old School Sweep]]** (11% of attempts)
+- **[[Transitions/Old School Sweep/Attacker|Old School Sweep]]** (13% of attempts)
 
-- **[[Transitions/Kimura to Back Take/Attacker|Kimura to Back Take]]** (16% of attempts)
+- **[[Transitions/Rolling Kimura/Attacker|Rolling Kimura]]** (15% of attempts)
 
-- **[[Transitions/Rolling Kimura/Attacker|Rolling Kimura]]** (13% of attempts)
+- **[[Transitions/Kimura Sweep/Attacker|Kimura Sweep]]** (17% of attempts)
 
-- **[[Transitions/Kimura Sweep/Attacker|Kimura Sweep]]** (14% of attempts)
+- **[[Transitions/Underhook Sweep from Half/Attacker|Underhook Sweep from Half]]** (13% of attempts)
 
-- **[[Transitions/Underhook Sweep from Half/Attacker|Underhook Sweep from Half]]** (11% of attempts)
+- **[[Transitions/Half Guard to Back Take/Attacker|Half Guard to Back Take]]** (13% of attempts)
 
-- **[[Transitions/Half Guard to Back Take/Attacker|Half Guard to Back Take]]** (11% of attempts)
+- **[[Transitions/Lockdown Recovery/Attacker|Lockdown Recovery]]** (8% of attempts)
 
-- **[[Transitions/Lockdown Recovery/Attacker|Lockdown Recovery]]** (7% of attempts)
+- **[[Transitions/Electric Chair Transition/Attacker|Electric Chair Transition]]** (6% of attempts)
 
-- **[[Transitions/Electric Chair Transition/Attacker|Electric Chair Transition]]** (5% of attempts)
+- **[[Transitions/Kimura Defense/Attacker|Kimura Defense]]** (6% of attempts)
 
-- **[[Transitions/Kimura Defense/Attacker|Kimura Defense]]** (5% of attempts)
+- **[[Transitions/Kimura Counter via Roll/Attacker|Kimura Counter via Roll]]** (5% of attempts)
 
-- **[[Transitions/Kimura Counter via Roll/Attacker|Kimura Counter via Roll]]** (4% of attempts)
-
-- **[[Transitions/Rolling Kimura Escape/Attacker|Rolling Kimura Escape]]** (3% of attempts)
+- **[[Transitions/Rolling Kimura Escape/Attacker|Rolling Kimura Escape]]** (4% of attempts)
 
 
 ### Common Mistakes

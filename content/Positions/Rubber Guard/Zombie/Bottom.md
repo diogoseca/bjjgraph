@@ -21,25 +21,25 @@ description: "Master Zombie Bottom position in BJJ. Defensive half guard variant
     {
       "@type": "HowToStep",
       "name": "Execute Old School Sweep",
-      "text": "From this position, attempt Old School Sweep. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Old School Sweep. This technique is attempted in 11% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Electric Chair Transition",
-      "text": "From this position, attempt Electric Chair Transition. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Electric Chair Transition. This technique is attempted in 11% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Lockdown Recovery",
-      "text": "From this position, attempt Lockdown Recovery. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Lockdown Recovery. This technique is attempted in 13% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Guard Recovery from Zombie",
-      "text": "From this position, attempt Guard Recovery from Zombie. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Guard Recovery from Zombie. This technique is attempted in 14% of exchanges from this position.",
       "position": 4
     },
     {
@@ -50,8 +50,8 @@ description: "Master Zombie Bottom position in BJJ. Defensive half guard variant
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Roll to Truck",
-      "text": "From this position, attempt Roll to Truck. This technique is attempted in 6% of exchanges from this position.",
+      "name": "Execute Deep Half Entry",
+      "text": "From this position, attempt Deep Half Entry. This technique is attempted in 7% of exchanges from this position.",
       "position": 6
     }
   ],

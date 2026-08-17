@@ -201,7 +201,7 @@ The triangle choke's strategic value extends beyond its finishing potential—it
 |---|---|---|---|---|
 | [[Submissions/Triangle Choke/from Closed Guard|Closed Guard]] | Bottom | 65% | [[Submissions/Triangle Choke/from Closed Guard/Attacker|Attack →]] | [[Submissions/Triangle Choke/from Closed Guard/Defender|Defend →]] |
 | [[Submissions/Triangle Choke/from Spider Guard|Spider Guard]] | Bottom | 62% | [[Submissions/Triangle Choke/from Spider Guard/Attacker|Attack →]] | [[Submissions/Triangle Choke/from Spider Guard/Defender|Defend →]] |
-| [[Submissions/Triangle Choke/from Triangle Control|Triangle Control]] | Top | 60% | [[Submissions/Triangle Choke/from Triangle Control/Attacker|Attack →]] | [[Submissions/Triangle Choke/from Triangle Control/Defender|Defend →]] |
+| [[Submissions/Triangle Choke/from Triangle Control|Triangle Control]] | Bottom | 60% | [[Submissions/Triangle Choke/from Triangle Control/Attacker|Attack →]] | [[Submissions/Triangle Choke/from Triangle Control/Defender|Defend →]] |
 | [[Submissions/Triangle Choke/from Crackhead Control|Crackhead Control]] | Bottom | 52% | [[Submissions/Triangle Choke/from Crackhead Control/Attacker|Attack →]] | [[Submissions/Triangle Choke/from Crackhead Control/Defender|Defend →]] |
 | [[Submissions/Triangle Choke/from De La Riva|De La Riva Guard]] | Bottom | 52% | [[Submissions/Triangle Choke/from De La Riva/Attacker|Attack →]] | [[Submissions/Triangle Choke/from De La Riva/Defender|Defend →]] |
 | [[Submissions/Triangle Choke/from Mounted Triangle|Mounted Triangle]] | Top | 50% | [[Submissions/Triangle Choke/from Mounted Triangle/Attacker|Attack →]] | [[Submissions/Triangle Choke/from Mounted Triangle/Defender|Defend →]] |

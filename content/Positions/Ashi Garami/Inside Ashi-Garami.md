@@ -219,17 +219,15 @@ Inside Ashi-Garami has become essential in modern competition grappling, particu
 ### Available Transitions
 
 
-- **[[Transitions/Ashi Garami Escape/Attacker|Ashi Garami Escape]]** (18% of attempts)
+- **[[Transitions/Guard Recovery from Inside Ashi-Garami/Attacker|Guard Recovery from Inside Ashi-Garami]]** (21% of attempts)
 
-- **[[Transitions/Guard Recovery from Inside Ashi-Garami/Attacker|Guard Recovery from Inside Ashi-Garami]]** (17% of attempts)
+- **[[Transitions/Standing Up from Inside Ashi/Attacker|Standing Up from Inside Ashi]]** (20% of attempts)
 
-- **[[Transitions/Standing Up from Inside Ashi/Attacker|Standing Up from Inside Ashi]]** (16% of attempts)
+- **[[Transitions/Leg Extraction from Inside Ashi/Attacker|Leg Extraction from Inside Ashi]]** (22% of attempts)
 
-- **[[Transitions/Leg Extraction from Inside Ashi/Attacker|Leg Extraction from Inside Ashi]]** (18% of attempts)
+- **[[Transitions/Counter Entangle to 50-50 from Ashi/Attacker|Counter Entangle to 50-50 from Ashi]]** (19% of attempts)
 
-- **[[Transitions/Counter Entangle to 50-50 from Ashi/Attacker|Counter Entangle to 50-50 from Ashi]]** (16% of attempts)
-
-- **[[Transitions/Counter heel hook/Attacker|Counter heel hook]]** (15% of attempts)
+- **[[Transitions/Counter heel hook/Attacker|Counter heel hook]]** (18% of attempts)
 
 
 ### Common Mistakes

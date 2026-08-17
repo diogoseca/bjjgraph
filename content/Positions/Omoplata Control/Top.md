@@ -21,38 +21,32 @@ description: "Master Omoplata Control Top in BJJ. Dominant shoulder lock control
     {
       "@type": "HowToStep",
       "name": "Execute Omoplata from Omoplata Control",
-      "text": "From this position, attempt Omoplata from Omoplata Control. This technique is attempted in 14% of exchanges from this position.",
+      "text": "From this position, attempt Omoplata from Omoplata Control. This technique is attempted in 20% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Omoplata to Back",
-      "text": "From this position, attempt Omoplata to Back. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt Omoplata to Back. This technique is attempted in 21% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Omoplata Sweep",
-      "text": "From this position, attempt Omoplata Sweep. This technique is attempted in 17% of exchanges from this position.",
+      "name": "Execute Armbar on Free Arm",
+      "text": "From this position, attempt Armbar on Free Arm. This technique is attempted in 18% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Triangle Setup",
-      "text": "From this position, attempt Triangle Setup. This technique is attempted in 13% of exchanges from this position.",
+      "name": "Execute Rolling Back Take",
+      "text": "From this position, attempt Rolling Back Take. This technique is attempted in 20% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Armbar on Free Arm",
-      "text": "From this position, attempt Armbar on Free Arm. This technique is attempted in 12% of exchanges from this position.",
+      "name": "Execute Omoplata to Sweep",
+      "text": "From this position, attempt Omoplata to Sweep. This technique is attempted in 21% of exchanges from this position.",
       "position": 5
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Rolling Back Take",
-      "text": "From this position, attempt Rolling Back Take. This technique is attempted in 14% of exchanges from this position.",
-      "position": 6
     }
   ],
   "totalTime": "PT2M"

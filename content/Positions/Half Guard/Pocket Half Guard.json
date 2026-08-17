@@ -802,7 +802,7 @@
         "transition": "Old School Sweep",
         "attempt_probability": {
           "gi": 13,
-          "nogi": 12
+          "nogi": 13
         }
       },
       {
@@ -815,15 +815,15 @@
       {
         "transition": "Half Guard to Back Take",
         "attempt_probability": {
-          "gi": 15,
-          "nogi": 17
+          "gi": 16,
+          "nogi": 18
         }
       },
       {
         "transition": "Underhook Sweep from Half",
         "attempt_probability": {
           "gi": 13,
-          "nogi": 13
+          "nogi": 14
         }
       },
       {
@@ -831,13 +831,6 @@
         "attempt_probability": {
           "gi": 3,
           "nogi": 6
-        }
-      },
-      {
-        "transition": "Roll to Truck",
-        "attempt_probability": {
-          "gi": 3,
-          "nogi": 5
         }
       },
       {
@@ -850,15 +843,15 @@
       {
         "transition": "Sweep from Pocket Half Guard",
         "attempt_probability": {
-          "gi": 14,
-          "nogi": 13
+          "gi": 15,
+          "nogi": 14
         }
       },
       {
         "transition": "Underhook Sweep from Pocket Half",
         "attempt_probability": {
-          "gi": 19,
-          "nogi": 18
+          "gi": 20,
+          "nogi": 19
         }
       }
     ],

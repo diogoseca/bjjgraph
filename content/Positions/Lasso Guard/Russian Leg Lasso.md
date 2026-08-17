@@ -176,7 +176,7 @@ Emerging from the competitive evolution of the traditional lasso guard, the Russ
 
 | &nbsp; | Bottom | Top |
 |--------|--------|-----|
-| **Position Type** | Offensive | Offensive |
+| **Position Type** | Offensive | Defensive |
 | **Risk Level** | Medium | Medium |
 | **Energy Cost** | Medium | Medium |
 | **Time** | Medium | Medium |

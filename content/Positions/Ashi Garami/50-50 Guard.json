@@ -762,50 +762,36 @@
       {
         "transition": "Position reversal sweep to top",
         "attempt_probability": {
-          "gi": 33,
-          "nogi": 18
+          "gi": 39,
+          "nogi": 22
         }
       },
       {
         "transition": "Counter heel hook",
         "attempt_probability": {
           "gi": 2,
-          "nogi": 21
+          "nogi": 26
         }
       },
       {
         "transition": "50-50 Guard to Single Leg X-Guard",
         "attempt_probability": {
-          "gi": 11,
-          "nogi": 12
+          "gi": 13,
+          "nogi": 14
         }
       },
       {
         "transition": "Extract legs and stand up",
         "attempt_probability": {
-          "gi": 15,
-          "nogi": 14
+          "gi": 18,
+          "nogi": 17
         }
       },
       {
         "transition": "Straight Ankle Lock Entry",
         "attempt_probability": {
-          "gi": 20,
-          "nogi": 13
-        }
-      },
-      {
-        "transition": "Kneebar entry",
-        "attempt_probability": {
-          "gi": 7,
-          "nogi": 8
-        }
-      },
-      {
-        "transition": "Toe Hold from 50-50",
-        "attempt_probability": {
-          "gi": 8,
-          "nogi": 9
+          "gi": 24,
+          "nogi": 16
         }
       },
       {

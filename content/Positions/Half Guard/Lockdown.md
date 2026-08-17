@@ -217,23 +217,21 @@ Lockdown is 10th Planet's revolutionary half guard variation that transforms tra
 ### Available Transitions
 
 
-- **[[Transitions/Whip-up Sweep/Attacker|Whip-up Sweep]]** (20% of attempts)
+- **[[Transitions/Whip-up Sweep/Attacker|Whip-up Sweep]]** (21% of attempts)
 
-- **[[Transitions/Old School Sweep/Attacker|Old School Sweep]]** (12% of attempts)
+- **[[Transitions/Old School Sweep/Attacker|Old School Sweep]]** (13% of attempts)
 
-- **[[Transitions/Electric Chair Transition/Attacker|Electric Chair Transition]]** (12% of attempts)
+- **[[Transitions/Electric Chair Transition/Attacker|Electric Chair Transition]]** (13% of attempts)
 
-- **[[Transitions/Underhook Sweep from Half/Attacker|Underhook Sweep from Half]]** (8% of attempts)
+- **[[Transitions/Underhook Sweep from Half/Attacker|Underhook Sweep from Half]]** (9% of attempts)
 
 - **[[Transitions/Half Guard to Back Take/Attacker|Half Guard to Back Take]]** (8% of attempts)
-
-- **[[Transitions/Roll to Truck/Attacker|Roll to Truck]]** (5% of attempts)
 
 - **[[Transitions/Deep Half Entry/Attacker|Deep Half Entry]]** (5% of attempts)
 
 - **[[Kimura from Lockdown/Attacker|Kimura from Lockdown]]** (6% of attempts)
 
-- **[[Transitions/Lockdown Recovery/Attacker|Lockdown Recovery]]** (11% of attempts)
+- **[[Transitions/Lockdown Recovery/Attacker|Lockdown Recovery]]** (12% of attempts)
 
 - **[[Transitions/Lockdown to Vaporizer/Attacker|Lockdown to Vaporizer]]** (3% of attempts)
 

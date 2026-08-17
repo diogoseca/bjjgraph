@@ -635,6 +635,16 @@ def check_position_type_vs_score():
     the metrics behind it are wrong, and the metrics are what feed the odds a player sees.
     """
     issues = []
+    # ADJUDICATED DISAGREEMENTS ARE INFO, NOT WARNINGS (v1.106.0). The 2026-08-17 black-belt
+    # panel (two independent experts per change) ruled 73 authored words CORRECT — the metrics
+    # merely disagree, and the word wins at runtime — plus a handful whose corrected word still
+    # outvotes broken metrics. Re-warning those forever would bury any NEW disagreement. The
+    # ledger is tests/artifacts/position_type_reviewed.json; delete an entry to re-open a case.
+    reviewed = {}
+    try:
+        reviewed = json.loads((Path(__file__).resolve().parent.parent / "tests/artifacts/position_type_reviewed.json").read_text()).get("reviewed", {})
+    except Exception:
+        pass
     # NB `import os` was MISSING until v1.104.6, so `os.path.dirname` raised NameError, this bare
     # except swallowed it, and the check returned an empty list on every run since v1.103.0 — which
     # is what "0 disagreements across all 272 position-roles" actually meant. A guard that reports
@@ -680,10 +690,11 @@ def check_position_type_vs_score():
             if abs(bare) < 0.02:
                 continue  # too close to zero to call a disagreement
             if (bare > 0) != wants_pos:
+                _nm = rd.get("name", path.stem)
                 issues.append({
                     "type": "position_type_score_disagreement",
-                    "severity": "warning",
-                    "name": rd.get("name", path.stem),
+                    "severity": "info" if _nm in reviewed else "warning",
+                    "name": _nm,
                     "file": str(path),
                     "message": (f"{rd.get('name', path.stem)}: authored position_type '{kind}' but its "
                                 f"metrics score {bare:+.3f} — the word now wins, so check whether the "

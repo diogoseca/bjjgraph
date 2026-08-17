@@ -780,22 +780,22 @@
       {
         "transition": "Meathook to Gogoplata Control",
         "attempt_probability": {
-          "gi": 18,
-          "nogi": 21
+          "gi": 19,
+          "nogi": 22
         }
       },
       {
         "transition": "Triangle Setup",
         "attempt_probability": {
-          "gi": 13,
-          "nogi": 14
+          "gi": 14,
+          "nogi": 15
         }
       },
       {
         "transition": "Closed Guard to Omoplata",
         "attempt_probability": {
-          "gi": 12,
-          "nogi": 11
+          "gi": 13,
+          "nogi": 12
         }
       },
       {
@@ -808,22 +808,15 @@
       {
         "transition": "Armbar from New York",
         "attempt_probability": {
-          "gi": 8,
-          "nogi": 8
-        }
-      },
-      {
-        "transition": "Omoplata to Back",
-        "attempt_probability": {
-          "gi": 6,
-          "nogi": 6
+          "gi": 9,
+          "nogi": 9
         }
       },
       {
         "transition": "Crackhead Control to Mission Control",
         "attempt_probability": {
-          "gi": 13,
-          "nogi": 14
+          "gi": 14,
+          "nogi": 15
         }
       },
       {
@@ -843,8 +836,8 @@
       {
         "transition": "Sweep from Meathook",
         "attempt_probability": {
-          "gi": 11,
-          "nogi": 11
+          "gi": 12,
+          "nogi": 12
         }
       }
     ],

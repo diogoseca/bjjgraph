@@ -21,13 +21,13 @@ description: "Master overhook control from top positions. Wrestling-based whizze
     {
       "@type": "HowToStep",
       "name": "Execute Kimura from Overhook Control",
-      "text": "From this position, attempt Kimura from Overhook Control. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt Kimura from Overhook Control. This technique is attempted in 14% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Darce Choke from Overhook Control",
-      "text": "From this position, attempt Darce Choke from Overhook Control. This technique is attempted in 16% of exchanges from this position.",
+      "text": "From this position, attempt Darce Choke from Overhook Control. This technique is attempted in 15% of exchanges from this position.",
       "position": 2
     },
     {
@@ -39,7 +39,7 @@ description: "Master overhook control from top positions. Wrestling-based whizze
     {
       "@type": "HowToStep",
       "name": "Execute Two-on-One to Back Take",
-      "text": "From this position, attempt Two-on-One to Back Take. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Two-on-One to Back Take. This technique is attempted in 12% of exchanges from this position.",
       "position": 4
     },
     {

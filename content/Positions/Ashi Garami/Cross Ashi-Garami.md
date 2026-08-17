@@ -223,29 +223,25 @@ The strategic importance of Cross Ashi-Garami in contemporary BJJ cannot be over
 ### Available Transitions
 
 
-- **[[Transitions/Ashi Garami Escape/Attacker|Ashi Garami Escape]]** (13% of attempts)
-
-- **[[Transitions/Inside Ashi Entry/Attacker|Inside Ashi Entry]]** (7% of attempts)
+- **[[Transitions/Inside Ashi Entry/Attacker|Inside Ashi Entry]]** (8% of attempts)
 
 - **[[Transitions/X-Guard to Ashi Garami/Attacker|X-Guard to Ashi Garami]]** (2% of attempts)
 
-- **[[Transitions/Heel Hook Defense Escape/Attacker|Heel Hook Defense Escape]]** (16% of attempts)
+- **[[Transitions/Heel Hook Defense Escape/Attacker|Heel Hook Defense Escape]]** (19% of attempts)
 
-- **[[Transitions/Standing Escape/Attacker|Standing Escape]]** (11% of attempts)
+- **[[Transitions/Standing Escape/Attacker|Standing Escape]]** (14% of attempts)
 
-- **[[Transitions/Counter-entangle to 50-50 Guard/Attacker|Counter-entangle to 50-50 Guard]]** (9% of attempts)
+- **[[Transitions/Counter-entangle to 50-50 Guard/Attacker|Counter-entangle to 50-50 Guard]]** (11% of attempts)
 
-- **[[Transitions/Backside 50-50 Entry from Ashi/Attacker|Backside 50-50 Entry from Ashi]]** (3% of attempts)
+- **[[Transitions/Counter heel hook/Attacker|Counter heel hook]]** (9% of attempts)
 
-- **[[Transitions/Counter heel hook/Attacker|Counter heel hook]]** (8% of attempts)
+- **[[Transitions/Leg Extraction/Attacker|Leg Extraction]]** (15% of attempts)
 
-- **[[Transitions/Leg Extraction/Attacker|Leg Extraction]]** (12% of attempts)
+- **[[Transitions/Counter Entangle from Cross Ashi/Attacker|Counter Entangle from Cross Ashi]]** (6% of attempts)
 
-- **[[Transitions/Counter Entangle from Cross Ashi/Attacker|Counter Entangle from Cross Ashi]]** (5% of attempts)
+- **[[Transitions/Leg Extraction from Cross Ashi/Attacker|Leg Extraction from Cross Ashi]]** (10% of attempts)
 
-- **[[Transitions/Leg Extraction from Cross Ashi/Attacker|Leg Extraction from Cross Ashi]]** (9% of attempts)
-
-- **[[Transitions/Sweep from Cross Ashi-Garami/Attacker|Sweep from Cross Ashi-Garami]]** (5% of attempts)
+- **[[Transitions/Sweep from Cross Ashi-Garami/Attacker|Sweep from Cross Ashi-Garami]]** (6% of attempts)
 
 
 ### Common Mistakes

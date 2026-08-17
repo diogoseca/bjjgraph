@@ -416,29 +416,29 @@
       {
         "transition": "Butterfly Sweep",
         "attempt_probability": {
-          "gi": 21,
-          "nogi": 20
+          "gi": 23,
+          "nogi": 22
         }
       },
       {
         "transition": "Elevator Sweep",
         "attempt_probability": {
-          "gi": 11,
-          "nogi": 9
+          "gi": 13,
+          "nogi": 11
         }
       },
       {
         "transition": "Arm Drag to Back",
         "attempt_probability": {
-          "gi": 10,
-          "nogi": 11
+          "gi": 12,
+          "nogi": 13
         }
       },
       {
         "transition": "Butterfly Guard to X-Guard",
         "attempt_probability": {
-          "gi": 10,
-          "nogi": 9
+          "gi": 11,
+          "nogi": 11
         }
       },
       {
@@ -449,17 +449,10 @@
         }
       },
       {
-        "transition": "Sumi Gaeshi",
-        "attempt_probability": {
-          "gi": 5,
-          "nogi": 4
-        }
-      },
-      {
         "transition": "Single Leg X Entry",
         "attempt_probability": {
-          "gi": 7,
-          "nogi": 9
+          "gi": 8,
+          "nogi": 10
         }
       },
       {
@@ -488,13 +481,6 @@
         "attempt_probability": {
           "gi": 3,
           "nogi": 4
-        }
-      },
-      {
-        "transition": "Snap Down to Front Headlock",
-        "attempt_probability": {
-          "gi": 3,
-          "nogi": 5
         }
       },
       {
