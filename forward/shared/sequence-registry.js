@@ -1952,7 +1952,7 @@ export const useCases = [
           toast: {
             kicker: "SAVE YOUR PROGRESS",
             text: "Open the panel to keep it",
-            tone: "neutral",
+            tone: "muted",
           },
         },
         "toast-enter",
@@ -2846,11 +2846,30 @@ export const useCases = [
         "toast-enter",
         0.6,
       ),
-      // The retired "SAVE YOUR PROGRESS · open flashcards to keep it" pane-open nudge was
-      // deleted here (owner ruling, 2026-08-17): it pointed at a pane the game may not open
-      // and at an edge tab that no longer exists. The live save surface is the pane's own
-      // bottom anchor, which the user reaches by opening the pane themselves — see the
-      // "Progress at stake" journey. Its seat goes to a notification that had none.
+      // THE SAVE HINT, AS IT ACTUALLY IS TODAY (restored 2026-08-17 after the coordinator's
+      // correction). What v1.68 pane law retired was the pane-OPENING nudge — the roll loop
+      // must never touch the pane — and the edge tab it used to shake died with the pill in
+      // v1.99.0. The notification itself is live: maybeShowSaveHint() still fires save_hint and
+      // one MUTED toast after two cards are answered, and a reel that omits a live
+      // notification under-reports the product. So it belongs here, and only here: the
+      // pane-law frames stay free of it, because the deliberate save surface is the pane's own
+      // bottom anchor, reached by opening the pane yourself (see "Progress at stake").
+      frame(
+        1800,
+        "Save prompt",
+        "save_hint",
+        {
+          ...roll,
+          toast: {
+            kicker: "SAVE YOUR PROGRESS",
+            text: "Open the panel to keep it",
+            tone: "muted",
+          },
+        },
+        "toast-enter",
+        0.64,
+        "Muted on purpose, and inert: it opens nothing, shakes nothing, and takes no focus. It fires once per session after two cards are answered — by then there is something to lose.",
+      ),
       frame(
         1920,
         "A class arrives from your coach",
