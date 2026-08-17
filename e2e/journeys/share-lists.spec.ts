@@ -249,27 +249,26 @@ test("a coach collects today's class into a list from the surfaces they are alre
 // ─────────────────────── 1b. the in-roll add, proved with a REAL MOUSE at real coordinates
 
 /**
- * `.ng-landcard` is a FIXED overlay with `max-height:min(320px,40vh); overflow-y:auto`, and this
- * repo's most expensive recurring bug lives in exactly that shape: `pointer-events` is
- * inherited, the overlay root disables it, the canvas hit-tests above anything that does not
- * re-enable it — and keyboard-driven tests mask all of it (the coach's Next button and the
- * landing card's MC options were dead to the mouse until v1.69.1).
+ * REWRITTEN to the current product (the old premise died twice over): v1.101.1 moved capture to
+ * the card's absolutely-positioned CORNER — precisely so the card's height can never clip it the
+ * way the old in-flow footer was clipped — and v1.102.0 made the `+` ALWAYS open the picker
+ * ("dont assume", owner) instead of filing silently into activeListId. What survives is the
+ * repo's most expensive recurring bug class: `.ng-landcard` is a fixed overlay over a
+ * hit-testing canvas, `pointer-events` is inherited, and keyboard paths mask a dead-to-mouse
+ * control (attachInput's setPointerCapture retargeting ate exactly this button until v1.101.5).
  *
- * So this test uses `page.mouse.click(x, y)` at measured coordinates, NOT locator.click():
- * Playwright's click scrolls the element into view first, which would hide a footer clipped by
- * the card's own overflow, and its hit-target check reports a failure that reads like flake.
- * `document.elementFromPoint` is asserted separately so a failure names the thief.
+ * So the whole capture FLOW runs on `page.mouse.click(x, y)` at measured coordinates, never
+ * locator.click(), with `document.elementFromPoint` asserted separately so a failure names the
+ * thief — on a card at its FULL height (content injected, `More` unfolded).
  */
-test("the in-roll add affordance survives a REAL mouse click on a full-height landing card @curated", async ({
+test("the in-roll capture flow survives REAL mouse clicks on a full-height landing card @curated", async ({
   page,
 }) => {
   const j = journey(page);
   await j.boot("/");
   await j.land("Mount Top");
 
-  // Make the card as TALL as production: definition + a film row + the MC question. The DSL
-  // aborts technique-content.js (a 20MB payload no journey needs), so the dossier content is
-  // injected here — the CARD is the surface under test, not the fetch.
+  // make the card as tall as it gets: inject dossier content, re-render, unfold `More`
   const nodeId = await page.evaluate(() => {
     const a = (window as any).__neural;
     const node = a.nodes[a.currentPos];
@@ -277,25 +276,21 @@ test("the in-roll add affordance survives a REAL mouse click on a full-height la
     (window as any).NG_CONTENT = (window as any).NG_CONTENT || { decks: {} };
     (window as any).NG_CONTENT.decks[key] = {
       def: "A dominant top position where the hips ride above the opponent's belt line, both knees pinched to the ribs, chest low and elbows tight to the head.",
-      clips: [
-        { id: "aaaaaaaaaaa", title: "Mount control fundamentals", by: "Legend", vertical: true, start: 0, end: 42 },
-        { id: "bbbbbbbbbbb", title: "Staying heavy", by: "Legend", vertical: true, start: 0, end: 51 },
-        { id: "ccccccccccc", title: "Hip pressure", by: "Legend", vertical: false, start: 0, end: 38 },
-      ],
     };
-    a.renderLandCard(node, "land", null); // re-render the same landing with content present
+    a._landQ = null;
+    a.renderLandCard(node, "land", null);
+    a.expandLandCard();
     return node.id;
   });
+  await page.waitForTimeout(300);
 
   const card = page.locator(".ng-landcard");
   await expect(card, "the landing card is up").toBeVisible();
   const add = card.locator('[data-list-add][data-list-surface="land"]');
-  await expect(add, "…and it carries the add-to-class affordance").toHaveCount(1);
+  await expect(add, "…and its corner carries the capture affordance").toHaveCount(1);
 
   const geom = await page.evaluate(() => {
-    const c = document.querySelector(".ng-landcard") as HTMLElement;
-    const b = c.querySelector("[data-list-add]") as HTMLElement;
-    const cr = c.getBoundingClientRect();
+    const b = document.querySelector('.ng-landcard [data-list-add]') as HTMLElement;
     const br = b.getBoundingClientRect();
     const x = Math.round(br.x + br.width / 2);
     const y = Math.round(br.y + br.height / 2);
@@ -303,43 +298,41 @@ test("the in-roll add affordance survives a REAL mouse click on a full-height la
     return {
       x,
       y,
-      scrolls: c.scrollHeight > c.clientHeight + 1,
-      cardBottom: Math.round(cr.bottom),
-      btnBottom: Math.round(br.bottom),
-      belowCard: Math.round(br.bottom - cr.bottom),
       inViewport: br.x >= 0 && br.y >= 0 && br.right <= window.innerWidth && br.bottom <= window.innerHeight,
       pe: getComputedStyle(b).pointerEvents,
       hit: !el ? "NOTHING (the canvas is above it)" : el === b || b.contains(el) ? "the button" : `${el.tagName}.${el.className}`,
     };
   });
-
-  expect(
-    geom.scrolls,
-    "premise: with film + a question the card really does overflow its box (min(420px,50vh) since " +
-      "v1.101.0) — otherwise " +
-      "this test proves nothing about a clipped footer",
-  ).toBe(true);
   expect(geom.pe, "pointer-events must be re-enabled INLINE on the button").toBe("auto");
-  expect(
-    geom.belowCard,
-    `the add button is clipped ${geom.belowCard}px below the card's own scroll box ` +
-      `(card bottom ${geom.cardBottom}, button bottom ${geom.btnBottom}) — a real mouse cannot ` +
-      `reach it without scrolling inside the card first`,
-  ).toBeLessThanOrEqual(1);
-  expect(geom.inViewport, "and it is on screen").toBe(true);
+  expect(geom.inViewport, "the corner + is on screen without scrolling").toBe(true);
   expect(geom.hit, `elementFromPoint(${geom.x},${geom.y}) must be the button itself`).toBe("the button");
 
-  // the proof: a real trusted mouse click at those coordinates, no scrolling, no keyboard
+  // the proof, click 1: a real trusted mouse click opens the PICKER (v1.102.0 — nothing files silently)
   await page.mouse.click(geom.x, geom.y);
+  await page.waitForTimeout(250);
+  const picker = page.locator(`[data-list-picker="${nodeId}"]`);
+  await expect(picker, "the capture picker opens — no silent destination").toBeVisible();
+
+  // click 2 + Enter: zero lists, so the picker opens on the name field; naming files in one action
+  const nameBox = await page.evaluate(() => {
+    const i = document.querySelector("[data-list-pick-newname]") as HTMLElement;
+    const r = i.getBoundingClientRect();
+    return { x: Math.round(r.x + r.width / 2), y: Math.round(r.y + r.height / 2) };
+  });
+  await page.mouse.click(nameBox.x, nameBox.y);
+  await page.keyboard.press("Control+a"); // the field prefills the default "Class · <date>"
+  await page.keyboard.type("Tonight's class");
+  await page.keyboard.press("Enter");
+  await page.waitForTimeout(250);
 
   expect(
     await page.evaluate(() => {
       const a = (window as any).__neural;
-      const id = a.activeListId;
-      return { items: (a.lists[id] || {}).items || [] };
+      const id = Object.keys(a.lists || {})[0];
+      return id ? { name: a.lists[id].name, items: a.lists[id].items } : null;
     }),
-    "one mouse click on the landing card puts the state you are standing in into today's class",
-  ).toMatchObject({ items: [nodeId] });
+    "two mouse actions put the state you are standing in into a NAMED class",
+  ).toMatchObject({ name: "Tonight's class", items: [nodeId] });
   await j.expectBeat("list_item_added");
 });
 

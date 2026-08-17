@@ -4071,20 +4071,10 @@ class Component extends DCLogic {
     if (idx >= 0) this.locateNode(idx); // prezi flight (pane stays open — study takes it over next)
     this.studyFromSession(l.deckKey);
   }
-  completeCheckpoint(beltId, unit) {
-    // Phase 1 placeholder semantics (Phase 2 swaps in the MC quiz behind the SAME handle+beat):
-    // all live lessons done -> the checkpoint completes the unit.
-    const uk = beltId + "/" + unit.id;
-    const live = unit.lessons.filter((l) => this._lessonLive(l));
-    if (!live.every((l) => this.lessonDone(l.deckKey))) { this.setEvent("Checkpoint evidence needed", "Finish this unit's lessons first", "bad"); return; }
-    this.units = this.units || {};
-    if (!this.units[uk] || !this.units[uk].checkpoint) {
-      this.units[uk] = Object.assign({}, this.units[uk] || {}, { checkpoint: true, t: Date.now() });
-      this.fx("unit_done", { unit: uk, belt: beltId });
-      this._saveProgress();
-    }
-    this.renderExplorer();
-  }
+  // (completeCheckpoint — the Phase-1 no-quiz placeholder — is DELETED, v1.106.9: zero callers
+  // since startCheckpoint shipped the real MC quiz, and a surviving function that grants
+  // `units[uk].checkpoint` without a quiz is a footgun for any future caller. `unit_done` now
+  // exists only in the checkpoint pass branch.)
   // ── DEGREES: ONE SCORE FOR THE WHOLE GAME ──
   // Every technique carries a WEIGHT — how often a roll actually passes through it, read off the
   // graph's stationary distribution at build time (see build_technique_weights). Your standing is
