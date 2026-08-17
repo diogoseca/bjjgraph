@@ -400,9 +400,9 @@ Partner establishes outside ashi and slowly attempts to access your heel, practi
 
 | Metric | Rate |
 |--------|------|
-| Retention Rate | 60% |
-| Advancement Probability | 62% |
-| Submission Probability | 42% |
+| Retention Rate | 42% |
+| Advancement Probability | 48% |
+| Submission Probability | 18% |
 
 **Average Time in Position**: 15-30 seconds (immediate escape required)
 

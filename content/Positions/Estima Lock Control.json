@@ -251,11 +251,11 @@
         "description": "Moderate retention due to opponent's free leg providing escape leverage"
       },
       "advancement_probability": {
-        "value": 48,
+        "value": 64,
         "description": "Strong transition options to saddle, ashi garami, or toe hold when primary lock is defended"
       },
       "submission_probability": {
-        "value": 42,
+        "value": 56,
         "description": "High submission rate when lock is fully consolidated with hip pressure established"
       },
       "average_time": "30-60 seconds"

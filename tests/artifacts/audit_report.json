@@ -3,10 +3,10 @@
     "transition_files": 1034,
     "submission_files": 360,
     "position_files": 136,
-    "total_issues": 360,
+    "total_issues": 352,
     "errors": 0,
-    "warnings": 8,
-    "info": 352,
+    "warnings": 7,
+    "info": 345,
     "orphaned_transitions": 0,
     "orphaned_submissions": 2,
     "missing_transitions": 0,
@@ -42,30 +42,9 @@
     {
       "type": "position_type_score_disagreement",
       "severity": "info",
-      "name": "Backside 50-50 Top",
-      "file": "content/Positions/Ashi Garami/Backside 50-50.json",
-      "message": "Backside 50-50 Top: authored position_type 'Offensive/Controlling' but its metrics score -0.056 — the word now wins, so check whether the point_value / risk / submission-retention-advancement numbers are right"
-    },
-    {
-      "type": "position_type_score_disagreement",
-      "severity": "info",
       "name": "Honey Hole Top",
       "file": "content/Positions/Ashi Garami/Honey Hole.json",
       "message": "Honey Hole Top: authored position_type 'Offensive' but its metrics score -0.056 — the word now wins, so check whether the point_value / risk / submission-retention-advancement numbers are right"
-    },
-    {
-      "type": "position_type_score_disagreement",
-      "severity": "info",
-      "name": "Inside Ashi-Garami Top",
-      "file": "content/Positions/Ashi Garami/Inside Ashi-Garami.json",
-      "message": "Inside Ashi-Garami Top: authored position_type 'Offensive' but its metrics score -0.056 — the word now wins, so check whether the point_value / risk / submission-retention-advancement numbers are right"
-    },
-    {
-      "type": "position_type_score_disagreement",
-      "severity": "info",
-      "name": "Outside Ashi-Garami Bottom",
-      "file": "content/Positions/Ashi Garami/Outside Ashi-Garami.json",
-      "message": "Outside Ashi-Garami Bottom: authored position_type 'Offensive' but its metrics score -0.056 — the word now wins, so check whether the point_value / risk / submission-retention-advancement numbers are right"
     },
     {
       "type": "position_type_score_disagreement",
@@ -79,7 +58,7 @@
       "severity": "info",
       "name": "Ashi Garami Bottom",
       "file": "content/Positions/Ashi Garami.json",
-      "message": "Ashi Garami Bottom: authored position_type 'Offensive' but its metrics score -0.056 — the word now wins, so check whether the point_value / risk / submission-retention-advancement numbers are right"
+      "message": "Ashi Garami Bottom: authored position_type 'Offensive' but its metrics score -0.038 — the word now wins, so check whether the point_value / risk / submission-retention-advancement numbers are right"
     },
     {
       "type": "position_type_score_disagreement",
@@ -112,13 +91,6 @@
     {
       "type": "position_type_score_disagreement",
       "severity": "info",
-      "name": "Diamond Guard Bottom",
-      "file": "content/Positions/Closed Guard/Diamond Guard.json",
-      "message": "Diamond Guard Bottom: authored position_type 'Offensive/Controlling' but its metrics score -0.030 — the word now wins, so check whether the point_value / risk / submission-retention-advancement numbers are right"
-    },
-    {
-      "type": "position_type_score_disagreement",
-      "severity": "info",
       "name": "Closed Guard Bottom",
       "file": "content/Positions/Closed Guard.json",
       "message": "Closed Guard Bottom: authored position_type 'Offensive' but its metrics score -0.028 — the word now wins, so check whether the point_value / risk / submission-retention-advancement numbers are right"
@@ -142,7 +114,7 @@
       "severity": "info",
       "name": "De La Riva Guard Top",
       "file": "content/Positions/De La Riva Guard.json",
-      "message": "De La Riva Guard Top: authored position_type 'Offensive' but its metrics score -0.070 — the word now wins, so check whether the point_value / risk / submission-retention-advancement numbers are right"
+      "message": "De La Riva Guard Top: authored position_type 'Offensive' but its metrics score -0.210 — the word now wins, so check whether the point_value / risk / submission-retention-advancement numbers are right"
     },
     {
       "type": "position_type_score_disagreement",
@@ -161,23 +133,9 @@
     {
       "type": "position_type_score_disagreement",
       "severity": "info",
-      "name": "Estima Lock Control Top",
-      "file": "content/Positions/Estima Lock Control.json",
-      "message": "Estima Lock Control Top: authored position_type 'Offensive/Controlling' but its metrics score -0.086 — the word now wins, so check whether the point_value / risk / submission-retention-advancement numbers are right"
-    },
-    {
-      "type": "position_type_score_disagreement",
-      "severity": "info",
       "name": "Feet on Hips Guard Top",
       "file": "content/Positions/Feet on Hips Guard.json",
       "message": "Feet on Hips Guard Top: authored position_type 'Offensive' but its metrics score -0.124 — the word now wins, so check whether the point_value / risk / submission-retention-advancement numbers are right"
-    },
-    {
-      "type": "position_type_score_disagreement",
-      "severity": "info",
-      "name": "Gogoplata Control Bottom",
-      "file": "content/Positions/Gogoplata Control.json",
-      "message": "Gogoplata Control Bottom: authored position_type 'Offensive/Controlling' but its metrics score -0.034 — the word now wins, so check whether the point_value / risk / submission-retention-advancement numbers are right"
     },
     {
       "type": "position_type_score_disagreement",
@@ -247,7 +205,7 @@
       "severity": "info",
       "name": "Reverse Half Guard Top",
       "file": "content/Positions/Half Guard/Reverse Half Guard.json",
-      "message": "Reverse Half Guard Top: authored position_type 'Offensive' but its metrics score -0.020 — the word now wins, so check whether the point_value / risk / submission-retention-advancement numbers are right"
+      "message": "Reverse Half Guard Top: authored position_type 'Offensive' but its metrics score -0.188 — the word now wins, so check whether the point_value / risk / submission-retention-advancement numbers are right"
     },
     {
       "type": "position_type_score_disagreement",
@@ -261,7 +219,7 @@
       "severity": "info",
       "name": "Half Guard Top",
       "file": "content/Positions/Half Guard.json",
-      "message": "Half Guard Top: authored position_type 'Offensive' but its metrics score -0.046 — the word now wins, so check whether the point_value / risk / submission-retention-advancement numbers are right"
+      "message": "Half Guard Top: authored position_type 'Offensive' but its metrics score -0.130 — the word now wins, so check whether the point_value / risk / submission-retention-advancement numbers are right"
     },
     {
       "type": "position_type_score_disagreement",
@@ -276,20 +234,6 @@
       "name": "K-Guard Bottom",
       "file": "content/Positions/K-Guard.json",
       "message": "K-Guard Bottom: authored position_type 'Offensive' but its metrics score -0.106 — the word now wins, so check whether the point_value / risk / submission-retention-advancement numbers are right"
-    },
-    {
-      "type": "position_type_score_disagreement",
-      "severity": "warning",
-      "name": "Kimura Trap Bottom",
-      "file": "content/Positions/Kimura Trap.json",
-      "message": "Kimura Trap Bottom: authored position_type 'Defensive with offensive options' but its metrics score +0.047 — the word now wins, so check whether the point_value / risk / submission-retention-advancement numbers are right"
-    },
-    {
-      "type": "position_type_score_disagreement",
-      "severity": "info",
-      "name": "Kneebar Control Bottom",
-      "file": "content/Positions/Kneebar Control.json",
-      "message": "Kneebar Control Bottom: authored position_type 'Offensive' but its metrics score -0.072 — the word now wins, so check whether the point_value / risk / submission-retention-advancement numbers are right"
     },
     {
       "type": "position_type_score_disagreement",
@@ -415,7 +359,7 @@
       "severity": "info",
       "name": "Worm Guard Bottom",
       "file": "content/Positions/Worm Guard.json",
-      "message": "Worm Guard Bottom: authored position_type 'Offensive' but its metrics score -0.056 — the word now wins, so check whether the point_value / risk / submission-retention-advancement numbers are right"
+      "message": "Worm Guard Bottom: authored position_type 'Offensive' but its metrics score -0.032 — the word now wins, so check whether the point_value / risk / submission-retention-advancement numbers are right"
     },
     {
       "type": "position_type_score_disagreement",

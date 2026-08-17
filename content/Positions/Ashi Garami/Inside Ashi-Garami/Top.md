@@ -417,9 +417,9 @@ Practice transitioning from inside ashi to more advanced positions (honey hole, 
 
 | Metric | Rate |
 |--------|------|
-| Retention Rate | 60% |
-| Advancement Probability | 60% |
-| Submission Probability | 42% |
+| Retention Rate | 66% |
+| Advancement Probability | 64% |
+| Submission Probability | 54% |
 
 **Average Time in Position**: 30-90 seconds before submission attempt or advancement
 

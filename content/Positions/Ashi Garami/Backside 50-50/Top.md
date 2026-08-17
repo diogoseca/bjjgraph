@@ -428,9 +428,9 @@ Starting from backside 50-50 top, practice finishing sequence for heel hook, out
 
 | Metric | Rate |
 |--------|------|
-| Retention Rate | 60% |
-| Advancement Probability | 60% |
-| Submission Probability | 42% |
+| Retention Rate | 68% |
+| Advancement Probability | 66% |
+| Submission Probability | 56% |
 
 **Average Time in Position**: 45-90 seconds before advancement or submission attempt
 

@@ -401,15 +401,15 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "value": 60,
+        "value": 68,
         "description": "Moderate retention due to opponent's constant escape attempts and transitional nature of leg entanglements"
       },
       "advancement_probability": {
-        "value": 60,
+        "value": 66,
         "description": "High advancement potential through back control or saddle transitions when leg attacks are defended"
       },
       "submission_probability": {
-        "value": 42,
+        "value": 56,
         "description": "Strong submission rate from heel hooks, toe holds, and ankle locks due to pressure advantage"
       },
       "average_time": "45-90 seconds before advancement or submission attempt"
@@ -827,15 +827,15 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "value": 60,
+        "value": 50,
         "description": "Moderate retention reflecting the transitional nature and opponent's pressure advantage"
       },
       "advancement_probability": {
-        "value": 60,
+        "value": 50,
         "description": "Reasonable advancement through escapes, guard recovery, or opportunistic reversals"
       },
       "submission_probability": {
-        "value": 42,
+        "value": 34,
         "description": "Opportunistic submissions possible through counter-attacks when opponent overcommits"
       },
       "average_time": "30-60 seconds"

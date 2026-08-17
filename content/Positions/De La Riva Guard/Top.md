@@ -395,7 +395,7 @@ Partner plays DLR and actively attempts berimbolo and kiss of the dragon entries
 |--------|------|
 | Retention Rate | 60% |
 | Advancement Probability | 60% |
-| Submission Probability | 40% |
+| Submission Probability | 20% |
 
 **Average Time in Position**: 45-90 seconds before pass or sweep
 

@@ -257,13 +257,13 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "value": 60
+        "value": 42
       },
       "advancement_probability": {
-        "value": 62
+        "value": 48
       },
       "submission_probability": {
-        "value": 42
+        "value": 18
       },
       "average_time": "15-30 seconds (immediate escape required)"
     },
@@ -663,13 +663,13 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "value": 60
+        "value": 68
       },
       "advancement_probability": {
-        "value": 60
+        "value": 62
       },
       "submission_probability": {
-        "value": 42
+        "value": 52
       },
       "average_time": "30-60 seconds before transition or escape"
     },

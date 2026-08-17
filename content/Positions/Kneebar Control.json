@@ -708,7 +708,7 @@
         "description": "Likelihood of transitioning to superior leg attack or finishing submission"
       },
       "submission_probability": {
-        "value": 40,
+        "value": 48,
         "description": "Probability of finishing from this position within 60 seconds"
       },
       "average_time": "15-45 seconds before finish or transition required"

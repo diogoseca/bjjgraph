@@ -387,7 +387,7 @@ Establish gogoplata control position and focus exclusively on maintaining elevat
 
 | Metric | Rate |
 |--------|------|
-| Retention Rate | 55% |
+| Retention Rate | 64% |
 | Advancement Probability | 68% |
 | Submission Probability | 45% |
 
