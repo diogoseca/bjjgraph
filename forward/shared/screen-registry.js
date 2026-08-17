@@ -1023,6 +1023,8 @@ export const screenItems = [
     "Onboarding",
     "First coach beat points at the live hand.",
     { ...baseRoll, coachStep: 1, paused: true },
+    ["Default"],
+    { behavior: "RETIRED IN PRODUCTION (v1.104.0): the first-roll coach was deleted by the owner — a fixed overlay that opened over the first-ever landing and froze the decision clock. Its three White objectives were re-keyed to the actions they name (options_dealt, sheet_opened, land_q_shown), not deleted. Kept here as a record of a surface that shipped; nothing new is authored against it." },
   ),
   make(
     "coach-two",
@@ -1030,6 +1032,8 @@ export const screenItems = [
     "Onboarding",
     "Second coach beat explains the landing question.",
     { ...landing, coachStep: 2, paused: true },
+    ["Default"],
+    { behavior: "RETIRED IN PRODUCTION (v1.104.0): the first-roll coach was deleted by the owner — a fixed overlay that opened over the first-ever landing and froze the decision clock. Its three White objectives were re-keyed to the actions they name (options_dealt, sheet_opened, land_q_shown), not deleted. Kept here as a record of a surface that shipped; nothing new is authored against it." },
   ),
   make(
     "coach-three",
@@ -1037,6 +1041,8 @@ export const screenItems = [
     "Onboarding",
     "Third coach beat points toward the technique sheet.",
     { ...baseRoll, sheet: "collapsed", coachStep: 3, paused: true },
+    ["Default"],
+    { behavior: "RETIRED IN PRODUCTION (v1.104.0): the first-roll coach was deleted by the owner — a fixed overlay that opened over the first-ever landing and froze the decision clock. Its three White objectives were re-keyed to the actions they name (options_dealt, sheet_opened, land_q_shown), not deleted. Kept here as a record of a surface that shipped; nothing new is authored against it." },
   ),
   make(
     "challenge-cue",

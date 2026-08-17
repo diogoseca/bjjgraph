@@ -1,0 +1,839 @@
+/* ONE PANE (v1.76.0, left since v1.94.0) + the share / lists surfaces (v1.81.x-v1.103.x).
+   Explore's three-rung indent is the shared ladder: head pad 12, list/section pad 22,
+   technique pad 38. Pane controls are 24px (WCAG 2.2 AA); 44px is reserved for the
+   surfaces a thumb hits mid-roll. */
+
+.one-pane {
+  right: auto;
+  left: 0;
+  z-index: 9;
+  width: min(360px, 92%);
+  border-right: 1px solid var(--fc-border);
+  border-left: 0;
+  box-shadow: 12px 0 40px rgba(0, 0, 0, 0.5);
+}
+
+.one-pane .pane-close {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  z-index: 2;
+  color: #8b97b0;
+  font-size: 18px;
+  line-height: 1;
+}
+
+.pane-tabs {
+  flex: none;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2px;
+  padding: 46px 10px 8px;
+  border-bottom: 1px solid rgba(150, 170, 210, 0.1);
+}
+
+.pane-tabs button {
+  display: grid;
+  gap: 3px;
+  padding: 7px 6px;
+  border-radius: 9px;
+  color: #7e8aa3;
+  text-align: left;
+}
+
+.pane-tabs button b {
+  font-size: 12.5px;
+  font-weight: 700;
+}
+
+.pane-tabs button small {
+  color: #5d6883;
+  font-size: 10px;
+  font-weight: 600;
+}
+
+.pane-tabs button[aria-pressed="true"] {
+  color: #eef1f6;
+  background: rgba(255, 255, 255, 0.06);
+}
+
+.pane-tabs button[aria-pressed="true"] small {
+  color: #9aa6bd;
+}
+
+.ng-tab-belt {
+  display: inline-flex;
+  align-items: center;
+  gap: 2px;
+  width: 34px;
+  height: 7px;
+  padding: 0 2px;
+  border-radius: 2px;
+  background: #d7dce7;
+}
+
+.ng-tab-belt[data-belt="blue"] {
+  background: #7398df;
+}
+.ng-tab-belt[data-belt="purple"] {
+  background: #9274bd;
+}
+.ng-tab-belt[data-belt="brown"] {
+  background: #9c745b;
+}
+.ng-tab-belt[data-belt="black"] {
+  background: #2a2e3c;
+}
+
+.ng-tab-belt b {
+  width: 3px;
+  height: 5px;
+  background: rgba(15, 20, 36, 0.55);
+}
+
+.pane-body {
+  flex: 1;
+  overflow: hidden;
+  padding: 8px 0 12px;
+  font-size: 12px;
+}
+
+.pane-search {
+  padding: 6px 12px 8px;
+}
+
+.pane-search label {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  padding: 7px 10px;
+  border: 1px solid rgba(150, 170, 210, 0.18);
+  border-radius: 9px;
+  color: #8b97b0;
+  background: rgba(255, 255, 255, 0.03);
+}
+
+.pane-search input {
+  flex: 1;
+  min-width: 0;
+  color: #eef1f6;
+  background: none;
+  font: inherit;
+}
+
+.pane-head,
+.pane-label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 7px 12px;
+  color: #dbe2f0;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.pane-label {
+  color: #6b7691;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.pane-head small {
+  color: #7e8aa3;
+  font-size: 11px;
+  font-weight: 600;
+}
+
+.lists-new {
+  margin-left: auto;
+  display: grid;
+  place-items: center;
+  width: 28px;
+  height: 28px;
+}
+
+.lists-new-chip {
+  display: grid;
+  place-items: center;
+  width: 24px;
+  height: 24px;
+  border: 1px solid rgba(150, 170, 210, 0.25);
+  border-radius: 8px;
+  color: #c4cde0;
+  background: rgba(255, 255, 255, 0.05);
+  font-size: 14px;
+  line-height: 1;
+}
+
+.pane-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 7px 12px 7px 22px;
+  color: #c4cde0;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.pane-row--section button {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  width: 100%;
+  color: inherit;
+  font: inherit;
+}
+
+.pane-row--section small {
+  color: #7e8aa3;
+  font-weight: 600;
+}
+
+.pane-row--section .chev,
+.pane-row .chev {
+  margin-left: auto;
+  color: #6b7691;
+  font-size: 10px;
+}
+
+.pane-row--item {
+  padding-left: 38px;
+  color: #9aa6bd;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.pane-row--list.is-lit {
+  background: rgba(126, 224, 168, 0.08);
+}
+
+.pane-row-main {
+  flex: 1;
+  min-width: 0;
+  display: grid;
+  gap: 1px;
+}
+
+.pane-row-main b {
+  overflow: hidden;
+  color: #c4cde0;
+  font-size: 12.5px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.pane-row-main small,
+.pane-row--roll small {
+  color: #6b7691;
+  font-size: 9.5px;
+  font-weight: 600;
+}
+
+.list-name {
+  color: #c4cde0;
+  cursor: text;
+  font: 600 13px/1.3 var(--fc-font);
+  text-align: left;
+}
+
+.list-open {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  margin: -6px -5px;
+  padding: 6px 5px;
+  color: #7e8aa3;
+  font-size: 10.5px;
+  font-weight: 600;
+}
+
+.pane-item-name b {
+  color: #c8d1e4;
+  font-weight: 600;
+}
+
+.pane-item-name small {
+  color: #6b7691;
+}
+
+/* 24px is the pane's control figure. Glyphs stay small; the hit area grows around them. */
+.pane-glyph {
+  flex: none;
+  display: grid;
+  place-items: center;
+  width: 24px;
+  height: 24px;
+  border-radius: 7px;
+  color: #8b97b0;
+  background: rgba(255, 255, 255, 0.04);
+  font-size: 12px;
+  line-height: 1;
+}
+
+.pane-glyph.is-armed {
+  width: auto;
+  padding: 0 8px;
+  color: #e8889e;
+  font-size: 10px;
+  font-weight: 700;
+}
+
+.pane-glyph-shape {
+  flex: none;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #c9d2e3;
+}
+
+.pane-glyph-shape--transition {
+  border-radius: 1px;
+  background: #9fb0d8;
+  transform: rotate(45deg);
+}
+
+.pane-glyph-shape--submission {
+  width: 0;
+  height: 0;
+  border-right: 4px solid transparent;
+  border-bottom: 7px solid #e8956b;
+  border-left: 4px solid transparent;
+  border-radius: 0;
+  background: none;
+}
+
+.roll-dot {
+  flex: none;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #7e8aa3;
+}
+
+.roll-dot.is-won {
+  background: #7ee0a8;
+  box-shadow: 0 0 6px rgba(126, 224, 168, 0.4);
+}
+
+.roll-dot.is-tapped {
+  background: #e8889e;
+}
+
+.hist-empty {
+  padding: 18px 20px;
+  color: #7e8aa3;
+  font-size: 12.5px;
+  line-height: 1.55;
+}
+
+/* ── corridor ─────────────────────────────────────────────────────────────── */
+
+.ng-corridor {
+  position: relative;
+  padding-left: 14px;
+}
+
+.ng-corridor-rail {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 6px;
+  display: flex;
+  flex-direction: column;
+  width: 6px;
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.ng-corridor-rail i {
+  flex: 1;
+  background: var(--track);
+  box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.25);
+}
+
+.ng-belt-section {
+  margin: 6px 0;
+}
+
+.ng-track-card {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+  padding: 9px 12px;
+  border: 1px solid
+    color-mix(in srgb, var(--track) 45%, rgba(150, 170, 210, 0.2));
+  border-radius: 10px;
+  color: #eef1f6;
+  background: color-mix(in srgb, var(--track) 34%, rgba(18, 21, 38, 0.92));
+  font-size: 13px;
+  text-align: left;
+}
+
+.ng-track-card b {
+  font-weight: 700;
+}
+
+.ng-track-card span {
+  color: rgba(238, 241, 246, 0.75);
+  font-size: 11px;
+  font-weight: 600;
+}
+
+.ng-belt-stamp {
+  position: absolute;
+  right: 34px;
+  z-index: -1;
+  color: rgba(200, 210, 228, 0.28);
+  font-size: 26px;
+}
+
+.ng-belt-toggle {
+  margin-left: auto;
+  color: inherit;
+  font-size: 11px;
+}
+
+.ng-challenge-lessonrow {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 7px 12px 7px 22px;
+  border-left: 2px solid transparent;
+  font-size: 12.5px;
+}
+
+.ng-challenge-lessonrow[data-cat="position"] {
+  border-left-color: rgba(201, 210, 227, 0.5);
+}
+.ng-challenge-lessonrow[data-cat="transition"] {
+  border-left-color: rgba(159, 176, 216, 0.5);
+}
+.ng-challenge-lessonrow[data-cat="submission"] {
+  border-left-color: rgba(232, 149, 107, 0.5);
+}
+
+.ng-challenge-lessonrow[data-lesson-done="false"] .lesson-name {
+  opacity: 0.62;
+}
+
+.ng-challenge-lessonrow[data-frontier] {
+  background: rgba(126, 158, 255, 0.08);
+}
+
+.lesson-name {
+  flex: 1;
+  min-width: 0;
+  overflow: hidden;
+  color: #dbe2f0;
+  font: 600 12.5px/1.35 var(--fc-font);
+  white-space: nowrap;
+  text-align: left;
+  text-overflow: ellipsis;
+}
+
+.ng-lesson-check {
+  color: #7ee0a8;
+  font-size: 11px;
+}
+
+.ng-tutorial-chips {
+  display: flex;
+  gap: 5px;
+  overflow: hidden;
+  margin-left: auto;
+  -webkit-mask-image: linear-gradient(90deg, #000 72%, transparent);
+  mask-image: linear-gradient(90deg, #000 72%, transparent);
+}
+
+.ng-tutorial-chips i {
+  flex: none;
+  padding: 2px 7px;
+  border-radius: 999px;
+  color: #8b97b0;
+  background: rgba(255, 255, 255, 0.05);
+  font-size: 9.5px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.maintenance-band,
+.recall-reward,
+.pane-sync {
+  display: grid;
+  gap: 3px;
+  margin: 6px 12px;
+  padding: 10px 12px;
+  border: 1px solid rgba(214, 164, 90, 0.28);
+  border-radius: 10px;
+  background: rgba(214, 164, 90, 0.08);
+  color: #e9bd70;
+  font-size: 11.5px;
+}
+
+.maintenance-band span,
+.recall-reward span {
+  color: #aab4c8;
+}
+
+.maintenance-band b,
+.recall-reward b {
+  color: #f0cf8e;
+  font-size: 12.5px;
+}
+
+.recall-reward small {
+  color: #7e8aa3;
+  font-size: 9px;
+  font-weight: 800;
+  letter-spacing: 0.1em;
+}
+
+.pane-sync {
+  border-color: rgba(150, 170, 210, 0.22);
+  background: rgba(255, 255, 255, 0.04);
+  color: #9aa6bd;
+}
+
+.rewards-shelf {
+  margin: 10px 12px 0;
+  padding: 8px 10px;
+  border: 1px solid rgba(150, 170, 210, 0.16);
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.03);
+}
+
+.rewards-shelf summary {
+  color: #c4cde0;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.rewards-shelf summary small {
+  color: #7e8aa3;
+  font-weight: 600;
+}
+
+.rewards-body {
+  display: grid;
+  gap: 8px;
+  padding-top: 9px;
+}
+
+.rewards-body p {
+  color: #6b7691;
+  font-size: 10.5px;
+  line-height: 1.5;
+}
+
+/* ── study takeover ───────────────────────────────────────────────────────── */
+
+.pane-body--study {
+  padding: 0;
+}
+
+.pane-study-head {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 46px 16px 12px 12px;
+  border-bottom: 1px solid rgba(150, 170, 210, 0.1);
+  color: #dbe2f0;
+  font-size: 13px;
+}
+
+.pane-back {
+  padding: 5px 11px;
+  border-radius: 9px;
+  color: #aeb9d2;
+  background: rgba(255, 255, 255, 0.05);
+  font-size: 12px;
+  font-weight: 600;
+}
+
+/* ── foot ─────────────────────────────────────────────────────────────────── */
+
+.pane-foot {
+  flex: none;
+  display: grid;
+  gap: 8px;
+  padding: 0 0 10px;
+}
+
+.pane-stats {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  padding: 9px 12px;
+  border-top: 1px solid rgba(150, 170, 210, 0.1);
+  color: #8b97b0;
+  font-size: 11px;
+}
+
+.pane-stats .ngStat:nth-child(2) {
+  justify-self: center;
+}
+
+.pane-stats .ngStat:last-child {
+  justify-self: end;
+}
+
+.pane-stats b {
+  color: #cbd4e6;
+  font-weight: 700;
+}
+
+.pane-stats small {
+  color: #7e8aa3;
+  font-size: 10px;
+}
+
+.pane-stats .is-owed,
+.pane-stats .is-weak {
+  color: #d6a45a;
+}
+
+.pane-stats .is-owed b,
+.pane-stats .is-weak b {
+  color: #e9bd70;
+}
+
+.pane-anchor {
+  display: grid;
+  gap: 3px;
+  padding: 10px 20px 0;
+  border-top: 1px solid rgba(150, 170, 210, 0.1);
+  text-align: center;
+}
+
+.ng-anchor-caption {
+  color: #7e8aa3;
+  font-size: 10.5px;
+  font-weight: 600;
+}
+
+.ng-anchor-cta {
+  width: 100%;
+  padding: 11px;
+  border-radius: 11px;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.ng-anchor-alt {
+  color: #5d6883;
+  font-size: 10.5px;
+}
+
+.ng-anchor-alt button {
+  color: #7e8aa3;
+  font: inherit;
+  text-decoration: underline;
+}
+
+.pane-feedback,
+.pane-legal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  color: #5d6883;
+  font-size: 10px;
+}
+
+.pane-feedback i,
+.pane-legal i {
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  background: #3c4358;
+}
+
+.pane-feedback [data-gh-chip] {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+
+/* ── share arrivals, cue, picker ──────────────────────────────────────────── */
+
+.shared-block {
+  display: grid;
+  gap: 5px;
+  margin: 6px 12px 10px;
+  padding: 11px 12px;
+  border: 1px solid rgba(126, 224, 168, 0.3);
+  border-radius: 11px;
+  background: rgba(126, 224, 168, 0.07);
+}
+
+.shared-block.is-broken,
+.shared-block.is-stale {
+  border-color: rgba(232, 136, 158, 0.32);
+  background: rgba(232, 136, 158, 0.07);
+}
+
+.shared-block.is-stale {
+  border-color: rgba(214, 164, 90, 0.32);
+  background: rgba(214, 164, 90, 0.07);
+}
+
+.shared-block small {
+  color: #7e8aa3;
+  font-size: 9px;
+  font-weight: 800;
+  letter-spacing: 0.1em;
+}
+
+.shared-block b {
+  color: #eef1f6;
+  font-size: 13px;
+}
+
+.shared-block p {
+  color: #9aa6bd;
+  font-size: 11.5px;
+  line-height: 1.5;
+}
+
+.shared-block .pane-row--item {
+  padding-left: 0;
+}
+
+.shared-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  padding-top: 4px;
+}
+
+.shared-actions button {
+  padding: 7px 11px;
+  border: 1px solid rgba(150, 170, 210, 0.22);
+  border-radius: 9px;
+  color: #dbe2f0;
+  background: rgba(255, 255, 255, 0.04);
+  font-size: 11.5px;
+  font-weight: 600;
+}
+
+.shared-actions .quiet {
+  border-color: transparent;
+  color: #7e8aa3;
+  background: none;
+}
+
+.list-undo {
+  margin: 4px 12px;
+  padding: 8px 10px;
+  border-radius: 9px;
+  color: #9aa6bd;
+  background: rgba(255, 255, 255, 0.04);
+  font-size: 11.5px;
+}
+
+.list-undo button {
+  color: #9ab0e0;
+  font: inherit;
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+/* the standalone band control: above the account chip, hidden while the pane is open */
+.share-cue {
+  position: absolute;
+  right: 22px;
+  bottom: 76px;
+  z-index: 7;
+  display: flex;
+  gap: 7px;
+}
+
+.share-cue button {
+  padding: 9px 13px;
+  border: 1px solid rgba(126, 224, 168, 0.35);
+  border-radius: 999px;
+  color: #bff0d3;
+  background: rgba(18, 34, 27, 0.9);
+  font-size: 12px;
+  font-weight: 700;
+  pointer-events: auto;
+}
+
+.share-cue.is-broken button {
+  border-color: rgba(232, 136, 158, 0.4);
+  color: #f3c2ce;
+  background: rgba(38, 20, 26, 0.9);
+}
+
+/* z:90 — the deliberate-screen band. It owns the INPUT without taking the view: the
+   landing card stays readable behind it (v1.103.2). */
+.list-picker {
+  position: absolute;
+  right: 18%;
+  bottom: 30%;
+  z-index: 90;
+  display: grid;
+  gap: 2px;
+  min-width: 190px;
+  padding: 8px;
+  border: 1px solid rgba(150, 170, 210, 0.25);
+  border-radius: 12px;
+  background: rgba(20, 23, 40, 0.98);
+  box-shadow: 0 18px 44px rgba(0, 0, 0, 0.55);
+}
+
+.list-picker small {
+  padding: 2px 6px 5px;
+  color: #6b7691;
+  font-size: 9px;
+  font-weight: 800;
+  letter-spacing: 0.1em;
+}
+
+.list-picker button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 9px 9px;
+  border-radius: 8px;
+  color: #dbe2f0;
+  font-size: 12px;
+  font-weight: 600;
+  text-align: left;
+}
+
+.list-picker button[data-picker-default] {
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.list-picker b {
+  color: #7ee0a8;
+}
+
+.picker-new-row {
+  color: #9ab0e0 !important;
+}
+
+.picker-new {
+  display: flex;
+  gap: 5px;
+  padding-top: 4px;
+}
+
+.picker-new input {
+  flex: 1;
+  min-width: 0;
+  padding: 8px 9px;
+  border: 1px solid rgba(150, 170, 210, 0.25);
+  border-radius: 8px;
+  color: #eef1f6;
+  background: rgba(255, 255, 255, 0.05);
+  font: inherit;
+  font-size: 12px;
+}

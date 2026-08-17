@@ -33,6 +33,8 @@ import {
   settingsModal,
   systemState,
 } from "./components-panels.js";
+import { pane } from "./components-pane.js";
+import { listPicker, shareCue } from "./components-share.js";
 import { defaultContext } from "./fixtures.js";
 import { icon } from "./icons.js";
 
@@ -47,10 +49,16 @@ function pausedChip({ staged = false } = {}) {
   return `<div class="paused-chip ng-paused">${icon("pause", 11)} ${staged ? "STAGED · CLOCK HELD" : "PAUSED"}</div>`;
 }
 
-function checkpoint({ result = "question" } = {}, context = defaultContext) {
+// The kicker is DERIVED, never a constant: a checkpoint belongs to one belt's one unit, and
+// a frame that says "BLUE · 4/8" while sitting inside a White corridor is a lie the catalog
+// used to tell on every checkpoint screen.
+function checkpoint(
+  { result = "question", belt = "blue", done = 4, total = 8 } = {},
+  context = defaultContext,
+) {
   const data = context.question;
-  return `<div class="modal-layer ng-modal-layer"><section class="modal-card ng-checkpoint" role="dialog" aria-modal="true" aria-label="Checkpoint quiz" data-production-selector="[data-checkpoint]">
-    <small>BLUE CONTENT CHECKPOINT · 4/8</small>
+  return `<div class="modal-layer ng-modal-layer"><section class="modal-card ng-checkpoint" role="dialog" aria-modal="true" aria-label="Checkpoint quiz" data-checkpoint-belt="${belt}" data-production-selector="[data-checkpoint]">
+    <small>${String(belt).toUpperCase()} BELT CHECKPOINT · ${done}/${total}</small>
     <h2>${data.prompt}</h2>
     <div class="answer-grid">${data.answers
       .map(
@@ -119,6 +127,15 @@ export function gameScreen(options = {}, context = defaultContext) {
     progressState = null,
     motion = "still",
     motionProgress = 1,
+    // v1.106 composition model — see components-pane.js. `pane` is the ONE left pane;
+    // `leftPanel`/`rightPanel` below it are the retired two-rail keys, kept only because the
+    // historical screens are pinned, and never used by new authorship.
+    pane: paneState = null,
+    lit = null,
+    litLabel = "",
+    litPath = false,
+    share = null,
+    picker = null,
   } = options;
   const activeLeftPanel =
     leftPanel ||
@@ -131,7 +148,7 @@ export function gameScreen(options = {}, context = defaultContext) {
   const activeRightPanel = rightPanel || (panel === "drill" ? "drill" : null);
 
   return `<div class="game-stage" data-screen-state="${result || (staged ? "staged" : "rolling")}" data-motion="${motion}" style="--motion-progress:${Math.max(0, Math.min(1, motionProgress))}">
-    ${graphField({ muted: !active || sparse })}
+    ${graphField({ muted: !active || sparse, lit, litLabel, litPath })}
     ${brand()}
     ${accountBubble({ signedIn, open: accountOpen })}
     ${showIntro ? intro({ firstRun }) : ""}
@@ -147,6 +164,9 @@ export function gameScreen(options = {}, context = defaultContext) {
     ${options.comboPop ? comboPop({ combo: options.comboPop }) : ""}
     ${activeLeftPanel === "explorer" ? explorerPanel({ mode: options.explorerMode, query: options.query, ruleset: options.ruleset }) : activeLeftPanel === "challenges" ? challengesPanel({ state: options.challengeState, selected: options.selectedTrack }) : activeLeftPanel === "collection" ? collectionPanel({ state: options.collectionState }) : activeLeftPanel === "progress" ? progressPanel({ mode: options.progressMode, state: progressState }, context) : ""}
     ${activeRightPanel === "drill" ? drillPanel({ state: options.panelState }, context) : ""}
+    ${paneState ? pane(paneState, context) : ""}
+    ${share ? shareCue(share) : ""}
+    ${picker ? listPicker(picker) : ""}
     ${sheet ? optionSheet({ state: sheet }, context) : ""}
     ${detail ? dossier({ variant: detail, mobile: options.mobileDetail }, context) : ""}
     ${modal ? (modal === "auth" ? authModal({ mode: options.authMode }) : settingsModal({ tab: modal })) : ""}
@@ -155,7 +175,7 @@ export function gameScreen(options = {}, context = defaultContext) {
     ${panic !== null ? panicCard({ revealed: panic === "revealed" }) : ""}
     ${showVignette ? vignette() : ""}
     ${result ? verdict({ result: result === "defeat" ? "defeat" : "victory", detail: options.resultDetail }) : ""}
-    ${checkpointState ? checkpoint({ result: checkpointState }, context) : ""}
+    ${checkpointState ? checkpoint({ result: checkpointState, ...(options.checkpoint || {}) }, context) : ""}
     ${flashBrowser !== null ? browser({ empty: flashBrowser === "empty" }, context) : ""}
     ${system ? `<div style="position:absolute;inset:0;z-index:18;display:grid;place-items:center">${systemState({ type: system })}</div>` : ""}
     ${restartState ? restartCard({ state: restartState }, context) : ""}

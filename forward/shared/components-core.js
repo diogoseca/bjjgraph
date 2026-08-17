@@ -52,21 +52,69 @@ const GRAPH_LINKS = GRAPH_NODES.slice(1)
   )
   .join("");
 
-export function graphField({ focus = "position", muted = false } = {}) {
+// A lit set is a stable, spread-out walk of the synthetic constellation: the same
+// indices every render, so a share link, a System and a list all light the SAME shape
+// and two frames of one journey can be compared. Deliberately not random.
+const LIT_SEQUENCE = [7, 23, 41, 58, 76, 94, 112, 130, 19, 52, 88, 121];
+
+function litIndices(lit) {
+  if (Array.isArray(lit)) return lit.filter((index) => GRAPH_NODES[index]);
+  const count = Math.max(0, Math.min(LIT_SEQUENCE.length, Number(lit) || 0));
+  return LIT_SEQUENCE.slice(0, count);
+}
+
+/**
+ * The graph canvas.
+ *
+ * `lit` is the shared LIT-NODE-SET primitive (v1.106 catalog): a set of nodes held
+ * alight while the camera frames them — a shared class arriving from `/l/<code>`, a
+ * saved list re-lit from Explore, a System's members. `litPath` joins them in order
+ * for the cases where the set is a sequence rather than a bag. `litLabel` names the
+ * set on the canvas the way production labels the focused node.
+ */
+export function graphField({
+  focus = "position",
+  muted = false,
+  lit = null,
+  litLabel = "",
+  litPath = false,
+  label = "DEEP HALF",
+} = {}) {
   const focusIndex =
     GRAPH_NODES.findIndex((node) => node.type === focus) >= 0
       ? GRAPH_NODES.findIndex((node) => node.type === focus)
       : 0;
-  return `<div class="graph-field ng-graph ${muted ? "is-muted" : ""}" data-production-selector="canvas" aria-hidden="true">
+  const litSet = litIndices(lit);
+  const litLookup = new Set(litSet);
+  const litTrail =
+    litPath && litSet.length > 1
+      ? `<path class="graph-link-lit" d="${litSet
+          .map(
+            (index, order) =>
+              `${order ? "L" : "M"}${GRAPH_NODES[index].x.toFixed(1)} ${GRAPH_NODES[index].y.toFixed(1)}`,
+          )
+          .join("")}"></path>`
+      : "";
+  // A lit set owns the canvas: the ordinary focus label would compete with it.
+  const showFocusLabel = !litSet.length;
+  return `<div class="graph-field ng-graph ${muted ? "is-muted" : ""} ${litSet.length ? "has-lit" : ""}" data-production-selector="canvas" ${litSet.length ? `data-lit="${litSet.length}"` : ""} aria-hidden="true">
     <div class="graph-wash"></div>
     <svg class="graph-links" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true">
       <path d="${GRAPH_LINKS}"></path>
       <path class="graph-link-hot" d="M${GRAPH_NODES[focusIndex].x.toFixed(1)} ${GRAPH_NODES[focusIndex].y.toFixed(1)}L${GRAPH_NODES[(focusIndex + 17) % GRAPH_NODES.length].x.toFixed(1)} ${GRAPH_NODES[(focusIndex + 17) % GRAPH_NODES.length].y.toFixed(1)}"></path>
+      ${litTrail}
     </svg>
-    ${GRAPH_NODES.map(
-      ({ type, x, y }, index) =>
-        `<i class="graph-node graph-node--${type} ${index === focusIndex ? "is-focus" : ""}" style="left:${x.toFixed(2)}%;top:${y.toFixed(2)}%">${index === focusIndex ? "<span>DEEP HALF</span>" : ""}</i>`,
-    ).join("")}
+    ${GRAPH_NODES.map(({ type, x, y }, index) => {
+      const isFocus = index === focusIndex;
+      const isLit = litLookup.has(index);
+      const caption =
+        isFocus && showFocusLabel
+          ? `<span>${escapeHtml(label)}</span>`
+          : isLit && litLabel && index === litSet[0]
+            ? `<span class="lit-label">${escapeHtml(litLabel)}</span>`
+            : "";
+      return `<i class="graph-node graph-node--${type} ${isFocus && showFocusLabel ? "is-focus" : ""} ${isLit ? "is-lit" : ""}" style="left:${x.toFixed(2)}%;top:${y.toFixed(2)}%">${caption}</i>`;
+    }).join("")}
     <div class="graph-depth"></div>
   </div>`;
 }
@@ -255,6 +303,9 @@ export function landingCard(
     priority = "default",
     layout = "full",
     mode = "land",
+    proven = 3,
+    cards = 8,
+    capture = "none",
   } = {},
   context = defaultContext,
 ) {
@@ -273,12 +324,26 @@ export function landingCard(
   if (layout === "identity")
     return `<div class="landing-identity-demo">${identity}</div>`;
 
+  // THE FAMILIARITY CHIP (v1.76.0, moved to the card's foot in v1.101.1). One control, not
+  // two facts: the ○/◐/● seen glyph FUSED with the deck's recall-proven count — "● 3/8" — so
+  // "have I met this state" and "how much of it can I recall" are read in one glance. It is
+  // glyph-only when no deck is authored, and pressing it opens this state's flashcards.
+  const chip = `<button class="landing-count" type="button" data-land-count aria-label="${cards ? `${proven} of ${cards} cards recall-proven — open this state's flashcards` : "No flashcards authored for this state yet"}"><span class="status-mark is-${status}">${statusMark[0]}</span>${cards ? `<b>${proven}/${cards}</b>` : ""}</button>`;
+  // capture rides the corner beside the chip on the surfaces you opened in order to READ
+  // (v1.101.1 removed it from the option cards); pressing it opens the list picker (v1.102.0).
+  const captureBtn =
+    capture === "none"
+      ? ""
+      : `<button class="landing-capture" type="button" data-list-add data-list-surface="${capture}" aria-label="Add to a class list…">+</button>`;
   return `<article class="landing-card ng-landcard ${isCompact ? "is-compact" : ""}" data-landcard="${mode}" data-density="${isCompact ? "compact" : "default"}" data-priority="${priority}" data-production-selector=".ng-landcard">
     ${identity}
     ${isCompact ? "" : `<p class="landing-definition" data-land-def>${text.definition}</p>`}
     ${showFilm ? `<div data-land-film>${filmStrip({ compact: true, clips: context.clips })}</div>` : ""}
     ${showQuestion ? `<div class="landing-question" data-land-q>${questionBlock({ state: questionState, compact: isCompact, question })}</div>` : ""}
-    <button class="landing-more" type="button" data-land-more>More <span aria-hidden="true">▸</span></button>
+    <div class="landing-foot" data-land-foot>
+      <button class="landing-more" type="button" data-land-more>More <span aria-hidden="true">▸</span></button>
+      <span class="landing-corner">${chip}${captureBtn}</span>
+    </div>
   </article>`;
 }
 

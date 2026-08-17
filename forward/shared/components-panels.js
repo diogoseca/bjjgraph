@@ -142,9 +142,19 @@ export function gameKnowledgeHeader({ score = 52, belt = "Blue" } = {}) {
   </section>`;
 }
 
+// THE THIRD TAB IS `history`, NOT `collection` (v1.76.0 merged the rails; v1.95.0 renamed
+// the tab's LABEL to "Last rolls" while every view id, settings key and internal seam stayed
+// `history`). Collection was retired in v1.99.1 into an earned-only rewards shelf at the foot
+// of Challenges — so no pane tab points at it any more.
+export const LEARNING_VIEWS = [
+  ["explore", "Explore"],
+  ["challenges", "Challenges"],
+  ["history", "Last rolls"],
+];
+
 export function learningNav(active = "challenges") {
   return `<nav class="learning-nav" aria-label="Learning views">
-    ${["explore", "challenges", "collection"].map((view) => `<button type="button" aria-pressed="${view === active}">${view}</button>`).join("")}
+    ${LEARNING_VIEWS.map(([view, label]) => `<button type="button" data-view="${view}" aria-pressed="${view === active}">${label}</button>`).join("")}
   </nav>`;
 }
 
@@ -235,9 +245,12 @@ export function matCoin(coin, earned = coin.earned) {
 export function collectionPanel({ state = "partial" } = {}) {
   const earned = (item) =>
     state === "empty" ? false : state === "complete" ? true : item.earned;
-  return `<aside class="side-panel side-panel--left collection-panel" aria-label="Collection">
+  // RETIRED SURFACE, kept only so the historical screens still render (v1.99.1 replaced it
+  // with `rewardsShelf()` — earned-only, a <details> at the foot of Challenges). Its nav
+  // therefore presses Challenges: that is where these acknowledgements live now.
+  return `<aside class="side-panel side-panel--left collection-panel" data-retired="v1.99.1" aria-label="Collection">
     ${gameKnowledgeHeader()}
-    ${learningNav("collection")}
+    ${learningNav("challenges")}
     <div class="panel-body">
       <div class="collection-intro"><small>COLLECTION</small><h3>${state === "empty" ? "Your first patch is ahead" : "Proof from the mat"}</h3><p>Patches mark meaningful milestones. Mat Coins are just for laughs. They do not buy anything.</p></div>
       <section class="collection-section" aria-labelledby="patches-title"><div><h4 id="patches-title">Patches</h4><span>${patches.filter(earned).length} earned</span></div><div class="patch-grid">${patches.map((patch) => patchBadge(patch, earned(patch))).join("")}</div></section>

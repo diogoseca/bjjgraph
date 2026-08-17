@@ -393,6 +393,102 @@ export const history = [
   { title: "Closed Guard", result: "Won", delta: "+4%", time: "Fri" },
 ];
 
+// PAST ROLLS are what the Last rolls tab actually lists: one row per finished roll, named
+// by where it started and where it ended, with the state count and the outcome. Roll history
+// is in-memory in production and has never survived a reload.
+export const pastRolls = [
+  {
+    from: "Deep Half Guard",
+    to: "Back Control",
+    states: 7,
+    outcome: "won",
+    ago: "2m ago",
+  },
+  {
+    from: "Closed Guard",
+    to: "Game over",
+    states: 5,
+    outcome: "tapped",
+    ago: "18m ago",
+  },
+  {
+    from: "Standing",
+    to: "Half Guard",
+    states: 4,
+    outcome: "reset",
+    ago: "Yesterday",
+  },
+];
+
+// EVERY LIST SURFACE RENDERS THE FULL AUTHORED NAME. 648 of 1467 nodes carry a
+// `from <position>` qualifier and 89 short names are shared — "Kimura" is 35 different
+// techniques — so the qualifier IS the disambiguator and dropping it destroys the point
+// of sharing a class at all.
+export const listItems = [
+  { main: "Waiter Sweep", from: "Deep Half Guard" },
+  { main: "Kimura", from: "Side Control / Top" },
+  { main: "Knee Slice Pass", from: "Half Guard / Top" },
+  { main: "Back Take", from: "Deep Half Guard" },
+  { main: "Rear Naked Choke", from: "Back Control" },
+];
+
+export const classLists = [
+  {
+    id: "l-tue",
+    name: "Tuesday class · deep half",
+    items: listItems.slice(0, 4),
+    when: "2m ago",
+  },
+  {
+    id: "l-comp",
+    name: "Comp prep · back attacks",
+    items: listItems.slice(3),
+    when: "Fri",
+  },
+];
+
+// The recipient half: what a `/l/<code>` arrival offers, before anything is adopted.
+export const sharedClass = {
+  code: "AgQHCwIF",
+  from: "your coach",
+  items: listItems,
+};
+
+// GI-ONLY MATERIAL, used only by frames that pass a ruleset — so no existing screen moves.
+// v1.53.0 made gi/no-gi the first real divergence in CONTENT, not just in votes.
+export const giTechniques = [
+  {
+    name: "Cross Collar Choke",
+    eyebrow: "Submission",
+    path: "Deep Half Guard → Game over",
+    odds: 29,
+    gi: true,
+  },
+  {
+    name: "Lapel Sweep",
+    eyebrow: "Sweep",
+    path: "Deep Half Guard → Top Half",
+    odds: 44,
+    gi: true,
+  },
+];
+
+// The belt corridor: one continuous woven belt, white through black, lessons hanging off it.
+export const corridorBelts = [
+  { id: "white", name: "White belt", done: 6, total: 6, color: "#d7dce7" },
+  { id: "blue", name: "Blue belt", done: 3, total: 8, color: "#7398df" },
+  { id: "purple", name: "Purple belt", done: 0, total: 6, color: "#9274bd" },
+  { id: "brown", name: "Brown belt", done: 0, total: 6, color: "#9c745b" },
+  { id: "black", name: "Black belt", done: 0, total: 6, color: "#6d7380" },
+];
+
+export const corridorLessons = [
+  { title: "Deep Half Guard", cat: "position", crown: 3, done: true },
+  { title: "Waiter Sweep from Deep Half", cat: "transition", crown: 2, done: true },
+  { title: "Back Take from Deep Half", cat: "transition", crown: 1, done: false },
+  { title: "Rear Naked Choke from Back", cat: "submission", crown: 0, done: false },
+];
+
 export const settings = {
   Flashcards: [
     "Daily goal",

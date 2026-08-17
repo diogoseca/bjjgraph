@@ -101,6 +101,46 @@
   background: transparent;
 }
 
+/* the lit-node-set primitive: a class, a list, or a System held alight while the
+   camera frames it (share links, Explore lists, System constellations). */
+.graph-node.is-lit {
+  z-index: 2;
+  background: #8ecfa6;
+  box-shadow:
+    0 0 0 4px rgba(126, 224, 168, 0.12),
+    0 0 20px rgba(126, 224, 168, 0.65);
+}
+
+.graph-node--submission.is-lit {
+  background: transparent;
+  border-bottom-color: #8ecfa6;
+}
+
+.graph-node .lit-label {
+  position: absolute;
+  top: 14px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 2px 7px;
+  border-radius: 999px;
+  color: #0f1424;
+  background: #8ecfa6;
+  font: 800 8px/1.4 var(--fc-font);
+  letter-spacing: 0.05em;
+  white-space: nowrap;
+}
+
+.graph-link-lit {
+  fill: none;
+  stroke: rgba(126, 224, 168, 0.55);
+  stroke-width: 0.35;
+  stroke-dasharray: 1.6 1.2;
+}
+
+.graph-field.has-lit .graph-links > path:first-child {
+  opacity: 0.35;
+}
+
 .graph-node--active {
   width: 44px;
   height: 44px;
@@ -604,6 +644,45 @@
   font-weight: 700;
 }
 
+/* v1.101.1: the card's two corner controls live at the foot, on the More row, so they
+   cost the card no vertical space. */
+.landing-foot {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.landing-corner {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.landing-count {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 2px 7px;
+  border: 1px solid rgba(150, 170, 210, 0.22);
+  border-radius: 999px;
+  color: #aab4c8;
+  background: rgba(255, 255, 255, 0.04);
+  font-size: 9px;
+  font-weight: 700;
+}
+
+.landing-count .status-mark {
+  font-size: 9px;
+}
+
+.landing-capture {
+  color: #9ab0e0;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 1;
+}
+
 .drill-tab {
   position: absolute;
   top: 50%;
@@ -909,6 +988,7 @@
 
   .landing-card[data-priority="fit"] .landing-definition,
   .landing-card[data-priority="fit"] .film-strip,
+  .landing-card[data-priority="fit"] .landing-foot,
   .landing-card[data-priority="fit"] .landing-more {
     display: none;
   }
