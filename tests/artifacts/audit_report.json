@@ -3,9 +3,9 @@
     "transition_files": 1034,
     "submission_files": 360,
     "position_files": 136,
-    "total_issues": 362,
+    "total_issues": 360,
     "errors": 0,
-    "warnings": 10,
+    "warnings": 8,
     "info": 352,
     "orphaned_transitions": 0,
     "orphaned_submissions": 2,
@@ -335,13 +335,6 @@
     },
     {
       "type": "position_type_score_disagreement",
-      "severity": "warning",
-      "name": "Piranha Guard Top",
-      "file": "content/Positions/Piranha Guard.json",
-      "message": "Piranha Guard Top: authored position_type 'Offensive/Controlling' but its metrics score -0.264 — the word now wins, so check whether the point_value / risk / submission-retention-advancement numbers are right"
-    },
-    {
-      "type": "position_type_score_disagreement",
       "severity": "info",
       "name": "Piranha Guard Bottom",
       "file": "content/Positions/Piranha Guard.json",
@@ -416,13 +409,6 @@
       "name": "Williams Guard Bottom",
       "file": "content/Positions/Williams Guard.json",
       "message": "Williams Guard Bottom: authored position_type 'Defensive with offensive options' but its metrics score +0.040 — the word now wins, so check whether the point_value / risk / submission-retention-advancement numbers are right"
-    },
-    {
-      "type": "position_type_score_disagreement",
-      "severity": "warning",
-      "name": "Worm Guard Top",
-      "file": "content/Positions/Worm Guard.json",
-      "message": "Worm Guard Top: authored position_type 'Offensive' but its metrics score -0.250 — the word now wins, so check whether the point_value / risk / submission-retention-advancement numbers are right"
     },
     {
       "type": "position_type_score_disagreement",

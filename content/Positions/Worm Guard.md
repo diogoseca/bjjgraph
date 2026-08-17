@@ -182,7 +182,7 @@ At its core, Worm Guard is about creating a web of control using the gi that res
 
 | &nbsp; | Bottom | Top |
 |--------|--------|-----|
-| **Position Type** | Offensive | Offensive |
+| **Position Type** | Offensive | Defensive |
 | **Risk Level** | Medium | Medium |
 | **Energy Cost** | Medium | Medium |
 | **Time** | Medium | Medium |

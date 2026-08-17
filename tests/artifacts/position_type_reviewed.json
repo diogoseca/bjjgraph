@@ -332,6 +332,52 @@
    "ruling": "delegated_deciding_vote",
    "new_word": "Neutral",
    "reasoning": "DECIDING VOTE: both experts agree the word was wrong (the passer's hands are neutralized by construction); 'Neutral' over 'Defensive' on the Collar Sleeve Guard Top precedent — the corpus's nearest mechanical cousin."
+  },
+  "Piranha Guard Top": {
+   "ruling": "panel_confirmed",
+   "new_word": "Defensive",
+   "reasoning": "This node represents the state where the piranha lapel web is already established: the top player's OWN lapel is threaded through the guard player's legs, so he cannot disengage — the defining property of worm-family guards is that the passer is tied in. His own overview says he 'must navigate carefully to avoid sweeps and submissions', his first authored priority is 'Strip Lapel from Piranha' (28% gi attempt) — an escape, not an attack — and the bottom role is authored Offensive. He controls nothing (the lapel controls him); 'Offensive/Controlling' misclassifies. Defensive matches the mechanics and the corpus's own Ringworm Guard Top = Defensive."
+  },
+  "Worm Guard Top": {
+   "ruling": "panel_confirmed",
+   "new_word": "Defensive",
+   "reasoning": "The wrapped lapel is a wedge-plus-tether on the passer's leg giving the bottom player kuzushi on demand — the bottom (correctly authored Offensive) dictates posture and base, and the overview itself stresses devastating sweeps and back takes punishing hasty passing. Authoring both roles Offensive contradicts the exchange's mechanics and the corpus convention that a dominant guard's top is Defensive (Closed, Butterfly, Lasso, Ashi tops). The passer's initiative is long-horizon; frame-to-frame he is defending sweeps while stripping the lapel."
+  },
+  "Zombie Bottom": {
+   "ruling": "parser_artifact",
+   "reasoning": "The v1.106.3 leading-word parse fix dissolved this case: the authored compound word agrees with the metrics once parsed honestly. The panel adjudicated under the buggy premise; its correction is deliberately NOT applied."
+  },
+  "Spider Guard Top": {
+   "ruling": "parser_artifact",
+   "reasoning": "The v1.106.3 leading-word parse fix dissolved this case: the authored compound word agrees with the metrics once parsed honestly. The panel adjudicated under the buggy premise; its correction is deliberately NOT applied."
+  },
+  "Squid Guard Top": {
+   "ruling": "parser_artifact",
+   "reasoning": "The v1.106.3 leading-word parse fix dissolved this case: the authored compound word agrees with the metrics once parsed honestly. The panel adjudicated under the buggy premise; its correction is deliberately NOT applied."
+  },
+  "Quarter Guard Bottom": {
+   "ruling": "parser_artifact",
+   "reasoning": "The v1.106.3 leading-word parse fix dissolved this case: the authored compound word agrees with the metrics once parsed honestly. The panel adjudicated under the buggy premise; its correction is deliberately NOT applied."
+  },
+  "Crackhead Control Top": {
+   "ruling": "parser_artifact",
+   "reasoning": "The v1.106.3 leading-word parse fix dissolved this case: the authored compound word agrees with the metrics once parsed honestly. The panel adjudicated under the buggy premise; its correction is deliberately NOT applied."
+  },
+  "Turtle Bottom": {
+   "ruling": "parser_artifact",
+   "reasoning": "The v1.106.3 leading-word parse fix dissolved this case: the authored compound word agrees with the metrics once parsed honestly. The panel adjudicated under the buggy premise; its correction is deliberately NOT applied."
+  },
+  "Vaporizer Top": {
+   "ruling": "parser_artifact",
+   "reasoning": "The v1.106.3 leading-word parse fix dissolved this case: the authored compound word agrees with the metrics once parsed honestly. The panel adjudicated under the buggy premise; its correction is deliberately NOT applied."
+  },
+  "Reverse X-Guard Top": {
+   "ruling": "parser_artifact",
+   "reasoning": "The v1.106.3 leading-word parse fix dissolved this case: the authored compound word agrees with the metrics once parsed honestly. The panel adjudicated under the buggy premise; its correction is deliberately NOT applied."
+  },
+  "Single Leg X-Guard Top": {
+   "ruling": "parser_artifact",
+   "reasoning": "The v1.106.3 leading-word parse fix dissolved this case: the authored compound word agrees with the metrics once parsed honestly. The panel adjudicated under the buggy premise; its correction is deliberately NOT applied."
   }
  }
 }
