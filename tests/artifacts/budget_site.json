@@ -14,8 +14,8 @@
  "neural": {
   "chunk_max_bytes": 40000,
   "deferred_raw_bytes": 500000,
-  "eager_gzip_bytes": 400000,
-  "eager_raw_bytes": 2500000
+  "eager_gzip_bytes": 330000,
+  "eager_raw_bytes": 1600000
  },
  "observed": {
   "bundles": {
