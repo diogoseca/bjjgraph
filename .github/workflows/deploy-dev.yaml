@@ -100,11 +100,6 @@ jobs:
       - name: Build share-link shell (/l)
         run: node scripts/build_share_shell.mjs
 
-      - name: Copy raw HTML folder
-        run: |
-          cp -r raw_html/* public/ || true
-        working-directory: ./source
-
       # Quartz clears source/public, so Forward must be copied after the site build.
       - name: Build Forward development libraries
         run: npm run build:forward
@@ -124,7 +119,7 @@ jobs:
       # content/Systems/*.json ships `?ref=REPLACE_ME` so a fork or a local build needs
       # no secret. Stamped into the BUILT artifacts here: after every step that writes or
       # clears source/public, before the journey gate. Unset secret = WARNING + placeholder
-      # left in place, never a failed deploy (see docs/Affiliate.md).
+      # left in place, never a failed deploy (see CLAUDE.md §7, the canonical affiliate spec).
       - name: Stamp affiliate ref into build output
         env:
           AFFILIATE_REF: ${{ secrets.AFFILIATE_REF }}

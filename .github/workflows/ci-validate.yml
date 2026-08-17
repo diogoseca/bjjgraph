@@ -76,6 +76,14 @@ jobs:
       - name: Share ordinal lockfile (append-only, hard gate)
         run: python3 scripts/regenerate_node_ordinals.py --check --baseline-ref HEAD^1
 
+      # MC viability (hard gate by its own docstring: >=99% curriculum viability, zero
+      # micro-answer decks, golden cross-anchors deliberately duplicated in
+      # e2e/journeys/mc-flashcards.spec.ts so Python/JS drift breaks a gate). It ran in NO
+      # workflow until v1.106.8 — the drift it exists to catch was unguarded. Reads the
+      # committed chunk corpus; ~1 min, no browser.
+      - name: MC viability audit (hard gate)
+        run: npm run validate:mc
+
       - name: Graph integrity (ratchet against baseline)
         run: |
           # Remove any committed/stale report first: the validator exits non-zero on

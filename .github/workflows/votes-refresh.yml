@@ -30,6 +30,11 @@ jobs:
         with:
           python-version: "3.11"
 
+      - name: Setup Node
+        uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
+        with:
+          node-version: "22"
+
       - name: Install Python dependencies
         run: pip install jsonschema jinja2
 
@@ -45,10 +50,14 @@ jobs:
         run: |
           python3 scripts/regenerate_votes.py
           # regenerate_graph.py ALONE emits graph.json WITHOUT the strength pass, which strips
-          # `strength` from 4,464 of its 4,465 nodes — every consumer of node strength then reads
-          # a hole. The umbrella script is the whole chain (graph-base -> graph-layout -> ordinals
-          # -> graph-strength) and is what a human runs; CI must not run a subset of it.
-          npm run regenerate:graph
+          # `strength` from 4,464 of its 4,465 nodes — so base + strength run TOGETHER. The full
+          # umbrella (base -> layout -> ordinals -> strength) is deliberately NOT run here: a
+          # votes fold changes numbers, never the node set, so the layout/ordinal steps would be
+          # no-ops that cost this job the node2vec/umap-learn ML stack (not installed above — the
+          # umbrella actually FAILED here every week since it was introduced) and would rewrite
+          # globalGraphLayout.json/node_ordinals.json that the PR step below never stages.
+          npm run regenerate:graph-base
+          npm run regenerate:graph-strength
 
       - name: Detect changes
         id: changes

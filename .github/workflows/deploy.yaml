@@ -110,14 +110,6 @@ jobs:
       - name: Build share-link shell (/l)
         run: node scripts/build_share_shell.mjs
 
-      - name: Copy raw HTML folder
-        run: |
-          ls -la
-          cp -r raw_html/* public/ || true
-          echo "Contents of public directory:"
-          ls -la public/
-        working-directory: ./source
-
       # Quartz clears source/public, so Forward must be copied after the site build.
       - name: Build Forward development libraries
         run: npm run build:forward
@@ -128,7 +120,7 @@ jobs:
       # tests/artifacts/budget_site.json (shared bundles, nine page archetypes, and aggregate
       # HTML bytes across every emitted .html) and fails when the payload grows past them.
       #
-      # Placement is load-bearing: it must run AFTER `Copy raw HTML folder` and
+      # Placement is load-bearing: it must run AFTER
       # `Build Forward development libraries`, because those write into source/public and the
       # committed ceilings were seeded from a tree that includes them. Running it earlier would
       # measure a smaller site than we ship and let a Forward regression through.
@@ -143,7 +135,7 @@ jobs:
       # history. Stamp it into the BUILT artifacts here — after every step that writes
       # or clears source/public, and before the journey gate, so the tests exercise the
       # exact bytes we deploy. Unset secret = WARNING + placeholder left in place, never
-      # a failed deploy (see docs/Affiliate.md).
+      # a failed deploy (see CLAUDE.md §7, the canonical affiliate spec).
       - name: Stamp affiliate ref into build output
         env:
           AFFILIATE_REF: ${{ secrets.AFFILIATE_REF }}
