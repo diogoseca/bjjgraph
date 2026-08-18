@@ -590,6 +590,29 @@ class Component extends DCLogic {
     }
     if (nTie || nLower) this._webTrim = { ties: nTie, lower: nLower, drawn: links.length };
     for (const n of nodes) n.r = 2.0 + Math.min(5.5, Math.sqrt(n.deg) * 0.62);
+    // ── THE LIFT IS EDGE-ANCHORED, NOT A BAKED CONSTANT (v1.113.1) ──────────────────────────────
+    // The emitter baked z into y as a flat ±4.0. That cannot work, for two measured reasons:
+    //
+    //  · A FLAT GAP IS SMALLER THAN A BIG NODE. Radii run 2.0–7.5, so the 8.0 centre gap is less
+    //    than the DIAMETER of the hubs the owner named: 100 of 1170 pairs overlapped themselves,
+    //    Side Control / Open Guard / Mount / Half Guard / Back Control by a full 7.0u. That is the
+    //    "engorged… glued together" report, exactly.
+    //  · A SYMMETRIC SPLIT PUSHES A BIG ORB THROUGH ITS OWN GROUND. Splitting a shared gap evenly
+    //    about the centre puts the near edge at (r_other − r_self)/2 + C/2 — negative whenever the
+    //    partners differ in size, and every technique pair does (attacker ~6.1 vs defender 2.62).
+    //
+    // So each member is anchored by its EDGE: its near face sits exactly C/2 above/below the
+    // ground, at every size. The clearance between the two orbs is then exactly C everywhere —
+    // which is the owner's chosen reading, "the gap you SEE is the same", and it makes
+    // self-overlap impossible by construction rather than by tuning.
+    const ISO_C = 2.0, ISO_EMIT_H = 4.0;
+    for (const n of nodes) {
+      n.z = 0; n.h = 0;
+      if (!n.pairId) continue;
+      n.z = (n.role === "top" || n.role === "attacker") ? 1 : -1;
+      n.h = n.r + ISO_C / 2;
+      n.y = (n.y + n.z * ISO_EMIT_H) - n.z * n.h;   // recover the emit ground, re-lift by the edge
+    }
     // A PAIR IS ONE RIGID BODY (v1.112.2). The de-overlap below already refused to push partners
     // apart from EACH OTHER — but strangers still shoved each member INDEPENDENTLY, and that
     // silently destroyed the projection: measured on the iso build, only 121 of 1170 pairs stayed
@@ -624,6 +647,19 @@ class Component extends DCLogic {
         }
       }
       if (!any) break;
+    }
+    // ── SITE METADATA (v1.113.1) ──────────────────────────────────────────────────────────────
+    // A "site" is the ground point a pair straddles — the thing that used to be ONE hub node and
+    // still is, at overview zoom. `rep` is the member that speaks for it (the one owning the bare
+    // slug and the share ordinal); `rSite` is the historical hub radius, recovered by re-running
+    // the radius formula on the combined degree minus the two tie edges, so a collapsed site is
+    // drawn at exactly the size that node has always been in production.
+    for (const n of nodes) {
+      n.rep = !n.pairId || n.z > 0;
+      n.pi = n.pairId ? (idIndex.get(n.pairId) ?? -1) : -1;
+      n.rSite = n.pi >= 0
+        ? 2.0 + Math.min(5.5, Math.sqrt(Math.max(1, n.deg + nodes[n.pi].deg - 2)) * 0.62)
+        : n.r;
     }
     let minX = 1e9, maxX = -1e9, minY = 1e9, maxY = -1e9, cx = 0, cy = 0, cnt = 0;
     for (const n of nodes) { if (!isFinite(n.x) || !isFinite(n.y)) continue; cnt++; minX = Math.min(minX, n.x); maxX = Math.max(maxX, n.x); minY = Math.min(minY, n.y); maxY = Math.max(maxY, n.y); cx += n.x; cy += n.y; }
@@ -10768,6 +10804,27 @@ class Component extends DCLogic {
     const ctx = this.ctx; if (!ctx || !this.nodes) return;
     const W = this.W, H = this.H, dpr = this.dpr;
     const scale = W / this.cam.vw;
+    // ── THE LIFT IS RE-APPLIED PER FRAME, AND IT COLLAPSES WITH ZOOM (v1.113.1) ────────────────
+    // `nodeK` rescales every orb by up to 2.5x across the zoom range, so a lift baked into the
+    // payload is too small at one end and too big at the other — measured, the clearance between
+    // a big pair's orbs ran from −6.6px (overlapping) at overview to +22px at roll zoom. Scaling
+    // the lift by the SAME factor as the radius makes the gap a fixed fraction of the orbs at
+    // every zoom, which is the "learn it once" property actually delivered to the eye.
+    //
+    // `kLOD` then collapses the pair toward its ground point as you zoom out, because no spacing
+    // can rescue the overview: at nodeK = 1 the orbs are at full size and the whole graph is
+    // 0.94px per unit, so ANY honest gap is a hairline. At k = 0 a site is one orb — the familiar
+    // 1467-node map — and it opens as you approach. The position collapse is CONTINUOUS, so by
+    // the time the partner fades out the two are already coincident: no pop, no crossfade.
+    //
+    // `n.z` is 0 for singles and for the entire production payload, so LY() is the identity there
+    // and this whole mechanism costs one comparison per node off `?dual`.
+    const nodeK = Math.max(0.4, Math.min(1, this.cam.vw / (this.graphW * 0.5)));
+    const kRaw = (scale - 1.15) / (2.20 - 1.15);          // px per world unit: MERGE 1.15, SPLIT 2.20
+    const kLOD = kRaw <= 0 ? 0 : kRaw >= 1 ? 1 : kRaw * kRaw * (3 - 2 * kRaw);   // smoothstep
+    this._lodK = kLOD;
+    const lift = nodeK * kLOD;
+    const LY = (n) => (n.z ? n.y + n.z * n.h * (1 - lift) : n.y);
     const cfg = this.cfg();
     const A = this.alpha;
     // slow-mo finish: dim the map for a beat while the finishing flare burns, then recover
@@ -10801,7 +10858,7 @@ class Component extends DCLogic {
     // base links
     ctx.lineWidth = 0.6 / scale; ctx.strokeStyle = "rgba(170,182,215," + (0.12 * A * dim) + ")";
     ctx.beginPath();
-    for (const [a, b] of this.links) { const na = this.nodes[a], nb = this.nodes[b]; ctx.moveTo(na.x, na.y); ctx.lineTo(nb.x, nb.y); }
+    for (const [a, b] of this.links) { const na = this.nodes[a], nb = this.nodes[b]; ctx.moveTo(na.x, LY(na)); ctx.lineTo(nb.x, LY(nb)); }
     ctx.stroke();
 
     ctx.globalCompositeOperation = "lighter";
@@ -10868,7 +10925,7 @@ class Component extends DCLogic {
       ctx.strokeStyle = this.rgba(this.nodes[p.path[p.path.length - 1]].col, 0.16 * glow * A);
       ctx.lineWidth = 1.2 / scale;
       ctx.beginPath(); ctx.moveTo(head.x, head.y);
-      for (let i = p.seg + 1; i < p.path.length; i++) { const n = this.nodes[p.path[i]]; ctx.lineTo(n.x, n.y); }
+      for (let i = p.seg + 1; i < p.path.length; i++) { const n = this.nodes[p.path[i]]; ctx.lineTo(n.x, LY(n)); }
       ctx.stroke();
     }
     // comet trail
@@ -10878,7 +10935,7 @@ class Component extends DCLogic {
       const tc = e.tint ? this.lerpCol(nb.col, e.tint, 0.6) : nb.col;
       ctx.strokeStyle = this.rgba(tc, 0.6 * k * glow * A);
       ctx.lineWidth = (0.8 + 2.4 * k) / scale;
-      ctx.beginPath(); ctx.moveTo(na.x, na.y); ctx.lineTo(nb.x, nb.y); ctx.stroke();
+      ctx.beginPath(); ctx.moveTo(na.x, LY(na)); ctx.lineTo(nb.x, LY(nb)); ctx.stroke();
     }
     ctx.globalCompositeOperation = "source-over";
 
@@ -10895,9 +10952,9 @@ class Component extends DCLogic {
         const fade = tt <= 1 ? 1 : Math.max(0, 1 - (tt - 1) / 0.35);
         ctx.strokeStyle = this.rgba(b.col, 0.5 * fade * birth * A);
         ctx.lineWidth = 1.6 / scale;
-        ctx.beginPath(); ctx.moveTo(a.x, a.y); ctx.lineTo(a.x + (b.x - a.x) * e, a.y + (b.y - a.y) * e); ctx.stroke();
+        ctx.beginPath(); ctx.moveTo(a.x, LY(a)); ctx.lineTo(a.x + (b.x - a.x) * e, LY(a) + (LY(b) - LY(a)) * e); ctx.stroke();
         if (tt <= 1) {
-          const hx = a.x + (b.x - a.x) * e, hy = a.y + (b.y - a.y) * e;
+          const hx = a.x + (b.x - a.x) * e, hy = LY(a) + (LY(b) - LY(a)) * e;
           const hr = (2 + 4.5 * birth) * (tt > 0.85 ? Math.max(0.4, (1 - tt) / 0.15) : 1);
           const g = ctx.createRadialGradient(hx, hy, 0, hx, hy, hr);
           g.addColorStop(0, this.rgba({ r: 255, g: 255, b: 255 }, 0.9 * birth * A));
@@ -10916,9 +10973,9 @@ class Component extends DCLogic {
         const n = this.nodes[k]; if (!n) continue;
         ctx.strokeStyle = this.rgba(n.col, (0.45 + 0.4 * pulse) * A);
         ctx.lineWidth = 2 / scale;
-        ctx.beginPath(); ctx.arc(n.x, n.y, n.r * 3, 0, 6.2832); ctx.stroke();
+        ctx.beginPath(); ctx.arc(n.x, LY(n), n.r * 3, 0, 6.2832); ctx.stroke();
         ctx.fillStyle = this.rgba(n.col, 0.1 * A);
-        ctx.beginPath(); ctx.arc(n.x, n.y, n.r * 3, 0, 6.2832); ctx.fill();
+        ctx.beginPath(); ctx.arc(n.x, LY(n), n.r * 3, 0, 6.2832); ctx.fill();
       }
     }
 
@@ -10930,7 +10987,7 @@ class Component extends DCLogic {
         const n = this.nodes[k]; if (!n) continue;
         ctx.strokeStyle = this.rgba(n.col, (0.4 + 0.35 * pulse) * A);
         ctx.lineWidth = 1.8 / scale;
-        ctx.beginPath(); ctx.arc(n.x, n.y, n.r * 2.7, 0, 6.2832); ctx.stroke();
+        ctx.beginPath(); ctx.arc(n.x, LY(n), n.r * 2.7, 0, 6.2832); ctx.stroke();
       }
     }
 
@@ -10941,22 +10998,38 @@ class Component extends DCLogic {
         const n = this.nodes[k];
         ctx.strokeStyle = this.rgba(n.col, (0.3 + 0.35 * pulse) * A);
         ctx.lineWidth = 1.4 / scale;
-        ctx.beginPath(); ctx.arc(n.x, n.y, n.r * 2.4, 0, 6.2832); ctx.stroke();
+        ctx.beginPath(); ctx.arc(n.x, LY(n), n.r * 2.4, 0, 6.2832); ctx.stroke();
       }
     }
 
     // base nodes — shrink a touch when zoomed in so dense clusters separate
-    const nodeK = Math.max(0.4, Math.min(1, this.cam.vw / (this.graphW * 0.5)));
+    // (nodeK is hoisted to the top of draw() since v1.113.1: the pair lift scales with it)
     const br = this.anim("idleBreath", 2) * 0.01;
     // (owner call: the original glyph NEVER hides — the dossier card renders on top of it)
     // one fog rule, two owners: an explicit focus set (a System's members, later a List's) outranks
     // the path view's curriculum territory while it is up.
     const fogSet = (this._focusIdxSet && this._focusIdxSet.size) ? this._focusIdxSet : (this._pathDim ? this._curriculumIdxSet : null);
+    // MITOSIS (v1.113.1). Zoomed out a pair IS its site: the representative wears the historical
+    // hub radius and its twin has faded to nothing, on the exact ground point the single node
+    // always occupied — so the overview is the map people already know. Zooming in, the
+    // representative shrinks to its own radius while the twin fades up and the two slide apart.
+    // Position is collapsed continuously by LY(), so the fade only ever finishes on top of a
+    // coincident pair — nothing pops, and no crossfade is needed.
+    const cullPad = 60 / scale, cxv = this.cam.cx, cyv = this.cam.cy, halfVW = this.cam.vw / 2, halfVH = (H / scale) / 2;
     for (const n of this.nodes) {
+      // viewport cull — the pass had none, and it issues a fill for every node at every zoom
+      if (n.x < cxv - halfVW - cullPad || n.x > cxv + halfVW + cullPad) continue;
+      const ny = LY(n);
+      if (ny < cyv - halfVH - cullPad || ny > cyv + halfVH + cullPad) continue;
+      let rr = n.r, aK = 1;
+      if (n.z) {
+        if (n.rep) rr = n.rSite + (n.r - n.rSite) * kLOD;
+        else { aK = kLOD; if (aK < 0.02) continue; }
+      }
       const bk = br ? 1 + br * Math.sin(this.now * 1.4 + n.idx * 0.83) : 1;
       const fogK = fogSet && !fogSet.has(n.idx) ? 0.3 : 1;
-      ctx.fillStyle = this.rgba(n.col, 0.62 * A * dim * fogK);
-      ctx.beginPath(); this.shapePath(ctx, n.ty, n.x, n.y, n.r * nodeK * bk); ctx.fill();
+      ctx.fillStyle = this.rgba(n.col, 0.62 * A * dim * fogK * aK);
+      ctx.beginPath(); this.shapePath(ctx, n.ty, n.x, ny, rr * nodeK * bk); ctx.fill();
     }
 
     // current position marker
@@ -10972,10 +11045,10 @@ class Component extends DCLogic {
       }
       // recolor the current node to YOUR perspective (red when you're losing, blue when winning)
       ctx.fillStyle = this.rgba(pc, 0.98 * A);
-      ctx.beginPath(); this.shapePath(ctx, n.ty, n.x, n.y, n.r * 1.28 * settle); ctx.fill();
+      ctx.beginPath(); this.shapePath(ctx, n.ty, n.x, LY(n), n.r * 1.28 * settle); ctx.fill();
       ctx.strokeStyle = this.rgba(pc, (0.7 + 0.3 * pulse) * A);
       ctx.lineWidth = 2.4 / scale;
-      ctx.beginPath(); ctx.arc(n.x, n.y, n.r * 2.9 * settle, 0, 6.2832); ctx.stroke();
+      ctx.beginPath(); ctx.arc(n.x, LY(n), n.r * 2.9 * settle, 0, 6.2832); ctx.stroke();
     }
 
     // sustained halo — the roll-end flare's light, present BEFORE the end: the current position
@@ -10987,11 +11060,11 @@ class Component extends DCLogic {
       const halo = (n, col2, k) => {
         if (!n || k <= 0.01) return;
         const gr = Math.max(n.r * (2.4 + 3.2 * k), (46 * k) / scale); // never smaller than ~46px on screen
-        const g = ctx.createRadialGradient(n.x, n.y, 0, n.x, n.y, gr);
+        const g = ctx.createRadialGradient(n.x, LY(n), 0, n.x, LY(n), gr);
         g.addColorStop(0, this.rgba(col2, 0.72 * k * glow * A));
         g.addColorStop(0.4, this.rgba(col2, 0.26 * k * glow * A));
         g.addColorStop(1, this.rgba(col2, 0));
-        ctx.fillStyle = g; ctx.beginPath(); ctx.arc(n.x, n.y, gr, 0, 6.2832); ctx.fill();
+        ctx.fillStyle = g; ctx.beginPath(); ctx.arc(n.x, LY(n), gr, 0, 6.2832); ctx.fill();
       };
       const dtH = Math.max(0, Math.min(0.1, this.now - (this._haloT || this.now))); this._haloT = this.now;
       const breathe = 0.8 + 0.2 * Math.sin(this.now * 1.6);
@@ -11016,13 +11089,13 @@ class Component extends DCLogic {
       const age = this.now - n.lit; if (age > 1.9) continue;
       const k = Math.max(0, 1 - age / 1.9);
       const gr = n.r * (1.8 + 4.2 * k);
-      const g = ctx.createRadialGradient(n.x, n.y, 0, n.x, n.y, gr);
+      const g = ctx.createRadialGradient(n.x, LY(n), 0, n.x, LY(n), gr);
       g.addColorStop(0, this.rgba(n.col, 0.9 * k * glow * A));
       g.addColorStop(0.4, this.rgba(n.col, 0.32 * k * glow * A));
       g.addColorStop(1, this.rgba(n.col, 0));
-      ctx.fillStyle = g; ctx.beginPath(); ctx.arc(n.x, n.y, gr, 0, 6.2832); ctx.fill();
+      ctx.fillStyle = g; ctx.beginPath(); ctx.arc(n.x, LY(n), gr, 0, 6.2832); ctx.fill();
       ctx.fillStyle = this.rgba({ r: 255, g: 255, b: 255 }, 0.8 * k * A);
-      ctx.beginPath(); this.shapePath(ctx, n.ty, n.x, n.y, n.r * (1 + 0.7 * k)); ctx.fill();
+      ctx.beginPath(); this.shapePath(ctx, n.ty, n.x, LY(n), n.r * (1 + 0.7 * k)); ctx.fill();
     }
     // pulse head
     if (this.pulse && !this.pulse.done) {
@@ -11049,7 +11122,7 @@ class Component extends DCLogic {
         for (const n of this.nodes) {
           const rs = n.r * nodeK * scale; if (rs <= inMin) continue;
           if (this._nodeCardOn && n.idx === this._nodeCardIdx) continue;   // dossier card covers this node
-          const sx = (n.x - this.cam.cx) * scale + W / 2, sy = (n.y - this.cam.cy) * scale + H / 2;
+          const sx = (n.x - this.cam.cx) * scale + W / 2, sy = (LY(n) - this.cam.cy) * scale + H / 2;
           if (sx < -rs * 1.5 || sx > W + rs * 1.5 || sy < -rs * 1.5 || sy > H + rs * 1.5) continue;
           const k = Math.min(1, (rs - inMin) / 14);
           const isCur = n.idx === this.focusIdx;
@@ -11108,7 +11181,7 @@ class Component extends DCLogic {
         if (this.activeMove && n.idx === this.activeMove.idx) continue;
         if (this.optionIdxs.indexOf(n.idx) >= 0) continue; // outgoing nodes get persistent labels below
         const k = Math.max(0, 1 - age / 3.2);
-        const sx = (n.x - this.cam.cx) * scale + W / 2, sy = (n.y - this.cam.cy) * scale + H / 2;
+        const sx = (n.x - this.cam.cx) * scale + W / 2, sy = (LY(n) - this.cam.cy) * scale + H / 2;
         if (sx < -60 || sx > W + 60 || sy < 0 || sy > H + 20) continue;
         ctx.shadowColor = "rgba(0,0,0,0.85)"; ctx.shadowBlur = 6;
         ctx.fillStyle = this.rgba({ r: 238, g: 241, b: 246 }, 0.8 * k * A);
@@ -11117,7 +11190,7 @@ class Component extends DCLogic {
       // rich label = role + name, anchored beside a node
       const richLabel = (idx, role, roleCol, name, big) => {
         const n = this.nodes[idx]; if (!n) return;
-        const sx = (n.x - this.cam.cx) * scale + W / 2, sy = (n.y - this.cam.cy) * scale + H / 2;
+        const sx = (n.x - this.cam.cx) * scale + W / 2, sy = (LY(n) - this.cam.cy) * scale + H / 2;
         if (sx < -120 || sx > W + 260 || sy < -30 || sy > H + 50) return;
         const ox = sx + n.r * scale + 11;
         ctx.shadowColor = "rgba(0,0,0,0.92)"; ctx.shadowBlur = 8;
@@ -11142,7 +11215,7 @@ class Component extends DCLogic {
         for (const idx of this.optionIdxs) {
           const n = this.nodes[idx]; if (!n) continue;
           if (n.r * nodeK * scale > 20) continue;   // name already drawn inside the node
-          const sx = (n.x - this.cam.cx) * scale + W / 2, sy = (n.y - this.cam.cy) * scale + H / 2;
+          const sx = (n.x - this.cam.cx) * scale + W / 2, sy = (LY(n) - this.cam.cy) * scale + H / 2;
           if (sx < -60 || sx > W + 60 || sy < 0 || sy > H + 20) continue;
           ctx.shadowColor = "rgba(0,0,0,0.85)"; ctx.shadowBlur = 6;
           ctx.fillStyle = this.rgba(n.col, 0.95 * A);
@@ -11160,7 +11233,7 @@ class Component extends DCLogic {
       // hover: nearest node label (brighter + "your move" tag if it's an outgoing option)
       if (this._hover && this._hover.idx >= 0 && this.now - (this._hover.t || 0) < 0.5 && this.nodes[this._hover.idx].r * nodeK * scale <= 20) {
         const n = this.nodes[this._hover.idx];
-        const sx = (n.x - this.cam.cx) * scale + W / 2, sy = (n.y - this.cam.cy) * scale + H / 2;
+        const sx = (n.x - this.cam.cx) * scale + W / 2, sy = (LY(n) - this.cam.cy) * scale + H / 2;
         const isOpt = this.optionIdxs && this.optionIdxs.indexOf(n.idx) >= 0;
         ctx.textBaseline = "bottom";
         ctx.shadowColor = "rgba(0,0,0,0.9)"; ctx.shadowBlur = 7;
