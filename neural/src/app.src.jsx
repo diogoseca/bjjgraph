@@ -557,11 +557,38 @@ class Component extends DCLogic {
     });
     const adj = nodes.map(() => []);
     const links = [];
+    // ── THE TIE IS NEVER DRAWN, AND THE STATIC WEB LIVES ON ONE LAYER (v1.113.0) ──
+    // `this.links` has exactly ONE consumer — the static base-web stroke in draw() — so filtering
+    // HERE is free and touches nothing else: `adj`, `deg`, the radii and `_edgeW` all stay whole.
+    //
+    // Two rulings, finally implemented rather than merely written down:
+    //  · Q3, the owner's own veto — "a dashed line would mean you could go from one state to
+    //    another, and there's no direct translation of that". The emitter marks every pair with a
+    //    {"pair":true} link and ingest was treating it as an ordinary edge, so the app has been
+    //    drawing a SOLID connector welding each pair together (1170 of them) and LIGHTING it on
+    //    focus. The vetoed line was already on screen; that is a large part of why a pair read as
+    //    one engorged blob rather than two orbs at different heights.
+    //  · Q2 — the static web belongs to the upper layer. Iso games draw the roads once and let
+    //    units at different heights share them; mirroring every edge onto the lower layer doubles
+    //    the web and buries both. A lower member still lights its real options when focused or
+    //    played (that path reads `adj`, which is untouched).
+    // Measured on the iso build: 1170 ties + 2505 lower-layer segments = 62% of 5969 removed, and
+    // what remains is a single sheet at one height — which is itself a depth cue, for free.
+    const _isLower = (n) => !!n.pairId && n.role !== "top" && n.role !== "attacker";
+    let nTie = 0, nLower = 0;
     for (const l of data.links) {
       const a = Array.isArray(l) ? l[0] : idIndex.get(l.source), b = Array.isArray(l) ? l[1] : idIndex.get(l.target);
       if (a == null || b == null || a === b || !nodes[a] || !nodes[b]) continue;
-      links.push([a, b]); adj[a].push(b); adj[b].push(a); nodes[a].deg++; nodes[b].deg++;
+      const na = nodes[a], nb = nodes[b];
+      const tie = na.pairId === nb.id || nb.pairId === na.id;
+      // deg is deliberately counted BEFORE the filter: radii must not move in this step, so the
+      // change is provably render-only (same geometry, fewer strokes).
+      adj[a].push(b); adj[b].push(a); na.deg++; nb.deg++;
+      if (tie) { nTie++; continue; }
+      if (_isLower(na) || _isLower(nb)) { nLower++; continue; }
+      links.push([a, b]);
     }
+    if (nTie || nLower) this._webTrim = { ties: nTie, lower: nLower, drawn: links.length };
     for (const n of nodes) n.r = 2.0 + Math.min(5.5, Math.sqrt(n.deg) * 0.62);
     // A PAIR IS ONE RIGID BODY (v1.112.2). The de-overlap below already refused to push partners
     // apart from EACH OTHER — but strangers still shoved each member INDEPENDENTLY, and that
