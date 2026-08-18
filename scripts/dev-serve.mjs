@@ -409,6 +409,24 @@ const server = http.createServer(async (req, res) => {
     }
   }
 
+  // PROTOTYPE PAYLOADS, SERVED WITHOUT ENTERING THE SHIPPED TREE (the dual/2.5D experiment).
+  // `?dual=iso|fixed|force` makes the app fetch /static/neural/graph-data-dual-<v>.json, but
+  // those 2.2MB files are deliberately emitted to tests/artifacts/dualpair/payloads/ — putting
+  // them under source/public would score against check_payload_budget and could ride a manual
+  // deploy. So the DEV SERVER maps the URL instead: nothing to copy, nothing to clean up, and
+  // the deployed artifact stays byte-identical by construction. Missing file -> 404 that SAYS
+  // how to make it (the app then falls back to the normal graph, see _dualVariant's fetch).
+  const dual = /^\/static\/neural\/graph-data-dual-([a-z]+)\.json$/.exec(route)
+  if (dual) {
+    const file = path.join(REPO_ROOT, "tests", "artifacts", "dualpair", "payloads", `graph-data-dual-${dual[1]}.json`)
+    if (fs.existsSync(file)) {
+      res.writeHead(200, { "content-type": "application/json; charset=utf-8", "cache-control": "no-store" })
+      return fs.createReadStream(file).pipe(res)
+    }
+    console.warn(`[dev-serve] ?dual=${dual[1]} payload missing — run: npm run prototype:dual`)
+    return sendJson(res, 404, { ok: false, error: `prototype payload not generated — run \`npm run prototype:dual\`` })
+  }
+
   // etag matches the serve CLI's default (serve-handler's own default is false). cleanUrls and
   // directoryListing are already serve-handler defaults — don't override. The CLI also gzips;
   // skipped here as it needs another dep and buys nothing over loopback.

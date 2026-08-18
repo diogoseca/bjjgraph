@@ -452,7 +452,21 @@ class Component extends DCLogic {
         // PROTOTYPE (dual close-pair graph): ?dual=fixed|force loads a role-pair variant of the
         // layout (scripts/prototype_dual_pair_layout.py) — every dual state as TWO close nodes.
         const dv = this._dualVariant();
-        const r = dv ? await fetch(this._dataBase() + "graph-data-dual-" + dv + ".json") : await fetch("graph-data.json");
+        // A PROTOTYPE FLAG MUST NEVER BREAK THE APP (v1.112.1). The dual payloads are dev-only —
+        // dev-serve.mjs maps the URL straight to tests/artifacts/dualpair/payloads/ and they are
+        // NEVER in the shipped tree — so `?dual=iso` against a build without them used to 404 on
+        // all five retries and land in `_fallbackToLegacy()`, which since v1.80.0 falls back to a
+        // front-end that no longer exists: a blank app. Missing prototype data degrades to the
+        // real graph instead, and says so in the console.
+        // NB the bare `fetch("graph-data.json"` literal below is REWRITTEN by build.mjs to prefix
+        // __NEURAL_DATA_BASE; it must survive verbatim or the build throws by design.
+        let r = null;
+        if (dv) {
+          try { r = await fetch(this._dataBase() + "graph-data-dual-" + dv + ".json"); } catch (e) { r = null; }
+          if (r && !r.ok) r = null;
+          if (!r) console.warn("[neural] ?dual=" + dv + " payload not found — run `npm run prototype:dual`. Loading the standard graph.");
+        }
+        if (!r) r = await fetch("graph-data.json");
         if (r.ok) data = await r.json();
       } catch (e) { /* retry */ }
       if (!data) await new Promise((res) => setTimeout(res, 400));

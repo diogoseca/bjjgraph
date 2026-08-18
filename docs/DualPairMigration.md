@@ -239,3 +239,25 @@ accepted: the learned map rotates 45° and compresses — the price of the new w
 Build sequence: geometry DONE → site rendering (shadows, iso grid, underworld tone, kickers,
 halo-holds-site, partner-click side switch, background-only starfield parallax) → compact pair
 wire (≤15KB gzip target) → ordinal cutover with successors → sign-off behind `?dual`.
+
+## 11. Running the prototype (the delivery seam that was missing)
+
+The payloads are emitted to `tests/artifacts/dualpair/payloads/` and are **never** copied into
+`source/public` — putting 2.2MB × 3 under the served tree would score against
+`check_payload_budget` and could ride a manual deploy. Nothing bridged that gap, so `?dual=iso`
+fetched a 404: five retries, then `_fallbackToLegacy()`, which since v1.80.0 falls back to a
+front-end that no longer exists. The app looked broken. Two fixes, both permanent:
+
+1. **`scripts/dev-serve.mjs` maps the URL** — `GET /static/neural/graph-data-dual-<v>.json` is
+   streamed straight from the prototype directory. Nothing to copy, nothing to clean up, the
+   deployed artifact stays byte-identical by construction. A missing file answers 404 with the
+   command that makes it.
+2. **A prototype flag never breaks the app** — a dual payload that will not load now degrades to
+   the standard graph with a named console warning (`app.src.jsx`, the graph fetch). NB the bare
+   `fetch("graph-data.json"` literal there is rewritten by `build.mjs` to prefix
+   `__NEURAL_DATA_BASE` and must survive verbatim, or the build throws by design.
+
+Run it: `npm run prototype:dual`, then **restart** the dev server (`npm run serve` — a running
+server predates the new route), then `/?dual=iso`. Verified end-to-end in a real browser:
+payload present → 2,637 nodes / 2,340 pair members / 0 page errors; payload absent → 1,467-node
+standard graph, canvas alive, 0 page errors, one honest warning.

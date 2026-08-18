@@ -318,9 +318,18 @@
       </ol>
 
       <div class="note" style="margin-top: 26px;">
-        <b>Playing it now:</b> run <code>python3 scripts/prototype_dual_pair_layout.py</code>, then
-        <code>npm run dev</code> and open <code>http://localhost:8080/?dual=iso</code>.
-        Engineering record: <code>docs/DualPairMigration.md</code> §9–10.
+        <b>Playing it now — two commands:</b>
+        <code>npm run prototype:dual</code> (writes the layout payloads), then restart the dev
+        server with <code>npm run serve</code> — a RESTART is required, because the route that
+        serves these payloads lives in <code>dev-serve.mjs</code> and a server already running
+        predates it. Then open <code>/?dual=iso</code> (also <code>fixed</code>,
+        <code>force</code>).
+        <br /><br />
+        The payloads are 2.2MB each and deliberately never enter the shipped tree — the dev
+        server maps the URL straight to <code>tests/artifacts/dualpair/payloads/</code>, so the
+        deployed artifact stays byte-identical and the payload budget is untouched. If they are
+        missing, the flag degrades to the standard graph and says so in the console; a prototype
+        flag never breaks the app. Engineering record: <code>docs/DualPairMigration.md</code> §9–11.
       </div>
     </div>
   </body>
