@@ -654,13 +654,22 @@ class Component extends DCLogic {
     // slug and the share ordinal); `rSite` is the historical hub radius, recovered by re-running
     // the radius formula on the combined degree minus the two tie edges, so a collapsed site is
     // drawn at exactly the size that node has always been in production.
+    let anyZ = false;
     for (const n of nodes) {
       n.rep = !n.pairId || n.z > 0;
       n.pi = n.pairId ? (idIndex.get(n.pairId) ?? -1) : -1;
       n.rSite = n.pi >= 0
         ? 2.0 + Math.min(5.5, Math.sqrt(Math.max(1, n.deg + nodes[n.pi].deg - 2)) * 0.62)
         : n.r;
+      // UNDERWORLD TONE, baked once (v1.113.2). LUMINANCE ONLY — each member already carries its
+      // own side's advantage colour via `sv`, so shifting hue "cooler" would read as a different
+      // advantage value rather than as being below the ground. Tone, never size: scale
+      // attenuation would say "bottom players matter less", which sweeps and half the submission
+      // game flatly contradict.
+      if (n.z < 0) { n.colU = { r: n.col.r * 0.78, g: n.col.g * 0.80, b: n.col.b * 0.86 }; anyZ = true; }
+      else if (n.z > 0) anyZ = true;
     }
+    this._hasGround = anyZ;
     let minX = 1e9, maxX = -1e9, minY = 1e9, maxY = -1e9, cx = 0, cy = 0, cnt = 0;
     for (const n of nodes) { if (!isFinite(n.x) || !isFinite(n.y)) continue; cnt++; minX = Math.min(minX, n.x); maxX = Math.max(maxX, n.x); minY = Math.min(minY, n.y); maxY = Math.max(maxY, n.y); cx += n.x; cy += n.y; }
     cx = cnt ? cx / cnt : 0; cy = cnt ? cy / cnt : 0;
@@ -10849,11 +10858,87 @@ class Component extends DCLogic {
     const halfW = this.cam.vw / 2, halfH = (H / scale) / 2;
     const L = this.cam.cx - halfW, R = this.cam.cx + halfW, Tp = this.cam.cy - halfH, B = this.cam.cy + halfH;
     const gs = 60;
-    ctx.lineWidth = 1 / scale; ctx.strokeStyle = "rgba(255,255,255,0.03)";
-    ctx.beginPath();
-    for (let x = Math.floor(L / gs) * gs; x < R; x += gs) { ctx.moveTo(x, Tp); ctx.lineTo(x, B); }
-    for (let y = Math.floor(Tp / gs) * gs; y < B; y += gs) { ctx.moveTo(L, y); ctx.lineTo(R, y); }
-    ctx.stroke();
+    ctx.lineWidth = 1 / scale;
+    if (this._hasGround) {
+      // ── THE GROUND PLANE, AT LAST (v1.113.2) ────────────────────────────────────────────────
+      // The grid was not missing — it was WRONG, and it was cancelling the projection. An
+      // axis-aligned square lattice under an isometric point cloud is the strongest possible
+      // statement that this is a flat top-down map, and it has been drawn under every iso frame
+      // shot so far (visible as vertical bars in iso-1-overview.png). The owner's own
+      // prescription — "make the 2.5D grid a little bit more obvious" — is really: draw the
+      // right one.
+      //
+      // The ground lattice is the set of lines of constant ground-x and constant ground-y. Under
+      // the baked matrix those project to two families at ±30° from horizontal, and the matrix
+      // hands us two gifts: it maps the orthonormal ground basis to two UNIT vectors exactly
+      // 120° apart (precisely the owner's description), so `gs = 60` carries over 1:1 with no
+      // retuning, and inverting it for the visible rect is two lines of algebra.
+      const IC = 0.8660254, IS = 0.5;              // cos30, sin30 — the emitter's own constants
+      const gX = (x, y) => x / (2 * IC) + y / (2 * IS);   // screen -> ground x
+      const gY = (x, y) => -x / (2 * IC) + y / (2 * IS);  // screen -> ground y
+      let gx0 = Infinity, gx1 = -Infinity, gy0 = Infinity, gy1 = -Infinity;
+      for (const [cx0, cy0] of [[L, Tp], [R, Tp], [L, B], [R, B]]) {
+        const a = gX(cx0, cy0), b2 = gY(cx0, cy0);
+        if (a < gx0) gx0 = a; if (a > gx1) gx1 = a;
+        if (b2 < gy0) gy0 = b2; if (b2 > gy1) gy1 = b2;
+      }
+      // Two levels, never more: one 60u lattice would be 32px apart at overview but 660px at roll
+      // zoom, where four lines on screen stop being a grid. The major carries the plane when you
+      // are close; the minor fades in as the ground fills the viewport.
+      const drawLat = (step, alpha) => {
+        if (alpha <= 0.004) return;
+        ctx.strokeStyle = "rgba(150,175,235," + alpha.toFixed(4) + ")";
+        ctx.beginPath();
+        for (let g = Math.floor(gx0 / step) * step; g <= gx1; g += step) {
+          ctx.moveTo((g - gy0) * IC, (g + gy0) * IS); ctx.lineTo((g - gy1) * IC, (g + gy1) * IS);
+        }
+        for (let g = Math.floor(gy0 / step) * step; g <= gy1; g += step) {
+          ctx.moveTo((gx0 - g) * IC, (gx0 + g) * IS); ctx.lineTo((gx1 - g) * IC, (gx1 + g) * IS);
+        }
+        ctx.stroke();
+      };
+      // The ground is PRESENT at every zoom (owner: "make the 2.5D grid a little bit more
+      // obvious") — the major lattice never fades below two thirds, because a plane that
+      // disappears when you pull back stops being a plane. Only the fine lattice is zoom-gated,
+      // and only because 60u is 32px at overview but 660px at roll zoom, where four lines on
+      // screen have stopped being a grid.
+      const gFade = Math.max(0, Math.min(1, (scale - 0.55) / 1.2));
+      drawLat(240, 0.075 * A * dim * (0.66 + 0.34 * gFade));
+      drawLat(60, 0.055 * A * dim * gFade);
+    } else {
+      ctx.strokeStyle = "rgba(255,255,255,0.03)";
+      ctx.beginPath();
+      for (let x = Math.floor(L / gs) * gs; x < R; x += gs) { ctx.moveTo(x, Tp); ctx.lineTo(x, B); }
+      for (let y = Math.floor(Tp / gs) * gs; y < B; y += gs) { ctx.moveTo(L, y); ctx.lineTo(R, y); }
+      ctx.stroke();
+    }
+
+    // ── THE SITE POOL: the tie that is not a line (v1.113.2) ───────────────────────────────────
+    // The owner rejected a dashed connector for the right reason ("there's no direct translation
+    // of that"), and two collinear drop lines would have rebuilt exactly the object he vetoed. A
+    // shared pool of light ON THE GROUND says "these two orbs are one place" without claiming any
+    // traversal — the same job a shadow does in an isometric game, inverted because a DARK mark
+    // on #1a1a2e is nine luminance levels and the focus halo composites over it in "lighter" and
+    // erases it. Light survives, and keeps the planets/neurons feel the graph already has.
+    //
+    // ONE ellipse per SITE (1467, not one per node), rx/ry = √3 because that is what a circle on
+    // the ground becomes under the baked matrix, and sized ~1.8r so it reads as a pool the pair
+    // stands in rather than a shadow hidden behind them. One beginPath, one fill: 3x cheaper than
+    // per-node fills, and the nonzero-winding union stops overlapping pools double-brightening.
+    if (this._hasGround && kLOD > 0.02) {
+      const pad = 40 / scale;
+      ctx.fillStyle = "rgba(188,208,255," + (0.055 * A * dim * kLOD).toFixed(4) + ")";
+      ctx.beginPath();
+      for (const n of this.nodes) {
+        if (!n.rep || !n.z) continue;                       // one per site, singles have no pool
+        const gyy = n.y + n.z * n.h;                        // the ground point itself
+        if (n.x < L - pad || n.x > R + pad || gyy < Tp - pad || gyy > B + pad) continue;
+        const rx = n.rSite * nodeK * 2.2, ry = rx / 1.7320508;
+        ctx.moveTo(n.x + rx, gyy);
+        ctx.ellipse(n.x, gyy, rx, ry, 0, 0, 6.2832);
+      }
+      ctx.fill();
+    }
 
     // base links
     ctx.lineWidth = 0.6 / scale; ctx.strokeStyle = "rgba(170,182,215," + (0.12 * A * dim) + ")";
@@ -11016,6 +11101,7 @@ class Component extends DCLogic {
     // Position is collapsed continuously by LY(), so the fade only ever finishes on top of a
     // coincident pair — nothing pops, and no crossfade is needed.
     const cullPad = 60 / scale, cxv = this.cam.cx, cyv = this.cam.cy, halfVW = this.cam.vw / 2, halfVH = (H / scale) / 2;
+    const spec = this._hasGround ? [] : null;
     for (const n of this.nodes) {
       // viewport cull — the pass had none, and it issues a fill for every node at every zoom
       if (n.x < cxv - halfVW - cullPad || n.x > cxv + halfVW + cullPad) continue;
@@ -11028,8 +11114,26 @@ class Component extends DCLogic {
       }
       const bk = br ? 1 + br * Math.sin(this.now * 1.4 + n.idx * 0.83) : 1;
       const fogK = fogSet && !fogSet.has(n.idx) ? 0.3 : 1;
-      ctx.fillStyle = this.rgba(n.col, 0.62 * A * dim * fogK * aK);
-      ctx.beginPath(); this.shapePath(ctx, n.ty, n.x, ny, rr * nodeK * bk); ctx.fill();
+      const rD = rr * nodeK * bk;
+      ctx.fillStyle = this.rgba(n.z < 0 && n.colU ? n.colU : n.col, 0.62 * A * dim * fogK * aK);
+      ctx.beginPath(); this.shapePath(ctx, n.ty, n.x, ny, rD); ctx.fill();
+      // one light direction for the whole scene — collected here, painted in a single batch below
+      if (spec && rD * scale > 7 && aK > 0.55 && fogK > 0.5) spec.push(n.x - rD * 0.3, ny - rD * 0.3, rD * 0.4);
+    }
+    // ── LIGHT IS WHAT THE EYE READS DEPTH FROM (v1.113.2) ──────────────────────────────────────
+    // An affine shear with no shading is invisible — that is the whole reason the iso build did
+    // not look 2.5D. One small off-centre highlight turns a flat disc into a lit sphere, and it
+    // is the cheapest thing on the list: a single colour means a single path and a single fill
+    // for the entire graph, gated on rendered size so it costs nothing at the zooms where the
+    // orbs are too small to shade.
+    if (spec && spec.length) {
+      ctx.fillStyle = "rgba(255,255,255," + (0.1 * A * dim).toFixed(3) + ")";
+      ctx.beginPath();
+      for (let i = 0; i < spec.length; i += 3) {
+        ctx.moveTo(spec[i] + spec[i + 2], spec[i + 1]);
+        ctx.arc(spec[i], spec[i + 1], spec[i + 2], 0, 6.2832);
+      }
+      ctx.fill();
     }
 
     // current position marker
@@ -11144,10 +11248,17 @@ class Component extends DCLogic {
           // across and it is the ONLY place the state is named, so let the type grow with it.
           const fs = Math.max(9, Math.min(26, rs * 0.24));
           ctx.font = "600 " + fs.toFixed(1) + "px 'Plus Jakarta Sans', sans-serif";
+          // A SITE IS NAMED ONCE (v1.113.2). Both members of a pair carry the SAME `t` \u2014 the lower
+          // half of "Mount" is still titled "Mount Top" in the payload \u2014 so every paired site was
+          // printing its name twice, once per orb (measured: 14 sites at roll zoom). The
+          // representative speaks for the site; its twin says only which side it is.
+          const isTwin = !!(n.z && !n.rep);
           const words = name.split(" "), lines = []; let cur = "";
-          for (const w of words) { const t2 = cur ? cur + " " + w : w; if (!cur || ctx.measureText(t2).width <= maxW) cur = t2; else { lines.push(cur); cur = w; } }
-          if (cur) lines.push(cur);
-          if (lines.length > 3) { lines.length = 3; lines[2] += "\u2026"; }
+          if (!isTwin) {
+            for (const w of words) { const t2 = cur ? cur + " " + w : w; if (!cur || ctx.measureText(t2).width <= maxW) cur = t2; else { lines.push(cur); cur = w; } }
+            if (cur) lines.push(cur);
+            if (lines.length > 3) { lines.length = 3; lines[2] += "\u2026"; }
+          }
           const lh = fs * 1.16, kfs = Math.max(7, Math.min(14, rs * 0.13));
           const blockH = lines.length * lh;
           ctx.textBaseline = "middle";
@@ -11157,9 +11268,13 @@ class Component extends DCLogic {
           // This is also what lets the focus skip its rich label below: one name, not two.
           let kick = n.ty === "positions" ? "POSITION" : n.ty === "submissions" ? "SUBMISSION" : "TRANSITION";
           if (isCur) { const rl = this.roleLabel(); if (rl) kick += " · " + String(rl).toUpperCase(); }
+          // the side kicker Q5 asks for: on a pair, each orb says which half of the site it is.
+          const sideK = n.z ? String(n.role || "").toUpperCase() : "";
+          if (isTwin) kick = sideK || kick;
+          else if (sideK && !isCur) kick += " · " + sideK;
           ctx.font = "800 " + kfs.toFixed(1) + "px 'Plus Jakarta Sans', sans-serif";
           ctx.fillStyle = this.rgba(n.col, 0.9 * k * A);
-          ctx.fillText(kick, sx, sy + cyOff - blockH / 2 - kfs * 0.95, rs * 1.7);
+          ctx.fillText(kick, sx, sy + cyOff + (isTwin ? 0 : -blockH / 2 - kfs * 0.95), rs * 1.7);
           ctx.font = "600 " + fs.toFixed(1) + "px 'Plus Jakarta Sans', sans-serif";
           ctx.fillStyle = this.rgba({ r: 240, g: 243, b: 248 }, 0.98 * k * A);
           lines.forEach((ln2, li) => ctx.fillText(ln2, sx, sy + cyOff - blockH / 2 + lh * (li + 0.5), maxW + 6));
