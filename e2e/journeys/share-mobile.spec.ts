@@ -370,7 +370,7 @@ test("a coach captures a TECHNIQUE from the live hand with a real tap at real co
   expect(
     await page.locator('[data-list-add][data-list-surface="sheet"]').getAttribute("aria-label"),
     "and every capture carries a real accessible name, not a title attribute",
-  ).toMatch(/class/i);
+  ).toMatch(/add to a list/i);   // v1.113.5: "class list" -> "a list" (owner)
 
   const targetId = await page.evaluate(
     () =>

@@ -6726,8 +6726,12 @@ class Component extends DCLogic {
    *  asked (v1.113.4). Reads the inline opacity `_suppressLand` writes — the same tell
    *  `_landBackfill` already uses, so there is no second source of truth. */
   _landHidden() {
-    const el = this._landEl;
-    return !el || el.style.opacity === "0" || el.style.visibility === "hidden";
+    // ASK THE HOLDERS, NOT THE PIXELS. The first cut read the inline opacity `_suppressLand`
+    // writes — and lost a race: the option sheet restores the card through a .25s transition, so
+    // pressing Esc and immediately answering found the card still styled hidden and the keys went
+    // dead. Every surface that stands the card down owns a synchronous flag, and intent flips the
+    // instant the user acts; a style is only true once the animation says so.
+    return !this._landEl || !!this._landPaneHid || !!this._traySup || !!this._bgDown || !!this._detailCtx;
   }
   _suppressLand(hide) {
     const el = this._landEl; if (!el) return;

@@ -129,14 +129,16 @@ test("a list's techniques live behind its count line — the chevron opens them 
     "collapsed means the techniques are NOT in the DOM — not merely painted out",
   ).toHaveCount(0);
   await expect(page.locator("[data-list-item]")).toHaveCount(0);
-  await expect(toggle.locator("[data-list-chevron]")).toHaveText("▸");
+  // v1.113.5: the chevron is a STROKED, ROTATING caret, not a filled triangle glyph — the whole
+  // point being that a filled triangle is what the play button is. Closed = rotated -90deg.
+  await expect(toggle.locator(".ng-caret")).toHaveAttribute("data-open", "0");
   // the count itself never hides: it is the label of the control
   await expect(page.locator(`[data-list-row="${id}"] [data-list-count]`)).toHaveText(/3/);
 
   // …and open again, by mouse, where it sits
   await j.clickByMouse(`[data-list-open="${id}"]`, "the count line");
   await expect(toggle).toHaveAttribute("aria-expanded", "true");
-  await expect(toggle.locator("[data-list-chevron]")).toHaveText("▾");
+  await expect(toggle.locator(".ng-caret")).toHaveAttribute("data-open", "1");
   await expect(items).toHaveCount(1);
   await expect(page.locator(`[data-list-items="${id}"] [data-list-item]`)).toHaveCount(3);
 
