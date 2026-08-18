@@ -81,8 +81,10 @@ for (const variant of ["fixed", "force", "iso"] as const) {
       };
     });
     console.log(`[${variant}]`, JSON.stringify(info));
-    expect(info.nodes).toBe(2637);
-    expect(info.pairMembers).toBe(2340); // 1170 pairs x 2
+    // 2637 -> 2931 in v1.113.3: 297 submission hubs stopped being singles when the slug
+    // fallback landed (they were losing their attacker/defender pair to a lookup miss).
+    expect(info.nodes).toBe(2931);
+    expect(info.pairMembers).toBe(2928);   // 1464 pairs x 2 (was 1170 x 2 before submissions paired) // 1170 pairs x 2
     expect(info.mountTop).not.toBe(info.mountBottom);
     expect(info.mountBare).toBe(info.mountTop); // top member owns the bare slug
     expect(info.hubAlias).toBe(info.mountTop); // retired hub id aliases to primary member
