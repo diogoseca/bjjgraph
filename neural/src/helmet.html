@@ -58,6 +58,27 @@
   .ng-lists-new:active .ng-lists-new-chip{transform:translateY(1px);background:rgba(255,255,255,.07);}
   .ng-lists-new:focus-visible{outline:none;}
   .ng-lists-new:focus-visible .ng-lists-new-chip{outline:2px solid rgba(160,185,255,.85);outline-offset:2px;}
+  /* ---------- ACTIONS ARE CHIPS, DISCLOSURE IS BARE (v1.113.5) ----------
+     Owner: "the explorer's chevron is confused with the play button… if we can, use the same
+     button outline as the plus button uses." They were the same object: a collapsed chevron
+     (U+25B8) and the play glyph are both small SOLID right-pointing triangles, both borderless
+     and transparent, both the same grey, sitting 4px apart on the same row — so the row's most
+     consequential control read as decoration. The rule that separates them is legible at a
+     glance and needs no learning:
+        boxed + filled  = DO something (play, capture)
+        bare  + stroked = OPEN something (the caret) — and the caret ROTATES, which a filled
+                          play triangle never does.
+     `.ng-actchip` is the `+`'s own outline (the .ng-lists-new-chip / segBtn family) at the pane's
+     24px control figure. It lives here rather than in a `mouseenter` handler because JS hover
+     painting cannot express `:focus-visible`, which is the only state a keyboard user sees. */
+  .ng-actchip{flex:none;display:inline-flex;align-items:center;justify-content:center;width:24px;height:24px;padding:0;box-sizing:border-box;cursor:pointer;font-family:inherit;border:1px solid rgba(150,170,210,.28);border-radius:7px;background:rgba(255,255,255,.05);color:#9ab0e0;transition:background .15s ease,border-color .15s ease,color .15s ease,transform .1s ease;}
+  .ng-actchip:hover{background:rgba(255,255,255,.1);border-color:rgba(150,180,255,.5);color:#dbe2f0;}
+  .ng-actchip:active{transform:translateY(1px);background:rgba(255,255,255,.07);}
+  .ng-actchip:focus-visible{outline:2px solid rgba(160,185,255,.85);outline-offset:2px;}
+  .ng-caret{flex:none;display:inline-flex;align-items:center;justify-content:center;color:#5d6883;}
+  .ng-caret svg{transition:transform .16s ease;}
+  .ng-caret[data-open="0"] svg{transform:rotate(-90deg);}
+
   /* ---------- Last rolls: a row's quiet controls (v1.106.5) ----------
      ▶ roll from here · ⟲ replay. 24px is the PANE's control figure (WCAG 2.2 AA 2.5.8; the 44px
      thumb figure belongs to the option hand and the landing card, which are hit one-handed on a

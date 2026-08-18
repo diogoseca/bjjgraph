@@ -4682,7 +4682,7 @@ class Component extends DCLogic {
     const renderCurated = (label) => {
       const entry = curatedMap[label], col = entry[0], items = entry[1];
       const open = this._exploreSectionOpen(label);
-      const hdr = mk('<span style="font-size:14px;font-weight:700;color:#dbe2f0;">' + label + '</span><span style="font-size:11px;color:#7e8aa3;">(' + items.length + ')</span><span style="margin-left:auto;color:#5d6883;font-size:11px;">' + (open ? "\u25be" : "\u25b8") + '</span>', 12, () => this._toggleExploreSection(label));
+      const hdr = mk('<span style="font-size:14px;font-weight:700;color:#dbe2f0;">' + label + '</span><span style="font-size:11px;color:#7e8aa3;">(' + items.length + ')</span><span style="margin-left:auto;color:#5d6883;font-size:11px;">' + this._caretHTML(open) + '</span>', 12, () => this._toggleExploreSection(label));
       hdr.setAttribute("data-explore-section", label);
       hdr.setAttribute("aria-expanded", open ? "true" : "false");
       list.appendChild(hdr);
@@ -4702,7 +4702,7 @@ class Component extends DCLogic {
       // it here, at the first read; _onSystems re-renders Explore when it lands.
       if (!all.length) { this._ensureSystems(); return; }   // absent (or 404) -> no section yet
       const open = this._exploreSectionOpen("Systems");
-      const hdr = mk('<span style="font-size:14px;font-weight:700;color:#dbe2f0;">Systems</span><span style="font-size:11px;color:#7e8aa3;">(' + all.length + ')</span><span style="margin-left:auto;color:#5d6883;font-size:11px;">' + (open ? "\u25be" : "\u25b8") + '</span>', 12, () => this._toggleExploreSection("Systems"));
+      const hdr = mk('<span style="font-size:14px;font-weight:700;color:#dbe2f0;">Systems</span><span style="font-size:11px;color:#7e8aa3;">(' + all.length + ')</span><span style="margin-left:auto;color:#5d6883;font-size:11px;">' + this._caretHTML(open) + '</span>', 12, () => this._toggleExploreSection("Systems"));
       hdr.setAttribute("data-explore-section", "Systems");
       hdr.setAttribute("aria-expanded", open ? "true" : "false");
       list.appendChild(hdr);
@@ -4721,7 +4721,7 @@ class Component extends DCLogic {
       const famNames = Object.keys(fams).sort((a, b) => a.localeCompare(b));
       const count = famNames.reduce((a, f) => a + fams[f].length, 0);
       const gOpen = this._exploreSectionOpen(label);
-      const hdr = mk('<span style="font-size:14px;font-weight:700;color:#dbe2f0;">' + label + '</span><span style="font-size:11px;color:#7e8aa3;">(' + count + ')</span><span style="margin-left:auto;color:#5d6883;font-size:11px;">' + (gOpen ? "\u25be" : "\u25b8") + '</span>', 12, () => this._toggleExploreSection(label));
+      const hdr = mk('<span style="font-size:14px;font-weight:700;color:#dbe2f0;">' + label + '</span><span style="font-size:11px;color:#7e8aa3;">(' + count + ')</span><span style="margin-left:auto;color:#5d6883;font-size:11px;">' + this._caretHTML(gOpen) + '</span>', 12, () => this._toggleExploreSection(label));
       hdr.setAttribute("data-explore-section", label);
       hdr.setAttribute("aria-expanded", gOpen ? "true" : "false");
       list.appendChild(hdr);
@@ -4730,7 +4730,7 @@ class Component extends DCLogic {
         const nodes = fams[fam], col = this.hex(nodes[0].col);
         if (nodes.length > 1) {
           const fk = key + "|" + fam, fOpen = this._exp.f.has(fk);
-          list.appendChild(mk(this.nodeGlyph(nodes[0].ty, col, 8) + '<span style="font-size:13px;font-weight:600;color:#c4cde0;">' + fam + '</span><span style="font-size:10.5px;color:#7e8aa3;">' + nodes.length + '</span><span style="margin-left:auto;color:#5d6883;font-size:10px;">' + (fOpen ? "\u25be" : "\u25b8") + '</span>', 22, () => { if (fOpen) this._exp.f.delete(fk); else this._exp.f.add(fk); this.renderExplorer(); }));
+          list.appendChild(mk(this.nodeGlyph(nodes[0].ty, col, 8) + '<span style="font-size:13px;font-weight:600;color:#c4cde0;">' + fam + '</span><span style="font-size:10.5px;color:#7e8aa3;">' + nodes.length + '</span><span style="margin-left:auto;color:#5d6883;font-size:10px;">' + this._caretHTML(fOpen) + '</span>', 22, () => { if (fOpen) this._exp.f.delete(fk); else this._exp.f.add(fk); this.renderExplorer(); }));
           // THE CATEGORY SHAPE RIDES EVERY TECHNIQUE ROW (v1.103.6). These leaf rows carried no
           // glyph at all, so a technique inside a family fold was the one place in Explore that
           // did not say what it was. `nodeGlyph` is the same vocabulary `draw()` puts on the
@@ -5214,12 +5214,16 @@ class Component extends DCLogic {
     const on = this.nodeInAnyList(nodeId);
     const m = this._listsMap();
     if (on) {
+      // A CONTROL SAYS WHAT IT DOES, NOT WHAT IS TRUE (v1.113.5). This read "In your class list
+      // “Class · Aug 12” — choose where it goes": a status report where the hover of an action
+      // belongs. The membership is already carried by the ✓ glyph and aria-pressed; the label's
+      // job is the verb, with the state as a short aside.
       const names = this.listsWith(nodeId).map((k) => "“" + m[k].name + "”");
-      return { on: true, label: "In your class list" + (names.length > 1 ? "s " : " ") + names.join(", ") + " — choose where it goes" };
+      return { on: true, label: "Add to a list — already in " + names.join(", ") };
     }
     // NO DESTINATION IN THE LABEL (v1.101.9). It used to read "Add to class list “Class · Aug 12”"
     // — naming a list the user never picked, on a control that now always asks.
-    return { on: false, label: "Add to a class list…" };
+    return { on: false, label: "Add to a list" };
   }
   _styleListAdd(el, nodeId) {
     const c = this._captureCopy(nodeId), on = c.on;
@@ -5270,18 +5274,26 @@ class Component extends DCLogic {
    * (a position seeds at itself, a technique at its origin position) AND it confirms first:
    * pressing play in the pane mid-roll discards the roll you are in, so it must ask.
    */
+  /** A stroked, ROTATING caret — the disclosure half of the chip rule (v1.113.5). Deliberately
+   *  not a filled triangle: `▸` and the play glyph were the same shape, and shape is the first
+   *  thing the eye sorts on. Thin strokes, no box, and it turns when it opens. */
+  _caretHTML(open) {
+    return '<span class="ng-caret" data-open="' + (open ? "1" : "0") + '" aria-hidden="true">' +
+      '<svg width="9" height="9" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"></path></svg></span>';
+  }
   _playButton(node) {
     const b = document.createElement("button");
     b.type = "button";
     b.setAttribute("data-play-from", node.id);
     const nm = this.displayName ? this.displayName(node) : this.splitName(node.t).main;
     b.setAttribute("aria-label", "Play from " + nm);   // a title is not an accessible name
-    b.title = "Play from here";
-    // the pane's 24px control figure (see _listAddButton) — never the in-roll 44
-    b.style.cssText = "flex:none;pointer-events:auto;cursor:pointer;font-family:inherit;width:24px;height:24px;padding:0;border:0;border-radius:7px;background:transparent;color:#8c9ab5;display:inline-flex;align-items:center;justify-content:center;transition:background .15s,color .15s;";
-    b.innerHTML = '<svg width="11" height="11" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"></path></svg>';
-    b.addEventListener("mouseenter", () => { b.style.background = "rgba(255,255,255,.08)"; b.style.color = "#bcd0ff"; });
-    b.addEventListener("mouseleave", () => { b.style.background = "transparent"; b.style.color = "#8c9ab5"; });
+    b.title = "Play from " + nm;
+    // ACTIONS ARE CHIPS (v1.113.5, owner). Play wears the `+`'s own outline, which makes it the
+    // only bordered triangle in the pane and ends its collision with the chevron. The class
+    // carries hover/active/focus-visible; a JS `mouseenter` painter cannot express the last one.
+    b.className = "ng-actchip";
+    b.style.pointerEvents = "auto";
+    b.innerHTML = '<svg width="10" height="10" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"></path></svg>';
     b.addEventListener("click", (e) => { e.stopPropagation(); e.preventDefault(); this.confirmPlayFrom(node); });
     return b;
   }
@@ -5313,7 +5325,10 @@ class Component extends DCLogic {
       // screen point, and a longer label grew it far enough to slide this control under the
       // landing card's MC options — measured, and it cost the dossier capture entirely. The
       // "Adding to <list>" line in the Lists head is where the destination is READ.
-      if (t) t.textContent = on ? "In today\u2019s class list" : "Add to today\u2019s class list";
+      // ONE PROMISE PER CONTROL (v1.113.5): the visible words said "today's class list" while
+      // the title said "a class list" — two different promises on one button, and the picker
+      // has asked WHICH list since v1.102.0, so "today's" was never true anyway.
+      if (t) t.textContent = on ? "In a list" : "Add to a list";
       lb.title = c.label;
       lb.setAttribute("aria-label", c.label);
       lb.setAttribute("aria-pressed", on ? "true" : "false");
@@ -5864,7 +5879,7 @@ class Component extends DCLogic {
         // touching the type, and costs the row nothing — its 24px controls already set 38px.
         open.style.cssText = "display:flex;align-items:center;gap:7px;flex:none;pointer-events:auto;cursor:pointer;font-family:inherit;text-align:left;border:0;background:transparent;color:inherit;padding:6px 5px;margin:-6px -5px;border-radius:7px;";
         open.innerHTML = '<span data-list-count="' + l.items.length + '" style="font-size:10.5px;color:#7e8aa3;">' + l.items.length + '</span>' +
-          '<span data-list-chevron="1" aria-hidden="true" style="flex:none;font-size:10px;line-height:1;color:#5d6883;">' + (expanded ? "▾" : "▸") + '</span>';
+          '<span data-list-chevron="1" style="flex:none;display:inline-flex;">' + this._caretHTML(expanded) + '</span>';
         open.addEventListener("click", () => this._toggleListExpand(id));
         main.appendChild(open);
       }
