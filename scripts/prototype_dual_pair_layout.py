@@ -173,15 +173,40 @@ def build(strategy: str) -> dict:
             return None
         return {"moves": out, "avail": avail}
 
+    def tech_key(ty: str, slug: str):
+        """Canonical graph.json key for a technique's layout slug.
+
+        THE SUBMISSION PAIRING BUG (fixed here). Nested layout ids are COMPOUND
+        ('rear-naked-choke/from-rodeo') while graph.json keys them DASH-JOINED
+        ('rear-naked-choke-from-rodeo') — the identical compound-vs-bare mismatch v1.103.0 fixed
+        for positions, where `pos_role_entry` tries both spellings. This branch only ever asked
+        for the raw one, so the lookup missed and the hub silently fell through to "no role split
+        — keep single": measured, 291 of 297 submission hubs lost their attacker/defender pair
+        that way, which is why Rear Naked Choke rendered as one node. The data was always there
+        (`rear-naked-choke-from-rodeo/attacker` AND `/defender` both exist).
+        """
+        # Three spellings, same order of preference as pos_role_entry: the compound path, the
+        # dash-joined form, and the bare LEAF — the last one catches family-nested variants
+        # ('Submissions/Armbar/Reverse-Armbar-from-Mount' is keyed 'reverse-armbar-from-mount',
+        # with no family prefix at all).
+        cands = [slug, slug.replace("/", "-")]
+        if "/" in slug:
+            cands.append(slug.rsplit("/", 1)[-1])
+        for c in cands:
+            if graph[ty].get(f"{c}/attacker") or graph[ty].get(c):
+                return c
+        return None
+
     def tech_cal(ty: str, slug: str):
-        n = graph[ty].get(f"{slug}/attacker") or graph[ty].get(slug)
+        key = tech_key(ty, slug) or slug
+        n = graph[ty].get(f"{key}/attacker") or graph[ty].get(key)
         if not n:
             return None, None
         e = {}
         for k in ("successRate", "successRateByRuleset", "outcomes", "endingPosition"):
             if n.get(k) is not None:
                 e[k] = n[k]
-        av = tech_avail.get(slug)
+        av = tech_avail.get(slug) or tech_avail.get(key)
         if av:
             e["avail"] = av
         return (e or None), n
@@ -254,7 +279,11 @@ def build(strategy: str) -> dict:
                 "fromPositionId": hub.get("fromPositionId"),
                 "fromRole": hub.get("fromRole"),
             }
-            if graph[ty].get(f"{slug}/attacker"):
+            tkey = tech_key(ty, slug)
+            # a FAMILY hub is an edgeless aggregator, not a state — it never pairs (defensive:
+            # measured, none of the 297 submission hubs in the layout is one)
+            tnode = graph[ty].get(f"{tkey}/attacker") if tkey else None
+            if tnode and not tnode.get("is_family") and not (graph[ty].get(tkey) or {}).get("is_family"):
                 a = base_member(hub, ty, "attacker", "Attacker", 0)
                 d = base_member(hub, ty, "defender", "Defender", 1)
                 a.update(fp)
