@@ -228,6 +228,20 @@ class Component extends DCLogic {
       if (!it.id) { it.start = performance.now(); it.id = setTimeout(it._fire, Math.max(0, it.remaining)); }
     }
   }
+  /** A HAND ON THE CLOCK VOIDS EVERY SURFACE'S CLAIM TO IT (v1.113.4).
+   *
+   * Four surfaces auto-pause behind their own latch (pane, dossier, unfolded card, replay) and
+   * each releases only what it took — that is the rule CLAUDE.md states as "a hand-paused roll
+   * stays paused when you close the pane". But `setPaused` never cleared a latch, so a manual
+   * toggle left a stale one behind, and the sequence was reachable from the keyboard in three
+   * presses: open the pane (latches `_paneAutoPaused`), press Space to resume — the roll now runs
+   * BEHIND an open pane, which pane law forbids — press Space again to hand-pause, then close the
+   * pane, and the stale latch resumes a roll the user had just paused by hand. The promise
+   * inverted. Any deliberate pause/resume now voids all four claims. */
+  _clearPauseLatches() {
+    this._paneAutoPaused = false; this._dossierAutoPaused = false;
+    this._landAutoPaused = false; this._bgAutoPaused = false;
+  }
   setPaused(p) {
     if (this.paused === p) return;
     // PRESSING PLAY ENDS THE FILM. A replay holds the clock on purpose; resuming the roll under it
@@ -367,11 +381,21 @@ class Component extends DCLogic {
         else if (e.key === "ArrowDown") { if (!this.drillTechNav(1)) { if (!this.revealed) this.drillReveal(); else this.drillGrade(true); } }
         else if (e.key === "ArrowUp") { if (!this.drillTechNav(-1)) { if (this.revealed) this.drillGrade(false); else this.drillReveal(); } }
       } else if ((e.key === " " || e.key === "p" || e.key === "P") && !typing && !this._detailCtx) {
+        // ── SPACE BELONGS TO THE FOCUSED CONTROL FIRST (v1.113.4) ────────────────────────────
+        // `preventDefault()` used to run BEFORE this branch decided anything, so Space suppressed
+        // the browser's activation of whatever <button>/<summary> had focus. The Challenges
+        // corridor is built ENTIRELY from those (lesson rows, belt headers, checkpoints, the
+        // fold summaries) and it is Tab-navigable — so tabbing to a lesson and pressing Space
+        // did not open it, it toggled the roll's pause behind the pane. That is the literal
+        // "keyboard shortcuts don't really work in challenges" report, and it also swallowed
+        // spacebar page-scroll inside the pane's own scroller.
+        // `p`/`P` is unaffected: it is nobody's activation key, so it still pauses from anywhere.
+        if (e.key === " " && t && t.closest && t.closest("button,summary,a[href],select,[role='button'],[contenteditable]")) return;
         e.preventDefault();
         if (e.key === " " && this.isDrillOpen()) { if (!this.revealed) this.drillReveal(); else this.drillGrade(true); }
         else if (e.key === " " && this.deckShown && this._viewMode === "history" && this._drillView === "home" && this._focusRow && this._miniReg && this._miniReg[this._focusRow]) { this._miniReg[this._focusRow].reveal(); }
-        else this.setPaused(!this.paused);
-      } else if (!typing && /^[a-dA-D]$/.test(e.key) && this._mc && this._mc.answer && "abcd".indexOf(e.key.toLowerCase()) < (this._mc.n || 0)) {
+        else { this._clearPauseLatches(); this.setPaused(!this.paused); }
+      } else if (!typing && /^[a-dA-D]$/.test(e.key) && this._mc && this._mc.answer && !(this._mc.surface === "land" && this._landHidden()) && "abcd".indexOf(e.key.toLowerCase()) < (this._mc.n || 0)) {
         e.preventDefault(); // A/B/C/D answer whichever MC block is live — digits stay the option-card openers
         this._mc.answer("abcd".indexOf(e.key.toLowerCase()));
       } else if (!typing && /^[1-4]$/.test(e.key) && this._mc && this._mc.surface === "deck" && this.deckShown) {
@@ -6624,6 +6648,15 @@ class Component extends DCLogic {
    * Same treatment (inline opacity + pointer-events) the option-detail sheet uses, and
    * _landBackfill already knows to preserve an inline hide across a re-render.
    */
+  /** Is the landing card currently standing down? A–D must not grade a question nobody can see:
+   *  opening the pane suppresses the card but never nulls `this._mc`, so the keys stayed live
+   *  over an invisible surface and a stray keystroke scored a question the player was not being
+   *  asked (v1.113.4). Reads the inline opacity `_suppressLand` writes — the same tell
+   *  `_landBackfill` already uses, so there is no second source of truth. */
+  _landHidden() {
+    const el = this._landEl;
+    return !el || el.style.opacity === "0" || el.style.visibility === "hidden";
+  }
   _suppressLand(hide) {
     const el = this._landEl; if (!el) return;
     // `!important` is REQUIRED, not defensive. `.ng-landcard` carries `animation:ngCardInX .28s`,
