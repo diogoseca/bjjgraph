@@ -393,7 +393,11 @@ def build(strategy: str) -> dict:
         for n in nodes_out:
             gx, gy = float(n["x"]), float(n["y"])
             sx = (gx - gy) * ISO_COS
-            sy = (gx + gy) * ISO_SIN
+            # EQUIDISTANT MEANS EXACTLY (v1.112.2): round the GROUND point first, then apply the
+            # offset. Rounding each member independently let the two 1-decimal results land on
+            # either side of the boundary, so the "fixed" 8.0 gap shipped as 7.9 / 8.0 / 8.1 —
+            # three different constants for the one number the whole projection rests on.
+            sy = round((gx + gy) * ISO_SIN, 1)
             z = 0.0
             if n.get("pairId"):
                 z = 1.0 if n["role"] in ("top", "attacker") else -1.0

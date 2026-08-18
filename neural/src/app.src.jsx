@@ -563,6 +563,15 @@ class Component extends DCLogic {
       links.push([a, b]); adj[a].push(b); adj[b].push(a); nodes[a].deg++; nodes[b].deg++;
     }
     for (const n of nodes) n.r = 2.0 + Math.min(5.5, Math.sqrt(n.deg) * 0.62);
+    // A PAIR IS ONE RIGID BODY (v1.112.2). The de-overlap below already refused to push partners
+    // apart from EACH OTHER — but strangers still shoved each member INDEPENDENTLY, and that
+    // silently destroyed the projection: measured on the iso build, only 121 of 1170 pairs stayed
+    // vertical, mean horizontal drift 2.6u (worst 29.8), the fixed 8u gap smeared across −6..41,
+    // and 79 pairs ended up UPSIDE DOWN with the top member below its partner. The offset IS the
+    // paradigm ("learn it once and you know it everywhere"), so a push applied to one member is
+    // applied to both — the pair translates, never deforms.
+    const _partnerOf = (n) => { if (!n.pairId) return null; const j = idIndex.get(n.pairId); return j == null ? null : nodes[j]; };
+    const _mv = (n, ddx, ddy) => { n.x += ddx; n.y += ddy; const p = _partnerOf(n); if (p) { p.x += ddx; p.y += ddy; } };
     // de-overlap: push near-coincident vertices to a minimum gap so close zoom can tell them apart
     for (let it = 0; it < 30; it++) {
       const order = [];
@@ -583,7 +592,7 @@ class Component extends DCLogic {
           if (d >= g) continue;
           if (d < 0.01) { const th = order[jj] * 2.4; dx = Math.cos(th); dy = Math.sin(th); d = 1; }
           const push = (g - d) / 2 / d;
-          a.x -= dx * push; a.y -= dy * push; b.x += dx * push; b.y += dy * push;
+          _mv(a, -dx * push, -dy * push); _mv(b, dx * push, dy * push); // pair moves whole (v1.112.2)
           any = true;
         }
       }
