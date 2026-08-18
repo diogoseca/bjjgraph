@@ -248,6 +248,8 @@ class Component extends DCLogic {
     // would leave two things moving the same camera and the same pulse. `stopReplay` nulls
     // `_replay` before it can call back in here, so this cannot recurse.
     if (p === false && this._replay) { this._replayAutoPaused = false; this.stopReplay("resumed"); }
+    // PRESSING PLAY ALSO ENDS A BACKGROUND DISMISSAL, and flies back to the node you chose.
+    if (p === false && this._bgDown) this._bgRestore();
     this.paused = p;
     if (p) this.pauseTimers(); else this.resumeTimers();
     // freeze/resume the option countdown bars
@@ -6642,6 +6644,61 @@ class Component extends DCLogic {
   }
 
   // keep the in-node dossier readable: fade the options tray under it while the card is up
+  /** ── TAPPING EMPTY GRAPH IS A REAL GESTURE (v1.113.6) ──────────────────────────────────────
+   *
+   * Owner: "when I click the graph background and I'm not clicking any node it should close, and
+   * do the same thing as closing the current node — which should also close the choices, by the
+   * way, currently doesn't — and it should pause when you do that, and when you click play again
+   * it shows you where you were."
+   *
+   * It did almost nothing: three closers, every one of which is a no-op in the ordinary in-roll
+   * state (no dossier open, pane shut), so tapping empty space was a complete no-op. Now it is
+   * "stand everything down and hold the clock":
+   *
+   *  · THE TRAY GOES WITH THE CARD. `clearOptions()` is destructive — it drops `optionIdxs` and
+   *    every caller of it ends or restarts the roll. `_suppressTray` is the existing primitive
+   *    that hides the tray WITHOUT ending anything (the replay film uses it), so the hand is
+   *    still there, still yours, just out of the way. Joins the same two-holder discipline with
+   *    `_suppressLand` that `applyDeckVisibility` and `stopReplay` already observe.
+   *  · ITS OWN LATCH. Each surface owns a boolean so closing it can only give back a clock it
+   *    took; reusing `_paneAutoPaused` here would make the next pane close release a pause it
+   *    never took. Hence `_bgAutoPaused`.
+   *  · THE PANE IS NOT TOUCHED ON DESKTOP. The old branch called `closeExplorerIfOpen()`, which
+   *    has no width guard — so a desktop background tap closed the pane, contradicting PANE LAW
+   *    ("desktop graph clicks leave it alone"). `closeDeckIfStudying()` is the guarded helper
+   *    that already exists for exactly this, and the owner's ask was about the card anyway.
+   *  · AND IT REMEMBERS. `_syncUrl` already records the last node the USER chose (deliberate
+   *    navigation only), so pressing play flies back to it rather than wherever the roll drifted.
+   */
+  _tapBackground() {
+    this.closeNodeDossier();
+    this.closeDossierSheet();
+    this.closeDeckIfStudying();        // mobile-only by design (the drawer owns the screen there)
+    this._standDown(true);
+  }
+  /** Stand the play surfaces down and hold the clock on our own latch. */
+  _standDown() {
+    if (this._bgDown) return;
+    this._bgDown = true;
+    this._bgReturnIdx = (this._lastChosenIdx != null ? this._lastChosenIdx : this.currentPos);
+    this._suppressTray(true);
+    if (!this.paused) { this.setPaused(true); this._bgAutoPaused = true; }
+    this.fx("bg_dismissed", { returnTo: this._bgReturnIdx });
+  }
+  /** …and bring them back. Called from setPaused's resume path (never calls back into it, so it
+   *  cannot recurse — same shape as the replay teardown that already lives there). */
+  _bgRestore() {
+    if (!this._bgDown) return;
+    this._bgDown = false; this._bgAutoPaused = false;
+    this._suppressTray(false);
+    // "when you click play again it shows you where you were" — the node the USER last chose,
+    // not wherever an auto-advance happened to leave the roll.
+    const i = this._bgReturnIdx;
+    if (i != null && this.nodes && this.nodes[i]) {
+      this.camTarget = this.rollCamTarget(this.nodes[i], false);
+      this.holdCamera();
+    }
+  }
   _suppressTray(hide) {
     if (this._traySup === hide) return;
     this._traySup = hide;
@@ -9532,7 +9589,8 @@ class Component extends DCLogic {
     // different composition than the roll does (v1.103.2)
     this.camTarget = this.rollCamTarget({ x: this.nodes[posIdx].x, y: this.nodes[posIdx].y }, false);
     this.prevPosVal = this.myVal(this.nodes[posIdx]);
-    this._syncUrl(posIdx);                       // the address bar follows a chosen node
+    this._syncUrl(posIdx);                     // the address bar follows a chosen node
+    this._lastChosenIdx = posIdx;                // …and so does "take me back where I was"                       // the address bar follows a chosen node
     this._played = false;                        // nothing counts until it runs unpaused
     this._prefetchLandDeck(posIdx);              // the flight is the deck's runway (v1.106.6)
     this.hideCenter(); this.setPaused(!!staged); // staged: land here, but hold the clock
@@ -10824,7 +10882,7 @@ class Component extends DCLogic {
         const inCard = card && card.style.display !== "none" && e && card.contains(e.target);
         // tapping a node ROAMS to it (stages a paused roll there); tapping the one you're already
         // on reads it instead. Empty space closes whatever is open.
-        if (dragging && moved < 5 && e && !inCard) { this._updateHover(e); if (this._hover && this._hover.idx >= 0) { if (this._hover.idx === this.currentPos) this.openDossier(this._hover.idx); else this.stageRollAt(this._hover.idx); } else { this.closeNodeDossier(); this.closeExplorerIfOpen(); this.closeDossierSheet(); } }
+        if (dragging && moved < 5 && e && !inCard) { this._updateHover(e); if (this._hover && this._hover.idx >= 0) { if (this._hover.idx === this.currentPos) this.openDossier(this._hover.idx); else this.stageRollAt(this._hover.idx); } else { this._tapBackground(); } }
         dragging = false; el.style.cursor = "grab";
       }
       this.lastInteract = this.now;
