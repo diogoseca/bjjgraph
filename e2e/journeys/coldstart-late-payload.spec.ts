@@ -477,8 +477,8 @@ test("cold start: a payload that never arrives leaves a playable app, not a brok
     expect.arrayContaining(["hand_dealt", "move_committed", "outcome_seen"]),
   );
   // v1.101.1: the identity block left the card — the roll settles at ROLL_ZOOM and the GRAPH
-  // names the state inside the node itself. The DOM-visible half of "they know where they are"
-  // is the landing card being up at all.
+  // names the state (inside the node until v1.114.0, beside it since). The DOM-visible half of
+  // "they know where they are" is the landing card being up at all.
   expect(
     await page.locator("[data-landcard]").count(),
     "every landing still puts its card up",

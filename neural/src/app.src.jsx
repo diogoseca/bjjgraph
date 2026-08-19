@@ -48,10 +48,14 @@ class Component extends DCLogic {
   // a phone, short enough that the roll's follow-cam is never held hostage.
   camHoldSec = 7;
   // THE ROLL'S SETTLED ZOOM, as a fraction of graphW (v1.101.0). `graphW * 0.0085` is the
-  // deepest read zoom the app ever asked for, so this is "a tenth of the max zoom" — close
-  // enough that the canvas draws the state's own name and role INSIDE the node, which is
-  // exactly why the landing card stopped repeating them. One number, tune it here.
+  // deepest read zoom the app ever asked for, so this is "a tenth of the max zoom".
+  // (v1.114.0: it no longer decides whether the state is NAMED — the label beside the node is
+  // the one naming design at every zoom. See THE ARRIVAL IS THE EVENT, below.)
   ROLL_ZOOM = 0.085;
+  /** How much harder a node blooms when the roll ARRIVES there (a landing, or the submission
+   *  that ends a round) than when the travelling light merely passes over it. The owner's
+   *  "50% or even 100% more"; 2 is the 100%. */
+  ARRIVE_BLOOM = 2;
   explorerListRef = React.createRef();
   explorerSearchRef = React.createRef();
   explorerSearchWrapRef = React.createRef();
@@ -836,7 +840,8 @@ class Component extends DCLogic {
   startTravel(path, onArrive) {
     this.pulse = { path, seg: 0, t: 0, onArrive, done: false, t0: this.now, tint: this.activeMove ? this.activeMove.col : null };
   }
-  flare(idx) { if (this.nodes[idx]) this.nodes[idx].lit = this.now; }
+  /** `amp` scales the bloom this node gets; the places the roll STOPS pass ARRIVE_BLOOM. */
+  flare(idx, amp) { const n = this.nodes[idx]; if (n) { n.lit = this.now; n.litK = amp || 1; } }
   headPos() {
     const p = this.pulse;
     if (!p) { const n = this.nodes[this.focusIdx] || { x: this.gcx, y: this.gcy }; return { x: n.x, y: n.y, col: { r: 255, g: 255, b: 255 } }; }
@@ -863,6 +868,12 @@ class Component extends DCLogic {
       if (advance >= left) {
         advance -= left; p.t = 0;
         this.trail.push({ a: p.path[p.seg], b: p.path[p.seg + 1], time: this.now, tint: this.anim("pulseTrails", true) ? p.tint : null });
+        // ORDINARY amplitude, deliberately — even for the last node of THIS path. A move is two
+        // travels (`[here, technique]`, then `[technique, outcome]`), so "end of the path" is
+        // the TECHNIQUE half the time, and blooming it would light the thing the light merely
+        // passed through. The arrival bloom belongs where the roll STOPS: `enterLand`, and the
+        // submission that ends a round. (Measured: without this, "Sweep from Meathook" bloomed
+        // as hard as the position it swept you into.)
         this.flare(p.path[p.seg + 1]); p.seg++;
       } else { p.t += advance / segTime; advance = 0; }
     }
@@ -10069,7 +10080,11 @@ class Component extends DCLogic {
     this._settleT = this.now;
     this.activeMove = null;
     this.hideCenter(); // clear the "Restarting the roll" center toast as play begins
-    this.flare(this.currentPos);
+    // THE LANDING IS the arrival, so it carries the arrival bloom (v1.114.0). This re-flare fires
+    // AFTER updateTravel's, on the same node — without the amplitude here it would immediately
+    // demote the destination's bloom back to a pass-through's and restart its decay, i.e. the
+    // owner's "grow 50-100% more" would be visible for one frame and then undone.
+    this.flare(this.currentPos, this.ARRIVE_BLOOM);
     if (!first) {
       // HUD + marker communicate the landing; clear any stale action toast (no duplicate position text)
       if (this.evRef.current) this.evRef.current.style.opacity = "0";
@@ -10415,7 +10430,9 @@ class Component extends DCLogic {
     const act = this.nodes[opt.idx];
     this.fx("impact_success", { technique: act.t, to: out && out.to });
     const r = this.resolveOutcomeTo(out.to);
-    if (act.ty === "submissions" || r.terminal) { this.flare(opt.idx); this.endRound("win", act.t, opt.idx); return; }
+    // a finish is the roll's LAST node — the one arrival that never produces a landing, so it
+    // takes the arrival bloom here or nowhere (v1.114.0).
+    if (act.ty === "submissions" || r.terminal) { this.flare(opt.idx, this.ARRIVE_BLOOM); this.endRound("win", act.t, opt.idx); return; }
     const dest = r.idx >= 0 ? r.idx : (opt.res >= 0 ? opt.res : this.currentPos);
     this.setEvent("Transition lands", act.t, "good");
     this.startTravel([opt.idx, dest], () => {
@@ -10900,9 +10917,12 @@ class Component extends DCLogic {
       const sb = this.W / this.cam.vw;
       const wx = this.cam.cx + (sx - this.W / 2) / sb, wy = this.cam.cy + (sy - this.H / 2) / sb;
       let vw = this.cam.vw * Math.exp(e.deltaY * 0.0012);
-      // while reading an in-node dossier, don't let wheel-zoom overshoot past the card's sweet spot
-      const zmin = this._dossierIdx != null ? this.graphW * 0.0075 : this.graphW * 0.006;
-      vw = Math.max(zmin, Math.min(this.graphW * 2.6, vw));
+      // ONE zoom floor. The second one existed to stop a wheel overshooting past the in-node
+      // dossier's sweet spot; that surface was retired in v1.101.0 and `_dossierIdx` has only
+      // been assigned null since, so the branch has been dead — and reading a node by zooming
+      // into it is exactly the behaviour v1.114.0 retired ("to see details on a node we click
+      // on it. We don't zoom in anymore"). Zoom is a camera; it decides how many nodes you see.
+      vw = Math.max(this.graphW * 0.006, Math.min(this.graphW * 2.6, vw));
       this.cam.vw = vw; this.cam.lvw = Math.log(vw);
       const sa = this.W / vw;
       this.cam.cx = wx - (sx - this.W / 2) / sa; this.cam.cy = wy - (sy - this.H / 2) / sa;
@@ -11161,6 +11181,13 @@ class Component extends DCLogic {
       ctx.globalCompositeOperation = "source-over";
     }
 
+    // EVERY RING IS A MULTIPLE OF THE DRAWN ORB, NOT OF `n.r` (v1.114.0). The three passes below
+    // and the retired focus ring were all authored when `n.r` WAS the drawn radius. v1.113.1 made
+    // it `n.r * nodeK` and told none of them, so at roll zoom (nodeK = 0.4) a "2.4x" option ring
+    // was drawn at **6x** the orb it rings, a "2.7x" focus-set ring at 6.75x and a "3x" session
+    // ring at 7.5x. Seen on screen: the owner's "bigger, wider circle" around every card in the
+    // hand, not just under the node you stand on. At overview (nodeK = 1) nothing moves — these
+    // are the authored proportions, now honoured at every camera.
     // session highlight rings (from "Suggested for you" etc.)
     if (this._sessionNodes && this._sessionNodes.length) {
       const pulse = 0.5 + 0.5 * Math.sin(this.now * 2.6);
@@ -11168,9 +11195,9 @@ class Component extends DCLogic {
         const n = this.nodes[k]; if (!n) continue;
         ctx.strokeStyle = this.rgba(n.col, (0.45 + 0.4 * pulse) * A);
         ctx.lineWidth = 2 / scale;
-        ctx.beginPath(); ctx.arc(n.x, LY(n), n.r * 3, 0, 6.2832); ctx.stroke();
+        ctx.beginPath(); ctx.arc(n.x, LY(n), n.r * nodeK * 3, 0, 6.2832); ctx.stroke();
         ctx.fillStyle = this.rgba(n.col, 0.1 * A);
-        ctx.beginPath(); ctx.arc(n.x, LY(n), n.r * 3, 0, 6.2832); ctx.fill();
+        ctx.beginPath(); ctx.arc(n.x, LY(n), n.r * nodeK * 3, 0, 6.2832); ctx.fill();
       }
     }
 
@@ -11182,7 +11209,7 @@ class Component extends DCLogic {
         const n = this.nodes[k]; if (!n) continue;
         ctx.strokeStyle = this.rgba(n.col, (0.4 + 0.35 * pulse) * A);
         ctx.lineWidth = 1.8 / scale;
-        ctx.beginPath(); ctx.arc(n.x, LY(n), n.r * 2.7, 0, 6.2832); ctx.stroke();
+        ctx.beginPath(); ctx.arc(n.x, LY(n), n.r * nodeK * 2.7, 0, 6.2832); ctx.stroke();
       }
     }
 
@@ -11193,7 +11220,7 @@ class Component extends DCLogic {
         const n = this.nodes[k];
         ctx.strokeStyle = this.rgba(n.col, (0.3 + 0.35 * pulse) * A);
         ctx.lineWidth = 1.4 / scale;
-        ctx.beginPath(); ctx.arc(n.x, LY(n), n.r * 2.4, 0, 6.2832); ctx.stroke();
+        ctx.beginPath(); ctx.arc(n.x, LY(n), n.r * nodeK * 2.4, 0, 6.2832); ctx.stroke();
       }
     }
 
@@ -11246,10 +11273,24 @@ class Component extends DCLogic {
       ctx.fill();
     }
 
-    // current position marker
+    // ── THE ARRIVAL IS THE EVENT (v1.114.0) ──────────────────────────────────────────────────
+    //
+    // Owner: "when we go to a node there's this bigger, wider circle that appears, and it's
+    // blooming, beaming — I don't like that very much. I'd rather have the pulse signal, the
+    // white node that goes from one node to another; when it arrives at its final node its
+    // bloom should grow a little bit more, like 50% or even 100% more. A bigger, wider circle
+    // shouldn't appear on its back anymore."
+    //
+    // TWO passes were drawing that circle, and one of them was a scaling BUG. `nodeK` shrinks
+    // every orb to 0.4x at roll zoom (v1.113.1) and this marker never applied it — so the fill
+    // meant to be 1.28x the node was 1.28/0.4 = **3.2x** it, and the ring meant to sit just
+    // outside at 2.9x was **7.25x**, a circle seven times the node it marks. The second was the
+    // sustained halo below (deleted outright): a breathing radial gradient with a 46px screen
+    // floor, lit all roll long, which is the "blooming, beaming" the owner named. The steady
+    // state is now a MARK — the node's own silhouette in your perspective colour, with a rim —
+    // and the light is spent where it means something: the moment the move lands.
     if (this.focusIdx >= 0 && !this.pulse) {
       const n = this.nodes[this.focusIdx];
-      const pulse = 0.5 + 0.5 * Math.sin(this.now * 2.4);
       const pc = this.myColor(n);
       // landing settle: damped overshoot when the roll arrives
       let settle = 1;
@@ -11257,59 +11298,36 @@ class Component extends DCLogic {
         const sa = this.now - this._settleT;
         if (sa >= 0 && sa < 0.9) settle = 1 + 0.26 * Math.exp(-3.4 * sa) * Math.sin(sa * 14);
       }
+      // 1.28 is the AUTHORED ratio, restored — the bug was never the ratio, it was `nodeK`
+      // missing from it. The mark is a quarter bigger than its neighbours, repainted at 0.98
+      // alpha against their 0.62, and rimmed; that is "this one" without being a wide circle.
+      const rM = n.r * nodeK * 1.28 * settle;
       // recolor the current node to YOUR perspective (red when you're losing, blue when winning)
       ctx.fillStyle = this.rgba(pc, 0.98 * A);
-      ctx.beginPath(); this.shapePath(ctx, n.ty, n.x, LY(n), n.r * 1.28 * settle); ctx.fill();
-      ctx.strokeStyle = this.rgba(pc, (0.7 + 0.3 * pulse) * A);
-      ctx.lineWidth = 2.4 / scale;
-      ctx.beginPath(); ctx.arc(n.x, LY(n), n.r * 2.9 * settle, 0, 6.2832); ctx.stroke();
+      ctx.beginPath(); this.shapePath(ctx, n.ty, n.x, LY(n), rM); ctx.fill();
+      ctx.strokeStyle = this.rgba(pc, 0.92 * A);
+      ctx.lineWidth = 1.8 / scale;
+      ctx.beginPath(); this.shapePath(ctx, n.ty, n.x, LY(n), rM); ctx.stroke();
     }
 
-    // sustained halo — the roll-end flare's light, present BEFORE the end: the current position
-    // glows all roll long (screen-size floor so it reads at play zoom), breathes, DRAINS smoothly
-    // into the pulse when a move launches down an edge, and eases back in on arrival. A dossier
-    // target brightens as the prezi flight closes in, then yields to the card's own bloom.
     ctx.globalCompositeOperation = "lighter";
-    {
-      const halo = (n, col2, k) => {
-        if (!n || k <= 0.01) return;
-        const gr = Math.max(n.r * (2.4 + 3.2 * k), (46 * k) / scale); // never smaller than ~46px on screen
-        const g = ctx.createRadialGradient(n.x, LY(n), 0, n.x, LY(n), gr);
-        g.addColorStop(0, this.rgba(col2, 0.72 * k * glow * A));
-        g.addColorStop(0.4, this.rgba(col2, 0.26 * k * glow * A));
-        g.addColorStop(1, this.rgba(col2, 0));
-        ctx.fillStyle = g; ctx.beginPath(); ctx.arc(n.x, LY(n), gr, 0, 6.2832); ctx.fill();
-      };
-      const dtH = Math.max(0, Math.min(0.1, this.now - (this._haloT || this.now))); this._haloT = this.now;
-      const breathe = 0.8 + 0.2 * Math.sin(this.now * 1.6);
-      if (this.focusIdx >= 0 && this.nodes[this.focusIdx]) {
-        const cur = this.nodes[this.focusIdx];
-        // departure drain: as the pulse leaves this node, the halo streams into the traveling light
-        let dep = 1;
-        const pu = this.pulse;
-        if (pu && !pu.done && pu.path && pu.path[0] === this.focusIdx) dep = Math.max(0, 1 - (pu.seg + (pu.t || 0)) * 1.4);
-        const target = 0.62 * breathe * dim * dep;
-        this._haloK = (this._haloK == null ? target : this._haloK + (target - this._haloK) * (1 - Math.exp(-dtH / 0.22)));
-        halo(cur, this.myColor(cur), this._haloK); // perspective-tinted, like the marker ring
-      }
-      if (this._dossierIdx != null && this._dossierIdx !== this.focusIdx && this.nodes[this._dossierIdx]) {
-        const sN = scale / (W / (this.graphW * 0.0085));
-        const appr = Math.max(0, Math.min(1, (sN - 0.02) / 0.5)); // ramps over the approach and stays lit around the card
-        halo(this.nodes[this._dossierIdx], this.nodes[this._dossierIdx].col, 0.7 * appr);
-      }
-    }
-    // flaring nodes
+    // flaring nodes — the arrival bloom, and since v1.114.0 the ONLY bloom on the graph. `litK`
+    // is ARRIVE_BLOOM (2) where the roll STOPS (`enterLand`, and the submission that ends a
+    // round) and 1 everywhere else, including the technique node a move travels over. The
+    // screen-space floor is inherited from the deleted halo and is what makes this read at roll
+    // zoom, where nodeK has taken the orb down to 0.4x.
     for (const n of this.nodes) {
       const age = this.now - n.lit; if (age > 1.9) continue;
       const k = Math.max(0, 1 - age / 1.9);
-      const gr = n.r * (1.8 + 4.2 * k);
+      const amp = n.litK || 1;
+      const gr = Math.max(n.r * nodeK * (1.8 + 4.2 * k) * amp, (34 * k * amp) / scale);
       const g = ctx.createRadialGradient(n.x, LY(n), 0, n.x, LY(n), gr);
       g.addColorStop(0, this.rgba(n.col, 0.9 * k * glow * A));
       g.addColorStop(0.4, this.rgba(n.col, 0.32 * k * glow * A));
       g.addColorStop(1, this.rgba(n.col, 0));
       ctx.fillStyle = g; ctx.beginPath(); ctx.arc(n.x, LY(n), gr, 0, 6.2832); ctx.fill();
       ctx.fillStyle = this.rgba({ r: 255, g: 255, b: 255 }, 0.8 * k * A);
-      ctx.beginPath(); this.shapePath(ctx, n.ty, n.x, LY(n), n.r * (1 + 0.7 * k)); ctx.fill();
+      ctx.beginPath(); this.shapePath(ctx, n.ty, n.x, LY(n), n.r * nodeK * (1 + 0.7 * k * amp)); ctx.fill();
     }
     // pulse head
     if (this.pulse && !this.pulse.done) {
@@ -11325,84 +11343,56 @@ class Component extends DCLogic {
 
     this.updateNodeCard(scale);
 
-    // in-node content once a node is big enough on screen to read into (~20px radius)
-    {
-      const inMin = 20;
-      let anyBig = false;
-      for (const n of this.nodes) { if (n.r * nodeK * scale > inMin) { anyBig = true; break; } }
-      if (anyBig) {
-        ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
-        ctx.textAlign = "center";
-        for (const n of this.nodes) {
-          const rs = n.r * nodeK * scale; if (rs <= inMin) continue;
-          if (this._nodeCardOn && n.idx === this._nodeCardIdx) continue;   // dossier card covers this node
-          const sx = (n.x - this.cam.cx) * scale + W / 2, sy = (LY(n) - this.cam.cy) * scale + H / 2;
-          if (sx < -rs * 1.5 || sx > W + rs * 1.5 || sy < -rs * 1.5 || sy > H + rs * 1.5) continue;
-          const k = Math.min(1, (rs - inMin) / 14);
-          const isCur = n.idx === this.focusIdx;
-          ctx.fillStyle = this.rgba(this.lerpCol(n.col, { r: 15, g: 17, b: 33 }, 0.74), 0.94 * k * A * dim);
-          ctx.beginPath(); this.shapePath(ctx, n.ty, sx, sy, rs); ctx.fill();
-          ctx.strokeStyle = this.rgba(isCur ? this.myColor(n) : n.col, (isCur ? 0.95 : 0.62) * k * A);
-          ctx.lineWidth = Math.max(1.2, rs * 0.045);
-          ctx.beginPath(); this.shapePath(ctx, n.ty, sx, sy, rs); ctx.stroke();
-          const cyOff = n.ty === "submissions" ? rs * 0.24 : 0;   // triangle: optical center sits lower
-          // every one of the 136 position hubs is titled "… Top" in graph-data.json — that suffix
-          // is a rendering artifact of the visual collapse, not a claim about the side in play, so
-          // it comes off here exactly as it does on every other surface. It mattered little while
-          // this text was incidental; now that it is the ONLY place the state is named, a node
-          // reading "Mount Top" under a "· BOTTOM" kicker would contradict itself.
-          const name = n.ty === "positions" ? this.posFamily(n.t) : this.displayName(n);
-          const maxW = rs * (n.ty === "positions" ? 1.5 : 1.05);
-          // the 15px cap was tuned when this text was incidental — a name that happened to fit
-          // inside a node somebody had zoomed toward. At ROLL_ZOOM the current node is ~166px
-          // across and it is the ONLY place the state is named, so let the type grow with it.
-          const fs = Math.max(9, Math.min(26, rs * 0.24));
-          ctx.font = "600 " + fs.toFixed(1) + "px 'Plus Jakarta Sans', sans-serif";
-          // A SITE IS NAMED ONCE (v1.113.2). Both members of a pair carry the SAME `t` \u2014 the lower
-          // half of "Mount" is still titled "Mount Top" in the payload \u2014 so every paired site was
-          // printing its name twice, once per orb (measured: 14 sites at roll zoom). The
-          // representative speaks for the site; its twin says only which side it is.
-          const isTwin = !!(n.z && !n.rep);
-          const words = name.split(" "), lines = []; let cur = "";
-          if (!isTwin) {
-            for (const w of words) { const t2 = cur ? cur + " " + w : w; if (!cur || ctx.measureText(t2).width <= maxW) cur = t2; else { lines.push(cur); cur = w; } }
-            if (cur) lines.push(cur);
-            if (lines.length > 3) { lines.length = 3; lines[2] += "\u2026"; }
-          }
-          const lh = fs * 1.16, kfs = Math.max(7, Math.min(14, rs * 0.13));
-          const blockH = lines.length * lh;
-          ctx.textBaseline = "middle";
-          // THE STATE YOU ARE IN NAMES ITS SIDE, ON THE GRAPH (v1.101.0). The roll now settles
-          // close enough that the node draws its own name, which is why the landing card stopped
-          // repeating it — so the role has to come with it, or the side would be named nowhere.
-          // This is also what lets the focus skip its rich label below: one name, not two.
-          let kick = n.ty === "positions" ? "POSITION" : n.ty === "submissions" ? "SUBMISSION" : "TRANSITION";
-          if (isCur) { const rl = this.roleLabel(); if (rl) kick += " · " + String(rl).toUpperCase(); }
-          // the side kicker Q5 asks for: on a pair, each orb says which half of the site it is.
-          const sideK = n.z ? String(n.role || "").toUpperCase() : "";
-          if (isTwin) kick = sideK || kick;
-          else if (sideK && !isCur) kick += " · " + sideK;
-          ctx.font = "800 " + kfs.toFixed(1) + "px 'Plus Jakarta Sans', sans-serif";
-          ctx.fillStyle = this.rgba(n.col, 0.9 * k * A);
-          ctx.fillText(kick, sx, sy + cyOff + (isTwin ? 0 : -blockH / 2 - kfs * 0.95), rs * 1.7);
-          ctx.font = "600 " + fs.toFixed(1) + "px 'Plus Jakarta Sans', sans-serif";
-          ctx.fillStyle = this.rgba({ r: 240, g: 243, b: 248 }, 0.98 * k * A);
-          lines.forEach((ln2, li) => ctx.fillText(ln2, sx, sy + cyOff - blockH / 2 + lh * (li + 0.5), maxW + 6));
-        }
-        ctx.textAlign = "left";
-        ctx.setTransform(scale * dpr, 0, 0, scale * dpr, ox * dpr, oy * dpr);
-      }
-    }
+    // ── NOTHING IS WRITTEN INSIDE A NODE (v1.114.0) ──────────────────────────────────────────
+    //
+    // Owner, on both halves of the same idea: "we don't want content to appear inside any node…
+    // the label, which consists of the role and the technique name, should appear to the right
+    // of it — that's the winner design for labelling these nodes, even when we zoom in or zoom
+    // out" and "when we're zooming in we want to see other nodes that are around it, we don't
+    // want more detail on a node. To see details on a node we click on it. We don't zoom in
+    // anymore."
+    //
+    // So the ~68-line pass that filled every orb over 20px with a dark plate, a kicker and a
+    // wrapped name is DELETED, and with it the last consumer of `_nodeCardOn` in the draw loop.
+    // Zoom is now purely a camera: it changes how many nodes you can see, never what a node
+    // says. What a node says lives beside it, in ONE design, at every scale — `richLabel`
+    // below, which used to be suppressed above 20px precisely because this pass took over.
+    //
+    // Two things that rode on it and had to move rather than die:
+    //  · The state's NAME AND SIDE. v1.101.0 stripped the header off the landing card on the
+    //    grounds that "the graph names the state" — it did, from in here. The focus's rich
+    //    label now carries role + name unconditionally, so that promise still holds.
+    //  · The dual prototype's per-orb side kicker (Q5). A twin that is not the focus carries no
+    //    text at all now, which is the consistent reading of the same rule; if the pair needs to
+    //    label both halves, that is a label-side decision, not an in-node one.
 
     // labels
     if (cfg.showLabels) {
       ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+      // HOW FAR RIGHT A NODE'S SILHOUETTE ACTUALLY REACHES, in screen px (v1.114.0). Every label
+      // here anchored on `n.r * scale`, which stopped being the drawn radius twice over: `nodeK`
+      // takes an orb to 0.4x at roll zoom, the mitosis LOD interpolates a representative between
+      // its site radius and its own, and `shapePath` widens a triangle to 1.242r and a diamond to
+      // 1.18r. Now that the label is THE naming design at every zoom it has to sit against the
+      // edge it is naming, not against a number that only agreed with it at one camera.
+      const halfW = (n) => {
+        const rr = (n.z && n.rep) ? n.rSite + (n.r - n.rSite) * kLOD : n.r;
+        const f = n.ty === "submissions" ? 1.242 : n.ty === "positions" ? 1 : 1.18;
+        // ...and it must clear whatever the node is WEARING, not just its own silhouette. The
+        // focus mark and the three ring passes are all concentric circles centred on it, and the
+        // widest wins: measured on screen, an option's name started INSIDE its own 2.4x ring.
+        let worn = f;
+        if (n.idx === this.focusIdx && !this.pulse) worn = Math.max(worn, 1.28);
+        if (this.optionIdxs && this.optionIdxs.indexOf(n.idx) >= 0) worn = Math.max(worn, 2.4);
+        if (this._focusIdxSet && this._focusIdxSet.has(n.idx)) worn = Math.max(worn, 2.7);
+        if (this._sessionNodes && this._sessionNodes.indexOf(n.idx) >= 0) worn = Math.max(worn, 3);
+        return rr * nodeK * worn * scale;
+      };
       // transient names on recently-lit nodes (excluding the focus, which gets a rich label)
       ctx.textBaseline = "bottom";
       ctx.font = "600 12px 'Plus Jakarta Sans', sans-serif";
       for (const n of this.nodes) {
         const age = this.now - n.lit; if (age > 3.2 || n.idx === this.focusIdx) continue;
-        if (n.r * nodeK * scale > 20) continue;   // name already drawn inside the node
         if (this.activeMove && n.idx === this.activeMove.idx) continue;
         if (this.optionIdxs.indexOf(n.idx) >= 0) continue; // outgoing nodes get persistent labels below
         const k = Math.max(0, 1 - age / 3.2);
@@ -11410,14 +11400,14 @@ class Component extends DCLogic {
         if (sx < -60 || sx > W + 60 || sy < 0 || sy > H + 20) continue;
         ctx.shadowColor = "rgba(0,0,0,0.85)"; ctx.shadowBlur = 6;
         ctx.fillStyle = this.rgba({ r: 238, g: 241, b: 246 }, 0.8 * k * A);
-        ctx.fillText(this.splitName(n.t).main, sx + 9, sy - 7); ctx.shadowBlur = 0;
+        ctx.fillText(this.splitName(n.t).main, sx + halfW(n) + 9, sy - 7); ctx.shadowBlur = 0;
       }
       // rich label = role + name, anchored beside a node
       const richLabel = (idx, role, roleCol, name, big) => {
         const n = this.nodes[idx]; if (!n) return;
         const sx = (n.x - this.cam.cx) * scale + W / 2, sy = (LY(n) - this.cam.cy) * scale + H / 2;
         if (sx < -120 || sx > W + 260 || sy < -30 || sy > H + 50) return;
-        const ox = sx + n.r * scale + 11;
+        const ox = sx + halfW(n) + 11;
         ctx.shadowColor = "rgba(0,0,0,0.92)"; ctx.shadowBlur = 8;
         ctx.textBaseline = "alphabetic";
         const dfam = this._displayFam || "'Space Grotesk'";
@@ -11439,33 +11429,41 @@ class Component extends DCLogic {
         ctx.textBaseline = "bottom"; ctx.font = "600 12px 'Plus Jakarta Sans', sans-serif";
         for (const idx of this.optionIdxs) {
           const n = this.nodes[idx]; if (!n) continue;
-          if (n.r * nodeK * scale > 20) continue;   // name already drawn inside the node
           const sx = (n.x - this.cam.cx) * scale + W / 2, sy = (LY(n) - this.cam.cy) * scale + H / 2;
           if (sx < -60 || sx > W + 60 || sy < 0 || sy > H + 20) continue;
           ctx.shadowColor = "rgba(0,0,0,0.85)"; ctx.shadowBlur = 6;
           ctx.fillStyle = this.rgba(n.col, 0.95 * A);
-          ctx.fillText(this.splitName(n.t).main, sx + 9, sy - 7); ctx.shadowBlur = 0;
+          ctx.fillText(this.splitName(n.t).main, sx + halfW(n) + 9, sy - 7); ctx.shadowBlur = 0;
         }
       }
-      // current position drawn LAST so its rich label sits above the outgoing-node labels
+      // THE ONE LABELLING DESIGN, AT EVERY ZOOM (v1.114.0). This used to be suppressed the moment
+      // the node grew past 20px, because above that the in-node pass took over and drawing both
+      // printed the state's name twice. That pass is gone, so the suppression goes with it: the
+      // selected node is named beside itself whether you are looking at the whole graph or at one
+      // orb filling the screen. Drawn LAST so it sits above the outgoing-node labels.
       if (this.focusIdx >= 0 && !this.pulse) {
         const n = this.nodes[this.focusIdx];
-        // ...unless the node is already big enough to carry its own name AND role inside it,
-        // which at ROLL_ZOOM it always is. Drawing both put the state's name on screen twice,
-        // once inside the circle and once hanging off its right edge.
-        if (n.r * nodeK * scale <= 20) richLabel(this.focusIdx, this.roleLabel(), this.myColor(n), this.posFamily(n.t), true);
+        // the kicker the deleted in-node pass carried: category, plus the side YOU are playing.
+        const rl = this.roleLabel();
+        const kick = (n.ty === "positions" ? "POSITION" : n.ty === "submissions" ? "SUBMISSION" : "TRANSITION")
+          + (rl ? " · " + String(rl).toUpperCase() : "");
+        // every position hub is titled "… Top" in graph-data.json — a rendering artifact of the
+        // visual collapse, not a claim about the side, so it comes off here as everywhere else.
+        const nm = n.ty === "positions" ? this.posFamily(n.t) : this.displayName(n);
+        richLabel(this.focusIdx, kick, this.myColor(n), nm, true);
       }
       // hover: nearest node label (brighter + "your move" tag if it's an outgoing option)
-      if (this._hover && this._hover.idx >= 0 && this.now - (this._hover.t || 0) < 0.5 && this.nodes[this._hover.idx].r * nodeK * scale <= 20) {
+      if (this._hover && this._hover.idx >= 0 && this.now - (this._hover.t || 0) < 0.5) {
         const n = this.nodes[this._hover.idx];
         const sx = (n.x - this.cam.cx) * scale + W / 2, sy = (LY(n) - this.cam.cy) * scale + H / 2;
         const isOpt = this.optionIdxs && this.optionIdxs.indexOf(n.idx) >= 0;
+        const hx = sx + halfW(n) + 10;
         ctx.textBaseline = "bottom";
         ctx.shadowColor = "rgba(0,0,0,0.9)"; ctx.shadowBlur = 7;
-        if (isOpt) { ctx.font = "700 10px 'Plus Jakarta Sans', sans-serif"; ctx.fillStyle = this.rgba(n.col, A); ctx.fillText("YOUR MOVE", sx + 10, sy - 22); }
+        if (isOpt) { ctx.font = "700 10px 'Plus Jakarta Sans', sans-serif"; ctx.fillStyle = this.rgba(n.col, A); ctx.fillText("YOUR MOVE", hx, sy - 22); }
         ctx.font = "600 13px 'Plus Jakarta Sans', sans-serif";
         ctx.fillStyle = this.rgba({ r: 240, g: 243, b: 248 }, A);
-        ctx.fillText(this.splitName(n.t).main, sx + 10, sy - 8);
+        ctx.fillText(this.splitName(n.t).main, hx, sy - 8);
         ctx.shadowBlur = 0;
       }
     }

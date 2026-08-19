@@ -902,6 +902,59 @@ The rule now, owner's words: **"announce opponent goes for X (graph shows defend
 - **A fresh profile's first-ever roll is drawn from REAL TRAFFIC, not uniformly.** `startPosTraffic()` sums `curriculum.weights` (the stationary distribution Game Knowledge already uses) per position through each technique's single canonical origin (`fromPositionId` → `_posSlugIndex`), giving 136 entries summing to 1. `_weightedStart(pool, u)` inverse-CDF-samples `w^START_BIAS.gamma` (1.5) mixed with `START_BIAS.floor` (2%) uniform. Effect: the six hubs a beginner can name go from **4.4% → ~66%** of first impressions, ~17 states stay genuinely likely, and **all 136 keep a real chance — the draw is biased, never narrowed**. It replaced a `withDeck` filter that was a **no-op** (all 136 carry a deck). ONE draw off the SAME `rng("start-pos")` tag, so rigged replays are structurally untouched; a **returning** profile keeps the historical uniform mapping exactly (`_returningVisitor()` — one latched definition, shared with the cold-start funnel's `cold` flag, marker `bjj-neural-firstroll`).
 - **The card names ONE side, and it is `playerRole`.** All 136 position hub titles in `graph-data.json` end in "… Top" (the visual layer collapses Top/Bottom into one node), so the raw title is not a role claim. `renderLandCard` shows `posFamily(node.t)` for positions; `roleTxt` is the only place a side is named. **Do not "derive the role from the node title"** the way `rollFromPosition()` does — that derivation is a constant (`top`) across the whole pool, which is why every staged/roamed roll deals a top hand and why `playFrom(idx, role)` has to set the role itself.
 
+**ZOOM IS A CAMERA, AND THE ARRIVAL IS THE EVENT (v1.114.0).** Two owner reports, one surface.
+*"When we go to a node there's this bigger, wider circle that appears, and it's blooming, beaming.
+I don't like that very much. I'd rather have the pulse signal, the white node that goes from one
+node to another — when it arrives at its final node its bloom should grow a little bit more, like
+50% or even 100% more. A bigger, wider circle shouldn't appear on its back anymore. That used to be
+the motivation for content to appear inside it. Now we don't want content to appear inside any
+node… the label, which consists of the role and the technique name, should appear to the right of
+it. That's the winner design for labelling these nodes, even when we zoom in or zoom out."* And:
+*"When we're zooming in we want to see other nodes that are around it. We don't want more detail on
+a node. To see details on a node we click on it. We don't zoom in anymore."*
+- **THE WIDE CIRCLE WAS TWO PASSES, AND ONE OF THEM WAS A SCALING BUG.** v1.113.1 made every orb
+  `n.r * nodeK` (nodeK = **0.4** at roll zoom) and the current-position marker was never told — so
+  its "1.28x" fill was **3.2x** the node it marks and its "2.9x" ring **7.25x**, a circle seven
+  times the node. The second was the **sustained halo**: a breathing radial gradient with a 46px
+  screen floor reaching ~11x the drawn radius, lit for the whole roll. Both are deleted. The steady
+  state is a MARK — the node's own silhouette in your perspective colour at the AUTHORED `1.28`
+  ratio, now correctly scaled (`n.r * nodeK * 1.28`), with a 1.8px rim — and `_haloK`/`_haloT`
+  are gone. The ratio was never the bug; `nodeK` missing from it was.
+- **THE BLOOM MOVED TO THE ARRIVAL.** `flare(idx, amp)` stores `litK`; the flare pass scales its
+  gradient radius and its white core by it, and inherits the deleted halo's screen-size floor so it
+  still reads at roll zoom. `ARRIVE_BLOOM = 2` (the owner's "100% more") is spent where the roll
+  **stops**: `enterLand` and a submission finish. Deliberately NOT at the end of a travel path — a
+  move is two travels (`[here, technique]`, then `[technique, outcome]`), so "last node of the
+  path" is the TECHNIQUE half the time (measured: "Sweep from Meathook" bloomed as hard as the
+  position it swept you into). `enterLand`'s re-flare must carry the amplitude or it demotes the
+  destination one frame after `updateTravel` set it.
+- **NOTHING IS WRITTEN INSIDE A NODE.** The ~68-line in-node pass (dark plate, stroked outline,
+  800-weight kicker, wrapped name at `rs * 0.24`) is deleted, and with it the last draw-loop
+  consumer of `_nodeCardOn`. Zoom changes how many nodes you can see, never what a node says.
+- **ONE LABELLING DESIGN, AT EVERY ZOOM.** `richLabel` — role over name, beside the node — was
+  suppressed above 20px because the in-node pass took over there; the suppression is gone from all
+  four label sites. The focus carries `<CATEGORY> · <ROLE>` over `posFamily`/`displayName`
+  unconditionally, so v1.101.0's promise that "the graph names the state" (which is why the landing
+  card has no header) still holds — it is now named BESIDE the node instead of inside it.
+- **`halfW(n)` is how far right a node's silhouette actually reaches.** Every label anchored on
+  `n.r * scale`, which stopped being the drawn radius twice over: `nodeK`, the mitosis LOD's
+  interpolated representative radius, and `shapePath` widening a triangle to 1.242r / a diamond to
+  1.18r. Now that the label IS the naming design it has to sit against the edge it names.
+- The wheel's second zoom floor (`_dossierIdx != null ? 0.0075 : 0.006`) is gone — dead since
+  v1.101.0, and reading a node by zooming into it is exactly what this retires.
+- **Gated by `e2e/journeys/graph-naming.spec.ts` (3 journeys, 1 `@curated`), which reads the CANVAS
+  BACK** — these are claims about what the renderer painted, and every state variable involved
+  could be right while `draw()` still put a name or a ring on screen. **Five mutants had to die to
+  get the statistic right**, and the two that survived early versions are the lesson: a sparse ring
+  of sample points measured the empty space either side of the ring it was hunting, and a dense
+  radial profile scored by *angular coverage* still passed, because the dealt hand's option nodes
+  genuinely encircle the state you stand in (82% of wedges at r=7.7x) so coverage was already
+  saturated where the ring lives. What works is a **control frame** (`focusIdx = -1`, same camera,
+  same neighbours) plus a **per-sector luminance delta**: everything the graph would draw anyway
+  subtracts to zero, a ring or halo raises every wedge's median, and the edges the focus
+  legitimately lights are spokes the median ignores. It self-checks on the mark itself, so a
+  sampler that has stopped seeing anything fails instead of passing.
+
 **ONE CONTAINER: THE GAME'S OWN CARD (v1.101.0).** v1.100.0 made the node itself the dossier —
 `openDossier` flew the camera into the node and mounted the whole reading surface inside its shape.
 The owner retired it after living with it: *"the other fuller container should no longer show, and
@@ -925,12 +978,13 @@ and a stale `_nodeCardOn` would keep the tray faded and the canvas glyph crossfa
   origin returned `DIV.ng-landcard`, the drag never reached the canvas, and the focus lease it
   exists to release survived).
 - **The graph names the state, so the card stopped repeating it.** Owner, on a landing at The Chill
-  Dog: *«the "The Chill Dog" and "Bottom" is repeated info»*. At `ROLL_ZOOM` the node is ~166px across
-  and the canvas draws its name inside it, so: the in-node kicker now carries the ROLE for the current
-  node (`POSITION · TOP`), the name uses `posFamily()` for positions (every hub is titled "… Top" in
-  `graph-data.json` — a reading artifact that would contradict a "· BOTTOM" kicker), the focus's rich
-  label is SKIPPED once the node is big enough to carry its own text (it was printing the name twice),
-  and in-node type is no longer capped at 15px.
+  Dog: *«the "The Chill Dog" and "Bottom" is repeated info»*. The kicker carries the ROLE for the
+  current node (`POSITION · TOP`) and the name uses `posFamily()` for positions (every hub is titled
+  "… Top" in `graph-data.json` — a reading artifact that would contradict a "· BOTTOM" kicker).
+  **SUPERSEDED IN PART BY v1.114.0:** the promise holds, but the graph names the state BESIDE the
+  node, not inside it — the in-node text pass is deleted and the focus's rich label, which used to
+  be suppressed above 20px to avoid printing the name twice, is now unconditional. See ZOOM IS A
+  CAMERA above.
   **A LANDING CARD HAS NO HEADER AT ALL (v1.101.1)** — v1.101.0 left a thin "from <previous>" line
   with the counter opposite it, and the owner's read on that leftover was that the chip "should
   show bottom right same row as More instead of top right in its own row" and the block it sat in

@@ -390,7 +390,9 @@ test("WIN 2 as a property: on every first-roll state, both sides, the card and i
         a._landQ = null;
         a.enterLand(false);
         // WHAT THE GRAPH PRINTS, which since v1.101.0 is the only place the side is named:
-        // draw() writes `<CATEGORY> · <ROLE>` as the in-node kicker over `posFamily(t)`.
+        // draw() writes `<CATEGORY> · <ROLE>` over `posFamily(t)`. Since v1.114.0 that pair is
+        // the focus's LABEL, beside the node rather than inside it — same two strings, same
+        // computation, so this journey is unaffected by where they are painted.
         const idText = (a.posFamily(nd.t) + " \u00b7 " + a.roleLabel()).replace(/\s+/g, " ").trim();
         const other = role === "top" ? "bottom" : "top";
         const hand = (a.optionIdxs || []).map((i: number) => a.nodes[i]);

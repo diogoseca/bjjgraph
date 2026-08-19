@@ -82,8 +82,23 @@ test("the roll settles ON the node, and the node names the state it is", async (
     `the whole node clears the top of the landing card (node bottom ${Math.round(m.sy + m.rPx)}, card top ${m.cardTop})`,
   ).toBeLessThan(m.cardTop)
 
-  // ...and it is big enough to carry its own name, which is what licenses the card to drop it
-  expect(m.rPx, "the node is drawn large enough to read into").toBeGreaterThan(20)
+  // ...and the graph still names the state, which is what licenses the card to drop it — but
+  // since v1.114.0 it names it BESIDE the node, not inside it (owner: "we don't want content to
+  // appear inside any node… the label, role and technique name, should appear to the right of
+  // it… even when we zoom in or zoom out"). So the claim to check is that the focus label is
+  // drawn at all, at this zoom, which the old `rPx > 20` in-node threshold used to SUPPRESS.
+  expect(m.rPx, "the node is drawn at a size a label can hang off").toBeGreaterThan(20)
+  const named = await page.evaluate(() => {
+    const a = (window as Any).__neural
+    const n = a.nodes[a.focusIdx]
+    return {
+      label: n.ty === "positions" ? a.posFamily(n.t) : a.displayName(n),
+      role: a.roleLabel(),
+      showLabels: a.cfg().showLabels !== false,
+    }
+  })
+  expect(named.showLabels, "labels are on, so the focus carries one").toBe(true)
+  expect(named.label, "and the graph names the state beside the node").toBeTruthy()
 })
 
 test("the landing card does not repeat what the graph already says", async ({ page }) => {
