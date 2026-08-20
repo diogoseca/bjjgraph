@@ -126,3 +126,6 @@ node_modules/
 
 # Transient local-agent coordination notes (this checkout only; repo is public)
 HANDOFF.md
+
+# prototype private serve root (hardlink farm; rebuilt by the dual-pair shoot procedure)
+.privserve/

@@ -7057,6 +7057,26 @@ class Component extends DCLogic {
     this._prefetchLandDeck(hit.idx);   // the intro is still the deck's runway (v1.106.6)
     return true;
   }
+  /**
+   * WHERE A DUAL PAIR ACTUALLY IS (v1.114.3). Owner: "the position should be rather centered on
+   * the middle of the two icons, not the actual icon that's active, so that both icons appear."
+   *
+   * Two things were wrong and they compounded. The camera aimed at a member's STORED `y`, which
+   * is not where it is drawn — `LY` lifts each member off the shared ground by
+   * `z * h * (1 - nodeK * kLOD)`, ~56px at roll zoom — and it aimed at the MEMBER rather than the
+   * pair. Measured on `/Positions/Side-Control/Bottom?dual=iso`: the Top orb sat at screen y=5,
+   * effectively off the top edge, while the free band the roll frames into was 76..268.
+   *
+   * Returns the DRAWN midpoint of the two members, or the node's own drawn point when it has no
+   * partner — so every production node (no `pairId`, no `z`) is unchanged by construction.
+   */
+  pairMid(n) {
+    if (!n) return { x: 0, y: 0 };
+    const ly = this._LY || ((q) => q.y);   // before the first frame there is no lift to apply
+    const p = n.pi >= 0 ? this.nodes[n.pi] : null;
+    if (!p) return { x: n.x, y: ly(n) };
+    return { x: (n.x + p.x) / 2, y: (ly(n) + ly(p)) / 2 };
+  }
   roleLabelOf(n) { const rm = (n.t || "").match(/\s+(Top|Bottom)\s*$/i); return rm ? rm[1].toLowerCase() : (n.dom >= 0 ? "top" : "bottom"); }
   posNodeForId(posId) {
     if (!posId) return -1;
@@ -9657,7 +9677,7 @@ class Component extends DCLogic {
     // Inert on the production layout: no default graph-data node carries `role`.
     if (!roleOverride && (this.nodes[posIdx].role === "top" || this.nodes[posIdx].role === "bottom")) this.playerRole = this.nodes[posIdx].role;
     this.currentPos = posIdx; this.focusIdx = posIdx; this.pulse = null; this.activeMove = null;
-    this.camFocus = { x: this.nodes[posIdx].x, y: this.nodes[posIdx].y };
+    this.camFocus = this.pairMid(this.nodes[posIdx]);
     this.releaseCamera(); // roaming/staging elsewhere ends the focus lease (the user chose a node)
     // the SAME framing the settled follow-cam uses — a click that navigates must not land on a
     // different composition than the roll does (v1.103.2)
@@ -10102,7 +10122,7 @@ class Component extends DCLogic {
     this.fx("stakes", { rank: lad.rank, opponent: lad.opponent });
     this.showCenter("Restarting the roll", this.posFamily(this.nodes[this.currentPos].t), this.roleLabel() + " \u00b7 vs " + lad.opponent, "muted", true);
     this.focusIdx = this.currentPos; this.pulse = null;
-    this.camFocus = { x: this.nodes[this.currentPos].x, y: this.nodes[this.currentPos].y };
+    this.camFocus = this.pairMid(this.nodes[this.currentPos]);
     this.prevPosVal = this.myVal(this.nodes[this.currentPos]);
     this._played = false;
     this.flare(this.currentPos);
@@ -10712,7 +10732,10 @@ class Component extends DCLogic {
     const ni = nodeIdx == null ? this.focusIdx : nodeIdx;
     const n = this.nodes && ni >= 0 ? this.nodes[ni] : null;
     const nodeK = Math.max(0.4, Math.min(1, vw / (this.graphW * 0.5)));
-    const labelOff = n && n.ty === "submissions" ? n.r * nodeK * scale * 0.24 : 0;
+    // a PAIR is aimed at its midpoint, where the name is now drawn — the triangle nudge that
+    // compensates for a submission's low in-shape label has nothing to compensate for there.
+    const paired = !!(n && n.pi >= 0);
+    const labelOff = n && n.ty === "submissions" && !paired ? n.r * nodeK * scale * 0.24 : 0;
     // screen y = (n.y - cy) * scale + H/2  =>  cy = n.y - (wantY - H/2)/scale
     const cy = f.y + labelOff / scale - (wantY - H / 2) / scale;
     return { cx: f.x + 0.06 * vw, cy: cy, vw: vw };
@@ -10883,7 +10906,7 @@ class Component extends DCLogic {
     if (/\bbottom\b/i.test(t)) this.playerRole = "bottom"; else if (/\btop\b/i.test(t)) this.playerRole = "top";
     this.currentPos = posIdx;
     this.focusIdx = posIdx;
-    this.camFocus = { x: this.nodes[posIdx].x, y: this.nodes[posIdx].y };
+    this.camFocus = this.pairMid(this.nodes[posIdx]);
     this.flare(posIdx);
     this.hideCenter();
     this.setPaused(true);            // freeze with a fresh decision timer; Play resumes
@@ -10895,9 +10918,16 @@ class Component extends DCLogic {
     const scale = this.W / this.cam.vw;
     const wx = this.cam.cx + (e.clientX - rect.left - this.W / 2) / scale;
     const wy = this.cam.cy + (e.clientY - rect.top - this.H / 2) / scale;
+    // HIT-TEST WHERE THE ORB IS DRAWN, NOT WHERE IT IS STORED (v1.114.3). `LY` lifts each member
+    // of a dual pair off its shared ground point, so `n.y` is ~37px from the circle you can see at
+    // roll zoom — further than this 28px pick radius. The consequence was not just a dead hover:
+    // the TAP handler runs through this same function, so clicking a visible orb in `?dual` matched
+    // NOTHING and fell through to `_tapBackground()`. Production is untouched by construction —
+    // no node carries `z`, so `LY(n) === n.y`.
+    const ly = this._LY || ((q) => q.y);
     let best = -1, bd = (28 / scale) * (28 / scale);
     for (const n of this.nodes) {
-      const dx = n.x - wx, dy = n.y - wy, d2 = dx * dx + dy * dy;
+      const dx = n.x - wx, dy = ly(n) - wy, d2 = dx * dx + dy * dy;
       if (d2 < bd) { bd = d2; best = n.idx; }
     }
     this._hover = best >= 0 ? { idx: best, t: this.now } : null;
@@ -11055,6 +11085,7 @@ class Component extends DCLogic {
     this._lodK = kLOD;
     const lift = nodeK * kLOD;
     const LY = (n) => (n.z ? n.y + n.z * n.h * (1 - lift) : n.y);
+    this._LY = LY;   // ONE definition — `pairMid` reads the same lift the frame just drew with
     const cfg = this.cfg();
     const A = this.alpha;
     // slow-mo finish: dim the map for a beat while the finishing flare burns, then recover
@@ -11571,17 +11602,67 @@ class Component extends DCLogic {
       // orb filling the screen. Drawn LAST so it sits above the outgoing-node labels.
       if (this.focusIdx >= 0 && !this.pulse) {
         const n = this.nodes[this.focusIdx];
-        // the kicker the deleted in-node pass carried: category, plus the side YOU are playing.
-        const rl = this.roleLabel();
-        const kick = (n.ty === "positions" ? "POSITION" : n.ty === "submissions" ? "SUBMISSION" : "TRANSITION")
-          + (rl ? " · " + String(rl).toUpperCase() : "");
         // every position hub is titled "… Top" in graph-data.json — a rendering artifact of the
         // visual collapse, not a claim about the side, so it comes off here as everywhere else.
         const nm = n.ty === "positions" ? this.posFamily(n.t) : this.displayName(n);
-        richLabel(this.focusIdx, kick, this.myColor(n), nm, true);
+        const partner = n.pi >= 0 ? this.nodes[n.pi] : null;
+        if (partner) {
+          // ── ONE LABEL GROUP FOR A DUAL PAIR (v1.114.3) ──────────────────────────────────────
+          // Owner: "the main label stays positioned in the middle on the right, and the active
+          // role appears above or below it in case we hover over it. It's not two labels, it's
+          // just one group of labels that's dynamic, in which the subtitle's position seems to
+          // appear depending on where you are."
+          //
+          // So the NAME never moves: it sits on the horizontal line equidistant between the two
+          // orbs, which is what makes above/below mean anything. The SUBTITLE'S SIDE is the whole
+          // signal — above for the top/attacker half, below for the bottom/defender half — and
+          // hovering either orb moves it without disturbing the name.
+          let act = n;
+          if (this._hover && this._hover.idx >= 0 && this.now - (this._hover.t || 0) < 0.5) {
+            const hv = this.nodes[this._hover.idx];
+            if (hv === n || hv === partner) act = hv;
+          }
+          const mid = this.pairMid(n);
+          const sx = (mid.x - this.cam.cx) * scale + W / 2;
+          const sy = (mid.y - this.cam.cy) * scale + H / 2;
+          if (sx > -140 && sx < W + 280 && sy > -40 && sy < H + 60) {
+            const ox = sx + Math.max(halfW(n), halfW(partner)) + 11;
+            const above = act.z > 0;
+            // "ATTEMPTING", not "ATTACKING" (owner's word). It also keeps this clear of
+            // `activeMove.verb`, which names YOUR POSTURE during travel (v1.104.1) and must not
+            // start sharing vocabulary with a label about which half of a pair you are on.
+            const sub = n.ty === "positions"
+              ? (above ? "TOP" : "BOTTOM")
+              : (above ? "ATTEMPTING" : "DEFENDING");
+            const subCol = act.idx === this.focusIdx
+              ? this.myColor(act)
+              : (act.z < 0 && act.colU ? act.colU : act.col);
+            const dfam = this._displayFam || "'Space Grotesk'";
+            ctx.shadowColor = "rgba(0,0,0,0.92)"; ctx.shadowBlur = 8;
+            ctx.textBaseline = "alphabetic";
+            ctx.font = "700 18px " + dfam + ", sans-serif";
+            ctx.fillStyle = this.rgba({ r: 240, g: 243, b: 248 }, A);
+            ctx.fillText(nm, ox, sy + 6);
+            ctx.font = "700 11px " + dfam + ", sans-serif";
+            ctx.fillStyle = this.rgba(subCol, A);
+            ctx.fillText(sub, ox, above ? sy - 12 : sy + 24);
+            ctx.shadowBlur = 0;
+          }
+        } else {
+          // the kicker the deleted in-node pass carried: category, plus the side YOU are playing.
+          const rl = this.roleLabel();
+          const kick = (n.ty === "positions" ? "POSITION" : n.ty === "submissions" ? "SUBMISSION" : "TRANSITION")
+            + (rl ? " · " + String(rl).toUpperCase() : "");
+          richLabel(this.focusIdx, kick, this.myColor(n), nm, true);
+        }
       }
       // hover: nearest node label (brighter + "your move" tag if it's an outgoing option)
-      if (this._hover && this._hover.idx >= 0 && this.now - (this._hover.t || 0) < 0.5) {
+      // ...but NOT for a member of the focused pair: the label group above already names it, and
+      // its whole point is that the name does not move — a second copy hanging off the hovered
+      // orb would be the "printed twice" problem the in-node pass had (v1.114.0), on hover.
+      const _hovIsPairHalf = this._hover && this._hover.idx >= 0 && this.focusIdx >= 0 &&
+        (this._hover.idx === this.focusIdx || this._hover.idx === this.nodes[this.focusIdx].pi);
+      if (this._hover && this._hover.idx >= 0 && !_hovIsPairHalf && this.now - (this._hover.t || 0) < 0.5) {
         const n = this.nodes[this._hover.idx];
         const sx = (n.x - this.cam.cx) * scale + W / 2, sy = (LY(n) - this.cam.cy) * scale + H / 2;
         const isOpt = this.optionIdxs && this.optionIdxs.indexOf(n.idx) >= 0;

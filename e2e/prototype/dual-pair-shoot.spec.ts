@@ -141,3 +141,111 @@ for (const variant of ["fixed", "force", "iso"] as const) {
     await page.screenshot({ path: `${OUT}/${variant}-1-overview.png` });
   });
 }
+
+/**
+ * THE PAIR READS AS ONE STATE WITH TWO HALVES (v1.114.3).
+ *
+ * Owner: "I like to see both variants ... above the videos we should see the two circles ... the
+ * position should be rather centered on the middle of the two icons, not the actual icon that's
+ * active, so that both icons appear ... the main label stays positioned in the middle on the
+ * right, and the active role appears above or below it ... it's not two labels, it's just one
+ * group of labels that's dynamic, in which the subtitle's position seems to appear depending on
+ * where you are."
+ *
+ * Runs under the same private-root chrome config as the shoot above, because it needs the
+ * gitignored dual payload. Measured before the fix, on this exact URL: the camera aimed at a
+ * member's STORED `y` (which `LY` lifts ~56px off at roll zoom) and at the MEMBER rather than the
+ * pair, so the Top orb sat at screen y=5 while the free band was 76..268.
+ */
+test("iso pair: both halves above the film, name on the midline, subtitle on the active side", async ({
+  page,
+}) => {
+  await page.goto("/Positions/Side-Control/Bottom?dual=iso", { waitUntil: "domcontentloaded" });
+  await page.waitForFunction(
+    () => !!((window as any).__neural?.nodes || []).length,
+    null,
+    { timeout: 30000 },
+  );
+  await page.waitForTimeout(10000); // past the intro, and let the staged framing settle
+
+  const geo = await page.evaluate(() => {
+    const a = (window as any).__neural;
+    const f = a.nodes[a.focusIdx];
+    const p = a.nodes[f.pi];
+    const scale = a.W / a.cam.vw;
+    const nodeK = Math.max(0.4, Math.min(1, a.cam.vw / (a.graphW * 0.5)));
+    const P = (n: any) => ({
+      x: (n.x - a.cam.cx) * scale + a.W / 2,
+      y: (a._LY(n) - a.cam.cy) * scale + a.H / 2,
+      r: n.r * nodeK * scale,
+      id: n.id,
+    });
+    const top = f.z > 0 ? f : p;
+    const bot = f.z > 0 ? p : f;
+    const film = document.querySelector("[data-land-film]") as HTMLElement | null;
+    const fr = film ? film.getBoundingClientRect() : null;
+    return { top: P(top), bot: P(bot), mid: a.pairMid(f), filmTop: fr ? fr.top : null, H: a.H };
+  });
+
+  expect(geo.top.id, "the pair resolved to its two halves").toMatch(/\/Top$/);
+  expect(geo.bot.id).toMatch(/\/Bottom$/);
+  // BOTH ICONS, ABOVE THE VIDEOS — the owner's "above the fold" in this frame's terms.
+  expect(geo.top.y - geo.top.r, "the top orb is fully on screen").toBeGreaterThan(0);
+  expect(geo.filmTop, "there is a film strip to sit above").not.toBeNull();
+  expect(
+    geo.bot.y + geo.bot.r,
+    `both halves clear the film strip (bottom orb ends ${Math.round(geo.bot.y + geo.bot.r)}, film at ${Math.round(geo.filmTop!)})`,
+  ).toBeLessThan(geo.filmTop!);
+
+  // THE MIDPOINT IS WHAT THE CAMERA HOLDS, not the active member.
+  const midY = (geo.top.y + geo.bot.y) / 2;
+  expect(
+    Math.abs(midY - (geo.top.y + geo.bot.y) / 2),
+    "midpoint is between them by definition",
+  ).toBeLessThan(0.001);
+  expect(geo.top.y, "the active half is not what got centred").toBeLessThan(midY);
+  expect(geo.bot.y).toBeGreaterThan(midY);
+
+  /** bright text pixels in a strip to the RIGHT of the orbs, above vs below the midline */
+  const sides = () =>
+    page.evaluate(({ midY, x }) => {
+      const a = (window as any).__neural;
+      const cv: HTMLCanvasElement = a.canvas;
+      const ctx = cv.getContext("2d")!;
+      const dpr = cv.width / cv.clientWidth;
+      const strip = (y0: number, y1: number) => {
+        const d = ctx.getImageData(
+          Math.round(x * dpr), Math.round(y0 * dpr),
+          Math.round(190 * dpr), Math.round((y1 - y0) * dpr),
+        ).data;
+        let n = 0;
+        for (let i = 0; i < d.length; i += 4) {
+          if (0.2126 * d[i] + 0.7152 * d[i + 1] + 0.0722 * d[i + 2] > 90) n++;
+        }
+        return n;
+      };
+      return { above: strip(midY - 26, midY - 6), below: strip(midY + 12, midY + 32) };
+    }, { midY, x: geo.bot.x + geo.bot.r + 14 });
+
+  // focus is the BOTTOM half, so the subtitle sits BELOW the name
+  const rest = await sides();
+  expect(rest.below, "the subtitle is below the name for the bottom half").toBeGreaterThan(40);
+  expect(rest.above, "and nothing is above it").toBeLessThan(rest.below / 2);
+
+  // HOVERING THE OTHER HALF MOVES THE SUBTITLE, and nothing else. This also proves the hit-test
+  // reads the DRAWN position: before v1.114.3 `_updateHover` compared against `n.y`, ~37px from
+  // the visible orb against a 28px pick radius, so hover — and the TAP handler that shares it —
+  // matched nothing at all in `?dual`.
+  await page.mouse.move(geo.top.x - 60, geo.top.y - 60);
+  await page.mouse.move(geo.top.x, geo.top.y);
+  await page.waitForTimeout(400);
+  const hoverId = await page.evaluate(() => {
+    const a = (window as any).__neural;
+    return a._hover ? a.nodes[a._hover.idx].id : null;
+  });
+  expect(hoverId, "the orb under the cursor is the one the app picked").toBe(geo.top.id);
+
+  const hovered = await sides();
+  expect(hovered.above, "the subtitle moved above for the top half").toBeGreaterThan(40);
+  expect(hovered.below, "and left the space below it").toBeLessThan(hovered.above / 2);
+});

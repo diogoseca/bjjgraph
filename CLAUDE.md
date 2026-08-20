@@ -899,6 +899,42 @@ button explicitly."* Three defects, and PRODUCTION WAS WORSE THAN THE PROTOTYPE.
   last aimed against and reached 376 on the next. A second bare `advance` is NOT enough; an
   intervening `page.evaluate` is what forces layout and lets a frame render between pumps.
 
+**A DUAL PAIR IS ONE STATE WITH TWO HALVES (v1.114.3, `?dual` prototype).** Owner: *"I like to
+see both variants ... above the videos we should see the two circles ... the position should be
+rather centered on the middle of the two icons, not the actual icon that's active, so that both
+icons appear ... the main label stays positioned in the middle on the right, and the active role
+appears above or below it ... it's not two labels, it's just one group of labels that's dynamic, in
+which the subtitle's position seems to appear depending on where you are."*
+
+**THE ROOT CAUSE OF ALL THREE DEFECTS WAS THE SAME: code reading `n.y` where the renderer draws at
+`LY(n)`.** `LY` lifts each member off the pair's shared ground by `z * h * (1 - nodeK * kLOD)` —
+~37px per member at roll zoom — so `n.y` is simply not where the orb is.
+- **`pairMid(n)`** is the new seam: the DRAWN midpoint of the two members, or the node's own drawn
+  point when it has no partner — so every production node (no `pairId`, no `z`) is unchanged *by
+  construction*, not by a flag check. `camFocus` is now `pairMid`, so the camera holds the PAIR.
+  Measured before, on `/Positions/Side-Control/Bottom?dual=iso`: the Top orb sat at screen **y=5**,
+  effectively off the top edge, while the free band was 76..268. After: 99 and 173 around a
+  midpoint of 136, both clear of the film strip at 268. `rollCamTarget`'s submission `labelOff`
+  (which compensates for a triangle's low in-shape label) is skipped for a pair, since the name is
+  drawn on the midline.
+- **`this._LY = LY`** is published each frame so `pairMid` uses the exact lift the frame just drew
+  with. ONE definition; the hot loop still calls the local.
+- **THE TAP HANDLER WAS BROKEN, NOT JUST HOVER.** `_updateHover` compared against `n.y`, ~37px from
+  the visible orb against a **28px** pick radius — and `attachInput`'s pointerup runs through that
+  same function, so clicking a visible orb in `?dual` matched NOTHING and fell through to
+  `_tapBackground()`. It now hit-tests `ly(n)`.
+- **ONE LABEL GROUP, AND THE SUBTITLE'S SIDE IS THE SIGNAL.** The NAME never moves — it sits on the
+  line equidistant between the orbs, which is what makes above/below mean anything — and the
+  subtitle renders ABOVE for the top/attacker half, BELOW for the bottom/defender half. Hovering
+  either orb moves the subtitle and nothing else; the per-node hover label is suppressed for a
+  member of the focused pair, or the name would print twice (the v1.114.0 in-node problem, on
+  hover). Copy is **TOP / BOTTOM** for positions and **ATTEMPTING / DEFENDING** for techniques —
+  the owner's word, and deliberately not "ATTACKING", which is `activeMove.verb` naming YOUR
+  POSTURE during travel (v1.104.1); those two must not start sharing vocabulary.
+- Gated by `e2e/prototype/dual-pair-shoot.spec.ts` (three mutants, three kills), which lives there
+  because it needs the **gitignored** dual payload — the core suite must not depend on it. Run it
+  with the private-root chrome config documented at the top of that file.
+
 **THE STAT BAND MOVED TO THE PANE FOOT, AND ITS WEAK-SPOT NUMBER WAS A LIE (v1.104.5).**
 - **Foot, not Explore's top** (owner: "I would prefer to be closer to the bottom"). It is its OWN element (`.ng-pane-stats`, `paneStatsRef`) ABOVE `.ng-pane-anchor`, never inside it — the anchor collapses entirely for a signed-in user and three progress numbers must not vanish with a save nudge. It rides every tab and hides during a study takeover.
 - **Distributed, not clumped** (owner: it "still looks left aligned instead of neatly designed and distributed"). `display:flex;gap:14px` packed three stats against the left edge of a 360px pane and left the right third empty; it is now `grid-template-columns:repeat(3,1fr)` with the outer two hugging the edges.
