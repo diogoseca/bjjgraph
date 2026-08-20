@@ -518,8 +518,8 @@ class Component extends DCLogic {
     try { this._urlSeeded = this._seedFromUrl(); } catch (e) { console.warn("[neural] url seed failed:", e); }
     try {
       window.addEventListener("popstate", () => {
-        const i = this._nodeForPath(location.pathname);
-        if (i >= 0 && i !== this.currentPos) this.rollFromPosition(i, true);
+        const hit = this._nodeAndRoleForPath(location.pathname);
+        if (hit.idx >= 0 && hit.idx !== this.currentPos) this.rollFromPosition(hit.idx, true, hit.role);
       });
     } catch (e) { /* non-fatal */ }
     // DECKS: boot from the MANIFEST, fetch each deck on demand (v1.80.4). The monolith was
@@ -6999,13 +6999,62 @@ class Component extends DCLogic {
     const i = this._idIndex.get(id);
     return i == null ? -1 : i;
   }
-  /** Arriving ON a node's page starts the roll there. `/` is untouched, so the first-impression
-   *  weighted draw (v1.82.3) still owns the front door. */
+  /**
+   * The node a path names AND the ROLE it asks for, or `{idx:-1}`.
+   *
+   * `/Positions/Side-Control/Bottom` is a REAL built page — one of 272 — and until v1.114.2 it
+   * resolved to NOTHING on the production layout, because the visual layer collapses Top/Bottom
+   * into a single hub (`Positions/Side-Control`) and only the `?dual` prototype emits role
+   * members. So arriving on any role page seeded nothing at all and the app dealt a random
+   * weighted start instead. Measured: production `_nodeForPath` returned -1 and the visitor
+   * landed on whatever the first-impression draw picked, on the wrong side.
+   */
+  _nodeAndRoleForPath(path) {
+    const NONE = { idx: -1, role: null };
+    if (!this._idIndex) return NONE;
+    const id = decodeURIComponent(String(path || "").replace(/^\/+/, "").replace(/\/+$/, ""));
+    if (!id) return NONE;                       // "/" is the front door — never seeded
+    let role = null;
+    let i = this._idIndex.get(id);
+    if (i == null) {
+      const m = id.match(/^(.*)\/(top|bottom)$/i);   // hub + side, the production shape
+      if (m) { const j = this._idIndex.get(m[1]); if (j != null) { i = j; role = m[2].toLowerCase(); } }
+    }
+    if (i == null) return NONE;
+    const n = this.nodes[i]; if (!n) return NONE;
+    if (!role && (n.role === "top" || n.role === "bottom")) role = n.role;   // dual: the member IS a side
+    // A TECHNIQUE PAGE SEEDS AT ITS ORIGIN POSITION — the same rule `confirmPlayFrom` uses, and
+    // the reason it exists: `currentPos` must be a position, or the roll begins inside a
+    // transition node with no hand to deal.
+    if (n.ty !== "positions") {
+      const fp = this.posNodeForId(n.fromPositionId);
+      if (fp < 0) return NONE;
+      if (!role && n.fromRole) role = String(n.fromRole).toLowerCase();
+      i = fp;
+    }
+    return { idx: i, role: role };
+  }
+  /**
+   * ARRIVING ON A NODE'S PAGE SETS THE BOARD; IT DOES NOT START A ROLL (v1.114.2).
+   *
+   * Owner: "if I just enter this address in my browser and it goes to this position, I don't want
+   * it to start the roll from there. I wanted it to start there, but paused ... only start a new
+   * roll in roll history if the player clicks the play button explicitly."
+   *
+   * This used to stage the board at ingest (t=0) — and then `updateCamera` called `startRoll()`
+   * unconditionally when the intro finished 3.2s later, which drew a fresh position, printed
+   * "Restarting the roll" and discarded the seed entirely. `_urlSeeded` was assigned and never
+   * read. So the seed is now only RECORDED here (plus the deck prefetch, since the intro is still
+   * its runway) and applied at the one place a boot roll begins.
+   *
+   * `/` is untouched, so the first-impression weighted draw (v1.82.3) still owns the front door.
+   */
   _seedFromUrl() {
     if (/^\/l\//.test(location.pathname)) return false;
-    const i = this._nodeForPath(location.pathname);
-    if (i < 0) return false;
-    this.rollFromPosition(i, true);   // staged: land there, hold the clock until they press play
+    const hit = this._nodeAndRoleForPath(location.pathname);
+    if (hit.idx < 0) return false;
+    this._urlSeedIdx = hit.idx; this._urlSeedRole = hit.role;
+    this._prefetchLandDeck(hit.idx);   // the intro is still the deck's runway (v1.106.6)
     return true;
   }
   roleLabelOf(n) { const rm = (n.t || "").match(/\s+(Top|Bottom)\s*$/i); return rm ? rm[1].toLowerCase() : (n.dom >= 0 ? "top" : "bottom"); }
@@ -9619,6 +9668,7 @@ class Component extends DCLogic {
     this._played = false;                        // nothing counts until it runs unpaused
     this._prefetchLandDeck(posIdx);              // the flight is the deck's runway (v1.106.6)
     this.hideCenter(); this.setPaused(!!staged); // staged: land here, but hold the clock
+
     this.flare(posIdx);
     this.after(0.6, () => this.enterLand(true), true);
   }
@@ -10688,7 +10738,18 @@ class Component extends DCLogic {
             this._camHoldUntil = this.now + this.camHoldSec;
             tgt = null;
           }
-          this.startRoll();
+          // A URL ARRIVAL SETS THE BOARD AND HOLDS THE CLOCK — it never starts a roll (v1.114.2).
+          // Deliberately NOT `stageRollAt`: that fires `roll_staged`, which is the White objective
+          // "Start a roll here", whose own copy is *click any node on the graph to roam there*.
+          // Typing an address is not that, and crediting it would be the same false tick the
+          // retired coach used to hand out.
+          if (this._urlSeeded && this._urlSeedIdx >= 0) {
+            this.rollFromPosition(this._urlSeedIdx, true, this._urlSeedRole);
+            this._staged = this.currentPos;
+            tgt = null;   // ...and the intro's parting overview must not overwrite that framing
+          } else {
+            this.startRoll();
+          }
         }
       }
     } else if (this.userActiveNow()) {
@@ -10708,7 +10769,16 @@ class Component extends DCLogic {
     // while paused or reading an in-node dossier, suppress only the AUTO-retarget — the tween
     // itself keeps flying toward whatever camTarget was set (Follow/Overview must not yank the
     // camera away mid-read, but manual prezi targets still animate).
-    if (this.introDone && (this.paused || this._dossierIdx != null)) tgt = null;
+    // ...EXCEPT A STAGED BOARD, WHICH IS PAUSED FROM BIRTH (v1.114.2). `rollCamTarget` measures
+    // the free band between the announce block and the landing card, and a fresh landing builds
+    // that card 0.6s AFTER the frame is computed — so suppression froze an answer taken before
+    // there was anything to measure. A running roll self-corrects every frame; a staged one had
+    // no second chance. Measured on /Positions/Side-Control/Bottom: node bottom 371 against a
+    // card top of 366, the node 5px INSIDE the card, permanently. A board that has never played
+    // therefore keeps tracking — and the moment the user pans (`userActiveNow`), takes a lease,
+    // or presses play, every one of the guards around this line takes the camera back.
+    const stagedIdle = this._staged != null && !this._played && this.paused && !this._replay;
+    if (this.introDone && (this.paused || this._dossierIdx != null) && !stagedIdle) tgt = null;
     // …and a live focus lease outranks every AUTOMATIC retarget there is — follow, overview, the
     // end-of-round zoom. This is the line the whole camera-ownership fix comes down to: without
     // it the follow-cam re-aims camTarget at the current roll node on the very next frame and the

@@ -861,6 +861,44 @@ The runtime remains one imperative component in `neural/src/app.src.jsx`. Challe
 - **The pane hid what the button produced.** Pressing play in Last rolls DID roll and DID frame the camera — behind the pane, which pauses the roll (pane law) and since v1.101.7 stands the landing card down at every width. The button now `setDeckOpen(false)`: pane law forbids the ROLL LOOP touching the pane, and this is the USER pressing play, i.e. the "close = the game resumes" half of the same law.
 - **THE URL NOW FOLLOWS DELIBERATE NAVIGATION.** Every graph node id IS a real page path — **1466 of 1467 ids resolve to a built page** (the miss is `Transitions/100%-Sweep`, whose `%` cannot survive a filename) — so `_syncUrl` needs no mapping table and cannot drift from the site. `pushState` fires ONLY from `rollFromPosition` (a node the user chose); a roll's own moves never touch the URL, because the site's PostHog snippet captures `$pageview` on history changes (Quartz's SPA router navigates by pushState too) and syncing every auto-advance would multiply pageviews by the length of a roll. `popstate` walks back through the nodes you chose, and arriving ON a node's page seeds a STAGED roll there (`_seedFromUrl`) — `/` is deliberately untouched, so the first-impression weighted draw still owns the front door. A `/l/<code>` path is never rewritten: the recipient path parses `location.pathname`.
 
+**ARRIVING ON A NODE'S PAGE SETS THE BOARD; IT DOES NOT START A ROLL (v1.114.2).** Owner, on
+`/Positions/Side-Control/Bottom?dual=iso`: *"it seems like immediately after I go into this ... it
+restarts the roll. It says 'Restarting the roll', so it leaves no time for me to stay in this
+position. In fact, we should stay at this position. The graph should navigate to it, meaning
+visually we should be zoomed in at this position so that its node shows up above the ng-landcard,
+and it should start paused ... only start a new roll in roll history if the player clicks the play
+button explicitly."* Three defects, and PRODUCTION WAS WORSE THAN THE PROTOTYPE.
+- **All 272 role pages resolved to NOTHING in production.** The visual layer collapses Top/Bottom
+  into one hub (`Positions/Side-Control`) and only `?dual` emits role members, so `_nodeForPath`
+  returned **-1** for a REAL built page and the visitor got a random weighted start on the wrong
+  side. `_nodeAndRoleForPath` now falls back to hub + side and carries `/Bottom` as the **role**;
+  a `?dual` member node still resolves directly and its own `role` is used. A **technique** page
+  seeds at its ORIGIN position (the `confirmPlayFrom` rule) — `currentPos` must be a position or
+  the roll begins inside a transition node with no hand to deal.
+- **`_urlSeeded` was assigned at boot and read by nothing.** `updateCamera` called `startRoll()`
+  unconditionally when the intro finished, 3.2s after the seed ran at ingest — which drew a fresh
+  position and printed "Restarting the roll" over it. The seed is now only RECORDED at ingest
+  (plus the deck prefetch, since the intro is still its runway) and applied at the one place a
+  boot roll begins. Deliberately **not** via `stageRollAt`: that fires `roll_staged`, which is the
+  White objective *"Start a roll here"* whose own copy is *click any node on the graph to roam
+  there* — typing an address is not that, and crediting it would be the retired coach's false tick
+  all over again.
+- **A STAGED BOARD NOW KEEPS ITS FRAMING.** `rollCamTarget` measures the free band between the
+  announce block and the landing card, and a fresh landing builds that card 0.6s AFTER the frame
+  is computed — so the auto-retarget suppression that protects a hand-paused roll ("never yank the
+  camera the user is reading with") froze an answer taken before there was anything to measure.
+  Measured on this very URL: node bottom **371** against a card top of **370**. `stagedIdle`
+  (`_staged != null && !_played && paused && !_replay`) keeps a never-played board tracking; a pan
+  (`userActiveNow`), a camera lease, or pressing play each take it back through guards that were
+  already there.
+- **`/` is untouched** — no node named, nothing seeded, and the first-impression weighted draw
+  (v1.82.3) still owns the front door, running.
+- Gated by `e2e/journeys/url-arrival.spec.ts` (5 journeys, 1 `@curated`), four mutants, four kills.
+  **Harness note worth keeping:** the landing card ANIMATES IN, and a camera read taken inside one
+  `advance()` describes nothing — measured, the card's top was still 588 on the frame the camera
+  last aimed against and reached 376 on the next. A second bare `advance` is NOT enough; an
+  intervening `page.evaluate` is what forces layout and lets a frame render between pumps.
+
 **THE STAT BAND MOVED TO THE PANE FOOT, AND ITS WEAK-SPOT NUMBER WAS A LIE (v1.104.5).**
 - **Foot, not Explore's top** (owner: "I would prefer to be closer to the bottom"). It is its OWN element (`.ng-pane-stats`, `paneStatsRef`) ABOVE `.ng-pane-anchor`, never inside it — the anchor collapses entirely for a signed-in user and three progress numbers must not vanish with a save nudge. It rides every tab and hides during a study takeover.
 - **Distributed, not clumped** (owner: it "still looks left aligned instead of neatly designed and distributed"). `display:flex;gap:14px` packed three stats against the left edge of a 360px pane and left the right third empty; it is now `grid-template-columns:repeat(3,1fr)` with the outer two hugging the edges.
