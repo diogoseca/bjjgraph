@@ -212,7 +212,22 @@ test("no wide circle appears behind the node you are standing on", async ({
 
   const idx = await page.evaluate(() => (window as Any).__neural.focusIdx);
   await parkOn(page, idx, 0.085); // ROLL_ZOOM: exactly where the owner met it
+  // AGE THE ARRIVAL BLOOM OUT, EXPLICITLY. `parkOn` pauses, and `this.now` IS the game clock, so
+  // a paused roll freezes `age = now - lit` and leaves the node stuck mid-bloom — which is how an
+  // early version of the floor below passed against a build with the resting glow deleted. The
+  // subject of this journey is the RESTING state; say so in the state rather than hoping for it.
+  await page.evaluate(() => {
+    const a = (window as Any).__neural;
+    a.nodes[a.focusIdx].lit = a.now - 5;
+  });
   await j.advance(260);
+  expect(
+    await page.evaluate(() => {
+      const a = (window as Any).__neural;
+      return a.now - a.nodes[a.focusIdx].lit;
+    }),
+    "the arrival bloom really is over, so what we measure is the resting light",
+  ).toBeGreaterThan(1.9);
 
   // 14x the drawn radius: past the retired ring (7.25x) AND past the retired halo (~11x).
   const lit = await profile(page, idx, 14, 32);
@@ -258,9 +273,30 @@ test("no wide circle appears behind the node you are standing on", async ({
     `being the current node visibly changes it (wedge delta ${onNode!.toFixed(1)})`,
   ).toBeGreaterThan(10);
 
-  const band = lit.med
+  const rings = lit.med
     .map((_, i) => ({ i, r: (i + 0.5) * lit.step, d: wedgeDelta(i) }))
-    .filter((b) => b.r >= 1.6 && b.r <= 12 && b.d !== null);
+    .filter((b) => b.d !== null);
+
+  // TWO BOUNDS, AND THE FLOOR IS THE v1.114.1 REGRESSION. v1.114.0 deleted the sustained halo and
+  // put nothing in its place, so once the 1.9s arrival bloom expired the state you were standing
+  // in went inert for the rest of the turn — measured, light reaching 30px against a 21px orb.
+  // Owner: "there seems to be no highlight at all now ... that pulse, when it reaches the correct
+  // node, it disappears, and it becomes stale." So this pins a FLOOR as well as a ceiling: the
+  // current node is LIT, and the light HUGS THE ORB.
+  // The band starts at 1.8x, CLEAR of the mark itself: the mark is drawn at 1.28x with a 2px rim,
+  // and a band starting at 1.2x measured that rim's antialiasing (19.6 luminance with the glow
+  // deleted) rather than any glow — which is how the first version of this floor passed against
+  // the very build it exists to reject. Median of the band, not max, for the same reason.
+  const near = rings.filter((b) => b.r >= 1.8 && b.r <= 2.6).map((b) => b.d!);
+  expect(near.length, "there are bins just outside the mark").toBeGreaterThan(1);
+  near.sort((x, y) => x - y);
+  expect(
+    near[near.length >> 1],
+    `the state you are standing in is never dark — it carries a resting glow (band median ${near[near.length >> 1].toFixed(1)})`,
+  ).toBeGreaterThan(8);
+
+  // ...and the ceiling, at the radii the retired ring (7.25x) and the retired halo (~11x) held.
+  const band = rings.filter((b) => b.r >= 3.6 && b.r <= 12);
   expect(band.length, "there are bins to check out there").toBeGreaterThan(8);
 
   const worst = band.reduce((a2, b) => (b.d! > a2.d! ? b : a2));
@@ -401,3 +437,66 @@ test("the node a move LANDS on blooms harder than one the light passed through",
     ).toBe(1);
   }
 });
+
+/**
+ * ONE CLOCK (v1.114.1). Owner, testing: "for the current node, there's very little time for it to
+ * be answered." The window itself is not short — measured 16.2s (a 9s base plus 0.8s per extra
+ * option, settable in Settings -> Rolling) — and `setPaused` already froze the bars along with the
+ * clock. What nobody kept in step was a REFUND: answering the landing question correctly calls
+ * `refundDecision(2500)`, twice at most, adding up to 5s to that 16.2s window, while the bar was a
+ * fixed-duration CSS animation that could not know. The hand then LOOKED about to expire with a
+ * third of its time left. The bar is now written by `_tickDecision` from the same number.
+ */
+test("the countdown bar cannot disagree with the clock it draws", async ({ page }) => {
+  const j = journey(page)
+  await j.boot("/")
+  await j.land("Mount Top")
+  await j.advance(1500)
+
+  const read = () =>
+    page.evaluate(() => {
+      const a = (window as Any).__neural
+      const d = a._decision || {}
+      const bars = Array.from(document.querySelectorAll(".ngbar")).map((b) => {
+        const t = getComputedStyle(b as HTMLElement).transform
+        if (!t || t === "none") return 1
+        const m = t.match(/matrix\(([-\d.]+)/) // scaleX lands in matrix[0]
+        return m ? parseFloat(m[1]) : 1
+      })
+      return {
+        remaining: d.remaining ?? null,
+        total: d.total ?? null,
+        n: bars.length,
+        bar: bars.length ? bars.reduce((x, y) => x + y, 0) / bars.length : null,
+      }
+    })
+
+  const before = await read()
+  expect(before.n, "the hand is dealt and its cards carry bars").toBeGreaterThan(2)
+  expect(
+    before.bar!,
+    "and the bars agree with the clock at the start",
+  ).toBeCloseTo(before.remaining! / before.total!, 1)
+
+  await j.advance(4000)
+  const mid = await read()
+  expect(mid.bar!, "they track it as it drains").toBeCloseTo(mid.remaining! / mid.total!, 1)
+
+  // THE CASE THAT WAS LYING: buy time back the way a correct landing answer does.
+  const granted = await page.evaluate(() =>
+    (window as Any).__neural.refundDecision(2500),
+  )
+  expect(granted, "the refund was granted (cap is 2 per hand)").toBe(true)
+  await j.advance(120)
+  const after = await read()
+
+  expect(
+    after.remaining!,
+    "the clock really did get the time back",
+  ).toBeGreaterThan(mid.remaining!)
+  expect(
+    after.bar!,
+    `and the bar moved with it (bar ${after.bar!.toFixed(3)} vs clock ${(after.remaining! / after.total!).toFixed(3)})`,
+  ).toBeCloseTo(after.remaining! / after.total!, 1)
+  expect(after.bar!, "visibly, not just arithmetically").toBeGreaterThan(mid.bar! + 0.05)
+})

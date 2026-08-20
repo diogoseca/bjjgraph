@@ -955,6 +955,51 @@ a node. To see details on a node we click on it. We don't zoom in anymore."*
   legitimately lights are spokes the median ignores. It self-checks on the mark itself, so a
   sampler that has stopped seeing anything fails instead of passing.
 
+**...AND THE ARRIVAL NEEDS SOMEWHERE TO LAND (v1.114.1).** v1.114.0 deleted the sustained halo
+correctly and then put NOTHING in its place, which the owner met immediately: *"the highlights of
+the current node don't seem to be happening anymore ... there seems to be no highlight at all now.
+That pulse, that I appreciated so much, when it reaches the correct node, it disappears, and it
+becomes stale."* Measured at roll zoom, per phase, light reach around the current node (orb radius
+33px settled / 21px mid-flight):
+
+| phase | before v1.114.1 |
+|---|---|
+| settled, before a move | core 131, reach **53px** — the orb and nothing else |
+| travelling (4.2s) | core 113, reach **53px** — inert |
+| arrival, 1.9s | core **255**, reach **~152px** — the bloom was working all along |
+| after 1.9s, rest of the turn | core 133, reach **30px** vs a 21px orb — dead |
+
+So the bloom was never the problem; the CLIFF at 1.9s was, and so was having no resting state.
+- **`REST_GLOW = 0.42`** — the presence WITHOUT the beam. It hugs the orb at **2.6x** where the
+  retired halo reached ~11x, carries about a third of its alpha, breathes slowly instead of
+  beaming, and **drains into the pulse on departure** exactly as the halo did (which is what
+  covers the marker's own cut at `!this.pulse`). It is additive with the arrival bloom, so the
+  bloom now decays INTO it rather than to zero — no cliff, no stale state. Settled reach went
+  53px → 84px; post-bloom 30px → 44px.
+- **The rim was invisible** because it was stroked in the same colour as the fill it outlines. It
+  is now lightened 55% toward white, which is what makes the orb read as *selected* at a glance.
+- **The gate pins BOTH bounds** (`graph-naming.spec.ts`): a FLOOR — the resting glow must be
+  there — and the CEILING from v1.114.0. Two traps found while building the floor, both worth
+  keeping in mind for any future canvas assertion: (1) `parkOn` pauses, and **`this.now` IS the
+  game clock**, so a paused roll freezes `age = now - lit` and leaves the node stuck mid-bloom —
+  the first floor passed against a build with the glow deleted, on the frozen arrival flare. The
+  test now ages `lit` out explicitly and asserts it did. (2) A floor band starting at 1.2x measured
+  the **marker's own 2px rim's antialiasing** (19.6 luminance with the glow deleted), not any
+  glow; it starts at 1.8x, clear of the mark.
+
+**ONE CLOCK — the countdown bar cannot disagree with the number it draws (v1.114.1).** Owner, same
+pass: *"for the current node, there's very little time for it to be answered."* The window is NOT
+short — measured **16.2s** (`decisionSec` 9s base, settable in Settings → Rolling, plus 0.8s per
+extra option) — and `setPaused` already froze the bars with the clock, so opening a card to read it
+was never the divergence. **A REFUND was.** `refundDecision(2500)` (a correct landing answer, twice
+at most) adds up to 5s to `d.remaining`, and the bar was a fixed-duration CSS animation
+(`ngCount <dsec>s`) that could not know — so after answering correctly the bar under-reported by up
+to **31%** and the hand looked about to expire with a third of its time left. `_tickDecision` now
+writes `scaleX(remaining/total)` on the cached `.ngbar`s, so pauses freeze them by construction and
+a refund visibly grows them BACK, which is the honest feedback for having bought time. The
+`.ngbar` branch of `setPaused` is deleted (there is no animation left to pause) and `@keyframes
+ngCount` has no consumer in the app.
+
 **ONE CONTAINER: THE GAME'S OWN CARD (v1.101.0).** v1.100.0 made the node itself the dossier —
 `openDossier` flew the camera into the node and mounted the whole reading surface inside its shape.
 The owner retired it after living with it: *"the other fuller container should no longer show, and

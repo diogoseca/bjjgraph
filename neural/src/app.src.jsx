@@ -52,6 +52,9 @@ class Component extends DCLogic {
   // (v1.114.0: it no longer decides whether the state is NAMED — the label beside the node is
   // the one naming design at every zoom. See THE ARRIVAL IS THE EVENT, below.)
   ROLL_ZOOM = 0.085;
+  /** The resting light on the state you are STANDING IN — present always, hugging the orb.
+   *  Not the retired halo: a third of its alpha and a quarter of its reach. See v1.114.1. */
+  REST_GLOW = 0.42;
   /** How much harder a node blooms when the roll ARRIVES there (a landing, or the submission
    *  that ends a round) than when the travelling light merely passes over it. The owner's
    *  "50% or even 100% more"; 2 is the 100%. */
@@ -256,9 +259,9 @@ class Component extends DCLogic {
     if (p === false && this._bgDown) this._bgRestore();
     this.paused = p;
     if (p) this.pauseTimers(); else this.resumeTimers();
-    // freeze/resume the option countdown bars
-    const op = this.optionsRef.current;
-    if (op) op.querySelectorAll(".ngbar").forEach((b) => { b.style.animationPlayState = p ? "paused" : "running"; });
+    // The option countdown bars need nothing here since v1.114.1: they are no longer CSS
+    // animations but a width written by `_tickDecision`, which is `gdt`-driven — so a paused
+    // clock freezes them by construction, and a refund moves them, which an animation could not.
     const list = this.drillListRef.current;
     if (list) list.querySelectorAll(".ngCurExpire").forEach((w) => { w.style.animationPlayState = p ? "paused" : "running"; });
     if (this._curSetIcon) this._curSetIcon();
@@ -8081,9 +8084,16 @@ class Component extends DCLogic {
     card.addEventListener("mouseenter", () => { card.style.borderColor = "rgba(150,180,255,.55)"; card.style.background = "rgba(40,48,76,.9)"; card.style.transform = "translateY(-2px)"; });
     card.addEventListener("mouseleave", () => { card.style.borderColor = "rgba(150,170,210,.18)"; card.style.background = "rgba(28,32,52,.78)"; card.style.transform = "translateY(0)"; });
     card.addEventListener("click", () => { if (isEsc) onPick(opt); else this.expandOption(opt, onPick, card); });
+    // ONE CLOCK (v1.114.1). This bar used to be a CSS animation (`ngCount <dsec>s`) on the WALL
+    // clock, while the decision it depicts runs on `gdt` in `_tickDecision`. `setPaused` kept the
+    // two in step for pauses — but nothing kept them in step for a REFUND: answering the landing
+    // question correctly calls `refundDecision(2500)`, up to twice, adding 5s to a 16.2s window
+    // that the animation could not know about. The bar then under-reported by up to 31% and the
+    // hand looked about to expire when it was not. `_tickDecision` now writes the width, so the
+    // bar cannot disagree with the number it draws — including growing BACK when you buy time,
+    // which is the honest feedback for having bought it.
     const bar = card.querySelector(".ngbar");
-    if (bar) { bar.style.animation = "ngCount " + decisionSec + "s linear forwards"; if (this.paused) bar.style.animationPlayState = "paused"; }
-    (this._optionCards = this._optionCards || []).push({ node: n, card: card });
+    (this._optionCards = this._optionCards || []).push({ node: n, card: card, bar: bar });
     const di = 20 + (num && num > 0 ? num - 1 : 0) * 45;
     setTimeout(() => { card.style.transform = "none"; }, di);
     return card;
@@ -10163,6 +10173,7 @@ class Component extends DCLogic {
     // the decision CLOCK (gdt-driven in _tick, so sheets/pauses freeze it): narrated 3-2-1
     // expiry + a visible auto-pick pop — never a silent teleport. Drilling refunds time (cap 2).
     this._decision = { remaining: dsec * 1000, total: dsec * 1000, refunds: 0, warned: 0, pick: pick, opts: opts };
+    this._barF = null;   // a new hand's bars start full, and the first tick must actually write
     this.setBeacon("options", el); // beat beacon: your move — read the hand
     this.renderLandCard(pos, "land", null); // identity → film → ONE question, above the hand
     this.renderTutorial();
@@ -10182,6 +10193,15 @@ class Component extends DCLogic {
     const d = this._decision;
     if (!d || !this._optPick || this._checkpoint) return; // Q002: the checkpoint quiz is untimed — nobody reads new UI under a timer they don't understand yet; without this guard the roll auto-played UNDER the open quiz and clobbered it
     d.remaining -= gdt * 1000;
+    if (d.total) {
+      const f = Math.max(0, Math.min(1, d.remaining / d.total));
+      if (Math.abs(f - (this._barF == null ? -1 : this._barF)) > 0.002) {
+        this._barF = f;
+        for (const oc of (this._optionCards || [])) {
+          if (oc.bar) oc.bar.style.transform = "scaleX(" + f.toFixed(4) + ")";
+        }
+      }
+    }
     if (this._vignetteEl && d.total) { // defense heartbeat: 60 → 100bpm as the window drains
       const f = Math.max(0, Math.min(1, d.remaining / d.total));
       this._vignetteEl.style.animationDuration = (0.6 + 0.4 * f).toFixed(2) + "s";
@@ -10524,6 +10544,7 @@ class Component extends DCLogic {
     this.buildPanicCard(el, sub);
     // the defense window runs on the decision clock (gdt-driven, drill-refundable); expiry = tapped
     this._decision = { remaining: dsec * 1000, total: dsec * 1000, refunds: 0, warned: 0, pick: pick, opts: escapes, onExpire: finish };
+    this._barF = null;   // same as the landing hand: a fresh tray's bars start full
   }
   oppVal(node) {
     const s = node.s;
@@ -11305,8 +11326,10 @@ class Component extends DCLogic {
       // recolor the current node to YOUR perspective (red when you're losing, blue when winning)
       ctx.fillStyle = this.rgba(pc, 0.98 * A);
       ctx.beginPath(); this.shapePath(ctx, n.ty, n.x, LY(n), rM); ctx.fill();
-      ctx.strokeStyle = this.rgba(pc, 0.92 * A);
-      ctx.lineWidth = 1.8 / scale;
+      // the rim was the SAME colour as the fill, i.e. invisible — a "selected" outline has to
+      // contrast with what it outlines, so it is lightened toward white.
+      ctx.strokeStyle = this.rgba(this.lerpCol(pc, { r: 255, g: 255, b: 255 }, 0.55), 0.95 * A);
+      ctx.lineWidth = 2 / scale;
       ctx.beginPath(); this.shapePath(ctx, n.ty, n.x, LY(n), rM); ctx.stroke();
     }
 
@@ -11328,6 +11351,41 @@ class Component extends DCLogic {
       ctx.fillStyle = g; ctx.beginPath(); ctx.arc(n.x, LY(n), gr, 0, 6.2832); ctx.fill();
       ctx.fillStyle = this.rgba({ r: 255, g: 255, b: 255 }, 0.8 * k * A);
       ctx.beginPath(); this.shapePath(ctx, n.ty, n.x, LY(n), n.r * nodeK * (1 + 0.7 * k * amp)); ctx.fill();
+    }
+
+    // ── THE STATE YOU ARE STANDING IN IS NEVER DARK (v1.114.1) ────────────────────────────────
+    //
+    // v1.114.0 deleted the sustained halo, correctly — the owner named it ("blooming, beaming")
+    // and it reached ~11x the drawn orb with a 46px screen floor. But deleting it outright left
+    // NOTHING in its place, and the arrival bloom expires after 1.9s. Measured at roll zoom, a
+    // settled node carried light to just 30px against a 21px orb: the orb and nothing else, for
+    // the whole rest of the turn. Owner: "there seems to be no highlight at all now ... that
+    // pulse, when it reaches the correct node, it disappears, and it becomes stale."
+    //
+    // This is the PRESENCE without the BEAM. It hugs the orb at 2.6x instead of 11x, carries a
+    // third of the old alpha, and breathes slowly rather than beaming. It is additive with the
+    // arrival bloom, which means the bloom no longer decays to zero at 1.9s — it decays INTO
+    // this, so there is no cliff and no stale state. And it DRAINS into the pulse on departure
+    // exactly as the halo did, which is what covers the marker's own cut at `!this.pulse`.
+    if (this.focusIdx >= 0 && this.nodes[this.focusIdx]) {
+      const cur = this.nodes[this.focusIdx];
+      const pu = this.pulse;
+      let dep = 1;
+      if (pu && !pu.done) {
+        dep = pu.path && pu.path[0] === this.focusIdx
+          ? Math.max(0, 1 - (pu.seg + (pu.t || 0)) * 1.4)   // leg 1: stream it into the light
+          : 0;                                              // later legs: the light has left
+      }
+      if (dep > 0.01) {
+        const kR = this.REST_GLOW * (0.86 + 0.14 * Math.sin(this.now * 1.6)) * dep * dim;
+        const col2 = this.myColor(cur);
+        const gr = Math.max(cur.r * nodeK * 2.6, 44 / scale);
+        const g2 = ctx.createRadialGradient(cur.x, LY(cur), 0, cur.x, LY(cur), gr);
+        g2.addColorStop(0, this.rgba(col2, 0.62 * kR * glow * A));
+        g2.addColorStop(0.45, this.rgba(col2, 0.24 * kR * glow * A));
+        g2.addColorStop(1, this.rgba(col2, 0));
+        ctx.fillStyle = g2; ctx.beginPath(); ctx.arc(cur.x, LY(cur), gr, 0, 6.2832); ctx.fill();
+      }
     }
     // pulse head
     if (this.pulse && !this.pulse.done) {
