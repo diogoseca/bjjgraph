@@ -128,7 +128,39 @@ def build_graph_data(layout: dict, graph: dict, ordinals: dict) -> dict:
     #     (see below): the app only ever read moves to derive these exact products.
     _RESULT_CODE = {"success": "s", "failure": "f", "counter": "c"}
 
-    def enrich(node_id: str, ty: str) -> dict:
+    # ── ONE JOIN LADDER FOR EVERY TECHNIQUE (v1.115.0) ──────────────────────────────────────
+    # `graph.json` keys a technique by `slugify(<display name>)` — ONE flat kebab token. A layout
+    # id keeps the authored PATH, so `Submissions/Kimura/from-Front-Headlock` arrives here as
+    # `kimura/from-front-headlock`, and that `/` is the `-` the key was built with. Only the first
+    # rung below existed, so the join missed every submission whose name carries a "from".
+    #
+    # MEASURED, and it is why this is a correctness bug and not a tidy-up: 294 of 297 submissions
+    # shipped NO `cal` at all. `calSuccess()` returned null, `moveChance` fell back to
+    # `0.36 + dom*0.1`, and because every submission's dominance sits in a narrow band they all
+    # printed ~45.5-45.7% — a FABRICATED success rate on ~289 of 1,204 dealt cards, standing in
+    # for authored rates of 46-68%. `graph.json` was right the whole time; only the wire was starved.
+    #
+    # Three rungs, cheapest first, and the last is the key's OWN CONSTRUCTOR rather than one more
+    # guess about spelling:
+    #   as-is           3 submissions + 1031 transitions   already-flat ids (`wrist-lock`)
+    #   slash -> hyphen       291 submissions              the authored-path ids
+    #   slugify(title)  3 submissions +    3 transitions   punctuation an id cannot carry
+    #                                                      (`100%-Sweep` -> `100-percent-sweep`;
+    #                                                       "Fireman's-Carry" loses its apostrophe)
+    # Together: 1331 of 1331. The SAME ladder feeds `tech_avail` (which `giAllows` reads), lifting
+    # it 1033 -> 1327 of 1331; the 4 that stay unmatched are techniques no position offers, so
+    # there is no availability for them to carry.
+    #
+    # Positions keep their own resolver (`_pos_role`): a position's leaf IS a slug, a technique's
+    # leaf ("from-mount") is not one — which is exactly why they cannot share a ladder.
+    def _tech_keys(slug: str, title: str) -> list:
+        out = []
+        for c in (slug, slug.replace("/", "-"), slugify(title or "")):
+            if c and c not in out:
+                out.append(c)
+        return out
+
+    def enrich(node_id: str, ty: str, title: str = "") -> dict:
         """Pull calibrated fields for a layout node from graph.json (best-effort join)."""
         slug = _slug_from_id(node_id)
         if ty == "positions":
@@ -156,7 +188,12 @@ def build_graph_data(layout: dict, graph: dict, ordinals: dict) -> dict:
                 return {}
             return {"_moves_stash": out, "avail": avail}
         else:  # technique: attacker role-node carries the authored outcomes/success
-            n = graph[ty].get(f"{slug}/attacker") or graph[ty].get(slug)
+            keys = _tech_keys(slug, title)
+            n = None
+            for c in keys:
+                n = graph[ty].get(f"{c}/attacker") or graph[ty].get(c)
+                if n:
+                    break
             if not n:
                 return {}
             e = {}
@@ -172,9 +209,11 @@ def build_graph_data(layout: dict, graph: dict, ordinals: dict) -> dict:
                     [o.get("to"), o.get("probability"), _RESULT_CODE.get(o.get("result"), o.get("result"))]
                     for o in n["outcomes"]
                 ]
-            av = tech_avail.get(slug)
-            if av:
-                e["avail"] = av
+            for c in keys:  # same ladder — `tech_avail` is keyed by slugify(display name) too
+                av = tech_avail.get(c)
+                if av:
+                    e["avail"] = av
+                    break
             return e
 
     nodes = []
@@ -211,7 +250,7 @@ def build_graph_data(layout: dict, graph: dict, ordinals: dict) -> dict:
         # `"fromPositionId":null` on 136 position hubs is pure wire weight. (`fromPosition`
         # is gone entirely — ingest never copied it and no graph-data consumer reads it.)
         node = {k: v for k, v in node.items() if v is not None}
-        cal = enrich(n["id"], ty)
+        cal = enrich(n["id"], ty, n.get("t"))
         if cal:
             node["cal"] = cal  # calibrated payload (Phase 1 gameplay reads this)
         if ty == "positions":  # family membership so the app can resolve the <Family>|Family tier deck
@@ -220,6 +259,30 @@ def build_graph_data(layout: dict, graph: dict, ordinals: dict) -> dict:
             if rn and rn.get("familyHub"):
                 node["familyHub"] = rn["familyHub"]
         nodes.append(node)
+
+    # ── THE JOIN MUST NEVER ROT SILENTLY AGAIN ──────────────────────────────────────────────
+    # The `cal` join failed for 294 of 297 submissions for months and NOTHING went red: the app
+    # degrades to a heuristic success rate rather than crashing, so every gate stayed green while
+    # a fabricated number sat on ~289 of 1,204 option cards. A missing join is invisible by
+    # construction — so it gets counted here, at the one place that can see it, and the emitter
+    # refuses to write a wire that has quietly lost its calibration.
+    _cov = {}
+    for nd in nodes:
+        if nd["ty"] == "positions":
+            continue
+        tot, hit = _cov.setdefault(nd["ty"], [0, 0])
+        _cov[nd["ty"]][0] = tot + 1
+        if isinstance(nd.get("cal"), dict) and nd["cal"].get("successRate") is not None:
+            _cov[nd["ty"]][1] = hit + 1
+    for _ty, (_tot, _hit) in sorted(_cov.items()):
+        _pct = (100.0 * _hit / _tot) if _tot else 100.0
+        print(f"  cal coverage: {_ty} {_hit}/{_tot} ({_pct:.1f}%)")
+        if _pct < 95.0:
+            raise SystemExit(
+                f"[neural] cal join regressed: only {_hit}/{_tot} ({_pct:.1f}%) {_ty} carry a "
+                f"successRate. graph.json keys techniques by slugify(<display name>); see "
+                f"_tech_keys. Refusing to emit a wire whose odds would be fabricated."
+            )
 
     # ── position `ew` = the precomputed edge-weight list (replaces `cal.moves` on the wire).
     # This is EXACTLY the arithmetic ingest()'s edge-weight pass used to run over cal.moves:

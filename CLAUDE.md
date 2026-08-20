@@ -861,6 +861,32 @@ The runtime remains one imperative component in `neural/src/app.src.jsx`. Challe
 - **The pane hid what the button produced.** Pressing play in Last rolls DID roll and DID frame the camera — behind the pane, which pauses the roll (pane law) and since v1.101.7 stands the landing card down at every width. The button now `setDeckOpen(false)`: pane law forbids the ROLL LOOP touching the pane, and this is the USER pressing play, i.e. the "close = the game resumes" half of the same law.
 - **THE URL NOW FOLLOWS DELIBERATE NAVIGATION.** Every graph node id IS a real page path — **1466 of 1467 ids resolve to a built page** (the miss is `Transitions/100%-Sweep`, whose `%` cannot survive a filename) — so `_syncUrl` needs no mapping table and cannot drift from the site. `pushState` fires ONLY from `rollFromPosition` (a node the user chose); a roll's own moves never touch the URL, because the site's PostHog snippet captures `$pageview` on history changes (Quartz's SPA router navigates by pushState too) and syncing every auto-advance would multiply pageviews by the length of a roll. `popstate` walks back through the nodes you chose, and arriving ON a node's page seeds a STAGED roll there (`_seedFromUrl`) — `/` is deliberately untouched, so the first-impression weighted draw still owns the front door. A `/l/<code>` path is never rewritten: the recipient path parses `location.pathname`.
 
+**THE `cal` JOIN WAS SPELLING THE KEY WRONG, AND 294 OF 297 SUBMISSIONS SHIPPED NO ODDS (v1.115.0).**
+`graph.json` keys a technique by `slugify(<display name>)` — ONE flat kebab token. A layout id keeps
+the authored PATH, so `Submissions/Kimura/from-Front-Headlock` reaches `enrich()` as
+`kimura/from-front-headlock`, and that `/` is the `-` the key was built with. The emitter only ever
+tried the first spelling. **0 of 297** submission keys in `graph.json` contain an inner slash.
+- **Nothing went red for months, by construction.** A missing `cal` does not crash — `calSuccess()`
+  returns null and `moveChance` falls back to `0.36 + dom*0.1` (`app.src.jsx:10371`). Because every
+  submission's dominance sits in a narrow band, all of them printed **~45.5-45.7%**. MEASURED: the
+  "Success rate" on **~289 of 1,204 dealt option cards** was fabricated, standing in for authored
+  rates that actually span **10-74%**. `graph.json` was right the whole time; only the wire was
+  starved, so anything computed offline from `graph.json` was always trustworthy.
+- **`_tech_keys(slug, title)` is the fix: three rungs, cheapest first, and the last is the key's OWN
+  CONSTRUCTOR rather than one more guess about spelling.** `as-is` (3 submissions + 1031
+  transitions) → `slash→hyphen` (291 submissions) → `slugify(title)` (3 + 3: punctuation an id
+  cannot carry — `100%-Sweep` → `100-percent-sweep`, "Fireman's-Carry" loses its apostrophe).
+  Together **1331 of 1331**. The SAME ladder feeds `tech_avail` (which `giAllows` reads), lifting it
+  **1033 → 1327**; the 4 that stay unmatched are techniques no position offers, so there is no
+  availability for them to carry. Positions keep `_pos_role` — a position's leaf IS a slug, a
+  technique's leaf (`from-mount`) is not, which is exactly why they cannot share a ladder.
+- **The emitter now refuses to write a wire that has lost its calibration** (<95% per type, printed
+  every run). A silent join is invisible by definition; it gets counted at the one place that can
+  see it. Measured after: submissions **297/297**, transitions **1034/1034**.
+- Payload **+46,605 raw / +3,321 gzip** → 1,371,502 / 1,600,000 and 281,649 / 330,000. **No ceiling
+  raise.** Replay digests are byte-identical: the extra `rng("outcome")` draw a repaired submission
+  can consume only fires on a FAILED submission, which the scripted rolls do not hit.
+
 **ARRIVING ON A NODE'S PAGE SETS THE BOARD; IT DOES NOT START A ROLL (v1.114.2).** Owner, on
 `/Positions/Side-Control/Bottom?dual=iso`: *"it seems like immediately after I go into this ... it
 restarts the roll. It says 'Restarting the roll', so it leaves no time for me to stay in this
