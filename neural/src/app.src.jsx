@@ -9677,17 +9677,39 @@ class Component extends DCLogic {
     // Inert on the production layout: no default graph-data node carries `role`.
     if (!roleOverride && (this.nodes[posIdx].role === "top" || this.nodes[posIdx].role === "bottom")) this.playerRole = this.nodes[posIdx].role;
     this.currentPos = posIdx; this.focusIdx = posIdx; this.pulse = null; this.activeMove = null;
-    this.camFocus = this.pairMid(this.nodes[posIdx]);
+    // SWAPPING BETWEEN TWO HALVES OF ONE STATE MOVES NOTHING. Both members of a pair share a
+    // midpoint, so the camera's subject is literally unchanged — and the right way to guarantee
+    // the owner's "the camera should move just a little" is to not touch it at all rather than to
+    // recompute the same answer from a layout that is, at this instant, mid-teardown. Chasing the
+    // band instead cost three wrong attempts: an undocked film strip reporting `top: 0`, a card
+    // back before its film, and a fallback to the whole screen — each a different wrong frame.
+    const _nextFocus = this.pairMid(this.nodes[posIdx]);
+    const _sameSubject = !!this.camFocus
+      && Math.abs(this.camFocus.x - _nextFocus.x) < 1e-6
+      && Math.abs(this.camFocus.y - _nextFocus.y) < 1e-6;
+    this.camFocus = _nextFocus;
     this.releaseCamera(); // roaming/staging elsewhere ends the focus lease (the user chose a node)
     // the SAME framing the settled follow-cam uses — a click that navigates must not land on a
     // different composition than the roll does (v1.103.2)
-    this.camTarget = this.rollCamTarget({ x: this.nodes[posIdx].x, y: this.nodes[posIdx].y }, false);
+    // ...and aim at the PAIR (`camFocus`), not at `n.y`. This line still read the stored
+    // coordinates, which `LY` lifts a member ~37px off at roll zoom — the same "code reads `n.y`
+    // where the renderer draws `LY(n)`" defect v1.114.3 fixed in three other places.
+    if (!_sameSubject) this.camTarget = this.rollCamTarget(this.camFocus, false, posIdx);
     this.prevPosVal = this.myVal(this.nodes[posIdx]);
     this._syncUrl(posIdx);                     // the address bar follows a chosen node
     this._lastChosenIdx = posIdx;                // …and so does "take me back where I was"                       // the address bar follows a chosen node
     this._played = false;                        // nothing counts until it runs unpaused
     this._prefetchLandDeck(posIdx);              // the flight is the deck's runway (v1.106.6)
     this.hideCenter(); this.setPaused(!!staged); // staged: land here, but hold the clock
+    if (staged) this._stagedCamFree = true;      // ...and its framing tracks until they pan
+    // HOLD THE FRAME UNTIL THE CARD IS BACK. `clearOptions()` above dropped the landing card and
+    // the film strip, and `enterLand` rebuilds them ~600ms later on DIFFERENT frames — so between
+    // here and there the layout is half-mounted and every read of it is a different wrong answer
+    // (measured on a pair swap: an undocked film strip reporting `top: 0`, then a card without its
+    // film, then the real band — the camera chasing all three). The target written on the line
+    // below is computed from the cached band and is already right; nothing after it has anything
+    // truer to say until the card exists again.
+    this._reframeHold = !!staged;
 
     this.flare(posIdx);
     this.after(0.6, () => this.enterLand(true), true);
@@ -10246,6 +10268,7 @@ class Component extends DCLogic {
     this._barF = null;   // a new hand's bars start full, and the first tick must actually write
     this.setBeacon("options", el); // beat beacon: your move — read the hand
     this.renderLandCard(pos, "land", null); // identity → film → ONE question, above the hand
+    this._reframeHold = false;              // the card is back — the band means something again
     this.renderTutorial();
     this._sayArrivalIfPending(); // the shared-link sentence, now that there is a screen to read it on
   }
@@ -10718,14 +10741,48 @@ class Component extends DCLogic {
         if (r.height > 0 && getComputedStyle(ev).opacity !== "0") top = Math.max(top, r.bottom + 12);
       } catch (e) { /* non-fatal */ }
     }
-    let bot = H - 240;
+    // THE BAND MUST SURVIVE THE CARD'S TEARDOWN (v1.114.4). Staging a new state calls
+    // `clearOptions()`, which drops the landing card AND the film strip — and for the ~600ms
+    // until `enterLand` rebuilds them there is nothing to measure, so `bot` fell back to
+    // `H - 240` and the frame became the middle of the WHOLE SCREEN. Owner: "it seems to want to
+    // center the node to the center of the screen initially instead of centering to the available
+    // visible space (above the landcard)". Measured clicking the partner orb: wantY 136 -> 338 for
+    // two frames, and `rollFromPosition` writes camTarget inside exactly that window. So remember
+    // the last real measurement and keep using it while the card is rebuilding; it is the same
+    // card, docked to the same bottom, so this is a truer answer than the fallback.
+    let bot = H - 240, measured = false;
     for (const el of [this._landFilmEl, this._landEl]) {
       if (!el) continue;
       try {
         const r = el.getBoundingClientRect();
-        if (r.height > 0) { bot = Math.min(bot, r.top - 12); break; }
+        // AN UNDOCKED ELEMENT IS NOT A CONSTRAINT. `_dockLandFilm` positions the film strip AFTER
+        // it is inserted, so for a frame or two `rect.top` reads **0** — measured, that made the
+        // band `-12`, tripped the "no room" fallback, and threw the camera 61px in one frame and
+        // ~90px in another during a pair swap. A surface that leaves no band above it has not
+        // laid out yet; skip it and let the next one (or the cache) answer.
+        if (r.height > 0 && r.top > top + 80) { bot = Math.min(bot, r.top - 12); measured = true; break; }
       } catch (e) { /* non-fatal */ }
     }
+    // THE BAND TIGHTENS AT ONCE AND GIVES GROUND SLOWLY. Caching only the "nothing to measure"
+    // case was not enough: the card and the film strip are rebuilt on DIFFERENT frames, so for a
+    // moment the card is back (bot 362) while the film is not (bot 256) and the band flickers
+    // LOOSER — measured as a 4.8 world-unit / ~53px camera swing on a pair swap, which is exactly
+    // the "moves a lot" the owner saw. Every transient during a rebuild loosens the band, and
+    // every real change that matters (a card appearing, a taller question) tightens it — so
+    // taking a tighter answer instantly and easing toward a looser one absorbs the flicker
+    // without ever letting the camera sit in space the card is about to cover. The ease is
+    // per-call and this is called once per frame by the follow-cam: tau is about a quarter second.
+    // THE BAND ONLY EVER TIGHTENS, FOR THE LIFE OF THE VIEWPORT. The card and the film strip mount
+    // on DIFFERENT frames, and a film box can measure zero mid-transition — so a "first element
+    // with height wins" read ALTERNATES between two answers: measured on a pair swap, the
+    // follow-cam flipped `camTarget.cy` between 4.44 (film seen, bot 256) and -0.36 (card only,
+    // bot 363) frame after frame. That flicker IS the swing the owner saw. Keeping the tightest
+    // answer ever measured at this height is stable by construction, and it errs in the safe
+    // direction: too tight only ever puts the node HIGHER, never behind the card. Deliberately NOT
+    // reset per landing — that was tried, and it hands the very first post-reset frame (card
+    // without its film) back to the loose answer, which is the whole bug.
+    if (this._bandBot && this._bandBot.h === H) bot = Math.min(bot, this._bandBot.y);
+    if (measured) this._bandBot = { h: H, y: bot };
     if (bot - top < 80) { top = 16; bot = Math.max(120, H * 0.42); }   // no room: use the top band
     const wantY = (top + bot) / 2;
     const scale = W / vw;
@@ -10745,6 +10802,16 @@ class Component extends DCLogic {
     // a lease taken before there was a clock starts counting now (see holdCamera)
     if (this._camHoldUntil === -1) this._camHoldUntil = this.now + (this._camHoldSecs || this.camHoldSec);
     let tgt = null;
+    // A STAGED BOARD TRACKS ITS FRAMING UNTIL THE USER MOVES THE CAMERA THEMSELVES (v1.114.4).
+    // `userActiveNow()` measures `now - lastInteract` on the GAME clock, and a staged board is
+    // paused from birth — so `now` is frozen and one click latches "the user is active" FOREVER,
+    // which silently disabled the v1.114.2 tracking for every roam. That is why the bad frame
+    // taken during the card's teardown was never corrected: measured, the band was back to its
+    // right answer 600ms later and `camTarget` still held the wrong one three seconds on.
+    // `_stagedCamFree` is the honest gate instead: a real pan, pinch or wheel clears it, and the
+    // "never fight a user's camera" rule survives intact.
+    const stagedIdle = this._staged != null && !this._played && this.paused && !this._replay
+      && this._stagedCamFree !== false;
     if (!this.introDone) {
       if (el < 1.6) tgt = { cx: this.gcx, cy: this.gcy, vw: this.graphW * 2.3 - this.graphW * 0.3 * (el / 1.6) };
       else {
@@ -10775,7 +10842,7 @@ class Component extends DCLogic {
           }
         }
       }
-    } else if (this.userActiveNow()) {
+    } else if (this.userActiveNow() && !stagedIdle) {
       tgt = null;
     } else if (this.endZoom) {
       tgt = { cx: this.endCenter.x, cy: this.endCenter.y, vw: this.graphW * 1.55 };
@@ -10800,8 +10867,8 @@ class Component extends DCLogic {
     // card top of 366, the node 5px INSIDE the card, permanently. A board that has never played
     // therefore keeps tracking — and the moment the user pans (`userActiveNow`), takes a lease,
     // or presses play, every one of the guards around this line takes the camera back.
-    const stagedIdle = this._staged != null && !this._played && this.paused && !this._replay;
     if (this.introDone && (this.paused || this._dossierIdx != null) && !stagedIdle) tgt = null;
+    if (this._reframeHold) tgt = null;   // mid-rebuild: the layout has nothing true to say yet
     // …and a live focus lease outranks every AUTOMATIC retarget there is — follow, overview, the
     // end-of-round zoom. This is the line the whole camera-ownership fix comes down to: without
     // it the follow-cam re-aims camTarget at the current roll node on the very next frame and the
@@ -11012,7 +11079,7 @@ class Component extends DCLogic {
       const scale = this.W / this.cam.vw;
       this.cam.cx -= (e.clientX - lx) / scale; this.cam.cy -= (e.clientY - ly) / scale;
       this.camTarget.cx = this.cam.cx; this.camTarget.cy = this.cam.cy;
-      if (moved > 6) this.releaseCamera(); // a real pan (not tap jitter) ends any focus lease
+      if (moved > 6) { this.releaseCamera(); this._stagedCamFree = false; } // a real pan ends the lease AND the staged framing
       lx = e.clientX; ly = e.clientY; this.lastInteract = this.now;
     });
     const end = (e) => {
@@ -11048,7 +11115,7 @@ class Component extends DCLogic {
       const sa = this.W / vw;
       this.cam.cx = wx - (sx - this.W / 2) / sa; this.cam.cy = wy - (sy - this.H / 2) / sa;
       this.camTarget.cx = this.cam.cx; this.camTarget.cy = this.cam.cy; this.camTarget.vw = vw;
-      this.releaseCamera(); // wheel-zoom is the desktop equivalent of a pinch
+      this.releaseCamera(); this._stagedCamFree = false; // wheel-zoom is the desktop equivalent of a pinch
       if (this._replay) this.stopReplay("input");   // ...and so it ends a film, for the same reason
       this.lastInteract = this.now;
     }, { passive: false });

@@ -935,6 +935,36 @@ which the subtitle's position seems to appear depending on where you are."*
   because it needs the **gitignored** dual payload — the core suite must not depend on it. Run it
   with the private-root chrome config documented at the top of that file.
 
+**THE FRAMING BAND, AND WHY A PAIR SWAP MOVED THE CAMERA AT ALL (v1.114.4).** Owner: "when I'm in
+Side Control bottom and click top, instead of the camera moving just a little, it moves a lot, even
+hiding the current node behind the landcard dialog momentarily" — and, precisely: *"it seems to want
+to center the node to the center of the screen initially instead of centering to the available
+visible space (above the landcard)."* Two halves of a pair share a midpoint, so the correct amount
+of camera movement is **none**. Three separate things moved it; the first is a PRODUCTION bug, not a
+prototype one, because staging any state tears the card down the same way.
+- **`rollFromPosition` still aimed at `{x: n.x, y: n.y}`** — the stored coordinates — on the line
+  beside the `camFocus` assignment v1.114.3 fixed. Same defect, missed once. It aims at `camFocus`
+  now, and a swap whose subject is unchanged **skips the retarget entirely** rather than recomputing
+  the same answer from a layout that is mid-teardown.
+- **`bot` fell back to `H - 240` while the card and film were gone** — the middle of the whole
+  screen. Measured on a pair swap: wantY 136 → 338, and `rollFromPosition` writes camTarget inside
+  exactly that window. `_bandBot` caches the last real measurement and covers the gap.
+- **THE BAND FLICKERED FRAME TO FRAME.** The card and the film strip mount on DIFFERENT frames and a
+  film box can measure zero mid-transition, so "first element with height wins" alternated: measured,
+  the follow-cam flipped `camTarget.cy` between 4.44 (film seen, bot 256) and −0.36 (card only, bot
+  363) repeatedly. The band now keeps the **tightest answer ever measured at this viewport height**,
+  which is stable by construction and errs safely — too tight only ever puts the node HIGHER, never
+  behind the card. Resetting it per landing was tried and is wrong: it hands the first post-reset
+  frame (card without its film) straight back to the loose answer.
+- **An UNDOCKED element is not a constraint.** `_dockLandFilm` positions the film strip after
+  insertion, so for a frame its `rect.top` reads **0**; that made the band −12, tripped the "no room"
+  fallback, and threw the camera. A surface leaving no band above it has not laid out yet — skip it.
+- **`userActiveNow()` measures the GAME clock, and a staged board is paused**, so one click latched
+  "the user is active" FOREVER and silently disabled v1.114.2's staged tracking. `_stagedCamFree` is
+  the honest gate: a real pan, pinch or wheel clears it, so "never fight a user's camera" survives.
+- Gated in the core suite (`url-arrival.spec.ts`, the torn-down band) and in
+  `e2e/prototype/dual-pair-shoot.spec.ts` (the swap holds the camera; a pan releases it).
+
 **THE STAT BAND MOVED TO THE PANE FOOT, AND ITS WEAK-SPOT NUMBER WAS A LIE (v1.104.5).**
 - **Foot, not Explore's top** (owner: "I would prefer to be closer to the bottom"). It is its OWN element (`.ng-pane-stats`, `paneStatsRef`) ABOVE `.ng-pane-anchor`, never inside it — the anchor collapses entirely for a signed-in user and three progress numbers must not vanish with a save nudge. It rides every tab and hides during a study takeover.
 - **Distributed, not clumped** (owner: it "still looks left aligned instead of neatly designed and distributed"). `display:flex;gap:14px` packed three stats against the left edge of a 360px pane and left the right third empty; it is now `grid-template-columns:repeat(3,1fr)` with the outer two hugging the edges.

@@ -249,3 +249,84 @@ test("iso pair: both halves above the film, name on the midline, subtitle on the
   expect(hovered.above, "the subtitle moved above for the top half").toBeGreaterThan(40);
   expect(hovered.below, "and left the space below it").toBeLessThan(hovered.above / 2);
 });
+
+/**
+ * CLICKING THE OTHER HALF BARELY MOVES THE CAMERA (v1.114.4). Owner: "when I'm in Side Control
+ * bottom and click top, instead of the camera moving just a little, it moves a lot, even hiding
+ * the current node behind the landcard dialog momentarily."
+ *
+ * The two halves share a midpoint, so the correct answer is that the camera does not move at all.
+ * Two independent causes made it swing, both measured on this URL:
+ *  · staging tears the landing card and film strip down, so `rollCamTarget`'s band bottom fell
+ *    back to `H - 240` and wantY went 136 -> 338 — the middle of the whole screen — and
+ *    `rollFromPosition` writes camTarget inside exactly that window;
+ *  · it never recovered, because `userActiveNow()` measures the GAME clock and a staged board is
+ *    paused, so the click latched "the user is active" forever and froze the bad frame. Measured:
+ *    the band was back to its right answer 600ms later and camTarget still held the wrong one
+ *    three seconds on.
+ */
+test("iso pair: clicking the other half holds the camera, and a pan releases it", async ({
+  page,
+}) => {
+  await page.goto("/Positions/Side-Control/Bottom?dual=iso", { waitUntil: "domcontentloaded" });
+  await page.waitForFunction(() => !!((window as any).__neural?.nodes || []).length, null, {
+    timeout: 30000,
+  });
+  await page.waitForTimeout(10000);
+
+  const read = () =>
+    page.evaluate(() => {
+      const a = (window as any).__neural;
+      const f = a.nodes[a.focusIdx];
+      const p = a.nodes[f.pi];
+      const sc = a.W / a.cam.vw;
+      const sy = (n: any) => (a._LY(n) - a.cam.cy) * sc + a.H / 2;
+      const top = f.z > 0 ? f : p;
+      return {
+        tgtCy: a.camTarget.cy,
+        mid: (sy(f) + sy(p)) / 2,
+        topX: (top.x - a.cam.cx) * sc + a.W / 2,
+        topY: sy(top),
+        focus: f.id,
+        free: a._stagedCamFree,
+      };
+    });
+
+  const before = await read();
+  expect(before.focus).toMatch(/\/Bottom$/);
+
+  await page.mouse.move(before.topX, before.topY);
+  await page.mouse.down();
+  await page.mouse.up();
+
+  // watch the WHOLE transition, not just the end — the swing was a transient that stuck
+  let worst = 0;
+  for (let i = 0; i < 10; i++) {
+    await page.waitForTimeout(200);
+    const now = await read();
+    worst = Math.max(worst, Math.abs(now.tgtCy - before.tgtCy));
+  }
+  const after = await read();
+  expect(after.focus, "the click did select the other half").toMatch(/\/Top$/);
+  expect(
+    worst,
+    `the camera target never swung during the swap (worst ${worst.toFixed(2)} world units)`,
+  ).toBeLessThan(1);
+  expect(
+    Math.abs(after.mid - before.mid),
+    "and the pair stayed where it was on screen",
+  ).toBeLessThan(14);
+
+  // A REAL PAN still takes the camera back — the tracking must not fight the user.
+  await page.mouse.move(1250, 180);
+  await page.mouse.down();
+  await page.mouse.move(1150, 120, { steps: 8 });
+  await page.mouse.up();
+  await page.waitForTimeout(1200);
+  const panned = await read();
+  expect(panned.free, "a pan ends the staged tracking").toBe(false);
+  expect(
+    Math.abs(panned.mid - after.mid),
+    "and the camera stays where the user put it",
+  ).toBeGreaterThan(20);
+});

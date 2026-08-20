@@ -180,3 +180,51 @@ test("a technique page seeds at its ORIGIN position, not inside the technique", 
   expect(a.pos, "the origin of that transition").toContain("Side Control")
   expect(a.paused, "still staged, still paused").toBe(true)
 })
+
+/**
+ * THE FRAMING SURVIVES THE LANDING CARD'S TEARDOWN (v1.114.4).
+ *
+ * Owner, roaming between two halves of a dual pair: "instead of the camera moving just a little,
+ * it moves a lot, even hiding the current node behind the landcard dialog momentarily" — and then,
+ * exactly: "it seems to want to center the node to the center of the screen initially instead of
+ * centering to the available visible space (above the landcard)."
+ *
+ * That is production behaviour, not a prototype quirk: staging ANY state calls `clearOptions()`,
+ * which drops the landing card and the film strip, and `rollFromPosition` writes `camTarget`
+ * inside that window. With nothing to measure, `rollCamTarget`'s band bottom fell back to
+ * `H - 240` — the middle of the whole screen. Measured clicking a partner orb at 1440x900:
+ * wantY went 136 -> 338 for two frames, and the frame taken there was the one that stuck.
+ */
+test("the camera frames the space the card WILL occupy, not the gap while it rebuilds", async ({
+  page,
+}) => {
+  const j = journey(page)
+  await j.boot("/Positions/Side-Control/Bottom")
+  await j.advance(6000)
+  for (let i = 0; i < 3; i++) {
+    await arrival(page)
+    await j.advance(400)
+  }
+
+  const m = await page.evaluate(() => {
+    const a = (window as Any).__neural
+    const f = a.nodes[a.focusIdx]
+    const at = () => a.rollCamTarget({ x: f.x, y: a._LY(f) }, false)
+    const withCard = at()
+    // the exact state `clearOptions()` leaves behind for ~600ms while `enterLand` rebuilds
+    const keepCard = a._landEl
+    const keepFilm = a._landFilmEl
+    a._landEl = null
+    a._landFilmEl = null
+    const torn = at()
+    a._landEl = keepCard
+    a._landFilmEl = keepFilm
+    return { withCard: withCard.cy, torn: torn.cy, H: a.H, hadCard: !!keepCard }
+  })
+
+  expect(m.hadCard, "there was a landing card to tear down").toBe(true)
+  expect(
+    Math.abs(m.torn - m.withCard),
+    `the frame is the same with the card gone (${m.torn.toFixed(2)} vs ${m.withCard.toFixed(2)})`,
+  ).toBeLessThan(0.01)
+})
