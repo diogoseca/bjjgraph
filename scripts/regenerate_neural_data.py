@@ -5,13 +5,16 @@ as the legacy site (page == graph == game invariant).
 
 Outputs (into source/quartz/static/neural/, mirroring how globalGraphLayout.json is a
 generated+committed static asset):
-  - graph-data.json : {nodes, links} — a reshape of source/quartz/static/globalGraphLayout
+  - graph-data.json : {nodes, links, evLam, evFrame} — a reshape of source/quartz/static/globalGraphLayout
     .json (the visual projection) into the Neural app's node shape
     {id,x,y,t,ty,s,fromPositionId,fromRole,posId?,o,cal?} with null keys omitted. Each node
     is additionally enriched with the calibrated numbers from graph.json: for technique
     nodes successRate + successRateByRuleset (differing frames only) + outcomes as
     [to, probability, s|f|c] tuples + avail; for position nodes `ew` (precomputed
-    [nodeIdx, weight*10000] edge-lighting pairs, replacing the raw per-move tables) + avail.
+    [nodeIdx, weight*10000] edge-lighting pairs, replacing the raw per-move tables) + avail
+    + `ev`, the EDGE table that ranks the option cards (one independent MDP solve per
+    loss-aversion preset — see build_move_edge, and the file-level `evLam`/`evFrame` that say
+    which presets and which ruleset the table describes).
     Links are [sourceIdx, targetIdx] pairs. This is the largest BOOT payload; the wire is
     compact and app.src.jsx ingest() expands it back into the legacy shapes (v1.107.0).
   - flashcards/<slug>.json : one file PER DECK ({cat,role,cards:[{q,a}]}) — the full
@@ -294,6 +297,18 @@ def build_graph_data(layout: dict, graph: dict, ordinals: dict) -> dict:
     for i, nd in enumerate(nodes):
         if nd["ty"] != "positions" and nd["t"] not in by_name:
             by_name[nd["t"]] = i
+
+    # THE INVERSE OF THE `cal` JOIN. `enrich` walks layout node -> graph.json key; `build_move_edge`
+    # needs graph.json key -> layout node INDEX, because the EDGE solver's actions are named by
+    # graph.json `target` slugs while the app's hand is a list of node indices. Same `_tech_keys`
+    # ladder in reverse, so the two directions can never drift apart: if a spelling is added to the
+    # ladder, both joins learn it at once. First node wins (array order), matching `by_name`.
+    tech_idx = {}
+    for i, nd in enumerate(nodes):
+        if nd["ty"] == "positions":
+            continue
+        for c in _tech_keys(_slug_from_id(nd["id"]), nd.get("t")):
+            tech_idx.setdefault((nd["ty"], c), i)
     for nd in nodes:
         cal = nd.get("cal")
         if not cal or "_moves_stash" not in cal:
@@ -325,7 +340,237 @@ def build_graph_data(layout: dict, graph: dict, ordinals: dict) -> dict:
         if a is None or b is None or a == b:
             continue
         links.append([a, b])
-    return {"nodes": nodes, "links": links}
+    out = {"nodes": nodes, "links": links}
+    # EDGE — the option card's ranking value. Attached to the POSITION nodes (see build_move_edge);
+    # the two top-level keys below are the table's self-description, carried ONCE for the file.
+    out.update(build_move_edge(graph, nodes, tech_idx))
+    return out
+
+
+# ── EDGE: what a move is worth from where you are standing ────────────────────────────────────
+# `scripts/solve_edge_values.py` solves a finite-horizon MDP over the 272 position role-nodes in
+# graph.json (you argmax, the opponent samples the PAIRED role-node's authored moves, 9-12 plies,
+# WIN/LOSS from who performed the finishing submission) and scores every dealt move:
+#
+#     EDGE(s,a) = 100 * ( Q(s,a) - base(s) )      base(s) = SUM attempt%(a') * Q(s,a')
+#     Q(s,a)    = p * A(s,a) + (1-p) * B(s,a)     A = success branch, B = miss branch
+#
+# 0 = "the ordinary choice from here". This is what replaces `movePotential`, which prints +100 on
+# every submission (app.src.jsx:10411) and therefore sorts ten identical-looking cards.
+#
+# ── THE SHAPE, AND WHY IT IS THIS SHAPE ───────────────────────────────────────────────────────
+#
+# 1. IT IS A VALUE AND A SLOPE, NOT ONE PRECOMPUTED EDGE. Q is LINEAR in p, so the whole curve
+#    is two numbers, and it is written anchored at the authored odds `p0`:
+#
+#        EDGE(p) = e0 + (p - p0) * c1     e0 = EDGE at p0 (the integer the card shows at rest)
+#                                         c1 = 100 * (A - B)   (EDGE points per unit odds)
+#
+#    keeping `p` a RUNTIME input. That is not elegance, it is correctness: `p` on the card is
+#    `moveChance()` (app.src.jsx:10367), which is the calibrated rate PLUS `stateBonus` (what
+#    drilling a deck buys), the momentum bonus, the landing-question `_qMod`, the opponent's
+#    resistance and any user override. A single frozen integer is EDGE at the authored odds and
+#    at no other moment, so it could not move when a deck is drilled — measured across 1246
+#    (state,action) pairs, +10pp of odds moves EDGE by a median of 2.7 points and 94.8% of moves
+#    shift by at least a full point. `base(s)` is deliberately NOT re-weighted at runtime and is
+#    folded into `e0`: "the ordinary choice from here" is a property of the position and of what
+#    people attempt from it, not of how sharp you happen to be today.
+#      `p0` costs no wire bytes because the app already has it: `moveChance` opens by reading
+#      `calSuccess(act)`, which is `cal.successRate` selected per frame — the very field this
+#      solve reads. VERIFIED, not assumed: 0 of 1331 technique nodes carry a no-gi rate that
+#      differs from the scalar, so in the frame this table is stamped for the two are the same
+#      number. (146 carry a differing GI rate, which is precisely why point 5 exists.)
+#      Anchoring on `e0` also settles a self-inconsistency in the spec: it asks for an
+#      EDGE x1000 sort key (§4.1) while its own worked hand (§4.6) breaks ties by odds. At rest
+#      EDGE is exactly the displayed integer and the odds tie-break decides, which is §4.6; the
+#      moment any modifier moves `p` the value is continuous again and sorts at full resolution.
+#
+# 2. IT HANGS OFF THE POSITION NODE, keyed by graph-data node INDEX. A top-level
+#    `{"<hub>/<role>": [...]}` map would respell all 272 state slugs once per lambda — ~16KB of
+#    pure key bytes for an identity the position node already carries. Node index is the join the
+#    app can actually perform: `optionsFor()` (:8036) hands back `{idx, node, res}` and `cal.ew`
+#    already addresses techniques exactly this way.
+#      NB the spec this implements proposes arrays "parallel to graph.json's transitions[] order,
+#      which is what `_edgeW` already joins on". BOTH halves of that are wrong and it is worth
+#      recording: `_edgeW` joins by technique TITLE -> node index (`byName`, app.src.jsx:790), and
+#      since v1.107.0 the wire does not carry `cal.moves` at all, so there is no transitions array
+#      on the client for anything to be parallel to. Such a table would be unjoinable.
+#
+# 3. MEMBERSHIP IS THE INDEX LIST, so a missing value is STRUCTURALLY missing. 0 is a meaningful
+#    EDGE — it is the definition of "the ordinary choice" — so it can never double as "no data",
+#    and a dense array would need a sentinel that a manifest-boot race could read as a real value.
+#    This is the v1.80.4 lesson (the manifest's card count `n`) applied to a second payload: a card
+#    whose node index is absent from the list has NO edge and must render its odds row alone,
+#    never a fabricated 0. MEASURED: `optionsFor` deals 82 of 1204 cards (6.8%) that this table
+#    legitimately cannot value — gi-only moves zeroed in the no-gi frame plus techniques adjacent
+#    in the layout that the role-node's authored `transitions[]` never offers — so that path is
+#    real and gets walked on the very first hand, not a defensive hypothetical.
+#
+# 4. LAMBDA IS A DIMENSION OF THE TABLE, NEVER BAKED INTO A NUMBER. The loss-aversion dial changes
+#    the OPTIMAL POLICY downstream, so re-weighting one solve at display time is measurably wrong
+#    (the spec measures up to 0.0033 of V and 6 top-card flips). Each preset is an independent
+#    solve. The preset list ships ONCE as `evLam` rather than as a positional convention, so the
+#    app reads which lambdas exist instead of assuming three.
+#
+# 5. THE FRAME IS STAMPED (`evFrame`). The solve is no-gi. `giAllows` is not applied to the hand
+#    (its only caller is buildExplorer, :4512), so a gi roll deals moves this table scored under
+#    no-gi rules; saying so on the wire lets the app decide, and lets a gi table be added later as
+#    a value of this key rather than a wire change.
+#
+# 6. THE ATTEMPT SHARE RIDES ALONG, because the documented rank is EDGE -> odds -> attempt% ->
+#    name and the app has had no access to attempt probabilities since v1.107.0 dropped
+#    `cal.moves`. It is not decoration: MEASURED, 76 card pairs across 45 of the 272 hands tie on
+#    BOTH edge and odds, and the spec's own worked hand is ordered by this key (North-South Choke
+#    over Breadcutter, both +5 at 58%, 5.0% vs 1.0% attempted). Without it those fall through to
+#    alphabetical. It is the same Q3 Delphi occurrence distribution that defines `base(s)`, so
+#    carrying it also makes EDGE's zero point auditable from the wire alone. Whole percent, not
+#    permille: its only consumer is an ordering, and permille costs 866 more gzip bytes to
+#    separate 14.5 from 14.7 — a distinction that decides nothing. It is lambda-INDEPENDENT, so
+#    it is carried once, not three times.
+#
+# LAYOUT.  cal.ev[role] = [ nodeIdxs, attemptPct, ...one [e0,c1, e0,c1, ...] array per evLam ]
+#          so the lambda block is at index `2 + evLam.indexOf(lossAversion)`, the k-th listed
+#          node's pair is at [2k, 2k+1], and a node index absent from `nodeIdxs` HAS NO VALUE.
+#
+# Both numbers are WHOLE EDGE POINTS. `e0` is the solver's own displayed integer, so §4.6's
+# published hands are reproducible from the wire exactly, with no rounding anywhere; `c1`'s
+# rounding is the only approximation and it is scaled by |p - p0|, which the emitter measures over
+# a +/-20pp drill sweep rather than bounding on paper (see the coverage lines).
+# MEASURED alternatives, whole-file gzip -9, so the choice is visible and reversible:
+#   [c0 x10, c1 x10] (p-anchored, needs a nudge to pin the display)   +43,150 raw  +21,478 gzip
+#   [e0 x10, c1 x10]                                                  +39,091 raw  +20,189 gzip
+#   [e0,     c1    ]  <- shipped                                      +32,177 raw  +15,093 gzip
+#   ...with delta-coded indexes                                       +30,183 raw  +13,459 gzip
+#   ...with delta-coded indexes AND lambda-delta values               +29,944 raw  +12,565 gzip
+# The last two are NOT taken. They save 0.5% of the gzip budget in exchange for a decode step at
+# ingest, and the one failure this table cannot survive is being decoded wrong: every value here
+# is an ORDERING, so an off-by-one in a prefix sum reorders a hand and reads as a bad model rather
+# than as a bug. Plain arrays are readable with no decode at all.
+#   The obvious remaining saving — carry ONE slope and share it across the three lambdas, since
+#   only the value needs to be per-lambda — is REJECTED BY MEASUREMENT, not by taste. c1 is
+#   100*[(Aw-Bw) - lambda*(Al-Bl)], so it moves with the dial: reusing lambda=2's slope misstates
+#   a 20pp drill by a MEDIAN of 2.60 EDGE points (p90 9.00, p99 17.40, max 27.80) on a scale where
+#   93% of all values sit inside +/-15. That is a different answer, not a rounding.
+EV_LAMBDAS = (1, 2, 4)     # the "What matters more" dial: Winning / Balanced / Not getting caught
+EV_FRAME = "nogi"
+EV_DRILL_SWEEP = (-0.20, -0.10, 0.10, 0.20)   # odds offsets the fidelity check samples
+
+
+def build_move_edge(graph: dict, nodes: list, tech_idx: dict) -> dict:
+    """Solve EDGE once per lambda preset and attach it to the position nodes.
+
+    Mutates `nodes` (adds `cal.ev`), returns the file-level self-description keys.
+    """
+    from solve_edge_values import HORIZON_MIX, Opts, selfcheck, solve_mixture
+
+    # The structural facts the solve depends on (attempt sums, outcome sums, the 1331-pair
+    # attacker/defender mirror, game-over only from submissions, no second-level chain). All pass
+    # today, so this gate ships green and only fires on a CONTENT regression — at which point the
+    # honest move is to refuse the wire rather than ship a ranking derived from broken data.
+    bad = [(n, d) for n, ok, d in selfcheck(graph) if not ok]
+    if bad:
+        raise SystemExit("[neural] EDGE self-check failed, refusing to emit: "
+                         + "; ".join(f"{n} ({d})" for n, d in bad))
+
+    opts = Opts(frame=EV_FRAME)
+    sols = [solve_mixture(graph, float(lam), HORIZON_MIX, opts) for lam in EV_LAMBDAS]
+    model = sols[0].model
+    pos_idx = {nd["posId"]: i for i, nd in enumerate(nodes)
+               if nd["ty"] == "positions" and nd.get("posId")}
+
+    n_state = n_pair = n_join = n_dupe = 0
+    lin = 0.0                       # max |Q - (p*A + (1-p)*B)| over the mixture: the form's own residual
+    swept = agree = 0               # drill-sweep fidelity of the rounded slope
+    worst_drift = 0.0
+    miss_state, miss_tech = [], []
+    for s in model.states:
+        hub, role = s.rsplit("/", 1)
+        pi = pos_idx.get(hub)
+        if pi is None:
+            miss_state.append(s)
+            continue
+        # rows are sorted by q, which DIFFERS per lambda — join the three solves by action name.
+        by_lam = [{r["name"]: r for r in sol.q[s]} for sol in sols]
+        rows, att = {}, {}
+        for r0 in sols[0].q[s]:
+            n_pair += 1
+            j = tech_idx.get((r0["cat"], r0["target"]))
+            if j is None:
+                miss_tech.append((s, r0["cat"], r0["target"]))
+                continue
+            n_join += 1
+            coeffs = []
+            for k, sol in enumerate(sols):
+                r = by_lam[k][r0["name"]]
+                base, p0 = sol.baseline[s], r["odds"]
+                lin = max(lin, abs(r["q"] - (p0 * r["A"] + (1.0 - p0) * r["B"])))
+                c1 = int(round(100.0 * (r["A"] - r["B"])))
+                coeffs += [r["edge"], c1]
+                # WHAT DRILLING WILL ACTUALLY SHOW. Anchoring on `e0` puts a fixed offset of up to
+                # half a point between the card and the real-valued curve — that is the DESIGN (it
+                # is what makes the value at rest exactly the solver's integer), and being fixed it
+                # is invisible: the user reads the CHANGE. So measure the change, where c1's
+                # rounding is the only error, over the move sizes drilling really produces.
+                e_at_p0 = 100.0 * (r["q"] - base)
+                for d in EV_DRILL_SWEEP:
+                    p = max(0.05, min(0.95, p0 + d))
+                    moved_exact = 100.0 * ((p * r["A"] + (1.0 - p) * r["B"]) - base) - e_at_p0
+                    moved_wire = (p - p0) * c1
+                    swept += 1
+                    agree += round(moved_wire) == round(moved_exact)
+                    worst_drift = max(worst_drift, abs(moved_wire - moved_exact))
+            if j in rows:
+                # two authored transitions naming ONE technique (measured: exactly one, the
+                # duplicate `Aoki Lock` entry at aoki-lock-control/top). Same technique node means
+                # the same p/A/B and therefore the same coefficients — assert rather than assume,
+                # because a disagreement here would mean the join, not the content, is wrong. The
+                # ATTEMPT SHARES do differ and are SUMMED: the position really does reach for that
+                # technique with their combined probability, whatever the entries are called.
+                n_dupe += 1
+                if rows[j] != coeffs:
+                    raise SystemExit(f"[neural] EDGE: {s} maps two actions with DIFFERENT values "
+                                     f"onto node {j} ({nodes[j]['id']}) — the join is wrong")
+                att[j] += r0["attempt"]
+                continue
+            rows[j] = coeffs
+            att[j] = r0["attempt"]
+        if not rows:
+            continue
+        n_state += 1
+        # ascending node index: deterministic, independent of lambda, and it keeps the index list
+        # monotone so gzip sees a ramp instead of adjacency noise.
+        order = sorted(rows)
+        cal = nodes[pi].setdefault("cal", {})
+        cal.setdefault("ev", {})[role] = [
+            order,
+            [int(round(att[j] * 100)) for j in order],
+        ] + [
+            [c for j in order for c in rows[j][2 * k:2 * k + 2]] for k in range(len(sols))
+        ]
+
+    pct = (100.0 * n_join / n_pair) if n_pair else 100.0
+    print(f"  move edge: {n_state}/{len(model.states)} states solved for lambda {list(EV_LAMBDAS)} "
+          f"({EV_FRAME}, horizons {list(HORIZON_MIX)})")
+    print(f"  move edge: {n_pair} (state,move) pairs, {n_join} joined to a node ({pct:.1f}%), "
+          f"{n_dupe} duplicate target(s) deduped")
+    print(f"  move edge: linear form exact to {lin:.2e}; value at rest IS the solver's own integer")
+    print(f"  move edge: drill sweep {[int(d * 100) for d in EV_DRILL_SWEEP]}pp — the movement "
+          f"matches the exact curve to {worst_drift:.3f} of a point ({agree}/{swept} land on the "
+          f"same whole-point change)")
+    if miss_state:
+        print(f"  move edge: {len(miss_state)} state(s) with no layout node: {miss_state[:5]}")
+    if miss_tech:
+        print(f"  move edge: {len(miss_tech)} move(s) with no layout node: {miss_tech[:5]}")
+    # Same refusal the `cal` join learned in v1.115.0, for the same reason: a join that rots is
+    # INVISIBLE downstream — the app just stops showing EDGE on some cards and every gate stays
+    # green. Count it here, at the one place that can see it, and refuse to ship a hollow table.
+    if pct < 95.0:
+        raise SystemExit(f"[neural] EDGE join regressed: only {n_join}/{n_pair} moves ({pct:.1f}%) "
+                         f"reached a graph-data node. Refusing to emit a hollow ranking table.")
+    if lin > 1e-9:
+        raise SystemExit(f"[neural] EDGE: Q is not p*A+(1-p)*B (residual {lin:.2e}) — the two-number "
+                         f"wire cannot represent this solve. Refusing to emit.")
+    return {"evLam": list(EV_LAMBDAS), "evFrame": EV_FRAME}
 
 
 MC_LINE_BUDGET = 36  # one-line MC option cap; keep in sync with app.src.jsx MC_LINE
