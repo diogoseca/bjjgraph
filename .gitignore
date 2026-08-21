@@ -119,11 +119,12 @@ tests/artifacts/replay/
 tests/artifacts/belt/
 # Pane-and-chrome polish screenshots + red-run log (regenerable via the pane-chrome spec)
 tests/artifacts/chrome/
-# Dual close-pair prototype payloads (regenerable via scripts/prototype_dual_pair_layout.py;
-# 2.2MB each, served only from the private .privserve root — the PNGs beside them ARE tracked)
+# Dual close-pair prototype leftovers. The generator, the payloads and the specs that diffed
+# against them were retired in v1.126.0 (the pair is derived from the shipped wire now), so nothing
+# writes these any more — the patterns stay so an old checkout does not suddenly offer 2.2MB of
+# dead payload for commit. The PNGs beside them ARE tracked, deliberately: they are the evidence
+# the owner judged, and /dev/experiments renders them.
 tests/artifacts/dualpair/payloads/
-# ...and the per-run text output of the derive-equivalence spec, which only means anything next to
-# the payload it was diffed against (the PNGs beside it ARE tracked).
 tests/artifacts/dualpair/derive-equivalence.txt
 tests/artifacts/dualpair/derive-cost.txt
 node_modules/

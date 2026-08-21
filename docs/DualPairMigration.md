@@ -5,8 +5,31 @@ show every dual state as **two separate nodes placed as close together as health
 Top/Bottom, technique Attacker/Defender — replacing hub-collapse. Explicitly rejected: half-lit
 single nodes, and any win/lose recoloring ("blue/red is only WHICH PLAYER you are").
 
-This document is the cutover plan. The prototype exists and is judgeable today; nothing here is
-shipped. **Status: prototype — owner judgment pending.**
+> ## STATUS: SHIPPED (v1.125.0), AND THE CUTOVER PLAN BELOW IS SUPERSEDED
+>
+> The pair is the DEFAULT graph. Read this document as the engineering record of the design
+> questions — it is still the only place several of them are argued — but **not** as the plan that
+> ran. Three of its load-bearing premises turned out to be false, and the shipped change is
+> smaller than any step it proposes:
+>
+> - **No ordinals were minted and no hub ordinal was retired.** §5's "2340 new + 1170 retired
+>   behind a successors map" was written on the assumption that splitting a hub RETIRES it. It does
+>   not: the rep member **is** the hub node — same id, same `o`, same URL — so every `/l/<code>`
+>   already posted resolves with no migration at all. Only the partner mints an id
+>   (`<hub>/Bottom`, `<hub>/Defender`), and ids are not ordinals.
+> - **No payload was added.** §8/Q8's "+47KB gzip boot cost accepted" and the "compact pair wire"
+>   step are both moot: `_deriveDualPairs` computes the split from the shipped wire at ingest.
+>   `graph-data.json` is byte-for-byte unchanged. The cost that *is* real is CPU, not bytes —
+>   see CLAUDE.md.
+> - **`scripts/prototype_dual_pair_layout.py`, its payloads and `?dual=fixed|force|iso` are gone**
+>   (v1.126.0). The tables below name them in the present tense; they are history. `?dual=legacy`
+>   is the one surviving flag and it is the way OUT.
+>
+> What ACTUALLY shipped, with its measurements, is CLAUDE.md → "THE PAIR IS THE DEFAULT, AND IT IS
+> DERIVED AT INGEST". The committed screenshots referenced here stay, because they are the evidence
+> the owner judged.
+
+This document is the cutover plan as it stood before the split turned out to be derivable.
 
 ## 1. The prototype (what exists now)
 

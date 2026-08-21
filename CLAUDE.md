@@ -941,9 +941,9 @@ running the identical code, not by reimplementing it. **Zero wire bytes**: `grap
 `graph.json`, `globalGraphLayout.json` and `node_ordinals.json` are untouched.
 
 - **`?dual=legacy` is the escape hatch** and now the only thing the flag opts *out* of; `null` is
-  the default and means the derived pair. `?dual=fixed|force|iso` still load their prototype files
-  (dev-only, gitignored) and pass through the derivation untouched, because it no-ops on a payload
-  that already carries `pairId` — which is what makes an A/B against them possible at all.
+  the default and means the derived pair. (`?dual=fixed|force|iso` loaded their prototype files for
+  one version, which is what made the A/B below possible; **retired in v1.126.0** — see that
+  section. They are accepted-and-ignored now.)
 
 **THE HUB KEEPS ITS ID: THE REP MEMBER *IS* THE HUB NODE.** Same id, same share ordinal, same
 `/Positions/Mount` URL. So `node_ordinals.json` needs no new ordinals — minting ~1,464 would be
@@ -1069,6 +1069,173 @@ which is exactly what it did when the hub was the only node — identical behavi
 regression, but now that a bottom member exists it could be made role-correct. Same for
 `_curriculumIdxSet`, which lights the rep only. Both are behaviour changes and belong to whoever
 decides them, not to the change that splits the node.
+
+### THE PROTOTYPE IS RETIRED, AND EVERY ID-KEYED JOIN IS AUDITED (v1.126.0)
+
+**`?dual` IS A ONE-VALUE SWITCH NOW, AND THE VALUE IS THE WAY OUT.** `legacy` = the hub-collapsed
+graph; **everything else, `null` included, is the pair.** `?dual=iso|fixed|force` named PROTOTYPE
+PAYLOADS — 2.47MB pre-split files that only ever existed outside the shipped tree — and they are
+gone with the fetch fork that loaded them, the `dev-serve.mjs` route that mapped them out of
+`tests/artifacts/dualpair/payloads/`, `scripts/prototype_dual_pair_layout.py`, `npm run
+prototype:dual` and the two `e2e/prototype/` specs whose subject they were. **Accepted-and-ignored,
+not rejected** (the `?variant=legacy` precedent), and here that is the *cheaper* option as well as
+the kinder one: an unknown value has always fallen through to `null`, so deleting them from the
+accept-list IS the accepted-and-ignored behaviour — zero code. It is also honest, because the graph
+those links promised is the graph a plain visit now shows. The committed evidence PNGs STAY:
+`/dev/experiments` renders them and `build_forward_components.mjs` throws without them; they are
+the frames the owner judged, not a regeneration path. Bundle **−561 raw / −144 gzip**.
+- Two ingest branches went with it, and the wire proves they cannot recur: the `/Attacker` suffix
+  strip in `techSlugIndex`, and the **hub-id alias pass** that re-pointed a retired hub id onto a
+  member. The derived pair retires nothing — the rep IS the hub — and that pass was held off it
+  only by a `/(Top|Attacker)$/` guard, which is one edit away from turning `Positions/Mount` into
+  the category `Positions` inside `_idIndex`. **Measured: 0 of 1467 hub ids end in a role suffix in
+  either direction** — which is the same measurement that says a derived partner id can never
+  collide with a hub.
+
+**THE AUDIT: EVERY CONSUMER THAT ASSUMED 1,467 NODES OR HUB IDS, DIFFED LIVE.** The method is a
+DIFFERENTIAL — one build, booted twice, `/` against `/?dual=legacy` — because the only trustworthy
+oracle for "did this join move?" is the graph the join was written against. Pinned by
+`e2e/journeys/dual-consumers.spec.ts` (7 journeys, 4 `@curated`), **11 mutants, 11 kills**.
+Identical across both graphs:
+
+| consumer | result |
+|---|---|
+| `_ordById` / `_ordToId` | **1467 = 1467, not one ordinal moved**; 0 partners carry one |
+| a `/l/<code>` minted on `?dual=legacy` | decodes to the **same 11 ids**, 0 unknown, same lit sites, and **re-mints byte-identical** |
+| `cal.ev` node-index join | **272/272 hands, 1326/1326 cards**: same technique, same landing, same `[e0,c1,att]` row, same printed integer |
+| `buildExplorer` | 136 / 819 / 75 families, row-for-row |
+| Explore SEARCH (driven through the real render) | same head, same row count, **0 duplicate rows** — see below, this one was BROKEN |
+| `displayName` / `_ambig` | 1467/1467 identical |
+| `deckKeyFor`, `nodeForKey`, `deckMastery`, `gameScore` | identical; a partner mints **no** deck (1467/1467 same key as its rep) |
+| `systemNodeIdxs` | 47 systems, **1711/1711 members resolve, all to reps**, lit sets identical |
+| `_lessonIndex` / `_lessonNodeIdx` / `_curriculumIdxSet` | 174 lessons, 0 unresolved, 167 fog nodes identical |
+| `startPosTraffic` | 136 entries summing to 1, weight-for-weight identical, **0 non-rep keys** |
+| `weakSpots`, `bucketTechniques`, `_frontierBeltId` | 1456 / {30,0,0} / white — identical |
+| `resultPos` over every dealt option | **1326/1326** resolve to the same hub |
+| `resolveOutcomeTo` over every authored outcome | 4160 total, 3863 hit — identical, including the misses |
+
+- **THE `ev` JOIN IS THE ONE THAT FAILS SILENTLY, AND THAT IS WHY IT IS `@curated`.** Nothing in
+  the format is self-describing: the map key is `<position node index>/<role>` and `blk[0]` is a
+  list of TECHNIQUE node indexes. A wrong remap still finds rows, still prints integers on every
+  card, and prints the WRONG technique's number on each — no exception, no warning, no blank. So
+  the assertion compares the whole structure card-for-card rather than counting non-nulls, and it
+  asserts **>1200 cards carry a real mark** so it cannot pass on a build where `_ev` came back
+  empty on BOTH sides and every comparison was trivially equal. Mutants: `blk[0]` not remapped
+  (**killed**), remapped to the DEFENDER member instead of the attacker (**killed**), `ev` filed
+  only on the rep (**killed, 2 journeys**).
+- **A HAND MUST NOT DEPEND ON WHICH ORB YOU STAND ON**, and it does not: **272/272** role-hands are
+  identical dealt from the rep and from the partner, cards, rows and marks. That is what link kind
+  2 (site adjacency) buys, and deleting it kills the journey.
+- **The ordinal mutant is the shape of the whole risk.** Making the partner carry `h.o` too does
+  NOT break an already-posted code — `_ordToId` is first-wins and the rep is at `2i`, so it still
+  wins — it corrupts the *other* direction, `_ordById`, i.e. every code minted from then on. The
+  gate has to check the direction that would rot, not the one a user would notice first.
+
+**EXPLORE'S SEARCH IS A SECOND WALK, AND IT INHERITED NOTHING.** `buildExplorer` filters `rep`;
+the query branch walks `this.nodes` DIRECTLY — deliberately, because a query renders flat ranked
+results before any section exists (v1.99.3) — so it never had that filter. Both halves carry the
+same title, so **every hit was doubled with nothing to tell the duplicates apart**, and the
+`.slice(0, 120)` cap then HALVED how many distinct techniques a search could ever reach: "guard"
+matches 320 sites and could only ever show 60 of them. Fixed with the same one-word filter and the
+same reasoning as `buildExplorer`.
+> **AND THE FIRST PASS OF THIS AUDIT MISSED IT**, because the probe measured
+> `nodes.filter(n => n.rep && …)` — a private copy of the filter, with the fix already in it, so it
+> reported "identical" about a path that was broken. The gate now drives `renderExplorer()` for
+> real and counts `[data-list-add]` rows and duplicate row TEXT. **Never assert a render by
+> re-implementing it**; that is the same defect class as the six specs that held private copies of
+> the node set in v1.125.0, committed by the tool built to find them.
+
+**THE AUDIT'S WORST FIND: A CLASS CAPTURED FROM THE LOWER HALF WAS UNSHAREABLE, SILENTLY.** Lists
+are STORED as node ids and SHARED as ordinals, and **only a hub carries an ordinal** — the rep IS
+the hub, the partner mints `<hub>/Bottom` / `<hub>/Defender` with `o: null`, **0 of 1467**. So a `+`
+pressed while standing on the lower orb filed an id `ngListEncodeIds` reports as `missing`: the
+technique is **dropped from the share code with no error**, and a one-item list of it encodes to the
+**empty string**. Not an edge case — **136 of the 272 position landings and 172 of 400 technique
+seats stand on a partner**, i.e. every time the coach is playing bottom, which is half of
+jiu-jitsu. This shipped in v1.125.0 (a graph tap on a lower orb, or `/Positions/X/Bottom`, already
+seated you there) and this change makes it *more* reachable, since `seatRole` now deliberately
+seats bottom-authored techniques on the lower half.
+- **`siteIdOf(nodeId)` normalises in the LIST LAYER, not at the capture button** — `addToList`,
+  `removeFromList`, `removeListItem`, `activeListHas`, `nodeInAnyList`, `listsWith`,
+  `listItemName`, `openListPicker`. That is deliberate: it is the layer's own invariant (*a list
+  holds SITES*), so a surface added later cannot bypass it by calling `addToList` directly. The
+  membership readers matter as much as the writer — normalising only the write makes a captured
+  technique show a `+` instead of a `✓` on the very orb you captured it from (mutant, killed).
+- Identity on every unpaired node, so `?dual=legacy` is untouched, and **no shipped build has ever
+  been able to store a member id** — nothing to migrate.
+
+**TWO MORE REAL DEFECTS, AND THE BIGGER ONE WAS PRE-EXISTING.** Both were in the same question —
+*where does a technique start?* — answered in three places, three ways. `techniqueOrigin(n,
+perspective)` is now the ONE seam; see its note.
+1. **`rollFromPosition` walked `adj[]` for the first position it met, which is a coin toss with
+   3-5 sides.** A technique is adjacent to its origin AND to everywhere its outcomes land, in link
+   order. **Measured over all 1,331 techniques, on the paired graph AND on `?dual=legacy` alike:
+   the walk disagrees with the canonical origin on 907, and the technique you just tapped is not
+   even in the hand you are dealt 910 times — 68.4%.** Tapping `Head Extraction to Posture` stood
+   you in Closed Guard; it is authored from Gogoplata Control. `confirmPlayFrom` had it right all
+   along (`posNodeForId(fromPositionId)`), so this is the v1.104.5 "second stale implementation"
+   defect one level down. **Now 1326/1331 = 99.6%**; the 5 that still miss are content
+   (`from_position_role_mismatch`), not code.
+2. **...and the split made that walk worse in a way only the pair can produce.** A technique's
+   DEFENDER member carries only the pair tie — its real edges are all one-for-one on the attacker,
+   by design — so the walk found **no position at all** and `posIdx` fell back to the technique
+   itself: **1,331 of 2,934 nodes staged a roll ON A TECHNIQUE NODE**, whose "hand" is its own
+   partner. One graph tap away, on the app's centrepiece. Now **2662/2662 technique members seat at
+   a position**, on the side that performs it (`fromRole`, 100% covered — 735 top / 596 bottom).
+   `seatRole` is why: 596 techniques are bottom-authored and the title-derive answers "top" for all
+   136 positions, so without it the tap deals the hand the technique is not in. It draws no RNG.
+3. **A TECHNIQUE'S TWO PERSPECTIVE PAGES ARE REAL BUILT PAGES, AND ONLY HALF OF EACH PAIR LANDED
+   ANYWHERE.** `/Transitions/X/Attacker` resolved to **nothing** (the attacker member IS the hub and
+   carries the bare id, so it matched no id and no regex) while `/Transitions/X/Defender` resolved —
+   and seeded the **ATTACKER's** side, **1330 of 1330**: the page says you are the one being
+   armbarred and the app dealt you the armbar. `_nodeAndRoleForPath` now accepts
+   `top|bottom|attacker|defender` as the hub+side spelling and routes techniques through
+   `techniqueOrigin`, so a typed address and a tapped orb cannot disagree. **1330/1330 and
+   1330/1330**, both naming the same origin site.
+
+> **The bare `/Positions/X` role changed from `null` to `"top"` and NOTHING moved** — checked, not
+> assumed. All 136 position hub titles end "… Top", so `rollFromPosition`'s title-derive already
+> answered `top` for every one of them; the member simply states now what the title used to imply.
+
+**TWO MORE `adj`-WALKS EXIST AND ARE DELIBERATELY LEFT ALONE.** `resultPos(actIdx, fromIdx)` walks
+for "where does this land you", which is a genuinely different question from "where does it start"
+and is answered correctly by adjacency — proven, not assumed: **1326/1326 dealt options resolve to
+the same hub on both graphs**. `jumpToState` walks for the origin exactly as `rollFromPosition`
+used to, but it lives inside `renderDossier`, which v1.101.5 disclosed as unreachable from the app;
+on a technique defender member it now returns `-1` and the function no-ops, which is a safe
+degradation rather than a wrong seat. Recorded so the next reader does not have to re-derive it.
+`scripts/triple_replay.sh` is **byte-identical at `0390cc44ee7f40e5`** — the same digest v1.125.0
+recorded — so none of this moves an RNG draw or a scripted roll.
+
+**A FLAKE WAS SEEN AND CHASED, NOT WAVED AWAY.** `history-replay`'s phone journey ("closing the
+drawer is how you watch") failed twice during this pass — once inside a full core run, once in an
+isolated run — and both times the machine was rebuilding a bundle in the background. Measured
+rather than assumed: **2 failures in ~204 runs on this branch, 0 in 108 on HEAD's bundle** (six
+`--repeat-each 3` batches each way). Fisher exact **p ≈ 0.55** — the data does not support "this
+change introduced it", and the mechanism agrees: a film's beats step on the REAL frame delta
+(`updateTravel(this._replay ? dt : gdt)`, v1.106.5), so a loaded machine drops frames and the film
+can outrun the assertion. Nothing on that journey's path — `archivedRoll` calls
+`rollFromPosition(a.currentPos)`, always a POSITION — touches `techniqueOrigin`, `siteIdOf` or the
+search filter. **Recorded as a wall-clock-sensitive pre-existing flake, NOT as fixed.**
+
+**KNOWN, NOT FIXED (pre-existing, identical on both graphs).** `_nodeAndRoleForPath` calls
+`decodeURIComponent`, which THROWS on a stray `%` — `Transitions/100%-Sweep` is the only id that can
+produce one, and the `popstate` listener's `try` wraps the `addEventListener` call rather than the
+handler body. A browser percent-encodes `location.pathname`, so this needs a hand-typed URL to
+reach; it is recorded rather than chased.
+
+**WHAT IT COST.** The retirement paid for most of the fixes. Bundle **462,282 → 462,613 raw**
+(+331) and **136,608 → 136,733 gzip -9** (+125) against v1.125.0 — the deletion was −561/−144, and
+the four fixes plus `siteIdOf` and the audit's own reasoning were +892/+269. Browser-measured
+bytes-to-first-hand: **380,343 → 380,403 gzip (+60)**, leaving **4,597 B** of headroom under the
+385,000 ceiling. Payload gate: neural eager **301,751 / 330,000** gzip, **1,415,570 / 1,600,000**
+raw.
+
+**GATES AT v1.126.0.** Core suite **384 passed / 0 failed / 4 skipped** (11.7m); `test:units`
+**75/75**; `e2e:share` **22/22**; `e2e:replay` **6/6**; `triple_replay` 3× byte-identical at
+**`0390cc44ee7f40e5`**; `e2e:gen` at exactly its known **13-red** baseline, same 13 names;
+ordinals, graph (Errors 0), headers, SEO parity, affiliate and payload all OK; `source` `tsc` clean
+with only the two long-standing prettier warnings (`contentPage.tsx`, `path.ts`).
 
 **A DUAL PAIR IS ONE STATE WITH TWO HALVES (v1.114.3, `?dual` prototype).** Owner: *"I like to
 see both variants ... above the videos we should see the two circles ... the position should be

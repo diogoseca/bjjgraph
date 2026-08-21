@@ -78,11 +78,15 @@ Positions/
 
 See CLAUDE.md → "Graph Topology — canonical model & invariants" for the full edge/direction/sink contract.
 
-**Prototype (owner judgment pending):** the visual hub-collapse is slated to be replaced by
-**dual close pairs** — every dual state as TWO adjacent visual nodes (Top/Bottom,
-Attacker/Defender). Prototype renders behind `?dual=fixed|force`; the cutover plan (ordinal
-migration for split nodes, payload impact, camera/focus implications, open design questions)
-lives in [DualPairMigration.md](DualPairMigration.md).
+**SHIPPED (v1.125.0):** the visual hub-collapse is gone from the DEFAULT view. Every dual state
+renders as TWO adjacent nodes (Top/Bottom, Attacker/Defender) on an isometric ground plane, and
+`?dual=legacy` is the escape hatch back to one node per site. **No file on the wire changed** —
+`graph-data.json`, `globalGraphLayout.json` and `node_ordinals.json` are untouched, because both
+roles were already in the data model and the split is derived at ingest (`_deriveDualPairs`). The
+rep member IS the hub node, so hub ids, share ordinals and page URLs are unaffected; only the
+partner mints an id. Details and measurements: CLAUDE.md → "THE PAIR IS THE DEFAULT, AND IT IS
+DERIVED AT INGEST". The design questions behind it — and the cutover plan that was superseded by
+being unnecessary — live in [DualPairMigration.md](DualPairMigration.md).
 
 ---
 

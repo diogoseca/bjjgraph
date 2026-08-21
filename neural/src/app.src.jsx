@@ -552,27 +552,16 @@ class Component extends DCLogic {
         // serves them with a Cache-Control tier (see scripts/regenerate_headers.py). Forcing a
         // revalidation on every boot threw away the one free win available — a returning
         // visitor re-downloaded the entire payload.
-        // PROTOTYPE (dual close-pair graph): ?dual=fixed|force|iso loads a PRE-SPLIT variant of the
-        // layout (scripts/prototype_dual_pair_layout.py). Since v1.125.0 the split is DERIVED from
-        // the standard wire at ingest, so these files exist only to compare the derivation against
-        // the thing it reproduces; `?dual=legacy` names no file at all (it opts OUT of the split)
-        // and must never cost the boot path a 404 round trip.
-        const dv = this._dualVariant() === "legacy" ? null : this._dualVariant();
-        // A PROTOTYPE FLAG MUST NEVER BREAK THE APP (v1.112.1). The dual payloads are dev-only —
-        // dev-serve.mjs maps the URL straight to tests/artifacts/dualpair/payloads/ and they are
-        // NEVER in the shipped tree — so `?dual=iso` against a build without them used to 404 on
-        // all five retries and land in `_fallbackToLegacy()`, which since v1.80.0 falls back to a
-        // front-end that no longer exists: a blank app. Missing prototype data degrades to the
-        // real graph instead, and says so in the console.
+        // ONE PAYLOAD, ONE FETCH (v1.126.0). The dual close-pair graph used to have a second
+        // source: `?dual=fixed|force|iso` fetched a PRE-SPLIT prototype file emitted outside the
+        // shipped tree. Since v1.125.0 the pair is DERIVED from this very payload at ingest and is
+        // the default, so the prototype had nothing left to be: it was 2.47MB of the same graph,
+        // reachable only from a dev server, describing a shape the app now builds itself. The
+        // fork, its dev-serve route and its generator are gone; `?dual=` is a `legacy` switch and
+        // nothing else. See `_dualVariant`.
         // NB the bare `fetch("graph-data.json"` literal below is REWRITTEN by build.mjs to prefix
         // __NEURAL_DATA_BASE; it must survive verbatim or the build throws by design.
-        let r = null;
-        if (dv) {
-          try { r = await fetch(this._dataBase() + "graph-data-dual-" + dv + ".json"); } catch (e) { r = null; }
-          if (r && !r.ok) r = null;
-          if (!r) console.warn("[neural] ?dual=" + dv + " payload not found — run `npm run prototype:dual`. Loading the standard graph.");
-        }
-        if (!r) r = await fetch("graph-data.json");
+        const r = await fetch("graph-data.json");
         if (r.ok) data = await r.json();
       } catch (e) { /* retry */ }
       if (!data) await new Promise((res) => setTimeout(res, 400));
@@ -663,7 +652,10 @@ class Component extends DCLogic {
    */
   _deriveDualPairs(data) {
     const src = data.nodes, N = src.length;
-    if (!N || src.some((n) => n.pairId)) return false;   // already split (the prototype payload)
+    // Idempotence guard: this MUTATES `data`, so it must be a no-op on anything already split.
+    // Nothing in the tree ships a pre-split payload since v1.126.0 (the prototype that did is
+    // retired), but a function that rewrites its own input has to be safe to re-enter regardless.
+    if (!N || src.some((n) => n.pairId)) return false;
     const POS = "positions";
     const SUF = { top: "Top", bottom: "Bottom", attacker: "Attacker", defender: "Defender" };
     // member index is ARITHMETIC — rep at 2i, partner at 2i+1 — so every index the wire carries
@@ -854,8 +846,9 @@ class Component extends DCLogic {
     // ── THE PAIR (v1.125.0) ────────────────────────────────────────────────────────────────────
     // Between the outcome expansion (which this READS, to learn which side each technique lands
     // you on) and the EDGE table below (whose `idxs` and map keys are NODE INDEXES, so the split
-    // has to happen before they are built, not after). `?dual=legacy` is the escape hatch and a
-    // pre-split payload (the `?dual=iso` prototype file) passes straight through.
+    // has to happen before they are built, not after). `?dual=legacy` is the escape hatch, and it
+    // is the ONLY thing that skips this — every other spelling of the flag, and no flag at all,
+    // gets the pair (v1.126.0).
     if (this._dualVariant() !== "legacy") {
       try { this._deriveDualPairs(data); }
       catch (e) { console.warn("[neural] pair derivation failed — rendering hubs:", e); }
@@ -1109,15 +1102,14 @@ class Component extends DCLogic {
           } else posSlugIndex.set(pid, n.idx);
         }
       } else {
-        let tail = (n.id.includes("/") ? n.id.slice(n.id.indexOf("/") + 1) : n.id).toLowerCase();
-        // The ATTACKER member owns the pair's bare technique slug; the defender is reachable only
-        // under its own suffixed key. TWO SHAPES REACH HERE: the derived pair, whose attacker IS
-        // the hub node and so carries the bare id already, and the pre-split prototype payload,
-        // whose attacker id ends "/Attacker". Stripping the suffix is the ONLY difference — both
-        // must go on to register the hyphenated full-name form, and the prototype branch used to
-        // `continue` past it, which would have cost every nested technique its graph.json spelling.
+        const tail = (n.id.includes("/") ? n.id.slice(n.id.indexOf("/") + 1) : n.id).toLowerCase();
+        // The ATTACKER member owns the pair's bare technique slug — it IS the hub node, so it
+        // carries that id already — and the defender is reachable only under its own suffixed key.
+        // (The pre-split prototype payload also reached here, with an id ending "/Attacker" that
+        // had to be stripped first; retired in v1.126.0, and the wire proves it cannot recur —
+        // 0 of 1467 hub ids end in a role suffix in either direction, which is the same
+        // measurement that says a derived partner id can never collide with a hub.)
         if (n.role && n.pairId && n.role !== "attacker") { setTech(tail, n.idx, n.ty); continue; }
-        if (n.role === "attacker" && tail.endsWith("/attacker")) tail = tail.slice(0, -9);
         setTech(tail, n.idx, n.ty);
         if (tail.includes("/")) setTech(tail.replace(/\//g, "-"), n.idx, n.ty); // hyphenated full-name form (graph.json slug)
       }
@@ -1134,18 +1126,14 @@ class Component extends DCLogic {
         }
       }
     }
-    // PRE-SPLIT PROTOTYPE PAYLOAD ONLY: alias each retired HUB id -> its primary member, so
-    // id-keyed consumers (systems lighting, curriculum fog, lists) still resolve. The DERIVED pair
-    // needs none of this — its rep member IS the hub node, id and ordinal included — and the alias
-    // must not run against it: `id.slice(0, lastIndexOf("/"))` on a bare hub id yields the CATEGORY
-    // ("Positions/Mount" -> "Positions"), which would enter `_idIndex` as a node.
-    for (const n of nodes) {
-      if (!n.pairId) continue;
-      const m = /\/(Top|Attacker)$/.exec(n.id);
-      if (!m) continue;
-      const hid = n.id.slice(0, n.id.length - m[0].length);
-      if (hid && !idIndex.has(hid)) idIndex.set(hid, n.idx);
-    }
+    // (A HUB-ID ALIAS PASS LIVED HERE AND IS GONE, v1.126.0.) The pre-split prototype payload
+    // RETIRED the hub id — its members were `<hub>/Top` and `<hub>/Bottom` — so every id-keyed
+    // consumer (systems lighting, curriculum fog, lists, `/l/<code>`) needed the hub aliased back
+    // onto a member. The derived pair does not retire anything: the rep member IS the hub node,
+    // id and share ordinal included, so it is already in `idIndex` under that id by construction.
+    // The pass was worse than redundant against it — `id.slice(0, lastIndexOf("/"))` on a bare hub
+    // id yields the CATEGORY ("Positions/Mount" -> "Positions") — and was held off only by a
+    // `/(Top|Attacker)$/` guard on a shape the wire never contains.
     this._posSlugIndex = posSlugIndex; this._techSlugIndex = techSlugIndex;
     // precomputed DIRECTED edge weights = P(actually taking this edge), for the whole graph:
     //   position -> technique : occurrence% × success% (calibrated attempt & success rates)
@@ -2065,13 +2053,20 @@ class Component extends DCLogic {
   //      any surface holding the deck object sees the cards appear. Surfaces that snapshotted
   //      `_cardsOf(d).slice()` are re-rendered by _onDeckHydrated.
   _dataBase() { return (typeof window !== "undefined" && window.__NEURAL_DATA_BASE) || ""; }
-  // `?dual` selector. **null = the DEFAULT, which is the derived iso pair** (v1.125.0) — the flag
-  // no longer opts IN to anything, it opts OUT or picks a prototype file.
-  //   legacy          : the hub-collapsed graph, one node per site. The escape hatch.
-  //   fixed|force|iso : load that PROTOTYPE payload (dev only, gitignored, never in the shipped
-  //                     tree). Already pre-split, so `_deriveDualPairs` passes it through.
+  /**
+   * `?dual` is a ONE-VALUE SWITCH, and the value is the way OUT (v1.126.0).
+   *
+   * `legacy` = the hub-collapsed graph, one node per site — the escape hatch the owner kept.
+   * **Everything else, `null` included, is the default: the derived iso pair.** The flag has no
+   * opt-IN spelling any more, so `?dual=iso`, `?dual=fixed` and `?dual=force` are
+   * ACCEPTED-AND-IGNORED rather than rejected — the repo's own `?variant=legacy` precedent. That
+   * is not politeness: those three named PROTOTYPE PAYLOADS which no longer exist, and the graph
+   * they used to show is the one a plain visit now shows. An old link lands on what it promised.
+   * A typo'd value has always fallen through to `null`, so this needs no code to be true — which
+   * is exactly why it is written down instead.
+   */
   _dualVariant() {
-    try { const v = new URLSearchParams(location.search).get("dual"); return v === "fixed" || v === "force" || v === "iso" || v === "legacy" ? v : null; } // iso = projection C, the chosen 2.5D paradigm
+    try { return new URLSearchParams(location.search).get("dual") === "legacy" ? "legacy" : null; }
     catch (e) { return null; }
   }
   _ingestDeckManifest(j) {
@@ -5113,7 +5108,14 @@ class Component extends DCLogic {
     }
     // search mode: flat ranked results across all nodes
     if (q) {
-      const matches = this.nodes.filter((n) => n.t.toLowerCase().includes(q)).slice(0, 120);
+      // SEARCH LISTS SITES TOO (v1.126.0). `buildExplorer` filters `rep`; this walks `this.nodes`
+      // DIRECTLY — a query renders flat ranked results before any section exists — so it never
+      // inherited that filter. Both halves of a pair carry the SAME title, so every hit was
+      // DOUBLED with nothing to tell the duplicates apart, and under the 120 cap that HALVED how
+      // many distinct techniques a search could ever reach: "guard" matches 320 sites and could
+      // only ever show 60 of them. `rep` is true for every unpaired node, so this is a no-op on
+      // `?dual=legacy`.
+      const matches = this.nodes.filter((n) => n.rep && n.t.toLowerCase().includes(q)).slice(0, 120);
       if (!matches.length) { list.appendChild(mk('<span style="font-size:12.5px;color:#7e8aa3;padding:8px 0;">No techniques match \u201c' + q + '\u201d</span>', 12)); return; }
       list.appendChild(mk('<span style="font-size:10.5px;letter-spacing:.12em;text-transform:uppercase;color:#7b8aa8;font-weight:700;">' + matches.length + ' result' + (matches.length === 1 ? "" : "s") + '</span>', 12));
       for (const n of matches) {
@@ -5268,13 +5270,38 @@ class Component extends DCLogic {
   // ══════════════════════════════════════════════════════════════════════════════════════
   _ordinalById() { return this._ordById || new Map(); }
   _ordinalIndex() { return this._ordToId || new Map(); }
+  /**
+   * ── A LIST HOLDS SITES, NOT MEMBERS (v1.126.0) ─────────────────────────────────────────────
+   *
+   * Lists are STORED as node ids and SHARED as ordinals, and **only a hub carries an ordinal**:
+   * the rep member IS the hub node, and the partner mints a fresh id (`<hub>/Bottom`,
+   * `<hub>/Defender`) with `o: null` — measured, **0 of 1467 partners carry one**. So a `+`
+   * pressed while you are standing on the LOWER half filed an id that `ngListEncodeIds` reports
+   * as `missing`: the technique is dropped from the share code **silently**, and a one-item list
+   * of it encodes to the EMPTY STRING. That is not an edge case on the paired graph — 136 of the
+   * 272 position landings and 172 of 400 technique seats stand on a partner, i.e. every time the
+   * coach is playing bottom, which is half of jiu-jitsu.
+   *
+   * Normalising in the LIST LAYER rather than at the capture button is deliberate: this is the
+   * layer's own invariant, so a surface added later cannot bypass it by calling `addToList`. It
+   * is an identity on every unpaired node, so `?dual=legacy` and the pre-split world are
+   * untouched — and no shipped build has ever been able to store a member id, so there is nothing
+   * to migrate.
+   */
+  siteIdOf(nodeId) {
+    const i = this._idIndex ? this._idIndex.get(nodeId) : null;
+    const n = i == null ? null : this.nodes[i];
+    if (!n || n.rep || !(n.pi >= 0)) return nodeId;
+    const p = this.nodes[n.pi];
+    return p ? p.id : nodeId;
+  }
   _listsMap() { this.lists = this.lists || {}; return this.lists; }
   listsArray() {
     const m = this._listsMap();
     return Object.keys(m).sort((a, b) => (m[b].t || 0) - (m[a].t || 0));
   }
   activeList() { const m = this._listsMap(); return this.activeListId && m[this.activeListId] ? m[this.activeListId] : null; }
-  activeListHas(nodeId) { const l = this.activeList(); return !!(l && l.items.indexOf(nodeId) >= 0); }
+  activeListHas(nodeId) { const l = this.activeList(); return !!(l && l.items.indexOf(this.siteIdOf(nodeId)) >= 0); }
   newList(name) {
     // id from the clock plus a per-session counter: no RNG (the rigged test RNG must never be
     // spent on bookkeeping), and a same-millisecond collision across two devices is merged
@@ -5317,6 +5344,7 @@ class Component extends DCLogic {
     this._refreshListSurfaces();
   }
   addToList(nodeId, listId) {
+    nodeId = this.siteIdOf(nodeId);   // a list holds SITES — see siteIdOf
     const i = this._idIndex ? this._idIndex.get(nodeId) : null;
     if (i == null || !this.nodes[i]) return { added: false, reason: "unknown_node" };
     const m = this._listsMap();
@@ -5336,6 +5364,7 @@ class Component extends DCLogic {
     return { added: true, listId: id, count: l.items.length };
   }
   removeFromList(nodeId, listId) {
+    nodeId = this.siteIdOf(nodeId);
     const m = this._listsMap();
     const id = listId || this.activeListId;
     const l = id ? m[id] : null; if (!l) return false;
@@ -5597,7 +5626,7 @@ class Component extends DCLogic {
    * from Mount" is. A share link that drops the qualifier destroys its own purpose.
    */
   listItemName(nodeId) {
-    const i = this._idIndex ? this._idIndex.get(nodeId) : null;
+    const i = this._idIndex ? this._idIndex.get(this.siteIdOf(nodeId)) : null;
     const n = i != null ? this.nodes[i] : null;
     return n ? n.t : nodeId;
   }
@@ -5629,6 +5658,7 @@ class Component extends DCLogic {
    * only affordance that says what it does.
    */
   removeListItem(nodeId, listId) {
+    nodeId = this.siteIdOf(nodeId);
     const m = this._listsMap();
     const id = listId || this.activeListId;
     const l = id ? m[id] : null;
@@ -5835,13 +5865,15 @@ class Component extends DCLogic {
   /** Is this technique in ANY list? The + glyph answers that, not "is it in the active one". */
   nodeInAnyList(nodeId) {
     const m = this._listsMap();
-    for (const k of Object.keys(m)) if (m[k].items.indexOf(nodeId) >= 0) return true;
+    const sid = this.siteIdOf(nodeId);
+    for (const k of Object.keys(m)) if (m[k].items.indexOf(sid) >= 0) return true;
     return false;
   }
   /** Every list holding this technique, for the button's title and the picker's checks. */
   listsWith(nodeId) {
     const m = this._listsMap();
-    return Object.keys(m).filter((k) => m[k].items.indexOf(nodeId) >= 0);
+    const sid = this.siteIdOf(nodeId);
+    return Object.keys(m).filter((k) => m[k].items.indexOf(sid) >= 0);
   }
   /** The list the picker offers FIRST — its `[data-picker-default]` row. Not a silent
    *  destination any more: since v1.102.0 nothing files without a pick. */
@@ -5900,6 +5932,7 @@ class Component extends DCLogic {
     el.style.top = top + "px";
   }
   openListPicker(nodeId, surface, anchor) {
+    nodeId = this.siteIdOf(nodeId);   // the picker's ✓ must read the id the list will hold
     this.closeListPicker();
     this.closeAccountMenu();
     const root = this.__ngRoot || document.body;
@@ -7447,23 +7480,32 @@ class Component extends DCLogic {
     if (!this._idIndex) return NONE;
     const id = decodeURIComponent(String(path || "").replace(/^\/+/, "").replace(/\/+$/, ""));
     if (!id) return NONE;                       // "/" is the front door — never seeded
-    let role = null;
+    let role = null, persp = null;
     let i = this._idIndex.get(id);
     if (i == null) {
-      const m = id.match(/^(.*)\/(top|bottom)$/i);   // hub + side, the production shape
-      if (m) { const j = this._idIndex.get(m[1]); if (j != null) { i = j; role = m[2].toLowerCase(); } }
+      // HUB + SIDE. A position's two pages spell it `Top|Bottom`; a TECHNIQUE's spell it
+      // `Attacker|Defender` — and both are real built pages (`content/Transitions/<x>/Defender.md`).
+      // Only half of each pair used to land anywhere (v1.126.0): on the paired graph
+      // `/Transitions/X/Defender` IS a node id so it resolved, while all 1,330 `/Attacker` pages
+      // resolved to nothing, because the attacker member IS the hub and carries the bare id.
+      const m = id.match(/^(.*)\/(top|bottom|attacker|defender)$/i);
+      if (m) {
+        const j = this._idIndex.get(m[1]);
+        if (j != null) { i = j; const w = m[2].toLowerCase(); if (w === "top" || w === "bottom") role = w; else persp = w; }
+      }
     }
     if (i == null) return NONE;
     const n = this.nodes[i]; if (!n) return NONE;
     if (!role && (n.role === "top" || n.role === "bottom")) role = n.role;   // dual: the member IS a side
-    // A TECHNIQUE PAGE SEEDS AT ITS ORIGIN POSITION — the same rule `confirmPlayFrom` uses, and
-    // the reason it exists: `currentPos` must be a position, or the roll begins inside a
-    // transition node with no hand to deal.
+    if (!persp && (n.role === "attacker" || n.role === "defender")) persp = n.role;
+    // A TECHNIQUE PAGE SEEDS AT ITS ORIGIN POSITION, ON THE SIDE ITS PERSPECTIVE NAMES — the same
+    // seam `rollFromPosition` uses, so a typed address and a tapped orb can never disagree.
+    // Before v1.126.0 the Defender pages seeded the ATTACKER's side, 1330 of 1330: the page says
+    // you are the one being armbarred and the app dealt you the armbar.
     if (n.ty !== "positions") {
-      const fp = this.posNodeForId(n.fromPositionId);
-      if (fp < 0) return NONE;
-      if (!role && n.fromRole) role = String(n.fromRole).toLowerCase();
-      i = fp;
+      const o = this.techniqueOrigin(n, persp);
+      if (o.idx < 0) return NONE;
+      return { idx: o.idx, role: role || o.role };
     }
     return { idx: i, role: role };
   }
@@ -7515,6 +7557,50 @@ class Component extends DCLogic {
     if (!posId) return -1;
     for (let i = 0; i < this.nodes.length; i++) { if (this.nodes[i].ty === "positions" && this.nodes[i].posId === posId) return i; }
     return -1;
+  }
+  /**
+   * ── WHERE A TECHNIQUE STARTS, AND ON WHICH SIDE. ONE ANSWER, ONE PLACE (v1.126.0) ──────────
+   *
+   * You cannot roll FROM a technique — `currentPos` must be a position or there is no hand to
+   * deal — so every "play this technique" path has to answer this. Three of them answered it
+   * three different ways, and two were wrong.
+   *
+   *  · `confirmPlayFrom` asked the DATA: `posNodeForId(fromPositionId)`, the single canonical
+   *    origin. Right.
+   *  · `rollFromPosition` — which is what a TAP ON THE GRAPH runs — walked `adj[]` and took the
+   *    first position it met. A technique is adjacent to its origin AND to everywhere its
+   *    outcomes land, in link order, so this is a coin toss with 3-5 sides. **MEASURED over all
+   *    1,331 techniques, on the paired graph AND on `?dual=legacy` alike: the walk disagrees with
+   *    the canonical origin on 907, and the technique you just tapped is not even in the hand you
+   *    are dealt 910 times — 68.4%.** Tapping `Head Extraction to Posture` stood you in Closed
+   *    Guard; it is authored from Gogoplata Control. The canonical origin lands it in the hand
+   *    1326/1331 (99.6% — the 5 misses are `from_position_role_mismatch` content bugs).
+   *    PRE-EXISTING, not a pair regression; the pair is how it got found.
+   *  · ...and on the paired graph the walk got strictly worse: a technique's DEFENDER member
+   *    carries only the pair tie (its edges are all one-for-one on the attacker, by design — see
+   *    `_deriveDualPairs`), so the walk finds NO position at all and `posIdx` fell back to the
+   *    technique itself. Measured: 1,331 of 2,934 nodes stage a roll ON A TECHNIQUE NODE, whose
+   *    "hand" is its own partner. That is one mouse click away on the app's centrepiece.
+   *
+   * THE SIDE COMES WITH THE ORIGIN, because it is the same question. `fromRole` is the side that
+   * PERFORMS the technique (100% covered: 735 top / 596 bottom, no nulls), and a DEFENDER
+   * perspective is the other one — which is what makes `/Transitions/X/Defender` mean anything.
+   * Then we seat you on the HALF that plays that side, so the orb the camera focuses is the orb
+   * you are playing. Identity on an unpaired node.
+   */
+  techniqueOrigin(n, perspective) {
+    const NONE = { idx: -1, role: null };
+    if (!n || n.ty === "positions") return NONE;
+    let idx = this.posNodeForId(n.fromPositionId);
+    if (idx < 0) { for (const k of (this.adj[n.idx] || [])) if (this.nodes[k] && this.nodes[k].ty === "positions") { idx = k; break; } }
+    if (idx < 0) return NONE;
+    const fr = String(n.fromRole || "").toLowerCase();
+    let role = (fr === "top" || fr === "bottom") ? fr : null;
+    const persp = String(perspective || n.role || "attacker").toLowerCase();
+    if (role && persp === "defender") role = role === "top" ? "bottom" : "top";
+    const p = this.nodes[idx];
+    if (role && p && p.pairId && p.role && p.role !== role && p.pi >= 0) idx = p.pi;
+    return { idx: idx, role: role };
   }
   /**
    * `opts.role` (v1.106.5) is for a caller that KNOWS the side, where this function can only
@@ -10179,10 +10265,14 @@ class Component extends DCLogic {
     this.stopReplay("roll");
     this.clearTimers(); this.clearOptions(); this.clearEngagement(); this._cancelCheckpoint();
     this._combo = 0; this._landPending = false; this._updateComboChip(); // fresh match, cold momentum
-    let posIdx = nodeIdx;
+    // A technique is not a state you can stand in: seat the roll at its ONE canonical origin, on
+    // the side that performs it. `techniqueOrigin` is the single seam — see its note for what the
+    // adj-walk this replaces was actually doing (68.4% of taps dealt a hand without the technique
+    // in it, and every lower orb staged a roll on a technique node).
+    let posIdx = nodeIdx, seatRole = null;
     if (this.nodes[nodeIdx] && this.nodes[nodeIdx].ty !== "positions") {
-      let p = -1; for (const k of this.adj[nodeIdx]) { if (this.nodes[k].ty === "positions") { p = k; break; } }
-      posIdx = p >= 0 ? p : nodeIdx;
+      const o = this.techniqueOrigin(this.nodes[nodeIdx]);
+      if (o.idx >= 0) { posIdx = o.idx; seatRole = o.role; }
     }
     // a roll that never played is not a roll: restaging over it archives nothing (see _played)
     if (this._played && this.rollLog && this.rollLog.length > 1) {
@@ -10198,8 +10288,12 @@ class Component extends DCLogic {
     // ROLE: an explicit request wins. Deriving from the title is a CONSTANT for positions — the
     // visual layer titles all 136 of them "… Top" — which is exactly why playFrom had to set the
     // role itself, and why merging the two paths needs this parameter rather than a heuristic.
+    // `seatRole` sits between them: a TAP ON A TECHNIQUE is a request to play THAT technique, and
+    // 596 of the 1,331 are authored from the bottom — the title-derive answers "top" for all 136
+    // positions, so without this the tap deals the hand the technique is not in. It draws no RNG
+    // (the title branch never reaches `rng("role")` for a position, which is every `posIdx` here).
     const t = (this.nodes[posIdx].t || "");
-    this.playerRole = roleOverride
+    this.playerRole = roleOverride || seatRole
       || (/\bbottom\b/i.test(t) ? "bottom" : (/\btop\b/i.test(t) ? "top" : (this.rng("role") < 0.5 ? "top" : "bottom")));
     // dual close-pair prototype: a role MEMBER node IS a side — landing on it means playing it.
     // An explicit roleOverride still wins (the comment above); member role beats title-derivation.

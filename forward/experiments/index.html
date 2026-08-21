@@ -188,8 +188,10 @@
 
       <h2>Projection C, rendered over the real graph</h2>
       <p class="sub">
-        These are real frames of the 2,637-node build (1,170 pairs + 297 singles) through the iso
-        matrix, live behind <code>?dual=iso</code>. Pairs stack vertically — in the mid frame,
+        These are real frames of the 2,637-node prototype build (1,170 pairs + 297 singles) through
+        the iso matrix — the payload the owner judged, kept as the evidence that got it approved.
+        The shipping graph derives its pair from the ordinary wire instead, and pairs
+        <em>everything</em>: 1,467 sites, 2,934 members. Pairs stack vertically — in the mid frame,
         Closed Guard reads as two orbs, the upper one red because being on top inside someone's
         closed guard is genuinely a bad place to be. Ground grid, shadows and underworld tone are
         the next step (the site-rendering pass); this is the geometry, honest.
@@ -310,26 +312,28 @@
 
       <h2>The build sequence</h2>
       <ol class="seq">
-        <li><b>Geometry — DONE.</b><p>The iso variant is emitted (<code>scripts/prototype_dual_pair_layout.py</code>) and rendered above; <code>?dual=iso</code> is live in the prototype build.</p></li>
-        <li><b>Site rendering.</b><p>Ground shadows, the faint iso grid, underworld tone below z=0, side kickers, halo-holds-the-site, partner click = side switch, starfield parallax (background only — node layers never shear).</p></li>
-        <li><b>Compact pair wire.</b><p>Emit sky members + derivation constants; synthesize the underworld at ingest (the v1.108.0 pattern). Measure against the ≤15KB gzip target.</p></li>
-        <li><b>Ordinal cutover.</b><p>Mint member ordinals, retire hub ordinals behind the committed successors map — every WhatsApp link ever posted keeps resolving (Q1 behavior).</p></li>
-        <li><b>Sign-off gate.</b><p>Everything stays behind <code>?dual</code> until the owner plays it and calls it. Then the flag flips to default and the flat layout retires.</p></li>
+        <li><b>Geometry — DONE.</b><p>Projection C, rendered over the real graph. The frames above are the prototype payload that got it judged.</p></li>
+        <li><b>Site rendering — DONE.</b><p>Ground shadows, the faint iso grid, underworld tone below z=0, side kickers, halo-holds-the-site, partner click = side switch.</p></li>
+        <li><b>Compact pair wire — <em>not needed.</em></b><p>The step assumed the pair had to be EMITTED. It does not: both roles were already in the data model, so <code>_deriveDualPairs</code> computes the split from the shipped wire at ingest. <code>graph-data.json</code> is byte-for-byte unchanged and the ≤15KB gzip target is spent as <b>0</b>.</p></li>
+        <li><b>Ordinal cutover — <em>not needed.</em></b><p>Splitting a hub does not retire it. The rep member <b>is</b> the hub node — same id, same ordinal, same URL — so no ordinal was minted, none retired, and no successors map exists. Only the partner mints an id (<code>&lt;hub&gt;/Bottom</code>, <code>&lt;hub&gt;/Defender</code>): 0 of 1467 collide.</p></li>
+        <li><b>Sign-off gate — DONE.</b><p>The owner played it and called it. <b>The pair is the default</b> (v1.125.0); <code>?dual=legacy</code> is the escape hatch back to one node per site, and the prototype payloads that produced the frames above are retired (v1.126.0).</p></li>
       </ol>
 
       <div class="note" style="margin-top: 26px;">
-        <b>Playing it now — two commands:</b>
-        <code>npm run prototype:dual</code> (writes the layout payloads), then restart the dev
-        server with <code>npm run serve</code> — a RESTART is required, because the route that
-        serves these payloads lives in <code>dev-serve.mjs</code> and a server already running
-        predates it. Then open <code>/?dual=iso</code> (also <code>fixed</code>,
-        <code>force</code>).
+        <b>Playing it now — no commands.</b>
+        Open the app. The pair is what a plain visit gets; <code>?dual=legacy</code> is the way
+        back to one node per site.
         <br /><br />
-        The payloads are 2.2MB each and deliberately never enter the shipped tree — the dev
-        server maps the URL straight to <code>tests/artifacts/dualpair/payloads/</code>, so the
-        deployed artifact stays byte-identical and the payload budget is untouched. If they are
-        missing, the flag degrades to the standard graph and says so in the console; a prototype
-        flag never breaks the app. Engineering record: <code>docs/DualPairMigration.md</code> §9–11.
+        <b>The prototype payloads that produced the frames above are retired</b> (v1.126.0), and so
+        are <code>?dual=iso|fixed|force</code>, the generator and the dev-server route that mapped
+        them out of <code>tests/artifacts/dualpair/payloads/</code>. They were 2.2MB each and never
+        entered the shipped tree — which was the point, and is also why they could not become the
+        product. They did not have to: both roles were already in the data model, so the split is
+        DERIVED from the ordinary <code>graph-data.json</code> at ingest and the deployed payload is
+        byte-for-byte what it was. Those three flag values are now accepted-and-ignored, so an old
+        link still lands on the graph it promised. Engineering record:
+        <code>docs/DualPairMigration.md</code> §9–11, superseded by CLAUDE.md → “THE PAIR IS THE
+        DEFAULT, AND IT IS DERIVED AT INGEST”.
       </div>
     </div>
   </body>
