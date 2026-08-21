@@ -18,6 +18,9 @@ const NG_EDGE_LAM = 2;
 // whole hand renders one indistinguishable grey-blue and the colour channel says nothing. Same
 // palette, same deadband, different domain: `potColor`'s own callers are untouched (v1.118.0).
 const NG_EDGE_SAT = 15;
+// How many cards a hand deals on merit. It is a DISPLAY cap, not the action space — see _capHand,
+// which admits one more card per category the top NG_HAND_CAP would otherwise erase.
+const NG_HAND_CAP = 10;
 
 class Component extends DCLogic {
   canvasRef = React.createRef();
@@ -8127,7 +8130,40 @@ class Component extends DCLogic {
     // JIT grade re-sort the tray the player is already reaching into. See _cmpDealt.
     for (const o of out) { o.ord = this.orderScore(o); o.ordOdds = this.moveChance(o.node); }
     out.sort((a, b) => this._cmpDealt(a, b));
-    return out.slice(0, 10);
+    return this._capHand(out);
+  }
+  // ── THE CAP MAY THIN A CATEGORY. IT MAY NEVER ERASE ONE (v1.119.0) ─────────────────────────
+  // The hand is the player's ENTIRE action space for this turn, so a display cap is not only a
+  // ranking question. Ranking by EDGE and then taking the first ten is category-blind, and at
+  // exactly ONE of the 272 role-hands that erases a whole class of move: measured at
+  // side-control/top, the pool survives 25 cards — 16 submissions and 9 transitions — and the ten
+  // best by EDGE are all submissions. Every positional move is cut, INCLUDING `Side Control to
+  // Mount`, which carries the largest attempt probability authored anywhere from that state
+  // (23%). The player standing in the sport's most common top position could not choose to
+  // advance position at all; the only way out of side control was to fail a submission.
+  //
+  // So the cap admits, below the ten, the best-EDGE card of any category the ten leave empty.
+  // ADDITIVE, deliberately: nothing that earned a slot on merit is evicted to make room, the
+  // admitted card is by construction ranked below every card above it, so the hand stays sorted
+  // descending, and it is that category's OWN best — the same rule as the rest of the hand, not a
+  // pity slot. MEASURED blast radius: 1 hand of 272 (side-control/top: 10 → 11 cards, decision
+  // clock 16.2s → 17.0s); every other hand is byte-identical, because 256 of the 272 are under the
+  // cap and the 15 other capped hands lose no category to it.
+  //
+  // NB the `!out.length` fallback above is NOT capped this way: measured, 0 of 272 live hands
+  // reach it (its 3-4 states in `graph.json` all resolve through the app's hub-collapsed
+  // adjacency), so there is no hand there to protect and no behaviour to verify.
+  _capHand(sorted) {
+    if (sorted.length <= NG_HAND_CAP) return sorted;
+    const hand = sorted.slice(0, NG_HAND_CAP);
+    const have = new Set(hand.map((o) => o.node.ty));
+    const extra = [];
+    for (let i = NG_HAND_CAP; i < sorted.length; i++) {
+      const ty = sorted[i].node.ty;
+      if (have.has(ty)) continue;
+      have.add(ty); extra.push(sorted[i]);
+    }
+    return extra.length ? hand.concat(extra) : hand;
   }
   resultPos(actIdx, fromIdx) {
     let best = -1;

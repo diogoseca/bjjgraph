@@ -1080,6 +1080,65 @@ v1.116.0/v1.117.0; this is the app reading it.
 - Pinned by **`e2e/journeys/option-edge.spec.ts`** (8 journeys, 4 `@curated`), mutation-tested by
   `tests/artifacts/_edge_mutants.sh`: seven mutants, seven kills.
 
+**THE CAP MAY THIN A CATEGORY. IT MAY NEVER ERASE ONE (v1.119.0).** The hand is the player's ENTIRE
+action space for the turn, so a display cap is not only a ranking question. Ranking by EDGE and then
+taking the first ten is category-blind, and at **exactly 1 of the 272 role-hands** that erased a
+whole class of move: at `side-control/top` the pool survives **25 cards — 16 submissions and 9
+transitions — and the ten best by EDGE are all submissions**, so every positional move was cut,
+INCLUDING `Side Control to Mount`, which carries the largest attempt probability authored anywhere
+from that state (**23%**). Standing in the sport's most common top position, the only way out of
+side control was to fail a submission.
+- `optionsFor` now ends in **`_capHand(sorted)`**: the top `NG_HAND_CAP` (10) on merit, plus the
+  best-EDGE card of any category those ten leave empty. **ADDITIVE, deliberately** — nothing that
+  earned a slot is evicted to make room, the admitted card is by construction ranked below every
+  card above it (so the hand stays sorted descending), and it is that category's OWN best by the
+  same rule as the rest of the hand, not a pity slot.
+- **MEASURED blast radius: 1 hand of 272.** side-control/top goes 10 → 11 cards (admitting
+  `Side Control to Scarf Hold Position`, **+3 at the authored odds**, the best of its 9 transitions
+  — NOT `Side Control to Mount`, which scores **−2** on **23%** attempt; the floor buys a positional
+  option, not a specific one, and which one is an OPEN question for the owner: "admit the missing
+  category's most-ATTEMPTED card" is an equally defensible rule and would deal Mount instead)
+  and its decision clock goes **16.2s → 17.0s** (`dsec = decisionSec + (n−1)·0.8`, left alone: there
+  really are 11 cards to read). Every other hand is byte-identical — **256 of the 272 are under the
+  cap** and the **15 other capped hands lose no category to it**. `replay-digest` is unmoved
+  (`af3588835ad1c6b6`).
+- The `!out.length` fallback is NOT capped this way: measured, **0 of 272 live hands reach it** (its
+  3-4 `graph.json` role-nodes all resolve through the app's hub-collapsed adjacency), so there is no
+  hand there to protect and no behaviour that could be verified.
+
+**THE HAND'S FOUR OTHER INVARIANTS, WALKED OVER ALL 272 ROLE-HANDS (v1.119.0)** —
+`e2e/journeys/option-hand.spec.ts` (5 journeys, all `@curated`), mutation-tested by
+`tests/artifacts/_hand_mutants.sh`: five mutants, five kills.
+- **The order is the app's own ranking, under a STRICT TOTAL ORDER that is never node index.**
+  `optionsFor` builds its list by walking `adj` — i.e. in node-index order — and `Array#sort` is
+  stable, so a comparator that can return 0 silently hands the decision to the node index. Measured:
+  **0 zero-pairs and 0 non-descending steps across all 272 hands**, and reversing each hand's input
+  and re-sorting reproduces the dealt order in **272 of 272**. The name tiebreak is load-bearing,
+  not decoration: **21 pairs tie on EDGE, odds AND attempt%** and only the name separates them.
+- **The printed integer is `Math.round` of the value the hand was ranked by** — one quantity, two
+  renderings, so the corner number and the position of the card can never describe different things.
+  It follows that printed integers are non-increasing down the hand (**0 violations**).
+- **AN EXACT TIE ON SCREEN IS A TIE IN THE DATA, NEVER A CONSTANT IN THE CODE.** This is the shape of
+  the bug the feature replaced (`+100` on every submission). Two cards may print the same integer as
+  ROUNDING NEIGHBOURS — **129 such groups**, raw values distinct — but where the raw values are
+  bit-identical (**42 groups**) the wire rows behind them are identical too, in **42 of 42**. (Why
+  the exact ties exist at all: `moveChance − p0` is a per-STATE constant, so two moves sharing
+  `(e0, c1)` land on the same raw EDGE regardless of their own rates.)
+- **A submission's odds are its AUTHORED rate.** All **297 of 297** carry a calibrated rate; they run
+  **10%–74% across 37 distinct values**, and **270 of 297 sit outside the 44–47% band** the old
+  dominance fallback (`0.36 + dom·0.1`) collapsed every submission into — that fallback prices the
+  whole corpus at **2 distinct values**. It reaches the card: Mount Top's dealt submissions span
+  **24 points** of printed odds. Reproduce all of it with `tests/artifacts/_hand_measure.mjs`.
+- **`option-hand`'s pool is a second copy of `optionsFor`'s filters, and it knows it** — every
+  journey also asserts POOL ⊇ DEALT, which fails loudly the day the app's filter and the spec's copy
+  disagree.
+- **The mutant for the authored-odds claim needs THREE edits, and that is the finding.** Reverting
+  only the `_tech_keys` slug ladder in `regenerate_neural_data.py` leaves the test GREEN, because two
+  build gates refuse the bad wire in turn — `cal join regressed: only 3/297 submissions carry a
+  successRate`, then `EDGE join regressed: only 976/1246 moves (78.3%) reached a graph-data node`.
+  The wire can no longer rot silently on the build side; the mutant has to disable both gates to
+  reach the browser at all.
+
 **OPEN, MEASURED, OWNER'S CALL — the GRAPH's position colours are top-relative.** `ingest` bakes `dom = n.s[0]` once per node, and for a POSITION `s[0]` is the TOP player's value. **85 of 136 positions (62%) have opposite-sign slots**, so while you play bottom the canvas paints them from your opponent's point of view under a palette whose stated meaning is "blue = good for you, red = good for the opponent" (`domColor`, and that IS how `myColor` uses it). Examples: `Side Control Top` `[+0.328, −0.712]`, `Reverse Mount Top` `[+0.380, −0.420]`. `myColor(n)` is the role-correct read and already exists; making the canvas use it is a visible change to the app's centrepiece (and a per-frame read), so it is deliberately NOT done here.
 
 **LANDING-CARD CHROME, FOUR OWNER REPORTS (v1.104.2).** Pinned by `e2e/journeys/landcard-chrome.spec.ts` (4 journeys, 2 `@curated`, `test.use` 390x844 — three of the four only bite on the phone).
