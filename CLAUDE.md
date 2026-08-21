@@ -846,7 +846,7 @@ The runtime remains one imperative component in `neural/src/app.src.jsx`. Challe
 
 **THE HARNESS WAS HOLDING A PAYLOAD THAT IS NEVER FETCHED (v1.104.6) — root cause of 15 red journeys.** Every cold-start spec armed `boot("/", { payloads: { "flashcards.json": {...} } })`. A bare pattern is a SUBSTRING match over the request URL (`globToRe`), and the app has fetched **`flashcards/_index.json`** since v1.80.4 (`app.src.jsx:442`, via `_dataBase()`) plus per-deck `flashcards/<hash>.json`. `"flashcards/_index.json"` does not contain `"flashcards.json"`, so the rule matched nothing: the payload was never held and every assertion about the 18s cold-start skew was measuring a fully-warm boot. 12 rules + 3 timeline predicates repointed.
 - **The same dead name hid in `build.mjs`.** Two of its four `fetch()` rewrites (`flashcards.json`, `systems.json`) could not fire — both call sites build their URL through `_dataBase()` — and the guard only warned when **every** rule missed, so a rule going stale was invisible. The rewrite table is now iterated per rule and **throws** on any `from` string absent from the source, because a rewrite that cannot fire silently stops prefixing `__NEURAL_DATA_BASE`, which is exactly how the harness serves its fixtures.
-- **CORRECTION to v1.103.0:** `check_position_type_vs_score` never ran. `scripts/validate_graph_integrity.py` used `os.path.dirname` without `import os`, the `NameError` hit a bare `except Exception: return issues`, and the check returned empty on every run — so "0 disagreements across all 272 position-roles" meant "the check never executed". With `os` imported the real figure is **95 `position_type_score_disagreement` warnings**: positions where the authored dominance word disagrees with the arithmetic. The word still wins (v1.103.0 canon); these 95 are content questions, not code ones. The skip path now prints instead of returning silently.
+- **CORRECTION to v1.103.0:** `check_position_type_vs_score` never ran. `scripts/validate_graph_integrity.py` used `os.path.dirname` without `import os`, the `NameError` hit a bare `except Exception: return issues`, and the check returned empty on every run — so "0 disagreements across all 272 position-roles" meant "the check never executed". With `os` imported the real figure was **95 `position_type_score_disagreement` warnings**: positions where the authored dominance word disagrees with the arithmetic. The word still wins (v1.103.0 canon); these are content questions, not code ones. The skip path now prints instead of returning silently. **Re-measured 2026-08-21 (v1.120.0): it is now 49, and classed `info`, not `warning`** — the calibration waves closed 46 of them. The gate's headline is `Errors: 0, Warnings: 7` (`counter_high` 2, `technique_range_low` 4, and one from the bidirectional `from_position` check), with 345 `info` of which 295 are `attempt_negligible`.
 
 **CI THAT COULD NOT PASS, AND GATES WEAKER THAN THE THING THEY GUARD (v1.104.6).**
 - **`e2e-full.yml` packaged an incomplete site — the PR gate for BOTH `main` and `dev` could not pass.** It tarred six allow-listed paths; the specs added since need `public/l.html`, `_redirects`, `l-manifest.json`, `/Positions/*`, `/Systems/*`, `/sitemap.xml`, `/llms.txt`. Now `tar -czf … -C source public`. **If size ever bites, use `--exclude`** — a new emitted path must be packaged by default, because an allow-list rots silently and this one predated every spec that broke on it.
@@ -1003,7 +1003,10 @@ prototype one, because staging any state tears the card down the same way.
 
 **THE OPTION CARD'S GLYPH AND ITS `+N` MEASURE DIFFERENT THINGS (v1.104.3).** Owner: "how come this transition says +13 in blue ... but the icon which has the 4 as the shortkey seems gray reddish? how come that's possible?" **It is not a colour bug**, and the audit says so — 0 of 1203 option cards (all 136 positions × both roles) differ from the role-correct value, because `optionsFor` only ever deals moves YOU perform (the `fromRole` filter, v1.103.0), so you are always the attacker of your own hand and `s[0]` is always your slot there. What the two marks actually say:
 - **the glyph** = the TECHNIQUE's own strength (`domColor(myVal(n))` — is this a strong move?)
-- **the `+N`** = `movePotential` — the value of WHERE IT LANDS YOU.
+- **the `+N`** = `movePotential` — the value of WHERE IT LANDS YOU. **(HISTORY. Neither mark says
+  this any more: the option card's face is EDGE on both channels since v1.118.0, and
+  `movePotential` survives only as the ESCAPE tray's corner value. Read the next three blocks as
+  one arc — this is the problem, the deletion is the answer, and the model is what replaced it.)**
 
 `Open Guard to Double Unders` scores `-0.113` for its attacker and arrives somewhere good: a mediocre technique into a strong position, which is a real and common shape. They share one palette and say so nowhere — a LABELLING gap, not a maths one. `buildOptionCard`/`expandOption` now read `myColor(n)` so the correctness is DERIVED rather than coincidental.
 
@@ -1015,7 +1018,9 @@ occurrence distribution: what people actually do. `0` is not "no value", it is *
 do here*. Q counts not just whether the move works but WHERE A MISS LEAVES YOU, out to the end of a
 real roll — so a 78%-odds move that hands over initiative can score below a 55% one that finishes.
 The build side (the 272-state MDP, `scripts/solve_edge_values.py`, and the `cal.ev` wire) shipped in
-v1.116.0/v1.117.0; this is the app reading it.
+v1.116.0/v1.117.0; this is the app reading it. **The model itself — and the two honesty gaps that
+come with it — is the block below, `EDGE — THE MODEL BEHIND THE NUMBER`. Read it before you change
+anything that feeds EDGE.**
 - **THREE MARKS, TWO CHANNELS.** SHAPE = category (v1.103.6). COLOUR — glyph + clock bar + corner
   number — = **EDGE**. Bottom-right = odds, which are an INPUT to EDGE, so one is inside the other
   and they cannot contradict either. The technique's own strength leaves the card FACE entirely.
@@ -1138,6 +1143,161 @@ side control was to fail a submission.
   successRate`, then `EDGE join regressed: only 976/1246 moves (78.3%) reached a graph-data node`.
   The wire can no longer rot silently on the build side; the mutant has to disable both gates to
   reach the browser at all.
+
+### EDGE — THE MODEL BEHIND THE NUMBER (solver v1.116.0 · wire v1.117.0 · landed v1.120.0)
+
+**In plain English.** Every option card used to carry two marks that both claimed to say "how good
+is this move", and one of them printed `+100` on every submission. EDGE is the one number that
+replaced them: *how much better or worse this move is than the ORDINARY choice from where you are
+standing, counting not just whether it works but where a miss leaves you.* `0` is the normal thing
+to do here, `+18` is "this is the move", `−12` is "people do this and it costs them". It is not an
+opinion and not a heuristic — it is computed by **playing every position out to the end of a real
+roll** and asking how often you tap them versus tap.
+
+**The solver is `scripts/solve_edge_values.py`** (`solve` + `solve_mixture` + `selfcheck` +
+`mutants`). It reads **`graph.json`, never the wire** — the wire is derived and
+was itself broken until v1.115.0, so an offline solve is the only correct place to do this.
+Deterministic across `PYTHONHASHSEED`; the full report runs in ~2s.
+
+**THE STATE MACHINE.** `V = p_win − λ·p_loss` (`R(WIN)=+1, R(LOSS)=−λ, R(DRAW)=0`), and
+`Q(s,a) = p·A + (1−p)·B` where `p` is the calibrated success rate, `A` the success-branch value and
+`B` the miss-branch value. Six rules, each of which is easy to get wrong and each of which was read
+off `neural/src/app.src.jsx` rather than assumed:
+- **272 states.** `graph.json.positions` has 409 keys; **272** end `/top` or `/bottom` and the other
+  **137** (136 hubs + `game-over`) carry `transitions: []` — aggregators, not states. Neutral
+  positions do not exist here: `standing-position`, `clinch` and `open-guard` all split. State is
+  written from **your** side; the opponent occupies `opp(s)`.
+- **INITIATIVE IS ASYMMETRIC, and it is the shipped rule.** A success returns to `enterLand(false)`
+  — **you move again**. A miss that moves you costs 1 ply and hands over the turn; a miss that
+  leaves you where you are costs **0 plies** (`enterFailCal` early-returns with no `startTravel`).
+  `opponentDefend` always ends in `enterLand(false)`, so **the opponent never keeps initiative**.
+  That is a large permanent player advantage. It is what ships, so it is what is modelled — and it
+  is load-bearing: `--mutants` gives the opponent initiative and `V(side-control/bottom)` falls
+  **+0.5055 → +0.2266**; charging the stay-put ply moves it to +0.4933.
+- **YOU argmax; the OPPONENT samples the authored attempt distribution.** Owner's binding note:
+  *"let's not assume yet that the opponent is the same level as we are."* **Not minimax** — this
+  asymmetry is what makes drilling pay.
+- **Actions are ORIGIN-FILTERED, exactly as `optionsFor` deals them**, and when origin empties a
+  hand the model relaxes **ORIGIN, never ROLE** — same rule as the app. **3 role-nodes** hit that
+  fallback in no-gi (`worm-guard/bottom`, `piranha-guard/bottom`, `inverted-lasso-guard/bottom`).
+  Removing the origin filter moves `V(side-control/bottom)` to **+0.6261**, so this is a choice with
+  teeth, not a detail.
+- **THE 42 HUB-TARGET OUTCOME CELLS ARE CHAINED, NOT DROPPED.** 21 sit on `/attacker` nodes and
+  **17 of those are a node's ENTIRE success branch** (`-finish`/`-setup`/`-variation` transitions
+  whose success means "you secured the control"). Dropping and renormalising them — the obvious
+  implementation — leaves **16 dealt actions with `successRate > 0` and no success branch at all**,
+  which is where an earlier pass's *"19 broken content nodes, fail `validate:graph` on them"* claim
+  came from. **It was a model artifact. Do not file those tickets.** Chained: **0**. There is no
+  second-level chain and `selfcheck` asserts it.
+- **Horizon = `maxMoves`, uniform on {9,10,11,12}.** The wire ships the **mixture**; every published
+  table quotes **H=11**, and **80 of the 1246** emitted integers differ between the two by rounding.
+
+**WHY THE OPPONENT MIRROR IS NOT OPTIONAL — the one thing that decides whether the number means
+anything.** The opponent's action set is the **PAIRED role-node's** authored `transitions[]`, sampled
+by `attemptProbability`; their outcomes are read off the technique's `/attacker` node and the landing
+role suffix is flipped back into your frame. The `/defender` nodes are never needed. Three models,
+λ=2, H=11, same-origin:
+
+| model | mean V(top) | mean V(bottom) | bottoms above the mean top state |
+|---|---|---|---|
+| **A — mirrored (the correct one)** | **+0.8368** | **+0.5806** | **27 / 136** |
+| D — no mirror (the opponent draws *your* list) | +0.7612 | +0.8181 | **119 / 136** |
+| E — no opponent at all | +0.9999 | +0.9990 | 35 / 136 |
+
+**Model D inverts the sport** — being underneath becomes better than being on top, in 119 of 136
+positions. **Model E scores `back-control/bottom` — being strangled — at +0.9998**, where loss
+aversion is literally meaningless. The reason is content, not arithmetic: **166 of 272 role-nodes
+(61.0%) author zero submissions** (Side Control Bottom: 11 moves, 0 submissions; Mount Bottom: 7, 0)
+while Side Control Top puts **49% of its no-gi attempt mass on 16 submissions**. **λ enters ONLY
+through the mirror**: at `side-control/bottom`, `V = +0.5055` but `U = −0.1859` with `p_loss 0.3917`
+— a **0.6914 swing** that exists only because the opponent's submission hand is in the model.
+
+**THE FULLY-SYMMETRIC RESIDUAL IS NOT EVIDENCE ABOUT CONTENT — do not quote it as such.** The
+report prints it (mean `2.26e-17`, exactly 0 at every horizon), and it is close to a **tautology**:
+`--mutants` corrupts an `/attacker` outcome cell and it stays at 2.2e-16, replaces `flip()` with the
+identity and it stays at ~0. It detects exactly ONE thing — the opponent sourced from the wrong node
+(0.2508). **The mirror's zero-violation claim rests on the direct 6-invariant test over 1331 pairs**,
+which DOES go red: one flipped `/defender` probability → `FAIL {'probability': 2}`, one retargeted
+outcome → `FAIL {'to_flip': 1}`, both exit 1.
+
+**Structural facts the self-check gates on every run** (all green today, so the gate ships green and
+only fires on a content regression): attempt sums == 100 in **272/272**; outcome sums == 100 in
+**2662/2662** technique role-nodes over **8320 cells** (`success 4160 / failure 2806 / counter 1354`);
+**0 unresolved targets**; `game-over` reached by **594 cells, every one from a submission — 0 from a
+transition**; the mirror **1331 pairs, zero violations**; branch form self-consistent to **2.22e-16**.
+
+**THE TWO HONESTY GAPS. Both are live in the shipped app; both are disclosed, not fixed.**
+
+1. **`opponentDefend` IS NOT THE OPPONENT THE MODEL ASSUMES, and this is the biggest one.** It
+   iterates `this.adj[this.currentPos]` — **undirected, hub-collapsed adjacency** — with **no role
+   filter and no origin filter**, picks a finish with `pFinish = clamp(0.34 + oppAdv*0.55, .18, .85)`
+   and otherwise takes one of the top 3 by `oppVal`. **It never reads `attemptProbability`.**
+   MEASURED over all 272 role-states, reproducing its own gather (adjacency, non-positions, deduped
+   by title): the shipped opponent chooses from **39.2 candidate technique nodes per state**, the
+   model's from **9.1**; **only 23.2% of what the shipped opponent may pick is a move the model's
+   opponent would ever consider** (the modelled set is a strict subset — 2476 of 2476 survive into
+   the shipped pool — so it is pure OVER-inclusion, taking in moves authored for *your* role and
+   moves that originate somewhere else entirely). **EDGE therefore describes a
+   better-behaved opponent than the one you actually face.** Making the game match the number is a
+   large, separate, owner-gated change; until it happens this sentence belongs in any copy that
+   explains EDGE.
+2. **`resolve()` coerces the outcome branch instead of drawing inside it, and the spec called fixing
+   it BLOCKING.** It rolls a Bernoulli on `moveChance`, draws from the **whole** authored
+   distribution, then repairs a mismatch with `outcomes.find(...)` — the *first* matching cell, not
+   a re-draw within the branch. Re-measured here against the authored within-branch kernel the model
+   assumes: **TV distance mean 0.0902 · median 0.0825 · max 0.2440, and TV == 0 on ZERO of the 1331
+   nodes**; **> 0.10 on 276 (20.7%)**. Because **1327 of 1331** outcome lists end in a `counter`, the
+   coercion systematically drains counters into the first `failure`. **This did not ship** — it
+   re-baselines `replay-digest` and was cut from the landing pass. So the miss distribution the card
+   prices is not exactly the miss distribution the roll rolls.
+
+**REFUTED, and measured here rather than inherited.** The spec's "genuinely uncertain" note claims
+`p_win` is compressed into **0.80–0.99** across all 272 states. It is not: the floor is **0.5538**
+at `invisible-collar/bottom` and **39 of 272** states sit below 0.80. EDGE is a difference so it is
+immune either way, but do not repeat the compressed-range claim.
+
+**THREE MODELLING CHOICES THAT ARE CHOICES, NOT FACTS** — if you are about to defend a number, know
+which of these it rests on. (a) **The zero point is the Q3 Delphi occurrence distribution.** `B(s)`
+calls "ordinary" whatever `attempt_probability` says people do; if those are wrong, EDGE's zero is
+wrong even when every `Q` is right. (b) **The chain performer is label-driven** (success → the actor
+performs, failure/counter → the opponent does). Switching to "the actor always performs" moves
+`V(mount/top)` and `V(side-control/bottom)` by **less than 1e-4**, so it is settled empirically, not
+by argument. (c) **The wire is the horizon MIXTURE, the tables are H=11.**
+
+**COPY THAT IS NOW FALSE AND IS *NOT* FIXED HERE.** Settings → Rolling → **"Option ordering"** still
+offers `Potential` / `Popularity` and describes Potential as *"a Bayesian estimate blending how
+likely you are to land the move, how strong the resulting position is, and how many follow-ups it
+opens"*. That is a description of `movePotential`, which the hand **no longer ranks by** — the
+`"potential"` branch of `orderScore` is `moveEdge`. The label and its explainer are stale.
+
+**AND ITS OTHER OPTION IS WORSE THAN STALE — `Popularity` PRINTS A RANKING IT DOES NOT USE.**
+`orderScore` forks on `cardOrder`, but `edgeMark` does not: with `Popularity` selected the hand is
+sorted by `movePopularity` while every card still shows its EDGE. MEASURED over all 270 live hands
+(`tests/artifacts/_edge_cardorder_probe.mjs`): under `Potential`, **0 hands** print an EDGE that
+runs out of descending order; under `Popularity`, **211 of 270 do**. Worst case
+`back-control/bottom` prints `[−6, −20, +6, +8, −2, +14, +17, +19]` — the corner numbers climb as
+you read down the tray and the `+19` card is dealt LAST. That is precisely the "a legitimate ranking
+reads as a bug" failure the `Edge` caption exists to prevent, one settings click from the default.
+Whoever fixes the copy fixes this in the same pass: either `Popularity` suppresses the EDGE mark
+(the wire-absent rule already exists — render nothing, never a fabricated number), or the setting
+goes. **Do not ship the λ dial next to a sibling row that contradicts it.**
+
+The `lossAversion` dial that ought to live beside them ("What matters more: Winning / Balanced / Not
+getting caught", λ ∈ 1|2|4, the wire already carries all three blocks) is **not built** —
+`_evLamIdx()` reads the key with `NG_EDGE_LAM = 2` and falls back to the first block rather than
+guessing, because a wrong λ block is a silently WRONG ranking, not a missing one. Fixing the copy
+and shipping the dial is one job, and it is the next one.
+
+**ALSO NOT BUILT** from the spec, so nobody hunts for it: the primary/tail band (`EDGE ≤ −3` →
+"rarely the right call"), the live-band decision clock, un-hiding `.ng-seemore` on mobile, the
+sheet's `WHAT IT'S WORTH` block and the legend line. The hand is still capped at `NG_HAND_CAP`
+(plus `_capHand`'s category floor).
+
+**Reproduce any of it** — `python3 scripts/solve_edge_values.py` (report), `--verify` (measured vs
+the spec's published headlines, side by side), `--mutants` (the mirror invariant + the five
+load-bearing model rules, each reverted so you can see which checks move and which — deliberately —
+do not), `--hand side-control/bottom` (the seven-card table this feature is sold on),
+`--lam/--horizon/--frame`.
 
 **OPEN, MEASURED, OWNER'S CALL — the GRAPH's position colours are top-relative.** `ingest` bakes `dom = n.s[0]` once per node, and for a POSITION `s[0]` is the TOP player's value. **85 of 136 positions (62%) have opposite-sign slots**, so while you play bottom the canvas paints them from your opponent's point of view under a palette whose stated meaning is "blue = good for you, red = good for the opponent" (`domColor`, and that IS how `myColor` uses it). Examples: `Side Control Top` `[+0.328, −0.712]`, `Reverse Mount Top` `[+0.380, −0.420]`. `myColor(n)` is the role-correct read and already exists; making the canvas use it is a visible change to the app's centrepiece (and a per-frame read), so it is deliberately NOT done here.
 
