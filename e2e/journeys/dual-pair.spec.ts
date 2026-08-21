@@ -521,6 +521,14 @@ test("zoomed out, a pair is one site again and the group stands down", async ({ 
   await page.mouse.move(c.upper.sx - 40, c.upper.sy - 40)
   await page.mouse.move(c.upper.sx, c.upper.sy)
   await j.advance(120)
+  // THE GROUP ITSELF IS THE ORACLE. A band-emptiness check does not survive contact with the
+  // v1.129.0 two-line label: the ordinary hover label now draws a dimmer "from …" line just under
+  // the name, and at merge scale the members are coincident so that line lands ON the midline —
+  // measured {above:742, name:263, below:16}, which fails a "midline is quiet" assertion on a
+  // perfectly correct build. `_lastPairLabel` is published by `pairGroup` and cleared every frame,
+  // so it answers the actual question: did the group render here?
+  const grp = await page.evaluate(() => (window as any).__neural._lastPairLabel)
+  expect(grp, `no pair group is drawn at merge scale (got ${JSON.stringify(grp)})`).toBeFalsy()
   const m = await strips(page, c.mid, x)
   // THE MIDLINE IS THE ORACLE, and it has to be — "nothing is drawn" would be false and would
   // fail for the right reason on a correct build: the ordinary single-node label TAKES THE HOVER
@@ -531,14 +539,8 @@ test("zoomed out, a pair is one site again and the group stands down", async ({ 
     m.above + m.below,
     `the hover still names the node — the ordinary label took it back (${JSON.stringify(m)})`,
   ).toBeGreaterThan(60)
-  // A RATIO, not a constant: the members are coincident here, so the single label's descenders
-  // bleed a few dozen pixels into the midline band (measured 48 against 663 above it). The claim
-  // is about where the MASS is — above the node, not on the midline — and a bleed threshold tuned
-  // to one frame's antialiasing is the kind of number that goes stale silently.
-  expect(
-    m.name,
-    `no pair group is drawn on a merged pair's midline (${JSON.stringify(m)})`,
-  ).toBeLessThan((m.above + m.below) / 4)
+  // (the pixel half now only asserts that SOMETHING was named — which line it landed on is the
+  // two-line label's business, and the group's absence is already established above.)
 })
 
 /**
@@ -604,6 +606,61 @@ test("@curated the phone frames the orb AND its name, centred together", async (
   expect(w.labelW, "this is the widest position label in the corpus").toBeGreaterThan(200)
   expect(w.right, `the widest name still fits (${Math.round(w.left)}..${Math.round(w.right)})`).toBeLessThan(w.W)
   expect(w.left, "without pushing the orb off the left").toBeGreaterThan(0)
+})
+
+/**
+ * THE ORB NEVER HUGS THE LEFT EDGE (v1.129.0). @curated
+ *
+ * Owner: "we want the node to be on the left of the centered label BUT not so close to the edge
+ * (at least like 50px distance from the left edge i guess)."
+ *
+ * Pure block-centring puts the orb further left the longer the name is, and on a narrow phone that
+ * walks it into the bezel. `NG_LABEL_LEFT_MIN` is a floor on the drawn SILHOUETTE — not the centre —
+ * so a big focus orb is held off by the same visible margin as a small one.
+ *
+ * MEASURED, on the widest position name in the corpus ("Straight Ankle Lock Control"): at 320px
+ * (iPhone SE) pure centring wants the orb edge at 30 and the clamp holds it at exactly 50, with the
+ * label still ending at 309 of 320; at 360 it binds at exactly 50; at 390 it does NOT bind (64) and
+ * pure centring wins. A floor that engages only when it is needed, which is what makes it a floor
+ * and not a constant.
+ */
+test("@curated on a narrow phone the clamp holds the orb off the edge, and the name still fits", async ({
+  page,
+}) => {
+  const j = journey(page)
+  for (const width of [320, 360, 390]) {
+    await page.setViewportSize({ width, height: 780 })
+    await j.boot("/Positions/Straight-Ankle-Lock-Control")
+    await settle(page, j)
+    const g = await page.evaluate(() => {
+      const a: any = (window as any).__neural
+      const scale = a.W / a.cam.vw
+      const K = Math.max(0.4, Math.min(1, a.cam.vw / (a.graphW * 0.5)))
+      const f = a.nodes[a.focusIdx]
+      const p = f.pi >= 0 ? a.nodes[f.pi] : null
+      const sx = (a.pairMid(f).x - a.cam.cx) * scale + a.W / 2
+      const r = Math.max(f.r * K * scale, p ? p.r * K * scale : 0) * 1.28
+      const lw = a._labelWidthPx(f, f.pi >= 0)
+      return {
+        W: a.W,
+        min: a.NG_LABEL_LEFT_MIN,
+        orbLeft: sx - r,
+        wantedLeft: a.W / 2 - (11 + lw) / 2 - r, // where pure centring alone would put it
+        labelRight: sx + r + 11 + lw,
+      }
+    })
+    expect(
+      g.orbLeft,
+      `${width}px: the orb keeps its margin (edge at ${Math.round(g.orbLeft)}, floor ${g.min})`,
+    ).toBeGreaterThanOrEqual(g.min - 0.5)
+    expect(g.labelRight, `${width}px: and the name still fits on screen`).toBeLessThan(g.W)
+    // the floor must ENGAGE somewhere, or it is untested decoration: 320 is the case that needs it
+    if (width === 320)
+      expect(
+        g.wantedLeft,
+        "at 320px pure centring really would have pushed the orb inside the floor",
+      ).toBeLessThan(g.min)
+  }
 })
 
 /** ...AND DESKTOP KEEPS THE 44% READING BIAS, because there was never a problem to solve there. */

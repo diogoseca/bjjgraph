@@ -14,7 +14,7 @@ import { journey } from "../dsl"
  *   [data-jit-reveal] — reveal-answer button of the current micro-card
  *   [data-jit-got]    — "Got it" grade button (credits prep + pumps odds)
  *   [data-odds]       — the sheet's live odds odometer element (textContent = "NN%")
- *   beats: jit_opened, bonus_pumped (existing), timer_refund {granted}, expiry_warning, auto_pick
+ *   beats: jit_opened, bonus_pumped (existing), timer_refund {granted}, expiry_warning, hesitated
  *   __neural.decisionRemaining() — seconds left in the current decision window (test read API)
  */
 
@@ -96,18 +96,27 @@ test("drilling refunds decision time, capped at 2 per window", async ({ page }) 
   expect(refunds.map((r: any) => r.granted)).toEqual([true, true, false])
 })
 
-test("expiry narrates 3-2-1 and auto-picks with a pop (no silent teleport)", async ({ page }) => {
+test("expiry narrates 3-2-1 and hands the exchange to the opponent (no silent teleport)", async ({
+  page,
+}) => {
+  // REWRITTEN AT v1.129.0, because its subject was retired rather than renamed. This asserted
+  // `auto_pick` — the expiry playing YOUR hand for you from a pool weighted toward your dominant
+  // moves. The owner replaced that with the BJJ answer: freezing hands the initiative over. So
+  // there is no auto-pick and no player commit to assert; what must still hold is that the timeout
+  // is NARRATED (the "no silent teleport" half, which is the part of this test worth keeping).
   const j = journey(page)
   await j.boot("/")
   await j.land("Mount Top")
-  // let the decision window run out (rig the auto-pick for determinism)
-  await j.rig("auto-pick", [0])
   await j.rig("resolve", [0.99]) // whatever happens after, keep it deterministic
   await j.rig("outcome", [0.5])
   await j.advance(30_000)
   const beats = (await j.beats()).map((b) => b.beat)
   expect(beats).toContain("expiry_warning")
-  expect(beats).toContain("auto_pick")
+  expect(beats, "the freeze is a named beat, not a silent teleport").toContain("hesitated")
+  expect(
+    beats.filter((b) => b === "opponent_move" || b === "opponent_attack").length,
+    "and the opponent took the exchange the player did not",
+  ).toBeGreaterThan(0)
 })
 
 test("honest economy: revealing a card is 'seen', only grading credits mastery", async ({ page }) => {

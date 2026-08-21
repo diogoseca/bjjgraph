@@ -234,3 +234,94 @@ test("the sentences after an expiry survive the hand being torn down", async ({ 
     `the roll went on speaking after it (saw: ${JSON.stringify(uniq)})`,
   ).toBeGreaterThan(0);
 });
+
+/**
+ * FREEZING HANDS OVER THE INITIATIVE (v1.129.0). @curated
+ *
+ * The dead-copy finding above turned out to sit on top of a gameplay problem, and the owner asked
+ * for the gameplay answer rather than a copy fix.
+ *
+ * WHAT THE CLOCK RUNNING OUT USED TO DO was play your hand FOR you: a weighted draw over your own
+ * options with `w = max(0.12, 0.5 + dom)` — biased toward your DOMINANT moves. So hesitating was
+ * rewarded with a decent move, and the sentence explaining it was overwritten synchronously before
+ * a frame rendered. The player watched their own hand play itself, well, for no stated reason.
+ *
+ * WHAT IT DOES NOW: in BJJ, freezing in a live exchange means THEY move first. It is the same
+ * currency the rest of the engine is priced in — the asymmetric-initiative rule behind EDGE says a
+ * success returns the turn to you and a miss hands it over, so hesitation costing you the turn is
+ * consistent rather than novel.
+ *
+ * AND IT CANNOT SPIRAL, BY CONSTRUCTION: `opponentDefend` always ends in `enterLand(false)` (or
+ * `enterDefense`, or `endRound`), so the opponent never keeps initiative. You freeze, they take
+ * ONE exchange, the board comes back. A player who never presses anything is not locked out of the
+ * game — they are just losing it, correctly.
+ */
+test("@curated the clock running out gives the opponent the exchange, and says so first", async ({
+  page,
+}) => {
+  const j = journey(page);
+  await j.boot("/");
+  await j.advance(6000);
+
+  // walk the announcer at 100ms so the ORDER of the sentences is observed, not inferred
+  const said: string[] = [];
+  for (let i = 0; i < 240; i++) {
+    await j.advance(100);
+    const s = await page.evaluate(() => {
+      const n: any = (window as any).__neural;
+      const k = n.evKickerRef.current;
+      return { label: k ? k.textContent : null, opacity: n.evRef.current?.style.opacity };
+    });
+    if (s.label && s.opacity === "1" && said[said.length - 1] !== s.label) said.push(s.label);
+    if (said.indexOf("Opponent goes for") >= 0) break;
+  }
+
+  // THE CAUSE IS READ BEFORE THE EFFECT. This is the half a synchronous hand-over would fail: the
+  // announcer has ONE slot, so without the hold "Time's up" would be overwritten unseen — which is
+  // exactly the pre-existing defect this replaces.
+  const iUp = said.indexOf("Time's up");
+  const iOpp = said.indexOf("Opponent goes for");
+  expect(iUp, `the expiry announced itself (saw ${JSON.stringify(said)})`).toBeGreaterThanOrEqual(0);
+  expect(iOpp, "and the opponent then took the exchange").toBeGreaterThan(iUp);
+
+  // ...AND IT REALLY IS THE OPPONENT ACTING, not your own hand being auto-played.
+  const beats = (await j.beats()).map((b) => b.beat);
+  expect(beats, "the hesitation is a named beat").toContain("hesitated");
+  expect(beats, "the old auto-pick is retired from this path").not.toContain("auto_pick");
+  expect(
+    beats.filter((b) => b === "opponent_move" || b === "opponent_attack").length,
+    "the opponent moved",
+  ).toBeGreaterThan(0);
+});
+
+/**
+ * ...AND IT HANDS BACK. The bound is what makes this safe to ship rather than a death spiral, so
+ * it is asserted rather than argued: after the opponent's one exchange the player is dealt a hand
+ * again (or is in a defence, which is also theirs to answer). Nothing here can leave a player with
+ * no move to make.
+ */
+test("hesitating costs one exchange, not the game", async ({ page }) => {
+  const j = journey(page);
+  await j.boot("/");
+  await j.advance(6000);
+  for (let i = 0; i < 240; i++) {
+    await j.advance(100);
+    const b = (await j.beats()).map((x) => x.beat);
+    if (b.indexOf("hesitated") >= 0) break;
+  }
+  expect((await j.beats()).map((b) => b.beat), "we really hesitated").toContain("hesitated");
+
+  // let the opponent's exchange play out
+  let back = false;
+  for (let i = 0; i < 200; i++) {
+    await j.advance(100);
+    back = await page.evaluate(() => {
+      const a: any = (window as any).__neural;
+      // a hand to play, a defence to answer, or the round is over — any of the three is "the game
+      // gave me something to do". A frozen board with none of them is the spiral this rules out.
+      return (a.optionIdxs || []).length > 0 || !!a._defense || !!a._roundOver;
+    });
+    if (back) break;
+  }
+  expect(back, "the board came back to the player within one exchange").toBe(true);
+});

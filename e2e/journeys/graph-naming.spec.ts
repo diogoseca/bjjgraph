@@ -646,3 +646,171 @@ test("@curated no position label the graph draws carries its role", async ({ pag
     `nothing is drawn where " Top" would be (${JSON.stringify(px)}, roleless ${Math.round(shot!.wRoleless)}px vs roled ${Math.round(shot!.wRoled)}px)`,
   ).toBeLessThan(px.name / 6)
 })
+
+/**
+ * THE QUALIFIER IS ITS OWN LINE (v1.129.0). @curated
+ *
+ * Owner, on names running off a phone: "probably a great idea to do wrapping in that case".
+ *
+ * The break is SEMANTIC, not arbitrary. `splitName` already separates "Rear Naked Choke" from
+ * "from Seat Belt Control Back", and the app already renders exactly that pair as bold-over-dimmer
+ * in `setEvent`, in every Explore row and in every list surface — so putting the graph label on the
+ * same idiom halves the widest line AND stops the canvas being a second naming system.
+ *
+ * MEASURED at the hover label's 13px, over the whole corpus: the widest SUBMISSION label goes
+ * 330px -> 165px (295 of 297 carry a qualifier). Transitions keep a 275px worst case because 681
+ * of 1034 have no "from" at all — those are handled by `_fitText`, which ellipsizes to the room
+ * actually available rather than running off the screen.
+ */
+test("@curated a qualified technique name is drawn as two lines, not one long one", async ({
+  page,
+}) => {
+  const j = journey(page)
+  await j.boot("/Positions/Side-Control/Bottom")
+  await j.advance(6000)
+
+  // a technique pair with a real qualifier, well clear of other nodes in its own label bands
+  const pick = await page.evaluate(() => {
+    const a: any = (window as any).__neural
+    const scale = a.W / a.cam.vw
+    const K = Math.max(0.4, Math.min(1, a.cam.vw / (a.graphW * 0.5)))
+    const P = (n: any) => ({
+      sx: (n.x - a.cam.cx) * scale + a.W / 2,
+      sy: (a._LY(n) - a.cam.cy) * scale + a.H / 2,
+    })
+    let best: any = null
+    for (const n of a.nodes) {
+      if (n.ty === "positions" || n.pi < 0 || n.z <= 0) continue
+      if (!a.splitName(n.t).from) continue // must actually have a qualifier to split
+      // ...AND ITS SHORT NAME MUST BE AMBIGUOUS, so `displayName` really would print the long
+      // inline form. Without this the candidate can be a technique whose short name is unique,
+      // where `displayName(n) === splitName(n.t).main` — and the "prints the inline long name"
+      // mutant is then a NO-OP on the very node the test picked, and survives. (It did.)
+      if (a.displayName(n) === a.splitName(n.t).main) continue
+      if (n.idx === a.focusIdx || n.idx === a.nodes[a.focusIdx].pi) continue
+      const p = P(n)
+      const q = P(a.nodes[n.pi])
+      if (!(p.sx > 100 && p.sx < a.W - 320 && Math.min(p.sy, q.sy) > 90 && Math.max(p.sy, q.sy) < a.H - 330)) continue
+      let clear = 1e9
+      for (const m of a.nodes) {
+        if (m.idx === n.idx || m.idx === n.pi || !m.rep) continue
+        const r = P(m)
+        if (Math.abs(r.sy - (p.sy + q.sy) / 2) > 46) continue
+        if (r.sx <= p.sx) continue
+        clear = Math.min(clear, r.sx - p.sx)
+      }
+      if (clear < 300) continue
+      if (!best || clear > best.clear)
+        best = { sx: p.sx, sy: p.sy, mid: (p.sy + q.sy) / 2, r: n.r * K * scale, clear,
+                 main: a.splitName(n.t).main, from: a.splitName(n.t).from, t: n.t }
+    }
+    return best
+  })
+  expect(pick, "there is an isolated qualified technique pair on screen").not.toBeNull()
+
+  // THE TAIL WINDOW: where the INLINE long name would reach and the short name never does.
+  const win = await page.evaluate(
+    ({ main, disp }: any) => {
+      const a: any = (window as any).__neural
+      const c = document.createElement("canvas").getContext("2d")!
+      c.font = "700 15px " + (a._displayFam || "'Space Grotesk'") + ", sans-serif"
+      return { short: c.measureText(main).width, long: c.measureText(disp).width }
+    },
+    { main: pick!.main, disp: pick!.disp },
+  )
+
+  // A CONTROL FRAME, because the band is NOT empty on a correct build. Measured while chasing this:
+  // the PARTNER orb's own label lands at baseline 154 inside a 144..160 window, so a raw reading
+  // reports ~266 bright px whether the group drew a short name or a long one — and the "prints the
+  // inline name" mutant SURVIVED a raw assertion for exactly that reason. Everything the graph
+  // draws anyway subtracts to zero; only what the hover ADDS is attributable to the group.
+  const band = ({ sx, mid, r, from, to }: any) =>
+    page.evaluate(
+      ({ sx, mid, r, from, to }: any) => {
+        const a: any = (window as any).__neural
+        const cv: HTMLCanvasElement = a.canvas
+        const ctx = cv.getContext("2d")!
+        const dpr = cv.width / cv.clientWidth
+        const ox = sx + r + 11
+        const x0 = Math.round((ox + from) * dpr)
+        const w = Math.max(1, Math.round((to - from) * dpr))
+        const d = ctx.getImageData(x0, Math.round((mid - 4) * dpr), w, Math.round(16 * dpr)).data
+        let n = 0
+        for (let i = 0; i < d.length; i += 4)
+          if (0.2126 * d[i] + 0.7152 * d[i + 1] + 0.0722 * d[i + 2] > 70) n++
+        return n
+      },
+      { sx, mid, r, from, to },
+    )
+
+  const geom = { sx: pick!.sx, mid: pick!.mid, r: pick!.r }
+  const tail = { ...geom, from: win.short + 14, to: win.long }
+  const body = { ...geom, from: 2, to: win.short - 6 }
+  const coldTail = await band(tail)
+  const coldBody = await band(body)
+
+  await page.mouse.move(pick!.sx - 50, pick!.sy - 50)
+  await page.mouse.move(pick!.sx, pick!.sy)
+  await j.advance(120)
+
+  const hotTail = await band(tail)
+  const hotBody = await band(body)
+
+  // WHAT THE FRAME ACTUALLY PASSED TO fillText. The pixel bands below prove a qualifier line is
+  // RENDERED; this proves WHICH STRING the main line is — and it has to come from the app, because
+  // `ox` is derived from `halfW`, a draw-local closure. Three pixel oracles built on a recomputed
+  // `ox` all landed over the name's body instead of its tail and let the "inline long name" mutant
+  // through. `_lastPairLabel` is published by the renderer itself, so this reads output, not logic.
+  const drawn = await page.evaluate(() => (window as any).__neural._lastPairLabel)
+  expect(drawn, "the pair group published what it drew").not.toBeFalsy()
+  expect(drawn.idx, "…for the pair we are pointing at").toBe(
+    await page.evaluate(() => (window as any).__neural._hover.idx),
+  )
+  expect(
+    drawn.main,
+    `the main line is the SHORT name, not the inline qualified one (drew "${drawn.main}")`,
+  ).toBe(pick!.main)
+  expect(drawn.qual, "and the qualifier is a separate string on its own line").toBe(pick!.from)
+  // SELF-CHECK: the hover must have added a name at all, or an empty tail proves nothing.
+  expect(
+    hotBody - coldBody,
+    `the hover drew a name on the pair's midline (body ${coldBody} -> ${hotBody})`,
+  ).toBeGreaterThan(40)
+  expect(
+    hotTail - coldTail,
+    `and nothing where the INLINE long name would have reached (tail ${coldTail} -> ${hotTail}, window ${Math.round(win.short + 14)}..${Math.round(win.long)}px)`,
+  ).toBeLessThan((hotBody - coldBody) / 5)
+
+  // the group draws the main name at `mid + 6` and the qualifier at `mid + 21`
+  const rows = await page.evaluate(
+    ({ sx, mid, r }: any) => {
+      const a: any = (window as any).__neural
+      const cv: HTMLCanvasElement = a.canvas
+      const ctx = cv.getContext("2d")!
+      const dpr = cv.width / cv.clientWidth
+      const x0 = Math.round((sx + r + 14) * dpr)
+      const band = (y0: number, y1: number) => {
+        const w = Math.round(300 * dpr)
+        const d = ctx.getImageData(x0, Math.round(y0 * dpr), w, Math.round((y1 - y0) * dpr)).data
+        let n = 0
+        let last = -1
+        for (let i = 0; i < d.length; i += 4)
+          if (0.2126 * d[i] + 0.7152 * d[i + 1] + 0.0722 * d[i + 2] > 70) {
+            n++
+            const px = (i / 4) % w
+            if (px > last) last = px
+          }
+        return { n, reach: last < 0 ? 0 : last / dpr }
+      }
+      return { main: band(mid - 8, mid + 8), qual: band(mid + 11, mid + 24) }
+    },
+    { sx: pick!.sx, mid: pick!.mid, r: pick!.r },
+  )
+
+  expect(rows.main.n, `the main name is drawn (${JSON.stringify(rows)})`).toBeGreaterThan(60)
+  expect(
+    rows.qual.n,
+    `and the "from …" qualifier is drawn BENEATH it rather than inline (${JSON.stringify(rows)})`,
+  ).toBeGreaterThan(30)
+
+})

@@ -271,6 +271,11 @@ class Component extends DCLogic {
   }
   // ignorePause: the handful of steps that must still run while the clock is stopped — landing a
   // STAGED roll (roam), where the whole point is to arrive somewhere with time held.
+  // how long "You hesitated — they move first" stays on screen before the opponent acts. Long
+  // enough to read a six-word sentence, short enough that it never feels like a cutscene.
+  HESITATE_HOLD = 1.1;
+  // the smallest gap the focus orb may leave between its own edge and the left of the screen
+  NG_LABEL_LEFT_MIN = 50;
   after(sec, fn, ignorePause) {
     const item = { fn: fn, remaining: sec * 1000, start: performance.now(), id: null, ignorePause: !!ignorePause };
     const fire = () => { this._timers = (this._timers || []).filter((x) => x !== item); fn(); };
@@ -1322,6 +1327,18 @@ class Component extends DCLogic {
   // deliberately not drawn there. The focus label already used `posFamily`; this is the same rule
   // for the other three canvas label paths, so the graph answers "what is this" one way.
   graphName(n) { return n.ty === "positions" ? this.posFamily(n.t) : this.splitName(n.t).main; }
+  // Binary-search the longest prefix that fits, then ellipsize. `ctx.font` must already be set —
+  // the caller owns it, because every label site draws at its own size.
+  _fitText(ctx, text, maxW) {
+    if (!(maxW > 0) || !text) return text || "";
+    if (ctx.measureText(text).width <= maxW) return text;
+    let lo = 0, hi = text.length;
+    while (lo < hi) {
+      const mid = (lo + hi + 1) >> 1;
+      if (ctx.measureText(text.slice(0, mid) + "\u2026").width <= maxW) lo = mid; else hi = mid - 1;
+    }
+    return lo > 0 ? text.slice(0, lo).replace(/\s+$/, "") + "\u2026" : "";
+  }
   setEvent(kicker, text, tone) {
     // THE ANNOUNCER HAS ONE SLOT, so whoever writes it owns it. `_evCountdown` is non-null only
     // while the visible sentence IS a decision countdown (see `_tickDecision`), which is what lets
@@ -10988,15 +11005,42 @@ class Component extends DCLogic {
       this._evCountdown = d;   // this sentence belongs to THIS window and dies with it
     }
     if (d.remaining <= 0) {
+      // ── FREEZING HANDS OVER THE INITIATIVE (v1.129.0) ──────────────────────────────────────
+      // What the clock running out USED to do was play your hand for you: a weighted draw over
+      // your own options with `w = max(0.12, 0.5 + dom)`, i.e. biased toward your DOMINANT moves.
+      // So hesitating was rewarded with a decent move, and the one sentence that explained it
+      // ("Time's up") was overwritten synchronously by `pick(chosen)` -> `enterAttempt`'s "You go
+      // for" before a single frame rendered — measured on every build back through v1.127.2. The
+      // player saw their own hand play itself, well, for no stated reason.
+      //
+      // In BJJ, freezing in a live exchange means THEY move first. That is the whole mechanic, and
+      // it is the one this engine already models: the asymmetric-initiative rule (see the EDGE
+      // solver) says a success returns the turn to you while a miss hands it over, so hesitation
+      // costing you the turn is the same currency the rest of the game is priced in.
+      //
+      // IT CANNOT SPIRAL, BY CONSTRUCTION, and that is why it is safe to ship: `opponentDefend`
+      // always ends in `enterLand(false)` (or `enterDefense`, or `endRound`), so the opponent
+      // NEVER keeps initiative. You freeze, they take one exchange, the board comes back to you.
+      // A player who never presses anything is not locked out — they are just losing, correctly.
       if (d.onExpire) { this._decision = null; d.onExpire(); return; } // defense window: expiry = tapped
-      const opts = d.opts, pick = d.pick;
       this._decision = null;
-      this.fx("auto_pick", {});
-      let pool = []; for (const o of opts) { const w = Math.max(0.12, 0.5 + o.node.dom); for (let i = 0; i < Math.round(w * 10); i++) pool.push(o); }
-      const chosen = pool[(this.rng("auto-pick") * pool.length) | 0] || opts[0];
-      this.flare(chosen.idx); // the pop: the position moves on, visibly
-      this.setEvent("Time's up", "The position moves on \u2014 " + this.splitName(chosen.node.t).main, "bad");
-      pick(chosen);
+      // WALKING PAST A QUESTION STILL BREAKS MOMENTUM. `enterAttempt` did this on the old
+      // auto-pick path (canon: "auto-pick counts as ignoring"); the turn no longer goes through
+      // it, so the break happens here — beat first, because `_breakCombo` clears `_landPending`.
+      if (this._landPending) {
+        this.fx("land_q_ignored", { deckKey: (this._landQ && this._landQ.key) || null });
+        this._breakCombo("ignored");
+      }
+      this.fx("hesitated", { options: (d.opts || []).length });
+      // ORDER IS LOAD-BEARING: `clearOptions` drops the hand AND, through the v1.128.1 ownership
+      // stamp, the orphaned "Decide 1…" — so it must run BEFORE the sentence that replaces it,
+      // or it would take that sentence with it.
+      this.clearOptions();
+      this.setEvent("Time's up", "You hesitated \u2014 they move first", "bad");
+      // ...AND THE SENTENCE GETS TO BE READ. `opponentDefend` writes "Opponent goes for X" into
+      // the same single announcer slot, so handing over immediately would reproduce the exact
+      // defect this replaces. The hold is what turns two labels into one cause and its effect.
+      this.after(this.HESITATE_HOLD, () => this.opponentDefend());
     }
   }
 
@@ -11664,7 +11708,18 @@ class Component extends DCLogic {
     let cx = f.x + 0.06 * vw;
     if (this.isMobile() && n) {
       const labelW = this._labelWidthPx(n, !!(n.pi >= 0));
-      if (labelW > 0) cx = f.x + ((11 + labelW) / 2) / scale;
+      if (labelW > 0) {
+        // centre the orb+label block…
+        let px = W / 2 - (11 + labelW) / 2;
+        // …BUT NEVER PARK THE ORB AGAINST THE EDGE (owner: "at least like 50px distance from the
+        // left edge"). The clamp is expressed against the drawn SILHOUETTE, not the centre, so a
+        // big focus orb is held off the edge by the same visible margin as a small one — and when
+        // it binds, the label simply gets the wider right-hand gap and the fitter above trims to
+        // it. NG_LABEL_LEFT_MIN is the visible margin, so the two rules cannot disagree.
+        const rDrawn = n.r * nodeK * scale * 1.28;   // the focus mark, which is the widest it wears
+        px = Math.max(this.NG_LABEL_LEFT_MIN + rDrawn, px);
+        cx = f.x + (W / 2 - px) / scale;
+      }
     }
     return { cx: cx, cy: cy, vw: vw };
   }
@@ -12603,8 +12658,16 @@ class Component extends DCLogic {
         const sx = (mid.x - this.cam.cx) * scale + W / 2;
         const sy = (mid.y - this.cam.cy) * scale + H / 2;
         if (!(sx > -140 && sx < W + 280 && sy > -40 && sy < H + 60)) return false;
-        const nm = n.ty === "positions" ? this.posFamily(n.t) : this.displayName(n);
+        // SAME TWO-PART NAME AS THE HOVER LABEL (v1.129.0). This used to print `displayName(n)`,
+        // which carries the "from <position>" qualifier inline and is what reaches 444px. The main
+        // name stays pinned to the midline — "the name never moves" is the whole point of the
+        // group — and the qualifier hangs beneath it, which pushes the BOTTOM role subtitle down
+        // one line so the two can never overlap.
+        const _sp = this.splitName(n.t);
+        const nm = n.ty === "positions" ? this.posFamily(n.t) : _sp.main;
+        const qual = n.ty === "positions" ? "" : _sp.from || "";
         const ox = sx + Math.max(halfW(n), halfW(partner)) + 11;
+        const gMaxW = Math.max(60, W - ox - 12);
         const above = act.z > 0;
         // "ATTEMPTING", not "ATTACKING" (owner's word). It also keeps this clear of
         // `activeMove.verb`, which names YOUR POSTURE during travel (v1.104.1) and must not start
@@ -12622,14 +12685,32 @@ class Component extends DCLogic {
         // so the focus keeps its rank on a graph where every position is now a pair (v1.125.0).
         const aF = focused ? A : A * 0.86;
         ctx.font = (focused ? "700 18px " : "700 15px ") + dfam + ", sans-serif";
+        const drawnMain = this._fitText(ctx, nm, gMaxW);
         ctx.fillStyle = this.rgba({ r: 240, g: 243, b: 248 }, aF);
-        ctx.fillText(nm, ox, sy + 6);
+        ctx.fillText(drawnMain, ox, sy + 6);
+        let drawnQual = "";
+        if (qual) {
+          ctx.font = "600 " + (focused ? "11.5px " : "10.5px ") + dfam + ", sans-serif";
+          drawnQual = this._fitText(ctx, qual, gMaxW);
+          ctx.fillStyle = this.rgba({ r: 240, g: 243, b: 248 }, aF * 0.62);
+          ctx.fillText(drawnQual, ox, sy + 21);
+        }
+        // PUBLISH WHAT WAS ACTUALLY DRAWN — the `this._LY = LY` pattern. `ox` comes from `halfW`,
+        // a draw-local closure, so a spec that recomputes it measures the wrong strip: chasing the
+        // "prints the inline long name" mutant, a pixel window derived from `r + 11` landed over
+        // the name's BODY instead of its tail and the mutant survived three different oracles.
+        // Reading the strings the frame passed to `fillText` is not a re-implementation of the
+        // render — it IS the render's output.
+        this._lastPairLabel = { idx: n.idx, ox: ox, sy: sy, main: drawnMain, qual: drawnQual, focused: focused };
         ctx.font = "700 11px " + dfam + ", sans-serif";
         ctx.fillStyle = this.rgba(subCol, aF);
-        ctx.fillText(sub, ox, above ? sy - 12 : sy + 24);
+        ctx.fillText(sub, ox, above ? sy - 12 : sy + (qual ? 38 : 24));
         ctx.shadowBlur = 0;
         return true;
       };
+      // cleared every frame so `_lastPairLabel` answers "did the group draw THIS frame", which is
+      // what a merge-scale assertion needs; a sticky value would report the last time it drew.
+      this._lastPairLabel = null;
       // the live hover, resolved once — both the focus group and the roaming one read it
       const _hovNode = (this._hover && this._hover.idx >= 0 && this.now - (this._hover.t || 0) < 0.5)
         ? this.nodes[this._hover.idx] : null;
@@ -12669,9 +12750,30 @@ class Component extends DCLogic {
         ctx.textBaseline = "bottom";
         ctx.shadowColor = "rgba(0,0,0,0.9)"; ctx.shadowBlur = 7;
         if (isOpt) { ctx.font = "700 10px 'Plus Jakarta Sans', sans-serif"; ctx.fillStyle = this.rgba(n.col, A); ctx.fillText("YOUR MOVE", hx, sy - 22); }
+        // ── THE QUALIFIER IS ITS OWN LINE (v1.129.0) ──────────────────────────────────────
+        // Owner, on names running off a phone: "probably a great idea to do wrapping in that
+        // case". Measured at 390x844, technique labels reach 388px (transitions) and 444px
+        // (submissions) on a 390px screen — wider than the whole device, so no camera offset can
+        // seat them.
+        //
+        // The break is SEMANTIC, not arbitrary: `splitName` already separates "Rear Naked Choke"
+        // from "from Seat Belt Control Back", and the app already renders exactly that pair as
+        // bold-over-dimmer in `setEvent`, in Explore rows and in every list surface. Putting the
+        // graph label on the same idiom halves the widest line AND makes the canvas read as part
+        // of the app rather than as a second naming system.
+        const sp = this.splitName(n.t);
+        const maxW = Math.max(60, W - hx - 12);
         ctx.font = "600 13px 'Plus Jakarta Sans', sans-serif";
         ctx.fillStyle = this.rgba({ r: 240, g: 243, b: 248 }, A);
-        ctx.fillText(this.graphName(n), hx, sy - 8);
+        const qual = n.ty === "positions" ? "" : sp.from || "";
+        const main = n.ty === "positions" ? this.posFamily(n.t) : sp.main;
+        // with a qualifier the block straddles the node's line; without one nothing moves.
+        ctx.fillText(this._fitText(ctx, main, maxW), hx, qual ? sy - 14 : sy - 8);
+        if (qual) {
+          ctx.font = "600 10.5px 'Plus Jakarta Sans', sans-serif";
+          ctx.fillStyle = this.rgba({ r: 240, g: 243, b: 248 }, A * 0.62);
+          ctx.fillText(this._fitText(ctx, qual, maxW), hx, sy + 1);
+        }
         ctx.shadowBlur = 0;
       }
     }

@@ -1380,6 +1380,100 @@ phone rather than the orb+label block (it leaves the block centred at 253 of a w
 > Each relaxation was re-checked against its mutant afterwards (3/3 kills on the announcer one), so
 > "less strict" did not become "less able to fail".
 
+### HESITATION COSTS THE INITIATIVE, AND A NAME IS TWO LINES (v1.129.0)
+
+**1. THE CLOCK RUNNING OUT IS A GAMEPLAY EVENT NOW, NOT A COPY BUG.** The v1.128.1 disclosure —
+"Time's up" never reaches the screen — sat on top of a design problem, and the owner asked for the
+gameplay answer: *"the best way possible that is rich gameplay (this is a great opportunity to
+improve gameplay - let's gooo!)"*.
+- **What expiry USED to do**: a weighted draw over YOUR OWN options, `w = max(0.12, 0.5 + dom)` —
+  biased toward your DOMINANT moves. So freezing was **rewarded** with a decent move, chosen for
+  you, and the sentence explaining it was overwritten synchronously by `enterAttempt`'s "You go
+  for" before a frame rendered. The player watched their own hand play itself, well, unexplained.
+- **What it does now**: **you froze, so they move first.** `opponentDefend()` takes the exchange.
+  This is the same currency the rest of the engine is priced in — the asymmetric-initiative rule
+  behind EDGE says a success returns the turn to you and a miss hands it over, so hesitation
+  costing you the turn is consistent rather than novel.
+- **IT CANNOT SPIRAL, BY CONSTRUCTION, which is why it is safe to ship.** `opponentDefend` always
+  ends in `enterLand(false)` (or `enterDefense`, or `endRound`), so **the opponent never keeps
+  initiative**. You freeze, they take ONE exchange, the board comes back. A player who never
+  presses anything is not locked out of the game — they are losing it, correctly.
+- **`HESITATE_HOLD = 1.1s` is load-bearing, not polish.** The announcer has ONE slot and
+  `opponentDefend` writes into it, so handing over immediately would reproduce the exact defect
+  this replaces. The hold is what turns two labels into a cause and its effect. Observed order:
+  `Decide 3… → "You hesitated — they move first" → Opponent goes for Buggy Choke → Defend!`
+- **Order inside the branch is load-bearing too**: `clearOptions()` runs BEFORE the sentence,
+  because it drops the orphaned "Decide 1…" through the v1.128.1 ownership stamp — after it, it
+  would take the new sentence with it.
+- **The momentum break moved with the turn.** `enterAttempt` used to do it ("auto-pick counts as
+  ignoring"); the turn no longer goes through it, so `land_q_ignored` + `_breakCombo("ignored")`
+  fire here, beat first because `_breakCombo` clears `_landPending`.
+- **`auto_pick` is RETIRED and `hesitated` replaces it**, catalog entry included (canon: adding a
+  mapped `fx()` beat means adding a cue, retiring one means deleting it). It was never challenge
+  evidence — checked, not assumed. **`e2e/gen/ready-test-expiry-autopick-burns-move.spec.ts` is one
+  of the known-13 reds and asserts on `auto_pick`; it stays red, now for a different reason.**
+
+**2. A QUALIFIED NAME IS TWO LINES, AND THE BREAK IS SEMANTIC.** Owner, on technique labels running
+off a phone: *"probably a great idea to do wrapping in that case"*. `splitName` already separates
+"Rear Naked Choke" from "from Seat Belt Control Back", and `setEvent`, every Explore row and every
+list surface already render that pair as **bold over dimmer**. Putting the graph label on the same
+idiom halves the widest line AND stops the canvas being a second naming system.
+- **Measured at the hover label's 13px, whole corpus:** widest SUBMISSION **330px → 165px** (295 of
+  297 carry a qualifier). Transitions keep a 275px worst case because **681 of 1034 have no "from"
+  at all** — those are handled by `_fitText`, which ellipsizes to the room actually available
+  instead of running off screen.
+- In the pair group the main name stays pinned to the midline ("the name never moves" is the whole
+  point of the group) and the qualifier hangs beneath it, which pushes the BOTTOM role subtitle
+  down one line so the two can never overlap.
+
+**3. THE ORB NEVER HUGS THE EDGE.** Owner: *"we want the node to be on the left of the centered
+label BUT not so close to the edge (at least like 50px…)"*. `NG_LABEL_LEFT_MIN = 50` is a floor on
+the drawn SILHOUETTE, not the centre, so a big focus orb is held off by the same visible margin as a
+small one. Measured on the widest position name: at **320px** pure centring wants the orb edge at 30
+and the clamp holds it at exactly **50** (label still ends at 309 of 320); at **360** it binds at
+exactly 50; at **390** it does NOT bind (64) and pure centring wins. A floor that engages only when
+needed.
+
+**THE RENDERER PUBLISHES WHAT IT DREW, AND THAT IS WHY THE LAST MUTANT DIED.** `_lastPairLabel =
+{idx, ox, sy, main, qual, focused}` is stamped by `pairGroup` — the `this._LY = LY` pattern.
+> **THREE PIXEL ORACLES IN A ROW FAILED TO KILL "print the inline long name", and the reason
+> generalises.** The group's `ox` comes from `halfW`, a **draw-local closure**, so every spec-side
+> attempt to recompute it put the measurement window over the name's BODY instead of its TAIL — and
+> a window full of body text reads the same on both builds. A control frame did not save it either,
+> because the PARTNER orb's own label lands inside the same band (measured: baseline 154 in a
+> 144..160 window, ~266 bright px either way). Reading the strings the frame passed to `fillText`
+> is **not** re-implementing the render — it IS the render's output, and it is the only honest
+> oracle when the geometry lives in a closure. Pixels still prove the qualifier line is *rendered*;
+> the published strings prove *which name* is on it.
+
+**Gated by** `announcer-coherence.spec.ts` (+2, 1 `@curated`), `dual-pair.spec.ts` (+1 `@curated`),
+`graph-naming.spec.ts` (+1 `@curated`). **Five mutants, five kills**: hand over with no hold; the
+old beat name; the clamp removed; no qualifier line; the group printing the inline long name.
+
+**WHAT IT COST, MEASURED RATHER THAN ESTIMATED.** Core **398 passed / 0 failed / 4 skipped**;
+`test:units` 75/75; payload OK (neural eager **302,482 / 330,000** gzip). Bundle vs v1.128.1:
+**+1,041 raw / +383 gzip**.
+- **`e2e:gen` moves 13 red → 14, and the +1 is honest**: `mid-timeout-question-costs-no-odds`
+  asserts `expiry_warning → auto_pick → commit`, an ordering that describes the retired mechanic.
+  Three MORE gen specs assert `auto_pick` (`ready-test-expiry-autopick-burns-move`,
+  `returner-decision-timer-expiry-narrated-on-comeback`,
+  `onboard-first-freeze-drilling-refunds-then-clock-runs`) but were ALREADY in the known-13; they
+  stay red, now for a different reason. **Any honest implementation of the owner's request breaks
+  these four** — they assert "auto_pick precedes the commit it drives" and "the auto-picked
+  exchange debits exactly 1 move", and under the new rule there is no auto-pick and no player
+  commit. Rewriting them is a separate pass.
+- **`holder-passive-boot-blob-fixpoint` also went red in that run and is NOT attributed here:** it
+  passes **5/5 in isolation**, fails in **412ms** (long before any decision window can expire), and
+  is a "zero app writes across two reloads" spec — the documented order-dependent class, same shape
+  as `corrupt-blob-settings-persist-cleanly-after-heal` (green alone, red at #7 of 112). Recorded
+  as a pre-existing load-sensitive flake, **not** as fixed and not as caused.
+
+> **A TRUNCATED GREP IS HOW YOU MISS A CONSUMER.** The blast radius was first measured with
+> `grep -rn auto_pick … | head`, which showed the sound catalog, the app and ONE gen spec — so the
+> retirement looked cheap. The real list is **7 gen specs + 2 core specs**, and the core one
+> (`jit-loop`'s "expiry narrates 3-2-1 and auto-picks with a pop") only surfaced when the full
+> suite went red. Never pipe the survey that decides a rename through `head`.
+
 ### THE PAIR JOURNEYS COME HOME (v1.127.0)
 
 **A SPEC THAT NEEDS A GITIGNORED PAYLOAD IS NOT A GATE — IT IS A NOTE.** The three v1.114.x
