@@ -25,6 +25,12 @@ single nodes, and any win/lose recoloring ("blue/red is only WHICH PLAYER you ar
 >   (v1.126.0). The tables below name them in the present tense; they are history. `?dual=legacy`
 >   is the one surviving flag and it is the way OUT.
 >
+> - **Both `e2e/prototype/` specs are gone too** (v1.126.0). §1's table still names the shoot
+>   driver in the present tense; it is history. Its three BEHAVIOURAL journeys — the pair label
+>   group, the hit-test reading the drawn position, the camera on a half-swap — came back in
+>   **v1.127.0** as `e2e/journeys/dual-pair.spec.ts`, in the core suite on the default build. The
+>   screenshot shoot itself did not, and CLAUDE.md → "THE PAIR JOURNEYS COME HOME" says why.
+>
 > What ACTUALLY shipped, with its measurements, is CLAUDE.md → "THE PAIR IS THE DEFAULT, AND IT IS
 > DERIVED AT INGEST". The committed screenshots referenced here stay, because they are the evidence
 > the owner judged.

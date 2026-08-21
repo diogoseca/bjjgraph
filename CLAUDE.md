@@ -1024,8 +1024,12 @@ failure was attributable, and none of them was a gameplay defect the app had. Tw
   passes `camFocus` = `pairMid`. **Any spec that converts a node to a screen position must go
   through `_LY`/`pairMid`.** Both are identities on an unpaired node.
 
-**WHERE IT DIFFERS FROM THE PROTOTYPE, THE PROTOTYPE WAS WRONG** — proven by
-`e2e/prototype/dual-derive-equiv.spec.ts`, which boots both and diffs the live node sets.
+**WHERE IT DIFFERS FROM THE PROTOTYPE, THE PROTOTYPE WAS WRONG** — proven at the time by
+`e2e/prototype/dual-derive-equiv.spec.ts`, which booted both and diffed the live node sets. **That
+spec went with the payload it needed (v1.126.0) and the figures below are its record, not a
+re-runnable check** — the prototype file no longer exists to diff against. What survives, and is
+the stronger oracle anyway, is `dual-consumers.spec.ts`: the same build booted twice, `/` against
+`/?dual=legacy`.
 - **+3 pairs (6 nodes).** The prototype left `100%-Sweep`, `Fireman's-Carry` and `Counter Entry to
   Opponent's Leg` UNPAIRED because its `tech_key()` could not spell them — **the same v1.115.0 slug
   class**. graph.json has attacker AND defender for all three.
@@ -1077,7 +1081,10 @@ graph; **everything else, `null` included, is the pair.** `?dual=iso|fixed|force
 PAYLOADS — 2.47MB pre-split files that only ever existed outside the shipped tree — and they are
 gone with the fetch fork that loaded them, the `dev-serve.mjs` route that mapped them out of
 `tests/artifacts/dualpair/payloads/`, `scripts/prototype_dual_pair_layout.py`, `npm run
-prototype:dual` and the two `e2e/prototype/` specs whose subject they were. **Accepted-and-ignored,
+prototype:dual` and the two `e2e/prototype/` specs whose subject they were. (The BEHAVIOURAL half of
+those specs came back in **v1.127.0** as `e2e/journeys/dual-pair.spec.ts`, once the derivation made
+their subject reachable without a payload; the screenshot shoot did not, and that block says why.)
+**Accepted-and-ignored,
 not rejected** (the `?variant=legacy` precedent), and here that is the *cheaper* option as well as
 the kinder one: an unknown value has always fallen through to `null`, so deleting them from the
 accept-list IS the accepted-and-ignored behaviour — zero code. It is also honest, because the graph
@@ -1237,6 +1244,96 @@ raw.
 ordinals, graph (Errors 0), headers, SEO parity, affiliate and payload all OK; `source` `tsc` clean
 with only the two long-standing prettier warnings (`contentPage.tsx`, `path.ts`).
 
+### THE PAIR JOURNEYS COME HOME (v1.127.0)
+
+**A SPEC THAT NEEDS A GITIGNORED PAYLOAD IS NOT A GATE — IT IS A NOTE.** The three v1.114.x
+journeys about the pair (the label group, the hit-test, the camera on a half-swap) lived in
+`e2e/prototype/dual-pair-shoot.spec.ts` behind `?dual=iso`, a 2.47MB PRE-SPLIT file that could not
+ship, a private port, a private serve-root and their own lock. **No gate has ever collected that
+directory** — checked, not assumed: `prototype` appears nowhere in `.github/workflows/`, nowhere in
+`package.json`, and in no config's `testDir` (only `playwright.{private,chrome}.config.ts` take one
+from `PW_TESTDIR`, which is a hand-typed invocation). So they ran when somebody remembered, through
+thirteen versions that included making their subject the DEFAULT (v1.125.0) and deleting the flag
+they booted with (v1.126.0). They are now `e2e/journeys/dual-pair.spec.ts`, on the default build,
+in `npm test`, 2 of the 3 `@curated`.
+
+**THE MOVE RE-DERIVED THE ASSERTIONS; IT DID NOT RE-POINT THEM.** Three of them were describing the
+prototype's shape rather than the app's:
+- The prototype emitted `<hub>/Top` + `<hub>/Bottom`. The derivation keeps the **HUB ID on the rep**
+  (that is what leaves `node_ordinals.json` alone and every `/l/<code>` resolving), so the halves are
+  `Positions/Side-Control` and `…/Bottom` — a `/\/Top$/` match now fails on the node it describes.
+- "Both halves above the videos" was measured against the film strip, and **there is no film strip
+  under the harness** (the DSL serves `{}` for dossier chunks). It is measured against the LANDING
+  CARD, which is the surface the film docks off and the one that is actually there.
+- The 10-second wall-clock sleeps became `j.boot()` + the pumped clock, so the three journeys cost
+  **3.9s** together instead of ~35s of real waiting.
+
+**SIX MUTANTS, FOUR KILLS — AND THE TWO THAT DID NOT KILL ARE THE FINDING.** Every claim below was
+measured by reverting the named line, rebuilding the bundle and watching the named test:
+| mutant | result |
+|---|---|
+| `pairMid` → the active MEMBER in the label group | **KILL** — bright pixels on the midline **644 → 0** |
+| `_updateHover`'s `ly(n)` → `n.y` (the pre-v1.114.3 hit-test) | **KILL, all three journeys** — the hit-test is upstream of the hover label and of the tap |
+| drop `_stagedCamFree = false` from the pan handler | **KILL** — `free` stays true and the tracking yanks the camera back out from under the user |
+| `rollFromPosition`'s `camFocus = pairMid` → the member's drawn point | **KILL** — worst swing **11.900** world units against a `< 1` bar |
+| `stagedIdle`'s `_stagedCamFree` clause → `!userActiveNow()` (the pre-v1.114.4 gate) | **no kill** — see the v1.114.4 block; its observable is `url-arrival`'s re-aim, not a swap |
+| remove the `_sameSubject` guard so the target is recomputed anyway | **no kill** — with `pairMid` intact the recomputed answer IS the same answer; the guard buys robustness against a mid-teardown layout, which no assertion here can see |
+
+The two non-kills are written into the spec's own header rather than left as folklore: a journey
+that names what it does not cover cannot be mistaken later for having covered it. A seventh mutant
+is worth recording for a different reason: aiming "aim at the member" at `jumpToState`'s `camFocus`
+(line 11796, the OTHER `pairMid` writer) changed nothing at all, which is the mutation-test
+confirmation of what v1.101.5 disclosed by reading — `jumpToState` lives inside `renderDossier` and
+is unreachable from the app. The tap path is `stageRollAt` → `rollFromPosition`.
+
+**WHAT WAS LEFT BEHIND: THE SCREENSHOT SHOOT, AND IT IS NOT A JUDGEMENT CALL.** `dual pair shoot —
+<variant> strategy, 3 zooms` drove `?dual=fixed | force | iso` to three PNGs each for the owner to
+choose between. The choice was made; two of those three placements never existed outside a
+gitignored file; all three URLs now boot the same graph — so it is three copies of one test whose
+only output is a picture a gate cannot fail on, plus a `holdCam` helper that exists solely to fight
+the follow-cam with a 40ms `setInterval`. Its sanity block is dead as well as redundant: measured on
+this build it asserts `nodes === 2931` against **2934** and `pairMembers === 2928` against **2934**
+(every node is paired now), and its `_idIndex.get("Positions/Mount") === mountTop` still passes only
+by accident — the hub-id ALIAS pass it was written for went in v1.126.0; the rep simply IS the hub.
+The invariant it reached for is pinned harder by `dual-consumers.spec.ts`, as a DIFFERENTIAL. The
+committed evidence PNGs stay; `/dev/experiments` renders them and `build_forward_components` throws
+without them.
+
+**REPLAY-DIGEST MUST NOT MOVE HERE, AND THE REASON IS MEASURED RATHER THAN ASSUMED.** The expected
+objection is that ingesting 2,934 nodes instead of 1,467 should shift the digest — but that
+happened in v1.125.0, not here, and it did not shift then either. Rather than argue from the absence
+of a change, the digest was computed on BOTH graphs from one build: `/` and `/?dual=legacy` both
+produce **`0390cc44ee7f40e5`**, byte for byte. That is not blindness, it is the derivation's whole
+claim stated behaviourally — the split is a MODEL change, not a game one — and it is the same fact
+`dual-consumers` measures structurally (272/272 hands identical, order included). This stage adds no
+app code at all, so any movement would have been the defect. **Not re-recorded.** (Worth knowing for
+whoever leans on it next: this digest carries **23 beats and 0 land options** — Mount Top has no
+unproven card under the harness — so the `landOpts` half of it is currently contributing nothing.)
+
+**GATES AT v1.127.0.** Core suite **387 passed / 0 failed / 4 skipped** (11.9m — v1.126.0's 384 plus
+these three); `test:units` **75/75**; `triple_replay` 3× byte-identical at **`0390cc44ee7f40e5`**;
+`e2e:gen` **88 passed / 13 failed** — exactly the known baseline; ordinals (1467 assigned, 1467
+live), graph (**Errors 0**), headers, SEO parity, affiliate and payload (neural eager
+**301,751 / 330,000** gzip, **1,415,570 / 1,600,000** raw) all OK; `source` `tsc` clean with only
+the two long-standing prettier warnings. Browser-measured bytes-to-first-hand is **unchanged to the
+byte** — 380,403 gzip / 1,680,045 raw, 20 requests — because this commit ships no app code; the only
+diff `payload-first-hand` produced was its own `measured_at`, which was reverted rather than
+committed, since a timestamp-only change in a zero-byte commit reads as a payload event that did
+not happen.
+
+> **THE 13-RED `e2e:gen` BASELINE, NAMED.** Four versions of gates blocks have said "the same 13
+> names" without ever writing them down, which makes the phrase uncheckable. They are:
+> `holder-restart-tutorial-resets-white-only` · `holder-reward-beats-carry-reward-voices` ·
+> `legacy-v1-asks-landing-question` · `mid-lesson-goal-exact-boundary` ·
+> `onboard-first-freeze-drilling-refunds-then-clock-runs` · `ready-checkpoint-pass-margin-exact` ·
+> `ready-film-not-neglect` · `ready-lost-attempt-survives-reload` ·
+> `ready-nogi-checkpoint-pool-excludes-gi-only` · `ready-test-catch-escape-keeps-test-alive` ·
+> `ready-test-expiry-autopick-burns-move` ·
+> `returner-decision-timer-expiry-narrated-on-comeback` ·
+> `veteran-combo-challenges-exact-n-single-count`. Two of them (`ready-checkpoint-pass-margin-exact`,
+> `ready-test-catch-escape-keeps-test-alive`) burn **4.0m each** on a Playwright timeout, which is
+> most of that suite's 12.5m wall time.
+
 **A DUAL PAIR IS ONE STATE WITH TWO HALVES (v1.114.3, `?dual` prototype).** Owner: *"I like to
 see both variants ... above the videos we should see the two circles ... the position should be
 rather centered on the middle of the two icons, not the actual icon that's active, so that both
@@ -1269,9 +1366,10 @@ which the subtitle's position seems to appear depending on where you are."*
   hover). Copy is **TOP / BOTTOM** for positions and **ATTEMPTING / DEFENDING** for techniques —
   the owner's word, and deliberately not "ATTACKING", which is `activeMove.verb` naming YOUR
   POSTURE during travel (v1.104.1); those two must not start sharing vocabulary.
-- Gated by `e2e/prototype/dual-pair-shoot.spec.ts` (three mutants, three kills), which lives there
-  because it needs the **gitignored** dual payload — the core suite must not depend on it. Run it
-  with the private-root chrome config documented at the top of that file.
+- Gated by **`e2e/journeys/dual-pair.spec.ts`** since v1.127.0 — in the CORE suite, on the default
+  build, because the split is derived now and the prototype payload it used to need is gone. (It
+  was `e2e/prototype/dual-pair-shoot.spec.ts` until then, which is why nothing here ran on a gate
+  for thirteen versions.)
 
 **THE FRAMING BAND, AND WHY A PAIR SWAP MOVED THE CAMERA AT ALL (v1.114.4).** Owner: "when I'm in
 Side Control bottom and click top, instead of the camera moving just a little, it moves a lot, even
@@ -1300,8 +1398,12 @@ prototype one, because staging any state tears the card down the same way.
 - **`userActiveNow()` measures the GAME clock, and a staged board is paused**, so one click latched
   "the user is active" FOREVER and silently disabled v1.114.2's staged tracking. `_stagedCamFree` is
   the honest gate: a real pan, pinch or wheel clears it, so "never fight a user's camera" survives.
-- Gated in the core suite (`url-arrival.spec.ts`, the torn-down band) and in
-  `e2e/prototype/dual-pair-shoot.spec.ts` (the swap holds the camera; a pan releases it).
+- Gated in the core suite twice over: `url-arrival.spec.ts` (the torn-down band) and, since
+  v1.127.0, `dual-pair.spec.ts` (the swap holds the camera; a pan releases it). **Mutation-measured
+  there: it is `camFocus = pairMid` that holds the camera, NOT the `_stagedCamFree` gate** — with
+  the aim correct there is nothing for the tracking to correct on a same-subject swap, so restoring
+  the `userActiveNow()` gate leaves both specs green. That gate's real observable is `url-arrival`'s
+  re-aim once the card exists. Recorded so nobody reads `dual-pair` as covering it.
 
 **THE STAT BAND MOVED TO THE PANE FOOT, AND ITS WEAK-SPOT NUMBER WAS A LIE (v1.104.5).**
 - **Foot, not Explore's top** (owner: "I would prefer to be closer to the bottom"). It is its OWN element (`.ng-pane-stats`, `paneStatsRef`) ABOVE `.ng-pane-anchor`, never inside it — the anchor collapses entirely for a signed-in user and three progress numbers must not vanish with a save nudge. It rides every tab and hides during a study takeover.
