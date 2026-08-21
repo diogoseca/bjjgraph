@@ -10734,9 +10734,30 @@ class Component extends DCLogic {
   // is hot — you're moving too fast for the opponent to capitalize. Favorable outcomes gain the
   // difference implicitly (relative weights), which is exactly "the outcomes that favor you get
   // more probable" without ever touching the authored numbers.
-  drawOutcome(act) {
-    const outs = act && act.cal && Array.isArray(act.cal.outcomes) ? act.cal.outcomes : null;
-    if (!outs || !outs.length) return null;
+  //
+  // `branch` (v1.121.0) — WHEN THE CALLER HAS ALREADY DECIDED THE BRANCH, DRAW INSIDE IT. `resolve`
+  // decides success/miss on `moveChance` (the player-facing, drill-improvable gate) BEFORE any
+  // outcome exists, so drawing from the whole table and then repairing the mismatch produced a
+  // distribution nobody authored — see resolve() for the measurement. Passing the decided branch
+  // restricts the table to that branch's rows and renormalises INSIDE it, which is exactly the
+  // conditional the authored weights state. Omitted (`opponentDefend`'s destination draw) = the
+  // whole table, byte-identical to before. Exactly ONE `rng("outcome")` draw either way.
+  drawOutcome(act, branch) {
+    const all = act && act.cal && Array.isArray(act.cal.outcomes) ? act.cal.outcomes : null;
+    if (!all || !all.length) return null;
+    // An EMPTY branch cannot be honoured — a node authoring no success row has no success cell to
+    // draw — so fall back to the whole table, which is what the old `.find(...) || out` did. The
+    // fallback is chosen BEFORE the draw so the rng call count never depends on content. Measured
+    // over graph-data.json: 0 of 1331 outcome lists have an empty branch, so this is defensive.
+    // (`total <= 0` below returns without drawing at all — a pre-existing hole in the one-draw
+    // contract, and restricting to a branch cannot newly open it: 0 of 1331 lists have a
+    // zero-weight branch, so the branch draw and the whole-table draw consume the same stream.)
+    let outs = all;
+    if (branch != null) {
+      const want = !!branch;
+      const sub = all.filter((o) => (o.result === "success") === want);
+      if (sub.length) outs = sub;
+    }
     const sk = this.momentumSkew();
     const w = (o) => { let v = Math.max(0, +o.probability || 0); if (sk > 0 && o.result === "counter") v *= (1 - sk); return v; };
     let total = 0; for (const o of outs) total += w(o);
@@ -10765,17 +10786,32 @@ class Component extends DCLogic {
       this.resolve(opt, success);
     });
   }
+  // THE MISS DISTRIBUTION THE CARD PRICES IS THE ONE THE ROLL ROLLS (v1.121.0).
+  //
+  // WHAT WAS WRONG. The branch was decided here on `moveChance` — correctly, that is the
+  // player-facing gate drilling moves — and then the ROW was drawn from the WHOLE authored table
+  // and, when the two disagreed, REPAIRED with `outcomes.find(...)`: the FIRST matching cell, not
+  // a re-draw inside the branch. Authored lists run success → failure → counter, so every miss
+  // that happened to draw a success cell was dumped onto the first `failure`, and 1327 of 1331
+  // lists end in a `counter`. MEASURED against the within-branch kernel the EDGE solver prices
+  // (`tests/artifacts/_resolve_kernel_measure.py`): TV distance mean 0.0902 · median 0.0825 ·
+  // max 0.2440, TV == 0 on ZERO of 1331 nodes, > 0.10 on 276 (20.7%) — and 47.39% of all authored
+  // counter mass never reached the player (233.82 authored vs 123.01 rolled, summed over the 1331
+  // nodes at their authored no-gi rates). A counter is the expensive miss — it is what makes a
+  // 78%-odds move that gives up initiative score below a 55% one — so draining half of it made
+  // every EDGE integer on every option card a price for a game nobody was playing.
+  //
+  // THE FIX IS A CONDITIONAL, NOT A SECOND DICE. `moveChance` still owns the branch; `drawOutcome`
+  // is told which branch was chosen and draws inside it from the authored weights, renormalised.
+  // Still exactly ONE `rng("outcome")` draw per resolution, same tag, same order — so a rigged
+  // journey consumes the same queue; what changes is which row a mid-band value lands on.
+  // This DELIBERATELY re-baselines `replay-digest`: the miss distribution genuinely changed.
   resolve(opt, forced) {
     const act = this.nodes[opt.idx];
     const success = forced != null ? forced : this.rng("resolve") < this.moveChance(act);   // player-facing, drill-improvable gate
-    const out = this.drawOutcome(act);
+    const out = this.drawOutcome(act, success);
     if (!out) { return success ? this.enterSuccess(opt) : this.enterFail(opt); }  // no cal -> legacy path
-    if (success) {
-      const win = out.result === "success" ? out : (act.cal.outcomes.find((o) => o.result === "success") || out);
-      return this.enterSuccessCal(opt, win);
-    }
-    const bad = out.result !== "success" ? out : (act.cal.outcomes.find((o) => o.result !== "success") || out);
-    return this.enterFailCal(opt, bad);
+    return success ? this.enterSuccessCal(opt, out) : this.enterFailCal(opt, out);
   }
 
   enterSuccess(opt) {

@@ -1226,7 +1226,7 @@ only fires on a content regression): attempt sums == 100 in **272/272**; outcome
 **0 unresolved targets**; `game-over` reached by **594 cells, every one from a submission — 0 from a
 transition**; the mirror **1331 pairs, zero violations**; branch form self-consistent to **2.22e-16**.
 
-**THE TWO HONESTY GAPS. Both are live in the shipped app; both are disclosed, not fixed.**
+**THE HONESTY GAPS. There were two; ONE IS CLOSED (v1.121.0, below) and one is still live.**
 
 1. **`opponentDefend` IS NOT THE OPPONENT THE MODEL ASSUMES, and this is the biggest one.** It
    iterates `this.adj[this.currentPos]` — **undirected, hub-collapsed adjacency** — with **no role
@@ -1241,15 +1241,75 @@ transition**; the mirror **1331 pairs, zero violations**; branch form self-consi
    better-behaved opponent than the one you actually face.** Making the game match the number is a
    large, separate, owner-gated change; until it happens this sentence belongs in any copy that
    explains EDGE.
-2. **`resolve()` coerces the outcome branch instead of drawing inside it, and the spec called fixing
-   it BLOCKING.** It rolls a Bernoulli on `moveChance`, draws from the **whole** authored
-   distribution, then repairs a mismatch with `outcomes.find(...)` — the *first* matching cell, not
-   a re-draw within the branch. Re-measured here against the authored within-branch kernel the model
-   assumes: **TV distance mean 0.0902 · median 0.0825 · max 0.2440, and TV == 0 on ZERO of the 1331
-   nodes**; **> 0.10 on 276 (20.7%)**. Because **1327 of 1331** outcome lists end in a `counter`, the
-   coercion systematically drains counters into the first `failure`. **This did not ship** — it
-   re-baselines `replay-digest` and was cut from the landing pass. So the miss distribution the card
-   prices is not exactly the miss distribution the roll rolls.
+2. ~~`resolve()` coerces the outcome branch instead of drawing inside it.~~ **CLOSED in v1.121.0 —
+   see the section below.** The disclosure it replaced is kept there in full, because the numbers
+   are the reason the fix exists.
+
+### THE MISS DISTRIBUTION THE CARD PRICES IS NOW THE ONE THE ROLL ROLLS (v1.121.0)
+
+EDGE's whole claim is that it counts **where a miss leaves you**. Honesty gap 2 was that the roll
+did not roll the miss distribution EDGE prices, so every integer on every option card was a price
+for a game nobody was playing.
+
+**WHAT WAS WRONG.** `resolve()` decided success/miss on `moveChance` — correct, and unchanged: that
+is the player-facing gate drilling moves. It then drew the ROW from the **whole** authored table and,
+when the drawn row's branch disagreed with the gate, replaced it with `outcomes.find(...)` — the
+**FIRST** matching cell, not a re-draw inside the branch. Authored lists run success → failure →
+counter and **1327 of 1331** end in a `counter`, so every miss that happened to draw a success cell
+was dumped onto the first `failure` and the counter cells starved.
+
+**MEASURED, twice, by two methods that do not share code.** `tests/artifacts/_resolve_kernel_measure.py`
+derives both kernels analytically from `graph-data.json`; `tests/artifacts/_resolve_kernel_probe.mjs`
+sweeps a rigged `outcome` value through the app's OWN `resolve()` in a real browser (the four
+entry points it calls after choosing are stubbed, so the function runs whole and moves nothing —
+0 fx beats emitted during a full corpus sweep). They agree to grid resolution:
+
+| | before | after |
+|---|---|---|
+| TV vs the authored within-branch kernel | mean **0.0902** · median 0.0825 · **max 0.2440** | mean 0.0001 · max 0.0004 (= 1/grid) |
+| TV == 0 | **0 of 1331** | **1331 of 1331** |
+| counter mass rolled (summed over 1331 nodes, authored **233.8164**) | **123.0071** — **47.39% never landed** | 233.7810 — 0.02%, which is the sweep grid |
+
+Worst single node `Transitions/Escape-Scarf-Hold-Position` at TV 0.2440. **`> 0.10 on 276` is a
+knife-edge count** — 88 nodes sit on 0.10 to float noise, so at-or-above reads **306**, which is
+exactly what the sampled probe reports. Do not read the 276/306 gap as the two methods disagreeing.
+
+**THE FIX IS A CONDITIONAL, NOT A SECOND DICE.** `drawOutcome(act, branch)` takes the branch the
+gate already chose, restricts the table to that branch's rows and renormalises **inside** it —
+which is precisely the conditional the authored weights state. **Exactly ONE `rng("outcome")` draw
+per resolution, same tag, same order**, so a rigged journey consumes the same queue; what changed is
+which row a mid-band value lands on. `branch` omitted (`opponentDefend`'s destination draw) = the
+whole table, unchanged. An empty branch falls back to the whole table — what `.find(...) || out`
+did — and the fallback is chosen BEFORE the draw so the rng call count never depends on content
+(0 of 1331 lists have an empty or zero-weight branch, so this is defensive).
+
+**MOMENTUM STILL SHEDS COUNTER WEIGHT, and now it is the only thing doing so.** `momentumSkew()`
+scales counter rows by `(1-sk)` inside the miss branch, so "too fast to capitalize" reads exactly as
+written. Its `outcome_skewed` beat also stopped lying: it used to fire on the row that was drawn
+*before* coercion, so it could announce a skew applied to an outcome the player never saw.
+
+**`replay-digest` DID NOT MOVE, AND THAT WAS EXPECTED TO BE THE OTHER WAY ROUND.** The task that
+commissioned this fix said it would "deliberately re-baseline `replay-digest`". It did not: three
+replays are byte-identical at **`af3588835ad1c6b6`**, the SAME digest v1.120.0 recorded, and the
+artifact `diff`s clean against the pre-fix run. That is a property of the scripted roll, not a sign
+the fix missed the roll, and the reason is measurable. **A rigged draw lands on a different cell on
+18.19% of `u` under a MISS gate, but only 2.93% under a SUCCESS gate — and 0% on 1226 of the 1331
+nodes**, because those author exactly ONE success cell, so every `u` maps to it under both kernels.
+`replay-digest` rigs `resolve: 0.01` (success) and commits `Submissions/Kimura/from-Mount`, whose
+table is `[game-over 72 success · mount/top 18 failure · closed-guard/bottom 10 counter]` — one
+success row, and a submission finish that ends the round before the row's `to` is ever read. **So
+that spec is structurally incapable of seeing this change**, which is exactly why the corpus gate
+below exists rather than a digest bump standing in as evidence.
+
+**Gated by `e2e/journeys/outcome-kernel.spec.ts`** (3 journeys, 2 `@curated`), which asserts the
+corpus figures through the shipped `resolve()`. Red-proven with three mutants: **M1** restores the
+coercion → `mean TV … Expected < 0.01, Received 0.09017653374680812` and `counter mass lost
+(110.809 of 233.816) … Received 0.47391609835906745`; **M2** adds a second `rng("outcome")` draw →
+`one rng('outcome') draw on the success branch … Expected 1, Received 2`; **M3** applies the filter
+when NO branch was passed → `drawOutcome with no branch reaches the SUCCESS cell too: 0.01 landed on
+a failure cell`. M3 is why that test asserts BOTH ends of the whole-table draw: `!!undefined` is
+false, so a filter that forgot to check for "no branch at all" silently serves the miss branch — and
+with 1327 of 1331 lists ending in a counter, the `0.99` end alone still looks right.
 
 **REFUTED, and measured here rather than inherited.** The spec's "genuinely uncertain" note claims
 `p_win` is compressed into **0.80–0.99** across all 272 states. It is not: the floor is **0.5538**
