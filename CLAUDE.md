@@ -1754,15 +1754,40 @@ transition**; the mirror **1331 pairs, zero violations**; branch form self-consi
    iterates `this.adj[this.currentPos]` — **undirected, hub-collapsed adjacency** — with **no role
    filter and no origin filter**, picks a finish with `pFinish = clamp(0.34 + oppAdv*0.55, .18, .85)`
    and otherwise takes one of the top 3 by `oppVal`. **It never reads `attemptProbability`.**
-   MEASURED over all 272 role-states, reproducing its own gather (adjacency, non-positions, deduped
-   by title): the shipped opponent chooses from **39.2 candidate technique nodes per state**, the
-   model's from **9.1**; **only 23.2% of what the shipped opponent may pick is a move the model's
-   opponent would ever consider** (the modelled set is a strict subset — 2476 of 2476 survive into
-   the shipped pool — so it is pure OVER-inclusion, taking in moves authored for *your* role and
-   moves that originate somewhere else entirely). **EDGE therefore describes a
-   better-behaved opponent than the one you actually face.** Making the game match the number is a
-   large, separate, owner-gated change; until it happens this sentence belongs in any copy that
-   explains EDGE.
+   **BOTH SIDES OF THE COMPARISON NOW NAME THEIR DEFINITION** (re-measured v1.127.1 — the model
+   figure did not reproduce, see below), and `tests/artifacts/_opponent_gap_measure.py` computes
+   them from the two code paths:
+   · **SHIPPED** = `opponentDefend`'s own gather — the hub's adjacency, `ty !== "positions"`,
+     deduped by title. (`adj` is per HUB; the v1.125.0 pair keeps `adj[<member>]` byte-identical to
+     `adj[<hub>]`, so both role-states of a hub see one pool.) **10,662 cells over 272 role-states
+     = 39.2 per state.**
+   · **MODEL** = `Model.opp_hands[i] = hands[index[flip(s)]]` — the opponent plays THE PAIRED
+     ROLE-NODE'S OWN DEALT HAND, built by the same `build_hand` that deals mine, so role-filtered
+     (never relaxed) and origin-filtered. **1,246 cells over 272 = 4.58 per state**, which is the
+     solver's own published `(state, action) pairs` headline read from the other side, and
+     `--verify` reports 1246 independently. **So only 11.7% of what the shipped opponent may pick
+     is a move the model's opponent would ever consider.** The modelled set is a **strict subset in
+     272 of 272 states** — pure OVER-inclusion, no move modelled that the roll cannot reach.
+   **THE RETIRED FIGURE (9.1 / 23.2% / 2476) WAS MEASURING A SET THE MODEL NEVER HOLDS**: the
+   opponent's role-filtered moves **before `build_hand` narrows them to the ones that originate
+   here** (reading D in the script; today **9.12 / 23.3% / 2481**, i.e. it still reproduces, on the
+   wrong set). It was not a bad measurement, it was a measurement of the wrong thing — and it
+   disclosed the gap at **roughly half** its real size. **A canon number nobody can reproduce is
+   worse than no number**, which is why the definition is now written down beside the figure and
+   computed by a script rather than by hand.
+   **WHAT THE OVER-INCLUSION IS MADE OF**, splitting the 10,662-cell pool against the opponent's
+   role and this hub: **the opponent's own move, from here 1,326 (12.4%)** · wrong role only 1,326
+   (12.4%) · originates elsewhere only 4,005 (37.6%) · **both wrong 4,005 (37.6%)** — so **87.6% of
+   the shipped opponent's pool is wrong on role, origin, or both**. (The two mirrored pairs are
+   structural, not a coincidence: one pool serves both role-states of a hub, so summing over both
+   roles makes each wrong-role count the reflection of its right-role twin.) **EDGE therefore
+   describes a better-behaved opponent than the one you actually face.** Making the game match the
+   number is a large, separate, owner-gated change; until it happens this sentence belongs in any
+   copy that explains EDGE.
+   **The measurement is red-proven, not merely run**: it reads `Model.opp_hands` directly, so
+   `--mutant` (`opponent="mylist"`, the spec's model D) moves *reading A == MY OWN hand* from
+   **0 of 272 to 272 of 272**. A count alone could not have caught that — the flip is a bijection
+   over the 272 states, so *the size* of the opponent's hand is invariant under it.
 2. ~~`resolve()` coerces the outcome branch instead of drawing inside it.~~ **CLOSED in v1.121.0 —
    see the section below.** The disclosure it replaced is kept there in full, because the numbers
    are the reason the fix exists.
@@ -2016,7 +2041,11 @@ load-bearing model rules, each reverted so you can see which checks move and whi
 do not), `--hand side-control/bottom` (the seven-card table this feature is sold on),
 `--lam/--horizon/--frame`.
 
-**OPEN, MEASURED, OWNER'S CALL — the GRAPH's position colours are top-relative.** `ingest` bakes `dom = n.s[0]` once per node, and for a POSITION `s[0]` is the TOP player's value. **85 of 136 positions (62%) have opposite-sign slots**, so while you play bottom the canvas paints them from your opponent's point of view under a palette whose stated meaning is "blue = good for you, red = good for the opponent" (`domColor`, and that IS how `myColor` uses it). Examples: `Side Control Top` `[+0.328, −0.712]`, `Reverse Mount Top` `[+0.380, −0.420]`. `myColor(n)` is the role-correct read and already exists; making the canvas use it is a visible change to the app's centrepiece (and a per-frame read), so it is deliberately NOT done here.
+**THE GRAPH'S POSITION COLOURS WERE TOP-RELATIVE — RE-MEASURED, AND v1.125.0 ANSWERED MOST OF IT (v1.127.1).** As written since v1.104.3: `ingest` bakes `dom = n.s[0]`, for a POSITION `s[0]` is the TOP player's value, so while you play bottom the canvas paints them from your opponent's point of view under a palette whose stated meaning is "blue = good for you, red = good for the opponent" (`domColor`, and that IS how `myColor` uses it). Examples: `Side Control Top` `[+0.328, −0.712]`, `Reverse Mount Top` `[+0.380, −0.420]`. **Both of its numbers were stale, and the premise under them had moved.** Reproduce with `node tests/artifacts/_position_color_probe.mjs` (it walks the default path AND `?dual=legacy` in one session).
+- **THE CONTENT FIGURE IS 115 OF 136 (85%), NOT 85 OF 136 (62%).** The definition, stated so it is reproducible: a position hub whose `s = [top, bottom]` slots are **STRICTLY opposite in sign** (`s[0]*s[1] < 0`), over the 136 position hubs of `graph-data.json` — identical to `graph.json`'s `<hub>/top` and `<hub>/bottom` `strength` (verified 136 of 136 matched, 0 value mismatches). **No magnitude threshold reproduces 85**: `≥0.01 → 110`, `≥0.02 → 100`, `≥0.05 → 81`, `≥0.10 → 53`, `≥0.20 → 31`. The line was never exactly right — walking `graph.json` at each tagged commit, it read **84** on the day it was written (v1.104.2 *and* v1.104.3) — and the **content calibration wave** moved it: 86 at v1.106.2, **113 at v1.106.3** (`the leading word decides`, the `position_type` parser fix), **115 at v1.106.4**, and 115 at every version since. That is the v1.103.0 rule doing exactly what it says — *the authored word sets the SIGN* — so more authored words being read correctly means more opposite-sign pairs.
+- **THE RENDER PREMISE MOVED AT v1.125.0, AND THE DEFAULT PATH NO LONGER HAS THE DEFECT.** `_deriveDualPairs` splits every position hub into a `top` and a `bottom` member and stamps each with **`sv` = ITS OWN side's value**, which `ingest` prefers over `s[0]`. Measured in a real browser at HEAD: **272 drawn position orbs, 272 painted with their own side's value, 0 with the other side's**; playing bottom, **0 of 136** bottom orbs wear the opponent's colour. The defect survives ONLY behind **`?dual=legacy`**, the one flag that skips the derivation: there the 136 hubs are drawn once and, playing bottom, **132 of 136 wear a colour that is not the player's own value** — **115** of them a SIGN flip (the red↔blue inversion this disclosure is about), 17 a shade difference at the same sign, and 4 identical because both slots agree (Standing, Clinch, Leg Entanglement, Dogfight — the neutral positions, as they should be).
+- **RED-PROVEN, one line**: delete the `sv` preference from ingest's `dom` and rebuild, and the DEFAULT path reports own-side **272 → 140** (the 136 top orbs plus those 4 neutrals) and bottom-cross-painted **0 → 132**, landing exactly on the legacy figure. Restored; rebuilt bundle byte-identical (md5 `00813c07…`).
+- **What is left for the owner is smaller than it was**: whether `?dual=legacy` keeps a palette we now know is wrong, and whether "the side this orb represents" is the right MEANING for a pair member's colour at all — it is no longer "good for YOU", it is "good for THAT side", which is a different sentence from the one `domColor`'s palette advertises. `myColor(n)` is still the role-correct read for anything that must speak in the player's frame.
 
 **LANDING-CARD CHROME, FOUR OWNER REPORTS (v1.104.2).** Pinned by `e2e/journeys/landcard-chrome.spec.ts` (4 journeys, 2 `@curated`, `test.use` 390x844 — three of the four only bite on the phone).
 - **`style.color = ""` DELETES, it does not restore.** After `More → Less` the toggle went black on a #131625 card. `expandLandCard` restored it with the empty string, which removes the inline declaration written by the button's own `cssText`; the collapsed button then inherited from a parent that sets no colour and fell back to the UA default. The resting colour is now the shared constant **`NG_LAND_MORE_COL`** so the two sites that write it cannot drift again. General rule: to return an element to a colour declared inline, WRITE it — clearing only works when the resting value comes from a stylesheet.
