@@ -399,6 +399,18 @@ test("the node a move LANDS on blooms harder than one the light passed through",
   await j.land("Mount Top");
   await j.advance(1500);
 
+  // ...AND NEITHER MAY THE OPPONENT'S. The line below already states the rule — a finish ends the
+  // round instead of landing — but it only ever applied it to MY move. A missed transition hands
+  // the turn over (`enterFailCal` -> `opponentDefend`), which draws `rng("opp-finish")` against a
+  // pFinish of up to 0.85 and, when it hits, submits you: `endRound`, no second `land`, ever.
+  // Nothing here rigged that draw, so it was a live `Math.random` and the journey failed whenever
+  // the roll ended instead of continuing — MEASURED at 4 of 48 isolated runs (8.3%) plus the one
+  // that turned a full core run red. It is not an app defect: the app correctly ended the round
+  // (the announcer read "Tapped · Crotch Ripper" in the failing snapshot). It is this journey
+  // walking into a state it has nothing to say about. 0.99 clears the pFinish ceiling, so the
+  // opponent takes the positional branch, travels, and lands somewhere — which is the subject.
+  await j.rig("opp-finish", [0.99, 0.99, 0.99]);
+
   // deliberately NOT a submission: a finish ends the round instead of landing, and this journey
   // is about what the light does when it ARRIVES somewhere.
   const pickName = await page.evaluate(() => {

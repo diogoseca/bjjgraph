@@ -1334,6 +1334,65 @@ not happen.
 > `ready-test-catch-escape-keeps-test-alive`) burn **4.0m each** on a Playwright timeout, which is
 > most of that suite's 12.5m wall time.
 
+**THE CORE SUITE HAD A 1-IN-13 FLAKE AND FOUR GREEN RUNS HID IT (v1.127.2).** `graph-naming`'s
+*"the node a move LANDS on blooms harder than one the light passed through"* went red on a verification
+run at HEAD — the first core failure in four full runs (v1.125.0, v1.126.0, v1.127.0 all reported
+`0 failed`). **It is not an app defect and the app's own screen said so**: the failure snapshot's
+announcer read *"Tapped · Crotch Ripper"*, i.e. the round had ENDED, and a round that ends produces no
+second `land` beat for the journey to find.
+- **The journey already knew the rule and applied it to one side only.** Its own comment —
+  *"deliberately NOT a submission: a finish ends the round instead of landing"* — filters `ty !==
+  "submissions"` out of MY pick, then says nothing about the OPPONENT'S. A missed transition hands
+  the turn over (`enterFailCal` → `opponentDefend`), which draws **`rng("opp-finish")`** against a
+  `pFinish` of up to 0.85 and submits you when it hits. `dsl.land()` rigs only `ai-skill`, `role`
+  and `max-moves`, so that draw was a live `Math.random` — **the journey has been a coin toss on
+  this branch in every version it has existed**, not something this arc introduced.
+- **The fix makes the branch UNREACHABLE, which is a deductive claim, not a statistical one.**
+  `j.rig("opp-finish", [0.99, …])` clears BOTH ceilings — the `Math.min(0.85, …)` cap and the
+  `!trans.length` special case at 0.9 — so `rng("opp-finish") < pFinish` is false by construction and
+  the opponent always takes the positional branch, which travels and lands. That is the state this
+  journey is about.
+- **Measured, matched-pair, back to back on one machine:** with the rig **0 failures / 30**; with the
+  rig deleted (the mutant) **2 / 30**, and **6 / 78** across every un-rigged run of the session
+  (1/15 + 3/30 + 2/30, plus the one that reddened the full suite) = **7.7%**. Fisher two-tailed on
+  0/30 vs 6/78 is **p = 0.18** — *the statistics alone do not carry this*, and saying so is the point:
+  the unreachability argument is the proof and the counts are corroboration. At 7.7% per run,
+  P(four consecutive green full suites) ≈ 0.73, so the three earlier clean reports were never
+  evidence of absence.
+- **The lesson generalises past this spec:** a journey that leaves a gameplay `rng()` tag unrigged has
+  not chosen a branch, it has bought a lottery ticket, and the ticket only prints when it loses. When a
+  journey's subject is what happens AFTER an exchange, rig every draw that can end the exchange early.
+
+**TWO THINGS THE OWNER SHOOT FOUND, BOTH PRE-EXISTING, NEITHER FIXED (v1.127.2).** The shoot is
+`tests/artifacts/_owner_shoot.mjs` — six views at 1440x900 and 390x844, driven against the REAL dev
+server with real wall-clock time, because a screenshot taken under the harness photographs the
+harness (`{}` dossier chunks, no film strip), not the product.
+- **ON A PHONE THE CHALLENGE CUE IS WRITTEN ACROSS THE NAME OF THE STATE YOU ARE STANDING IN.**
+  Reproduce with `node tests/artifacts/_cue_collision_probe.mjs`. At **390x844** the cue is a
+  full-width band at `[12,118 .. 378,168]` while `rollCamTarget`'s lift parks the focus pair at ~16%
+  of viewport height — measured overlap **label 6,700 px² · partner orb 322 · focus orb 68**. At
+  **1440x900 the overlap is 0** on both graphs; this is phone-only.
+  **THE PAIR DID NOT CAUSE IT AND MADE IT BETTER**: on `?dual=legacy` the same probe reads label
+  6,700 and orb **251**, and `elementFromPoint` at the orb's centre returns **BUTTON** — the cue is
+  eating the tap on your own node. On the pair the top orb clears the band by 5px and that same read
+  returns **CANVAS**. So the pair improved the hit-test and left the label collision exactly where it
+  was. It is the third instance of the lesson `_dockLandCard` (v1.81.3) and `_dockOptionHint`
+  (v1.123.0) already learned — **fixed chrome cannot be positioned by a constant against a camera
+  band that is computed** — and the fix is the same shape: dock the cue off a measurement. Not done
+  here; this commit ships no app code.
+  · It also eats GESTURES, which is how the shoot tripped over it: a wheel aimed at a node inside
+    that band left `cam.vw` at 130.5, unchanged. Any probe that aims at a graph coordinate must
+    hit-test `elementFromPoint(...) === canvas` first, and the shoot now does.
+- **`segBtn` MARKS THE SELECTED RUNG IN COLOUR AND NOWHERE ELSE.** Every segmented control in
+  Settings — Gi/No-gi, the rolling-simulation row, and the v1.124.0 loss-aversion dial — paints the
+  active choice with a filled background and a brighter border and sets **no `aria-pressed`, no
+  `aria-checked`, no `role="radiogroup"`, no data flag**: measured, `ariaPressed: 0` on all three
+  rungs while "Slightly cautious" is plainly selected. `loss-aversion.spec.ts:84` already works
+  around it by regex-matching `rgba(74, 108, 255` on the inline background, which is why no gate
+  reports it. A screen-reader user is told there are three buttons and not which one is on.
+  Pre-existing, unrelated to this arc, and left for the owner because it is one shared helper and
+  therefore one small change with a wide blast radius.
+
 **A DUAL PAIR IS ONE STATE WITH TWO HALVES (v1.114.3, `?dual` prototype).** Owner: *"I like to
 see both variants ... above the videos we should see the two circles ... the position should be
 rather centered on the middle of the two icons, not the actual icon that's active, so that both
