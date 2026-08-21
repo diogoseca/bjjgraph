@@ -352,3 +352,173 @@ test("swapping to the other half holds the camera, and a real pan releases it", 
     "and the camera stays where the user put it",
   ).toBeGreaterThan(20)
 })
+
+/**
+ * FIND A PAIR THAT IS NOT THE ONE YOU ARE STANDING IN, well inside the glass and clear of the
+ * landing card, and report its two halves plus the midline between them.
+ *
+ * `z > 0` picks each pair once (the upper half), so a pair cannot be reported twice, and the
+ * candidates are sorted by separation so the journeys read the most legible one on the screen.
+ */
+const otherPair = (page: Page) =>
+  page.evaluate(() => {
+    const a = (window as Any).__neural
+    const scale = a.W / a.cam.vw
+    const K = Math.max(0.4, Math.min(1, a.cam.vw / (a.graphW * 0.5)))
+    const S = (n: Any) => ({
+      idx: n.idx as number,
+      id: n.id as string,
+      t: n.t as string,
+      sx: (n.x - a.cam.cx) * scale + a.W / 2,
+      sy: (a._LY(n) - a.cam.cy) * scale + a.H / 2,
+      r: n.r * K * scale,
+    })
+    const f = a.focusIdx
+    const fp = a.nodes[f].pi
+    const out: Any[] = []
+    for (const n of a.nodes) {
+      if (n.idx === f || n.idx === fp || n.pi < 0 || n.z <= 0) continue
+      const A = S(n)
+      const B = S(a.nodes[n.pi])
+      if (A.sx > 100 && A.sx < a.W - 280 && Math.min(A.sy, B.sy) > 70 && Math.max(A.sy, B.sy) < a.H - 320)
+        out.push({ upper: A.sy < B.sy ? A : B, lower: A.sy < B.sy ? B : A, sep: Math.abs(A.sy - B.sy), mid: (A.sy + B.sy) / 2 })
+    }
+    // deterministic: separation, then idx — a tie decided by array order picks a different pair
+    // from run to run, and every threshold below is a function of which pair got picked.
+    out.sort((x, y) => y.sep - x.sep || x.upper.idx - y.upper.idx)
+    return { lodK: a._lodK as number, best: out[0] || null, count: out.length }
+  })
+
+/**
+ * A PAIR YOU POINT AT NAMES ITSELF THE WAY THE ONE YOU STAND IN DOES (v1.128.0). @curated
+ *
+ * Owner, having lived with v1.114.3: "that works very well for the current node … when I hover over
+ * other techniques which have this duality as well, for example another position which is Front
+ * Headlock, it shows 'Front Headlock Top' when I hover over the top and 'Front Headlock Bottom'
+ * when I hover over the bottom … instead of showing a single label in the middle of the top and
+ * bottom nodes. I want this behavior to also be true … for other nodes besides the current node."
+ *
+ * Two different answers to one question, on one graph. The single-node hover path prints
+ * `splitName().main`, and a POSITION title carries no "from", so it returned the whole authored
+ * string with the role baked into it — which is also the "printed twice" problem the in-node pass
+ * was deleted for in v1.114.0, arriving by a different door.
+ *
+ * THE MEASUREMENT THAT SET THE GATE. The lift is anchored to each node's OWN radius, so at one
+ * single zoom the focused pair separates **75px** (33px radius) while an ordinary pair separates
+ * **34.7px median / 42.3px p90** (14px radius). Any pixel threshold tuned on the state you stand
+ * in excludes every other pair on the screen — so the gate is `kLOD`, the app's own smoothstep
+ * between MERGE (1.15 px/unit) and SPLIT (2.20), which is the same number that decides whether
+ * there are two orbs to point at in the first place.
+ */
+test("@curated hovering any pair names it once, on the midline, with the role on the hovered side", async ({
+  page,
+}) => {
+  const j = journey(page)
+  await j.boot(AT)
+  await settle(page, j)
+
+  const o = await otherPair(page)
+  expect(o.lodK, "the graph is at split scale, where a pair has two orbs").toBeGreaterThan(0.5)
+  expect(o.best, "there is a pair on screen that is not the one we stand in").not.toBeNull()
+  const c = o.best!
+  const x = Math.max(c.upper.sx, c.lower.sx) + Math.max(c.upper.r, c.lower.r) + 16
+
+  // NOTHING IS THERE UNTIL YOU POINT AT IT — an unhovered pair is not labelled, so every bright
+  // pixel below is attributable to the hover and not to some other node's resting label.
+  const cold = await strips(page, c.mid, x)
+  expect(cold.name + cold.above + cold.below, `an unpointed pair draws no label (${JSON.stringify(cold)})`).toBeLessThan(20)
+
+  // POINT AT THE UPPER HALF: the name lands on the pair's midline, the role above it.
+  await page.mouse.move(c.upper.sx - 60, c.upper.sy - 60)
+  await page.mouse.move(c.upper.sx, c.upper.sy)
+  await j.advance(120) // inside `_hover`'s 0.5s freshness window
+  const up = await strips(page, c.mid, x)
+  expect(up.name, `the name is drawn on the midline between the orbs (${JSON.stringify(up)})`).toBeGreaterThan(300)
+  expect(up.above, "with the role above it, pointing at the half under the cursor").toBeGreaterThan(40)
+  expect(up.below, "and nothing below").toBeLessThan(up.above / 2)
+
+  // ...AND THE OLD BEHAVIOUR IS GONE. This is the assertion the owner's report is really about:
+  // a second copy of the name hanging off the hovered orb, 17px above the midline here. Without
+  // it this journey would pass on a build that draws BOTH labels.
+  // MEASURED ABOVE THE HOVERED ORB, which is exactly where the old label drew (`sy - 8`, 13px) and
+  // where the group draws nothing. The three bands cannot simply be re-centred on the orb: an
+  // ordinary pair separates 34.7px median and the bands are 18-20px tall, so a strip taken at the
+  // orb's own line reads the GROUP's own subtitle (measured: `{above: 0, name: 206, below: 463}`
+  // — the 206 is the subtitle at `mid - 12`, not a second name). The band above the upper orb is
+  // the one place the two behaviours do not overlap at any separation.
+  const atOrb = await strips(page, c.upper.sy, x)
+  expect(
+    atOrb.above,
+    `no second label hangs above the hovered orb (${JSON.stringify(atOrb)} at the orb's own line)`,
+  ).toBeLessThan(30)
+
+  // POINT AT THE LOWER HALF: one group, dynamic — the name does not move, only the role's side.
+  await page.mouse.move(c.lower.sx - 60, c.lower.sy + 60)
+  await page.mouse.move(c.lower.sx, c.lower.sy)
+  await j.advance(120)
+  const dn = await strips(page, c.mid, x)
+  expect(dn.name, `the name held its line (${up.name} -> ${dn.name} bright px)`).toBeGreaterThan(300)
+  expect(dn.below, "and the role moved below it").toBeGreaterThan(40)
+  expect(dn.above, "leaving the space above").toBeLessThan(dn.below / 2)
+})
+
+/**
+ * MERGED, THERE IS NOTHING TO POINT AT (v1.128.0).
+ *
+ * Owner: "that's not needed. That's only needed when we are zoomed in. If we're a bit zoomed out,
+ * that's not really needed." Which is not a preference — at merge scale `kLOD` has collapsed the
+ * two members onto their shared ground point, so "above" and "below" name the same orb. The group
+ * stands down and the ordinary single label takes the hover back.
+ *
+ * The zoom-out is a REAL WHEEL GESTURE, not a write to `cam.vw`: measured, assigning `cam.vw` and
+ * `camTarget.vw` directly moved the frame by 0.00006 of the graph width and snapped back, because
+ * a staged board re-aims every frame. The wheel is also the seam that releases the camera lease
+ * and `_stagedCamFree` (`:11946`), which is exactly why it is the one that works.
+ */
+test("zoomed out, a pair is one site again and the group stands down", async ({ page }) => {
+  const j = journey(page)
+  await j.boot(AT)
+  await settle(page, j)
+  expect((await otherPair(page)).lodK, "split to begin with").toBeGreaterThan(0.5)
+
+  // AIM THE WHEEL AT CLEAR CANVAS. The centre of the screen is where the landing card sits
+  // (measured: its top edge is at y=366 on this URL), and the card takes the wheel — so a gesture
+  // at W/2, H/2 leaves `kLOD` at exactly 1 and the test fails on its own setup rather than on its
+  // subject. The upper-left quadrant is graph and nothing else.
+  const box = await page.evaluate(() => {
+    const a = (window as Any).__neural
+    return { x: a.W * 0.25, y: a.H * 0.18 }
+  })
+  await page.mouse.move(box.x, box.y)
+  for (let i = 0; i < 24; i++) {
+    await page.mouse.wheel(0, 500)
+    await j.advance(120)
+  }
+
+  const o = await otherPair(page)
+  expect(o.lodK, "the wheel really merged the pairs").toBeLessThan(0.5)
+  if (!o.best) return // nothing legible on screen at this zoom is a fine outcome for this claim
+  const c = o.best
+  const x = Math.max(c.upper.sx, c.lower.sx) + Math.max(c.upper.r, c.lower.r) + 16
+  await page.mouse.move(c.upper.sx - 40, c.upper.sy - 40)
+  await page.mouse.move(c.upper.sx, c.upper.sy)
+  await j.advance(120)
+  const m = await strips(page, c.mid, x)
+  // THE MIDLINE IS THE ORACLE, and it has to be — "nothing is drawn" would be false and would
+  // fail for the right reason on a correct build: the ordinary single-node label TAKES THE HOVER
+  // BACK here, and at merge scale the two members are coincident so its baseline (`sy - 8`) lands
+  // in the band above the midline. Measured on the fixed build: `{above: 383, name: 0, below: 0}`.
+  // The group is the thing that writes ON the midline, so `name` is what separates the two.
+  expect(
+    m.above + m.below,
+    `the hover still names the node — the ordinary label took it back (${JSON.stringify(m)})`,
+  ).toBeGreaterThan(60)
+  // A RATIO, not a constant: the members are coincident here, so the single label's descenders
+  // bleed a few dozen pixels into the midline band (measured 48 against 663 above it). The claim
+  // is about where the MASS is — above the node, not on the midline — and a bleed threshold tuned
+  // to one frame's antialiasing is the kind of number that goes stale silently.
+  expect(
+    m.name,
+    `no pair group is drawn on a merged pair's midline (${JSON.stringify(m)})`,
+  ).toBeLessThan((m.above + m.below) / 4)
+})

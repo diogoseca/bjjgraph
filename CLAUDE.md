@@ -1244,6 +1244,66 @@ raw.
 ordinals, graph (Errors 0), headers, SEO parity, affiliate and payload all OK; `source` `tsc` clean
 with only the two long-standing prettier warnings (`contentPage.tsx`, `path.ts`).
 
+### MERGE AND SPLIT — the two phases, and the label group belongs to BOTH (v1.128.0)
+
+**THE VOCABULARY, because the owner asked for it and the code had already half-coined it.** The
+constants at `app.src.jsx:11978` read `MERGE 1.15, SPLIT 2.20` — px per world unit — and `kLOD` is
+the smoothstep between them. So:
+
+| phase | what you see | the number |
+|---|---|---|
+| **merged** (a **site**) | one orb on the shared ground point; no role distinction — the familiar 1467-node map | `kLOD == 0` |
+| **mitosis** | one orb shrinking while two grow out of it; continuous, no pop, no crossfade | `0 < kLOD < 1` |
+| **split** (a **pair**) | two orbs, the two sides of one state | `kLOD == 1` |
+
+`rep` is the member that speaks for a merged site (it wears `rSite` and owns the hub id); `members`
+/ `halves` are the two sides. Use these words — they are already the variable names, so a comment, a
+spec name and a conversation all point at the same thing. `this._lodK` is the live value, stamped
+every frame.
+
+**THE LABEL GROUP IS THE RULE NOW, NOT THE FOCUS'S PRIVILEGE.** v1.114.3 gave the pair you are
+STANDING IN one dynamic group — name on the midline, role above or below depending on which half
+you point at. Every other pair fell through to the single-node hover label, which prints
+`splitName(n.t).main`; a POSITION title carries no "from", so that returned the whole authored
+string **with the role baked into it**. Owner, hovering Front Headlock: *"it shows 'Front Headlock
+Top' when I hover over the top and 'Front Headlock Bottom' when I hover over the bottom … instead of
+showing a single label in the middle of the top and bottom nodes. I want this behavior to also be
+true … for other nodes besides the current node."* Two different answers to one question on one
+graph — and the same "printed twice" defect the in-node pass was deleted for in v1.114.0, arriving
+by a different door. `pairGroup(n, act, focused)` is now one local renderer called for the focus and
+for whatever pair the cursor is over; the single-label path yields whenever it drew
+(`_hovPairDrawn`), and a non-focus group reads one step back (15px at 0.86 alpha vs the focus's
+18px at full) so the state you are IN still outranks the one you are pointing at.
+
+**THE GATE IS `kLOD`, AND A PIXEL THRESHOLD WOULD HAVE BEEN WRONG — MEASURED.** Owner: *"that's not
+needed. That's only needed when we are zoomed in."* Which is not a preference: merged, the two
+members are coincident, so "above" and "below" name the same orb. The first draft gated on measured
+screen separation at 44px and **fired for nothing**: the lift is anchored to each node's OWN radius,
+so at ONE zoom the focused pair separates **75px** (33px radius) while an ordinary pair separates
+**34.7px median / 42.3px p90** (14px radius) — a 2.2x spread across the same frame. Any constant
+tuned on the state you stand in excludes every other pair on the screen, which is precisely the case
+being asked about. `kLOD` is the honest signal because it is the same number that decides whether
+there are two orbs to point at at all.
+
+**Pinned by `e2e/journeys/dual-pair.spec.ts`** (5 journeys, 3 `@curated`). Three mutants, three
+kills: group restricted to the focus (the original bug) → journey 4; `kLOD` gate deleted → journey
+5; name anchored to the hovered orb instead of the midline → journeys 1 **and** 4.
+- **The canvas oracle had to be re-derived twice, and both failures are instructive.** (1) A strip
+  centred on the hovered orb reads the GROUP'S OWN SUBTITLE at an ordinary 34.7px separation — the
+  bands are 18-20px tall, so they overlap. The band ABOVE the upper orb is the one place the two
+  behaviours never overlap at any separation, and it is exactly where the old label drew (`sy - 8`).
+  (2) At merge scale "nothing is drawn" is FALSE and fails for the right reason on a correct build:
+  the ordinary label takes the hover back. The midline is what separates them, as a RATIO — the
+  single label's descenders bleed a few dozen px into it (measured 48 against 663).
+- **`page.mouse.wheel` must be aimed at clear canvas.** At `W/2, H/2` it lands on the landing card
+  (top edge y=366 on this URL) and `kLOD` stays at exactly 1 — the merge journey fails on its own
+  setup rather than its subject. Writing `cam.vw` directly does not work either: a staged board
+  re-aims every frame, and a direct write moved the frame by 0.00006 of the graph width and snapped
+  back. The wheel is also the seam that releases the camera lease and `_stagedCamFree` (`:11946`),
+  which is why it is the gesture that works.
+- The candidate pair is sorted by separation **then by index**: a tie decided by array order picks a
+  different pair per run, and every threshold is a function of which pair got picked.
+
 ### THE PAIR JOURNEYS COME HOME (v1.127.0)
 
 **A SPEC THAT NEEDS A GITIGNORED PAYLOAD IS NOT A GATE — IT IS A NOTE.** The three v1.114.x

@@ -12495,70 +12495,100 @@ class Component extends DCLogic {
       // printed the state's name twice. That pass is gone, so the suppression goes with it: the
       // selected node is named beside itself whether you are looking at the whole graph or at one
       // orb filling the screen. Drawn LAST so it sits above the outgoing-node labels.
+      // ── ONE LABEL GROUP FOR A DUAL PAIR — FOR EVERY PAIR, NOT JUST THE ONE YOU STAND IN
+      //    (v1.114.3, generalised v1.128.0) ────────────────────────────────────────────────────
+      // Owner: "the main label stays positioned in the middle on the right, and the active role
+      // appears above or below it in case we hover over it. It's not two labels, it's just one
+      // group of labels that's dynamic, in which the subtitle's position seems to appear
+      // depending on where you are." Then, on meeting it only on the focus: "I want this
+      // behavior to also be true ... for other nodes besides the current node."
+      //
+      // The NAME never moves: it sits on the horizontal line equidistant between the two orbs,
+      // which is what makes above/below mean anything. The SUBTITLE'S SIDE is the whole signal.
+      //
+      // Until now this was the focused pair's privilege, so hovering any OTHER pair fell through
+      // to the single-node path below — which prints `splitName().main`, and a position title
+      // carries no "from", so it returned the whole authored string with the role baked in
+      // ("Front Headlock Top"). Two different answers to the same question, on the same graph.
+      //
+      // ONLY WHEN THE PAIR IS SPLIT. Merged, the two orbs are one dot on their shared ground point
+      // and "above"/"below" point at nothing — the owner's "that's only needed when we are zoomed
+      // in". **`kLOD` IS THAT SIGNAL AND IT ALREADY EXISTS**: it is the smoothstep between MERGE
+      // (1.15 px/unit) and SPLIT (2.20), it drives the lift the orbs are drawn with, and it is
+      // therefore the same number that decides whether there are two orbs to point at.
+      //
+      // A PIXEL THRESHOLD WOULD HAVE BEEN WRONG, and measurably so: the lift is anchored to each
+      // node's OWN radius, so at reading zoom the FOCUS pair separates 75px (it wears a 33px
+      // radius) while an ordinary pair separates 34.7px median / 42.3px p90 (14px radius) — a
+      // 2.2x spread at one zoom. Any constant that suits the state you stand in excludes every
+      // other pair on the screen, which is exactly the case the owner is asking about.
+      const pairGroup = (n, act, focused) => {
+        const partner = n.pi >= 0 ? this.nodes[n.pi] : null;
+        if (!partner || kLOD < 0.5) return false;   // merged: one site, nothing to point at
+        const mid = this.pairMid(n);
+        const sx = (mid.x - this.cam.cx) * scale + W / 2;
+        const sy = (mid.y - this.cam.cy) * scale + H / 2;
+        if (!(sx > -140 && sx < W + 280 && sy > -40 && sy < H + 60)) return false;
+        const nm = n.ty === "positions" ? this.posFamily(n.t) : this.displayName(n);
+        const ox = sx + Math.max(halfW(n), halfW(partner)) + 11;
+        const above = act.z > 0;
+        // "ATTEMPTING", not "ATTACKING" (owner's word). It also keeps this clear of
+        // `activeMove.verb`, which names YOUR POSTURE during travel (v1.104.1) and must not start
+        // sharing vocabulary with a label about which half of a pair you are on.
+        const sub = n.ty === "positions"
+          ? (above ? "TOP" : "BOTTOM")
+          : (above ? "ATTEMPTING" : "DEFENDING");
+        const subCol = act.idx === this.focusIdx
+          ? this.myColor(act)
+          : (act.z < 0 && act.colU ? act.colU : act.col);
+        const dfam = this._displayFam || "'Space Grotesk'";
+        ctx.shadowColor = "rgba(0,0,0,0.92)"; ctx.shadowBlur = 8;
+        ctx.textBaseline = "alphabetic";
+        // a pair you are merely POINTING AT is not the state you are in — it reads one step back
+        // so the focus keeps its rank on a graph where every position is now a pair (v1.125.0).
+        const aF = focused ? A : A * 0.86;
+        ctx.font = (focused ? "700 18px " : "700 15px ") + dfam + ", sans-serif";
+        ctx.fillStyle = this.rgba({ r: 240, g: 243, b: 248 }, aF);
+        ctx.fillText(nm, ox, sy + 6);
+        ctx.font = "700 11px " + dfam + ", sans-serif";
+        ctx.fillStyle = this.rgba(subCol, aF);
+        ctx.fillText(sub, ox, above ? sy - 12 : sy + 24);
+        ctx.shadowBlur = 0;
+        return true;
+      };
+      // the live hover, resolved once — both the focus group and the roaming one read it
+      const _hovNode = (this._hover && this._hover.idx >= 0 && this.now - (this._hover.t || 0) < 0.5)
+        ? this.nodes[this._hover.idx] : null;
       if (this.focusIdx >= 0 && !this.pulse) {
         const n = this.nodes[this.focusIdx];
-        // every position hub is titled "… Top" in graph-data.json — a rendering artifact of the
-        // visual collapse, not a claim about the side, so it comes off here as everywhere else.
-        const nm = n.ty === "positions" ? this.posFamily(n.t) : this.displayName(n);
         const partner = n.pi >= 0 ? this.nodes[n.pi] : null;
-        if (partner) {
-          // ── ONE LABEL GROUP FOR A DUAL PAIR (v1.114.3) ──────────────────────────────────────
-          // Owner: "the main label stays positioned in the middle on the right, and the active
-          // role appears above or below it in case we hover over it. It's not two labels, it's
-          // just one group of labels that's dynamic, in which the subtitle's position seems to
-          // appear depending on where you are."
-          //
-          // So the NAME never moves: it sits on the horizontal line equidistant between the two
-          // orbs, which is what makes above/below mean anything. The SUBTITLE'S SIDE is the whole
-          // signal — above for the top/attacker half, below for the bottom/defender half — and
-          // hovering either orb moves it without disturbing the name.
-          let act = n;
-          if (this._hover && this._hover.idx >= 0 && this.now - (this._hover.t || 0) < 0.5) {
-            const hv = this.nodes[this._hover.idx];
-            if (hv === n || hv === partner) act = hv;
-          }
-          const mid = this.pairMid(n);
-          const sx = (mid.x - this.cam.cx) * scale + W / 2;
-          const sy = (mid.y - this.cam.cy) * scale + H / 2;
-          if (sx > -140 && sx < W + 280 && sy > -40 && sy < H + 60) {
-            const ox = sx + Math.max(halfW(n), halfW(partner)) + 11;
-            const above = act.z > 0;
-            // "ATTEMPTING", not "ATTACKING" (owner's word). It also keeps this clear of
-            // `activeMove.verb`, which names YOUR POSTURE during travel (v1.104.1) and must not
-            // start sharing vocabulary with a label about which half of a pair you are on.
-            const sub = n.ty === "positions"
-              ? (above ? "TOP" : "BOTTOM")
-              : (above ? "ATTEMPTING" : "DEFENDING");
-            const subCol = act.idx === this.focusIdx
-              ? this.myColor(act)
-              : (act.z < 0 && act.colU ? act.colU : act.col);
-            const dfam = this._displayFam || "'Space Grotesk'";
-            ctx.shadowColor = "rgba(0,0,0,0.92)"; ctx.shadowBlur = 8;
-            ctx.textBaseline = "alphabetic";
-            ctx.font = "700 18px " + dfam + ", sans-serif";
-            ctx.fillStyle = this.rgba({ r: 240, g: 243, b: 248 }, A);
-            ctx.fillText(nm, ox, sy + 6);
-            ctx.font = "700 11px " + dfam + ", sans-serif";
-            ctx.fillStyle = this.rgba(subCol, A);
-            ctx.fillText(sub, ox, above ? sy - 12 : sy + 24);
-            ctx.shadowBlur = 0;
-          }
-        } else {
+        const act = (partner && _hovNode && (_hovNode === n || _hovNode === partner)) ? _hovNode : n;
+        // a pair too merged to carry the group still needs naming — fall through to the single
+        // label rather than leaving the state you are standing in anonymous.
+        if (!partner || !pairGroup(n, act, true)) {
           // the kicker the deleted in-node pass carried: category, plus the side YOU are playing.
+          const nm = n.ty === "positions" ? this.posFamily(n.t) : this.displayName(n);
           const rl = this.roleLabel();
           const kick = (n.ty === "positions" ? "POSITION" : n.ty === "submissions" ? "SUBMISSION" : "TRANSITION")
             + (rl ? " · " + String(rl).toUpperCase() : "");
           richLabel(this.focusIdx, kick, this.myColor(n), nm, true);
         }
       }
+      // ...and the SAME group for whatever pair the cursor is over, when it is not the focus's.
+      let _hovPairDrawn = false;
+      if (_hovNode && _hovNode.pi >= 0) {
+        const inFocusPair = this.focusIdx >= 0 &&
+          (_hovNode.idx === this.focusIdx || _hovNode.idx === this.nodes[this.focusIdx].pi);
+        if (!inFocusPair) _hovPairDrawn = pairGroup(_hovNode, _hovNode, false);
+      }
       // hover: nearest node label (brighter + "your move" tag if it's an outgoing option)
       // ...but NOT for a member of the focused pair: the label group above already names it, and
       // its whole point is that the name does not move — a second copy hanging off the hovered
       // orb would be the "printed twice" problem the in-node pass had (v1.114.0), on hover.
-      const _hovIsPairHalf = this._hover && this._hover.idx >= 0 && this.focusIdx >= 0 &&
-        (this._hover.idx === this.focusIdx || this._hover.idx === this.nodes[this.focusIdx].pi);
-      if (this._hover && this._hover.idx >= 0 && !_hovIsPairHalf && this.now - (this._hover.t || 0) < 0.5) {
-        const n = this.nodes[this._hover.idx];
+      const _hovIsPairHalf = _hovNode && this.focusIdx >= 0 &&
+        (_hovNode.idx === this.focusIdx || _hovNode.idx === this.nodes[this.focusIdx].pi);
+      if (_hovNode && !_hovIsPairHalf && !_hovPairDrawn) {
+        const n = _hovNode;
         const sx = (n.x - this.cam.cx) * scale + W / 2, sy = (LY(n) - this.cam.cy) * scale + H / 2;
         const isOpt = this.optionIdxs && this.optionIdxs.indexOf(n.idx) >= 0;
         const hx = sx + halfW(n) + 10;
