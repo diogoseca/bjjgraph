@@ -925,6 +925,151 @@ button explicitly."* Three defects, and PRODUCTION WAS WORSE THAN THE PROTOTYPE.
   last aimed against and reached 376 on the next. A second bare `advance` is NOT enough; an
   intervening `page.evaluate` is what forces layout and lets a frame render between pumps.
 
+### THE PAIR IS THE DEFAULT, AND IT IS DERIVED AT INGEST (v1.125.0)
+
+Owner: *"dual=iso should be made the default now, we can keep the dual=legacy if it's ok, but the
+dual=iso should be default now, and main thing, and optimized for that (not legacy anymore)."*
+
+**IT COULD NOT SHIP THE WAY THE PROTOTYPE DID.** The prototype got two orbs per state by EMITTING
+2,931 pre-split nodes: **2,471,947 raw / 199,358 gzip**, against the shipped wire's **546,746 /
+90,492**. Swapping the file in puts the eager set at ~3.25MB against a 1.6MB ceiling. It never had
+to ship that way — both roles are already in the data model, `ingest()` already computes `z`, `h`,
+`pi`, `rep`, `rSite`, `colU`, and since v1.113.1 the lift is render-time — so **`_deriveDualPairs`
+rewrites `data` into the exact shape the prototype file has and hands it to the same ingest that
+has been rendering `?dual=iso` since v1.113.0.** The look the owner approved is reproduced by
+running the identical code, not by reimplementing it. **Zero wire bytes**: `graph-data.json`,
+`graph.json`, `globalGraphLayout.json` and `node_ordinals.json` are untouched.
+
+- **`?dual=legacy` is the escape hatch** and now the only thing the flag opts *out* of; `null` is
+  the default and means the derived pair. `?dual=fixed|force|iso` still load their prototype files
+  (dev-only, gitignored) and pass through the derivation untouched, because it no-ops on a payload
+  that already carries `pairId` — which is what makes an A/B against them possible at all.
+
+**THE HUB KEEPS ITS ID: THE REP MEMBER *IS* THE HUB NODE.** Same id, same share ordinal, same
+`/Positions/Mount` URL. So `node_ordinals.json` needs no new ordinals — minting ~1,464 would be
+irreversible and would not save one already-posted `/l/<code>` — and every id-keyed consumer
+(lists, systems lighting, curriculum fog, `_lessonIndex.nodeId`) lands on the rep exactly as it
+lands on the hub today. Only the PARTNER mints an id, `<hub>/Bottom` / `<hub>/Defender`: measured,
+**0 of 1467 collide with an existing hub id**, and **1466 of 1467 resolve to a built page** — the
+same 1466/1467 the hubs manage, with the same single miss (`Transitions/100%-Sweep`, whose `%`
+cannot survive a filename). `_syncUrl` therefore keeps working on both halves with no mapping table.
+
+**THE LINK SET IS RE-KEYED, NEVER REBUILT — AND IT TAKES TWO KINDS TO DO IT.**
+- **Kind 1, the real edge, ONE FOR ONE**: each hub link goes to the member it belongs to — the
+  PERFORMER side at the technique's canonical origin (the attempt edge), the side its outcomes LAND
+  on anywhere else. One for one is load-bearing, not tidiness: `rSite` recovers the production hub
+  radius as `sqrt(deg_a + deg_b − 2)`, which is the hub's own degree only if no hub link is split in
+  two. Measured after: **1467/1467 sites recover exactly**. The prototype double-booked 187 hub
+  edges onto both members, which is precisely what that formula cannot survive.
+- **Kind 2, SITE ADJACENCY — one-way, no degree, never drawn.** Splitting the edges is right for
+  GEOMETRY and wrong for GAMEPLAY, because several readers walk `adj[currentPos]` with NO role
+  filter, deliberately: they are asking about the EXCHANGE, not about your hand. So the other half
+  of the site gets the technique too, which makes `adj[<either member>]` byte-for-byte today's
+  `adj[<hub>]`, in the same order, and every role-agnostic reader identical **by construction**
+  rather than because it happened to be tested.
+
+> **This was not theory — the suite found it.** With a purely role-split adjacency, `opponentDefend`
+> was handed YOUR hand instead of your opponent's (their moves live on the other half of the site),
+> so a belt-test opponent simply stopped finding submissions and `content-capstone` went red. The
+> same shape would have quietly changed `_mcPool`'s graph-neighbour distractors and `_posIdx`'s
+> playability test. **Do not role-split `adj`.**
+
+**GAMEPLAY IS BIT-IDENTICAL, AND THAT IS ASSERTED, NOT ARGUED.** All **272/272** role-hands deal
+the same cards **in the same order** as `?dual=legacy` — order included, because the tray is ranked
+by EDGE and a re-sort is a visible change. All **1326/1326** dealt options resolve `resultPos` to
+the same hub. `scripts/triple_replay.sh`: 3 byte-identical replays, 27 results, digest
+`0390cc44ee7f40e5`. The split is a MODEL change, not a game one.
+
+- **Three enumerations had to stay per-SITE, and each would have been a silent regression.**
+  `_posIdx` (the first-impression pool) — v1.82.3 is a measured distribution over **136** positions
+  and `startPosTraffic` sums weight per position SLUG, which `_posSlugIndex` hands to the rep; both
+  halves in the pool would have doubled it with 136 zero-weight entries, spent the 2% floor on them
+  and changed which state a newcomer opens on. `buildExplorer` — both halves carry the SAME title,
+  so Explore would have printed every row of all three categories twice (272 Positions, 2662
+  Transitions) with nothing to tell them apart. `_ambig` — counting members puts every name at ≥2,
+  and `displayName` would print the FULL qualified name on every option card and in-node label, the
+  exact inverse of the v1.103.0 rule. All three filter on `rep`, which is `true` for every unpaired
+  node, so all three are no-ops on the legacy graph.
+- **`deg` is GEOMETRY; `siteDeg` is the state.** A member's own degree is what makes an attacker orb
+  bigger than its defender, so it must stay split — but `movePotential`'s `onward` ("how many
+  follow-ups does this open") is a property of the STATE, and reading the split number there would
+  halve a value the escape tray prints. `n.siteDeg` is the hub's degree, 1467/1467 exact, and
+  identical to `deg` on any unpaired node.
+- **`cal` is split by what each side can answer for.** Positions: both members get `avail` and the
+  WHOLE `ev` table, and only the `ew` entries their own role performs. Techniques: the attacker owns
+  the EXCHANGE (`successRate`, `outcomes`) because a defender's are the role-flipped mirror rather
+  than a copy; the defender keeps `avail`, which is genuinely role-neutral, so `giAllows` never
+  falls through to its name heuristic.
+
+> **`ev` GOES ON BOTH HALVES, WHOLE — filing each role's block on its own member is a trap.**
+> `_evRowsFor(posIdx, role)` looks up `posIdx + "/" + role`, so a per-member `ev` makes the answer
+> depend on WHICH HALF you are standing on — and the side you are PLAYING is `playerRole`, which
+> can differ. Measured: flipping the role without moving (option-edge's `landBottom`, and every
+> role swap) left every card with a null EDGE, i.e. no number at all on the face the card exists to
+> print. Two references to one block; the only per-member work is remapping the technique idxs.
+
+**SIX SPECS HELD PRIVATE COPIES OF "WHAT THE NODE SET IS", AND THE PAIR CASHED THEM ALL IN.** The
+baseline was measured first — the eight affected files were **49/49 green on HEAD** — so every
+failure was attributable, and none of them was a gameplay defect the app had. Two classes:
+- **Corpus counts**: `option-hand`'s independent hand sweep, `option-overflow`'s clock sweep and
+  three copies of `_posIdx`'s filter inside `first-impression` all walk "every position", which is
+  now 272 members rather than 136 sites — they double every sweep and then assert 272. Each now
+  skips `rep === false`. `option-hand`'s "the corpus is 297 submissions" counts NODES, and a
+  submission is two of them. These copies are deliberate (a second implementation checked against
+  the app on every run IS a gate) — they just have to count the same objects the app counts.
+- **`n.y` WHERE THE RENDERER DRAWS AT `LY(n)`, for the third time** (after v1.114.3's hover and tap,
+  and v1.114.4's `rollFromPosition`). `graph-naming`'s `parkOn` AND its `profile` both centred on
+  the stored coordinate, so the canvas annulus sampled empty sky and reported "no ring is drawn"
+  about a ring that was drawn; `url-arrival` re-derived the camera's aim from `{x,y}` where the app
+  passes `camFocus` = `pairMid`. **Any spec that converts a node to a screen position must go
+  through `_LY`/`pairMid`.** Both are identities on an unpaired node.
+
+**WHERE IT DIFFERS FROM THE PROTOTYPE, THE PROTOTYPE WAS WRONG** — proven by
+`e2e/prototype/dual-derive-equiv.spec.ts`, which boots both and diffs the live node sets.
+- **+3 pairs (6 nodes).** The prototype left `100%-Sweep`, `Fireman's-Carry` and `Counter Entry to
+  Opponent's Leg` UNPAIRED because its `tech_key()` could not spell them — **the same v1.115.0 slug
+  class**. graph.json has attacker AND defender for all three.
+- **+752 links** the prototype's graph.json rebuild never produced: **738 Submissions, 724 of them
+  family-nested** (`Submissions/<Family>/<variant>`), the identical spelling failure.
+- **−187 links**: the double-bookings above. **−1**: `Side-Control/Bottom ↔ Buggy-Choke`, a
+  graph.json edge `globalGraphLayout` does not carry — and the visual layer's link set is the
+  layout's, which is why production omits it today too.
+- Net effect on play: the derivation **GAINS 8 cards across 7 of 272 hands and loses none**
+  (`Rolling Omoplata`, `Reverse Armbar from Mount`, `Kneebar from Carni`, …). The spec asserts that
+  direction rather than a count, so a real regression cannot hide in it.
+- **Geometry.** The iso ground projection is EXACT (max |dx| 0.000000 pre-de-overlap). What differs
+  is the de-overlap, and only because radii differ where the prototype lost edges: A→B median
+  **1.14u** on a graph **1520u** wide. The claim that matters is stated against the layout instead
+  of against the prototype — drift from `globalGraphLayout`'s own ground point is **derived median
+  7.28u vs prototype 6.96u**, i.e. the derivation settles as close to the beloved global shape as
+  the payload the owner approved, and the difference between the two is the sweep's own local jitter.
+
+**WHAT IT COSTS, DISCLOSED RATHER THAN DISCOVERED.** Bundle **+3,275 raw / +1,349 gzip** (459,007 →
+462,282; gzip -9 135,259 → 136,608). Browser-measured first-hand gzip **379,037 → 380,343** against
+the 385,000 ceiling, so the tightest number in the tree keeps **4,657 B** of headroom; the payload
+gate reports neural eager gzip **301,688 / 330,000**. The real bill is CPU: `ingest()` goes **38.6 →
+105.2ms** on desktop and **138.4 → 395.2ms at 4x CPU throttle**, of which the derivation itself is
+only **6.8ms** (28ms throttled). The rest is the de-overlap sweep running over 2,934 nodes instead of 1,467 —
+**1,578,690 → 4,831,712 inner iterations**, and it never converges, so all 30 rounds always run.
+**Not solved, and the honest fix is named**: sweep SITES rather than members (a pair is already a
+rigid body there, so two stranger orbs get compared four times), which changes the emitted geometry
+and therefore is not being done inside the change that ships the geometry. `?dual=legacy` is the
+lever if it ever has to come off.
+
+> **A hoist that looks obviously safe and is not.** Lifting `a.x`/`a.y` out of the de-overlap's
+> inner loop moved the emitted geometry immediately: `_mv` moves `a` ITSELF during that loop, so
+> the coordinates must be re-read every iteration. Only `r` and `pairId` are invariant. The cheap
+> `dx >= g || dy >= g || dy <= -g` reject beside it IS safe — `hypot` is never smaller than either
+> leg, so it rejects only what `d >= g` already rejected — and both graphs' coordinates are
+> identical to 9 decimals before and after. It is kept for being free, not fast: the win is inside
+> run-to-run noise (hub medians spread 36–58ms), so **do not quote a speedup for it**.
+
+**KNOWN, DELIBERATELY NOT DONE.** `nodeForKey` maps `<family>|Bottom` to the rep (first-wins),
+which is exactly what it did when the hub was the only node — identical behaviour, not a
+regression, but now that a bottom member exists it could be made role-correct. Same for
+`_curriculumIdxSet`, which lights the rep only. Both are behaviour changes and belong to whoever
+decides them, not to the change that splits the node.
+
 **A DUAL PAIR IS ONE STATE WITH TWO HALVES (v1.114.3, `?dual` prototype).** Owner: *"I like to
 see both variants ... above the videos we should see the two circles ... the position should be
 rather centered on the middle of the two icons, not the actual icon that's active, so that both

@@ -51,6 +51,7 @@ const CLOCKS = `(async () => {
   for (let i = 0; i < a.nodes.length; i++) {
     const n = a.nodes[i];
     if (n.ty !== "positions" || !n.posId) continue;
+    if (n.rep === false) continue;   // ONE ENTRY PER SITE (v1.125.0): both halves answer for the same two role-hands
     for (const role of ["top", "bottom"]) {
       a.currentPos = i; a.playerRole = role;
       keys = null;

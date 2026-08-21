@@ -122,6 +122,10 @@ tests/artifacts/chrome/
 # Dual close-pair prototype payloads (regenerable via scripts/prototype_dual_pair_layout.py;
 # 2.2MB each, served only from the private .privserve root — the PNGs beside them ARE tracked)
 tests/artifacts/dualpair/payloads/
+# ...and the per-run text output of the derive-equivalence spec, which only means anything next to
+# the payload it was diffed against (the PNGs beside it ARE tracked).
+tests/artifacts/dualpair/derive-equivalence.txt
+tests/artifacts/dualpair/derive-cost.txt
 node_modules/
 
 # Transient local-agent coordination notes (this checkout only; repo is public)

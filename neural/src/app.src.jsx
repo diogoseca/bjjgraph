@@ -552,9 +552,12 @@ class Component extends DCLogic {
         // serves them with a Cache-Control tier (see scripts/regenerate_headers.py). Forcing a
         // revalidation on every boot threw away the one free win available — a returning
         // visitor re-downloaded the entire payload.
-        // PROTOTYPE (dual close-pair graph): ?dual=fixed|force loads a role-pair variant of the
-        // layout (scripts/prototype_dual_pair_layout.py) — every dual state as TWO close nodes.
-        const dv = this._dualVariant();
+        // PROTOTYPE (dual close-pair graph): ?dual=fixed|force|iso loads a PRE-SPLIT variant of the
+        // layout (scripts/prototype_dual_pair_layout.py). Since v1.125.0 the split is DERIVED from
+        // the standard wire at ingest, so these files exist only to compare the derivation against
+        // the thing it reproduces; `?dual=legacy` names no file at all (it opts OUT of the split)
+        // and must never cost the boot path a 404 round trip.
+        const dv = this._dualVariant() === "legacy" ? null : this._dualVariant();
         // A PROTOTYPE FLAG MUST NEVER BREAK THE APP (v1.112.1). The dual payloads are dev-only —
         // dev-serve.mjs maps the URL straight to tests/artifacts/dualpair/payloads/ and they are
         // NEVER in the shipped tree — so `?dual=iso` against a build without them used to 404 on
@@ -630,6 +633,208 @@ class Component extends DCLogic {
     try { document.documentElement.dataset.variant = "legacy"; } catch (e) { /* noop */ }
   }
 
+  /**
+   * ── THE PAIR IS DERIVED AT INGEST, NEVER SHIPPED (v1.125.0) ────────────────────────────────
+   *
+   * `?dual=iso` is the default now (owner). The prototype got there by EMITTING 2,931 pre-split
+   * nodes — measured, 2,471,947 raw / 199,358 gzip against the shipped wire's 546,746 / 90,492,
+   * which puts the eager set at ~3.25MB against a 1.6MB ceiling. It cannot ship that way and it
+   * does not have to: both roles are already in the data model, so the split is a pure function
+   * of the wire. This rewrites `data` into the EXACT shape the prototype file has and hands it
+   * to the same ingest that has been rendering `?dual=iso` since v1.113.0 — so the look the owner
+   * approved is reproduced by running the identical code, not by reimplementing it. Zero wire bytes.
+   *
+   * THE HUB KEEPS ITS ID. The rep member (top / attacker) IS the hub node — same id, same share
+   * ordinal `o`, same `/Positions/Mount` URL — so `node_ordinals.json` needs no new ordinals, every
+   * `/l/<code>` already posted in a gym WhatsApp group still resolves, and every id-keyed consumer
+   * (lists, systems lighting, curriculum fog, `_lessonIndex.nodeId`) lands on the rep exactly as it
+   * lands on the hub today. Only the PARTNER mints a new id, `<hub>/Bottom` / `<hub>/Defender`:
+   * measured, 0 of 1467 collide with an existing hub id, and 1466 of 1467 resolve to a built page —
+   * the same 1466/1467 the hubs manage, with the same single miss (`Transitions/100%-Sweep`, whose
+   * `%` cannot survive a filename).
+   *
+   * THE LINK SET IS RE-KEYED ONE FOR ONE, NEVER REBUILT. Each existing hub link is handed to the
+   * member it belongs to — the PERFORMER side at the technique's canonical origin (the attempt
+   * edge), the side its outcomes LAND on anywhere else. One for one is not tidiness: `rSite`
+   * recovers the production hub radius as `sqrt(deg_a + deg_b - 2)`, which is the hub's own degree
+   * only if no hub link is split in two. Measured: 1467/1467 sites recover exactly, all 272 dealt
+   * hands are identical to production (same cards, same adjacency iteration order), and all 1326
+   * dealt options resolve `resultPos` to the same hub.
+   */
+  _deriveDualPairs(data) {
+    const src = data.nodes, N = src.length;
+    if (!N || src.some((n) => n.pairId)) return false;   // already split (the prototype payload)
+    const POS = "positions";
+    const SUF = { top: "Top", bottom: "Bottom", attacker: "Attacker", defender: "Defender" };
+    // member index is ARITHMETIC — rep at 2i, partner at 2i+1 — so every index the wire carries
+    // (cal.ew targets, cal.ev idxs, links) remaps without a lookup table.
+    const rep = (i) => 2 * i, low = (i) => 2 * i + 1;
+    const mem = (i, role) => (role === "bottom" || role === "defender" ? low(i) : rep(i));
+
+    // slug indices over the HUBS, the same two spellings ingest itself uses below, so an outcome's
+    // `to` resolves here exactly as `resolveOutcomeTo` resolves it later.
+    const posBySlug = new Map(), techBySlug = new Map();
+    for (let i = 0; i < N; i++) {
+      const h = src[i];
+      if (h.ty === POS) {
+        const pid = String(h.posId || "").toLowerCase();
+        if (!pid) continue;
+        if (!posBySlug.has(pid)) posBySlug.set(pid, i);
+        const bare = pid.slice(pid.lastIndexOf("/") + 1);
+        if (!posBySlug.has(bare)) posBySlug.set(bare, i);
+      } else {
+        const tail = (h.id.includes("/") ? h.id.slice(h.id.indexOf("/") + 1) : h.id).toLowerCase();
+        for (const k of [tail, tail.replace(/\//g, "-")]) {
+          if (k && (!techBySlug.has(k) || h.ty === "submissions")) techBySlug.set(k, i);
+        }
+      }
+    }
+    // which side of a position each technique's authored outcomes DELIVER you to
+    const lands = new Map(), techEdge = [];
+    for (let i = 0; i < N; i++) {
+      const h = src[i];
+      if (h.ty === POS) continue;
+      for (const o of ((h.cal && h.cal.outcomes) || [])) {
+        const to = String((o && o.to) || "").trim().toLowerCase();
+        if (!to || to === "game-over") continue;
+        const m = to.match(/^(.*)\/(top|bottom)$/);
+        if (m) {
+          const p = posBySlug.get(m[1]);
+          if (p != null && !lands.has(p * N + i)) lands.set(p * N + i, m[2]);
+          continue;
+        }
+        const t = techBySlug.get(to);
+        if (t != null) { techEdge.push([i, t]); continue; }
+        const p = posBySlug.get(to);
+        if (p != null && !lands.has(p * N + i)) lands.set(p * N + i, "top");
+      }
+    }
+
+    // ── members ───────────────────────────────────────────────────────────────────────────────
+    const out = new Array(2 * N);
+    for (let i = 0; i < N; i++) {
+      const h = src[i], isPos = h.ty === POS;
+      const roles = isPos ? ["top", "bottom"] : ["attacker", "defender"];
+      for (let si = 0; si < 2; si++) {
+        const role = roles[si];
+        const m = {
+          id: si === 0 ? h.id : h.id + "/" + SUF[role],
+          x: h.x, y: h.y, t: h.t, ty: h.ty, s: h.s || null, role: role,
+          pairId: si === 0 ? h.id + "/" + SUF[roles[1]] : h.id,
+          posId: h.posId || null, fromPositionId: h.fromPositionId || null,
+          fromRole: h.fromRole || null, familyHub: h.familyHub || null,
+          o: si === 0 ? h.o : null,   // the share ordinal belongs to the hub, and the rep IS the hub
+        };
+        // `sv` colours the member by ITS OWN side's advantage; `s` stays the full pair so
+        // myVal()'s role-indexing (valIdx, v1.103.0) is untouched.
+        if (Array.isArray(h.s) && typeof h.s[si] === "number") m.sv = h.s[si];
+        out[si === 0 ? rep(i) : low(i)] = m;
+      }
+    }
+
+    // ── links: re-key the hub set one for one, then tie each pair ─────────────────────────────
+    const links = [], seen = new Set();
+    const add = (a, b) => {
+      if (a === b) return;
+      const k = a < b ? a * 2 * N + b : b * 2 * N + a;
+      if (seen.has(k)) return;
+      seen.add(k); links.push([a, b]);
+    };
+    for (const l of data.links) {
+      const a = Array.isArray(l) ? l[0] : null, b = Array.isArray(l) ? l[1] : null;
+      if (a == null || b == null || !src[a] || !src[b]) continue;
+      const pa = src[a].ty === POS, pb = src[b].ty === POS;
+      if (pa === pb) { add(rep(a), rep(b)); continue; }   // tech<->tech rides the attacker layer
+      const p = pa ? a : b, t = pa ? b : a, ht = src[t];
+      const fr = ht.fromRole;
+      const atOrigin = fr && String(ht.fromPositionId || "").toLowerCase() === String(src[p].posId || "").toLowerCase();
+      const role = atOrigin ? fr : (lands.get(p * N + t) || fr || "top");
+      add(mem(p, role), rep(t));
+      // ── AND THE SITE STILL SEES ITS WHOLE NEIGHBOURHOOD (kind 2, ONE-WAY) ──────────────────
+      // Splitting the edges is right for GEOMETRY and wrong for GAMEPLAY, because several readers
+      // walk `adj[currentPos]` with NO role filter — deliberately, since they are asking about the
+      // exchange rather than about your hand. `opponentDefend` is the clearest: the opponent's
+      // moves live on the OTHER half of your site, so a role-split adjacency hands them your hand
+      // instead of theirs, and a belt-test opponent simply stops finding submissions (caught by
+      // content-capstone). `_mcPool`'s graph-neighbour distractors and `_posIdx`'s playability
+      // test read it the same way. So the other half gets the technique too — one-way, no degree,
+      // never drawn — which makes `adj[<either member>]` byte-for-byte today's `adj[<hub>]`, in
+      // the same order, and every role-agnostic reader identical BY CONSTRUCTION rather than
+      // because it happened to be tested. `deg` stays one-for-one, so `rSite` still recovers the
+      // production hub radius exactly and each orb keeps its own role's size.
+      links.push([mem(p, role === "top" ? "bottom" : "top"), rep(t), 2]);
+    }
+    for (const [a, b] of techEdge) add(rep(a), rep(b));
+    for (let i = 0; i < N; i++) links.push([rep(i), low(i)]);   // the tie: never drawn, always adjacent
+
+    // ── cal, split so each member answers for its own side ────────────────────────────────────
+    for (let i = 0; i < N; i++) {
+      const h = src[i], cal = h.cal;
+      if (!cal) continue;
+      if (h.ty !== POS) {
+        // The attacker owns the EXCHANGE — successRate, outcomes — because those are authored from
+        // its side and a defender's are the role-flipped mirror, not a copy. `avail` is the one
+        // role-neutral field (gi/no-gi is a property of the technique), so the defender keeps it
+        // rather than falling through `giAllows` to the name heuristic.
+        out[rep(i)].cal = cal;
+        if (cal.avail) out[low(i)].cal = { avail: cal.avail };
+        continue;
+      }
+      const A = out[rep(i)], B = out[low(i)];
+      A.cal = { avail: cal.avail }; B.cal = { avail: cal.avail };
+      // `ev` goes on BOTH members, whole. It is keyed by role already, and `_evRowsFor(posIdx,
+      // role)` looks up `posIdx + "/" + role` — so filing each role's block only on its own member
+      // makes the answer depend on WHICH HALF you happen to be standing on, and the side you are
+      // playing is `playerRole`, which can differ. That is not hypothetical: flipping the role
+      // without moving (`landBottom` in option-edge, and every role swap) left every card with a
+      // null EDGE — the number the card exists to print. Two references to the same block; the
+      // only per-member work is remapping the technique idxs to their attacker members.
+      if (cal.ev) {
+        const ev = {};
+        for (const role in cal.ev) {
+          const blk = cal.ev[role];
+          if (!Array.isArray(blk) || !Array.isArray(blk[0])) continue;
+          const cp = blk.slice(); cp[0] = blk[0].map(rep);      // idxs name techniques -> attackers
+          ev[role] = cp;
+        }
+        A.cal.ev = ev; B.cal.ev = ev;
+      }
+      // `ew` is per POSITION (max across roles at emit); split it by the performer so a member
+      // lights only the moves its own side plays. Display-only — `_edgeW`'s sole reader is draw().
+      if (Array.isArray(cal.ew)) {
+        for (const e of cal.ew) {
+          const tgt = src[e[0]]; if (!tgt) continue;
+          const m = tgt.fromRole === "bottom" ? B : A;
+          (m.cal.ew || (m.cal.ew = [])).push([rep(e[0]), e[1]]);
+        }
+      }
+    }
+
+    // ── TRUE ISOMETRIC, projection C (the owner's "i want C") ─────────────────────────────────
+    // The layout's (x, y) is the GROUND plane; the player axis is screen-vertical. Baked here for
+    // the same reason the prototype baked it at emit: the projection is a fixed affine map and the
+    // camera never rotates, so the renderer, hit-testing and de-overlap all work on projected
+    // coordinates with no 3D anywhere downstream. z is emitted as the flat +/-ISO_EMIT_H the lift
+    // pass below recovers and re-anchors to each orb's EDGE (v1.113.1).
+    const CO = 0.8660254037844387, SI = 0.5, H = 4.0;   // cos30, sin30, PAIR_DIST/2
+    for (let i = 0; i < N; i++) {
+      const h = src[i], gx = +h.x, gy = +h.y;
+      const sx = Math.round((gx - gy) * CO * 10) / 10;
+      // ROUND THE GROUND POINT, THEN OFFSET (v1.112.2): rounding each member independently let the
+      // two results land either side of the boundary, so the one constant the whole projection
+      // rests on shipped as three different numbers.
+      const sy = Math.round((gx + gy) * SI * 10) / 10;
+      const A = out[rep(i)], B = out[low(i)];
+      A.x = B.x = sx;
+      A.y = Math.round((sy - H) * 10) / 10;
+      B.y = Math.round((sy + H) * 10) / 10;
+    }
+
+    data.nodes = out; data.links = links;
+    this._pairsDerived = { sites: N, nodes: out.length, links: links.length };
+    return true;
+  }
+
   ingest(data) {
     // ── WIRE EXPANSION (v1.107.0). graph-data.json ships COMPACT (it is the largest boot
     // payload) and is expanded HERE into the exact legacy shapes, so every downstream reader
@@ -645,6 +850,15 @@ class Component extends DCLogic {
       if (c && Array.isArray(c.outcomes)) {
         c.outcomes = c.outcomes.map((o) => Array.isArray(o) ? { to: o[0], probability: o[1], result: RESULT_WORD[o[2]] || o[2] } : o);
       }
+    }
+    // ── THE PAIR (v1.125.0) ────────────────────────────────────────────────────────────────────
+    // Between the outcome expansion (which this READS, to learn which side each technique lands
+    // you on) and the EDGE table below (whose `idxs` and map keys are NODE INDEXES, so the split
+    // has to happen before they are built, not after). `?dual=legacy` is the escape hatch and a
+    // pre-split payload (the `?dual=iso` prototype file) passes straight through.
+    if (this._dualVariant() !== "legacy") {
+      try { this._deriveDualPairs(data); }
+      catch (e) { console.warn("[neural] pair derivation failed — rendering hubs:", e); }
     }
     // ── EDGE (v1.117.0 wire, read here since v1.118.0) ─────────────────────────────────────────
     // `cal.ev` hangs off the POSITION nodes and says what each move dealt from that state is
@@ -716,6 +930,11 @@ class Component extends DCLogic {
     for (const l of data.links) {
       const a = Array.isArray(l) ? l[0] : idIndex.get(l.source), b = Array.isArray(l) ? l[1] : idIndex.get(l.target);
       if (a == null || b == null || a === b || !nodes[a] || !nodes[b]) continue;
+      // SITE ADJACENCY (kind 2, v1.125.0): the other half of a pair can SEE this neighbour without
+      // owning the edge. One-way, no degree, never drawn — see `_deriveDualPairs` for why the
+      // role-agnostic readers need it. Absent from every other payload, so this is inert off the
+      // derived path.
+      if (Array.isArray(l) && l[2] === 2) { adj[a].push(b); continue; }
       const na = nodes[a], nb = nodes[b];
       const tie = na.pairId === nb.id || nb.pairId === na.id;
       // deg is deliberately counted BEFORE the filter: radii must not move in this step, so the
@@ -759,7 +978,31 @@ class Component extends DCLogic {
     // applied to both — the pair translates, never deforms.
     const _partnerOf = (n) => { if (!n.pairId) return null; const j = idIndex.get(n.pairId); return j == null ? null : nodes[j]; };
     const _mv = (n, ddx, ddy) => { n.x += ddx; n.y += ddy; const p = _partnerOf(n); if (p) { p.x += ddx; p.y += ddy; } };
-    // de-overlap: push near-coincident vertices to a minimum gap so close zoom can tell them apart
+    // de-overlap: push near-coincident vertices to a minimum gap so close zoom can tell them apart.
+    //
+    // THIS SWEEP IS THE MOST EXPENSIVE THING IN ingest(), AND THE SPLIT TRIPLES IT (v1.125.0).
+    // Measured: 1,578,690 inner iterations over 1,467 hubs vs 4,831,712 over 2,934 members, and it
+    // NEVER converges in either — all 30 rounds always run. That pass alone is 38ms of the hub
+    // graph's ~40ms ingest and 98ms of the pair graph's ~110ms; at 4x CPU throttle (the phone this
+    // ships to, whose LCP P75 is the project's worst metric) the whole ingest goes ~150ms -> ~460ms.
+    // The cost is DISCLOSED, not solved: the honest fix is to sweep SITES rather than members —
+    // a pair is already a rigid body here, so its two orbs are compared against a stranger's two
+    // four times over — but that changes the emitted geometry, which is the thing the owner
+    // approved, so it is not being done inside this change.
+    //
+    // The reject below is a CHEAP TEST THE EXISTING ONE ALREADY IMPLIES: hypot(dx,dy) is never
+    // smaller than |dx| or |dy|, so anything it rejects would have failed `d >= g` anyway. It
+    // compares the same two numbers rather than approximating them, so there is no floating-point
+    // boundary for the two forms to disagree about — which matters because this loop also runs on
+    // the LEGACY graph. PROVEN, not argued: the emitted coordinates of both graphs are identical
+    // to 9 decimal places before and after. It is strictly less work per reject, but the win is
+    // inside run-to-run noise on desktop (hub medians spread 36-58ms across runs), so it is kept
+    // for being free rather than for being fast — do not quote a speedup for it.
+    //
+    // The same pass caught a REAL bug in its own optimisation, worth keeping as a warning: hoisting
+    // `a.x`/`a.y` out of the inner loop looks obviously safe and is not. `_mv` moves `a` ITSELF
+    // during that loop, so the coordinates must be re-read every iteration; freezing them changed
+    // the emitted geometry immediately. Only `r` and `pairId` are invariant here.
     for (let it = 0; it < 30; it++) {
       const order = [];
       for (let i = 0; i < nodes.length; i++) if (isFinite(nodes[i].x) && isFinite(nodes[i].y)) order.push(i);
@@ -767,14 +1010,19 @@ class Component extends DCLogic {
       let any = false;
       for (let ii = 0; ii < order.length; ii++) {
         const a = nodes[order[ii]];
+        // `r` and `pairId` are invariant, so hoisting them is free. `a.x`/`a.y` are NOT: `_mv`
+        // moves `a` itself inside this very loop, and freezing them changes the algorithm rather
+        // than speeding it up — measured, hoisting the coordinates moved the emitted geometry.
+        const ar = a.r, apair = a.pairId;
         for (let jj = ii + 1; jj < order.length; jj++) {
           const b = nodes[order[jj]];
           if (b.x - a.x > 26) break;
-          // dual close-pair prototype: partners are PLACED deliberately tight — never push them
-          if (a.pairId && (a.pairId === b.id || b.pairId === a.id)) continue;
+          // partners are PLACED deliberately tight — never push them
+          if (apair && (apair === b.id || b.pairId === a.id)) continue;
           let dx = b.x - a.x, dy = b.y - a.y;
           if (dy > 26 || dy < -26) continue;
-          const g = a.r + b.r + 3.5;
+          const g = ar + b.r + 3.5;
+          if (dx >= g || dy >= g || dy <= -g) continue;   // implied by `d >= g`; see the note above
           let d = Math.hypot(dx, dy);
           if (d >= g) continue;
           if (d < 0.01) { const th = order[jj] * 2.4; dx = Math.cos(th); dy = Math.sin(th); d = 1; }
@@ -795,9 +1043,13 @@ class Component extends DCLogic {
     for (const n of nodes) {
       n.rep = !n.pairId || n.z > 0;
       n.pi = n.pairId ? (idIndex.get(n.pairId) ?? -1) : -1;
-      n.rSite = n.pi >= 0
-        ? 2.0 + Math.min(5.5, Math.sqrt(Math.max(1, n.deg + nodes[n.pi].deg - 2)) * 0.62)
-        : n.r;
+      // `siteDeg` is the degree the HUB had — the pair's two halves less their tie — and it is
+      // 1467/1467 exact against production. `deg` is the member's own share and belongs to
+      // geometry (it is what makes an attacker orb bigger than its defender); anything asking
+      // "how many follow-ups does this STATE open" — `movePotential`'s `onward` — must ask this
+      // instead, or the split would halve a number the escape tray prints.
+      n.siteDeg = n.pi >= 0 ? Math.max(1, n.deg + nodes[n.pi].deg - 2) : n.deg;
+      n.rSite = n.pi >= 0 ? 2.0 + Math.min(5.5, Math.sqrt(n.siteDeg) * 0.62) : n.r;
       // UNDERWORLD TONE, baked once (v1.113.2). LUMINANCE ONLY — each member already carries its
       // own side's advantage colour via `sv`, so shifting hue "cooler" would read as a different
       // advantage value rather than as being below the ground. Tone, never size: scale
@@ -819,8 +1071,13 @@ class Component extends DCLogic {
     // read "Harness → rear-triangle" with no idea which triangle it was. 648 of 1467 nodes carry a
     // `from <position>` qualifier and 89 short names are shared, so dropping the qualifier is only
     // safe where the short name is unique. One pass over titles, no payload change.
+    // COUNTED PER SITE, NEVER PER MEMBER (v1.125.0): both halves of a pair carry the same title,
+    // so counting members would put every name at >= 2 and `displayName` would print the FULL
+    // authored name on every option card and every in-node label — the exact opposite of the rule,
+    // which is to qualify only what is genuinely ambiguous. `rep` is true for every unpaired node.
     this._ambig = new Map();
     for (const n of nodes) {
+      if (!n.rep) continue;
       const m = this.splitName(n.t).main;
       this._ambig.set(m, (this._ambig.get(m) || 0) + 1);
     }
@@ -853,12 +1110,14 @@ class Component extends DCLogic {
         }
       } else {
         let tail = (n.id.includes("/") ? n.id.slice(n.id.indexOf("/") + 1) : n.id).toLowerCase();
-        // dual close-pair prototype: the ATTACKER member owns the pair's bare technique slug;
-        // the defender member is reachable only under its own suffixed key.
-        if (n.role && n.pairId) {
-          if (n.role === "attacker" && tail.endsWith("/attacker")) tail = tail.slice(0, -9);
-          else { setTech(tail, n.idx, n.ty); continue; }
-        }
+        // The ATTACKER member owns the pair's bare technique slug; the defender is reachable only
+        // under its own suffixed key. TWO SHAPES REACH HERE: the derived pair, whose attacker IS
+        // the hub node and so carries the bare id already, and the pre-split prototype payload,
+        // whose attacker id ends "/Attacker". Stripping the suffix is the ONLY difference — both
+        // must go on to register the hyphenated full-name form, and the prototype branch used to
+        // `continue` past it, which would have cost every nested technique its graph.json spelling.
+        if (n.role && n.pairId && n.role !== "attacker") { setTech(tail, n.idx, n.ty); continue; }
+        if (n.role === "attacker" && tail.endsWith("/attacker")) tail = tail.slice(0, -9);
         setTech(tail, n.idx, n.ty);
         if (tail.includes("/")) setTech(tail.replace(/\//g, "-"), n.idx, n.ty); // hyphenated full-name form (graph.json slug)
       }
@@ -875,13 +1134,17 @@ class Component extends DCLogic {
         }
       }
     }
-    // dual close-pair prototype: alias each retired HUB id -> its primary member (top/attacker),
-    // so id-keyed consumers (systems lighting, curriculum fog, lists) still resolve.
+    // PRE-SPLIT PROTOTYPE PAYLOAD ONLY: alias each retired HUB id -> its primary member, so
+    // id-keyed consumers (systems lighting, curriculum fog, lists) still resolve. The DERIVED pair
+    // needs none of this — its rep member IS the hub node, id and ordinal included — and the alias
+    // must not run against it: `id.slice(0, lastIndexOf("/"))` on a bare hub id yields the CATEGORY
+    // ("Positions/Mount" -> "Positions"), which would enter `_idIndex` as a node.
     for (const n of nodes) {
-      if (n.pairId && (n.role === "top" || n.role === "attacker")) {
-        const hid = n.id.slice(0, n.id.lastIndexOf("/"));
-        if (hid && !idIndex.has(hid)) idIndex.set(hid, n.idx);
-      }
+      if (!n.pairId) continue;
+      const m = /\/(Top|Attacker)$/.exec(n.id);
+      if (!m) continue;
+      const hid = n.id.slice(0, n.id.length - m[0].length);
+      if (hid && !idIndex.has(hid)) idIndex.set(hid, n.idx);
     }
     this._posSlugIndex = posSlugIndex; this._techSlugIndex = techSlugIndex;
     // precomputed DIRECTED edge weights = P(actually taking this edge), for the whole graph:
@@ -1802,9 +2065,13 @@ class Component extends DCLogic {
   //      any surface holding the deck object sees the cards appear. Surfaces that snapshotted
   //      `_cardsOf(d).slice()` are re-rendered by _onDeckHydrated.
   _dataBase() { return (typeof window !== "undefined" && window.__NEURAL_DATA_BASE) || ""; }
-  // PROTOTYPE (dual close-pair graph): opt-in variant selector. null = production layout.
+  // `?dual` selector. **null = the DEFAULT, which is the derived iso pair** (v1.125.0) — the flag
+  // no longer opts IN to anything, it opts OUT or picks a prototype file.
+  //   legacy          : the hub-collapsed graph, one node per site. The escape hatch.
+  //   fixed|force|iso : load that PROTOTYPE payload (dev only, gitignored, never in the shipped
+  //                     tree). Already pre-split, so `_deriveDualPairs` passes it through.
   _dualVariant() {
-    try { const v = new URLSearchParams(location.search).get("dual"); return v === "fixed" || v === "force" || v === "iso" ? v : null; } // iso = projection C, the chosen 2.5D paradigm
+    try { const v = new URLSearchParams(location.search).get("dual"); return v === "fixed" || v === "force" || v === "iso" || v === "legacy" ? v : null; } // iso = projection C, the chosen 2.5D paradigm
     catch (e) { return null; }
   }
   _ingestDeckManifest(j) {
@@ -4670,6 +4937,11 @@ class Component extends DCLogic {
     const groups = { positions: {}, transitions: {}, submissions: {} };
     for (const n of this.nodes) {
       const g = groups[n.ty]; if (!g) continue;
+      // EXPLORE LISTS SITES, NOT MEMBERS (v1.125.0). Both halves of a pair carry the SAME title,
+      // so admitting both would print every row of all three categories twice — 272 Positions,
+      // 2662 Transitions — with nothing to tell the duplicates apart. `rep` is true for every
+      // unpaired node, so this is a no-op on the legacy graph.
+      if (!n.rep) continue;
       if (!this.giAllows(n)) continue;
       const fam = n.ty === "positions" ? this.posFamily(n.t) : this.splitName(n.t).main;
       (g[fam] = g[fam] || []).push(n);
@@ -10357,8 +10629,16 @@ class Component extends DCLogic {
     this.moveCount = 0; this.maxMoves = 9 + ((this.rng("max-moves") * 4) | 0);
     this.playerRole = this.rng("role") < 0.5 ? "top" : "bottom"; // you start either side
     this.aiSkill = this.get("difficulty", "normal") === "off" ? 0 : 0.06 + this.rng("ai-skill") * 0.14; // opponent resistance, gated by difficulty
-    // random starting position
-    const positions = this._posIdx || (this._posIdx = this.nodes.filter((n) => n.ty === "positions" && this.adj[n.idx].some((k) => this.nodes[k].ty !== "positions")).map((n) => n.idx));
+    // random starting position — ONE ENTRY PER SITE, NEVER PER MEMBER (v1.125.0). The
+    // first-impression draw (v1.82.3) is a measured distribution over 136 positions: gamma 1.5
+    // against `curriculum.weights` puts ~2/3 of first impressions on the six hubs a beginner can
+    // name, with a 2% uniform floor so all 136 keep a real chance. `startPosTraffic` sums that
+    // weight per POSITION SLUG and `_posSlugIndex` hands the bare slug to the rep member, so
+    // admitting both halves would double the pool with 136 zero-weight entries — spending the
+    // floor on them, thinning every real weight, and changing which state a newcomer opens on.
+    // Filtering to `rep` leaves the pool the same 136 sites, in the same order, drawing the same
+    // site off the same `rng("start-pos")` value: the split is a model change, not a game one.
+    const positions = this._posIdx || (this._posIdx = this.nodes.filter((n) => n.ty === "positions" && n.rep && this.adj[n.idx].some((k) => this.nodes[k].ty !== "positions")).map((n) => n.idx));
     if (!positions.length) { console.error("[neural] no playable position nodes"); this._fallbackToLegacy(); return; } // degenerate graph → don't crash in a timer
     if (this._rigStart != null && this.nodes[this._rigStart]) { // test rail: deterministic start
       this.currentPos = this._rigStart; this._rigStart = null; this._firstRollDone = true;
@@ -10800,7 +11080,10 @@ class Component extends DCLogic {
     const n = opt.node;
     const resIdx = opt.res;
     const resVal = resIdx >= 0 ? this.myVal(this.nodes[resIdx]) : this.myVal(n);   // -1..1 dominance where you land
-    const onward = resIdx >= 0 ? (this.nodes[resIdx].deg || 0) : (n.deg || 0);
+    // `siteDeg`, not `deg`: "follow-ups it opens" is a property of the STATE, and a pair member's
+    // own degree is only its half of one (v1.125.0). Identical on any unpaired node.
+    const rn = resIdx >= 0 ? this.nodes[resIdx] : n;
+    const onward = rn.siteDeg || rn.deg || 0;
     const reach = Math.min(1, onward / 16);                      // follow-ups it opens (0..1)
     const p = resVal * 0.88 + (resVal >= 0 ? reach * 0.12 : 0);   // follow-ups only sweeten an already-good spot
     return Math.max(-1, Math.min(1, p));

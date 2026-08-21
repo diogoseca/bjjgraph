@@ -113,7 +113,13 @@ test("the node it navigates to is framed clear of the landing card", async ({ pa
   const aim = await page.evaluate(() => {
     const app = (window as Any).__neural
     const f = app.nodes[app.focusIdx]
-    const want = app.rollCamTarget({ x: f.x, y: f.y }, false) // recomputed WITH the card present
+    // `pairMid`, NOT `{x,y}` — the app aims at `camFocus`, which since v1.114.3 is the pair's
+    // DRAWN midpoint, and since v1.125.0 every state is a pair. Re-deriving the aim from the
+    // stored coordinates measures a point the renderer never draws at (it is off by the
+    // edge-anchored lift), which is the n.y-vs-LY(n) defect this repo keeps rediscovering.
+    // `pairMid` returns the node's own drawn point when it has no partner, so this is exact on
+    // the legacy graph too.
+    const want = app.rollCamTarget(app.pairMid(f), false) // recomputed WITH the card present
     return { cy: app.camTarget.cy, wantCy: want.cy, vw: app.camTarget.vw, wantVw: want.vw }
   })
   expect(

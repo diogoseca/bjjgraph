@@ -81,7 +81,11 @@ const profile = (
       const nodeK = Math.max(0.4, Math.min(1, a.cam.vw / (a.graphW * 0.5)));
       const rPx = n.r * nodeK * scale;
       const sx = (n.x - a.cam.cx) * scale + a.W / 2;
-      const sy = (n.y - a.cam.cy) * scale + a.H / 2;
+      // THE DRAWN y, NOT `n.y` (v1.125.0) — the same correction `parkOn` needed, and the same
+      // one the tap handler needed in v1.114.3. Every state is a pair, `LY(n)` lifts each half off
+      // the shared ground, and profiling an annulus around the stored point centres it on empty
+      // sky: the ring is still drawn, this just stops looking at it. Identity on an unpaired node.
+      const sy = ((a._LY ? a._LY(n) : n.y) - a.cam.cy) * scale + a.H / 2;
       const span = rPx * spanMul;
       const x0 = Math.max(0, Math.round((sx - span) * dpr));
       const y0 = Math.max(0, Math.round((sy - span) * dpr));
@@ -143,11 +147,18 @@ const parkOn = async (page: Page, idx: number, vwFrac: number) =>
       const n = a.nodes[idx];
       if (!a.paused) a.setPaused(true); // pausing suppresses updateCamera's auto-retarget
       const vw = a.graphW * vwFrac;
+      // PARK ON THE POINT THE RENDERER DRAWS AT, NOT ON `n.y` (v1.125.0). Every state is a pair
+      // now, and `LY(n)` lifts each member off the shared ground by `z * h` — so centring on the
+      // stored y puts the orb outside the annulus this file profiles, and the measurement comes
+      // back as "nothing is drawn here" rather than as the thing it is checking. `_LY` is the
+      // renderer's own published lift (one definition, the frame's own); it is the identity on an
+      // unpaired node, so the legacy graph is untouched.
+      const cy = a._LY ? a._LY(n) : n.y;
       a.cam.cx = n.x;
-      a.cam.cy = n.y;
+      a.cam.cy = cy;
       a.cam.vw = vw;
       a.cam.lvw = Math.log(vw);
-      a.camTarget = { cx: n.x, cy: n.y, vw };
+      a.camTarget = { cx: n.x, cy: cy, vw };
       a.holdCamera();
     },
     { idx, vwFrac },

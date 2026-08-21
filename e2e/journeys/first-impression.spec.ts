@@ -67,6 +67,9 @@ async function sweepFirstStart(
         .filter(
           (nd: any) =>
             nd.ty === "positions" &&
+            // ONE ENTRY PER SITE (v1.125.0) — `_posIdx`'s own filter. Every state is a pair now,
+            // and admitting both halves would double the pool the weighted draw is defined over.
+            nd.rep !== false &&
             a.adj[nd.idx].some((k: number) => a.nodes[k].ty !== "positions"),
         )
         .map((nd: any) => nd.idx);
@@ -161,6 +164,9 @@ test("a returning player's opening draw is untouched — uniform over the whole 
       .filter(
         (nd: any) =>
           nd.ty === "positions" &&
+          // ONE ENTRY PER SITE (v1.125.0) — `_posIdx`'s own filter: every state is a pair now,
+          // and admitting both halves would double the pool this measures.
+          nd.rep !== false &&
           a.adj[nd.idx].some((k: number) => a.nodes[k].ty !== "positions"),
       )
       .map((nd: any) => nd.idx);
@@ -379,6 +385,9 @@ test("WIN 2 as a property: on every first-roll state, both sides, the card and i
     const pool = a.nodes.filter(
       (nd: any) =>
         nd.ty === "positions" &&
+        // ONE ENTRY PER SITE (v1.125.0) — `_posIdx`'s own filter: every state is a pair now,
+        // and admitting both halves would double the pool this measures.
+        nd.rep !== false &&
         a.adj[nd.idx].some((k: number) => a.nodes[k].ty !== "positions"),
     );
     const rows: any[] = [];
@@ -618,6 +627,9 @@ test("the role cannot be read off the node title — every pool entry is titled 
     const pool = a.nodes.filter(
       (nd: any) =>
         nd.ty === "positions" &&
+        // ONE ENTRY PER SITE (v1.125.0) — `_posIdx`'s own filter: every state is a pair now,
+        // and admitting both halves would double the pool this measures.
+        nd.rep !== false &&
         a.adj[nd.idx].some((k: number) => a.nodes[k].ty !== "positions"),
     );
     return {

@@ -30,6 +30,11 @@ const HANDS = `(() => {
   for (let pi = 0; pi < a.nodes.length; pi++) {
     const p = a.nodes[pi];
     if (p.ty !== "positions" || !p.posId) continue;
+    // ONE ENTRY PER SITE (v1.125.0). A state is two nodes now — Top and Bottom halves of the same
+    // site — and both answer for the same two role-hands (adjacency and the EDGE table are
+    // site-level by construction), so walking members would run all 272 hands twice and call it
+    // 544. \`rep\` is the half that speaks for the site, and is true for every unpaired node.
+    if (p.rep === false) continue;
     for (const role of ["top", "bottom"]) {
       a.currentPos = pi; a.playerRole = role;
       const seen = new Set(); const pool = [];
@@ -266,7 +271,9 @@ test("@curated a submission's odds are its AUTHORED rate, not the 45.6% fallback
   // submission's ~+0.9 attacker strength is 45-46% for ALL of them.
   const wire = await page.evaluate(() => {
     const a = (window as any).__neural
-    const subs = a.nodes.filter((n: any) => n.ty === "submissions")
+    // SITES, not members (v1.125.0): the corpus is still 297 submissions, each now drawn as an
+    // attacker/defender pair. Only the attacker owns the exchange, so only it carries `cal`.
+    const subs = a.nodes.filter((n: any) => n.ty === "submissions" && n.rep !== false)
     const cal = subs.map((n: any) => a.calSuccess(n))
     const rates = subs.filter((n: any, i: number) => cal[i] != null).map((n: any) => Math.round(a.calSuccess(n) * 100))
     // what the fallback WOULD have priced each of them at, had the join stayed broken
