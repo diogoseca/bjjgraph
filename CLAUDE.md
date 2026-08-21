@@ -1072,9 +1072,10 @@ anything that feeds EDGE.**
   an escape's options are POSITIONS, which the EDGE table cannot value, so that tray is deliberately
   UNCHANGED (category word, own-strength glyph, landing-position potential).
 - **`orderScore` IS `moveEdge`, full stop** — the `cardOrder` setting it used to fork on is RETIRED
-  (v1.122.0; see the block below). The "What matters more" (`lossAversion`) control is NOT shipped
-  yet — `_evLamIdx()` reads the key with `NG_EDGE_LAM = 2` and falls back to the first block rather
-  than guessing, because a wrong λ block is a silently WRONG ranking, not a missing one.
+  (v1.122.0; see the block below). The `lossAversion` control **SHIPPED in v1.124.0** as
+  *Winning vs not losing* (Sport / Slightly cautious / Self-defence = λ 1/2/4) — see its own section.
+  `_evLamIdx()` still falls back to `NG_EDGE_LAM = 2` rather than guessing when the key names a λ
+  this wire does not carry, because a wrong λ block is a silently WRONG ranking, not a missing one.
 - **Live vs published:** across all 272 role-hands the opponent handicap leaves the **top card
   unchanged in 241**, the **dealt ten unchanged in 267**, the full order in 181. The spec's §4.6
   tables are AT-REST values and are reproduced exactly there (Frame from Side Control −12, Side
@@ -1486,11 +1487,107 @@ default.
   rows survive there by default: "Study order" had been stale since v1.105.0. Both are removed and
   the reason is recorded in `fixtures.js`. **Treat the catalog as unguarded.**
 
-The `lossAversion` dial that ought to live in that Rolling tab ("What matters more: Winning /
-Balanced / Not getting caught", λ ∈ 1|2|4, the wire already carries all three blocks) is **not
-built** — `_evLamIdx()` reads the key with `NG_EDGE_LAM = 2` and falls back to the first block rather
-than guessing, because a wrong λ block is a silently WRONG ranking, not a missing one. It is now
-unblocked: the sibling row that would have contradicted it is gone.
+### WINNING vs NOT LOSING — the loss-aversion dial (v1.124.0, owner's decision on the default)
+
+Owner: *"we really don't want to lose the game and we want to win the game … we're more averse to
+losing than to winning. It depends if it's the context of sport or self-defense … typically in
+self-defense they really don't want to lose. That's why they prioritize mount over side control
+because it's more for the street … maybe that can be a setting of an optimization function."* They
+chose **slightly loss-averse as the DEFAULT**, over play-to-win and play-not-to-lose. It ships in
+**Settings → Rolling**, directly under the Gi / No-gi choice.
+
+**THE NUMBERS WERE ALREADY RIGHT; THE MIDDLE RUNG'S NAME WAS WRONG — so nothing was re-emitted.**
+The task allowed re-emitting the presets rather than mislabelling them. Reconciled instead:
+`V = p_win − λ·p_loss`, so **λ=1 IS the balanced point** — a tap you get is worth exactly what a tap
+you give away costs — and **λ=2 is already twice as afraid of losing as it is keen to win**. That is
+the owner's "slightly loss-averse", and it was ALREADY `NG_EDGE_LAM`. The emitter's own comment
+("Winning / **Balanced** / Not getting caught") named the default after a posture it does not hold;
+that line is the only thing that changed on the build side. **Wire delta: 0 bytes.** The rungs are
+**Sport (λ=1) · Slightly cautious (λ=2, default) · Self-defence (λ=4)**.
+- **Cost, both endpoints measured HERE rather than inherited.** `payload-first-hand` run against
+  the stashed pre-change bundle and again against the shipped one, same machine, same server:
+  **378,281 → 379,037 B gzip (+756)** of a 385,000 ceiling, so headroom **6,719 → 5,963 B**. Raw
+  1,674,404 → 1,676,439 (+2,035); the bundle alone is 456,972 → 459,007 raw / 134,528 → 135,259
+  `gzip -9`. **20 requests before and after — nothing new is fetched.** `check_payload_budget.py`
+  green (eager gzip 299,668 → 300,490 of 330,000); no ceiling raised.
+  > The task's brief quoted 6,510 B of headroom; the measured figure before this change is
+  > **6,719**, which is what v1.123.0's own closing note recorded. Both endpoints above come from
+  > this machine so the delta is internally consistent either way.
+  Comments are stripped by the build, so the documentation above the constant is free — only the
+  copy and the code are on the bill, which is why the copy was tightened once and re-measured.
+- **Built FROM the wire, never from a hardcoded three.** `evLam` is the preset list (emitter point
+  4: "the app reads which lambdas exist"), so a two-block wire renders two buttons, an unknown λ
+  renders under a plain description rather than being hidden, and a wire with **no** table renders
+  **no row at all** — a control over a table the app does not have is a control over nothing.
+- **NEVER the word "lambda" on this surface** (nor EV / MDP / utility / "optimization"). The axis a
+  white belt has is sport ↔ self-defence, and the copy is checked for jargon on the VISIBLE text
+  with word boundaries — a raw-innerHTML check for "EV" hits `class="paceVal"` and reports a leak
+  that is not on screen.
+
+**WHAT IT CAN AND CANNOT REACH — and the strongest guarantee is a gift from v1.123.0.**
+Measured over all 272 role-hands, in the browser (`e2e/journeys/loss-aversion.spec.ts`) and offline
+(`tests/artifacts/_lambda_probe.py`):
+
+| | |
+|---|---|
+| hands where the dealt **SET** differs across λ∈{1,2,4} | **0 of 272** |
+| hands where the **ORDER** differs | **29** |
+| hands where the **TOP CARD** differs | **7** |
+| cards whose **odds** move | **0** |
+
+**The dial cannot change WHICH moves you are offered.** Uncapping the hand removed the truncation a
+re-ranking used to reach through, so a re-order can no longer add or withhold a card — and because
+the option COUNT is fixed, it cannot move the decision clock either (`dsec` is a function of `n`).
+Before v1.123.0 this control would have changed the action space; today it changes only the reading
+order. It touches nothing earned: belt score, SRS, stage, prep, challenge evidence, badges, coins,
+units and the persisted blob are byte-identical across a flip (only `settings.lossAversion`, its
+per-key LWW stamp and the blob's own `updatedAt` move, which is what "persisted" means).
+- **It emits NO `fx()` beat.** `fx` is the challenge-evidence seam, so a settings click that emitted
+  one would be a way to farm objectives. `track("neural_loss_aversion_set")` is analytics, which is
+  allowed to know. **The journey drives the real BUTTON, not `set()`** — mutant L7 (an `fx()` added
+  to the button's own onClick) SURVIVED the version of that test that poked the key directly, because
+  the handler never ran.
+- **THE ORDER IS FROZEN AT DEAL TIME, and the freeze is stronger than sort order.** `_evLamIdx()` is
+  read ONCE per deal, in `_evRowsFor`, whose closure captures `k` and stamps that block's own
+  `e0`/`c1` onto every opt. So flipping the dial mid-hand moves neither a position nor a printed
+  NUMBER in the tray a player is already reaching into; it lands on the next landing. Same rule as
+  the JIT-grade freeze in `optionsFor`.
+- **`replay-digest` is UNCHANGED (`0390cc44ee7f40e5`) and that is not the evidence.** The default is
+  λ=2 and no digest spec writes `lossAversion`, so the digest is STRUCTURALLY unable to see this
+  change — exactly the v1.122.0 situation. What it confirms is the absence of an accidental side
+  effect. The 272-hand walk is the evidence.
+- Pinned by **`e2e/journeys/loss-aversion.spec.ts`** (6 journeys, 4 `@curated`), mutation-tested by
+  `tests/artifacts/_lossaversion_mutants.sh`: **eight mutants, eight kills**.
+
+**THE OWNER'S FALSIFIABLE PREDICTION, ANSWERED ON THE SHIPPED BUILD — IT DOES NOT REPRODUCE.**
+*"in self-defence … they prioritize mount over side control because it's more for the street."*
+Measured through the app's own `optionsFor` + `moveEdge`, over every hand offering a move into BOTH:
+
+| preset | hands where mount's best EDGE beats side control's best | `Side Control to Mount` in its own 25-card hand |
+|---|---|---|
+| Sport (λ=1) | **4 / 17** | rank **20**, EDGE **−1** |
+| Slightly cautious (λ=2) | **4 / 17** | rank **23**, EDGE **−2** |
+| Self-defence (λ=4) | **3 / 17** | rank **23**, EDGE **−2** |
+
+Mount never wins the majority at any preset, and self-defence makes it **worse, not better** — both
+in the head-to-head (4 → 3) and at the one instance everybody would name. The offline solve agrees
+by an independent path (6/21 → 5/21 at λ=4, `Side Control to Mount` rank **21 of 25 at every λ**
+with EDGE sliding −1 → −5 as λ rises to 8; the app sees 17 hands rather than 21 because it counts
+only what a player is actually DEALT and can value).
+- **Why, and it is not a bug.** (a) EDGE is relative to `B(s)`, and `Side Control to Mount` carries
+  **23% of the attempt mass at that state** — it is most of the baseline it is being measured
+  against. (b) Loss aversion makes *terminal wins* relatively more valuable, and side control top
+  puts **49% of its no-gi attempt mass on 16 submissions**; measured, mean EDGE(submission) −
+  mean EDGE(transition) widens **2.62 → 3.68 → 5.88** as λ goes 1 → 2 → 4. So raising λ promotes
+  finishes over positional advances — including the advance into mount.
+- **The honest reason the prediction cannot reproduce here: the model has no strikes.** Mount beats
+  side control on the street because mount lets you strike and denies theirs. This graph models
+  submission-only grappling, so that consideration is not merely mis-weighted — it is **absent from
+  the state space**. λ cannot express it. What DOES agree with the owner is the position ranking
+  itself: `V(mount/top) > V(side-control/top)` at every λ, and the gap **widens with loss aversion**
+  (+0.0053 at λ=0.5 → +0.0095 at λ=2 → +0.0257 at λ=8).
+- Reproduce: `python3 tests/artifacts/_lambda_probe.py` (offline, 8 λ values) and the console line
+  the spec's last journey prints on every run.
 
 **ALSO NOT BUILT** from the spec, so nobody hunts for it: the primary/tail band (`EDGE ≤ −3` →
 "rarely the right call"), the live-band decision clock, the sheet's `WHAT IT'S WORTH` block and the

@@ -451,7 +451,14 @@ def build_graph_data(layout: dict, graph: dict, ordinals: dict) -> dict:
 #   100*[(Aw-Bw) - lambda*(Al-Bl)], so it moves with the dial: reusing lambda=2's slope misstates
 #   a 20pp drill by a MEDIAN of 2.60 EDGE points (p90 9.00, p99 17.40, max 27.80) on a scale where
 #   93% of all values sit inside +/-15. That is a different answer, not a rounding.
-EV_LAMBDAS = (1, 2, 4)     # the "What matters more" dial: Winning / Balanced / Not getting caught
+# The "Winning vs not losing" dial, shipped in Settings -> Rolling as v1.124.0.
+# V = p_win - lam*p_loss, so lam=1 IS the balanced point (a tap you get is worth exactly what a
+# tap you give away costs) and lam=2 is already twice as afraid of losing as it is keen to win.
+# The rungs are therefore Sport (1) / Slightly cautious (2, the DEFAULT the owner chose) /
+# Self-defence (4).  Calling lam=2 "Balanced" -- as this line did until v1.124.0 -- named the
+# default after a posture it does not hold, and it was the one thing about the presets that was
+# actually wrong: the NUMBERS already sat where the owner meant, so nothing was re-emitted.
+EV_LAMBDAS = (1, 2, 4)
 EV_FRAME = "nogi"
 EV_DRILL_SWEEP = (-0.20, -0.10, 0.10, 0.20)   # odds offsets the fidelity check samples
 

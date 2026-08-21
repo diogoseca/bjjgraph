@@ -9,10 +9,28 @@ const NG_SRS_IVLS = [1, 3, 7, 14, 30, 60, 120];
 // How long a landing question may be "still settling" before readers stop waiting on it. A stalled
 // deck fetch must not make the app look hung; the fetch itself is never cancelled. See v1.104.8.
 const NG_LAND_WARM_CEILING_MS = 8000;
-// EDGE — the loss-aversion preset the card ranks by until the "What matters more" control ships.
-// It must be a value of the wire's own `evLam` list; if it is not, the app falls back to the first
-// block rather than guessing, because a wrong block is a silently WRONG ranking, not a missing one.
+// EDGE — the DEFAULT loss-aversion preset, and the owner picked it: "slightly loss-averse", over
+// play-to-win and play-not-to-lose. It must be a value of the wire's own `evLam` list; if it is
+// not, the app falls back to the first block rather than guessing, because a wrong block is a
+// silently WRONG ranking, not a missing one.
+//
+// THE NUMBERS WERE RIGHT; THE MIDDLE RUNG'S NAME WAS WRONG (v1.124.0). The emitted presets are
+// `evLam = [1, 2, 4]` and the emitter called them "Winning / Balanced / Not getting caught". But
+// `V = p_win − λ·p_loss`, so λ=1 IS the balanced point — a tap you get is worth exactly what a tap
+// you give away costs — and λ=2 is already twice as afraid of losing as it is keen to win. That is
+// the owner's "slightly loss-averse", and it was ALREADY the default. So nothing is re-emitted and
+// no wire byte moves: what shipped is the honest name, on the rung that was always there.
 const NG_EDGE_LAM = 2;
+// The dial's copy, keyed BY λ so it can never drift out of alignment with the wire — the app
+// renders the presets `evLam` actually carries, in wire order (emitter point 4: "the app reads
+// which lambdas exist instead of assuming three"). A λ with no entry here still renders, under a
+// plain description of what it does, because hiding a real preset is worse than naming it dully.
+// NEVER the word "lambda" on this surface: the axis a white belt has is sport ↔ self-defence.
+const NG_LOSS_PRESETS = {
+  1: ["Sport", "competition. Getting caught costs exactly what finishing pays, so the ranking backs the move that ends the match."],
+  2: ["Slightly cautious", "the default. Getting caught counts about twice what finishing pays — roughly how most people actually feel. Careful, not passive."],
+  4: ["Self-defence", "the street. Getting caught counts four times what finishing pays, so the ranking prefers staying out of trouble over gambling for the tap."],
+};
 // EDGE saturates its palette at |15|, not `potColor`'s default 45. MEASURED over all 1246 emitted
 // (state,move) pairs: p5 −14 · median 0 · p95 +12, and 93.3% inside ±15 — so on the 45 scale the
 // whole hand renders one indistinguishable grey-blue and the colour channel says nothing. Same
@@ -3784,6 +3802,52 @@ class Component extends DCLogic {
       gseg.appendChild(this.segBtn("No-gi", giCur === "nogi", false, () => { this.setGiMode("nogi"); this.renderSettings(); }));
       gv.appendChild(gseg);
       body.appendChild(gv);
+      // ── WINNING vs NOT LOSING (v1.124.0, owner's decision on the default) ────────────────────
+      // Owner: "we really don't want to lose the game and we want to win the game … we're more
+      // averse to losing than to winning. It depends if it's the context of sport or self-defense
+      // … maybe that can be a setting of an optimization function." It is, and this is it.
+      //
+      // Built FROM the wire, never from a hardcoded list of three: the presets live in `evLam` and
+      // this row renders exactly those, in that order. A wire that ships two blocks shows two
+      // buttons; a wire that ships none shows NO ROW AT ALL, because a control over a table the
+      // app does not have is a control over nothing.
+      //
+      // WHAT IT MOVES, MEASURED over all 272 role-hands (tests/artifacts/_lambda_probe.py):
+      // the dealt SET is identical in 272 of 272 — since v1.123.0 uncapped the hand there is no
+      // truncation for a re-ranking to reach through, so the dial CANNOT change which moves you
+      // are offered, how many there are, or therefore the decision clock. It re-orders 29 hands
+      // and changes the top card in 7. The copy says "a nudge, not a different game" because that
+      // is what the numbers say.
+      const lams = (this._evLam || []).filter((l) => typeof l === "number");
+      if (lams.length > 1) {
+        const lv = document.createElement("div");
+        lv.style.cssText = "border-top:1px solid rgba(150,170,210,.12);padding-top:16px;margin-bottom:18px;";
+        lv.innerHTML = '<div style="font-size:14px;font-weight:600;color:#eef1f6;">Winning vs not losing</div><div style="font-size:12.5px;color:#93a0bd;margin-top:4px;line-height:1.5;">How much worse is getting caught than missing a finish? It depends on why you train. This changes only the <b style="color:#c3cde0;">order</b> your options are ranked in — same moves, same odds, same clock, and nothing you have earned. Expect a nudge, not a different game.</div>';
+        const lseg = document.createElement("div");
+        lseg.style.cssText = "display:flex;gap:9px;flex-wrap:wrap;margin-top:12px;";
+        lseg.setAttribute("data-settings-loss", "1");
+        const cur = this.get("lossAversion", NG_EDGE_LAM);
+        const active = lams.indexOf(cur) >= 0 ? cur : (lams.indexOf(NG_EDGE_LAM) >= 0 ? NG_EDGE_LAM : lams[0]);
+        for (const l of lams) {
+          const p = NG_LOSS_PRESETS[l];
+          const b = this.segBtn(p ? p[0] : "Cautious ×" + l, l === active, false, () => {
+            this.set("lossAversion", l);
+            this.track("neural_loss_aversion_set", { preset: l });
+            this.renderSettings();
+          });
+          b.setAttribute("data-loss-pick", String(l));
+          lseg.appendChild(b);
+        }
+        lv.appendChild(lseg);
+        const p = NG_LOSS_PRESETS[active];
+        const nt = document.createElement("div");
+        nt.setAttribute("data-loss-note", String(active));
+        nt.style.cssText = "font-size:12px;color:#93a0bd;line-height:1.5;margin-top:11px;padding:9px 11px;background:rgba(255,255,255,.03);border:1px solid rgba(150,170,210,.12);border-radius:9px;";
+        nt.innerHTML = p ? '<b style="color:#cbd4e6;">' + p[0] + '</b> — ' + p[1]
+          : "Getting caught counts " + active + "× what finishing pays.";
+        lv.appendChild(nt);
+        body.appendChild(lv);
+      }
       // decision time pace
       const dt = document.createElement("div");
       dt.style.cssText = "border-top:1px solid rgba(150,170,210,.12);padding-top:16px;margin-bottom:18px;";
@@ -10653,6 +10717,10 @@ class Component extends DCLogic {
     return (typeof v === "number") ? Math.max(0, Math.min(1, v / 100)) : null;
   }
   // which `evLam` block the dial selects. -1 = no table on this wire at all.
+  // READ ONCE PER DEAL, in `_evRowsFor`, whose closure captures `k` and stamps it (with that
+  // block's own e0/c1) onto every opt. So changing the dial mid-hand cannot move a number or a
+  // position in the tray the player is already reaching into — it lands on the NEXT landing,
+  // exactly like the JIT-grade freeze in `optionsFor`. That is deliberate, and gated.
   _evLamIdx() {
     if (!this._evLam || !this._evLam.length) return -1;
     let k = this._evLam.indexOf(this.get("lossAversion", NG_EDGE_LAM));
