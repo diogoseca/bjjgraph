@@ -2,10 +2,10 @@ import { test, expect } from "@playwright/test"
 import { journey } from "../dsl"
 
 /**
- * THE HAND — what gets dealt, in what order, printing what (v1.119.0).
+ * THE HAND — what gets dealt, in what order, printing what (v1.119.0; uncapped v1.123.0).
  *
  * `option-edge.spec.ts` pins the VALUE (EDGE = 100 × (Q(s,a) − B(s)), and that the card prints the
- * integer the solver published). This file pins the HAND: the cap must not erase a category, the
+ * integer the solver published). This file pins the HAND: EVERY legal move is dealt, the
  * order must be the app's own ranking under a total order that never falls through to node index,
  * the printed integer must be the same quantity the order was made from, the order must survive a
  * mid-decision JIT grade, and a submission's odds must be its AUTHORED rate.
@@ -14,12 +14,13 @@ import { journey } from "../dsl"
  * deals from — rather than sampling one state and generalising.
  */
 
-/** All 272 role-hands, with the survivor pool each was capped out of.
+/** All 272 role-hands, each with an INDEPENDENTLY re-derived pool.
  *
- *  The pool is re-derived here from `adj` + the two documented filters (v1.103.0 role, v1.103.0
- *  origin) because the app exposes only the CAPPED list. That is a second copy of a filter and
- *  copies drift — so every caller below also asserts POOL ⊇ DEALT, which fails loudly the day the
- *  app's filter and this one disagree. */
+ *  The pool is rebuilt here from `adj` + the two documented filters (v1.103.0 role, v1.103.0
+ *  origin). It began as a way to see what the cap was hiding; with the cap gone it is a second
+ *  implementation of the app's own filter, kept deliberately — every caller below asserts
+ *  POOL ⊇ DEALT (and the first asserts SET EQUALITY), which fails loudly the day the app's filter
+ *  and this one disagree. A copy that is checked against the original on every run is a gate. */
 const HANDS = `(() => {
   const a = window.__neural;
   a.aiSkill = 0.13; a.userMods = null;
@@ -78,39 +79,45 @@ const HANDS = `(() => {
 
 const sweep = (page: any) => page.evaluate(HANDS)
 
-test("@curated the cap thins a category, it never erases one", async ({ page }) => {
+test("@curated every legal move is dealt — the hand IS the pool", async ({ page }) => {
   const j = journey(page)
   await j.boot("/")
   const hands = await sweep(page)
   expect(hands.length, "all 272 role-hands were walked").toBe(272)
 
-  let capped = 0
-  const erased: string[] = []
+  // v1.119.0 asked the weaker question — "did the cap erase a CATEGORY" — because a cap existed
+  // and some truncation was accepted. With NG_HAND_CAP gone the invariant is the strongest one
+  // available: this spec's INDEPENDENT copy of the two filters (role, origin) and the app's own
+  // `optionsFor` must agree on the exact SET, every time. Withheld cards and phantom cards are
+  // one assertion now, and the category floor is not needed to state it.
+  const withheld: string[] = []
   for (const h of hands) {
     const poolT = new Set(h.pool.map((p: any) => p.t))
+    const dealtT = new Set(h.cards.map((c: any) => c.t))
     for (const c of h.cards)
       expect(poolT.has(c.t), `${h.st}: ${c.t} was dealt but is not in this spec's pool`).toBe(true)
-    if (h.pool.length > h.cards.length) capped++
-    const poolTy = new Set(h.pool.map((p: any) => p.ty))
-    const dealtTy = new Set(h.cards.map((c: any) => c.ty))
-    for (const ty of poolTy)
-      if (!dealtTy.has(ty))
-        erased.push(`${h.st}: ${h.pool.filter((p: any) => p.ty === ty).length} ${ty} in a pool of ${h.pool.length}, 0 of ${h.cards.length} dealt`)
+    const missing = [...poolT].filter((t) => !dealtT.has(t))
+    if (missing.length) withheld.push(`${h.st}: ${missing.length} of ${poolT.size} not dealt — ${missing.slice(0, 4).join(", ")}`)
   }
-  expect(capped, "hands the cap actually truncates — the population this rule governs").toBeGreaterThan(10)
-  expect(erased.join("\n"), "a truncation deleted a whole class of move").toBe("")
+  expect(withheld.join("\n"), "a legal move survived both filters and was still not dealt").toBe("")
 
-  // The hand this rule was written for. Side control top survives 25 cards, 16 submissions and 9
-  // transitions, and the ten best by EDGE are all submissions — so ranking alone left the sport's
-  // most common top position with no way to ADVANCE position at all, only to attack or to fail.
+  // The hand the retired floor was written for, now the proof that it is unnecessary. Side
+  // control top survives 25 cards — 16 submissions and 9 transitions — and the ten best by EDGE
+  // are all submissions, so the old cap left the sport's most common top position unable to
+  // ADVANCE position at all. All 25 are dealt, so all 9 transitions are simply there, including
+  // `Side Control to Mount` (23% attempt, the largest authored anywhere from that state) which
+  // the floor did NOT admit — it scores −2 and lost the floor's slot to a +3 card.
   const sct = hands.find((h: any) => h.st === "side-control/top")!
   expect(sct.pool.length, "side-control/top survivor pool").toBe(25)
-  expect(sct.pool.filter((p: any) => p.ty === "transitions").length).toBe(9)
-  expect(sct.cards.filter((c: any) => c.ty === "submissions").length, "the ten best are still dealt on merit").toBe(10)
-  const admitted = sct.cards.filter((c: any) => c.ty === "transitions")
-  expect(admitted.length, "and exactly one transition is admitted below them").toBe(1)
-  expect(admitted[0].t, "that category's OWN best by EDGE, not a pity slot").toBe("Side Control to Scarf Hold Position")
-  expect(sct.cards[sct.cards.length - 1].t, "admitted BELOW the ten, never in place of one").toBe(admitted[0].t)
+  expect(sct.cards.length, "and every one of them is dealt").toBe(25)
+  expect(sct.cards.filter((c: any) => c.ty === "transitions").length, "all 9 transitions, not one admitted card").toBe(9)
+  const names = sct.cards.map((c: any) => c.t)
+  expect(names, "the most-attempted move from side control is on screen").toContain("Side Control to Mount")
+  expect(names, "so is the card the retired floor used to admit in its place").toContain("Side Control to Scarf Hold Position")
+
+  // and the biggest hand in the corpus is dealt whole
+  const stand = hands.find((h: any) => h.st === "standing-position/top")!
+  expect(stand.cards.length, "standing-position/top — the largest hand there is").toBe(34)
 })
 
 test("@curated the hand is ranked by EDGE, under a total order that is not node index", async ({ page }) => {

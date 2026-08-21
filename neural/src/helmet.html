@@ -101,6 +101,12 @@
   @media (max-width:1023px){
     .ng-drill{width:min(360px,88vw)!important;}
   }
+  /* "see more" is hidden on small screens (v1.123.0). The HEIGHT term is load-bearing: a phone
+     held landscape is 844x390, i.e. 844px WIDE, so the old width-only rule never fired on it —
+     see CLAUDE.md. A thumb drags the tray and needs no affordance. */
+  @media (max-width:767px), (max-height:500px){
+    .ng-seemore{display:none!important;}
+  }
   /* the share cue rides above the chip on every viewport (v1.99.0 — the pill is gone) */
   @media (max-width:640px){
     .ng-sharecue{bottom:84px!important;right:14px!important;}
@@ -117,7 +123,6 @@
     .ng-evtoast{width:86vw!important;}
     .ng-optionrow{padding:10px 12px 6px!important;gap:9px!important;}
     .ng-legendkey{display:none!important;}
-    .ng-seemore{display:none!important;}
     .ng-winbar{width:104px!important;}
     .ng-legend{left:14px!important;bottom:27px!important;gap:0!important;}
     .ng-landcard{bottom:206px!important;width:calc(100vw - 20px)!important;max-height:34vh!important;padding:11px 12px 10px!important;}

@@ -1079,37 +1079,140 @@ anything that feeds EDGE.**
   unchanged in 241**, the **dealt ten unchanged in 267**, the full order in 181. The spec's §4.6
   tables are AT-REST values and are reproduced exactly there (Frame from Side Control −12, Side
   Control Escape +18); a live card differs because its odds differ, which is the feature.
-  One consequence worth knowing while the 10-cap stands: `Mount Control` is dealt 8th at rest and
-  slips to 11th live (it has mount's highest `c1`, 30 — the move that most depends on working), so
-  the spec's "best odds 78%, EDGE −1" example is not on screen until the cap goes.
+  The consequence recorded here "while the 10-cap stands" is **resolved by v1.123.0**: `Mount
+  Control` is dealt 8th at rest and slips to 11th live (it has mount's highest `c1`, 30 — the move
+  that most depends on working), so the spec's "best odds 78%, EDGE −1" example used to fall off
+  the screen. The cap is gone, Mount Top deals 16, and it is on screen at either rank.
 - Pinned by **`e2e/journeys/option-edge.spec.ts`** (8 journeys, 4 `@curated`), mutation-tested by
   `tests/artifacts/_edge_mutants.sh`: seven mutants, seven kills.
 
-**THE CAP MAY THIN A CATEGORY. IT MAY NEVER ERASE ONE (v1.119.0).** The hand is the player's ENTIRE
-action space for the turn, so a display cap is not only a ranking question. Ranking by EDGE and then
-taking the first ten is category-blind, and at **exactly 1 of the 272 role-hands** that erased a
-whole class of move: at `side-control/top` the pool survives **25 cards — 16 submissions and 9
-transitions — and the ten best by EDGE are all submissions**, so every positional move was cut,
-INCLUDING `Side Control to Mount`, which carries the largest attempt probability authored anywhere
-from that state (**23%**). Standing in the sport's most common top position, the only way out of
-side control was to fail a submission.
-- `optionsFor` now ends in **`_capHand(sorted)`**: the top `NG_HAND_CAP` (10) on merit, plus the
-  best-EDGE card of any category those ten leave empty. **ADDITIVE, deliberately** — nothing that
-  earned a slot is evicted to make room, the admitted card is by construction ranked below every
-  card above it (so the hand stays sorted descending), and it is that category's OWN best by the
-  same rule as the rest of the hand, not a pity slot.
-- **MEASURED blast radius: 1 hand of 272.** side-control/top goes 10 → 11 cards (admitting
-  `Side Control to Scarf Hold Position`, **+3 at the authored odds**, the best of its 9 transitions
-  — NOT `Side Control to Mount`, which scores **−2** on **23%** attempt; the floor buys a positional
-  option, not a specific one, and which one is an OPEN question for the owner: "admit the missing
-  category's most-ATTEMPTED card" is an equally defensible rule and would deal Mount instead)
-  and its decision clock goes **16.2s → 17.0s** (`dsec = decisionSec + (n−1)·0.8`, left alone: there
-  really are 11 cards to read). Every other hand is byte-identical — **256 of the 272 are under the
-  cap** and the **15 other capped hands lose no category to it**. `replay-digest` is unmoved
-  (`af3588835ad1c6b6`).
-- The `!out.length` fallback is NOT capped this way: measured, **0 of 272 live hands reach it** (its
-  3-4 `graph.json` role-nodes all resolve through the app's hub-collapsed adjacency), so there is no
-  hand there to protect and no behaviour that could be verified.
+**SHOW EVERY OPTION — THE HAND IS NO LONGER CAPPED (v1.123.0, owner's decision).** Owner: *"show
+all, fold the overflow, we currently have a 'see more' suggestion already, but should be shown ABOVE
+the options row, rather than on bottom of it cos in mobile that see more overlaps user icon and
+text, and in mobile screens or small screens i mean dont show it. so after clicking that or
+scrolling enough we can infinite scroll (horizontal infinite scroll) or something."* `NG_HAND_CAP`
+and `_capHand` are **deleted**; `optionsFor` returns its whole sorted list.
+- **"horizontal infinite scroll (or something)" resolves to "the tray reaches its end".** There is
+  nothing to lazy-load: the hand is a finite list — 34 cards at its very largest — and all of it is
+  dealt in one pass, so paging would add a loading state to data already in the DOM. What the ask
+  needs is REACHABILITY, and that is what is gated: click "see more", wheel, or drag, and the far
+  end arrives (`e2e/journeys/option-overflow.spec.ts` asserts `scrollLeft` lands within 4px of
+  `scrollWidth − clientWidth`).
+- **Blast radius, measured over all 272 role-hands** (`tests/artifacts/_hand_uncapped_probe.mjs`):
+  **256 were already under 10**, so only **16 hands change**. The corpus deals **1205 → 1326** cards,
+  the median hand stays **4**, and the largest goes **10 → 34** (`standing-position/top`;
+  `closed-guard/bottom` 32, `side-control/top` 25).
+- **The v1.119.0 category floor dissolves with the cap it repaired**, and so does the OPEN question
+  it left the owner ("admit the missing category's best-EDGE card, or its most-ATTEMPTED one?").
+  side-control/top now deals all 25, so `Side Control to Scarf Hold Position` (+3) and
+  `Side Control to Mount` (−2 on **23%** attempt, the largest authored anywhere from that state)
+  are BOTH on screen. There is nothing left to choose between.
+- The `!out.length` fallback keeps its own `.slice(0, 6)` — that is not this cap, and measured
+  **0 of 272 live hands reach it**, so leaving it alone means this change cannot alter a path
+  nobody can observe.
+- **`replay-digest` MOVED, `af3588835ad1c6b6` → `0390cc44ee7f40e5`, and that is correct.** Unlike
+  v1.122.0 — where the digest was *structurally blind* to the change — `options_dealt {count}` is a
+  beat and 16 hands genuinely deal a different number of cards, so a digest that did NOT move would
+  mean the change had not reached the beat stream. It is not pinned as a fixture anywhere (the spec
+  compares runs to each other); `triple_replay.sh` re-proves three consecutive runs identical.
+
+**WHAT UNCAPPING HAD TO PAY FOR — TWO THINGS THAT DO NOT SCALE (v1.123.0).** The number 10 did not
+die, it moved off the DISPLAY and onto the two costs that genuinely grow with the hand. Pinned by
+`e2e/journeys/option-overflow.spec.ts` (6 journeys, 6 `@curated`), mutation-tested by
+`tests/artifacts/_overflow_mutants.sh`: **seven mutants, seven kills**.
+- **THE DECISION CLOCK (`NG_DECISION_KNEE` = 10, `NG_DECISION_K` = 2.2).** `dsec = decisionSec +
+  0.8·(n−1)` was fine while n was capped and absurd the moment it was not: 34 cards bought a
+  **35.4-second turn**. Time to choose does not grow linearly with the alternatives — Hick's law
+  says it grows with their LOG — and this tray is ranked best-first, so cards past the fold are
+  scanned rather than weighed. Below the knee **nothing changes at all** (measured: all **256**
+  sub-knee hands keep their clock to the millisecond, and the median turn is still **11.4s**);
+  beyond it each DOUBLING buys `NG_DECISION_K` seconds. The branches meet **exactly** at the knee
+  (16.200s both ways), so there is no step. Worst turn **35.4s → 20.1s**. The knee is what makes
+  this the minimal change rather than a global re-tune: a pure log curve with the same worst case
+  moves every small hand too (mutant O2 proves the spec catches that).
+- **THE DECK WARM-UP (`NG_PREFETCH_CAP` = 10) — AND THIS ONE IS THE HONEST COMPROMISE.** `enterLand`
+  hydrates one deck per dealt card, and that IS on the first-hand payload bill: it is deferred by a
+  single macrotask while `payload-first-hand.spec.ts` freezes its request set at a Playwright poll
+  for `[data-tech]`, and its own report carries five `flashcards/*.json` rows to prove it. Warming
+  every card of an uncapped hand costs **+15,819 B gzip on the AVERAGE first visit** against
+  **7,050 B** of headroom, and **46.6% of real first draws** land on a hand whose delta alone
+  exceeds it (`closed-guard/bottom` **+70,213 B**, `standing-position/top` **+86,911 B**) — weighted
+  by the app's own `_weightedStart` probabilities, not uniformly
+  (`tests/artifacts/_prefetch_traffic_probe.mjs`). So the warm-up takes the hand's first ten; the
+  tray is ranked by EDGE, so those are the likeliest picks, and card 11+ hydrates on demand through
+  the `deckStatus === "pending"` → *"Loading this state's cards…"* path that already serves every
+  cold deck in the app. **Ten keeps today's payload byte-identical**, because ten is what the hand
+  used to be.
+  > **THE GATE IS STRUCTURALLY BLIND TO THIS, AND SAYING SO IS THE POINT.** `payload-first-hand`
+  > pins `start-pos:[0]` → `Gogoplata Control Top`, a **7-card** hand that is under the cap either
+  > way, so it reports the same bytes with the cap and without it. It did not clear this design;
+  > the traffic-weighted walk did. Do not read a green payload gate as evidence about hand size.
+
+**THE OVERFLOW HINT: ABOVE THE HAND, AND THE BREAKPOINT WAS MISSING A DEVICE (v1.123.0).**
+- **The owner's diagnosis was off by a breakpoint; their observation was exact.** The element DOES
+  carry `.ng-seemore` and `@media (max-width:640px)` DOES fire — measured, at 390x844 it is
+  `display:none`. What was wrong is that a phone held **LANDSCAPE is 844x390 — 844px WIDE** — and
+  sailed straight past a width-only rule. The rule is now `(max-width:767px), (max-height:500px)`;
+  767 also clears the one band where the hint would have met the centred landing card
+  (`min(520px,100vw-32px)` reaches its left edge below ~710px).
+- **The collision was universal, not device-specific.** The hint was `bottom:68px` against the
+  tray's own `bottom:84px` — i.e. UNDER the hand — and measured at **every** width where it renders
+  (844x390 through 1440x900) its box sat exactly **2px** above the account chip's, sharing the same
+  right edge (`[1345,819..1416,832]` vs `[1317,834..1416,876]` at 1440x900). It now docks off the
+  tray's **MEASURED** top (`_dockOptionHint`) — never a constant, because the row has no fixed
+  height (138px at 390x844, 144px at 1440x900, taller again for an escape hand) — which is the same
+  lesson `_dockLandCard` learned. Clearance to the chip: **2px → 172px**.
+- **SIXTH INSTANCE OF THE `setPointerCapture` BUG CLASS, and it was PRE-EXISTING.** `attachInput`'s
+  pointerdown captures on the wrap, which retargets pointerup so the browser resolves the click to
+  the common ancestor — and `.ng-seemore` has never been in the early-return list, though its whole
+  purpose is an `onClick`. The option ROW beside it is immune only because `componentDidMount` gives
+  it its own `pointerdown` stopPropagation, which the hint never had. So the affordance has been
+  **dead to the mouse for as long as it has existed**; it surfaced now only because uncapping made
+  it worth writing the first spec that clicks it with a REAL mouse instead of `locator.click()`.
+  Any new fixed overlay with controls goes in that list.
+- **A WHEEL OVER THE HAND NOW SCROLLS THE HAND.** A vertical wheel scrolls a horizontally-overflowing
+  element in no browser, so with 34 cards (a **4,104px** overflow at 1440x900) a mouse user could
+  reach card 34 only by dragging or by clicking "see more" repeatedly. The handler takes the larger
+  of `deltaX`/`deltaY`, so a trackpad's real horizontal gesture is unchanged, and it no-ops when
+  nothing is folded rather than swallowing the page's scroll.
+
+**WHAT UNCAPPING DID *NOT* TOUCH, AND ONE THING IT MAKES WORSE (v1.123.0, disclosed).**
+- **THE ESCAPE TRAY IS ENTIRELY UNAFFECTED.** `enterDefense` builds its own `escapes` array from
+  `adj` — it never calls `optionsFor` — and its clock is already bounded:
+  `Math.max(4, Math.min(9, 4 + escapes.length))`. Neither the cap, the knee nor the prefetch has
+  ever applied there. `movePotential` likewise survives as that tray's corner value (v1.122.0),
+  because an escape's options are POSITIONS and the EDGE table cannot value them.
+- **MOBILE REACH IS AN OPEN QUESTION, AND A DRAG FIX WAS BUILT, MEASURED AND THEN REVERTED.**
+  At 390x844 the tray shows **2 of 34** cards (it showed 2 of 10 before, so this is not new), and
+  the "see more" hint is deliberately hidden there, so the tray itself is the only affordance.
+  Chasing whether a thumb can drag it turned up a REAL and separate pre-existing defect, which is
+  reproducible with `tests/artifacts/_onehand_reach_probe.mjs`: **~1s after a swipe ends, the whole
+  roll restarts.** Traced — one `stakes` beat, no `click`, no `bg_dismissed`, `paused` true
+  throughout, and the app lands on a fresh random position (Modified Mount, Back Control and
+  Closed Guard on three consecutive runs). The 1s delay and the random landing match
+  `enterLand`'s `if (!opts.length) after(1.0, () => startRoll())`, i.e. the gesture is resolving as
+  a graph tap (`stageRollAt`) onto a node with no dealable hand.
+  - **What was reverted, and WHY it had to be.** A JS `_attachTrayDrag` (touch events, because
+    Chrome cancels the POINTER stream mid-swipe — instrumented: `pointerdown · touchstart ·
+    pointermove · touchmove · POINTERCANCEL · touchmove ×11 · touchend`) did move the tray
+    (`scrollLeft` 0 → 210 mid-gesture). But its premise — "the tray never scrolls by touch" —
+    rested on a reading taken **450ms after touchend**, by which time the restart above had
+    already cleared the tray and reset `scrollLeft` to 0. **The measurement was confounded, so the
+    premise was never proven.** Two mutants confirmed it: deleting `_attachTrayDrag` entirely, and
+    swapping it to pointer events, both left the mobile journey GREEN — the harness scrolls that
+    tray natively (identical `touch-action`: wrap `none`, row `auto`). A change whose own mutant
+    cannot kill its test is not evidence, so the drag, its journey and its two mutants are all out.
+  - **What is therefore TRUE and what is NOT.** True: 2 of 34 cards are visible on a phone, and a
+    swipe there restarts the roll. NOT established: whether the tray scrolls by touch on a real
+    device. Settle the restart first — it corrupts any measurement taken after a gesture — then
+    re-measure reach. Desktop is unaffected and fully gated (click + wheel, mutants O6/O7).
+- **THE `1-9` KEYS NOW COVER LESS OF THE HAND, and nothing was done about it.** The digit handler is
+  `/^[1-9]$/` and `catGlyphSvg` only draws a number for `num <= 9`, so cards 10+ have never had a
+  shortcut or a numbered glyph. Under the cap that stranded at most 1 card (2 on side-control/top);
+  now the largest hand strands **25 of 34**. It degrades rather than breaks — `_optList[8]` is the
+  highest index reachable, so there is no out-of-range read, and the mouse/touch paths reach every
+  card. Extending it is a DESIGN question, not a mechanical one: `0` buys only a tenth slot and
+  `A`-`D` are already the live MC block's answer keys (v1.68.0). Owner's call.
 
 **THE HAND'S FOUR OTHER INVARIANTS, WALKED OVER ALL 272 ROLE-HANDS (v1.119.0)** —
 `e2e/journeys/option-hand.spec.ts` (5 journeys, all `@curated`), mutation-tested by
@@ -1136,7 +1239,11 @@ side control was to fail a submission.
   **24 points** of printed odds. Reproduce all of it with `tests/artifacts/_hand_measure.mjs`.
 - **`option-hand`'s pool is a second copy of `optionsFor`'s filters, and it knows it** — every
   journey also asserts POOL ⊇ DEALT, which fails loudly the day the app's filter and the spec's copy
-  disagree.
+  disagree. Since v1.123.0 the first journey asserts **SET EQUALITY**, which is strictly stronger
+  and only became available when the cap stopped withholding cards: it now catches a card WITHHELD
+  as well as one invented, so the copy is a real gate rather than a one-way check. That journey was
+  "the cap thins a category, it never erases one"; it is now "every legal move is dealt — the hand
+  IS the pool", and H1's mutant is the cap itself.
 - **The mutant for the authored-odds claim needs THREE edits, and that is the finding.** Reverting
   only the `_tech_keys` slug ladder in `regenerate_neural_data.py` leaves the test GREEN, because two
   build gates refuse the bad wire in turn — `cal join regressed: only 3/297 submissions carry a
@@ -1386,9 +1493,11 @@ than guessing, because a wrong λ block is a silently WRONG ranking, not a missi
 unblocked: the sibling row that would have contradicted it is gone.
 
 **ALSO NOT BUILT** from the spec, so nobody hunts for it: the primary/tail band (`EDGE ≤ −3` →
-"rarely the right call"), the live-band decision clock, un-hiding `.ng-seemore` on mobile, the
-sheet's `WHAT IT'S WORTH` block and the legend line. The hand is still capped at `NG_HAND_CAP`
-(plus `_capHand`'s category floor).
+"rarely the right call"), the live-band decision clock, the sheet's `WHAT IT'S WORTH` block and the
+legend line. Two entries LEFT this list in v1.123.0: the hand is **no longer capped** (see below),
+and "un-hiding `.ng-seemore` on mobile" is now a DECISION rather than a gap — it stays hidden on
+small screens, by the owner's instruction, under a rule that finally covers the device they were
+looking at.
 
 **Reproduce any of it** — `python3 scripts/solve_edge_values.py` (report), `--verify` (measured vs
 the spec's published headlines, side by side), `--mutants` (the mirror invariant + the five

@@ -18,9 +18,35 @@ const NG_EDGE_LAM = 2;
 // whole hand renders one indistinguishable grey-blue and the colour channel says nothing. Same
 // palette, same deadband, different domain: `potColor`'s own callers are untouched (v1.118.0).
 const NG_EDGE_SAT = 15;
-// How many cards a hand deals on merit. It is a DISPLAY cap, not the action space — see _capHand,
-// which admits one more card per category the top NG_HAND_CAP would otherwise erase.
-const NG_HAND_CAP = 10;
+// ── THE HAND IS NO LONGER CAPPED (v1.123.0, owner: "show all, fold the overflow") ────────────
+// `NG_HAND_CAP = 10` and `_capHand`'s category floor are GONE. The hand is the player's entire
+// action space for the turn, so a display cap was always a cap on the game, and the floor only
+// ever existed to stop the cap erasing a whole class of move — remove the cap and the floor has
+// nothing to protect, along with its open "best-EDGE vs most-attempted" question. Measured over
+// all 272 role-hands: 256 were already under 10, so uncapping moves 16 hands; the corpus deals
+// 1205 -> 1326 cards and the biggest hand goes 10 -> 34 (standing-position/top).
+//
+// The number 10 did NOT die — it moved off the DISPLAY and onto the two things that genuinely
+// do not scale, each with its own measured reason:
+//
+// NG_DECISION_KNEE — where the decision clock stops paying per-card. The old clock was
+//   `decisionSec + 0.8*(n-1)`, linear, which turns a 34-card hand into a 35.4-SECOND turn. Ten is
+//   the knee because it is exactly the old hand size, so EVERY hand that exists today keeps its
+//   current clock to the millisecond and only the newly-enlarged hands take the sublinear tail.
+const NG_DECISION_KNEE = 10;
+// NG_DECISION_K — seconds per DOUBLING beyond the knee (Hick's law: choice time grows with
+//   log2 of the alternatives, not with their count). 2.2 is set so the curve is continuous at the
+//   knee and the worst hand in the corpus lands at 20.1s instead of 35.4s.
+const NG_DECISION_K = 2.2;
+// NG_PREFETCH_CAP — how many of the dealt cards' decks `enterLand` warms. THIS is the one that
+//   had to stay, and the measurement is not close: the prefetch is on the first-hand payload bill
+//   (payload-first-hand's own report shows five flashcards/*.json rows), the gzip headroom is
+//   7,050 B, and warming every card of an uncapped hand costs +15,819 B gzip on the AVERAGE first
+//   visit — with 46.6% of real first draws landing on a hand whose delta alone exceeds the
+//   headroom (closed-guard/bottom +70,213 B, standing-position/top +86,911 B). The hand is ranked
+//   by EDGE, so the first ten are the likeliest picks; card 11+ hydrates on demand through the
+//   existing "Loading this state's cards…" path. Ten keeps the payload byte-identical to today.
+const NG_PREFETCH_CAP = 10;
 
 class Component extends DCLogic {
   canvasRef = React.createRef();
@@ -355,6 +381,20 @@ class Component extends DCLogic {
     [this.optionsRef.current, this.drillRef.current, this.shareCueRef.current, this.accountRef.current, this.transportRef.current, this.optDetailRef.current].forEach((el) => {
       if (el) { el.addEventListener("pointerdown", (e) => e.stopPropagation()); el.addEventListener("wheel", (e) => e.stopPropagation(), { passive: false }); }
     });
+    // ── A WHEEL OVER THE HAND SCROLLS THE HAND (v1.123.0) ─────────────────────────────────────
+    // The loop above only stops the wheel reaching the canvas zoom; it does not scroll anything.
+    // A VERTICAL wheel over a horizontally-overflowing element scrolls it in no browser, so with
+    // the cap gone (standing-position/top: 34 cards, a 4,104px overflow at 1440x900) a mouse user
+    // could reach card 34 only by dragging or by clicking "see more" repeatedly. Take the larger
+    // of the two deltas so a trackpad's real horizontal gesture still works unchanged.
+    const orow = this.optionsRef.current;
+    if (orow) orow.addEventListener("wheel", (e) => {
+      if (orow.scrollWidth - orow.clientWidth < 1) return;   // nothing folded — leave the page alone
+      const d = Math.abs(e.deltaX) > Math.abs(e.deltaY) ? e.deltaX : e.deltaY;
+      if (!d) return;
+      e.preventDefault();
+      orow.scrollLeft += d;
+    }, { passive: false });
     // modal: card blocks pan + wheel; backdrop click closes
     if (this.modalCardRef.current) { this.modalCardRef.current.addEventListener("pointerdown", (e) => e.stopPropagation()); this.modalCardRef.current.addEventListener("wheel", (e) => e.stopPropagation(), { passive: false }); }
     if (this.modalRef.current) this.modalRef.current.addEventListener("pointerdown", (e) => { e.stopPropagation(); this._detailCtx = null; this.setPaused(false); this.closeModal(); });
@@ -7985,6 +8025,7 @@ class Component extends DCLogic {
       const more = !this.deckShown && !this._detailCtx && op.children.length && (op.scrollWidth - op.clientWidth - op.scrollLeft > 8);
       hint.style.opacity = more ? "0.5" : "0";
       hint.style.pointerEvents = more ? "auto" : "none";
+      if (more) this._dockOptionHint(hint, op);
     }
     // the pane moved LEFT (v1.94.0): on desktop it no longer shares a corner with the
     // bottom-right chip, so the chip stays put and stays clickable while the pane is open.
@@ -8133,41 +8174,28 @@ class Component extends DCLogic {
     // JIT grade re-sort the tray the player is already reaching into. See _cmpDealt.
     for (const o of out) { o.ord = this.orderScore(o); o.ordOdds = this.moveChance(o.node); }
     out.sort((a, b) => this._cmpDealt(a, b));
-    return this._capHand(out);
+    // EVERY legal move is dealt (v1.123.0). What used to be cut is now simply further down a
+    // scrollable tray — the overflow is FOLDED, not removed. See NG_DECISION_KNEE for the clock
+    // and NG_PREFETCH_CAP for the only thing that still counts to ten.
+    return out;
   }
-  // ── THE CAP MAY THIN A CATEGORY. IT MAY NEVER ERASE ONE (v1.119.0) ─────────────────────────
-  // The hand is the player's ENTIRE action space for this turn, so a display cap is not only a
-  // ranking question. Ranking by EDGE and then taking the first ten is category-blind, and at
-  // exactly ONE of the 272 role-hands that erases a whole class of move: measured at
-  // side-control/top, the pool survives 25 cards — 16 submissions and 9 transitions — and the ten
-  // best by EDGE are all submissions. Every positional move is cut, INCLUDING `Side Control to
-  // Mount`, which carries the largest attempt probability authored anywhere from that state
-  // (23%). The player standing in the sport's most common top position could not choose to
-  // advance position at all; the only way out of side control was to fail a submission.
+  // ── `_capHand` IS DELETED, AND SO IS THE QUESTION IT LEFT OPEN (v1.123.0) ──────────────────
+  // v1.119.0 found that ranking by EDGE and taking the first ten is category-blind, and that at
+  // exactly one role-hand — side-control/top, 16 submissions and 9 transitions, the ten best by
+  // EDGE all submissions — it erased every positional move, including `Side Control to Mount`
+  // (23% attempt, the largest authored anywhere from that state). Its answer was a floor: admit
+  // the best-EDGE card of any category the ten leave empty.
   //
-  // So the cap admits, below the ten, the best-EDGE card of any category the ten leave empty.
-  // ADDITIVE, deliberately: nothing that earned a slot on merit is evicted to make room, the
-  // admitted card is by construction ranked below every card above it, so the hand stays sorted
-  // descending, and it is that category's OWN best — the same rule as the rest of the hand, not a
-  // pity slot. MEASURED blast radius: 1 hand of 272 (side-control/top: 10 → 11 cards, decision
-  // clock 16.2s → 17.0s); every other hand is byte-identical, because 256 of the 272 are under the
-  // cap and the 15 other capped hands lose no category to it.
+  // That floor was a REPAIR TO THE CAP, and the cap is gone, so it repairs nothing: side-control/
+  // top now deals all 25 of its cards and the 9 transitions are simply there. It is deleted
+  // rather than kept, and with it goes the open question v1.119.0 recorded for the owner —
+  // whether the admitted card should be the category's best by EDGE or its most-ATTEMPTED
+  // (`Side Control to Scarf Hold Position` +3 vs `Side Control to Mount` −2 on 23%). Both moves
+  // are dealt now, so there is nothing left to choose between and nothing to answer.
   //
-  // NB the `!out.length` fallback above is NOT capped this way: measured, 0 of 272 live hands
-  // reach it (its 3-4 states in `graph.json` all resolve through the app's hub-collapsed
-  // adjacency), so there is no hand there to protect and no behaviour to verify.
-  _capHand(sorted) {
-    if (sorted.length <= NG_HAND_CAP) return sorted;
-    const hand = sorted.slice(0, NG_HAND_CAP);
-    const have = new Set(hand.map((o) => o.node.ty));
-    const extra = [];
-    for (let i = NG_HAND_CAP; i < sorted.length; i++) {
-      const ty = sorted[i].node.ty;
-      if (have.has(ty)) continue;
-      have.add(ty); extra.push(sorted[i]);
-    }
-    return extra.length ? hand.concat(extra) : hand;
-  }
+  // NB the `!out.length` fallback in optionsFor keeps its own `.slice(0, 6)`. That is NOT this
+  // cap: measured, 0 of 272 live hands reach it, so it protects no real hand — leaving it alone
+  // means this change cannot alter a path nobody can observe.
   resultPos(actIdx, fromIdx) {
     let best = -1;
     for (const k of this.adj[actIdx]) { if (this.nodes[k].ty === "positions" && k !== fromIdx) { best = k; break; } }
@@ -9268,6 +9296,25 @@ class Component extends DCLogic {
     // loses to an !important declaration in a stylesheet. Setting `el.style.bottom` moved the card
     // by 2px (646 → 644) and looked like the measurement was wrong rather than the cascade.
     el.style.setProperty("bottom", Math.round(TRAY_BOTTOM + h + 8) + "px", "important");  }
+  // ── "SEE MORE" SITS ABOVE THE HAND, NOT UNDER IT (v1.123.0, owner) ──────────────────────────
+  // It was `bottom:68px`, a constant BELOW the tray's own `bottom:84px` — so it hung under the
+  // hand, in the bottom band, on top of the account chip. MEASURED at every width where it
+  // renders (844x390 through 1440x900): the hint's box sits exactly 2px above the chip's, with
+  // the same right edge — 1345,819..1416,832 against 1317,834..1416,876 at 1440x900. That is the
+  // owner's "overlaps user icon and text", and it is universal, not device-specific.
+  //
+  // The fix is the tray's own MEASURED top, never a constant: the row has no fixed height (138px
+  // at 390x844, 144px at 1440x900, and taller again for an escape hand, whose cards carry an
+  // extra line), which is the same lesson `_dockLandCard` learned. Right-aligned, so it never
+  // meets the landing card — that card is `min(520px, 100vw-32px)` and CENTRED, and at every
+  // width this hint is still shown its right edge clears the hint's left edge.
+  _dockOptionHint(el, row) {
+    const h = row.getBoundingClientRect().height;
+    if (!h) return;
+    const TRAY_BOTTOM = 84; // matches .ng-optionrow's own `bottom` in xdc-template.html
+    const want = Math.round(TRAY_BOTTOM + h + 10) + "px";
+    if (this._hintDockAt !== want) { this._hintDockAt = want; el.style.bottom = want; }
+  }
   _landAnswered(correct, tier, mode, hooks, format) {
     this._landPending = false;
     if (this._landQ) this._landQ.answered = true; // scored — no payload may ever re-mount this block
@@ -10389,17 +10436,39 @@ class Component extends DCLogic {
     // option card (the JIT drill behind each option, and the landing question wherever they go
     // next), ~6KB each. Deferring by a tick is not cosmetic: fired inline, these fetches were on
     // the bytes-to-first-hand bill and delayed the very cards they exist to support.
+    //
+    // ── THE HAND UNCAPPED; THIS DID NOT (v1.123.0) ────────────────────────────────────────────
+    // The deferral above is one macrotask, and `payload-first-hand.spec.ts` freezes its request
+    // set when `[data-tech]` attaches — a Playwright poll, which resolves well after that tick —
+    // so these fetches ARE on the first-hand bill and its own report proves it (five
+    // flashcards/*.json rows in its heaviest-15). Warming every card of an uncapped hand costs
+    // +15,819 B gzip on the AVERAGE first visit against 7,050 B of headroom, and 46.6% of real
+    // first draws land on a hand whose delta alone exceeds it. So the warm-up takes the hand's
+    // FIRST `NG_PREFETCH_CAP` cards — the tray is ranked by EDGE, so those are the likeliest
+    // picks — and everything below hydrates on demand through the "Loading this state's cards…"
+    // path that already serves every cold deck in the app. Today's payload is unchanged to the
+    // byte, because ten is what the hand used to be.
     setTimeout(() => {
       this.hydrateDecks(
         [this.deckKeyFor(this.nodes[this.currentPos]).key].concat(
-          opts.map((o) => (o.node ? this.deckKeyFor(o.node).key : null)).filter(Boolean),
+          opts.slice(0, NG_PREFETCH_CAP).map((o) => (o.node ? this.deckKeyFor(o.node).key : null)).filter(Boolean),
         ),
       );
     }, 0);
     this.startLandRipple(this.currentPos, this.optionIdxs);
-    // base reading time (seconds, user-set) plus a little for more options to weigh
+    // ── THE CLOCK STOPS SCALING WITH THE HAND (v1.123.0) ──────────────────────────────────────
+    // It was `base + 0.8*(n-1)`: fine while n was capped at 10, absurd the moment it is not —
+    // measured, standing-position/top deals 34 cards, which bought a 35.4-SECOND turn. Time to
+    // choose does not grow linearly with the alternatives; Hick's law says it grows with their
+    // LOG, and this tray is ranked best-first, so the cards past the fold are scanned rather than
+    // weighed. Below the knee nothing changes at all — every hand in the corpus today keeps its
+    // exact clock — and beyond it each DOUBLING of the hand buys NG_DECISION_K seconds. The two
+    // branches meet exactly at the knee, so there is no step. Worst case: 35.4s -> 20.1s.
     const base = this.get("decisionSec", 9);
-    const dsec = base + (opts.length - 1) * 0.8;
+    const n = opts.length;
+    const dsec = n <= NG_DECISION_KNEE
+      ? base + (n - 1) * 0.8
+      : base + (NG_DECISION_KNEE - 1) * 0.8 + NG_DECISION_K * Math.log2(n / NG_DECISION_KNEE);
     this._decisionDsec = dsec;
     this._armDeckExpire();
     const el = this.optionsRef.current; if (el) el.innerHTML = "";
@@ -11346,7 +11415,15 @@ class Component extends DCLogic {
       // FIFTH SURFACE (v1.102.1): the option-detail sheet. Its capture moved into the header
       // corner and a REAL tap on it did nothing — same retarget, same silence. Every fixed
       // overlay that owns controls belongs in this list; that is why it is a list.
-      for (const ov of [this._landEl, this._landFilmEl, this.optDetailRef && this.optDetailRef.current]) {
+      // SIXTH SURFACE (v1.123.0): the "see more" hint. It is a fixed overlay whose whole purpose
+      // is a click (`onClick={scrollOptions}`), and it has NEVER been in this list — the option
+      // ROW next to it is immune only because componentDidMount gives it its own `pointerdown`
+      // stopPropagation, which the hint never had. PRE-EXISTING, not introduced by moving it:
+      // the affordance has been dead to the mouse for as long as it has existed, and it surfaced
+      // now only because uncapping the hand made it worth writing the first spec that clicks it
+      // with a REAL mouse instead of `locator.click()`. Sixth time; the list is the cure.
+      for (const ov of [this._landEl, this._landFilmEl, this.optDetailRef && this.optDetailRef.current,
+        this.optionHintRef && this.optionHintRef.current]) {
         if (ov && e.target && ov.contains(e.target)) return;
       }
       this.closeDeckIfStudying();

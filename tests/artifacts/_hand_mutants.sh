@@ -29,18 +29,21 @@ run() {  # run <name> <spec-grep>
   fi
 }
 
-echo "── H1: the cap goes back to a blind slice(0,10) ──"
+echo "── H1: the hand is capped again (v1.123.0 — was 'the category floor is gone') ──"
+# The v1.119.0 mutant put back a blind slice(0,10) to prove the CATEGORY FLOOR could fail. The
+# floor is deleted with the cap it repaired, so the claim under test is now the stronger one:
+# every legal move is dealt. Its mutant is the cap itself.
 python3 - <<'EOF'
 p='neural/src/app.src.jsx'; s=open(p).read()
-old="""    if (sorted.length <= NG_HAND_CAP) return sorted;
-    const hand = sorted.slice(0, NG_HAND_CAP);"""
+old="""    out.sort((a, b) => this._cmpDealt(a, b));
+    // EVERY legal move is dealt (v1.123.0)."""
 assert old in s, 'H1 anchor missing'
-s=s.replace(old, """    if (sorted.length <= NG_HAND_CAP) return sorted;
-    return sorted.slice(0, NG_HAND_CAP);
-    const hand = sorted.slice(0, NG_HAND_CAP);""")
+s=s.replace(old, """    out.sort((a, b) => this._cmpDealt(a, b));
+    return out.slice(0, 10);
+    // EVERY legal move is dealt (v1.123.0).""")
 open(p,'w').write(s)
 EOF
-sync_app; run "H1 category floor" "never erases one"; cp "$BAK" "$SRC"; sync_app
+sync_app; run "H1 every legal move is dealt" "the hand IS the pool"; cp "$BAK" "$SRC"; sync_app
 
 echo "── H2: _cmpDealt drops the name tiebreak (falls through to insertion order) ──"
 python3 - <<'EOF'

@@ -277,9 +277,24 @@ test("@curated a JIT grade moves the numbers and NEVER the order", async ({
 
   const before = await cardEdges(page);
   const order0 = before.map((c: any) => c.tech).join("|");
-  // drill the card sitting LAST in the hand — the one whose promotion would be most visible
-  const target = before[before.length - 1].tech;
-  const e0 = before[before.length - 1].edge;
+  // Drill the LAST VALUED card — the one whose promotion would be most visible.
+  //
+  // "last in the hand" was the same thing until v1.123.0 lifted the cap: Mount Top used to deal
+  // 10 cards and now deals 16, and its final three (Cross Collar Choke, Gift Wrap, Loop Choke)
+  // carry NO wire row, so they print no number at all. That is the deliberate "unvalued LAST and
+  // never as 0" rule, not a gap — and an unvalued card cannot demonstrate an EDGE that MOVES,
+  // which is this journey's whole subject. Asserted below, so the day the corpus values them the
+  // spec says so instead of quietly drilling a different card.
+  const valued = before.filter((c: any) => Number.isFinite(parseInt(c.edge, 10)));
+  expect(valued.length, "the hand has valued cards to drill").toBeGreaterThan(0);
+  expect(
+    valued.length,
+    "and some of Mount Top's hand is legitimately unvalued — the tail this skips",
+  ).toBeLessThan(before.length);
+  const last = valued[valued.length - 1];
+  const target = last.tech;
+  const e0 = last.edge;
+  const targetIdx = before.findIndex((c: any) => c.tech === target);
 
   const drill = await page.evaluate(async (t: string) => {
     const a = (window as any).__neural;
@@ -330,7 +345,7 @@ test("@curated a JIT grade moves the numbers and NEVER the order", async ({
     ).join("|"),
     "_optList — which the 1-9 keys index — did not re-sort either",
   ).toBe(order0);
-  const now = after[after.length - 1];
+  const now = after[targetIdx];
   expect(now.tech).toBe(target);
   expect(
     parseInt(now.edge, 10),
