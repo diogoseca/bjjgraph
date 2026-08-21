@@ -523,3 +523,126 @@ test("the countdown bar cannot disagree with the clock it draws", async ({ page 
   ).toBeCloseTo(after.remaining! / after.total!, 1)
   expect(after.bar!, "visibly, not just arithmetically").toBeGreaterThan(mid.bar! + 0.05)
 })
+
+/**
+ * THE GRAPH NEVER BAKES A ROLE INTO A NAME (v1.128.1). @curated
+ *
+ * Owner: "when i'm zoomed out i often see 'Turtle Top' instead of 'Turtle' (roleless in the
+ * further zoomed out state). pls fix that too so it says Turtle? or wtv without the role like top
+ * bottom attacking or attempting or defending."
+ *
+ * Every position hub is TITLED "… Top" in graph-data.json — a rendering artifact of the visual
+ * collapse, not a claim about the side (v1.82.3) — and `splitName().main` only strips a
+ * "from <position>" tail, which a position title does not have. So every canvas label that fell
+ * back to the raw title printed the role as part of the name. **Measured: 136 of 136 position
+ * titles carry one.** At MERGE scale that is plainly wrong — there is one orb, it is neither side,
+ * and the role belongs to the pair group which is deliberately not drawn there (v1.128.0).
+ *
+ * The focus label already used `posFamily`; `graphName(n)` is the same rule for the other three
+ * canvas label paths (the fading recent-node labels, the active-move label during travel, and the
+ * hover label), so the graph answers "what is this" exactly one way at every zoom.
+ */
+test("@curated no position label the graph draws carries its role", async ({ page }) => {
+  const j = journey(page)
+  await j.boot("/Positions/Side-Control/Bottom")
+  await j.advance(6000)
+
+  // THE WHOLE CORPUS, through the app's own helper — this is the claim, and it is 136-wide.
+  const corpus = await page.evaluate(() => {
+    const a: any = (window as any).__neural
+    let titled = 0
+    let roled = 0
+    const bad: string[] = []
+    for (const n of a.nodes) {
+      if (!n.rep || n.ty !== "positions") continue
+      if (/\s(Top|Bottom)$/i.test(a.splitName(n.t).main)) titled++
+      if (/\s(Top|Bottom)$/i.test(a.graphName(n))) { roled++; if (bad.length < 3) bad.push(a.graphName(n)) }
+    }
+    return { titled, roled, bad }
+  })
+  expect(corpus.titled, "every position hub really is titled with a role — that is the hazard").toBe(136)
+  expect(corpus.roled, `and the graph prints none of them (${JSON.stringify(corpus.bad)})`).toBe(0)
+
+  // ...AND ON THE GLASS, which is what stops this journey from being a re-implementation of the
+  // thing it checks (the v1.126.0 lesson: never assert a render by re-running its logic). The
+  // corpus block above would pass on a build where `graphName` is perfect and NO draw site calls
+  // it; this half fails on exactly that build.
+  //
+  // THE ORACLE IS THE NARROW WINDOW WHERE " Top" WOULD GO — the span between the roleless width
+  // and the roled width, ~27px. A first attempt swept 340px right of the orb and read 238px of
+  // bright pixels against a 114px name: at merge scale the whole graph is on screen and that strip
+  // was full of OTHER nodes' labels. Hence both the narrow window and the isolation filter.
+  await page.mouse.move(page.viewportSize()!.width * 0.25, page.viewportSize()!.height * 0.18)
+  for (let i = 0; i < 24; i++) {
+    await page.mouse.wheel(0, 500)
+    await j.advance(120)
+  }
+  const shot = await page.evaluate(() => {
+    const a: any = (window as any).__neural
+    const scale = a.W / a.cam.vw
+    const K = Math.max(0.4, Math.min(1, a.cam.vw / (a.graphW * 0.5)))
+    const P = (n: any) => ({
+      sx: (n.x - a.cam.cx) * scale + a.W / 2,
+      sy: (a._LY(n) - a.cam.cy) * scale + a.H / 2,
+    })
+    const c = document.createElement("canvas").getContext("2d")!
+    c.font = "600 13px 'Plus Jakarta Sans', sans-serif"
+    let best: any = null
+    for (const n of a.nodes) {
+      if (n.ty !== "positions" || !n.rep) continue
+      const p = P(n)
+      if (!(p.sx > 80 && p.sx < a.W - 320 && p.sy > 80 && p.sy < a.H - 320)) continue
+      const wRoleless = c.measureText(a.graphName(n)).width
+      const wRoled = c.measureText(a.splitName(n.t).main).width
+      // ISOLATION: nothing else may sit in the band this label is drawn in, out to the far edge
+      // of where " Top" would land, or a neighbour's own label answers for it.
+      let clear = 1e9
+      for (const m of a.nodes) {
+        if (m.idx === n.idx || !m.rep) continue
+        const q = P(m)
+        if (Math.abs(q.sy - p.sy) > 26) continue
+        if (q.sx <= p.sx) continue
+        clear = Math.min(clear, q.sx - p.sx)
+      }
+      const need = n.r * K * scale + 9 + wRoled + 40
+      if (clear < need) continue
+      if (!best || clear > best.clear)
+        best = { sx: p.sx, sy: p.sy, r: n.r * K * scale, wRoleless, wRoled, clear, name: a.graphName(n) }
+    }
+    return best ? { ...best, lodK: a._lodK } : null
+  })
+  expect(shot, "there is an isolated merged position to point at").not.toBeNull()
+  expect(shot!.lodK, "and we really are at merge scale").toBeLessThan(0.5)
+
+  await page.mouse.move(shot!.sx - 40, shot!.sy - 40)
+  await page.mouse.move(shot!.sx, shot!.sy)
+  await j.advance(120)
+
+  const px = await page.evaluate(
+    ({ sx, sy, r, wRoleless, wRoled }: any) => {
+      const a: any = (window as any).__neural
+      const cv: HTMLCanvasElement = a.canvas
+      const ctx = cv.getContext("2d")!
+      const dpr = cv.width / cv.clientWidth
+      const ox = sx + r + 9 // where the label starts (halfW + 9)
+      const band = (from: number, to: number) => {
+        const x0 = Math.round((ox + from) * dpr)
+        const w = Math.max(1, Math.round((to - from) * dpr))
+        const d = ctx.getImageData(x0, Math.round((sy - 20) * dpr), w, Math.round(16 * dpr)).data
+        let n = 0
+        for (let i = 0; i < d.length; i += 4)
+          if (0.2126 * d[i] + 0.7152 * d[i + 1] + 0.0722 * d[i + 2] > 90) n++
+        return n
+      }
+      return { name: band(2, wRoleless - 4), role: band(wRoleless + 4, wRoled + 2) }
+    },
+    { sx: shot!.sx, sy: shot!.sy, r: shot!.r, wRoleless: shot!.wRoleless, wRoled: shot!.wRoled },
+  )
+  // SELF-CHECK FIRST: if the name itself is not on screen the role window is trivially empty and
+  // this would pass against a build that draws no label at all.
+  expect(px.name, `the hover label was drawn (name "${shot!.name}", ${JSON.stringify(px)})`).toBeGreaterThan(30)
+  expect(
+    px.role,
+    `nothing is drawn where " Top" would be (${JSON.stringify(px)}, roleless ${Math.round(shot!.wRoleless)}px vs roled ${Math.round(shot!.wRoled)}px)`,
+  ).toBeLessThan(px.name / 6)
+})

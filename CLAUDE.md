@@ -1304,6 +1304,82 @@ kills: group restricted to the focus (the original bug) → journey 4; `kLOD` ga
 - The candidate pair is sorted by separation **then by index**: a tie decided by array order picks a
   different pair per run, and every threshold is a function of which pair got picked.
 
+### THREE THINGS THE OWNER SAW IN ONE SITTING (v1.128.1)
+
+**1. "DECIDE 1…" GOT STUCK OVER A BOARD THAT WAS NO LONGER COUNTING.** Owner: *"when i click
+another node amid a 'Decide 3/2/1' the Decide number ... gets stuck there, even tho i navigated to
+another node and the time bars are now back full at 100% and the game is correctly paused."* Root
+cause is a guard doing more than it says: `enterLand` DOES drop a stale announcer, but only
+`if (!first)`, and clicking a node stages a fresh board whose landing IS a roll's opening state —
+so it passes `first` and skipped the clear. Flipping that guard would wipe legitimate arrival copy,
+so the countdown sentence now **owns its own lifetime**: `_tickDecision` stamps `_evCountdown = d`
+when it writes the line, **every other `setEvent` releases the stamp**, and `clearOptions` drops the
+line only if the stamp is still standing when the hand is torn down. The announcer has ONE slot, so
+whoever wrote it owns it — that is the whole mechanism.
+> **DISCLOSED, PRE-EXISTING, NOT FIXED: "Time's up" never reaches the screen.** `_tickDecision`
+> writes it and calls `pick(chosen)` on the very next line, which runs `enterAttempt` →
+> `setEvent("You go for", …)` SYNCHRONOUSLY. Measured on HEAD's bundle as well as this one, the
+> visible sequence is `Decide → You go for → Failed → Opponent goes for`, with no "Time's up" on
+> either build. The one message that explains why the position moved without the player choosing is
+> dead copy. Left alone because fixing it is a gameplay-copy change nobody asked for.
+
+**2. THE PHONE FRAMES THE ORB *AND* ITS NAME.** Owner: *"i think the position in mobile should
+center not to the node but to the label of the node(s)."* The name hangs to the RIGHT of the orb, so
+parking the ORB at 44% of the width (the v1.101.1 reading bias) puts the thing you read off-centre —
+measured at 390x844 on Side Control, the orb sat at 171.6 while the orb+label block ran 158..300,
+centred at **229, i.e. 59% of the width**. And it is not only composition: at that framing the label
+starts at orb + 44px leaving **174px** of screen, while the POSITION names the focus wears run to
+**242px**, so **18 of 136 ran off the right edge**. `rollCamTarget` now solves
+`nodeX = W/2 − (11 + labelW)/2` on `isMobile()`, which seats every one of the 136 — the widest
+("Straight Ankle Lock Control") spans 65..326 of 390. **Desktop is untouched at 0.440**, because
+there is room either way and the reading bias is deliberate.
+- `_labelWidthPx(n, paired)` measures with the font the graph draws with, on a SCRATCH context —
+  `this.ctx` is mid-frame during a draw and its `font` is state — and caches per node + size,
+  because the follow-cam calls `rollCamTarget` every frame.
+- **KNOWN, NOT FIXED, and framing cannot fix it:** the same measurement says TECHNIQUE labels reach
+  **388px (transitions) and 444px (submissions)** — wider than a 390px phone — so 712 of 1034
+  transitions and 256 of 297 submissions overflow when hovered on a phone at any offset. That needs
+  truncation or wrapping, which is a design decision, not a camera one.
+
+**3. THE GRAPH NEVER BAKES A ROLE INTO A NAME.** Owner: *"when i'm zoomed out i often see 'Turtle
+Top' instead of 'Turtle' (roleless in the further zoomed out state)."* Every position hub is TITLED
+"… Top" in `graph-data.json` — a rendering artifact of the visual collapse, not a claim about the
+side (v1.82.3) — and `splitName().main` only strips a `from <position>` tail, which a position title
+does not have. **Measured: 136 of 136 position titles carry a role.** The focus label already used
+`posFamily`; three other canvas label paths did not (the fading recent-node labels, the active-move
+label during travel, and the hover label), so at MERGE scale — where there is one orb, it is neither
+side, and the role deliberately is not drawn — the name printed the role anyway. `graphName(n)` is
+now the single rule for all four, and **136 of 136 are roleless**.
+
+**Gated by `announcer-coherence.spec.ts` (+2), `dual-pair.spec.ts` (+2) and `graph-naming.spec.ts`
+(+1). Four mutants, four kills** — including M4, the tempting half-fix that centres the ORB on a
+phone rather than the orb+label block (it leaves the block centred at 253 of a wanted 195).
+> **A MUTANT FOUND A MISSING TEST, WHICH IS THE POINT OF RUNNING THEM.** The first pass killed the
+> countdown and the roleless-name mutants and **M2 survived** — because the mobile framing had been
+> PROBED and never pinned by a journey. A probe is evidence for a commit message; only a spec is a
+> gate.
+> **And the pixel oracle had to be narrowed:** a first attempt swept 340px right of the orb and read
+> 238 bright px against a 114px name, because at merge scale the whole graph is on screen and that
+> strip was full of OTHER nodes' labels. The oracle is now the ~27px window where " Top" *would*
+> land, on a node filtered to be isolated in its own label band, with a self-check that the name
+> itself is on screen (or an empty window would pass against a build that draws no label at all).
+
+> **THREE ASSERTIONS IN THIS COMMIT WERE STRICTER THAN THEIR OWN CLAIM, and each one went red on a
+> CORRECT build.** They are worth naming together because they are one mistake wearing three hats —
+> pinning an incidental fact instead of the thing that was asked for.
+> · *"nothing is drawn above the name"* (the pair group's subtitle) — the 18px name's own ascenders
+>   reach into that band, and how far depends on which pair the candidate filter picked; it read 93
+>   against a limit of 63 in a full-suite run. The claim is **"the subtitle moved and the name did
+>   not"**, which is a DIFFERENTIAL across the two hover states, where the name's constant
+>   contribution cancels.
+> · *"nothing is drawn at merge scale"* — false on a correct build, because the ordinary single
+>   label takes the hover back. The midline is what separates them.
+> · *"the announcer is blank after staging"* — also false on a correct build, because the staged
+>   landing may legitimately say something else. The claim is **"the stuck countdown is not what you
+>   are looking at"**, so the test reads the KICKER, not just the opacity.
+> Each relaxation was re-checked against its mutant afterwards (3/3 kills on the announcer one), so
+> "less strict" did not become "less able to fail".
+
 ### THE PAIR JOURNEYS COME HOME (v1.127.0)
 
 **A SPEC THAT NEEDS A GITIGNORED PAYLOAD IS NOT A GATE — IT IS A NOTE.** The three v1.114.x

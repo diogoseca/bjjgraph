@@ -1310,7 +1310,24 @@ class Component extends DCLogic {
     return this._ambig && (this._ambig.get(sp.main) || 0) > 1 ? n.t : sp.main;
   }
   posFamily(t) { return (t || "").replace(/\s+(Top|Bottom)\s*$/i, "").trim(); }
+  // THE GRAPH NEVER BAKES A ROLE INTO A NAME (v1.128.1). Owner: "when i'm zoomed out i often see
+  // 'Turtle Top' instead of 'Turtle' ... pls fix that too so it says Turtle? or wtv without the
+  // role like top bottom attacking or attempting or defending."
+  //
+  // Every position hub is TITLED "… Top" in graph-data.json — a rendering artifact of the visual
+  // collapse, not a claim about the side (v1.82.3) — and `splitName().main` only strips a
+  // "from <position>" tail, which a position title does not have. So every canvas label that fell
+  // back to the raw title printed the role as part of the name, and at MERGE scale that is plainly
+  // wrong: there is one orb, it is neither side, and the role belongs to the pair group that is
+  // deliberately not drawn there. The focus label already used `posFamily`; this is the same rule
+  // for the other three canvas label paths, so the graph answers "what is this" one way.
+  graphName(n) { return n.ty === "positions" ? this.posFamily(n.t) : this.splitName(n.t).main; }
   setEvent(kicker, text, tone) {
+    // THE ANNOUNCER HAS ONE SLOT, so whoever writes it owns it. `_evCountdown` is non-null only
+    // while the visible sentence IS a decision countdown (see `_tickDecision`), which is what lets
+    // `clearOptions` drop a countdown for a hand that no longer exists without touching anything
+    // else — including the "Time's up" line, which reaches this function and clears the flag here.
+    this._evCountdown = null;
     const k = this.evKickerRef.current, t = this.evTextRef.current, box = this.evRef.current;
     if (k) { k.textContent = kicker; k.style.color = this.toneColor(tone); }
     if (t) {
@@ -8457,7 +8474,18 @@ class Component extends DCLogic {
     const ac = this.accountRef.current;
     if (ac) { const cover = this.isMobile() ? this.uiShift : 0; ac.style.opacity = (1 - cover).toFixed(3); ac.style.pointerEvents = cover > 0.5 ? "none" : "auto"; ac.style.transform = "none"; }
   }
-  clearOptions() { const el = this.optionsRef.current; if (el) { el.innerHTML = ""; el.style.pointerEvents = "none"; el.style.opacity = "1"; el.style.transform = "none"; el.style.overflowX = "auto"; el.style.overflowY = "hidden"; el.style.webkitMaskImage = ""; el.style.maskImage = ""; el.style.justifyContent = "safe center"; el.style.paddingLeft = ""; el.style.paddingRight = ""; el.scrollLeft = 0; } this._detailCtx = null; this.hideOptDetail(); this.clearLandCard(); this.optionIdxs = []; this._optionCards = []; this._optHintAt = 0; this.setBeacon(null); }
+  clearOptions() { const el = this.optionsRef.current; if (el) { el.innerHTML = ""; el.style.pointerEvents = "none"; el.style.opacity = "1"; el.style.transform = "none"; el.style.overflowX = "auto"; el.style.overflowY = "hidden"; el.style.webkitMaskImage = ""; el.style.maskImage = ""; el.style.justifyContent = "safe center"; el.style.paddingLeft = ""; el.style.paddingRight = ""; el.scrollLeft = 0; } this._detailCtx = null; this.hideOptDetail(); this.clearLandCard(); this.optionIdxs = []; this._optionCards = []; this._optHintAt = 0; this.setBeacon(null); this._dropCountdownEvent(); }
+  // "Decide 1…" IS THE HAND'S SENTENCE, so it cannot outlive the hand. Clicking another node mid
+  // countdown stages a fresh board — clock held, bars back to full — and the owner met the old
+  // window's last warning still on screen over it. `enterLand` already drops a stale announcer,
+  // but only `if (!first)`, and a STAGED landing is a roll's opening state, so it passes `first`
+  // and skipped the clear. Flipping that guard would wipe legitimate arrival copy; this drops
+  // only a countdown, and only when the announcer is still showing one.
+  _dropCountdownEvent() {
+    if (!this._evCountdown) return;
+    this._evCountdown = null;
+    if (this.evRef.current) this.evRef.current.style.opacity = "0";
+  }
   tweenScroll(el, delta) {
     if (this._scrollRaf) cancelAnimationFrame(this._scrollRaf);
     const from = el.scrollLeft;
@@ -10957,6 +10985,7 @@ class Component extends DCLogic {
       d.warned = secLeft;
       this.fx("expiry_warning", { seconds: secLeft });
       this.setEvent("Decide", secLeft + "\u2026", "bad");
+      this._evCountdown = d;   // this sentence belongs to THIS window and dies with it
     }
     if (d.remaining <= 0) {
       if (d.onExpire) { this._decision = null; d.onExpire(); return; } // defense window: expiry = tapped
@@ -11615,7 +11644,52 @@ class Component extends DCLogic {
     const labelOff = n && n.ty === "submissions" && !paired ? n.r * nodeK * scale * 0.24 : 0;
     // screen y = (n.y - cy) * scale + H/2  =>  cy = n.y - (wantY - H/2)/scale
     const cy = f.y + labelOff / scale - (wantY - H / 2) / scale;
-    return { cx: f.x + 0.06 * vw, cy: cy, vw: vw };
+    // ── ON A PHONE, CENTRE THE LABEL, NOT THE ORB (v1.128.1) ────────────────────────────────
+    // Owner: "the position in mobile should center not to the node but to the label of the
+    // node(s)." The name hangs to the RIGHT of the orb, so parking the ORB at 44% of the width
+    // puts the thing you actually read off-centre — measured at 390x844 on Side Control, the orb
+    // sat at 171.6 while the orb+label block ran 158..300, centred at 229, i.e. 59% of the width.
+    //
+    // AND IT IS NOT ONLY COMPOSITION: at that framing the label starts at orb + 44px, leaving
+    // 174px of screen, while the POSITION labels the focus actually wears run to 242px — so
+    // **18 of 136 ran off the right edge**. Centring the block seats every one of them: the widest
+    // ("Straight Ankle Lock Control", 242px) spans 26.5..363.5 of 390.
+    //
+    //   block = [nodeX - r, nodeX + r + 11 + labelW]  =>  centre = nodeX + (11 + labelW) / 2
+    //   want centre = W/2                             =>  nodeX  = W/2 - (11 + labelW) / 2
+    //
+    // Phone only. On desktop there is room to the right either way, and 44% is the v1.101.1
+    // reading bias ("every name hanging off a node runs left-to-right FROM it") which nothing
+    // here has any reason to overturn.
+    let cx = f.x + 0.06 * vw;
+    if (this.isMobile() && n) {
+      const labelW = this._labelWidthPx(n, !!(n.pi >= 0));
+      if (labelW > 0) cx = f.x + ((11 + labelW) / 2) / scale;
+    }
+    return { cx: cx, cy: cy, vw: vw };
+  }
+  // THE WIDTH OF THE NAME THE GRAPH IS ABOUT TO DRAW, in px, measured with the font it draws it
+  // with. Cached per node + font size, because the follow-cam calls `rollCamTarget` every frame
+  // and `measureText` is not free. Measured on a SCRATCH context: `this.ctx` is mid-frame during
+  // a draw and its `font` is state, so borrowing it would be a heisenbug waiting to happen.
+  _labelWidthPx(n, paired) {
+    const px = paired ? 18 : 17;   // the pair group's focus size; richLabel's name is a shade under
+    const key = n.idx + "|" + px;
+    this._labelWCache = this._labelWCache || new Map();
+    const hit = this._labelWCache.get(key);
+    if (hit != null) return hit;
+    let w = 0;
+    try {
+      if (!this._measCtx) this._measCtx = document.createElement("canvas").getContext("2d");
+      const c = this._measCtx;
+      if (c) {
+        c.font = "700 " + px + "px " + (this._displayFam || "'Space Grotesk'") + ", sans-serif";
+        const nm = n.ty === "positions" ? this.posFamily(n.t) : this.displayName(n);
+        w = c.measureText(nm).width || 0;
+      }
+    } catch (e) { w = 0; }   // no canvas: fall back to the orb-centred framing, never to a crash
+    this._labelWCache.set(key, w);
+    return w;
   }
   updateCamera(dt) {
     const el = this.now - this.startTime;
@@ -12454,7 +12528,7 @@ class Component extends DCLogic {
         if (sx < -60 || sx > W + 60 || sy < 0 || sy > H + 20) continue;
         ctx.shadowColor = "rgba(0,0,0,0.85)"; ctx.shadowBlur = 6;
         ctx.fillStyle = this.rgba({ r: 238, g: 241, b: 246 }, 0.8 * k * A);
-        ctx.fillText(this.splitName(n.t).main, sx + halfW(n) + 9, sy - 7); ctx.shadowBlur = 0;
+        ctx.fillText(this.graphName(n), sx + halfW(n) + 9, sy - 7); ctx.shadowBlur = 0;
       }
       // rich label = role + name, anchored beside a node
       const richLabel = (idx, role, roleCol, name, big) => {
@@ -12476,7 +12550,7 @@ class Component extends DCLogic {
       // active move during travel: "ATTACKING / Triangle Choke" etc.
       if (this.pulse && this.activeMove) {
         const am = this.activeMove;
-        richLabel(am.idx, am.verb, am.col, this.splitName(this.nodes[am.idx].t).main, false);
+        richLabel(am.idx, am.verb, am.col, this.graphName(this.nodes[am.idx]), false);
       }
       // persistent labels on the outgoing option nodes while a decision is open
       if (this.optionIdxs && this.optionIdxs.length && !this.pulse) {
@@ -12487,7 +12561,7 @@ class Component extends DCLogic {
           if (sx < -60 || sx > W + 60 || sy < 0 || sy > H + 20) continue;
           ctx.shadowColor = "rgba(0,0,0,0.85)"; ctx.shadowBlur = 6;
           ctx.fillStyle = this.rgba(n.col, 0.95 * A);
-          ctx.fillText(this.splitName(n.t).main, sx + halfW(n) + 9, sy - 7); ctx.shadowBlur = 0;
+          ctx.fillText(this.graphName(n), sx + halfW(n) + 9, sy - 7); ctx.shadowBlur = 0;
         }
       }
       // THE ONE LABELLING DESIGN, AT EVERY ZOOM (v1.114.0). This used to be suppressed the moment
@@ -12597,7 +12671,7 @@ class Component extends DCLogic {
         if (isOpt) { ctx.font = "700 10px 'Plus Jakarta Sans', sans-serif"; ctx.fillStyle = this.rgba(n.col, A); ctx.fillText("YOUR MOVE", hx, sy - 22); }
         ctx.font = "600 13px 'Plus Jakarta Sans', sans-serif";
         ctx.fillStyle = this.rgba({ r: 240, g: 243, b: 248 }, A);
-        ctx.fillText(this.splitName(n.t).main, hx, sy - 8);
+        ctx.fillText(this.graphName(n), hx, sy - 8);
         ctx.shadowBlur = 0;
       }
     }

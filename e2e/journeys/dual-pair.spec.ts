@@ -459,7 +459,25 @@ test("@curated hovering any pair names it once, on the midline, with the role on
   const dn = await strips(page, c.mid, x)
   expect(dn.name, `the name held its line (${up.name} -> ${dn.name} bright px)`).toBeGreaterThan(300)
   expect(dn.below, "and the role moved below it").toBeGreaterThan(40)
-  expect(dn.above, "leaving the space above").toBeLessThan(dn.below / 2)
+  // A DIFFERENTIAL, NOT A WITHIN-STATE RATIO. The 18px name is drawn at baseline `mid + 6`, so its
+  // own ascenders reach into the band above the midline — and HOW MUCH depends on which name the
+  // candidate pair happens to have. A first version asserted `above < below / 2` inside the
+  // bottom-hover state and failed in the full suite at 93 vs 126, on a build that was drawing the
+  // subtitle in exactly the right place. The claim is not "the band above is empty", it is
+  // **"the subtitle moved and the name did not"** — so compare each band against ITSELF across the
+  // two hover states, where the name's constant contribution cancels.
+  expect(
+    up.above - dn.above,
+    `the role vacated the top when the cursor moved down (${up.above} -> ${dn.above})`,
+  ).toBeGreaterThan(40)
+  expect(
+    dn.below - up.below,
+    `…and appeared underneath (${up.below} -> ${dn.below})`,
+  ).toBeGreaterThan(40)
+  expect(
+    Math.abs(dn.name - up.name),
+    `while the name itself did not move (${up.name} vs ${dn.name} bright px on the midline)`,
+  ).toBeLessThan(up.name * 0.25)
 })
 
 /**
@@ -521,4 +539,84 @@ test("zoomed out, a pair is one site again and the group stands down", async ({ 
     m.name,
     `no pair group is drawn on a merged pair's midline (${JSON.stringify(m)})`,
   ).toBeLessThan((m.above + m.below) / 4)
+})
+
+/**
+ * ON A PHONE, THE CAMERA CENTRES THE LABEL, NOT THE ORB (v1.128.1). @curated
+ *
+ * Owner: "i think the position in mobile should center not to the node but to the label of the
+ * node(s)."
+ *
+ * The name hangs to the RIGHT of the orb, so parking the ORB at 44% of the width (the v1.101.1
+ * reading bias) puts the thing you actually read off-centre. Measured at 390x844 on Side Control:
+ * the orb sat at 171.6 while the orb+label block ran 158..300 — centred at 229, i.e. 59% of the
+ * width.
+ *
+ * AND IT IS NOT ONLY COMPOSITION. At that framing the label starts at orb + 44px, leaving 174px of
+ * screen, while the POSITION names the focus wears run to 242px — so **18 of 136 ran off the right
+ * edge of a phone**. Centring the block seats every one: the widest ("Straight Ankle Lock
+ * Control") spans 65..326 of 390.
+ *
+ * Desktop is deliberately untouched: there is room to the right either way, and 44% is the reading
+ * bias ("every name hanging off a node runs left-to-right FROM it") which nothing here overturns.
+ */
+test("@curated the phone frames the orb AND its name, centred together", async ({ page }) => {
+  await page.setViewportSize({ width: 390, height: 844 })
+  const j = journey(page)
+  await j.boot(AT)
+  await settle(page, j)
+
+  const block = (p: Page) =>
+    p.evaluate(() => {
+      const a: any = (window as any).__neural
+      const scale = a.W / a.cam.vw
+      const K = Math.max(0.4, Math.min(1, a.cam.vw / (a.graphW * 0.5)))
+      const f = a.nodes[a.focusIdx]
+      const partner = f.pi >= 0 ? a.nodes[f.pi] : null
+      const mid = a.pairMid(f)
+      const sx = (mid.x - a.cam.cx) * scale + a.W / 2
+      // the focus mark is 1.28x the orb (v1.114.0), which is the silhouette the label clears
+      const r = Math.max(f.r * K * scale, partner ? partner.r * K * scale : 0) * 1.28
+      const w = a._labelWidthPx(f, f.pi >= 0)
+      return { W: a.W, orbSx: sx, left: sx - r, right: sx + r + 11 + w, labelW: w }
+    })
+
+  const b = await block(page)
+  expect(b.labelW, "the focus really has a name to frame").toBeGreaterThan(40)
+  expect(b.right, "the whole name is on screen").toBeLessThan(b.W)
+  expect(b.left, "and so is the orb").toBeGreaterThan(0)
+  // THE CLAIM: the BLOCK is centred, which necessarily means the ORB is not.
+  expect(
+    Math.abs((b.left + b.right) / 2 - b.W / 2),
+    `orb+label centres on the screen (block ${Math.round(b.left)}..${Math.round(b.right)} of ${b.W})`,
+  ).toBeLessThan(6)
+  expect(
+    b.orbSx,
+    `…and the orb itself sits left of centre to buy that (at ${Math.round(b.orbSx)})`,
+  ).toBeLessThan(b.W / 2 - 10)
+
+  // THE WORST POSITION NAME IN THE CORPUS still fits — this is the 18-of-136 half of the fix, and
+  // it is the one a constant framing could not deliver at any offset.
+  await page.goto("/Positions/Straight-Ankle-Lock-Control")
+  await j.boot("/Positions/Straight-Ankle-Lock-Control")
+  await settle(page, j)
+  const w = await block(page)
+  expect(w.labelW, "this is the widest position label in the corpus").toBeGreaterThan(200)
+  expect(w.right, `the widest name still fits (${Math.round(w.left)}..${Math.round(w.right)})`).toBeLessThan(w.W)
+  expect(w.left, "without pushing the orb off the left").toBeGreaterThan(0)
+})
+
+/** ...AND DESKTOP KEEPS THE 44% READING BIAS, because there was never a problem to solve there. */
+test("desktop framing is untouched — the orb stays at the reading bias", async ({ page }) => {
+  const j = journey(page)
+  await j.boot(AT)
+  await settle(page, j)
+  const m = await page.evaluate(() => {
+    const a: any = (window as any).__neural
+    const scale = a.W / a.cam.vw
+    const mid = a.pairMid(a.nodes[a.focusIdx])
+    return { frac: ((mid.x - a.cam.cx) * scale + a.W / 2) / a.W, W: a.W }
+  })
+  expect(m.W, "this is a desktop viewport").toBeGreaterThan(700)
+  expect(m.frac, `the orb parks at ~44% of the width (${m.frac.toFixed(3)})`).toBeCloseTo(0.44, 2)
 })
