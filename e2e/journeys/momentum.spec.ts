@@ -217,20 +217,32 @@ test("ignoring an asked question breaks it; a landing that asks nothing carries 
   await j.land("Mount Top")
 
   await answer(page, true) // ×1
-  // prove the NEXT state's whole deck before we get there, so it will ask nothing
+  // Prove the NEXT state's whole deck before we get there, so it will ask nothing.
+  //
+  // The destination is the CALIBRATED outcome's target — the same rule the second half of this
+  // journey already documents ("o.res is the legacy estimate — probing it boomerangs"), applied
+  // here too since v1.118.0. `o.res` is `resultPos()`: the first POSITION adjacent to the move
+  // that is not the one you are standing on. For `Mount to 3-4 Mount` that happens to equal the
+  // real landing, and while the hand ranked submissions at a flat +100 (movePotential's deleted
+  // `return 1`) it was the first transition dealt — so this fixture proved the right deck by
+  // coincidence. Ranked by EDGE the first transition is `Consolidate Mount`, whose `o.res` is
+  // Half Guard Top while `rig("outcome",[0.01])` lands it in High Mount Top: the wrong deck got
+  // pre-proven, the landing asked a question, and the streak broke for "neglect" it never had.
   const destKey = await page.evaluate(async () => {
     const a = (window as any).__neural
     for (const o of a._optList || []) {
-      if (o.node.ty === "transitions" && o.res >= 0) {
-        const key = a.deckKeyFor(a.nodes[o.res]).key
-        // the destination's cards may not have arrived yet (on-demand residency, v1.80.4) —
-        // ask for them, since proving them all is the whole point of this step
-        await a.hydrateDeck(key)
-        const cards = a._cardsOf(a.flashcards.decks[key])
-        if (cards && cards.length) {
-          for (const c of cards) a._bumpStage(key, c.q, 4)
-          return o.node.t
-        }
+      if (o.node.ty !== "transitions") continue
+      const outs = (o.node.cal && o.node.cal.outcomes) || []
+      const r = outs.length && a.resolveOutcomeTo(outs[0].to) // rig takes the FIRST bucket
+      if (!r || r.idx < 0) continue
+      const key = a.deckKeyFor(a.nodes[r.idx]).key
+      // the destination's cards may not have arrived yet (on-demand residency, v1.80.4) —
+      // ask for them, since proving them all is the whole point of this step
+      await a.hydrateDeck(key)
+      const cards = a._cardsOf(a.flashcards.decks[key])
+      if (cards && cards.length) {
+        for (const c of cards) a._bumpStage(key, c.q, 4)
+        return o.node.t
       }
     }
     return ""

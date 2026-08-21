@@ -250,6 +250,13 @@ test("bombed unit-2 checkpoint never reaches the ledger across a reload, while t
   await j.rig("mc-shuffle", seq(43, 40))
   await openGroup2(UK2)
   await page.locator(`[data-checkpoint="${UK2}"]`).first().click()
+  // THE RETAKE OPENS WHEN ITS POOL IS WARM, NOT ON A FIXED PUMP (v1.118.0). `_warmMcPool` defers
+  // an MC block by one fetch rather than dealing from a partial pool, and WHICH decks are already
+  // resident depends on which ten cards the roll dealt — so `advance(400)` was a coincidence of
+  // the old hand order, not a contract. Re-ranking the option cards by EDGE moved it one tick
+  // past the boundary (measured: cp:false at 400ms, the beat lands at 800). `advanceUntil` throws
+  // if it never opens, and the extra pump below is what keeps "exactly ONE" a real assertion.
+  await j.advanceUntil("checkpoint_start", 8000)
   await j.advance(400)
   const starts = (await j.beats()).filter((b: any) => b.beat === "checkpoint_start") as any[]
   expect(starts.length, "the persisted drills alone re-open the quiz").toBe(1)

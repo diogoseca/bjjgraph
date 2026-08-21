@@ -9,6 +9,15 @@ const NG_SRS_IVLS = [1, 3, 7, 14, 30, 60, 120];
 // How long a landing question may be "still settling" before readers stop waiting on it. A stalled
 // deck fetch must not make the app look hung; the fetch itself is never cancelled. See v1.104.8.
 const NG_LAND_WARM_CEILING_MS = 8000;
+// EDGE — the loss-aversion preset the card ranks by until the "What matters more" control ships.
+// It must be a value of the wire's own `evLam` list; if it is not, the app falls back to the first
+// block rather than guessing, because a wrong block is a silently WRONG ranking, not a missing one.
+const NG_EDGE_LAM = 2;
+// EDGE saturates its palette at |15|, not `potColor`'s default 45. MEASURED over all 1246 emitted
+// (state,move) pairs: p5 −14 · median 0 · p95 +12, and 93.3% inside ±15 — so on the 45 scale the
+// whole hand renders one indistinguishable grey-blue and the colour channel says nothing. Same
+// palette, same deadband, different domain: `potColor`'s own callers are untouched (v1.118.0).
+const NG_EDGE_SAT = 15;
 
 class Component extends DCLogic {
   canvasRef = React.createRef();
@@ -574,6 +583,40 @@ class Component extends DCLogic {
       const c = n.cal;
       if (c && Array.isArray(c.outcomes)) {
         c.outcomes = c.outcomes.map((o) => Array.isArray(o) ? { to: o[0], probability: o[1], result: RESULT_WORD[o[2]] || o[2] } : o);
+      }
+    }
+    // ── EDGE (v1.117.0 wire, read here since v1.118.0) ─────────────────────────────────────────
+    // `cal.ev` hangs off the POSITION nodes and says what each move dealt from that state is
+    // WORTH relative to the ordinary choice from there. Per role, the wire is
+    //     [ nodeIdxs, attemptPct, ...one flat [e0,c1,e0,c1,…] block per entry in `evLam` ]
+    // and it is expanded here — beside the outcome/link expansions above, same reason: every
+    // reader downstream gets a shape it can use without knowing the wire.
+    //
+    // MEMBERSHIP IS THE INDEX LIST, and that is load-bearing rather than defensive. `0` is a real
+    // EDGE — it is the DEFINITION of "the ordinary choice from here" — so it can never double as
+    // "no data", and a dense array would need a sentinel a partial payload could read as a value.
+    // Measured at emit: `optionsFor` deals 82 of 1204 cards this table legitimately cannot value
+    // (gi-only moves zeroed in the no-gi solve, plus layout neighbours the role-node's authored
+    // transitions[] never offers), so the unvalued path is walked on the FIRST hand.
+    //
+    // Keyed by "<position node index>/<role>" because that is the join the app can actually
+    // perform: `optionsFor(posIdx)` hands back node indexes, exactly like `cal.ew` above.
+    this._evLam = Array.isArray(data.evLam) ? data.evLam.slice() : [];
+    this._evFrame = data.evFrame || null;
+    this._ev = new Map();
+    for (let i = 0; i < data.nodes.length; i++) {
+      const tab = data.nodes[i].cal && data.nodes[i].cal.ev;
+      if (!tab) continue;
+      for (const role in tab) {
+        const blk = tab[role];
+        if (!Array.isArray(blk) || blk.length < 3 || !Array.isArray(blk[0])) continue;
+        const idxs = blk[0], att = blk[1] || [], m = new Map();
+        for (let k = 0; k < idxs.length; k++) {
+          const lams = [];
+          for (let L = 2; L < blk.length; L++) lams.push([blk[L][2 * k], blk[L][2 * k + 1]]);
+          m.set(idxs[k], { att: att[k] || 0, lam: lams });
+        }
+        this._ev.set(i + "/" + role, m);
       }
     }
     const idIndex = new Map();
@@ -2927,14 +2970,17 @@ class Component extends DCLogic {
     this.setPaused(true);           // freeze time while the player reads/confirms
     this.fx("sheet_opened", { technique: (opt && opt.node && opt.node.t) || null });
     if (this._landEl) { this._landEl.style.opacity = "0"; this._landEl.style.pointerEvents = "none"; } // the sheet owns the screen while it is up
-    const col = this.hex(this.myColor(n)), cat = this.deckCat(n); // role-correct, see buildOptionCard
+    // THE HEAD IS THE OPTION CARD, ENLARGED (v1.102.1) — so it shows the card's marks, not a
+    // second set. Since v1.118.0 that means EDGE: the same value, from the same `edgeMark`, in the
+    // same palette. A sheet is only ever opened from a non-escape option card, so `opt` is always
+    // a move from the live hand and carries its deal-time `ev` row.
+    const edge = this.edgeMark(opt);
+    const col = edge ? edge.col : this.hex(this.myColor(n)), cat = this.deckCat(n); // role-correct, see buildOptionCard
     const pct = Math.round(this.moveChance(n) * 100);
     const oddsCol = pct >= 60 ? "#7ee0a8" : pct >= 38 ? "#cbd24e" : "#e8956b";
     const resName = opt.res >= 0 ? this.splitName(this.nodes[opt.res].t).main : "\u2014";
     const myMod = Math.round(this.stateBonus(this._posKey) * 100) + Math.round(this.stateBonus(this.deckKeyFor(n).key) * 100);
     const neighbors = this.adj[n.idx].filter((k) => this.nodes[k].ty === "positions").slice(0, 4).map((k) => this.splitName(this.nodes[k].t).main);
-    const pot = Math.round(this.movePotential(opt) * 100);
-    const potCol = this.potColor(pot);
     const tp = this.titleParts(n);                 // {from,to} when the move reads "X to Y", else null
     const sp = this.splitName(n.t);
     const rc = this.richContentFor(n);
@@ -2982,8 +3028,10 @@ class Component extends DCLogic {
       // padding-right clears the corner pair (+ and ✕, ~56px) — the potential is right-aligned in
       // this same row and the two were drawing on top of each other ("+-30")
       '<div style="display:flex;align-items:center;gap:9px;margin-bottom:10px;padding-right:60px;">' + this.nodeGlyph(n.ty, col, 11) +
-        '<span style="flex:1;min-width:0;font-size:10.5px;letter-spacing:.16em;text-transform:uppercase;font-weight:700;color:#9fb0d8;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">' + cat + '</span>' +
-        '<span style="flex:none;font-size:19px;font-weight:700;color:' + potCol + ';font-family:\'Space Grotesk\',sans-serif;line-height:1;">' + (pot > 0 ? "+" : "") + pot + '</span>' +
+        '<span style="flex:1;min-width:0;font-size:10.5px;letter-spacing:.16em;text-transform:uppercase;font-weight:700;color:#9fb0d8;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">' + (edge ? "Edge" : cat) + '</span>' +
+        (edge
+          ? '<span class="ngedgebig" style="flex:none;font-size:19px;font-weight:700;color:' + edge.col + ';font-family:\'Space Grotesk\',sans-serif;line-height:1;">' + edge.txt + '</span>'
+          : '') +
       '</div>' +
       (tp
         ? '<div style="display:flex;align-items:baseline;gap:9px;flex-wrap:wrap;font-family:\'Space Grotesk\',sans-serif;line-height:1.08;">' +
@@ -3087,7 +3135,10 @@ class Component extends DCLogic {
     head.querySelector(".x").addEventListener("click", () => this.closeOptionDetail());
     // perspective tab — re-render the body for attacker / defender and restyle the segmented control
     { const bdn = head.querySelector(".ng-bsuc-dn"), bup = head.querySelector(".ng-bsuc-up"), bsvAll = head.querySelectorAll(".ngsucbig"), bedit = head.querySelector(".ng-bsuc-edit"), bsteps = head.querySelector(".ng-bsuc-steps");
-      const bupd = () => { const p = Math.round(this.moveChance(n) * 100); const c = p >= 60 ? "#7ee0a8" : p >= 38 ? "#cbd24e" : "#e8956b"; bsvAll.forEach((el) => { el.textContent = p + "%"; el.style.color = c; }); this.refreshOptionOdds(); };
+      // the stepper moves the odds, so it moves the EDGE — here and on the small card behind it,
+      // from the one `edgeMark`, or the sheet would contradict the card it grew out of
+      const bedge = head.querySelector(".ngedgebig");
+      const bupd = () => { const p = Math.round(this.moveChance(n) * 100); const c = p >= 60 ? "#7ee0a8" : p >= 38 ? "#cbd24e" : "#e8956b"; bsvAll.forEach((el) => { el.textContent = p + "%"; el.style.color = c; }); const e2 = this.edgeMark(opt); if (bedge && e2) { bedge.textContent = e2.txt; bedge.style.color = e2.col; } this.refreshOptionOdds(); };
       if (bedit) bedit.addEventListener("click", (e) => { e.stopPropagation(); bedit.style.display = "none"; if (bsteps) { bsteps.style.display = "flex"; requestAnimationFrame(() => bsteps.style.opacity = "1"); } });
       if (bdn) bdn.addEventListener("click", (e) => { e.stopPropagation(); this.bumpCardSuccess(n, -1); bupd(); });
       if (bup) bup.addEventListener("click", (e) => { e.stopPropagation(); this.bumpCardSuccess(n, 1); bupd(); }); }
@@ -8037,6 +8088,10 @@ class Component extends DCLogic {
   optionsFor(posIdx) {
     const seen = new Set(); const out = [];
     const hereId = this.nodes[posIdx].posId || null;
+    // the EDGE table for THIS state and THIS side, resolved once. Stamped onto each opt below so
+    // every later reader (the card, the sheet, the odds refresh) values the move against the state
+    // it was dealt from, not against wherever the roll has since moved to.
+    const evOf = this._evRowsFor(posIdx, this.playerRole);
     for (const k of this.adj[posIdx]) {
       const n = this.nodes[k];
       if (n.ty === "positions") continue;
@@ -8053,7 +8108,7 @@ class Component extends DCLogic {
       // contextual: exact canonical origin match (data now provides fromPositionId)
       if (n.fromPositionId && hereId && n.fromPositionId !== hereId) continue;
       const res = this.resultPos(k, posIdx);
-      out.push({ idx: k, node: n, res });
+      out.push({ idx: k, node: n, res, ev: evOf ? evOf(k) : null });
     }
     // safety: if role-filtering left nothing, fall back to the best-for-me handful
     if (!out.length) {
@@ -8062,12 +8117,16 @@ class Component extends DCLogic {
         // the fallback relaxes ORIGIN, never ROLE: dealing the opponent's moves is not a
         // safety net, it is the bug this filter exists to prevent
         if (n.fromRole && n.fromRole !== this.playerRole) continue;
-        out.push({ idx: k, node: n, res: this.resultPos(k, posIdx) });
+        out.push({ idx: k, node: n, res: this.resultPos(k, posIdx), ev: evOf ? evOf(k) : null });
       }
       out.sort((a, b) => this.myVal(b.node) - this.myVal(a.node));
       return out.slice(0, 6);
     }
-    out.sort((a, b) => this.orderScore(b) - this.orderScore(a));
+    // FREEZE (v1.118.0). Both ranking inputs are read HERE, once, and never again: `moveChance`
+    // moves with drilling and momentum, and re-reading it in a comparator would let a mid-decision
+    // JIT grade re-sort the tray the player is already reaching into. See _cmpDealt.
+    for (const o of out) { o.ord = this.orderScore(o); o.ordOdds = this.moveChance(o.node); }
+    out.sort((a, b) => this._cmpDealt(a, b));
     return out.slice(0, 10);
   }
   resultPos(actIdx, fromIdx) {
@@ -8077,7 +8136,12 @@ class Component extends DCLogic {
     return best;
   }
 
+  // the glyph is split span/svg so the EDGE repaint can rewrite the shape's colour in place
+  // without disturbing the card's flex row (see _paintEdge)
   catGlyph(n, num, col) {
+    return '<span class="ngglyph" style="flex:none;width:20px;height:20px;display:flex;align-items:center;justify-content:center;filter:drop-shadow(0 0 4px ' + col + '70);">' + this.catGlyphSvg(n, num, col) + '</span>';
+  }
+  catGlyphSvg(n, num, col) {
     // category shape (circle=position, diamond=transition, triangle=submission) with the keyboard number fused inside
     const showNum = !!(num && num <= 9 && this.get("cardNumbers", true));
     const sub = n.ty === "submissions";
@@ -8088,7 +8152,7 @@ class Component extends DCLogic {
     else shape = '<path d="M10 1.9 L18.1 10 L10 18.1 L1.9 10 Z" fill="' + col + '26" stroke="' + col + '" stroke-width="1.5" stroke-linejoin="round"></path>';
     const ty2 = sub ? "12.9" : "10.7";
     const txt = showNum ? '<text x="10" y="' + ty2 + '" text-anchor="middle" dominant-baseline="middle" font-size="8.5" font-weight="700" font-family="\'Space Grotesk\',sans-serif" fill="#eef1f6">' + num + '</text>' : '';
-    return '<span style="flex:none;width:20px;height:20px;display:flex;align-items:center;justify-content:center;filter:drop-shadow(0 0 4px ' + col + '70);"><svg width="20" height="20" viewBox="0 0 20 20">' + shape + txt + '</svg></span>';
+    return '<svg width="20" height="20" viewBox="0 0 20 20">' + shape + txt + '</svg>';
   }
   buildOptionCard(opt, onPick, decisionSec, num, mode) {
     const n = opt.node;
@@ -8110,7 +8174,18 @@ class Component extends DCLogic {
     // somewhere good, which is a real and common shape: a mediocre technique into a strong
     // position. They share one palette and say so nowhere — that is a LABELLING gap, not a maths
     // one, and it is the owner's call whether to close it.
-    const col = this.hex(this.myColor(n));
+    //
+    // \u2500\u2500 AND IT IS CLOSED, BY DELETION (v1.118.0) \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500
+    // Both marks are now the SAME quantity \u2014 EDGE \u2014 so they cannot disagree, and the technique's
+    // own strength leaves the card FACE entirely (it stays in the sheet's content). Three marks,
+    // two channels: SHAPE = category, COLOUR (glyph + clock bar + corner number) = EDGE,
+    // bottom-right = odds. Odds are an INPUT to EDGE, one inside the other, so those two cannot
+    // contradict either. An ESCAPE card is deliberately UNCHANGED: its options are POSITIONS, not
+    // moves this state authors, so the EDGE table cannot value them and a fabricated number is
+    // forbidden \u2014 it keeps its category word, its own-strength glyph and its landing-position
+    // potential, which there is not a second quantity but the same one twice.
+    const edge = isEsc ? null : this.edgeMark(opt);
+    const col = edge ? edge.col : this.hex(this.myColor(n));
     const resName = opt.res >= 0 ? this.nodes[opt.res].t : "\u2014";
     const pct = Math.round((isEsc ? this.escapeChance(opt) : this.moveChance(n)) * 100);
     const oddsCol = pct >= 60 ? "#7ee0a8" : pct >= 38 ? "#cbd24e" : "#e8956b";
@@ -8122,11 +8197,22 @@ class Component extends DCLogic {
       '<div style="font-size:8px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:#8094b4;">' + rateCaption + '</div>' +
       '<span class="ngodds" style="font-size:15px;font-weight:700;color:' + oddsCol + ';">' + pct + '%</span>' +
       '</div>';
+    // THE MIDDLE SLOT NAMES THE NUMBER OPPOSITE IT. The category word there was redundant with the
+    // glyph SHAPE beside it (v1.103.6 canon: circle=position, triangle=submission, diamond=
+    // transition), and an unlabelled signed integer is exactly what makes a legitimate ranking
+    // read as a bug: in 98 of 272 hands the best-EDGE card is NOT the best-odds card, and in 17 of
+    // them the odds gap exceeds 15pp. `SUBMISSION` (10 chars) → `EDGE` (4) costs no height and no
+    // new row. A card with no wire value keeps the category word, because there is no number for a
+    // caption to name.
+    const headMid = edge ? "Edge" : (n.ty === "positions" ? "Position" : n.ty === "submissions" ? "Submission" : "Transition");
+    const headVal = edge
+      ? '<span class="ngedge" style="flex:none;font-size:13px;font-weight:700;color:' + edge.col + ';">' + edge.txt + '</span>'
+      : (isEsc ? '<span style="flex:none;font-size:13px;font-weight:700;color:' + this.potColor(pot) + ';">' + (pot > 0 ? "+" : "") + pot + '</span>' : '');
     card.innerHTML =
       '<div style="display:flex;align-items:center;gap:8px;margin-bottom:7px;">' +
         this.catGlyph(n, num, col) +
-        '<span style="font-size:9.5px;letter-spacing:.16em;text-transform:uppercase;color:#8094b4;font-weight:700;flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">' + (n.ty === "positions" ? "Position" : n.ty === "submissions" ? "Submission" : "Transition") + '</span>' +
-        '<span style="flex:none;font-size:13px;font-weight:700;color:' + this.potColor(pot) + ';">' + (pot > 0 ? "+" : "") + pot + '</span>' +
+        '<span style="font-size:9.5px;letter-spacing:.16em;text-transform:uppercase;color:#8094b4;font-weight:700;flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">' + headMid + '</span>' +
+        headVal +
       '</div>' +
       // ── THE CARD IS A CHOICE, NOT A DOSSIER (v1.101.1) ──────────────────────────────────
       // The `from <origin>` line and the `→ <destination>` line came off at the owner's call
@@ -8162,11 +8248,31 @@ class Component extends DCLogic {
     // bar cannot disagree with the number it draws — including growing BACK when you buy time,
     // which is the honest feedback for having bought it.
     const bar = card.querySelector(".ngbar");
-    (this._optionCards = this._optionCards || []).push({ node: n, card: card, bar: bar });
+    // `opt`/`num`/`esc` ride along so the EDGE channel can be repainted in place when the odds
+    // move (refreshOptionOdds). They are the DEAL-TIME opt, so a repaint values the move against
+    // the state it was dealt from — and it repaints, it never re-sorts.
+    (this._optionCards = this._optionCards || []).push({ node: n, card: card, bar: bar, opt: opt, num: num, esc: isEsc });
     const di = 20 + (num && num > 0 ? num - 1 : 0) * 45;
     setTimeout(() => { card.style.transform = "none"; }, di);
     return card;
   }
+  // repaint ONE dealt card's EDGE channel in place — corner number, glyph and clock bar, all three
+  // from the same `edgeMark`, so they cannot drift apart between a deal and a refresh.
+  _paintEdge(oc) {
+    if (!oc || oc.esc) return;
+    const e = this.edgeMark(oc.opt); if (!e) return;
+    const num = oc.card.querySelector(".ngedge");
+    if (num) { num.textContent = e.txt; num.style.color = e.col; }
+    const g = oc.card.querySelector(".ngglyph");
+    if (g) { g.style.filter = "drop-shadow(0 0 4px " + e.col + "70)"; g.innerHTML = this.catGlyphSvg(oc.node, oc.num, e.col); }
+    if (oc.bar) oc.bar.style.background = e.col;
+  }
+  // THE NUMBERS MOVE, THE CARDS DO NOT (v1.118.0). Drilling a JIT deck mid-decision raises this
+  // move's odds, and EDGE is a function of those odds, so the corner number and its colour MUST
+  // follow — that visible payoff is the reason to drill at all. What must never follow is the
+  // ORDER: re-sorting the tray under a player already reaching for a card is the one thing a
+  // ranking must not do. The hand's order is frozen in optionsFor (see _cmpDealt) and nothing
+  // here touches the DOM's child order.
   refreshOptionOdds() {
     if (this._defendSub != null) { this.refreshEscapeOdds(); return; } // defense window: the tray holds ESCAPE cards
     for (const oc of (this._optionCards || [])) {
@@ -8174,6 +8280,7 @@ class Component extends DCLogic {
       const pct = Math.round(this.moveChance(oc.node) * 100);
       el.textContent = pct + "%";
       el.style.color = pct >= 60 ? "#7ee0a8" : pct >= 38 ? "#cbd24e" : "#e8956b";
+      this._paintEdge(oc);
     }
   }
 
@@ -10397,18 +10504,125 @@ class Component extends DCLogic {
     m.pct = Math.max(5, Math.min(95, Math.round(m.pct / 5) * 5 + dir * 5));
     this.refreshOptionOdds();
   }
-  // colour a potential value (-100..100): vivid red when negative, blue when positive, neutral near zero
-  potColor(p) {
+  // colour a signed value on the -100..100 scale: vivid red when negative, blue when positive,
+  // neutral in the ±1 deadband. `sat` = the magnitude at which the palette tops out; EDGE passes
+  // NG_EDGE_SAT because its values live an order of magnitude closer to zero (see the constant).
+  // The default is the historical 45, so every pre-EDGE caller is byte-identical.
+  potColor(p, sat) {
     const lerp = (a, b, t) => "#" + [0, 1, 2].map((i) => { const av = parseInt(a.substr(1 + i * 2, 2), 16), bv = parseInt(b.substr(1 + i * 2, 2), 16); return ("0" + Math.round(av + (bv - av) * t).toString(16)).slice(-2); }).join("");
     const neutral = "#9aa6bd";
-    if (p > 1) return lerp("#8fa6d4", "#5b8cff", Math.min(1, p / 45));        // → blue (winning)
-    if (p < -1) return lerp("#e09089", "#f23b4e", Math.min(1, -p / 45));      // → red (losing), already red at small magnitude
+    const s = sat > 0 ? sat : 45;
+    if (p > 1) return lerp("#8fa6d4", "#5b8cff", Math.min(1, p / s));         // → blue (winning)
+    if (p < -1) return lerp("#e09089", "#f23b4e", Math.min(1, -p / s));       // → red (losing), already red at small magnitude
     return neutral;
   }
-  // POTENTIAL: signed proximity-to-win the move unlocks (-1..1). Strong resulting position = +, worse position = -. A finish = +1.
+
+  // ═══ EDGE — what a move is worth from where you are standing ═══════════════════════════════
+  // EDGE = 100 × ( Q(s,a) − B(s) ),  B(s) = Σ attempt%(a′)·Q(s,a′)
+  // i.e. how much better or worse this move is than the ORDINARY choice from this state, where
+  // "ordinary" is the Q3 Delphi occurrence distribution — what people actually do. 0 is not
+  // "no value", it is "the normal thing to do here". Q counts not just whether the move works but
+  // WHERE A MISS LEAVES YOU, out to the end of a real roll, so a 78%-odds move that gives up
+  // initiative can score below a 55% one that finishes. That divergence is the whole feature: in
+  // 98 of 272 hands the best-EDGE card is not the best-odds card.
+  //
+  // The wire ships the LINE, not the point:   EDGE(p) = e0 + (p − p0)·c1
+  // because Q is linear in p and `moveChance` is not a constant — it is the calibrated rate plus
+  // your drilling, momentum, a wrong landing question and the opponent's resistance. A frozen
+  // integer would be EDGE at the authored odds and at NO OTHER MOMENT, which would make "drilling
+  // moves it" a lie. `e0` is the solver's own displayed integer at `p0`, so a card at rest shows
+  // exactly what the build-time solve published.
+  //
+  // p0 IS THE FRAME'S OWN RATE, NEVER `calSuccess`. `calSuccess` selects by the ACTIVE ruleset and
+  // the default ruleset is gi, while the table is solved in `evFrame` (no-gi) — measured, 146 of
+  // 1467 nodes carry a gi rate that differs from the scalar, so anchoring on `calSuccess` would
+  // put a gi player's card off its published value at rest, with no drill and no modifier in
+  // sight. Anchored on the solve's own frame, that gi/no-gi difference instead rides through `c1`
+  // like any other odds movement, which is what it is.
+  _evP0(n) {
+    const c = n && n.cal; if (!c) return null;
+    const br = c.successRateByRuleset;
+    const v = (br && this._evFrame && br[this._evFrame] != null) ? br[this._evFrame] : c.successRate;
+    return (typeof v === "number") ? Math.max(0, Math.min(1, v / 100)) : null;
+  }
+  // which `evLam` block the dial selects. -1 = no table on this wire at all.
+  _evLamIdx() {
+    if (!this._evLam || !this._evLam.length) return -1;
+    let k = this._evLam.indexOf(this.get("lossAversion", NG_EDGE_LAM));
+    if (k < 0) k = this._evLam.indexOf(NG_EDGE_LAM);
+    return k < 0 ? 0 : k;
+  }
+  // the { e0, c1, att } row for one move dealt from one position role, or null when this table
+  // cannot value it. Resolved ONCE per hand in optionsFor and stamped on the opt, so nothing that
+  // reads an EDGE later depends on `currentPos` still being where the hand was dealt.
+  _evRowsFor(posIdx, role) {
+    const key = posIdx + "/" + role;
+    const m = this._ev && this._ev.get(key);
+    const k = m ? this._evLamIdx() : -1;
+    if (!m || k < 0) return null;
+    return (techIdx) => {
+      const r = m.get(techIdx); const c = r && r.lam[k];
+      return c ? { e0: c[0], c1: c[1], att: r.att, key: key, k: k } : null;
+    };
+  }
+  // ── THE BASELINE MOVES WITH THE HAND, OR THE NUMBER STOPS BEING RELATIVE ──────────────────
+  // EDGE is a DIFFERENCE: this move minus the ordinary choice from here. `e0` is that difference
+  // evaluated at the authored odds, and the emitter's own numbers prove the definition —
+  // Σ att·e0 / Σ att is 0 to within 0.47 of a point on all 272 role-hands (rounding).
+  //
+  // But `moveChance` does not only carry YOUR drilling. It subtracts `aiMod` — the opponent's
+  // resistance — which is a property of the STATE and therefore the same for every card in the
+  // hand. MEASURED at side-control/bottom on a fresh profile: aiMod = 0.2612 (0.131 from the top
+  // player's own strength + 0.130 aiSkill), so every one of the seven cards is dealt 26pp below
+  // its authored rate. Against a FROZEN baseline that made all seven read NEGATIVE — "every
+  // option here is worse than the ordinary choice here", which is arithmetically impossible for a
+  // weighted mean and would have shipped as the feature's headline hand.
+  //
+  // So the baseline is re-evaluated under the same conditions as the move: the same attempt
+  // weights, over the state's FULL authored action set (the wire carries all of it — 25 moves at
+  // side-control/top where only 10 are dealt), at each move's own live odds. Δ is 0 at rest, so a
+  // card with no modifiers still shows exactly the integer the build-time solve published, and
+  // Σ att·EDGE = 0 stays true at every moment. What survives is the honest part: a uniform odds
+  // shift re-ranks by SLOPE (EDGE becomes e0 + Δp·(c1 − c̄1)), because a move whose success and
+  // miss branches are far apart cares about its odds and one whose branches are close does not.
+  _evShift(key, k) {
+    const m = this._ev && this._ev.get(key); if (!m) return 0;
+    let wsum = 0, acc = 0;
+    for (const [j, r] of m) {
+      const c = r.lam[k]; const nd = this.nodes[j];
+      if (!c || !nd) continue;
+      const p0 = this._evP0(nd); if (p0 == null) continue;
+      wsum += r.att;
+      acc += r.att * (this.moveChance(nd) - p0) * c[1];
+    }
+    return wsum > 0 ? acc / wsum : 0;
+  }
+  // EDGE for a dealt option, at its LIVE odds. null = this move has no value on the wire; the
+  // caller renders nothing rather than a fabricated 0 (see the ingest note).
+  moveEdge(opt) {
+    const r = opt && opt.ev; if (!r) return null;
+    const p0 = this._evP0(opt.node);
+    if (p0 == null) return r.e0;              // unanchorable: the value at rest is still true
+    return r.e0 + (this.moveChance(opt.node) - p0) * r.c1 - this._evShift(r.key, r.k);
+  }
+  // the EDGE mark as it is rendered: one integer, one colour, computed in ONE place so the card,
+  // the sheet and the odds refresh can never print different numbers for the same move.
+  edgeMark(opt) {
+    const v = this.moveEdge(opt);
+    if (v == null) return null;
+    const i = Math.round(v) + 0;              // +0 normalises -0, which would otherwise print "-0"
+    return { v: v, i: i, txt: (i > 0 ? "+" : "") + i, col: this.potColor(i, NG_EDGE_SAT) };
+  }
+
+  // POTENTIAL: signed proximity-to-win the move unlocks (-1..1). Strong resulting position = +, worse position = -.
+  // NB the `if (n.ty === "submissions") return 1` shortcut is GONE (v1.118.0). It made every
+  // submission score the maximum, so the sort key was a constant across all of them and the
+  // 10-card cap then dealt the first ten ALPHABETICALLY — at side-control/top that dealt the
+  // hand's worst card (Kneebar, EDGE −17) and truncated its most-attempted move (Side Control to
+  // Mount, 23%). The hand no longer ranks on this function at all; the constant is deleted anyway,
+  // so nothing can re-inherit a flat ordering from it.
   movePotential(opt) {
     const n = opt.node;
-    if (n.ty === "submissions") return 1;                       // a finish IS the win
     const resIdx = opt.res;
     const resVal = resIdx >= 0 ? this.myVal(this.nodes[resIdx]) : this.myVal(n);   // -1..1 dominance where you land
     const onward = resIdx >= 0 ? (this.nodes[resIdx].deg || 0) : (n.deg || 0);
@@ -10441,7 +10655,24 @@ class Component extends DCLogic {
     }
     return this._freqMap[this.splitName(n.t).main] || 1;
   }
-  orderScore(opt) { return this.get("cardOrder", "potential") === "popularity" ? this.movePopularity(opt) : this.movePotential(opt); }
+  // the hand's ranking value. `null` from the EDGE branch means "this move has no value on the
+  // wire" — NOT zero, which is a real EDGE. _cmpDealt sorts those last, and never as a 0.
+  orderScore(opt) { return this.get("cardOrder", "potential") === "popularity" ? this.movePopularity(opt) : this.moveEdge(opt); }
+  // THE HAND'S ORDER IS FROZEN AT DEAL TIME. Every field this compares is a value stamped onto
+  // the opt by optionsFor at the moment the cards were dealt — never a live read. `moveChance`
+  // carries your drilling bonus, so a JIT grade taken mid-decision (which is a FEATURE: it moves
+  // the odds and the EDGE you can see) would otherwise re-rank the hand under the player's hand
+  // while they are reaching for a card. The displayed numbers move; the cards do not.
+  // Documented rank: EDGE desc → odds desc → attempt% desc → name asc, all four deterministic.
+  _cmpDealt(a, b) {
+    const av = a.ord, bv = b.ord;
+    if ((av == null) !== (bv == null)) return av == null ? 1 : -1;
+    if (av != null && av !== bv) return bv - av;
+    if (a.ordOdds !== b.ordOdds) return b.ordOdds - a.ordOdds;
+    const aa = (a.ev && a.ev.att) || 0, ba = (b.ev && b.ev.att) || 0;
+    if (aa !== ba) return ba - aa;
+    return a.node.t < b.node.t ? -1 : a.node.t > b.node.t ? 1 : 0;
+  }
   // resolve a cal.outcomes[].to (role-node slug "<pos>/top|bottom" | bare technique slug |
   // "game-over") to a node index. { idx:-1 } unresolved, { terminal:true } for game-over,
   // role = the authored landing role (top/bottom) for position targets.

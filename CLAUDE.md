@@ -1007,6 +1007,79 @@ prototype one, because staging any state tears the card down the same way.
 
 `Open Guard to Double Unders` scores `-0.113` for its attacker and arrives somewhere good: a mediocre technique into a strong position, which is a real and common shape. They share one palette and say so nowhere — a LABELLING gap, not a maths one. `buildOptionCard`/`expandOption` now read `myColor(n)` so the correctness is DERIVED rather than coincidental.
 
+**...AND THE GAP IS CLOSED BY DELETION — THE CARD SHOWS EDGE (v1.118.0, owner's decision).**
+
+**EDGE = `100 × ( Q(s,a) − B(s) )`, `B(s) = Σ attempt%(a′)·Q(s,a′)`** — how much better or worse this
+move is than the ORDINARY choice from where you are standing, where "ordinary" is the Q3 Delphi
+occurrence distribution: what people actually do. `0` is not "no value", it is *the normal thing to
+do here*. Q counts not just whether the move works but WHERE A MISS LEAVES YOU, out to the end of a
+real roll — so a 78%-odds move that hands over initiative can score below a 55% one that finishes.
+The build side (the 272-state MDP, `scripts/solve_edge_values.py`, and the `cal.ev` wire) shipped in
+v1.116.0/v1.117.0; this is the app reading it.
+- **THREE MARKS, TWO CHANNELS.** SHAPE = category (v1.103.6). COLOUR — glyph + clock bar + corner
+  number — = **EDGE**. Bottom-right = odds, which are an INPUT to EDGE, so one is inside the other
+  and they cannot contradict either. The technique's own strength leaves the card FACE entirely.
+  The middle slot's category word (redundant with the shape) becomes the caption **`Edge`**: an
+  unlabelled signed integer is exactly what makes a legitimate ranking read as a bug, and in **98 of
+  272 hands the best-EDGE card is not the best-odds card**.
+- **`potColor` saturates at 15 for EDGE** (`NG_EDGE_SAT`), not its historical 45 — measured over all
+  1246 emitted pairs, p5 −14 / median 0 / p95 +12, so on the 45 scale a whole hand renders one
+  indistinguishable grey. It is an optional second parameter; every pre-EDGE caller is byte-identical.
+- **THE WIRE SHIPS THE LINE, NOT THE POINT: `EDGE(p) = e0 + (p − p0)·c1 − Δ`.** `moveChance` is not a
+  constant — it is the calibrated rate plus your drilling, momentum, a wrong landing question and the
+  opponent's resistance — so a frozen integer would be EDGE at the authored odds and at no other
+  moment, and "drilling moves it" would be a lie.
+  · **`p0` is the SOLVE's frame (`evFrame`), NEVER `calSuccess`.** `calSuccess` selects by the ACTIVE
+    ruleset and the app defaults to **gi**, while the table is solved no-gi; **140 wire entries carry
+    a gi rate that differs**, so anchoring on `calSuccess` would put those cards off their published
+    value at rest with nothing done. Anchored on the frame, that difference rides through `c1` like
+    any other odds movement — which is what it is (median 1.9 EDGE points, max 27.6).
+  · **Δ IS THE BASELINE, RE-EVALUATED LIVE, AND IT IS NOT OPTIONAL.** `moveChance` subtracts `aiMod`,
+    a per-STATE handicap identical for every card in the hand — measured **0.2612 at
+    side-control/bottom** on a fresh profile (0.131 from the top player's own strength + 0.130
+    aiSkill; corpus median 0.132, max 0.432). Against a FROZEN baseline all seven cards there read
+    NEGATIVE, i.e. "every option here is worse than the ordinary choice here" — arithmetically
+    impossible for a weighted mean, and it would have shipped as the feature's headline hand. So the
+    baseline is recomputed over the state's FULL authored action set (the wire carries all 25 at
+    side-control/top where only 10 are dealt) at each move's live odds. Δ is 0 at rest, so a card
+    with no modifiers shows EXACTLY the solver's published integer, and **Σ att·EDGE = 0 holds at
+    every moment** (the emitted `e0` are attempt-weighted zero-mean to within 0.47 of a point).
+    What survives is the honest part: a uniform shift re-ranks by SLOPE, `e0 + Δp·(c1 − c̄1)`.
+- **MEMBERSHIP IS THE INDEX LIST.** `cal.ev[role] = [nodeIdxs, attemptPct, ...[e0,c1] per evLam]`,
+  expanded at the top of `ingest` beside the other compact-wire expansions. A node absent from
+  `nodeIdxs` has NO edge and renders **no number at all** — never a fabricated 0, because 0 is a real
+  value here. Measured over the 272 hands BEFORE the 10-cap: **100 gathered cards carry no wire
+  row** (gi-only moves zeroed in the no-gi solve, plus layout neighbours the role-node's
+  `transitions[]` never offers) and **19 wire rows never reach the gather at all** — a pre-existing
+  disagreement between `graph.json`'s `transitions[]` and `globalGraphLayout`'s adjacency, surfaced
+  by this join, not introduced by it.
+- **THE ORDER IS FROZEN AT DEAL TIME, AND THAT IS A HARD RULE.** `optionsFor` stamps `ord`
+  (`orderScore` → EDGE) and `ordOdds` once; `_cmpDealt` compares only stamped values —
+  **EDGE desc → odds desc → attempt% desc → name asc**, unvalued LAST and never as 0. A JIT grade
+  taken mid-decision MUST move the numbers (`refreshOptionOdds` → `_paintEdge` repaints corner,
+  glyph and bar from one `edgeMark`) and MUST NOT re-sort the tray a player is already reaching into.
+  `_optList` — which the 1-9 keys index — is the same frozen array.
+- **`movePotential`'s `if (n.ty === "submissions") return 1` IS DELETED.** It made every submission
+  score the maximum, so the sort key was a constant across all of them and the 10-cap then dealt the
+  first ten ALPHABETICALLY: at Mount Top, `Americana → Armbar → Cross Collar → Ezekiel → Kimura …`;
+  at side-control/top it dealt the hand's WORST card (Kneebar, −17) and truncated its most-attempted
+  move (Side Control to Mount, 23%). The function survives as the ESCAPE tray's corner value only —
+  an escape's options are POSITIONS, which the EDGE table cannot value, so that tray is deliberately
+  UNCHANGED (category word, own-strength glyph, landing-position potential).
+- **The `cardOrder` setting's "Potential" branch now means EDGE**; the "What matters more"
+  (`lossAversion`) control is NOT shipped yet — `_evLamIdx()` reads the key with `NG_EDGE_LAM = 2`
+  and falls back to the first block rather than guessing, because a wrong λ block is a silently
+  WRONG ranking, not a missing one.
+- **Live vs published:** across all 272 role-hands the opponent handicap leaves the **top card
+  unchanged in 241**, the **dealt ten unchanged in 267**, the full order in 181. The spec's §4.6
+  tables are AT-REST values and are reproduced exactly there (Frame from Side Control −12, Side
+  Control Escape +18); a live card differs because its odds differ, which is the feature.
+  One consequence worth knowing while the 10-cap stands: `Mount Control` is dealt 8th at rest and
+  slips to 11th live (it has mount's highest `c1`, 30 — the move that most depends on working), so
+  the spec's "best odds 78%, EDGE −1" example is not on screen until the cap goes.
+- Pinned by **`e2e/journeys/option-edge.spec.ts`** (8 journeys, 4 `@curated`), mutation-tested by
+  `tests/artifacts/_edge_mutants.sh`: seven mutants, seven kills.
+
 **OPEN, MEASURED, OWNER'S CALL — the GRAPH's position colours are top-relative.** `ingest` bakes `dom = n.s[0]` once per node, and for a POSITION `s[0]` is the TOP player's value. **85 of 136 positions (62%) have opposite-sign slots**, so while you play bottom the canvas paints them from your opponent's point of view under a palette whose stated meaning is "blue = good for you, red = good for the opponent" (`domColor`, and that IS how `myColor` uses it). Examples: `Side Control Top` `[+0.328, −0.712]`, `Reverse Mount Top` `[+0.380, −0.420]`. `myColor(n)` is the role-correct read and already exists; making the canvas use it is a visible change to the app's centrepiece (and a per-frame read), so it is deliberately NOT done here.
 
 **LANDING-CARD CHROME, FOUR OWNER REPORTS (v1.104.2).** Pinned by `e2e/journeys/landcard-chrome.spec.ts` (4 journeys, 2 `@curated`, `test.use` 390x844 — three of the four only bite on the phone).
