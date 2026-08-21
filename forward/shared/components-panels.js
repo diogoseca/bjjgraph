@@ -410,7 +410,6 @@ export function settingsModal({ tab = "Flashcards" } = {}) {
   const tabContent = {
     flashcards: `<div class="setting-row daily-goal" data-setting-row><span><b>Daily goal</b><small>Techniques to review or learn each day</small></span><input type="number" value="30" aria-label="Daily goal" /></div>
       ${settingChoices("Answer mode", "How cards read back HERE. Questions asked in-roll are always multiple choice — this sidebar is the study surface.", ["Classic recall", "Auto", "Multiple choice"])}
-      ${settingChoices("Study order", "Which cards to surface first", ["Weakest spots", "Newest", "Due first"])}
       ${settingChoices("Focus", "Shore up weaknesses, or sharpen strengths", ["Antifragile", "Converge"], 0, "<b>Antifragile</b> — a solid, well-rounded game. Surfaces cards from the spots you’re weakest.")}
       ${settingToggle("Show flashcards on pages", "Display a quiz pill on each technique")}`,
     rolling: `<div class="settings-section"><b>Rolling simulation</b><p>When you pick a move, a dice-roll plays out against an AI opponent — success depends on the move’s win % and your mastery.</p><div class="setting-pills"><button type="button">Off</button><button type="button" aria-pressed="true">Normal</button><button type="button" disabled>Hard</button><button type="button" disabled>Ultra</button></div></div>
@@ -418,7 +417,7 @@ export function settingsModal({ tab = "Flashcards" } = {}) {
       ${settingToggle("Questions while you roll", "Each state asks one multiple-choice question. Correct answers refund clock and build momentum.")}
       <div class="challenge-setting" data-setting-row><span><b>White Challenges</b><small>4 of 20 objectives done by doing them.</small></span><button type="button">Reset</button></div>
       ${settingChoices("Sound", "Synthesized feedback on every gameplay beat", ["On", "Off"])}
-      ${settingChoices("Option ordering", "How move options are ranked, left to right", ["Potential", "Popularity"])}`,
+      ${settingChoices("Sound volume", "How loud the beats land", ["Quiet", "Normal", "Loud"], 1)}`,
     modifiers:
       '<label class="modifier-search">Search modifiers<input type="search" placeholder="Athleticism, grip, fatigue..." /></label><div class="modifier-card"><span><b>Athleticism</b><small>Physical advantage</small></span><strong>50%</strong></div><div class="modifier-card"><span><b>Experience</b><small>Decision quality</small></span><strong>50%</strong></div>',
     shortcuts:

@@ -3791,15 +3791,18 @@ class Component extends DCLogic {
         this.renderSettings();
       });
       tu.appendChild(tb); body.appendChild(tu);
-      // option ordering
       body.appendChild(this.settingRow("Sound", "Synthesized feedback on every gameplay beat",
         [["On", "on"], ["Off", "off"]], "sound", "on"));
       body.appendChild(this.settingRow("Sound volume", "How loud the beats land",
         [["Quiet", "0.25"], ["Normal", "0.5"], ["Loud", "0.8"]], "soundVolume", "0.5"));
-      body.appendChild(this.settingRow("Option ordering", "How the move options are ranked, left to right",
-        [["Potential", "potential"], ["Popularity", "popularity"]], "cardOrder", "potential",
-        { potential: '<b style="color:#cbd4e6;">Potential</b> &mdash; a Bayesian estimate blending how likely you are to land the move, how strong the resulting position is, and how many follow-ups it opens. The highest-leverage move sits first.',
-          popularity: '<b style="color:#cbd4e6;">Popularity</b> &mdash; how often the move gets picked from here across rolls. Common, well-trodden paths sit first.' }));
+      // (the "Option ordering" row was RETIRED in v1.122.0, owner's decision. It offered
+      // Potential / Popularity; `orderScore` forked on it but `edgeMark` did not, so choosing
+      // Popularity re-ranked the hand while every card still printed EDGE — measured, 211 of the
+      // 270 live hands printed their corner integers OUT of descending order, one click from the
+      // default. And the control was over almost nothing: across those same 270 hands the setting
+      // changed the dealt SET in 16, while re-ordering 223 of them. `cardOrder` is now DORMANT —
+      // written by no one, read by no one, and deliberately NOT pruned from stored blobs; see the
+      // tombstone on orderScore for why a settings key cannot be deleted at all.)
     } else if (tab === "modifiers") {
       this.buildModifiers(body);
     } else {
@@ -10518,7 +10521,6 @@ class Component extends DCLogic {
     // momentumMod: the combo meter heats the WHOLE hand (+2.5%/tier, cap +10%).
     return Math.max(0.05, Math.min(0.95, base + playerMod - aiMod + (this._qMod || 0) + this.momentumMod()));
   }
-  _hash01(i) { const x = Math.sin((i + 1) * 12.9898) * 43758.5453; return x - Math.floor(x); }
   // a per-technique success override (0..1) set via the card steppers / Your modifiers panel, or null if none active
   successOverride(act) {
     if (!this.userMods) return null;
@@ -10666,34 +10668,35 @@ class Component extends DCLogic {
     const p = resVal * 0.88 + (resVal >= 0 ? reach * 0.12 : 0);   // follow-ups only sweeten an already-good spot
     return Math.max(-1, Math.min(1, p));
   }
-  // POPULARITY: how often the move gets picked from here (a stable, graph-derived pick rate)
-  movePopularity(opt) {
-    const n = opt.node;
-    const resIdx = opt.res;
-    const hub = resIdx >= 0 ? (this.nodes[resIdx].deg || 0) : (n.deg || 0);
-    const self = n.deg || 0;
-    const base = Math.min(1, (self * 0.6 + hub * 0.4) / 15);
-    const typeAdj = n.ty === "submissions" ? -0.05 : 0.03;
-    return Math.max(0.03, Math.min(1, base * 0.8 + this._hash01(n.idx) * 0.2 + typeAdj));
-  }
-  // ON-MAP frequency: from how many positions across the graph this technique shows up
-  mapFreq(n) {
-    if (!this._freqMap) {
-      const byName = {};
-      this.nodes.forEach((nd, i) => { if (nd.ty === "positions") return; const key = this.splitName(nd.t).main; (byName[key] = byName[key] || []).push(i); });
-      const m = {};
-      for (const key in byName) {
-        const posSet = new Set();
-        for (const i of byName[key]) for (const k of this.adj[i]) if (this.nodes[k].ty === "positions") posSet.add(k);
-        m[key] = Math.max(byName[key].length, posSet.size);
-      }
-      this._freqMap = m;
-    }
-    return this._freqMap[this.splitName(n.t).main] || 1;
-  }
-  // the hand's ranking value. `null` from the EDGE branch means "this move has no value on the
-  // wire" — NOT zero, which is a real EDGE. _cmpDealt sorts those last, and never as a 0.
-  orderScore(opt) { return this.get("cardOrder", "potential") === "popularity" ? this.movePopularity(opt) : this.moveEdge(opt); }
+  // ── THE HAND IS RANKED BY THE NUMBER IT PRINTS. THERE IS NO SECOND MODE (v1.122.0) ────────
+  // `null` means "this move has no value on the wire" — NOT zero, which is a real EDGE.
+  // _cmpDealt sorts those last, and never as a 0.
+  //
+  // RETIRED HERE, owner's decision: `orderScore` used to fork on the `cardOrder` setting —
+  //   `this.get("cardOrder","potential") === "popularity" ? this.movePopularity(opt) : this.moveEdge(opt)`
+  // — while `edgeMark` did not fork at all. So `Popularity` ranked the tray by one quantity and
+  // printed another on every card. MEASURED over the 270 live role-hands
+  // (`tests/artifacts/_edge_cardorder_probe.mjs`): under the default, 0 hands print an EDGE that
+  // runs out of descending order; under Popularity, 211 do — worst `back-control/bottom`,
+  // [-6,-20,+6,+8,-2,+14,+17,+19], the +19 card dealt LAST. That is exactly the "a legitimate
+  // ranking reads as a bug" failure the `Edge` caption exists to prevent, one settings click from
+  // the default. The other half of the owner's call is also measured: the setting changed the
+  // dealt SET in only 16 of those 270 hands while re-ordering 223 — control over the ORDER of
+  // almost everything and over the action space of almost nothing.
+  //
+  // `movePopularity` went with it (its only caller), and `_hash01` with that (its only caller —
+  // a `Math.sin` hash whose whole job was jittering a placeholder pick rate), and the already
+  // dead `mapFreq` was swept in the same pass. `movePotential` STAYS: it is the escape tray's
+  // corner value, and an escape's options are POSITIONS, which the EDGE table cannot value.
+  //
+  // THE STORED KEY IS DORMANT, AND THAT IS THE ONLY AVAILABLE ANSWER. A profile that saved
+  // `cardOrder:"popularity"` keeps it in its blob forever and nothing reads it — the same shape
+  // as `studyOrder` (v1.105.0) and `challengePinnedTrack` (v1.99.2). Pruning it on load would be
+  // theatre: `_pullAndMerge`'s per-key settings merge has NO TOMBSTONE — its condition is
+  // `if (!(sk in merged) || ct > lt)`, so a key deleted locally is unconditionally RE-ADDED by
+  // the first pull from any device that still carries it. Deletion is not expressible in this
+  // blob, so the honest handling is to stop reading the key, not to pretend it is gone.
+  orderScore(opt) { return this.moveEdge(opt); }
   // THE HAND'S ORDER IS FROZEN AT DEAL TIME. Every field this compares is a value stamped onto
   // the opt by optionsFor at the moment the cards were dealt — never a live read. `moveChance`
   // carries your drilling bonus, so a JIT grade taken mid-decision (which is a FEATURE: it moves

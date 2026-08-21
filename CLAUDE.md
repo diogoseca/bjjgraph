@@ -1071,10 +1071,10 @@ anything that feeds EDGE.**
   move (Side Control to Mount, 23%). The function survives as the ESCAPE tray's corner value only —
   an escape's options are POSITIONS, which the EDGE table cannot value, so that tray is deliberately
   UNCHANGED (category word, own-strength glyph, landing-position potential).
-- **The `cardOrder` setting's "Potential" branch now means EDGE**; the "What matters more"
-  (`lossAversion`) control is NOT shipped yet — `_evLamIdx()` reads the key with `NG_EDGE_LAM = 2`
-  and falls back to the first block rather than guessing, because a wrong λ block is a silently
-  WRONG ranking, not a missing one.
+- **`orderScore` IS `moveEdge`, full stop** — the `cardOrder` setting it used to fork on is RETIRED
+  (v1.122.0; see the block below). The "What matters more" (`lossAversion`) control is NOT shipped
+  yet — `_evLamIdx()` reads the key with `NG_EDGE_LAM = 2` and falls back to the first block rather
+  than guessing, because a wrong λ block is a silently WRONG ranking, not a missing one.
 - **Live vs published:** across all 272 role-hands the opponent handicap leaves the **top card
   unchanged in 241**, the **dealt ten unchanged in 267**, the full order in 181. The spec's §4.6
   tables are AT-REST values and are reproduced exactly there (Frame from Side Control −12, Side
@@ -1324,29 +1324,66 @@ performs, failure/counter → the opponent does). Switching to "the actor always
 `V(mount/top)` and `V(side-control/bottom)` by **less than 1e-4**, so it is settled empirically, not
 by argument. (c) **The wire is the horizon MIXTURE, the tables are H=11.**
 
-**COPY THAT IS NOW FALSE AND IS *NOT* FIXED HERE.** Settings → Rolling → **"Option ordering"** still
-offers `Potential` / `Popularity` and describes Potential as *"a Bayesian estimate blending how
-likely you are to land the move, how strong the resulting position is, and how many follow-ups it
-opens"*. That is a description of `movePotential`, which the hand **no longer ranks by** — the
-`"potential"` branch of `orderScore` is `moveEdge`. The label and its explainer are stale.
+**THE `cardOrder` SETTING IS RETIRED — THE SETTING GOES, NOT THE SECOND MODE (v1.122.0, owner's
+decision).** Settings → Rolling → "Option ordering" offered `Potential` / `Popularity`.
+`orderScore` forked on it; **`edgeMark` did not.** So `Popularity` ranked the tray by
+`movePopularity` — a placeholder graph-derived pick rate, jittered by a `Math.sin` hash — while
+every card went on printing its EDGE. Measured over all 270 live role-hands
+(`tests/artifacts/_edge_cardorder_probe.mjs`, against the served bundle): under the default,
+**0 hands** print an EDGE that runs out of descending order; under `Popularity`, **211 do**. Worst
+case `back-control/bottom` printed `[−6, −20, +6, +8, −2, +14, +17, +19]` — the corner numbers climb
+as you read down the tray and the `+19` card is dealt LAST. That is exactly the "a legitimate
+ranking reads as a bug" failure the `Edge` caption exists to prevent, one settings click from the
+default.
+- **Why retire rather than repair.** Owner: the sort only changes the dealt set in a handful of
+  hands, so control over it is control over almost nothing. Measured on the same walk: the choice
+  changed the dealt **SET in 16** of the 270 hands, while re-ordering **223** and changing the top
+  card in **190**. It re-ranked nearly every hand and widened the action space in almost none.
+- **Deleted:** the Settings row and its explainer, `movePopularity` (its only caller was the fork)
+  and `_hash01` (its only caller was `movePopularity`), plus the already-dead `mapFreq`/`_freqMap`.
+  `orderScore(opt)` is now `return this.moveEdge(opt)`. **`movePotential` STAYS** — it is the ESCAPE
+  tray's corner value, and an escape's options are POSITIONS, which the EDGE table cannot value.
+- **The false explainer went with the row, and it was false BEFORE EDGE.** It described Potential as
+  *"a Bayesian estimate blending how likely you are to land the move, how strong the resulting
+  position is, and how many follow-ups it opens"* — but `movePotential` never read the odds at all
+  (it reads the LANDING node's `myVal` and its `deg`), and by v1.118.0 the branch was `moveEdge`
+  anyway. Nothing replaces it: the card's `Edge` caption is the app's only claim about the ranking,
+  and inventing a fresh sentence for a control that no longer exists would be a third thing to keep
+  true. (The spec's `.ng-seemore` legend line is still NOT BUILT — see ALSO NOT BUILT below.)
+- **A SETTINGS KEY CANNOT BE DELETED, so `cardOrder` is DORMANT — not pruned.** A profile that saved
+  `"popularity"` keeps the key forever and nothing reads it. Pruning on load would be theatre:
+  `_pullAndMerge`'s per-key settings merge has **no tombstone** — `if (!(sk in merged) || ct > lt)`
+  — so a key deleted locally is unconditionally RE-ADDED by the first pull from any device that
+  still carries it, exactly like the add-wins list merge. Same shape as `studyOrder` (v1.105.0) and
+  `challengePinnedTrack` (v1.99.2); this repo's answer is to stop READING the key and say so where
+  the reader used to be.
+- Pinned by **two journeys in `e2e/journeys/option-edge.spec.ts`** which boot a profile that really
+  has `cardOrder:"popularity"` in its blob: one walks all 270 hands and asserts (a) `orderScore(o)`
+  is bit-identical to `moveEdge(o)` on every dealt card, (b) 0 hands print out of descending order,
+  (c) flipping the dormant key moves no hand; the other opens Settings → Rolling and asserts the row
+  and both its choices are gone, the "Bayesian" sentence is nowhere in the modal, and the tab still
+  renders its other rows. Three mutants, three kills — restoring the fork splits **270 of 270** hands
+  and mis-orders **216**; restoring the row fails on the label; and `Math.round`-ing the sort key
+  splits **265 of 270** while leaving the printed order *and* the inert-key check green, which is why
+  assertion (a) exists and is not decoration. (216 vs the probe's 211: the journey pins
+  `aiSkill = 0.13` and a bonus-free state key, the probe reads live browser defaults. Same
+  contradiction, two conditions — both are stated rather than one being rounded to the other.)
+- **`replay-digest` is UNCHANGED (`af3588835ad1c6b6`) and that is not the evidence.** The default was
+  `"potential"`, so `orderScore` already returned `moveEdge` for every profile that never touched the
+  setting, and no digest spec sets `cardOrder` — the digest is STRUCTURALLY unable to see this
+  change. What it does confirm is the absence of an accidental side effect from the deletions. The
+  corpus walk above is the evidence.
+- The **Forward catalog's** settings mock (`forward/shared/components-panels.js`,
+  `forward/shared/fixtures.js`) rendered the retired row too. It is a DESIGN mock with no parity gate
+  against `renderSettings` — `check_forward_catalog.mjs` only checks that frames render — so retired
+  rows survive there by default: "Study order" had been stale since v1.105.0. Both are removed and
+  the reason is recorded in `fixtures.js`. **Treat the catalog as unguarded.**
 
-**AND ITS OTHER OPTION IS WORSE THAN STALE — `Popularity` PRINTS A RANKING IT DOES NOT USE.**
-`orderScore` forks on `cardOrder`, but `edgeMark` does not: with `Popularity` selected the hand is
-sorted by `movePopularity` while every card still shows its EDGE. MEASURED over all 270 live hands
-(`tests/artifacts/_edge_cardorder_probe.mjs`): under `Potential`, **0 hands** print an EDGE that
-runs out of descending order; under `Popularity`, **211 of 270 do**. Worst case
-`back-control/bottom` prints `[−6, −20, +6, +8, −2, +14, +17, +19]` — the corner numbers climb as
-you read down the tray and the `+19` card is dealt LAST. That is precisely the "a legitimate ranking
-reads as a bug" failure the `Edge` caption exists to prevent, one settings click from the default.
-Whoever fixes the copy fixes this in the same pass: either `Popularity` suppresses the EDGE mark
-(the wire-absent rule already exists — render nothing, never a fabricated number), or the setting
-goes. **Do not ship the λ dial next to a sibling row that contradicts it.**
-
-The `lossAversion` dial that ought to live beside them ("What matters more: Winning / Balanced / Not
-getting caught", λ ∈ 1|2|4, the wire already carries all three blocks) is **not built** —
-`_evLamIdx()` reads the key with `NG_EDGE_LAM = 2` and falls back to the first block rather than
-guessing, because a wrong λ block is a silently WRONG ranking, not a missing one. Fixing the copy
-and shipping the dial is one job, and it is the next one.
+The `lossAversion` dial that ought to live in that Rolling tab ("What matters more: Winning /
+Balanced / Not getting caught", λ ∈ 1|2|4, the wire already carries all three blocks) is **not
+built** — `_evLamIdx()` reads the key with `NG_EDGE_LAM = 2` and falls back to the first block rather
+than guessing, because a wrong λ block is a silently WRONG ranking, not a missing one. It is now
+unblocked: the sibling row that would have contradicted it is gone.
 
 **ALSO NOT BUILT** from the spec, so nobody hunts for it: the primary/tail band (`EDGE ≤ −3` →
 "rarely the right call"), the live-band decision clock, un-hiding `.ng-seemore` on mobile, the

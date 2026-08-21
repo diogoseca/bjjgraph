@@ -489,11 +489,15 @@ export const corridorLessons = [
   { title: "Rear Naked Choke from Back", cat: "submission", crown: 0, done: false },
 ];
 
+// NB the catalog is a DESIGN mock, not a mirror of renderSettings, and nothing gates the two
+// against each other — so a retired row survives here until someone deletes it by hand. Two were
+// found doing exactly that: "Study order" (the app's `studyOrder`, deleted v1.105.0 — due-first is
+// behaviour, not a preference) and "Option ordering" (`cardOrder`, retired v1.122.0 — it ranked
+// the hand by one quantity while every card printed another).
 export const settings = {
   Flashcards: [
     "Daily goal",
     "Answer mode",
-    "Study order",
     "Focus",
     "Show flashcards on pages",
   ],
@@ -502,7 +506,6 @@ export const settings = {
     "Questions while you roll",
     "Sound",
     "Sound volume",
-    "Option ordering",
   ],
   Modifiers: ["Athleticism", "Experience", "Ruleset", "Round length"],
   Shortcuts: [
