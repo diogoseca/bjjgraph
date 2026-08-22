@@ -418,6 +418,43 @@ class Component extends DCLogic {
       e.preventDefault();
       orow.scrollLeft += d;
     }, { passive: false });
+    // ── AND A MOUSE CAN DRAG IT (v1.129.1) ────────────────────────────────────────────────────
+    // Owner: "Seems like I'm not able to scroll the options horizontally anymore. Either dragging
+    // or horizontally scrolling is not working." The wheel above works (measured: a vertical
+    // wheel moved `scrollLeft` 0 -> 351 and a horizontal one -> 675). **Dragging never has**:
+    // measured 0 -> 0 across a 600px press-and-drag, because no browser drag-scrolls an
+    // `overflow-x: auto` element with a mouse. v1.123.0 built a drag for this and reverted it —
+    // correctly, because it was written for TOUCH, where the browser already scrolls natively and
+    // its own mutants therefore could not kill its test. Mouse is the case that is genuinely
+    // broken and genuinely testable, so this is mouse-only: `pointerType === "mouse"`, leaving
+    // touch to the platform.
+    if (orow) {
+      let dragX = 0, dragFrom = 0, dragging = false, dragMoved = 0;
+      orow.addEventListener("pointerdown", (e) => {
+        if (e.pointerType !== "mouse" || e.button !== 0) return;
+        dragging = true; dragMoved = 0; dragX = e.clientX; dragFrom = orow.scrollLeft;
+      });
+      orow.addEventListener("pointermove", (e) => {
+        if (!dragging || e.pointerType !== "mouse") return;
+        const d = e.clientX - dragX;
+        if (Math.abs(d) > 3) {
+          dragMoved = Math.max(dragMoved, Math.abs(d));
+          orow.scrollLeft = dragFrom - d;
+          orow.style.cursor = "grabbing";
+        }
+      });
+      const endDrag = () => { dragging = false; orow.style.cursor = ""; };
+      orow.addEventListener("pointerup", endDrag);
+      orow.addEventListener("pointercancel", endDrag);
+      orow.addEventListener("pointerleave", endDrag);
+      // A DRAG IS NOT A PICK. Capture phase, so it runs before the card's own handler: without it
+      // every drag that ends over a card would COMMIT that move, which is worse than not being
+      // able to scroll at all.
+      orow.addEventListener("click", (e) => {
+        if (dragMoved > 6) { e.stopPropagation(); e.preventDefault(); }
+        dragMoved = 0;
+      }, true);
+    }
     // modal: card blocks pan + wheel; backdrop click closes
     if (this.modalCardRef.current) { this.modalCardRef.current.addEventListener("pointerdown", (e) => e.stopPropagation()); this.modalCardRef.current.addEventListener("wheel", (e) => e.stopPropagation(), { passive: false }); }
     if (this.modalRef.current) this.modalRef.current.addEventListener("pointerdown", (e) => { e.stopPropagation(); this._detailCtx = null; this.setPaused(false); this.closeModal(); });
@@ -3385,7 +3422,7 @@ class Component extends DCLogic {
       // padding-right clears the corner pair (+ and ✕, ~56px) — the potential is right-aligned in
       // this same row and the two were drawing on top of each other ("+-30")
       '<div style="display:flex;align-items:center;gap:9px;margin-bottom:10px;padding-right:60px;">' + this.nodeGlyph(n.ty, col, 11) +
-        '<span style="flex:1;min-width:0;font-size:10.5px;letter-spacing:.16em;text-transform:uppercase;font-weight:700;color:#9fb0d8;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">' + (edge ? "Edge" : cat) + '</span>' +
+        '<span style="flex:1;min-width:0;font-size:10.5px;letter-spacing:.16em;text-transform:uppercase;font-weight:700;color:#9fb0d8;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">' + cat + '</span>' +
         (edge
           ? '<span class="ngedgebig" style="flex:none;font-size:19px;font-weight:700;color:' + edge.col + ';font-family:\'Space Grotesk\',sans-serif;line-height:1;">' + edge.txt + '</span>'
           : '') +
@@ -8738,7 +8775,19 @@ class Component extends DCLogic {
     // them the odds gap exceeds 15pp. `SUBMISSION` (10 chars) → `EDGE` (4) costs no height and no
     // new row. A card with no wire value keeps the category word, because there is no number for a
     // caption to name.
-    const headMid = edge ? "Edge" : (n.ty === "positions" ? "Position" : n.ty === "submissions" ? "Submission" : "Transition");
+    // ── THE MIDDLE SLOT NAMES THE MOVE'S KIND, NOT THE METRIC (v1.129.1, owner's decision) ────
+    // v1.118.0 replaced the category word here with the caption "Edge", reasoning that an
+    // unlabelled signed integer reads as a bug and that the SHAPE already carries the category.
+    // The owner, living with it: "'edge' doesn't give us any information saying that. I'd rather
+    // you say 'submission position transition' or whatever." Offered the alternatives, they chose
+    // the category word with the number bare — i.e. the pre-v1.118.0 face.
+    //
+    // WHAT THIS GIVES UP, on the record: the corner integer is unlabelled again on the card face.
+    // That was a real concern, not a stylistic one — in 98 of 272 hands the best-EDGE card is not
+    // the best-odds card, so a legitimate ranking can read as a defect. It is the owner's call and
+    // the shape/colour channels are unchanged; the number is still explained in the option-detail
+    // sheet. Do not silently reinstate "Edge" here.
+    const headMid = n.ty === "positions" ? "Position" : n.ty === "submissions" ? "Submission" : "Transition";
     const headVal = edge
       ? '<span class="ngedge" style="flex:none;font-size:13px;font-weight:700;color:' + edge.col + ';">' + edge.txt + '</span>'
       : (isEsc ? '<span style="flex:none;font-size:13px;font-weight:700;color:' + this.potColor(pot) + ';">' + (pot > 0 ? "+" : "") + pot + '</span>' : '');
@@ -12046,9 +12095,31 @@ class Component extends DCLogic {
       else if (ptrs.size === 0) {
         const card = this.nodeCardRef && this.nodeCardRef.current;
         const inCard = card && card.style.display !== "none" && e && card.contains(e.target);
-        // tapping a node ROAMS to it (stages a paused roll there); tapping the one you're already
-        // on reads it instead. Empty space closes whatever is open.
-        if (dragging && moved < 5 && e && !inCard) { this._updateHover(e); if (this._hover && this._hover.idx >= 0) { if (this._hover.idx === this.currentPos) this.openDossier(this._hover.idx); else this.stageRollAt(this._hover.idx); } else { this._tapBackground(); } }
+        // ── A TAP IS ROUTED BY WHAT YOU TAPPED (v1.129.1) ──────────────────────────────────
+        // Owner: "Can't seem to be able to click any submissions or transitions in the graph. When
+        // I click it, it seems to always go to an adjacent or nearby position."
+        //
+        // THIS COMMENT USED TO SAY "tapping a node ROAMS to it; tapping the one you're already on
+        // reads it instead" — a two-branch rule written BEFORE v1.101.5 added a third, and the
+        // handler was never updated. So every node that was not your own went to `stageRollAt`,
+        // and `rollFromPosition` deliberately hops a technique to its ORIGIN POSITION
+        // (`techniqueOrigin`, v1.126.0) — correct for "play from here", exactly wrong for "open
+        // this". Measured: tapping `Float Passing` landed on `Open Guard Top` with the card in
+        // "land" mode, i.e. a card about the position, not the technique that was tapped.
+        //
+        // `openDossier` has carried the right three-way rule since v1.101.5 (technique -> the
+        // "attempt" card; another position -> stage; your own node -> rebuild), so a TECHNIQUE
+        // simply routes there. A POSITION deliberately keeps calling `stageRollAt` directly:
+        // going through `openDossier` would also unfold the card and take a `_dossierAutoPaused`
+        // latch on every roam, which is a different feature from the one being fixed.
+        if (dragging && moved < 5 && e && !inCard) {
+          this._updateHover(e);
+          if (this._hover && this._hover.idx >= 0) {
+            const hitNode = this.nodes[this._hover.idx];
+            if (this._hover.idx === this.currentPos || (hitNode && hitNode.ty !== "positions")) this.openDossier(this._hover.idx);
+            else this.stageRollAt(this._hover.idx);
+          } else { this._tapBackground(); }
+        }
         dragging = false; el.style.cursor = "grab";
       }
       this.lastInteract = this.now;
@@ -12601,6 +12672,10 @@ class Component extends DCLogic {
         ctx.fillStyle = this.rgba({ r: 240, g: 243, b: 248 }, A);
         ctx.fillText(name, ox, sy + (big ? 11 : 9));
         ctx.shadowBlur = 0;
+        // published for the same reason `_lastPairLabel` is: this is canvas text with no DOM to
+        // query, and the anchor comes from `halfW`, a draw-local closure. Reading the strings the
+        // frame passed to `fillText` is the render's OUTPUT, not a re-derivation of its logic.
+        this._lastRichLabel = { idx: idx, kicker: role, name: name, big: !!big };
       };
       // active move during travel: "ATTACKING / Triangle Choke" etc.
       if (this.pulse && this.activeMove) {
@@ -12711,6 +12786,7 @@ class Component extends DCLogic {
       // cleared every frame so `_lastPairLabel` answers "did the group draw THIS frame", which is
       // what a merge-scale assertion needs; a sticky value would report the last time it drew.
       this._lastPairLabel = null;
+      this._lastRichLabel = null;
       // the live hover, resolved once — both the focus group and the roaming one read it
       const _hovNode = (this._hover && this._hover.idx >= 0 && this.now - (this._hover.t || 0) < 0.5)
         ? this.nodes[this._hover.idx] : null;
@@ -12721,11 +12797,21 @@ class Component extends DCLogic {
         // a pair too merged to carry the group still needs naming — fall through to the single
         // label rather than leaving the state you are standing in anonymous.
         if (!partner || !pairGroup(n, act, true)) {
-          // the kicker the deleted in-node pass carried: category, plus the side YOU are playing.
+          // THE KICKER NAMES THE SIDE, NOT THE CATEGORY (v1.129.1). Owner, zoomed out: "the
+          // subtitle instead of saying 'top', it says 'position: top', and that position is
+          // irrelevant. I mean, it's saying that it's a position before saying 'top'."
+          //
+          // Right, and the graph already answers it: SHAPE is the category vocabulary — circle =
+          // position, triangle = submission, diamond = transition (v1.103.6), shared by
+          // `nodeGlyph` and the canvas `draw()`. Printing the word next to the shape that means
+          // it is the same "stated twice" defect the in-node pass was deleted for. The ROLE is
+          // the part no shape carries, so it is the part that gets written. Category survives
+          // only where there is no role to name.
           const nm = n.ty === "positions" ? this.posFamily(n.t) : this.displayName(n);
           const rl = this.roleLabel();
-          const kick = (n.ty === "positions" ? "POSITION" : n.ty === "submissions" ? "SUBMISSION" : "TRANSITION")
-            + (rl ? " · " + String(rl).toUpperCase() : "");
+          const kick = rl
+            ? String(rl).toUpperCase()
+            : (n.ty === "positions" ? "POSITION" : n.ty === "submissions" ? "SUBMISSION" : "TRANSITION");
           richLabel(this.focusIdx, kick, this.myColor(n), nm, true);
         }
       }

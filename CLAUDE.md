@@ -1474,6 +1474,61 @@ old beat name; the clamp removed; no qualifier line; the group printing the inli
 > (`jit-loop`'s "expiry narrates 3-2-1 and auto-picks with a pop") only surfaced when the full
 > suite went red. Never pipe the survey that decides a rename through `head`.
 
+### FOUR OWNER REPORTS FROM ONE SITTING (v1.129.1)
+
+**1. TAPPING A SUBMISSION OR TRANSITION MOVED YOU INSTEAD OF OPENING IT.** Owner: *"Can't seem to
+be able to click any submissions or transitions in the graph. When I click it, it seems to always
+go to an adjacent or nearby position."* The tap handler's own comment gave it away — *"tapping a
+node ROAMS to it; tapping the one you're already on reads it instead"* — a **TWO-branch rule
+written before v1.101.5 added a third**, and never updated. So every node that was not your own
+went to `stageRollAt`, and `rollFromPosition` deliberately hops a technique to its ORIGIN POSITION
+(`techniqueOrigin`, v1.126.0): correct for *play from here*, exactly wrong for *open this*.
+Measured: tapping `Float Passing` from Side Control Top landed on `Open Guard Top`, card in `land`
+mode — about a position the player never tapped. A technique now routes to `openDossier`, which has
+carried the right three-way rule since v1.101.5. **A POSITION deliberately still calls
+`stageRollAt` directly**: routing it through `openDossier` would also unfold the card and take a
+`_dossierAutoPaused` latch on every roam, which is a different feature from the one being fixed.
+
+**2. THE HAND COULD NOT BE DRAGGED.** Owner: *"Either dragging or horizontally scrolling is not
+working."* Measured separately, because the two halves had different answers: **the WHEEL was
+fine** (a vertical wheel moved `scrollLeft` 0 → 351, a horizontal one → 675 — v1.123.0's handler
+working as written); **dragging had never worked**, 0 → 0 across a 600px press-and-drag, because no
+browser drag-scrolls an `overflow-x: auto` element with a mouse. v1.123.0 built a drag for this and
+reverted it — **correctly**, because that one was written for TOUCH, where the browser already
+scrolls natively and its own mutants therefore could not kill its test. This one is **mouse-only**
+(`pointerType === "mouse"`), leaving touch to the platform, which makes it both the broken case and
+the testable one. **A DRAG IS NOT A PICK**: a capture-phase `click` suppressor fires when the
+gesture moved >6px, because without it every drag ending over a card would COMMIT that move —
+worse than not being able to scroll at all.
+
+**3. THE FOCUS KICKER SAID THE CATEGORY BEFORE THE SIDE.** Owner, zoomed out: *"instead of saying
+'top', it says 'position: top', and that position is irrelevant."* Right: SHAPE is the category
+vocabulary (circle / triangle / diamond, v1.103.6), so the word beside the shape that means it is
+the same "stated twice" defect the in-node pass was deleted for. The kicker is now the ROLE alone;
+the category survives only where there is no role to name. Visible only at MERGE scale, where
+`pairGroup` stands down (v1.128.0) and the focus falls through to `richLabel`.
+
+**4. THE OPTION CARD NAMES THE MOVE'S KIND AGAIN — AND THIS REVERSES v1.118.0.** Owner: *"'edge'
+doesn't give us any information saying that. I'd rather you say 'submission position transition' or
+whatever."* Offered four card faces, they chose **category word, number bare** — the pre-v1.118.0
+face.
+> **WHAT IT GIVES UP, ON THE RECORD.** v1.118.0 introduced the `Edge` caption precisely because
+> *an unlabelled signed integer is what makes a legitimate ranking read as a bug*, and in **98 of
+> 272 hands the best-EDGE card is not the best-odds card**. That concern is real and is now
+> re-opened on the card FACE; the number is still explained in the option-detail sheet, and the
+> shape/colour channels are unchanged. **It is the owner's call. Do not silently reinstate "Edge".**
+
+**THE RENDERER PUBLISHES WHAT IT DREW — NOW FOR BOTH CANVAS LABEL PATHS.** `_lastRichLabel` joins
+`_lastPairLabel` (v1.129.0); both are cleared every frame so they answer "what did THIS frame
+draw". The kicker fix had no other honest oracle: it is canvas text with no DOM to query, anchored
+off `halfW`, a draw-local closure. **Mutation-measured: the kicker mutant SURVIVED the first
+red-proof pass** because no journey covered it — the same "a probe is not a gate" lesson as
+v1.128.1's mobile framing, two versions running.
+
+**Gated by** `roll-card.spec.ts` (+2 `@curated`), `graph-naming.spec.ts` (+1 `@curated`), and
+`option-edge.spec.ts`'s caption journey rewritten to assert the category **per card type**, so a
+build printing one constant for everything still fails. **Five mutants, five kills.**
+
 ### THE PAIR JOURNEYS COME HOME (v1.127.0)
 
 **A SPEC THAT NEEDS A GITIGNORED PAYLOAD IS NOT A GATE — IT IS A NOTE.** The three v1.114.x

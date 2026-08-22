@@ -814,3 +814,49 @@ test("@curated a qualified technique name is drawn as two lines, not one long on
   ).toBeGreaterThan(30)
 
 })
+
+/**
+ * THE FOCUS KICKER NAMES THE SIDE, NOT THE CATEGORY (v1.129.1). @curated
+ *
+ * Owner, zoomed out: "the subtitle instead of saying 'top', it says 'position: top', and that
+ * position is irrelevant. I mean, it's saying that it's a position before saying 'top'."
+ *
+ * Right — and the graph already answers it. SHAPE is the category vocabulary (circle = position,
+ * triangle = submission, diamond = transition, v1.103.6), shared by `nodeGlyph` and the canvas
+ * `draw()`. Printing the word beside the shape that means it is the same "stated twice" defect the
+ * in-node pass was deleted for in v1.114.0. The ROLE is the part no shape carries.
+ *
+ * This only shows at MERGE scale, where `pairGroup` stands down (v1.128.0) and the focus falls
+ * through to `richLabel` — which is exactly the state the owner was looking at.
+ */
+test("@curated zoomed out, the focus label says the side and not the category", async ({ page }) => {
+  const j = journey(page)
+  await j.boot("/Positions/Side-Control/Bottom")
+  await j.advance(6000)
+
+  await page.mouse.move(page.viewportSize()!.width * 0.25, page.viewportSize()!.height * 0.18)
+  for (let i = 0; i < 24; i++) {
+    await page.mouse.wheel(0, 500)
+    await j.advance(120)
+  }
+  await j.advance(200)
+
+  const m = await page.evaluate(() => {
+    const a: any = (window as any).__neural
+    return { lodK: a._lodK, rich: a._lastRichLabel, pair: a._lastPairLabel, role: a.roleLabel() }
+  })
+  expect(m.lodK, "we are at merge scale, where the group stands down").toBeLessThan(0.5)
+  expect(m.pair, "…so no pair group is drawn").toBeFalsy()
+  expect(m.rich, "and the focus is named by the single rich label").toBeTruthy()
+  expect(m.role, "the roll has a side to name").toBeTruthy()
+
+  expect(
+    m.rich.kicker.toUpperCase(),
+    `the kicker is just the side (drew "${m.rich.kicker}")`,
+  ).toBe(String(m.role).toUpperCase())
+  for (const w of ["POSITION", "SUBMISSION", "TRANSITION"])
+    expect(
+      m.rich.kicker.toUpperCase(),
+      `and never names the category — the shape already does (drew "${m.rich.kicker}")`,
+    ).not.toContain(w)
+})

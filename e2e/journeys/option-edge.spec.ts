@@ -42,6 +42,13 @@ const cardEdges = (page: any) =>
   page.evaluate(() =>
     [...document.querySelectorAll("[data-tech]")].map((c: any) => ({
       tech: c.getAttribute("data-tech"),
+      // the node's real type, so the caption can be checked PER CARD rather than against one
+      // constant — a build that printed "Transition" on everything would otherwise pass
+      ty: (() => {
+        const a: any = (window as any).__neural;
+        const o = (a._optList || []).find((x: any) => x.node && x.node.t === c.getAttribute("data-tech"));
+        return o && o.node ? o.node.ty : null;
+      })(),
       mid:
         (c.querySelector("span[style*='letter-spacing:.16em']") || {})
           .textContent || "",
@@ -201,7 +208,15 @@ test("the card FACE labels the number opposite it", async ({ page }) => {
   let labelled = 0;
   for (const c of cards) {
     if (c.edge == null) continue;
-    expect(c.mid.trim(), `${c.tech} labels its corner number`).toBe("Edge");
+    // v1.129.1, OWNER'S DECISION: the middle slot names the move's KIND again (the pre-v1.118.0
+    // face) — "'edge' doesn't give us any information saying that. I'd rather you say 'submission
+    // position transition'". The corner number is bare on the card face as a result; that
+    // trade-off is recorded at `headMid`. Asserted per-type so a build that prints one constant
+    // for everything still fails.
+    expect(
+      c.mid.trim(),
+      `${c.tech} names what kind of move it is`,
+    ).toBe(c.ty === "submissions" ? "Submission" : c.ty === "positions" ? "Position" : "Transition");
     expect(c.edge, `${c.tech} renders a signed integer`).toMatch(/^[+-]?\d+$/);
     expect(c.edge, "never -0").not.toBe("-0");
     labelled++;

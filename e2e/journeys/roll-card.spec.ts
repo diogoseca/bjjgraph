@@ -465,3 +465,127 @@ for (const height of [900, 720]) {
     ).toBe(true)
   })
 }
+
+/**
+ * TAPPING A TECHNIQUE OPENS IT; IT DOES NOT MOVE YOU (v1.129.1). @curated
+ *
+ * Owner: "Can't seem to be able to click any submissions or transitions in the graph. When I click
+ * it, it seems to always go to an adjacent or nearby position."
+ *
+ * The tap handler's own comment gave it away — "tapping a node ROAMS to it; tapping the one you're
+ * already on reads it instead" — a TWO-branch rule written before v1.101.5 added a third. So every
+ * node that was not your own went to `stageRollAt`, and `rollFromPosition` deliberately hops a
+ * technique to its ORIGIN POSITION (`techniqueOrigin`, v1.126.0): correct for "play from here",
+ * exactly wrong for "open this". Measured before the fix: tapping `Float Passing` from Side Control
+ * Top landed on `Open Guard Top` with the card in "land" mode — a card about a position the player
+ * never tapped.
+ */
+test("@curated tapping a submission or transition opens its card and leaves the roll where it is", async ({
+  page,
+}) => {
+  const j = journey(page)
+  await j.boot("/Positions/Side-Control/Bottom")
+  await j.advance(6000)
+  for (let i = 0; i < 4; i++) {
+    await page.evaluate(() => document.body.getBoundingClientRect().top)
+    await j.advance(400)
+  }
+
+  const before = await page.evaluate(() => {
+    const a: any = (window as any).__neural
+    return { idx: a.currentPos, pos: a.nodes[a.currentPos].t }
+  })
+  const target = await page.evaluate(() => {
+    const a: any = (window as any).__neural
+    const scale = a.W / a.cam.vw
+    for (const n of a.nodes) {
+      if (n.ty === "positions") continue
+      const sx = (n.x - a.cam.cx) * scale + a.W / 2
+      const sy = (a._LY(n) - a.cam.cy) * scale + a.H / 2
+      if (sx > 120 && sx < a.W - 320 && sy > 90 && sy < a.H - 340)
+        return { sx, sy, t: n.t, ty: n.ty }
+    }
+    return null
+  })
+  expect(target, "there is a technique on screen to tap").not.toBeNull()
+
+  await page.mouse.click(target!.sx, target!.sy)
+  await j.advance(1200)
+
+  const after = await page.evaluate(() => {
+    const a: any = (window as any).__neural
+    const card = document.querySelector("[data-landcard]") as HTMLElement | null
+    return {
+      idx: a.currentPos,
+      pos: a.nodes[a.currentPos].t,
+      mode: card ? card.getAttribute("data-landcard") : null,
+      text: (card?.textContent || "").slice(0, 120),
+    }
+  })
+  expect(
+    after.idx,
+    `the roll did not move (was ${before.pos}, now ${after.pos})`,
+  ).toBe(before.idx)
+  expect(after.mode, "and the card is the TECHNIQUE's, not a landing").toBe("attempt")
+  expect(after.text, `naming the technique that was tapped`).toContain(
+    target!.t.split(" from ")[0],
+  )
+})
+
+/**
+ * A MOUSE CAN DRAG THE HAND (v1.129.1). @curated
+ *
+ * Owner: "Seems like I'm not able to scroll the options horizontally anymore. Either dragging or
+ * horizontally scrolling is not working."
+ *
+ * The WHEEL was fine — measured, a vertical wheel moved `scrollLeft` 0 -> 351 and a horizontal one
+ * -> 675. DRAGGING never worked: 0 -> 0 across a 600px press-and-drag, because no browser
+ * drag-scrolls an `overflow-x: auto` element with a mouse. v1.123.0 built a drag for this and
+ * reverted it, correctly — that one was written for TOUCH, where the browser already scrolls
+ * natively, so its own mutants could not kill its test. Mouse is the case that is really broken and
+ * really testable.
+ */
+test("@curated a mouse can drag the option row, and a drag is not a pick", async ({ page }) => {
+  const j = journey(page)
+  await j.boot("/")
+  await j.land("Side Control Top")
+  await j.advance(1200)
+
+  const t = await page.evaluate(() => {
+    const a: any = (window as any).__neural
+    const r = a.optionsRef.current
+    const b = r.getBoundingClientRect()
+    return {
+      left: r.scrollLeft,
+      overflow: r.scrollWidth - r.clientWidth,
+      cy: (b.top + b.bottom) / 2,
+      pos: a.nodes[a.currentPos].t,
+      moves: a.moveCount,
+    }
+  })
+  expect(t.overflow, "this hand really does overflow the tray").toBeGreaterThan(200)
+  expect(t.left, "and starts at the left").toBe(0)
+
+  await page.mouse.move(1000, t.cy)
+  await page.mouse.down()
+  for (let x = 1000; x >= 400; x -= 60) {
+    await page.mouse.move(x, t.cy)
+    await j.advance(16)
+  }
+  await page.mouse.up()
+  await j.advance(300)
+
+  const after = await page.evaluate(() => {
+    const a: any = (window as any).__neural
+    return {
+      left: a.optionsRef.current.scrollLeft,
+      pos: a.nodes[a.currentPos].t,
+      moves: a.moveCount,
+    }
+  })
+  expect(after.left, `the drag scrolled the hand (0 -> ${Math.round(after.left)})`).toBeGreaterThan(200)
+  // A DRAG IS NOT A PICK. Without the capture-phase click suppressor every drag that ended over a
+  // card would COMMIT that move — worse than not being able to scroll at all.
+  expect(after.pos, "and committed nothing").toBe(t.pos)
+  expect(after.moves, "no move was spent").toBe(t.moves)
+})
